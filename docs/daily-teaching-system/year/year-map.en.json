@@ -1,0 +1,2577 @@
+{
+ "locale": "en",
+ "yearWeeks": 36,
+ "teachingWeeks": 32,
+ "daysPerPoint": 3,
+ "daysPerUnit": 2,
+ "cells": [
+  {
+   "grade": "K",
+   "subject": "math",
+   "today": {
+    "units": 6,
+    "lessons": 30,
+    "teachingPoints": 30,
+    "planWeeks": 7,
+    "pacedWeeks": 20.4
+   },
+   "objectives": {
+    "framework": "ccss-math",
+    "fromPage": true,
+    "total": 24,
+    "taught": 20,
+    "near": 1,
+    "open": 3
+   },
+   "gap": {
+    "weeks": 11.6,
+    "teachingPointsNeeded": 18,
+    "idleTeachingPoints": 6
+   },
+   "answers": {
+    "worksheet": 2,
+    "text": 0,
+    "teacher-led": 2,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "K.CC.B.4.a",
+     "group": "Counting and Cardinality",
+     "state": "near",
+     "answer": "teacher-led",
+     "why": "Saying one number for each object is shown and watched, not written: a touch-and-count routine with real objects and the ten-frame tool, with what to listen for. The counting pages of the unit practise it afterwards.",
+     "by": "ruled",
+     "unit": "Counting to 10"
+    },
+    {
+     "code": "K.CC.C.7",
+     "group": "Counting and Cardinality",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Comparing two written numbers from 1 to 10 needs its own page (circle the greater number, with no pictures to count); the pages today compare groups of objects.",
+     "by": "ruled",
+     "unit": "Counting in Order to 20"
+    },
+    {
+     "code": "K.NBT.A.1",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The teen numbers as ten and some more on two ten-frames, with the equation 13 = 10 + 3. The teaching point exists and has no published page yet.",
+     "by": "ruled",
+     "unit": "Teen Numbers (new unit)"
+    },
+    {
+     "code": "K.MD.A.1",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "Describing what can be measured about one real object (how long, how heavy, how much it holds) is a talk with objects in hand; a page can only follow it.",
+     "by": "ruled",
+     "unit": "Position Words, Size, and Patterns"
+    }
+   ]
+  },
+  {
+   "grade": "K",
+   "subject": "literacy",
+   "today": {
+    "units": 4,
+    "lessons": 22,
+    "teachingPoints": 22,
+    "planWeeks": 7,
+    "pacedWeeks": 14.8
+   },
+   "objectives": {
+    "framework": "ccss-ela",
+    "fromPage": true,
+    "total": 65,
+    "taught": 17,
+    "near": 3,
+    "open": 45
+   },
+   "gap": {
+    "weeks": 17.2,
+    "teachingPointsNeeded": 26,
+    "idleTeachingPoints": 2
+   },
+   "answers": {
+    "worksheet": 22,
+    "text": 19,
+    "teacher-led": 7,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "RL.K.2",
+     "group": "Reading: Literature",
+     "state": "near",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.1",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.3",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.4",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.5",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.6",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.7",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.9",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.K.10",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.1",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.2",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.3",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.4",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.5",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.6",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.7",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.8",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.9",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.K.10",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.1.a",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.1.b",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.2.c",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.2.e",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.3.d",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.K.4",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.1",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.3",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.5",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.6",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.7",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.K.8",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.1.a",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.1.b",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.2",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.3",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.4",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.5",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.K.6",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.1.b",
+     "group": "Language",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.2.a",
+     "group": "Language",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.1.e",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.1.f",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.2.b",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.4.a",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.4.b",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.5.c",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.5.d",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.K.6",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    }
+   ]
+  },
+  {
+   "grade": "1",
+   "subject": "math",
+   "today": {
+    "units": 6,
+    "lessons": 32,
+    "teachingPoints": 32,
+    "planWeeks": 8,
+    "pacedWeeks": 21.6
+   },
+   "objectives": {
+    "framework": "ccss-math",
+    "fromPage": true,
+    "total": 24,
+    "taught": 17,
+    "near": 2,
+    "open": 5
+   },
+   "gap": {
+    "weeks": 10.4,
+    "teachingPointsNeeded": 16,
+    "idleTeachingPoints": 9
+   },
+   "answers": {
+    "worksheet": 7,
+    "text": 0,
+    "teacher-led": 0,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "1.OA.A.2",
+     "group": "Operations and Algebraic Thinking",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "Story problems with three numbers to add (total up to 20): the unit teaches three addends as bare sums today, not as a story with a drawing and an equation.",
+     "by": "ruled",
+     "unit": "Doubles, Three Addends, and Addition Pyramids"
+    },
+    {
+     "code": "1.OA.D.7",
+     "group": "Operations and Algebraic Thinking",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "The equal sign as 'the same as': decide whether an equation is true or false, including 8 = 5 + 3. The teaching point exists and has no published page yet.",
+     "by": "ruled",
+     "unit": "Addition and Subtraction Within 10"
+    },
+    {
+     "code": "1.NBT.B.2.b",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The numbers 11 to 19 as one ten and some ones: a page with a ten-rod and loose cubes for the teens before the unit goes on to any two-digit number.",
+     "by": "ruled",
+     "unit": "Tens and Ones"
+    },
+    {
+     "code": "1.NBT.B.2.c",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The decade numbers 10 to 90 as a count of tens with no ones left: a page of ten-rods to count and write.",
+     "by": "ruled",
+     "unit": "Tens and Ones"
+    },
+    {
+     "code": "1.NBT.C.4",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Adding a two-digit number and a one-digit number, and a two-digit number and a multiple of ten, with tens and ones and on the open number line. Two teaching points exist for it and have no published page.",
+     "by": "ruled",
+     "unit": "Adding Within 100 (new unit)"
+    },
+    {
+     "code": "1.NBT.C.6",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Subtracting tens from tens (70 − 30) with ten-rods and on the hundreds chart.",
+     "by": "ruled",
+     "unit": "Adding Within 100 (new unit)"
+    },
+    {
+     "code": "1.G.A.3",
+     "group": "Geometry",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Halves and fourths of circles and rectangles: a page to split and to name the shares. The two screen activities on equal shares that are live join the lesson as its screen task.",
+     "by": "ruled",
+     "unit": "Shapes, Measuring, and Graphs"
+    }
+   ]
+  },
+  {
+   "grade": "1",
+   "subject": "literacy",
+   "today": {
+    "units": 3,
+    "lessons": 19,
+    "teachingPoints": 19,
+    "planWeeks": 5,
+    "pacedWeeks": 12.6
+   },
+   "objectives": {
+    "framework": "ccss-ela",
+    "fromPage": true,
+    "total": 73,
+    "taught": 22,
+    "near": 2,
+    "open": 49
+   },
+   "gap": {
+    "weeks": 19.4,
+    "teachingPointsNeeded": 29,
+    "idleTeachingPoints": 2
+   },
+   "answers": {
+    "worksheet": 25,
+    "text": 18,
+    "teacher-led": 8,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "RL.1.2",
+     "group": "Reading: Literature",
+     "state": "near",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.1",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.3",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.4",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.5",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.6",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.9",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.1.10",
+     "group": "Reading: Literature",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.1",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.2",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.3",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.4",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.5",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.6",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.7",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.8",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.9",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.1.10",
+     "group": "Reading: Informational Text",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.1.a",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.2.a",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.2.c",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.3.c",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.3.f",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.3.g",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.1.4.b",
+     "group": "Reading: Foundational Skills",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.1",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.2",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.3",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.5",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.6",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.7",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.1.8",
+     "group": "Writing",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.1.a",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.1.b",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.1.c",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.2",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.3",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.4",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.5",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.1.6",
+     "group": "Speaking and Listening",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.5.b",
+     "group": "Language",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.1.a",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.1.b",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.1.c",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.1.g",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.1.i",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.2.a",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.2.c",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.4.b",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.5.c",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.1.6",
+     "group": "Language",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    }
+   ]
+  },
+  {
+   "grade": "2",
+   "subject": "math",
+   "today": {
+    "units": 6,
+    "lessons": 34,
+    "teachingPoints": 34,
+    "planWeeks": 9,
+    "pacedWeeks": 22.8
+   },
+   "objectives": {
+    "framework": "ccss-math",
+    "fromPage": true,
+    "total": 28,
+    "taught": 17,
+    "near": 2,
+    "open": 9
+   },
+   "gap": {
+    "weeks": 9.2,
+    "teachingPointsNeeded": 14,
+    "idleTeachingPoints": 4
+   },
+   "answers": {
+    "worksheet": 10,
+    "text": 0,
+    "teacher-led": 1,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "2.OA.B.2",
+     "group": "Operations and Algebraic Thinking",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "Facts within 20 from memory: short daily fact pages at the start of the unit (no timer on them), and the facts check of Part 7.8.",
+     "by": "ruled",
+     "unit": "Adding and Subtracting Within 100 and 1,000"
+    },
+    {
+     "code": "2.OA.A.1",
+     "group": "Operations and Algebraic Thinking",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "One-step and two-step story problems within 100 with a bar model and an equation with a box for the unknown. The teaching point exists and has no published page.",
+     "by": "ruled",
+     "unit": "Adding and Subtracting Within 100 and 1,000"
+    },
+    {
+     "code": "2.NBT.A.1.a",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "One hundred as a bundle of ten tens: bundle the ten-rods, then write the number.",
+     "by": "ruled",
+     "unit": "Place Value to 1,000"
+    },
+    {
+     "code": "2.NBT.A.1.b",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The numbers 100 to 900 as a count of hundreds with no tens and no ones.",
+     "by": "ruled",
+     "unit": "Place Value to 1,000"
+    },
+    {
+     "code": "2.NBT.B.6",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Adding up to four two-digit numbers in columns and by making tens first.",
+     "by": "ruled",
+     "unit": "Adding and Subtracting Within 100 and 1,000"
+    },
+    {
+     "code": "2.NBT.B.9",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "Explaining why a way of adding or subtracting works is said aloud: a number talk with the tool the site has for it, two worked examples to compare, and what to listen for. A page cannot hear an explanation.",
+     "by": "ruled",
+     "unit": "Adding and Subtracting Within 100 and 1,000"
+    },
+    {
+     "code": "2.MD.D.9",
+     "group": "Measurement and Data",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "Measure several objects to the nearest whole unit and show the lengths on a line plot. The unit has graphs of counted things today, none of measured lengths.",
+     "by": "ruled",
+     "unit": "Graphs and Grids"
+    },
+    {
+     "code": "2.MD.A.2",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Measure the same length with two different units and say why the numbers differ. The classroom tool that measures one object with two units opens the lesson.",
+     "by": "ruled",
+     "unit": "Measurement, Time, and Money"
+    },
+    {
+     "code": "2.MD.A.3",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Estimate a length in inches, feet, centimeters or meters, then measure and compare. The teaching point for choosing the unit exists and has no published page.",
+     "by": "ruled",
+     "unit": "Measurement, Time, and Money"
+    },
+    {
+     "code": "2.MD.B.5",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Story problems about lengths in the same unit within 100, with a drawing of the lengths.",
+     "by": "ruled",
+     "unit": "Measurement, Time, and Money"
+    },
+    {
+     "code": "2.G.A.2",
+     "group": "Geometry",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Split a rectangle into rows and columns of equal squares and count them: the step from arrays to area.",
+     "by": "ruled",
+     "unit": "Equal Groups and Equal Shares"
+    }
+   ]
+  },
+  {
+   "grade": "2",
+   "subject": "literacy",
+   "today": {
+    "units": 3,
+    "lessons": 18,
+    "teachingPoints": 18,
+    "planWeeks": 6,
+    "pacedWeeks": 12
+   },
+   "objectives": {
+    "framework": "ccss-ela",
+    "fromPage": false,
+    "total": 63,
+    "taught": 13,
+    "near": 5,
+    "open": 45
+   },
+   "gap": {
+    "weeks": 20,
+    "teachingPointsNeeded": 30,
+    "idleTeachingPoints": 3
+   },
+   "answers": {
+    "worksheet": 24,
+    "text": 18,
+    "teacher-led": 8,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "L.2.1.a",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.1.c",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.1.e",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.2.a",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.2.b",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.2.c",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.2.e",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.3.a",
+     "group": "Use knowledge of language and its conventions when writing, speaking, reading, or listening.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.4.e",
+     "group": "Determine or clarify the meaning of unknown and multiple-meaning words and phrases based on grade 2 reading and content, choosing flexibly from an array of strategies.",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.5.a",
+     "group": "Demonstrate understanding of word relationships and nuances in word meanings.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.2.6",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.a",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.b",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.c",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.d",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.e",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.3.f",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.4.a",
+     "group": "Read with sufficient accuracy and fluency to support comprehension.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.2.4.b",
+     "group": "Read with sufficient accuracy and fluency to support comprehension.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.1",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.2",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.3",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.4",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.5",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.6",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.7",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.8",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.9",
+     "group": "",
+     "state": "near",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.2.10",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.2",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.3",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.4",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.5",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.6",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.7",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.9",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.2.10",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.1.a",
+     "group": "Participate in collaborative conversations with diverse partners about grade 2 topics and texts with peers and adults in small and larger groups.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.1.b",
+     "group": "Participate in collaborative conversations with diverse partners about grade 2 topics and texts with peers and adults in small and larger groups.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.1.c",
+     "group": "Participate in collaborative conversations with diverse partners about grade 2 topics and texts with peers and adults in small and larger groups.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.2",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.3",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.4",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.5",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.2.6",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.2.1",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.2.2",
+     "group": "",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.2.5",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.2.6",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.2.7",
+     "group": "",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    }
+   ]
+  },
+  {
+   "grade": "3",
+   "subject": "math",
+   "today": {
+    "units": 7,
+    "lessons": 41,
+    "teachingPoints": 41,
+    "planWeeks": 10,
+    "pacedWeeks": 27.4
+   },
+   "objectives": {
+    "framework": "ccss-math",
+    "fromPage": true,
+    "total": 34,
+    "taught": 23,
+    "near": 2,
+    "open": 9
+   },
+   "gap": {
+    "weeks": 4.6,
+    "teachingPointsNeeded": 7,
+    "idleTeachingPoints": 2
+   },
+   "answers": {
+    "worksheet": 11,
+    "text": 0,
+    "teacher-led": 0,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "3.OA.D.8",
+     "group": "Operations and Algebraic Thinking",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "Two-step story problems with all four operations, a letter for the unknown, and a check by rounding. The units today have one-step problems inside each operation.",
+     "by": "ruled",
+     "unit": "Two-Step Problems (new unit)"
+    },
+    {
+     "code": "3.NBT.A.3",
+     "group": "Number and Operations in Base Ten",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "A one-digit number times a multiple of ten (4 × 60) from the fact 4 × 6 and place value.",
+     "by": "ruled",
+     "unit": "Starting Multiplication"
+    },
+    {
+     "code": "3.NF.A.2.a",
+     "group": "Number and Operations—Fractions",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "A unit fraction on the number line: split the stretch from 0 to 1 into equal parts and mark the first one.",
+     "by": "ruled",
+     "unit": "Fractions"
+    },
+    {
+     "code": "3.NF.A.2.b",
+     "group": "Number and Operations—Fractions",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Any fraction on the number line as so many steps of the unit fraction from 0.",
+     "by": "ruled",
+     "unit": "Fractions"
+    },
+    {
+     "code": "3.NF.A.3.c",
+     "group": "Number and Operations—Fractions",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "Whole numbers written as fractions (3 = 3/1, 4/4 = 1) and found at the same point of the number line.",
+     "by": "ruled",
+     "unit": "Fractions"
+    },
+    {
+     "code": "3.MD.B.4",
+     "group": "Measurement and Data",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "Measure lengths to the half and the quarter inch with the ruler drawn on the page, and show them on a line plot.",
+     "by": "ruled",
+     "unit": "Shapes and Data"
+    },
+    {
+     "code": "3.MD.C.5.a",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The unit square as the measure of area: one square with a side of one unit has an area of one square unit.",
+     "by": "ruled",
+     "unit": "Area and Perimeter"
+    },
+    {
+     "code": "3.MD.C.5.b",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "A shape covered by n unit squares with no gaps and no overlaps has an area of n square units: cover and count.",
+     "by": "ruled",
+     "unit": "Area and Perimeter"
+    },
+    {
+     "code": "3.MD.C.7.b",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The area of a rectangle from its two side lengths in a story (a rug, a garden bed), as a product.",
+     "by": "ruled",
+     "unit": "Area and Perimeter"
+    },
+    {
+     "code": "3.MD.C.7.c",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "A rectangle cut in two shows that a × (b + c) is a × b plus a × c: the area model of the distributive property.",
+     "by": "ruled",
+     "unit": "Area and Perimeter"
+    },
+    {
+     "code": "3.MD.C.7.d",
+     "group": "Measurement and Data",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "The area of an L-shaped figure by cutting it into rectangles and adding their areas.",
+     "by": "ruled",
+     "unit": "Area and Perimeter"
+    }
+   ]
+  },
+  {
+   "grade": "3",
+   "subject": "literacy",
+   "today": {
+    "units": 1,
+    "lessons": 4,
+    "teachingPoints": 4,
+    "planWeeks": null,
+    "pacedWeeks": 2.8
+   },
+   "objectives": {
+    "framework": "ccss-ela",
+    "fromPage": false,
+    "total": 79,
+    "taught": 5,
+    "near": 3,
+    "open": 71
+   },
+   "gap": {
+    "weeks": 29.2,
+    "teachingPointsNeeded": 43,
+    "idleTeachingPoints": 1
+   },
+   "answers": {
+    "worksheet": 46,
+    "text": 19,
+    "teacher-led": 9,
+    "activity": 0,
+    "none": 0
+   },
+   "open": [
+    {
+     "code": "L.3.1.b",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.c",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.d",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.f",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.g",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.h",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.1.i",
+     "group": "Demonstrate command of the conventions of standard English grammar and usage when writing or speaking.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.a",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.b",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.c",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.d",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.f",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.2.g",
+     "group": "Demonstrate command of the conventions of standard English capitalization, punctuation, and spelling when writing.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.3.a",
+     "group": "Use knowledge of language and its conventions when writing, speaking, reading, or listening.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.3.b",
+     "group": "Use knowledge of language and its conventions when writing, speaking, reading, or listening.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.4.a",
+     "group": "Determine or clarify the meaning of unknown and multiple-meaning word and phrases based on grade 3 reading and content, choosing flexibly from a range of strategies.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.4.c",
+     "group": "Determine or clarify the meaning of unknown and multiple-meaning word and phrases based on grade 3 reading and content, choosing flexibly from a range of strategies.",
+     "state": "near",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.4.d",
+     "group": "Determine or clarify the meaning of unknown and multiple-meaning word and phrases based on grade 3 reading and content, choosing flexibly from a range of strategies.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.5.a",
+     "group": "Demonstrate understanding of word relationships and nuances in word meanings.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.5.b",
+     "group": "Demonstrate understanding of word relationships and nuances in word meanings.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.5.c",
+     "group": "Demonstrate understanding of word relationships and nuances in word meanings.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "L.3.6",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a language objective (grammar, conventions, vocabulary) is practised on a page",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.3.b",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.3.c",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.3.d",
+     "group": "Know and apply grade-level phonics and word analysis skills in decoding words.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.4.a",
+     "group": "Read with sufficient accuracy and fluency to support comprehension.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.4.b",
+     "group": "Read with sufficient accuracy and fluency to support comprehension.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RF.3.4.c",
+     "group": "Read with sufficient accuracy and fluency to support comprehension.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "a foundational reading skill (print, sounds, phonics, fluency) is practised on a page and in the decodable readers",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.1",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.2",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.3",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.4",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.5",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.6",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.7",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.8",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.9",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RI.3.10",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading informational text needs information texts to read: the theme readers of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.1",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.2",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.3",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.4",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.5",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.6",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.7",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.9",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "RL.3.10",
+     "group": "",
+     "state": "open",
+     "answer": "text",
+     "why": "reading literature needs stories to read: the readers and story texts of Part 8, with questions",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.1.a",
+     "group": "Engage effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grade 3 topics and texts, building on others' ideas and expressing their own clearly.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.1.b",
+     "group": "Engage effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grade 3 topics and texts, building on others' ideas and expressing their own clearly.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.1.c",
+     "group": "Engage effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grade 3 topics and texts, building on others' ideas and expressing their own clearly.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.1.d",
+     "group": "Engage effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grade 3 topics and texts, building on others' ideas and expressing their own clearly.",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.2",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.3",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.4",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.5",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "SL.3.6",
+     "group": "",
+     "state": "open",
+     "answer": "teacher-led",
+     "why": "speaking and listening is a lesson the teacher leads: a routine, a classroom tool, what to listen for",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.1.a",
+     "group": "Write opinion pieces on topics or texts, supporting a point of view with reasons.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.1.b",
+     "group": "Write opinion pieces on topics or texts, supporting a point of view with reasons.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.1.c",
+     "group": "Write opinion pieces on topics or texts, supporting a point of view with reasons.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.1.d",
+     "group": "Write opinion pieces on topics or texts, supporting a point of view with reasons.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.2.a",
+     "group": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.2.b",
+     "group": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.2.c",
+     "group": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.2.d",
+     "group": "Write informative/explanatory texts to examine a topic and convey ideas and information clearly.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.3.a",
+     "group": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.3.b",
+     "group": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.3.c",
+     "group": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.3.d",
+     "group": "Write narratives to develop real or imagined experiences or events using effective technique, descriptive details, and clear event sequences.",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.4",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.5",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.6",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.7",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.8",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    },
+    {
+     "code": "W.3.10",
+     "group": "",
+     "state": "open",
+     "answer": "worksheet",
+     "why": "writing is done on a writing page for the kind of text (opinion, information, story), with a rubric (Part 7)",
+     "by": "default",
+     "unit": null
+    }
+   ]
+  }
+ ]
+}

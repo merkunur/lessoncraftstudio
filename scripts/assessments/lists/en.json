@@ -1,19 +1,35 @@
 {
- "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason.",
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts).",
  "drop": {
   "k-sorting-tallies-days": {
    "4": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
   },
   "k-putting-together-number-bonds": {
    "4": "[en.review-k1-math] The missing part of 20 without a picture cannot be tried by a child before the unit; far above the bonds of 5 in the part before it."
+  },
+  "g2-place-value-to-1000": {
+   "1": "[en.review-g23-math] The answer frame of the worksheet reads \"[ ] ■×10 + [ ]\": a second grader has not met the multiplication sign, and nothing says which box is tens and which is ones."
   }
  },
  "instruction": {
   "K-016": "The pictures are in pairs. If one is left over, the number is odd. Circle odd or even.",
   "G1-287": "Each card shows a double. Write how many in all.",
-  "K-032": "Circle the BIGGEST one."
+  "K-032": "Circle the BIGGEST one.",
+  "G2-305": "This number line does not start at 0. Write the number each arrow points to.",
+  "G2-210": "Count the equal groups. Finish the multiplication sentence. Write how many in all.",
+  "G2-233": "Look at the fraction. Circle that part of the group. Write how many you circled.",
+  "G3-320": "Look at the fraction. Circle that part of the group. Write how many you circled.",
+  "G3-338": "Look at the first rectangle. Circle the rectangle on the right that covers the SAME number of squares.",
+  "G3-337": "Count the sides of the small squares all the way around each rectangle. Write the perimeter.",
+  "G3-339": "Look at the first rectangle. Circle the rectangle on the right with the SAME distance around.",
+  "G3-346": "Count all the cubes in each shape. Write the total.",
+  "G3-321": "The small square is one part of a whole. Read its fraction. Circle the bar that shows the WHOLE.",
+  "G3-319": "Look at both bars. Circle the greater fraction."
  },
- "noCheck": {},
+ "noCheck": {
+  "g2-shapes-solids-symmetry": "[en.review-g23-math] The pictures keyed as symmetrical are drawn with shading and uneven details (a persimmon with a highlight on one side, a bat with a mouth mark left of the line): \"no\" can be defended. Without that part the unit has two parts, fewer than a check needs.",
+  "g3-time-temperature-mass-volume": "[en.review-g23-math] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks; 24-hour time is not taught in U.S. Grades K-3. One part would be left."
+ },
  "avoid": {
   "K-016": [
    10
@@ -21,6 +37,36 @@
  },
  "reasons": {
   "K-016 avoid 10": "[en.review-k1-math-2] With 10 pictures the fifth pair stands alone under the row, where the leftover picture stands in the other boxes: a child can read it as one left over.",
-  "K-032 instruction": "The worksheet says \"in each row\"; a check has one row."
- }
+  "K-032 instruction": "The worksheet says \"in each row\"; a check has one row.",
+  "G3-364 blend G3-365": "The lesson is the facts of 2 and of 5 and hands out one worksheet per table; a part cut from the first alone asks no fact of 5.",
+  "instructions of 2026-11-12": "[en.review-g23-math] Ten direction lines reworded for a box that stands alone and for U.S. classrooms (what to write, which rectangle to compare with, \"greater\" for numbers, \"shape\" for a wall of cubes).",
+  "G2-233 G3-320 sameGiven": "[en.review-g23-math] A half of a group in form A and a fourth in form B are not one level.",
+  "G3-315 lowestTerms": "[en.review-g23-math] 2 of 4 shaded is 2/4 and 1/2: both are right, and the unit teaches exactly that.",
+  "G3-317 avoidAns": "[en.review-g23-math] The first mark after 0 (a unit fraction) is the easiest point of a number line; both forms mark a fraction with a top number above 1.",
+  "G3-319 pairKind": "[en.review-g23-math] Grade 3 compares fractions with the same top or the same bottom number; 1/3 against 4/6 is another task.",
+  "G3-343 sameLook": "[en.review-g23-math] Shapes cut into eight parts in form A and two halves in form B are not one level.",
+  "one number once per form": "[en.review-g23-math] In a check on counting to 10 the number 5 was the answer three times in one form.",
+  "three-digit numbers": "[en.review-g23-math] 262 reads the same with its places in the wrong order; all four pairs to compare were decided by the hundreds alone."
+ },
+ "blend": {
+  "G3-364": [
+   "G3-365"
+  ]
+ },
+ "sameGiven": [
+  "G2-233",
+  "G3-320"
+ ],
+ "lowestTerms": [
+  "G3-315"
+ ],
+ "avoidAns": {
+  "G3-317": "^[01]\\d$"
+ },
+ "pairKind": [
+  "G3-319"
+ ],
+ "sameLook": [
+  "G3-343"
+ ]
 }

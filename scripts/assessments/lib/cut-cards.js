@@ -19,11 +19,16 @@
  *   kind         the shape of the task with every number replaced by n and every word by w: "n + ? = n" is not
  *                "n + n = ?" (the signs stay: a plus task is not a minus task)
  *   nums, mag    the numbers the card shows or asks for, and the largest of them (its size)
+ *   given        the numbers the card PRINTS, in the order it prints them (the fraction of "1/4 of the pictures")
  *   key          what makes two cards THE SAME TASK: the same numbers in any order (4 and 1 is 1 and 4: a FACT,
  *                key "n:…"); the one number a card prints and asks about; else the same look (two shapes with four
  *                sides are two tasks)
  *   plain        false for a number a check should not lean on when another card exists (a two-digit number with
  *                two equal digits: swapping tens and ones goes unnoticed)
+ *   ask          of a choice card: a fingerprint of the card without its options (what it asks); null when the card
+ *                is nothing but its options
+ *   twins        a choice card that shows one picture twice among its options
+ *   nh           the height of the card without the stretch of its worksheet page (h when its pictures need the stretch)
  */
 'use strict';
 const fs = require('fs');
@@ -83,11 +88,25 @@ async function cutCards(page, o) {
       const shownAs = c.innerHTML.replace(/<span class="ws-card-badge">[^<]*<\/span>/, '').replace(/\s+/g, ' ');
       let hash = 5381; for (let i = 0; i < shownAs.length; i++) hash = ((hash << 5) + hash + shownAs.charCodeAt(i)) >>> 0;
       const look = hash.toString(16) + '.' + shownAs.length;
+      // a choice card: what it ASKS is the card without its options (the clock, the rectangle to match); two cards
+      // that ask the same thing with other options are one task. And a card whose options hold the same picture
+      // twice is a weak task (two identical halved circles to circle).
+      let ask = null, twins = false;
+      if (first && first.parentElement && first.parentElement !== c) {
+        const opts = [...first.parentElement.children].map((e) => e.innerHTML.replace(/\s+/g, ' '));
+        twins = opts.some((o, i) => /<(svg|img)/.test(o) && opts.indexOf(o) !== i);
+        const copy = c.cloneNode(true);
+        const badge = copy.querySelector('.ws-card-badge'); if (badge) badge.remove();
+        const mark = copy.querySelector('[data-lcs-correct]'); if (mark && mark.parentElement) mark.parentElement.remove();
+        const rest = copy.innerHTML.replace(/\s+/g, ' ');
+        if (/<(svg|img)/.test(rest) || copy.textContent.trim()) { let h2 = 5381; for (let i = 0; i < rest.length; i++) h2 = ((h2 << 5) + h2 + rest.charCodeAt(i)) >>> 0; ask = h2.toString(16) + '.' + rest.length; }
+      }
       return {
+        ask, twins,
         html: c.outerHTML, w: Math.round(r.width), h: Math.round(r.height),
         answers: answers.length + correct.length, ans: answers.concat(choice).join('|'),
         pos: first ? [...first.parentElement.children].indexOf(first) : null,
-        kind: kind.join(' ').replace(/\s+/g, ' '), nums: sorted, mag: sorted.length ? sorted[sorted.length - 1] : 0,
+        kind: kind.join(' ').replace(/\s+/g, ' '), nums: sorted, given, mag: sorted.length ? sorted[sorted.length - 1] : 0,
         // two or more numbers are a fact (4 + 1 = 5 is 1 + 4 = 5); a card with one number or none is the same task
         // only when it shows the same thing (two shapes with four sides are two tasks)
         // … and a card that prints ONE number and asks about it (9: odd or even? 20: which word?) is the task of that number
@@ -101,6 +120,14 @@ async function cutCards(page, o) {
         plain: !answers.some((a) => /^(\d)\1$/.test(String(a))),
       };
     });
+    // how tall a card is WITHOUT the stretch of its worksheet page (a page of four cards stretches each to a quarter of
+    // the page; in a check that is blank paper). The grid is let go and each card measured again; a card whose
+    // pictures change their size when let go keeps the height it has on the page.
+    const els = [...grid.children].filter((c) => c.classList.contains('ws-card'));
+    const pics = (c) => [...c.querySelectorAll('img,svg')].map((e) => { const b = e.getBoundingClientRect(); return Math.round(b.width) + 'x' + Math.round(b.height); }).join(',');
+    const before = els.map(pics);
+    grid.style.cssText += ';flex:0 0 auto !important;height:auto !important;grid-template-rows:none !important;grid-auto-rows:max-content !important;align-content:start !important;align-items:start !important';
+    els.forEach((c, i) => { const r = c.getBoundingClientRect(); cards[i].nh = pics(c) === before[i] && r.height > 20 ? Math.min(cards[i].h, Math.ceil(r.height)) : cards[i].h; });
     return { alone: true, cols, cards };
   });
   fs.unlinkSync(file);
@@ -123,7 +150,19 @@ async function cutCards(page, o) {
       return [...document.querySelectorAll('.ws-cardgrid > .ws-card')].map((c) => {
         const marks = [...c.querySelectorAll(MARK)];
         const say = (e) => (e.textContent || '').trim() || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'mark ' + [...e.parentElement.children].indexOf(e);
-        return { html: c.outerHTML, marks: marks.length, says: marks.map(say).join('|'), pos: marks[0] ? [...marks[0].parentElement.children].indexOf(marks[0]) : null };
+        // what the card asks and whether an option stands twice, as in the page of the child (see there)
+        let ask = null, twins = false;
+        if (marks[0] && marks[0].parentElement && marks[0].parentElement !== c) {
+          const strip = (h) => h.replace(/<[^>]*data-lcs-key-[^>]*>[\s\S]*?<\/[a-z]+>/g, '').replace(/\s+/g, ' ');
+          const opts = [...marks[0].parentElement.children].filter((e) => !e.matches('[data-lcs-key-ring],[data-lcs-key-badge]')).map((e) => strip(e.innerHTML));
+          twins = opts.some((o, i) => /<(svg|img)/.test(o) && opts.indexOf(o) !== i);
+          const copy = c.cloneNode(true);
+          const badge = copy.querySelector('.ws-card-badge'); if (badge) badge.remove();
+          const mark = copy.querySelector(MARK); if (mark && mark.parentElement && mark.parentElement !== copy) mark.parentElement.remove();
+          const rest = copy.innerHTML.replace(/\s+/g, ' ');
+          if (/<(svg|img)/.test(rest) || copy.textContent.trim()) { let h2 = 5381; for (let i = 0; i < rest.length; i++) h2 = ((h2 << 5) + h2 + rest.charCodeAt(i)) >>> 0; ask = h2.toString(16) + '.' + rest.length; }
+        }
+        return { html: c.outerHTML, marks: marks.length, says: marks.map(say).join('|'), pos: marks[0] ? [...marks[0].parentElement.children].indexOf(marks[0]) : null, ask, twins };
       });
     });
     fs.unlinkSync(file);
@@ -132,7 +171,7 @@ async function cutCards(page, o) {
     cut.cards.forEach((c, i) => {
       const k = keyCards[i];
       c.keyHtml = k.html;
-      if (!c.answers && k.marks) { c.answers = k.marks; c.ans = k.marks + ':' + k.says; c.pos = k.pos; }
+      if (!c.answers && k.marks) { c.answers = k.marks; c.ans = k.marks + ':' + k.says; c.pos = k.pos; c.ask = k.ask; c.twins = k.twins; }
     });
   }
   if (cut.cards.some((c) => !c.answers)) return { refused: 'a card carries no answer in its markup, and the type draws no key for it' };

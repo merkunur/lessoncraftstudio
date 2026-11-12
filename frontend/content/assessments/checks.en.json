@@ -176,11 +176,11 @@
      "pages": 3,
      "cards": [
       [
-       "2763cc0dd652cb6f",
+       "d2b3b1ab82d83876",
        "3fec5b8d1053d2ad"
       ],
       [
-       "d2b3b1ab82d83876"
+       "2763cc0dd652cb6f"
       ],
       [
        "984e6d549befda83"
@@ -257,11 +257,11 @@
      ],
      "sizes": [
       [
-       4,
+       5,
        2
       ],
       [
-       5
+       4
       ],
       [
        10
@@ -299,13 +299,20 @@
     },
     {
      "part": 2,
+     "lesson": 3,
+     "title": "Biggest and tallest",
+     "type": "K-032",
+     "tasks": 1
+    },
+    {
+     "part": 3,
      "lesson": 4,
      "title": "Put them in order by size",
      "type": "K-033",
      "tasks": 1
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 5,
      "title": "What comes next?",
      "type": "K-046",
@@ -313,8 +320,7 @@
     }
    ],
    "notCovered": [
-    2,
-    3
+    2
    ],
    "forms": {
     "A": {
@@ -322,6 +328,9 @@
      "cards": [
       [
        "e63f3f3e1d7bd0b3"
+      ],
+      [
+       "918ed2eff1977a4b"
       ],
       [
        "8e11dea8c7613247"
@@ -335,6 +344,9 @@
        1
       ],
       [
+       3
+      ],
+      [
        null
       ],
       [
@@ -346,6 +358,9 @@
        ""
       ],
       [
+       ""
+      ],
+      [
        "? ? ?"
       ],
       [
@@ -353,6 +368,9 @@
       ]
      ],
      "sizes": [
+      [
+       0
+      ],
       [
        0
       ],
@@ -371,6 +389,9 @@
        "3a53f02823bf0c71"
       ],
       [
+       "f0460d18aaf141fe"
+      ],
+      [
        "b7b999abb594da89"
       ],
       [
@@ -378,6 +399,9 @@
       ]
      ],
      "pos": [
+      [
+       1
+      ],
       [
        1
       ],
@@ -393,6 +417,9 @@
        ""
       ],
       [
+       ""
+      ],
+      [
        "? ? ?"
       ],
       [
@@ -404,10 +431,189 @@
        0
       ],
       [
+       0
+      ],
+      [
        3
       ],
       [
        0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "k-counting-to-10",
+   "slug": "counting-to-10-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "Count and write how many",
+     "type": "K-006",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Make a group of that many",
+     "type": "K-011",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 6,
+     "title": "How many? Look fast",
+     "type": "K-018",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 7,
+     "title": "More and fewer",
+     "type": "K-008",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1,
+    2,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "835610219d18fd01",
+       "72a30397edb3b6db"
+      ],
+      [
+       "f630110750e49b8f"
+      ],
+      [
+       "c2f8693f3be49414",
+       "0fdfd96b7684ef62"
+      ],
+      [
+       "980c98f612a1f6a9"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "w"
+      ],
+      [
+       "w w w",
+       "w w w"
+      ],
+      [
+       ""
+      ]
+     ],
+     "sizes": [
+      [
+       9,
+       6
+      ],
+      [
+       3
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       8
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "e3a6860ce0373b38",
+       "3bb8d45bb090d6df"
+      ],
+      [
+       "7c73961d99723c1f"
+      ],
+      [
+       "3cfc40a12c0f3000",
+       "e18143bf5aee8cca"
+      ],
+      [
+       "91c2c0cd8e56849f"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "w"
+      ],
+      [
+       "w w w",
+       "w w w"
+      ],
+      [
+       ""
+      ]
+     ],
+     "sizes": [
+      [
+       10,
+       5
+      ],
+      [
+       4
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       8
       ]
      ]
     }
@@ -500,7 +706,7 @@
      "pages": 2,
      "cards": [
       [
-       "78262bda69fdefff"
+       "840ad123db6ba20c"
       ],
       [
        "d2b3b1ab82d83876"
@@ -536,7 +742,7 @@
      ],
      "sizes": [
       [
-       7
+       8
       ],
       [
        5
@@ -643,10 +849,10 @@
        "b3dfd80127d3ed5f"
       ],
       [
-       "5e1097f58a9799c1"
+       "2f57eedffe811a3e"
       ],
       [
-       "1399d1ae953d6010",
+       "f61c63a05590bf80",
        "fd064092408ca858"
       ]
      ],
@@ -682,7 +888,7 @@
        6
       ],
       [
-       8
+       9
       ],
       [
        9,
@@ -830,6 +1036,926 @@
       [
        89,
        68
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-place-value-to-1000",
+   "slug": "place-value-to-1000-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "A number line that does not start at zero",
+     "type": "G2-305",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 5,
+     "title": "Hundreds, tens, and ones",
+     "type": "G2-222",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 6,
+     "title": "Expanded form and the value of a digit",
+     "type": "G2-223",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 7,
+     "title": "Compare and order three-digit numbers",
+     "type": "G2-219",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 8,
+     "title": "100 more, 100 less",
+     "type": "G2-226",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    2,
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "6d4841f608f13805"
+      ],
+      [
+       "27e084c081b4458f"
+      ],
+      [
+       "fdfa7dbdae82d98f"
+      ],
+      [
+       "4cb93ea7ba2af9e0",
+       "2a622531f19bfed1"
+      ],
+      [
+       "3c99d24f19ebe1af",
+       "e73264cd04de5109"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w ? ?"
+      ],
+      [
+       "?"
+      ],
+      [
+       "w + w + w w + w + w w + w + w"
+      ],
+      [
+       "w < = > w",
+       "w < = > w"
+      ],
+      [
+       "? −w w +w ?",
+       "? −w w +w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       60
+      ],
+      [
+       267
+      ],
+      [
+       600
+      ],
+      [
+       775,
+       651
+      ],
+      [
+       791,
+       524
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "830b22e9fd7ff61e"
+      ],
+      [
+       "52a5a7e36c17d220"
+      ],
+      [
+       "f63545c252ede0a1"
+      ],
+      [
+       "4095df93dad9d6ec",
+       "27fad5b3107e9580"
+      ],
+      [
+       "a2e8aa3158b50198",
+       "2bd8abf9d8a171e0"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w ? ?"
+      ],
+      [
+       "?"
+      ],
+      [
+       "w + w + w w + w + w w + w + w"
+      ],
+      [
+       "w < = > w",
+       "w < = > w"
+      ],
+      [
+       "? −w w +w ?",
+       "? −w w +w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       60
+      ],
+      [
+       246
+      ],
+      [
+       500
+      ],
+      [
+       697,
+       725
+      ],
+      [
+       845,
+       489
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-equal-groups-equal-shares",
+   "slug": "equal-groups-and-equal-shares-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Equal groups",
+     "type": "G2-210",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 6,
+     "title": "Halves, thirds, and fourths",
+     "type": "G2-232",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 7,
+     "title": "A fraction of a group",
+     "type": "G2-233",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "68d54ab016fb787c",
+       "54c96ecf2dfcee0a"
+      ],
+      [
+       "86926bbcac02a611"
+      ],
+      [
+       "350b9503cc33a63e"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?",
+       "w × w = ?"
+      ],
+      [
+       ""
+      ],
+      [
+       "w w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       16,
+       10
+      ],
+      [
+       0
+      ],
+      [
+       3
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "1e24a3be768fb736",
+       "3b6594b37ff3f8b1"
+      ],
+      [
+       "e3e367719b648119"
+      ],
+      [
+       "3fec5b8d1053d2ad"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?",
+       "w × w = ?"
+      ],
+      [
+       ""
+      ],
+      [
+       "w w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       15,
+       8
+      ],
+      [
+       0
+      ],
+      [
+       2
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-starting-multiplication",
+   "slug": "starting-multiplication-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Multiplication as equal groups",
+     "type": "G3-302",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Turn the array around",
+     "type": "G3-314",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Multiplication facts for 2 and 5",
+     "type": "G3-364",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    2,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "25bb2976b235b00e",
+       "68d54ab016fb787c"
+      ],
+      [
+       "1e24a3be768fb736"
+      ],
+      [
+       "e15d4870d353744a",
+       "a21c2f348ca7d2fc"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?",
+       "w × w = ?"
+      ],
+      [
+       "w × w = ? w × w = ?"
+      ],
+      [
+       "w × w = ? ·0",
+       "w × w = ? ·1"
+      ]
+     ],
+     "sizes": [
+      [
+       27,
+       16
+      ],
+      [
+       15
+      ],
+      [
+       16,
+       35
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "810d45829ad731e6",
+       "6e1564cd2ff2c226"
+      ],
+      [
+       "aeb514081cd61c0c"
+      ],
+      [
+       "729bec29d8c5b3b1",
+       "052d6a886cad0a44"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?",
+       "w × w = ?"
+      ],
+      [
+       "w × w = ? w × w = ?"
+      ],
+      [
+       "w × w = ? ·0",
+       "w × w = ? ·1"
+      ]
+     ],
+     "sizes": [
+      [
+       24,
+       14
+      ],
+      [
+       18
+      ],
+      [
+       18,
+       30
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "slug": "area-and-perimeter-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Area: count the squares",
+     "type": "G3-313",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Same area, different shape",
+     "type": "G3-338",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Perimeter: walk the edge",
+     "type": "G3-337",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Same perimeter, different area",
+     "type": "G3-339",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Count the cubes",
+     "type": "G3-346",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "25bb2976b235b00e"
+      ],
+      [
+       "4883cf912c49db6f"
+      ],
+      [
+       "051d9fd4c98397d4",
+       "e6439d3beccb9bd9"
+      ],
+      [
+       "b4ead52cac19174c"
+      ],
+      [
+       "2e603f09b2fb0867",
+       "120296c67ecce6ee"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?"
+      ],
+      [
+       "=?"
+      ],
+      [
+       "?",
+       "?"
+      ],
+      [
+       "=?"
+      ],
+      [
+       "?",
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       27
+      ],
+      [
+       0
+      ],
+      [
+       20,
+       16
+      ],
+      [
+       0
+      ],
+      [
+       12,
+       8
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "696de2701dab0c12"
+      ],
+      [
+       "947ab8c7a8b03dbd"
+      ],
+      [
+       "71a22524c5a8452f",
+       "deb55bce1d619e9e"
+      ],
+      [
+       "5da1522769c15a4b"
+      ],
+      [
+       "74cfdc22a0384da9",
+       "f265ff148f5cd129"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w × w = ?"
+      ],
+      [
+       "=?"
+      ],
+      [
+       "?",
+       "?"
+      ],
+      [
+       "=?"
+      ],
+      [
+       "?",
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       25
+      ],
+      [
+       0
+      ],
+      [
+       18,
+       14
+      ],
+      [
+       0
+      ],
+      [
+       10,
+       9
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-fractions",
+   "slug": "fractions-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Equal pieces",
+     "type": "G3-343",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Name and shade a fraction",
+     "type": "G3-315",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Find the whole",
+     "type": "G3-321",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Fractions on a number line",
+     "type": "G3-317",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Which fraction is greater?",
+     "type": "G3-319",
+     "tasks": 1
+    },
+    {
+     "part": 6,
+     "lesson": 7,
+     "title": "A fraction of a group",
+     "type": "G3-320",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    6
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "1de6c1274b69ccae"
+      ],
+      [
+       "55d41e6689f96135",
+       "0fa5c0dd3b35e706"
+      ],
+      [
+       "c32006415df57646"
+      ],
+      [
+       "74e4acf9845fcf75"
+      ],
+      [
+       "346417871ad84c5d"
+      ],
+      [
+       "350b9503cc33a63e"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       1
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "? ?",
+       "? ?"
+      ],
+      [
+       "w w"
+      ],
+      [
+       "w w w w w w w w"
+      ],
+      [
+       "w w w w ·top"
+      ],
+      [
+       "w w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       6,
+       4
+      ],
+      [
+       4
+      ],
+      [
+       6
+      ],
+      [
+       6
+      ],
+      [
+       3
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "b8949fe77dfbbcbc"
+      ],
+      [
+       "826e0d1d0f963e83",
+       "2359f9fc4edc1159"
+      ],
+      [
+       "0faa8f6ac30cc4b1"
+      ],
+      [
+       "23a078571df2a125"
+      ],
+      [
+       "a9a117ce842de56f"
+      ],
+      [
+       "2c18e96bf860ffc9"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       2
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "? ?",
+       "? ?"
+      ],
+      [
+       "w w"
+      ],
+      [
+       "w w w w w w w w"
+      ],
+      [
+       "w w w w ·top"
+      ],
+      [
+       "w w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       6,
+       3
+      ],
+      [
+       5
+      ],
+      [
+       6
+      ],
+      [
+       6
+      ],
+      [
+       3
       ]
      ]
     }

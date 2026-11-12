@@ -1,0 +1,269 @@
+{
+ "parts": [
+  {
+   "unit": "k-counting-to-10",
+   "part": 3,
+   "verdict": "fix",
+   "why": "All four keys are right (9, 4, 7, 5), but the numbers repeat inside each form: Check A has 9 as the answer in Part 1 box 1 and again here in box 1, and 4 in Part 2 and again here in box 2; Check B has 5 as the answer three times (Part 1 box 2, Part 2, and here in box 2), so half of a check on counting to 10 is the number 5. Pick look-fast boxes whose number is not already an answer in the same form (for example A: 8 and 5, B: 7 and 3), and let a number be the answer only once per form."
+  },
+  {
+   "unit": "g2-place-value-to-1000",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Both forms: the counts are right (A 15 = 1 ten 5 ones, B 18 = 1 ten 8 ones), but the answer frame reads [box] dark square x10 + [box]; a second grader has not met the multiplication sign and nothing says which box is tens and which is ones. Label the boxes with the words tens and ones (__ tens and __ ones), and show the ring around ten ones in the answer key, since the direction asks the child to circle them."
+  },
+  {
+   "unit": "g2-place-value-to-1000",
+   "part": 3,
+   "verdict": "fix",
+   "why": "Check A is 262: the hundreds digit and the ones digit are the same, so a child who writes the places in the wrong order (ones, tens, hundreds) still gets 262, the same weakness as 55 in the Grade 1 check. Both forms also have 2 hundreds (262 and 246). Pick numbers with three different digits and a different number of hundreds in each form (for example A 352, B 246)."
+  },
+  {
+   "unit": "g2-place-value-to-1000",
+   "part": 5,
+   "verdict": "fix",
+   "why": "All four keys are right, but all four pairs (A: 170 and 860, 611 and 238; B: 909 and 379, 368 and 576) are decided by the hundreds digit alone, so a child who looks only at the first digit earns every point and the tens and ones are never tested. Give each form one pair with different hundreds and one pair with the same hundreds (for example 438 and 483, or 652 and 625)."
+  },
+  {
+   "unit": "g2-equal-groups-equal-shares",
+   "part": 3,
+   "verdict": "fix",
+   "why": "Check A asks for 1/2 of 6 (key 3, right) and Check B for 1/4 of 8 (key 2, right); a fourth of a group is clearly harder than a half, so the forms are not at the same level and there is only one box each. Use the same fraction in both forms (A: 1/4 of 12 and B: 1/4 of 8, or a half in both). The answer key should also show the pictures circled, because the direction asks the child to circle them."
+  },
+  {
+   "unit": "g2-shapes-solids-symmetry",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Check B box 2: the sphere is drawn as a flat pink circle while the other three solids (pyramid, cylinder, cube) are line drawings with hidden edges, so a child can honestly see a circle or a coin and write 1 (or 2) instead of 0; on a black-and-white copy it is a plain circle. Draw the sphere so it reads as a ball (a curved line around the middle or strong shading), or use another solid. The other keys are right (pyramid 5, cylinder 2, cube 6)."
+  },
+  {
+   "unit": "g2-shapes-solids-symmetry",
+   "part": 2,
+   "verdict": "fix",
+   "why": "Check B box 1: the key says yes (check mark) for the persimmon, but the fruit has a bright highlight on the left only, a dark red shadow on the right only, and leaves that differ from side to side, so a careful child who says no is right too. Check A box 2 (bat, key yes) is close to exact, but its little mouth mark sits left of the line and its hands differ, so no is arguable there as well. For the yes boxes use flat pictures that are exact mirror images (a heart, a flat butterfly); the two no boxes (horse, orange with one leaf) are clear and right."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "part": 1,
+   "verdict": "fix",
+   "why": "I measured the hands and all four keys are right (A 8:48 and 1:33, B 10:28 and 7:22), but every box offers a second choice only one minute away (8:49, 1:34, 10:29, 7:23) while the minute hand stops well short of the minute marks (about a quarter inch away on paper), so a child cannot tell 48 from 49 by eye and can defend the neighbor. Make the minute hand reach the minute marks, or replace the one-minute-off choice with one that is five minutes off (8:43) and keep the swapped-hands choice."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "part": 2,
+   "verdict": "drop",
+   "why": "24-hour time is not taught in U.S. Grades K-3 (the Grade 3 standard is time to the minute with a.m. and p.m.), so a U.S. teacher cannot use this part. It is also uneven: Check A is 8:00 AM = 08:00, where the digits do not change, and Check B is 10:00 PM = 22:00, where the child must add 12, so B is much harder than A. Both keys are right. If the part stays for other countries, both forms need a p.m. time and a clearer direction."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "part": 3,
+   "verdict": "fix",
+   "why": "Check A stops on a mark that has its number printed (200) and Check B on a mark without a number (100, halfway between 0 and 200), so B asks for a harder reading than A; both keys are right. Put both forms on unnumbered marks (for example A 300, B 500). The direction says jug and each although there is one measuring cup, and U.S. books write mL, not ml."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Check A shows shapes cut into eight parts, where the unequal ones take a careful look (a bar whose first part is wider, a circle with uneven slices), but Check B shows two halves and a circle with one small slice, which is Grade 2 work (the same three shapes are in the Grade 2 check), so the check after the unit is far easier than the check before it. Both keys are right (A: third shape only; B: second and third). Use shapes with the same number of parts in both forms (fourths, sixths, or eighths)."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 2,
+   "verdict": "fix",
+   "why": "Check A box 2 (2 of 4 squares shaded, key 2/4) and Check B box 1 (2 of 6 slices shaded, key 2/6) each have a second right answer: a child who writes 1/2 or 1/3 is correct, and third graders learn exactly that in this unit. Either choose boxes whose fraction cannot be written with smaller numbers (1/6, 3/4, 5/6, 3/8) or print both answers in the key (2/4 or 1/2; 2/6 or 1/3). The other two keys (1/6 and 3/4) are right."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 4,
+   "verdict": "fix",
+   "why": "Both keys are right, but Check A marks 3/4 (the child must count three parts from 0) and Check B marks 1/4, the first mark after 0, on the same number line; a unit fraction is the easiest point on the line, so B is easier than A. Mark a fraction with a top number larger than 1 in both forms, on different lines (for example A 3/4, B 2/3 or 5/6)."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 5,
+   "verdict": "fix",
+   "why": "Check A compares 1/3 and 1/6 (same top number, the Grade 3 kind) but Check B compares 1/3 and 4/6, where both the top and the bottom numbers differ; that is a different kind of task and beyond the Grade 3 standard, and the 1/3 bar is the left choice in both forms. Both keys are right (1/3; 4/6). Give Check B a pair with the same top number and other fractions (for example 1/4 and 1/8, or 2/3 and 2/6)."
+  }
+ ],
+ "instruction": [
+  {
+   "unit": "g2-place-value-to-1000",
+   "part": 2,
+   "now": "This line does not start at zero. Count on from the nearest label.",
+   "better": "This number line does not start at 0. Write the number each arrow points to.",
+   "why": "The printed line gives a hint but never says what to do; the child has to guess that a number goes in each dashed box."
+  },
+  {
+   "unit": "g2-equal-groups-equal-shares",
+   "part": 1,
+   "now": "Count the equal groups. Finish the multiplication.",
+   "better": "Count the equal groups. Finish the multiplication sentence. Write how many in all.",
+   "why": "Second graders in the U.S. write repeated addition and meet the multiplication sign only in Grade 3; saying how many in all lets an untaught child still do the box by counting."
+  },
+  {
+   "unit": "g2-equal-groups-equal-shares",
+   "part": 3,
+   "now": "Circle the fraction of the pictures. Write how many that is.",
+   "better": "Look at the fraction. Circle that part of the group. Write how many you circled.",
+   "why": "Circle the fraction can be heard as circle the printed fraction; the new line says in order what to look at, what to circle, and what to write."
+  },
+  {
+   "unit": "g2-shapes-solids-symmetry",
+   "part": 2,
+   "now": "Is the dashed line a mirror line? Circle the check or the cross.",
+   "better": "Is the dashed line a line of symmetry? Circle the check mark for yes or the X for no.",
+   "why": "U.S. classrooms say line of symmetry (it is also the lesson title), and the X is called an X, not a cross; the line should also say which mark means yes."
+  },
+  {
+   "unit": "g2-shapes-solids-symmetry",
+   "part": 3,
+   "now": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical.",
+   "better": "Each picture is only half done. Color squares on the other side of the dashed line so that both sides match like a mirror.",
+   "why": "Before the unit the children do not know the word symmetrical; the new line can be done without it."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "part": 2,
+   "now": "Match each time to its 12-hour or 24-hour form. Circle the correct one.",
+   "better": "Circle the 24-hour time that shows the same time.",
+   "why": "Only needed if the part is kept for other countries: the printed line talks about matching and two forms, but the child only circles one of three 24-hour times."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "part": 3,
+   "now": "Read the scale on each jug. Write how many milliliters are inside.",
+   "better": "Read the scale on the measuring cup. Write how many milliliters of water are in it.",
+   "why": "Jug is British for this picture, the lesson is called Read a measuring cup, and there is one cup, not several."
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "part": 2,
+   "now": "Circle the rectangle that covers the SAME number of squares.",
+   "better": "Look at the first rectangle. Circle the rectangle on the right that covers the SAME number of squares.",
+   "why": "The printed line does not say the same as what; the box shows only a small =? sign between the first rectangle and the two choices."
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "part": 3,
+   "now": "Count the unit edges around each rectangle. Write the perimeter.",
+   "better": "Count the sides of the small squares all the way around each rectangle. Write the perimeter.",
+   "why": "Unit edges is not a phrase third graders use; the new line says what to count."
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "part": 4,
+   "now": "Circle the rectangle with the SAME distance around.",
+   "better": "Look at the first rectangle. Circle the rectangle on the right with the SAME distance around.",
+   "why": "Same reason as Part 2: the line must name the rectangle the child compares with."
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "part": 5,
+   "now": "Count all the cubes in each tower. Write the total.",
+   "better": "Count all the cubes in each shape. Write the total.",
+   "why": "The four solids are long walls of cubes, not towers; a child looking for a tower may be unsure which picture is meant."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 3,
+   "now": "The small bar is one part. Circle the bar that shows the WHOLE.",
+   "better": "The small square is one part of a whole. Read its fraction. Circle the bar that shows the WHOLE.",
+   "why": "The small piece is a square, not a bar, and the line never points to the fraction under it (1/4 in Check A, 1/5 in Check B), which is the only clue to the answer."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 5,
+   "now": "Look at both bars. Circle the bigger fraction.",
+   "better": "Look at both bars. Circle the greater fraction.",
+   "why": "U.S. math books and the lesson title (Which fraction is greater?) say greater, not bigger, for numbers."
+  },
+  {
+   "unit": "g3-fractions",
+   "part": 6,
+   "now": "Circle the fraction of the pictures. Write how many that is.",
+   "better": "Look at the fraction. Circle that part of the group. Write how many you circled.",
+   "why": "Same line as in the Grade 2 check; circle the fraction can be heard as circle the printed fraction."
+  }
+ ],
+ "checks": [
+  {
+   "unit": "k-counting-to-10",
+   "verdict": "publish after fixes",
+   "why": "Every key is right, the pictures are clear, and both forms are at the same level; only the repeated numbers need fixing (5 is the answer three times in Check B, 9 and 4 twice each in Check A)."
+  },
+  {
+   "unit": "k-position-size-patterns",
+   "verdict": "publish",
+   "why": "The new Part 2 has one clearly biggest picture in each form (fourth owl, second coconut) in different places, and the other three parts are still right and at the same level."
+  },
+  {
+   "unit": "g2-place-value-to-1000",
+   "verdict": "publish after fixes",
+   "why": "All keys are right, but the tens-and-ones frame in Part 1 uses a multiplication sign, 262 in Part 3 reads the same in either order, and every pair in Part 5 is decided by the hundreds alone; Part 2 needs a direction that says what to write."
+  },
+  {
+   "unit": "g2-equal-groups-equal-shares",
+   "verdict": "publish after fixes",
+   "why": "Keys are right and Parts 1 and 2 work; Part 3 asks for a half in Check A and a fourth in Check B, so the two forms are not at the same level."
+  },
+  {
+   "unit": "g2-shapes-solids-symmetry",
+   "verdict": "publish after fixes",
+   "why": "The four grid pictures in Part 3 are mirrored correctly square by square and the solids are counted right, but the shaded persimmon keyed as symmetrical has a defensible no, and the sphere looks like a flat circle."
+  },
+  {
+   "unit": "g3-starting-multiplication",
+   "verdict": "publish",
+   "why": "All ten keys are right, every group and array has the number of pictures its number sentence says, the directions fit, and Check A and Check B are at the same level with different facts."
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "verdict": "hold",
+   "why": "Every part needs a change: the clocks cannot be read to the minute as drawn, 24-hour time is not U.S. Grade 3 content and is uneven between the forms, and the measuring cup is easier in Check A than in Check B; after that only three boxes on two topics would be left for a unit of four topics."
+  },
+  {
+   "unit": "g3-area-perimeter-volume",
+   "verdict": "publish",
+   "why": "All fourteen keys are right (areas, perimeters, same-area and same-perimeter choices, and cube counts), each box has one right answer, and both forms are at the same level; the reworded lines for Parts 2 to 5 would make it clearer but do not block it."
+  },
+  {
+   "unit": "g3-fractions",
+   "verdict": "publish after fixes",
+   "why": "Every key is right, but four of the six parts need other boxes: Parts 1 and 4 are easier in Check B, Part 5 is a different and harder kind of comparison in Check B, and Part 2 has boxes where 1/2 or 1/3 is also a right answer."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "verdict": "publish",
+   "why": "I worked the whole Check B again (5, 2, 1, 7, 17, both fact families, 4, 6, 10, 2) and every key is right; the new boxes in Parts 1 and 2 match Check A in kind and size, and no fact appears twice in the form or in both forms."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "verdict": "publish",
+   "why": "The whole Check B is right (1 and 7 make 8, the bond 5 = 2 and 3, 9 odd, 4 even), the new Part 1 box matches Check A (2 and 5 make 7) in size, and the odd and even numbers no longer repeat between the forms."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "verdict": "publish",
+   "why": "The whole Check B is right (14, 6, 9, walls 4, 5, 9 and 3, 4, 7), the new three-group box and walls match Check A in size, and the two walls of a form no longer share a top number."
+  }
+ ],
+ "notes": [
+  "Shading: in g3-fractions Parts 2 and 5 (and wherever a part of a shape is shaded) the shaded parts are a very pale green, about 10 percent gray, on a cream card. On a school copier or a black-and-white printer that tint drops out and the child sees no shaded part at all, which makes these boxes impossible. Print shaded parts at 30 to 40 percent gray or with a pattern.",
+  "Circle every shape boxes: a different number of right shapes in the two forms (g2-equal-groups Part 2: A has 2, B has 1; g3-fractions Part 1: A has 1, B has 2) is not a problem in itself, because the line says every and the point is given only when all the right shapes and no others are circled. Say that scoring rule on the teacher page. What matters is that both forms use shapes of the same difficulty, which is the trouble in g3-fractions Part 1.",
+  "g2-equal-groups Part 2: both keys are right, and I leave it, but Check A shows only shapes cut in two and Check B only shapes cut in three, and neither form has fourths although the lesson is Halves, thirds, and fourths; a mix in each form would be better.",
+  "Grade placement a U.S. teacher will notice: the multiplication sign in Grade 2 (g2-equal-groups Part 1), lines of symmetry in Grade 2 (a Grade 4 standard), a fraction of a group in Grades 2 and 3, fifths in Grade 3 (g3-fractions Part 3, Check B; Grade 3 uses halves, thirds, fourths, sixths, and eighths), milliliters in Grade 3 (Grade 3 uses liters; milliliters come in Grade 4), 24-hour time, and counting cubes for volume in Grade 3 (a Grade 5 standard). Only the 24-hour part cannot be used at all; the others are doable with the pictures given.",
+  "k-counting-to-10 Part 4: the lesson is More and fewer, but both forms ask only for MORE, the difference is very large (3 and 8, 8 and 4), and the larger group is 8 in both forms. It is right and at the same level, so I leave it, but one form pair with FEWER or with closer groups (6 and 8) would show more.",
+  "k-counting-to-10 Part 3: on paper a quick look cannot be enforced and children will count; the pigs, foxes, strawberries, and figs are only about a quarter inch tall, which is small for kindergarten. The teacher page could say to show the box for a few seconds or to cover it with a hand.",
+  "k-position-size-patterns: in Part 3 the biggest picture is in the middle in both forms (A: 1, 3, 2; B: 2, 3, 1), and in Part 1 both forms ask ON with the right picture on top. Both are right and were accepted before; vary them if the worksheet allows.",
+  "g2-place-value-to-1000 Part 2: both forms use the same line from 40 to 60 with every number marked, which is easy for a unit that goes to 1,000; the arrows are placed exactly (A 49 and 54, B 42 and 51). In Part 4 the ones cubes are about an eighth of an inch on paper, still countable.",
+  "g2-shapes-solids-symmetry Part 3: each grid asks the child to color 20 to 27 squares, and a point only for a completely right box is hard on a child who misses one square; the teacher page could allow one slip. Part 1 asks only for faces, although the lesson is Faces, edges, and vertices.",
+  "g3-starting-multiplication: the same product appears more than once in a form with different facts (Check A: 4 x 4 = 16 and 8 x 2 = 16; Check B: 3 x 6, 6 x 3, and 9 x 2 all equal 18). That is no giveaway, but vary the products if the worksheets allow. The 27 moose in Check A Part 1 box 1 are about a fifth of an inch each, small for a child who has to count them before the unit.",
+  "g3-area-perimeter-volume: in Parts 2 and 4 the single long row is the right choice in three of the four boxes, and the wrong choice in Part 2 is the same 2-by-7 rectangle in both forms; vary these when other boxes are available. All four cube shapes in Part 5 are one cube deep, so no cube is hidden; that is easy but equal in both forms. The page title says Area and Perimeter while the check also counts cubes.",
+  "g3-time-temperature-mass-volume: the check covers time and liquid volume only, so the teacher page must say clearly that temperature and mass are not in the check. On the clocks the hour hand at 8:48 sits almost on the 9, a classic misreading; a choice of 9:48 would catch it.",
+  "Answer keys: where the direction says to circle pictures (g2-equal-groups Part 3, g3-fractions Part 6) or to circle ten ones (g2-place-value Part 1), the key shows only the number; show the circled pictures too so a helper can score the circling.",
+  "g1-add-subtract-within-10 Check B Part 1: 1 + 1 = 2 is the smallest possible box and tells a Grade 1 teacher little; Check A has 1 + 2 = 3, so the forms match and I leave it, but use a larger sum if the worksheet has one.",
+  "g1-doubles-three-addends-number-walls Part 3: the tops are 9 and 7 in both forms and in the same order, and the middle row of the first wall is 5, 4 in Check A and 4, 5 in Check B. The bottom bricks differ and the checks are weeks apart, so this is harmless, but vary the tops where the worksheet allows. The page title still says Addition Pyramids while the direction says wall and brick.",
+  "A single task box still carries the tab number 1 (and a part with two boxes shows 1 and 2); this is fine now, but a lone 1 on a single box could be left off.",
+  "No picture was too small to read after enlarging: I enlarged every box, counted every group, square, cube, and edge, checked the four symmetry grids square by square, and measured the clock hands, the number-line arrows, and the water levels."
+ ]
+}

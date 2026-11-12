@@ -24,7 +24,7 @@
  "tpHowTitle": "How to use the check",
  "tpHow1": "Give Check A before you start the unit and Check B when you finish it. Both checks ask the same kinds of tasks with different numbers and pictures. Before Check A, tell the children that they have not learned these things yet and that it is fine to skip a part.",
  "tpHow2": "Read each direction aloud, one part at a time. The check is about the math, not about reading the directions.",
- "tpHow3": "Give one point for each task box that is completely right.",
+ "tpHow3": "Give one point for each task box that is completely right. In a box that says to circle every shape, give the point only when all the right shapes and no others are circled.",
  "tpHonest": "This is a classroom check of this unit's lessons. It is not a standardized test. The points show you where to look again; they are not a grade, and they say nothing about a child beyond these tasks.",
  "tpScoreTitle": "Parts and points",
  "tpColPart": "Part",
@@ -45,5 +45,6 @@
  "tpStill": "Use “{title}” to teach Lesson {n} again.",
  "tpEasyHarder": "Use the harder version of “{title}” as a challenge.",
  "tpEasyOn": "No extra practice is needed for this lesson.",
- "tpNone": "—"
+ "tpNone": "—",
+ "tpTitleJoin": "” and “"
 }

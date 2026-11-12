@@ -38,7 +38,10 @@ function html(c) {
   const line = '<tr><td class="name"></td>' + c.sections.map(() => '<td></td><td class="b"></td>').join('') + '<td></td><td class="b"></td></tr>';
   const next = c.sections.map((s) => {
     const l = lessonOf(s.lesson);
-    const p = (l.paper || []).find((x) => x.type === s.type) || (l.paper || [])[0];
+    let p = (l.paper || []).find((x) => x.type === s.type) || (l.paper || [])[0];
+    // a part blended of several worksheets names them all: “A” and “B” (the strings put the quotation marks round {title})
+    const all = (s.types || []).map((id) => (l.paper || []).find((x) => x.type === id)).filter(Boolean);
+    if (all.length > 1) p = Object.assign({}, p, { title: all.map((x) => x.title).join(ui.tpTitleJoin), easy: all.every((x) => x.easy) ? p.easy : null, hard: all.every((x) => x.hard) ? p.hard : null });
     const still = p ? fill(p.easy ? ui.tpStillEasier : ui.tpStill, { n: s.lesson, title: p.title }) : ui.tpNone;
     const easy = p && p.hard ? fill(ui.tpEasyHarder, { title: p.title }) : ui.tpEasyOn;
     return '<tr><td class="p">' + s.part + '</td><td><b>' + esc(fill(ui.lessonRef, { n: s.lesson })) + '</b> ' + esc(s.lessonTitle) + '</td><td>' + esc(still) + '</td><td>' + esc(easy) + '</td><td>' + esc(l.screen && l.screen.title ? l.screen.title : ui.tpNone) + '</td></tr>';

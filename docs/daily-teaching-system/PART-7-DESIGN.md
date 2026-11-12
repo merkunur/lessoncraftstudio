@@ -129,3 +129,58 @@ Many worksheet types draw their answer key when asked (`ctx.answerKey`: a ring r
 First result (English K–1): the Kindergarten unit "Counting to 10" gets a check (count and write, colour that many, how many at a glance, which group has more), and "Position Words, Size, and Patterns" a fourth part (the biggest one). The four other live checks keep exactly their tasks (their fingerprints are unchanged).
 
 Also new: form B prefers a card whose answer form A does not have in the part (9 elephants, then 9 pears, is the same count).
+
+### What my own reading of the first Grade 2–3 forms changed (before any reviewer)
+
+- **Blank paper.** A card was set at the height it has on its worksheet page, where a page of four cards stretches each to a quarter of the page. The cutter now measures each card again with the grid let go (`nh`); a card whose pictures change size when let go keeps its page height. A check sets a card at `nh` + 16 px, and the build stops when anything is cut off inside a card. Area and Perimeter went from 4 pages to 3, Fractions from 3 to 2, Equal Groups from 2 to 1. Which cards a part takes is still decided on the page height (the reviewed checks keep their tasks).
+- **A question picture stands in one form only.** A choice card is fingerprinted without its options (`ask`: the clock, the rectangle to match). Two cards that ask the same thing with other options are one task; form B never takes form A's.
+- **The same picture twice among the options** (two identical halved circles to circle) is a weak box: such a card is not taken (`twins`). Three shapes in another order are the same box too (`shapes`, in the builder).
+- **262 and 263.** Form B took the three-digit number nearest to form A's; it now takes one at least 5 % away and, when the pool has one, in another hundred.
+- **A lesson with one worksheet per table.** "Multiplication facts for 2 and 5" hands out the table of 2 and the table of 5; the first alone asked no fact of 5. A ruling (`lists: blend`) lets a part take its boxes from several types of one lesson and shape in turn; form B follows type by type. The teacher pages name both worksheets.
+
+### The review of 2026-11-12 (one reader as an American K–3 teacher, twelve sheets of whole forms with keys)
+
+File: `scripts/assessments/reviews/en.review-g23-math.json`. Every key was right. 14 parts ruled (13 fix, 1 drop), 14 direction lines reworded, 17 notes. What was done:
+
+| Finding | Done |
+|---|---|
+| Counting to 10: one number was the answer three times in a form | A single number (counted, coloured or circled among three) is an answer once in a form across its parts (`solo`) |
+| Place value: the frame "[ ] ■×10 + [ ]" of "Make a Ten!" in Grade 2 | That lesson has no part (`drop`); recorded for the worksheet |
+| 262 reads the same with the places in the wrong order | A three-digit answer with a repeated digit is not preferred (`plain`) |
+| All four pairs to compare decided by the hundreds | A type that has pairs in one hundred gives a part one such pair and one the hundreds decide (`wide`: sameH) |
+| A half of a group in form A, a fourth in form B | `sameGiven`: form B prints the fraction form A prints |
+| Symmetry: library pictures keyed as symmetrical are not exact mirror images; the sphere is a flat circle | The unit has no check (`noCheck`); recorded for the worksheets |
+| Clocks: a choice one minute from the key, the hand short of the marks; 24-hour time is not U.S. K–3 | The unit has no check (`noCheck`); recorded |
+| Fractions: eighths in A, halves in B | `sameLook`: a card with about as much drawing, and never the same shapes |
+| 2/4 keyed where 1/2 is also right | `lowestTerms` |
+| Number line: 3/4 in A, the first mark (1/4) in B | `avoidAns`: no unit fraction and no 0 |
+| 1/3 against 1/6 in A, 1/3 against 4/6 in B | `pairKind`: pairs that share the top or the bottom number, form B like form A |
+| Ten direction lines written for a whole worksheet page or in British words | `instruction` per type |
+| A "circle every shape" box: when is it a point? | Said on the teacher page (`tpHow3`) |
+| The pale tint of a shaded fraction part may drop out on a copier | Darker in a check (`STYLE`); recorded for the worksheets |
+
+Not done, and why: the place-value blocks of form A and form B both have 2 hundreds (the pool has no card of the same size in another hundred); the key does not ring the pictures of "circle that part of the group" (the worksheet type draws no key for it; the number is scored). The reviewer's findings on the published worksheets themselves are in the memory file of the content-fix session.
+
+After the rulings I read every rebuilt form again; three faults of my own rules showed only there: the pair rule took the common pair first and left no room for the rare one (the rare one is now taken first); a guard against "too few cards after a ruling" also fired for types without a ruling and cost a Kindergarten part; the once-per-form rule missed a number circled among three (it read the numbers printed, not the answer).
+
+### Published 2026-11-12: eleven unit checks (English mathematics, Kindergarten to Grade 3)
+
+| Unit | Parts | Tasks | Pages per form | Lessons not in the check |
+|---|---|---|---|---|
+| `g1-add-subtract-within-10` | 7 | 11 | 3 | 7 |
+| `k-position-size-patterns` | 4 | 4 | 2 | 2 |
+| `k-counting-to-10` | 4 | 6 | 2 | 1, 2, 5 |
+| `k-putting-together-number-bonds` | 3 | 4 | 2 | 3, 4 |
+| `g1-doubles-three-addends-number-walls` | 3 | 5 | 2 | 2 |
+| `g1-tens-and-ones` | 3 | 5 | 2 | 4 |
+| `g2-place-value-to-1000` | 5 | 7 | 2 | 1, 2, 4 |
+| `g2-equal-groups-equal-shares` | 3 | 4 | 1 | 1, 3, 4, 5 |
+| `g3-starting-multiplication` | 3 | 5 | 2 | 2, 5 |
+| `g3-area-perimeter-volume` | 5 | 7 | 3 | none |
+| `g3-fractions` | 6 | 7 | 2 | 6 |
+
+Fourteen of 25 English mathematics units have no check: twelve have fewer than three lessons whose worksheet is one grid of answer-carrying cards, two by a ruling. Three of the five checks published in 7.1 have other boxes in form B (the rule "form B prefers an answer form A does not have"); the reader passed them again.
+
+### Next in Part 7
+
+7.3 English literacy. 7.4 the checks of the beginning, middle and end of the year and the hub. 7.5 German and Swedish. More mathematics units get a check when worksheet types that are one drawing per page (charts, number lines with a bank) are given cards, which is work on the types, not on the checks.

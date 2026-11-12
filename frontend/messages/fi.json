@@ -2250,7 +2250,7 @@
     },
     "gate": {
       "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
-      "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
+      "subscriberBody": "Kokoelmat ja työtilan työkalut kuuluvat Opettaja-tilaukseen. Ilmaisella tililläsi voit edelleen käyttää ja ladata tehtäviä, aktiviteetteja ja tulostettavia materiaaleja tilin rajojen puitteissa.",
       "subscriberCta": "Katso tilausvaihtoehdot",
       "signInPromptTitle": "Kirjautuminen vaaditaan",
       "signInPromptBody": "Tämä ominaisuus vaatii ilmaisen tilin. Rekisteröityminen vie vain hetken.",
@@ -2299,7 +2299,7 @@
     },
     "gate": {
       "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
-      "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
+      "subscriberBody": "Kokoelmat ja työtilan työkalut kuuluvat Opettaja-tilaukseen. Ilmaisella tililläsi voit edelleen käyttää ja ladata tehtäviä, aktiviteetteja ja tulostettavia materiaaleja tilin rajojen puitteissa.",
       "subscriberCta": "Katso tilausvaihtoehdot",
       "signInPromptTitle": "Kirjautuminen vaaditaan",
       "signInPromptBody": "Tämä ominaisuus vaatii ilmaisen tilin. Rekisteröityminen vie vain hetken.",
@@ -2907,7 +2907,7 @@
     },
     "hero": {
       "title": "Selkeä hinnoittelu opettajille",
-      "subtitle": "Kaikki, mitä käytät nyt, pysyy ilmaisena — tehtävät, aktiviteetit, interaktiivinen harjoittelu ja PDF-tiedostot. Opettaja-tilaus tuo oman hyllysi: tallenna luomasi tehtävät toimiviksi linkeiksi, jaa ne luokallesi ja pidä kaikki järjestyksessä."
+      "subtitle": "Kaikkea voi selata vapaasti, ja ilmaisella tilillä voit harjoitella interaktiivisesti ja ladata tiedostoja päivä- ja kuukausikohtaisten rajojen puitteissa. Opettaja-tilaus poistaa rajat ja tuo oman hyllysi: tallenna luomasi tehtävät toimiviksi linkeiksi, jaa ne luokallesi ja pidä kaikki järjestyksessä."
     },
     "free": {
       "title": "Aina ilmainen taso",

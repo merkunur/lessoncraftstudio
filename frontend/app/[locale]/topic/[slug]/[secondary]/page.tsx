@@ -1204,8 +1204,6 @@ export default async function IntersectionPage({
         {/* the teaching system on this page (Part 11.6): by the grade when the page has one, else by the worksheet type */}
         <TopicTeachingBand locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
 
-        <MakerRibbon locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
-
         <TopicProseContainer
           locale={locale}
           axisKey1={axisKey1}
@@ -1215,14 +1213,6 @@ export default async function IntersectionPage({
           topicName1={name1}
           topicName2={name2}
           count={totalCount}
-        />
-
-        <PageUsageBlock
-          locale={locale}
-          variant="intersection"
-          overrideKey={[axisKey1, axisKey2].sort().join('__')}
-          primary={name1}
-          secondary={name2}
         />
 
         {/* Arc 6b — Filter sidebar (only the third unanchored axis renders
@@ -1289,6 +1279,19 @@ export default async function IntersectionPage({
         </div>
 
         <TopicLandingLinks locale={locale} landings={ixLandingLinks} />
+
+        {/* below the worksheets since Part 11.6: the band of the worksheet makers and the box that says how to use the page */}
+        <div className="mt-10">
+          <MakerRibbon locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
+        </div>
+
+        <PageUsageBlock
+          locale={locale}
+          variant="intersection"
+          overrideKey={[axisKey1, axisKey2].sort().join('__')}
+          primary={name1}
+          secondary={name2}
+        />
 
         <CrossAxisPivots
           locale={locale}

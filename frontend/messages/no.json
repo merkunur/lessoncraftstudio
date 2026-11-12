@@ -2265,7 +2265,7 @@
     },
     "gate": {
       "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
-      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
+      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet hører til Lærerabonnementet. Med gratiskontoen din kan du fortsatt bruke og laste ned oppgaveark, aktiviteter og utskriftsmateriell innenfor kontoens grenser.",
       "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Krever innlogging",
       "signInPromptBody": "Du må ha en gratis konto for å bruke dette. Det tar bare et øyeblikk.",
@@ -2314,7 +2314,7 @@
     },
     "gate": {
       "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
-      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
+      "subscriberBody": "Samlinger og verktøyene i arbeidsområdet hører til Lærerabonnementet. Med gratiskontoen din kan du fortsatt bruke og laste ned oppgaveark, aktiviteter og utskriftsmateriell innenfor kontoens grenser.",
       "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Krever innlogging",
       "signInPromptBody": "Du må ha en gratis konto for å bruke dette. Det tar bare et øyeblikk.",
@@ -2922,7 +2922,7 @@
     },
     "hero": {
       "title": "Enkle priser, laget for lærere",
-      "subtitle": "Alt du bruker i dag, forblir gratis — oppgaveark, aktiviteter, interaktiv øving og PDF-er. Lærerabonnementet legger til din egen hylle: lagre oppgavearkene du lager som levende lenker, del dem med klassen og hold orden på alt."
+      "subtitle": "Alt står åpent, så alle kan se seg rundt, og med en gratis konto kan du øve interaktivt og laste ned innenfor daglige og månedlige grenser. Lærerabonnementet fjerner grensene og legger til din egen hylle: lagre oppgavearkene du lager som levende lenker, del dem med klassen og hold orden på alt."
     },
     "free": {
       "title": "Alltid et gratis nivå",

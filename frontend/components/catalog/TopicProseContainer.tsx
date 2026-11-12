@@ -1,6 +1,7 @@
 import { getTranslations, getMessages } from 'next-intl/server';
 import { Axis } from '@/lib/taxonomy';
 import { getSingleAxisOverride, getIntersectionOverride } from '@/lib/seo/topic-overrides';
+import ProseClamp from './ProseClamp';
 
 // Arc 6a/6d — Descriptive prose container with Q3 fallback chain.
 //
@@ -87,6 +88,9 @@ function lookupTopicProse(
   return null;
 }
 
+/** an introduction longer than this is clamped: about five lines on a desktop screen, ten on a phone */
+const CLAMP_FROM = 420;
+
 export default async function TopicProseContainer({
   locale,
   axisKey1,
@@ -127,20 +131,23 @@ export default async function TopicProseContainer({
 
   const paragraphs = prose.split('\n\n').filter(p => p.length > 0);
 
+  const body = paragraphs.map((para, idx) => (
+    <p
+      key={idx}
+      className={
+        idx === 0
+          ? 'text-base text-ink-700 leading-relaxed'
+          : 'text-base text-ink-700 leading-relaxed mt-3'
+      }
+    >
+      {para}
+    </p>
+  ));
+  // a long introduction shows its first three lines above the worksheets; the whole text stays in the page
+  // (ProseClamp, Part 11.6). A short one is shown as it is: a control that opens nothing would be a dead control.
   return (
     <section className="topic-prose mb-8 max-w-2xl">
-      {paragraphs.map((para, idx) => (
-        <p
-          key={idx}
-          className={
-            idx === 0
-              ? 'text-base text-ink-700 leading-relaxed'
-              : 'text-base text-ink-700 leading-relaxed mt-3'
-          }
-        >
-          {para}
-        </p>
-      ))}
+      {prose.length > CLAMP_FROM ? <ProseClamp locale={locale} id="topic-prose-more">{body}</ProseClamp> : body}
     </section>
   );
 }

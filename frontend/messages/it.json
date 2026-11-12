@@ -3782,7 +3782,7 @@
     },
     "gate": {
       "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
-      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
+      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono inclusi nel piano Insegnante. Con il tuo account gratuito puoi continuare a usare e scaricare schede, attività e materiali da stampare entro i limiti dell'account.",
       "subscriberCta": "Vedi i piani",
       "signInPromptTitle": "Serve l'accesso",
       "signInPromptBody": "Per usare questa funzione serve un account gratuito. Ci vuole un attimo.",
@@ -3831,7 +3831,7 @@
     },
     "gate": {
       "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
-      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
+      "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono inclusi nel piano Insegnante. Con il tuo account gratuito puoi continuare a usare e scaricare schede, attività e materiali da stampare entro i limiti dell'account.",
       "subscriberCta": "Vedi i piani",
       "signInPromptTitle": "Serve l'accesso",
       "signInPromptBody": "Per usare questa funzione serve un account gratuito. Ci vuole un attimo.",
@@ -4439,7 +4439,7 @@
     },
     "hero": {
       "title": "Prezzi semplici, pensati per gli insegnanti",
-      "subtitle": "Tutto ciò che usi oggi resta gratuito — schede, attività, gioco interattivo e PDF. Il piano Insegnante aggiunge il tuo scaffale personale: salva le schede che crei come link attivi, condividile con la classe e tieni tutto in ordine."
+      "subtitle": "Tutto è aperto alla consultazione, e un account gratuito ti permette di giocare e scaricare entro limiti giornalieri e mensili. Il piano Insegnante elimina i limiti e aggiunge il tuo scaffale personale: salva le schede che crei come link attivi, condividile con la classe e tieni tutto in ordine."
     },
     "free": {
       "title": "C'è sempre un piano gratuito",

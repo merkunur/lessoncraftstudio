@@ -2281,7 +2281,7 @@
     },
     "gate": {
       "subscriberTitle": "Cet espace fait partie de l'abonnement LessonCraftStudio",
-      "subscriberBody": "Les collections et les outils de l'espace de travail sont réservés aux abonnés. Tout le reste sur LessonCraftStudio — fiches, activités et supports à imprimer — reste gratuit.",
+      "subscriberBody": "Les collections et les outils de l'espace de travail sont inclus dans l'abonnement Enseignant. Avec votre compte gratuit, vous pouvez continuer à utiliser et à télécharger les fiches, les activités et les supports à imprimer, dans les limites de l'offre gratuite.",
       "subscriberCta": "Voir les formules",
       "signInPromptTitle": "Connexion requise",
       "signInPromptBody": "Cette fonctionnalité demande un compte gratuit. L'inscription prend juste un instant.",
@@ -2330,7 +2330,7 @@
     },
     "gate": {
       "subscriberTitle": "Cet espace fait partie de l'abonnement LessonCraftStudio",
-      "subscriberBody": "Les collections et les outils de l'espace de travail sont réservés aux abonnés. Tout le reste sur LessonCraftStudio — fiches, activités et supports à imprimer — reste gratuit.",
+      "subscriberBody": "Les collections et les outils de l'espace de travail sont inclus dans l'abonnement Enseignant. Avec votre compte gratuit, vous pouvez continuer à utiliser et à télécharger les fiches, les activités et les supports à imprimer, dans les limites de l'offre gratuite.",
       "subscriberCta": "Voir les formules",
       "signInPromptTitle": "Connexion requise",
       "signInPromptBody": "Cette fonctionnalité demande un compte gratuit. L'inscription prend juste un instant.",
@@ -2938,7 +2938,7 @@
     },
     "hero": {
       "title": "Un tarif simple, pensé pour les enseignants",
-      "subtitle": "Tout ce que vous utilisez aujourd'hui reste gratuit — fiches, activités, jeu interactif et PDF. L'abonnement Enseignant ajoute votre propre rayon : enregistrez les fiches que vous créez sous forme de liens actifs, partagez-les avec votre classe et gardez tout organisé."
+      "subtitle": "Tout le site est ouvert à la consultation, et un compte gratuit vous permet de jouer et de télécharger dans des limites quotidiennes et mensuelles. L'abonnement Enseignant lève ces limites et ajoute votre propre rayon : enregistrez les fiches que vous créez sous forme de liens actifs, partagez-les avec votre classe et gardez tout organisé."
     },
     "free": {
       "title": "Toujours une offre gratuite",

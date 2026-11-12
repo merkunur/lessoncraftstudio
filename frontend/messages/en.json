@@ -930,7 +930,7 @@
     },
     "gate": {
       "subscriberTitle": "This area is part of the LessonCraftStudio subscription",
-      "subscriberBody": "Collections and workspace tools are subscriber features. Everything else on LessonCraftStudio — worksheets, activities, and printables — stays free.",
+      "subscriberBody": "Collections and workspace tools come with the Teacher plan. With your free account you can keep playing and downloading worksheets, activities, and printables within its limits.",
       "subscriberCta": "See plans",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
@@ -3784,7 +3784,7 @@
     },
     "gate": {
       "subscriberTitle": "This area is part of the LessonCraftStudio subscription",
-      "subscriberBody": "Collections and workspace tools are subscriber features. Everything else on LessonCraftStudio — worksheets, activities, and printables — stays free.",
+      "subscriberBody": "Collections and workspace tools come with the Teacher plan. With your free account you can keep playing and downloading worksheets, activities, and printables within its limits.",
       "subscriberCta": "See plans",
       "signInPromptTitle": "Sign-in required",
       "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
@@ -4203,7 +4203,7 @@
     "audienceHeading": "Who it's for",
     "audienceBody": "Built for teachers and parents in dual-language, bilingual, and international-school classrooms, especially in early childhood (ages 3 to 7).",
     "teamHeading": "How it's made",
-    "teamBody": "Every worksheet, activity, and generator is built to be genuinely usable in a real K-3 classroom — clear layouts, no timers or scores, and a warm, no-shame tone. The content in each of the 11 languages is reviewed by native speakers rather than machine-translated, and the learning goals are aligned to the Common Core State Standards in the United States and to each country's own national curriculum. Everything stays free to browse, print, share, and embed.",
+    "teamBody": "Every worksheet, activity, and generator is built to be genuinely usable in a real K-3 classroom — clear layouts, no timers or scores, and a warm, no-shame tone. The content in each of the 11 languages is reviewed by native speakers rather than machine-translated, and the learning goals are aligned to the Common Core State Standards in the United States and to each country's own national curriculum. Everything is open to browse, share, and embed, and a free account lets you play and download within its limits.",
     "tutorialsHeading": "Video tutorials",
     "tutorialsBody": "Step-by-step tutorials for each of our worksheet generators are on our YouTube channel:",
     "tutorialsLinkText": "@LessonCraftStudioApps on YouTube"
@@ -4438,7 +4438,7 @@
     },
     "hero": {
       "title": "Simple pricing, built for teachers",
-      "subtitle": "Everything you use today stays free — worksheets, activities, interactive play, and PDFs. The Teacher plan adds your own shelf: save the worksheets you make as live links, share them with your class, and keep it all organized."
+      "subtitle": "Everything is open to browse, and a free account lets you play and download within daily and monthly limits. The Teacher plan takes the limits away and adds your own shelf: save the worksheets you make as live links, share them with your class, and keep it all organized."
     },
     "free": {
       "title": "Always a free tier",

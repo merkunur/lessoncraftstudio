@@ -799,8 +799,6 @@ export default async function TopicPage({
             and what the Teacher plan adds (Part 11.6). Added to the page; nothing of the page is changed. */}
         {teaching ? <TeachingBand locale={locale} data={teaching} /> : null}
 
-        <MakerRibbon locale={locale} axes={[{ axis, axisKey }]} />
-
         <TopicProseContainer
           locale={locale}
           axisKey1={axisKey}
@@ -836,13 +834,6 @@ export default async function TopicPage({
             )}
           </section>
         )}
-
-        <PageUsageBlock
-          locale={locale}
-          variant="topic"
-          overrideKey={axisKey}
-          topicName={topicName}
-        />
 
         {levelSetsSection}
 
@@ -917,6 +908,19 @@ export default async function TopicPage({
         {/* Arc 6a — cross-axis pivot rail. Surfaces 2-axis intersection
             pages related to the current axis. Capped at 6 per Q1; renders
             fewer when substrate sparse (no fallback copy). */}
+        {/* below the worksheets since Part 11.6 (they stood above them and pushed the first worksheet 1,480 px down):
+            the band of the worksheet makers and the box that says how to use the page */}
+        <div className="mt-10">
+          <MakerRibbon locale={locale} axes={[{ axis, axisKey }]} />
+        </div>
+
+        <PageUsageBlock
+          locale={locale}
+          variant="topic"
+          overrideKey={axisKey}
+          topicName={topicName}
+        />
+
         <CrossAxisPivots
           locale={locale}
           currentAxes={[{ axis, axisKey }]}

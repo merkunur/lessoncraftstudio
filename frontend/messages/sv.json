@@ -2261,7 +2261,7 @@
     },
     "gate": {
       "subscriberTitle": "Det här området ingår i LessonCraftStudio-prenumerationen",
-      "subscriberBody": "Samlingar och arbetsytans verktyg är prenumerationsfunktioner. Allt annat på LessonCraftStudio — arbetsblad, aktiviteter och utskrivbart material — förblir gratis.",
+      "subscriberBody": "Samlingar och arbetsytans verktyg ingår i Lärarplanen. Med ditt gratiskonto kan du fortsätta använda och ladda ner arbetsblad, aktiviteter och utskrivbart material inom gratiskontots gränser.",
       "subscriberCta": "Se prenumerationer",
       "signInPromptTitle": "Du behöver logga in",
       "signInPromptBody": "Skapa ett gratiskonto för att använda den här funktionen. Det går på en minut.",
@@ -2310,7 +2310,7 @@
     },
     "gate": {
       "subscriberTitle": "Det här området ingår i LessonCraftStudio-prenumerationen",
-      "subscriberBody": "Samlingar och arbetsytans verktyg är prenumerationsfunktioner. Allt annat på LessonCraftStudio — arbetsblad, aktiviteter och utskrivbart material — förblir gratis.",
+      "subscriberBody": "Samlingar och arbetsytans verktyg ingår i Lärarplanen. Med ditt gratiskonto kan du fortsätta använda och ladda ner arbetsblad, aktiviteter och utskrivbart material inom gratiskontots gränser.",
       "subscriberCta": "Se prenumerationer",
       "signInPromptTitle": "Du behöver logga in",
       "signInPromptBody": "Skapa ett gratiskonto för att använda den här funktionen. Det går på en minut.",
@@ -2918,7 +2918,7 @@
     },
     "hero": {
       "title": "Enkla priser, gjorda för lärare",
-      "subtitle": "Allt du använder i dag förblir gratis — arbetsblad, aktiviteter, interaktiv träning och PDF:er. Lärarplanen lägger till din egen hylla: spara arbetsbladen du skapar som levande länkar, dela dem med klassen och håll ordning på allt."
+      "subtitle": "Allt är öppet att bläddra i, och med ett gratiskonto kan du öva interaktivt och ladda ner inom dags- och månadsgränser. Lärarplanen tar bort gränserna och lägger till din egen hylla: spara arbetsbladen du skapar som levande länkar, dela dem med klassen och håll ordning på allt."
     },
     "free": {
       "title": "Alltid en gratisnivå",

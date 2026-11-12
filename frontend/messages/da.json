@@ -2258,7 +2258,7 @@
     },
     "gate": {
       "subscriberTitle": "Dette område er en del af LessonCraftStudio-abonnementet",
-      "subscriberBody": "Samlinger og arbejdsområdets værktøjer er abonnentfunktioner. Alt andet på LessonCraftStudio — opgaveark, aktiviteter og printbart materiale — forbliver gratis.",
+      "subscriberBody": "Samlinger og arbejdsområdets værktøjer hører til Lærerabonnementet. Med din gratis konto kan du fortsat bruge og downloade opgaveark, aktiviteter og printbart materiale inden for kontoens grænser.",
       "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Du skal være logget ind",
       "signInPromptBody": "Opret en gratis konto for at bruge funktionen. Det tager kun et øjeblik.",
@@ -2307,7 +2307,7 @@
     },
     "gate": {
       "subscriberTitle": "Dette område er en del af LessonCraftStudio-abonnementet",
-      "subscriberBody": "Samlinger og arbejdsområdets værktøjer er abonnentfunktioner. Alt andet på LessonCraftStudio — opgaveark, aktiviteter og printbart materiale — forbliver gratis.",
+      "subscriberBody": "Samlinger og arbejdsområdets værktøjer hører til Lærerabonnementet. Med din gratis konto kan du fortsat bruge og downloade opgaveark, aktiviteter og printbart materiale inden for kontoens grænser.",
       "subscriberCta": "Se abonnementer",
       "signInPromptTitle": "Du skal være logget ind",
       "signInPromptBody": "Opret en gratis konto for at bruge funktionen. Det tager kun et øjeblik.",
@@ -2915,7 +2915,7 @@
     },
     "hero": {
       "title": "Enkle priser, lavet til lærere",
-      "subtitle": "Alt det, du bruger i dag, forbliver gratis — opgaveark, aktiviteter, interaktiv leg og PDF'er. Lærerabonnementet tilføjer din egen hylde: gem de opgaveark, du laver, som levende links, del dem med klassen, og hold styr på det hele."
+      "subtitle": "Alt står åbent, så alle kan se sig omkring, og med en gratis konto kan du spille og downloade inden for daglige og månedlige grænser. Lærerabonnementet fjerner grænserne og tilføjer din egen hylde: gem de opgaveark, du laver, som levende links, del dem med klassen, og hold styr på det hele."
     },
     "free": {
       "title": "Altid et gratis niveau",

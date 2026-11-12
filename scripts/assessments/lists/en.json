@@ -10,7 +10,8 @@
  },
  "instruction": {
   "K-016": "The pictures are in pairs. If one is left over, the number is odd. Circle odd or even.",
-  "G1-287": "Each card shows a double. Write how many in all."
+  "G1-287": "Each card shows a double. Write how many in all.",
+  "K-032": "Circle the BIGGEST one."
  },
  "noCheck": {},
  "avoid": {
@@ -19,6 +20,7 @@
   ]
  },
  "reasons": {
-  "K-016 avoid 10": "[en.review-k1-math-2] With 10 pictures the fifth pair stands alone under the row, where the leftover picture stands in the other boxes: a child can read it as one left over."
+  "K-016 avoid 10": "[en.review-k1-math-2] With 10 pictures the fifth pair stands alone under the row, where the leftover picture stands in the other boxes: a child can read it as one left over.",
+  "K-032 instruction": "The worksheet says \"in each row\"; a check has one row."
  }
 }

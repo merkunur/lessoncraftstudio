@@ -119,3 +119,13 @@ Seven units have no check (see "what the engine can and cannot build"). Review: 
 ### Next in Part 7
 
 7.2 Grades 2 and 3 mathematics (a first trial built checks for 4 of 12 units before the stricter rules); raising the share of units with a check means giving the colour-and-draw worksheet types an answer mark the cutter can read (several already carry one under another name: `data-lcs-target`, `data-lcs-nth`, `data-lcs-key-ring`). 7.3 English literacy. 7.4 the checks of the beginning, middle and end of the year and the hub. 7.5 German and Swedish.
+
+## 3. Part 7.2 (started 2026-11-12): the generators' own answer keys; Grades 2 and 3
+
+### A key the worksheet type draws itself
+
+Many worksheet types draw their answer key when asked (`ctx.answerKey`: a ring round the pictures to colour, a mark on the right group, a badge on the missing piece). The cutter now builds every page a second time from the same seed in that mode: those cards are the key cards of a check, and a card the child circles or colours, which carries no answer in the child's markup, takes its answer (and where it sits) from what the key marks. A type that marks nothing in either mode is still refused.
+
+First result (English K–1): the Kindergarten unit "Counting to 10" gets a check (count and write, colour that many, how many at a glance, which group has more), and "Position Words, Size, and Patterns" a fourth part (the biggest one). The four other live checks keep exactly their tasks (their fingerprints are unchanged).
+
+Also new: form B prefers a card whose answer form A does not have in the part (9 elephants, then 9 pears, is the same count).

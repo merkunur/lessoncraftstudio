@@ -52,14 +52,15 @@ const STYLE = `<style>
 .tc-part{flex:0 0 auto;min-width:28px;height:28px;padding:0 8px;border-radius:14px;background:#3A3530;color:#fff;font-family:'Baloo 2',cursive;font-weight:700;font-size:15px;display:inline-flex;align-items:center;justify-content:center}
 .tc-cards{display:grid;gap:14px;justify-content:start}
 .tc-key [data-lcs-correct]{outline:3px solid #C9552E;outline-offset:2px;border-radius:8px}
+.tc-key [data-lcs-key-ring],.tc-key [data-lcs-keyring]{outline:3px solid #C9552E;outline-offset:2px;border-radius:50%}
 .tc-key .tc-ans{color:#C9552E;font-family:'Baloo 2',cursive;font-weight:800}
 </style>`;
-const sectionHtml = (s, n) => `<section class="tc-section" data-tc-part="${n}"><p class="tc-instr"><span class="tc-part">${n}</span><span>${esc(s.instruction)}</span></p>` +
-  `<div class="tc-cards" style="grid-template-columns:repeat(${s.perRow},${s.w}px);grid-auto-rows:${s.h}px">${s.cards.map((c, i) => renumber(c.html, i + 1)).join('')}</div></section>`;
+const sectionHtml = (s, n, key) => `<section class="tc-section" data-tc-part="${n}"><p class="tc-instr"><span class="tc-part">${n}</span><span>${esc(s.instruction)}</span></p>` +
+  `<div class="tc-cards" style="grid-template-columns:repeat(${s.perRow},${s.w}px);grid-auto-rows:${s.h}px">${s.cards.map((c, i) => renumber(key && c.keyHtml ? c.keyHtml : c.html, i + 1)).join('')}</div></section>`;
 const renumber = (html, n) => html.replace(/(<span class="ws-card-badge">)\d+(<\/span>)/, '$1' + n + '$2').replace(/data-lcs-card="\d+"/, 'data-lcs-card="' + n + '"');
 const pageHtml = (title, sections, first, opts) => buildPage({
   title, instruction: ui.pageInstruction, locale: loc, pageSize: loc === 'en' ? 'letter' : 'a4', ...(opts || {}),
-  bodyHtml: STYLE + `<div class="tc-wrap${opts && opts.keyLabel ? ' tc-key' : ''}">` + sections.map((s, i) => sectionHtml(s, first + i)).join('') + '</div>',
+  bodyHtml: STYLE + `<div class="tc-wrap${opts && opts.keyLabel ? ' tc-key' : ''}">` + sections.map((s, i) => sectionHtml(s, first + i, !!(opts && opts.keyLabel))).join('') + '</div>',
 });
 // the key: every answer the cards carry, written where the child writes it
 const showAnswers = () => {
@@ -151,7 +152,8 @@ function chooseB(plan, cardsA, usedA, usedB) {
     const ok = plan.b.cards.filter((c) => c.kind === ca.kind && !c.inOrder && near(c, ca) && wide(c) === wide(ca) && !plan.avoid.includes(c.mag)
       && !(fact(c) && (usedA.has(fact(c)) || usedB.has(fact(c)))) && !cardsA.some((x) => x.key === c.key)
       && !out.some((x) => x.key === c.key || x.ans === c.ans || (c.mag > 0 && x.mag === c.mag)) && !shares(plan, c, out.concat(cardsA)));
-    ok.sort((x, y) => ((ca.pos != null && x.pos === ca.pos) - (ca.pos != null && y.pos === ca.pos)) || (y.plain - x.plain) || (Math.abs(x.mag - ca.mag) - Math.abs(y.mag - ca.mag))
+    const asked = new Set(cardsA.map((x) => x.ans));
+    ok.sort((x, y) => (asked.has(x.ans) - asked.has(y.ans)) || ((ca.pos != null && x.pos === ca.pos) - (ca.pos != null && y.pos === ca.pos)) || (y.plain - x.plain) || (Math.abs(x.mag - ca.mag) - Math.abs(y.mag - ca.mag))
       // two candidates equally far from A's size: the larger one for the first box, the smaller for the second, so that
       // form B is not the easier form as a whole
       || (out.length % 2 === 0 ? y.mag - x.mag : x.mag - y.mag));

@@ -39,9 +39,9 @@ async function cutCards(page, o) {
   const { type, strings, locale, seed, outDir } = o;
   if (!strings || !strings.instruction || /\{[A-Za-z_]+\}/.test(strings.instruction + (strings.title || ''))) return { refused: 'its strings hold a token' };   // a type with tokens of its own is not cut
   const themed = !!(type.themeAxis && type.themeAxis.applicable);
-  let built = null;
+  let built = null, usedTheme = null;
   for (const theme of themed ? [o.theme, 'animals'] : [null]) {
-    try { built = await type.build({ theme, difficulty: DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant: 1 }); break; } catch (e) { built = null; }
+    try { built = await type.build({ theme, difficulty: DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant: 1 }); usedTheme = theme; break; } catch (e) { built = null; }
   }
   if (!built) return { refused: 'it does not build without a unit' };
   if (!/class="ws-card"/.test(built.bodyHtml)) return { refused: 'its page is not built of cards' };
@@ -107,7 +107,35 @@ async function cutCards(page, o) {
   if (!cut) return { refused: 'no card grid on the page' };
   if (!cut.alone) return { refused: 'something stands beside the cards (a bank, a line, a legend)' };
   if (cut.cards.length < 2) return { refused: 'fewer than two cards' };
-  if (cut.cards.some((c) => !c.answers)) return { refused: 'a card carries no answer in its markup' };
+
+  // ---- the type's OWN answer key (Part 7.2) ----
+  // Many types draw their key themselves when asked (ctx.answerKey: a ring round the right picture, a sample of the
+  // colouring, a badge on the missing piece). The same page is built again from the same seed in that mode: its cards
+  // are the key cards of the check, and a card the child circles or colours gets its answer from what the key marks.
+  let keyCards = null;
+  try {
+    const builtKey = await type.build({ theme: usedTheme, difficulty: DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant: 1, answerKey: true });
+    fs.writeFileSync(file, buildPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: builtKey.bodyHtml, locale, pageSize: locale === 'en' ? 'letter' : 'a4' }), 'utf8');
+    await page.goto(url.pathToFileURL(file).href, { waitUntil: 'networkidle0' });
+    await page.evaluate(() => document.fonts.ready);
+    keyCards = await page.evaluate(() => {
+      const MARK = '[data-lcs-correct],[data-lcs-key-ring],[data-lcs-key-badge],[data-lcs-key-sample]';
+      return [...document.querySelectorAll('.ws-cardgrid > .ws-card')].map((c) => {
+        const marks = [...c.querySelectorAll(MARK)];
+        const say = (e) => (e.textContent || '').trim() || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'mark ' + [...e.parentElement.children].indexOf(e);
+        return { html: c.outerHTML, marks: marks.length, says: marks.map(say).join('|'), pos: marks[0] ? [...marks[0].parentElement.children].indexOf(marks[0]) : null };
+      });
+    });
+    fs.unlinkSync(file);
+  } catch (e) { keyCards = null; try { fs.unlinkSync(file); } catch (e2) { /* gone */ } }
+  if (keyCards && keyCards.length === cut.cards.length) {
+    cut.cards.forEach((c, i) => {
+      const k = keyCards[i];
+      c.keyHtml = k.html;
+      if (!c.answers && k.marks) { c.answers = k.marks; c.ans = k.marks + ':' + k.says; c.pos = k.pos; }
+    });
+  }
+  if (cut.cards.some((c) => !c.answers)) return { refused: 'a card carries no answer in its markup, and the type draws no key for it' };
   return { cols: cut.cols, cards: cut.cards, instruction: strings.instruction, title: strings.printTitle || strings.title };
 }
 

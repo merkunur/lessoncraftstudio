@@ -9,6 +9,7 @@ import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
+import { getUnitUi, unitsForTool } from '@/lib/units';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 import {
   TOOL_KEYS,
@@ -257,6 +258,8 @@ export default async function ToolPage({ params }: { params: PageParams }) {
   }
   const content = await getToolContent(params.locale, toolKey);
   if (!content) notFound();
+  // the lessons that use this tool, where the language has units (never lets the page fall)
+  const [toolUnits, toolUnitUi] = await Promise.all([unitsForTool(params.locale, toolKey).catch(() => []), getUnitUi(params.locale).catch(() => null)]);
 
   const iframeSrc =
     `${TOOL_MINI_URL[toolKey]}?v=${TOOL_WRAPPER_VERSION}` +
@@ -304,17 +307,22 @@ export default async function ToolPage({ params }: { params: PageParams }) {
             <p className="text-xs text-ink-600/70 max-w-2xl mx-auto leading-snug">{content.tagline}</p>
           </header>
           <div className="relative z-10">
-            <ActivityIframe src={iframeSrc} title={content.name} toolKey={toolKey} />
+            <ActivityIframe src={iframeSrc} title={content.name} toolKey={toolKey} fullScreen={{ href: `${TOOL_MINI_URL[toolKey]}?lang=${encodeURIComponent(params.locale)}`, label: content.labels.openFullScreen }} />
           </div>
-          <div className="relative z-10 mt-3 text-center">
-            <a
-              href={`${TOOL_MINI_URL[toolKey]}?lang=${encodeURIComponent(params.locale)}`}
-              className="inline-flex items-center gap-1 text-teal-700 hover:text-teal-800 text-sm font-medium underline decoration-dotted underline-offset-2"
-            >
-              {content.labels.openFullScreen}
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
+          {/* the lessons that open this tool on the projector (Part 11.6): only where a live unit uses it */}
+          {toolUnits.length > 0 && toolUnitUi?.partOfTitle && toolUnitUi?.lessonWord ? (
+            <div className="relative z-10 mx-auto mt-5 max-w-2xl rounded-r-xl border-l-4 border-teal-700 bg-cream-100 px-5 py-4 text-left" data-tool-lessons="">
+              <h2 className="font-display text-lg font-semibold text-ink-900 mb-1">{toolUnitUi.partOfTitle}</h2>
+              <ul>
+                {toolUnits.slice(0, 3).map((r) => (
+                  <li key={r.slug}>
+                    <a href={`/${params.locale}/units/${r.slug}#lesson-${r.lesson}`} className="inline-flex min-h-[44px] items-center font-semibold text-teal-700 underline underline-offset-2">{toolUnitUi.lessonWord.replace('{n}', String(r.lesson))}: {r.lessonTitle}</a>
+                    <span className="ml-2 text-ink-700">{r.title}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </section>
 
         {/* Crawlable editorial body — the SEO surface for the tool. */}

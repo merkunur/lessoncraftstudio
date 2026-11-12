@@ -116,6 +116,8 @@ async function unitRefs(locale: string, test: (l: UnitLesson) => boolean): Promi
   return out;
 }
 export const unitsForLanding = (locale: string, landingSlug: string) => unitRefs(locale, (l) => l.paper.some((p) => p.landing === landingSlug));
+/** the live units with a lesson that opens this classroom tool on the projector (tool pages, Part 11.6) */
+export const unitsForTool = (locale: string, toolKey: string) => unitRefs(locale, (l) => l.tool?.key === toolKey);
 export const unitsForActivity = (locale: string, activitySlug: string) => unitRefs(locale, (l) => l.screen?.kind === 'activity' && l.screen.slug === activitySlug);
 export const getUnitUi = (locale: string) => load<UnitUi>(`ui.${locale}`, () => import(`@/content/units/ui.${locale}.json`));
 

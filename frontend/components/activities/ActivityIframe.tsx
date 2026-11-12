@@ -52,11 +52,18 @@ export function ActivityIframe({
   title,
   toolKey,
   sample,
+  fullScreen,
 }: {
   src: string;
   title: string;
   /** the homepage sample: metered as a play like before, and not asked for an account */
   sample?: boolean;
+  /**
+   * A link under the player that opens the tool on its own (for a projector). It is shown ONLY when the play was
+   * allowed: it used to stand under the player for everyone and opened the tool's own file, so a visitor without an
+   * account was one click from playing anyway.
+   */
+  fullScreen?: { href: string; label: string };
   /**
    * ⭐ The tool key, when this iframe is a TOOL rather than an activity.
    * Care surfaces (`lib/care-surfaces.ts`) are never metered: a
@@ -190,6 +197,7 @@ export function ActivityIframe({
   // 'open' renders the iframe; so does 'pending' for the homepage sample (the common case there is allowed). The
   // meter has already counted the play. When metering is OFF, the gate resolves 'open' at once.
   return (
+    <>
     <iframe
       ref={iframeRef}
       src={src}
@@ -207,5 +215,14 @@ export function ActivityIframe({
         transition: "height .25s ease",
       }}
     />
+    {fullScreen && gate === "open" ? (
+      <div style={{ marginTop: 12, textAlign: "center" }}>
+        <a href={fullScreen.href} data-full-screen="" style={{ display: "inline-flex", alignItems: "center", gap: 4, minHeight: 44, color: "#0F5A4F", fontSize: "0.9375rem", fontWeight: 500, textDecoration: "underline dotted", textUnderlineOffset: 4 }}>
+          {fullScreen.label}
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    ) : null}
+    </>
   );
 }

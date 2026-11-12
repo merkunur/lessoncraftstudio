@@ -1,0 +1,1381 @@
+{
+  "pacing": {
+    "yearWeeks": 36,
+    "yearWeeksNote": "Ett svenskt läsår har minst 178 skoldagar, det vill säga ungefär 36 skolveckor när höstlov, jullov, sportlov och påsklov redan är borträknade.",
+    "teachingWeeks": {
+      "1": 32,
+      "2": 33,
+      "3": 31,
+      "K": 30
+    },
+    "daysPerWeek": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "K": 3
+    },
+    "why": "Från de 36 skolveckorna dras uppstart och inskolning, sista skolveckan och ungefär en vecka av utspridda friluftsdagar, temadagar, utvecklingssamtal och avslutningar; i årskurs 3 dessutom två veckor för de nationella proven i matematik. Förskoleklassen har längre inskolning och räknas med tre matematikpass i veckan, årskurs 1–3 med fem lektioner i veckan."
+  },
+  "K": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-3",
+        "what": "Uppstart och inskolning: lära känna gruppen, rutinerna och lokalerna"
+      },
+      {
+        "weeks": "17",
+        "what": "Lucia, julpyssel och terminsavslutning"
+      },
+      {
+        "weeks": "27",
+        "what": "Temadagar, friluftsdagar och utvecklingssamtal (dagarna ligger utspridda över läsåret och motsvarar tillsammans ungefär en vecka)"
+      },
+      {
+        "weeks": "36",
+        "what": "Sista skolveckan: besök hos blivande ettan och skolavslutning"
+      }
+    ],
+    "units": [
+      {
+        "id": "sv-f-ma-lage-storlek-monster",
+        "title": "Läge, storlek och mönster",
+        "why": "Läsåret börjar med lägesord, jämförelser och mönster, som ger gruppen ett gemensamt matematiskt språk innan siffrorna kommer.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#1"
+          },
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#2"
+          },
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#3"
+          },
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#6"
+          }
+        ]
+      },
+      {
+        "id": "sv-f-ma-antal-0-10",
+        "title": "Antal och siffror 0–10",
+        "why": "När begreppen finns på plats räknar klassen antal och möter siffrorna 0–10 under resten av hösten.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-antal-0-10#1"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#2"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#3"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#4"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#5"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#6"
+          },
+          {
+            "existing": "sv-f-ma-antal-0-10#7"
+          }
+        ]
+      },
+      {
+        "id": "sv-f-ma-former",
+        "title": "Geometriska former och spegelbilder",
+        "why": "Former och spegelbilder passar veckorna före jul, när klassen ändå bygger, viker och klipper.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-former#1"
+          },
+          {
+            "existing": "sv-f-ma-former#2"
+          },
+          {
+            "new": true,
+            "title": "Bygga och rita former på prickpapper",
+            "objective": "Eleverna bygger trianglar, kvadrater och rektanglar med glasspinnar och med gummiband på geobräde och ritar sedan av formerna på prickpapper med rätt antal sidor och hörn.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": null,
+            "source": "point:K:draw-shapes"
+          },
+          {
+            "existing": "sv-f-ma-former#3"
+          },
+          {
+            "existing": "sv-f-ma-former#4"
+          }
+        ]
+      },
+      {
+        "id": "sv-f-ma-talraden-20",
+        "title": "Talraden till 20 och ordningstal",
+        "why": "Efter jullovet vidgas talraden till 20, och klassen räknar framåt, bakåt och med ordningstal.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-talraden-20#1"
+          },
+          {
+            "existing": "sv-f-ma-talraden-20#2"
+          },
+          {
+            "existing": "sv-f-ma-talraden-20#3"
+          },
+          {
+            "existing": "sv-f-ma-talraden-20#4"
+          }
+        ]
+      },
+      {
+        "id": "new:mata-och-jamfora",
+        "title": "Mäta och jämföra: längd, vikt och volym",
+        "why": "På vårvintern mäter och jämför eleverna längd, vikt och volym med riktiga föremål och använder då talen de nu kan.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#4"
+          },
+          {
+            "new": true,
+            "title": "Mäta längd med klossar och steg",
+            "objective": "Eleverna mäter bänkar, böcker och mattan med klossar, gem och egna steg, räknar upp till 10 enheter och berättar hur många som fick plats.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": "Enhetsremsan",
+            "source": "new",
+            "page": "Bladet visar sex föremål (penna, sax, bok, pensel, limstift, sked) ritade ovanför en rad lika stora klossar som börjar vid föremålets kant; eleven räknar klossarna, mellan 2 och 10, och skriver antalet i rutan. Före bladet mäter eleverna samma slags saker i klassrummet med riktiga klossar som läggs kant i kant."
+          },
+          {
+            "existing": "sv-f-ma-lage-storlek-monster#5"
+          },
+          {
+            "new": true,
+            "title": "Vad rymmer mest?",
+            "objective": "Eleverna häller vatten eller ris mellan muggar, flaskor och burkar, räknar hur många muggar varje kärl rymmer (1 till 10) och ordnar kärlen från det som rymmer minst till det som rymmer mest.",
+            "standard": "F.4.1",
+            "days": 2,
+            "tool": "Mätbänken",
+            "source": "new",
+            "page": "Bladet visar par av kärl (glas och hink, flaska och mugg) där eleven ringar in det som rymmer mest, och en rad med tre kärl som eleven numrerar 1, 2, 3 från minst till mest. Sist ritar eleven lika många muggar som det gick åt för att fylla klassens burk, mellan 2 och 10, och skriver siffran."
+          }
+        ]
+      },
+      {
+        "id": "sv-f-ma-sortera-dela-upp",
+        "title": "Sortera, uppskatta och dela upp tal",
+        "why": "Under våren sorterar, uppskattar och delar klassen upp tal, vilket förbereder talkamraterna i årskurs 1.",
+        "lessons": [
+          {
+            "existing": "sv-f-ma-sortera-dela-upp#1"
+          },
+          {
+            "new": true,
+            "title": "Klassens diagram: bygg staplar med klossar",
+            "objective": "Eleverna svarar på en fråga om klassen genom att lägga varsin kloss i rätt stapel och jämför sedan staplarna, med högst 10 klossar i varje, för att säga vilken som har flest och vilken som har färst.",
+            "standard": "F.4.1",
+            "days": 2,
+            "tool": "Klassens diagram",
+            "source": "new",
+            "page": "Bladet visar ett rutdiagram med tre staplar (till exempel äpple, banan och päron) där varje färgad ruta är en kloss; eleven räknar rutorna i varje stapel, skriver antalet (1 till 10) under stapeln och ringar in den stapel som har flest. Innan dess bygger klassen samma slags diagram med riktiga klossar på golvet."
+          },
+          {
+            "existing": "sv-f-ma-sortera-dela-upp#2"
+          },
+          {
+            "existing": "sv-f-ma-sortera-dela-upp#3"
+          },
+          {
+            "existing": "sv-f-ma-sortera-dela-upp#4"
+          },
+          {
+            "new": true,
+            "title": "Dela upp talen 6 till 10",
+            "objective": "Eleverna delar upp 6 till 10 kastanjer eller knappar i två högar på olika sätt, gömmer den ena högen under en mugg och säger och ritar de två delarna.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": "Helhet och delar",
+            "source": "reuse:Femkompisar med prickar"
+          }
+        ]
+      },
+      {
+        "id": "new:rakna-handelser-med-foremal",
+        "title": "Lägga till, ta bort och lösa problem",
+        "why": "Året slutar med räknehändelser som eleverna spelar med föremål, så att addition och subtraktion blir berättelser innan de blir tecken i ettan.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Några kommer till: först, sedan, nu",
+            "objective": "Eleverna spelar räknehändelser med leksaksdjur eller knappar där några kommer till och berättar hur många det är nu, i talområdet 1–10.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": "Ögonblicket",
+            "source": "new",
+            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu), till exempel 3 fåglar på en gren och 2 som flyger dit; eleven ritar alla fåglarna i den sista rutan och skriver siffran, med summor upp till 10 och utan plustecken. Varje händelse spelas först med riktiga föremål på bordet."
+          },
+          {
+            "new": true,
+            "title": "Några går iväg: hur många är kvar?",
+            "objective": "Eleverna spelar räknehändelser där några föremål tas bort eller göms under en duk och berättar hur många som är kvar, med högst 10 föremål från början.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar bilder med 3 till 10 föremål där några är överkryssade eller på väg bort (ballonger som flyger iväg, kakor som äts upp); eleven räknar dem som är kvar och skriver siffran. Minst ett föremål är alltid kvar, och varje händelse spelas först med riktiga föremål."
+          },
+          {
+            "new": true,
+            "title": "Dela lika: en till dig, en till mig",
+            "objective": "Eleverna delar ut 4 till 10 russin eller klossar lika mellan två eller tre tallrikar, ett i taget, och berättar hur många var och en fick.",
+            "standard": "Matematiska resonemang och uttrycksformer",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar 4, 6, 8 eller 10 kakor och två tallrikar samt 6 eller 9 kakor och tre tallrikar; eleven drar ett streck från varje kaka till en tallrik så att alla får lika många och skriver hur många det blev på varje tallrik. Eleverna delar först ut riktiga föremål på riktiga tallrikar."
+          },
+          {
+            "new": true,
+            "title": "Lös problemet: lägg, rita och berätta",
+            "objective": "Eleverna löser ett vardagsproblem i talområdet 1–10 med plockmaterial, ritar sin lösning och förklarar för en kamrat hur de tänkte.",
+            "standard": "F.3.1",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet har ett problem per sida med en bild och en stor tom ruta, till exempel ”Fyra barn ska ha två vantar var. Hur många vantar behövs?”; läraren läser problemet, eleven lägger först med klossar, ritar sedan sin lösning i rutan och skriver svaret med en siffra, högst 10."
+          }
+        ]
+      }
+    ],
+    "totalDays": 89,
+    "leftOut": []
+  },
+  "1": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Uppstart och inskolning i ettan: gruppen, rutinerna och arbetssätten"
+      },
+      {
+        "weeks": "17",
+        "what": "Friluftsdagar, temadagar, utvecklingssamtal, lucia och julavslutning (dagarna ligger utspridda över läsåret och motsvarar tillsammans ungefär en vecka)"
+      },
+      {
+        "weeks": "36",
+        "what": "Sista skolveckan med skolavslutning"
+      }
+    ],
+    "units": [
+      {
+        "id": "new:talen-0-10",
+        "title": "Talen 0–10: antal, talrad och uppdelning",
+        "why": "Ettan börjar med att befästa talen 0–10 från förskoleklassen, så att alla har samma grund innan räknesätten kommer.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Talen 0 till 10 i tiorutan",
+            "objective": "Eleverna räknar 1 till 10 föremål, visar antalet i en tioruta, skriver siffran och säger hur många rutor som är tomma upp till 10.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tioram",
+            "source": "reuse:Räkna i tioruta"
+          },
+          {
+            "new": true,
+            "title": "Talraden 0 till 10: före, efter och mellan",
+            "objective": "Eleverna säger och skriver talet före, talet efter och talet mellan i talraden 0–10 och räknar både framåt och bakåt från ett valfritt tal.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tallinje",
+            "source": "reuse:Före och efter"
+          },
+          {
+            "new": true,
+            "title": "Större än, mindre än och lika med",
+            "objective": "Eleverna jämför två antal eller två tal i talområdet 0–10 och skriver tecknet >, < eller = mellan dem.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar först par av bildgrupper och sedan par av tal i talområdet 0–10 med en tom ruta emellan; eleven skriver >, < eller = i rutan. Sist ordnar eleven tre tal från det minsta till det största."
+          },
+          {
+            "new": true,
+            "title": "Dela upp talen 5 till 9",
+            "objective": "Eleverna delar upp talen 5, 6, 7, 8 och 9 i två delar på alla sätt med brickor i två färger och skriver delarna som talkamrater.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Helhet och delar",
+            "source": "reuse:Femkompisar med prickar"
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-add-sub-0-10",
+        "title": "Addition och subtraktion 0–10",
+        "why": "När talen 0–10 sitter möter eleverna addition och subtraktion med bilder, tallinje och räknehändelser.",
+        "lessons": [
+          {
+            "existing": "sv-1-ma-add-sub-0-10#1"
+          },
+          {
+            "existing": "sv-1-ma-add-sub-0-10#2"
+          },
+          {
+            "existing": "sv-1-ma-add-sub-0-10#3"
+          },
+          {
+            "existing": "sv-1-ma-add-sub-0-10#4"
+          },
+          {
+            "existing": "sv-1-ma-add-sub-0-10#5"
+          },
+          {
+            "existing": "sv-1-ma-add-sub-0-10#6"
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-talkamrater",
+        "title": "Talkamrater och likhetstecknet",
+        "why": "Tiokamraterna och likhetstecknets betydelse gör räkningen till 10 säker och är grunden för tiotalsövergången i vår.",
+        "lessons": [
+          {
+            "existing": "sv-1-ma-talkamrater#1"
+          },
+          {
+            "existing": "sv-1-ma-talkamrater#2"
+          },
+          {
+            "new": true,
+            "title": "Likhetstecknet: lika mycket på båda sidor",
+            "objective": "Eleverna avgör om likheter i talområdet 0–10, som 4 + 1 = 5, 5 = 2 + 3 och 3 + 1 = 2 + 2, är sanna eller falska och förklarar att likhetstecknet betyder att det är lika mycket på båda sidor.",
+            "standard": "Algebra",
+            "days": 2,
+            "tool": "Talvåg",
+            "source": "new",
+            "page": "Bladet visar likheter i talområdet 0–10 skrivna åt olika håll (3 + 2 = 5, 6 = 4 + 2, 2 + 2 = 3 + 1), var och en bredvid en tom balansvåg; eleven ritar prickar i vågskålarna, ringar in sant eller falskt och skriver om de falska likheterna så att de stämmer."
+          },
+          {
+            "existing": "sv-1-ma-talkamrater#3"
+          },
+          {
+            "existing": "sv-1-ma-talkamrater#4"
+          },
+          {
+            "existing": "sv-1-ma-talkamrater#5"
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-former-monster-langd",
+        "title": "Läge, former, mönster och längd",
+        "why": "Före jul byter klassen spår till geometri, mönster och mätning, där eleverna arbetar praktiskt med kroppen och med material.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Lägesord: framför, bakom, mellan och bredvid",
+            "objective": "Eleverna beskriver och placerar föremål med lägesorden framför, bakom, mellan, ovanför, nedanför, till vänster om och till höger om.",
+            "standard": "MA.1-3.3.1",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar en hylla och ett klassrum med föremål; eleven läser korta meningar som ”Bollen ligger till vänster om boken” och ritar eller färglägger rätt föremål på rätt plats. I de tre sista meningarna skriver eleven själv det lägesord som saknas."
+          },
+          {
+            "existing": "sv-1-ma-former-monster-langd#1"
+          },
+          {
+            "existing": "sv-1-ma-former-monster-langd#2"
+          },
+          {
+            "existing": "sv-1-ma-former-monster-langd#3"
+          },
+          {
+            "new": true,
+            "title": "Stegvisa instruktioner: styr skalbaggen",
+            "objective": "Eleverna följer och skriver stegvisa instruktioner med pilar (ett steg framåt, sväng åt vänster, sväng åt höger) som tar en figur från start till mål i ett rutnät.",
+            "standard": "MA.1-3.2.4",
+            "days": 2,
+            "tool": "Kommandorälsen",
+            "source": "new",
+            "page": "Bladet visar rutnät med 4 × 4 rutor, en skalbagge och ett löv; i de första uppgifterna följer eleven en färdig rad med pilar och ritar skalbaggens väg, i de sista skriver eleven själv pilarna, högst sex steg, som tar skalbaggen till lövet."
+          },
+          {
+            "existing": "sv-1-ma-former-monster-langd#4"
+          },
+          {
+            "new": true,
+            "title": "Olika enheter ger olika tal",
+            "objective": "Eleverna mäter samma föremål med två olika enheter, till exempel gem och klossar, med mätetal upp till 20 och förklarar varför det går åt fler av den mindre enheten.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Enhetsremsan",
+            "source": "new",
+            "page": "Bladet visar samma penna, pensel och bok mätta två gånger, först mot en rad stora klossar och sedan mot en rad små gem; eleven skriver de två mätetalen (mellan 2 och 20) och ringar in den enhet som det gick åt flest av."
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-tal-0-20",
+        "title": "Talen 0–20: dubbelt, hälften, udda och jämnt",
+        "why": "Kring årsskiftet vidgas talområdet till 20 med tallinjen, talens namn, tjugokamrater, dubbelt och hälften samt udda och jämna tal.",
+        "lessons": [
+          {
+            "existing": "sv-1-ma-tal-0-20#1"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#2"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#3"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#4"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#5"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#6"
+          },
+          {
+            "existing": "sv-1-ma-tal-0-20#7"
+          }
+        ]
+      },
+      {
+        "id": "new:add-sub-0-20",
+        "title": "Addition och subtraktion 0–20 med tiotalsövergång",
+        "why": "Tiotalsövergången är årets viktigaste steg i räkningen och får gott om tid mitt i vårterminen, när talen till 20 och tiokamraterna är säkra.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Samma ental, en tia till: 3 + 4 och 13 + 4",
+            "objective": "Eleverna adderar och subtraherar ental i talen 10–19 utan tiotalsövergång, som 13 + 4 och 17 − 5, genom att använda det de kan om 3 + 4 och 7 − 5.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Tioram",
+            "source": "new",
+            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 13 + 4 eller 8 − 5 och 18 − 5, bredvid två tiorutor; eleven ritar brickorna och skriver båda svaren. Alla uppgifter ligger i talområdet 0–20 och är utan tiotalsövergång."
+          },
+          {
+            "new": true,
+            "title": "Dubblor och nästan-dubblor",
+            "objective": "Eleverna lär sig dubblorna 6 + 6 till 10 + 10 utantill och använder dem för att räkna ut nästan-dubblor som 6 + 7 och 8 + 9.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Kulram",
+            "source": "new",
+            "page": "Bladet visar dubblorna 6 + 6 till 10 + 10 som två lika långa rader med prickar och under varje dubbla en nästan-dubbla, till exempel 6 + 7; eleven skriver dubblans summa och använder den för att skriva nästan-dubblans summa, med summor upp till 20."
+          },
+          {
+            "new": true,
+            "title": "Tiotalsövergång i addition: fyll tian först",
+            "objective": "Eleverna adderar ental över tio i talområdet 0–20, som 8 + 5, genom att först fylla tian och sedan lägga till resten.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Tioram",
+            "source": "new",
+            "page": "Bladet visar additioner som 8 + 5 och 9 + 4 med två tiorutor och en uppdelningsgaffel under den andra termen; eleven delar upp termen (5 = 2 + 3), skriver mellanledet 8 + 2 + 3 och summan. Alla summor ligger mellan 11 och 18."
+          },
+          {
+            "new": true,
+            "title": "Tiotalsövergång i subtraktion: först ner till tian",
+            "objective": "Eleverna subtraherar ental över tio i talområdet 0–20, som 13 − 5, genom att först ta bort ner till 10 och sedan ta bort resten.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Tom tallinje",
+            "source": "new",
+            "page": "Bladet visar subtraktioner som 13 − 5 och 15 − 7 med en tom tallinje där bara 10 är utsatt; eleven ritar två hopp bakåt (13 − 3 − 2), skriver mellanledet och differensen. Första termen är alltid ett tal mellan 11 och 18."
+          },
+          {
+            "new": true,
+            "title": "Subtraktion som skillnad: räkna upp",
+            "objective": "Eleverna löser subtraktioner där talen ligger nära varandra i talområdet 0–20, som 12 − 9, genom att räkna upp från det mindre talet och säga skillnaden.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar par av tal markerade på en tallinje 0–20, till exempel 9 och 12, med en båge emellan; eleven skriver hur långt hoppet är, skriver subtraktionen 12 − 9 = 3 och den addition som hör till, 9 + 3 = 12."
+          },
+          {
+            "new": true,
+            "title": "Talfamiljer till 20",
+            "objective": "Eleverna skriver de fyra uppgifter som hör ihop i en talfamilj i talområdet 11–20, till exempel 8 + 7 = 15, 7 + 8 = 15, 15 − 8 = 7 och 15 − 7 = 8.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:Räknefamiljer till 10"
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-klockan-almanackan",
+        "title": "Klockan och almanackan",
+        "why": "Klockan och almanackan ger ett andningshål efter tiotalsövergången och knyter matematiken till skoldagen och året.",
+        "lessons": [
+          {
+            "existing": "sv-1-ma-klockan-almanackan#1"
+          },
+          {
+            "existing": "sv-1-ma-klockan-almanackan#2"
+          },
+          {
+            "new": true,
+            "title": "Månader och årstider",
+            "objective": "Eleverna ordnar årets tolv månader, säger månaden före och månaden efter och placerar varje månad i rätt årstid.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Samlingskalender",
+            "source": "point:1:days-months-seasons~season-wheel"
+          },
+          {
+            "existing": "sv-1-ma-klockan-almanackan#3"
+          },
+          {
+            "existing": "sv-1-ma-klockan-almanackan#4"
+          },
+          {
+            "existing": "sv-1-ma-klockan-almanackan#5"
+          }
+        ]
+      },
+      {
+        "id": "new:raknehandelser-problemlosning-0-20",
+        "title": "Räknehändelser och problemlösning 0–20",
+        "why": "När eleverna behärskar räkningen till 20 används den i räknehändelser av alla slag, och eleverna får själva ställa frågorna.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Hur många fler? Jämföra två antal",
+            "objective": "Eleverna löser räknehändelser med jämförelse i talområdet 0–20, ritar två staplar och skriver skillnaden som en subtraktion eller som en addition med lucka.",
+            "standard": "Problemlösning",
+            "days": 3,
+            "tool": "Plankorna",
+            "source": "new",
+            "page": "Bladet visar räknehändelser som ”Mira har 12 kulor och Ali har 8. Hur många fler har Mira?” med två tomma staplar i ett rutnät; eleven färglägger staplarna, markerar skillnaden med en klammer och skriver uträkning och svar. Alla tal är högst 20."
+          },
+          {
+            "new": true,
+            "title": "Vad hände? Räknehändelser där något saknas",
+            "objective": "Eleverna löser räknehändelser i talområdet 0–20 där förändringen eller starten är okänd och skriver dem som öppna utsagor, till exempel 7 + _ = 12.",
+            "standard": "Problemlösning",
+            "days": 2,
+            "tool": "Ögonblicket",
+            "source": "new",
+            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu) där den första eller den mellersta rutan är täckt, till exempel ”Först 7 fåglar, nu 12. Vad hände?”; eleven skriver den öppna utsagan med en lucka, fyller i talet som saknas och skriver ett svar."
+          },
+          {
+            "new": true,
+            "title": "Hitta på en egen fråga",
+            "objective": "Eleverna formulerar egna matematiska frågor till en bild av en vardagssituation med tal upp till 20 och låter en kamrat lösa dem.",
+            "standard": "MA.1-3.6.2",
+            "days": 2,
+            "tool": "Fickbrädet",
+            "source": "new",
+            "page": "Bladet visar en vardagsbild med tal men utan fråga, till exempel en fruktskål med 9 äpplen och 6 päron; eleven skriver två olika frågor som går att räkna ut, väljer en av dem och skriver uträkningen och svaret."
+          },
+          {
+            "new": true,
+            "title": "Rita, räkna, svara",
+            "objective": "Eleverna löser textuppgifter i talområdet 0–20 i fyra steg: läsa, rita en enkel bild, skriva uträkningen och svara med en hel mening.",
+            "standard": "Problemlösning",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet har tre textuppgifter med addition eller subtraktion i talområdet 0–20, var och en med fyra fält: Rita, Räkna, Svar och Stämmer det?; eleven ritar streck eller ringar i stället för detaljerade bilder, skriver uträkningen och ett svar med enhet."
+          }
+        ]
+      },
+      {
+        "id": "new:utblick-100-kronor",
+        "title": "Utblick mot 100: tiotal, ental och kronor",
+        "why": "I maj blickar klassen framåt mot tvåans talområde: hela tiotal, buntar om tio och svenska mynt gör talen över 20 begripliga.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Hela tiotal: 10, 20, 30 … 100",
+            "objective": "Eleverna räknar i hela tiotal upp till 100 framåt och bakåt och läser och skriver talen 10, 20, 30 och så vidare till 100.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Räkna i kör",
+            "source": "reuse:Räkna med tiotal"
+          },
+          {
+            "new": true,
+            "title": "Bunta tio: tiotal och ental",
+            "objective": "Eleverna räknar 20 till 60 föremål genom att bunta dem tio i taget och skriver antalet som tiotal och ental, till exempel 3 tiotal och 4 ental är 34.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tioaskarna",
+            "source": "new",
+            "page": "Bladet visar bilder med 20 till 60 pinnar eller pärlor som ligger utspridda; eleven ringar in tio i taget, räknar buntarna och de lösa och fyller i ”tiotal: _, ental: _, talet: _”."
+          },
+          {
+            "new": true,
+            "title": "Mynten: 1, 2, 5 och 10 kronor",
+            "objective": "Eleverna känner igen mynten 1, 2, 5 och 10 kronor, växlar en tia mot mindre mynt och räknar ihop mynt till summor upp till 20 kronor.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Pengamattan",
+            "source": "reuse:Räkna mynt: första stegen"
+          },
+          {
+            "new": true,
+            "title": "Betala på olika sätt",
+            "objective": "Eleverna lägger samma pris, mellan 5 och 20 kronor, med mynt på minst två olika sätt och jämför vilket sätt som kräver minst antal mynt.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Pengamattan",
+            "source": "new",
+            "page": "Bladet visar varor med prislappar mellan 5 och 20 kronor och två tomma plånböcker per vara; eleven ritar mynten 1, 2, 5 och 10 kronor så att priset stämmer på två olika sätt och ringar in den plånbok som har minst antal mynt."
+          }
+        ]
+      },
+      {
+        "id": "sv-1-ma-diagram",
+        "title": "Sortera, tabeller och diagram",
+        "why": "Läsåret slutar med att sortera, räkna och göra diagram, ett arbete som passar för egna undersökningar ute och inne under försommaren.",
+        "lessons": [
+          {
+            "existing": "sv-1-ma-diagram#1"
+          },
+          {
+            "existing": "sv-1-ma-diagram#2"
+          },
+          {
+            "existing": "sv-1-ma-diagram#3"
+          },
+          {
+            "existing": "sv-1-ma-diagram#4"
+          }
+        ]
+      }
+    ],
+    "totalDays": 159,
+    "leftOut": []
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1",
+        "what": "Uppstart: nya rutiner, gruppstärkande dagar och repetition"
+      },
+      {
+        "weeks": "17",
+        "what": "Friluftsdagar, temadagar, utvecklingssamtal, lucia och julavslutning (dagarna ligger utspridda över läsåret och motsvarar tillsammans ungefär en vecka)"
+      },
+      {
+        "weeks": "36",
+        "what": "Sista skolveckan med skolavslutning"
+      }
+    ],
+    "units": [
+      {
+        "id": "sv-2-ma-tal-0-100",
+        "title": "Talen 0–100: tiotal och ental",
+        "why": "Tvåan börjar med talen 0–100, eftersom tiotal och ental bär all räkning under året.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-tal-0-100#1"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#2"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#3"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#4"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#5"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#6"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#7"
+          },
+          {
+            "existing": "sv-2-ma-tal-0-100#8"
+          }
+        ]
+      },
+      {
+        "id": "sv-2-ma-add-sub-0-100",
+        "title": "Addition och subtraktion 0–100: huvudräkning med tiotal och ental",
+        "why": "Direkt efter talen 0–100 lär sig eleverna räkna i huvudet och med mellanled i hela talområdet, och den dagliga huvudräkningen 0–20 startar här.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Huvudräkning 0–20: starta den dagliga rutinen",
+            "objective": "Eleverna tränar additions- och subtraktionstabellerna i talområdet 0–20 med tiotalsövergång i en kort daglig rutin och berättar vilken strategi de använde.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "teacher-led",
+            "page": "Fem minuter i början av varje lektion under resten av läsåret: läraren visar eller säger tio uppgifter i talområdet 0–20 (till exempel 8 + 7 och 15 − 6), eleverna svarar på miniwhiteboard och en elev förklarar sin strategi. Läraren lyssnar efter om eleverna fyller tian, använder dubblor eller talfamiljer i stället för att räkna ett steg i taget på fingrarna, och antecknar vilka kombinationer som behöver återkomma."
+          },
+          {
+            "new": true,
+            "title": "Addera och subtrahera hela tiotal",
+            "objective": "Eleverna räknar med hela tiotal i talområdet 0–100, som 30 + 40 och 90 − 20, genom att tänka 3 tiotal + 4 tiotal, och lägger till eller tar bort hela tiotal från ett tvåsiffrigt tal.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tiotalslabbet",
+            "source": "new",
+            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 30 + 40 eller 9 − 2 och 90 − 20, med tiostavar ritade bredvid; eleven skriver båda svaren. Sista raden har uppgifter där hela tiotal läggs till eller tas bort från ett tvåsiffrigt tal, som 34 + 20 och 76 − 30."
+          },
+          {
+            "existing": "sv-2-ma-add-sub-0-100#1"
+          },
+          {
+            "existing": "sv-2-ma-add-sub-0-100#2"
+          },
+          {
+            "new": true,
+            "title": "Tiotalsövergång upp till 100: 38 + 5 och 43 − 5",
+            "objective": "Eleverna adderar och subtraherar ental över ett tiotal i talområdet 0–100 genom att först gå till närmaste hela tiotal, som 38 + 2 + 3 och 43 − 3 − 2.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Tom tallinje",
+            "source": "new",
+            "page": "Bladet visar uppgifter som 38 + 5, 67 + 6, 43 − 5 och 82 − 4 med en tom tallinje under varje; eleven ritar två hopp via närmaste hela tiotal, skriver mellanledet och svaret."
+          },
+          {
+            "new": true,
+            "title": "Addera tvåsiffriga tal: talsorterna var för sig",
+            "objective": "Eleverna adderar två tvåsiffriga tal i talområdet 0–100, som 34 + 25 och 47 + 26, genom att addera tiotalen för sig och entalen för sig och skriva mellanled.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar additioner av två tvåsiffriga tal, först utan och sedan med tiotalsövergång (34 + 25, 47 + 26), med en färdig mall för mellanled: tiotal + tiotal, ental + ental, summa; eleven fyller i mallen och skriver svaret. Ingen summa är större än 100."
+          },
+          {
+            "new": true,
+            "title": "Subtrahera tvåsiffriga tal på tom tallinje",
+            "objective": "Eleverna subtraherar tvåsiffriga tal i talområdet 0–100, som 58 − 23 och 72 − 35, genom att hoppa bakåt med tiotalen först och entalen sedan, och räknar upp när talen ligger nära varandra.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tom tallinje",
+            "source": "new",
+            "page": "Bladet visar subtraktioner som 58 − 23 och 72 − 35 med en tom tallinje under varje; eleven ritar hopp bakåt, först hela tiotal och sedan ental, och skriver svaret. De två sista uppgifterna har tal nära varandra (61 − 58), och där ritar eleven i stället hoppen uppåt och skriver skillnaden."
+          },
+          {
+            "existing": "sv-2-ma-add-sub-0-100#3"
+          }
+        ]
+      },
+      {
+        "id": "new:pengar-raknehandelser-0-100",
+        "title": "Pengar och räknehändelser 0–100",
+        "why": "Pengar ger räkningen till 100 ett vardagligt sammanhang, och i räknehändelserna får eleverna själva välja räknesätt.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-add-sub-0-100#4"
+          },
+          {
+            "existing": "sv-2-ma-add-sub-0-100#5"
+          },
+          {
+            "new": true,
+            "title": "Betala med sedlar och få växel tillbaka",
+            "objective": "Eleverna betalar varor som kostar upp till 100 kronor med 20-, 50- och 100-kronorssedlar och räknar ut växeln genom att räkna upp från priset.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Pengamattan",
+            "source": "new",
+            "page": "Bladet visar varor med priser mellan 12 och 95 kronor och den sedel kunden betalar med (20, 50 eller 100 kronor); eleven räknar upp från priset till sedelns värde på en tom tallinje, ritar mynten och sedlarna i växeln och skriver hur många kronor kunden får tillbaka."
+          },
+          {
+            "new": true,
+            "title": "Räknehändelser 0–100: välj räknesätt",
+            "objective": "Eleverna läser räknehändelser i talområdet 0–100 med förändring, jämförelse och del–helhet, avgör om de ska addera eller subtrahera och skriver uträkning och svar.",
+            "standard": "Problemlösning",
+            "days": 2,
+            "tool": "Fickbrädet",
+            "source": "new",
+            "page": "Bladet har sex räknehändelser med tvåsiffriga tal, två av varje slag (något kommer till eller försvinner, två antal jämförs, två delar bildar en helhet); eleven ringar in + eller −, skriver uträkningen med mellanled och ett svar med enhet. Två av uppgifterna innehåller ett tal som inte behövs."
+          }
+        ]
+      },
+      {
+        "id": "sv-2-ma-langd-tid",
+        "title": "Mäta längd, massa och volym",
+        "why": "Före jul mäter klassen på riktigt: linjal, meter, kilogram och liter används i klassrummet och knyts till talen upp till 100.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-langd-tid#1"
+          },
+          {
+            "existing": "sv-2-ma-langd-tid#2"
+          },
+          {
+            "new": true,
+            "title": "Meter och centimeter",
+            "objective": "Eleverna uppskattar och mäter längder i klassrummet i meter och centimeter, vet att 1 meter är 100 centimeter och väljer rätt enhet för korta och långa sträckor.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet har en tabell med sex saker i klassrummet (bänkens bredd, dörrens höjd, pennans längd och så vidare) där eleven först skriver en uppskattning och sedan det uppmätta värdet i hela meter eller hela centimeter. Nederst ringar eleven in rätt enhet, m eller cm, för åtta föremål på bild."
+          },
+          {
+            "new": true,
+            "title": "Kilogram: väga och jämföra",
+            "objective": "Eleverna uppskattar och väger föremål i hela kilogram upp till 10 kg, jämför med en enkilosvikt och avgör om något väger mer än, mindre än eller ungefär ett kilogram.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Mätbänken",
+            "source": "new",
+            "page": "Bladet visar balansvågar med ett föremål i den ena skålen och enkilosvikter i den andra samt hushållsvågar med visare på hela kilogram; eleven skriver hur många kilogram föremålet väger (1 till 10 kg) och ringar in om en vara på bild väger mer eller mindre än 1 kg."
+          },
+          {
+            "new": true,
+            "title": "Liter och deciliter",
+            "objective": "Eleverna mäter volym med litermått och decilitermått, vet att 1 liter är 10 deciliter och avgör hur många deciliter eller liter olika kärl rymmer.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Mätbänken",
+            "source": "new",
+            "page": "Bladet visar litermått med ett skalstreck för varje deciliter, fyllda till olika nivåer, och vardagskärl (glas, mjölkpaket, hink); eleven läser av hur många deciliter som finns i måttet (1 till 10 dl), färglägger ett mått till en given nivå och ringar in om kärlet rymmer mer eller mindre än 1 liter."
+          }
+        ]
+      },
+      {
+        "id": "new:talhopp-lika-grupper",
+        "title": "Talhopp och lika grupper",
+        "why": "Vårterminen börjar med talhopp och lika grupper som en egen kort start, så att multiplikationen vilar på något eleverna redan kan.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-multiplikation#1"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#2"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#3"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#7"
+          }
+        ]
+      },
+      {
+        "id": "sv-2-ma-multiplikation",
+        "title": "Multiplikation: rutnät och tabellerna 2, 5 och 10",
+        "why": "Med rutnätet som bild lär sig eleverna tabellerna 2, 5 och 10 och sambandet mellan dubbelt och hälften.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-multiplikation#4"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#5"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#6"
+          },
+          {
+            "existing": "sv-2-ma-multiplikation#8"
+          },
+          {
+            "new": true,
+            "title": "10:ans tabell",
+            "objective": "Eleverna skriver och lär sig 10:ans tabell upp till 10 · 10 och jämför svaren med 5:ans tabell, där till exempel 5 · 4 är hälften av 10 · 4.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:5:ans tabell"
+          },
+          {
+            "new": true,
+            "title": "Dubbelt och hälften upp till 100",
+            "objective": "Eleverna dubblar tal upp till 50 och halverar jämna tal upp till 100 genom att dela upp talet i tiotal och ental, till exempel dubbelt av 34 är 60 + 8.",
+            "standard": "Samband och förändring",
+            "days": 3,
+            "tool": "Gångjärnet",
+            "source": "new",
+            "page": "Bladet visar tal byggda av tiostavar och entalskuber; i första delen ritar eleven lika mycket en gång till och skriver dubbelt av talet (tal upp till 50), i andra delen delar eleven ett jämnt tal upp till 100 i två lika högar och skriver hälften. Mellanledet skrivs ut, till exempel ”dubbelt av 34 = 60 + 8 = 68”."
+          }
+        ]
+      },
+      {
+        "id": "new:klockan-almanackan-ak2",
+        "title": "Klockan och almanackan",
+        "why": "Klockan tränas bäst lite varje dag under en sammanhållen period, och almanackan knyter tiden till vårens planering.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-langd-tid#3"
+          },
+          {
+            "new": true,
+            "title": "Fem i halv och fem över halv",
+            "objective": "Eleverna läser av och ställer klockan på fem minuter när, särskilt tjugofem över och tjugofem i, och säger tiden som vi säger den: fem i halv och fem över halv.",
+            "standard": "Geometri",
+            "days": 3,
+            "tool": "Lärklockan",
+            "source": "new",
+            "page": "Bladet visar analoga urtavlor med klockslag på hela femminuter; eleven drar streck till rätt uttryck (tio över, tjugo över, fem i halv, halv, fem över halv, tjugo i, tio i) och ritar minutvisaren på tomma urtavlor efter skrivna klockslag som ”fem i halv fyra”."
+          },
+          {
+            "new": true,
+            "title": "Hur lång tid tar det?",
+            "objective": "Eleverna räknar ut hur lång tid som går mellan två klockslag i hela och halva timmar och avgör om en aktivitet tar sekunder, minuter eller timmar.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Klassrumstimer",
+            "source": "new",
+            "page": "Bladet visar par av urtavlor med start- och sluttid på hela och halva timmar, till exempel klockan nio och halv tolv; eleven skriver hur många timmar och halvtimmar som har gått. Nederst ringar eleven in rimlig enhet (sekunder, minuter eller timmar) för sex vardagsaktiviteter, som att borsta tänderna eller sova en natt."
+          },
+          {
+            "existing": "sv-2-ma-langd-tid#4"
+          }
+        ]
+      },
+      {
+        "id": "sv-2-ma-geometri",
+        "title": "Geometriska objekt och symmetri",
+        "why": "Kroppar och symmetri ligger på våren, när klassen kan bygga, vika och leta former också utomhus.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-geometri#1"
+          },
+          {
+            "new": true,
+            "title": "Platt figur eller kropp?",
+            "objective": "Eleverna sorterar föremål och bilder i tvådimensionella figurer och tredimensionella kroppar och förklarar att en figur är platt medan en kropp går att hålla i handen.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Sorteringsringar",
+            "source": "point:2:flat-or-solid"
+          },
+          {
+            "existing": "sv-2-ma-geometri#2"
+          },
+          {
+            "existing": "sv-2-ma-geometri#3"
+          },
+          {
+            "existing": "sv-2-ma-geometri#4"
+          },
+          {
+            "existing": "sv-2-ma-geometri#5"
+          },
+          {
+            "existing": "sv-2-ma-geometri#6"
+          }
+        ]
+      },
+      {
+        "id": "new:rutnat-programmering-skala",
+        "title": "Rutnät, programmering och skala",
+        "why": "Koordinater, pilprogram och förstoring bygger alla på rutnätet och bildar ett kort, lustfyllt arbetsområde sent på våren.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-geometri#7"
+          },
+          {
+            "new": true,
+            "title": "Programmera med pilar i rutnät",
+            "objective": "Eleverna skriver ett program med pilsymboler som flyttar en figur runt hinder i ett rutnät, läser en kamrats program och förutsäger var figuren hamnar innan programmet körs.",
+            "standard": "MA.1-3.2.4",
+            "days": 3,
+            "tool": "Kommandorälsen",
+            "source": "new",
+            "page": "Bladet visar rutnät med 6 × 6 rutor med start, mål och hinder; i första delen följer eleven ett färdigt program med pilar och sätter ett kryss där figuren hamnar, i andra delen skriver eleven ett eget program med högst tio pilar som går runt hindren till målet."
+          },
+          {
+            "new": true,
+            "title": "Hitta felet i programmet",
+            "objective": "Eleverna testar stegvisa instruktioner i ett rutnät, hittar det steg som är fel och rättar programmet så att figuren når målet.",
+            "standard": "MA.1-3.2.4",
+            "days": 2,
+            "tool": "Kommandorälsen",
+            "source": "new",
+            "page": "Bladet visar sex rutnät med start och mål och under varje ett program med pilar som innehåller exakt ett fel; eleven ritar den väg programmet ger, ringar in den felaktiga pilen och skriver den rätta pilen under."
+          },
+          {
+            "new": true,
+            "title": "Förstora och förminska i rutnät",
+            "objective": "Eleverna ritar av en enkel figur i ett rutnät så att varje sida blir dubbelt så lång, eller hälften så lång, och jämför den nya figuren med den ursprungliga.",
+            "standard": "MA.1-3.3.4",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar enkla figurer av raka streck i ett rutnät (ett hus, en båt, bokstaven L) och ett tomt rutnät bredvid; eleven räknar rutorna längs varje sida och ritar figuren dubbelt så stor. I de två sista uppgifterna ritar eleven figuren hälften så stor, och där har alla sidor ett jämnt antal rutor."
+          }
+        ]
+      },
+      {
+        "id": "sv-2-ma-diagram",
+        "title": "Tabeller, diagram och slump",
+        "why": "Läsåret avslutas med diagram, egna undersökningar och slumpförsök som klassen gör tillsammans under de sista veckorna.",
+        "lessons": [
+          {
+            "existing": "sv-2-ma-diagram#1"
+          },
+          {
+            "existing": "sv-2-ma-diagram#2"
+          },
+          {
+            "existing": "sv-2-ma-diagram#3"
+          },
+          {
+            "existing": "sv-2-ma-diagram#4"
+          },
+          {
+            "new": true,
+            "title": "Slump: vad finns i påsen?",
+            "objective": "Eleverna drar kulor ur en påse många gånger, för protokoll med streck och använder resultatet för att avgöra vad som är säkert, troligt, möjligt eller omöjligt.",
+            "standard": "MA.1-3.4.1",
+            "days": 2,
+            "tool": "Slumppåsen",
+            "source": "new",
+            "page": "Bladet visar påsar med 10 kulor i två färger (till exempel 8 röda och 2 blå) och påståenden som ”Jag drar en grön kula”; eleven ringar in omöjligt, möjligt eller säkert och skriver vilken färg som är troligast. Nederst finns en strecktabell där eleven för protokoll över 20 egna dragningar och skriver vilken färg som kom oftast."
+          }
+        ]
+      }
+    ],
+    "totalDays": 164,
+    "leftOut": []
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1",
+        "what": "Uppstart: nya rutiner, gruppstärkande dagar och repetition"
+      },
+      {
+        "weeks": "17",
+        "what": "Friluftsdagar, temadagar, utvecklingssamtal, lucia och julavslutning (dagarna ligger utspridda över läsåret och motsvarar tillsammans ungefär en vecka)"
+      },
+      {
+        "weeks": "29-30",
+        "what": "Nationella prov i matematik i årskurs 3 (delproven ligger utspridda under vårens provperiod och tar tillsammans ungefär två veckors matematiklektioner)"
+      },
+      {
+        "weeks": "36",
+        "what": "Sista skolveckan med skolavslutning"
+      }
+    ],
+    "units": [
+      {
+        "id": "sv-3-ma-tal-0-1000",
+        "title": "Talen 0–1000: hundratal, tiotal och ental",
+        "why": "Trean börjar med talen 0–1 000 och positionssystemet, som är grunden för avrundning och skriftliga räknemetoder.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-tal-0-1000#1"
+          },
+          {
+            "existing": "sv-3-ma-tal-0-1000#2"
+          },
+          {
+            "existing": "sv-3-ma-tal-0-1000#3"
+          },
+          {
+            "existing": "sv-3-ma-tal-0-1000#4"
+          },
+          {
+            "new": true,
+            "title": "Talsymboler förr och nu",
+            "objective": "Eleverna läser och skriver tal upp till 1 000 med egyptiska talsymboler och tal upp till 30 med romerska siffror och jämför dem med vårt positionssystem, där siffrans plats bestämmer värdet.",
+            "standard": "MA.1-3.1.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet har en nyckel med de egyptiska symbolerna för 1, 10, 100 och 1 000 och de romerska siffrorna I, V och X; eleven översätter fem egyptiska tal och fem romerska tal (upp till 30) till våra siffror och skriver själv 243 med egyptiska symboler. Sist svarar eleven på varför egyptierna inte behövde någon nolla."
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-avrundning-uppstallning",
+        "title": "Avrundning, överslag och skriftliga räknemetoder",
+        "why": "När talen till 1 000 sitter lär sig eleverna avrunda, bedöma rimlighet och räkna skriftligt, först med mellanled och sedan med uppställning.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-avrundning-uppstallning#1"
+          },
+          {
+            "existing": "sv-3-ma-avrundning-uppstallning#2"
+          },
+          {
+            "existing": "sv-3-ma-avrundning-uppstallning#3"
+          },
+          {
+            "new": true,
+            "title": "Är svaret rimligt?",
+            "objective": "Eleverna bedömer med överslag om svar på additioner och subtraktioner i talområdet 0–1 000 och svar på vardagsfrågor är rimliga, och förklarar hur de ser att ett svar inte kan stämma.",
+            "standard": "MA.1-3.1.8",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar uträkningar med färdiga svar, till exempel 298 + 405 = 603 och 712 − 198 = 614, där hälften är fel; eleven gör ett överslag, ringar in rimligt eller orimligt och skriver överslaget som bevis. I andra delen väljer eleven det rimliga svaret bland tre på vardagsfrågor, som hur mycket en skolväska väger eller hur lång en buss är."
+          },
+          {
+            "new": true,
+            "title": "Skriftlig huvudräkning med mellanled",
+            "objective": "Eleverna adderar och subtraherar tresiffriga tal i talområdet 0–1 000 genom att räkna hundratal, tiotal och ental var för sig och skriva mellanled, som 347 + 225 = 500 + 60 + 12.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar additioner och subtraktioner med tresiffriga tal skrivna vågrätt med en mall för mellanled (hundratal, tiotal, ental, svar); eleven fyller i mellanleden och svaret, först i uppgifter utan växling och sedan i uppgifter med en växling."
+          },
+          {
+            "existing": "sv-3-ma-avrundning-uppstallning#4"
+          },
+          {
+            "existing": "sv-3-ma-avrundning-uppstallning#5"
+          },
+          {
+            "new": true,
+            "title": "Uppställning: subtraktion med växling över noll",
+            "objective": "Eleverna subtraherar tresiffriga tal med uppställning när det står en nolla i talet de ska växla från, som 402 − 158 och 500 − 237, och kontrollerar svaret med addition.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Växlingsmaskinen",
+            "source": "reuse:Subtraktion med växling"
+          }
+        ]
+      },
+      {
+        "id": "new:multiplikationstabellerna",
+        "title": "Multiplikationstabellerna 1–10",
+        "why": "Tabellerna behöver en egen sammanhållen period under hösten, så att den dagliga tabellträningen hinner verka före divisionen och de nationella proven.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-mult-division#1"
+          },
+          {
+            "new": true,
+            "title": "Tabellträning: de 21 uppgifter som återstår",
+            "objective": "Eleverna sorterar bort de multiplikationer de redan kan (1:an, 2:an, 5:an, 10:an och de omvända uppgifterna), ser att 21 uppgifter återstår att lära sig och startar en daglig tabellträning.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Tabellhyllan",
+            "source": "teacher-led",
+            "page": "Fem minuter varje dag under resten av läsåret: eleverna tränar i par med kort på de tabeller som klassen har gått igenom, och var och en har en egen lista där säkra uppgifter bockas av. Läraren lyssnar efter om svaren kommer direkt eller räknas fram med hopp, och vilka av de 21 uppgifterna (till exempel 6 · 7, 7 · 8 och 8 · 9) som behöver tas upp igen med hela klassen."
+          },
+          {
+            "new": true,
+            "title": "3:ans och 4:ans tabell",
+            "objective": "Eleverna skriver och lär sig 3:ans och 4:ans tabell upp till 3 · 10 och 4 · 10 och använder att svaren i 4:ans tabell är dubbelt så stora som i 2:ans.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:2:ans tabell"
+          },
+          {
+            "new": true,
+            "title": "6:ans tabell ur tabeller du kan",
+            "objective": "Eleverna bygger 6:ans tabell upp till 6 · 10 ur tabeller de redan kan, genom att lägga ihop 5:an och 1:an eller dubbla 3:an.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 2,
+            "tool": "Bullplåten",
+            "source": "new",
+            "page": "Bladet visar rutnät med 6 rader och 2 till 10 kolumner, delade med ett streck i 5 rader och 1 rad; eleven skriver de två delprodukterna och summan, till exempel 6 · 7 = 5 · 7 + 1 · 7 = 35 + 7 = 42, och fyller sist i hela 6:ans tabell."
+          },
+          {
+            "new": true,
+            "title": "7:ans, 8:ans och 9:ans tabell: bryt isär den svåra",
+            "objective": "Eleverna räknar ut de sista uppgifterna 7 · 7, 7 · 8, 7 · 9, 8 · 8, 8 · 9 och 9 · 9 genom att dela upp en faktor i tal de kan, till exempel 7 · 8 = 5 · 8 + 2 · 8, och räknar 9:ans tabell som 10:an minus en gång talet.",
+            "standard": "Taluppfattning och tals användning",
+            "days": 3,
+            "tool": "Bullplåten",
+            "source": "new",
+            "page": "Bladet visar rutnät för de sex uppgifterna 7 · 7, 7 · 8, 7 · 9, 8 · 8, 8 · 9 och 9 · 9, där eleven själv ritar ett streck som delar rutnätet i två kända delar och skriver delprodukterna och summan. I andra delen skriver eleven 9:ans tabell som 10 · n − n, till exempel 9 · 6 = 60 − 6 = 54, och beskriver mönstret i svaren."
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-mult-division",
+        "title": "Division och sambandet med multiplikation",
+        "why": "Divisionen kommer direkt efter tabellerna, eftersom varje division löses med en multiplikation som eleverna just har lärt sig.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-mult-division#2"
+          },
+          {
+            "existing": "sv-3-ma-mult-division#3"
+          },
+          {
+            "existing": "sv-3-ma-mult-division#4"
+          },
+          {
+            "existing": "sv-3-ma-mult-division#5"
+          },
+          {
+            "existing": "sv-3-ma-mult-division#6"
+          },
+          {
+            "existing": "sv-3-ma-mult-division#7"
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-brak",
+        "title": "Bråk: del av helhet och del av antal",
+        "why": "Bråk som del av helhet och del av antal bygger på att dela lika och får en lugn, sammanhållen period kring årsskiftet.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-brak#1"
+          },
+          {
+            "existing": "sv-3-ma-brak#2"
+          },
+          {
+            "existing": "sv-3-ma-brak#3"
+          },
+          {
+            "existing": "sv-3-ma-brak#4"
+          },
+          {
+            "existing": "sv-3-ma-brak#5"
+          },
+          {
+            "existing": "sv-3-ma-brak#6"
+          },
+          {
+            "existing": "sv-3-ma-brak#7"
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-matning",
+        "title": "Mätning: tid, massa, volym, temperatur och äldre mått",
+        "why": "Mätningen ligger på vårvintern, så att tid, massa och volym är färska inför de nationella proven.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-matning#1"
+          },
+          {
+            "existing": "sv-3-ma-matning#2"
+          },
+          {
+            "existing": "sv-3-ma-matning#3"
+          },
+          {
+            "existing": "sv-3-ma-matning#4"
+          },
+          {
+            "existing": "sv-3-ma-matning#5"
+          },
+          {
+            "new": true,
+            "title": "Äldre mått: tum, fot, aln och famn",
+            "objective": "Eleverna mäter sträckor i klassrummet med tum, fot, aln och famn på den egna kroppen, jämför resultaten med varandra och med centimeter och meter och förklarar varför vi behöver gemensamma enheter.",
+            "standard": "Geometri",
+            "days": 2,
+            "tool": "Enhetsremsan",
+            "source": "new",
+            "page": "Bladet har bilder som visar tum, fot, aln och famn på kroppen och en tabell där eleven mäter bänken, dörren och klassrummets bredd, först med sin egen fot, aln eller famn och sedan med linjal eller måttband i centimeter och meter. Nederst jämför eleven sitt resultat med en kamrats och skriver varför talen blev olika."
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-geometri",
+        "title": "Fyrhörningar, symmetri, omkrets och area",
+        "why": "Fyrhörningar, omkrets och area är nytt stoff i trean och läggs därför före de nationella proven.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-geometri#1"
+          },
+          {
+            "existing": "sv-3-ma-geometri#2"
+          },
+          {
+            "existing": "sv-3-ma-geometri#3"
+          },
+          {
+            "existing": "sv-3-ma-geometri#4"
+          },
+          {
+            "existing": "sv-3-ma-geometri#5"
+          },
+          {
+            "existing": "sv-3-ma-geometri#6"
+          },
+          {
+            "existing": "sv-3-ma-geometri#7"
+          },
+          {
+            "existing": "sv-3-ma-geometri#8"
+          }
+        ]
+      },
+      {
+        "id": "sv-3-ma-algebra",
+        "title": "Likheter, talföljder och talmaskiner",
+        "why": "Efter de nationella proven samlar likheter, talföljder och talmaskiner årets räkning och förbereder mellanstadiets algebra.",
+        "lessons": [
+          {
+            "existing": "sv-3-ma-algebra#1"
+          },
+          {
+            "existing": "sv-3-ma-algebra#2"
+          },
+          {
+            "existing": "sv-3-ma-algebra#3"
+          },
+          {
+            "existing": "sv-3-ma-algebra#4"
+          }
+        ]
+      },
+      {
+        "id": "new:samband-slump-statistik",
+        "title": "Samband, slump och statistik",
+        "why": "Läsåret slutar undersökande med proportionella samband, slumpförsök och egna diagram, där allt eleverna kan om tal kommer till användning.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Proportionella samband: dubbelt så många, dubbelt så mycket",
+            "objective": "Eleverna fyller i tabeller över proportionella samband, som pris för olika antal och ingredienser i ett recept, med dubbelt, hälften och tre gånger så mycket i talområdet 0–200.",
+            "standard": "Samband och förändring",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Bladet visar tabeller med två rader, till exempel antal glassar och pris (1 glass 12 kr, 2 glassar 24 kr och så vidare) och ett recept för 4 personer som ska räknas om för 2 och för 8; eleven fyller i de tomma rutorna och skriver med ord vad som händer med priset när antalet blir dubbelt så stort."
+          },
+          {
+            "new": true,
+            "title": "Slumpförsök: lika stor chans?",
+            "objective": "Eleverna gör slumpförsök med tärning och med kulor i en påse, för protokoll över minst 30 försök och jämför resultatet med vad de trodde i förväg.",
+            "standard": "MA.1-3.4.1",
+            "days": 2,
+            "tool": "Slumppåsen",
+            "source": "new",
+            "page": "Bladet har en ruta för förutsägelse, en frekvenstabell för 30 tärningskast och ett tomt stapeldiagram; eleven skriver först vilket utfall den tror kommer oftast, för protokoll, ritar staplarna och svarar på om alla sidor verkar ha lika stor chans. I en andra uppgift avgör eleven vilken av två påsar (3 röda och 1 blå eller 2 röda och 2 blå) som ger störst chans att dra en röd kula."
+          },
+          {
+            "new": true,
+            "title": "Egen undersökning: från fråga till diagram",
+            "objective": "Eleverna formulerar en fråga till klassen, samlar svaren i en frekvenstabell, ritar ett stapeldiagram där ett steg på axeln är 2 och skriver tre slutsatser.",
+            "standard": "Sannolikhet och statistik",
+            "days": 2,
+            "tool": "Klassens diagram",
+            "source": "new",
+            "page": "Bladet är en undersökningsmall med fyra fält: Min fråga och svarsalternativ, Frekvenstabell med streck och antal, ett tomt stapeldiagram där eleven själv skriver rubrik, axlar och skala (2 per steg), samt Det här visar mitt diagram med tre rader för slutsatser."
+          },
+          {
+            "new": true,
+            "title": "Mäta i halva centimeter och visa i diagram",
+            "objective": "Eleverna mäter föremål med linjal till närmaste halva centimeter och visar mätvärdena som kryss i ett diagram över en tallinje.",
+            "standard": "Sannolikhet och statistik",
+            "days": 2,
+            "tool": "Linjal",
+            "source": "point:3:line-plot-halves"
+          }
+        ]
+      }
+    ],
+    "totalDays": 154,
+    "leftOut": []
+  }
+}

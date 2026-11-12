@@ -236,12 +236,34 @@ const ROUTE_SEGMENTS = {
   activities: 'activities',
   tools: 'tools',
   makers: 'worksheet-makers',
+  lessonPlans: 'units',
   about: 'about',
   contact: 'contact',
   pricing: 'pricing',
   terms: 'terms',
   privacy: 'privacy',
 };
+
+/**
+ * "Lesson plans": the first link of the header in a language that has live units (Daily Teaching System, Part 11.5).
+ * The word is the units hub's own name in that language (frontend/content/units/ui.<loc>.json, hubCrumb: read by a
+ * native reader); a language with fewer than two live units gets no link. Escaped like every chrome string.
+ */
+const _lessonPlansCache = new Map();
+function lessonPlansLabel(locale) {
+  if (_lessonPlansCache.has(locale)) return _lessonPlansCache.get(locale);
+  let label = null;
+  try {
+    const dir = path.join(MESSAGES_DIR, '..', 'content', 'units');
+    const live = JSON.parse(fs.readFileSync(path.join(dir, 'units.' + locale + '.json'), 'utf8')).units.filter((u) => u.status === 'live').length;
+    const word = JSON.parse(fs.readFileSync(path.join(dir, 'ui.' + locale + '.json'), 'utf8')).hubCrumb;
+    if (live >= 2 && typeof word === 'string' && word.trim()) label = escapeHtml(word);
+  } catch (_e) {
+    label = null;
+  }
+  _lessonPlansCache.set(locale, label);
+  return label;
+}
 
 function urls(locale) {
   const base = CANONICAL_BASE + '/' + locale;
@@ -435,6 +457,7 @@ function header(locale, variant) {
   const t = strings(locale);
   const u = urls(locale);
   const deck = variant === 'deck';
+  const lessonPlans = lessonPlansLabel(locale);
   return (
     HDR_START +
     '<header id="lcs-site-chrome"' + (deck ? ' class="lcs-sc--deck"' : '') +
@@ -443,6 +466,7 @@ function header(locale, variant) {
     brandMark(u.home, 'header') +
     '<nav class="lcs-sc-nav" aria-label="LessonCraftStudio">' +
     '<ul>' +
+    (lessonPlans ? '<li><a class="lcs-sc-link" href="' + u.lessonPlans + '">' + lessonPlans + '</a></li>' : '') +
     '<li><a class="lcs-sc-link" href="' + u.worksheets + '">' + t.worksheets + '</a></li>' +
     '<li><a class="lcs-sc-link" href="' + u.activities + '">' + t.activities + '</a></li>' +
     '<li><a class="lcs-sc-link" href="' + u.tools + '">' + t.tools + '</a></li>' +

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import type { TeachNav } from '@/lib/category-nav-data';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';
@@ -37,6 +38,8 @@ interface MobileCategoryAccordionProps {
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
+  /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
+  teach?: TeachNav | null;
   // Called whenever the user taps an item or browse-all link inside the
   // accordion. Parent (Navigation) uses this to close the surrounding
   // drawer so the page navigation is unobstructed.
@@ -54,6 +57,7 @@ export function MobileCategoryAccordion({
   axisLabels = {},
   makerSlugs = {},
   newMakers = [],
+  teach = null,
   onItemClick,
 }: MobileCategoryAccordionProps) {
   const t = useTranslations('nav.categories');
@@ -68,6 +72,7 @@ export function MobileCategoryAccordion({
     toolSlugs,
     makerSlugs,
     newMakers,
+    teach,
     toolLabels,
     axisLabels,
     t,

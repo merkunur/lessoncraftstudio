@@ -16,6 +16,7 @@
  * construction. Guarded by scripts/audit-nav-link-parity.js.
  */
 import Link from 'next/link';
+import type { TeachNav } from '@/lib/category-nav-data';
 import { buildCategories, type ToolLabel, type AxisLabelMap } from '@/lib/category-nav-data';
 import { getTranslations } from 'next-intl/server';
 
@@ -30,6 +31,8 @@ export async function buildCategoryMeshSlots(input: {
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
+  /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
+  teach?: TeachNav | null;
 }): Promise<Record<string, React.ReactNode>> {
   const t = await getTranslations({ locale: input.locale, namespace: 'nav.categories' });
   const dropdowns = buildCategories({ ...input, t: (k: string) => t(k) });

@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { teachNav } from '@/lib/teach-nav';
 import { displayCode } from '@/lib/frameworks';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
@@ -148,6 +149,8 @@ export default async function LocaleLayout({
 
   // The new worksheet makers, popular ones first: the dropdown shows the first few, the crawl mesh carries them all.
   let newMakers: Array<{ href: string; label: string }> = [];
+  // the first menu entry, "Lesson plans", where the language has units (Part 11.5)
+  const teach = await teachNav(locale);
   try {
     newMakers = await navMakers(locale);
   } catch {
@@ -181,6 +184,7 @@ export default async function LocaleLayout({
     toolLabels,
     axisLabels,
     makerSlugs,
+    teach,
   });
 
   return (
@@ -196,6 +200,7 @@ export default async function LocaleLayout({
         makerSlugs={makerSlugs}
         toolLabels={toolLabels}
         axisLabels={axisLabels}
+        teach={teach}
         meshSlots={meshSlots}
         /* Rendered HERE, on the server, and handed down as an element: a Client
            Component cannot render a Server Component as a child, but it can

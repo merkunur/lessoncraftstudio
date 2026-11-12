@@ -1,6 +1,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
+import type { TeachNav } from '@/lib/category-nav-data';
 import { Navigation } from '@/components/layout/Navigation';
 import type { ToolLabel, AxisLabelMap } from '@/lib/category-nav-data';
 
@@ -19,6 +20,7 @@ export function LocaleLayoutClient({
   axisLabels = {},
   makerSlugs = {},
   newMakers = [],
+  teach = null,
 }: {
   children: React.ReactNode;
   /** Server-rendered <Footer/>, passed as an element so React never hydrates it. */
@@ -40,6 +42,7 @@ export function LocaleLayoutClient({
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
+  teach?: TeachNav | null;
 }) {
   const pathname = usePathname();
 
@@ -72,6 +75,7 @@ export function LocaleLayoutClient({
           meshSlots={meshSlots}
           makerSlugs={makerSlugs}
           newMakers={newMakers}
+          teach={teach}
         />
         <main>
           {children}
@@ -96,6 +100,7 @@ export function LocaleLayoutClient({
           meshSlots={meshSlots}
         makerSlugs={makerSlugs}
         newMakers={newMakers}
+        teach={teach}
       />
       <main className="flex-1">
         {children}

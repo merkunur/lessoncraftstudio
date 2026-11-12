@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import type { TeachNav } from '@/lib/category-nav-data';
 import { useTranslations } from 'next-intl';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { Button } from '@/components/ui/Button';
@@ -33,6 +34,8 @@ interface NavigationProps {
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
+  /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
+  teach?: TeachNav | null;
 }
 
 export function Navigation({
@@ -46,6 +49,7 @@ export function Navigation({
   axisLabels = {},
   makerSlugs = {},
   newMakers = [],
+  teach = null,
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -210,6 +214,7 @@ export function Navigation({
             axisLabels={axisLabels}
             makerSlugs={makerSlugs}
             newMakers={newMakers}
+            teach={teach}
             onItemClick={closeDrawer}
           />
 
@@ -272,6 +277,7 @@ export function Navigation({
             meshSlots={meshSlots}
       makerSlugs={makerSlugs}
       newMakers={newMakers}
+      teach={teach}
     />
     </>
   );

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import type { TeachNav } from '@/lib/category-nav-data';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
@@ -50,6 +51,8 @@ interface CategoryNavProps {
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
+  /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
+  teach?: TeachNav | null;
   /** Server-rendered sr-only crawl mesh per category key. Elements passed as
    *  props are not hydrated; see the render site. SEO-load-bearing. */
   meshSlots?: Record<string, React.ReactNode>;
@@ -65,6 +68,7 @@ export function CategoryNav({
   axisLabels = {},
   makerSlugs = {},
   newMakers = [],
+  teach = null,
   meshSlots,
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
@@ -101,6 +105,7 @@ export function CategoryNav({
     toolSlugs,
     makerSlugs,
     newMakers,
+    teach,
     toolLabels,
     axisLabels,
     t,

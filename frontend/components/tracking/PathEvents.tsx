@@ -19,7 +19,7 @@ type Umami = { track: (event: string, data?: Record<string, unknown>) => void };
 const beacon = (): Umami | undefined => (window as unknown as { umami?: Umami }).umami;
 
 /** where a wall or a gate sends a visitor from (app/api/quota/dl, components/quota, components/units) */
-const FROM = new Set(['download', 'download-limit', 'wall', 'teacher-file', 'workspace', 'play']);
+const FROM = new Set(['download', 'download-limit', 'wall', 'teacher-file', 'workspace', 'play', 'topic']);
 
 /** the `from` of this page's address, or "direct" (anything outside the list is "other": no free text is recorded) */
 export function pathFrom(): string {

@@ -51,6 +51,8 @@ import { subjectHubGradeLabel, HUB_GRADE_KEYS } from '@/lib/subject-hub';
 import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
+import TeachingBand from '@/components/topic/TeachingBand';
+import { teachingForTopic } from '@/lib/topic-teaching';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
@@ -701,6 +703,8 @@ export default async function TopicPage({
   // is extracted from. Long-tail axis-keys without authored prose pass
   // undefined and the schema omits the description field.
   const topicProseForSchema = await getTopicProse(locale, axisKey);
+  // never lets the band take the page down: without it the page is what it was
+  const teaching = await teachingForTopic(locale, axis, axisKey).catch(() => null);
   const schema = buildCollectionSchema(locale, topicName, canonical, decks, topicProseForSchema);
 
   // BreadcrumbList JSON-LD — mirrors the visible <Breadcrumbs> component
@@ -790,6 +794,10 @@ export default async function TopicPage({
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>
+
+        {/* the teaching system on this page: the units of the grade, or the lessons that use this worksheet type,
+            and what the Teacher plan adds (Part 11.6). Added to the page; nothing of the page is changed. */}
+        {teaching ? <TeachingBand locale={locale} data={teaching} /> : null}
 
         <MakerRibbon locale={locale} axes={[{ axis, axisKey }]} />
 

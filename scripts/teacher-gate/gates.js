@@ -30,6 +30,10 @@
  *                   new one; the link opens the page in the teacher's language; the texts (content/verify-email/
  *                   ui.json) are complete in eleven languages, name the address and the 24 hours. The live proof
  *                   is scripts/auth/smoke-account-rules.js (run on the server).
+ *   P10 band        the teaching band of the topic pages (Part 11.6) is built from strings a native reader has seen:
+ *                   every string it prints exists in the units, my-teaching and panel files of each language that
+ *                   has the panel; the topic page asks for it and survives its failure; the band prints no word
+ *                   of its own (no text outside the three files) and its button carries from=topic
  */
 'use strict';
 const fs = require('fs');
@@ -62,6 +66,8 @@ function load() {
   const vFile = path.join(C, 'verify-email', 'ui.json');
   d.$verify = fs.existsSync(vFile) ? readJson(vFile) : {};
   d.$auth = { email: read('lib/email.ts'), utils: read('lib/auth-utils.ts'), verifyRoute: read('app/api/auth/verify-email/route.ts'), dl: read('app/api/quota/dl/route.ts'), proxy: read('lib/quota-proxy.ts'), modal: read('components/quota/QuotaExceededModal.tsx'), workspace: read('app/[locale]/workspace/WorkspaceClient.tsx'), signin: read('app/[locale]/auth/signin/signin-client.tsx'), register: read('app/api/auth/register/route.ts'), context: read('contexts/auth-context.tsx') };
+  d.$band = { component: read('components/topic/TeachingBand.tsx'), lib: read('lib/topic-teaching.ts'), page: read('app/[locale]/topic/[slug]/page.tsx'), units: {} };
+  for (const loc of Object.keys(d)) { if (loc[0] === '$') continue; const uf = path.join(C, 'units', 'ui.' + loc + '.json'); d.$band.units[loc] = fs.existsSync(uf) ? readJson(uf) : null; }
   d.$code = { quota: read('lib/quota.ts'), route: read('app/api/quota/check-and-increment/route.ts'), frame: read('components/activities/ActivityIframe.tsx'), sample: read('components/homepage-v6/LiveToolEmbedV6.tsx') };
   const en = readJson(path.join(FRONT, 'messages', 'en.json'));
   d.$en = {}; for (const k of ['pricingPage.free.blurb', 'homepageV6.close.body', 'topicFaq.fallback.standards.a2', 'standardsPage.intro', 'aboutPage.intro']) d.$en[k] = get(en, k);
@@ -144,6 +150,25 @@ function run(d) {
   if (!d.$auth.email.includes('/${pageLang}/auth/verify-email?token=')) fail('P9', 'the link of a mail sent again does not open the page in the language of the teacher');
   if (!d.$auth.register.includes('const verificationToken = generateVerificationToken();') || !d.$auth.register.includes('/${pageLang}/auth/verify-email?token=')) fail('P9', 'the sign-up route does not send a timed link to the page in the language of the teacher');
   if (d.$auth.context.includes('/${locale}/dashboard`')) fail('P9', 'the sign-in context sends an account to /dashboard (the admin page, then the homepage) instead of its workspace');
+  // P10
+  const used = { unitUi: new Set(), myUi: new Set(), gate: new Set() };
+  for (const m of d.$band.component.matchAll(/\b(unitUi|myUi)\.(\w+)/g)) used[m[1]].add(m[2]);
+  for (const m of d.$band.component.matchAll(/\bgate\.ui\.(\w+)/g)) used.gate.add(m[1]);
+  if (used.unitUi.size < 4 || used.myUi.size < 3 || used.gate.size < 5) fail('P10', 'the strings of the band cannot be read from its source (' + used.unitUi.size + ', ' + used.myUi.size + ', ' + used.gate.size + ')');
+  for (const [loc, L] of Object.entries(d)) {
+    if (loc[0] === '$') continue;
+    const u = d.$band.units[loc], my = d.$my[loc];
+    if (!u) { fail('P10', loc + ' has the panel strings but no strings of the units'); continue; }
+    for (const k of used.unitUi) if (!u[k]) fail('P10', loc + ': the band prints units string ' + k + ', which is missing');
+    for (const k of used.gate) if (!L.ui[k]) fail('P10', loc + ': the band prints panel string ' + k + ', which is missing');
+    if (my) for (const k of used.myUi) if (!my[k]) fail('P10', loc + ': the band prints first-page string ' + k + ', which is missing');
+  }
+  // no word of its own: text between tags is a {…} expression, never letters
+  const own = d.$band.component.slice(d.$band.component.indexOf('const hubLinks')).match(/>\s*[A-Za-zÀ-ÿ][^<>{}]*</g) || [];
+  if (own.length) fail('P10', 'the band prints text of its own, which no native reader has seen: ' + own[0].slice(0, 40));
+  if (!d.$band.component.includes('/pricing?from=topic')) fail('P10', 'the button of the band does not say where the visitor comes from');
+  if (!d.$band.page.includes('teachingForTopic(locale, axis, axisKey).catch(() => null)') || !d.$band.page.includes('{teaching ? <TeachingBand locale={locale} data={teaching} /> : null}')) fail('P10', 'the topic page does not carry the band, or would fall with it');
+  if (!d.$band.lib.includes("if (!mine) return null;")) fail('P10', 'the band is not held back in a language without live units');
   return fails;
 }
 
@@ -182,6 +207,11 @@ const POISONS = [
   ['the link of a mail sent again without the language', 'P9', (d) => { d.$auth.email = d.$auth.email.replace('/${pageLang}/auth/verify-email', '/auth/verify-email'); }],
   ['the sign-up link without the language', 'P9', (d) => { d.$auth.register = d.$auth.register.replace('/${pageLang}/auth/verify-email', '/auth/verify-email'); }],
   ['a new account sent to the admin page', 'P9', (d) => { d.$auth.context += ' router.push(`/${locale}/dashboard`);'; }],
+  ['a band string that a language lacks', 'P10', (d) => { delete d.$band.units.sv.planAllUnits; }],
+  ['a panel string the band prints is gone', 'P10', (d) => { delete d.de.ui.planPrice; }],
+  ['the band prints a word of its own', 'P10', (d) => { d.$band.component = d.$band.component.replace('{unitUi.planAllUnits}</a>', 'All lesson plans</a>'); }],
+  ['the topic page falls with the band', 'P10', (d) => { d.$band.page = d.$band.page.replace('.catch(() => null)', ''); }],
+  ['the button without its origin', 'P10', (d) => { d.$band.component = d.$band.component.replace('/pricing?from=topic', '/pricing'); }],
   ['the homepage says try it all before you sign in', 'P8', (d) => { d.$en['homepageV6.close.body'] = 'Open a tool — try it all before you ever sign in.'; }],
 ];
 

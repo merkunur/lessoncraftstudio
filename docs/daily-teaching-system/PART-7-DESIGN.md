@@ -184,3 +184,75 @@ Fourteen of 25 English mathematics units have no check: twelve have fewer than t
 ### Next in Part 7
 
 7.3 English literacy. 7.4 the checks of the beginning, middle and end of the year and the hub. 7.5 German and Swedish. More mathematics units get a check when worksheet types that are one drawing per page (charts, number lines with a bank) are given cards, which is work on the types, not on the checks.
+
+## 4. Part 7.3 (2026-11-12): English literacy, and pages that are not a card grid
+
+### Why the first trial gave no literacy unit a check
+
+A literacy worksheet is seldom a grid of `.ws-card` directly on the page: it is rows of sentences, small picture cards in a wrapper, a page with a word bank. And its answers are seldom in the page markup: several types draw them only in their key mode, some by a style sheet of the key page, and the types that have a Level Set build their published copy 1 without any key mode at all.
+
+### What the cutter does now (`lib/cut-cards.js`)
+
+- **The tasks of a page.** The cards of a card grid as before (a grid directly on the page is cut exactly as in 7.1 and 7.2: the published mathematics checks kept their tasks through every rebuild, measured by fingerprint). Any other page: the largest group of three or more children of one element that are alike. A task stands alone when nothing else on the page takes room (a bank, a story, a legend); otherwise the type is refused.
+- **Out of its page with its context.** A task keeps the classes of what it stood in (the wrappers are let go with `display:contents`) and the style sheets its type carries in the page.
+- **The answer.** In this order: a mark in the page; a mark or a written answer in the key mode; what the rules of a key-only style sheet select (the mark is put ONTO those elements, because such rules name a card by its place on its page and a check numbers its boxes anew); a key card that differs from its page card. A type whose published copy has no key mode is built as copy 2 (the same page of other words, with its key).
+- **What is a task of words.** Its key is what it says and shows (`t:` words, `p:` pictures), whatever its place on the page; its kind is how it is answered (choose or write, and how many), its size the count it asks for when that differs from card to card.
+
+### What the builder does now (`build-checks.js`)
+
+- A picture stands once in a form across its parts, and form B prefers pictures form A does not show; two boxes of a part do not print the same numbers (23 ÷ 2 with foxes is 23 ÷ 2 with mangoes).
+- Form B is filled with a second try when the first choice leaves a later box empty; in a part of words it stands in another order than form A.
+- Three boxes of numbers are a middle, a large and a small one (7, 6, 5 sides read as a countdown).
+- The key: rings only on what is marked right; the answer of a row with a gap is written into its gap box; a note of the reader for the teacher under the direction (`keyNote`); the word of a picture the teacher has to say, printed in the box.
+- One packing serves the child's page and the key (a key note makes a part taller).
+- A text listing of every box of a check (`dump.json`: words, pictures by name, answer) is what a reader reads first.
+
+### The review of 2026-11-12 (one reader as an American K–3 teacher with a phonics background)
+
+File: `scripts/assessments/reviews/en.review-73.json`: 11 checks read from the text listing and one look at each sheet; 17 parts to fix, 11 direction lines, 15 notes; 1 publish, 10 publish after fixes. Done with it:
+
+| Finding | Done |
+|---|---|
+| A honey jar is "jar", birds in a nest are "birds" | `avoidPictures`; in Kindergarten the teacher names every picture (direction lines), and the key prints the word in the box |
+| Five-sound words in Kindergarten; fox has four sounds; tiger, zebra are not spelled as they sound | `onlyPictures`: three-sound words spelled as they sound, both forms |
+| Spelling: horse, camel, apple, lemon (the worksheet has no regular word) | A key note: before the unit the point is for a spelling that shows every sound in order |
+| "vulture" in first- and second-grade sentences | `avoidText` |
+| Opposites far above Grade 1; a wrong choice that can be defended | `onlyText`: targets a first grader reads |
+| One syllable in one form, three in the other | Both forms scoop two words of two syllables |
+| A hint word under one picture of four | The row is not taken |
+| "What time does … ?" is as right as "When does … ?" | A key note |
+| Sides 7, 6, 5 against 8, 4, 3; tangram of 3 pieces against 2 | The spread of three; `sameLook` |
+| A mirror picture of an animal that faces the front | That lesson has no part |
+| "_ × 5 = 25" (copy the 5); 5 = 2 + 2 + 1 in Grade 2 against 13; odd in one form only | `avoidEcho`; `avoid`; `parity` |
+| Two mathematics checks that leave out the main skills of their unit (graphs; regrouping and numbers above 100) | No check for those units (`noCheck`) |
+
+My own reading before and after found what the reader could not see or what my rulings broke: a key that ringed every option (key rules of several pages merged), the same division in both forms with other pictures, a number of the page badge taken for the size of a task, a part reduced to one box by a rule made for sums, a published check changed by a rule meant for words (bound to tasks of words now). The findings on the published worksheets themselves are in the memory file of the content-fix session.
+
+### Published 2026-11-12: eighteen unit checks (English, Kindergarten to Grade 3)
+
+| Unit | Subject | Parts | Tasks | Pages per form | Lessons not in the check |
+|---|---|---|---|---|---|
+| `g1-add-subtract-within-10` | math | 7 | 11 | 3 | 7 |
+| `k-hearing-sounds-in-words` | literacy | 5 | 14 | 2 | 1 |
+| `k-position-size-patterns` | math | 4 | 4 | 2 | 2 |
+| `k-counting-to-10` | math | 4 | 6 | 2 | 1, 2, 5 |
+| `k-shapes` | math | 3 | 6 | 2 | 4 |
+| `k-putting-together-number-bonds` | math | 3 | 4 | 2 | 3, 4 |
+| `g1-doubles-three-addends-number-walls` | math | 4 | 7 | 2 | none |
+| `g1-tens-and-ones` | math | 3 | 5 | 2 | 4 |
+| `g2-place-value-to-1000` | math | 5 | 7 | 2 | 1, 2, 4 |
+| `g2-equal-groups-equal-shares` | math | 4 | 6 | 2 | 3, 4, 5 |
+| `g3-starting-multiplication` | math | 3 | 5 | 2 | 2, 5 |
+| `g3-division` | math | 3 | 4 | 2 | 2, 4 |
+| `g3-area-perimeter-volume` | math | 5 | 7 | 3 | none |
+| `g3-fractions` | math | 6 | 7 | 2 | 6 |
+| `g1-sounds-spelling-syllables` | literacy | 3 | 6 | 2 | 1, 2, 4 |
+| `g1-reading-sentences-and-stories` | literacy | 3 | 4 | 1 | 1, 2 |
+| `g1-words-and-how-they-work` | literacy | 4 | 7 | 2 | 1, 2, 4, 7 |
+| `g2-sentences-and-grammar` | literacy | 3 | 5 | 1 | 1, 2, 4 |
+
+Mathematics 13 of 25 units, literacy 5 of 11. **What still has no check and why:** the six other literacy units are built of whole-page tasks (matching lines, sorting into bins, a story with questions, a page with a word bank, tracing): a page of that kind is one task and cannot be cut into boxes. A check for them needs a second form of item (the whole small page as one part, or items authored for the check). That is the open limit of this method; it is not hidden by thin checks.
+
+### Next in Part 7
+
+7.4 the checks of the beginning, middle and end of the year and the assessments hub. 7.5 German and Swedish (the same engine; the rulings lists are per language).

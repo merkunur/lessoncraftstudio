@@ -1,5 +1,5 @@
 {
- "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms.",
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms. avoidPictures: pictures no check shows (by name). onlyPictures: per type the pictures its boxes are taken from. avoidText: words no box prints. onlyText: per type a pattern the text of a box must match. avoidEcho: types whose answer must not be a number the box prints. disjointWords: types whose boxes of a part share no word. keyNote: per type a line for the teacher under the direction, in the key only. parity: types about odd and even whose form B box is odd where form A is odd.",
  "drop": {
   "k-sorting-tallies-days": {
    "4": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
@@ -12,6 +12,9 @@
   },
   "g1-shapes-measuring-graphs": {
    "2": "The tangram worksheet is built with the seven pieces of a real tangram: no task of a paper check."
+  },
+  "k-shapes": {
+   "4": "[en.review-73] The mirror picture of an animal that faces the front differs from its copy only in the tail; a kindergartner cannot see that at this size."
   }
  },
  "instruction": {
@@ -28,14 +31,37 @@
   "G3-346": "Count all the cubes in each shape. Write the total.",
   "G3-321": "The small square is one part of a whole. Read its fraction. Circle the bar that shows the WHOLE.",
   "G3-319": "Look at both bars. Circle the greater fraction.",
-  "G1-282": "Put the words in order and write the sentence on the line. The capital letter and the end mark show where it begins and ends."
+  "G1-282": "Put the words in order and write the sentence on the line. The capital letter and the end mark show where it begins and ends.",
+  "K-233": "I will say the name of each picture. Clap the word. Write how many syllables you hear.",
+  "K-221": "I will say the name of each picture. Write the letter for the first sound you hear.",
+  "K-226": "I will say the name of each picture. Write the letter for the last sound you hear.",
+  "K-329": "I will say the name of each picture. Say the word slowly. Draw one dot in the long box for every sound you hear. Then write the number of sounds in the small box.",
+  "G1-312": "Say the picture word slowly. Write the letter or letters for each sound in its own box. Start at the left. Leave the boxes you do not need empty.",
+  "G1-260": "Write the word for each picture on the lines.",
+  "K-368": "Look at each shape. Some are turned and some are skinny. I will read the three names. Circle the name of the shape.",
+  "G3-377": "Circle equal groups in the pile. The second number tells you how many go in each group. Write how many groups you made and how many pictures are left over.",
+  "G3-309": "Share the pile equally among the bins. Write how many each bin gets."
  },
  "noCheck": {
   "g2-shapes-solids-symmetry": "[en.review-g23-math] The pictures keyed as symmetrical are drawn with shading and uneven details (a persimmon with a highlight on one side, a bat with a mouth mark left of the line): \"no\" can be defended. Without that part the unit has two parts, fewer than a check needs.",
-  "g3-time-temperature-mass-volume": "[en.review-g23-math] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks; 24-hour time is not taught in U.S. Grades K-3. One part would be left."
+  "g3-time-temperature-mass-volume": "[en.review-g23-math] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks; 24-hour time is not taught in U.S. Grades K-3. One part would be left.",
+  "g1-shapes-measuring-graphs": "[en.review-73] The parts a check could be cut from leave out sorting, picture graphs and bar graphs, four of the seven lessons: not a fair check of the unit.",
+  "g2-add-subtract-within-1000": "[en.review-73] Every box is two-digit without regrouping, nothing goes above 100 and nothing is subtracted vertically: a child gets full marks without the main skills of the unit."
  },
  "avoid": {
   "K-016": [
+   10
+  ],
+  "G2-351": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
    10
   ]
  },
@@ -54,7 +80,18 @@
   "G1-282 instruction": "The worksheet line is only the hint; a box that stands alone must say what to do.",
   "K-231 avoidAns": "A Kindergarten child builds words of consonant, short vowel, consonant; \"eye\" and \"cow\" are spelled with letters that do not say their sound, and form A had none of that kind.",
   "K-221 avoidAns": "Form A asked two vowels (umbrella, eggplant) and form B none; a first check of beginning sounds asks consonants in both forms.",
-  "K-063 theme": "The mirror image of a blackberry looks like the blackberry: fruit is close to symmetrical, an animal seen from the side is not."
+  "K-063 theme": "The mirror image of a blackberry looks like the blackberry: fruit is close to symmetrical, an animal seen from the side is not.",
+  "instructions of the literacy review": "[en.review-73] Nine direction lines: the teacher names the pictures in Kindergarten (the count or the letter depends on the word); children write letters, not sounds; \"circle\", not \"ring\".",
+  "avoidPictures": "[en.review-73] A jar with a cloth lid is \"jar\" or \"jam\", not \"honey\"; two birds in a nest are \"birds\"; \"vulture\" is no word a first or second grader reads.",
+  "K-329 G1-312 onlyPictures": "[en.review-73] Kindergarten segments words of two and three sounds; camel, koala, wolf, swan are above that, tiger and zebra are not spelled the way they sound, and fox has four sounds in three letters. The boxes take three-sound words that are spelled as they sound.",
+  "G1-305 onlyPictures": "[en.review-73] One form had a three-syllable and a one-syllable word, the other a two- and a one-syllable word; both forms now scoop two words of two syllables.",
+  "G1-337 onlyText": "[en.review-73] \"answer / reply / question\" is far above Grade 1 reading; \"bright\" can take \"slow\" as its opposite. The boxes take words a first grader reads.",
+  "G3-312 avoidEcho": "[en.review-73] In \"_ × 5 = 25\" a child who copies the 5 is right.",
+  "G2-351 avoid": "[en.review-73] 5 is below Grade 2 and far easier than the 13 of the other form.",
+  "K-358 sameLook": "[en.review-73] Three pieces in form A and two in form B are not one level.",
+  "SPREAD of three": "[en.review-73] Seven, six, five sides in one form and eight, four, three in the other: a countdown, and two levels.",
+  "G2-349 onlyPictures": "[en.review-73] The row with hens prints the singular word under its picture and the other rows print none: one box would be copy-and-add-s.",
+  "G2-351 parity": "One form had an odd and an even number, the other two even ones: the question \"what is left over\" was asked once in one form and never in the other."
  },
  "blend": {
   "G3-364": [
@@ -77,9 +114,78 @@
   "G3-319"
  ],
  "sameLook": [
-  "G3-343"
+  "G3-343",
+  "K-358"
  ],
  "theme": {
-  "K-063": "animals"
- }
+  "K-063": "animals",
+  "K-329": "animals",
+  "G1-312": "animals",
+  "G1-305": "animals"
+ },
+ "avoidPictures": [
+  "vulture",
+  "honey",
+  "nest"
+ ],
+ "avoidText": [
+  "vulture"
+ ],
+ "onlyPictures": {
+  "K-329": [
+   "pig",
+   "cat",
+   "duck",
+   "fish",
+   "bat",
+   "dog"
+  ],
+  "G1-312": [
+   "pig",
+   "duck",
+   "bat",
+   "dog",
+   "fish"
+  ],
+  "G1-305": [
+   "rabbit",
+   "dolphin",
+   "donkey",
+   "panda",
+   "penguin",
+   "raccoon"
+  ],
+  "G2-349": [
+   "lion",
+   "penguin",
+   "bee",
+   "bat",
+   "airplane",
+   "horse",
+   "monkey",
+   "duck",
+   "ball",
+   "cow"
+  ]
+ },
+ "onlyText": {
+  "G1-337": "^(hot|happy|wet|good|loud|clean|lost|sweet|sick|true) "
+ },
+ "avoidEcho": [
+  "G3-312"
+ ],
+ "disjointWords": [
+  "G1-395",
+  "G1-337"
+ ],
+ "keyNote": {
+  "G1-312": "Give the point when each box holds one sound and the sounds stand in the right order, whatever the spelling.",
+  "G1-260": "These words are not spelled the way they sound. Before the unit, give the point for a spelling that shows every sound in order (for example “zebru” for zebra); after the unit, for the correct spelling.",
+  "G2-353": "The same number marks a word and the name it stands for.",
+  "G2-356": "Another correct question that asks for the highlighted words is right too (for example “What time …?” for “When …?”).",
+  "G1-395": "You may read the four words aloud."
+ },
+ "parity": [
+  "G2-351"
+ ]
 }

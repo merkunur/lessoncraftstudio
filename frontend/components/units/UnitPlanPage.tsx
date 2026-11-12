@@ -15,6 +15,8 @@ import { teacherFileHref } from '@/lib/teacher-files';
 import { UnitPlan, UnitUi, fill, planFile } from '@/lib/units';
 import { LEVEL_KEY } from '@/components/units/UnitsHub';
 import { TeacherFileClicks } from '@/components/tracking/PathEvents';
+import TeacherGate from '@/components/teacher-gate/TeacherGate';
+import { getTeacherGate } from '@/lib/teacher-gate';
 
 export default async function UnitPlanPage({ locale, plan, ui }: { locale: string; plan: UnitPlan; ui: UnitUi }) {
   const [tLevel, tTier, tBreadcrumb] = await Promise.all([
@@ -23,6 +25,7 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
   ]);
   const gradeLabel = LEVEL_KEY[plan.grade] ? tLevel(LEVEL_KEY[plan.grade]) : plan.grade;
+  const gate = await getTeacherGate(locale);
   const subjectLabel = ui[`subject_${plan.subject}`] || plan.subject;
   const url = canonicalUrl(localePath(locale, 'units', plan.slug));
   const lessons = plan.units.reduce((n, r) => n + r.lessons.length, 0);
@@ -51,7 +54,7 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
 
   return (
     <main className={`un ${baloo2.variable} ${nunito.variable}`}>
-      <TeacherFileClicks surface="year-plan" />
+      {gate ? <TeacherGate locale={locale} plan={tTier('name')} surface="year-plan" gate={gate} /> : <TeacherFileClicks surface="year-plan" />}
       <div className="un-wrap">
         <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: `/${locale}/units` }, { label: plan.title }]} />
         {plan.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}

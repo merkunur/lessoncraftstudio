@@ -8,6 +8,7 @@ import CheckoutButtons from '@/components/pricing/CheckoutButtons';
 import { PathStep } from '@/components/tracking/PathEvents';
 import { MAKER_COUNT } from '@/lib/seo/maker-content';
 import { getSchoolsUi } from '@/lib/schools';
+import { getTeacherGate } from '@/lib/teacher-gate';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -62,6 +63,21 @@ export default async function PricingPage({
 }) {
   const t = await getTranslations({ locale, namespace: 'pricingPage' });
   const schoolsUi = await getSchoolsUi(locale);
+  // what the plan gives beyond downloads, in the languages that have it (Daily Teaching System, Part 11.2): every
+  // number is counted from the live content of the language, and a line with nothing behind it is not shown
+  const gate = await getTeacherGate(locale);
+  const fillN = (str: string, n: number) => str.replace('{n}', String(n));
+  const system = gate ? [
+    gate.facts.units > 1 ? fillN(gate.ui.pricing_units, gate.facts.units) : null,
+    gate.facts.plans > 1 ? fillN(gate.ui.pricing_plans, gate.facts.plans) : null,
+    gate.facts.subPlans > 1 ? fillN(gate.ui.pricing_subPlans, gate.facts.subPlans) : null,
+    gate.facts.checks > 1 ? fillN(gate.ui.pricing_checks, gate.facts.checks) : null,
+  ].filter((x): x is string => !!x) : [];
+  const systemLinks = gate ? [
+    gate.facts.units > 1 ? { href: `/${locale}/units`, label: gate.ui.link_units } : null,
+    gate.facts.subPlans > 1 ? { href: `/${locale}/sub-plans`, label: gate.ui.link_subPlans } : null,
+    gate.facts.checks > 1 ? { href: `/${locale}/assessments`, label: gate.ui.link_checks } : null,
+  ].filter((x): x is { href: string; label: string } => !!x) : [];
 
   const productSchema = {
     '@context': 'https://schema.org',
@@ -112,6 +128,9 @@ export default async function PricingPage({
           {t('hero.title')}
         </h1>
         <p className="text-ink-700 max-w-2xl mx-auto">{t('hero.subtitle')}</p>
+        {gate && system.length && gate.ui.pricingHero ? (
+          <p className="text-ink-900 font-semibold max-w-2xl mx-auto mt-3">{gate.ui.pricingHero.replace('{plan}', t('tier.name'))}</p>
+        ) : null}
       </header>
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -142,6 +161,27 @@ export default async function PricingPage({
             </span>
             <span className="text-ink-500"> {t('tier.priceSuffix')}</span>
           </p>
+          {/* what the plan gives beyond downloads comes first: it is what a teacher teaches from (Part 11.2) */}
+          {gate && system.length ? (
+            <div className="mb-8 rounded-lg border border-cream-300 bg-cream-50 p-5" data-teaching-system="">
+              <h3 className="font-semibold text-ink-900 mb-1">{gate.ui.pricingTitle}</h3>
+              <p className="text-ink-700 mb-3">{gate.ui.pricingLead}</p>
+              <ul className="space-y-2 text-ink-700">
+                {system.map((line) => (
+                  <li key={line} className="flex gap-2">
+                    <span aria-hidden="true">★</span>
+                    <span>{line}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-ink-700">
+                {gate.ui.pricingSee}{' '}
+                {systemLinks.map((l, i) => (
+                  <span key={l.href}>{i ? ' · ' : ''}<a className="font-semibold underline" href={l.href}>{l.label}</a></span>
+                ))}
+              </p>
+            </div>
+          ) : null}
           <h3 className="font-semibold text-ink-900 mb-3">{t('tier.includedTitle')}</h3>
           <ul className="space-y-3 text-ink-700 mb-8">
             {/* item0 = "Unlimited play and downloads" — the headline benefit

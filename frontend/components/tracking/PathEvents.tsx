@@ -48,7 +48,7 @@ export function PathStep({ name }: { name: 'pricing-open' | 'signup-open' }) {
 }
 
 /** what a Teacher-only file is, from its name in the gate's address (lib/teacher-files.ts): a short fixed word */
-function fileKind(file: string): string {
+export function fileKind(file: string): string {
   const [folder, , name = ''] = file.split('/');
   const base = name.replace(/\.pdf$/, '').replace(/-[ab]$/, '');
   if (folder === 'checks') return base === 'key' ? 'check-key' : base === 'teacher-pages' ? 'check-teacher-pages' : 'check-other';

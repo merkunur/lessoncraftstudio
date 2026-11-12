@@ -20,6 +20,8 @@ import UnitCheckSection from '@/components/units/UnitCheckSection';
 import { getAssessmentUi, getUnitCheck } from '@/lib/assessments';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 import { TeacherFileClicks } from '@/components/tracking/PathEvents';
+import TeacherGate from '@/components/teacher-gate/TeacherGate';
+import { getTeacherGate } from '@/lib/teacher-gate';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -138,6 +140,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
   ]);
   const planName = tTier('name');
+  const gate = await getTeacherGate(locale);          // the panel that explains the plan when a Teacher-only file is asked for (Part 11.2)
   const gradeLabel = LEVEL_KEY[unit.grade] ? tLevel(LEVEL_KEY[unit.grade]) : unit.grade;
   const subjectLabel = ui[`subject_${unit.subject}`] || unit.subject;
   const url = canonicalUrl(localePath(locale, 'units', unit.slug));
@@ -195,7 +198,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
 
   return (
     <main className={`un ${baloo2.variable} ${nunito.variable}`}>
-      <TeacherFileClicks surface="unit" />
+      {gate ? <TeacherGate locale={locale} plan={planName} surface="unit" gate={gate} /> : <TeacherFileClicks surface="unit" />}
       <div className="un-wrap">
         <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: `/${locale}/units` }, { label: unit.title }]} />
         {unit.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}

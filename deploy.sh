@@ -360,6 +360,8 @@ node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a
 node /opt/lessoncraftstudio/scripts/curriculum-pages/gates.js || { echo "ERROR: a curriculum page fails its gates — node scripts/curriculum-pages/gates.js (PLAN.md Part 6)"; exit 1; }
 node /opt/lessoncraftstudio/scripts/schools/gates.js || { echo "ERROR: the For schools page fails its gates — node scripts/schools/gates.js (PLAN.md Part 6)"; exit 1; }
 node /opt/lessoncraftstudio/scripts/assessments/gates.js || { echo "ERROR: a unit check fails its gates — node scripts/assessments/gates.js (PLAN.md Part 7)"; exit 1; }
+# the panel that explains the Teacher plan and the pricing lines (Part 11.2): strings complete, no free claim, no price in a string
+node /opt/lessoncraftstudio/scripts/teacher-gate/gates.js || { echo "ERROR: the Teacher-plan panel fails its gates — node scripts/teacher-gate/gates.js (PLAN.md Part 11.2)"; exit 1; }
 # HARD (Part 4.5): the German teacher notes address the teacher with "du", as the German site does; a formal
 # "Sie" or "Ihre" left by a draft fails. Committed files only.
 node /opt/lessoncraftstudio/scripts/units/notes/de-address.js --check > /tmp/lcs-de-address.txt 2>&1 || { tail -8 /tmp/lcs-de-address.txt; echo "ERROR: a German teacher note addresses the teacher formally — node scripts/units/notes/de-address.js"; exit 1; }

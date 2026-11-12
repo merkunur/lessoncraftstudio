@@ -13,7 +13,8 @@ export default function SaveToCollectionsButton({ locale, kind, slug, labels }: 
     if (state.phase === 'working') return;
     let token: string | null = null;
     try { token = window.localStorage.getItem('accessToken'); } catch { /* storage blocked: treated as signed out */ }
-    if (!token) { window.location.href = `/${locale}/auth/signup?from=teacher-file`; return; }
+    const refused = (to: string) => { if (window.dispatchEvent(new CustomEvent('lcs-teacher-gate', { detail: { what: 'save-to-collections', to }, cancelable: true }))) window.location.href = to; };   // the page's panel takes over when it is there
+    if (!token) { refused(`/${locale}/auth/signup?from=teacher-file`); return; }
     setState({ phase: 'working', n: 0 });
     try {
       const res = await fetch('/api/collections/from-pack', {
@@ -22,7 +23,7 @@ export default function SaveToCollectionsButton({ locale, kind, slug, labels }: 
         body: JSON.stringify({ kind, locale, slug }),
       });
       if (res.status === 401) { window.location.href = `/${locale}/auth/signin?from=teacher-file`; return; }
-      if (res.status === 403) { window.location.href = `/${locale}/pricing?from=teacher-file`; return; }
+      if (res.status === 403) { setState({ phase: 'idle', n: 0 }); refused(`/${locale}/pricing?from=teacher-file`); return; }
       if (!res.ok) throw new Error(String(res.status));
       const data = (await res.json()) as { total: number };
       setState({ phase: 'done', n: data.total });

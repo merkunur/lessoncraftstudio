@@ -21,7 +21,11 @@ export default function UnitBundleButton({ locale, guideHref, pdfs, fileName, la
       const probe = await fetch(`${guideHref}&probe=1`, { credentials: 'include', cache: 'no-store' });
       if (!probe.ok) throw new Error('probe ' + probe.status);
       const answer = (await probe.json()) as { ok: boolean; to: string | null };
-      if (!answer.ok) { window.location.href = answer.to || `/${locale}/pricing`; return; }
+      if (!answer.ok) {
+        // the page's panel explains the plan (components/teacher-gate/TeacherGate.tsx); without it, the gate's own address
+        if (!window.dispatchEvent(new CustomEvent('lcs-teacher-gate', { detail: { what: 'whole-file', to: answer.to }, cancelable: true }))) return;
+        window.location.href = answer.to || `/${locale}/pricing`; return;
+      }
 
       // loaded at run time from the makers' own build; webpack must not try to resolve it
       const lib = (await import(/* webpackIgnore: true */ '/makers/app/vendor/pdf-lib.js' as string)) as { PDFDocument: { create(): Promise<PdfDoc>; load(b: ArrayBuffer): Promise<PdfDoc> } };

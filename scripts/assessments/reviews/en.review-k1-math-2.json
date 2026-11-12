@@ -1,0 +1,84 @@
+{
+ "parts": [
+  {
+   "unit": "k-putting-together-number-bonds",
+   "part": 3,
+   "verdict": "fix",
+   "why": "Form A box 2 and Form B box 1 are the same number (9, four pairs and one left over), and in Form A box 1 the fifth pair of swans stands alone in a card under the row, exactly where the leftover picture stands in the other boxes, so a kindergartner can read it as the one left over and circle odd; use an even number whose pairs fit in one row (8 or 6) in Form A box 1 and another odd number (7) in Form B box 1."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 6,
+   "verdict": "fix",
+   "why": "All four boxes are partners of 10 again, the same skill as Part 3, and their facts are printed elsewhere in the same form: Form A box 1 (? + 2 = 10) is answered by Part 7 box 2 (8 + 2 =) right under it, Form B box 1 (? + 5 = 10) is Part 3 box 2 (5 + ? = 10), and Form B box 2 (6 + ? = 10) has the same answer as Part 7 box 1 (10 − 6 =); pick boxes with other totals (6, 7, 8, 9) whose three numbers appear nowhere else in the form."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 7,
+   "verdict": "fix",
+   "why": "Form A box 2 (8 + 2 = ?) is the same fact as Part 6 box 1 directly above it, Form B box 2 (7 + 3 = ?) is printed with its answer pattern in the fact family of Part 5 box 1 on the same page (roof 10, 3, 7), and Form B box 1 (10 − 6 = ?) is the mirror of Part 6 box 2; pick facts that do not appear in Parts 3, 5, or 6 of the same form and that do not all end in or start from 10."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Form A has the two doubles above 10 (7 + 7 and 6 + 6) and Form B the two easier ones (5 + 5 and 4 + 4), so the check after the unit is easier than the check before it; give each form one double above 10 and one at or below 10 (A: 7 + 7 and 4 + 4, B: 6 + 6 and 5 + 5)."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "part": 3,
+   "verdict": "fix",
+   "why": "The top brick is 10 in all four walls (both boxes of Form A and both boxes of Form B), so a child who finishes the first wall can copy 10 onto the second, and the middle row 5, 5 appears in Form A box 1 and Form B box 2; pick walls with different tops inside each form and across the forms (for example 7 and 9, 8 and 10)."
+  },
+  {
+   "unit": "g1-tens-and-ones",
+   "part": 2,
+   "verdict": "fix",
+   "why": "Form B asks the same two numbers as Form A (20 and 19, only the word choices are moved); Form B needs other numbers (for example 18 and 16)."
+  },
+  {
+   "unit": "g1-tens-and-ones",
+   "part": 3,
+   "verdict": "fix",
+   "why": "Form A compares within one ten (99 and 95, 94 and 97, the ones decide) but Form B compares across tens (72 and 97, 97 and 44, the tens decide), which is easier, and 97 is in three of the four boxes and is the larger number in both Form B boxes; give each form one pair with the same tens and one pair with different tens, and use a number only once."
+  }
+ ],
+ "checks": [
+  {
+   "unit": "k-position-size-patterns",
+   "verdict": "publish",
+   "why": "All four boxes per form have one right answer, clear pictures, directions that fit, and the same level in both forms."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "verdict": "publish-after-fixes",
+   "why": "Parts 1 and 2 are right and the key now shows the bond answers; only Part 3 needs other numbers (the 9 twice and the lone pair of swans)."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "verdict": "publish-after-fixes",
+   "why": "Every key is correct and the forms now match in kind, but on page 3 the same facts of 10 come back in Parts 6 and 7, so answers can be read off neighboring boxes."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "verdict": "publish-after-fixes",
+   "why": "Directions and keys are right now; the doubles must be balanced between the forms and the walls must not all end in 10."
+  },
+  {
+   "unit": "g1-tens-and-ones",
+   "verdict": "publish-after-fixes",
+   "why": "Part 1 is fixed (96 and 93), but Part 2 repeats 20 and 19 in both forms and Part 3 is easier in Form B than in Form A."
+  }
+ ],
+ "ui": {},
+ "notes": [
+  "Taking the larger tasks first makes 10 the answer or the whole almost everywhere (g1-add-subtract-within-10 Parts 3, 5, 6, 7; g1-doubles Parts 2 and 3; k-putting-together Parts 1 and 2); add the rule that the same three numbers (a fact family) appear only once in a form, across all parts, and that two boxes of a part do not share a top number or total.",
+  "Three parts give the same answers in Form A and Form B with other addends (g1-add-subtract-within-10 Part 1: 5 and 4 in the same order; g1-doubles Part 2: 10; k-putting-together Part 1: 10); this is harmless weeks apart, but vary the totals where the worksheet allows.",
+  "In k-putting-together-number-bonds Part 2 the missing number is in the left circle in all four boxes; that follows the same-place rule and is fine, and all four keys (3, 5, 2, 9) are right.",
+  "The answer keys now show the number bond and number wall answers, and I checked every one of them (walls A: 5, 5, 10 and 4, 6, 10; B: 6, 4, 10 and 5, 5, 10).",
+  "The teacher pages are in lesson order now and all nine strings read correctly in place; the heading What to do next still sits directly under the line Not in the check: Lesson 7. with no space above it.",
+  "Odd and even is a Grade 2 standard in the US, so Part 3 of the kindergarten check stays above grade even with the better direction; the paired pictures make it doable, but US kindergarten teachers will notice.",
+  "g1-tens-and-ones Part 1 has nine tens in both forms (96 and 93), which is acceptable, but a different number of tens in Form B would be better.",
+  "g1-add-subtract-within-10 Part 4 still lands on 15 and 17 in a unit named Within 10 with the hops already printed; it is correct and doable and I leave it as it is."
+ ]
+}

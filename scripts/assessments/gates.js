@@ -16,6 +16,8 @@
  *                   test"; the section and the teacher pages both say what the check is NOT
  *   T7  position    over all single-choice parts of a language, the right option does not sit in the same place in
  *                   form A and form B in more than half of them
+ *   T9  same level  card by card, form B asks the kind of task form A asks, at about the same size; the boxes of a
+ *                   part do not share a total
  *   T8  strings     a language has every string the English file has
  *
  * PC only, before a deploy (it reads what build-checks.js built): node scripts/assessments/assemble.js --loc=<loc> --check
@@ -77,6 +79,13 @@ function run(d) {
       const inA = new Set(A.flat());
       for (const h of B.flat()) if (inA.has(h)) fail('T2', w + ': a task of form A is a task of form B');
       if (new Set(A.flat()).size !== A.flat().length || new Set(B.flat()).size !== B.flat().length) fail('T2', w + ': a form asks one task twice');
+      // T9: card by card, form B asks the kind of task form A asks, at about the same size; the boxes of a part do not share a total
+      c.parts.forEach((p, i) => {
+        const ka = (c.forms.A.kinds || [])[i] || [], kb = (c.forms.B.kinds || [])[i] || [], ma = (c.forms.A.sizes || [])[i] || [], mb = (c.forms.B.sizes || [])[i] || [];
+        if (ka.length !== p.tasks || kb.length !== p.tasks) { fail('T9', w + ' part ' + p.part + ': the kinds of its tasks are not recorded'); return; }
+        ka.forEach((k, j) => { if (k !== kb[j]) fail('T9', w + ' part ' + p.part + ' box ' + (j + 1) + ': form B asks another kind of task than form A'); if (Math.abs(ma[j] - mb[j]) > Math.max(2, Math.round(ma[j] * 0.2))) fail('T9', w + ' part ' + p.part + ' box ' + (j + 1) + ': sizes ' + ma[j] + ' and ' + mb[j] + ' are not the same level'); });
+        for (const m of [ma, mb]) { const pos = m.filter((x) => x > 0); if (new Set(pos).size !== pos.length) fail('T9', w + ' part ' + p.part + ': two boxes share a total'); }
+      });
       (c.forms.A.pos || []).forEach((ps, i) => { const pb = (c.forms.B.pos || [])[i] || []; if (ps.length === 1 && ps[0] != null && pb[0] != null) { choice++; if (ps[0] === pb[0]) same++; } });
     }
     if (choice >= 2 && same * 2 > choice) fail('T7', loc + ': in ' + same + ' of ' + choice + ' single-choice parts the right option sits in the same place in both forms');
@@ -95,6 +104,9 @@ const POISONS = [
   ['a claim to be standardized', 'T6', (d) => { d.en.ui.tpHow1 += ' The check is standardized.'; }],
   ['the honest sentence taken out', 'T6', (d) => { d.en.ui.sectionHonest = 'This is a classroom check of this unit\'s lessons.'; }],
   ['the answer in the same place in every form', 'T7', (d) => { for (const c of d.en.checks) { c.forms.A.pos = c.parts.map(() => [1]); c.forms.B.pos = c.parts.map(() => [1]); } }],
+  ['form B asks another kind of task', 'T9', (d) => { d.en.checks[0].forms.B.kinds[0][0] += ' x'; }],
+  ['form B at another level', 'T9', (d) => { const c = d.en.checks.find((x) => x.forms.A.sizes.some((m) => m[0] > 0)); const i = c.forms.A.sizes.findIndex((m) => m[0] > 0); c.forms.B.sizes[i][0] = c.forms.A.sizes[i][0] * 3 + 5; }],
+  ['two boxes of a part with one total', 'T9', (d) => { const c = d.en.checks.find((x) => x.parts.some((p) => p.tasks > 1)); const i = c.parts.findIndex((p) => p.tasks > 1); c.forms.A.sizes[i] = c.forms.A.sizes[i].map(() => 7); }],
   ['a missing string', 'T8', (d) => { delete d.en.ui.tpGridLead; }],
 ];
 

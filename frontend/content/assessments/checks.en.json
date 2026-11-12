@@ -5,7 +5,7 @@
   {
    "unit": "g1-add-subtract-within-10",
    "slug": "addition-and-subtraction-within-10-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -26,7 +26,7 @@
      "lesson": 3,
      "title": "Partners that make 10",
      "type": "G1-106",
-     "tasks": 2
+     "tasks": 1
     },
     {
      "part": 4,
@@ -65,30 +65,29 @@
      "pages": 3,
      "cards": [
       [
-       "d4d00b1391ac688b",
-       "19127ee767d5f846"
+       "672919f21bb45883",
+       "350b9503cc33a63e"
       ],
       [
-       "871c115e9148c1f6"
+       "58c9ecd07d734c4f"
       ],
       [
-       "045b35e819a6581b",
-       "1465c48e82d731fd"
+       "b34dfe4a5eb5a39e"
       ],
       [
-       "f299d1beb8624e10"
+       "8c320c7004583c23"
       ],
       [
-       "93c4713326f7dd62",
-       "7f81b4941f161679"
+       "d850d4cc63b65065",
+       "b1270ad3bd365d1d"
       ],
       [
-       "49ab0a9327d8a965",
-       "3dcd09199ef09ed9"
+       "4ee814b810c99b1d",
+       "851c626c8407fe48"
       ],
       [
-       "d57c230060e5a7b7",
-       "a8ee00898b41cf47"
+       "78d17935e94e6f18",
+       "ad9754026e918932"
       ]
      ],
      "pos": [
@@ -100,7 +99,6 @@
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -117,6 +115,60 @@
       [
        null,
        null
+      ]
+     ],
+     "kinds": [
+      [
+       "+ = ?",
+       "+ = ?"
+      ],
+      [
+       "w − w = ?"
+      ],
+      [
+       "w + ? = w"
+      ],
+      [
+       "w w w w w w w w w w w → ?"
+      ],
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ],
+      [
+       "w + ? = w",
+       "? − w = w"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       4,
+       3
+      ],
+      [
+       5
+      ],
+      [
+       10
+      ],
+      [
+       20
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       9,
+       8
       ]
      ]
     },
@@ -124,30 +176,29 @@
      "pages": 3,
      "cards": [
       [
-       "a08622242afa7b09",
-       "8aadc1d62adf5058"
+       "2763cc0dd652cb6f",
+       "3fec5b8d1053d2ad"
       ],
       [
-       "448648c64f11ea86"
+       "d2b3b1ab82d83876"
       ],
       [
-       "d9613b247387dd66",
-       "755db91d604b351d"
+       "984e6d549befda83"
       ],
       [
-       "d1363ed8e8585efc"
+       "67cb6a637b027bce"
       ],
       [
-       "65835095474e5b8d",
-       "8d1994147494ac3b"
+       "c1bcf4d6bf2022af",
+       "c7567a7a87cff221"
       ],
       [
-       "74b8c38533f885d3",
-       "9d64d5fc04426d89"
+       "47e19efe58796ad1",
+       "b3dfd80127d3ed5f"
       ],
       [
-       "1d3002414d73feb5",
-       "52b5ebf5a3360d11"
+       "5003c137f3845f4d",
+       "75326a230b1a494d"
       ]
      ],
      "pos": [
@@ -159,7 +210,6 @@
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -176,6 +226,60 @@
       [
        null,
        null
+      ]
+     ],
+     "kinds": [
+      [
+       "+ = ?",
+       "+ = ?"
+      ],
+      [
+       "w − w = ?"
+      ],
+      [
+       "w + ? = w"
+      ],
+      [
+       "w w w w w w w w w w w → ?"
+      ],
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ],
+      [
+       "w + ? = w",
+       "? − w = w"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       4,
+       2
+      ],
+      [
+       5
+      ],
+      [
+       10
+      ],
+      [
+       20
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       10,
+       8
       ]
      ]
     }
@@ -184,7 +288,7 @@
   {
    "unit": "k-position-size-patterns",
    "slug": "position-words-size-and-patterns-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -236,6 +340,28 @@
       [
        2
       ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "? ? ?"
+      ],
+      [
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0
+      ]
      ]
     },
     "B": {
@@ -261,6 +387,28 @@
       [
        1
       ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "? ? ?"
+      ],
+      [
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0
+      ]
      ]
     }
    }
@@ -268,7 +416,7 @@
   {
    "unit": "k-putting-together-number-bonds",
    "slug": "putting-together-and-number-bonds-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -281,8 +429,8 @@
      "part": 2,
      "lesson": 2,
      "title": "Number bonds to 5 and to 10",
-     "type": "K-274",
-     "tasks": 2
+     "type": "K-273",
+     "tasks": 1
     },
     {
      "part": 3,
@@ -301,15 +449,14 @@
      "pages": 2,
      "cards": [
       [
-       "64011d498bc2c972"
+       "b64cb7159a27ee64"
       ],
       [
-       "5d6ffe92b11f07c3",
-       "8978269ea5795c6f"
+       "58c9ecd07d734c4f"
       ],
       [
-       "507256839fdea326",
-       "c5beb11ef63d3ec3"
+       "dcf5a54b42f3d7b7",
+       "416ce38531631f19"
       ]
      ],
      "pos": [
@@ -317,12 +464,35 @@
        null
       ],
       [
-       null,
        null
       ],
       [
        3,
        2
+      ]
+     ],
+     "kinds": [
+      [
+       "+ = ?"
+      ],
+      [
+       "w ? w"
+      ],
+      [
+       "w → w w",
+       "w → w w"
+      ]
+     ],
+     "sizes": [
+      [
+       7
+      ],
+      [
+       5
+      ],
+      [
+       8,
+       5
       ]
      ]
     },
@@ -330,15 +500,14 @@
      "pages": 2,
      "cards": [
       [
-       "8d8b4f2a75bb5354"
+       "78262bda69fdefff"
       ],
       [
-       "ede8be3ad4a64b25",
-       "b8fcc22f295e9441"
+       "d2b3b1ab82d83876"
       ],
       [
-       "6f2d9a3843bc6b76",
-       "d97dacd5474ece7f"
+       "cfa5bdaaeddc037e",
+       "7c73961d99723c1f"
       ]
      ],
      "pos": [
@@ -346,12 +515,35 @@
        null
       ],
       [
-       null,
        null
       ],
       [
        2,
        3
+      ]
+     ],
+     "kinds": [
+      [
+       "+ = ?"
+      ],
+      [
+       "w ? w"
+      ],
+      [
+       "w → w w",
+       "w → w w"
+      ]
+     ],
+     "sizes": [
+      [
+       7
+      ],
+      [
+       5
+      ],
+      [
+       9,
+       4
       ]
      ]
     }
@@ -360,7 +552,7 @@
   {
    "unit": "g1-doubles-three-addends-number-walls",
    "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -392,15 +584,15 @@
      "pages": 2,
      "cards": [
       [
-       "76561a4fdcfccf70",
-       "64d7ea57ccc8a7d2"
+       "4f5f910cd323bc3e",
+       "91c2c0cd8e56849f"
       ],
       [
-       "4e0775e1d04c769d"
+       "12089eafdce93a11"
       ],
       [
-       "9f76c8d42f218257",
-       "433c3e6a15c8cd3e"
+       "24adb16bfa4db650",
+       "bd065829a73819c3"
       ]
      ],
      "pos": [
@@ -414,6 +606,32 @@
       [
        null,
        null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w + w = ?",
+       "w w + w = ?"
+      ],
+      [
+       "+ + = ?"
+      ],
+      [
+       "w w w ? ? ?",
+       "w w w ? ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       12,
+       8
+      ],
+      [
+       8
+      ],
+      [
+       9,
+       7
       ]
      ]
     },
@@ -421,15 +639,15 @@
      "pages": 2,
      "cards": [
       [
-       "43393ce3ef13d3aa",
-       "6567b0d88994764a"
+       "78ee3d32ce0d6edc",
+       "b3dfd80127d3ed5f"
       ],
       [
-       "c628e5adf792451c"
+       "5e1097f58a9799c1"
       ],
       [
-       "c7ce11780c2f73e9",
-       "4769e472b8c0f27e"
+       "1399d1ae953d6010",
+       "fd064092408ca858"
       ]
      ],
      "pos": [
@@ -443,6 +661,32 @@
       [
        null,
        null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w + w = ?",
+       "w w + w = ?"
+      ],
+      [
+       "+ + = ?"
+      ],
+      [
+       "w w w ? ? ?",
+       "w w w ? ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       14,
+       6
+      ],
+      [
+       8
+      ],
+      [
+       9,
+       7
       ]
      ]
     }
@@ -451,7 +695,7 @@
   {
    "unit": "g1-tens-and-ones",
    "slug": "tens-and-ones-grade-1-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -471,7 +715,7 @@
      "part": 3,
      "lesson": 3,
      "title": "Compare and order two-digit numbers",
-     "type": "G1-137",
+     "type": "G1-135",
      "tasks": 2
     }
    ],
@@ -480,18 +724,18 @@
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
-       "04234819bfce54ee"
+       "0bceb79102873ef5"
       ],
       [
-       "9a5d64bf8a009638",
-       "3e0092ff949bcd09"
+       "76521062a9b82bc2",
+       "cfa5bdaaeddc037e"
       ],
       [
-       "011c965d6407e0ec",
-       "3277147669bffaec"
+       "62a6fd2b4f53d36f",
+       "1aa99600f0e662f3"
       ]
      ],
      "pos": [
@@ -499,28 +743,54 @@
        null
       ],
       [
-       0,
-       1
-      ],
-      [
        2,
        0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "?"
+      ],
+      [
+       "w w w w",
+       "w w w w"
+      ],
+      [
+       "w ? w ? w ?",
+       "w ? w ? w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       64
+      ],
+      [
+       16,
+       9
+      ],
+      [
+       88,
+       66
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
-       "f0f0b9302ecf0f89"
+       "c202881c5ef2366c"
       ],
       [
-       "6450a8a3e59a8855",
-       "0c9c3aa8b519fc35"
+       "a44d8fbb60a85297",
+       "dcf5a54b42f3d7b7"
       ],
       [
-       "1aaddc296cc959fc",
-       "51c5a04580a0d876"
+       "328dc1f2191d26c9",
+       "a9e9322d688d0168"
       ]
      ],
      "pos": [
@@ -528,12 +798,38 @@
        null
       ],
       [
-       2,
-       0
-      ],
-      [
        0,
        2
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "?"
+      ],
+      [
+       "w w w w",
+       "w w w w"
+      ],
+      [
+       "w ? w ? w ?",
+       "w ? w ? w ?"
+      ]
+     ],
+     "sizes": [
+      [
+       63
+      ],
+      [
+       17,
+       8
+      ],
+      [
+       89,
+       68
       ]
      ]
     }

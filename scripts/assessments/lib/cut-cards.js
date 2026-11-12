@@ -19,8 +19,9 @@
  *   kind         the shape of the task with every number replaced by n and every word by w: "n + ? = n" is not
  *                "n + n = ?" (the signs stay: a plus task is not a minus task)
  *   nums, mag    the numbers the card shows or asks for, and the largest of them (its size)
- *   key          what makes two cards THE SAME TASK: the same numbers (in any order: 4 and 1 is 1 and 4), or for a
- *                card without numbers the same pictures
+ *   key          what makes two cards THE SAME TASK: the same numbers in any order (4 and 1 is 1 and 4: a FACT,
+ *                key "n:…"); the one number a card prints and asks about; else the same look (two shapes with four
+ *                sides are two tasks)
  *   plain        false for a number a check should not lean on when another card exists (a two-digit number with
  *                two equal digits: swapping tens and ones goes unnoticed)
  */
@@ -61,11 +62,13 @@ async function cutCards(page, o) {
     const cols = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
     const cards = [...grid.children].filter((c) => c.classList.contains('ws-card')).map((c) => {
       const r = c.getBoundingClientRect();
-      const kind = [], nums = [];
+      const kind = [], nums = [], given = [];
       (function walk(n) {
         for (const ch of n.childNodes) {
-          if (ch.nodeType === 3) { const t = ch.textContent.trim(); if (t) { kind.push(t.replace(/\d+/g, 'n').replace(/\p{L}+/gu, 'w')); for (const m of t.match(/\d+/g) || []) nums.push(Number(m)); } continue; }
+          if (ch.nodeType === 3) { const t = ch.textContent.trim(); if (t) { kind.push(t.replace(/\d+/g, 'n').replace(/\p{L}+/gu, 'w')); for (const m of t.match(/\d+/g) || []) { nums.push(Number(m)); given.push(Number(m)); } } continue; }
           if (ch.nodeType !== 1 || ch.classList.contains('ws-card-badge')) continue;
+          // a group of pictures is a number of the task too (3 camels + 1 camel + 4 camels is the fact 1, 3, 4, 8)
+          if (ch.dataset && /^\d+$/.test(ch.dataset.lcsGroup || '')) { nums.push(Number(ch.dataset.lcsGroup)); given.push(Number(ch.dataset.lcsGroup)); }
           if (ch.dataset && ch.dataset.lcsAnswer !== undefined) { kind.push('?'); for (const m of String(ch.dataset.lcsAnswer).match(/\d+/g) || []) nums.push(Number(m)); if (!ch.children.length) continue; }
           walk(ch);
         }
@@ -87,7 +90,13 @@ async function cutCards(page, o) {
         kind: kind.join(' ').replace(/\s+/g, ' '), nums: sorted, mag: sorted.length ? sorted[sorted.length - 1] : 0,
         // two or more numbers are a fact (4 + 1 = 5 is 1 + 4 = 5); a card with one number or none is the same task
         // only when it shows the same thing (two shapes with four sides are two tasks)
-        key: sorted.length >= 2 ? 'n:' + sorted.join(',') : 'v:' + look,
+        // … and a card that prints ONE number and asks about it (9: odd or even? 20: which word?) is the task of that number
+        // (the DIFFERENT numbers: a fact-family house prints 7, 3 and 4 a dozen times and is still the fact 3, 4, 7,
+        // the same one as "7 − 4 = ?" two parts further down)
+        key: sorted.length >= 2 ? 'n:' + [...new Set(sorted)].join(',') : given.length === 1 ? 'n:' + given[0] : 'v:' + look,
+        // an ordering task whose things already stand in order (the answers read 1, 2, 3): a child who numbers from
+        // left to right is right without comparing
+        inOrder: answers.length >= 3 && answers.every((a, i) => String(a) === String(i + 1)),
         look,
         plain: !answers.some((a) => /^(\d)\1$/.test(String(a))),
       };

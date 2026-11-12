@@ -1,0 +1,764 @@
+{
+  "matches": [
+    {
+      "key": "en-K-001",
+      "fit": "exact",
+      "types": [
+        "K-445"
+      ],
+      "differs": "",
+      "published": "no"
+    },
+    {
+      "key": "en-K-002",
+      "fit": "close",
+      "types": [
+        "K-012",
+        "K-008",
+        "K-009"
+      ],
+      "differs": "K-012 pairs two rows with lines, but the page is ONE task with two EQUAL rows of 4-6 and asks for no decision; the need has six tasks, unequal rows of 1-10, and \"circle the row with pictures left over / color the same star\". K-008/K-009 ask more/fewer but without the pairing lines. Not a small change: a new mode (several unequal row pairs plus the more / fewer / same mark).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-003",
+      "fit": "close",
+      "types": [
+        "K-443",
+        "G1-131"
+      ],
+      "differs": "K-443 (counting-more, mode one-more) shows rows of pictures and asks ONE direction per task (draw one more, or cross one out) and one answer box; the need shows a ten-frame with 2-9 counters and three boxes (one less, how many, one more). G1-131 level 1 has the three-box row within 10 but prints the middle number, nothing to count. Small change: a new mode that puts a ten-frame over the three boxes.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-004",
+      "fit": "close",
+      "types": [
+        "K-606",
+        "K-460"
+      ],
+      "differs": "K-606 level 1 (glyph-tasks, mode bigger): six pairs of written numbers 1-10, never equal, color the greater. Missing: the number line 1-10 on top and the last part \"circle the number that is less\"; six pairs, not twelve. Small change (a \"less\" option and a number-line strip). K-460 level 1 prints counting dots under the numbers and has an equal pair, so it fits less.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-005",
+      "fit": "close",
+      "types": [
+        "K-372"
+      ],
+      "differs": "K-372 (the type behind point K:draw-shapes) is the dot-paper page: four cards (triangle, square, square, rectangle), read the name, join the dots. Missing: the two boxes \"how many sides / how many corners\". Small change (two write-in boxes per card).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-006",
+      "fit": "exact",
+      "types": [
+        "G2-244"
+      ],
+      "differs": "",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-007",
+      "fit": "close",
+      "types": [
+        "G2-243",
+        "K-265"
+      ],
+      "differs": "G2-243 (geometry-tasks, mode solid-real) is the top half: a line from each solid to an everyday object, but its solids are sphere, cube, cylinder and box; the cone is not in its pair list (the library cone picture is a cut-off cone). The bottom half (color twelve solids by a four-name code) does not exist: K-265 codes flat shapes only. Not small: a cone pair and a solids color-code mode.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-008",
+      "fit": "close",
+      "types": [
+        "K-253",
+        "K-251"
+      ],
+      "differs": "K-253 is one tracing lane for each number 11-20 (level 3: model, trace, start dot only, two empty). Missing: the number 10, the small picture of two ten-frames in front of each lane, and the last row to write 10-20 in order. Small change to the same lane page.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-009",
+      "fit": "close",
+      "types": [
+        "K-027",
+        "K-006"
+      ],
+      "differs": "Count and Write (K-006) stops at 15 (level 3: 8-15) and SCATTERS the pictures, which the need forbids. K-027 level 3 gives 12, 15, 16 or 20 pictures in even rows of 4-5 with a write-in box, but only those four numbers and no line or circle layout. Small change: a level of K-006 with 11-20 pictures laid in a line, rows of five or a ring.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-010",
+      "fit": "close",
+      "types": [
+        "K-444"
+      ],
+      "differs": "K-444 (counting-more, mode count-on) is this task: a closed box with its number, loose pictures beside it, write the total. Range differs: box 3-8, loose 1-5, and the total is capped at 10 (need: bag 3-9, total up to 14); four tasks, not eight. Small change (raise the cap in the level table).",
+      "published": "no"
+    },
+    {
+      "key": "en-K-011",
+      "fit": "close",
+      "types": [
+        "K-451"
+      ],
+      "differs": "K-451 (frame-more, mode frame-minus) shows a ten-frame with 3-10 counters, but the taken-away counters are ALREADY crossed out (1-3 of them) and the sentence is \"7 − 2 = □\"; the need prints \"Take away 3.\", the child crosses out, and completes \"_ are left\". Small change: an option that leaves the counters uncrossed and prints the sentence.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-012",
+      "fit": "close",
+      "types": [
+        "G1-238",
+        "G1-240",
+        "G1-444"
+      ],
+      "differs": "G1-238 level 1 / G1-240: add-to stories within 10 with the picture of both groups and ONE answer box, two stories a page. Missing: the empty ten-frame to draw in and the frame _ + _ = _ for all three numbers. G1-444 has the full number sentence but from a picture with no story. Medium change: the story engine needs an equation frame and a ten-frame panel.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-013",
+      "fit": "close",
+      "types": [
+        "G1-239",
+        "G1-240",
+        "G1-444"
+      ],
+      "differs": "G1-239 level 1: take-away stories within 10; the pictures are printed with the taken ones already crossed out and the child writes only the answer. Missing: a ten-frame with the start number as circles for the child to cross out, and the frame _ - _ = _. G1-444 level 2 has the full sentence from a crossed-out picture, no story. Medium change, the same one as K-012.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-014",
+      "fit": "close",
+      "types": [
+        "G1-444",
+        "G1-238"
+      ],
+      "differs": "G1-444 level 1 (addsub-more, mode sentence) shows two groups to put together and the child writes all three numbers, but there is no story, totals stop at 6, and nothing is colored. The story bank (G1-238) has only \"some more come\" stories; no story of two kinds with nothing moving. Not small: new put-together story frames, a row of ten outlines to color, and the equation frame.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-015",
+      "fit": "close",
+      "types": [
+        "K-454",
+        "K-456",
+        "K-415"
+      ],
+      "differs": "K-454 level 3 (frame-more, mode colour-parts) is the same act: color a frame in two colors a different way each time and write □ + □ = 10, but only for the whole 10 (level 1: whole 5); no 6 or 7, a ten-frame instead of a cube train, and the equation is not in the form 6 = _ + _. K-456 number houses split 6 and 7 every way but only ask for the missing part. Small change: wholes 6 and 7 in the colour-parts table and the total-first equation.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-016",
+      "fit": "close",
+      "types": [
+        "K-416",
+        "K-417",
+        "K-274"
+      ],
+      "differs": "Number Bonds Within 10 (K-274) mixes wholes 5-10. K-416 (bonds of 8) and K-417 (bonds of 9) fix the whole; their level 1 shows counting dots in the printed part and a dashed circle for the missing part. Missing: the equation 8 = _ + _ under each bond, and 8 and 9 on one page (today two pages). Small change (an equation line; wholes [8, 9] in one config).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-017",
+      "fit": "exact",
+      "types": [
+        "G1-106"
+      ],
+      "differs": "",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-018",
+      "fit": "close",
+      "types": [
+        "G1-106",
+        "K-449",
+        "K-277"
+      ],
+      "differs": "G1-106 has the same equation (6 + □ = 10) for 1-9, but over a ten-frame, not a bead string. K-449 level 1 draws the row of ten beads with some pushed left but asks only \"how many beads\". No page joins the bead string with the missing-partner equation, and none has equation-only rows. Small change: a frame-more mode that puts the rekenrek row over the make-10 equation.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-019",
+      "fit": "close",
+      "types": [
+        "G2-206",
+        "K-448"
+      ],
+      "differs": "G2-206 (base-ten-tasks, mode regroup; a Grade 2 page) is the same act: 11-19 loose unit cubes, ring ten, write \"□ ten + □ ones\". Differs: unit cubes, not straws or crayons in rows of five; 11-19 is split over levels (11-13, 13-19, 16-19); the frame uses \"×10\" and has no box for the whole number. Small change (a Kindergarten level 11-19 with \"10 and _\" and the number).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-020",
+      "fit": "exact",
+      "types": [
+        "K-448"
+      ],
+      "differs": "",
+      "published": "no"
+    },
+    {
+      "key": "en-K-021",
+      "fit": "close",
+      "types": [
+        "K-448",
+        "K-452"
+      ],
+      "differs": "K-448 is the reverse direction: the two frames are filled and the child writes the number. Needed: the number is printed, the two frames are EMPTY, the child draws, then completes 15 = 10 + _. K-452 level 3 has rows where a number 11-20 is given and the child draws it on two frames, but mixed with tally rows and with no equation. Small change: a draw mode of the same double-frame factory.",
+      "published": "no"
+    },
+    {
+      "key": "en-K-022",
+      "fit": "close",
+      "types": [
+        "K-275",
+        "K-448",
+        "K-276"
+      ],
+      "differs": "No bond page has a teen number as the whole with 10 as one part: K-275 fixes the whole at 20, K-276 hides the whole. The bond factory can do it by config (wholes 11-19, given part 10). Missing as well: the equation 10 + _ = 17 under each bond (K-448 has \"□ = 10 + □\" beside two ten-frames instead) and the whole bottom half (\"10 and 4\": circle 14 or 41). Medium change.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-023",
+      "fit": "close",
+      "types": [
+        "G1-129",
+        "G1-436",
+        "K-517"
+      ],
+      "differs": "G1-129 is the same task (write the missing numbers on a number chart) but always on the full chart 1-100 with 8, 12 or 20 blanks placed at random. Needed: a chart 1-50 with fourteen blanks around each new ten. The chart primitive takes start and end, so it is a small change: a level with end 50 and the blanks near the tens.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-024",
+      "fit": "exact",
+      "types": [
+        "G1-129"
+      ],
+      "differs": "",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-025",
+      "fit": "close",
+      "types": [
+        "K-020",
+        "G1-437"
+      ],
+      "differs": "K-020 is the same strip task (count along, write the missing numbers) but only within 20, with ten boxes and 2-4 blanks. Needed: six tracks of five boxes, only the first number given, start numbers up to 67, three tracks crossing a ten. The strip factory already takes start \"any\", startMax and rangeMax, so it is a small change (a new face: step 1, range to 100, four blanks after the first box). G1-437 is skip counting, not counting by ones.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-026",
+      "fit": "close",
+      "types": [
+        "G1-123",
+        "G1-126"
+      ],
+      "differs": "Two existing pages cover the two halves. G1-123 is the bottom half (a strip of tens to 100 with missing numbers). G1-126 level 1 is close to the top half: groups of ten pictures with a running total to WRITE, where the need shows cups marked 10 and three numbers to circle. No single page has both. Small change.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-027",
+      "fit": "close",
+      "types": [
+        "G1-443",
+        "G1-453"
+      ],
+      "differs": "G1-443 (addsub-more, mode truefalse) is this page: twelve equations, tick true or false, usual form, total first (8 = 5 + 3) and both sides (9 − 2 = 3 + 4). Differs: the levels with the three forms run within 20, not 10 (only level 1 is within 10 and has the usual form only); exactly half are false, not five of twelve; no \"7 = 7\"; level 2 of the need (make it true, write your own) is missing. Small change (max 10 with all three forms; a fix-it line).",
+      "published": "no"
+    },
+    {
+      "key": "en-1-028",
+      "fit": "close",
+      "types": [
+        "G1-449"
+      ],
+      "differs": "G1-449 level 1 (doubles-more, mode near) is the bottom half exactly: 6 + 7 = 6 + 6 + □ = □ for 1-9, sums to 19, eight tasks. Missing: the top half, six pairs of ten-frame pictures of a double and its neighbor to write both sums. Small change (a picture row), or use as it is.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-029",
+      "fit": "close",
+      "types": [
+        "G1-439",
+        "K-448"
+      ],
+      "differs": "G1-439 level 1 (number-line-more, mode bridge) teaches the same step with the same numbers (6-9 plus a number that crosses ten): 8 + 5 = 8 + □ + □ = □, on a number line 0-20. Needed: two ten-frames with counters to cross out and redraw, and the frame 8 + 5 = 10 + _ = _; then empty frames, then equations only. Medium change: a new mode with the double ten-frame in place of the number line.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-030",
+      "fit": "close",
+      "types": [
+        "G1-222",
+        "G1-220"
+      ],
+      "differs": "G1-222 level 3 has the right facts (two one-digit parts that cross ten, wholes 11-18) and missing-number facts such as 8 + □ = 13 and 13 − □ = 5, but all three numbers stand on the roof, so nothing has to be worked out, and a task is not the trio \"subtraction, bond with one part missing, helper addition\". Medium change: a new card layout in the fact-family generator.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-031",
+      "fit": "close",
+      "types": [
+        "G1-448",
+        "G1-213"
+      ],
+      "differs": "G1-448 level 1 (addsub-more, mode bar) draws the part-part-whole bar within 20 with one part missing, but with the numbers already in it and no story, no equation frame, no answer line. The story pages (G1-213 family) have no put-together story with a missing part, show pictures, and ask one answer box. Not small: stories of a new kind plus a bar to label plus the equation frame with a box.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-032",
+      "fit": "close",
+      "types": [
+        "G1-213",
+        "G1-241",
+        "G1-240"
+      ],
+      "differs": "G1-213 level 3 has exactly these stories (change unknown, \"gets some more / gives some away\", within 20; G1-240 level 3 within 10), two or three a page, with a picture of the known part and ONE answer box. Missing: the start-change-end strip with the sign to circle, the drawing space, and the equation frame with the box in the middle (8 + _ = 13). Medium change to the story page (strip and equation frame).",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-033",
+      "fit": "close",
+      "types": [
+        "G1-511",
+        "G1-448"
+      ],
+      "differs": "G1-511 is this story kind (how many more / how many fewer, within 10 or 20, two or three stories) with the two amounts printed as two rows of pictures and one box for the difference. Missing: the two rows of 20 empty squares the child colors, and the equation line (7 + _ = 12 or 12 − 7 = _). Medium change (empty bars to color and an equation frame).",
+      "published": "no"
+    },
+    {
+      "key": "en-1-034",
+      "fit": "close",
+      "types": [
+        "G1-445",
+        "G1-112"
+      ],
+      "differs": "G1-445 (addsub-more, mode three) has the same sums: three numbers 1-9, total up to 20, a pair that makes ten to find. But it is twelve bare equations: no story, no drawing box, no frame _ + _ + _ = _ to fill from a story. The story bank has no story with three groups. Not small: new three-group story frames and a story layout.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-035",
+      "fit": "close",
+      "types": [
+        "G1-120",
+        "G1-121"
+      ],
+      "differs": "G1-120 (base-ten-tasks, mode read) shows rods and cubes and asks for the number, but the tens run 1-5 or 1-9, never fixed at one, and there is no \"1 ten _ ones\" line. The bottom half (draw one rod and the cubes for a written number) is missing; G1-121 only circles a ready block set. Small change: a level with one ten only, the tens-and-ones line, and a draw row.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-036",
+      "fit": "close",
+      "types": [
+        "G1-122"
+      ],
+      "differs": "G1-122 level 2 (base-ten-tasks, mode count-tens) is the top half: 2-9 ten-rods and no cubes, write how many tens and the number. Differs: the frame reads \"□ × 10 = □\" (a multiplication sign in Grade 1) in place of \"_ tens 0 ones\"; level 1 has 1-5 rods; the bottom half (draw the rods for 10-90) is missing. Small change.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-037",
+      "fit": "close",
+      "types": [
+        "G1-446",
+        "G1-132"
+      ],
+      "differs": "G1-446 level 1 (addsub-more, mode mental100) has these equations among others: it MIXES adding and taking away tens or ones, with no option for \"plus a multiple of ten\" only. Missing too: the small hundreds chart on top and the missing-number form 34 + _ = 64. G1-132 only does 10 more / 10 less. Small change (a kind \"add tens\" and a missing-addend flag).",
+      "published": "no"
+    },
+    {
+      "key": "en-1-038",
+      "fit": "close",
+      "types": [
+        "G2-205",
+        "G1-446"
+      ],
+      "differs": "G2-205 (base-ten-tasks, mode sub) draws two block groups and asks the difference, but both numbers always have ones (never whole tens), the second number is a second picture, not rods to cross out, and there is no \"7 tens − 3 tens = _ tens\" line. G1-446 level 1 has take-away-tens equations mixed with other kinds. Medium change: a whole-tens level with rods to cross out and the tens sentence.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-039",
+      "fit": "close",
+      "types": [
+        "G1-446",
+        "G2-203"
+      ],
+      "differs": "G1-446 level 1 holds these equations (two-digit plus ones, no new ten) mixed with adding and taking tens; no pictures and no place-value frame. G2-203 draws both numbers as blocks, but the second number always has tens. Medium change: a base-ten \"add ones\" level (second number 1-9, printed 32 + 5 = □) and the tens-and-ones frame for level 2.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-040",
+      "fit": "close",
+      "types": [
+        "G1-439",
+        "G1-446"
+      ],
+      "differs": "G1-439 level 3 (mode bridge, within 100) is the same step: 27 + 5 = 27 + □ + □ = □, to the next ten and then the rest, but on a number line, alternating with subtraction, and with no rods and cubes to ring. G1-446 level 2 has bare equations of this kind mixed with others. Medium change: a rods-and-cubes level and an addition-only option with the frame 27 + 5 = 30 + _ = _.",
+      "published": "no"
+    },
+    {
+      "key": "en-1-041",
+      "fit": "close",
+      "types": [
+        "G2-203"
+      ],
+      "differs": "G2-203 levels 1-2 (base-ten-tasks, mode add) is level 1 of the need: two two-digit numbers drawn as rods and cubes, no new ten, sum up to 99, write the total. Missing: the line \"_ tens and _ ones = _\", the printed sum in numerals, and level 2 with the frame (30 + 20) + (4 + 5). Small change (a tens-and-ones line; an equation-only level).",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-042",
+      "fit": "close",
+      "types": [
+        "G2-203",
+        "G3-359"
+      ],
+      "differs": "G2-203 draws two two-digit numbers as blocks but NEVER makes a new ten (its own check forbids it), and the blocks are printed, where the need gives an empty tens-and-ones mat for the child to draw sticks and dots, ring ten dots, and fill \"_ tens and _ ones = _\". G3-359 level 1 has the same sums (carry, up to 99) as a written column sum, a later method. Not small: a drawing-mat mode with regrouping.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-043",
+      "fit": "close",
+      "types": [
+        "G1-150",
+        "G1-149"
+      ],
+      "differs": "G1-150 level 3 (clock-tasks, mode match) is the top half: six clocks on the hour and at half past, lines to six digital times. Missing: the bottom half, where the child WRITES the time in an empty digital display and picks the right clock of two for a half-hour time. Small change: a write-the-time mode of the clock factory.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-044",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: pictures of unit rows laid right and wrong (gap, overlap, wrong start) to judge, plus squares to cut out and glue under four objects. G1-480 and G1-139 only count units that are already laid correctly; it could be a new \"find the mistake\" mode of measurement-more.js (mode clips).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-045",
+      "fit": "close",
+      "types": [
+        "G2-232",
+        "G2-407"
+      ],
+      "differs": "Two existing pages cover levels 1 and 2. G2-232 (circle the shapes cut into EQUAL parts) is level 1, but its levels use 2 parts only, or 2, 3 and 4 parts (thirds are not wanted), and the child does not write \"halves / fourths\". G2-407 level 2 is level 2 exactly (draw lines to cut rectangles, squares and circles into halves and fourths). Level 3 (four sentences) is missing. Small change (parts [2, 4] and a name line).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-046",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 1 (number-line-more, mode bridge) has the same sums and the same split: 8 + 5 = 8 + □ + □ = □ (the part that makes ten first), sums 11-18, first number 6-9. Differs: the split is written in the equation over a number line 0-20, not in two circles under the second addend; no ten-frames on the first tasks; no line \"= 10 + _\"; no turned-around sums; four tasks a page. Small change.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-047",
+      "fit": "close",
+      "types": [
+        "G1-449",
+        "G1-298",
+        "G1-299"
+      ],
+      "differs": "Three existing pages cover the three parts: G1-449 level 2 is the middle part exactly (7 + 8 = □ + □ + 1 = □, either order); G1-298 writes doubles from memory (2-10, not only 5-9); G1-299 halves. No page holds all three, and the bottom part (16 − 8, 15 − 7 as halves of doubles and near them) exists only as \"half of 16\". Small change, or use G1-449 as the page.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-048",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 2 (mode bridge) has the same subtractions and the same split: 15 − 7 = 15 − □ − □ = □ (back to ten first), from 11-17, on a number line 0-20. Differs: it alternates with addition (no subtraction-only option); the split is in the equation, not in two circles; no ten-frames to cross out; the form \"10 − _ = _\" is not printed. Small change (subtraction only; the split layout).",
+      "published": "no"
+    },
+    {
+      "key": "en-2-049",
+      "fit": "close",
+      "types": [
+        "G1-220",
+        "G1-442",
+        "G1-441"
+      ],
+      "differs": "Page 1: G1-220 level 3 (fact family houses, two one-digit parts that cross ten, so wholes 11-18) asks for the four facts of a family, but as a house with all three numbers given, not a triangle with one part missing; G1-441 has the triangles only as cut-out cards. Page 2: G1-442 level 3 is a full page of 60 mixed facts within 20, not five daily strips of ten with a \"knew right away\" box. Small change to each.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-050",
+      "fit": "close",
+      "types": [
+        "G2-404",
+        "G2-403"
+      ],
+      "differs": "G2-404 level 1 (pv-more, mode overflow) shows 11-18 ten-rods, but always with 1-9 loose ones as well, and asks only for the number: no ring, no \"1 hundred _ tens\". G2-403 renames in digits (26 tens = □). The bottom half (1-9 hundred-flats alone, \"_ hundreds 0 tens 0 ones\") does not exist: G2-222 always has tens and ones. Small change (rods only, the hundred-and-tens line, a flats-only level).",
+      "published": "no"
+    },
+    {
+      "key": "en-2-051",
+      "fit": "close",
+      "types": [
+        "G2-401",
+        "G2-491",
+        "G2-224"
+      ],
+      "differs": "The pieces exist on separate pages: G2-401 level 3 (expanded form both ways with a zero place), G2-491 level 3 (numbers with a zero digit as words and numerals), G2-224 (blocks to a place-value chart). No page has the four-column table blocks / numeral / expanded form / name, the look-alike pairs 406 and 460 one under the other, or the last task (58, 508, 580). Medium change: a table mode of pv-more.js.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-052",
+      "fit": "exact",
+      "types": [
+        "G1-438"
+      ],
+      "differs": "",
+      "published": "no"
+    },
+    {
+      "key": "en-2-053",
+      "fit": "close",
+      "types": [
+        "G3-359",
+        "G2-203"
+      ],
+      "differs": "G3-359 level 1 has the same sums (two two-digit numbers, a new ten, up to 99) but as a column sum with a carry box. G2-203 draws both numbers as blocks but never with a new ten. Missing in both: the empty tens-and-ones mat for sticks and dots and the three partial-sum lines (40 + 30 = _, 7 + 8 = _, _ + _ = _). Not small: a new partial-sums mode (the same one as en-1-042).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-054",
+      "fit": "close",
+      "types": [
+        "G2-205",
+        "G3-360"
+      ],
+      "differs": "G2-205 draws the first number as blocks, but also the second, and NEVER needs a ten opened; G3-360 has the right subtractions (two-digit, borrowing) but as a column problem with no picture. Needed: a mat with the first number drawn, the question \"Enough ones? yes / no\", crossing out after opening a stick. Not small: a base-ten mode with regrouping and the yes/no line.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-055",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: column sums of three and four two-digit numbers with a box for the new tens, plus two stories. The column factory (column-arithmetic.js, G2-255 / G3-359) writes two numbers only; it could get an \"addends\" option.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-056",
+      "fit": "close",
+      "types": [
+        "G1-448",
+        "G1-213"
+      ],
+      "differs": "G1-448 level 2 draws bar models within 100 with a part or the whole missing, but filled in and with no story; its numbers are tens-based. The story pages (G1-213 family, level 3) have result-unknown and change-unknown stories only within 20, with pictures and one answer box. Not small: two-digit stories, an empty bar to label, and the equation frame with a box.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-057",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: stories with the start missing (_ + 17 = 45, _ − 25 = 38), a bar model to label and two equation lines. The story bank has no start-unknown stories; it could be a new story kind of the word-problem engine (G1-213, lib/word-problems-levelset.js) with the bar of addsub-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-058",
+      "fit": "close",
+      "types": [
+        "G1-511",
+        "G1-448"
+      ],
+      "differs": "G1-511 has compare stories, but only \"how many more / fewer\" (the difference), only within 20, and with two rows of pictures. Needed: two-digit numbers, stories that ask for the larger or the smaller amount (\"15 fewer than\"), two empty bars with a bracket, an equation with a box. G1-448 level 3 draws two compare bars within 20 with no story. Not small: two new story kinds and a bar layout.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-059",
+      "fit": "close",
+      "types": [
+        "G2-489"
+      ],
+      "differs": "G2-489 is this page: two-step add-and-subtract stories with \"Step 1 / Step 2\" number sentences. Range differs: within 20 when the steps are printed (levels 1-2) and within 50 with one answer box (level 3); the need is two-digit numbers within 100, five stories, a helper question on the first two, an answer line with a label. Small to medium change (max 100 with steps; the engine caps counted things at 20).",
+      "published": "no"
+    },
+    {
+      "key": "en-2-060",
+      "fit": "close",
+      "types": [
+        "G3-361",
+        "G2-258"
+      ],
+      "differs": "G3-361 is the written part: three-digit column addition with carrying and a carry row (levels set one or at least two carries), sums up to 999. Missing: the hundreds-tens-ones mat beside each sum for the drawing, and the fixed mix (three new tens, two new hundreds, three both). Small change (a mat panel; six or nine problems today).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-061",
+      "fit": "close",
+      "types": [
+        "G3-357",
+        "G3-363",
+        "G3-360"
+      ],
+      "differs": "Three-digit subtraction with borrowing exists only mixed with addition (G3-357 level 3, G3-363 level 3); G3-360 is subtraction only but two-digit. Missing: a subtraction-only three-digit level with no zero in the first number, the mat with the first number drawn, and \"Enough ones? Enough tens?\". Small for the numbers (a config of the column factory), medium for the mat.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-062",
+      "fit": "close",
+      "types": [
+        "G3-362"
+      ],
+      "differs": "G3-362 is the written part: three-digit column subtraction across a zero (level 3: two zeros, so whole hundreds). Missing: the hundreds-tens-ones mat, the two half-worked tasks, and the line below each task to check by adding. Small to medium change.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-063",
+      "fit": "close",
+      "types": [
+        "G1-229",
+        "G1-211",
+        "G2-472"
+      ],
+      "differs": "Counting Coins (G1-211) at level 3, and better its face G1-229 (4-8 mixed coins with quarters, largest first, total up to 99 cents), is this page. Missing: the small box under each coin for the running count, totals kept at 26 or more, and the top level \"make the amount in two ways\" (G2-472 circles coins for a price, one way). Small change (boxes under the coins).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-064",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: a recording page for real things (six rows \"about _ inches / about _ centimeters\"), three sentences, and two pictures of one ribbon under a row of long and a row of short units. G2-476 and G2-235 read a printed ruler; the two-unit ribbon picture could be a mode of measurement-tasks.js (cubes-measure).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-065",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: story problems about lengths within 100 (put together, take away, compare) with drawing space, an equation with a box and an answer line with the unit. The story bank has no length stories and no two-digit stories; a new story kind of the word-problem engine (G1-213).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-066",
+      "fit": "close",
+      "types": [
+        "G1-147",
+        "G2-237",
+        "G1-482"
+      ],
+      "differs": "G1-147 (graph-tasks, mode pict-fill) is the middle of the page: a table of counts and an empty picture graph, one box for each. Missing: title and group names to write, and the five questions with equation lines (how many more, how many in all); G2-237 asks two such questions under a bar graph. Small to medium change (a question block under the graph; a column version).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-067",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: a recording page with an empty ten-row table (object, length), an unnumbered line with twelve ticks for the child to number, room for the Xs, and three questions. G2-240 only reads a finished line plot; this could be a \"make\" mode of graph-tasks.js (lineplot).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-068",
+      "fit": "close",
+      "types": [
+        "G3-313",
+        "G2-211"
+      ],
+      "differs": "G3-313 (array-tasks, mode area-grid) shows a rectangle already cut into squares and asks rows × columns = total; G2-211 the same with picture arrays. Needed: rectangles with only tick marks (or one row and one column drawn) for the child to draw the lines, then \"_ rows, _ columns, _ squares\" and an addition of equal rows, no multiplication sign. Not small: the drawing is the point of the standard; a new mode of array-tasks.js.",
+      "published": "yes"
+    },
+    {
+      "key": "en-3-069",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: dot arrays for facts with 6-9 split after the fifth row, with 7 × 8 = 5 × 8 + 2 × 8 = _ + _ = _. G3-410 (strategy chains) uses other tricks (double, ×10 and halve, ×10 minus one group); a new \"split\" mode of md-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-070",
+      "fit": "close",
+      "types": [
+        "G3-407",
+        "G3-408",
+        "G3-369"
+      ],
+      "differs": "Page 1: G3-407 level 3 is the empty 10 × 10 multiplication square, but the child fills ALL of it; the steps \"fill the rows for 1, 2, 5, 10, circle what is white, write those facts\" and the lines for them are not there. Page 2: G3-408 and G3-358 drill division or multiplication alone; no strips of ten pairs (6 × 4 = _, 24 / 4 = _) with a \"knew right away\" box. Small to medium change.",
+      "published": "no"
+    },
+    {
+      "key": "en-3-071",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: ten-rods in equal groups with 4 × 6 tens = _ tens = _, pairs of a fact and its tens partner (3 × 7, 3 × 70), two stories. Nothing multiplies by multiples of ten; a new mode of md-more.js that uses the rod picture of base-ten-tasks.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-072",
+      "fit": "close",
+      "types": [
+        "G2-489"
+      ],
+      "differs": "G2-489 has the story kind (two changes, add and subtract, a number sentence for each step) but within 20, or within 50 with one answer box; the need is three-digit numbers within 1,000 and an empty bar model for each step. Not small: the engine caps numbers at small counts of things, and bar models are not on the story page.",
+      "published": "no"
+    },
+    {
+      "key": "en-3-073",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: two-step stories with one multiplying or dividing step and one adding or subtracting step, drawing space and two equation lines. Only one-step multiplication and division stories exist (G3-370 to G3-376) and two-step stories with + and − (G2-489); new story frames for data/word-problems/two-step-frames.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-074",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: two-step stories with the three lines \"My equation (with a letter) / My estimate / My answer\", a yes-no check and a wrong worked answer to fix. G3-389 does only the bare step \"round both numbers, then add\"; no story page has an equation with a letter.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-075",
+      "fit": "close",
+      "types": [
+        "G3-313",
+        "G3-477"
+      ],
+      "differs": "G3-313 (array-tasks, mode area-grid) asks rows × columns = area for a rectangle, but the unit squares are drawn inside and nothing is labeled with a length or a unit. Needed: rectangles with no squares, two side lengths with units (6 ft, 4 ft), the answer in square units, and four stories with a sketch. Medium change: a \"sides only\" level with units; the stories are new.",
+      "published": "yes"
+    },
+    {
+      "key": "en-3-076",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: L-shapes on a grid (with and without the cut line, then side lengths only) to split into two rectangles and add the two products. All area pages use plain rectangles (G3-313, G3-338, G3-477); a new mode of array-tasks.js (area-grid) or geometry-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-077",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: polygons with all side lengths but one and the perimeter given, an equation with a letter, and three stories. G3-337 only counts unit edges around a grid rectangle; a new mode of geometry-tasks.js (perimeter).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-078",
+      "fit": "close",
+      "types": [
+        "G3-406",
+        "G3-317"
+      ],
+      "differs": "G3-406 (number-line-more, mode fraction) gives a 0-1 line cut into equal parts and the child puts a dot where a printed fraction belongs (denominators 2, 3, 4, 6, 8 over levels 1-2), but for any numerator, with the fraction given, and the ticks always drawn. Needed: the first part only, the child WRITES the unit fraction, then lines with no ticks to cut, and the unequal-parts question. Small change for the top half (unit fractions, a write box); the bottom half is new.",
+      "published": "no"
+    },
+    {
+      "key": "en-3-079",
+      "fit": "none",
+      "types": [],
+      "differs": "Must be built: wholes as fractions (4/4 = 1, 4/2 = 2, 3 = 3/1) from fully shaded shapes, on number lines 0-3 and as equations. G2-409 level 3 touches only d/d = 1 and G3-406 level 3 marks fractions past 1 on a 0-2 line; a new mode of fr-more.js or number-line-more.js (fraction).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-080",
+      "fit": "close",
+      "types": [
+        "G2-476",
+        "G3-335"
+      ],
+      "differs": "G2-476 (measurement-more, mode inches) draws an object on a printed inch ruler, but reads whole inches only (level 3: to the nearest inch); no half or quarter readings. G3-335 is a line plot with halves that the child only READS (counts the Xs). Needed: quarter-inch readings and an empty line plot in quarters to fill with the child's own eight lengths. Not small: a quarter-inch level and a \"make the plot\" mode.",
+      "published": "no"
+    }
+  ]
+}

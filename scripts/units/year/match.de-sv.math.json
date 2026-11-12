@@ -1,0 +1,1149 @@
+{
+  "matches": [
+    {
+      "key": "de-1-081",
+      "fit": "exact",
+      "types": [
+        "G1-160",
+        "G1-146"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-082",
+      "fit": "close",
+      "types": [
+        "K-467",
+        "K-007",
+        "K-251"
+      ],
+      "differs": "K-467 level 1 has one row per number 1 to 5 with that many pictures and the numeral to trace (a model, then two traces) in the German school digit forms. Missing: the dice pattern beside each set, boxes to write the numeral three times alone, and the matching strip at the bottom (that strip exists as its own page, K-007). No build needed if K-467 + K-007 are used as two pages; a dice picture and free boxes would be a small option of number-tracing-more.js mode count.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-083",
+      "fit": "close",
+      "types": [
+        "K-004",
+        "K-005",
+        "K-250"
+      ],
+      "differs": "Three existing pages cover the three parts: K-004 (count a filled ten-frame, write the number; level 3 runs 4 to 10, there is no 6 to 10 setting), K-005 (draw the given number into an empty frame), K-250 / K-252 (trace 5 to 9 / 1 to 10). They are not one page, and the range 6 to 10 with the top row always full cannot be selected; a min/max knob in frame-counting.js is a small change. No build needed if two or three pages are acceptable.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-084",
+      "fit": "close",
+      "types": [
+        "G1-114",
+        "K-460",
+        "G1-137"
+      ],
+      "differs": "G1-114 shows two picture groups (up to 10) and the three symbols; the child circles the symbol instead of writing both numbers and the sign, and does not pair the pictures with lines. Number pairs to 10 exist as K-460 level 1 (not published) or G1-137 level 1 (to 20, never =). Missing everywhere: the sentences to turn into symbols (5 ist kleiner als 8). Small change: a write-in variant of picture-equation.js mode compare plus a sentence row.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-085",
+      "fit": "close",
+      "types": [
+        "K-021",
+        "K-019",
+        "K-023"
+      ],
+      "differs": "K-021 level 1 is the Vorgaenger, Zahl, Nachfolger part (given numbers 1 to 9, 5 rows instead of 8). The two bead chains with missing numbers are separate existing pages: K-019 (1 to 10 forward) and K-023 (10 to 1 backward). No generator change needed if two or three pages are used; one combined page would only be a new layout.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-086",
+      "fit": "close",
+      "types": [
+        "K-457",
+        "K-414",
+        "K-454"
+      ],
+      "differs": "K-457 does the covered-side part (the whole is printed, some pictures show, the rest hide under a cup, the child writes the hidden part), but its totals are only 5 (level 1), 10 (level 2) or 11 to 16 (level 3), not 2 to 9, it draws a cup and not a Schuettelbox, and it has no boxes with both sides visible where the child writes both parts. A Schuettelbox drawing with a totals option would be a new mode of number-bond-more.js (small to medium).",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-087",
+      "fit": "close",
+      "types": [
+        "K-456",
+        "K-414"
+      ],
+      "differs": "K-456 level 2 is the Zahlenhaus for 6 to 10 with one floor per decomposition (1 to N-1, in order), but one part is already printed on every floor and the child only writes the partner; here the child must find all decompositions on empty floors and mark the Tauschpaare. Two houses a page, not four. Small change: a level with empty floors in number-bond-more.js mode house. (K-414 to K-417 level 3 list every way to split 6, 7, 8, 9 as number bonds.)",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-088",
+      "fit": "close",
+      "types": [
+        "G1-113",
+        "G1-105"
+      ],
+      "differs": "G1-113 shows two picture groups and the child finishes a + b and b + a (plus the two subtractions, which this page does not want); the numbers are printed, only the results are blank. Missing: counter rows in two colours shown in both orders, writing the Tauschaufgabe to a given task, ticking the easier one. A turnaround mode of picture-equation.js would be a small to medium change.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-089",
+      "fit": "none",
+      "types": [],
+      "differs": "Picture stories and practice with zero (5 + 0, 5 - 0, 5 - 5) must be built: every existing addition and subtraction generator deliberately leaves 0 out (the no-zero rule written into addsub-more.js; G1-208 uses numbers from 1 or 2 up). Could be a new mode of picture-equation.js (all crossed out / nothing added) plus a zero knob in the G1-208 mental-math generator; it needs a ruling on the no-zero rule first.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-1-090",
+      "fit": "close",
+      "types": [
+        "G1-529",
+        "G1-528",
+        "K-485"
+      ],
+      "differs": "Existing but outside the mathematics catalog list (Maps and Coordinates maker): G1-528 gives steps as arrows with a number of squares on a 4x4 or 5x5 picture grid and the child circles where she lands; G1-529 shows a drawn route on a 5x5 or 6x6 grid and the child writes each part as arrow + number of squares. Differs: no start, goal and obstacles on an empty Kaestchenplan into which the child draws the path, and the part \"what lies left, right, above, below the beetle\" is missing. Small to medium change (a draw-the-path variant with obstacles on the same route engine).",
+      "published": "de no: G1-529 is not in the mathematics catalog list (a maker type built 2026-11, no published page known)"
+    },
+    {
+      "key": "de-1-091",
+      "fit": "close",
+      "types": [
+        "G1-444",
+        "G1-513"
+      ],
+      "differs": "Two existing pages make the two halves. G1-444 level 3: a picture of two groups or of crossed-out things, the child writes the whole number sentence within 10 (top half). G1-513 (its German title is Rechengeschichten erfinden): a number sentence with a picture and lines to WRITE a story, not an empty field to draw in (bottom half). No build needed if writing lines are acceptable; a drawing-box option in G1-513 is a small change.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-092",
+      "fit": "close",
+      "types": [
+        "K-448",
+        "K-452"
+      ],
+      "differs": "K-448 level 2 shows a full ten-frame plus a second one for 11 to 20; the child writes the number and __ = 10 + __. Missing: the line \"1 Zehner und _ Einer\" and the four empty Zwanzigerfelder to draw 12, 15, 17, 20 into (drawing teen numbers into frames exists in K-452 level 3). The two frames stand side by side, four cards a page. Small change in frame-more.js mode double-frame.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-093",
+      "fit": "close",
+      "types": [
+        "G1-216",
+        "G1-217",
+        "G1-208"
+      ],
+      "differs": "G1-216 level 1 (plus) and G1-217 level 1 (minus) are pages of exactly the big tasks: a teen number and a one-digit number, never crossing ten (12 + 5, 17 - 5). Missing: the paired small task printed with it (3 + 4 beside 13 + 4), the Zwanzigerfeld picture, and the last block where the child writes the small task itself. A pairs knob in the mental-math generator (G1-208 family) is a small to medium change.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-094",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 1 is the same two-step task with the same written line (8 + 5 = 8 + _ + _ = _, sums 11 to 18), but on a ticked 0 to 20 number line where the child draws two jumps, not on a Zwanzigerfeld where the second number is drawn in blue; 4 cards a page, the first one worked. No build needed if the number line is accepted; a ten-frame variant would be a new mode (frame-more.js), small to medium.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-095",
+      "fit": "close",
+      "types": [
+        "G1-449"
+      ],
+      "differs": "G1-449 level 2 has the child rewrite 6 + 7 as 6 + 6 + 1 and write the sum (within 20). Missing: the doubling task solved beside it with two counter rows, circling the one extra counter, the sentence \"6 + 7 ist _ mehr als 6 + 6, weil ...\", and matching eight tasks to their doubling task. Small to medium change in doubles-more.js mode near.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-096",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 2 has the back-to-ten steps with the written line 13 - _ - _ = _ (start numbers 11 to 17), but minus cards alternate with plus cards (there is no minus-only setting) and it uses a ticked number line instead of a Zwanzigerfeld whose counters are crossed out. Minus-only is a small option of number-line-more.js mode bridge; a ten-frame variant is a new mode.",
+      "published": "de no"
+    },
+    {
+      "key": "de-1-097",
+      "fit": "none",
+      "types": [],
+      "differs": "A page that shows three children with their Rechenwege for 7 + 8 (to the ten, doubling, Tauschaufgabe), has the child match new tasks to a fitting way and write its own way must be built; nothing compares strategies. Building blocks exist in number-line-more.js (bridge) and doubles-more.js (near).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-1-098",
+      "fit": "exact",
+      "types": [
+        "G1-213"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-099",
+      "fit": "exact",
+      "types": [
+        "G1-208",
+        "G1-216",
+        "G1-217"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-100",
+      "fit": "exact",
+      "types": [
+        "G1-323",
+        "G1-321",
+        "G1-320"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-101",
+      "fit": "none",
+      "types": [],
+      "differs": "A recording table for the child's own measuring (thing, measured with hand span / foot / step, estimated, measured, compare with a partner) must be built; no existing type is a measure-and-record sheet. Could be a new mode of measurement-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-1-102",
+      "fit": "close",
+      "types": [
+        "G2-206",
+        "G1-122",
+        "G1-123"
+      ],
+      "differs": "G2-206 has the child circle ten loose ones and write tens and ones, but only for 11 to 19 cubes (one bundle); the page needs 30 to 80 loose things with several tens to circle and \"_ Zehner = _\". Raising the range of base-ten-tasks.js mode regroup is a small to medium change. The other two parts exist as pages: G1-122 (ten-rods to number) and G1-123 (10, 20 ... 100).",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-103",
+      "fit": "exact",
+      "types": [
+        "G1-125",
+        "G1-124",
+        "G1-123"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-1-104",
+      "fit": "close",
+      "types": [
+        "G2-291",
+        "G2-293",
+        "G2-472"
+      ],
+      "differs": "The Shopping Math family has the shelf with price tags, cards that add two prices (G2-291) and change cards (G2-293), but German prices are in cents (10 to 45 ct, totals up to 99 ct) and are paid with cent coins; data/money/currencies.js has no 1-euro and 2-euro coins for de and the shop uses no notes. Needed: whole-euro prices up to 12 euros, euro coins and 5- and 10-euro notes, change from 10 or 20 euros. Medium change (currency data + a whole-euro price mode in the G2-276 generator).",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-105",
+      "fit": "close",
+      "types": [
+        "G1-446",
+        "G2-321",
+        "G1-132"
+      ],
+      "differs": "G1-446 level 1 contains exactly these tasks (34 + 20, 76 - 30) but mixed half and half with ones tasks, results only. Missing: the block of pure tens beside the small task (40 + 30 with 4 + 3) and the hundred-chart sections on which the jumps are drawn (chart jumps exist as arrows in G2-321, plus/minus 10 as G1-132). A tens-only kind in addsub-more.js mode mental100 is small; the chart sections are a new layout (medium).",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-106",
+      "fit": "close",
+      "types": [
+        "G1-446"
+      ],
+      "differs": "G1-446 level 1 contains these tasks (43 + 5, 68 - 4, never crossing a ten) but mixed with tens tasks, results only. Missing: the pairs small task / big task, the rods-and-cubes picture of the bigger number, and writing the small task oneself. A pairs option in addsub-more.js mode mental100 is a small to medium change.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-107",
+      "fit": "none",
+      "types": [],
+      "differs": "Completing to the next ten and taking a one-digit number from a tens number (36 + _ = 40, 50 - 7 = _) with the helper task in verliebte Zahlen beside it is generated nowhere: G1-446 excludes sums that land on a ten and minuends that are tens, G1-440 is bonds of 100 only. A new kind of addsub-more.js mode mental100 with a helper line (or of number-line-more.js).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-2-108",
+      "fit": "close",
+      "types": [
+        "G1-439",
+        "G1-438"
+      ],
+      "differs": "G1-439 level 3 is this task within 100 with the written line 47 + 8 = 47 + _ + _ = _ and two jumps via the ten, but (1) plus and minus cards alternate on the page, (2) the line is a ticked, numbered section of 20 numbers with the start marked, not an empty Rechenstrich, (3) 4 cards a page instead of 12. Plus-only and an unticked line are small options of number-line-more.js mode bridge.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-109",
+      "fit": "close",
+      "types": [
+        "G1-439",
+        "G1-438"
+      ],
+      "differs": "G1-439 level 3 is this task within 100 with the written line 53 - 6 = 53 - _ - _ = _ and two jumps back via the ten, but (1) minus cards alternate with plus cards, (2) the line is a ticked, numbered section of 20 numbers, not an empty Rechenstrich with the start on the right, (3) 4 cards a page instead of 12. Minus-only and an unticked line are small options of number-line-more.js mode bridge.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-110",
+      "fit": "close",
+      "types": [
+        "G1-438",
+        "G1-446"
+      ],
+      "differs": "G1-438 level 2 gives two-digit plus/minus two-digit tasks within 100 on an empty line (a real Rechenstrich: no ticks); the child draws the jumps and writes the result. Differs: plus and minus are mixed, every task crosses a ten (no block without Zehneruebergang), 4 cards a page, and there are no two lines for the written steps (48 + 30 = 78, 78 + 7 = 85). Operation and crossing knobs plus step lines are a small to medium change in number-line-more.js mode open.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-111",
+      "fit": "close",
+      "types": [
+        "G1-438",
+        "G1-446"
+      ],
+      "differs": "G1-438 level 2 gives two-digit minus two-digit tasks within 100 on an empty line (a real Rechenstrich); the child draws the jumps and writes the result. Differs: minus is mixed with plus, every task crosses a ten (no block without Zehneruebergang), 4 cards a page, and there are no two lines for the written steps (82 - 30 = 52, 52 - 5 = 47). Operation and crossing knobs plus step lines are a small to medium change in number-line-more.js mode open.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-112",
+      "fit": "none",
+      "types": [],
+      "differs": "A page that shows three children's Rechenwege for 39 + 25 (step by step, tens and ones apart, helper task), a fourth with a mistake to find, and tasks to solve with the helper task must be built; no existing type compares or checks calculation strategies.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-2-113",
+      "fit": "none",
+      "types": [],
+      "differs": "Word problems to 100 with the three lines Frage, Rechnung, Antwort, a superfluous number to cross out and a missing question to write do not exist: the G1-213 family stops at 20 and asks only for the answer, G2-489 is two-step to 50. A new mode on lib/word-problems-levelset.js (the native story bank is there).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-2-114",
+      "fit": "exact",
+      "types": [
+        "G2-244"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-115",
+      "fit": "exact",
+      "types": [
+        "G2-279",
+        "G2-308",
+        "G2-302"
+      ],
+      "differs": "",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-116",
+      "fit": "none",
+      "types": [],
+      "differs": "An estimate-then-measure table in m and cm plus sorting pictures to \"kuerzer als 1 m / etwa 1 m / laenger als 1 m\" must be built; G2-477 only asks which unit (cm or m) fits a thing. A new mode of measurement-more.js (recording table).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-2-117",
+      "fit": "close",
+      "types": [
+        "G3-366"
+      ],
+      "differs": "G3-366 is the 10er-Reihe as ten equations to fill (level 1 with 1 mal, 5 mal and 10 mal already worked), without ten-rod pictures. The second half does not exist: dot fields for the Kernaufgaben 1 mal, 2 mal, 5 mal, 10 mal of the rows 3, 4 and 6, and colouring them in a row list. Medium change: a core-facts mode in the times-table generator (G3-358) or in array-tasks.js.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-118",
+      "fit": "close",
+      "types": [
+        "G3-368",
+        "G3-404",
+        "G3-410"
+      ],
+      "differs": "The two row pages exist exactly, in the same form as Das 2er-Einmaleins: G3-368 (4er) and G3-404 (8er). Only the extra table with three rows (2er, 4er, 8er) for doubling downwards is missing; G3-410 levels 1 and 2 carry the same idea as fact chains (mal 4 = mal 2 mal 2, mal 8 = mal 4 mal 2) but is not published. No build needed if that is accepted; the table itself would be a small add-on.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-119",
+      "fit": "close",
+      "types": [
+        "G3-367",
+        "G3-402"
+      ],
+      "differs": "The two row pages exist exactly, in the same form as Das 2er-Einmaleins: G3-367 (3er) and G3-402 (6er). Only the extra table with two rows (3er, 6er) for doubling is missing; G3-410 has no chain \"mal 6 = mal 3 mal 2\". A small add-on (a new chain kind in md-more.js mode chain, or a doubling table).",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-120",
+      "fit": "close",
+      "types": [
+        "G3-410",
+        "G3-403",
+        "G3-405"
+      ],
+      "differs": "G3-410 level 2 has the chain \"mal 9 = mal 10 minus one group\" with boxes to fill, and G3-403 / G3-405 are the complete 7er and 9er rows. Missing: the split 7 mal 8 = 5 mal 8 + 2 mal 8 for the 7er row and the dot field with a dashed helper line for each task. Medium change: a new chain kind plus an array picture in md-more.js mode chain.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-121",
+      "fit": "close",
+      "types": [
+        "G3-407"
+      ],
+      "differs": "G3-407 level 3 is the same printed object: the 10 x 10 multiplication square with only the header row and column filled. Only the instruction differs (it asks for every product; the lesson has the child colour Kernaufgaben and Quadratzahlen, enter what it knows, join Tauschaufgaben, circle what to practise). Usable as it is with the teacher's spoken instruction; an instruction variant is a very small change.",
+      "published": "de no"
+    },
+    {
+      "key": "de-2-122",
+      "fit": "close",
+      "types": [
+        "G3-311",
+        "G3-369"
+      ],
+      "differs": "G3-311 (Mal-Familien) is the page: a dot array and the four related mal and geteilt sentences. Differs: the arrays have 2 to 5 rows and at most 8 columns, so the 10er row never appears, and the four word cards (Malaufgabe, Tauschaufgabe, twice Umkehraufgabe) to assign are missing. Small change in array-tasks.js mode fact-family.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-2-123",
+      "fit": "none",
+      "types": [],
+      "differs": "Bags of coloured balls with statements to rate sicher / moeglich / unmoeglich, drawing a bag for a sentence, and dice statements must be built: no probability type exists at all. A new factory, shared with de-3-142, sv-2-192 and sv-3-202.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-124",
+      "fit": "close",
+      "types": [
+        "G2-395",
+        "G1-281",
+        "G3-391"
+      ],
+      "differs": "G2-395 level 3 has ticked number lines in steps of 100 and 10 up to 1000 where the child writes missing tick labels; the arrow pages (write the number an arrow points to, G1-248 family, e.g. G1-281) stop at 120. Missing: arrows on lines to 1000 including a section in ones (630 to 650), marking given numbers, and the table of Nachbarzehner and Nachbarhunderter (G3-391 rounds to 10 and 100, it does not ask for both neighbours). The arrow pages take max, tick and label step as configuration, so a 0 to 1000 face is a small change; the neighbour table would be a new mode of neighbors.js (small to medium).",
+      "published": "de no"
+    },
+    {
+      "key": "de-3-125",
+      "fit": "none",
+      "types": [],
+      "differs": "Pairs small task / big task with hundreds and tens up to 1000 (3 + 4 and 300 + 400, 54 - 3 and 540 - 30, 380 + 50, completing to the next hundred and to 1000) are generated nowhere; the mental-math pages stop at 100. A new kind of addsub-more.js mode mental100 (analogy pairs), which the Klasse 1 and 2 pair pages could share.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-126",
+      "fit": "close",
+      "types": [
+        "G1-438"
+      ],
+      "differs": "G1-438 level 3 puts sums within 1000 on an empty Rechenstrich for the child to draw the jumps, but the second number is only two-digit (348 + 26), plus and minus are mixed, there are 4 cards, and it has no lines for the step equations or for the two-sentence explanation. A three-digit plus three-digit kind with step lines is a small to medium change in number-line-more.js mode open.",
+      "published": "de no"
+    },
+    {
+      "key": "de-3-127",
+      "fit": "close",
+      "types": [
+        "G1-438"
+      ],
+      "differs": "G1-438 level 3 has minus tasks within 1000 on an empty Rechenstrich, but only three-digit minus two-digit, mixed with plus, with no pairs of close numbers (503 - 497), no boxes \"Ich ziehe ab / Ich ergaenze\" and no comparison of both ways. That choice is the point of the lesson, so this is a new kind of number-line-more.js mode open rather than an option (medium).",
+      "published": "de no"
+    },
+    {
+      "key": "de-3-128",
+      "fit": "close",
+      "types": [
+        "G3-349"
+      ],
+      "differs": "G3-349 is the Zauberquadrat page (3 x 3, some cells empty, the magic number shown, one solution proven), but its numbers are only 1 to 9 (magic number 15) or 4 to 12 (magic number 24); the lesson names the Zahlenraum bis 1000. The generator already has an offset knob; a multiplier or a larger offset is a small change.",
+      "published": "de yes"
+    },
+    {
+      "key": "de-3-129",
+      "fit": "none",
+      "types": [],
+      "differs": "Pairs 3 mal 4 and 3 mal 40, 24 : 6 and 240 : 6 with pictures of groups of ten-rods must be built; the times-table and division pages stay inside 10 x 10. A new mode of the times-table generator (G3-358) or of md-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-130",
+      "fit": "none",
+      "types": [],
+      "differs": "A rectangle split at the tens line, an empty Malkreuz and three step lines for 4 mal 37 must be built; G3-313 only counts the squares of a small rectangle. A new mode, for example of array-tasks.js (area-grid, split).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-131",
+      "fit": "none",
+      "types": [],
+      "differs": "Halbschriftliches Dividieren by splitting the number (84 = 80 + 4) with block pictures and step lines must be built; the division pages here are table facts and remainders only. New type.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-132",
+      "fit": "none",
+      "types": [],
+      "differs": "Measuring lines and real-size objects to the millimetre, writing 4 cm 7 mm = 47 mm, and drawing lines of a given length must be built: G2-235 reads whole centimetres on a drawn ruler that is not real size. A real-size mode with millimetres is needed; the millimetre ruler artwork exists in measurement-more.js mode rulers (G2-475 level 3).",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-133",
+      "fit": "none",
+      "types": [],
+      "differs": "A town map with distances in metres, sums up to 1000 m, completing to 1 km and matching everyday distances to \"etwa 100 m / etwa 1 km / viele Kilometer\" must be built; nothing works with metres and kilometres.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-134",
+      "fit": "none",
+      "types": [],
+      "differs": "Writing amounts of money and lengths in three notations (3 Euro 50 ct, 350 ct, 3,50 Euro; 1 m 25 cm, 125 cm, 1,25 m) and converting must be built. G3-474 only has the child write the total of notes and coins once in the country's format; its pictures and lib/money-format.js could be reused in a new mode of money-more.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-135",
+      "fit": "none",
+      "types": [],
+      "differs": "Rounding comma prices to whole euros, writing the Ueberschlag and deciding whether a 10- or 20-euro note is enough must be built: G3-389 rounds two-digit numbers to tens and adds them, G2-294 compares coins with a cent price without estimating. A new mode, for example of the rounding generator G2-346 (estimate) with money.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-136",
+      "fit": "close",
+      "types": [
+        "G1-447",
+        "G3-389"
+      ],
+      "differs": "G1-447 is a page already worked on which the child marks the wrong answers and writes the right ones (level 3 includes the forgotten carry), but its sums are horizontal and within 100, not written column calculations to 1000, and it has no Ueberschlag, no boxes \"kann stimmen / kann nicht stimmen\" and no Probe with the Umkehraufgabe. Medium change: an errors level built on column-arithmetic.js with estimate and check fields.",
+      "published": "de no"
+    },
+    {
+      "key": "de-3-137",
+      "fit": "none",
+      "types": [],
+      "differs": "Price tables (Anzahl and Preis) to continue up to 10 with the sentence \"Fuer jede Brezel mehr kommen _ Euro dazu\" and finding the price of one must be built. The nearest relative is G3-328 (number machines: a printed rule applied to inputs), which could get a ratio-table mode; shared with de-3-138 and sv-3-201.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-138",
+      "fit": "none",
+      "types": [],
+      "differs": "Word problems about amount and price solved in an empty two-row table with an arrow (mal 2, : 2, : 3) and an answer sentence must be built; no type has ratio tables. Same new ratio-table mode as de-3-137.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-139",
+      "fit": "none",
+      "types": [],
+      "differs": "A compass page (centres with a given radius, a target of three circles, a seven-circle flower to finish) must be built; nothing here is a drawing-instrument page.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-140",
+      "fit": "none",
+      "types": [],
+      "differs": "Two bar charts of the same data with different scales and statements to rate stimmt / stimmt nicht / kann man nicht ablesen must be built; graph-tasks.js only reads bars (G3-332 with a scale of 5) and answers number questions (G2-237). A new mode of graph-tasks.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-141",
+      "fit": "none",
+      "types": [],
+      "differs": "Combination tasks (3 T-shirts and 2 trousers, 2 of 4 ice-cream flavours, 3 children in a row) with a started table, list and tree diagram must be built; no combinatorics type exists.",
+      "published": "n/a"
+    },
+    {
+      "key": "de-3-142",
+      "fit": "none",
+      "types": [],
+      "differs": "Pairs of bags with 10 red and blue balls to compare (where is red more likely), the sentence frame and a tally list for 20 draws must be built; no probability type exists. Same new factory as de-2-123.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-K-143",
+      "fit": "exact",
+      "types": [
+        "K-372"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-144",
+      "fit": "exact",
+      "types": [
+        "G1-139",
+        "G1-480"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-145",
+      "fit": "none",
+      "types": [],
+      "differs": "Pairs of containers to ring the one that holds most, three containers to number from least to most, and drawing the number of mugs must be built: no capacity comparison exists (K-038 does the same for heavier / lighter from a real-life rank table). A new mode of measurement-tasks.js next to heavier.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-K-146",
+      "fit": "close",
+      "types": [
+        "G1-143",
+        "G1-144",
+        "G1-481"
+      ],
+      "differs": "G1-143 shows a bar graph of picture categories and the child writes each bar's number (level 1: 3 bars up to 5; level 3: 4 bars up to 10); ringing the bar with the most is a separate page (G1-144). So the page exists as two pages, and \"3 bars with up to 10\" is not one of the settings. No build needed if two pages are acceptable; one combined level is a small change in graph-tasks.js. (G1-481 is the class's own tally and graph for the floor activity.)",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-147",
+      "fit": "exact",
+      "types": [
+        "K-414",
+        "K-274",
+        "K-457"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-148",
+      "fit": "close",
+      "types": [
+        "K-028",
+        "G1-444"
+      ],
+      "differs": "K-028 shows two groups and the child writes how many altogether (totals up to 10), but it prints + and = between the groups, has no three panels foerst / sedan / nu and no empty box in which the child draws all of them. A three-panel story layout without signs would be a new mode (small to medium).",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-149",
+      "fit": "close",
+      "types": [
+        "K-451",
+        "G1-104"
+      ],
+      "differs": "K-451 level 2 is the same task and range (3 to 10, some crossed out, write how many are left, at least one left, no number sentence) but shows counters in a ten-frame, not pictures of things. G1-104 shows crossed-out pictures up to 10 but prints the subtraction sentence (7 - 3 = _). No build needed if ten-frame counters are acceptable; otherwise a very small option (hide the sentence in picture-equation.js mode crossout).",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-K-150",
+      "fit": "close",
+      "types": [
+        "G2-216",
+        "G1-369"
+      ],
+      "differs": "G2-216 level 1 is the task: a pile of 4 to 12 pictures and 2 or 3 empty bins, the child writes how many each gets. But every card prints the division sentence (8 / 2 = _), which a foerskoleklass page should not carry; 10 shared by 2 is not in level 1 and 12 shared by 3 can occur. Hiding the sentence is a very small option of array-tasks.js mode share-bins.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-K-151",
+      "fit": "none",
+      "types": [],
+      "differs": "One read-aloud problem per page with a picture, a large empty box to draw the solution and a place for the answer digit must be built; the word-problem pages (G1-213) print the story with its picture strip and an answer box only. A simple new frame in the word-problem family.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-1-152",
+      "fit": "exact",
+      "types": [
+        "K-004",
+        "K-005",
+        "G1-106"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-153",
+      "fit": "exact",
+      "types": [
+        "K-021",
+        "K-022",
+        "K-023"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-154",
+      "fit": "close",
+      "types": [
+        "G1-114",
+        "K-460",
+        "G1-137"
+      ],
+      "differs": "G1-114 is the first part (two picture groups up to 10, the child circles the symbol instead of writing it in a box). Number pairs exist as K-460 level 1 (to 10, not published) or G1-137 level 1 (1 to 20, never =). Ordering three numbers within 10 does not exist (G1-135 orders two-digit numbers). No build needed for parts 1 and 2 if two pages are acceptable; a write-in box and an ordering row within 10 are small changes (picture-equation.js / compare-order.js).",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-155",
+      "fit": "exact",
+      "types": [
+        "K-414",
+        "K-456",
+        "K-273"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-156",
+      "fit": "close",
+      "types": [
+        "G1-443",
+        "G3-350"
+      ],
+      "differs": "G1-443 has the child ring true or false for equations, half of them false. But within 10 it only has the form a + b = c (level 1); 5 = 2 + 3 and 3 + 1 = 2 + 2 come at levels 2 and 3, where the numbers go to 20. Missing: the empty balance to draw dots on and the line to rewrite the false ones. A within-10 level with all three forms is a small change in addsub-more.js mode truefalse; the balance drawing and rewrite line are extra (small to medium).",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-157",
+      "fit": "close",
+      "types": [
+        "K-546",
+        "K-547",
+        "K-548"
+      ],
+      "differs": "K-546 (read the sentence, draw the picture in the right place) and K-547 (write the missing position word from a word box) are these two tasks, with Swedish sentences from the grammar engine. But the relations are in, on, above, under, next to, between, behind, in front of: \"till vaenster om\" and \"till hoeger om\" are not included, and the landmark is one shape per row, not a shelf or classroom scene. Adding left / right to position-scenes.js is a small to medium change.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-158",
+      "fit": "close",
+      "types": [
+        "G1-528",
+        "G1-529",
+        "K-485"
+      ],
+      "differs": "Existing but outside the mathematics catalog list (Maps and Coordinates maker): G1-528 level 1 is a 4x4 picture grid with steps as arrow + words (move 2 squares right) and the child rings where she lands; G1-529 shows a drawn route and the child writes each part as arrow + number of squares. Differs: the child does not draw the path of a given arrow row to a goal and does not write a route of its own choosing; steps are right/left/up/down with a count, not forward / turn left / turn right. Small to medium change on the same route engine.",
+      "published": "sv no: G1-528 is not in the mathematics catalog list (a maker type built 2026-11, no published page known)"
+    },
+    {
+      "key": "sv-1-159",
+      "fit": "none",
+      "types": [],
+      "differs": "The same object measured twice, against a row of big blocks and against a row of small paper clips, with both numbers written and the unit that needed more ringed, must be built: G1-139 (unit squares) and G1-480 (paper clips) each measure with one unit only. A new mode that puts both rows under one object in measurement-tasks.js / measurement-more.js (small to medium).",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-1-160",
+      "fit": "close",
+      "types": [
+        "G1-216",
+        "G1-217",
+        "G1-208"
+      ],
+      "differs": "G1-216 level 1 (plus) and G1-217 level 1 (minus) are pages of exactly the big tasks: a number 11 to 19 and a one-digit number, never crossing ten (13 + 4, 17 - 5). Missing: the paired small task printed with it (3 + 4 beside 13 + 4) and the two tiorutor to draw counters in. A pairs knob in the mental-math generator (G1-208 family) is a small to medium change.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-161",
+      "fit": "close",
+      "types": [
+        "G1-449",
+        "G1-298"
+      ],
+      "differs": "G1-449 has 6 + 7 rewritten as 6 + 6 + 1 with the sum, within 20 (level 1: the double is printed). Differs: there are no two equal rows of dots, and the double's own sum (6 + 6 = 12) is never written (the doubles themselves are on G1-298). Small change in doubles-more.js mode near.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-162",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 1 is the same task with the same mellanled (8 + 5 = 8 + _ + _ = _, sums 11 to 18), but on a ticked 0 to 20 number line where the child draws two jumps, not with two tiorutor and a split fork under the second term; 4 cards a page, the first one worked. No build needed if the number line is accepted; a ten-frame and fork variant would be a new mode (small to medium).",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-163",
+      "fit": "close",
+      "types": [
+        "G1-439"
+      ],
+      "differs": "G1-439 level 2 is this task (13 - 5 = 13 - _ - _ = _ with two jumps back on a number line, first term 11 to 17), but minus cards alternate with plus cards and the line is ticked and labelled every 5, not empty with only 10 marked. Minus-only and a bare line are small options of number-line-more.js mode bridge.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-164",
+      "fit": "none",
+      "types": [],
+      "differs": "Two numbers marked on a 0 to 20 line with an arc between them, where the child writes the length of the jump, the subtraction and the matching addition, must be built: G1-119 hops back to take away and G1-438 / G1-439 are take-away jumps too. A new difference mode of number-line-tasks.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-1-165",
+      "fit": "exact",
+      "types": [
+        "G1-220"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-166",
+      "fit": "exact",
+      "types": [
+        "G1-323",
+        "G1-320",
+        "G1-321"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-167",
+      "fit": "close",
+      "types": [
+        "G1-511",
+        "G1-448"
+      ],
+      "differs": "G1-511 level 2 has compare stories within 20 (how many more) with the two rows of pictures already drawn one under the other; the child writes only the difference. Missing: two empty bars to colour, the bracket for the difference and the written calculation (G1-448 level 3 has two drawn bars to compare, numbers to 20, no story). Small to medium change: an empty-bar variant in the word-problem engine.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-1-168",
+      "fit": "close",
+      "types": [
+        "G1-213",
+        "G1-240",
+        "G1-215"
+      ],
+      "differs": "Level 3 of G1-213 / G1-240 has change-unknown stories (7 + ? = 12, the picture shows only the known part) and the child writes the missing number; G1-215 has the bare open sentences to 20. Missing: start-unknown stories, the three panels foerst / sedan / nu with one covered, and writing the open sentence oneself. Small to medium change in lib/word-problems-levelset.js.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-169",
+      "fit": "none",
+      "types": [],
+      "differs": "A picture with numbers and no question, lines for two own questions, then a calculation and an answer must be built: G1-513 is the reverse (a number sentence is given and the child writes a story). A new mode next to G1-513.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-1-170",
+      "fit": "close",
+      "types": [
+        "G1-213",
+        "G1-241"
+      ],
+      "differs": "G1-213 level 2 has two stories within 20, each with a show-your-thinking panel and an answer box. But it prints the picture strip that the child is meant to draw here, it has no four labelled fields (Rita, Raekna, Svar, Staemmer det?), and two problems, not three (G1-241 has three, within 10). A four-step frame without the picture strip is a small to medium change in the word-problem generator.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-171",
+      "fit": "exact",
+      "types": [
+        "G1-123",
+        "G1-224",
+        "G1-280"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-172",
+      "fit": "close",
+      "types": [
+        "G2-206",
+        "G1-120"
+      ],
+      "differs": "G2-206 has the child ring ten loose cubes and write tens and ones, but only for 11 to 19 (one bundle). The page needs 20 to 60 scattered things with several tens to ring and the line \"tiotal: _, ental: _, talet: _\". Raising the range of base-ten-tasks.js mode regroup is a small to medium change.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-173",
+      "fit": "exact",
+      "types": [
+        "G1-228",
+        "K-461",
+        "G1-211"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-1-174",
+      "fit": "close",
+      "types": [
+        "G2-472",
+        "G2-471",
+        "G2-473"
+      ],
+      "differs": "G2-472 level 3 has the child draw coins (1, 2, 5, 10 kr) that pay a price exactly, one way per price, prices up to 50 kr; G2-471 asks for the fewest coins; G2-473 matches purses holding the same amount. Missing: two purses per thing to draw two different ways and ring the one with fewer coins, with prices 5 to 20 kr. Small change in money-more.js mode pay.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-175",
+      "fit": "close",
+      "types": [
+        "G1-446",
+        "G1-132"
+      ],
+      "differs": "G1-446 level 1 contains the last-row tasks (34 + 20, 76 - 30) mixed half and half with ones tasks, results only. Missing: the pairs 3 + 4 and 30 + 40 or 9 - 2 and 90 - 20 with tiostavar drawn beside them, which are most of the page. A tens-only kind with pairs in addsub-more.js mode mental100 is a small to medium change.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-176",
+      "fit": "close",
+      "types": [
+        "G1-439",
+        "G1-438"
+      ],
+      "differs": "G1-439 level 3 is this page: tasks like 38 + 5 and 43 - 5 within 100, plus and minus in turn, the mellanled 38 + 5 = 38 + _ + _ = _ and two jumps via the nearest ten. The one difference that matters: the line is a ticked, numbered section of 20 numbers with the start marked, not a tom tallinje; 4 cards a page. Hiding the ticks is a small option of number-line-more.js mode bridge.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-177",
+      "fit": "close",
+      "types": [
+        "G1-446"
+      ],
+      "differs": "G1-446 level 3 has these sums (two-digit plus/minus two-digit within 100, half across a ten) but asks only for the result and mixes in subtraction. The template for mellanled (tiotal + tiotal, ental + ental, summa) is missing, and it is the point of the page. Small to medium change in addsub-more.js mode mental100.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-178",
+      "fit": "close",
+      "types": [
+        "G1-438"
+      ],
+      "differs": "G1-438 level 2 has two-digit minus two-digit on an empty number line (a tom tallinje) with the jumps drawn by the child, but mixed with addition, always across a ten, 4 cards a page, and with no pairs of close numbers (61 - 58) to count up. Minus-only and a close-numbers kind are small to medium changes in number-line-more.js mode open.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-179",
+      "fit": "close",
+      "types": [
+        "G2-293",
+        "G3-474"
+      ],
+      "differs": "G2-293 has a shelf with prices in kronor and change cards, but the prices are 4 to 18 kr and are paid with coins (totals up to 50 kr). Needed: prices 12 to 95 kr paid with a 20-, 50- or 100-kronor note, counting up on an empty line and drawing the change. The Swedish notes exist in the data and in G3-474 (count notes and coins). Medium change in the shopping generator G2-276.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-180",
+      "fit": "none",
+      "types": [],
+      "differs": "Six stories with two-digit numbers of three kinds (change, compare, part-whole), where the child rings + or -, writes the calculation with mellanled and an answer with unit, two of them with a number that is not needed, must be built: G1-512 chooses a number sentence for stories within 20 and G2-489 is two-step to 50. A new mode on lib/word-problems-levelset.js.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-2-181",
+      "fit": "close",
+      "types": [
+        "G2-477"
+      ],
+      "differs": "G2-477 level 1 is the bottom part (ring cm or m for a pictured thing). The main part, a table to write an estimate and the measured value for six classroom things, does not exist; it is a plain recording table (a new, small mode of measurement-more.js).",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-182",
+      "fit": "close",
+      "types": [
+        "G2-261",
+        "G2-252"
+      ],
+      "differs": "G2-261 is the balance task (an object against printed weights, the child writes the mass), but in grams with a weight box of 50 to 500 g: there are no 1-kg weights, no kitchen scale with a pointer and no ring for more or less than 1 kg. A kilogram option in the balance of G2-252 is a small to medium change; the dial scale is new artwork.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-183",
+      "fit": "close",
+      "types": [
+        "G2-260",
+        "G2-252"
+      ],
+      "differs": "G2-260 level 1 is the same jug (1000 ml with a tick every 100 ml, six jugs to read) but labelled and answered in millilitres; with dl labels it is the litermaatt with one tick per decilitre. Missing besides the unit: colouring a jug to a given level and ringing more or less than 1 litre for everyday containers. A dl unit option on the jug page is a small change.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-184",
+      "fit": "exact",
+      "types": [
+        "G3-366",
+        "G3-365"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-185",
+      "fit": "close",
+      "types": [
+        "G1-451",
+        "G1-298"
+      ],
+      "differs": "G1-451 level 3 has doubling and halving up to 100 as machines (fill the outputs, some inputs), results only. Missing: the numbers drawn as tiostavar and entalskuber to draw once more or to split into two piles, and the written mellanled (dubbelt av 34 = 60 + 8 = 68). Small to medium change in doubles-more.js.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-186",
+      "fit": "close",
+      "types": [
+        "G1-477",
+        "G1-236"
+      ],
+      "differs": "G1-477 level 3 is the first part: six clocks on five-minute times and lines to the time in Swedish words (lib/time-words.js has fem i halv, halv, fem oever halv, tjugo i, tio oever). The second part, drawing the minute hand from a time written in words, is missing: G1-236 (draw the hands, five minutes) prints the time as a digital chip. A word prompt for the draw mode is noted in the code as a planned follow-up: a small change.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-2-187",
+      "fit": "close",
+      "types": [
+        "G3-344",
+        "G3-475"
+      ],
+      "differs": "G3-344 shows a start clock and an end clock and the child writes the hours passed, but start and end always share their minutes, so only whole hours come out (never nine to half past eleven). G3-475 level 2 has half-hour durations, but on a time line, not on two clock faces. Also missing: ringing sekunder / minuter / timmar for everyday activities. Half-hour durations are a small knob in clock-tasks.js mode elapsed; the unit part is new.",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-188",
+      "fit": "exact",
+      "types": [
+        "G2-244"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-2-189",
+      "fit": "close",
+      "types": [
+        "G1-528",
+        "G1-529",
+        "K-485"
+      ],
+      "differs": "Existing but outside the mathematics catalog list (Maps and Coordinates maker): G1-528 level 2 gives a program of steps (arrow + number of squares) on a 5x5 picture grid and the child marks where the figure lands; G1-529 has the child write the steps of a drawn route on a 6x6 grid. Differs: no obstacles, grid 5x5 for following, and the child writes a given route, not a program of its own around obstacles to a goal. Small to medium change on the same route engine.",
+      "published": "sv no: G1-528 is not in the mathematics catalog list (a maker type built 2026-11, no published page known)"
+    },
+    {
+      "key": "sv-2-190",
+      "fit": "none",
+      "types": [],
+      "differs": "Six grids, each with an arrow program that contains exactly one wrong arrow to find and correct, must be built; nothing asks the child to debug a route. A new mode on the route engine of G1-528 / G1-529 (Maps and Coordinates maker).",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-2-191",
+      "fit": "close",
+      "types": [
+        "K-502"
+      ],
+      "differs": "K-502 Draw It Twice as Big exists (Symmetry and Grid Copy maker, outside the mathematics catalog list): a picture on a small grid is redrawn twice as big; at level 3 on a grid with twice as many squares, each square becoming a block of 2 x 2. Differs: the pictures are filled-square pixel pictures, not line figures whose sides the child counts, and there is no half-as-big task. Small to medium change in grid-copy-more.js mode bigger.",
+      "published": "sv no: K-502 is not in the mathematics catalog list (a maker type built 2026-11, no published page known)"
+    },
+    {
+      "key": "sv-2-192",
+      "fit": "none",
+      "types": [],
+      "differs": "Bags of 10 balls in two colours with statements to rate omoejligt / moejligt / saekert, naming the most likely colour, and a tally table for 20 own draws must be built; no probability type exists. Same new factory as de-2-123.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-193",
+      "fit": "none",
+      "types": [],
+      "differs": "A key of Egyptian number symbols and Roman numerals I, V, X with numbers to translate both ways must be built; no type has historical numerals.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-194",
+      "fit": "none",
+      "types": [],
+      "differs": "Finished answers within 1000 to judge by an estimate (rimligt / orimligt, the estimate written as proof) and choosing the reasonable answer to everyday questions must be built. G1-447 has worked sums to check, but its wrong answers are off by 1, 2 or 10 within 100, which an estimate cannot catch; G3-389 rounds and adds two-digit numbers. A new mode, for example of addsub-more.js (errors with large errors) with the rounding generator.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-195",
+      "fit": "none",
+      "types": [],
+      "differs": "Horizontal three-digit addition and subtraction with a template for mellanled (hundratal, tiotal, ental, svar) must be built: three-digit sums exist only as column pages (uppstaellning: G2-258, G3-361) and the horizontal mental pages stop at 100 (G1-446). A new level of addsub-more.js mode mental100 with a steps template, shared with sv-2-177.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-196",
+      "fit": "exact",
+      "types": [
+        "G3-362",
+        "G3-360"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-3-197",
+      "fit": "exact",
+      "types": [
+        "G3-367",
+        "G3-368"
+      ],
+      "differs": "",
+      "published": "sv yes"
+    },
+    {
+      "key": "sv-3-198",
+      "fit": "close",
+      "types": [
+        "G3-410",
+        "G3-402"
+      ],
+      "differs": "G3-410 is the strategy-chain page (fill the boxes of a chain that builds a product from known ones), but only for 4, 5, 8 and 9: there is no chain 6 x 7 = 5 x 7 + 1 x 7 and no array of 6 rows split into 5 rows and 1 row. G3-402 is the complete table of 6 to fill at the end. Small to medium change: a new chain kind with an array picture in md-more.js mode chain.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-3-199",
+      "fit": "close",
+      "types": [
+        "G3-410",
+        "G3-405",
+        "G3-403"
+      ],
+      "differs": "G3-410 level 2 has the second part as a chain to fill: 9 times n = 10 times n minus one group. The first part is missing: arrays for 7 x 7 to 9 x 9 that the child splits with its own line into two known parts, writing both part products and the sum. G3-403, G3-404, G3-405 are the complete tables of 7, 8 and 9. Medium change: a split-array kind in md-more.js mode chain.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-3-200",
+      "fit": "none",
+      "types": [],
+      "differs": "Pictures of tum, fot, aln and famn on the body with a table to measure with one's own body unit and then in cm and m must be built; no type is a measure-and-record sheet. A new mode of measurement-more.js, shared with the other recording tables (de-1-101, de-2-116, sv-2-181).",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-201",
+      "fit": "none",
+      "types": [],
+      "differs": "Two-row tables of proportional relations (number of ice creams and price; a recipe for 4 recalculated for 2 and 8) with a sentence in words must be built. The nearest relative is G3-328 (number machines: a printed rule applied to inputs), which could get a ratio-table mode; shared with de-3-137 and de-3-138.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-202",
+      "fit": "none",
+      "types": [],
+      "differs": "A prediction box, a frequency table for 30 dice throws, an empty bar chart to draw and a comparison of two bags must be built; no probability type exists (G1-481 has an empty tally and graph for a class survey, which could lend its layout). Same new factory as de-2-123.",
+      "published": "n/a"
+    },
+    {
+      "key": "sv-3-203",
+      "fit": "close",
+      "types": [
+        "G1-481",
+        "G3-334"
+      ],
+      "differs": "G1-481 is a class survey page: a tally line per choice and an empty bar graph to colour. But the question and the choices are printed (pictures of a theme), one box stands for one answer, and there are no lines for conclusions. The page needs the child's own question and choices, a frequency table with tally and number, a bar chart where the child writes title, axes and a scale of 2 per step, and three lines for conclusions. Medium change: a blank-investigation level of graph-tasks.js mode survey.",
+      "published": "sv no"
+    },
+    {
+      "key": "sv-3-204",
+      "fit": "close",
+      "types": [
+        "G3-335",
+        "G2-240"
+      ],
+      "differs": "G3-335 (the type behind the teaching point) is a finished line plot over a number line with half steps; the child only counts the crosses above each number. The lesson has the child measure things to the nearest half centimetre and draw the crosses itself; that production page does not exist. Small to medium change: a fill-in line plot in graph-tasks.js (like bar-fill) with a list of measurements.",
+      "published": "sv yes"
+    }
+  ]
+}

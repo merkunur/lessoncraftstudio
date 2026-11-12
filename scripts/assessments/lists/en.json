@@ -1,5 +1,5 @@
 {
- "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts).",
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms.",
  "drop": {
   "k-sorting-tallies-days": {
    "4": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
@@ -9,6 +9,9 @@
   },
   "g2-place-value-to-1000": {
    "1": "[en.review-g23-math] The answer frame of the worksheet reads \"[ ] ■×10 + [ ]\": a second grader has not met the multiplication sign, and nothing says which box is tens and which is ones."
+  },
+  "g1-shapes-measuring-graphs": {
+   "2": "The tangram worksheet is built with the seven pieces of a real tangram: no task of a paper check."
   }
  },
  "instruction": {
@@ -24,7 +27,8 @@
   "G3-339": "Look at the first rectangle. Circle the rectangle on the right with the SAME distance around.",
   "G3-346": "Count all the cubes in each shape. Write the total.",
   "G3-321": "The small square is one part of a whole. Read its fraction. Circle the bar that shows the WHOLE.",
-  "G3-319": "Look at both bars. Circle the greater fraction."
+  "G3-319": "Look at both bars. Circle the greater fraction.",
+  "G1-282": "Put the words in order and write the sentence on the line. The capital letter and the end mark show where it begins and ends."
  },
  "noCheck": {
   "g2-shapes-solids-symmetry": "[en.review-g23-math] The pictures keyed as symmetrical are drawn with shading and uneven details (a persimmon with a highlight on one side, a bat with a mouth mark left of the line): \"no\" can be defended. Without that part the unit has two parts, fewer than a check needs.",
@@ -46,7 +50,11 @@
   "G3-319 pairKind": "[en.review-g23-math] Grade 3 compares fractions with the same top or the same bottom number; 1/3 against 4/6 is another task.",
   "G3-343 sameLook": "[en.review-g23-math] Shapes cut into eight parts in form A and two halves in form B are not one level.",
   "one number once per form": "[en.review-g23-math] In a check on counting to 10 the number 5 was the answer three times in one form.",
-  "three-digit numbers": "[en.review-g23-math] 262 reads the same with its places in the wrong order; all four pairs to compare were decided by the hundreds alone."
+  "three-digit numbers": "[en.review-g23-math] 262 reads the same with its places in the wrong order; all four pairs to compare were decided by the hundreds alone.",
+  "G1-282 instruction": "The worksheet line is only the hint; a box that stands alone must say what to do.",
+  "K-231 avoidAns": "A Kindergarten child builds words of consonant, short vowel, consonant; \"eye\" and \"cow\" are spelled with letters that do not say their sound, and form A had none of that kind.",
+  "K-221 avoidAns": "Form A asked two vowels (umbrella, eggplant) and form B none; a first check of beginning sounds asks consonants in both forms.",
+  "K-063 theme": "The mirror image of a blackberry looks like the blackberry: fruit is close to symmetrical, an animal seen from the side is not."
  },
  "blend": {
   "G3-364": [
@@ -61,12 +69,17 @@
   "G3-315"
  ],
  "avoidAns": {
-  "G3-317": "^[01]\\d$"
+  "G3-317": "^[01]\\d$",
+  "K-231": "^(?![bcdfghjklmnpqrstvwxyz]\\|[aeiou]\\|[bcdfgklmnpstvxz]$)",
+  "K-221": "^[AEIOUaeiou]$"
  },
  "pairKind": [
   "G3-319"
  ],
  "sameLook": [
   "G3-343"
- ]
+ ],
+ "theme": {
+  "K-063": "animals"
+ }
 }

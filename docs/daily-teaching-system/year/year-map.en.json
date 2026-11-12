@@ -1,9 +1,22 @@
 {
  "locale": "en",
  "yearWeeks": 36,
- "teachingWeeks": 32,
- "daysPerPoint": 3,
- "daysPerUnit": 2,
+ "pacing": {
+  "daysPerLesson": {
+   "1": 2.5,
+   "2": 2.5,
+   "3": 2.5,
+   "K": 2
+  },
+  "unitEndDays": 3,
+  "teachingWeeks": {
+   "1": 28,
+   "2": 28,
+   "3": 26,
+   "K": 28
+  },
+  "rule": "Two class days is the base for one lesson in every grade: a teach day and a practice-and-check day. A lesson earns a third day only when it is a story-problem, missing-number, fact-family, make-ten, teen-number, regrouping, fraction-on-the-number-line or cut-the-shape lesson AND it has a classroom tool, pages at three levels and a worksheet-maker page with new numbers for the re-teach group; about one lesson in three in Kindergarten and about half in Grades 1 to 3 meet that. A practice-format lesson with no new idea (Color by Number, a maze, an addition pyramid) is one day or a center, and a fluency lesson (Fact fluency within 10, 2.OA.B.2, 3.OA.C.7) is one launch day plus five minutes a day for weeks, never a three-day block."
+ },
  "cells": [
   {
    "grade": "K",
@@ -13,7 +26,7 @@
     "lessons": 30,
     "teachingPoints": 30,
     "planWeeks": 7,
-    "pacedWeeks": 20.4
+    "pacedWeeks": 15.6
    },
    "objectives": {
     "framework": "ccss-math",
@@ -23,11 +36,79 @@
     "near": 1,
     "open": 3
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 11.6,
-    "teachingPointsNeeded": 18,
-    "idleTeachingPoints": 6
+    "weeks": 12.4,
+    "lessonsNeeded": 25,
+    "idleTeachingPoints": 6,
+    "fromStandardsThatNeedMore": 27,
+    "fromOpenObjectives": 4
    },
+   "more": [
+    {
+     "code": "K.CC.A.1",
+     "deserves": 4,
+     "has": 0,
+     "missing": 4,
+     "why": "Counting to 100 by ones and by tens is built all year; one lesson each for to 20, to 50, to 100 and by tens, plus the daily count."
+    },
+    {
+     "code": "K.CC.A.3",
+     "deserves": 4,
+     "has": 3,
+     "missing": 1,
+     "why": "The lesson shown writes 0 to 9 only; 10 to 20 and writing a number for a counted group need their own lessons."
+    },
+    {
+     "code": "K.CC.C.6",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "'Fewer' is a new word, and matching, counting and the 'equal' case each need a day."
+    },
+    {
+     "code": "K.OA.A.2",
+     "deserves": 4,
+     "has": 0,
+     "missing": 4,
+     "why": "Story problems within 10: adding to, taking from, and putting together each need a lesson with objects and drawings."
+    },
+    {
+     "code": "K.OA.A.3",
+     "deserves": 5,
+     "has": 1,
+     "missing": 4,
+     "why": "Taking a number apart in more than one way is taught number by number (5, 6, 7, 8, 9, 10)."
+    },
+    {
+     "code": "K.OA.A.4",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Partners of 10 are the base of all later addition; one lesson is not enough."
+    },
+    {
+     "code": "K.OA.A.5",
+     "deserves": 4,
+     "has": 1,
+     "missing": 3,
+     "why": "Fluency within 5 comes from weeks of short practice after the strategy lessons, not from one lesson."
+    },
+    {
+     "code": "K.NBT.A.1",
+     "deserves": 5,
+     "has": 0,
+     "missing": 5,
+     "why": "Teen numbers are where Kindergarten classes fall behind; see the ruling."
+    },
+    {
+     "code": "K.G.A.2",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Naming shapes whatever their size or the way they are turned needs flat shapes, solid shapes and turned shapes."
+    }
+   ],
    "answers": {
     "worksheet": 2,
     "text": 0,
@@ -82,7 +163,7 @@
     "lessons": 22,
     "teachingPoints": 22,
     "planWeeks": 7,
-    "pacedWeeks": 14.8
+    "pacedWeeks": 11.2
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -92,11 +173,15 @@
     "near": 3,
     "open": 45
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 17.2,
-    "teachingPointsNeeded": 26,
-    "idleTeachingPoints": 2
+    "weeks": 16.8,
+    "lessonsNeeded": 34,
+    "idleTeachingPoints": 2,
+    "fromStandardsThatNeedMore": 0,
+    "fromOpenObjectives": 48
    },
+   "more": [],
    "answers": {
     "worksheet": 22,
     "text": 19,
@@ -547,7 +632,7 @@
     "lessons": 32,
     "teachingPoints": 32,
     "planWeeks": 8,
-    "pacedWeeks": 21.6
+    "pacedWeeks": 19.6
    },
    "objectives": {
     "framework": "ccss-math",
@@ -557,11 +642,79 @@
     "near": 2,
     "open": 5
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 10.4,
-    "teachingPointsNeeded": 16,
-    "idleTeachingPoints": 9
+    "weeks": 8.4,
+    "lessonsNeeded": 14,
+    "idleTeachingPoints": 9,
+    "fromStandardsThatNeedMore": 27,
+    "fromOpenObjectives": 7
    },
+   "more": [
+    {
+     "code": "1.OA.A.1",
+     "deserves": 8,
+     "has": 1,
+     "missing": 7,
+     "why": "All story types within 20 with the unknown in every place; compare stories and start-unknown stories are where first graders fail."
+    },
+    {
+     "code": "1.OA.B.4",
+     "deserves": 2,
+     "has": 1,
+     "missing": 1,
+     "why": "Subtraction as a missing addend needs a lesson within 10 and one within 20."
+    },
+    {
+     "code": "1.OA.C.6",
+     "deserves": 8,
+     "has": 2,
+     "missing": 6,
+     "why": "Adding and subtracting within 20: counting on, making ten, taking apart to ten, doubles, near doubles, think addition, each within its own lesson."
+    },
+    {
+     "code": "1.OA.D.8",
+     "deserves": 3,
+     "has": 2,
+     "missing": 1,
+     "why": "The unknown at the end, in the middle and at the start are three steps of difficulty."
+    },
+    {
+     "code": "1.NBT.A.1",
+     "deserves": 3,
+     "has": 2,
+     "missing": 1,
+     "why": "Counting to 120 from any number, reading and writing the numbers, and crossing 100."
+    },
+    {
+     "code": "1.NBT.B.3",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Comparing two-digit numbers by tens first, then ones, then with the signs <, > and =."
+    },
+    {
+     "code": "1.NBT.C.4",
+     "deserves": 6,
+     "has": 0,
+     "missing": 6,
+     "why": "See the ruling: six kinds of sum inside one standard."
+    },
+    {
+     "code": "1.MD.A.2",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Laying units end to end with no gaps and no overlaps is a hands-on skill children get wrong for weeks."
+    },
+    {
+     "code": "1.MD.B.3",
+     "deserves": 3,
+     "has": 2,
+     "missing": 1,
+     "why": "Time to the hour, to the half hour, and analog with digital."
+    }
+   ],
    "answers": {
     "worksheet": 7,
     "text": 0,
@@ -611,7 +764,7 @@
      "group": "Number and Operations in Base Ten",
      "state": "open",
      "answer": "worksheet",
-     "why": "Adding a two-digit number and a one-digit number, and a two-digit number and a multiple of ten, with tens and ones and on the open number line. Two teaching points exist for it and have no published page.",
+     "why": "The description leaves out half the standard: making a new ten (27 + 5) and adding two two-digit numbers with ten-rods and cubes (tens with tens, ones with ones) are both Grade 1. It needs about six lessons: plus a multiple of ten; plus ones with no new ten; plus ones with a new ten; two-digit plus two-digit without and with a new ten; saying why the way works. Base-ten drawings and the hundreds chart come before the open number line in Grade 1.",
      "by": "ruled",
      "unit": "Adding Within 100 (new unit)"
     },
@@ -620,7 +773,7 @@
      "group": "Number and Operations in Base Ten",
      "state": "open",
      "answer": "worksheet",
-     "why": "Subtracting tens from tens (70 − 30) with ten-rods and on the hundreds chart.",
+     "why": "The content is right, but a teacher looking for 70 - 30 will not open a unit called 'Adding Within 100'. Rename the unit (for example 'Adding Within 100 and Subtracting Tens') or place the lesson in Tens and Ones right after the decade-numbers lesson, where 7 tens take away 3 tens follows naturally.",
      "by": "ruled",
      "unit": "Adding Within 100 (new unit)"
     },
@@ -643,7 +796,7 @@
     "lessons": 19,
     "teachingPoints": 19,
     "planWeeks": 5,
-    "pacedWeeks": 12.6
+    "pacedWeeks": 11.3
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -653,11 +806,15 @@
     "near": 2,
     "open": 49
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 19.4,
-    "teachingPointsNeeded": 29,
-    "idleTeachingPoints": 2
+    "weeks": 16.7,
+    "lessonsNeeded": 28,
+    "idleTeachingPoints": 2,
+    "fromStandardsThatNeedMore": 0,
+    "fromOpenObjectives": 51
    },
+   "more": [],
    "answers": {
     "worksheet": 25,
     "text": 18,
@@ -1135,7 +1292,7 @@
     "lessons": 34,
     "teachingPoints": 34,
     "planWeeks": 9,
-    "pacedWeeks": 22.8
+    "pacedWeeks": 20.6
    },
    "objectives": {
     "framework": "ccss-math",
@@ -1145,15 +1302,90 @@
     "near": 2,
     "open": 9
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 9.2,
-    "teachingPointsNeeded": 14,
-    "idleTeachingPoints": 4
+    "weeks": 7.4,
+    "lessonsNeeded": 13,
+    "idleTeachingPoints": 4,
+    "fromStandardsThatNeedMore": 40,
+    "fromOpenObjectives": 11
    },
+   "more": [
+    {
+     "code": "2.OA.B.2",
+     "deserves": 6,
+     "has": 0,
+     "missing": 6,
+     "why": "Six strategy lessons at the start of the year, then daily practice all year."
+    },
+    {
+     "code": "2.OA.A.1",
+     "deserves": 8,
+     "has": 0,
+     "missing": 8,
+     "why": "One-step stories of every type, then two-step stories; see the ruling."
+    },
+    {
+     "code": "2.NBT.A.2",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Counting within 1,000 by 5s, by 10s and by 100s, from numbers that are not multiples."
+    },
+    {
+     "code": "2.NBT.A.3",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Numerals, number names and expanded form to 1,000; numbers with a zero in the tens place need a lesson."
+    },
+    {
+     "code": "2.NBT.B.5",
+     "deserves": 10,
+     "has": 3,
+     "missing": 7,
+     "why": "The heart of Grade 2: adding without and with a new ten, subtracting without and with regrouping, and checking with the other operation."
+    },
+    {
+     "code": "2.NBT.B.7",
+     "deserves": 8,
+     "has": 2,
+     "missing": 6,
+     "why": "Adding and subtracting within 1,000 with models, including regrouping twice and subtracting across a zero."
+    },
+    {
+     "code": "2.NBT.B.8",
+     "deserves": 2,
+     "has": 1,
+     "missing": 1,
+     "why": "Ten more or less and a hundred more or less, including across a hundred (295 + 10)."
+    },
+    {
+     "code": "2.MD.A.1",
+     "deserves": 2,
+     "has": 1,
+     "missing": 1,
+     "why": "Starting at zero on the ruler and choosing the tool are separate lessons."
+    },
+    {
+     "code": "2.MD.C.7",
+     "deserves": 4,
+     "has": 1,
+     "missing": 3,
+     "why": "Time to five minutes: the minute hand by fives, the hour hand between numbers, quarter past and quarter to, a.m. and p.m."
+    },
+    {
+     "code": "2.MD.C.8",
+     "deserves": 5,
+     "has": 1,
+     "missing": 4,
+     "why": "Naming the coins, counting like coins, counting mixed coins, dollar bills, and money stories."
+    }
+   ],
    "answers": {
-    "worksheet": 10,
+    "worksheet": 9,
     "text": 0,
-    "teacher-led": 1,
+    "teacher-led": 2,
     "activity": 0,
     "none": 0
    },
@@ -1163,9 +1395,9 @@
      "group": "Operations and Algebraic Thinking",
      "state": "near",
      "answer": "worksheet",
-     "why": "Facts within 20 from memory: short daily fact pages at the start of the unit (no timer on them), and the facts check of Part 7.8.",
+     "why": "The standard is 'by end of Grade 2, know from memory'. Fact pages at the start of one unit do not teach it. It needs two weeks of strategy lessons at the start of the year (make ten, doubles and near doubles, think addition to subtract), then a five-minute fact strip every day in every unit, and a facts check four times a year.",
      "by": "ruled",
-     "unit": "Adding and Subtracting Within 100 and 1,000"
+     "unit": "A year-long daily routine that opens the year (before Place Value to 1,000), not a lesson inside Adding and Subtracting Within 100 and 1,000"
     },
     {
      "code": "2.OA.A.1",
@@ -1217,7 +1449,7 @@
      "group": "Measurement and Data",
      "state": "near",
      "answer": "worksheet",
-     "why": "Measure several objects to the nearest whole unit and show the lengths on a line plot. The unit has graphs of counted things today, none of measured lengths.",
+     "why": "The standard says children generate the data by measuring. The lesson must be: measure real things (ten pencils, ten shoes) with a ruler, write the lengths on a recording page, then build the line plot. Pictures on a page measured with a child's own ruler come out wrong whenever the printer scales the page. The unit must also come after Measurement, Time, and Money in the year.",
      "by": "ruled",
      "unit": "Graphs and Grids"
     },
@@ -1234,8 +1466,8 @@
      "code": "2.MD.A.3",
      "group": "Measurement and Data",
      "state": "open",
-     "answer": "worksheet",
-     "why": "Estimate a length in inches, feet, centimeters or meters, then measure and compare. The teaching point for choosing the unit exists and has no published page.",
+     "answer": "teacher-led",
+     "why": "Feet and meters cannot be estimated on a sheet of paper, and choosing a unit is not the same as estimating. This is a hands-on lesson: learn body benchmarks (a fingertip is about a centimeter, a thumb joint an inch, a ruler a foot, the door width a meter), estimate the desk, the door and the rug, then measure and compare. The page is only the recording sheet.",
      "by": "ruled",
      "unit": "Measurement, Time, and Money"
     },
@@ -1267,7 +1499,7 @@
     "lessons": 18,
     "teachingPoints": 18,
     "planWeeks": 6,
-    "pacedWeeks": 12
+    "pacedWeeks": 10.8
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -1277,11 +1509,15 @@
     "near": 5,
     "open": 45
    },
+   "teachingWeeks": 28,
    "gap": {
-    "weeks": 20,
-    "teachingPointsNeeded": 30,
-    "idleTeachingPoints": 3
+    "weeks": 17.2,
+    "lessonsNeeded": 29,
+    "idleTeachingPoints": 3,
+    "fromStandardsThatNeedMore": 0,
+    "fromOpenObjectives": 50
    },
+   "more": [],
    "answers": {
     "worksheet": 24,
     "text": 18,
@@ -1750,7 +1986,7 @@
     "lessons": 41,
     "teachingPoints": 41,
     "planWeeks": 10,
-    "pacedWeeks": 27.4
+    "pacedWeeks": 24.7
    },
    "objectives": {
     "framework": "ccss-math",
@@ -1760,15 +1996,104 @@
     "near": 2,
     "open": 9
    },
+   "teachingWeeks": 26,
    "gap": {
-    "weeks": 4.6,
-    "teachingPointsNeeded": 7,
-    "idleTeachingPoints": 2
+    "weeks": 1.3,
+    "lessonsNeeded": 3,
+    "idleTeachingPoints": 2,
+    "fromStandardsThatNeedMore": 39,
+    "fromOpenObjectives": 11
    },
+   "more": [
+    {
+     "code": "3.OA.A.3",
+     "deserves": 6,
+     "has": 1,
+     "missing": 5,
+     "why": "Equal groups, arrays and measurement stories, for multiplication and for both kinds of division."
+    },
+    {
+     "code": "3.OA.B.5",
+     "deserves": 4,
+     "has": 1,
+     "missing": 3,
+     "why": "Turn-around facts, grouping three factors, and breaking a fact apart (the distributive property) are three ideas."
+    },
+    {
+     "code": "3.OA.B.6",
+     "deserves": 2,
+     "has": 1,
+     "missing": 1,
+     "why": "Division as a missing factor is the bridge to the division facts."
+    },
+    {
+     "code": "3.OA.C.7",
+     "deserves": 12,
+     "has": 1,
+     "missing": 11,
+     "why": "All facts within 100 from memory by the end of the year: taught table by table with the matching division, then practised daily for months."
+    },
+    {
+     "code": "3.NBT.A.2",
+     "deserves": 5,
+     "has": 1,
+     "missing": 4,
+     "why": "Adding and subtracting within 1,000 fluently, including across zeros."
+    },
+    {
+     "code": "3.NF.A.1",
+     "deserves": 4,
+     "has": 2,
+     "missing": 2,
+     "why": "Unit fractions, then fractions as several unit fractions, with shapes, strips and sets of equal parts."
+    },
+    {
+     "code": "3.NF.A.3.a",
+     "deserves": 4,
+     "has": 1,
+     "missing": 3,
+     "why": "Equal fractions (counted together with 3.NF.A.3.b): same size on strips, same point on the number line, then making them."
+    },
+    {
+     "code": "3.NF.A.3.d",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Comparing with the same denominator, with the same numerator, and knowing the wholes must be the same size."
+    },
+    {
+     "code": "3.MD.A.1",
+     "deserves": 5,
+     "has": 3,
+     "missing": 2,
+     "why": "Time to the minute and elapsed time on a number line; elapsed time across the hour is the hard part."
+    },
+    {
+     "code": "3.MD.A.2",
+     "deserves": 4,
+     "has": 2,
+     "missing": 2,
+     "why": "Liquid volume and mass: estimating, measuring, and one-step stories for each."
+    },
+    {
+     "code": "3.MD.B.3",
+     "deserves": 3,
+     "has": 1,
+     "missing": 2,
+     "why": "Scaled picture graphs, scaled bar graphs, and 'how many more' questions read from them."
+    },
+    {
+     "code": "3.MD.D.8",
+     "deserves": 4,
+     "has": 2,
+     "missing": 2,
+     "why": "Perimeter of polygons, a missing side, and same perimeter with different area and the reverse."
+    }
+   ],
    "answers": {
-    "worksheet": 11,
+    "worksheet": 10,
     "text": 0,
-    "teacher-led": 0,
+    "teacher-led": 1,
     "activity": 0,
     "none": 0
    },
@@ -1787,9 +2112,9 @@
      "group": "Number and Operations in Base Ten",
      "state": "open",
      "answer": "worksheet",
-     "why": "A one-digit number times a multiple of ten (4 × 60) from the fact 4 × 6 and place value.",
+     "why": "4 x 60 rests on knowing 4 x 6. In the unit that introduces multiplication children do not have the facts yet. Teach it after the facts to 10 x 10 are learned.",
      "by": "ruled",
-     "unit": "Starting Multiplication"
+     "unit": "The last multiplication unit of Grade 3 (its title is not in the dump), not Starting Multiplication"
     },
     {
      "code": "3.NF.A.2.a",
@@ -1831,8 +2156,8 @@
      "code": "3.MD.C.5.a",
      "group": "Measurement and Data",
      "state": "open",
-     "answer": "worksheet",
-     "why": "The unit square as the measure of area: one square with a side of one unit has an area of one square unit.",
+     "answer": "teacher-led",
+     "why": "This is a definition, not a page of practice. A separate worksheet for it would be padding. Make it the ten-minute opening of the cover-and-count lesson (3.MD.C.5.b), with square tiles in hand.",
      "by": "ruled",
      "unit": "Area and Perimeter"
     },
@@ -1882,7 +2207,7 @@
     "lessons": 4,
     "teachingPoints": 4,
     "planWeeks": null,
-    "pacedWeeks": 2.8
+    "pacedWeeks": 2.6
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -1892,11 +2217,15 @@
     "near": 3,
     "open": 71
    },
+   "teachingWeeks": 26,
    "gap": {
-    "weeks": 29.2,
-    "teachingPointsNeeded": 43,
-    "idleTeachingPoints": 1
+    "weeks": 23.4,
+    "lessonsNeeded": 39,
+    "idleTeachingPoints": 1,
+    "fromStandardsThatNeedMore": 0,
+    "fromOpenObjectives": 74
    },
+   "more": [],
    "answers": {
     "worksheet": 46,
     "text": 19,

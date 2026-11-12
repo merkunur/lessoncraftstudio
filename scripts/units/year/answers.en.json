@@ -1,38 +1,511 @@
 {
- "$comment": "AUTHORED (Daily Teaching System, Part 12.1): what will teach each objective of the national framework that no lesson teaches today, line by line. answer is one of: worksheet (a new worksheet type), text (a reading text or a book, Part 8), teacher-led (a lesson the teacher leads without a page), activity (a screen activity, built in Part 10), none (not on paper or screen, said openly). unit names the unit the lesson joins (an existing unit of the grade, or a new one). An objective without a line here takes the default of its strand (scripts/units/year-map.js DEFAULT_ANSWER). Mathematics, Kindergarten to Grade 3: ruled 2026-11-12, to be read by one US teacher-reviewer before the first batch of 12.2 is designed.",
+ "$comment": "AUTHORED (Daily Teaching System, Part 12.1): what will teach each objective of the national framework that no lesson teaches today, line by line. answer is one of: worksheet (a new worksheet type), text (a reading text or a book, Part 8), teacher-led (a lesson the teacher leads without a page), activity (a screen activity, built in Part 10), none (not on paper or screen, said openly). unit names the unit the lesson joins (an existing unit of the grade, or a new one). An objective without a line here takes the default of its strand (scripts/units/year-map.js DEFAULT_ANSWER). Mathematics, Kindergarten to Grade 3: ruled 2026-11-12, read by one US teacher-reviewer on 2026-11-12 (reviews/en.review-1.json): 7 of 33 rulings changed (each keeps what it was under `was`).",
  "answers": {
-  "K.CC.B.4.a": { "answer": "teacher-led", "unit": "Counting to 10", "why": "Saying one number for each object is shown and watched, not written: a touch-and-count routine with real objects and the ten-frame tool, with what to listen for. The counting pages of the unit practise it afterwards." },
-  "K.CC.C.7": { "answer": "worksheet", "unit": "Counting in Order to 20", "why": "Comparing two written numbers from 1 to 10 needs its own page (circle the greater number, with no pictures to count); the pages today compare groups of objects." },
-  "K.NBT.A.1": { "answer": "worksheet", "unit": "Teen Numbers (new unit)", "why": "The teen numbers as ten and some more on two ten-frames, with the equation 13 = 10 + 3. The teaching point exists and has no published page yet." },
-  "K.MD.A.1": { "answer": "teacher-led", "unit": "Position Words, Size, and Patterns", "why": "Describing what can be measured about one real object (how long, how heavy, how much it holds) is a talk with objects in hand; a page can only follow it." },
-  "1.OA.A.2": { "answer": "worksheet", "unit": "Doubles, Three Addends, and Addition Pyramids", "why": "Story problems with three numbers to add (total up to 20): the unit teaches three addends as bare sums today, not as a story with a drawing and an equation." },
-  "1.OA.D.7": { "answer": "worksheet", "unit": "Addition and Subtraction Within 10", "why": "The equal sign as 'the same as': decide whether an equation is true or false, including 8 = 5 + 3. The teaching point exists and has no published page yet." },
-  "1.NBT.B.2.b": { "answer": "worksheet", "unit": "Tens and Ones", "why": "The numbers 11 to 19 as one ten and some ones: a page with a ten-rod and loose cubes for the teens before the unit goes on to any two-digit number." },
-  "1.NBT.B.2.c": { "answer": "worksheet", "unit": "Tens and Ones", "why": "The decade numbers 10 to 90 as a count of tens with no ones left: a page of ten-rods to count and write." },
-  "1.NBT.C.4": { "answer": "worksheet", "unit": "Adding Within 100 (new unit)", "why": "Adding a two-digit number and a one-digit number, and a two-digit number and a multiple of ten, with tens and ones and on the open number line. Two teaching points exist for it and have no published page." },
-  "1.NBT.C.6": { "answer": "worksheet", "unit": "Adding Within 100 (new unit)", "why": "Subtracting tens from tens (70 − 30) with ten-rods and on the hundreds chart." },
-  "1.G.A.3": { "answer": "worksheet", "unit": "Shapes, Measuring, and Graphs", "why": "Halves and fourths of circles and rectangles: a page to split and to name the shares. The two screen activities on equal shares that are live join the lesson as its screen task." },
-  "2.OA.B.2": { "answer": "worksheet", "unit": "Adding and Subtracting Within 100 and 1,000", "why": "Facts within 20 from memory: short daily fact pages at the start of the unit (no timer on them), and the facts check of Part 7.8." },
-  "2.OA.A.1": { "answer": "worksheet", "unit": "Adding and Subtracting Within 100 and 1,000", "why": "One-step and two-step story problems within 100 with a bar model and an equation with a box for the unknown. The teaching point exists and has no published page." },
-  "2.NBT.A.1.a": { "answer": "worksheet", "unit": "Place Value to 1,000", "why": "One hundred as a bundle of ten tens: bundle the ten-rods, then write the number." },
-  "2.NBT.A.1.b": { "answer": "worksheet", "unit": "Place Value to 1,000", "why": "The numbers 100 to 900 as a count of hundreds with no tens and no ones." },
-  "2.NBT.B.6": { "answer": "worksheet", "unit": "Adding and Subtracting Within 100 and 1,000", "why": "Adding up to four two-digit numbers in columns and by making tens first." },
-  "2.NBT.B.9": { "answer": "teacher-led", "unit": "Adding and Subtracting Within 100 and 1,000", "why": "Explaining why a way of adding or subtracting works is said aloud: a number talk with the tool the site has for it, two worked examples to compare, and what to listen for. A page cannot hear an explanation." },
-  "2.MD.D.9": { "answer": "worksheet", "unit": "Graphs and Grids", "why": "Measure several objects to the nearest whole unit and show the lengths on a line plot. The unit has graphs of counted things today, none of measured lengths." },
-  "2.MD.A.2": { "answer": "worksheet", "unit": "Measurement, Time, and Money", "why": "Measure the same length with two different units and say why the numbers differ. The classroom tool that measures one object with two units opens the lesson." },
-  "2.MD.A.3": { "answer": "worksheet", "unit": "Measurement, Time, and Money", "why": "Estimate a length in inches, feet, centimeters or meters, then measure and compare. The teaching point for choosing the unit exists and has no published page." },
-  "2.MD.B.5": { "answer": "worksheet", "unit": "Measurement, Time, and Money", "why": "Story problems about lengths in the same unit within 100, with a drawing of the lengths." },
-  "2.G.A.2": { "answer": "worksheet", "unit": "Equal Groups and Equal Shares", "why": "Split a rectangle into rows and columns of equal squares and count them: the step from arrays to area." },
-  "3.OA.D.8": { "answer": "worksheet", "unit": "Two-Step Problems (new unit)", "why": "Two-step story problems with all four operations, a letter for the unknown, and a check by rounding. The units today have one-step problems inside each operation." },
-  "3.NBT.A.3": { "answer": "worksheet", "unit": "Starting Multiplication", "why": "A one-digit number times a multiple of ten (4 × 60) from the fact 4 × 6 and place value." },
-  "3.NF.A.2.a": { "answer": "worksheet", "unit": "Fractions", "why": "A unit fraction on the number line: split the stretch from 0 to 1 into equal parts and mark the first one." },
-  "3.NF.A.2.b": { "answer": "worksheet", "unit": "Fractions", "why": "Any fraction on the number line as so many steps of the unit fraction from 0." },
-  "3.NF.A.3.c": { "answer": "worksheet", "unit": "Fractions", "why": "Whole numbers written as fractions (3 = 3/1, 4/4 = 1) and found at the same point of the number line." },
-  "3.MD.B.4": { "answer": "worksheet", "unit": "Shapes and Data", "why": "Measure lengths to the half and the quarter inch with the ruler drawn on the page, and show them on a line plot." },
-  "3.MD.C.5.a": { "answer": "worksheet", "unit": "Area and Perimeter", "why": "The unit square as the measure of area: one square with a side of one unit has an area of one square unit." },
-  "3.MD.C.5.b": { "answer": "worksheet", "unit": "Area and Perimeter", "why": "A shape covered by n unit squares with no gaps and no overlaps has an area of n square units: cover and count." },
-  "3.MD.C.7.b": { "answer": "worksheet", "unit": "Area and Perimeter", "why": "The area of a rectangle from its two side lengths in a story (a rug, a garden bed), as a product." },
-  "3.MD.C.7.c": { "answer": "worksheet", "unit": "Area and Perimeter", "why": "A rectangle cut in two shows that a × (b + c) is a × b plus a × c: the area model of the distributive property." },
-  "3.MD.C.7.d": { "answer": "worksheet", "unit": "Area and Perimeter", "why": "The area of an L-shaped figure by cutting it into rectangles and adding their areas." }
+  "K.CC.B.4.a": {
+   "answer": "teacher-led",
+   "unit": "Counting to 10",
+   "why": "Saying one number for each object is shown and watched, not written: a touch-and-count routine with real objects and the ten-frame tool, with what to listen for. The counting pages of the unit practise it afterwards."
+  },
+  "K.CC.C.7": {
+   "answer": "worksheet",
+   "unit": "Counting in Order to 20",
+   "why": "Comparing two written numbers from 1 to 10 needs its own page (circle the greater number, with no pictures to count); the pages today compare groups of objects."
+  },
+  "K.NBT.A.1": {
+   "answer": "worksheet",
+   "unit": "Teen Numbers (new unit)",
+   "why": "The teen numbers as ten and some more on two ten-frames, with the equation 13 = 10 + 3. The teaching point exists and has no published page yet."
+  },
+  "K.MD.A.1": {
+   "answer": "teacher-led",
+   "unit": "Position Words, Size, and Patterns",
+   "why": "Describing what can be measured about one real object (how long, how heavy, how much it holds) is a talk with objects in hand; a page can only follow it."
+  },
+  "1.OA.A.2": {
+   "answer": "worksheet",
+   "unit": "Doubles, Three Addends, and Addition Pyramids",
+   "why": "Story problems with three numbers to add (total up to 20): the unit teaches three addends as bare sums today, not as a story with a drawing and an equation."
+  },
+  "1.OA.D.7": {
+   "answer": "worksheet",
+   "unit": "Addition and Subtraction Within 10",
+   "why": "The equal sign as 'the same as': decide whether an equation is true or false, including 8 = 5 + 3. The teaching point exists and has no published page yet."
+  },
+  "1.NBT.B.2.b": {
+   "answer": "worksheet",
+   "unit": "Tens and Ones",
+   "why": "The numbers 11 to 19 as one ten and some ones: a page with a ten-rod and loose cubes for the teens before the unit goes on to any two-digit number."
+  },
+  "1.NBT.B.2.c": {
+   "answer": "worksheet",
+   "unit": "Tens and Ones",
+   "why": "The decade numbers 10 to 90 as a count of tens with no ones left: a page of ten-rods to count and write."
+  },
+  "1.NBT.C.4": {
+   "answer": "worksheet",
+   "unit": "Adding Within 100 (new unit)",
+   "why": "The description leaves out half the standard: making a new ten (27 + 5) and adding two two-digit numbers with ten-rods and cubes (tens with tens, ones with ones) are both Grade 1. It needs about six lessons: plus a multiple of ten; plus ones with no new ten; plus ones with a new ten; two-digit plus two-digit without and with a new ten; saying why the way works. Base-ten drawings and the hundreds chart come before the open number line in Grade 1.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Adding Within 100 (new unit)",
+    "why": "Adding a two-digit number and a one-digit number, and a two-digit number and a multiple of ten, with tens and ones and on the open number line. Two teaching points exist for it and have no published page."
+   }
+  },
+  "1.NBT.C.6": {
+   "answer": "worksheet",
+   "unit": "Adding Within 100 (new unit)",
+   "why": "The content is right, but a teacher looking for 70 - 30 will not open a unit called 'Adding Within 100'. Rename the unit (for example 'Adding Within 100 and Subtracting Tens') or place the lesson in Tens and Ones right after the decade-numbers lesson, where 7 tens take away 3 tens follows naturally.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Adding Within 100 (new unit)",
+    "why": "Subtracting tens from tens (70 − 30) with ten-rods and on the hundreds chart."
+   }
+  },
+  "1.G.A.3": {
+   "answer": "worksheet",
+   "unit": "Shapes, Measuring, and Graphs",
+   "why": "Halves and fourths of circles and rectangles: a page to split and to name the shares. The two screen activities on equal shares that are live join the lesson as its screen task."
+  },
+  "2.OA.B.2": {
+   "answer": "worksheet",
+   "unit": "A year-long daily routine that opens the year (before Place Value to 1,000), not a lesson inside Adding and Subtracting Within 100 and 1,000",
+   "why": "The standard is 'by end of Grade 2, know from memory'. Fact pages at the start of one unit do not teach it. It needs two weeks of strategy lessons at the start of the year (make ten, doubles and near doubles, think addition to subtract), then a five-minute fact strip every day in every unit, and a facts check four times a year.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Adding and Subtracting Within 100 and 1,000",
+    "why": "Facts within 20 from memory: short daily fact pages at the start of the unit (no timer on them), and the facts check of Part 7.8."
+   }
+  },
+  "2.OA.A.1": {
+   "answer": "worksheet",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "why": "One-step and two-step story problems within 100 with a bar model and an equation with a box for the unknown. The teaching point exists and has no published page."
+  },
+  "2.NBT.A.1.a": {
+   "answer": "worksheet",
+   "unit": "Place Value to 1,000",
+   "why": "One hundred as a bundle of ten tens: bundle the ten-rods, then write the number."
+  },
+  "2.NBT.A.1.b": {
+   "answer": "worksheet",
+   "unit": "Place Value to 1,000",
+   "why": "The numbers 100 to 900 as a count of hundreds with no tens and no ones."
+  },
+  "2.NBT.B.6": {
+   "answer": "worksheet",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "why": "Adding up to four two-digit numbers in columns and by making tens first."
+  },
+  "2.NBT.B.9": {
+   "answer": "teacher-led",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "why": "Explaining why a way of adding or subtracting works is said aloud: a number talk with the tool the site has for it, two worked examples to compare, and what to listen for. A page cannot hear an explanation."
+  },
+  "2.MD.D.9": {
+   "answer": "worksheet",
+   "unit": "Graphs and Grids",
+   "why": "The standard says children generate the data by measuring. The lesson must be: measure real things (ten pencils, ten shoes) with a ruler, write the lengths on a recording page, then build the line plot. Pictures on a page measured with a child's own ruler come out wrong whenever the printer scales the page. The unit must also come after Measurement, Time, and Money in the year.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Graphs and Grids",
+    "why": "Measure several objects to the nearest whole unit and show the lengths on a line plot. The unit has graphs of counted things today, none of measured lengths."
+   }
+  },
+  "2.MD.A.2": {
+   "answer": "worksheet",
+   "unit": "Measurement, Time, and Money",
+   "why": "Measure the same length with two different units and say why the numbers differ. The classroom tool that measures one object with two units opens the lesson."
+  },
+  "2.MD.A.3": {
+   "answer": "teacher-led",
+   "unit": "Measurement, Time, and Money",
+   "why": "Feet and meters cannot be estimated on a sheet of paper, and choosing a unit is not the same as estimating. This is a hands-on lesson: learn body benchmarks (a fingertip is about a centimeter, a thumb joint an inch, a ruler a foot, the door width a meter), estimate the desk, the door and the rug, then measure and compare. The page is only the recording sheet.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Measurement, Time, and Money",
+    "why": "Estimate a length in inches, feet, centimeters or meters, then measure and compare. The teaching point for choosing the unit exists and has no published page."
+   }
+  },
+  "2.MD.B.5": {
+   "answer": "worksheet",
+   "unit": "Measurement, Time, and Money",
+   "why": "Story problems about lengths in the same unit within 100, with a drawing of the lengths."
+  },
+  "2.G.A.2": {
+   "answer": "worksheet",
+   "unit": "Equal Groups and Equal Shares",
+   "why": "Split a rectangle into rows and columns of equal squares and count them: the step from arrays to area."
+  },
+  "3.OA.D.8": {
+   "answer": "worksheet",
+   "unit": "Two-Step Problems (new unit)",
+   "why": "Two-step story problems with all four operations, a letter for the unknown, and a check by rounding. The units today have one-step problems inside each operation."
+  },
+  "3.NBT.A.3": {
+   "answer": "worksheet",
+   "unit": "The last multiplication unit of Grade 3 (its title is not in the dump), not Starting Multiplication",
+   "why": "4 x 60 rests on knowing 4 x 6. In the unit that introduces multiplication children do not have the facts yet. Teach it after the facts to 10 x 10 are learned.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Starting Multiplication",
+    "why": "A one-digit number times a multiple of ten (4 × 60) from the fact 4 × 6 and place value."
+   }
+  },
+  "3.NF.A.2.a": {
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "why": "A unit fraction on the number line: split the stretch from 0 to 1 into equal parts and mark the first one."
+  },
+  "3.NF.A.2.b": {
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "why": "Any fraction on the number line as so many steps of the unit fraction from 0."
+  },
+  "3.NF.A.3.c": {
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "why": "Whole numbers written as fractions (3 = 3/1, 4/4 = 1) and found at the same point of the number line."
+  },
+  "3.MD.B.4": {
+   "answer": "worksheet",
+   "unit": "Shapes and Data",
+   "why": "Measure lengths to the half and the quarter inch with the ruler drawn on the page, and show them on a line plot."
+  },
+  "3.MD.C.5.a": {
+   "answer": "teacher-led",
+   "unit": "Area and Perimeter",
+   "why": "This is a definition, not a page of practice. A separate worksheet for it would be padding. Make it the ten-minute opening of the cover-and-count lesson (3.MD.C.5.b), with square tiles in hand.",
+   "was": {
+    "answer": "worksheet",
+    "unit": "Area and Perimeter",
+    "why": "The unit square as the measure of area: one square with a side of one unit has an area of one square unit."
+   }
+  },
+  "3.MD.C.5.b": {
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "why": "A shape covered by n unit squares with no gaps and no overlaps has an area of n square units: cover and count."
+  },
+  "3.MD.C.7.b": {
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "why": "The area of a rectangle from its two side lengths in a story (a rug, a garden bed), as a product."
+  },
+  "3.MD.C.7.c": {
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "why": "A rectangle cut in two shows that a × (b + c) is a × b plus a × c: the area model of the distributive property."
+  },
+  "3.MD.C.7.d": {
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "why": "The area of an L-shaped figure by cutting it into rectangles and adding their areas."
+  }
+ },
+ "pacing": {
+  "daysPerLesson": {
+   "1": 2.5,
+   "2": 2.5,
+   "3": 2.5,
+   "K": 2
+  },
+  "unitEndDays": 3,
+  "teachingWeeks": {
+   "1": 28,
+   "2": 28,
+   "3": 26,
+   "K": 28
+  },
+  "rule": "Two class days is the base for one lesson in every grade: a teach day and a practice-and-check day. A lesson earns a third day only when it is a story-problem, missing-number, fact-family, make-ten, teen-number, regrouping, fraction-on-the-number-line or cut-the-shape lesson AND it has a classroom tool, pages at three levels and a worksheet-maker page with new numbers for the re-teach group; about one lesson in three in Kindergarten and about half in Grades 1 to 3 meet that. A practice-format lesson with no new idea (Color by Number, a maze, an addition pyramid) is one day or a center, and a fluency lesson (Fact fluency within 10, 2.OA.B.2, 3.OA.C.7) is one launch day plus five minutes a day for weeks, never a three-day block.",
+  "why": "A flat 3 days per teaching point is too much for today's material: it is honest for about a third to a half of the lessons, and its third day is the thin one. One review day and one check day are right but not enough; a check with no day to act on it is ceremony, so a unit ends with a review day, a check day and a response day (re-teach for some, extension for the rest). In Kindergarten the check is watched one child at a time during stations and also takes the three days. The site has no unit review page; the teacher must build it in the worksheet maker. With these numbers today's lessons fill about 15.6 weeks in Kindergarten (30 lessons x 2 + 6 units x 3 = 78 days), 19.6 in Grade 1 (98 days), 20.6 in Grade 2 (103 days) and 24.7 in Grade 3 (123.5 days) out of 28 teaching weeks, so the weeks still empty are about 12, 8, 7 and 3.",
+  "source": "reviews/en.review-1.json; Grade 3 loses two more weeks to the state test and its review"
+ },
+ "moreLessons": {
+  "K.CC.A.1": {
+   "lessons": 4,
+   "why": "Counting to 100 by ones and by tens is built all year; one lesson each for to 20, to 50, to 100 and by tens, plus the daily count."
+  },
+  "K.CC.A.3": {
+   "lessons": 4,
+   "why": "The lesson shown writes 0 to 9 only; 10 to 20 and writing a number for a counted group need their own lessons."
+  },
+  "K.CC.B.5": {
+   "lessons": 4,
+   "why": "Counting things in a line, in rows, in a circle and scattered are four different jobs for a five-year-old, and the standard goes to 20."
+  },
+  "K.CC.C.6": {
+   "lessons": 3,
+   "why": "'Fewer' is a new word, and matching, counting and the 'equal' case each need a day."
+  },
+  "K.OA.A.2": {
+   "lessons": 4,
+   "why": "Story problems within 10: adding to, taking from, and putting together each need a lesson with objects and drawings."
+  },
+  "K.OA.A.3": {
+   "lessons": 5,
+   "why": "Taking a number apart in more than one way is taught number by number (5, 6, 7, 8, 9, 10)."
+  },
+  "K.OA.A.4": {
+   "lessons": 3,
+   "why": "Partners of 10 are the base of all later addition; one lesson is not enough."
+  },
+  "K.OA.A.5": {
+   "lessons": 4,
+   "why": "Fluency within 5 comes from weeks of short practice after the strategy lessons, not from one lesson."
+  },
+  "K.NBT.A.1": {
+   "lessons": 5,
+   "why": "Teen numbers are where Kindergarten classes fall behind; see the ruling."
+  },
+  "K.G.A.2": {
+   "lessons": 3,
+   "why": "Naming shapes whatever their size or the way they are turned needs flat shapes, solid shapes and turned shapes."
+  },
+  "1.OA.A.1": {
+   "lessons": 8,
+   "why": "All story types within 20 with the unknown in every place; compare stories and start-unknown stories are where first graders fail."
+  },
+  "1.OA.B.4": {
+   "lessons": 2,
+   "why": "Subtraction as a missing addend needs a lesson within 10 and one within 20."
+  },
+  "1.OA.C.6": {
+   "lessons": 8,
+   "why": "Adding and subtracting within 20: counting on, making ten, taking apart to ten, doubles, near doubles, think addition, each within its own lesson."
+  },
+  "1.OA.D.8": {
+   "lessons": 3,
+   "why": "The unknown at the end, in the middle and at the start are three steps of difficulty."
+  },
+  "1.NBT.A.1": {
+   "lessons": 3,
+   "why": "Counting to 120 from any number, reading and writing the numbers, and crossing 100."
+  },
+  "1.NBT.B.3": {
+   "lessons": 3,
+   "why": "Comparing two-digit numbers by tens first, then ones, then with the signs <, > and =."
+  },
+  "1.NBT.C.4": {
+   "lessons": 6,
+   "why": "See the ruling: six kinds of sum inside one standard."
+  },
+  "1.NBT.C.5": {
+   "lessons": 2,
+   "why": "Ten more and ten less in the head, first on the hundreds chart and then without it."
+  },
+  "1.MD.A.2": {
+   "lessons": 3,
+   "why": "Laying units end to end with no gaps and no overlaps is a hands-on skill children get wrong for weeks."
+  },
+  "1.MD.B.3": {
+   "lessons": 3,
+   "why": "Time to the hour, to the half hour, and analog with digital."
+  },
+  "2.OA.A.1": {
+   "lessons": 8,
+   "why": "One-step stories of every type, then two-step stories; see the ruling."
+  },
+  "2.OA.B.2": {
+   "lessons": 6,
+   "why": "Six strategy lessons at the start of the year, then daily practice all year."
+  },
+  "2.NBT.A.2": {
+   "lessons": 3,
+   "why": "Counting within 1,000 by 5s, by 10s and by 100s, from numbers that are not multiples."
+  },
+  "2.NBT.A.3": {
+   "lessons": 3,
+   "why": "Numerals, number names and expanded form to 1,000; numbers with a zero in the tens place need a lesson."
+  },
+  "2.NBT.B.5": {
+   "lessons": 10,
+   "why": "The heart of Grade 2: adding without and with a new ten, subtracting without and with regrouping, and checking with the other operation."
+  },
+  "2.NBT.B.7": {
+   "lessons": 8,
+   "why": "Adding and subtracting within 1,000 with models, including regrouping twice and subtracting across a zero."
+  },
+  "2.NBT.B.8": {
+   "lessons": 2,
+   "why": "Ten more or less and a hundred more or less, including across a hundred (295 + 10)."
+  },
+  "2.MD.A.1": {
+   "lessons": 2,
+   "why": "Starting at zero on the ruler and choosing the tool are separate lessons."
+  },
+  "2.MD.C.7": {
+   "lessons": 4,
+   "why": "Time to five minutes: the minute hand by fives, the hour hand between numbers, quarter past and quarter to, a.m. and p.m."
+  },
+  "2.MD.C.8": {
+   "lessons": 5,
+   "why": "Naming the coins, counting like coins, counting mixed coins, dollar bills, and money stories."
+  },
+  "3.OA.A.3": {
+   "lessons": 6,
+   "why": "Equal groups, arrays and measurement stories, for multiplication and for both kinds of division."
+  },
+  "3.OA.B.5": {
+   "lessons": 4,
+   "why": "Turn-around facts, grouping three factors, and breaking a fact apart (the distributive property) are three ideas."
+  },
+  "3.OA.B.6": {
+   "lessons": 2,
+   "why": "Division as a missing factor is the bridge to the division facts."
+  },
+  "3.OA.C.7": {
+   "lessons": 12,
+   "why": "All facts within 100 from memory by the end of the year: taught table by table with the matching division, then practised daily for months."
+  },
+  "3.NBT.A.1": {
+   "lessons": 3,
+   "why": "Rounding to the nearest 10, to the nearest 100, and the halfway case, on a number line."
+  },
+  "3.NBT.A.2": {
+   "lessons": 5,
+   "why": "Adding and subtracting within 1,000 fluently, including across zeros."
+  },
+  "3.NF.A.1": {
+   "lessons": 4,
+   "why": "Unit fractions, then fractions as several unit fractions, with shapes, strips and sets of equal parts."
+  },
+  "3.NF.A.3.a": {
+   "lessons": 4,
+   "why": "Equal fractions (counted together with 3.NF.A.3.b): same size on strips, same point on the number line, then making them."
+  },
+  "3.NF.A.3.d": {
+   "lessons": 3,
+   "why": "Comparing with the same denominator, with the same numerator, and knowing the wholes must be the same size."
+  },
+  "3.MD.A.1": {
+   "lessons": 5,
+   "why": "Time to the minute and elapsed time on a number line; elapsed time across the hour is the hard part."
+  },
+  "3.MD.A.2": {
+   "lessons": 4,
+   "why": "Liquid volume and mass: estimating, measuring, and one-step stories for each."
+  },
+  "3.MD.B.3": {
+   "lessons": 3,
+   "why": "Scaled picture graphs, scaled bar graphs, and 'how many more' questions read from them."
+  },
+  "3.MD.D.8": {
+   "lessons": 4,
+   "why": "Perimeter of polygons, a missing side, and same perimeter with different area and the reverse."
+  }
+ },
+ "order": {
+  "1": [
+   {
+    "unit": "Addition and Subtraction Within 10",
+    "weeks": 6
+   },
+   {
+    "unit": "Doubles, Three Addends, and Addition Pyramids",
+    "weeks": 3
+   },
+   {
+    "unit": "(not named in the dump) the two other Grade 1 units; if one teaches adding and subtracting within 20 it belongs here, and a unit on time or on counting to 120 goes before Tens and Ones",
+    "weeks": 5
+   },
+   {
+    "unit": "Tens and Ones",
+    "weeks": 5
+   },
+   {
+    "unit": "Adding Within 100 (new unit)",
+    "weeks": 4
+   },
+   {
+    "unit": "Shapes, Measuring, and Graphs",
+    "weeks": 5
+   }
+  ],
+  "2": [
+   {
+    "unit": "(not named in the dump) the sixth Grade 2 unit; if it reviews facts within 20 or skip counting it opens the year here, if it is a shapes unit move it to the end",
+    "weeks": 2
+   },
+   {
+    "unit": "Place Value to 1,000",
+    "weeks": 5
+   },
+   {
+    "unit": "Adding and Subtracting Within 100 and 1,000",
+    "weeks": 10
+   },
+   {
+    "unit": "Measurement, Time, and Money",
+    "weeks": 6
+   },
+   {
+    "unit": "Graphs and Grids",
+    "weeks": 2
+   },
+   {
+    "unit": "Equal Groups and Equal Shares",
+    "weeks": 3
+   }
+  ],
+  "3": [
+   {
+    "unit": "(not named in the dump) the Grade 3 unit on rounding and adding and subtracting within 1,000, if there is one",
+    "weeks": 3
+   },
+   {
+    "unit": "Starting Multiplication",
+    "weeks": 4
+   },
+   {
+    "unit": "(not named in the dump) the Grade 3 units that go on with multiplication facts and division",
+    "weeks": 6
+   },
+   {
+    "unit": "Area and Perimeter",
+    "weeks": 4
+   },
+   {
+    "unit": "Two-Step Problems (new unit)",
+    "weeks": 2
+   },
+   {
+    "unit": "Fractions",
+    "weeks": 5
+   },
+   {
+    "unit": "Shapes and Data",
+    "weeks": 2
+   },
+   {
+    "unit": "(not named in the dump) any other Grade 3 unit, for example time, liquid volume and mass",
+    "weeks": 2
+   }
+  ],
+  "K": [
+   {
+    "unit": "Position Words, Size, and Patterns",
+    "weeks": 3
+   },
+   {
+    "unit": "Counting to 10",
+    "weeks": 6
+   },
+   {
+    "unit": "(not named in the dump) the Kindergarten shapes unit (K.G)",
+    "weeks": 3
+   },
+   {
+    "unit": "Counting in Order to 20",
+    "weeks": 4
+   },
+   {
+    "unit": "(not named in the dump) the Kindergarten unit or units on adding, taking away and number partners to 10 (K.OA)",
+    "weeks": 8
+   },
+   {
+    "unit": "Teen Numbers (new unit)",
+    "weeks": 4
+   }
+  ]
  }
 }

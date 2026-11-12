@@ -1,0 +1,605 @@
+{
+ "pacing": {
+  "daysPerLesson": {
+   "1": 2.5,
+   "2": 2.5,
+   "3": 2.5,
+   "K": 2
+  },
+  "rule": "Two class days is the base for one lesson in every grade: a teach day and a practice-and-check day. A lesson earns a third day only when it is a story-problem, missing-number, fact-family, make-ten, teen-number, regrouping, fraction-on-the-number-line or cut-the-shape lesson AND it has a classroom tool, pages at three levels and a worksheet-maker page with new numbers for the re-teach group; about one lesson in three in Kindergarten and about half in Grades 1 to 3 meet that. A practice-format lesson with no new idea (Color by Number, a maze, an addition pyramid) is one day or a center, and a fluency lesson (Fact fluency within 10, 2.OA.B.2, 3.OA.C.7) is one launch day plus five minutes a day for weeks, never a three-day block.",
+  "dayByDay": [
+   "Day 1 (teach): 10 minutes on the projector with the classroom tool where the lesson has one (Ten Frame, Number Line, Number Balance, Rekenrek, The Missing Question). Then the first core practice page done together: the first half modelled, the second half with a partner, while the teacher watches for the 'mistake to expect' from the teacher note. In the 108 of 200 lessons with no tool (for example 'Add two groups', 'Take away: how many are left?', 'Fact families to 10') the teacher has only the core page under the document camera to teach from, and that is a weak opening.",
+   "Day 2 (practice at levels and check): the second practice page at easier / core / harder, given out by what the teacher saw on day 1 (possible in 157 of 200 lessons). The teacher sits with the group that made the expected mistake. The screen task is a 10-minute station or a whole-class round on the projector. The last 5 minutes are the check-up page. 14 lessons have no screen task and 18 have no check-up page; in those, day 2 is one worksheet and nothing else.",
+   "Day 3 (respond), only for the lessons that earn it: sort the check-up pages into three piles. The 'not yet' group goes back to the classroom tool with the teacher and then does a fresh easier page from the worksheet maker; the others do a harder maker page or the screen task as a station. This day is honest only if the maker page has new numbers or a new story. Printing the same page again is a repeat.",
+   "What makes a day thin: the map's own day 3 ('screen task and check-up page') is 15 to 20 minutes of material in a 60-minute math block. It is the end of day 2, not a day.",
+   "What makes a day a repeat: in most lessons of the two units shown the check-up page has the same title as the core practice page (Add the Pictures, Cross Out and Subtract, Count On!, Fact Families to 10, One for Each, Count and Write, Count and Color, More or Less?). If it is the same sheet, the check is a second copy of yesterday's work and tells the teacher nothing. A check-up page must be a different, shorter page (3 to 5 items).",
+   "Kindergarten: a K page takes 8 to 12 minutes and most K lessons shown have core pages only, no easier or harder page ('One for Each' is one core page, no tool, no levels). The paper carries one day. The second day in K is hands-on (real objects to touch and count, the Ten Frame tool, the screen task at a station), and the site gives the teacher no directions for that part. Without objects in hand, K is 1.5 days per lesson.",
+   "Lessons that are really routines: 'Write the numbers 0 to 9' is ten minutes a day for two weeks (one or two numerals a day), 'How many? Look fast' is a three-minute quick look every day for months, and 'Fact fluency within 10' is daily practice until winter. Count one launch day for each and put the rest in the daily routine."
+  ],
+  "unitEndDays": 3,
+  "why": "A flat 3 days per teaching point is too much for today's material: it is honest for about a third to a half of the lessons, and its third day is the thin one. One review day and one check day are right but not enough; a check with no day to act on it is ceremony, so a unit ends with a review day, a check day and a response day (re-teach for some, extension for the rest). In Kindergarten the check is watched one child at a time during stations and also takes the three days. The site has no unit review page; the teacher must build it in the worksheet maker. With these numbers today's lessons fill about 15.6 weeks in Kindergarten (30 lessons x 2 + 6 units x 3 = 78 days), 19.6 in Grade 1 (98 days), 20.6 in Grade 2 (103 days) and 24.7 in Grade 3 (123.5 days) out of 28 teaching weeks, so the weeks still empty are about 12, 8, 7 and 3.",
+  "teachingWeeksOf36": 28,
+  "whatElseTheYearHolds": [
+   "First weeks of school (rules and routines, how to use counters and the screen, beginning-of-year screener): 2 weeks, 3 in Kindergarten",
+   "District benchmark windows in fall, winter and spring (MAP, i-Ready or similar; each costs 2 to 3 math blocks plus make-up sessions): 1.5 weeks",
+   "End-of-quarter or trimester review and report-card assessments: 1.5 weeks",
+   "Calendar losses (assemblies, field trips, picture day, half days before breaks, conference days, weather days, days with a substitute): 2 weeks",
+   "Last week of school (nothing new is taught): 1 week",
+   "Grade 3 only, state test review and the test window: 2 more weeks in most states, taken out of the 28; cut them from the last two units of the Grade 3 order",
+   "Re-teaching days after unit checks: 1 day per unit, about 1.5 weeks a year; counted inside the 28 weeks as the third unit-end day",
+   "Daily fact practice and number routines (counting aloud, quick looks, number talks): 5 to 10 minutes of every math block, equal to about 4 weeks of class time over the year; these are not extra weeks, they shorten every lesson day, and they are where the fluency standards are really taught",
+   "Spiral review (a mixed-review page each week or a review day every second Friday): about 3 weeks of class time inside the 28; the map has no material for it except the worksheet maker"
+  ]
+ },
+ "rulings": [
+  {
+   "code": "K.CC.B.4.a",
+   "verdict": "ok",
+   "answer": "teacher-led",
+   "unit": "Counting to 10",
+   "note": "Right kind and right home. Make it the first lesson of the unit, before 'Count and write how many', and give the teacher a one-child-at-a-time watch list (touches each object once, says one number per touch, keeps the count order); it stays a daily routine for the first six to eight weeks, not one lesson."
+  },
+  {
+   "code": "K.CC.C.7",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Counting in Order to 20",
+   "note": "Acceptable mid-year when numerals are secure, but keep the numbers 1 to 10 although the unit goes to 20, ask for the lesser number as well as the greater, use no <, > or = signs (those are Grade 1), and give an easier page where each numeral still has its dots or its place on a number path. A page of bare numerals alone is the end of the lesson, not the lesson."
+  },
+  {
+   "code": "K.NBT.A.1",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Teen Numbers (new unit)",
+   "note": "Right, but it is a unit of five or six lessons, not a page: count ten and some more with objects, build on two ten-frames, say 'ten and three', take a teen number apart again, write 13 = 10 + 3, and tell 13 from 31. Open each lesson with the Ten Frame tool."
+  },
+  {
+   "code": "K.MD.A.1",
+   "verdict": "ok",
+   "answer": "teacher-led",
+   "unit": "Position Words, Size, and Patterns",
+   "note": "Right. The standard asks for several measurable attributes of ONE object, so the lesson needs a named object list (a water bottle, a book, a shoe) and sentence frames ('It is long. It is heavy. It holds a lot.')."
+  },
+  {
+   "code": "1.OA.A.2",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Doubles, Three Addends, and Addition Pyramids",
+   "note": "Right. Each problem needs a drawing and an equation with a box for the unknown, and some stories where two of the three numbers make ten."
+  },
+  {
+   "code": "1.OA.D.7",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Addition and Subtraction Within 10",
+   "note": "Right home. Put it BEFORE 'Find the missing number' and open it with the Number Balance tool, because the missing-number lesson fails when children read = as 'the answer comes next'. Include 6 = 6, 7 = 8 - 1, 5 + 2 = 2 + 5 and a false 4 + 1 = 5 + 2."
+  },
+  {
+   "code": "1.NBT.B.2.b",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Tens and Ones",
+   "note": "Right."
+  },
+  {
+   "code": "1.NBT.B.2.c",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Tens and Ones",
+   "note": "Right. Say 'four tens and zero ones' on the page, not only the numeral 40."
+  },
+  {
+   "code": "1.NBT.C.4",
+   "verdict": "change",
+   "answer": "worksheet",
+   "unit": "Adding Within 100 (new unit)",
+   "note": "The description leaves out half the standard: making a new ten (27 + 5) and adding two two-digit numbers with ten-rods and cubes (tens with tens, ones with ones) are both Grade 1. It needs about six lessons: plus a multiple of ten; plus ones with no new ten; plus ones with a new ten; two-digit plus two-digit without and with a new ten; saying why the way works. Base-ten drawings and the hundreds chart come before the open number line in Grade 1."
+  },
+  {
+   "code": "1.NBT.C.6",
+   "verdict": "change",
+   "answer": "worksheet",
+   "unit": "Adding Within 100 (new unit)",
+   "note": "The content is right, but a teacher looking for 70 - 30 will not open a unit called 'Adding Within 100'. Rename the unit (for example 'Adding Within 100 and Subtracting Tens') or place the lesson in Tens and Ones right after the decade-numbers lesson, where 7 tens take away 3 tens follows naturally."
+  },
+  {
+   "code": "1.G.A.3",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Shapes, Measuring, and Graphs",
+   "note": "Right. The page must use the words halves, fourths and quarters, show shapes cut into unequal parts as non-examples, and ask which share is smaller, a half or a fourth of the same shape."
+  },
+  {
+   "code": "2.OA.B.2",
+   "verdict": "change",
+   "answer": "worksheet",
+   "unit": "A year-long daily routine that opens the year (before Place Value to 1,000), not a lesson inside Adding and Subtracting Within 100 and 1,000",
+   "note": "The standard is 'by end of Grade 2, know from memory'. Fact pages at the start of one unit do not teach it. It needs two weeks of strategy lessons at the start of the year (make ten, doubles and near doubles, think addition to subtract), then a five-minute fact strip every day in every unit, and a facts check four times a year."
+  },
+  {
+   "code": "2.OA.A.1",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "note": "Right kind and home, but one lesson does not teach it. The standard covers every story type with the unknown in every place; compare stories ('3 fewer than') and start-unknown stories need lessons of their own before two-step stories. Plan about eight lessons spread through the year."
+  },
+  {
+   "code": "2.NBT.A.1.a",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Place Value to 1,000",
+   "note": "Right. It can share one lesson with 2.NBT.A.1.b."
+  },
+  {
+   "code": "2.NBT.A.1.b",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Place Value to 1,000",
+   "note": "Right."
+  },
+  {
+   "code": "2.NBT.B.6",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "note": "Right. Teach it after two-digit addition with regrouping is secure, and lead with making tens and adding tens then ones; columns are one way of writing it down, not the method the standard asks for."
+  },
+  {
+   "code": "2.NBT.B.9",
+   "verdict": "ok",
+   "answer": "teacher-led",
+   "unit": "Adding and Subtracting Within 100 and 1,000",
+   "note": "Right. Make it a weekly number talk through the whole unit, not one lesson, and let children explain with drawings of tens and ones."
+  },
+  {
+   "code": "2.MD.D.9",
+   "verdict": "change",
+   "answer": "worksheet",
+   "unit": "Graphs and Grids",
+   "note": "The standard says children generate the data by measuring. The lesson must be: measure real things (ten pencils, ten shoes) with a ruler, write the lengths on a recording page, then build the line plot. Pictures on a page measured with a child's own ruler come out wrong whenever the printer scales the page. The unit must also come after Measurement, Time, and Money in the year."
+  },
+  {
+   "code": "2.MD.A.2",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Measurement, Time, and Money",
+   "note": "Right. Print the two rulers on the same page as the object so printer scaling cannot break the answer, and ask for the sentence 'the smaller the unit, the more of them you need'."
+  },
+  {
+   "code": "2.MD.A.3",
+   "verdict": "change",
+   "answer": "teacher-led",
+   "unit": "Measurement, Time, and Money",
+   "note": "Feet and meters cannot be estimated on a sheet of paper, and choosing a unit is not the same as estimating. This is a hands-on lesson: learn body benchmarks (a fingertip is about a centimeter, a thumb joint an inch, a ruler a foot, the door width a meter), estimate the desk, the door and the rug, then measure and compare. The page is only the recording sheet."
+  },
+  {
+   "code": "2.MD.B.5",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Measurement, Time, and Money",
+   "note": "Right. Each problem needs an equation with a box for the unknown beside the drawing."
+  },
+  {
+   "code": "2.G.A.2",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Equal Groups and Equal Shares",
+   "note": "Right. Children must draw the lines themselves; the easier page gives tick marks on the edges, the harder page gives none."
+  },
+  {
+   "code": "3.OA.D.8",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Two-Step Problems (new unit)",
+   "note": "Right, as a unit of five or six lessons placed after multiplication, division, rounding and adding within 1,000. It must not be the only place two-step stories appear: each operation unit should end with one, and the unit needs a lesson on which step comes first."
+  },
+  {
+   "code": "3.NBT.A.3",
+   "verdict": "change",
+   "answer": "worksheet",
+   "unit": "The last multiplication unit of Grade 3 (its title is not in the dump), not Starting Multiplication",
+   "note": "4 x 60 rests on knowing 4 x 6. In the unit that introduces multiplication children do not have the facts yet. Teach it after the facts to 10 x 10 are learned."
+  },
+  {
+   "code": "3.NF.A.2.a",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "note": "Right. The mistake to plan for: children count the tick marks, not the spaces, and so cut the line into one part too few."
+  },
+  {
+   "code": "3.NF.A.2.b",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "note": "Right. Go past 1 (5/4, 7/4) and keep to the denominators 2, 3, 4, 6 and 8."
+  },
+  {
+   "code": "3.NF.A.3.c",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Fractions",
+   "note": "Right."
+  },
+  {
+   "code": "3.MD.B.4",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Shapes and Data",
+   "note": "Right, with the ruler printed on the page. Shapes and Data must come after Fractions in the year, because the line plot is a number line with halves and fourths."
+  },
+  {
+   "code": "3.MD.C.5.a",
+   "verdict": "change",
+   "answer": "teacher-led",
+   "unit": "Area and Perimeter",
+   "note": "This is a definition, not a page of practice. A separate worksheet for it would be padding. Make it the ten-minute opening of the cover-and-count lesson (3.MD.C.5.b), with square tiles in hand."
+  },
+  {
+   "code": "3.MD.C.5.b",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "note": "Right. Show covers with gaps and with overlaps as wrong examples to fix."
+  },
+  {
+   "code": "3.MD.C.7.b",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "note": "Right. Add the other direction too: draw a rectangle that shows 6 x 4. Answers are written in square units."
+  },
+  {
+   "code": "3.MD.C.7.c",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "note": "Right, with numbers and tiles only (6 x 7 = 6 x 5 + 6 x 2). The letters a, b and c belong in the teacher note, not on a third-grade page."
+  },
+  {
+   "code": "3.MD.C.7.d",
+   "verdict": "ok",
+   "answer": "worksheet",
+   "unit": "Area and Perimeter",
+   "note": "Right. The hard part is finding the side lengths that are not written; the easier page draws the shape on a grid, the harder page leaves two sides unlabelled."
+  }
+ ],
+ "needMoreLessons": [
+  {
+   "code": "K.CC.A.1",
+   "lessons": 4,
+   "why": "Counting to 100 by ones and by tens is built all year; one lesson each for to 20, to 50, to 100 and by tens, plus the daily count."
+  },
+  {
+   "code": "K.CC.A.3",
+   "lessons": 4,
+   "why": "The lesson shown writes 0 to 9 only; 10 to 20 and writing a number for a counted group need their own lessons."
+  },
+  {
+   "code": "K.CC.B.5",
+   "lessons": 4,
+   "why": "Counting things in a line, in rows, in a circle and scattered are four different jobs for a five-year-old, and the standard goes to 20."
+  },
+  {
+   "code": "K.CC.C.6",
+   "lessons": 3,
+   "why": "'Fewer' is a new word, and matching, counting and the 'equal' case each need a day."
+  },
+  {
+   "code": "K.OA.A.2",
+   "lessons": 4,
+   "why": "Story problems within 10: adding to, taking from, and putting together each need a lesson with objects and drawings."
+  },
+  {
+   "code": "K.OA.A.3",
+   "lessons": 5,
+   "why": "Taking a number apart in more than one way is taught number by number (5, 6, 7, 8, 9, 10)."
+  },
+  {
+   "code": "K.OA.A.4",
+   "lessons": 3,
+   "why": "Partners of 10 are the base of all later addition; one lesson is not enough."
+  },
+  {
+   "code": "K.OA.A.5",
+   "lessons": 4,
+   "why": "Fluency within 5 comes from weeks of short practice after the strategy lessons, not from one lesson."
+  },
+  {
+   "code": "K.NBT.A.1",
+   "lessons": 5,
+   "why": "Teen numbers are where Kindergarten classes fall behind; see the ruling."
+  },
+  {
+   "code": "K.G.A.2",
+   "lessons": 3,
+   "why": "Naming shapes whatever their size or the way they are turned needs flat shapes, solid shapes and turned shapes."
+  },
+  {
+   "code": "1.OA.A.1",
+   "lessons": 8,
+   "why": "All story types within 20 with the unknown in every place; compare stories and start-unknown stories are where first graders fail."
+  },
+  {
+   "code": "1.OA.B.4",
+   "lessons": 2,
+   "why": "Subtraction as a missing addend needs a lesson within 10 and one within 20."
+  },
+  {
+   "code": "1.OA.C.6",
+   "lessons": 8,
+   "why": "Adding and subtracting within 20: counting on, making ten, taking apart to ten, doubles, near doubles, think addition, each within its own lesson."
+  },
+  {
+   "code": "1.OA.D.8",
+   "lessons": 3,
+   "why": "The unknown at the end, in the middle and at the start are three steps of difficulty."
+  },
+  {
+   "code": "1.NBT.A.1",
+   "lessons": 3,
+   "why": "Counting to 120 from any number, reading and writing the numbers, and crossing 100."
+  },
+  {
+   "code": "1.NBT.B.3",
+   "lessons": 3,
+   "why": "Comparing two-digit numbers by tens first, then ones, then with the signs <, > and =."
+  },
+  {
+   "code": "1.NBT.C.4",
+   "lessons": 6,
+   "why": "See the ruling: six kinds of sum inside one standard."
+  },
+  {
+   "code": "1.NBT.C.5",
+   "lessons": 2,
+   "why": "Ten more and ten less in the head, first on the hundreds chart and then without it."
+  },
+  {
+   "code": "1.MD.A.2",
+   "lessons": 3,
+   "why": "Laying units end to end with no gaps and no overlaps is a hands-on skill children get wrong for weeks."
+  },
+  {
+   "code": "1.MD.B.3",
+   "lessons": 3,
+   "why": "Time to the hour, to the half hour, and analog with digital."
+  },
+  {
+   "code": "2.OA.A.1",
+   "lessons": 8,
+   "why": "One-step stories of every type, then two-step stories; see the ruling."
+  },
+  {
+   "code": "2.OA.B.2",
+   "lessons": 6,
+   "why": "Six strategy lessons at the start of the year, then daily practice all year."
+  },
+  {
+   "code": "2.NBT.A.2",
+   "lessons": 3,
+   "why": "Counting within 1,000 by 5s, by 10s and by 100s, from numbers that are not multiples."
+  },
+  {
+   "code": "2.NBT.A.3",
+   "lessons": 3,
+   "why": "Numerals, number names and expanded form to 1,000; numbers with a zero in the tens place need a lesson."
+  },
+  {
+   "code": "2.NBT.B.5",
+   "lessons": 10,
+   "why": "The heart of Grade 2: adding without and with a new ten, subtracting without and with regrouping, and checking with the other operation."
+  },
+  {
+   "code": "2.NBT.B.7",
+   "lessons": 8,
+   "why": "Adding and subtracting within 1,000 with models, including regrouping twice and subtracting across a zero."
+  },
+  {
+   "code": "2.NBT.B.8",
+   "lessons": 2,
+   "why": "Ten more or less and a hundred more or less, including across a hundred (295 + 10)."
+  },
+  {
+   "code": "2.MD.A.1",
+   "lessons": 2,
+   "why": "Starting at zero on the ruler and choosing the tool are separate lessons."
+  },
+  {
+   "code": "2.MD.C.7",
+   "lessons": 4,
+   "why": "Time to five minutes: the minute hand by fives, the hour hand between numbers, quarter past and quarter to, a.m. and p.m."
+  },
+  {
+   "code": "2.MD.C.8",
+   "lessons": 5,
+   "why": "Naming the coins, counting like coins, counting mixed coins, dollar bills, and money stories."
+  },
+  {
+   "code": "3.OA.A.3",
+   "lessons": 6,
+   "why": "Equal groups, arrays and measurement stories, for multiplication and for both kinds of division."
+  },
+  {
+   "code": "3.OA.B.5",
+   "lessons": 4,
+   "why": "Turn-around facts, grouping three factors, and breaking a fact apart (the distributive property) are three ideas."
+  },
+  {
+   "code": "3.OA.B.6",
+   "lessons": 2,
+   "why": "Division as a missing factor is the bridge to the division facts."
+  },
+  {
+   "code": "3.OA.C.7",
+   "lessons": 12,
+   "why": "All facts within 100 from memory by the end of the year: taught table by table with the matching division, then practised daily for months."
+  },
+  {
+   "code": "3.NBT.A.1",
+   "lessons": 3,
+   "why": "Rounding to the nearest 10, to the nearest 100, and the halfway case, on a number line."
+  },
+  {
+   "code": "3.NBT.A.2",
+   "lessons": 5,
+   "why": "Adding and subtracting within 1,000 fluently, including across zeros."
+  },
+  {
+   "code": "3.NF.A.1",
+   "lessons": 4,
+   "why": "Unit fractions, then fractions as several unit fractions, with shapes, strips and sets of equal parts."
+  },
+  {
+   "code": "3.NF.A.3.a",
+   "lessons": 4,
+   "why": "Equal fractions (counted together with 3.NF.A.3.b): same size on strips, same point on the number line, then making them."
+  },
+  {
+   "code": "3.NF.A.3.d",
+   "lessons": 3,
+   "why": "Comparing with the same denominator, with the same numerator, and knowing the wholes must be the same size."
+  },
+  {
+   "code": "3.MD.A.1",
+   "lessons": 5,
+   "why": "Time to the minute and elapsed time on a number line; elapsed time across the hour is the hard part."
+  },
+  {
+   "code": "3.MD.A.2",
+   "lessons": 4,
+   "why": "Liquid volume and mass: estimating, measuring, and one-step stories for each."
+  },
+  {
+   "code": "3.MD.B.3",
+   "lessons": 3,
+   "why": "Scaled picture graphs, scaled bar graphs, and 'how many more' questions read from them."
+  },
+  {
+   "code": "3.MD.D.8",
+   "lessons": 4,
+   "why": "Perimeter of polygons, a missing side, and same perimeter with different area and the reverse."
+  }
+ ],
+ "order": {
+  "1": [
+   {
+    "unit": "Addition and Subtraction Within 10",
+    "weeks": 6
+   },
+   {
+    "unit": "Doubles, Three Addends, and Addition Pyramids",
+    "weeks": 3
+   },
+   {
+    "unit": "(not named in the dump) the two other Grade 1 units; if one teaches adding and subtracting within 20 it belongs here, and a unit on time or on counting to 120 goes before Tens and Ones",
+    "weeks": 5
+   },
+   {
+    "unit": "Tens and Ones",
+    "weeks": 5
+   },
+   {
+    "unit": "Adding Within 100 (new unit)",
+    "weeks": 4
+   },
+   {
+    "unit": "Shapes, Measuring, and Graphs",
+    "weeks": 5
+   }
+  ],
+  "2": [
+   {
+    "unit": "(not named in the dump) the sixth Grade 2 unit; if it reviews facts within 20 or skip counting it opens the year here, if it is a shapes unit move it to the end",
+    "weeks": 2
+   },
+   {
+    "unit": "Place Value to 1,000",
+    "weeks": 5
+   },
+   {
+    "unit": "Adding and Subtracting Within 100 and 1,000",
+    "weeks": 10
+   },
+   {
+    "unit": "Measurement, Time, and Money",
+    "weeks": 6
+   },
+   {
+    "unit": "Graphs and Grids",
+    "weeks": 2
+   },
+   {
+    "unit": "Equal Groups and Equal Shares",
+    "weeks": 3
+   }
+  ],
+  "3": [
+   {
+    "unit": "(not named in the dump) the Grade 3 unit on rounding and adding and subtracting within 1,000, if there is one",
+    "weeks": 3
+   },
+   {
+    "unit": "Starting Multiplication",
+    "weeks": 4
+   },
+   {
+    "unit": "(not named in the dump) the Grade 3 units that go on with multiplication facts and division",
+    "weeks": 6
+   },
+   {
+    "unit": "Area and Perimeter",
+    "weeks": 4
+   },
+   {
+    "unit": "Two-Step Problems (new unit)",
+    "weeks": 2
+   },
+   {
+    "unit": "Fractions",
+    "weeks": 5
+   },
+   {
+    "unit": "Shapes and Data",
+    "weeks": 2
+   },
+   {
+    "unit": "(not named in the dump) any other Grade 3 unit, for example time, liquid volume and mass",
+    "weeks": 2
+   }
+  ],
+  "K": [
+   {
+    "unit": "Position Words, Size, and Patterns",
+    "weeks": 3
+   },
+   {
+    "unit": "Counting to 10",
+    "weeks": 6
+   },
+   {
+    "unit": "(not named in the dump) the Kindergarten shapes unit (K.G)",
+    "weeks": 3
+   },
+   {
+    "unit": "Counting in Order to 20",
+    "weeks": 4
+   },
+   {
+    "unit": "(not named in the dump) the Kindergarten unit or units on adding, taking away and number partners to 10 (K.OA)",
+    "weeks": 8
+   },
+   {
+    "unit": "Teen Numbers (new unit)",
+    "weeks": 4
+   }
+  ]
+ },
+ "biggestRisks": [
+  "A plan that calls a ten-minute screen task and a five-minute check-up page a full class day is padding, and a teacher sees it on the first Wednesday: she has a 60-minute block and 20 minutes of material.",
+  "The check-up page has the same title as the practice page in most lessons shown; if it is the same sheet the check measures nothing, and a teacher who notices it once stops trusting every check in the plan.",
+  "Fluency standards (K.OA.A.5, 1.OA.C.6, 2.OA.B.2, 2.NBT.B.5, 3.OA.C.7) are counted as 'taught' by one lesson, while every teacher knows they take months of daily practice; the map fills weeks by stretching lessons to 3 days when it should add the missing lessons to these standards and to story problems.",
+  "108 of 200 lessons have no classroom tool and Kindergarten lessons give no directions for real objects, so the 'teach' day has nothing to teach from but the worksheet; and 'Counting to 10' in 'about 2 weeks' is a third of the time a real Kindergarten spends on it.",
+  "The 32 teaching weeks ignore benchmark windows, report-card weeks, lost days and the Grade 3 state test (28 is honest, 26 in Grade 3), and some rulings break the order of learning (4 x 60 in Starting Multiplication, line plots before the measuring and fraction units), which a teacher following the plan week by week will hit in class."
+ ]
+}

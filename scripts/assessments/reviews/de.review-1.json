@@ -1,0 +1,451 @@
+{
+  "term": {
+    "ok": true,
+    "why": "„Lernkontrolle“ ist an deutschen Grundschulen und bei Schulbuchverlagen der gängige Name für eine kurze, von der Lehrkraft selbst eingesetzte Überprüfung zu einer Einheit. Er klingt nicht nach VERA, Vergleichsarbeit, Lernstandserhebung oder Kompetenztest. Einschränkung: In Niedersachsen und Hessen heißen auch die bewerteten Arbeiten „schriftliche Lernkontrollen“. Deshalb muss der Satz „kein standardisierter Test, keine Note“ überall stehen bleiben, wo er jetzt steht. Für Fassung A (vor der Einheit) ist das Wort etwas ungewohnt, aber mit dem Zusatz „vor und nach der Einheit“ verständlich. Einen besseren unverfänglichen Namen sehe ich nicht („Lernstandscheck“ läge zu nah an „Lernstandserhebung“)."
+  },
+  "parts": [
+    {
+      "unit": "g1-add-subtract-within-10",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A und B: Der Zahlenstrahl geht bis 20, die Kinder landen bei 15 bzw. 17, also außerhalb des Zahlenraums der Einheit (bis 10), und auf Strichen ohne Zahl (nur gerade Zahlen sind beschriftet). Felder mit Start und Ziel bis 10 nehmen; gibt es die im Arbeitsblatt nicht, den Teil streichen. Außerdem prüfen, dass die Sprungbögen auf dem Kinderblatt gedruckt sind, sonst fehlt die Anzahl der Sprünge und die Aufgabe ist unlösbar."
+    },
+    {
+      "unit": "de2-zahlen-bis-100",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A und B: Die Schreibweise „□ ■·10 + □“ kennt kein Kind der Klasse 2 und keine deutsche Lehrkraft; unklar, was in welches Kästchen gehört. Richtig wäre die Stellenwert-Schreibweise „□ Z  □ E“ (oder „□ Zehner und □ Einer“). In den Lösungen fehlt außerdem der eingekreiste Zehner, den der Auftrag verlangt."
+    },
+    {
+      "unit": "de2-zahlen-bis-100",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A und B: Feld 1 ist in beiden Fassungen ein Paar gleicher Zahlen (86 = 86, 89 = 89), an derselben Stelle; das ist trivial und B wiederholt A der Art nach wörtlich. Auch 10 < 62 und 63 > 32 prüfen den Stellenwert kaum. Je Fassung ein Feld durch ein Paar mit gleichem Zehner oder vertauschten Ziffern ersetzen (z. B. 58 und 52, 47 und 74)."
+    },
+    {
+      "unit": "de2-teilen",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A und B prüfen beide nur 1/2, obwohl die Stunde Hälfte, Drittel und Viertel behandelt; B (die Hälfte von 4) ist deutlich leichter als A (die Hälfte von 6). Je Fassung zwei Felder nehmen: einmal 1/2 und einmal 1/4 oder 1/3 mit ähnlich großen Mengen (z. B. 8 und 12 Bilder)."
+    },
+    {
+      "unit": "de3-zahlen-bis-1000",
+      "part": 2,
+      "verdict": "fix",
+      "why": "B Feld 1: Beide falschen Zerlegungen (40 + 80 + 70, 40 + 70 + 8) haben keinen Hunderter; die richtige ist die einzige mit 400 und wird ohne Blick auf Zehner und Einer gefunden. In A beginnen alle drei mit 500. B braucht Ablenker wie in A, z. B. 400 + 70 + 8 und 400 + 8 + 70."
+    },
+    {
+      "unit": "de3-runden-schriftlich",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A (31 + 34) und B (13 + 51): nur Zehnerstangen und Einerwürfel, zweistellig, ohne Zehnerübergang. Das ist Stoff der Klasse 2; die Stunde heißt „Mit Platten, Stangen und Würfeln addieren“ und die Einheit geht bis 1000. Felder mit Hunderterplatten (dreistellige Zahlen) nehmen, sonst diesen Teil streichen."
+    },
+    {
+      "unit": "de3-runden-schriftlich",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A (67 − 31) und B (47 − 12): wie Teil 1 nur zweistellig und ohne Entbündeln, keine Platte zu sehen. Für Klasse 3 zu leicht und nicht das, was der Stundentitel nennt. Dreistellige Felder nehmen, sonst streichen."
+    },
+    {
+      "unit": "de3-runden-schriftlich",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A (21 + 62) und B (20 + 46): zweistellig in einer Einheit „bis 1000“; B ist durch die 0 an der Einerstelle leichter. Die Stunde heißt „addieren und subtrahieren“, geprüft wird nur ein Plus-Feld. Je Fassung eine dreistellige Addition und eine dreistellige Subtraktion ohne Übertrag nehmen."
+    },
+    {
+      "unit": "de3-runden-schriftlich",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A (62 + 82 = 144) hat nur an der Zehnerstelle einen Übertrag in eine neue Stelle, B (58 + 66 = 124) hat zwei Überträge: B ist klar schwerer. Die Übertragskästchen stehen über der Aufgabe; in Deutschland wird die Merkzahl klein unten an den Strich geschrieben. In den Lösungen sind die Übertragskästchen leer, die Überträge fehlen also. Subtraktion mit Übertrag wird nicht geprüft."
+    },
+    {
+      "unit": "g1-sounds-spelling-syllables",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A Feld 2 „Zebra“ und B Feld 2 „Zitrone“: Die Lösung zeigt Ze-bra und Zi-tro-ne, nach Duden sind auch Zeb-ra und Zit-ro-ne richtig. Entweder beide Wörter durch Wörter mit eindeutiger Silbengrenze ersetzen (z. B. „Rabe“, „Banane“) oder in den Seiten für die Lehrkraft festlegen, dass die Anzahl der Bögen zählt, nicht die genaue Grenze."
+    },
+    {
+      "unit": "g1-sounds-spelling-syllables",
+      "part": 2,
+      "verdict": "fix",
+      "why": "B Feld 2 „Katze“: Die Lösung setzt „tz“ in ein Kästchen; Kinder hören K-a-t-s-e und schreiben begründet K-a-t-z-e in fünf Kästchen. A Feld 1 „Schwan“: Die sechs Kästchen passen genau auf S-c-h-w-a-n, was zum Buchstabenzählen verleitet. A hat in beiden Feldern „sch“ (Schwan, Fisch), B keines: nicht dieselbe Aufgabe, und die Stunde „sch, ch und au“ hat gar keinen Teil. Vier lautgetreue Wörter ohne sch/ch/tz/z nehmen (z. B. A: Rabe, Esel; B: Hase, Igel) oder je Fassung genau ein sch-Wort."
+    },
+    {
+      "unit": "g1-sounds-spelling-syllables",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A Feld 1 „Fledermaus“ (10 Buchstaben, Fl, er, au) gegen B Feld 1 „Birne“: nicht dasselbe Niveau. B Feld 2 „Brombeere“: Doppelvokal ee ist nicht lautgetreu (Kinder schreiben „Brombere“), und viele Erstklässler nennen das Bild „Himbeere“, „Beere“ oder „Traube“. Zweisilbige lautgetreue Wörter in beiden Fassungen nehmen (A: Tiger und z. B. Hase; B: Birne und z. B. Melone)."
+    },
+    {
+      "unit": "g1-reading-sentences-and-stories",
+      "part": 1,
+      "verdict": "fix",
+      "why": "B Feld 1 „Sind das deine Cranberrys?“: „Cranberrys“ ist ein englisches Wort, das ein Kind der Klasse 1 nicht erlesen kann; das Bild sieht aus wie eine Kirsche. Außerdem ist B ein Fragesatz mit dem Verb vorn, A ein Aussagesatz: B ist schwerer. Ersetzen durch einen Aussagesatz mit vier Wörtern wie in A, z. B. „Mia hat zwei Birnen.“ In A ist „Noah“ für Leseanfänger schwer zu erlesen; ein lautgetreuer Name (Tom, Lena) wäre besser."
+    },
+    {
+      "unit": "g1-reading-sentences-and-stories",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A Feld 1 „Ben mag den Jeep.“: „Jeep“ ist englisch und für Klasse 1 nicht erlesbar; durch ein deutsches Wort ersetzen (z. B. „den Hund“). A fragt Was und Wo, B fragt Was und Wer: Wer (Name am Satzanfang) ist am leichtesten, Wo kommt in B nicht vor; „Was“ steht in beiden Fassungen in Feld 1. Die Bilder widersprechen den Sätzen (ein Koch in der Küche zu „Finn ist am Fluss“, eine Paketbotin zu „Mia isst“); „Finn“ kommt in A und B vor."
+    },
+    {
+      "unit": "g3-words-and-their-meanings",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A verlangt zweimal -erin (Lehrerin, Näherin), B zweimal -er (Bäcker, Musiker): Keine Fassung prüft die Entscheidung zwischen -er und -erin. B ist schwerer und anders: „backen → Bäcker“ braucht den Umlaut, „Musik“ ist kein Verb, obwohl die Stunde „Wer macht das?“ heißt. Je Fassung ein -er- und ein -erin-Feld mit Verb als Grundwort, höchstens ein Umlautwort und dann in beiden Fassungen."
+    },
+    {
+      "unit": "g3-words-and-their-meanings",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A Feld 2 „Auto → es“ ist die naheliegende Wahl für eine Sache; B Feld 1 „Bus → er“ verlangt das Genus gegen diese Erwartung und ist der eigentliche Lernstoff. A ist dadurch leichter. In A „Auto“ durch eine Sache mit der oder die ersetzen (z. B. Ball, Lampe), damit beide Fassungen einen Namen und eine solche Sache haben. Die Wörter stehen ohne Artikel da; das ist in Ordnung, sollte aber so bleiben in beiden Fassungen."
+    }
+  ],
+  "instruction": [
+    {
+      "type": "G1-116",
+      "unit": "g1-add-subtract-within-10",
+      "part": 4,
+      "now": "Starte beim Punkt. Hüpfe vorwärts und schreibe auf, wo du landest.",
+      "better": "Starte beim Punkt. Folge den Sprüngen und schreibe auf, bei welcher Zahl du landest.",
+      "why": "„Hüpfe vorwärts“ sagt nicht, wie oft; die Sprünge sind gezeichnet und müssen genannt werden."
+    },
+    {
+      "type": "",
+      "unit": "g1-add-subtract-within-10",
+      "part": 5,
+      "now": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören.",
+      "better": "Im Dach stehen drei Zahlen. Rechne die vier Aufgaben aus, die dazugehören.",
+      "why": "Die Zahlen stehen im Dach, nicht darauf; „vervollständige“ ist für Klasse 1 zu schwer, die Aufgaben stehen schon da."
+    },
+    {
+      "type": "",
+      "unit": "g1-add-subtract-within-10",
+      "part": 7,
+      "now": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen.",
+      "better": "Rechne jede Aufgabe im Kopf. Schreibe das Ergebnis in das Kästchen.",
+      "why": "Hier fehlt das Ergebnis; „fehlende Zahl“ ist der Wortlaut der Platzhalteraufgaben in Teil 6."
+    },
+    {
+      "type": "G1-287",
+      "unit": "g1-doubles-three-addends-number-walls",
+      "part": 1,
+      "now": "Jede Karte zeigt eine Verdopplung. Schreibe auf, wie viele es zusammen sind.",
+      "better": "Jede Karte zeigt eine Verdopplungsaufgabe. Schreibe das Ergebnis auf.",
+      "why": "„Verdopplungsaufgabe“ ist der Begriff aus dem Unterricht; „eine Verdopplung“ ist für Klasse 1 zu abstrakt."
+    },
+    {
+      "type": "G1-275",
+      "unit": "de1-zahlen-bis-20",
+      "part": 3,
+      "now": "Auf diesem Zahlenstrahl stehen nur 0, 10 und 20. Zähle in Einern und schreibe die Zahl, auf die jeder Pfeil zeigt.",
+      "better": "Auf diesem Zahlenstrahl stehen nur 0, 10 und 20. Zähle in Einerschritten. Schreibe zu jedem Pfeil die Zahl auf, auf die er zeigt.",
+      "why": "„In Einerschritten zählen“ ist der übliche Ausdruck; „die Zahl, auf die jeder Pfeil zeigt“ klingt, als zeigten alle Pfeile auf eine Zahl."
+    },
+    {
+      "type": "G2-305",
+      "unit": "de2-zahlen-bis-100",
+      "part": 5,
+      "now": "Dieser Zahlenstrahl beginnt nicht bei 0. Schreibe die Zahl, auf die jeder Pfeil zeigt.",
+      "better": "Dieser Zahlenstrahl beginnt nicht bei 0. Schreibe zu jedem Pfeil die Zahl auf, auf die er zeigt.",
+      "why": "Gleicher Grund wie bei G1-275."
+    },
+    {
+      "type": "",
+      "unit": "de2-zahlen-bis-100",
+      "part": 3,
+      "now": "Schreibe die Zahl, die 1 weniger ist, und die Zahl, die 1 mehr ist.",
+      "better": "Schreibe links die Zahl, die um 1 kleiner ist, und rechts die Zahl, die um 1 größer ist.",
+      "why": "Eine Zahl „ist“ nicht 1 weniger; üblich ist „um 1 kleiner/größer“ (Vorgänger und Nachfolger). Links und rechts nennen, weil das Feld allein steht."
+    },
+    {
+      "type": "",
+      "unit": "de3-zahlen-bis-1000",
+      "part": 4,
+      "now": "Schreibe die Zahl, die 100 weniger ist, und die Zahl, die 100 mehr ist.",
+      "better": "Schreibe links die Zahl, die um 100 kleiner ist, und rechts die Zahl, die um 100 größer ist.",
+      "why": "Wie bei „1 mehr, 1 weniger“."
+    },
+    {
+      "type": "",
+      "unit": "de2-malnehmen",
+      "part": 2,
+      "now": "Beide Punktefelder zeigen dieselbe Anzahl. Vervollständige beide Aufgaben.",
+      "better": "Beide Felder zeigen gleich viele Bilder. Rechne die Malaufgabe und ihre Tauschaufgabe aus.",
+      "why": "Zu sehen sind Bilder, keine Punkte; „Tauschaufgabe“ ist der Begriff der Stunde und sollte fallen."
+    },
+    {
+      "type": "",
+      "unit": "de2-teilen",
+      "part": 1,
+      "now": "Verteile den Haufen gerecht auf die Kisten. Schreibe auf, wie viele jede bekommt.",
+      "better": "Verteile die Bilder gerecht auf die Kisten. Schreibe auf, wie viele in jede Kiste kommen.",
+      "why": "Man verteilt die Dinge, nicht „den Haufen“; eine Kiste „bekommt“ nichts."
+    },
+    {
+      "type": "",
+      "unit": "de2-teilen",
+      "part": 2,
+      "now": "Kreise die Punkte immer zu zweit ein. Schreibe die Zahl als zwei gleiche Teile und in das kleine Kästchen, was übrig bleibt.",
+      "better": "Kreise immer zwei Punkte ein. Zerlege die Zahl in zwei gleiche Teile, so groß wie möglich. Schreibe in das kleine Kästchen, wie viele Punkte übrig bleiben.",
+      "why": "Der zweite Satz ist grammatisch verunglückt. Ohne „so groß wie möglich“ sind auch 15 = 6 + 6 + 3 oder 15 = 5 + 5 + 5 richtige Gleichungen."
+    },
+    {
+      "type": "G2-233",
+      "unit": "de2-teilen",
+      "part": 4,
+      "now": "Schau dir den Bruch an. Kreise diesen Teil der Bilder ein. Schreibe auf, wie viele du eingekreist hast.",
+      "better": "Schau dir den Bruch an. Kreise diesen Bruchteil der Bilder ein. Schreibe auf, wie viele du eingekreist hast.",
+      "why": "Deine Umformulierung ist gut; „Bruchteil“ (Wort des Arbeitsblatts) ist genauer als „diesen Teil“. Gilt ebenso für G3-320."
+    },
+    {
+      "type": "",
+      "unit": "de3-runden-schriftlich",
+      "part": 1,
+      "now": "Addiere die beiden Blockgruppen. Schreibe das Ergebnis auf.",
+      "better": "Hier sind zwei Zahlen mit Platten, Stangen und Würfeln gelegt. Addiere sie und schreibe das Ergebnis auf.",
+      "why": "„Blockgruppen“ ist kein Wort der Grundschule; das Material heißt Hunderterplatte, Zehnerstange, Einerwürfel."
+    },
+    {
+      "type": "",
+      "unit": "de3-runden-schriftlich",
+      "part": 2,
+      "now": "Ziehe die zweite Gruppe von der ersten ab. Schreibe das Ergebnis auf.",
+      "better": "Hier sind zwei Zahlen mit Platten, Stangen und Würfeln gelegt. Ziehe die zweite Zahl von der ersten ab und schreibe das Ergebnis auf.",
+      "why": "Man zieht eine Zahl ab, keine „Gruppe“."
+    },
+    {
+      "type": "",
+      "unit": "de3-runden-schriftlich",
+      "part": 4,
+      "now": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht.",
+      "better": "Rechne die Aufgabe schriftlich, Stelle für Stelle. Beginne bei den Einern und schreibe den Übertrag dazu.",
+      "why": "Es steht nur eine Aufgabe da; „schreibe den Übertrag dazu“ sagt, dass die Merkzahl notiert werden soll. Ebenso in Teil 3: „Rechne die Aufgabe …“."
+    },
+    {
+      "type": "",
+      "unit": "de3-mal-geteilt-gleichungen",
+      "part": 2,
+      "now": "Kreise in jedem Haufen Gruppen ein, so groß wie die zweite Zahl. Schreibe, wie viele Gruppen es sind und wie viele Bilder übrig bleiben.",
+      "better": "Kreise immer so viele Bilder ein, wie die zweite Zahl angibt. Schreibe auf, wie viele Gruppen es sind und wie viele Bilder übrig bleiben.",
+      "why": "Es gibt nur einen Haufen; „Gruppen, so groß wie die zweite Zahl“ ist beim Vorlesen schwer zu verstehen."
+    },
+    {
+      "type": "",
+      "unit": "de3-mal-geteilt-gleichungen",
+      "part": 1,
+      "now": "Schau dir das Punktefeld an. Schreibe den fehlenden Faktor auf.",
+      "better": "Schau dir das Feld an. Schreibe den fehlenden Faktor auf.",
+      "why": "In A sind es Tierbilder, keine Punkte."
+    },
+    {
+      "type": "G3-338",
+      "unit": "g3-area-perimeter-volume",
+      "part": 2,
+      "now": "Schau dir das erste Rechteck an. Kreise rechts das Rechteck ein, das GLEICH viele Kästchen bedeckt.",
+      "better": "Schau dir das Rechteck links an. Kreise rechts das Rechteck ein, das aus GLEICH vielen Kästchen besteht.",
+      "why": "„Das erste“ ist bei drei Rechtecken in einer Reihe weniger klar als „links“; ein Rechteck „bedeckt“ Kästchen nur auf Karopapier, hier besteht es aus ihnen."
+    },
+    {
+      "type": "G3-339",
+      "unit": "g3-area-perimeter-volume",
+      "part": 4,
+      "now": "Schau dir das erste Rechteck an. Kreise rechts das Rechteck mit dem GLEICHEN Umfang ein.",
+      "better": "Schau dir das Rechteck links an. Kreise rechts das Rechteck mit dem GLEICHEN Umfang ein.",
+      "why": "Wie bei G3-338."
+    },
+    {
+      "type": "",
+      "unit": "g3-area-perimeter-volume",
+      "part": 3,
+      "now": "Zähle die Kästchenkanten rund um jedes Rechteck. Schreibe den Umfang auf.",
+      "better": "Zähle die Kästchenseiten einmal rund um jedes Rechteck. Schreibe den Umfang auf.",
+      "why": "„Kästchenseite“ oder „Kästchenlänge“ ist üblich; „Kante“ gehört zu Körpern (Würfel in Teil 5)."
+    },
+    {
+      "type": "G1-282",
+      "unit": "g1-reading-sentences-and-stories",
+      "part": 1,
+      "now": "Ordne die Wörter und schreibe den Satz auf die Linie. Der Großbuchstabe und das Satzzeichen zeigen dir Anfang und Ende.",
+      "better": "Ordne die Wörter zu einem Satz und schreibe ihn auf die Linie. Das Wort mit dem Satzzeichen steht am Ende, der Satz beginnt mit einem großen Buchstaben.",
+      "why": "In beiden Feldern sind zwei Wörter großgeschrieben (Noah, Nilpferde); „der Großbuchstabe“ ist deshalb nicht eindeutig."
+    },
+    {
+      "type": "",
+      "unit": "g1-reading-sentences-and-stories",
+      "part": 3,
+      "now": "Schau dir die drei Bilder jeder Geschichte an und kreise darunter das Bild ein, das in den Rahmen mit dem Fragezeichen gehört.",
+      "better": "Schau dir die drei Bilder der Geschichte an. Kreise unten das Bild ein, das in den Rahmen mit dem Fragezeichen gehört.",
+      "why": "Es steht nur eine Geschichte da; zwei kurze Sätze sind beim Vorlesen leichter."
+    },
+    {
+      "type": "",
+      "unit": "g3-words-and-their-meanings",
+      "part": 2,
+      "now": "Schau dir das Bild an und lies das Wort darunter. Kreise das Wort ein, das wir stattdessen sagen können.",
+      "better": "Schau dir das Bild an und lies das Wort darunter. Kreise das Pronomen ein, das für dieses Wort stehen kann: er, sie oder es.",
+      "why": "Die Einheit heißt „… und Pronomen“; der Fachbegriff der Klasse 3 sollte im Auftrag vorkommen."
+    }
+  ],
+  "strings": [
+    {
+      "key": "sectionLead",
+      "better": "Zwei kurze Lernkontrollen auf Papier, zusammengestellt aus den Arbeitsblättern dieser Einheit. Teile Lernkontrolle A aus, bevor du mit der Einheit beginnst, und Lernkontrolle B danach: So siehst du, was die Kinder dazugelernt haben. Jeder Teil gehört zu einer Stunde.",
+      "why": "Arbeitsblätter teilt man aus; „was sich verändert hat“ ist vage, gemeint ist der Lernzuwachs."
+    },
+    {
+      "key": "sectionHonest",
+      "better": "Das ist eine Lernkontrolle zu den Stunden dieser Einheit, gedacht für deinen Unterricht. Sie ist kein standardisierter Test, und die Punkte ergeben keine Note.",
+      "why": "„Ihre Punkte sind keine Note“ ist schief; Punkte ergeben eine Note oder eben nicht."
+    },
+    {
+      "key": "notCovered",
+      "better": "Nicht in der Lernkontrolle: {lessons}. Arbeitsblätter, die sich nicht in einzelne Aufgaben zerlegen lassen, sind nicht dabei.",
+      "why": "„Bleiben weg“ ist umgangssprachlich; ein Blatt „zerlegt“ man in Aufgaben."
+    },
+    {
+      "key": "tpHow1",
+      "better": "Teile Lernkontrolle A aus, bevor du mit der Einheit beginnst, und Lernkontrolle B, wenn du sie abgeschlossen hast. Beide enthalten die gleichen Aufgabenarten, mit anderen Zahlen, Wörtern und Bildern. Sag den Kindern vor Lernkontrolle A, dass sie das meiste noch nicht gelernt haben und jeden Teil auslassen dürfen, den sie noch nicht können.",
+      "why": "„Einen Teil auslassen“ liest sich wie genau ein Teil; „dass sie das noch nicht gelernt haben“ hat kein klares Bezugswort; „Arten von Aufgaben stellen“ ist steif."
+    },
+    {
+      "key": "tpHow2",
+      "better": "Lies jeden Arbeitsauftrag vor, einen Teil nach dem anderen. Steht bei einem Bild kein Wort, nenne das gemeinte Wort. Geprüft wird, was der Teil verlangt, nicht das Lesen des Auftrags.",
+      "why": "Bei Lautstreifen und beim Beschriften hängt die Lösung am gemeinten Bildwort (Schwan, Delfin, Birne); das gemeinsame Benennen ist im Anfangsunterricht üblich und muss hier stehen."
+    },
+    {
+      "key": "tpHow3",
+      "better": "Gib einen Punkt für jedes Aufgabenfeld, das vollständig richtig gelöst ist. Sollen in einem Feld alle passenden Formen eingekreist werden, gibt es den Punkt nur, wenn alle richtigen und keine anderen eingekreist sind.",
+      "why": "„Ganz richtig“ ist mündlich; sonst unverändert."
+    },
+    {
+      "key": "tpGridLead",
+      "better": "Trage für jedes Kind die Punkte zu jedem Teil ein, links Lernkontrolle A, rechts Lernkontrolle B. Hat ein Kind nach Lernkontrolle B in einem Teil nicht alle Punkte, schau dir diesen Teil noch einmal mit ihm an.",
+      "why": "Imperativ wie in den übrigen Sätzen statt „schaust du dir … an“."
+    },
+    {
+      "key": "tpStillEasier",
+      "better": "Wiederhole Stunde {n}. Nimm danach zum Üben das leichtere Blatt zu „{title}“.",
+      "why": "„Unterrichte Stunde {n} noch einmal“ ist aus dem Englischen gedacht; Lehrkräfte sagen „eine Stunde wiederholen“."
+    },
+    {
+      "key": "tpStill",
+      "better": "Wiederhole Stunde {n} mit „{title}“.",
+      "why": "Wie bei tpStillEasier."
+    },
+    {
+      "key": "tpEasyHarder",
+      "better": "Gib als Herausforderung das schwierigere Blatt zu „{title}“.",
+      "why": "Natürlichere Wortstellung; „schwierigere“ liest sich leichter als „schwerere“."
+    },
+    {
+      "key": "hubLead",
+      "better": "Eine Lernkontrolle gibt es hier in zwei kurzen Fassungen, A und B, zusammengestellt aus den Arbeitsblättern einer Unterrichtseinheit. Teile Lernkontrolle A aus, bevor du mit der Einheit beginnst, und Lernkontrolle B danach. Beide enthalten die gleichen Aufgabenarten, mit anderen Zahlen, Wörtern und Bildern: So siehst du, was die Kinder dazugelernt haben.",
+      "why": "„Zwei kurze Blätter“ stimmt nicht, eine Fassung hat bis zu drei Seiten; sonst wie sectionLead und tpHow1."
+    },
+    {
+      "key": "hubCoverage",
+      "better": "Noch nicht jede Einheit hat eine Lernkontrolle, und eine Lernkontrolle kann einzelne Stunden auslassen. Ein Arbeitsblatt, das sich nicht in einzelne Aufgaben zerlegen lässt, wird nicht verwendet.",
+      "why": "Es fehlen oft mehrere Stunden (bis zu vier), nicht „eine Stunde“."
+    },
+    {
+      "key": "hubLinkFromUnits",
+      "better": "Lernkontrollen: eine kurze Kontrolle vor und nach jeder Einheit",
+      "why": "Auf der Übersicht aller Einheiten heißt es „jeder Einheit“, wie im Titel der Seite."
+    },
+    {
+      "key": "hubHonest",
+      "better": "Jede Lernkontrolle bezieht sich auf die Stunden einer Einheit und ist für deinen Unterricht gedacht. Sie ist kein standardisierter Test, und die Punkte ergeben keine Note.",
+      "why": "„Jede ist eine Lernkontrolle …“ ist kein natürlicher Satzanfang."
+    },
+    {
+      "key": "teacherNote",
+      "better": "Die Lösungen und die Seiten für die Lehrkraft sind im bezahlten Tarif {plan} enthalten.",
+      "why": "„Gehören zum Tarif“ ist verständlich, „sind im Tarif enthalten“ ist die übliche Formulierung."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "g1-add-subtract-within-10",
+      "verdict": "publish after fixes",
+      "why": "Sechs von sieben Teilen sind richtig und fair; nur Teil 4 (Zahlenstrahl bis 20, Ergebnis 15 und 17) verlässt den Zahlenraum der Einheit. Dass die Rechengeschichten fehlen, ist vertretbar."
+    },
+    {
+      "unit": "de1-zahlen-bis-20",
+      "verdict": "publish",
+      "why": "Alle Lösungen stimmen, A und B sind gleich schwer, die drei Teile decken Ordnungszahlen, Zahlwörter und Zahlenstrahl ab; „Zahl des Tages“ fehlt zu Recht."
+    },
+    {
+      "unit": "g1-doubles-three-addends-number-walls",
+      "verdict": "publish",
+      "why": "Alle vier Stunden haben einen Teil, alle Lösungen stimmen (Paare, Summen, Mauern nachgerechnet), A und B sind gleichwertig."
+    },
+    {
+      "unit": "de2-zahlen-bis-100",
+      "verdict": "publish after fixes",
+      "why": "Teil 1 (Schreibweise „■·10 +“) und Teil 4 (zweimal Gleichheit) müssen geändert werden; die Hundertertafel steht im Titel der Einheit, kommt aber in keinem Teil vor, das muss auf der Seite klar gesagt sein."
+    },
+    {
+      "unit": "de2-malnehmen",
+      "verdict": "publish",
+      "why": "Alle Malaufgaben und Bilder stimmen überein (3 · 6 als drei Sechsergruppen usw.), A und B sind gleich schwer; vier von sieben Stunden sind für eine kurze Kontrolle ausreichend."
+    },
+    {
+      "unit": "de2-teilen",
+      "verdict": "publish after fixes",
+      "why": "Teil 4 prüft nur die Hälfte und ist in B leichter; das Aufteilen aus dem Titel („Wie oft passt die Zahl hinein?“) hat keinen Teil, sonst sind die Lösungen richtig."
+    },
+    {
+      "unit": "de3-zahlen-bis-1000",
+      "verdict": "publish after fixes",
+      "why": "Alles richtig und vollständig; nur die Ablenker in Teil 2, Fassung B, verraten die Lösung."
+    },
+    {
+      "unit": "de3-runden-schriftlich",
+      "verdict": "hold",
+      "why": "Das Runden (drei von sieben Stunden und erstes Wort des Titels) fehlt ganz, alle Aufgaben bleiben zweistellig auf dem Niveau der Klasse 2, Teil 4 ist in B deutlich schwerer als in A, und die Überträge fehlen in den Lösungen."
+    },
+    {
+      "unit": "de3-mal-geteilt-gleichungen",
+      "verdict": "publish after fixes",
+      "why": "Die drei Felder sind richtig, aber der Auftrag zu Teil 2 muss neu formuliert werden; mit drei Punkten für sieben Stunden und ohne die Zahlenfolgen aus dem Titel ist die Kontrolle sehr dünn, je Teil wäre ein zweites Feld nötig."
+    },
+    {
+      "unit": "g3-area-perimeter-volume",
+      "verdict": "publish",
+      "why": "Alle fünf Stunden haben einen Teil, alle Flächen, Umfänge und Würfelzahlen stimmen, A und B sind gleichwertig; nur zwei Aufträge sprachlich glätten."
+    },
+    {
+      "unit": "g1-sounds-spelling-syllables",
+      "verdict": "publish after fixes",
+      "why": "In allen drei Teilen müssen Wörter ersetzt werden (Katze/tz, Schwan/Sch, Fledermaus, Brombeere, Silbengrenze bei Zebra und Zitrone); in der jetzigen Form sind mehrere Kinderantworten begründbar, die die Lösung als falsch wertet."
+    },
+    {
+      "unit": "g1-reading-sentences-and-stories",
+      "verdict": "publish after fixes",
+      "why": "„Cranberrys“ und „Jeep“ kann ein Kind der Klasse 1 nicht erlesen, und B stellt in Teil 1 einen Fragesatz gegen einen Aussagesatz in A; Teil 3 (Bildergeschichte) ist in Ordnung."
+    },
+    {
+      "unit": "g3-words-and-their-meanings",
+      "verdict": "publish after fixes",
+      "why": "Teil 1 und 2 sind in A und B nicht gleichwertig; die Wortfelder aus dem Titel haben keinen Teil, zwei von drei Teilen prüfen Pronomen, das muss auf der Seite stehen."
+    }
+  ],
+  "notes": [
+    "Titel und Inhalt: Bei vier Lernkontrollen nennt der Titel der Einheit etwas, das kein Teil prüft (Hundertertafel, Aufteilen, Runden, Zahlenfolgen, Wortfelder). Die Zeile „Nicht in der Lernkontrolle: …“ sollte auf dem Blatt für die Lehrkraft oben stehen, nicht unter der Tabelle.",
+    "Platz der Lösung: In mehreren Teilen hat B dasselbe Muster wie A (Zahlen bis 100, Teil 4: Feld 1 immer „=“; Verdoppeln, Teil 2: erst gerade, dann ungerade; Teilen, Teil 2: erst Rest 0, dann Rest 1; Lesen, Teil 2: Feld 1 immer „Was“). Kinder, die sich an A erinnern, haben in B einen Vorteil; die Reihenfolge in B sollte getauscht werden.",
+    "Plus und Minus bis 10, Teil 1: Die Summen gehen nur bis 5 (2 + 2, 1 + 2, 2 + 3, 1 + 1). Für eine Einheit bis 10 sollte ein Feld je Fassung eine Summe zwischen 6 und 10 haben.",
+    "Plus und Minus bis 10, Teil 3: A (9 + 1, ein leeres Feld im Zehnerfeld) ist leichter als B (3 + 7). Besser in beiden Fassungen ein mittleres Zehnerfeld, z. B. A mit 6 Punkten (6 + 4) und B mit 4 Punkten (4 + 6).",
+    "Plus und Minus bis 10: Sieben Teile auf drei Seiten sind für Erstklässler vor der Einheit viel; Seite 3 ist zu zwei Dritteln leer. Die Teile 6 und 7 passen auf Seite 2.",
+    "Zahlen bis 20, Teil 1: In den Seiten für die Lehrkraft festhalten, dass der Punkt zur Ordnungszahl gehört („2.“). Die Bilder der Reihe spielen für die Aufgabe keine Rolle.",
+    "Zahlen bis 20, Teil 3: Die Lösungen von B (7, 14, 17) sind genau die von A plus 1. Das ist nicht falsch, aber zwei verschieden gewählte Pfeile wären besser.",
+    "Lösungsseiten: Wo der Auftrag Einkreisen verlangt (Zehner bündeln, Paare einkreisen, Gruppen bei „Teilen mit Rest“, Bruchteil der Menge), zeigt die Lösung keine Kreise. Für die Lehrkraft sollte ein Beispiel eingezeichnet sein.",
+    "Teilen, Teil 1: Die Behälter sehen eher wie Taschen oder Becher aus als wie Kisten. A teilt zweimal durch 3, B zweimal durch 4; ein Feld je Fassung mit anderem Teiler wäre aussagekräftiger.",
+    "Teilen, Teil 4, und Klasse 2 allgemein: Die Bruchschreibweise 1/2 ist in vielen Bundesländern kein Stoff der Klasse 2. Wenn die Einheit sie einführt, ist das in Ordnung; im Auftrag sollte die Lehrkraft den Bruch beim Vorlesen sprechen dürfen („ein Halb“).",
+    "Malnehmen, Teile 1 und 4: Die Malaufgabe steht fertig da, das Kind schreibt nur das Ergebnis. So lässt sich nicht erkennen, ob es die Gruppen als Malaufgabe deuten kann. Ein Feld, in dem auch die Faktoren fehlen, wäre die bessere Kontrolle.",
+    "Flächeninhalt, Teile 2 und 4: Die kleinen Rechtecke sind auf dem Bildblatt sehr klein; ich konnte die Kästchen zählen, bitte am Ausdruck prüfen, dass Kinder das ebenfalls können. In B, Teil 1 und Teil 4, ist das „Rechteck“ ein Quadrat; das ist richtig, sollte die Lehrkraft aber wissen.",
+    "Laute und Silben, Teil 3: In den Seiten für die Lehrkraft sagen, wie lautgetreue Schreibungen gewertet werden (z. B. „Tiga“, „Birne“ ohne Großbuchstaben). In Klasse 1 ist „lautgetreu und lesbar“ üblicher Maßstab, nicht die Rechtschreibung.",
+    "Lesen, Teil 2: Die Personenbilder (Bauer, Koch, Tischler, Paketbotin) haben mit den Sätzen nichts zu tun und lenken ab; ohne Bild oder mit passendem Bild wäre das Feld klarer. Prüfen, dass die Markierung der Wörter auch im Schwarz-Weiß-Druck sichtbar bleibt.",
+    "Wortfelder und Pronomen, Teil 3: Beide Fassungen lassen sich allein über das Geschlecht der Namen lösen (ein Junge, ein Mädchen). Für Klasse 3 ist das sehr leicht; „Henri“ ist für manche Kinder kein eindeutig männlicher Name, „Jonas“ oder „Paul“ wäre sicherer."
+  ]
+}

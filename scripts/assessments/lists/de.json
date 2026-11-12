@@ -1,0 +1,187 @@
+{
+ "$comment": "What the readers of the checks ruled, for German. The rulings about numbers and pictures were made on the English checks (the worksheet types draw the same numbers and pictures in every language) and are carried over; the rulings about German words and direction lines are the German reader's (scripts/assessments/reviews/de.*). The kinds of ruling are explained in lists/en.json. Further kinds of ruling used here: slotWide (per box of a part the class of number pair it takes: close = within one ten, far), take (how many boxes a part takes), plainChunks (words with one letter per sound, of a given length), endMark / kindAttr / kindFolder (what makes two boxes another kind of task) with mixKinds (the boxes of a part are of different kinds), sameAnswer (form B asks the answer form A asks, in another order).",
+ "drop": {
+  "g2-shapes-solids-symmetry": {
+   "4": "[from the English reviews] The library pictures keyed as symmetrical are not exact mirror images (a persimmon with a highlight on one side, a bat with a mark beside the line): \"no\" can be defended."
+  },
+  "g3-time-temperature-mass-volume": {
+   "1": "[from the English reviews] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks."
+  },
+  "de2-zahlen-bis-100": {
+   "1": "[de.review-1] The frame \"□ ■·10 + □\" is no notation a second grader or a German teacher knows; the place-value notation would be \"□ Z □ E\"."
+  },
+  "g1-add-subtract-within-10": {
+   "4": "[de.review-1] The number line runs to 20: the hops forward land on 15 and 17, the hops back start at 13, in a unit that goes to 10. The worksheets of the lesson have no box whose start and landing both lie within 10."
+  }
+ },
+ "instruction": {
+  "G2-233": "Schau dir den Bruch an. Kreise diesen Bruchteil der Bilder ein. Schreibe auf, wie viele du eingekreist hast.",
+  "G3-320": "Schau dir den Bruch an. Kreise diesen Bruchteil der Bilder ein. Schreibe auf, wie viele du eingekreist hast.",
+  "G3-338": "Schau dir das Rechteck links an. Kreise rechts das Rechteck ein, das aus GLEICH vielen Kästchen besteht.",
+  "G3-339": "Schau dir das Rechteck links an. Kreise rechts das Rechteck mit dem GLEICHEN Umfang ein.",
+  "G3-346": "Zähle alle Würfel in jedem Würfelgebäude. Schreibe die Anzahl auf.",
+  "G1-266": "Addiere immer zwei Steine, die nebeneinanderliegen. Schreibe das Ergebnis in den Stein darüber.",
+  "G1-275": "Auf diesem Zahlenstrahl stehen nur 0, 10 und 20. Zähle in Einerschritten. Schreibe zu jedem Pfeil die Zahl auf, auf die er zeigt.",
+  "G1-282": "Ordne die Wörter zu einem Satz und schreibe ihn auf die Linie. Das Wort mit dem Satzzeichen steht am Ende, der Satz beginnt mit einem großen Buchstaben.",
+  "G2-305": "Dieser Zahlenstrahl beginnt nicht bei 0. Schreibe zu jedem Pfeil die Zahl auf, auf die er zeigt.",
+  "G1-287": "Jede Karte zeigt eine Verdopplungsaufgabe. Schreibe das Ergebnis auf.",
+  "G1-116": "Starte beim Punkt. Folge den Sprüngen und schreibe auf, bei welcher Zahl du landest.",
+  "G1-219": "Im Dach stehen drei Zahlen. Rechne die vier Aufgaben aus, die dazugehören.",
+  "G1-214": "Rechne jede Aufgabe im Kopf. Schreibe das Ergebnis in das Kästchen.",
+  "G1-131": "Schreibe links die Zahl, die um 1 kleiner ist, und rechts die Zahl, die um 1 größer ist.",
+  "G2-226": "Schreibe links die Zahl, die um 100 kleiner ist, und rechts die Zahl, die um 100 größer ist.",
+  "G3-314": "Beide Felder zeigen gleich viele Bilder. Rechne die Malaufgabe und ihre Tauschaufgabe aus.",
+  "G2-216": "Verteile die Bilder gerecht auf die Kisten. Schreibe auf, wie viele in jede Kiste kommen.",
+  "G2-351": "Kreise immer zwei Punkte ein. Zerlege die Zahl in zwei gleiche Teile, so groß wie möglich. Schreibe in das kleine Kästchen, wie viele Punkte übrig bleiben.",
+  "G2-203": "Hier sind zwei Zahlen mit Platten, Stangen und Würfeln gelegt. Addiere sie und schreibe das Ergebnis auf.",
+  "G2-205": "Hier sind zwei Zahlen mit Platten, Stangen und Würfeln gelegt. Ziehe die zweite Zahl von der ersten ab und schreibe das Ergebnis auf.",
+  "G3-359": "Rechne die Aufgabe schriftlich, Stelle für Stelle. Beginne bei den Einern und schreibe den Übertrag dazu.",
+  "G3-377": "Kreise immer so viele Bilder ein, wie die zweite Zahl angibt. Schreibe auf, wie viele Gruppen es sind und wie viele Bilder übrig bleiben.",
+  "G3-312": "Schau dir das Feld an. Schreibe den fehlenden Faktor auf.",
+  "G3-337": "Zähle die Kästchenseiten einmal rund um jedes Rechteck. Schreibe den Umfang auf.",
+  "G1-400": "Schau dir die drei Bilder der Geschichte an. Kreise unten das Bild ein, das in den Rahmen mit dem Fragezeichen gehört.",
+  "G1-352": "Schau dir das Bild an und lies das Wort darunter. Kreise das Pronomen ein, das für dieses Wort stehen kann: er, sie oder es."
+ },
+ "noCheck": {
+  "g1-shapes-measuring-graphs": "[from the English reviews] The parts a check can be cut from leave out the picture graph and the bar graph, and the tangram lesson needs real pieces: not a fair check of the unit.",
+  "de3-runden-schriftlich": "[de.review-1] The rounding lessons (three of seven, and the first word of the title) have no part, every sum stays two-digit at the level of Klasse 2, and the carry boxes of the written sums are empty in the key."
+ },
+ "avoid": {
+  "K-016": [
+   10
+  ],
+  "G2-351": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "G2-242": [
+   0
+  ]
+ },
+ "blend": {
+  "G3-364": [
+   "G3-365"
+  ]
+ },
+ "sameGiven": [
+  "G2-233",
+  "G3-320"
+ ],
+ "lowestTerms": [
+  "G3-315"
+ ],
+ "avoidAns": {
+  "G3-317": "^[01]\\d$",
+  "G1-352": "^es$",
+  "G2-223": "^[6789]00"
+ },
+ "pairKind": [
+  "G3-319"
+ ],
+ "sameLook": [
+  "G3-343",
+  "K-358"
+ ],
+ "theme": {
+  "K-063": "animals",
+  "G1-312": "animals",
+  "G1-260": "animals"
+ },
+ "avoidEcho": [
+  "G3-312"
+ ],
+ "parity": [
+  "G2-351"
+ ],
+ "disjointWords": [
+  "G1-395",
+  "G1-337"
+ ],
+ "avoidPictures": [],
+ "avoidText": [
+  "cranberr",
+  "jeep",
+  "noah",
+  "brombeer"
+ ],
+ "onlyPictures": {
+  "G1-260": [
+   "tiger",
+   "panda",
+   "camel",
+   "dolphin"
+  ],
+  "G3-398": [
+   "teacher",
+   "tailor",
+   "baker",
+   "singer"
+  ]
+ },
+ "onlyText": {
+  "G2-223": "([1-9]00 \\+.*){2}",
+  "G1-282": "^[^?]*$"
+ },
+ "keyNote": {
+  "G1-305": "Gewertet wird die Anzahl der Bögen, nicht die genaue Silbengrenze (Ze-bra und Zeb-ra sind beide richtig).",
+  "G1-312": "Gewertet wird: ein Laut in jedem Kästchen, in der richtigen Reihenfolge.",
+  "G1-260": "In Klasse 1 zählt die lautgetreue, lesbare Schreibung (zum Beispiel „Tiga“ oder „kamel“), nicht die Rechtschreibung.",
+  "G2-233": "Lies den Bruch beim Vorlesen mit („ein Halb“, „ein Viertel“)."
+ },
+ "reasons": {
+  "carried over": "[from the English reviews] avoid (K-016 never 10 pictures; G2-351 no number below 11; G2-242 no sphere, which is drawn as a flat circle), blend (a lesson with one worksheet per times table), sameGiven, lowestTerms, avoidAns (no unit fraction on the number line), pairKind, sameLook, theme (mirror pictures of animals), avoidEcho, parity, disjointWords: see lists/en.json for each reason.",
+  "instructions (first draft, for the German reader)": "The worksheet line of these types is written for a whole page or is only a hint (\"Nur 0, 10 und 20 stehen da\"); a box that stands alone must say what to do. The same lines were reworded in English by the English reviews; the German wording is mine and is put before the German reader.",
+  "instructions of the German review": "[de.review-1] 23 direction lines in the wording of the German reader (“Tauschaufgabe”, “um 1 kleiner”, “Kästchenseiten”, “Pronomen”; one hop line that named no number of hops).",
+  "G1-137 slotWide": "[de.review-1] Both forms had a pair of equal numbers in box 1 and a pair the tens decide at a glance; a part now asks one pair within one ten and one pair apart.",
+  "G2-233 take": "[de.review-1] The lesson is halves, thirds and fourths; one box with a half is not a check of it.",
+  "G2-223 onlyText": "[de.review-1] Two wrong choices without a hundred give the answer away.",
+  "G1-312 plainChunks, G1-260 onlyPictures": "[de.review-1] Katze (tz), Schwan (six boxes for six letters), Fledermaus against Birne, Brombeere (ee, and a picture read as raspberry): the boxes take words spelled as they sound, of about one length.",
+  "avoidText": "[de.review-1] \"Cranberrys\" and \"Jeep\" are English words a first grader cannot read; \"Noah\" is hard to read for a beginner.",
+  "G1-282 endMark": "[de.review-1] A question with the verb first in form B against a statement in form A.",
+  "G1-353 sameAnswer": "[de.review-1] Form A asked was and wo, form B was and wer.",
+  "G3-398": "[de.review-1] Form A asked two words in -erin, form B two in -er, one built on a noun; each form now has one -erin word and one -er word built on a verb.",
+  "G1-352": "[de.review-1] \"Auto → es\" is the obvious choice for a thing; each form now has a name and a thing with der or die.",
+  "G2-223 avoidAns": "A row of six or more hundred-flats with its tens and ones is wider than the box it stands in (measured: 686 px in a 671 px card); the boxes take numbers below 600.",
+  "G1-282 onlyText": "[de.review-1] The reader asked for a statement of four or five words in both forms; a question with the verb first is the harder task."
+ },
+ "slotWide": {
+  "G1-137": [
+   "close",
+   "far"
+  ]
+ },
+ "take": {
+  "G2-233": 2
+ },
+ "plainChunks": {
+  "G1-312": {
+   "min": 3,
+   "max": 5,
+   "not": "[zvxyq]|[dbg]$"
+  }
+ },
+ "endMark": [
+  "G1-282"
+ ],
+ "sameAnswer": [
+  "G1-353"
+ ],
+ "kindAttr": {
+  "G3-398": "depicted"
+ },
+ "kindFolder": [
+  "G1-352"
+ ],
+ "mixKinds": [
+  "G3-398",
+  "G1-352"
+ ]
+}

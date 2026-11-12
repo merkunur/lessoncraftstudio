@@ -199,17 +199,24 @@ async function cutCards(page, o) {
       if (!found) return null;
       // the style sheets only the key page has: what their rules select is what the key marks
       const own = [...found.body.querySelectorAll('style')].filter((x) => !pageStyles.includes(x.outerHTML));
-      const ruled = new Set();
-      for (const st of own) for (const rule of (st.sheet ? [...st.sheet.cssRules] : [])) { if (!rule.selectorText) continue; try { for (const e of document.querySelectorAll(rule.selectorText)) ruled.add(e); } catch (e) { /* a selector this page cannot read */ } }
+      const ruled = new Set(), placed = new Set(), keyStyles = [];
+      for (const st of own) for (const rule of (st.sheet ? [...st.sheet.cssRules] : [])) {
+        if (!rule.selectorText) continue;
+        // a rule that names a card by its place ([data-lcs-card="2"] …) cannot travel: a check numbers its boxes anew.
+        // Any other rule travels with its part as it is (it may draw the answer itself: ::after{content:attr(…)}).
+        const place = /\[data-lcs-(card|row|item|box|n|idx|pos)="?\d+"?\]/.test(rule.selectorText);
+        if (!place) keyStyles.push(rule.selectorText + '{' + rule.style.cssText + '}');
+        const plainSel = rule.selectorText.replace(/::?(after|before)/g, '');
+        try { for (const e of document.querySelectorAll(plainSel)) { ruled.add(e); if (place) placed.add(e); } } catch (e) { /* a selector this page cannot read */ }
+      }
       // … and the mark goes ONTO what they select: such rules name a card by its place on its page ([data-lcs-card="2"] …),
       // and a check takes cards of several pages and numbers them anew, so the rules themselves cannot be carried along
-      for (const e of ruled) e.setAttribute('data-tc-correct', '');
-      const keyStyles = [];
+      for (const e of placed) e.setAttribute('data-tc-correct', '');
       const cardsOut = (() => {
       return found.units.map((c) => {
         let marks = [...c.querySelectorAll(MARK)].filter((e) => found.legacy || !/^(0|false)$/.test(e.dataset.lcsCorrect || ''));
         if (!marks.length) marks = [...c.querySelectorAll('*')].filter((e) => ruled.has(e));
-        const say = (e) => (e.textContent || '').trim() || e.dataset.lcsLabel || e.dataset.lcsChip || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'mark ' + [...e.parentElement.children].indexOf(e);
+        const say = (e) => (e.textContent || '').trim() || e.dataset.lcsLabel || e.dataset.lcsChip || e.dataset.lcsDigit || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'mark ' + [...e.parentElement.children].indexOf(e);
         // what the card asks and whether an option stands twice, as in the page of the child (see there)
         let ask = null, twins = false;
         if (marks[0] && marks[0].parentElement && marks[0].parentElement !== c) {

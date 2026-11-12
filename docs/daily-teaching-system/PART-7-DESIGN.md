@@ -277,3 +277,58 @@ The plan builds them from the year plan: what should be secure by that point. Wi
 A check that is called "end of year" and leaves out three of seven units is the fault the reader of 7.2 and 7.3 ruled against in two unit checks (a child gets full marks without the main skills). So no year check is built until every unit of a grade and subject has a unit check; Grade 1 reading and writing alone would be one page of a set of eight, and is not published alone.
 
 What blocks the missing units, counted over all English units on 2026-11-12 (the first reason of each lesson without a part): 59 lessons whose worksheet is a whole-page task or leans on something beside its tasks (a bank, a chart, matching lines, dots to connect); 11 where the two forms could not both be filled (a pool of one or two cards, or a rule that leaves no partner); 6 where no answer can be read; 3 with a token in their strings. The way to full coverage is a second form of item for whole-page tasks (the page itself as one part, or items written for the check); it is work on a new item form, not on the choice rules, and it is the open task of Part 7 for every language.
+
+## 6. Part 7.5, German (2026-11-12): twelve Lernkontrollen
+
+### What is per language and what is not
+
+- **The engine is the same.** `build-checks.js --loc=de` cuts the German pages of the worksheet types the German lessons hand out.
+- **Per language:** the strings (`frontend/content/assessments/ui.de.json`), the rulings list (`scripts/assessments/lists/de.json`), the wording patterns of gate T6 (German: no "kostenlos", no rank or diagnosis words, none of the names of the official tests — VERA, Vergleichsarbeit, Lernstandserhebung, Kompetenztest — and "standardisiert" only in "kein standardisierter Test").
+- **Carried over from the English reviews:** every ruling about numbers and pictures (the worksheet types draw the same numbers and pictures in every language): no sphere, no ten pictures in pairs, the blend of the times tables, the same fraction in both forms, fractions in lowest terms, no mirror-line part, no clock part, no check for the unit without its graphs.
+- **The name.** "Lernkontrolle": the German reader confirmed it as the usual name of a short check a teacher sets herself, with the limit that Lower Saxony and Hesse also call graded papers "schriftliche Lernkontrollen" — so the sentence "kein standardisierter Test, … keine Note" stays wherever it stands (gate T6 holds it there).
+
+### The review (one reader as a German primary teacher, Klasse 1 to 3, from the text listing, the strings and one look per sheet)
+
+File: `scripts/assessments/reviews/de.review-1.json`: 13 checks read; 16 parts to fix, 23 direction lines, 15 strings; 4 publish, 8 publish after fixes, 1 hold. Done with it:
+
+| Finding | Done |
+|---|---|
+| Runden und schriftlich rechnen: no rounding part, every sum two-digit | No check for the unit (`noCheck`) |
+| "□ ■·10 + □" is no German notation | That lesson has no part |
+| The number line to 20 in a unit to 10 (hops land on 15 and 17, or start at 13) | That lesson has no part (no box of its worksheets lies within 10) |
+| Two equal numbers in box 1 of both forms; pairs the tens decide at a glance | `slotWide`: one pair within one ten and one pair apart |
+| Only halves, and a half of 4 against a half of 6 | `take` 2 boxes: a fourth and a half in both forms |
+| Wrong choices without a hundred give the answer away | `onlyText`: at least two choices with a hundred |
+| Katze (tz), Schwan (six boxes, six letters), sch in one form only | `plainChunks`: words with one letter per sound, three to five sounds |
+| Fledermaus against Birne; Brombeere (ee; read as raspberry) | `onlyPictures`: Tiger, Panda, Kamel, Delfin; a key note on sound-true spelling |
+| Ze-bra or Zeb-ra | A key note: the number of arcs counts |
+| "Cranberrys", "Jeep", "Noah"; a question against a statement | `avoidText`; `onlyText` (statements) |
+| was and wo in form A, was and wer in form B | `sameAnswer`, form B in another order |
+| Two -erin words in form A, two -er words in form B, one built on a noun | `kindAttr` + `mixKinds` + `onlyPictures`: one of each in both forms, built on verbs |
+| "Auto → es" against "Bus → er" | `kindFolder` + `mixKinds`, no "es": a name and a thing with der or die in both forms |
+| 23 direction lines, 15 strings | Applied in the reader's wording |
+
+Found by my own reading: the digits of a written sum are drawn by a rule of the key page (`[data-lcs-digit]::after{content:attr(data-lcs-digit)}`) that I had not carried along, so such keys showed empty boxes (the English reader had seen exactly that in a check that was then not published for another reason). A key rule that names no place on its page now travels with its part, bound to that part; a rule that names a place still becomes a mark on its elements. A box cut off at its trimmed height gets the height it has on its worksheet; a box wider than its card on its own worksheet (a row of six hundred-flats) is kept out by a ruling.
+
+### Published 2026-11-12: twelve German Lernkontrollen
+
+| Einheit | Fach | Teile | Aufgaben | Seiten je Fassung | Stunden ohne Teil |
+|---|---|---|---|---|---|
+| `g1-add-subtract-within-10` | math | 6 | 10 | 2 | 4, 7 |
+| `de1-zahlen-bis-20` | math | 3 | 4 | 2 | 2 |
+| `g1-doubles-three-addends-number-walls` | math | 4 | 7 | 2 | keine |
+| `de2-zahlen-bis-100` | math | 4 | 6 | 2 | 1, 3, 7, 8, 9 |
+| `de2-malnehmen` | math | 4 | 7 | 2 | 2, 4, 6 |
+| `de2-teilen` | math | 4 | 7 | 2 | 2, 3 |
+| `de3-zahlen-bis-1000` | math | 4 | 6 | 2 | keine |
+| `de3-mal-geteilt-gleichungen` | math | 3 | 3 | 1 | 2, 5, 6, 7 |
+| `g3-area-perimeter-volume` | math | 5 | 7 | 3 | keine |
+| `g1-sounds-spelling-syllables` | literacy | 3 | 6 | 2 | 1, 3, 5 |
+| `g1-reading-sentences-and-stories` | literacy | 3 | 4 | 1 | 1, 2 |
+| `g3-words-and-their-meanings` | literacy | 3 | 5 | 1 | 1, 3 |
+
+Twelve of 24 German units. The hub `/de/assessments` exists with the first live German check (the route and the sitemap entry are the ones of 7.4; hreflang between the English and the German hub).
+
+### Next in Part 7
+
+Swedish (7.5, second language): strings, rulings list, gate patterns, one Swedish teacher-reviewer. Then the open task of Part 7 for every language: a second form of item for whole-page worksheets, which is what the checks of the year wait for.

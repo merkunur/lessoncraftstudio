@@ -675,4 +675,9 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 **Part 7.4 — the assessments hub: BUILT and LIVE 2026-11-12 (commit `af0c9ba51`). Record: `PART-7-DESIGN.md` §5.**
 - `/en/assessments` lists the 18 unit checks by grade and subject, each linked to its unit; indexable, in sitemap shard 3, linked from the units hub and every unit check section. Live check with the hub: 332 checks pass; payment canary OK; identity PASS; nginx hub-cache block reinstalled with the new prefix.
 - **The checks of the beginning, middle and end of the year are NOT built, by decision:** a year check can only draw on units that have a unit check (2 to 4 units per grade and subject today), and a check named "end of year" that leaves out half the year is the fault the reviewers ruled against. They wait for full coverage of a grade, which needs a second form of item for whole-page worksheets (59 lessons).
-- **NEXT:** 7.5 German and Swedish unit checks (the same engine, rulings lists and strings per language, one native teacher-reviewer each); then Part 8 (readers).
+
+**Part 7.5 (German) — twelve Lernkontrollen: BUILT 2026-11-12. Record: `PART-7-DESIGN.md` §6.**
+- 12 of 24 German units have a check (math 9, Deutsch 3); the hub `/de/assessments` comes with them. Strings `ui.de.json`, rulings `lists/de.json` (the English rulings about numbers and pictures carried over; the German ones from the German review), German patterns in gate T6 with five German poisons.
+- **Review:** one reader as a German primary teacher (13 checks, 16 parts fixed, 23 direction lines, 15 strings; one check not published: no rounding part). The name "Lernkontrolle" is confirmed.
+- **Engine:** a key rule that draws the answer travels with its part (written sums now show their digits in the key); the 18 English checks keep their tasks (fingerprints identical after the full re-cut).
+- **NEXT:** Swedish unit checks (7.5, second language); then Part 8 (readers).

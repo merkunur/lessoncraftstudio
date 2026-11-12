@@ -30,9 +30,14 @@ const fs = require('fs');
 const path = require('path');
 const C = path.join(__dirname, '..', '..', 'frontend', 'content');
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
-const BANNED = { en: /\b(free|percentile\w*|mastery|diagnos\w*|norm-referenced|grade equivalent)\b/i };
-const NOT_STANDARDIZED = { en: /\bnot a standardized test\b/i };
-const STANDARDIZED = { en: /\bstandardi[sz]ed\b/gi };
+const BANNED = {
+  en: /\b(free|percentile\w*|mastery|diagnos\w*|norm-referenced|grade equivalent)\b/i,
+  // German: no "kostenlos / gratis", no rank or diagnosis words, and none of the names of the official tests
+  // (VERA, Vergleichsarbeiten, Lernstandserhebung, Kompetenztest): a check of ours is a classroom check
+  de: /(?<!\p{L})(kostenlos\p{L}*|gratis|prozentrang\p{L}*|diagnos\p{L}*|vera|vergleichsarbeit\p{L}*|lernstandserhebung\p{L}*|kompetenztest\p{L}*)(?!\p{L})/iu,
+};
+const NOT_STANDARDIZED = { en: /\bnot a standardized test\b/i, de: /(?<!\p{L})kein standardisierter Test(?!\p{L})/i };
+const STANDARDIZED = { en: /\bstandardi[sz]ed\b/gi, de: /standardisiert\p{L}*/giu };
 
 function load() {
   const d = {};
@@ -109,6 +114,12 @@ const POISONS = [
   ['form B at another level', 'T9', (d) => { const c = d.en.checks.find((x) => x.forms.A.sizes.some((m) => m[0] > 0)); const i = c.forms.A.sizes.findIndex((m) => m[0] > 0); c.forms.B.sizes[i][0] = c.forms.A.sizes[i][0] * 3 + 5; }],
   ['two boxes of a part with one total', 'T9', (d) => { const c = d.en.checks.find((x) => x.parts.some((p) => p.tasks > 1)); const i = c.parts.findIndex((p) => p.tasks > 1); c.forms.A.sizes[i] = c.forms.A.sizes[i].map(() => 7); }],
   ['a missing string', 'T8', (d) => { delete d.en.ui.tpGridLead; }],
+  // German (Part 7.5): the same wording rules in German words, and a German string that is missing
+  ['a German string that names an official test', 'T6', (d) => { if (d.de) d.de.ui.hubLead += ' Sie bereitet auf VERA vor.'; else d.en.ui.sectionLead += ' It shows mastery.'; }],
+  ['a German string that says kostenlos', 'T6', (d) => { if (d.de) d.de.ui.formsNote += ' Kostenlos.'; else d.en.ui.sectionLead += ' It shows mastery.'; }],
+  ['the German honest sentence taken out', 'T6', (d) => { if (d.de) d.de.ui.sectionHonest = 'Das ist eine Lernkontrolle zu den Stunden dieser Einheit.'; else d.en.ui.sectionHonest = 'x'; }],
+  ['a German claim to be standardized', 'T6', (d) => { if (d.de) d.de.ui.tpHow1 += ' Die Lernkontrolle ist standardisiert.'; else d.en.ui.tpHow1 += ' The check is standardized.'; }],
+  ['a missing German string', 'T8', (d) => { if (d.de) delete d.de.ui.hubCoverage; else delete d.en.ui.tpGridLead; }],
 ];
 
 if (require.main === module) {

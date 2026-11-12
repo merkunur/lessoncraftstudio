@@ -1,0 +1,599 @@
+{
+  "term": {
+    "ok": false,
+    "better": "Kunskapskoll",
+    "why": "Ordet ”avstämning” är i sig vardagligt och ofarligt, men just paret ”Avstämning A” och ”Avstämning B” är de beteckningar som Skolverkets nationella bedömningsstöd i läs- och skrivutveckling (åk 1–3, obligatoriskt i åk 1) använder för sina avstämningspunkter A, B och C. En lågstadielärare som ser ”Ljuda, läsa och stava ord: Avstämning A” tror lätt att det hör ihop med bedömningsstödet. Byt till ”Kunskapskoll” (Kunskapskoll A, Kunskapskoll B, flera kunskapskollar; samma genus, så bytet går att göra rakt av i alla texter: avstämning → kunskapskoll, avstämningen → kunskapskollen, avstämningar → kunskapskollar). Om ordet ”avstämning” ändå behålls måste A och B bytas mot ”före” och ”efter”, och texten sectionHonest/tpHonest/hubHonest ska säga att materialet inte är Skolverkets bedömningsstöd. Mina rättningar under ”strings” är skrivna med ordet ”avstämning” kvar, så att de går att läsa mot originalet."
+  },
+  "parts": [
+    {
+      "unit": "sv-f-ma-antal-0-10",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Version B (3 kokosnötter mot 8) syns direkt utan att räkna, medan A (8 ugglor mot 6) kräver att barnet räknar eller jämför rader. Byt B till två grupper som ligger nära varandra, till exempel 7 mot 9."
+    },
+    {
+      "unit": "sv-f-ma-former",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Barn i förskoleklass kan inte läsa ”rektangel” och ”kvadrat”; läraren måste läsa upp de tre namnen i varje ruta, och det ska stå i instruktionen. B är dessutom klart lättare: A ruta 2 prövar rektangel mot kvadrat, men B ruta 2 är en cirkel bland rektangel och kvadrat och B ruta 1 en triangel utan någon närliggande form. Byt B ruta 2 till en smal eller vriden rektangel eller kvadrat med både ”kvadrat” och ”rektangel” bland namnen."
+    },
+    {
+      "unit": "sv-f-sv-spraklekar",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A ruta 2: glaset med sugrör och citronskiva säger ett svenskt barn är ”saft”, ”juice”, ”läsk” (1 stavelse) eller ”dricka” (2); ”lemonad” (3) är inget ord en sexåring väljer själv. Byt till en bild med ett självklart trestavigt ord, till exempel ”e-le-fant” eller ”pa-ra-ply”. Övriga bilder har också flera namn (val/blåval, ros/blomma, matlåda/väska), så målordet måste stå i facit och sägas av läraren."
+    },
+    {
+      "unit": "sv-f-sv-spraklekar",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A ruta 1 (ängel): kort ä och kort e låter likadant i de flesta svenska uttal, så ”E” är ett lika ljudenligt svar som ”Ä”; byt till ett ord med entydigt första ljud. A ruta 3 (ben): bilden har en röd markering på knät, och ”knä” (K) eller ”sår” (S) är lika rimliga som ”ben”; byt bild. A (Ä, H, B) är med detta också svårare än B (R, D, I)."
+    },
+    {
+      "unit": "sv-f-sv-spraklekar",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A ruta 1 (kort) och A ruta 2 (skrivbord) slutar båda på rt/rd, som i svenskt uttal är ETT sammansmält ljud; det passar inte när sista ljudet ska höras i förskoleklass, och ”kortlek” (k) är dessutom ett lika rimligt ord till bilden. B ruta 1: barn säger ”trollspö” (ö), inte ”trollstav” (v). A ruta 3: ”bi” kan lika gärna bli ”geting” (g) eller ”humla” (a). Byt A ruta 1 och 2 och B ruta 1 mot ord med tydligt slutljud och ett enda självklart namn (till exempel sol, buss, katt, bok)."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Summorna är 4 och 3 i A och 5 och 2 i B (B ruta 2 är 1 + 1). Det är lägre än samma uppgift i förskoleklassens avstämning (7 och 8) och prövar inte talområdet 0–10. Byt minst en ruta per version till en summa mellan 6 och 10, till exempel 4 + 3 och 5 + 4."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "part": 2,
+      "verdict": "fix",
+      "why": "I B är kryssen orange på orange frukter (persimon) och syns dåligt redan på skärmen; i svartvit utskrift försvinner de. Välj en bild där kryssen syns lika tydligt som på ugglorna i A, eller gör kryssen mörka."
+    },
+    {
+      "unit": "sv-1-ma-talkamrater",
+      "part": 5,
+      "verdict": "fix",
+      "why": "Toppstenarna är 9 och 7 i både A och B, samma summor som talfamiljerna i del 2 har i båda versionerna. I A frågas 3 + 4 = 7 både i del 2 och i del 5, i B både 4 + 5 = 9 och 5 + 2 = 7 två gånger. Välj pyramider med andra toppar (till exempel 8, 10 och 6) så att samma räknefakta inte prövas två gånger i samma version."
+    },
+    {
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Facit är fel inritat i båda versionerna: alla fyra figurerna har samma orange ring, också kvartscirkeln med böjd sida i A och rektangeln med rundade hörn i B, som inte ska ringas in. Rätt är figur 1, 2 och 4 i A och figur 2, 3 och 4 i B; facit måste visa just de tre."
+    },
+    {
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Facit visar bara siffrorna 1 och 2 i de tomma rutorna, inte vilka bilder som hör dit (A: leopard i ruta 1 och mås i ruta 2; B: granatäpple i ruta 1 och aprikos i ruta 2); rita strecken i facit. Instruktionen säger ”från varje bild”, men det finns fyra bilder och bara två ska användas. I B är den överflödiga apelsinen nästan omöjlig att skilja från aprikosen i mönstret; byt den mot en frukt med annan färg, som ugglan bland djuren i A."
+    },
+    {
+      "unit": "sv-1-ma-tal-0-20",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A (20 = ? + 10, svar 10) är en ren dubbel och mycket lättare än B (20 = ? + 11, svar 9). Byt A till ett par på samma nivå som B, till exempel 20 = ? + 13."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 1,
+      "verdict": "fix",
+      "why": "B ruta 2 (sjö) har tre bokstäver men bara två ljud, och sj-ljudet är ljudstridigt; lektionen heter ”Bygga ord med tre ljud”, och A har bara ljudenliga ord (mun, mus, paj). Byt till ett ljudenligt ord med tre ljud, till exempel sol, bil eller ros."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 3,
+      "verdict": "fix",
+      "why": "B ruta 1 (päron) är inte ljudenligt: o uttalas som å, och ”pärån” är det ett barn i åk 1 skriver, medan A bara har ljudenliga ord (kamel, kanin). B blir därmed svårare, och anteckningen kräver rätt stavning efter arbetsområdet. Byt päron mot ett ljudenligt ord, till exempel melon."
+    },
+    {
+      "unit": "sv-1-sv-ord-meningar",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A har fem ord (”Elsa har två små leoparder.”), B bara fyra (”Elsa har många aprikoser.”), så B är lättare. Båda meningarna har dessutom samma början, ”Elsa har”, så den som minns A har halva B. Ge B fem ord och ett annat namn och verb, till exempel ”Ali äter tre gula päron.”"
+    },
+    {
+      "unit": "sv-1-sv-ord-meningar",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Svaret är ”Var” och ”Vem” i A och ”Vem” och ”Var” i B; ”Vad” är aldrig rätt fast lektionen heter ”vem, vad, var”. B ruta 2 har samma markerade ord som A ruta 1 (”på lekplatsen”) med samma svar. Bilderna (läkare, bonde, byggarbetare, fotograf) hör inte ihop med meningarna om att läsa, sova och leka och förvirrar. Byt en ruta per version till en mening där ”Vad” är rätt (till exempel ”Olle äter ett äpple.” med ”ett äpple” markerat), byt B ruta 2 och ta bort bilderna eller välj bilder som visar meningen."
+    },
+    {
+      "unit": "sv-1-sv-ord-meningar",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Rätt bild står på tredje plats (längst till höger) i både A och B. Flytta den rätta bilden i B till första eller andra plats."
+    },
+    {
+      "unit": "sv-2-ma-tal-0-100",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Lektionen heter ”1 mer, 1 mindre, 10 mer, 10 mindre”, men båda rutorna i båda versionerna prövar bara 1 mer och 1 mindre, som är åk 1-nivå. Låt den andra rutan i varje version pröva 10 mindre och 10 mer (till exempel −10 | 48 | +10)."
+    },
+    {
+      "unit": "sv-2-ma-tal-0-100",
+      "part": 5,
+      "verdict": "fix",
+      "why": "Delen hör till lektionen ”Udda och jämna tal upp till 100”, men talen är 15–20 och barnet får aldrig säga om talet är udda eller jämnt; det delar bara upp prickar. Lägg till ”udda/jämnt” att ringa in i rutan, eller välj en ruta ur ett arbetsblad där eleven avgör udda eller jämnt för tvåsiffriga tal."
+    },
+    {
+      "unit": "sv-2-sv-ordkunskap",
+      "part": 3,
+      "verdict": "fix",
+      "why": "B ruta 1: ”stor” och ”jättelik” betyder inte samma sak; de skiljer sig i styrka, och det är precis vad lektionen ”Ordens styrka: från lite till mycket” i samma arbetsområde lär ut. Byt till ett riktigt synonympar, till exempel ”glad” med svaret ”munter” eller ”börja” med svaret ”starta”."
+    },
+    {
+      "unit": "sv-2-sv-ordkunskap",
+      "part": 4,
+      "verdict": "fix",
+      "why": "B: det rätta svaret ”handlig” är inget ord svenska barn möter (det är en tyskklingande ovanlig form; på svenska säger man ”händig” eller ”behändig”). Ett barn kan alltså inte känna igen det som släktord till ”hand”, medan A har det vanliga ”fiskare”. Byt till ”handske”, ”handduk” eller ”handtag”."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Delen har samma instruktion och samma slags figurer som del 1 och prövar inte det lektionen handlar om, att känna igen och namnge halvor, tredjedelar och fjärdedelar. I A står dessutom den rätta figuren på första plats och är en rektangel i både del 1 och del 2. Byt till en ruta där eleven ska ringa in till exempel den figur som är delad i fjärdedelar, eller stryk delen."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A har bara stambråk (1/6 och 1/4), där eleven kan skriva 1 i täljaren utan att förstå den, medan B har 5/6 och 3/4, där de färgade delarna måste räknas. B är klart svårare. Ge varje version ett stambråk och ett bråk med täljare större än 1, till exempel A: 1/6 och 3/4, B: 5/6 och 1/4."
+    },
+    {
+      "unit": "sv-3-ma-geometri",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A ruta 1 är en kvadrat som står på spetsen (svar 4) och B ruta 2 en kvadrat (svar 4): samma figur och samma svar i båda versionerna. Kvadraten på spetsen läser många barn dessutom som en romb och svarar 2. Byt A ruta 1 mot en tydlig rektangel (2 symmetrilinjer) eller en tydlig romb som är klart längre än den är bred."
+    },
+    {
+      "unit": "sv-3-ma-geometri",
+      "part": 5,
+      "verdict": "fix",
+      "why": "Den felaktiga rektangeln är så mycket större (30 rutor mot 12 i A, 28 mot 9 i B) att svaret syns utan att någon ruta räknas. Välj en felaktig rektangel som ligger nära i area, till exempel 3 · 5 = 15 mot 12 i A och 2 · 5 = 10 mot 9 i B."
+    },
+    {
+      "unit": "sv-3-ma-mult-division",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Både A (21 / 2) och B (21 / 4) har 21 bilder och resten 1, så den som minns ”rest 1” från A har halva B. Byt B till ett annat tal med en annan rest, till exempel 23 / 4 = 5 rest 3. Instruktionen behöver också skrivas om, se ”instruction”."
+    }
+  ],
+  "instruction": [
+    {
+      "type": "",
+      "unit": "sv-f-ma-lage-storlek-monster",
+      "part": 3,
+      "now": "Numrera bilderna från 1 (minst) till 3 (störst).",
+      "better": "Skriv 1 vid den minsta, 2 vid den som är mittemellan och 3 vid den största.",
+      "why": "”Numrera” är ett svårt ord för en sexåring; säg i stället vad barnet ska skriva."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-ma-lage-storlek-monster",
+      "part": 4,
+      "now": "Tänk på verkligheten! Ringa in den TYNGRE.",
+      "better": "Tänk på hur de är i verkligheten. Ringa in den som är TYNGST.",
+      "why": "”Den tyngre” är stelt; med barn säger man ”vilken är tyngst?” också om två saker, och lektionen heter ”Vad är tyngst?”."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-ma-former",
+      "part": 1,
+      "now": "Titta på varje form, också de vridna och de smala, och ringa in formens namn.",
+      "better": "Titta på formen i varje ruta. Lyssna på de tre namnen och ringa in formens namn.",
+      "why": "Barnen kan inte läsa namnen själva, så läraren måste läsa dem; ”också de vridna och de smala” hör till hela arbetsbladet och säger inget om två rutor."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-ma-sortera-dela-upp",
+      "part": 1,
+      "now": "Räkna inte — gissa! Ringa in den bästa gissningen, kolla sen.",
+      "better": "Räkna inte – gissa! Ringa in den bästa gissningen.",
+      "why": "”Kolla sen” uppmanar barnet att räkna efter och ändra sitt svar, och då prövas inte uppskattningen. Det långa tankstrecket utan mellanrum är inte svensk typografi; skriv kort tankstreck med mellanrum."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-ma-sortera-dela-upp",
+      "part": 2,
+      "now": "Räkna båda grupperna ihop. Skriv hur många det är totalt.",
+      "better": "Räkna båda grupperna. Skriv hur många det är tillsammans.",
+      "why": "”Tillsammans” är ordet i lektionens titel och i samma uppgift i åk 1; ”totalt” är vuxenspråk."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-ma-sortera-dela-upp",
+      "part": 3,
+      "now": "Vilken femkompis saknas? Räkna prickarna till hjälp och skriv talet i den streckade cirkeln.",
+      "better": "Vilken femkamrat saknas? Ta hjälp av prickarna och skriv talet i den streckade cirkeln.",
+      "why": "Lektionen heter ”Femkamrater” och arbetsområdet i åk 1 ”Talkamrater”; använd ett och samma ord. ”Räkna prickarna till hjälp” är inte idiomatisk svenska."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-sv-spraklekar",
+      "part": 2,
+      "now": "Skriv bokstaven som varje bild börjar med.",
+      "better": "Säg ordet till bilden. Skriv bokstaven för det första ljudet.",
+      "why": "En bild börjar inte med en bokstav; det är ordets första ljud som ska höras, som i lektionens titel."
+    },
+    {
+      "type": "",
+      "unit": "sv-f-sv-spraklekar",
+      "part": 3,
+      "now": "Skriv bokstaven som varje bild slutar med.",
+      "better": "Säg ordet till bilden. Skriv bokstaven för det sista ljudet.",
+      "why": "Samma skäl som för del 2."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-talkamrater",
+      "part": 1,
+      "now": "Hur många prickar till för att bli 10? Skriv talet som saknas.",
+      "better": "Hur många prickar till behövs för att det ska bli 10? Skriv talet som saknas.",
+      "why": "Meningen saknar verb och är svår att läsa upp."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-talkamrater",
+      "part": 2,
+      "now": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop.",
+      "better": "Titta på de tre talen i taket. Räkna ut de fyra uppgifterna som hör ihop.",
+      "why": "Talen står i taket, inte på det, och uppgifterna är redan skrivna; eleven ska räkna ut dem."
+    },
+    {
+      "type": "G1-266",
+      "unit": "sv-1-ma-talkamrater",
+      "part": 5,
+      "now": "Lägg ihop två stenar som ligger bredvid varandra. Skriv summan i stenen ovanför.",
+      "better": "Lägg ihop talen i två stenar som ligger bredvid varandra. Skriv summan i stenen ovanför.",
+      "why": "Det är talen som läggs ihop; annars är omformuleringen bra och tydligare än arbetsbladets rad."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 1,
+      "now": "Läs namnet i varje rad och ringa in alla former som verkligen är en sådan form.",
+      "better": "Läs namnet. Ringa in alla former som verkligen är en sådan form.",
+      "why": "Det finns bara en rad i rutan."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 2,
+      "now": "Två bilder saknas. Dra ett streck från varje bild till dess tomma ruta.",
+      "better": "Två bilder saknas i mönstret. Dra ett streck från rätt bild till varje tom ruta. Två bilder blir över.",
+      "why": "Det finns fyra bilder att välja bland, men bara två hör till en ruta; ”från varje bild” får barnet att dra fyra streck. ”Dess” är skriftspråk."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 3,
+      "now": "Varje sak ligger på rutor. Räkna dem och skriv längden.",
+      "better": "Hur lång är bilden? Räkna de färgade rutorna under den och skriv hur många rutor lång den är.",
+      "why": "”Räkna dem” kan lika gärna betyda alla tio rutorna i raden; säg vilka rutor som ska räknas."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-tal-0-20",
+      "part": 3,
+      "now": "Vilken tjugokompis saknas? Skriv talet som fattas i den streckade cirkeln.",
+      "better": "Vilken tjugokamrat saknas? Skriv talet som fattas i den streckade cirkeln.",
+      "why": "Lektionen heter ”Tjugokamrater”; samma ord i lektion, arbetsblad och instruktion."
+    },
+    {
+      "type": "G1-287",
+      "unit": "sv-1-ma-tal-0-20",
+      "part": 4,
+      "now": "Varje kort visar en dubbel. Skriv hur många det är tillsammans.",
+      "better": "Varje kort visar dubbelt av ett tal. Skriv hur många det är tillsammans.",
+      "why": "”En dubbel” används inte i svensk matematikundervisning (där heter det ”dubbelt” eller ”dubblorna”); en dubbel är något man spelar i tennis."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-ma-tal-0-20",
+      "part": 6,
+      "now": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde. Är antalet bilder udda eller jämnt? Ringa in rätt ord.",
+      "better": "Ringa in bilderna två och två. Skriv hur många par det blev. Är antalet bilder udda eller jämnt? Ringa in rätt ord.",
+      "why": "Man ”gör” inte par på svenska; det blir par. ”Räkna bilderna” behövs inte och får en del barn att räkna alla först."
+    },
+    {
+      "type": "G1-260",
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 3,
+      "now": "Ingen ordbank. Säg ordet och skriv det på raden.",
+      "better": "Säg ordet till bilden och skriv det på raden.",
+      "why": "”Ingen ordbank” syftar på arbetsbladsserien och betyder ingenting för ett barn som bara ser den här rutan."
+    },
+    {
+      "type": "G1-282",
+      "unit": "sv-1-sv-ord-meningar",
+      "part": 1,
+      "now": "Ordna orden till en mening och skriv den på raden. Meningen börjar med stor bokstav, och ordet med skiljetecknet står sist.",
+      "better": "Ordna orden till en mening och skriv den på raden. Meningen börjar med stor bokstav och slutar med punkt.",
+      "why": "”Skiljetecknet” är inget ord för åk 1; där säger man ”punkt”. Regeln (stor bokstav, punkt) är också det eleven ska lära sig."
+    },
+    {
+      "type": "",
+      "unit": "sv-1-sv-ord-meningar",
+      "part": 3,
+      "now": "Titta på de tre bilderna i varje berättelse och ringa in bilden nedanför dem som hör hemma i ramen med frågetecknet.",
+      "better": "Titta på de tre bilderna. Vad händer sedan? Ringa in bilden som ska vara i rutan med frågetecknet.",
+      "why": "Det finns bara en berättelse, och meningen är för lång att höra en gång; lektionens fråga ”vad händer sedan?” bör vara med."
+    },
+    {
+      "type": "",
+      "unit": "sv-2-ma-tal-0-100",
+      "part": 5,
+      "now": "Ringa in punkterna två och två. Skriv sedan talet som två lika stora delar och skriv det som blir över i den lilla rutan.",
+      "better": "Ringa in prickarna två och två. Skriv sedan talet som två lika stora delar. Skriv det som blir över i den lilla rutan.",
+      "why": "I alla andra instruktioner heter de ”prickar”; ”punkter” är något annat i matematiken. Två korta meningar är lättare att följa."
+    },
+    {
+      "type": "",
+      "unit": "sv-2-ma-add-sub-0-100",
+      "part": 3,
+      "now": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan.",
+      "better": "Räkna mynten i varje ruta. Skriv hur många kronor det är.",
+      "why": "Det finns ingen börs på bilden, bara mynt, och ”börs” är ett ålderdomligt ord som många sjuåringar inte kan."
+    },
+    {
+      "type": "",
+      "unit": "sv-2-sv-ordkunskap",
+      "part": 4,
+      "now": "Säg vad varje bild föreställer och ringa in det enda ord ovanför som är byggt av bildens ord.",
+      "better": "Säg vad bilden föreställer. Ringa in det ord ovanför som är bildat av det ordet.",
+      "why": "Det finns bara en bild, ”det enda” är överflödigt och ”bildens ord” är svårt att förstå när man hör det."
+    },
+    {
+      "type": "",
+      "unit": "sv-3-ma-mult-division",
+      "part": 1,
+      "now": "Dela högen lika i lådorna. Skriv hur många var och en får.",
+      "better": "Dela bilderna lika i lådorna. Skriv hur många det blir i varje låda.",
+      "why": "”Var och en” syftar på personer, men här är det lådor; bilderna ligger i rader, inte i en hög."
+    },
+    {
+      "type": "",
+      "unit": "sv-3-ma-mult-division",
+      "part": 3,
+      "now": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över.",
+      "better": "Titta på divisionen. Det andra talet visar hur många bilder det ska vara i varje grupp. Ringa in så många grupper du kan. Skriv hur många grupper det blev och hur många bilder som blev över.",
+      "why": "Den nuvarande meningen går inte att förstå när den läses upp (”lika många som det andra talet i varje samling”). ”Grupper” är ordet som används för division i svenska läromedel; bilderna ligger inte i högar."
+    },
+    {
+      "type": "G2-233",
+      "unit": "sv-3-ma-brak",
+      "part": 5,
+      "now": "Titta på bråket. Ringa in den delen av bilderna. Skriv hur många du ringade in.",
+      "better": "Titta på bråket. Ringa in så stor del av bilderna som bråket visar. Skriv hur många du ringade in.",
+      "why": "”Den delen” har inget att syfta på när meningen står ensam."
+    },
+    {
+      "type": "G3-320",
+      "unit": "",
+      "part": 0,
+      "now": "Titta på bråket. Ringa in den delen av bilderna. Skriv hur många du ringade in.",
+      "better": "Titta på bråket. Ringa in så stor del av bilderna som bråket visar. Skriv hur många du ringade in.",
+      "why": "Samma rad som G2-233, samma rättning."
+    },
+    {
+      "type": "",
+      "unit": "sv-3-ma-geometri",
+      "part": 3,
+      "now": "Räkna enhetskanterna runt varje rektangel. Skriv omkretsen.",
+      "better": "Räkna längs kanten, en rutas sida i taget, runt hela rektangeln. Skriv omkretsen.",
+      "why": "”Enhetskanter” är inget ord i svensk skola; barnen räknar rutornas sidor längs kanten."
+    },
+    {
+      "type": "G3-338",
+      "unit": "sv-3-ma-geometri",
+      "part": 5,
+      "now": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som täcker SAMMA antal rutor.",
+      "better": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA area, alltså lika många rutor.",
+      "why": "Omformuleringen är tydlig, men lektionen heter ”Samma area, annan form” och begreppet area ska höras i åk 3."
+    },
+    {
+      "type": "G3-339",
+      "unit": "sv-3-ma-geometri",
+      "part": 6,
+      "now": "Titta på rektangeln till vänster. Ringa in rektangeln till höger med SAMMA sträcka runt om.",
+      "better": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA omkrets, alltså lika långt runt om.",
+      "why": "Del 3 använder redan ordet omkrets, och lektionen heter ”Samma omkrets, annan area”; ”samma sträcka runt om” är en omskrivning av ett begrepp eleven ska kunna."
+    }
+  ],
+  "strings": [
+    {
+      "key": "sectionLead",
+      "better": "Två korta avstämningar på papper med uppgifter ur arbetsområdets egna arbetsblad. Dela ut Avstämning A innan du börjar med arbetsområdet och Avstämning B efteråt, så ser du vad eleverna har lärt sig. Varje del hör till en lektion.",
+      "why": "”Sammanställda av arbetsblad” låter som om arbetsbladen har gjort sammanställningen; det är uppgifter ur arbetsbladen."
+    },
+    {
+      "key": "sectionHonest",
+      "better": "Det här är en avstämning av lektionerna i arbetsområdet, tänkt som stöd för din egen undervisning. Den är inget standardiserat test och ersätter inte Skolverkets bedömningsstöd. Poängen är varken betyg eller omdöme.",
+      "why": "På lågstadiet finns inga betyg, så ”inget betyg” säger för lite; lärare behöver också få veta att materialet inte har med bedömningsstödet att göra."
+    },
+    {
+      "key": "formsNote",
+      "better": "Varje avstämning du skriver ut räknas som en nedladdning, precis som ett arbetsblad.",
+      "why": "Rakare mening med ”du”, som på resten av webbplatsen."
+    },
+    {
+      "key": "teacherNote",
+      "better": "Facit och lärarsidor ingår i det betalda abonnemanget {plan}.",
+      "why": "Blandningen av obestämd form (”Facit”) och bestämd (”lärarsidorna”) haltar."
+    },
+    {
+      "key": "tpHow1",
+      "better": "Dela ut Avstämning A innan du börjar med arbetsområdet och Avstämning B när ni är klara. Båda har samma slags uppgifter, men med andra tal, ord och bilder. Berätta för eleverna före Avstämning A att de inte har arbetat med det mesta än och att de får hoppa över det de inte kan.",
+      "why": "”Säg till eleverna” låter som en tillsägelse; ”inte har lärt sig det mesta än” kan låta nedslående för barnen när läraren upprepar det."
+    },
+    {
+      "key": "tpHow2",
+      "better": "Läs upp varje instruktion, en del i taget. Om det inte står något ord vid en bild säger du ordet högt; orden står i facit. I förskoleklass läser du också upp orden som står i rutorna. Det är innehållet i delen som prövas, inte om eleven kan läsa instruktionen.",
+      "why": "Sista meningen (”Det som prövas är det delen frågar efter”) är svår att förstå. Läraren måste få veta var målorden står (de måste läggas in i facit) och att ord i rutorna läses upp för barn som inte läser än."
+    },
+    {
+      "key": "tpHow3",
+      "better": "Ge en poäng för varje uppgiftsruta som är helt rätt. Om flera svar ska ringas in i en ruta ger du poäng bara när alla rätta svar, och inga andra, är inringade.",
+      "why": "Regeln gäller inte bara former utan också bråkfigurer och synonymer."
+    },
+    {
+      "key": "tpHonest",
+      "better": "Det här är en avstämning av lektionerna i arbetsområdet, tänkt som stöd för din egen undervisning. Den är inget standardiserat test och ersätter inte Skolverkets bedömningsstöd. Poängen visar vad ni behöver arbeta mer med; den är inget omdöme och säger ingenting om en elev utöver de här uppgifterna.",
+      "why": "”Var du behöver titta en gång till” är otydligt, och ”betyg” finns inte på lågstadiet."
+    },
+    {
+      "key": "tpGridLead",
+      "better": "Skriv in varje elevs poäng för varje del, Avstämning A till vänster och Avstämning B till höger. Om en elev inte har full poäng på en del efter Avstämning B går du igenom den delen en gång till med eleven.",
+      "why": "Man säger ”full poäng”, inte ”alla poäng”."
+    },
+    {
+      "key": "tpNextLead",
+      "better": "Gå tillbaka till den lektion som varje del hör till. Alla arbetsblad och övningar som nämns här finns länkade på arbetsområdets sida.",
+      "why": "”Gå för varje del tillbaka till lektionen den hör till” har krånglig ordföljd."
+    },
+    {
+      "key": "tpStillEasier",
+      "better": "Repetera lektion {n}. Använd sedan det lättare arbetsbladet till ”{title}” för mer övning.",
+      "why": "”Arbetsblad” är det valda ordet; ”bladet” är slarvigare."
+    },
+    {
+      "key": "tpEasyHarder",
+      "better": "Ge det svårare arbetsbladet till ”{title}” som utmaning.",
+      "why": "Samma skäl som för tpStillEasier."
+    },
+    {
+      "key": "hubLead",
+      "better": "Varje avstämning finns i två korta versioner, A och B, med uppgifter ur arbetsbladen i ett arbetsområde. Dela ut Avstämning A innan du börjar med arbetsområdet och Avstämning B efteråt. Båda har samma slags uppgifter, men med andra tal, ord och bilder. Då ser du vad eleverna har lärt sig.",
+      "why": "”En avstämning finns här i” är en översättningsaktig början, och ”så ser du” hängde på fel sats (det är inte de andra talen som gör att man ser vad eleverna lärt sig)."
+    },
+    {
+      "key": "hubCoverage",
+      "better": "Alla arbetsområden har inte en avstämning än, och en avstämning kan sakna en del för enskilda lektioner. Arbetsblad som inte går att dela upp i enskilda uppgifter används inte.",
+      "why": "En avstämning ”hoppar” inte över lektioner; det är eleverna som får hoppa över delar, och samma verb för två saker förvirrar."
+    }
+  ],
+  "keyNotes": [
+    {
+      "type": "G1-260",
+      "better": "Före arbetsområdet godtas en ljudenlig stavning som går att läsa (till exempel ”kamäl” för kamel). Efter arbetsområdet ska ordet vara rätt stavat.",
+      "why": "Exemplet ”tiga” är ingen ljudenlig svensk stavning av något ord i uppgiften (r:et i ”tiger” hörs på svenska); ta ett exempel från orden på sidan. Raden är tryckt med raka citattecken; svenska citattecken är ”…”. Kravet på rätt stavning efteråt håller bara om alla ord är ljudenliga, alltså inte ”päron”."
+    },
+    {
+      "type": "G1-312",
+      "better": "Ge poäng när eleven har skrivit ett ljud i varje ruta, i rätt ordning, och lämnat de övriga rutorna tomma. Ljudenlig stavning godtas.",
+      "why": "”Poängen ges för ett ljud i varje ruta” säger inte att de överblivna rutorna ska vara tomma eller hur en ljudenlig felstavning ska bedömas."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "sv-f-ma-lage-storlek-monster",
+      "verdict": "publish",
+      "why": "Alla svar stämmer och nivån passar förskoleklass; två instruktioner bör förenklas, och av lägesorden prövas bara ”på” (aldrig under, bredvid, vänster, höger)."
+    },
+    {
+      "unit": "sv-f-ma-antal-0-10",
+      "verdict": "publish after fixes",
+      "why": "Räkningen stämmer överallt, men del 4 är mycket lättare i B än i A; talet 0 och sifferskrivning prövas inte, vilket är rimligt."
+    },
+    {
+      "unit": "sv-f-ma-former",
+      "verdict": "publish after fixes",
+      "why": "Del 1 kräver läsning som sexåringar inte har och är lättare i B; spegelbilder står i arbetsområdets titel men har ingen del."
+    },
+    {
+      "unit": "sv-f-ma-sortera-dela-upp",
+      "verdict": "publish after fixes",
+      "why": "Svaren stämmer; instruktionen i del 1 (”kolla sen”) måste ändras och kamrat/kompis göras enhetligt, och sortering, som står först i titeln, har ingen del."
+    },
+    {
+      "unit": "sv-f-sv-spraklekar",
+      "verdict": "hold",
+      "why": "Tre av fyra delar har bilder med flera rimliga ord eller ljud som inte går att höra entydigt (ängel, kort, skrivbord, lemonad, trollstav), och facit anger inte vilka ord som menas; rim har ingen del."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "verdict": "publish after fixes",
+      "why": "Del 1 ligger under årskursens nivå (summor högst 5) och kryssen i del 2 B syns inte; räknehändelser och tallinjen har ingen del, men grunden prövas."
+    },
+    {
+      "unit": "sv-1-ma-talkamrater",
+      "verdict": "publish after fixes",
+      "why": "Alla svar stämmer och varje lektion har en del, men summorna 9 och 7 återkommer i del 2 och del 5 i båda versionerna."
+    },
+    {
+      "unit": "sv-1-ma-former-monster-langd",
+      "verdict": "publish after fixes",
+      "why": "Facit är fel eller ofullständigt inritat i del 1 och del 2, och instruktionen i del 2 stämmer inte med rutan; uppgifterna i sig är rimliga."
+    },
+    {
+      "unit": "sv-1-ma-tal-0-20",
+      "verdict": "publish after fixes",
+      "why": "Bra täckning med sex delar och rätt svar, men del 3 är mycket lättare i A (10 + 10), och ”hälften” i titeln prövas inte."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "verdict": "publish after fixes",
+      "why": "B har två ljudstridiga ord (sjö, päron) där A bara har ljudenliga, och anteckningen i facit har ett exempel som inte är svenskt; i övrigt en rättvis avstämning."
+    },
+    {
+      "unit": "sv-1-sv-ord-meningar",
+      "verdict": "hold",
+      "why": "Alla tre delarna behöver ändras, och fyra av sju lektioner saknar del, bland dem all läsning av enskilda ord; avstämningen visar för lite av arbetsområdet."
+    },
+    {
+      "unit": "sv-2-ma-tal-0-100",
+      "verdict": "publish after fixes",
+      "why": "Svaren stämmer, men del 2 prövar bara 1 mer och 1 mindre och del 5 frågar aldrig efter udda eller jämnt."
+    },
+    {
+      "unit": "sv-2-ma-add-sub-0-100",
+      "verdict": "publish after fixes",
+      "why": "Svaren stämmer, men instruktionen i del 3 nämner en börs som inte finns, mynten når inte 10 kronor, och räkning med tiotalsövergång och utan klossar har ingen del."
+    },
+    {
+      "unit": "sv-2-ma-multiplikation",
+      "verdict": "publish",
+      "why": "Alla produkter stämmer, A och B är jämna, och de tre delarna (grupper, rader och kolumner, tabellerna) är kärnan i arbetsområdet."
+    },
+    {
+      "unit": "sv-2-sv-ordkunskap",
+      "verdict": "publish after fixes",
+      "why": "”Handlig” är inget ord barnen kan och ”stor – jättelik” är inga synonymer; alfabetisk ordning står i titeln men har ingen del."
+    },
+    {
+      "unit": "sv-3-ma-tal-0-1000",
+      "verdict": "publish",
+      "why": "Alla svar stämmer och A och B är jämna; en ruta med noll i tiotalen eller entalen (till exempel 305) skulle säga mer."
+    },
+    {
+      "unit": "sv-3-ma-mult-division",
+      "verdict": "publish after fixes",
+      "why": "Räkningen stämmer, men instruktionen i del 3 går inte att förstå och A och B har samma tal och samma rest; multiplikationstabellerna prövas bara genom en saknad faktor."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "verdict": "publish after fixes",
+      "why": "Del 3 är klart svårare i B, och del 2 upprepar del 1 i stället för att pröva halvor, tredjedelar och fjärdedelar."
+    },
+    {
+      "unit": "sv-3-ma-geometri",
+      "verdict": "publish after fixes",
+      "why": "Svaren stämmer, men kvadraten återkommer i del 2 i båda versionerna, del 5 avslöjar sig genom storleken, och fyrhörningar, som står först i titeln, har ingen del."
+    }
+  ],
+  "notes": [
+    "ALLVARLIGAST: Facit visar bara siffran eller bokstaven vid bilder utan tryckt ord (Språklekar del 1–4, Ljuda och stava del 1–3). Läraren ska enligt lärarsidorna säga ordet, men får aldrig veta vilket ord som menas (lemonad, trollstav, jordglob, matlåda, skrivbord). Skriv målordet under varje bild i facit.",
+    "Kamrat eller kompis: arbetsområdet heter ”Talkamrater”, lektionerna ”Femkamrater”, ”Tiokamrater”, ”Tjugokamrater”, men arbetsbladen och instruktionerna säger ”femkompis” och ”tjugokompis”. Välj ”kamrater” överallt.",
+    "Versaler och gemener: i Språklekar del 2 står facit med stora bokstäver (Ä, H, B), i del 3 med små (t, d, i). Skriv i facit att båda godtas, eller använd samma överallt.",
+    "Samma ordning i A och B: i Talen 0–20 är svaren udda–jämnt (del 5) och jämnt–udda (del 6) i båda versionerna, och i Läge, storlek och mönster del 3 står B i ren fallande ordning (3, 2, 1). Byt ordning i B.",
+    "Samma tal för ofta: Talen 0–100 del 1 har fem tiotal i både A (56) och B (58), och 56 kommer igen i A del 4. Talkamrater del 3 har samma ramar i A och B (□ + 2 och 6 − □). Variera.",
+    "Ord som återkommer i samma version av Ordkunskap: ”snabb” två gånger i A (del 2 och del 3), ”häpen” två gånger i B (rätt svar i del 2, fel svar i del 3); ”munter”, ”högljudd” och ”smaskig” återkommer som felsvar. Ordförrådet blir snävare än det behöver vara.",
+    "Bilder som är för små för att jag säkert ska kunna bedöma dem i utskrift: de fem gamarna i Antal 0–10 del 3 A ruta 1 (mycket mindre än kiwierna i B), tigrarna i Multiplikation del 1 A ruta 1 och rutorna i Geometri del 5–6. Kontrollera på en utskriven sida att ett barn kan räkna dem.",
+    "Geometri del 5 och 6: i tre av fyra rutor är den smala remsan det rätta svaret. Blanda så att också den bredare rektangeln är rätt ibland.",
+    "Läsa och skriva ord och meningar del 2: yrkesbilderna (läkare, bonde, byggarbetare, fotograf) står bredvid meningar om att läsa, sova och leka. En läkare vid ”Olle läser på lekplatsen” drar uppmärksamheten från meningen.",
+    "Former (förskoleklass) del 3: i facit har svarslinjerna samma gröna färg som figurens ytterkant, så det syns inte vad eleven ska ha ritat. Rita svarslinjerna i orange som övriga svar. B (med parallellogram) är också något svårare än A (med kvadrat).",
+    "Addition och subtraktion 0–100: Räkna mynt stannar vid 9 kronor och har ingen tiokrona; för åk 2 i ett arbetsområde upp till 100 är det lågt. En ruta med tiokronor och enkronor vore rimligare.",
+    "Rubrikerna bryts illa: ”Antal och siffror 0–” står på en rad och ”10: Avstämning A” på nästa. Håll ihop talområdet (0–10) med hårt bindestreck eller radbrytning före.",
+    "Typografi: långt tankstreck utan mellanrum (”Räkna inte — gissa!”) och raka citattecken i facitanteckningen (\"tiga\") är inte svenska; använd ” – ” och ”…”. Sidfoten ”Made with LessonCraftStudio.com” är på engelska på helt svenska sidor.",
+    "Flera avstämningar har en sista sida med en enda ruta (Läge, storlek och mönster sida 3; Former sida 2; Sortera sida 2). Med mindre luft får delarna plats på en sida mindre, vilket sparar papper och kopiering.",
+    "Titlar som lovar mer än avstämningen prövar: spegelbilder, sortering, rim, hälften, alfabetisk ordning och fyrhörningar står i arbetsområdets namn men har ingen del. Raden ”Inte med i avstämningen” gör det ärligt, men läraren bör se den redan på första sidan av lärarsidorna."
+  ]
+}

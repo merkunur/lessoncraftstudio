@@ -1,0 +1,263 @@
+{
+  "checks": [
+    {
+      "unit": "sv-f-ma-lage-storlek-monster",
+      "verdict": "publish",
+      "why": "Alla svar är entydiga och instruktionerna är nu bra svenska för sexåringar. Kvar som skönhetsfel: bara lägesordet PÅ prövas i båda versionerna, och del 3 B står fortfarande i ren fallande ordning (3, 2, 1)."
+    },
+    {
+      "unit": "sv-f-ma-antal-0-10",
+      "verdict": "publish",
+      "why": "De nya bilderna i del 3 A (5 tigrar, 4 pandor) går att se, och del 4 B (6 mot 7 bananer) ligger nu på samma nivå som A (8 mot 6). Tigrarna och pandorna är fortfarande klart mindre än kiwierna i B; kontrollera på en utskrift."
+    },
+    {
+      "unit": "sv-f-ma-former",
+      "verdict": "publish",
+      "why": "Del 1 fungerar nu: en ruta per version där kvadrat och rektangel står mot varandra, och läraren läser namnen. Facit i del 3 syns tydligt i orange. Bara en småsak i instruktionen till del 3 (”varje figur” fast det finns en)."
+    },
+    {
+      "unit": "sv-f-ma-sortera-dela-upp",
+      "verdict": "publish",
+      "why": "Svaren stämmer, och instruktionerna (gissa, tillsammans, femkamrat) är rättade och låter som en lärare. Sortering står först i titeln men har ingen del; det står ärligt i listan."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "verdict": "publish after fixes",
+      "why": "Del 1 är nu på rätt nivå (8 och 9), men del 2 är 4 − 3 i A och 4 − 2 i B: samma utgångstal i båda versionerna och aldrig över 4 i ett arbetsområde som heter 0–10."
+    },
+    {
+      "unit": "sv-1-ma-talkamrater",
+      "verdict": "publish after fixes",
+      "why": "5 + 5 i B del 5 är i nivå med A (som har 3 + 3 och 4 + 6), men den andra pyramiden i B är nästan samma uppgift som i A: 1 + 2 = 3 och 3 + 5 = 8 mot 1 + 2 = 3 och 5 + 3 = 8."
+    },
+    {
+      "unit": "sv-1-ma-former-monster-langd",
+      "verdict": "publish",
+      "why": "Facit i del 1 ringar nu in exakt rätt figurer (1, 2, 4 i A och 2, 3, 4 i B), och del 2 har entydiga djurmönster med siffran på rätt bild. Instruktionerna går att läsa upp."
+    },
+    {
+      "unit": "sv-1-ma-tal-0-20",
+      "verdict": "publish",
+      "why": "Del 3 är nu jämn (14 + 6 och 9 + 11) och alla svar stämmer. Kvar: udda/jämnt kommer i samma ordning i A och B i både del 5 och del 6, och ”dubbelt av ett tal” är inte riktig svenska."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "verdict": "publish after fixes",
+      "why": "Alla ord är nu ljudenliga och facit visar orden, men del 2 är lättare i B (får med 3 ljud och svan med 4) än i A (panda med 5 och gris med 4). Facitanteckningen har fortfarande raka citattecken."
+    },
+    {
+      "unit": "sv-2-ma-tal-0-100",
+      "verdict": "publish after fixes",
+      "why": "Del 2 prövar nu både 1 och 10 mer och mindre, men A har 70 (tiotalsövergång till 69) och B har 73 (ingen övergång), så B är lättare. Övriga delar stämmer; bara fyra av åtta lektioner har en del."
+    },
+    {
+      "unit": "sv-2-ma-add-sub-0-100",
+      "verdict": "publish",
+      "why": "Svaren stämmer och börsen är borta. ”Blockgrupperna” i del 1 är inget svenskt skolord och bör bytas, och mynten når fortfarande inte 10 kronor."
+    },
+    {
+      "unit": "sv-2-ma-multiplikation",
+      "verdict": "publish",
+      "why": "Alla produkter stämmer, A och B är jämna och instruktionerna är korrekta."
+    },
+    {
+      "unit": "sv-2-sv-ordkunskap",
+      "verdict": "publish after fixes",
+      "why": "”Molnig” och de nya synonymparen är bra, men version B prövar samma ordpar två gånger: början–start i del 1 och börja–starta i del 3 (och ”slut” är rätt svar i del 1 medan ”sluta” står som felsvar i del 3)."
+    },
+    {
+      "unit": "sv-3-ma-tal-0-1000",
+      "verdict": "publish",
+      "why": "Alla svar stämmer och A och B är jämna. En ruta med noll som tiotal eller ental i del 1 skulle fortfarande säga mer."
+    },
+    {
+      "unit": "sv-3-ma-mult-division",
+      "verdict": "publish",
+      "why": "Del 3 har nu olika tal och olika rest (21 / 2 = 10 rest 1 och 22 / 5 = 4 rest 2), och den nya instruktionen går att förstå när den läses upp. Skrivsättet med snedstreck och ”rest” är det svenska."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "verdict": "publish after fixes",
+      "why": "Del 1 B återanvänder två av de tre figurerna i A (den halverade rektangeln och cirkeln med en liten tårtbit). I den nya del 3 är det rätta svaret i A den längsta raden, så den som tror att ”det hela är störst” får rätt utan att läsa bråket; i B är det den kortaste."
+    },
+    {
+      "unit": "sv-3-ma-geometri",
+      "verdict": "publish after fixes",
+      "why": "Svaren stämmer, kvadraten på spetsen är borta och felalternativen i del 5 och 6 ligger nu nära. Men i version A är rätt svar den smala remsan på första plats i både del 5 och del 6, och i B står rätt svar på andra plats i båda; en liten ändring räcker."
+    }
+  ],
+  "parts": [
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A visar halverad rektangel (rätt), cirkel med en liten tårtbit (fel) och rektangel med smal remsa (fel). B visar samma cirkel med liten tårtbit (fel), samma halverade rektangel (rätt) och en halverad cirkel (rätt). Två av tre figurer i B är alltså identiska med A, och alla figurer i båda versionerna har bara två delar. Byt figurerna i B mot andra, gärna med tre eller fyra delar (till exempel en kvadrat i fyra lika stora delar, en cirkel i tre olika stora delar och en rektangel i tre lika stora delar)."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Uppgiften är bra och har ett enda rätt svar, och 1/4 mot 1/5 är samma nivå. Men alternativen är olika svåra: i A (2, 4 och 3 rutor) är rätt svar den längsta raden, så en elev som resonerar ”det hela är störst” får rätt utan att räkna; i B (5, 7 och 6 rutor) är rätt svar den kortaste och eleven måste räkna. Ge A minst ett alternativ som är längre än det rätta, till exempel 3, 4 och 6 rutor."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A är 4 − 3 och B är 4 − 2: samma antal bilder i båda versionerna, och talen ligger på förskoleklassens nivå. Det är samma brist som del 1 hade (summor högst 5). Ta rutor med 7–10 bilder och olika utgångstal, till exempel 8 − 3 i A och 9 − 4 i B. Kryssen syns nu bra."
+    },
+    {
+      "unit": "sv-2-ma-tal-0-100",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Övre rutan: A har 70, där 1 mindre kräver tiotalsövergång (69), medan B har 73, där båda svaren (72, 74) stannar i samma tiotal. B är lättare än A. Ge B också ett jämnt tiotal (till exempel 80 med svaren 79 och 81), eller ge A ett tal som 74. Nedre rutan (35 och 36) är jämn."
+    },
+    {
+      "unit": "sv-2-sv-ordkunskap",
+      "part": 3,
+      "verdict": "fix",
+      "why": "B ruta 1 (börja → starta) är samma ordpar som del 1 B ruta 2, där ”start” står som synonymen till ”början” som INTE ska ringas in. Eleven får alltså veta i del 1 vad som är rätt i del 3, och ”sluta” i ruta 2 ligger intill ”slut” i del 1. Byt B ruta 1 mot ett annat par som inte finns i versionen, till exempel ”prata” med svaret ”tala”."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A har panda (5 ljud) och gris (4 ljud med konsonantförbindelse); B har får (3 ljud) och svan (4 ljud). B är lättare, och eftersom B görs efter arbetsområdet ser framstegen större ut än de är. Byt ”får” mot ett ljudenligt ord med fem ljud, till exempel banan, melon eller zebra. (Fåret på bilden ser dessutom ut som ett lamm; läraren måste säga ordet.)"
+    },
+    {
+      "unit": "sv-1-ma-talkamrater",
+      "part": 5,
+      "verdict": "fix",
+      "why": "Svar på frågan: 5 + 5 = 10 i B är inte lättare än A, som har 3 + 3 = 6 och 4 + 6 = 10 i sin första pyramid. Problemet är den andra pyramiden: A är 4 | 1 | 2 → 5 | 3 → 8 och B är 1 | 2 | 3 → 3 | 5 → 8. Både 1 + 2 = 3 och toppen (5 + 3 respektive 3 + 5 = 8) är samma räknefakta, så B är nästan samma uppgift som A. Byt bottenraden i B, till exempel 1 | 1 | 5 → 2 | 6 → 8, eller ge pyramiden en annan topp (6)."
+    },
+    {
+      "unit": "sv-3-ma-geometri",
+      "part": 6,
+      "verdict": "fix",
+      "why": "Felalternativen ligger nu nära och svaren är rätt. Men i version A är det rätta svaret den smala remsan på första plats i både del 5 och del 6, och i version B står det rätta svaret på andra plats i båda delarna; remsan är rätt i tre av fyra rutor. Byt plats på alternativen i del 6 i den ena versionen, eller låt den bredare rektangeln vara rätt i del 6 A."
+    }
+  ],
+  "instruction": [
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 3,
+      "now": "Den lilla rutan är en del av det hela. Läs bråket. Ringa in stapeln som visar det HELA.",
+      "better": "Den lilla rutan är en del av det hela. Läs bråket. Ringa in den remsa som visar det HELA.",
+      "why": "Instruktionen är rätt och går att läsa upp för åk 3; ”det hela” är ordet man använder. Men en stapel står upp (stapeldiagram), och de här raderna av rutor ligger ner. I svensk skola heter de bråkremsor, alltså ”remsa”."
+    },
+    {
+      "unit": "sv-3-ma-brak",
+      "part": 4,
+      "now": "Titta på båda staplarna. Ringa in det större bråket.",
+      "better": "Titta på båda remsorna. Ringa in det bråk som är störst.",
+      "why": "Samma sak med ”staplarna”. Lektionen heter ”Vilket bråk är störst?”, och med barn säger man ”störst” också om två."
+    },
+    {
+      "unit": "sv-2-ma-add-sub-0-100",
+      "part": 1,
+      "now": "Addera de två blockgrupperna. Skriv summan.",
+      "better": "Addera de två talen som tiostavarna och entalskuberna visar. Skriv summan.",
+      "why": "”Blockgrupper” är inget ord i svensk matematikundervisning och låter översatt; lektionen själv säger tiostavar och entalskuber."
+    },
+    {
+      "unit": "sv-1-ma-add-sub-0-10",
+      "part": 1,
+      "now": "Räkna båda sidor av dominobrickan. Skriv summan.",
+      "better": "Räkna prickarna på dominobrickans båda halvor. Skriv summan.",
+      "why": "Man räknar prickarna, inte sidorna, och en dominobricka har två halvor; ”sidor” får barn att tänka på fram- och baksida."
+    },
+    {
+      "unit": "sv-1-ma-tal-0-20",
+      "part": 4,
+      "now": "Varje kort visar dubbelt av ett tal. Skriv hur många det är tillsammans.",
+      "better": "Varje kort visar det dubbla av ett tal. Skriv hur många det är tillsammans.",
+      "why": "”Dubbelt av” är inte svenska; det heter ”det dubbla av ett tal” eller ”dubbelt så många”."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 2,
+      "now": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta, börja från vänster. Lämna rutorna du inte behöver tomma.",
+      "better": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta. Börja längst till vänster och lämna de rutor du inte behöver tomma.",
+      "why": "Man börjar ”till vänster”, inte ”från vänster”, och satsen hängde löst efter ett kommatecken."
+    },
+    {
+      "unit": "sv-1-sv-ljuda-stava",
+      "part": 1,
+      "now": "Använd bokstäverna för att bygga ordet till varje bild.",
+      "better": "Bygg ordet till varje bild med de tre bokstäverna.",
+      "why": "”Använd … för att” är ett engelskt mönster; den korta uppmaningen är så en lärare säger det."
+    },
+    {
+      "unit": "sv-f-ma-former",
+      "part": 3,
+      "now": "Titta på bitarna ovanför varje figur. Rita linjerna inuti figuren där bitarna möts.",
+      "better": "Titta på bitarna ovanför figuren. Rita linjerna inuti figuren där bitarna möts.",
+      "why": "Det finns bara en figur i rutan; ”varje figur” får barnen att leta efter fler."
+    },
+    {
+      "unit": "sv-1-ma-former-monster-langd",
+      "part": 1,
+      "now": "Läs namnet. Ringa in alla former som verkligen är en sådan form.",
+      "better": "Läs namnet. Ringa in alla figurer som är en sådan form.",
+      "why": "”Former som verkligen är en sådan form” säger form två gånger och ”verkligen” antyder en kuggfråga; för åk 1 räcker den raka uppmaningen."
+    }
+  ],
+  "strings": [
+    {
+      "key": "tpHow2",
+      "better": "Läs upp varje instruktion, en del i taget. Om det inte står något ord vid en bild säger du ordet högt; orden står i facit. I förskoleklass, och vid behov i åk 1, läser du också upp orden som står i rutorna, utom när delen prövar just läsningen. Det är innehållet i delen som prövas, inte om eleven kan läsa instruktionen.",
+      "why": "Också i åk 1 görs Kunskapskoll A innan många kan läsa ”triangel”, ”udda” och ”jämnt”; läraren behöver få veta att orden får läsas upp där, men inte i delar som ”Tal med bokstäver” och ”Motsatsord”, där läsningen är det som prövas."
+    },
+    {
+      "key": "notCovered",
+      "better": "Inte med i kunskapskollen: {lessons}. Alla arbetsblad går inte att dela upp i enskilda uppgifter som passar i en kort kunskapskoll.",
+      "why": "Den nuvarande meningen säger att arbetsbladen inte går att dela upp, men till exempel ”Udda och jämna tal upp till 100” togs bort av ett annat skäl. Den nya meningen är sann för alla lektioner i listan."
+    },
+    {
+      "key": "hubCoverage",
+      "better": "Det finns inte en kunskapskoll till varje arbetsområde än, och alla lektioner har inte en egen del i kunskapskollen. Alla arbetsblad går inte att dela upp i enskilda uppgifter.",
+      "why": "”Alla arbetsområden har inte en kunskapskoll” kan läsas som att inget har det, och ”kan sakna en del för enskilda lektioner” är krånglig."
+    },
+    {
+      "key": "formsNote",
+      "better": "Varje kunskapskoll du laddar ner räknas som en nedladdning, precis som ett arbetsblad.",
+      "why": "”Skriver ut” och ”nedladdning” är två olika saker i samma mening; det som räknas är nedladdningen. (Om A och B räknas var för sig bör det stå: ”Kunskapskoll A och Kunskapskoll B räknas som var sin nedladdning.”)"
+    },
+    {
+      "key": "tpStill",
+      "better": "Repetera lektion {n} med arbetsbladet ”{title}”.",
+      "why": "Utan ordet ”arbetsbladet” ser titeln inom citattecken ut som lektionens namn; i raderna bredvid står ”arbetsbladet”."
+    },
+    {
+      "key": "tpNextTitle",
+      "better": "Så går du vidare",
+      "why": "Samma mönster som rubriken ”Så använder du kunskapskollen”; ”Hur du går vidare” låter som en översatt rubrik."
+    },
+    {
+      "key": "teacherPages",
+      "better": "Lärarsidor: poäng, klasslista och så går du vidare",
+      "why": "Följer av ändringen i tpNextTitle; behåll den nuvarande om rubriken inte ändras."
+    },
+    {
+      "key": "hubJumpTitle",
+      "better": "Förskoleklass och årskurs 1–3",
+      "why": "Förskoleklassen är ingen årskurs; en lärare i förskoleklass letar inte under ”Årskurser”."
+    }
+  ],
+  "notes": [
+    "ALLVARLIGAST: Bråk. Del 1 B är till två tredjedelar samma uppgift som A (samma halverade rektangel, samma cirkel med liten tårtbit), och i den nya del 3 kan A lösas med ”ta den längsta” medan B kräver att eleven räknar. Båda går att rätta genom att byta figurer respektive alternativ.",
+    "Nivåskillnader mellan A och B som finns kvar, alla åt samma håll (B lättare, så framstegen ser större ut): Talen 0–100 del 2 (70 mot 73), Ljuda och stava del 2 (panda mot får). Addition och subtraktion 0–10 del 2 ligger under årskursens nivå i båda versionerna (4 − 3 och 4 − 2).",
+    "Namnet ”Kunskapskoll” fungerar överallt: en kunskapskoll, kunskapskollen, kunskapskollar böjs rätt i alla strängar, och rubrikerna (”Antal och siffror 0–10: Kunskapskoll A”) bryts nu utan att talområdet delas. Jag håller med om att meningen om Skolverkets bedömningsstöd inte ska läggas till: med det nya namnet pekar ingenting dit, och att nämna materialet skulle bara väcka frågan.",
+    "Facitanteckningen i Ljuda och stava del 3 har fortfarande raka citattecken (\"kamäl\"); svenska citattecken är ”kamäl”. I version B står exemplet ”kamäl för kamel” fast orden där är delfin och tiger; ta ett exempel ur versionens egna ord (”dälfin” för delfin).",
+    "Ljuda och stava del 4: facit visar sköld-pad-da. Skriv i facit att poängen ges för rätt antal bågar (3 och 2), eftersom ett barn som delar padd-a har klappat rätt antal stavelser. ”Björn” finns i både A (tvättbjörn) och B (björnbär); det gör ingenting.",
+    "Samma ordning på svaren i A och B, som den första läsaren påpekade och som finns kvar: Talen 0–20 del 5 (udda, jämnt i båda) och del 6 (jämnt, udda i båda); Läge, storlek och mönster del 3 B är ren fallande ordning (3, 2, 1). Byt ordning i en av versionerna när delarna ändå byggs om.",
+    "Talkamrater del 3 har fortfarande samma ramar i A och B (□ + 2 = och 6 − □ =); bara svaret skiljer sig. Addition och subtraktion 0–10 del 1 har + 6 i båda versionerna (2 + 6 och 3 + 6). Bråk del 4 har nämnaren 6 i alla fyra bråken och del 5 har 1/4 och 1/3 i samma ordning i A och B. Inget av detta hindrar publicering, men variationen är snål.",
+    "Läge, storlek och mönster del 1 prövar bara PÅ i både A och B, fast lektionen heter ”på, under, bredvid, vänster och höger”. En lärare ser då inte om barnen kan något annat lägesord än det lättaste.",
+    "Bilder att kontrollera på en riktig utskrift: tigrarna och pandorna i Antal 0–10 del 3 A är ungefär hälften så stora som kiwierna i B; gamarna i Talen 0–20 del 4 A och girafferna i Multiplikation och division del 3 A är mycket små (girafferna ska dessutom ringas in två och två). I Bråk del 5 B ligger 12 limefrukter som 11 på en rad och 1 ensam på nästa; bryt raden 6 + 6 eller 4 + 4 + 4 så att fjärdedelen går att se.",
+    "Multiplikation och division del 1: instruktionen säger ”lådorna”, men det som är ritat ser ut som fickor eller burkar med streckad överkant. Barnen förstår ändå, men ”Dela bilderna lika. Skriv hur många det blir i varje.” vore riskfritt om bilden inte ändras.",
+    "Former (förskoleklass) del 1: skriv på lärarsidan att namnen läses uppifrån och ned medan läraren pekar, annars vet ett barn som inte läser inte vilken knapp som är ”rektangel”. Del 3 B (med parallellogram) är fortfarande något svårare än A (med kvadrat), men inom det rimliga.",
+    "Antal 0–10 del 2: facit ringar in de tre (fyra) första bilderna. Skriv att vilka tre (fyra) bilder som helst ger poäng.",
+    "Addition och subtraktion 0–100: mynten stannar fortfarande vid 9 kronor utan tiokrona, lågt för åk 2 i ett arbetsområde upp till 100 ”med pengar”; summorna i del 1 (69 och 67) saknar tiotalsövergång. Det är arbetsbladens gräns, men läraren bör inte tro att kollen visar mer än den gör.",
+    "Sidfoten ”Made with LessonCraftStudio.com” är fortfarande på engelska på helt svenska sidor.",
+    "Titlar som lovar mer än kunskapskollen prövar finns kvar (spegelbilder, sortering, hälften, läsa, alfabetisk ordning, fyrhörningar). Raden ”Inte med i kunskapskollen” gör det ärligt; se till att den står på första lärarsidan."
+  ]
+}

@@ -36,7 +36,10 @@ const BANNED = {
   // (VERA, Vergleichsarbeiten, Lernstandserhebung, Kompetenztest): a check of ours is a classroom check
   de: /(?<!\p{L})(kostenlos\p{L}*|gratis|prozentrang\p{L}*|diagnos\p{L}*|vera|vergleichsarbeit\p{L}*|lernstandserhebung\p{L}*|kompetenztest\p{L}*)(?!\p{L})/iu,
 };
-BANNED.sv = /(?<!\p{L})(gratis|kostnadsfri\p{L}*|percentil\p{L}*|diagnos\p{L}*|nationell\p{L}* prov\p{L}*|bedömningsstöd\p{L}*|kartläggning\p{L}*)(?!\p{L})/iu;   // Swedish: also the names of Skolverket's own materials
+// Swedish: also the names of Skolverket's own materials, and "avstämning": "Avstämning A / B / C" are the points of
+// Skolverket's bedömningsstöd in reading and writing, so a page of ours with that name reads as a part of it (review
+// sv.review-1; the check is called "kunskapskoll")
+BANNED.sv = /(?<!\p{L})(gratis|kostnadsfri\p{L}*|percentil\p{L}*|diagnos\p{L}*|nationell\p{L}* prov\p{L}*|bedömningsstöd\p{L}*|kartläggning\p{L}*|avstämning\p{L}*)(?!\p{L})/iu;
 const NOT_STANDARDIZED = { en: /\bnot a standardized test\b/i, de: /(?<!\p{L})kein standardisierter Test(?!\p{L})/i, sv: /(?<!\p{L})inget standardiserat test(?!\p{L})/i };
 const STANDARDIZED = { en: /\bstandardi[sz]ed\b/gi, de: /standardisiert\p{L}*/giu, sv: /standardisera\p{L}*/giu };
 
@@ -121,6 +124,13 @@ const POISONS = [
   ['the German honest sentence taken out', 'T6', (d) => { if (d.de) d.de.ui.sectionHonest = 'Das ist eine Lernkontrolle zu den Stunden dieser Einheit.'; else d.en.ui.sectionHonest = 'x'; }],
   ['a German claim to be standardized', 'T6', (d) => { if (d.de) d.de.ui.tpHow1 += ' Die Lernkontrolle ist standardisiert.'; else d.en.ui.tpHow1 += ' The check is standardized.'; }],
   ['a missing German string', 'T8', (d) => { if (d.de) delete d.de.ui.hubCoverage; else delete d.en.ui.tpGridLead; }],
+  // Swedish (Part 7.5): the same wording rules in Swedish words, the name the Swedish reader ruled out, a missing string
+  ['a Swedish string that names an official material', 'T6', (d) => { if (d.sv) d.sv.ui.hubLead += ' Den förbereder för de nationella proven.'; else d.en.ui.sectionLead += ' It shows mastery.'; }],
+  ['the Swedish name of Skolverket\'s points (Avstämning A)', 'T6', (d) => { if (d.sv) d.sv.ui.formA = 'Avstämning A (PDF)'; else d.en.ui.sectionLead += ' It shows mastery.'; }],
+  ['a Swedish string that says gratis', 'T6', (d) => { if (d.sv) d.sv.ui.formsNote += ' Gratis.'; else d.en.ui.sectionLead += ' It shows mastery.'; }],
+  ['the Swedish honest sentence taken out', 'T6', (d) => { if (d.sv) d.sv.ui.tpHonest = 'Det här är en kunskapskoll som hör till lektionerna i arbetsområdet.'; else d.en.ui.sectionHonest = 'x'; }],
+  ['a Swedish claim to be standardized', 'T6', (d) => { if (d.sv) d.sv.ui.tpHow1 += ' Kunskapskollen är standardiserad.'; else d.en.ui.tpHow1 += ' The check is standardized.'; }],
+  ['a missing Swedish string', 'T8', (d) => { if (d.sv) delete d.sv.ui.hubCoverage; else delete d.en.ui.tpGridLead; }],
 ];
 
 if (require.main === module) {

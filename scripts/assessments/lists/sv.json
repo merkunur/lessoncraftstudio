@@ -1,0 +1,293 @@
+{
+ "$comment": "What the readers of the checks ruled, for Swedish. The rulings about numbers and pictures were made on the English and German checks (the worksheet types draw the same numbers and pictures in every language) and are carried over; the rulings about Swedish words, direction lines and levels are the Swedish reader's (scripts/assessments/reviews/sv.review-1.json). The kinds of ruling are explained in lists/en.json and lists/de.json. Further kinds used here: dropType (a worksheet type that stands in no check of the language; the lesson's next type is tried), sayWords (the key names the word of a picture that prints none), sameGap (two groups to compare are about as far apart in form B as in form A), kindText with mixKinds (a kind of task named by what a box prints and answers), topFact (the top of a number wall counts as a fact of the form), avoidPicturesOf and avoidNums (per type), nearWrong (the wrong choice is close to the right one), otherRest (another number and another remainder in form B), otherLead (another ten in form B), disjointForm (a word stands once in a form, across its parts).",
+ "sayWords": true,
+ "drop": {
+  "sv-3-ma-brak": {
+   "2": "[sv.review-1] The part repeats part 1 (which shape is cut into equal parts) and does not ask what the lesson teaches: knowing and naming halves, thirds and fourths."
+  }
+ },
+ "dropType": {
+  "G2-247": "[from the English and German reviews] Library pictures keyed as symmetrical are not exact mirror images.",
+  "G3-354": "[from the English and German reviews] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks.",
+  "G2-206": "[from the English and German reviews] The answer frame \"□ ■·10 + □\" is no notation a second grader knows.",
+  "G1-354": "[from the English and German reviews] Built with the seven pieces of a real tangram: no task of a paper check.",
+  "G1-355": "[from the English and German reviews] Built with the seven pieces of a real tangram: no task of a paper check.",
+  "K-063": "[from the English and German reviews] The mirror picture of an animal that faces the front differs from its copy only in the tail.",
+  "G1-116": "[from the English and German reviews] The number line runs to 20 in units that go to 10.",
+  "G1-117": "[from the English and German reviews] The number line runs to 20 in units that go to 10.",
+  "G1-101": "[sv.review-1] Its sums stop at 5, below the same task in the check of förskoleklass (7 and 8); the unit is addition up to 10. The lesson's domino worksheet is tried instead.",
+  "G2-351": "[sv.review-1] The lesson is odd and even numbers up to 100; the boxes of this worksheet stop at 20 and the child never says odd or even.",
+  "G1-103": "[sv.review-2] Its boxes stop at 5 pictures (4 − 3 and 4 − 2 in the two forms), the level of förskoleklass in a unit that goes to 10. The lesson's second worksheet is tried instead."
+ },
+ "instruction": {
+  "G1-275": "På den här tallinjen står bara 0, 10 och 20 utsatta. Räkna ett steg i taget. Skriv talet som varje pil pekar på.",
+  "G2-305": "Den här tallinjen börjar inte på 0. Skriv talet som varje pil pekar på.",
+  "G1-282": "Ordna orden till en mening och skriv den på raden. Meningen börjar med stor bokstav och slutar med punkt.",
+  "G1-287": "Varje kort visar det dubbla av ett tal. Skriv hur många det är tillsammans.",
+  "G1-266": "Lägg ihop talen i två stenar som ligger bredvid varandra. Skriv summan i stenen ovanför.",
+  "K-016": "Bilderna står i par. Om en blir över är talet udda. Ringa in udda eller jämnt.",
+  "G3-338": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA area, alltså lika många rutor.",
+  "G3-339": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA omkrets, alltså lika långt runt om.",
+  "G3-346": "Räkna alla kuber i varje bygge. Skriv hur många kuber det är.",
+  "G2-233": "Titta på bråket. Ringa in så stor del av bilderna som bråket visar. Skriv hur många du ringade in.",
+  "G3-320": "Titta på bråket. Ringa in så stor del av bilderna som bråket visar. Skriv hur många du ringade in.",
+  "K-032": "Ringa in den STÖRSTA.",
+  "K-033": "Skriv 1 vid den minsta, 2 vid den som är mittemellan och 3 vid den största.",
+  "K-038": "Tänk på hur de är i verkligheten. Ringa in den som är TYNGST.",
+  "K-368": "Titta på formen i varje ruta. Lyssna på de tre namnen och ringa in formens namn.",
+  "K-029": "Räkna inte – gissa! Ringa in den bästa gissningen.",
+  "K-028": "Räkna båda grupperna. Skriv hur många det är tillsammans.",
+  "K-273": "Vilken femkamrat saknas? Ta hjälp av prickarna och skriv talet i den streckade cirkeln.",
+  "G1-106": "Hur många prickar till behövs för att det ska bli 10? Skriv talet som saknas.",
+  "G1-219": "Titta på de tre talen i taket. Räkna ut de fyra uppgifterna som hör ihop.",
+  "G1-381": "Läs namnet. Ringa in alla figurer som är en sådan form.",
+  "G1-155": "Två bilder saknas i mönstret. Dra ett streck från rätt bild till varje tom ruta. Två bilder blir över.",
+  "G1-139": "Hur lång är bilden? Räkna de färgade rutorna under den och skriv hur många rutor lång den är.",
+  "K-275": "Vilken tjugokamrat saknas? Skriv talet som fattas i den streckade cirkeln.",
+  "G1-370": "Ringa in bilderna två och två. Skriv hur många par det blev. Är antalet bilder udda eller jämnt? Ringa in rätt ord.",
+  "G1-260": "Säg ordet till bilden och skriv det på raden.",
+  "G1-131": "Skriv talen som saknas. I den övre rutan skriver du talet som är 1 mindre och talet som är 1 mer. I den nedre rutan skriver du talet som är 10 mindre och talet som är 10 mer.",
+  "G3-321": "Den lilla rutan är en del av det hela. Läs bråket. Ringa in den remsa som visar det HELA.",
+  "G1-228": "Räkna mynten i varje ruta. Skriv hur många kronor det är.",
+  "G1-397": "Säg vad bilden föreställer. Ringa in det ord ovanför som är bildat av det ordet.",
+  "G2-216": "Dela bilderna lika i lådorna. Skriv hur många det blir i varje låda.",
+  "G3-377": "Titta på divisionen. Det andra talet visar hur många bilder det ska vara i varje grupp. Ringa in så många grupper du kan. Skriv hur många grupper det blev och hur många bilder som blev över.",
+  "G3-337": "Räkna längs kanten, en rutas sida i taget, runt hela rektangeln. Skriv omkretsen.",
+  "G3-319": "Titta på båda remsorna. Ringa in det bråk som är störst.",
+  "G2-203": "Addera de två talen som tiostavarna och entalskuberna visar. Skriv summan.",
+  "G1-110": "Räkna prickarna på dominobrickans båda halvor. Skriv summan.",
+  "G1-312": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta. Börja längst till vänster och lämna de rutor du inte behöver tomma.",
+  "K-231": "Bygg ordet till varje bild med de tre bokstäverna.",
+  "K-358": "Titta på bitarna ovanför figuren. Rita linjerna inuti figuren där bitarna möts."
+ },
+ "noCheck": {
+  "sv-f-sv-spraklekar": "[sv.review-1] Three of the four parts show pictures with several likely words, or sounds that cannot be told apart by ear (ängel: ä or e; kort and skrivbord: rt and rd are one sound; lemonad, trollstav), and rhyme has no part. The check waits until its pictures are chosen word by word for Swedish.",
+  "sv-1-sv-ord-meningar": "[sv.review-1] All three parts need changes, and four of the seven lessons have no part, among them all reading of single words: the check shows too little of the unit."
+ },
+ "avoid": {
+  "K-016": [
+   10
+  ],
+  "G2-351": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "G2-242": [
+   0
+  ],
+  "G1-266": [
+   7,
+   9
+  ],
+  "G1-104": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "blend": {
+  "G3-364": [
+   "G3-365"
+  ],
+  "G1-131": [
+   "G1-132"
+  ]
+ },
+ "sameGiven": [
+  "G2-233",
+  "G3-320"
+ ],
+ "lowestTerms": [
+  "G3-315"
+ ],
+ "avoidAns": {
+  "G3-317": "^[01]\\d$",
+  "G2-223": "^[6789]00",
+  "K-275": "^(10|[125]|1[589])$",
+  "G1-397": "handlig",
+  "K-231": "x|^s\\|j|^g\\|[eiyäö]|^k\\|[eiyäö]|g\\|n$|l\\|g$|(.)\\|\\1",
+  "G1-266": "^4\\|4\\|8$"
+ },
+ "pairKind": [
+  "G3-319"
+ ],
+ "sameLook": [
+  "G3-343",
+  "K-358"
+ ],
+ "sameGap": [
+  "K-008"
+ ],
+ "kindText": {
+  "K-368": "(?=.*kvadrat)(?=.*rektangel).*→ 1:(kvadrat|rektangel)",
+  "G3-315": "→ 1\\|",
+  "G1-131": "−1 \\d*[09] \\+1"
+ },
+ "mixKinds": [
+  "K-368",
+  "G3-315"
+ ],
+ "topFact": [
+  "G1-266"
+ ],
+ "avoidPicturesOf": {
+  "G3-342": [
+   "diamond"
+  ],
+  "K-018": [
+   "vulture"
+  ]
+ },
+ "avoidNums": {
+  "G1-137": [
+   56
+  ]
+ },
+ "nearWrong": {
+  "G3-338": "area",
+  "G3-339": "perimeter"
+ },
+ "otherRest": [
+  "G3-377"
+ ],
+ "otherLead": [
+  "G1-120"
+ ],
+ "theme": {
+  "K-063": "animals",
+  "G1-155": "animals",
+  "G1-260": "animals"
+ },
+ "avoidEcho": [
+  "G3-312"
+ ],
+ "parity": [
+  "G2-351"
+ ],
+ "disjointWords": [
+  "G1-395",
+  "G1-337"
+ ],
+ "disjointForm": [
+  "G1-337",
+  "G1-395",
+  "G2-358"
+ ],
+ "slotWide": {
+  "G1-137": [
+   "close",
+   "far"
+  ]
+ },
+ "take": {
+  "G2-233": 2
+ },
+ "onlyText": {
+  "G2-223": "([1-9]00 \\+.*){2}",
+  "G1-282": "^[^?]*$",
+  "G1-104": "− [2-9] ="
+ },
+ "avoidPictures": [
+  "vulture"
+ ],
+ "avoidText": [
+  "yacht",
+  "jättelik",
+  "handlig"
+ ],
+ "onlyPictures": {
+  "G1-260": [
+   "camel",
+   "rabbit",
+   "dolphin",
+   "tiger",
+   "panda"
+  ]
+ },
+ "keyNote": {
+  "G1-260": "Före arbetsområdet godtas en ljudenlig stavning som går att läsa (till exempel ”kamäl” för kamel eller ”dälfin” för delfin). Efter arbetsområdet ska ordet vara rätt stavat.",
+  "G1-312": "Ge poäng när eleven har skrivit ett ljud i varje ruta, i rätt ordning, och lämnat de övriga rutorna tomma. Ljudenlig stavning godtas.",
+  "G1-305": "Poängen ges för rätt antal bågar. Den exakta gränsen mellan stavelserna behöver inte stämma (sköld-pad-da och sköld-padd-a har båda tre bågar).",
+  "K-011": "Poängen ges när rätt antal bilder är målade, vilka av bilderna det än är.",
+  "K-368": "Läs de tre namnen uppifrån och ned och peka på varje namn medan du läser."
+ },
+ "reasons": {
+  "carried over": "[from the English and German reviews] See lists/en.json and lists/de.json for the reason of each ruling carried over (avoid K-016 G2-351 G2-242, blend G3-364, sameGiven, lowestTerms, avoidAns G3-317 G2-223, pairKind, sameLook, theme K-063, avoidEcho, parity, disjointWords, slotWide, take, onlyText, the first eight dropType lines).",
+  "the name": "[sv.review-1] \"Avstämning A\" and \"Avstämning B\" are the names of the points of Skolverket's bedömningsstöd in reading and writing (obligatory in year 1): a teacher would take the pages for a part of it. The check is called \"Kunskapskoll\". With that name the sentence about Skolverket's material is not needed and no official material is named on the pages (gate T6).",
+  "instructions of the Swedish review": "[sv.review-1] 28 direction lines in the wording of the Swedish reader: what the child writes instead of \"numrera\"; \"tyngst\" for two things; the teacher reads the three shape names in förskoleklass; no \"kolla sen\" in an estimate; \"tillsammans\", \"femkamrat\", \"tjugokamrat\" (the words of the lessons); \"prickar\", not \"punkter\"; \"grupper\" for a division; no purse that is not drawn; \"area\" and \"omkrets\" in year 3.",
+  "G1-131 blend G1-132": "[sv.review-1] The lesson is 1 more, 1 less, 10 more, 10 less; both boxes of both forms asked 1 more and 1 less, which is year 1. Box 2 is taken from the lesson's second worksheet.",
+  "K-008 sameGap": "[sv.review-1] 3 against 8 is seen at a glance, 8 against 6 is counted: form B was far easier.",
+  "K-368 kindText": "[sv.review-1] Form A asked a rectangle among \"kvadrat\" and \"rektangel\", form B a circle among them: each form now has one box whose answer is a square or a rectangle with both names offered, and one other box.",
+  "G1-266 topFact and avoid": "[sv.review-1] The tops 9 and 7 were the sums of the fact families of part 2 in both forms, so 3 + 4 = 7 and 4 + 5 = 9 were asked twice in one form.",
+  "K-275 avoidAns": "[sv.review-1] 20 = ? + 10 is a plain double and far easier than 20 = ? + 11; the partners 1, 2, 18 and 19 are counted on two fingers, and 5 with 15 is a count by fives.",
+  "G1-397 avoidAns": "[sv.review-1] handlig (see avoidText; the words of this type stand in its drawing, so the answer is named here).",
+  "K-231 avoidAns": "[sv.review-1] sjö has three letters and two sounds. Also kept out by the same rule of Swedish spelling: get and kök (g and k before a soft vowel), ugn, älg, ägg, kex.",
+  "G1-260": "[sv.review-1] päron is not spelled as it sounds (o says å); both forms now take animals of five letters that are (kamel, kanin, tiger, panda, delfin). The key note has an example from the page.",
+  "G3-315 kindText": "[sv.review-1] Form A had two unit fractions (the 1 on top can be written without understanding), form B 5/6 and 3/4: each form now has one unit fraction and one other.",
+  "G3-342 avoidPicturesOf": "[sv.review-1] A square on its tip in form A and a square in form B: the same figure with the same answer; many children read the square on its tip as a rhombus and answer 2.",
+  "K-018 avoidPicturesOf": "[sv.review-1, notes] Five vultures to see at a glance are far smaller than the six kiwis of the other form: too small to count on a printed page. (The doubles worksheet G1-287 keeps its vultures: twelve of them in two groups of six can be counted on the sheet, and without them the part cannot be filled.)",
+  "G3-339 nearWrong": "The same fault as in the part before it, found on the rebuilt sheet: a 5 by 5 square beside a 3 by 3 one is seen to be larger all round without counting.",
+  "G3-321 instruction": "The worksheet line calls the small square and the long bars by one word (stapeln); the English review reworded the same line for the same reason.",
+  "G3-338 nearWrong": "[sv.review-1] The wrong rectangle was so much larger (30 squares against 12) that the answer was seen without counting.",
+  "G3-377 otherRest": "[sv.review-1] 21 / 2 and 21 / 4: the same number of pictures and the same remainder in both forms.",
+  "G1-120 otherLead, G1-137 avoidNums": "[sv.review-1] 56 in form A and 58 in form B both show five tens, and 56 stood again in part 4 of form A.",
+  "disjointForm": "[sv.review-1] snabb twice in form A (parts 2 and 3), häpen twice in form B; munter, högljudd and smaskig came back as wrong choices.",
+  "avoidText": "[sv.review-1] stor and jättelik differ in strength, which the unit's own lesson teaches: no pair of synonyms. handlig is no word Swedish children meet (händig, behändig).",
+  "G1-155 theme": "[sv.review-1] An orange left over beside the apricot of the pattern cannot be told apart at that size; both forms take animals.",
+  "G1-312 plainChunks (first draft, kept)": "As in the German review: the sound strip takes words with one letter per sound (not älg and varg, where g says j; not uggla, katt, giraff with a double letter); gam (vulture) is no word a first grader knows.",
+  "found on the key pages": "[sv.review-1] Fixed in the builder for every language: the key of \"is it really that shape\" ringed all four shapes (the key rules of eight pages were carried to one row: lib/cut-cards.js), the key of the pattern with two gaps did not say which picture fills which gap (a badge on the picture now), crosses were orange on orange fruit (dark now), the lines of a figure built of pieces had the colour of its outline (orange now), a title broke inside \"0–10\".",
+  "not changed": "[sv.review-1, notes] The order odd, even is the same in both forms of two parts (form B follows form A box by box, which gate T9 checks; the forms are weeks apart). Liten, mellan, stor has one box per form to choose from. Öppna utsagor keeps the frames □ + 2 and 6 − □ in form B (every other box near in size repeats a fact of the unit's other parts). Räkna mynt has no ten-kronor coin (its worksheet counts 1, 2 and 5 kronor). A last page with one box is left as it is.",
+  "second look": "[sv.review-2] A second reader (a Swedish lågstadielärare) read the rebuilt forms: 10 checks to publish, 7 after fixes, none held; the name Kunskapskoll confirmed, and no sentence about Skolverket's material.",
+  "G1-103 dropType": "[sv.review-2] 4 − 3 and 4 − 2: the same number of pictures in both forms and never above 5.",
+  "G1-131 kindText": "[sv.review-2] 70 in form A (one less crosses a ten: 69) against 73 in form B (both answers stay in the seventies): form B asks a number that ends in 0 or 9 where form A does.",
+  "G1-312 sameSize": "[sv.review-2] panda (5 sounds) and gris (4) in form A against får (3) and svan (4) in form B: form B takes a word of as many sounds as form A.",
+  "G3-343 otherDrawings": "[sv.review-2] Two of the three figures of form B were figures of form A.",
+  "G3-339 posA": "[sv.review-2] In each form the right rectangle of parts 5 and 6 stood in the same place.",
+  "G1-266 avoidAns": "[sv.review-2] The second wall of form B repeated form A's facts (1 + 2 = 3 and 5 + 3 = 8); the top fact of a wall is now compared with form A's walls too. The wall 2, 2, 2 → 4, 4 → 8 is kept out: one fact three times.",
+  "disjointForm (forms of a word)": "[sv.review-2] början–start in part 1 and börja–starta in part 3 of one form: a word and its forms count as one word.",
+  "instructions and key notes of the second look": "[sv.review-2] Nine direction lines (remsa, not stapel, for a fraction strip; \"det dubbla av ett tal\"; the dots of a domino's two halves; tiostavar och entalskuber) and four key notes (which pictures are coloured does not matter; the number of arcs counts; read the three names from the top; an example of sound-true spelling from each form's words).",
+  "not changed after the second look": "[sv.review-2, notes] Small pictures (tigers, pandas, vultures, giraffes) are the worksheets' own size and are to be looked at on a printed page. Twelve limes stand as eleven and one (the worksheet's line break). The left-out lessons are named on the first teacher page. The line under every page is the product's name. The key note's quotation marks are the Swedish ones in the file (U+201D); the page font draws them nearly upright.",
+  "G3-321 notLongest": "[sv.review-2] In form A the right strip was the longest (2, 4, 3 squares), in form B the shortest (5, 7, 6): \"the whole is the biggest\" scored without reading the fraction. The right strip is never the longest, in either form (held to the middle one in both, form B could not be filled).",
+  "G1-104 avoid and onlyText": "[sv.review-2] The reader asked for boxes of 7 to 10 pictures; taking one away is counted at a glance, so the boxes take away two or more.",
+  "G1-104 otherFirst": "[sv.review-2] The same number of pictures to start from in both forms (4 and 4, then 7 and 7): form B starts from another number than form A."
+ },
+ "sameAnswer": [
+  "G1-353"
+ ],
+ "endMark": [
+  "G1-282"
+ ],
+ "plainChunks": {
+  "G1-312": {
+   "min": 3,
+   "max": 5,
+   "not": "[cqwxz]|lg$|rg$"
+  }
+ },
+ "sameSize": [
+  "G1-312"
+ ],
+ "otherDrawings": [
+  "G3-343"
+ ],
+ "posA": {
+  "G3-339": 1
+ },
+ "notLongest": [
+  "G3-321"
+ ],
+ "otherFirst": [
+  "G1-104"
+ ]
+}

@@ -41,6 +41,8 @@ const ui = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'as
 const rulesFile = path.join(__dirname, 'lists', loc + '.json');
 const rules = fs.existsSync(rulesFile) ? JSON.parse(fs.readFileSync(rulesFile, 'utf8')) : { drop: {}, instruction: {}, noCheck: {} };
 const fill = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => (v[k] != null ? v[k] : '{' + k + '}'));
+// a range of numbers in a title stays on one line ("0–" at the end of a line and "10" on the next: review sv.review-1)
+const tie = (s) => s.replace(/(\d)\u2013(\d)/g, '$1\u2013\u2060$2');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 // the worksheet types by id, and their printed strings in the language
@@ -62,8 +64,19 @@ const STYLE = `<style>
 .tc-keynote{margin:-2px 0 8px 38px;font-family:'Nunito',sans-serif;font-weight:700;font-size:12.5px;line-height:1.3;color:#C9552E}
 .tc-key [data-tc-says]{position:relative}
 .tc-key [data-tc-says]::before{content:attr(data-tc-says);position:absolute;right:8px;top:5px;z-index:3;font-family:'Nunito',sans-serif;font-weight:800;font-size:12.5px;color:#C9552E;background:#FFFFFFCC;border-radius:6px;padding:0 5px}
+.tc-wrap [data-lcs-crossed] svg path{stroke:#3A3530}
+.tc-key .ws-pattern-chip[data-lcs-key-badge]{position:relative}
+.tc-key .ws-pattern-chip[data-lcs-key-badge]::after{content:attr(data-lcs-key-badge);position:absolute;right:-7px;top:-9px;min-width:22px;height:22px;box-sizing:border-box;padding:0 5px;border-radius:11px;background:#C9552E;color:#fff;font-family:'Baloo 2',cursive;font-weight:800;font-size:14px;line-height:22px;text-align:center}
+.tc-key svg[data-lcs-mode="solution"] [data-lcs-tan]{stroke:#C9552E}
 </style>`;
-const said = (c) => (loc === 'en' && /^p:/.test(c.key) && !/[\p{L}\d]/u.test(textOf(c)) ? allPics(c).map((p) => p.split('/')[1].replace(/_/g, ' ')).join(', ') : '');   // a picture without a printed word: the key names it
+// (review sv.review-1) crossed-out pictures: the cross is dark, an orange cross on an orange fruit is lost in a grey
+// print; the picture that fills a gap of a pattern carries the number of its gap in the key; the lines of a figure
+// built of pieces are drawn in the colour of the answers
+// a picture without a printed word: the key names it (English: the file's name; another language whose list says
+// sayWords: the word of the card's own sound boxes, else the vocabulary's word)
+const vocab = loc === 'en' || !rules.sayWords ? null : require(path.join(WG, 'lib', 'platform', 'index.js')).vocab();
+const wordOf = (c) => { const own = (/data-lcs-(?:word|chunks)="([^"]*)"/.exec(c.html) || [])[1]; if (own) return own.split('|').join(''); return allPics(c).map((p) => { const n = p.split('/')[1]; const e = vocab[n] || vocab[n.replace(/_/g, ' ')] || vocab[n.replace(/_/g, '-')]; return e && e[loc] ? e[loc][0] : ''; }).filter(Boolean).join(', '); };
+const said = (c) => (/^p:/.test(c.key) && !/[\p{L}\d]/u.test(textOf(c)) ? (loc === 'en' ? allPics(c).map((p) => p.split('/')[1].replace(/_/g, ' ')).join(', ') : vocab ? wordOf(c) : '') : '');
 const sectionHtml = (s, n, key) => `<section class="tc-section" data-tc-part="${n}"><p class="tc-instr"><span class="tc-part">${n}</span><span>${esc(s.instruction)}</span></p>` +
   (key && (rules.keyNote || {})[s.type] ? `<p class="tc-keynote">${esc(rules.keyNote[s.type])}</p>` : '') +
   (s.styles || []).join('') + (key && (s.keyStyles || []).length ? '<style>' + s.keyStyles.map((r) => { const at = r.indexOf('{'); return r.slice(0, at).split(',').map((x) => '[data-tc-part="' + n + '"] ' + x.trim()).join(',') + r.slice(at); }).join('') + '</style>' : '') +                                                    // the style sheet a worksheet type carries in its page
@@ -157,6 +170,11 @@ const wordsOf = (c) => textOf(c).toLowerCase().split(/[^\p{L}]+/u).filter((w) =>
  *  whatever the part (the zebra of the sound boxes is not spelled two parts further down) */
 const picsOf = (c) => (/^[tp]:/.test(c.key) ? (c._pics || (c._pics = [...new Set([...c.html.matchAll(/src="[^"]*?([^"\/]+)\/([^"\/]+?)(?:@\dx)?\.(?:webp|png|svg)"/g)].map((m) => decodeURIComponent(m[1] + '/' + m[2])))])) : []);
 let PICS_A = new Set(), PICS_B = new Set();          // per unit (set where its plans are made)
+let WORDS_A = new Set(), WORDS_B = new Set();        // the words a form has printed in its parts of words (list disjointForm)
+/** a word a form has printed, or a form of it (start and starta, slut and sluta: one word to a child; review sv.review-2) */
+const inWords = (set, w) => { for (const x of set) if (x === w || (Math.min(x.length, w.length) >= 4 && (x.startsWith(w) || w.startsWith(x)))) return true; return false; };
+/** the drawings of a card, each as its markup (lists otherDrawings: no figure of form A's box in form B's) */
+const drawingsOf = (c) => c._svgs || (c._svgs = c.html.match(/<svg[^]*?<\/svg>/g) || []);
 const shown = (c, set, others, small) => picsOf(c).some((p) => (!small && set.has(p)) || others.some((x) => picsOf(x).includes(p)));
 /** a card that hides a number inside the task ("? + 3 = 7") and not at its end */
 const inside = (c) => (/\?/.test(c.kind) && !/\?\s*$/.test(c.kind) ? 1 : 0);
@@ -175,7 +193,7 @@ const near = (x, y) => Math.abs(x.mag - y.mag) <= Math.max(2, Math.round(y.mag *
 /** a card of form A needs a card of form B: the same kind, about the same size, another task */
 const partner = (plan, c) => plan.b.cards.some((x) => x.kind === c.kind && x.key !== c.key && !x.twins && near(x, c) && wide(x) === wide(c));
 function chooseA(plan, usedA, soloA) {
-  let cands = plan.a.cards.filter((c) => !c.inOrder && !c.twins && !plan.avoid.includes(c.mag) && !(fact(c) && usedA.has(fact(c))) && !(solo(c) && soloA.has(solo(c))) && !shown(c, PICS_A, [], plan.small));
+  let cands = plan.a.cards.filter((c) => !c.inOrder && !c.twins && !plan.avoid.includes(c.mag) && !(fact(c) && usedA.has(fact(c))) && !(c.fact2 && usedA.has(c.fact2)) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_A, w))) && !(plan.posA != null && c.pos !== plan.posA) && !(solo(c) && soloA.has(solo(c))) && !shown(c, PICS_A, [], plan.small));
   // a type that has pairs in one hundred: the part asks one pair the hundreds do not decide (taken first: they are
   // few) and one they do
   const pairs = plan.take >= 2 && cands.some((c) => wide(c) === 'sameH');
@@ -209,11 +227,19 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     // when the pool has nothing further away
     const twin = (x) => (ca.mag >= 100 && Math.abs(x.mag - ca.mag) < ca.mag * 0.05 ? 1 : 0);
     // … and in another hundred when the pool has one (262 and 246 both have 2 hundreds)
-    const lead = (x) => (ca.mag >= 100 && String(x.mag)[0] === String(ca.mag)[0] ? 1 : 0);
+    // (list otherLead: also for numbers of two digits — 56 in form A and 58 in form B both show five tens)
+    const lead = (x) => ((ca.mag >= 100 || (plan.otherLead && ca.mag >= 10)) && String(x.mag)[0] === String(ca.mag)[0] ? 1 : 0);
+    // (list sameGap) two groups to compare: about as far apart as in form A (8 against 6 is counted, 8 against 3 is seen)
+    const gap = (x) => (x.nums.length >= 2 ? x.nums[x.nums.length - 1] - x.nums[0] : 0);
+    // (list otherRest) a division with a remainder: another number to divide and another remainder than in form A
+    const rest = (x) => { const n = printed(x).split(',').map(Number); return n.length >= 2 && n[1] ? [n[0], n[0] % n[1]] : [NaN, NaN]; };
     // a type without numbers whose forms must be alike (lists: sameLook): the card with about as much drawing
     const looks = (x) => (plan.sameLook ? Math.abs(drawn(x) - drawn(ca)) : 0) + Math.abs((x.len || 0) - (ca.len || 0));
     const ok = plan.b.cards.filter((c) => c.kind === ca.kind && !c.inOrder && !c.twins && !(c.ask && askedA.has(c.ask)) && !(shapes(c) && shownA.has(shapes(c))) && !(solo(c) && soloB.has(solo(c))) && !(printed(c) && out.concat(cardsA).some((x) => printed(x) === printed(c))) && !shown(c, PICS_B, out, plan.small) && !(plan.disjoint && out.some((x) => wordsOf(x).some((w) => wordsOf(c).includes(w)))) && !(plan.sameGiven && (c.given || []).join() !== (ca.given || []).join()) && !(plan.sameAnswer && c.ans !== ca.ans) && near(c, ca) && wide(c) === wide(ca) && !plan.avoid.includes(c.mag)
-      && !(fact(c) && (usedA.has(fact(c)) || usedB.has(fact(c)))) && !cardsA.some((x) => x.key === c.key)
+      && !(fact(c) && (usedA.has(fact(c)) || usedB.has(fact(c)))) && !(c.fact2 && (usedB.has(c.fact2) || cardsA.some((x) => x.fact2 === c.fact2))) && !cardsA.some((x) => x.key === c.key)
+      // (review sv.review-2) a figure of form A's box does not stand in form B's box; a word of as many sounds as form A's
+      && !(plan.otherDrawings && drawingsOf(c).some((d) => cardsA.some((x) => drawingsOf(x).includes(d)))) && !(plan.sameSize && c.mag !== ca.mag) && !(plan.otherFirst && (c.given || [])[0] === (ca.given || [])[0])
+      && !(plan.sameGap && Math.abs(gap(c) - gap(ca)) > 1) && !(plan.otherRest && (rest(c)[0] === rest(ca)[0] || rest(c)[1] === rest(ca)[1])) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_B, w)))
       && !out.some((x) => x.key === c.key || (x.ans === c.ans && !(/^[tp]:/.test(c.key) && /^\d+$/.test(String(c.ans)) && c.mag === 0)) || (x.ask && x.ask === c.ask) || (c.mag > 0 && x.mag === c.mag)) && !shares(plan, c, out.concat(cardsA)));
     const asked = new Set(cardsA.map((x) => x.ans));
     const seenInA = (x) => (picsOf(x).some((p) => PICS_A.has(p)) ? 1 : 0);
@@ -262,7 +288,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     // ---- the blueprint: one section per lesson that has a type of answer-carrying cards ----
     const sections = { A: [], B: [] }, left = [], plans = [];
     const usedA = new Set(), usedB = new Set();          // the facts a form has asked (a fact stands once in a form, and in one form only)
-    PICS_A = new Set(); PICS_B = new Set();
+    PICS_A = new Set(); PICS_B = new Set(); WORDS_A = new Set(); WORDS_B = new Set();
     const soloA = new Set(), soloB = new Set();          // the single numbers a form has asked (9 pictures: once in a form)
     for (const l of u.lessons) {
       let found = null;
@@ -300,7 +326,8 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
           for (const c of a.cards.concat(b.cards)) { c.src = 0; c.kind += ' ·0'; }
           for (const [k, id] of more.entries()) {
             const a2 = await poolOf(id, 'A'), b2 = await poolOf(id, 'B');
-            if (a2.refused || b2.refused || a2.cols !== a.cols || b2.cols !== a.cols || a2.instruction !== a.instruction) throw new Error(u.id + ' lesson ' + l.n + ': ' + id + ' cannot be blended into ' + p.type + ' (' + (a2.refused || b2.refused || 'another shape or another direction line') + ')');
+            // (the direction lines differ where the worksheets ask other things — 1 more, 10 more: then the list gives the part its own line)
+            if (a2.refused || b2.refused || a2.cols !== a.cols || b2.cols !== a.cols || (a2.instruction !== a.instruction && !rules.instruction[p.type])) throw new Error(u.id + ' lesson ' + l.n + ': ' + id + ' cannot be blended into ' + p.type + ' (' + (a2.refused || b2.refused || 'another shape or another direction line') + ')');
             for (const c of a2.cards.concat(b2.cards)) { c.src = k + 1; c.kind += ' ·' + (k + 1); }
             a.cards.push(...a2.cards); b.cards.push(...b2.cards); titles.push(a2.title);
           }
@@ -330,9 +357,25 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
           if ((rules.kindAttr || {})[p.type]) for (const c of pool.cards) { const m = new RegExp('data-lcs-' + rules.kindAttr[p.type] + '="([^"]*)"').exec(c.html); if (m && !c.kinded) { c.kind += ' ·' + m[1]; c.kinded = 1; } }
           if (listed('kindFolder')) for (const c of pool.cards) if (!c.kinded) { const folder = (allPics(c)[0] || '').split('/')[0]; c.kind += /^(occupations|hospital|classroom)$/.test(folder) || /girl|boy/.test(allPics(c)[0] || '') ? ' ·person' : ' ·thing'; c.kinded = 1; }
           if (listed('endMark')) for (const c of pool.cards) if (!c.kinded) { c.kind += /\?/.test(textOf(c)) ? ' ·?' : ' ·.'; c.kinded = 1; }
+          // (review sv.review-1) further rulings on single types: a picture a type does not show; numbers a type does not
+          // print (a number another part of the unit already asks); a kind of task named by what the box prints and
+          // answers (a rectangle among squares; a unit fraction); the three numbers on top of a number wall as a fact
+          // of the form; a wrong choice that is close to the right one (an area one cannot tell by its size)
+          if ((rules.avoidPicturesOf || {})[p.type]) pool.cards = pool.cards.filter((c) => !names(c).some((n) => rules.avoidPicturesOf[p.type].includes(n)));
+          if ((rules.avoidNums || {})[p.type]) pool.cards = pool.cards.filter((c) => !(c.nums || []).some((n) => rules.avoidNums[p.type].includes(n)));
+          if ((rules.kindText || {})[p.type]) { const re = new RegExp(rules.kindText[p.type], 'i'); for (const c of pool.cards) if (!c.kinded) { c.kind += re.test(textOf(c) + ' → ' + c.ans) ? ' ·1' : ' ·0'; c.kinded = 1; } }
+          // (the top fact of a wall is compared with the facts the other parts of ITS form ask. It is not entered among
+          // the facts — entered, it took 4 + 6 = 10 away from the part about partners of ten, which then asked 9 + 1 —
+          // and it is not compared across the forms: held to that, form B was left with walls of doubles only)
+          if (listed('topFact')) for (const c of pool.cards) { const n = [...new Set(String(c.ans).split('|').map(Number))].sort((x, y) => x - y); if (n.length >= 2 && n.every(Number.isInteger)) c.fact2 = 'n:' + n.join(','); }
+          if ((rules.nearWrong || {})[p.type]) { const val = (s) => { const m = /(\d+) by (\d+)/.exec(s); return m ? (rules.nearWrong[p.type] === 'area' ? m[1] * m[2] : 2 * (Number(m[1]) + Number(m[2]))) : NaN; };
+            pool.cards = pool.cards.filter((c) => { const v = [...c.html.matchAll(/aria-label="([^"]*)"/g)].map((m) => val(m[1])); if (v.length !== 3 || v.some(Number.isNaN)) return false; const wrong = v.slice(1).find((x) => x !== v[0]); return wrong != null && Math.abs(wrong - v[0]) <= Math.max(3, Math.round(v[0] * 0.4)); }); }
+          // (review sv.review-2) a choice among strips of several lengths: the right one is never the longest, in either form
+          // (a child who takes "the whole is the biggest" is otherwise right without reading the fraction)
+          if (listed('notLongest')) pool.cards = pool.cards.filter((c) => { const lens = [...c.html.matchAll(/class="ws-pattern-chip"[^>]*data-lcs-len="(\d+)"/g)].map((m) => Number(m[1])); const den = Number((/data-lcs-den="(\d+)"/.exec(c.html) || [])[1]); return lens.length >= 3 && den < Math.max(...lens); });
           if (listed('pairKind')) { for (const c of pool.cards) { const g = c.given || []; c.pair = g.length === 4 ? (g[0] === g[2] ? 'top' : g[1] === g[3] ? 'bottom' : 'mixed') : 'mixed'; c.kind += ' ·' + c.pair; } pool.cards = pool.cards.filter((c) => c.pair !== 'mixed'); }
         }
-        if ((listed('lowestTerms') || (rules.avoidAns || {})[p.type] || listed('pairKind') || (rules.onlyPictures || {})[p.type] || (rules.onlyText || {})[p.type] || (rules.plainChunks || {})[p.type] || listed('avoidEcho')) && (a.cards.length < 2 || b.cards.length < 2)) { why.push(p.type + ': the rulings leave too few cards'); continue; }
+        if ((listed('lowestTerms') || (rules.avoidAns || {})[p.type] || (rules.avoidPicturesOf || {})[p.type] || (rules.avoidNums || {})[p.type] || (rules.nearWrong || {})[p.type] || listed('pairKind') || (rules.onlyPictures || {})[p.type] || (rules.onlyText || {})[p.type] || (rules.plainChunks || {})[p.type] || listed('avoidEcho')) && (a.cards.length < 2 || b.cards.length < 2)) { why.push(p.type + ': the rulings leave too few cards'); continue; }
         // a task of sounds whose answer is a number only the key writes (how many syllables, how many sounds): that
         // number is its size (a part does not ask the same count twice; form B asks about as many)
         { const all = a.cards.concat(b.cards), num = (c) => c.mag === 0 && /^[tp]:/.test(c.key) && /^\d+$/.test(String(c.ans));
@@ -358,10 +401,12 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
         // numbers every card of the type prints (the labels of a number line) are furniture, not the task's numbers
         const every = a.cards.concat(b.cards);
         const furniture = new Set(every.length >= 4 ? every[0].nums.filter((n) => every.every((c) => c.nums.includes(n))) : []);
-        const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
+        // --dump-pool=<type>[,<type>]: what the two forms may choose from, for whoever writes a ruling (out/assessments/<loc>/_pool-<type>.json)
+        if (arg('dump-pool', '').split(',').includes(p.type)) fs.writeFileSync(path.join(outRoot, '_pool-' + p.type + '.json'), JSON.stringify({ A: a.cards, B: b.cards, keyStyles: a.keyStyles, styles: a.styles }, null, 1));
+        const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), sameGap: listed('sameGap'), otherRest: listed('otherRest'), otherLead: listed('otherLead'), otherDrawings: listed('otherDrawings'), sameSize: listed('sameSize'), otherFirst: listed('otherFirst'), posA: rules.posA && p.type in rules.posA ? rules.posA[p.type] : null, disjointForm: listed('disjointForm'), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
         const cardsA = chooseA(plan, usedA, soloA);
         if (!cardsA.length || chooseB(plan, cardsA, new Set([...usedA, ...cardsA.map(fact).filter(Boolean)]), usedB, soloB).length < cardsA.length) { why.push(p.type + ': the two forms cannot both be filled (the same kind and size, no task twice)'); continue; }
-        for (const c of cardsA) { if (fact(c)) usedA.add(fact(c)); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); }
+        for (const c of cardsA) { if (fact(c)) usedA.add(fact(c)); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }
         plan.cardsA = cardsA;
         found = plan;
         plans.push(plan);
@@ -376,7 +421,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
       // when every box still faces a box of its kind and size
       if (cardsB.length === plan.cardsA.length && cardsB.length >= 2 && /^[tp]:/.test(cardsB[0].key)) { const turned = cardsB.slice(1).concat(cardsB[0]); if (turned.every((c, i) => c.kind === plan.cardsA[i].kind && near(c, plan.cardsA[i]))) cardsB = turned; }
       if (cardsB.length < plan.cardsA.length) { left.push(plan.lesson); left.sort((x, y) => x - y); if (has('debug')) console.log('      lesson ' + plan.lesson + ' has no section: form B cannot be filled once every task of form A is known'); continue; }
-      for (const c of cardsB) { if (fact(c)) usedB.add(fact(c)); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); }
+      for (const c of cardsB) { if (fact(c)) usedB.add(fact(c)); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_B.add(w); }
       const meta = { styles: [...new Set(plan.a.styles.concat(plan.b.styles))], keyStyles: [...new Set(plan.a.keyStyles.concat(plan.b.keyStyles))], lesson: plan.lesson, lessonTitle: plan.lessonTitle, point: plan.point, type: plan.type, types: plan.types, typeTitle: plan.typeTitle, instruction: plan.instruction, perRow: plan.perRow, cols: plan.cols };
       sections.A.push(Object.assign({}, meta, { cards: plan.cardsA, w: plan.cardsA[0].w, h: Math.max(...plan.cardsA.map(tall)) }));
       sections.B.push(Object.assign({}, meta, { cards: cardsB, w: cardsB[0].w, h: Math.max(...cardsB.map(tall)) }));
@@ -386,7 +431,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     // ---- the pages: ONE packing for both forms (a part has the same number and the same page in A and in B) ----
     // how much a page holds (with the longer of the two titles) and how tall each section is in either form
     const measure = async (form) => {
-      const title = fill(ui.formTitle, { unit: u.title, form });
+      const title = tie(fill(ui.formTitle, { unit: u.title, form }));
       await load(path.join(dir, '_probe.html'), pageHtml(title, [], 1));
       const cap = await page.evaluate(() => document.querySelector('[data-lcs-body]').clientHeight);
       const tallOf = () => page.evaluate(() => [...document.querySelectorAll('.tc-section')].map((s) => Math.ceil(s.getBoundingClientRect().height)));
@@ -433,7 +478,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
 
     const entry = { unit: u.id, slug: u.slug, title: u.title, grade: String(u.grade), subject: u.subject, sections: sections.A.map((s, i) => ({ part: i + 1, lesson: s.lesson, lessonTitle: s.lessonTitle, point: s.point, type: s.type, types: s.types, typeTitle: s.typeTitle, cards: s.cards.length, answersA: s.cards.reduce((k, c) => k + c.answers, 0), answersB: sections.B[i].cards.reduce((k, c) => k + c.answers, 0) })), notCovered: left, forms: {} };
     for (const form of ['A', 'B']) {
-      const title = fill(ui.formTitle, { unit: u.title, form });
+      const title = tie(fill(ui.formTitle, { unit: u.title, form }));
       for (const kind of ['check', 'key']) {
         const doc = await PDFDocument.create();
         for (let pi = 0; pi < pages.length; pi++) {

@@ -332,3 +332,53 @@ Twelve of 24 German units. The hub `/de/assessments` exists with the first live 
 ### Next in Part 7
 
 Swedish (7.5, second language): strings, rulings list, gate patterns, one Swedish teacher-reviewer. Then the open task of Part 7 for every language: a second form of item for whole-page worksheets, which is what the checks of the year wait for.
+
+## 7. Part 7.5, Swedish (2026-11-12): seventeen kunskapskollar
+
+### The name and what is per language
+
+- **"Kunskapskoll".** The working name was "Avstämning". The first Swedish reader ruled it out: "Avstämning A" and "Avstämning B" are the names of the points of Skolverket's bedömningsstöd in reading and writing, which is obligatory in year 1, so a teacher would take the pages for a part of it. Gate T6 now refuses the word in any Swedish string, together with the names of Skolverket's other materials. With the new name no sentence about Skolverket's material is printed (both readers agree: naming it would only raise the question).
+- **Per language** as for German: the strings (`ui.sv.json`), the rulings (`lists/sv.json`), the wording patterns and six planted faults of gate T6. The rulings about numbers and pictures made on the English and German checks are carried over.
+
+### Two readings (one reader each, as a Swedish lågstadielärare)
+
+| | First look (`reviews/sv.review-1.json`) | Second look, after the fixes (`reviews/sv.review-2.json`) |
+|---|---|---|
+| Checks read | 19 | 17 |
+| Verdicts | 3 publish, 14 publish after fixes, 2 hold | 10 publish, 7 publish after fixes, none held |
+| Parts to fix | 25 | 8 |
+| Direction lines | 31 | 9 |
+| Strings | 15 and the name | 8 |
+
+Every finding of both looks was applied and the changed parts read again on the listing and on the sheets. The two checks held at the first look are not published (`noCheck`): **Språklekar** (pictures with several likely words, sounds that cannot be told apart by ear, no part for rhyme) and **Läsa och skriva ord och meningar** (four of seven lessons without a part).
+
+### What the Swedish readers found that the engine had wrong for every language
+
+| Fault | Where it was | Fix |
+|---|---|---|
+| The key of "is it really that shape" ringed all four shapes | The key rules of a page name a row by its ORDER (`[data-lcs-row]:nth-child(2) …`); carried to one cut row, the rules of eight pages rang everything | `lib/cut-cards.js`: a rule that names a card by its order becomes a mark on its elements, like a rule that names it by number. A rule that counts inside a card still travels |
+| The key of the pattern with two gaps did not say which picture fills which gap | The worksheet's key puts `data-lcs-key-badge` on the picture; no style drew it | The builder draws the badge in the key |
+| Crosses were orange on orange fruit | The worksheet's own colour; lost in a grey print | Crosses are dark on a check. Live in English too (a papaya): fixed there by the same change |
+| The lines of a figure built of pieces had the colour of its outline | Key colour | Orange in the key |
+| A title broke inside "0–10" | No tie in a range | A word joiner after the dash |
+
+The cutter change made every cut page stale. All three languages were cut again (eleven runs side by side, one per grade: about 18 minutes instead of two hours in a row), and the comparison says the 18 English and 12 German checks keep their tasks (`assemble.js --check`: current).
+
+### New kinds of ruling (all in `lists/sv.json` with their reasons; none is listed for English or German)
+
+`dropType` (a worksheet type that stands in no check of the language; the lesson's next type is tried) · `sayWords` (the key names the word of a picture that prints none, from the card's own sound boxes or the vocabulary) · `sameGap` · `kindText` with `mixKinds` (a kind of task named by what a box prints and answers: a rectangle among squares, a unit fraction, a number that ends in 0 or 9) · `topFact` (the top of a number wall is compared with the facts of its form and with form A's walls) · `avoidPicturesOf`, `avoidNums` · `nearWrong` (a wrong rectangle close to the right one, by area or by perimeter) · `otherRest`, `otherFirst`, `otherLead` (another number in form B) · `otherDrawings` (no figure of form A in form B's box) · `sameSize` (a word of as many sounds) · `notLongest` (the right strip is never the longest) · `posA` (where the right option stands in form A) · `disjointForm` (a word and its forms stand once in a form, across its parts) · `blend` with a direction line of its own (1 more and 10 more from two worksheets).
+
+### Published 2026-11-12: seventeen Swedish kunskapskollar (15 mathematics, 2 Swedish)
+
+Förskoleklass: Läge, storlek och mönster · Antal och siffror 0–10 · Geometriska former och spegelbilder · Sortera, uppskatta och dela upp tal. Åk 1: Addition och subtraktion 0–10 · Talkamrater och likhetstecknet · Former, mönster och längd · Talen 0–20 · Ljuda, läsa och stava ord. Åk 2: Talen 0–100 · Addition och subtraktion 0–100 med pengar · Multiplikation · Ordkunskap och alfabetisk ordning. Åk 3: Talen 0–1000 · Multiplikation och division · Bråk · Fyrhörningar, symmetri, omkrets och area. Seventeen of 34 Swedish units; 67 parts. The hub `/sv/assessments` comes with them.
+
+### Left as it is, with the reason (both readers' notes)
+
+- The order odd, even is the same in both forms of two parts: form B follows form A box by box, which gate T9 checks, and the forms are weeks apart.
+- Small pictures (tigers, pandas, vultures, giraffes) and twelve limes that stand as eleven and one are the worksheets' own drawing; to be looked at on a printed page (post-launch content list).
+- Coins stop at 9 kronor without a ten-kronor coin, and the block sums do not cross a ten: the limit of those worksheets. The teacher pages name what a check does not show.
+- "Made with LessonCraftStudio.com" under every page is the product's name on every worksheet in every language.
+
+### Next in Part 7
+
+The open task for every language is unchanged: a second form of item for whole-page worksheets (7.6 in PLAN.md §13), which the checks of the year and a check for every unit wait for.

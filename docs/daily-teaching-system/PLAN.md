@@ -811,3 +811,9 @@ Mathematics is about three quarters there. Literacy is about a quarter there: re
 - **Engine:** a key rule that draws the answer travels with its part (written sums now show their digits in the key); the 18 English checks keep their tasks (fingerprints identical after the full re-cut).
 - **Deploy 2026-11-12 (commit `b1934959d`):** 107 German and 157 English Teacher-only files uploaded; the deploy ran clean (payment canary OK, identity PASS); `assessments/live-check.js` de 12 live of 12 (222 checks, with the hub `/de/assessments`), en 18 of 18 (332); `units/live-check.js` de 544, en 764; `live-dark.js` OK.
 - **NEXT:** Swedish unit checks (7.5, second language); then Part 8 (readers).
+
+**Part 7.5 (Swedish) — seventeen kunskapskollar: BUILT 2026-11-12. Record: `PART-7-DESIGN.md` §7.**
+- 17 of 34 Swedish units have a check (mathematics 15, Swedish 2); the hub `/sv/assessments` comes with them. Two checks are not published by the reader's ruling (Språklekar; Läsa och skriva ord och meningar).
+- **The name is "Kunskapskoll".** "Avstämning A/B" are the names of Skolverket's own assessment points; gate T6 now refuses the word.
+- **Review:** two readings by a reader as a Swedish lågstadielärare. First look: 25 parts, 31 direction lines, 15 strings. Second look after the fixes: 10 publish, 7 publish after fixes (8 parts, 9 lines, 8 strings), none held; all applied and read again.
+- **Engine, for every language:** the key no longer rings every shape of a cut row (a cutter fault), the key shows which picture fills which gap of a pattern, crosses are dark (they were orange on orange fruit, in the live English check too), a title does not break inside "0–10". All three languages were cut again; the 18 English and 12 German checks keep their tasks. Gates: 25 planted faults, each caught.

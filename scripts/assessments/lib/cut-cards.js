@@ -204,7 +204,11 @@ async function cutCards(page, o) {
         if (!rule.selectorText) continue;
         // a rule that names a card by its place ([data-lcs-card="2"] …) cannot travel: a check numbers its boxes anew.
         // Any other rule travels with its part as it is (it may draw the answer itself: ::after{content:attr(…)}).
-        const place = /\[data-lcs-(card|row|item|box|n|idx|pos)="?\d+"?\]/.test(rule.selectorText);
+        // … and so does a rule that names a card by its ORDER on the page ([data-lcs-row]:nth-child(2) …): carried along,
+        // the rules of eight pages rang every option of a cut row (review sv.review-1: all four shapes ringed). A rule
+        // that counts INSIDE a card (… > [data-lcs-choice]:nth-child(3)) names no place and travels.
+        const byOrder = (sel) => sel.split(',').some((part) => { const re = /:nth-(?:last-)?(?:child|of-type)\([^)]*\)/g; let m; while ((m = re.exec(part))) { try { for (const e of document.querySelectorAll(part.slice(0, m.index + m[0].length))) if (found.units.some((u) => u === e || e.contains(u))) return true; } catch (err) { /* a selector this page cannot read */ } } return false; });
+        const place = /\[data-lcs-(card|row|item|box|n|idx|pos)="?\d+"?\]/.test(rule.selectorText) || byOrder(rule.selectorText);
         if (!place) keyStyles.push(rule.selectorText + '{' + rule.style.cssText + '}');
         const plainSel = rule.selectorText.replace(/::?(after|before)/g, '');
         try { for (const e of document.querySelectorAll(plainSel)) { ruled.add(e); if (place) placed.add(e); } } catch (e) { /* a selector this page cannot read */ }

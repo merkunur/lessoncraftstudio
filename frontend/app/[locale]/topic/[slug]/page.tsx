@@ -52,6 +52,7 @@ import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
 import TeachingBand from '@/components/topic/TeachingBand';
+import TeachingLook from '@/components/topic/TeachingLook';
 import { teachingForTopic } from '@/lib/topic-teaching';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
@@ -910,6 +911,9 @@ export default async function TopicPage({
             fewer when substrate sparse (no fallback copy). */}
         {/* below the worksheets since Part 11.6 (they stood above them and pushed the first worksheet 1,480 px down):
             the band of the worksheet makers and the box that says how to use the page */}
+        {/* a look at real pages of the plan's files, under the worksheets (Part 11.6) */}
+        {teaching ? <TeachingLook locale={locale} data={teaching} /> : null}
+
         <div className="mt-10">
           <MakerRibbon locale={locale} axes={[{ axis, axisKey }]} />
         </div>

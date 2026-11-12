@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import TeachingBand from '@/components/topic/TeachingBand';
+import TeachingLook from '@/components/topic/TeachingLook';
 import { teachingForTopic } from '@/lib/topic-teaching';
 
 // A look at the teaching band of the topic pages without the page around it (Daily Teaching System, Part 11.6):
@@ -16,6 +17,7 @@ export default async function TeachingBandPreview({ params, searchParams }: { pa
   return (
     <main className="container mx-auto max-w-6xl px-4 py-12">
       <TeachingBand locale={params.locale} data={data} />
+      <TeachingLook locale={params.locale} data={data} />
     </main>
   );
 }

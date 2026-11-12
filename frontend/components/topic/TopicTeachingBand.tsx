@@ -5,11 +5,14 @@
  * without live units, and nothing when anything fails (the page is what it was).
  */
 import TeachingBand from '@/components/topic/TeachingBand';
+import TeachingLook from '@/components/topic/TeachingLook';
 import { teachingForTopic } from '@/lib/topic-teaching';
 
-export default async function TopicTeachingBand({ locale, axes }: { locale: string; axes: { axis: string; axisKey: string }[] }) {
+/** part 'look': the pictures of real pages of the plan's files, which stand below the worksheets (TeachingLook) */
+export default async function TopicTeachingBand({ locale, axes, part = 'band' }: { locale: string; axes: { axis: string; axisKey: string }[]; part?: 'band' | 'look' }) {
   const pick = axes.find((a) => a.axis === 'educational-level') || axes.find((a) => a.axis === 'exercise-type') || axes[0];
   if (!pick) return null;
   const data = await teachingForTopic(locale, pick.axis, pick.axisKey).catch(() => null);
-  return data ? <TeachingBand locale={locale} data={data} /> : null;
+  if (!data) return null;
+  return part === 'look' ? <TeachingLook locale={locale} data={data} /> : <TeachingBand locale={locale} data={data} />;
 }

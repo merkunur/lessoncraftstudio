@@ -20,6 +20,19 @@ const LEVEL_AXIS: Record<string, string> = { P: 'preschool', K: 'kindergarten', 
 const LEVEL_MSG: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
 export interface TeachingLessonRef { unitSlug: string; unitTitle: string; grade: string; gradeLabel: string; lesson: number; lessonTitle: string }
+/** one picture of a real page of a Teacher-plan file (content/units/looks.<language>.json, scripts/units/build-looks.js) */
+export interface TeachingLookItem { slug: string; title: string; src: string; width: number; height: number }
+export interface TeachingLookSet { unit?: TeachingLookItem; pack?: TeachingLookItem; check?: TeachingLookItem }
+
+const looksCache = new Map<string, Record<string, TeachingLookSet> | null>();
+/** the pictures of a language by grade, or null where the language has none */
+async function getLooks(locale: string): Promise<Record<string, TeachingLookSet> | null> {
+  if (!looksCache.has(locale)) {
+    try { looksCache.set(locale, ((await import(`@/content/units/looks.${locale}.json`)).default as { looks: Record<string, TeachingLookSet> }).looks); } catch { looksCache.set(locale, null); }
+  }
+  return looksCache.get(locale) ?? null;
+}
+
 export interface TopicTeaching {
   /** grade: the units of the grade · type: the lessons that use this worksheet type · hub: the way into the lesson plans (a theme page, or a type no lesson hands out yet) */
   kind: 'grade' | 'type' | 'hub';
@@ -40,6 +53,8 @@ export interface TopicTeaching {
   /** exercise-type page */
   lessons: TeachingLessonRef[];
   lessonsTotal: number;
+  /** the look inside the plan for this page's grade (the grade of the page, of its first lesson, or the first grade that has units) */
+  look: TeachingLookSet | null;
 }
 
 type Axes = Record<string, Record<string, { slug: Record<string, string> }>>;
@@ -63,6 +78,8 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
     getTranslations({ locale, namespace: 'seo.educational_level' }), getTranslations({ locale, namespace: 'pricingPage.tier' }),
   ]);
   if (!unitUi) return null;
+  const looks = await getLooks(locale);
+  const lookFor = (grade: string | undefined) => (looks && ((grade && looks[grade]) || looks[mine.grades.find((g) => looks[g.grade])?.grade ?? ''])) || null;
   const levels = (taxonomy as unknown as { axes: Axes }).axes['educational-level'];
   const levelSlug = axis === 'educational-level' ? levels[axisKey]?.slug?.[locale] : null;
   const base = { unitUi, myUi: mine.ui, gate, plan: tTier('name'), downloadsPerMonth: mine.downloadsPerMonth, teachHref: null as string | null,
@@ -70,11 +87,11 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
 
   if (axis === 'educational-level') {
     const g = mine.grades.find((x) => x.grade === GRADE_OF_LEVEL[axisKey]);
-    if (g && g.subjects.length) return { ...base, teachHref: levelSlug ? `/${locale}/teach/${levelSlug}` : null, kind: 'grade', subjects: g.subjects.map((s) => ({ ...s, label: unitUi[`subject_${s.subject}`] || s.subject })), subPlans: g.subPlans, checks: g.checks, hasStandards: mine.hasStandards, lessons: [], lessonsTotal: 0 };
+    if (g && g.subjects.length) return { ...base, teachHref: levelSlug ? `/${locale}/teach/${levelSlug}` : null, kind: 'grade', look: lookFor(g.grade), subjects: g.subjects.map((s) => ({ ...s, label: unitUi[`subject_${s.subject}`] || s.subject })), subPlans: g.subPlans, checks: g.checks, hasStandards: mine.hasStandards, lessons: [], lessonsTotal: 0 };
   }
   // the numbers of the whole language for the two short forms
   const all = { subjects: [], subPlans: gate?.facts.subPlans ?? 0, checks: gate?.facts.checks ?? 0, hasStandards: mine.hasStandards };
-  const hub: TopicTeaching = { ...base, ...all, kind: 'hub', lessons: [], lessonsTotal: 0 };
+  const hub: TopicTeaching = { ...base, ...all, kind: 'hub', lessons: [], lessonsTotal: 0, look: lookFor(undefined) };
   if (axis !== 'exercise-type') return hub;
 
   const lessons: TeachingLessonRef[] = [];
@@ -86,7 +103,7 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
     }
   }
   if (!lessons.length) return hub;
-  return { ...base, ...all, kind: 'type', lessons: lessons.slice(0, 3), lessonsTotal: lessons.length };
+  return { ...base, ...all, kind: 'type', lessons: lessons.slice(0, 3), lessonsTotal: lessons.length, look: lookFor(lessons[0].grade) };
 }
 
 /** the short form for a hub page (worksheets, makers, tools, activities): the way into the lesson plans by grade, and the plan */

@@ -1280,6 +1280,9 @@ export default async function IntersectionPage({
 
         <TopicLandingLinks locale={locale} landings={ixLandingLinks} />
 
+        {/* a look at real pages of the plan's files, under the worksheets (Part 11.6) */}
+        <TopicTeachingBand part="look" locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
+
         {/* below the worksheets since Part 11.6: the band of the worksheet makers and the box that says how to use the page */}
         <div className="mt-10">
           <MakerRibbon locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />

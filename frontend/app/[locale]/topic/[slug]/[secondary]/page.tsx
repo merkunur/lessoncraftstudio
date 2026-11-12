@@ -61,6 +61,7 @@ import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
 import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
+import TopicTeachingBand from '@/components/topic/TopicTeachingBand';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import ResultCount from '@/components/catalog/ResultCount';
@@ -895,6 +896,9 @@ async function renderSubjectGradeHub(
           {updatedLine && <p className="mt-3 text-sm text-ink-500">{updatedLine}</p>}
         </header>
 
+        {/* the teaching system on this page: the units of the grade, and the Teacher plan (Part 11.6) */}
+        <TopicTeachingBand locale={locale} axes={[{ axis: 'educational-level', axisKey: levelKey }]} />
+
         {levelSetsSection}
 
         {decks.length > 0 && (
@@ -1196,6 +1200,9 @@ export default async function IntersectionPage({
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>
+
+        {/* the teaching system on this page (Part 11.6): by the grade when the page has one, else by the worksheet type */}
+        <TopicTeachingBand locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
 
         <MakerRibbon locale={locale} axes={[{ axis: axis1, axisKey: axisKey1 }, { axis: axis2, axisKey: axisKey2 }]} />
 

@@ -33,7 +33,7 @@ export default function SaveToCollectionsButton({ locale, kind, slug, labels }: 
 
   return (
     <div className="un-save">
-      <button type="button" className="un-btn un-btn-ghost" onClick={save} disabled={state.phase === 'working'} aria-busy={state.phase === 'working'}>{labels.button}</button>
+      <button type="button" className="un-btn un-btn-ghost" data-path-event="save-to-collections" onClick={save} disabled={state.phase === 'working'} aria-busy={state.phase === 'working'}>{labels.button}</button>
       <p className="un-bundle-status" role="status" aria-live="polite">
         {state.phase === 'done' ? <>{labels.done.replace('{n}', String(state.n))} <a href={`/${locale}/collections`}>{labels.open}</a></> : state.phase === 'failed' ? labels.failed : ''}
       </p>

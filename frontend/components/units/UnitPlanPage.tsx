@@ -14,6 +14,7 @@ import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { teacherFileHref } from '@/lib/teacher-files';
 import { UnitPlan, UnitUi, fill, planFile } from '@/lib/units';
 import { LEVEL_KEY } from '@/components/units/UnitsHub';
+import { TeacherFileClicks } from '@/components/tracking/PathEvents';
 
 export default async function UnitPlanPage({ locale, plan, ui }: { locale: string; plan: UnitPlan; ui: UnitUi }) {
   const [tLevel, tTier, tBreadcrumb] = await Promise.all([
@@ -50,6 +51,7 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
 
   return (
     <main className={`un ${baloo2.variable} ${nunito.variable}`}>
+      <TeacherFileClicks surface="year-plan" />
       <div className="un-wrap">
         <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: `/${locale}/units` }, { label: plan.title }]} />
         {plan.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}

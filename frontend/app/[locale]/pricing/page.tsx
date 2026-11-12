@@ -5,6 +5,7 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CheckoutButtons from '@/components/pricing/CheckoutButtons';
+import { PathStep } from '@/components/tracking/PathEvents';
 import { MAKER_COUNT } from '@/lib/seo/maker-content';
 import { getSchoolsUi } from '@/lib/schools';
 
@@ -152,6 +153,7 @@ export default async function PricingPage({
               </li>
             ))}
           </ul>
+          <PathStep name="pricing-open" />
           <CheckoutButtons />
           {/* a school that buys for several teachers asks for a quote (Daily Teaching System, Part 6) */}
           {schoolsUi && schoolsUi.status === 'live' ? (

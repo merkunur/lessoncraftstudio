@@ -5,6 +5,7 @@ import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { pinterestEvents } from '@/components/tracking';
+import { PathStep, pathFrom } from '@/components/tracking/PathEvents';
 
 // OAuth error messages mapping
 const OAUTH_ERRORS: Record<string, string> = {
@@ -118,7 +119,7 @@ function SignUpPageContent() {
 
       // Track successful signup for Pinterest ads conversion
       pinterestEvents.signup(formData.email);
-      (window as any).umami?.track('signup');
+      (window as any).umami?.track('signup', { from: pathFrom() });   // from: the wall or the gate that sent the visitor here (Part 11.1)
 
       // Redirect to sign in with plan parameter if provided
       const signInUrl = plan
@@ -135,6 +136,7 @@ function SignUpPageContent() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <PathStep name="signup-open" />
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">

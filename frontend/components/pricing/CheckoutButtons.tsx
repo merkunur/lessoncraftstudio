@@ -5,6 +5,7 @@ import { useAuth } from '@/contexts/auth-context';
 import { buildCheckoutUrl } from '@/lib/checkout';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { pinterestEvents } from '@/components/tracking/PinterestTag';
+import { pathFrom } from '@/components/tracking/PathEvents';
 
 declare global {
   interface Window {
@@ -35,7 +36,7 @@ export default function CheckoutButtons() {
     } catch {
       /* tracking must never block checkout */
     }
-    window.umami?.track('checkout-started', { interval, locale });
+    window.umami?.track('checkout-started', { interval, locale, from: pathFrom() });   // from: where the wall or the gate sent the visitor (Part 11.1)
   }
 
   return (

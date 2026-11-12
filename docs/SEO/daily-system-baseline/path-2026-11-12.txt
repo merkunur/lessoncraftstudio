@@ -1,0 +1,94 @@
+== Path report — captured 2026-11-12T16:44Z, the 28 complete days before today (UTC) ==
+
+-- 1. the path by the page family a session STARTED on (a session = one visitor on one day)
+--    walled = met the paywall; signup_open / pricing_open = opened that page; signup = made an account; checkout = pressed a buy button
+            started_on            | sessions | walled | signup_open | signup | teacher_file_click | pricing_open | checkout 
+----------------------------------+----------+--------+-------------+--------+--------------------+--------------+----------
+ 06 topic page                    |    23789 |    852 |        3513 |    623 |                  0 |          543 |        8
+ 01 deck page                     |    23769 |     28 |         533 |     56 |                  0 |           48 |        1
+ 16 sign-in, sign-up, subscribe   |    11772 |     45 |       11466 |    400 |                  0 |          275 |        7
+ 04 worksheets hub                |     8570 |      5 |         132 |     23 |                  0 |           42 |        1
+ 09 tool page                     |     3813 |     16 |         154 |     42 |                  0 |          136 |        3
+ 07 activity page                 |     2796 |     23 |         152 |     15 |                  0 |           33 |        1
+ 19 homepage                      |     1502 |     28 |         185 |     53 |                  0 |           75 |        2
+ 20 other                         |      454 |      8 |         111 |     18 |                  0 |            9 |        1
+ 11 maker landing or hub          |      361 |      2 |          27 |     12 |                  0 |            7 |        1
+ 14 standards page                |      336 |      1 |           4 |      1 |                  0 |            4 |        0
+ 02 level set page                |      315 |      0 |          14 |      3 |                  0 |            4 |        0
+ 08 activities hub                |      107 |      3 |           6 |      2 |                  0 |            5 |        0
+ 17 workspace                     |       73 |      1 |           8 |      1 |                  0 |           11 |        3
+ 03 worksheet landing or hub page |       56 |      0 |           2 |      2 |                  0 |            2 |        0
+ 10 tools hub                     |       40 |      1 |           2 |      0 |                  0 |            3 |        0
+ 15 pricing                       |       31 |      1 |           0 |      0 |                  0 |           31 |        0
+(16 rows)
+
+-- 2. where the sign-up page, the pricing page and the buy buttons were reached FROM (the wall or gate that sent the visitor; recorded since Part 11.1)
+    event_name    |   sent_from    | events | sessions 
+------------------+----------------+--------+----------
+ checkout-started | (not recorded) |     50 |       28
+ signup           | (not recorded) |   1284 |     1251
+(2 rows)
+
+-- 3. clicks on Teacher-only files and buttons: what was asked for, on which kind of page (recorded since Part 11.1)
+ on_page | what | clicks | sessions 
+---------+------+--------+----------
+(0 rows)
+
+-- 4. the new products: page views, sessions, and how many of those sessions opened pricing or pressed a buy button the same day
+ surface | pageviews | sessions | opened_pricing | pressed_buy 
+---------+-----------+----------+----------------+-------------
+(0 rows)
+
+-- 5. the homepage and the workspace: sessions from every source, and what the workspace's visitors did next
+ homepage_sessions | workspace_sessions | pricing_sessions | all_sessions 
+-------------------+--------------------+------------------+--------------
+              2947 |               1297 |             1228 |        77784
+(1 row)
+
+    page_after_the_workspace    | sessions 
+--------------------------------+----------
+ 15 pricing                     |      410
+ 06 topic page                  |      266
+ 04 worksheets hub              |      132
+ 16 sign-in, sign-up, subscribe |      109
+ 07 activity page               |       96
+ (left the site)                |       92
+ 20 other                       |       54
+ 19 homepage                    |       41
+ 09 tool page                   |       25
+ 01 deck page                   |       24
+ 10 tools hub                   |       21
+ 11 maker landing or hub        |       14
+(12 rows)
+
+-- 6. what visitors type into the search (the 40 most frequent, typed by 3 sessions or more)
+ typed | sessions 
+-------+----------
+(0 rows)
+
+-- 7. accounts and subscriptions per week (application database, counts only; the truth the steps above are read against)
+ week_starting | new_accounts 
+---------------+--------------
+ 2026-10-12    |          212
+ 2026-10-19    |          479
+ 2026-10-26    |          396
+ 2026-11-02    |          546
+ 2026-11-09    |          293
+(5 rows)
+
+ week_starting | new_subscriptions 
+---------------+-------------------
+ 2026-10-19    |                 1
+ 2026-10-26    |                 2
+ 2026-11-02    |                 2
+ 2026-11-09    |                 1
+(4 rows)
+
+  status  | count 
+----------+-------
+ active   |    11
+ canceled |     5
+ past_due |     2
+(3 rows)
+
+== end ==

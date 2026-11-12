@@ -16,6 +16,7 @@ import { fill, pageHref, pageThumb } from '@/lib/units';
 import { SubPack, SubUi, subPackPdfList, subPackScriptFile } from '@/lib/sub-plans';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
+import { TeacherFileClicks } from '@/components/tracking/PathEvents';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -58,6 +59,7 @@ export default async function SubPlanPage({ locale, pack, ui, others = [] }: { l
 
   return (
     <main className={`un sp ${baloo2.variable} ${nunito.variable}`}>
+      <TeacherFileClicks surface="sub-plan" />
       <div className="un-wrap">
         <BreadcrumbTrail locale={locale} trail={[{ label: ui.hubCrumb, href: localePath(locale, 'sub-plans') }, { label: pack.title }]} />
         {pack.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}

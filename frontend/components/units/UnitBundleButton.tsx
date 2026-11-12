@@ -52,7 +52,7 @@ export default function UnitBundleButton({ locale, guideHref, pdfs, fileName, la
     : state.phase === 'done' ? labels.done : state.phase === 'failed' ? labels.failed : '';
   return (
     <div className="un-bundle">
-      <button type="button" className="un-btn un-btn-main" onClick={build} disabled={state.phase === 'working'} aria-busy={state.phase === 'working'}>{labels.button}</button>
+      <button type="button" className="un-btn un-btn-main" data-path-event="whole-file" onClick={build} disabled={state.phase === 'working'} aria-busy={state.phase === 'working'}>{labels.button}</button>
       <p className="un-bundle-status" role="status" aria-live="polite">{status}</p>
     </div>
   );

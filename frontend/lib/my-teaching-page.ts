@@ -7,7 +7,14 @@ import { getTeacherGate, TeacherGateProps } from '@/lib/teacher-gate';
 import { getUnitUi } from '@/lib/units';
 import taxonomy from '@/config/topics-taxonomy.json';
 
-export interface MyTeachingProps { data: MyTeachingData; gate: TeacherGateProps | null; plan: string; gradeLabels: Record<string, string>; subjectLabels: Record<string, string>; topicHrefs: Record<string, string> }
+export interface MyTeachingProps { data: MyTeachingData; gate: TeacherGateProps | null; plan: string; gradeLabels: Record<string, string>; subjectLabels: Record<string, string>; topicHrefs: Record<string, string>; teachHrefs: Record<string, string>; hubTitle: string }
+
+/** the address of the grade page for everyone: the level's own slug in the language, as the topic pages use it */
+export function teachSlugToGrade(locale: string, slug: string): string | null {
+  const axis = (taxonomy as unknown as { axes: Record<string, Record<string, { slug: Record<string, string> }>> }).axes['educational-level'];
+  for (const [grade, key] of Object.entries(LEVEL_AXIS)) if (axis[key]?.slug?.[locale] === slug) return grade;
+  return null;
+}
 
 /** the grade of a unit as a key of the translations and as an axis key of the taxonomy */
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
@@ -21,12 +28,12 @@ export async function myTeachingProps(locale: string): Promise<MyTeachingProps |
     getTranslations({ locale, namespace: 'seo.educational_level' }), getTranslations({ locale, namespace: 'pricingPage.tier' }),
   ]);
   const axis = (taxonomy as unknown as { axes: Record<string, Record<string, { slug: Record<string, string> }>> }).axes['educational-level'];
-  const gradeLabels: Record<string, string> = {}, topicHrefs: Record<string, string> = {}, subjectLabels: Record<string, string> = {};
+  const gradeLabels: Record<string, string> = {}, topicHrefs: Record<string, string> = {}, subjectLabels: Record<string, string> = {}, teachHrefs: Record<string, string> = {};
   for (const g of data.grades) {
     gradeLabels[g.grade] = LEVEL_KEY[g.grade] ? tLevel(LEVEL_KEY[g.grade]) : g.grade;
     const slug = axis[LEVEL_AXIS[g.grade]]?.slug?.[locale];
-    if (slug) topicHrefs[g.grade] = `/${locale}/topic/${slug}`;
+    if (slug) { topicHrefs[g.grade] = `/${locale}/topic/${slug}`; teachHrefs[g.grade] = `/${locale}/teach/${slug}`; }
     for (const s of g.subjects) subjectLabels[s.subject] = unitUi?.[`subject_${s.subject}`] || s.subject;
   }
-  return { data, gate, plan: tTier('name'), gradeLabels, subjectLabels, topicHrefs };
+  return { data, gate, plan: tTier('name'), gradeLabels, subjectLabels, topicHrefs, teachHrefs, hubTitle: unitUi?.hubTitle || '' };
 }

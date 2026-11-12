@@ -2,6 +2,7 @@
  * she is teaching this week and reaches its maker. Real sheets on the same cutting mat as every maker surface; every
  * number on the page is counted from the catalog in this language, never written by hand. */
 import '@/components/maker-landing/maker-landing.css';
+import HubTeachingBand from '@/components/topic/HubTeachingBand';
 import './maker-hub.css';
 import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import Link from 'next/link';
@@ -193,6 +194,9 @@ export default async function MakerHubPage({ locale }: { locale: string }) {
           </div>
         </div>
       </section>
+
+      {/* the teaching system from this hub: the lesson plans by grade, and the Teacher plan (Part 11.6) */}
+      <div className="mx-auto w-full max-w-6xl px-4"><HubTeachingBand locale={locale} /></div>
 
       <section className="ml-plans ml-mat" aria-labelledby="mh-plans-h">
         <div className="ml-plans-inner">

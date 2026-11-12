@@ -16,6 +16,7 @@ import { getUnits, getUnitUi, type UnitUi } from '@/lib/units';
 
 /** the taxonomy's level key → the grade code of the units */
 const GRADE_OF_LEVEL: Record<string, string> = { preschool: 'P', kindergarten: 'K', 'grade-1': '1', 'grade-2': '2', 'grade-3': '3' };
+const LEVEL_AXIS: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade-1', '2': 'grade-2', '3': 'grade-3' };
 const LEVEL_MSG: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
 export interface TeachingLessonRef { unitSlug: string; unitTitle: string; grade: string; gradeLabel: string; lesson: number; lessonTitle: string }
@@ -27,6 +28,10 @@ export interface TopicTeaching {
   gate: TeacherGateProps | null;
   plan: string;
   downloadsPerMonth: number;
+  /** the grades that have units, each with its grade page: the chooser of the short forms */
+  grades: { label: string; href: string }[];
+  /** grade page: the grade page for everyone (/<language>/teach/<grade>), where the whole year of the grade is listed */
+  teachHref: string | null;
   /** grade page */
   subjects: (MyTeachingSubject & { label: string })[];
   subPlans: number;
@@ -58,11 +63,14 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
     getTranslations({ locale, namespace: 'seo.educational_level' }), getTranslations({ locale, namespace: 'pricingPage.tier' }),
   ]);
   if (!unitUi) return null;
-  const base = { unitUi, myUi: mine.ui, gate, plan: tTier('name'), downloadsPerMonth: mine.downloadsPerMonth };
+  const levels = (taxonomy as unknown as { axes: Axes }).axes['educational-level'];
+  const levelSlug = axis === 'educational-level' ? levels[axisKey]?.slug?.[locale] : null;
+  const base = { unitUi, myUi: mine.ui, gate, plan: tTier('name'), downloadsPerMonth: mine.downloadsPerMonth, teachHref: null as string | null,
+    grades: mine.grades.map((g) => { const sl = levels[LEVEL_AXIS[g.grade]]?.slug?.[locale]; return sl && LEVEL_MSG[g.grade] ? { label: tLevel(LEVEL_MSG[g.grade]), href: `/${locale}/teach/${sl}` } : null; }).filter((x): x is { label: string; href: string } => !!x) };
 
   if (axis === 'educational-level') {
     const g = mine.grades.find((x) => x.grade === GRADE_OF_LEVEL[axisKey]);
-    if (g && g.subjects.length) return { ...base, kind: 'grade', subjects: g.subjects.map((s) => ({ ...s, label: unitUi[`subject_${s.subject}`] || s.subject })), subPlans: g.subPlans, checks: g.checks, hasStandards: mine.hasStandards, lessons: [], lessonsTotal: 0 };
+    if (g && g.subjects.length) return { ...base, teachHref: levelSlug ? `/${locale}/teach/${levelSlug}` : null, kind: 'grade', subjects: g.subjects.map((s) => ({ ...s, label: unitUi[`subject_${s.subject}`] || s.subject })), subPlans: g.subPlans, checks: g.checks, hasStandards: mine.hasStandards, lessons: [], lessonsTotal: 0 };
   }
   // the numbers of the whole language for the two short forms
   const all = { subjects: [], subPlans: gate?.facts.subPlans ?? 0, checks: gate?.facts.checks ?? 0, hasStandards: mine.hasStandards };
@@ -80,3 +88,6 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
   if (!lessons.length) return hub;
   return { ...base, ...all, kind: 'type', lessons: lessons.slice(0, 3), lessonsTotal: lessons.length };
 }
+
+/** the short form for a hub page (worksheets, makers, tools, activities): the way into the lesson plans by grade, and the plan */
+export const teachingForHub = (locale: string) => teachingForTopic(locale, 'hub', '');

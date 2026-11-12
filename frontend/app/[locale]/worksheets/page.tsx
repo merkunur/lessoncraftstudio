@@ -26,6 +26,7 @@
    a random subset of thumbnails per refresh. */
 
 import MakerRibbon from '@/components/maker-ribbon/MakerRibbon';
+import HubTeachingBand from '@/components/topic/HubTeachingBand';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
@@ -664,6 +665,9 @@ export default async function AllWorksheetsPage({
               {intro}
             </p>
           </header>
+
+          {/* the teaching system from this hub: the lesson plans by grade, and the Teacher plan (Part 11.6) */}
+          <HubTeachingBand locale={locale} />
 
           {/* Ready worksheets attract, makers convert: the band follows the selected type, else a shelf of makers. */}
           <MakerRibbon

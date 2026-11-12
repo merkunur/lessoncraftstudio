@@ -1,4 +1,5 @@
 import fs from "fs";
+import HubTeachingBand from '@/components/topic/HubTeachingBand';
 import { displayCode } from '@/lib/frameworks';
 import path from "path";
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
@@ -624,6 +625,9 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
             </Link>
           </p>
         </header>
+
+        {/* the teaching system from this hub: the lesson plans by grade, and the Teacher plan (Part 11.6) */}
+        <HubTeachingBand locale={locale} />
 
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <ActivitySidebar

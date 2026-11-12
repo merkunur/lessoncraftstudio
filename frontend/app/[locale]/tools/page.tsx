@@ -1,4 +1,5 @@
 import fs from "fs";
+import HubTeachingBand from '@/components/topic/HubTeachingBand';
 import path from "path";
 import { Metadata } from "next";
 import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
@@ -194,6 +195,9 @@ export default async function ManipulativesLandingPage({
             {strings.pageIntro}
           </p>
         </header>
+
+        {/* the teaching system from this hub: the lesson plans by grade, and the Teacher plan (Part 11.6) */}
+        <HubTeachingBand locale={locale} />
 
         {/* Category jump links — the lightweight stand-in for the activities
             facet rail. In-page anchors, so they work with JS off. */}

@@ -20,15 +20,22 @@ const card = 'rounded-2xl border border-[#CFC5AE] bg-[#FFFDF8] p-5 shadow-[0_2px
 const h2 = 'font-lcsDisplay text-[1.25rem] font-bold leading-tight text-[#14322D]';
 const link = 'font-semibold text-[#0F5A4F] underline underline-offset-4 hover:text-[#14322D]';
 
-export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subjectLabels, topicHrefs }: {
+/**
+ * `page` makes it the grade page for everyone (/<language>/teach/<grade>, Part 11.4): the grade is fixed by the
+ * address, the grade chips are links to the other grade pages, the heading names the grade, and the card on the right
+ * speaks of the plan, not of "your account" (the reader may have none).
+ */
+export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subjectLabels, topicHrefs, page }: {
   locale: string; plan: string; data: MyTeachingData; gate: TeacherGateProps | null;
   gradeLabels: Record<string, string>; subjectLabels: Record<string, string>; topicHrefs: Record<string, string>;
+  page?: { grade: string; heading: string; hrefs: Record<string, string> };
 }) {
   const { ui, grades } = data;
-  const [grade, setGrade] = useState<string>(grades[0].grade);
+  const [grade, setGrade] = useState<string>(page && grades.some((x) => x.grade === page.grade) ? page.grade : grades[0].grade);
   const [back, setBack] = useState<string | null>(null);
 
   useEffect(() => {
+    if (page) return; // the address says the grade; nothing is read from or kept on the device
     try {
       const g = window.localStorage.getItem(GRADE_KEY);
       if (g && grades.some((x) => x.grade === g)) setGrade(g);
@@ -37,7 +44,7 @@ export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subj
       if (r && r.startsWith(`/${locale}/`) && !r.includes('//') && !r.startsWith(`/${locale}/workspace`)) setBack(r);
       window.sessionStorage.removeItem(RETURN_KEY);
     } catch { /* storage blocked: the page works without it */ }
-  }, [grades, locale]);
+  }, [grades, locale, page]);
 
   const pick = (g: string) => {
     setGrade(g);
@@ -57,7 +64,7 @@ export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subj
   return (
     <div className="grid gap-6" data-my-teaching="">
       <header className="max-w-3xl">
-        <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">{ui.title}</h1>
+        <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">{page ? page.heading : ui.title}</h1>
         <span aria-hidden="true" className="mb-3.5 block h-1.5 w-14 rounded-full bg-lcs-coral" />
         <p className="font-lcsBody text-[#3D4F49]">{ui.lead}</p>
       </header>
@@ -71,7 +78,12 @@ export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subj
 
       <div role="group" aria-label={ui.gradeLabel} className="flex flex-wrap items-center gap-2">
         <span className="mr-1 font-lcsBody font-semibold text-[#3D4F49]">{ui.gradeLabel}</span>
-        {grades.map((g) => (
+        {grades.map((g) => page ? (
+          <a key={g.grade} href={page.hrefs[g.grade]} aria-current={g.grade === now.grade ? 'page' : undefined}
+            className={`inline-flex min-h-[44px] items-center rounded-full border-2 px-4 py-2 font-lcsDisplay font-semibold no-underline transition-colors ${g.grade === now.grade ? 'border-[#0F5A4F] bg-[#0F5A4F] text-white' : 'border-[#CFC5AE] bg-[#FFFDF8] text-[#14322D] hover:border-[#0F5A4F]'}`}>
+            {gradeLabels[g.grade] || g.grade}
+          </a>
+        ) : (
           <button key={g.grade} type="button" aria-pressed={g.grade === now.grade} onClick={() => pick(g.grade)}
             className={`min-h-[44px] rounded-full border-2 px-4 py-2 font-lcsDisplay font-semibold transition-colors ${g.grade === now.grade ? 'border-[#0F5A4F] bg-[#0F5A4F] text-white' : 'border-[#CFC5AE] bg-[#FFFDF8] text-[#14322D] hover:border-[#0F5A4F]'}`}>
             {gradeLabels[g.grade] || g.grade}
@@ -112,20 +124,20 @@ export default function MyTeaching({ locale, plan, data, gate, gradeLabels, subj
           </section>
 
           <section className={card}>
-            <h2 className={h2}>{ui.accountTitle}</h2>
-            <p className="mt-2 text-[#3D4F49]">{fill(ui.accountBody, { n: data.downloadsPerMonth })}</p>
+            <h2 className={h2}>{page && gate ? fill(gate.ui.planTitle, { plan }) : ui.accountTitle}</h2>
+            {page ? null : <p className="mt-2 text-[#3D4F49]">{fill(ui.accountBody, { n: data.downloadsPerMonth })}</p>}
             {gate ? (
               <>
                 <p className="mt-4 font-semibold text-[#14322D]">{fill(ui.planLead, { plan })}</p>
                 <ul className="mt-2 grid list-disc gap-1 pl-5 text-[0.9375rem] text-[#3D4F49]">{gives.map((g) => <li key={g}>{g}</li>)}</ul>
                 <p className="mt-3 font-lcsDisplay text-lg font-bold text-[#0F5A4F]">{fill(gate.ui.planPrice, { price: gate.price, monthly: gate.monthly })}</p>
-                <a href={`/${locale}/pricing?from=workspace`} onClick={() => track('my-teaching-cta', { grade: now.grade })}
+                <a href={`/${locale}/pricing?from=${page ? 'teach' : 'workspace'}`} onClick={() => track('my-teaching-cta', { grade: now.grade })}
                   className="mt-3 inline-flex min-h-[48px] w-full items-center justify-center rounded-xl bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#2A1206] transition-shadow hover:shadow-[0_3px_10px_-2px_rgba(74,56,24,0.35)]">
                   {fill(gate.ui.seePlan, { plan })}
                 </a>
               </>
             ) : null}
-            <p className="mt-4 text-sm text-[#5E706A]">{fill(ui.collectionsNote, { plan })}</p>
+            {page ? null : <p className="mt-4 text-sm text-[#5E706A]">{fill(ui.collectionsNote, { plan })}</p>}
           </section>
         </div>
       </div>

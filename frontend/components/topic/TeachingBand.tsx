@@ -36,7 +36,7 @@ export default function TeachingBand({ locale, data }: { locale: string; data: T
       <div className="grid lg:grid-cols-3">
         <div className="px-5 pb-3 pt-5 md:px-6 lg:col-span-2">
           <h2 id="teaching-band-title" className="font-display text-xl font-semibold leading-tight text-[#14322D]">
-            {data.kind === 'type' ? unitUi.partOfTitle : unitUi.hubTitle}
+            {data.kind === 'type' ? unitUi.partOfTitle : data.teachHref ? <a className="text-[#14322D] underline decoration-[#F2784B] decoration-2 underline-offset-4" href={data.teachHref}>{unitUi.hubTitle}</a> : unitUi.hubTitle}
           </h2>
           {data.kind === 'grade' ? (
             <ul className="mt-2 grid gap-x-6 md:grid-cols-2">
@@ -61,6 +61,14 @@ export default function TeachingBand({ locale, data }: { locale: string; data: T
                 </li>
               ))}
             </ul>
+          ) : null}
+          {data.kind !== 'grade' && data.grades.length > 1 ? (
+            <p className="mt-2 flex flex-wrap items-center gap-2">
+              <span className="mr-1 font-semibold text-[#3D4F49]">{myUi.gradeLabel}</span>
+              {data.grades.map((g) => (
+                <a key={g.href} href={g.href} className="inline-flex min-h-[44px] items-center rounded-full border-2 border-[#CFC5AE] bg-[#FFFDF8] px-4 py-1.5 font-semibold text-[#14322D] no-underline hover:border-[#0F5A4F]">{g.label}</a>
+              ))}
+            </p>
           ) : null}
           {hubLinks}
         </div>

@@ -1,8 +1,0 @@
-{
- "$comment": "Strings written but not yet read by a native reviewer; they go live only after the next review pass (Part 11.3). pricingHero: one sentence under the subtitle of the pricing page (key pricingHero of content/teacher-gate/ui.<loc>.json; the page shows it when the key exists).",
- "pricingHero": {
-  "en": "The {plan} plan also turns the worksheets into a teaching system: units of lessons in order, emergency sub plans, and unit checks with their answer keys.",
-  "de": "Mit dem Tarif {plan} werden aus den Arbeitsblättern außerdem fertige Unterrichtseinheiten, Vertretungsstunden und Lernkontrollen mit Lösungen.",
-  "sv": "Med abonnemanget {plan} blir arbetsbladen dessutom färdiga arbetsområden med lektionerna i ordning och kunskapskollar med facit."
- }
-}

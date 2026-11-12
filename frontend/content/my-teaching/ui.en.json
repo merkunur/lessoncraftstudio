@@ -1,0 +1,22 @@
+{
+ "title": "My teaching",
+ "lead": "Pick the grade you teach. You get its units in teaching order, with the sub plans and the unit checks that go with them.",
+ "gradeLabel": "I teach",
+ "backTitle": "Pick up where you were",
+ "backLink": "Go back to the page you were on",
+ "unitsTitle": "{subject}: the units in order",
+ "planLink": "The scope and sequence for {weeks} weeks",
+ "startHere": "Start here",
+ "unitFacts": "{lessons} lessons, about {weeks} weeks",
+ "unitFactsOneWeek": "{lessons} lessons, about 1 week",
+ "noUnits": "There are no units for this grade yet.",
+ "alsoTitle": "Also for this grade",
+ "alsoSubPlans": "{n} emergency sub plans",
+ "alsoChecks": "{n} unit checks",
+ "alsoStandards": "Standards checklists",
+ "alsoWorksheets": "All worksheets for this grade",
+ "accountTitle": "What your account gives you",
+ "accountBody": "You can read every lesson plan, and you can download {n} worksheets a month.",
+ "planLead": "The {plan} plan removes the limit and adds the files you teach from:",
+ "collectionsNote": "Your collections and saved worksheets appear here once you have the {plan} plan."
+}

@@ -79,7 +79,10 @@ export default function TeacherGate({ locale, plan, surface, gate }: { locale: s
   if (facts.plans > 1) gives.push(fill(ui.gives_plans, { n: facts.plans }));
   if (facts.subPlans > 1) gives.push(fill(ui.gives_subPlans, { n: facts.subPlans }));
   if (facts.checks > 1) gives.push(fill(ui.gives_checks, { n: facts.checks }));
-  const cta = (which: 'plan' | 'sign-in') => () => track('teacher-gate-cta', { what: open.what, cta: which });
+  const cta = (which: 'plan' | 'sign-in') => () => {
+    track('teacher-gate-cta', { what: open.what, cta: which });
+    try { window.sessionStorage.setItem('lcs-return', window.location.pathname); } catch { /* not kept */ }   // read once by components/my-teaching/MyTeaching.tsx
+  };
   return (
     <div className="un-gate" role="presentation" onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
       <div className="un-gate-panel" role="dialog" aria-modal="true" aria-labelledby="un-gate-title">

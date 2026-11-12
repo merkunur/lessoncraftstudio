@@ -1858,7 +1858,7 @@
         "q1": "Que couvre {code} ?",
         "a1": "{code} relève du domaine {strand} pour {grade}. Cette page rassemble les activités interactives et les fiches gratuites alignées sur ce repère.",
         "q2": "Ces ressources {code} sont-elles gratuites ?",
-        "a2": "Oui. Chaque activité et fiche alignée sur {code} est gratuite à utiliser en ligne et à imprimer — sans inscription ni péage.",
+        "a2": "Oui. Les fiches s'utilisent en ligne sans compte. Un compte gratuit ajoute les activités et les téléchargements PDF.",
         "q3": "À qui s'adressent ces activités {code} ?",
         "a3": "Elles sont conçues pour les enseignants et les élèves de {grade} qui suivent la progression {strand} du Programmes officiels, et conviennent à un travail en classe, en petits groupes ou à la maison."
       }
@@ -2684,7 +2684,7 @@
       "description": "Activités K-3 interactives et fiches imprimables gratuites alignées au Programmes officiels {code} ({strand}). Disponibles en 11 langues."
     },
     "pageTitle": "{code} — Activités et fiches gratuites",
-    "intro": "Activités et fiches Programmes officiels {code} gratuites pour {grade}, alignées au volet {strand}. Exercices interactifs jouables dans le navigateur plus fiches imprimables, disponibles dans les 11 langues prises en charge — sans inscription, sans paywall.",
+    "intro": "Activités et fiches gratuites pour {grade} ({code}), conformes aux programmes officiels, domaine {strand}. Exercices interactifs à faire dans le navigateur et fiches imprimables, disponibles dans les 11 langues prises en charge.",
     "activitiesHeading": "Activités interactives",
     "noActivitiesYet": "Aucune activité alignée à cette norme n'est encore publiée. Reviens bientôt.",
     "relatedStandardsHeading": "Normes connexes dans {domain}",
@@ -2700,7 +2700,7 @@
       "description": "À propos de LessonCraftStudio — fiches K-3 gratuites et activités interactives en 11 langues, pour les classes bilingues, plurilingues et internationales."
     },
     "pageTitle": "À propos de LessonCraftStudio",
-    "intro": "LessonCraftStudio publie gratuitement des fiches K-3 et des activités interactives en 11 langues. Tout est en libre accès — pas d'inscription.",
+    "intro": "LessonCraftStudio publie gratuitement des fiches et des activités interactives, de la maternelle au CE2, en 11 langues. La consultation est ouverte à tous ; un compte gratuit ajoute les activités, les outils et les téléchargements.",
     "whatWeOfferHeading": "Ce que nous proposons",
     "whatWeOfferBody": "Fiches imprimables en PDF et activités jouables dans le navigateur en mathématiques, phonétique et vocabulaire, disponibles en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.",
     "audienceHeading": "Pour qui",
@@ -2942,7 +2942,7 @@
     },
     "free": {
       "title": "Toujours une offre gratuite",
-      "blurb": "Aucune connexion pour jouer. Un compte gratuit ajoute les téléchargements. Des limites gratuites généreuses — sans carte, jamais.",
+      "blurb": "Les fiches interactives s'utilisent en ligne sans compte. Un compte gratuit ajoute les activités, les outils et les téléchargements. Des limites gratuites généreuses — sans carte, jamais.",
       "item1": "Plus de 45 000 fiches à imprimer avec corrigés",
       "item2": "Jouez aux fiches interactives gratuitement — 10 par jour, sans connexion",
       "item3": "Plus de 200 activités alignées sur les programmes",
@@ -3025,7 +3025,7 @@
     "teach": {
       "heading": "Commencez là où toute leçon commence : au tableau",
       "body": "Des outils de classe à projeter, pour enseigner face aux élèves. C'est le matériel qui corrige : la balance penche, et personne n'a à dire « faux ».",
-      "caption": "Des outils pour chaque domaine du programme · à essayer gratuitement, sans connexion · ni chrono, ni score, ni classement",
+      "caption": "Des outils pour chaque domaine du programme · à essayer avec un compte gratuit · ni chrono, ni score, ni classement",
       "seeAll": "Voir tous les outils",
       "liveTag": "En direct",
       "penBalance": "la balance penche — personne n'a à dire « faux »"
@@ -3118,7 +3118,7 @@
     "close": {
       "line1": "La leçon de demain",
       "line2": "vous attend juste ici.",
-      "body": "Ouvrez un outil, distribuez une fiche ou créez la vôtre ce soir — essayez tout avant même de vous connecter.",
+      "body": "Ouvrez un outil, distribuez une fiche ou créez la vôtre ce soir — un compte gratuit suffit.",
       "ctaPrimary": "Commencer gratuitement — sans carte",
       "ctaSecondary": "Parcourir les fiches"
     },

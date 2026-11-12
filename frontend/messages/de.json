@@ -3160,7 +3160,7 @@
         "q1": "Was wird unter {code} abgedeckt?",
         "a1": "{code} gehört zum Bereich {strand} für {grade}. Diese Seite versammelt die kostenlosen interaktiven Aktivitäten und Arbeitsblätter, die darauf abgestimmt sind.",
         "q2": "Sind diese {code}-Ressourcen kostenlos?",
-        "a2": "Ja. Jede Aktivität und jedes Arbeitsblatt, das auf {code} abgestimmt ist, ist kostenlos online nutzbar und ausdruckbar — ohne Anmeldung und ohne Bezahlschranke.",
+        "a2": "Ja. Die Arbeitsblätter lassen sich ohne Konto online bearbeiten. Ein kostenloses Konto schaltet die Aufgaben und die PDF-Downloads frei.",
         "q3": "Für wen sind diese {code}-Aktivitäten gedacht?",
         "a3": "Sie sind für {grade}-Lehrkräfte und -Lernende gemacht, die der Lehrplan {strand}-Progression folgen, und eignen sich für die Klasse, Kleingruppen oder das Üben zu Hause."
       }
@@ -3985,7 +3985,7 @@
       "description": "Kostenlose interaktive K-3 Aktivitäten und druckbare Arbeitsblätter passend zum Lehrplan {code} ({strand}). Verfügbar in 11 Sprachen."
     },
     "pageTitle": "{code} — Kostenlose Aktivitäten & Arbeitsblätter",
-    "intro": "Kostenlose Lehrplan {code} Aktivitäten und Arbeitsblätter für {grade}, passend zum Strang {strand}. Im Browser spielbare interaktive Aufgaben plus druckbare PDFs, verfügbar in allen 11 unterstützten Sprachen — keine Anmeldung, keine Bezahlschranke.",
+    "intro": "Kostenlose Aufgaben und Arbeitsblätter zu {code} für {grade}, passend zum Lehrplan im Lernbereich {strand}. Im Browser spielbare interaktive Aufgaben plus druckbare PDFs, verfügbar in allen 11 unterstützten Sprachen.",
     "activitiesHeading": "Interaktive Aktivitäten",
     "noActivitiesYet": "Zu diesem Standard sind noch keine Aktivitäten veröffentlicht. Schau bald wieder vorbei.",
     "relatedStandardsHeading": "Verwandte Standards in {domain}",
@@ -4001,7 +4001,7 @@
       "description": "Über LessonCraftStudio — kostenlose K-3 Arbeitsblätter und interaktive Aufgaben in 11 Sprachen, für mehrsprachige, bilinguale und internationale Klassen."
     },
     "pageTitle": "Über LessonCraftStudio",
-    "intro": "LessonCraftStudio veröffentlicht kostenlose K-3 Arbeitsblätter und interaktive Aufgaben in 11 Sprachen. Alles ist frei zugänglich — keine Anmeldung nötig.",
+    "intro": "LessonCraftStudio veröffentlicht kostenlose Arbeitsblätter und interaktive Aufgaben für Vorschule bis 3. Klasse in 11 Sprachen. Stöbern kann jeder; ein kostenloses Konto schaltet Aufgaben, Tools und Downloads frei.",
     "whatWeOfferHeading": "Was wir anbieten",
     "whatWeOfferBody": "Druckbare PDFs und im Browser spielbare Aufgaben rund um Mathe, Phonetik und Wortschatz, verfügbar in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.",
     "audienceHeading": "Für wen",
@@ -4243,7 +4243,7 @@
     },
     "free": {
       "title": "Immer ein Gratis-Angebot",
-      "blurb": "Zum Spielen kein Login nötig. Ein kostenloses Konto schaltet Downloads frei. Großzügige Gratis-Limits — ganz ohne Karte.",
+      "blurb": "Interaktive Arbeitsblätter nutzt du ohne Login. Ein kostenloses Konto schaltet Aufgaben, Tools und Downloads frei. Großzügige Gratis-Limits – ganz ohne Karte.",
       "item1": "45.000+ druckbare Arbeitsblätter mit Lösungsblättern",
       "item2": "Interaktive Arbeitsblätter kostenlos spielen — 10 pro Tag, ohne Login",
       "item3": "200+ Lernaktivitäten, ausgerichtet am Lehrplan",
@@ -4326,7 +4326,7 @@
     "teach": {
       "heading": "Fang da an, wo jede Stunde beginnt: vorn an der Tafel",
       "body": "Unterrichts-Tools zum Projizieren — du unterrichtest direkt daran. Das Material übernimmt das Korrigieren: Der Balken kippt, und niemand muss „falsch“ sagen.",
-      "caption": "Tools für jeden Lernbereich · kostenlos ausprobieren, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
+      "caption": "Tools für jeden Lernbereich · mit kostenlosem Konto ausprobieren · kein Zeitdruck, keine Punkte, keine Ranglisten",
       "seeAll": "Alle Tools ansehen",
       "liveTag": "Live",
       "penBalance": "der Balken kippt — keiner muss „falsch“ sagen"
@@ -4419,7 +4419,7 @@
     "close": {
       "line1": "Die Stunde von morgen",
       "line2": "wartet schon hier.",
-      "body": "Öffne ein Tool, teil ein Arbeitsblatt aus oder bau heute Abend dein eigenes — probier alles aus, noch bevor du dich überhaupt anmeldest.",
+      "body": "Öffne ein Tool, teil ein Arbeitsblatt aus oder bau heute Abend dein eigenes – ein kostenloses Konto genügt.",
       "ctaPrimary": "Kostenlos starten — ohne Karte",
       "ctaSecondary": "Arbeitsblätter durchstöbern"
     },

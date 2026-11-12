@@ -1,0 +1,22 @@
+{
+ "title": "Mein Unterricht",
+ "lead": "Wähle die Klasse, die du unterrichtest. Du bekommst ihre Unterrichtseinheiten in der Reihenfolge des Schuljahres, dazu die passenden Vertretungsstunden und Lernkontrollen.",
+ "gradeLabel": "Ich unterrichte",
+ "backTitle": "Dort weitermachen, wo du warst",
+ "backLink": "Zurück zu der Seite, auf der du warst",
+ "unitsTitle": "{subject}: die Einheiten in ihrer Reihenfolge",
+ "planLink": "Der Stoffverteilungsplan für {weeks} Wochen",
+ "startHere": "Hier anfangen",
+ "unitFacts": "{lessons} Stunden, etwa {weeks} Wochen",
+ "unitFactsOneWeek": "{lessons} Stunden, etwa 1 Woche",
+ "noUnits": "Für diese Klasse gibt es noch keine Unterrichtseinheiten.",
+ "alsoTitle": "Auch für diese Klasse",
+ "alsoSubPlans": "{n} Vertretungsstunden",
+ "alsoChecks": "{n} Lernkontrollen",
+ "alsoStandards": "Lehrplan-Übersichten",
+ "alsoWorksheets": "Alle Arbeitsblätter für diese Klasse",
+ "accountTitle": "Das bietet dir dein Konto",
+ "accountBody": "Du kannst jeden Stundenverlauf lesen und im Monat {n} Arbeitsblätter herunterladen.",
+ "planLead": "Mit dem Tarif {plan} fällt das Limit weg, und du bekommst die Dateien für deinen Unterricht:",
+ "collectionsNote": "Deine Sammlungen und gespeicherten Arbeitsblätter erscheinen hier, sobald du den Tarif {plan} hast."
+}

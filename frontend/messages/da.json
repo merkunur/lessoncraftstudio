@@ -1835,7 +1835,7 @@
         "q1": "Hvad er dækket under {code}?",
         "a1": "{code} hører til {strand}-området for {grade}. Denne side samler de gratis interaktive aktiviteter og arbejdsark der er tilpasset det.",
         "q2": "Er disse {code}-ressourcer gratis?",
-        "a2": "Ja. Hver aktivitet og hvert arbejdsark der er tilpasset {code} er gratis at bruge online og at printe — ingen tilmelding og ingen betalingsmur.",
+        "a2": "Ja. Arbejdsarkene kan bruges online uden konto. En gratis konto tilføjer aktiviteterne og PDF-downloads.",
         "q3": "Hvem er disse {code}-aktiviteter til?",
         "a3": "De er lavet til lærere og elever i {grade} der følger Fælles Mål {strand}-forløbet, og fungerer til fælles, små grupper eller øvelse derhjemme."
       }
@@ -2661,7 +2661,7 @@
       "description": "Gratis interaktive K-3-aktiviteter og printbare arbejdsark tilpasset Fælles Mål {code} ({strand}). Tilgængelige på 11 sprog."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbejdsark",
-    "intro": "Gratis Fælles Mål {code}-aktiviteter og arbejdsark til {grade}, tilpasset området {strand}. Interaktive øvelser der kan spilles i browseren plus printbare PDF'er, tilgængelige på alle 11 understøttede sprog — ingen tilmelding, ingen betalingsmur.",
+    "intro": "Gratis Fælles Mål {code}-aktiviteter og arbejdsark til {grade}, tilpasset området {strand}. Interaktive øvelser der kan spilles i browseren plus printbare PDF'er, tilgængelige på alle 11 understøttede sprog.",
     "activitiesHeading": "Interaktive aktiviteter",
     "noActivitiesYet": "Der er endnu ikke udgivet aktiviteter tilpasset denne standard. Kig forbi snart.",
     "relatedStandardsHeading": "Relaterede standarder i {domain}",
@@ -2677,7 +2677,7 @@
       "description": "Om LessonCraftStudio — gratis opgaveark og interaktive aktiviteter til børnehaveklasse til 3. klasse på 11 sprog, til tosprogede klasser, sprogbadsklasser og internationale skoler."
     },
     "pageTitle": "Om LessonCraftStudio",
-    "intro": "LessonCraftStudio udgiver gratis opgaveark og interaktive aktiviteter til børnehaveklasse til 3. klasse på 11 sprog. Alt kan frit gennemses, printes, deles og indlejres — ingen tilmelding nødvendig.",
+    "intro": "LessonCraftStudio udgiver gratis arbejdsark og interaktive aktiviteter fra børnehaveklasse til 3. klasse på 11 sprog. Alle kan frit gennemse det hele; en gratis konto tilføjer aktiviteter, værktøjer og downloads.",
     "whatWeOfferHeading": "Hvad vi tilbyder",
     "whatWeOfferBody": "Printbare PDF'er og aktiviteter, der kan spilles direkte i browseren, inden for matematik, lydmetoden og ordforråd — på engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk og finsk.",
     "audienceHeading": "Hvem er det til?",
@@ -2919,7 +2919,7 @@
     },
     "free": {
       "title": "Altid et gratis niveau",
-      "blurb": "Ingen login for at spille. En gratis konto tilføjer downloads. Generøse gratis grænser — aldrig et kort.",
+      "blurb": "Interaktive arbejdsark kan bruges uden login. En gratis konto tilføjer aktiviteter, værktøjer og downloads. Generøse gratis grænser – aldrig et kort.",
       "item1": "45.000+ printklare opgaveark med facitlister",
       "item2": "Spil interaktive opgaveark gratis — 10 om dagen, uden login",
       "item3": "200+ læringsaktiviteter, der følger målene fra børnehaveklassen og frem",
@@ -3002,7 +3002,7 @@
     "teach": {
       "heading": "Begynd der, hvor hver time begynder: ved tavlen",
       "body": "Tavleværktøjer, du viser for klassen og underviser ud fra. Apparatet retter selv: vægten vipper, så ingen behøver at sige forkert.",
-      "caption": "Værktøjer til hvert fagområde · gratis at prøve, uden login · ingen tidtagning, ingen point, ingen konkurrence",
+      "caption": "Værktøjer til hvert fagområde · prøv med en gratis konto · ingen tidtagning, ingen point, ingen konkurrence",
       "seeAll": "Se alle værktøjerne",
       "liveTag": "Live",
       "penBalance": "vægten vipper — ingen behøver sige forkert"
@@ -3095,7 +3095,7 @@
     "close": {
       "line1": "Morgendagens time",
       "line2": "ligger lige her.",
-      "body": "Åbn et værktøj, del et arbejdsark ud, eller byg dit eget i aften — prøv det hele, før du overhovedet logger ind.",
+      "body": "Åbn et værktøj, del et arbejdsark ud, eller byg dit eget i aften – en gratis konto er nok.",
       "ctaPrimary": "Start gratis — uden kort",
       "ctaSecondary": "Se arbejdsarkene"
     },

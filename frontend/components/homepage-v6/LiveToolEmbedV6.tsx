@@ -8,6 +8,9 @@
    wall as homepage content. The preview facade renders a real screenshot;
    the iframe (and its meter) fires only on genuine intent.
 
+   `sample`: tools need a free account to play (operator ruling 2026-11-12);
+   this one sample stays open so the homepage can show the product.
+
    All strings arrive as props (the server parent owns i18n). */
 
 import { useState } from 'react';
@@ -33,7 +36,7 @@ export default function LiveToolEmbedV6({ src, name, previewUrl, ctaLabel, note,
           <span className="font-lcsDisplay font-bold text-lg text-lcs-teal">{name}</span>
           <span className="hv6-chip-coral hv6-chip">{liveTag}</span>
         </div>
-        <ActivityIframe src={src} title={name} />
+        <ActivityIframe src={src} title={name} sample />
       </div>
     );
   }

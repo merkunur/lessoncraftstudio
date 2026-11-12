@@ -6,6 +6,8 @@ import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import WorkspaceShell from './WorkspaceShell';
+import MyTeaching from '@/components/my-teaching/MyTeaching';
+import type { MyTeachingProps } from '@/lib/my-teaching-page';
 
 /**
  * Gates ONLY. Everything past the gates lives in WorkspaceShell.
@@ -19,7 +21,7 @@ import WorkspaceShell from './WorkspaceShell';
  * The <main> element, the Direction A ground, the container and the fonts all
  * live in page.tsx — next/font cannot be called from a 'use client' file.
  */
-export default function WorkspaceClient({ locale, classesLabel = null }: { locale: string; classesLabel?: string | null }) {
+export default function WorkspaceClient({ locale, classesLabel = null, myTeaching = null }: { locale: string; classesLabel?: string | null; myTeaching?: MyTeachingProps | null }) {
   const t = useTranslations('workspace');
   const { user, loading: authLoading } = useAuth();
 
@@ -49,6 +51,19 @@ export default function WorkspaceClient({ locale, classesLabel = null }: { local
   }
 
   if (!isLcsSubscriptionActive(user)) {
+    // an account without the plan: her own grade's units, what the account can do, what the plan adds (Part 11.3)
+    if (myTeaching) {
+      return (
+        <>
+          <MyTeaching locale={locale} plan={myTeaching.plan} data={myTeaching.data} gate={myTeaching.gate} gradeLabels={myTeaching.gradeLabels} subjectLabels={myTeaching.subjectLabels} topicHrefs={myTeaching.topicHrefs} />
+          {classesLabel && (
+            <p className="mt-6">
+              <Link href={`/${locale}/workspace/classes`} className="font-lcsBody font-semibold text-[#14322D] underline underline-offset-4">{classesLabel}</Link>
+            </p>
+          )}
+        </>
+      );
+    }
     return (
       <div className="max-w-2xl py-4">
         <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">

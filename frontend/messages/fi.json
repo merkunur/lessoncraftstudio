@@ -1827,7 +1827,7 @@
         "q1": "Mitä {code} kattaa?",
         "a1": "{code} kuuluu osa-alueeseen {strand} tasolla {grade}. Tämä sivu kokoaa siihen sopivat ilmaiset interaktiiviset aktiviteetit ja tehtävät.",
         "q2": "Ovatko nämä {code}-resurssit ilmaisia?",
-        "a2": "Kyllä. Jokainen aktiviteetti ja tehtävä, joka on sovitettu kohtaan {code}, on ilmainen käyttää verkossa ja tulostaa — ei rekisteröitymistä eikä maksumuuria.",
+        "a2": "Kyllä. Työarkkeja voi käyttää verkossa ilman tiliä. Ilmainen tili tuo tehtävät ja PDF-lataukset.",
         "q3": "Keille nämä {code}-aktiviteetit on tarkoitettu?",
         "a3": "Ne on rakennettu opettajille ja oppijoille tasolla {grade}, jotka seuraavat OPS 2014 {strand} -etenemistä, ja ne toimivat luokan, pienryhmän tai kotiharjoittelussa."
       }
@@ -2653,7 +2653,7 @@
       "description": "Ilmaisia interaktiivisia K-3-tehtäviä ja tulostettavia työarkkeja OPS 2014 {code} ({strand}) -mukaisesti. Saatavilla 11 kielellä."
     },
     "pageTitle": "{code} — Ilmaisia tehtäviä ja työarkkeja",
-    "intro": "Ilmaisia OPS 2014 {code} -tehtäviä ja työarkkeja {grade}-tasolle, {strand} -osa-alueeseen sidottuna. Selaimessa pelattavia interaktiivisia harjoituksia sekä tulostettavia PDF-tiedostoja, saatavilla kaikilla 11 tuetulla kielellä — ei rekisteröitymistä, ei maksumuuria.",
+    "intro": "Ilmaisia OPS 2014 {code} -tehtäviä ja työarkkeja {grade}-tasolle, {strand} -osa-alueeseen sidottuna. Selaimessa pelattavia interaktiivisia harjoituksia sekä tulostettavia PDF-tiedostoja, saatavilla kaikilla 11 tuetulla kielellä.",
     "activitiesHeading": "Interaktiiviset tehtävät",
     "noActivitiesYet": "Tähän standardiin sidottuja tehtäviä ei ole vielä julkaistu. Käy pian uudelleen.",
     "relatedStandardsHeading": "Aiheeseen liittyvät standardit kohdassa {domain}",
@@ -2669,7 +2669,7 @@
       "description": "Tietoa LessonCraftStudiosta – maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä kaksikielisille, monikielisille ja kansainvälisille luokille."
     },
     "pageTitle": "Tietoa LessonCraftStudiosta",
-    "intro": "LessonCraftStudio julkaisee maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikkea saa vapaasti selata, tulostaa, jakaa ja upottaa – rekisteröitymistä ei tarvita.",
+    "intro": "LessonCraftStudio julkaisee maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Selaaminen on avointa kaikille; ilmainen tili tuo tehtävät, työkalut ja lataukset.",
     "whatWeOfferHeading": "Mitä tarjoamme",
     "whatWeOfferBody": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, lukemisen alkeisiin ja sanavarastoon. Saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.",
     "audienceHeading": "Kenelle",
@@ -2911,7 +2911,7 @@
     },
     "free": {
       "title": "Aina ilmainen taso",
-      "blurb": "Pelaaminen ei vaadi kirjautumista. Ilmainen tili tuo lataukset. Runsaat ilmaisrajat — ei koskaan korttia.",
+      "blurb": "Interaktiivisia työarkkeja voi käyttää kirjautumatta. Ilmainen tili tuo tehtävät, työkalut ja lataukset. Runsaat ilmaisrajat – ei koskaan korttia.",
       "item1": "Yli 45 000 tulostettavaa tehtävää vastauksineen",
       "item2": "Pelaa interaktiivisia tehtäviä ilmaiseksi — 10 päivässä, ilman kirjautumista",
       "item3": "200+ opetussuunnitelman mukaista aktiviteettia esiopetuksesta alkuopetukseen",
@@ -2994,7 +2994,7 @@
     "teach": {
       "heading": "Aloita siitä, mistä jokainen oppitunti alkaa: luokan edestä",
       "body": "Opetustyökaluja, jotka heijastat taululle ja joiden äärestä opetat. Väline hoitaa korjaamisen: vaaka kallistuu, eikä kenenkään tarvitse sanoa väärin.",
-      "caption": "Työkaluja jokaiseen sisältöalueeseen · kokeile ilmaiseksi, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
+      "caption": "Työkaluja jokaiseen sisältöalueeseen · kokeile ilmaisella tilillä · ei ajastimia, ei pisteitä, ei suoritusputkia",
       "seeAll": "Katso kaikki työkalut",
       "liveTag": "Live",
       "penBalance": "vaaka kallistuu – kenenkään ei tarvitse sanoa väärin"
@@ -3087,7 +3087,7 @@
     "close": {
       "line1": "Huominen oppitunti",
       "line2": "odottaa jo tässä.",
-      "body": "Avaa työkalu, jaa tehtäväarkki tai rakenna oma vielä tänä iltana – voit kokeilla kaikkea jo ennen kirjautumista.",
+      "body": "Avaa työkalu, jaa tehtäväarkki tai rakenna oma vielä tänä iltana – ilmainen tili riittää.",
       "ctaPrimary": "Aloita ilmaiseksi – ei korttia",
       "ctaSecondary": "Selaa tehtäväarkkeja"
     },

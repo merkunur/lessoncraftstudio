@@ -29,5 +29,6 @@
  "pricingSee": "Titta närmare:",
  "link_units": "Lektionsplaneringar i arbetsområden",
  "link_subPlans": "Vikarieplaneringar",
- "link_checks": "Kunskapskollar"
+ "link_checks": "Kunskapskollar",
+ "pricingHero": "Med abonnemanget {plan} blir arbetsbladen dessutom färdiga arbetsområden med lektionerna i ordning och kunskapskollar med facit."
 }

@@ -3,6 +3,7 @@ import { baloo2, nunito } from '@/lib/fonts/direction-a-wide';
 import { getTranslations } from 'next-intl/server';
 import WorkspaceClient from './WorkspaceClient';
 import { TEACHER_STRINGS } from '@/lib/class-results/teacher-strings';
+import { myTeachingProps } from '@/lib/my-teaching-page';
 
 // Tool 2A — Workspace home. Subscriber landing surface per
 // docs/SUBSCRIPTION-SCOPE.md Pillar 3 Tool 2.
@@ -62,7 +63,10 @@ export async function generateMetadata({
   };
 }
 
-export default function WorkspacePage({ params }: { params: { locale: string } }) {
+export default async function WorkspacePage({ params }: { params: { locale: string } }) {
+  // "My teaching": what an account without the plan sees here (Daily Teaching System, Part 11.3). Only in a language
+  // that has units and the strings; everywhere else the page is as it was.
+  const mine = await myTeachingProps(params.locale);
   return (
     // div, not main: LocaleLayoutClient already wraps children in <main>, and
     // two nested <main> elements is a landmark defect. app/[locale]/page.tsx
@@ -83,6 +87,7 @@ export default function WorkspacePage({ params }: { params: { locale: string } }
         {/* class links and results (Daily Teaching System, Part 9): the link shows only while the server switch is on */}
         <WorkspaceClient
           locale={params.locale}
+          myTeaching={mine}
           classesLabel={process.env.CLASS_RESULTS_ENABLED === '1' ? (TEACHER_STRINGS[params.locale] || TEACHER_STRINGS.en).title : null}
         />
       </div>

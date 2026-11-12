@@ -29,5 +29,6 @@
  "pricingSee": "Take a look:",
  "link_units": "Lesson plans by unit",
  "link_subPlans": "Emergency sub plans",
- "link_checks": "Unit checks"
+ "link_checks": "Unit checks",
+ "pricingHero": "The {plan} plan also turns the worksheets into a teaching system: units of lessons in order, emergency sub plans, and unit checks with their answer keys."
 }

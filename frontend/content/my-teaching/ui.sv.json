@@ -1,0 +1,22 @@
+{
+ "title": "Min undervisning",
+ "lead": "Välj den årskurs du undervisar i. Du får årskursens arbetsområden i den ordning de undervisas, med de kunskapskollar som hör till.",
+ "gradeLabel": "Jag undervisar i",
+ "backTitle": "Fortsätt där du var",
+ "backLink": "Tillbaka till sidan du var på",
+ "unitsTitle": "{subject}: arbetsområdena i ordning",
+ "planLink": "Planeringen för {weeks} veckor",
+ "startHere": "Börja här",
+ "unitFacts": "{lessons} lektioner, cirka {weeks} veckor",
+ "unitFactsOneWeek": "{lessons} lektioner, cirka 1 vecka",
+ "noUnits": "Det finns inga arbetsområden för den här årskursen än.",
+ "alsoTitle": "Också för den här årskursen",
+ "alsoSubPlans": "{n} vikarieplaneringar",
+ "alsoChecks": "{n} kunskapskollar",
+ "alsoStandards": "Översikter över läroplanen",
+ "alsoWorksheets": "Alla arbetsblad för den här årskursen",
+ "accountTitle": "Det här får du med ditt konto",
+ "accountBody": "Du kan läsa alla lektionsplaneringar och ladda ner {n} arbetsblad i månaden.",
+ "planLead": "Med abonnemanget {plan} försvinner gränsen, och du får filerna du undervisar med:",
+ "collectionsNote": "Dina samlingar och sparade arbetsblad visas här när du har abonnemanget {plan}."
+}

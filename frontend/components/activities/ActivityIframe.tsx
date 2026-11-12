@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale } from "next-intl";
 import { meterAction } from "@/lib/client-meter";
 import { isCareSurface } from "@/lib/care-surfaces";
+import signupWall from "@/content/play-wall/ui.json";
 
 /**
  * Activity iframe wrapper that auto-resizes to its content via postMessage.
@@ -17,6 +18,13 @@ import { isCareSurface } from "@/lib/care-surfaces";
  * we meter 'play' before rendering the iframe; blocked → a wall panel (the
  * activity PAGE prose above stays fully served + indexable, so SEO is
  * untouched; crawlers bypass the meter server-side). Off until the flip.
+ *
+ * ACCOUNT (operator ruling 2026-11-12): an activity or a classroom tool needs a free account to play. The frame
+ * tells the meter what it is (surface "activity" | "tool"); an anonymous visitor gets "signup_required" and sees
+ * the sign-up panel (content/play-wall/ui.json, 11 languages) where the frame would be. Nothing is loaded before the
+ * answer arrives, so the activity never flashes and then disappears. Not asked for an account: a care surface, and
+ * the ONE sample on the homepage (prop `sample`), which a visitor opens with a click and which is the proof of the
+ * product on the page that sells it. The 10 plays a day of a free account are the same counter as before.
  */
 
 const INITIAL_HEIGHT = 420;
@@ -40,9 +48,12 @@ export function ActivityIframe({
   src,
   title,
   toolKey,
+  sample,
 }: {
   src: string;
   title: string;
+  /** the homepage sample: metered as a play like before, and not asked for an account */
+  sample?: boolean;
   /**
    * ⭐ The tool key, when this iframe is a TOOL rather than an activity.
    * Care surfaces (`lib/care-surfaces.ts`) are never metered: a
@@ -59,7 +70,8 @@ export function ActivityIframe({
   const locale = useLocale();
   const [height, setHeight] = useState<number>(INITIAL_HEIGHT);
   const exempt = isCareSurface(toolKey);
-  const [gate, setGate] = useState<"pending" | "open" | "blocked">(exempt ? "open" : "pending");
+  const [gate, setGate] = useState<"pending" | "open" | "blocked" | "signup">(exempt ? "open" : "pending");
+  const surface = sample ? undefined : toolKey ? "tool" : "activity";
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   useEffect(() => {
@@ -67,13 +79,13 @@ export function ActivityIframe({
     // because a counted play is a play that can later be refused.
     if (exempt) return;
     let cancelled = false;
-    meterAction("play").then(({ proceed }) => {
-      if (!cancelled) setGate(proceed ? "open" : "blocked");
+    meterAction("play", surface).then(({ proceed, detail }) => {
+      if (!cancelled) setGate(proceed ? "open" : detail?.reason === "signup_required" ? "signup" : "blocked");
     });
     return () => {
       cancelled = true;
     };
-  }, [exempt]);
+  }, [exempt, surface]);
 
   useEffect(() => {
     function onMessage(ev: MessageEvent) {
@@ -87,6 +99,46 @@ export function ActivityIframe({
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
   }, []);
+
+  if (gate === "signup") {
+    const all = signupWall as Record<string, { title: string; body: string; cta: string; signIn: string }>;
+    const c = all[locale] || all.en;
+    // after the account is made the first page offers the way back here (components/my-teaching, RETURN_KEY)
+    const remember = () => { try { window.sessionStorage.setItem("lcs-return", window.location.pathname); } catch { /* not kept */ } };
+    return (
+      <div
+        data-play-signup=""
+        style={{ minHeight: MIN_HEIGHT, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 24 }}
+      >
+        <div style={{ maxWidth: 460 }}>
+          <h2 style={{ fontFamily: "'Baloo 2', system-ui, sans-serif", color: "#146B5E", fontSize: "1.4rem", lineHeight: 1.25, marginBottom: 8 }}>{c.title}</h2>
+          <p style={{ color: "#3D4F49", marginBottom: 16 }}>{c.body}</p>
+          <a
+            href={`/${locale}/auth/signup?from=play`}
+            onClick={remember}
+            style={{ display: "inline-flex", alignItems: "center", minHeight: 48, background: "#F2784B", color: "#2A1206", padding: "10px 24px", borderRadius: 999, fontWeight: 700, textDecoration: "none" }}
+          >
+            {c.cta}
+          </a>
+          <p style={{ marginTop: 8 }}>
+            <a
+              href={`/${locale}/auth/signin?from=play`}
+              onClick={remember}
+              style={{ display: "inline-flex", alignItems: "center", minHeight: 44, color: "#0F5A4F", fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 4 }}
+            >
+              {c.signIn}
+            </a>
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  // An activity or a tool waits for the answer: most visitors have no account, and for them a frame that loads and
+  // then gives way to the panel would be the normal case. The box keeps the height, so nothing below moves.
+  if (gate === "pending" && surface) {
+    return <div data-play-pending="" aria-busy="true" style={{ width: "100%", height: INITIAL_HEIGHT, minHeight: MIN_HEIGHT }} />;
+  }
 
   if (gate === "blocked") {
     const c = WALL_COPY[locale] || WALL_COPY.en;
@@ -108,10 +160,8 @@ export function ActivityIframe({
     );
   }
 
-  // 'pending' and 'open' both render the iframe (optimistic — the common case
-  // is allowed; pending keeps layout stable and avoids a play-then-wall flash
-  // being the norm). The iframe src loads regardless; the meter has already
-  // counted the play. When metering is OFF, gate resolves 'open' instantly.
+  // 'open' renders the iframe; so does 'pending' for the homepage sample (the common case there is allowed). The
+  // meter has already counted the play. When metering is OFF, the gate resolves 'open' at once.
   return (
     <iframe
       ref={iframeRef}

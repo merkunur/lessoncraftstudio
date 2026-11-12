@@ -4,15 +4,17 @@ import {
   checkAndIncrementQuota,
   anonCookieSetHeader,
   QuotaKind,
+  playNeedsAccount,
 } from '@/lib/quota';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 /**
- * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' | 'make' }
+ * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' | 'make', surface?: 'activity' | 'tool' }
  * 200 {allowed:true, used, remaining, resetAt}
- * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make)
+ * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make, and an anonymous play of an
+ *     activity or a classroom tool: lib/quota.ts PLAY_NEEDS_ACCOUNT)
  * 402 {allowed:false, reason:'quota_exceeded', used, remaining, resetAt, pricingPath}
  * Fail-open on internal errors (metering never takes the site down).
  *
@@ -25,11 +27,13 @@ export async function POST(request: NextRequest) {
   try {
     let kind: QuotaKind = 'play';
     let classToken: unknown = null;
+    let accountRequired = false;
     try {
       const body = await request.json();
       if (body?.kind === 'download') kind = 'download';
       else if (body?.kind === 'make') kind = 'make';
       classToken = body?.classToken ?? null;
+      accountRequired = kind === 'play' && playNeedsAccount(body?.surface);
     } catch {
       /* default play */
     }
@@ -44,7 +48,7 @@ export async function POST(request: NextRequest) {
     }
 
     const identity = await resolveQuotaIdentity(request);
-    const result = await checkAndIncrementQuota(identity, kind);
+    const result = await checkAndIncrementQuota(identity, kind, { accountRequired });
 
     const status = result.allowed ? 200 : result.reason === 'signup_required' ? 401 : 402;
     const res = NextResponse.json(

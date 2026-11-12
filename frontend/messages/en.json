@@ -3319,7 +3319,7 @@
         "q1": "What is covered under {code}?",
         "a1": "{code} sits in the {strand} strand for {grade}. This page gathers the free interactive activities and worksheets aligned to it.",
         "q2": "Are these {code} resources free?",
-        "a2": "Yes. Every activity and worksheet aligned to {code} is free to use online and to print — no signup and no paywall.",
+        "a2": "Yes. The worksheets play online without an account. A free account adds the activities and the PDF downloads.",
         "q3": "Who are these {code} activities for?",
         "a3": "They are built for {grade} teachers and learners following the Common Core {strand} progression, and work for class, small-group, or home practice."
       }
@@ -4181,7 +4181,7 @@
       "description": "Free K-3 interactive activities and printable worksheets aligned to Common Core State Standard {code} ({strand}). Available in 11 languages."
     },
     "pageTitle": "{code} — Free Activities & Worksheets",
-    "intro": "Free Common Core {code} activities and worksheets for {grade}, aligned to the {strand} strand. Browser-playable interactive exercises plus printable PDFs, available in all 11 supported languages — no signup, no paywall.",
+    "intro": "Free Common Core {code} activities and worksheets for {grade}, aligned to the {strand} strand. Browser-playable interactive exercises plus printable PDFs, available in all 11 supported languages.",
     "activitiesHeading": "Interactive activities",
     "noActivitiesYet": "No activities aligned to this standard are published yet. Check back soon.",
     "relatedStandardsHeading": "Related standards in {domain}",
@@ -4197,7 +4197,7 @@
       "description": "About LessonCraftStudio — free K-3 worksheets and interactive activities in 11 languages, built for dual-language, bilingual, and international-school classrooms."
     },
     "pageTitle": "About LessonCraftStudio",
-    "intro": "LessonCraftStudio publishes free K-3 worksheets and interactive activities in 11 languages. Everything is free to browse, print, share, and embed — no signup required.",
+    "intro": "LessonCraftStudio publishes free K-3 worksheets and interactive activities in 11 languages. Browsing is open to everyone; a free account adds the activities, the classroom tools and downloads.",
     "whatWeOfferHeading": "What we offer",
     "whatWeOfferBody": "Printable PDFs and browser-playable activities across math, phonics, and vocabulary, available in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.",
     "audienceHeading": "Who it's for",
@@ -4442,7 +4442,7 @@
     },
     "free": {
       "title": "Always a free tier",
-      "blurb": "No login needed to play. A free account adds downloads. Generous free limits — no card, ever.",
+      "blurb": "Interactive worksheets play without a login. A free account adds activities, classroom tools and downloads. Generous free limits — no card, ever.",
       "item1": "45,000+ printable worksheets with answer keys",
       "item2": "Play interactive worksheets free — 10 a day, no login",
       "item3": "200+ curriculum-aligned learning activities",
@@ -4525,7 +4525,7 @@
     "teach": {
       "heading": "Start where every lesson starts: at the front of the room",
       "body": "Classroom instruments you project and teach from. The apparatus does the correcting: the beam tips, so nobody has to say wrong.",
-      "caption": "Instruments for every strand · free to try, no login · no timers, no scores, no streaks",
+      "caption": "Instruments for every strand · try them with a free account · no timers, no scores, no streaks",
       "seeAll": "See all the tools",
       "liveTag": "Live",
       "penBalance": "the beam settles level — nobody had to say wrong"
@@ -4618,7 +4618,7 @@
     "close": {
       "line1": "Tomorrow's lesson",
       "line2": "is sitting right here.",
-      "body": "Open a tool, hand out a worksheet, or build your own tonight — try it all before you ever sign in.",
+      "body": "Open a tool, hand out a worksheet, or build your own tonight — a free account is all it takes.",
       "ctaPrimary": "Start free — no card",
       "ctaSecondary": "Browse the worksheets"
     },

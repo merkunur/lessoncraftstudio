@@ -1842,7 +1842,7 @@
         "q1": "Hva dekkes under {code}?",
         "a1": "{code} hører til i {strand}-området for {grade}. Denne siden samler de gratis interaktive aktivitetene og arbeidsarkene som er tilpasset det.",
         "q2": "Er disse {code}-ressursene gratis?",
-        "a2": "Ja. Hver aktivitet og hvert arbeidsark tilpasset {code} er gratis å bruke online og å skrive ut — ingen registrering og ingen betalingsmur.",
+        "a2": "Ja. Arbeidsarkene kan brukes på nett uten konto. En gratis konto legger til aktivitetene og PDF-nedlastingene.",
         "q3": "Hvem er disse {code}-aktivitetene for?",
         "a3": "De er laget for lærere og elever på {grade} som følger LK20-progresjonen for {strand}, og fungerer til arbeid i klassen, i smågrupper eller hjemme."
       }
@@ -2668,7 +2668,7 @@
       "description": "Gratis interaktive K-3-aktiviteter og utskriftsvennlige arbeidsark tilpasset LK20 {code} ({strand}). Tilgjengelige på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbeidsark",
-    "intro": "Gratis LK20 {code}-aktiviteter og arbeidsark for {grade}, tilpasset området {strand}. Interaktive øvelser som kan spilles i nettleseren pluss utskriftsvennlige PDF-er, tilgjengelige på alle 11 språk som støttes — ingen registrering, ingen betalingsmur.",
+    "intro": "Gratis LK20 {code}-aktiviteter og arbeidsark for {grade}, tilpasset området {strand}. Interaktive øvelser som kan spilles i nettleseren pluss utskriftsvennlige PDF-er, tilgjengelige på alle 11 språk som støttes.",
     "activitiesHeading": "Interaktive aktiviteter",
     "noActivitiesYet": "Det er ennå ikke publisert aktiviteter tilpasset denne standarden. Kom tilbake snart.",
     "relatedStandardsHeading": "Relaterte standarder i {domain}",
@@ -2684,7 +2684,7 @@
       "description": "Om LessonCraftStudio – gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk, laget for tospråklige klasser, språkbadsklasser og internasjonale skoler."
     },
     "pageTitle": "Om LessonCraftStudio",
-    "intro": "LessonCraftStudio publiserer gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk. Alt er gratis å bla i, skrive ut, dele og bygge inn – ingen registrering nødvendig.",
+    "intro": "LessonCraftStudio publiserer gratis arbeidsark og interaktive aktiviteter fra barnehage til 3. trinn på 11 språk. Alle kan bla fritt; en gratis konto legger til aktiviteter, verktøy og nedlastinger.",
     "whatWeOfferHeading": "Hva vi tilbyr",
     "whatWeOfferBody": "PDF-er til utskrift og aktiviteter som spilles i nettleseren, innen matematikk, lese- og skriveopplæring og ordforråd, på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.",
     "audienceHeading": "Hvem det er for",
@@ -2926,7 +2926,7 @@
     },
     "free": {
       "title": "Alltid et gratis nivå",
-      "blurb": "Ingen innlogging for å spille. En gratis konto legger til nedlastinger. Rause gratisgrenser — aldri et kort.",
+      "blurb": "Interaktive arbeidsark kan brukes uten innlogging. En gratis konto legger til aktiviteter, verktøy og nedlastinger. Rause gratisgrenser – aldri et kort.",
       "item1": "45 000+ utskriftsklare oppgaveark med fasit",
       "item2": "Spill interaktive oppgaveark gratis — 10 om dagen, uten innlogging",
       "item3": "200+ læreplanforankrede aktiviteter for de laveste trinnene",
@@ -3009,7 +3009,7 @@
     "teach": {
       "heading": "Start der hver time starter: ved tavla",
       "body": "Instrumenter for klasserommet som du viser på storskjerm og underviser fra. Apparatet tar rettingen: vekta vipper, så ingen trenger å si «feil».",
-      "caption": "Instrumenter for hvert fagområde · gratis å prøve, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
+      "caption": "Instrumenter for hvert fagområde · prøv med en gratis konto · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
       "seeAll": "Se alle verktøyene",
       "liveTag": "Live",
       "penBalance": "vekta vipper — ingen trenger å si feil"
@@ -3102,7 +3102,7 @@
     "close": {
       "line1": "Morgendagens time",
       "line2": "ligger klar her.",
-      "body": "Åpne et verktøy, del ut et arbeidsark, eller bygg ditt eget i kveld — prøv alt før du i det hele tatt logger inn.",
+      "body": "Åpne et verktøy, del ut et arbeidsark, eller bygg ditt eget i kveld – en gratis konto er nok.",
       "ctaPrimary": "Start gratis — uten kort",
       "ctaSecondary": "Se arbeidsarkene"
     },

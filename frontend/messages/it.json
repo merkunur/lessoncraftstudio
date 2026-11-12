@@ -3293,7 +3293,7 @@
         "q1": "Cosa rientra in {code}?",
         "a1": "{code} fa parte dell'ambito {strand} per {grade}. Questa pagina raccoglie le attività interattive e le schede gratuite allineate a questo obiettivo.",
         "q2": "Queste risorse di {code} sono gratuite?",
-        "a2": "Sì. Ogni attività e scheda allineata a {code} è gratuita da usare online e da stampare — senza registrazione e senza barriere a pagamento.",
+        "a2": "Sì. Le schede si usano online senza account. Un account gratuito aggiunge le attività e i download in PDF.",
         "q3": "A chi sono rivolte queste attività di {code}?",
         "a3": "Sono pensate per insegnanti e alunni di {grade} che seguono la progressione {strand} dei Indicazioni nazionali, e funzionano per l'esercizio in classe, in piccoli gruppi o a casa."
       }
@@ -4185,7 +4185,7 @@
       "description": "Attività K-3 interattive e schede stampabili gratuite allineate al Indicazioni nazionali {code} ({strand}). Disponibili in 11 lingue."
     },
     "pageTitle": "{code} — Attività e schede gratuite",
-    "intro": "Attività e schede Indicazioni nazionali {code} gratuite per {grade}, allineate al filone {strand}. Esercizi interattivi giocabili nel browser più PDF stampabili, disponibili in tutte le 11 lingue supportate — senza registrazione, senza paywall.",
+    "intro": "Attività e schede gratuite per {grade} ({code}), in linea con le Indicazioni nazionali, nucleo tematico {strand}. Esercizi interattivi da svolgere nel browser più PDF stampabili, disponibili in tutte le 11 lingue supportate.",
     "activitiesHeading": "Attività interattive",
     "noActivitiesYet": "Nessuna attività allineata a questo standard è stata ancora pubblicata. Torna presto.",
     "relatedStandardsHeading": "Standard correlati in {domain}",
@@ -4201,7 +4201,7 @@
       "description": "Chi siamo — LessonCraftStudio: schede K-3 gratuite e attività interattive in 11 lingue, per classi bilingui, plurilingui e internazionali."
     },
     "pageTitle": "Chi siamo",
-    "intro": "LessonCraftStudio pubblica schede K-3 gratuite e attività interattive in 11 lingue. Tutto è ad accesso libero — nessuna registrazione.",
+    "intro": "LessonCraftStudio pubblica schede e attività interattive gratuite, dalla scuola dell'infanzia alla terza primaria, in 11 lingue. La consultazione è aperta a tutti; un account gratuito aggiunge le attività, gli strumenti e i download.",
     "whatWeOfferHeading": "Cosa offriamo",
     "whatWeOfferBody": "Schede stampabili in PDF e attività giocabili nel browser per matematica, fonetica e vocabolario, disponibili in inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese.",
     "audienceHeading": "Per chi",
@@ -4443,7 +4443,7 @@
     },
     "free": {
       "title": "C'è sempre un piano gratuito",
-      "blurb": "Nessun login per giocare. Un account gratuito aggiunge i download. Limiti gratuiti generosi — senza carta, mai.",
+      "blurb": "Le schede interattive si usano online senza login. Un account gratuito aggiunge le attività, gli strumenti e i download. Limiti gratuiti generosi — senza carta di credito, mai.",
       "item1": "Oltre 45.000 schede stampabili con soluzioni",
       "item2": "Gioca con le schede interattive gratis — 10 al giorno, senza login",
       "item3": "Oltre 200 attività allineate ai programmi scolastici",
@@ -4526,7 +4526,7 @@
     "teach": {
       "heading": "Comincia dove comincia ogni lezione: davanti alla classe",
       "body": "Strumenti da proiettare alla LIM e con cui fare lezione. È lo strumento a correggere: la bilancia pende, e nessuno deve dire «sbagliato».",
-      "caption": "Uno strumento per ogni nucleo tematico · prova gratis, senza login · niente timer, niente punteggi, niente gare",
+      "caption": "Uno strumento per ogni nucleo tematico · prova con un account gratuito · niente timer, niente punteggi, niente gare",
       "seeAll": "Vedi tutti gli strumenti",
       "liveTag": "Dal vivo",
       "penBalance": "pende la bilancia, e nessuno dice «sbagliato»"
@@ -4619,7 +4619,7 @@
     "close": {
       "line1": "La lezione di domani",
       "line2": "è già qui che ti aspetta.",
-      "body": "Apri uno strumento, distribuisci una scheda o creane una tua stasera — prova tutto prima ancora di accedere.",
+      "body": "Apri uno strumento, distribuisci una scheda o creane una tua stasera — basta un account gratuito.",
       "ctaPrimary": "Inizia gratis — senza carta",
       "ctaSecondary": "Sfoglia le schede"
     },

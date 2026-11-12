@@ -3030,7 +3030,7 @@
         "q1": "¿Qué se cubre en {code}?",
         "a1": "{code} pertenece al bloque de {strand} para {grade}. Esta página reúne las actividades interactivas y las hojas de trabajo gratis alineadas con él.",
         "q2": "¿Son gratis estos recursos de {code}?",
-        "a2": "Sí. Todas las actividades y hojas de trabajo alineadas con {code} son gratis para usar en línea y para imprimir, sin registro y sin muro de pago.",
+        "a2": "Sí. Las hojas de trabajo se resuelven en línea sin cuenta. Una cuenta gratis añade las actividades y las descargas en PDF.",
         "q3": "¿Para quién son estas actividades de {code}?",
         "a3": "Están creadas para docentes y niños de {grade} que siguen la progresión de {strand} de los planes y programas de estudio (SEP), y sirven para práctica en clase, en grupos pequeños o en casa."
       }
@@ -4183,7 +4183,7 @@
       "description": "Actividades K-3 interactivas y hojas de trabajo imprimibles gratis alineadas con los planes y programas de estudio (SEP) {code} ({strand}). Disponibles en 11 idiomas."
     },
     "pageTitle": "{code} — Actividades y hojas gratis",
-    "intro": "Actividades y hojas {code} gratis para {grade}, alineadas con los planes y programas de estudio (SEP) en el eje {strand}. Ejercicios interactivos jugables en el navegador más PDFs imprimibles, disponibles en los 11 idiomas soportados — sin registro, sin pago.",
+    "intro": "Actividades y hojas de trabajo {code} gratis para {grade}, alineadas con los planes y programas de estudio (SEP) en el eje {strand}. Ejercicios interactivos jugables en el navegador más PDFs imprimibles, disponibles en los 11 idiomas soportados.",
     "activitiesHeading": "Actividades interactivas",
     "noActivitiesYet": "Aún no hay actividades publicadas alineadas a este estándar. Vuelve pronto.",
     "relatedStandardsHeading": "Estándares relacionados en {domain}",
@@ -4199,7 +4199,7 @@
       "description": "Acerca de LessonCraftStudio — hojas de trabajo K-3 gratis y actividades interactivas en 11 idiomas, para aulas bilingües, plurilingües e internacionales."
     },
     "pageTitle": "Acerca de LessonCraftStudio",
-    "intro": "LessonCraftStudio publica hojas de trabajo K-3 gratis y actividades interactivas en 11 idiomas. Todo es de acceso libre — sin registro.",
+    "intro": "LessonCraftStudio publica hojas de trabajo y actividades interactivas gratis, de preescolar a 3.º de primaria, en 11 idiomas. Cualquiera puede explorar el sitio; una cuenta gratis añade las actividades, las herramientas y las descargas.",
     "whatWeOfferHeading": "Lo que ofrecemos",
     "whatWeOfferBody": "Hojas imprimibles en PDF y actividades jugables en el navegador de matemáticas, fonética y vocabulario, disponibles en inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés.",
     "audienceHeading": "Para quién",
@@ -4441,7 +4441,7 @@
     },
     "free": {
       "title": "Siempre hay un plan gratis",
-      "blurb": "No hace falta registrarse para jugar. Una cuenta gratis añade las descargas. Límites gratuitos generosos — sin tarjeta, nunca.",
+      "blurb": "Las hojas de trabajo interactivas se resuelven en línea sin registrarse. Una cuenta gratis añade las actividades, las herramientas y las descargas. Límites gratuitos generosos — sin tarjeta, nunca.",
       "item1": "Más de 45,000 hojas de trabajo para imprimir con respuestas",
       "item2": "Juega hojas de trabajo interactivas gratis — 10 al día, sin registro",
       "item3": "Más de 200 actividades alineadas al plan de estudios",
@@ -4524,7 +4524,7 @@
     "teach": {
       "heading": "Empieza donde empieza toda lección: al frente del salón",
       "body": "Instrumentos de aula para proyectar y enseñar desde ahí. El aparato se encarga de corregir: la balanza se inclina, y nadie tiene que decir que está mal.",
-      "caption": "Instrumentos para cada eje del plan de estudios · pruébalos gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
+      "caption": "Instrumentos para cada eje del plan de estudios · pruébalos con una cuenta gratis · sin cronómetros, sin puntajes, sin rachas",
       "seeAll": "Ver todas las herramientas",
       "liveTag": "En vivo",
       "penBalance": "la balanza se inclina; nadie tiene que decir «mal»"
@@ -4617,7 +4617,7 @@
     "close": {
       "line1": "La clase de mañana",
       "line2": "ya está aquí, esperándote.",
-      "body": "Abre una herramienta, reparte una hoja de trabajo o crea la tuya esta noche — pruébalo todo antes de siquiera iniciar sesión.",
+      "body": "Abre una herramienta, reparte una hoja de trabajo o crea la tuya esta noche — basta con una cuenta gratis.",
       "ctaPrimary": "Empieza gratis — sin tarjeta",
       "ctaSecondary": "Ver las hojas de trabajo"
     },

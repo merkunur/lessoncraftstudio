@@ -29,5 +29,6 @@
  "pricingSee": "Ansehen:",
  "link_units": "Unterrichtseinheiten",
  "link_subPlans": "Vertretungsstunden",
- "link_checks": "Lernkontrollen"
+ "link_checks": "Lernkontrollen",
+ "pricingHero": "Mit dem Tarif {plan} werden aus den Arbeitsblättern außerdem fertige Unterrichtseinheiten, Vertretungsstunden und Lernkontrollen mit Lösungen."
 }

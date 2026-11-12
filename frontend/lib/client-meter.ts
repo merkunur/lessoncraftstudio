@@ -22,7 +22,7 @@ export interface MeterOutcome {
 
 const CLASS_TOKEN_IN_HASH = /[#&]lcs=([a-z2-9]{20})(?:&|$)/;
 
-export async function meterAction(kind: 'download' | 'play'): Promise<MeterOutcome> {
+export async function meterAction(kind: 'download' | 'play', surface?: 'activity' | 'tool'): Promise<MeterOutcome> {
   try {
     // This app authenticates via a JWT in localStorage sent as a Bearer header
     // (see contexts/auth-context.tsx) — there is NO cookie session. Without this
@@ -50,7 +50,8 @@ export async function meterAction(kind: 'download' | 'play'): Promise<MeterOutco
       // a play opened through a class link carries its attempt token after '#'; the server does not meter a play of
       // a live class (thirty children on six shared tablets must not meet the per-device wall) and ignores any
       // other token (app/api/quota/check-and-increment)
-      body: JSON.stringify(classToken ? { kind, classToken } : { kind }),
+      // surface: an activity or a classroom tool needs an account to play (lib/quota.ts PLAY_NEEDS_ACCOUNT)
+      body: JSON.stringify({ kind, ...(surface ? { surface } : {}), ...(classToken ? { classToken } : {}) }),
       credentials: 'include',
       cache: 'no-store',
     });

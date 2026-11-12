@@ -3279,7 +3279,7 @@
         "q1": "O que está incluído em {code}?",
         "a1": "{code} faz parte do eixo {strand} para {grade}. Esta página reúne as atividades interativas e fichas grátis alinhadas a ele.",
         "q2": "Estes recursos de {code} são grátis?",
-        "a2": "Sim. Toda atividade e ficha alinhada a {code} é grátis para usar online e para imprimir — sem cadastro e sem paywall.",
+        "a2": "Sim. As fichas funcionam online sem conta. Uma conta grátis adiciona as atividades e os downloads em PDF.",
         "q3": "Para quem são estas atividades de {code}?",
         "a3": "Elas são feitas para professores e crianças de {grade} que seguem a progressão {strand} do BNCC, e funcionam para a sala, pequenos grupos ou prática em casa."
       }
@@ -4170,7 +4170,7 @@
       "description": "Atividades K-3 interativas e fichas imprimíveis grátis alinhadas ao BNCC {code} ({strand}). Disponíveis em 11 idiomas."
     },
     "pageTitle": "{code} — Atividades e fichas grátis",
-    "intro": "Atividades e fichas BNCC {code} grátis para {grade}, alinhadas ao eixo {strand}. Exercícios interativos jogáveis no navegador mais PDFs imprimíveis, disponíveis nos 11 idiomas suportados — sem cadastro, sem pagamento.",
+    "intro": "Atividades e fichas BNCC {code} grátis para {grade}, alinhadas ao eixo {strand}. Exercícios interativos jogáveis no navegador mais PDFs imprimíveis, disponíveis nos 11 idiomas suportados.",
     "activitiesHeading": "Atividades interativas",
     "noActivitiesYet": "Ainda não há atividades publicadas alinhadas a este padrão. Volte em breve.",
     "relatedStandardsHeading": "Padrões relacionados em {domain}",
@@ -4186,7 +4186,7 @@
       "description": "Sobre o LessonCraftStudio — fichas K-3 grátis e atividades interativas em 11 idiomas, para turmas bilíngues, plurilíngues e internacionais."
     },
     "pageTitle": "Sobre o LessonCraftStudio",
-    "intro": "O LessonCraftStudio publica fichas K-3 grátis e atividades interativas em 11 idiomas. Tudo é de acesso livre — sem cadastro.",
+    "intro": "O LessonCraftStudio publica fichas e atividades interativas grátis, da Educação Infantil ao 3º ano, em 11 idiomas. Qualquer pessoa pode navegar pelo site; uma conta grátis adiciona as atividades, as ferramentas e os downloads.",
     "whatWeOfferHeading": "O que oferecemos",
     "whatWeOfferBody": "PDFs imprimíveis e atividades jogáveis no navegador para matemática, fonética e vocabulário, disponíveis em inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês.",
     "audienceHeading": "Para quem é",
@@ -4428,7 +4428,7 @@
     },
     "free": {
       "title": "Sempre há um plano grátis",
-      "blurb": "Sem login para jogar. Uma conta grátis adiciona os downloads. Limites gratuitos generosos — sem cartão, nunca.",
+      "blurb": "As fichas interativas funcionam sem login. Uma conta grátis adiciona as atividades, as ferramentas e os downloads. Limites gratuitos generosos — sem cartão, nunca.",
       "item1": "Mais de 45.000 atividades para imprimir com gabarito",
       "item2": "Jogue atividades interativas grátis — 10 por dia, sem login",
       "item3": "Mais de 200 atividades de aprendizagem alinhadas ao currículo",
@@ -4511,7 +4511,7 @@
     "teach": {
       "heading": "Comece onde toda aula começa: na frente da turma",
       "body": "Instrumentos de sala para projetar e ensinar a partir deles. É o material que corrige: a balança pende, e ninguém precisa dizer que errou.",
-      "caption": "Instrumentos para cada eixo do currículo · grátis para experimentar, sem login · sem cronômetro, sem pontuação, sem ranking",
+      "caption": "Instrumentos para cada eixo do currículo · experimente com uma conta grátis · sem cronômetro, sem pontuação, sem ranking",
       "seeAll": "Ver todas as ferramentas",
       "liveTag": "Ao vivo",
       "penBalance": "a balança pende — ninguém precisa dizer errou"
@@ -4604,7 +4604,7 @@
     "close": {
       "line1": "A aula de amanhã",
       "line2": "já está bem aqui.",
-      "body": "Abra uma ferramenta, entregue uma ficha ou crie a sua hoje à noite — experimente tudo antes mesmo de entrar.",
+      "body": "Abra uma ferramenta, entregue uma ficha ou crie a sua hoje à noite — basta uma conta grátis.",
       "ctaPrimary": "Começar grátis — sem cartão",
       "ctaSecondary": "Conheça as fichas"
     },

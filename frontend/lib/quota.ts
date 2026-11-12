@@ -6,8 +6,12 @@
  *   - kind 'download' (PDFs, answer keys, generator exports): 3 per UTC MONTH,
  *     FREE ACCOUNT REQUIRED — anonymous download attempts return
  *     reason 'signup_required' (the education.com model).
- *   - kind 'play' (interactive decks + activities): 10 per UTC DAY for both
- *     anonymous and free accounts (the IXL model).
+ *   - kind 'play': 10 per UTC DAY, one counter for interactive worksheets, activities and classroom tools.
+ *     An interactive WORKSHEET plays without an account (anonymous and free accounts alike, the IXL model).
+ *     An ACTIVITY or a classroom TOOL needs a free account (operator ruling 2026-11-12, verbatim: "activities and
+ *     classroom tools should also require sign in for free subscribers and they should be limited to 10 plays a day
+ *     for free subscribers"): an anonymous play of one returns reason 'signup_required'. The page says which it is
+ *     (surface 'activity' | 'tool', PLAY_NEEDS_ACCOUNT below).
  *   - kind 'make' (a NEW worksheet opened in a worksheet maker — operator ruling
  *     2026-10-31): 3 per UTC MONTH, FREE ACCOUNT REQUIRED like downloads; inside an
  *     opened worksheet every change is free (docs/makers/ARCHITECTURE.md §9).
@@ -32,6 +36,10 @@ export const PLAYS_PER_DAY = 10;
 export const MAKES_PER_MONTH = 3;
 
 export type QuotaKind = 'download' | 'play' | 'make';
+/** what is being played: a play of one of these needs an account (see the header) */
+export type PlaySurface = 'activity' | 'tool';
+export const PLAY_NEEDS_ACCOUNT: ReadonlySet<string> = new Set<PlaySurface>(['activity', 'tool']);
+export const playNeedsAccount = (surface: unknown): boolean => typeof surface === 'string' && PLAY_NEEDS_ACCOUNT.has(surface);
 
 const ANON_COOKIE_NAME = 'lcs_anon_id';
 const ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365; // 1 year
@@ -166,12 +174,12 @@ function unlimited(resetAt: Date): QuotaResult {
 }
 
 /** Read-only check (for /api/quota/status). */
-export async function checkQuota(identity: QuotaIdentity, kind: QuotaKind): Promise<QuotaResult> {
+export async function checkQuota(identity: QuotaIdentity, kind: QuotaKind, opts: { accountRequired?: boolean } = {}): Promise<QuotaResult> {
   const { periodStart, resetAt, cap } = periodFor(kind);
 
   if (!meteringEnabled()) return unlimited(resetAt);
   if (identity.kind === 'subscriber' || identity.kind === 'bot') return unlimited(resetAt);
-  if ((kind === 'download' || kind === 'make') && identity.kind === 'anon') {
+  if ((kind === 'download' || kind === 'make' || opts.accountRequired) && identity.kind === 'anon') {
     return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'signup_required' };
   }
 
@@ -198,13 +206,14 @@ export async function checkQuota(identity: QuotaIdentity, kind: QuotaKind): Prom
  */
 export async function checkAndIncrementQuota(
   identity: QuotaIdentity,
-  kind: QuotaKind
+  kind: QuotaKind,
+  opts: { accountRequired?: boolean } = {}
 ): Promise<QuotaResult> {
   const { periodStart, resetAt, cap } = periodFor(kind);
 
   if (!meteringEnabled()) return unlimited(resetAt);
   if (identity.kind === 'subscriber' || identity.kind === 'bot') return unlimited(resetAt);
-  if ((kind === 'download' || kind === 'make') && identity.kind === 'anon') {
+  if ((kind === 'download' || kind === 'make' || opts.accountRequired) && identity.kind === 'anon') {
     return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'signup_required' };
   }
 

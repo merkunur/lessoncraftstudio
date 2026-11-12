@@ -1838,7 +1838,7 @@
         "q1": "Vad ingår under {code}?",
         "a1": "{code} hör till området {strand} för {grade}. Den här sidan samlar de gratis interaktiva aktiviteterna och arbetsbladen som är anpassade till det.",
         "q2": "Är de här {code}-resurserna gratis?",
-        "a2": "Ja. Varje aktivitet och arbetsblad som är anpassat till {code} är gratis att använda online och att skriva ut — ingen registrering och ingen betalvägg.",
+        "a2": "Ja. Arbetsbladen kan användas online utan konto. Ett gratiskonto lägger till aktiviteterna och PDF-nedladdningarna.",
         "q3": "Vilka är de här {code}-aktiviteterna för?",
         "a3": "De är byggda för lärare och elever i {grade} som följer Lgr22-progressionen för {strand}, och fungerar för helklass, smågrupp eller hemövning."
       }
@@ -2664,7 +2664,7 @@
       "description": "Gratis interaktiva F-3-aktiviteter och utskrivbara arbetsblad anpassade till Lgr22 {code} ({strand}). Tillgängliga på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbetsblad",
-    "intro": "Gratis Lgr22 {code}-aktiviteter och arbetsblad för {grade}, anpassade till området {strand}. Interaktiva övningar som kan spelas i webbläsaren plus utskrivbara PDF:er, tillgängliga på alla 11 språk som stöds — ingen registrering, ingen betalspärr.",
+    "intro": "Gratis Lgr22 {code}-aktiviteter och arbetsblad för {grade}, anpassade till området {strand}. Interaktiva övningar som kan spelas i webbläsaren plus utskrivbara PDF:er, tillgängliga på alla 11 språk som stöds.",
     "activitiesHeading": "Interaktiva aktiviteter",
     "noActivitiesYet": "Inga aktiviteter anpassade till denna standard har publicerats ännu. Kom tillbaka snart.",
     "relatedStandardsHeading": "Relaterade standarder i {domain}",
@@ -2680,7 +2680,7 @@
       "description": "Om LessonCraftStudio — gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk, för tvåspråkiga, flerspråkiga och internationella klassrum."
     },
     "pageTitle": "Om LessonCraftStudio",
-    "intro": "LessonCraftStudio publicerar gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk. Allt är fritt att bläddra i, skriva ut, dela och bädda in — ingen registrering krävs.",
+    "intro": "LessonCraftStudio publicerar gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk. Alla kan bläddra fritt; ett gratiskonto lägger till aktiviteter, verktyg och nedladdningar.",
     "whatWeOfferHeading": "Vad vi erbjuder",
     "whatWeOfferBody": "Utskrivbara PDF:er och webbläsarbaserade aktiviteter inom matematik, läsinlärning och ordförråd — på engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.",
     "audienceHeading": "För vem",
@@ -2922,7 +2922,7 @@
     },
     "free": {
       "title": "Alltid en gratisnivå",
-      "blurb": "Ingen inloggning för att spela. Ett gratiskonto lägger till nedladdningar. Generösa gratisgränser — aldrig något kort.",
+      "blurb": "Interaktiva arbetsblad kan användas utan inloggning. Ett gratiskonto lägger till aktiviteter, verktyg och nedladdningar. Generösa gratisgränser – aldrig något kort.",
       "item1": "Över 45 000 utskrivbara arbetsblad med facit",
       "item2": "Spela interaktiva arbetsblad gratis — 10 om dagen, utan inloggning",
       "item3": "200+ läroplansanknutna aktiviteter från förskoleklass till årskurs 2",
@@ -3005,7 +3005,7 @@
     "teach": {
       "heading": "Börja där varje lektion börjar: framme vid tavlan",
       "body": "Klassrumsverktyg att visa på tavlan och undervisa från. Materialet sköter rättandet: vågen tippar, så ingen behöver säga fel.",
-      "caption": "Verktyg för varje kunskapsområde · gratis att prova, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
+      "caption": "Verktyg för varje kunskapsområde · prova med ett gratiskonto · ingen tidtagning, inga poäng, inga tävlingsmoment",
       "seeAll": "Se alla verktyg",
       "liveTag": "Live",
       "penBalance": "vågen tippar — ingen behöver säga fel"
@@ -3098,7 +3098,7 @@
     "close": {
       "line1": "Morgondagens lektion",
       "line2": "ligger redan här.",
-      "body": "Öppna ett verktyg, dela ut ett arbetsblad eller bygg ett eget i kväll — prova allt innan du ens loggat in.",
+      "body": "Öppna ett verktyg, dela ut ett arbetsblad eller bygg ett eget i kväll – ett gratiskonto räcker.",
       "ctaPrimary": "Börja gratis — inget kort",
       "ctaSecondary": "Se arbetsbladen"
     },

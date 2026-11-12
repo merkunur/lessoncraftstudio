@@ -61,6 +61,20 @@ const dl = (kind, file) => '/api/quota/dl?kind=' + kind + '&loc=' + loc + '&file
   }
   check((await req(dl('form', 'checks/no-such-unit/check-a'))).status === 404, 'a form of a unit that does not exist is not a 404');
   check(!!ui.sectionHonest, 'the honest sentence is missing');
+  // the hub (Part 7.4): one page that lists every live check and links to its unit; indexable, self-canonical, in the sitemap
+  const liveChecks = checks.filter((c) => c.status === 'live');
+  if (liveChecks.length && ui.hubTitle) {
+    const hub = await req('/' + loc + '/assessments');
+    check(hub.status === 200, 'the hub answers ' + hub.status);
+    check(hub.body.includes('<link rel="canonical" href="https://' + HOST + '/' + loc + '/assessments"'), 'the hub has no canonical of its own');
+    check(/<meta name="robots" content="index, follow/.test(hub.body), 'the hub is not indexable');
+    check(hub.body.includes(amp(ui.hubHonest)) || hub.body.includes(ui.hubHonest.replace(/'/g, '&#x27;')), 'the hub does not say what a unit check is not');
+    for (const c of liveChecks) check(hub.body.includes('href="/' + loc + '/units/' + c.slug + '#unit-check"'), 'the hub does not link to the check of ' + c.unit);
+    const units = await req('/' + loc + '/units');
+    check(units.body.includes('href="/' + loc + '/assessments"'), 'the units hub does not link to the assessments hub');
+    const sm = await req('/sitemap/3.xml');
+    check(sm.body.includes('<loc>https://' + HOST + '/' + loc + '/assessments</loc>'), 'the hub is not in the sitemap');
+  }
   const live = checks.filter((c) => c.status === 'live').length;
   console.log(loc + ' unit checks: ' + live + ' live of ' + checks.length + ', ' + n + ' checks on the live site; ' + (bad ? bad + ' FAILED' : 'all pass'));
   process.exit(bad ? 1 : 0);

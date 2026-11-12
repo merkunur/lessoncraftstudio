@@ -35,6 +35,7 @@ export default function UnitCheckSection({ locale, check, ui, planName }: { loca
       </div>
       <p className="un-check-note">{fill(ui.teacherNote, { plan: planName })}</p>
       <p className="un-check-honest">{ui.sectionHonest}</p>
+      {ui.hubLinkFromUnits ? <p className="un-check-note"><a href={`/${locale}/assessments`}>{ui.hubCrumb}</a></p> : null}
     </section>
   );
 }

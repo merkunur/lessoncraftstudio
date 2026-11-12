@@ -21,6 +21,7 @@ import { listedUnits, unitSiblings } from '@/lib/units';
 import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 import { listedCurriculumPages } from '@/lib/curriculum-pages';
 import { getSchoolsUi } from '@/lib/schools';
+import { getAssessmentUi, listedChecks } from '@/lib/assessments';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -425,6 +426,17 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       for (const locale of liveSchools) routes.push({ url: `${baseUrl}/${locale}/schools`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'monthly', priority: 0.5, ...(schoolsAlternates ? { alternates: { languages: schoolsAlternates } } : {}) });
     } catch (err) {
       console.warn('[sitemap] schools URLs failed; skipping:', (err as Error).message);
+    }
+
+    // The assessments hub (Daily Teaching System, Part 7.4): /<locale>/assessments for a language that has live unit
+    // checks and the strings of the hub (content/assessments through lib/assessments.ts, the files the route renders from).
+    try {
+      const liveAssessmentHubs: string[] = [];
+      for (const locale of TOPIC_ENABLED_LOCALES) if ((await listedChecks(locale)).length && (await getAssessmentUi(locale))?.hubTitle) liveAssessmentHubs.push(locale);
+      const assessmentAlternates = liveAssessmentHubs.length > 1 ? buildHreflangAlternates(liveAssessmentHubs, (l) => `${baseUrl}/${l}/assessments`, baseUrl) : undefined;
+      for (const locale of liveAssessmentHubs) routes.push({ url: `${baseUrl}/${locale}/assessments`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6, ...(assessmentAlternates ? { alternates: { languages: assessmentAlternates } } : {}) });
+    } catch (err) {
+      console.warn('[sitemap] assessments URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

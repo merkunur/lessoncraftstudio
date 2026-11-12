@@ -33,5 +33,11 @@ export async function getUnitCheck(locale: string, unitId: string): Promise<Unit
   return c && c.status === 'live' ? c : null;
 }
 
+/** the live checks of a language (the assessments hub lists them) */
+export async function listedChecks(locale: string): Promise<UnitCheck[]> {
+  const f = await load<{ checks: UnitCheck[] }>(`checks.${locale}`, () => import(`@/content/assessments/checks.${locale}.json`));
+  return (f?.checks ?? []).filter((c) => c.status === 'live');
+}
+
 /** a student form: a printable, counted like any download */
 export const checkFormHref = (locale: string, unitId: string, form: 'a' | 'b') => `/api/quota/dl?kind=form&loc=${locale}&file=${encodeURIComponent(`checks/${unitId}/check-${form}`)}`;

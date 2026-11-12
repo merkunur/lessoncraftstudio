@@ -46,5 +46,22 @@
  "tpEasyHarder": "Use the harder version of “{title}” as a challenge.",
  "tpEasyOn": "No extra practice is needed for this lesson.",
  "tpNone": "—",
- "tpTitleJoin": "” and “"
+ "tpTitleJoin": "” and “",
+ "hubCrumb": "Unit checks",
+ "hubMetaTitle": "K–3 Unit Checks: Before-and-After Checks for Math and Reading",
+ "hubMetaDescription": "Short printable checks for Kindergarten through Grade 3 units in math and reading. Give one before the unit and one after it, and see what changed.",
+ "hubEyebrow": "Kindergarten through Grade 3",
+ "hubTitle": "Unit Checks: Before and After Each Unit",
+ "hubLead": "A unit check is two short paper checks made from a unit's own worksheets. Give Check A before you teach the unit and Check B after it. Both ask the same kinds of tasks with different numbers, words, and pictures, so you can see what changed.",
+ "hubFactChecks": "{n} unit checks",
+ "hubFactForms": "Two forms for each unit",
+ "hubJumpTitle": "Grades",
+ "hubCheckName": "{unit}: unit check",
+ "hubFactParts": "{n} parts",
+ "hubFactPages": "{pages} per form",
+ "hubCheckParts": "Parts: {list}",
+ "hubCoverage": "Not every unit has a check yet, and a check may leave out a lesson. A worksheet that cannot be split into single tasks is not used.",
+ "hubUnitsLink": "See every unit and its lesson plans",
+ "hubLinkFromUnits": "Unit checks: a short check before and after a unit",
+ "hubHonest": "Each one is a classroom check of a unit's lessons. It is not a standardized test, and its points are not a grade."
 }

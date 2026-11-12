@@ -19,6 +19,7 @@
  *   T9  same level  card by card, form B asks the kind of task form A asks, at about the same size; the boxes of a
  *                   part do not share a total
  *   T8  strings     a language has every string the English file has
+ *   (T6 also binds the hub: its own honest sentence says that a unit check is not a standardized test)
  *
  * PC only, before a deploy (it reads what build-checks.js built): node scripts/assessments/assemble.js --loc=<loc> --check
  * Measured in the build itself (build-checks.js stops on them): every card carries its answer (T1 of the design), no
@@ -53,7 +54,7 @@ function run(d) {
       if (BANNED[loc] && BANNED[loc].test(v)) fail('T6', loc + ' ui.' + k + ' uses a word a check must not use');
       if (STANDARDIZED[loc]) { const all = (v.match(STANDARDIZED[loc]) || []).length; const neg = NOT_STANDARDIZED[loc].test(v) ? 1 : 0; if (all > neg) fail('T6', loc + ' ui.' + k + ' says standardized outside "not a standardized test"'); }
     }
-    for (const k of ['sectionHonest', 'tpHonest']) if (NOT_STANDARDIZED[loc] && !NOT_STANDARDIZED[loc].test(L.ui[k] || '')) fail('T6', loc + ' ui.' + k + ' does not say that the check is not a standardized test');
+    for (const k of ['sectionHonest', 'tpHonest', 'hubHonest']) if (NOT_STANDARDIZED[loc] && !NOT_STANDARDIZED[loc].test(L.ui[k] || '')) fail('T6', loc + ' ui.' + k + ' does not say that the check is not a standardized test');
     let choice = 0, same = 0;
     const seenUnits = new Set();
     for (const c of L.checks) {

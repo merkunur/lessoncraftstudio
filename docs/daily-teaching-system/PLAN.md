@@ -670,4 +670,9 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 - **The engine** cuts pages that are not a card grid (rows, small picture cards), reads answers from a type's key mode and key style rules, and keeps the published mathematics checks byte-stable (measured by fingerprint after every change).
 - **Review:** one reader as an American K–3 teacher with a phonics background, from a text listing of every box and one look per sheet (17 parts fixed, two unfair mathematics checks not published), plus my own reading before and after.
 - **Open limit:** six literacy units are built of whole-page tasks and get no check by this method.
-- **NEXT:** 7.4 the year checks and the hub, 7.5 German and Swedish; then Part 8 (readers).
+- **Deploy 2026-11-12 (commit `063564fb3`):** 157 English Teacher-only files uploaded; the deploy ran clean (payment canary OK, identity PASS); `assessments/live-check.js --loc=en` 18 live of 18, 308 checks pass; units en 764; `live-dark.js` OK.
+
+**Part 7.4 — the assessments hub: BUILT and LIVE 2026-11-12 (commit `af0c9ba51`). Record: `PART-7-DESIGN.md` §5.**
+- `/en/assessments` lists the 18 unit checks by grade and subject, each linked to its unit; indexable, in sitemap shard 3, linked from the units hub and every unit check section. Live check with the hub: 332 checks pass; payment canary OK; identity PASS; nginx hub-cache block reinstalled with the new prefix.
+- **The checks of the beginning, middle and end of the year are NOT built, by decision:** a year check can only draw on units that have a unit check (2 to 4 units per grade and subject today), and a check named "end of year" that leaves out half the year is the fault the reviewers ruled against. They wait for full coverage of a grade, which needs a second form of item for whole-page worksheets (59 lessons).
+- **NEXT:** 7.5 German and Swedish unit checks (the same engine, rulings lists and strings per language, one native teacher-reviewer each); then Part 8 (readers).

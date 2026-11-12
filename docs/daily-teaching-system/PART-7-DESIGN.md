@@ -256,3 +256,24 @@ Mathematics 13 of 25 units, literacy 5 of 11. **What still has no check and why:
 ### Next in Part 7
 
 7.4 the checks of the beginning, middle and end of the year and the assessments hub. 7.5 German and Swedish (the same engine; the rulings lists are per language).
+
+## 5. Part 7.4 (2026-11-12): the assessments hub; the checks of the year are not built
+
+### The hub
+
+`/<locale>/assessments` (`app/[locale]/assessments/page.tsx`, `components/assessments/AssessmentsHub.tsx`): every live unit check of the language by grade and subject in the teaching order of its unit, each with its parts, its two student forms and a link to its unit (`#unit-check`). Indexable, self-canonical, in sitemap shard 3, linked from the units hub and from every unit check section; a language has the page when it has live checks and the strings of the hub. The page says what a unit check is not (gate T6 binds `hubHonest`) and that not every unit has one (`hubCoverage`). `assessments/live-check.js` reads the hub, its canonical, its robots line, a link per live check, the link from the units hub and the sitemap. The nginx hub-cache block has the new prefix (`patch-nginx-hub-cache.py`, rerun on the server on 2026-11-12).
+
+### Why there are no checks of the beginning, middle and end of the year
+
+The plan builds them from the year plan: what should be secure by that point. With this engine a year check can only take tasks from units that have a unit check, and that is today:
+
+| Grade | Mathematics units with a check | Reading and writing units with a check |
+|---|---|---|
+| Kindergarten | 4 of 7 | 1 of 4 |
+| Grade 1 | 3 of 6 | 3 of 3 |
+| Grade 2 | 2 of 6 | 1 of 3 |
+| Grade 3 | 4 of 7 | 0 of 1 |
+
+A check that is called "end of year" and leaves out three of seven units is the fault the reader of 7.2 and 7.3 ruled against in two unit checks (a child gets full marks without the main skills). So no year check is built until every unit of a grade and subject has a unit check; Grade 1 reading and writing alone would be one page of a set of eight, and is not published alone.
+
+What blocks the missing units, counted over all English units on 2026-11-12 (the first reason of each lesson without a part): 59 lessons whose worksheet is a whole-page task or leans on something beside its tasks (a bank, a chart, matching lines, dots to connect); 11 where the two forms could not both be filled (a pool of one or two cards, or a rule that leaves no partner); 6 where no answer can be read; 3 with a token in their strings. The way to full coverage is a second form of item for whole-page tasks (the page itself as one part, or items written for the check); it is work on a new item form, not on the choice rules, and it is the open task of Part 7 for every language.

@@ -110,8 +110,10 @@ Why a graph first: units, sub packs, tests and curriculum pages are four views o
 | 8 | Readers | 4 | yes | 0, 3 | 8 for the engine and en, then 6–8 per locale |
 | 9 | Class links and results (release 1 right after Part 0; release 2 after Parts 1–2) | 6 | no (teacher area) | 0 for release 1; 1, 2 for release 2 | 8–10 |
 | 10 | The remaining 139 activities | (operator rule: last) | yes | 9 for the result contract | one activity per session, as today |
+| 11 | One product: the menu, the hubs, the homepage and the way to the Teacher plan (added 2026-11-12; built before Part 8) | all | yes (old pages gain blocks; the homepage as a preview first) | 4 to 7 for what it shows | about 11 for English, 1 per further language |
+| 12 | The whole school year: the missing content is created (added 2026-11-12) | 1, 2, 3 | yes | 2, 4, 8.1 | the year map says; the largest part |
 
-The size column is my estimate, not a measurement. The pilot inside each part produces the real number before the fan-out.
+The size column is my estimate, not a measurement. The pilot inside each part produces the real number before the fan-out. **The order from 2026-11-12 on is the last paragraph of §13**; Part 10 stays the last part.
 
 **Order (operator ruling 2026-11-11 moved Part 9's first release forward).** 0 → **9 release 1 (9.1–9.4)** → 1 → 2 → 3 → **9 release 2 (9.5–9.6)** → 4 → 5 → 6 → 7 → 10. Part 9 release 1 needs nothing from Parts 1–8, so it is built first after the decisions. Part 8 (readers) depends only on Parts 0 and 3, so it can be interleaved at any point after Part 3; it is the longest content programme and nothing waits for it except the reading slot in units and sub packs, which uses the existing reading passages until readers exist. Part 10 is last by operator rule.
 
@@ -460,11 +462,11 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 
 ## 10. What is deliberately not in this plan
 
-- No change to `quota.ts` caps, prices or the pricing page structure.
+- No change to `quota.ts` caps or prices. (The pricing page's Teacher card is rewritten in Part 11 to name what the plan gives; operator 2026-11-12.)
 - No change to any existing URL, title or meta description.
 - No local or self-hosted AI anywhere.
 - No student accounts, parent portal, or class management beyond a seat list.
-- No science units in the first release (the makers excluded science; the worksheet types exist, so science themes can be added later if ruled in Part 0).
+- (Replaced 2026-11-12 by §13 and Part 12: science, social studies and health units are built.) Earlier: no science units in the first release (the makers excluded science; the worksheet types exist, so science themes can be added later if ruled in Part 0).
 - No games, no story library work; the storybook engine is only a possible later home for reader screen versions.
 
 ## 11. Operator rulings
@@ -496,6 +498,133 @@ This table is decided (operator 2026-11-11, §11): the classes row is Teacher-on
 5. **Reader ramp:** English first, 12 → 60 → 150 → 300, about 40 % first-reading books and 60 % theme readers. A second language starts only when English has reached 60 and the format is proven. Every language goes to 60; the steps to 150 and 300 are taken per language when its readers are being used. Single reader pages start noindex under their hubs.
 6. **School purchase path:** small and manual. One "For schools" page per language with the curriculum coverage document and a quote request form that reaches the operator by email; the operator invoices by hand. No seat management is built until real requests justify it (proposed trigger: 10 requests). Built with Part 6.
 7. **Order of the remaining activities:** first the 28 rebuild rows (ORDER 177–204) in their existing order, then the 111 new ones sorted by the unit gap report (the activity that fills the most empty screen slots first; math and literacy before science, health and readiness; the 6 art-blocked ones last).
+
+**2026-11-12 (operator), two additions to the plan. Both are planned in the two sections below; neither is built yet.**
+1. **The structure of the whole site is part of this programme.** Operator: "Did you also plan how you will organize the new content and product structure. For example; how will you transform the homepage and hub pages? It should be very user friendly and at the same time very appealing to the teachers. … the main purpose of this transformation is to get as many paid subscribers as possible by transforming the website by solving real and most important problems of the teachers." The plan had no such part. It is **Part 11** below. It changes two lines of §10: the pricing page's Teacher card is rewritten to name what the plan now gives (prices and caps stay as they are), and the homepage is rebuilt as a preview for the operator to approve.
+2. **"The new content types should be as comprehensive as possible"** (units, national curricula, tests, readers, substitute kits). This replaces the limits of the first release: §11 ruling 4 (mathematics and literacy only), ruling 5 (readers to 60 per language unless used), "no science units" in §10, and the stop after the first languages. The end state is **§13** below. The SEO rules of §5 all stay. Rule 12 is read this way from now on: a language's pages are **built** without waiting, are shown to visitors as `noindex` outside the sitemap, and are **opened to Google** after the Search Console read of the languages before them. Building no longer waits; indexing still does.
+
+## Part 11 — One product: the menu, the hubs, the homepage and the way to the Teacher plan
+
+**Trigger:** "implement Part 11" (or a sub-part, 11.1 to 11.8). It is built **before Part 8**, straight after Part 7.5. Part 10 (the activities) stays the last part.
+
+### What is true today (measured 2026-11-12; sources: `docs/SEO/daily-system-baseline/BASELINE.md` and a read of the code)
+
+| Fact | Number or place |
+|---|---|
+| Sessions in 28 days | 77,361 |
+| New accounts | 1,913 (68 a day) |
+| Sessions that met the paywall | 1,019 |
+| Of those, opened the pricing page | 158 |
+| Started a checkout | 28 sessions |
+| Subscribed | **6** |
+| Where Google visitors land | topic pages 60 %, tool pages 19 %, activity pages 8 %, deck pages 6 %, **homepages 5 %** |
+| Where the paywall is shown | topic pages, 1,472 of 1,700 times |
+| The new products on the homepage | none |
+| The new products in the menu | none (`components/layout/Navigation.tsx`, `lib/category-nav-data.ts`: Worksheets, Activities, Tools, Topics, Bilingual, Worksheet makers) |
+| The new products on the pricing page | none. The Teacher card lists unlimited downloads, saved maker worksheets, share links, collections, topic packs |
+| Links from the worksheets, makers, tools and activities hubs to units, sub plans, checks, checklists | none |
+| Where a new free account lands | `/workspace`, which shows one sentence ("This area is part of the LessonCraftStudio subscription") and a "See plans" button. Nothing else |
+| What a refused Teacher-only download shows | nothing: a redirect to sign-up or to pricing, and those pages ignore the `from` they are sent |
+
+**What these facts say.**
+1. The new products can only be found from 197 worksheet landings, 102 activity pages and from each other. A teacher who lands on a topic page, the homepage or the menu never learns they exist.
+2. The site loses teachers after they sign up, not before. 1,913 people made an account; their first page told them the area is not for them.
+3. The moment a teacher asks for a paid file is the best moment to explain the plan, and the site says nothing at that moment.
+4. The homepage is 5 % of the entries from Google. It matters for trust and for returning visitors, but the pages that decide the money are the topic pages, the wall, the pricing page and the first page after sign-up. They come first.
+
+### The structure a teacher sees
+
+**By the teacher's job, in the words teachers type, cut by grade.** Today the site is ordered by our content types (worksheets, makers, tools, activities). A teacher thinks in jobs. Four doors, named by the demand harvest of each language (English shown):
+
+| Door | The problem it solves | What is behind it |
+|---|---|---|
+| **Lesson plans** | "What do I teach this week, and with what?" | Units, year plans, standards checklists |
+| **Worksheets and more** | "I need a page on this, now" | Worksheets, worksheet makers, tools, activities, readers |
+| **Assessments** | "Show me, and the parents, what they learned" | Unit checks, checks of the year, class results |
+| **Sub plans** | "I am sick tomorrow" | Day packs and single lessons for a guest teacher |
+
+Plus **For schools** and **Pricing** in the top row. Every door opens by grade first, because "I teach second grade" is how a teacher knows where she belongs.
+
+**Rules of the structure.**
+1. A door is shown in a language only when that language has the content behind it. English, German and Swedish get the new doors first; the other languages keep today's menu until their content exists.
+2. One step in from every entry page, never more than one band. A topic page, a tool page, an activity page and a deck page each offer the unit that teaches that thing.
+3. A page that refuses a file says what the Teacher plan gives for exactly that file, with a look at it.
+4. No existing page changes its address, title, description or main heading. Every link the menu has today is still in the menu afterwards. New blocks are added to old pages; nothing is taken away.
+5. Every sentence about what is paid and what is not is checked against the code that decides it (`frontend/lib/quota.ts`, the Teacher-only gate), as the tier-truth rule demands. No visible text says "free".
+
+### Sub-parts, in building order
+
+**11.1 Measure the path (first, small).** The sign-up and pricing pages record the `from` they are sent; a click on any Teacher-only button is recorded with its page type; a weekly report prints the steps visitor → account → pricing → checkout → subscription by entry page type. Also read once: homepage sessions from all sources, visits of free accounts to the workspace, the words typed into the site search. Without this no later step can be judged.
+
+**11.2 The wall, the gate and the pricing page.**
+- The wall names the thing the teacher was getting and what each kind of account gives for it.
+- A refused Teacher-only file opens a panel on the same page instead of a bare redirect: what is in the file (lessons, pages, the guide, the answer keys), the first page of each as a picture, the plan's name and price read from the product configuration, a button to the checkout.
+- After sign-up or payment the teacher comes back to the item she wanted, and the download starts.
+- The pricing page's Teacher card names what the plan gives now, each line taken from the table in §7: the whole-unit file, teacher guides, printable year plans, sub plan files, answer keys and teacher pages of the unit checks, and class results once they are switched on. A real unit is shown open below the cards. Prices and limits do not change.
+
+**11.3 The first hour of a free account.** After sign-up one short screen asks grade, subject and country or state (filled in from the language). The workspace becomes **My teaching** for every account, free ones too: the year plan of that grade, the unit the class is in (the teacher marks it), the next lesson's pages, the sub plan for this time of year, the unit check of this unit, the saved things. Teacher-only buttons are visible with the plan's name beside them, not hidden. The three monthly downloads are shown as a counter. Storage: one small row per account (grade, curriculum, units done), a new table.
+
+**11.4 A grade page for everyone.** `/<language>/teach/<grade>`: the same view as My teaching without an account. One page per grade: the year in order, sub plans, checks, the checklist of the country's curriculum, and the links into worksheets, makers, tools and activities for that grade. It starts as `noindex`, because it stands close to the topic pages for a grade that carry most of today's Google traffic; it is opened to Google only if four weeks of data show it takes nothing from them.
+
+**11.5 The menu, built once.** The four doors, then Worksheet makers, Tools, Activities; Topics and Bilingual move under Worksheets with every one of their links kept. The menu is baked into about 200,000 deck pages and 36,000 static worksheet pages, so it is designed once, checked in all widths and languages, and written into those pages in one run together with rule 2's band for deck pages. Gate: the set of addresses linked from the old menu is a subset of the new one; the head of every rewritten page is byte-identical.
+
+**11.6 The old hubs and the entry pages link in.** The worksheets, makers, tools and activities hubs get one band with a grade chooser into the lesson plans. Topic pages get one block where a unit teaches that topic at that level ("Week 3 of the Grade 1 plan: …"). Tool pages name the lessons that use the tool, as activity pages already do.
+
+**11.7 The homepage.** Built as a preview for the operator to approve before it replaces the live one. The address, title, description and main heading stay ("Every lesson, hanging together." already says it). The rooms follow the four doors: the year planned (a real unit open, grade chooser), a sick day covered, what they learned, your country's curriculum by name, then the library rooms of today (worksheets, makers, tools, activities) with all their links, then the Teacher plan with its new lines, then schools. A language without the new products keeps today's homepage. The homepage laws stay: one composition at every width, no price word in the hero, the link count at or above today's 261.
+
+**11.8 German and Swedish.** The same structure with native words from the harvest (Unterrichtseinheiten, Lernkontrollen, Vertretungsstunden; arbetsområden, kunskapskollar), one native reviewer per language over every new string.
+
+**Also in this part:** the site search finds units, sub plans, checks and checklists (to verify in 11.1; added where missing).
+
+**One question only the operator can answer (the plan works either way):** may one unit per grade and subject, the first of the year, be fully open to a free account, files included, as the sample of the paid plan? My recommendation is yes: today the paid files cannot be seen at all, and 1,913 accounts became 6 subscriptions. It changes one line of the table in §7 and nothing in the limits.
+
+**Review and checks.** One teacher-reviewer for the English texts, one native reviewer each for German and Swedish; my own reading of every changed page at 360, 768, 1024 and 1366; the identity comparison before and after each deploy; the weekly path report against the baseline, read four weeks after each sub-part.
+
+**Done when:** a teacher can reach every new product from the menu, from the homepage and from the page she landed on; a new account's first page is her own grade; every refusal explains the plan; and the path report shows the steps for four weeks.
+
+**Size (my estimate, not measured):** 11.1 one session; 11.2 and 11.3 two each; 11.4 one; 11.5 and 11.6 two together; 11.7 two with the approval round; 11.8 one per language.
+
+## 13. Coverage: what "as comprehensive as possible" means for each content type
+
+Measured 2026-11-12. "Complete" is the end state; the last column is the sub-part that gets there. Each is built in English first, reviewed, then language by language (order by the demand harvest: French, Spanish for Mexico, Portuguese for Brazil, Italian, Dutch, Norwegian, Finnish, Danish).
+
+| Type | Today | Complete | What stands in the way | Sub-parts |
+|---|---|---|---|---|
+| **Units and year plans** | English 36 units, 200 lessons; German 24, 138; Swedish 34, 191. The English plans cover **7 to 10 weeks of mathematics and 1 to 7 weeks of literacy per grade**, of a school year of about 36 | Every one of the 306 teaching points is a lesson of a unit; a plan that carries a whole school year per grade and subject; science, social studies, health and thinking-skills units; preschool and theme units; all 11 languages | 106 teaching points have no unit (29 in mathematics and literacy, 77 in the other subjects). A lesson is one day; a year needs several days per teaching point. Grade 3 literacy has 4 teaching points. Eight languages have no units | 4.7 the 29 points; 4.8 pacing: each teaching point gets its days (teach, practise with the easier and the harder page, screen day, check day), so a plan fills the year honestly; 4.9 science, social studies, health, thinking; 4.10 preschool and theme units; 4.11 onward one language each |
+| **National curricula** | 15 registries, 7,960 objectives, every crosswalk reviewed. Checklist pages: English 12, German 10, Swedish 1 | A checklist for every framework, grade and subject the units teach, in every language; every objective marked taught, practised or not covered; the uncovered ones listed and fed to the content list below; further states after the first read (by search demand) | Pages need units in that language; science and social objectives have no lessons yet | 6.4 onward with each language's units; 6.x states |
+| **Assessments** | Unit checks: English 18 of 36 units, German 12 of 24, Swedish 17 built. No checks of the year, no placement checks | A check for every unit with a part for every lesson; checks for the beginning, middle and end of the year per grade and subject; short placement checks per skill path (letter sounds, number sense, addition facts, times tables) that send the teacher to the right unit; scoring sheets, class records, rubrics for writing; results in the class dashboard when taken on screen | A part can only be cut from a worksheet built of answer cards; 59 English lessons hand out whole-page tasks | 7.6 an item bank: two parallel check-size tasks per teaching point, made by the same generators; 7.7 checks of the year from the bank; 7.8 placement checks; 7.9 per language |
+| **Readers** | None | 300 and more per language in two series (first reading, theme readers), each as a folded book, a one-page text with questions and a screen book; teacher pages; all 11 languages; the letter style Italy and Brazil search for | Everything (Part 8) | 8.1 engine and 12 English books; 8.2 to 60; then German, French, Spanish and Portuguese start while English goes on to 150 and 300; a review at 12, 60, 150 and 300 in every language |
+| **Sub plans** | English 24 full days (K to 3, three times of year, two days each); German 18 single lessons | Five different days per grade and time of year (a week of absence), half days and single-subject lessons, preschool, the guest teacher's binder pages (class list, timetable, how the day went), each market's own form (full day in English and French, single lesson in German, review booklet in Mexico), packs for subscribers in every language | Packs take their pages from the units of that language by time of year | 5.4 English to five days and the binder; 5.5 onward with each language's units |
+
+### The whole school year: the missing content is created (operator 2026-11-12, verbatim: "you should create the missing content so that you cover the whole school year")
+
+A plan of 7 to 10 weeks is a sample, not a year. Pacing alone cannot fill a year honestly where the content does not exist, so the missing content is made. **Part 12, trigger "implement Part 12"** (sub-parts 12.1 to 12.5); built in English first, then per language with that country's curriculum as the measure.
+
+**How large the gap is (measured against the official standards, English, 2026-11-12):**
+
+| Standards | In the standards | Taught by a lesson today | Open |
+|---|---|---|---|
+| Common Core mathematics, K to Grade 3 | 110 | 77 | 26 (7 more are only prepared) |
+| Common Core English language arts, K and Grade 1 | 138 | 39 | 94 |
+| Common Core English language arts, Grades 2 and 3 | not measured: too few lessons for a checklist page | | |
+| Texas mathematics, K to Grade 3 | 187 | 92 | 84 |
+| Texas English language arts and reading, Grades 1 and 2 | 172 | 39 | 116 |
+
+Mathematics is about three quarters there. Literacy is about a quarter there: reading stories and information texts, writing, speaking and listening, and most of grammar have no lessons, and Grade 3 literacy has 4 teaching points in all.
+
+**12.1 The year map.** Per grade and subject, every objective of the country's curriculum in teaching order across about 36 weeks, each marked: taught today, or open. Every open objective gets one of five answers, decided with a teacher-reviewer of that country: a new worksheet type; a reading text or a book (Part 8); a lesson the teacher leads without a page (speaking and listening: a routine, a classroom tool and what to listen for); a screen activity (it then moves up the order of Part 10); or "not on paper or screen", said openly on the checklist. The map also sets the days of each teaching point (teach, practise at two levels, screen day, review, check) and the review and check weeks a real year has.
+**12.2 New mathematics content** for the 26 open standards (and the Texas ones they do not already answer): new worksheet types in batches, by the recipe every worksheet batch has followed: design, native text in 11 languages, the gates, one native and pedagogy reviewer, publish with full search treatment. Then the units and the whole-year plans of mathematics, K to Grade 3.
+**12.3 New literacy content:** reading texts with questions at each level (shared with the readers of Part 8, which is why 8.1 comes before it), writing pages by kind of text (opinion, information, story), grammar and vocabulary types for Grades 2 and 3, the teacher-led lessons for speaking and listening. Then the literacy units and whole-year plans.
+**12.4 Science, social studies and health** years where a country's curriculum for these grades names them (the 77 teaching points without a unit are the start).
+**12.5 Each further language:** its own year map against its own curriculum (the 15 registries are built), its own open list, the content made natively.
+
+**Size, said plainly:** this is the largest piece of the programme. Each batch of ten new worksheet types has taken several sessions with its reviews; literacy alone is likely to need more new types than all of mathematics has open. The year map (12.1) gives the real number before any batch starts, and I will report it then instead of guessing now.
+
+**The content list.** One generated file names every teaching point that lacks a printable page, a screen task, a check task or a book; the year map adds every objective that has no teaching point at all. It decides which new worksheet types are made and the order of the activities in Part 10.
+
+**What does not change:** every page is assembled from real content and reviewed by one teacher-reviewer of that country; nothing is translated; no page goes out thin (rule 4 of §5): where the content is missing the page does not exist.
+
+**Order of the whole programme from here:** 7.5 Swedish (running) → 11.1, 11.2, 11.3 → 12.1 (the year map, English) → 11.4, 11.5, 11.6 → 8.1 → 12.2 → 11.7 → 7.6 → 12.3 with 8.2 → 12.4, 4.9, 4.10 → the languages, one at a time, each with its year map, units, checklists, checks and sub plans (12.5) → 11.8 as each language is ready → Part 9 goes on when the lawyer's check is in → **Part 10, the activities, last** (those the year map moved up are still built in Part 10, first in its order).
 
 ## 12. Progress log (one entry per finished part or sub-part)
 

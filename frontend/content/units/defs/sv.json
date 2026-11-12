@@ -10,7 +10,7 @@
    "title": "Läge, storlek och mönster",
    "metaTitle": "Matematik förskoleklass: Läge, storlek och mönster | Lektionsplanering",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Läge, storlek och mönster”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 5,
    "lessons": [
     {
      "point": "K:position-words",
@@ -64,7 +64,7 @@
    "title": "Antal och siffror 0–10",
    "metaTitle": "Matematik förskoleklass: Antal och siffror 0–10 | Lektionsplanering",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Antal och siffror 0–10”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 6,
    "lessons": [
     {
      "point": "K:one-to-one",
@@ -126,7 +126,7 @@
    "title": "Geometriska former och spegelbilder",
    "metaTitle": "Matematik förskoleklass: Geometriska former och spegelbilder",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Geometriska former och spegelbilder”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:shape-naming",
@@ -165,7 +165,7 @@
    "title": "Talraden till 20 och ordningstal",
    "metaTitle": "Matematik förskoleklass: Talraden till 20 och ordningstal",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Talraden till 20 och ordningstal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:count-forward-missing",
@@ -206,7 +206,7 @@
    "title": "Sortera, uppskatta och dela upp tal",
    "metaTitle": "Matematik förskoleklass: Sortera, uppskatta och dela upp tal",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Sortera, uppskatta och dela upp tal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:classify-count-kinds",
@@ -245,7 +245,7 @@
    "title": "Språklekar: rim, stavelser och ljud",
    "metaTitle": "Svenska förskoleklass: Språklekar – rim, stavelser och ljud",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Språklekar: rim, stavelser och ljud”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:rhyme",
@@ -293,7 +293,7 @@
    "title": "Ord, begrepp och berättande",
    "metaTitle": "Svenska förskoleklass: Ord, begrepp och berättande | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Ord, begrepp och berättande”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 2,
    "lessons": [
     {
      "point": "K:category-sort",
@@ -332,7 +332,7 @@
    "title": "Bokstäver och första skrivandet",
    "metaTitle": "Svenska förskoleklass: Bokstäver och första skrivandet",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Bokstäver och första skrivandet”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:pre-writing-strokes",
@@ -391,8 +391,8 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–10",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–10 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Addition och subtraktion 0–10”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Addition och subtraktion 0–10”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:add-within-10-models",
@@ -449,8 +449,8 @@
    "subject": "math",
    "title": "Talkamrater och likhetstecknet",
    "metaTitle": "Matematik åk 1: Talkamrater och likhetstecknet | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talkamrater och likhetstecknet”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talkamrater och likhetstecknet”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:make-10",
@@ -496,8 +496,8 @@
    "subject": "math",
    "title": "Former, mönster och längd",
    "metaTitle": "Matematik åk 1: Former, mönster och längd | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:shape-attributes",
@@ -537,7 +537,7 @@
    "title": "Talen 0–20: dubbelt, hälften, udda och jämnt",
    "metaTitle": "Matematik åk 1: Talen 0–20 – dubbelt, hälften, udda och jämnt",
    "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talen 0–20: dubbelt, hälften, udda och jämnt”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:number-line-placement",
@@ -595,8 +595,8 @@
    "subject": "math",
    "title": "Klockan och almanackan",
    "metaTitle": "Matematik åk 1: Klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:days-of-week",
@@ -643,8 +643,8 @@
    "subject": "math",
    "title": "Sortera, tabeller och diagram",
    "metaTitle": "Matematik åk 1: Sortera, tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Sortera, tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Sortera, tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:sort-three-groups",
@@ -683,8 +683,8 @@
    "subject": "literacy",
    "title": "Ljuda, läsa och stava ord",
    "metaTitle": "Svenska åk 1: Ljuda, läsa och stava ord | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Ljuda, läsa och stava ord”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Ljuda, läsa och stava ord”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:cvc-build",
@@ -739,7 +739,7 @@
    "title": "Läsa och skriva ord och meningar",
    "metaTitle": "Svenska åk 1: Läsa och skriva ord och meningar | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Läsa och skriva ord och meningar”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:word-picture-match",
@@ -800,8 +800,8 @@
    "subject": "math",
    "title": "Talen 0–100: tiotal och ental",
    "metaTitle": "Matematik åk 2: Talen 0–100 – tiotal och ental | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Talen 0–100: tiotal och ental”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Talen 0–100: tiotal och ental”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fem veckor.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:bundle-ten-ones",
@@ -870,7 +870,7 @@
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:add-with-blocks",
@@ -916,8 +916,8 @@
    "subject": "math",
    "title": "Längd, klockan och almanackan",
    "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
@@ -956,7 +956,7 @@
    "title": "Multiplikation: lika grupper, 2:an och 5:an",
    "metaTitle": "Matematik åk 2: Multiplikation – lika grupper, 2:an och 5:an",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Multiplikation: lika grupper, 2:an och 5:an”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:skip-counting",
@@ -1025,7 +1025,7 @@
    "title": "Geometriska objekt, symmetri och rutnät",
    "metaTitle": "Matematik åk 2: Geometriska objekt, symmetri och rutnät",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:2d-attributes",
@@ -1087,8 +1087,8 @@
    "subject": "math",
    "title": "Tabeller och diagram",
    "metaTitle": "Matematik åk 2: Tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "2:bar-graphs",
@@ -1127,7 +1127,7 @@
    "title": "Ordkunskap och alfabetisk ordning",
    "metaTitle": "Svenska åk 2: Ordkunskap och alfabetisk ordning | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Ordkunskap och alfabetisk ordning”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:alphabetical-order",
@@ -1186,8 +1186,8 @@
    "subject": "literacy",
    "title": "Läsa, förstå och skriva texter",
    "metaTitle": "Svenska åk 2: Läsa, förstå och skriva texter | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Läsa, förstå och skriva texter”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Läsa, förstå och skriva texter”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:sentence-boundaries",
@@ -1257,8 +1257,8 @@
    "subject": "literacy",
    "title": "Substantiv, verb och adjektiv",
    "metaTitle": "Svenska åk 2: Substantiv, verb och adjektiv | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Substantiv, verb och adjektiv”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Substantiv, verb och adjektiv”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:articles",
@@ -1306,7 +1306,7 @@
    "title": "Talen 0–1000: hundratal, tiotal och ental",
    "metaTitle": "Matematik åk 3: Talen 0–1000 – hundratal, tiotal och ental",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Talen 0–1000: hundratal, tiotal och ental”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 2,
    "lessons": [
     {
      "point": "2:read-build-3-digit",
@@ -1346,7 +1346,7 @@
    "title": "Avrundning, överslag och uppställning",
    "metaTitle": "Matematik åk 3: Avrundning, överslag och uppställning",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:round-to-ten",
@@ -1394,8 +1394,8 @@
    "subject": "math",
    "title": "Multiplikation och division",
    "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:skip-count-3-4",
@@ -1459,7 +1459,7 @@
    "title": "Mätning: tid, massa, volym och temperatur",
    "metaTitle": "Matematik åk 3: Mätning – tid, massa, volym och temperatur",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Mätning: tid, massa, volym och temperatur”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:time-to-minute",
@@ -1507,7 +1507,7 @@
    "title": "Bråk: del av helhet och del av antal",
    "metaTitle": "Matematik åk 3: Bråk – del av helhet och del av antal",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Bråk: del av helhet och del av antal”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:partition-equal-areas",
@@ -1566,7 +1566,7 @@
    "title": "Likheter, talföljder och talmaskiner",
    "metaTitle": "Matematik åk 3: Likheter, talföljder och talmaskiner",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Likheter, talföljder och talmaskiner”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "weeks": 2,
    "lessons": [
     {
      "point": "3:balance-equations",
@@ -1604,7 +1604,7 @@
    "title": "Fyrhörningar, symmetri, omkrets och area",
    "metaTitle": "Matematik åk 3: Fyrhörningar, symmetri, omkrets och area",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Fyrhörningar, symmetri, omkrets och area”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 5,
    "lessons": [
     {
      "point": "3:classify-quadrilaterals",
@@ -1665,8 +1665,8 @@
    "subject": "literacy",
    "title": "Ordklasser, tempus och pronomen",
    "metaTitle": "Svenska åk 3: Ordklasser, tempus och pronomen | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Ordklasser, tempus och pronomen”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Ordklasser, tempus och pronomen”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "2:word-classes",
@@ -1711,7 +1711,7 @@
    "title": "Stavning, ordbildning och ordval",
    "metaTitle": "Svenska åk 3: Stavning, ordbildning och ordval | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Stavning, ordbildning och ordval”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:spelling-rules",

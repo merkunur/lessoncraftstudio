@@ -354,6 +354,8 @@ tail -3 /tmp/lcs-curricula.txt
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
+# HARD (Part 4.8): the weeks a unit's definition and description name are the weeks counted from its lessons' class days
+node /opt/lessoncraftstudio/scripts/units/apply-pacing-to-defs.js --check || { echo "ERROR: a unit definition names weeks that are not the counted ones — node scripts/units/apply-pacing-to-defs.js"; exit 1; }
 # HARD (Daily Teaching System, Part 6): the curriculum pages are what assemble.js writes from the curriculum registry
 # and the units; every lesson and worksheet a line names exists; no line quotes the wording of an objective; no page
 # is thin, says free or claims an approval. Committed files only; poison: --poison.

@@ -98,5 +98,15 @@
  "partOfTitle": "Teil einer Unterrichtseinheit",
  "partOfLanding": "Dieses Arbeitsblatt gehört zu Stunde {n} („{lesson}“) der Unterrichtseinheit „{unit}“.",
  "partOfActivity": "Diese Übung am Bildschirm gehört zu Stunde {n} („{lesson}“) der Unterrichtseinheit „{unit}“.",
- "pilotBanner": "Vorschau des Formats. Diese Seite ist nirgends verlinkt, und Suchmaschinen sind gebeten, sie nicht aufzunehmen."
+ "pilotBanner": "Vorschau des Formats. Diese Seite ist nirgends verlinkt, und Suchmaschinen sind gebeten, sie nicht aufzunehmen.",
+ "dayWord": "Tag {n}",
+ "lessonDays": "{n} Unterrichtstage",
+ "dayRole1": "Einführen",
+ "dayRole2": "Üben und kontrollieren",
+ "dayRole3": "Fördern und fordern",
+ "dayRespond": "Werte die Kontrollblätter aus: Wer noch unsicher ist, arbeitet noch einmal mit dem Werkzeug und einem neuen Blatt aus dem Generator; die anderen bekommen ein schwereres Blatt.",
+ "unitEnd": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, die Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
+ "unitEndOwn": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, deine eigene Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
+ "dayRole2NoCheck": "Üben",
+ "dayMore": "Weitere Blätter aus dem Generator"
 }

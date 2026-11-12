@@ -10,8 +10,9 @@
    "subject": "math",
    "title": "Addition and Subtraction Within 10",
    "metaTitle": "Grade 1 Math Lesson Plans: Addition and Subtraction Within 10",
-   "metaDescription": "A two-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
-   "weeks": 2,
+   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -65,7 +66,8 @@
       "mistake": "Many children count the first group, start again at 1 for the second group, and write that second number as the total. Others count one picture twice or skip one.",
       "words": "Ask: \"How many in this group? How many in that group? How many altogether?\" Point to the plus sign and the equal sign and say \"plus\" and \"equals\"; tell the children that \"equals\" means \"is the same as.\" Use \"altogether\" and \"in all\" for the total.",
       "watch": "Watch who touches each picture once while counting. A child who says the first number and counts on from it (\"four… five, six\") is ready for the harder page."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -118,7 +120,8 @@
       "mistake": "Children count the crossed-out pictures instead of the ones left, or count every picture, crossed out or not, and write the number they started with.",
       "words": "Say: \"Start with six. Take away two. How many are left?\" Read 6 − 2 as \"six take away two\" first, then as \"six minus two.\"",
       "watch": "Ask each child to point to the pictures that are left before writing the answer. A child who is unsure can act it out first: lay out six counters, slide two away, and count the ones that stay."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -176,7 +179,8 @@
       "mistake": "Children know 5 + 5 and 9 + 1 but count from 1 for the other pairs. Many do not see that 3 + 7 and 7 + 3 are the same pair.",
       "words": "Ask: \"What goes with 6 to make 10?\" Call the two numbers \"partners of 10.\" On a ten frame: \"Six are full. How many are empty?\"",
       "watch": "Who answers from the empty spaces without counting the full ones again? Those children can go on to the maze; the others stay with the ten frame."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -232,7 +236,8 @@
       "mistake": "Children count the starting number as the first hop, so 5 + 3 lands on 7. Counting back, they land one too high for the same reason.",
       "words": "Say: \"Put your finger on 5 and say five. Now hop three times and count as you land: six, seven, eight.\" Use \"hop forward\" for adding and \"hop back\" for subtracting.",
       "watch": "Watch the first hop. A child who says the starting number while moving lands one short. Have the child draw each hop as an arc and count the arcs, not the marks: three arcs for + 3."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -297,7 +302,8 @@
       "mistake": "Children write 3 + 7 = 10 and 7 + 3 = 10 easily, then write 3 − 7 = 10 or 7 − 10 = 3, because they move the numbers around without thinking about which one is the whole.",
       "words": "Ask: \"Which number is the whole? Which two are the parts?\" Then: \"The parts add up to the whole. The whole take away one part leaves the other part.\"",
       "watch": "Check that each subtraction fact starts from the whole. If it does not, go back to the three numbers on a number bond, cover one part, and ask what is left."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -352,7 +358,8 @@
       "mistake": "Children add the two numbers they can see: for 4 + □ = 9 they write 13. For □ − 3 = 5 many write 2.",
       "words": "Read the box as \"what number\": \"Four plus what number makes nine?\" Read the equal sign as \"is the same as.\"",
       "watch": "Have the child read the finished equation aloud and say whether it is true. A child who counts up from 4 to 9 on fingers has understood the idea."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -410,7 +417,8 @@
       "mistake": "Children pick out the two numbers and add them no matter what the story says, or look for one word such as \"more\" and choose the operation from it.",
       "words": "Ask: \"What happens in the story? Are things joining or leaving?\" Have the child retell the story before any number is written. Then: \"Write the equation that tells the story.\" The page has a box for the answer only, so have the children write the equation next to the picture.",
       "watch": "Listen to the retelling. A child who can act the story out with counters but writes the wrong sign needs the link from the action to the sign, not more counting."
-     }
+     },
+     "days": 3
     },
     {
      "n": 8,
@@ -465,7 +473,8 @@
       "mistake": "Children count every fact from 1, even 5 + 1 or 4 + 4, because counting has always given them the right answer. When they are pushed to be fast, they stop counting and guess.",
       "words": "Ask: \"Which facts do you just know? Which ones can you figure out from a fact you know?\" For example: \"I know 4 + 4, so 4 + 5 is one more.\"",
       "watch": "Note which facts each child still counts for. A child who counts most of them gets the easier page for more practice; write the facts on the class record so you know what to come back to. Do not time this page."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -478,6 +487,7 @@
    "title": "Hearing Sounds in Words",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Hearing Sounds in Words",
    "metaDescription": "A three-week Kindergarten unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words. The last two are for children who know most letter sounds.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -528,7 +538,8 @@
       "mistake": "Children match words that begin with the same sound (cat, cup) or that go together in meaning (cat, dog) instead of words that sound the same at the end.",
       "words": "Say: \"Rhyming words sound the same at the end. Cat, hat: -at, -at.\" Say the pair, then stretch the ending.",
       "watch": "Name every picture together before the children start; a child who calls a picture by another name cannot find its rhyme. Have each child say both words aloud before marking."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -580,7 +591,8 @@
       "mistake": "Children clap once for each sound (three claps for \"cat\"), or stretch the word and add beats that are not there.",
       "words": "Say: \"Syllables are the beats in a word. Say it the way you talk and clap the beats: ti-ger. Two.\" A hand under the chin works too: the chin drops once for each beat.",
       "watch": "One-beat words are the test: who claps \"dog\" once? Ask children who stretch the word to say it at talking speed."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -633,7 +645,8 @@
       "mistake": "Children say the letter name instead of the sound, or give the whole first syllable (\"ba\" for banana).",
       "words": "Ask: \"What is the very first sound your mouth makes? Mmm… moon.\" Say the sound without adding \"uh\": hold /m/ as \"mmm,\" not \"muh\"; make /b/ quick and quiet, not \"buh.\"",
       "watch": "Ask: \"Say it. What sound did you start with?\" A child who can say the sound but not find the letter needs letter practice, not more listening."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -692,7 +705,8 @@
       "mistake": "Children who have just learned to listen for the first sound keep answering with it. The middle vowel is the hardest part: short e and short i are mixed up most.",
       "words": "Say: \"Say the word. What is the last sound you hear? Bus… /s/.\" For the middle: \"Stretch it: sss-uuu-nnn. What is in the middle?\"",
       "watch": "A child who writes the first letter for every picture has not moved to the end of the word yet. Go back to saying the word together and catching its last sound. Give ending sounds and middle sounds a day each."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -754,7 +768,8 @@
       "mistake": "Children give the beats from the syllable lesson instead of the sounds, so \"ship\" gets one dot. Others break the word into two parts only, /sh/ and \"ip,\" and run the last two sounds together in one box. Children who already know how a word is spelled may count its letters: four dots for \"ship.\"",
       "words": "Warm up by blending. Say the sounds of a word one at a time, /s/ /u/ /n/, and ask: \"What word?\" Do five words before the children open the page. Then say: \"Touch a box for each sound: /sh/ /i/ /p/. Three sounds.\" On the Count the Sounds page say \"sound,\" never \"letter.\" On the Sound Boxes page say: \"Now write the letter or letters for each sound. Sh is two letters and one sound, so both go in the wide box.\"",
       "watch": "Watch the fingers, not the paper: one touch for each sound. Words with two letters for one sound show who is counting sounds and who is spelling; keep those words for the children who are ready for the harder page."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -818,7 +833,8 @@
       "mistake": "Children write the first and last sound and leave out the vowel (\"ct\" for cat), or put the letters in the wrong order (\"cta\").",
       "words": "Ask: \"Say the word. First sound? Next sound? Last sound?\" After writing: \"Touch and say each sound, then read the whole word.\"",
       "watch": "Have each child read back what they built. A child who reads \"ct\" as \"cat\" is reading from the picture; cover the picture and ask again."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -830,8 +846,9 @@
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
    "metaTitle": "Kindergarten Math Lesson Plans: Position Words, Size, and Patterns",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -878,7 +895,8 @@
       "mistake": "Children circle the picture they like best, not the one in the place that was named. Left and right are the hardest: many children find the correct side only while they face the same way as the teacher.",
       "words": "Say the whole sentence each time: \"The cat is ON the box. The ball is UNDER the box.\" For left and right, stand with your back to the children so that your left is their left, and say: \"Put your finger on the line. Slide it this way. This is the LEFT side.\" Have children say the position word back to you.",
       "watch": "Watch who can also SAY where a picture is, not only circle it. A child who mixes up left and right but knows on, under, and beside needs more turns with the line page, not with the box page."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -912,7 +930,8 @@
       "mistake": "Children circle the first two or three they see and stop, or they circle a picture that is only the same color or nearly the same shape.",
       "words": "Ask: \"Is it exactly like the one in the box? Did you find them all? How do you know?\" Teach a path for the eyes: \"Start at the top and go row by row, like reading.\"",
       "watch": "Watch who searches in order and who jumps around the page. Children who jump around miss pictures; give them a strip of paper to slide down the page row by row."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -959,7 +978,8 @@
       "mistake": "Children say \"big\" for everything: a tall thing and a long thing are both \"the big one.\" Some circle the picture that sits highest on the page and not the tallest one.",
       "words": "Use a different word for each kind of size: \"We say TALL for things that stand up, like a tree. We say BIG for the one that takes up the most room.\" Ask: \"Do they all stand on the same line? Look from the bottom to the top. Which one is the TALLEST?\" Ask for the opposite too: \"Which one is the shortest?\"",
       "watch": "Watch who looks at every picture in the row before circling. A child who circles after looking at only two should touch each picture first and say its size word."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1012,7 +1032,8 @@
       "mistake": "With three pictures children find the smallest and the biggest and guess the middle one. With five they get the two ends and mix up the middle, or they number the pictures from left to right without looking at the sizes.",
       "words": "Say: \"Find the smallest. That one is number 1. Now look at the ones that are left. Which is the smallest NOW?\" Use \"smaller than\" and \"bigger than\": \"The cup is bigger than the spoon and smaller than the pot.\"",
       "watch": "Watch who starts over with \"the smallest of what is left\" each time. That child has a method and can do five pictures; a child who guesses should stay with three."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -1051,7 +1072,8 @@
       "mistake": "Children look only at the last picture and choose one that is different from it. That works for a two-part pattern and fails for a three-part one. Others copy the first picture of the row every time.",
       "words": "Read the pattern aloud together and tap it: \"apple, pear, apple, pear, apple…\" Stop and let the class say the next one. Ask: \"Which part keeps coming back?\" Call it \"the part that repeats.\"",
       "watch": "Watch who can tell you the part that repeats (\"apple, pear\"), not only the next picture. A child who chants the row correctly and circles the wrong picture stopped chanting before looking at the choices: have the child chant the row again, say the next word aloud, and only then look for it among the choices."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1063,8 +1085,9 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A two-week Kindergarten math unit: 7 lessons on matching one to one, writing numbers, counting to 10, quick looks, and comparing groups, each with a teacher note.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on matching one to one, writing numbers, counting to 10, quick looks, and comparing groups, each with a teacher note.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -1112,7 +1135,8 @@
       "mistake": "Children draw two lines to the same partner, or skip one that sits a little off to the side. When one is left without a partner, they draw a line to a picture that already has one so that nobody is left out.",
       "words": "Say: \"One for you, one for you. Each one gets ONE partner.\" When something is left over: \"Is there one for each? Which group has more?\" Use \"enough\" and \"not enough.\"",
       "watch": "Watch the lines: one line from each picture and one line to each picture. A child who gives one picture two lines should put a finger on each partner as it is used (\"this one is taken\"). A child who can tell you \"there are not enough\" without counting understands matching."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1170,7 +1194,8 @@
       "mistake": "Children start at the bottom and draw the number like a picture, so 8 comes out as two circles stacked up and 9 as a ball with a stick added. Reversed 2, 3, 5, and 7 are common at this age and are not a sign of a problem.",
       "words": "Give every number a short saying and use the same one all year, for example for 5: \"Down, around, then put on its hat.\" Ask: \"Where does it start? At the orange dot. Which way does the arrow go?\"",
       "watch": "Watch the hand, not the finished page: a number that looks right can be written from the bottom up. Check the pencil grip while children trace, and correct one number at a time."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1234,7 +1259,8 @@
       "mistake": "Children say the numbers faster than they touch, so they count a picture twice or skip one. Asked \"How many?\" after counting, some start counting again and do not say the last number.",
       "words": "Say: \"Touch one, say one number.\" After the count ask: \"So how many are there?\" and wait for one number, not a recount. On the ten frame: \"The top row is full. That is five. Six, seven.\"",
       "watch": "Watch the finger and the voice together. A child whose voice runs ahead of the finger should cross out each picture while saying its number. A backward 3 or 7 in the written answer is a handwriting matter, not a counting mistake."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1286,7 +1312,8 @@
       "mistake": "Children color all the pictures in the row. They can count a group that is already there, but they do not stop when they reach the number they were given.",
       "words": "Say: \"The number says 4. Color one, two, three, four. STOP. Is that four? Check.\" Have the child say the number before starting and again at the end: \"I need four. I have four.\"",
       "watch": "Watch who stops alone at the number and who needs your \"stop.\" A child who needs it should keep the number in sight: one finger on the number while the other hand colors."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -1336,7 +1363,8 @@
       "mistake": "Children color by what the thing should look like (\"grass is green\") and not by the number. They mix up 6 and 9, or color a part next door because they did not look inside it for its number.",
       "words": "Say: \"Find the number inside the part. Find that number in the key. What color does the key say?\" Do one color at a time: \"Find every 3 first. All the 3s are blue.\"",
       "watch": "Watch who goes back to the key for each part. One color at a time keeps the key in mind and shows you quickly who cannot yet tell 6 from 9."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -1388,7 +1416,8 @@
       "mistake": "Children count every dot with a finger even for two or three. In five or six dots they do not see the smaller groups (a four and a two), so they have nothing to do but count.",
       "words": "Show a group for two seconds, cover it, and ask: \"How many did you see? HOW did you see them?\" Accept \"I saw two and two.\" Say: \"You did not count. Your eyes knew.\"",
       "watch": "Watch for moving lips and pointing fingers: those children are still counting by ones. Stay with one to four for them and use dice patterns, which look the same every time."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -1435,7 +1464,8 @@
       "mistake": "Children choose the group that takes up more room or has the bigger pictures, not the one with more in it. \"Fewer\" is a new word for most children; on that page they circle the bigger group again.",
       "words": "Ask: \"Which group has MORE? How can we check?\" Check by matching one to one or by counting both. Say \"fewer\" for things and \"less than\" for numbers: \"There are fewer cats than dogs. Five is more than three. Three is less than five.\" Show two equal groups once: \"These two groups have the same number.\"",
       "watch": "Watch what children do when the smaller group is spread out wide. A child who counts or matches before answering is ready; a child who answers at a glance and is wrong should line the two groups up."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1447,8 +1477,9 @@
    "subject": "math",
    "title": "Shapes All Around",
    "metaTitle": "Kindergarten Math Lesson Plans: Shapes All Around",
-   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -1504,7 +1535,8 @@
       "mistake": "Children know a triangle only when it sits flat with the point on top. A triangle standing on its point is \"upside down\" or \"not a triangle,\" and a square on its corner becomes \"a diamond.\"",
       "words": "Turn a shape in your hand and ask: \"Is it still a triangle? Why?\" Give the reason every time: \"It has three straight sides and three corners, so it is a triangle.\" For the turned square: \"Four sides all the same length and four square corners. It is still a square.\"",
       "watch": "Listen to what children say about the long, thin triangle and the turned square. A child who counts the sides to decide is using the rule; a child who says \"it does not look like one\" is going by the picture."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1556,7 +1588,8 @@
       "mistake": "Children count around the shape and forget where they started, so one side is counted twice. Some count sides and corners together, and some say a circle has one side.",
       "words": "Say: \"Put a mark on the side where you start. Trace each side with your finger and count. Stop at your mark.\" Ask: \"Is a side straight? Then how many straight sides does a circle have?\" (None.)",
       "watch": "Watch who marks a starting side. Check the six-sided shapes first: that is where a double count shows."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1601,7 +1634,8 @@
       "mistake": "Children lay a piece down the way it came off the page and give up when it does not fit. They do not think of turning it or flipping it over. On the drawing page they draw a line where no two pieces could meet.",
       "words": "Say: \"Turn it. Flip it. Slide it.\" Name what happened: \"Two small triangles made a square.\" Ask: \"Which piece fills this corner? Which side of the piece is the long side?\"",
       "watch": "Watch who turns a piece before asking for help. Scissors are part of this lesson: a child who cuts off a corner cannot make the pieces fit, so cut the sets ahead of time for children who are still learning to cut on a line."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1635,7 +1669,8 @@
       "mistake": "Children circle the picture that is exactly the same, or the one that is upside down. They do not yet see that a mirror swaps left and right and keeps top and bottom.",
       "words": "Hold a small mirror beside a picture and ask: \"The dog looks left. Which way does the dog in the mirror look?\" Say: \"In a mirror, left and right trade places. Up stays up.\"",
       "watch": "Notice which wrong answer a child picks. The same picture means the child has not seen the swap; the upside-down picture means the child is turning, not flipping. Show the difference: draw a dog with a thick marker on one half of a folded sheet, hold it against the window and trace it on the other half, then open the sheet. The two dogs face each other, and neither one is upside down."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1647,8 +1682,9 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting in Order to 20",
-   "metaDescription": "A one-week Kindergarten math unit: 4 lessons on counting forward to 20, connecting dots in order, counting back from 10, and first, second, third.",
-   "weeks": 1,
+   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on counting forward to 20, connecting dots in order, counting back from 10, and first, second, third.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -1705,7 +1741,8 @@
       "mistake": "Children can count from 1 but cannot say what comes after a number in the middle. To fill a gap after 7 they go back and whisper from 1. In the teens they say \"three-teen\" and \"five-teen,\" skip 13 or 15, or write the digits in the order they hear them: 31 for thirteen, 71 for seventeen.",
       "words": "Ask: \"What comes right after 7? Say it without starting at 1.\" Count on together from different numbers: \"Start at 6. Seven, eight, nine.\" Say the teen numbers slowly and point: \"thir-teen, four-teen, fif-teen.\"",
       "watch": "Watch who whispers from 1 for every gap. That child needs many short \"start at… and count on\" turns aloud before more pages. Check 11, 12, 13, and 15, the numbers that do not sound like what they are."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1758,7 +1795,8 @@
       "mistake": "Children connect a dot to the nearest dot, not to the next number. They read 12 as 21, or they lift the pencil, lose their place, and cannot find where they were.",
       "words": "Say: \"Say the number you are on. What comes next? Find it BEFORE you draw.\" Keep one finger on the dot you are on and look for the next number with your eyes.",
       "watch": "Watch the first three lines. A child who looks for the next number before moving the pencil will finish alone. If the picture comes out wrong, count aloud along the lines together to find where it left the order."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1820,7 +1858,8 @@
       "mistake": "\"After\" is easy because it is the next counting word. \"Before\" is hard: children write the number after again, or count up from 1 to find it. Counting back, they skip a number or jump from 10 to 8.",
       "words": "On a number line: \"Put your finger on 6. The number BEFORE is one step back. The number AFTER is one step forward.\" Count down like a rocket: \"10, 9, 8…\" Say \"one less\" for before and \"one more\" for after.",
       "watch": "Watch who finds the number before without counting up from 1. Children who cannot should use the number line for every item; take it away only when they stop looking at it."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1867,7 +1906,8 @@
       "mistake": "Children always count from the left, even when the arrow or the flag is on the right. Some mark that many pictures (three pictures for \"third\") and not the one picture in third place.",
       "words": "Ask first: \"Where does the line start? Find the arrow.\" Then: \"First, second, third. The THIRD one is only this one.\" Line up five children and ask: \"Who is second? Now turn around. Who is second now?\"",
       "watch": "Watch what happens when the start is on the right. A child who looks for the arrow before counting has the idea. Keep \"three\" and \"third\" apart: \"Three is how many. Third is which one.\""
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1879,8 +1919,9 @@
    "subject": "math",
    "title": "Sorting, Tallies, and the Days of the Week",
    "metaTitle": "Kindergarten Math Lesson Plans: Sorting, Tallies, and Days of the Week",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on counting each kind, tally marks, estimating, heavier and lighter, and the days of the week, with teacher notes.",
-   "weeks": 1,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on counting each kind, tally marks, estimating, heavier and lighter, and the days of the week, with teacher notes.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -1927,7 +1968,8 @@
       "mistake": "Children count everything on the page as one group, or they count one kind and lose track because the pictures are mixed. A picture gets counted twice or not at all.",
       "words": "Say: \"We are counting only the birds now. Is this a bird? Then mark it.\" Teach children to cross out or dot each picture as they count it. Ask afterward: \"Which kind has the most?\"",
       "watch": "Watch who marks what has been counted. A child who marks and still gets a wrong number has a counting problem: count aloud together, touching each mark. A child who does not mark has a keeping-track problem: hand that child a crayon and have every counted picture crossed out."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1974,7 +2016,8 @@
       "mistake": "Children draw five upright marks and cross them with a sixth, so every bundle is worth six. Others never cross and draw one long row of single marks.",
       "words": "Chant while drawing: \"One, two, three, four, and SHUT THE GATE.\" Say: \"The gate is number five. It is not an extra one.\" To read a tally, start from the bundle: \"Five… six, seven.\" With two bundles: \"Five, ten… eleven.\"",
       "watch": "Watch children draw: count the upright marks before the cross goes on. When they read a tally, listen for \"five\" said at once for a bundle and not \"one, two, three, four, five.\""
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -2021,7 +2064,8 @@
       "mistake": "Children count quietly before they guess, because they want to be right. Or they give a wild number (\"a hundred\") for eight things. Both show that a guess is not yet a thinking step for them.",
       "words": "Say: \"A good guess has a math name: an ESTIMATE. An estimate is not a count. Look, think, and tell me: closer to 5 or closer to 20?\" After the count: \"Was your estimate close? It does not have to be the same.\" Praise close estimates, not only exact ones.",
       "watch": "Watch who changes the circled guess after counting. Tell the class that a guess stays as it was; the count is a second answer. Notice who uses a group they know (\"that looks like a full ten frame\")."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -2065,7 +2109,8 @@
       "mistake": "Children circle the thing that looks bigger. A big balloon is chosen over a small rock, because to them bigger has always meant more.",
       "words": "Bring a balloon and a rock, or a big empty box and a small full bottle: \"Which is bigger? Which is heavier? Hold one in each hand.\" Say: \"Big is how much room it takes up. Heavy is how hard it pushes down on your hand.\"",
       "watch": "Look at the pairs where the smaller thing is the heavier one; those tell you who understands. Let children be the balance: arms out, one thing in each hand, and the heavy side goes down. If two things feel about the same, put them on a pan balance."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -2115,7 +2160,8 @@
       "mistake": "Children can sing the days in order but cannot start in the middle: asked what comes after Wednesday, they sing from the beginning. Tuesday and Thursday get mixed up because they start alike.",
       "words": "Ask every morning: \"What day is it today? What day was yesterday? What day will it be tomorrow?\" Point to the words while the class says them. For the two T days, look at the second letter: \"Tuesday starts with T-U. Thursday starts with T-H, like 'three.'\"",
       "watch": "Watch who has to start the whole song for each answer. On the copying page, check that each word is copied letter by letter from the word bank; that page is reading and writing as much as math."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2127,8 +2173,9 @@
    "subject": "math",
    "title": "Putting Together and Number Bonds",
    "metaTitle": "Kindergarten Math Lesson Plans: Putting Together and Number Bonds",
-   "metaDescription": "A one-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
-   "weeks": 1,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -2170,7 +2217,8 @@
       "mistake": "Children count the first group, then start again at 1 for the second group and write that second number. They count two groups; they do not yet join them.",
       "words": "Say: \"Here are three. Here are two. Push them together. How many ALTOGETHER?\" Count across the gap without stopping: \"one, two, three… four, five.\" Then say and write the sentence: \"Three and two make five. Three plus two equals five: 3 + 2 = 5.\" Use \"altogether\" and \"in all\" for the total.",
       "watch": "Watch what happens at the gap between the groups. A child who keeps counting has joined them. A child who says the first number and counts on from it is already using a first-grade strategy; let it be."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -2230,7 +2278,8 @@
       "mistake": "Children add the two numbers they see. When the bond shows 5 on top and 2 below, they write 7 in the empty circle, because every number so far was something to add.",
       "words": "Point and say: \"The top circle is the WHOLE. The two circles below are the PARTS.\" Ask: \"Five is the whole. Two is one part. What is the other part?\" Show it with five counters: \"Two here. How many are over there?\"",
       "watch": "Look for answers bigger than the whole: that child added. Go back to counters and split one group in different ways before returning to the page."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -2281,7 +2330,8 @@
       "mistake": "Children see two numbers and add, even when the sign is a minus. Or they solve the fact correctly and then color by the first number in the problem and not by the answer.",
       "words": "Say: \"Circle the sign first. Is it plus or minus?\" Then: \"Write the answer small in the part. Now look in the code for THAT number.\" Let children use fingers or a ten frame; this page is practice, not a speed test.",
       "watch": "Watch who writes the answers before coloring. The picture shows mistakes by itself: a part in the wrong color is a fact to check together. The easier pages stay within 5, where Kindergarten children are expected to be fluent; the standard pages go to 10, so keep counters or a ten frame at hand."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -2326,7 +2376,8 @@
       "mistake": "Children who know the partners of 10 do not use them here: for 13 and what make 20 they count up by ones from 13 and are often off by one. They do not see that 13 is 10 and 3, so its partner is the partner of 3.",
       "words": "Say: \"What goes with 3 to make 10? Seven. So 13 and 7 make 20.\" On two ten frames: \"One frame is full. In the other, 3 are filled. How many are empty?\" Write the pair of facts: \"3 + 7 = 10. 13 + 7 = 20.\"",
       "watch": "Watch who uses the partners of 10. A child who counts on by ones for every bond should go back to the bonds of 10; this page reaches into first grade and is not for everyone yet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -2373,7 +2424,8 @@
       "mistake": "Children circle three pictures together or leave out a picture that is far away, so they end with a leftover that should not be there, or with none when there should be one. Some think \"odd\" means strange.",
       "words": "Say: \"Two by two. Does everyone have a partner?\" Then name it: \"No one is left over. Six is EVEN.\" \"One is left over. Seven is ODD.\" Line the class up in pairs to see it.",
       "watch": "Check that every circle holds exactly two. This is a first look at a second-grade idea, an extra for a class that is ready: the goal is careful pairing, not knowing by heart which numbers are odd."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2385,8 +2437,9 @@
    "subject": "math",
    "title": "Doubles, Three Addends, and Addition Pyramids",
    "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -2443,7 +2496,8 @@
       "mistake": "Children think doubling means adding 2, so the double of 6 becomes 8. For half, they take some away and do not check that the two parts are the same; half of 10 becomes 4 and 6.",
       "words": "Say: \"Double means the same again. Six and six more.\" Use two hands: \"Show me 4 on each hand.\" For half: \"Half means two EQUAL parts. One for you, one for me, until they are gone. Are the two parts the same?\"",
       "watch": "Watch who knows the doubles to 5 + 5 without counting and who still counts every picture; the page goes on to 7 + 7. Children who count should build each double on two hands or in two rows of a ten frame and say it: \"4 and 4 is 8.\" On the halves page, look at the two parts a child writes: they must match."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -2501,7 +2555,8 @@
       "mistake": "Children decide by how the number looks (\"11 is even because it has two ones\") and skip the pairing. When sharing, they forget to write the one that is left, or they give it to one of the friends.",
       "words": "Ask: \"Can two friends share them fairly? Is one left over?\" Say: \"Even numbers share fairly. Odd numbers leave one over.\" Tie it to the doubles: \"8 is 4 and 4. Every even number is a double.\" Have children count by twos as they circle: \"2, 4, 6… and one more makes 7.\"",
       "watch": "Notice who begins to see the rule in the ones place: numbers that end in 0, 2, 4, 6, or 8 are even. Let children find that rule from their own pages before you say it."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -2549,7 +2604,8 @@
       "mistake": "Children add the first two groups, write that number, and forget the third. Or they count every picture from 1 and never use a fact they know, such as a double or a pair that makes 10.",
       "words": "Say: \"Three groups. Add two of them first, then add the third.\" Ask: \"Which two are easy to add first? Do you see a double? Do you see a ten?\" Show that you may choose the pair: \"4 + 3 + 6. I add 4 and 6 first. That is 10. And 3 more is 13.\"",
       "watch": "Watch who looks for an easy pair before adding. Ask a child to tell you which two numbers were added first and why; the reason matters more than the speed."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -2607,7 +2663,8 @@
       "mistake": "Children add two bricks that sit side by side and write the sum next to them, not above them. When a bottom brick is missing, they add the two numbers they can see and do not ask what is missing.",
       "words": "Some books call this a number pyramid. Point with two fingers under one brick: \"This brick sits on these two. It is their sum.\" For a missing brick: \"7 sits on 4 and what? Four and how many make seven?\" Say \"sum\" for the brick on top.",
       "watch": "Look at the walls with a missing bottom brick. A child who writes 11 beside a 4 under a 7 has added again. Ask: \"Can a brick below be bigger than the brick on top of it?\""
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2619,8 +2676,9 @@
    "subject": "math",
    "title": "Tens and Ones",
    "metaTitle": "Grade 1 Math Lesson Plans: Tens and Ones",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on tens and ones, number words, comparing two-digit numbers, and the number of the day, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on tens and ones, number words, comparing two-digit numbers, and the number of the day, each with a teacher note.",
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -2674,7 +2732,8 @@
       "mistake": "Children count every rod as 1, so 3 rods and 4 cubes make 7. Or they write the digits in the order they counted them: 4 cubes and then 3 rods becomes 43.",
       "words": "Count the rods by tens and the cubes by ones: \"10, 20, 30… 31, 32, 33, 34.\" Say: \"3 tens and 4 ones is thirty-four.\" Ask: \"What does the 3 in 34 mean?\" (Three tens, or thirty; not three.)",
       "watch": "Watch the switch from counting by tens to counting by ones; that is where children slip. Have a child who slips touch the last rod, say \"thirty,\" pause, and then touch the cubes: \"thirty-one, thirty-two.\" Check numbers like 40: a child who writes 4 for four rods has left out the zero that holds the ones place."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -2731,7 +2790,8 @@
       "mistake": "Children mix up the teen words and the tens words: thirteen and thirty, fifteen and fifty. Eleven, twelve, and eight are guessed from the first letter.",
       "words": "Say the endings clearly: \"thir-TEEN is a ten and three. thir-TY is three tens.\" Ask: \"Does it end in -teen or in -ty?\" Have children underline the ending before they circle. Spell the hard ones together: eight, eleven, twelve, forty.",
       "watch": "Listen while a child reads the choices aloud. A child who reads \"fifty\" for fifteen is looking only at the start of the word; cover the start with a finger and read the ending first. On the tens page, check 40 and 50: \"forty\" and \"fifty\" do not look like \"four\" and \"five.\""
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -2774,7 +2834,8 @@
       "mistake": "Children compare the ones digits (\"29 is more than 41 because 9 is more than 1\") or add the digits. The signs are mixed up too: children know which number is greater and still circle the wrong sign.",
       "words": "Say: \"Look at the tens first. More tens means a greater number. Only if the tens are the same, look at the ones.\" Read the sign as words: \"41 is greater than 29.\" The open side of the sign faces the greater number.",
       "watch": "Keep two questions apart: does the child know which number is greater, and does the child know the sign? Have the child say the whole sentence aloud before circling."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -2833,7 +2894,8 @@
       "mistake": "Children fill each box as a separate task and do not notice when two boxes disagree: 15 in tens and ones, but 14 tally marks. A teen number is written as 1 and 5 with no idea that the 1 is a ten.",
       "words": "Ask after the page: \"Do all your boxes show the same number? Prove it.\" Say: \"Fifteen is one ten and five ones. Show me the ten in your ten frames: one full frame. Show me the ten in your tally: two bundles of five.\"",
       "watch": "Use the page as a quick look at what each child can do: which box is left empty or done last? That box tells you what to teach that child next."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2845,8 +2907,9 @@
    "subject": "math",
    "title": "The Hundreds Chart and Skip Counting",
    "metaTitle": "Grade 1 Math Lesson Plans: The Hundreds Chart and Skip Counting",
-   "metaDescription": "A one-week Grade 1 math unit: 4 lessons on the number line, the hundreds chart, 10 more and 10 less, and skip counting, with practice pages at three levels.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on the number line, the hundreds chart, 10 more and 10 less, and skip counting, with practice pages at three levels.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -2910,7 +2973,8 @@
       "mistake": "Children count the tick marks beginning with 1 at zero, so every answer is one too big. When only some numbers are printed, they count from 0 for every arrow and lose count on the way.",
       "words": "Say: \"Zero is the start, not number one. Count the JUMPS, not the marks.\" When few numbers are printed: \"Which printed number is closest to the arrow? Start there. You can count back, too.\"",
       "watch": "Watch where a child starts for an arrow at 18. Counting back two from 20 shows a child who uses the line; counting up from 0 works but is slow. An answer that is off by exactly one means the child counted marks, not jumps: draw the jumps as hops above the line and count the hops."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -2972,7 +3036,8 @@
       "mistake": "Children fill a gap by counting from the start of the row, or from 1. On a puzzle piece they write the next counting number in the box below (35 under 34), because they do not see that going down a row adds ten.",
       "words": "Run a finger down a column and read: \"4, 14, 24, 34. What stays the same? What changes?\" Say: \"Right is one more. Down is ten more. Left is one less. Up is ten less.\"",
       "watch": "Look at the boxes below and above the printed number on a piece. A child who gets left and right and misses up and down needs the whole chart beside the page for a few more days."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -3028,7 +3093,8 @@
       "mistake": "For 10 more, children count on ten ones with their fingers and are often off by one. For 10 less they change the wrong digit. One more than 29 is written 210, because the child says \"twenty-ten.\"",
       "words": "Ask: \"Ten more than 34. Which digit changes? Which digit stays?\" Say: \"Ten more is one more TEN. The ones stay the same.\" Check on the hundreds chart only after you have written your answer.",
       "watch": "Watch who still counts by ones to find ten more. Check the numbers that cross a ten, such as 1 more than 39 and 1 less than 40; say those numbers aloud together before writing."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -3097,7 +3163,8 @@
       "mistake": "Children say the skip-counting chant correctly and then write the next counting number in the gap (10, 20, 21). Counting by twos, they slip onto the odd numbers after one mistake and do not notice.",
       "words": "Count aloud as a class and stop on a number: \"…30, 40. What comes next? How much more is it?\" Ask about the pattern: \"Counting by fives, what do the numbers end in?\" (5 and 0.) \"Counting by tens?\" (Always 0.) \"Counting by twos?\" (0, 2, 4, 6, or 8: the even numbers.)",
       "watch": "Notice who checks a row by its pattern (\"this cannot be right, it ends in 3\"). Start some rows in the middle, at 40 or at 15; a child who can only begin at the start has learned a song, not a count. Three pages are a lot for one day: do tens and fives first, and twos the next day."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -3109,8 +3176,9 @@
    "subject": "math",
    "title": "Time, Calendar, and Coins",
    "metaTitle": "Grade 1 Math Lesson Plans: Time, Calendar, and Coins",
-   "metaDescription": "A one-week Grade 1 math unit: 5 lessons on time to the hour and half hour, the calendar, ordinal numbers, and counting coins, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on time to the hour and half hour, the calendar, ordinal numbers, and counting coins, each with a teacher note.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -3167,7 +3235,8 @@
       "mistake": "Children mix up the two hands and read 6:00 as 12:30. At half past, the hour hand sits between two numbers and children name the one ahead, so half past 2 is read as 3:30.",
       "words": "Say: \"The short hand tells the hour. Read it first.\" At half past: \"The short hand is on its way from 2 to 3. It has not reached 3, so the hour is still 2.\" Say it both ways: \"half past two\" and \"two thirty.\"",
       "watch": "Ask where the hour hand points at half past and listen for \"between.\" A child who expects it on the 3 at 2:30 should move the hands of a real clock from 2:00 to 3:00 and watch the short hand travel."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -3223,7 +3292,8 @@
       "mistake": "Children draw both hands the same length, so nobody can read the clock. For half past they put the hour hand exactly on the number and not halfway to the next one.",
       "words": "Say: \"When we READ a clock, we start with the short hand. When we DRAW one, the long hand is easier to place, so draw it first: to the 12 for o'clock, to the 6 for half past. Then the hour hand: SHORT.\" For 4:30: \"The short hand goes halfway between the 4 and the 5.\"",
       "watch": "Look at the lengths of the two hands and at where the short hand sits at half past. Drawing shows what reading hides: a child can pick 4:30 from a list and still not know where the hour hand belongs."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -3269,7 +3339,8 @@
       "mistake": "Children mix up yesterday and tomorrow, and they are stuck when today is Saturday or Sunday because the week seems to end there. With the months, the order falls apart after the first few.",
       "words": "Say: \"Yesterday is the day before today. Tomorrow is the day after.\" Show that the week goes around: \"After Saturday comes Sunday again.\" Say the months in four groups of three, and ask: \"Which month is your birthday in? Which month comes before it?\"",
       "watch": "Check the items where today sits at the edge of the week: after Saturday comes Sunday, and the week starts over. For the months, notice who has to start from January each time; say the months with the calendar until the order holds from any month."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -3319,7 +3390,8 @@
       "mistake": "Children write 1th, 2th, 3th, or the plain number with no ending. They read \"fifth\" as \"five\" and \"eighth\" as \"eight,\" and find the place by counting pictures, not by reading the word.",
       "words": "Teach the endings for the first ten places: \"1st, 2nd, 3rd. From 4th to 10th they all end in th.\" Read the words aloud together: \"first, second, third, fourth, fifth.\" Ask every time: \"Where is the flag? That is where we start.\"",
       "watch": "Check the endings on 1st, 2nd, and 3rd, and whether a child starts from the flag. Reading the ordinal words is a reading task; read them with the children who cannot yet."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -3377,7 +3449,8 @@
       "mistake": "Children count the coins, not the cents: three dimes are \"3.\" They think the nickel is worth more than the dime because it is bigger. With two kinds of coins they count everything by ones.",
       "words": "Hold up each coin: \"A dime is small and worth 10 cents. A nickel is bigger and worth only 5.\" Count with the value: \"10, 20, 30 cents.\" With two kinds: \"Start with the coins that are worth the most. 10, 20… 25, 30.\" With a quarter: \"Say 25 first, then count on: 25, 35, 45.\"",
       "watch": "Watch the switch from counting by tens to counting by fives or ones inside one purse. Children who lose the count there should stay on the first-steps page. Use real or plastic coins first; the coins on a page are hard to tell apart for children who have not handled money."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -3389,8 +3462,9 @@
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
    "metaTitle": "Grade 1 Math Lesson Plans: Shapes, Measuring, and Graphs",
-   "metaDescription": "A two-week Grade 1 math unit: 7 lessons on shapes, tangram puzzles, measuring length, sorting, picture graphs, bar graphs, and patterns, with teacher notes.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on shapes, tangram puzzles, measuring length, sorting, picture graphs, bar graphs, and patterns, with teacher notes.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3454,7 +3528,8 @@
       "mistake": "Children accept a shape with a curved side or an open corner as a triangle because it \"looks like one,\" and reject a real triangle that is long, thin, or turned. Color and size are taken as part of what a shape is.",
       "words": "Ask: \"What MUST a triangle have?\" (Three straight sides, three corners, and it is closed.) \"Does it matter if it is big, red, or turned?\" (No.) Have children give the reason: \"It is not a triangle because this side is curved.\"",
       "watch": "Listen for reasons that name sides and corners. A child who says \"it is too pointy\" or \"it is upside down\" is still going by looks. A square is also a rectangle; accept that answer and say why."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -3499,7 +3574,8 @@
       "mistake": "Children place the big pieces last and have no room left, or they leave a piece over and call the figure finished. For the missing piece they pick one with the right shape and the wrong size.",
       "words": "Say: \"Start with the two big triangles. Where could they go?\" Ask: \"Did you use all seven? Is anything sticking out?\" For the missing piece: \"Right shape AND right size. Turn it in your head.\"",
       "watch": "These shadow puzzles have no lines inside and are hard: let children work in pairs, and give a child who is stuck one piece placed for them, not the whole answer. Each child or pair needs a tangram set; if you have none, print and cut the page \"Tangram Puzzles: Cut Out the Pieces and Build Two Figures\" from the Kindergarten unit on shapes."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -3562,7 +3638,8 @@
       "mistake": "Children count every square in the row, also the ones the object does not reach, or they count the lines and not the squares. When ordering, they go by where an object ends on the page and not by how long it is.",
       "words": "Say: \"Count only the squares under the object, from its start to its end.\" Say the unit every time: \"The pencil is 6 squares long.\" Ask: \"Which is longer? How many squares longer?\"",
       "watch": "Listen for an answer with no unit (\"6\") and ask \"six what?\" Check an object that does not start at the edge of the row; that is where children count too many."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -3610,7 +3687,8 @@
       "mistake": "Children sort by something of their own (color, or what they like) and not by the three groups on the page. A picture that could go two ways stops them, or gets two lines.",
       "words": "Read the three bins first: \"What goes in this one? What is the rule?\" Ask for the reason with each line: \"Why does the apple go there?\" Afterward: \"Which bin has the most? Which has the fewest?\"",
       "watch": "Listen to the reasons more than you check the lines. A child who can say the rule for a bin is classifying; a child who matches by looks alone will be lost when the pictures change."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -3666,7 +3744,8 @@
       "mistake": "Children write a total in the wrong row of the table because they do not check the picture at the start of the row. The pages ask only for totals; when you add the question \"how many more,\" children give the bigger number and not the difference.",
       "words": "Say: \"Each picture in the graph stands for one thing.\" Ask three kinds of questions: \"How many apples? Which has the most? How many MORE apples than pears?\" For \"how many more,\" line up the two rows and count the extra ones.",
       "watch": "Ask every child one \"how many more\" question; it is the hard one. See who compares two rows by matching them and who just reads off the larger number."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -3728,7 +3807,8 @@
       "mistake": "Children count the boxes in a bar and skip the bottom box, or count the line at the top as one more, so the number is off by one. They do not follow the top of the bar across to the number on the side.",
       "words": "Say: \"Put your finger on the top of the bar. Slide it across to the numbers. What number is it on?\" When coloring: \"Start at the bottom. One box for each one. Stop at the number.\"",
       "watch": "See who uses the numbers on the side and who counts boxes one by one; both work, but the numbers on the side are the new idea. Check that colored bars start at the bottom and have no gaps."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -3762,7 +3842,8 @@
       "mistake": "Children fill both empty boxes with the same picture, or look only at the picture right before each gap. A gap in the middle of the row is harder than one at the end.",
       "words": "Read the row aloud and clap at each empty box: \"star, moon, star, (clap), star, moon.\" Ask: \"What is the part that repeats? Say it. Now what belongs in the gap?\" Check by reading the finished row aloud.",
       "watch": "Notice who reads the whole row again after filling the gaps. That check catches most mistakes; teach it as the last step of every pattern."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -3774,8 +3855,9 @@
    "subject": "math",
    "title": "Place Value to 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Place Value to 1,000",
-   "metaDescription": "A two-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, tens, and ones, comparing, and 100 more and 100 less.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, tens, and ones, comparing, and 100 more and 100 less.",
+   "days": 22,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3818,7 +3900,8 @@
       "mistake": "Children circle a group of about ten without counting, or they bundle a ten and then count its ones again as ones. Fourteen is written as 1 ten and 14 ones.",
       "words": "Say: \"Ten ones make one ten. Circle exactly ten. Check.\" Then: \"The ones inside the circle are a ten now. Count only the ones that are left outside.\" Ask: \"Can you make another ten? How do you know?\" Finish with the second-grade step: \"Ten tens make one hundred.\"",
       "watch": "See who counts only the loose ones after bundling and who counts them all again. With real cubes, have children snap ten together; the page comes after the hands."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -3876,7 +3959,8 @@
       "mistake": "Children know the chant from its start but cannot go on from a number in the middle. In a dot-to-dot they join the nearest dot, or read 15 and 50 as the same number.",
       "words": "Say: \"Say the number you are on. Add five in your head. Find that number, then draw.\" Count by fives and by tens on a hundreds chart and ask: \"What do you notice about the ones digit?\" Try tens from 3: \"3, 13, 23.\"",
       "watch": "Stop a child in the middle of the picture and ask what comes next. A child who starts the chant over from 5 knows a song; counting on from 35 is the skill. The pages stop at 50 and at 100, and second graders skip count to 1,000, so end with a spoken round that starts past 100: \"285, 290, 295…\", \"340, 350, 360…\", \"200, 300, 400…\"."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -3934,7 +4018,8 @@
       "mistake": "Children count the marks from the left end as 1, 2, 3, as if the line began at zero. Or they start at a printed number and count that mark as the first jump, landing one off.",
       "words": "Ask before anything else: \"Where does this line start? What is each jump worth?\" Say: \"Find the nearest printed number. Count on from it, or count back.\" Check: \"Is your number between the two printed numbers around it?\"",
       "watch": "Look for answers such as 3 or 7 on a line from 40 to 60; that child ignored the printed numbers. Have each child tell you the start number and the size of one jump before writing."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -4004,7 +4089,8 @@
       "mistake": "Children mix up the directions: up feels like more, so they add ten for an up arrow. With several arrows they make one jump, forget the number they reached, and start again from the first number.",
       "words": "Have children say each jump: \"Down is ten more: 34, 44. Right is one more: 45.\" Ask: \"Up one row. Is the number bigger or smaller? Check on the chart.\" Let them write the number after every arrow.",
       "watch": "Notice who has to look at the chart and who can make the jump mentally. Check the up arrows first; a child who adds on an up arrow is thinking \"higher is more,\" as on a thermometer."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -4052,7 +4138,8 @@
       "mistake": "Children write the counts they see and skip an empty place: two flats and six cubes become 26. When a number is read aloud, the same children write what they hear, and two hundred six becomes 2006.",
       "words": "Count by place: \"100, 200… 210, 220… 221, 222.\" Say: \"Every place needs a digit. No tens? Write a zero to hold the place.\" Ask: \"What is the 2 worth in 206? And the 0? And the 6?\"",
       "watch": "Check every number with a zero in the tens or the ones place first. A child who writes 26 for two flats and six cubes should keep the place-value chart beside every number for now."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -4106,7 +4193,8 @@
       "mistake": "Children say an underlined 4 is worth \"4\" wherever it is. For 345 they pick 300 + 4 + 5, treating the tens digit as ones.",
       "words": "Ask: \"What place is the digit in? The tens place, so it is 4 tens. What are 4 tens worth?\" (40.) Say a number in parts: \"345 is 300 and 40 and 5.\" Write it both ways and read it both ways.",
       "watch": "Ask for the value of the same digit in two places, as in 44 or 404. A child who answers \"four\" both times is naming the digit, not its value."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -4149,7 +4237,8 @@
       "mistake": "Children decide by the biggest digit anywhere in the number (\"199 is greater than 201 because of the nines\"). When the hundreds are the same, they jump to the ones and skip the tens.",
       "words": "Say: \"Start on the left. Compare the hundreds. Same? Then the tens. Same? Then the ones.\" Read the finished line aloud: \"402 is greater than 398.\" For ordering: \"Find the least number and write 1 by it. Then find the least of the ones that are left.\"",
       "watch": "Use pairs like 398 and 402 to see who compares place by place from the left. In ordering four numbers, look for a child who compares only neighbors and never checks the whole row."
-     }
+     },
+     "days": 2
     },
     {
      "n": 8,
@@ -4193,7 +4282,8 @@
       "mistake": "Children change the tens or the ones digit, or count up by ones and give up. A hundred less than a number just over 100, such as 105, leaves them without a hundreds digit and unsure what to write.",
       "words": "Ask: \"A hundred more. Which digit changes? Which two stay the same?\" Say: \"Only the hundreds digit changes. 347, 447.\" Count by hundreds from any number: \"26, 126, 226, 326.\" Then try ten: \"347, 357. Which digit changed this time?\"",
       "watch": "See who answers at once by changing one digit and who still counts. Give one number above 900 and talk about what comes after 9 hundreds."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -4205,8 +4295,9 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100 and 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100 and 1,000",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -4244,7 +4335,8 @@
       "mistake": "Children count each kind of block and write the three counts side by side, even when there are 12 ones or 11 tens: 2 hundreds, 4 tens, and 12 ones become 2412.",
       "words": "Say: \"Put the ones together first. Are there ten or more? Trade ten ones for one ten.\" Then the tens: \"Ten tens? Trade them for a hundred.\" Ask: \"How many ones are left after the trade?\"",
       "watch": "Look for answers with four digits where three are expected; they show a missed trade. Use real blocks and make the trade with the hands before anything is written."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -4282,7 +4374,8 @@
       "mistake": "When there are not enough ones to take away, children take the smaller digit from the bigger one in each place (52 − 17 becomes 45), or they say it cannot be done.",
       "words": "Say: \"I need to take 7 ones and I have only 2. Trade one ten for ten ones. Now I have 12 ones.\" Ask: \"How many tens are left after the trade?\" Cross out blocks on the page as they are taken away.",
       "watch": "Check the problems where the second number has more ones than the first. A child who writes the difference of the digits should break a real ten-rod into ones a few times."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -4340,7 +4433,8 @@
       "mistake": "Children write a two-digit sum under the ones column (27 + 15 becomes 312), or they write the new ten and forget to add it. Children who add the tens first have nowhere to put the new ten and leave the tens digit as it was. In subtraction they still take the smaller digit from the bigger one, as with the blocks.",
       "words": "Say: \"Ones first. 7 and 5 is 12 ones: 1 ten and 2 ones. Write the 2, and write the new ten above the tens.\" In subtraction: \"2 ones take away 7? Not enough ones. Trade one ten for ten ones: now there are 12 ones.\" Have children say what the small 1 means: \"one ten,\" not \"one.\"",
       "watch": "Ask a child to explain the small carried digit. If it is \"just a one,\" go back to blocks and make the trade. Compare the answer with an estimate: \"About how much should it be?\""
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -4394,7 +4488,8 @@
       "mistake": "Children add the tens and the ones and forget to trade when the ones make more than 9: 28 + 15 becomes 313 or 33. In the maze one wrong step carries along the whole road, and they do not go back to find it.",
       "words": "Say: \"Add the tens, add the ones, then put them together. 28 + 15: 30, and 13 more, 43.\" Ask: \"Do the ones make a new ten?\" In the maze: \"Write the number after every sign. If the end is wrong, check each step.\"",
       "watch": "Let children show their steps beside the wall. A child with the lower bricks right and one brick near the top wrong made a single adding mistake that carried upward; a child with nothing right may not see which two bricks to add."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -4406,8 +4501,9 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A one-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A four-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -4457,7 +4553,8 @@
       "mistake": "Children count the number marks and not the spaces, so they say \"one\" at the zero mark and read one too many. With a real ruler they line the object up with the edge of the ruler or with the 1, not with the 0.",
       "words": "Say: \"Start at zero. Zero means no length yet. Count the spaces: one, two, three.\" Then: \"The end of the pencil is at the 6, so it is 6 units long.\" With a real ruler: \"Find the 0 mark. It is not always at the edge. Are we using the inch side or the centimeter side? Say the unit: 6 inches.\"",
       "watch": "Hand out real rulers and look at where children put the start of the object. The page starts everything at 0; a classroom ruler does not do that for them."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -4506,7 +4603,8 @@
       "mistake": "Children write the length of the longer object as the answer to \"how much longer.\" Or they add the two lengths, because two numbers in a problem have always meant adding.",
       "words": "Say: \"The ribbon is 9 units long. The string is 6 units long. Line them up. Where does the string stop? The extra part is how much LONGER.\" Write it: \"9 − 6 = 3. The ribbon is 3 units longer.\"",
       "watch": "Ask the child to show the extra part with two fingers on the page. A child who can show it and cannot write the subtraction needs the words \"how many more to get from 6 to 9.\""
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -4563,7 +4661,8 @@
       "mistake": "Children read the number the minute hand points to as the minutes: a hand on the 4 is \"4 minutes,\" and 2:20 becomes 2:04. Near the end of an hour they name the next hour: 2:50 is read as 3:50.",
       "words": "Count by fives around the clock, touching each number: \"5, 10, 15, 20.\" Say: \"The 4 means 20 minutes.\" For the hour: \"Has the short hand passed the 3 yet? No, so it is still 2.\" Use both names: \"2:15\" and \"quarter past two.\" Add the half of the day: \"School ends at 2:15. Is that a.m. or p.m.?\"",
       "watch": "Check times after the half hour, such as 2:50, where the hour hand is almost on the next number. Have the child count by fives aloud once; you will hear where it goes wrong."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -4613,7 +4712,8 @@
       "mistake": "Children read along a row to find a weekday and do not look up to the top of the column. For \"one week later\" they count seven boxes one by one and often count the starting day as day one.",
       "words": "Say: \"Find the date. Go straight up the column. What day is at the top?\" For a week later: \"One week later is the box right below. Same weekday, 7 more.\" Counting days: \"Do not count the day you start on. Count the jumps.\"",
       "watch": "Ask \"What day of the week is the 17th?\" and follow the child's finger: it should travel up the column. Check \"how many days from… to…\" answers that are one too many."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -4671,7 +4771,8 @@
       "mistake": "Children add numbers without checking which thing the story names, or take the price of the wrong thing from the shelf. With three things in a basket they add two prices and forget the third.",
       "words": "Say: \"First find each thing on the shelf and say its price. Write the prices down. Then add.\" Ask: \"How much does it cost altogether?\" Say amounts with the unit: \"45 cents.\"",
       "watch": "Have children underline what is being bought before they look at the shelf. Check that totals carry a cent sign or a dollar sign; a bare number is half an answer. Have one child in each group lay out a total with coins on the Money Mat, because the pages never show a coin."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -4683,8 +4784,9 @@
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A one-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -4741,7 +4843,8 @@
       "mistake": "Children read a tally bundle as 4 or 6 and color a bar to the wrong height. For \"how many more\" they give the number of the taller bar; for \"how many altogether\" they read one bar and stop.",
       "words": "Say: \"Count the tally by fives first, then the ones. Write the number, then color.\" For questions: \"Which two bars does the question name? Put a finger on each.\" Then: \"How many MORE means the difference: subtract.\"",
       "watch": "Have children write down the two numbers they are using before they answer. That shows whether a wrong answer comes from reading the graph or from the adding and subtracting."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -4785,7 +4888,8 @@
       "mistake": "Children mix up the two kinds of numbers: the number under a stack (what was measured) and the number of X marks (how many times). Asked \"how many are 5 long,\" they answer \"5.\"",
       "words": "Say: \"The numbers on the line tell WHAT was measured. The X marks tell HOW MANY times.\" Ask: \"How many pencils were 5 units long? Count the Xs above the 5.\" Then: \"Which length came up most often?\"",
       "watch": "Ask one question each way: \"How many Xs are above the 7?\" and \"Which number has 3 Xs?\" A child who can answer both understands the plot. Then have the class measure six pencils and add an X for each; making a plot from your own measurements is the other half of this skill."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -4835,7 +4939,8 @@
       "mistake": "Children count the pictures and write that number, because until now one picture has always meant one thing. The key goes unread.",
       "words": "Say: \"Read the key first. Each picture stands for 2.\" Count a row by twos, touching each picture: \"2, 4, 6, 8.\" Ask: \"If a row shows 5 pictures, how many things is that? How do you know?\"",
       "watch": "Look at the first row a child fills in: a plain count of the pictures means the key was skipped. Counting by twos here is a first step toward multiplying; name it (\"4 twos are 8\")."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -4875,7 +4980,8 @@
       "mistake": "Children use the letter or the number and not both, coloring a whole row or the wrong square in the right column. Writing codes, they put the number first or name the square next door.",
       "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\"",
       "watch": "The picture checks the work: a square out of place shows at once. See who uses two fingers and who guesses. Writing the code of a square is harder than finding one; do it second."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -4887,8 +4993,9 @@
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
    "metaTitle": "Grade 2 Math Lesson Plans: Equal Groups and Equal Shares",
-   "metaDescription": "A two-week Grade 2 math unit: 7 lessons on odd and even, equal groups, arrays, sharing, and halves, thirds, and fourths, with a first look at the multiplication sign.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on odd and even, equal groups, arrays, sharing, and halves, thirds, and fourths, with a first look at the multiplication sign.",
+   "days": 22,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -4946,7 +5053,8 @@
       "mistake": "Children look at the wrong digit: 34 is called odd because of the 3. They do not connect \"even\" with \"two equal parts,\" so the ones-digit rule is a trick with no reason behind it.",
       "words": "Say: \"Even means two equal parts with nothing left: 8 is 4 + 4. Odd means one is left: 9 is 4 + 4 + 1.\" For big numbers: \"Look only at the ones digit. The tens can always be shared.\" Ask: \"Is 30 even? Why?\"",
       "watch": "Test with 34, 43, 50, and 71. A child who looks at the tens digit should see that every ten splits into 5 and 5, so only the ones decide."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -5003,7 +5111,8 @@
       "mistake": "Children mix up the number of groups and the number in each group: 3 groups of 4 is written 3 + 4, or 3 + 3 + 3 + 3. Or they count every picture one by one and ignore the circles around the groups.",
       "words": "Ask two questions every time: \"How many groups? How many in EACH group?\" Say: \"3 groups of 4. 4 + 4 + 4. Three times four.\" Read the times sign as \"groups of\" at first: \"3 groups of 4 is 12.\"",
       "watch": "Check that the addition has as many addends as there are groups. Ask a child to draw \"2 groups of 5\" and then \"5 groups of 2\": the same total, two different pictures."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -5066,7 +5175,8 @@
       "mistake": "Children do not know which way a row goes and which way a column goes. They count all the dots one by one, or, counting along two edges, they will not count the corner dot a second time and come up one short: a 3 by 5 array becomes \"3 rows and 4 columns.\"",
       "words": "Say: \"Rows go across, like rows of seats. Columns go up and down, like the columns of a building.\" Ask: \"How many rows? How many in each row?\" Then: \"3 rows of 5: 5 + 5 + 5. 5, 10, 15.\"",
       "watch": "Have a child run a finger along one row and down one column. Turn the page sideways and ask whether the total changed; it has not, and that is worth saying aloud."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -5128,7 +5238,8 @@
       "mistake": "Counting by threes and fours has no easy pattern in the ones digit, so children add on their fingers and land one off. One slip carries through the rest of the row.",
       "words": "Whisper-count together: whisper \"1, 2,\" say \"3\" aloud; whisper \"4, 5,\" say \"6.\" Ask: \"How far is it from one number to the next? Check the jump.\" Link fours to twos: \"Counting by fours is every other number of counting by twos.\"",
       "watch": "Have children check each row by the size of its jumps before handing it in. A child who adds on fingers every time needs many short turns of saying the count aloud, not more pages."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -5184,7 +5295,8 @@
       "mistake": "Children deal out a few to each bin and stop with some left in the pile, or the bins end up unequal. They mix up the two questions: how many in each bin, and how many groups.",
       "words": "Say: \"One for each bin, then one more for each, until the pile is gone. Are all the bins the same?\" Ask the two questions apart: \"How many does each one get?\" and \"How many equal groups are there?\"",
       "watch": "Use counters and cups before the page. Check that nothing is left in the pile and that every bin holds the same. Listen for which of the two questions a child is answering."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -5248,7 +5360,8 @@
       "mistake": "Children call any shape cut into two pieces \"halves,\" even when one piece is bigger. They think equal parts must look alike, so a square cut corner to corner and a square cut straight across cannot both show halves.",
       "words": "Ask: \"Are the parts EQUAL? Would it be fair to share it this way?\" Say: \"Two equal parts are halves. Three equal parts are thirds. Four equal parts are fourths, or quarters.\" Cut the parts out and lay one on top of the other, turning it if you need to. Do not check by folding: a rectangle cut corner to corner has two equal halves that do not fold onto each other.",
       "watch": "Look at what children do with shapes cut into unequal parts. A child who colors one of two unequal pieces and calls it a half is counting pieces, not comparing sizes."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -5298,7 +5411,8 @@
       "mistake": "Children circle 2 pictures for one half, 3 for one third, and 4 for one fourth: the bottom number is taken as how many to circle.",
       "words": "Say: \"One third means: make 3 equal groups, then take ONE of the groups.\" Ask: \"How many groups did you make? Are they equal? How many are in one group?\" Write it: \"One third of 12 is 4.\"",
       "watch": "Look for an answer that equals the bottom number of the fraction. Have that child share the pictures into cups first and then lift one cup. Fractions of a group, and fractions written with two numbers, come after second grade: keep saying the words \"one third\" and treat the page as a first look."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -5310,8 +5424,9 @@
    "subject": "math",
    "title": "Shapes, Solids, and Symmetry",
    "metaTitle": "Grade 2 Math Lesson Plans: Shapes, Solids, and Symmetry",
-   "metaDescription": "A two-week Grade 2 math unit: 6 lessons on sorting shapes by sides; solid shapes and their faces, edges, and vertices; and a first look at symmetry, with teacher notes.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 math unit: 6 lessons on sorting shapes by sides; solid shapes and their faces, edges, and vertices; and a first look at symmetry, with teacher notes.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -5356,7 +5471,8 @@
       "mistake": "Children know the regular shapes by sight and are thrown by an irregular one: a five-sided shape that is not a neat pentagon is \"not a shape.\" In a dented shape, a side inside the dent is left out.",
       "words": "Say: \"A shape gets its name from its number of sides, not from how it looks.\" Name them: \"3 sides, triangle. 4 sides, quadrilateral. 5, pentagon. 6, hexagon.\" Have children mark each side as they count it.",
       "watch": "Check the shapes with a dent or with one very short side; those are the ones miscounted. Ask for the name of a lopsided four-sided shape and listen for \"quadrilateral.\""
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -5406,7 +5522,8 @@
       "mistake": "Children match by size or color, or by one feature: anything pointed is a cone, so a pyramid and a cone are mixed up. A can lying on its side is not seen as a cylinder. Some still call a ball a circle and a box a square: the solid gets the name of its flat face.",
       "words": "Name each solid with a thing: \"A can is a cylinder. A ball is a sphere. A party hat is a cone.\" Ask what sets two apart: \"A cone's flat bottom is a circle, and its side is curved. A pyramid's flat bottom has straight sides and corners, and its other faces are flat triangles.\"",
       "watch": "Go on a solid hunt in the classroom and have children say each name aloud. Check the cone and the pyramid, and the cube and the rectangular prism; those are the pairs children confuse."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -5463,7 +5580,8 @@
       "mistake": "Children count only what they can see in the drawing: three faces of a cube. Going around a solid they lose track and count an edge twice, and they say \"side\" for a face and for an edge alike.",
       "words": "Use three words and keep them apart: \"A face is a flat surface. An edge is where two faces meet. A corner, or vertex, is where edges meet.\" On a real box: \"Touch a face. Run your finger along an edge. Point to a vertex.\" For a can or a cone: \"Is this part flat or curved? Only the flat parts are faces.\"",
       "watch": "Give each pair a real solid and stickers to mark what has been counted. Ask about the hidden parts of a drawing: \"What about the back? The bottom?\""
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -5518,7 +5636,8 @@
       "mistake": "Children think any line that cuts a shape into two equal parts is a mirror line. The slanted line across a rectangle makes two equal halves that do not fold onto each other, and children circle the check.",
       "words": "Say: \"A mirror line is a fold line. Fold along it: do the two sides land exactly on top of each other?\" Cut out a long paper rectangle (not a square) and fold it corner to corner to show a line that cuts it into two equal parts and is not a mirror line.",
       "watch": "Use the folding test with paper for the first few. Listen to what children answer for slanted lines; that is where equal halves and mirror halves come apart. Fold a square corner to corner as well, so that \"slanted lines are never mirror lines\" does not become the rule."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -5561,7 +5680,8 @@
       "mistake": "On the grid page children copy the half as it is, sliding it across the line instead of flipping it: a square two boxes from the line is colored two boxes from the far edge. On the tracing page the other half is already there, so children trace without noticing that every part has a partner across the line.",
       "words": "Say: \"Count the boxes AWAY from the line. Two boxes away on this side, two boxes away on the other side.\" Work row by row. Check with a small mirror on the line: \"Does the mirror show what you colored?\"",
       "watch": "Look at the squares farthest from the line; a slid copy puts them next to the line. Give a mirror to any child whose picture looks shifted and let the child find the difference. On the tracing page, have the child point to one part and then to its partner on the other side."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -5593,7 +5713,8 @@
       "mistake": "Children pick the first figure made of the same pieces. A figure that is turned or flipped looks \"the same\" to them, because until now a turned shape always was the same shape.",
       "words": "Say: \"A shape that is turned or flipped is still the same shape. This puzzle asks for more: it must STAND the same way as the shadow.\" Ask: \"Which way does the point face in the shadow? Left or right? Up or down?\" Have children trace the outline of the shadow with a finger and then the outline of each choice.",
       "watch": "Ask a child what is different about a figure they did not choose: \"It is flipped\" or \"It is turned.\" Naming the difference is the skill; the match alone can be a lucky guess."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -5605,8 +5726,9 @@
    "subject": "math",
    "title": "Rounding, Adding, and Subtracting Within 1,000",
    "metaTitle": "Grade 3 Lesson Plans: Rounding, Adding, and Subtracting Within 1,000",
-   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on rounding to the nearest ten and hundred, estimating sums, regrouping, the equal sign, odd and even sums, and patterns.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on rounding to the nearest ten and hundred, estimating sums, regrouping, the equal sign, odd and even sums, and patterns.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -5663,7 +5785,8 @@
       "mistake": "Children round down every time by cutting off the ones (47 becomes 40), or they round 47 to 57. A number that ends in 5 has no closer ten, and children do not know which way to go.",
       "words": "Ask first: \"Which two tens is 47 between?\" (40 and 50.) \"Which one is it closer to?\" Say: \"The ones digit decides. 0 to 4, round down. 5 to 9, round up.\" For 45: \"It is exactly in the middle. Everyone has agreed to round up, so 45 rounds to 50.\"",
       "watch": "Ask for the two tens before the answer. A child who cannot name them is using the rule with no number line in mind; go back to the dot on the line."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -5720,7 +5843,8 @@
       "mistake": "Children look at the ones digit, as they did when rounding to ten, so 349 is rounded up to 400 because of the 9. Or they change only the tens and write 350.",
       "words": "Ask: \"Which two hundreds is 349 between? What number is halfway?\" (350.) \"Is 349 before or after halfway?\" Say: \"For hundreds, the TENS digit decides. The ones do not matter.\"",
       "watch": "Use 349 and 351 as test numbers. A child who rounds both the same way is not thinking of the halfway point; put both numbers on a line from 300 to 400."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -5771,7 +5895,8 @@
       "mistake": "Children work out the exact sum first and then round the answer, which defeats the purpose. Or they round only one of the two numbers.",
       "words": "Say: \"Round first, then add. An estimate is fast and close, not exact.\" Show it: \"48 + 31 is about 50 + 30. About 80.\" Then: \"Someone got 109 for 48 + 31. Can that be right? How do you know without adding?\"",
       "watch": "See who writes the exact sum in the margin before rounding. Give a wrong exact answer and ask the class to catch it with an estimate; that is what estimating is for."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -5829,7 +5954,8 @@
       "mistake": "Children forget to add the new ten or hundred, or they write it and add it twice. In subtraction they trade a ten for ten ones and forget to make the tens one smaller; with a zero in the tens place (402 − 178) they do not know where the ten ones can come from.",
       "words": "Say each step: \"8 and 7 is 15 ones. That is 1 ten and 5 ones. Write the 5, and write the new ten above the tens.\" For a zero: \"No tens to trade. Go to the hundreds: trade one hundred for ten tens. Now trade one of those tens for ten ones.\"",
       "watch": "Check subtraction across a zero first. Have children add the answer back to check a subtraction, and ask \"About how much should it be?\" before they compute."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -5872,7 +5998,8 @@
       "mistake": "Children read the equal sign as \"the answer comes next.\" In 8 + 4 = __ + 5 they write 12 in the blank, or 17 by adding everything.",
       "words": "Say: \"The equal sign means the SAME on both sides, like a balance.\" Work out one side first: \"8 + 4 is 12. So the other side must be 12 too. What plus 5 makes 12?\" Read the sign as \"is the same as.\"",
       "watch": "Give three quick true-or-false cards: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. A child who calls them wrong \"because the answer is on the wrong side\" still reads the sign as \"the answer comes next\"; that child should work with a real or a drawn balance and smaller numbers."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -5917,7 +6044,8 @@
       "mistake": "Children add anyway and then look at the answer. Or they guess a rule that feels right: \"odd plus odd must be odd.\"",
       "words": "Try small numbers first and collect the results: \"3 + 5 = 8. Odd plus odd… even!\" Ask why: \"Each odd number has one left over. The two leftovers make a pair.\" Build the three rules together: even + even, odd + odd, even + odd.",
       "watch": "Ask a child to explain odd plus odd with counters laid out in pairs. A child who can only recite the table will forget it; one who sees the two leftovers pair up will not."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -5973,7 +6101,8 @@
       "mistake": "Children look at one pair of numbers, decide on a rule, and do not test it on the rest of the row. In shrinking patterns they keep adding. Two missing numbers in a row stop them.",
       "words": "Ask: \"How do you get from this number to the next? Is it the same jump every time? Check it on three pairs.\" Have children write the rule above the row: \"+ 25\" or \"− 4.\" For a double gap: \"Two jumps take you from 40 to 60. How big is one jump?\"",
       "watch": "See who writes the rule down and tests it. Mix growing and shrinking rows; a child who adds in a shrinking row has stopped looking at the numbers."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -5985,8 +6114,9 @@
    "subject": "math",
    "title": "Starting Multiplication",
    "metaTitle": "Grade 3 Math Lesson Plans: Starting Multiplication",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on equal groups and arrays, hops on a number line, turning an array, the 2 and 5 times tables, and number machines.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on equal groups and arrays, hops on a number line, turning an array, the 2 and 5 times tables, and number machines.",
+   "days": 16,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -6042,7 +6172,8 @@
       "mistake": "Children count every picture by ones and never use the groups. In the equation they write the total where a factor belongs.",
       "words": "Say: \"6 groups of 4 is 6 times 4.\" Find the total from a fact you know: \"5 groups of 4 is 20, one more group is 24.\" Use the words \"factor\" for the numbers you multiply and \"product\" for the total.",
       "watch": "Ask how the child found the total. Counting by ones gives a right answer and no progress; a child who says \"five of them and one more\" is building the tables."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -6086,7 +6217,8 @@
       "mistake": "Children write the number of the hop (1, 2, 3) under each landing and not the place where it lands. Or they start the first hop at 1, so that every landing is one too big.",
       "words": "Say: \"Every hop is the same size. Start at zero. Hops of 4 land on 4, 8, 12.\" Ask: \"How many hops? How big is each one? Where are you after 5 hops of 4?\" Call the landing numbers \"multiples of 4.\"",
       "watch": "Check that the first landing equals the size of the hop. Ask for \"3 hops of 5\" and \"5 hops of 3\" and let children see that both end in the same place."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -6134,7 +6266,8 @@
       "mistake": "Children count both arrays from scratch as two separate problems and do not notice that the totals match. Some believe 3 × 7 and 7 × 3 are two different facts that both have to be learned.",
       "words": "Turn a paper array a quarter turn and ask: \"Did I add any? Did I take any away? So what is the total now?\" Say: \"3 rows of 7 and 7 rows of 3 are the same amount. If you know one, you know the other.\"",
       "watch": "Ask \"What is 7 × 3?\" right after a child has worked out 3 × 7. A child who starts counting again has not taken in the turn; turn the array once more."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -6200,7 +6333,8 @@
       "mistake": "Children skip count from the start for every fact and lose track around the sixth or seventh number. They mix up neighbors: 6 × 5 is answered with 35.",
       "words": "Start from a fact the child knows: \"You know 5 × 5 is 25. So 6 × 5 is one more five: 30.\" Use doubles for the 2s, and half of the tens fact for the 5s: \"8 × 10 is 80, so 8 × 5 is half of that, 40.\"",
       "watch": "Listen for how a child gets a fact: from memory, from a neighbor fact, or by counting from the start. Practice a few facts each day; a page finished by skip counting has not built memory."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -6250,7 +6384,8 @@
       "mistake": "Children use the rule the same way in every row. When the number that went IN is missing, they apply the rule forward again and do not undo it: on a + 7 machine with 12 coming out they write 19, not 5; on a × 5 machine with 30 coming out they write 150, not 6. Some read a minus rule as plus.",
       "words": "Have children read the rule aloud first: \"This machine adds 7 to every number.\" For a number coming out (the output): \"5 goes in. Add 7. What comes out?\" For a number going in (the input): \"12 came out. The machine added 7. What went in? Undo it: 12 minus 7.\" On a times machine: \"30 came out. The machine multiplied by 5. What number times 5 makes 30?\" Ask: \"How can you check? Put your number in and run the machine.\"",
       "watch": "Check the rows where the missing number is the one going in; those need the opposite operation. Have the child put the answer back through the machine: if 5 plus 7 gives the 12 that is printed, the row is right."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -6262,8 +6397,9 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -6312,7 +6448,8 @@
       "mistake": "Children write the number of bins or the size of the pile as the answer. Without counters they guess how many go in each bin and do not check that the bins use up the pile.",
       "words": "Say: \"12 shared among 3 is a division: 12 ÷ 3.\" Then deal: \"One for each, again, again, until none are left. Each gets 4.\" Check with multiplication: \"3 bins of 4 make 12.\" Read the sign as \"divided by.\"",
       "watch": "Ask every child to check one answer by multiplying. A child who sees that 3 × 4 = 12 answers 12 ÷ 3 has found the shortcut that makes division easy."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -6356,7 +6493,8 @@
       "mistake": "Children write the size of the hop as the answer, or they count every mark they touch, the starting number included, which gives one too many. They do not see that this is division too.",
       "words": "Say: \"Start at 15. Hop back 3 each time: 12, 9, 6, 3, 0. How many hops? Five.\" Write it: \"15 ÷ 3 = 5. There are five 3s in 15.\" Ask: \"How many 3s fit into 15?\"",
       "watch": "Have children count hops with a finger on each arc, not on the marks. Put the two meanings side by side once: 15 shared among 3, and how many 3s are in 15."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -6413,7 +6551,8 @@
       "mistake": "Children treat a division as a new problem and do not use the multiplication they just wrote. In a fact family they write a division that starts with a small number, such as 4 ÷ 24 = 6.",
       "words": "Say: \"Division asks for the missing factor. 24 ÷ 4 asks: 4 times what is 24?\" Point to the array: \"In a fact family the total is the number we divide: 24 ÷ 4, not 4 ÷ 24.\" Have children read all four facts of one array aloud.",
       "watch": "Ask a division and see whether the child thinks of the multiplication. Check the order of the numbers in each division: the total, the whole array, comes first. Say \"the total,\" never \"the biggest number\"; later on children will divide a smaller number by a bigger one."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -6474,7 +6613,8 @@
       "mistake": "Children pick out the two numbers and multiply every time, or choose the operation from one word such as \"each.\" They do not ask what the answer will be: a total, a share, or a number of groups.",
       "words": "Ask three questions about every story: \"Do we know how many groups? Do we know how many in each group? Do we know the total?\" Then: \"Which of the three is missing?\" Have children finish with a sentence: \"Each child gets 4 stickers.\"",
       "watch": "Read a child's answer sentence, not only the number. A bare \"4\" does not show whether the child knows it is 4 stickers each or 4 bags. Each page holds one kind of story, so the page decides for the child: read one story from each page aloud, in mixed order and without the picture, and ask which of the three is missing."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -6531,7 +6671,8 @@
       "mistake": "Children leave too many over: as many as a group or more on the grouping page, as many as the number of boxes or more on the sharing page, when one more group or one more round could be made. Or they drop the leftovers and write only the number of groups.",
       "words": "Say: \"14 in groups of 4: three groups, and 2 left over.\" Ask: \"Can you make another group from what is left? No? Then that is the remainder.\" On the sharing page: \"14 into 4 boxes. Is there enough left to give every box one more?\" State the rule together: \"The remainder is always smaller than the number you divide by.\"",
       "watch": "Check each remainder against the number the pile was divided by: the size of a group on the grouping page, the number of boxes on the sharing page. A remainder of 5 with groups of 4 means one group is still hiding in the leftovers. Remainders are a fourth-grade standard: keep the words \"left over\" and treat this lesson as a first look."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -6543,8 +6684,9 @@
    "subject": "math",
    "title": "Time, Temperature, Mass, and Liquid Volume",
    "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Liquid Volume",
-   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, and milliliters in a cup, with a first look at 24-hour time.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, milliliters in a cup, plus a first look at 24-hour time.",
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -6593,7 +6735,8 @@
       "mistake": "Children read to the nearest five and stop, so 4:23 is called 4:20 or 4:25. Others count every small mark from the 12 and lose count on the way around.",
       "words": "Say: \"Go to the number just before the minute hand and count by fives to it: 5, 10, 15, 20. Then count the small marks one by one: 21, 22, 23.\" Ask: \"Is the hour hand past the 4? A little or a lot?\"",
       "watch": "Listen to a child count: fives first, then ones. Check times in the last quarter of the hour, where the hour hand is close to the next number."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -6638,7 +6781,8 @@
       "mistake": "Children subtract the two clock numbers without thinking about the clock: from 11:00 to 2:00 becomes 9 hours. Or they count the starting hour as the first hour.",
       "words": "Say: \"Count the jumps from the start time to the end time: 11 to 12 is one hour, 12 to 1 is two, 1 to 2 is three.\" Ask: \"Does three hours make sense? What could you do in that time?\"",
       "watch": "Check the items that pass 12 o'clock. A child who writes 9 hours for 11:00 to 2:00 subtracted; go around a real clock together and count each hour as it passes."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -6682,7 +6826,8 @@
       "mistake": "Children add the minutes as plain numbers and write a time that does not exist, such as 3:75. Going back across the hour, they change the minutes and forget to change the hour.",
       "words": "Say: \"An hour has 60 minutes, not 100.\" Jump to the full hour first: \"3:45 plus 30 minutes. 15 minutes takes us to 4:00. 15 more: 4:15.\" Draw the jumps on an open number line with the times written on it.",
       "watch": "Look for minutes of 60 or more in an answer. Have children show the jump to the next full hour on a clock or on a line before they write."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -6719,7 +6864,8 @@
       "mistake": "Children add 12 to morning times as well, or they drop the first digit, so that 15:00 becomes 5:00. Noon and midnight are confused.",
       "words": "Say: \"After 12 noon the 24-hour clock keeps counting: 13, 14, 15.\" Give the rule both ways: \"From 1:00 p.m. to 11:59 p.m., add 12 to the hour. From 24-hour time: if the hour is more than 12, subtract 12 and say p.m.\" Ask: \"Is 08:00 morning or evening? How do you know?\"",
       "watch": "Check noon and the hour after it, such as 12:30 p.m., which stays 12:30, and midnight, which is 00:00. Most clocks around the children show a.m. and p.m.; point out a bus schedule or a plane ticket that uses 24-hour time. This lesson goes beyond the Common Core; many Americans know 24-hour time as \"military time.\""
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -6763,7 +6909,8 @@
       "mistake": "Children count every mark as one degree, whatever the scale. They read the nearest printed number and ignore the marks between, or look at the top of the tube and not at the top of the colored line.",
       "words": "Ask first: \"This scale does not count by ones. What do the printed numbers count by? So what is each small mark worth?\" Then: \"Find the top of the line. Which printed number is just below it? Count up from there.\" Say the temperature with its unit, as the page prints it: \"70 degrees.\"",
       "watch": "Compare two thermometers with different scales that show the same temperature, and ask which one was harder to read and why."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -6820,7 +6967,8 @@
       "mistake": "Children count the weights (\"three weights, so 3\") and do not add what is written on them. On a measuring cup they read the nearest printed number and ignore the small steps in between, or they write grams for a liquid.",
       "words": "Say: \"Read each weight: 100, 50, 20. Add them: 170 grams.\" On a measuring cup: \"Look at two printed numbers next to each other. How many steps are between them? So what is one step worth?\" Always say the unit: \"170 grams,\" \"300 milliliters.\"",
       "watch": "Check that every answer has its unit. Before a child reads a scale, ask what one small step is worth; that question is the whole skill."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -6884,7 +7032,8 @@
       "mistake": "Children read the top of the cup or the nearest printed number, not the level of the liquid. When the scale goes up by 100 or 200, they count each line as 1.",
       "words": "Say: \"Put your finger on the top of the liquid. Slide it across to the scale.\" Ask: \"The numbers go 200, 400, 600. What number belongs on the line halfway between 200 and 400?\" Say the unit: \"300 milliliters.\"",
       "watch": "Use a real measuring cup and water once; children must bring their eyes down to the level of the liquid. On the page, check the cups where the liquid stops between two printed numbers."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -6896,8 +7045,9 @@
    "subject": "math",
    "title": "Area and Perimeter",
    "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons, four on area as rows times columns and perimeter as the distance around, and one extra lesson on counting the cubes in a solid.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 3 math unit: 5 lessons, four on area as rows times columns and perimeter as the distance around, and one extra lesson on counting the cubes in a solid.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -6947,7 +7097,8 @@
       "mistake": "Children count the squares one by one and miscount in a big rectangle. Others count the squares along two sides and add them, which gives a number that has nothing to do with the area.",
       "words": "Say: \"Area is how many squares cover the shape with no gaps and no overlaps.\" Ask: \"How many squares in one row? How many rows? 4 rows of 6 is 24 squares.\" Say the unit: \"24 square units.\"",
       "watch": "Ask how the child counted. Rows times columns is the goal; counting one by one is the starting point. Listen for the word \"square\" in the unit."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -6991,7 +7142,8 @@
       "mistake": "Children choose the rectangle that looks most like the first one, or think a long thin rectangle must be bigger than a compact one. They judge by eye and do not count.",
       "words": "Say: \"Different shape, same space. Count the squares of each one.\" Ask: \"A 2 by 6 and a 3 by 4. How many squares in each?\" Cut a 3 by 4 paper rectangle into pieces and rearrange it: \"Did the area change?\"",
       "watch": "See who counts and who goes by looks. Ask a child to draw two different rectangles with 12 squares on grid paper."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -7041,7 +7193,8 @@
       "mistake": "Children count the squares along the border and not the edges, so a corner square is counted once where it has two outside edges. Or they count the squares inside and give the area.",
       "words": "Say: \"Perimeter is the distance around, like a fence.\" Walk a finger along the outside: \"Count the edges, not the squares. Mark where you start.\" For a rectangle: \"Two long sides and two short sides: 5 + 3 + 5 + 3.\"",
       "watch": "Check the corners: a child who counts squares gets a number that is 4 too small. Ask \"Is that the fence or the grass?\" to keep perimeter and area apart."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -7085,7 +7238,8 @@
       "mistake": "Children believe that rectangles with the same perimeter must have the same area, or they compare areas because counting squares is what they did last. A long thin rectangle is judged to have the longer fence.",
       "words": "Say: \"Same fence, new yard.\" Make a loop of string and pull it into different rectangles: \"The string did not get longer. Did the space inside stay the same?\" Have children count the edges of each rectangle and write the numbers.",
       "watch": "Ask for both numbers of two rectangles, the perimeter and the area, and have the child say which is which. This lesson exists to pull the two ideas apart."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7128,7 +7282,8 @@
       "mistake": "Children count only the cubes they can see in the drawing and leave out the hidden ones at the back and underneath. Or they count the square faces they see and get a number that is far too big.",
       "words": "Build the tower with snap cubes first: \"How many can you see from here? Now turn it around and take it apart. Count them all.\" Say: \"Count layer by layer. How many cubes in the bottom layer? In the next one? Add the layers.\" Ask: \"A cube on top must be sitting on something. What is under it?\" Give the word: \"The number of cubes that fill a shape is its volume.\"",
       "watch": "Have each child build one tower from the page with cubes and compare the count with the written answer. A child who counts by layers (\"6 and 6 and 6\") is ready for volume as layers times the cubes in a layer."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7140,8 +7295,9 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Grade 3 Math Lesson Plans: Fractions",
-   "metaDescription": "A two-week Grade 3 math unit: 7 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -7190,7 +7346,8 @@
       "mistake": "This page reviews second grade. Children count the parts and do not compare them: four parts are \"fourths\" even when the parts differ in size. Parts that are equal in size and different in shape are turned down.",
       "words": "Ask: \"Does every part cover the same amount?\" Say: \"Only equal parts get a fraction name. Four EQUAL parts: each one is one fourth.\" Show a square cut into four triangles and one cut into four small squares: \"Different shapes, same amount.\"",
       "watch": "Look at the circles with one thin slice and the rectangles with unequal strips. A child who circles them is counting parts. Cut paper and lay the parts on top of each other; when two parts have different shapes, cut one of them and rearrange its pieces to cover the other."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -7247,7 +7404,8 @@
       "mistake": "Children write the shaded parts over the unshaded parts: 3 shaded and 1 not becomes 3/1. Or they turn the fraction upside down, with the number of all the parts on top.",
       "words": "Say: \"The bottom number tells how many equal parts the whole has. The top number tells how many of them we mean.\" Count unit pieces: \"One fourth, two fourths, three fourths.\" Use \"numerator\" and \"denominator\" once children have the idea.",
       "watch": "Check a shape with 3 of 4 parts shaded. The answer 3/1 means the child compared shaded with unshaded; count all the parts together first, then the shaded ones."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -7291,7 +7449,8 @@
       "mistake": "Children choose the longest bar, or a bar as long as the part itself. They do not use the fraction to tell how many parts make the whole.",
       "words": "Say: \"This piece is one third. How many thirds make a whole? Three. So the whole is three of these pieces long.\" Have children lay the piece down again and again, or mark its length along the bar.",
       "watch": "Ask \"How many of these pieces fit in the whole?\" before the child circles. The answer should match the bottom number of the fraction."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -7334,7 +7493,8 @@
       "mistake": "Children count the tick marks, the ones at 0 and at 1 included, and take that for the bottom number: a line cut into 4 equal spaces has 5 marks and becomes \"fifths.\" Or they count the marks up to the dot, starting with 1 at zero.",
       "words": "Say: \"Count the SPACES between 0 and 1, not the marks. Four equal spaces: each one is one fourth. So the denominator, the bottom number, is 4.\" Then hop from zero: \"One fourth, two fourths, three fourths. The dot is at three fourths.\" Ask: \"Where is zero fourths? Where is four fourths?\"",
       "watch": "Ask a child how they found the bottom number. \"I counted the lines\" means the marks were counted; fold a paper strip into fourths and lay it under the line to show the four spaces."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7377,7 +7537,8 @@
       "mistake": "Children think a bigger bottom number means a bigger fraction: one eighth is taken to be more than one fourth, because 8 is more than 4.",
       "words": "Ask: \"Would you get more pizza if it is shared among 4 people or among 8?\" Say: \"More parts means smaller parts.\" With the same bottom number: \"Three fifths and two fifths: the pieces are the same size, so more pieces is more.\" Always add: \"We can only compare fractions of wholes that are the same size.\"",
       "watch": "Use 1/4 and 1/8 as the test. A child who picks 1/8 is comparing whole numbers; go back to two equal bars, one cut into fourths and one into eighths."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -7434,7 +7595,8 @@
       "mistake": "Children look for a fraction with the same numbers as the picture and find none. Two fractions with different numbers cannot be equal, they think, so 1/2 and 2/4 are different amounts.",
       "words": "Fold a paper strip in half, then in half again: \"One half is the same amount as two fourths. Nothing was added.\" Say: \"Different name, same amount. We call them equivalent fractions.\" Ask: \"How many sixths cover the same space as one half?\"",
       "watch": "Have children lay two fraction strips one above the other and compare where the shading ends. A child who needs the numbers to match should fold paper before working on the page."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -7489,7 +7651,8 @@
       "mistake": "Children circle as many pictures as the bottom number says: 3 pictures for one third. With a top number above 1 (two thirds), they find one group and stop.",
       "words": "Say: \"The denominator, the bottom number, tells how many equal groups to make. Thirds: make 3 equal groups. One third is ONE of the groups.\" Link it to division: \"12 in 3 equal groups: 4 in each. One third of 12 is 4.\" For two thirds: \"The numerator, the top number, tells how many groups to take. Two of the groups: 4 and 4, that is 8.\"",
       "watch": "Check that the groups a child circles are equal before looking at the number. A child who knows 12 ÷ 3 = 4 and still circles 3 pictures has not connected the fraction with the division; have that child deal 12 counters into 3 equal groups first."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7501,8 +7664,9 @@
    "subject": "math",
    "title": "Shapes and Data",
    "metaTitle": "Grade 3 Math Lesson Plans: Shapes and Data",
-   "metaDescription": "A one-week Grade 3 math unit: 5 lessons on right angles, rectangles and squares, scaled graphs, and line plots, with a first look at lines of symmetry.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on right angles, rectangles and squares, scaled graphs, and line plots, with a first look at lines of symmetry.",
+   "days": 16,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -7550,7 +7714,8 @@
       "mistake": "Children see a right angle only when one arm lies flat and the other stands up. A square corner on a tilted shape is missed, and an angle that is nearly square is accepted.",
       "words": "Give each child a \"corner checker,\" the corner of an index card: \"Fit the card into the angle. Does it fit exactly? Then it is a right angle.\" Use \"smaller than a right angle\" and \"bigger than a right angle.\"",
       "watch": "See who turns the card or the page to test a tilted corner. Check the angles that are almost right angles; only the card can settle those."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -7598,7 +7763,8 @@
       "mistake": "Children say a square is not a rectangle because \"a rectangle has two long sides and two short sides.\" A tilted rectangle is not accepted, and a leaning parallelogram is taken for one.",
       "words": "Ask: \"What makes a rectangle? Four sides and four right angles.\" Then: \"Does a square have four sides and four right angles? Then it is a rectangle, a special one.\" Test corners with the corner of a card.",
       "watch": "Ask \"Is a square a rectangle?\" and listen for the reason. A child who says \"yes, because it has four right angles\" is sorting by properties, which is the point of the lesson."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -7646,7 +7812,8 @@
       "mistake": "Children find the up-and-down line and stop. They miss the line across and the slanted ones, or they count the diagonals of a long rectangle, which are not mirror lines.",
       "words": "Say: \"Try every fold: up and down, across, corner to corner.\" Use cut-out shapes: \"Fold it. Do the halves match exactly?\" Ask: \"A square has 4 mirror lines. Why does a rectangle that is not a square have only 2?\"",
       "watch": "Hand out paper shapes to fold. Check the long rectangle: a child who writes 4 for it has not folded it along a diagonal."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -7698,7 +7865,8 @@
       "mistake": "Children count the grid lines or the pictures as ones and ignore the scale. A bar that ends at a line with no number is read as the printed number below it.",
       "words": "Ask first: \"What does the scale count by? What does one picture stand for?\" Count along: \"5, 10, 15, 20.\" For a bar that stops at a line with no number: \"The printed numbers on each side are 10 and 20. What is this line worth?\"",
       "watch": "Have the child read the key or the scale aloud before the first answer. Ask one compare question (\"how many more\") to see whether the child uses the scaled numbers or counts pictures."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7742,7 +7910,8 @@
       "mistake": "Children skip the half marks and read only the whole numbers, moving an X at 2½ to 2 or to 3. They also mix up the measurement under a stack with the number of Xs in it.",
       "words": "Read the line aloud together: \"1, one and a half, 2, two and a half.\" Ask: \"How many things were two and a half units long? Count the Xs above that mark.\" Then: \"How many were longer than 2?\"",
       "watch": "Ask a question whose answer sits on a half mark. A child who answers for the nearest whole number is not yet reading the halves on the line."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7754,8 +7923,9 @@
    "subject": "literacy",
    "title": "Letters and Handwriting",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Letters and Handwriting",
-   "metaDescription": "A two-week Kindergarten unit: 7 lessons on pencil strokes, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten unit: 7 lessons on pencil strokes, finding and matching letters, writing letters, the alphabet in order, and first words to trace.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -7802,7 +7972,8 @@
       "mistake": "Children start wherever the pencil lands and trace against the arrow, or they lift the pencil at every bend. Many hold the pencil in a fist and press so hard that the hand is tired after two lines.",
       "words": "Say: \"Find the orange dot. That is where the pencil starts. Follow the arrow and do not lift until the line ends.\" For the grip: \"Pinch the pencil with your thumb and pointer finger; let it rest on your middle finger.\" Name each stroke as the child traces it: \"straight across, zigzag, wave, curve around.\"",
       "watch": "Watch the starting point and the direction, not how neat the line is. A child who starts at the wrong end or traces against the arrow here will form letters the same way; correct it now, one line at a time, by putting the child's finger on the orange dot before the pencil goes down."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -7844,7 +8015,8 @@
       "mistake": "Children circle b, d, p, and q as the same letter: a stick and a ball. Turning a toy does not change what it is, so they do not expect turning a letter to change it.",
       "words": "Say: \"Letters are special. Turn a b around and it is a different letter.\" Give each one a short cue and keep it all year: \"b: stick first, then the ball. d: ball first, then the stick. p: the stick hangs down below the line, then the ball. q: ball first, then the stick hangs down.\" Ask: \"What comes first, the stick or the ball? Does the stick go up or hang down?\"",
       "watch": "Have the child name each letter they circle. A child who circles correctly and cannot name the letters is matching shapes; one who names d as b needs the cue, not more circling."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -7886,7 +8058,8 @@
       "mistake": "Children match the pairs that look alike (C c, S s, O o) and guess at the ones that do not: A a, G g, R r, Q q. The small letters b, d, p, and q get the wrong partners.",
       "words": "Say: \"Every letter has two shapes, a capital and a small one. We also call them uppercase and lowercase. They have the same name and stand for the same sound.\" Point to both: \"Capital G, small g.\" Ask: \"Which pairs look alike? Which look different?\"",
       "watch": "Note which pairs each child misses and practice only those. The pairs that look different have to be learned one at a time; there is no trick for them."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -7942,7 +8115,8 @@
       "mistake": "Children draw letters from the bottom up or in pieces, so that an M is four lines drawn in any order and an O goes around the wrong way. The letter looks right on the page, and the habit slows writing later.",
       "words": "Say the path aloud for each letter and use the same words every time: \"Capital B: down, back to the top, around, around.\" Ask: \"Where does it start? Which way does the arrow go first?\" Write the letter big in the air together before the pencil touches the page.",
       "watch": "Stand where you can see the hand moving. Check the letter the child writes alone on the empty line; that one shows whether the path was learned or only followed."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7986,7 +8160,8 @@
       "mistake": "Children can sing the alphabet and cannot say what comes after a letter in the middle without starting from A. \"L, M, N, O, P\" is sung as one word, so those letters get lost.",
       "words": "Say the alphabet slowly while pointing to each letter, and stop: \"…F, G. What comes next?\" Ask: \"What comes after K? What comes before K?\" Slow down at \"L, M, N, O, P\" and tap each letter.",
       "watch": "Notice who sings from A for every gap. Keep an alphabet strip on the desk for those children and have them find a letter and its neighbors by looking, then from memory."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -8045,7 +8220,8 @@
       "mistake": "Children trace the letters in any order and never read the word, so the page becomes drawing practice. When they write the word alone, they leave out a letter, change the order of the letters, or spread the letters so far apart that the word looks like two.",
       "words": "Say: \"Read it first. Now trace it, and say each sound as you trace its letter. Now write it and read it again.\" For a sight word that does not sound out: \"Spell it as you trace: t-h-e, the.\" For spacing: \"Letters in one word sit close together, like friends. If you write the word twice, leave a finger space between.\"",
       "watch": "Ask the child to read back what was written. Look at the word written alone: are the letters in order, close together, and sitting on the line?"
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -8088,7 +8264,8 @@
       "mistake": "Children write their name in all capitals or with letters out of order, and some cannot yet write the numeral for their age. Copying a word, they skip a letter or lose their place and start it over.",
       "words": "Say: \"Your name starts with a capital letter. The other letters are small.\" For copying: \"Look at the first letter. Write it. Look at the next one.\" Ask each child about the drawing: \"Tell me about your picture.\"",
       "watch": "This page has no wrong answers about the child's life; correct only the name and the copied words. Listen to what children say about their drawings, and write their words under the picture if they ask."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -8100,8 +8277,9 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
-   "metaDescription": "A one-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
-   "weeks": 1,
+   "metaDescription": "A three-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -8156,7 +8334,8 @@
       "mistake": "Children look at the first letter only and take the first picture that starts with it: \"cat\" is matched to the cup. Or they name the pictures and guess at the words by their length.",
       "words": "Say: \"Touch each letter and say its sound. Now say the sounds fast. What word is it?\" Then: \"Does the word end the way the picture's name ends? Check the last sound.\"",
       "watch": "Listen to a child sound out one word. A child who says the first sound and then names a picture is guessing; cover the pictures and have the word read first."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -8212,7 +8391,8 @@
       "mistake": "Children mix up words that look alike (was and saw, on and no, the and they). With a word that has one irregular part, they sound out that part as it is spelled, say \"sayd\" for said or \"wass\" for was, and do not notice that it is not a word they know.",
       "words": "Say: \"Sound out the parts that play by the rules. One part you have to know by heart.\" Point to that part: \"In 'said,' s and d say their sounds; the a-i says /e/, and that is the heart part.\" For a word with no tricky part: \"This one plays by the rules all the way: /o/ /n/, on.\" Have children read the word, spell it aloud, and read it again: \"said, s-a-i-d, said.\"",
       "watch": "Check the look-alike boxes on the coloring page: they show which words a child confuses. Have the child read the finished sentences aloud; writing the word in is not the same as reading it."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -8265,7 +8445,8 @@
       "mistake": "Children say the plural when they talk and leave the s off when they write. They have not noticed that the s at the end is what tells \"more than one.\"",
       "words": "Say: \"One cat. Two cats. What did I add? Listen to the end.\" Have children say both and hold the last sound: \"cats-s-s.\" Tell them once: \"In 'dogs' the end sounds like /z/, but we still write s.\" Ask: \"Is it one or more than one? Does your word have its s?\"",
       "watch": "Read the child's written plural and check the last letter. Irregular plurals (feet, mice) come later; if a child says \"foots,\" accept it for now and say the right word back."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -8315,7 +8496,8 @@
       "mistake": "Children always circle \"a,\" or they guess. They have not noticed that \"a apple\" is hard to say, because nobody has asked them to listen for it.",
       "words": "Say both and let children hear it: \"a apple… an apple. Which one is easier to say?\" Give the rule in child words: \"If the word starts with a vowel sound, like the first sound in apple, egg, igloo, octopus, or umbrella, use an.\" Have them say the whole pair: \"an egg, a dog.\"",
       "watch": "Make sure children say the words aloud; this page cannot be done silently at this age. For children who speak another language at home, a and an may be new and need more spoken practice."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -8365,7 +8547,8 @@
       "mistake": "Children hear /sh/ and /ch/ as the same sound, or say one for the other: \"shair\" for chair, \"chip\" for ship. This is most common in children whose home language has only one of the two sounds, such as Spanish. Others name the picture with a different word (boat for ship) and then cannot find its sound.",
       "words": "Say: \"Two letters, one sound. sh says /sh/, the quiet sound. ch says /ch/, like a sneeze.\" Stretch the first sound: \"shhhh-ip.\" You can hold /sh/; you cannot hold /ch/. Ask: \"Can you hold the sound?\"",
       "watch": "Name every picture together before anyone draws a line, so that all children sort the same words. Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together and feel the mouth: ship, chip; shoe, chew."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -8377,8 +8560,9 @@
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
    "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
-   "metaDescription": "A one-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
-   "weeks": 1,
+   "metaDescription": "A two-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -8430,7 +8614,8 @@
       "mistake": "Children put things together because they go together in life (the dog with the bone) and not because they are the same kind of thing. Asked why, they tell a story about the two pictures.",
       "words": "Name the group before sorting: \"This bin is for animals. Is a dog an animal? Is a bone an animal?\" Ask for the group word: \"A dog, a cat, and a cow are all…?\" Use \"belongs\" and \"kind of\": \"A carrot is a kind of food.\"",
       "watch": "Ask \"Why does it go there?\" for one picture per child. \"Because it is an animal\" names a category; \"because the dog eats it\" tells a story. Both are thinking; only the first is sorting."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -8477,7 +8662,8 @@
       "mistake": "Children circle the picture that looks different (the biggest one, the only red one) when the row is about kinds of things. Or they circle one and cannot say what the other three have in common.",
       "words": "Ask: \"What are these three? They are all fruit. Is the shoe a fruit?\" Have the child finish the sentence: \"The shoe does not belong because…\" Accept another answer if the reason is good, and say so.",
       "watch": "The reason matters more than the circle. A child who gives a different answer with a sound reason has done the thinking; ask the class whether they can see it that way too."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -8518,7 +8704,8 @@
       "mistake": "Children match two pictures that go together (hot and the sun, night and a bed) and not two that are opposite. Or they join a picture to the nearest picture without looking at the word printed with it.",
       "words": "Act them out: \"Stand up… sit down. Open… shut.\" Say: \"Opposites are as different as they can be.\" Ask with a sentence to finish: \"The soup is hot. The ice is…?\"",
       "watch": "Have children say both words of each pair they join. A child who can act out the opposite and cannot name it needs the words; that is a vocabulary matter, not a thinking one."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -8576,7 +8763,8 @@
       "mistake": "Children number the pictures from left to right as they are printed, without looking at what happens in them. Or they find the first picture and guess the other two.",
       "words": "Ask: \"What is different in this picture? What happened before that?\" Tell the story with the three words: \"FIRST the seed is in the ground. NEXT a leaf comes up. LAST there is a flower.\" Have the child tell it back the same way.",
       "watch": "Have each child tell the story aloud from the finished page. If the telling makes sense, the order is right; a child who cannot tell it has numbered boxes, not ordered a story."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -8588,8 +8776,9 @@
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
    "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A two-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, and th, spelling picture words, and syllables.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, th, spelling picture words, and syllables.",
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -8642,7 +8831,8 @@
       "mistake": "Children match words that start with the same sound (cat and cup) and call it a rhyme. Others go by spelling and miss rhymes that are spelled differently, such as bear and chair.",
       "words": "Say: \"Rhyming words sound the same from the middle to the end. Only the beginning changes. Cat, hat. Listen: -at, -at.\" Have children say both words and then only the part after the first sound. Ask: \"Cat and cup: say the parts after /k/. -at, -up. Are they the same?\"",
       "watch": "Have each child say the pair aloud before circling; rhyming is done with the ears, not the eyes. A child who keeps picking the same first sound should hear and say endings before writing anything."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -8700,7 +8890,8 @@
       "mistake": "Children read the first word of a family and say the rest by rhyming, without looking at the first letter. Or they sound out every word from scratch and never use the ending they just read.",
       "words": "Say: \"These words all end the same: -at. Only the beginning changes. c-at, h-at, m-at.\" Cover the ending and ask: \"What does this one start with?\" Then: \"If you can read 'cat,' you can read 'flat.'\"",
       "watch": "Point to words out of order and listen. A child who reads them in a row and stumbles when you skip around was reciting; mix the order and add one word from another family."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -8763,7 +8954,8 @@
       "mistake": "Children write one letter in each box and not one sound, so \"ship\" takes four boxes. Or they leave out a sound in the middle, most often the vowel, and write \"shp.\"",
       "words": "Say: \"Stretch the word like a rubber band: sh-i-p. How many sounds? Three. sh is two letters and ONE sound; it shares a box.\" For blending: \"Say each sound, then say them faster, then say the word.\"",
       "watch": "Count the boxes a child fills for a word with a letter team. Listen to the blending: a child who says the sounds correctly and then names a different word is guessing from the first sound."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -8821,7 +9013,8 @@
       "mistake": "Children mix up th with f or d (\"fumb,\" \"dis\") because that is how they say the words. They write a single letter for the team: \"s\" for sh, \"c\" for ch.",
       "words": "Say: \"A letter team is two letters that make one new sound.\" Show the mouth for th: \"Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue.\" Compare: \"Thumb. Not fumb. Feel your tongue.\"",
       "watch": "Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child's family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -8885,7 +9078,8 @@
       "mistake": "Children write the first and the last sound and skip the middle: \"ct\" for cat, \"fg\" for frog. Short vowels are mixed up, e and i most of all (\"pin\" for pen). Where pin and pen are said alike, as in much of the South, a child cannot hear the difference and has to learn which words take e.",
       "words": "Say: \"Say the word slowly. Tap each sound on your fingers. Write the letter or the letter team for every tap.\" Ask: \"What is the sound in the middle? Say it again.\" After writing: \"Touch each letter and read what you wrote. Is it the word?\"",
       "watch": "Have children read their own spelling back; it catches a missing vowel better than you can. Spelling by sound that can be read (\"frend\") is progress at this age; correct the words that are in the word bank."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -8955,7 +9149,8 @@
       "mistake": "Children clap once for each sound or each letter, or they stretch a one-syllable word into two claps (\"ca-at\"). In writing they put the dash anywhere, often after the first letter.",
       "words": "Say: \"Put your hand under your chin. Say the word. Every time your chin drops is a syllable: rab-bit, two.\" Then: \"Every syllable has one vowel sound. Two consonants between the vowels? Split between them: rab-bit, pen-cil.\" Say words in a robot voice: \"pen-cil.\"",
       "watch": "Use the chin check with children who clap too many, and have children who clap too few hum the word; the chin hardly moves on sounds like ee (ba-by, bun-ny). On the dash page, check that each part has a vowel letter, and count y as a vowel at the end of a word (pup-py, can-dy); a part with no vowel cannot be a syllable."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -8967,8 +9162,9 @@
    "subject": "literacy",
    "title": "Reading Sentences and Stories",
    "metaTitle": "Grade 1 Lesson Plans: Reading Sentences and Stories",
-   "metaDescription": "A one-week Grade 1 unit: 5 lessons on reading and following a sentence, missing words, mixed-up sentences, question words, and story order, with teacher notes.",
-   "weeks": 1,
+   "metaDescription": "A three-week Grade 1 unit: 5 lessons on reading and following a sentence, missing words, mixed-up sentences, question words, and story order, with teacher notes.",
+   "days": 14,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -9021,7 +9217,8 @@
       "mistake": "Children read the first words, catch the name of a picture, and color it any color. The small words carry the meaning and are skipped: \"two,\" \"red,\" \"not,\" \"last.\"",
       "words": "Say: \"Read the whole sentence before you pick up a crayon or a pencil. Then tell me: WHAT do you color or circle? HOW MANY? Which COLOR?\" Have the child underline the number word and the color word. \"Read it again and check your work.\"",
       "watch": "The page checks itself: a wrong color or count shows which word was missed. Sit with a child for one sentence and note whether the trouble is reading the words or keeping the sentence in mind."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -9080,7 +9277,8 @@
       "mistake": "Children pick a word that goes with the picture and do not read the sentence to the end, so the word does not fit. Or they take the next unused word from the word bank.",
       "words": "Say: \"Read every word in the word bank first. Now read the sentence and say 'blank' at the empty spot. Try a word: does it make sense? Does it sound right?\" Have children read the finished sentence aloud. \"Every sentence has to make sense when you read it.\"",
       "watch": "Listen to the child read a finished sentence. A sentence that makes no sense and does not bother the child is the real finding; that child is reading words, not meaning."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -9139,7 +9337,8 @@
       "mistake": "Children copy the words in the order they are printed. When they do find the order, they forget the capital letter at the start or the mark at the end.",
       "words": "Say: \"Find the word with the capital letter: it most likely goes first. A name and the word I have a capital too, so check. Find the word with the end mark: it goes last.\" Then: \"Who or what is the sentence about? What happens?\" Have children say the sentence aloud before they write it.",
       "watch": "Have the child read the written sentence aloud. Check three things in order: does it make sense, does it start with a capital, does it end with a mark."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -9192,7 +9391,8 @@
       "mistake": "Children choose \"what\" for everything. \"Who\" and \"where\" are mixed up when the answer is a place with a person in it (\"at Grandma's\").",
       "words": "Give each word its job: \"WHO asks about a person. WHAT asks about a thing or an action. WHERE asks about a place.\" Ask about a classroom sentence: \"Maya reads in the corner. Who reads? What does she do? Where?\"",
       "watch": "Ask a child to make up a question for an answer you give (\"in the kitchen\"). Making the question shows more than circling does."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -9262,7 +9462,8 @@
       "mistake": "Children choose a picture that shows the same things and not one that follows from what happened. With sentences, they number them in the order printed, or match a sentence to a picture by one word.",
       "words": "Ask: \"What happened first? What changed? So what could happen next, and why?\" Use the order words: \"first, then, next, last.\" Have the child tell the whole story in a few sentences after finishing.",
       "watch": "Ask \"Why that one?\" A child who answers with a cause (\"because the cup fell\") is following the story; one who says \"because it has the cat\" is matching pictures."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -9274,8 +9475,9 @@
    "subject": "literacy",
    "title": "Words and How They Work",
    "metaTitle": "Grade 1 Reading and Writing Lesson Plans: Words and How They Work",
-   "metaDescription": "A two-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
-   "weeks": 2,
+   "metaDescription": "A four-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -9333,7 +9535,8 @@
       "mistake": "Children order the words by where they think the letter comes in the song and lose track in the middle of the alphabet. When two words start with the same letter, they stop or order them by length.",
       "words": "Say: \"Look only at the first letter. Find each one on the alphabet strip. Which comes first on the strip?\" For a tie: \"Both start with b. Cover the b. Now look at the next letter.\"",
       "watch": "Keep the alphabet strip in sight; the goal is using the order, not reciting it. Check the pairs that start alike: a child who numbers \"bed\" before \"bat\" has not moved on to the second letter; cover the first letters and ask again."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -9391,7 +9594,8 @@
       "mistake": "Children sort by what a word makes them think of: \"party\" and \"game\" go with the verbs because you do something there, and \"fast\" or \"hungry\" goes with the verbs because it happens to you. Words that can be both (a walk, to walk) confuse them, and rightly so.",
       "words": "Give each kind a test sentence: \"A noun is a person, place, animal, or thing. Try it here: 'I see the ___.' I see the dog. A verb is something you can do. Try it here: 'I can ___.' I can jump. An adjective tells what something is like. Try it here: 'The dog is very ___.' The dog is very big.\"",
       "watch": "Have children use the test aloud for the hard words. If a child argues that \"paint\" can be both, the child is right; say so and ask for a sentence each way."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -9444,7 +9648,8 @@
       "mistake": "Children write the name again in the second sentence, or use \"they\" only for a crowd and not for two people. They are unsure about \"it\" for an animal or a thing. Children who are learning English may use \"he\" for everyone or mix up \"he\" and \"she.\"",
       "words": "Say: \"We do not say the name over and over. 'Ben has a kite. Ben flies the kite' becomes 'Ben has a kite. HE flies it.'\" Ask: \"Who is 'he' in this sentence? Point to the name.\" For two people: \"Ben and Mia: they.\" For a thing: \"The kite: it.\"",
       "watch": "Have the child read both sentences aloud and tell you who the pronoun means. Children learning English may not have he and she in their home language; give them more spoken practice."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -9487,7 +9692,8 @@
       "mistake": "Children put every word under \"a,\" because \"a\" is the word they use most, or they stop reading and fill the two groups evenly. A child who sorts correctly by the first letter has the right answers here and will go wrong later on words such as \"hour\" and \"unicorn,\" where the letter and the sound do not agree.",
       "words": "Say: \"Read the word. Say its first sound. Is it a vowel sound? Then it goes under an.\" Check by ear: \"A egg… an egg. Which one do we say?\" Have children read each finished group aloud: \"an apple, an egg, an owl.\"",
       "watch": "Listen to the child read the finished lists with the article in front. A wrong word stands out at once when it is said aloud; have the child find it by ear, not by rule."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -9546,7 +9752,8 @@
       "mistake": "Children circle the word that means the same, because it is the word that \"goes with\" the first one. On the word bank page they take a word that is about the same thing and is not the opposite, such as \"warm\" for \"hot.\"",
       "words": "Say: \"Opposite means as different as can be: hot, cold. Same means nearly alike: big, large.\" Test a word with \"not\": \"If the door is not open, it is… shut. So open and shut are opposites.\" Ask: \"Is that word the opposite, or does it mean the same?\"",
       "watch": "On the three-word page, a child who circles the same-meaning word knows the words are related and has not sorted out how. Ask for both: \"Which one means the same? Which one is the opposite?\""
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -9590,7 +9797,8 @@
       "mistake": "Children circle two words that both fit the picture and do not mean the same (big and gray for an elephant), or they circle a word and its opposite, because opposites also belong together.",
       "words": "Say: \"Words that mean the same can trade places. The big dog, the large dog: same picture in your head.\" Test a pair in one sentence: \"The elephant is big. The elephant is large. Same? The elephant is gray. Same?\" Call them \"words that mean the same,\" and give the word \"synonyms\" once.",
       "watch": "Have the child say both circled words in one sentence about the picture. If the meaning changes from one sentence to the other, the words are not synonyms; have the child keep one word and test it against each of the others."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -9635,7 +9843,8 @@
       "mistake": "Children treat the three words as meaning exactly the same and number them in the order printed. They know the plain word (big) and are unsure of the strong one (enormous).",
       "words": "Act the words out or show them with your hands: \"Show me cool. Show me cold. Show me freezing.\" Ask: \"Which one is the most? Which is only a little?\" Use them in one sentence: \"The water is cool… cold… freezing!\"",
       "watch": "Ask which word of a row the child did not know. Ordering three words is easy once the words are known; the lesson is really about learning the strong word."
-     }
+     },
+     "days": 2
     },
     {
      "n": 8,
@@ -9680,7 +9889,8 @@
       "mistake": "Children circle a word that only starts with the same letters as the picture word and has nothing to do with it: \"carrot\" for the picture of a car, \"panda\" for the picture of a pan.",
       "words": "Say: \"A root word is the word a longer word is built from, and the meaning stays. Rain, rainy, raining: all about rain.\" Test it: \"Does a carrot have anything to do with a car? No. So 'carrot' is not built from 'car.'\"",
       "watch": "Ask the child what the long word means. If the meaning has the picture word in it (a teacher teaches), the root is right; if not, the letters match by accident."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -9692,8 +9902,9 @@
    "subject": "literacy",
    "title": "Sentences and Grammar",
    "metaTitle": "Grade 2 Reading and Writing Lesson Plans: Sentences and Grammar",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on capital letters and end marks, parts of speech (nouns, verbs, and adjectives), plurals, verb forms, pronouns, and writing questions.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 unit: 6 lessons on capital letters and end marks, parts of speech (nouns, verbs, adjectives), plurals, verb forms, pronouns, and writing questions.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -9751,7 +9962,8 @@
       "mistake": "Children add the period and forget the capital, or the other way around. With two sentences run together, they put the period where they would take a breath, and one of the two \"sentences\" has no verb.",
       "words": "Say: \"A sentence starts with a capital letter and ends with a mark. Both, every time.\" For run-on sentences: \"Read it aloud. Where does the first idea stop? Who is the second sentence about?\" Test each part: \"Does it tell who or what, and what happens?\"",
       "watch": "Have the child read each of the two new sentences alone. If one of them does not make sense by itself, the break is in the wrong place. Check that the second sentence got its own capital letter."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -9809,7 +10021,8 @@
       "mistake": "Children put a word in a bin by a feeling (\"happy\" is a verb because you can \"be happy\"). Words that can be two things (a drink, to drink; a play, to play) are sorted one way with no second thought.",
       "words": "Give three test sentences: \"Noun: can you say 'I see the ___' or 'I have some ___'? Verb: can you say 'I can ___' or 'She ___s every day'? Adjective: can you say 'The thing is very ___'?\" For a word that fits two bins: \"Use it in a sentence. Now which is it?\"",
       "watch": "Ask for a sentence with any word a child placed in a surprising bin; a good sentence can make the child right. Adjectives are the weakest bin for most children, so check that bin first."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -9860,7 +10073,8 @@
       "mistake": "Children add -s to everything: \"foxs,\" \"mouses,\" \"childs.\" The opposite also happens: after learning the new word, a child marks the plural twice and writes \"mices,\" \"feets,\" or \"childrens.\"",
       "words": "Say the plural aloud first: \"One fox, two foxes. Do you hear the extra beat? Then it needs -es. If the word already ends in e, as in horse, just add s.\" For the ones that change: \"These you have to know: one mouse, two mice; one child, two children; one foot, two feet.\" Keep a class list of them.",
       "watch": "Sort a child's errors: -s where -es belongs is a spelling rule to teach; \"mouses\" is a word to learn by heart. The two need different help."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -9919,7 +10133,8 @@
       "mistake": "Children add -ed to every verb: \"goed,\" \"runned,\" \"haved.\" With \"be\" they do not see that am, is, are, was, and were are all one verb.",
       "words": "Use two sentence frames all through: \"Today I ___. Yesterday I ___.\" Say them aloud: \"Today I go. Yesterday I went.\" For be: \"Today I am, you are, she is. Yesterday I was, you were, she was.\" Ask: \"Does it sound right?\"",
       "watch": "Listen for the forms children use when they talk; many say \"went\" and still write \"goed\" when a page asks for an ending. Have them read their sentence aloud and listen. The ear helps only children who hear these forms every day; for children learning English, or whose home speech uses other forms (\"he do,\" \"we was\"), teach the forms from a class chart without calling the home form wrong. In the sentences, check has, does, and goes after he, she, or it."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -9971,7 +10186,8 @@
       "mistake": "Children link a pronoun to the nearest name, not to the one it means: in \"Sam gave Lily his book,\" \"his\" is tied to Lily. When rewriting, they pick the wrong form (\"Him went home\").",
       "words": "Ask: \"Who is 'she' here? Put the name back in. Does the sentence still say the same thing?\" For rewriting: \"Is the person doing the action? Then he, she, or they. Is something done to the person? Then him, her, or them. Does something belong to the person? Then his, her, or their.\"",
       "watch": "Use the put-the-name-back test on each line a child drew. Read rewritten sentences aloud together; \"Him went home\" sounds wrong to most children once they hear it."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -10035,7 +10251,8 @@
       "mistake": "Children write a statement with a question mark at the end (\"The dog is in the yard?\"), or they start with the right question word and keep the word order of a statement (\"Where the dog is?\"). When the sentence has an action verb, they leave out \"does\" or \"did\" (\"What Maya eats?\").",
       "words": "Say: \"The highlighted words are the ANSWER. Which question word asks for a place? A reason? A way of doing it?\" Build it aloud: \"The dog is in the yard. Where… is the dog?\" Point out the switch: \"is the dog,\" not \"the dog is.\" With an action verb: \"Maya eats an apple. What DOES Maya eat?\"",
       "watch": "Read a child's question and answer it yourself with the highlighted words. If your answer does not fit the question, the question word is wrong. Check for the question mark last."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -10047,8 +10264,9 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -10092,7 +10310,8 @@
       "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
       "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
       "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -10151,7 +10370,8 @@
       "mistake": "Children spell a sound the same way everywhere: \"duk\" and \"bike\" both get a plain k. They can say the rule as a sentence and do not check the sound that comes before.",
       "words": "Read the rule on the page together and turn it into a question to ask each time. For ck and k, for example: \"What comes right before the /k/ sound? One short vowel?\" Say: \"Right after one short vowel, ck: duck, sock. After anything else, just k: milk, book, bike.\" Have children say the word, then the sound just before /k/, then the spelling.",
       "watch": "Ask the child why a word got its letters. \"Because of the rule\" is not enough; the child should name the sound that comes before. Each page practices one rule; mix the rules only after each has been practiced alone."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -10203,7 +10423,8 @@
       "mistake": "Children split a word wherever they see a small word inside it: \"car-pet,\" \"but-ton.\" In a real compound they cut after the first few letters and not where the second word begins. On the matching page they join two pictures that go together in life (sun and moon) and not two that make a word (sun and flower).",
       "words": "Say: \"A compound word is two whole words stuck together, and both still mean something: rain + coat, a coat for the rain.\" Test a split: \"Is 'car' a word? Is 'pet' a word? Is a carpet a pet in a car? Then it is not a compound.\"",
       "watch": "Have the child say both halves and tell what the whole word means with both halves in it (\"a brush for teeth\"). A split that leaves a half that is not a word shows at once."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -10256,7 +10477,8 @@
       "mistake": "Children circle only the letters that are printed the same in all three words, so the root of \"baker, baking, baked\" becomes \"bak.\" Or they keep a letter that was only added for spelling: the root of \"running\" becomes \"runn.\"",
       "words": "Say: \"The root is the part that means the same in all three: play, player, playing. What do they all have to do with?\" Cover the endings with a finger. For a changed spelling: \"Running comes from run; the extra n is there for the spelling. Baking comes from bake; the e was dropped. Write the root the way it is spelled when it stands alone.\"",
       "watch": "Ask what the three words have in common in MEANING before the child circles. Then have the child read the root written in the stone: is it a real word by itself? \"Bak\" and \"runn\" are not, so the child goes back and repairs the spelling."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -10314,7 +10536,8 @@
       "mistake": "Children pick a word that often goes with the first word (cold and ice, big and house) and not one that could take its place. On the matching page they join the easy pairs and then link the leftover words without reading them.",
       "words": "Give the swap test: \"Put the new word in the sentence where the old one was. Does the sentence still mean the same?\" Try it: \"I am glad. I am happy. Same. I am glad. I am sad. Not the same.\" Use the word \"synonym.\"",
       "watch": "Note the words nobody knew; those are vocabulary to teach first, because no test finds a synonym for a word a child has never met. Ask a child to use both words of one pair in the same sentence."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -10364,7 +10587,8 @@
       "mistake": "Children take the words in the order they are printed in the bubble, or use one favorite (\"shouted\") everywhere. They do not look for the clue in the sentence that tells how something was said.",
       "words": "Ask: \"HOW did the person say it? Look for a clue: a question mark, an exclamation point, a word like 'quietly.'\" Act it out: \"Say it in a whisper. Now shout it. Which word fits what happened?\"",
       "watch": "Have the child read the finished sentence in the voice the new word calls for. If \"whispered\" comes before a sentence with an exclamation point, the child will hear the clash."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -10376,8 +10600,9 @@
    "subject": "literacy",
    "title": "Reading Stories and Writing",
    "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A two-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
+   "days": 16,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -10429,7 +10654,8 @@
       "mistake": "Children answer from what they know about the world or from the first sentence they remember, without going back to the story. A wrong answer that uses a word from the story is picked because the word looks familiar.",
       "words": "Say: \"The answer is in the story. Go back and find the sentence that tells you. Put your finger on it.\" Ask after each answer: \"Where does it say that?\" For a why question: \"Look for 'because,' or for what happened just before.\"",
       "watch": "Ask a child to show the sentence that proves one answer. A child who can point to it is reading closely; one who says \"I just know\" is guessing, even when the answer is right."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -10480,7 +10706,8 @@
       "mistake": "Children fill the first blank after reading only up to it, and choose a word that fits that one sentence and not the story. A word used wrongly early leaves the wrong word for the last blank.",
       "words": "Say: \"Read the WHOLE story first and say 'blank' at each empty box. What is the story about?\" Then: \"Try a word. Read on to the next sentence. Does it still make sense?\" Add: \"Sometimes the clue comes after the blank, so read ahead as well as back.\"",
       "watch": "See whether a child reads to the end before writing. Have the finished story read aloud; a word in the wrong blank makes a sentence that sounds odd, and most children catch it by ear."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -10539,7 +10766,8 @@
       "mistake": "Children write a list (\"a dog, a ball, a tree\") and not sentences, or every sentence begins \"I see.\" Words are copied from the word bank with no capital at the start of the sentence and no period.",
       "words": "Ask for a whole thought: \"Who or what is in the picture? What is it doing? Where?\" Say a sentence together before writing it: \"The dog runs after the ball.\" Offer new beginnings: \"Next to the tree…\", \"A girl…\", \"In the sky…\"",
       "watch": "Count the different sentence beginnings on a child's page. Have the child read the writing aloud and point to each period; a missing verb shows when the sentence is read."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -10583,7 +10811,8 @@
       "mistake": "Children describe each picture by itself (\"There is a cat\") and do not tell what HAPPENS or how one picture leads to the next. Some copy the starter word and then begin a new sentence, so the starter is left alone.",
       "words": "Tell the story aloud before anyone writes: \"First… Next… Then… At the end…\" Ask at each picture: \"What happened here? Why? What changed since the last picture?\" Show how the starter joins the sentence: \"First, the cat climbs the tree.\"",
       "watch": "Have the child read the four parts as one story. It should make sense to someone who cannot see the pictures; if it does not, ask what the listener would need to know."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -10628,7 +10857,8 @@
       "mistake": "Children circle what they know from stories and cartoons and not what is true: honey for the bear, cheese for the mouse. When copying from the word bank, a fact lands in the wrong row: what the animal eats is written under where it lives.",
       "words": "Say: \"A fact is true, and we can check it in a book or by looking.\" Read the row names first: \"What does this row ask for? Food, home, or how it moves?\" Ask: \"How do you know that? Where could we check?\"",
       "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books on hand and let children check one fact each."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -10668,7 +10898,8 @@
       "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
       "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
       "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -10680,8 +10911,9 @@
    "subject": "literacy",
    "title": "Words and Their Meanings",
    "metaTitle": "Grade 3 Reading and Writing Lesson Plans: Words and Their Meanings",
-   "metaDescription": "A one-week Grade 3 unit: 4 lessons on prefixes, more exact words for \"go\" and \"look,\" words that name a person, such as \"baker,\" and choosing the right form of a word.",
-   "weeks": 1,
+   "metaDescription": "A two-week Grade 3 unit: 4 lessons on prefixes, more exact words for \"go\" and \"look,\" words that name a person, such as \"baker,\" and choosing the right form of a word.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -10746,7 +10978,8 @@
       "mistake": "Children put any prefix on any word (\"unhonest,\" \"dishappy\"), or they see a prefix in a word that has none: \"uncle\" and \"under\" are taken apart. They can build the word and cannot say what it means.",
       "words": "Give each prefix a meaning to say: \"un-, dis-, and in- mean not or the opposite of. re- means again. pre- means before. mis- means wrong or badly.\" Use it: \"Unhappy: not happy. Dishonest: not honest. Incorrect: not correct. Reread: read again. Preheat: heat before. Misspell: spell wrong.\" Test a doubtful word: \"Take off un-. Is 'cle' a word? Then 'uncle' has no prefix.\"",
       "watch": "Have the child explain each new word with the prefix's meaning in it. For un-, dis-, and in-, only some pairs exist; children learn those by hearing them, so say the right word back (\"dishonest\") and give no rule. Watch for words where in- means \"in\" and not \"not\" (inside, indoors); tell the child that this in- is a different one."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -10791,7 +11024,8 @@
       "mistake": "Children know \"go\" and \"look\" and take the other words for the same thing said in a fancier way. A word they do not know is placed by guess or left out.",
       "words": "Act each word out: \"Show me stroll. Show me dash. Are they both ways to go? What is different?\" Then for looking: \"Glance at the door. Stare at the door.\" Ask: \"When would you use this word and not the plain one?\"",
       "watch": "Ask a child to use two words from one group in two sentences that show the difference. Note the words nobody could act out; teach those before the page is corrected."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -10848,7 +11082,8 @@
       "mistake": "Children add -er without the spelling change: \"runer,\" \"bakeer,\" \"swimer.\" They also take every word that ends in -er for a person word, such as \"water\" and \"finger.\"",
       "words": "Say: \"A baker is a person who bakes. A runner is a person who runs.\" Give the two spelling moves: \"Bake ends in e: drop the e, then add -er. Baker. Run has one short vowel and one consonant at the end: double the consonant, then add -er. Runner.\" Test a word: \"Is a finger a person who fings?\"",
       "watch": "Have the child say the meaning as \"a person who…\" for each new word. Check the doubled letters (runner, swimmer) and the dropped e (baker, writer); those are the two places where errors gather."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -10905,7 +11140,8 @@
       "mistake": "Children put the words into the blanks in the order they are printed. They choose by meaning alone, which all four words share, and do not listen for what the sentence needs: a person, an action now, or an action that is over.",
       "words": "Ask what the blank needs: \"Is it a person? Something that is happening, after is or are? Something that already happened? Or the plain word, after to, will, or can?\" Read the sentence aloud with each word: \"Yesterday she… bake? baker? baked. Which one sounds right?\" Cross off each word as it is used.",
       "watch": "Have the child read all four finished sentences aloud. One wrong word forces a second one, so two sentences will sound wrong together; let the child trade the two words."
-     }
+     },
+     "days": 2
     }
    ]
   }
@@ -10918,18 +11154,18 @@
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (7 Weeks)",
-   "metaDescription": "6 Kindergarten math units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 7,
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (16 Weeks)",
+   "metaDescription": "6 Kindergarten math units in teaching order, about 16 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 16,
    "framework": "Common Core",
    "units": [
     {
      "id": "k-position-size-patterns",
      "slug": "position-words-size-and-patterns-kindergarten-unit",
      "title": "Position Words, Size, and Patterns",
-     "weeks": 1,
+     "weeks": 3,
      "from": 1,
-     "to": 1,
+     "to": 3,
      "lessons": [
       "Position words",
       "Find every one like it",
@@ -10946,9 +11182,9 @@
      "id": "k-counting-to-10",
      "slug": "counting-to-10-kindergarten-unit",
      "title": "Counting to 10",
-     "weeks": 2,
-     "from": 2,
-     "to": 3,
+     "weeks": 3,
+     "from": 4,
+     "to": 6,
      "lessons": [
       "One for each",
       "Write the numbers 0 to 9",
@@ -10969,9 +11205,9 @@
      "id": "k-shapes",
      "slug": "shapes-all-around-kindergarten-unit",
      "title": "Shapes All Around",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 2,
+     "from": 7,
+     "to": 8,
      "lessons": [
       "Name the shape",
       "Count the sides",
@@ -10988,9 +11224,9 @@
      "id": "k-counting-in-order-to-20",
      "slug": "counting-in-order-to-20-kindergarten-unit",
      "title": "Counting in Order to 20",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 2,
+     "from": 9,
+     "to": 10,
      "lessons": [
       "Fill in the missing numbers",
       "Connect the dots in order",
@@ -11007,9 +11243,9 @@
      "id": "k-sorting-tallies-days",
      "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
      "title": "Sorting, Tallies, and the Days of the Week",
-     "weeks": 1,
-     "from": 6,
-     "to": 6,
+     "weeks": 3,
+     "from": 11,
+     "to": 13,
      "lessons": [
       "Count each kind",
       "Tally marks",
@@ -11027,9 +11263,9 @@
      "id": "k-putting-together-number-bonds",
      "slug": "putting-together-and-number-bonds-kindergarten-unit",
      "title": "Putting Together and Number Bonds",
-     "weeks": 1,
-     "from": 7,
-     "to": 7,
+     "weeks": 3,
+     "from": 14,
+     "to": 16,
      "lessons": [
       "How many altogether?",
       "Number bonds to 5 and to 10",
@@ -11053,18 +11289,18 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (8 Weeks)",
-   "metaDescription": "6 Grade 1 math units in teaching order, about 8 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 8,
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (20 Weeks)",
+   "metaDescription": "6 Grade 1 math units in teaching order, about 20 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 20,
    "framework": "Common Core",
    "units": [
     {
      "id": "g1-add-subtract-within-10",
      "slug": "addition-and-subtraction-within-10-grade-1-unit",
      "title": "Addition and Subtraction Within 10",
-     "weeks": 2,
+     "weeks": 5,
      "from": 1,
-     "to": 2,
+     "to": 5,
      "lessons": [
       "Add two groups",
       "Take away: how many are left?",
@@ -11088,9 +11324,9 @@
      "id": "g1-doubles-three-addends-number-walls",
      "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
      "title": "Doubles, Three Addends, and Addition Pyramids",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 3,
+     "from": 6,
+     "to": 8,
      "lessons": [
       "Doubles and halves",
       "Odd and even numbers",
@@ -11107,9 +11343,9 @@
      "id": "g1-tens-and-ones",
      "slug": "tens-and-ones-grade-1-unit",
      "title": "Tens and Ones",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 2,
+     "from": 9,
+     "to": 10,
      "lessons": [
       "Tens and ones",
       "Number words",
@@ -11126,9 +11362,9 @@
      "id": "g1-hundreds-chart-skip-counting",
      "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
      "title": "The Hundreds Chart and Skip Counting",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 3,
+     "from": 11,
+     "to": 13,
      "lessons": [
       "Find a number on the number line",
       "The hundreds chart",
@@ -11144,9 +11380,9 @@
      "id": "g1-time-calendar-coins",
      "slug": "time-calendar-and-coins-grade-1-unit",
      "title": "Time, Calendar, and Coins",
-     "weeks": 1,
-     "from": 6,
-     "to": 6,
+     "weeks": 3,
+     "from": 14,
+     "to": 16,
      "lessons": [
       "Tell time to the hour and half hour",
       "Draw the clock hands",
@@ -11162,9 +11398,9 @@
      "id": "g1-shapes-measuring-graphs",
      "slug": "shapes-measuring-and-graphs-grade-1-unit",
      "title": "Shapes, Measuring, and Graphs",
-     "weeks": 2,
-     "from": 7,
-     "to": 8,
+     "weeks": 4,
+     "from": 17,
+     "to": 20,
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",
@@ -11191,18 +11427,18 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (9 Weeks)",
-   "metaDescription": "6 Grade 2 math units in teaching order, about 9 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 9,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (19 Weeks)",
+   "metaDescription": "6 Grade 2 math units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 19,
    "framework": "Common Core",
    "units": [
     {
      "id": "g2-place-value-to-1000",
      "slug": "place-value-to-1000-grade-2-unit",
      "title": "Place Value to 1,000",
-     "weeks": 2,
+     "weeks": 4,
      "from": 1,
-     "to": 2,
+     "to": 4,
      "lessons": [
       "Bundle ten ones",
       "Count by fives and tens",
@@ -11227,9 +11463,9 @@
      "id": "g2-add-subtract-within-1000",
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
      "title": "Adding and Subtracting Within 100 and 1,000",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 2,
+     "from": 5,
+     "to": 6,
      "lessons": [
       "Add with blocks",
       "Subtract with blocks",
@@ -11245,9 +11481,9 @@
      "id": "g2-measurement-time-money",
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 4,
+     "from": 7,
+     "to": 10,
      "lessons": [
       "Measure with a ruler",
       "How much longer?",
@@ -11266,9 +11502,9 @@
      "id": "g2-graphs-and-grids",
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 2,
+     "from": 11,
+     "to": 12,
      "lessons": [
       "From tally marks to a bar graph",
       "Read a line plot",
@@ -11283,9 +11519,9 @@
      "id": "g2-equal-groups-equal-shares",
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
-     "weeks": 2,
-     "from": 6,
-     "to": 7,
+     "weeks": 4,
+     "from": 13,
+     "to": 16,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -11305,9 +11541,9 @@
      "id": "g2-shapes-solids-symmetry",
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
-     "weeks": 2,
-     "from": 8,
-     "to": 9,
+     "weeks": 3,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",
@@ -11329,18 +11565,18 @@
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (10 Weeks)",
-   "metaDescription": "7 Grade 3 math units in teaching order, about 10 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 10,
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (24 Weeks)",
+   "metaDescription": "7 Grade 3 math units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 24,
    "framework": "Common Core",
    "units": [
     {
      "id": "g3-rounding-adding-subtracting",
      "slug": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
      "title": "Rounding, Adding, and Subtracting Within 1,000",
-     "weeks": 2,
+     "weeks": 4,
      "from": 1,
-     "to": 2,
+     "to": 4,
      "lessons": [
       "Round to the nearest ten",
       "Round to the nearest hundred",
@@ -11360,9 +11596,9 @@
      "id": "g3-starting-multiplication",
      "slug": "starting-multiplication-grade-3-unit",
      "title": "Starting Multiplication",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 3,
+     "from": 5,
+     "to": 7,
      "lessons": [
       "Multiplication as equal groups",
       "Multiplication hops",
@@ -11381,9 +11617,9 @@
      "id": "g3-division",
      "slug": "division-grade-3-unit",
      "title": "Division",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 3,
+     "from": 8,
+     "to": 10,
      "lessons": [
       "Divide by sharing",
       "Divide by hopping back",
@@ -11402,9 +11638,9 @@
      "id": "g3-time-temperature-mass-volume",
      "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
      "title": "Time, Temperature, Mass, and Liquid Volume",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "weeks": 4,
+     "from": 11,
+     "to": 14,
      "lessons": [
       "Tell time to the minute",
       "How much time passed?",
@@ -11423,9 +11659,9 @@
      "id": "g3-area-perimeter-volume",
      "slug": "area-and-perimeter-grade-3-unit",
      "title": "Area and Perimeter",
-     "weeks": 1,
-     "from": 7,
-     "to": 7,
+     "weeks": 3,
+     "from": 15,
+     "to": 17,
      "lessons": [
       "Area: count the squares",
       "Same area, different shape",
@@ -11443,9 +11679,9 @@
      "id": "g3-fractions",
      "slug": "fractions-grade-3-unit",
      "title": "Fractions",
-     "weeks": 2,
-     "from": 8,
-     "to": 9,
+     "weeks": 4,
+     "from": 18,
+     "to": 21,
      "lessons": [
       "Equal pieces",
       "Name and shade a fraction",
@@ -11469,9 +11705,9 @@
      "id": "g3-shapes-and-data",
      "slug": "shapes-and-data-grade-3-unit",
      "title": "Shapes and Data",
-     "weeks": 1,
-     "from": 10,
-     "to": 10,
+     "weeks": 3,
+     "from": 22,
+     "to": 24,
      "lessons": [
       "Right angles",
       "Is it a rectangle?",
@@ -11493,18 +11729,18 @@
    "grade": "K",
    "subject": "literacy",
    "title": "Kindergarten Reading and Writing Scope and Sequence",
-   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (7 Weeks)",
-   "metaDescription": "4 Kindergarten reading and writing units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 7,
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (11 Weeks)",
+   "metaDescription": "4 Kindergarten reading and writing units in teaching order, about 11 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 11,
    "framework": "Common Core",
    "units": [
     {
      "id": "k-letters-and-handwriting",
      "slug": "letters-and-handwriting-kindergarten-unit",
      "title": "Letters and Handwriting",
-     "weeks": 2,
+     "weeks": 3,
      "from": 1,
-     "to": 2,
+     "to": 3,
      "lessons": [
       "Lines, zigzags, and curves",
       "Find the letter",
@@ -11526,8 +11762,8 @@
      "slug": "hearing-sounds-in-words-kindergarten-unit",
      "title": "Hearing Sounds in Words",
      "weeks": 3,
-     "from": 3,
-     "to": 5,
+     "from": 4,
+     "to": 6,
      "lessons": [
       "Hear the rhyme",
       "Clap the syllables",
@@ -11550,9 +11786,9 @@
      "id": "k-first-words-to-read",
      "slug": "first-words-to-read-kindergarten-unit",
      "title": "First Words to Read",
-     "weeks": 1,
-     "from": 6,
-     "to": 6,
+     "weeks": 3,
+     "from": 7,
+     "to": 9,
      "lessons": [
       "Match words to pictures",
       "Sight words",
@@ -11571,9 +11807,9 @@
      "id": "k-sorting-words-telling-stories",
      "slug": "sorting-opposites-and-story-order-kindergarten-unit",
      "title": "Sorting, Opposites, and Story Order",
-     "weeks": 1,
-     "from": 7,
-     "to": 7,
+     "weeks": 2,
+     "from": 10,
+     "to": 11,
      "lessons": [
       "Sort into groups",
       "Which one does not belong?",
@@ -11594,18 +11830,18 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (5 Weeks)",
-   "metaDescription": "3 Grade 1 reading and language units in teaching order, about 5 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 5,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (11 Weeks)",
+   "metaDescription": "3 Grade 1 reading and language units in teaching order, about 11 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 11,
    "framework": "Common Core",
    "units": [
     {
      "id": "g1-sounds-spelling-syllables",
      "slug": "sounds-spelling-and-syllables-grade-1-unit",
      "title": "Sounds, Spelling, and Syllables",
-     "weeks": 2,
+     "weeks": 4,
      "from": 1,
-     "to": 2,
+     "to": 4,
      "lessons": [
       "Rhyming words",
       "Word families",
@@ -11629,9 +11865,9 @@
      "id": "g1-reading-sentences-and-stories",
      "slug": "reading-sentences-and-stories-grade-1-unit",
      "title": "Reading Sentences and Stories",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 3,
+     "from": 5,
+     "to": 7,
      "lessons": [
       "Read and do",
       "Fill in the missing word",
@@ -11652,9 +11888,9 @@
      "id": "g1-words-and-how-they-work",
      "slug": "words-and-how-they-work-grade-1-unit",
      "title": "Words and How They Work",
-     "weeks": 2,
-     "from": 4,
-     "to": 5,
+     "weeks": 4,
+     "from": 8,
+     "to": 11,
      "lessons": [
       "ABC order",
       "Nouns, verbs, and adjectives",
@@ -11683,18 +11919,18 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (6 Weeks)",
-   "metaDescription": "3 Grade 2 reading and writing units in teaching order, about 6 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 6,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (9 Weeks)",
+   "metaDescription": "3 Grade 2 reading and writing units in teaching order, about 9 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 9,
    "framework": "Common Core",
    "units": [
     {
      "id": "g2-sentences-and-grammar",
      "slug": "sentences-and-grammar-grade-2-unit",
      "title": "Sentences and Grammar",
-     "weeks": 2,
+     "weeks": 3,
      "from": 1,
-     "to": 2,
+     "to": 3,
      "lessons": [
       "Capital letters and end marks",
       "Nouns, verbs, and adjectives: three bins",
@@ -11713,9 +11949,9 @@
      "id": "g2-spelling-and-word-building",
      "slug": "spelling-word-building-and-word-choice-grade-2-unit",
      "title": "Spelling, Word Building, and Word Choice",
-     "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "weeks": 3,
+     "from": 4,
+     "to": 6,
      "lessons": [
       "Review: find sh in sentences",
       "Spelling rules: which letters go here?",
@@ -11736,9 +11972,9 @@
      "id": "g2-stories-facts-and-writing",
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "weeks": 3,
+     "from": 7,
+     "to": 9,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",

@@ -51,6 +51,37 @@ function Standards({ lesson, ui, codeLinks }: { lesson: UnitLesson; ui: UnitUi; 
   );
 }
 
+/**
+ * The class days of a lesson and what is done on each (Part 4.8; the rule is a US teacher-reviewer's, see
+ * scripts/units/pacing.js). Built from the names the slots below already carry, so the day plan and the material
+ * cannot disagree: day 1 teaches (the tool, the core page), day 2 practises at the child's level and checks (the
+ * easier and the harder page, the screen task, the check-up page), day 3 acts on the check where the lesson has the
+ * material for it.
+ */
+function LessonDays({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
+  if (!lesson.days || !ui.dayWord || !ui.lessonDays) return null;
+  const levels = lesson.paper.some((p) => p.easy || p.hard);
+  const day1 = [lesson.tool ? lesson.tool.name : null, `${ui.slotPaper} (${ui.levelCore})`].filter(Boolean);
+  const day2 = [levels ? `${ui.slotPaper} (${[lesson.paper.some((p) => p.easy) ? ui.levelEasy : null, lesson.paper.some((p) => p.hard) ? ui.levelHard : null].filter(Boolean).join(', ')})` : null, !levels && lesson.maker && ui.dayMore ? ui.dayMore : null, lesson.screen ? ui.slotScreen : null, lesson.exit ? ui.slotExit : null].filter(Boolean);
+  const day3 = lesson.days >= 3 ? [ui.dayRespond || ui.slotMaker] : [];
+  const rows = [day1, day2.length ? day2 : [ui.slotPaper], day3].filter((d) => d.length);
+  // what each day is for; the second day is named for its check only where the lesson has a check-up page
+  const role = (i: number) => (i === 1 && !lesson.exit ? ui.dayRole2NoCheck : ui[`dayRole${i + 1}`]);
+  return (
+    <div className="un-days" data-lesson-days={lesson.days}>
+      <p className="un-days-count">{fill(ui.lessonDays, { n: lesson.days })}</p>
+      <ol className="un-days-list">
+        {rows.map((d, i) => (
+          <li key={i}>
+            <span className="un-days-day">{fill(ui.dayWord, { n: i + 1 })}</span>
+            <span>{role(i) ? <b className="un-days-role">{role(i)}: </b> : null}{d.join(' · ')}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale: string; ui: UnitUi; codeLinks: Record<string, string> }) {
   return (
     <section className="un-lesson" id={`lesson-${lesson.n}`} aria-labelledby={`lesson-${lesson.n}-title`}>
@@ -59,6 +90,7 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
         <h3 id={`lesson-${lesson.n}-title`} className="un-lesson-title">{lesson.title}</h3>
         <p className="un-lesson-objective">{lesson.objective}</p>
         <Standards lesson={lesson} ui={ui} codeLinks={codeLinks} />
+        <LessonDays lesson={lesson} ui={ui} />
       </header>
 
       <div className="un-slots">
@@ -210,6 +242,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
             <span>{fill(ui.factLessons, { n: count.lessons })}</span>
             <span>{unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })}</span>
           </p>
+          {(check ? ui.unitEnd : ui.unitEndOwn) ? <p className="un-unit-end">{check ? ui.unitEnd : ui.unitEndOwn}</p> : null}
           {plan && at >= 0 ? (
             <p className="un-in-plan">
               {ui.unitInPlan.split('{plan}').map((raw) => fill(raw, { n: at + 1, total: plan.units.length })).map((part, i) => (

@@ -98,5 +98,15 @@
  "partOfTitle": "Part of a lesson plan",
  "partOfLanding": "This worksheet is used in Lesson {n} ({lesson}) of the unit {unit}.",
  "partOfActivity": "This activity is the on-screen practice for Lesson {n} ({lesson}) of the unit {unit}.",
- "pilotBanner": "Format preview. This page is not listed anywhere, and search engines are asked not to index it."
+ "pilotBanner": "Format preview. This page is not listed anywhere, and search engines are asked not to index it.",
+ "dayWord": "Day {n}",
+ "lessonDays": "{n} class days",
+ "dayRespond": "Act on the check-up pages: reteach the children who are not there yet, with the tool and a new page from the maker; the others take a harder page.",
+ "unitEnd": "The unit ends with three more days: a review day, the unit check, and a day to act on what the check showed.",
+ "dayRole1": "Teach",
+ "dayRole2": "Practice and check",
+ "dayRole3": "Reteach and extend",
+ "unitEndOwn": "The unit ends with three more days: a review day, a day for your own unit check, and a day to act on what the check showed.",
+ "dayRole2NoCheck": "Practice",
+ "dayMore": "More pages from the maker"
 }

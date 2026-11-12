@@ -11,7 +11,8 @@
    "title": "Läge, storlek och mönster",
    "metaTitle": "Matematik förskoleklass: Läge, storlek och mönster | Lektionsplanering",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Läge, storlek och mönster”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 15,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -64,7 +65,8 @@
       "mistake": "Barnen ringar in den bild de tycker bäst om, inte den som finns på platsen du sa. Vänster och höger är svårast: många hittar rätt sida bara när de står vända åt samma håll som du.",
       "words": "Börja med kroppen: låt barnen lägga en ärtpåse på, under och bredvid stolen. Säg hela meningen varje gång: ”Katten ligger PÅ lådan. Bollen ligger UNDER lådan.” För vänster och höger ställer du dig med ryggen mot barnen, så att din vänstra sida är deras vänstra: ”Sätt fingret på linjen. Dra det hitåt. Det här är VÄNSTER sida.”",
       "watch": "Lägg märke till vilka som också kan SÄGA var en bild finns, inte bara ringa in den. Ett barn som blandar ihop vänster och höger men kan på, under och bredvid behöver fler vändor med linjebladet, inte med lådbladet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -111,7 +113,8 @@
       "mistake": "Barnen ringar in de två eller tre första de ser och slutar sedan. Eller så ringar de in en bild som bara har samma färg eller nästan samma form.",
       "words": "Fråga: ”Är den precis likadan som den i rutan? Har du hittat alla? Hur vet du det?” Lär ut en väg för ögonen: ”Börja högst upp och gå rad för rad, som när man läser.”",
       "watch": "Se vilka som letar i ordning och vilka som hoppar runt på bladet. De som hoppar missar bilder; ge dem en pappersremsa att dra nedåt, rad för rad."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -164,7 +167,8 @@
       "mistake": "Barnen säger ”stor” om allt: både det höga och det långa är ”den stora”. Några ringar in den bild som sitter högst upp på bladet i stället för den som är högst.",
       "words": "Använd ett eget ord för varje sorts storlek: ”HÖG säger vi om det som står upp, som ett träd eller ett torn. STOR är den som tar mest plats.” Fråga: ”Står alla på samma linje? Titta nedifrån och upp. Vilken är HÖGST?” Fråga efter motsatsen också: ”Vilken är lägst? Vilken är minst?”",
       "watch": "Se vilka som tittar på alla bilder i raden innan de ringar in. Ett barn som ringar in efter att ha tittat på bara två får först peka på varje bild och säga dess storleksord."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -217,7 +221,8 @@
       "mistake": "Med tre bilder hittar barnen den minsta och den största och gissar den i mitten. Med fem får de ändarna rätt och blandar ihop dem i mitten, eller så numrerar de från vänster till höger utan att titta på storleken.",
       "words": "Säg: ”Hitta den minsta. Den får nummer 1. Titta nu på dem som är kvar. Vilken är minst NU?” Använd ”mindre än” och ”större än”: ”Koppen är större än skeden och mindre än grytan.”",
       "watch": "Se vilka som börjar om med ”den minsta av dem som är kvar” varje gång. Ett barn som gör så har en metod och klarar fem bilder; ett barn som gissar stannar vid tre."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -267,7 +272,8 @@
       "mistake": "Barnen ringar in det som ser störst ut. En stor ballong väljs före en liten sten, för hittills har större alltid betytt mer.",
       "words": "Ta med en ballong och en sten, eller en stor tom kartong och en liten full flaska: ”Vilken är störst? Vilken är tyngst? Håll en i varje hand.” Säg: ”Stor är hur mycket plats den tar. Tung är hur hårt den trycker ner din hand.” Säg ”tyngst” och ”lättast”; bladets ”den tyngre” är den som väger mest av de två.",
       "watch": "Titta på de par där det mindre föremålet är det tyngre; de visar vem som har förstått. Låt barnen vara våg: armarna utåt, en sak i varje hand, och den tunga sidan sjunker. Känns två saker ungefär lika tunga lägger ni dem på en balansvåg."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -319,7 +325,8 @@
       "mistake": "Barnen tittar bara på den sista bilden och väljer en som är annorlunda. Det fungerar i ett mönster med två delar och går fel i ett med tre. Andra väljer radens första bild varje gång.",
       "words": "Bygg först mönstret med klossar eller pärlor. Läs det sedan högt tillsammans och klappa det: ”äpple, päron, äpple, päron, äpple …” Stanna och låt barnen säga nästa. Fråga: ”Vilken del kommer tillbaka hela tiden?” Kalla den ”den del som upprepas”.",
       "watch": "Lyssna efter vilka som kan säga delen som upprepas (”äpple, päron”), inte bara nästa bild. Ett barn som ramsar raden rätt och ändå ringar in fel slutade ramsa innan det tittade på svaren: låt barnet läsa raden igen, säga nästa ord högt och först sedan leta upp det."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -332,7 +339,8 @@
    "title": "Antal och siffror 0–10",
    "metaTitle": "Matematik förskoleklass: Antal och siffror 0–10 | Lektionsplanering",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Antal och siffror 0–10”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 17,
+   "weeks": 6,
    "lessons": [
     {
      "n": 1,
@@ -380,7 +388,8 @@
       "mistake": "Barnen drar två streck till samma kompis eller hoppar över en bild som sitter lite vid sidan av. Blir en över drar de ett streck till en bild som redan har en kompis, så att ingen blir utan.",
       "words": "Duka först på riktigt: en mugg till varje barn vid bordet. Säg: ”En till dig, en till dig. Var och en får EN kompis.” När något blir över: ”Finns det en till varje? Vilken grupp har fler?” Använd ”räcker” och ”räcker inte”, och ”lika många” när det går jämnt ut.",
       "watch": "Titta på strecken: ett streck från varje bild och ett streck till varje bild. Ett barn som ger en bild två streck sätter fingret på varje kompis som är använd (”den är upptagen”). Ett barn som utan att räkna kan säga ”det räcker inte” har förstått parbildning."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -438,7 +447,8 @@
       "mistake": "Barnen säger räkneorden fortare än de pekar, så en bild räknas två gånger eller hoppas över. På frågan ”Hur många?” börjar några räkna om i stället för att säga det sista talet.",
       "words": "Säg: ”Peka på en, säg ett räkneord.” Fråga efter räkningen: ”Hur många är det alltså?” och vänta på ett tal, inte en ny räkning. I tioramen (arbetsbladet säger tioruta): ”Den övre raden är full. Det är fem. Sex, sju.”",
       "watch": "Följ fingret och rösten samtidigt. Ett barn vars röst springer före fingret stryker över varje bild medan det säger talet. En spegelvänd 3:a eller 7:a i svaret är en skrivfråga, inte ett räknefel."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -496,7 +506,8 @@
       "mistake": "Barnen målar alla bilder i raden. De kan räkna en grupp som redan finns, men de stannar inte när de har nått talet de fick.",
       "words": "Säg: ”Talet säger 4. Måla en, två, tre, fyra. STOPP. Är det fyra? Kontrollera.” Låt barnet säga talet före och efter: ”Jag ska ha fyra. Jag har fyra.” På prickbladet: ”Rita lika många prickar som talet visar.”",
       "watch": "Se vilka som stannar själva vid talet och vilka som behöver ditt ”stopp”. Den som behöver det håller talet i sikte: ett finger på talet medan den andra handen målar."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -554,7 +565,8 @@
       "mistake": "Barnen räknar varje prick med fingret även när det bara är två eller tre. I fem eller sex prickar ser de inte de mindre grupperna (en fyra och en tvåa), och då återstår bara att räkna.",
       "words": "Visa en grupp i två sekunder, täck över och fråga: ”Hur många såg du? HUR såg du dem?” Godta ”jag såg två och två”. Säg: ”Du räknade inte. Dina ögon visste.”",
       "watch": "Se efter läppar som rör sig och fingrar som pekar: de barnen räknar fortfarande en och en. Stanna vid ett till fyra med dem och använd tärningsbilder, som ser likadana ut varje gång."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -607,7 +619,8 @@
       "mistake": "Barnen väljer den grupp som tar mest plats eller har de största bilderna, inte den som har flest. ”Färre” är ett nytt ord för de flesta; på det bladet ringar de in den större gruppen en gång till.",
       "words": "Fråga: ”Vilken grupp har FLER? Hur kan vi kontrollera?” Kontrollera genom att para ihop en och en eller räkna båda. Säg ”färre” om saker och ”mindre än” om tal: ”Det är färre katter än hundar. Fem är mer än tre. Tre är mindre än fem.” Visa två lika stora grupper en gång: ”Här är det lika många.”",
       "watch": "Se vad barnen gör när den mindre gruppen ligger utspridd. Ett barn som räknar eller parar ihop innan det svarar är på rätt väg; ett barn som svarar direkt och fel lägger de två grupperna på rad under varandra."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -671,7 +684,8 @@
       "mistake": "Barnen börjar nerifrån och ritar siffran som en bild, så att 8 blir två ringar på varandra och 9 en boll med ett streck. Spegelvända 2:or, 3:or, 5:or och 7:or är vanliga i den här åldern och inget tecken på svårigheter.",
       "words": "Skriv först stort: i luften, i sand eller med krita på skolgården. Ge varje siffra en kort ramsa och använd samma hela året, till exempel för 5: ”Rakt ner, runt magen, och sist hatten på.” Fråga: ”Var börjar den? Vid den orangea pricken. Åt vilket håll pekar pilen?”",
       "watch": "Titta på handen, inte på det färdiga bladet: en siffra som ser rätt ut kan vara skriven nerifrån och upp. Kontrollera pennfattningen medan barnen spårar och rätta en siffra i taget. Siffrorna kommer tillbaka i åk 1, så allt behöver inte sitta nu."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -727,7 +741,8 @@
       "mistake": "Barnen målar efter hur saken brukar se ut (”gräs är grönt”) och inte efter siffran. De blandar ihop 6 och 9, eller målar fältet bredvid för att de inte letade efter siffran inuti.",
       "words": "Säg: ”Hitta siffran i fältet. Hitta samma siffra i koden. Vilken färg säger koden?” Ta en färg i taget: ”Leta upp alla 3:or först. Alla 3:or ska bli blå.”",
       "watch": "Se vilka som går tillbaka till koden för varje fält. En färg i taget håller koden i minnet och visar snabbt vem som ännu inte skiljer 6 från 9."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -740,7 +755,8 @@
    "title": "Geometriska former och spegelbilder",
    "metaTitle": "Matematik förskoleklass: Geometriska former och spegelbilder",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Geometriska former och spegelbilder”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 11,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -802,7 +818,8 @@
       "mistake": "Barnen känner igen en triangel bara när den ligger platt med spetsen uppåt. En triangel som står på spetsen är ”upp och ner” eller ”ingen triangel”, och en kvadrat som står på ett hörn blir ”en diamant”.",
       "words": "Vrid en form i handen och fråga: ”Är det fortfarande en triangel? Varför?” Ge skälet varje gång: ”Den har tre raka sidor och tre hörn, alltså är det en triangel.” Om den vridna kvadraten: ”Fyra lika långa sidor och fyra likadana hörn. Det är fortfarande en kvadrat.” Säg ”kvadrat” och ”rektangel”; barnens ”fyrkant” passar på båda.",
       "watch": "Lyssna på vad barnen säger om den långa, smala triangeln och den vridna kvadraten. Ett barn som räknar sidorna för att bestämma sig använder regeln; ett barn som säger ”den ser inte ut som en” går efter utseendet. Börja med bladet där barnen målar efter figurkod; på bladet med formernas namn läser du namnen högt."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -860,7 +877,8 @@
       "mistake": "Barnen räknar runt figuren och glömmer var de började, så en sida räknas två gånger. Några räknar sidor och hörn ihop, och några säger att en cirkel har en sida.",
       "words": "Säg: ”Sätt ett märke på sidan där du börjar. Följ varje sida med fingret och räkna. Stanna vid märket.” Fråga: ”En sida är rak. Hur många raka sidor har då en cirkel?” (Ingen.)",
       "watch": "Se vilka som märker ut en startsida. Kontrollera figurerna med sex sidor först: det är där en dubbelräkning syns."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -905,7 +923,8 @@
       "mistake": "Barnen lägger en bit som den råkar ligga och ger upp när den inte passar. De kommer inte på att vrida eller vända den. På bladet ritar de en linje där två bitar aldrig skulle kunna mötas.",
       "words": "Bygg först med riktiga bitar. Säg: ”Vrid den. Vänd den. Skjut den.” Sätt ord på det som hände: ”Två små trianglar blev en kvadrat.” Fråga: ”Vilken bit fyller det här hörnet? Vilken sida på biten är den långa?”",
       "watch": "Se vilka som vrider en bit innan de ber om hjälp. Ett barn som ritar linjer på måfå får lägga de riktiga bitarna på figuren och rita längs kanterna."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -952,7 +971,8 @@
       "mistake": "Barnen ringar in bilden som är precis likadan, eller den som är upp och ner. De ser ännu inte att en spegel byter plats på vänster och höger men låter upp och ner vara som det är.",
       "words": "Håll en liten spegel bredvid en bild och fråga: ”Hunden tittar åt vänster. Åt vilket håll tittar hunden i spegeln?” Säg: ”I spegeln byter vänster och höger plats. Upp är fortfarande upp.”",
       "watch": "Lägg märke till vilket fel svar ett barn väljer. Samma bild betyder att barnet inte har sett bytet; bilden upp och ner betyder att barnet vrider i stället för att spegla. Låt barnet pröva med spegeln mot varje svar."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -965,7 +985,8 @@
    "title": "Talraden till 20 och ordningstal",
    "metaTitle": "Matematik förskoleklass: Talraden till 20 och ordningstal",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Talraden till 20 och ordningstal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 11,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -1022,7 +1043,8 @@
       "mistake": "Barnen kan räkna från 1 men kan inte säga vad som kommer efter ett tal mitt i raden. För att fylla en lucka efter 7 går de tillbaka och viskar från 1. Mellan 10 och 20 skriver de siffrorna i den ordning de hörs, 31 för tretton.",
       "words": "Fråga: ”Vad kommer direkt efter 7? Säg det utan att börja på 1.” Räkna vidare tillsammans från olika tal: ”Börja på 6. Sju, åtta, nio.” Säg talen efter tio långsamt och peka på dem: ”tret-ton, fjor-ton, fem-ton”. Bladet till 20 passar på vårterminen.",
       "watch": "Se vilka som viskar från 1 vid varje lucka. De behöver många korta muntliga vändor med ”börja på … och räkna vidare” före fler blad. Kontrollera 11, 12 och 18: elva, tolv och arton låter inte som de andra talen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1084,7 +1106,8 @@
       "mistake": "”Efter” är lätt, för det är nästa räkneord. ”Före” är svårt: barnen skriver talet efter en gång till eller räknar upp från 1 för att hitta det. När de räknar baklänges hoppar de över ett tal eller går från 10 till 8.",
       "words": "På en tallinje: ”Sätt fingret på 6. Talet FÖRE är ett steg bakåt. Talet EFTER är ett steg framåt.” Räkna ner som en raket: ”10, 9, 8 …” Säg ”ett mindre” om talet före och ”ett mer” om talet efter.",
       "watch": "Se vilka som hittar talet före utan att räkna upp från 1. De som inte kan det använder tallinjen vid varje uppgift; ta bort den först när de slutar titta på den."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1143,7 +1166,8 @@
       "mistake": "Barnen drar strecket till närmaste prick, inte till nästa tal. De läser 12 som 21, eller lyfter pennan, tappar bort sig och hittar inte tillbaka.",
       "words": "Säg: ”Säg talet du står på. Vad kommer sedan? Leta upp det INNAN du drar.” Låt barnen hålla ett finger på pricken de står på och leta efter nästa tal med ögonen.",
       "watch": "Titta på de tre första strecken. Ett barn som letar upp nästa tal innan pennan rör sig blir klart på egen hand. Blir bilden fel räknar ni högt längs strecken tillsammans tills ni hittar var det gick snett."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1203,7 +1227,8 @@
       "mistake": "Barnen räknar alltid från vänster, också när pilen eller flaggan sitter till höger. Några markerar så många bilder (tre bilder för ”tredje”) och inte den enda bild som står på tredje plats.",
       "words": "Fråga först: ”Var börjar raden? Leta upp pilen.” Sedan: ”Första, andra, tredje. Den TREDJE är bara den här.” Ställ fem barn på rad och fråga: ”Vem står som nummer två? Vänd er om. Vem är tvåa nu?”",
       "watch": "Se vad som händer när starten är till höger. Ett barn som letar upp pilen innan det räknar har förstått. Håll isär ”tre” och ”tredje”: ”Tre är hur många. Tredje är vilken.”"
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1216,7 +1241,8 @@
    "title": "Sortera, uppskatta och dela upp tal",
    "metaTitle": "Matematik förskoleklass: Sortera, uppskatta och dela upp tal",
    "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Sortera, uppskatta och dela upp tal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 11,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -1269,7 +1295,8 @@
       "mistake": "Barnen räknar allt på bladet som en enda grupp, eller räknar en sort och tappar bort sig för att bilderna är blandade. En bild räknas två gånger eller inte alls.",
       "words": "Sortera riktiga saker först: knappar, kottar, stenar. Säg sedan vid bladet: ”Nu räknar vi bara fåglarna. Är det här en fågel? Då sätter du ett märke.” Lär barnen att stryka över eller pricka varje bild när den är räknad. Fråga efteråt: ”Vilken sort finns det flest av?”",
       "watch": "Se vilka som märker det de har räknat. Ett barn som märker och ändå får fel tal har svårt med själva räknandet: räkna högt tillsammans och peka på varje märke. Ett barn som inte märker tappar bort vilka bilder som är räknade; visa det barnet hur man prickar av."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1322,7 +1349,8 @@
       "mistake": "Barnen räknar tyst innan de gissar, för de vill ha rätt. Eller så säger de ett vilt tal (”hundra”) om åtta saker. Båda visar att en gissning ännu inte är ett sätt att tänka.",
       "words": "Säg: ”En bra gissning har ett matteord: att UPPSKATTA. Då räknar man inte. Titta, tänk och säg: är det närmare 5 eller närmare 20?” Efter räkningen: ”Var din uppskattning nära? Den behöver inte vara precis rätt.” Beröm det som är nära, inte bara det som är exakt.",
       "watch": "Se vilka som ändrar sin inringade gissning efter räkningen. Säg till gruppen att gissningen får stå kvar; räkningen är ett andra svar. Lägg märke till vem som jämför med en grupp de känner igen (”det ser ut som en full tioram”)."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1370,7 +1398,8 @@
       "mistake": "Barnen räknar den första gruppen, börjar om på 1 i den andra och skriver det andra talet. De räknar två grupper; de har ännu inte lagt ihop dem.",
       "words": "Säg: ”Här är tre. Här är två. Skjut ihop dem. Hur många är det TILLSAMMANS?” Räkna över mellanrummet utan att stanna: ”ett, två, tre … fyra, fem.” Säg sedan meningen: ”Tre och två är fem tillsammans.” I förskoleklass räcker det att säga och visa; plustecknet och likhetstecknet kommer i åk 1.",
       "watch": "Se vad som händer vid mellanrummet mellan grupperna. Ett barn som räknar vidare har lagt ihop dem. Ett barn som säger det första talet och räknar vidare därifrån använder redan en strategi från åk 1; låt barnet fortsätta så."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1416,7 +1445,8 @@
       "mistake": "Barnen lägger ihop de två tal de ser. Står det 5 överst och 2 under skriver de 7 i den tomma cirkeln, för hittills har alla tal varit något att lägga ihop.",
       "words": "Visa med fem knappar: ”Två i den här handen. Hur många gömmer jag i den andra?” Peka sedan på bladet: ”Cirkeln överst är HELHETEN. De två cirklarna under är DELARNA. Fem är helheten. Två är en del. Vilken är den andra delen?” Arbetsbladet säger femkompisar; femkamrater och femkompisar är samma sak.",
       "watch": "Leta efter svar som är större än helheten: det barnet har lagt ihop. Gå tillbaka till knapparna och dela en grupp på olika sätt innan bladet kommer fram igen."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1429,7 +1459,8 @@
    "title": "Språklekar: rim, stavelser och ljud",
    "metaTitle": "Svenska förskoleklass: Språklekar – rim, stavelser och ljud",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Språklekar: rim, stavelser och ljud”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -1485,7 +1516,8 @@
       "mistake": "Barnen parar ihop ord som börjar på samma ljud (katt, kam) eller som hör ihop till betydelsen (katt, hund) i stället för ord som låter likadant på slutet.",
       "words": "Säg: ”Ord som rimmar låter likadant på slutet. Hus, mus: -us, -us.” Säg paret och dra sedan ut slutet. Lek först utan papper: du säger ett ord, barnen hittar på rim, och nonsensord är välkomna: ”hus, lus, krus, fnus”.",
       "watch": "Benämn alla bilder tillsammans innan barnen börjar; ett barn som kallar en bild för något annat kan inte hitta rimmet. Låt varje barn säga båda orden högt innan det drar strecket eller ringar in."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1537,7 +1569,8 @@
       "mistake": "Barnen klappar en gång för varje ljud (tre klappar för ”sol”), eller drar ut ordet och lägger till stavelser som inte finns.",
       "words": "Säg: ”Stavelser är takten i ordet. Säg ordet som du brukar och klappa takten: ti-ger. Två.” En hand under hakan fungerar också: hakan faller en gång för varje stavelse. Börja med barnens namn: ”An-na, två. Mo-ham-med, tre. Kim, en.”",
       "watch": "Ord med en stavelse är provet: vem klappar ”hund” en gång? Be barn som drar ut ordet att säga det i vanlig taltakt."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1596,7 +1629,8 @@
       "mistake": "Barnen säger bokstavens namn i stället för ljudet (”be” för b), eller ger hela första stavelsen (”ba” för banan).",
       "words": "Fråga: ”Vilket är det allra första ljudet munnen gör? Mmm … mus.” Säg ljudet rent, utan vokal efter: håll ut ”mmm” och ”sss”, och säg b och d så kort du kan. Säg ”ordet börjar på ljudet …”; det är ordet som börjar på ljudet, inte bilden.",
       "watch": "Fråga: ”Säg ordet. Vilket ljud började du med?” Ett barn som kan säga ljudet men inte hittar bokstaven behöver arbeta med bokstäverna, inte lyssna mer. Bladet där barnen skriver bokstaven själva passar på vårterminen; på hösten räcker bladet med streck."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1649,7 +1683,8 @@
       "mistake": "Barn som just har lärt sig lyssna efter första ljudet fortsätter att svara med det. Vokalen i mitten är svårast: kort e och kort ä låter likadant, och ett kort å-ljud skrivs ofta med o.",
       "words": "Säg: ”Säg ordet. Vilket ljud hör du sist? Buss … sss.” Om mitten: ”Dra ut ordet: sss-ooo-lll. Vad hör du i mitten?” Säg ”sist i ordet” och ”mitt i ordet” och visa med handen: början vid axeln, mitten vid armbågen, slutet vid handen.",
       "watch": "Ett barn som skriver första bokstaven vid varje bild har inte flyttat sig till slutet av ordet ännu. Säg ordet tillsammans igen och fånga det sista ljudet. Ta sista ljudet och ljudet i mitten vid olika tillfällen; bladet om ljudet i mitten hör till slutet av vårterminen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -1710,7 +1745,8 @@
       "mistake": "Barnen ger stavelserna från stavelselektionen i stället för ljuden, så ”sol” får en prick. Andra delar ordet i bara två delar, ”s” och ”ol”. Barn som redan kan stava räknar bokstäver: ”boll” får fyra prickar fast ordet har tre ljud.",
       "words": "Värm upp med att ljuda ihop. Säg ljuden i ett ord ett i taget, ”s – o – l”, och fråga: ”Vilket ord blir det?” Gör fem ord innan bladet kommer fram. Säg sedan: ”Säg ordet långsamt. Ett finger för varje ljud: m – u – s. Tre ljud.” Säg ”ljud” hela tiden, aldrig ”bokstav”.",
       "watch": "Titta på fingrarna, inte på papperet: ett finger för varje ljud. Ord med dubbel konsonant (boll, katt) visar vem som räknar ljud och vem som stavar. Bladet med ljudrutor för hela ord hör hemma i åk 1."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1723,7 +1759,8 @@
    "title": "Ord, begrepp och berättande",
    "metaTitle": "Svenska förskoleklass: Ord, begrepp och berättande | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Ord, begrepp och berättande”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -1775,7 +1812,8 @@
       "mistake": "Barnen lägger ihop saker som hör ihop i verkligheten (hunden med benet) och inte saker av samma sort. På frågan varför berättar de en historia om de två bilderna.",
       "words": "Benämn gruppen innan ni sorterar: ”Den här lådan är för djur. Är en hund ett djur? Är ett ben ett djur?” Fråga efter det samlande ordet: ”En hund, en katt och en ko är alla …?” Använd ”hör till” och ”är en sorts”: ”En morot är en sorts mat.”",
       "watch": "Fråga varje barn om en bild: ”Varför ska den dit?” ”För att det är ett djur” är en sortering; ”för att hunden äter det” är en berättelse. Båda är tänkande, men bara det första är att sortera."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -1822,7 +1860,8 @@
       "mistake": "Barnen ringar in den bild som ser annorlunda ut (den största, den enda röda) när raden handlar om sorter. Eller så ringar de in en bild och kan inte säga vad de tre andra har gemensamt.",
       "words": "Fråga: ”Vad är de här tre? De är alla frukter. Är skon en frukt?” Låt barnet avsluta meningen: ”Skon hör inte hit för att …” Godta ett annat svar om skälet är bra, och säg det högt.",
       "watch": "Skälet är viktigare än ringen. Ett barn som ger ett annat svar med ett hållbart skäl har gjort tankearbetet; fråga gruppen om de också kan se det så."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -1869,7 +1908,8 @@
       "mistake": "Barnen parar ihop två bilder som hör ihop (varm och solen, natt och en säng) och inte två som är motsatser. Eller så drar de strecket till närmaste bild utan att bry sig om ordet som står vid den.",
       "words": "Gör motsatserna med kroppen: ”Stå upp … sitt ner. Öppna … stäng.” Säg: ”Motsatser är så olika som de kan bli.” Fråga med en mening att avsluta: ”Soppan är varm. Isen är …?” Läs orden på bladet högt; barnen behöver inte kunna läsa dem själva.",
       "watch": "Låt barnen säga båda orden i varje par de drar streck mellan. Ett barn som kan visa motsatsen med kroppen men inte benämna den behöver orden; det är en fråga om ordförråd, inte om tänkande."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -1933,7 +1973,8 @@
       "mistake": "Barnen numrerar bilderna från vänster till höger som de är tryckta, utan att titta på vad som händer i dem. Eller så hittar de första bilden och gissar de två andra.",
       "words": "Fråga: ”Vad är annorlunda på den här bilden? Vad hände innan dess?” Berätta med de tre orden: ”FÖRST ligger fröet i jorden. SEDAN kommer ett blad upp. TILL SIST finns det en blomma.” Låt barnet återberätta på samma sätt.",
       "watch": "Låt varje barn berätta högt utifrån det färdiga bladet. Går berättelsen ihop är ordningen rätt; ett barn som inte kan berätta har numrerat rutor, inte ordnat en berättelse."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -1946,7 +1987,8 @@
    "title": "Bokstäver och första skrivandet",
    "metaTitle": "Svenska förskoleklass: Bokstäver och första skrivandet",
    "metaDescription": "Lektionsplanering i svenska för förskoleklass, arbetsområdet ”Bokstäver och första skrivandet”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -1999,7 +2041,8 @@
       "mistake": "Barnen börjar där pennan råkar hamna och drar mot pilen, eller lyfter pennan vid varje sväng. Många håller pennan i hela näven och trycker så hårt att handen är trött efter två linjer.",
       "words": "Säg: ”Leta upp den orangea pricken. Där börjar pennan. Följ pilen och lyft inte förrän linjen är slut.” Om pennfattningen: ”Nyp om pennan med tummen och pekfingret och låt den vila på långfingret.” Benämn varje linje medan barnet drar den: ”rakt, sicksack, våg, båge”.",
       "watch": "Titta på startpunkten och riktningen, inte på hur fin linjen blev. Ett barn som börjar i fel ände eller drar mot pilen här kommer att forma bokstäver på samma sätt; rätta det nu, en linje i taget."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -2047,7 +2090,8 @@
       "mistake": "Barnen ringar in b, d, p och q som samma bokstav: en pinne och en boll. En leksak är samma sak hur man än vänder den, så barnen väntar sig inte att en bokstav blir en annan när den vänds.",
       "words": "Säg: ”Bokstäver är speciella. Vänder du på ett b blir det en annan bokstav.” Ge varje bokstav en kort minnesregel och håll fast vid den hela året: ”b: pinnen först, sedan magen. d: magen först, sedan pinnen. p: pinnen hänger ner under raden.”",
       "watch": "Låt barnet säga namnet eller ljudet på varje bokstav det ringar in. Ett barn som ringar in rätt men inte kan benämna bokstäverna jämför former; ett barn som kallar d för b behöver minnesregeln, inte fler ringar."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -2095,7 +2139,8 @@
       "mistake": "Barnen parar ihop de par som liknar varandra (C c, S s, O o, Ö ö) och gissar på dem som inte gör det: A a, G g, R r, Q q. De små bokstäverna b, d, p och q får fel partner.",
       "words": "Säg: ”Varje bokstav har två former, en stor och en liten. De heter likadant och låter likadant.” Peka på båda: ”Stora G, lilla g.” Fråga: ”Vilka par liknar varandra? Vilka ser olika ut?” Börja med bokstäverna i barnens egna namn.",
       "watch": "Anteckna vilka par varje barn missar och öva bara dem. Paren som ser olika ut måste läras in ett i taget; för dem finns inget knep."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -2163,7 +2208,8 @@
       "mistake": "Barnen ritar bokstäverna nerifrån och upp eller i bitar, så att ett M blir fyra streck i valfri ordning och ett O går runt åt fel håll. Bokstaven ser rätt ut på bladet, men vanan gör skrivandet långsamt senare.",
       "words": "Säg vägen högt för varje bokstav och använd samma ord varje gång: ”Stora B: rakt ner, tillbaka upp, en mage, en mage till.” Fråga: ”Var börjar den? Åt vilket håll pekar första pilen?” Skriv bokstaven stort i luften tillsammans innan pennan rör bladet.",
       "watch": "Stå så att du ser handen röra sig. Kontrollera den bokstav barnet skriver själv på den tomma raden; den visar om vägen är inlärd eller bara följd. I förskoleklass är detta ett första möte; bokstäverna tas en i taget i åk 1."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -2228,7 +2274,8 @@
       "mistake": "Barnen spårar bokstäverna i valfri ordning och läser aldrig ordet, så bladet blir en ritövning. När de skriver ordet själva tappar de en bokstav, byter ordning eller sprider ut bokstäverna så att ordet ser ut som två.",
       "words": "Säg: ”Läs ordet först. Spåra det nu och säg varje ljud medan du spårar dess bokstav. Skriv det och läs det en gång till.” Om en ordbild som inte låter som den stavas, till exempel ”och”: ”Det ordet känner vi igen som en bild. Säg bokstäverna medan du spårar: o, c, h, och.” Om avstånd: ”Bokstäverna i ett ord står tätt ihop, som kompisar.”",
       "watch": "Be barnet läsa upp det som står skrivet. Titta på ordet barnet skrev självt: står bokstäverna i rätt ordning, tätt ihop och på raden?"
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -2277,7 +2324,8 @@
       "mistake": "Barnen skriver sitt namn med bara stora bokstäver eller med bokstäverna i fel ordning, och några kan ännu inte skriva siffran för sin ålder. När de skriver av ett ord hoppar de över en bokstav eller tappar bort sig och börjar om.",
       "words": "Säg: ”Ditt namn börjar med stor bokstav. De andra bokstäverna är små.” Vid avskrift: ”Titta på första bokstaven. Skriv den. Titta på nästa.” Fråga varje barn om teckningen: ”Berätta om din bild.”",
       "watch": "Det här bladet har inga fel svar om barnets liv; rätta bara namnet och de avskrivna orden. Lyssna på vad barnen berättar om sina teckningar och skriv deras ord under bilden om de vill. Det första bladet passar redan vid skolstarten, bladet med avskrift på vårterminen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -2327,7 +2375,8 @@
       "mistake": "Barnen kan sjunga alfabetet men kan inte säga vad som kommer efter en bokstav mitt i utan att börja om från A. ”L, M, N, O, P” sjungs som ett enda ord, så de bokstäverna försvinner, och Å, Ä och Ö i slutet hamnar i fel ordning.",
       "words": "Säg alfabetet långsamt medan du pekar på varje bokstav och stanna: ”… F, G. Vad kommer sedan?” Fråga: ”Vad kommer efter K? Vad kommer före K?” Sakta ner vid ”L, M, N, O, P” och peka på varje bokstav. Säg slutet för sig: ”X, Y, Z, Å, Ä, Ö.”",
       "watch": "Lägg märke till vilka som sjunger från A vid varje lucka. Ge dem en alfabetsremsa på bordet och låt dem hitta en bokstav och dess grannar genom att titta, sedan ur minnet. Prick till prick-bladet går från a till t, inte genom hela alfabetet; säg det till barnen. Lektionen passar sent på vårterminen."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2339,8 +2388,9 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–10",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–10 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Addition och subtraktion 0–10”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Addition och subtraktion 0–10”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -2388,7 +2438,8 @@
       "mistake": "Många elever räknar den första gruppen, börjar om på 1 i den andra och skriver det andra talet som summa. Andra räknar en bild två gånger eller hoppar över en.",
       "words": "Fråga: ”Hur många är det här? Hur många är det där? Hur många är det tillsammans?” Peka på tecknen och säg ”plus” och ”är lika med”; ”är lika med” betyder ”är lika mycket som”. Kalla svaret ”summan”.",
       "watch": "Se vilka som pekar på varje bild en gång när de räknar. En elev som säger det första talet och räknar vidare därifrån (”fyra … fem, sex”) är redo att gå vidare."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -2435,7 +2486,8 @@
       "mistake": "Eleverna räknar de överstrukna bilderna i stället för dem som är kvar, eller räknar alla bilder, överstrukna eller inte, och skriver talet de började med.",
       "words": "Säg: ”Vi börjar med sex. Vi tar bort två. Hur många är kvar?” Läs 6 − 2 först som ”sex ta bort två” och sedan som ”sex minus två”.",
       "watch": "Be varje elev peka på bilderna som är kvar innan svaret skrivs. Den som är osäker gör det först med plockmaterial: lägg sex knappar, skjut undan två och räkna dem som ligger kvar. De två bladen har samma uppgift; använd det andra som repetition."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -2490,7 +2542,8 @@
       "mistake": "Eleverna räknar starttalet som första hoppet, så 5 + 3 landar på 7. När de räknar bakåt landar de ett för högt av samma skäl.",
       "words": "Säg: ”Sätt fingret på 5 och säg fem. Hoppa tre gånger och räkna där du landar: sex, sju, åtta.” Säg ”hoppa framåt” om addition och ”hoppa bakåt” om subtraktion.",
       "watch": "Titta på första hoppet. En elev som säger starttalet medan fingret rör sig landar ett steg fel. Låt eleven rita varje hopp som en båge och räkna bågarna, inte strecken: tre bågar för + 3."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -2541,7 +2594,8 @@
       "mistake": "Eleverna ser två tal och adderar, också när tecknet är minus. Eller så räknar de rätt och målar sedan efter uppgiftens första tal i stället för efter svaret.",
       "words": "Säg: ”Ringa in tecknet först. Är det plus eller minus?” Sedan: ”Skriv svaret litet i fältet. Leta nu upp DET talet i koden.” Låt eleverna använda fingrarna eller en tioram; bladet är övning, inte ett test på tid.",
       "watch": "Se vilka som skriver svaren innan de målar. Bilden visar felen av sig själv: ett fält i fel färg är en uppgift att kontrollera tillsammans."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -2605,7 +2659,8 @@
       "mistake": "Eleverna plockar ut de två talen och adderar dem vad händelsen än säger, eller letar efter ett enda ord som ”fler” och väljer räknesätt efter det.",
       "words": "Fråga: ”Vad händer i räknehändelsen? Kommer det fler eller försvinner några?” Låt eleven återberätta händelsen innan något tal skrivs. Sedan: ”Skriv händelsen på mattespråket: 4 + 2 = 6.” Bladet har bara en ruta för svaret, så låt eleverna skriva uträkningen bredvid. På hösten läser du texten högt; de flesta kan inte läsa den själva än.",
       "watch": "Lyssna på återberättandet. En elev som kan spela upp händelsen med plockmaterial men skriver fel tecken behöver kopplingen mellan handlingen och tecknet, inte mer räkning."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -2660,7 +2715,8 @@
       "mistake": "Eleverna räknar varje uppgift från 1, också 5 + 1 och 4 + 4, för räknandet har alltid gett rätt svar. När de pressas att vara snabba slutar de räkna och gissar.",
       "words": "Fråga: ”Vilka kan du utantill? Vilka kan du tänka ut från en du redan kan?” Till exempel: ”Jag kan 4 + 4. Då är 4 + 5 ett mer.” Kalla 4 + 4 en dubbla och 4 + 5 en ”dubbla plus ett”.",
       "watch": "Anteckna vilka kombinationer varje elev fortfarande räknar sig fram till; dem kommer du tillbaka till. Ta inte tid. Bladet stannar vid 10: till additionen och subtraktionen mellan 11 och 20 behöver du annat material."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -2672,8 +2728,9 @@
    "subject": "math",
    "title": "Talkamrater och likhetstecknet",
    "metaTitle": "Matematik åk 1: Talkamrater och likhetstecknet | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talkamrater och likhetstecknet”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talkamrater och likhetstecknet”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "days": 14,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -2725,7 +2782,8 @@
       "mistake": "Eleverna kan 5 + 5 och 9 + 1 men räknar från 1 för de andra paren. Många ser inte att 3 + 7 och 7 + 3 är samma par.",
       "words": "Fråga: ”Vilket tal är tiokamrat med 6?” I tioramen: ”Sex rutor är fulla. Hur många är tomma?” Visa med fingrarna: ”Sex fingrar uppe. Hur många är nere?”",
       "watch": "Vem svarar utifrån de tomma rutorna utan att räkna de fulla en gång till? De eleverna går vidare till labyrinten; de andra stannar vid tioramen. Tiokamraterna är höstterminens viktigaste kunskap i åk 1 och behöver några minuter varje dag."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -2778,7 +2836,8 @@
       "mistake": "Eleverna skriver 3 + 7 = 10 och 7 + 3 = 10 utan besvär och sedan 3 − 7 = 10 eller 7 − 10 = 3, för de flyttar runt talen utan att tänka på vilket som är helheten.",
       "words": "Fråga: ”Vilket tal är helheten? Vilka två är delarna?” Sedan: ”Delarna blir helheten tillsammans. Helheten minus en del är den andra delen.” Arbetsbladet säger räknefamiljer; de flesta läromedel säger talfamiljer.",
       "watch": "Kontrollera att varje subtraktion börjar med helheten. Gör den inte det lägger ni helheten med plockmaterial, tar bort en del och ser vad som ligger kvar."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -2839,7 +2898,8 @@
       "mistake": "Eleverna adderar de två tal de ser: för 4 + □ = 9 skriver de 13. För □ − 3 = 5 skriver många 2. Likhetstecknet läser de som ”nu kommer svaret”.",
       "words": "Läs rutan som ”vilket tal”: ”Fyra plus vilket tal är lika med nio?” Läs likhetstecknet som ”är lika mycket som” och visa det som en våg: ”Det ska vara lika mycket på båda sidor.”",
       "watch": "Låt eleven läsa den färdiga likheten högt och säga om den stämmer. En elev som räknar upp från 4 till 9 på fingrarna har förstått tanken."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -2887,7 +2947,8 @@
       "mistake": "Eleverna adderar de två första grupperna, skriver det talet och glömmer den tredje. Eller så räknar de varje bild från 1 och använder aldrig något de kan, som en dubbla.",
       "words": "Säg: ”Tre grupper. Lägg ihop två av dem först, sedan den tredje.” Fråga: ”Vilka två är lätta att börja med? Ser du en dubbla?” Visa att man får välja: ”2 + 4 + 2. Jag tar 2 och 2 först. Det är 4. Och 4 till är 8.”",
       "watch": "Se vilka som letar efter ett lätt par innan de adderar. Be en elev berätta vilka två tal som lades ihop först och varför; skälet är viktigare än farten."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -2945,7 +3006,8 @@
       "mistake": "Eleverna adderar två stenar som ligger bredvid varandra och skriver summan bredvid dem, inte ovanför. När en sten längst ner saknas adderar de de två tal de ser i stället för att fråga vad som fattas.",
       "words": "Peka med två fingrar under en sten: ”Den här stenen ligger på de här två. Den är deras summa.” Om en sten som saknas: ”7 ligger på 4 och vilket tal? Fyra och hur många är sju?”",
       "watch": "Titta på pyramiderna där en sten längst ner saknas. En elev som skriver 11 bredvid en 4:a under en 7:a har adderat igen. Fråga: ”Kan en sten längre ner vara större än stenen som ligger på den?”"
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -2957,8 +3019,9 @@
    "subject": "math",
    "title": "Former, mönster och längd",
    "metaTitle": "Matematik åk 1: Former, mönster och längd | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -3016,7 +3079,8 @@
       "mistake": "Eleverna godtar en form med en böjd sida eller ett öppet hörn som triangel för att den ”ser ut som en”, och underkänner en riktig triangel som är lång, smal eller vriden. Färg och storlek tas som en del av vad formen är.",
       "words": "Fråga: ”Vad MÅSTE en triangel ha?” (Tre raka sidor, tre hörn, och den ska vara sluten.) ”Spelar det någon roll om den är stor, röd eller vriden?” (Nej.) Låt eleverna ge skälet: ”Det är ingen triangel, för den här sidan är böjd.”",
       "watch": "Lyssna efter skäl som nämner sidor och hörn. En elev som säger ”den är för spetsig” eller ”den är upp och ner” går fortfarande efter utseendet. En kvadrat är också en rektangel; godta det svaret och säg varför. Bladet där eleverna skriver namnen passar på vårterminen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -3061,7 +3125,8 @@
       "mistake": "Eleverna lägger de stora bitarna sist och får inte plats, eller har en bit över och kallar figuren färdig. Som saknad bit väljer de en med rätt form och fel storlek.",
       "words": "Säg: ”Börja med de två stora trianglarna. Var kan de ligga?” Fråga: ”Har du använt alla sju? Sticker något ut?” Om biten som saknas: ”Rätt form OCH rätt storlek. Vrid den i huvudet.”",
       "watch": "Skuggbilderna har inga linjer inuti och är svåra: låt eleverna arbeta i par, och ge den som har kört fast en bit på plats, inte hela lösningen. Varje elev eller par behöver ett eget tangram; klipp ut bitarna i förväg."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -3102,7 +3167,8 @@
       "mistake": "Eleverna sätter samma bild i båda de tomma rutorna, eller tittar bara på bilden precis före luckan. En lucka mitt i raden är svårare än en i slutet.",
       "words": "Läs raden högt och klappa vid varje tom ruta: ”stjärna, måne, stjärna, (klapp), stjärna, måne.” Fråga: ”Vilken del upprepas? Säg den. Vad ska då stå i luckan?” Kontrollera genom att läsa den färdiga raden högt.",
       "watch": "Lägg märke till vilka som läser hela raden en gång till när luckorna är fyllda. Den kontrollen fångar de flesta felen; lär ut den som sista steg i varje mönster."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -3159,7 +3225,8 @@
       "mistake": "Eleverna räknar alla rutor i raden, också dem som saken inte når fram till, eller räknar strecken i stället för rutorna. När de ordnar går de efter var saken slutar på bladet och inte efter hur lång den är.",
       "words": "Mät först något i klassrummet med gem eller klossar, tätt och utan mellanrum. Säg vid bladet: ”Räkna bara rutorna under saken, från början till slut.” Säg enheten varje gång: ”Pennan är 6 rutor lång.” Fråga: ”Vilken är längst? Hur många rutor längre?”",
       "watch": "Lyssna efter svar utan enhet (”6”) och fråga ”sex vad?” Kontrollera en sak som inte börjar vid radens kant; det är där eleverna räknar för många."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -3172,7 +3239,8 @@
    "title": "Talen 0–20: dubbelt, hälften, udda och jämnt",
    "metaTitle": "Matematik åk 1: Talen 0–20 – dubbelt, hälften, udda och jämnt",
    "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talen 0–20: dubbelt, hälften, udda och jämnt”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3229,7 +3297,8 @@
       "mistake": "Eleverna räknar strecken och börjar med 1 vid nollan, så varje svar blir ett för stort. När bara några tal står utsatta räknar de från 0 för varje pil och tappar bort sig på vägen.",
       "words": "Säg: ”Noll är starten, inte nummer ett. Räkna HOPPEN, inte strecken.” När få tal står utsatta: ”Vilket utsatt tal ligger närmast pilen? Börja där. Du kan räkna bakåt också.”",
       "watch": "Se var en elev börjar för en pil vid 18. Den som räknar två steg bakåt från 20 använder linjen; att räkna upp från 0 fungerar men tar tid. Ett svar som är precis ett för stort betyder att eleven räknade streck. Tallinjen till 30 är en utmaning för dem som är säkra till 20."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -3280,7 +3349,8 @@
       "mistake": "Eleverna fyller i varje ruta som en egen uppgift och märker inte när två rutor säger olika: 15 som tiotal och ental, men 14 i tioramarna. Ett tal mellan 11 och 19 skrivs som 1 och 5 utan en tanke på att 1:an är ett tiotal.",
       "words": "Fråga efter bladet: ”Visar alla dina rutor samma tal? Bevisa det.” Säg: ”Femton är ett tiotal och fem ental. Visa mig tiotalet i tioramarna: en full ram.” Säg ”tiotal” och ”ental” varje gång, inte ”ettan och femman”.",
       "watch": "Använd bladet som en snabb koll på vad varje elev kan: vilken ruta lämnas tom eller görs sist? Den rutan visar vad eleven behöver härnäst. Bladet passar på vårterminen, när talen 11–20 är genomgångna."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -3335,7 +3405,8 @@
       "mistake": "Eleverna gissar ordet på första bokstaven: fyra, fem, fjorton och femton börjar alla på f, och sex, sju, sexton och sjutton på s. Elva, tolv och arton liknar inte talen de står för.",
       "words": "Säg slutet tydligt: ”Fem-TON är tio och fem. Orden från tretton till nitton slutar på -ton.” Fråga: ”Slutar ordet på -ton?” Låt eleverna stryka under slutet innan de ringar in. Läs de svåra tillsammans: elva, tolv, fjorton, arton, tjugo.",
       "watch": "Lyssna när en elev läser svarsalternativen högt. Den som läser ”fem” för femton tittar bara på ordets början; täck början med ett finger och läs slutet först. Det här är lika mycket en läsuppgift som en matematikuppgift; läs med dem som ännu inte läser själva."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -3386,7 +3457,8 @@
       "mistake": "Elever som kan tiokamraterna använder dem inte här: för 13 och vilket tal blir 20 räknar de upp ett i taget från 13 och hamnar ofta ett steg fel. De ser inte att 13 är 10 och 3, så att kamraten är densamma som till 3.",
       "words": "Säg: ”Vilket tal är tiokamrat med 3? Sju. Då är 13 och 7 tjugokamrater.” I två tioramar: ”En ram är full. I den andra är 3 fyllda. Hur många är tomma?” Skriv paret: ”3 + 7 = 10. 13 + 7 = 20.” Arbetsbladet säger tjugokompisar; det är samma sak.",
       "watch": "Se vilka som använder tiokamraterna. En elev som räknar upp ett i taget vid varje uppgift går tillbaka till tiokamraterna först. Lektionen hör till vårterminen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -3443,7 +3515,8 @@
       "mistake": "Eleverna tror att dubbelt betyder plus 2, så dubbelt av 6 blir 8. Vid hälften tar de bort några och kontrollerar inte att delarna är lika; hälften av 10 blir 4 och 6.",
       "words": "Säg: ”Dubbelt betyder lika många en gång till. Sex och sex till.” Använd två händer: ”Visa 4 på varje hand.” Om hälften: ”Hälften betyder två LIKA stora delar. En till dig, en till mig, tills det är slut. Är delarna lika?”",
       "watch": "Se vilka som kan dubblorna till 5 + 5 utan att räkna och vilka som räknar varje bild; bladet går vidare till 7 + 7. De som räknar bygger varje dubbla med två händer eller i två rader i en tioram."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -3496,7 +3569,8 @@
       "mistake": "Eleverna ringar in tre bilder tillsammans eller missar en bild som sitter långt bort, så en blir över som inte borde bli det, eller ingen när en borde. Några tror att ”udda” betyder konstig.",
       "words": "Säg: ”Två och två. Har alla en kompis?” Sätt sedan ord på det: ”Ingen blir över. Sex är ett JÄMNT tal.” ”En blir över. Sju är ett UDDA tal.” Ställ upp klassen i par och se efter: blir någon över i dag?",
       "watch": "Kontrollera att varje ring rymmer precis två. Målet är att para ihop noggrant, inte att kunna utantill vilka tal som är udda."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -3554,7 +3628,8 @@
       "mistake": "Eleverna bestämmer sig efter hur talet ser ut (”11 är jämnt för det har två ettor”) och hoppar över parbildningen. När de delar glömmer de att skriva den som blir över, eller ger den till en av kompisarna.",
       "words": "Fråga: ”Kan två kompisar dela lika? Blir en över?” Säg: ”Jämna tal går att dela lika på två. Udda tal ger en över.” Knyt det till dubblorna: ”8 är 4 och 4. Varje jämnt tal är en dubbla.” Låt eleverna räkna två i taget medan de ringar in: ”2, 4, 6 … och en till blir 7.”",
       "watch": "Lägg märke till vilka som börjar se regeln i entalen: tal som slutar på 0, 2, 4, 6 eller 8 är jämna. Låt eleverna hitta regeln på sina egna blad innan du säger den."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -3566,8 +3641,9 @@
    "subject": "math",
    "title": "Klockan och almanackan",
    "metaTitle": "Matematik åk 1: Klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -3630,7 +3706,8 @@
       "mistake": "Eleverna kan rabbla dagarna i ordning men kan inte börja mitt i: på frågan vad som kommer efter onsdag börjar de om från måndag. Tisdag och torsdag blandas ihop för att de börjar likadant.",
       "words": "Fråga varje morgon: ”Vilken dag är det i dag? Vilken dag var det i går? Vilken dag är det i morgon?” Peka på orden medan klassen säger dem. För de två t-dagarna tittar ni på andra bokstaven: ”Tisdag börjar på t-i. Torsdag börjar på t-o.”",
       "watch": "Se vilka som måste rabbla hela ramsan för varje svar. På bladet med avskrift kontrollerar du att varje ord skrivs av bokstav för bokstav från ordrutan; det bladet är lika mycket läsning och skrivning som matematik."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -3695,7 +3772,8 @@
       "mistake": "Eleverna blandar ihop i går och i morgon, och kör fast när i dag är söndag, för veckan verkar ta slut där. Med månaderna rasar ordningen efter de första.",
       "words": "Säg: ”I går är dagen före i dag. I morgon är dagen efter.” Visa att veckan går runt: ”Efter söndag kommer måndag igen.” Säg månaderna i fyra grupper om tre och fråga: ”Vilken månad fyller du år? Vilken månad kommer före den?”",
       "watch": "Kontrollera uppgifterna där i dag ligger vid veckans kant: efter söndag kommer måndag, och veckan börjar om. Lägg märke till vilka som måste börja från januari varje gång; säg månaderna tillsammans med almanackan framme tills de kan börja var som helst."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -3752,7 +3830,8 @@
       "mistake": "Eleverna skriver 1:e och 2:e, eller bara talet utan ändelse. De läser ”femte” som ”fem” och ”åttonde” som ”åtta”, och hittar platsen genom att räkna bilder i stället för att läsa ordet.",
       "words": "Lär ut ändelserna: ”1:a och 2:a slutar på a, första och andra. Från 3:e och uppåt slutar de på e: tredje, fjärde, femte.” Läs orden högt tillsammans, särskilt sjätte, sjunde och åttonde. Fråga varje gång: ”Var är flaggan? Där börjar vi.” Knyt det till datumet: ”I dag är det den tredje maj.”",
       "watch": "Kontrollera ändelserna på 1:a och 2:a och att eleven börjar vid flaggan. Att läsa ordningstalen med bokstäver är en läsuppgift; läs dem tillsammans med de elever som inte läser själva än."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -3809,7 +3888,8 @@
       "mistake": "Eleverna blandar ihop visarna och läser klockan 6 som halv ett. Vid halv står timvisaren mellan två tal, och eleverna säger det tal som visaren har lämnat: halv tre blir ”halv två”.",
       "words": "Säg: ”Den korta visaren är timvisaren. Läs den först.” Vid halv: ”Timvisaren är på väg från 2 till 3. Den har gått halva vägen till tre, och därför säger vi halv TRE.” Säg tiden på båda sätten: ”halv tre” och ”två och trettio”.",
       "watch": "Fråga var timvisaren pekar vid halv och lyssna efter ”mellan”. En elev som säger ”halv två” när klockan är halv tre tänker på timmen som har varit; låt eleven flytta visarna på en riktig klocka från två till tre och stanna halvvägs."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -3865,7 +3945,8 @@
       "mistake": "Eleverna ritar båda visarna lika långa, så att ingen kan läsa klockan. Vid halv sätter de timvisaren precis på ett tal och inte mitt emellan två: för halv fem pekar den rakt på 5, för det är ”fem” de hör.",
       "words": "Säg: ”När vi LÄSER klockan börjar vi med den korta visaren. När vi RITAR är den långa lättast att placera, så rita den först: på 12 vid hel timme, på 6 vid halv. Sedan timvisaren: KORT.” Om halv fem: ”Den korta visaren står mitt emellan 4 och 5, på väg mot fem.”",
       "watch": "Titta på visarnas längd och på var den korta visaren står vid halv. Att rita visar det som läsningen döljer: en elev kan välja rätt tid i en lista och ändå inte veta var timvisaren ska stå."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -3877,8 +3958,9 @@
    "subject": "math",
    "title": "Sortera, tabeller och diagram",
    "metaTitle": "Matematik åk 1: Sortera, tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Sortera, tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Sortera, tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -3920,7 +4002,8 @@
       "mistake": "Eleverna sorterar efter något eget (färg, eller vad de tycker om) och inte efter bladets tre grupper. Vid en bild som kan passa på två ställen kör de fast, eller så får bilden två streck.",
       "words": "Läs de tre lådorna först: ”Vad ska ligga i den här? Vilken är regeln?” Fråga efter skälet vid varje streck: ”Varför ska äpplet dit?” Efteråt: ”Vilken låda har flest? Vilken har färst?”",
       "watch": "Lyssna mer på skälen än du kontrollerar strecken. En elev som kan säga regeln för en låda sorterar på riktigt; en elev som bara går efter utseendet tappar bort sig när bilderna byts ut."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -3973,7 +4056,8 @@
       "mistake": "Eleverna drar fem raka streck och lägger ett sjätte tvärs över, så varje knippe blir värt sex. Andra lägger aldrig något tvärs över och drar en enda lång rad streck.",
       "words": "Säg medan ni drar: ”Ett, två, tre, fyra, och det FEMTE på tvären.” Säg: ”Strecket på tvären är nummer fem. Det är inget extra.” När ni läser av börjar ni från knippet: ”Fem … sex, sju.” Med två knippen: ”Fem, tio … elva.” Så prickar man av när man räknar något till en tabell.",
       "watch": "Titta när eleverna drar: räkna de raka strecken innan det sneda läggs på. När de läser av lyssnar du efter ett ”fem” direkt för ett knippe och inte ”ett, två, tre, fyra, fem”."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -4029,7 +4113,8 @@
       "mistake": "Eleverna skriver ett antal på fel rad i tabellen för att de inte tittar på bilden i början av raden. Bladen frågar bara efter antal; när du lägger till frågan ”hur många fler” svarar eleverna med det större talet och inte med skillnaden.",
       "words": "Säg: ”Varje bild i diagrammet står för en sak.” Ställ tre sorters frågor: ”Hur många äpplen? Vilken sort finns det flest av? Hur många FLER äpplen än päron?” Vid ”hur många fler” lägger ni de två raderna under varandra och räknar dem som sticker ut. Bladet säger ”summorna”; det är antalen ni skriver i tabellen.",
       "watch": "Ställ en ”hur många fler”-fråga till varje elev; den är den svåra. Se vem som jämför två rader genom att para ihop dem och vem som bara läser av det större talet."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -4085,7 +4170,8 @@
       "mistake": "Eleverna räknar rutorna i en stapel och hoppar över den nedersta, eller räknar linjen högst upp som en till, så talet blir ett för litet eller ett för stort. De följer inte stapelns topp över till talet vid sidan.",
       "words": "Säg: ”Sätt fingret på stapelns topp. Dra det åt sidan till talen. Vilket tal hamnar du på?” När ni målar: ”Börja längst ner. En ruta för varje. Stanna vid talet.”",
       "watch": "Se vem som använder talen vid sidan och vem som räknar rutor en och en; båda fungerar, men talen vid sidan är det nya. Kontrollera att målade staplar börjar längst ner och inte har några luckor."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -4097,8 +4183,9 @@
    "subject": "literacy",
    "title": "Ljuda, läsa och stava ord",
    "metaTitle": "Svenska åk 1: Ljuda, läsa och stava ord | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Ljuda, läsa och stava ord”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Ljuda, läsa och stava ord”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -4156,7 +4243,8 @@
       "mistake": "Eleverna skriver första och sista ljudet och tappar vokalen (”sl” för sol), eller sätter bokstäverna i fel ordning (”slo”).",
       "words": "Fråga: ”Säg ordet. Första ljudet? Nästa ljud? Sista ljudet?” När ordet är skrivet: ”Peka på varje bokstav och säg dess ljud. Läs sedan hela ordet.”",
       "watch": "Låt varje elev läsa upp det den har byggt. En elev som läser ”sl” som ”sol” läser av bilden; täck över bilden och fråga igen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -4214,7 +4302,8 @@
       "mistake": "Eleverna skriver en bokstav i varje ruta och inte ett ljud, så ett ord med ng eller sj får en ruta för mycket. Eller så tappar de ett ljud mitt i ordet, oftast vokalen, och skriver ”sng” för sång.",
       "words": "Säg: ”Dra ut ordet som ett gummiband: s-å-ng. Hur många ljud? Tre. Ng är två bokstäver och ETT ljud; de delar ruta.” När ni ljudar ihop: ”Säg varje ljud, säg dem fortare, säg ordet.”",
       "watch": "Räkna rutorna en elev fyller för ett ord där två bokstäver står för ett ljud. Lyssna på sammanljudningen: en elev som säger ljuden rätt och sedan nämner ett annat ord gissar utifrån första ljudet."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -4272,7 +4361,8 @@
       "mistake": "Eleverna säger ljuden ett och ett med paus emellan och får inte ihop dem till ett ord: ”s … o … l” blir ”sal”. Andra läser första bokstaven och gissar resten utifrån bilden.",
       "words": "Säg: ”Håll kvar varje ljud tills nästa kommer: sss-ooo-lll. Säg det fortare. Vilket ord blev det?” Efter läsningen: ”Finns det ordet? Passar det till bilden?” Läs orden i rutan högst upp tillsammans innan eleverna börjar; arbetsbladet kallar rutan läsmattan.",
       "watch": "Peka på orden i blandad ordning och lyssna. En elev som läser dem på rad och stakar sig när du hoppar runt har lärt sig ordningen utantill. Den som gissar utifrån bilden får läsa ordet med bilden övertäckt."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -4336,7 +4426,8 @@
       "mistake": "Eleverna skriver första och sista ljudet och hoppar över mitten: ”sl” för sol, ”bl” för bil. Korta vokaler blandas ihop, mest e och ä och o och å (”bål” för boll).",
       "words": "Säg: ”Säg ordet långsamt. Ta ett finger för varje ljud. Skriv en bokstav för varje finger.” Fråga: ”Vilket ljud hör du i mitten? Säg det igen.” När ordet är skrivet: ”Peka på varje bokstav och läs vad du har skrivit. Blev det ordet?”",
       "watch": "Låt eleverna läsa upp sin egen stavning; det fångar en tappad vokal bättre än du gör. Ljudenlig stavning som går att läsa (”kat” för katt) är ett framsteg i åk 1; dubbelteckning kommer i åk 2. Rätta de ord som står i ordbanken. Bladet utan ordbank passar på vårterminen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -4395,7 +4486,8 @@
       "mistake": "Eleverna parar ihop ord som börjar på samma ljud (katt och kam) och kallar det rim. Andra går efter stavningen och missar rim som stavas olika, som häst och fest.",
       "words": "Säg: ”Rimord låter likadant från vokalen och till slutet. Bara början byts. Katt, hatt. Lyssna: -att, -att.” Låt eleverna säga båda orden och sedan bara slutet. Fråga: ”Katt och kam: säg sluten. -att, -am. Är de likadana?”",
       "watch": "Låt varje elev säga paret högt innan den ringar in; man rimmar med öronen, inte med ögonen. En elev som gång på gång väljer ord med samma första ljud får höra och säga ordens slut innan något skrivs."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -4453,7 +4545,8 @@
       "mistake": "Eleverna klappar en gång för varje ljud eller bokstav, eller drar ut ett ord med en stavelse till två klappar (”bi-il”). I skrift sätter de bindestrecket var som helst, ofta efter första bokstaven.",
       "words": "Säg: ”Lägg handen under hakan. Säg ordet. Varje gång hakan faller är en stavelse: so-fa, två.” Sedan: ”Varje stavelse har en vokal. En konsonant mellan vokalerna går till nästa stavelse: so-fa. Två konsonanter delar vi mellan: kat-ten, hop-pa.”",
       "watch": "Använd hakan med elever som klappar för många gånger. På bladet med bindestreck kontrollerar du att varje del har en vokal. Det bladet hör till slutet av åk 1; för många räcker bladet med bågar."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -4466,7 +4559,8 @@
    "title": "Läsa och skriva ord och meningar",
    "metaTitle": "Svenska åk 1: Läsa och skriva ord och meningar | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 1, arbetsområdet ”Läsa och skriva ord och meningar”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -4527,7 +4621,8 @@
       "mistake": "Eleverna tittar bara på första bokstaven och tar första bästa bild som börjar på den: ”sol” paras ihop med en säl. Eller så benämner de bilderna och gissar på orden efter hur långa de är.",
       "words": "Säg: ”Peka på varje bokstav och säg dess ljud. Säg ljuden snabbt. Vilket ord blev det?” Sedan: ”Slutar ordet som bildens namn slutar? Kontrollera sista ljudet.”",
       "watch": "Lyssna när en elev ljudar ett ord. Den som säger första ljudet och sedan nämner en bild gissar; täck över bilderna och låt eleven läsa ordet först. Korten på det andra bladet kan klippas ut och bli ett memory för två."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -4589,7 +4684,8 @@
       "mistake": "Eleverna blandar ihop ord som liknar varandra (den och det, han och hon, var och vad). Ord som inte låter som de stavas ljudar de bokstav för bokstav: ”och” blir o-c-h, ”de” blir d-e och ”mig” blir m-i-g, och de märker inte att det inte är ett ord de känner igen.",
       "words": "Säg: ”Ljuda det som går att ljuda. En del av ordet måste du kunna utantill.” Peka på den delen: ”I ’mig’ låter m som vanligt; i-g låter ’ej’. Det får man lära sig.” Om ett ord utan svår del: ”Det här ordet låter precis som det stavas.” Samla orden ni har lärt er på en lista på väggen.",
       "watch": "Kontrollera rutorna med liknande ord på målarbladet: de visar vilka ord en elev blandar ihop. Låt eleven läsa de färdiga meningarna högt; att skriva in ordet är inte samma sak som att läsa det."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -4648,7 +4744,8 @@
       "mistake": "Eleverna läser de första orden, snappar upp namnet på en bild och målar den i vilken färg som helst. De små orden bär betydelsen och hoppas över: ”två”, ”röd”, ”inte”, ”sista”.",
       "words": "Säg: ”Läs hela meningen innan du tar upp pennan. Säg sedan: VAD ska du måla eller ringa in? HUR MÅNGA? Vilken FÄRG?” Låt eleven stryka under räkneordet och färgordet. ”Läs en gång till och kontrollera.”",
       "watch": "Bladet rättar sig självt: fel färg eller fel antal visar vilket ord som missades. Sitt med en elev vid en mening och lägg märke till om svårigheten är att läsa orden eller att hålla meningen i huvudet. Lektionen passar på vårterminen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -4701,7 +4798,8 @@
       "mistake": "Eleverna väljer ett ord som passar till bilden och läser inte meningen till slut, så ordet passar inte in. Eller så tar de nästa lediga ord i ordlistan.",
       "words": "Säg: ”Läs alla ord i ordlistan först. Läs meningen och säg ’hm’ vid luckan. Pröva ett ord: blir meningen begriplig? Låter den rätt?” Låt eleverna läsa den färdiga meningen högt. ”Varje mening ska betyda något när du läser den.”",
       "watch": "Lyssna när eleven läser en färdig mening. En mening som inte betyder något och som eleven inte reagerar på är det viktiga fyndet; den eleven läser ord, inte innehåll."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -4760,7 +4858,8 @@
       "mistake": "Eleverna skriver av orden i den ordning de är tryckta. När de väl hittar ordningen glömmer de den stora bokstaven i början eller skiljetecknet i slutet.",
       "words": "Säg: ”Leta upp ordet med stor bokstav: det står troligen först. Namn har också stor bokstav, så kontrollera. Leta upp ordet med skiljetecknet: det står sist.” Sedan: ”Vem eller vad handlar meningen om? Vad händer?” Vid ett frågetecken: ”I en fråga kommer ofta verbet först: Sover katten?” Låt eleverna säga meningen högt innan de skriver.",
       "watch": "Låt eleven läsa den skrivna meningen högt. Kontrollera tre saker i tur och ordning: är meningen begriplig, börjar den med stor bokstav, slutar den med punkt eller frågetecken."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -4819,7 +4918,8 @@
       "mistake": "Eleverna väljer ”vad” till allt. ”Var” och ”vad” skiljer sig bara på sista bokstaven och förväxlas i läsningen, och ”vem” och ”var” blandas ihop när svaret är en plats med en person i (”hos mormor”).",
       "words": "Ge varje ord en uppgift: ”VEM frågar efter en person. VAD frågar efter en sak eller något man gör. VAR frågar efter en plats.” Fråga om en mening från klassrummet: ”Maja läser i soffan. Vem läser? Vad gör hon? Var?”",
       "watch": "Be en elev hitta på en fråga till ett svar du ger (”i köket”). Att göra frågan visar mer än att ringa in. Låt eleverna läsa frågeordet högt och peka på sista bokstaven när de tvekar mellan var och vad."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -4883,7 +4983,8 @@
       "mistake": "Eleverna väljer en bild som visar samma saker och inte en som följer av det som hände. Meningarna numrerar de i den ordning de är tryckta, eller parar ihop en mening med en bild utifrån ett enda ord.",
       "words": "Fråga: ”Vad hände först? Vad ändrades? Vad kan då hända sedan, och varför?” Använd ordningsorden: ”först, sedan, efter det, till sist”. Låt eleven berätta hela berättelsen med några meningar när bladet är klart.",
       "watch": "Fråga ”Varför den?” En elev som svarar med en orsak (”för att koppen ramlade”) följer berättelsen; den som säger ”för att katten är med” parar ihop bilder."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -4895,8 +4996,9 @@
    "subject": "math",
    "title": "Talen 0–100: tiotal och ental",
    "metaTitle": "Matematik åk 2: Talen 0–100 – tiotal och ental | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Talen 0–100: tiotal och ental”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Talen 0–100: tiotal och ental”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fem veckor.",
+   "days": 24,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -4939,7 +5041,8 @@
       "mistake": "Eleverna ringar in en grupp på ungefär tio utan att räkna, eller gör ett tiotal och räknar sedan dess ental en gång till som ental. Fjorton skrivs som 1 tiotal och 14 ental.",
       "words": "Säg: ”Tio ental är ett tiotal. Ringa in precis tio. Kontrollera.” Sedan: ”Entalen i ringen är ett tiotal nu. Räkna bara dem som är kvar utanför.” Använd ordet växla: ”Vi växlar tio ental mot ett tiotal.”",
       "watch": "Se vem som bara räknar de lösa entalen efter växlingen och vem som räknar alla en gång till. Med riktiga entalskuber sätter eleverna ihop tio till en stav; bladet kommer efter händerna."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -4987,7 +5090,8 @@
       "mistake": "Eleverna räknar varje stav som 1, så 3 stavar och 4 kuber blir 7. Eller så skriver de siffrorna i den ordning de räknade: 4 kuber och sedan 3 stavar blir 43.",
       "words": "Räkna stavarna tio i taget och kuberna en i taget: ”10, 20, 30 … 31, 32, 33, 34.” Säg: ”3 tiotal och 4 ental är trettiofyra.” Fråga: ”Vad betyder 3:an i 34?” (Tre tiotal, alltså trettio; inte tre.) Bladet säger block; med eleverna heter de tiostavar och entalskuber.",
       "watch": "Titta på bytet från tio i taget till en i taget; det är där eleverna halkar. Den som halkar pekar på sista staven, säger ”trettio”, gör en paus och pekar sedan på kuberna: ”trettioett, trettiotvå”."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -5049,7 +5153,8 @@
       "mistake": "Eleverna fyller en lucka genom att räkna från radens början, eller från 1. På en pusselbit skriver de nästa tal i talraden i rutan under (35 under 34), för de ser inte att ett steg ner är tio mer.",
       "words": "Dra fingret nerför en kolumn och läs: ”4, 14, 24, 34. Vad är likadant? Vad ändras?” Säg: ”Åt höger är ett mer. Nedåt är tio mer. Åt vänster är ett mindre. Uppåt är tio mindre.” Det ena bladet säger hundratavlan och det andra hundrarutan; det är samma sak.",
       "watch": "Titta på rutorna under och över det tryckta talet på en pusselbit. En elev som klarar vänster och höger men missar upp och ner behöver ha hela hundrarutan bredvid bladet några dagar till."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -5105,7 +5210,8 @@
       "mistake": "För 10 mer räknar eleverna upp tio steg på fingrarna och hamnar ofta ett steg fel. För 10 mindre ändrar de fel siffra. Ett mer än 29 skrivs 210, för eleven säger ”tjugotio”.",
       "words": "Fråga: ”Tio mer än 34. Vilken siffra ändras? Vilken står kvar?” Säg: ”Tio mer är ett TIOTAL till. Entalen står kvar.” Kontrollera i hundrarutan först när svaret är skrivet.",
       "watch": "Se vem som fortfarande räknar ett i taget för att hitta tio mer. Kontrollera talen som går över ett tiotal, som 1 mer än 39 och 1 mindre än 40; säg de talen högt tillsammans innan ni skriver."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -5169,7 +5275,8 @@
       "mistake": "Eleverna blandar ihop riktningarna: uppåt känns som mer, så de lägger till tio vid en pil uppåt. Med flera pilar gör de ett hopp, glömmer talet de kom till och börjar om från första talet.",
       "words": "Låt eleverna säga varje hopp: ”Nedåt är tio mer: 34, 44. Åt höger är ett mer: 45.” Fråga: ”En rad upp. Blir talet större eller mindre? Kontrollera i rutan.” Låt dem skriva talet efter varje pil.",
       "watch": "Lägg märke till vem som måste titta i hundrarutan och vem som gör hoppet i huvudet. Kontrollera pilarna uppåt först; en elev som adderar vid en pil uppåt tänker ”högre är mer”, som på en termometer."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -5226,7 +5333,8 @@
       "mistake": "Eleverna räknar strecken från vänster som 1, 2, 3, som om linjen började på noll. Eller så börjar de på ett utsatt tal och räknar det strecket som första hoppet, och hamnar ett steg fel.",
       "words": "Fråga före allt annat: ”Var börjar linjen? Hur mycket är varje hopp värt?” Säg: ”Leta upp närmaste utsatta tal. Räkna vidare därifrån, eller räkna bakåt.” Kontrollera: ”Ligger ditt tal mellan de två utsatta talen på var sin sida?”",
       "watch": "Leta efter svar som 3 eller 7 på en linje från 40 till 60; den eleven har inte brytt sig om de utsatta talen. Låt varje elev säga starttalet och hur stort ett hopp är innan något skrivs."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -5275,7 +5383,8 @@
       "mistake": "Eleverna jämför entalen (”29 är mer än 41 för 9 är mer än 1”) eller lägger ihop siffrorna. Tecknen blandas också ihop: eleverna vet vilket tal som är störst och ringar ändå in fel tecken.",
       "words": "Säg: ”Titta på tiotalen först. Fler tiotal betyder ett större tal. Bara om tiotalen är lika tittar du på entalen.” Läs tecknet som ord: ”41 är större än 29.” Tecknets öppna sida, gapet, vänder sig mot det större talet.",
       "watch": "Håll isär två frågor: vet eleven vilket tal som är störst, och kan eleven tecknet? Låt eleven säga hela meningen högt innan den ringar in."
-     }
+     },
+     "days": 2
     },
     {
      "n": 8,
@@ -5333,7 +5442,8 @@
       "mistake": "Eleverna tittar på fel siffra: 34 kallas udda på grund av 3:an. De kopplar inte ”jämnt” till ”två lika stora delar”, så regeln om entalssiffran blir ett trick utan förklaring.",
       "words": "Säg: ”Jämnt betyder två lika stora delar och inget över: 8 är 4 + 4. Udda betyder en över: 9 är 4 + 4 + 1.” Om stora tal: ”Titta bara på entalssiffran. Tiotalen går alltid att dela lika.” Fråga: ”Är 30 jämnt? Varför?”",
       "watch": "Pröva med 34, 43, 50 och 71. En elev som tittar på tiotalssiffran behöver se att varje tiotal går att dela i 5 och 5, så att det bara är entalen som avgör."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -5346,7 +5456,8 @@
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -5390,7 +5501,8 @@
       "mistake": "Eleverna räknar alla block som ental, så 2 stavar och 3 kuber plus 1 stav och 4 kuber blir 10. Eller så lägger de ihop stavar med kuber och skriver siffrorna i fel ordning.",
       "words": "Säg: ”Lägg ihop tiotalen för sig: 2 tiotal och 1 tiotal är 3 tiotal. Lägg ihop entalen för sig: 3 och 4 är 7. Trettiosju.” Kalla det att räkna talsortsvis. Fråga: ”Hur många tiotal blev det? Hur många ental?”",
       "watch": "Se om eleven räknar stavarna tio i taget eller en i taget. Bladets uppgifter kräver ingen växling; uppgifter där entalen blir fler än nio, som 47 + 8, är årskursens stora steg och behöver riktigt tiobasmaterial. Skärmövningen till lektionen tar det steget: där blir tio ental ett nytt tiotal."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -5434,7 +5546,8 @@
       "mistake": "Eleverna tar bort det andra talets block och räknar sedan alla block på bladet, också de borttagna. Eller så subtraherar de entalen och glömmer tiotalen, så 46 − 23 blir 43.",
       "words": "Säg: ”Ta bort tiotalen från tiotalen och entalen från entalen. 4 tiotal minus 2 tiotal är 2 tiotal. 6 ental minus 3 ental är 3 ental. Tjugotre.” Stryk över blocken på bladet allt eftersom de tas bort.",
       "watch": "Kontrollera att både tiotalen och entalen har minskat i svaret. Bladet har inga uppgifter med växling. Fråga de säkra: ”Vad gör du vid 52 − 17, när entalen inte räcker?” och låt dem växla en riktig tiostav mot tio entalskuber. Skärmövningen till lektionen växlar ett tiotal och har också tal över 100; den är för de elever som är säkra på bladet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -5488,7 +5601,8 @@
       "mistake": "Eleverna lägger ihop tiotalen och entalen och glömmer att växla när entalen blir fler än 9: 28 + 15 blir 313 eller 33. I labyrinten följer ett fel med hela vägen, och de går inte tillbaka för att leta upp det.",
       "words": "Säg: ”Tiotalen för sig, entalen för sig, och sedan ihop. 28 + 15: 30, och 13 till, 43.” Fråga: ”Blir entalen ett nytt tiotal?” I labyrinten: ”Skriv talet efter varje skylt. Stämmer inte slutet kontrollerar du varje steg.”",
       "watch": "Låt eleverna visa sina steg bredvid pyramiden. En elev med de nedre stenarna rätt och en sten nära toppen fel har gjort ett enda räknefel som följde med uppåt; en elev utan något rätt har kanske inte förstått hur pyramiden är byggd."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -5552,7 +5666,8 @@
       "mistake": "Eleverna räknar mynten, inte kronorna: tre femkronor är ”3”. Med två sorters mynt räknar de allt ett i taget.",
       "words": "Håll upp varje mynt: ”Det här är en femkrona. Den är ETT mynt och värd fem kronor.” Räkna med värdet: ”5, 10, 15 kronor.” Med två sorter: ”Börja med mynten som är värda mest. 10, 20 … 25, 26.” Säg alltid ”kronor” efter talet.",
       "watch": "Titta på bytet från tio i taget till fem eller ett i taget i samma börs. De som tappar bort sig där stannar vid bladet med de första stegen. Använd riktiga mynt eller leksakspengar först; många barn ser sällan kontanter."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -5622,7 +5737,8 @@
       "mistake": "Eleverna adderar tal utan att kontrollera vilken vara räknehändelsen handlar om, eller tar priset på fel vara från hyllan. Med tre varor lägger de ihop två priser och glömmer det tredje.",
       "words": "Säg: ”Leta först upp varje vara på hyllan och säg priset. Skriv upp priserna. Lägg sedan ihop.” Fråga: ”Vad kostar det tillsammans?” Säg beloppet med enhet: ”45 kronor.”",
       "watch": "Låt eleverna stryka under vad som köps innan de tittar på hyllan. Kontrollera att svaren har ”kr” efter talet; ett tal utan enhet är ett halvt svar. Lek affär med en elev som kassör i varje grupp."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -5634,8 +5750,9 @@
    "subject": "math",
    "title": "Längd, klockan och almanackan",
    "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -5690,7 +5807,8 @@
       "mistake": "Eleverna räknar strecken och inte mellanrummen, så de säger ”ett” vid nollstrecket och får ett för mycket. Med en riktig linjal lägger de saken mot linjalens kant eller mot 1:an, inte mot 0.",
       "words": "Säg: ”Börja vid noll. Noll betyder ingen längd än. Räkna mellanrummen: ett, två, tre.” Sedan: ”Pennan slutar vid 6, så den är 6 enheter lång.” Bladet säger enheter; med en riktig linjal säger ni centimeter: ”Pennan är 6 centimeter lång.” Fråga: ”Var sitter nollan på din linjal? Den sitter inte alltid vid kanten.”",
       "watch": "Dela ut riktiga linjaler och titta var eleverna lägger sakens början. På bladet börjar allt vid 0; det gör inte klassrummets linjal åt dem."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -5740,7 +5858,8 @@
       "mistake": "Eleverna skriver den längre sakens längd som svar på ”hur mycket längre”. Eller så adderar de de två längderna, för två tal i en uppgift har alltid betytt addition.",
       "words": "Säg: ”Bandet är 9 enheter långt. Snöret är 6 enheter långt. Lägg dem under varandra. Var tar snöret slut? Biten som sticker ut är hur mycket LÄNGRE bandet är.” Skriv: ”9 − 6 = 3. Bandet är 3 enheter längre.” Kalla svaret skillnaden.",
       "watch": "Be eleven visa biten som sticker ut med två fingrar på bladet. En elev som kan visa den men inte skriva subtraktionen behöver orden ”hur mycket fattas från 6 till 9”."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -5797,7 +5916,8 @@
       "mistake": "Eleverna läser talet som minutvisaren pekar på som minuter: visaren på 4 är ”4 minuter”. Efter halv nämner de fel timme, och uttrycken kring halv är svårast: ”fem i halv tre” och ”fem över halv tre” blandas ihop eller sägs med timmen två.",
       "words": "Räkna fem i taget runt klockan och peka på varje tal: ”5, 10, 15, 20.” Säg: ”På högra halvan säger vi ÖVER: fem över, tio över, kvart över, tjugo över. På vänstra halvan säger vi I: tjugo i, kvart i, tio i, fem i. Då nämner vi timmen som kommer, precis som vid halv.” Visa de två särskilda, som räknas från halv: ”Fem i halv tre är fem minuter innan halv tre, alltså 2.25. Fem över halv tre är fem minuter efter halv tre, alltså 2.35. Båda sägs med tre, timmen som kommer.”",
       "watch": "Börja med bladet om kvart över, halv och kvart i; bladet med fem minuter hör till slutet av åk 2. Kontrollera tiderna efter halv, som tjugo i tre, där timvisaren nästan står på nästa tal. Låt eleven räkna fem i taget högt en gång; då hör du var det går fel."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -5854,7 +5974,8 @@
       "mistake": "Eleverna läser längs raden för att hitta veckodagen och tittar inte upp till kolumnens överkant. För ”en vecka senare” räknar de sju rutor en och en och räknar ofta startdagen som dag ett.",
       "words": "Säg: ”Leta upp datumet. Gå rakt upp i kolumnen. Vilken dag står högst upp?” Om en vecka senare: ”En vecka senare är rutan precis under. Samma veckodag, 7 mer.” När ni räknar dagar: ”Räkna inte dagen du börjar på. Räkna hoppen.”",
       "watch": "Fråga ”Vilken veckodag är den 17:e?” och följ elevens finger: det ska gå uppåt i kolumnen. Kontrollera svar på ”hur många dagar från … till …” som är ett för mycket."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -5867,7 +5988,8 @@
    "title": "Multiplikation: lika grupper, 2:an och 5:an",
    "metaTitle": "Matematik åk 2: Multiplikation – lika grupper, 2:an och 5:an",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Multiplikation: lika grupper, 2:an och 5:an”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 25,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -5936,7 +6058,8 @@
       "mistake": "Eleverna säger hoppramsan rätt och skriver sedan nästa tal i talraden i luckan (10, 20, 21). I 2-hopp halkar de över på de udda talen efter ett fel och märker det inte.",
       "words": "Räkna högt i klassen och stanna på ett tal: ”… 30, 40. Vad kommer sedan? Hur mycket mer är det?” Fråga efter mönstret: ”Vad slutar talen på i 5-hopp?” (5 och 0.) ”I 10-hopp?” (Alltid 0.) ”I 2-hopp?” (0, 2, 4, 6 eller 8: de jämna talen.)",
       "watch": "Lägg märke till vem som kontrollerar en rad med mönstret (”det kan inte stämma, det slutar på 3”). Börja några rader mitt i, på 40 eller 15; en elev som bara kan börja från början har lärt sig en ramsa. Hoppen är vägen in i 2:ans, 5:ans och 10:ans tabell."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -5994,7 +6117,8 @@
       "mistake": "Eleverna kan ramsan från början men kan inte fortsätta från ett tal mitt i. I prick till prick drar de till närmaste prick, eller läser 15 och 50 som samma tal.",
       "words": "Säg: ”Säg talet du står på. Lägg till fem i huvudet. Leta upp det talet och dra sedan.” Räkna 5-hopp och 10-hopp i hundrarutan och fråga: ”Vad ser du på entalssiffran?”",
       "watch": "Stoppa en elev mitt i bilden och fråga vad som kommer sedan. En elev som börjar om ramsan från 5 kan en ramsa; att räkna vidare från 35 är kunskapen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -6046,7 +6170,8 @@
       "mistake": "Eleverna blandar ihop antalet grupper och antalet i varje grupp: 3 grupper med 4 skrivs 3 + 4, eller 3 + 3 + 3 + 3. Eller så räknar de varje bild en och en och bryr sig inte om ringarna runt grupperna.",
       "words": "Ställ två frågor varje gång: ”Hur många grupper? Hur många i VARJE grupp?” Säg: ”3 grupper med 4 i varje. 4 + 4 + 4. Tre gånger fyra.” Läs gångertecknet som ”grupper med” i början: ”3 grupper med 4 är 12.” Gångertecknet skrivs som en punkt: 3 · 4.",
       "watch": "Kontrollera att additionen har lika många termer som det finns grupper. Be en elev rita ”2 grupper med 5” och sedan ”5 grupper med 2”: samma antal, två olika bilder."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -6102,7 +6227,8 @@
       "mistake": "Eleverna räknar varje bild en och en och använder aldrig grupperna. I multiplikationen skriver de det sammanlagda antalet där en faktor ska stå.",
       "words": "Säg: ”6 grupper med 4 är 6 gånger 4.” Hitta svaret från något du kan: ”5 grupper med 4 är 20, en grupp till är 24.” Använd orden ”faktor” för talen du multiplicerar och ”produkt” för svaret.",
       "watch": "Fråga hur eleven kom fram till antalet. Att räkna en och en ger rätt svar men ingen utveckling; en elev som säger ”fem sådana och en till” bygger tabellerna. Grupper med andra tal än 2, 5 och 10 löser eleverna i åk 2 med hopp eller upprepad addition, inte ur minnet."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -6158,7 +6284,8 @@
       "mistake": "Eleverna vet inte åt vilket håll en rad går och åt vilket håll en kolumn går. De räknar alla prickar en och en, eller räknar längs två kanter utan att räkna hörnpricken två gånger och får ett för lite: 3 rader med 5 blir ”3 rader och 4 kolumner”.",
       "words": "Säg: ”Rader går åt sidan, som bänkrader. Kolumner går uppifrån och ner, som pelare.” Fråga: ”Hur många rader? Hur många i varje rad?” Sedan: ”3 rader med 5 i varje: 5 + 5 + 5. 5, 10, 15.”",
       "watch": "Låt en elev dra fingret längs en rad och nerför en kolumn. Vrid bladet ett kvarts varv och fråga om antalet har ändrats; det har det inte, och det är värt att säga högt."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -6206,7 +6333,8 @@
       "mistake": "Eleverna räknar båda rutnäten från början som två skilda uppgifter och märker inte att antalen är lika. Några tror att 3 · 7 och 7 · 3 är två olika kombinationer som båda måste läras in.",
       "words": "Vrid ett rutnät av papper ett kvarts varv och fråga: ”Lade jag till några? Tog jag bort några? Hur många är det då nu?” Säg: ”3 rader med 7 och 7 rader med 3 är lika många. Kan du den ena kan du den andra.” Bladet säger ”båda talen”; det är de båda multiplikationerna eleverna ska göra klara.",
       "watch": "Fråga ”Vad är 7 · 3?” precis när en elev har räknat ut 3 · 7. Den som börjar räkna igen har inte tagit till sig vridningen; vrid rutnätet en gång till."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -6256,7 +6384,8 @@
       "mistake": "Eleverna skriver hoppets nummer (1, 2, 3) under varje landning och inte platsen där det landar. Eller så börjar de första hoppet på 1, så att varje landning blir ett för stor.",
       "words": "Säg: ”Alla hopp är lika långa. Börja på noll. 4-hopp landar på 4, 8, 12.” Fråga: ”Hur många hopp? Hur långt är varje? Var är du efter 5 hopp med 4?”",
       "watch": "Kontrollera att första landningen är lika med hoppets längd. Be om ”3 hopp med 5” och ”5 hopp med 3” och låt eleverna se att båda slutar på samma ställe."
-     }
+     },
+     "days": 2
     },
     {
      "n": 8,
@@ -6326,7 +6455,8 @@
       "mistake": "Eleverna hoppräknar från början vid varje uppgift och tappar bort sig kring det sjätte eller sjunde talet. De blandar ihop grannar: 6 · 5 får svaret 35.",
       "words": "Börja från något eleven kan: ”Du vet att 5 · 5 är 25. Då är 6 · 5 en femma till: 30.” Använd dubblorna för 2:ans tabell, och hälften av 10:ans tabell för 5:ans: ”8 · 10 är 80, så 8 · 5 är hälften, 40.”",
       "watch": "Lyssna efter hur en elev får fram ett svar: ur minnet, från en granne eller genom att hoppräkna från början. Öva några kombinationer varje dag; ett blad som är löst med hoppräkning har inte byggt något minne. 10:ans tabell hör också till åk 2 och finns inte på bladen; ta den muntligt."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -6339,7 +6469,8 @@
    "title": "Geometriska objekt, symmetri och rutnät",
    "metaTitle": "Matematik åk 2: Geometriska objekt, symmetri och rutnät",
    "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -6384,7 +6515,8 @@
       "mistake": "Eleverna känner igen de regelbundna figurerna på utseendet och blir osäkra på en oregelbunden: en femsidig figur som inte är en prydlig femhörning är ”ingen figur”. I en figur med en inbuktning missas en sida inne i buktningen.",
       "words": "Säg: ”En figur får sitt namn av antalet hörn och sidor, inte av hur den ser ut.” Benämn dem: ”3 sidor, triangel. 4 sidor, fyrhörning. 5, femhörning. 6, sexhörning.” Låt eleverna sätta ett märke på varje sida de har räknat.",
       "watch": "Kontrollera figurerna med en inbuktning eller en mycket kort sida; det är dem eleverna räknar fel på. Fråga vad en sned figur med fyra sidor heter och lyssna efter ”fyrhörning”."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -6428,7 +6560,8 @@
       "mistake": "Eleverna parar ihop efter storlek eller färg, eller efter ett enda kännetecken: allt spetsigt är en kon, så pyramid och kon blandas ihop. En burk som ligger ner ses inte som en cylinder. Några säger fortfarande cirkel om en boll och fyrkant om en låda.",
       "words": "Ge varje kropp ett föremål: ”En burk är en cylinder. En boll är ett klot. En strut är en kon. Ett mjölkpaket är ett rätblock.” Fråga vad som skiljer två åt: ”Konens botten är en cirkel och sidan är buktig. Pyramidens botten har raka sidor och hörn, och de andra ytorna är trianglar.”",
       "watch": "Gå på kroppsjakt i klassrummet och låt eleverna säga varje namn högt. Kontrollera konen och pyramiden, och kuben och rätblocket; det är de paren som förväxlas."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -6485,7 +6618,8 @@
       "mistake": "Eleverna räknar bara det de ser på teckningen: tre sidoytor på en kub. När de går runt en kropp tappar de bort sig och räknar en kant två gånger, och de säger ”sida” om både sidoyta och kant.",
       "words": "Använd tre ord och håll isär dem: ”En sidoyta är en plan yta. En kant är där två sidoytor möts. Ett hörn är där kanter möts.” På en riktig kartong: ”Lägg handen på en sidoyta. Dra fingret längs en kant. Peka på ett hörn.” Om en burk eller en strut: ”Är den här ytan plan eller buktig? Bladet räknar bara de plana.”",
       "watch": "Ge varje par en riktig kropp och klisterlappar för att märka det som är räknat. Fråga efter det som är dolt på teckningen: ”Baksidan då? Botten?” Lektionen är krävande för åk 2 och passar på vårterminen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -6540,7 +6674,8 @@
       "mistake": "Eleverna tror att varje linje som delar en figur i två lika stora delar är en symmetrilinje. Diagonalen i en rektangel ger två lika stora halvor som inte hamnar på varandra när man viker, och eleverna ringar in ja.",
       "words": "Säg: ”En symmetrilinje är en viklinje. Vik längs den: hamnar de två sidorna precis på varandra?” Klipp ut en avlång pappersrektangel och vik den från hörn till hörn för att visa en linje som delar den i två lika delar och ändå inte är en symmetrilinje.",
       "watch": "Använd vikprovet med papper för de första uppgifterna. Lyssna på vad eleverna svarar om sneda linjer; det är där lika stora halvor och spegelhalvor skiljer sig åt. Vik också en kvadrat från hörn till hörn, så att eleverna ser att en sned linje ibland ÄR en symmetrilinje."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -6590,7 +6725,8 @@
       "mistake": "På rutnätsbladet kopierar eleverna halvan som den är och skjuter den över linjen i stället för att spegla den: en ruta två steg från linjen målas två steg från bortre kanten. På spårbladet finns den andra halvan redan, så eleverna spårar utan att märka att sidorna är lika.",
       "words": "Säg: ”Räkna rutorna BORT från linjen. Två rutor bort på den här sidan, två rutor bort på den andra.” Arbeta rad för rad. Kontrollera med en liten spegel på linjen: ”Visar spegeln det du har målat?”",
       "watch": "Titta på rutorna längst från linjen; en förskjuten kopia lägger dem intill linjen. Ge en spegel till den vars bild ser förskjuten ut och låt eleven själv hitta skillnaden. På spårbladet frågar du: ”Vad är lika på båda sidor?”"
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -6629,7 +6765,8 @@
       "mistake": "Eleverna väljer den första figuren som består av samma bitar. En figur som är vriden eller speglad ser ”likadan” ut för dem, för hittills har en vriden form alltid varit samma form.",
       "words": "Säg: ”En form som är vriden eller speglad är fortfarande samma form. Den här uppgiften kräver mer: figuren ska LIGGA som skuggbilden.” Fråga: ”Åt vilket håll pekar spetsen i skuggbilden? Vänster eller höger? Upp eller ner?”",
       "watch": "Fråga en elev vad som skiljer en figur den inte valde: ”Den är speglad” eller ”Den är vriden.” Att sätta ord på skillnaden är kunskapen; rätt val kan vara en lyckad gissning."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -6669,7 +6806,8 @@
       "mistake": "Eleverna använder bokstaven eller siffran men inte båda, och målar en hel rad eller fel ruta i rätt kolumn. När de skriver koder sätter de siffran först eller anger rutan bredvid.",
       "words": "Säg: ”Bokstaven först: dra ett finger längs bokstäverna till B. Sedan siffran: dra ett annat finger längs siffrorna till 2. Där fingrarna möts ligger B2.” Sedan: ”Säg koden innan du målar.” Jämför med ett schackbräde eller spelet Sänka skepp.",
       "watch": "Bilden rättar arbetet: en ruta på fel plats syns direkt. Se vem som använder två fingrar och vem som gissar. Att skriva koden för en ruta är svårare än att hitta en ruta; gör det som nummer två. Koordinatsystem hör till åk 4–6; det här är en första lek med rutnät."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -6681,8 +6819,9 @@
    "subject": "math",
    "title": "Tabeller och diagram",
    "metaTitle": "Matematik åk 2: Tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -6745,7 +6884,8 @@
       "mistake": "Eleverna läser ett knippe streck som 4 eller 6 och målar stapeln till fel höjd. På ”hur många fler” svarar de med den högre stapelns tal; på ”hur många tillsammans” läser de av en stapel och slutar.",
       "words": "Säg: ”Räkna strecken fem i taget först, sedan de lösa. Skriv talet och måla sedan.” Vid frågorna: ”Vilka två staplar handlar frågan om? Sätt ett finger på varje.” Sedan: ”Hur många FLER betyder skillnaden: subtrahera.”",
       "watch": "Låt eleverna skriva upp de två tal de använder innan de svarar. Då ser du om ett fel svar kommer från avläsningen eller från räkningen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -6789,7 +6929,8 @@
       "mistake": "Eleverna räknar bilderna och skriver det talet, för hittills har en bild alltid betytt en sak. Förklaringen till diagrammet blir oläst.",
       "words": "Säg: ”Läs förklaringen först. Varje bild står för 2.” Räkna en rad i 2-hopp och peka på varje bild: ”2, 4, 6, 8.” Fråga: ”En rad har 5 bilder. Hur många saker är det? Hur vet du det?”",
       "watch": "Titta på den första raden en elev fyller i: är talet lika med antalet bilder har eleven hoppat över förklaringen. Att räkna i 2-hopp här är ett steg mot multiplikation; sätt ord på det (”4 tvåor är 8”)."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -6840,7 +6981,8 @@
       "mistake": "Eleverna räknar linjerna eller bilderna ett i taget och bryr sig inte om stegen. En stapel som slutar vid en linje utan tal läses som det tryckta talet under.",
       "words": "Fråga först: ”Hur stora steg tar axeln? Vad står en bild för?” Räkna längs axeln: ”5, 10, 15, 20.” Om en stapel som slutar vid en linje utan tal: ”Talen på var sin sida är 10 och 20. Vad är då den här linjen värd?”",
       "watch": "Låt eleven läsa förklaringen eller axeln högt före första svaret. Ställ en jämförande fråga (”hur många fler”) för att se om eleven använder de avlästa talen eller räknar bilder. Lektionen kommer efter 5-hoppen."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -6884,7 +7026,8 @@
       "mistake": "Eleverna blandar ihop de två sorternas tal: talet under en stapel kryss (vad som mättes) och antalet kryss (hur många gånger). På frågan ”hur många är 5 cm långa” svarar de ”5”.",
       "words": "Säg: ”Talen på linjen berättar VAD som mättes. Kryssen berättar HUR MÅNGA gånger.” Fråga: ”Hur många pennor var 5 cm långa? Räkna kryssen ovanför 5:an.” Sedan: ”Vilken längd var vanligast?”",
       "watch": "Ställ en fråga åt varje håll: ”Hur många kryss står över 7:an?” och ”Vilket tal har 3 kryss?” En elev som klarar båda förstår diagrammet. Diagramtypen är ovanlig i svenska läromedel; läs den som en tabell där varje kryss är ett streck. Mät sedan sex pennor i klassen och sätt ett kryss för varje."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -6897,7 +7040,8 @@
    "title": "Ordkunskap och alfabetisk ordning",
    "metaTitle": "Svenska åk 2: Ordkunskap och alfabetisk ordning | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Ordkunskap och alfabetisk ordning”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -6949,7 +7093,8 @@
       "mistake": "Eleverna ordnar orden efter var de tror att bokstaven kommer i ramsan och tappar bort sig mitt i alfabetet. När två ord börjar på samma bokstav stannar de eller ordnar dem efter längd. Å, Ä och Ö hamnar bland A och O i stället för sist.",
       "words": "Säg: ”Titta bara på första bokstaven. Leta upp var och en på alfabetsremsan. Vilken kommer först på remsan?” När två börjar likadant: ”Båda börjar på b. Täck över b:et. Titta nu på nästa bokstav.”",
       "watch": "Låt alfabetsremsan ligga framme; målet är att använda ordningen, inte att rabbla den. Kontrollera paren som börjar likadant: en elev som sätter ”bok” före ”bil” har inte gått vidare till andra bokstaven. Bladet med andra bokstaven hör till slutet av åk 2."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -7008,7 +7153,8 @@
       "mistake": "Eleverna ringar in ordet som betyder samma sak, för det är det ord som ”hör ihop” med det första. På bladet med ordbank tar de ett ord som handlar om samma sak utan att vara motsatsen, som ”ljum” för ”varm”.",
       "words": "Säg: ”Motsats betyder så olika som det kan bli: varm, kall. Samma sak betyder nästan likadant: stor, väldig.” Pröva ett ord med ”inte”: ”Om dörren inte är öppen är den … stängd. Då är öppen och stängd motsatser.” Fråga: ”Är det ordet motsatsen, eller betyder det samma sak?”",
       "watch": "På bladet med tre ord vet en elev som ringar in ordet med samma betydelse att orden hör ihop, men inte hur. Fråga efter båda: ”Vilket betyder samma sak? Vilket är motsatsen?”"
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -7058,7 +7204,8 @@
       "mistake": "Eleverna ringar in två ord som båda passar till bilden utan att betyda samma sak (stor och grå om en elefant), eller ringar in ett ord och dess motsats, för motsatser hör också ihop.",
       "words": "Säg: ”Ord som betyder samma sak kan byta plats. Flickan är glad, flickan är lycklig: samma bild i huvudet.” Pröva ett par i en mening: ”Elefanten är stor. Elefanten är väldig. Samma? Elefanten är grå. Samma?” Säg ”ord som betyder samma sak” och lägg till ordet synonymer.",
       "watch": "Låt eleven säga båda de inringade orden i en mening om bilden. Ändras betydelsen från den ena meningen till den andra är orden inga synonymer; låt eleven behålla ett ord och pröva det mot de andra."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -7116,7 +7263,8 @@
       "mistake": "Eleverna väljer ett ord som ofta står ihop med det första (kall och is, stor och hus) och inte ett som kan ta dess plats. På bladet med par drar de streck mellan de lätta paren och kopplar sedan ihop resten utan att läsa orden.",
       "words": "Lär ut bytesprovet: ”Sätt det nya ordet i meningen där det gamla stod. Betyder meningen fortfarande samma sak?” Pröva: ”Jag är glad. Jag är lycklig. Samma. Jag är glad. Jag är ledsen. Inte samma.” Använd ordet synonym.",
       "watch": "Anteckna de ord som ingen kunde; dem behöver ni gå igenom först, för inget prov hittar en synonym till ett ord eleven aldrig har mött. Be en elev använda båda orden i ett par i samma mening."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7167,7 +7315,8 @@
       "mistake": "Eleverna behandlar de tre orden som om de betydde precis samma sak och numrerar dem i den ordning de är tryckta. De kan det vanliga ordet (stor) och är osäkra på det starka (enorm).",
       "words": "Spela upp orden eller visa dem med händerna: ”Visa sval. Visa kall. Visa iskall.” Fråga: ”Vilket är mest? Vilket är bara lite?” Använd dem i en mening: ”Vattnet är svalt … kallt … iskallt!”",
       "watch": "Fråga vilket ord i en rad eleven inte kunde. Att ordna tre ord är lätt när orden är kända; lektionen handlar egentligen om att lära sig det starka ordet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -7220,7 +7369,8 @@
       "mistake": "Eleverna delar ett ord där de ser ett litet ord inuti: ”sol-dat”. I ett riktigt sammansatt ord drar de strecket efter de första bokstäverna och inte där det andra ordet börjar. När de skriver sätter de isär orden: ”regn rock”.",
       "words": "Säg: ”Ett sammansatt ord är två hela ord som sitter ihop, och båda betyder fortfarande något: regn + rock, en rock för regn.” Pröva en delning: ”Är ’sol’ ett ord? Är ’dat’ ett ord? Nej. Då är soldat inget sammansatt ord.” Säg: ”På svenska skriver vi ihop: regnrock, ett ord.”",
       "watch": "Låt eleven säga båda halvorna och berätta vad hela ordet betyder med båda halvorna i förklaringen (”en borste för tänder”). En delning som lämnar en halva som inte är ett ord syns direkt. Titta efter mellanrum i det skrivna ordet; särskrivning börjar här."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -7265,7 +7415,8 @@
       "mistake": "Eleverna ringar in ett ord som bara börjar på samma bokstäver som bildordet och inte har något med det att göra: ”bild” eller ”biljett” till bilden av en bil.",
       "words": "Säg: ”Släktord är byggda av samma ord, och betydelsen följer med. Fisk, fiska, fiskare: allt handlar om fisk.” Pröva: ”Har en biljett något med en bil att göra? Nej. Då är ’biljett’ inte byggt av ’bil’.”",
       "watch": "Fråga eleven vad det långa ordet betyder. Finns bildordet med i förklaringen (en fiskare fångar fisk) är valet rätt; annars stämmer bokstäverna av en slump."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7277,8 +7428,9 @@
    "subject": "literacy",
    "title": "Läsa, förstå och skriva texter",
    "metaTitle": "Svenska åk 2: Läsa, förstå och skriva texter | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Läsa, förstå och skriva texter”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Läsa, förstå och skriva texter”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -7336,7 +7488,8 @@
       "mistake": "Eleverna sätter punkten och glömmer den stora bokstaven, eller tvärtom. När två meningar sitter ihop sätter de punkten där de skulle andas, och en av de två ”meningarna” saknar verb.",
       "words": "Säg: ”En mening börjar med stor bokstav och slutar med skiljetecken. Båda, varje gång.” Om meningar som sitter ihop: ”Läs högt. Var tar den första tanken slut? Vem handlar den andra meningen om?” Pröva varje del: ”Säger den vem eller vad, och vad som händer?”",
       "watch": "Låt eleven läsa var och en av de två nya meningarna för sig. Går en av dem inte att förstå ensam sitter punkten på fel ställe. Kontrollera att den andra meningen har fått sin egen stora bokstav."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -7394,7 +7547,8 @@
       "mistake": "Eleverna skriver ett påstående med frågetecken efter (”Hunden är på gården?”), eller börjar med rätt frågeord och behåller påståendets ordföljd (”Var hunden är?”).",
       "words": "Säg: ”De markerade orden är SVARET. Vilket frågeord frågar efter en plats? Efter en orsak? Efter ett sätt?” Bygg frågan högt: ”Hunden är på gården. Var … är hunden?” Peka på bytet: ”Efter frågeordet kommer verbet: ’är hunden’, inte ’hunden är’.”",
       "watch": "Läs en elevs fråga och svara själv med de markerade orden. Passar inte ditt svar till frågan är frågeordet fel. Kontrollera frågetecknet sist."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -7458,7 +7612,8 @@
       "mistake": "Eleverna svarar utifrån vad de vet om världen eller utifrån den första mening de minns, utan att gå tillbaka till berättelsen. Ett fel svar som innehåller ett ord ur berättelsen väljs för att ordet känns igen.",
       "words": "Säg: ”Svaret står i berättelsen. Gå tillbaka och leta upp meningen som säger det. Sätt fingret på den.” Fråga efter varje svar: ”Var står det?” Vid en varför-fråga: ”Leta efter ’för att’ eller efter det som hände precis innan.”",
       "watch": "Be en elev visa meningen som bevisar ett svar. Den som kan peka ut den läser noga; den som säger ”jag bara vet” gissar, också när svaret är rätt."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -7502,7 +7657,8 @@
       "mistake": "Eleverna fyller den första luckan efter att bara ha läst fram till den och väljer ett ord som passar i den meningen men inte i berättelsen. Ett ord som används fel i början lämnar fel ord kvar till sista luckan.",
       "words": "Säg: ”Läs HELA berättelsen först och säg ’hm’ vid varje tom ruta. Vad handlar berättelsen om?” Sedan: ”Pröva ett ord. Läs vidare till nästa mening. Går det fortfarande ihop?” Lägg till: ”Ibland kommer ledtråden efter luckan, så läs framåt också.”",
       "watch": "Se om eleven läser till slutet innan något skrivs. Låt den färdiga berättelsen läsas högt; ett ord i fel lucka ger en mening som låter konstig, och de flesta eleverna hör det."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7555,7 +7711,8 @@
       "mistake": "Eleverna skriver en lista (”en hund, en boll, ett träd”) och inte meningar, eller börjar varje mening med ”Jag ser”. Ord skrivs av från ordbanken utan stor bokstav i början av meningen och utan punkt.",
       "words": "Be om en hel tanke: ”Vem eller vad finns på bilden? Vad gör den? Var?” Säg en mening tillsammans innan den skrivs: ”Hunden springer efter bollen.” Ge nya meningsstartare: ”Bredvid trädet …”, ”En flicka …”, ”På himlen …” Bladet kallar dem meningsstarter.",
       "watch": "Räkna hur många olika sätt att börja en mening eleven har på sitt blad. Låt eleven läsa sin text högt och peka på varje punkt; ett verb som saknas hörs när meningen läses."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -7605,7 +7762,8 @@
       "mistake": "Eleverna beskriver varje bild för sig (”Det är en katt”) och berättar inte vad som HÄNDER eller hur en bild leder till nästa. Några skriver av startordet och börjar sedan en ny mening, så att startordet blir stående ensamt.",
       "words": "Berätta hela berättelsen högt innan någon skriver: ”Först … Sedan … Efter det … Till sist …” Fråga vid varje bild: ”Vad hände här? Varför? Vad har ändrats sedan förra bilden?” Visa hur startordet hör till meningen och att verbet kommer direkt efter: ”Först klättrar katten upp i trädet.”",
       "watch": "Låt eleven läsa de fyra delarna som en berättelse. Den ska gå att förstå för någon som inte ser bilderna; gör den inte det frågar du vad lyssnaren skulle behöva veta. Titta på ordföljden efter startordet: ”Först katten klättrar” är vanligt hos elever med ett annat modersmål."
-     }
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -7656,7 +7814,8 @@
       "mistake": "Eleverna ringar in det de känner till från sagor och tecknat och inte det som är sant: honung till björnen, ost till musen. När de skriver av från ordbanken hamnar en uppgift på fel rad: vad djuret äter skrivs under var det bor.",
       "words": "Säg: ”Fakta är sådant som är sant och som vi kan kontrollera i en bok eller genom att titta.” Läs radernas rubriker först: ”Vad frågar den här raden efter? Mat, bostad eller hur djuret rör sig?” Fråga: ”Hur vet du det? Var kan vi kontrollera?”",
       "watch": "Be en elev läsa en rubrik och sedan uppgiften bredvid; en uppgift på fel rad låter fel direkt. Ha några djurböcker framme och låt eleverna kontrollera en uppgift var. Lektionen är en första faktatext och passar på vårterminen."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7668,8 +7827,9 @@
    "subject": "literacy",
    "title": "Substantiv, verb och adjektiv",
    "metaTitle": "Svenska åk 2: Substantiv, verb och adjektiv | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Substantiv, verb och adjektiv”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i svenska för åk 2, arbetsområdet ”Substantiv, verb och adjektiv”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -7719,7 +7879,8 @@
       "mistake": "Elever med svenska som modersmål ringar in rätt utan att tänka och förstår inte vad uppgiften går ut på. Elever som lär sig svenska gissar, för det finns ingen regel att gå efter.",
       "words": "Säg båda och låt eleverna höra: ”En äpple … ett äpple. Vilket säger vi?” Säg: ”Örat bestämmer. Det finns en-ord och ett-ord, och varje ord måste man lära sig.” Låt eleverna säga hela paret: ”en bil, ett hus”.",
       "watch": "Se till att eleverna säger orden högt; bladet går inte att göra tyst. Använd bladet som ingång till ordklassen substantiv: det går att sätta en eller ett framför. För elever med ett annat modersmål är en och ett nya och behöver mycket muntlig övning."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -7762,7 +7923,8 @@
       "mistake": "Eleverna lägger varje ord under ”en”, för de flesta ord är en-ord, eller slutar läsa och fyller de två grupperna jämnt.",
       "words": "Säg: ”Läs ordet. Säg det med en och med ett framför. Vilket låter rätt?” Kontrollera med örat: ”En bord … ett bord.” Låt eleverna läsa varje färdig grupp högt: ”ett äpple, ett hus, ett bord”. Säg: ”Alla de här orden är substantiv. Ett substantiv kan ha en eller ett framför sig.”",
       "watch": "Lyssna när eleven läser de färdiga listorna med en eller ett framför. Ett fel ord hörs direkt när det sägs högt; låt eleven hitta det med örat."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -7815,7 +7977,8 @@
       "mistake": "Eleverna säger rätt form när de talar och tappar ändelsen när de skriver. De har inte lagt märke till att det är ordets slut som berättar att det är fler än en.",
       "words": "Säg: ”En katt. Två katter. Vad lade jag till? Lyssna på slutet.” Låt eleverna säga båda och hålla ut slutet. Visa att slutet inte alltid är detsamma: ”en bil, två bilar; en flicka, två flickor; ett äpple, två äpplen”. Fråga: ”Är det en eller flera? Har ditt ord sitt slut?”",
       "watch": "Läs elevens skrivna ord för flera och kontrollera slutet. Bladet säger singular och plural; med eleverna räcker ”en” och ”flera”, och termerna kan du lägga till när ni talar om substantiv."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -7859,7 +8022,8 @@
       "mistake": "Eleverna tar samma ändelse till allt: ”bokar”, ”husar”, ”äpplar”. Ord som byter vokal får en vanlig ändelse: ”fotar” för fötter, ”musar” för möss.",
       "words": "Säg pluralformen högt först: ”En bok, två böcker. Hör du att vokalen byts?” Sortera efter slut: ”flickor, bilar, katter, äpplen, hus”. Om ett-ord som slutar på konsonant: ”Ett hus, två hus. Ordet ändras inte.” Om dem som byter vokal: ”Dem måste man kunna: en fot, två fötter; en hand, två händer; en mus, två möss.”",
       "watch": "Sortera en elevs fel: fel ändelse (”bokar”) hörs oftast när eleven läser ordet högt och rättas med örat; elever med ett annat modersmål har inte det örat än och behöver lära sig orden ett och ett."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -7911,7 +8075,8 @@
       "mistake": "Eleverna sorterar efter vad ordet får dem att tänka på: ”fest” och ”lek” hamnar bland verben för att man gör något där, och ”hungrig” eller ”snabb” bland verben för att det är något som händer. Ord som hör ihop (en lek, att leka) förvirrar dem, och det med rätta.",
       "words": "Ge varje ordklass ett prov: ”Ett substantiv är ett namn på en person, ett djur, en sak eller en plats. Pröva: kan du sätta en eller ett framför? En hund. Ett verb är något man gör. Pröva: ’Jag kan …’ Jag kan hoppa. Ett adjektiv berättar hur något är. Pröva: ’Hunden är …’ Hunden är glad.”",
       "watch": "Låt eleverna använda provet högt på de svåra orden. Ser en elev att ”lek” och ”leka” hör ihop har eleven rätt; be om en mening med varje. Ordklasserna är nya i åk 2: ta substantiv och verb först och adjektiven en annan dag."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -7924,7 +8089,8 @@
    "title": "Talen 0–1000: hundratal, tiotal och ental",
    "metaTitle": "Matematik åk 3: Talen 0–1000 – hundratal, tiotal och ental",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Talen 0–1000: hundratal, tiotal och ental”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -7972,7 +8138,8 @@
       "mistake": "Eleverna skriver de antal de ser och hoppar över en tom talsort: två plattor och sex kuber blir 26. När ett tal läses upp skriver samma elever det de hör, och tvåhundrasex blir 2006.",
       "words": "Räkna talsort för talsort: ”100, 200 … 210, 220 … 221, 222.” Säg: ”Varje talsort behöver en siffra. Inga tiotal? Skriv en nolla som håller platsen.” Fråga: ”Vad är 2:an värd i 206? Och 0:an? Och 6:an?” Bladet säger platsvärdestabell; säg talsorter: hundratal, tiotal, ental.",
       "watch": "Kontrollera först alla tal med en nolla bland tiotalen eller entalen. En elev som skriver 26 för två plattor och sex kuber får ha tabellen med talsorterna bredvid varje tal tills vidare."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -8026,7 +8193,8 @@
       "mistake": "Eleverna säger att en understruken 4:a är värd ”4” var den än står. För 345 väljer de 300 + 4 + 5 och behandlar tiotalssiffran som ental.",
       "words": "Fråga: ”Vilken talsort står siffran i? Tiotalen, alltså är den 4 tiotal. Vad är 4 tiotal värda?” (40.) Säg ett tal i delar: ”345 är 300 och 40 och 5.” Skriv det på båda sätten och läs det på båda sätten. Bladet kallar uppdelningen den utvecklade formen.",
       "watch": "Fråga efter värdet av samma siffra på två platser, som i 44 eller 404. En elev som svarar ”fyra” båda gångerna nämner siffran, inte dess värde."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -8075,7 +8243,8 @@
       "mistake": "Eleverna går efter den största siffran var som helst i talet (”199 är större än 201 på grund av niorna”). När hundratalen är lika hoppar de till entalen och förbi tiotalen.",
       "words": "Säg: ”Börja från vänster. Jämför hundratalen. Lika? Då tiotalen. Lika? Då entalen.” Läs den färdiga raden högt: ”402 är större än 398.” När ni ordnar: ”Leta upp det minsta talet och skriv 1 vid det. Leta sedan upp det minsta av dem som är kvar.”",
       "watch": "Använd par som 398 och 402 för att se vem som jämför talsort för talsort från vänster. När fyra tal ska ordnas ser du efter om en elev bara jämför grannar och aldrig kontrollerar hela raden."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -8119,7 +8288,8 @@
       "mistake": "Eleverna ändrar tiotals- eller entalssiffran, eller räknar upp ett i taget och ger upp. Hundra mindre än ett tal strax över 100, som 105, lämnar dem utan hundratalssiffra och osäkra på vad de ska skriva.",
       "words": "Fråga: ”Hundra mer. Vilken siffra ändras? Vilka två står kvar?” Säg: ”Bara hundratalssiffran ändras. 347, 447.” Räkna i hundrahopp från vilket tal som helst: ”26, 126, 226, 326.” Pröva sedan tio: ”347, 357. Vilken siffra ändrades den här gången?”",
       "watch": "Se vem som svarar direkt genom att ändra en siffra och vem som fortfarande räknar. Ge ett tal över 900 och tala om vad som kommer efter 9 hundratal."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -8132,7 +8302,8 @@
    "title": "Avrundning, överslag och uppställning",
    "metaTitle": "Matematik åk 3: Avrundning, överslag och uppställning",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -8194,7 +8365,8 @@
       "mistake": "Eleverna avrundar nedåt varje gång genom att stryka entalen (47 blir 40), eller avrundar 47 till 57. Ett tal som slutar på 5 har inget närmaste tiotal, och eleverna vet inte åt vilket håll de ska gå.",
       "words": "Fråga först: ”Mellan vilka två tiotal ligger 47?” (40 och 50.) ”Vilket ligger det närmast?” Säg: ”Entalssiffran avgör. 0 till 4, avrunda nedåt. 5 till 9, avrunda uppåt.” Om 45: ”Det ligger precis mitt emellan. Man har kommit överens om att avrunda uppåt, så 45 blir 50.”",
       "watch": "Fråga efter de två tiotalen före svaret. En elev som inte kan nämna dem använder regeln utan någon tallinje i huvudet; gå tillbaka till pricken på linjen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -8256,7 +8428,8 @@
       "mistake": "Eleverna tittar på entalssiffran, som de gjorde när de avrundade till tiotal, så 349 avrundas uppåt till 400 på grund av 9:an. Eller så ändrar de bara tiotalen och skriver 350.",
       "words": "Fråga: ”Mellan vilka två hundratal ligger 349? Vilket tal ligger mitt emellan?” (350.) ”Ligger 349 före eller efter mitten?” Säg: ”När vi avrundar till hundratal är det TIOTALSSIFFRAN som avgör. Entalen spelar ingen roll.”",
       "watch": "Använd 349 och 351 som provtal. En elev som avrundar båda åt samma håll tänker inte på mitten; sätt ut båda talen på en linje från 300 till 400."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -8306,7 +8479,8 @@
       "mistake": "Eleverna räknar ut den exakta summan först och avrundar sedan svaret, och då har överslaget förlorat sin mening. Eller så avrundar de bara ett av de två talen.",
       "words": "Säg: ”Avrunda först, addera sedan. Ett överslag är snabbt och ungefärligt, inte exakt.” Visa: ”48 + 31 är ungefär 50 + 30. Ungefär 80.” Sedan: ”Någon fick 109 på 48 + 31. Kan det stämma? Hur vet du det utan att räkna ut det?”",
       "watch": "Se vem som skriver den exakta summan i kanten före avrundningen. Ge ett felaktigt exakt svar och låt klassen avslöja det med ett överslag; det är det överslag är till för."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -8369,7 +8543,8 @@
       "mistake": "Eleverna ställer talen snett, så att ental hamnar under tiotal, eller börjar räkna från vänster. I subtraktion tar de den mindre siffran från den större i varje kolumn utan att se vilket tal som står överst.",
       "words": "Säg: ”Ental under ental, tiotal under tiotal. Börja alltid med entalen.” Läs kolumnerna med talsort: ”5 ental plus 3 ental är 8 ental. 2 tiotal plus 4 tiotal är 6 tiotal. Sextioåtta.” Fråga: ”Varför börjar vi till höger?” (För att entalen snart ska kunna bli ett nytt tiotal.)",
       "watch": "Be en elev säga vad varje siffra i svaret är värd. Jämför svaret med ett överslag: ”Ungefär hur mycket borde det bli?” Bladens uppgifter kräver ingen växling; den kommer i nästa lektion. Uppställningen kommer efter huvudräkning och skriftlig räkning talsortsvis, inte i stället för dem."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -8433,7 +8608,8 @@
       "mistake": "Eleverna glömmer att lägga till det nya tiotalet eller hundratalet, eller skriver upp det och lägger till det två gånger. I subtraktion växlar de ett tiotal till tio ental och glömmer att minska tiotalen med ett; med en nolla bland tiotalen (402 − 178) vet de inte var de tio entalen ska komma från.",
       "words": "Säg varje steg: ”8 och 7 är 15 ental. Det är 1 tiotal och 5 ental. Skriv 5:an och skriv det nya tiotalet som minnessiffra över tiotalen.” Om en nolla: ”Det finns inga tiotal att växla. Gå till hundratalen: växla ett hundratal mot tio tiotal. Växla sedan ett av tiotalen mot tio ental.”",
       "watch": "Kontrollera subtraktion över en nolla först. Låt eleverna kontrollera en subtraktion genom att addera svaret och det som togs bort, och fråga ”Ungefär hur mycket borde det bli?” innan de räknar."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -8445,8 +8621,9 @@
    "subject": "math",
    "title": "Multiplikation och division",
    "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -8507,7 +8684,8 @@
       "mistake": "I 3-hopp och 4-hopp finns inget enkelt mönster i entalssiffran, så eleverna räknar vidare på fingrarna och hamnar ett tal fel. Ett enda fel följer med genom resten av raden.",
       "words": "Viskräkna tillsammans: viska ”1, 2” och säg ”3” högt; viska ”4, 5” och säg ”6”. Fråga: ”Hur långt är det från ett tal till nästa? Kontrollera hoppet.” Knyt fyrorna till tvåorna: ”4-hopp är vartannat tal i 2-hoppen.”",
       "watch": "Låt eleverna kontrollera varje rad med hoppets storlek innan de lämnar in. En elev som räknar på fingrarna varje gång behöver många korta muntliga vändor, inte fler blad. Hoppen är vägen in i 3:ans och 4:ans tabell."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -8563,7 +8741,8 @@
       "mistake": "Eleverna delar ut några till varje låda och slutar med några kvar i högen, eller så blir lådorna olika. De blandar ihop de två frågorna: hur många i varje låda, och hur många grupper.",
       "words": "Säg: ”En till varje låda, sedan en till, tills högen är slut. Har alla lådor lika många?” Ställ de två frågorna var för sig: ”Hur många får var och en?” och ”Hur många lika stora grupper blir det?”",
       "watch": "Använd plockmaterial och muggar före bladet. Kontrollera att inget är kvar i högen och att varje låda har lika många. Lyssna efter vilken av de två frågorna en elev svarar på; båda är division."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -8611,7 +8790,8 @@
       "mistake": "Eleverna skriver antalet lådor eller högens storlek som svar. Utan plockmaterial gissar de hur många som hamnar i varje låda och kontrollerar inte att lådorna gör slut på högen.",
       "words": "Säg: ”12 delat lika på 3 är en division: 12 / 3.” Dela sedan ut: ”En till varje, en gång till, en gång till, tills inget är kvar. Var och en får 4.” Kontrollera med multiplikation: ”3 lådor med 4 är 12.” Läs tecknet som ”delat med”.",
       "watch": "Be varje elev kontrollera ett svar med multiplikation. Den som ser att 3 · 4 = 12 besvarar 12 / 3 har hittat genvägen som gör divisionen lätt."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -8654,7 +8834,8 @@
       "mistake": "Eleverna skriver hoppets längd som svar, eller räknar varje streck de rör vid, starttalet inräknat, och får ett för mycket. De ser inte att det här också är division.",
       "words": "Säg: ”Börja på 15. Hoppa 3 bakåt varje gång: 12, 9, 6, 3, 0. Hur många hopp? Fem.” Skriv: ”15 / 3 = 5. Det går fem 3:or i 15.” Fråga: ”Hur många 3:or får plats i 15?”",
       "watch": "Låt eleverna räkna hoppen med ett finger på varje båge, inte på strecken. Lägg de två betydelserna bredvid varandra en gång: 15 delat lika på 3, och hur många 3:or det går i 15."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -8710,7 +8891,8 @@
       "mistake": "Eleverna behandlar en division som en ny uppgift och använder inte multiplikationen de nyss skrev. I en talfamilj skriver de en division som börjar med ett litet tal, som 4 / 24 = 6.",
       "words": "Säg: ”Divisionen frågar efter faktorn som saknas. 24 / 4 frågar: 4 gånger vad är 24?” Peka på rutnätet: ”I en talfamilj är det hela antalet vi delar: 24 / 4, inte 4 / 24.” Låt eleverna läsa alla fyra uppgifterna till ett rutnät högt. Bladet säger gångerfamiljer och ”alla fyra talen”; det är de fyra uppgifterna i talfamiljen.",
       "watch": "Ge eleven en division och se om eleven tänker på multiplikationen. Kontrollera talens ordning i varje division: hela antalet, hela rutnätet, står först."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -8776,7 +8958,8 @@
       "mistake": "Eleverna plockar ut de två talen och multiplicerar varje gång, eller väljer räknesätt efter ett enda ord som ”varje”. De frågar sig inte vad svaret kommer att vara: hela antalet, antalet i varje grupp eller antalet grupper.",
       "words": "Ställ tre frågor om varje räknehändelse: ”Vet vi hur många grupper det är? Vet vi hur många det är i varje grupp? Vet vi hela antalet?” Sedan: ”Vilken av de tre saknas?” Låt eleverna avsluta med en svarsmening: ”Varje barn får 4 klistermärken.”",
       "watch": "Läs elevens svarsmening, inte bara talet. Ett ensamt ”4” visar inte om eleven vet att det är 4 klistermärken var eller 4 påsar. Varje blad har en enda sorts händelse, så bladet väljer räknesätt åt eleven; blanda uppgifter från de tre bladen när alla är gjorda."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -8833,7 +9016,8 @@
       "mistake": "Eleverna lämnar för många över: lika många som en grupp eller fler, när en grupp till eller ett varv till hade gått att göra. Eller så struntar de i dem som blev över och skriver bara antalet grupper.",
       "words": "Säg: ”14 i grupper om 4: tre grupper, och 2 över.” Fråga: ”Kan du göra en grupp till av det som är kvar? Inte? Då är det resten.” På utdelningsbladet: ”14 i 4 rutor. Räcker det som är kvar till en till i varje ruta?” Säg regeln tillsammans: ”Resten är alltid mindre än talet vi delar med.”",
       "watch": "Kontrollera varje rest mot talet samlingen delades med. En rest på 5 med grupper om 4 betyder att en grupp fattas. Lektionen är en fördjupning; många skolor väntar med rest till åk 4."
-     }
+     },
+     "days": 3
     }
    ]
   },
@@ -8846,7 +9030,8 @@
    "title": "Mätning: tid, massa, volym och temperatur",
    "metaTitle": "Matematik åk 3: Mätning – tid, massa, volym och temperatur",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Mätning: tid, massa, volym och temperatur”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 16,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -8889,7 +9074,8 @@
       "mistake": "Eleverna läser av till närmaste fem minuter och slutar, så 4.23 blir tjugo över eller fem i halv. Andra räknar varje litet streck från 12:an och tappar räkningen på vägen runt.",
       "words": "Säg: ”Gå till talet precis före minutvisaren och räkna fem i taget dit: 5, 10, 15, 20. Räkna sedan de små strecken ett i taget: 21, 22, 23.” Fråga: ”Har timvisaren gått förbi 4:an? Lite eller mycket?” Säg tiden digitalt: ”fyra och tjugotre”.",
       "watch": "Lyssna när en elev räknar: femmorna först, sedan ettorna. Kontrollera tider i timmens sista kvart, där timvisaren står nära nästa tal."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -8933,7 +9119,8 @@
       "mistake": "Eleverna lägger till 12 också på förmiddagens tider, eller tappar den första siffran så att 15.00 blir klockan 5. Klockan 12 på dagen och klockan 12 på natten blandas ihop.",
       "words": "Säg: ”Efter klockan 12 på dagen räknar den digitala klockan vidare: 13, 14, 15.” Ge regeln åt båda håll: ”På eftermiddagen och kvällen lägger vi till 12 på timmen: klockan 3 på eftermiddagen är 15.00. Är timmen mer än 12 drar vi bort 12: 19.00 är klockan 7 på kvällen.” Fråga: ”Är 08.00 morgon eller kväll? Hur vet du det?”",
       "watch": "Kontrollera klockan 12 på dagen och halvtimmen efter, 12.30, som inte ska ändras, och midnatt, som är 00.00. Använd skolans schema, en busstidtabell eller tv-tablån; där står tiderna alltid med 24 timmar. Bladets rubrik säger 12-timmars och 24-timmars; med eleverna heter det analog och digital tid."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -8990,7 +9177,8 @@
       "mistake": "Eleverna räknar vikterna (”tre vikter, alltså 3”) och lägger inte ihop det som står på dem. På en mätkanna läser de närmaste tryckta tal och bryr sig inte om de små stegen emellan, eller skriver gram om en vätska.",
       "words": "Säg: ”Läs varje vikt: 100, 50, 20. Lägg ihop dem: 170 gram.” Vid en mätkanna: ”Titta på två tryckta tal intill varandra. Hur många steg är det emellan? Vad är då ett steg värt?” Säg alltid enheten: ”170 gram”, ”300 milliliter”. Knyt till det eleverna känner till: ”Ett kilogram är 1000 gram. Ett paket smör väger 500 gram.”",
       "watch": "Kontrollera att varje svar har sin enhet. Fråga vad ett litet steg är värt innan en elev läser av en skala; den frågan är hela kunskapen. I vardagen säger vi vikt; ordet i matematiken är massa."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -9047,7 +9235,8 @@
       "mistake": "Eleverna läser av kannans överkant eller närmaste tryckta tal, inte vätskans yta. När skalan går i steg om 100 eller 200 räknar de varje streck som 1.",
       "words": "Säg: ”Sätt fingret på vätskans yta. Dra det åt sidan till skalan.” Fråga: ”Talen går 200, 400, 600. Vilket tal hör till strecket mitt emellan 200 och 400?” Säg enheten: ”300 milliliter.” Knyt till det eleverna mäter med i köket: ”100 milliliter är en deciliter. 1000 milliliter är en liter.”",
       "watch": "Använd en riktig mätkanna och vatten en gång; eleverna måste ta ner ögonen till vätskans nivå. På bladet kontrollerar du kannorna där vätskan stannar mellan två tryckta tal. Bladen räknar i milliliter; i åk 3 mäter klassen oftast i liter och deciliter, så låt eleverna säga några svar i deciliter också."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -9091,7 +9280,8 @@
       "mistake": "Eleverna räknar varje streck som en grad, hur skalan än ser ut. De läser närmaste tryckta tal och bryr sig inte om strecken emellan, eller tittar på rörets topp och inte på toppen av den färgade stapeln.",
       "words": "Fråga först: ”Den här skalan går inte ett i taget. Hur stora steg tar de tryckta talen? Vad är då varje litet streck värt?” Sedan: ”Leta upp stapelns topp. Vilket tryckt tal står precis under? Räkna uppåt därifrån.” Säg temperaturen med enhet: ”18 grader.”",
       "watch": "Jämför två termometrar med olika skalor som visar samma temperatur och fråga vilken som var svårast att läsa av och varför. Läs av klassrummets och skolgårdens termometer några dagar i rad."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -9104,7 +9294,8 @@
    "title": "Bråk: del av helhet och del av antal",
    "metaTitle": "Matematik åk 3: Bråk – del av helhet och del av antal",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Bråk: del av helhet och del av antal”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -9159,7 +9350,8 @@
       "mistake": "Eleverna räknar delarna och jämför dem inte: fyra delar är ”fjärdedelar” också när delarna är olika stora. Delar som är lika stora men har olika form underkänns.",
       "words": "Fråga: ”Täcker varje del lika mycket?” Säg: ”Bara lika stora delar får ett bråknamn. Fyra LIKA stora delar: var och en är en fjärdedel.” Visa en kvadrat delad i fyra trianglar och en delad i fyra små kvadrater: ”Olika form, lika mycket.”",
       "watch": "Titta på cirklarna med en smal skiva och rektanglarna med olika breda remsor. En elev som ringar in dem räknar delar. Klipp i papper och lägg delarna på varandra."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -9229,7 +9421,8 @@
       "mistake": "Eleverna kallar varje figur som är delad i två bitar för ”halvor”, också när den ena biten är större. De tror att lika stora delar måste se likadana ut, så en kvadrat delad från hörn till hörn och en delad rakt över kan inte båda visa halvor.",
       "words": "Fråga: ”Är delarna LIKA stora? Vore det rättvist att dela så?” Säg: ”Två lika stora delar är halvor. Tre lika stora delar är tredjedelar. Fyra lika stora delar är fjärdedelar.” Klipp ut delarna och lägg den ena på den andra, och vrid den om det behövs.",
       "watch": "Titta på vad eleverna gör med figurer som är delade i olika stora delar. En elev som målar en av två olika stora bitar och kallar den en halv räknar bitar och jämför inte storlek."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -9286,7 +9479,8 @@
       "mistake": "Eleverna skriver de färgade delarna över de ofärgade: 3 färgade och 1 ofärgad blir 3/1. Eller så vänder de på bråket och sätter antalet delar överst.",
       "words": "Säg: ”Talet under strecket berättar i hur många lika stora delar det hela är delat. Talet över strecket berättar hur många av dem vi menar.” Räkna delarna: ”En fjärdedel, två fjärdedelar, tre fjärdedelar.” Använd orden täljare och nämnare när eleverna har förstått tanken: ”Nämnaren nämner delarnas namn. Täljaren talar om hur många.”",
       "watch": "Kontrollera en figur med 3 av 4 delar färgade. Svaret 3/1 betyder att eleven jämförde färgat med ofärgat; räkna alla delar tillsammans först och sedan de färgade."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -9329,7 +9523,8 @@
       "mistake": "Eleverna väljer den längsta stapeln, eller en stapel som är lika lång som delen själv. De använder inte bråket för att avgöra hur många delar som blir det hela.",
       "words": "Säg: ”Den här biten är en tredjedel. Hur många tredjedelar blir en hel? Tre. Då är det hela tre sådana bitar långt.” Låt eleverna lägga biten gång på gång, eller märka ut dess längd längs stapeln.",
       "watch": "Fråga ”Hur många sådana bitar får plats i det hela?” innan eleven ringar in. Svaret ska stämma med bråkets nämnare."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -9378,7 +9573,8 @@
       "mistake": "Eleverna tror att en större nämnare betyder ett större bråk: en åttondel tas för mer än en fjärdedel, för 8 är mer än 4.",
       "words": "Fråga: ”Får du mer pizza om den delas på 4 eller på 8?” Säg: ”Fler delar betyder mindre delar.” Med samma nämnare: ”Tre femtedelar och två femtedelar: bitarna är lika stora, så fler bitar är mer.” Lägg alltid till: ”Vi kan bara jämföra bråk av samma helhet.”",
       "watch": "Använd 1/4 och 1/8 som prov. En elev som väljer 1/8 jämför hela tal; gå tillbaka till två lika långa staplar, en delad i fjärdedelar och en i åttondelar."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -9421,7 +9617,8 @@
       "mistake": "Eleverna ringar in 2 bilder för en halv, 3 för en tredjedel och 4 för en fjärdedel: nämnaren tas för antalet som ska ringas in.",
       "words": "Säg: ”En tredjedel betyder: gör 3 lika stora grupper och ta EN av grupperna.” Fråga: ”Hur många grupper gjorde du? Är de lika stora? Hur många är det i en grupp?” Skriv: ”En tredjedel av 12 är 4.” Bladets rubrik säger ”Dela mängden”; i skolan heter det del av antal.",
       "watch": "Leta efter ett svar som är lika med bråkets nämnare. Den eleven delar först upp bilderna i muggar och lyfter sedan en mugg."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -9464,7 +9661,8 @@
       "mistake": "Eleverna ringar in så många bilder som nämnaren säger: 3 bilder för en tredjedel. Med en täljare över 1 (två tredjedelar) hittar de en grupp och slutar.",
       "words": "Säg: ”Nämnaren berättar hur många lika stora grupper du ska göra. Tredjedelar: gör 3 lika stora grupper. En tredjedel är EN av grupperna.” Knyt det till division: ”12 i 3 lika stora grupper: 4 i varje. En tredjedel av 12 är 4.” Om två tredjedelar: ”Täljaren berättar hur många grupper du tar. Två grupper: 8.”",
       "watch": "Kontrollera att grupperna en elev ringar in är lika stora innan du tittar på talet. En elev som kan 12 / 3 = 4 och ändå ringar in 3 bilder har inte kopplat bråket till divisionen; låt den eleven dela ut bilderna i tre muggar."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -9477,7 +9675,8 @@
    "title": "Likheter, talföljder och talmaskiner",
    "metaTitle": "Matematik åk 3: Likheter, talföljder och talmaskiner",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Likheter, talföljder och talmaskiner”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 1,
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -9532,7 +9731,8 @@
       "mistake": "Eleverna läser likhetstecknet som ”nu kommer svaret”. I 8 + 4 = __ + 5 skriver de 12 i luckan, eller 17 genom att lägga ihop allt.",
       "words": "Säg: ”Likhetstecknet betyder LIKA MYCKET på båda sidor, som en våg i jämvikt.” Räkna ut ena sidan först: ”8 + 4 är 12. Då måste andra sidan också vara 12. Vad plus 5 är 12?” Läs tecknet som ”är lika mycket som”.",
       "watch": "Ge tre snabba sant-eller-falskt-kort: 7 = 7, 5 + 3 = 3 + 5, 12 = 8 + 4. En elev som kallar dem fel ”för att svaret står på fel sida” läser fortfarande tecknet som ”nu kommer svaret”; bygg likheterna på en riktig balansvåg med den eleven."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -9588,7 +9788,8 @@
       "mistake": "Eleverna tittar på ett enda par tal, bestämmer sig för en regel och prövar den inte på resten av raden. I talföljder som minskar fortsätter de att addera. Två tal som saknas efter varandra stoppar dem.",
       "words": "Fråga: ”Hur kommer du från det här talet till nästa? Är det samma hopp varje gång? Kontrollera på tre par.” Låt eleverna skriva regeln över raden: ”+ 25” eller ”− 4”. Om en dubbel lucka: ”Två hopp tar dig från 40 till 60. Hur stort är ett hopp?”",
       "watch": "Se vem som skriver upp regeln och prövar den. Blanda ökande och minskande talföljder; en elev som adderar i en minskande rad har slutat titta på talen."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -9638,7 +9839,8 @@
       "mistake": "Eleverna använder regeln åt samma håll på varje rad. När talet som gick IN saknas använder de regeln framåt en gång till i stället för att gå bakåt: på en maskin med + 7 där 12 kommer ut skriver de 19, inte 5.",
       "words": "Låt eleverna läsa regeln högt först: ”Den här maskinen lägger till 7 på varje tal.” Om ett tal som kommer ut: ”5 går in. Lägg till 7. Vad kommer ut?” Om ett tal som går in: ”12 kom ut. Maskinen lade till 7. Vad gick in? Gör tvärtom: 12 minus 7.”",
       "watch": "Kontrollera raderna där det är talet som går in som saknas; de kräver det motsatta räknesättet. Låt eleven skicka svaret genom maskinen igen: ger 5 plus 7 den 12:a som står tryckt är raden rätt."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -9683,7 +9885,8 @@
       "mistake": "Eleverna adderar ändå och tittar sedan på svaret. Eller så gissar de en regel som känns rätt: ”udda plus udda måste bli udda”.",
       "words": "Pröva små tal först och samla resultaten: ”3 + 5 = 8. Udda plus udda … jämnt!” Fråga varför: ”Varje udda tal har en över. De två som blir över bildar ett par.” Bygg de tre reglerna tillsammans: jämnt + jämnt, udda + udda, jämnt + udda.",
       "watch": "Be en elev förklara udda plus udda med plockmaterial lagt i par. Den som bara kan rabbla tabellen glömmer den; den som ser de två överblivna bilda ett par gör det inte. Lektionen är en fördjupning för den som vill resonera."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -9696,7 +9899,8 @@
    "title": "Fyrhörningar, symmetri, omkrets och area",
    "metaTitle": "Matematik åk 3: Fyrhörningar, symmetri, omkrets och area",
    "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Fyrhörningar, symmetri, omkrets och area”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 24,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -9750,7 +9954,8 @@
       "mistake": "Eleverna säger att en kvadrat inte är en rektangel för att ”en rektangel har två långa och två korta sidor”. En rektangel som ligger snett godtas inte, och en lutande parallellogram tas för en rektangel.",
       "words": "Fråga: ”Vad gör en rektangel till en rektangel? Fyra sidor och fyra räta vinklar.” Sedan: ”Har en kvadrat fyra sidor och fyra räta vinklar? Då är den en rektangel, en särskild sort.” Pröva hörnen med hörnet på ett papper.",
       "watch": "Fråga ”Är en kvadrat en rektangel?” och lyssna efter skälet. En elev som säger ”ja, för den har fyra räta vinklar” sorterar efter egenskaper, och det är det lektionen går ut på."
-     }
+     },
+     "days": 3
     },
     {
      "n": 2,
@@ -9804,7 +10009,8 @@
       "mistake": "Eleverna ser en rät vinkel bara när det ena benet ligger vågrätt och det andra står lodrätt. En rät vinkel i en figur som ligger snett missas, och en vinkel som är nästan rät godtas.",
       "words": "Ge varje elev en ”hörnmätare”, hörnet på en papperslapp: ”Lägg lappen i vinkeln. Passar den precis? Då är vinkeln rät.” Använd ”mindre än en rät vinkel” och ”större än en rät vinkel”.",
       "watch": "Se vem som vrider lappen eller bladet för att pröva ett hörn som ligger snett. Kontrollera vinklarna som är nästan räta; dem kan bara lappen avgöra. I åk 3 räcker begreppet rät vinkel; att mäta vinklar kommer i åk 4–6."
-     }
+     },
+     "days": 3
     },
     {
      "n": 3,
@@ -9858,7 +10064,8 @@
       "mistake": "Eleverna hittar den lodräta linjen och slutar. De missar den vågräta och de sneda, eller räknar diagonalerna i en avlång rektangel, som inte är symmetrilinjer.",
       "words": "Säg: ”Pröva varje vikning: lodrätt, vågrätt, från hörn till hörn.” Använd utklippta figurer: ”Vik den. Hamnar halvorna precis på varandra?” Fråga: ”En kvadrat har 4 symmetrilinjer. Varför har en rektangel som inte är en kvadrat bara 2?”",
       "watch": "Dela ut pappersfigurer att vika. Kontrollera den avlånga rektangeln: en elev som skriver 4 för den har inte vikt den längs en diagonal."
-     }
+     },
+     "days": 3
     },
     {
      "n": 4,
@@ -9913,7 +10120,8 @@
       "mistake": "Eleverna räknar rutorna längs kanten och inte rutornas sidor, så en hörnruta räknas en gång fast den har två sidor utåt. Eller så räknar de rutorna inuti och anger arean.",
       "words": "Säg: ”Omkretsen är sträckan runt om, som ett staket.” Gå med fingret längs utsidan: ”Räkna sidorna på rutorna, inte rutorna. Märk ut var du börjar.” För en rektangel: ”Två långa sidor och två korta: 5 + 3 + 5 + 3.” Bladet säger enhetskanter; det är rutornas sidor längs kanten.",
       "watch": "Kontrollera hörnen: en elev som räknar rutor får ett tal som är 4 för litet. Fråga ”Är det staketet eller gräsmattan?” för att hålla isär omkrets och area."
-     }
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -9969,7 +10177,8 @@
       "mistake": "Eleverna räknar rutorna en och en och räknar fel i en stor rektangel. Andra räknar rutorna längs två sidor och adderar dem, och får ett tal som inte har med arean att göra.",
       "words": "Säg: ”Arean är hur många rutor som täcker figuren utan mellanrum och utan att ligga på varandra.” Fråga: ”Hur många rutor i en rad? Hur många rader? 4 rader med 6 är 24 rutor.” Säg enheten: ”Arean är 24 rutor.”",
       "watch": "Fråga hur eleven räknade. Rader gånger kolumner är målet; att räkna en och en är starten. Lektionen hör till slutet av åk 3; area med kvadratcentimeter kommer i åk 4–6."
-     }
+     },
+     "days": 3
     },
     {
      "n": 6,
@@ -10019,7 +10228,8 @@
       "mistake": "Eleverna väljer den rektangel som liknar den första mest, eller tror att en lång och smal rektangel måste vara större än en som är mer kvadratisk. De bedömer med ögat och räknar inte.",
       "words": "Säg: ”Annan form, lika stor yta. Räkna rutorna i var och en.” Fråga: ”En med 2 gånger 6 och en med 3 gånger 4. Hur många rutor i varje?” Klipp en pappersrektangel med 3 gånger 4 rutor i bitar och lägg om den: ”Ändrades arean?” Bladet säger yta; ordet i matematiken är area.",
       "watch": "Se vem som räknar och vem som går efter utseendet. Be en elev rita två olika rektanglar med 12 rutor på rutat papper."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -10068,7 +10278,8 @@
       "mistake": "Eleverna tror att rektanglar med samma omkrets måste ha samma area, eller jämför areor, eftersom det var rutor de räknade senast. En lång och smal rektangel bedöms ha det längre staketet.",
       "words": "Säg: ”Samma staket, ny gård.” Gör en ögla av ett snöre och dra den till olika rektanglar: ”Snöret blev inte längre. Är ytan inuti lika stor?” Låt eleverna räkna rutornas sidor runt varje rektangel och skriva talen.",
       "watch": "Fråga efter båda talen för två rektanglar, omkretsen och arean, och låt eleven säga vilket som är vilket. Lektionen finns för att dra isär de två begreppen; den är en fördjupning för åk 3."
-     }
+     },
+     "days": 2
     },
     {
      "n": 8,
@@ -10117,7 +10328,8 @@
       "mistake": "Eleverna räknar bara de kuber de ser på teckningen och missar dem som är dolda bakom och under. Eller så räknar de de kvadratiska ytor de ser och får ett tal som är alldeles för stort.",
       "words": "Bygg tornet med riktiga kuber först: ”Hur många ser du härifrån? Vänd på det och ta isär det. Räkna alla.” Säg: ”Räkna lager för lager. Hur många kuber i det nedersta lagret? I nästa? Lägg ihop lagren.” Fråga: ”En kub högst upp måste ligga på något. Vad ligger under den?”",
       "watch": "Låt varje elev bygga ett torn från bladet med kuber och jämföra antalet med det skrivna svaret. En elev som räknar lager för lager (”6 och 6 och 6”) har börjat se volym; resten kommer i åk 4–6."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -10129,8 +10341,9 @@
    "subject": "literacy",
    "title": "Ordklasser, tempus och pronomen",
    "metaTitle": "Svenska åk 3: Ordklasser, tempus och pronomen | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Ordklasser, tempus och pronomen”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka en vecka.",
-   "weeks": 1,
+   "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Ordklasser, tempus och pronomen”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -10188,7 +10401,8 @@
       "mistake": "Eleverna lägger ett ord i en låda på känn (”glad” är ett verb för att man kan ”vara glad”). Ord som hör ihop (en lek, att leka; en dröm, att drömma) sorteras åt ett håll utan eftertanke.",
       "words": "Ge tre prov: ”Substantiv: kan du sätta en eller ett framför? En hund, ett hus. Verb: kan du säga ’jag kan …’ eller ’i går … jag’? Jag kan hoppa, i går hoppade jag. Adjektiv: kan du säga ’den är väldigt …’? Den är väldigt stor.” Om ett ord som verkar passa i två lådor: ”Använd det i en mening. Vilket är det nu?”",
       "watch": "Be om en mening med varje ord som en elev har lagt i en oväntad låda; en bra mening kan ge eleven rätt. Adjektiven är den svagaste lådan för de flesta, så kontrollera den först. Bladet utan bilder är det svårare av de två."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -10247,7 +10461,8 @@
       "mistake": "Eleverna sätter -de på alla verb: ”springde”, ”gådde”, ”ätade”. De ser inte att ”är” och ”var” är samma verb.",
       "words": "Använd två meningsramar hela vägen: ”Nu … jag. I går … jag.” Säg dem högt: ”Nu springer jag. I går sprang jag.” Om vara: ”Nu är jag glad. I går var jag glad.” Fråga: ”Låter det rätt?” Säg: ”Verbet berättar NÄR något händer. Presens är nu. Preteritum är förut.”",
       "watch": "Lyssna efter formerna eleverna använder när de talar; många säger ”sprang” och skriver ändå ”springde” när ett blad frågar efter en ändelse. Låt dem läsa sin mening högt och lyssna. Örat hjälper bara dem som har hört formerna; elever med ett annat modersmål behöver lära sig de starka verben ett och ett."
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -10305,7 +10520,8 @@
       "mistake": "Eleverna skriver namnet en gång till i den andra meningen, eller använder ”de” bara om många och inte om två personer. De skriver ”dom” som det låter. Om saker och djur är de osäkra på den och det (en-ord blir ”den”, ett-ord blir ”det”).",
       "words": "Säg: ”Vi säger inte namnet om och om igen. ’Ali har en drake. Ali flyger draken’ blir ’Ali har en drake. HAN flyger den.’” Fråga: ”Vem är ’han’ i den meningen? Peka på namnet.” Om två personer: ”Ali och Maja: de.” Säg: ”När vi pratar säger vi ’dom’. När vi skriver heter det de.”",
       "watch": "Låt eleven läsa båda meningarna högt och säga vem ordet står för. Elever med ett annat modersmål har kanske inte skillnaden mellan han och hon i sitt språk; ge dem mer muntlig övning. Ordet pronomen kan du nämna; det viktiga i åk 3 är att slippa upprepa namnet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -10363,7 +10579,8 @@
       "mistake": "Eleverna kopplar ett pronomen till närmaste namn, inte till det som det syftar på. När de skriver om väljer de fel form (”Honom gick hem”) och skriver ”dom” för både de och dem.",
       "words": "Fråga: ”Vem är ’hon’ här? Sätt tillbaka namnet. Säger meningen fortfarande samma sak?” När ni skriver om: ”Gör personen något? Då han, hon eller de. Händer något med personen? Då honom, henne eller dem. Äger personen något? Då hans, hennes eller deras.” Om de och dem: ”Pröva med vi och oss. Passar ’vi’ skriver du de. Passar ’oss’ skriver du dem.”",
       "watch": "Använd provet med att sätta tillbaka namnet på varje streck en elev har dragit. Läs de omskrivna meningarna högt tillsammans; ”Honom gick hem” låter fel för de flesta när de hör det. De och dem hörs inte, så där hjälper bara provet med vi och oss."
-     }
+     },
+     "days": 2
     }
    ]
   },
@@ -10376,7 +10593,8 @@
    "title": "Stavning, ordbildning och ordval",
    "metaTitle": "Svenska åk 3: Stavning, ordbildning och ordval | Lektionsplanering",
    "metaDescription": "Lektionsplanering i svenska för åk 3, arbetsområdet ”Stavning, ordbildning och ordval”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -10435,7 +10653,8 @@
       "mistake": "Eleverna stavar ett ljud på samma sätt överallt: ”tak” och ”tack” får båda ett ensamt k. De kan säga regeln som en mening och lyssnar ändå inte på vokalen före.",
       "words": "Läs regeln på bladet tillsammans och gör den till en fråga att ställa varje gång. Om dubbelteckning: ”Är vokalen före kort eller lång? Säg ordet: hat, hatt. Hör du skillnaden?” Säg: ”Efter kort vokal skriver vi konsonanten dubbelt: hatt, boll, kopp. Två k skrivs ck: tack.”",
       "watch": "Fråga eleven varför ordet fick sina bokstäver. ”För att regeln säger det” räcker inte; eleven ska säga om vokalen är kort eller lång. Varje blad övar en regel; blanda reglerna först när var och en är övad för sig. Dubbelteckning, ck och ng kan tas redan i åk 2; sj-, tj- och j-ljudet hör till åk 3."
-     }
+     },
+     "days": 2
     },
     {
      "n": 2,
@@ -10494,7 +10713,8 @@
       "mistake": "Eleverna ringar in för lite eller för mycket: i ”läsa, läsare, läsning” ringar de in ”lä” eller hela ordet ”läsa”. De letar efter bokstäver som ser likadana ut och tänker inte på betydelsen.",
       "words": "Säg: ”Släktord har en del som betyder samma sak i alla tre: lek, leka, lekplats. Vad handlar alla tre om?” Täck över ändelserna med ett finger. Bladet kallar den gemensamma delen ordstammen; med eleverna säger du ”den del som orden har gemensamt”.",
       "watch": "Fråga vad de tre orden har gemensamt i BETYDELSE innan eleven ringar in. Låt sedan eleven läsa det som står skrivet i stenen: finns delen i alla tre orden, bokstav för bokstav?"
-     }
+     },
+     "days": 2
     },
     {
      "n": 3,
@@ -10551,7 +10771,8 @@
       "mistake": "Eleverna sätter in orden i luckorna i den ordning de är tryckta. De väljer bara efter betydelsen, som alla fyra orden delar, och lyssnar inte efter vad meningen behöver: en person, något som händer nu eller något som redan har hänt.",
       "words": "Fråga vad luckan behöver: ”Är det en person? Något som händer nu? Något som redan har hänt? Eller grundformen, efter att, ska eller kan?” Läs meningen högt med varje ord: ”I går … hon bröd. Baka? Bagare? Bakade. Vilket låter rätt?”",
       "watch": "Låt eleven läsa alla fyra färdiga meningar högt. Ett fel ord tvingar fram ett till, så två meningar låter fel samtidigt; låt eleven byta plats på de två orden."
-     }
+     },
+     "days": 2
     },
     {
      "n": 4,
@@ -10604,7 +10825,8 @@
       "mistake": "Eleverna sätter o- framför vilket ord som helst (”oglad”), eller ser en förstavelse i ett ord som inte har någon: ”orm” och ”ost” tas isär. De kan bilda ordet och kan inte säga vad det betyder.",
       "words": "Ge förstavelsen en betydelse att säga: ”O- betyder inte: olycklig är inte lycklig, oärlig är inte ärlig.” På det andra bladet läser ni nyckeln tillsammans: ”Åter- betyder igen. Miss- betyder fel.” Använd det: ”Återanvända: använda igen. Missförstå: förstå fel.” Fråga: ”Finns det ordet? Har du hört det?”",
       "watch": "Låt eleven förklara varje nytt ord med förstavelsens betydelse i förklaringen. Bara vissa ord kan få o-; dem lär man sig genom att höra dem, så säg det rätta ordet (”ledsen”, inte ”oglad”). Bladet med o- räcker för de flesta i åk 3; det andra är en fördjupning."
-     }
+     },
+     "days": 2
     },
     {
      "n": 5,
@@ -10644,7 +10866,8 @@
       "mistake": "Eleverna lägger -are direkt på grundformen: ”målaare”, ”läsaare”. De tar också varje ord som slutar på -are för ett personord, som ”hammare”.",
       "words": "Säg: ”En målare är en person som målar. En läsare är en person som läser.” Visa hur ordet byggs: ”Ta bort a:et i slutet av måla och sätt dit -are: mål-are.” Pröva ett ord: ”Är en hammare en person som hamrar? Nej, det är en sak.” Nämn att några byter mer: ”Den som bakar är en bagare.”",
       "watch": "Låt eleven säga betydelsen som ”en person som …” för varje nytt ord. Kontrollera att det inte står två a efter varandra i det skrivna ordet."
-     }
+     },
+     "days": 2
     },
     {
      "n": 6,
@@ -10701,7 +10924,8 @@
       "mistake": "Eleverna kan ”gå” och ”titta” och tar de andra orden för samma sak sagd på ett finare sätt. Ett ord de inte kan placeras på måfå eller lämnas.",
       "words": "Spela upp varje ord: ”Visa strosa. Visa rusa. Är båda sätt att gå? Vad är skillnaden?” Sedan om att titta: ”Kika på dörren. Stirra på dörren.” Fråga: ”När skulle du använda det här ordet och inte det vanliga?”",
       "watch": "Be en elev använda två ord ur samma grupp i två meningar som visar skillnaden. Anteckna de ord som ingen kunde spela upp; gå igenom dem innan bladet rättas."
-     }
+     },
+     "days": 2
     },
     {
      "n": 7,
@@ -10751,7 +10975,8 @@
       "mistake": "Eleverna tar orden i den ordning de står i pratbubblan, eller använder en favorit (”ropade”) överallt. De letar inte efter ledtråden i meningen som visar hur något sades.",
       "words": "Fråga: ”HUR sa personen det? Leta efter en ledtråd: ett frågetecken, ett utropstecken, ett ord som ’tyst’.” Spela upp det: ”Säg det viskande. Ropa det nu. Vilket ord passar till det som hände?”",
       "watch": "Låt eleven läsa den färdiga meningen med den röst som det nya ordet kräver. Står ”viskade” framför en mening med utropstecken hör eleven att det skär sig. Orden kommer till nytta när klassen skriver berättelser med repliker."
-     }
+     },
+     "days": 2
     }
    ]
   }
@@ -10763,19 +10988,19 @@
    "status": "live",
    "grade": "K",
    "subject": "math",
-   "title": "Matematik förskoleklass: planering för 7 veckor",
-   "metaTitle": "Matematik förskoleklass: planering för 7 veckor (5 arbetsområden)",
-   "metaDescription": "5 arbetsområden i matematik för förskoleklass i undervisningsordning, cirka 7 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 7,
+   "title": "Matematik förskoleklass: planering för 23 veckor",
+   "metaTitle": "Matematik förskoleklass: planering för 23 veckor (5 arbetsområden)",
+   "metaDescription": "5 arbetsområden i matematik för förskoleklass i undervisningsordning, cirka 23 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 23,
    "framework": null,
    "units": [
     {
      "id": "sv-f-ma-lage-storlek-monster",
      "slug": "lage-storlek-och-monster-forskoleklass",
      "title": "Läge, storlek och mönster",
-     "weeks": 2,
+     "weeks": 5,
      "from": 1,
-     "to": 2,
+     "to": 5,
      "lessons": [
       "Lägesord: på, under, bredvid, vänster och höger",
       "Hitta alla som är likadana",
@@ -10790,9 +11015,9 @@
      "id": "sv-f-ma-antal-0-10",
      "slug": "antal-och-siffror-0-10-forskoleklass",
      "title": "Antal och siffror 0–10",
-     "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "weeks": 6,
+     "from": 6,
+     "to": 11,
      "lessons": [
       "En till varje: para ihop",
       "Räkna och skriv hur många",
@@ -10808,9 +11033,9 @@
      "id": "sv-f-ma-former",
      "slug": "geometriska-former-och-spegelbilder-forskoleklass",
      "title": "Geometriska former och spegelbilder",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 4,
+     "from": 12,
+     "to": 15,
      "lessons": [
       "Vad heter formen?",
       "Räkna sidorna",
@@ -10823,9 +11048,9 @@
      "id": "sv-f-ma-talraden-20",
      "slug": "talraden-till-20-och-ordningstal-forskoleklass",
      "title": "Talraden till 20 och ordningstal",
-     "weeks": 1,
-     "from": 6,
-     "to": 6,
+     "weeks": 4,
+     "from": 16,
+     "to": 19,
      "lessons": [
       "Tal som saknas i talraden",
       "Talet före, talet efter och räkna baklänges",
@@ -10838,9 +11063,9 @@
      "id": "sv-f-ma-sortera-dela-upp",
      "slug": "sortera-uppskatta-och-dela-upp-tal-forskoleklass",
      "title": "Sortera, uppskatta och dela upp tal",
-     "weeks": 1,
-     "from": 7,
-     "to": 7,
+     "weeks": 4,
+     "from": 20,
+     "to": 23,
      "lessons": [
       "Sortera och räkna varje sort",
       "Uppskatta: en bra gissning",
@@ -10857,19 +11082,19 @@
    "status": "live",
    "grade": "K",
    "subject": "literacy",
-   "title": "Svenska förskoleklass: planering för 4 veckor",
-   "metaTitle": "Svenska förskoleklass: planering för 4 veckor (3 arbetsområden)",
-   "metaDescription": "3 arbetsområden i svenska för förskoleklass i undervisningsordning, cirka 4 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 4,
+   "title": "Svenska förskoleklass: planering för 8 veckor",
+   "metaTitle": "Svenska förskoleklass: planering för 8 veckor (3 arbetsområden)",
+   "metaDescription": "3 arbetsområden i svenska för förskoleklass i undervisningsordning, cirka 8 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 8,
    "framework": null,
    "units": [
     {
      "id": "sv-f-sv-spraklekar",
      "slug": "spraklekar-rim-stavelser-och-ljud-forskoleklass",
      "title": "Språklekar: rim, stavelser och ljud",
-     "weeks": 1,
+     "weeks": 3,
      "from": 1,
-     "to": 1,
+     "to": 3,
      "lessons": [
       "Höra rim",
       "Klappa stavelser",
@@ -10883,9 +11108,9 @@
      "id": "sv-f-sv-ord-berattande",
      "slug": "ord-begrepp-och-berattande-forskoleklass",
      "title": "Ord, begrepp och berättande",
-     "weeks": 1,
-     "from": 2,
-     "to": 2,
+     "weeks": 2,
+     "from": 4,
+     "to": 5,
      "lessons": [
       "Sortera efter sort",
       "Vilken hör inte hit?",
@@ -10898,9 +11123,9 @@
      "id": "sv-f-sv-bokstaver",
      "slug": "bokstaver-och-forsta-skrivandet-forskoleklass",
      "title": "Bokstäver och första skrivandet",
-     "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "weeks": 3,
+     "from": 6,
+     "to": 8,
      "lessons": [
       "Linjer, sicksack, vågor och bågar",
       "Hitta bokstaven",
@@ -10920,19 +11145,19 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Matematik åk 1: planering för 8 veckor",
-   "metaTitle": "Matematik åk 1: planering för 8 veckor (6 arbetsområden)",
-   "metaDescription": "6 arbetsområden i matematik för åk 1 i undervisningsordning, cirka 8 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 8,
+   "title": "Matematik åk 1: planering för 20 veckor",
+   "metaTitle": "Matematik åk 1: planering för 20 veckor (6 arbetsområden)",
+   "metaDescription": "6 arbetsområden i matematik för åk 1 i undervisningsordning, cirka 20 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 20,
    "framework": null,
    "units": [
     {
      "id": "sv-1-ma-add-sub-0-10",
      "slug": "addition-och-subtraktion-0-10-ak-1",
      "title": "Addition och subtraktion 0–10",
-     "weeks": 2,
+     "weeks": 4,
      "from": 1,
-     "to": 2,
+     "to": 4,
      "lessons": [
       "Addera två grupper",
       "Ta bort: hur många är kvar?",
@@ -10947,9 +11172,9 @@
      "id": "sv-1-ma-talkamrater",
      "slug": "talkamrater-och-likhetstecknet-ak-1",
      "title": "Talkamrater och likhetstecknet",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 3,
+     "from": 5,
+     "to": 7,
      "lessons": [
       "Tiokamrater",
       "Talfamiljer till 10",
@@ -10963,9 +11188,9 @@
      "id": "sv-1-ma-former-monster-langd",
      "slug": "former-monster-och-langd-ak-1",
      "title": "Former, mönster och längd",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 3,
+     "from": 8,
+     "to": 10,
      "lessons": [
       "Vad gör en form till just den formen?",
       "Tangram",
@@ -10978,9 +11203,9 @@
      "id": "sv-1-ma-tal-0-20",
      "slug": "talen-0-20-dubbelt-halften-udda-och-jamnt-ak-1",
      "title": "Talen 0–20: dubbelt, hälften, udda och jämnt",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "weeks": 4,
+     "from": 11,
+     "to": 14,
      "lessons": [
       "Hitta talet på tallinjen",
       "Dagens tal: 11 till 20",
@@ -10996,9 +11221,9 @@
      "id": "sv-1-ma-klockan-almanackan",
      "slug": "klockan-och-almanackan-ak-1",
      "title": "Klockan och almanackan",
-     "weeks": 1,
-     "from": 7,
-     "to": 7,
+     "weeks": 3,
+     "from": 15,
+     "to": 17,
      "lessons": [
       "Veckans dagar",
       "I går, i dag, i morgon och årets månader",
@@ -11012,9 +11237,9 @@
      "id": "sv-1-ma-diagram",
      "slug": "sortera-tabeller-och-diagram-ak-1",
      "title": "Sortera, tabeller och diagram",
-     "weeks": 1,
-     "from": 8,
-     "to": 8,
+     "weeks": 3,
+     "from": 18,
+     "to": 20,
      "lessons": [
       "Sortera i tre grupper",
       "Räkna med streck: fem i varje knippe",
@@ -11031,19 +11256,19 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Matematik åk 2: planering för 9 veckor",
-   "metaTitle": "Matematik åk 2: planering för 9 veckor (6 arbetsområden)",
-   "metaDescription": "6 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 9 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 9,
+   "title": "Matematik åk 2: planering för 22 veckor",
+   "metaTitle": "Matematik åk 2: planering för 22 veckor (6 arbetsområden)",
+   "metaDescription": "6 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 22 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 22,
    "framework": null,
    "units": [
     {
      "id": "sv-2-ma-tal-0-100",
      "slug": "talen-0-100-tiotal-och-ental-ak-2",
      "title": "Talen 0–100: tiotal och ental",
-     "weeks": 2,
+     "weeks": 5,
      "from": 1,
-     "to": 2,
+     "to": 5,
      "lessons": [
       "Gör ett tiotal av tio ental",
       "Tiotal och ental",
@@ -11060,9 +11285,9 @@
      "id": "sv-2-ma-add-sub-0-100",
      "slug": "addition-och-subtraktion-0-100-med-pengar-ak-2",
      "title": "Addition och subtraktion 0–100 med pengar",
-     "weeks": 1,
-     "from": 3,
-     "to": 3,
+     "weeks": 3,
+     "from": 6,
+     "to": 8,
      "lessons": [
       "Addera med tiostavar och entalskuber",
       "Subtrahera med tiostavar och entalskuber",
@@ -11076,9 +11301,9 @@
      "id": "sv-2-ma-langd-tid",
      "slug": "langd-klockan-och-almanackan-ak-2",
      "title": "Längd, klockan och almanackan",
-     "weeks": 1,
-     "from": 4,
-     "to": 4,
+     "weeks": 3,
+     "from": 9,
+     "to": 11,
      "lessons": [
       "Mäta med linjal",
       "Hur mycket längre?",
@@ -11091,9 +11316,9 @@
      "id": "sv-2-ma-multiplikation",
      "slug": "multiplikation-lika-grupper-2an-och-5an-ak-2",
      "title": "Multiplikation: lika grupper, 2:an och 5:an",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "weeks": 5,
+     "from": 12,
+     "to": 16,
      "lessons": [
       "10-hopp, 5-hopp och 2-hopp",
       "Prick till prick med 5-hopp och 10-hopp",
@@ -11110,9 +11335,9 @@
      "id": "sv-2-ma-geometri",
      "slug": "geometriska-objekt-symmetri-och-rutnat-ak-2",
      "title": "Geometriska objekt, symmetri och rutnät",
-     "weeks": 2,
-     "from": 7,
-     "to": 8,
+     "weeks": 4,
+     "from": 17,
+     "to": 20,
      "lessons": [
       "Sortera figurer efter antal sidor",
       "Geometriska kroppar omkring oss",
@@ -11128,9 +11353,9 @@
      "id": "sv-2-ma-diagram",
      "slug": "tabeller-och-diagram-ak-2",
      "title": "Tabeller och diagram",
-     "weeks": 1,
-     "from": 9,
-     "to": 9,
+     "weeks": 2,
+     "from": 21,
+     "to": 22,
      "lessons": [
       "Från streck till stapeldiagram",
       "Bilddiagram där varje bild står för 2",
@@ -11147,19 +11372,19 @@
    "status": "live",
    "grade": "2",
    "subject": "literacy",
-   "title": "Svenska åk 2: planering för 5 veckor",
-   "metaTitle": "Svenska åk 2: planering för 5 veckor (3 arbetsområden)",
-   "metaDescription": "3 arbetsområden i svenska för åk 2 i undervisningsordning, cirka 5 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 5,
+   "title": "Svenska åk 2: planering för 10 veckor",
+   "metaTitle": "Svenska åk 2: planering för 10 veckor (3 arbetsområden)",
+   "metaDescription": "3 arbetsområden i svenska för åk 2 i undervisningsordning, cirka 10 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 10,
    "framework": null,
    "units": [
     {
      "id": "sv-2-sv-ordkunskap",
      "slug": "ordkunskap-och-alfabetisk-ordning-ak-2",
      "title": "Ordkunskap och alfabetisk ordning",
-     "weeks": 2,
+     "weeks": 3,
      "from": 1,
-     "to": 2,
+     "to": 3,
      "lessons": [
       "Alfabetisk ordning",
       "Motsatsord",
@@ -11175,9 +11400,9 @@
      "id": "sv-2-sv-lasa-skriva-texter",
      "slug": "lasa-forsta-och-skriva-texter-ak-2",
      "title": "Läsa, förstå och skriva texter",
-     "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "weeks": 4,
+     "from": 4,
+     "to": 7,
      "lessons": [
       "Stor bokstav och punkt",
       "Ställ en fråga",
@@ -11193,9 +11418,9 @@
      "id": "sv-2-sv-substantiv",
      "slug": "substantiv-verb-och-adjektiv-ak-2",
      "title": "Substantiv, verb och adjektiv",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 3,
+     "from": 8,
+     "to": 10,
      "lessons": [
       "En eller ett?",
       "Sortera en-ord och ett-ord",
@@ -11213,19 +11438,19 @@
    "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Matematik åk 3: planering för 10 veckor",
-   "metaTitle": "Matematik åk 3: planering för 10 veckor (7 arbetsområden)",
-   "metaDescription": "7 arbetsområden i matematik för åk 3 i undervisningsordning, cirka 10 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 10,
+   "title": "Matematik åk 3: planering för 23 veckor",
+   "metaTitle": "Matematik åk 3: planering för 23 veckor (7 arbetsområden)",
+   "metaDescription": "7 arbetsområden i matematik för åk 3 i undervisningsordning, cirka 23 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 23,
    "framework": null,
    "units": [
     {
      "id": "sv-3-ma-tal-0-1000",
      "slug": "talen-0-1000-hundratal-tiotal-och-ental-ak-3",
      "title": "Talen 0–1000: hundratal, tiotal och ental",
-     "weeks": 1,
+     "weeks": 2,
      "from": 1,
-     "to": 1,
+     "to": 2,
      "lessons": [
       "Hundratal, tiotal och ental",
       "Dela upp talet i talsorter: siffrans värde",
@@ -11238,9 +11463,9 @@
      "id": "sv-3-ma-avrundning-uppstallning",
      "slug": "avrundning-overslag-och-uppstallning-ak-3",
      "title": "Avrundning, överslag och uppställning",
-     "weeks": 1,
-     "from": 2,
-     "to": 2,
+     "weeks": 3,
+     "from": 3,
+     "to": 5,
      "lessons": [
       "Avrunda till närmaste tiotal",
       "Avrunda till närmaste hundratal",
@@ -11254,9 +11479,9 @@
      "id": "sv-3-ma-mult-division",
      "slug": "multiplikation-och-division-ak-3",
      "title": "Multiplikation och division",
-     "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "weeks": 4,
+     "from": 6,
+     "to": 9,
      "lessons": [
       "3-hopp och 4-hopp",
       "Dela lika och bilda grupper",
@@ -11272,9 +11497,9 @@
      "id": "sv-3-ma-matning",
      "slug": "matning-tid-massa-volym-och-temperatur-ak-3",
      "title": "Mätning: tid, massa, volym och temperatur",
-     "weeks": 1,
-     "from": 5,
-     "to": 5,
+     "weeks": 3,
+     "from": 10,
+     "to": 12,
      "lessons": [
       "Klockan på minuten",
       "Analog och digital tid",
@@ -11288,9 +11513,9 @@
      "id": "sv-3-ma-brak",
      "slug": "brak-del-av-helhet-och-del-av-antal-ak-3",
      "title": "Bråk: del av helhet och del av antal",
-     "weeks": 2,
-     "from": 6,
-     "to": 7,
+     "weeks": 4,
+     "from": 13,
+     "to": 16,
      "lessons": [
       "Lika stora delar",
       "Halvor, tredjedelar och fjärdedelar",
@@ -11306,9 +11531,9 @@
      "id": "sv-3-ma-algebra",
      "slug": "likheter-talfoljder-och-talmaskiner-ak-3",
      "title": "Likheter, talföljder och talmaskiner",
-     "weeks": 1,
-     "from": 8,
-     "to": 8,
+     "weeks": 2,
+     "from": 17,
+     "to": 18,
      "lessons": [
       "Likheter: lika mycket på båda sidor",
       "Talföljder: hitta regeln",
@@ -11321,9 +11546,9 @@
      "id": "sv-3-ma-geometri",
      "slug": "fyrhorningar-symmetri-omkrets-och-area-ak-3",
      "title": "Fyrhörningar, symmetri, omkrets och area",
-     "weeks": 2,
-     "from": 9,
-     "to": 10,
+     "weeks": 5,
+     "from": 19,
+     "to": 23,
      "lessons": [
       "Är det en rektangel?",
       "Jakten på räta vinklar",

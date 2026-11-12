@@ -9,8 +9,8 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 1: 8 Stunden zu Plus und Minus bis 10, jede mit Lehrerhinweis, Arbeitsblättern (meist in drei Stufen) und einer Übung am Bildschirm.",
-   "weeks": 2,
+   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zu Plus und Minus bis 10, jede mit Lehrerhinweis, Arbeitsblättern (meist in drei Stufen) und einer Übung am Bildschirm.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:add-within-10-models",
@@ -82,8 +82,8 @@
    "subject": "math",
    "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
    "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zahlwörter und Zahlenstrahl",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zu Ordnungszahlen, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl bis 20 und 30.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu Ordnungszahlen, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl bis 20 und 30.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:ordinal-numbers",
@@ -122,8 +122,8 @@
    "subject": "math",
    "title": "Verdoppeln, drei Summanden und Zahlenmauern",
    "metaTitle": "Mathe Klasse 1: Verdoppeln, drei Summanden und Zahlenmauern",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zum Verdoppeln und Halbieren, zu geraden und ungeraden Zahlen, drei Summanden und Zahlenmauern, jede mit Lehrerhinweis.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Verdoppeln und Halbieren, zu geraden und ungeraden Zahlen, drei Summanden und Zahlenmauern, jede mit Lehrerhinweis.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:doubles-halves",
@@ -163,8 +163,8 @@
    "subject": "math",
    "title": "Uhr, Kalender und Geld",
    "metaTitle": "Mathe Klasse 1: Uhr, Kalender und Geld | Unterrichtseinheit",
-   "metaDescription": "Eine Woche Mathe Klasse 1: 4 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen und Monaten und zu Geldbeträgen mit Münzen.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen und Monaten und zu Geldbeträgen mit Münzen.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:time-read",
@@ -204,8 +204,8 @@
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
    "metaTitle": "Mathe Klasse 1: Formen, Messen und Diagramme | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 1: 6 Stunden zu Formen, zum Tangram, zum Messen von Längen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern, mit Lehrerhinweisen.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zu Formen, zum Tangram, zum Messen von Längen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern, mit Lehrerhinweisen.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:shape-attributes",
@@ -258,8 +258,8 @@
    "subject": "math",
    "title": "Zahlen bis 100: Bündeln und Hundertertafel",
    "metaTitle": "Mathe Klasse 2: Zahlen bis 100 – Bündeln und Hundertertafel",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 9 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Üben von Plus und Minus bis 100.",
-   "weeks": 2,
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Üben von Plus und Minus bis 100.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:bundle-ten-ones",
@@ -333,8 +333,8 @@
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
    "metaTitle": "Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 8 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Strichlisten und Diagrammen.",
-   "weeks": 2,
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 8 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Strichlisten und Diagrammen.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
@@ -398,8 +398,8 @@
    "subject": "math",
    "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
    "metaTitle": "Mathe Klasse 2: Malnehmen – Gruppen, Felder und erste Einmaleinsreihen",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:equal-groups-times",
@@ -460,8 +460,8 @@
    "subject": "math",
    "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
    "metaTitle": "Mathe Klasse 2: Teilen – Verteilen, Aufteilen und die Hälfte",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften, Dritteln und Vierteln.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften, Dritteln und Vierteln.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:share-and-group",
@@ -513,8 +513,8 @@
    "subject": "math",
    "title": "Formen, Körper und Symmetrie",
    "metaTitle": "Mathe Klasse 2: Formen, Körper und Symmetrie | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Ecken und Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Ecken und Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:2d-attributes",
@@ -568,8 +568,8 @@
    "subject": "math",
    "title": "Zahlen bis 1000",
    "metaTitle": "Mathe Klasse 3: Zahlen bis 1000 | Unterrichtseinheit",
-   "metaDescription": "Eine Woche Mathe Klasse 3: 4 Stunden zu Hundertern, Zehnern und Einern, zum Zerlegen, Vergleichen und Ordnen dreistelliger Zahlen und zu 100 mehr und weniger.",
-   "weeks": 1,
+   "metaDescription": "Zwei Wochen Mathe Klasse 3: 4 Stunden zu Hundertern, Zehnern und Einern, zum Zerlegen, Vergleichen und Ordnen dreistelliger Zahlen und zu 100 mehr und weniger.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "2:read-build-3-digit",
@@ -608,8 +608,8 @@
    "subject": "math",
    "title": "Runden und schriftlich rechnen bis 1000",
    "metaTitle": "Mathe Klasse 3: Runden und schriftlich rechnen bis 1000",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zum Runden auf Zehner und Hunderter, zum Überschlagen und zum schriftlichen Addieren und Subtrahieren ohne und mit Übertrag.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 3: 7 Stunden zum Runden auf Zehner und Hunderter, zum Überschlagen und zum schriftlichen Addieren und Subtrahieren ohne und mit Übertrag.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:round-to-ten",
@@ -668,8 +668,8 @@
    "subject": "math",
    "title": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
    "metaTitle": "Mathe Klasse 3: Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zu Aufgabenfamilien, Sachaufgaben, Teilen mit Rest, Gleichungen an der Waage, Zahlenfolgen und Zahlenmaschinen.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 3: 7 Stunden zu Aufgabenfamilien, Sachaufgaben, Teilen mit Rest, Gleichungen an der Waage, Zahlenfolgen und Zahlenmaschinen.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:mult-div-relationship",
@@ -728,8 +728,8 @@
    "subject": "math",
    "title": "Zeit, Temperatur, Gewicht und Hohlmaße",
    "metaTitle": "Mathe Klasse 3: Zeit, Temperatur, Gewicht und Hohlmaße",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 7 Stunden zur Uhr auf die Minute genau, zur 24-Stunden-Zeit, zu Zeitspannen, zum Thermometer, zu Millilitern und Gramm.",
-   "weeks": 2,
+   "metaDescription": "Vier Wochen Mathe Klasse 3: 7 Stunden zur Uhr auf die Minute genau, zur 24-Stunden-Zeit, zu Zeitspannen, zum Thermometer, zu Millilitern und Gramm.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:time-to-minute",
@@ -787,8 +787,8 @@
    "subject": "math",
    "title": "Flächeninhalt, Umfang und Würfelgebäude",
    "metaTitle": "Mathe Klasse 3: Flächeninhalt, Umfang und Würfelgebäude",
-   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zum Flächeninhalt in Kästchen, zum Umfang als Weg rundherum und zu Würfelgebäuden, jede mit Lehrerhinweis und Arbeitsblättern.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Mathe Klasse 3: 5 Stunden zum Flächeninhalt in Kästchen, zum Umfang als Weg rundherum und zu Würfelgebäuden, jede mit Lehrerhinweis und Arbeitsblättern.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:area-model",
@@ -830,8 +830,8 @@
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
    "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-   "metaDescription": "Eine Woche Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und einem Diagramm mit halben Schritten.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und einem Diagramm mit halben Schritten.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:right-angles",
@@ -876,7 +876,7 @@
    "title": "Laute, Silben und erste Wörter schreiben",
    "metaTitle": "Deutsch Klasse 1: Laute, Silben und erste Wörter schreiben",
    "metaDescription": "Deutsch Klasse 1: 6 Stunden, verteilt über das erste Schuljahr, zu Reimwörtern, Silbenbögen, Silbenteppich, Lautstreifen, sch, ch, au und zum Beschriften von Bildern.",
-   "weeks": 2,
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:rhyming",
@@ -933,8 +933,8 @@
    "subject": "literacy",
    "title": "Sätze und Geschichten lesen",
    "metaTitle": "Deutsch Klasse 1: Sätze und Geschichten lesen | Unterrichtseinheit",
-   "metaDescription": "Eine Woche Deutsch Klasse 1: 5 Stunden mit Leseaufträgen, Lückensätzen, Schüttelsätzen, W-Fragen und Bildergeschichten, jede mit Lehrerhinweis und Arbeitsblättern.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Deutsch Klasse 1: 5 Stunden mit Leseaufträgen, Lückensätzen, Schüttelsätzen, W-Fragen und Bildergeschichten, jede mit Lehrerhinweis und Arbeitsblättern.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:read-and-follow",
@@ -981,8 +981,8 @@
    "subject": "literacy",
    "title": "Abc, Nomen, Begleiter und Gegenteile",
    "metaTitle": "Deutsch Klasse 1: Abc, Nomen, Begleiter und Gegenteile",
-   "metaDescription": "Eine Woche Deutsch Klasse 1: 4 Stunden zum Ordnen nach dem Abc, zu Nomen und Verben, zu der, die, das und zu Gegenteilen, jede mit Lehrerhinweis und Arbeitsblättern.",
-   "weeks": 1,
+   "metaDescription": "Zwei Wochen Deutsch Klasse 1: 4 Stunden zum Ordnen nach dem Abc, zu Nomen und Verben, zu der, die, das und zu Gegenteilen, jede mit Lehrerhinweis und Arbeitsblättern.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "1:alphabetical-order",
@@ -1020,8 +1020,8 @@
    "subject": "literacy",
    "title": "Sätze und Grammatik",
    "metaTitle": "Deutsch Klasse 2: Sätze und Grammatik | Unterrichtseinheit",
-   "metaDescription": "Eine Woche Deutsch Klasse 2: 5 Stunden zu Satzanfang und Satzzeichen, Wortarten, Einzahl und Mehrzahl, Personalformen der Verben und Fragesätzen.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Deutsch Klasse 2: 5 Stunden zu Satzanfang und Satzzeichen, Wortarten, Einzahl und Mehrzahl, Personalformen der Verben und Fragesätzen.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:sentence-boundaries",
@@ -1072,8 +1072,8 @@
    "subject": "literacy",
    "title": "Rechtschreiben und Wörter bilden",
    "metaTitle": "Deutsch Klasse 2: Rechtschreiben und Wörter bilden",
-   "metaDescription": "Zwei Wochen Deutsch Klasse 2: 6 Stunden zu sch, doppelten Mitlauten, ck und ie, zusammengesetzten Nomen, Wortfamilien, Wortstamm und Vorsilben, mit Lehrerhinweisen.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Deutsch Klasse 2: 6 Stunden zu sch, doppelten Mitlauten, ck und ie, zusammengesetzten Nomen, Wortfamilien, Wortstamm und Vorsilben, mit Lehrerhinweisen.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:digraphs",
@@ -1127,8 +1127,8 @@
    "subject": "literacy",
    "title": "Wortschatz: gleiche Bedeutung und Wortfelder",
    "metaTitle": "Deutsch Klasse 2: Wortschatz – gleiche Bedeutung und Wortfelder",
-   "metaDescription": "Eine Woche Deutsch Klasse 2: 4 Stunden zu Wörtern mit gleicher Bedeutung, zu Abstufungen von schwach bis stark und zum Wortfeld „sagen“, jede mit Lehrerhinweis.",
-   "weeks": 1,
+   "metaDescription": "Zwei Wochen Deutsch Klasse 2: 4 Stunden zu Wörtern mit gleicher Bedeutung, zu Abstufungen von schwach bis stark und zum Wortfeld „sagen“, jede mit Lehrerhinweis.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "1:synonyms",
@@ -1166,8 +1166,8 @@
    "subject": "literacy",
    "title": "Geschichten, Steckbriefe und Schreibschrift",
    "metaTitle": "Deutsch Klasse 2: Geschichten, Steckbriefe und Schreibschrift",
-   "metaDescription": "Zwei Wochen Deutsch Klasse 2: 6 Stunden zum Lesen mit Fragen, zu Lückengeschichten, zum Schreiben zu Bildern, zum Tier-Steckbrief und zur Schreibschrift.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Deutsch Klasse 2: 6 Stunden zum Lesen mit Fragen, zu Lückengeschichten, zum Schreiben zu Bildern, zum Tier-Steckbrief und zur Schreibschrift.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:read-and-answer",
@@ -1233,8 +1233,8 @@
    "subject": "literacy",
    "title": "Wortfelder, Wortfamilien und Pronomen",
    "metaTitle": "Deutsch Klasse 3: Wortfelder, Wortfamilien und Pronomen",
-   "metaDescription": "Eine Woche Deutsch Klasse 3: 5 Stunden zu den Wortfeldern „gehen“ und „sehen“, Personenbezeichnungen auf -er und -erin, Wortfamilien im Satz und den Pronomen er, sie, es.",
-   "weeks": 1,
+   "metaDescription": "Drei Wochen Deutsch Klasse 3: 5 Stunden zu den Wortfeldern „gehen“ und „sehen“, Personenbezeichnungen auf -er und -erin, Wortfamilien im Satz und Pronomen er, sie, es.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:word-fields",

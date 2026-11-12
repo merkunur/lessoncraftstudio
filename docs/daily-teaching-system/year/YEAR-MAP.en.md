@@ -10,16 +10,16 @@ A school year is 36 weeks. By the ruling of a US teacher-reviewer (2026-11-12) 2
 
 | Grade | Subject | Units | Lessons | Weeks the plan says today | Weeks with each lesson given its days | Teaching weeks of the year | Weeks still empty | Lessons still needed | Objectives: taught / near / open of all |
 |---|---|---|---|---|---|---|---|---|---|
-| Kindergarten | math | 6 | 30 | 7 | 15.6 | 28 | **12.4** | about 25 | 20 / 1 / 3 of 24 |
-| Kindergarten | literacy | 4 | 22 | 7 | 11.2 | 28 | **16.8** | about 34 | 17 / 3 / 45 of 65 |
-| Grade 1 | math | 6 | 32 | 8 | 19.6 | 28 | **8.4** | about 14 | 17 / 2 / 5 of 24 |
-| Grade 1 | literacy | 3 | 19 | 5 | 11.3 | 28 | **16.7** | about 28 | 22 / 2 / 49 of 73 |
-| Grade 2 | math | 6 | 34 | 9 | 20.6 | 28 | **7.4** | about 13 | 17 / 2 / 9 of 28 |
-| Grade 2 | literacy | 3 | 18 | 6 | 10.8 | 28 | **17.2** | about 29 | 13 / 5 / 45 of 63 (no checklist page; counted from the registry) |
-| Grade 3 | math | 7 | 41 | 10 | 24.7 | 26 | **1.3** | about 3 | 23 / 2 / 9 of 34 |
-| Grade 3 | literacy | 1 | 4 | no plan | 2.6 | 26 | **23.4** | about 39 | 5 / 3 / 71 of 79 (no checklist page; counted from the registry) |
+| Kindergarten | math | 6 | 30 | 16 | 15.6 | 28 | **12.4** | about 25 | 20 / 1 / 3 of 24 |
+| Kindergarten | literacy | 4 | 22 | 11 | 11.2 | 28 | **16.8** | about 34 | 17 / 3 / 45 of 65 |
+| Grade 1 | math | 6 | 32 | 20 | 20.2 | 28 | **7.8** | about 13 | 17 / 2 / 5 of 24 |
+| Grade 1 | literacy | 3 | 19 | 11 | 10.6 | 28 | **17.4** | about 29 | 22 / 2 / 49 of 73 |
+| Grade 2 | math | 6 | 34 | 19 | 20.6 | 28 | **7.4** | about 13 | 17 / 2 / 9 of 28 |
+| Grade 2 | literacy | 3 | 18 | 9 | 9.2 | 28 | **18.8** | about 32 | 13 / 5 / 45 of 63 (no checklist page; counted from the registry) |
+| Grade 3 | math | 7 | 41 | 24 | 24.4 | 26 | **1.6** | about 3 | 23 / 2 / 9 of 34 |
+| Grade 3 | literacy | 1 | 4 | no plan | 2.2 | 26 | **23.8** | about 40 | 5 / 3 / 71 of 79 (no checklist page; counted from the registry) |
 
-**All eight years together:** 116.4 of 220 teaching weeks are filled; about 185 lessons are still needed. 29 teaching points exist already and stand in no unit.
+**All eight years together:** 114.0 of 220 teaching weeks are filled; about 189 lessons are still needed. 29 teaching points exist already and stand in no unit.
 
 ## 1b. Where the missing mathematics lessons come from
 
@@ -28,7 +28,7 @@ Two sources, in this order: the standards a class needs several lessons for in a
 | Grade | Lessons still needed | From standards that need more lessons | From objectives nothing teaches yet | Standards that need more (has → deserves) |
 |---|---|---|---|---|
 | Kindergarten | about 25 | 27 | 4 | `K.CC.A.1` 0 → 4, `K.CC.A.3` 3 → 4, `K.CC.C.6` 1 → 3, `K.OA.A.2` 0 → 4, `K.OA.A.3` 1 → 5, `K.OA.A.4` 1 → 3, `K.OA.A.5` 1 → 4, `K.NBT.A.1` 0 → 5, `K.G.A.2` 1 → 3 |
-| Grade 1 | about 14 | 27 | 7 | `1.OA.A.1` 1 → 8, `1.OA.B.4` 1 → 2, `1.OA.C.6` 2 → 8, `1.OA.D.8` 2 → 3, `1.NBT.A.1` 2 → 3, `1.NBT.B.3` 1 → 3, `1.NBT.C.4` 0 → 6, `1.MD.A.2` 1 → 3, `1.MD.B.3` 2 → 3 |
+| Grade 1 | about 13 | 27 | 7 | `1.OA.A.1` 1 → 8, `1.OA.B.4` 1 → 2, `1.OA.C.6` 2 → 8, `1.OA.D.8` 2 → 3, `1.NBT.A.1` 2 → 3, `1.NBT.B.3` 1 → 3, `1.NBT.C.4` 0 → 6, `1.MD.A.2` 1 → 3, `1.MD.B.3` 2 → 3 |
 | Grade 2 | about 13 | 40 | 11 | `2.OA.B.2` 0 → 6, `2.OA.A.1` 0 → 8, `2.NBT.A.2` 1 → 3, `2.NBT.A.3` 1 → 3, `2.NBT.B.5` 3 → 10, `2.NBT.B.7` 2 → 8, `2.NBT.B.8` 1 → 2, `2.MD.A.1` 1 → 2, `2.MD.C.7` 1 → 4, `2.MD.C.8` 1 → 5 |
 | Grade 3 | about 3 | 39 | 11 | `3.OA.A.3` 1 → 6, `3.OA.B.5` 1 → 4, `3.OA.B.6` 1 → 2, `3.OA.C.7` 1 → 12, `3.NBT.A.2` 1 → 5, `3.NF.A.1` 2 → 4, `3.NF.A.3.a` 1 → 4, `3.NF.A.3.d` 1 → 3, `3.MD.A.1` 3 → 5, `3.MD.A.2` 2 → 4, `3.MD.B.3` 1 → 3, `3.MD.D.8` 2 → 4 |
 

@@ -2,10 +2,11 @@
  * Where in the school year a teaching point has been taught (Daily Teaching System, Part 5).
  *
  * A sub day is review, never new teaching. The plans of a grade (frontend/content/units/units.<loc>.json → plans)
- * put the units in teaching order with their weeks; a point is "taught" when the unit that holds its lesson has
- * ended. A pack for the START of the year may use a point of an earlier grade, or one whose unit ends within the
- * first third of its plan's weeks; a pack for the MIDDLE within the first two thirds; a pack for the END any point of
- * the grade. A point that no plan of its grade teaches (puzzles, drawing, a unit outside every plan) has no place in
+ * put the units in teaching order; each lesson carries its class days (scripts/units/pacing.js) and each unit ends
+ * with three more. A point is "taught" on the last class day of ITS lesson. A pack for the START of the year may use
+ * a point of an earlier grade, or one taught within the first third of its plan's class days; a pack for the MIDDLE
+ * within the first two thirds; a pack for the END any point of the grade. (Before Part 4.8 the measure was the week
+ * in which the whole unit ended; the units file of a language without lesson days is still measured that way.) A point that no plan of its grade teaches (puzzles, drawing, a unit outside every plan) has no place in
  * the year and is allowed at every position. The school year of a point is the one in which the language's own units
  * teach it; the grade in the point's id counts only where no unit of the language holds the point.
  */
@@ -16,10 +17,16 @@ function planWeeks(unitsFile) {
   const out = new Map();
   const unitById = new Map((unitsFile.units || []).map((u) => [u.id, u]));
   for (const plan of unitsFile.plans || []) {
+    // the class day on which each lesson is done (Part 4.8: a lesson carries 2 or 3 days, a unit ends with 3), so a
+    // point is placed by the day ITS lesson is taught, not by the last week of the whole unit
+    const UNIT_END = 3;
+    const ofDays = plan.units.reduce((n, row) => { const unit = unitById.get(row.id); return n + (unit ? unit.lessons.reduce((m, l) => m + (l.days || 2), 0) + UNIT_END : 0); }, 0);
+    let day = 0;
     for (const row of plan.units) {
       const unit = unitById.get(row.id);
       if (!unit) continue;
-      for (const l of unit.lessons) out.set(l.point, { plan: plan.id, to: row.to, of: plan.weeks, grade: String(unit.grade) });
+      for (const l of unit.lessons) { day += l.days || 2; out.set(l.point, { plan: plan.id, to: row.to, of: plan.weeks, day, ofDays, grade: String(unit.grade) }); }
+      day += UNIT_END;
     }
   }
   // a unit outside every plan still says in which school year of this country its points are taught
@@ -41,6 +48,10 @@ function refused(point, packGrade, position, weeks) {
   if (pg > g) return 'the teaching point is of grade ' + taughtIn + ', later than the pack\'s grade';
   if (pg < g) return null;
   if (!w || w.to == null || !(position in SHARE)) return null;
+  if (w.day != null && w.ofDays) {
+    const lastDay = Math.max(1, Math.round(w.ofDays * SHARE[position]));
+    return w.day > lastDay ? 'its lesson is taught on class day ' + w.day + ' of ' + w.ofDays + ' of ' + w.plan + '; a pack for the ' + position + ' of the year reviews what was taught by day ' + lastDay : null;
+  }
   const last = Math.max(1, Math.round(w.of * SHARE[position]));
   return w.to > last ? 'its unit ends in week ' + w.to + ' of ' + w.of + ' of ' + w.plan + '; a pack for the ' + position + ' of the year reviews what was taught by week ' + last : null;
 }

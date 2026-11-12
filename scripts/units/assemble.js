@@ -32,6 +32,7 @@ const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, '
 /** the registry a language's pages cite (a state layer is chosen by the page, not here) */
 const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
 const { pagesOf } = require('./catalog.js');
+const { lessonDays, unitDays, unitWeeks } = require('./pacing.js');
 const MIN_LESSONS = 4;
 const MIN_PLAN_UNITS = 3; // a year plan of one or two units is a thin page: those units are found on the hub
 
@@ -202,10 +203,12 @@ function assemble(loc, opt = {}) {
       if (exit) lesson.exit = exit;
       if (maker) lesson.maker = maker;
       lesson.note = { mistake: tx.note.mistake, words: tx.note.words, watch: tx.note.watch };
+      // the class days this lesson carries, by what it holds (scripts/units/pacing.js, Part 4.8)
+      lesson.days = lessonDays(d.grade, lesson);
       lessons.push(lesson);
     }
     if (lessons.length < MIN_LESSONS) bad(where + ': ' + lessons.length + ' lessons (at least ' + MIN_LESSONS + ')');
-    const unit = { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, weeks: d.weeks || Math.max(1, Math.ceil(lessons.length / 4)), lessons };
+    const unit = { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, days: unitDays(d.grade, lessons), weeks: unitWeeks(d.grade, lessons, { loc, subject: d.subject }), lessons };
     units.push(unit);
   }
   // YEAR PLANS (scope and sequence, Part 4.4): the units of one grade and subject in teaching order, with the weeks

@@ -98,5 +98,15 @@
  "partOfTitle": "Ingår i en lektionsplanering",
  "partOfLanding": "Det här arbetsbladet används i lektion {n} (”{lesson}”) i arbetsområdet ”{unit}”.",
  "partOfActivity": "Den här övningen är skärmövningen till lektion {n} (”{lesson}”) i arbetsområdet ”{unit}”.",
- "pilotBanner": "Förhandsvisning av formatet. Sidan är inte länkad någonstans, och sökmotorer ombeds att inte ta med den."
+ "pilotBanner": "Förhandsvisning av formatet. Sidan är inte länkad någonstans, och sökmotorer ombeds att inte ta med den.",
+ "dayWord": "Dag {n}",
+ "lessonDays": "{n} dagar",
+ "dayRole1": "Genomgång",
+ "dayRole2": "Öva och stäm av",
+ "dayRole3": "Följ upp",
+ "dayRespond": "Utgå från avstämningsbladen: de elever som inte är säkra än arbetar en gång till med verktyget på storskärmen och ett nytt arbetsblad från ”Gör fler”; de andra får ett svårare blad.",
+ "unitEnd": "Arbetsområdet avslutas med tre dagar till: en dag för repetition, kunskapskollen och en dag för att följa upp vad den visade.",
+ "unitEndOwn": "Arbetsområdet avslutas med tre dagar till: en dag för repetition, din egen avstämning av arbetsområdet och en dag för att följa upp vad den visade.",
+ "dayRole2NoCheck": "Öva",
+ "dayMore": "Fler arbetsblad från ”Gör fler”"
 }

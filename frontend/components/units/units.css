@@ -96,7 +96,7 @@
 .un-standard { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 6px; padding: 3px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font-size: 0.875rem; }
 .un-standard-rel { color: var(--ink-soft); }
 .un-standard-code { font-weight: 700; }
-.un-standard-link { display: inline-block; padding: 8px 0; text-decoration: underline; }
+.un-standard-link { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; }
 .un-standard-title { color: var(--ink-soft); }
 .un-standard-prepares, .un-standard-extends, .un-standard-reviews, .un-standard-ahead { border-style: dashed; }
 
@@ -216,3 +216,13 @@
   .un-gate-panel { border-radius: 18px; padding: 28px; }
 }
 @media print { .un-gate { display: none; } }
+
+/* the class days of a lesson (Part 4.8) */
+.un-days{margin-top:.75rem;padding:.75rem 1rem;border:1px solid #E3DCC9;border-radius:.75rem;background:#F5F1E6}
+.un-days-count{margin:0 0 .25rem;font-weight:700;color:#14322D}
+.un-days-list{margin:0;padding:0;list-style:none;display:grid;gap:.25rem;color:#3D4F49;font-size:.9375rem;line-height:1.45}
+.un-days-list li{display:grid;grid-template-columns:3.5rem 1fr;column-gap:.5rem}
+.un-days-day{font-weight:700;color:#0F5A4F}
+.un-days-role{color:#14322D}
+.un-unit-end{margin:.5rem 0 0;color:#3D4F49;max-width:46rem}
+@media print{.un-days{border-color:#999;background:none}}

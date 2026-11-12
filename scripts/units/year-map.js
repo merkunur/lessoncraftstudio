@@ -82,7 +82,11 @@ function build() {
     const lessons = mine.reduce((n, u) => n + u.lessons.length, 0);
     const pointsTaught = new Set(mine.flatMap((u) => u.lessons.map((l) => l.point))).size;
     const DAYS = PACE.daysPerLesson[grade], TEACHING_WEEKS = PACE.teachingWeeks[grade];
-    const pacedWeeks = Math.round(((lessons * DAYS + mine.length * PACE.unitEndDays) / 5) * 10) / 10;
+    // the units carry their counted class days since Part 4.8 (scripts/units/pacing.js: 2 or 3 days by what each lesson
+    // holds, 3 at the end of a unit); the average of the ruling is used only for a unit that has no count yet, and for
+    // the lessons still to be written (lessonsToFill below)
+    const countedDays = mine.reduce((n, u) => n + (u.days != null ? u.days : u.lessons.length * DAYS + PACE.unitEndDays), 0);
+    const pacedWeeks = Math.round((countedDays / 5) * 10) / 10;
     // the objectives of the national framework for this grade and subject
     const fkey = (MEASURE[loc] || {})[subject];
     const page = pages.find((p) => p.framework === fkey && p.grade === grade && p.status === 'live');

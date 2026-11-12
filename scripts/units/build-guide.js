@@ -24,6 +24,10 @@ const only = arg('unit', '');
 const U = path.join(REPO, 'frontend', 'content', 'units');
 const units = JSON.parse(fs.readFileSync(path.join(U, 'units.' + loc + '.json'), 'utf8')).units.filter((u) => !only || u.id === only);
 const ui = JSON.parse(fs.readFileSync(path.join(U, 'ui.' + loc + '.json'), 'utf8'));
+// the units that have a live unit check (Part 7): only their guide names "the unit check" as the end of the unit
+const checksFile = path.join(REPO, 'frontend', 'content', 'assessments', 'checks.' + loc + '.json');
+const liveChecks = new Set(fs.existsSync(checksFile) ? JSON.parse(fs.readFileSync(checksFile, 'utf8')).checks.filter((c) => c.status === 'live').map((c) => c.unit) : []);
+const hasCheck = (id) => liveChecks.has(id);
 const messages = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'messages', loc + '.json'), 'utf8'));
 const LEVEL_KEY = { P: 'preschool', K: 'kindergarten', 1: 'grade_1', 2: 'grade_2', 3: 'grade_3', 4: 'grade_4', 5: 'grade_5' };
 const PAPER = loc === 'en' || loc === 'es' ? 'Letter' : 'A4';
@@ -43,6 +47,7 @@ function html(unit) {
   const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
   const cover = '<section class="page cover"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.unitWord].join(' · ')) + '</p><h1>' + esc(unit.title) + '</h1><p class="kind">' + esc(ui.guideTitle) + '</p>'
     + '<p class="facts">' + esc(fill(ui.factLessons, { n: unit.lessons.length })) + ' · ' + esc(unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })) + '</p>'
+    + ((hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) ? '<p class="facts">' + esc(hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) + '</p>' : '')
     + '<h2>' + esc(ui.guideGlance) + '</h2><table class="glance"><thead><tr><th></th><th>' + esc(ui.guideColLesson) + '</th><th>' + esc(ui.guideColPages) + '</th><th>' + esc(ui.standardTeaches) + '</th></tr></thead><tbody>' + glance + '</tbody></table>'
     + '<p class="where">' + esc(HOST.replace('https://', '') + '/' + loc + '/units/' + unit.slug) + '</p></section>';
   const lessons = unit.lessons.map((l) => {
@@ -55,7 +60,7 @@ function html(unit) {
     const pics = l.paper.map((p) => '<figure><img src="' + thumb(p.core) + '" alt=""><figcaption>' + esc(p.title) + '</figcaption></figure>').join('');
     const rel = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
     const stds = l.standards.map((s) => '<span class="std"><i>' + esc(rel[s.rel]) + '</i> <b>' + esc([s.framework, s.code].filter(Boolean).join(' ')) + '</b>' + (s.title ? ' ' + esc(s.title) : '') + '</span>').join('');
-    return '<section class="page lesson"><header><p class="no">' + esc(fill(ui.lessonWord, { n: l.n })) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
+    return '<section class="page lesson"><header><p class="no">' + esc(fill(ui.lessonWord, { n: l.n }) + (l.days && ui.lessonDays ? ' · ' + fill(ui.lessonDays, { n: l.days }) : '')) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
       + '<div class="cols"><div><h3>' + esc(ui.guideNeed) + '</h3><ul class="need">' + need.join('') + '</ul></div><div class="pics">' + pics + '</div></div>'
       + '<div class="note"><h3>' + esc(ui.noteTitle) + '</h3><dl><dt>' + esc(ui.noteMistake) + '</dt><dd>' + esc(l.note.mistake) + '</dd><dt>' + esc(ui.noteWords) + '</dt><dd>' + esc(l.note.words) + '</dd><dt>' + esc(ui.noteWatch) + '</dt><dd>' + esc(l.note.watch) + '</dd></dl></div>'
       + '<div class="mine"><h3>' + esc(ui.guideMyNotes) + '</h3><div class="rules"><i></i><i></i><i></i><i></i></div></div>'
@@ -89,9 +94,26 @@ table { border-collapse: collapse; width: 100%; }
 .glance th { text-align: left; font-size: 8.5pt; letter-spacing: 0.05em; text-transform: uppercase; color: #46625b; padding: 0 3mm 1.5mm 0; border-bottom: 1.5pt solid #14332d; }
 .glance td { padding: 2.2mm 3mm 2.2mm 0; border-bottom: 0.5pt solid #b9c7c3; vertical-align: top; }
 .glance td.n { font-family: 'Baloo 2', sans-serif; font-weight: 700; width: 8mm; color: #146b5e; }
-.glance td.s { white-space: nowrap; font-size: 9.5pt; }
-.glance td.s.w { white-space: normal; width: 50mm; }
+.glance td.s { font-size: 9.5pt; width: 62mm; }
+.glance td.s.w { width: 50mm; }
+.glance th:nth-child(2) { width: 52mm; }
+/* a cover whose table would run under the address line (many lessons, long titles) is set tighter */
+.cover.tight .eyebrow { margin-top: 8mm; }
+.cover.tight h1 { font-size: 28pt; }
+.cover.tight h2 { margin-top: 8mm; }
+.cover.tight .glance { font-size: 9.5pt; }
+.cover.tight .glance td { padding: 1.3mm 3mm 1.3mm 0; }
+.cover.tight .glance td.s { font-size: 8.5pt; }
 .cover .where { position: absolute; bottom: 0; left: 0; font-size: 9pt; color: #46625b; }
+/* a lesson sheet that would run past its foot: tighter first, then without the box for own notes */
+.lesson.tight .obj { margin-top: 1.5mm; font-size: 11.5pt; }
+.lesson.tight .stds { margin-top: 2mm; gap: 1mm; }
+.lesson.tight .std { font-size: 8.5pt; padding: 0.3mm 2mm; }
+.lesson.tight .cols { margin-top: 4mm; }
+.lesson.tight .need li { padding-top: 1.1mm; padding-bottom: 1.1mm; }
+.lesson.tight .note { margin-top: 4mm; }
+.lesson.tight .mine { margin-top: 4mm; min-height: 16mm; }
+.lesson.nomine .mine { display: none; }
 .lesson .no { font-size: 11pt; font-weight: 700; color: #146b5e; letter-spacing: 0.04em; text-transform: uppercase; }
 .lesson h2 { font-size: 24pt; margin-top: 1mm; }
 .lesson .obj { margin-top: 2.5mm; font-size: 12.5pt; max-width: 160mm; }
@@ -130,7 +152,25 @@ footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; col
     await page.evaluate(() => document.fonts.ready);
     const broken = await page.evaluate(() => [...document.images].filter((i) => !i.naturalWidth).map((i) => i.src));
     if (broken.length) { console.log('FAIL  ' + unit.id + ': ' + broken.length + ' picture(s) did not load: ' + broken.slice(0, 3).join(', ')); process.exitCode = 1; await page.close(); continue; }
-    // every section must fit on ONE sheet: a lesson that runs over would push its footer onto a second page
+    // every section must fit on ONE sheet, MEASURED: the last thing in the flow of a sheet ends above the line at its
+    // foot (the address on the cover, the footer of a lesson). The cover is set tighter first where it needs it.
+    const runsOver = () => page.evaluate(() => [...document.querySelectorAll('section.page')].map((sec, i) => {
+      // the cover: its table ends above the address line. A lesson sheet and the class record: nothing in the flow
+      // ends below the sheet (the box for the teacher's own notes stretches to the foot by design, so the sheet's
+      // own scroll height is the measure there).
+      const where = sec.querySelector(':scope > .where');
+      if (where) { const limit = where.getBoundingClientRect().top; const end = Math.max(...[...sec.children].filter((c) => c !== where).map((c) => c.getBoundingClientRect().bottom)); return end > limit + 0.5 ? { sheet: i + 1, by: Math.round(end - limit) } : null; }
+      return sec.scrollHeight > sec.clientHeight + 1 ? { sheet: i + 1, by: sec.scrollHeight - sec.clientHeight } : null;
+    }).filter(Boolean));
+    let over = await runsOver();
+    if (over.some((o) => o.sheet === 1)) { await page.evaluate(() => document.querySelector('section.cover').classList.add('tight')); over = await runsOver(); }
+    for (const cls of ['tight', 'nomine']) {
+      const sheets = over.filter((o) => o.sheet > 1).map((o) => o.sheet);
+      if (!sheets.length) break;
+      await page.evaluate((list, c) => { const all = [...document.querySelectorAll('section.page')]; for (const n of list) if (all[n - 1].classList.contains('lesson')) all[n - 1].classList.add(c); }, sheets, cls);
+      over = await runsOver();
+    }
+    if (over.length) { console.log('FAIL  ' + unit.id + ': ' + over.map((o) => 'sheet ' + o.sheet + ' runs ' + o.by + ' px past its foot').join('; ')); process.exitCode = 1; await page.close(); continue; }
     const dir = path.join(REPO, 'out', 'teacher-files', loc, 'units', unit.id);
     fs.mkdirSync(dir, { recursive: true });
     const file = path.join(dir, 'teacher-guide.pdf');

@@ -19,7 +19,9 @@
  *   P5  tier truth no visible string says the material is free (the plan's name comes from the pricing catalogue)
  *   P6  strings    every language's ui file holds exactly the keys of the English one
  *   P8  review     a sub pack takes nothing the plans of its grade teach after the pack's time of year (start: the first
- *                  third of the plan weeks; middle: two thirds), the packs of a grade share no page, and no page belongs to a holiday
+ *                  third of the plan's class days; middle: two thirds), the packs of a grade share no page, and no page belongs to a holiday
+ *   P9  pacing     every lesson says the class days it carries by what it holds (scripts/units/pacing.js), a unit its
+ *                  days and weeks counted from them, and no unit description names another number of weeks
  */
 'use strict';
 const fs = require('fs');
@@ -28,6 +30,9 @@ const REPO = path.join(__dirname, '..', '..');
 const C = path.join(REPO, 'frontend', 'content');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
+// strings a language may still lack while its teacher has not read them (the page leaves the sentence out where the
+// key is missing); empty since the day plan of Part 4.8 was read in German and Swedish
+const ENGLISH_FIRST = new Set([]);
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
 const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i,
   de: /(?<!kein )(?<!keinem )\b(ganze[sn]?|gesamte[sn]?|komplette[sn]?|volle[sn]?) (Schul)?jahr\b|\bfürs ganze Jahr\b|\b(36|38|40) Wochen\b/i,
@@ -38,6 +43,10 @@ const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8'
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
 const { planWeeks, refused, HOLIDAY_PAGE, packShape } = require('../sub-plans/position.js');
+const PACE = require('./pacing.js');
+// the week count a description names in words (the three languages that have units), for P9
+const WEEK_WORDS = { en: ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'], de: ['', 'eine', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn'], sv: ['', 'en', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio'] };
+const WEEK_RE = { en: /\b(?:an?) (one|two|three|four|five|six|seven|eight|nine|ten)-week\b/i, de: /^(eine) Woche\b|^(zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn) Wochen\b/i, sv: /cirka (en) vecka|cirka (två|tre|fyra|fem|sex|sju|åtta|nio|tio) veckor/i };
 function load() {
   const all = readJson(path.join(C, 'teaching-graph', 'points.json')).points;
   const d = { points: new Set(all.map((p) => p.id)), pointById: new Map(all.map((p) => [p.id, p])), loc: {} };
@@ -77,6 +86,12 @@ function run(d) {
     for (const u of L.units) {
       const w = l + ' unit ' + u.id;
       if (u.lessons.length < 4) fail('P3', w + ': ' + u.lessons.length + ' lessons (at least 4)');
+      // P9: the days and the weeks are the counted ones
+      for (const x of u.lessons) if (x.days !== PACE.lessonDays(u.grade, x)) fail('P9', w + ' lesson ' + x.n + ': says ' + x.days + ' class days, its material carries ' + PACE.lessonDays(u.grade, x));
+      if (u.days !== PACE.unitDays(u.grade, u.lessons)) fail('P9', w + ': says ' + u.days + ' days, its lessons carry ' + PACE.unitDays(u.grade, u.lessons));
+      const counted = PACE.unitWeeks(u.grade, u.lessons, { loc: l, subject: u.subject });
+      if (u.weeks !== counted) fail('P9', w + ': says ' + u.weeks + ' weeks, counted ' + counted);
+      if (WEEK_RE[l]) { const m = WEEK_RE[l].exec(u.metaDescription || ''); const named = m ? WEEK_WORDS[l].indexOf((m[1] || m[2]).toLowerCase()) : null; if (named != null && named !== u.weeks) fail('P9', w + ': the description names ' + named + ' week(s), the unit takes ' + u.weeks); }
       for (const x of u.lessons) {
         const lw = w + ' lesson ' + x.n;
         if (!d.points.has(x.point)) fail('P2', lw + ': ' + x.point + ' is no teaching point');
@@ -161,7 +176,7 @@ function run(d) {
     for (const [name, ui, base] of [['units/ui', L.uiU, d.loc.en && d.loc.en.uiU], ['sub-plans/ui', L.uiS, d.loc.en && d.loc.en.uiS]]) {
       if (!ui) { if ((name === 'units/ui' ? L.units : L.packs).length) fail('P6', l + ': no ' + name + ' file'); continue; }
       for (const [k, v] of Object.entries(ui)) { if (typeof v !== 'string' || !v.trim()) fail('P6', l + ' ' + name + ': "' + k + '" is empty'); else if (FREE[l].test(v)) fail('P5', l + ' ' + name + ': "' + k + '" says free'); }
-      if (base && l !== 'en') { const a = Object.keys(base).sort().join('|'), b = Object.keys(ui).sort().join('|'); if (a !== b) fail('P6', l + ' ' + name + ': its keys are not the keys of the English file'); }
+      if (base && l !== 'en') { const keys = (o) => Object.keys(o).filter((k) => !ENGLISH_FIRST.has(k)).sort().join('|'); const a = keys(base), b = keys(ui); if (a !== b) fail('P6', l + ' ' + name + ': its keys are not the keys of the English file'); }
     }
   }
   return fails;
@@ -174,6 +189,9 @@ const POISONS = [
   ['a lesson on a teaching point that does not exist', 'P2', (d) => { d.loc.en.units[0].lessons[0].point = '9:nothing'; }],
   ['a block on a teaching point that does not exist', 'P2', (d) => { d.loc.en.packs[0].blocks[0].point = '9:nothing'; }],
   ['a unit of three lessons', 'P3', (d) => { d.loc.en.units[0].lessons.length = 3; }],
+  ['a lesson that claims a third day without the material', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2); x.days = 3; }],
+  ['a unit that says two weeks', 'P9', (d) => { const u = d.loc.en.units.find((y) => y.weeks > 2); u.weeks = 2; }],
+  ['a description that names the old length', 'P9', (d) => { const u = d.loc.en.units.find((y) => /\b[Aa]n? \w+-week\b/.test(y.metaDescription) && y.weeks !== 2); u.metaDescription = u.metaDescription.replace(/\b([Aa])n? \w+-week\b/, '$1 two-week'); }],
   ['a lesson with one worksheet and nothing else', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; delete x.screen; }],
   ['a lesson whose only screen practice is the very page it hands out', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; x.screen = { kind: 'page', slug: x.paper[0].core, title: x.paper[0].title }; }],
   ['a note whose words to use quote nothing', 'P3', (d) => { d.loc.en.units[0].lessons[1].note.words = 'Use clear language and encourage the children to explain their thinking.'; }],

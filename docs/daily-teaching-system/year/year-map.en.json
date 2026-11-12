@@ -25,7 +25,7 @@
     "units": 6,
     "lessons": 30,
     "teachingPoints": 30,
-    "planWeeks": 7,
+    "planWeeks": 16,
     "pacedWeeks": 15.6
    },
    "objectives": {
@@ -162,7 +162,7 @@
     "units": 4,
     "lessons": 22,
     "teachingPoints": 22,
-    "planWeeks": 7,
+    "planWeeks": 11,
     "pacedWeeks": 11.2
    },
    "objectives": {
@@ -631,8 +631,8 @@
     "units": 6,
     "lessons": 32,
     "teachingPoints": 32,
-    "planWeeks": 8,
-    "pacedWeeks": 19.6
+    "planWeeks": 20,
+    "pacedWeeks": 20.2
    },
    "objectives": {
     "framework": "ccss-math",
@@ -644,8 +644,8 @@
    },
    "teachingWeeks": 28,
    "gap": {
-    "weeks": 8.4,
-    "lessonsNeeded": 14,
+    "weeks": 7.8,
+    "lessonsNeeded": 13,
     "idleTeachingPoints": 9,
     "fromStandardsThatNeedMore": 27,
     "fromOpenObjectives": 7
@@ -795,8 +795,8 @@
     "units": 3,
     "lessons": 19,
     "teachingPoints": 19,
-    "planWeeks": 5,
-    "pacedWeeks": 11.3
+    "planWeeks": 11,
+    "pacedWeeks": 10.6
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -808,8 +808,8 @@
    },
    "teachingWeeks": 28,
    "gap": {
-    "weeks": 16.7,
-    "lessonsNeeded": 28,
+    "weeks": 17.4,
+    "lessonsNeeded": 29,
     "idleTeachingPoints": 2,
     "fromStandardsThatNeedMore": 0,
     "fromOpenObjectives": 51
@@ -1291,7 +1291,7 @@
     "units": 6,
     "lessons": 34,
     "teachingPoints": 34,
-    "planWeeks": 9,
+    "planWeeks": 19,
     "pacedWeeks": 20.6
    },
    "objectives": {
@@ -1498,8 +1498,8 @@
     "units": 3,
     "lessons": 18,
     "teachingPoints": 18,
-    "planWeeks": 6,
-    "pacedWeeks": 10.8
+    "planWeeks": 9,
+    "pacedWeeks": 9.2
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -1511,8 +1511,8 @@
    },
    "teachingWeeks": 28,
    "gap": {
-    "weeks": 17.2,
-    "lessonsNeeded": 29,
+    "weeks": 18.8,
+    "lessonsNeeded": 32,
     "idleTeachingPoints": 3,
     "fromStandardsThatNeedMore": 0,
     "fromOpenObjectives": 50
@@ -1985,8 +1985,8 @@
     "units": 7,
     "lessons": 41,
     "teachingPoints": 41,
-    "planWeeks": 10,
-    "pacedWeeks": 24.7
+    "planWeeks": 24,
+    "pacedWeeks": 24.4
    },
    "objectives": {
     "framework": "ccss-math",
@@ -1998,7 +1998,7 @@
    },
    "teachingWeeks": 26,
    "gap": {
-    "weeks": 1.3,
+    "weeks": 1.6,
     "lessonsNeeded": 3,
     "idleTeachingPoints": 2,
     "fromStandardsThatNeedMore": 39,
@@ -2207,7 +2207,7 @@
     "lessons": 4,
     "teachingPoints": 4,
     "planWeeks": null,
-    "pacedWeeks": 2.6
+    "pacedWeeks": 2.2
    },
    "objectives": {
     "framework": "ccss-ela",
@@ -2219,8 +2219,8 @@
    },
    "teachingWeeks": 26,
    "gap": {
-    "weeks": 23.4,
-    "lessonsNeeded": 39,
+    "weeks": 23.8,
+    "lessonsNeeded": 40,
     "idleTeachingPoints": 1,
     "fromStandardsThatNeedMore": 0,
     "fromOpenObjectives": 74

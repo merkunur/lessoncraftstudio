@@ -1,0 +1,102 @@
+{
+ "$comment": "One reviewer as a US K-3 teacher, a German Grundschullehrerin and a Swedish lågstadielärare read the day plan of Part 4.8 (2026-11-12): the strings, the sample plans and the pacing rule. Applied by the session that asked; what was not applied is in docs/daily-teaching-system/PLAN.md.",
+ "en": {
+  "strings": {
+   "dayRole3": "Reteach and extend",
+   "dayRespond": "Act on the check-up pages: reteach the children who are not there yet, with the tool and a new page from the maker; the others take a harder page.",
+   "unitEndOwn": "The unit ends with three more days: a review day, a day for your own unit check, and a day to act on what the check showed.",
+   "dayRole2NoCheck": "Practice"
+  },
+  "kept": [
+   "lessonWord",
+   "dayWord",
+   "lessonDays",
+   "dayRole1",
+   "dayRole2",
+   "unitEnd",
+   "factWeeks"
+  ],
+  "rulingB": "No problem in English: 'Lesson 4 · 3 class days' is how a US teacher's guide talks (a lesson that runs over several days). Keep lessonDays '{n} class days' and dayWord 'Day {n}'.",
+  "findings": [
+   "dayRole3 'Respond' is half of a jargon phrase ('respond to the data') and does not say what happens on the day; a US teacher calls this day 'Reteach and extend', which also matches the sentence that follows.",
+   "dayRespond: American spelling is 'reteach' with no hyphen (Merriam-Webster); the rest of the sentence is natural and stays.",
+   "unitEndOwn: 'your own check of the unit' is stiff; the page already uses the term 'unit check', so 'your own unit check' is what a teacher would say."
+  ],
+  "samplePlan": [
+   "Lesson 2, Day 2 ('Practice and check: Practice on screen · Check-up page') has no paper practice at all, so a full class day holds one screen task and a five-minute exit ticket; when a lesson has no easier/harder page, Day 2 should also name the maker, for example a line 'More pages from the maker'.",
+   "Lesson 3, Day 2 is headed 'Practice and check' but the lesson has no check-up page; this is the case the new string 'Practice' must cover (confirmed).",
+   "Lesson 4: Day 2 already hands out the Harder page, then Day 3 says 'the others take a harder page'; the strong children have done that page the day before, so the teacher has to make a new one with the maker. The sentence is not wrong ('a harder page'), but a teacher will ask which page; only reword if the maker can really make a harder page."
+  ]
+ },
+ "de": {
+  "strings": {
+   "unitEnd": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, die Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
+   "unitEndOwn": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, deine eigene Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
+   "dayRole2NoCheck": "Üben"
+  },
+  "kept": [
+   "dayWord",
+   "lessonDays",
+   "dayRole1",
+   "dayRole2",
+   "dayRole3",
+   "dayRespond",
+   "factWeeks",
+   "unitWord"
+  ],
+  "rulingB": "Not clean, but the fault is in lessonWord, not in lessonDays. 'Unterrichtstage' is a correct, common word and 'Tag {n}' is right; keep lessonDays '{n} Unterrichtstage' and dayWord 'Tag {n}'. Do NOT switch to counting 'Unterrichtsstunden': 'Stunde 4 · 3 Unterrichtsstunden' with 'Stunde 1, 2, 3' inside would be worse. Days are also the safer unit because a day can be a double period.",
+  "findings": [
+   "unitEnd / unitEndOwn: a Lernkontrolle of a whole class gives 'Ergebnisse' (plural); 'mit dem Ergebnis weiterarbeiten' reads like one single result.",
+   "dayRole3 'Fördern und fordern' is exactly the Grundschule idiom for this day; dayRole1 'Einführen' and dayRole2 'Üben und kontrollieren' are natural and fit 'Kontrollblatt'.",
+   "dayRespond is correct du-form, natural, and uses 'Werkzeug' and 'Generator' the same way as the rest of the unit page; no change.",
+   "B: 'Stunde 4 · 3 Unterrichtstage' makes a German teacher stumble, because 'Stunde' means one 45-minute period; she understands it only by reading 'Stunde' as 'lesson topic'."
+  ],
+  "notes": [
+   "lessonWord (site-wide, not changed here): 'Stunde {n}' is the real source of the clash. With pacing printed, a unit page now says in effect '8 Stunden' and 'etwa 5 Wochen', which a German teacher reads as 8 periods = under 2 weeks. The usual words for a block of several periods inside an Unterrichtseinheit are 'Baustein {n}' (most common in Grundschule material) or 'Lernschritt {n}'. Recommend changing lessonWord to 'Baustein {n}' at the next touch, together with 'Stunden' in hubLead and insideMakers."
+  ],
+  "samplePlan": [
+   "Stunde 2, Tag 2 ('Üben und kontrollieren: Kontrollblatt') names only the Kontrollblatt: there is nothing to practise on a day called 'Üben', and a Kontrollblatt fills ten minutes, not a period. When a lesson has no leichteres/schwereres Blatt, Tag 2 should also name the Generator, for example 'Weitere Blätter aus dem Generator'.",
+   "Stunde 3, Tag 2 is headed 'Üben und kontrollieren' but has no Kontrollblatt; here the new word 'Üben' must be used (confirmed).",
+   "Stunde 4: the Schwereres Blatt is already listed on Tag 2, and Tag 3 says 'die anderen bekommen ein schwereres Blatt'; the strong children then need a new one from the Generator. Not wrong, but the teacher will ask which page."
+  ],
+  "pacing": "fits"
+ },
+ "sv": {
+  "strings": {
+   "lessonDays": "{n} dagar",
+   "dayRespond": "Utgå från avstämningsbladen: de elever som inte är säkra än arbetar en gång till med verktyget på storskärmen och ett nytt arbetsblad från ”Gör fler”; de andra får ett svårare blad.",
+   "dayRole2NoCheck": "Öva"
+  },
+  "kept": [
+   "lessonWord",
+   "dayWord",
+   "dayRole1",
+   "dayRole2",
+   "dayRole3",
+   "unitEnd",
+   "unitEndOwn",
+   "factWeeks",
+   "unitWord"
+  ],
+  "rulingB": "'lektionsdagar' is not a word Swedish teachers use (they say skoldagar or just dagar), and it repeats 'Lektion' right after 'Lektion 3'. Use lessonDays '{n} dagar' and keep dayWord 'Dag {n}'. Do not count 'lektioner' or 'lektionspass': 'Lektion 3 · 3 lektioner' contradicts itself.",
+  "findings": [
+   "lessonDays: 'lektionsdagar' is a coined compound that no Swedish teacher says; plain 'dagar' is correct and is already the word used in unitEnd ('tre dagar till').",
+   "dayRespond: on the Swedish page 'verktyg' means BOTH the big-screen tool ('verktyg att visa på storskärm') and the worksheet maker ('Gör fler ... med verktyget'), so 'med verktyget och ett nytt arbetsblad' does not say which one, and the source of the new page (the maker) was dropped from the English. The fix names the big-screen tool and points to the page's own heading 'Gör fler'.",
+   "dayRole1 'Genomgång', dayRole2 'Öva och stäm av', dayRole3 'Följ upp' are what a lågstadielärare says; the noun plus two imperatives mix is normal in Swedish planning.",
+   "unitEnd and unitEndOwn are correct and natural ('kunskapskollen', 'din egen avstämning av arbetsområdet')."
+  ],
+  "notes": [
+   "lessonWord (not changed): 'Lektion {n}' has the same weakness as German 'Stunde': a lektion is one session of 40 to 60 minutes, so 'Lektion 3 · 3 dagar' is loose usage. It is tolerable because hubLead already calls an arbetsområde 'en kort lektionsserie'; if it is ever changed, 'Moment {n}' is the natural word for one part of an arbetsområde.",
+   "Swedish schools do not always have mathematics every day (the timetable gives about 4 to 5 lessons a week in årskurs 1 to 3), so 'Dag' really means 'one mathematics lesson'; 'cirka {n} veckor' covers the difference."
+  ],
+  "samplePlan": [
+   "Lektion 4, Dag 2 ('Öva och stäm av: Öva på skärm') has no avstämningsblad and no paper page: the heading must be 'Öva' (confirmed) and the day is too thin with only a screen task; name the maker here, for example 'Fler arbetsblad från ”Gör fler”'.",
+   "Lektion 2, Dag 2 ('Öva på skärm · Avstämningsblad') has no paper practice either; same remedy.",
+   "Lektion 3: 'Svårare blad' is already on Dag 2, and Dag 3 says 'de andra får ett svårare blad'; the strong pupils need a new one. Not wrong, but the teacher will ask which page."
+  ],
+  "pacing": {
+   "change": "Årskurs 1 to 3: fits (2 or 3 days per lesson, 3 unit-end days, weeks = days / 5). Förskoleklass: keep 2 days per lesson and 3 unit-end days, but compute weeks for MATHEMATICS units as days / 3 instead of days / 5 (literacy units can stay at / 5).",
+   "why": "Förskoleklass has no timetable by subject and mathematics is normally 2 to 3 sessions a week, not a daily lesson, so a unit printed as 'cirka 3 veckor' takes about 5 in practice; daily language sessions are common, so literacy is fine. This is from classroom practice, not from a regulation, so treat it as a teacher's judgement."
+  }
+ }
+}

@@ -30,6 +30,8 @@ export interface UnitLesson {
   exit?: { slug: string; title: string };
   maker?: { id: string; name: string; slug: string; template: string };
   note: { mistake: string; words: string; watch: string };
+  /** the class days the lesson carries by what it holds: 2, or 3 where it has a tool, levels and a maker (scripts/units/pacing.js) */
+  days?: number;
 }
 export interface Unit {
   id: string;

@@ -36,8 +36,9 @@ const BANNED = {
   // (VERA, Vergleichsarbeiten, Lernstandserhebung, Kompetenztest): a check of ours is a classroom check
   de: /(?<!\p{L})(kostenlos\p{L}*|gratis|prozentrang\p{L}*|diagnos\p{L}*|vera|vergleichsarbeit\p{L}*|lernstandserhebung\p{L}*|kompetenztest\p{L}*)(?!\p{L})/iu,
 };
-const NOT_STANDARDIZED = { en: /\bnot a standardized test\b/i, de: /(?<!\p{L})kein standardisierter Test(?!\p{L})/i };
-const STANDARDIZED = { en: /\bstandardi[sz]ed\b/gi, de: /standardisiert\p{L}*/giu };
+BANNED.sv = /(?<!\p{L})(gratis|kostnadsfri\p{L}*|percentil\p{L}*|diagnos\p{L}*|nationell\p{L}* prov\p{L}*|bedömningsstöd\p{L}*|kartläggning\p{L}*)(?!\p{L})/iu;   // Swedish: also the names of Skolverket's own materials
+const NOT_STANDARDIZED = { en: /\bnot a standardized test\b/i, de: /(?<!\p{L})kein standardisierter Test(?!\p{L})/i, sv: /(?<!\p{L})inget standardiserat test(?!\p{L})/i };
+const STANDARDIZED = { en: /\bstandardi[sz]ed\b/gi, de: /standardisiert\p{L}*/giu, sv: /standardisera\p{L}*/giu };
 
 function load() {
   const d = {};

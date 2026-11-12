@@ -271,6 +271,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
       for (const p of l.paper || []) {
         const file = typeFiles.get(p.type);
         if (!file || !strings[p.type]) continue;
+        if ((rules.dropType || {})[p.type]) { why.push(p.type + ': left out by a ruling (' + rules.dropType[p.type].slice(0, 60) + '…)'); continue; }
         // the cards a form may choose from: the worksheet page of a type built with SEEDS seeds of the form
         const poolOf = async (typeId, form) => {
           const file = typeFiles.get(typeId), type = require(file), p = { type: typeId };
@@ -396,14 +397,33 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
       if (cut.some(Boolean)) {
         cut.forEach((is, i) => { if (is) for (const k of ['A', 'B']) sections[k][i].h = Math.max(...sections[k][i].cards.map((c) => c.h)); });
         await load(path.join(dir, '_probe.html'), pageHtml(title, sections[form], 1, { pageHeight: 9000 }));
+        const still = await page.evaluate(() => [...document.querySelectorAll('.tc-section')].map((sec) => [...sec.querySelectorAll('[data-tc-unit]')].some((c) => c.scrollHeight > c.clientHeight + 2 || c.scrollWidth > c.clientWidth + 2)));
+        if (still.some(Boolean)) return { cutOff: still.map((is, i) => (is ? i : -1)).filter((i) => i >= 0) };
       }
       const child = await tallOf();
       // the key of a part can be taller than the child's page (a note for the teacher under the direction): one packing serves both
       await load(path.join(dir, '_probe.html'), pageHtml(title, sections[form], 1, { pageHeight: 9000, keyLabel: ui.keyLabel }));
       const key = await tallOf();
+      // … and the key card of a box can be wider than the box of the child (a written-in answer): a part cut off there is left out too
+      const keyCut = await page.evaluate(() => [...document.querySelectorAll('.tc-section')].map((sec) => [...sec.querySelectorAll('[data-tc-unit]')].some((c) => c.scrollHeight > c.clientHeight + 2 || c.scrollWidth > c.clientWidth + 2)));
+      if (keyCut.some(Boolean)) return { cutOff: keyCut.map((is, i) => (is ? i : -1)).filter((i) => i >= 0) };
       return { cap, heights: child.map((h, i) => Math.max(h, key[i])) };
     };
-    let mA = await measure('A'); const hBefore = JSON.stringify(sections.A.map((x) => x.h)); const mB = await measure('B'); if (JSON.stringify(sections.A.map((x) => x.h)) !== hBefore) mA = await measure('A');
+    let mA, mB;
+    for (;;) {
+      mA = await measure('A'); const hBefore = JSON.stringify(sections.A.map((x) => x.h)); mB = mA.cutOff ? mA : await measure('B');
+      const off = mA.cutOff || mB.cutOff;
+      if (off) {
+        // (the part goes; its lesson joins the lessons that are not in the check)
+        for (const i of off.slice().sort((x, y) => y - x)) { const gone = sections.A[i]; if (has('debug')) console.log('      lesson ' + gone.lesson + ' has no section: a box of ' + gone.type + ' is cut off inside its card even at the size it has on its worksheet'); left.push(gone.lesson); sections.A.splice(i, 1); sections.B.splice(i, 1); }
+        left.sort((x, y) => x - y);
+        if (sections.A.length < MIN_SECTIONS) break;
+        continue;
+      }
+      if (JSON.stringify(sections.A.map((x) => x.h)) !== hBefore) mA = await measure('A');
+      break;
+    }
+    if (sections.A.length < MIN_SECTIONS) { console.log('--    ' + u.id + ': ' + sections.A.length + ' lesson(s) with cards after a part was left out; no check'); fs.rmSync(dir, { recursive: true, force: true }); continue; }
     const cap = Math.min(mA.cap, mB.cap);
     const heights = mA.heights.map((h, i) => Math.max(h, mB.heights[i]));
     if (has('debug')) console.log('      a page holds ' + cap + ' px; sections ' + heights.join(', '));

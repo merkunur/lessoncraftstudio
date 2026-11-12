@@ -17,10 +17,24 @@
     "width": 640,
     "height": 828
    },
+   "plan": {
+    "slug": "grade-1-math-scope-and-sequence",
+    "title": "Grade 1 Math Scope and Sequence",
+    "src": "/teaching-looks/en/g1-plan.825737be.webp",
+    "width": 640,
+    "height": 828
+   },
    "check": {
     "slug": "addition-and-subtraction-within-10-grade-1-unit",
     "title": "Addition and Subtraction Within 10",
     "src": "/teaching-looks/en/g1-check.660a05f8.webp",
+    "width": 640,
+    "height": 828
+   },
+   "standards": {
+    "slug": "common-core-1st-grade-math-standards",
+    "title": "Common Core First Grade Math Standards: Checklist with Lessons",
+    "src": "/teaching-looks/en/standards-common-core-1st-grade-math-standards.7c000677.webp",
     "width": 640,
     "height": 828
    }
@@ -40,10 +54,24 @@
     "width": 640,
     "height": 828
    },
+   "plan": {
+    "slug": "grade-2-math-scope-and-sequence",
+    "title": "Grade 2 Math Scope and Sequence",
+    "src": "/teaching-looks/en/g2-plan.a84bc0b5.webp",
+    "width": 640,
+    "height": 828
+   },
    "check": {
     "slug": "place-value-to-1000-grade-2-unit",
     "title": "Place Value to 1,000",
     "src": "/teaching-looks/en/g2-check.230b912f.webp",
+    "width": 640,
+    "height": 828
+   },
+   "standards": {
+    "slug": "common-core-2nd-grade-math-standards",
+    "title": "Common Core Second Grade Math Standards: Checklist with Lessons",
+    "src": "/teaching-looks/en/standards-common-core-2nd-grade-math-standards.02cdca96.webp",
     "width": 640,
     "height": 828
    }
@@ -63,10 +91,24 @@
     "width": 640,
     "height": 828
    },
+   "plan": {
+    "slug": "grade-3-math-scope-and-sequence",
+    "title": "Grade 3 Math Scope and Sequence",
+    "src": "/teaching-looks/en/g3-plan.ad4d26b2.webp",
+    "width": 640,
+    "height": 828
+   },
    "check": {
     "slug": "starting-multiplication-grade-3-unit",
     "title": "Starting Multiplication",
     "src": "/teaching-looks/en/g3-check.34039a4e.webp",
+    "width": 640,
+    "height": 828
+   },
+   "standards": {
+    "slug": "common-core-3rd-grade-math-standards",
+    "title": "Common Core Third Grade Math Standards: Checklist with Lessons",
+    "src": "/teaching-looks/en/standards-common-core-3rd-grade-math-standards.38d210dd.webp",
     "width": 640,
     "height": 828
    }
@@ -86,10 +128,24 @@
     "width": 640,
     "height": 828
    },
+   "plan": {
+    "slug": "kindergarten-math-scope-and-sequence",
+    "title": "Kindergarten Math Scope and Sequence",
+    "src": "/teaching-looks/en/gk-plan.bd43086d.webp",
+    "width": 640,
+    "height": 828
+   },
    "check": {
     "slug": "position-words-size-and-patterns-kindergarten-unit",
     "title": "Position Words, Size, and Patterns",
     "src": "/teaching-looks/en/gk-check.857b4721.webp",
+    "width": 640,
+    "height": 828
+   },
+   "standards": {
+    "slug": "common-core-kindergarten-math-standards",
+    "title": "Common Core Kindergarten Math Standards: Checklist with Lessons",
+    "src": "/teaching-looks/en/standards-common-core-kindergarten-math-standards.ff5b60e8.webp",
     "width": 640,
     "height": 828
    }

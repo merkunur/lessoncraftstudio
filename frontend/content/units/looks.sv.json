@@ -10,12 +10,26 @@
     "width": 640,
     "height": 906
    },
+   "plan": {
+    "slug": "planering-matematik-ak-1",
+    "title": "Matematik åk 1: planering för 20 veckor",
+    "src": "/teaching-looks/sv/g1-plan.92c7373b.webp",
+    "width": 640,
+    "height": 906
+   },
    "check": {
     "slug": "addition-och-subtraktion-0-10-ak-1",
     "title": "Addition och subtraktion 0–10",
     "src": "/teaching-looks/sv/g1-check.53cef313.webp",
     "width": 640,
     "height": 906
+   },
+   "standards": {
+    "slug": "centralt-innehall-matematik-ak-1-3",
+    "title": "Centralt innehåll i matematik åk 1–3: översikt med lektioner",
+    "src": "/teaching-looks/sv/standards-centralt-innehall-matematik-ak-1-3.090e0100.webp",
+    "width": 640,
+    "height": 828
    }
   },
   "2": {
@@ -26,12 +40,26 @@
     "width": 640,
     "height": 906
    },
+   "plan": {
+    "slug": "planering-matematik-ak-2",
+    "title": "Matematik åk 2: planering för 22 veckor",
+    "src": "/teaching-looks/sv/g2-plan.b98dc9aa.webp",
+    "width": 640,
+    "height": 906
+   },
    "check": {
     "slug": "talen-0-100-tiotal-och-ental-ak-2",
     "title": "Talen 0–100: tiotal och ental",
     "src": "/teaching-looks/sv/g2-check.dc92a66d.webp",
     "width": 640,
     "height": 906
+   },
+   "standards": {
+    "slug": "centralt-innehall-matematik-ak-1-3",
+    "title": "Centralt innehåll i matematik åk 1–3: översikt med lektioner",
+    "src": "/teaching-looks/sv/standards-centralt-innehall-matematik-ak-1-3.090e0100.webp",
+    "width": 640,
+    "height": 828
    }
   },
   "3": {
@@ -42,12 +70,26 @@
     "width": 640,
     "height": 906
    },
+   "plan": {
+    "slug": "planering-matematik-ak-3",
+    "title": "Matematik åk 3: planering för 23 veckor",
+    "src": "/teaching-looks/sv/g3-plan.fbb08f6c.webp",
+    "width": 640,
+    "height": 906
+   },
    "check": {
     "slug": "talen-0-1000-hundratal-tiotal-och-ental-ak-3",
     "title": "Talen 0–1000: hundratal, tiotal och ental",
     "src": "/teaching-looks/sv/g3-check.92edb550.webp",
     "width": 640,
     "height": 906
+   },
+   "standards": {
+    "slug": "centralt-innehall-matematik-ak-1-3",
+    "title": "Centralt innehåll i matematik åk 1–3: översikt med lektioner",
+    "src": "/teaching-looks/sv/standards-centralt-innehall-matematik-ak-1-3.090e0100.webp",
+    "width": 640,
+    "height": 828
    }
   },
   "K": {
@@ -58,12 +100,26 @@
     "width": 640,
     "height": 906
    },
+   "plan": {
+    "slug": "planering-matematik-forskoleklass",
+    "title": "Matematik förskoleklass: planering för 23 veckor",
+    "src": "/teaching-looks/sv/gk-plan.f8c7aa6d.webp",
+    "width": 640,
+    "height": 906
+   },
    "check": {
     "slug": "lage-storlek-och-monster-forskoleklass",
     "title": "Läge, storlek och mönster",
     "src": "/teaching-looks/sv/gk-check.34393fb5.webp",
     "width": 640,
     "height": 906
+   },
+   "standards": {
+    "slug": "centralt-innehall-matematik-ak-1-3",
+    "title": "Centralt innehåll i matematik åk 1–3: översikt med lektioner",
+    "src": "/teaching-looks/sv/standards-centralt-innehall-matematik-ak-1-3.090e0100.webp",
+    "width": 640,
+    "height": 828
    }
   }
  }

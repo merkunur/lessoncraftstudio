@@ -1,0 +1,92 @@
+/* The Teaching Wing (Part 11.7): the hang of four doors and the text under each frame.
+   Everything else the room wears comes from homepage-v10.css. One composition at every width: the four frames are
+   one row from 880 px, two rows of two below, and they stay two across on the smallest phone (a single column of
+   four tall pages would be four screens of scrolling before the worksheets). */
+.hv10-tw-grades {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  margin: 18px 0 0;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+}
+.hv10-tw-grades-label {
+  margin-right: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2F4A40;
+}
+.hv10-tw-grade {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 18px;
+  border: 2px solid #3E5B4F;
+  border-radius: 999px;
+  background: #FDFBF6;
+  color: #14322D;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.hv10-tw-grade:hover,
+.hv10-tw-grade:focus-visible { background: #3E5B4F; color: #FDFBF6; }
+
+.hv10-tw-doors {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(22px, 3vw, 36px) clamp(14px, 2.4vw, 30px);
+  margin: clamp(26px, 3.4vw, 44px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 880px) {
+  .hv10-tw-doors { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.hv10-tw-door { min-width: 0; }
+.hv10-tw-frame-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.hv10-tw-frame-link:hover { transform: translateY(-5px); }
+.hv10-tw-door .hv10-work-frame { aspect-ratio: 640 / 828; rotate: 0deg; }
+.hv10-tw-door .hv10-work-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: #FDFBF6;
+  box-shadow: 0 0 0 3px #F7F1E4, 0 0 0 4px rgba(80, 55, 30, 0.34);
+}
+.hv10-tw-title {
+  margin: 14px 0 0;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hv10-tw-title a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #14322D;
+  text-decoration: underline;
+  text-decoration-color: #F2784B;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.hv10-tw-title a:hover { color: #0F5A4F; }
+.hv10-tw-text {
+  margin: 2px 0 0;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(14px, 1.05vw, 16px);
+  line-height: 1.5;
+  color: #46504A;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hv10-tw-frame-link, .hv10-tw-grade { transition: none; }
+  .hv10-tw-frame-link:hover { transform: none; }
+}

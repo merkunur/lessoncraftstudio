@@ -22,7 +22,7 @@ const LEVEL_MSG: Record<string, string> = { P: 'preschool', K: 'kindergarten', '
 export interface TeachingLessonRef { unitSlug: string; unitTitle: string; grade: string; gradeLabel: string; lesson: number; lessonTitle: string }
 /** one picture of a real page of a Teacher-plan file (content/units/looks.<language>.json, scripts/units/build-looks.js) */
 export interface TeachingLookItem { slug: string; title: string; src: string; width: number; height: number }
-export interface TeachingLookSet { unit?: TeachingLookItem; pack?: TeachingLookItem; check?: TeachingLookItem }
+export interface TeachingLookSet { unit?: TeachingLookItem; pack?: TeachingLookItem; check?: TeachingLookItem; plan?: TeachingLookItem; standards?: TeachingLookItem }
 
 const looksCache = new Map<string, Record<string, TeachingLookSet> | null>();
 /** the pictures of a language by grade, or null where the language has none */

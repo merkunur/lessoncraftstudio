@@ -7,6 +7,11 @@
  *   unit   the first lesson sheet of the teacher guide of the first unit of the grade's mathematics plan
  *   pack   the first page (the day at a glance) of the guest teacher pages of the grade's first sub plan
  *   check  the first teacher page of the unit check of that unit (or of the grade's first live check)
+ *   plan   the scope and sequence of the grade's mathematics plan: the units week by week with their standards
+ *   standards  the top of the grade's mathematics standards checklist, a PAGE of the site and not a file: it is
+ *          photographed on the LIVE site at 640 px (the QA header of scripts/lib/qa-header.js), so the page must be
+ *          deployed before its picture can be made. A live page does not render to the same bytes twice, so
+ *          --check does not re-take these pictures: it keeps the entry of the committed file.
  *
  *   node scripts/units/build-looks.js --loc=en [--check]
  *     reads   out/teacher-files/<loc>/…           (built by build-guide.js, sub-plans/build-pack.js, assessments/build-teacher-pages.js)
@@ -54,6 +59,36 @@ function renderPage(pdf, pageIndex) {
   const byId = new Map(liveUnits.map((u) => [u.id, u]));
   fs.mkdirSync(OUT, { recursive: true });
   const looks = {}; const made = [];
+  // the standards checklists of the language: the mathematics page of a grade is the one whose grade is the unit
+  // grade or a range that holds it (German and Swedish checklists cover several years), else the first one
+  const cpPath = path.join(C, 'curriculum-pages', 'pages.' + loc + '.json');
+  const cpAll = fs.existsSync(cpPath) ? readJson(cpPath) : null;
+  const cPages = (cpAll ? (cpAll.pages || cpAll) : []).filter((p) => p.status === 'live' && p.subject === 'math');
+  const holds = (g, grade) => String(g).split(',').some((part) => { const m = /^(\d)-(\d)$/.exec(part); return part === grade || (m && +grade >= +m[1] && +grade <= +m[2]); });
+  const checklistOf = (grade) => cPages.find((p) => holds(p.grade, grade)) || cPages[0] || null;
+  const committed = fs.existsSync(path.join(C, 'units', 'looks.' + loc + '.json')) ? readJson(path.join(C, 'units', 'looks.' + loc + '.json')).looks : {};
+  const shot = new Map(); // checklist slug → the entry made for it in this run (several grades may share a page)
+  let browser = null;
+  async function photograph(page) {
+    if (shot.has(page.slug)) return shot.get(page.slug);
+    if (!browser) browser = await require('puppeteer').launch({ headless: 'new' });
+    const p = await browser.newPage(); await require('../lib/qa-header').apply(p);
+    await p.setViewport({ width: WIDTH, height: 900, deviceScaleFactor: 1 });
+    const url = 'https://www.lessoncraftstudio.com/' + loc + '/curriculum/' + page.slug;
+    const res = await p.goto(url, { waitUntil: 'networkidle2', timeout: 120000 });
+    if (res.status() !== 200) throw new Error(url + ' answered ' + res.status());
+    await p.evaluate(() => document.fonts.ready);
+    const top = await p.evaluate(() => { const h = document.querySelector('main h1'); return h ? Math.max(0, Math.round(h.getBoundingClientRect().top + scrollY) - 28) : null; });
+    if (top == null) throw new Error(url + ' has no main heading');
+    const png = await p.screenshot({ clip: { x: 0, y: top, width: WIDTH, height: 828 } });
+    await p.close();
+    const buf = await sharp(png).webp({ quality: 82 }).toBuffer();
+    const hash = crypto.createHash('sha1').update(buf).digest('hex').slice(0, 8);
+    const name = 'standards-' + page.slug.slice(0, 40) + '.' + hash + '.webp';
+    fs.writeFileSync(path.join(OUT, name), buf);
+    const entry = { slug: page.slug, title: page.title || page.frameworkTitle || page.framework, src: '/teaching-looks/' + loc + '/' + name, width: WIDTH, height: 828 };
+    shot.set(page.slug, entry); return entry;
+  }
   for (const grade of GRADE_ORDER) {
     const mine = liveUnits.filter((u) => String(u.grade) === grade);
     if (!mine.length) continue;
@@ -65,6 +100,7 @@ function renderPage(pdf, pageIndex) {
     const want = [
       ['unit', path.join(FILES, 'units', unit.id, 'teacher-guide.pdf'), 1, { slug: unit.slug, title: unit.title }],
       pack ? ['pack', path.join(FILES, 'sub-plans', pack.id, 'guest-teacher-pages.pdf'), 0, { slug: pack.slug, title: pack.title }] : null,
+      plan ? ['plan', path.join(FILES, 'units', plan.id, 'scope-and-sequence.pdf'), 0, { slug: plan.slug, title: plan.title }] : null,
       chk ? ['check', path.join(FILES, 'checks', chk.unit, 'teacher-pages.pdf'), 0, { slug: chk.slug, title: byId.get(chk.unit).title }] : null,
     ].filter(Boolean);
     const entry = {};
@@ -79,8 +115,14 @@ function renderPage(pdf, pageIndex) {
       made.push(name);
       entry[kind] = { ...meta, src: '/teaching-looks/' + loc + '/' + name, width, height };
     }
+    const list = checklistOf(grade);
+    if (list) {
+      if (check) { if (committed[grade] && committed[grade].standards) entry.standards = committed[grade].standards; }
+      else { entry.standards = await photograph(list); made.push(path.basename(entry.standards.src)); }
+    }
     looks[grade] = entry;
   }
+  if (browser) await browser.close();
   if (fs.existsSync(path.join(OUT, '_page.png'))) fs.unlinkSync(path.join(OUT, '_page.png'));
   // pictures of an earlier build have other names: they leave the folder, so the upload sends only what the file names
   if (!check) for (const f of fs.readdirSync(OUT)) if (f.endsWith('.webp') && !made.includes(f)) fs.unlinkSync(path.join(OUT, f));

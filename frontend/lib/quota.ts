@@ -12,6 +12,14 @@
  *     classroom tools should also require sign in for free subscribers and they should be limited to 10 plays a day
  *     for free subscribers"): an anonymous play of one returns reason 'signup_required'. The page says which it is
  *     (surface 'activity' | 'tool', PLAY_NEEDS_ACCOUNT below).
+ *   - CONFIRMED E-MAIL (operator 2026-11-12, verbatim: "why the accounts which aren't verified get access to the
+ *     content which should be available for only signed in free accounts?"): what needs an account needs an account
+ *     whose e-mail is confirmed. A download, a make, or a play of an activity or a tool by an account that has not
+ *     opened its confirmation link returns reason 'verify_required' and counts nothing. Measured that day: 972 of the
+ *     1,287 e-mail sign-ups of 28 days had never confirmed, so a made-up address could buy the free limits again and
+ *     again. A subscriber is never asked (she has paid); a Google account is confirmed by Google. The read-only
+ *     status (checkQuota) does not apply the rule: it reports the numbers, the action applies it.
+ *     Switch: FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL below.
  *   - kind 'make' (a NEW worksheet opened in a worksheet maker — operator ruling
  *     2026-10-31): 3 per UTC MONTH, FREE ACCOUNT REQUIRED like downloads; inside an
  *     opened worksheet every change is free (docs/makers/ARCHITECTURE.md §9).
@@ -39,6 +47,8 @@ export type QuotaKind = 'download' | 'play' | 'make';
 /** what is being played: a play of one of these needs an account (see the header) */
 export type PlaySurface = 'activity' | 'tool';
 export const PLAY_NEEDS_ACCOUNT: ReadonlySet<string> = new Set<PlaySurface>(['activity', 'tool']);
+/** one line to switch the confirmed-e-mail rule off again (see the header) */
+export const FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL = true;
 export const playNeedsAccount = (surface: unknown): boolean => typeof surface === 'string' && PLAY_NEEDS_ACCOUNT.has(surface);
 
 const ANON_COOKIE_NAME = 'lcs_anon_id';
@@ -54,7 +64,7 @@ export function meteringEnabled(): boolean {
 
 export type QuotaIdentity =
   | { kind: 'subscriber'; userId: string }
-  | { kind: 'free-user'; userId: string }
+  | { kind: 'free-user'; userId: string; emailConfirmed: boolean }
   | { kind: 'anon'; anonymousId: string; generated: boolean }
   | { kind: 'bot' };
 
@@ -63,7 +73,7 @@ export interface QuotaResult {
   used: number;
   remaining: number | 'unlimited';
   resetAt: Date;
-  reason?: 'signup_required' | 'quota_exceeded';
+  reason?: 'signup_required' | 'verify_required' | 'quota_exceeded';
 }
 
 export function startOfUtcDay(d: Date = new Date()): Date {
@@ -101,7 +111,7 @@ async function identityForUserId(userId: string): Promise<QuotaIdentity> {
   if (dbUser && isSubscriptionUsable(dbUser)) {
     return { kind: 'subscriber', userId };
   }
-  return { kind: 'free-user', userId };
+  return { kind: 'free-user', userId, emailConfirmed: !!dbUser?.emailVerified };
 }
 
 export async function resolveQuotaIdentity(request: NextRequest): Promise<QuotaIdentity> {
@@ -215,6 +225,9 @@ export async function checkAndIncrementQuota(
   if (identity.kind === 'subscriber' || identity.kind === 'bot') return unlimited(resetAt);
   if ((kind === 'download' || kind === 'make' || opts.accountRequired) && identity.kind === 'anon') {
     return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'signup_required' };
+  }
+  if (FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL && (kind === 'download' || kind === 'make' || opts.accountRequired) && identity.kind === 'free-user' && !identity.emailConfirmed) {
+    return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'verify_required' };
   }
 
   const pre = await checkQuota(identity, kind);

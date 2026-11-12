@@ -5,6 +5,7 @@ import { useLocale } from "next-intl";
 import { meterAction } from "@/lib/client-meter";
 import { isCareSurface } from "@/lib/care-surfaces";
 import signupWall from "@/content/play-wall/ui.json";
+import verifyUi from "@/content/verify-email/ui.json";
 
 /**
  * Activity iframe wrapper that auto-resizes to its content via postMessage.
@@ -25,6 +26,8 @@ import signupWall from "@/content/play-wall/ui.json";
  * answer arrives, so the activity never flashes and then disappears. Not asked for an account: a care surface, and
  * the ONE sample on the homepage (prop `sample`), which a visitor opens with a click and which is the proof of the
  * product on the page that sells it. The 10 plays a day of a free account are the same counter as before.
+ * An account whose e-mail is not confirmed gets "verify_required": a panel that sends it to its account page, where
+ * the confirmation link can be sent again (content/verify-email/ui.json).
  */
 
 const INITIAL_HEIGHT = 420;
@@ -70,7 +73,7 @@ export function ActivityIframe({
   const locale = useLocale();
   const [height, setHeight] = useState<number>(INITIAL_HEIGHT);
   const exempt = isCareSurface(toolKey);
-  const [gate, setGate] = useState<"pending" | "open" | "blocked" | "signup">(exempt ? "open" : "pending");
+  const [gate, setGate] = useState<"pending" | "open" | "blocked" | "signup" | "verify">(exempt ? "open" : "pending");
   const surface = sample ? undefined : toolKey ? "tool" : "activity";
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
@@ -80,7 +83,7 @@ export function ActivityIframe({
     if (exempt) return;
     let cancelled = false;
     meterAction("play", surface).then(({ proceed, detail }) => {
-      if (!cancelled) setGate(proceed ? "open" : detail?.reason === "signup_required" ? "signup" : "blocked");
+      if (!cancelled) setGate(proceed ? "open" : detail?.reason === "signup_required" ? "signup" : detail?.reason === "verify_required" ? "verify" : "blocked");
     });
     return () => {
       cancelled = true;
@@ -99,6 +102,30 @@ export function ActivityIframe({
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
   }, []);
+
+  if (gate === "verify") {
+    const all = verifyUi as Record<string, { panelTitle: string; panelBody: string; panelCta: string }>;
+    const c = all[locale] || all.en;
+    const remember = () => { try { window.sessionStorage.setItem("lcs-return", window.location.pathname); } catch { /* not kept */ } };
+    return (
+      <div
+        data-play-verify=""
+        style={{ minHeight: MIN_HEIGHT, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", padding: 24 }}
+      >
+        <div style={{ maxWidth: 460 }}>
+          <h2 style={{ fontFamily: "'Baloo 2', system-ui, sans-serif", color: "#146B5E", fontSize: "1.4rem", lineHeight: 1.25, marginBottom: 8 }}>{c.panelTitle}</h2>
+          <p style={{ color: "#3D4F49", marginBottom: 16 }}>{c.panelBody}</p>
+          <a
+            href={`/${locale}/workspace?verify=1`}
+            onClick={remember}
+            style={{ display: "inline-flex", alignItems: "center", minHeight: 48, background: "#F2784B", color: "#2A1206", padding: "10px 24px", borderRadius: 999, fontWeight: 700, textDecoration: "none" }}
+          >
+            {c.panelCta}
+          </a>
+        </div>
+      </div>
+    );
+  }
 
   if (gate === "signup") {
     const all = signupWall as Record<string, { title: string; body: string; cta: string; signIn: string }>;

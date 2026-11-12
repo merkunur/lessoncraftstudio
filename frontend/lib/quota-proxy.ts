@@ -47,6 +47,9 @@ export async function servePdfProxy(
         `https://www.lessoncraftstudio.com/${locale}/auth/signup?from=download`,
         { status: 302 }
       );
+    } else if (result.reason === 'verify_required') {
+      // the account page explains it and sends the confirmation link again
+      res = NextResponse.redirect(`https://www.lessoncraftstudio.com/${locale}/workspace?verify=1`, { status: 302 });
     } else {
       res = NextResponse.redirect(
         `https://www.lessoncraftstudio.com/${locale}/pricing?from=download-limit`,

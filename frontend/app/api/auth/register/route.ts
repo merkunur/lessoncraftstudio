@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { queueEmail } from '@/lib/email/queue';
 import { VerificationEmail } from '@/lib/email/templates';
 import { render } from '@react-email/render';
+import { generateVerificationToken } from '@/lib/auth-utils';
 
 export const dynamic = 'force-dynamic';
 
@@ -40,7 +41,8 @@ export async function POST(request: NextRequest) {
     const passwordHash = await bcrypt.hash(validatedData.password, 12);
     
     // Generate verification token
-    const verificationToken = crypto.randomUUID();
+    // the link carries the time it was sent: it is good for 24 hours from then (lib/auth-utils.ts)
+    const verificationToken = generateVerificationToken();
     
     // Create user
     const user = await prisma.user.create({
@@ -58,7 +60,9 @@ export async function POST(request: NextRequest) {
     
     // Send verification email
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
-    const verificationUrl = `${appUrl}/auth/verify-email?token=${verificationToken}`;
+    // the page in the language the teacher signed up in (without it everyone got the English page)
+    const pageLang = /^[a-z]{2}$/.test(validatedData.locale) ? validatedData.locale : 'en';
+    const verificationUrl = `${appUrl}/${pageLang}/auth/verify-email?token=${verificationToken}`;
 
     try {
       const emailHtml = await render(

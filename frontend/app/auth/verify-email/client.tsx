@@ -1,115 +1,62 @@
 'use client';
 
-
-import { useEffect, useState  } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+/**
+ * The page the link in the confirmation e-mail opens. In the teacher's language (content/verify-email/ui.json, 11
+ * languages; until 2026-11-12 it was English for everyone and its two buttons led to pages that do not exist).
+ * When the link works, the auth context signs her in and takes her to her workspace. When it does not (older than
+ * 24 hours, or used), the page says so and sends her to sign in: her account page sends a new link.
+ */
+import { useEffect, useRef, useState } from 'react';
+import { useParams, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/auth-context';
-import { CheckCircle, XCircle, Loader2, Mail } from 'lucide-react';
-import Link from 'next/link';
+import ui from '@/content/verify-email/ui.json';
+
+type Strings = (typeof ui)['en'];
 
 function VerifyEmailPageContent() {
   const searchParams = useSearchParams();
-  const router = useRouter();
+  const params = useParams();
+  const locale = typeof params?.locale === 'string' ? params.locale : 'en';
+  const s: Strings = (ui as Record<string, Strings>)[locale] || ui.en;
   const { verifyEmail } = useAuth();
-  
   const [status, setStatus] = useState<'loading' | 'success' | 'error'>('loading');
-  const [message, setMessage] = useState('');
-  
   const token = searchParams.get('token');
+  const started = useRef(false);
 
   useEffect(() => {
-    if (token) {
-      handleVerification();
-    } else {
-      setStatus('error');
-      setMessage('No verification token provided');
-    }
+    if (started.current) return; // a link works once: never send it twice (React runs an effect twice in development)
+    started.current = true;
+    if (!token) { setStatus('error'); return; }
+    verifyEmail(token).then(() => setStatus('success')).catch(() => setStatus('error'));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
-  const handleVerification = async () => {
-    if (!token) return;
-    
-    try {
-      setStatus('loading');
-      await verifyEmail(token);
-      setStatus('success');
-      setMessage('Your email has been verified successfully!');
-      
-      // Redirect to dashboard after 3 seconds
-      setTimeout(() => {
-        router.push('/dashboard');
-      }, 3000);
-    } catch (error) {
-      setStatus('error');
-      setMessage(
-        error instanceof Error 
-          ? error.message 
-          : 'Failed to verify email. The link may have expired.'
-      );
-    }
-  };
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full">
-        <div className="bg-white shadow-lg rounded-lg p-8">
-          {status === 'loading' && (
-            <div className="text-center">
-              <Loader2 className="h-16 w-16 animate-spin text-blue-600 mx-auto" />
-              <h2 className="mt-4 text-2xl font-bold text-gray-900">
-                Verifying your email...
-              </h2>
-              <p className="mt-2 text-gray-600">
-                Please wait while we verify your email address.
-              </p>
-            </div>
-          )}
-
-          {status === 'success' && (
-            <div className="text-center">
-              <CheckCircle className="h-16 w-16 text-green-500 mx-auto" />
-              <h2 className="mt-4 text-2xl font-bold text-gray-900">
-                Email verified!
-              </h2>
-              <p className="mt-2 text-gray-600">{message}</p>
-              <p className="mt-4 text-sm text-gray-500">
-                Redirecting to your dashboard...
-              </p>
-              <Link
-                href="/dashboard"
-                className="mt-6 inline-block px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
-              >
-                Go to Dashboard
-              </Link>
-            </div>
-          )}
-
-          {status === 'error' && (
-            <div className="text-center">
-              <XCircle className="h-16 w-16 text-red-500 mx-auto" />
-              <h2 className="mt-4 text-2xl font-bold text-gray-900">
-                Verification failed
-              </h2>
-              <p className="mt-2 text-gray-600">{message}</p>
-              <div className="mt-6 space-y-3">
-                <Link
-                  href="/auth/verify-email-notice"
-                  className="block px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
-                >
-                  Request New Verification Email
-                </Link>
-                <Link
-                  href="/auth/signin"
-                  className="block px-4 py-2 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50"
-                >
-                  Back to Sign In
-                </Link>
-              </div>
-            </div>
-          )}
-        </div>
+    <div className="flex min-h-[60vh] items-center justify-center bg-[#FBF3E4] px-4 py-12" data-verify-page={status}>
+      <div className="w-full max-w-md rounded-2xl border border-[#CFC5AE] bg-[#FFFDF8] p-8 text-center shadow-[0_2px_6px_-2px_rgba(74,56,24,0.18)]">
+        {status === 'loading' && (
+          <p role="status" className="text-lg font-semibold text-[#14322D]">{s.verifying}</p>
+        )}
+        {status === 'success' && (
+          <>
+            <h1 className="text-2xl font-bold text-[#14322D]">{s.verified}</h1>
+            <a href={`/${locale}/workspace`} className="mt-6 inline-flex min-h-[48px] items-center rounded-full bg-[#F2784B] px-6 py-3 font-semibold text-[#2A1206] no-underline">
+              {s.panelCta}
+            </a>
+          </>
+        )}
+        {status === 'error' && (
+          <>
+            <h1 className="text-2xl font-bold text-[#14322D]">{s.failedTitle}</h1>
+            <p className="mt-3 text-[#3D4F49]">{s.failedBody}</p>
+            <a href={`/${locale}/auth/signin?redirect=${encodeURIComponent(`/${locale}/workspace?verify=1`)}`} className="mt-6 inline-flex min-h-[48px] items-center rounded-full bg-[#F2784B] px-6 py-3 font-semibold text-[#2A1206] no-underline">
+              {s.signIn}
+            </a>
+          </>
+        )}
       </div>
     </div>
   );
 }
+
 export default VerifyEmailPageContent;

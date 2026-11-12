@@ -24,6 +24,12 @@
  *                   meter keeps the rule (lib/quota.ts), the player frame says what it plays, the homepage sample is
  *                   the one exception, and no English sentence on the pricing, home, standards or about page says
  *                   that these play without an account
+ *   P9  confirmed   operator ruling 2026-11-12: what needs an account needs an account whose e-mail is confirmed.
+ *                   The count keeps the rule and the read-only status does not (the makers read the numbers); the
+ *                   routes answer it; a confirmation link carries the time it was sent and a link sent again is a
+ *                   new one; the link opens the page in the teacher's language; the texts (content/verify-email/
+ *                   ui.json) are complete in eleven languages, name the address and the 24 hours. The live proof
+ *                   is scripts/auth/smoke-account-rules.js (run on the server).
  */
 'use strict';
 const fs = require('fs');
@@ -53,6 +59,9 @@ function load() {
   const wallFile = path.join(C, 'play-wall', 'ui.json');
   d.$wall = fs.existsSync(wallFile) ? readJson(wallFile) : {};
   const read = (f) => fs.readFileSync(path.join(FRONT, f), 'utf8');
+  const vFile = path.join(C, 'verify-email', 'ui.json');
+  d.$verify = fs.existsSync(vFile) ? readJson(vFile) : {};
+  d.$auth = { email: read('lib/email.ts'), utils: read('lib/auth-utils.ts'), verifyRoute: read('app/api/auth/verify-email/route.ts'), dl: read('app/api/quota/dl/route.ts'), proxy: read('lib/quota-proxy.ts'), modal: read('components/quota/QuotaExceededModal.tsx'), workspace: read('app/[locale]/workspace/WorkspaceClient.tsx'), signin: read('app/[locale]/auth/signin/signin-client.tsx'), register: read('app/api/auth/register/route.ts'), context: read('contexts/auth-context.tsx') };
   d.$code = { quota: read('lib/quota.ts'), route: read('app/api/quota/check-and-increment/route.ts'), frame: read('components/activities/ActivityIframe.tsx'), sample: read('components/homepage-v6/LiveToolEmbedV6.tsx') };
   const en = readJson(path.join(FRONT, 'messages', 'en.json'));
   d.$en = {}; for (const k of ['pricingPage.free.blurb', 'homepageV6.close.body', 'topicFaq.fallback.standards.a2', 'standardsPage.intro', 'aboutPage.intro']) d.$en[k] = get(en, k);
@@ -106,6 +115,35 @@ function run(d) {
   if (!/"signup_required" \? "signup"/.test(d.$code.frame) || !/data-play-signup/.test(d.$code.frame)) fail('P8', 'the player frame has no sign-up panel');
   if (!/<ActivityIframe [^>]*\bsample\b/.test(d.$code.sample)) fail('P8', 'the homepage sample is not marked as the sample');
   for (const [k, v] of Object.entries(d.$en)) { if (typeof v !== 'string') fail('P8', 'messages/en.json ' + k + ' is missing'); else if (NO_ACCOUNT.test(v) && !/worksheets play (online )?without (an account|a login)/i.test(v)) fail('P8', 'messages/en.json ' + k + ' says that something plays without an account: ' + v.slice(0, 90)); }
+  // P9
+  const VKEYS = ['panelTitle', 'panelBody', 'panelCta', 'bannerTitle', 'bannerBody', 'resend', 'sent', 'resendFailed', 'verifying', 'verified', 'failedTitle', 'failedBody', 'signIn'];
+  for (const loc of LOCALES) {
+    const v = d.$verify[loc];
+    if (!v) { fail('P9', loc + ' has no confirm-your-e-mail texts'); continue; }
+    for (const k of VKEYS) { if (!v[k] || !String(v[k]).trim()) fail('P9', loc + ' ' + k + ' is empty'); else if (PRICE.test(v[k])) fail('P9', loc + ' ' + k + ' holds a price'); else if (slots(v[k]) !== (k === 'bannerBody' ? '{email}' : '')) fail('P9', loc + ' ' + k + ' has the placeholders "' + slots(v[k]) + '"'); }
+    for (const k of Object.keys(v)) if (!VKEYS.includes(k)) fail('P9', loc + ' ' + k + ' is no string of the page');
+    if (v.failedBody && !/(?<!\d)24(?!\d)/.test(v.failedBody)) fail('P9', loc + ' failedBody does not name the 24 hours of a link');
+  }
+  const q = d.$code.quota;
+  const countFn = q.slice(q.indexOf('export async function checkAndIncrementQuota'));
+  const readFn = q.slice(q.indexOf('export async function checkQuota'), q.indexOf('export async function checkAndIncrementQuota'));
+  if (!/FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL = true;/.test(q)) fail('P9', 'lib/quota.ts: the confirmed-e-mail rule is switched off');
+  if (!/FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL && \(kind === 'download' \|\| kind === 'make' \|\| opts\.accountRequired\) && identity\.kind === 'free-user' && !identity\.emailConfirmed\) \{\s*return \{ allowed: false, used: 0, remaining: 0, resetAt, reason: 'verify_required' \};/.test(countFn)) fail('P9', 'lib/quota.ts: the count does not refuse an account whose e-mail is not confirmed');
+  if (/verify_required/.test(readFn)) fail('P9', 'lib/quota.ts: the read-only status applies the rule (the makers would then say "no makes left")');
+  if (!/emailConfirmed: !!dbUser\?\.emailVerified/.test(q)) fail('P9', 'lib/quota.ts: the identity does not carry whether the e-mail is confirmed');
+  if (!/result\.reason === 'signup_required' \|\| result\.reason === 'verify_required' \? 401/.test(d.$code.route)) fail('P9', 'the meter route does not answer 401 to an unconfirmed account (older pages would let it through)');
+  if ((d.$auth.dl.match(/verify_required/g) || []).length < 2 || !/verify_required/.test(d.$auth.proxy)) fail('P9', 'a download route does not send an unconfirmed account to its account page');
+  if (!/"verify_required" \? "verify"/.test(d.$code.frame) || !/data-play-verify/.test(d.$code.frame)) fail('P9', 'the player frame has no confirm-your-e-mail panel');
+  if (!/verify_required/.test(d.$auth.modal)) fail('P9', 'the download wall has no confirm-your-e-mail text');
+  if (!/user\.emailVerified === false \? <VerifyEmailBanner/.test(d.$auth.workspace)) fail('P9', 'the account page does not show the notice to an unconfirmed account');
+  if (!/signedInUser\.emailVerified === false && !isLcsSubscriptionActive\(signedInUser\)\) router\.replace\(`\/\$\{locale\}\/workspace\?verify=1`\)/.test(d.$auth.signin)) fail('P9', 'the sign-in page does not send a signed-in unconfirmed account to its account page');
+  if (!/return `\$\{generateSecureToken\(32\)\}\.\$\{Date\.now\(\)\.toString\(36\)\}`;/.test(d.$auth.utils)) fail('P9', 'a confirmation link does not carry the time it was sent');
+  if (!/verificationTokenIssuedAt\(token\) \?\? user\.createdAt\.getTime\(\)/.test(d.$auth.verifyRoute)) fail('P9', 'the 24 hours of a link do not run from when it was sent');
+  if (/let verificationToken = user\.verificationToken/.test(d.$auth.verifyRoute)) fail('P9', 'a link sent again reuses the old link');
+  if (!/emailVerifiedAt: new Date\(\)/.test(d.$auth.verifyRoute)) fail('P9', 'the time of the confirmation is not written');
+  if (!d.$auth.email.includes('/${pageLang}/auth/verify-email?token=')) fail('P9', 'the link of a mail sent again does not open the page in the language of the teacher');
+  if (!d.$auth.register.includes('const verificationToken = generateVerificationToken();') || !d.$auth.register.includes('/${pageLang}/auth/verify-email?token=')) fail('P9', 'the sign-up route does not send a timed link to the page in the language of the teacher');
+  if (d.$auth.context.includes('/${locale}/dashboard`')) fail('P9', 'the sign-in context sends an account to /dashboard (the admin page, then the homepage) instead of its workspace');
   return fails;
 }
 
@@ -130,6 +168,20 @@ const POISONS = [
   ['the frame does not say what it plays', 'P8', (d) => { d.$code.frame = d.$code.frame.replace('meterAction("play", surface)', 'meterAction("play")'); }],
   ['the homepage sample is asked for an account', 'P8', (d) => { d.$code.sample = d.$code.sample.replace(' sample />', ' />'); }],
   ['the pricing page says play needs no login', 'P8', (d) => { d.$en['pricingPage.free.blurb'] = 'No login needed to play. A free account adds downloads.'; }],
+  ['a language without the confirm texts', 'P9', (d) => { delete d.$verify.no; }],
+  ['the notice lost the address', 'P9', (d) => { d.$verify.de.bannerBody = d.$verify.de.bannerBody.replace('{email}', 'deine Adresse'); }],
+  ['a link text that names another time', 'P9', (d) => { d.$verify.fr.failedBody = d.$verify.fr.failedBody.replace('24', '48'); }],
+  ['the rule switched off', 'P9', (d) => { d.$code.quota = d.$code.quota.replace('FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL = true;', 'FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL = false;'); }],
+  ['the count lets an unconfirmed account through', 'P9', (d) => { d.$code.quota = d.$code.quota.replace("&& identity.kind === 'free-user' && !identity.emailConfirmed) {", "&& identity.kind === 'free-user' && false) {"); }],
+  ['the route answers 402 to an unconfirmed account', 'P9', (d) => { d.$code.route = d.$code.route.replace(" || result.reason === 'verify_required' ? 401", ' ? 401'); }],
+  ['a download route forgets the unconfirmed account', 'P9', (d) => { d.$auth.proxy = d.$auth.proxy.replace(/verify_required/g, 'x'); }],
+  ['the frame has no confirm panel', 'P9', (d) => { d.$code.frame = d.$code.frame.replace('"verify_required" ? "verify"', '"x" ? "verify"'); }],
+  ['a link without its time', 'P9', (d) => { d.$auth.utils = d.$auth.utils.replace('.${Date.now().toString(36)}`;', '`;'); }],
+  ['the 24 hours run from the account again', 'P9', (d) => { d.$auth.verifyRoute = d.$auth.verifyRoute.replace('(verificationTokenIssuedAt(token) ?? user.createdAt.getTime())', 'user.createdAt.getTime()'); }],
+  ['a link sent again is the old link', 'P9', (d) => { d.$auth.verifyRoute += '\n    let verificationToken = user.verificationToken;'; }],
+  ['the link of a mail sent again without the language', 'P9', (d) => { d.$auth.email = d.$auth.email.replace('/${pageLang}/auth/verify-email', '/auth/verify-email'); }],
+  ['the sign-up link without the language', 'P9', (d) => { d.$auth.register = d.$auth.register.replace('/${pageLang}/auth/verify-email', '/auth/verify-email'); }],
+  ['a new account sent to the admin page', 'P9', (d) => { d.$auth.context += ' router.push(`/${locale}/dashboard`);'; }],
   ['the homepage says try it all before you sign in', 'P8', (d) => { d.$en['homepageV6.close.body'] = 'Open a tool — try it all before you ever sign in.'; }],
 ];
 

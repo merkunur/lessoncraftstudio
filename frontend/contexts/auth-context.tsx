@@ -302,9 +302,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           } else {
             // Q-l Option III: subscriber-conditional redirect.
             router.push(
-              isLcsSubscriptionActive(userWithSubscription)
-                ? `/${locale}/workspace`
-                : `/${locale}/dashboard`
+              `/${locale}/workspace` /* every account: an account without the plan finds My teaching and the confirm-your-e-mail notice there; /dashboard led to the admin page and on to the homepage */
             );
           }
         }
@@ -366,11 +364,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         router.push(redirectTo);
       } else {
         const locale = getCurrentLocale();
-        router.push(
-          isLcsSubscriptionActive(userWithSubscription)
-            ? `/${locale}/workspace`
-            : `/${locale}/dashboard`
-        );
+        // Every new account goes to its workspace: "My teaching" and, until the e-mail is confirmed, the notice with
+        // "send the link again". (`/dashboard` led to the admin page and from there to the homepage.)
+        router.push(`/${locale}/workspace`);
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Signup failed';
@@ -618,19 +614,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       userWithSubscription.subscription = ('subscription' in data) ? data.subscription : prevUser?.subscription;
       setUser(userWithSubscription);
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
-      toast.success('Email verified successfully! Welcome to LessonCraftStudio.');
+      // no toast: the page the link opens says it in the teacher's language (app/auth/verify-email/client.tsx)
       // Q-l Option III: subscriber-conditional redirect.
       const locale = getCurrentLocale();
-      router.push(
-        isLcsSubscriptionActive(userWithSubscription)
-          ? `/${locale}/workspace`
-          : `/${locale}/dashboard`
-      );
+      // Everyone goes to the workspace: an account without the plan finds "My teaching" there. (`/dashboard` leads
+      // to the old member page, which is for admins only.)
+      router.push(`/${locale}/workspace`);
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Email verification failed';
       setError(message);
-      toast.error(message);
-      throw err;
+      throw err; // no toast: the page says it in the teacher's language
     } finally {
       setLoading(false);
     }

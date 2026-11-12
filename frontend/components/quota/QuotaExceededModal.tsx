@@ -16,9 +16,10 @@
  */
 import { useCallback, useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
+import verifyUi from '@/content/verify-email/ui.json';
 
 export interface QuotaDetail {
-  reason?: 'quota_exceeded' | 'signup_required';
+  reason?: 'quota_exceeded' | 'signup_required' | 'verify_required';
   used?: number;
   remaining?: number | 'unlimited';
   resetAt?: string;
@@ -36,10 +37,13 @@ export function QuotaExceededModal({ open, detail, onDismiss }: ModalProps) {
   if (!open) return null;
 
   const signup = detail?.reason === 'signup_required';
-  const title = signup ? t('signupTitle') : t('exceededTitle');
-  const body = signup ? t('signupBody') : t('exceededBody');
-  const cta = signup ? t('signupCta') : t('subscribeCta');
-  const href = signup ? `/${locale}/auth/signup?from=download` : `/${locale}/pricing?from=wall`;
+  // an account whose e-mail is not confirmed: its account page sends the link again (content/verify-email/ui.json)
+  const verify = detail?.reason === 'verify_required';
+  const v = (verifyUi as Record<string, { panelTitle: string; panelBody: string; panelCta: string }>)[locale] || verifyUi.en;
+  const title = verify ? v.panelTitle : signup ? t('signupTitle') : t('exceededTitle');
+  const body = verify ? v.panelBody : signup ? t('signupBody') : t('exceededBody');
+  const cta = verify ? v.panelCta : signup ? t('signupCta') : t('subscribeCta');
+  const href = verify ? `/${locale}/workspace?verify=1` : signup ? `/${locale}/auth/signup?from=download` : `/${locale}/pricing?from=wall`;
 
   return (
     <div

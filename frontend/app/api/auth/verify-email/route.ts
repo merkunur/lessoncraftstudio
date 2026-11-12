@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
-import { generateTokens } from '@/lib/auth-utils';
+import { generateTokens, verificationTokenIssuedAt } from '@/lib/auth-utils';
 import { sendWelcomeEmail } from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
@@ -47,7 +47,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Check if token is expired (24 hours)
-    const tokenAge = Date.now() - user.createdAt.getTime();
+    // from when the link was sent (a token from before 2026-11-12 carries no time: the account's creation, as then)
+    const tokenAge = Date.now() - (verificationTokenIssuedAt(token) ?? user.createdAt.getTime());
     const maxAge = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
     if (tokenAge > maxAge) {
@@ -76,6 +77,7 @@ export async function POST(request: NextRequest) {
       where: { id: user.id },
       data: {
         emailVerified: true,
+        emailVerifiedAt: new Date(),
         verificationToken: null, // Clear the token
       },
     });
@@ -207,17 +209,13 @@ export async function GET(request: NextRequest) {
       });
     }
 
-    // Generate new verification token if needed
-    let verificationToken = user.verificationToken;
-    if (!verificationToken) {
-      const { generateVerificationToken } = await import('@/lib/auth-utils');
-      verificationToken = generateVerificationToken();
-
-      await prisma.user.update({
-        where: { id: user.id },
-        data: { verificationToken },
-      });
-    }
+    // A link sent again is always a NEW link with its own 24 hours (the old one may be a day old or more).
+    const { generateVerificationToken } = await import('@/lib/auth-utils');
+    const verificationToken = generateVerificationToken();
+    await prisma.user.update({
+      where: { id: user.id },
+      data: { verificationToken },
+    });
 
     // Log activity
     await prisma.activityLog.create({

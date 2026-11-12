@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { toast } from 'react-hot-toast';
 import DeviceConflictModal from '@/components/auth/DeviceConflictModal';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 // Simple device fingerprinting
 function getDeviceFingerprint() {
@@ -74,7 +75,16 @@ export default function SignInClient() {
   const redirect = searchParams.get('redirect'); // Get redirect URL from parameter
   const oauthError = searchParams.get('error'); // OAuth error from callback
   const t = useTranslations('auth.signIn');
-  const { checkAuth } = useAuth(); // Get checkAuth from auth context
+  const { checkAuth, user: signedInUser, loading: authLoading } = useAuth(); // Get checkAuth from auth context
+
+  // An account that is signed in but has not confirmed its e-mail is sent here by the worksheet makers and the
+  // older walls (they answer "sign in" to every refusal). Signing in again would change nothing: its account page
+  // says what is missing and sends the confirmation link again (lib/quota.ts FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL).
+  useEffect(() => {
+    if (authLoading || !signedInUser) return;
+    if (signedInUser.emailVerified === false && !isLcsSubscriptionActive(signedInUser)) router.replace(`/${locale}/workspace?verify=1`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [authLoading, signedInUser]);
 
   // Handle OAuth errors from URL params
   useEffect(() => {

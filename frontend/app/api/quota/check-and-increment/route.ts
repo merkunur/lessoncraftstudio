@@ -15,6 +15,8 @@ export const dynamic = 'force-dynamic';
  * 200 {allowed:true, used, remaining, resetAt}
  * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make, and an anonymous play of an
  *     activity or a classroom tool: lib/quota.ts PLAY_NEEDS_ACCOUNT)
+ * 401 {allowed:false, reason:'verify_required', verifyPath}   (an account whose e-mail is not confirmed asks for a
+ *     download, a make, or a play of an activity or a tool: lib/quota.ts FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL)
  * 402 {allowed:false, reason:'quota_exceeded', used, remaining, resetAt, pricingPath}
  * Fail-open on internal errors (metering never takes the site down).
  *
@@ -50,7 +52,7 @@ export async function POST(request: NextRequest) {
     const identity = await resolveQuotaIdentity(request);
     const result = await checkAndIncrementQuota(identity, kind, { accountRequired });
 
-    const status = result.allowed ? 200 : result.reason === 'signup_required' ? 401 : 402;
+    const status = result.allowed ? 200 : result.reason === 'signup_required' || result.reason === 'verify_required' ? 401 : 402;
     const res = NextResponse.json(
       {
         allowed: result.allowed,
@@ -59,6 +61,7 @@ export async function POST(request: NextRequest) {
         remaining: result.remaining,
         resetAt: result.resetAt.toISOString(),
         signupPath: '/auth/signup',
+        verifyPath: '/workspace?verify=1',
         pricingPath: '/pricing',
       },
       { status, headers: { 'Cache-Control': 'no-store' } }

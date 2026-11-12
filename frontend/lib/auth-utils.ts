@@ -70,7 +70,17 @@ export function generateSecureToken(length: number = 32): string {
  * Generate a verification token
  */
 export function generateVerificationToken(): string {
-  return generateSecureToken(32);
+  // the moment of issue rides in the token (base 36 after the dot): the link is good for 24 hours from when it was
+  // SENT. Until 2026-11-12 the 24 hours ran from the creation of the ACCOUNT, so a link sent again a day later was
+  // dead on arrival. The token is matched whole against the stored one, so the time cannot be forged.
+  return `${generateSecureToken(32)}.${Date.now().toString(36)}`;
+}
+
+/** when a verification token was issued; null for a token from before 2026-11-12 (the caller falls back) */
+export function verificationTokenIssuedAt(token: string): number | null {
+  const m = /^[0-9a-f]+\.([0-9a-z]{6,12})$/.exec(token);
+  const t = m ? parseInt(m[1], 36) : NaN;
+  return Number.isFinite(t) && t > 0 ? t : null;
 }
 
 /**

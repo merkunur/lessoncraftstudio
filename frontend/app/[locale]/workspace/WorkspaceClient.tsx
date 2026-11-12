@@ -7,6 +7,7 @@ import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import WorkspaceShell from './WorkspaceShell';
 import MyTeaching from '@/components/my-teaching/MyTeaching';
+import VerifyEmailBanner from '@/components/verify-email/VerifyEmailBanner';
 import type { MyTeachingProps } from '@/lib/my-teaching-page';
 
 /**
@@ -51,10 +52,15 @@ export default function WorkspaceClient({ locale, classesLabel = null, myTeachin
   }
 
   if (!isLcsSubscriptionActive(user)) {
+    // an account whose e-mail is not confirmed does not get what a free account gets (lib/quota.ts): say so here,
+    // with the address the link went to and a button that sends it again. `=== false`: an older stored account
+    // without the field is not accused.
+    const confirm = user.emailVerified === false ? <VerifyEmailBanner locale={locale} userId={user.id} email={user.email} /> : null;
     // an account without the plan: her own grade's units, what the account can do, what the plan adds (Part 11.3)
     if (myTeaching) {
       return (
         <>
+          {confirm}
           <MyTeaching locale={locale} plan={myTeaching.plan} data={myTeaching.data} gate={myTeaching.gate} gradeLabels={myTeaching.gradeLabels} subjectLabels={myTeaching.subjectLabels} topicHrefs={myTeaching.topicHrefs} />
           {classesLabel && (
             <p className="mt-6">
@@ -66,6 +72,7 @@ export default function WorkspaceClient({ locale, classesLabel = null, myTeachin
     }
     return (
       <div className="max-w-2xl py-4">
+        {confirm}
         <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">
           {t('gate.subscriberTitle')}
         </h1>

@@ -100,7 +100,9 @@ export async function sendVerificationEmail(params: {
 }): Promise<void> {
   const { email, firstName, token, language } = params;
 
-  const verificationUrl = `${process.env.NEXT_PUBLIC_APP_URL}/auth/verify-email?token=${token}`;
+  // the page in the teacher's language (without the language the site sent everyone to the English page)
+  const pageLang = /^[a-z]{2}$/.test(language || '') ? language : 'en';
+  const verificationUrl = `${process.env.NEXT_PUBLIC_APP_URL}/${pageLang}/auth/verify-email?token=${token}`;
 
   // Language-specific subjects
   const subjects: Record<string, string> = {

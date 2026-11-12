@@ -8,12 +8,13 @@
  * (metering must never block a paying-or-not user because the API hiccuped).
  *
  * Returns { proceed, detail }. When proceed is false, the caller shows the
- * quota modal with `detail` (reason 'quota_exceeded' | 'signup_required').
+ * quota modal with `detail` (reason 'quota_exceeded' | 'signup_required' | 'verify_required': an account whose e-mail
+ * is not confirmed).
  */
 export interface MeterOutcome {
   proceed: boolean;
   detail?: {
-    reason?: 'quota_exceeded' | 'signup_required';
+    reason?: 'quota_exceeded' | 'signup_required' | 'verify_required';
     used?: number;
     remaining?: number | 'unlimited';
     resetAt?: string;

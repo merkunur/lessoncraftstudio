@@ -55,7 +55,7 @@ async function checkForm(request: NextRequest, loc: string, file: string): Promi
     const body = await readFile(disk);
     res = new NextResponse(new Uint8Array(body), { status: 200, headers: { 'Content-Type': 'application/pdf', 'Content-Length': String(body.length), 'Content-Disposition': `inline; filename="${file.split('/').slice(1).join('-')}.pdf"` } });
   } else {
-    res = NextResponse.redirect(`https://www.lessoncraftstudio.com/${loc}/${result.reason === 'signup_required' ? 'auth/signup?from=download' : 'pricing?from=download-limit'}`, { status: 302 });
+    res = NextResponse.redirect(`https://www.lessoncraftstudio.com/${loc}/${result.reason === 'signup_required' ? 'auth/signup?from=download' : result.reason === 'verify_required' ? 'workspace?verify=1' : 'pricing?from=download-limit'}`, { status: 302 });
   }
   res.headers.set('Cache-Control', 'private, no-store');
   res.headers.set('X-Robots-Tag', 'noindex');
@@ -115,6 +115,9 @@ export async function GET(request: NextRequest) {
         `https://www.lessoncraftstudio.com/${loc}/auth/signup?from=download`,
         { status: 302 }
       );
+    } else if (result.reason === 'verify_required') {
+      // the account page explains it and sends the confirmation link again
+      res = NextResponse.redirect(`https://www.lessoncraftstudio.com/${loc}/workspace?verify=1`, { status: 302 });
     } else {
       res = NextResponse.redirect(
         `https://www.lessoncraftstudio.com/${loc}/pricing?from=download-limit`,

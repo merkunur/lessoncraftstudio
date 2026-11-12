@@ -16,23 +16,23 @@
     },
     {
      "part": 2,
-     "lesson": 6,
-     "title": "Find the missing number",
-     "type": "G1-218",
-     "tasks": 2
+     "lesson": 2,
+     "title": "Take away: how many are left?",
+     "type": "G1-103",
+     "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 8,
-     "title": "Fact fluency within 10",
-     "type": "G1-214",
+     "lesson": 3,
+     "title": "Partners that make 10",
+     "type": "G1-106",
      "tasks": 2
     },
     {
      "part": 4,
-     "lesson": 2,
-     "title": "Take away: how many are left?",
-     "type": "G1-103",
+     "lesson": 4,
+     "title": "Count on and count back on a number line",
+     "type": "G1-116",
      "tasks": 1
     },
     {
@@ -44,17 +44,17 @@
     },
     {
      "part": 6,
-     "lesson": 3,
-     "title": "Partners that make 10",
-     "type": "G1-106",
+     "lesson": 6,
+     "title": "Find the missing number",
+     "type": "G1-218",
      "tasks": 2
     },
     {
      "part": 7,
-     "lesson": 4,
-     "title": "Count on and count back on a number line",
-     "type": "G1-116",
-     "tasks": 1
+     "lesson": 8,
+     "title": "Fact fluency within 10",
+     "type": "G1-214",
+     "tasks": 2
     }
    ],
    "notCovered": [
@@ -65,30 +65,30 @@
      "pages": 3,
      "cards": [
       [
-       "30cfdb167595a1cf",
-       "6ec14b3cba2f184b"
+       "d4d00b1391ac688b",
+       "19127ee767d5f846"
       ],
       [
-       "685f91e3a2a5b6f0",
-       "e221397a64e36083"
+       "871c115e9148c1f6"
       ],
       [
-       "fa6736de14e4e2e8",
-       "fac4421ec1e9cca6"
+       "045b35e819a6581b",
+       "1465c48e82d731fd"
       ],
       [
-       "788e9beb20df9eb6"
+       "f299d1beb8624e10"
       ],
       [
-       "1638015be8b302ec",
-       "3ec169fe96e7ca1e"
+       "93c4713326f7dd62",
+       "7f81b4941f161679"
       ],
       [
-       "cdb5dce2208f7a5c",
-       "9b2805e769cd7e63"
+       "49ab0a9327d8a965",
+       "3dcd09199ef09ed9"
       ],
       [
-       "ce16edb8ed2ae60c"
+       "d57c230060e5a7b7",
+       "a8ee00898b41cf47"
       ]
      ],
      "pos": [
@@ -97,7 +97,6 @@
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -116,6 +115,7 @@
        null
       ],
       [
+       null,
        null
       ]
      ]
@@ -124,30 +124,30 @@
      "pages": 3,
      "cards": [
       [
-       "af6786ec2e455644",
-       "21570a27bfe6c0fb"
+       "a08622242afa7b09",
+       "8aadc1d62adf5058"
       ],
       [
-       "c4eaff8eb56737d0",
-       "2e0abc2eba58ea79"
+       "448648c64f11ea86"
       ],
       [
-       "b299bc7685681bc9",
-       "86a8fae55904fa20"
+       "d9613b247387dd66",
+       "755db91d604b351d"
       ],
       [
-       "a59fec10b2a8e970"
+       "d1363ed8e8585efc"
       ],
       [
-       "7bfd679bc5d4fe38",
-       "e7a1c0ff743eb6bf"
+       "65835095474e5b8d",
+       "8d1994147494ac3b"
       ],
       [
-       "8f887ea82d182add",
-       "b169f3545ed95665"
+       "74b8c38533f885d3",
+       "9d64d5fc04426d89"
       ],
       [
-       "8d22f646a7d4708f"
+       "1d3002414d73feb5",
+       "52b5ebf5a3360d11"
       ]
      ],
      "pos": [
@@ -156,7 +156,6 @@
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -175,6 +174,7 @@
        null
       ],
       [
+       null,
        null
       ]
      ]
@@ -191,7 +191,7 @@
      "lesson": 1,
      "title": "Position words",
      "type": "K-064",
-     "tasks": 2
+     "tasks": 1
     },
     {
      "part": 2,
@@ -217,19 +217,17 @@
      "pages": 2,
      "cards": [
       [
-       "4a1a0a77d94f1b2b",
-       "75cdb194c3fe7a67"
+       "e63f3f3e1d7bd0b3"
       ],
       [
-       "d259954ac9c7ad18"
+       "8e11dea8c7613247"
       ],
       [
-       "005f7e60889c69d8"
+       "9fa785bee2ab73ee"
       ]
      ],
      "pos": [
       [
-       1,
        1
       ],
       [
@@ -244,19 +242,17 @@
      "pages": 2,
      "cards": [
       [
-       "c1b326c97c3b8605",
-       "950f0b6f95cc585a"
+       "3a53f02823bf0c71"
       ],
       [
-       "602da7c1acdfb490"
+       "b7b999abb594da89"
       ],
       [
-       "2379cd12047a0643"
+       "4904363faa0e6497"
       ]
      ],
      "pos": [
       [
-       1,
        1
       ],
       [
@@ -264,94 +260,6 @@
       ],
       [
        1
-      ]
-     ]
-    }
-   }
-  },
-  {
-   "unit": "k-sorting-tallies-days",
-   "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
-   "status": "pilot",
-   "parts": [
-    {
-     "part": 1,
-     "lesson": 2,
-     "title": "Tally marks",
-     "type": "K-014",
-     "tasks": 2
-    },
-    {
-     "part": 2,
-     "lesson": 4,
-     "title": "Which is heavier?",
-     "type": "K-038",
-     "tasks": 1
-    },
-    {
-     "part": 3,
-     "lesson": 3,
-     "title": "Take a good guess",
-     "type": "K-029",
-     "tasks": 1
-    }
-   ],
-   "notCovered": [
-    1,
-    5
-   ],
-   "forms": {
-    "A": {
-     "pages": 2,
-     "cards": [
-      [
-       "599bd912f9ba157e",
-       "f87231f1d54bcb8f"
-      ],
-      [
-       "5198261def3ac091"
-      ],
-      [
-       "0227fcd4208f465c"
-      ]
-     ],
-     "pos": [
-      [
-       null,
-       null
-      ],
-      [
-       0
-      ],
-      [
-       1
-      ]
-     ]
-    },
-    "B": {
-     "pages": 2,
-     "cards": [
-      [
-       "ea2114f0c5ec5793",
-       "4f36fc45dc160811"
-      ],
-      [
-       "b3bbe3ad203583ab"
-      ],
-      [
-       "2d941fd213d5fed2"
-      ]
-     ],
-     "pos": [
-      [
-       null,
-       null
-      ],
-      [
-       1
-      ],
-      [
-       0
       ]
      ]
     }
@@ -371,20 +279,13 @@
     },
     {
      "part": 2,
-     "lesson": 4,
-     "title": "Partners that make 20",
-     "type": "K-275",
+     "lesson": 2,
+     "title": "Number bonds to 5 and to 10",
+     "type": "K-274",
      "tasks": 2
     },
     {
      "part": 3,
-     "lesson": 2,
-     "title": "Number bonds to 5 and to 10",
-     "type": "K-273",
-     "tasks": 2
-    },
-    {
-     "part": 4,
      "lesson": 5,
      "title": "Odd or even?",
      "type": "K-016",
@@ -392,71 +293,27 @@
     }
    ],
    "notCovered": [
-    3
+    3,
+    4
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
       [
-       "15fd09d891327bc8"
+       "64011d498bc2c972"
       ],
       [
-       "e81e5bf38e96775a",
-       "01568ef0f2dec2af"
+       "5d6ffe92b11f07c3",
+       "8978269ea5795c6f"
       ],
       [
-       "85d4527a0d27d527",
-       "5a4d708c3d05ebb5"
-      ],
-      [
-       "63669ddf56aa97ea",
-       "1d67670266ba1375"
+       "507256839fdea326",
+       "c5beb11ef63d3ec3"
       ]
      ],
      "pos": [
       [
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       2,
-       3
-      ]
-     ]
-    },
-    "B": {
-     "pages": 2,
-     "cards": [
-      [
-       "0699b3543d40d481"
-      ],
-      [
-       "d233db24f85fcf89",
-       "766bff6500fd5afe"
-      ],
-      [
-       "3589abe7527c31e5",
-       "82510177b27b07ef"
-      ],
-      [
-       "97eabaf0eba429e0",
-       "545fb2ea419d9f98"
-      ]
-     ],
-     "pos": [
-      [
-       null
-      ],
-      [
-       null,
        null
       ],
       [
@@ -466,6 +323,35 @@
       [
        3,
        2
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "8d8b4f2a75bb5354"
+      ],
+      [
+       "ede8be3ad4a64b25",
+       "b8fcc22f295e9441"
+      ],
+      [
+       "6f2d9a3843bc6b76",
+       "d97dacd5474ece7f"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2,
+       3
       ]
      ]
     }
@@ -485,17 +371,17 @@
     },
     {
      "part": 2,
-     "lesson": 4,
-     "title": "Addition pyramids (number walls)",
-     "type": "G1-266",
-     "tasks": 2
-    },
-    {
-     "part": 3,
      "lesson": 3,
      "title": "Add three groups",
      "type": "G1-112",
      "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Addition pyramids (number walls)",
+     "type": "G1-266",
+     "tasks": 2
     }
    ],
    "notCovered": [
@@ -506,15 +392,15 @@
      "pages": 2,
      "cards": [
       [
-       "614ce826c55a6567",
-       "e12460c1eb46dcba"
+       "76561a4fdcfccf70",
+       "64d7ea57ccc8a7d2"
       ],
       [
-       "723978aa2595e95a",
-       "835bdbf32fa42dc6"
+       "4e0775e1d04c769d"
       ],
       [
-       "76292f78b34a5057"
+       "9f76c8d42f218257",
+       "433c3e6a15c8cd3e"
       ]
      ],
      "pos": [
@@ -523,10 +409,10 @@
        null
       ],
       [
-       null,
        null
       ],
       [
+       null,
        null
       ]
      ]
@@ -535,15 +421,15 @@
      "pages": 2,
      "cards": [
       [
-       "fef6232d60fd858b",
-       "0b265c051a634060"
+       "43393ce3ef13d3aa",
+       "6567b0d88994764a"
       ],
       [
-       "32186b109d6de911",
-       "f37a1e73de388e51"
+       "c628e5adf792451c"
       ],
       [
-       "28fdad050d291067"
+       "c7ce11780c2f73e9",
+       "4769e472b8c0f27e"
       ]
      ],
      "pos": [
@@ -552,10 +438,10 @@
        null
       ],
       [
-       null,
        null
       ],
       [
+       null,
        null
       ]
      ]
@@ -597,15 +483,15 @@
      "pages": 1,
      "cards": [
       [
-       "4ec288f3080b4d08"
+       "04234819bfce54ee"
       ],
       [
-       "59cb90db62805fff",
-       "1d46aef3f9a24425"
+       "9a5d64bf8a009638",
+       "3e0092ff949bcd09"
       ],
       [
-       "aef3173dc06edb7d",
-       "31b973141868aa43"
+       "011c965d6407e0ec",
+       "3277147669bffaec"
       ]
      ],
      "pos": [
@@ -613,8 +499,8 @@
        null
       ],
       [
-       1,
-       2
+       0,
+       1
       ],
       [
        2,
@@ -626,15 +512,15 @@
      "pages": 1,
      "cards": [
       [
-       "1d48872af81b16b7"
+       "f0f0b9302ecf0f89"
       ],
       [
-       "30492e035a7ebf04",
-       "1c201a88f743857e"
+       "6450a8a3e59a8855",
+       "0c9c3aa8b519fc35"
       ],
       [
-       "c633b7d996e2be8c",
-       "f5ea284288ca500f"
+       "1aaddc296cc959fc",
+       "51c5a04580a0d876"
       ]
      ],
      "pos": [
@@ -643,10 +529,10 @@
       ],
       [
        2,
-       1
+       0
       ],
       [
-       1,
+       0,
        2
       ]
      ]

@@ -9,7 +9,20 @@
  *
  *   cutCards(page, { type, strings, locale, seed, theme, outDir }) →
  *     { refused: why }                      the type is not built of cards that carry their answers
- *     { cols, cards: [{ html, w, h, sig, answers }], instruction, title }
+ *     { cols, cards: [card], instruction, title }
+ *
+ * What is known of a card, so that a check can choose its cards (build-checks.js):
+ *   html, w, h   the card as it stands on its worksheet
+ *   answers      how many answers it carries
+ *   ans          the answers themselves (a section does not ask for the same answer twice)
+ *   pos          where the right option of a choice card sits among its options (null: the child writes)
+ *   kind         the shape of the task with every number replaced by n and every word by w: "n + ? = n" is not
+ *                "n + n = ?" (the signs stay: a plus task is not a minus task)
+ *   nums, mag    the numbers the card shows or asks for, and the largest of them (its size)
+ *   key          what makes two cards THE SAME TASK: the same numbers (in any order: 4 and 1 is 1 and 4), or for a
+ *                card without numbers the same pictures
+ *   plain        false for a number a check should not lean on when another card exists (a two-digit number with
+ *                two equal digits: swapping tens and ones goes unnoticed)
  */
 'use strict';
 const fs = require('fs');
@@ -48,8 +61,36 @@ async function cutCards(page, o) {
     const cols = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
     const cards = [...grid.children].filter((c) => c.classList.contains('ws-card')).map((c) => {
       const r = c.getBoundingClientRect();
-      const marks = [...c.querySelectorAll('*')].flatMap((e) => Object.entries(e.dataset).filter(([k]) => k.startsWith('lcs')).map(([k, v]) => k + '=' + v));
-      return { html: c.outerHTML, w: Math.round(r.width), h: Math.round(r.height), answers: c.querySelectorAll('[data-lcs-answer],[data-lcs-correct]').length, pos: (() => { const e = c.querySelector('[data-lcs-correct]'); return e ? [...e.parentElement.children].indexOf(e) : null; })(), ans: [...c.querySelectorAll('[data-lcs-answer]')].map((e) => e.dataset.lcsAnswer).concat([...c.querySelectorAll('[data-lcs-correct]')].map((e) => (e.textContent || '').trim() || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'option ' + [...e.parentElement.children].indexOf(e))).join('|'), sig: (c.innerText || '').replace(/\s+/g, ' ').trim() + ' # ' + marks.join(' ') + ' # ' + [...c.querySelectorAll('img')].map((i) => (i.getAttribute('src') || '').split('/').slice(-2).join('/')).join(' ') };
+      const kind = [], nums = [];
+      (function walk(n) {
+        for (const ch of n.childNodes) {
+          if (ch.nodeType === 3) { const t = ch.textContent.trim(); if (t) { kind.push(t.replace(/\d+/g, 'n').replace(/\p{L}+/gu, 'w')); for (const m of t.match(/\d+/g) || []) nums.push(Number(m)); } continue; }
+          if (ch.nodeType !== 1 || ch.classList.contains('ws-card-badge')) continue;
+          if (ch.dataset && ch.dataset.lcsAnswer !== undefined) { kind.push('?'); for (const m of String(ch.dataset.lcsAnswer).match(/\d+/g) || []) nums.push(Number(m)); if (!ch.children.length) continue; }
+          walk(ch);
+        }
+      })(c);
+      const answers = [...c.querySelectorAll('[data-lcs-answer]')].map((e) => e.dataset.lcsAnswer);
+      const correct = [...c.querySelectorAll('[data-lcs-correct]')];
+      const imgs = [...new Set([...c.querySelectorAll('img')].map((i) => (i.getAttribute('src') || '').split('/').slice(-2).join('/')))].sort();
+      const first = correct[0];
+      const choice = correct.map((e) => (e.textContent || '').trim() || e.dataset.lcsChoice || e.dataset.lcsSym || ((e.querySelector('img') || e).getAttribute('src') || '').split('/').slice(-2).join('/') || 'option ' + [...e.parentElement.children].indexOf(e));
+      const sorted = nums.slice().sort((a, b) => a - b);
+      // what the card shows, as a fingerprint: its markup without its number on the page
+      const shownAs = c.innerHTML.replace(/<span class="ws-card-badge">[^<]*<\/span>/, '').replace(/\s+/g, ' ');
+      let hash = 5381; for (let i = 0; i < shownAs.length; i++) hash = ((hash << 5) + hash + shownAs.charCodeAt(i)) >>> 0;
+      const look = hash.toString(16) + '.' + shownAs.length;
+      return {
+        html: c.outerHTML, w: Math.round(r.width), h: Math.round(r.height),
+        answers: answers.length + correct.length, ans: answers.concat(choice).join('|'),
+        pos: first ? [...first.parentElement.children].indexOf(first) : null,
+        kind: kind.join(' ').replace(/\s+/g, ' '), nums: sorted, mag: sorted.length ? sorted[sorted.length - 1] : 0,
+        // two or more numbers are a fact (4 + 1 = 5 is 1 + 4 = 5); a card with one number or none is the same task
+        // only when it shows the same thing (two shapes with four sides are two tasks)
+        key: sorted.length >= 2 ? 'n:' + sorted.join(',') : 'v:' + look,
+        look,
+        plain: !answers.some((a) => /^(\d)\1$/.test(String(a))),
+      };
     });
     return { alone: true, cols, cards };
   });

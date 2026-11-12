@@ -1,0 +1,16 @@
+{
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason.",
+ "drop": {
+  "k-sorting-tallies-days": {
+   "4": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
+  },
+  "k-putting-together-number-bonds": {
+   "4": "[en.review-k1-math] The missing part of 20 without a picture cannot be tried by a child before the unit; far above the bonds of 5 in the part before it."
+  }
+ },
+ "instruction": {
+  "K-016": "The pictures are in pairs. If one is left over, the number is odd. Circle odd or even.",
+  "G1-287": "Each card shows a double. Write how many in all."
+ },
+ "noCheck": {}
+}

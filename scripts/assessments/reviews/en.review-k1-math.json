@@ -1,0 +1,142 @@
+{
+ "ui": {
+  "tpHow1": "Give Check A before you start the unit and Check B when you finish it. Both checks ask the same kinds of tasks with different numbers and pictures. Before Check A, tell the children that they have not learned these things yet and that it is fine to skip a part.",
+  "tpHow3": "Give one point for each task box that is completely right.",
+  "notCovered": "Not in the check: {lessons}. Worksheets that cannot be split into single tasks are left out.",
+  "tpGridLead": "Write each child's points for every part, Check A on the left and Check B on the right. After Check B, a part where a child does not have all the points is a part to look at again.",
+  "tpNextLead": "For each part, go back to the lesson it belongs to. Every worksheet and activity named here is linked on the unit's web page.",
+  "tpStillEasier": "Teach Lesson {n} again. Then use the easier version of “{title}” for more practice.",
+  "tpStill": "Use “{title}” to teach Lesson {n} again.",
+  "tpEasyHarder": "Use the harder version of “{title}” as a challenge.",
+  "tpEasyOn": "No extra practice is needed for this lesson."
+ },
+ "parts": [
+  {
+   "unit": "k-position-size-patterns",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Both boxes in both forms ask for the same word (ON) and the right picture is the top one all four times, so the second box adds nothing and a child who always circles the top picture earns both points; keep one ON box and take the second from a box with another position word (under, next to) with its own direction line, or use one box only."
+  },
+  {
+   "unit": "k-sorting-tallies-days",
+   "part": 1,
+   "verdict": "fix",
+   "why": "The child draws tally marks but the key shows numerals (A: 5 and 4, B: 4 and 9), so the key must show the tally marks and say whether five must be bundled; the counts are also uneven (A goes to 5, B to 9), so pick boxes of the same size in both forms."
+  },
+  {
+   "unit": "k-sorting-tallies-days",
+   "part": 2,
+   "verdict": "drop",
+   "why": "Form B asks apple or pear, which has no sure heavier one in real life (the key says pear), and Form A asks camel or panda, which a kindergartner cannot know and where the panda is drawn bigger; the part works only with boxes where the difference is obvious to a five-year-old (elephant and mouse)."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "part": 2,
+   "verdict": "drop",
+   "why": "Both forms ask for the missing part of 20 (A: 13 and ?, ? and 15; B: ? and 19, ? and 3) with no picture support, which is Grade 1 work and far above the bonds of 5 in Part 3, so an untaught kindergartner cannot attempt it; the key also shows the dashed circles empty in both forms."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "part": 3,
+   "verdict": "fix",
+   "why": "The key shows no answers in the dashed circles in both forms (A: 4 and 1, B: 3 and 4), and in Form A the two boxes are the same fact (4 and 1) mirrored, so each box prints the other's answer; pick a different pair for one of the Form A boxes."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "part": 4,
+   "verdict": "fix",
+   "why": "The direction never says what to do and tells the child to pair pictures that are already paired, in both forms; reword to: The pictures are in pairs. If one is left over, the number is odd. Circle odd or even."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 1,
+   "verdict": "fix",
+   "why": "The boxes are too small for a Grade 1 unit within 10 and uneven (A: 1 + 2 and 1 + 1, B: 1 + 1 and 1 + 4), so nearly every child has both points before the unit; pick boxes with sums from 6 to 10 of the same size in both forms."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 2,
+   "verdict": "fix",
+   "why": "Form A asks for a missing addend (2 + ? = 6, 7 + ? = 9) but Form B asks for the result (4 + 2 = ?, 5 − 3 = ?, one of them a subtraction), so B is an easier and different task and does not test the lesson (find the missing number); pick Form B boxes with the missing number in the same place as in Form A."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 5,
+   "verdict": "fix",
+   "why": "Form B box 1 (roof 9, 6, 3) is the same box as Form A box 2, although the teacher pages promise different numbers; pick another fact family for one of them."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "part": 6,
+   "verdict": "fix",
+   "why": "The second box is 4 + ? = 10 with the same ten frame in Form A and in Form B; pick another box for one of the forms."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "part": 1,
+   "verdict": "fix",
+   "why": "The direction (Every card on this page doubles a group of pictures.) is a statement about a worksheet page and gives the child nothing to do, in both forms; reword to: Each card shows a double. Write how many in all."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "part": 2,
+   "verdict": "fix",
+   "why": "The answer key of both forms shows only the bottom row of each wall, with the empty bricks and their answers missing (A: 5, 4, 9 and 5, 2, 7; B: 6, 4, 10 and 5, 3, 8), while the child's page is correct; the unit title also says Addition Pyramids where the direction says wall, so use one word."
+  },
+  {
+   "unit": "g1-tens-and-ones",
+   "part": 1,
+   "verdict": "fix",
+   "why": "Form A is 55, where a child who swaps tens and ones is still right, and Form B is 19, a teen number at a different level; pick two-digit numbers above 20 with two different digits in both forms (34 and 52, for example)."
+  }
+ ],
+ "checks": [
+  {
+   "unit": "k-position-size-patterns",
+   "verdict": "ok-with-fixes",
+   "why": "Keys are right, pictures are clear, and a kindergartner can attempt all three parts before the unit; only Part 1 needs a second position word or a single box. Four boxes is a fair length for the grade."
+  },
+  {
+   "unit": "k-sorting-tallies-days",
+   "verdict": "ok-with-fixes",
+   "why": "The heavier part must go or get obvious pairs, and the tally key must show tallies; the estimate part is correct in both forms (18 wolves, 16 peaches). With Part 2 gone only three boxes remain, and neither sorting nor the days of the week from the title is checked, so the teacher pages must say that clearly."
+  },
+  {
+   "unit": "k-putting-together-number-bonds",
+   "verdict": "ok-with-fixes",
+   "why": "Usable for kindergarten only without the bonds of 20, with a direction for odd and even that says what to do, and with a key that shows the bond answers (four of seven boxes per form have no answer in the key now). Parts 1, 3, and 4 are at a level an untaught child can try."
+  },
+  {
+   "unit": "g1-add-subtract-within-10",
+   "verdict": "ok-with-fixes",
+   "why": "All keys are correct and twelve boxes on three pages is a good length for Grade 1, but Part 2 is a different task in Form B, Part 1 is too easy to show any change, and Parts 5 and 6 repeat a Form A box in Form B."
+  },
+  {
+   "unit": "g1-doubles-three-addends-number-walls",
+   "verdict": "ok-with-fixes",
+   "why": "The child's pages work and Forms A and B are at the same level; the Part 1 direction must tell the child what to do, and the answer key cannot be used for Part 2 until it shows the bricks and their numbers."
+  },
+  {
+   "unit": "g1-tens-and-ones",
+   "verdict": "ok-with-fixes",
+   "why": "Keys are correct, the answer places vary, and one page is right for the grade; only the Part 1 numbers (55 and 19) need to change so that both forms test tens and ones at the same level."
+  }
+ ],
+ "notes": [
+  "The answer keys print no answers for number bonds (dashed circles stay empty) and drop the empty bricks of number walls altogether; check every other unit that uses these two task types.",
+  "On the contact sheets the right choice looks like the only square frame, but that is how the key marks it; I checked two child pages (k-sorting-tallies-days A page 1, g1-add-subtract-within-10 A pages 2 and 3) and the frames there are identical, so it is not a tell.",
+  "Task boxes keep their worksheet numbers, so a part shows 1 and 3, or 3 before 2, or a single box numbered 2, and the compare boxes in g1-tens-and-ones have no number at all; number the boxes 1, 2 inside each part or leave the tabs off, and do not call a task a numbered box (tpHow3 changed).",
+  "On the teacher pages the parts are not in lesson order (Parts 1 to 7 are Lessons 1, 6, 8, 2, 5, 3, 4), so the pre-check asks for missing addends before take-away; order the parts by lesson.",
+  "tpGridLead flagged every child who had all the points on both checks, because Check B is then not higher than Check A; the new wording looks at Check B alone.",
+  "tpEasyOn told the teacher to go on to the next lesson after Check B, when the unit is already over; the new wording fits both checks.",
+  "The three next-step sentences ended with a period after the closing quotation mark, which is not US style and printed as “Make 10!”. on the teacher pages; the new sentences put the title in the middle.",
+  "notCovered said these lessons even when one lesson is named (Not in the check: Lesson 7.); the new sentence works for one or several.",
+  "Nothing told the teacher what to say before Check A; I added one sentence to tpHow1 so that untaught children know they may skip a part, which matters most in kindergarten.",
+  "Odd and even is a Grade 2 standard in the US and bonds of 20 are Grade 1 or later, so the kindergarten unit k-putting-together-number-bonds runs above grade in two lessons; a US kindergarten teacher will notice.",
+  "g1-add-subtract-within-10 Part 7 lands on 15 and 17 in a unit named Within 10, and the hops are already printed, so the child only reads where the last hop lands; it is correct and doable, but it checks reading a number line more than counting on.",
+  "One or two boxes per lesson cannot tell a slip from a gap, most of all in the parts worth one point; the sentence in tpHonest covers this and should stay as prominent as it is.",
+  "On the teacher pages picture the heading What to do next sits directly under the line Not in the check: Lesson 7. with no space above it.",
+  "The folder g1-add-subtract-within-10 also holds pages 4 to 6 (check-a-4.png to key-b-6.png) that are not on the contact sheet; they look like leftovers from an earlier build and I did not review them.",
+  "The word free does not appear anywhere, and nothing in the wording calls the check a test, a grade, diagnostic, or a measure of mastery."
+ ]
+}

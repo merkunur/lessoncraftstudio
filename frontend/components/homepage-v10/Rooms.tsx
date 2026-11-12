@@ -436,7 +436,7 @@ export function Studio({
    abstract "unlimited" has a picture.
 
    ⚠ TIER TRUTH. These claims are about code behaviour, so they come from
-   frontend/lib/quota.ts (PLAYS_PER_DAY = 10, DOWNLOADS_PER_MONTH = 3,
+   frontend/lib/quota.ts (PLAYS_PER_DAY = 10, DOWNLOADS_PER_MONTH = 1,
    anonymous downloads = 0) and the price from SUBSCRIPTION_PRODUCT. Never
    hardcode a price and never exceed the pricing page. */
 export function MembersRoom({

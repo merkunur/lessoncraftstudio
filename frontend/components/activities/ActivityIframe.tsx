@@ -74,7 +74,7 @@ export function ActivityIframe({
   const [height, setHeight] = useState<number>(INITIAL_HEIGHT);
   const exempt = isCareSurface(toolKey);
   const [gate, setGate] = useState<"pending" | "open" | "blocked" | "signup" | "verify">(exempt ? "open" : "pending");
-  const surface = sample ? undefined : toolKey ? "tool" : "activity";
+  const surface = sample ? "sample" : toolKey ? "tool" : "activity";
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   useEffect(() => {
@@ -163,7 +163,7 @@ export function ActivityIframe({
 
   // An activity or a tool waits for the answer: most visitors have no account, and for them a frame that loads and
   // then gives way to the panel would be the normal case. The box keeps the height, so nothing below moves.
-  if (gate === "pending" && surface) {
+  if (gate === "pending" && !sample) {
     return <div data-play-pending="" aria-busy="true" style={{ width: "100%", height: INITIAL_HEIGHT, minHeight: MIN_HEIGHT }} />;
   }
 

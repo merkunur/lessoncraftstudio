@@ -15,6 +15,8 @@ export interface MeterOutcome {
   proceed: boolean;
   detail?: {
     reason?: 'quota_exceeded' | 'signup_required' | 'verify_required';
+    /** what was asked for (the wall chooses its words by it) */
+    kind?: 'download' | 'play' | 'make';
     used?: number;
     remaining?: number | 'unlimited';
     resetAt?: string;
@@ -23,7 +25,7 @@ export interface MeterOutcome {
 
 const CLASS_TOKEN_IN_HASH = /[#&]lcs=([a-z2-9]{20})(?:&|$)/;
 
-export async function meterAction(kind: 'download' | 'play', surface?: 'activity' | 'tool'): Promise<MeterOutcome> {
+export async function meterAction(kind: 'download' | 'play', surface?: 'activity' | 'tool' | 'sample'): Promise<MeterOutcome> {
   try {
     // This app authenticates via a JWT in localStorage sent as a Bearer header
     // (see contexts/auth-context.tsx) — there is NO cookie session. Without this
@@ -51,7 +53,7 @@ export async function meterAction(kind: 'download' | 'play', surface?: 'activity
       // a play opened through a class link carries its attempt token after '#'; the server does not meter a play of
       // a live class (thirty children on six shared tablets must not meet the per-device wall) and ignores any
       // other token (app/api/quota/check-and-increment)
-      // surface: an activity or a classroom tool needs an account to play (lib/quota.ts PLAY_NEEDS_ACCOUNT)
+      // surface: what is played. Every play needs an account but the homepage sample (lib/quota.ts playNeedsAccount)
       body: JSON.stringify({ kind, ...(surface ? { surface } : {}), ...(classToken ? { classToken } : {}) }),
       credentials: 'include',
       cache: 'no-store',
@@ -72,5 +74,26 @@ export async function meterAction(kind: 'download' | 'play', surface?: 'activity
     return { proceed: true }; // unexpected status → fail open
   } catch {
     return { proceed: true }; // network error → fail open
+  }
+}
+
+/**
+ * Ask, without counting anything, whether this visitor may play: used by a card that sends her on to a deck page,
+ * which counts the play itself (lcs-meter.js). Until 2026-11-12 the card counted too, so one worksheet opened from
+ * a topic page cost two of the day's ten plays. Fail-open like meterAction.
+ */
+export async function peekPlay(): Promise<MeterOutcome> {
+  try {
+    let token: string | null = null;
+    try { token = typeof window !== 'undefined' ? localStorage.getItem('accessToken') : null; } catch { /* no storage */ }
+    const res = await fetch('/api/quota/status', { headers: token ? { Authorization: `Bearer ${token}` } : {}, credentials: 'include', cache: 'no-store' });
+    if (!res.ok) return { proceed: true };
+    const j = await res.json().catch(() => ({}));
+    if (j?.needs === 'signup') return { proceed: false, detail: { reason: 'signup_required', kind: 'play' } };
+    if (j?.needs === 'verify') return { proceed: false, detail: { reason: 'verify_required', kind: 'play' } };
+    if (j?.play && j.play.allowed === false) return { proceed: false, detail: { reason: 'quota_exceeded', kind: 'play' } };
+    return { proceed: true };
+  } catch {
+    return { proceed: true };
   }
 }

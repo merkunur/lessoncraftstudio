@@ -5,7 +5,7 @@
       "Every sheet works two ways: print the PDF for crayon-and-paper practice, or open the interactive version and let your child tap the answers on a tablet. Answer keys are included, so you can check together — many families print the sheet and keep the online version for the waiting room or the car ride."
     ],
     "faq": [
-      { "q": "Are these preschool math worksheets really free?", "a": "Yes — every worksheet on this page is free, with no account and no sign-up. You can print the PDF, download the answer key, and play the interactive version in the browser without registering." },
+      { "q": "Are these preschool math worksheets really free?", "a": "Yes — every worksheet on this page is free with a free account. You can print the PDF, download the answer key, and play the interactive version in the browser without registering." },
       { "q": "My child can't read numbers yet. Can they still use these?", "a": "That's exactly who these are for. The preschool sheets use pictures — comparing groups and counting objects in scenes — so children practice quantity and one-to-one counting before they ever write a numeral." },
       { "q": "Should we print the worksheets or play them online?", "a": "Both work, and many families alternate. Printing supports pencil control and taking time over a page; the interactive version gives instant feedback and is handy on a tablet. The content is identical either way." }
     ]
@@ -24,7 +24,7 @@
   "math.grade-1": {
     "paragraphs": [
       "First grade is where arithmetic within 20 becomes fluent and where children meet the clock. This page gathers math puzzles that practice addition and subtraction through symbol-substitution riddles, telling-time sheets for full and half hours, picture arithmetic, number charts, simple graphs, and first measurement pages that order objects by length.",
-      "The math puzzles deserve a special mention: instead of bare equations, children solve for symbols that stand for numbers, which quietly introduces algebraic thinking while staying firmly inside grade-1 number ranges. Print any sheet as a PDF with its answer key, or let your child solve it online with instant checking — free, no account."
+      "The math puzzles deserve a special mention: instead of bare equations, children solve for symbols that stand for numbers, which quietly introduces algebraic thinking while staying firmly inside grade-1 number ranges. Print any sheet as a PDF with its answer key, or let your child solve it online with instant checking — free with a free account."
     ],
     "faq": [
       { "q": "How can my first grader practice telling time?", "a": "Start with the full-hour clock sheets, then move to half hours. Each sheet shows analog clock faces to read or set, and the interactive version lets children check each answer immediately." },
@@ -51,13 +51,13 @@
     "faq": [
       { "q": "What time-telling skills should a third grader have?", "a": "Reading analog clocks to five minutes and then to the minute, and working simple elapsed-time questions. The sheets here cover the reading practice; do elapsed time verbally alongside them for best results." },
       { "q": "Are these enough to learn the times tables?", "a": "The array sheets build the concept — equal groups, repeated addition, rows × columns. For raw fact fluency, pair them with short daily practice; the visual grounding makes memorization stick much better." },
-      { "q": "Do the interactive versions work on a tablet?", "a": "Yes. Every exercise plays in the browser on tablets, laptops, and phones — no app, no login. Tap answers, check instantly, and print the same sheet later if you want paper practice." }
+      { "q": "Do the interactive versions work on a tablet?", "a": "Yes. Every exercise plays in the browser on tablets, laptops, and phones — no app. Tap answers, check instantly, and print the same sheet later if you want paper practice." }
     ]
   },
   "letters.preschool": {
     "paragraphs": [
       "Before children read, they need to know the alphabet as a sequence and letters as shapes. The alphabet-train sheets on this page do exactly that: children put letter wagons in order, spot missing letters, and connect the sequence to pictures — a format young children genuinely enjoy repeating.",
-      "Print the trains as free PDFs for cut-and-paste or pencil work, or let your child solve them in the browser with instant feedback. There is no account and no limit; if your child loves trains, print the whole set."
+      "Print the trains as free PDFs for cut-and-paste or pencil work, or let your child solve them in the browser with instant feedback. If your child loves trains, print the whole set."
     ],
     "faq": [
       { "q": "In what order should a preschooler learn letters?", "a": "There is no single correct order — many families start with the child's own name, then high-frequency letters. The alphabet-train format practices the full A-to-Z sequence, which supports whatever order you introduce individual letters in." },
@@ -68,7 +68,7 @@
   "letters.kindergarten": {
     "paragraphs": [
       "Kindergarten literacy is sound-and-letter work, and this page collects its most effective formats: picture cryptograms where children crack a symbol-to-letter code to reveal words, missing-letter word-guess sheets, preposition pages that build position language, picture bingo for vocabulary, and dedicated phonological-awareness and letter-knowledge exercises.",
-      "The cryptograms are the quiet star: to decode a word, a child must attend to every single letter in order — exactly the letter-by-letter attention early reading requires, wrapped in a puzzle children ask to repeat. All of it prints free with answer keys and plays online without an account."
+      "The cryptograms are the quiet star: to decode a word, a child must attend to every single letter in order — exactly the letter-by-letter attention early reading requires, wrapped in a puzzle children ask to repeat. All of it prints free with answer keys and plays online with a free account."
     ],
     "faq": [
       { "q": "How do cryptogram worksheets help a beginning reader?", "a": "Decoding a symbol key forces the child to process each letter position individually — the same skill used in sounding out words. It feels like a secret-agent game, which is why children happily do the repetition that phonics needs." },
@@ -90,7 +90,7 @@
   "letters.grade-2": {
     "paragraphs": [
       "By second grade, children can handle the classic crossword — and this page holds a large collection of picture crosswords, where every clue is an image and the answer is its word spelled into the grid. Crossing words check each other: one wrong letter breaks a neighbor, so children learn to verify spelling instead of guessing.",
-      "Picture clues keep the format accessible to seven- and eight-year-olds while the grid demands accurate spelling of every word. Print any crossword free as a PDF with its solution page, or solve it in the browser where each letter can be checked instantly. No account needed."
+      "Picture clues keep the format accessible to seven- and eight-year-olds while the grid demands accurate spelling of every word. Print any crossword free as a PDF with its solution page, or solve it in the browser where each letter can be checked instantly. A free account is all you need."
     ],
     "faq": [
       { "q": "Why picture crosswords instead of definition crosswords?", "a": "At this age the goal is spelling, not vocabulary lookup. A picture clue removes the reading burden of definitions so all the effort goes into spelling the word correctly into the crossing grid." },
@@ -101,7 +101,7 @@
   "science.kindergarten": {
     "paragraphs": [
       "Early science is classification: which of these are animals? What belongs in the kitchen? What lives in water? The sorting and matching sheets on this page use real vocabulary pictures — animals, plants, foods, everyday objects — and ask children to group them by category, the foundational move of scientific thinking.",
-      "Sorting works beautifully both on paper and on screen: print the free PDF and let children cut and glue items into columns, or use the browser version where they drag each picture into its bin and get instant feedback. Answer keys included; no account required."
+      "Sorting works beautifully both on paper and on screen: print the free PDF and let children cut and glue items into columns, or use the browser version where they drag each picture into its bin and get instant feedback. Answer keys included."
     ],
     "faq": [
       { "q": "What does science look like for a five-year-old?", "a": "Observing and categorizing. Deciding that a whale and a mouse are both animals — but a rock is not — is genuine scientific reasoning at this age. The sorting sheets exercise exactly that judgment." },
@@ -134,7 +134,7 @@
   "logic.kindergarten": {
     "paragraphs": [
       "This is the platform's largest reasoning collection: matching pairs, sorting pictures into categories, kid-friendly sudoku with pictures instead of digits, missing-piece puzzles, hidden-object scenes, odd-one-out sheets, and grid puzzles. Each format isolates a different reasoning move — pairing, classifying, constraint-checking, spotting the exception.",
-      "Picture sudoku deserves a note: a 4×4 grid where each picture may appear once per row and column introduces constraint satisfaction — real deductive logic — with zero arithmetic. Like everything here, each puzzle prints free as a PDF with its solution and plays in the browser without an account."
+      "Picture sudoku deserves a note: a 4×4 grid where each picture may appear once per row and column introduces constraint satisfaction — real deductive logic — with zero arithmetic. Like everything here, each puzzle prints free as a PDF with its solution and plays in the browser with a free account."
     ],
     "faq": [
       { "q": "What does sudoku teach a kindergartner?", "a": "Deduction. 'This row already has a cat, so the cat must go elsewhere' is a genuine logical inference. The picture format makes that reasoning available years before children could do a number sudoku." },
@@ -145,7 +145,7 @@
   "spatial-reasoning.kindergarten": {
     "paragraphs": [
       "Visual perception — seeing precisely — is a school skill of its own, and this page trains it three ways: pattern trains where children continue a repeating sequence, shadow-matching sheets where they pair an object with its silhouette, and picture paths where they trace a route through a grid following a picture sequence.",
-      "Pattern work is pre-math (AB, AAB, ABC patterns are the structure under skip counting and multiplication), while shadow matching sharpens the shape discrimination that separates b from d in reading. Every sheet is a free PDF with an answer key and a playable browser exercise — no sign-up anywhere."
+      "Pattern work is pre-math (AB, AAB, ABC patterns are the structure under skip counting and multiplication), while shadow matching sharpens the shape discrimination that separates b from d in reading. Every sheet is a free PDF with an answer key and a playable browser exercise."
     ],
     "faq": [
       { "q": "How do patterns prepare a child for math?", "a": "A repeating pattern is structure the child must detect and extend — the same mental operation behind skip counting, number patterns, and later multiplication tables. Pattern fluency at five predicts easier math at seven." },

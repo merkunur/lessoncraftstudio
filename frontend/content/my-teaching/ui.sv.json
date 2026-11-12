@@ -16,7 +16,7 @@
  "alsoStandards": "Översikter över läroplanen",
  "alsoWorksheets": "Alla arbetsblad för den här årskursen",
  "accountTitle": "Det här får du med ditt konto",
- "accountBody": "Du kan läsa alla lektionsplaneringar och ladda ner {n} arbetsblad i månaden.",
+ "accountBody": "Du kan läsa alla lektionsplaneringar och ladda ner arbetsblad: {n} i månaden.",
  "planLead": "Med abonnemanget {plan} försvinner gränsen, och du får filerna du undervisar med:",
  "collectionsNote": "Dina samlingar och sparade arbetsblad visas här när du har abonnemanget {plan}."
 }

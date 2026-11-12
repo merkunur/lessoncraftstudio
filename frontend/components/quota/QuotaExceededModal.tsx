@@ -17,9 +17,11 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import verifyUi from '@/content/verify-email/ui.json';
+import playWall from '@/content/play-wall/ui.json';
 
 export interface QuotaDetail {
   reason?: 'quota_exceeded' | 'signup_required' | 'verify_required';
+  kind?: 'download' | 'play' | 'make';
   used?: number;
   remaining?: number | 'unlimited';
   resetAt?: string;
@@ -40,10 +42,12 @@ export function QuotaExceededModal({ open, detail, onDismiss }: ModalProps) {
   // an account whose e-mail is not confirmed: its account page sends the link again (content/verify-email/ui.json)
   const verify = detail?.reason === 'verify_required';
   const v = (verifyUi as Record<string, { panelTitle: string; panelBody: string; panelCta: string }>)[locale] || verifyUi.en;
-  const title = verify ? v.panelTitle : signup ? t('signupTitle') : t('exceededTitle');
-  const body = verify ? v.panelBody : signup ? t('signupBody') : t('exceededBody');
-  const cta = verify ? v.panelCta : signup ? t('signupCta') : t('subscribeCta');
-  const href = verify ? `/${locale}/workspace?verify=1` : signup ? `/${locale}/auth/signup?from=download` : `/${locale}/pricing?from=wall`;
+  // a play that needs an account has its own words (content/play-wall/ui.json); the download wall keeps its own
+  const pw = signup && detail?.kind === 'play' ? (playWall as Record<string, { title: string; body: string; cta: string }>)[locale] || playWall.en : null;
+  const title = verify ? v.panelTitle : pw ? pw.title : signup ? t('signupTitle') : t('exceededTitle');
+  const body = verify ? v.panelBody : pw ? pw.body : signup ? t('signupBody') : t('exceededBody');
+  const cta = verify ? v.panelCta : pw ? pw.cta : signup ? t('signupCta') : t('subscribeCta');
+  const href = verify ? `/${locale}/workspace?verify=1` : pw ? `/${locale}/auth/signup?from=play` : signup ? `/${locale}/auth/signup?from=download` : `/${locale}/pricing?from=wall`;
 
   return (
     <div

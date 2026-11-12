@@ -3,18 +3,21 @@
  * subscription, the smart way" — operator ruling 2026-07-12, modeled on
  * education.com + IXL):
  *
- *   - kind 'download' (PDFs, answer keys, generator exports): 3 per UTC MONTH,
+ *   - kind 'download' (PDFs, answer keys, generator exports): 1 per UTC MONTH (operator ruling 2026-11-12,
+ *     verbatim: "decrease the monthly free download from 3 to 1"; it was 3 from 2026-07-12),
  *     FREE ACCOUNT REQUIRED — anonymous download attempts return
  *     reason 'signup_required' (the education.com model).
  *   - kind 'play': 10 per UTC DAY, one counter for interactive worksheets, activities and classroom tools.
- *     An interactive WORKSHEET plays without an account (anonymous and free accounts alike, the IXL model).
- *     An ACTIVITY or a classroom TOOL needs a free account (operator ruling 2026-11-12, verbatim: "activities and
- *     classroom tools should also require sign in for free subscribers and they should be limited to 10 plays a day
- *     for free subscribers"): an anonymous play of one returns reason 'signup_required'. The page says which it is
- *     (surface 'activity' | 'tool', PLAY_NEEDS_ACCOUNT below).
+ *     EVERY play needs a free account (operator rulings 2026-11-12, verbatim: "activities and classroom tools
+ *     should also require sign in for free subscribers and they should be limited to 10 plays a day for free
+ *     subscribers", then: "Interactive worksheets should also require sign in for 10 free plays a day."): an
+ *     anonymous play returns reason 'signup_required'. Until that day an interactive worksheet played without an
+ *     account (the IXL model). Two things are still not asked for an account: a play through a teacher's class
+ *     link (the route lets it through before it comes here), and the ONE sample on the homepage (surface 'sample',
+ *     PLAY_SAMPLE below), which is counted like any play.
  *   - CONFIRMED E-MAIL (operator 2026-11-12, verbatim: "why the accounts which aren't verified get access to the
  *     content which should be available for only signed in free accounts?"): what needs an account needs an account
- *     whose e-mail is confirmed. A download, a make, or a play of an activity or a tool by an account that has not
+ *     whose e-mail is confirmed. A download, a make, or a play by an account that has not
  *     opened its confirmation link returns reason 'verify_required' and counts nothing. Measured that day: 972 of the
  *     1,287 e-mail sign-ups of 28 days had never confirmed, so a made-up address could buy the free limits again and
  *     again. A subscriber is never asked (she has paid); a Google account is confirmed by Google. The read-only
@@ -39,17 +42,17 @@ import { isSubscriptionUsable } from './entitlements';
 import { getCurrentUser } from './auth';
 import { verifyRefreshToken } from './auth-utils';
 
-export const DOWNLOADS_PER_MONTH = 3;
+export const DOWNLOADS_PER_MONTH = 1;
 export const PLAYS_PER_DAY = 10;
 export const MAKES_PER_MONTH = 3;
 
 export type QuotaKind = 'download' | 'play' | 'make';
-/** what is being played: a play of one of these needs an account (see the header) */
-export type PlaySurface = 'activity' | 'tool';
-export const PLAY_NEEDS_ACCOUNT: ReadonlySet<string> = new Set<PlaySurface>(['activity', 'tool']);
+/** what is being played (the page says it; a deck page says nothing). Only the homepage sample plays without an account. */
+export type PlaySurface = 'activity' | 'tool' | 'sample';
+export const PLAY_SAMPLE: PlaySurface = 'sample';
 /** one line to switch the confirmed-e-mail rule off again (see the header) */
 export const FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL = true;
-export const playNeedsAccount = (surface: unknown): boolean => typeof surface === 'string' && PLAY_NEEDS_ACCOUNT.has(surface);
+export const playNeedsAccount = (surface: unknown): boolean => surface !== PLAY_SAMPLE;
 
 const ANON_COOKIE_NAME = 'lcs_anon_id';
 const ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365; // 1 year

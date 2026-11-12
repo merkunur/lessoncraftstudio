@@ -16,7 +16,7 @@
  "alsoStandards": "Standards checklists",
  "alsoWorksheets": "All worksheets for this grade",
  "accountTitle": "What your account gives you",
- "accountBody": "You can read every lesson plan, and you can download {n} worksheets a month.",
+ "accountBody": "You can read every lesson plan, and you can download worksheets: {n} a month.",
  "planLead": "The {plan} plan removes the limit and adds the files you teach from:",
  "collectionsNote": "Your collections and saved worksheets appear here once you have the {plan} plan."
 }

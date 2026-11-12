@@ -12,7 +12,7 @@ import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectTo
 import BulkAddToCollectionPicker from '@/components/catalog/BulkAddToCollectionPicker';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
 import { useQuotaModal } from '@/components/quota/QuotaExceededModal';
-import { meterAction } from '@/lib/client-meter';
+import { meterAction, peekPlay } from '@/lib/client-meter';
 
 // Tool 5A — client wrapper extraction from the topic page's inline grid.
 // Owns bulk-mode state + selection state + per-card affordances. Per §17.4
@@ -88,7 +88,8 @@ export default function DeckGridClient({
   const handlePlay = useCallback(
     async (e: React.MouseEvent, href: string) => {
       e.preventDefault();
-      const { proceed, detail } = await meterAction('play');
+      // asked, not counted: the deck page counts the play itself
+      const { proceed, detail } = await peekPlay();
       if (proceed) window.location.href = href;
       else showQuotaModal(detail);
     },

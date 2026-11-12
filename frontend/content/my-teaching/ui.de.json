@@ -16,7 +16,7 @@
  "alsoStandards": "Lehrplan-Übersichten",
  "alsoWorksheets": "Alle Arbeitsblätter für diese Klasse",
  "accountTitle": "Das bietet dir dein Konto",
- "accountBody": "Du kannst jeden Stundenverlauf lesen und im Monat {n} Arbeitsblätter herunterladen.",
+ "accountBody": "Du kannst jeden Stundenverlauf lesen und Arbeitsblätter herunterladen: {n} im Monat.",
  "planLead": "Mit dem Tarif {plan} fällt das Limit weg, und du bekommst die Dateien für deinen Unterricht:",
  "collectionsNote": "Deine Sammlungen und gespeicherten Arbeitsblätter erscheinen hier, sobald du den Tarif {plan} hast."
 }

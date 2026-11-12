@@ -11,10 +11,10 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 /**
- * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' | 'make', surface?: 'activity' | 'tool' }
+ * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' | 'make', surface?: 'activity' | 'tool' | 'sample' }
  * 200 {allowed:true, used, remaining, resetAt}
- * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make, and an anonymous play of an
- *     activity or a classroom tool: lib/quota.ts PLAY_NEEDS_ACCOUNT)
+ * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make, and every anonymous play but
+ *     the homepage sample: lib/quota.ts playNeedsAccount)
  * 401 {allowed:false, reason:'verify_required', verifyPath}   (an account whose e-mail is not confirmed asks for a
  *     download, a make, or a play of an activity or a tool: lib/quota.ts FREE_ACCOUNT_NEEDS_CONFIRMED_EMAIL)
  * 402 {allowed:false, reason:'quota_exceeded', used, remaining, resetAt, pricingPath}
@@ -56,6 +56,7 @@ export async function POST(request: NextRequest) {
     const res = NextResponse.json(
       {
         allowed: result.allowed,
+        kind,
         reason: result.reason,
         used: result.used,
         remaining: result.remaining,

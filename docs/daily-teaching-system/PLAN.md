@@ -427,7 +427,7 @@ This is the one large new content programme. It is planned as its own ramp and r
 | Item | Anonymous | Free account | Teacher plan |
 |---|---|---|---|
 | Unit page, lesson list, sample pages | see | see | see |
-| A single worksheet inside a unit | as today | as today (3 downloads a month) | unlimited |
+| A single worksheet inside a unit (PDF) | no: sign up | 1 download a month (operator 2026-11-12; it was 3) | unlimited |
 | Whole-unit bundle, teacher guide, printable year plan | no | no | yes |
 | Sub pack page and day plan preview | see | see | see |
 | Sub pack PDF | no | no | yes |
@@ -436,8 +436,8 @@ This is the one large new content programme. It is planned as its own ramp and r
 | A single reader | as today | as today | unlimited |
 | Reader stage bundle and teacher pages | no | no | yes |
 | Curriculum pages and the coverage document | see | see | see |
-| An interactive worksheet on screen | 10 plays a day | 10 plays a day | unlimited |
-| An activity or a classroom tool on screen (operator 2026-11-12) | no: a sign-up panel stands where it would play | 10 plays a day (the same counter as the worksheets) | unlimited |
+| An interactive worksheet, an activity or a classroom tool on screen (operator 2026-11-12) | no: a sign-up panel stands where it would play | 10 plays a day, one counter for all three; the e-mail must be confirmed | unlimited |
+| Making a worksheet in a worksheet maker | no: sign in | 3 new worksheets a month | unlimited |
 | Classes, assignments, results | no (demo dashboard with sample data) | no (demo dashboard with sample data) | yes |
 
 This table is decided (operator 2026-11-11, §11): the classes row is Teacher-only with no trial class, and free accounts see a demo dashboard with sample data. Every lesson plan is readable on the unit page by everyone. Visible copy never uses "free"; metadata may say "free printable" only for items a free account can really download.
@@ -531,6 +531,14 @@ A product is called complete for a grade only when a generated coverage report s
 3b. **Readers: 300 and more in every one of the 11 languages, before the activities** (operator 2026-11-12, verbatim: "Decodable Readers & Guided Reading Books catalogue should also be as comprehensive as possible in each language (300+ is the target per language) and they should also be built before starting building the remaining activities."). Part 8 as written (engine, English scope and word list, the decodability gate, 12 → 60 → 150 → 300 with a review at each step), then every other language to 300 with its own letter order and word lists, written natively. The earlier limit "to 60 unless the readers are being used" is gone for every language. English readers start with step 2, because the literacy year needs their texts.
 4. Class results (Part 9) go on when the lawyer's check is in.
 5. **Part 10, the remaining activities, last of all.** An activity the year map names as the only way to teach an objective is listed there and still waits for Part 10.
+
+**2026-11-12 (operator), every play needs an account, and one download a month.** Verbatim: "Interactive worksheets should also require sign in for 10 free plays a day." and "decrease the monthly free download from 3 to 1." What follows from the two:
+- **The meter:** an anonymous play of anything is answered "sign up"; a free account with a confirmed e-mail plays 10 times a day (one counter for worksheets, activities and tools) and downloads 1 PDF a month (`frontend/lib/quota.ts`). Subscribers, search crawlers and a class on its teacher's class link are let through as before.
+- **A hole that was open since July is closed with it:** a deck shown inside a frame was never counted, and the player of every one of the 30,000 worksheet pages is such a frame. So the "10 plays a day" never applied there. The deck script now asks when the page around it is ours.
+- **Still open to everyone, each my decision and reversible:** the one sample on the homepage; a deck embedded on ANOTHER site (the children on a teacher's blog cannot sign in, and the embed is how the site is passed on); a class on a class link; reading every page of the site.
+- **The deck pages are not rewritten.** All 200,000 load one shared script (`lcs-meter.js`), now written by `scripts/publish-cli/build-lcs-meter.js` from the same text files as the site's walls, and replaced in place on the server.
+- **Every sentence that said otherwise is corrected,** by two native readers working sentence by sentence (the smallest edit, nothing else touched): on the pricing page, the homepage, the standards, about and vocabulary pages, the topic pages (their paragraphs and their "are these free?" answers, about 1,300 strings), the line under the title of every worksheet page, and the paragraphs of the worksheet pages themselves (about 3,700 sentences, 1,270 different ones). About 80 meta descriptions change with them, because they made the same promise in search results; the search-identity baseline is taken again after this deploy for that reason, and for no other.
+- **What this costs, said plainly:** until today a visitor from Google could play a worksheet at once. Now the first thing the player shows is a sign-up panel. More accounts will be made and fewer worksheets will be played by people passing through; pages whose visitors leave at the panel may lose standing in search over the coming weeks. The path report and the search console will show both, and the rule is one line to change.
 
 ## Part 11 — One product: the menu, the hubs, the homepage and the way to the Teacher plan
 
@@ -899,3 +907,12 @@ Mathematics is about three quarters there. Literacy is about a quarter there: re
 - **The band on the hubs:** worksheets, worksheet makers, tools and activities each carry the short band with a grade chooser ("I teach: Kindergarten · Grade 1 · …") that leads to the grade pages, the links to lesson plans, sub plans and checks, and the Teacher plan with its price. On a grade topic page the heading of the band leads to that grade's page.
 - **No new text** again: every string is one a native reader has seen (gate P10).
 - **Local browser check:** grade pages in three languages at four widths (one main heading, noindex with follow, own canonical, chips as links with the current one marked, nothing under 14 px or 44 px, no "your account"), the chips answer, wrong addresses answer 404; the band on the four hubs at two widths (at most 497 px on a phone).
+
+**2026-11-12 — Every play needs an account; one download a month (operator, §11); the grade pages and hub bands live.**
+- **Live before this:** the grade pages `/teach/<grade>` (200 in en, de, sv; 404 in a language without units; noindex, follow) and the band on the four hubs; payment canary OK.
+- **The meter** (`frontend/lib/quota.ts`): `playNeedsAccount` is true for every play but the homepage sample (`surface: 'sample'`); `DOWNLOADS_PER_MONTH = 1`. The status call says what a visitor needs (`needs: signup | verify`), so a card that sends her on to a deck page asks without counting: until now a worksheet opened from a topic page cost two of the day's ten plays.
+- **The deck script** `lcs-meter.js` is now written by `scripts/publish-cli/build-lcs-meter.js` from the site's own wall texts: three walls in 11 languages (no account, e-mail not confirmed, the day's plays used), links that leave a frame, the page remembered for the way back. A deck inside a page of our site is asked like a deck on its own address; a deck inside another site and the sample on our homepage are not. Browser test with 16 cases: `scripts/publish-cli/lcs-meter.browser-test.js`. It was put on the server BEFORE the meter changed, so no visitor meets the old wall with the new rule.
+- **Texts, all by two native readers, smallest edit only:** 4 new sentences per language (the wall, the pricing free card and its bullet, the answer to "are these free?"); 315 sentences of the site's message files edited and 30 kept (they speak of pupils on a teacher's link, which is still true); 956 "are these free?" answers on topic pages replaced by the one true answer; the 7 strings per language that named "3 downloads"; the line under the title of all 30,000 worksheet pages; 3,626 places in the worksheet pages' own paragraphs (1,267 different sentences); 436 places in the seasonal hubs, subject hubs, topic overrides and the activities hub. 88 meta descriptions of worksheet pages and the activities hub's meta description in 11 languages lose the same promise.
+- **Gates:** `scripts/teacher-gate/gates.js` P8 widened (the rule in the meter, the deck script is today's build, no live English sentence, topic answer or topic paragraph says "no account"), P11 new (the number of downloads in the walls and free lists of all 11 languages is the meter's), 47 planted faults. `scripts/auth/smoke-account-rules.js` follows the new rules (an anonymous worksheet play refused, the sample let through, one download given and the second refused).
+- **Measured side effect:** 7 worksheet pages fall a few words under 200 words of text after the cut (de 1, es 4, nl 1, sv 1).
+- **Left as they are:** old namespaces no live page prints (`homepage.*`, `homepageV3`, `homepageV4`, `about.*`, `faq.*`); sentences about pupils on a teacher's class or share link; "free" where a free account really gets the thing.

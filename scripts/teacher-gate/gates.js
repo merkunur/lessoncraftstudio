@@ -20,10 +20,14 @@
  *                   placeholders of the English file, no price, and only for a language that has the panel strings
  *   P7  play panel  the sign-up panel of the player frame (content/play-wall/ui.json) has its four strings in all
  *                   eleven languages, names the 10 plays a day of lib/quota.ts and holds no price
- *   P8  account     operator ruling 2026-11-12: an activity or a classroom tool needs a free account to play. The
- *                   meter keeps the rule (lib/quota.ts), the player frame says what it plays, the homepage sample is
- *                   the one exception, and no English sentence on the pricing, home, standards or about page says
- *                   that these play without an account
+ *   P8  account     operator rulings 2026-11-12: every play on screen needs a free account (activities and tools,
+ *                   then interactive worksheets too). The meter keeps the rule (lib/quota.ts), the player frame says
+ *                   what it plays, the homepage sample is the one exception, the deck script (lcs-meter.js) is the
+ *                   build of today's texts, and no live English sentence says that anything plays, prints or
+ *                   downloads without an account
+ *   P11 downloads   operator ruling 2026-11-12: 1 download a month for a free account. The sentences that name the
+ *                   number (the download wall, the homepage's free list, the maker pages' free list) carry the
+ *                   number of lib/quota.ts and no other, in all eleven languages
  *   P9  confirmed   operator ruling 2026-11-12: what needs an account needs an account whose e-mail is confirmed.
  *                   The count keeps the rule and the read-only status does not (the makers read the numbers); the
  *                   routes answer it; a confirmation link carries the time it was sent and a link sent again is a
@@ -70,7 +74,11 @@ function load() {
   for (const loc of Object.keys(d)) { if (loc[0] === '$') continue; const uf = path.join(C, 'units', 'ui.' + loc + '.json'); d.$band.units[loc] = fs.existsSync(uf) ? readJson(uf) : null; }
   d.$code = { quota: read('lib/quota.ts'), route: read('app/api/quota/check-and-increment/route.ts'), frame: read('components/activities/ActivityIframe.tsx'), sample: read('components/homepage-v6/LiveToolEmbedV6.tsx') };
   const en = readJson(path.join(FRONT, 'messages', 'en.json'));
-  d.$en = {}; for (const k of ['pricingPage.free.blurb', 'homepageV6.close.body', 'topicFaq.fallback.standards.a2', 'standardsPage.intro', 'aboutPage.intro']) d.$en[k] = get(en, k);
+  d.$en = {}; for (const k of ['pricingPage.free.blurb', 'pricingPage.free.item2', 'pricingPage.faq.a1', 'pricingPage.faq.a2', 'homepageV6.close.body', 'homepageV6.hero.pillar4Gloss', 'topicFaq.fallback.single.a2', 'topicFaq.fallback.intersection.a2', 'topicFaq.fallback.standards.a2', 'topicFaq.fallback.activity.a1', 'standardsPage.intro', 'aboutPage.intro', 'learnPage.learnIntro']) d.$en[k] = get(en, k);
+  d.$enOverrides = Object.values(get(en, 'topicFaq.overrides') || {}).flatMap((arr) => Object.values(arr).map((x) => x && x.a).filter(Boolean));
+  d.$enProse = Object.values(get(en, 'topicProse') || {}).filter((x) => typeof x === 'string');
+  d.$num = {}; for (const loc of LOCALES) { const m = loc === 'en' ? en : readJson(path.join(FRONT, 'messages', loc + '.json')); const ml = readJson(path.join(C, 'maker-landings', 'ui.' + loc + '.json')); d.$num[loc] = { 'quotaWall.signupBody': get(m, 'quotaWall.signupBody'), 'homepageV6.teacher.free3': get(m, 'homepageV6.teacher.free3'), 'maker planFree2': ml.planFree2 }; }
+  d.$meterBuild = (() => { try { const b = require('../publish-cli/build-lcs-meter.js'); return ['REFERENCE TRANSLATIONS/lcs-meter.js', 'scripts/class-results/web/lcs-meter.js'].map((f) => fs.readFileSync(path.join(FRONT, '..', f), 'utf8').replace(/\r\n/g, '\n') === b.SOURCE); } catch (e) { return [false, String(e.message)]; } })();
   return d;
 }
 
@@ -114,13 +122,24 @@ function run(d) {
   }
   for (const loc of Object.keys(d.$wall)) if (!LOCALES.includes(loc)) fail('P7', loc + ' is no language of the site');
   // P8
-  if (!/PLAY_NEEDS_ACCOUNT[^\n]*\[\s*'activity'\s*,\s*'tool'\s*\]/.test(d.$code.quota)) fail('P8', 'lib/quota.ts does not name activity and tool as the plays that need an account');
+  if (!d.$code.quota.includes("export const playNeedsAccount = (surface: unknown): boolean => surface !== PLAY_SAMPLE;") || !d.$code.quota.includes("export const PLAY_SAMPLE: PlaySurface = 'sample';")) fail('P8', 'lib/quota.ts: a play other than the homepage sample does not need an account');
+  if (d.$meterBuild[0] !== true || d.$meterBuild[1] !== true) fail('P8', 'lcs-meter.js (the deck script) is not the build of today\'s texts: run node scripts/publish-cli/build-lcs-meter.js (' + d.$meterBuild.join(', ') + ')');
   if ((d.$code.quota.match(/\|\| opts\.accountRequired\) && identity\.kind === 'anon'/g) || []).length !== 2) fail('P8', 'lib/quota.ts: the check and the count do not both refuse an anonymous play that needs an account');
   if (!/accountRequired = kind === 'play' && playNeedsAccount\(body\?\.surface\)/.test(d.$code.route) || !/checkAndIncrementQuota\(identity, kind, \{ accountRequired \}\)/.test(d.$code.route)) fail('P8', 'the meter route does not pass the surface on');
-  if (!/const surface = sample \? undefined : toolKey \? "tool" : "activity";/.test(d.$code.frame) || !/meterAction\("play", surface\)/.test(d.$code.frame)) fail('P8', 'the player frame does not tell the meter what it plays');
+  if (!/const surface = sample \? "sample" : toolKey \? "tool" : "activity";/.test(d.$code.frame) || !/meterAction\("play", surface\)/.test(d.$code.frame)) fail('P8', 'the player frame does not tell the meter what it plays');
   if (!/"signup_required" \? "signup"/.test(d.$code.frame) || !/data-play-signup/.test(d.$code.frame)) fail('P8', 'the player frame has no sign-up panel');
   if (!/<ActivityIframe [^>]*\bsample\b/.test(d.$code.sample)) fail('P8', 'the homepage sample is not marked as the sample');
-  for (const [k, v] of Object.entries(d.$en)) { if (typeof v !== 'string') fail('P8', 'messages/en.json ' + k + ' is missing'); else if (NO_ACCOUNT.test(v) && !/worksheets play (online )?without (an account|a login)/i.test(v)) fail('P8', 'messages/en.json ' + k + ' says that something plays without an account: ' + v.slice(0, 90)); }
+  for (const [k, v] of Object.entries(d.$en)) { if (typeof v !== 'string') fail('P8', 'messages/en.json ' + k + ' is missing'); else if (NO_ACCOUNT.test(v)) fail('P8', 'messages/en.json ' + k + ' says that something needs no account: ' + v.slice(0, 90)); }
+  for (const v of d.$enOverrides) if (NO_ACCOUNT.test(v) || /paywall/i.test(v)) { fail('P8', 'a topic page answer says that something needs no account: ' + v.slice(0, 90)); break; }
+  for (const v of d.$enProse) if (NO_ACCOUNT.test(v) || /paywall/i.test(v)) { fail('P8', 'a topic page paragraph says that something needs no account: ' + v.slice(0, 90)); break; }
+  // P11
+  const dl = (/DOWNLOADS_PER_MONTH\s*=\s*(\d+)/.exec(d.$code.quota) || [])[1];
+  if (dl !== '1') fail('P11', 'lib/quota.ts gives a free account ' + dl + ' downloads a month (the ruling says 1)');
+  for (const loc of LOCALES) for (const [k, v] of Object.entries(d.$num[loc] || {})) {
+    if (typeof v !== 'string') { fail('P11', loc + ' ' + k + ' is missing'); continue; }
+    const nums = v.match(/\d+/g) || [];
+    if (!nums.includes(dl) || nums.some((n) => n !== dl)) fail('P11', loc + ' ' + k + ' names ' + (nums.join(', ') || 'no number') + ' where the meter gives ' + dl + ': ' + v.slice(0, 80));
+  }
   // P9
   const VKEYS = ['panelTitle', 'panelBody', 'panelCta', 'bannerTitle', 'bannerBody', 'resend', 'sent', 'resendFailed', 'verifying', 'verified', 'failedTitle', 'failedBody', 'signIn'];
   for (const loc of LOCALES) {
@@ -188,7 +207,14 @@ const POISONS = [
   ['an empty panel string', 'P7', (d) => { d.$wall.it.signIn = ' '; }],
   ['a panel that names another number of plays', 'P7', (d) => { d.$wall.de.body = d.$wall.de.body.replace(/\d+/, '100'); }],
   ['a price in the panel', 'P7', (d) => { d.$wall.en.body += ' Or $69 a year.'; }],
-  ['the meter no longer names tools', 'P8', (d) => { d.$code.quota = d.$code.quota.replace("['activity', 'tool']", "['activity']"); }],
+  ['a worksheet plays without an account again', 'P8', (d) => { d.$code.quota = d.$code.quota.replace('surface !== PLAY_SAMPLE;', "surface === 'activity' || surface === 'tool';"); }],
+  ['the deck script is an old build', 'P8', (d) => { d.$meterBuild = [true, false]; }],
+  ['a topic answer says no signup', 'P8', (d) => { d.$enOverrides.push('Yes — every worksheet here is free to print and to play online, with an answer key and no signup.'); }],
+  ['a topic paragraph says no account', 'P8', (d) => { d.$enProse.push('Each sheet plays online without an account.'); }],
+  ['the pricing answer says no login', 'P8', (d) => { d.$en['pricingPage.faq.a1'] = 'Play 10 interactive worksheets a day with no login.'; }],
+  ['three downloads in the meter', 'P11', (d) => { d.$code.quota = d.$code.quota.replace('DOWNLOADS_PER_MONTH = 1', 'DOWNLOADS_PER_MONTH = 3'); }],
+  ['a wall that still says 3 downloads', 'P11', (d) => { d.$num.de['quotaWall.signupBody'] = d.$num.de['quotaWall.signupBody'].replace('1', '3'); }],
+  ['a maker page that names no number', 'P11', (d) => { d.$num.fi['maker planFree2'] = d.$num.fi['maker planFree2'].replace(/\d+/g, ''); }],
   ['the count forgets the account rule', 'P8', (d) => { d.$code.quota = d.$code.quota.replace(" || opts.accountRequired) && identity.kind === 'anon'", ") && identity.kind === 'anon'"); }],
   ['the frame does not say what it plays', 'P8', (d) => { d.$code.frame = d.$code.frame.replace('meterAction("play", surface)', 'meterAction("play")'); }],
   ['the homepage sample is asked for an account', 'P8', (d) => { d.$code.sample = d.$code.sample.replace(' sample />', ' />'); }],

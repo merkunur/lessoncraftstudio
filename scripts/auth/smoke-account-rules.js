@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
  * Live self-test of the account rules of the meter (operator rulings 2026-11-12; frontend/lib/quota.ts):
- *   - an activity or a classroom tool needs an account (an anonymous play is answered "signup_required");
+ *   - every play on screen needs an account: an interactive worksheet, an activity, a classroom tool (an anonymous
+ *     play is answered "signup_required"); only the homepage sample plays without one;
  *   - what needs an account needs an account whose e-mail is CONFIRMED ("verify_required");
- *   - an interactive worksheet plays without either;
+ *   - a free account downloads 1 PDF a month and plays 10 times a day;
  *   - a confirmation link is good for 24 hours from when it was SENT, not from when the account was made.
  *
  * Runs ON THE SERVER after a deploy, against the running site on 127.0.0.1 (the payment canary's pattern):
@@ -52,7 +53,11 @@ async function cleanup() {
   r = await meter({ kind: 'play', surface: 'tool' });
   check(r.status === 401 && r.json.reason === 'signup_required', 'no account: a tool play is answered "sign up"');
   r = await meter({ kind: 'play' });
-  check(r.status === 200 || r.status === 402, 'no account: an interactive worksheet is not asked for an account (' + r.status + ')');
+  check(r.status === 401 && r.json.reason === 'signup_required', 'no account: an interactive worksheet is answered "sign up" (' + r.status + ' ' + r.json.reason + ')');
+  r = await meter({ kind: 'play', surface: 'sample' });
+  check(r.status === 200 || r.status === 402, 'no account: the homepage sample is not asked for an account (' + r.status + ')');
+  r = await call('GET', '/api/quota/status');
+  check(r.json.needs === 'signup', 'no account: the status says a sign-up is needed (' + r.json.needs + ')');
 
   // ---- an account that has not confirmed its e-mail ----
   const password = crypto.randomBytes(18).toString('base64url');
@@ -72,11 +77,11 @@ async function cleanup() {
   r = await meter({ kind: 'make' }, token);
   check(r.status === 401 && r.json.reason === 'verify_required', 'unconfirmed account: a make is answered "confirm your e-mail"');
   r = await meter({ kind: 'play' }, token);
-  check(r.status === 200, 'unconfirmed account: an interactive worksheet still plays (' + r.status + ')');
+  check(r.status === 401 && r.json.reason === 'verify_required', 'unconfirmed account: an interactive worksheet is answered "confirm your e-mail" (' + r.status + ' ' + r.json.reason + ')');
   const counted = await prisma.usageQuota.findMany({ where: { userId: user.id } });
-  check(counted.every((q) => q.kind === 'play') && counted.reduce((n, q) => n + q.actionCount, 0) === 1, 'unconfirmed account: nothing was counted but the one worksheet play');
+  check(counted.reduce((n, q) => n + q.actionCount, 0) === 0, 'unconfirmed account: nothing was counted');
   r = await call('GET', '/api/quota/status', { token });
-  check(r.json.kind === 'free-user' && typeof r.json.make?.remaining === 'number' && r.json.make.remaining > 0, 'unconfirmed account: the read-only status still reports the numbers (the makers read it)');
+  check(r.json.kind === 'free-user' && typeof r.json.make?.remaining === 'number' && r.json.make.remaining > 0 && r.json.needs === 'verify', 'unconfirmed account: the read-only status still reports the numbers (the makers read it) and says the e-mail must be confirmed');
 
   // ---- the confirmation link ----
   r = await call('POST', '/api/auth/verify-email', { body: { token: oldToken } });
@@ -100,11 +105,15 @@ async function cleanup() {
   check(r.status === 200, 'confirmed account: an activity plays (' + r.status + ' ' + (r.json.reason || '') + ')');
   r = await meter({ kind: 'play', surface: 'tool' }, token);
   check(r.status === 200, 'confirmed account: a tool plays');
+  r = await meter({ kind: 'play' }, token);
+  check(r.status === 200, 'confirmed account: an interactive worksheet plays');
   r = await meter({ kind: 'download' }, token);
-  check(r.status === 200 && r.json.remaining === 2, 'confirmed account: a download is given and counted (' + r.status + ', ' + r.json.remaining + ' left)');
-  // the eleventh play of the day is refused: the activity and tool plays share the worksheets' counter
+  check(r.status === 200 && r.json.remaining === 0, 'confirmed account: the one download of the month is given and counted (' + r.status + ', ' + r.json.remaining + ' left)');
+  r = await meter({ kind: 'download' }, token);
+  check(r.status === 402 && r.json.reason === 'quota_exceeded', 'confirmed account: a second download in the month is refused (' + r.status + ' ' + (r.json.reason || '') + ')');
+  // the eleventh play of the day is refused: worksheets, activities and tools share one counter (three are played)
   let last = null;
-  for (let i = 0; i < 9; i++) last = await meter({ kind: 'play', surface: 'activity' }, token);
+  for (let i = 0; i < 8; i++) last = await meter({ kind: 'play', surface: i % 2 ? 'activity' : undefined }, token);
   check(last.status === 402 && last.json.reason === 'quota_exceeded', 'confirmed account: the eleventh play of the day is refused (' + last.status + ' ' + (last.json.reason || '') + ')');
 
   await cleanup();

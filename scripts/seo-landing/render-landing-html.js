@@ -755,7 +755,7 @@ const AUG_STRINGS = {
     problems: 'Sample problems from this worksheet', statProblems: (n) => `${n} exercises`, statWords: (n) => `${n} words`,
     statImages: (n) => `${n} pictures`, answerKeyIncluded: 'Answer key included',
     statGrid: (g) => `${g} grid`,
-    printPlay: 'Print as PDF or play online — free, no sign-up', updated: (d) => `Updated ${d}`,
+    printPlay: 'Print as PDF or play online', updated: (d) => `Updated ${d}`,
     moreVersions: 'More versions of this worksheet',
   },
   de: {
@@ -763,7 +763,7 @@ const AUG_STRINGS = {
     problems: 'Beispielaufgaben aus diesem Arbeitsblatt', statProblems: (n) => `${n} Aufgaben`, statWords: (n) => `${n} Wörter`,
     statImages: (n) => `${n} Bilder`, answerKeyIncluded: 'Mit Lösungen',
     statGrid: (g) => `${g}-Gitter`,
-    printPlay: 'Als PDF drucken oder online spielen — kostenlos, ohne Anmeldung', updated: (d) => `Aktualisiert am ${d}`,
+    printPlay: 'Als PDF drucken oder online spielen', updated: (d) => `Aktualisiert am ${d}`,
     moreVersions: 'Weitere Versionen dieses Arbeitsblatts',
   },
   es: {
@@ -771,7 +771,7 @@ const AUG_STRINGS = {
     problems: 'Ejercicios de ejemplo de esta ficha', statProblems: (n) => `${n} ejercicios`, statWords: (n) => `${n} palabras`,
     statImages: (n) => `${n} imágenes`, answerKeyIncluded: 'Incluye solución',
     statGrid: (g) => `cuadrícula de ${g}`,
-    printPlay: 'Imprime el PDF o juega en línea — gratis y sin registro', updated: (d) => `Actualizado el ${d}`,
+    printPlay: 'Imprime el PDF o juega en línea', updated: (d) => `Actualizado el ${d}`,
     moreVersions: 'Más versiones de esta ficha',
   },
   sv: {
@@ -779,7 +779,7 @@ const AUG_STRINGS = {
     problems: 'Exempeluppgifter från arbetsbladet', statProblems: (n) => `${n} uppgifter`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Facit ingår',
     statGrid: (g) => `${g}-rutnät`,
-    printPlay: 'Skriv ut som PDF eller spela online — gratis, utan konto', updated: (d) => `Uppdaterad ${d}`,
+    printPlay: 'Skriv ut som PDF eller spela online', updated: (d) => `Uppdaterad ${d}`,
     moreVersions: 'Fler versioner av det här arbetsbladet',
   },
   nl: {
@@ -787,7 +787,7 @@ const AUG_STRINGS = {
     problems: 'Voorbeeldopgaven uit dit werkblad', statProblems: (n) => `${n} opgaven`, statWords: (n) => `${n} woorden`,
     statImages: (n) => `${n} afbeeldingen`, answerKeyIncluded: 'Met antwoorden',
     statGrid: (g) => `${g}-raster`,
-    printPlay: 'Print als PDF of speel online — gratis, zonder account', updated: (d) => `Bijgewerkt op ${d}`,
+    printPlay: 'Print als PDF of speel online', updated: (d) => `Bijgewerkt op ${d}`,
     moreVersions: 'Meer versies van dit werkblad',
   },
   da: {
@@ -795,7 +795,7 @@ const AUG_STRINGS = {
     problems: 'Eksempelopgaver fra opgavearket', statProblems: (n) => `${n} opgaver`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} billeder`, answerKeyIncluded: 'Facitliste medfølger',
     statGrid: (g) => `${g}-gitter`,
-    printPlay: 'Print som PDF eller spil online — gratis, uden konto', updated: (d) => `Opdateret ${d}`,
+    printPlay: 'Print som PDF eller spil online', updated: (d) => `Opdateret ${d}`,
     moreVersions: 'Flere versioner af dette opgaveark',
   },
   it: {
@@ -803,7 +803,7 @@ const AUG_STRINGS = {
     problems: 'Esercizi di esempio dalla scheda', statProblems: (n) => `${n} esercizi`, statWords: (n) => `${n} parole`,
     statImages: (n) => `${n} immagini`, answerKeyIncluded: 'Con soluzioni',
     statGrid: (g) => `griglia ${g}`,
-    printPlay: 'Stampa il PDF o gioca online — gratis, senza registrazione', updated: (d) => `Aggiornata il ${d}`,
+    printPlay: 'Stampa il PDF o gioca online', updated: (d) => `Aggiornata il ${d}`,
     moreVersions: 'Altre versioni di questa scheda',
   },
   no: {
@@ -811,7 +811,7 @@ const AUG_STRINGS = {
     problems: 'Eksempeloppgaver fra arbeidsarket', statProblems: (n) => `${n} oppgaver`, statWords: (n) => `${n} ord`,
     statImages: (n) => `${n} bilder`, answerKeyIncluded: 'Fasit følger med',
     statGrid: (g) => `${g}-rutenett`,
-    printPlay: 'Skriv ut som PDF eller spill online — gratis, uten konto', updated: (d) => `Oppdatert ${d}`,
+    printPlay: 'Skriv ut som PDF eller spill online', updated: (d) => `Oppdatert ${d}`,
     moreVersions: 'Flere versjoner av dette arbeidsarket',
   },
   fr: {
@@ -819,7 +819,7 @@ const AUG_STRINGS = {
     problems: "Exemples d'exercices de la fiche", statProblems: (n) => `${n} exercices`, statWords: (n) => `${n} mots`,
     statImages: (n) => `${n} images`, answerKeyIncluded: 'Corrigé inclus',
     statGrid: (g) => `grille ${g}`,
-    printPlay: 'Imprimez le PDF ou jouez en ligne — gratuit, sans inscription', updated: (d) => `Mise à jour le ${d}`,
+    printPlay: 'Imprimez le PDF ou jouez en ligne', updated: (d) => `Mise à jour le ${d}`,
     moreVersions: "D'autres versions de cette fiche",
   },
   pt: {
@@ -827,7 +827,7 @@ const AUG_STRINGS = {
     problems: 'Exemplos de exercícios desta atividade', statProblems: (n) => `${n} exercícios`, statWords: (n) => `${n} palavras`,
     statImages: (n) => `${n} imagens`, answerKeyIncluded: 'Com gabarito',
     statGrid: (g) => `grade ${g}`,
-    printPlay: 'Imprima o PDF ou jogue online — grátis, sem cadastro', updated: (d) => `Atualizado em ${d}`,
+    printPlay: 'Imprima o PDF ou jogue online', updated: (d) => `Atualizado em ${d}`,
     moreVersions: 'Mais versões desta atividade',
   },
   fi: {
@@ -835,7 +835,7 @@ const AUG_STRINGS = {
     problems: 'Esimerkkitehtäviä tästä tehtävästä', statProblems: (n) => `${n} tehtävää`, statWords: (n) => `${n} sanaa`,
     statImages: (n) => `${n} kuvaa`, answerKeyIncluded: 'Vastaukset mukana',
     statGrid: (g) => `${g}-ruudukko`,
-    printPlay: 'Tulosta PDF tai pelaa verkossa — ilmainen, ei rekisteröitymistä', updated: (d) => `Päivitetty ${d}`,
+    printPlay: 'Tulosta PDF tai pelaa verkossa', updated: (d) => `Päivitetty ${d}`,
     moreVersions: 'Muita versioita tästä tehtävästä',
   },
 };

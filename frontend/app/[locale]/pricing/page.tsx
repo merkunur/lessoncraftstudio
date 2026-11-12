@@ -5,6 +5,7 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CheckoutButtons from '@/components/pricing/CheckoutButtons';
+import PricingUnitLook from '@/components/pricing/PricingUnitLook';
 import { PathStep } from '@/components/tracking/PathEvents';
 import { MAKER_COUNT } from '@/lib/seo/maker-content';
 import { getSchoolsUi } from '@/lib/schools';
@@ -161,6 +162,8 @@ export default async function PricingPage({
             </span>
             <span className="text-ink-500"> {t('tier.priceSuffix')}</span>
           </p>
+          {/* the way to buy stands under the price; it used to stand only at the end of the card, two lists further down */}
+          <div className="mb-8" data-checkout-top=""><CheckoutButtons top /></div>
           {/* what the plan gives beyond downloads comes first: it is what a teacher teaches from (Part 11.2) */}
           {gate && system.length ? (
             <div className="mb-8 rounded-lg border border-cream-300 bg-cream-50 p-5" data-teaching-system="">
@@ -205,6 +208,9 @@ export default async function PricingPage({
               plan exists; the key stays in messages for a future revival). */}
         </section>
       </div>
+
+      {/* one real unit, opened: what a teacher teaches from (Part 11.6) */}
+      <PricingUnitLook locale={locale} gate={gate} plan={t('tier.name')} />
 
       <section className="max-w-3xl mx-auto">
         <h2 className="font-display text-2xl font-semibold text-ink-900 mb-6">

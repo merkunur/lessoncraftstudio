@@ -19,7 +19,8 @@ declare global {
  * (webhook localizes the welcome email); no account is required to purchase —
  * the webhook auto-creates one from the buyer email.
  */
-export default function CheckoutButtons() {
+/** `top`: the copy directly under the price (the buttons used to stand only at the end of a long card); it leaves out the small print, which the copy at the end keeps */
+export default function CheckoutButtons({ top = false }: { top?: boolean } = {}) {
   const t = useTranslations('pricingPage');
   const locale = useLocale();
   const { user } = useAuth();
@@ -59,7 +60,7 @@ export default function CheckoutButtons() {
           {t('tier.ctaMonthly')}
         </a>
       )}
-      <p className="text-sm text-ink-500 leading-relaxed">{t('tier.microcopy')}</p>
+      {top ? null : <p className="text-sm text-ink-500 leading-relaxed">{t('tier.microcopy')}</p>}
     </div>
   );
 }

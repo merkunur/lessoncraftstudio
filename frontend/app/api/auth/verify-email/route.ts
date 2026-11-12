@@ -96,7 +96,9 @@ export async function POST(request: NextRequest) {
     // Generate tokens for automatic login
     const { accessToken, refreshToken } = generateTokens(updatedUser);
 
-    // Create session
+    // Create session. Sign-in tokens carry the second they were made: an account that signed in within the same second
+    // already has a session with exactly this token, and the unique rule on it must not turn a confirmation that
+    // has ALREADY been written into "an error occurred" (found by scripts/auth/smoke-account-rules.js, 2026-11-12).
     await prisma.session.create({
       data: {
         userId: user.id,
@@ -106,7 +108,7 @@ export async function POST(request: NextRequest) {
         ipAddress: request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip'),
         userAgent: request.headers.get('user-agent'),
       },
-    });
+    }).catch((e: { code?: string }) => { if (e?.code !== 'P2002') throw e; });
 
     // Send welcome email (async, don't wait)
     sendWelcomeEmail({

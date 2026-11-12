@@ -1,0 +1,1258 @@
+{
+  "1": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Einschulung, Ankommen im Schulalltag und Beobachtung der Lernausgangslage"
+      },
+      {
+        "weeks": "16",
+        "what": "Adventswoche vor den Weihnachtsferien (Feier, Basteln, Aufführung)"
+      },
+      {
+        "weeks": "30",
+        "what": "Projektwoche und Schulfest"
+      },
+      {
+        "weeks": "35",
+        "what": "Einzelne Tage, zusammen etwa eine Woche: Wandertag, Sportfest, Fasching, Zeugnisgespräche, beweglicher Ferientag"
+      },
+      {
+        "weeks": "38",
+        "what": "Letzte Schulwoche vor den Sommerferien (Zeugnisse, Aufräumen, Abschluss)"
+      }
+    ],
+    "units": [
+      {
+        "id": "new:zahlen-bis-10",
+        "title": "Zahlen bis 10: zählen, schreiben, vergleichen und zerlegen",
+        "why": "Der mathematische Anfangsunterricht bis zu den Herbstferien sichert Zählen, Ziffern und Zahlzerlegung, bevor gerechnet wird.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Sortieren: Was gehört zusammen?",
+            "objective": "Die Kinder sortieren Bilder nach einem Merkmal in drei Gruppen und zählen, wie viele in jeder Gruppe sind (Anzahlen bis 10).",
+            "standard": "Mit Daten umgehen",
+            "days": 2,
+            "tool": "Sortierreifen",
+            "source": "point:1:sort-three-groups"
+          },
+          {
+            "new": true,
+            "title": "Zahlen 1 bis 5: zählen und Ziffern schreiben",
+            "objective": "Die Kinder zählen Mengen bis 5, erkennen Würfelbilder auf einen Blick und schreiben die Ziffern 1 bis 5 in der richtigen Schreibrichtung.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Buchstabenwerkstatt",
+            "source": "new",
+            "page": "Das Blatt hat für jede Zahl von 1 bis 5 eine Zeile: links ein Würfelbild und eine Bildmenge mit gleich vielen Dingen, daneben die Ziffer groß zum Nachspuren mit Startpunkt und Richtungspfeil, dann leere Kästchen. Das Kind zählt, spurt die Ziffer nach und schreibt sie dreimal allein; unten verbindet es fünf Bildmengen (1 bis 5 Dinge) mit der passenden Ziffer."
+          },
+          {
+            "new": true,
+            "title": "Zahlen 6 bis 10: fünf und noch mehr",
+            "objective": "Die Kinder zählen Mengen von 6 bis 10, sehen sie im Zehnerfeld als „fünf und noch mehr“ und schreiben die Ziffern 6 bis 9 und die Zahl 10.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Zehnerfeld",
+            "source": "new",
+            "page": "Das Blatt zeigt acht Zehnerfelder mit 6 bis 10 Plättchen (die obere Fünferreihe ist immer voll); das Kind schreibt die Zahl in das Kästchen darunter. In vier leere Zehnerfelder malt es die vorgegebene Zahl (6, 7, 9, 10) als Plättchen, und in einer Schreibzeile spurt es die Ziffern 6, 7, 8, 9 und die Zahl 10 nach."
+          },
+          {
+            "new": true,
+            "title": "Mehr, weniger, gleich viele: die Zeichen <, > und =",
+            "objective": "Die Kinder vergleichen zwei Mengen bis 10, indem sie paarweise zuordnen, und übersetzen Sätze wie „7 ist größer als 4“ in die Zeichenschreibweise 7 > 4 und zurück.",
+            "standard": "M.P.6.1",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt in jeder Aufgabe zwei Bildreihen untereinander (zum Beispiel 7 Äpfel und 4 Birnen, höchstens 10 Dinge), darunter zwei Zahlenkästchen mit einem leeren Kreis dazwischen. Das Kind verbindet die Bilder paarweise mit Strichen, schreibt beide Anzahlen und setzt <, > oder = in den Kreis; im letzten Teil stehen nur noch Zahlenpaare bis 10 und zwei Sätze („5 ist kleiner als 8“), zu denen es die Zeichenschreibweise schreibt."
+          },
+          {
+            "new": true,
+            "title": "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
+            "objective": "Die Kinder ordnen die Zahlen von 1 bis 10, zählen vorwärts und rückwärts und bestimmen zu einer Zahl den Vorgänger und den Nachfolger.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt oben zwei Perlenketten mit den Zahlen 1 bis 10, in denen jeweils vier Zahlen fehlen (einmal vorwärts, einmal rückwärts von 10 bis 1). Darunter stehen acht Dreierkästchen „Vorgänger – Zahl – Nachfolger“ mit einer Zahl von 2 bis 9 in der Mitte; das Kind trägt alle fehlenden Zahlen ein."
+          },
+          {
+            "existing": "de1-zahlen-bis-20#1"
+          },
+          {
+            "new": true,
+            "title": "Zahlen zerlegen: die Schüttelbox",
+            "objective": "Die Kinder zerlegen die Zahlen von 2 bis 9 mit Plättchen in zwei Teile und schreiben jede Zerlegung als Zahlenpaar auf (6 ist 4 und 2).",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Zahlen zerlegen",
+            "source": "new",
+            "page": "Das Blatt zeigt Schüttelboxen von oben: ein Kasten mit Trennwand, links und rechts liegen Plättchen (zusammen 2 bis 9, auf jeder Seite mindestens eines). Über jeder Box steht die ganze Zahl; das Kind schreibt in die zwei Kästchen darunter, wie viele links und wie viele rechts liegen. Bei vier Boxen ist nur eine Seite gezeichnet, die andere ist abgedeckt: Das Kind malt die fehlenden Plättchen und schreibt beide Zahlen."
+          },
+          {
+            "new": true,
+            "title": "Zahlenhäuser: alle Zerlegungen finden",
+            "objective": "Die Kinder finden durch geordnetes Probieren alle Zerlegungen der Zahlen 6 bis 9 in zwei Teile und erklären, woran sie sehen, dass keine fehlt.",
+            "standard": "M.P.3.2",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt vier Zahlenhäuser mit den Dachzahlen 6, 7, 8 und 9; jedes Haus hat genau so viele Stockwerke mit zwei Kästchen, wie es Zerlegungen in zwei Teile ab 1 gibt (bei der 6 fünf Stockwerke). Im ersten Haus sind die ersten zwei Stockwerke vorgegeben (1 und 5, 2 und 4); das Kind füllt alle Häuser der Reihe nach und kreist in jedem Haus die Tauschpaare mit derselben Farbe ein."
+          }
+        ]
+      },
+      {
+        "id": "g1-add-subtract-within-10",
+        "title": "Plus und Minus bis 10: dazutun und wegnehmen",
+        "why": "Nach den Herbstferien bauen die Kinder auf der Zahlzerlegung die Grundvorstellungen von Plus und Minus auf.",
+        "lessons": [
+          {
+            "existing": "g1-add-subtract-within-10#1"
+          },
+          {
+            "new": true,
+            "title": "Tauschaufgaben: 2 + 5 und 5 + 2",
+            "objective": "Die Kinder lösen Tauschaufgaben bis 10 und erläutern am Plättchenbild, warum beide Aufgaben dasselbe Ergebnis haben.",
+            "standard": "M.P.2.2",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Plättchenreihen in zwei Farben (zum Beispiel 2 rote und 5 blaue), daneben dieselbe Reihe umgedreht (5 blaue und 2 rote). Das Kind schreibt zu jedem Bildpaar beide Plusaufgaben mit Ergebnis (2 + 5 = 7 und 5 + 2 = 7, Summen bis 10); im unteren Teil schreibt es zu sechs Aufgaben die Tauschaufgabe und kreuzt an, welche der beiden es leichter rechnet."
+          },
+          {
+            "existing": "g1-add-subtract-within-10#2"
+          },
+          {
+            "new": true,
+            "title": "Rechnen mit der Null",
+            "objective": "Die Kinder lösen Plus- und Minusaufgaben bis 10, in denen nichts dazukommt, nichts weggeht oder alles weggenommen wird (5 + 0, 5 − 0, 5 − 5).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Bildgeschichten in zwei Bildern: Auf dem Teller liegen 4 Kekse, im zweiten Bild sind alle durchgestrichen; auf dem Ast sitzen 5 Vögel, im zweiten Bild sind es immer noch 5. Das Kind schreibt zu jeder Geschichte die Aufgabe mit Ergebnis (4 − 4 = 0, 5 + 0 = 5, 5 − 0 = 5); darunter rechnet es zwölf Aufgaben mit der Null im Zahlenraum bis 10."
+          },
+          {
+            "existing": "g1-add-subtract-within-10#3"
+          },
+          {
+            "existing": "g1-add-subtract-within-10#4"
+          }
+        ]
+      },
+      {
+        "id": "new:formen-und-muster",
+        "title": "Formen, Muster und Wege",
+        "why": "Vor Weihnachten bringt die Geometrie Abwechslung zum Rechnen und legt die Begriffe für Formen, Lage und Muster.",
+        "lessons": [
+          {
+            "existing": "g1-shapes-measuring-graphs#1"
+          },
+          {
+            "existing": "g1-shapes-measuring-graphs#2"
+          },
+          {
+            "new": true,
+            "title": "Rechts, links, oben, unten: Wege im Kästchenplan",
+            "objective": "Die Kinder beschreiben, wo etwas liegt (rechts, links, über, unter, zwischen), und gehen und zeichnen Wege im Kästchenplan nach Pfeilen (bis zu 10 Schritte).",
+            "standard": "M.4.1.1",
+            "days": 3,
+            "tool": "Der Käferplan",
+            "source": "new",
+            "page": "Das Blatt zeigt einen Kästchenplan (6 mal 6 Felder) mit einem Käfer am Start, einer Blume als Ziel und drei Steinen als Hindernissen. Das Kind zeichnet zwei Wege nach vorgegebenen Pfeilkarten ein (zum Beispiel 3 nach rechts, 2 nach oben), schreibt zu einem eingezeichneten Weg selbst die Pfeile mit ihrer Anzahl auf und kreist im unteren Bild ein, was links, rechts, über und unter dem Käfer liegt."
+          },
+          {
+            "existing": "g1-shapes-measuring-graphs#6"
+          }
+        ]
+      },
+      {
+        "id": "new:plus-minus-bis-10-sicher",
+        "title": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+        "why": "Im Januar wird das Rechnen bis 10 vernetzt und gesichert, damit es vor dem Zahlenraum bis 20 im Kopf verfügbar ist.",
+        "lessons": [
+          {
+            "existing": "g1-add-subtract-within-10#5"
+          },
+          {
+            "existing": "g1-add-subtract-within-10#6"
+          },
+          {
+            "existing": "g1-add-subtract-within-10#7"
+          },
+          {
+            "new": true,
+            "title": "Rechengeschichten erfinden",
+            "objective": "Die Kinder erzählen und malen zu Plus- und Minusaufgaben bis 10 eigene Rechengeschichten und schreiben zu Bildern die passende Aufgabe.",
+            "standard": "M.P.4.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt oben vier Bilder (zum Beispiel 3 Enten auf dem Teich, 2 fliegen dazu; 8 Luftballons, 3 platzen); das Kind schreibt zu jedem Bild die Aufgabe mit Ergebnis. Unten stehen drei Aufgabenkarten (5 + 3, 9 − 4, 6 + 2) mit je einem leeren Malfeld: Das Kind malt zu jeder Aufgabe ein eigenes Bild und erzählt seine Rechengeschichte dem Partnerkind."
+          },
+          {
+            "existing": "g1-add-subtract-within-10#8"
+          }
+        ]
+      },
+      {
+        "id": "de1-zahlen-bis-20",
+        "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+        "why": "Zum Halbjahr wird der Zahlenraum auf 20 erweitert; der volle Zehner ist die Stütze für alles weitere Rechnen.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Zahlen bis 20 im Zwanzigerfeld: ein Zehner und Einer",
+            "objective": "Die Kinder stellen die Zahlen von 11 bis 20 im Zwanzigerfeld dar, lesen sie als einen Zehner und Einer und schreiben dazu die Aufgabe 10 + 4 = 14.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Zehnerfeld",
+            "source": "new",
+            "page": "Das Blatt zeigt acht Zwanzigerfelder (zwei Zehnerfelder untereinander) mit 11 bis 20 Plättchen, das obere Feld ist immer voll. Das Kind schreibt zu jedem Bild „1 Zehner und _ Einer“, die Zahl und die Aufgabe 10 + _ = _; in vier leere Zwanzigerfelder malt es die vorgegebenen Zahlen 12, 15, 17 und 20."
+          },
+          {
+            "existing": "de1-zahlen-bis-20#2"
+          },
+          {
+            "existing": "de1-zahlen-bis-20#3"
+          },
+          {
+            "existing": "de1-zahlen-bis-20#4"
+          }
+        ]
+      },
+      {
+        "id": "g1-doubles-three-addends-number-walls",
+        "title": "Rechnen bis 20: kleine und große Aufgaben, Verdoppeln und Zahlenmauern",
+        "why": "Vor dem Zehnerübergang lernen die Kinder die Hilfen kennen, die sie dafür brauchen: Analogieaufgaben und das Verdoppeln.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4",
+            "objective": "Die Kinder lösen Plus- und Minusaufgaben im zweiten Zehner ohne Zehnerübergang, indem sie die kleine Aufgabe bis 10 nutzen (13 + 4, 17 − 5).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Rechenrahmen",
+            "source": "new",
+            "page": "Das Blatt zeigt Aufgabenpaare untereinander, jeweils mit einem kleinen Zwanzigerfeld-Bild: 3 + 4 und 13 + 4, 7 − 5 und 17 − 5. Das Kind rechnet zuerst die kleine, dann die große Aufgabe (16 Paare, alle ohne Zehnerübergang, Zahlenraum bis 20); in den letzten vier Paaren fehlt die kleine Aufgabe, und das Kind schreibt sie selbst dazu."
+          },
+          {
+            "existing": "g1-doubles-three-addends-number-walls#1"
+          },
+          {
+            "existing": "g1-doubles-three-addends-number-walls#2"
+          },
+          {
+            "existing": "g1-doubles-three-addends-number-walls#3"
+          },
+          {
+            "existing": "g1-doubles-three-addends-number-walls#4"
+          }
+        ]
+      },
+      {
+        "id": "new:zehneruebergang",
+        "title": "Plus und Minus bis 20 mit Zehnerübergang",
+        "why": "Der Zehnerübergang ist das Kernthema des zweiten Halbjahres und braucht nach Ostern mehrere Wochen und verschiedene Rechenwege.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Plus über die 10: erst bis zur 10, dann weiter",
+            "objective": "Die Kinder lösen Plusaufgaben bis 20 mit Zehnerübergang in zwei Schritten: erst bis zur 10 ergänzen, dann den Rest dazu (8 + 5 = 8 + 2 + 3).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Zehnerfeld",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 8 + 5) zeigt das Blatt ein Zwanzigerfeld, in dem die erste Zahl schon mit roten Plättchen gelegt ist. Das Kind malt die zweite Zahl in Blau dazu, füllt dabei zuerst den Zehner und schreibt die Schritte in die vorgedruckte Zeile 8 + _ + _ = _; zwölf Aufgaben mit Summen von 11 bis 18."
+          },
+          {
+            "new": true,
+            "title": "Verdoppeln hilft: 6 + 7",
+            "objective": "Die Kinder lösen Nachbaraufgaben der Verdopplungen bis 20 und begründen, warum 6 + 7 eins mehr ist als 6 + 6.",
+            "standard": "M.P.1.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Aufgabenpaare aus Verdopplung und Nachbaraufgabe (6 + 6 und 6 + 7, 7 + 7 und 7 + 8, 8 + 8 und 8 + 9), jeweils mit zwei Plättchenreihen untereinander. Das Kind rechnet beide Aufgaben, kreist in der zweiten Reihe das eine Plättchen mehr ein und ergänzt den Satz „6 + 7 ist _ mehr als 6 + 6, weil …“; unten ordnet es acht Aufgaben bis 19 ihrer Verdopplungsaufgabe zu."
+          },
+          {
+            "new": true,
+            "title": "Minus über die 10: erst zurück zur 10",
+            "objective": "Die Kinder lösen Minusaufgaben bis 20 mit Zehnerübergang in zwei Schritten: erst zurück zur 10, dann den Rest wegnehmen (13 − 5 = 13 − 3 − 2).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Rechenrahmen",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 13 − 5) zeigt das Blatt ein Zwanzigerfeld mit 13 Plättchen. Das Kind streicht zuerst die Plättchen im zweiten Zehner durch, dann den Rest im ersten Zehner, und schreibt die Schritte in die vorgedruckte Zeile 13 − _ − _ = _; zwölf Aufgaben mit den Ausgangszahlen 11 bis 18."
+          },
+          {
+            "new": true,
+            "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?",
+            "objective": "Die Kinder beschreiben und vergleichen verschiedene Rechenwege für Aufgaben mit Zehnerübergang bis 20 und wählen zu einer Aufgabe einen geschickten Weg.",
+            "standard": "M.1.2.5",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt zur Aufgabe 7 + 8 drei Kinder mit ihren Rechenwegen in Sprechblasen: erst bis zur 10 (7 + 3 + 5), Verdoppeln (7 + 7 + 1) und Tauschaufgabe (8 + 2 + 5). Das Kind rechnet jeden Weg nach, verbindet vier neue Aufgaben bis 20 (zum Beispiel 9 + 6, 6 + 7) mit dem Weg, der dazu gut passt, und schreibt bei zwei Aufgaben seinen eigenen Weg in Schritten auf."
+          },
+          {
+            "new": true,
+            "title": "Rechengeschichten bis 20",
+            "objective": "Die Kinder lösen Rechengeschichten im Zahlenraum bis 20, in denen etwas dazukommt, weggeht oder herauszufinden ist, was dazwischen passiert ist, und schreiben Aufgabe und Antwort auf.",
+            "standard": "Rechenoperationen in Kontexten anwenden",
+            "days": 3,
+            "tool": "Die Zwischenzeit",
+            "source": "reuse:Rechengeschichten bis 10",
+            "page": "Wie „Rechengeschichten bis 10“, aber mit Zahlen bis 20 und Zehnerübergang (zum Beispiel 8 Kinder im Bus, 6 steigen ein; 15 Murmeln, nach dem Spiel sind es 9)."
+          },
+          {
+            "new": true,
+            "title": "Kopfrechnen bis 20",
+            "objective": "Die Kinder rechnen die Plus- und Minusaufgaben des kleinen Einspluseins bis 20 im Kopf und üben sie von nun an in einer täglichen Fünf-Minuten-Runde.",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:Kopfrechnen bis 10",
+            "page": "Wie „Kopfrechnen bis 10“, aber mit gemischten Plus- und Minusaufgaben bis 20 mit und ohne Zehnerübergang."
+          }
+        ]
+      },
+      {
+        "id": "g1-time-calendar-coins",
+        "title": "Uhr und Kalender",
+        "why": "Im Frühsommer lassen sich Uhrzeit, Wochentage, Monate und Jahreszeiten gut mit dem Alltag der Kinder verbinden.",
+        "lessons": [
+          {
+            "existing": "g1-time-calendar-coins#1"
+          },
+          {
+            "existing": "g1-time-calendar-coins#2"
+          },
+          {
+            "existing": "g1-time-calendar-coins#3"
+          },
+          {
+            "new": true,
+            "title": "Monate und Jahreszeiten",
+            "objective": "Die Kinder ordnen die zwölf Monate den vier Jahreszeiten zu und nennen zu einem Monat den Monat davor und danach.",
+            "standard": "Über Größenvorstellungen verfügen",
+            "days": 2,
+            "tool": "Kalendertafel",
+            "source": "point:1:days-months-seasons~season-wheel"
+          }
+        ]
+      },
+      {
+        "id": "g1-shapes-measuring-graphs",
+        "title": "Messen und Diagramme",
+        "why": "Messen und Daten passen in die Wochen vor den Sommerferien, in denen viel draußen und handelnd gearbeitet wird.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Mit Handspanne, Fuß und Schritt messen",
+            "objective": "Die Kinder messen Längen im Klassenzimmer mit Körpermaßen (bis 20 Handspannen, Füße oder Schritte) und erklären, warum verschiedene Kinder verschiedene Zahlen herausbekommen.",
+            "standard": "Größen messen und Maßangaben bestimmen",
+            "days": 3,
+            "tool": "Die dehnbare Einheit",
+            "source": "new",
+            "page": "Das Blatt zeigt eine Tabelle mit fünf Dingen aus dem Klassenzimmer (Tisch, Heft, Tafel, Tür, Fensterbank) und den Spalten „womit gemessen“ (Bild von Handspanne, Fuß oder Schritt), „geschätzt“ und „gemessen“. Das Kind schätzt, misst nach und trägt die Zahlen ein; unten vergleicht es seine Zahl für den Tisch mit der eines anderen Kindes und kreuzt an, wessen Handspanne größer ist."
+          },
+          {
+            "existing": "g1-shapes-measuring-graphs#3"
+          },
+          {
+            "existing": "g1-shapes-measuring-graphs#4"
+          },
+          {
+            "existing": "g1-shapes-measuring-graphs#5"
+          }
+        ]
+      },
+      {
+        "id": "new:ausblick-bis-100",
+        "title": "Ausblick bis 100: Zehnerzahlen, Zählen in Schritten und Geld",
+        "why": "Zum Schuljahresende öffnen die Zehnerzahlen den Zahlenraum der Klasse 2, und das Zählen in Zweier-, Fünfer- und Zehnerschritten wird gleich beim Zählen von Münzen und beim Einkaufen gebraucht.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "In Zehnern bündeln: die Zehnerzahlen bis 100",
+            "objective": "Die Kinder bündeln größere Mengen in Zehner, zählen in Zehnerschritten bis 100 und schreiben die Zehnerzahlen von 10 bis 100.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Die Zehnerdosen",
+            "source": "new",
+            "page": "Das Blatt zeigt fünf Bilder mit ungeordnet liegenden kleinen Dingen (30, 40, 50, 60 und 80 Stück). Das Kind kreist immer 10 ein, schreibt „_ Zehner“ und die Zehnerzahl dazu (4 Zehner = 40); unten ergänzt es die Reihe 10, 20, … 100 und schreibt zu gezeichneten Zehnerstangen die Zahl."
+          },
+          {
+            "new": true,
+            "title": "In Schritten zählen: Zweier, Fünfer, Zehner",
+            "objective": "Die Kinder zählen in Zweierschritten bis 20 und in Fünfer- und Zehnerschritten bis 100 und setzen die Zahlenfolgen fort.",
+            "standard": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen",
+            "days": 3,
+            "tool": "Zählen im Chor",
+            "source": "point:1:skip-counting"
+          },
+          {
+            "existing": "g1-time-calendar-coins#4"
+          },
+          {
+            "new": true,
+            "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld",
+            "objective": "Die Kinder rechnen zwei Preise in ganzen Euro zusammen (bis 20 Euro), legen den Betrag passend mit Scheinen und Münzen und bestimmen das Rückgeld.",
+            "standard": "Mit Größen in Kontexten umgehen",
+            "days": 3,
+            "tool": "Die Geldmatte",
+            "source": "new",
+            "page": "Das Blatt zeigt einen Marktstand mit sechs Waren und Preisschildern in ganzen Euro (1 € bis 12 €) und darunter zu jeder Aufgabe eine Geldbörse mit 5-€- und 10-€-Scheinen sowie 1-€- und 2-€-Münzen. Das Kind rechnet zwei Preise zusammen (höchstens 20 €), kreist das passende Geld ein und schreibt bei den letzten drei Aufgaben das Rückgeld auf 10 € oder 20 € auf."
+          }
+        ]
+      }
+    ],
+    "totalDays": 159,
+    "leftOut": [
+      {
+        "what": "Körper (Würfel, Quader, Kugel) as an own Klasse 1 lesson",
+        "why": "The year is full; solids are taught in the Klasse 2 unit „Formen, Körper und Symmetrie“."
+      },
+      {
+        "what": "Strichliste as an own lesson",
+        "why": "Klasse 2 already has „Von der Strichliste zum Säulendiagramm“; in Klasse 1 the tally is used inside „Sortieren, zählen und ein Bilddiagramm lesen“."
+      },
+      {
+        "what": "Kombinatorik (Türme bauen) and Zufall",
+        "why": "No room in 160 class days; M.5.1.4 is answered in Klasse 3, M.5.2.1 in Klasse 2."
+      }
+    ]
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1",
+        "what": "Erste Schulwoche: Ankommen, Klassenregeln, Wiederholung aus Klasse 1 und Lernstand"
+      },
+      {
+        "weeks": "16",
+        "what": "Adventswoche vor den Weihnachtsferien (Feier, Basteln, Aufführung)"
+      },
+      {
+        "weeks": "30",
+        "what": "Projektwoche und Schulfest"
+      },
+      {
+        "weeks": "35",
+        "what": "Einzelne Tage, zusammen etwa eine Woche: Wandertag, Sportfest, Fasching, Zeugnisgespräche, beweglicher Ferientag"
+      },
+      {
+        "weeks": "38",
+        "what": "Letzte Schulwoche vor den Sommerferien (Zeugnisse, Aufräumen, Abschluss)"
+      }
+    ],
+    "units": [
+      {
+        "id": "de2-zahlen-bis-100",
+        "title": "Zahlen bis 100: Bündeln und Hundertertafel",
+        "why": "Das Schuljahr beginnt mit dem neuen Zahlenraum, weil alles Rechnen der Klasse 2 darauf aufbaut.",
+        "lessons": [
+          {
+            "existing": "de2-zahlen-bis-100#1"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#2"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#3"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#4"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#5"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#6"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#7"
+          },
+          {
+            "existing": "de2-zahlen-bis-100#8"
+          }
+        ]
+      },
+      {
+        "id": "new:plus-minus-bis-100-einer-und-zehner",
+        "title": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+        "why": "Direkt nach der Orientierung im Hunderterraum wird der Zehnerübergang aus Klasse 1 auf alle Zehner übertragen.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30",
+            "objective": "Die Kinder addieren und subtrahieren Zehnerzahlen im Zahlenraum bis 100 und nutzen dafür die Sprünge auf der Hundertertafel.",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt oben ein Päckchen mit reinen Zehnerzahlen (40 + 30, 90 − 50) neben der kleinen Aufgabe (4 + 3, 9 − 5). Darunter stehen sechs Ausschnitte der Hundertertafel mit einem markierten Startfeld und einer Aufgabe wie 34 + 20 oder 76 − 30: Das Kind zeichnet die Sprünge nach unten oder oben ein und schreibt das Ergebnis; zum Schluss rechnet es zwölf Aufgaben ohne Tafel."
+          },
+          {
+            "new": true,
+            "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4",
+            "objective": "Die Kinder addieren und subtrahieren einstellige Zahlen im Zahlenraum bis 100 ohne Zehnerübergang und nutzen die kleine Aufgabe (3 + 5 hilft bei 43 + 5).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ (3 + 5 und 43 + 5, 8 − 4 und 68 − 4), daneben die größere Zahl als Bild aus Zehnerstangen und Einerwürfeln. Das Kind rechnet beide Aufgaben; alle Ergebnisse bleiben im selben Zehner. Im letzten Drittel schreibt es zur großen Aufgabe die kleine Aufgabe selbst dazu."
+          },
+          {
+            "new": true,
+            "title": "Zum Zehner ergänzen, vom Zehner abziehen",
+            "objective": "Die Kinder ergänzen zweistellige Zahlen zum nächsten Zehner und ziehen einstellige Zahlen von Zehnerzahlen ab (36 + 4 = 40, 50 − 7 = 43); dabei helfen die verliebten Zahlen.",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Zahlenstrahl-Ausschnitte von einem Zehner zum nächsten (zum Beispiel 30 bis 40) mit einer markierten Zahl. Das Kind ergänzt zum nächsten Zehner (36 + _ = 40) und zieht von Zehnerzahlen ab (50 − 7 = _); neben jeder Aufgabe steht die Hilfsaufgabe mit verliebten Zahlen zum Ausfüllen (6 + _ = 10, 10 − 7 = _). Zahlenraum bis 100."
+          },
+          {
+            "new": true,
+            "title": "Plus mit Zehnerübergang: 47 + 8",
+            "objective": "Die Kinder addieren im Zahlenraum bis 100 eine einstellige Zahl mit Zehnerübergang in zwei Schritten: erst bis zum Zehner, dann weiter (47 + 3 + 5).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 47 + 8) ist ein leerer Rechenstrich mit der Startzahl vorgedruckt. Das Kind zeichnet zwei Sprünge (erst bis zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 47 + 3 + 5 = 55 in die Zeile darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert."
+          },
+          {
+            "new": true,
+            "title": "Minus mit Zehnerübergang: 53 − 6",
+            "objective": "Die Kinder subtrahieren im Zahlenraum bis 100 eine einstellige Zahl mit Zehnerübergang in zwei Schritten: erst zurück zum Zehner, dann weiter (53 − 3 − 3).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 53 − 6) ist ein leerer Rechenstrich vorgedruckt, die Startzahl steht rechts. Das Kind zeichnet zwei Sprünge nach links (erst zurück zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 53 − 3 − 3 = 47 darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert."
+          }
+        ]
+      },
+      {
+        "id": "new:plus-minus-bis-100-zweistellig",
+        "title": "Plus und Minus bis 100: zweistellige Zahlen, Rechenwege und Sachaufgaben",
+        "why": "Ohne Pause folgt das Rechnen mit zweistelligen Zahlen, solange der Zehnerübergang frisch ist; es ist das Hauptthema des ersten Halbjahres.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Zweistellige Zahlen addieren: 35 + 23 und 48 + 37",
+            "objective": "Die Kinder addieren zweistellige Zahlen im Zahlenraum bis 100 schrittweise (erst die Zehner, dann die Einer) und stellen ihren Rechenweg am Rechenstrich dar.",
+            "standard": "M.P.5.1",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 48 + 37) steht ein leerer Rechenstrich mit der Startzahl und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung, schreibt die Zwischenzahl an den Strich und die Schritte auf (48 + 30 = 78, 78 + 7 = 85); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang, alle Summen bis 100."
+          },
+          {
+            "new": true,
+            "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35",
+            "objective": "Die Kinder subtrahieren zweistellige Zahlen im Zahlenraum bis 100 schrittweise (erst die Zehner, dann die Einer) und schreiben die Zwischenschritte auf.",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 82 − 35) steht ein leerer Rechenstrich mit der Startzahl rechts und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung nach links, schreibt die Zwischenzahl an den Strich und die Schritte auf (82 − 30 = 52, 52 − 5 = 47); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang."
+          },
+          {
+            "new": true,
+            "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?",
+            "objective": "Die Kinder vollziehen die Rechenwege anderer Kinder für Plus- und Minusaufgaben bis 100 nach, vergleichen sie und entwickeln daraus einen geschickten Weg für Aufgaben wie 39 + 25 und 63 − 29.",
+            "standard": "M.P.2.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt zur Aufgabe 39 + 25 drei Kinder mit ihren Rechenwegen: schrittweise (39 + 20 + 5), Zehner und Einer extra (30 + 20 und 9 + 5) und Hilfsaufgabe (40 + 25 − 1). Das Kind rechnet jeden Weg nach und schreibt das Ergebnis; bei einem vierten Kind steckt ein Fehler im Weg, den es anstreicht und berichtigt. Unten rechnet es 63 − 29 und 48 + 19 mit der Hilfsaufgabe und zwei Aufgaben auf seinem eigenen Weg."
+          },
+          {
+            "new": true,
+            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+            "objective": "Die Kinder entnehmen kurzen Sachtexten die wichtigen Angaben, finden die Frage und lösen die Aufgabe im Zahlenraum bis 100 mit Rechnung und Antwortsatz.",
+            "standard": "M.P.4.1",
+            "days": 3,
+            "tool": "Die drei Nischen",
+            "source": "new",
+            "page": "Das Blatt zeigt sechs kurze Sachtexte mit Bild (zusammen, wegnehmen, Unterschied „wie viele mehr“), zwei davon mit einer Angabe, die man nicht braucht. Das Kind unterstreicht die wichtigen Zahlen, streicht die überflüssige Angabe durch und füllt zu jedem Text die drei vorgedruckten Zeilen Frage – Rechnung – Antwort aus; bei zwei Texten fehlt die Frage, und das Kind schreibt sie selbst. Zahlenraum bis 100."
+          },
+          {
+            "existing": "de2-zahlen-bis-100#9"
+          }
+        ]
+      },
+      {
+        "id": "g2-shapes-solids-symmetry",
+        "title": "Formen, Körper, Symmetrie und Planquadrate",
+        "why": "Rund um die Weihnachtszeit wechselt der Unterricht zur Geometrie; Falten, Spiegeln und Bauen passen gut in diese Wochen.",
+        "lessons": [
+          {
+            "existing": "g2-shapes-solids-symmetry#1"
+          },
+          {
+            "new": true,
+            "title": "Flach oder räumlich? Flächen und Körper unterscheiden",
+            "objective": "Die Kinder unterscheiden ebene Figuren (Kreis, Dreieck, Rechteck, Quadrat) von Körpern (Kugel, Würfel, Quader, Zylinder) und sortieren Bilder und Gegenstände danach.",
+            "standard": "Geometrische Figuren erkennen, benennen und darstellen",
+            "days": 2,
+            "tool": null,
+            "source": "point:2:flat-or-solid"
+          },
+          {
+            "existing": "g2-shapes-solids-symmetry#2"
+          },
+          {
+            "existing": "g2-shapes-solids-symmetry#3"
+          },
+          {
+            "existing": "g2-shapes-solids-symmetry#4"
+          },
+          {
+            "existing": "g2-shapes-solids-symmetry#5"
+          },
+          {
+            "existing": "g2-shapes-solids-symmetry#6"
+          },
+          {
+            "new": true,
+            "title": "Planquadrate: Wo liegt das Feld B2?",
+            "objective": "Die Kinder finden in einem Plan mit Buchstaben und Zahlen das Feld zu einer Angabe wie B2, malen es aus und schreiben zu einem Feld die Angabe auf.",
+            "standard": "Über räumliches Vorstellungsvermögen verfügen",
+            "days": 2,
+            "tool": null,
+            "source": "point:2:grid-coordinates"
+          }
+        ]
+      },
+      {
+        "id": "de2-groessen-daten",
+        "title": "Längen und Geld: messen, schätzen, einkaufen",
+        "why": "Im Januar wird das Rechnen bis 100 bei Längen und Geld angewendet, bevor das Malnehmen beginnt.",
+        "lessons": [
+          {
+            "existing": "de2-groessen-daten#1"
+          },
+          {
+            "existing": "de2-groessen-daten#2"
+          },
+          {
+            "new": true,
+            "title": "Meter und Zentimeter: erst schätzen, dann messen",
+            "objective": "Die Kinder schätzen Längen im Klassenzimmer und auf dem Schulhof mit Hilfe von Vergleichsgrößen (Türbreite etwa 1 m, Fingerbreite etwa 1 cm), messen nach und schreiben die Länge in Metern und Zentimetern (bis 10 m).",
+            "standard": "M.2.3.1",
+            "days": 3,
+            "tool": "Die Messwerkstatt",
+            "source": "new",
+            "page": "Das Blatt zeigt eine Tabelle mit sechs Dingen aus Klassenzimmer und Schulhof (Heft, Tischhöhe, Türbreite, Tafel, Flur, Bank) und den Spalten „geschätzt“ und „gemessen“. Das Kind schätzt zuerst, misst dann mit Lineal oder Meterstab und schreibt in Metern und Zentimetern (zum Beispiel 1 m 20 cm); unten verbindet es acht Bilder mit den Karten „kürzer als 1 m“, „etwa 1 m“ und „länger als 1 m“ und ergänzt 1 m = _ cm."
+          },
+          {
+            "existing": "de2-groessen-daten#5"
+          }
+        ]
+      },
+      {
+        "id": "de2-malnehmen",
+        "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
+        "why": "Das zweite Halbjahr gehört dem Einmaleins; zuerst wird das Malnehmen an Gruppen und Punktefeldern verstanden.",
+        "lessons": [
+          {
+            "existing": "de2-malnehmen#1"
+          },
+          {
+            "existing": "de2-malnehmen#2"
+          },
+          {
+            "existing": "de2-malnehmen#3"
+          },
+          {
+            "existing": "de2-malnehmen#4"
+          },
+          {
+            "existing": "de2-malnehmen#5"
+          },
+          {
+            "existing": "de2-malnehmen#7"
+          }
+        ]
+      },
+      {
+        "id": "new:einmaleins-reihen",
+        "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+        "why": "Nach den Osterferien werden alle Reihen über die Kernaufgaben erarbeitet, damit bis zum Sommer Zeit für das tägliche Üben bleibt.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Das 10er-Einmaleins und die Kernaufgaben",
+            "objective": "Die Kinder lernen das 10er-Einmaleins und lösen in jeder Reihe zuerst die Kernaufgaben 1 mal, 2 mal, 5 mal und 10 mal (Ergebnisse bis 100).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 3,
+            "tool": "Das Brötchenblech",
+            "source": "new",
+            "page": "Das Blatt zeigt oben die 10er-Reihe als Zehnerstangen-Bilder; das Kind schreibt alle zehn Malaufgaben mit Ergebnis (1 · 10 bis 10 · 10). Darunter stehen zu den Reihen 3, 4 und 6 je vier Punktefelder für 1 mal, 2 mal, 5 mal und 10 mal: Das Kind schreibt zu jedem Feld die Kernaufgabe mit Ergebnis und färbt die Kernaufgaben in einer vorgedruckten Reihenliste."
+          },
+          {
+            "existing": "de2-malnehmen#6"
+          },
+          {
+            "new": true,
+            "title": "Das 4er- und das 8er-Einmaleins: verdoppeln",
+            "objective": "Die Kinder erarbeiten das 4er-Einmaleins durch Verdoppeln des 2er-Einmaleins und das 8er-Einmaleins durch Verdoppeln des 4er-Einmaleins (Ergebnisse bis 80).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:Das 2er-Einmaleins",
+            "page": "Wie „Das 2er-Einmaleins“, einmal für die 4er- und einmal für die 8er-Reihe; zusätzlich eine Tabelle mit drei Zeilen (2er, 4er, 8er), in der das Kind die Ergebnisse von oben nach unten verdoppelt."
+          },
+          {
+            "new": true,
+            "title": "Das 3er- und das 6er-Einmaleins",
+            "objective": "Die Kinder erarbeiten das 3er-Einmaleins aus den Dreierschritten und das 6er-Einmaleins durch Verdoppeln des 3er-Einmaleins (Ergebnisse bis 60).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:Das 2er-Einmaleins",
+            "page": "Wie „Das 2er-Einmaleins“, einmal für die 3er- und einmal für die 6er-Reihe; zusätzlich eine Tabelle mit zwei Zeilen (3er, 6er), in der das Kind die Ergebnisse verdoppelt."
+          },
+          {
+            "new": true,
+            "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus",
+            "objective": "Die Kinder leiten die Aufgaben des 9er- und des 7er-Einmaleins aus Kernaufgaben ab (9 · 7 = 10 · 7 − 1 · 7; 7 · 7 = 5 · 7 + 2 · 7; Ergebnisse bis 90).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt zu acht Aufgaben (zum Beispiel 9 · 6, 7 · 8, 6 · 7, 9 · 9) je ein Punktefeld mit einer gestrichelten Hilfslinie. Das Kind schreibt die Kernaufgabe und den Rest in die vorgedruckte Zeile (9 · 6 = 10 · 6 − 1 · 6 = 60 − 6; 7 · 8 = 5 · 8 + 2 · 8 = 40 + 16) und rechnet aus; unten trägt es die 7er- und die 9er-Reihe vollständig in zwei Reihenlisten ein."
+          },
+          {
+            "new": true,
+            "title": "Die Einmaleins-Tafel: Was kann ich schon?",
+            "objective": "Die Kinder nutzen die Einmaleins-Tafel sicher: Sie finden darin Tauschaufgaben, Kernaufgaben und Quadratzahlen, tragen ein, was sie auswendig wissen, und beginnen das tägliche Einmaleins-Training.",
+            "standard": "M.P.6.3",
+            "days": 3,
+            "tool": "Der Setzkasten",
+            "source": "new",
+            "page": "Das Blatt zeigt die leere Einmaleins-Tafel von 1 · 1 bis 10 · 10 als Raster mit Kopfzeile und Kopfspalte. Das Kind färbt die Kernaufgaben gelb und die Quadratzahlen (1 · 1, 2 · 2 … 10 · 10) blau, trägt die Ergebnisse ein, die es sicher weiß, verbindet drei Tauschaufgaben-Paare mit einem Bogen und kreist die Aufgaben ein, die es noch üben muss."
+          }
+        ]
+      },
+      {
+        "id": "de2-teilen",
+        "title": "Teilen: Verteilen, Aufteilen und Umkehraufgaben",
+        "why": "Das Teilen folgt unmittelbar auf das Einmaleins, weil jede Geteiltaufgabe über ihre Malaufgabe gelöst wird.",
+        "lessons": [
+          {
+            "existing": "de2-teilen#1"
+          },
+          {
+            "existing": "de2-teilen#2"
+          },
+          {
+            "existing": "de2-teilen#3"
+          },
+          {
+            "new": true,
+            "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen",
+            "objective": "Die Kinder bilden zu Malaufgaben des kleinen Einmaleins die Geteiltaufgaben (Ergebnisse bis 100) und verwenden dabei die Begriffe Malaufgabe, Geteiltaufgabe, Tauschaufgabe und Umkehraufgabe sowie die Zeichen · und : richtig.",
+            "standard": "M.P.6.2",
+            "days": 2,
+            "tool": null,
+            "source": "reuse:Mal-Familien",
+            "page": "Wie „Mal-Familien“, mit Zahlen aus den Reihen 2, 5, 10, 3 und 4; über jeder Aufgabenfamilie stehen die vier Wortkarten Malaufgabe, Tauschaufgabe und zweimal Umkehraufgabe, die das Kind seinen vier Aufgaben zuordnet."
+          },
+          {
+            "existing": "de2-teilen#4"
+          }
+        ]
+      },
+      {
+        "id": "new:zeit-daten-zufall",
+        "title": "Uhrzeit, Kalender, Diagramme und Zufall",
+        "why": "Zeit, Daten und Zufall schließen das Schuljahr ab; sie lassen sich gut mit Umfragen und Versuchen in den letzten Wochen verbinden.",
+        "lessons": [
+          {
+            "existing": "de2-groessen-daten#3"
+          },
+          {
+            "existing": "de2-groessen-daten#4"
+          },
+          {
+            "existing": "de2-groessen-daten#6"
+          },
+          {
+            "existing": "de2-groessen-daten#7"
+          },
+          {
+            "existing": "de2-groessen-daten#8"
+          },
+          {
+            "new": true,
+            "title": "Sicher, möglich, unmöglich",
+            "objective": "Die Kinder beschreiben Ergebnisse beim Ziehen aus einem Beutel und beim Würfeln mit den Wörtern sicher, möglich und unmöglich.",
+            "standard": "M.5.2.1",
+            "days": 3,
+            "tool": "Der Zufallsbeutel",
+            "source": "new",
+            "page": "Das Blatt zeigt sechs Beutel mit farbigen Kugeln (zum Beispiel 5 rote und 1 blaue; nur rote; 3 gelbe und 3 grüne) und zu jedem Beutel zwei Aussagen wie „Ich ziehe eine rote Kugel“. Das Kind kreuzt an: sicher, möglich oder unmöglich. Unten malt es zu drei Sätzen selbst einen passenden Beutel mit 6 Kugeln und kreuzt bei vier Würfel-Aussagen („Ich würfle eine 7“) an."
+          }
+        ]
+      }
+    ],
+    "totalDays": 163,
+    "leftOut": [
+      {
+        "existing": "de2-teilen#5",
+        "what": "de2-teilen#5 Hälften, Drittel und Viertel (3 days)",
+        "why": "Brüche (Drittel, Viertel) are not content of Klasse 2 in Germany and match no line of the Bildungsstandards Primarbereich (the lesson has no standard in the dump); keep it as an extra offer, not in the year plan. „Die Hälfte“ stays covered by „Gerade und ungerade: zwei gleiche Teile“ and by Verdoppeln und Halbieren in Klasse 1."
+      },
+      {
+        "existing": "de2-teilen#6",
+        "what": "de2-teilen#6 Die Hälfte, ein Drittel, ein Viertel einer Menge (2 days)",
+        "why": "Builds on the fraction words of lesson 5; Bruchteile von Mengen belong to Klasse 4 and later. The 5 freed days go to Addition/Subtraktion bis 100 and to Zufall, which the German year needs."
+      },
+      {
+        "what": "Wiederholung Rechnen bis 20 as an own lesson",
+        "why": "Done in the first school week (listed as non-teaching week 1)."
+      },
+      {
+        "what": "Kombinatorik (M.5.1.4) and Preistabellen (M.3.2.1)",
+        "why": "No room in 165 class days; both are answered in Klasse 3."
+      },
+      {
+        "what": "Strecken zeichnen mit dem Lineal (M.4.2.5)",
+        "why": "Answered in Klasse 3 with „Millimeter: genau messen und zeichnen“."
+      }
+    ]
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1",
+        "what": "Erste Schulwoche: Ankommen, Klassenregeln, Wiederholung aus Klasse 2 (Einmaleins, Rechnen bis 100) und Lernstand"
+      },
+      {
+        "weeks": "16",
+        "what": "Adventswoche vor den Weihnachtsferien (Feier, Basteln, Aufführung)"
+      },
+      {
+        "weeks": "30",
+        "what": "Projektwoche und Schulfest"
+      },
+      {
+        "weeks": "32",
+        "what": "VERA 3: Vergleichsarbeiten in Mathematik und Deutsch mit Vorbereitung und Besprechung"
+      },
+      {
+        "weeks": "34",
+        "what": "Klassenfahrt"
+      },
+      {
+        "weeks": "36",
+        "what": "Einzelne Tage, zusammen etwa eine Woche: Wandertag, Bundesjugendspiele, Fasching, Zeugnisgespräche, beweglicher Ferientag"
+      },
+      {
+        "weeks": "38",
+        "what": "Letzte Schulwoche vor den Sommerferien (Zeugnisse, Aufräumen, Abschluss)"
+      }
+    ],
+    "units": [
+      {
+        "id": "de3-zahlen-bis-1000",
+        "title": "Zahlen bis 1000: Stellenwerte, Zahlenstrahl und Runden",
+        "why": "Das Schuljahr beginnt mit dem neuen Zahlenraum; das Runden gehört gleich dazu, weil es beim Überschlagen das ganze Jahr gebraucht wird.",
+        "lessons": [
+          {
+            "existing": "de3-zahlen-bis-1000#1"
+          },
+          {
+            "existing": "de3-zahlen-bis-1000#2"
+          },
+          {
+            "existing": "de3-zahlen-bis-1000#3"
+          },
+          {
+            "new": true,
+            "title": "Der Zahlenstrahl bis 1000: Nachbarzehner und Nachbarhunderter",
+            "objective": "Die Kinder lesen Zahlen am Zahlenstrahl bis 1000 ab, tragen Zahlen ein und bestimmen zu einer Zahl die Nachbarzehner und die Nachbarhunderter.",
+            "standard": "Zahldarstellungen und Zahlbeziehungen verstehen",
+            "days": 3,
+            "tool": "Die drei Pfosten",
+            "source": "new",
+            "page": "Das Blatt zeigt drei Zahlenstrahlen: von 0 bis 1000 in Hunderterschritten, von 400 bis 500 in Zehnerschritten und von 630 bis 650 in Einerschritten, jeweils mit fünf Pfeilen. Das Kind schreibt die Zahlen an die Pfeile und trägt drei vorgegebene Zahlen selbst mit einem Strich ein; unten füllt es zu sechs Zahlen (zum Beispiel 467) die Tabelle „Nachbarzehner – Zahl – Nachbarzehner“ und „Nachbarhunderter – Zahl – Nachbarhunderter“ aus."
+          },
+          {
+            "existing": "de3-zahlen-bis-1000#4"
+          },
+          {
+            "existing": "de3-runden-schriftlich#1"
+          },
+          {
+            "existing": "de3-runden-schriftlich#2"
+          }
+        ]
+      },
+      {
+        "id": "new:halbschriftlich-plus-minus-bis-1000",
+        "title": "Halbschriftlich addieren und subtrahieren bis 1000",
+        "why": "Vor den schriftlichen Verfahren rechnen die Kinder im neuen Zahlenraum auf eigenen Wegen und schreiben sie auf; das sichert das Zahlverständnis.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Rechnen mit Hunderter- und Zehnerzahlen",
+            "objective": "Die Kinder rechnen im Kopf mit Hunderter- und Zehnerzahlen bis 1000 und nutzen dabei die kleine Aufgabe (3 + 4 hilft bei 300 + 400, 54 − 3 bei 540 − 30).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ in drei Blöcken: Hunderterzahlen (3 + 4 und 300 + 400, 9 − 5 und 900 − 500), Zehnerzahlen im Hunderter (54 − 3 und 540 − 30) und Zehnerzahlen über den Hunderter (8 + 5 und 380 + 50). Das Kind schreibt nur die Ergebnisse; im letzten Block ergänzt es zum nächsten Hunderter und zu 1000 (640 + _ = 700, 700 + _ = 1000)."
+          },
+          {
+            "new": true,
+            "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären",
+            "objective": "Die Kinder addieren dreistellige Zahlen bis 1000 in Schritten, schreiben ihren Rechenweg auf und erklären ihn so, dass andere Kinder ihn nachrechnen können.",
+            "standard": "M.P.2.1",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 346 + 238) stehen ein leerer Rechenstrich und drei Schreibzeilen. Das Kind rechnet in Schritten (346 + 200 = 546, 546 + 30 = 576, 576 + 8 = 584), zeichnet die Sprünge und schreibt jeden Schritt als Gleichung auf; acht Aufgaben mit Summen bis 1000. Zur letzten Aufgabe schreibt es in zwei Sätzen auf, wie es gerechnet hat, und lässt ein anderes Kind den Weg nachrechnen."
+          },
+          {
+            "new": true,
+            "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?",
+            "objective": "Die Kinder subtrahieren dreistellige Zahlen bis 1000 in Schritten, überdenken ihren Weg und wechseln zum Ergänzen, wenn die Zahlen nah beieinanderliegen (503 − 497).",
+            "standard": "M.P.3.3",
+            "days": 3,
+            "tool": "Rechenstrich",
+            "source": "new",
+            "page": "Das Blatt zeigt acht Minusaufgaben mit leerem Rechenstrich, die Hälfte mit weit auseinanderliegenden Zahlen (572 − 348), die Hälfte mit nah beieinanderliegenden (503 − 497, 701 − 688). Das Kind kreuzt vor dem Rechnen an „Ich ziehe ab“ oder „Ich ergänze“, zeichnet die Sprünge und schreibt die Schritte auf. Zwei Aufgaben rechnet es auf beiden Wegen und kreuzt an, welcher Weg hier geschickter war."
+          },
+          {
+            "new": true,
+            "title": "Zauberquadrate",
+            "objective": "Die Kinder ergänzen Zauberquadrate, in denen jede Zeile und jede Spalte dieselbe Summe hat, und entwickeln eigene Lösungsideen, mit welchem Feld sie anfangen und wie sie weiterkommen (Zahlenraum bis 1000).",
+            "standard": "M.P.3.1",
+            "days": 2,
+            "tool": null,
+            "source": "point:3:magic-squares"
+          }
+        ]
+      },
+      {
+        "id": "de3-mal-geteilt-gleichungen",
+        "title": "Malnehmen und Teilen: vom Einmaleins zum halbschriftlichen Rechnen",
+        "why": "Im Spätherbst wird das Einmaleins aus Klasse 2 aufgefrischt und auf Zehnerzahlen und größere Zahlen übertragen.",
+        "lessons": [
+          {
+            "existing": "de3-mal-geteilt-gleichungen#1"
+          },
+          {
+            "existing": "de3-mal-geteilt-gleichungen#3"
+          },
+          {
+            "existing": "de3-mal-geteilt-gleichungen#2"
+          },
+          {
+            "new": true,
+            "title": "Einmaleins mit Zehnerzahlen: 3 · 40 und 240 : 6",
+            "objective": "Die Kinder multiplizieren einstellige Zahlen mit Zehnerzahlen und teilen Zehnerzahlen durch einstellige Zahlen (Ergebnisse bis 1000), indem sie die Einmaleinsaufgabe nutzen.",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt Aufgabenpaare (3 · 4 und 3 · 40, 24 : 6 und 240 : 6); zu den ersten vier Paaren ist die Zehneraufgabe als Bild aus Zehnerstangen gezeichnet (3 Gruppen mit je 4 Zehnerstangen). Das Kind rechnet erst die Einmaleinsaufgabe, dann die Aufgabe mit der Zehnerzahl; 20 Paare, Ergebnisse bis 1000."
+          },
+          {
+            "new": true,
+            "title": "Halbschriftlich multiplizieren: 4 · 37",
+            "objective": "Die Kinder multiplizieren eine einstellige mit einer zweistelligen Zahl, indem sie in Zehner und Einer zerlegen, und vergleichen dabei Punktefeld, Malkreuz und Rechenschritte als Darstellungen (Ergebnisse bis 1000).",
+            "standard": "M.P.5.3",
+            "days": 3,
+            "tool": "Das Brötchenblech",
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 4 · 37) zeigt das Blatt links ein Rechteckfeld, das an der Zehnergrenze mit einer Linie geteilt ist (4 · 30 und 4 · 7), rechts ein leeres Malkreuz und darunter drei Schreibzeilen. Das Kind beschriftet die beiden Teilfelder, trägt die Teilergebnisse ins Malkreuz ein und schreibt die Schritte auf (4 · 30 = 120, 4 · 7 = 28, 120 + 28 = 148); acht Aufgaben. Bei der letzten kreuzt es an, welche Darstellung ihm am meisten hilft, und schreibt einen Satz dazu."
+          },
+          {
+            "new": true,
+            "title": "Halbschriftlich dividieren: 84 : 4",
+            "objective": "Die Kinder teilen Zahlen bis 200 ohne Rest durch eine einstellige Zahl, indem sie die Zahl in passende Einmaleins-Zahlen zerlegen (84 : 4 = 80 : 4 + 4 : 4).",
+            "standard": "Rechenoperationen verstehen und beherrschen",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Zu jeder Aufgabe (zum Beispiel 84 : 4, 96 : 8, 135 : 5) zeigt das Blatt die Zahl als Bild aus Zehnerstangen und Einerwürfeln und darunter drei Schreibzeilen. Das Kind zerlegt die Zahl in zwei Teile, die sich gut teilen lassen (84 = 80 + 4), teilt beide Teile und addiert (20 + 1 = 21); bei den ersten vier Aufgaben ist die Zerlegung vorgegeben, bei den nächsten sechs findet das Kind sie selbst. Zum Schluss prüft es zwei Ergebnisse mit der Malaufgabe."
+          }
+        ]
+      },
+      {
+        "id": "new:laengen-und-geld",
+        "title": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+        "why": "Vor Weihnachten bringen die Größen Abwechslung, und die Kommaschreibweise wird für das schriftliche Rechnen mit Geld im neuen Jahr vorbereitet.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Millimeter: genau messen und zeichnen",
+            "objective": "Die Kinder messen Strecken auf den Millimeter genau, schreiben die Länge in Zentimetern und Millimetern (4 cm 7 mm = 47 mm) und zeichnen Strecken mit dem Lineal.",
+            "standard": "M.4.2.5",
+            "days": 3,
+            "tool": "Lineal",
+            "source": "new",
+            "page": "Das Blatt zeigt sechs Strecken und vier kleine Gegenstände in Originalgröße (Büroklammer, Radiergummi, Schraube, Bleistiftstummel). Das Kind misst mit dem Lineal auf den Millimeter genau und schreibt die Länge auf zwei Arten (4 cm 7 mm und 47 mm). Im unteren Teil sind fünf Startpunkte vorgegeben: Das Kind zeichnet von dort Strecken mit vorgegebener Länge (zum Beispiel 6 cm 3 mm, 85 mm)."
+          },
+          {
+            "new": true,
+            "title": "Meter und Kilometer: Wie weit ist ein Kilometer?",
+            "objective": "Die Kinder verbinden die Einheit Kilometer mit bekannten Wegen (1 km = 1000 m, etwa eine Viertelstunde Fußweg), rechnen mit Wegstrecken in Metern bis 1000 m und ergänzen zu einem Kilometer.",
+            "standard": "M.2.1.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt einen Ortsplan mit Schule, Bäckerei, Spielplatz, Schwimmbad und Bahnhof und Entfernungsangaben in Metern an den Wegen (zum Beispiel Schule – Bäckerei 250 m). Das Kind rechnet vier Wege zusammen (Summen bis 1000 m), ergänzt bei vier Aufgaben zu 1 km (650 m + _ m = 1 km) und verbindet sechs Alltagsstrecken (Länge des Schulhofs, Weg zum Nachbarort, Länge eines Fußballfeldes) mit den Karten „etwa 100 m“, „etwa 1 km“ und „viele Kilometer“."
+          },
+          {
+            "new": true,
+            "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter",
+            "objective": "Die Kinder schreiben Geldbeträge und Längen auf drei Arten (3 € 50 ct, 350 ct, 3,50 €; 1 m 25 cm, 125 cm, 1,25 m) und wandeln zwischen den Schreibweisen um (bis 10 € und 10 m).",
+            "standard": "M.2.2.3",
+            "days": 3,
+            "tool": "Die Geldmatte",
+            "source": "new",
+            "page": "Das Blatt zeigt links sechs Geldbeträge als Bilder aus Scheinen und Münzen und rechts sechs Maßbänder mit einer markierten Länge. Das Kind trägt jede Angabe auf drei Arten in eine Tabelle ein (3 € 50 ct | 350 ct | 3,50 € und 1 m 25 cm | 125 cm | 1,25 m). Unten wandelt es zwölf Angaben um, darunter solche mit einer Null nach dem Komma (4,05 € = 405 ct; 2,08 m = 208 cm)."
+          },
+          {
+            "new": true,
+            "title": "Überschlagen beim Einkaufen: Reicht das Geld?",
+            "objective": "Die Kinder runden Preise auf ganze Euro, überschlagen den Gesamtpreis eines Einkaufs bis 20 € und prüfen, ob eine Rechnung stimmen kann.",
+            "standard": "M.2.3.2",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt sechs Einkaufszettel mit drei oder vier Preisen in Kommaschreibweise (zum Beispiel 2,95 €, 4,10 €, 1,89 €) und daneben einen Geldschein (10 € oder 20 €). Das Kind rundet jeden Preis auf ganze Euro, schreibt die Überschlagsrechnung auf und kreuzt an „Das Geld reicht“ oder „Das Geld reicht nicht“. Bei zwei fertigen Kassenzetteln mit gedruckter Summe entscheidet es, ob die Summe stimmen kann, und begründet mit dem Überschlag."
+          }
+        ]
+      },
+      {
+        "id": "de3-runden-schriftlich",
+        "title": "Schriftlich addieren und subtrahieren bis 1000",
+        "why": "Die schriftlichen Verfahren stehen im Januar und Februar, wenn das halbschriftliche Rechnen sicher ist und genug Zeit zum Üben bleibt.",
+        "lessons": [
+          {
+            "existing": "de3-runden-schriftlich#4"
+          },
+          {
+            "existing": "de3-runden-schriftlich#5"
+          },
+          {
+            "existing": "de3-runden-schriftlich#6"
+          },
+          {
+            "existing": "de3-runden-schriftlich#7"
+          },
+          {
+            "existing": "de3-runden-schriftlich#3"
+          },
+          {
+            "new": true,
+            "title": "Überschlag und Probe: Kann das stimmen?",
+            "objective": "Die Kinder prüfen fertige schriftliche Rechnungen bis 1000 mit Überschlag und Umkehraufgabe, entscheiden, ob das Ergebnis stimmen kann, und berichtigen Fehler.",
+            "standard": "M.P.1.1",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt acht fertig gerechnete schriftliche Plus- und Minusaufgaben bis 1000; in fünf davon steckt ein typischer Fehler (Übertrag vergessen, Stellen verrutscht, kleinere von der größeren Ziffer abgezogen). Das Kind schreibt neben jede Aufgabe den Überschlag mit gerundeten Zahlen, kreuzt an „kann stimmen“ oder „kann nicht stimmen“, rechnet bei vier Aufgaben die Probe mit der Umkehraufgabe und rechnet die falschen Aufgaben daneben richtig."
+          }
+        ]
+      },
+      {
+        "id": "g3-time-temperature-mass-volume",
+        "title": "Zeit, Gewicht und Hohlmaße",
+        "why": "Im Frühjahr werden Uhrzeit, Zeitspannen, Gramm und Milliliter erarbeitet; sie gehören auch zu den Inhalten von VERA 3.",
+        "lessons": [
+          {
+            "existing": "g3-time-temperature-mass-volume#1"
+          },
+          {
+            "existing": "g3-time-temperature-mass-volume#2"
+          },
+          {
+            "existing": "g3-time-temperature-mass-volume#3"
+          },
+          {
+            "existing": "g3-time-temperature-mass-volume#4"
+          },
+          {
+            "existing": "g3-time-temperature-mass-volume#6"
+          },
+          {
+            "existing": "g3-time-temperature-mass-volume#7"
+          }
+        ]
+      },
+      {
+        "id": "new:gleichungen-zahlenfolgen-tabellen",
+        "title": "Gleichungen, Zahlenfolgen und Tabellen",
+        "why": "Muster, Gleichungen und Tabellen bündeln nach Ostern das Rechnen des Jahres und üben das Beschreiben von Zusammenhängen.",
+        "lessons": [
+          {
+            "existing": "de3-mal-geteilt-gleichungen#4"
+          },
+          {
+            "existing": "de3-mal-geteilt-gleichungen#5"
+          },
+          {
+            "existing": "de3-mal-geteilt-gleichungen#6"
+          },
+          {
+            "existing": "de3-mal-geteilt-gleichungen#7"
+          },
+          {
+            "new": true,
+            "title": "Preistabellen: je mehr, desto teurer",
+            "objective": "Die Kinder erkennen in Tabellen den Zusammenhang zwischen Anzahl und Preis, beschreiben ihn in einem Satz und setzen die Tabellen fort (Preise bis 100 €).",
+            "standard": "M.3.2.1",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt fünf Preistabellen mit zwei Zeilen (Anzahl – Preis), zum Beispiel 1 Brezel 2 €, 2 Brezeln 4 €, 3 Brezeln _ €. Das Kind setzt jede Tabelle bis zur Anzahl 10 fort, trägt Lücken in der Mitte ein und ergänzt unter jeder Tabelle den Satz „Für jede Brezel mehr kommen _ € dazu“. In der letzten Tabelle ist nur der Preis für 5 Stück gegeben (5 Hefte 10 €), und das Kind findet zuerst den Preis für 1 Stück."
+          },
+          {
+            "new": true,
+            "title": "Sachaufgaben mit Tabellen lösen",
+            "objective": "Die Kinder lösen Sachaufgaben zu Menge und Preis, indem sie eine Tabelle anlegen und über das Doppelte, die Hälfte oder den Einzelpreis rechnen (Zahlen bis 1000).",
+            "standard": "M.3.2.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt sechs Sachaufgaben wie „3 Hefte kosten 6 €. Wie viel kosten 6 Hefte? Wie viel kosten 9 Hefte?“ oder „4 Eintrittskarten kosten 60 €. Wie viel kosten 2 Karten?“, jede mit einer leeren Tabelle aus zwei Zeilen. Das Kind trägt die Angaben ein, zeichnet einen Pfeil mit „· 2“, „: 2“ oder „: 3“ zwischen die Spalten, rechnet und schreibt einen Antwortsatz."
+          }
+        ]
+      },
+      {
+        "id": "g3-area-perimeter-volume",
+        "title": "Flächeninhalt, Umfang und Würfelgebäude",
+        "why": "Flächeninhalt und Umfang wenden im Frühsommer das Einmaleins und das Messen von Längen geometrisch an.",
+        "lessons": [
+          {
+            "existing": "g3-area-perimeter-volume#1"
+          },
+          {
+            "existing": "g3-area-perimeter-volume#2"
+          },
+          {
+            "existing": "g3-area-perimeter-volume#3"
+          },
+          {
+            "existing": "g3-area-perimeter-volume#4"
+          },
+          {
+            "existing": "g3-area-perimeter-volume#5"
+          }
+        ]
+      },
+      {
+        "id": "g3-shapes-and-data",
+        "title": "Rechte Winkel, Vierecke, Kreise, Diagramme und Zufall",
+        "why": "Zeichnen, Daten und Zufallsversuche stehen am Ende des Schuljahres, weil sie handlungsreich sind und kein neues Rechnen brauchen.",
+        "lessons": [
+          {
+            "existing": "g3-shapes-and-data#1"
+          },
+          {
+            "existing": "g3-shapes-and-data#2"
+          },
+          {
+            "existing": "g3-shapes-and-data#3"
+          },
+          {
+            "new": true,
+            "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster",
+            "objective": "Die Kinder zeichnen mit dem Zirkel Kreise zu einem vorgegebenen Mittelpunkt und Radius (2 cm bis 6 cm) und setzen Kreismuster sauber fort.",
+            "standard": "M.P.6.4",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt oben vier markierte Mittelpunkte mit der Angabe des Radius in ganzen Zentimetern (2 cm bis 5 cm); das Kind zeichnet die Kreise mit dem Zirkel und beschriftet bei einem Kreis Mittelpunkt und Radius. In der Mitte zeichnet es um einen Mittelpunkt drei Kreise mit den Radien 2 cm, 3 cm und 4 cm (Zielscheibe). Unten ist ein Kreismuster aus sieben gleich großen Kreisen (Blume) begonnen, das es nach der Vorlage fertig zeichnet."
+          },
+          {
+            "existing": "g3-shapes-and-data#4"
+          },
+          {
+            "existing": "g3-shapes-and-data#5"
+          },
+          {
+            "new": true,
+            "title": "Diagramme genau lesen: Was stimmt, was nicht?",
+            "objective": "Die Kinder lesen Säulendiagramme mit unterschiedlichen Skalen, prüfen Aussagen zu den Daten und erkennen, wenn ein Diagramm einen falschen Eindruck erweckt (Werte bis 100).",
+            "standard": "M.5.1.3",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt zwei Säulendiagramme zu denselben Daten (Lieblingssport von 60 Kindern): eines mit einer Skala ab 0 in Fünferschritten, eines mit einer Skala, die erst bei 10 beginnt. Zu sechs Aussagen („Doppelt so viele Kinder mögen Fußball wie Turnen“, „Die meisten Kinder mögen Schwimmen“) kreuzt das Kind an: stimmt, stimmt nicht oder kann man nicht ablesen. Zum Schluss schreibt es in einem Satz auf, warum die Säulen im zweiten Diagramm so verschieden hoch aussehen."
+          },
+          {
+            "new": true,
+            "title": "Alle Möglichkeiten finden: Tabelle und Baumdiagramm",
+            "objective": "Die Kinder finden bei Kombinationsaufgaben (zum Beispiel 3 T-Shirts und 2 Hosen) durch geordnetes Vorgehen alle Möglichkeiten und stellen sie in einer Tabelle oder einem Baumdiagramm dar (höchstens 12 Möglichkeiten).",
+            "standard": "M.5.1.4",
+            "days": 2,
+            "tool": null,
+            "source": "new",
+            "page": "Das Blatt zeigt drei Aufgaben: 3 T-Shirts und 2 Hosen, 2 Eissorten aus 4 Sorten in der Waffel, 3 Kinder in einer Reihe aufstellen. Zur ersten Aufgabe ist eine Tabelle begonnen, zur zweiten eine geordnete Liste, zur dritten ein Baumdiagramm mit dem ersten Ast. Das Kind malt oder schreibt alle Möglichkeiten geordnet auf, schreibt die Anzahl dazu und bei der ersten Aufgabe die passende Malaufgabe (3 · 2 = 6)."
+          },
+          {
+            "new": true,
+            "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel",
+            "objective": "Die Kinder schätzen bei Ziehungen aus Beuteln mit 10 Kugeln ein, welches Ergebnis wahrscheinlicher ist, prüfen ihre Vermutung in einem Versuch mit 20 Zügen und vergleichen mit Formulierungen wie „ist wahrscheinlicher als“.",
+            "standard": "M.5.2.2",
+            "days": 3,
+            "tool": "Der Zufallsbeutel",
+            "source": "new",
+            "page": "Das Blatt zeigt vier Paare von Beuteln mit je 10 roten und blauen Kugeln in unterschiedlicher Mischung (zum Beispiel 8 rote und 2 blaue neben 5 roten und 5 blauen). Das Kind kreuzt zu jedem Paar an, bei welchem Beutel Rot wahrscheinlicher ist, und ergänzt den Satz „Rot ist bei Beutel _ wahrscheinlicher als bei Beutel _“. Darunter steht eine Strichliste für 20 Züge mit Zurücklegen: Das Kind notiert seine Vermutung, führt die Strichliste und schreibt auf, ob das Ergebnis zur Vermutung passt."
+          }
+        ]
+      }
+    ],
+    "totalDays": 154,
+    "leftOut": [
+      {
+        "existing": "g3-time-temperature-mass-volume#5",
+        "what": "g3-time-temperature-mass-volume#5 Das Thermometer ablesen (2 days)",
+        "why": "Temperatur is no Größenbereich of the Bildungsstandards Mathematik (the lesson has no standard in the dump) and is taught in Sachunterricht (Wetter); keep it as an extra offer, not in the year plan."
+      },
+      {
+        "what": "M.4.3.3 geometrische Abbildungen in Mustern (Bandornamente, Parkette)",
+        "why": "Verschieben und Drehen in Bandornamenten and Parketten is worked out in Klasse 4; Spiegeln is already taught in Klasse 2 and 3."
+      },
+      {
+        "what": "point 3:compare-4-digit (vierstellige Zahlen vergleichen)",
+        "why": "Klasse 3 stays in the Zahlenraum bis 1000; numbers above 1000 belong to Klasse 4."
+      },
+      {
+        "what": "points 3:partition-equal-areas, 3:fraction-unit-build, 3:whole-from-unit, 3:fraction-number-line, 3:compare-fractions, 3:equivalent-fractions, 3:fraction-of-set",
+        "why": "Bruchrechnung is not part of the Bildungsstandards Primarbereich; in Germany fractions are taught in Klasse 5/6 (only einfache Brüche bei Größen such as 1/2 l appear in Klasse 4)."
+      },
+      {
+        "what": "Schriftliche Multiplikation und Division, Zahlen bis 1 Million, Tonne, Maßstab",
+        "why": "Klasse 4 content."
+      },
+      {
+        "what": "Zahlenrätsel in Worten and Kilogramm as own lessons",
+        "why": "No room in 155 class days; Fachbegriffe (M.P.6.2) are answered in Klasse 2, Gramm and Kilogramm are read on scales in „Waagen und Messbecher ablesen“."
+      }
+    ]
+  },
+  "pacing": {
+    "yearWeeks": 38,
+    "yearWeeksNote": "Planned like a Stoffverteilungsplan with 38 Schulwochen of 5 days for all Länder (about 190 Unterrichtstage a year; holidays and public holidays are already taken off).",
+    "teachingWeeks": {
+      "1": 32,
+      "2": 33,
+      "3": 31
+    },
+    "why": "Every grade loses the Adventswoche, a Projektwoche, the last school week and about one week of single days (Wandertag, Sportfest, Fasching, Zeugnisgespräche); Klasse 1 also loses two weeks of Einschulung und Ankommen, Klasse 2 and 3 one first week of Ankommen und Wiederholung. Klasse 3 additionally gives one week to VERA 3 and one to the Klassenfahrt, so the class days are 160, 165 and 155."
+  }
+}

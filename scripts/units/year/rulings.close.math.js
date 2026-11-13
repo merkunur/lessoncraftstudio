@@ -25,7 +25,7 @@ module.exports = {
   en: {
     // Kindergarten
     'K-002': C('six tasks with unequal rows and a decision (more, fewer, the same); today one task with equal rows'),
-    'K-003': U('one direction a task, with pictures'),
+    'K-003': U('one direction a task, with pictures; level 3 mixes one more and one less', 3),
     'K-004': U('six pairs of written numbers; the number line on top is on the projector tool', 1),
     'K-005': U('the dot-paper page; sides and corners are counted aloud'),
     'K-007': C('the cone is missing from the solids'),
@@ -39,7 +39,7 @@ module.exports = {
     'K-015': C('wholes of 6 and 7; today only 5 and 10'),
     'K-016': U('the bond pages of 8 and of 9'),
     'K-018': U('the same equation on a ten-frame'),
-    'K-019': U('ring ten loose cubes, write ten and ones'),
+    'K-019': C('the frame prints "×10" (read on the published page): Kindergarten needs "10 and _" and the number 11 to 19'),
     'K-021': C('the reverse direction: the number is printed, the child draws it into two empty frames'),
     'K-022': C('a teen number as the whole with ten as one part (a setting of the bond factory)'),
     'K-023': C('a chart from 1 to 50; today always 1 to 100'),
@@ -69,7 +69,7 @@ module.exports = {
     '2-047': U('near doubles in either order; doubles and halves are their own pages'),
     '2-048': C('subtraction only (15 - 7 back to ten); today it takes turns with addition'),
     '2-049': C('fact triangles with one part missing; today the house gives all three numbers'),
-    '2-050': U('more than nine tens with ones: write the number'),
+    '2-050': U('more than nine tens with ones: write the number (level 1 is too many tens, level 2 too many ones)', 1),
     '2-051': U('expanded form both ways with a zero place', 3),
     '2-053': B('adding two-digit numbers with a new ten as a drawing on a mat and partial sums'),
     '2-054': B('subtracting with a ten opened, on a mat'),
@@ -86,7 +86,7 @@ module.exports = {
     '3-070': U('the empty 10 by 10 square, filled in the order the teacher gives', 3),
     '3-072': C('two-step stories with three-digit numbers within 1,000'),
     '3-075': C('rectangles with side lengths and units and no squares inside'),
-    '3-078': U('a dot for the fraction on a line from 0 to 1'),
+    '3-078': C('the page asks for any fraction (3/8, 4/6), read on the published page: unit fractions only and a box to write the fraction'),
     '3-080': C('readings to the half and the quarter inch'),
   },
   de: {

@@ -3,6 +3,321 @@
  "locale": "de",
  "units": [
   {
+   "id": "de1-zahlen-bis-10",
+   "slug": "zahlen-bis-10-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
+   "metaTitle": "Mathe Klasse 1: Zahlen bis 10 | Unterrichtseinheit",
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zum Sortieren, zum Zählen und Ziffernschreiben bis 10, zum Vergleichen mit <, > und =, zu Vorgänger, Nachfolger und Ordnungszahlen.",
+   "days": 18,
+   "weeks": 4,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:sort-three-groups",
+     "title": "Sortieren: Was gehört zusammen?",
+     "objective": "Die Kinder sortieren Bilder nach einem Merkmal in drei Gruppen, verbinden jedes Bild mit seiner Kiste und sagen, wie viele in jede Kiste gehören.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mit Daten umgehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-160",
+       "title": "Drei Gruppen",
+       "core": "sortieren-und-ordnen-formen-g1160"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.sort-count.k-md-b-3",
+      "slug": "sortieren-und-zaehlen",
+      "title": "Sortieren und Zählen"
+     },
+     "exit": {
+      "slug": "sortieren-und-ordnen-spielzeug-g1160",
+      "title": "Drei Gruppen"
+     },
+     "maker": {
+      "id": "sorting",
+      "name": "Sortieren & Ordnen",
+      "slug": "sortieren-und-ordnen-arbeitsblaetter-erstellen",
+      "template": "G1-160"
+     },
+     "note": {
+      "mistake": "Die Kinder verbinden nach der Farbe oder nach dem Platz auf dem Blatt statt nach dem Merkmal, das die Kiste zeigt. Manche lassen ein Bild aus oder verbinden es mit zwei Kisten.",
+      "words": "Frage: „Was haben alle in dieser Kiste gemeinsam? Woran erkennst du das?“ Lass das Kind die Regel der Kiste sagen: „Hier kommen alle Dreiecke hinein.“ Dann: „Wie viele sind es in jeder Kiste? Sind es in einer Kiste mehr, oder sind es überall gleich viele?“",
+      "watch": "Achte darauf, wer die Regel einer Kiste in Worten sagen kann. Wer nur richtig verbindet, sortiert vielleicht nach dem Aussehen des ersten Bildes und kommt nicht weiter, sobald Größe oder Farbe wechseln."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "K:numeral-formation",
+     "title": "Zahlen 1 bis 5: zählen und Ziffern schreiben",
+     "objective": "Die Kinder zählen Mengen von 1 bis 5 und spuren die Ziffern 1 bis 5 in der richtigen Schreibrichtung nach.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-467",
+       "title": "Zählen und Zahlen nachspuren",
+       "core": "zahlen-schreiben-lernen-leicht-berufe-k467-2",
+       "level": 1,
+       "hard": "zahlen-schreiben-lernen-dinosaurier-k467"
+      }
+     ],
+     "tool": {
+      "key": "letter-studio",
+      "slug": "buchstaben-nachspuren",
+      "name": "Buchstabenwerkstatt"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+      "slug": "zahlen-schreiben-lernen-0-bis-9-klasse-1",
+      "title": "Zahlen schreiben üben – Ziffern 0–9 online nachspuren"
+     },
+     "exit": {
+      "slug": "zahlen-schreiben-lernen-leicht-dinosaurier-k467-3",
+      "title": "Zählen und Zahlen nachspuren"
+     },
+     "maker": {
+      "id": "number-tracing",
+      "name": "Zahlen schreiben",
+      "slug": "zahlen-schreiben-arbeitsblaetter-erstellen",
+      "template": "K-467"
+     },
+     "note": {
+      "mistake": "Die Kinder beginnen eine Ziffer unten oder an der falschen Stelle und schreiben die 3 oder die 5 spiegelverkehrt. Beim Zählen laufen Zeigen und Sprechen bei manchen nicht im gleichen Takt: Sie tippen ein Bild doppelt an oder überspringen eines und kommen auf eins zu viel oder eins zu wenig.",
+      "words": "Sprich bei jeder Ziffer den Schreibweg mit und frage: „Wo fängt die Ziffer an? Zeig mir den Punkt.“ Beim Zählen gilt: „Ein Bild, ein Zahlwort.“ Lass die Kinder die Ziffer erst groß in die Luft schreiben.",
+      "watch": "Achte auf den Anfangspunkt und die Richtung, nicht nur auf die fertige Ziffer. Eine 5, die unten begonnen wird, sieht richtig aus und wird später beim schnellen Schreiben zur spiegelverkehrten 5."
+     },
+     "days": 3
+    },
+    {
+     "n": 3,
+     "point": "K:count-how-many",
+     "title": "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr",
+     "objective": "Die Kinder zählen die Bilder im Zehnerfeld, schreiben die Zahl auf und sehen die Zahlen von 6 bis 10 als „fünf und noch mehr“.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-004",
+       "title": "Zählen im Zehnerfeld",
+       "core": "zehnerfeld-fahrzeuge-k004"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "zehnerfeld",
+      "name": "Zehnerfeld"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.how-many.0-10.animals",
+      "slug": "wie-viele-tiere-0-bis-10",
+      "title": "Mengen erfassen – Zählen 1 bis 10 im Zehnerfeld, online"
+     },
+     "exit": {
+      "slug": "zehnerfeld-fruchte-k004",
+      "title": "Zählen im Zehnerfeld"
+     },
+     "maker": {
+      "id": "ten-frames",
+      "name": "Zehnerfelder und Strichlisten",
+      "slug": "zehnerfeld-und-strichliste-arbeitsblaetter-erstellen",
+      "template": "K-004"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen jedes Bild einzeln von 1 an, auch wenn die obere Reihe voll ist. Manche zählen die leeren Felder mit oder springen zwischen den Reihen und verzählen sich.",
+      "words": "Frage: „Ist die obere Reihe voll? Wie viele sind das, ohne zu zählen?“ Sag: „Fünf und noch zwei, das sind sieben.“ Lass die Kinder die Zahl erst so sagen und dann schreiben.",
+      "watch": "Wer nennt die Zahl, ohne die obere Reihe abzuzählen? Diese Kinder nutzen die Fünf. Wer bei jeder Aufgabe wieder bei 1 beginnt, legt die Zahlen noch einmal mit Plättchen ins Zehnerfeld."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:compare-order-two-digit",
+     "title": "Mehr, weniger, gleich viele: die Zeichen <, > und =",
+     "objective": "Die Kinder vergleichen zwei Gruppen mit bis zu 10 Bildern und kreisen das passende Zeichen ein: größer als, kleiner als oder gleich.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-114",
+       "title": "Größer, kleiner oder gleich?",
+       "core": "mengen-vergleichen-fahrzeuge-g1114"
+      }
+     ],
+     "id": "1:compare-order-two-digit#mehr-weniger-gleich",
+     "screen": {
+      "kind": "activity",
+      "id": "friendship-bridge.compare-balance.k-cc-c-6",
+      "slug": "mengen-vergleichen-mehr-weniger-gleich-klasse-1",
+      "title": "Größer, kleiner, gleich – Mengen vergleichen online"
+     },
+     "exit": {
+      "slug": "mengen-vergleichen-spielzeug-g1114",
+      "title": "Größer, kleiner oder gleich?"
+     },
+     "maker": {
+      "id": "compare-numbers",
+      "name": "Zahlen und Mengen vergleichen",
+      "slug": "zahlen-vergleichen-arbeitsblaetter-erstellen",
+      "template": "G1-114"
+     },
+     "note": {
+      "mistake": "Die Kinder verwechseln < und > oder wählen das Zeichen nach der Seite, auf der die Bilder mehr Platz einnehmen. Bei gleich vielen Bildern suchen sie trotzdem nach einer größeren Gruppe.",
+      "words": "Sag: „Das Zeichen ist zur größeren Zahl hin offen.“ Lass jede Aufgabe als Satz lesen: „Acht ist größer als vier.“ Frage: „Wie kannst du es prüfen?“ und lass immer ein Bild links mit einem Bild rechts verbinden.",
+      "watch": "Lass dir das eingekreiste Zeichen vorlesen. Ein Kind, das richtig einkreist, aber „vier ist größer als acht“ liest, kennt das Zeichen als Bild und noch nicht als Satz."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "K:before-after-back",
+     "title": "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
+     "objective": "Die Kinder schreiben zu einer Zahl bis 10 die Zahl davor und die Zahl danach und zählen von 10 rückwärts.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-021",
+       "title": "Vorgänger und Nachfolger",
+       "core": "hundertertafel-leicht-k021-7",
+       "level": 1,
+       "hard": "hundertertafel-k021",
+       "screen": 1,
+       "landing": "zahlenfolgen-vorschule"
+      },
+      {
+       "type": "K-023",
+       "title": "Countdown von 10",
+       "core": "hundertertafel-fruchte-k023",
+       "easy": "hundertertafel-leicht-emotionen-k023",
+       "hard": "hundertertafel-schwer-winter-k023"
+      }
+     ],
+     "tool": {
+      "key": "number-line",
+      "slug": "zahlenstrahl",
+      "name": "Zahlenstrahl"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "hundertertafel-leicht-k021-9",
+      "title": "Vorgänger und Nachfolger"
+     },
+     "exit": {
+      "slug": "hundertertafel-leicht-k021-8",
+      "title": "Vorgänger und Nachfolger"
+     },
+     "maker": {
+      "id": "number-sequences",
+      "name": "Zahlentafeln und Zahlenfolgen",
+      "slug": "zahlenfolgen-und-hundertertafel-arbeitsblaetter-erstellen",
+      "template": "K-021"
+     },
+     "note": {
+      "mistake": "Die Kinder verwechseln „davor“ und „danach“ oder schreiben zweimal den Nachfolger. Rückwärts kommen viele zwischen 7 und 5 ins Stocken und zählen leise von 1 aufwärts, um die Zahl zu finden.",
+      "words": "Sag: „Der Vorgänger kommt direkt vor der Zahl, der Nachfolger direkt danach.“ Frage am Zahlenstrahl: „Wo steht die 7? Wer steht links daneben, wer rechts?“ Zählt gemeinsam rückwärts wie beim Raketenstart.",
+      "watch": "Achte darauf, wer den Vorgänger sofort nennt und wer dafür von 1 hochzählt. Auf dem Blatt steht auch die 1: Ihr Vorgänger ist die 0. Zeige die 0 vorher am Zahlenstrahl; wer sie von selbst nennt, hat die Zahlenreihe verstanden."
+     },
+     "days": 3
+    },
+    {
+     "n": 6,
+     "point": "1:ordinal-numbers",
+     "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
+     "objective": "Die Kinder schreiben die Ordnungszahlen 1. bis 10. der Reihe nach und ordnen Wörter wie „dritte“ und „fünfte“ einem Platz in einer Reihe zu.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-315",
+       "title": "Fehlende Ordnungszahlen eintragen",
+       "core": "ordnungszahlen-zootiere-g1315",
+       "easy": "ordnungszahlen-leicht-mobel-g1315",
+       "hard": "ordnungszahlen-schwer-aktivitaten-g1315",
+       "landing": "fehlende-ordnungszahlen-eintragen"
+      },
+      {
+       "type": "G1-316",
+       "title": "Ordnungszahl-Wörter mit dem Bild verbinden",
+       "core": "ordnungszahlen-bauernhoftiere-g1316",
+       "easy": "ordnungszahlen-leicht-klassenzimmer-g1316",
+       "hard": "ordnungszahlen-schwer-spielzeug-g1316",
+       "landing": "ordnungszahl-woerter-verbinden"
+      }
+     ],
+     "tool": {
+      "key": "the-queue",
+      "slug": "the-queue",
+      "name": "Die Zählreihe"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "ordnungszahlen-dinge-die-fliegen-g1315-3",
+      "title": "Fehlende Ordnungszahlen eintragen"
+     },
+     "exit": {
+      "slug": "ordnungszahlen-emotionen-g1315-2",
+      "title": "Fehlende Ordnungszahlen eintragen"
+     },
+     "maker": {
+      "id": "ordinal-numbers",
+      "name": "Ordnungszahlen",
+      "slug": "ordnungszahlen-arbeitsblaetter-erstellen",
+      "template": "G1-315"
+     },
+     "note": {
+      "mistake": "Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“. Beim Verbinden zählen sie vom falschen Ende der Reihe aus und nicht von der Fahne.",
+      "words": "Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der dritte Platz.“ Lies die Wörter gemeinsam: „der erste Platz, der zweite Platz, der dritte Platz, der vierte Platz.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“",
+      "watch": "Prüfe den Punkt hinter jeder Ordnungszahl und ob ein Kind von der Fahne aus zählt. Die Ordnungszahl-Wörter zu lesen ist eine Leseaufgabe; lies sie mit den Kindern, die das noch nicht können."
+     },
+     "days": 3
+    }
+   ]
+  },
+  {
    "id": "g1-add-subtract-within-10",
    "slug": "plus-und-minus-bis-10-klasse-1",
    "status": "live",
@@ -10,9 +325,9 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zu Plus und Minus bis 10, jede mit Lehrerhinweis, Arbeitsblättern (meist in drei Stufen) und einer Übung am Bildschirm.",
-   "days": 23,
-   "weeks": 5,
+   "metaDescription": "Zwei Wochen Mathe Klasse 1: 4 Stunden zum Dazutun und Wegnehmen bis 10, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl, jede mit Lehrerhinweis.",
+   "days": 12,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -20,12 +335,6 @@
      "title": "Zwei Gruppen zusammenzählen",
      "objective": "Die Kinder legen zwei Gruppen mit zusammen höchstens 10 Dingen zusammen, zählen, wie viele es insgesamt sind, und schreiben die Summe als Zahl auf.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -75,12 +384,6 @@
      "title": "Wegnehmen: Wie viele bleiben übrig?",
      "objective": "Die Kinder sehen eine Gruppe von höchstens 10 Bildern, von denen einige durchgestrichen sind, zählen, wie viele übrig bleiben, und schreiben diese Zahl auf.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -231,25 +534,27 @@
       "watch": "Achte auf den ersten Hüpfer. Wer die Startzahl beim Loshüpfen mitspricht, landet eine Zahl zu kurz. Lass das Kind jeden Hüpfer als Bogen zeichnen und die Bögen zählen, nicht die Striche: drei Bögen für + 3. Das Hüpfen in Einerschritten ist nur eine Brücke: Wer sicher ist, macht aus drei kleinen Hüpfern einen großen Sprung („von der 5 drei weiter zur 8“)."
      },
      "days": 3
-    },
+    }
+   ]
+  },
+  {
+   "id": "de1-aufgabenfamilien-rechengeschichten",
+   "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+   "metaTitle": "Mathe Klasse 1: Aufgabenfamilien und Rechengeschichten bis 10",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zu Aufgabenfamilien, Platzhalteraufgaben und Rechengeschichten bis 10, zur Rechnung zum Bild und zum Kopfrechnen.",
+   "days": 17,
+   "weeks": 3,
+   "lessons": [
     {
-     "n": 5,
+     "n": 1,
      "point": "1:fact-families",
      "title": "Aufgabenfamilien bis 10",
      "objective": "Die Kinder schreiben zu drei Zahlen, die zusammengehören, die zwei Plusaufgaben und die zwei Minusaufgaben auf.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -299,17 +604,11 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 2,
      "point": "1:missing-number-equations",
      "title": "Platzhalteraufgaben: Welche Zahl fehlt?",
      "objective": "Die Kinder finden in einer Plus- oder Minusaufgabe bis 10 die Zahl, die im Kästchen fehlt, an jeder Stelle der Aufgabe.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -361,7 +660,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 3,
      "point": "1:word-problems",
      "title": "Rechengeschichten bis 10",
      "objective": "Die Kinder lösen Rechengeschichten zum Dazukommen und Weggehen bis 10 und sagen oder schreiben die Aufgabe, die zur Geschichte passt.",
@@ -385,14 +684,14 @@
        "title": "Rechengeschichten bis 10",
        "core": "sachaufgaben-fruchte-g1240",
        "easy": "sachaufgaben-leicht-kuchenwerkzeuge-g1240",
-       "hard": "sachaufgaben-schwer-weihnachten-g1240",
+       "hard": "sachaufgaben-schwer-kuche-sw-g1240-2",
        "landing": "rechengeschichten-bis-10"
       },
       {
        "type": "G1-238",
        "title": "Rechengeschichten: Plusaufgaben",
        "core": "sachaufgaben-fruchte-g1238",
-       "easy": "sachaufgaben-leicht-weihnachten-g1238",
+       "easy": "sachaufgaben-leicht-essen-sw-2-g1238-2",
        "hard": "sachaufgaben-schwer-spielzeug-g1238",
        "landing": "rechengeschichten-plusaufgaben"
       }
@@ -404,11 +703,11 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "sachaufgaben-kuchenwerkzeuge-g1240-3",
+      "slug": "sachaufgaben-spielzeug-sw-g1240-4",
       "title": "Rechengeschichten bis 10"
      },
      "exit": {
-      "slug": "sachaufgaben-weihnachten-s-w-g1240-2",
+      "slug": "sachaufgaben-kuchenwerkzeuge-g1240-3",
       "title": "Rechengeschichten bis 10"
      },
      "maker": {
@@ -425,10 +724,10 @@
      "days": 3
     },
     {
-     "n": 8,
-     "point": "1:fluency-within-20",
-     "title": "Kopfrechnen bis 10",
-     "objective": "Die Kinder rechnen plus und minus bis 10, ohne jedes Mal zu zählen: Sie nutzen Aufgaben, die sie auswendig wissen, und leiten andere davon ab.",
+     "n": 4,
+     "point": "1:write-the-equation",
+     "title": "Die Rechnung zum Bild: Plus oder Minus?",
+     "objective": "Die Kinder erzählen zu einem Bild, was passiert, und schreiben die passende Plus- oder Minusaufgabe mit allen drei Zahlen und dem Rechenzeichen auf.",
      "standards": [
       {
        "rel": "teaches",
@@ -436,6 +735,50 @@
        "code": null,
        "title": "Rechenoperationen verstehen und beherrschen"
       },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mathematisch darstellen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-444",
+       "title": "Schreibe die Rechnung zum Bild",
+       "core": "rechnen-mit-bildern-schwer-meeresleben-g1444",
+       "level": 3,
+       "easy": "rechnen-mit-bildern-natur-sw-g1444"
+      }
+     ],
+     "tool": {
+      "key": "missing-question",
+      "slug": "zahlen-zerlegen-und-fragen-finden-klasse-1",
+      "name": "Die drei Nischen"
+     },
+     "exit": {
+      "slug": "rechnen-mit-bildern-schwer-haus-und-natur-sw-g1444-2",
+      "title": "Schreibe die Rechnung zum Bild"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition und Subtraktion",
+      "slug": "addition-und-subtraktion-arbeitsblaetter-erstellen",
+      "template": "G1-444"
+     },
+     "note": {
+      "mistake": "Die Kinder schreiben die Zahlen in der Reihenfolge, in der sie zählen, und setzen immer ein Plus dazwischen, auch wenn Bilder durchgestrichen sind. Beim Minus steht oft die kleinere Zahl vorn.",
+      "words": "Frage: „Was passiert auf dem Bild? Kommt etwas dazu oder geht etwas weg?“ Lass erst die Geschichte erzählen und dann die Rechnung schreiben: „Erst waren es sieben Fische, vier schwimmen weg.“ Frage: „Welche Zahl steht am Anfang?“",
+      "watch": "Achte darauf, ob Geschichte und Rechnung zusammenpassen. Wer zu einem Bild mit durchgestrichenen Dingen 4 + 3 = 7 schreibt, hat gezählt, aber nicht erzählt."
+     },
+     "days": 3
+    },
+    {
+     "n": 5,
+     "point": "1:fluency-within-20",
+     "title": "Kopfrechnen bis 10",
+     "objective": "Die Kinder rechnen plus und minus bis 10, ohne jedes Mal zu zählen: Sie nutzen Aufgaben, die sie auswendig wissen, und leiten andere davon ab.",
+     "standards": [
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -488,17 +831,17 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
-   "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zahlwörter und Zahlenstrahl",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu Ordnungszahlen, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl bis 20 und 30.",
+   "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+   "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zehner, Einer und Zahlenstrahl",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu den Zahlen bis 20 in zwei Zehnerfeldern, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl.",
    "days": 14,
    "weeks": 3,
    "lessons": [
     {
      "n": 1,
-     "point": "1:ordinal-numbers",
-     "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
-     "objective": "Die Kinder schreiben die Ordnungszahlen 1. bis 10. der Reihe nach und ordnen Wörter wie „dritte“ und „fünfte“ einem Platz in einer Reihe zu.",
+     "point": "K:teen-numbers",
+     "title": "Zahlen bis 20 in zwei Zehnerfeldern: ein Zehner und Einer",
+     "objective": "Die Kinder zählen, was in zwei Zehnerfeldern liegt, schreiben die Zahl von 11 bis 20 auf und ergänzen die Aufgabe, zum Beispiel 14 = 10 + 4.",
      "standards": [
       {
        "rel": "teaches",
@@ -509,46 +852,32 @@
      ],
      "paper": [
       {
-       "type": "G1-315",
-       "title": "Fehlende Ordnungszahlen eintragen",
-       "core": "ordnungszahlen-zootiere-g1315",
-       "easy": "ordnungszahlen-leicht-mobel-g1315",
-       "hard": "ordnungszahlen-schwer-aktivitaten-g1315",
-       "landing": "fehlende-ordnungszahlen-eintragen"
-      },
-      {
-       "type": "G1-316",
-       "title": "Ordnungszahl-Wörter mit dem Bild verbinden",
-       "core": "ordnungszahlen-bauernhoftiere-g1316",
-       "easy": "ordnungszahlen-leicht-klassenzimmer-g1316",
-       "hard": "ordnungszahlen-schwer-spielzeug-g1316",
-       "landing": "ordnungszahl-woerter-verbinden"
+       "type": "K-448",
+       "title": "Zahlen bis 20 im Doppel-Zehnerfeld",
+       "core": "zehnerfeld-tiere-sw-5-k448",
+       "easy": "zehnerfeld-leicht-zootiere-k448",
+       "hard": "zehnerfeld-schwer-insekten-und-kafer-k448"
       }
      ],
      "tool": {
-      "key": "the-queue",
-      "slug": "the-queue",
-      "name": "Die Zählreihe"
-     },
-     "screen": {
-      "kind": "page",
-      "slug": "ordnungszahlen-dinge-die-fliegen-g1315-3",
-      "title": "Fehlende Ordnungszahlen eintragen"
+      "key": "ten-frame",
+      "slug": "zehnerfeld",
+      "name": "Zehnerfeld"
      },
      "exit": {
-      "slug": "ordnungszahlen-emotionen-g1315-2",
-      "title": "Fehlende Ordnungszahlen eintragen"
+      "slug": "zehnerfeld-gemuse-k448-2",
+      "title": "Zahlen bis 20 im Doppel-Zehnerfeld"
      },
      "maker": {
-      "id": "ordinal-numbers",
-      "name": "Ordnungszahlen",
-      "slug": "ordnungszahlen-arbeitsblaetter-erstellen",
-      "template": "G1-315"
+      "id": "ten-frames",
+      "name": "Zehnerfelder und Strichlisten",
+      "slug": "zehnerfeld-und-strichliste-arbeitsblaetter-erstellen",
+      "template": "K-448"
      },
      "note": {
-      "mistake": "Die Kinder lassen den Punkt weg und schreiben 3 statt 3., dann steht da eine Anzahl und kein Platz. Sie lesen „dritte“ als „drei“ und „siebte“ als „sieben“. Beim Verbinden zählen sie vom falschen Ende der Reihe aus und nicht von der Fahne.",
-      "words": "Sag: „Der Punkt macht aus der Zahl einen Platz: 3 heißt drei, 3. heißt der dritte Platz.“ Lies die Wörter gemeinsam: „der erste Platz, der zweite Platz, der dritte Platz, der vierte Platz.“ Besprich die besonderen: erste, dritte, siebte, achte. Frage jedes Mal: „Wo ist die Fahne? Dort fangen wir an.“",
-      "watch": "Prüfe den Punkt hinter jeder Ordnungszahl und ob ein Kind von der Fahne aus zählt. Die Ordnungszahl-Wörter zu lesen ist eine Leseaufgabe; lies sie mit den Kindern, die das noch nicht können."
+      "mistake": "Die Kinder zählen alle Punkte einzeln von 1 an, statt das volle Feld als 10 zu nehmen. Beim Schreiben vertauschen sie die Ziffern, weil sie „vierzehn“ hören: erst die 4, dann die 1.",
+      "words": "Frage: „Wie viele sind im vollen Feld? Musst du sie zählen?“ Sag: „Zehn und vier sind vierzehn. Ein Zehner und vier Einer.“ Beim Schreiben: „Wir sprechen die Einer zuerst, aber wir schreiben den Zehner zuerst.“",
+      "watch": "Wer zählt vom vollen Feld aus weiter („zehn, elf, zwölf“) oder sieht die Zahl sofort? Wer bei 1 beginnt, muss das volle Zehnerfeld noch öfter als „zehn auf einen Blick“ erleben, zum Beispiel am Zehnerfeld an der Tafel."
      },
      "days": 3
     },
@@ -660,12 +989,6 @@
      "title": "Zahlen am Zahlenstrahl finden",
      "objective": "Die Kinder lesen ab, auf welche Zahl ein Pfeil am Zahlenstrahl bis 20 und bis 30 zeigt, und zählen dazu von der nächsten gedruckten Zahl aus weiter.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -913,12 +1236,6 @@
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
        "title": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"
       }
      ],
@@ -965,6 +1282,240 @@
    ]
   },
   {
+   "id": "de1-zehneruebergang",
+   "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Plus über die 10 und Rechnen bis 20",
+   "metaTitle": "Mathe Klasse 1: Plus über die 10 und Rechnen bis 20",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Plusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten bis 20 und zum Kopfrechnen bis 20.",
+   "days": 15,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:fluency-within-20",
+     "title": "Plus über die 10: erst bis zur 10, dann weiter",
+     "objective": "Die Kinder lösen Plusaufgaben mit Zehnerübergang am Zahlenstrahl in zwei Schritten, erst bis zur 10 und dann den Rest, und schreiben den Rechenweg auf: 8 + 5 = 8 + 2 + 3 = 13.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-439",
+       "title": "Erst bis zum Zehner",
+       "core": "zahlenstrahl-leicht-g1439-6",
+       "level": 1,
+       "hard": "zahlenstrahl-g1439"
+      }
+     ],
+     "id": "1:fluency-within-20#plus-ueber-die-10",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rechenrahmen",
+      "name": "Rechenrahmen"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "ten-stones.add-sub-within-20.1-oa-c-6",
+      "slug": "ueber-den-zehner-rechnen-am-zahlenstrahl-klasse-1",
+      "title": "Zehnerübergang üben – über den Zehner rechnen"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-leicht-g1439-7",
+      "title": "Erst bis zum Zehner"
+     },
+     "maker": {
+      "id": "number-lines",
+      "name": "Zahlenstrahlen",
+      "slug": "zahlenstrahl-arbeitsblaetter-erstellen",
+      "template": "G1-439"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen in Einerschritten weiter und halten bei der 10 nicht an. Andere zerlegen die zweite Zahl so, dass der erste Sprung nicht bei der 10 landet, zum Beispiel 8 + 5 = 8 + 3 + 2.",
+      "words": "Frage: „Wie viel fehlt der 8 bis zur 10? Was bleibt von der 5 übrig?“ Sag: „Erst bis zur 10, dann den Rest.“ Zeige es am Rechenrahmen: erst die obere Reihe füllen, dann den Rest in die zweite Reihe schieben.",
+      "watch": "Achte auf den ersten Sprung: Er muss auf der 10 landen. Wer in einem einzigen langen Sprung über die 10 hüpft, zählt meist noch in Einerschritten weiter und braucht die verliebten Zahlen noch einmal."
+     },
+     "days": 3
+    },
+    {
+     "n": 2,
+     "point": "1:near-doubles",
+     "title": "Verdoppeln hilft: 6 + 7",
+     "objective": "Die Kinder lösen Nachbaraufgaben der Verdopplungen bis 20: Sie schreiben 6 + 7 als 6 + 6 + 1 und rechnen das Ergebnis aus.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-449",
+       "title": "Nachbaraufgaben zum Verdoppeln",
+       "core": "verdoppeln-und-halbieren-g1449",
+       "easy": "verdoppeln-und-halbieren-leicht-g1449-5",
+       "hard": "verdoppeln-und-halbieren-schwer-g1449-6"
+      }
+     ],
+     "tool": {
+      "key": "doubling-mirror",
+      "slug": "verdoppeln-und-halbieren-mit-plaettchen-grundschule",
+      "name": "Das Scharnier"
+     },
+     "exit": {
+      "slug": "verdoppeln-und-halbieren-g1449-2",
+      "title": "Nachbaraufgaben zum Verdoppeln"
+     },
+     "maker": {
+      "id": "doubles-halves",
+      "name": "Verdoppeln und Halbieren",
+      "slug": "verdoppeln-und-halbieren-arbeitsblaetter-erstellen",
+      "template": "G1-449"
+     },
+     "note": {
+      "mistake": "Die Kinder sehen die Verdopplung in der Aufgabe nicht und zählen weiter. Andere verdoppeln die größere Zahl und rechnen trotzdem noch eins dazu, sodass 6 + 7 zu 15 wird.",
+      "words": "Frage: „Welche Verdopplungsaufgabe steckt in 6 + 7? Um wie viel ist 7 größer als 6?“ Sag: „6 + 6 ist 12, und eins dazu ist 13.“ Lass die Kinder erklären, warum 6 + 7 eins mehr ist als 6 + 6.",
+      "watch": "Wer schreibt zuerst das Ergebnis und füllt die Kästchen dazwischen erst danach? Das Kind kennt die Aufgabe vielleicht schon auswendig; es soll trotzdem sagen können, welche Verdopplung hilft."
+     },
+     "days": 3
+    },
+    {
+     "n": 3,
+     "point": "1:word-problems",
+     "title": "Rechengeschichten bis 20",
+     "objective": "Die Kinder lösen Rechengeschichten im Zahlenraum bis 20, in denen etwas dazukommt oder weggeht, nutzen die Bilder und schreiben die Antwort auf.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen in Kontexten anwenden"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mathematisch modellieren"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-213",
+       "title": "Rechengeschichten mit Bildern",
+       "core": "sachaufgaben-fruchte-g1213",
+       "easy": "sachaufgaben-leicht-klassenzimmer-s-w-g1213-2",
+       "hard": "sachaufgaben-schwer-backerei-g1213",
+       "landing": "rechengeschichten-mit-tieren"
+      }
+     ],
+     "id": "1:word-problems#rechengeschichten-bis-20",
+     "tool": {
+      "key": "missing-question",
+      "slug": "zahlen-zerlegen-und-fragen-finden-klasse-1",
+      "name": "Die drei Nischen"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "sachaufgaben-spielzeug-sw-g1213-2",
+      "title": "Rechengeschichten mit Bildern"
+     },
+     "exit": {
+      "slug": "sachaufgaben-tiere-g1213",
+      "title": "Rechengeschichten mit Bildern"
+     },
+     "maker": {
+      "id": "word-problems",
+      "name": "Sachaufgaben",
+      "slug": "sachaufgaben-arbeitsblaetter-erstellen",
+      "template": "G1-213"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen mit den zwei Zahlen, ohne die Frage zu lesen, und zählen auch dann zusammen, wenn etwas weggeht. Bei Zahlen über 10 zählen viele alle Bilder einzeln ab und verzählen sich.",
+      "words": "Frage: „Was wird erzählt? Was ist gefragt? Werden es mehr oder weniger?“ Lass die Rechnung und einen Antwortsatz sagen: „11 minus 9 ist 2. Es sind noch 2 übrig.“",
+      "watch": "Achte darauf, ob das Kind die Antwort als Satz zur Geschichte sagen kann. Wer nur die Zahl nennt, hat gerechnet, aber noch nicht geprüft, ob sie zur Frage passt."
+     },
+     "days": 3
+    },
+    {
+     "n": 4,
+     "point": "1:fluency-within-20",
+     "title": "Kopfrechnen bis 20",
+     "objective": "Die Kinder rechnen Plus- und Minusaufgaben bis 20 im Kopf und schreiben das Ergebnis auf.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-208",
+       "title": "Kopfrechnen bis 20",
+       "core": "kopfrechnen-g1208",
+       "easy": "kopfrechnen-leicht-g1208-7",
+       "hard": "kopfrechnen-schwer-g1208-12",
+       "landing": "kopfrechnen-bis-20"
+      },
+      {
+       "type": "G1-216",
+       "title": "Plusaufgaben bis 20",
+       "core": "kopfrechnen-g1216",
+       "easy": "kopfrechnen-leicht-g1216-7",
+       "hard": "kopfrechnen-schwer-g1216-12",
+       "landing": "plusaufgaben-bis-20"
+      },
+      {
+       "type": "G1-217",
+       "title": "Minusaufgaben bis 20",
+       "core": "kopfrechnen-g1217",
+       "easy": "kopfrechnen-leicht-g1217-7",
+       "hard": "kopfrechnen-schwer-g1217-12",
+       "landing": "minusaufgaben-bis-20"
+      }
+     ],
+     "id": "1:fluency-within-20#kopfrechnen-bis-20",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rechenrahmen",
+      "name": "Rechenrahmen"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "match-pairs.match-facts-to-20.2-oa-b-2",
+      "slug": "rechne-aus-bis-20",
+      "title": "Kopfrechnen bis 20 – Plus und Minus online üben"
+     },
+     "exit": {
+      "slug": "kopfrechnen-g1208-2",
+      "title": "Kopfrechnen bis 20"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition und Subtraktion",
+      "slug": "addition-und-subtraktion-arbeitsblaetter-erstellen",
+      "template": "G1-208"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen bei jeder Aufgabe mit den Fingern, auch bei 14 + 4, wo die kleine Aufgabe 4 + 4 hilft. Bei 17 − 12 ziehen manche nur die Einer ab und vergessen den Zehner.",
+      "words": "Frage: „Welche kleine Aufgabe steckt darin? 4 + 4 kennst du, was ist dann 14 + 4?“ Sag: „Überlege erst, welcher Weg hilft: verdoppeln, bis zur 10 oder die kleine Aufgabe.“ Bei Minus über die 10: „17 − 9: erst zurück bis zur 10, dann den Rest, also 17 − 7 − 2.“ Und: „16 − 8: Welche Verdopplung kennst du?“ Eine tägliche Runde von fünf Minuten bringt mehr als eine lange Übungsstunde.",
+      "watch": "Notiere, welche Aufgaben ein Kind sofort weiß und bei welchen es zählt. Die Aufgaben, bei denen es noch zählt, sind seine Aufgaben für die nächsten Tage; die anderen muss es nicht noch einmal üben."
+     },
+     "days": 3
+    }
+   ]
+  },
+  {
    "id": "g1-time-calendar-coins",
    "slug": "uhr-kalender-und-geld-klasse-1",
    "status": "live",
@@ -972,8 +1523,8 @@
    "subject": "math",
    "title": "Uhr, Kalender und Geld",
    "metaTitle": "Mathe Klasse 1: Uhr, Kalender und Geld | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen und Monaten und zu Geldbeträgen mit Münzen.",
-   "days": 14,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen, Monaten und Jahreszeiten und zu Münzen.",
+   "days": 16,
    "weeks": 3,
    "lessons": [
     {
@@ -1051,12 +1602,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Größen messen und Maßangaben bestimmen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Über Größenvorstellungen verfügen"
       },
       {
        "rel": "teaches",
@@ -1165,16 +1710,43 @@
     },
     {
      "n": 4,
+     "point": "1:days-months-seasons~season-wheel",
+     "title": "Monate und Jahreszeiten",
+     "objective": "Die Kinder ordnen die zwölf Monate den vier Jahreszeiten zu und malen zu jedem Monat den Kreis in der Farbe seiner Jahreszeit an.",
+     "standards": [
+      {
+       "rel": "prepares",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Über Größenvorstellungen verfügen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-323",
+       "title": "Monate und Jahreszeiten: Male die Jahreszeit an",
+       "core": "die-vier-jahreszeiten-g1323",
+       "landing": "monate-und-jahreszeiten-anmalen"
+      }
+     ],
+     "tool": {
+      "key": "calendar-wall",
+      "slug": "kalendertafel",
+      "name": "Kalendertafel"
+     },
+     "note": {
+      "mistake": "Die Kinder ordnen einen Monat nach dem eigenen Erlebnis zu („Im März lag noch Schnee“). Viele sehen Dezember, Januar und Februar nicht als eine zusammenhängende Jahreszeit, weil dazwischen das neue Jahr beginnt.",
+      "words": "Sag: „Auf dem Blatt gehört jeder Monat ganz zu einer Jahreszeit, und jede Jahreszeit hat drei Monate. Der Winter geht über den Jahreswechsel: Dezember, Januar, Februar.“ Frage: „In welchem Monat hast du Geburtstag? Welche Jahreszeit ist dann?“ Zeige die Monate an der Kalendertafel.",
+      "watch": "Achte auf den Dezember und auf März, Juni und September, mit denen eine neue Jahreszeit beginnt. Wer dort unsicher ist, sagt die Monate noch einmal der Reihe nach auf und zeigt dabei auf den Kalender."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "1:coins",
      "title": "Geldbeträge mit Münzen zählen",
      "objective": "Die Kinder kennen die Cent-Münzen und die Euro-Münzen, sagen, was jede wert ist, und zählen die Münzen in einem Geldbeutel, zuerst in Geldbeuteln mit nur einer Sorte.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Über Größenvorstellungen verfügen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -1238,8 +1810,8 @@
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
    "metaTitle": "Mathe Klasse 1: Formen, Messen und Diagramme | Unterrichtseinheit",
-   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zu Formen, zum Tangram, zum Messen von Längen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern, mit Lehrerhinweisen.",
-   "days": 19,
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 7 Stunden zu Formen, Tangram, Wegen auf dem Gitterplan, zum Messen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern.",
+   "days": 21,
    "weeks": 4,
    "lessons": [
     {
@@ -1355,6 +1927,52 @@
     },
     {
      "n": 3,
+     "point": "1:map-key",
+     "title": "Rechts, links, oben, unten: Wege auf dem Gitterplan",
+     "objective": "Die Kinder folgen im Gitterplan Schritten wie „2 Felder nach unten, 1 Feld nach links“ bis zum Ziel und beschreiben einen eingezeichneten Weg mit Richtung und Anzahl der Felder.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Über räumliches Vorstellungsvermögen verfügen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-528",
+       "title": "Schatzsuche: Folge den Schritten",
+       "core": "karten-und-himmelsrichtungen-blumen-g1528",
+       "easy": "karten-und-himmelsrichtungen-leicht-formen-g1528",
+       "hard": "karten-und-himmelsrichtungen-schwer-fruhling-g1528"
+      },
+      {
+       "type": "G1-529",
+       "title": "Beschreibe den Weg",
+       "core": "karten-und-himmelsrichtungen-krankenhaus-g1529",
+       "easy": "karten-und-himmelsrichtungen-leicht-postamt-g1529",
+       "hard": "karten-und-himmelsrichtungen-schwer-werkzeuge-g1529"
+      }
+     ],
+     "exit": {
+      "slug": "karten-und-himmelsrichtungen-berufe-g1528-2",
+      "title": "Schatzsuche: Folge den Schritten"
+     },
+     "maker": {
+      "id": "maps-grids",
+      "name": "Karten und Koordinaten",
+      "slug": "karten-und-koordinaten-arbeitsblaetter-erstellen",
+      "template": "G1-528"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen das Feld mit, auf dem sie stehen, und kommen ein Feld zu kurz an. Rechts und links werden verwechselt, vor allem wenn der Weg vorher nach unten gegangen ist.",
+      "words": "Sag: „Das Startfeld zählt nicht mit. Der erste Schritt ist das nächste Feld.“ Lass die Kinder den Weg mit dem Finger gehen und dabei sprechen: „zwei nach unten, eins nach links“. Frage: „Wo bist du jetzt? Wohin zeigt der nächste Pfeil?“",
+      "watch": "Achte auf den ersten Schritt jeder Anweisung. Wer immer ein Feld zu kurz ankommt, zählt das Startfeld mit; geht den Weg dann einmal mit einer Spielfigur auf dem Plan."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "1:measure-length-units",
      "title": "Längen mit Kästchen messen",
      "objective": "Die Kinder messen die Länge eines Gegenstands, indem sie die Kästchen darunter zählen, und ordnen drei Gegenstände vom kürzesten zum längsten.",
@@ -1418,17 +2036,11 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:picture-graphs-sort-count",
      "title": "Sortieren, zählen und ein Bilddiagramm lesen",
      "objective": "Die Kinder zählen in einer gemischten Menge jede Sorte, tragen die Anzahlen in eine Tabelle ein und lesen ab, wie viele ein Bilddiagramm in jeder Reihe zeigt.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Mit Daten umgehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -1481,7 +2093,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:bar-graphs",
      "title": "Ein Säulendiagramm lesen und ausmalen",
      "objective": "Die Kinder lesen ab, welche Zahl jede Säule zeigt, und malen ein Säulendiagramm aus: ein Kästchen für jedes gezählte Ding.",
@@ -1538,7 +2150,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "1:patterns-missing",
      "title": "Muster: Zwei Bilder fehlen",
      "objective": "Die Kinder finden den Teil, der sich in einem Muster wiederholt, und ergänzen zwei fehlende Bilder.",
@@ -1643,12 +2255,6 @@
      "title": "Zehner und Einer",
      "objective": "Die Kinder lesen eine zweistellige Zahl ab, die mit Zehnerstangen und Einerwürfeln gelegt ist, und kreisen das Material ein, das zu einer Zahl passt.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -1766,12 +2372,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
       }
      ],
      "paper": [
@@ -1868,12 +2468,6 @@
      "title": "Ausschnitte aus dem Zahlenstrahl: Der Anfang ist nicht die Null",
      "objective": "Die Kinder lesen ab, auf welche Zahl ein Pfeil zeigt, wenn ein Ausschnitt des Zahlenstrahls bei 40 oder bei 60 beginnt und nur einige Zahlen gedruckt sind.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -2068,12 +2662,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
       }
      ],
      "paper": [
@@ -2250,12 +2838,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Größen messen und Maßangaben bestimmen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Über Größenvorstellungen verfügen"
       },
       {
        "rel": "teaches",
@@ -2455,12 +3037,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Mit Daten umgehen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Mit Daten umgehen"
       }
      ],
      "paper": [
@@ -2527,7 +3103,7 @@
        "title": "X-Diagramm lesen",
        "core": "diagramme-formen-g2240",
        "easy": "diagramme-leicht-zootiere-g2240",
-       "hard": "diagramme-schwer-weihnachten-g2240"
+       "hard": "diagramme-schwer-haustiere-g2240-2"
       }
      ],
      "screen": {
@@ -2571,7 +3147,7 @@
        "type": "G2-238",
        "title": "Jedes Bild zählt doppelt",
        "core": "diagramme-fahrzeuge-g2238",
-       "easy": "diagramme-leicht-weihnachten-g2238",
+       "easy": "diagramme-leicht-haustiere-g2238-2",
        "hard": "diagramme-schwer-kuchenwerkzeuge-g2238"
       }
      ],
@@ -2608,8 +3184,8 @@
    "subject": "math",
    "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
    "metaTitle": "Mathe Klasse 2: Malnehmen – Gruppen, Felder und erste Einmaleinsreihen",
-   "metaDescription": "Vier Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
-   "days": 22,
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
+   "days": 19,
    "weeks": 4,
    "lessons": [
     {
@@ -2689,8 +3265,8 @@
        "type": "G2-211",
        "title": "Reihen und Spalten",
        "core": "einmaleins-fahrzeuge-g2211",
-       "easy": "einmaleins-leicht-4-juli-g2211",
-       "hard": "einmaleins-schwer-4-juli-g2211-103"
+       "easy": "einmaleins-leicht-im-supermarkt-g2211-2",
+       "hard": "einmaleins-schwer-im-supermarkt-g2211-104"
       },
       {
        "type": "G2-212",
@@ -2833,12 +3409,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
       }
      ],
      "paper": [
@@ -2897,6 +3467,129 @@
     },
     {
      "n": 6,
+     "point": "3:mult-equal-groups",
+     "title": "Malaufgaben zu Gruppen und großen Punktefeldern",
+     "objective": "Die Kinder lesen ein Bild mit gleich großen Gruppen oder ein Punktefeld, ergänzen die Malaufgabe und bestimmen das Ergebnis.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-302",
+       "title": "Knifflige Gruppen",
+       "core": "einmaleins-formen-g3302",
+       "easy": "einmaleins-leicht-nachtisch-s-w-g3302-2",
+       "hard": "einmaleins-schwer-emotionen-g3302"
+      },
+      {
+       "type": "G3-301",
+       "title": "Große Punktefelder",
+       "core": "einmaleins-formen-g3301",
+       "easy": "einmaleins-leicht-zootiere-g3301",
+       "hard": "einmaleins-schwer-krankenhaus-g3301"
+      }
+     ],
+     "tool": {
+      "key": "baking-tray",
+      "slug": "broetchenblech",
+      "name": "Das Brötchenblech"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "echo-grove.match-the-rune.3-oa-a-1",
+      "slug": "multiplikation-als-gruppen-einmaleins-klasse-2",
+      "title": "Einmaleins üben – Multiplikation als Gruppen"
+     },
+     "exit": {
+      "slug": "einmaleins-tiere-g3302",
+      "title": "Knifflige Gruppen"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-302"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen jedes Bild einzeln und nutzen die Gruppen und Reihen nie; das Arbeitsblatt „Große Punktefelder“ lädt mit „Zähle alle Bilder“ sogar dazu ein. In der Malaufgabe schreiben sie das Ergebnis an eine Stelle, an die ein Faktor gehört.",
+      "words": "Sag: „6 Gruppen mit je 4 sind 6 mal 4.“ Leite das Ergebnis aus einer Aufgabe ab, die das Kind weiß: „5 mal 4 sind 20, eine Gruppe mehr sind 24.“ Die Aufgabe mit 5 ist die Kernaufgabe, 6 mal 4 ihre Nachbaraufgabe. Auf dem Arbeitsblatt „Große Punktefelder“ steht „Zähle alle Bilder“; sag dazu: „Zähle nicht einzeln. Wie viele Reihen sind es? Wie viele in jeder Reihe?“",
+      "watch": "Frage, wie das Kind das Ergebnis gefunden hat. Einzeln zählen gibt eine richtige Antwort und keinen Fortschritt; ein Kind, das „fünf davon und noch eine Gruppe“ sagt, baut sich das Einmaleins auf."
+     },
+     "days": 3
+    }
+   ]
+  },
+  {
+   "id": "de2-einmaleins-reihen",
+   "slug": "das-kleine-einmaleins-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+   "metaTitle": "Mathe Klasse 2: Das kleine Einmaleins – die Reihen von 3 bis 10",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden zum 10er-Einmaleins und den Kernaufgaben, zu den Reihen mit 3, 4, 6, 7, 8 und 9 und zur Einmaleinstafel, jede mit Lehrerhinweis.",
+   "days": 20,
+   "weeks": 4,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:times-tables",
+     "title": "Das 10er-Einmaleins und die Kernaufgaben",
+     "objective": "Die Kinder rechnen die Aufgaben des 10er-Einmaleins und nutzen die Kernaufgaben 1 mal, 5 mal und 10 mal, die schon auf dem Blatt stehen, als Stützen.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-366",
+       "title": "Das 10er-Einmaleins",
+       "core": "kleines-einmaleins-leicht-g3366-4",
+       "level": 1,
+       "hard": "kleines-einmaleins-g3366",
+       "screen": 1,
+       "landing": "10er-einmaleins"
+      }
+     ],
+     "id": "3:times-tables#zehner-einmaleins",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "broetchenblech",
+      "name": "Das Brötchenblech"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "kleines-einmaleins-leicht-g3366-4",
+      "title": "Das 10er-Einmaleins"
+     },
+     "exit": {
+      "slug": "kleines-einmaleins-leicht-g3366-5",
+      "title": "Das 10er-Einmaleins"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-366"
+     },
+     "note": {
+      "mistake": "Die Kinder „hängen eine Null an“, ohne zu wissen, warum: Sie können nicht sagen, dass 6 · 10 sechs Zehner sind, und übertragen den Trick später auf Aufgaben, bei denen er nicht stimmt. Andere sagen für jede Aufgabe die ganze Reihe von vorn auf.",
+      "words": "Frage: „Wie viele Zehner sind 6 · 10? Wie heißt die Zahl mit 6 Zehnern?“ Sag: „5 · 10 ist 50. Dann ist 6 · 10 ein Zehner mehr.“ Nenne 1 mal, 2 mal, 5 mal und 10 mal „Kernaufgaben“: Von ihnen aus findet man alle anderen.",
+      "watch": "Wer findet 6 · 10 von 5 · 10 aus, und wer zählt in Zehnerschritten von vorn? Beides führt zum Ergebnis; das erste ist der Weg, den die Kinder für die anderen Reihen brauchen."
+     },
+     "days": 3
+    },
+    {
+     "n": 2,
      "point": "2:skip-count-3-4",
      "title": "In Dreier- und Viererschritten zählen",
      "objective": "Die Kinder zählen in 3er- und 4er-Schritten und schreiben die fehlenden Zahlen in jede Zahlenreihe.",
@@ -2959,10 +3652,10 @@
      "days": 3
     },
     {
-     "n": 7,
-     "point": "3:mult-equal-groups",
-     "title": "Malaufgaben zu Gruppen und großen Punktefeldern",
-     "objective": "Die Kinder lesen ein Bild mit gleich großen Gruppen oder ein Punktefeld, ergänzen die Malaufgabe und bestimmen das Ergebnis.",
+     "n": 3,
+     "point": "3:times-tables",
+     "title": "Das 4er- und das 8er-Einmaleins: verdoppeln",
+     "objective": "Die Kinder rechnen die Aufgaben des 4er- und des 8er-Einmaleins und nutzen dabei das Verdoppeln: Die Ergebnisse der 4er-Reihe sind das Doppelte der 2er-Reihe, die der 8er-Reihe das Doppelte der 4er-Reihe.",
      "standards": [
       {
        "rel": "teaches",
@@ -2973,47 +3666,208 @@
      ],
      "paper": [
       {
-       "type": "G3-302",
-       "title": "Knifflige Gruppen",
-       "core": "einmaleins-formen-g3302",
-       "easy": "einmaleins-leicht-4-juli-g3302",
-       "hard": "einmaleins-schwer-emotionen-g3302"
+       "type": "G3-368",
+       "title": "Das 4er-Einmaleins",
+       "core": "kleines-einmaleins-g3368",
+       "easy": "kleines-einmaleins-leicht-g3368-4",
+       "hard": "kleines-einmaleins-schwer-g3368-6",
+       "landing": "4er-einmaleins"
       },
       {
-       "type": "G3-301",
-       "title": "Große Punktefelder",
-       "core": "einmaleins-formen-g3301",
-       "easy": "einmaleins-leicht-zootiere-g3301",
-       "hard": "einmaleins-schwer-krankenhaus-g3301"
+       "type": "G3-404",
+       "title": "Das 8er-Einmaleins",
+       "core": "kleines-einmaleins-g3404",
+       "easy": "kleines-einmaleins-leicht-g3404-4",
+       "hard": "kleines-einmaleins-schwer-g3404-6",
+       "screen": 1
       }
      ],
+     "id": "3:times-tables#vierer-und-achter",
      "tool": {
       "key": "baking-tray",
       "slug": "broetchenblech",
       "name": "Das Brötchenblech"
      },
      "screen": {
-      "kind": "activity",
-      "id": "echo-grove.match-the-rune.3-oa-a-1",
-      "slug": "multiplikation-als-gruppen-einmaleins-klasse-2",
-      "title": "Einmaleins üben – Multiplikation als Gruppen"
+      "kind": "page",
+      "slug": "kleines-einmaleins-g3368-3",
+      "title": "Das 4er-Einmaleins"
      },
      "exit": {
-      "slug": "einmaleins-tiere-g3302",
-      "title": "Knifflige Gruppen"
+      "slug": "kleines-einmaleins-g3368-2",
+      "title": "Das 4er-Einmaleins"
      },
      "maker": {
       "id": "multiplication-division",
       "name": "Malnehmen und Teilen",
       "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
-      "template": "G3-302"
+      "template": "G3-368"
      },
      "note": {
-      "mistake": "Die Kinder zählen jedes Bild einzeln und nutzen die Gruppen und Reihen nie; das Arbeitsblatt „Große Punktefelder“ lädt mit „Zähle alle Bilder“ sogar dazu ein. In der Malaufgabe schreiben sie das Ergebnis an eine Stelle, an die ein Faktor gehört.",
-      "words": "Sag: „6 Gruppen mit je 4 sind 6 mal 4.“ Leite das Ergebnis aus einer Aufgabe ab, die das Kind weiß: „5 mal 4 sind 20, eine Gruppe mehr sind 24.“ Die Aufgabe mit 5 ist die Kernaufgabe, 6 mal 4 ihre Nachbaraufgabe. Auf dem Arbeitsblatt „Große Punktefelder“ steht „Zähle alle Bilder“; sag dazu: „Zähle nicht einzeln. Wie viele Reihen sind es? Wie viele in jeder Reihe?“",
-      "watch": "Frage, wie das Kind das Ergebnis gefunden hat. Einzeln zählen gibt eine richtige Antwort und keinen Fortschritt; ein Kind, das „fünf davon und noch eine Gruppe“ sagt, baut sich das Einmaleins auf."
+      "mistake": "Die Kinder lernen jede Reihe wie ein neues Gedicht und sehen nicht, dass 6 · 4 das Doppelte von 6 · 2 ist. Bei 7 · 8 und 8 · 8 raten viele.",
+      "words": "Frage: „Was ist 6 · 2? Und das Doppelte davon?“ Sag: „Mal 4 heißt zweimal verdoppeln, mal 8 heißt dreimal verdoppeln: 7, 14, 28, 56.“ Schreibe die 2er-, die 4er- und die 8er-Reihe untereinander an die Tafel.",
+      "watch": "Achte darauf, wer ein Ergebnis der 8er-Reihe aus der 4er-Reihe holt. Wer die Reihe nur aufsagen kann, findet 7 · 8 nicht, wenn die Aufgabe einzeln gefragt wird."
      },
      "days": 3
+    },
+    {
+     "n": 4,
+     "point": "3:times-tables",
+     "title": "Das 3er- und das 6er-Einmaleins",
+     "objective": "Die Kinder rechnen die Aufgaben des 3er-Einmaleins aus den Dreierschritten und die des 6er-Einmaleins als das Doppelte der 3er-Reihe.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-367",
+       "title": "Das 3er-Einmaleins",
+       "core": "kleines-einmaleins-g3367",
+       "easy": "kleines-einmaleins-leicht-g3367-4",
+       "hard": "kleines-einmaleins-schwer-g3367-6",
+       "landing": "3er-einmaleins"
+      },
+      {
+       "type": "G3-402",
+       "title": "Das 6er-Einmaleins",
+       "core": "kleines-einmaleins-g3402",
+       "easy": "kleines-einmaleins-leicht-g3402-4",
+       "hard": "kleines-einmaleins-schwer-g3402-6",
+       "screen": 1
+      }
+     ],
+     "id": "3:times-tables#dreier-und-sechser",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "broetchenblech",
+      "name": "Das Brötchenblech"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "kleines-einmaleins-g3367-3",
+      "title": "Das 3er-Einmaleins"
+     },
+     "exit": {
+      "slug": "kleines-einmaleins-g3367-2",
+      "title": "Das 3er-Einmaleins"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-367"
+     },
+     "note": {
+      "mistake": "Die Kinder verzählen sich in den Dreierschritten nach der 18 und nach der 27. In der 6er-Reihe verwechseln sie die Ergebnisse 42, 48 und 54.",
+      "words": "Frage: „Was ist 7 · 3? Und das Doppelte?“ Sag: „Die 6er-Reihe ist das Doppelte der 3er-Reihe: 7 · 3 = 21, also 7 · 6 = 42.“ Für schwere Aufgaben: „5 · 6 kennst du. 6 · 6 ist ein Sechser mehr.“",
+      "watch": "Wer nutzt bei 7 · 6 die Kernaufgabe 5 · 6 oder das Doppelte von 7 · 3? Wer die Reihe jedes Mal von 6 an aufsagt, legt die Aufgabe noch einmal auf dem Brötchenblech: Reihen dazulegen und wegnehmen."
+     },
+     "days": 3
+    },
+    {
+     "n": 5,
+     "point": "3:times-tables",
+     "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus",
+     "objective": "Die Kinder rechnen die Aufgaben des 9er- und des 7er-Einmaleins und leiten sie aus Kernaufgaben ab: 6 · 9 ist 6 · 10 minus 6, 9 · 7 ist 10 · 7 minus 7, 7 · 7 ist 5 · 7 plus 2 · 7.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-405",
+       "title": "Das 9er-Einmaleins",
+       "core": "kleines-einmaleins-g3405",
+       "easy": "kleines-einmaleins-leicht-g3405-4",
+       "hard": "kleines-einmaleins-schwer-g3405-6",
+       "screen": 1
+      },
+      {
+       "type": "G3-403",
+       "title": "Das 7er-Einmaleins",
+       "core": "kleines-einmaleins-g3403",
+       "easy": "kleines-einmaleins-leicht-g3403-4",
+       "hard": "kleines-einmaleins-schwer-g3403-6",
+       "screen": 1
+      }
+     ],
+     "id": "3:times-tables#neuner-und-siebener",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "broetchenblech",
+      "name": "Das Brötchenblech"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "kleines-einmaleins-g3405-3",
+      "title": "Das 9er-Einmaleins"
+     },
+     "exit": {
+      "slug": "kleines-einmaleins-g3405-2",
+      "title": "Das 9er-Einmaleins"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-405"
+     },
+     "note": {
+      "mistake": "In der 9er-Reihe ziehen die Kinder am Ende nur 1 ab statt einer ganzen Gruppe: 7 · 9 wird zu 70 − 1 = 69. Die 7er-Reihe ist nicht das Doppelte einer Reihe, die die Kinder schon kennen; hier wird am meisten geraten.",
+      "words": "Sag: „7 · 10 ist 70. Bei 7 · 9 ist jede der 7 Gruppen um eins kleiner, also 70 − 7 = 63.“ Frage: „Was nimmst du weg, eine 1 oder eine 7?“ Für die 7er-Reihe: „5 · 7 und 2 · 7 kennst du. Zusammen ist das 7 · 7.“ Und: „10 · 7 ist 70. Für 9 · 7 nehme ich einen Siebener weg: 63.“",
+      "watch": "Lass dir bei 6 · 9 und 8 · 7 den Rechenweg sagen. Wer „54, weil 60 minus 6“ sagt, leitet ab. Wer lange schweigt und dann eine Zahl nennt, sagt im Kopf die Reihe auf."
+     },
+     "days": 3
+    },
+    {
+     "n": 6,
+     "point": "3:times-tables",
+     "title": "Die Einmaleinstafel: Was kann ich schon?",
+     "objective": "Die Kinder füllen die Einmaleinstafel bis 10 · 10 aus, beginnen mit den Reihen, die sie schon können, und stellen fest, welche Aufgaben sie noch üben müssen.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-407",
+       "title": "Die Einmaleinstafel ausfüllen",
+       "core": "kleines-einmaleins-schwer-g3407-11",
+       "level": 3,
+       "easy": "kleines-einmaleins-g3407"
+      }
+     ],
+     "id": "3:times-tables#einmaleins-tafel",
+     "tool": {
+      "key": "folding-wall",
+      "slug": "einmaleinstafel-kernaufgaben-grundschule",
+      "name": "Die Klappwand"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-407"
+     },
+     "note": {
+      "mistake": "Die Kinder füllen die Tafel Zeile für Zeile durch Weiterzählen; das dauert die ganze Stunde und zeigt ihnen nichts. Viele sehen nicht, dass 6 · 7 und 7 · 6 Tauschaufgaben mit demselben Ergebnis sind, und üben beide einzeln.",
+      "words": "Sag: „Trag zuerst ein, was du sicher weißt: die 1er-, 2er-, 5er- und 10er-Reihe, waagerecht und senkrecht.“ Frage: „Wenn du 3 · 5 kennst, wo steht 5 · 3?“ Dann: „Kreise die Felder ein, die noch leer sind. Das sind deine Übungsaufgaben.“",
+      "watch": "Wer nutzt eine Tauschaufgabe, um ein Feld zu füllen, und wer zählt neu? Hebe die Liste der Übungsaufgaben jedes Kindes auf: Sie ist der Plan für das tägliche Einmaleins-Training."
+     },
+     "days": 2
     }
    ]
   },
@@ -3025,8 +3879,8 @@
    "subject": "math",
    "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
    "metaTitle": "Mathe Klasse 2: Teilen – Verteilen, Aufteilen und die Hälfte",
-   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften, Dritteln und Vierteln.",
-   "days": 19,
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 7 Stunden zum Verteilen und Aufteilen, zu Umkehraufgaben, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften und Vierteln.",
+   "days": 21,
    "weeks": 4,
    "lessons": [
     {
@@ -3048,7 +3902,7 @@
        "title": "Gerecht teilen",
        "core": "einmaleins-formen-g2216",
        "easy": "einmaleins-leicht-blumen-g2216",
-       "hard": "einmaleins-schwer-4-juli-g2216"
+       "hard": "einmaleins-schwer-mobel-sw-g2216-2"
       },
       {
        "type": "G2-217",
@@ -3183,6 +4037,59 @@
     },
     {
      "n": 4,
+     "point": "3:mult-div-relationship",
+     "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen",
+     "objective": "Die Kinder lösen zu einem Punktefeld die zwei Malaufgaben und die zwei Geteiltaufgaben, die auf dem Blatt stehen, nutzen das Ergebnis der Malaufgabe für die Geteiltaufgaben und verwenden die Wörter Malaufgabe, Tauschaufgabe und Umkehraufgabe.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-311",
+       "title": "Mal-Familien",
+       "core": "einmaleins-formen-g3311",
+       "easy": "einmaleins-leicht-fruhstuck-g3311",
+       "hard": "einmaleins-schwer-fruhling-g3311"
+      },
+      {
+       "type": "G3-369",
+       "title": "Aufgabenfamilien: Mal und Geteilt",
+       "core": "aufgabenfamilien-g3369",
+       "easy": "aufgabenfamilien-leicht-g3369-7",
+       "hard": "aufgabenfamilien-schwer-g3369-12",
+       "landing": "aufgabenfamilien-mal-und-geteilt"
+      }
+     ],
+     "id": "3:mult-div-relationship#umkehraufgaben",
+     "screen": {
+      "kind": "page",
+      "slug": "einmaleins-gesichter-sw-g3311-2",
+      "title": "Mal-Familien"
+     },
+     "exit": {
+      "slug": "einmaleins-spielzeug-g3311",
+      "title": "Mal-Familien"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Malnehmen und Teilen",
+      "slug": "einmaleins-und-teilen-arbeitsblaetter-erstellen",
+      "template": "G3-311"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen jede der vier Aufgaben einzeln neu, oft durch Abzählen der Punkte, statt das Ergebnis der Malaufgabe zu nutzen. Bei 10 : 2 schreiben manche noch einmal die 10 oder die 2 ins Kästchen. Sollen sie selbst eine Geteiltaufgabe zum Punktefeld nennen, stellen sie die kleine Zahl nach vorn (5 : 10).",
+      "words": "Zeige auf das Punktefeld: „2 Reihen mit je 5: 2 · 5 = 10. Jetzt verteile ich die 10 auf 2 Reihen: 10 : 2 = 5.“ Sag: „Die Geteiltaufgabe ist die Umkehraufgabe. Bei ihr steht das Ergebnis der Malaufgabe vorn.“ Frage: „Welche Malaufgabe hilft dir bei 30 : 6?“",
+      "watch": "Achte darauf, ob ein Kind bei den Geteiltaufgaben auf die Malaufgaben darüber schaut. Wer bei 30 : 6 an 5 · 6 denkt, hat den Zusammenhang verstanden; wer die Punkte einzeln verteilt, hat ihn noch nicht. Lass am Ende ein Kind zu einem Punktefeld alle vier Aufgaben ohne Blatt nennen."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "2:odd-even",
      "title": "Gerade und ungerade: zwei gleiche Teile",
      "objective": "Die Kinder kreisen Punkte paarweise ein, schreiben eine Zahl als zwei gleiche Teile mit 0 oder 1 Rest und entscheiden an der Einerstelle, ob eine Zahl bis 100 gerade oder ungerade ist.",
@@ -3247,7 +4154,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:equal-shares-shapes",
      "title": "Hälften, Drittel und Viertel",
      "objective": "Die Kinder unterscheiden gleich große von ungleich großen Teilen und malen die Hälfte, ein Drittel oder ein Viertel einer Form an.",
@@ -3312,7 +4219,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:fraction-of-a-set",
      "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge",
      "objective": "Die Kinder kreisen die Hälfte, ein Drittel oder ein Viertel einer Menge von Bildern ein und schreiben auf, wie viele das sind.",
@@ -3370,11 +4277,11 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Formen, Körper und Symmetrie",
-   "metaTitle": "Mathe Klasse 2: Formen, Körper und Symmetrie | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Ecken und Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram.",
-   "days": 17,
-   "weeks": 3,
+   "title": "Formen, Körper, Symmetrie und Planquadrate",
+   "metaTitle": "Mathe Klasse 2: Formen, Körper, Symmetrie und Planquadrate",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 8 Stunden zu Formen, Flächen und Körpern, zu Flächen, Kanten und Ecken, zu Spiegelachsen, Tangram und Planquadraten.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3424,16 +4331,54 @@
     },
     {
      "n": 2,
-     "point": "2:solids-in-real-life",
-     "title": "Körper um uns herum",
-     "objective": "Die Kinder verbinden Kugel, Würfel, Zylinder, Kegel, Quader und Pyramide mit einem Gegenstand, der dieselbe Form hat.",
+     "point": "2:flat-or-solid",
+     "title": "Flach oder räumlich? Flächen und Körper unterscheiden",
+     "objective": "Die Kinder unterscheiden ebene Figuren von Körpern und verbinden jede Form mit ihrer Kiste: flache Formen links, Körper rechts.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Geometrische Figuren erkennen, benennen und darstellen"
-      },
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-244",
+       "title": "Fläche oder Körper?",
+       "core": "geometrie-g2244",
+       "easy": "geometrie-leicht-g2244-7",
+       "hard": "geometrie-schwer-g2244-12"
+      }
+     ],
+     "screen": {
+      "kind": "page",
+      "slug": "geometrie-g2244-3",
+      "title": "Fläche oder Körper?"
+     },
+     "exit": {
+      "slug": "geometrie-g2244-2",
+      "title": "Fläche oder Körper?"
+     },
+     "maker": {
+      "id": "shapes-geometry",
+      "name": "Formen und Geometrie",
+      "slug": "formen-und-geometrie-arbeitsblaetter-erstellen",
+      "template": "G2-244"
+     },
+     "note": {
+      "mistake": "Die Kinder nennen die Kugel „Kreis“ und den Würfel „Quadrat“: Der Körper bekommt den Namen der flachen Form, die sie in ihm sehen. Auf dem Papier ist alles flach gezeichnet, deshalb wird das Bild eines Würfels als flach einsortiert.",
+      "words": "Halte ein Papierquadrat und einen Würfel hoch. Frage: „Liegt es ganz flach auf dem Tisch? Oder kann ich es in die Hand nehmen und rundherum anfassen?“ Sag: „Eine Fläche ist flach. Ein Körper nimmt Platz ein. Jede Seitenfläche des Würfels ist ein Quadrat.“",
+      "watch": "Höre darauf, ob ein Kind „Kreis“ zur Kugel sagt. Bring echte Gegenstände mit; für Kinder, die die Körper noch nicht in der Hand hatten, sind Zeichnungen von Körpern schwer zu lesen."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:solids-in-real-life",
+     "title": "Körper um uns herum",
+     "objective": "Die Kinder verbinden Kugel, Würfel, Zylinder, Kegel, Quader und Pyramide mit einem Gegenstand, der dieselbe Form hat.",
+     "standards": [
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -3474,17 +4419,11 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:3d-faces-edges-vertices",
      "title": "Flächen, Kanten und Ecken zählen",
      "objective": "Die Kinder zählen die ebenen Flächen, die Kanten und die Ecken von Körpern und schreiben die Zahlen auf.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Geometrische Figuren erkennen, benennen und darstellen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -3538,7 +4477,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:symmetry-line",
      "title": "Ist das eine Spiegelachse?",
      "objective": "Die Kinder entscheiden, ob eine gestrichelte Linie ein Bild in zwei spiegelgleiche Hälften teilt, und wählen das Bild aus, das auf beiden Seiten gleich aussieht.",
@@ -3573,7 +4512,7 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "geometrie-ostern-g2247-2",
+      "slug": "geometrie-accessoires-g2247-3",
       "title": "Spiegelachse?"
      },
      "exit": {
@@ -3594,17 +4533,11 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:symmetry-complete",
      "title": "Die andere Hälfte ergänzen",
      "objective": "Die Kinder ergänzen ein halb fertiges Bild so, dass beide Seiten der Spiegelachse wie im Spiegel zusammenpassen.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Geometrische Abbildungen erkennen, benennen und darstellen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -3651,7 +4584,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:tangram-orientation",
      "title": "Tangram: Welche Figur passt zum Schattenbild?",
      "objective": "Die Kinder vergleichen Tangram-Figuren mit einem Schattenbild und wählen die Figur aus, die genau so liegt: nicht gedreht und nicht gespiegelt.",
@@ -3689,6 +4622,54 @@
       "watch": "Frage ein Kind, was an einer Figur anders ist, die es nicht gewählt hat: „Sie ist gespiegelt“ oder „Sie ist gedreht.“ Den Unterschied zu benennen ist das Können; der Treffer allein kann Glück sein."
      },
      "days": 2
+    },
+    {
+     "n": 8,
+     "point": "2:grid-coordinates",
+     "title": "Planquadrate: Wo liegt das Feld B2?",
+     "objective": "Die Kinder finden in einem Gitter das Feld zu einer Angabe wie B2 und malen es aus; zu einem fertigen Bild schreiben sie die Felder auf.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Über räumliches Vorstellungsvermögen verfügen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-279",
+       "title": "Koordinaten im Gitter",
+       "core": "koordinaten-im-gitter-g2279",
+       "easy": "koordinaten-im-gitter-leicht-g2279-7",
+       "hard": "koordinaten-im-gitter-schwer-g2279-12",
+       "landing": "koordinaten-im-gitter-2-klasse"
+      },
+      {
+       "type": "G2-308",
+       "title": "Koordinaten im Gitter aufschreiben",
+       "core": "koordinaten-im-gitter-g2308",
+       "easy": "koordinaten-im-gitter-leicht-g2308-7",
+       "hard": "koordinaten-im-gitter-schwer-g2308-12",
+       "landing": "koordinaten-im-gitter-aufschreiben"
+      }
+     ],
+     "exit": {
+      "slug": "koordinaten-im-gitter-g2279-2",
+      "title": "Koordinaten im Gitter"
+     },
+     "maker": {
+      "id": "maps-grids",
+      "name": "Karten und Koordinaten",
+      "slug": "karten-und-koordinaten-arbeitsblaetter-erstellen",
+      "template": "G2-279"
+     },
+     "note": {
+      "mistake": "Die Kinder vertauschen Buchstabe und Zahl, oder sie zählen die Kästchen von der Ecke aus ab, statt am Rand abzulesen. Beim Aufschreiben setzen sie die Zahl vor den Buchstaben.",
+      "words": "Sag: „Erst der Buchstabe oben, dann die Zahl an der Seite. Fahre mit einem Finger nach unten und mit dem anderen zur Seite: Wo sie sich treffen, ist das Feld.“ Frage: „Wie heißt das Feld daneben?“",
+      "watch": "Achte darauf, ob ein Kind beide Finger benutzt oder rät. Wer beim Ausmalen sicher ist, aber beim Aufschreiben „2B“ schreibt, braucht die feste Reihenfolge: erst der Buchstabe, dann die Zahl."
+     },
+     "days": 2
     }
    ]
   },
@@ -3710,12 +4691,6 @@
      "title": "Hunderter, Zehner und Einer",
      "objective": "Die Kinder lesen eine dreistellige Zahl ab, die mit Hunderterplatten, Zehnerstangen und Einerwürfeln gelegt ist, und füllen die Stellenwerttafel aus.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -3765,12 +4740,6 @@
      "title": "Zahlen zerlegen: Was ist die Ziffer wert?",
      "objective": "Die Kinder ordnen einer Menge von Hundertern, Zehnern und Einern die passende Zerlegung zu und sagen, was eine unterstrichene Ziffer wert ist.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -3864,12 +4833,6 @@
      "title": "100 mehr, 100 weniger",
      "objective": "Die Kinder schreiben zu einer dreistelligen Zahl die Zahl, die 100 weniger ist, und die Zahl, die 100 mehr ist.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Zahldarstellungen und Zahlbeziehungen verstehen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -4347,12 +5310,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
       }
      ],
      "paper": [
@@ -4418,7 +5375,7 @@
        "type": "G3-371",
        "title": "Sachaufgaben zum Malnehmen",
        "core": "sachaufgaben-tiere-g3371",
-       "easy": "sachaufgaben-leicht-weihnachten-g3371",
+       "easy": "sachaufgaben-leicht-essen-sw-2-g3371-2",
        "hard": "sachaufgaben-schwer-spielzeug-g3371",
        "landing": "sachaufgaben-zum-malnehmen-3-klasse"
       },
@@ -4427,7 +5384,7 @@
        "title": "Sachaufgaben zum Verteilen",
        "core": "sachaufgaben-fruchte-g3372",
        "easy": "sachaufgaben-leicht-gemuse-g3372",
-       "hard": "sachaufgaben-schwer-ostern-g3372",
+       "hard": "sachaufgaben-schwer-essen-sw-2-g3372-2",
        "landing": "sachaufgaben-zum-verteilen-3-klasse"
       },
       {
@@ -4435,7 +5392,7 @@
        "title": "Sachaufgaben: Gruppen bilden",
        "core": "sachaufgaben-spielzeug-g3373",
        "easy": "sachaufgaben-leicht-fruchte-g3373",
-       "hard": "sachaufgaben-schwer-weihnachten-g3373",
+       "hard": "sachaufgaben-schwer-fruchte-sw-g3373-2",
        "landing": "sachaufgaben-gruppen-bilden-3-klasse"
       }
      ],
@@ -4473,12 +5430,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Rechenoperationen verstehen und beherrschen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
       }
      ],
      "paper": [
@@ -4486,8 +5437,8 @@
        "type": "G3-377",
        "title": "Teilen mit Rest: Gruppen einkreisen",
        "core": "teilen-mit-rest-tiere-g3377",
-       "easy": "teilen-mit-rest-leicht-4-juli-g3377",
-       "hard": "teilen-mit-rest-schwer-4-juli-g3377-89",
+       "easy": "teilen-mit-rest-leicht-im-supermarkt-g3377-2",
+       "hard": "teilen-mit-rest-schwer-im-supermarkt-g3377-90",
        "landing": "teilen-mit-rest-gruppen-einkreisen"
       },
       {
@@ -4506,11 +5457,11 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "teilen-mit-rest-im-supermarkt-g3377-47",
+      "slug": "teilen-mit-rest-dinge-die-fliegen-g3377-48",
       "title": "Teilen mit Rest: Gruppen einkreisen"
      },
      "exit": {
-      "slug": "teilen-mit-rest-4-juli-g3377-46",
+      "slug": "teilen-mit-rest-im-supermarkt-g3377-47",
       "title": "Teilen mit Rest: Gruppen einkreisen"
      },
      "maker": {
@@ -4641,7 +5592,7 @@
        "title": "Das Muster knacken",
        "core": "hundertertafel-fahrzeuge-g3326",
        "easy": "hundertertafel-leicht-blumen-g3326",
-       "hard": "hundertertafel-schwer-4-juli-g3326"
+       "hard": "hundertertafel-schwer-bauernhof-sw-g3326-2"
       },
       {
        "type": "G3-327",
@@ -5799,12 +6750,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Lesefertigkeiten: Flüssig lesen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Lesefertigkeiten: Flüssig lesen"
       }
      ],
      "paper": [
@@ -6183,12 +7128,6 @@
        "title": "Orthografisch schreiben"
       },
       {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Orthografisch schreiben"
-      },
-      {
        "rel": "prepares",
        "framework": "Bildungsstandards (KMK)",
        "code": null,
@@ -6302,12 +7241,6 @@
      "title": "Bildergeschichten: Was passiert als Nächstes?",
      "objective": "Die Kinder finden das Bild, das eine Geschichte fortsetzt, und bringen die Sätze einer Geschichte in die richtige Reihenfolge.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Texte in unterschiedlicher medialer Form erschließen und nutzen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -6606,12 +7539,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Orthografisch schreiben"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Orthografisch schreiben"
       }
      ],
      "paper": [
@@ -6660,12 +7587,6 @@
      "title": "Nomen, Verben und Adjektive sortieren",
      "objective": "Die Kinder entscheiden bei jedem Wort, ob es ein Nomen, ein Verb oder ein Adjektiv ist, und schreiben es in den passenden Kasten.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -6777,12 +7698,6 @@
      "title": "Verben verändern sich: ich, du, er, wir, ihr, sie",
      "objective": "Die Kinder schreiben die Personalformen eines Verbs auf, setzen sie in Sätze ein und üben die Formen von sein und haben.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -6954,12 +7869,6 @@
      "title": "Rechtschreibregeln: doppelte Mitlaute, ck und ie",
      "objective": "Die Kinder lesen eine Rechtschreibregel, setzen in Bildwörter die fehlenden Buchstaben ein und sortieren Wörter nach ihrer Schreibweise.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Orthografisch schreiben"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -7481,12 +8390,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Lesefähigkeiten: Leseverstehen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Lesefähigkeiten: Leseverstehen"
       }
      ],
      "paper": [
@@ -7540,12 +8443,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Lesefähigkeiten: Leseverstehen"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Lesefähigkeiten: Leseverstehen"
       }
      ],
      "paper": [
@@ -7586,12 +8483,6 @@
      "title": "Zu einem Bild schreiben",
      "objective": "Die Kinder schreiben Sätze zu einem Bild, zuerst mit Satzanfängen und Wortkasten, dann mit eigenen Worten auf sechs Linien.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Texte verfassen — Texte formulieren"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -7640,12 +8531,6 @@
      "title": "Eine Bildergeschichte schreiben",
      "objective": "Die Kinder schreiben zu jedem Bild einer Bildergeschichte auf, was passiert, und beginnen mit dem Wort, das auf der ersten Linie schon steht.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Texte verfassen — Texte formulieren"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -7737,12 +8622,6 @@
      "title": "Schreibschrift: Buchstaben verbinden",
      "objective": "Die Kinder spuren i, u und t in Schreibschrift nach, schreiben sie verbunden weiter und verbinden zwei Buchstaben, ohne den Stift abzusetzen.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Über Schreibfertigkeiten verfügen"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -7965,12 +8844,6 @@
        "framework": "Bildungsstandards (KMK)",
        "code": null,
        "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
-      },
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
       }
      ],
      "paper": [
@@ -8020,12 +8893,6 @@
      "title": "Wer ist gemeint? Pronomen im Satz",
      "objective": "Die Kinder finden heraus, für welchen Namen ein Pronomen steht, und schreiben einen Satz mit einem Pronomen anstelle des Namens neu.",
      "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Sprachliche Strukturen untersuchen und nutzen — Wörter und Sätze"
-      },
       {
        "rel": "teaches",
        "framework": "Bildungsstandards (KMK)",
@@ -8089,27 +8956,56 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Mathe Klasse 1: Stoffverteilung für 18 Wochen",
-   "metaTitle": "Mathe Klasse 1: Stoffverteilung für 18 Wochen (5 Einheiten)",
-   "metaDescription": "5 Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa 18 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 18,
+   "title": "Mathe Klasse 1: Stoffverteilung für 25 Wochen",
+   "metaTitle": "Mathe Klasse 1: Stoffverteilung für 25 Wochen (8 Einheiten)",
+   "metaDescription": "8 Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa 25 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 25,
    "framework": null,
    "units": [
+    {
+     "id": "de1-zahlen-bis-10",
+     "slug": "zahlen-bis-10-klasse-1",
+     "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
+     "weeks": 4,
+     "from": 1,
+     "to": 4,
+     "lessons": [
+      "Sortieren: Was gehört zusammen?",
+      "Zahlen 1 bis 5: zählen und Ziffern schreiben",
+      "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr",
+      "Mehr, weniger, gleich viele: die Zeichen <, > und =",
+      "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
+      "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+     ],
+     "standards": []
+    },
     {
      "id": "g1-add-subtract-within-10",
      "slug": "plus-und-minus-bis-10-klasse-1",
      "title": "Plus und Minus bis 10",
-     "weeks": 5,
-     "from": 1,
-     "to": 5,
+     "weeks": 2,
+     "from": 5,
+     "to": 6,
      "lessons": [
       "Zwei Gruppen zusammenzählen",
       "Wegnehmen: Wie viele bleiben übrig?",
       "Verliebte Zahlen: zusammen 10",
-      "Am Zahlenstrahl vorwärts und rückwärts hüpfen",
+      "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
+     ],
+     "standards": []
+    },
+    {
+     "id": "de1-aufgabenfamilien-rechengeschichten",
+     "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+     "title": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+     "weeks": 3,
+     "from": 7,
+     "to": 9,
+     "lessons": [
       "Aufgabenfamilien bis 10",
       "Platzhalteraufgaben: Welche Zahl fehlt?",
       "Rechengeschichten bis 10",
+      "Die Rechnung zum Bild: Plus oder Minus?",
       "Kopfrechnen bis 10"
      ],
      "standards": []
@@ -8117,12 +9013,12 @@
     {
      "id": "de1-zahlen-bis-20",
      "slug": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-     "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+     "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
      "weeks": 3,
-     "from": 6,
-     "to": 8,
+     "from": 10,
+     "to": 12,
      "lessons": [
-      "Ordnungszahlen: vom ersten bis zum zehnten Platz",
+      "Zahlen bis 20 in zwei Zehnerfeldern: ein Zehner und Einer",
       "Zahl des Tages",
       "Zahlwörter bis zwanzig",
       "Zahlen am Zahlenstrahl finden"
@@ -8134,8 +9030,8 @@
      "slug": "verdoppeln-drei-summanden-und-zahlenmauern-klasse-1",
      "title": "Verdoppeln, drei Summanden und Zahlenmauern",
      "weeks": 3,
-     "from": 9,
-     "to": 11,
+     "from": 13,
+     "to": 15,
      "lessons": [
       "Verdoppeln und Halbieren",
       "Gerade und ungerade Zahlen",
@@ -8145,16 +9041,32 @@
      "standards": []
     },
     {
+     "id": "de1-zehneruebergang",
+     "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+     "title": "Plus über die 10 und Rechnen bis 20",
+     "weeks": 3,
+     "from": 16,
+     "to": 18,
+     "lessons": [
+      "Plus über die 10: erst bis zur 10, dann weiter",
+      "Verdoppeln hilft: 6 + 7",
+      "Rechengeschichten bis 20",
+      "Kopfrechnen bis 20"
+     ],
+     "standards": []
+    },
+    {
      "id": "g1-time-calendar-coins",
      "slug": "uhr-kalender-und-geld-klasse-1",
      "title": "Uhr, Kalender und Geld",
      "weeks": 3,
-     "from": 12,
-     "to": 14,
+     "from": 19,
+     "to": 21,
      "lessons": [
       "Die Uhr lesen: volle und halbe Stunden",
       "Uhrzeiger einzeichnen",
       "Gestern, heute, morgen und die Monate",
+      "Monate und Jahreszeiten",
       "Geldbeträge mit Münzen zählen"
      ],
      "standards": []
@@ -8164,11 +9076,12 @@
      "slug": "formen-messen-und-diagramme-klasse-1",
      "title": "Formen, Messen und Diagramme",
      "weeks": 4,
-     "from": 15,
-     "to": 18,
+     "from": 22,
+     "to": 25,
      "lessons": [
       "Dreieck, Rechteck, Quadrat: Woran erkenne ich die Form?",
       "Tangram: Figuren legen",
+      "Rechts, links, oben, unten: Wege auf dem Gitterplan",
       "Längen mit Kästchen messen",
       "Sortieren, zählen und ein Bilddiagramm lesen",
       "Ein Säulendiagramm lesen und ausmalen",
@@ -8184,10 +9097,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Mathe Klasse 2: Stoffverteilung für 21 Wochen",
-   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 21 Wochen (5 Einheiten)",
-   "metaDescription": "5 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 21 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 21,
+   "title": "Mathe Klasse 2: Stoffverteilung für 26 Wochen",
+   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 26 Wochen (6 Einheiten)",
+   "metaDescription": "6 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 26 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 26,
    "framework": null,
    "units": [
     {
@@ -8242,8 +9155,24 @@
       "Tauschaufgaben beim Malnehmen",
       "Mal-Sprünge am Zahlenstrahl",
       "Das 2er- und das 5er-Einmaleins",
-      "In Dreier- und Viererschritten zählen",
       "Malaufgaben zu Gruppen und großen Punktefeldern"
+     ],
+     "standards": []
+    },
+    {
+     "id": "de2-einmaleins-reihen",
+     "slug": "das-kleine-einmaleins-klasse-2",
+     "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+     "weeks": 4,
+     "from": 15,
+     "to": 18,
+     "lessons": [
+      "Das 10er-Einmaleins und die Kernaufgaben",
+      "In Dreier- und Viererschritten zählen",
+      "Das 4er- und das 8er-Einmaleins: verdoppeln",
+      "Das 3er- und das 6er-Einmaleins",
+      "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus",
+      "Die Einmaleinstafel: Was kann ich schon?"
      ],
      "standards": []
     },
@@ -8252,12 +9181,13 @@
      "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
      "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
      "weeks": 4,
-     "from": 15,
-     "to": 18,
+     "from": 19,
+     "to": 22,
      "lessons": [
       "Verteilen und Aufteilen",
       "Geteiltaufgaben: gerecht verteilen",
       "Wie oft passt die Zahl hinein? Sprünge bis zur Null",
+      "Umkehraufgaben: Mal und Geteilt gehören zusammen",
       "Gerade und ungerade: zwei gleiche Teile",
       "Hälften, Drittel und Viertel",
       "Die Hälfte, ein Drittel, ein Viertel einer Menge"
@@ -8267,17 +9197,19 @@
     {
      "id": "g2-shapes-solids-symmetry",
      "slug": "formen-koerper-und-symmetrie-klasse-2",
-     "title": "Formen, Körper und Symmetrie",
-     "weeks": 3,
-     "from": 19,
-     "to": 21,
+     "title": "Formen, Körper, Symmetrie und Planquadrate",
+     "weeks": 4,
+     "from": 23,
+     "to": 26,
      "lessons": [
       "Formen nach Ecken und Seiten sortieren",
+      "Flach oder räumlich? Flächen und Körper unterscheiden",
       "Körper um uns herum",
       "Flächen, Kanten und Ecken zählen",
       "Ist das eine Spiegelachse?",
       "Die andere Hälfte ergänzen",
-      "Tangram: Welche Figur passt zum Schattenbild?"
+      "Tangram: Welche Figur passt zum Schattenbild?",
+      "Planquadrate: Wo liegt das Feld B2?"
      ],
      "standards": []
     }

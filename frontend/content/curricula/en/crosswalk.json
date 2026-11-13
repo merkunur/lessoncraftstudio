@@ -78,9 +78,14 @@
      "id": "K.CC.C.6",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "K.CC.C.7",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "K:count-how-many": {
    "rows": [
@@ -555,9 +560,14 @@
      "id": "1.OA.A.1",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "K.OA.A.2",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:picture-graphs-sort-count": {
    "rows": [
@@ -648,7 +658,7 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "extends",
+     "rel": "teaches",
      "grade": "1"
     }
    ],
@@ -948,9 +958,14 @@
      "id": "1.NBT.B.2.a",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "2.NBT.A.1.a",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:hundreds-chart-moves": {
    "rows": [
@@ -1352,9 +1367,14 @@
      "id": "2.G.A.3",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "1.G.A.3",
+     "rel": "teaches",
+     "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:fraction-of-a-set": {
    "rows": [
@@ -1431,9 +1451,14 @@
      "id": "3.NBT.A.2",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "2.NBT.B.7",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:estimate-by-rounding": {
    "rows": [

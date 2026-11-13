@@ -388,7 +388,7 @@
        "title": "Addition Word Problems",
        "core": "word-problems-fruits-g1238",
        "easy": "word-problems-easy-vegetables-g1238",
-       "hard": "word-problems-hard-easter-g1238",
+       "hard": "word-problems-hard-vegetables-bw-g1238-2",
        "landing": "addition-word-problems-with-pictures"
       }
      ],
@@ -1085,9 +1085,9 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on matching one to one, writing numbers, counting to 10, quick looks, and comparing groups, each with a teacher note.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A five-week Kindergarten math unit: 10 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -1317,6 +1317,50 @@
     },
     {
      "n": 5,
+     "point": "K:conservation",
+     "title": "Still the same number",
+     "objective": "Children count two groups of the same kind of object, one in a row and one spread out, write how many are in each, and decide whether both groups have the same number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.4.b",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-445",
+       "title": "Same Number?",
+       "core": "counting-pictures-education-bw-k445",
+       "easy": "counting-pictures-easy-desserts-and-sweets-k445",
+       "hard": "counting-pictures-hard-vegetables-k445"
+      }
+     ],
+     "tool": {
+      "key": "the-queue",
+      "slug": "the-queue",
+      "name": "The Counting Line"
+     },
+     "exit": {
+      "slug": "counting-pictures-camping-k445-2",
+      "title": "Same Number?"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-445"
+     },
+     "note": {
+      "mistake": "Children say that the spread-out group has more because it takes up more room, and some change their answer when the same objects are pushed together. In the scattered group many skip an object or count one twice.",
+      "words": "Move the counters while the children watch. Ask: \"Did I add any? Did I take any away? So how many are there now?\" Say: \"Moving them does not change how many.\" For the scattered group say: \"Mark each one as you count it.\"",
+      "watch": "Watch who has to count again from 1 after you have only moved the counters, and who says the number right away. In the scattered group, watch for the child who counts without marking."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "K:colour-by-number",
      "title": "Color by number",
      "objective": "Children read the number in each part of a picture and color the part with the color the key gives for that number.",
@@ -1367,7 +1411,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "K:subitize",
      "title": "How many? Look fast",
      "objective": "Children look at a small group for a moment and say how many there are without counting one by one.",
@@ -1420,7 +1464,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "K:compare-groups",
      "title": "More and fewer",
      "objective": "Children compare two groups and tell which has more and which has fewer.",
@@ -1466,6 +1510,95 @@
       "watch": "Watch what children do when the smaller group is spread out wide. A child who counts or matches before answering is ready; a child who answers at a glance and is wrong should line the two groups up."
      },
      "days": 2
+    },
+    {
+     "n": 9,
+     "point": "K:one-more-one-less",
+     "title": "One more, one less",
+     "objective": "Children count a group of up to 9 pictures, draw one more or cross one out as the label says, and write how many there are now.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.4.c",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-443",
+       "title": "One More, One Less",
+       "core": "counting-pictures-hard-classroom-k443",
+       "level": 3,
+       "easy": "counting-pictures-occupations-k443-2"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "exit": {
+      "slug": "counting-pictures-hard-sea-life-bw-2-k443-2",
+      "title": "One More, One Less"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-443"
+     },
+     "note": {
+      "mistake": "Children count the whole group again from 1 after one more is added, when the next counting number is the answer. On the page with both labels some draw one more on every task and do not look at \"1 less\".",
+      "words": "Ask: \"You counted 6. One more comes. Which number comes right after 6?\" and \"One goes away. Which number comes just before 6?\" Have children say the whole sentence: \"One more than 6 is 7.\"",
+      "watch": "Watch who names the new number without counting again. A child who recounts every time needs more turns with real counters on a ten-frame: put one on, say the next number, take it off, say the number before."
+     },
+     "days": 2
+    },
+    {
+     "n": 10,
+     "point": "K:compare-groups",
+     "title": "Which number is greater?",
+     "objective": "Children compare two written numbers from 1 to 10 and color the greater one.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.C.7",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-606",
+       "title": "Color the Greater Number",
+       "core": "comparing-numbers-easy-k606-6",
+       "level": 1,
+       "hard": "comparing-numbers-k606"
+      }
+     ],
+     "id": "K:compare-groups#which-number-is-greater",
+     "tool": {
+      "key": "number-line",
+      "slug": "number-line",
+      "name": "Number Line"
+     },
+     "exit": {
+      "slug": "comparing-numbers-easy-k606-7",
+      "title": "Color the Greater Number"
+     },
+     "maker": {
+      "id": "compare-numbers",
+      "name": "Compare Numbers & Groups",
+      "slug": "comparing-numbers-worksheet-maker",
+      "template": "K-606"
+     },
+     "note": {
+      "mistake": "With no pictures to count, some children choose the number that is printed on the right, or the one they like. Others mix up \"greater\" with \"comes first\" when they count.",
+      "words": "Ask: \"Which of the two numbers do you say later when you count? That one is greater.\" Say both sentences: \"7 is greater than 5. 5 is less than 7.\" Have children build both numbers as cube towers and say which tower is taller.",
+      "watch": "Watch the pairs that are close together, such as 7 and 8 or 5 and 6. A child who is sure about 2 and 8 but guesses on 7 and 8 needs the number line or the cube towers for a while longer."
+     },
+     "days": 2
     }
    ]
   },
@@ -1477,9 +1610,9 @@
    "subject": "math",
    "title": "Shapes All Around",
    "metaTitle": "Kindergarten Math Lesson Plans: Shapes All Around",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on naming shapes, counting sides, flat and solid shapes, building with tangram pieces, and mirror pictures.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -1593,6 +1726,51 @@
     },
     {
      "n": 3,
+     "point": "2:flat-or-solid",
+     "title": "Flat or solid?",
+     "objective": "Children sort shapes into flat shapes and solid shapes.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.A.3",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-244",
+       "title": "Flat or Solid?",
+       "core": "geometry-g2244",
+       "easy": "geometry-easy-g2244-7",
+       "hard": "geometry-hard-g2244-12"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.flat-solid.k-g-a-3",
+      "slug": "flat-or-solid",
+      "title": "Flat or Solid? — 2D and 3D Shapes"
+     },
+     "exit": {
+      "slug": "geometry-g2244-2",
+      "title": "Flat or Solid?"
+     },
+     "maker": {
+      "id": "shapes-geometry",
+      "name": "Shapes & Geometry",
+      "slug": "shapes-and-geometry-worksheet-maker",
+      "template": "G2-244"
+     },
+     "note": {
+      "mistake": "Children call a ball a circle and a box a square: the solid gets the name of its flat face. On paper everything is drawn flat, so the drawing of a cube is sorted as flat.",
+      "words": "Say: \"A flat shape lies flat like a piece of paper; it has no thickness. A solid shape can be held; it takes up space.\" Hold up a real box: \"This is a solid. Its FACE is a rectangle.\" Ask: \"Could you pick it up? Could you fill it?\"",
+      "watch": "Listen for children who call a ball a circle or a cube a square. Bring real objects; drawings of solids are hard to read for children who have not handled the solids."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "K:compose-shapes",
      "title": "Build shapes from pieces",
      "objective": "Children put tangram pieces together to make a figure and show where the pieces meet inside a shape.",
@@ -1638,7 +1816,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "K:mirror-image",
      "title": "Mirror pictures",
      "objective": "Children look at a picture and choose the one that shows it the way a mirror would.",
@@ -1682,12 +1860,60 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting in Order to 20",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on counting forward to 20, connecting dots in order, counting back from 10, and first, second, third.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on writing 11 to 20, counting forward and back, connecting dots in order, counting on, and first, second, third.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
+     "point": "K:numeral-formation",
+     "title": "Write the numbers 11 to 20",
+     "objective": "Children trace the numbers 11 to 20 with the digits in the right order, starting each digit at the dot and following the arrows. Then they write each number once on their own on a whiteboard.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.3",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-253",
+       "title": "Trace the Teen Numbers 11 to 20",
+       "core": "number-tracing-k253",
+       "easy": "number-tracing-easy-k253-2",
+       "hard": "number-tracing-hard-k253-3",
+       "landing": "teen-number-tracing-11-20"
+      }
+     ],
+     "id": "K:numeral-formation#write-11-to-20",
+     "tool": {
+      "key": "letter-studio",
+      "slug": "letter-studio",
+      "name": "Letter Studio"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "rivets-number-forge.numeral-album.k-cc-a-3",
+      "slug": "rivets-number-forge",
+      "title": "Rivet's Number Forge — Count and Write the Numeral 1 to 20"
+     },
+     "maker": {
+      "id": "number-tracing",
+      "name": "Number Tracing",
+      "slug": "number-tracing-worksheet-maker",
+      "template": "K-253"
+     },
+     "note": {
+      "mistake": "Children write the digits in the order they hear them: 71 for seventeen and 41 for fourteen. Some start a digit at the bottom, and many turn the 2, 3, 5, or 7 around inside a teen number.",
+      "words": "Say: \"Every number from 11 to 19 starts with a 1. The 1 stands for one ten.\" Ask: \"Which digit do you write first?\" For seventeen say: \"I hear seven first, but I write the 1 first.\"",
+      "watch": "Watch the order in which a child writes the two digits, not only how the finished number looks. A child who writes the second digit first will write 71 for 17 as soon as the tracing lines are gone."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
      "point": "K:count-forward-missing",
      "title": "Fill in the missing numbers",
      "objective": "Children count along a number strip to 10 and to 20 and write the numbers that are missing.",
@@ -1745,7 +1971,7 @@
      "days": 2
     },
     {
-     "n": 2,
+     "n": 3,
      "point": "K:dot-to-dot-sequence",
      "title": "Connect the dots in order",
      "objective": "Children connect numbered dots in counting order, from 1 to 10 and from 11 to 20, to finish a picture.",
@@ -1799,7 +2025,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "K:before-after-back",
      "title": "Before, after, and counting back",
      "objective": "Children write the number that comes before and the number that comes after, and count backward from 10.",
@@ -1862,7 +2088,57 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
+     "point": "K:count-on",
+     "title": "Count on from a number",
+     "objective": "Children start at the number printed on a closed box, count on over the pictures beside it, and write how many there are in all, with totals up to 10.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.2",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "1.OA.C.5",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-444",
+       "title": "Count On from the Box",
+       "core": "counting-pictures-nature-bw-k444",
+       "easy": "counting-pictures-easy-hospital-k444",
+       "hard": "counting-pictures-hard-around-the-house-k444"
+      }
+     ],
+     "tool": {
+      "key": "the-gap",
+      "slug": "the-gap-what-changed-while-you-could-not-see-grade-1",
+      "name": "The Gap"
+     },
+     "exit": {
+      "slug": "counting-pictures-flowers-k444-2",
+      "title": "Count On from the Box"
+     },
+     "maker": {
+      "id": "counting",
+      "name": "Counting",
+      "slug": "counting-worksheet-maker",
+      "template": "K-444"
+     },
+     "note": {
+      "mistake": "Children start again at 1 and try to count things they cannot see inside the box. Others say the number on the box a second time for the first picture beside it and end one short.",
+      "words": "Tap the box and stretch out its number: \"Siiix.\" Then point to each picture beside it: \"seven, eight.\" Ask: \"Do we need to count what is in the box? What does the number on it tell us?\"",
+      "watch": "Listen to the first word a child says. A child who whispers \"1, 2, 3\" up to the number on the box is still counting all. Practice with a real closed bag that has its number written on it."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "K:ordinal-position",
      "title": "First, second, third",
      "objective": "Children find the first, second, third, and later places in a line, counting from the end that is marked.",
@@ -1877,8 +2153,8 @@
        "type": "K-320",
        "title": "Ordinal Numbers: Find the Place",
        "core": "ordinal-numbers-animals-k320",
-       "easy": "ordinal-numbers-easy-4th-of-july-k320",
-       "hard": "ordinal-numbers-hard-4th-of-july-k320-100",
+       "easy": "ordinal-numbers-easy-at-the-supermarket-k320-2",
+       "hard": "ordinal-numbers-hard-at-the-supermarket-k320-101",
        "landing": "ordinal-numbers-find-the-place"
       }
      ],
@@ -1889,7 +2165,7 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "ordinal-numbers-4th-of-july-k320-51",
+      "slug": "ordinal-numbers-at-the-supermarket-k320-52",
       "title": "Ordinal Numbers: Find the Place"
      },
      "exit": {
@@ -2166,16 +2442,16 @@
    ]
   },
   {
-   "id": "k-putting-together-number-bonds",
-   "slug": "putting-together-and-number-bonds-kindergarten-unit",
+   "id": "k-adding-and-taking-away-within-10",
+   "slug": "adding-and-taking-away-within-10-kindergarten-unit",
    "status": "live",
    "grade": "K",
    "subject": "math",
-   "title": "Putting Together and Number Bonds",
-   "metaTitle": "Kindergarten Math Lesson Plans: Putting Together and Number Bonds",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
-   "days": 13,
-   "weeks": 3,
+   "title": "Adding and Taking Away Within 10",
+   "metaTitle": "Kindergarten Math Lesson Plans: Adding and Taking Away Within 10",
+   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on putting two groups together, taking away on a ten-frame, and addition and take-away stories within 10.",
+   "days": 11,
+   "weeks": 2,
    "lessons": [
     {
      "n": 1,
@@ -2222,6 +2498,159 @@
     },
     {
      "n": 2,
+     "point": "K:take-away",
+     "title": "Take away: how many are left?",
+     "objective": "Children look at a ten-frame on which some dots are crossed out, count the dots that are left, and finish the subtraction sentence, such as 7 − 2 = 5.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-451",
+       "title": "Take Away on the Ten-Frame",
+       "core": "counting-frames-k451",
+       "easy": "counting-frames-easy-k451-6",
+       "hard": "counting-frames-hard-k451-11"
+      }
+     ],
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "exit": {
+      "slug": "counting-frames-k451-2",
+      "title": "Take Away on the Ten-Frame"
+     },
+     "maker": {
+      "id": "ten-frames",
+      "name": "Ten Frames and Tally Marks",
+      "slug": "ten-frame-and-tally-mark-worksheet-maker",
+      "template": "K-451"
+     },
+     "note": {
+      "mistake": "Children count all the dots, crossed out or not, and write the starting number again. Others count the crossed-out dots and write how many were taken away, not how many are left.",
+      "words": "Say: \"7 dots. 2 are crossed out; they are gone. Count the ones that are still there.\" Read the sentence together: \"7 take away 2 is 5.\" Ask: \"Which number tells how many are left?\"",
+      "watch": "Watch which dots a child touches while counting. With real counters on a paper ten-frame, have the child slide the counters that are taken away off the frame so that only the ones that are left stay on it."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:word-problems",
+     "title": "Adding stories: some more come",
+     "objective": "Children listen to a story in which some more come, use the picture of the two groups, and write how many there are in all, with totals up to 10.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-238",
+       "title": "Addition Word Problems",
+       "core": "word-problems-easy-vegetables-g1238",
+       "level": 1,
+       "hard": "word-problems-fruits-g1238",
+       "screen": 1,
+       "landing": "addition-word-problems-with-pictures"
+      }
+     ],
+     "id": "1:word-problems#adding-stories-within-10",
+     "screen": {
+      "kind": "activity",
+      "id": "ten-frame.solve-the-story.k-oa-a-2",
+      "slug": "solve-the-story",
+      "title": "Solve the Story — Add & Subtract Word Problems on a Ten Frame"
+     },
+     "exit": {
+      "slug": "word-problems-easy-kitchen-tools-g1238-3",
+      "title": "Addition Word Problems"
+     },
+     "maker": {
+      "id": "word-problems",
+      "name": "Word Problems",
+      "slug": "math-word-problem-worksheet-maker",
+      "template": "G1-238"
+     },
+     "note": {
+      "mistake": "Children write one of the two numbers they heard, most often the last one, or count only the second group in the picture. Some cannot retell what happened in the story.",
+      "words": "Read each story aloud twice. Ask: \"Who can retell the story? What happened first? What happened then?\" Before anyone counts, ask: \"Will there be more now, or fewer?\" Then say: \"Show it with your counters.\"",
+      "watch": "Watch who can act out the story with counters before writing. A child who counts the pictures correctly but cannot say what the answer tells (\"7 cucumbers in all\") has counted, not solved the story."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:word-problems",
+     "title": "Take-away stories: some go away",
+     "objective": "Children listen to a story in which some go away, use the picture in which the ones that go away are crossed out, and write how many are left. The starting number is 10 or less.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-239",
+       "title": "Subtraction Word Problems",
+       "core": "word-problems-easy-kitchen-tools-g1239",
+       "level": 1,
+       "hard": "word-problems-fruits-g1239",
+       "screen": 1,
+       "landing": "subtraction-word-problems-with-pictures"
+      }
+     ],
+     "id": "1:word-problems#take-away-stories-within-10",
+     "screen": {
+      "kind": "page",
+      "slug": "word-problems-easy-toys-bw-g1239-4",
+      "title": "Subtraction Word Problems"
+     },
+     "exit": {
+      "slug": "word-problems-easy-desserts-and-sweets-g1239-3",
+      "title": "Subtraction Word Problems"
+     },
+     "maker": {
+      "id": "word-problems",
+      "name": "Word Problems",
+      "slug": "math-word-problem-worksheet-maker",
+      "template": "G1-239"
+     },
+     "note": {
+      "mistake": "Children add the two numbers because every story so far was an adding story. Others count every picture, the crossed-out ones too, and write the starting number.",
+      "words": "Ask: \"Did some come, or did some go away? Will there be more or fewer than at the start?\" Say: \"The crossed-out ones are gone.\" Have children tell the ending in a sentence: \"2 plates are left.\"",
+      "watch": "Tell one adding story in the middle of the lesson and watch who notices. A child who takes away every time is following the page, not the story."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "k-putting-together-number-bonds",
+   "slug": "putting-together-and-number-bonds-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Number Bonds and Partners of 10",
+   "metaTitle": "Kindergarten Math Lesson Plans: Number Bonds and Partners of 10",
+   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on number bonds to 10, taking apart 8 and 9, and the partners of 10, with a first look at partners of 20.",
+   "days": 17,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
      "point": "K:number-bonds-k",
      "title": "Number bonds to 5 and to 10",
      "objective": "Children break a number up to 10 into two parts and find the part that is missing in a number bond.",
@@ -2282,7 +2711,164 @@
      "days": 2
     },
     {
+     "n": 2,
+     "point": "K:number-bonds-k",
+     "title": "Take apart 8 and 9",
+     "objective": "Children find the missing part of a number bond when the whole is 8 or 9, and name the two parts that make the whole.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.3",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-416",
+       "title": "Number Bonds of 8",
+       "core": "number-bonds-k416",
+       "easy": "number-bonds-easy-k416-4",
+       "hard": "number-bonds-hard-k416-6",
+       "screen": 1
+      },
+      {
+       "type": "K-417",
+       "title": "Number Bonds of 9",
+       "core": "number-bonds-k417",
+       "easy": "number-bonds-easy-k417-4",
+       "hard": "number-bonds-hard-k417-6",
+       "screen": 1
+      }
+     ],
+     "id": "K:number-bonds-k#take-apart-8-and-9",
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "number-bonds",
+      "name": "Number Bonds Board"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "chuffer.rail-decompose.k-oa-a-3",
+      "slug": "chuffers-switchyard",
+      "title": "Chuffer's Switchyard — Break a Number Apart Many Ways"
+     },
+     "exit": {
+      "slug": "number-bonds-k416-2",
+      "title": "Number Bonds of 8"
+     },
+     "maker": {
+      "id": "number-bonds",
+      "name": "Number Bonds & Fact Families",
+      "slug": "number-bond-and-fact-family-worksheet-maker",
+      "template": "K-416"
+     },
+     "note": {
+      "mistake": "Children write the whole again in the empty circle, or they add the whole and the part they can see. Some know one pair for 8 and think it is the only one.",
+      "words": "Give each child 8 two-color counters to shake and spill. Ask: \"How many red? How many yellow? How many in all?\" Say: \"8 is 5 and 3. 8 is also 6 and 2.\" Ask: \"Is there another way?\"",
+      "watch": "Watch who finds the missing part by counting up from the part they see and who still builds the whole with counters. Both are fine at this point; note the child who has no way to start."
+     },
+     "days": 2
+    },
+    {
      "n": 3,
+     "point": "1:make-10",
+     "title": "How many more to make 10?",
+     "objective": "Children look at a ten-frame with some dots, find how many more make 10, and write the missing number in a sentence such as 6 + 4 = 10.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.4",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-106",
+       "title": "Make 10!",
+       "core": "counting-frames-g1106"
+      },
+      {
+       "type": "K-457",
+       "title": "How Many Are Hiding?",
+       "core": "number-bonds-beach-bw-k457",
+       "easy": "number-bonds-easy-beach-k457",
+       "hard": "number-bonds-hard-post-office-k457"
+      }
+     ],
+     "id": "1:make-10#how-many-more-to-make-10",
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "maker": {
+      "id": "ten-frames",
+      "name": "Ten Frames and Tally Marks",
+      "slug": "ten-frame-and-tally-mark-worksheet-maker",
+      "template": "G1-106"
+     },
+     "note": {
+      "mistake": "Children count the dots they see and write that number in the box, when the box asks for the empty squares. On the page with the cup some write 10 again for the ones that are hiding.",
+      "words": "Point to the empty squares: \"These are still missing. How many more until the frame is full?\" Say: \"6 and 4 more make 10.\" Ask: \"How do you know without counting every dot again?\"",
+      "watch": "Watch who counts the empty squares one by one and who sees them at a glance (a full row is 5). When the frame is already full, ask what \"no more\" looks like and which number says it."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "K:number-bonds-k",
+     "title": "Partners of 10",
+     "objective": "Children find the partner that makes 10 with a given number in a number bond, and say the pair, such as 8 and 2.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.4",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-277",
+       "title": "Make Ten with Counting Dots",
+       "core": "number-bonds-k277",
+       "easy": "number-bonds-easy-k277-7",
+       "hard": "number-bonds-hard-k277-10",
+       "landing": "make-ten-number-bonds"
+      }
+     ],
+     "id": "K:number-bonds-k#partners-of-10",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rekenrek",
+      "name": "Rekenrek"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "number-bonds-k277-3",
+      "title": "Make Ten with Counting Dots"
+     },
+     "exit": {
+      "slug": "number-bonds-k277-2",
+      "title": "Make Ten with Counting Dots"
+     },
+     "maker": {
+      "id": "number-bonds",
+      "name": "Number Bonds & Fact Families",
+      "slug": "number-bond-and-fact-family-worksheet-maker",
+      "template": "K-277"
+     },
+     "note": {
+      "mistake": "Children count on with their fingers and land one off, because they also count the number they start from. Others give the partner of a pair they remember, such as 5, for every number.",
+      "words": "Slide beads on a string of ten: \"8 on this side. How many on the other side?\" Say it both ways: \"8 and 2 make 10. 2 and 8 make 10.\" Ask: \"If you know the partner of 8, what is the partner of 2?\"",
+      "watch": "Listen for who knows the turned-around pair at once. A child who works out 2 and 8 again from the start has not yet seen that it is the same pair."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "K:fact-fluency-colour-code",
      "title": "Add and subtract to color",
      "objective": "Children solve addition and subtraction facts and color each part of a picture with the color for its answer.",
@@ -2334,7 +2920,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 6,
      "point": "K:number-bonds-20",
      "title": "Partners that make 20",
      "objective": "Children find the number that goes with a given number to make 20, using the partners that make 10.",
@@ -2380,7 +2966,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 7,
      "point": "K:odd-even-pairing",
      "title": "Odd or even?",
      "objective": "Children pair up the pictures in a group and say that the number is even when every one has a partner and odd when one is left over.",
@@ -2437,9 +3023,9 @@
    "subject": "math",
    "title": "Doubles, Three Addends, and Addition Pyramids",
    "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
-   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
-   "days": 13,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on doubles and near doubles, making ten to add, true and false equations, odd and even, three addends, and addition pyramids.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -2501,6 +3087,147 @@
     },
     {
      "n": 2,
+     "point": "1:near-doubles",
+     "title": "Near doubles",
+     "objective": "Children find a sum such as 6 + 7 by using a double and one more (6 + 6 + 1), with sums within 20.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-449",
+       "title": "Near Doubles",
+       "core": "doubles-halves-easy-g1449-5",
+       "level": 1,
+       "hard": "doubles-halves-g1449"
+      }
+     ],
+     "tool": {
+      "key": "doubling-mirror",
+      "slug": "doubling-mirror-doubles-and-halves-with-counters",
+      "name": "The Doubling Mirror"
+     },
+     "maker": {
+      "id": "doubles-halves",
+      "name": "Doubles & Halves",
+      "slug": "doubles-and-halves-worksheet-maker",
+      "template": "G1-449"
+     },
+     "note": {
+      "mistake": "Children do not see the double inside the problem and count on by ones. Others double the larger number and still add one more, so 6 + 7 becomes 15.",
+      "words": "Ask: \"Which double is hiding in 6 + 7? How much more is 7 than 6?\" Say: \"6 + 6 is 12, and one more is 13.\" Have children say the helping double before they write anything.",
+      "watch": "Watch who writes the sum first and fills in the middle afterward. That child may know the fact, which is fine, but should still be able to say which double helps."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:fluency-within-20",
+     "title": "Make ten to add",
+     "objective": "Children add a number to 6, 7, 8, or 9 by jumping to ten first and then jumping the rest on a number line, and write the steps, such as 8 + 5 = 8 + 2 + 3 = 13.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.C.6",
+       "title": "Operations and Algebraic Thinking"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "2.OA.B.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-439",
+       "title": "Jump to the Ten First",
+       "core": "number-lines-easy-g1439-6",
+       "level": 1,
+       "hard": "number-lines-g1439"
+      }
+     ],
+     "id": "1:fluency-within-20#make-ten-to-add",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rekenrek",
+      "name": "Rekenrek"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "ten-stones.add-sub-within-20.1-oa-c-6",
+      "slug": "lilys-ten-stones",
+      "title": "Lily's Ten Stones — Make a Ten to Add & Subtract"
+     },
+     "exit": {
+      "slug": "number-lines-easy-g1439-7",
+      "title": "Jump to the Ten First"
+     },
+     "maker": {
+      "id": "number-lines",
+      "name": "Number Lines",
+      "slug": "number-line-worksheet-maker",
+      "template": "G1-439"
+     },
+     "note": {
+      "mistake": "Children count on by ones from the first number and never stop at ten. Others split the second number into two parts that do not land on ten, such as 8 + 5 = 8 + 3 + 2.",
+      "words": "Ask: \"How many more does 8 need to reach ten? What is left of the 5?\" Say: \"First to ten, then the rest.\" Show it on the rekenrek: fill the top row first, then push the rest onto the second row.",
+      "watch": "Watch the first jump: it has to land on ten. A child who draws one long hop straight to the answer has probably counted on by ones and needs more practice with the partners of 10."
+     },
+     "days": 3
+    },
+    {
+     "n": 4,
+     "point": "1:true-false-equations",
+     "title": "True or false?",
+     "objective": "Children decide whether an addition or subtraction equation within 20 is true or false, including equations that begin with the single number, such as 16 = 13 + 3.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.D.7",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-443",
+       "title": "True or False?",
+       "core": "mental-math-g1443",
+       "easy": "mental-math-easy-g1443-6",
+       "hard": "mental-math-hard-g1443-11"
+      }
+     ],
+     "tool": {
+      "key": "number-balance",
+      "slug": "number-balance",
+      "name": "Number Balance"
+     },
+     "exit": {
+      "slug": "mental-math-g1443-2",
+      "title": "True or False?"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition & Subtraction",
+      "slug": "addition-and-subtraction-worksheet-generator",
+      "template": "G1-443"
+     },
+     "note": {
+      "mistake": "Children read the equal sign as \"the answer comes next\" and mark 16 = 13 + 3 false because it looks backwards. Others mark an equation true as soon as they recognize the numbers of a fact they know.",
+      "words": "Read the equal sign as \"is the same as\": \"16 is the same as 13 plus 3. Is that true?\" Ask: \"What is on this side? What is on that side? Are they the same amount?\" Have children fix one false equation aloud.",
+      "watch": "Watch the equations that begin with the single number. A child who gets the usual form right and misses those does not need more facts; the child needs the Number Balance, where both sides have to weigh the same."
+     },
+     "days": 3
+    },
+    {
+     "n": 5,
      "point": "1:odd-even-pairs",
      "title": "Odd and even numbers",
      "objective": "Children count a group in pairs or share it between two friends, and say whether the number is odd or even.",
@@ -2559,7 +3286,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 6,
      "point": "1:add-three-addends",
      "title": "Add three groups",
      "objective": "Children add three groups of pictures and write the total, adding an easy pair first.",
@@ -2608,7 +3335,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 7,
      "point": "1:number-walls",
      "title": "Addition pyramids (number walls)",
      "objective": "Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.",
@@ -3019,7 +3746,7 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "number-charts-valentine-bw-2-g1129-2",
+      "slug": "number-charts-kitchen-tools-g1129-3",
       "title": "The Hundreds Chart"
      },
      "exit": {
@@ -3128,7 +3855,7 @@
        "title": "Count by Fives",
        "core": "number-charts-toys-g1124",
        "easy": "number-charts-easy-vegetables-g1124",
-       "hard": "number-charts-hard-easter-g1124"
+       "hard": "number-charts-hard-vegetables-bw-2-g1124-2"
       },
       {
        "type": "G1-125",
@@ -3176,9 +3903,9 @@
    "subject": "math",
    "title": "Time, Calendar, and Coins",
    "metaTitle": "Grade 1 Math Lesson Plans: Time, Calendar, and Coins",
-   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on time to the hour and half hour, the calendar, ordinal numbers, and counting coins, each with a teacher note.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 1 math unit: 6 lessons on time to the hour and half hour, matching clocks, the calendar, ordinal numbers, and counting coins, with teacher notes.",
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3297,6 +4024,58 @@
     },
     {
      "n": 3,
+     "point": "1:time-read",
+     "title": "Match the clocks",
+     "objective": "Children read times to the hour and half hour on analog clocks and draw a line from each clock to the digital time that matches.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.B.3",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-150",
+       "title": "Clock Partners",
+       "core": "telling-time-hard-g1150-12",
+       "level": 3,
+       "easy": "telling-time-g1150",
+       "screen": 1
+      }
+     ],
+     "id": "1:time-read#match-the-clocks",
+     "tool": {
+      "key": "learning-clock",
+      "slug": "learning-clock",
+      "name": "Learning Clock"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "clock-digital.read-half-hour.1-md-b-3",
+      "slug": "read-clock-to-the-half-hour",
+      "title": "Sprocket's Clock — Read the Clock to the Half-Hour"
+     },
+     "exit": {
+      "slug": "telling-time-hard-g1150-13",
+      "title": "Clock Partners"
+     },
+     "maker": {
+      "id": "telling-time",
+      "name": "Telling Time",
+      "slug": "telling-time-worksheet-maker",
+      "template": "G1-150"
+     },
+     "note": {
+      "mistake": "At half past, children read the hour that the short hand is moving toward and match half past 8 to 9:30. Some look only at the long hand and pair any clock that points to the 6 with any time that ends in 30.",
+      "words": "Ask: \"Where is the short hand? Has it reached the 9 yet?\" Say: \"At half past 8 the short hand is halfway between 8 and 9. It is still 8-something: 8:30.\" Have children read each matched pair aloud.",
+      "watch": "Watch the two clocks that share an hour, such as 12:00 and 12:30. A child who mixes them up is reading only one of the two hands."
+     },
+     "days": 3
+    },
+    {
+     "n": 4,
      "point": "1:days-months-seasons",
      "title": "Yesterday, today, tomorrow, and the months",
      "objective": "Children write the day that was yesterday and the day that will be tomorrow, and put the twelve months in order.",
@@ -3343,7 +4122,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:ordinal-numbers",
      "title": "Ordinal numbers to tenth",
      "objective": "Children write the ordinal numbers 1st to 10th in order and match ordinal words such as third and fifth to a place in a line.",
@@ -3373,7 +4152,7 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "ordinal-numbers-4th-of-july-g1315-3",
+      "slug": "ordinal-numbers-kitchen-tools-g1315-4",
       "title": "Write the Missing Ordinal Numbers"
      },
      "exit": {
@@ -3394,7 +4173,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:coins",
      "title": "Count coins",
      "objective": "Children name a penny, a nickel, a dime, and a quarter, say what each is worth, and count the coins in a purse, starting with purses that hold one kind of coin.",
@@ -3462,9 +4241,9 @@
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
    "metaTitle": "Grade 1 Math Lesson Plans: Shapes, Measuring, and Graphs",
-   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on shapes, tangram puzzles, measuring length, sorting, picture graphs, bar graphs, and patterns, with teacher notes.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on shapes, tangram puzzles, measuring length, sorting, picture and bar graphs, patterns, and halves and fourths.",
+   "days": 24,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -3844,6 +4623,57 @@
       "watch": "Notice who reads the whole row again after filling the gaps. That check catches most mistakes; teach it as the last step of every pattern."
      },
      "days": 2
+    },
+    {
+     "n": 8,
+     "point": "2:equal-shares-shapes",
+     "title": "Equal shares: fair or not?",
+     "objective": "Children decide whether a circle or a rectangle is cut into equal shares and circle the shapes that are. With the teacher they name two equal shares halves and four equal shares fourths.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.G.A.3",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-232",
+       "title": "Fair Shares?",
+       "core": "fractions-easy-g2232",
+       "level": 1,
+       "hard": "fractions-g2232"
+      }
+     ],
+     "id": "2:equal-shares-shapes#equal-shares-halves-and-fourths",
+     "tool": {
+      "key": "fraction-kitchen",
+      "slug": "fraction-kitchen",
+      "name": "Fraction Kitchen"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "fractions.partition-equal-shares.1-g-a-3",
+      "slug": "make-equal-parts",
+      "title": "Make Equal Parts — Partition into Halves & Fourths"
+     },
+     "exit": {
+      "slug": "fractions-easy-g2232-2",
+      "title": "Fair Shares?"
+     },
+     "maker": {
+      "id": "fractions",
+      "name": "Fractions",
+      "slug": "fractions-worksheet-maker",
+      "template": "G2-232"
+     },
+     "note": {
+      "mistake": "Children count the parts and call any shape with two parts \"halves,\" even when one part is much bigger. Others think that four small pieces are more than two big ones without looking at the whole.",
+      "words": "Ask: \"Are the shares the same size? Would it be fair if you got this piece and I got that one?\" Say: \"Two equal shares are halves. Four equal shares are fourths, or quarters.\" Several shapes on the page are cut into three equal parts. They are cut fairly too, so children circle them; the name, thirds, comes in Grade 2.",
+      "watch": "Watch the rectangles that are cut into strips of different widths. A child who circles them is counting parts, not comparing sizes; let the child fold a paper strip and lay the parts on top of each other."
+     },
+     "days": 3
     }
    ]
   },
@@ -3855,7 +4685,7 @@
    "subject": "math",
    "title": "Place Value to 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Place Value to 1,000",
-   "metaDescription": "A four-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, tens, and ones, comparing, and 100 more and 100 less.",
+   "metaDescription": "A four-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, expanded form, comparing, and 100 more and 100 less.",
    "days": 22,
    "weeks": 4,
    "lessons": [
@@ -3905,6 +4735,51 @@
     },
     {
      "n": 2,
+     "point": "2:bundle-ten-ones",
+     "title": "Ten tens make one hundred",
+     "objective": "Children count the blocks in a picture that has more than nine tens rods, trade ten rods for one hundred, and write the number, such as 12 tens and 5 ones = 125.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.A.1.a",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-404",
+       "title": "More Than Nine of a Kind",
+       "core": "base-ten-easy-g2404-6",
+       "level": 1,
+       "hard": "base-ten-g2404"
+      }
+     ],
+     "id": "2:bundle-ten-ones#ten-tens-make-one-hundred",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "exit": {
+      "slug": "base-ten-easy-g2404-7",
+      "title": "More Than Nine of a Kind"
+     },
+     "maker": {
+      "id": "place-value",
+      "name": "Place Value & Rounding",
+      "slug": "place-value-worksheet-maker",
+      "template": "G2-404"
+     },
+     "note": {
+      "mistake": "Children write what they count, digit by digit: 12 tens and 5 ones becomes 1,205, or 17. Others count the rods by ones and lose track after nine.",
+      "words": "Ask: \"How many tens do you see? Can we make a hundred? How many tens are left over?\" Say: \"Ten tens are the same as one hundred.\" Have children circle ten rods before they write.",
+      "watch": "Watch who circles ten rods first and who writes the count of rods straight into the number. The second child needs to trade real rods for a hundred flat, or to see the trade on The Exchange Machine."
+     },
+     "days": 3
+    },
+    {
+     "n": 3,
      "point": "2:skip-count-5-10-100",
      "title": "Count by fives and tens",
      "objective": "Children count by fives to 50 and by tens to 100, joining dots in that order to finish a picture.",
@@ -3963,137 +4838,7 @@
      "days": 3
     },
     {
-     "n": 3,
-     "point": "2:number-line-not-from-zero",
-     "title": "A number line that does not start at zero",
-     "objective": "Children read the number an arrow points to on a number line that starts at 40 or at 60 and has only some of its numbers printed.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "2.MD.B.6",
-       "title": "Measurement and Data"
-      }
-     ],
-     "paper": [
-      {
-       "type": "G2-305",
-       "title": "Where on the Number Line? 40 to 60",
-       "core": "number-lines-g2305",
-       "easy": "number-lines-easy-g2305-7",
-       "hard": "number-lines-hard-g2305-12",
-       "landing": "number-line-40-to-60"
-      },
-      {
-       "type": "G2-310",
-       "title": "Where on the Number Line? 60 to 100",
-       "core": "number-lines-g2310",
-       "easy": "number-lines-easy-g2310-7",
-       "hard": "number-lines-hard-g2310-12",
-       "landing": "number-line-60-to-100"
-      }
-     ],
-     "tool": {
-      "key": "landing-strip",
-      "slug": "landing-strip-nearer-0-50-or-100-number-sense",
-      "name": "The Landing Strip"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "track-repair.count-to-120.1-nbt-a-1",
-      "slug": "whistle-valley-track-repair",
-      "title": "Whistle Valley — Number-Line Track Repair"
-     },
-     "exit": {
-      "slug": "number-lines-g2305-2",
-      "title": "Where on the Number Line? 40 to 60"
-     },
-     "maker": {
-      "id": "number-lines",
-      "name": "Number Lines",
-      "slug": "number-line-worksheet-maker",
-      "template": "G2-305"
-     },
-     "note": {
-      "mistake": "Children count the marks from the left end as 1, 2, 3, as if the line began at zero. Or they start at a printed number and count that mark as the first jump, landing one off.",
-      "words": "Ask before anything else: \"Where does this line start? What is each jump worth?\" Say: \"Find the nearest printed number. Count on from it, or count back.\" Check: \"Is your number between the two printed numbers around it?\"",
-      "watch": "Look for answers such as 3 or 7 on a line from 40 to 60; that child ignored the printed numbers. Have each child tell you the start number and the size of one jump before writing."
-     },
-     "days": 3
-    },
-    {
      "n": 4,
-     "point": "2:hundreds-chart-moves",
-     "title": "Jumps on the hundreds chart",
-     "objective": "Children follow arrows on a hundreds chart, adding or taking away tens and ones, and write the number where they land.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "2.NBT.B.5",
-       "title": "Number and Operations in Base Ten"
-      },
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "1.NBT.C.5",
-       "title": "Number and Operations in Base Ten"
-      },
-      {
-       "rel": "prepares",
-       "framework": "Common Core",
-       "code": "2.NBT.B.8",
-       "title": "Number and Operations in Base Ten"
-      }
-     ],
-     "paper": [
-      {
-       "type": "G2-321",
-       "title": "Jump Puzzles: Follow the Arrows",
-       "core": "hundreds-chart-puzzles-g2321",
-       "easy": "hundreds-chart-puzzles-easy-g2321-7",
-       "hard": "hundreds-chart-puzzles-hard-g2321-12",
-       "landing": "jump-puzzles-follow-the-arrows"
-      },
-      {
-       "type": "G2-322",
-       "title": "Mystery Number: Two Arrows, One Square",
-       "core": "hundreds-chart-puzzles-g2322",
-       "easy": "hundreds-chart-puzzles-easy-g2322-7",
-       "hard": "hundreds-chart-puzzles-hard-g2322-12",
-       "landing": "mystery-number-two-arrows-one-square"
-      }
-     ],
-     "tool": {
-      "key": "number-hotel",
-      "slug": "number-hotel-tens-and-ones-to-100",
-      "name": "The Number Hotel"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "choice-board.ten-more-less.1-nbt-c-5",
-      "slug": "ten-more-ten-less",
-      "title": "Ten More, Ten Less — Mental Math With Two-Digit Numbers"
-     },
-     "exit": {
-      "slug": "hundreds-chart-puzzles-g2321-2",
-      "title": "Jump Puzzles: Follow the Arrows"
-     },
-     "maker": {
-      "id": "number-sequences",
-      "name": "Number Charts and Number Sequences",
-      "slug": "number-chart-and-skip-counting-worksheet-maker",
-      "template": "G2-321"
-     },
-     "note": {
-      "mistake": "Children mix up the directions: up feels like more, so they add ten for an up arrow. With several arrows they make one jump, forget the number they reached, and start again from the first number.",
-      "words": "Have children say each jump: \"Down is ten more: 34, 44. Right is one more: 45.\" Ask: \"Up one row. Is the number bigger or smaller? Check on the chart.\" Let them write the number after every arrow.",
-      "watch": "Notice who has to look at the chart and who can make the jump mentally. Check the up arrows first; a child who adds on an up arrow is thinking \"higher is more,\" as on a thermometer."
-     },
-     "days": 3
-    },
-    {
-     "n": 5,
      "point": "2:read-build-3-digit",
      "title": "Hundreds, tens, and ones",
      "objective": "Children read a three-digit number shown with hundreds, tens, and ones blocks and fill in a place-value chart.",
@@ -4142,7 +4887,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 5,
      "point": "2:expanded-form-digit-value",
      "title": "Expanded form and the value of a digit",
      "objective": "Children match a set of hundreds, tens, and ones blocks to its expanded form and tell what an underlined digit is worth.",
@@ -4195,6 +4940,57 @@
       "watch": "Ask for the value of the same digit in two places, as in 44 or 404. A child who answers \"four\" both times is naming the digit, not its value."
      },
      "days": 2
+    },
+    {
+     "n": 6,
+     "point": "2:expanded-form-digit-value",
+     "title": "Expanded form with a zero",
+     "objective": "Children put the parts of a three-digit number together and break a number into hundreds, tens, and ones, also when the parts are out of order or a place is empty, such as 50 + 600 = 650 and 900 + 30 = 930.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.A.3",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-401",
+       "title": "Expanded Form Both Ways",
+       "core": "base-ten-hard-g2401-11",
+       "level": 3,
+       "easy": "base-ten-g2401"
+      }
+     ],
+     "id": "2:expanded-form-digit-value#expanded-form-with-a-zero",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "match-pairs.three-ways-to-show-a-number.2-nbt-a-3",
+      "slug": "three-ways-to-show-a-number",
+      "title": "Three Ways to Show a Number"
+     },
+     "exit": {
+      "slug": "base-ten-hard-g2401-12",
+      "title": "Expanded Form Both Ways"
+     },
+     "maker": {
+      "id": "place-value",
+      "name": "Place Value & Rounding",
+      "slug": "place-value-worksheet-maker",
+      "template": "G2-401"
+     },
+     "note": {
+      "mistake": "Children write the parts in the order they are printed: 7 + 500 + 80 becomes 7,580 or 758. With an empty place they push the digits together, so 900 + 30 becomes 93.",
+      "words": "Ask: \"Which part is the hundreds? Which place has nothing in it?\" Say: \"Zero holds the place. 900 + 30 has no ones, so we write a 0 in the ones place.\" Have children say the name of the number before they write it.",
+      "watch": "Watch the tasks with only two parts. A child who writes 65 for 50 + 600 is reading digits, not values; build the number on the Place Value Lab and keep the empty column in view."
+     },
+     "days": 3
     },
     {
      "n": 7,
@@ -4288,97 +5084,193 @@
    ]
   },
   {
-   "id": "g2-add-subtract-within-1000",
-   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+   "id": "g2-adding-and-subtracting-within-100",
+   "slug": "adding-and-subtracting-within-100-grade-2-unit",
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Adding and Subtracting Within 100 and 1,000",
-   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100 and 1,000",
-   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
-   "days": 12,
-   "weeks": 2,
+   "title": "Adding and Subtracting Within 100",
+   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
-     "point": "2:add-with-blocks",
-     "title": "Add with blocks",
-     "objective": "Children add two groups of hundreds, tens, and ones blocks and write the total.",
+     "point": "2:number-line-not-from-zero",
+     "title": "A number line that does not start at zero",
+     "objective": "Children read the number an arrow points to on a number line that starts at 40 or at 60 and has only some of its numbers printed.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Common Core",
-       "code": "2.NBT.B.7",
-       "title": "Number and Operations in Base Ten"
+       "code": "2.MD.B.6",
+       "title": "Measurement and Data"
       }
      ],
      "paper": [
       {
-       "type": "G2-203",
-       "title": "Add the Blocks",
-       "core": "base-ten-g2203"
+       "type": "G2-305",
+       "title": "Where on the Number Line? 40 to 60",
+       "core": "number-lines-g2305",
+       "easy": "number-lines-easy-g2305-7",
+       "hard": "number-lines-hard-g2305-12",
+       "landing": "number-line-40-to-60"
+      },
+      {
+       "type": "G2-310",
+       "title": "Where on the Number Line? 60 to 100",
+       "core": "number-lines-g2310",
+       "easy": "number-lines-easy-g2310-7",
+       "hard": "number-lines-hard-g2310-12",
+       "landing": "number-line-60-to-100"
       }
      ],
+     "tool": {
+      "key": "landing-strip",
+      "slug": "landing-strip-nearer-0-50-or-100-number-sense",
+      "name": "The Landing Strip"
+     },
      "screen": {
       "kind": "activity",
-      "id": "place-value-regroup.add-compose-hundred.2-nbt-b-7",
-      "slug": "add-with-regrouping-make-a-hundred",
-      "title": "Tuck Makes a Hundred — Add with Regrouping"
+      "id": "track-repair.count-to-120.1-nbt-a-1",
+      "slug": "whistle-valley-track-repair",
+      "title": "Whistle Valley — Number-Line Track Repair"
+     },
+     "exit": {
+      "slug": "number-lines-g2305-2",
+      "title": "Where on the Number Line? 40 to 60"
      },
      "maker": {
-      "id": "place-value",
-      "name": "Place Value & Rounding",
-      "slug": "place-value-worksheet-maker",
-      "template": "G2-203"
+      "id": "number-lines",
+      "name": "Number Lines",
+      "slug": "number-line-worksheet-maker",
+      "template": "G2-305"
      },
      "note": {
-      "mistake": "Children count each kind of block and write the three counts side by side, even when there are 12 ones or 11 tens: 2 hundreds, 4 tens, and 12 ones become 2412.",
-      "words": "Say: \"Put the ones together first. Are there ten or more? Trade ten ones for one ten.\" Then the tens: \"Ten tens? Trade them for a hundred.\" Ask: \"How many ones are left after the trade?\"",
-      "watch": "Look for answers with four digits where three are expected; they show a missed trade. Use real blocks and make the trade with the hands before anything is written."
+      "mistake": "Children count the marks from the left end as 1, 2, 3, as if the line began at zero. Or they start at a printed number and count that mark as the first jump, landing one off.",
+      "words": "Ask before anything else: \"Where does this line start? What is each jump worth?\" Say: \"Find the nearest printed number. Count on from it, or count back.\" Check: \"Is your number between the two printed numbers around it?\"",
+      "watch": "Look for answers such as 3 or 7 on a line from 40 to 60; that child ignored the printed numbers. Have each child tell you the start number and the size of one jump before writing."
      },
-     "days": 2
+     "days": 3
     },
     {
      "n": 2,
-     "point": "2:subtract-with-blocks",
-     "title": "Subtract with blocks",
-     "objective": "Children take one group of blocks away from another and write how many are left.",
+     "point": "2:hundreds-chart-moves",
+     "title": "Jumps on the hundreds chart",
+     "objective": "Children follow arrows on a hundreds chart, adding or taking away tens and ones, and write the number where they land.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Common Core",
-       "code": "2.NBT.B.7",
+       "code": "2.NBT.B.5",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "1.NBT.C.5",
+       "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "2.NBT.B.8",
        "title": "Number and Operations in Base Ten"
       }
      ],
      "paper": [
       {
-       "type": "G2-205",
-       "title": "Take Away the Blocks",
-       "core": "base-ten-g2205"
+       "type": "G2-321",
+       "title": "Jump Puzzles: Follow the Arrows",
+       "core": "hundreds-chart-puzzles-g2321",
+       "easy": "hundreds-chart-puzzles-easy-g2321-7",
+       "hard": "hundreds-chart-puzzles-hard-g2321-12",
+       "landing": "jump-puzzles-follow-the-arrows"
+      },
+      {
+       "type": "G2-322",
+       "title": "Mystery Number: Two Arrows, One Square",
+       "core": "hundreds-chart-puzzles-g2322",
+       "easy": "hundreds-chart-puzzles-easy-g2322-7",
+       "hard": "hundreds-chart-puzzles-hard-g2322-12",
+       "landing": "mystery-number-two-arrows-one-square"
       }
      ],
+     "tool": {
+      "key": "number-hotel",
+      "slug": "number-hotel-tens-and-ones-to-100",
+      "name": "The Number Hotel"
+     },
      "screen": {
       "kind": "activity",
-      "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
-      "slug": "subtract-with-regrouping-break-a-ten",
-      "title": "Tuck Breaks a Ten — Subtract with Regrouping"
+      "id": "choice-board.ten-more-less.1-nbt-c-5",
+      "slug": "ten-more-ten-less",
+      "title": "Ten More, Ten Less — Mental Math With Two-Digit Numbers"
+     },
+     "exit": {
+      "slug": "hundreds-chart-puzzles-g2321-2",
+      "title": "Jump Puzzles: Follow the Arrows"
      },
      "maker": {
-      "id": "place-value",
-      "name": "Place Value & Rounding",
-      "slug": "place-value-worksheet-maker",
-      "template": "G2-205"
+      "id": "number-sequences",
+      "name": "Number Charts and Number Sequences",
+      "slug": "number-chart-and-skip-counting-worksheet-maker",
+      "template": "G2-321"
      },
      "note": {
-      "mistake": "When there are not enough ones to take away, children take the smaller digit from the bigger one in each place (52 − 17 becomes 45), or they say it cannot be done.",
-      "words": "Say: \"I need to take 7 ones and I have only 2. Trade one ten for ten ones. Now I have 12 ones.\" Ask: \"How many tens are left after the trade?\" Cross out blocks on the page as they are taken away.",
-      "watch": "Check the problems where the second number has more ones than the first. A child who writes the difference of the digits should break a real ten-rod into ones a few times."
+      "mistake": "Children mix up the directions: up feels like more, so they add ten for an up arrow. With several arrows they make one jump, forget the number they reached, and start again from the first number.",
+      "words": "Have children say each jump: \"Down is ten more: 34, 44. Right is one more: 45.\" Ask: \"Up one row. Is the number bigger or smaller? Check on the chart.\" Let them write the number after every arrow.",
+      "watch": "Notice who has to look at the chart and who can make the jump mentally. Check the up arrows first; a child who adds on an up arrow is thinking \"higher is more,\" as on a thermometer."
      },
-     "days": 2
+     "days": 3
     },
     {
      "n": 3,
+     "point": "1:open-number-line",
+     "title": "Jumps on an open number line",
+     "objective": "Children add and subtract two-digit numbers within 100 on an open number line: they mark the starting number, draw their jumps, and write the answer.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-438",
+       "title": "The Open Number Line",
+       "core": "number-lines-g1438",
+       "easy": "number-lines-easy-g1438-6",
+       "hard": "number-lines-hard-g1438-11"
+      }
+     ],
+     "tool": {
+      "key": "open-number-line",
+      "slug": "open-number-line",
+      "name": "Open Number Line"
+     },
+     "exit": {
+      "slug": "number-lines-g1438-2",
+      "title": "The Open Number Line"
+     },
+     "maker": {
+      "id": "number-lines",
+      "name": "Number Lines",
+      "slug": "number-line-worksheet-maker",
+      "template": "G1-438"
+     },
+     "note": {
+      "mistake": "Children jump the wrong way when they subtract, or they draw many jumps of one and lose count. Some write the size of the last jump as the answer, not the number they land on.",
+      "words": "Ask: \"Where do you start? Are you going forward or back? How big is your first jump?\" Say: \"Jump the tens first, then the ones,\" or \"Jump to the next ten, then the rest.\" Have two children show two different ways to solve the same problem.",
+      "watch": "Watch whether a child writes the landing number under every jump. A line with jumps and no landing numbers cannot be checked, by the child or by you."
+     },
+     "days": 3
+    },
+    {
+     "n": 4,
      "point": "2:column-method",
      "title": "Add and subtract vertically",
      "objective": "Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.",
@@ -4437,7 +5329,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:add-sub-within-100-practice",
      "title": "Add and subtract within 100",
      "objective": "Children add and subtract two-digit numbers to fill number walls and to follow a road through a math maze.",
@@ -4494,6 +5386,202 @@
    ]
   },
   {
+   "id": "g2-add-subtract-within-1000",
+   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Adding and Subtracting Within 1,000",
+   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 1,000",
+   "metaDescription": "A three-week Grade 2 math unit: 4 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "2:add-with-blocks",
+     "title": "Add with blocks",
+     "objective": "Children add two groups of hundreds, tens, and ones blocks and write the total.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.7",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-203",
+       "title": "Add the Blocks",
+       "core": "base-ten-g2203"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "place-value-regroup.add-compose-hundred.2-nbt-b-7",
+      "slug": "add-with-regrouping-make-a-hundred",
+      "title": "Tuck Makes a Hundred — Add with Regrouping"
+     },
+     "maker": {
+      "id": "place-value",
+      "name": "Place Value & Rounding",
+      "slug": "place-value-worksheet-maker",
+      "template": "G2-203"
+     },
+     "note": {
+      "mistake": "Children count each kind of block and write the three counts side by side, even when there are 12 ones or 11 tens: 2 hundreds, 4 tens, and 12 ones become 2412.",
+      "words": "Say: \"Put the ones together first. Are there ten or more? Trade ten ones for one ten.\" Then the tens: \"Ten tens? Trade them for a hundred.\" Ask: \"How many ones are left after the trade?\"",
+      "watch": "Look for answers with four digits where three are expected; they show a missed trade. Use real blocks and make the trade with the hands before anything is written."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:column-regrouping",
+     "title": "Add three-digit numbers and make a new ten or hundred",
+     "objective": "Children add two three-digit numbers in columns when the ones make a new ten or the tens make a new hundred, and write the small 1 they carry above the next place.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.7",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-361",
+       "title": "3-Digit Addition with Carrying",
+       "core": "column-arithmetic-g3361",
+       "easy": "column-arithmetic-easy-g3361-7",
+       "hard": "column-arithmetic-hard-g3361-12",
+       "landing": "3-digit-addition-with-regrouping"
+      }
+     ],
+     "id": "3:column-regrouping#add-three-digit-numbers",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "column-arithmetic-g3361-3",
+      "title": "3-Digit Addition with Carrying"
+     },
+     "exit": {
+      "slug": "column-arithmetic-g3361-2",
+      "title": "3-Digit Addition with Carrying"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition & Subtraction",
+      "slug": "addition-and-subtraction-worksheet-generator",
+      "template": "G3-361"
+     },
+     "note": {
+      "mistake": "Children write both digits of a sum under one column, so 261 + 285 becomes 4,146. Others carry every time out of habit, or forget to add the 1 they carried.",
+      "words": "Ask at each column: \"How many altogether? Is that ten or more? What do we trade?\" Say: \"14 tens are 1 hundred and 4 tens. The hundred moves to the hundreds column.\" Have children estimate first: \"About 500, or about 5,000?\"",
+      "watch": "Watch the column in which no trade is needed. A child who writes a carried 1 there is following a routine without looking at the sum of the column."
+     },
+     "days": 3
+    },
+    {
+     "n": 3,
+     "point": "2:subtract-with-blocks",
+     "title": "Subtract with blocks",
+     "objective": "Children take one group of blocks away from another and write how many are left.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.7",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-205",
+       "title": "Take Away the Blocks",
+       "core": "base-ten-g2205"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
+      "slug": "subtract-with-regrouping-break-a-ten",
+      "title": "Tuck Breaks a Ten — Subtract with Regrouping"
+     },
+     "maker": {
+      "id": "place-value",
+      "name": "Place Value & Rounding",
+      "slug": "place-value-worksheet-maker",
+      "template": "G2-205"
+     },
+     "note": {
+      "mistake": "When there are not enough ones to take away, children take the smaller digit from the bigger one in each place (52 − 17 becomes 45), or they say it cannot be done.",
+      "words": "Say: \"I need to take 7 ones and I have only 2. Trade one ten for ten ones. Now I have 12 ones.\" Ask: \"How many tens are left after the trade?\" Cross out blocks on the page as they are taken away.",
+      "watch": "Check the problems where the second number has more ones than the first. A child who writes the difference of the digits should break a real ten-rod into ones a few times."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:column-regrouping",
+     "title": "Subtract across zeros",
+     "objective": "Children subtract in columns from a multiple of 100, such as 500 − 231, by trading one hundred for ten tens and then one ten for ten ones.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.7",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-362",
+       "title": "Subtracting Across Zeros",
+       "core": "column-arithmetic-hard-g3362-12",
+       "level": 3,
+       "easy": "column-arithmetic-g3362",
+       "screen": 1,
+       "landing": "subtracting-across-zeros"
+      }
+     ],
+     "id": "3:column-regrouping#subtract-across-a-zero",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7",
+      "slug": "subtract-with-regrouping-break-a-hundred",
+      "title": "Tuck Breaks a Hundred — Subtract with Regrouping"
+     },
+     "exit": {
+      "slug": "column-arithmetic-hard-g3362-13",
+      "title": "Subtracting Across Zeros"
+     },
+     "maker": {
+      "id": "addition-subtraction",
+      "name": "Addition & Subtraction",
+      "slug": "addition-and-subtraction-worksheet-generator",
+      "template": "G3-362"
+     },
+     "note": {
+      "mistake": "Children subtract the smaller digit from the larger one in every column, so 500 − 231 becomes 331. Others cross out the 5 and write 10 above both zeros, as if one hundred gave ten tens and ten ones at the same time.",
+      "words": "Ask: \"Can you take 1 one from 0 ones? Where can you get ones? Are there any tens to trade?\" Say: \"Trade one hundred for ten tens. Then trade one ten for ten ones. Now 500 is 4 hundreds, 9 tens, and 10 ones.\" Keep the blocks on the tables for this lesson.",
+      "watch": "Watch what a child writes above the tens place: it has to end up as 9, not 10. Have the child check one answer by adding it to the number that was taken away."
+     },
+     "days": 3
+    }
+   ]
+  },
+  {
    "id": "g2-measurement-time-money",
    "slug": "measurement-time-and-money-grade-2-unit",
    "status": "live",
@@ -4501,8 +5589,8 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A four-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
-   "days": 18,
+   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
+   "days": 21,
    "weeks": 4,
    "lessons": [
     {
@@ -4717,6 +5805,58 @@
     },
     {
      "n": 5,
+     "point": "1:coins",
+     "title": "Count mixed coins",
+     "objective": "Children count the coins in a purse (quarters, dimes, nickels, and pennies), starting with the coins that are worth the most, and write the total in cents.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.C.8",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-229",
+       "title": "Counting Money: All the Coins",
+       "core": "money-g1229",
+       "easy": "money-easy-g1229-7",
+       "hard": "money-hard-g1229-12",
+       "landing": "counting-money-all-coins"
+      }
+     ],
+     "id": "1:coins#count-mixed-coins",
+     "tool": {
+      "key": "money-mat",
+      "slug": "money-mat",
+      "name": "Money Mat"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "money.count-out.2-md-c-8",
+      "slug": "count-out-the-money-coins",
+      "title": "Count Out the Money — Coins to a Target Amount"
+     },
+     "exit": {
+      "slug": "money-g1229-2",
+      "title": "Counting Money: All the Coins"
+     },
+     "maker": {
+      "id": "money",
+      "name": "Money",
+      "slug": "money-worksheet-maker",
+      "template": "G1-229"
+     },
+     "note": {
+      "mistake": "Children count how many coins there are, not what they are worth. Others keep counting by the old step when the coin changes: 25, 50, 75, 100 for two quarters, a dime, and a nickel.",
+      "words": "Say: \"Start with the coins that are worth the most.\" Count aloud and stop at each change: \"25, 50 ... now a dime: 60 ... now a nickel: 65 ... now a penny: 66.\" Ask: \"What are you counting by now?\"",
+      "watch": "Watch the moment the kind of coin changes. Have a child who slips there write the running total under each coin: 25, 50, 60, 65, 66. The coins on the page show their value as a number; use real or plastic coins as well, so that children also learn to tell the coins apart."
+     },
+     "days": 3
+    },
+    {
+     "n": 6,
      "point": "2:shopping-money",
      "title": "Shopping with money",
      "objective": "Children read prices from a shelf, add the prices of the things in a basket, and solve two story problems with those prices.",
@@ -4784,9 +5924,9 @@
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
-   "days": 12,
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on making a graph from counts, bar graphs, and line plots, with a first look at picture graphs with a key and at grids.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -4807,14 +5947,14 @@
        "title": "Tally to Graph",
        "core": "graphing-data-toys-g2239",
        "easy": "graphing-data-easy-zoo-animals-g2239",
-       "hard": "graphing-data-hard-christmas-g2239",
+       "hard": "graphing-data-hard-pets-g2239-2",
        "landing": "graphing-data-grade-2"
       },
       {
        "type": "G2-237",
        "title": "Graph Detective",
        "core": "graphing-data-animals-g2237",
-       "easy": "graphing-data-easy-christmas-g2237",
+       "easy": "graphing-data-easy-shapes-g2237-2",
        "hard": "graphing-data-hard-kitchen-tools-g2237"
       }
      ],
@@ -4848,6 +5988,57 @@
     },
     {
      "n": 2,
+     "point": "1:bar-graphs",
+     "title": "Make a graph from counts",
+     "objective": "Children read the counts for four groups and color one box in the graph for each one. Then, with the teacher, they compare the rows of the finished graph: how many more, how many fewer, how many in all.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.D.10",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-147",
+       "title": "Count and Graph",
+       "core": "graphing-data-hard-pets-g1147",
+       "level": 3,
+       "easy": "graphing-data-fruits-g1147",
+       "screen": 1
+      }
+     ],
+     "id": "1:bar-graphs#make-a-graph-from-counts",
+     "tool": {
+      "key": "class-graph",
+      "slug": "class-graph",
+      "name": "Class Graph"
+     },
+     "screen": {
+      "kind": "page",
+      "slug": "graphing-data-hard-music-g1147-3",
+      "title": "Count and Graph"
+     },
+     "exit": {
+      "slug": "graphing-data-hard-beach-g1147-2",
+      "title": "Count and Graph"
+     },
+     "maker": {
+      "id": "graphs-data",
+      "name": "Graphs & Data",
+      "slug": "graph-and-data-worksheet-maker",
+      "template": "G1-147"
+     },
+     "note": {
+      "mistake": "Children leave a gap or start coloring in the middle of a row, so that a row with fewer boxes reaches farther than a row with more. Others stop coloring when the row looks long enough and do not count.",
+      "words": "Say: \"Start next to the picture and color with no gaps.\" When the graph is done, ask: \"Which row is the longest? How many more are in this row than in that one? How many in all?\" Have children write an equation for one answer.",
+      "watch": "Watch how a child finds \"how many more\": by counting the extra boxes, or by subtracting. Both work. A child who answers with the larger count has read one row and has not compared two."
+     },
+     "days": 3
+    },
+    {
+     "n": 3,
      "point": "2:line-plots",
      "title": "Read a line plot",
      "objective": "Children count the X marks above each number on a line plot and write how many there are.",
@@ -4892,7 +6083,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:scaled-pictograph",
      "title": "Each picture counts as two",
      "objective": "Children read a pictograph in which each picture stands for 2 and write the real count for each row.",
@@ -4943,7 +6134,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:grid-coordinates",
      "title": "Find a square on a grid",
      "objective": "Children find a square by its letter and number, such as B2, color it, and write the code of a square.",
@@ -5138,15 +6329,15 @@
        "type": "G2-211",
        "title": "Rows and Columns",
        "core": "arrays-multiplication-fruits-g2211",
-       "easy": "arrays-multiplication-easy-4th-of-july-g2211",
-       "hard": "arrays-multiplication-hard-4th-of-july-g2211-103"
+       "easy": "arrays-multiplication-easy-at-the-supermarket-g2211-2",
+       "hard": "arrays-multiplication-hard-at-the-supermarket-g2211-104"
       },
       {
        "type": "G2-212",
        "title": "Pick the Array",
        "core": "arrays-multiplication-toys-g2212",
        "easy": "arrays-multiplication-easy-winter-g2212",
-       "hard": "arrays-multiplication-hard-easter-g2212",
+       "hard": "arrays-multiplication-hard-zoo-animals-bw-g2212-2",
        "landing": "arrays-multiplication-grade-2"
       }
      ],
@@ -5619,7 +6810,7 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "geometry-christmas-g2247-2",
+      "slug": "geometry-things-that-fly-g2247-3",
       "title": "Mirror Line?"
      },
      "exit": {
@@ -6065,7 +7256,7 @@
        "type": "G3-326",
        "title": "Crack the Pattern",
        "core": "number-charts-toys-g3326",
-       "easy": "number-charts-easy-easter-g3326",
+       "easy": "number-charts-easy-travel-and-holiday-bw-g3326-2",
        "hard": "number-charts-hard-weather-g3326"
       },
       {
@@ -6397,8 +7588,8 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
-   "days": 15,
+   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, and word problems, with a first look at remainders.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -6528,7 +7719,7 @@
        "title": "Times Families",
        "core": "arrays-multiplication-shapes-g3311",
        "easy": "arrays-multiplication-easy-birds-2-g3311",
-       "hard": "arrays-multiplication-hard-4th-of-july-g3311"
+       "hard": "arrays-multiplication-hard-animals-bw-g3311-2"
       }
      ],
      "screen": {
@@ -6556,6 +7747,47 @@
     },
     {
      "n": 4,
+     "point": "3:times-tables",
+     "title": "The facts we still need",
+     "objective": "Children fill in a multiplication chart up to 10 × 10, starting with the rows and columns they already know (1, 2, 5, and 10), and list the facts that are left to learn.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.OA.C.7",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-407",
+       "title": "Fill the Multiplication Square",
+       "core": "multiplication-tables-hard-g3407-11",
+       "level": 3,
+       "easy": "multiplication-tables-g3407"
+      }
+     ],
+     "id": "3:times-tables#the-facts-we-still-need",
+     "tool": {
+      "key": "folding-wall",
+      "slug": "folding-wall-multiplication-square",
+      "name": "The Folding Wall"
+     },
+     "maker": {
+      "id": "multiplication-division",
+      "name": "Multiplication & Division",
+      "slug": "multiplication-and-division-worksheet-generator",
+      "template": "G3-407"
+     },
+     "note": {
+      "mistake": "Children fill in the chart row by row by skip-counting from the start of each row, which takes the whole lesson and does not show them which facts they already know. Others do not see that 6 × 7 and 7 × 6 are the same fact and count both as unknown.",
+      "words": "Say: \"Fill in what you own first: the 1s, 2s, 5s, and 10s, across and down.\" Ask: \"If you know 3 × 5, where is 5 × 3?\" Then: \"Circle the boxes that are still empty. Those are the facts we still need.\" Every product you know gives you division facts too: if 6 × 7 = 42, then 42 ÷ 7 = 6.",
+      "watch": "Watch who uses a turn-around fact to fill a box and who starts counting again. Keep each child's list of the facts still needed; it is the practice plan for the next weeks."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "3:muldiv-word-problems",
      "title": "Multiplication and division word problems",
      "objective": "Children solve word problems with equal groups, deciding whether the story asks for the total, for the size of each group, or for the number of groups.",
@@ -6573,7 +7805,7 @@
        "title": "Multiplication Word Problems",
        "core": "word-problems-animals-g3371",
        "easy": "word-problems-easy-vegetables-g3371",
-       "hard": "word-problems-hard-easter-g3371",
+       "hard": "word-problems-hard-vegetables-bw-g3371-2",
        "landing": "multiplication-word-problems-3rd-grade"
       },
       {
@@ -6581,7 +7813,7 @@
        "title": "Division Word Problems: Sharing",
        "core": "word-problems-fruits-g3372",
        "easy": "word-problems-easy-kitchen-tools-g3372",
-       "hard": "word-problems-hard-christmas-g3372",
+       "hard": "word-problems-hard-classroom-b-w-g3372-2",
        "landing": "division-word-problems-sharing"
       },
       {
@@ -6617,7 +7849,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "3:division-remainder",
      "title": "Division with a remainder",
      "objective": "Children make equal groups from a pile or deal it into boxes, write how many groups there are or how many each box gets, and write how many are left over.",
@@ -6634,8 +7866,8 @@
        "type": "G3-377",
        "title": "Division with Remainders: Ring the Groups",
        "core": "division-with-remainder-animals-g3377",
-       "easy": "division-with-remainder-easy-4th-of-july-g3377",
-       "hard": "division-with-remainder-hard-4th-of-july-g3377-89",
+       "easy": "division-with-remainder-easy-at-the-supermarket-g3377-2",
+       "hard": "division-with-remainder-hard-at-the-supermarket-g3377-90",
        "landing": "division-with-remainders-ring-the-groups"
       },
       {
@@ -6654,11 +7886,11 @@
      },
      "screen": {
       "kind": "page",
-      "slug": "division-with-remainder-at-the-supermarket-g3377-47",
+      "slug": "division-with-remainder-things-that-fly-g3377-48",
       "title": "Division with Remainders: Ring the Groups"
      },
      "exit": {
-      "slug": "division-with-remainder-4th-of-july-g3377-46",
+      "slug": "division-with-remainder-at-the-supermarket-g3377-47",
       "title": "Division with Remainders: Ring the Groups"
      },
      "maker": {
@@ -8187,7 +9419,7 @@
        "type": "K-289",
        "title": "Trace Your First Words",
        "core": "word-tracing-fruits-k289",
-       "easy": "word-tracing-easy-4th-of-july-k289",
+       "easy": "word-tracing-easy-animals-bw-5-k289-15",
        "hard": "word-tracing-hard-bakery-k289-207",
        "landing": "trace-and-write-first-words-fruits"
       },
@@ -8421,7 +9653,7 @@
        "title": "Singular and Plural",
        "core": "singular-plural-fruits-k287",
        "easy": "singular-plural-easy-tools-k287",
-       "hard": "singular-plural-hard-easter-k287",
+       "hard": "singular-plural-hard-vehicles-bw-2-k287-2",
        "landing": "singular-and-plural-kindergarten"
       }
      ],
@@ -9518,7 +10750,7 @@
      ],
      "screen": {
       "kind": "page",
-      "slug": "alphabetical-order-4th-of-july-g1262-3",
+      "slug": "alphabetical-order-household-bw-g1262-4",
       "title": "ABC Order: Number the Words"
      },
      "exit": {
@@ -9563,7 +10795,7 @@
        "title": "Nouns and Verbs: Two Bins",
        "core": "word-classes-toys-g1293",
        "easy": "word-classes-easy-vegetables-g1293",
-       "hard": "word-classes-hard-easter-g1293",
+       "hard": "word-classes-hard-kitchen-tools-g1293-3",
        "landing": "nouns-and-verbs-sort"
       },
       {
@@ -11154,9 +12386,9 @@
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (16 Weeks)",
-   "metaDescription": "6 Kindergarten math units in teaching order, about 16 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 16,
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (22 Weeks)",
+   "metaDescription": "7 Kindergarten math units in teaching order, about 22 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 22,
    "framework": "Common Core",
    "units": [
     {
@@ -11182,40 +12414,47 @@
      "id": "k-counting-to-10",
      "slug": "counting-to-10-kindergarten-unit",
      "title": "Counting to 10",
-     "weeks": 3,
+     "weeks": 5,
      "from": 4,
-     "to": 6,
+     "to": 8,
      "lessons": [
       "One for each",
       "Write the numbers 0 to 9",
       "Count and write how many",
       "Make a group of that many",
+      "Still the same number",
       "Color by number",
       "How many? Look fast",
-      "More and fewer"
+      "More and fewer",
+      "One more, one less",
+      "Which number is greater?"
      ],
      "standards": [
       "K.CC.A.3",
       "K.CC.B.4.b",
+      "K.CC.B.4.c",
       "K.CC.B.5",
-      "K.CC.C.6"
+      "K.CC.C.6",
+      "K.CC.C.7"
      ]
     },
     {
      "id": "k-shapes",
      "slug": "shapes-all-around-kindergarten-unit",
      "title": "Shapes All Around",
-     "weeks": 2,
-     "from": 7,
-     "to": 8,
+     "weeks": 3,
+     "from": 9,
+     "to": 11,
      "lessons": [
       "Name the shape",
       "Count the sides",
+      "Flat or solid?",
       "Build shapes from pieces",
       "Mirror pictures"
      ],
      "standards": [
       "K.G.A.2",
+      "K.G.A.3",
       "K.G.B.4",
       "K.G.B.6"
      ]
@@ -11224,13 +12463,15 @@
      "id": "k-counting-in-order-to-20",
      "slug": "counting-in-order-to-20-kindergarten-unit",
      "title": "Counting in Order to 20",
-     "weeks": 2,
-     "from": 9,
-     "to": 10,
+     "weeks": 3,
+     "from": 12,
+     "to": 14,
      "lessons": [
+      "Write the numbers 11 to 20",
       "Fill in the missing numbers",
       "Connect the dots in order",
       "Before, after, and counting back",
+      "Count on from a number",
       "First, second, third"
      ],
      "standards": [
@@ -11244,8 +12485,8 @@
      "slug": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
      "title": "Sorting, Tallies, and the Days of the Week",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 15,
+     "to": 17,
      "lessons": [
       "Count each kind",
       "Tally marks",
@@ -11260,21 +12501,40 @@
      ]
     },
     {
-     "id": "k-putting-together-number-bonds",
-     "slug": "putting-together-and-number-bonds-kindergarten-unit",
-     "title": "Putting Together and Number Bonds",
-     "weeks": 3,
-     "from": 14,
-     "to": 16,
+     "id": "k-adding-and-taking-away-within-10",
+     "slug": "adding-and-taking-away-within-10-kindergarten-unit",
+     "title": "Adding and Taking Away Within 10",
+     "weeks": 2,
+     "from": 18,
+     "to": 19,
      "lessons": [
       "How many altogether?",
+      "Take away: how many are left?",
+      "Adding stories: some more come",
+      "Take-away stories: some go away"
+     ],
+     "standards": [
+      "K.OA.A.1",
+      "K.OA.A.2"
+     ]
+    },
+    {
+     "id": "k-putting-together-number-bonds",
+     "slug": "putting-together-and-number-bonds-kindergarten-unit",
+     "title": "Number Bonds and Partners of 10",
+     "weeks": 3,
+     "from": 20,
+     "to": 22,
+     "lessons": [
       "Number bonds to 5 and to 10",
+      "Take apart 8 and 9",
+      "How many more to make 10?",
+      "Partners of 10",
       "Add and subtract to color",
       "Partners that make 20",
       "Odd or even?"
      ],
      "standards": [
-      "K.OA.A.1",
       "K.OA.A.3",
       "K.OA.A.4",
       "K.OA.A.5"
@@ -11289,9 +12549,9 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (20 Weeks)",
-   "metaDescription": "6 Grade 1 math units in teaching order, about 20 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 20,
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (23 Weeks)",
+   "metaDescription": "6 Grade 1 math units in teaching order, about 23 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 23,
    "framework": "Common Core",
    "units": [
     {
@@ -11324,11 +12584,14 @@
      "id": "g1-doubles-three-addends-number-walls",
      "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
      "title": "Doubles, Three Addends, and Addition Pyramids",
-     "weeks": 3,
+     "weeks": 4,
      "from": 6,
-     "to": 8,
+     "to": 9,
      "lessons": [
       "Doubles and halves",
+      "Near doubles",
+      "Make ten to add",
+      "True or false?",
       "Odd and even numbers",
       "Add three groups",
       "Addition pyramids (number walls)"
@@ -11336,6 +12599,7 @@
      "standards": [
       "1.OA.B.3",
       "1.OA.C.6",
+      "1.OA.D.7",
       "1.OA.D.8"
      ]
     },
@@ -11344,8 +12608,8 @@
      "slug": "tens-and-ones-grade-1-unit",
      "title": "Tens and Ones",
      "weeks": 2,
-     "from": 9,
-     "to": 10,
+     "from": 10,
+     "to": 11,
      "lessons": [
       "Tens and ones",
       "Number words",
@@ -11363,8 +12627,8 @@
      "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
      "title": "The Hundreds Chart and Skip Counting",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 12,
+     "to": 14,
      "lessons": [
       "Find a number on the number line",
       "The hundreds chart",
@@ -11380,12 +12644,13 @@
      "id": "g1-time-calendar-coins",
      "slug": "time-calendar-and-coins-grade-1-unit",
      "title": "Time, Calendar, and Coins",
-     "weeks": 3,
-     "from": 14,
-     "to": 16,
+     "weeks": 4,
+     "from": 15,
+     "to": 18,
      "lessons": [
       "Tell time to the hour and half hour",
       "Draw the clock hands",
+      "Match the clocks",
       "Yesterday, today, tomorrow, and the months",
       "Ordinal numbers to tenth",
       "Count coins"
@@ -11398,9 +12663,9 @@
      "id": "g1-shapes-measuring-graphs",
      "slug": "shapes-measuring-and-graphs-grade-1-unit",
      "title": "Shapes, Measuring, and Graphs",
-     "weeks": 4,
-     "from": 17,
-     "to": 20,
+     "weeks": 5,
+     "from": 19,
+     "to": 23,
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",
@@ -11408,11 +12673,13 @@
       "Sort into three groups",
       "Sort, count, and read a picture graph",
       "Read and make a bar graph",
-      "Patterns: two are missing"
+      "Patterns: two are missing",
+      "Equal shares: fair or not?"
      ],
      "standards": [
       "1.G.A.1",
       "1.G.A.2",
+      "1.G.A.3",
       "1.MD.A.1",
       "1.MD.A.2",
       "1.MD.C.4"
@@ -11427,9 +12694,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (19 Weeks)",
-   "metaDescription": "6 Grade 2 math units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 19,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (24 Weeks)",
+   "metaDescription": "7 Grade 2 math units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 24,
    "framework": "Common Core",
    "units": [
     {
@@ -11441,39 +12708,56 @@
      "to": 4,
      "lessons": [
       "Bundle ten ones",
+      "Ten tens make one hundred",
       "Count by fives and tens",
-      "A number line that does not start at zero",
-      "Jumps on the hundreds chart",
       "Hundreds, tens, and ones",
       "Expanded form and the value of a digit",
+      "Expanded form with a zero",
       "Compare and order three-digit numbers",
       "100 more, 100 less"
      ],
      "standards": [
-      "2.MD.B.6",
       "2.NBT.A.1",
+      "2.NBT.A.1.a",
       "2.NBT.A.2",
       "2.NBT.A.3",
       "2.NBT.A.4",
-      "2.NBT.B.5",
       "2.NBT.B.8"
+     ]
+    },
+    {
+     "id": "g2-adding-and-subtracting-within-100",
+     "slug": "adding-and-subtracting-within-100-grade-2-unit",
+     "title": "Adding and Subtracting Within 100",
+     "weeks": 3,
+     "from": 5,
+     "to": 7,
+     "lessons": [
+      "A number line that does not start at zero",
+      "Jumps on the hundreds chart",
+      "Jumps on an open number line",
+      "Add and subtract vertically",
+      "Add and subtract within 100"
+     ],
+     "standards": [
+      "2.MD.B.6",
+      "2.NBT.B.5"
      ]
     },
     {
      "id": "g2-add-subtract-within-1000",
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-     "title": "Adding and Subtracting Within 100 and 1,000",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "title": "Adding and Subtracting Within 1,000",
+     "weeks": 3,
+     "from": 8,
+     "to": 10,
      "lessons": [
       "Add with blocks",
+      "Add three-digit numbers and make a new ten or hundred",
       "Subtract with blocks",
-      "Add and subtract vertically",
-      "Add and subtract within 100"
+      "Subtract across zeros"
      ],
      "standards": [
-      "2.NBT.B.5",
       "2.NBT.B.7"
      ]
     },
@@ -11482,13 +12766,14 @@
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
      "weeks": 4,
-     "from": 7,
-     "to": 10,
+     "from": 11,
+     "to": 14,
      "lessons": [
       "Measure with a ruler",
       "How much longer?",
       "Tell time to the nearest five minutes",
       "Read a calendar",
+      "Count mixed coins",
       "Shopping with money"
      ],
      "standards": [
@@ -11502,11 +12787,12 @@
      "id": "g2-graphs-and-grids",
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
-     "weeks": 2,
-     "from": 11,
-     "to": 12,
+     "weeks": 3,
+     "from": 15,
+     "to": 17,
      "lessons": [
       "From tally marks to a bar graph",
+      "Make a graph from counts",
       "Read a line plot",
       "Each picture counts as two",
       "Find a square on a grid"
@@ -11520,8 +12806,8 @@
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
      "weeks": 4,
-     "from": 13,
-     "to": 16,
+     "from": 18,
+     "to": 21,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -11542,8 +12828,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 17,
-     "to": 19,
+     "from": 22,
+     "to": 24,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",
@@ -11624,6 +12910,7 @@
       "Divide by sharing",
       "Divide by hopping back",
       "The missing factor and fact families",
+      "The facts we still need",
       "Multiplication and division word problems",
       "Division with a remainder"
      ],
@@ -11631,7 +12918,8 @@
       "3.OA.A.2",
       "3.OA.A.3",
       "3.OA.A.4",
-      "3.OA.B.6"
+      "3.OA.B.6",
+      "3.OA.C.7"
      ]
     },
     {

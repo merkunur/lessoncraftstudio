@@ -37,22 +37,28 @@
         "why": "The year starts where Kindergarten ended, and every later unit leans on the facts and the equal sign taught here.",
         "lessons": [
           {
-            "existing": "g1-add-subtract-within-10#1"
+            "existing": "1:add-within-10-models",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#2"
+            "existing": "1:subtract-cross-out",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#3"
+            "existing": "1:make-10",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#4"
+            "existing": "1:count-on-back-hops",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#5"
+            "existing": "1:fact-families",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#6"
+            "existing": "1:missing-number-equations",
+            "from": "g1-add-subtract-within-10"
           },
           {
             "new": true,
@@ -62,10 +68,12 @@
             "days": 2,
             "tool": "Number Balance",
             "source": "new",
-            "page": "Level 1: twelve equations within 10, each with a \"true\" box and a \"false\" box to tick: four of the usual kind (5 + 3 = 8), four with the total first (8 = 5 + 3, 7 = 7), four with a sum or a difference on both sides (9 - 2 = 3 + 4). Five of the twelve are false. Level 2: the child makes each false equation true by changing one number, then writes two true equations of their own with the total first."
+            "page": "Level 1: twelve equations within 10, each with a \"true\" box and a \"false\" box to tick: four of the usual kind (5 + 3 = 8), four with the total first (8 = 5 + 3, 7 = 7), four with a sum or a difference on both sides (9 - 2 = 3 + 4). Five of the twelve are false. Level 2: the child makes each false equation true by changing one number, then writes two true equations of their own with the total first.",
+            "placed": "1:true-false-equations"
           },
           {
-            "existing": "g1-add-subtract-within-10#8"
+            "existing": "1:fluency-within-20",
+            "from": "g1-add-subtract-within-10"
           }
         ]
       },
@@ -75,7 +83,8 @@
         "why": "Once the facts within 10 are firm, the class learns the strategies that carry them across ten: doubles, near doubles, making ten, and thinking addition.",
         "lessons": [
           {
-            "existing": "g1-doubles-three-addends-number-walls#1"
+            "existing": "1:doubles-halves",
+            "from": "g1-doubles-three-addends-number-walls"
           },
           {
             "new": true,
@@ -85,7 +94,8 @@
             "days": 2,
             "tool": "The Doubling Mirror",
             "source": "new",
-            "page": "Top half: six pairs of ten-frame pictures, a double and its neighbor side by side (6 + 6 and 6 + 7); the child writes both sums. Bottom half: ten near doubles from 3 + 4 to 9 + 10 with the frame 6 + 7 = 6 + 6 + _ = _. Sums up to 19."
+            "page": "Top half: six pairs of ten-frame pictures, a double and its neighbor side by side (6 + 6 and 6 + 7); the child writes both sums. Bottom half: ten near doubles from 3 + 4 to 9 + 10 with the frame 6 + 7 = 6 + 6 + _ = _. Sums up to 19.",
+            "placed": "1:near-doubles"
           },
           {
             "new": true,
@@ -95,7 +105,8 @@
             "days": 3,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Level 1: eight tasks, each with two ten-frames; the first shows 9, 8 or 7 counters, the second 4 to 9 counters in another color. The child crosses out the counters that move, draws them in the first frame, and completes 8 + 5 = 10 + _ = _. Level 2: the same sums with empty frames to draw in. Level 3: equations only (9 + 6 = 10 + _ = _). Sums from 11 to 18; the two numbers never make exactly 10."
+            "page": "Level 1: eight tasks, each with two ten-frames; the first shows 9, 8 or 7 counters, the second 4 to 9 counters in another color. The child crosses out the counters that move, draws them in the first frame, and completes 8 + 5 = 10 + _ = _. Level 2: the same sums with empty frames to draw in. Level 3: equations only (9 + 6 = 10 + _ = _). Sums from 11 to 18; the two numbers never make exactly 10.",
+            "placed": "1:fluency-within-20#make-ten-to-add"
           },
           {
             "new": true,
@@ -108,10 +119,12 @@
             "page": "Ten tasks. Each shows a subtraction (13 - 8 = _), a number bond with the whole and one part filled in, and the helper equation 8 + _ = 13. The child fills the bond, the helper equation, and then the subtraction. Wholes from 11 to 18; the part taken away is 5 to 9."
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#3"
+            "existing": "1:add-three-addends",
+            "from": "g1-doubles-three-addends-number-walls"
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#4"
+            "existing": "1:number-walls",
+            "from": "g1-doubles-three-addends-number-walls"
           }
         ]
       },
@@ -121,7 +134,8 @@
         "why": "With strategies to 20 in hand, the class can give its attention to what a story asks; the hard story types need their own weeks before winter.",
         "lessons": [
           {
-            "existing": "g1-add-subtract-within-10#7"
+            "existing": "1:word-problems",
+            "from": "g1-add-subtract-within-10"
           },
           {
             "new": true,
@@ -191,16 +205,20 @@
             "page": "Top half: eight pictures of 1 to 9 ten-rods and no loose cubes; the child writes '_ tens 0 ones' and the number. Bottom half: six numbers from 10 to 90; the child draws that many rods and writes how many tens."
           },
           {
-            "existing": "g1-tens-and-ones#1"
+            "existing": "1:tens-and-ones",
+            "from": "g1-tens-and-ones"
           },
           {
-            "existing": "g1-tens-and-ones#3"
+            "existing": "1:compare-order-two-digit",
+            "from": "g1-tens-and-ones"
           },
           {
-            "existing": "g1-tens-and-ones#2"
+            "existing": "1:number-words",
+            "from": "g1-tens-and-ones"
           },
           {
-            "existing": "g1-tens-and-ones#4"
+            "existing": "1:number-of-the-day",
+            "from": "g1-tens-and-ones"
           }
         ]
       },
@@ -210,16 +228,20 @@
         "why": "The chart turns tens and ones into a map; 10 more and 10 less on it prepare the adding of tens in the next unit.",
         "lessons": [
           {
-            "existing": "g1-hundreds-chart-skip-counting#1"
+            "existing": "1:number-line-placement",
+            "from": "g1-hundreds-chart-skip-counting"
           },
           {
-            "existing": "g1-hundreds-chart-skip-counting#2"
+            "existing": "1:hundreds-chart",
+            "from": "g1-hundreds-chart-skip-counting"
           },
           {
-            "existing": "g1-hundreds-chart-skip-counting#3"
+            "existing": "1:one-ten-more-less",
+            "from": "g1-hundreds-chart-skip-counting"
           },
           {
-            "existing": "g1-hundreds-chart-skip-counting#4"
+            "existing": "1:skip-counting",
+            "from": "g1-hundreds-chart-skip-counting"
           }
         ]
       },
@@ -296,10 +318,12 @@
         "why": "Clocks and coins use counting by fives and tens from the chart unit and fit the spring weeks around the benchmark.",
         "lessons": [
           {
-            "existing": "g1-time-calendar-coins#1"
+            "existing": "1:time-read",
+            "from": "g1-time-calendar-coins"
           },
           {
-            "existing": "g1-time-calendar-coins#2"
+            "existing": "1:time-set-hands",
+            "from": "g1-time-calendar-coins"
           },
           {
             "new": true,
@@ -309,10 +333,12 @@
             "days": 2,
             "tool": "Learning Clock",
             "source": "new",
-            "page": "Top half: six clocks with hands (three on the hour, three at half past) and six digital clocks in mixed order; the child draws a line from each clock with hands to the digital clock that shows the same time. Bottom half: six clocks with hands, each with an empty digital display in which the child writes the time (4:30), and two digital times for which the child circles the right clock of two (for 2:30, the hour hand halfway between 2 and 3 or pointing straight at 2)."
+            "page": "Top half: six clocks with hands (three on the hour, three at half past) and six digital clocks in mixed order; the child draws a line from each clock with hands to the digital clock that shows the same time. Bottom half: six clocks with hands, each with an empty digital display in which the child writes the time (4:30), and two digital times for which the child circles the right clock of two (for 2:30, the hour hand halfway between 2 and 3 or pointing straight at 2).",
+            "placed": "1:time-read#match-the-clocks"
           },
           {
-            "existing": "g1-time-calendar-coins#5"
+            "existing": "1:coins",
+            "from": "g1-time-calendar-coins"
           }
         ]
       },
@@ -322,7 +348,8 @@
         "why": "Measuring, graphing and shapes close the year with real things in hand, and halves and fourths of shapes follow the half hour on the clock.",
         "lessons": [
           {
-            "existing": "g1-shapes-measuring-graphs#3"
+            "existing": "1:measure-length-units",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
             "new": true,
@@ -335,19 +362,24 @@
             "page": "Top half: six pictures of an object with a row of units under it; in three the units are laid right, and in three there is a gap, an overlap, or a row that starts or ends in the wrong place. The child ticks right or wrong and circles the mistake. Bottom half: four objects with empty space under them and a strip of same-size squares to cut out and glue; the child lays the squares end to end and writes \"about _ squares long\". Lengths from 3 to 9 units."
           },
           {
-            "existing": "g1-shapes-measuring-graphs#4"
+            "existing": "1:sort-three-groups",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#5"
+            "existing": "1:picture-graphs-sort-count",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#6"
+            "existing": "1:bar-graphs",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#1"
+            "existing": "1:shape-attributes",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#2"
+            "existing": "1:tangram-compose",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
             "new": true,
@@ -357,7 +389,8 @@
             "days": 3,
             "tool": "Fraction Kitchen",
             "source": "new",
-            "page": "Level 1: twelve circles and rectangles cut into 2 or 4 parts, some equal and some not; the child colors only the shapes with equal shares and writes 'halves' or 'fourths' under them. Level 2: eight whole circles and rectangles; the child draws lines to split each into halves or fourths as asked and colors one share. Level 3: four sentences to finish ('The pizza has _ fourths. One half is _ than one fourth.'). The two live screen activities on equal shares are the screen task."
+            "page": "Level 1: twelve circles and rectangles cut into 2 or 4 parts, some equal and some not; the child colors only the shapes with equal shares and writes 'halves' or 'fourths' under them. Level 2: eight whole circles and rectangles; the child draws lines to split each into halves or fourths as asked and colors one share. Level 3: four sentences to finish ('The pizza has _ fourths. One half is _ than one fourth.'). The two live screen activities on equal shares are the screen task.",
+            "placed": "2:equal-shares-shapes#equal-shares-halves-and-fourths"
           }
         ]
       }
@@ -365,20 +398,24 @@
     "totalDays": 140,
     "leftOut": [
       {
-        "what": "g1-doubles-three-addends-number-walls#2 Odd and even numbers",
-        "why": "Odd and even is a Grade 2 standard (2.OA.C.3) and Grade 2 has its own lesson; the three days go to the strategies within 20."
+        "what": "Odd and even numbers",
+        "why": "Odd and even is a Grade 2 standard (2.OA.C.3) and Grade 2 has its own lesson; the three days go to the strategies within 20.",
+        "lesson": "1:odd-even-pairs"
       },
       {
-        "what": "g1-time-calendar-coins#3 Yesterday, today, tomorrow, and the months",
-        "why": "The calendar is taught every morning in the calendar routine with Calendar Wall, not in the math block."
+        "what": "Yesterday, today, tomorrow, and the months",
+        "why": "The calendar is taught every morning in the calendar routine with Calendar Wall, not in the math block.",
+        "lesson": "1:days-months-seasons"
       },
       {
-        "what": "g1-time-calendar-coins#4 Ordinal numbers to tenth",
-        "why": "Ordinal numbers are no Grade 1 standard, and Kindergarten already has a lesson on them; the three days go to story problems."
+        "what": "Ordinal numbers to tenth",
+        "why": "Ordinal numbers are no Grade 1 standard, and Kindergarten already has a lesson on them; the three days go to story problems.",
+        "lesson": "1:ordinal-numbers"
       },
       {
-        "what": "g1-shapes-measuring-graphs#7 Patterns: two are missing",
-        "why": "Repeating patterns are no Grade 1 standard; the lesson stays on the site as extra practice outside the year plan."
+        "what": "Patterns: two are missing",
+        "why": "Repeating patterns are no Grade 1 standard; the lesson stays on the site as extra practice outside the year plan.",
+        "lesson": "1:patterns-missing"
       },
       {
         "what": "1.OA.A.1: start-unknown stories and compare stories with the bigger or smaller amount unknown",
@@ -499,7 +536,8 @@
         "why": "Hundreds, tens and ones must be firm before any adding within 100 and 1,000, so place value takes the early fall.",
         "lessons": [
           {
-            "existing": "g2-place-value-to-1000#1"
+            "existing": "2:bundle-ten-ones",
+            "from": "g2-place-value-to-1000"
           },
           {
             "new": true,
@@ -509,13 +547,16 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "Top half: six pictures of 10 to 19 ten-rods; the child rings ten rods, writes '1 hundred _ tens' and the number (130). Bottom half: six pictures of 1 to 9 hundred-flats alone; the child counts by hundreds and writes '_ hundreds 0 tens 0 ones' and the number (100 to 900)."
+            "page": "Top half: six pictures of 10 to 19 ten-rods; the child rings ten rods, writes '1 hundred _ tens' and the number (130). Bottom half: six pictures of 1 to 9 hundred-flats alone; the child counts by hundreds and writes '_ hundreds 0 tens 0 ones' and the number (100 to 900).",
+            "placed": "2:bundle-ten-ones#ten-tens-make-one-hundred"
           },
           {
-            "existing": "g2-place-value-to-1000#5"
+            "existing": "2:read-build-3-digit",
+            "from": "g2-place-value-to-1000"
           },
           {
-            "existing": "g2-place-value-to-1000#6"
+            "existing": "2:expanded-form-digit-value",
+            "from": "g2-place-value-to-1000"
           },
           {
             "new": true,
@@ -525,16 +566,20 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "A table of ten rows with four columns: blocks, numeral, expanded form, number name. In each row one or two columns are filled and the child fills the rest (blocks are drawn as squares, sticks and dots). Every number from 101 to 990 has a zero in the tens or the ones place; the pairs 406 and 460, 307 and 370 stand one under the other. Last task: circle the right numeral of three for 'five hundred eight' (58, 508, 580)."
+            "page": "A table of ten rows with four columns: blocks, numeral, expanded form, number name. In each row one or two columns are filled and the child fills the rest (blocks are drawn as squares, sticks and dots). Every number from 101 to 990 has a zero in the tens or the ones place; the pairs 406 and 460, 307 and 370 stand one under the other. Last task: circle the right numeral of three for 'five hundred eight' (58, 508, 580).",
+            "placed": "2:expanded-form-digit-value#expanded-form-with-a-zero"
           },
           {
-            "existing": "g2-place-value-to-1000#7"
+            "existing": "2:compare-order-3-digit",
+            "from": "g2-place-value-to-1000"
           },
           {
-            "existing": "g2-place-value-to-1000#2"
+            "existing": "2:skip-count-5-10-100",
+            "from": "g2-place-value-to-1000"
           },
           {
-            "existing": "g2-place-value-to-1000#8"
+            "existing": "2:hundred-more-less",
+            "from": "g2-place-value-to-1000"
           }
         ]
       },
@@ -544,10 +589,12 @@
         "why": "This is the heart of Grade 2: it follows place value directly and gets the longest stretch of the fall, from number line and chart to written columns.",
         "lessons": [
           {
-            "existing": "g2-place-value-to-1000#3"
+            "existing": "2:number-line-not-from-zero",
+            "from": "g2-place-value-to-1000"
           },
           {
-            "existing": "g2-place-value-to-1000#4"
+            "existing": "2:hundreds-chart-moves",
+            "from": "g2-place-value-to-1000"
           },
           {
             "new": true,
@@ -557,7 +604,8 @@
             "days": 3,
             "tool": "Open Number Line",
             "source": "new",
-            "page": "Level 1: six tasks with no ten crossed (34 + 25, 67 - 30), each with an empty line on which the start number is marked; the child draws jumps of ten, then jumps for the ones, and writes every landing number. Level 2: eight tasks that cross a ten (47 + 28, 62 - 37); the child jumps the tens, then to the next ten, then the rest. Level 3: four tasks with a bare line and nothing marked. All numbers within 100."
+            "page": "Level 1: six tasks with no ten crossed (34 + 25, 67 - 30), each with an empty line on which the start number is marked; the child draws jumps of ten, then jumps for the ones, and writes every landing number. Level 2: eight tasks that cross a ten (47 + 28, 62 - 37); the child jumps the tens, then to the next ten, then the rest. Level 3: four tasks with a bare line and nothing marked. All numbers within 100.",
+            "placed": "1:open-number-line"
           },
           {
             "new": true,
@@ -580,10 +628,12 @@
             "page": "Eight tasks. Each has the difference (52 - 27 = _) and a tens-and-ones mat on which the first number is already drawn as sticks and dots. The child first answers 'Enough ones? yes / no', crosses out one stick and draws ten dots when the answer is no, then crosses out what is taken away and writes what is left. Six tasks need a ten opened and two do not."
           },
           {
-            "existing": "g2-add-subtract-within-1000#3"
+            "existing": "2:column-method",
+            "from": "g2-add-subtract-within-1000"
           },
           {
-            "existing": "g2-add-subtract-within-1000#4"
+            "existing": "2:add-sub-within-100-practice",
+            "from": "g2-add-subtract-within-1000"
           },
           {
             "new": true,
@@ -605,7 +655,8 @@
             "source": "teacher-led",
             "page": "Number talk: the teacher shows one sum (38 + 25, later 63 - 28) and two worked ways side by side (tens and ones apart; a jump to the next ten). Pairs say what each child did and why both give the same answer, then show it with blocks. Listen for place-value words ('3 tens and 2 tens', 'I made a new ten from 8 ones and 2 ones') and not only 'I carried the 1'."
           }
-        ]
+        ],
+        "opened": "g2-adding-and-subtracting-within-100"
       },
       {
         "id": "new:story-problems-within-100",
@@ -660,7 +711,8 @@
         "why": "The same moves go on to three-digit numbers after winter break, with blocks first and written ways after them.",
         "lessons": [
           {
-            "existing": "g2-add-subtract-within-1000#1"
+            "existing": "2:add-with-blocks",
+            "from": "g2-add-subtract-within-1000"
           },
           {
             "new": true,
@@ -670,10 +722,12 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Eight tasks. Each has the sum in columns with boxes for the new ten and the new hundred, and beside it a hundreds-tens-ones mat for a drawing of squares, sticks and dots. Three tasks make a new ten, two a new hundred, three both. The child draws, rings ten of a kind, and writes the sum. Sums from 300 to 1,000."
+            "page": "Eight tasks. Each has the sum in columns with boxes for the new ten and the new hundred, and beside it a hundreds-tens-ones mat for a drawing of squares, sticks and dots. Three tasks make a new ten, two a new hundred, three both. The child draws, rings ten of a kind, and writes the sum. Sums from 300 to 1,000.",
+            "placed": "3:column-regrouping#add-three-digit-numbers"
           },
           {
-            "existing": "g2-add-subtract-within-1000#2"
+            "existing": "2:subtract-with-blocks",
+            "from": "g2-add-subtract-within-1000"
           },
           {
             "new": true,
@@ -693,7 +747,8 @@
             "days": 2,
             "tool": "The Exchange Machine",
             "source": "new",
-            "page": "Eight tasks in columns with a hundreds-tens-ones mat: four from numbers with a zero in the tens place (304, 507), four from whole hundreds (500, 800). The first two are worked halfway (the hundred already opened into ten tens). On each task the child checks by adding the answer and the number taken away on a line below."
+            "page": "Eight tasks in columns with a hundreds-tens-ones mat: four from numbers with a zero in the tens place (304, 507), four from whole hundreds (500, 800). The first two are worked halfway (the hundred already opened into ten tens). On each task the child checks by adding the answer and the number taken away on a line below.",
+            "placed": "3:column-regrouping#subtract-across-a-zero"
           }
         ]
       },
@@ -703,7 +758,8 @@
         "why": "Clocks and coins count by fives and tens and use the adding within 100; length comes last in the unit, so the line plot of measured lengths follows directly.",
         "lessons": [
           {
-            "existing": "g2-measurement-time-money#3"
+            "existing": "2:time-5-min-quarter",
+            "from": "g2-measurement-time-money"
           },
           {
             "new": true,
@@ -713,13 +769,16 @@
             "days": 3,
             "tool": "Money Mat",
             "source": "reuse:Counting Coins",
-            "page": "The same page as Counting Coins with larger amounts: groups of four to eight mixed coins with quarters, totals from 26 cents to 100 cents. The child writes the running count under each coin (25, 35, 40, 41) and the total with the cent sign. The top level asks which coins make a given amount in two different ways."
+            "page": "The same page as Counting Coins with larger amounts: groups of four to eight mixed coins with quarters, totals from 26 cents to 100 cents. The child writes the running count under each coin (25, 35, 40, 41) and the total with the cent sign. The top level asks which coins make a given amount in two different ways.",
+            "placed": "1:coins#count-mixed-coins"
           },
           {
-            "existing": "g2-measurement-time-money#5"
+            "existing": "2:shopping-money",
+            "from": "g2-measurement-time-money"
           },
           {
-            "existing": "g2-measurement-time-money#1"
+            "existing": "2:measure-with-ruler",
+            "from": "g2-measurement-time-money"
           },
           {
             "new": true,
@@ -742,7 +801,8 @@
             "page": "Hands-on routine: the class learns four benchmarks, then pairs estimate the desk, the door, the rug and a pencil before they measure them; the page is only the recording sheet with three columns (my estimate, my measure, how far off). Listen for estimates that name a unit and lean on a benchmark ('about 3 rulers, so 3 feet'), and for children who change the next estimate after a measure."
           },
           {
-            "existing": "g2-measurement-time-money#2"
+            "existing": "2:compare-lengths",
+            "from": "g2-measurement-time-money"
           },
           {
             "new": true,
@@ -762,7 +822,8 @@
         "why": "Data follows measuring, because the line plot needs lengths the children measured themselves; bar and picture graphs come first as the easier graphs.",
         "lessons": [
           {
-            "existing": "g2-graphs-and-grids#1"
+            "existing": "2:bar-graphs",
+            "from": "g2-graphs-and-grids"
           },
           {
             "new": true,
@@ -772,10 +833,12 @@
             "days": 2,
             "tool": "Class Graph",
             "source": "new",
-            "page": "Top: a small table of counts for four groups (the favorite fruit of a class: apple 7, banana 4, grapes 9, orange 5). Middle: an empty picture graph with four rows of ten boxes and the key \"one face = 1 child\"; the child writes the title and the group names and draws one face in a box for each child. Bottom: five questions (\"How many more children chose grapes than bananas? How many chose apple or orange in all?\"), each with an equation line. A second version has the graph standing in columns."
+            "page": "Top: a small table of counts for four groups (the favorite fruit of a class: apple 7, banana 4, grapes 9, orange 5). Middle: an empty picture graph with four rows of ten boxes and the key \"one face = 1 child\"; the child writes the title and the group names and draws one face in a box for each child. Bottom: five questions (\"How many more children chose grapes than bananas? How many chose apple or orange in all?\"), each with an equation line. A second version has the graph standing in columns.",
+            "placed": "1:bar-graphs#make-a-graph-from-counts"
           },
           {
-            "existing": "g2-graphs-and-grids#2"
+            "existing": "2:line-plots",
+            "from": "g2-graphs-and-grids"
           },
           {
             "new": true,
@@ -795,13 +858,16 @@
         "why": "Arrays, shapes and equal shares close the year as one unit, from rows and columns to rectangles of squares to shapes cut into halves, thirds and fourths: the bridge to multiplication and fractions in Grade 3.",
         "lessons": [
           {
-            "existing": "g2-equal-groups-equal-shares#1"
+            "existing": "2:odd-even",
+            "from": "g2-equal-groups-equal-shares"
           },
           {
-            "existing": "g2-equal-groups-equal-shares#2"
+            "existing": "2:equal-groups-times",
+            "from": "g2-equal-groups-equal-shares"
           },
           {
-            "existing": "g2-equal-groups-equal-shares#3"
+            "existing": "2:arrays",
+            "from": "g2-equal-groups-equal-shares"
           },
           {
             "new": true,
@@ -814,16 +880,20 @@
             "page": "Top half: four rectangles with tick marks on two sides; the child draws the lines with a ruler to make rows and columns and completes '_ rows, _ columns, _ squares' and an addition of equal rows (4 + 4 + 4 = 12). Bottom half: four rectangles with one row and one column of squares already drawn; the child finishes the grid and counts. Up to 5 rows and 5 columns. In class children first cover a paper rectangle with square tiles."
           },
           {
-            "existing": "g2-shapes-solids-symmetry#1"
+            "existing": "2:2d-attributes",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#2"
+            "existing": "2:solids-in-real-life",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#3"
+            "existing": "2:3d-faces-edges-vertices",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-equal-groups-equal-shares#6"
+            "existing": "2:equal-shares-shapes",
+            "from": "g2-equal-groups-equal-shares"
           }
         ]
       }
@@ -831,40 +901,49 @@
     "totalDays": 139,
     "leftOut": [
       {
-        "what": "g2-measurement-time-money#4 Read a calendar",
-        "why": "The calendar is read every morning in the calendar routine with Calendar Wall, not in the math block."
+        "what": "Read a calendar",
+        "why": "The calendar is read every morning in the calendar routine with Calendar Wall, not in the math block.",
+        "lesson": "2:calendar"
       },
       {
-        "what": "g2-graphs-and-grids#3 Each picture counts as two",
-        "why": "Picture graphs with a scale are a Grade 3 standard (3.MD.B.3), and Grade 3 has the lesson."
+        "what": "Each picture counts as two",
+        "why": "Picture graphs with a scale are a Grade 3 standard (3.MD.B.3), and Grade 3 has the lesson.",
+        "lesson": "2:scaled-pictograph"
       },
       {
-        "what": "g2-graphs-and-grids#4 Find a square on a grid",
-        "why": "Grid coordinates are no Grade 2 standard; the days go to the line plot the children measure themselves."
+        "what": "Find a square on a grid",
+        "why": "Grid coordinates are no Grade 2 standard; the days go to the line plot the children measure themselves.",
+        "lesson": "2:grid-coordinates"
       },
       {
-        "what": "g2-equal-groups-equal-shares#4 Count by threes and fours",
-        "why": "Grade 2 counts by fives, tens and hundreds; threes and fours belong to the multiplication facts of Grade 3."
+        "what": "Count by threes and fours",
+        "why": "Grade 2 counts by fives, tens and hundreds; threes and fours belong to the multiplication facts of Grade 3.",
+        "lesson": "2:skip-count-3-4"
       },
       {
-        "what": "g2-equal-groups-equal-shares#5 Share fairly and make groups",
-        "why": "Division is a Grade 3 standard, and Grade 3 has a lesson with the same tool."
+        "what": "Share fairly and make groups",
+        "why": "Division is a Grade 3 standard, and Grade 3 has a lesson with the same tool.",
+        "lesson": "2:share-and-group"
       },
       {
-        "what": "g2-equal-groups-equal-shares#7 A fraction of a group",
-        "why": "Grade 2 fractions are equal shares of one shape; a fraction of a set is beyond the grade."
+        "what": "A fraction of a group",
+        "why": "Grade 2 fractions are equal shares of one shape; a fraction of a set is beyond the grade.",
+        "lesson": "2:fraction-of-a-set"
       },
       {
-        "what": "g2-shapes-solids-symmetry#4 Is it a line of symmetry?",
-        "why": "Line symmetry is a Grade 4 standard; the three days go to adding and subtracting within 100."
+        "what": "Is it a line of symmetry?",
+        "why": "Line symmetry is a Grade 4 standard; the three days go to adding and subtracting within 100.",
+        "lesson": "2:symmetry-line"
       },
       {
-        "what": "g2-shapes-solids-symmetry#5 Finish the other half",
-        "why": "Line symmetry is a Grade 4 standard; the three days go to adding and subtracting within 1,000."
+        "what": "Finish the other half",
+        "why": "Line symmetry is a Grade 4 standard; the three days go to adding and subtracting within 1,000.",
+        "lesson": "2:symmetry-complete"
       },
       {
-        "what": "g2-shapes-solids-symmetry#6 Which one matches the shadow?",
-        "why": "A puzzle lesson with no Grade 2 standard; it stays on the site as extra practice outside the year plan."
+        "what": "Which one matches the shadow?",
+        "why": "A puzzle lesson with no Grade 2 standard; it stays on the site as extra practice outside the year plan.",
+        "lesson": "2:tangram-orientation"
       },
       {
         "what": "2.OA.B.2: two more strategy lessons and more fluency lessons",
@@ -950,19 +1029,24 @@
         "why": "The year opens with numbers the class knows from Grade 2, and rounding is needed later to check story problems.",
         "lessons": [
           {
-            "existing": "g3-rounding-adding-subtracting#1"
+            "existing": "2:round-to-ten",
+            "from": "g3-rounding-adding-subtracting"
           },
           {
-            "existing": "g3-rounding-adding-subtracting#2"
+            "existing": "3:rounding",
+            "from": "g3-rounding-adding-subtracting"
           },
           {
-            "existing": "g3-rounding-adding-subtracting#3"
+            "existing": "3:estimate-by-rounding",
+            "from": "g3-rounding-adding-subtracting"
           },
           {
-            "existing": "g3-rounding-adding-subtracting#4"
+            "existing": "3:column-regrouping",
+            "from": "g3-rounding-adding-subtracting"
           },
           {
-            "existing": "g3-rounding-adding-subtracting#7"
+            "existing": "3:arithmetic-patterns",
+            "from": "g3-rounding-adding-subtracting"
           }
         ]
       },
@@ -972,16 +1056,20 @@
         "why": "Multiplication starts in the fall, because the facts need the rest of the year of daily practice.",
         "lessons": [
           {
-            "existing": "g3-starting-multiplication#1"
+            "existing": "3:mult-equal-groups",
+            "from": "g3-starting-multiplication"
           },
           {
-            "existing": "g3-starting-multiplication#2"
+            "existing": "3:mult-number-line",
+            "from": "g3-starting-multiplication"
           },
           {
-            "existing": "g3-starting-multiplication#3"
+            "existing": "3:commutative",
+            "from": "g3-starting-multiplication"
           },
           {
-            "existing": "g3-starting-multiplication#4"
+            "existing": "3:times-tables",
+            "from": "g3-starting-multiplication"
           }
         ]
       },
@@ -991,13 +1079,16 @@
         "why": "Division follows multiplication at once, so each fact is learned with its family; the same unit then breaks the hard facts apart and starts the daily fact routine that runs to the end of the year.",
         "lessons": [
           {
-            "existing": "g3-division#1"
+            "existing": "3:division-sharing",
+            "from": "g3-division"
           },
           {
-            "existing": "g3-division#2"
+            "existing": "3:division-repeated-subtraction",
+            "from": "g3-division"
           },
           {
-            "existing": "g3-division#3"
+            "existing": "3:mult-div-relationship",
+            "from": "g3-division"
           },
           {
             "new": true,
@@ -1017,10 +1108,12 @@
             "days": 2,
             "tool": "The Times Shelf",
             "source": "new",
-            "page": "Page 1: an empty multiplication chart from 1 x 1 to 10 x 10; the child fills and colors the rows and columns for 1, 2, 5 and 10, then circles the boxes still white and writes each of those facts once with its product. Page 2: the first week of daily fact strips, five strips of ten facts, each multiplication next to its division (6 x 4 = _, 24 / 4 = _), with a box for 'how many I knew right away'. A new sheet of strips goes with every later unit."
+            "page": "Page 1: an empty multiplication chart from 1 x 1 to 10 x 10; the child fills and colors the rows and columns for 1, 2, 5 and 10, then circles the boxes still white and writes each of those facts once with its product. Page 2: the first week of daily fact strips, five strips of ten facts, each multiplication next to its division (6 x 4 = _, 24 / 4 = _), with a box for 'how many I knew right away'. A new sheet of strips goes with every later unit.",
+            "placed": "3:times-tables#the-facts-we-still-need"
           },
           {
-            "existing": "g3-starting-multiplication#5"
+            "existing": "3:input-output",
+            "from": "g3-starting-multiplication"
           },
           {
             "new": true,
@@ -1040,7 +1133,8 @@
         "why": "Two-step problems need all four operations and rounding, so they come when the facts are in daily practice and stay before the spring test.",
         "lessons": [
           {
-            "existing": "g3-division#4"
+            "existing": "3:muldiv-word-problems",
+            "from": "g3-division"
           },
           {
             "new": true,
@@ -1080,7 +1174,8 @@
         "why": "Area is multiplication made visible, so it follows the facts and puts them to use right after winter.",
         "lessons": [
           {
-            "existing": "g3-area-perimeter-volume#1"
+            "existing": "3:area-model",
+            "from": "g3-area-perimeter-volume"
           },
           {
             "new": true,
@@ -1093,7 +1188,8 @@
             "page": "Top half: six rectangles with no squares inside, labeled with two side lengths (6 ft and 4 ft); the child writes 6 x 4 = _ square feet. Bottom half: four stories with a sketch to label (a rug 8 feet long and 5 feet wide, a garden bed, a poster in inches); the child writes the equation and the answer with the square unit. Side lengths from 2 to 10; units are square inches, square feet, square centimeters and square meters."
           },
           {
-            "existing": "g3-area-perimeter-volume#2"
+            "existing": "3:same-area",
+            "from": "g3-area-perimeter-volume"
           },
           {
             "new": true,
@@ -1106,7 +1202,8 @@
             "page": "Level 1: four L-shapes drawn on a grid with a dashed cut line; the child writes the product for each part and adds them. Level 2: four L-shapes on a grid with no line; the child draws the cut, and one task asks for a second way to cut. Level 3: three L-shapes with side lengths only and no grid (all sides needed are given). Side lengths from 1 to 10; areas up to 100 square units."
           },
           {
-            "existing": "g3-area-perimeter-volume#3"
+            "existing": "3:perimeter",
+            "from": "g3-area-perimeter-volume"
           },
           {
             "new": true,
@@ -1119,7 +1216,8 @@
             "page": "Top half: six polygons (triangles, rectangles, a pentagon, an L-shape) with every side length written except one, which is marked with a letter, and the perimeter given (\"Perimeter = 30 cm\"); the child writes the equation (8 + 8 + 5 + n = 30) and the missing length. Bottom half: three stories with a sketch to label (\"A garden in the shape of a rectangle has a perimeter of 26 feet. It is 9 feet long. How wide is it?\"). Side lengths from 2 to 40; perimeters up to 100; units are inches, feet, centimeters and meters."
           },
           {
-            "existing": "g3-area-perimeter-volume#4"
+            "existing": "3:same-perimeter",
+            "from": "g3-area-perimeter-volume"
           }
         ]
       },
@@ -1129,13 +1227,16 @@
         "why": "Fractions are the newest idea of Grade 3 and get the longest unit, in late winter with time to finish before the test.",
         "lessons": [
           {
-            "existing": "g3-fractions#1"
+            "existing": "3:partition-equal-areas",
+            "from": "g3-fractions"
           },
           {
-            "existing": "g3-fractions#2"
+            "existing": "3:fraction-unit-build",
+            "from": "g3-fractions"
           },
           {
-            "existing": "g3-fractions#3"
+            "existing": "3:whole-from-unit",
+            "from": "g3-fractions"
           },
           {
             "new": true,
@@ -1148,10 +1249,12 @@
             "page": "Top half: five number lines from 0 to 1 with the tick marks already drawn for halves, thirds, fourths, sixths and eighths; the child counts the equal parts, puts a dot at the end of the first part, and writes the unit fraction under it. Bottom half: four lines from 0 to 1 with a paper-strip picture above them and no tick marks; the child draws the ticks for the fraction asked and labels the first one. Last task: a line with unequal parts and the question 'Why is this point not 1/4?'"
           },
           {
-            "existing": "g3-fractions#4"
+            "existing": "3:fraction-number-line",
+            "from": "g3-fractions"
           },
           {
-            "existing": "g3-fractions#6"
+            "existing": "3:equivalent-fractions",
+            "from": "g3-fractions"
           },
           {
             "new": true,
@@ -1164,7 +1267,8 @@
             "page": "Top third: six shapes or groups of whole shapes fully shaded (one circle in fourths, two rectangles in halves); the child writes the fraction and the whole number (4/4 = 1, 4/2 = 2). Middle: three number lines from 0 to 3 marked in halves, thirds and fourths; the child writes the fraction under each whole number. Bottom: eight equations to finish (6/6 = _, 3 = _/1, 2 = _/4). Denominators 1, 2, 3, 4, 6 and 8."
           },
           {
-            "existing": "g3-fractions#5"
+            "existing": "3:compare-fractions",
+            "from": "g3-fractions"
           }
         ]
       },
@@ -1174,19 +1278,24 @@
         "why": "Measurement in early spring gives practice in adding, subtracting and the number line with real units before the test.",
         "lessons": [
           {
-            "existing": "g3-time-temperature-mass-volume#1"
+            "existing": "3:time-to-minute",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#2"
+            "existing": "3:elapsed-duration",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#3"
+            "existing": "3:add-subtract-time",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#6"
+            "existing": "2:mass-grams",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#7"
+            "existing": "2:read-jugs",
+            "from": "g3-time-temperature-mass-volume"
           }
         ]
       },
@@ -1196,10 +1305,12 @@
         "why": "Quadrilaterals, scaled graphs and line plots are the lightest unit; it starts before the test window and ends in the weeks after it.",
         "lessons": [
           {
-            "existing": "g3-shapes-and-data#2"
+            "existing": "3:classify-quadrilaterals",
+            "from": "g3-shapes-and-data"
           },
           {
-            "existing": "g3-shapes-and-data#4"
+            "existing": "3:scaled-graphs",
+            "from": "g3-shapes-and-data"
           },
           {
             "new": true,
@@ -1212,7 +1323,8 @@
             "page": "Top half: eight objects (nails, ribbons, pencils), each drawn directly above its own printed ruler marked in quarter inches, so that printing at another size changes nothing; the child writes each length (2 1/4 in., 3 1/2 in.). Bottom half: an empty line plot from 1 to 4 inches with a tick for every quarter; the child draws one X for each length and answers three questions ('How many are longer than 2 1/2 inches?'). Lengths from 1 to 4 inches."
           },
           {
-            "existing": "g3-shapes-and-data#5"
+            "existing": "3:line-plot-halves",
+            "from": "g3-shapes-and-data"
           }
         ]
       }
@@ -1220,40 +1332,49 @@
     "totalDays": 129,
     "leftOut": [
       {
-        "what": "g3-rounding-adding-subtracting#5 Make it balance",
-        "why": "It has no Grade 3 standard; equations with a letter are taught in the story-problem unit."
+        "what": "Make it balance",
+        "why": "It has no Grade 3 standard; equations with a letter are taught in the story-problem unit.",
+        "lesson": "3:balance-equations"
       },
       {
-        "what": "g3-rounding-adding-subtracting#6 Is the sum odd or even?",
-        "why": "Patterns (3.OA.D.9) keep two lessons, the pattern rule and the number machines; these two days go to two-step problems."
+        "what": "Is the sum odd or even?",
+        "why": "Patterns (3.OA.D.9) keep two lessons, the pattern rule and the number machines; these two days go to two-step problems.",
+        "lesson": "3:parity-of-sums"
       },
       {
-        "what": "g3-division#5 Division with a remainder",
-        "why": "Remainders are a Grade 4 standard; Grade 3 divides within 100 with nothing left over."
+        "what": "Division with a remainder",
+        "why": "Remainders are a Grade 4 standard; Grade 3 divides within 100 with nothing left over.",
+        "lesson": "3:division-remainder"
       },
       {
-        "what": "g3-time-temperature-mass-volume#4 12-hour and 24-hour time",
-        "why": "24-hour time is not taught in US elementary classes and is no standard."
+        "what": "12-hour and 24-hour time",
+        "why": "24-hour time is not taught in US elementary classes and is no standard.",
+        "lesson": "3:time-12-24"
       },
       {
-        "what": "g3-time-temperature-mass-volume#5 Read a thermometer",
-        "why": "Temperature is a science topic and no Grade 3 math standard."
+        "what": "Read a thermometer",
+        "why": "Temperature is a science topic and no Grade 3 math standard.",
+        "lesson": "3:thermometer"
       },
       {
-        "what": "g3-area-perimeter-volume#5 Count the cubes",
-        "why": "Volume with cubes is a Grade 5 standard; the days go to the area of rectangles and L-shapes."
+        "what": "Count the cubes",
+        "why": "Volume with cubes is a Grade 5 standard; the days go to the area of rectangles and L-shapes.",
+        "lesson": "3:volume-cubes"
       },
       {
-        "what": "g3-fractions#7 A fraction of a group",
-        "why": "Grade 3 fractions are parts of one whole and points on the number line; a fraction of a set comes in Grade 4."
+        "what": "A fraction of a group",
+        "why": "Grade 3 fractions are parts of one whole and points on the number line; a fraction of a set comes in Grade 4.",
+        "lesson": "3:fraction-of-set"
       },
       {
-        "what": "g3-shapes-and-data#1 Right angles",
-        "why": "Angles are a Grade 4 standard; the square corner is named in Is it a rectangle? with The Shape Stretcher."
+        "what": "Right angles",
+        "why": "Angles are a Grade 4 standard; the square corner is named in Is it a rectangle? with The Shape Stretcher.",
+        "lesson": "3:right-angles"
       },
       {
-        "what": "g3-shapes-and-data#3 How many lines of symmetry?",
-        "why": "Line symmetry is a Grade 4 standard."
+        "what": "How many lines of symmetry?",
+        "why": "Line symmetry is a Grade 4 standard.",
+        "lesson": "3:symmetry"
       },
       {
         "what": "3.OA.C.7: one lesson for each times table",
@@ -1335,16 +1456,20 @@
         "why": "The year opens with words and sorting, which need no numerals and let the teacher watch every child while routines settle (weeks 3-5).",
         "lessons": [
           {
-            "existing": "k-position-size-patterns#1"
+            "existing": "K:position-words",
+            "from": "k-position-size-patterns"
           },
           {
-            "existing": "k-position-size-patterns#2"
+            "existing": "K:scene-search",
+            "from": "k-position-size-patterns"
           },
           {
-            "existing": "k-position-size-patterns#3"
+            "existing": "K:compare-size-extremes",
+            "from": "k-position-size-patterns"
           },
           {
-            "existing": "k-position-size-patterns#4"
+            "existing": "K:order-by-size",
+            "from": "k-position-size-patterns"
           },
           {
             "new": true,
@@ -1357,7 +1482,8 @@
             "page": "Circle talk with objects in hand: each pair gets one real object and tells two things about it that can be measured ('It is long. It is heavy.'); on day 2 the class checks one object on the Measurement Bench for length, weight and how much it holds. Listen for children who name a measurable attribute (long, tall, heavy, holds a lot) and not a color or a use."
           },
           {
-            "existing": "k-position-size-patterns#5"
+            "existing": "K:patterns",
+            "from": "k-position-size-patterns"
           }
         ]
       },
@@ -1367,7 +1493,8 @@
         "why": "Counting and writing the numbers to 10 is the base of every later unit, so it comes as soon as routines are in place.",
         "lessons": [
           {
-            "existing": "k-counting-to-10#1"
+            "existing": "K:one-to-one",
+            "from": "k-counting-to-10"
           },
           {
             "new": true,
@@ -1380,13 +1507,16 @@
             "page": "Touch-and-count routine: each child gets a cup of 1 to 10 counters and a paper ten-frame, slides one counter into a box for each number said, and stops when the cup is empty; the teacher models on the Ten Frame tool and children count along. Listen and watch for one number word per touch: no skipped counter, no counter counted twice, no number word said without a touch."
           },
           {
-            "existing": "k-counting-to-10#2"
+            "existing": "K:numeral-formation",
+            "from": "k-counting-to-10"
           },
           {
-            "existing": "k-counting-to-10#3"
+            "existing": "K:count-how-many",
+            "from": "k-counting-to-10"
           },
           {
-            "existing": "k-counting-to-10#4"
+            "existing": "K:count-out-n",
+            "from": "k-counting-to-10"
           },
           {
             "new": true,
@@ -1396,13 +1526,16 @@
             "days": 2,
             "tool": "The Counting Line",
             "source": "new",
-            "page": "Six tasks. Each shows the same kind of object twice: once in a straight line and once spread out or in a ring (4 to 10 objects). The child counts each picture, writes the number in the box under it, and circles \"same\" or \"not the same\". In two of the six tasks the second picture really has one more or one fewer. In class children move real counters from a line into a pile and count again."
+            "page": "Six tasks. Each shows the same kind of object twice: once in a straight line and once spread out or in a ring (4 to 10 objects). The child counts each picture, writes the number in the box under it, and circles \"same\" or \"not the same\". In two of the six tasks the second picture really has one more or one fewer. In class children move real counters from a line into a pile and count again.",
+            "placed": "K:conservation"
           },
           {
-            "existing": "k-counting-to-10#5"
+            "existing": "K:colour-by-number",
+            "from": "k-counting-to-10"
           },
           {
-            "existing": "k-counting-to-10#6"
+            "existing": "K:subitize",
+            "from": "k-counting-to-10"
           }
         ]
       },
@@ -1412,7 +1545,8 @@
         "why": "Comparing needs secure counting to 10 and comes before the class meets larger numbers.",
         "lessons": [
           {
-            "existing": "k-counting-to-10#7"
+            "existing": "K:compare-groups",
+            "from": "k-counting-to-10"
           },
           {
             "new": true,
@@ -1432,7 +1566,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Eight tasks. Each shows a ten-frame with 2 to 9 counters and three boxes in a row marked \"one less\", \"how many\" and \"one more\". The child writes the number of counters in the middle box, then the numbers in the two boxes beside it. In class children build the number with real counters on a paper ten-frame, put one on or take one off, and say the new number."
+            "page": "Eight tasks. Each shows a ten-frame with 2 to 9 counters and three boxes in a row marked \"one less\", \"how many\" and \"one more\". The child writes the number of counters in the middle box, then the numbers in the two boxes beside it. In class children build the number with real counters on a paper ten-frame, put one on or take one off, and say the new number.",
+            "placed": "K:one-more-one-less"
           },
           {
             "new": true,
@@ -1442,7 +1577,8 @@
             "days": 2,
             "tool": "Number Line",
             "source": "new",
-            "page": "A number line from 1 to 10 runs across the top. Below it are twelve pairs of written numbers from 1 to 10 in two boxes, with no pictures to count. In the first eight pairs the child circles the greater number; in the last four the child circles the number that is less. The two numbers of a pair are never the same. In class the child builds both numbers as cube towers to check."
+            "page": "A number line from 1 to 10 runs across the top. Below it are twelve pairs of written numbers from 1 to 10 in two boxes, with no pictures to count. In the first eight pairs the child circles the greater number; in the last four the child circles the number that is less. The two numbers of a pair are never the same. In class the child builds both numbers as cube towers to check.",
+            "placed": "K:compare-groups#which-number-is-greater"
           }
         ]
       },
@@ -1452,10 +1588,12 @@
         "why": "Geometry in late fall gives number work a rest and uses the position words from the first unit.",
         "lessons": [
           {
-            "existing": "k-shapes#1"
+            "existing": "K:shape-naming",
+            "from": "k-shapes"
           },
           {
-            "existing": "k-shapes#2"
+            "existing": "K:count-sides",
+            "from": "k-shapes"
           },
           {
             "new": true,
@@ -1475,7 +1613,8 @@
             "days": 2,
             "tool": "Sorting Hoops",
             "source": "point:2:flat-or-solid",
-            "page": "Children sort a basket of real things (a ball, a box, a paper circle, a paper square) into two hoops on the rug; the page shows shapes and objects, and the child marks each one as flat or solid. This teaching point is listed under Grade 2 today, and its standard is a Kindergarten standard."
+            "page": "Children sort a basket of real things (a ball, a box, a paper circle, a paper square) into two hoops on the rug; the page shows shapes and objects, and the child marks each one as flat or solid. This teaching point is listed under Grade 2 today, and its standard is a Kindergarten standard.",
+            "placed": "2:flat-or-solid"
           },
           {
             "new": true,
@@ -1488,10 +1627,12 @@
             "page": "Top half: four plain solids (sphere, cube, cylinder, cone), each with a line to draw to the everyday object of the same shape (ball, number cube, soup can, party hat). Bottom half: twelve objects and solids in different sizes, some lying on their side; the child colors them by a code of four crayons, one color for each solid name."
           },
           {
-            "existing": "k-shapes#3"
+            "existing": "K:compose-shapes",
+            "from": "k-shapes"
           },
           {
-            "existing": "k-shapes#4"
+            "existing": "K:mirror-image",
+            "from": "k-shapes"
           }
         ]
       },
@@ -1508,7 +1649,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "One row for each number from 10 to 20: a small picture of two ten-frames that shows the number, the number in gray with a start dot and arrows to trace three times, and two empty boxes to write it alone. In the last row the child writes 10 to 20 in order in eleven empty boxes. In class the child counts out that many beans before writing."
+            "page": "One row for each number from 10 to 20: a small picture of two ten-frames that shows the number, the number in gray with a start dot and arrows to trace three times, and two empty boxes to write it alone. In the last row the child writes 10 to 20 in order in eleven empty boxes. In class the child counts out that many beans before writing.",
+            "placed": "K:numeral-formation#write-11-to-20"
           },
           {
             "new": true,
@@ -1521,13 +1663,16 @@
             "page": "The same page as Count and Write with groups of 11 to 20 pictures set out in a line, in rows of five or in a circle (never scattered); the child counts and writes the number in the box. In class children count real collections first and mark where they started."
           },
           {
-            "existing": "k-counting-in-order-to-20#1"
+            "existing": "K:count-forward-missing",
+            "from": "k-counting-in-order-to-20"
           },
           {
-            "existing": "k-counting-in-order-to-20#2"
+            "existing": "K:dot-to-dot-sequence",
+            "from": "k-counting-in-order-to-20"
           },
           {
-            "existing": "k-counting-in-order-to-20#3"
+            "existing": "K:before-after-back",
+            "from": "k-counting-in-order-to-20"
           },
           {
             "new": true,
@@ -1537,10 +1682,12 @@
             "days": 2,
             "tool": "Number Line",
             "source": "new",
-            "page": "Eight tasks. Each shows a closed bag with a number from 3 to 9 printed on it and 1 to 5 loose objects of the same kind beside it; the objects in the bag cannot be seen. The child puts a finger on the bag, says its number, counts on over the loose objects, and writes the total (4 to 14) in a box. In class children work with a real closed bag with its number written on it."
+            "page": "Eight tasks. Each shows a closed bag with a number from 3 to 9 printed on it and 1 to 5 loose objects of the same kind beside it; the objects in the bag cannot be seen. The child puts a finger on the bag, says its number, counts on over the loose objects, and writes the total (4 to 14) in a box. In class children work with a real closed bag with its number written on it.",
+            "placed": "K:count-on"
           },
           {
-            "existing": "k-counting-in-order-to-20#4"
+            "existing": "K:ordinal-position",
+            "from": "k-counting-in-order-to-20"
           }
         ]
       },
@@ -1550,19 +1697,24 @@
         "why": "Sorting and counting each kind puts the new counting to 20 to use and gives a lighter unit before addition starts.",
         "lessons": [
           {
-            "existing": "k-sorting-tallies-days#1"
+            "existing": "K:classify-count-kinds",
+            "from": "k-sorting-tallies-days"
           },
           {
-            "existing": "k-sorting-tallies-days#2"
+            "existing": "K:tally-marks",
+            "from": "k-sorting-tallies-days"
           },
           {
-            "existing": "k-sorting-tallies-days#3"
+            "existing": "K:estimate",
+            "from": "k-sorting-tallies-days"
           },
           {
-            "existing": "k-sorting-tallies-days#4"
+            "existing": "K:heavy-light",
+            "from": "k-sorting-tallies-days"
           },
           {
-            "existing": "k-sorting-tallies-days#5"
+            "existing": "K:days-of-week",
+            "from": "k-sorting-tallies-days"
           }
         ]
       },
@@ -1572,7 +1724,8 @@
         "why": "Addition and subtraction begin in the second half of the year, when every child counts and writes to 10 with ease.",
         "lessons": [
           {
-            "existing": "k-putting-together-number-bonds#1"
+            "existing": "K:combine-groups",
+            "from": "k-putting-together-number-bonds"
           },
           {
             "new": true,
@@ -1582,7 +1735,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Six ten-frames, each with 2 to 10 printed counters and a sentence above it (\"Take away 3.\"). The child crosses out that many counters and completes \"_ are left\"; at least 1 is always left. In class children take real counters off a paper ten-frame first."
+            "page": "Six ten-frames, each with 2 to 10 printed counters and a sentence above it (\"Take away 3.\"). The child crosses out that many counters and completes \"_ are left\"; at least 1 is always left. In class children take real counters off a paper ten-frame first.",
+            "placed": "K:take-away"
           },
           {
             "new": true,
@@ -1592,7 +1746,8 @@
             "days": 2,
             "tool": "The Gap",
             "source": "new",
-            "page": "Four short stories with a small picture, read aloud by the teacher ('4 ducks swim. 2 more ducks come. How many ducks now?'). Under each story is an empty ten-frame and the frame _ + _ = _. The child draws circles for the first group, draws the ones that come in another color, and writes all three numbers. Totals from 3 to 10; no group is zero. In class children act out each story with counters first."
+            "page": "Four short stories with a small picture, read aloud by the teacher ('4 ducks swim. 2 more ducks come. How many ducks now?'). Under each story is an empty ten-frame and the frame _ + _ = _. The child draws circles for the first group, draws the ones that come in another color, and writes all three numbers. Totals from 3 to 10; no group is zero. In class children act out each story with counters first.",
+            "placed": "1:word-problems#adding-stories-within-10"
           },
           {
             "new": true,
@@ -1602,7 +1757,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Four short stories read aloud ('7 birds sit on a wire. 3 fly away. How many are still there?'). Under each story is a ten-frame that already shows the starting number as circles and the frame _ - _ = _. The child crosses out the ones that go away and writes all three numbers. Starting numbers from 3 to 10; at least 1 is left. In class children act out each story with counters first."
+            "page": "Four short stories read aloud ('7 birds sit on a wire. 3 fly away. How many are still there?'). Under each story is a ten-frame that already shows the starting number as circles and the frame _ - _ = _. The child crosses out the ones that go away and writes all three numbers. Starting numbers from 3 to 10; at least 1 is left. In class children act out each story with counters first.",
+            "placed": "1:word-problems#take-away-stories-within-10"
           },
           {
             "new": true,
@@ -1614,7 +1770,8 @@
             "source": "new",
             "page": "Four stories in which nothing moves ('3 red apples and 5 green apples are in the bowl. How many apples?'). Under each story is a row of ten outlined objects and the frame _ + _ = _. The child colors the two kinds in two colors, leaves the rest white, and writes all three numbers. Totals from 3 to 10; no group is zero. In class children lay out counters of two colors first."
           }
-        ]
+        ],
+        "opened": "k-adding-and-taking-away-within-10"
       },
       {
         "id": "k-putting-together-number-bonds",
@@ -1622,7 +1779,8 @@
         "why": "Taking numbers apart follows the first adding and taking away and leads to the partners of 10, which the teen numbers build on.",
         "lessons": [
           {
-            "existing": "k-putting-together-number-bonds#2"
+            "existing": "K:number-bonds-k",
+            "from": "k-putting-together-number-bonds"
           },
           {
             "new": true,
@@ -1642,7 +1800,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "reuse:Number Bonds Within 10",
-            "page": "The same page as Number Bonds Within 10 with the whole fixed at 8 (top half) and 9 (bottom half): one part is shown as dots, the child draws the dots of the other part and writes the equation 8 = _ + _. Neither part is zero. In class children shake and spill real two-color counters to find the pairs."
+            "page": "The same page as Number Bonds Within 10 with the whole fixed at 8 (top half) and 9 (bottom half): one part is shown as dots, the child draws the dots of the other part and writes the equation 8 = _ + _. Neither part is zero. In class children shake and spill real two-color counters to find the pairs.",
+            "placed": "K:number-bonds-k#take-apart-8-and-9"
           },
           {
             "new": true,
@@ -1652,7 +1811,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Eight ten-frames, each with 1 to 9 printed counters. The child draws the missing counters in another color and writes how many were drawn in the sentence '_ more make 10'. In class children fill a paper ten-frame with real counters of a second color."
+            "page": "Eight ten-frames, each with 1 to 9 printed counters. The child draws the missing counters in another color and writes how many were drawn in the sentence '_ more make 10'. In class children fill a paper ten-frame with real counters of a second color.",
+            "placed": "1:make-10#how-many-more-to-make-10"
           },
           {
             "new": true,
@@ -1662,10 +1822,12 @@
             "days": 2,
             "tool": "Rekenrek",
             "source": "new",
-            "page": "Nine rows. Each row shows a string of ten beads (five red, five white) with 1 to 9 beads pushed to the left, and an equation with one number missing (6 + _ = 10). The child rings the beads that are left and writes the missing number. The last three rows show the equation only. In class children slide ten beads on a string or ten cubes on a stick."
+            "page": "Nine rows. Each row shows a string of ten beads (five red, five white) with 1 to 9 beads pushed to the left, and an equation with one number missing (6 + _ = 10). The child rings the beads that are left and writes the missing number. The last three rows show the equation only. In class children slide ten beads on a string or ten cubes on a stick.",
+            "placed": "K:number-bonds-k#partners-of-10"
           },
           {
-            "existing": "k-putting-together-number-bonds#3"
+            "existing": "K:fact-fluency-colour-code",
+            "from": "k-putting-together-number-bonds"
           }
         ]
       },
@@ -1760,12 +1922,14 @@
     "totalDays": 139,
     "leftOut": [
       {
-        "what": "k-putting-together-number-bonds#4 Partners that make 20",
-        "why": "Adding in Kindergarten stays within 10; partners of 20 are Grade 1 work and take two days from the partners of 10."
+        "what": "Partners that make 20",
+        "why": "Adding in Kindergarten stays within 10; partners of 20 are Grade 1 work and take two days from the partners of 10.",
+        "lesson": "K:number-bonds-20"
       },
       {
-        "what": "k-putting-together-number-bonds#5 Odd or even?",
-        "why": "Odd and even is a Grade 2 standard (2.OA.C.3); the days go to story problems and teen numbers, which Kindergarten must teach."
+        "what": "Odd or even?",
+        "why": "Odd and even is a Grade 2 standard (2.OA.C.3); the days go to story problems and teen numbers, which Kindergarten must teach.",
+        "lesson": "K:odd-even-pairing"
       },
       {
         "what": "K.CC.A.1: a separate lesson for counting to 20",

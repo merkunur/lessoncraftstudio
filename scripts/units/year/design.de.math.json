@@ -35,7 +35,8 @@
             "standard": "Mit Daten umgehen",
             "days": 2,
             "tool": "Sortierreifen",
-            "source": "point:1:sort-three-groups"
+            "source": "point:1:sort-three-groups",
+            "placed": "1:sort-three-groups"
           },
           {
             "new": true,
@@ -45,7 +46,8 @@
             "days": 3,
             "tool": "Buchstabenwerkstatt",
             "source": "new",
-            "page": "Das Blatt hat für jede Zahl von 1 bis 5 eine Zeile: links ein Würfelbild und eine Bildmenge mit gleich vielen Dingen, daneben die Ziffer groß zum Nachspuren mit Startpunkt und Richtungspfeil, dann leere Kästchen. Das Kind zählt, spurt die Ziffer nach und schreibt sie dreimal allein; unten verbindet es fünf Bildmengen (1 bis 5 Dinge) mit der passenden Ziffer."
+            "page": "Das Blatt hat für jede Zahl von 1 bis 5 eine Zeile: links ein Würfelbild und eine Bildmenge mit gleich vielen Dingen, daneben die Ziffer groß zum Nachspuren mit Startpunkt und Richtungspfeil, dann leere Kästchen. Das Kind zählt, spurt die Ziffer nach und schreibt sie dreimal allein; unten verbindet es fünf Bildmengen (1 bis 5 Dinge) mit der passenden Ziffer.",
+            "placed": "K:numeral-formation"
           },
           {
             "new": true,
@@ -55,7 +57,8 @@
             "days": 3,
             "tool": "Zehnerfeld",
             "source": "new",
-            "page": "Das Blatt zeigt acht Zehnerfelder mit 6 bis 10 Plättchen (die obere Fünferreihe ist immer voll); das Kind schreibt die Zahl in das Kästchen darunter. In vier leere Zehnerfelder malt es die vorgegebene Zahl (6, 7, 9, 10) als Plättchen, und in einer Schreibzeile spurt es die Ziffern 6, 7, 8, 9 und die Zahl 10 nach."
+            "page": "Das Blatt zeigt acht Zehnerfelder mit 6 bis 10 Plättchen (die obere Fünferreihe ist immer voll); das Kind schreibt die Zahl in das Kästchen darunter. In vier leere Zehnerfelder malt es die vorgegebene Zahl (6, 7, 9, 10) als Plättchen, und in einer Schreibzeile spurt es die Ziffern 6, 7, 8, 9 und die Zahl 10 nach.",
+            "placed": "K:count-how-many"
           },
           {
             "new": true,
@@ -65,7 +68,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt in jeder Aufgabe zwei Bildreihen untereinander (zum Beispiel 7 Äpfel und 4 Birnen, höchstens 10 Dinge), darunter zwei Zahlenkästchen mit einem leeren Kreis dazwischen. Das Kind verbindet die Bilder paarweise mit Strichen, schreibt beide Anzahlen und setzt <, > oder = in den Kreis; im letzten Teil stehen nur noch Zahlenpaare bis 10 und zwei Sätze („5 ist kleiner als 8“), zu denen es die Zeichenschreibweise schreibt."
+            "page": "Das Blatt zeigt in jeder Aufgabe zwei Bildreihen untereinander (zum Beispiel 7 Äpfel und 4 Birnen, höchstens 10 Dinge), darunter zwei Zahlenkästchen mit einem leeren Kreis dazwischen. Das Kind verbindet die Bilder paarweise mit Strichen, schreibt beide Anzahlen und setzt <, > oder = in den Kreis; im letzten Teil stehen nur noch Zahlenpaare bis 10 und zwei Sätze („5 ist kleiner als 8“), zu denen es die Zeichenschreibweise schreibt.",
+            "placed": "1:compare-order-two-digit#mehr-weniger-gleich"
           },
           {
             "new": true,
@@ -75,10 +79,12 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt oben zwei Perlenketten mit den Zahlen 1 bis 10, in denen jeweils vier Zahlen fehlen (einmal vorwärts, einmal rückwärts von 10 bis 1). Darunter stehen acht Dreierkästchen „Vorgänger – Zahl – Nachfolger“ mit einer Zahl von 2 bis 9 in der Mitte; das Kind trägt alle fehlenden Zahlen ein."
+            "page": "Das Blatt zeigt oben zwei Perlenketten mit den Zahlen 1 bis 10, in denen jeweils vier Zahlen fehlen (einmal vorwärts, einmal rückwärts von 10 bis 1). Darunter stehen acht Dreierkästchen „Vorgänger – Zahl – Nachfolger“ mit einer Zahl von 2 bis 9 in der Mitte; das Kind trägt alle fehlenden Zahlen ein.",
+            "placed": "K:before-after-back"
           },
           {
-            "existing": "de1-zahlen-bis-20#1"
+            "existing": "1:ordinal-numbers",
+            "from": "de1-zahlen-bis-20"
           },
           {
             "new": true,
@@ -100,7 +106,8 @@
             "source": "new",
             "page": "Das Blatt zeigt vier Zahlenhäuser mit den Dachzahlen 6, 7, 8 und 9; jedes Haus hat genau so viele Stockwerke mit zwei Kästchen, wie es Zerlegungen in zwei Teile ab 1 gibt (bei der 6 fünf Stockwerke). Im ersten Haus sind die ersten zwei Stockwerke vorgegeben (1 und 5, 2 und 4); das Kind füllt alle Häuser der Reihe nach und kreist in jedem Haus die Tauschpaare mit derselben Farbe ein."
           }
-        ]
+        ],
+        "opened": "de1-zahlen-bis-10"
       },
       {
         "id": "g1-add-subtract-within-10",
@@ -108,7 +115,8 @@
         "why": "Nach den Herbstferien bauen die Kinder auf der Zahlzerlegung die Grundvorstellungen von Plus und Minus auf.",
         "lessons": [
           {
-            "existing": "g1-add-subtract-within-10#1"
+            "existing": "1:add-within-10-models",
+            "from": "g1-add-subtract-within-10"
           },
           {
             "new": true,
@@ -121,7 +129,8 @@
             "page": "Das Blatt zeigt Plättchenreihen in zwei Farben (zum Beispiel 2 rote und 5 blaue), daneben dieselbe Reihe umgedreht (5 blaue und 2 rote). Das Kind schreibt zu jedem Bildpaar beide Plusaufgaben mit Ergebnis (2 + 5 = 7 und 5 + 2 = 7, Summen bis 10); im unteren Teil schreibt es zu sechs Aufgaben die Tauschaufgabe und kreuzt an, welche der beiden es leichter rechnet."
           },
           {
-            "existing": "g1-add-subtract-within-10#2"
+            "existing": "1:subtract-cross-out",
+            "from": "g1-add-subtract-within-10"
           },
           {
             "new": true,
@@ -134,10 +143,12 @@
             "page": "Das Blatt zeigt Bildgeschichten in zwei Bildern: Auf dem Teller liegen 4 Kekse, im zweiten Bild sind alle durchgestrichen; auf dem Ast sitzen 5 Vögel, im zweiten Bild sind es immer noch 5. Das Kind schreibt zu jeder Geschichte die Aufgabe mit Ergebnis (4 − 4 = 0, 5 + 0 = 5, 5 − 0 = 5); darunter rechnet es zwölf Aufgaben mit der Null im Zahlenraum bis 10."
           },
           {
-            "existing": "g1-add-subtract-within-10#3"
+            "existing": "1:make-10",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#4"
+            "existing": "1:count-on-back-hops",
+            "from": "g1-add-subtract-within-10"
           }
         ]
       },
@@ -147,10 +158,12 @@
         "why": "Vor Weihnachten bringt die Geometrie Abwechslung zum Rechnen und legt die Begriffe für Formen, Lage und Muster.",
         "lessons": [
           {
-            "existing": "g1-shapes-measuring-graphs#1"
+            "existing": "1:shape-attributes",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#2"
+            "existing": "1:tangram-compose",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
             "new": true,
@@ -160,10 +173,12 @@
             "days": 3,
             "tool": "Der Käferplan",
             "source": "new",
-            "page": "Das Blatt zeigt einen Kästchenplan (6 mal 6 Felder) mit einem Käfer am Start, einer Blume als Ziel und drei Steinen als Hindernissen. Das Kind zeichnet zwei Wege nach vorgegebenen Pfeilkarten ein (zum Beispiel 3 nach rechts, 2 nach oben), schreibt zu einem eingezeichneten Weg selbst die Pfeile mit ihrer Anzahl auf und kreist im unteren Bild ein, was links, rechts, über und unter dem Käfer liegt."
+            "page": "Das Blatt zeigt einen Kästchenplan (6 mal 6 Felder) mit einem Käfer am Start, einer Blume als Ziel und drei Steinen als Hindernissen. Das Kind zeichnet zwei Wege nach vorgegebenen Pfeilkarten ein (zum Beispiel 3 nach rechts, 2 nach oben), schreibt zu einem eingezeichneten Weg selbst die Pfeile mit ihrer Anzahl auf und kreist im unteren Bild ein, was links, rechts, über und unter dem Käfer liegt.",
+            "placed": "1:map-key"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#6"
+            "existing": "1:patterns-missing",
+            "from": "g1-shapes-measuring-graphs"
           }
         ]
       },
@@ -173,13 +188,16 @@
         "why": "Im Januar wird das Rechnen bis 10 vernetzt und gesichert, damit es vor dem Zahlenraum bis 20 im Kopf verfügbar ist.",
         "lessons": [
           {
-            "existing": "g1-add-subtract-within-10#5"
+            "existing": "1:fact-families",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#6"
+            "existing": "1:missing-number-equations",
+            "from": "g1-add-subtract-within-10"
           },
           {
-            "existing": "g1-add-subtract-within-10#7"
+            "existing": "1:word-problems",
+            "from": "g1-add-subtract-within-10"
           },
           {
             "new": true,
@@ -189,12 +207,15 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt oben vier Bilder (zum Beispiel 3 Enten auf dem Teich, 2 fliegen dazu; 8 Luftballons, 3 platzen); das Kind schreibt zu jedem Bild die Aufgabe mit Ergebnis. Unten stehen drei Aufgabenkarten (5 + 3, 9 − 4, 6 + 2) mit je einem leeren Malfeld: Das Kind malt zu jeder Aufgabe ein eigenes Bild und erzählt seine Rechengeschichte dem Partnerkind."
+            "page": "Das Blatt zeigt oben vier Bilder (zum Beispiel 3 Enten auf dem Teich, 2 fliegen dazu; 8 Luftballons, 3 platzen); das Kind schreibt zu jedem Bild die Aufgabe mit Ergebnis. Unten stehen drei Aufgabenkarten (5 + 3, 9 − 4, 6 + 2) mit je einem leeren Malfeld: Das Kind malt zu jeder Aufgabe ein eigenes Bild und erzählt seine Rechengeschichte dem Partnerkind.",
+            "placed": "1:write-the-equation"
           },
           {
-            "existing": "g1-add-subtract-within-10#8"
+            "existing": "1:fluency-within-20",
+            "from": "g1-add-subtract-within-10"
           }
-        ]
+        ],
+        "opened": "de1-aufgabenfamilien-rechengeschichten"
       },
       {
         "id": "de1-zahlen-bis-20",
@@ -209,16 +230,20 @@
             "days": 3,
             "tool": "Zehnerfeld",
             "source": "new",
-            "page": "Das Blatt zeigt acht Zwanzigerfelder (zwei Zehnerfelder untereinander) mit 11 bis 20 Plättchen, das obere Feld ist immer voll. Das Kind schreibt zu jedem Bild „1 Zehner und _ Einer“, die Zahl und die Aufgabe 10 + _ = _; in vier leere Zwanzigerfelder malt es die vorgegebenen Zahlen 12, 15, 17 und 20."
+            "page": "Das Blatt zeigt acht Zwanzigerfelder (zwei Zehnerfelder untereinander) mit 11 bis 20 Plättchen, das obere Feld ist immer voll. Das Kind schreibt zu jedem Bild „1 Zehner und _ Einer“, die Zahl und die Aufgabe 10 + _ = _; in vier leere Zwanzigerfelder malt es die vorgegebenen Zahlen 12, 15, 17 und 20.",
+            "placed": "K:teen-numbers"
           },
           {
-            "existing": "de1-zahlen-bis-20#2"
+            "existing": "1:number-of-the-day",
+            "from": "de1-zahlen-bis-20"
           },
           {
-            "existing": "de1-zahlen-bis-20#3"
+            "existing": "1:number-words",
+            "from": "de1-zahlen-bis-20"
           },
           {
-            "existing": "de1-zahlen-bis-20#4"
+            "existing": "1:number-line-placement",
+            "from": "de1-zahlen-bis-20"
           }
         ]
       },
@@ -238,16 +263,20 @@
             "page": "Das Blatt zeigt Aufgabenpaare untereinander, jeweils mit einem kleinen Zwanzigerfeld-Bild: 3 + 4 und 13 + 4, 7 − 5 und 17 − 5. Das Kind rechnet zuerst die kleine, dann die große Aufgabe (16 Paare, alle ohne Zehnerübergang, Zahlenraum bis 20); in den letzten vier Paaren fehlt die kleine Aufgabe, und das Kind schreibt sie selbst dazu."
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#1"
+            "existing": "1:doubles-halves",
+            "from": "g1-doubles-three-addends-number-walls"
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#2"
+            "existing": "1:odd-even-pairs",
+            "from": "g1-doubles-three-addends-number-walls"
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#3"
+            "existing": "1:add-three-addends",
+            "from": "g1-doubles-three-addends-number-walls"
           },
           {
-            "existing": "g1-doubles-three-addends-number-walls#4"
+            "existing": "1:number-walls",
+            "from": "g1-doubles-three-addends-number-walls"
           }
         ]
       },
@@ -264,7 +293,8 @@
             "days": 3,
             "tool": "Zehnerfeld",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 8 + 5) zeigt das Blatt ein Zwanzigerfeld, in dem die erste Zahl schon mit roten Plättchen gelegt ist. Das Kind malt die zweite Zahl in Blau dazu, füllt dabei zuerst den Zehner und schreibt die Schritte in die vorgedruckte Zeile 8 + _ + _ = _; zwölf Aufgaben mit Summen von 11 bis 18."
+            "page": "Zu jeder Aufgabe (zum Beispiel 8 + 5) zeigt das Blatt ein Zwanzigerfeld, in dem die erste Zahl schon mit roten Plättchen gelegt ist. Das Kind malt die zweite Zahl in Blau dazu, füllt dabei zuerst den Zehner und schreibt die Schritte in die vorgedruckte Zeile 8 + _ + _ = _; zwölf Aufgaben mit Summen von 11 bis 18.",
+            "placed": "1:fluency-within-20#plus-ueber-die-10"
           },
           {
             "new": true,
@@ -274,7 +304,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Aufgabenpaare aus Verdopplung und Nachbaraufgabe (6 + 6 und 6 + 7, 7 + 7 und 7 + 8, 8 + 8 und 8 + 9), jeweils mit zwei Plättchenreihen untereinander. Das Kind rechnet beide Aufgaben, kreist in der zweiten Reihe das eine Plättchen mehr ein und ergänzt den Satz „6 + 7 ist _ mehr als 6 + 6, weil …“; unten ordnet es acht Aufgaben bis 19 ihrer Verdopplungsaufgabe zu."
+            "page": "Das Blatt zeigt Aufgabenpaare aus Verdopplung und Nachbaraufgabe (6 + 6 und 6 + 7, 7 + 7 und 7 + 8, 8 + 8 und 8 + 9), jeweils mit zwei Plättchenreihen untereinander. Das Kind rechnet beide Aufgaben, kreist in der zweiten Reihe das eine Plättchen mehr ein und ergänzt den Satz „6 + 7 ist _ mehr als 6 + 6, weil …“; unten ordnet es acht Aufgaben bis 19 ihrer Verdopplungsaufgabe zu.",
+            "placed": "1:near-doubles"
           },
           {
             "new": true,
@@ -304,7 +335,8 @@
             "days": 3,
             "tool": "Die Zwischenzeit",
             "source": "reuse:Rechengeschichten bis 10",
-            "page": "Wie „Rechengeschichten bis 10“, aber mit Zahlen bis 20 und Zehnerübergang (zum Beispiel 8 Kinder im Bus, 6 steigen ein; 15 Murmeln, nach dem Spiel sind es 9)."
+            "page": "Wie „Rechengeschichten bis 10“, aber mit Zahlen bis 20 und Zehnerübergang (zum Beispiel 8 Kinder im Bus, 6 steigen ein; 15 Murmeln, nach dem Spiel sind es 9).",
+            "placed": "1:word-problems#rechengeschichten-bis-20"
           },
           {
             "new": true,
@@ -314,9 +346,11 @@
             "days": 2,
             "tool": null,
             "source": "reuse:Kopfrechnen bis 10",
-            "page": "Wie „Kopfrechnen bis 10“, aber mit gemischten Plus- und Minusaufgaben bis 20 mit und ohne Zehnerübergang."
+            "page": "Wie „Kopfrechnen bis 10“, aber mit gemischten Plus- und Minusaufgaben bis 20 mit und ohne Zehnerübergang.",
+            "placed": "1:fluency-within-20#kopfrechnen-bis-20"
           }
-        ]
+        ],
+        "opened": "de1-zehneruebergang"
       },
       {
         "id": "g1-time-calendar-coins",
@@ -324,13 +358,16 @@
         "why": "Im Frühsommer lassen sich Uhrzeit, Wochentage, Monate und Jahreszeiten gut mit dem Alltag der Kinder verbinden.",
         "lessons": [
           {
-            "existing": "g1-time-calendar-coins#1"
+            "existing": "1:time-read",
+            "from": "g1-time-calendar-coins"
           },
           {
-            "existing": "g1-time-calendar-coins#2"
+            "existing": "1:time-set-hands",
+            "from": "g1-time-calendar-coins"
           },
           {
-            "existing": "g1-time-calendar-coins#3"
+            "existing": "1:days-months-seasons",
+            "from": "g1-time-calendar-coins"
           },
           {
             "new": true,
@@ -339,7 +376,8 @@
             "standard": "Über Größenvorstellungen verfügen",
             "days": 2,
             "tool": "Kalendertafel",
-            "source": "point:1:days-months-seasons~season-wheel"
+            "source": "point:1:days-months-seasons~season-wheel",
+            "placed": "1:days-months-seasons~season-wheel"
           }
         ]
       },
@@ -359,13 +397,16 @@
             "page": "Das Blatt zeigt eine Tabelle mit fünf Dingen aus dem Klassenzimmer (Tisch, Heft, Tafel, Tür, Fensterbank) und den Spalten „womit gemessen“ (Bild von Handspanne, Fuß oder Schritt), „geschätzt“ und „gemessen“. Das Kind schätzt, misst nach und trägt die Zahlen ein; unten vergleicht es seine Zahl für den Tisch mit der eines anderen Kindes und kreuzt an, wessen Handspanne größer ist."
           },
           {
-            "existing": "g1-shapes-measuring-graphs#3"
+            "existing": "1:measure-length-units",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#4"
+            "existing": "1:picture-graphs-sort-count",
+            "from": "g1-shapes-measuring-graphs"
           },
           {
-            "existing": "g1-shapes-measuring-graphs#5"
+            "existing": "1:bar-graphs",
+            "from": "g1-shapes-measuring-graphs"
           }
         ]
       },
@@ -394,7 +435,8 @@
             "source": "point:1:skip-counting"
           },
           {
-            "existing": "g1-time-calendar-coins#4"
+            "existing": "1:coins",
+            "from": "g1-time-calendar-coins"
           },
           {
             "new": true,
@@ -455,28 +497,36 @@
         "why": "Das Schuljahr beginnt mit dem neuen Zahlenraum, weil alles Rechnen der Klasse 2 darauf aufbaut.",
         "lessons": [
           {
-            "existing": "de2-zahlen-bis-100#1"
+            "existing": "2:bundle-ten-ones",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#2"
+            "existing": "1:tens-and-ones",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#3"
+            "existing": "1:hundreds-chart",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#4"
+            "existing": "1:one-ten-more-less",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#5"
+            "existing": "1:compare-order-two-digit",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#6"
+            "existing": "2:number-line-not-from-zero",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#7"
+            "existing": "2:skip-count-5-10-100",
+            "from": "de2-zahlen-bis-100"
           },
           {
-            "existing": "de2-zahlen-bis-100#8"
+            "existing": "2:hundreds-chart-moves",
+            "from": "de2-zahlen-bis-100"
           }
         ]
       },
@@ -583,7 +633,8 @@
             "page": "Das Blatt zeigt sechs kurze Sachtexte mit Bild (zusammen, wegnehmen, Unterschied „wie viele mehr“), zwei davon mit einer Angabe, die man nicht braucht. Das Kind unterstreicht die wichtigen Zahlen, streicht die überflüssige Angabe durch und füllt zu jedem Text die drei vorgedruckten Zeilen Frage – Rechnung – Antwort aus; bei zwei Texten fehlt die Frage, und das Kind schreibt sie selbst. Zahlenraum bis 100."
           },
           {
-            "existing": "de2-zahlen-bis-100#9"
+            "existing": "2:add-sub-within-100-practice",
+            "from": "de2-zahlen-bis-100"
           }
         ]
       },
@@ -593,7 +644,8 @@
         "why": "Rund um die Weihnachtszeit wechselt der Unterricht zur Geometrie; Falten, Spiegeln und Bauen passen gut in diese Wochen.",
         "lessons": [
           {
-            "existing": "g2-shapes-solids-symmetry#1"
+            "existing": "2:2d-attributes",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
             "new": true,
@@ -602,22 +654,28 @@
             "standard": "Geometrische Figuren erkennen, benennen und darstellen",
             "days": 2,
             "tool": null,
-            "source": "point:2:flat-or-solid"
+            "source": "point:2:flat-or-solid",
+            "placed": "2:flat-or-solid"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#2"
+            "existing": "2:solids-in-real-life",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#3"
+            "existing": "2:3d-faces-edges-vertices",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#4"
+            "existing": "2:symmetry-line",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#5"
+            "existing": "2:symmetry-complete",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
-            "existing": "g2-shapes-solids-symmetry#6"
+            "existing": "2:tangram-orientation",
+            "from": "g2-shapes-solids-symmetry"
           },
           {
             "new": true,
@@ -626,7 +684,8 @@
             "standard": "Über räumliches Vorstellungsvermögen verfügen",
             "days": 2,
             "tool": null,
-            "source": "point:2:grid-coordinates"
+            "source": "point:2:grid-coordinates",
+            "placed": "2:grid-coordinates"
           }
         ]
       },
@@ -636,10 +695,12 @@
         "why": "Im Januar wird das Rechnen bis 100 bei Längen und Geld angewendet, bevor das Malnehmen beginnt.",
         "lessons": [
           {
-            "existing": "de2-groessen-daten#1"
+            "existing": "2:measure-with-ruler",
+            "from": "de2-groessen-daten"
           },
           {
-            "existing": "de2-groessen-daten#2"
+            "existing": "2:compare-lengths",
+            "from": "de2-groessen-daten"
           },
           {
             "new": true,
@@ -652,7 +713,8 @@
             "page": "Das Blatt zeigt eine Tabelle mit sechs Dingen aus Klassenzimmer und Schulhof (Heft, Tischhöhe, Türbreite, Tafel, Flur, Bank) und den Spalten „geschätzt“ und „gemessen“. Das Kind schätzt zuerst, misst dann mit Lineal oder Meterstab und schreibt in Metern und Zentimetern (zum Beispiel 1 m 20 cm); unten verbindet es acht Bilder mit den Karten „kürzer als 1 m“, „etwa 1 m“ und „länger als 1 m“ und ergänzt 1 m = _ cm."
           },
           {
-            "existing": "de2-groessen-daten#5"
+            "existing": "2:shopping-money",
+            "from": "de2-groessen-daten"
           }
         ]
       },
@@ -662,22 +724,28 @@
         "why": "Das zweite Halbjahr gehört dem Einmaleins; zuerst wird das Malnehmen an Gruppen und Punktefeldern verstanden.",
         "lessons": [
           {
-            "existing": "de2-malnehmen#1"
+            "existing": "2:equal-groups-times",
+            "from": "de2-malnehmen"
           },
           {
-            "existing": "de2-malnehmen#2"
+            "existing": "2:arrays",
+            "from": "de2-malnehmen"
           },
           {
-            "existing": "de2-malnehmen#3"
+            "existing": "3:commutative",
+            "from": "de2-malnehmen"
           },
           {
-            "existing": "de2-malnehmen#4"
+            "existing": "3:mult-number-line",
+            "from": "de2-malnehmen"
           },
           {
-            "existing": "de2-malnehmen#5"
+            "existing": "3:times-tables",
+            "from": "de2-malnehmen"
           },
           {
-            "existing": "de2-malnehmen#7"
+            "existing": "3:mult-equal-groups",
+            "from": "de2-malnehmen"
           }
         ]
       },
@@ -694,10 +762,12 @@
             "days": 3,
             "tool": "Das Brötchenblech",
             "source": "new",
-            "page": "Das Blatt zeigt oben die 10er-Reihe als Zehnerstangen-Bilder; das Kind schreibt alle zehn Malaufgaben mit Ergebnis (1 · 10 bis 10 · 10). Darunter stehen zu den Reihen 3, 4 und 6 je vier Punktefelder für 1 mal, 2 mal, 5 mal und 10 mal: Das Kind schreibt zu jedem Feld die Kernaufgabe mit Ergebnis und färbt die Kernaufgaben in einer vorgedruckten Reihenliste."
+            "page": "Das Blatt zeigt oben die 10er-Reihe als Zehnerstangen-Bilder; das Kind schreibt alle zehn Malaufgaben mit Ergebnis (1 · 10 bis 10 · 10). Darunter stehen zu den Reihen 3, 4 und 6 je vier Punktefelder für 1 mal, 2 mal, 5 mal und 10 mal: Das Kind schreibt zu jedem Feld die Kernaufgabe mit Ergebnis und färbt die Kernaufgaben in einer vorgedruckten Reihenliste.",
+            "placed": "3:times-tables#zehner-einmaleins"
           },
           {
-            "existing": "de2-malnehmen#6"
+            "existing": "2:skip-count-3-4",
+            "from": "de2-malnehmen"
           },
           {
             "new": true,
@@ -707,7 +777,8 @@
             "days": 2,
             "tool": null,
             "source": "reuse:Das 2er-Einmaleins",
-            "page": "Wie „Das 2er-Einmaleins“, einmal für die 4er- und einmal für die 8er-Reihe; zusätzlich eine Tabelle mit drei Zeilen (2er, 4er, 8er), in der das Kind die Ergebnisse von oben nach unten verdoppelt."
+            "page": "Wie „Das 2er-Einmaleins“, einmal für die 4er- und einmal für die 8er-Reihe; zusätzlich eine Tabelle mit drei Zeilen (2er, 4er, 8er), in der das Kind die Ergebnisse von oben nach unten verdoppelt.",
+            "placed": "3:times-tables#vierer-und-achter"
           },
           {
             "new": true,
@@ -717,7 +788,8 @@
             "days": 2,
             "tool": null,
             "source": "reuse:Das 2er-Einmaleins",
-            "page": "Wie „Das 2er-Einmaleins“, einmal für die 3er- und einmal für die 6er-Reihe; zusätzlich eine Tabelle mit zwei Zeilen (3er, 6er), in der das Kind die Ergebnisse verdoppelt."
+            "page": "Wie „Das 2er-Einmaleins“, einmal für die 3er- und einmal für die 6er-Reihe; zusätzlich eine Tabelle mit zwei Zeilen (3er, 6er), in der das Kind die Ergebnisse verdoppelt.",
+            "placed": "3:times-tables#dreier-und-sechser"
           },
           {
             "new": true,
@@ -727,7 +799,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt zu acht Aufgaben (zum Beispiel 9 · 6, 7 · 8, 6 · 7, 9 · 9) je ein Punktefeld mit einer gestrichelten Hilfslinie. Das Kind schreibt die Kernaufgabe und den Rest in die vorgedruckte Zeile (9 · 6 = 10 · 6 − 1 · 6 = 60 − 6; 7 · 8 = 5 · 8 + 2 · 8 = 40 + 16) und rechnet aus; unten trägt es die 7er- und die 9er-Reihe vollständig in zwei Reihenlisten ein."
+            "page": "Das Blatt zeigt zu acht Aufgaben (zum Beispiel 9 · 6, 7 · 8, 6 · 7, 9 · 9) je ein Punktefeld mit einer gestrichelten Hilfslinie. Das Kind schreibt die Kernaufgabe und den Rest in die vorgedruckte Zeile (9 · 6 = 10 · 6 − 1 · 6 = 60 − 6; 7 · 8 = 5 · 8 + 2 · 8 = 40 + 16) und rechnet aus; unten trägt es die 7er- und die 9er-Reihe vollständig in zwei Reihenlisten ein.",
+            "placed": "3:times-tables#neuner-und-siebener"
           },
           {
             "new": true,
@@ -737,9 +810,11 @@
             "days": 3,
             "tool": "Der Setzkasten",
             "source": "new",
-            "page": "Das Blatt zeigt die leere Einmaleins-Tafel von 1 · 1 bis 10 · 10 als Raster mit Kopfzeile und Kopfspalte. Das Kind färbt die Kernaufgaben gelb und die Quadratzahlen (1 · 1, 2 · 2 … 10 · 10) blau, trägt die Ergebnisse ein, die es sicher weiß, verbindet drei Tauschaufgaben-Paare mit einem Bogen und kreist die Aufgaben ein, die es noch üben muss."
+            "page": "Das Blatt zeigt die leere Einmaleins-Tafel von 1 · 1 bis 10 · 10 als Raster mit Kopfzeile und Kopfspalte. Das Kind färbt die Kernaufgaben gelb und die Quadratzahlen (1 · 1, 2 · 2 … 10 · 10) blau, trägt die Ergebnisse ein, die es sicher weiß, verbindet drei Tauschaufgaben-Paare mit einem Bogen und kreist die Aufgaben ein, die es noch üben muss.",
+            "placed": "3:times-tables#einmaleins-tafel"
           }
-        ]
+        ],
+        "opened": "de2-einmaleins-reihen"
       },
       {
         "id": "de2-teilen",
@@ -747,13 +822,16 @@
         "why": "Das Teilen folgt unmittelbar auf das Einmaleins, weil jede Geteiltaufgabe über ihre Malaufgabe gelöst wird.",
         "lessons": [
           {
-            "existing": "de2-teilen#1"
+            "existing": "2:share-and-group",
+            "from": "de2-teilen"
           },
           {
-            "existing": "de2-teilen#2"
+            "existing": "3:division-sharing",
+            "from": "de2-teilen"
           },
           {
-            "existing": "de2-teilen#3"
+            "existing": "3:division-repeated-subtraction",
+            "from": "de2-teilen"
           },
           {
             "new": true,
@@ -763,10 +841,12 @@
             "days": 2,
             "tool": null,
             "source": "reuse:Mal-Familien",
-            "page": "Wie „Mal-Familien“, mit Zahlen aus den Reihen 2, 5, 10, 3 und 4; über jeder Aufgabenfamilie stehen die vier Wortkarten Malaufgabe, Tauschaufgabe und zweimal Umkehraufgabe, die das Kind seinen vier Aufgaben zuordnet."
+            "page": "Wie „Mal-Familien“, mit Zahlen aus den Reihen 2, 5, 10, 3 und 4; über jeder Aufgabenfamilie stehen die vier Wortkarten Malaufgabe, Tauschaufgabe und zweimal Umkehraufgabe, die das Kind seinen vier Aufgaben zuordnet.",
+            "placed": "3:mult-div-relationship#umkehraufgaben"
           },
           {
-            "existing": "de2-teilen#4"
+            "existing": "2:odd-even",
+            "from": "de2-teilen"
           }
         ]
       },
@@ -776,19 +856,24 @@
         "why": "Zeit, Daten und Zufall schließen das Schuljahr ab; sie lassen sich gut mit Umfragen und Versuchen in den letzten Wochen verbinden.",
         "lessons": [
           {
-            "existing": "de2-groessen-daten#3"
+            "existing": "2:time-5-min-quarter",
+            "from": "de2-groessen-daten"
           },
           {
-            "existing": "de2-groessen-daten#4"
+            "existing": "2:calendar",
+            "from": "de2-groessen-daten"
           },
           {
-            "existing": "de2-groessen-daten#6"
+            "existing": "2:bar-graphs",
+            "from": "de2-groessen-daten"
           },
           {
-            "existing": "de2-groessen-daten#7"
+            "existing": "2:line-plots",
+            "from": "de2-groessen-daten"
           },
           {
-            "existing": "de2-groessen-daten#8"
+            "existing": "2:scaled-pictograph",
+            "from": "de2-groessen-daten"
           },
           {
             "new": true,
@@ -807,13 +892,15 @@
     "leftOut": [
       {
         "existing": "de2-teilen#5",
-        "what": "de2-teilen#5 Hälften, Drittel und Viertel (3 days)",
-        "why": "Brüche (Drittel, Viertel) are not content of Klasse 2 in Germany and match no line of the Bildungsstandards Primarbereich (the lesson has no standard in the dump); keep it as an extra offer, not in the year plan. „Die Hälfte“ stays covered by „Gerade und ungerade: zwei gleiche Teile“ and by Verdoppeln und Halbieren in Klasse 1."
+        "what": "Hälften, Drittel und Viertel (3 days)",
+        "why": "Brüche (Drittel, Viertel) are not content of Klasse 2 in Germany and match no line of the Bildungsstandards Primarbereich (the lesson has no standard in the dump); keep it as an extra offer, not in the year plan. „Die Hälfte“ stays covered by „Gerade und ungerade: zwei gleiche Teile“ and by Verdoppeln und Halbieren in Klasse 1.",
+        "lesson": "2:equal-shares-shapes"
       },
       {
         "existing": "de2-teilen#6",
-        "what": "de2-teilen#6 Die Hälfte, ein Drittel, ein Viertel einer Menge (2 days)",
-        "why": "Builds on the fraction words of lesson 5; Bruchteile von Mengen belong to Klasse 4 and later. The 5 freed days go to Addition/Subtraktion bis 100 and to Zufall, which the German year needs."
+        "what": "Die Hälfte, ein Drittel, ein Viertel einer Menge (2 days)",
+        "why": "Builds on the fraction words of lesson 5; Bruchteile von Mengen belong to Klasse 4 and later. The 5 freed days go to Addition/Subtraktion bis 100 and to Zufall, which the German year needs.",
+        "lesson": "2:fraction-of-a-set"
       },
       {
         "what": "Wiederholung Rechnen bis 20 as an own lesson",
@@ -867,13 +954,16 @@
         "why": "Das Schuljahr beginnt mit dem neuen Zahlenraum; das Runden gehört gleich dazu, weil es beim Überschlagen das ganze Jahr gebraucht wird.",
         "lessons": [
           {
-            "existing": "de3-zahlen-bis-1000#1"
+            "existing": "2:read-build-3-digit",
+            "from": "de3-zahlen-bis-1000"
           },
           {
-            "existing": "de3-zahlen-bis-1000#2"
+            "existing": "2:expanded-form-digit-value",
+            "from": "de3-zahlen-bis-1000"
           },
           {
-            "existing": "de3-zahlen-bis-1000#3"
+            "existing": "2:compare-order-3-digit",
+            "from": "de3-zahlen-bis-1000"
           },
           {
             "new": true,
@@ -886,13 +976,16 @@
             "page": "Das Blatt zeigt drei Zahlenstrahlen: von 0 bis 1000 in Hunderterschritten, von 400 bis 500 in Zehnerschritten und von 630 bis 650 in Einerschritten, jeweils mit fünf Pfeilen. Das Kind schreibt die Zahlen an die Pfeile und trägt drei vorgegebene Zahlen selbst mit einem Strich ein; unten füllt es zu sechs Zahlen (zum Beispiel 467) die Tabelle „Nachbarzehner – Zahl – Nachbarzehner“ und „Nachbarhunderter – Zahl – Nachbarhunderter“ aus."
           },
           {
-            "existing": "de3-zahlen-bis-1000#4"
+            "existing": "2:hundred-more-less",
+            "from": "de3-zahlen-bis-1000"
           },
           {
-            "existing": "de3-runden-schriftlich#1"
+            "existing": "2:round-to-ten",
+            "from": "de3-runden-schriftlich"
           },
           {
-            "existing": "de3-runden-schriftlich#2"
+            "existing": "3:rounding",
+            "from": "de3-runden-schriftlich"
           }
         ]
       },
@@ -948,13 +1041,16 @@
         "why": "Im Spätherbst wird das Einmaleins aus Klasse 2 aufgefrischt und auf Zehnerzahlen und größere Zahlen übertragen.",
         "lessons": [
           {
-            "existing": "de3-mal-geteilt-gleichungen#1"
+            "existing": "3:mult-div-relationship",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
-            "existing": "de3-mal-geteilt-gleichungen#3"
+            "existing": "3:division-remainder",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
-            "existing": "de3-mal-geteilt-gleichungen#2"
+            "existing": "3:muldiv-word-problems",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
             "new": true,
@@ -1041,19 +1137,24 @@
         "why": "Die schriftlichen Verfahren stehen im Januar und Februar, wenn das halbschriftliche Rechnen sicher ist und genug Zeit zum Üben bleibt.",
         "lessons": [
           {
-            "existing": "de3-runden-schriftlich#4"
+            "existing": "2:add-with-blocks",
+            "from": "de3-runden-schriftlich"
           },
           {
-            "existing": "de3-runden-schriftlich#5"
+            "existing": "2:subtract-with-blocks",
+            "from": "de3-runden-schriftlich"
           },
           {
-            "existing": "de3-runden-schriftlich#6"
+            "existing": "2:column-method",
+            "from": "de3-runden-schriftlich"
           },
           {
-            "existing": "de3-runden-schriftlich#7"
+            "existing": "3:column-regrouping",
+            "from": "de3-runden-schriftlich"
           },
           {
-            "existing": "de3-runden-schriftlich#3"
+            "existing": "3:estimate-by-rounding",
+            "from": "de3-runden-schriftlich"
           },
           {
             "new": true,
@@ -1073,22 +1174,28 @@
         "why": "Im Frühjahr werden Uhrzeit, Zeitspannen, Gramm und Milliliter erarbeitet; sie gehören auch zu den Inhalten von VERA 3.",
         "lessons": [
           {
-            "existing": "g3-time-temperature-mass-volume#1"
+            "existing": "3:time-to-minute",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#2"
+            "existing": "3:time-12-24",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#3"
+            "existing": "3:elapsed-duration",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#4"
+            "existing": "3:add-subtract-time",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#6"
+            "existing": "2:read-jugs",
+            "from": "g3-time-temperature-mass-volume"
           },
           {
-            "existing": "g3-time-temperature-mass-volume#7"
+            "existing": "2:mass-grams",
+            "from": "g3-time-temperature-mass-volume"
           }
         ]
       },
@@ -1098,16 +1205,20 @@
         "why": "Muster, Gleichungen und Tabellen bündeln nach Ostern das Rechnen des Jahres und üben das Beschreiben von Zusammenhängen.",
         "lessons": [
           {
-            "existing": "de3-mal-geteilt-gleichungen#4"
+            "existing": "3:balance-equations",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
-            "existing": "de3-mal-geteilt-gleichungen#5"
+            "existing": "3:parity-of-sums",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
-            "existing": "de3-mal-geteilt-gleichungen#6"
+            "existing": "3:arithmetic-patterns",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
-            "existing": "de3-mal-geteilt-gleichungen#7"
+            "existing": "3:input-output",
+            "from": "de3-mal-geteilt-gleichungen"
           },
           {
             "new": true,
@@ -1137,19 +1248,24 @@
         "why": "Flächeninhalt und Umfang wenden im Frühsommer das Einmaleins und das Messen von Längen geometrisch an.",
         "lessons": [
           {
-            "existing": "g3-area-perimeter-volume#1"
+            "existing": "3:area-model",
+            "from": "g3-area-perimeter-volume"
           },
           {
-            "existing": "g3-area-perimeter-volume#2"
+            "existing": "3:same-area",
+            "from": "g3-area-perimeter-volume"
           },
           {
-            "existing": "g3-area-perimeter-volume#3"
+            "existing": "3:perimeter",
+            "from": "g3-area-perimeter-volume"
           },
           {
-            "existing": "g3-area-perimeter-volume#4"
+            "existing": "3:same-perimeter",
+            "from": "g3-area-perimeter-volume"
           },
           {
-            "existing": "g3-area-perimeter-volume#5"
+            "existing": "3:volume-cubes",
+            "from": "g3-area-perimeter-volume"
           }
         ]
       },
@@ -1159,13 +1275,16 @@
         "why": "Zeichnen, Daten und Zufallsversuche stehen am Ende des Schuljahres, weil sie handlungsreich sind und kein neues Rechnen brauchen.",
         "lessons": [
           {
-            "existing": "g3-shapes-and-data#1"
+            "existing": "3:right-angles",
+            "from": "g3-shapes-and-data"
           },
           {
-            "existing": "g3-shapes-and-data#2"
+            "existing": "3:classify-quadrilaterals",
+            "from": "g3-shapes-and-data"
           },
           {
-            "existing": "g3-shapes-and-data#3"
+            "existing": "3:symmetry",
+            "from": "g3-shapes-and-data"
           },
           {
             "new": true,
@@ -1178,10 +1297,12 @@
             "page": "Das Blatt zeigt oben vier markierte Mittelpunkte mit der Angabe des Radius in ganzen Zentimetern (2 cm bis 5 cm); das Kind zeichnet die Kreise mit dem Zirkel und beschriftet bei einem Kreis Mittelpunkt und Radius. In der Mitte zeichnet es um einen Mittelpunkt drei Kreise mit den Radien 2 cm, 3 cm und 4 cm (Zielscheibe). Unten ist ein Kreismuster aus sieben gleich großen Kreisen (Blume) begonnen, das es nach der Vorlage fertig zeichnet."
           },
           {
-            "existing": "g3-shapes-and-data#4"
+            "existing": "3:scaled-graphs",
+            "from": "g3-shapes-and-data"
           },
           {
-            "existing": "g3-shapes-and-data#5"
+            "existing": "3:line-plot-halves",
+            "from": "g3-shapes-and-data"
           },
           {
             "new": true,
@@ -1220,8 +1341,9 @@
     "leftOut": [
       {
         "existing": "g3-time-temperature-mass-volume#5",
-        "what": "g3-time-temperature-mass-volume#5 Das Thermometer ablesen (2 days)",
-        "why": "Temperatur is no Größenbereich of the Bildungsstandards Mathematik (the lesson has no standard in the dump) and is taught in Sachunterricht (Wetter); keep it as an extra offer, not in the year plan."
+        "what": "Das Thermometer ablesen (2 days)",
+        "why": "Temperatur is no Größenbereich of the Bildungsstandards Mathematik (the lesson has no standard in the dump) and is taught in Sachunterricht (Wetter); keep it as an extra offer, not in the year plan.",
+        "lesson": "3:thermometer"
       },
       {
         "what": "M.4.3.3 geometrische Abbildungen in Mustern (Bandornamente, Parkette)",

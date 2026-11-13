@@ -34,6 +34,8 @@ const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it'
 const { pagesOf } = require('./catalog.js');
 const { lessonDays, unitDays, unitWeeks } = require('./pacing.js');
 const MIN_LESSONS = 4;
+/** the picture themes of a holiday, as the pages' addresses name them in en, de and sv */
+const HOLIDAY_COPY = /(?:^|-)(?:christmas|easter|thanksgiving|valentine|halloween|4th-of-july|weihnachten|ostern|erntedankfest|valentinstag|4-juli|jul|pask|alla-hjartans-dag)(?:-|$)/;
 const MIN_PLAN_UNITS = 3; // a year plan of one or two units is a thin page: those units are found on the hub
 
 /** The name of a Swedish activity without the school year its page title carries (see the call). */
@@ -85,6 +87,9 @@ function assemble(loc, opt = {}) {
 
   // the published pages of this language, per type and level, in copy order
   const pages = pagesOf(loc, opt.decksText);
+  // A lesson is taught in any week of the year: a copy whose pictures belong to a holiday (a Christmas page in
+  // October, a 4th of July page in a German class) is handed out only when the type has no other copy at that level.
+  for (const t of pages.values()) for (const r of ['easy', 'core', 'hard']) t[r] = t[r].filter((x) => !HOLIDAY_COPY.test(x.slug)).concat(t[r].filter((x) => HOLIDAY_COPY.test(x.slug)));
 
   const seenSlug = new Set(), seenId = new Set();
   const seenLesson = new Map();   // lesson key (its id, or its point) → the unit that holds it: a key stands once in a language
@@ -181,7 +186,7 @@ function assemble(loc, opt = {}) {
       if (!screen) {
         for (const r of paper) {
           // a page the lesson has not handed out comes first: it is something more to do, not the same page twice
-          const pool = pages.get(r.type).core;
+          const pool = pages.get(r.type)[{ 1: 'easy', 2: 'core', 3: 'hard' }[r.level || 2]];   // the level the lesson hands out
           const x = pool.find((y) => y.screen && !usedPages.has(y.slug)) || pool.find((y) => y.screen && y.slug === r.core);
           if (x) { usedPages.add(x.slug); screen = { kind: 'page', slug: x.slug, title: r.title }; break; }
         }
@@ -205,9 +210,14 @@ function assemble(loc, opt = {}) {
       // Kindergarten lesson reads as a mistake). A lesson may also NAME the objectives its own pages teach (`standards`:
       // ids of the point's crosswalk rows), because a point is wider than the two or three pages one lesson hands out.
       const far = (r) => { if (r.rel === 'teaches') return false; const sp = span(r.grade); return !!sp && unitYear >= 0 && (sp[0] - unitYear >= 2 || unitYear - sp[1] >= 2); };
+      // `standardsRel`: where a point of an earlier year is taught by a unit of a later one, the row that only
+      // "prepares" for the later objective is, in THIS lesson, taught (the lesson says so; the registry row stays)
+      if (L.standardsRel) for (const [id, rel] of Object.entries(L.standardsRel)) if (!['teaches', 'reviews', 'prepares', 'extends'].includes(rel) || !(L.standards || []).includes(id)) bad(lw + ': standardsRel ' + id + ' → ' + rel);
       if (L.standards) for (const id of L.standards) if (!(e.rows || []).some((r) => r.id === id)) bad(lw + ': ' + id + ' is not an objective of this teaching point in the registry');
-      const rows = (e.rows || []).filter((r) => (L.standards ? L.standards.includes(r.id) : !far(r))).map((r) => Object.assign({}, r, { shown: relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
-      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; });
+      const rows = (e.rows || []).filter((r) => (L.standards ? L.standards.includes(r.id) : !far(r))).map((r) => Object.assign({}, r, { shown: (L.standardsRel && L.standardsRel[r.id]) || relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
+      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; })
+        // two rows that read the same (two objectives under one heading, in a registry without codes) are shown once
+        .filter((x, i, all) => all.findIndex((y) => y.rel === x.rel && y.framework === x.framework && y.code === x.code && y.title === x.title) === i);
 
       // two real assets: worksheet types, a tool, practice on screen. Practice on screen is an activity, or a page with
       // a Check button that is NOT one of the pages the lesson hands out on paper (the same page twice is one asset).

@@ -21,7 +21,8 @@ const chk = spawnSync('node', [path.join(__dirname, 'check-design.js'), '--loc='
 if (chk.status !== 0) { console.log(chk.stdout.trim().split('\n').slice(-6).join('\n')); console.error('the design does not pass its check: no report is written from it'); process.exit(1); }
 const design = readJson(path.join(__dirname, 'design.' + loc + '.' + subject + '.json'));
 const unitsFile = readJson(path.join(REPO, 'frontend', 'content', 'units', 'units.' + loc + '.json'));
-const byKey = new Map(); for (const u of unitsFile.units) for (const l of u.lessons) byKey.set(u.id + '#' + l.n, { unit: u, lesson: l });
+// a lesson of today is named by its key (its id, or its teaching point); `from` is the unit it stood in at design time
+const byKey = new Map(); for (const u of unitsFile.units) for (const l of u.lessons) byKey.set(l.id || l.point, { unit: u, lesson: l });
 const titleOf = new Map(unitsFile.units.map((u) => [u.id, u.title]));
 const GRADE = { en: { K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' }, de: { 1: 'Klasse 1', 2: 'Klasse 2', 3: 'Klasse 3' }, sv: { K: 'Förskoleklass', 1: 'Årskurs 1', 2: 'Årskurs 2', 3: 'Årskurs 3' } }[loc];
 const YEAR_WEEKS = (design.pacing && design.pacing.yearWeeks) || 36;
@@ -49,7 +50,7 @@ for (const [grade, g] of gradeEntries) {
   L.push('## ' + GRADE[grade], '', g.units.length + ' units, ' + oldN + ' lessons of today and ' + newN + ' new ones: ' + g.totalDays + ' of ' + teaching.length * perWeek + ' class days (' + teaching.length + ' teaching weeks of ' + YEAR_WEEKS + ').', '');
   L.push('**Weeks without mathematics teaching:** ' + g.nonTeachingWeeks.map((n) => 'week' + (/-/.test(n.weeks) ? 's ' : ' ') + n.weeks + ' (' + n.what + ')').join('; ') + '.', '');
   L.push('| School weeks | Unit | Class days | Lessons |', '|---|---|---|---|');
-  for (const r of rows) L.push('| ' + (r.w0 === r.w1 ? r.w0 : r.w0 + ' to ' + r.w1) + ' | **' + r.u.title + '**' + (/^new:/.test(r.u.id) ? ' (new unit)' : '') + '<br>' + (r.u.why || '') + ' | ' + r.days + ' | ' + r.u.lessons.map((l, i) => (i + 1) + '. ' + (l.existing ? byKey.get(l.existing).lesson.title + (l.existing.split('#')[0] !== r.u.id ? ' (from ' + titleOf.get(l.existing.split('#')[0]) + ')' : '') : '**' + l.title + '** (new, ' + l.standard + ')')).join('<br>') + ' |');
+  for (const r of rows) L.push('| ' + (r.w0 === r.w1 ? r.w0 : r.w0 + ' to ' + r.w1) + ' | **' + r.u.title + '**' + (/^new:/.test(r.u.id) ? ' (new unit)' : '') + '<br>' + (r.u.why || '') + ' | ' + r.days + ' | ' + r.u.lessons.map((l, i) => (i + 1) + '. ' + (l.existing ? byKey.get(l.existing).lesson.title + (l.from && l.from !== r.u.id ? ' (from ' + titleOf.get(l.from) + ')' : '') : '**' + l.title + '** (new, ' + l.standard + (l.placed ? '; written' : '') + ')')).join('<br>') + ' |');
   L.push('');
   if ((g.leftOut || []).length) { L.push('**Left out of the year, with the reason:**', ''); for (const x of g.leftOut) L.push('- ' + x.what + ': ' + x.why); L.push(''); }
 }

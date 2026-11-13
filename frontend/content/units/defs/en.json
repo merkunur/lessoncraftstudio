@@ -65,7 +65,10 @@
       "G1-240",
       "G1-238"
      ],
-     "tool": "missing-question"
+     "tool": "missing-question",
+     "standards": [
+      "1.OA.A.1"
+     ]
     },
     {
      "point": "1:fluency-within-20",
@@ -193,8 +196,8 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on matching one to one, writing numbers, counting to 10, quick looks, and comparing groups, each with a teacher note.",
-   "weeks": 3,
+   "metaDescription": "A five-week Kindergarten math unit: 10 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "K:one-to-one",
@@ -225,6 +228,13 @@
      ]
     },
     {
+     "point": "K:conservation",
+     "types": [
+      "K-445"
+     ],
+     "tool": "the-queue"
+    },
+    {
      "point": "K:colour-by-number",
      "types": [
       "K-393",
@@ -247,6 +257,35 @@
      "types": [
       "K-008",
       "K-009"
+     ],
+     "tool": null,
+     "standards": [
+      "K.CC.C.6"
+     ]
+    },
+    {
+     "point": "K:one-more-one-less",
+     "types": [
+      "K-443"
+     ],
+     "core": {
+      "K-443": 3
+     },
+     "tool": "ten-frame"
+    },
+    {
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#which-number-is-greater",
+     "types": [
+      "K-606"
+     ],
+     "core": {
+      "K-606": 1
+     },
+     "tool": "number-line",
+     "activity": null,
+     "standards": [
+      "K.CC.C.7"
      ]
     }
    ]
@@ -259,8 +298,8 @@
    "subject": "math",
    "title": "Shapes All Around",
    "metaTitle": "Kindergarten Math Lesson Plans: Shapes All Around",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on naming shapes, counting sides, building with tangram pieces, and mirror pictures, each with a teacher note.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on naming shapes, counting sides, flat and solid shapes, building with tangram pieces, and mirror pictures.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:shape-naming",
@@ -274,6 +313,12 @@
      "types": [
       "K-075",
       "K-076"
+     ]
+    },
+    {
+     "point": "2:flat-or-solid",
+     "types": [
+      "G2-244"
      ]
     },
     {
@@ -299,9 +344,17 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting in Order to 20",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on counting forward to 20, connecting dots in order, counting back from 10, and first, second, third.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on writing 11 to 20, counting forward and back, connecting dots in order, counting on, and first, second, third.",
+   "weeks": 3,
    "lessons": [
+    {
+     "point": "K:numeral-formation",
+     "id": "K:numeral-formation#write-11-to-20",
+     "types": [
+      "K-253"
+     ],
+     "activity": "rivets-number-forge.numeral-album.k-cc-a-3"
+    },
     {
      "point": "K:count-forward-missing",
      "types": [
@@ -324,6 +377,12 @@
      "types": [
       "K-021",
       "K-023"
+     ]
+    },
+    {
+     "point": "K:count-on",
+     "types": [
+      "K-444"
      ]
     },
     {
@@ -382,15 +441,15 @@
    ]
   },
   {
-   "id": "k-putting-together-number-bonds",
-   "slug": "putting-together-and-number-bonds-kindergarten-unit",
+   "id": "k-adding-and-taking-away-within-10",
+   "slug": "adding-and-taking-away-within-10-kindergarten-unit",
    "status": "live",
    "grade": "K",
    "subject": "math",
-   "title": "Putting Together and Number Bonds",
-   "metaTitle": "Kindergarten Math Lesson Plans: Putting Together and Number Bonds",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on putting groups together and number bonds to 5 and to 10, with a first look at partners that make 20 and at odd and even.",
-   "weeks": 3,
+   "title": "Adding and Taking Away Within 10",
+   "metaTitle": "Kindergarten Math Lesson Plans: Adding and Taking Away Within 10",
+   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on putting two groups together, taking away on a ten-frame, and addition and take-away stories within 10.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "K:combine-groups",
@@ -402,10 +461,101 @@
      ]
     },
     {
+     "point": "K:take-away",
+     "types": [
+      "K-451"
+     ],
+     "tool": "ten-frame",
+     "standards": [
+      "K.OA.A.1"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#adding-stories-within-10",
+     "types": [
+      "G1-238"
+     ],
+     "core": {
+      "G1-238": 1
+     },
+     "tool": null,
+     "activity": "ten-frame.solve-the-story.k-oa-a-2",
+     "standards": [
+      "K.OA.A.2"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#take-away-stories-within-10",
+     "types": [
+      "G1-239"
+     ],
+     "core": {
+      "G1-239": 1
+     },
+     "tool": null,
+     "activity": null,
+     "standards": [
+      "K.OA.A.2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-putting-together-number-bonds",
+   "slug": "putting-together-and-number-bonds-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Number Bonds and Partners of 10",
+   "metaTitle": "Kindergarten Math Lesson Plans: Number Bonds and Partners of 10",
+   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on number bonds to 10, taking apart 8 and 9, and the partners of 10, with a first look at partners of 20.",
+   "weeks": 3,
+   "lessons": [
+    {
      "point": "K:number-bonds-k",
      "types": [
       "K-273",
       "K-274"
+     ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#take-apart-8-and-9",
+     "types": [
+      "K-416",
+      "K-417"
+     ],
+     "tool": "part-whole-frame",
+     "activity": "chuffer.rail-decompose.k-oa-a-3",
+     "standards": [
+      "K.OA.A.3"
+     ]
+    },
+    {
+     "point": "1:make-10",
+     "id": "1:make-10#how-many-more-to-make-10",
+     "types": [
+      "G1-106",
+      "K-457"
+     ],
+     "tool": "ten-frame",
+     "activity": null,
+     "standards": [
+      "K.OA.A.4"
+     ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#partners-of-10",
+     "types": [
+      "K-277"
+     ],
+     "tool": "rekenrek",
+     "activity": null,
+     "standards": [
+      "K.OA.A.4"
      ]
     },
     {
@@ -441,8 +591,8 @@
    "subject": "math",
    "title": "Doubles, Three Addends, and Addition Pyramids",
    "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
-   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on doubles and halves, odd and even numbers, adding three groups, and addition pyramids (number walls), with teacher notes.",
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on doubles and near doubles, making ten to add, true and false equations, odd and even, three addends, and addition pyramids.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:doubles-halves",
@@ -450,6 +600,35 @@
       "G1-287",
       "G1-288"
      ]
+    },
+    {
+     "point": "1:near-doubles",
+     "types": [
+      "G1-449"
+     ],
+     "core": {
+      "G1-449": 1
+     },
+     "tool": "doubling-mirror"
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#make-ten-to-add",
+     "types": [
+      "G1-439"
+     ],
+     "core": {
+      "G1-439": 1
+     },
+     "tool": "rekenrek",
+     "activity": "ten-stones.add-sub-within-20.1-oa-c-6"
+    },
+    {
+     "point": "1:true-false-equations",
+     "types": [
+      "G1-443"
+     ],
+     "tool": "number-balance"
     },
     {
      "point": "1:odd-even-pairs",
@@ -564,8 +743,8 @@
    "subject": "math",
    "title": "Time, Calendar, and Coins",
    "metaTitle": "Grade 1 Math Lesson Plans: Time, Calendar, and Coins",
-   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on time to the hour and half hour, the calendar, ordinal numbers, and counting coins, each with a teacher note.",
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 1 math unit: 6 lessons on time to the hour and half hour, matching clocks, the calendar, ordinal numbers, and counting coins, with teacher notes.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:time-read",
@@ -583,6 +762,18 @@
      "standards": [
       "1.MD.B.3"
      ]
+    },
+    {
+     "point": "1:time-read",
+     "id": "1:time-read#match-the-clocks",
+     "types": [
+      "G1-150"
+     ],
+     "core": {
+      "G1-150": 3
+     },
+     "tool": "learning-clock",
+     "activity": "clock-digital.read-half-hour.1-md-b-3"
     },
     {
      "point": "1:days-months-seasons",
@@ -615,8 +806,8 @@
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
    "metaTitle": "Grade 1 Math Lesson Plans: Shapes, Measuring, and Graphs",
-   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on shapes, tangram puzzles, measuring length, sorting, picture graphs, bar graphs, and patterns, with teacher notes.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on shapes, tangram puzzles, measuring length, sorting, picture and bar graphs, patterns, and halves and fourths.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:shape-attributes",
@@ -664,6 +855,21 @@
      "types": [
       "G1-155"
      ]
+    },
+    {
+     "point": "2:equal-shares-shapes",
+     "id": "2:equal-shares-shapes#equal-shares-halves-and-fourths",
+     "types": [
+      "G2-232"
+     ],
+     "core": {
+      "G2-232": 1
+     },
+     "tool": "fraction-kitchen",
+     "activity": "fractions.partition-equal-shares.1-g-a-3",
+     "standards": [
+      "1.G.A.3"
+     ]
     }
    ]
   },
@@ -675,13 +881,31 @@
    "subject": "math",
    "title": "Place Value to 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Place Value to 1,000",
-   "metaDescription": "A four-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, tens, and ones, comparing, and 100 more and 100 less.",
+   "metaDescription": "A four-week Grade 2 math unit: 8 lessons that review tens and ones and skip counting, then teach hundreds, expanded form, comparing, and 100 more and 100 less.",
    "weeks": 4,
    "lessons": [
     {
      "point": "2:bundle-ten-ones",
      "types": [
       "G2-206"
+     ],
+     "standards": [
+      "1.NBT.B.2.a"
+     ]
+    },
+    {
+     "point": "2:bundle-ten-ones",
+     "id": "2:bundle-ten-ones#ten-tens-make-one-hundred",
+     "types": [
+      "G2-404"
+     ],
+     "core": {
+      "G2-404": 1
+     },
+     "tool": "exchange-machine",
+     "activity": null,
+     "standards": [
+      "2.NBT.A.1.a"
      ]
     },
     {
@@ -689,20 +913,6 @@
      "types": [
       "G2-304",
       "G2-314"
-     ]
-    },
-    {
-     "point": "2:number-line-not-from-zero",
-     "types": [
-      "G2-305",
-      "G2-310"
-     ]
-    },
-    {
-     "point": "2:hundreds-chart-moves",
-     "types": [
-      "G2-321",
-      "G2-322"
      ]
     },
     {
@@ -717,6 +927,21 @@
      "types": [
       "G2-223",
       "G2-225"
+     ]
+    },
+    {
+     "point": "2:expanded-form-digit-value",
+     "id": "2:expanded-form-digit-value#expanded-form-with-a-zero",
+     "types": [
+      "G2-401"
+     ],
+     "core": {
+      "G2-401": 3
+     },
+     "tool": "place-value-lab",
+     "activity": "match-pairs.three-ways-to-show-a-number.2-nbt-a-3",
+     "standards": [
+      "2.NBT.A.3"
      ]
     },
     {
@@ -735,26 +960,38 @@
    ]
   },
   {
-   "id": "g2-add-subtract-within-1000",
-   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+   "id": "g2-adding-and-subtracting-within-100",
+   "slug": "adding-and-subtracting-within-100-grade-2-unit",
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Adding and Subtracting Within 100 and 1,000",
-   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100 and 1,000",
-   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on adding and subtracting with blocks, vertically, and in addition pyramids and a maze, each with a teacher note.",
-   "weeks": 2,
+   "title": "Adding and Subtracting Within 100",
+   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
+   "weeks": 3,
    "lessons": [
     {
-     "point": "2:add-with-blocks",
+     "point": "2:number-line-not-from-zero",
      "types": [
-      "G2-203"
+      "G2-305",
+      "G2-310"
      ]
     },
     {
-     "point": "2:subtract-with-blocks",
+     "point": "2:hundreds-chart-moves",
      "types": [
-      "G2-205"
+      "G2-321",
+      "G2-322"
+     ]
+    },
+    {
+     "point": "1:open-number-line",
+     "types": [
+      "G1-438"
+     ],
+     "tool": "open-number-line",
+     "standards": [
+      "2.NBT.B.5"
      ]
     },
     {
@@ -777,6 +1014,58 @@
    ]
   },
   {
+   "id": "g2-add-subtract-within-1000",
+   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Adding and Subtracting Within 1,000",
+   "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 1,000",
+   "metaDescription": "A three-week Grade 2 math unit: 4 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "2:add-with-blocks",
+     "types": [
+      "G2-203"
+     ]
+    },
+    {
+     "point": "3:column-regrouping",
+     "id": "3:column-regrouping#add-three-digit-numbers",
+     "types": [
+      "G3-361"
+     ],
+     "tool": "exchange-machine",
+     "activity": null,
+     "standards": [
+      "2.NBT.B.7"
+     ]
+    },
+    {
+     "point": "2:subtract-with-blocks",
+     "types": [
+      "G2-205"
+     ]
+    },
+    {
+     "point": "3:column-regrouping",
+     "id": "3:column-regrouping#subtract-across-a-zero",
+     "types": [
+      "G3-362"
+     ],
+     "core": {
+      "G3-362": 3
+     },
+     "tool": "exchange-machine",
+     "activity": "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7",
+     "standards": [
+      "2.NBT.B.7"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g2-measurement-time-money",
    "slug": "measurement-time-and-money-grade-2-unit",
    "status": "live",
@@ -784,7 +1073,7 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A four-week Grade 2 math unit: 5 lessons on measuring with a ruler, time to the nearest five minutes, the calendar, and money, each with a teacher note.",
+   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
    "weeks": 4,
    "lessons": [
     {
@@ -814,6 +1103,18 @@
      ]
     },
     {
+     "point": "1:coins",
+     "id": "1:coins#count-mixed-coins",
+     "types": [
+      "G1-229"
+     ],
+     "tool": "money-mat",
+     "activity": "money.count-out.2-md-c-8",
+     "standards": [
+      "2.MD.C.8"
+     ]
+    },
+    {
      "point": "2:shopping-money",
      "types": [
       "G2-291",
@@ -830,8 +1131,8 @@
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on bar graphs and line plots, plus a first look at picture graphs with a key and at squares on a grid, each with a teacher note.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on making a graph from counts, bar graphs, and line plots, with a first look at picture graphs with a key and at grids.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:bar-graphs",
@@ -839,6 +1140,21 @@
       "G2-239",
       "G2-237"
      ]
+    },
+    {
+     "point": "1:bar-graphs",
+     "id": "1:bar-graphs#make-a-graph-from-counts",
+     "types": [
+      "G1-147"
+     ],
+     "tool": "class-graph",
+     "activity": null,
+     "standards": [
+      "2.MD.D.10"
+     ],
+     "core": {
+      "G1-147": 3
+     }
     },
     {
      "point": "2:line-plots",
@@ -914,6 +1230,9 @@
       "G2-232",
       "G2-228",
       "G2-229"
+     ],
+     "standards": [
+      "2.G.A.3"
      ]
     },
     {
@@ -1015,6 +1334,9 @@
      "types": [
       "G3-359",
       "G3-360"
+     ],
+     "standards": [
+      "3.NBT.A.2"
      ]
     },
     {
@@ -1093,7 +1415,7 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on sharing, making groups, fact families, and word problems, with a first look at remainders, a Grade 4 standard.",
+   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, and word problems, with a first look at remainders.",
    "weeks": 3,
    "lessons": [
     {
@@ -1114,6 +1436,18 @@
       "G3-312",
       "G3-311"
      ]
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#the-facts-we-still-need",
+     "types": [
+      "G3-407"
+     ],
+     "core": {
+      "G3-407": 3
+     },
+     "tool": "folding-wall",
+     "activity": null
     },
     {
      "point": "3:muldiv-word-problems",
@@ -1898,6 +2232,7 @@
     "k-shapes",
     "k-counting-in-order-to-20",
     "k-sorting-tallies-days",
+    "k-adding-and-taking-away-within-10",
     "k-putting-together-number-bonds"
    ]
   },
@@ -1928,6 +2263,7 @@
    "metaDescription": "{units} Grade 2 math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g2-place-value-to-1000",
+    "g2-adding-and-subtracting-within-100",
     "g2-add-subtract-within-1000",
     "g2-measurement-time-money",
     "g2-graphs-and-grids",

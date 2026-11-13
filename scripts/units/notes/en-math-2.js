@@ -299,8 +299,8 @@ module.exports = {
       objective: 'Children sort shapes into flat shapes and solid shapes.',
       note: {
         mistake: 'Children call a ball a circle and a box a square: the solid gets the name of its flat face. On paper everything is drawn flat, so the drawing of a cube is sorted as flat.',
-        words: 'Say: "A flat shape can be drawn on paper and has no thickness. A solid shape can be held; it takes up room." Hold up a real box: "This is a solid. Its FACE is a rectangle." Ask: "Could you pick it up? Could you fill it?"',
-        watch: 'Listen for "circle" said of a ball and "square" said of a cube. Bring real objects; drawings of solids are hard to read for children who have not handled the solids.',
+        words: 'Say: "A flat shape lies flat like a piece of paper; it has no thickness. A solid shape can be held; it takes up space." Hold up a real box: "This is a solid. Its FACE is a rectangle." Ask: "Could you pick it up? Could you fill it?"',
+        watch: 'Listen for children who call a ball a circle or a cube a square. Bring real objects; drawings of solids are hard to read for children who have not handled the solids.',
       },
     },
     '2:solids-in-real-life': {

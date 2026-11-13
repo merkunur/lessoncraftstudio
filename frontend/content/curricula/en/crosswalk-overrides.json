@@ -1822,19 +1822,11 @@
    "rows": [
     {
      "id": "1.OA.D.7",
-     "rel": "extends"
+     "rel": "teaches"
     }
    ],
-   "why": "[pages-review en.review.json, 1.OA.D.7 extends] The only lesson is a Grade 3 lesson in a within-1,000 unit, and true-or-false equations are not practiced.",
-   "was": {
-    "rows": [
-     {
-      "id": "1.OA.D.7",
-      "rel": "teaches"
-     }
-    ]
-   },
-   "review": "pages-review en.review.json"
+   "why": "The Grade 1 lesson True or False? hands out the page of that name: the children decide whether equations are true or false, which is 1.OA.D.7 itself. (The earlier \"extends\" was written when the only lesson on the point was a Grade 3 lesson.)",
+   "review": "year design en.review-1.json"
   },
   "2:line-plots": {
    "rows": [
@@ -1889,6 +1881,76 @@
     ]
    },
    "review": "pages-review en.review.json"
+  },
+  "K:compare-groups": {
+   "rows": [
+    {
+     "id": "K.CC.C.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.CC.C.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The page Color the Greater Number compares two written numerals from 1 to 10, which is K.CC.C.7; the pages with two groups are K.CC.C.6.",
+   "review": "year design en.review-1.json"
+  },
+  "1:word-problems": {
+   "rows": [
+    {
+     "id": "1.OA.A.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.OA.A.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Level 1 of the addition and subtraction story pages stays within 10 with a picture of the objects: the Kindergarten standard K.OA.A.2. The year design places those pages in Kindergarten.",
+   "review": "year design en.review-1.json"
+  },
+  "2:bundle-ten-ones": {
+   "rows": [
+    {
+     "id": "1.NBT.B.2.a",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.NBT.A.1.a",
+     "rel": "teaches"
+    }
+   ],
+   "why": "More Than Nine of a Kind, level 1, shows more than nine ten-rods to trade for a hundred: 2.NBT.A.1.a (100 as a bundle of ten tens).",
+   "review": "year design en.review-1.json"
+  },
+  "3:column-regrouping": {
+   "rows": [
+    {
+     "id": "3.NBT.A.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.NBT.B.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding and subtracting three-digit numbers in columns with a new ten or hundred is taught in Grade 2 (2.NBT.B.7: within 1000 with strategies based on place value, related to a written method) and made fluent in Grade 3.",
+   "review": "year design en.review-1.json"
+  },
+  "2:equal-shares-shapes": {
+   "rows": [
+    {
+     "id": "2.G.A.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.G.A.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a circle or rectangle is cut into equal shares, and naming halves and fourths, is 1.G.A.3; thirds and the Grade 2 wording are 2.G.A.3.",
+   "review": "year design en.review-1.json"
   }
  }
 }

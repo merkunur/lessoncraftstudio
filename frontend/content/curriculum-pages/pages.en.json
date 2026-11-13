@@ -20,10 +20,10 @@
    "metaDescription": "Kindergarten math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 24,
-    "taught": 20,
+    "taught": 21,
     "near": 1,
-    "open": 3,
-    "lessons": 28
+    "open": 2,
+    "lessons": 40
    },
    "groups": [
     {
@@ -52,22 +52,29 @@
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 1,
+         "n": 2,
          "title": "Fill in the missing numbers"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Connect the dots in order"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Before, after, and counting back"
+        },
+        {
+         "unit": "counting-in-order-to-20-kindergarten-unit",
+         "unitTitle": "Counting in Order to 20",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Count on from a number"
         }
        ]
       },
@@ -95,6 +102,13 @@
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
          "n": 1,
+         "title": "Write the numbers 11 to 20"
+        },
+        {
+         "unit": "counting-in-order-to-20-kindergarten-unit",
+         "unitTitle": "Counting in Order to 20",
+         "unitGrade": "K",
+         "n": 2,
          "title": "Fill in the missing numbers"
         }
        ]
@@ -117,7 +131,7 @@
       {
        "code": "K.CC.B.4.b",
        "state": "taught",
-       "text": "Children count up to 10 pictures, say the last number as how many there are, and write that number.",
+       "text": "Children count two groups of the same kind of object, one in a row and one spread out, write how many are in each, and decide whether both groups have the same number.",
        "lessons": [
         {
          "unit": "counting-to-10-kindergarten-unit",
@@ -125,19 +139,33 @@
          "unitGrade": "K",
          "n": 3,
          "title": "Count and write how many"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Still the same number"
         }
        ]
       },
       {
        "code": "K.CC.B.4.c",
        "state": "taught",
-       "text": "Children write the number that comes before and the number that comes after, and count backward from 10.",
+       "text": "Children count a group of up to 9 pictures, draw one more or cross one out as the label says, and write how many there are now.",
        "lessons": [
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 9,
+         "title": "One more, one less"
+        },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Before, after, and counting back"
         }
        ]
@@ -165,7 +193,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "How many? Look fast"
         },
         {
@@ -186,14 +214,25 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "More and fewer"
         }
        ]
+      },
+      {
+       "code": "K.CC.C.7",
+       "state": "taught",
+       "text": "Children compare two written numbers from 1 to 10 and color the greater one.",
+       "lessons": [
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 10,
+         "title": "Which number is greater?"
+        }
+       ]
       }
-     ],
-     "open": [
-      "K.CC.C.7"
      ]
     },
     {
@@ -205,11 +244,18 @@
        "text": "Children put two groups together, count all of them, and write how many there are in all.",
        "lessons": [
         {
-         "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
          "unitGrade": "K",
          "n": 1,
          "title": "How many altogether?"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Take away: how many are left?"
         }
        ]
       },
@@ -231,6 +277,20 @@
          "unitGrade": "1",
          "n": 2,
          "title": "Take away: how many are left?"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Adding stories: some more come"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Take-away stories: some go away"
         }
        ]
       },
@@ -241,24 +301,45 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "Number bonds to 5 and to 10"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
          "n": 2,
-         "title": "Number bonds to 5 and to 10"
+         "title": "Take apart 8 and 9"
         }
        ]
       },
       {
        "code": "K.OA.A.4",
        "state": "taught",
-       "text": "Children find the number that goes with a given number to make 10, and know the pairs that make 10.",
+       "text": "Children find the partner that makes 10 with a given number in a number bond, and say the pair, such as 8 and 2.",
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 2,
+         "n": 1,
          "title": "Number bonds to 5 and to 10"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "How many more to make 10?"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Partners of 10"
         },
         {
          "unit": "addition-and-subtraction-within-10-grade-1-unit",
@@ -276,9 +357,9 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
          "title": "Add and subtract to color"
         }
        ]
@@ -398,10 +479,13 @@
        "code": "K.G.A.3",
        "state": "taught",
        "text": "Children sort shapes into flat (two-dimensional) shapes and solid (three-dimensional) shapes.",
-       "papers": [
+       "lessons": [
         {
-         "title": "Flat or Solid?",
-         "core": "geometry-g2244"
+         "unit": "shapes-all-around-kindergarten-unit",
+         "unitTitle": "Shapes All Around",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Flat or solid?"
         }
        ]
       },
@@ -439,7 +523,7 @@
          "unit": "shapes-all-around-kindergarten-unit",
          "unitTitle": "Shapes All Around",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Build shapes from pieces"
         }
        ]
@@ -466,10 +550,10 @@
    "metaDescription": "First grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 24,
-    "taught": 17,
-    "near": 2,
-    "open": 5,
-    "lessons": 31
+    "taught": 19,
+    "near": 1,
+    "open": 4,
+    "lessons": 35
    },
    "groups": [
     {
@@ -499,7 +583,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 3,
+         "n": 6,
          "title": "Add three groups"
         }
        ]
@@ -513,7 +597,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 3,
+         "n": 6,
          "title": "Add three groups"
         },
         {
@@ -560,16 +644,16 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
          "title": "Add and subtract to color"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 6,
          "title": "Partners that make 20"
         },
         {
@@ -590,16 +674,15 @@
       },
       {
        "code": "1.OA.D.7",
-       "state": "near",
-       "text": "Children use the equal sign as a balance and write the number that makes both sides the same amount.",
-       "rel": "extends",
+       "state": "taught",
+       "text": "Children decide whether an addition or subtraction equation within 20 is true or false, including equations that begin with the single number, such as 16 = 13 + 3.",
        "lessons": [
         {
-         "unit": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
-         "unitTitle": "Rounding, Adding, and Subtracting Within 1,000",
-         "unitGrade": "3",
-         "n": 5,
-         "title": "Make it balance"
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "True or false?"
         }
        ]
       },
@@ -619,7 +702,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 4,
+         "n": 7,
          "title": "Addition pyramids (number walls)"
         }
        ]
@@ -726,10 +809,10 @@
          "title": "Number of the day"
         },
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Jumps on the hundreds chart"
         }
        ]
@@ -798,6 +881,13 @@
          "unitGrade": "1",
          "n": 2,
          "title": "Draw the clock hands"
+        },
+        {
+         "unit": "time-calendar-and-coins-grade-1-unit",
+         "unitTitle": "Time, Calendar, and Coins",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Match the clocks"
         }
        ]
       },
@@ -861,10 +951,21 @@
          "title": "Tangram puzzles"
         }
        ]
+      },
+      {
+       "code": "1.G.A.3",
+       "state": "taught",
+       "text": "Children decide whether a circle or a rectangle is cut into equal shares and circle the shapes that are. With the teacher they name two equal shares halves and four equal shares fourths.",
+       "lessons": [
+        {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 8,
+         "title": "Equal shares: fair or not?"
+        }
+       ]
       }
-     ],
-     "open": [
-      "1.G.A.3"
      ]
     }
    ]
@@ -887,10 +988,10 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 17,
+    "taught": 18,
     "near": 2,
-    "open": 9,
-    "lessons": 30
+    "open": 8,
+    "lessons": 38
    },
    "groups": [
     {
@@ -908,6 +1009,13 @@
          "unitGrade": "1",
          "n": 8,
          "title": "Fact fluency within 10"
+        },
+        {
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Make ten to add"
         }
        ]
       },
@@ -918,16 +1026,16 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 7,
          "title": "Odd or even?"
         },
         {
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 2,
+         "n": 5,
          "title": "Odd and even numbers"
         },
         {
@@ -977,15 +1085,29 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 5,
+         "n": 4,
          "title": "Hundreds, tens, and ones"
         },
         {
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 6,
+         "n": 5,
          "title": "Expanded form and the value of a digit"
+        }
+       ]
+      },
+      {
+       "code": "2.NBT.A.1.a",
+       "state": "taught",
+       "text": "Children count the blocks in a picture that has more than nine tens rods, trade ten rods for one hundred, and write the number, such as 12 tens and 5 ones = 125.",
+       "lessons": [
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Ten tens make one hundred"
         }
        ]
       },
@@ -1005,7 +1127,7 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "Count by fives and tens"
         }
        ]
@@ -1019,8 +1141,15 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 6,
+         "n": 5,
          "title": "Expanded form and the value of a digit"
+        },
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Expanded form with a zero"
         }
        ]
       },
@@ -1044,24 +1173,31 @@
        "text": "Children add and subtract two-digit numbers within 100, first with jumps of tens and ones on a hundreds chart and then with the numbers written in columns.",
        "lessons": [
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Jumps on the hundreds chart"
         },
         {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 3,
+         "title": "Jumps on an open number line"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 4,
          "title": "Add and subtract vertically"
         },
         {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Add and subtract within 100"
         }
        ]
@@ -1073,17 +1209,31 @@
        "lessons": [
         {
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
          "n": 1,
          "title": "Add with blocks"
         },
         {
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
          "n": 2,
+         "title": "Add three-digit numbers and make a new ten or hundred"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 1,000",
+         "unitGrade": "2",
+         "n": 3,
          "title": "Subtract with blocks"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 1,000",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Subtract across zeros"
         }
        ]
       },
@@ -1103,7 +1253,6 @@
       }
      ],
      "open": [
-      "2.NBT.A.1.a",
       "2.NBT.A.1.b",
       "2.NBT.B.6",
       "2.NBT.B.9"
@@ -1153,10 +1302,10 @@
          "title": "Find a number on the number line"
         },
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 3,
+         "n": 1,
          "title": "A number line that does not start at zero"
         }
        ]
@@ -1184,7 +1333,7 @@
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Count coins"
         },
         {
@@ -1192,6 +1341,13 @@
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
          "n": 5,
+         "title": "Count mixed coins"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 6,
          "title": "Shopping with money"
         }
        ]
@@ -1206,7 +1362,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "Read a line plot"
         }
        ]
@@ -1229,6 +1385,13 @@
          "unitGrade": "2",
          "n": 1,
          "title": "From tally marks to a bar graph"
+        },
+        {
+         "unit": "graphs-and-grids-grade-2-unit",
+         "unitTitle": "Graphs and Grids",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Make a graph from counts"
         }
        ]
       }
@@ -1305,7 +1468,7 @@
     "taught": 23,
     "near": 2,
     "open": 9,
-    "lessons": 38
+    "lessons": 39
    },
    "groups": [
     {
@@ -1390,7 +1553,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 4,
+         "n": 5,
          "title": "Multiplication and division word problems"
         }
        ]
@@ -1448,6 +1611,13 @@
          "unitGrade": "3",
          "n": 4,
          "title": "Multiplication facts for 2 and 5"
+        },
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 4,
+         "title": "The facts we still need"
         }
        ]
       },
@@ -1694,7 +1864,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "Each picture counts as two"
         },
         {
@@ -2862,7 +3032,7 @@
     "taught": 18,
     "near": 0,
     "open": 16,
-    "lessons": 25
+    "lessons": 37
    },
    "groups": [
     {
@@ -2890,29 +3060,29 @@
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 1,
+         "n": 2,
          "title": "Fill in the missing numbers"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Connect the dots in order"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Before, after, and counting back"
         },
         {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
-         "unitGrade": "1",
-         "n": 4,
-         "title": "Count on and count back on a number line"
+         "unit": "counting-in-order-to-20-kindergarten-unit",
+         "unitTitle": "Counting in Order to 20",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Count on from a number"
         }
        ]
       },
@@ -2947,7 +3117,7 @@
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
          "n": 1,
-         "title": "Fill in the missing numbers"
+         "title": "Write the numbers 11 to 20"
         }
        ]
       },
@@ -2962,6 +3132,13 @@
          "unitGrade": "K",
          "n": 3,
          "title": "Count and write how many"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Still the same number"
         },
         {
          "unit": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
@@ -2988,7 +3165,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "How many? Look fast"
         }
        ]
@@ -3010,13 +3187,20 @@
       {
        "code": "K.2.F",
        "state": "taught",
-       "text": "Children write the number that comes before and the number that comes after, and count backward from 10.",
+       "text": "Children count a group of up to 9 pictures, draw one more or cross one out as the label says, and write how many there are now.",
        "lessons": [
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 9,
+         "title": "One more, one less"
+        },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Before, after, and counting back"
         }
        ]
@@ -3030,8 +3214,15 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "More and fewer"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 10,
+         "title": "Which number is greater?"
         }
        ]
       },
@@ -3042,17 +3233,31 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 2,
+         "n": 1,
          "title": "Number bonds to 5 and to 10"
         },
         {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
-         "unitGrade": "1",
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Take apart 8 and 9"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
          "n": 3,
-         "title": "Partners that make 10"
+         "title": "How many more to make 10?"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Partners of 10"
         }
        ]
       },
@@ -3062,11 +3267,18 @@
        "text": "Children put two groups together, count all of them, and write how many there are in all.",
        "lessons": [
         {
-         "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
          "unitGrade": "K",
          "n": 1,
          "title": "How many altogether?"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Take away: how many are left?"
         },
         {
          "unit": "addition-and-subtraction-within-10-grade-1-unit",
@@ -3095,6 +3307,20 @@
          "unitGrade": "1",
          "n": 7,
          "title": "Word problems within 10"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Adding stories: some more come"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Take-away stories: some go away"
         }
        ]
       }
@@ -3152,7 +3378,7 @@
       {
        "code": "K.6.E",
        "state": "taught",
-       "text": "Children count the sides of a shape, write the number, and match shapes to their number of sides.",
+       "text": "Children sort shapes into flat shapes and solid shapes.",
        "lessons": [
         {
          "unit": "shapes-all-around-kindergarten-unit",
@@ -3160,6 +3386,13 @@
          "unitGrade": "K",
          "n": 2,
          "title": "Count the sides"
+        },
+        {
+         "unit": "shapes-all-around-kindergarten-unit",
+         "unitTitle": "Shapes All Around",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Flat or solid?"
         }
        ]
       },
@@ -3207,7 +3440,7 @@
       {
        "code": "K.8.A",
        "state": "taught",
-       "text": "Children decide where each picture belongs and sort a set of pictures into three groups.",
+       "text": "Children look at a mixed group of pictures, count each kind separately, and write how many of each there are.",
        "lessons": [
         {
          "unit": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
@@ -3277,7 +3510,7 @@
     "taught": 25,
     "near": 5,
     "open": 20,
-    "lessons": 34
+    "lessons": 44
    },
    "groups": [
     {
@@ -3306,7 +3539,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "How many? Look fast"
         }
        ]
@@ -3336,6 +3569,13 @@
          "unitGrade": "2",
          "n": 1,
          "title": "Bundle ten ones"
+        },
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Ten tens make one hundred"
         }
        ]
       },
@@ -3364,6 +3604,13 @@
          "unitGrade": "2",
          "n": 1,
          "title": "Bundle ten ones"
+        },
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Ten tens make one hundred"
         }
        ]
       },
@@ -3434,6 +3681,20 @@
          "unitGrade": "1",
          "n": 7,
          "title": "Word problems within 10"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Adding stories: some more come"
+        },
+        {
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Take-away stories: some go away"
         }
        ]
       },
@@ -3448,6 +3709,13 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Partners that make 10"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "How many more to make 10?"
         }
        ]
       },
@@ -3458,16 +3726,16 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
          "title": "Add and subtract to color"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 6,
          "title": "Partners that make 20"
         },
         {
@@ -3495,22 +3763,36 @@
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Count coins"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Count mixed coins"
         }
        ]
       },
       {
        "code": "1.4.C",
        "state": "taught",
-       "text": "Children name a penny, a nickel, a dime, and a quarter, say what each is worth, and count the coins in a purse, starting with purses that hold one kind of coin.",
+       "text": "Children count the coins in a purse (quarters, dimes, nickels, and pennies), starting with the coins that are worth the most, and write the total in cents.",
        "lessons": [
         {
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Count coins"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Count mixed coins"
         }
        ]
       }
@@ -3556,7 +3838,7 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "Count by fives and tens"
         }
        ]
@@ -3588,10 +3870,10 @@
          "title": "Number of the day"
         },
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Jumps on the hundreds chart"
         }
        ]
@@ -3599,9 +3881,16 @@
       {
        "code": "1.5.E",
        "state": "near",
-       "text": "Children use the equal sign as a balance and write the number that makes both sides the same amount.",
+       "text": "Children decide whether an addition or subtraction equation within 20 is true or false, including equations that begin with the single number, such as 16 = 13 + 3.",
        "rel": "extends",
        "lessons": [
+        {
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "True or false?"
+        },
         {
          "unit": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
          "unitTitle": "Rounding, Adding, and Subtracting Within 1,000",
@@ -3627,7 +3916,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 4,
+         "n": 7,
          "title": "Addition pyramids (number walls)"
         },
         {
@@ -3648,7 +3937,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 3,
+         "n": 6,
          "title": "Add three groups"
         },
         {
@@ -3753,7 +4042,7 @@
          "unit": "shapes-all-around-kindergarten-unit",
          "unitTitle": "Shapes All Around",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Build shapes from pieces"
         },
         {
@@ -3811,6 +4100,13 @@
          "unitGrade": "1",
          "n": 2,
          "title": "Draw the clock hands"
+        },
+        {
+         "unit": "time-calendar-and-coins-grade-1-unit",
+         "unitTitle": "Time, Calendar, and Coins",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Match the clocks"
         }
        ]
       }
@@ -3850,13 +4146,20 @@
          "unitGrade": "1",
          "n": 6,
          "title": "Read and make a bar graph"
+        },
+        {
+         "unit": "graphs-and-grids-grade-2-unit",
+         "unitTitle": "Graphs and Grids",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Make a graph from counts"
         }
        ]
       },
       {
        "code": "1.8.C",
        "state": "taught",
-       "text": "Children count each kind in a mixed set, write the totals in a table, and read how many a picture graph shows in each row.",
+       "text": "Children read the counts for four groups and color one box in the graph for each one. Then, with the teacher, they compare the rows of the finished graph: how many more, how many fewer, how many in all.",
        "lessons": [
         {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
@@ -3871,6 +4174,13 @@
          "unitGrade": "1",
          "n": 6,
          "title": "Read and make a bar graph"
+        },
+        {
+         "unit": "graphs-and-grids-grade-2-unit",
+         "unitTitle": "Graphs and Grids",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Make a graph from counts"
         }
        ]
       }
@@ -3906,10 +4216,10 @@
    "metaDescription": "Second grade math TEKS checklist for Texas: each student expectation for the grade, the lessons and worksheets that teach it, and the ones we do not cover yet.",
    "counts": {
     "objectives": 50,
-    "taught": 20,
+    "taught": 21,
     "near": 4,
-    "open": 26,
-    "lessons": 32
+    "open": 25,
+    "lessons": 39
    },
    "groups": [
     {
@@ -3937,15 +4247,22 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 5,
+         "n": 4,
          "title": "Hundreds, tens, and ones"
         },
         {
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 6,
+         "n": 5,
          "title": "Expanded form and the value of a digit"
+        },
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Expanded form with a zero"
         }
        ]
       },
@@ -3958,15 +4275,22 @@
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 5,
+         "n": 4,
          "title": "Hundreds, tens, and ones"
         },
         {
          "unit": "place-value-to-1000-grade-2-unit",
          "unitTitle": "Place Value to 1,000",
          "unitGrade": "2",
-         "n": 6,
+         "n": 5,
          "title": "Expanded form and the value of a digit"
+        },
+        {
+         "unit": "place-value-to-1000-grade-2-unit",
+         "unitTitle": "Place Value to 1,000",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Expanded form with a zero"
         }
        ]
       },
@@ -3998,10 +4322,10 @@
          "title": "Find a number on the number line"
         },
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 3,
+         "n": 1,
          "title": "A number line that does not start at zero"
         }
        ]
@@ -4019,10 +4343,10 @@
          "title": "Find a number on the number line"
         },
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 3,
+         "n": 1,
          "title": "A number line that does not start at zero"
         },
         {
@@ -4037,8 +4361,15 @@
       {
        "code": "2.3.A",
        "state": "taught",
-       "text": "Children tell equal parts from unequal parts and color one half, one third, or one fourth of a shape.",
+       "text": "Children decide whether a circle or a rectangle is cut into equal shares and circle the shapes that are. With the teacher they name two equal shares halves and four equal shares fourths.",
        "lessons": [
+        {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 8,
+         "title": "Equal shares: fair or not?"
+        },
         {
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
@@ -4068,6 +4399,13 @@
        "text": "Children tell equal parts from unequal parts and color one half, one third, or one fourth of a shape.",
        "lessons": [
         {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 8,
+         "title": "Equal shares: fair or not?"
+        },
+        {
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
@@ -4084,9 +4422,9 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
          "title": "Add and subtract to color"
         },
         {
@@ -4095,6 +4433,13 @@
          "unitGrade": "1",
          "n": 8,
          "title": "Fact fluency within 10"
+        },
+        {
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Make ten to add"
         }
        ]
       },
@@ -4104,24 +4449,31 @@
        "text": "Children add and subtract two-digit numbers, with jumps of tens and ones on a hundreds chart and with the numbers written in columns.",
        "lessons": [
         {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Jumps on the hundreds chart"
         },
         {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 3,
+         "title": "Jumps on an open number line"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 4,
          "title": "Add and subtract vertically"
         },
         {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Add and subtract within 100"
         }
        ]
@@ -4134,31 +4486,31 @@
        "lessons": [
         {
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
          "n": 1,
          "title": "Add with blocks"
         },
         {
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
          "n": 2,
+         "title": "Add three-digit numbers and make a new ten or hundred"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 1,000",
+         "unitGrade": "2",
+         "n": 3,
          "title": "Subtract with blocks"
         },
         {
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100 and 1,000",
+         "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
-         "n": 3,
-         "title": "Add and subtract vertically"
-        },
-        {
-         "unit": "measurement-time-and-money-grade-2-unit",
-         "unitTitle": "Measurement, Time, and Money",
-         "unitGrade": "2",
-         "n": 5,
-         "title": "Shopping with money"
+         "n": 4,
+         "title": "Subtract across zeros"
         }
        ]
       },
@@ -4171,8 +4523,15 @@
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Count coins"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Count mixed coins"
         }
        ]
       },
@@ -4222,16 +4581,16 @@
        "lessons": [
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
-         "unitTitle": "Putting Together and Number Bonds",
+         "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 7,
          "title": "Odd or even?"
         },
         {
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 2,
+         "n": 5,
          "title": "Odd and even numbers"
         },
         {
@@ -4290,6 +4649,20 @@
          "unitGrade": "2",
          "n": 1,
          "title": "Sort shapes by sides"
+        }
+       ]
+      },
+      {
+       "code": "2.9.C",
+       "state": "taught",
+       "text": "Children add and subtract two-digit numbers within 100 on an open number line: they mark the starting number, draw their jumps, and write the answer.",
+       "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Jumps on an open number line"
         }
        ]
       },
@@ -4363,8 +4736,7 @@
       "2.8.D",
       "2.8.E",
       "2.9.A",
-      "2.9.B",
-      "2.9.C"
+      "2.9.B"
      ]
     },
     {
@@ -4386,7 +4758,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "Each picture counts as two"
         }
        ]
@@ -4446,7 +4818,7 @@
     "taught": 29,
     "near": 2,
     "open": 22,
-    "lessons": 36
+    "lessons": 39
    },
    "groups": [
     {
@@ -4627,8 +4999,22 @@
       {
        "code": "3.4.A",
        "state": "taught",
-       "text": "Children add and subtract in columns within 1,000, regrouping when a place has more than nine or not enough to take away.",
+       "text": "Children add two three-digit numbers in columns when the ones make a new ten or the tens make a new hundred, and write the small 1 they carry above the next place.",
        "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 1,000",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Add three-digit numbers and make a new ten or hundred"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 1,000",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Subtract across zeros"
+        },
         {
          "unit": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
          "unitTitle": "Rounding, Adding, and Subtracting Within 1,000",
@@ -4726,6 +5112,13 @@
          "unitGrade": "3",
          "n": 4,
          "title": "Multiplication facts for 2 and 5"
+        },
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 4,
+         "title": "The facts we still need"
         }
        ]
       },
@@ -4801,7 +5194,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 4,
+         "n": 5,
          "title": "Multiplication and division word problems"
         }
        ]
@@ -4826,7 +5219,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 4,
+         "n": 5,
          "title": "Multiplication and division word problems"
         }
        ]
@@ -5028,7 +5421,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "Each picture counts as two"
         },
         {
@@ -5386,7 +5779,7 @@
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Ordinal numbers to tenth"
         },
         {
@@ -6169,7 +6562,7 @@
          "unit": "time-calendar-and-coins-grade-1-unit",
          "unitTitle": "Time, Calendar, and Coins",
          "unitGrade": "1",
-         "n": 3,
+         "n": 4,
          "title": "Yesterday, today, tomorrow, and the months"
         }
        ]

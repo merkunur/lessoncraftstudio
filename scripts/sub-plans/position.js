@@ -16,6 +16,7 @@
 function planWeeks(unitsFile) {
   const out = new Map();
   const unitById = new Map((unitsFile.units || []).map((u) => [u.id, u]));
+  const own = new Set();   // points placed by their own lesson
   for (const plan of unitsFile.plans || []) {
     // the class day on which each lesson is done (Part 4.8: a lesson carries 2 or 3 days, a unit ends with 3), so a
     // point is placed by the day ITS lesson is taught, not by the last week of the whole unit
@@ -25,7 +26,14 @@ function planWeeks(unitsFile) {
     for (const row of plan.units) {
       const unit = unitById.get(row.id);
       if (!unit) continue;
-      for (const l of unit.lessons) { day += l.days || 2; out.set(l.point, { plan: plan.id, to: row.to, of: plan.weeks, day, ofDays, grade: String(unit.grade) }); }
+      for (const l of unit.lessons) {
+        day += l.days || 2;
+        // a point may carry several lessons (Part 12.2). Its place in the year is the place of its OWN lesson (the one
+        // without an id); a further lesson, often in a later grade, does not move it. A point that has only further
+        // lessons is placed by the first of them.
+        const at = { plan: plan.id, to: row.to, of: plan.weeks, day, ofDays, grade: String(unit.grade) };
+        if (!l.id) { out.set(l.point, at); own.add(l.point); } else if (!own.has(l.point) && !out.has(l.point)) out.set(l.point, at);
+      }
       day += UNIT_END;
     }
   }

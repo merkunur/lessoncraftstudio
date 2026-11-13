@@ -22,10 +22,10 @@
    "metaDescription": "Kunskapsområdena i det centrala innehållet i matematik för årskurs 1–3 enligt Lgr22, vart och ett med våra lektioner och arbetsblad och antalet punkter som lektionerna täcker.",
    "counts": {
     "objectives": 22,
-    "taught": 15,
+    "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 102,
+    "lessons": 114,
     "parts": 6,
     "partsTaught": 6
    },
@@ -43,6 +43,17 @@
         "taught": 6
        },
        "units": [
+        {
+         "unit": "talen-0-10-antal-talrad-och-uppdelning-ak-1",
+         "unitTitle": "Talen 0–10: antal, talrad och uppdelning",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Större än, mindre än och lika med"
+          }
+         ]
+        },
         {
          "unit": "addition-och-subtraktion-0-10-ak-1",
          "unitTitle": "Addition och subtraktion 0–10",
@@ -129,12 +140,31 @@
          ]
         },
         {
+         "unit": "addition-och-subtraktion-0-20-ak-1",
+         "unitTitle": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Dubblor och nästan dubblor"
+          },
+          {
+           "n": 2,
+           "title": "Tiotalsövergång i addition: först till tian"
+          },
+          {
+           "n": 3,
+           "title": "Talfamiljer till 20"
+          }
+         ]
+        },
+        {
          "unit": "klockan-och-almanackan-ak-1",
          "unitTitle": "Klockan och almanackan",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Ordningstal till tionde"
           }
          ]
@@ -207,7 +237,7 @@
         },
         {
          "unit": "multiplikation-lika-grupper-2an-och-5an-ak-2",
-         "unitTitle": "Multiplikation: lika grupper, 2:an och 5:an",
+         "unitTitle": "Multiplikation: lika grupper, 2:an, 5:an och 10:an",
          "unitGrade": "2",
          "lessons": [
           {
@@ -233,6 +263,10 @@
           {
            "n": 8,
            "title": "2:ans och 5:ans tabell"
+          },
+          {
+           "n": 9,
+           "title": "10:ans tabell"
           }
          ]
         },
@@ -283,6 +317,10 @@
           {
            "n": 5,
            "title": "Uppställning med växling"
+          },
+          {
+           "n": 6,
+           "title": "Uppställning: subtraktion med växling över noll"
           }
          ]
         },
@@ -387,7 +425,7 @@
        "state": "taught",
        "counts": {
         "objectives": 4,
-        "taught": 3
+        "taught": 4
        },
        "units": [
         {
@@ -409,6 +447,21 @@
           {
            "n": 3,
            "title": "Mönster: två bilder saknas"
+          },
+          {
+           "n": 4,
+           "title": "Stegvisa instruktioner: följ och beskriv vägen"
+          }
+         ]
+        },
+        {
+         "unit": "addition-och-subtraktion-0-20-ak-1",
+         "unitTitle": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Likhetstecknet: sant eller falskt?"
           }
          ]
         },
@@ -425,7 +478,7 @@
         },
         {
          "unit": "multiplikation-lika-grupper-2an-och-5an-ak-2",
-         "unitTitle": "Multiplikation: lika grupper, 2:an och 5:an",
+         "unitTitle": "Multiplikation: lika grupper, 2:an, 5:an och 10:an",
          "unitGrade": "2",
          "lessons": [
           {
@@ -502,7 +555,7 @@
            "title": "Tangram"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Mäta längd med rutor"
           }
          ]
@@ -521,11 +574,15 @@
            "title": "I går, i dag, i morgon och årets månader"
           },
           {
-           "n": 4,
-           "title": "Klockan: hel och halv timme"
+           "n": 3,
+           "title": "Månader och årstider"
           },
           {
            "n": 5,
+           "title": "Klockan: hel och halv timme"
+          },
+          {
+           "n": 6,
            "title": "Rita visarna på klockan"
           }
          ]
@@ -564,22 +621,26 @@
           },
           {
            "n": 2,
-           "title": "Geometriska kroppar omkring oss"
+           "title": "Plan figur eller kropp?"
           },
           {
            "n": 3,
-           "title": "Sidoytor, kanter och hörn"
+           "title": "Geometriska kroppar omkring oss"
           },
           {
            "n": 4,
-           "title": "Är det en symmetrilinje?"
+           "title": "Sidoytor, kanter och hörn"
           },
           {
            "n": 5,
-           "title": "Gör klart den andra halvan"
+           "title": "Är det en symmetrilinje?"
           },
           {
            "n": 6,
+           "title": "Gör klart den andra halvan"
+          },
+          {
+           "n": 7,
            "title": "Tangram: vilken figur ligger som skuggbilden?"
           }
          ]
@@ -651,6 +712,17 @@
        },
        "units": [
         {
+         "unit": "sortera-uppskatta-och-dela-upp-tal-forskoleklass",
+         "unitTitle": "Sortera, uppskatta och dela upp tal",
+         "unitGrade": "K",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Klassens diagram: läs av staplarna"
+          }
+         ]
+        },
+        {
          "unit": "sortera-tabeller-och-diagram-ak-1",
          "unitTitle": "Sortera, tabeller och diagram",
          "unitGrade": "1",
@@ -708,6 +780,17 @@
           {
            "n": 5,
            "title": "Dubbelt och hälften"
+          }
+         ]
+        },
+        {
+         "unit": "multiplikation-lika-grupper-2an-och-5an-ak-2",
+         "unitTitle": "Multiplikation: lika grupper, 2:an, 5:an och 10:an",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 10,
+           "title": "Dubbelt och hälften upp till 100"
           }
          ]
         }

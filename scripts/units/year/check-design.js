@@ -66,9 +66,12 @@ function run(d) {
     const g = d.design[grade]; const w = 'grade ' + grade;
     if (!g) { fail('D1', w + ': not in the design'); continue; }
     const mine = live.filter((u) => String(u.grade) === grade);
-    const have = new Map(); for (const u of mine) for (const l of u.lessons) have.set(u.id + '#' + l.n, l);
+    // a lesson of today is named by its KEY (its id, or its teaching point): its number in the unit moves as the
+    // designed lessons are placed, its key does not
+    const have = new Map(); for (const u of mine) for (const l of u.lessons) have.set(l.id || l.point, l);
     const seen = new Map(); const titles = new Map(); let days = 0;
     const leftOut = (g.leftOut || []).map((x) => String(x.what));
+    const leftKeys = new Set((g.leftOut || []).map((x) => x.lesson).filter(Boolean));
     if (!Array.isArray(g.units) || !g.units.length) { fail('D1', w + ': no units'); continue; }
     const unitIds = new Set();
     for (const u of g.units) {
@@ -78,6 +81,8 @@ function run(d) {
       const isNew = /^new:/.test(u.id || '');
       if (isNew) { if (!/^new:[a-z0-9]+(?:-[a-z0-9]+)*$/.test(u.id)) fail('D5', uw + ': not a kebab id'); }
       else if (!mine.some((x) => x.id === u.id)) fail('D5', uw + ': no live ' + subject + ' unit of this grade has that id');
+      // a new unit that has been opened names the live unit it became
+      if (u.opened != null && (!isNew || !mine.some((x) => x.id === u.opened))) fail('D5', uw + ': opened as "' + u.opened + '", which is no live ' + subject + ' unit of this grade');
       if ((u.lessons || []).length < 4) { fail('D5', uw + ': a unit of ' + (u.lessons || []).length + ' lessons (a unit has at least 4, or it cannot be published)'); if (!(u.lessons || []).length) continue; }
       days += 3;
       for (const [i, l] of u.lessons.entries()) {
@@ -91,6 +96,9 @@ function run(d) {
           continue;
         }
         if (!l.new) { fail('D3', lw + ': neither existing nor new'); continue; }
+        // a new lesson that has been written and placed in a unit names the live lesson it became; it still counts
+        // with the days the design gave it
+        if (l.placed != null) { if (!have.has(l.placed)) fail('D1', lw + ' "' + l.title + '": placed as "' + l.placed + '", which is no live lesson of this grade'); else if (seen.has(l.placed)) fail('D1', lw + ': ' + l.placed + ' stands twice'); seen.set(l.placed, true); }
         if (!l.title || l.title.length < 4) fail('D3', lw + ': no title');
         else { const t = l.title.toLowerCase(); if (titles.has(t)) fail('D5', lw + ': the title "' + l.title + '" stands twice'); titles.set(t, true); }
         if (!(CHILDREN[loc] || CHILDREN.en).test(l.objective || '') || (l.objective || '').length < 40) fail('D3', lw + ' "' + l.title + '": the objective does not start with the children (' + (CHILDREN[loc] || CHILDREN.en).source + ') or is too short to say what they do');
@@ -100,13 +108,13 @@ function run(d) {
         days += [2, 3].includes(l.days) ? l.days : 2;
         if (l.tool != null && !d.tools.has(l.tool)) fail('D4', lw + ' "' + l.title + '": the site has no tool named "' + l.tool + '"');
         const s = String(l.source || '');
-        if (s.startsWith('point:')) { const p = d.pointList.find((x) => x.id === s.slice(6)); if (!p) fail('D4', lw + ' "' + l.title + '": ' + s + ' is no teaching point'); else if (taught.has(p.id)) fail('D4', lw + ' "' + l.title + '": ' + s + ' is taught by a live lesson already'); else if (!d.published(p)) fail('D4', lw + ' "' + l.title + '": ' + s + ' has no published page in this language (it is a new page to make, not ready material)'); }
+        if (s.startsWith('point:')) { const p = d.pointList.find((x) => x.id === s.slice(6)); if (!p) fail('D4', lw + ' "' + l.title + '": ' + s + ' is no teaching point'); else if (taught.has(p.id) && l.placed == null) fail('D4', lw + ' "' + l.title + '": ' + s + ' is taught by a live lesson already'); else if (!d.published(p)) fail('D4', lw + ' "' + l.title + '": ' + s + ' has no published page in this language (it is a new page to make, not ready material)'); }
         else if (s.startsWith('reuse:')) { if (!pageTitles.has(s.slice(6))) fail('D4', lw + ' "' + l.title + '": no live lesson hands out a page named "' + s.slice(6) + '"'); }
         else if (s === 'new' || s === 'teacher-led') { if (!l.page || l.page.length < 60) fail('D3', lw + ' "' + l.title + '": a ' + s + ' lesson must describe its page or routine (at least 60 characters)'); }
         else fail('D3', lw + ' "' + l.title + '": source "' + s + '"');
       }
     }
-    for (const [key, x] of have) if (!seen.has(key) && !leftOut.some((t) => t.includes(key) || t.toLowerCase().includes(x.title.toLowerCase()))) fail('D1', w + ': the live lesson ' + key + ' "' + x.title + '" is neither in the design nor in leftOut');
+    for (const [key, x] of have) if (!seen.has(key) && !leftKeys.has(key) && !leftOut.some((t) => t.includes(key) || t.toLowerCase().includes(x.title.toLowerCase()))) fail('D1', w + ': the live lesson ' + key + ' "' + x.title + '" is neither in the design nor in leftOut');
     // class days = teaching weeks × the sessions of mathematics in a week (5; the Swedish förskoleklass has 3)
     const total = d.pacing.teachingWeeks[grade] * ((d.pacing.daysPerWeek || {})[grade] || 5);
     if (days < Math.ceil(total * 0.95) || days > total) fail('D2', w + ': ' + days + ' class days counted; the year has ' + total + ' (95% to 100%: ' + Math.ceil(total * 0.95) + ' to ' + total + ')');

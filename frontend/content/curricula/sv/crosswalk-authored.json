@@ -3548,9 +3548,13 @@
     {
      "id": "IDH.1-3.2.1",
      "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.2.4",
+     "rel": "teaches"
     }
    ],
-   "why": "Reading symbols from a key is work with «analoga ... kartor» (SO) and «enkla kartors uppbyggnad» (IDH).",
+   "why": "Reading symbols from a key is work with «analoga ... kartor» (SO) and «enkla kartors uppbyggnad» (IDH). The pages Follow the Steps and Describe the Path (arrows and a number of squares in a grid) are «entydiga stegvisa instruktioner» and their symbols (MA): the year design places them in mathematics.",
    "review": "author-all"
   },
   "1:family-generations": {

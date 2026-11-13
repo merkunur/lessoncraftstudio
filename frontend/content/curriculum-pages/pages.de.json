@@ -22,10 +22,10 @@
    "metaDescription": "Die Kompetenzbereiche der KMK-Bildungsstandards Mathematik für die Grundschule, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 65,
-    "taught": 35,
+    "taught": 36,
     "near": 0,
     "open": 3,
-    "lessons": 95,
+    "lessons": 114,
     "parts": 19,
     "partsTaught": 16
    },
@@ -95,13 +95,24 @@
        },
        "units": [
         {
-         "unit": "plus-und-minus-bis-10-klasse-1",
-         "unitTitle": "Plus und Minus bis 10",
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
           }
          ]
         },
@@ -129,8 +140,19 @@
        },
        "units": [
         {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
+          }
+         ]
+        },
+        {
          "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-         "unitTitle": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
          "unitGrade": "1",
          "lessons": [
           {
@@ -169,13 +191,40 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-10-klasse-1",
+         "unitTitle": "Zahlen bis 10: zählen, schreiben und vergleichen",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Zahlen 1 bis 5: zählen und Ziffern schreiben"
+          },
+          {
+           "n": 3,
+           "title": "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr"
+          },
+          {
+           "n": 4,
+           "title": "Mehr, weniger, gleich viele: die Zeichen <, > und ="
+          },
+          {
+           "n": 5,
+           "title": "Die Zahlenreihe bis 10: Vorgänger und Nachfolger"
+          },
+          {
+           "n": 6,
+           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+          }
+         ]
+        },
+        {
          "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-         "unitTitle": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
          "unitGrade": "1",
          "lessons": [
           {
            "n": 1,
-           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+           "title": "Zahlen bis 20 in zwei Zehnerfeldern: ein Zehner und Einer"
           },
           {
            "n": 2,
@@ -247,7 +296,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Gerade und ungerade: zwei gleiche Teile"
           }
          ]
@@ -330,17 +379,28 @@
           {
            "n": 4,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
           {
-           "n": 5,
+           "n": 1,
            "title": "Aufgabenfamilien bis 10"
           },
           {
-           "n": 6,
+           "n": 2,
            "title": "Platzhalteraufgaben: Welche Zahl fehlt?"
           },
           {
-           "n": 8,
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 10"
           }
          ]
@@ -361,6 +421,25 @@
           {
            "n": 4,
            "title": "Zahlenmauern"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Plus über die 10: erst bis zur 10, dann weiter"
+          },
+          {
+           "n": 2,
+           "title": "Verdoppeln hilft: 6 + 7"
+          },
+          {
+           "n": 4,
+           "title": "Kopfrechnen bis 20"
           }
          ]
         },
@@ -401,8 +480,35 @@
            "title": "Das 2er- und das 5er-Einmaleins"
           },
           {
-           "n": 7,
+           "n": 6,
            "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
+          }
+         ]
+        },
+        {
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Das 10er-Einmaleins und die Kernaufgaben"
+          },
+          {
+           "n": 3,
+           "title": "Das 4er- und das 8er-Einmaleins: verdoppeln"
+          },
+          {
+           "n": 4,
+           "title": "Das 3er- und das 6er-Einmaleins"
+          },
+          {
+           "n": 5,
+           "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus"
+          },
+          {
+           "n": 6,
+           "title": "Die Einmaleinstafel: Was kann ich schon?"
           }
          ]
         },
@@ -424,7 +530,11 @@
            "title": "Wie oft passt die Zahl hinein? Sprünge bis zur Null"
           },
           {
-           "n": 6,
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          },
+          {
+           "n": 7,
            "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
           }
          ]
@@ -484,13 +594,24 @@
        },
        "units": [
         {
-         "unit": "plus-und-minus-bis-10-klasse-1",
-         "unitTitle": "Plus und Minus bis 10",
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
           }
          ]
         },
@@ -570,7 +691,7 @@
            "title": "Gestern, heute, morgen und die Monate"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
           }
          ]
@@ -581,7 +702,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -684,7 +805,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -818,7 +939,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -850,9 +971,16 @@
           {
            "n": 2,
            "title": "Punktefelder: Reihen und Spalten"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+         "unitGrade": "2",
+         "lessons": [
           {
-           "n": 6,
+           "n": 2,
            "title": "In Dreier- und Viererschritten zählen"
           }
          ]
@@ -863,7 +991,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Gerade und ungerade: zwei gleiche Teile"
           }
          ]
@@ -924,7 +1052,7 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 2
+        "taught": 3
        },
        "units": [
         {
@@ -935,17 +1063,25 @@
           {
            "n": 2,
            "title": "Tangram: Figuren legen"
+          },
+          {
+           "n": 3,
+           "title": "Rechts, links, oben, unten: Wege auf dem Gitterplan"
           }
          ]
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Tangram: Welche Figur passt zum Schattenbild?"
+          },
+          {
+           "n": 8,
+           "title": "Planquadrate: Wo liegt das Feld B2?"
           }
          ]
         },
@@ -989,7 +1125,7 @@
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
@@ -998,10 +1134,14 @@
           },
           {
            "n": 2,
-           "title": "Körper um uns herum"
+           "title": "Flach oder räumlich? Flächen und Körper unterscheiden"
           },
           {
            "n": 3,
+           "title": "Körper um uns herum"
+          },
+          {
+           "n": 4,
            "title": "Flächen, Kanten und Ecken zählen"
           }
          ]
@@ -1062,15 +1202,15 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Ist das eine Spiegelachse?"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Die andere Hälfte ergänzen"
           }
          ]
@@ -1109,11 +1249,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -1839,7 +1979,7 @@
     "taught": 35,
     "near": 0,
     "open": 1,
-    "lessons": 69,
+    "lessons": 82,
     "parts": 13,
     "partsTaught": 12
    },
@@ -1858,6 +1998,21 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-10-klasse-1",
+         "unitTitle": "Zahlen bis 10: zählen, schreiben und vergleichen",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Mehr, weniger, gleich viele: die Zeichen <, > und ="
+          },
+          {
+           "n": 6,
+           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+          }
+         ]
+        },
+        {
          "unit": "plus-und-minus-bis-10-klasse-1",
          "unitTitle": "Plus und Minus bis 10",
          "unitGrade": "1",
@@ -1874,13 +2029,9 @@
         },
         {
          "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-         "unitTitle": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
          "unitGrade": "1",
          "lessons": [
-          {
-           "n": 1,
-           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
-          },
           {
            "n": 2,
            "title": "Zahl des Tages"
@@ -1946,12 +2097,12 @@
          ]
         },
         {
-         "unit": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
-         "unitTitle": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 2,
            "title": "In Dreier- und Viererschritten zählen"
           }
          ]
@@ -1962,7 +2113,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Gerade und ungerade: zwei gleiche Teile"
           }
          ]
@@ -1995,17 +2146,28 @@
           {
            "n": 3,
            "title": "Verliebte Zahlen: zusammen 10"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
           {
-           "n": 5,
+           "n": 1,
            "title": "Aufgabenfamilien bis 10"
           },
           {
-           "n": 6,
+           "n": 2,
            "title": "Platzhalteraufgaben: Welche Zahl fehlt?"
           },
           {
-           "n": 8,
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 10"
           }
          ]
@@ -2026,6 +2188,25 @@
           {
            "n": 4,
            "title": "Zahlenmauern"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Plus über die 10: erst bis zur 10, dann weiter"
+          },
+          {
+           "n": 2,
+           "title": "Verdoppeln hilft: 6 + 7"
+          },
+          {
+           "n": 4,
+           "title": "Kopfrechnen bis 20"
           }
          ]
         },
@@ -2071,11 +2252,38 @@
           },
           {
            "n": 6,
+           "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
+          }
+         ]
+        },
+        {
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Das 10er-Einmaleins und die Kernaufgaben"
+          },
+          {
+           "n": 2,
            "title": "In Dreier- und Viererschritten zählen"
           },
           {
-           "n": 7,
-           "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
+           "n": 3,
+           "title": "Das 4er- und das 8er-Einmaleins: verdoppeln"
+          },
+          {
+           "n": 4,
+           "title": "Das 3er- und das 6er-Einmaleins"
+          },
+          {
+           "n": 5,
+           "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus"
+          },
+          {
+           "n": 6,
+           "title": "Die Einmaleinstafel: Was kann ich schon?"
           }
          ]
         },
@@ -2097,7 +2305,11 @@
            "title": "Wie oft passt die Zahl hinein? Sprünge bis zur Null"
           },
           {
-           "n": 6,
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          },
+          {
+           "n": 7,
            "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
           }
          ]
@@ -2141,13 +2353,28 @@
        },
        "units": [
         {
-         "unit": "plus-und-minus-bis-10-klasse-1",
-         "unitTitle": "Plus und Minus bis 10",
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
+          },
+          {
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
           }
          ]
         }
@@ -2181,11 +2408,11 @@
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Tangram: Welche Figur passt zum Schattenbild?"
           }
          ]
@@ -2219,7 +2446,7 @@
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
@@ -2228,10 +2455,14 @@
           },
           {
            "n": 2,
-           "title": "Körper um uns herum"
+           "title": "Flach oder räumlich? Flächen und Körper unterscheiden"
           },
           {
            "n": 3,
+           "title": "Körper um uns herum"
+          },
+          {
+           "n": 4,
            "title": "Flächen, Kanten und Ecken zählen"
           }
          ]
@@ -2261,15 +2492,15 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Ist das eine Spiegelachse?"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Die andere Hälfte ergänzen"
           }
          ]
@@ -2292,7 +2523,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -2363,7 +2594,7 @@
            "title": "Uhrzeiger einzeichnen"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
           }
          ]
@@ -2374,7 +2605,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -2435,7 +2666,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
           }
          ]
@@ -2446,7 +2677,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -2512,11 +2743,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -2580,7 +2811,7 @@
     "taught": 18,
     "near": 1,
     "open": 3,
-    "lessons": 27,
+    "lessons": 28,
     "parts": 13,
     "partsTaught": 9
    },
@@ -2644,6 +2875,17 @@
         "taught": 5
        },
        "units": [
+        {
+         "unit": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
+         "unitTitle": "Teilen: Verteilen, Aufteilen und die Hälfte",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          }
+         ]
+        },
         {
          "unit": "runden-und-schriftlich-rechnen-bis-1000-klasse-3",
          "unitTitle": "Runden und schriftlich rechnen bis 1000",
@@ -2891,11 +3133,11 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Hälften, Drittel und Viertel"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
           }
          ]
@@ -3527,10 +3769,10 @@
    "metaDescription": "Die Bereiche und Schwerpunkte des Lehrplans Mathematik für die Primarstufe in NRW, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 91,
-    "taught": 50,
+    "taught": 51,
     "near": 1,
     "open": 2,
-    "lessons": 91,
+    "lessons": 105,
     "parts": 16,
     "partsTaught": 13
    },
@@ -3549,6 +3791,21 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-10-klasse-1",
+         "unitTitle": "Zahlen bis 10: zählen, schreiben und vergleichen",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Mehr, weniger, gleich viele: die Zeichen <, > und ="
+          },
+          {
+           "n": 6,
+           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+          }
+         ]
+        },
+        {
          "unit": "plus-und-minus-bis-10-klasse-1",
          "unitTitle": "Plus und Minus bis 10",
          "unitGrade": "1",
@@ -3561,13 +3818,9 @@
         },
         {
          "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-         "unitTitle": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
          "unitGrade": "1",
          "lessons": [
-          {
-           "n": 1,
-           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
-          },
           {
            "n": 2,
            "title": "Zahl des Tages"
@@ -3637,12 +3890,12 @@
          ]
         },
         {
-         "unit": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
-         "unitTitle": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 2,
            "title": "In Dreier- und Viererschritten zählen"
           }
          ]
@@ -3653,11 +3906,11 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Gerade und ungerade: zwei gleiche Teile"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
           }
          ]
@@ -3728,18 +3981,29 @@
           {
            "n": 4,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
           {
-           "n": 5,
+           "n": 1,
            "title": "Aufgabenfamilien bis 10"
           },
           {
-           "n": 6,
+           "n": 2,
            "title": "Platzhalteraufgaben: Welche Zahl fehlt?"
           },
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
+          },
+          {
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
           }
          ]
         },
@@ -3751,6 +4015,17 @@
           {
            "n": 4,
            "title": "Zahlenmauern"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
           }
          ]
         },
@@ -3776,7 +4051,7 @@
            "title": "Mal-Sprünge am Zahlenstrahl"
           },
           {
-           "n": 7,
+           "n": 6,
            "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
           }
          ]
@@ -3797,6 +4072,10 @@
           {
            "n": 3,
            "title": "Wie oft passt die Zahl hinein? Sprünge bis zur Null"
+          },
+          {
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
           }
          ]
         },
@@ -3873,17 +4152,24 @@
           {
            "n": 3,
            "title": "Verliebte Zahlen: zusammen 10"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
           {
-           "n": 5,
+           "n": 1,
            "title": "Aufgabenfamilien bis 10"
           },
           {
-           "n": 6,
+           "n": 2,
            "title": "Platzhalteraufgaben: Welche Zahl fehlt?"
           },
           {
-           "n": 8,
+           "n": 5,
            "title": "Kopfrechnen bis 10"
           }
          ]
@@ -3900,6 +4186,25 @@
           {
            "n": 4,
            "title": "Zahlenmauern"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Plus über die 10: erst bis zur 10, dann weiter"
+          },
+          {
+           "n": 2,
+           "title": "Verdoppeln hilft: 6 + 7"
+          },
+          {
+           "n": 4,
+           "title": "Kopfrechnen bis 20"
           }
          ]
         },
@@ -3926,6 +4231,44 @@
          ]
         },
         {
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Das 10er-Einmaleins und die Kernaufgaben"
+          },
+          {
+           "n": 3,
+           "title": "Das 4er- und das 8er-Einmaleins: verdoppeln"
+          },
+          {
+           "n": 4,
+           "title": "Das 3er- und das 6er-Einmaleins"
+          },
+          {
+           "n": 5,
+           "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus"
+          },
+          {
+           "n": 6,
+           "title": "Die Einmaleinstafel: Was kann ich schon?"
+          }
+         ]
+        },
+        {
+         "unit": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
+         "unitTitle": "Teilen: Verteilen, Aufteilen und die Hälfte",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          }
+         ]
+        },
+        {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
          "unitGrade": "3",
@@ -3945,16 +4288,16 @@
        "state": "taught",
        "counts": {
         "objectives": 6,
-        "taught": 2
+        "taught": 3
        },
        "units": [
         {
-         "unit": "plus-und-minus-bis-10-klasse-1",
-         "unitTitle": "Plus und Minus bis 10",
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 8,
+           "n": 5,
            "title": "Kopfrechnen bis 10"
           }
          ]
@@ -3967,6 +4310,25 @@
           {
            "n": 3,
            "title": "Drei Gruppen addieren"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Plus über die 10: erst bis zur 10, dann weiter"
+          },
+          {
+           "n": 2,
+           "title": "Verdoppeln hilft: 6 + 7"
+          },
+          {
+           "n": 4,
+           "title": "Kopfrechnen bis 20"
           }
          ]
         },
@@ -4073,12 +4435,16 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Tangram: Welche Figur passt zum Schattenbild?"
+          },
+          {
+           "n": 8,
+           "title": "Planquadrate: Wo liegt das Feld B2?"
           }
          ]
         }
@@ -4108,14 +4474,14 @@
            "title": "Tangram: Figuren legen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
@@ -4123,7 +4489,11 @@
            "title": "Formen nach Ecken und Seiten sortieren"
           },
           {
-           "n": 6,
+           "n": 2,
+           "title": "Flach oder räumlich? Flächen und Körper unterscheiden"
+          },
+          {
+           "n": 7,
            "title": "Tangram: Welche Figur passt zum Schattenbild?"
           }
          ]
@@ -4180,15 +4550,19 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
            "n": 2,
-           "title": "Körper um uns herum"
+           "title": "Flach oder räumlich? Flächen und Körper unterscheiden"
           },
           {
            "n": 3,
+           "title": "Körper um uns herum"
+          },
+          {
+           "n": 4,
            "title": "Flächen, Kanten und Ecken zählen"
           }
          ]
@@ -4218,15 +4592,15 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Ist das eine Spiegelachse?"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Die andere Hälfte ergänzen"
           }
          ]
@@ -4245,11 +4619,11 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Die andere Hälfte ergänzen"
           }
          ]
@@ -4285,7 +4659,7 @@
            "title": "Uhrzeiger einzeichnen"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
           }
          ]
@@ -4296,7 +4670,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -4376,13 +4750,24 @@
        },
        "units": [
         {
-         "unit": "plus-und-minus-bis-10-klasse-1",
-         "unitTitle": "Plus und Minus bis 10",
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
           }
          ]
         },
@@ -4431,11 +4816,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -4985,7 +5370,7 @@
     "taught": 44,
     "near": 0,
     "open": 0,
-    "lessons": 65,
+    "lessons": 79,
     "parts": 4,
     "partsTaught": 4
    },
@@ -5017,14 +5402,14 @@
            "title": "Tangram: Figuren legen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
         },
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
@@ -5033,22 +5418,26 @@
           },
           {
            "n": 2,
-           "title": "Körper um uns herum"
+           "title": "Flach oder räumlich? Flächen und Körper unterscheiden"
           },
           {
            "n": 3,
-           "title": "Flächen, Kanten und Ecken zählen"
+           "title": "Körper um uns herum"
           },
           {
            "n": 4,
-           "title": "Ist das eine Spiegelachse?"
+           "title": "Flächen, Kanten und Ecken zählen"
           },
           {
            "n": 5,
-           "title": "Die andere Hälfte ergänzen"
+           "title": "Ist das eine Spiegelachse?"
           },
           {
            "n": 6,
+           "title": "Die andere Hälfte ergänzen"
+          },
+          {
+           "n": 7,
            "title": "Tangram: Welche Figur passt zum Schattenbild?"
           }
          ]
@@ -5077,6 +5466,21 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-10-klasse-1",
+         "unitTitle": "Zahlen bis 10: zählen, schreiben und vergleichen",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Mehr, weniger, gleich viele: die Zeichen <, > und ="
+          },
+          {
+           "n": 6,
+           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+          }
+         ]
+        },
+        {
          "unit": "plus-und-minus-bis-10-klasse-1",
          "unitTitle": "Plus und Minus bis 10",
          "unitGrade": "1",
@@ -5096,34 +5500,41 @@
           {
            "n": 4,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+         "unitTitle": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+         "unitGrade": "1",
+         "lessons": [
           {
-           "n": 5,
+           "n": 1,
            "title": "Aufgabenfamilien bis 10"
           },
           {
-           "n": 6,
+           "n": 2,
            "title": "Platzhalteraufgaben: Welche Zahl fehlt?"
           },
           {
-           "n": 7,
+           "n": 3,
            "title": "Rechengeschichten bis 10"
           },
           {
-           "n": 8,
+           "n": 4,
+           "title": "Die Rechnung zum Bild: Plus oder Minus?"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 10"
           }
          ]
         },
         {
          "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
-         "unitTitle": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
          "unitGrade": "1",
          "lessons": [
-          {
-           "n": 1,
-           "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz"
-          },
           {
            "n": 2,
            "title": "Zahl des Tages"
@@ -5158,6 +5569,29 @@
           {
            "n": 4,
            "title": "Zahlenmauern"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+         "unitTitle": "Plus über die 10 und Rechnen bis 20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Plus über die 10: erst bis zur 10, dann weiter"
+          },
+          {
+           "n": 2,
+           "title": "Verdoppeln hilft: 6 + 7"
+          },
+          {
+           "n": 3,
+           "title": "Rechengeschichten bis 20"
+          },
+          {
+           "n": 4,
+           "title": "Kopfrechnen bis 20"
           }
          ]
         },
@@ -5231,11 +5665,38 @@
           },
           {
            "n": 6,
+           "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
+          }
+         ]
+        },
+        {
+         "unit": "das-kleine-einmaleins-klasse-2",
+         "unitTitle": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Das 10er-Einmaleins und die Kernaufgaben"
+          },
+          {
+           "n": 2,
            "title": "In Dreier- und Viererschritten zählen"
           },
           {
-           "n": 7,
-           "title": "Malaufgaben zu Gruppen und großen Punktefeldern"
+           "n": 3,
+           "title": "Das 4er- und das 8er-Einmaleins: verdoppeln"
+          },
+          {
+           "n": 4,
+           "title": "Das 3er- und das 6er-Einmaleins"
+          },
+          {
+           "n": 5,
+           "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus"
+          },
+          {
+           "n": 6,
+           "title": "Die Einmaleinstafel: Was kann ich schon?"
           }
          ]
         },
@@ -5258,10 +5719,14 @@
           },
           {
            "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          },
+          {
+           "n": 5,
            "title": "Gerade und ungerade: zwei gleiche Teile"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
           }
          ]
@@ -5316,6 +5781,10 @@
           },
           {
            "n": 4,
+           "title": "Monate und Jahreszeiten"
+          },
+          {
+           "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
           }
          ]
@@ -5326,7 +5795,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -5376,11 +5845,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -5433,7 +5902,7 @@
     "taught": 22,
     "near": 0,
     "open": 0,
-    "lessons": 31,
+    "lessons": 32,
     "parts": 4,
     "partsTaught": 4
    },
@@ -5453,15 +5922,15 @@
        "units": [
         {
          "unit": "formen-koerper-und-symmetrie-klasse-2",
-         "unitTitle": "Formen, Körper und Symmetrie",
+         "unitTitle": "Formen, Körper, Symmetrie und Planquadrate",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 2,
+           "n": 3,
            "title": "Körper um uns herum"
           },
           {
-           "n": 3,
+           "n": 4,
            "title": "Flächen, Kanten und Ecken zählen"
           }
          ]
@@ -5512,6 +5981,17 @@
         "taught": 12
        },
        "units": [
+        {
+         "unit": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
+         "unitTitle": "Teilen: Verteilen, Aufteilen und die Hälfte",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          }
+         ]
+        },
         {
          "unit": "zahlen-bis-1000-klasse-3",
          "unitTitle": "Zahlen bis 1000",

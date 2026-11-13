@@ -1,66 +1,377 @@
 {
   "$comment": "Daily Teaching System, Part 1: each classroom tool (frontend/config/live-tool-slugs.ts TOOL_KEYS) → the teaching points it models. Hand-written from each tool's own page (frontend/messages/tool-content/en.json) on 2026-11-11 and audited by one pedagogy reviewer the same day (24 tools changed: points guessed from a tool's name were removed, missing ones added). A tool that runs the room rather than teaching a point has kind 'classroom' and no points; a tool whose subject no point covers yet has an empty list and a note. scripts/teaching-graph/gates.js fails on a tool that is missing here, on an unknown point, and on a tool listed here that no longer exists.",
   "tools": {
-    "ten-frame": { "points": ["K:count-how-many", "K:count-out-n", "K:subitize", "K:teen-numbers", "1:make-10"] },
-    "number-line": { "points": ["1:count-on-back-hops", "1:number-line-placement", "K:before-after-back"] },
-    "ruler": { "points": ["2:measure-with-ruler", "2:compare-lengths"] },
-    "sound-boxes": { "points": ["K:segment-phonemes", "1:phoneme-boxes"] },
-    "blending-board": { "points": ["K:cvc-build", "1:word-families-syllable-reading"] },
-    "letter-tiles": { "points": ["K:cvc-build", "1:spell-picture-words"] },
-    "calendar-wall": { "points": ["K:days-of-week", "1:days-months-seasons", "2:calendar"] },
-    "number-talk-easel": { "points": ["K:subitize"] },
-    "rekenrek": { "points": ["K:subitize", "1:make-10", "1:fluency-within-20", "K:number-bonds-k"] },
-    "class-timer": { "kind": "classroom", "points": [] },
-    "name-sticks": { "kind": "classroom", "points": [] },
-    "center-board": { "kind": "classroom", "points": [] },
-    "learning-clock": { "points": ["1:time-read", "1:time-set-hands", "2:time-5-min-quarter", "3:time-to-minute"] },
-    "place-value-lab": { "points": ["1:tens-and-ones", "2:read-build-3-digit", "2:expanded-form-digit-value", "1:number-words"] },
-    "picture-word-wall": { "points": ["K:word-picture-match"] },
-    "hush-owl": { "kind": "classroom", "points": [] },
-    "wodb": { "points": ["K:category-odd-one-out", "1:shape-attributes"] },
-    "story-line": { "points": ["K:story-sequencing", "1:story-sequencing", "2:retell-with-starters"] },
-    "fraction-kitchen": { "points": ["2:equal-shares-shapes", "3:fraction-unit-build", "3:partition-equal-areas"] },
-    "measurement-bench": { "points": ["1:measure-length-units", "2:mass-grams", "2:read-jugs"] },
-    "money-mat": { "points": ["1:coins", "2:shopping-money"] },
-    "choral-counting": { "points": ["1:skip-counting", "2:skip-count-5-10-100", "2:skip-count-3-4", "3:arithmetic-patterns"] },
-    "our-day": { "kind": "classroom", "points": [] },
-    "heart-words": { "points": ["K:sight-words-reading"] },
-    "syllable-splitter": { "points": ["K:count-syllables", "1:syllables-split"] },
-    "estimation-jar": { "points": ["K:estimate"] },
-    "feelings-check-in": { "points": ["K:feelings"] },
-    "letter-studio": { "points": ["K:letter-formation", "K:numeral-formation"] },
-    "open-number-line": { "points": ["1:open-number-line", "1:mental-math-to-100"] },
-    "part-whole-frame": { "points": ["K:number-bonds-k", "1:make-10"] },
-    "dictation-desk": { "points": ["1:spell-picture-words", "1:digraphs"] },
-    "home-language-bridge": { "points": [], "kind": "classroom" },
-    "sorting-hoops": { "points": ["K:category-sort", "3:two-attribute-sort"] },
-    "number-balance": { "points": ["1:true-false-equations", "1:missing-number-equations", "3:balance-equations"] },
-    "pattern-bench": { "points": ["K:patterns", "1:patterns-missing"] },
-    "reading-easel": { "points": [], "note": "reading fluency (phrasing): no teaching point covers fluency yet" },
-    "class-graph": { "points": ["1:picture-graphs-sort-count", "1:bar-graphs", "2:bar-graphs"] },
-    "folding-sheet": { "points": ["K:mirror-image", "2:symmetry-line", "2:symmetry-complete", "3:symmetry"] },
-    "number-sieve": { "points": [], "note": "numbers sorted out by a clue that acts (a property of number): no single teaching point covers it" },
-    "arrow-strip": { "points": [], "note": "directions, turns and a plan of moves: no teaching point covers it yet" },
-    "draw-bag": { "points": [], "note": "chance and likelihood: no teaching point covers it yet" },
-    "lids": { "points": ["1:missing-number-equations", "2:share-and-group", "3:division-sharing", "3:division-remainder"] },
-    "unit-handle": { "points": ["1:measure-length-units"], "note": "what it models most exactly is \"a smaller unit gives a bigger number\" (2.MD.A.2), which no teaching point holds; measuring with units is the nearest" },
-    "unroll-tape": { "points": ["3:perimeter"] },
-    "comparison-planks": { "points": ["2:compare-lengths", "1:bar-model"] },
-    "cold-line": { "points": [], "note": "a scale turned upright and flat, the distance between two marks, numbers below zero: no teaching point covers it yet" },
-    "build-plan": { "points": [], "note": "a building from its height numbers and its flat views: no teaching point covers it yet" },
-    "exchange-machine": { "points": ["2:bundle-ten-ones", "2:column-method", "3:column-regrouping"] },
-    "baking-tray": { "points": ["3:times-tables", "3:area-model", "3:mult-equal-groups", "2:arrays"] },
-    "folding-wall": { "points": ["3:times-tables", "3:commutative"] },
-    "counting-cups": { "points": ["2:bundle-ten-ones", "1:tens-and-ones"] },
-    "number-hotel": { "points": ["1:hundreds-chart", "2:hundreds-chart-moves", "1:one-ten-more-less"] },
-    "number-drum": { "points": ["1:tens-and-ones", "1:one-ten-more-less"] },
-    "landing-strip": { "points": ["1:number-line-placement", "2:number-line-not-from-zero"] },
-    "rounding-hill": { "points": ["2:round-to-ten", "3:rounding"] },
-    "pair-gate": { "points": ["K:odd-even-pairing", "1:odd-even-pairs", "2:odd-even", "3:division-remainder"] },
-    "doubling-mirror": { "points": ["1:doubles-halves"] },
-    "missing-question": { "points": ["1:word-problems"] },
-    "the-gap": { "points": ["K:count-on", "1:missing-number-equations"] },
-    "shape-stretcher": { "points": ["K:shape-naming", "1:shape-attributes", "3:classify-quadrilaterals", "3:right-angles"] },
-    "the-queue": { "points": ["K:ordinal-position", "1:ordinal-numbers", "K:conservation", "K:count-how-many"] }
+    "ten-frame": {
+      "points": [
+        "K:count-how-many",
+        "K:count-out-n",
+        "K:subitize",
+        "K:teen-numbers",
+        "1:make-10",
+        "K:one-more-one-less",
+        "K:take-away"
+      ]
+    },
+    "number-line": {
+      "points": [
+        "1:count-on-back-hops",
+        "1:number-line-placement",
+        "K:before-after-back",
+        "K:compare-groups"
+      ]
+    },
+    "ruler": {
+      "points": [
+        "2:measure-with-ruler",
+        "2:compare-lengths"
+      ]
+    },
+    "sound-boxes": {
+      "points": [
+        "K:segment-phonemes",
+        "1:phoneme-boxes"
+      ]
+    },
+    "blending-board": {
+      "points": [
+        "K:cvc-build",
+        "1:word-families-syllable-reading"
+      ]
+    },
+    "letter-tiles": {
+      "points": [
+        "K:cvc-build",
+        "1:spell-picture-words"
+      ]
+    },
+    "calendar-wall": {
+      "points": [
+        "K:days-of-week",
+        "1:days-months-seasons",
+        "2:calendar",
+        "1:days-months-seasons~season-wheel"
+      ]
+    },
+    "number-talk-easel": {
+      "points": [
+        "K:subitize"
+      ]
+    },
+    "rekenrek": {
+      "points": [
+        "K:subitize",
+        "1:make-10",
+        "1:fluency-within-20",
+        "K:number-bonds-k"
+      ]
+    },
+    "class-timer": {
+      "kind": "classroom",
+      "points": []
+    },
+    "name-sticks": {
+      "kind": "classroom",
+      "points": []
+    },
+    "center-board": {
+      "kind": "classroom",
+      "points": []
+    },
+    "learning-clock": {
+      "points": [
+        "1:time-read",
+        "1:time-set-hands",
+        "2:time-5-min-quarter",
+        "3:time-to-minute"
+      ]
+    },
+    "place-value-lab": {
+      "points": [
+        "1:tens-and-ones",
+        "2:read-build-3-digit",
+        "2:expanded-form-digit-value",
+        "1:number-words"
+      ]
+    },
+    "picture-word-wall": {
+      "points": [
+        "K:word-picture-match"
+      ]
+    },
+    "hush-owl": {
+      "kind": "classroom",
+      "points": []
+    },
+    "wodb": {
+      "points": [
+        "K:category-odd-one-out",
+        "1:shape-attributes"
+      ]
+    },
+    "story-line": {
+      "points": [
+        "K:story-sequencing",
+        "1:story-sequencing",
+        "2:retell-with-starters"
+      ]
+    },
+    "fraction-kitchen": {
+      "points": [
+        "2:equal-shares-shapes",
+        "3:fraction-unit-build",
+        "3:partition-equal-areas"
+      ]
+    },
+    "measurement-bench": {
+      "points": [
+        "1:measure-length-units",
+        "2:mass-grams",
+        "2:read-jugs"
+      ]
+    },
+    "money-mat": {
+      "points": [
+        "1:coins",
+        "2:shopping-money"
+      ]
+    },
+    "choral-counting": {
+      "points": [
+        "1:skip-counting",
+        "2:skip-count-5-10-100",
+        "2:skip-count-3-4",
+        "3:arithmetic-patterns"
+      ]
+    },
+    "our-day": {
+      "kind": "classroom",
+      "points": []
+    },
+    "heart-words": {
+      "points": [
+        "K:sight-words-reading"
+      ]
+    },
+    "syllable-splitter": {
+      "points": [
+        "K:count-syllables",
+        "1:syllables-split"
+      ]
+    },
+    "estimation-jar": {
+      "points": [
+        "K:estimate"
+      ]
+    },
+    "feelings-check-in": {
+      "points": [
+        "K:feelings"
+      ]
+    },
+    "letter-studio": {
+      "points": [
+        "K:letter-formation",
+        "K:numeral-formation"
+      ]
+    },
+    "open-number-line": {
+      "points": [
+        "1:open-number-line",
+        "1:mental-math-to-100"
+      ]
+    },
+    "part-whole-frame": {
+      "points": [
+        "K:number-bonds-k",
+        "1:make-10"
+      ]
+    },
+    "dictation-desk": {
+      "points": [
+        "1:spell-picture-words",
+        "1:digraphs"
+      ]
+    },
+    "home-language-bridge": {
+      "points": [],
+      "kind": "classroom"
+    },
+    "sorting-hoops": {
+      "points": [
+        "K:category-sort",
+        "3:two-attribute-sort"
+      ]
+    },
+    "number-balance": {
+      "points": [
+        "1:true-false-equations",
+        "1:missing-number-equations",
+        "3:balance-equations"
+      ]
+    },
+    "pattern-bench": {
+      "points": [
+        "K:patterns",
+        "1:patterns-missing"
+      ]
+    },
+    "reading-easel": {
+      "points": [],
+      "note": "reading fluency (phrasing): no teaching point covers fluency yet"
+    },
+    "class-graph": {
+      "points": [
+        "1:picture-graphs-sort-count",
+        "1:bar-graphs",
+        "2:bar-graphs"
+      ]
+    },
+    "folding-sheet": {
+      "points": [
+        "K:mirror-image",
+        "2:symmetry-line",
+        "2:symmetry-complete",
+        "3:symmetry"
+      ]
+    },
+    "number-sieve": {
+      "points": [],
+      "note": "numbers sorted out by a clue that acts (a property of number): no single teaching point covers it"
+    },
+    "arrow-strip": {
+      "points": [],
+      "note": "directions, turns and a plan of moves: no teaching point covers it yet"
+    },
+    "draw-bag": {
+      "points": [],
+      "note": "chance and likelihood: no teaching point covers it yet"
+    },
+    "lids": {
+      "points": [
+        "1:missing-number-equations",
+        "2:share-and-group",
+        "3:division-sharing",
+        "3:division-remainder"
+      ]
+    },
+    "unit-handle": {
+      "points": [
+        "1:measure-length-units"
+      ],
+      "note": "what it models most exactly is \"a smaller unit gives a bigger number\" (2.MD.A.2), which no teaching point holds; measuring with units is the nearest"
+    },
+    "unroll-tape": {
+      "points": [
+        "3:perimeter"
+      ]
+    },
+    "comparison-planks": {
+      "points": [
+        "2:compare-lengths",
+        "1:bar-model"
+      ]
+    },
+    "cold-line": {
+      "points": [],
+      "note": "a scale turned upright and flat, the distance between two marks, numbers below zero: no teaching point covers it yet"
+    },
+    "build-plan": {
+      "points": [],
+      "note": "a building from its height numbers and its flat views: no teaching point covers it yet"
+    },
+    "exchange-machine": {
+      "points": [
+        "2:bundle-ten-ones",
+        "2:column-method",
+        "3:column-regrouping"
+      ]
+    },
+    "baking-tray": {
+      "points": [
+        "3:times-tables",
+        "3:area-model",
+        "3:mult-equal-groups",
+        "2:arrays"
+      ]
+    },
+    "folding-wall": {
+      "points": [
+        "3:times-tables",
+        "3:commutative"
+      ]
+    },
+    "counting-cups": {
+      "points": [
+        "2:bundle-ten-ones",
+        "1:tens-and-ones"
+      ]
+    },
+    "number-hotel": {
+      "points": [
+        "1:hundreds-chart",
+        "2:hundreds-chart-moves",
+        "1:one-ten-more-less"
+      ]
+    },
+    "number-drum": {
+      "points": [
+        "1:tens-and-ones",
+        "1:one-ten-more-less"
+      ]
+    },
+    "landing-strip": {
+      "points": [
+        "1:number-line-placement",
+        "2:number-line-not-from-zero"
+      ]
+    },
+    "rounding-hill": {
+      "points": [
+        "2:round-to-ten",
+        "3:rounding"
+      ]
+    },
+    "pair-gate": {
+      "points": [
+        "K:odd-even-pairing",
+        "1:odd-even-pairs",
+        "2:odd-even",
+        "3:division-remainder"
+      ]
+    },
+    "doubling-mirror": {
+      "points": [
+        "1:doubles-halves",
+        "1:near-doubles"
+      ]
+    },
+    "missing-question": {
+      "points": [
+        "1:word-problems",
+        "1:write-the-equation"
+      ]
+    },
+    "the-gap": {
+      "points": [
+        "K:count-on",
+        "1:missing-number-equations"
+      ]
+    },
+    "shape-stretcher": {
+      "points": [
+        "K:shape-naming",
+        "1:shape-attributes",
+        "3:classify-quadrilaterals",
+        "3:right-angles"
+      ]
+    },
+    "the-queue": {
+      "points": [
+        "K:ordinal-position",
+        "1:ordinal-numbers",
+        "K:conservation",
+        "K:count-how-many"
+      ]
+    }
   }
 }

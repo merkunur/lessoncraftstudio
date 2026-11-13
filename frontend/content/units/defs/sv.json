@@ -99,7 +99,8 @@
      "types": [
       "K-008",
       "K-009"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "K:numeral-formation",
@@ -205,8 +206,8 @@
    "subject": "math",
    "title": "Sortera, uppskatta och dela upp tal",
    "metaTitle": "Matematik förskoleklass: Sortera, uppskatta och dela upp tal",
-   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Sortera, uppskatta och dela upp tal”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 4,
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Sortera, uppskatta och dela upp tal”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "K:classify-count-kinds",
@@ -214,6 +215,18 @@
       "K-013",
       "K-060"
      ]
+    },
+    {
+     "point": "1:bar-graphs",
+     "id": "1:bar-graphs#klassens-diagram",
+     "types": [
+      "G1-143"
+     ],
+     "core": {
+      "G1-143": 1
+     },
+     "tool": "class-graph",
+     "activity": null
     },
     {
      "point": "K:estimate",
@@ -233,6 +246,15 @@
       "K-273"
      ],
      "activity": null
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#dela-upp-6-till-10",
+     "types": [
+      "K-274"
+     ],
+     "tool": "part-whole-frame",
+     "activity": "chuffer.rail-decompose.k-oa-a-3"
     }
    ]
   },
@@ -384,6 +406,74 @@
    ]
   },
   {
+   "id": "sv-1-ma-talen-0-10",
+   "slug": "talen-0-10-antal-talrad-och-uppdelning-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Talen 0–10: antal, talrad och uppdelning",
+   "metaTitle": "Matematik åk 1: Talen 0–10 | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Talen 0–10: antal, talrad och uppdelning”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "K:count-how-many",
+     "id": "K:count-how-many#talen-till-10-i-tiorutan",
+     "types": [
+      "K-004"
+     ],
+     "tool": "ten-frame",
+     "standards": [
+      "MA.1-3.1.1"
+     ],
+     "standardsRel": {
+      "MA.1-3.1.1": "teaches"
+     }
+    },
+    {
+     "point": "K:before-after-back",
+     "id": "K:before-after-back#talraden-till-10",
+     "types": [
+      "K-021",
+      "K-023"
+     ],
+     "core": {
+      "K-021": 1
+     },
+     "tool": "number-line",
+     "standards": [
+      "MA.1-3.1.1"
+     ],
+     "standardsRel": {
+      "MA.1-3.1.1": "teaches"
+     }
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "id": "1:compare-order-two-digit#storre-mindre-lika",
+     "types": [
+      "G1-114"
+     ],
+     "activity": "friendship-bridge.compare-balance.k-cc-c-6"
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#talhus",
+     "types": [
+      "K-456"
+     ],
+     "tool": "part-whole-frame",
+     "activity": "clunks-lost-lunch.make-total.k-oa-a-3",
+     "standards": [
+      "MA.1-3.1.1"
+     ],
+     "standardsRel": {
+      "MA.1-3.1.1": "teaches"
+     }
+    }
+   ]
+  },
+  {
    "id": "sv-1-ma-add-sub-0-10",
    "slug": "addition-och-subtraktion-0-10-ak-1",
    "status": "live",
@@ -496,7 +586,7 @@
    "subject": "math",
    "title": "Former, mönster och längd",
    "metaTitle": "Matematik åk 1: Former, mönster och längd | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
    "weeks": 3,
    "lessons": [
     {
@@ -517,6 +607,16 @@
      "point": "1:patterns-missing",
      "types": [
       "G1-155"
+     ]
+    },
+    {
+     "point": "1:map-key",
+     "types": [
+      "G1-528",
+      "G1-529"
+     ],
+     "standards": [
+      "MA.1-3.2.4"
      ]
     },
     {
@@ -588,6 +688,53 @@
    ]
   },
   {
+   "id": "sv-1-ma-add-sub-0-20",
+   "slug": "addition-och-subtraktion-0-20-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
+   "metaTitle": "Matematik åk 1: Addition och subtraktion 0–20 | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 4 lektioner om dubblor, tiotalsövergång, talfamiljer och likhetstecknet, med lärarkommentar.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "1:near-doubles",
+     "types": [
+      "G1-449"
+     ],
+     "tool": "doubling-mirror"
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#tiotalsovergang-addition",
+     "types": [
+      "G1-439"
+     ],
+     "core": {
+      "G1-439": 1
+     },
+     "tool": "rekenrek",
+     "activity": "ten-stones.add-sub-within-20.1-oa-c-6"
+    },
+    {
+     "point": "1:fact-families",
+     "id": "1:fact-families#talfamiljer-till-20",
+     "types": [
+      "G1-220"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:true-false-equations",
+     "types": [
+      "G1-443"
+     ],
+     "tool": "number-balance"
+    }
+   ]
+  },
+  {
    "id": "sv-1-ma-klockan-almanackan",
    "slug": "klockan-och-almanackan-ak-1",
    "status": "live",
@@ -595,8 +742,8 @@
    "subject": "math",
    "title": "Klockan och almanackan",
    "metaTitle": "Matematik åk 1: Klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Klockan och almanackan”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:days-of-week",
@@ -610,6 +757,16 @@
      "types": [
       "G1-319",
       "G1-320"
+     ]
+    },
+    {
+     "point": "1:days-months-seasons~season-wheel",
+     "types": [
+      "G1-323"
+     ],
+     "tool": "calendar-wall",
+     "standards": [
+      "MA.1-3.3.3"
      ]
     },
     {
@@ -953,10 +1110,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Multiplikation: lika grupper, 2:an och 5:an",
-   "metaTitle": "Matematik åk 2: Multiplikation – lika grupper, 2:an och 5:an",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Multiplikation: lika grupper, 2:an och 5:an”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 5,
+   "title": "Multiplikation: lika grupper, 2:an, 5:an och 10:an",
+   "metaTitle": "Matematik åk 2: Multiplikation – lika grupper, 2:an, 5:an och 10:an",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, ”Multiplikation: lika grupper, 2:an, 5:an och 10:an”: 10 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 6,
    "lessons": [
     {
      "point": "1:skip-counting",
@@ -1013,6 +1170,26 @@
       "G3-364",
       "G3-365"
      ]
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#tians-tabell",
+     "types": [
+      "G3-366"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:doubles-halves",
+     "id": "1:doubles-halves#dubbelt-och-halften-upp-till-100",
+     "types": [
+      "G1-451"
+     ],
+     "core": {
+      "G1-451": 3
+     },
+     "tool": "doubling-mirror",
+     "activity": null
     }
    ]
   },
@@ -1024,7 +1201,7 @@
    "subject": "math",
    "title": "Geometriska objekt, symmetri och rutnät",
    "metaTitle": "Matematik åk 2: Geometriska objekt, symmetri och rutnät",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 4,
    "lessons": [
     {
@@ -1032,6 +1209,13 @@
      "types": [
       "G2-241"
      ]
+    },
+    {
+     "point": "2:flat-or-solid",
+     "types": [
+      "G2-244"
+     ],
+     "activity": null
     },
     {
      "point": "2:solids-in-real-life",
@@ -1345,8 +1529,8 @@
    "subject": "math",
    "title": "Avrundning, överslag och uppställning",
    "metaTitle": "Matematik åk 3: Avrundning, överslag och uppställning",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:round-to-ten",
@@ -1383,6 +1567,15 @@
       "G3-359",
       "G3-360"
      ]
+    },
+    {
+     "point": "3:column-regrouping",
+     "id": "3:column-regrouping#subtraktion-over-noll",
+     "types": [
+      "G3-362"
+     ],
+     "tool": "exchange-machine",
+     "activity": "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7"
     }
    ]
   },
@@ -1805,10 +1998,12 @@
    "metaTitle": "Matematik åk 1: planering för {weeks} veckor ({units} arbetsområden)",
    "metaDescription": "{units} arbetsområden i matematik för åk 1 i undervisningsordning, cirka {weeks} veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
    "units": [
+    "sv-1-ma-talen-0-10",
     "sv-1-ma-add-sub-0-10",
     "sv-1-ma-talkamrater",
     "sv-1-ma-former-monster-langd",
     "sv-1-ma-tal-0-20",
+    "sv-1-ma-add-sub-0-20",
     "sv-1-ma-klockan-almanackan",
     "sv-1-ma-diagram"
    ]

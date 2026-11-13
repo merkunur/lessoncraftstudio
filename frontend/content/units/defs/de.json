@@ -2,6 +2,66 @@
  "$comment": "The German units (Part 4.5). Hand-kept source; first written by scripts/units/lists/build-de-defs.js, which says how the list follows the German state curricula.",
  "units": [
   {
+   "id": "de1-zahlen-bis-10",
+   "slug": "zahlen-bis-10-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
+   "metaTitle": "Mathe Klasse 1: Zahlen bis 10 | Unterrichtseinheit",
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zum Sortieren, zum Zählen und Ziffernschreiben bis 10, zum Vergleichen mit <, > und =, zu Vorgänger, Nachfolger und Ordnungszahlen.",
+   "weeks": 4,
+   "lessons": [
+    {
+     "point": "1:sort-three-groups",
+     "types": [
+      "G1-160"
+     ],
+     "activity": "choice-board.sort-count.k-md-b-3"
+    },
+    {
+     "point": "K:numeral-formation",
+     "types": [
+      "K-467"
+     ],
+     "core": {
+      "K-467": 1
+     }
+    },
+    {
+     "point": "K:count-how-many",
+     "types": [
+      "K-004"
+     ]
+    },
+    {
+     "point": "1:compare-order-two-digit",
+     "id": "1:compare-order-two-digit#mehr-weniger-gleich",
+     "types": [
+      "G1-114"
+     ],
+     "activity": "friendship-bridge.compare-balance.k-cc-c-6"
+    },
+    {
+     "point": "K:before-after-back",
+     "types": [
+      "K-021",
+      "K-023"
+     ],
+     "core": {
+      "K-021": 1
+     }
+    },
+    {
+     "point": "1:ordinal-numbers",
+     "types": [
+      "G1-315",
+      "G1-316"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-add-subtract-within-10",
    "slug": "plus-und-minus-bis-10-klasse-1",
    "status": "live",
@@ -9,8 +69,8 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zu Plus und Minus bis 10, jede mit Lehrerhinweis, Arbeitsblättern (meist in drei Stufen) und einer Übung am Bildschirm.",
-   "weeks": 5,
+   "metaDescription": "Zwei Wochen Mathe Klasse 1: 4 Stunden zum Dazutun und Wegnehmen bis 10, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl, jede mit Lehrerhinweis.",
+   "weeks": 2,
    "lessons": [
     {
      "point": "1:add-within-10-models",
@@ -42,7 +102,20 @@
       "G1-117"
      ],
      "activity": null
-    },
+    }
+   ]
+  },
+  {
+   "id": "de1-aufgabenfamilien-rechengeschichten",
+   "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
+   "metaTitle": "Mathe Klasse 1: Aufgabenfamilien und Rechengeschichten bis 10",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zu Aufgabenfamilien, Platzhalteraufgaben und Rechengeschichten bis 10, zur Rechnung zum Bild und zum Kopfrechnen.",
+   "weeks": 3,
+   "lessons": [
     {
      "point": "1:fact-families",
      "types": [
@@ -66,6 +139,16 @@
      "activity": null
     },
     {
+     "point": "1:write-the-equation",
+     "types": [
+      "G1-444"
+     ],
+     "core": {
+      "G1-444": 3
+     },
+     "tool": "missing-question"
+    },
+    {
      "point": "1:fluency-within-20",
      "types": [
       "G1-214"
@@ -80,16 +163,15 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Zahlen bis 20: Zahlwörter und Zahlenstrahl",
-   "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zahlwörter und Zahlenstrahl",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu Ordnungszahlen, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl bis 20 und 30.",
+   "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+   "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zehner, Einer und Zahlenstrahl",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu den Zahlen bis 20 in zwei Zehnerfeldern, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl.",
    "weeks": 3,
    "lessons": [
     {
-     "point": "1:ordinal-numbers",
+     "point": "K:teen-numbers",
      "types": [
-      "G1-315",
-      "G1-316"
+      "K-448"
      ]
     },
     {
@@ -156,6 +238,56 @@
    ]
   },
   {
+   "id": "de1-zehneruebergang",
+   "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Plus über die 10 und Rechnen bis 20",
+   "metaTitle": "Mathe Klasse 1: Plus über die 10 und Rechnen bis 20",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Plusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten bis 20 und zum Kopfrechnen bis 20.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#plus-ueber-die-10",
+     "types": [
+      "G1-439"
+     ],
+     "core": {
+      "G1-439": 1
+     },
+     "tool": "rekenrek",
+     "activity": "ten-stones.add-sub-within-20.1-oa-c-6"
+    },
+    {
+     "point": "1:near-doubles",
+     "types": [
+      "G1-449"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#rechengeschichten-bis-20",
+     "types": [
+      "G1-213"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#kopfrechnen-bis-20",
+     "types": [
+      "G1-208",
+      "G1-216",
+      "G1-217"
+     ],
+     "tool": "rekenrek",
+     "activity": "match-pairs.match-facts-to-20.2-oa-b-2"
+    }
+   ]
+  },
+  {
    "id": "g1-time-calendar-coins",
    "slug": "uhr-kalender-und-geld-klasse-1",
    "status": "live",
@@ -163,7 +295,7 @@
    "subject": "math",
    "title": "Uhr, Kalender und Geld",
    "metaTitle": "Mathe Klasse 1: Uhr, Kalender und Geld | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen und Monaten und zu Geldbeträgen mit Münzen.",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen, Monaten und Jahreszeiten und zu Münzen.",
    "weeks": 3,
    "lessons": [
     {
@@ -188,6 +320,13 @@
      ]
     },
     {
+     "point": "1:days-months-seasons~season-wheel",
+     "types": [
+      "G1-323"
+     ],
+     "tool": "calendar-wall"
+    },
+    {
      "point": "1:coins",
      "types": [
       "G1-228",
@@ -204,7 +343,7 @@
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
    "metaTitle": "Mathe Klasse 1: Formen, Messen und Diagramme | Unterrichtseinheit",
-   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zu Formen, zum Tangram, zum Messen von Längen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern, mit Lehrerhinweisen.",
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 7 Stunden zu Formen, Tangram, Wegen auf dem Gitterplan, zum Messen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern.",
    "weeks": 4,
    "lessons": [
     {
@@ -219,6 +358,16 @@
      "types": [
       "G1-354",
       "G1-355"
+     ]
+    },
+    {
+     "point": "1:map-key",
+     "types": [
+      "G1-528",
+      "G1-529"
+     ],
+     "standards": [
+      "M.4.1.1"
      ]
     },
     {
@@ -398,7 +547,7 @@
    "subject": "math",
    "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
    "metaTitle": "Mathe Klasse 2: Malnehmen – Gruppen, Felder und erste Einmaleinsreihen",
-   "metaDescription": "Vier Wochen Mathe Klasse 2: 7 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden vom Plus zum Mal, zu Punktefeldern, Tauschaufgaben, Mal-Sprüngen und dem 2er- und 5er-Einmaleins, jede mit Lehrerhinweis.",
    "weeks": 4,
    "lessons": [
     {
@@ -437,6 +586,37 @@
      ]
     },
     {
+     "point": "3:mult-equal-groups",
+     "types": [
+      "G3-302",
+      "G3-301"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de2-einmaleins-reihen",
+   "slug": "das-kleine-einmaleins-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
+   "metaTitle": "Mathe Klasse 2: Das kleine Einmaleins – die Reihen von 3 bis 10",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden zum 10er-Einmaleins und den Kernaufgaben, zu den Reihen mit 3, 4, 6, 7, 8 und 9 und zur Einmaleinstafel, jede mit Lehrerhinweis.",
+   "weeks": 4,
+   "lessons": [
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#zehner-einmaleins",
+     "types": [
+      "G3-366"
+     ],
+     "core": {
+      "G3-366": 1
+     },
+     "activity": null
+    },
+    {
      "point": "2:skip-count-3-4",
      "types": [
       "G2-207",
@@ -444,11 +624,43 @@
      ]
     },
     {
-     "point": "3:mult-equal-groups",
+     "point": "3:times-tables",
+     "id": "3:times-tables#vierer-und-achter",
      "types": [
-      "G3-302",
-      "G3-301"
-     ]
+      "G3-368",
+      "G3-404"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#dreier-und-sechser",
+     "types": [
+      "G3-367",
+      "G3-402"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#neuner-und-siebener",
+     "types": [
+      "G3-405",
+      "G3-403"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#einmaleins-tafel",
+     "types": [
+      "G3-407"
+     ],
+     "core": {
+      "G3-407": 3
+     },
+     "tool": "folding-wall",
+     "activity": null
     }
    ]
   },
@@ -460,7 +672,7 @@
    "subject": "math",
    "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
    "metaTitle": "Mathe Klasse 2: Teilen – Verteilen, Aufteilen und die Hälfte",
-   "metaDescription": "Vier Wochen Mathe Klasse 2: 6 Stunden zum Verteilen und Aufteilen, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften, Dritteln und Vierteln.",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 7 Stunden zum Verteilen und Aufteilen, zu Umkehraufgaben, zu geraden und ungeraden Zahlen und, als Vorgriff, zu Hälften und Vierteln.",
    "weeks": 4,
    "lessons": [
     {
@@ -481,6 +693,15 @@
      "types": [
       "G3-310"
      ]
+    },
+    {
+     "point": "3:mult-div-relationship",
+     "id": "3:mult-div-relationship#umkehraufgaben",
+     "types": [
+      "G3-311",
+      "G3-369"
+     ],
+     "activity": null
     },
     {
      "point": "2:odd-even",
@@ -511,16 +732,23 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Formen, Körper und Symmetrie",
-   "metaTitle": "Mathe Klasse 2: Formen, Körper und Symmetrie | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 2: 6 Stunden zu Formen und ihren Ecken und Seiten, zu Körpern mit Flächen, Kanten und Ecken, zu Spiegelachsen und Tangram.",
-   "weeks": 3,
+   "title": "Formen, Körper, Symmetrie und Planquadrate",
+   "metaTitle": "Mathe Klasse 2: Formen, Körper, Symmetrie und Planquadrate",
+   "metaDescription": "Vier Wochen Mathe Klasse 2: 8 Stunden zu Formen, Flächen und Körpern, zu Flächen, Kanten und Ecken, zu Spiegelachsen, Tangram und Planquadraten.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:2d-attributes",
      "types": [
       "G2-241"
      ]
+    },
+    {
+     "point": "2:flat-or-solid",
+     "types": [
+      "G2-244"
+     ],
+     "activity": null
     },
     {
      "point": "2:solids-in-real-life",
@@ -557,6 +785,14 @@
      "types": [
       "G2-347"
      ]
+    },
+    {
+     "point": "2:grid-coordinates",
+     "types": [
+      "G2-279",
+      "G2-308"
+     ],
+     "activity": null
     }
    ]
   },
@@ -1284,9 +1520,12 @@
    "metaTitle": "Mathe Klasse 1: Stoffverteilung für {weeks} Wochen ({units} Einheiten)",
    "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
+    "de1-zahlen-bis-10",
     "g1-add-subtract-within-10",
+    "de1-aufgabenfamilien-rechengeschichten",
     "de1-zahlen-bis-20",
     "g1-doubles-three-addends-number-walls",
+    "de1-zehneruebergang",
     "g1-time-calendar-coins",
     "g1-shapes-measuring-graphs"
    ]
@@ -1303,6 +1542,7 @@
     "de2-zahlen-bis-100",
     "de2-groessen-daten",
     "de2-malnehmen",
+    "de2-einmaleins-reihen",
     "de2-teilen",
     "g2-shapes-solids-symmetry"
    ]

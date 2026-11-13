@@ -53,9 +53,12 @@ scp -q -i "$KEY" "$HOST:/root/ladders/*.json" "$ROOT/scripts/worksheet-gen/out/l
 ssh -i "$KEY" "$HOST" "rm -rf /root/ladders"
 (cd "$ROOT" && node scripts/worksheet-gen/tools/level-set/teacher-sheet.js --ladders=scripts/worksheet-gen/out/ladders --locales=all --codes="$CODES" | tail -11)
 TAR="$(mktemp -u).tar"
-( cd "$ROOT/scripts/worksheet-gen/out/teacher-sheets" && LIST=""; for l in en de es fr it pt nl sv da no fi; do for c in $(echo "$CODES" | tr ',' ' '); do [ -f "$l/$c-teacher-sheet.pdf" ] && LIST="$LIST $l/$c-teacher-sheet.pdf"; done; done; tar -cf "$TAR" $LIST; echo "class sheets: $(tar -tf "$TAR" | wc -l)" )
-scp -q -i "$KEY" "$TAR" "$HOST:/tmp/$PREFIX-sheets.tar"; rm -f "$TAR"
-ssh -i "$KEY" "$HOST" "set -e; cd /var/www/lcs-media/level-sets && tar -xf /tmp/$PREFIX-sheets.tar && rm -f /tmp/$PREFIX-sheets.tar && chown -R lcs-media:lcs-media /var/www/lcs-media/level-sets && echo uploaded"
+( cd "$ROOT/scripts/worksheet-gen/out/teacher-sheets" && LIST=""; for l in en de es fr it pt nl sv da no fi; do for c in $(echo "$CODES" | tr ',' ' '); do [ -f "$l/$c-teacher-sheet.pdf" ] && LIST="$LIST $l/$c-teacher-sheet.pdf"; done; done; if [ -n "$LIST" ]; then tar -cf "$TAR" $LIST; echo "class sheets: $(tar -tf "$TAR" | wc -l)"; else echo "class sheets: none (the batch has no ladder: a type with one level, such as a reader)"; fi )
+# a batch without ladders (readers: one book, one level) has no class sheet to upload
+if [ -f "$TAR" ]; then
+  scp -q -i "$KEY" "$TAR" "$HOST:/tmp/$PREFIX-sheets.tar"; rm -f "$TAR"
+  ssh -i "$KEY" "$HOST" "set -e; cd /var/www/lcs-media/level-sets && tar -xf /tmp/$PREFIX-sheets.tar && rm -f /tmp/$PREFIX-sheets.tar && chown -R lcs-media:lcs-media /var/www/lcs-media/level-sets && echo uploaded"
+fi
 
 echo "== 4. the catalogue table and the asset index"
 scp -q -i "$KEY" "$HOST:/tmp/$PREFIX-rows.tsv" "$ROOT/out/teaching-graph/$PREFIX-rows.tsv"

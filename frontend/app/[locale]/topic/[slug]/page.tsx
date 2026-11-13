@@ -24,6 +24,7 @@ import {
   getFacetCounts,
   listAllNonEmptyThemesWithCounts,
   listNonEmptyAxisKeys,
+  FAMILIES_WITH_OWN_HUB,
   TopicDeckSummary,
   TOPIC_PAGE_SIZE,
   TopicSortKey,
@@ -318,6 +319,8 @@ export async function generateMetadata({
   return {
     title: renderedTitle,
     description,
+    // a family with a hub of its own (the readers): this automatic page is for the family's own links, not for search
+    ...(axis === 'exercise-type' && FAMILIES_WITH_OWN_HUB.has(axisKey) ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical,
       languages: hreflangAlternates,

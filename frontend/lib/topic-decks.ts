@@ -108,6 +108,15 @@ export async function fetchDecksForAxis(
  * of rows, and generateMetadata runs on every render). Returns null when the
  * axis-key resolves to nothing — callers treat that as "no decks".
  */
+/**
+ * Worksheet families that get a hub of their OWN: their automatic topic page `/topic/<family>` still answers (the
+ * pages of the family link to it), but it is `noindex` and stands in no sitemap, footer or topic index. The readers
+ * (Daily Teaching System, Part 8) are books, published as never-indexed pages; their hubs by set and by level are
+ * designed pages that come with the first 60 books. Without this, the taxonomy entry alone would create an
+ * indexable "Readers" topic page that lists never-indexed books.
+ */
+export const FAMILIES_WITH_OWN_HUB: ReadonlySet<string> = new Set(['readers']);
+
 export async function axisWhere(
   axis: Axis,
   axisKey: string,
@@ -223,7 +232,7 @@ export async function listNonEmptyAxisKeys(
       _count: { _all: true },
     });
     const present = new Set(grouped.map(g => g.exerciseType));
-    return listAxisKeys(axis).filter(k => present.has(k));
+    return listAxisKeys(axis).filter(k => present.has(k) && !FAMILIES_WITH_OWN_HUB.has(k));
   }
   if (axis === 'theme') {
     const decks = await prisma.deck.findMany({
@@ -272,6 +281,7 @@ export async function listNonEmptyAxisKeysWithCounts(
     });
     const countByType = new Map(grouped.map(g => [g.exerciseType, g._count._all]));
     return listAxisKeys(axis)
+      .filter(k => !FAMILIES_WITH_OWN_HUB.has(k))
       .filter(k => countByType.has(k))
       .map(k => ({ axisKey: k, count: countByType.get(k) ?? 0 }));
   }

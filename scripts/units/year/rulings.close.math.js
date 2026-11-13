@@ -28,13 +28,13 @@ const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
     // Kindergarten
-    'K-002': C('six tasks with unequal rows and a decision (more, fewer, the same); today one task with equal rows'),
+    'K-002': N('K-641', 'built: two rows to pair column by column, circle the row with more or color the star (Match Them Up)', 2),
     'K-003': U('one direction a task, with pictures; level 3 mixes one more and one less', 3),
     'K-004': U('six pairs of written numbers; the number line on top is on the projector tool', 1),
     'K-005': U('the dot-paper page; sides and corners are counted aloud'),
     'K-007': C('the cone is missing from the solids'),
     'K-008': U('tracing lanes for 11 to 20'),
-    'K-009': C('any number from 11 to 20 in even rows; today only 12, 15, 16 and 20'),
+    'K-009': N('K-640', 'built: 11 to 20 pictures in rows of five, any number (Count and Write: 11 to 20)', 2),
     'K-010': U('the same task with totals to 10'),
     'K-011': U('counters crossed out on the ten-frame', 2),
     'K-012': U('add-to stories with a picture and one answer box (Kindergarten solves with drawings)', 1),
@@ -53,7 +53,7 @@ module.exports = {
     '1-027': U('true or false, within 10 at level 1, within 20 with all three forms above'),
     '1-028': U('the double is printed at level 1', 1),
     '1-029': U('level 1 is addition only, across ten, with the first task worked', 1),
-    '1-030': C('all three numbers stand on the roof: a level where the child finds the missing part'),
+    '1-030': N('G1-566', 'built: the trio subtraction, number bond with one part empty, helper addition (Think Addition to Subtract)', 2),
     '1-031': B('a put-together story with a bar model and an equation frame (the bar page has no story)'),
     '1-032': C('a line for the equation with a box for the unknown under each story'),
     '1-033': U('compare stories with the two amounts as rows of pictures'),

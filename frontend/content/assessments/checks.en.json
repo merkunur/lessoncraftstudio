@@ -740,21 +740,21 @@
     },
     {
      "part": 5,
-     "lesson": 9,
+     "lesson": 10,
      "title": "More and fewer",
      "type": "K-008",
      "tasks": 1
     },
     {
      "part": 6,
-     "lesson": 10,
+     "lesson": 11,
      "title": "One more, one less",
      "type": "K-443",
      "tasks": 1
     },
     {
      "part": 7,
-     "lesson": 11,
+     "lesson": 12,
      "title": "Which number is greater?",
      "type": "K-606",
      "tasks": 2
@@ -764,7 +764,8 @@
     1,
     2,
     3,
-    7
+    7,
+    9
    ],
    "forms": {
     "A": {
@@ -1142,21 +1143,28 @@
    "parts": [
     {
      "part": 1,
-     "lesson": 4,
-     "title": "Before, after, and counting back",
-     "type": "K-021",
+     "lesson": 2,
+     "title": "Count and write how many: up to 20",
+     "type": "K-640",
      "tasks": 2
     },
     {
      "part": 2,
      "lesson": 5,
+     "title": "Before, after, and counting back",
+     "type": "K-021",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 6,
      "title": "Count on from a number",
      "type": "K-444",
      "tasks": 1
     },
     {
-     "part": 3,
-     "lesson": 6,
+     "part": 4,
+     "lesson": 7,
      "title": "First, second, third",
      "type": "K-030",
      "tasks": 1
@@ -1164,13 +1172,17 @@
    ],
    "notCovered": [
     1,
-    2,
-    3
+    3,
+    4
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
+      [
+       "33bf669b20a7c4c9",
+       "d2172a0a9f45d026"
+      ],
       [
        "3b0eeb4d03f8e20d",
        "3cfc40a12c0f3000"
@@ -1188,6 +1200,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1195,6 +1211,10 @@
       ]
      ],
      "kinds": [
+      [
+       "?",
+       "?"
+      ],
       [
        "? w ?",
        "? w ?"
@@ -1208,6 +1228,10 @@
      ],
      "sizes": [
       [
+       18,
+       15
+      ],
+      [
        16,
        9
       ],
@@ -1220,8 +1244,12 @@
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
+      [
+       "a59d0f3f72a34525",
+       "ce95a1b8902509c5"
+      ],
       [
        "ba0698fac2bc8a0b",
        "cb347a2a40332065"
@@ -1239,6 +1267,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1246,6 +1278,10 @@
       ]
      ],
      "kinds": [
+      [
+       "?",
+       "?"
+      ],
       [
        "? w ?",
        "? w ?"
@@ -1258,6 +1294,10 @@
       ]
      ],
      "sizes": [
+      [
+       19,
+       14
+      ],
       [
        13,
        8
@@ -1491,32 +1531,39 @@
     },
     {
      "part": 4,
-     "lesson": 5,
+     "lesson": 4,
+     "title": "Think addition to subtract",
+     "type": "G1-566",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 6,
      "title": "Odd and even numbers",
      "type": "G1-370",
      "tasks": 2
     },
     {
-     "part": 5,
-     "lesson": 6,
+     "part": 6,
+     "lesson": 7,
      "title": "Add three groups",
      "type": "G1-112",
      "tasks": 1
     },
     {
-     "part": 6,
-     "lesson": 7,
+     "part": 7,
+     "lesson": 8,
      "title": "Addition pyramids (number walls)",
      "type": "G1-266",
      "tasks": 2
     }
    ],
    "notCovered": [
-    4
+    5
    ],
    "forms": {
     "A": {
-     "pages": 3,
+     "pages": 4,
      "cards": [
       [
        "4f5f910cd323bc3e",
@@ -1528,6 +1575,9 @@
       ],
       [
        "24aab57f278b8c4d"
+      ],
+      [
+       "007058a32bea892b"
       ],
       [
        "38c32f92aa8b4cef",
@@ -1554,6 +1604,9 @@
        null
       ],
       [
+       null
+      ],
+      [
        1,
        0
       ],
@@ -1576,6 +1629,9 @@
       ],
       [
        "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w − w = ? w w ? w + ? = w"
       ],
       [
        "choose 1",
@@ -1602,6 +1658,9 @@
        20
       ],
       [
+       15
+      ],
+      [
        0,
        0
       ],
@@ -1615,7 +1674,7 @@
      ]
     },
     "B": {
-     "pages": 3,
+     "pages": 4,
      "cards": [
       [
        "78ee3d32ce0d6edc",
@@ -1627,6 +1686,9 @@
       ],
       [
        "911962dff35d3f8a"
+      ],
+      [
+       "b4f5c02b0f3cfe9a"
       ],
       [
        "31d639803b53952f",
@@ -1647,6 +1709,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1677,6 +1742,9 @@
        "w + w = w + ? + ? = ? w w w w w"
       ],
       [
+       "w − w = ? w w ? w + ? = w"
+      ],
+      [
        "choose 1",
        "choose 1"
       ],
@@ -1699,6 +1767,9 @@
       ],
       [
        20
+      ],
+      [
+       14
       ],
       [
        0,

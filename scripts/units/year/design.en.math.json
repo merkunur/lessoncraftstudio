@@ -116,7 +116,8 @@
             "days": 2,
             "tool": "Rekenrek",
             "source": "new",
-            "page": "Ten tasks. Each shows a subtraction (13 - 8 = _), a number bond with the whole and one part filled in, and the helper equation 8 + _ = 13. The child fills the bond, the helper equation, and then the subtraction. Wholes from 11 to 18; the part taken away is 5 to 9."
+            "page": "Ten tasks. Each shows a subtraction (13 - 8 = _), a number bond with the whole and one part filled in, and the helper equation 8 + _ = 13. The child fills the bond, the helper equation, and then the subtraction. Wholes from 11 to 18; the part taken away is 5 to 9.",
+            "placed": "1:fact-families#think-addition-to-subtract"
           },
           {
             "existing": "1:add-three-addends",
@@ -1569,7 +1570,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six tasks, each with two rows of pictures that belong together (bees and flowers, dogs and bones), 1 to 10 in each row. The child draws a line from each picture in the top row to one in the bottom row, then circles the row with pictures left over, or colors the 'same' star when every picture has a partner. Two of the six tasks have equal groups. In class the child first pairs real cubes of two colors."
+            "page": "Six tasks, each with two rows of pictures that belong together (bees and flowers, dogs and bones), 1 to 10 in each row. The child draws a line from each picture in the top row to one in the bottom row, then circles the row with pictures left over, or colors the 'same' star when every picture has a partner. Two of the six tasks have equal groups. In class the child first pairs real cubes of two colors.",
+            "placed": "K:compare-groups#match-them-up"
           },
           {
             "new": true,
@@ -1673,7 +1675,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "reuse:Count and Write",
-            "page": "The same page as Count and Write with groups of 11 to 20 pictures set out in a line, in rows of five or in a circle (never scattered); the child counts and writes the number in the box. In class children count real collections first and mark where they started."
+            "page": "The same page as Count and Write with groups of 11 to 20 pictures set out in a line, in rows of five or in a circle (never scattered); the child counts and writes the number in the box. In class children count real collections first and mark where they started.",
+            "placed": "K:count-how-many#count-and-write-up-to-20"
           },
           {
             "existing": "K:count-forward-missing",

@@ -202,7 +202,7 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A five-week Kindergarten math unit: 11 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
+   "metaDescription": "A five-week Kindergarten math unit: 12 lessons on counting and writing numbers to 10, quick looks, matching and comparing groups, and one more and one less.",
    "weeks": 5,
    "lessons": [
     {
@@ -270,6 +270,18 @@
      "types": [
       "K-018",
       "K-017"
+     ]
+    },
+    {
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#match-them-up",
+     "types": [
+      "K-641"
+     ],
+     "tool": "ten-frame",
+     "activity": null,
+     "standards": [
+      "K.CC.C.6"
      ]
     },
     {
@@ -364,7 +376,7 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting in Order to 20",
-   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on writing 11 to 20, counting forward and back, connecting dots in order, counting on, and first, second, third.",
+   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on writing 11 to 20, counting up to 20 things, counting forward and back, counting on, and first, second, third.",
    "weeks": 3,
    "lessons": [
     {
@@ -374,6 +386,19 @@
       "K-253"
      ],
      "activity": "rivets-number-forge.numeral-album.k-cc-a-3"
+    },
+    {
+     "point": "K:count-how-many",
+     "id": "K:count-how-many#count-and-write-up-to-20",
+     "types": [
+      "K-640"
+     ],
+     "tool": "ten-frame",
+     "activity": null,
+     "standards": [
+      "K.CC.B.5",
+      "K.CC.A.3"
+     ]
     },
     {
      "point": "K:count-forward-missing",
@@ -736,8 +761,8 @@
    "subject": "math",
    "title": "Doubles, Three Addends, and Addition Pyramids",
    "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
-   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on doubles and near doubles, making ten to add, true and false equations, odd and even, three addends, and addition pyramids.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on doubles and near doubles, making ten, thinking addition to subtract, true or false equations, odd and even, and three addends.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:doubles-halves",
@@ -767,6 +792,18 @@
      },
      "tool": "rekenrek",
      "activity": "ten-stones.add-sub-within-20.1-oa-c-6"
+    },
+    {
+     "point": "1:fact-families",
+     "id": "1:fact-families#think-addition-to-subtract",
+     "types": [
+      "G1-566"
+     ],
+     "tool": "number-balance",
+     "activity": null,
+     "standards": [
+      "1.OA.B.4"
+     ]
     },
     {
      "point": "1:true-false-equations",

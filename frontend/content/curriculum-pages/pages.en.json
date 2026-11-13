@@ -23,7 +23,7 @@
     "taught": 23,
     "near": 1,
     "open": 0,
-    "lessons": 51
+    "lessons": 53
    },
    "groups": [
     {
@@ -73,28 +73,28 @@
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Fill in the missing numbers"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Connect the dots in order"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Before, after, and counting back"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Count on from a number"
         }
        ]
@@ -130,7 +130,7 @@
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
          "n": 2,
-         "title": "Fill in the missing numbers"
+         "title": "Count and write how many: up to 20"
         }
        ]
       },
@@ -186,14 +186,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 10,
+         "n": 11,
          "title": "One more, one less"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Before, after, and counting back"
         }
        ]
@@ -225,24 +225,31 @@
          "title": "How many? Look fast"
         },
         {
-         "unit": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
-         "unitTitle": "Sorting, Tallies, and the Days of the Week",
+         "unit": "counting-in-order-to-20-kindergarten-unit",
+         "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
          "n": 2,
-         "title": "Tally marks"
+         "title": "Count and write how many: up to 20"
         }
        ]
       },
       {
        "code": "K.CC.C.6",
        "state": "taught",
-       "text": "Children compare two groups and tell which has more and which has fewer.",
+       "text": "Children match the pictures in two rows one-to-one and say which row has more, which has fewer, or that both rows have the same number.",
        "lessons": [
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
          "n": 9,
+         "title": "Match them up: more, fewer, or the same"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 10,
          "title": "More and fewer"
         }
        ]
@@ -256,7 +263,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 11,
+         "n": 12,
          "title": "Which number is greater?"
         }
        ]
@@ -632,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 42
+    "lessons": 43
    },
    "groups": [
     {
@@ -662,7 +669,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Add three groups"
         }
        ]
@@ -676,7 +683,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Add three groups"
         },
         {
@@ -691,7 +698,7 @@
       {
        "code": "1.OA.B.4",
        "state": "taught",
-       "text": "Children use three related numbers to write the two addition facts and the two subtraction facts that belong together.",
+       "text": "Children subtract from numbers 11 to 18 by finding the unknown addend, for example solving 13 − 8 by asking 8 + ? = 13.",
        "lessons": [
         {
          "unit": "addition-and-subtraction-within-10-grade-1-unit",
@@ -699,6 +706,13 @@
          "unitGrade": "1",
          "n": 5,
          "title": "Fact families to 10"
+        },
+        {
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "Think addition to subtract"
         }
        ]
       },
@@ -760,7 +774,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "True or false?"
         }
        ]
@@ -781,7 +795,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 7,
+         "n": 8,
          "title": "Addition pyramids (number walls)"
         }
        ]
@@ -1175,7 +1189,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Odd and even numbers"
         },
         {
@@ -3198,7 +3212,7 @@
     "taught": 19,
     "near": 0,
     "open": 15,
-    "lessons": 44
+    "lessons": 46
    },
    "groups": [
     {
@@ -3226,28 +3240,28 @@
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Fill in the missing numbers"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Connect the dots in order"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Before, after, and counting back"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Count on from a number"
         }
        ]
@@ -3307,18 +3321,18 @@
          "title": "Still the same number"
         },
         {
-         "unit": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
-         "unitTitle": "Sorting, Tallies, and the Days of the Week",
+         "unit": "counting-in-order-to-20-kindergarten-unit",
+         "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 1,
-         "title": "Count each kind"
+         "n": 2,
+         "title": "Count and write how many: up to 20"
         },
         {
          "unit": "sorting-tallies-and-the-days-of-the-week-kindergarten-unit",
          "unitTitle": "Sorting, Tallies, and the Days of the Week",
          "unitGrade": "K",
-         "n": 3,
-         "title": "Take a good guess"
+         "n": 1,
+         "title": "Count each kind"
         }
        ]
       },
@@ -3359,14 +3373,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 10,
+         "n": 11,
          "title": "One more, one less"
         },
         {
          "unit": "counting-in-order-to-20-kindergarten-unit",
          "unitTitle": "Counting in Order to 20",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Before, after, and counting back"
         }
        ]
@@ -3374,20 +3388,27 @@
       {
        "code": "K.2.G",
        "state": "taught",
-       "text": "Children compare two groups and tell which has more and which has fewer.",
+       "text": "Children match the pictures in two rows one-to-one and say which row has more, which has fewer, or that both rows have the same number.",
        "lessons": [
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
          "n": 9,
+         "title": "Match them up: more, fewer, or the same"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 10,
          "title": "More and fewer"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 11,
+         "n": 12,
          "title": "Which number is greater?"
         }
        ]
@@ -3689,7 +3710,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 53
+    "lessons": 54
    },
    "groups": [
     {
@@ -4123,7 +4144,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "True or false?"
         },
         {
@@ -4151,7 +4172,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 7,
+         "n": 8,
          "title": "Addition pyramids (number walls)"
         },
         {
@@ -4172,7 +4193,14 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 6,
+         "n": 4,
+         "title": "Think addition to subtract"
+        },
+        {
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
+         "unitGrade": "1",
+         "n": 7,
          "title": "Add three groups"
         },
         {
@@ -4825,7 +4853,7 @@
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
          "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Odd and even numbers"
         },
         {

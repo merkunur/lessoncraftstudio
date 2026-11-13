@@ -1113,8 +1113,8 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A five-week Kindergarten math unit: 11 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
-   "days": 25,
+   "metaDescription": "A five-week Kindergarten math unit: 12 lessons on counting and writing numbers to 10, quick looks, matching and comparing groups, and one more and one less.",
+   "days": 27,
    "weeks": 5,
    "lessons": [
     {
@@ -1523,6 +1523,45 @@
     {
      "n": 9,
      "point": "K:compare-groups",
+     "title": "Match them up: more, fewer, or the same",
+     "objective": "Children match the pictures in two rows one-to-one and say which row has more, which has fewer, or that both rows have the same number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.C.6",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-641",
+       "title": "Match Them Up: More, Fewer, or the Same",
+       "core": "comparing-groups-occupations-k641-2",
+       "easy": "comparing-groups-easy-reptiles-and-amphibians-k641",
+       "hard": "comparing-groups-hard-classroom-k641"
+      }
+     ],
+     "id": "K:compare-groups#match-them-up",
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "exit": {
+      "slug": "comparing-groups-vegetables-k641-4",
+      "title": "Match Them Up: More, Fewer, or the Same"
+     },
+     "note": {
+      "mistake": "Children pick a row by looking, without pairing: they choose the row with the bigger pictures, or, with loose cubes, the row that is spread out longer. Some draw two lines to one picture or skip a picture, so the wrong number of pictures is left over, or the wrong row seems to have more. Many can say \"more\" and do not yet use \"fewer\".",
+      "words": "Use cubes of two colors first: \"Give every red cube a blue partner. Are any left over? That color has more. The other color has fewer.\" On the page say: \"Draw one line from each picture to a partner. No picture gets two lines. Some pictures may have no partner. The row with pictures left over has more. No picture left over? Both rows have the same number: color the star.\"",
+      "watch": "Watch that no picture has two lines and that only the extra pictures at the end of the longer row have no line. Ask about every task: \"Which row has more? Which has fewer?\" On the ten-frame, show two groups of up to five: one color in the top row and the other color in the bottom row, so the counters left over stand out. For rows of 6 to 10, use two trains of cubes side by side."
+     },
+     "days": 2
+    },
+    {
+     "n": 10,
+     "point": "K:compare-groups",
      "title": "More and fewer",
      "objective": "Children compare two groups and tell which has more and which has fewer.",
      "standards": [
@@ -1569,7 +1608,7 @@
      "days": 2
     },
     {
-     "n": 10,
+     "n": 11,
      "point": "K:one-more-one-less",
      "title": "One more, one less",
      "objective": "Children count a group of up to 9 pictures, draw one more or cross one out as the label says, and write how many there are now.",
@@ -1613,7 +1652,7 @@
      "days": 2
     },
     {
-     "n": 11,
+     "n": 12,
      "point": "K:compare-groups",
      "title": "Which number is greater?",
      "objective": "Children compare two written numbers from 1 to 10 and color the greater one.",
@@ -1917,8 +1956,8 @@
    "subject": "math",
    "title": "Counting in Order to 20",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting in Order to 20",
-   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on writing 11 to 20, counting forward and back, connecting dots in order, counting on, and first, second, third.",
-   "days": 15,
+   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on writing 11 to 20, counting up to 20 things, counting forward and back, counting on, and first, second, third.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -1971,6 +2010,51 @@
     },
     {
      "n": 2,
+     "point": "K:count-how-many",
+     "title": "Count and write how many: up to 20",
+     "objective": "Children count 11 to 20 objects arranged in rows of five, touching each one once, and write the number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.5",
+       "title": "Counting and Cardinality"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.3",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-640",
+       "title": "Count and Write: 11 to 20",
+       "core": "counting-pictures-animals-bw-2-k640",
+       "easy": "counting-pictures-easy-vehicles-k640",
+       "hard": "counting-pictures-hard-fruits-k640"
+      }
+     ],
+     "id": "K:count-how-many#count-and-write-up-to-20",
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "exit": {
+      "slug": "counting-pictures-birds-bw-2-k640-3",
+      "title": "Count and Write: 11 to 20"
+     },
+     "note": {
+      "mistake": "Children skip a picture or count one twice when their finger and their voice get out of step, most often at the start of a new row. Some lose the counting order in the teens (they skip 13 or 15, or say \"ten-teen\"), so the last number is wrong even when every picture was touched once. When they write, some reverse the digits (41 for 14).",
+      "words": "Say: \"Touch each one as you count. Go along the row, then start the next row at the left.\" Ask: \"Two full rows are how many? Ten. So you can start at ten: 11, 12, 13.\" Let children put a cube on each picture and move the cubes into two ten-frames. On the ten-frame tool, switch to two frames: fill one frame for the first two rows (ten) and put the rest on the second frame: \"Ten and 3 more is 13.\"",
+      "watch": "Watch the child's finger at each new row. Ask \"How many?\" again when the child has finished: a child who counts all over again does not yet know that the last number said tells how many. Check the written number against the number the child says."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "K:count-forward-missing",
      "title": "Fill in the missing numbers",
      "objective": "Children count along a number strip to 10 and to 20 and write the numbers that are missing.",
@@ -2033,7 +2117,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "K:dot-to-dot-sequence",
      "title": "Connect the dots in order",
      "objective": "Children connect numbered dots in counting order, from 1 to 10 and from 11 to 20, to finish a picture.",
@@ -2087,7 +2171,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "K:before-after-back",
      "title": "Before, after, and counting back",
      "objective": "Children write the number that comes before and the number that comes after, and count backward from 10.",
@@ -2150,7 +2234,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "K:count-on",
      "title": "Count on from a number",
      "objective": "Children start at the number printed on a closed box, count on over the pictures beside it, and write how many there are in all, with totals up to 10.",
@@ -2200,7 +2284,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "K:ordinal-position",
      "title": "First, second, third",
      "objective": "Children find the first, second, third, and later places in a line, counting from the end that is marked.",
@@ -3474,9 +3558,9 @@
    "subject": "math",
    "title": "Doubles, Three Addends, and Addition Pyramids",
    "metaTitle": "Grade 1 Lesson Plans: Doubles, Three Addends, and Addition Pyramids",
-   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on doubles and near doubles, making ten to add, true and false equations, odd and even, three addends, and addition pyramids.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on doubles and near doubles, making ten, thinking addition to subtract, true or false equations, odd and even, and three addends.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -3635,6 +3719,45 @@
     },
     {
      "n": 4,
+     "point": "1:fact-families",
+     "title": "Think addition to subtract",
+     "objective": "Children subtract from numbers 11 to 18 by finding the unknown addend, for example solving 13 − 8 by asking 8 + ? = 13.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.B.4",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-566",
+       "title": "Think Addition to Subtract",
+       "core": "fact-families-g1566",
+       "easy": "fact-families-easy-g1566-6",
+       "hard": "fact-families-hard-g1566-11"
+      }
+     ],
+     "id": "1:fact-families#think-addition-to-subtract",
+     "tool": {
+      "key": "number-balance",
+      "slug": "number-balance",
+      "name": "Number Balance"
+     },
+     "exit": {
+      "slug": "fact-families-g1566-2",
+      "title": "Think Addition to Subtract"
+     },
+     "note": {
+      "mistake": "Children count back by ones from 13 and lose track, or they do not see that 13 − 8 and 8 + ? = 13 ask for the same number. Some write one number in the subtraction and another in the addition; a frequent one is adding the two numbers they see in 8 + □ = 13 and writing 21 in the box.",
+      "words": "Point to the number bond: \"13 is the whole. 8 is one part. What is the other part?\" Say: \"I don't have to count back. I can ask: 8 and how many more make 13?\" Count up through ten: \"8 and 2 make 10, and 3 more make 13. 2 and 3 make 5.\" Then read all three: \"8 + 5 = 13, so 13 − 8 = 5.\"",
+      "watch": "Watch who counts back and who counts up from the part. Check that the same number is written in all three places on a card. The easier page has wholes to 10: use it for children who still need to learn what the number bond shows. The harder page has no number bond. On the number balance, put 13 on one side and 8 on the other and ask: \"What must we add to the 8 side to make it level?\" Add 5: 8 + 5 = 13, so 13 − 8 = 5."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "1:true-false-equations",
      "title": "True or false?",
      "objective": "Children decide whether an addition or subtraction equation within 20 is true or false, including equations that begin with the single number, such as 16 = 13 + 3.",
@@ -3678,7 +3801,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:odd-even-pairs",
      "title": "Odd and even numbers",
      "objective": "Children count a group in pairs or share it between two friends, and say whether the number is odd or even.",
@@ -3737,7 +3860,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "1:add-three-addends",
      "title": "Add three groups",
      "objective": "Children add three groups of pictures and write the total, adding an easy pair first.",
@@ -3786,7 +3909,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "1:number-walls",
      "title": "Addition pyramids (number walls)",
      "objective": "Children fill a number wall in which each brick is the sum of the two bricks under it, and find a missing bottom brick.",
@@ -13257,6 +13380,7 @@
       "Still the same number",
       "Color by number",
       "How many? Look fast",
+      "Match them up: more, fewer, or the same",
       "More and fewer",
       "One more, one less",
       "Which number is greater?"
@@ -13301,6 +13425,7 @@
      "to": 14,
      "lessons": [
       "Write the numbers 11 to 20",
+      "Count and write how many: up to 20",
       "Fill in the missing numbers",
       "Connect the dots in order",
       "Before, after, and counting back",
@@ -13310,7 +13435,8 @@
      "standards": [
       "K.CC.A.2",
       "K.CC.A.3",
-      "K.CC.B.4.c"
+      "K.CC.B.4.c",
+      "K.CC.B.5"
      ]
     },
     {
@@ -13406,9 +13532,9 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (27 Weeks)",
-   "metaDescription": "7 Grade 1 math units in teaching order, about 27 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 27,
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (28 Weeks)",
+   "metaDescription": "7 Grade 1 math units in teaching order, about 28 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 28,
    "framework": "Common Core",
    "units": [
     {
@@ -13441,13 +13567,14 @@
      "id": "g1-doubles-three-addends-number-walls",
      "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
      "title": "Doubles, Three Addends, and Addition Pyramids",
-     "weeks": 4,
+     "weeks": 5,
      "from": 6,
-     "to": 9,
+     "to": 10,
      "lessons": [
       "Doubles and halves",
       "Near doubles",
       "Make ten to add",
+      "Think addition to subtract",
       "True or false?",
       "Odd and even numbers",
       "Add three groups",
@@ -13455,6 +13582,7 @@
      ],
      "standards": [
       "1.OA.B.3",
+      "1.OA.B.4",
       "1.OA.C.6",
       "1.OA.D.7",
       "1.OA.D.8"
@@ -13465,8 +13593,8 @@
      "slug": "tens-and-ones-grade-1-unit",
      "title": "Tens and Ones",
      "weeks": 3,
-     "from": 10,
-     "to": 12,
+     "from": 11,
+     "to": 13,
      "lessons": [
       "Teen numbers: one ten and some ones",
       "Count the tens: 10 to 90",
@@ -13486,8 +13614,8 @@
      "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
      "title": "The Hundreds Chart and Skip Counting",
      "weeks": 3,
-     "from": 13,
-     "to": 15,
+     "from": 14,
+     "to": 16,
      "lessons": [
       "Find a number on the number line",
       "The hundreds chart",
@@ -13504,8 +13632,8 @@
      "slug": "adding-within-100-grade-1-unit",
      "title": "Adding Within 100",
      "weeks": 3,
-     "from": 16,
-     "to": 18,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "Add tens to a number",
       "Subtract tens from tens",
@@ -13523,8 +13651,8 @@
      "slug": "time-calendar-and-coins-grade-1-unit",
      "title": "Time, Calendar, and Coins",
      "weeks": 4,
-     "from": 19,
-     "to": 22,
+     "from": 20,
+     "to": 23,
      "lessons": [
       "Tell time to the hour and half hour",
       "Draw the clock hands",
@@ -13542,8 +13670,8 @@
      "slug": "shapes-measuring-and-graphs-grade-1-unit",
      "title": "Shapes, Measuring, and Graphs",
      "weeks": 5,
-     "from": 23,
-     "to": 27,
+     "from": 24,
+     "to": 28,
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",

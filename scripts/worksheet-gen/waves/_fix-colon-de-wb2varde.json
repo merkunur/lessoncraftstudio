@@ -1,0 +1,26 @@
+{
+ "id": "wave-b2var-de",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [
+  "animals",
+  "vehicles",
+  "toys",
+  "fruits",
+  "animals bw",
+  "fruits bw",
+  "farm animals bw",
+  "toys bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-308"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-13 de G2-308: capital letter after the colon in the printed instruction: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

@@ -36,7 +36,9 @@ module.exports = {
     const rng = ctx.rng;
     const have = Object.keys(themeEntry('shapes').nouns);
     const flat = rng.sample(Object.keys(SHAPES_2D).filter((k) => have.includes(k)), d.per);
-    const solid = rng.sample(Object.keys(SHAPES_3D).filter((k) => have.includes(k)), d.per);
+    // 2026-11-13: no sphere on this page. The library's ball is a disc with a faint shine: beside a flat circle a
+    // child (and a reviewing teacher) sorts it as flat, and the key says solid. Five solids are left (level 3 uses all).
+    const solid = rng.sample(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere'), d.per);
     const items = rng.shuffle([
       ...flat.map((k) => ({ k, dim: '2d' })),
       ...solid.map((k) => ({ k, dim: '3d' })),

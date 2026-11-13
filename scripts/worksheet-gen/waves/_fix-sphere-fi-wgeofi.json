@@ -1,0 +1,90 @@
+{
+ "id": "wave-geo-fi",
+ "_note": "2026-11-13 Flat or Solid? without the sphere (its picture reads as a flat circle): pinned re-generation of the live G2-244 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G2-244"
+ ],
+ "levels": {
+  "G2-244": {
+   "1": [
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 11,
+     "unit": null,
+     "seedVariant": 7
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 6
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 7
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 15
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 19
+    }
+   ],
+   "3": [
+    {
+     "copy": 12,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 13,
+     "unit": null,
+     "seedVariant": 2
+    }
+   ]
+  }
+ }
+}

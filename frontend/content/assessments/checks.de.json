@@ -1263,6 +1263,146 @@
    }
   },
   {
+   "unit": "de2-groessen-daten",
+   "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Mit dem Lineal messen",
+     "type": "G2-235",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Die Uhr auf fünf Minuten genau lesen",
+     "type": "G2-249",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 9,
+     "title": "Sicher, möglich, unmöglich",
+     "type": "G2-507",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "108b9531b702e2b9"
+      ],
+      [
+       "4bfc8504cd8a1d4e",
+       "675f59f6b351c287"
+      ],
+      [
+       "0288110a37943100"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w ?"
+      ],
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       10
+      ],
+      [
+       45,
+       30
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "5a07fe8395bc5818"
+      ],
+      [
+       "5aca451138b15922",
+       "f4bdf131968c33b2"
+      ],
+      [
+       "d3d675d09f6c668d"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w ?"
+      ],
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       10
+      ],
+      [
+       50,
+       25
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "de2-malnehmen",
    "slug": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
    "status": "live",
@@ -2312,6 +2452,151 @@
       [
        10,
        9
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-shapes-and-data",
+   "slug": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Rechte Winkel finden",
+     "type": "G3-341",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Wie viele Spiegelachsen?",
+     "type": "G3-342",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 6,
+     "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel",
+     "type": "G3-484",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    2,
+    4,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "826dd8938b1e1abd"
+      ],
+      [
+       "d6e7fdb83a0a091e",
+       "e266e39eb1c825d3",
+       "60506d027dbf73e1"
+      ],
+      [
+       "6fc46a51cbe3cab5"
+      ]
+     ],
+     "pos": [
+      [
+       3
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "?",
+       "?",
+       "?"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       4,
+       6,
+       2
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "4cab80fa8c567ad0"
+      ],
+      [
+       "eb6514f3cb694434",
+       "1ec4ce9b7204e73b",
+       "dfc37e3679bc4790"
+      ],
+      [
+       "4b4b6ccc3cd06509"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       ""
+      ],
+      [
+       "?",
+       "?",
+       "?"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       5,
+       4,
+       3
+      ],
+      [
+       0
       ]
      ]
     }

@@ -882,7 +882,8 @@
             "days": 2,
             "tool": "Slumppåsen",
             "source": "new",
-            "page": "Bladet visar påsar med 10 kulor i två färger (till exempel 8 röda och 2 blå) och påståenden som ”Jag drar en grön kula”; eleven ringar in omöjligt, möjligt eller säkert och skriver vilken färg som är troligast. Nederst finns en strecktabell där eleven för protokoll över 20 egna dragningar och skriver vilken färg som kom oftast."
+            "page": "Bladet visar påsar med 10 kulor i två färger (till exempel 8 röda och 2 blå) och påståenden som ”Jag drar en grön kula”; eleven ringar in omöjligt, möjligt eller säkert och skriver vilken färg som är troligast. Nederst finns en strecktabell där eleven för protokoll över 20 egna dragningar och skriver vilken färg som kom oftast.",
+            "placed": "2:chance-certain-possible"
           }
         ]
       }

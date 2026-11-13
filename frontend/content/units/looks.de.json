@@ -34,7 +34,7 @@
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.7ecb27dc.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
     "width": 640,
     "height": 828
    }
@@ -57,7 +57,7 @@
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-2",
     "title": "Mathe Klasse 2: Stoffverteilung für 30 Wochen",
-    "src": "/teaching-looks/de/g2-plan.692ff697.webp",
+    "src": "/teaching-looks/de/g2-plan.dd1d6f1d.webp",
     "width": 640,
     "height": 906
    },
@@ -71,7 +71,7 @@
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.7ecb27dc.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
     "width": 640,
     "height": 828
    }
@@ -93,22 +93,22 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-3",
-    "title": "Mathe Klasse 3: Stoffverteilung für 20 Wochen",
-    "src": "/teaching-looks/de/g3-plan.e29b4044.webp",
+    "title": "Mathe Klasse 3: Stoffverteilung für 21 Wochen",
+    "src": "/teaching-looks/de/g3-plan.ce1aaf7f.webp",
     "width": 640,
     "height": 906
    },
    "check": {
     "slug": "zahlen-bis-1000-klasse-3",
     "title": "Zahlen bis 1000",
-    "src": "/teaching-looks/de/g3-check.fdf039ff.webp",
+    "src": "/teaching-looks/de/g3-check.b64b3e21.webp",
     "width": 640,
     "height": 906
    },
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.7ecb27dc.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
     "width": 640,
     "height": 828
    }

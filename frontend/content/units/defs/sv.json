@@ -1536,8 +1536,8 @@
    "subject": "math",
    "title": "Tabeller och diagram",
    "metaTitle": "Matematik åk 2: Tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:bar-graphs",
@@ -1564,6 +1564,15 @@
      "types": [
       "G2-240"
      ]
+    },
+    {
+     "point": "2:chance-certain-possible",
+     "types": [
+      "G2-507",
+      "G2-508"
+     ],
+     "tool": "draw-bag",
+     "activity": null
     }
    ]
   },

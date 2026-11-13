@@ -3240,8 +3240,8 @@
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
    "metaTitle": "Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
-   "metaDescription": "Fünf Wochen Mathe Klasse 2: 8 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Strichlisten und Diagrammen.",
-   "days": 25,
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Diagrammen und zum Zufall.",
+   "days": 27,
    "weeks": 5,
    "lessons": [
     {
@@ -3695,6 +3695,57 @@
       "mistake": "Die Kinder zählen die Bilder und schreiben diese Zahl auf, weil bisher ein Bild immer ein Ding war. Den Hinweis, wofür ein Bild steht, lesen sie nicht.",
       "words": "Sag: „Lies zuerst, wofür ein Bild steht. Jedes Bild steht für 2.“ Zähle eine Reihe in Zweierschritten und tippe jedes Bild an: „2, 4, 6, 8.“ Frage: „Eine Reihe zeigt 5 Bilder. Wie viele Dinge sind das? Woher weißt du das?“",
       "watch": "Sieh auf die erste Reihe, die ein Kind ausfüllt: Steht dort die bloße Zahl der Bilder, wurde der Hinweis übersprungen. Das Zählen in Zweierschritten ist hier ein erster Schritt zum Malnehmen; sprich es aus („4 Zweier sind 8“)."
+     },
+     "days": 2
+    },
+    {
+     "n": 9,
+     "point": "2:chance-certain-possible",
+     "title": "Sicher, möglich, unmöglich",
+     "objective": "Die Kinder beschreiben Ergebnisse beim Ziehen aus einem Beutel mit den Wörtern sicher, möglich und unmöglich und prüfen eine Vermutung in einem Zufallsversuch mit Strichliste und Säulendiagramm.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Ereignisse bei Zufallsexperimenten untersuchen"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mit Daten umgehen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-507",
+       "title": "Sicher, möglich, unmöglich",
+       "core": "diagramme-g2507",
+       "easy": "diagramme-leicht-g2507-6",
+       "hard": "diagramme-schwer-g2507-11"
+      },
+      {
+       "type": "G2-508",
+       "title": "Zufallsversuch: Ziehen und Strichliste",
+       "core": "diagramme-g2508",
+       "easy": "diagramme-leicht-g2508-6",
+       "hard": "diagramme-schwer-g2508-11"
+      }
+     ],
+     "tool": {
+      "key": "draw-bag",
+      "slug": "zufallsbeutel-zufallsexperiment-grundschule",
+      "name": "Der Zufallsbeutel"
+     },
+     "exit": {
+      "slug": "diagramme-g2507-2",
+      "title": "Sicher, möglich, unmöglich"
+     },
+     "note": {
+      "mistake": "Viele Kinder kreuzen „sicher“ an, wenn fast alle Plättchen im Beutel gleich sind, und halten das einzelne andere Plättchen für unmöglich. Beim Versuch erwarten sie, dass die häufigste Sorte auf jeden Fall am häufigsten gezogen wird.",
+      "words": "Fülle den Zufallsbeutel vor der Klasse mit 5 Kreisen: „Ist es sicher, möglich oder unmöglich, dass ich einen Kreis ziehe? Und einen Stern?“ Lege ein Quadrat dazu: „Was gilt jetzt? Sicher ist nur, was kommen muss, weil nichts anderes im Beutel liegt. Möglich heißt: Es kann kommen, muss aber nicht.“ Zieht 20-mal. Kommt das Quadrat kaum, frage: „Ist es deshalb unmöglich?“ Öffnet den Beutel: Es liegt darin, also ist es möglich.",
+      "watch": "Auf dem Blatt für alle hat ein Beutel bis auf ein Plättchen nur gleiche: Wer dort „sicher“ ankreuzt, sucht das eine andere. Das leichtere Blatt hat kleinere Beutel und nur drei Sorten; auf dem schwereren malt das Kind in zwei leere Beutel je 6 Plättchen passend zu den Kreuzen (bei „sicher“ gibt es nur eine Lösung). Den Versuch macht die Klasse am Zufallsbeutel: Fülle ihn wie auf dem Bild des Versuchsblattes und stelle 20 Züge ein; die Kinder kreisen erst ihre Vermutung ein und führen die Strichliste. Zieht eine zweite Spur: Das Häufigste im Beutel kommt oft, aber nicht immer am häufigsten. Bei Gleichstand kreist das Kind beide ein. Das leichtere Versuchsblatt (zwei Sorten) und das schwerere (Würfeln, ein Würfel je Paar) sind eigene Versuche."
      },
      "days": 2
     }
@@ -6868,9 +6919,9 @@
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
    "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-   "metaDescription": "Drei Wochen Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und einem Diagramm mit halben Schritten.",
-   "days": 16,
-   "weeks": 3,
+   "metaDescription": "Vier Wochen Mathe Klasse 3: 6 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und zur Wahrscheinlichkeit.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -7120,6 +7171,44 @@
       "mistake": "Die Kinder überspringen die halben Striche und lesen nur die ganzen Zahlen; ein Kreuz bei 2½ rutscht zur 2 oder zur 3. Außerdem verwechseln sie den Messwert unter einem Stapel mit der Anzahl der Kreuze darin.",
       "words": "Lies den Zahlenstrahl gemeinsam laut: „1, eineinhalb, 2, zweieinhalb.“ Frage: „Wie viele Dinge waren zweieinhalb Einheiten lang? Zähle die Kreuze über diesem Strich.“ Dann: „Wie viele waren länger als 2?“",
       "watch": "Stelle eine Frage, deren Antwort auf einem halben Strich liegt. Ein Kind, das für die nächste ganze Zahl antwortet, liest die halben Schritte des Zahlenstrahls noch nicht."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "3:chance-more-likely",
+     "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel",
+     "objective": "Die Kinder schätzen bei zwei Beuteln ein, aus welchem sie ein Plättchen wahrscheinlicher ziehen, begründen ihre Wahl mit der Anzahl der Plättchen und prüfen eine Vermutung in einem Versuch mit 20 Zügen am Zufallsbeutel.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Ereignisse bei Zufallsexperimenten untersuchen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-484",
+       "title": "Wahrscheinlicher: Welcher Beutel?",
+       "core": "diagramme-g3484",
+       "easy": "diagramme-leicht-g3484-6",
+       "hard": "diagramme-schwer-g3484-11"
+      }
+     ],
+     "tool": {
+      "key": "draw-bag",
+      "slug": "zufallsbeutel-zufallsexperiment-grundschule",
+      "name": "Der Zufallsbeutel"
+     },
+     "exit": {
+      "slug": "diagramme-g3484-2",
+      "title": "Wahrscheinlicher: Welcher Beutel?"
+     },
+     "note": {
+      "mistake": "Liegen in beiden Beuteln gleich viele gesuchte Plättchen, halten viele Kinder die Chance für gleich groß: Sie übersehen, wie viele andere daneben liegen. Manche wählen einfach den volleren Beutel. Nach dem Versuch halten manche ihre Überlegung für falsch, weil das Ergebnis anders ausfiel.",
+      "words": "Schreibe zwei Füllungen an die Tafel, Beutel 1 mit 8 Kreisen und 2 Quadraten, Beutel 2 mit 5 Kreisen und 5 Quadraten: „Bei welchem Beutel ist es wahrscheinlicher, einen Kreis zu ziehen? Woran siehst du das?“ Die Antwort nennt beide Beutel: „Bei Beutel 1, weil dort 8 von 10 Plättchen Kreise sind und bei Beutel 2 nur 5 von 10.“ Dann 3 Kreise unter 6 und 3 Kreise unter 10 Plättchen: „Gleich viele Kreise. Ist es deshalb gleich wahrscheinlich?“",
+      "watch": "Auf dem Blatt für alle sind die Beutel eines Paares gleich groß und die Anzahlen nah beieinander: Das Kind muss zählen. Das leichtere Blatt hat große Unterschiede. Auf dem schwereren steht ein Kästchen unter dem Gleichheitszeichen: Ein Paar hat die gleiche Chance, eines gleich viele gesuchte Plättchen in verschieden großen Beuteln (zum Beispiel 4 von 6 und 4 von 8); dann kommt das gesuchte eher aus dem Beutel mit weniger anderen. Der Versuch läuft ohne Blatt am Zufallsbeutel: Die Klasse vermutet, bei welchem Tafel-Beutel der Kreis in 20 Zügen öfter kommt. Fülle Beutel 1, lass 20-mal ziehen, dann Beutel 2; die Kinder machen im Heft für jeden Kreis einen Strich in die Zeile des Beutels. Wiederholt es mit einem knappen Paar (7 und 8 von 10): Dort kann es anders ausgehen. Wahrscheinlicher heißt nicht sicher."
      },
      "days": 2
     }
@@ -9695,7 +9784,8 @@
       "Einkaufen: mit Preisen rechnen",
       "Von der Strichliste zum Säulendiagramm",
       "Ein X-Diagramm lesen",
-      "Jedes Bild zählt doppelt"
+      "Jedes Bild zählt doppelt",
+      "Sicher, möglich, unmöglich"
      ],
      "standards": []
     },
@@ -9778,10 +9868,10 @@
    "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Mathe Klasse 3: Stoffverteilung für 20 Wochen",
-   "metaTitle": "Mathe Klasse 3: Stoffverteilung für 20 Wochen (6 Einheiten)",
-   "metaDescription": "6 Unterrichtseinheiten für Mathe Klasse 3 in Unterrichtsreihenfolge, etwa 20 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 20,
+   "title": "Mathe Klasse 3: Stoffverteilung für 21 Wochen",
+   "metaTitle": "Mathe Klasse 3: Stoffverteilung für 21 Wochen (6 Einheiten)",
+   "metaDescription": "6 Unterrichtseinheiten für Mathe Klasse 3 in Unterrichtsreihenfolge, etwa 21 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 21,
    "framework": null,
    "units": [
     {
@@ -9873,15 +9963,16 @@
      "id": "g3-shapes-and-data",
      "slug": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
      "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-     "weeks": 3,
+     "weeks": 4,
      "from": 18,
-     "to": 20,
+     "to": 21,
      "lessons": [
       "Rechte Winkel finden",
       "Ist es ein Rechteck?",
       "Wie viele Spiegelachsen?",
       "Diagramme mit einer Skala in Fünferschritten",
-      "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
+      "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl",
+      "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
      ],
      "standards": []
     }

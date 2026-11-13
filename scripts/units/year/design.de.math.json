@@ -896,7 +896,8 @@
             "days": 3,
             "tool": "Der Zufallsbeutel",
             "source": "new",
-            "page": "Das Blatt zeigt sechs Beutel mit farbigen Kugeln (zum Beispiel 5 rote und 1 blaue; nur rote; 3 gelbe und 3 grüne) und zu jedem Beutel zwei Aussagen wie „Ich ziehe eine rote Kugel“. Das Kind kreuzt an: sicher, möglich oder unmöglich. Unten malt es zu drei Sätzen selbst einen passenden Beutel mit 6 Kugeln und kreuzt bei vier Würfel-Aussagen („Ich würfle eine 7“) an."
+            "page": "Das Blatt zeigt sechs Beutel mit farbigen Kugeln (zum Beispiel 5 rote und 1 blaue; nur rote; 3 gelbe und 3 grüne) und zu jedem Beutel zwei Aussagen wie „Ich ziehe eine rote Kugel“. Das Kind kreuzt an: sicher, möglich oder unmöglich. Unten malt es zu drei Sätzen selbst einen passenden Beutel mit 6 Kugeln und kreuzt bei vier Würfel-Aussagen („Ich würfle eine 7“) an.",
+            "placed": "2:chance-certain-possible"
           }
         ]
       }
@@ -1345,7 +1346,8 @@
             "days": 3,
             "tool": "Der Zufallsbeutel",
             "source": "new",
-            "page": "Das Blatt zeigt vier Paare von Beuteln mit je 10 roten und blauen Kugeln in unterschiedlicher Mischung (zum Beispiel 8 rote und 2 blaue neben 5 roten und 5 blauen). Das Kind kreuzt zu jedem Paar an, bei welchem Beutel Rot wahrscheinlicher ist, und ergänzt den Satz „Rot ist bei Beutel _ wahrscheinlicher als bei Beutel _“. Darunter steht eine Strichliste für 20 Züge mit Zurücklegen: Das Kind notiert seine Vermutung, führt die Strichliste und schreibt auf, ob das Ergebnis zur Vermutung passt."
+            "page": "Das Blatt zeigt vier Paare von Beuteln mit je 10 roten und blauen Kugeln in unterschiedlicher Mischung (zum Beispiel 8 rote und 2 blaue neben 5 roten und 5 blauen). Das Kind kreuzt zu jedem Paar an, bei welchem Beutel Rot wahrscheinlicher ist, und ergänzt den Satz „Rot ist bei Beutel _ wahrscheinlicher als bei Beutel _“. Darunter steht eine Strichliste für 20 Züge mit Zurücklegen: Das Kind notiert seine Vermutung, führt die Strichliste und schreibt auf, ob das Ergebnis zur Vermutung passt.",
+            "placed": "3:chance-more-likely"
           }
         ]
       }

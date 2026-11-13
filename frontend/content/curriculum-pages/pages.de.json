@@ -22,12 +22,12 @@
    "metaDescription": "Die Kompetenzbereiche der KMK-Bildungsstandards Mathematik für die Grundschule, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 65,
-    "taught": 38,
+    "taught": 40,
     "near": 0,
-    "open": 3,
-    "lessons": 126,
+    "open": 2,
+    "lessons": 128,
     "parts": 19,
-    "partsTaught": 16
+    "partsTaught": 17
    },
    "groups": [
     {
@@ -1369,6 +1369,10 @@
           {
            "n": 8,
            "title": "Jedes Bild zählt doppelt"
+          },
+          {
+           "n": 9,
+           "title": "Sicher, möglich, unmöglich"
           }
          ]
         },
@@ -1388,13 +1392,40 @@
          ]
         }
        ]
-      }
-     ],
-     "openParts": [
+      },
       {
        "code": "",
        "title": "Ereignisse bei Zufallsexperimenten untersuchen",
-       "key": "part-m-5-2"
+       "key": "part-m-5-2",
+       "state": "taught",
+       "counts": {
+        "objectives": 2,
+        "taught": 2
+       },
+       "units": [
+        {
+         "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
+         "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 9,
+           "title": "Sicher, möglich, unmöglich"
+          }
+         ]
+        },
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -2071,12 +2102,12 @@
    "metaDescription": "Die Lernbereiche des LehrplanPLUS Mathematik für die Jahrgangsstufen 1 und 2 in Bayern, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 55,
-    "taught": 35,
+    "taught": 37,
     "near": 0,
-    "open": 1,
-    "lessons": 92,
+    "open": 0,
+    "lessons": 93,
     "parts": 13,
-    "partsTaught": 12
+    "partsTaught": 13
    },
    "groups": [
     {
@@ -2932,13 +2963,29 @@
          ]
         }
        ]
-      }
-     ],
-     "openParts": [
+      },
       {
        "code": "M1/2 4.2",
        "title": "Zufallsexperimente durchführen und Wahrscheinlichkeiten vergleichen",
-       "key": "part-m1-2-4-2"
+       "key": "part-m1-2-4-2",
+       "state": "taught",
+       "counts": {
+        "objectives": 2,
+        "taught": 2
+       },
+       "units": [
+        {
+         "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
+         "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 9,
+           "title": "Sicher, möglich, unmöglich"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -2964,12 +3011,12 @@
    "metaDescription": "Die Lernbereiche des LehrplanPLUS Mathematik für die Jahrgangsstufen 3 und 4 in Bayern mit unseren Unterrichtsstunden für Klasse 3 und mit dem, was für Klasse 4 noch fehlt.",
    "counts": {
     "objectives": 54,
-    "taught": 18,
+    "taught": 19,
     "near": 1,
-    "open": 3,
-    "lessons": 28,
+    "open": 2,
+    "lessons": 29,
     "parts": 13,
-    "partsTaught": 9
+    "partsTaught": 10
    },
    "groups": [
     {
@@ -3349,13 +3396,29 @@
          ]
         }
        ]
-      }
-     ],
-     "openParts": [
+      },
       {
        "code": "M3/4 4.2",
        "title": "Zufallsexperimente durchführen und Wahrscheinlichkeiten vergleichen",
-       "key": "part-m3-4-4-2"
+       "key": "part-m3-4-4-2",
+       "state": "taught",
+       "counts": {
+        "objectives": 2,
+        "taught": 1
+       },
+       "units": [
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -3925,12 +3988,12 @@
    "metaDescription": "Die Bereiche und Schwerpunkte des Lehrplans Mathematik für die Primarstufe in NRW, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 91,
-    "taught": 52,
+    "taught": 53,
     "near": 1,
-    "open": 2,
-    "lessons": 115,
+    "open": 1,
+    "lessons": 117,
     "parts": 16,
-    "partsTaught": 13
+    "partsTaught": 14
    },
    "groups": [
     {
@@ -5116,13 +5179,40 @@
          ]
         }
        ]
-      }
-     ],
-     "openParts": [
+      },
       {
        "code": "",
        "title": "Wahrscheinlichkeiten",
-       "key": "part-m-4-2"
+       "key": "part-m-4-2",
+       "state": "taught",
+       "counts": {
+        "objectives": 2,
+        "taught": 1
+       },
+       "units": [
+        {
+         "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
+         "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 9,
+           "title": "Sicher, möglich, unmöglich"
+          }
+         ]
+        },
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -5623,10 +5713,10 @@
    "metaDescription": "Die Lernbereiche des sächsischen Lehrplans Mathematik für die Klassenstufen 1 und 2, jeweils mit unseren Unterrichtsstunden und der Zahl der Lernziele und Inhalte mit Stunden.",
    "counts": {
     "objectives": 85,
-    "taught": 44,
+    "taught": 46,
     "near": 0,
     "open": 0,
-    "lessons": 89,
+    "lessons": 90,
     "parts": 4,
     "partsTaught": 4
    },
@@ -6146,7 +6236,7 @@
        "state": "taught",
        "counts": {
         "objectives": 12,
-        "taught": 5
+        "taught": 7
        },
        "units": [
         {
@@ -6180,6 +6270,10 @@
           {
            "n": 8,
            "title": "Jedes Bild zählt doppelt"
+          },
+          {
+           "n": 9,
+           "title": "Sicher, möglich, unmöglich"
           }
          ]
         }
@@ -6209,10 +6303,10 @@
    "metaDescription": "Die Lernbereiche des sächsischen Lehrplans Mathematik für die Klassenstufe 3, jeweils mit unseren Unterrichtsstunden und der Zahl der Lernziele und Inhalte mit Stunden.",
    "counts": {
     "objectives": 79,
-    "taught": 22,
+    "taught": 24,
     "near": 0,
     "open": 0,
-    "lessons": 32,
+    "lessons": 33,
     "parts": 4,
     "partsTaught": 4
    },
@@ -6439,7 +6533,7 @@
        "state": "taught",
        "counts": {
         "objectives": 12,
-        "taught": 0
+        "taught": 2
        },
        "units": [
         {
@@ -6454,6 +6548,10 @@
           {
            "n": 5,
            "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
+          },
+          {
+           "n": 6,
+           "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
           }
          ]
         }

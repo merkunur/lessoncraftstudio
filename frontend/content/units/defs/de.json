@@ -626,7 +626,7 @@
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
    "metaTitle": "Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
-   "metaDescription": "Fünf Wochen Mathe Klasse 2: 8 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Strichlisten und Diagrammen.",
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Diagrammen und zum Zufall.",
    "weeks": 5,
    "lessons": [
     {
@@ -680,6 +680,15 @@
      "types": [
       "G2-238"
      ]
+    },
+    {
+     "point": "2:chance-certain-possible",
+     "types": [
+      "G2-507",
+      "G2-508"
+     ],
+     "tool": "draw-bag",
+     "activity": null
     }
    ]
   },
@@ -1211,8 +1220,8 @@
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
    "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-   "metaDescription": "Drei Wochen Mathe Klasse 3: 5 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und einem Diagramm mit halben Schritten.",
-   "weeks": 3,
+   "metaDescription": "Vier Wochen Mathe Klasse 3: 6 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und zur Wahrscheinlichkeit.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:right-angles",
@@ -1245,6 +1254,14 @@
      "types": [
       "G3-335"
      ]
+    },
+    {
+     "point": "3:chance-more-likely",
+     "types": [
+      "G3-484"
+     ],
+     "tool": "draw-bag",
+     "activity": null
     }
    ]
   },

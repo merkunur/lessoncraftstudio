@@ -8461,9 +8461,9 @@
    "subject": "math",
    "title": "Tabeller och diagram",
    "metaTitle": "Matematik åk 2: Tabeller och diagram | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka två veckor.",
-   "days": 12,
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Tabeller och diagram”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "days": 14,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -8668,6 +8668,51 @@
       "mistake": "Eleverna blandar ihop de två sorternas tal: talet under en stapel kryss (vad som mättes) och antalet kryss (hur många gånger). På frågan ”hur många är 5 cm långa” svarar de ”5”.",
       "words": "Säg: ”Talen på linjen berättar VAD som mättes. Kryssen berättar HUR MÅNGA gånger.” Fråga: ”Hur många pennor var 5 cm långa? Räkna kryssen ovanför 5:an.” Sedan: ”Vilken längd var vanligast?”",
       "watch": "Ställ en fråga åt varje håll: ”Hur många kryss står över 7:an?” och ”Vilket tal har 3 kryss?” En elev som klarar båda förstår diagrammet. Diagramtypen är ovanlig i svenska läromedel; läs den som en tabell där varje kryss är ett streck. Mät sedan sex pennor i klassen och sätt ett kryss för varje."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "2:chance-certain-possible",
+     "title": "Slump: vad finns i påsen?",
+     "objective": "Eleverna avgör om det är säkert, möjligt eller omöjligt att dra en viss bricka ur en påse och prövar en gissning i ett slumpförsök där de gör streck i en tabell och ritar staplar.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Sannolikhet och statistik"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-507",
+       "title": "Säkert, möjligt, omöjligt",
+       "core": "diagram-g2507",
+       "easy": "diagram-latt-g2507-6",
+       "hard": "diagram-svar-g2507-11"
+      },
+      {
+       "type": "G2-508",
+       "title": "Slumpförsök: dra och pricka av",
+       "core": "diagram-g2508",
+       "easy": "diagram-latt-g2508-6",
+       "hard": "diagram-svar-g2508-11"
+      }
+     ],
+     "tool": {
+      "key": "draw-bag",
+      "slug": "slumpmassiga-handelser-slumppase-arskurs-1-3",
+      "name": "Slumppåsen"
+     },
+     "exit": {
+      "slug": "diagram-g2507-2",
+      "title": "Säkert, möjligt, omöjligt"
+     },
+     "note": {
+      "mistake": "Många elever kryssar i ”säkert” när nästan alla brickor i påsen är likadana och tror att den enda avvikande brickan är omöjlig att dra. I försöket väntar de sig att den sort det finns flest av alltid kommer flest gånger.",
+      "words": "Fyll Slumppåsen med 5 cirklar medan klassen ser på: ”Är det säkert, möjligt eller omöjligt att jag drar en cirkel? Och en stjärna?” Lägg i en kvadrat: ”Vad gäller nu? Säkert är det bara när det inte finns något annat i påsen. Möjligt betyder att det kan hända, men det måste inte hända.” Dra 20 gånger. Kommer kvadraten nästan aldrig, fråga: ”Är den omöjlig då?” Öppna påsen: den ligger där, alltså är det möjligt.",
+      "watch": "På bladet för alla är alla brickor i en av påsarna likadana utom en: den som kryssar i ”säkert” där letar upp den avvikande brickan. Det lättare bladet har mindre påsar och bara tre sorter; på det svårare ritar eleven 6 brickor i två tomma påsar så att kryssen stämmer (vid ”säkert” finns bara en lösning). Försöket gör klassen med Slumppåsen: fyll den som på försöksbladets bild och ställ in 20 drag; eleverna ringar först in vad de tror och gör streck i tabellen. Dra en rad till: det som det finns flest av kommer ofta, men inte alltid, flest gånger. Blir det lika, ringar eleven in båda. Det lättare försöksbladet (två sorter) och det svårare (tärning, en per par) är egna försök."
      },
      "days": 2
     }
@@ -13176,10 +13221,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Matematik åk 2: planering för 28 veckor",
-   "metaTitle": "Matematik åk 2: planering för 28 veckor (7 arbetsområden)",
-   "metaDescription": "7 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 28 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 28,
+   "title": "Matematik åk 2: planering för 29 veckor",
+   "metaTitle": "Matematik åk 2: planering för 29 veckor (7 arbetsområden)",
+   "metaDescription": "7 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 29 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 29,
    "framework": null,
    "units": [
     {
@@ -13297,14 +13342,15 @@
      "id": "sv-2-ma-diagram",
      "slug": "tabeller-och-diagram-ak-2",
      "title": "Tabeller och diagram",
-     "weeks": 2,
+     "weeks": 3,
      "from": 27,
-     "to": 28,
+     "to": 29,
      "lessons": [
       "Från streck till stapeldiagram",
       "Bilddiagram där varje bild står för 2",
       "Diagram där ett steg är 5",
-      "Läsa ett diagram med kryss"
+      "Läsa ett diagram med kryss",
+      "Slump: vad finns i påsen?"
      ],
      "standards": []
     }

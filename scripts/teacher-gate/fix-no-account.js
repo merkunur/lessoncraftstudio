@@ -27,8 +27,10 @@ for (const loc of LOCS) compiled[loc] = (RULES[loc] || []).map(([re, to]) => [ne
 const fix = (loc, text) => {
   let t = text;
   for (let pass = 0; pass < 3; pass++) { const was = t; for (const [re, to] of compiled[loc]) t = t.replace(re, to); if (t === was) break; }
-  // what a cut can leave behind: two spaces, a space before a full stop, a space at the end
-  return t === text ? t : t.replace(/ {2,}/g, ' ').replace(/ ([.,;:!?])/g, '$1').replace(/ +$/, '');
+  // what a cut can leave behind: two spaces, a space before a full stop or a comma, a space at the end. NOT a space
+  // before ; : ! ? — French sets one there on purpose ("en ligne : ajouter"); the first version of this step took
+  // them out of 84 French descriptions (seen on the live pages the same day, restored).
+  return t === text ? t : t.replace(/ {2,}/g, ' ').replace(/ ([.,])/g, '$1').replace(/ +$/, '');
 };
 
 const pairs = [], left = [];

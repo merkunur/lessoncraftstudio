@@ -154,6 +154,11 @@ async function cached(o, make) {
 // ---- which cards of a worksheet type a section takes (what two readers of the checks ruled, reviews/) ----
 /** a FACT: the numbers of a task in any order. A fact stands once in a form, in whatever part, and in one form only. */
 const fact = (c) => (c.key.startsWith('n:') ? c.key : null);
+// … and the sum or difference a card LEADS with is a fact too, whatever the card asks after it: "8 + 9 = 8 + □ + □ = □"
+// (to the ten first), "8 + 9 = □ + □ + 1 = □" (a near double) and "8 + 9 = □" are three keys and ONE task. Read on the
+// German check of 2026-11-13, whose form B asked 8 + 9 in three parts.
+const lead = (c) => { if (c._lead === undefined) { const m = /^\s*(\d+)\s*([+\u2212\u2013-])\s*(\d+)\s*=/.exec(textOf(c)); c._lead = m ? 'n:' + [...new Set([Number(m[1]), Number(m[3]), m[2] === '+' ? Number(m[1]) + Number(m[3]) : Number(m[1]) - Number(m[3])])].sort((x, y) => x - y).join(',') : null; } return c._lead; };
+const facts = (c) => [fact(c), lead(c)].filter(Boolean);
 /** the one number of a card that has only one (count the pictures: 9): an answer once in a form, across its parts */
 const solo = (c) => (/^[tp]:/.test(c.key) ? null : /^\d+$/.test(String(c.ans)) && !/[+\-−×÷=<>]/.test(c.kind) ? 'n:' + c.ans : new Set(c.nums).size === 1 ? 'n:' + c.nums[0] : null);   // … also when the child circles it among three numbers; a sum is not meant
 /** a number a check can lean on: not 55, and of three digits not 262 or 774 (a child who writes the places in another
@@ -197,7 +202,7 @@ const near = (x, y) => Math.abs(x.mag - y.mag) <= Math.max(2, Math.round(y.mag *
 /** a card of form A needs a card of form B: the same kind, about the same size, another task */
 const partner = (plan, c) => plan.b.cards.some((x) => x.kind === c.kind && x.key !== c.key && !x.twins && near(x, c) && wide(x) === wide(c));
 function chooseA(plan, usedA, soloA) {
-  let cands = plan.a.cards.filter((c) => !c.inOrder && !c.twins && !plan.avoid.includes(c.mag) && !(fact(c) && usedA.has(fact(c))) && !(c.fact2 && usedA.has(c.fact2)) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_A, w))) && !(plan.posA != null && c.pos !== plan.posA) && !(solo(c) && soloA.has(solo(c))) && !shown(c, PICS_A, [], plan.small));
+  let cands = plan.a.cards.filter((c) => !c.inOrder && !c.twins && !plan.avoid.includes(c.mag) && !facts(c).some((k) => usedA.has(k)) && !(c.fact2 && usedA.has(c.fact2)) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_A, w))) && !(plan.posA != null && c.pos !== plan.posA) && !(solo(c) && soloA.has(solo(c))) && !shown(c, PICS_A, [], plan.small));
   // a type that has pairs in one hundred: the part asks one pair the hundreds do not decide (taken first: they are
   // few) and one they do
   const pairs = plan.take >= 2 && cands.some((c) => wide(c) === 'sameH');
@@ -240,7 +245,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     // a type without numbers whose forms must be alike (lists: sameLook): the card with about as much drawing
     const looks = (x) => (plan.sameLook ? Math.abs(drawn(x) - drawn(ca)) : 0) + Math.abs((x.len || 0) - (ca.len || 0));
     const ok = plan.b.cards.filter((c) => c.kind === ca.kind && !c.inOrder && !c.twins && !(c.ask && askedA.has(c.ask)) && !(shapes(c) && shownA.has(shapes(c))) && !(solo(c) && soloB.has(solo(c))) && !(printed(c) && out.concat(cardsA).some((x) => printed(x) === printed(c))) && !shown(c, PICS_B, out, plan.small) && !(plan.disjoint && out.some((x) => wordsOf(x).some((w) => wordsOf(c).includes(w)))) && !(plan.sameGiven && (c.given || []).join() !== (ca.given || []).join()) && !(plan.sameAnswer && c.ans !== ca.ans) && near(c, ca) && wide(c) === wide(ca) && !plan.avoid.includes(c.mag)
-      && !(fact(c) && (usedA.has(fact(c)) || usedB.has(fact(c)))) && !(c.fact2 && (usedB.has(c.fact2) || cardsA.some((x) => x.fact2 === c.fact2))) && !cardsA.some((x) => x.key === c.key)
+      && !facts(c).some((k) => usedA.has(k) || usedB.has(k)) && !(c.fact2 && (usedB.has(c.fact2) || cardsA.some((x) => x.fact2 === c.fact2))) && !cardsA.some((x) => x.key === c.key)
       // (review sv.review-2) a figure of form A's box does not stand in form B's box; a word of as many sounds as form A's
       && !(plan.otherDrawings && drawingsOf(c).some((d) => cardsA.some((x) => drawingsOf(x).includes(d)))) && !(plan.sameSize && c.mag !== ca.mag) && !(plan.otherFirst && (c.given || [])[0] === (ca.given || [])[0])
       && !(plan.sameGap && Math.abs(gap(c) - gap(ca)) > 1) && !(plan.otherRest && (rest(c)[0] === rest(ca)[0] || rest(c)[1] === rest(ca)[1])) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_B, w)))
@@ -413,8 +418,8 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
         if (arg('dump-pool', '').split(',').includes(p.type)) fs.writeFileSync(path.join(outRoot, '_pool-' + p.type + '.json'), JSON.stringify({ A: a.cards, B: b.cards, keyStyles: a.keyStyles, styles: a.styles }, null, 1));
         const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || levelLine(p) || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), sameGap: listed('sameGap'), otherRest: listed('otherRest'), otherLead: listed('otherLead'), otherDrawings: listed('otherDrawings'), sameSize: listed('sameSize'), otherFirst: listed('otherFirst'), posA: rules.posA && p.type in rules.posA ? rules.posA[p.type] : null, disjointForm: listed('disjointForm'), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
         const cardsA = chooseA(plan, usedA, soloA);
-        if (!cardsA.length || chooseB(plan, cardsA, new Set([...usedA, ...cardsA.map(fact).filter(Boolean)]), usedB, soloB).length < cardsA.length) { why.push(p.type + ': the two forms cannot both be filled (the same kind and size, no task twice)'); continue; }
-        for (const c of cardsA) { if (fact(c)) usedA.add(fact(c)); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }
+        if (!cardsA.length || chooseB(plan, cardsA, new Set([...usedA, ...cardsA.flatMap(facts)]), usedB, soloB).length < cardsA.length) { why.push(p.type + ': the two forms cannot both be filled (the same kind and size, no task twice)'); continue; }
+        for (const c of cardsA) { for (const k of facts(c)) usedA.add(k); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }
         plan.cardsA = cardsA;
         found = plan;
         plans.push(plan);
@@ -429,7 +434,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
       // when every box still faces a box of its kind and size
       if (cardsB.length === plan.cardsA.length && cardsB.length >= 2 && /^[tp]:/.test(cardsB[0].key)) { const turned = cardsB.slice(1).concat(cardsB[0]); if (turned.every((c, i) => c.kind === plan.cardsA[i].kind && near(c, plan.cardsA[i]))) cardsB = turned; }
       if (cardsB.length < plan.cardsA.length) { left.push(plan.lesson); left.sort((x, y) => x - y); if (has('debug')) console.log('      lesson ' + plan.lesson + ' has no section: form B cannot be filled once every task of form A is known'); continue; }
-      for (const c of cardsB) { if (fact(c)) usedB.add(fact(c)); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_B.add(w); }
+      for (const c of cardsB) { for (const k of facts(c)) usedB.add(k); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_B.add(w); }
       const meta = { styles: [...new Set(plan.a.styles.concat(plan.b.styles))], keyStyles: [...new Set(plan.a.keyStyles.concat(plan.b.keyStyles))], lesson: plan.lesson, lessonTitle: plan.lessonTitle, point: plan.point, type: plan.type, types: plan.types, typeTitle: plan.typeTitle, instruction: plan.instruction, perRow: plan.perRow, cols: plan.cols };
       sections.A.push(Object.assign({}, meta, { cards: plan.cardsA, w: plan.cardsA[0].w, h: Math.max(...plan.cardsA.map(tall)) }));
       sections.B.push(Object.assign({}, meta, { cards: cardsB, w: cardsB[0].w, h: Math.max(...cardsB.map(tall)) }));

@@ -5,7 +5,7 @@
  * the task and its answer, so one picture carries both.
  *
  *   node scripts/assessments/build-checks.js --loc=en … --png     first (it writes the page pictures)
- *   node scripts/assessments/contact-sheets.js --loc=en            → out/assessments/<loc>/_sheets/<unit id>.png
+ *   node scripts/assessments/contact-sheets.js --loc=en [--units=<id,id>]   → out/assessments/<loc>/_sheets/<unit id>.png
  */
 'use strict';
 const fs = require('fs');
@@ -17,7 +17,9 @@ const loc = arg('loc', 'en');
 const root = path.join(REPO, 'out', 'assessments', loc);
 const W = 620, H = Math.round(W * 945 / 703), PAD = 12;
 (async () => {
-  const checks = JSON.parse(fs.readFileSync(path.join(root, 'checks.json'), 'utf8')).checks;
+  // --units=<id,id>: only these checks (a rebuild of some units with --png has pictures for those only)
+  const only = arg('units', '') ? new Set(arg('units', '').split(',')) : null;
+  const checks = JSON.parse(fs.readFileSync(path.join(root, 'checks.json'), 'utf8')).checks.filter((c) => !only || only.has(c.unit));
   fs.mkdirSync(path.join(root, '_sheets'), { recursive: true });
   for (const c of checks) {
     const rows = ['a', 'b'].map((f) => Array.from({ length: c.forms[f.toUpperCase()].pages }, (_, i) => path.join(root, c.unit, 'key-' + f + '-' + (i + 1) + '.png')));

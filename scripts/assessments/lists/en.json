@@ -40,7 +40,8 @@
   "G1-260": "Write the word for each picture on the lines.",
   "K-368": "Look at each shape. Some are turned and some are skinny. I will read the three names. Circle the name of the shape.",
   "G3-377": "Circle equal groups in the pile. The second number tells you how many go in each group. Write how many groups you made and how many pictures are left over.",
-  "G3-309": "Share the pile equally among the bins. Write how many each bin gets."
+  "G3-309": "Share the pile equally among the bins. Write how many each bin gets.",
+  "G2-255": "Add or subtract one place at a time. Start with the ones."
  },
  "noCheck": {
   "g2-shapes-solids-symmetry": "[en.review-g23-math] The pictures keyed as symmetrical are drawn with shading and uneven details (a persimmon with a highlight on one side, a bat with a mouth mark left of the line): \"no\" can be defended. Without that part the unit has two parts, fewer than a check needs.",
@@ -91,11 +92,16 @@
   "K-358 sameLook": "[en.review-73] Three pieces in form A and two in form B are not one level.",
   "SPREAD of three": "[en.review-73] Seven, six, five sides in one form and eight, four, three in the other: a countdown, and two levels.",
   "G2-349 onlyPictures": "[en.review-73] The row with hens prints the singular word under its picture and the other rows print none: one box would be copy-and-add-s.",
-  "G2-351 parity": "One form had an odd and an even number, the other two even ones: the question \"what is left over\" was asked once in one form and never in the other."
+  "G2-351 parity": "One form had an odd and an even number, the other two even ones: the question \"what is left over\" was asked once in one form and never in the other.",
+  "G2-255 blend G2-256": "[build session, reading the check of g2-adding-and-subtracting-within-100, 2026-11-13] The lesson is adding AND subtracting in columns and hands out one worksheet for each; a part cut from the first alone made a check of a unit named \"Adding and Subtracting\" that asked no subtraction.",
+  "G2-255 instruction": "The worksheet of column addition says \"Add\"; the blended part holds a subtraction too."
  },
  "blend": {
   "G3-364": [
    "G3-365"
+  ],
+  "G2-255": [
+   "G2-256"
   ]
  },
  "sameGiven": [

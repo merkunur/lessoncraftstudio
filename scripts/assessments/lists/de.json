@@ -150,7 +150,8 @@
   "G3-398": "[de.review-1] Form A asked two words in -erin, form B two in -er, one built on a noun; each form now has one -erin word and one -er word built on a verb.",
   "G1-352": "[de.review-1] \"Auto → es\" is the obvious choice for a thing; each form now has a name and a thing with der or die.",
   "G2-223 avoidAns": "A row of six or more hundred-flats with its tens and ones is wider than the box it stands in (measured: 686 px in a 671 px card); the boxes take numbers below 600.",
-  "G1-282 onlyText": "[de.review-1] The reader asked for a statement of four or five words in both forms; a question with the verb first is the harder task."
+  "G1-282 onlyText": "[de.review-1] The reader asked for a statement of four or five words in both forms; a question with the verb first is the harder task.",
+  "G1-444 kindText": "[build session, reading the check of de1-aufgabenfamilien-rechengeschichten, 2026-11-13] Form A showed a picture to take away from (8 − 7) where form B showed a picture to add (5 + 4): the two forms did not ask the same kind of task. A box whose answer holds a minus sign is one kind, a box with a plus sign the other."
  },
  "slotWide": {
   "G1-137": [
@@ -183,5 +184,8 @@
  "mixKinds": [
   "G3-398",
   "G1-352"
- ]
+ ],
+ "kindText": {
+  "G1-444": "→[^→]*[\\u2212\\u2013-]"
+ }
 }

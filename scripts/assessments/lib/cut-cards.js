@@ -148,6 +148,10 @@ async function cutCards(page, o) {
       }
       return {
         ask, twins,
+        // the WORKED card of a page (the first card of an easier level, printed with its boxes filled: every answer box
+        // carries data-lcs-given) asks nothing; in a check the child would find the task solved. Read on the Swedish
+        // check of 2026-11-13, whose part "hoppa först till tiotalet" was that card in both forms.
+        worked: (() => { const boxes = [...c.querySelectorAll('[data-lcs-answer]')].filter((e) => e.dataset.lcsAnswer !== ''); return boxes.length > 0 && boxes.every((e) => e.dataset.lcsGiven !== undefined) && !c.querySelector('[data-lcs-correct]'); })(),
         html: found.open + c.outerHTML + found.close, plainHtml: c.innerHTML.replace(/\s+/g, ' '), w: Math.round(r.width), h: Math.round(r.height),
         answers: answers.length + correct.length, ans: answers.concat(choice).join('|'),
         pos: first ? [...first.parentElement.children].indexOf(first) : null,
@@ -175,7 +179,7 @@ async function cutCards(page, o) {
     grid.style.cssText += ';flex:0 0 auto !important;height:auto !important;grid-template-rows:none !important;grid-auto-rows:max-content !important;align-content:start !important;align-items:start !important';
     if (!legacy) for (const c of els) c.style.cssText += ';flex:0 0 auto !important;height:auto !important;min-height:0 !important';
     els.forEach((c, i) => { const r = c.getBoundingClientRect(); cards[i].nh = pics(c) === before[i] && r.height > 20 ? Math.min(cards[i].h, Math.ceil(r.height)) : cards[i].h; });
-    return { alone: true, cols, cards, styles: found.styles, legacy };
+    return { alone: true, cols, cards: cards.filter((c) => !c.worked), worked: cards.filter((c) => c.worked).length, styles: found.styles, legacy };
   });
   fs.unlinkSync(file);
   if (!cut) return { refused: 'no tasks found on the page (no cards, no three rows alike)' };

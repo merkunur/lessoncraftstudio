@@ -4885,5 +4885,13 @@
   "G3-482": {
     "title": "Lure triks: 6- og 7-gangen",
     "instruction": "Bruk trikset på hver linje. Fyll ut rutene én etter én."
+  },
+  "G3-483": {
+    "title": "Del opp et vanskelig gangestykke",
+    "instruction": "Tegn en strek mellom to rader, slik at hvert rektangel blir delt i to deler du kan regne ut. Skriv de to produktene, og legg dem sammen."
+  },
+  "G2-504": {
+    "title": "Legg sammen tiere og enere hver for seg",
+    "instruction": "Legg sammen tierne. Legg sammen enerne. Legg til slutt sammen de to svarene."
   }
 }

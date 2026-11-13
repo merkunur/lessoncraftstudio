@@ -57,7 +57,8 @@ const ruled = new Set();
 for (const nd of needs) {
   const m = matches.get(nd.key); const best = (m.types || [])[0];
   const row = { ...nd, fit: m.fit, types: m.types || [], differs: m.differs || '' };
-  if (m.fit === 'none' || !best) { D.push(row); continue; }
+  // a line nothing was close to stays in D until its page is BUILT: the ruling then names the new type (Year pages K)
+  if ((m.fit === 'none' || !best) && !(rulingOf(nd) && rulingOf(nd).type)) { D.push(row); continue; }
   if (m.fit === 'exact') { if (published(nd.loc, best)) A.push(row); else { if (!B.has(best)) B.set(best, []); B.get(best).push(row); } continue; }
   // a close line: by its ruling
   const r = rulingOf(nd);

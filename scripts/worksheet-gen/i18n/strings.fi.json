@@ -4838,5 +4838,13 @@
   "G3-482": {
     "title": "Kertotaulun kikkoja: 6:n ja 7:n kertotaulu",
     "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
+  },
+  "G3-483": {
+    "title": "Pilko vaikea kertolasku",
+    "instruction": "Piirrä viiva kahden rivin väliin niin, että suorakulmio jakautuu kahteen osaan, jotka osaat laskea. Kirjoita molemmat tulot ja laske ne yhteen."
+  },
+  "G2-504": {
+    "title": "Laske kymmenet ja ykköset erikseen",
+    "instruction": "Laske kymmenet yhteen. Laske ykköset yhteen. Laske lopuksi summat yhteen."
   }
 }

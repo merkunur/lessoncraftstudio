@@ -4888,5 +4888,13 @@
   "G3-482": {
     "title": "Rechentricks beim Einmaleins: 6 und 7",
     "instruction": "Nutze den Trick in jeder Zeile. Fülle die Kästchen der Reihe nach aus."
+  },
+  "G3-483": {
+    "title": "Schwere Malaufgaben zerlegen",
+    "instruction": "Zerlege jedes Feld mit einem Strich zwischen zwei Reihen in zwei Teile, die du schon ausrechnen kannst. Schreibe die beiden Ergebnisse auf und addiere sie."
+  },
+  "G2-504": {
+    "title": "Zehner und Einer getrennt addieren",
+    "instruction": "Addiere zuerst die Zehner, dann die Einer. Addiere zum Schluss die beiden Ergebnisse."
   }
 }

@@ -6160,5 +6160,33 @@
         "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
       }
     }
+  },
+  "G3-483": {
+    "1": {
+      "en": "The line cuts each array into two parts. Write the two products and add them.",
+      "de": "Der Strich zerlegt jedes Feld in zwei Teile. Schreibe die beiden Ergebnisse auf und addiere sie.",
+      "es": "La línea divide cada rectángulo en dos partes. Escribe los dos productos y súmalos.",
+      "pt": "O risco divide cada retângulo em duas partes. Escreva os dois produtos e some.",
+      "fr": "Le trait partage chaque rectangle en deux parties. Écris les deux produits et additionne-les.",
+      "it": "La linea divide ogni rettangolo in due parti. Scrivi i due prodotti e sommali.",
+      "nl": "De streep verdeelt elke rechthoek in twee stukken. Schrijf de twee uitkomsten op en tel ze op.",
+      "sv": "Strecket delar varje rutnät i två delar. Skriv de två produkterna och lägg ihop dem.",
+      "da": "Stregen deler hvert rektangel i to dele. Skriv de to produkter, og læg dem sammen.",
+      "no": "Streken deler hvert rektangel i to deler. Skriv de to produktene, og legg dem sammen.",
+      "fi": "Viiva jakaa jokaisen suorakulmion kahteen osaan. Kirjoita molemmat tulot ja laske ne yhteen."
+    },
+    "3": {
+      "en": "Each array is printed twice. Cut it between two rows in two different ways. Write the products and add them.",
+      "de": "Jedes Feld ist zweimal gedruckt. Zerlege es zwischen zwei Reihen auf zwei verschiedene Arten. Schreibe die Ergebnisse auf und addiere sie.",
+      "es": "Cada rectángulo aparece dos veces. Divídelo entre dos filas de dos maneras distintas. Escribe los productos y súmalos.",
+      "pt": "Cada retângulo aparece duas vezes. Divida cada um entre duas linhas de quadradinhos, de duas maneiras diferentes. Escreva os produtos e some.",
+      "fr": "Chaque rectangle est imprimé deux fois. Partage-le entre deux lignes de carrés, de deux façons différentes. Écris les produits et additionne-les.",
+      "it": "Ogni rettangolo è stampato due volte. Dividilo tra due righe di quadretti in due modi diversi. Scrivi i prodotti e sommali.",
+      "nl": "Elke rechthoek staat er twee keer. Verdeel hem tussen twee rijen op twee verschillende manieren. Schrijf de uitkomsten op en tel ze op.",
+      "sv": "Varje rutnät finns två gånger. Dela det mellan två rader på två olika sätt. Skriv produkterna och lägg ihop dem.",
+      "da": "Hvert rektangel står to gange. Del det mellem to rækker på to forskellige måder. Skriv produkterne, og læg dem sammen.",
+      "no": "Hvert rektangel står to ganger. Del det mellom to rader på to ulike måter. Skriv produktene, og legg dem sammen.",
+      "fi": "Jokainen suorakulmio on painettu kaksi kertaa. Jaa se rivien välistä kahdella eri tavalla. Kirjoita tulot ja laske ne yhteen."
+    }
   }
 }

@@ -4885,5 +4885,13 @@
   "G3-482": {
     "title": "Astuces pour les tables de 6 et de 7",
     "instruction": "Utilise l'astuce de chaque ligne. Remplis les cases une par une."
+  },
+  "G3-483": {
+    "title": "Décomposer une multiplication difficile",
+    "instruction": "Trace un trait entre deux lignes de carrés pour partager chaque rectangle en deux parties que tu sais calculer. Écris les deux produits et additionne-les."
+  },
+  "G2-504": {
+    "title": "Additionner les dizaines et les unités",
+    "instruction": "Additionne les dizaines. Additionne les unités. Puis additionne les deux résultats."
   }
 }

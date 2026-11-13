@@ -4891,5 +4891,13 @@
   "G3-482": {
     "title": "Truques da tabuada do 6 e do 7",
     "instruction": "Use o truque de cada linha. Preencha os quadradinhos um por um."
+  },
+  "G3-483": {
+    "title": "Decomponha uma multiplicação difícil",
+    "instruction": "Trace um risco entre duas linhas de quadradinhos para dividir cada retângulo em duas partes que você sabe calcular. Escreva os dois produtos e some."
+  },
+  "G2-504": {
+    "title": "Some dezenas e unidades",
+    "instruction": "Some as dezenas. Some as unidades. Depois some os dois resultados."
   }
 }

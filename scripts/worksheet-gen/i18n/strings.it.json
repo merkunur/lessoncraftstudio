@@ -4872,5 +4872,13 @@
   "G3-482": {
     "title": "Trucchi per le tabelline del 6 e del 7",
     "instruction": "Usa il trucco di ogni riga. Completa le caselle una alla volta."
+  },
+  "G3-483": {
+    "title": "Scomponi una moltiplicazione difficile",
+    "instruction": "Traccia una linea tra due righe di quadretti per dividere ogni rettangolo in due parti che sai calcolare. Scrivi i due prodotti e sommali."
+  },
+  "G2-504": {
+    "title": "Somma decine e unità",
+    "instruction": "Somma le decine. Somma le unità. Poi somma i due risultati."
   }
 }

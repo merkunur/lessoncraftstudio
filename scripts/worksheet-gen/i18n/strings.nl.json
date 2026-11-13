@@ -4886,5 +4886,13 @@
   "G3-482": {
     "title": "Slimme tafeltrucs: de tafels van 6 en 7",
     "instruction": "Gebruik de truc op elke regel. Vul de vakjes één voor één in."
+  },
+  "G3-483": {
+    "title": "Splits een moeilijke keersom",
+    "instruction": "Verdeel elke rechthoek met een streep tussen twee rijen in twee stukken die je makkelijk kunt uitrekenen. Schrijf de twee uitkomsten op en tel ze op."
+  },
+  "G2-504": {
+    "title": "Tientallen en eenheden optellen",
+    "instruction": "Tel de tientallen op. Tel de eenheden op. Tel dan de twee uitkomsten bij elkaar op."
   }
 }

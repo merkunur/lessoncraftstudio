@@ -4840,5 +4840,13 @@
   "G3-482": {
     "title": "Smarta knep: 6:ans och 7:ans tabell",
     "instruction": "Använd knepet på varje rad. Fyll i rutorna en i taget."
+  },
+  "G3-483": {
+    "title": "Dela upp en svår multiplikation",
+    "instruction": "Dra ett streck mellan två rader så att varje rutnät delas i två delar som du kan räkna ut. Skriv de två produkterna och lägg ihop dem."
+  },
+  "G2-504": {
+    "title": "Addera tiotal och ental var för sig",
+    "instruction": "Addera tiotalen. Addera entalen. Lägg sedan ihop de två summorna."
   }
 }

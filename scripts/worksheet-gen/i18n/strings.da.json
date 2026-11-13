@@ -4866,5 +4866,13 @@
   "G3-482": {
     "title": "Smarte tricks: 6- og 7-tabellen",
     "instruction": "Brug tricket på hver linje. Udfyld felterne ét ad gangen."
+  },
+  "G3-483": {
+    "title": "Del et svært gangestykke op",
+    "instruction": "Tegn en streg mellem to rækker, så hvert rektangel bliver delt i to dele, du kan regne ud. Skriv de to produkter, og læg dem sammen."
+  },
+  "G2-504": {
+    "title": "Læg tiere og enere sammen hver for sig",
+    "instruction": "Læg tierne sammen. Læg enerne sammen. Læg til sidst de to resultater sammen."
   }
 }

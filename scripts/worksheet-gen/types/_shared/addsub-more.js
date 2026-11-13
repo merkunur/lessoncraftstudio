@@ -55,6 +55,7 @@ const LEVELS = {
     2: { cards: 12, ten: 'all', apart: true },
     3: { cards: 12, ten: 'half', apart: true },
   },
+  partial: { 1: { cards: 6, cross: false }, 2: { cards: 6, cross: true }, 3: { cards: 6, cross: 'half', split: true } },
   mental100: {
     1: { cards: 12, kind: 'tens-or-ones' },
     2: { cards: 12, kind: 'g1-bridge' },   // review: 1.NBT.C.4 — 47 + 6 across a ten, and tens on / off any number
@@ -301,6 +302,39 @@ function makeAddSubMoreType(cfg) {
         return { bodyHtml: content(cardGrid({ cards, cols: 2, rows: d.cards / 2 })), meta: { items: ps.map((p) => p.a + p.op + p.b) } };
       }
 
+      // partial sums (Year pages K, G2-504): two two-digit numbers added place by place, with the steps to write:
+      // tens + tens, ones + ones, then the two part sums. L1 no new ten (34 + 25), the split printed · L2 a new ten
+      // (47 + 26), the split printed · L3 half of the cards with a new ten, the child writes the split too (the first card shows it).
+      if (mode === 'partial') {
+        const used = new Set();
+        const ps = [];
+        for (let t = 0; ps.length < d.cards && t < 4000; t++) {
+          const cross = d.cross === 'half' ? ps.length % 2 === 1 : !!d.cross;
+          const a = rng.int(12, 79), b = rng.int(11, 69);
+          const o = (a % 10) + (b % 10);
+          if (a % 10 === 0 || b % 10 === 0 || (o > 9) !== cross || o === 10 || a + b > 99) continue;
+          if (used.has(a + '+' + b) || used.has(b + '+' + a) || ps.some((p) => p.a + p.b === a + b)) continue;
+          used.add(a + '+' + b);
+          ps.push({ a, b });
+        }
+        if (ps.length < d.cards) throw new Error(`${id}: not enough sums`);
+        const B = (v, w = 54) => answerBox({ w, h: 40, answer: v });
+        const N2 = (v) => NUM(v, 26), S2 = (op) => SIGN(op, 24);
+        // one grid a card, so the tens stand under the tens and every = under the one above
+        const cell = (inner, at) => `<span style="display:flex;align-items:center;justify-content:${at || 'center'}">${inner}</span>`;
+        const row = (l, r, res) => `${cell(l, 'flex-end')}${cell(S2('+'))}${cell(r, 'flex-start')}${res == null ? '<span></span><span></span>' : cell(S2('=')) + cell(res)}`;
+        const cards = (d.cross === 'half' ? shuffle(ps, rng) : ps).map((p, i) => {
+          // level 3: the child writes the split too, except on the first card, which shows that the tens are written
+          // as 40 + 20 (with every box empty a child wrote 4 + 2 and ended with 6 + 13; native reader, 2026-11-13)
+          const part = (v) => (d.split && i > 0 ? B(v, 46) : N2(v));
+          const [at, ao, bt, bo] = [p.a - (p.a % 10), p.a % 10, p.b - (p.b % 10), p.b % 10];
+          return `<div class="ws-card-stage" data-lcs-partial="${p.a}+${p.b}" style="justify-content:center;align-items:center">` +
+            `<span style="display:grid;grid-template-columns:repeat(5,auto);gap:7px 8px;align-items:center">` +
+            row(NUM(p.a, 34), NUM(p.b, 34), null) + row(part(at), part(bt), B(at + bt)) + row(part(ao), part(bo), B(ao + bo)) + row(B(at + bt), B(ao + bo), B(p.a + p.b, 60)) + `</span></div>`;
+        });
+        return { bodyHtml: content(cardGrid({ cards, cols: 2, rows: d.cards / 2 })), meta: { items: ps.map((p) => p.a + '+' + p.b) } };
+      }
+
       if (mode === 'errors') {
         const used = new Set();
         const ps = [];
@@ -470,6 +504,15 @@ function makeAddSubMoreType(cfg) {
           if (l.split('+').reduce((s, x) => s + n(x), 0) !== n(r)) fails.push('three ' + c.dataset.lcsThree);
           const u = [...c.querySelectorAll('[data-lcs-tenpair]')].map((e) => n(e.textContent));
           if (u.length && (u.length !== 2 || u[0] + u[1] !== 10)) fails.push('the underlined pair does not make ten');
+        });
+        if (m === 'partial') document.querySelectorAll('[data-lcs-partial]').forEach((c) => {
+          const [a, b] = c.dataset.lcsPartial.split('+').map(n);
+          const got = [...c.querySelectorAll('[data-lcs-answer]')].map((e) => n(e.dataset.lcsAnswer));
+          const tens = a - (a % 10) + b - (b % 10), ones = (a % 10) + (b % 10);
+          const want = [tens, ones, tens, ones, a + b];
+          const tail = got.length === 9 ? [got[2], got[5], got[6], got[7], got[8]] : got;
+          if (tail.join() !== want.join() || a + b > 99 || ones === 10 || a % 10 === 0 || b % 10 === 0) fails.push('partial ' + c.dataset.lcsPartial);
+          if (got.length === 9 && [got[0], got[1], got[3], got[4]].join() !== [a - (a % 10), b - (b % 10), a % 10, b % 10].join()) fails.push('partial split ' + c.dataset.lcsPartial);
         });
         if (m === 'mental100') document.querySelectorAll('[data-lcs-sum]').forEach((c) => { const p = parse(c.dataset.lcsSum); if (ev(p) !== p.r || p.r < 1) fails.push('sum ' + c.dataset.lcsSum); });
         if (m === 'digit') document.querySelectorAll('[data-lcs-digit]').forEach((c) => {

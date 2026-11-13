@@ -4881,5 +4881,13 @@
   "G3-482": {
     "title": "Trucos para las tablas del 6 y del 7",
     "instruction": "Usa el truco de cada renglón. Completa los recuadros uno por uno."
+  },
+  "G3-483": {
+    "title": "Descompón una multiplicación difícil",
+    "instruction": "Traza una línea entre dos filas para dividir cada rectángulo en dos partes que sepas calcular. Escribe los dos productos y súmalos."
+  },
+  "G2-504": {
+    "title": "Suma decenas y unidades",
+    "instruction": "Suma las decenas. Suma las unidades. Después suma los dos resultados."
   }
 }

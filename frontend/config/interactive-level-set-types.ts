@@ -83,9 +83,9 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   // lesson pages; they have no screen adapter yet, so their pages are PDF only. Take a code out of this list on the
   // day its type gets a screen version (scripts/units/year/after-publish.sh prints the families of a new batch).
   'doubles-halves': ['g1449', 'g1451'],
-  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561'],
+  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504'],
   'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481'],
-  'multiplication-tables': ['g3407', 'g3410', 'g3482'],
+  'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483'],
   'telling-time': ['g1477'],
   measurement: ['g2476', 'g2477', 'g2503'],
   money: ['g2472'],

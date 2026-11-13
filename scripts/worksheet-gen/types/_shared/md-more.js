@@ -15,6 +15,11 @@
  *            L1 × 4 and × 5 · L2 × 8 and × 9 · L3 all four. Products within 100. 3.OA.B.5, 3.OA.D.9.
  *   ring     T7 · G3-411 — table cards for a key ring (material, no key): punch hole, one table per card; L3 leaves
  *            the answers blank to say aloud. L1 2, 3, 5, 10 · L2 4, 6, 7, 8 · L3 the six hardest, blank.
+ *   split    G3-483 (Year pages K) — a hard fact broken in two: an array of a rows of b squares, and under it
+ *            a · b = _ · b + _ · b = _ + _ = _. L1 the line is printed under the fifth row and the two part facts
+ *            are printed (one right answer a box) · L2 the six facts 7·7 to 9·9, the child draws the line and writes
+ *            the parts (the key shows one way) · L3 three facts, each array twice: two different lines, one total.
+ *            3.OA.B.5, 3.OA.C.7.
  */
 'use strict';
 const { answerBox } = require('../../templates/components.js');
@@ -34,6 +39,7 @@ const LEVELS = {
   day: { 1: { tables: [2, 5, 10] }, 2: { tables: [3, 4] }, 3: { tables: [6, 7, 8, 9] } },
   draw: { 1: { tables: [2, 3], grid: 6, total: false }, 2: { tables: [2, 3, 4, 5], grid: 10, total: true }, 3: { tables: [2, 3, 4, 5, 6, 7, 8, 9], grid: 10, total: true } },
   chain: { 1: { kinds: ['x4', 'x5'] }, 2: { kinds: ['x8', 'x9'] }, 3: { kinds: ['x4', 'x5', 'x8', 'x9'] } },
+  split: { 1: { line: true, cards: 6 }, 2: { line: false, cards: 6 }, 3: { line: false, cards: 6, twice: true } },
   ring: { 1: { tables: [2, 3, 5, 10] }, 2: { tables: [4, 6, 7, 8] }, 3: { tables: [3, 4, 6, 7, 8, 9], blank: true } },
 };
 
@@ -188,6 +194,37 @@ function makeMdMoreType(cfg) {
         return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: 8 })), meta: { items: ps.map((q) => q.kind + q.a) } };
       }
 
+      if (mode === 'split') {
+        // the six facts whose both factors are 7, 8 or 9: the last ones a class learns (a rows of b squares, a <= b)
+        const HARD = [[7, 7], [7, 8], [7, 9], [8, 8], [8, 9], [9, 9]];
+        let ps;
+        if (d.twice) ps = shuffle(HARD, rng).slice(0, 3).flatMap((p, i) => [{ a: p[0], b: p[1], way: 0, pair: i }, { a: p[0], b: p[1], way: 1, pair: i }]);
+        else if (d.line) {
+          // level 1: every table of 6 to 9 at least once, six different second factors, so no fact comes twice
+          const as = [...shuffle([6, 7, 8, 9], rng), ...shuffle([6, 7, 8, 9], rng).slice(0, 2)];
+          const bs = shuffle([3, 4, 6, 7, 8, 9], rng);
+          ps = shuffle(as.map((a, k) => ({ a, b: bs[k], way: 0 })), rng);
+        } else ps = shuffle(HARD, rng).map(([a, b]) => (a !== b && rng.int(0, 1) ? { a: b, b: a, way: 0 } : { a, b, way: 0 }));   // 7 rows of 8 or 8 rows of 7
+        // the split a key shows: five rows and the rest; the second way of level 3 is another pair of parts
+        const WAY2 = { 6: 3, 7: 4, 8: 4, 9: 6 };
+        const C = 15, G = 2, P = C + G;
+        const B = (v, w = 44) => answerBox({ w, h: 38, answer: v });
+        const op = (x) => NUM(x, 21, x === MUL ? TEAL : x === '=' ? GREY : INK);
+        const cards = ps.map((p) => {
+          const k = p.way ? WAY2[p.a] : 5;
+          const W = p.b * P - G, H = p.a * P - G;
+          let sq = '';
+          for (let y = 0; y < p.a; y++) for (let x = 0; x < p.b; x++) sq += `<rect x="${x * P + 8}" y="${y * P}" width="${C}" height="${C}" rx="2.5" fill="#DDEBE8" stroke="${TEAL}" stroke-width="1.2"/>`;
+          const cut = (d.line || key) ? `<line x1="0" y1="${k * P - G / 2}" x2="${W + 16}" y2="${k * P - G / 2}" stroke="${CORAL}" stroke-width="3" stroke-linecap="round"${d.line ? '' : ' data-lcs-key-sample="1"'}/>` : '';
+          const grid = `<svg width="${W + 16}" height="${H}" viewBox="0 0 ${W + 16} ${H}" data-lcs-splitgrid="${p.a}x${p.b}"${d.line ? ` data-lcs-cut="${k}"` : ''}>${sq}${cut}</svg>`;
+          const part = (v) => d.line ? NUM(v, 22) : B(v, 38);
+          const l1 = `<span style="display:flex;align-items:center;gap:5px">${NUM(p.a, 22)}${op(MUL)}${NUM(p.b, 22)}${op('=')}${part(k)}${op(MUL)}${NUM(p.b, 22)}${op('+')}${part(p.a - k)}${op(MUL)}${NUM(p.b, 22)}</span>`;
+          const l2 = `<span style="display:flex;align-items:center;gap:5px">${op('=')}${B(k * p.b)}${op('+')}${B((p.a - k) * p.b)}${op('=')}${B(p.a * p.b, 50)}</span>`;
+          return `<div class="ws-card-stage" data-lcs-split="${p.a}x${p.b}:${k}" style="flex-direction:column;justify-content:center;align-items:center;gap:7px">${grid}${l1}${l2}</div>`;
+        });
+        return { bodyHtml: content(cardGrid({ cards, cols: 2, rows: 3 })), meta: { items: ps.map((q) => q.a + 'x' + q.b + (q.way ? 'b' : '')) } };
+      }
+
       // ring: table cards for a key ring (material)
       const cards = d.tables.map((t) => {
         const lines = Array.from({ length: 10 }, (_, k) => `<span style="display:flex;align-items:center;gap:5px;font-family:'Baloo 2';font-weight:700;font-size:20px;color:${INK};line-height:1.15"><span style="width:22px;text-align:right">${t}</span><span style="color:${TEAL}">${MUL}</span><span style="width:22px;text-align:right">${k + 1}</span><span style="color:${GREY}">=</span>${d.blank ? `<span style="width:40px;border-bottom:2px solid ${GRID};height:18px"></span>` : `<span style="width:30px">${t * (k + 1)}</span>`}</span>`).join('');
@@ -224,6 +261,21 @@ function makeMdMoreType(cfg) {
           const [a, b] = c.dataset.lcsDrawarray.split('x').map(n); const [gr] = c.querySelector('[data-lcs-dotgrid]').dataset.lcsDotgrid.split('x').map(n);
           if (a > gr || b > gr) fails.push('array larger than the grid');
         });
+        if (m === 'split') {
+          const seen = {};
+          document.querySelectorAll('[data-lcs-split]').forEach((c) => {
+            const x = c.dataset.lcsSplit.match(/^(\d+)x(\d+):(\d+)$/); const [a, b, k] = [n(x[1]), n(x[2]), n(x[3])];
+            const got = [...c.querySelectorAll('[data-lcs-answer]')].map((e) => n(e.dataset.lcsAnswer));
+            const want = [k * b, (a - k) * b, a * b];
+            if (got.slice(-3).join() !== want.join() || k < 1 || k >= a || a * b > 100) fails.push('split ' + c.dataset.lcsSplit);
+            if (got.length === 5 && (got[0] !== k || got[1] !== a - k)) fails.push('split parts ' + c.dataset.lcsSplit);
+            const g = c.querySelector('[data-lcs-splitgrid]');
+            if (!g || g.querySelectorAll('rect').length !== a * b) fails.push('split array ' + c.dataset.lcsSplit);
+            (seen[a + 'x' + b] = seen[a + 'x' + b] || []).push(k);
+          });
+          // a fact printed twice (level 3) shows two different ways on the key, and both parts are facts of 1 to 6 rows
+          for (const [f, ks] of Object.entries(seen)) if (ks.length > 1 && (new Set(ks).size !== ks.length || ks.some((k) => ks.some((j) => j !== k && j === n(f.split('x')[0]) - k)))) fails.push('split ' + f + ': the two ways are one way');
+        }
         if (m === 'ring') document.querySelectorAll('[data-lcs-ring]').forEach((c) => { if (!c.textContent.includes('10')) fails.push('ring card'); });
         // ÷ never appears in a Swedish page (it meant minus); a German-style dot page never shows ×
         const loc = (document.documentElement.lang || '').slice(0, 2);

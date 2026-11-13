@@ -4929,5 +4929,13 @@
   "G3-482": {
     "title": "Times Table Tricks: 6 and 7",
     "instruction": "Use the trick on each line. Fill in the boxes one by one."
+  },
+  "G3-483": {
+    "title": "Break Apart a Hard Fact",
+    "instruction": "Draw a line between two rows to cut each array into two parts you know. Write the two products and add them."
+  },
+  "G2-504": {
+    "title": "Add Tens and Ones",
+    "instruction": "Add the tens. Add the ones. Then add the two sums."
   }
 }

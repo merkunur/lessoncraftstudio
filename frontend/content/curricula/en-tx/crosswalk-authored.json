@@ -4351,6 +4351,38 @@
    ],
    "why": "2.4(B) asks children to add and subtract two-digit numbers «using mental strategies and algorithms based on knowledge of place value»; explaining WHY a strategy works goes beyond carrying it out.",
    "review": "year-design 2026-11-13"
+  },
+  "K:read-decodable-text": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.5.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A decodable mini-book is «using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words» in connected text; drawing what each page says is «create mental images to deepen understanding».",
+   "review": "readers 2026-11-13"
+  },
+  "K:read-picture-book": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A picture mini-book is made of the high-frequency words of K.2(B)(iv); the child holds the book, turns its pages and points under each word (K.2(D)(ii)) and reads a grade-appropriate text (K.4).",
+   "review": "readers 2026-11-13"
   }
  }
 }

@@ -1,0 +1,169 @@
+{
+ "id": "wave-rdr-en",
+ "_note": "Readers (Daily Teaching System, Part 8.1): the English pilot, 12 mini-books. Decodable mini-books, picture readers, their versions to color, and the Read and Talk page of every book. Lesson pages: not for search engines.",
+ "indexable": false,
+ "interactive": false,
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-628",
+  "K-629",
+  "K-630",
+  "K-631"
+ ],
+ "levels": {
+  "K-628": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": "dad-and-sam",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "kit-and-the-dog",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-red-bug",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "fox-on-a-box",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "chip-can-sing",
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-629": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": "i-see-pets",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-farm",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "my-lunch",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "it-can-go",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "big-and-little",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-frog",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-cloud",
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-630": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": "i-see-pets",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-farm",
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-631": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": "dad-and-sam",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "kit-and-the-dog",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-red-bug",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "fox-on-a-box",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "chip-can-sing",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "i-see-pets",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-farm",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "my-lunch",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "it-can-go",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "big-and-little",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-frog",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-cloud",
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

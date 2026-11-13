@@ -1,0 +1,975 @@
+{
+ "am": {
+  "parse": "a:ae m:m",
+  "stage": 1
+ },
+ "at": {
+  "parse": "a:ae t:t",
+  "stage": 1
+ },
+ "sat": {
+  "parse": "s:s a:ae t:t",
+  "stage": 1
+ },
+ "mat": {
+  "parse": "m:m a:ae t:t",
+  "stage": 1
+ },
+ "pat": {
+  "parse": "p:p a:ae t:t",
+  "stage": 1,
+  "name": "Pat"
+ },
+ "tap": {
+  "parse": "t:t a:ae p:p",
+  "stage": 1
+ },
+ "map": {
+  "parse": "m:m a:ae p:p",
+  "stage": 1
+ },
+ "sap": {
+  "parse": "s:s a:ae p:p",
+  "stage": 1
+ },
+ "in": {
+  "parse": "i:ih n:n",
+  "stage": 2
+ },
+ "it": {
+  "parse": "i:ih t:t",
+  "stage": 2
+ },
+ "if": {
+  "parse": "i:ih f:f",
+  "stage": 2
+ },
+ "an": {
+  "parse": "a:ae n:n",
+  "stage": 2
+ },
+ "sit": {
+  "parse": "s:s i:ih t:t",
+  "stage": 2
+ },
+ "pin": {
+  "parse": "p:p i:ih n:n",
+  "stage": 2
+ },
+ "tin": {
+  "parse": "t:t i:ih n:n",
+  "stage": 2
+ },
+ "pit": {
+  "parse": "p:p i:ih t:t",
+  "stage": 2
+ },
+ "tip": {
+  "parse": "t:t i:ih p:p",
+  "stage": 2
+ },
+ "nip": {
+  "parse": "n:n i:ih p:p",
+  "stage": 2
+ },
+ "dip": {
+  "parse": "d:d i:ih p:p",
+  "stage": 2
+ },
+ "sip": {
+  "parse": "s:s i:ih p:p",
+  "stage": 2
+ },
+ "did": {
+  "parse": "d:d i:ih d:d",
+  "stage": 2
+ },
+ "dad": {
+  "parse": "d:d a:ae d:d",
+  "stage": 2,
+  "name": "Dad"
+ },
+ "sad": {
+  "parse": "s:s a:ae d:d",
+  "stage": 2
+ },
+ "mad": {
+  "parse": "m:m a:ae d:d",
+  "stage": 2
+ },
+ "pad": {
+  "parse": "p:p a:ae d:d",
+  "stage": 2
+ },
+ "man": {
+  "parse": "m:m a:ae n:n",
+  "stage": 2
+ },
+ "pan": {
+  "parse": "p:p a:ae n:n",
+  "stage": 2
+ },
+ "fan": {
+  "parse": "f:f a:ae n:n",
+  "stage": 2
+ },
+ "tan": {
+  "parse": "t:t a:ae n:n",
+  "stage": 2
+ },
+ "fit": {
+  "parse": "f:f i:ih t:t",
+  "stage": 2
+ },
+ "fin": {
+  "parse": "f:f i:ih n:n",
+  "stage": 2
+ },
+ "fat": {
+  "parse": "f:f a:ae t:t",
+  "stage": 2
+ },
+ "nap": {
+  "parse": "n:n a:ae p:p",
+  "stage": 2
+ },
+ "dim": {
+  "parse": "d:d i:ih m:m",
+  "stage": 2
+ },
+ "and": {
+  "parse": "a:ae n:n d:d",
+  "stage": 2,
+  "blend": true
+ },
+ "on": {
+  "parse": "o:aa n:n",
+  "stage": 3
+ },
+ "not": {
+  "parse": "n:n o:aa t:t",
+  "stage": 3
+ },
+ "hot": {
+  "parse": "h:h o:aa t:t",
+  "stage": 3
+ },
+ "pot": {
+  "parse": "p:p o:aa t:t",
+  "stage": 3
+ },
+ "dot": {
+  "parse": "d:d o:aa t:t",
+  "stage": 3
+ },
+ "cot": {
+  "parse": "c:k o:aa t:t",
+  "stage": 3
+ },
+ "got": {
+  "parse": "g:g o:aa t:t",
+  "stage": 3
+ },
+ "hop": {
+  "parse": "h:h o:aa p:p",
+  "stage": 3
+ },
+ "top": {
+  "parse": "t:t o:aa p:p",
+  "stage": 3
+ },
+ "mop": {
+  "parse": "m:m o:aa p:p",
+  "stage": 3
+ },
+ "pop": {
+  "parse": "p:p o:aa p:p",
+  "stage": 3
+ },
+ "dog": {
+  "parse": "d:d o:aa g:g",
+  "stage": 3
+ },
+ "hog": {
+  "parse": "h:h o:aa g:g",
+  "stage": 3
+ },
+ "fog": {
+  "parse": "f:f o:aa g:g",
+  "stage": 3
+ },
+ "cat": {
+  "parse": "c:k a:ae t:t",
+  "stage": 3
+ },
+ "cap": {
+  "parse": "c:k a:ae p:p",
+  "stage": 3
+ },
+ "can": {
+  "parse": "c:k a:ae n:n",
+  "stage": 3
+ },
+ "kid": {
+  "parse": "k:k i:ih d:d",
+  "stage": 3
+ },
+ "kit": {
+  "parse": "k:k i:ih t:t",
+  "stage": 3,
+  "name": "Kit"
+ },
+ "hid": {
+  "parse": "h:h i:ih d:d",
+  "stage": 3
+ },
+ "him": {
+  "parse": "h:h i:ih m:m",
+  "stage": 3
+ },
+ "hit": {
+  "parse": "h:h i:ih t:t",
+  "stage": 3
+ },
+ "hat": {
+  "parse": "h:h a:ae t:t",
+  "stage": 3
+ },
+ "had": {
+  "parse": "h:h a:ae d:d",
+  "stage": 3
+ },
+ "ham": {
+  "parse": "h:h a:ae m:m",
+  "stage": 3
+ },
+ "hip": {
+  "parse": "h:h i:ih p:p",
+  "stage": 3
+ },
+ "gap": {
+  "parse": "g:g a:ae p:p",
+  "stage": 3
+ },
+ "gas": {
+  "parse": "g:g a:ae s:s",
+  "stage": 3
+ },
+ "dig": {
+  "parse": "d:d i:ih g:g",
+  "stage": 3
+ },
+ "pig": {
+  "parse": "p:p i:ih g:g",
+  "stage": 3
+ },
+ "fig": {
+  "parse": "f:f i:ih g:g",
+  "stage": 3
+ },
+ "tag": {
+  "parse": "t:t a:ae g:g",
+  "stage": 3
+ },
+ "nod": {
+  "parse": "n:n o:aa d:d",
+  "stage": 3
+ },
+ "mom": {
+  "parse": "m:m o:aa m:m",
+  "stage": 3,
+  "name": "Mom"
+ },
+ "bug": {
+  "parse": "b:b u:uh g:g",
+  "stage": 4
+ },
+ "big": {
+  "parse": "b:b i:ih g:g",
+  "stage": 4
+ },
+ "bag": {
+  "parse": "b:b a:ae g:g",
+  "stage": 4
+ },
+ "bat": {
+  "parse": "b:b a:ae t:t",
+  "stage": 4
+ },
+ "bad": {
+  "parse": "b:b a:ae d:d",
+  "stage": 4
+ },
+ "bib": {
+  "parse": "b:b i:ih b:b",
+  "stage": 4
+ },
+ "bit": {
+  "parse": "b:b i:ih t:t",
+  "stage": 4
+ },
+ "bin": {
+  "parse": "b:b i:ih n:n",
+  "stage": 4
+ },
+ "bun": {
+  "parse": "b:b u:uh n:n",
+  "stage": 4
+ },
+ "bus": {
+  "parse": "b:b u:uh s:s",
+  "stage": 4
+ },
+ "but": {
+  "parse": "b:b u:uh t:t",
+  "stage": 4
+ },
+ "rub": {
+  "parse": "r:r u:uh b:b",
+  "stage": 4
+ },
+ "rug": {
+  "parse": "r:r u:uh g:g",
+  "stage": 4
+ },
+ "run": {
+  "parse": "r:r u:uh n:n",
+  "stage": 4
+ },
+ "rat": {
+  "parse": "r:r a:ae t:t",
+  "stage": 4
+ },
+ "ran": {
+  "parse": "r:r a:ae n:n",
+  "stage": 4
+ },
+ "rip": {
+  "parse": "r:r i:ih p:p",
+  "stage": 4
+ },
+ "rib": {
+  "parse": "r:r i:ih b:b",
+  "stage": 4
+ },
+ "rod": {
+  "parse": "r:r o:aa d:d",
+  "stage": 4
+ },
+ "log": {
+  "parse": "l:l o:aa g:g",
+  "stage": 4
+ },
+ "lot": {
+  "parse": "l:l o:aa t:t",
+  "stage": 4
+ },
+ "lid": {
+  "parse": "l:l i:ih d:d",
+  "stage": 4
+ },
+ "lip": {
+  "parse": "l:l i:ih p:p",
+  "stage": 4
+ },
+ "lap": {
+  "parse": "l:l a:ae p:p",
+  "stage": 4
+ },
+ "up": {
+  "parse": "u:uh p:p",
+  "stage": 4
+ },
+ "us": {
+  "parse": "u:uh s:s",
+  "stage": 4
+ },
+ "sun": {
+  "parse": "s:s u:uh n:n",
+  "stage": 4
+ },
+ "fun": {
+  "parse": "f:f u:uh n:n",
+  "stage": 4
+ },
+ "mud": {
+  "parse": "m:m u:uh d:d",
+  "stage": 4
+ },
+ "mug": {
+  "parse": "m:m u:uh g:g",
+  "stage": 4
+ },
+ "nut": {
+  "parse": "n:n u:uh t:t",
+  "stage": 4
+ },
+ "hut": {
+  "parse": "h:h u:uh t:t",
+  "stage": 4
+ },
+ "cut": {
+  "parse": "c:k u:uh t:t",
+  "stage": 4
+ },
+ "cup": {
+  "parse": "c:k u:uh p:p",
+  "stage": 4
+ },
+ "pup": {
+  "parse": "p:p u:uh p:p",
+  "stage": 4
+ },
+ "hug": {
+  "parse": "h:h u:uh g:g",
+  "stage": 4
+ },
+ "tub": {
+  "parse": "t:t u:uh b:b",
+  "stage": 4
+ },
+ "tug": {
+  "parse": "t:t u:uh g:g",
+  "stage": 4
+ },
+ "bed": {
+  "parse": "b:b e:eh d:d",
+  "stage": 5
+ },
+ "bet": {
+  "parse": "b:b e:eh t:t",
+  "stage": 5
+ },
+ "beg": {
+  "parse": "b:b e:eh g:g",
+  "stage": 5
+ },
+ "red": {
+  "parse": "r:r e:eh d:d",
+  "stage": 5
+ },
+ "leg": {
+  "parse": "l:l e:eh g:g",
+  "stage": 5
+ },
+ "let": {
+  "parse": "l:l e:eh t:t",
+  "stage": 5
+ },
+ "led": {
+  "parse": "l:l e:eh d:d",
+  "stage": 5
+ },
+ "ten": {
+  "parse": "t:t e:eh n:n",
+  "stage": 5
+ },
+ "pen": {
+  "parse": "p:p e:eh n:n",
+  "stage": 5
+ },
+ "hen": {
+  "parse": "h:h e:eh n:n",
+  "stage": 5
+ },
+ "men": {
+  "parse": "m:m e:eh n:n",
+  "stage": 5
+ },
+ "net": {
+  "parse": "n:n e:eh t:t",
+  "stage": 5
+ },
+ "pet": {
+  "parse": "p:p e:eh t:t",
+  "stage": 5
+ },
+ "set": {
+  "parse": "s:s e:eh t:t",
+  "stage": 5
+ },
+ "get": {
+  "parse": "g:g e:eh t:t",
+  "stage": 5
+ },
+ "met": {
+  "parse": "m:m e:eh t:t",
+  "stage": 5
+ },
+ "fed": {
+  "parse": "f:f e:eh d:d",
+  "stage": 5
+ },
+ "is": {
+  "parse": "i:ih s:z",
+  "stage": 5
+ },
+ "his": {
+  "parse": "h:h i:ih s:z",
+  "stage": 5
+ },
+ "has": {
+  "parse": "h:h a:ae s:z",
+  "stage": 5
+ },
+ "as": {
+  "parse": "a:ae s:z",
+  "stage": 5
+ },
+ "jet": {
+  "parse": "j:j e:eh t:t",
+  "stage": 6
+ },
+ "jam": {
+  "parse": "j:j a:ae m:m",
+  "stage": 6
+ },
+ "jog": {
+  "parse": "j:j o:aa g:g",
+  "stage": 6
+ },
+ "jug": {
+  "parse": "j:j u:uh g:g",
+  "stage": 6
+ },
+ "job": {
+  "parse": "j:j o:aa b:b",
+  "stage": 6
+ },
+ "wet": {
+  "parse": "w:w e:eh t:t",
+  "stage": 6
+ },
+ "web": {
+  "parse": "w:w e:eh b:b",
+  "stage": 6
+ },
+ "win": {
+  "parse": "w:w i:ih n:n",
+  "stage": 6
+ },
+ "wig": {
+  "parse": "w:w i:ih g:g",
+  "stage": 6
+ },
+ "van": {
+  "parse": "v:v a:ae n:n",
+  "stage": 6
+ },
+ "vet": {
+  "parse": "v:v e:eh t:t",
+  "stage": 6
+ },
+ "yes": {
+  "parse": "y:y e:eh s:s",
+  "stage": 6
+ },
+ "yet": {
+  "parse": "y:y e:eh t:t",
+  "stage": 6
+ },
+ "yam": {
+  "parse": "y:y a:ae m:m",
+  "stage": 6
+ },
+ "box": {
+  "parse": "b:b o:aa x:ks",
+  "stage": 6
+ },
+ "fox": {
+  "parse": "f:f o:aa x:ks",
+  "stage": 6
+ },
+ "six": {
+  "parse": "s:s i:ih x:ks",
+  "stage": 6
+ },
+ "mix": {
+  "parse": "m:m i:ih x:ks",
+  "stage": 6
+ },
+ "fix": {
+  "parse": "f:f i:ih x:ks",
+  "stage": 6
+ },
+ "wax": {
+  "parse": "w:w a:ae x:ks",
+  "stage": 6
+ },
+ "zip": {
+  "parse": "z:z i:ih p:p",
+  "stage": 6
+ },
+ "zap": {
+  "parse": "z:z a:ae p:p",
+  "stage": 6
+ },
+ "quit": {
+  "parse": "qu:kw i:ih t:t",
+  "stage": 6
+ },
+ "quiz": {
+  "parse": "qu:kw i:ih z:z",
+  "stage": 6
+ },
+ "quack": {
+  "parse": "qu:kw a:ae ck:k",
+  "stage": 7
+ },
+ "duck": {
+  "parse": "d:d u:uh ck:k",
+  "stage": 7
+ },
+ "sock": {
+  "parse": "s:s o:aa ck:k",
+  "stage": 7
+ },
+ "rock": {
+  "parse": "r:r o:aa ck:k",
+  "stage": 7
+ },
+ "pack": {
+  "parse": "p:p a:ae ck:k",
+  "stage": 7
+ },
+ "back": {
+  "parse": "b:b a:ae ck:k",
+  "stage": 7
+ },
+ "kick": {
+  "parse": "k:k i:ih ck:k",
+  "stage": 7
+ },
+ "pick": {
+  "parse": "p:p i:ih ck:k",
+  "stage": 7
+ },
+ "lock": {
+  "parse": "l:l o:aa ck:k",
+  "stage": 7
+ },
+ "luck": {
+  "parse": "l:l u:uh ck:k",
+  "stage": 7
+ },
+ "neck": {
+  "parse": "n:n e:eh ck:k",
+  "stage": 7
+ },
+ "sick": {
+  "parse": "s:s i:ih ck:k",
+  "stage": 7
+ },
+ "tick": {
+  "parse": "t:t i:ih ck:k",
+  "stage": 7
+ },
+ "off": {
+  "parse": "o:aa ff:f",
+  "stage": 7
+ },
+ "puff": {
+  "parse": "p:p u:uh ff:f",
+  "stage": 7
+ },
+ "bell": {
+  "parse": "b:b e:eh ll:l",
+  "stage": 7
+ },
+ "hill": {
+  "parse": "h:h i:ih ll:l",
+  "stage": 7
+ },
+ "fell": {
+  "parse": "f:f e:eh ll:l",
+  "stage": 7
+ },
+ "tell": {
+  "parse": "t:t e:eh ll:l",
+  "stage": 7
+ },
+ "sell": {
+  "parse": "s:s e:eh ll:l",
+  "stage": 7
+ },
+ "well": {
+  "parse": "w:w e:eh ll:l",
+  "stage": 7
+ },
+ "will": {
+  "parse": "w:w i:ih ll:l",
+  "stage": 7
+ },
+ "doll": {
+  "parse": "d:d o:aa ll:l",
+  "stage": 7
+ },
+ "miss": {
+  "parse": "m:m i:ih ss:s",
+  "stage": 7
+ },
+ "kiss": {
+  "parse": "k:k i:ih ss:s",
+  "stage": 7
+ },
+ "mess": {
+  "parse": "m:m e:eh ss:s",
+  "stage": 7
+ },
+ "boss": {
+  "parse": "b:b o:aa ss:s",
+  "stage": 7
+ },
+ "buzz": {
+  "parse": "b:b u:uh zz:z",
+  "stage": 7
+ },
+ "fuzz": {
+  "parse": "f:f u:uh zz:z",
+  "stage": 7
+ },
+ "jazz": {
+  "parse": "j:j a:ae zz:z",
+  "stage": 7
+ },
+ "ship": {
+  "parse": "sh:sh i:ih p:p",
+  "stage": 8
+ },
+ "shop": {
+  "parse": "sh:sh o:aa p:p",
+  "stage": 8
+ },
+ "shed": {
+  "parse": "sh:sh e:eh d:d",
+  "stage": 8
+ },
+ "shut": {
+  "parse": "sh:sh u:uh t:t",
+  "stage": 8
+ },
+ "fish": {
+  "parse": "f:f i:ih sh:sh",
+  "stage": 8
+ },
+ "dish": {
+  "parse": "d:d i:ih sh:sh",
+  "stage": 8
+ },
+ "wish": {
+  "parse": "w:w i:ih sh:sh",
+  "stage": 8
+ },
+ "rush": {
+  "parse": "r:r u:uh sh:sh",
+  "stage": 8
+ },
+ "cash": {
+  "parse": "c:k a:ae sh:sh",
+  "stage": 8
+ },
+ "chip": {
+  "parse": "ch:ch i:ih p:p",
+  "stage": 8,
+  "name": "Chip"
+ },
+ "chop": {
+  "parse": "ch:ch o:aa p:p",
+  "stage": 8
+ },
+ "chin": {
+  "parse": "ch:ch i:ih n:n",
+  "stage": 8
+ },
+ "chat": {
+  "parse": "ch:ch a:ae t:t",
+  "stage": 8
+ },
+ "chick": {
+  "parse": "ch:ch i:ih ck:k",
+  "stage": 8
+ },
+ "check": {
+  "parse": "ch:ch e:eh ck:k",
+  "stage": 8
+ },
+ "much": {
+  "parse": "m:m u:uh ch:ch",
+  "stage": 8
+ },
+ "such": {
+  "parse": "s:s u:uh ch:ch",
+  "stage": 8
+ },
+ "rich": {
+  "parse": "r:r i:ih ch:ch",
+  "stage": 8
+ },
+ "thin": {
+  "parse": "th:th i:ih n:n",
+  "stage": 8
+ },
+ "thick": {
+  "parse": "th:th i:ih ck:k",
+  "stage": 8
+ },
+ "moth": {
+  "parse": "m:m o:aa th:th",
+  "stage": 8
+ },
+ "bath": {
+  "parse": "b:b a:ae th:th",
+  "stage": 8
+ },
+ "math": {
+  "parse": "m:m a:ae th:th",
+  "stage": 8
+ },
+ "path": {
+  "parse": "p:p a:ae th:th",
+  "stage": 8
+ },
+ "with": {
+  "parse": "w:w i:ih th:th",
+  "stage": 8
+ },
+ "this": {
+  "parse": "th:dh i:ih s:s",
+  "stage": 8
+ },
+ "that": {
+  "parse": "th:dh a:ae t:t",
+  "stage": 8
+ },
+ "then": {
+  "parse": "th:dh e:eh n:n",
+  "stage": 8
+ },
+ "them": {
+  "parse": "th:dh e:eh m:m",
+  "stage": 8
+ },
+ "when": {
+  "parse": "wh:w e:eh n:n",
+  "stage": 8
+ },
+ "which": {
+  "parse": "wh:w i:ih ch:ch",
+  "stage": 8
+ },
+ "whip": {
+  "parse": "wh:w i:ih p:p",
+  "stage": 8
+ },
+ "sing": {
+  "parse": "s:s i:ih ng:ng",
+  "stage": 8
+ },
+ "song": {
+  "parse": "s:s o:aa ng:ng",
+  "stage": 8
+ },
+ "ring": {
+  "parse": "r:r i:ih ng:ng",
+  "stage": 8
+ },
+ "king": {
+  "parse": "k:k i:ih ng:ng",
+  "stage": 8
+ },
+ "wing": {
+  "parse": "w:w i:ih ng:ng",
+  "stage": 8
+ },
+ "long": {
+  "parse": "l:l o:aa ng:ng",
+  "stage": 8
+ },
+ "hang": {
+  "parse": "h:h a:ae ng:ng",
+  "stage": 8
+ },
+ "bang": {
+  "parse": "b:b a:ae ng:ng",
+  "stage": 8
+ },
+ "sang": {
+  "parse": "s:s a:ae ng:ng",
+  "stage": 8
+ },
+ "sam": {
+  "parse": "s:s a:ae m:m",
+  "stage": 1,
+  "name": "Sam"
+ },
+ "pam": {
+  "parse": "p:p a:ae m:m",
+  "stage": 1,
+  "name": "Pam"
+ },
+ "dan": {
+  "parse": "d:d a:ae n:n",
+  "stage": 2,
+  "name": "Dan"
+ },
+ "nan": {
+  "parse": "n:n a:ae n:n",
+  "stage": 2,
+  "name": "Nan"
+ },
+ "tim": {
+  "parse": "t:t i:ih m:m",
+  "stage": 2,
+  "name": "Tim"
+ },
+ "sid": {
+  "parse": "s:s i:ih d:d",
+  "stage": 2,
+  "name": "Sid"
+ },
+ "tom": {
+  "parse": "t:t o:aa m:m",
+  "stage": 3,
+  "name": "Tom"
+ },
+ "ben": {
+  "parse": "b:b e:eh n:n",
+  "stage": 5,
+  "name": "Ben"
+ },
+ "bob": {
+  "parse": "b:b o:aa b:b",
+  "stage": 4,
+  "name": "Bob"
+ },
+ "meg": {
+  "parse": "m:m e:eh g:g",
+  "stage": 5,
+  "name": "Meg"
+ },
+ "jen": {
+  "parse": "j:j e:eh n:n",
+  "stage": 6,
+  "name": "Jen"
+ },
+ "jack": {
+  "parse": "j:j a:ae ck:k",
+  "stage": 7,
+  "name": "Jack"
+ },
+ "jill": {
+  "parse": "j:j i:ih ll:l",
+  "stage": 7,
+  "name": "Jill"
+ },
+ "beth": {
+  "parse": "b:b e:eh th:th",
+  "stage": 8,
+  "name": "Beth"
+ },
+ "chad": {
+  "parse": "ch:ch a:ae d:d",
+  "stage": 8,
+  "name": "Chad"
+ }
+}

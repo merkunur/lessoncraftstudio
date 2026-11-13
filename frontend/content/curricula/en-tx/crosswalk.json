@@ -2538,6 +2538,41 @@
    ],
    "by": "authored"
   },
+  "K:read-picture-book": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.iv",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.D.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.4",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:read-decodable-text": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.5.D",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

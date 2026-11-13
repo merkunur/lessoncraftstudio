@@ -460,5 +460,10 @@
   "picture-tracing": {
     "full": "Tracing the dashed lines of a whole picture, one line at a time, builds pencil control, steady strokes and readiness for writing.",
     "short": "Builds steady pencil control."
+  },
+  "readers": {
+    "full": "A first book a child can read alone builds the habit of reading: every word is one the class has been taught, or one the picture carries.",
+    "short": "A little book to fold, read alone and take home.",
+    "levelSetShort": "A little book to fold, read alone and take home."
   }
 }

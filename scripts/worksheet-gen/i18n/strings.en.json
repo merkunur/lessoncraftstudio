@@ -4837,5 +4837,21 @@
   "G2-501": {
     "title": "Subtract on the Open Number Line",
     "instruction": "Draw your jumps back on the empty line. Write the answer."
+  },
+  "K-628": {
+    "title": "{U}",
+    "instruction": "Fold the top half back, then fold the left half back to make a little book. Read each page. Then draw what it says."
+  },
+  "K-629": {
+    "title": "{U}",
+    "instruction": "Fold the top half back, then fold the left half back to make a little book. Name the pictures. Then point under each word as you read."
+  },
+  "K-630": {
+    "title": "{U}",
+    "instruction": "Fold the top half back, then fold the left half back to make a little book. Name the pictures, read each page, and color."
+  },
+  "K-631": {
+    "title": "{U}: Read and Talk",
+    "instruction": "Read the book again. Then talk about it with a grown-up."
   }
 }

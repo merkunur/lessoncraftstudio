@@ -2153,6 +2153,31 @@
    ],
    "by": "code"
   },
+  "K:read-picture-book": {
+   "rows": [
+    {
+     "id": "RF.K.4",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:read-decodable-text": {
+   "rows": [
+    {
+     "id": "RF.K.3",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "RF.1.3.b",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

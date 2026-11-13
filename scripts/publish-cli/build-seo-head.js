@@ -425,7 +425,8 @@ function buildSeoHead(opts) {
   var skillSentence = String(opts.skillSentence || '');
   var skillSentenceShort = String(opts.skillSentenceShort || '');
 
-  var descLeadBase = freeInteractive + ' ' + typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
+  // opts.noWorksheetWordInDescription (default off): a type that is no worksheet (a reader is a book) names itself alone
+  var descLeadBase = freeInteractive + ' ' + typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + (opts.noWorksheetWordInDescription ? '' : ' ' + worksheetWord);
   var descLeadNoTheme = descLeadBase + ' ' + forWord + ' ' + levelText;
   var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
   var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';

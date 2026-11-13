@@ -3855,6 +3855,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
    "review": "year-design 2026-11-13"
+  },
+  "K:read-picture-book": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
+   "review": "readers 2026-11-13"
+  },
+  "K:read-decodable-text": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
+   "review": "readers 2026-11-13"
   }
  }
 }

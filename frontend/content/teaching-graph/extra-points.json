@@ -45,6 +45,20 @@
    "code": "2.NBT.B.9",
    "skill": "Explain why a way of adding or subtracting works, with place value and blocks or a drawing",
    "led": true
+  },
+  {
+   "tp": "K:read-decodable-text",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.3 / RF.1.3.b",
+   "skill": "Read a first book made only of words the class can sound out and of taught heart words, and draw what each page says"
+  },
+  {
+   "tp": "K:read-picture-book",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.4",
+   "skill": "Read a first picture book with purpose and understanding: sight words, a repeating sentence, and a picture for the new word"
   }
  ]
 }

@@ -184,9 +184,11 @@ function buildDeckHtml(o) {
   const setWord = word(locale, 'set', 'Set');
 
   const seoFor = (mode, wWord, omitWorksheetWord) => seoHead.buildSeoHead({
-    omitWorksheetWord: !!omitWorksheetWord,
+    // a type may drop the worksheet word and name itself for the title (a reader is a book, no "worksheet"); absent = as before
+    omitWorksheetWord: !!omitWorksheetWord || !!spec.noWorksheetWord,
+    noWorksheetWordInDescription: !!spec.noWorksheetWord,
     language: locale,
-    exerciseTypeName: strings.title,
+    exerciseTypeName: (spec.seoName && spec.seoName(strings.title, locale)) || strings.title,
     exerciseTypeSlug: spec.exerciseType,
     themeName: themeName,
     exerciseModeName: mode,

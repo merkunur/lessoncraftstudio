@@ -461,6 +461,8 @@ node /opt/lessoncraftstudio/scripts/verify-sitemap-integrity.js --poison || { ec
 # how unroll-tape shipped 27%-small numerals. Ratcheted: the baseline may only shrink.
 echo "🔎 Dropped font-shorthand check..."
 node /opt/lessoncraftstudio/scripts/audit-font-shorthand.js || { echo "ERROR: a \`font:\` shorthand with an unquoted family is dropped whole — write it longhand, family QUOTED"; exit 1; }
+# The readers (Daily Teaching System, Part 8): no book with a word its set has not taught, and the word list is what its recorded parses say
+node /opt/lessoncraftstudio/scripts/readers/gate.js --poison || { echo "ERROR: a reader holds a word its set has not taught, or the word list and its parses disagree — see scripts/readers/gate.js"; exit 1; }
 
 # Guard: image-library WebP mirrors must be uniform per directory. A HALF-mirrored
 # directory lets a worksheet bake its palette art from a variant and crop its reveal

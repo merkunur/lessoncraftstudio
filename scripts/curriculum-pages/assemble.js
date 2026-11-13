@@ -67,7 +67,8 @@ function assemble(loc) {
     if (u.status !== 'live') continue;
     const d = unitDefs.get(u.id);
     for (const l of u.lessons) {
-      const own = d && d.lessons ? (d.lessons.find((x) => x.point === l.point) || {}).standards : null;
+      // (the definition of THIS lesson: by its id where a point carries several lessons)
+      const own = d && d.lessons ? (d.lessons.find((x) => (x.id || x.point) === (l.id || l.point)) || {}).standards : null;
       if (!lessonsOf.has(l.point)) lessonsOf.set(l.point, []);
       lessonsOf.get(l.point).push({ unit: u.slug, unitTitle: u.title, unitGrade: String(u.grade), n: l.n, title: l.title, objective: l.objective, papers: (l.paper || []).length, own: own || null });
     }

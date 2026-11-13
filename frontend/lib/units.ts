@@ -21,6 +21,8 @@ export interface UnitPaper { type: string; title: string; core: string; easy?: s
 export interface UnitLesson {
   n: number;
   point: string;
+  /** set on a further lesson of a teaching point ("<point>#<name>"): a point may carry several lessons */
+  id?: string;
   title: string;
   objective: string;
   standards: UnitStandard[];

@@ -83,6 +83,7 @@ function run(d) {
     }
     // units
     const notes = new Map();
+    const lessonKeys = new Map();
     for (const u of L.units) {
       const w = l + ' unit ' + u.id;
       if (u.lessons.length < 4) fail('P3', w + ': ' + u.lessons.length + ' lessons (at least 4)');
@@ -103,7 +104,12 @@ function run(d) {
         if (!n.words || !QUOTED.test(n.words)) fail('P3', lw + ': the note gives no words to use (nothing in quotation marks)');
         if (!n.watch || n.watch.length < 40) fail('P3', lw + ': the note does not say what to watch for');
         for (const s of [x.title, x.objective, n.mistake, n.words, n.watch]) if (s && FREE[l].test(s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
-        if (n.mistake && !notes.has(x.point)) notes.set(x.point, grams([n.mistake, n.words, n.watch].join(' ')));
+        // a lesson stands once in a language: by its id where it has one (a further lesson on a point), else by its point
+        const key = x.id || x.point;
+        if (x.id != null && !(typeof x.id === 'string' && x.id.startsWith(x.point + '#'))) fail('P2', lw + ': the lesson id "' + x.id + '" does not begin with its point');
+        if (lessonKeys.has(key)) fail('P3', lw + ': ' + key + ' is taught by ' + lessonKeys.get(key) + ' as well (two lessons on one point need two ids, two titles and two notes)');
+        lessonKeys.set(key, w + ' lesson ' + x.n);
+        if (n.mistake && !notes.has(key)) notes.set(key, grams([n.mistake, n.words, n.watch].join(' ')));
       }
     }
     const ps = [...notes];
@@ -189,6 +195,8 @@ const POISONS = [
   ['a lesson on a teaching point that does not exist', 'P2', (d) => { d.loc.en.units[0].lessons[0].point = '9:nothing'; }],
   ['a block on a teaching point that does not exist', 'P2', (d) => { d.loc.en.packs[0].blocks[0].point = '9:nothing'; }],
   ['a unit of three lessons', 'P3', (d) => { d.loc.en.units[0].lessons.length = 3; }],
+  ['a second lesson on a point without an id of its own', 'P3', (d) => { const u = d.loc.en.units[0]; const c = clone(u.lessons[0]); c.n = u.lessons.length + 1; u.lessons.push(c); }],
+  ['a lesson id that does not belong to its point', 'P2', (d) => { d.loc.en.units[0].lessons[0].id = '9:other#again'; }],
   ['a lesson that claims a third day without the material', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2); x.days = 3; }],
   ['a unit that says two weeks', 'P9', (d) => { const u = d.loc.en.units.find((y) => y.weeks > 2); u.weeks = 2; }],
   ['a description that names the old length', 'P9', (d) => { const u = d.loc.en.units.find((y) => /\b[Aa]n? \w+-week\b/.test(y.metaDescription) && y.weeks !== 2); u.metaDescription = u.metaDescription.replace(/\b([Aa])n? \w+-week\b/, '$1 two-week'); }],

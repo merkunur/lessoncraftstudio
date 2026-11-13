@@ -22,7 +22,9 @@ for (const f of fs.readdirSync(__dirname).filter((x) => /^[a-z]{2}-[a-z]+-[a-z0-
   const m = require(path.join(__dirname, f));
   const L = (byLoc[m.loc] = byLoc[m.loc] || { points: {}, from: {} });
   for (const [id, n] of Object.entries(m.points)) {
-    if (!known.has(id)) { bad++; console.log('ERROR  ' + f + ': ' + id + ' is no teaching point'); continue; }
+    // a key is a teaching point, or a further lesson on one: "<point>#<kebab-name>" (a point may carry several lessons)
+    const pointOfKey = id.includes('#') ? id.slice(0, id.indexOf('#')) : id;
+    if (!known.has(pointOfKey) || (id.includes('#') && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id.slice(id.indexOf('#') + 1)))) { bad++; console.log('ERROR  ' + f + ': ' + id + ' is no teaching point and no lesson of one'); continue; }
     if (L.from[id]) { bad++; console.log('ERROR  ' + id + ' is in ' + L.from[id] + ' and in ' + f); continue; }
     if (!n.title || !n.objective || !n.note || !n.note.mistake || !n.note.words || !n.note.watch) { bad++; console.log('ERROR  ' + f + ': ' + id + ' lacks a title, an objective or a part of its note'); continue; }
     L.from[id] = f; L.points[id] = { title: n.title, objective: n.objective, note: { mistake: n.note.mistake, words: n.note.words, watch: n.note.watch } };

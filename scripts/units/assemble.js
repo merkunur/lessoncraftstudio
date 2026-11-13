@@ -87,6 +87,7 @@ function assemble(loc, opt = {}) {
   const pages = pagesOf(loc, opt.decksText);
 
   const seenSlug = new Set(), seenId = new Set();
+  const seenLesson = new Map();   // lesson key (its id, or its point) → the unit that holds it: a key stands once in a language
   const units = [];
   for (const d of defs) {
     const where = loc + ' unit ' + d.id;
@@ -100,8 +101,15 @@ function assemble(loc, opt = {}) {
       const lw = where + ' lesson ' + (i + 1) + ' (' + L.point + ')';
       const p = points.get(L.point);
       if (!p) { bad(lw + ': no such teaching point'); continue; }
-      const tx = text[L.point];
-      if (!tx || !tx.title || !tx.objective || !tx.note || !tx.note.mistake || !tx.note.words || !tx.note.watch) { bad(lw + ': the point has no title, objective and full teacher note in points/' + loc + '.json'); continue; }
+      // A point may carry several lessons (Part 12.2: "this standard needs more than one lesson"). A further lesson
+      // names itself: id = "<point>#<name>", and its title, objective and note stand under that id. The point's first
+      // lesson has no id and reads the point's own texts.
+      if (L.id != null && !(typeof L.id === 'string' && L.id.startsWith(L.point + '#') && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(L.id.slice(L.point.length + 1)))) { bad(lw + ': the lesson id "' + L.id + '" is not "' + L.point + '#<kebab-name>"'); continue; }
+      const key = L.id || L.point;
+      if (seenLesson.has(key)) { bad(lw + ': ' + key + ' is a lesson of ' + seenLesson.get(key) + ' already (a second lesson on a point needs an id of its own)'); continue; }
+      seenLesson.set(key, d.id);
+      const tx = text[key];
+      if (!tx || !tx.title || !tx.objective || !tx.note || !tx.note.mistake || !tx.note.words || !tx.note.watch) { bad(lw + ': ' + (L.id ? 'the lesson ' + L.id : 'the point') + ' has no title, objective and full teacher note in points/' + loc + '.json'); continue; }
 
       // paper: the worksheet types the unit names, each with its core page and, where published, an easier and a harder one
       const paper = [];
@@ -113,12 +121,19 @@ function assemble(loc, opt = {}) {
         const label = L.titles && L.titles[typeId];
         const title = label || (strings[typeId] && strings[typeId].title && strings[typeId].title.replace(/\s*:\s*\{[A-Za-z_]+\}\s*$/, ''));
         if (title && /\{[A-Za-z_]+\}/.test(title)) { bad(lw + ': the title of type ' + typeId + ' carries a placeholder (' + title + ')'); continue; }
-        if (!pg || !pg.core.length || !title) { bad(lw + ': type ' + typeId + ' has no published core page or no title in this language'); continue; }
+        // the level the lesson hands out as its core page: 2 unless the lesson names another (`core`), because some
+        // types teach a different step at each level (plus over the ten at level 1, plus and minus at level 2)
+        const lv = (L.core && L.core[typeId]) || 2;
+        if (![1, 2, 3].includes(lv)) { bad(lw + ': core level ' + lv + ' of type ' + typeId); continue; }
+        const RUNG = { 1: 'easy', 2: 'core', 3: 'hard' };
+        if (!pg || !pg[RUNG[lv]].length || !title) { bad(lw + ': type ' + typeId + ' has no published ' + (lv === 2 ? 'core page' : 'page at level ' + lv) + ' or no title in this language'); continue; }
         const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
-        const core = pick('core'), easy = pick('easy'), hard = pick('hard');
+        const core = pick(RUNG[lv]), easy = lv > 1 ? pick(RUNG[lv - 1]) : null, hard = lv < 3 ? pick(RUNG[lv + 1]) : null;
+        if (!core) { bad(lw + ': every page of type ' + typeId + ' at level ' + lv + ' is handed out by an earlier lesson of the unit'); continue; }
         const a = assets.types[typeId] || {};
         // a lesson may give a page a label of its own (`titles`), where two of its pages print the same title
         const row = { type: typeId, title: (L.titles && L.titles[typeId]) || title, core: core.slug };
+        if (lv !== 2) row.level = lv;
         if (easy) row.easy = easy.slug;
         if (hard) row.hard = hard.slug;
         if (core.screen) row.screen = 1;
@@ -130,7 +145,8 @@ function assemble(loc, opt = {}) {
       let exit = null;
       if (paper.length) {
         const pg = pages.get(paper[0].type);
-        const x = pg.core.find((y) => !usedPages.has(y.slug));
+        // one more page of the SAME level as the lesson's core page
+        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[paper[0].level || 2]].find((y) => !usedPages.has(y.slug));
         if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: paper[0].title }; }
       }
       // the tool on the projector: the unit's choice, else the first tool that models this point
@@ -198,6 +214,7 @@ function assemble(loc, opt = {}) {
       const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0);
       if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');
       const lesson = { n: lessons.length + 1, point: L.point, title: tx.title, objective: tx.objective, standards, paper };
+      if (L.id) lesson.id = L.id;
       if (tool) lesson.tool = tool;
       if (screen) lesson.screen = screen;
       if (exit) lesson.exit = exit;

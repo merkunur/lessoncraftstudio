@@ -146,6 +146,7 @@ function labelsLine({ min, step, n, printed, boxes, key }) {
   return `<div data-lcs-labels-line data-lcs-min="${min}" data-lcs-step="${step}" data-lcs-n="${n}" style="position:relative;width:${nl.width}px;height:${nl.height + 8}px">${nl.svg}${boxEls}</div>`;
 }
 
+const gcd = (x, y) => (y ? gcd(y, x % y) : x);
 /** a stacked fraction (numerator over a bar over the denominator) — never "3/4" text */
 const stacked = (p, b, size = 30) => `<span data-lcs-frac="${p}/${b}" style="display:inline-flex;flex-direction:column;align-items:center;font-family:'Baloo 2';font-weight:700;font-size:${size}px;line-height:1.05;color:${INK}">` +
   `<span>${p}</span><span style="width:${Math.round(size * 0.9)}px;border-top:3px solid ${INK};margin:2px 0"></span><span>${b}</span></span>`;
@@ -287,13 +288,21 @@ function makeLineMoreType(cfg) {
         const fr = [];
         for (let t = 0; fr.length < d.lines && t < 600; t++) {
           const b = d.dens[fr.length % d.dens.length === 0 ? rng.int(0, d.dens.length - 1) : rng.int(0, d.dens.length - 1)];
-          const p = d.max === 2 && fr.length % 2 === 0 ? rng.int(b + 1, 2 * b - 1) : rng.int(1, b - 1);
+          const p = d.unit ? 1 : d.max === 2 && fr.length % 2 === 0 ? rng.int(b + 1, 2 * b - 1) : rng.int(1, b - 1);
           if (fr.some((f) => f.p === p && f.b === b)) continue;
+          // a face where the child WRITES the fraction (Year pages I): never a dot with two names (2/4 is also 1/2)
+          if (d.write && !d.unit && gcd(p, b) !== 1) continue;
           fr.push({ p, b });
         }
         if (fr.length < d.lines) throw new Error('number-line-more: not enough fractions for ' + d.lines + ' lines');
         const cards = fr.map((f) => {
           const labelText = { 0: '0', 1: '1', 2: '2' };
+          if (d.write) {
+            // the dot is printed on the line; the child writes its fraction into two boxes, one over the other
+            const wl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 440, labelText, marks: [f.p / f.b] });
+            const boxes = `<span data-lcs-write="${f.p}/${f.b}" style="display:inline-flex;flex-direction:column;align-items:center;gap:4px">${answerBox({ w: 56, h: 46, answer: f.p })}<span style="width:60px;border-top:3px solid ${INK}"></span>${answerBox({ w: 56, h: 46, answer: f.b })}</span>`;
+            return `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:26px" data-lcs-fraction="${f.p}/${f.b}">${wl.svg}${boxes}</div>`;
+          }
           const nl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 480, labelText, rings: key ? [f.p / f.b] : [], ...(ctx.screen ? { tickBoxes: { rings: [f.p / f.b] } } : {}) });
           return `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:26px" data-lcs-fraction="${f.p}/${f.b}">${stacked(f.p, f.b)}${key ? sample(nl.svg) : nl.svg}</div>`;
         });
@@ -354,6 +363,13 @@ function makeLineMoreType(cfg) {
           const max = n(c.querySelector('[data-lcs-prim="number-line"]').dataset.lcsMax);
           if (ticks !== max * b + 1) fails.push(`fraction ${p}/${b}: ${ticks} ticks`);
           if (p <= 0 || p >= max * b || p === b) fails.push(`fraction ${p}/${b} out of range`);
+          const wr = c.querySelector('[data-lcs-write]');
+          if (wr) {
+            const ans = [...wr.querySelectorAll('[data-lcs-answer]')].map((x) => n(x.dataset.lcsAnswer));
+            if (ans.join('/') !== p + '/' + b) fails.push(`fraction ${p}/${b}: the boxes hold ${ans.join('/')}`);
+            if (c.querySelectorAll('[data-lcs-frac]').length) fails.push(`fraction ${p}/${b}: the answer is printed beside the line`);
+            const g = (x, y) => (y ? g(y, x % y) : x); if (g(p, b) !== 1) fails.push(`fraction ${p}/${b} has a second name`);
+          }
         });
         return fails;
       });

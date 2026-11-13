@@ -4878,5 +4878,9 @@
   "G1-566": {
     "title": "Aftrekken door op te tellen",
     "instruction": "Zoek het getal dat ontbreekt. Schrijf het in de lege cirkel en in beide sommen."
+  },
+  "G3-481": {
+    "title": "Welke breuk hoort bij de stip?",
+    "instruction": "Elke getallenlijn van 0 tot 1 is in gelijke delen verdeeld. Schrijf de breuk op die bij de stip hoort."
   }
 }

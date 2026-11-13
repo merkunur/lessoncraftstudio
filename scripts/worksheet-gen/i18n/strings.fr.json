@@ -4873,5 +4873,13 @@
   "G1-566": {
     "title": "Soustraire en pensant à l’addition",
     "instruction": "Trouve le nombre qui manque. Écris-le dans le cercle vide et dans les deux calculs."
+  },
+  "G2-503": {
+    "title": "Lire le verre doseur en décilitres",
+    "instruction": "Lis la graduation de chaque verre doseur. Écris combien de décilitres il contient."
+  },
+  "G3-481": {
+    "title": "Quelle fraction correspond au point ?",
+    "instruction": "Chaque droite graduée de 0 à 1 est partagée en parts égales. Écris la fraction qui correspond au point."
   }
 }

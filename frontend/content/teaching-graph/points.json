@@ -2988,7 +2988,8 @@
    "code": "3.MD.A.2 (grade 2 in KMK/Lgr22)",
    "types": [
     "G2-260",
-    "G2-263"
+    "G2-263",
+    "G2-503"
    ],
    "families": [
     "measurement"
@@ -4249,7 +4250,8 @@
    "code": "3.NF.A.2",
    "types": [
     "G3-317",
-    "G3-406"
+    "G3-406",
+    "G3-481"
    ],
    "families": [
     "fractions",

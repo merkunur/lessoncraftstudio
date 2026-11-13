@@ -4854,5 +4854,13 @@
   "G1-566": {
     "title": "Tænk plus, når du trækker fra",
     "instruction": "Find det tal, der mangler. Skriv det i den tomme cirkel og i begge regnestykker."
+  },
+  "G2-503": {
+    "title": "Aflæs målebægre i deciliter",
+    "instruction": "Aflæs skalaen på hvert målebæger. Skriv, hvor mange deciliter der er i."
+  },
+  "G3-481": {
+    "title": "Hvilken brøk viser prikken?",
+    "instruction": "Hver tallinje fra 0 til 1 er delt i lige store dele. Skriv den brøk, som prikken viser."
   }
 }

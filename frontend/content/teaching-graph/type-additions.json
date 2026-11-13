@@ -222,6 +222,8 @@
   "G2-502": "2:column-method",
   "K-640": "K:count-how-many",
   "K-641": "K:compare-groups",
-  "G1-566": "1:fact-families"
+  "G1-566": "1:fact-families",
+  "G2-503": "2:read-jugs",
+  "G3-481": "3:fraction-number-line"
  }
 }

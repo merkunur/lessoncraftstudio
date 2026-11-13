@@ -4883,5 +4883,9 @@
   "G1-566": {
     "title": "Pense na adição para subtrair",
     "instruction": "Descubra o número que falta. Escreva-o no círculo vazio e nas duas contas."
+  },
+  "G3-481": {
+    "title": "Que fração o ponto mostra?",
+    "instruction": "Cada reta numérica de 0 a 1 está dividida em partes iguais. Escreva a fração que o ponto mostra."
   }
 }

@@ -84,10 +84,10 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   // day its type gets a screen version (scripts/units/year/after-publish.sh prints the families of a new batch).
   'doubles-halves': ['g1449', 'g1451'],
   'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561'],
-  'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501'],
+  'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481'],
   'multiplication-tables': ['g3407', 'g3410'],
   'telling-time': ['g1477'],
-  measurement: ['g2476', 'g2477'],
+  measurement: ['g2476', 'g2477', 'g2503'],
   money: ['g2472'],
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)

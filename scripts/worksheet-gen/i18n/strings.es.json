@@ -4873,5 +4873,9 @@
   "G1-566": {
     "title": "Piensa en la suma para restar",
     "instruction": "Encuentra el número que falta. Escríbelo en el círculo vacío y en las dos operaciones."
+  },
+  "G3-481": {
+    "title": "¿Qué fracción señala el punto?",
+    "instruction": "Cada recta numérica del 0 al 1 está dividida en partes iguales. Escribe la fracción que señala el punto."
   }
 }

@@ -4860,5 +4860,13 @@
   "G1-566": {
     "title": "Pensa all’addizione per sottrarre",
     "instruction": "Trova il numero che manca. Scrivilo nel cerchio vuoto e nelle due operazioni."
+  },
+  "G2-503": {
+    "title": "La capacità in decilitri",
+    "instruction": "Leggi la scala graduata di ogni caraffa. Scrivi quanti decilitri contiene."
+  },
+  "G3-481": {
+    "title": "Quale frazione indica il punto?",
+    "instruction": "Ogni linea dei numeri da 0 a 1 è divisa in parti uguali. Scrivi la frazione indicata dal punto."
   }
 }

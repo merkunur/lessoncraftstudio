@@ -89,16 +89,17 @@ module.exports = {
       } while (usedJug.has(v) && guard < 60);
       usedJug.add(v);
       const le = d.labelEvery || 2;
-      const jg = jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: d.labelEvery || 2, unit: 'ml', w: JUG.w, h: JUG.h });
+      const ju = d.jugUnit || 'ml';   // Year pages I: a face may read the jug in decilitres (a litre jug with ten marks)
+      const jg = jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: d.labelEvery || 2, unit: ju, w: JUG.w, h: JUG.h });
       const near = Math.round(v / (d.jugStep * le)) * d.jugStep * le;
-      S.push({ kind: 'num', unit: 'ml', q: `jug:${v}`, ask: v, ans: v, step: d.jugStep, slips: [v + d.jugStep, v - d.jugStep, near !== v ? near : v + d.jugStep * le, v + d.jugStep * le],
-        prompt: jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: le, unit: 'ml', w: 170, h: 300 }).svg });
+      S.push({ kind: 'num', unit: ju, q: `jug:${v}`, ask: v, ans: v, step: d.jugStep, slips: [v + d.jugStep, v - d.jugStep, near !== v ? near : v + d.jugStep * le, v + d.jugStep * le],
+        prompt: jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: le, unit: ju, w: 170, h: 300 }).svg });
       cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug" data-lcs-step="${d.jugStep}" data-lcs-labelevery="${d.labelEvery || 2}" data-lcs-jugmax="${d.jugMax}">` +
+        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug" data-lcs-step="${d.jugStep}" data-lcs-labelevery="${d.labelEvery || 2}" data-lcs-jugmax="${d.jugMax}"${d.jugUnit ? ` data-lcs-jugunit="${ju}"` : ''}>` +
         jg.svg +
         `<div style="display:flex;align-items:center;gap:8px">` +
         answerBox({ w: 74, h: 46, answer: v }) +
-        `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#3A3530" data-lcs-unit="ml">ml</span>` +
+        `<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#3A3530" data-lcs-unit="${ju}">${ju}</span>` +
         `</div></div>`
       );
     }
@@ -173,7 +174,7 @@ module.exports = {
           const j = card.querySelector('[data-lcs-prim="jug"]');
           if (!j) { fails.push(`card ${i + 1}: no jug`); return; }
           if (+box.dataset.lcsAnswer !== +j.dataset.lcsValue) fails.push(`card ${i + 1}: answer != jug value`);
-          if (unit.dataset.lcsUnit !== 'ml') fails.push(`card ${i + 1}: unit != ml`);
+          if (unit.dataset.lcsUnit !== (stage.dataset.lcsJugunit || 'ml') || j.dataset.lcsUnit !== unit.dataset.lcsUnit) fails.push(`card ${i + 1}: unit != ${stage.dataset.lcsJugunit || 'ml'}`);
           if (+j.dataset.lcsValue % 1 !== 0) fails.push(`card ${i + 1}: non-integer value`);
           if (+j.dataset.lcsValue % +stage.dataset.lcsStep !== 0 || +j.dataset.lcsValue >= +stage.dataset.lcsJugmax) fails.push(`card ${i + 1}: ${j.dataset.lcsValue} not on a mark below the brim`);
         } else {

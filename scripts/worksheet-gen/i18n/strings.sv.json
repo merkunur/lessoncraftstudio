@@ -4828,5 +4828,13 @@
   "G1-566": {
     "title": "Tänk addition när du subtraherar",
     "instruction": "Hitta talet som saknas. Skriv det i den tomma cirkeln och i båda uppgifterna."
+  },
+  "G2-503": {
+    "title": "Läs av mätkannan i deciliter",
+    "instruction": "Läs av skalan på varje mätkanna. Skriv hur många deciliter det är."
+  },
+  "G3-481": {
+    "title": "Vilket bråk visar punkten?",
+    "instruction": "Varje tallinje från 0 till 1 är delad i lika stora delar. Skriv det bråk som punkten visar."
   }
 }

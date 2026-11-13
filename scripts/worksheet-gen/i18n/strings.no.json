@@ -4873,5 +4873,13 @@
   "G1-566": {
     "title": "Tenk addisjon når du subtraherer",
     "instruction": "Finn tallet som mangler. Skriv det i den tomme sirkelen og i begge regnestykkene."
+  },
+  "G2-503": {
+    "title": "Les av litermål i desiliter",
+    "instruction": "Les av skalaen på hvert litermål. Skriv hvor mange desiliter som er i."
+  },
+  "G3-481": {
+    "title": "Hvilken brøk viser prikken?",
+    "instruction": "Hver tallinje fra 0 til 1 er delt i like store deler. Skriv brøken som prikken viser."
   }
 }

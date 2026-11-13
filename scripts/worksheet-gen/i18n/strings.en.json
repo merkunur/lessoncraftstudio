@@ -4921,5 +4921,9 @@
   "G1-566": {
     "title": "Think Addition to Subtract",
     "instruction": "Find the missing number. Write it in the empty circle and in both number sentences."
+  },
+  "G3-481": {
+    "title": "What Fraction Is the Dot?",
+    "instruction": "Each number line from 0 to 1 is cut into equal parts. Write the fraction that the dot shows."
   }
 }

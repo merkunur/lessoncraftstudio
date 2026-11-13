@@ -4826,5 +4826,13 @@
   "G1-566": {
     "title": "Vähennä yhteenlaskun avulla",
     "instruction": "Etsi puuttuva luku. Kirjoita se tyhjään ympyrään ja molempiin laskuihin."
+  },
+  "G2-503": {
+    "title": "Lue mitta-astian desilitrat",
+    "instruction": "Lue asteikko jokaisesta mitta-astiasta. Kirjoita, montako desilitraa siinä on."
+  },
+  "G3-481": {
+    "title": "Minkä murtoluvun piste näyttää?",
+    "instruction": "Jokainen lukusuora nollasta yhteen on jaettu yhtä suuriin osiin. Kirjoita murtoluku, jonka piste näyttää."
   }
 }

@@ -79,4 +79,17 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'story-sequencing': ['g2378'],   // Retell the Story with Starters: open writing (Level Set 2026-10-01)
   '2d-shapes': ['k372'],   // Draw on Dot Paper: a drawing has more than one right answer (Level Set 2026-10-04)
   family: ['k375', 'g1387'],   // Trace and Write (handwriting) + the Tree Template (open drawing) (Level Set 2026-10-14)
+  // Year pages (Daily Teaching System, Part 12.2, 2026-11-13): types built for the worksheet makers and published as
+  // lesson pages; they have no screen adapter yet, so their pages are PDF only. Take a code out of this list on the
+  // day its type gets a screen version (scripts/units/year/after-publish.sh prints the families of a new batch).
+  'doubles-halves': ['g1449', 'g1451'],
+  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448'],
+  'number-lines': ['g1438', 'g1439', 'g2395', 'g3406'],
+  'multiplication-tables': ['g3407', 'g3410'],
+  'telling-time': ['g1477'],
+  measurement: ['g2476', 'g2477'],
+  money: ['g2472'],
+  'number-bonds': ['k456', 'k457'],
+  'graphing-data': ['g1481'],
+  'word-problems': ['g1511', 'g2489'],
 };

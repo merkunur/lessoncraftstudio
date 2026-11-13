@@ -103,7 +103,7 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 - de Kl. 1 "In Zehnern bündeln: die Zehnerzahlen bis 100": G2-206 has the child circle ten loose ones and write tens and ones, but only for 11 to 19 cubes (one bundle); the page needs 30 to 80 loose things with several tens to circle and "_ Zehner = _". Raising the range of base-ten-tasks.js mode regroup is a small to medium change. The other two parts exist as pages: G1-122 (ten-rods to number) and G1-123 (10, 20 ... 100).
 - sv åk 1 "Bunta tio: tiotal och ental": G2-206 has the child ring ten loose cubes and write tens and ones, but only for 11 to 19 (one bundle). The page needs 20 to 60 scattered things with several tens to ring and the line "tiotal: _, ental: _, talet: _". Raising the range of base-ten-tasks.js mode regroup is a small to medium change.
 
-### `G3-410` (3 lessons; published: de no, sv no)
+### `G3-410` (3 lessons; published: de yes, sv yes)
 
 - de Kl. 2 "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus": G3-410 level 2 has the chain "mal 9 = mal 10 minus one group" with boxes to fill, and G3-403 / G3-405 are the complete 7er and 9er rows. Missing: the split 7 mal 8 = 5 mal 8 + 2 mal 8 for the 7er row and the dot field with a dashed helper line for each task. Medium change: a new chain kind plus an array picture in md-more.js mode chain.
 - sv åk 3 "6:ans tabell ur tabeller du kan": G3-410 is the strategy-chain page (fill the boxes of a chain that builds a product from known ones), but only for 4, 5, 8 and 9: there is no chain 6 x 7 = 5 x 7 + 1 x 7 and no array of 6 rows split into 5 rows and 1 row. G3-402 is the complete table of 6 to fill at the end. Small to medium change: a new chain kind with an array picture in md-more.js mode chain.
@@ -129,7 +129,7 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 - en K "Two kinds together: put-together stories": G1-444 level 1 (addsub-more, mode sentence) shows two groups to put together and the child writes all three numbers, but there is no story, totals stop at 6, and nothing is colored. The story bank (G1-238) has only "some more come" stories; no story of two kinds with nothing moving. Not small: new put-together story frames, a row of ten outlines to color, and the equation frame.
 - de Kl. 1 "Rechengeschichten erfinden": Two existing pages make the two halves. G1-444 level 3: a picture of two groups or of crossed-out things, the child writes the whole number sentence within 10 (top half). G1-513 (its German title is Rechengeschichten erfinden): a number sentence with a picture and lines to WRITE a story, not an empty field to draw in (bottom half). No build needed if writing lines are acceptable; a drawing-box option in G1-513 is a small change.
 
-### `G1-448` (2 lessons; published: en no)
+### `G1-448` (2 lessons; published: en yes)
 
 - en G1 "Find the missing part": G1-448 level 1 (addsub-more, mode bar) draws the part-part-whole bar within 20 with one part missing, but with the numbers already in it and no story, no equation frame, no answer line. The story pages (G1-213 family) have no put-together story with a missing part, show pictures, and ask one answer box. Not small: stories of a new kind plus a bar to label plus the equation frame with a box.
 - en G2 "One-step stories with a bar model": G1-448 level 2 draws bar models within 100 with a part or the whole missing, but filled in and with no story; its numbers are tens-based. The story pages (G1-213 family, level 3) have result-unknown and change-unknown stories only within 20, with pictures and one answer box. Not small: two-digit stories, an empty bar to label, and the equation frame with a box.
@@ -159,7 +159,7 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 - en G2 "Rows and columns of squares": G3-313 (array-tasks, mode area-grid) shows a rectangle already cut into squares and asks rows × columns = total; G2-211 the same with picture arrays. Needed: rectangles with only tick marks (or one row and one column drawn) for the child to draw the lines, then "_ rows, _ columns, _ squares" and an addition of equal rows, no multiplication sign. Not small: the drawing is the point of the standard; a new mode of array-tasks.js.
 - en G3 "Area of a rectangle: multiply the sides": G3-313 (array-tasks, mode area-grid) asks rows × columns = area for a rectangle, but the unit squares are drawn inside and nothing is labeled with a length or a unit. Needed: rectangles with no squares, two side lengths with units (6 ft, 4 ft), the answer in square units, and four stories with a sketch. Medium change: a "sides only" level with units; the stories are new.
 
-### `G3-407` (2 lessons; published: en no, de no)
+### `G3-407` (2 lessons; published: en yes, de yes)
 
 - en G3 "The facts we still need": Page 1: G3-407 level 3 is the empty 10 × 10 multiplication square, but the child fills ALL of it; the steps "fill the rows for 1, 2, 5, 10, circle what is white, write those facts" and the lines for them are not there. Page 2: G3-408 and G3-358 drill division or multiplication alone; no strips of ten pairs (6 × 4 = _, 24 / 4 = _) with a "knew right away" box. Small to medium change.
 - de Kl. 2 "Die Einmaleins-Tafel: Was kann ich schon?": G3-407 level 3 is the same printed object: the 10 x 10 multiplication square with only the header row and column filled. Only the instruction differs (it asks for every product; the lesson has the child colour Kernaufgaben and Quadratzahlen, enter what it knows, join Tauschaufgaben, circle what to practise). Usable as it is with the teacher's spoken instruction; an instruction variant is a very small change.
@@ -230,19 +230,19 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - en K "Some go away: take-away stories": G1-239 level 1: take-away stories within 10; the pictures are printed with the taken ones already crossed out and the child writes only the answer. Missing: a ten-frame with the start number as circles for the child to cross out, and the frame _ - _ = _. G1-444 level 2 has the full sentence from a crossed-out picture, no story. Medium change, the same one as K-012.
 
-### `G1-445` (1 lesson; published: en no)
+### `G1-445` (1 lesson; published: en yes)
 
 - en G1 "Stories with three numbers": G1-445 (addsub-more, mode three) has the same sums: three numbers 1-9, total up to 20, a pair that makes ten to find. But it is twelve bare equations: no story, no drawing box, no frame _ + _ + _ = _ to fill from a story. The story bank has no story with three groups. Not small: new three-group story frames and a story layout.
 
-### `G1-447` (1 lesson; published: de no)
+### `G1-447` (1 lesson; published: de yes)
 
 - de Kl. 3 "Überschlag und Probe: Kann das stimmen?": G1-447 is a page already worked on which the child marks the wrong answers and writes the right ones (level 3 includes the forgotten carry), but its sums are horizontal and within 100, not written column calculations to 1000, and it has no Ueberschlag, no boxes "kann stimmen / kann nicht stimmen" and no Probe with the Umkehraufgabe. Medium change: an errors level built on column-arithmetic.js with estimate and check fields.
 
-### `G1-451` (1 lesson; published: sv no)
+### `G1-451` (1 lesson; published: sv yes)
 
 - sv åk 2 "Dubbelt och hälften upp till 100": G1-451 level 3 has doubling and halving up to 100 as machines (fill the outputs, some inputs), results only. Missing: the numbers drawn as tiostavar and entalskuber to draw once more or to split into two piles, and the written mellanled (dubbelt av 34 = 60 + 8 = 68). Small to medium change in doubles-more.js.
 
-### `G1-477` (1 lesson; published: sv no)
+### `G1-477` (1 lesson; published: sv yes)
 
 - sv åk 2 "Fem i halv och fem över halv": G1-477 level 3 is the first part: six clocks on five-minute times and lines to the time in Swedish words (lib/time-words.js has fem i halv, halv, fem oever halv, tjugo i, tio oever). The second part, drawing the minute hand from a time written in words, is missing: G1-236 (draw the hands, five minutes) prints the time as a digital chip. A word prompt for the draw mode is noted in the code as a planned follow-up: a small change.
 
@@ -282,19 +282,19 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - sv åk 2 "Betala med sedlar och få växel tillbaka": G2-293 has a shelf with prices in kronor and change cards, but the prices are 4 to 18 kr and are paid with coins (totals up to 50 kr). Needed: prices 12 to 95 kr paid with a 20-, 50- or 100-kronor note, counting up on an empty line and drawing the change. The Swedish notes exist in the data and in G3-474 (count notes and coins). Medium change in the shopping generator G2-276.
 
-### `G2-395` (1 lesson; published: de no)
+### `G2-395` (1 lesson; published: de yes)
 
 - de Kl. 3 "Der Zahlenstrahl bis 1000: Nachbarzehner und Nachbarhunderter": G2-395 level 3 has ticked number lines in steps of 100 and 10 up to 1000 where the child writes missing tick labels; the arrow pages (write the number an arrow points to, G1-248 family, e.g. G1-281) stop at 120. Missing: arrows on lines to 1000 including a section in ones (630 to 650), marking given numbers, and the table of Nachbarzehner and Nachbarhunderter (G3-391 rounds to 10 and 100, it does not ask for both neighbours). The arrow pages take max, tick and label step as configuration, so a 0 to 1000 face is a small change; the neighbour table would be a new mode of neighbors.js (small to medium).
 
-### `G2-401` (1 lesson; published: en no)
+### `G2-401` (1 lesson; published: en yes)
 
 - en G2 "Numbers with a zero": The pieces exist on separate pages: G2-401 level 3 (expanded form both ways with a zero place), G2-491 level 3 (numbers with a zero digit as words and numerals), G2-224 (blocks to a place-value chart). No page has the four-column table blocks / numeral / expanded form / name, the look-alike pairs 406 and 460 one under the other, or the last task (58, 508, 580). Medium change: a table mode of pv-more.js.
 
-### `G2-404` (1 lesson; published: en no)
+### `G2-404` (1 lesson; published: en yes)
 
 - en G2 "Ten tens make one hundred": G2-404 level 1 (pv-more, mode overflow) shows 11-18 ten-rods, but always with 1-9 loose ones as well, and asks only for the number: no ring, no "1 hundred _ tens". G2-403 renames in digits (26 tens = □). The bottom half (1-9 hundred-flats alone, "_ hundreds 0 tens 0 ones") does not exist: G2-222 always has tens and ones. Small change (rods only, the hundred-and-tens line, a flats-only level).
 
-### `G2-472` (1 lesson; published: sv no)
+### `G2-472` (1 lesson; published: sv yes)
 
 - sv åk 1 "Betala på olika sätt": G2-472 level 3 has the child draw coins (1, 2, 5, 10 kr) that pay a price exactly, one way per price, prices up to 50 kr; G2-471 asks for the fewest coins; G2-473 matches purses holding the same amount. Missing: two purses per thing to draw two different ways and ring the one with fewer coins, with prices 5 to 20 kr. Small change in money-more.js mode pay.
 
@@ -302,7 +302,7 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - en G3 "Measure to the quarter inch": G2-476 (measurement-more, mode inches) draws an object on a printed inch ruler, but reads whole inches only (level 3: to the nearest inch); no half or quarter readings. G3-335 is a line plot with halves that the child only READS (counts the Xs). Needed: quarter-inch readings and an empty line plot in quarters to fill with the child's own eight lengths. Not small: a quarter-inch level and a "make the plot" mode.
 
-### `G2-477` (1 lesson; published: sv no)
+### `G2-477` (1 lesson; published: sv yes)
 
 - sv åk 2 "Meter och centimeter": G2-477 level 1 is the bottom part (ring cm or m for a pictured thing). The main part, a table to write an estimate and the measured value for six classroom things, does not exist; it is a plain recording table (a new, small mode of measurement-more.js).
 
@@ -350,7 +350,7 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - de Kl. 2 "Das 4er- und das 8er-Einmaleins: verdoppeln": The two row pages exist exactly, in the same form as Das 2er-Einmaleins: G3-368 (4er) and G3-404 (8er). Only the extra table with three rows (2er, 4er, 8er) for doubling downwards is missing; G3-410 levels 1 and 2 carry the same idea as fact chains (mal 4 = mal 2 mal 2, mal 8 = mal 4 mal 2) but is not published. No build needed if that is accepted; the table itself would be a small add-on.
 
-### `G3-406` (1 lesson; published: en no)
+### `G3-406` (1 lesson; published: en yes)
 
 - en G3 "Unit fractions on the number line": G3-406 (number-line-more, mode fraction) gives a 0-1 line cut into equal parts and the child puts a dot where a printed fraction belongs (denominators 2, 3, 4, 6, 8 over levels 1-2), but for any numerator, with the fraction given, and the ticks always drawn. Needed: the first part only, the child WRITES the unit fraction, then lines with no ticks to cut, and the unequal-parts question. Small change for the top half (unit fractions, a write box); the bottom half is new.
 
@@ -402,11 +402,11 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - en K "Count on from a number": K-444 (counting-more, mode count-on) is this task: a closed box with its number, loose pictures beside it, write the total. Range differs: box 3-8, loose 1-5, and the total is capped at 10 (need: bag 3-9, total up to 14); four tasks, not eight. Small change (raise the cap in the level table).
 
-### `K-454` (1 lesson; published: en no)
+### `K-454` (1 lesson; published: en yes)
 
 - en K "Take apart 6 and 7": K-454 level 3 (frame-more, mode colour-parts) is the same act: color a frame in two colors a different way each time and write □ + □ = 10, but only for the whole 10 (level 1: whole 5); no 6 or 7, a ten-frame instead of a cube train, and the equation is not in the form 6 = _ + _. K-456 number houses split 6 and 7 every way but only ask for the missing part. Small change: wholes 6 and 7 in the colour-parts table and the total-first equation.
 
-### `K-456` (1 lesson; published: de no)
+### `K-456` (1 lesson; published: de yes)
 
 - de Kl. 1 "Zahlenhäuser: alle Zerlegungen finden": K-456 level 2 is the Zahlenhaus for 6 to 10 with one floor per decomposition (1 to N-1, in order), but one part is already printed on every floor and the child only writes the partner; here the child must find all decompositions on empty floors and mark the Tauschpaare. Two houses a page, not four. Small change: a level with empty floors in number-bond-more.js mode house. (K-414 to K-417 level 3 list every way to split 6, 7, 8, 9 as number bonds.)
 
@@ -418,15 +418,15 @@ Sorted by how many lessons wait for the type. "Published" says whether the type 
 
 - de Kl. 1 "Zahlen 1 bis 5: zählen und Ziffern schreiben": K-467 level 1 has one row per number 1 to 5 with that many pictures and the numeral to trace (a model, then two traces) in the German school digit forms. Missing: the dice pattern beside each set, boxes to write the numeral three times alone, and the matching strip at the bottom (that strip exists as its own page, K-007). No build needed if K-467 + K-007 are used as two pages; a dice picture and free boxes would be a small option of number-tracing-more.js mode count.
 
-### `K-502` (1 lesson; published: sv no)
+### `K-502` (1 lesson; published: sv yes)
 
 - sv åk 2 "Förstora och förminska i rutnät": K-502 Draw It Twice as Big exists (Symmetry and Grid Copy maker, outside the mathematics catalog list): a picture on a small grid is redrawn twice as big; at level 3 on a grid with twice as many squares, each square becoming a block of 2 x 2. Differs: the pictures are filled-square pixel pictures, not line figures whose sides the child counts, and there is no half-as-big task. Small to medium change in grid-copy-more.js mode bigger.
 
-### `K-546` (1 lesson; published: sv no)
+### `K-546` (1 lesson; published: sv yes)
 
 - sv åk 1 "Lägesord: framför, bakom, mellan och bredvid": K-546 (read the sentence, draw the picture in the right place) and K-547 (write the missing position word from a word box) are these two tasks, with Swedish sentences from the grammar engine. But the relations are in, on, above, under, next to, between, behind, in front of: "till vaenster om" and "till hoeger om" are not included, and the landmark is one shape per row, not a shelf or classroom scene. Adding left / right to position-scenes.js is a small to medium change.
 
-### `K-606` (1 lesson; published: en no)
+### `K-606` (1 lesson; published: en yes)
 
 - en K "Which number is greater?": K-606 level 1 (glyph-tasks, mode bigger): six pairs of written numbers 1-10, never equal, color the greater. Missing: the number line 1-10 on top and the last part "circle the number that is less"; six pairs, not twelve. Small change (a "less" option and a number-line strip). K-460 level 1 prints counting dots under the numbers and has an equal pair, so it fits less.
 

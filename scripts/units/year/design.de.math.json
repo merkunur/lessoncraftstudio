@@ -610,7 +610,8 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 48 + 37) steht ein leerer Rechenstrich mit der Startzahl und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung, schreibt die Zwischenzahl an den Strich und die Schritte auf (48 + 30 = 78, 78 + 7 = 85); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang, alle Summen bis 100."
+            "page": "Zu jeder Aufgabe (zum Beispiel 48 + 37) steht ein leerer Rechenstrich mit der Startzahl und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung, schreibt die Zwischenzahl an den Strich und die Schritte auf (48 + 30 = 78, 78 + 7 = 85); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang, alle Summen bis 100.",
+            "placed": "1:open-number-line#zweistellig-addieren"
           },
           {
             "new": true,
@@ -620,7 +621,8 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 82 − 35) steht ein leerer Rechenstrich mit der Startzahl rechts und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung nach links, schreibt die Zwischenzahl an den Strich und die Schritte auf (82 − 30 = 52, 52 − 5 = 47); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang."
+            "page": "Zu jeder Aufgabe (zum Beispiel 82 − 35) steht ein leerer Rechenstrich mit der Startzahl rechts und darunter zwei Schreibzeilen. Das Kind zeichnet den Zehnersprung und den Einersprung nach links, schreibt die Zwischenzahl an den Strich und die Schritte auf (82 − 30 = 52, 52 − 5 = 47); die ersten sechs Aufgaben sind ohne, die nächsten sechs mit Zehnerübergang.",
+            "placed": "1:open-number-line#zweistellig-subtrahieren"
           },
           {
             "new": true,
@@ -640,7 +642,8 @@
             "days": 3,
             "tool": "Die drei Nischen",
             "source": "new",
-            "page": "Das Blatt zeigt sechs kurze Sachtexte mit Bild (zusammen, wegnehmen, Unterschied „wie viele mehr“), zwei davon mit einer Angabe, die man nicht braucht. Das Kind unterstreicht die wichtigen Zahlen, streicht die überflüssige Angabe durch und füllt zu jedem Text die drei vorgedruckten Zeilen Frage – Rechnung – Antwort aus; bei zwei Texten fehlt die Frage, und das Kind schreibt sie selbst. Zahlenraum bis 100."
+            "page": "Das Blatt zeigt sechs kurze Sachtexte mit Bild (zusammen, wegnehmen, Unterschied „wie viele mehr“), zwei davon mit einer Angabe, die man nicht braucht. Das Kind unterstreicht die wichtigen Zahlen, streicht die überflüssige Angabe durch und füllt zu jedem Text die drei vorgedruckten Zeilen Frage – Rechnung – Antwort aus; bei zwei Texten fehlt die Frage, und das Kind schreibt sie selbst. Zahlenraum bis 100.",
+            "placed": "2:two-step-word-problems#sachaufgaben-bis-100"
           },
           {
             "existing": "2:add-sub-within-100-practice",

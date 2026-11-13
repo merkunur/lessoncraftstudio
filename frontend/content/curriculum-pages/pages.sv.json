@@ -25,7 +25,7 @@
     "taught": 17,
     "near": 0,
     "open": 0,
-    "lessons": 137,
+    "lessons": 138,
     "parts": 6,
     "partsTaught": 6
    },
@@ -302,6 +302,10 @@
           {
            "n": 10,
            "title": "Handla: räkna ihop priset"
+          },
+          {
+           "n": 11,
+           "title": "Räknehändelser 0–100: välj räknesätt"
           }
          ]
         },
@@ -1007,6 +1011,10 @@
           {
            "n": 10,
            "title": "Handla: räkna ihop priset"
+          },
+          {
+           "n": 11,
+           "title": "Räknehändelser 0–100: välj räknesätt"
           }
          ]
         },

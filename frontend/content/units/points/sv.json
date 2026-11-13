@@ -2091,6 +2091,15 @@
     "words": "Börja med bladet där bilden ritas av lika stor. De två rutnäten på bladet är lika stora, trots rubriken: ”Hitta rutan med bokstaven och siffran och färglägg samma ruta.” Sedan förstoringen: ”Nu ska bilden bli dubbelt så stor åt båda hållen. En ruta i den lilla bilden blir två rutor bred och två rutor hög: fyra rutor.” Fråga: ”Hur många rutor bred är den lilla bilden? Hur bred blir den stora då?”",
     "watch": "Se efter om bilden har blivit dubbelt så stor åt båda hållen. Låt eleven arbeta en rad i taget och pricka av raden i den lilla bilden. Det lättare bladet har ett rutnät med lika många rutor som är dubbelt så stora, så där färglägger eleven samma rutor. Jämför till sist: bilden har samma form, men varje sida är dubbelt så lång. Det kallas att förstora i skala 2:1. Vänd på det: den lilla bilden är en förminskning av den stora, hälften så bred och hälften så hög."
    }
+  },
+  "2:two-step-word-problems#raknehandelser-0-100": {
+   "title": "Räknehändelser 0–100: välj räknesätt",
+   "objective": "Eleverna läser räknehändelser med tvåsiffriga tal, formulerar en fråga när den saknas, avgör om det är addition eller subtraktion, skriver uträkningen och svarar med en hel mening.",
+   "note": {
+    "mistake": "Eleverna tar de två talen och adderar dem utan att läsa frågan, också när något tas bort eller när två antal jämförs. När frågan saknas skriver många uträkningen på frågeraden. Svaret blir ofta bara ett tal, inte en hel mening.",
+    "words": "Visa Fickbrädet och berätta en händelse utan tal: ”Det ligger kulor i en låda. Ella tar ut några.” Fråga: ”Vad kan vi fråga om här?” Samla elevernas frågor innan du har nämnt något tal. Säg när eleverna arbetar med bladet: ”Läs räknehändelsen. Vad händer: kommer något till, försvinner något eller jämför vi två antal? Vad frågas det efter? Skriv uträkningen. Svara med en hel mening, till exempel: Det ligger 51 kulor kvar i lådan.”",
+    "watch": "På bladet för alla saknas frågan till en av de tre räknehändelserna; eleven skriver den själv. Godta varje fråga som passar händelsen och går att besvara med talen. Det lättare bladet har alla frågor tryckta och ingen jämförelseuppgift; på bladet för alla och på det svårare bladet finns en, och på det svårare saknas två frågor. Jämförelseuppgiften (”Hur många fler …?”, ”Hur många färre …?” eller ”Hur många … till behövs …?”) löser många genom att lägga ihop de två talen (45 + 21). Låt eleven lägga de två antalen bredvid varandra med tiostavar och entalskuber och visa skillnaden. Godta både subtraktionen (45 − 21 = 24) och uträkningen där eleven räknar upp (21 + 24 = 45). Se efter att svaret är en mening som passar frågan."
+   }
   }
  }
 }

@@ -364,7 +364,8 @@
     "missing-question": {
       "points": [
         "1:word-problems",
-        "1:write-the-equation"
+        "1:write-the-equation",
+        "2:two-step-word-problems"
       ]
     },
     "the-gap": {

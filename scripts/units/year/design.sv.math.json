@@ -615,7 +615,8 @@
             "days": 2,
             "tool": "Fickbrädet",
             "source": "new",
-            "page": "Bladet har sex räknehändelser med tvåsiffriga tal, två av varje slag (något kommer till eller försvinner, två antal jämförs, två delar bildar en helhet); eleven ringar in + eller −, skriver uträkningen med mellanled och ett svar med enhet. Två av uppgifterna innehåller ett tal som inte behövs."
+            "page": "Bladet har sex räknehändelser med tvåsiffriga tal, två av varje slag (något kommer till eller försvinner, två antal jämförs, två delar bildar en helhet); eleven ringar in + eller −, skriver uträkningen med mellanled och ett svar med enhet. Två av uppgifterna innehåller ett tal som inte behövs.",
+            "placed": "2:two-step-word-problems#raknehandelser-0-100"
           }
         ]
       },

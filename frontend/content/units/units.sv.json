@@ -6513,9 +6513,9 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 10 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "days": 26,
-   "weeks": 5,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 11 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "days": 28,
+   "weeks": 6,
    "lessons": [
     {
      "n": 1,
@@ -7004,6 +7004,51 @@
       "watch": "Låt eleverna stryka under vad som köps innan de tittar på hyllan. Kontrollera att svaren har ”kr” efter talet; ett tal utan enhet är ett halvt svar. Lek affär med en elev som kassör i varje grupp."
      },
      "days": 3
+    },
+    {
+     "n": 11,
+     "point": "2:two-step-word-problems",
+     "title": "Räknehändelser 0–100: välj räknesätt",
+     "objective": "Eleverna läser räknehändelser med tvåsiffriga tal, formulerar en fråga när den saknas, avgör om det är addition eller subtraktion, skriver uträkningen och svarar med en hel mening.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Problemlösning"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Taluppfattning och tals användning"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-506",
+       "title": "Räknehändelser 0–100: fråga, uträkning, svar",
+       "core": "raknehandelser-gronsaker-sv-g2506",
+       "easy": "raknehandelser-latt-gronsaker-sv-g2506-2",
+       "hard": "raknehandelser-svar-tillbehor-g2506"
+      }
+     ],
+     "id": "2:two-step-word-problems#raknehandelser-0-100",
+     "tool": {
+      "key": "missing-question",
+      "slug": "dela-upp-tal-och-hitta-fragan-lagstadiet",
+      "name": "Fickbrädet"
+     },
+     "exit": {
+      "slug": "raknehandelser-klassrum-g2506-2",
+      "title": "Räknehändelser 0–100: fråga, uträkning, svar"
+     },
+     "note": {
+      "mistake": "Eleverna tar de två talen och adderar dem utan att läsa frågan, också när något tas bort eller när två antal jämförs. När frågan saknas skriver många uträkningen på frågeraden. Svaret blir ofta bara ett tal, inte en hel mening.",
+      "words": "Visa Fickbrädet och berätta en händelse utan tal: ”Det ligger kulor i en låda. Ella tar ut några.” Fråga: ”Vad kan vi fråga om här?” Samla elevernas frågor innan du har nämnt något tal. Säg när eleverna arbetar med bladet: ”Läs räknehändelsen. Vad händer: kommer något till, försvinner något eller jämför vi två antal? Vad frågas det efter? Skriv uträkningen. Svara med en hel mening, till exempel: Det ligger 51 kulor kvar i lådan.”",
+      "watch": "På bladet för alla saknas frågan till en av de tre räknehändelserna; eleven skriver den själv. Godta varje fråga som passar händelsen och går att besvara med talen. Det lättare bladet har alla frågor tryckta och ingen jämförelseuppgift; på bladet för alla och på det svårare bladet finns en, och på det svårare saknas två frågor. Jämförelseuppgiften (”Hur många fler …?”, ”Hur många färre …?” eller ”Hur många … till behövs …?”) löser många genom att lägga ihop de två talen (45 + 21). Låt eleven lägga de två antalen bredvid varandra med tiostavar och entalskuber och visa skillnaden. Godta både subtraktionen (45 − 21 = 24) och uträkningen där eleven räknar upp (21 + 24 = 45). Se efter att svaret är en mening som passar frågan."
+     },
+     "days": 2
     }
    ]
   },
@@ -13131,10 +13176,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Matematik åk 2: planering för 27 veckor",
-   "metaTitle": "Matematik åk 2: planering för 27 veckor (7 arbetsområden)",
-   "metaDescription": "7 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 27 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 27,
+   "title": "Matematik åk 2: planering för 28 veckor",
+   "metaTitle": "Matematik åk 2: planering för 28 veckor (7 arbetsområden)",
+   "metaDescription": "7 arbetsområden i matematik för åk 2 i undervisningsordning, cirka 28 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 28,
    "framework": null,
    "units": [
     {
@@ -13160,9 +13205,9 @@
      "id": "sv-2-ma-add-sub-0-100",
      "slug": "addition-och-subtraktion-0-100-med-pengar-ak-2",
      "title": "Addition och subtraktion 0–100 med pengar",
-     "weeks": 5,
+     "weeks": 6,
      "from": 6,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "Huvudräkning 0–20: starta den dagliga rutinen",
       "Addera och subtrahera hela tiotal",
@@ -13173,7 +13218,8 @@
       "Subtrahera tvåsiffriga tal på tom tallinje",
       "Addition och subtraktion upp till 100",
       "Räkna mynt",
-      "Handla: räkna ihop priset"
+      "Handla: räkna ihop priset",
+      "Räknehändelser 0–100: välj räknesätt"
      ],
      "standards": []
     },
@@ -13182,8 +13228,8 @@
      "slug": "langd-klockan-och-almanackan-ak-2",
      "title": "Längd, klockan och almanackan",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 12,
+     "to": 14,
      "lessons": [
       "Mäta med linjal",
       "Hur mycket längre?",
@@ -13198,8 +13244,8 @@
      "slug": "multiplikation-lika-grupper-2an-och-5an-ak-2",
      "title": "Multiplikation: lika grupper, 2:an, 5:an och 10:an",
      "weeks": 6,
-     "from": 14,
-     "to": 19,
+     "from": 15,
+     "to": 20,
      "lessons": [
       "10-hopp, 5-hopp och 2-hopp",
       "Prick till prick med 5-hopp och 10-hopp",
@@ -13219,8 +13265,8 @@
      "slug": "geometriska-objekt-symmetri-och-rutnat-ak-2",
      "title": "Geometriska objekt, symmetri och rutnät",
      "weeks": 4,
-     "from": 20,
-     "to": 23,
+     "from": 21,
+     "to": 24,
      "lessons": [
       "Sortera figurer efter antal sidor",
       "Plan figur eller kropp?",
@@ -13237,8 +13283,8 @@
      "slug": "rutnat-programmering-och-skala-ak-2",
      "title": "Rutnät, programmering och skala",
      "weeks": 2,
-     "from": 24,
-     "to": 25,
+     "from": 25,
+     "to": 26,
      "lessons": [
       "Hitta rutan i rutnätet",
       "Programmera med pilar i rutnät",
@@ -13252,8 +13298,8 @@
      "slug": "tabeller-och-diagram-ak-2",
      "title": "Tabeller och diagram",
      "weeks": 2,
-     "from": 26,
-     "to": 27,
+     "from": 27,
+     "to": 28,
      "lessons": [
       "Från streck till stapeldiagram",
       "Bilddiagram där varje bild står för 2",

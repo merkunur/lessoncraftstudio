@@ -455,7 +455,7 @@
    "subject": "math",
    "title": "Zahlen bis 100: Bündeln und Hundertertafel",
    "metaTitle": "Mathe Klasse 2: Zahlen bis 100 – Bündeln und Hundertertafel",
-   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Üben von Plus und Minus bis 100.",
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 8 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Zählen in Schritten.",
    "weeks": 5,
    "lessons": [
     {
@@ -511,13 +511,6 @@
      "types": [
       "G2-321",
       "G2-322"
-     ]
-    },
-    {
-     "point": "2:add-sub-within-100-practice",
-     "types": [
-      "G2-313",
-      "G2-393"
      ]
     }
    ]
@@ -575,6 +568,53 @@
      },
      "tool": "open-number-line",
      "activity": null
+    }
+   ]
+  },
+  {
+   "id": "de2-plus-minus-zweistellig",
+   "slug": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
+   "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit zweistelligen Zahlen",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zum Addieren und Subtrahieren zweistelliger Zahlen am Rechenstrich, zu Sachaufgaben bis 100 und zum Üben.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:open-number-line",
+     "id": "1:open-number-line#zweistellig-addieren",
+     "types": [
+      "G2-500"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:open-number-line",
+     "id": "1:open-number-line#zweistellig-subtrahieren",
+     "types": [
+      "G2-501"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "2:two-step-word-problems",
+     "id": "2:two-step-word-problems#sachaufgaben-bis-100",
+     "types": [
+      "G2-506"
+     ],
+     "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "2:add-sub-within-100-practice",
+     "types": [
+      "G2-313",
+      "G2-393"
+     ]
     }
    ]
   },
@@ -1646,6 +1686,7 @@
    "units": [
     "de2-zahlen-bis-100",
     "de2-plus-minus-bis-100",
+    "de2-plus-minus-zweistellig",
     "de2-groessen-daten",
     "de2-malnehmen",
     "de2-einmaleins-reihen",

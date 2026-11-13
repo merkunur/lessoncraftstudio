@@ -1173,8 +1173,8 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 10 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 5,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 11 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 6,
    "lessons": [
     {
      "point": "1:fluency-within-20",
@@ -1255,6 +1255,15 @@
       "G2-291",
       "G2-289"
      ]
+    },
+    {
+     "point": "2:two-step-word-problems",
+     "id": "2:two-step-word-problems#raknehandelser-0-100",
+     "types": [
+      "G2-506"
+     ],
+     "tool": "missing-question",
+     "activity": null
     }
    ]
   },

@@ -2407,8 +2407,8 @@
    "subject": "math",
    "title": "Zahlen bis 100: Bündeln und Hundertertafel",
    "metaTitle": "Mathe Klasse 2: Zahlen bis 100 – Bündeln und Hundertertafel",
-   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Üben von Plus und Minus bis 100.",
-   "days": 26,
+   "metaDescription": "Fünf Wochen Mathe Klasse 2: 8 Stunden zum Bündeln, zu Zehnern und Einern, zur Hundertertafel, zum Vergleichen, zum Zahlenstrahl und zum Zählen in Schritten.",
+   "days": 24,
    "weeks": 5,
    "lessons": [
     {
@@ -2856,61 +2856,6 @@
       "watch": "Wer muss auf die Tafel schauen, und wer springt schon im Kopf? Prüfe zuerst die Pfeile nach oben; ein Kind, das dort dazurechnet, denkt „höher ist mehr“ wie beim Thermometer."
      },
      "days": 3
-    },
-    {
-     "n": 9,
-     "point": "2:add-sub-within-100-practice",
-     "title": "Plus und Minus bis 100 üben",
-     "objective": "Die Kinder addieren und subtrahieren zweistellige Zahlen, um Zahlenmauern zu füllen und in einem Rechenlabyrinth den richtigen Weg zu finden.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Bildungsstandards (KMK)",
-       "code": null,
-       "title": "Rechenoperationen verstehen und beherrschen"
-      }
-     ],
-     "paper": [
-      {
-       "type": "G2-313",
-       "title": "Zahlenmauern bis 100",
-       "core": "zahlenmauern-g2313",
-       "easy": "zahlenmauern-leicht-g2313-7",
-       "hard": "zahlenmauern-schwer-g2313-12",
-       "landing": "zahlenmauern-bis-100"
-      },
-      {
-       "type": "G2-393",
-       "title": "Rechenlabyrinth 2. Klasse: Plus und Minus bis 100",
-       "core": "labyrinth-raetsel-g2393",
-       "easy": "labyrinth-raetsel-leicht-g2393-2",
-       "hard": "labyrinth-raetsel-schwer-g2393-6",
-       "screen": 1,
-       "landing": "rechenlabyrinth-2-klasse-plus-minus-bis-100"
-      }
-     ],
-     "screen": {
-      "kind": "activity",
-      "id": "gus-snack-cart.within-100.2-nbt-b-5",
-      "slug": "plus-und-minus-bis-100-klasse-2",
-      "title": "Rechnen bis 100 – online üben"
-     },
-     "exit": {
-      "slug": "zahlenmauern-g2313-2",
-      "title": "Zahlenmauern bis 100"
-     },
-     "maker": {
-      "id": "logic-puzzles",
-      "name": "Logikrätsel",
-      "slug": "logikraetsel-arbeitsblaetter-erstellen",
-      "template": "G2-313"
-     },
-     "note": {
-      "mistake": "Die Kinder rechnen Zehner und Einer getrennt und beachten den Zehnerübergang nicht: Aus 28 + 15 wird 313 oder 33. Im Labyrinth zieht sich ein falscher Schritt durch den ganzen Weg, und sie gehen nicht zurück, um ihn zu suchen.",
-      "words": "Sag: „Rechne in Schritten. 28 + 15: erst plus 10, das sind 38. Dann plus 5: bis zur 40 sind es 2, dann noch 3, also 43.“ Frage: „Geht es über den Zehner?“ Im Labyrinth: „Schreibe nach jedem Schild die neue Zahl auf. Wenn das Ende nicht stimmt, prüfe jeden Schritt.“",
-      "watch": "Lass die Kinder ihre Rechenschritte neben die Mauer schreiben. Sind die unteren Steine richtig und ein Stein weiter oben falsch, war es ein einzelner Rechenfehler, der nach oben gewandert ist; stimmt gar nichts, sieht das Kind vielleicht nicht, welche zwei Steine zusammengehören."
-     },
-     "days": 2
     }
    ]
   },
@@ -3078,6 +3023,210 @@
       "mistake": "Die Kinder drehen die Einer um, rechnen 5 − 2 statt 12 − 5 und behalten den Zehner: Aus 82 − 5 wird 83. Andere gehen richtig zum Zehner zurück und schreiben das Ergebnis dann in den falschen Zehner, zum Beispiel 53 − 6 = 57 statt 47.",
       "words": "Lass das Kind vor dem Rechnen sagen, wo das Ergebnis liegt: „Bei den Vierzigern, denn ich gehe unter die 50.“ Frage dann: „Wie viele nimmst du weg, bis du bei der 50 bist? Sechs sollst du wegnehmen. Wie viele fehlen noch?“",
       "watch": "Achte auf Ergebnisse, die größer sind als die Startzahl oder im selben Zehner bleiben: Dort wurden meist die Einer umgedreht. Wer beim zweiten Sprung stockt (50 − 3), übt noch einmal das Abziehen vom vollen Zehner."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "de2-plus-minus-zweistellig",
+   "slug": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
+   "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit zweistelligen Zahlen",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zum Addieren und Subtrahieren zweistelliger Zahlen am Rechenstrich, zu Sachaufgaben bis 100 und zum Üben.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:open-number-line",
+     "title": "Zweistellige Zahlen addieren: 35 + 23 und 48 + 37",
+     "objective": "Die Kinder addieren zweistellige Zahlen im Zahlenraum bis 100 schrittweise (erst die Zehner, dann die Einer) und stellen ihren Rechenweg am Rechenstrich dar.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mathematisch darstellen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-500",
+       "title": "Plus am Rechenstrich",
+       "core": "zahlenstrahl-g2500",
+       "easy": "zahlenstrahl-leicht-g2500-6",
+       "hard": "zahlenstrahl-schwer-g2500-11"
+      }
+     ],
+     "id": "1:open-number-line#zweistellig-addieren",
+     "tool": {
+      "key": "open-number-line",
+      "slug": "rechenstrich",
+      "name": "Rechenstrich"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-g2500-2",
+      "title": "Plus am Rechenstrich"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen Zehner und Einer getrennt und schreiben die beiden Ergebnisse nebeneinander: Aus 48 + 37 wird 715. Am Rechenstrich zeichnen manche nur einen einzigen großen Sprung zum Ergebnis, das sie vorher an den Fingern abgezählt haben, oder sie schreiben die Zwischenzahl nicht an den Strich.",
+      "words": "Zeige am Rechenstrich 48 + 37: „Wir fangen bei der 48 an. Erst die Zehner: plus 30. Wo landen wir? Bei der 78. Dann die Einer: plus 7. Bis zur 80 sind es 2, dann noch 5: 85.“ Frage bei jeder Aufgabe: „Wie groß ist dein Zehnersprung? Wo landest du?“ Lass die Kinder die Zwischenzahl unter den Strich schreiben.",
+      "watch": "Beginne am ersten Tag mit dem leichteren Blatt für alle Kinder: Es hat Aufgaben ohne Zehnerübergang wie 35 + 23 und zeigt die erste Aufgabe mit ihren zwei Sprüngen. Am zweiten Tag folgt das Blatt für alle: Alle Aufgaben gehen über den Zehner, die zweite Zahl ist kleiner als 30 (39 + 17). Das schwerere Blatt hat Aufgaben mit Zehnerübergang und großer zweiter Zahl wie 48 + 37. Achte darauf, ob die Sprünge zusammen die zweite Zahl ergeben und ob die Zwischenzahl am Strich steht. Wer den Einersprung am Zehner teilt (78 + 2 + 5), rechnet geschickt. Wer bei 19 + 29 erst 30 vorspringt und dann 1 zurück, rechnet ebenfalls geschickt; lass diesen Weg gelten. Wer in Einerschritten weiterzählt, übt noch einmal das Ergänzen zum Zehner."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "1:open-number-line",
+     "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35",
+     "objective": "Die Kinder subtrahieren zweistellige Zahlen im Zahlenraum bis 100 schrittweise (erst die Zehner, dann die Einer) und zeichnen die Sprünge rückwärts am Rechenstrich.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mathematisch darstellen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-501",
+       "title": "Minus am Rechenstrich",
+       "core": "zahlenstrahl-g2501",
+       "easy": "zahlenstrahl-leicht-g2501-6",
+       "hard": "zahlenstrahl-schwer-g2501-11"
+      }
+     ],
+     "id": "1:open-number-line#zweistellig-subtrahieren",
+     "tool": {
+      "key": "open-number-line",
+      "slug": "rechenstrich",
+      "name": "Rechenstrich"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-g2501-2",
+      "title": "Minus am Rechenstrich"
+     },
+     "note": {
+      "mistake": "Die Kinder ziehen stellenweise ab und nehmen den kleineren Einer vom größeren: Aus 82 − 35 wird 53. Andere zeichnen die Sprünge nach rechts oder hören nach dem Zehnersprung auf und schreiben die Zwischenzahl als Ergebnis (82 − 35 = 52).",
+      "words": "Zeige 82 − 35 am Rechenstrich: „Die 82 steht rechts, wir springen zurück. Erst die Zehner: minus 30, wir landen bei der 52. Dann die Einer: minus 5. Bis zur 50 sind es 2, dann noch 3: 47.“ Frage: „Wo bist du nach dem Zehnersprung gelandet? Schreibe die Zahl an den Strich.“",
+      "watch": "Beginne am ersten Tag mit dem leichteren Blatt für alle Kinder: Es hat Aufgaben ohne Zehnerübergang wie 67 − 24 und zeigt die erste Aufgabe mit ihren Sprüngen. Am zweiten Tag folgt das Blatt für alle: Alle Aufgaben gehen über den Zehner, die zweite Zahl ist kleiner als 30 (63 − 18). Das schwerere Blatt hat Aufgaben mit Zehnerübergang und großer zweiter Zahl wie 82 − 35. Der Strich auf dem Blatt ist leer: Das Kind trägt die Startzahl rechts selbst ein. Wer bei 82 − 29 erst 30 zurückspringt und dann 1 vor, rechnet ebenfalls geschickt; lass diesen Weg gelten. Wer 82 − 35 als 53 löst, legt die Aufgabe noch einmal mit Zehnerstangen und Einerwürfeln."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:two-step-word-problems",
+     "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+     "objective": "Die Kinder entnehmen kurzen Sachaufgaben die Angaben, finden die Frage und lösen die Aufgabe im Zahlenraum bis 100 mit Rechnung und Antwortsatz.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen in Kontexten anwenden"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Mathematisch modellieren"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-506",
+       "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+       "core": "sachaufgaben-klassenzimmer-s-w-g2506",
+       "easy": "sachaufgaben-leicht-accessoires-g2506",
+       "hard": "sachaufgaben-schwer-kuchenwerkzeuge-g2506"
+      }
+     ],
+     "id": "2:two-step-word-problems#sachaufgaben-bis-100",
+     "tool": {
+      "key": "missing-question",
+      "slug": "zahlen-zerlegen-und-fragen-finden-klasse-1",
+      "name": "Die drei Nischen"
+     },
+     "exit": {
+      "slug": "sachaufgaben-gemuse-g2506-2",
+      "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen sofort mit den beiden Zahlen, ohne die Frage zu lesen, und zählen auch dann zusammen, wenn etwas weggenommen wird. Fehlt die Frage, schreiben viele die Rechnung in die Fragezeile. Als Antwort steht oft nur die Zahl da, ohne Satz.",
+      "words": "Zeige „Die drei Nischen“ und erzähle eine Sachsituation ohne Zahlen: „In einer Kiste sind Blaubeeren. Emma nimmt welche heraus.“ Frage: „Was könnten wir hier fragen?“ Sammle die Fragen der Kinder, bevor eine Zahl genannt wird. Auf dem Blatt: „Lies die Geschichte. Was ist gefragt? Wenn keine Frage dasteht: Was könntest du fragen? Schreibe die Rechnung. Schreibe die Antwort als ganzen Satz, zum Beispiel: In der Kiste sind noch 51 Blaubeeren.“",
+      "watch": "Auf dem Blatt für alle fehlt bei einer der drei Aufgaben die Frage; das Kind schreibt sie selbst. Lass mehrere Fragen gelten, wenn sie zur Geschichte passen und sich mit den Angaben beantworten lassen. Auf dem leichteren Blatt sind alle Fragen abgedruckt, und es hat keine Vergleichsaufgabe; auf dem Blatt für alle und auf dem schwereren Blatt steht je eine, und auf dem schwereren fehlen zwei Fragen. Prüfe, ob die Antwort ein Satz ist und zur Frage passt. Bei der Vergleichsaufgabe („Wie viele … mehr?“, „Wie viele … weniger?“ oder „Wie viele … fehlen …?“) zählen viele Kinder die beiden Zahlen einfach zusammen (90 + 81). Lass die beiden Mengen mit Zehnerstangen und Einerwürfeln nebeneinanderlegen und den Unterschied zeigen. Als Rechnung gilt die Minusaufgabe (90 − 81 = 9) genauso wie die Ergänzungsaufgabe (81 + 9 = 90)."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:add-sub-within-100-practice",
+     "title": "Plus und Minus bis 100 üben",
+     "objective": "Die Kinder addieren und subtrahieren zweistellige Zahlen, um Zahlenmauern zu füllen und in einem Rechenlabyrinth den richtigen Weg zu finden.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-313",
+       "title": "Zahlenmauern bis 100",
+       "core": "zahlenmauern-g2313",
+       "easy": "zahlenmauern-leicht-g2313-7",
+       "hard": "zahlenmauern-schwer-g2313-12",
+       "landing": "zahlenmauern-bis-100"
+      },
+      {
+       "type": "G2-393",
+       "title": "Rechenlabyrinth 2. Klasse: Plus und Minus bis 100",
+       "core": "labyrinth-raetsel-g2393",
+       "easy": "labyrinth-raetsel-leicht-g2393-2",
+       "hard": "labyrinth-raetsel-schwer-g2393-6",
+       "screen": 1,
+       "landing": "rechenlabyrinth-2-klasse-plus-minus-bis-100"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "gus-snack-cart.within-100.2-nbt-b-5",
+      "slug": "plus-und-minus-bis-100-klasse-2",
+      "title": "Rechnen bis 100 – online üben"
+     },
+     "exit": {
+      "slug": "zahlenmauern-g2313-2",
+      "title": "Zahlenmauern bis 100"
+     },
+     "maker": {
+      "id": "logic-puzzles",
+      "name": "Logikrätsel",
+      "slug": "logikraetsel-arbeitsblaetter-erstellen",
+      "template": "G2-313"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen Zehner und Einer getrennt und beachten den Zehnerübergang nicht: Aus 28 + 15 wird 313 oder 33. Im Labyrinth zieht sich ein falscher Schritt durch den ganzen Weg, und sie gehen nicht zurück, um ihn zu suchen.",
+      "words": "Sag: „Rechne in Schritten. 28 + 15: erst plus 10, das sind 38. Dann plus 5: bis zur 40 sind es 2, dann noch 3, also 43.“ Frage: „Geht es über den Zehner?“ Im Labyrinth: „Schreibe nach jedem Schild die neue Zahl auf. Wenn das Ende nicht stimmt, prüfe jeden Schritt.“",
+      "watch": "Lass die Kinder ihre Rechenschritte neben die Mauer schreiben. Sind die unteren Steine richtig und ein Stein weiter oben falsch, war es ein einzelner Rechenfehler, der nach oben gewandert ist; stimmt gar nichts, sieht das Kind vielleicht nicht, welche zwei Steine zusammengehören."
      },
      "days": 2
     }
@@ -9476,10 +9625,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Mathe Klasse 2: Stoffverteilung für 28 Wochen",
-   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 28 Wochen (7 Einheiten)",
-   "metaDescription": "7 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 28 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 28,
+   "title": "Mathe Klasse 2: Stoffverteilung für 30 Wochen",
+   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 30 Wochen (8 Einheiten)",
+   "metaDescription": "8 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 30 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 30,
    "framework": null,
    "units": [
     {
@@ -9497,8 +9646,7 @@
       "Zweistellige Zahlen vergleichen und ordnen",
       "Ausschnitte aus dem Zahlenstrahl: Der Anfang ist nicht die Null",
       "In Fünfer- und Zehnerschritten zählen",
-      "Sprünge auf der Hundertertafel",
-      "Plus und Minus bis 100 üben"
+      "Sprünge auf der Hundertertafel"
      ],
      "standards": []
     },
@@ -9518,12 +9666,27 @@
      "standards": []
     },
     {
+     "id": "de2-plus-minus-zweistellig",
+     "slug": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+     "title": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
+     "weeks": 2,
+     "from": 8,
+     "to": 9,
+     "lessons": [
+      "Zweistellige Zahlen addieren: 35 + 23 und 48 + 37",
+      "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35",
+      "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+      "Plus und Minus bis 100 üben"
+     ],
+     "standards": []
+    },
+    {
      "id": "de2-groessen-daten",
      "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
      "title": "Messen, Uhrzeit, Geld und Diagramme",
      "weeks": 5,
-     "from": 8,
-     "to": 12,
+     "from": 10,
+     "to": 14,
      "lessons": [
       "Mit dem Lineal messen",
       "Wie viel länger?",
@@ -9541,8 +9704,8 @@
      "slug": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
      "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
      "weeks": 4,
-     "from": 13,
-     "to": 16,
+     "from": 15,
+     "to": 18,
      "lessons": [
       "Gleiche Gruppen: vom Plus zum Mal",
       "Punktefelder: Reihen und Spalten",
@@ -9558,8 +9721,8 @@
      "slug": "das-kleine-einmaleins-klasse-2",
      "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
      "weeks": 4,
-     "from": 17,
-     "to": 20,
+     "from": 19,
+     "to": 22,
      "lessons": [
       "Das 10er-Einmaleins und die Kernaufgaben",
       "In Dreier- und Viererschritten zählen",
@@ -9575,8 +9738,8 @@
      "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
      "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
      "weeks": 4,
-     "from": 21,
-     "to": 24,
+     "from": 23,
+     "to": 26,
      "lessons": [
       "Verteilen und Aufteilen",
       "Geteiltaufgaben: gerecht verteilen",
@@ -9593,8 +9756,8 @@
      "slug": "formen-koerper-und-symmetrie-klasse-2",
      "title": "Formen, Körper, Symmetrie und Planquadrate",
      "weeks": 4,
-     "from": 25,
-     "to": 28,
+     "from": 27,
+     "to": 30,
      "lessons": [
       "Formen nach Ecken und Seiten sortieren",
       "Flach oder räumlich? Flächen und Körper unterscheiden",

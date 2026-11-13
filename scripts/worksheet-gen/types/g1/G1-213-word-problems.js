@@ -213,7 +213,7 @@ module.exports = {
     if (pool.length < kinds.length) throw new Error(`G1-213: theme ${theme}/${loc} has ${pool.length} countable nouns < ${kinds.length}`);
     const nouns = slot.pictures(ctx, rng.sample(pool, kinds.length), pool, theme);   // a teacher's thing per story (maker), else as drawn
     const names = W.namesFor(loc, false);
-    const usedFrames = new Set(), usedNums = new Set(), drawn = [];
+    const usedFrames = new Set(), usedNums = new Set(), usedNames = new Set(), drawn = [];
     const three = kinds.length >= 3;
     const problems = kinds.map((kind, i) => {
       let nums = null, guard = 0;
@@ -233,8 +233,12 @@ module.exports = {
       const free = list.map((f, k) => k).filter((k) => !usedFrames.has(fkey(k)));
       const fk = rng.pick(free.length ? free : list.map((f, k) => k));
       usedFrames.add(fkey(fk));
-      const name = rng.pick(names);
-      const name2 = rng.pick(names.filter((n) => n !== name && (!d.newPage || n.slice(0, 4) !== name.slice(0, 4))));
+      // d.namesOnce (G1-511 levels 2 and 3, 2026-11-14): a child is named in one story of a page only (a teacher-reviewer
+      // met Omar in two of three stories); the pages drawn before keep their draw
+      const fresh = d.namesOnce ? names.filter((n) => !usedNames.has(n)) : names;
+      const name = rng.pick(fresh);
+      const name2 = rng.pick(fresh.filter((n) => n !== name && (!d.newPage || n.slice(0, 4) !== name.slice(0, 4))));
+      usedNames.add(name); usedNames.add(name2);
       const sentence = W.fill(list[fk], { name, name2, n1: nums.n1, n2: nums.n2, n3: nums.n3, noun: noun.text, gender: noun.gender }, loc);
       return { kind, ...nums, name, name2, noun: noun.noun, vocabKey: noun.vocabKey, frame: kind + fk, sentence, boxes: kind === 'compare' && !/{name2}/.test(list[fk]) };
     });

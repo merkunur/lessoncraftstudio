@@ -168,7 +168,7 @@ function fill(tpl, s, loc) {
 }
 
 // ---------------------------------------------------------------------------------------------- numbers
-/** A G1 problem's numbers for its kind. d: { max, iconMax, n2Set }. Returns {n1, n2, n3, answer} or null (re-draw). */
+/** A G1 problem's numbers for its kind. d: { max, iconMax, n2Set, n1Min (compare: the larger amount is at least this) }. Returns {n1, n2, n3, answer} or null (re-draw). */
 function drawG1(kind, d, rng) {
   const M = d.max, I = d.iconMax;
   // every problem the kind allows (the same ranges as before), then the ANSWER drawn evenly among the answers they give,
@@ -182,7 +182,7 @@ function drawG1(kind, d, rng) {
   else if (kind === 'sub') { for (const n1 of range(4, Math.min(I, M))) for (const n2 of second(2, n1 - 2)) add(n1, n2, null, n1 - n2); }
   else if (kind === 'addChange') { for (const n1 of range(2, Math.min(I, M - 2))) for (const c of second(2, M - n1)) add(n1, null, n1 + c, c); }
   else if (kind === 'subChange') { for (const n1 of range(4, Math.min(I, M))) for (const c of second(2, n1 - 2)) add(n1, null, n1 - c, c); }
-  else if (kind === 'compare') { for (const n1 of range(4, Math.min(I, M))) for (const n2 of second(2, n1 - 2)) add(n1, n2, null, n1 - n2); }
+  else if (kind === 'compare') { for (const n1 of range(Math.max(4, d.n1Min || 4), Math.min(I, M))) for (const n2 of second(2, n1 - 2)) add(n1, n2, null, n1 - n2); }
   else throw new Error('word-problems Level Set: unknown kind ' + kind);
   if (!all.length) return null;
   const answer = rng.pick([...new Set(all.map((p) => p.answer))]);

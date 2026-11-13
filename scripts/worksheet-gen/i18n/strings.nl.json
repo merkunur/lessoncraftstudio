@@ -4778,5 +4778,37 @@
   "G1-554": {
     "title": "Kleur de oneven getallen",
     "instruction": "Kleur alle oneven getallen. Laat de even getallen wit."
+  },
+  "G1-556": {
+    "title": "Aftrekken over het tiental",
+    "instruction": "Spring eerst terug naar het hele tiental en spring dan de rest. Vul de vakjes in."
+  },
+  "G1-557": {
+    "title": "Optellen over het tiental",
+    "instruction": "Spring eerst naar het volgende tiental en spring dan de rest. Vul de vakjes in."
+  },
+  "G2-500": {
+    "title": "Optellen op de lege getallenlijn",
+    "instruction": "Teken je sprongen op de lege lijn. Schrijf het antwoord op."
+  },
+  "G2-501": {
+    "title": "Aftrekken op de lege getallenlijn",
+    "instruction": "Teken je sprongen terug op de lege lijn. Schrijf het antwoord op."
+  },
+  "G1-558": {
+    "title": "Tientallen erbij en eraf",
+    "instruction": "Tel uit je hoofd tientallen erbij of haal ze eraf. Alleen de tientallen veranderen. Schrijf het antwoord in het vakje."
+  },
+  "G1-559": {
+    "title": "Eenheden erbij en eraf",
+    "instruction": "Tel uit je hoofd eenheden erbij of haal ze eraf. Alleen de eenheden veranderen. Schrijf het antwoord in het vakje."
+  },
+  "G1-560": {
+    "title": "Bundelen in tientallen",
+    "instruction": "Omcirkel steeds 10 eenheden. Schrijf op hoeveel tientallen er zijn en hoeveel eenheden er over zijn."
+  },
+  "K-627": {
+    "title": "Tien en nog wat",
+    "instruction": "Omcirkel 10. Schrijf hoeveel er nog over zijn. Schrijf dan het getal."
   }
 }

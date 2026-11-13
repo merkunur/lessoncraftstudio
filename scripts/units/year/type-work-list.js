@@ -64,7 +64,11 @@ for (const nd of needs) {
   if (!r) { problems.push(nd.key + ' "' + nd.title + '" is close to ' + best + ' and has no ruling in rulings.close.math.js'); continue; }
   ruled.add(nd.loc + '|' + nd.key.slice(3));
   row.ruling = r.rule; row.note = r.note; if (r.level) row.level = r.level;
-  if (r.rule === 'use') { if (published(nd.loc, best)) USE.push(row); else { if (!B.has(best)) B.set(best, []); B.get(best).push(row); } continue; }
+  // a ruling may name the type that was BUILT for the line after the matching (a new face of the close generator):
+  // the lesson is then written on that type, and the close type stays in the row as the second one
+  const use = r.type || best;
+  if (r.type) row.types = [r.type].concat(row.types.filter((t) => t !== r.type));
+  if (r.rule === 'use') { if (published(nd.loc, use)) USE.push(row); else { if (!B.has(use)) B.set(use, []); B.get(use).push(row); } continue; }
   if (r.rule === 'build') { D.push(row); continue; }
   if (r.rule !== 'change') { problems.push(nd.key + ': ruling "' + r.rule + '"'); continue; }
   if (!C.has(best)) C.set(best, []); C.get(best).push(row);

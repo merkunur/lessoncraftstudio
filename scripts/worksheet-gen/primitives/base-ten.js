@@ -29,9 +29,17 @@ function unitCube(x, y, u, t) {
   return roundedRect({ x, y, w: u, h: u, r: 2, fill: t.color.coralSoft, strokeColor: t.color.coral, strokeWidth: 2, data: { 'data-lcs-block': 'one' } });
 }
 
-function baseTenBlocks({ h = 0, t: tens = 0, o = 0, unit = 13 }, ctx) {
+function baseTenBlocks({ h = 0, t: tens = 0, o = 0, unit = 13, pile = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const u = unit;
+  // a pile of loose ones only (the bundling faces, Year pages D): columns of five, as high as five cubes and not as
+  // a ten rod, with a gap wide enough for the pencil ring that bundles ten of them
+  if (pile) {
+    const g = Math.max(5, Math.round(u * 0.3)), parts = [];
+    for (let i = 0; i < o; i++) { const col = Math.floor(i / 5), row = i % 5; parts.push(unitCube(4 + col * (u + g + 2), 4 + (4 - row) * (u + g), u, t)); }
+    const W = 8 + Math.ceil(o / 5) * (u + g + 2) - (g + 2), Hp = 8 + 5 * u + 4 * g;
+    return { svg: svgRoot({ width: W, height: Hp, label: `${o} loose ones` }, parts.join(''), { 'data-lcs-prim': 'base-ten', 'data-lcs-h': 0, 'data-lcs-t': 0, 'data-lcs-o': o }), meta: { h: 0, t: 0, o, value: o }, width: W, height: Hp };
+  }
   const gap = u * 1.2;
   let x = 4;
   const parts = [];

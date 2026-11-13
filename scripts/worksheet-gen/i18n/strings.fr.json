@@ -3467,7 +3467,7 @@
   },
   "G1-439": {
     "title": "D’abord jusqu’à la dizaine",
-    "instruction": "Passe d’abord par la dizaine, puis saute le reste. Complète les cases."
+    "instruction": "Passe d’abord par la dizaine, puis fais un autre saut pour le reste. Complète les cases."
   },
   "G2-395": {
     "title": "Complète la droite graduée",
@@ -4773,5 +4773,37 @@
   "G1-554": {
     "title": "Colorie les nombres impairs",
     "instruction": "Colorie tous les nombres impairs. Laisse les nombres pairs en blanc."
+  },
+  "G1-556": {
+    "title": "Soustraire en passant par la dizaine",
+    "instruction": "Recule d’abord jusqu’à la dizaine, puis fais un autre saut en arrière pour le reste. Complète les cases."
+  },
+  "G1-557": {
+    "title": "Additionner en passant par la dizaine",
+    "instruction": "Saute d’abord jusqu’à la dizaine suivante, puis fais un autre saut pour le reste. Complète les cases."
+  },
+  "G2-500": {
+    "title": "Additionner sur la droite numérique vide",
+    "instruction": "Dessine tes sauts sur la droite vide. Écris le résultat."
+  },
+  "G2-501": {
+    "title": "Soustraire sur la droite numérique vide",
+    "instruction": "Dessine tes sauts en arrière sur la droite vide. Écris le résultat."
+  },
+  "G1-558": {
+    "title": "Ajouter et retirer des dizaines",
+    "instruction": "Ajoute ou retire des dizaines dans ta tête. Seules les dizaines changent. Écris le résultat dans la case."
+  },
+  "G1-559": {
+    "title": "Ajouter et retirer des unités",
+    "instruction": "Ajoute ou retire des unités dans ta tête. Seules les unités changent. Écris le résultat dans la case."
+  },
+  "G1-560": {
+    "title": "Grouper par dizaines",
+    "instruction": "Entoure des groupes de 10 unités. Écris combien il y a de dizaines et combien d’unités il reste."
+  },
+  "K-627": {
+    "title": "Dix et encore quelques-uns",
+    "instruction": "Entoure 10. Écris combien il y en a en plus. Écris ensuite le nombre."
   }
 }

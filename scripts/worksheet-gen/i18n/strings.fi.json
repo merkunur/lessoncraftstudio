@@ -4726,5 +4726,37 @@
   "G1-554": {
     "title": "Väritä parittomat luvut",
     "instruction": "Väritä kaikki parittomat luvut. Jätä parilliset luvut valkoisiksi."
+  },
+  "G1-556": {
+    "title": "Vähennyslasku tasakymmenen yli",
+    "instruction": "Hyppää ensin takaisin tasakymmeneen ja sitten loput. Täytä ruudut."
+  },
+  "G1-557": {
+    "title": "Yhteenlasku seuraavan tasakymmenen yli",
+    "instruction": "Hyppää ensin seuraavaan tasakymmeneen ja sitten loput. Täytä ruudut."
+  },
+  "G2-500": {
+    "title": "Yhteenlasku tyhjällä lukusuoralla",
+    "instruction": "Piirrä hyppysi tyhjälle lukusuoralle. Kirjoita vastaus."
+  },
+  "G2-501": {
+    "title": "Vähennyslasku tyhjällä lukusuoralla",
+    "instruction": "Piirrä hyppysi taaksepäin tyhjälle lukusuoralle. Kirjoita vastaus."
+  },
+  "G1-558": {
+    "title": "Lisää ja vähennä kymmeniä",
+    "instruction": "Lisää tai vähennä kymmeniä päässäsi. Vain kymmenet muuttuvat. Kirjoita vastaus ruutuun."
+  },
+  "G1-559": {
+    "title": "Lisää ja vähennä ykkösiä",
+    "instruction": "Lisää tai vähennä ykkösiä päässäsi. Vain ykköset muuttuvat. Kirjoita vastaus ruutuun."
+  },
+  "G1-560": {
+    "title": "Niputa kymmeniksi",
+    "instruction": "Ympyröi aina 10 ykköstä. Kirjoita, montako kymppiä on ja montako ykköstä jää yli."
+  },
+  "K-627": {
+    "title": "Kymmenen ja vähän lisää",
+    "instruction": "Ympyröi 10. Kirjoita, montako on lisäksi. Kirjoita sitten luku."
   }
 }

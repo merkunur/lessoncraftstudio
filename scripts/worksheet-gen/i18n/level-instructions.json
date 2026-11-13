@@ -5967,5 +5967,61 @@
       "no": "Skriv følelsen under hvert ansikt. Klipp så ut kortene og snakk om følelser.",
       "fi": "Kirjoita tunteen nimi jokaisen kuvan alle. Leikkaa sitten kortit irti ja puhukaa tunteista."
     }
+  },
+  "G1-558": {
+    "1": {
+      "en": "Add the tens in your head. Only the tens change. Write the answer in the box.",
+      "de": "Rechne im Kopf die Zehner dazu. Nur die Zehner ändern sich. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Suma las decenas mentalmente. Solo cambian las decenas. Escribe el resultado en el recuadro.",
+      "pt": "Some as dezenas de cabeça. Só as dezenas mudam. Escreva a resposta no quadradinho.",
+      "fr": "Ajoute les dizaines dans ta tête. Seules les dizaines changent. Écris le résultat dans la case.",
+      "it": "Aggiungi le decine a mente. Cambiano solo le decine. Scrivi il risultato nella casella.",
+      "nl": "Tel uit je hoofd de tientallen erbij. Alleen de tientallen veranderen. Schrijf het antwoord in het vakje.",
+      "sv": "Lägg till hela tiotal i huvudet. Bara tiotalen ändras. Skriv svaret i rutan.",
+      "da": "Læg tierne til i hovedet. Kun tierne ændrer sig. Skriv resultatet i feltet.",
+      "no": "Legg til hele tiere i hodet. Bare tierne endrer seg. Skriv svaret i ruten.",
+      "fi": "Lisää kymmenet päässäsi. Vain kymmenet muuttuvat. Kirjoita vastaus ruutuun."
+    },
+    "2": {
+      "en": "Take away the tens in your head. Only the tens change. Write the answer in the box.",
+      "de": "Ziehe im Kopf die Zehner ab. Nur die Zehner ändern sich. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Resta las decenas mentalmente. Solo cambian las decenas. Escribe el resultado en el recuadro.",
+      "pt": "Subtraia as dezenas de cabeça. Só as dezenas mudam. Escreva a resposta no quadradinho.",
+      "fr": "Retire les dizaines dans ta tête. Seules les dizaines changent. Écris le résultat dans la case.",
+      "it": "Togli le decine a mente. Cambiano solo le decine. Scrivi il risultato nella casella.",
+      "nl": "Reken uit je hoofd: haal de tientallen eraf. Alleen de tientallen veranderen. Schrijf het antwoord in het vakje.",
+      "sv": "Ta bort hela tiotal i huvudet. Bara tiotalen ändras. Skriv svaret i rutan.",
+      "da": "Træk tierne fra i hovedet. Kun tierne ændrer sig. Skriv resultatet i feltet.",
+      "no": "Trekk fra hele tiere i hodet. Bare tierne endrer seg. Skriv svaret i ruten.",
+      "fi": "Vähennä kymmenet päässäsi. Vain kymmenet muuttuvat. Kirjoita vastaus ruutuun."
+    }
+  },
+  "G1-559": {
+    "1": {
+      "en": "Add the ones in your head. Only the ones change. Write the answer in the box.",
+      "de": "Rechne im Kopf die Einer dazu. Nur die Einer ändern sich. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Suma las unidades mentalmente. Solo cambian las unidades. Escribe el resultado en el recuadro.",
+      "pt": "Some as unidades de cabeça. Só as unidades mudam. Escreva a resposta no quadradinho.",
+      "fr": "Ajoute les unités dans ta tête. Seules les unités changent. Écris le résultat dans la case.",
+      "it": "Aggiungi le unità a mente. Cambiano solo le unità. Scrivi il risultato nella casella.",
+      "nl": "Tel uit je hoofd de eenheden erbij. Alleen de eenheden veranderen. Schrijf het antwoord in het vakje.",
+      "sv": "Lägg till ental i huvudet. Bara entalen ändras. Skriv svaret i rutan.",
+      "da": "Læg enerne til i hovedet. Kun enerne ændrer sig. Skriv resultatet i feltet.",
+      "no": "Legg til enere i hodet. Bare enerne endrer seg. Skriv svaret i ruten.",
+      "fi": "Lisää ykköset päässäsi. Vain ykköset muuttuvat. Kirjoita vastaus ruutuun."
+    },
+    "2": {
+      "en": "Take away the ones in your head. Only the ones change. Write the answer in the box.",
+      "de": "Ziehe im Kopf die Einer ab. Nur die Einer ändern sich. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Resta las unidades mentalmente. Solo cambian las unidades. Escribe el resultado en el recuadro.",
+      "pt": "Subtraia as unidades de cabeça. Só as unidades mudam. Escreva a resposta no quadradinho.",
+      "fr": "Retire les unités dans ta tête. Seules les unités changent. Écris le résultat dans la case.",
+      "it": "Togli le unità a mente. Cambiano solo le unità. Scrivi il risultato nella casella.",
+      "nl": "Reken uit je hoofd: haal de eenheden eraf. Alleen de eenheden veranderen. Schrijf het antwoord in het vakje.",
+      "sv": "Ta bort ental i huvudet. Bara entalen ändras. Skriv svaret i rutan.",
+      "da": "Træk enerne fra i hovedet. Kun enerne ændrer sig. Skriv resultatet i feltet.",
+      "no": "Trekk fra enere i hodet. Bare enerne endrer seg. Skriv svaret i ruten.",
+      "fi": "Vähennä ykköset päässäsi. Vain ykköset muuttuvat. Kirjoita vastaus ruutuun."
+    }
   }
 }

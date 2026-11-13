@@ -4784,5 +4784,37 @@
   "G1-554": {
     "title": "Male die ungeraden Zahlen aus",
     "instruction": "Male jede ungerade Zahl aus. Lass die geraden Zahlen weiß."
+  },
+  "G1-556": {
+    "title": "Minus mit Zehnerübergang am Zahlenstrahl",
+    "instruction": "Springe zuerst zurück zum Zehner, dann den Rest. Fülle die Kästchen aus."
+  },
+  "G1-557": {
+    "title": "Plus mit Zehnerübergang am Zahlenstrahl",
+    "instruction": "Springe zuerst bis zum nächsten Zehner, dann den Rest. Fülle die Kästchen aus."
+  },
+  "G2-500": {
+    "title": "Plus am Rechenstrich",
+    "instruction": "Zeichne deine Sprünge am Rechenstrich ein. Schreibe das Ergebnis auf."
+  },
+  "G2-501": {
+    "title": "Minus am Rechenstrich",
+    "instruction": "Zeichne deine Sprünge rückwärts am Rechenstrich ein. Schreibe das Ergebnis auf."
+  },
+  "G1-558": {
+    "title": "Zehner dazu und weg",
+    "instruction": "Rechne im Kopf Zehner dazu oder ziehe Zehner ab. Nur die Zehner ändern sich. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G1-559": {
+    "title": "Einer dazu und weg",
+    "instruction": "Rechne im Kopf Einer dazu oder ziehe Einer ab. Nur die Einer ändern sich. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G1-560": {
+    "title": "In Zehnern bündeln",
+    "instruction": "Kreise immer 10 Einer ein. Schreibe auf, wie viele Zehner es sind und wie viele Einer übrig bleiben."
+  },
+  "K-627": {
+    "title": "Zehn und noch mehr",
+    "instruction": "Kreise 10 ein. Schreibe, wie viele noch übrig sind. Schreibe dann die Zahl."
   }
 }

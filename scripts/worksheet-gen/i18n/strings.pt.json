@@ -3477,7 +3477,7 @@
   },
   "G1-439": {
     "title": "Primeiro até a dezena",
-    "instruction": "Salte primeiro até a dezena exata e depois salte o resto. Complete os quadradinhos."
+    "instruction": "Salte primeiro até a dezena exata e depois dê outro salto com o que falta. Complete os quadradinhos."
   },
   "G2-395": {
     "title": "Complete a reta numérica",
@@ -4783,5 +4783,37 @@
   "G1-554": {
     "title": "Pinte os números ímpares",
     "instruction": "Pinte todos os números ímpares. Deixe os pares em branco."
+  },
+  "G1-556": {
+    "title": "Subtrair passando pela dezena",
+    "instruction": "Salte primeiro para trás até a dezena exata e depois dê outro salto com o que falta. Complete os quadradinhos."
+  },
+  "G1-557": {
+    "title": "Somar passando pela dezena",
+    "instruction": "Salte primeiro até a próxima dezena exata e depois dê outro salto com o que falta. Complete os quadradinhos."
+  },
+  "G2-500": {
+    "title": "Somar na reta numérica vazia",
+    "instruction": "Desenhe seus saltos na reta vazia. Escreva o resultado."
+  },
+  "G2-501": {
+    "title": "Subtrair na reta numérica vazia",
+    "instruction": "Desenhe seus saltos para trás na reta vazia. Escreva o resultado."
+  },
+  "G1-558": {
+    "title": "Somar e subtrair dezenas",
+    "instruction": "Some ou subtraia dezenas de cabeça. Só as dezenas mudam. Escreva a resposta no quadradinho."
+  },
+  "G1-559": {
+    "title": "Somar e subtrair unidades",
+    "instruction": "Some ou subtraia unidades de cabeça. Só as unidades mudam. Escreva a resposta no quadradinho."
+  },
+  "G1-560": {
+    "title": "Agrupe de dez em dez",
+    "instruction": "Circule grupos de 10 unidades. Escreva quantas dezenas há e quantas unidades sobram."
+  },
+  "K-627": {
+    "title": "Dez e mais alguns",
+    "instruction": "Circule 10. Escreva quantos ficaram de fora. Depois escreva o número."
   }
 }

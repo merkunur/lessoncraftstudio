@@ -63,6 +63,16 @@ function openProblem(rng, kind, used) {
   for (let t = 0; t < 400; t++) {
     let a, b, op;
     if (kind === 'teen') { op = '+'; a = rng.int(6, 9); b = rng.int(11 - a, 9); }
+    // Year pages D: one operation a page. plus / minus, two-digit and two-digit within 100, with or without a new ten;
+    // all three levels stay within 100 (the range of grade 2 in Germany and Sweden; the mixed page G1-438 has the
+    // sums within 1,000): without a new ten · across a ten with a small second number (11 to 29) · across a ten
+    // with a large second number (30 and more: several jumps of ten)
+    else if (kind === 'plus-plain') { op = '+'; a = rng.int(12, 67); b = rng.int(11, 98 - a); if ((a % 10) + (b % 10) > 9 || a % 10 === 0 || b % 10 === 0) continue; }
+    else if (kind === 'plus-cross') { op = '+'; a = rng.int(12, 85); b = rng.int(11, Math.min(29, 99 - a)); if ((a % 10) + (b % 10) < 11 || b % 10 === 0) continue; }
+    else if (kind === 'plus-big') { op = '+'; a = rng.int(12, 66); b = rng.int(31, 99 - a); if ((a % 10) + (b % 10) < 11 || b % 10 === 0) continue; }
+    else if (kind === 'minus-plain') { op = '-'; a = rng.int(34, 99); b = rng.int(11, a - 11); if (a % 10 <= b % 10 || b % 10 === 0) continue; }
+    else if (kind === 'minus-cross') { op = '-'; a = rng.int(31, 95); b = rng.int(11, Math.min(29, a - 11)); if (a % 10 >= b % 10 || a % 10 === 0) continue; }
+    else if (kind === 'minus-big') { op = '-'; a = rng.int(51, 95); b = rng.int(31, a - 11); if (a % 10 >= b % 10 || a % 10 === 0) continue; }
     else if (kind === 'two-digit') {
       op = rng.pick(['+', '-']);
       if (op === '+') { a = rng.int(12, 68); b = rng.int(11, 99 - a); if ((a % 10) + (b % 10) < 10) continue; }   // crossing a ten
@@ -75,7 +85,10 @@ function openProblem(rng, kind, used) {
     const r = op === '+' ? a + b : a - b;
     const k = a + op + b;
     if (used.has(k) || r <= 0) continue;
-    used.add(k);
+    // a page of ONE operation (the kinds of Year pages D): no number to start from twice
+    const solo = /^(plus|minus)-/.test(kind);
+    if (solo && used.has('from ' + a)) continue;
+    used.add(k); if (solo) used.add('from ' + a);
     return { a, op, b, r };
   }
   throw new Error('number-line-more: no open-line problem for ' + kind);
@@ -97,7 +110,17 @@ function openLineSvg(p, jumps, W = 600) {
   if (jumps) {
     const stops = [p.a]; jumps.forEach((j) => stops.push(stops[stops.length - 1] + j));
     const lo = Math.min(...stops), hi = Math.max(...stops);
-    const xs = stops.map((v) => x0 + 40 + ((v - lo) / (hi - lo)) * (x1 - x0 - 80));
+    let xs = stops.map((v) => x0 + 40 + ((v - lo) / (hi - lo)) * (x1 - x0 - 80));
+    // An empty line is not to scale. Where a jump is so short beside the other that its two numbers would stand on
+    // each other ("75 − 61": back 60, back 1), every jump gets room for its numbers first and the rest of the line is
+    // shared out by size. Only then: a drawing whose numbers stand apart is what it was (2026-11-13).
+    const MIN = 46;
+    if (xs.some((x, i) => i && Math.abs(x - xs[i - 1]) < MIN)) {
+      const span = x1 - x0 - 80, total = jumps.reduce((s, j) => s + Math.abs(j), 0), room = span - MIN * jumps.length;
+      const dir = stops[stops.length - 1] >= stops[0] ? 1 : -1;
+      let at = dir > 0 ? x0 + 40 : x0 + 40 + span;
+      xs = [at].concat(jumps.map((j) => (at += dir * (MIN + (Math.abs(j) / total) * room))));
+    }
     stops.forEach((v, i) => {
       parts += `<line x1="${xs[i]}" y1="${y - 9}" x2="${xs[i]}" y2="${y + 9}" stroke="${INK}" stroke-width="2.5"/>` +
         `<text x="${xs[i]}" y="${y + 32}" text-anchor="middle" font-family="'Baloo 2'" font-weight="700" font-size="20" fill="${i === stops.length - 1 ? TEAL : INK}">${v}</text>`;
@@ -158,7 +181,7 @@ function makeLineMoreType(cfg) {
     assetClass: 'numeral-charts',
     exerciseType: 'number-lines',
     themeAxis: { applicable: false },
-    difficulty: LEVELS[mode],
+    difficulty: cfg.levels || LEVELS[mode],   // a face of one operation brings its own levels (Year pages D, 2026-11-13)
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
 
@@ -199,6 +222,8 @@ function makeLineMoreType(cfg) {
           const first = Math.abs(ten - a), rest = b - first;
           if (first <= 0 || rest <= 0) continue;
           if (used.has(a + op + b)) continue;
+          // a face of one operation within 20 has seven numbers to start from: no start twice on a page (d.distinct)
+          if (d.distinct && ps.some((q) => q.a === a)) continue;
           used.add(a + op + b);
           ps.push({ a, op, b, r, ten, first, rest });
         }
@@ -208,7 +233,7 @@ function makeLineMoreType(cfg) {
           const box = (ans, w) => (worked ? `<span class="ws-answerbox" style="width:${w}px;height:50px;display:inline-flex;align-items:center;justify-content:center" data-lcs-answer="${ans}" data-lcs-given="1">${T(ans, 28, TEAL)}</span>` : answerBox({ w, h: 50, answer: ans }));
           const min = Math.floor(Math.min(p.a, p.r) / 10) * 10, max = min + 20;
           const sgn = p.op === '+' ? '+' : MINUS;
-          const nl = numberLine({ min, max, tickStep: 1, labelEvery: 5, width: 560, marks: [p.a],
+          const nl = numberLine({ min, max, tickStep: 1, labelEvery: d.labelEvery || 5, width: 560, marks: [p.a],
             jumps: key || worked ? [{ from: p.a, to: p.ten, step: p.first }, { from: p.ten, to: p.r, step: p.rest }] : [{ from: p.a, to: p.a }] });
           const eq = `<div style="display:flex;align-items:center;gap:9px;flex-wrap:nowrap">${T(p.a, 28)}${T(sgn, 28, CORAL)}${T(p.b, 28)}${T('=', 28, CORAL)}${T(p.a, 28)}${T(sgn, 28, CORAL)}` +
             box(p.first, 56) + T(sgn, 28, CORAL) + box(p.rest, 56) + T('=', 28, CORAL) + box(p.r, 66) + `</div>`;

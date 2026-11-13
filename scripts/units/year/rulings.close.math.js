@@ -12,13 +12,17 @@
  *           teach is mixed in, the number range of the grade is missing, the one thing the lesson is about is
  *           not asked. The note says the change in a few words.
  *   build   what the type has is too far from the page; it is built as a new type (it joins the "to build" list).
+ *   N(type) a "change" that is DONE: the change was built as a new type (a new face of the same generator, so the
+ *           published pages of the close type stay as they are). The line counts as "use" of the new type.
  *
  * Who ruled: the build session, reading each line's objective and the analyst's account of the difference. It is a
  * first ruling: the native teacher-reviewer of each language reads the lesson texts WITH their pages before a lesson
  * goes live, and overrules a "use" where the page does not carry the lesson.
  */
 'use strict';
-const U = (note, level) => ({ rule: 'use', note, ...(level ? { level } : {}) });
+const U = (note, level, type) => ({ rule: 'use', note, ...(level ? { level } : {}), ...(type ? { type } : {}) });
+// N = a NEW type was built for the line (a new face of the close generator); the lesson is written on it
+const N = (type, note, level) => U(note, level, type);
 const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
@@ -39,7 +43,7 @@ module.exports = {
     'K-015': C('wholes of 6 and 7; today only 5 and 10'),
     'K-016': U('the bond pages of 8 and of 9'),
     'K-018': U('the same equation on a ten-frame'),
-    'K-019': C('the frame prints "×10" (read on the published page): Kindergarten needs "10 and _" and the number 11 to 19'),
+    'K-019': N('K-627', 'built: circle ten of 11 to 19 things, then 10 + _ = _ (Ten and Some More)', 2),
     'K-021': C('the reverse direction: the number is printed, the child draws it into two empty frames'),
     'K-022': C('a teen number as the whole with ten as one part (a setting of the bond factory)'),
     'K-023': C('a chart from 1 to 50; today always 1 to 100'),
@@ -56,10 +60,10 @@ module.exports = {
     '1-034': B('stories with three addends (the story bank has none; the bare sums exist)'),
     '1-035': C('exactly one ten-rod and the line "1 ten _ ones"'),
     '1-036': C('the frame "_ tens" in place of a multiplication sign in Grade 1'),
-    '1-037': C('a tens-only kind (34 + 20); today mixed with ones and with taking away'),
+    '1-037': N('G1-558', 'built: level 1 adds whole tens only (34 + 20)', 1),
     '1-038': C('whole tens minus whole tens with rods to cross out'),
-    '1-039': C('an ones-only kind without a new ten (32 + 5)'),
-    '1-040': C('addition only within 100 (27 + 5); today plus and minus take turns at level 3'),
+    '1-039': N('G1-559', 'built: level 1 adds ones only, no new ten (32 + 5)', 1),
+    '1-040': N('G1-557', 'built: addition only within 100, to the next ten first (27 + 5)', 2),
     '1-041': U('two two-digit numbers as rods and cubes, no new ten'),
     '1-042': B('adding with a new ten on a tens-and-ones mat (the block page never regroups)'),
     '1-043': U('clocks to the hour and half hour matched to digital times', 3),
@@ -67,7 +71,7 @@ module.exports = {
     // Grade 2
     '2-046': U('level 1 is addition only, across ten', 1),
     '2-047': U('near doubles in either order; doubles and halves are their own pages'),
-    '2-048': C('subtraction only (15 - 7 back to ten); today it takes turns with addition'),
+    '2-048': N('G1-556', 'built: subtraction only, back to ten first (15 - 7)', 2),
     '2-049': C('fact triangles with one part missing; today the house gives all three numbers'),
     '2-050': U('more than nine tens with ones: write the number (level 1 is too many tens, level 2 too many ones)', 1),
     '2-051': U('expanded form both ways with a zero place', 3),
@@ -103,15 +107,15 @@ module.exports = {
     '1-093': C('die kleine Aufgabe neben der großen (3 + 4 und 13 + 4)'),
     '1-094': U('Stufe 1 ist nur Plus über die 10, die erste Aufgabe ist vorgemacht', 1),
     '1-095': U('6 + 7 als 6 + 6 + 1 schreiben'),
-    '1-096': C('nur Minus (zurück zur 10); heute wechseln Plus und Minus'),
-    '1-102': C('30 bis 80 lose Dinge mit mehreren Zehnern zum Einkreisen'),
+    '1-096': N('G1-556', 'gebaut: nur Minus, zuerst zurück zur 10', 2),
+    '1-102': N('G1-560', 'gebaut: 31 bis 59 lose Einer, Zehner einkreisen, Zehner und Einer notieren (Stufe 3: 51 bis 79)', 2),
     '1-104': C('Preise in ganzen Euro mit Scheinen; die deutschen Münzdaten haben nur Cent'),
-    '2-105': C('nur Zehnerzahlen dazu und weg; heute halb mit Einern gemischt'),
-    '2-106': C('nur Einer ohne Zehnerübergang, mit der kleinen Aufgabe daneben'),
-    '2-108': C('nur Plus bis 100, am leeren Rechenstrich'),
-    '2-109': C('nur Minus bis 100, am leeren Rechenstrich'),
-    '2-110': C('nur Plus, zuerst ohne Zehnerübergang, mit Zeilen für die Zwischenschritte'),
-    '2-111': C('nur Minus, zuerst ohne Zehnerübergang, mit Zeilen für die Zwischenschritte'),
+    '2-105': N('G1-558', 'gebaut: nur Zehnerzahlen, Stufe 3 mischt dazu und weg', 3),
+    '2-106': N('G1-559', 'gebaut: nur Einer ohne Zehnerübergang; die kleine Aufgabe (3 + 4 neben 23 + 4) schreibt die Lehrkraft an die Tafel', 3),
+    '2-108': N('G1-557', 'gebaut: nur Plus bis 100 mit einstelliger Zahl, erst bis zum nächsten Zehner (47 + 8 = 47 + 3 + 5), am Zahlenstrahl', 2),
+    '2-109': N('G1-556', 'gebaut: Stufe 3 ist Minus bis 100 mit einstelliger Zahl, erst zurück zum Zehner (53 − 6 = 53 − 3 − 3)', 3),
+    '2-110': N('G2-500', 'gebaut: nur Plus am Rechenstrich, Stufe 1 ohne Zehnerübergang, Stufe 2 und 3 mit; die Sprünge am Strich sind die Zwischenschritte', 2),
+    '2-111': N('G2-501', 'gebaut: nur Minus am Rechenstrich, Stufe 1 ohne Zehnerübergang, Stufe 2 und 3 mit; die Sprünge am Strich sind die Zwischenschritte', 2),
     '2-117': U('die 10er-Reihe mit den vorgemachten Kernaufgaben', 1),
     '2-118': U('die Reihenseiten 4er und 8er'),
     '2-119': U('die Reihenseiten 3er und 6er'),
@@ -132,16 +136,16 @@ module.exports = {
     '1-160': C('den lilla uppgiften bredvid den stora (3 + 4 och 13 + 4)'),
     '1-161': U('6 + 7 skrivet som 6 + 6 + 1'),
     '1-162': U('nivå 1 är bara addition över tio, första uppgiften är löst', 1),
-    '1-163': C('bara subtraktion (först ner till tian); i dag växlar plus och minus'),
+    '1-163': N('G1-556', 'byggd: bara subtraktion, först ner till tian', 2),
     '1-167': U('jämförelsehändelser med två bildrader', 2),
     '1-168': C('händelser där starten saknas finns inte i berättelsebanken'),
     '1-170': U('två räknehändelser med ruta för uträkning och svar', 2),
-    '1-172': C('20 till 60 lösa saker med flera tiotal att ringa in'),
+    '1-172': N('G1-560', 'byggd: 31 till 59 lösa ental, ringa in tiotal, skriv tiotal och ental (nivå 1: 21 till 39)', 2),
     '1-174': U('rita mynt som betalar priset exakt', 3),
-    '2-175': C('bara hela tiotal; i dag blandat med ental'),
+    '2-175': N('G1-558', 'byggd: bara hela tiotal, nivå 3 blandar plus och minus', 3),
     '2-176': U('sidan för lektionen: plus och minus i tur och ordning upp till 100', 3),
     '2-177': C('mall för mellanled: tiotal för sig, ental för sig'),
-    '2-178': C('bara subtraktion, med par av näraliggande tal (61 − 58)'),
+    '2-178': N('G2-501', 'byggd: bara subtraktion på tom tallinje, tiotalen först; talpar nära varandra (61 − 58) räknar klassen upp på tavlans tallinje', 2),
     '2-179': C('priser 12 till 95 kr som betalas med sedel; i dag mynt upp till 50 kr'),
     '2-181': B('tabell för uppskattning och uppmätt värde (meter och centimeter)'),
     '2-182': C('hela kilogram med 1-kilosvikter; i dag gram'),

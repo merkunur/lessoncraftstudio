@@ -3454,7 +3454,7 @@
   },
   "G1-439": {
     "title": "Prima fino alla decina",
-    "instruction": "Salta prima fino alla decina, poi salta il resto. Completa i riquadri."
+    "instruction": "Salta prima fino alla decina, poi fai un altro salto per il resto. Completa le caselle."
   },
   "G2-395": {
     "title": "Completa la linea dei numeri",
@@ -4760,5 +4760,37 @@
   "G1-554": {
     "title": "Colora i numeri dispari",
     "instruction": "Colora tutti i numeri dispari. Lascia bianchi i numeri pari."
+  },
+  "G1-556": {
+    "title": "Sottrazioni a cavallo della decina",
+    "instruction": "Salta prima indietro fino alla decina, poi fai un altro salto indietro per il resto. Completa le caselle."
+  },
+  "G1-557": {
+    "title": "Addizioni oltre la decina",
+    "instruction": "Salta prima fino alla decina successiva, poi fai un altro salto per il resto. Completa le caselle."
+  },
+  "G2-500": {
+    "title": "Addizioni sulla linea dei numeri vuota",
+    "instruction": "Disegna i tuoi salti sulla linea vuota. Scrivi il risultato."
+  },
+  "G2-501": {
+    "title": "Sottrazioni sulla linea dei numeri vuota",
+    "instruction": "Disegna i tuoi salti all’indietro sulla linea vuota. Scrivi il risultato."
+  },
+  "G1-558": {
+    "title": "Aggiungere e togliere decine",
+    "instruction": "Aggiungi o togli le decine a mente. Cambiano solo le decine. Scrivi il risultato nella casella."
+  },
+  "G1-559": {
+    "title": "Aggiungere e togliere unità",
+    "instruction": "Aggiungi o togli le unità a mente. Cambiano solo le unità. Scrivi il risultato nella casella."
+  },
+  "G1-560": {
+    "title": "Raggruppa per decine",
+    "instruction": "Cerchia gruppi di 10 unità. Scrivi quante decine ci sono e quante unità restano."
+  },
+  "K-627": {
+    "title": "Dieci e ancora un po’",
+    "instruction": "Cerchia 10. Scrivi quanti ce ne sono in più. Poi scrivi il numero."
   }
 }

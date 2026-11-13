@@ -193,6 +193,14 @@
   "K-623": "K:word-picture-match",
   "K-624": "K:word-picture-match",
   "K-625": "K:all-about-me-personal",
-  "K-626": "K:ordinal-position"
+  "K-626": "K:ordinal-position",
+  "G1-556": "1:fluency-within-20",
+  "G1-557": "1:fluency-within-20",
+  "G1-558": "1:mental-math-to-100",
+  "G1-559": "1:mental-math-to-100",
+  "G1-560": "2:bundle-ten-ones",
+  "G2-500": "1:open-number-line",
+  "G2-501": "1:open-number-line",
+  "K-627": "K:teen-numbers"
  }
 }

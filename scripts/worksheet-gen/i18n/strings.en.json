@@ -4801,5 +4801,41 @@
   "G1-554": {
     "title": "Color the Odd Numbers",
     "instruction": "Color every odd number. Leave the even numbers white."
+  },
+  "K-540": {
+    "title": "Syllable Family",
+    "instruction": "Read each syllable and the word of its picture."
+  },
+  "K-627": {
+    "title": "Ten and Some More",
+    "instruction": "Circle 10. Write how many more there are. Then write the number."
+  },
+  "G1-556": {
+    "title": "Subtract: Back to the Ten First",
+    "instruction": "Jump back to the ten first, then jump the rest. Fill in the boxes."
+  },
+  "G1-557": {
+    "title": "Jump Across the Next Ten",
+    "instruction": "Jump to the next ten first, then jump the rest. Fill in the boxes."
+  },
+  "G1-558": {
+    "title": "Add and Subtract Tens",
+    "instruction": "Add or take away tens in your head. Only the tens change. Write the answer in the box."
+  },
+  "G1-559": {
+    "title": "Add and Subtract Ones",
+    "instruction": "Add or take away ones in your head. Only the ones change. Write the answer in the box."
+  },
+  "G1-560": {
+    "title": "Bundle Ones into Tens",
+    "instruction": "Circle groups of 10 ones. Write how many tens and how many ones are left."
+  },
+  "G2-500": {
+    "title": "Add on the Open Number Line",
+    "instruction": "Draw your jumps on the empty line. Write the sum."
+  },
+  "G2-501": {
+    "title": "Subtract on the Open Number Line",
+    "instruction": "Draw your jumps back on the empty line. Write the answer."
   }
 }

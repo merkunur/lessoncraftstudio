@@ -3438,7 +3438,7 @@
   },
   "G1-439": {
     "title": "Först till tiotalet",
-    "instruction": "Hoppa först till jämna tiotalet och sedan resten. Fyll i rutorna."
+    "instruction": "Hoppa först till det hela tiotalet och sedan resten. Fyll i rutorna."
   },
   "G2-395": {
     "title": "Fyll i tallinjen",
@@ -4728,5 +4728,37 @@
   "G1-554": {
     "title": "Måla de udda talen",
     "instruction": "Måla alla udda tal. Låt de jämna talen vara vita."
+  },
+  "G1-556": {
+    "title": "Subtraktion med tiotalsövergång på tallinjen",
+    "instruction": "Hoppa först bakåt till det hela tiotalet och sedan resten. Fyll i rutorna."
+  },
+  "G1-557": {
+    "title": "Addition med tiotalsövergång på tallinjen",
+    "instruction": "Hoppa först till nästa hela tiotal och sedan resten. Fyll i rutorna."
+  },
+  "G2-500": {
+    "title": "Addition på den tomma tallinjen",
+    "instruction": "Rita dina hopp på den tomma linjen. Skriv svaret."
+  },
+  "G2-501": {
+    "title": "Subtraktion på den tomma tallinjen",
+    "instruction": "Rita dina hopp bakåt på den tomma linjen. Skriv svaret."
+  },
+  "G1-558": {
+    "title": "Addera och subtrahera hela tiotal",
+    "instruction": "Lägg till eller ta bort hela tiotal i huvudet. Bara tiotalen ändras. Skriv svaret i rutan."
+  },
+  "G1-559": {
+    "title": "Addera och subtrahera ental",
+    "instruction": "Lägg till eller ta bort ental i huvudet. Bara entalen ändras. Skriv svaret i rutan."
+  },
+  "G1-560": {
+    "title": "Bunta tiotal",
+    "instruction": "Ringa in grupper om 10 ental. Skriv hur många tiotal det är och hur många ental som blir över."
+  },
+  "K-627": {
+    "title": "Tio och några till",
+    "instruction": "Ringa in 10. Skriv hur många till det är. Skriv sedan talet."
   }
 }

@@ -4754,5 +4754,37 @@
   "G1-554": {
     "title": "Farvelæg de ulige tal",
     "instruction": "Farvelæg alle ulige tal. Lad de lige tal være hvide."
+  },
+  "G1-556": {
+    "title": "Minus over tieren",
+    "instruction": "Hop først tilbage til den hele tier og derefter resten. Udfyld felterne."
+  },
+  "G1-557": {
+    "title": "Plus over den næste tier",
+    "instruction": "Hop først til den næste hele tier og derefter resten. Udfyld felterne."
+  },
+  "G2-500": {
+    "title": "Plus på den tomme tallinje",
+    "instruction": "Tegn dine hop på den tomme tallinje. Skriv svaret."
+  },
+  "G2-501": {
+    "title": "Minus på den tomme tallinje",
+    "instruction": "Tegn dine hop tilbage på den tomme tallinje. Skriv svaret."
+  },
+  "G1-558": {
+    "title": "Læg tiere til og træk tiere fra",
+    "instruction": "Læg tiere til eller træk tiere fra i hovedet. Kun tierne ændrer sig. Skriv resultatet i feltet."
+  },
+  "G1-559": {
+    "title": "Læg enere til og træk enere fra",
+    "instruction": "Læg enere til eller træk enere fra i hovedet. Kun enerne ændrer sig. Skriv resultatet i feltet."
+  },
+  "G1-560": {
+    "title": "Bundt tiere",
+    "instruction": "Sæt ring om grupper med 10 enere. Skriv, hvor mange tiere der er, og hvor mange enere der er tilbage."
+  },
+  "K-627": {
+    "title": "Ti og nogle til",
+    "instruction": "Sæt ring om 10. Skriv, hvor mange der er tilbage. Skriv så tallet."
   }
 }

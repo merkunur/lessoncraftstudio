@@ -4773,5 +4773,37 @@
   "G1-554": {
     "title": "Fargelegg oddetallene",
     "instruction": "Fargelegg alle oddetallene. La partallene være hvite."
+  },
+  "G1-556": {
+    "title": "Minus over tieren",
+    "instruction": "Hopp først tilbake til hel tier og så resten. Fyll ut rutene."
+  },
+  "G1-557": {
+    "title": "Pluss over neste tier",
+    "instruction": "Hopp først til neste hele tier og så resten. Fyll ut rutene."
+  },
+  "G2-500": {
+    "title": "Pluss på den tomme tallinjen",
+    "instruction": "Tegn hoppene dine på den tomme tallinjen. Skriv svaret."
+  },
+  "G2-501": {
+    "title": "Minus på den tomme tallinjen",
+    "instruction": "Tegn hoppene dine bakover på den tomme tallinjen. Skriv svaret."
+  },
+  "G1-558": {
+    "title": "Legg til og trekk fra hele tiere",
+    "instruction": "Legg til eller trekk fra hele tiere i hodet. Bare tierne endrer seg. Skriv svaret i ruten."
+  },
+  "G1-559": {
+    "title": "Legg til og trekk fra enere",
+    "instruction": "Legg til eller trekk fra enere i hodet. Bare enerne endrer seg. Skriv svaret i ruten."
+  },
+  "G1-560": {
+    "title": "Bunt tiere",
+    "instruction": "Sett ring rundt grupper med 10 enere. Skriv hvor mange tiere det er, og hvor mange enere som er igjen."
+  },
+  "K-627": {
+    "title": "Ti og noen til",
+    "instruction": "Sett ring rundt 10. Skriv hvor mange som er igjen. Skriv så tallet."
   }
 }

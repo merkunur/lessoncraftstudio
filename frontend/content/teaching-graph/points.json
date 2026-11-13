@@ -917,9 +917,11 @@
    "skill": "Teen numbers as ten ones and some more ones (two ten-frames: 13 = 10 + 3)",
    "code": "K.NBT.A.1",
    "types": [
-    "K-448"
+    "K-448",
+    "K-627"
    ],
    "families": [
+    "base-ten",
     "counting-frames"
    ],
    "activities": [],
@@ -1705,6 +1707,8 @@
     "G1-541",
     "G1-543",
     "G1-545",
+    "G1-556",
+    "G1-557",
     "K-607"
    ],
    "families": [
@@ -2105,7 +2109,9 @@
    "skill": "Add and subtract on an empty number line: the child draws the jumps (tens, then ones; to the ten, then the rest)",
    "code": "1.NBT.C.4 / 2.NBT.B.5 / 2.NBT.B.7",
    "types": [
-    "G1-438"
+    "G1-438",
+    "G2-500",
+    "G2-501"
    ],
    "families": [
     "number-lines"
@@ -2128,7 +2134,9 @@
    "skill": "Add and subtract tens and ones in the head, without columns (34 + 20, 56 − 4; crossing a ten at the top level)",
    "code": "1.NBT.C.4 / 1.NBT.C.6 / 2.NBT.B.5",
    "types": [
-    "G1-446"
+    "G1-446",
+    "G1-558",
+    "G1-559"
    ],
    "families": [
     "mental-math"
@@ -2172,6 +2180,7 @@
    "skill": "Bundle 10 ones into a ten and read tens and ones",
    "code": "1.NBT.B.2.a",
    "types": [
+    "G1-560",
     "G2-206",
     "G2-404"
    ],

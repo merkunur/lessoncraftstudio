@@ -108,7 +108,7 @@ function makeAddSubMoreType(cfg) {
     assetClass: themed ? 'icon-placement' : 'numeral-charts',
     exerciseType: themed ? 'picture-arithmetic' : mode === 'digit' ? 'column-arithmetic' : 'mental-math',
     themeAxis: themed ? { applicable: true, minNouns: 4 } : { applicable: false },
-    difficulty: LEVELS[mode],
+    difficulty: cfg.levels || LEVELS[mode],   // a face brings its own levels (Year pages D, 2026-11-13)
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
 
@@ -250,10 +250,12 @@ function makeAddSubMoreType(cfg) {
         const used = new Set();
         const ps = [];
         for (let t = 0; ps.length < d.cards && t < 4000; t++) {
-          const op = ps.length % 2 ? '-' : '+';
+          // a level may ask ONE operation (d.ops) and only tens or only ones (d.part); without them: + and − in turn,
+          // two cards of tens, two of ones (the first type's page, unchanged)
+          const op = d.ops ? d.ops[ps.length % d.ops.length] : (ps.length % 2 ? '-' : '+');
           let a, b;
           if (d.kind === 'tens-or-ones') {
-            const tens = ps.length % 4 < 2;
+            const tens = d.part ? d.part === 'tens' : ps.length % 4 < 2;
             a = rng.int(11, 89);
             if (op === '+') b = tens ? rng.int(1, Math.floor((99 - a) / 10)) * 10 : rng.int(1, 9 - (a % 10));
             else b = tens ? rng.int(1, Math.floor(a / 10) - 1) * 10 : rng.int(1, a % 10);

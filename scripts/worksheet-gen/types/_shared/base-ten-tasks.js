@@ -34,6 +34,9 @@ const MODE_LEVELS = {
 };
 const { answerBox } = require('../../templates/components.js');
 
+// the two small pictures of a frame without words (Year pages D): a ten rod and one unit cube, drawn at the middle of the line
+const TEN_ICON = `<svg width="12" height="62" viewBox="0 0 12 62" data-lcs-frame-icon="ten" role="img" aria-label="ten"><rect x="1.5" y="1.5" width="9" height="59" rx="2" fill="#DDEBE8" stroke="#146B5E" stroke-width="2"/>${[1, 2, 3, 4, 5, 6, 7, 8, 9].map((k) => `<line x1="1.5" x2="10.5" y1="${1.5 + k * 5.9}" y2="${1.5 + k * 5.9}" stroke="#146B5E" stroke-width="1"/>`).join('')}</svg>`;
+const ONE_ICON = `<svg width="16" height="16" viewBox="0 0 16 16" data-lcs-frame-icon="one" role="img" aria-label="one"><rect x="1.5" y="1.5" width="13" height="13" rx="2.5" fill="#FBE3D8" stroke="#F2784B" stroke-width="2"/></svg>`;
 const NUM = (v, size) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:${size || 30}px;color:#3A3530" data-lcs-num="${v}">${v}</span>`;
 const OP = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E">${ch}</span>`;
 
@@ -67,6 +70,8 @@ function makeBaseTenType(cfg) {
       // the row fits 600 px; six or fewer keep the published size (the catalogue is unchanged)
       const fitUnit = (h, t, o, u) => (h <= 6 ? u : Math.min(u, Math.floor((600 - 8 - Math.ceil(o / 5) * 6) / (h * 11.2 + t * 2.2 + Math.ceil(o / 5)))));
       const draw = (h, t, o, unit) => baseTenBlocks({ h, t, o, unit: fitUnit(h, t, o, unit || d.unit) }).svg;
+      // the loose ones of a bundling face: as big as the number of columns allows (a Kindergarten child rings ten of them)
+      const pile = (o) => { const cols = Math.ceil(o / 5); return baseTenBlocks({ o, pile: true, unit: cols <= 4 ? 23 : cols <= 8 ? 21 : cols <= 12 ? 19 : 17 }).svg; };
       // the place-value chart, NEW copies (2026-11-01; the published page, level 2 copy 1, keeps its draw): the digits of
       // each place differ from row to row where the range allows — hundreds of 1-4 on four rows let "write the row's
       // number" score 24 % (settings-space)
@@ -139,9 +144,19 @@ function makeBaseTenType(cfg) {
             `<span data-lcs-part="b">${draw(0, t2, o2, 9)}</span>` + OP('=') +
             answerBox({ w: 84, h: 56, answer: r }) + `</div>`;
         } else if (mode === 'regroup') {
-          const o = rng.int(L.lo, L.hi);
+          let o = rng.int(L.lo, L.hi);
+          // a face with its own levels (Year pages D): no number twice on a page, and never a full ten where ones are asked
+          if (cfg.levels) { for (let t = 0; t < 60 && (used.has(o) || (L.frame !== 'teen' && o % 10 === 0)); t++) o = rng.int(L.lo, L.hi); used.add(o); }
           const bundles = Math.floor(o / 10);
-          stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:8px 14px" data-lcs-ones="${o}">` +
+          const range = cfg.levels ? ` data-lcs-lo="${L.lo}" data-lcs-hi="${L.hi}"` : '';
+          // the frame of a face: Kindergarten (K.NBT.A.1) writes 10 + □ = □; Grade 1 writes how many under a drawn ten
+          // rod and a drawn unit cube (no word and no times sign: language-free, and Grade 1 has no times sign)
+          const frame = L.frame === 'teen' ? NUM(10) + OP('+') + answerBox({ w: 54, h: 50, answer: o - 10 }) + OP('=') + answerBox({ w: 64, h: 50, answer: o })
+            : L.frame === 'icons' ? answerBox({ w: 54, h: 50, answer: bundles }) + TEN_ICON + answerBox({ w: 54, h: 50, answer: o - bundles * 10 }) + ONE_ICON : null;
+          if (frame) stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:8px 14px" data-lcs-ones="${o}"${L.frame === 'teen' ? ' data-lcs-teen="1"' : ''}${range}>` +
+            pile(o) + `<span style="display:inline-flex;align-items:center;gap:8px">` + frame + `</span></div>`;
+          else
+          stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:8px 14px" data-lcs-ones="${o}"${range}>` +
             draw(0, 0, o) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             answerBox({ w: 54, h: 50, answer: bundles }) +
@@ -275,9 +290,11 @@ function makeBaseTenType(cfg) {
           } else if (mode === 'regroup') {
             const o = +card.querySelector('[data-lcs-ones]').dataset.lcsOnes;
             const c = census(card.querySelector('[data-lcs-prim="base-ten"]'));
-            if (c.o !== o || o < 11 || o > 19) fails.push(`row ${i + 1}: ones ${c.o} (declared ${o})`);
+            const el = card.querySelector('[data-lcs-ones]');
+            const lo = +(el.dataset.lcsLo || 11), hi = +(el.dataset.lcsHi || 19);   // a face with its own levels says its range
+            if (c.o !== o || o < lo || o > hi) fails.push(`row ${i + 1}: ones ${c.o} (declared ${o}, range ${lo}-${hi})`);
             const boxes = [...card.querySelectorAll('[data-lcs-answer]')].map((b) => +b.dataset.lcsAnswer);
-            if (boxes[0] !== Math.floor(o / 10) || boxes[1] !== o % 10) fails.push(`row ${i + 1}: regroup boxes wrong`);
+            if (el.dataset.lcsTeen ? (boxes[0] !== o - 10 || boxes[1] !== o) : (boxes[0] !== Math.floor(o / 10) || boxes[1] !== o % 10)) fails.push(`row ${i + 1}: regroup boxes wrong`);
           } else if (mode === 'expanded') {
             const st = card.querySelector('[data-lcs-value]');
             const h = +st.dataset.lcsH, t = +st.dataset.lcsT, o = +st.dataset.lcsO;

@@ -3463,7 +3463,7 @@
   },
   "G1-439": {
     "title": "Primero hasta la decena",
-    "instruction": "Salta primero hasta la decena completa y luego salta lo que falta. Completa los cuadros."
+    "instruction": "Salta primero hasta la decena completa y luego da otro salto con lo que falta. Completa los cuadros."
   },
   "G2-395": {
     "title": "Completa la recta numérica",
@@ -4773,5 +4773,37 @@
   "G1-554": {
     "title": "Colorea los números impares",
     "instruction": "Colorea todos los números impares. Deja los pares en blanco."
+  },
+  "G1-556": {
+    "title": "Restar pasando por la decena",
+    "instruction": "Salta primero hacia atrás hasta la decena y luego da otro salto con lo que falta. Completa los recuadros."
+  },
+  "G1-557": {
+    "title": "Sumar pasando por la decena",
+    "instruction": "Salta primero hasta la siguiente decena y luego da otro salto con lo que falta. Completa los recuadros."
+  },
+  "G2-500": {
+    "title": "Sumar en la recta numérica vacía",
+    "instruction": "Dibuja tus saltos en la recta vacía. Escribe el resultado."
+  },
+  "G2-501": {
+    "title": "Restar en la recta numérica vacía",
+    "instruction": "Dibuja tus saltos hacia atrás en la recta vacía. Escribe el resultado."
+  },
+  "G1-558": {
+    "title": "Sumar y restar decenas",
+    "instruction": "Suma o resta decenas mentalmente. Solo cambian las decenas. Escribe el resultado en el recuadro."
+  },
+  "G1-559": {
+    "title": "Sumar y restar unidades",
+    "instruction": "Suma o resta unidades mentalmente. Solo cambian las unidades. Escribe el resultado en el recuadro."
+  },
+  "G1-560": {
+    "title": "Agrupa de diez en diez",
+    "instruction": "Encierra grupos de 10 unidades. Escribe cuántas decenas hay y cuántas unidades sobran."
+  },
+  "K-627": {
+    "title": "Diez y algunos más",
+    "instruction": "Encierra 10. Escribe cuántos quedan fuera. Luego escribe el número."
   }
 }

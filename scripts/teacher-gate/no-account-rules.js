@@ -117,6 +117,7 @@ module.exports = {
     [/ Utan inloggning\.(?="|$)/, ''],
   ],
   da: [
+    [/Ingen konto, ingen tidtagning/, 'Ingen tidtagning'],
     [/spilles online med det samme – helt uden betaling og uden oprettelse\./, 'spilles online – helt uden betaling.'],
     [/Tilpasset Fælles Mål\. Ingen tilmelding\./, 'Tilpasset Fælles Mål.'],
     [/klasseværelser — ingen tilmelding\./, 'klasseværelser.'],
@@ -180,6 +181,7 @@ module.exports = {
     [/ Uten innlogging\.(?="|$)/, ''],
   ],
   fi: [
+    [/Ei tiliä eikä pisteitä/, 'Ei pisteitä'],
     [/Tiliä tai kirjautumista ei tarvita, eikä mitään tarvitse asentaa\./, 'Mitään ei tarvitse asentaa.'],
     [/Kirjautumista ei tarvita, ja sivu avautuu/, 'Sivu avautuu'],
     [/Ilmaiseksi, ei rekisteröitymistä, 11 kielellä\./, 'Ilmaiseksi, 11 kielellä.'],
@@ -245,6 +247,9 @@ module.exports = {
     [/ — sans inscription\.$/, '.'],
   ],
   it: [
+    [/L'attività è senza registrazione, direttamente nel browser/, 'L\'attività si gioca direttamente nel browser'],
+    [/Si gioca senza registrazione, si gioca nel browser/, 'Si gioca nel browser'],
+    [/È: nessuna registrazione, nessun punteggio/, 'È: nessun punteggio'],
     [/, non serve registrarsi, non serve preparare/, ', non serve preparare'],
     [/è gratuito per sempre e non richiede registrazione: basta aprire/, 'è gratuito per sempre: con un account gratuito basta aprire'],
     [/è gratuito per sempre e non richiede registrazione:/, 'è gratuito per sempre:'],
@@ -289,6 +294,9 @@ module.exports = {
     [/ Senza login\.(?="|$)/, ''],
   ],
   pt: [
+    [/online sem cadastro, da unidade/, 'online, da unidade'],
+    [/ Atividade sem cadastro\./, ''],
+    [/De graça, sem cadastro e sem cronômetro\./, 'Sem cronômetro.'],
     [/atividade não pede cadastro(?: nem login)? e não tem cronômetro/, 'atividade não tem cronômetro'],
     [/atividade não pede cadastro nem login\. Não tem/, 'atividade não tem'],
     [/ou faça online sem precisar se cadastrar\./, 'ou faça online.'],
@@ -366,3 +374,61 @@ module.exports = {
     [/ Sin registro\.(?="|$)/, ''],
   ],
 };
+
+/* ------------------------------------------------------------------------------------------------------------------
+ * GENERAL rules, after the specific ones of each language: the activity descriptions (mini tools/*-activities.json)
+ * are free prose ("Actividad interactiva, sin registro, alineada a la SEP"; "Un’attività senza registrazione e senza
+ * timer"; "Sem cadastro. BNCC, 1º ano."), 451 sentences in which the claim stands as one item of a list, as a short
+ * sentence of its own, after a noun or at the start of a sentence. Each shape has one rule; a sentence that starts
+ * with the claim keeps its capital on the word that follows.
+ * P: the claim as the descriptions word it · AND: the language's "and" (the first one is written back into a list of
+ * three that loses its last item) · W: its "without".
+ * ---------------------------------------------------------------------------------------------------------------- */
+const G = {
+  en: { P: 'no (?:account|sign-up|signup|login)(?: needed| required)?', AND: 'and', W: 'no' },
+  de: { P: '(?:ganz )?ohne (?:Anmeldung|Registrierung|Konto|Login)', AND: 'und', W: 'ohne' },
+  nl: { P: 'zonder (?:account|registratie|inloggen|aanmelden)', AND: 'en', W: 'zonder' },
+  es: { P: 'sin (?:registro|registrarse|registrarte|cuenta|crear cuenta)', AND: 'y|ni', W: 'sin' },
+  fr: { P: 'sans (?:inscription|compte à créer|compte|créer de compte)', AND: 'et|ni', W: 'sans' },
+  pt: { P: 'sem (?:cadastro|login|conta|criar conta)', AND: 'e|nem', W: 'sem' },
+  it: { P: 'senza (?:registrazione|login|account)', AND: 'e|né', W: 'senza' },
+  sv: { P: 'utan (?:konto|inloggning)', AND: 'och', W: 'utan' },
+  da: { P: 'uden (?:konto|login)', AND: 'og', W: 'uden' },
+  no: { P: 'uten (?:konto|innlogging)', AND: 'og', W: 'uten' },
+  fi: { P: 'ilman (?:kirjautumista|tiliä)', AND: 'ja', W: 'ilman' },
+};
+const START = '(^|[.!?…»”")] )';                       // a sentence starts here
+const END = '(?=[,.:;!?)]|$| [–—(])';                   // the item ends here
+const up = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const isUp = (s) => s.charAt(0) !== s.charAt(0).toLowerCase();
+function general({ P, AND, W }) {
+  const and0 = AND.split('|')[0];
+  const item = '(?:' + W + ') [^,.;:!?()]{2,34}';
+  return [
+    // "sans minuteur, sans score et sans compte" → "sans minuteur et sans score"
+    [new RegExp('(' + item + '), (' + item + ') (?:' + AND + ') (?:' + P + ')' + END, 'i'), '$1 ' + and0 + ' $2'],
+    // "senza registrazione e senza timer" → "senza timer" (the capital stays at a sentence start)
+    [new RegExp('(' + P + ') (?:' + AND + ') ((?:' + W + ') )', 'i'), (m, p, w) => (isUp(p) ? up(w) : w)],
+    // "Sin registro ni calificación" → "Sin calificación"
+    [new RegExp('(' + W + ') (?:' + P.replace(new RegExp('^' + W + ' '), '').replace(new RegExp('^\\(\\?:ganz \\)\\?' + W + ' '), '') + ') (?:ni|né|nem) (?=\\p{L})', 'iu'), '$1 '],
+    // "…, interactiva y sin registro, …" · "online e senza registrazione." → the item goes
+    [new RegExp(',? (?:' + AND + ') (?:' + P + ')' + END, 'i'), ''],
+    [new RegExp(' (?:' + AND + ') (?:' + P + ')(?= \\p{L})', 'iu'), ''],
+    // after a colon or semicolon: "contexto: sin registro y alineada" → "contexto: alineada"
+    [new RegExp('([:;] )(?:' + P + ')(?:,| (?:' + AND + ')) ', 'i'), '$1'],
+    // at the start of a sentence: "Sin registro, alineada a la SEP" · "Sin registro y alineada" → "Alineada …"
+    [new RegExp(START + '(?:' + P + ')(?:,| (?:' + AND + ')) (\\p{L})', 'iu'), (m, pre, ch) => pre + ch.toUpperCase()],
+    // a sentence of its own: "… el conejo. Sin registro. 1.º de primaria" → "… el conejo. 1.º de primaria"
+    [new RegExp(START + '(?:' + P + ')\\.(?: |$)', 'i'), '$1'],
+    // an item of a list: "Actividad interactiva, sin registro, alineada" · "…, sin registro." · "…, sin registro (SEP)"
+    [new RegExp(', (?:' + P + ')' + END, 'i'), ''],
+    // after a noun: "un’attività senza registrazione, allineata" → "un’attività allineata" · "Juego sin registro, para" → "Juego para"
+    [new RegExp(' (?:' + P + '), (?=\\p{L})', 'iu'), ' '],
+    // the first of two items: ", zonder account en direct in de browser" → ", direct in de browser"
+    [new RegExp(', (?:' + P + ') (?:' + AND + ') (?=\\p{L})', 'iu'), ', '],
+    [new RegExp(' (?:' + P + ') (?:' + AND + ') (?=\\p{L})', 'iu'), ' '],
+    // … and before the end of its sentence or a phrase that goes on: "Actividad en línea sin registro." · "… sin registro para 2.º"
+    [new RegExp(' (?:' + P + ')(?=[.:;!?)]|$| [–—(]| \\p{L})', 'iu'), ''],
+  ];
+}
+for (const [loc, g] of Object.entries(G)) module.exports[loc] = (module.exports[loc] || []).concat(general(g));

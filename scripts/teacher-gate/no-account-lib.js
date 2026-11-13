@@ -50,6 +50,12 @@ function collect(locs = LOCALES) {
     let j; try { j = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { continue; }
     leaves(j, (k, v) => { if (matches(loc, v).length) found.push({ file: rel(file), key: k, loc, text: v, cls: classOf(rel(file), k) }); });
   }
+  // 3. the activity manifests (mini tools/*-activities.json): a text is an object keyed by language (page_intro.da)
+  const MT = path.join(FRONT, '..', 'mini tools');
+  for (const name of fs.existsSync(MT) ? fs.readdirSync(MT).filter((n) => /-activities\.json$/.test(n)) : []) {
+    let j; try { j = JSON.parse(fs.readFileSync(path.join(MT, name), 'utf8')); } catch (e) { continue; }
+    leaves(j, (k, v) => { const loc = k.split('.').pop(); if (locs.includes(loc) && matches(loc, v).length) found.push({ file: '../mini tools/' + name, key: k, loc, text: v, cls: classOf('../mini tools/' + name, k) }); });
+  }
   return found;
 }
 module.exports = { RX, KEEP, LOCALES, FRONT, matches, classOf, collect, localeFiles, codeFiles, leaves, rel };

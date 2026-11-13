@@ -24,7 +24,9 @@ const PER = Number(arg('per', '3'));
 // around it is looked up in those sentences (their numbers and names are filled in on the page, so a short window)
 const norm = (t) => t.replace(/\s+/g, ' ').toLowerCase();
 const TRUE = {}; for (const h of collect(LOCS).filter((x) => x.cls === 'true')) (TRUE[h.loc] = TRUE[h.loc] || []).push(norm(h.text));
-const keepText = (loc, text, m) => { const w = norm(text.slice(Math.max(0, m.index - 14), m.index + m[0].length + 6)); return (TRUE[loc] || []).some((t) => t.includes(w)); };
+// (the window is the wording with the two whole words before it, cut after a number: the page prints "all 21 worksheets"
+// where the file holds "all {count} worksheets"; nothing after it, where the page's next sentence begins)
+const keepText = (loc, text, m) => { const words = text.slice(Math.max(0, m.index - 24), m.index).replace(/^.*[\d)]/, '').split(' ').filter(Boolean); const w = norm(words.slice(1).slice(-2).concat(m[0]).join(' ')); return (TRUE[loc] || []).some((t) => t.includes(w)); };
 const qa = (() => { try { return require('../lib/qa-header.js'); } catch (e) { return null; } })();
 const headers = Object.assign({ 'user-agent': 'lcs-qa/1.0' }, qa ? qa.headers() : {});
 const get = async (u) => { for (let t = 0; t < 3; t++) { try { const r = await fetch(u, { headers, redirect: 'follow' }); if (r.status === 429) { await new Promise((z) => setTimeout(z, 4000)); continue; } return { status: r.status, html: r.status === 200 ? await r.text() : '' }; } catch (e) { await new Promise((z) => setTimeout(z, 1500)); } } return { status: 0, html: '' }; };

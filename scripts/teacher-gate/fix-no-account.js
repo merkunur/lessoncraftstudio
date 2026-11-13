@@ -24,7 +24,12 @@ const WRITE = process.argv.includes('--write');
 const compiled = {};
 for (const loc of LOCS) compiled[loc] = (RULES[loc] || []).map(([re, to]) => [new RegExp(re instanceof RegExp ? re.source : re, 'gu' + (re instanceof RegExp && re.flags.includes('i') ? 'i' : '')), to]);
 /** the sentence after the rules of its language */
-const fix = (loc, text) => { let t = text; for (const [re, to] of compiled[loc]) t = t.replace(re, to); return t; };
+const fix = (loc, text) => {
+  let t = text;
+  for (let pass = 0; pass < 3; pass++) { const was = t; for (const [re, to] of compiled[loc]) t = t.replace(re, to); if (t === was) break; }
+  // what a cut can leave behind: two spaces, a space before a full stop, a space at the end
+  return t === text ? t : t.replace(/ {2,}/g, ' ').replace(/ ([.,;:!?])/g, '$1').replace(/ +$/, '');
+};
 
 const pairs = [], left = [];
 const open = L.collect(LOCS).filter((h) => h.cls === 'open');

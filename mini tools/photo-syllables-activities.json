@@ -215,7 +215,7 @@
       "fr": "Phonologie GS – former des mots en syllabes en ligne"
     },
     "page_intro": {
-      "fr": "Phonologie en grande section : écouter chaque syllabe puis former le mot entier, avec des images. En ligne, sans inscription."
+      "fr": "Phonologie en grande section: écouter chaque syllabe puis former le mot entier, avec des images. En ligne."
     },
     "kid_prompt_template": "promptBuildSyllables"
   }

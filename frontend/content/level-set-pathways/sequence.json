@@ -6,6 +6,9 @@
       "types": [
         "number-tracing",
         "dot-to-dot",
+        "counting-pictures",
+        "counting-frames",
+        "comparing-numbers",
         "number-words",
         "ordinal-numbers"
       ]
@@ -13,6 +16,7 @@
     {
       "strand": "Operations & Algebraic Thinking",
       "types": [
+        "picture-arithmetic",
         "number-bonds",
         "word-problems",
         "doubles-halves",
@@ -31,6 +35,7 @@
         "number-of-the-day",
         "number-charts",
         "hundreds-chart-puzzles",
+        "base-ten",
         "number-lines",
         "column-arithmetic",
         "rounding"
@@ -67,6 +72,7 @@
       "strand": "Handwriting",
       "types": [
         "pre-writing",
+        "picture-tracing",
         "letter-tracing",
         "word-tracing",
         "cursive-writing"
@@ -138,6 +144,8 @@
     {
       "strand": "Visual Perception",
       "types": [
+        "position-words",
+        "grid-copy",
         "maze-puzzles",
         "find-the-differences"
       ]

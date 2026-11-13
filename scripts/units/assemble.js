@@ -156,13 +156,16 @@ function assemble(loc, opt = {}) {
         paper.push(row);
       }
       for (const a of paper) if (paper.some((b) => b !== a && b.title === a.title)) { bad(lw + ': two worksheets carry the title "' + a.title + '" (give one a label of its own: `titles` in the definition)'); break; }
-      // exit ticket: one more core page of the lesson's first type that the lesson has not handed out
+      // exit ticket: one more core page of the lesson's first type that the lesson has not handed out; a lesson whose
+      // LAST worksheet is its aim names it (`exitType`: the open number houses after the half-filled ones)
       let exit = null;
+      if (L.exitType && !paper.some((r) => r.type === L.exitType)) bad(lw + ': exitType ' + L.exitType + ' is not a worksheet of the lesson');
       if (paper.length) {
-        const pg = pages.get(paper[0].type);
+        const xr = (L.exitType && paper.find((r) => r.type === L.exitType)) || paper[0];
+        const pg = pages.get(xr.type);
         // one more page of the SAME level as the lesson's core page
-        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[paper[0].level || 2]].find((y) => !usedPages.has(y.slug));
-        if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: paper[0].title }; }
+        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[xr.level || 2]].find((y) => !usedPages.has(y.slug));
+        if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: xr.title }; }
       }
       // the tool on the projector: the unit's choice, else the first tool that models this point
       const toolKey = L.tool === null ? null : (L.tool || Object.keys(toolPoints).find((k) => (toolPoints[k].points || []).includes(L.point)) || null);

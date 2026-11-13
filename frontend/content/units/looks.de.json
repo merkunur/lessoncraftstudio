@@ -19,22 +19,22 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-1",
-    "title": "Mathe Klasse 1: Stoffverteilung für 25 Wochen",
-    "src": "/teaching-looks/de/g1-plan.027423ec.webp",
+    "title": "Mathe Klasse 1: Stoffverteilung für 27 Wochen",
+    "src": "/teaching-looks/de/g1-plan.c0941b47.webp",
     "width": 640,
     "height": 906
    },
    "check": {
     "slug": "zahlen-bis-10-klasse-1",
     "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
-    "src": "/teaching-looks/de/g1-check.742b4e12.webp",
+    "src": "/teaching-looks/de/g1-check.1979f363.webp",
     "width": 640,
     "height": 906
    },
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.9484bc63.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.770df6b3.webp",
     "width": 640,
     "height": 828
    }
@@ -71,7 +71,7 @@
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.9484bc63.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.770df6b3.webp",
     "width": 640,
     "height": 828
    }
@@ -108,7 +108,7 @@
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.9484bc63.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.770df6b3.webp",
     "width": 640,
     "height": 828
    }

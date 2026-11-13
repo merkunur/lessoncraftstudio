@@ -1964,6 +1964,15 @@
     "words": "Säg: ”Sätt ut starttalet längst till höger. Hoppa bakåt med tiotalen först: 72, 62, 52, 42. Sedan entalen.” Fråga: ”Var landade du efter varje hopp? Skriv talet under linjen.” När bladet är klart: visa 61 − 58 på tavlan (finns inte på bladet) och säg: ”Från 58 till 61 är det bara 3.”",
     "watch": "Se vilka som delar upp entalshoppet vid tiotalet, 42 − 2 − 3, och vilka som räknar ner ett steg i taget. Kontrollera att hoppen tillsammans blir det tal som ska tas bort."
    }
+  },
+  "1:fluency-within-20#samma-ental-en-tia-till": {
+   "title": "Samma ental, en tia till: 3 + 4 och 13 + 4",
+   "objective": "Eleverna adderar ental till och subtraherar ental från tal mellan 11 och 19 utan tiotalsövergång, som 13 + 4 och 17 − 5, genom att använda det de kan om 3 + 4 och 7 − 5.",
+   "note": {
+    "mistake": "Många elever räknar den stora uppgiften från början och räknar upp ett steg i taget från 13 i stället för att använda den lilla uppgiften. I subtraktion räknar en del bara den lilla uppgiften och glömmer tian i svaret (17 − 5 = 2).",
+    "words": "Visa båda uppgifterna på kulramen eller med brickor i två tioramar: ”Här är en hel tia. Den rör vi inte. Under den räknar vi 3 + 4.” Fråga: ”Vad är lika i den stora uppgiften? Vad är olika?” Säg: ”Den lilla uppgiften hjälper den stora. Entalen är desamma, och tian är med hela tiden.”",
+    "watch": "Se vem som skriver det stora svaret direkt efter det lilla och vem som räknar om. Det lättare bladet har bara addition: börja där. Bladet för alla har bara subtraktion, och det svårare blandar båda."
+   }
   }
  }
 }

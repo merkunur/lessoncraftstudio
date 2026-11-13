@@ -1023,6 +1023,11 @@
        "hard": "hundraruta-svar-insekter-och-kryp-k020"
       }
      ],
+     "tool": {
+      "key": "choral-counting",
+      "slug": "rakna-i-kor",
+      "name": "Räkna i kör"
+     },
      "screen": {
       "kind": "activity",
       "id": "choice-board.next-number.k-cc-a-2",
@@ -3964,12 +3969,57 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–20 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 5 lektioner om dubblor, tiotalsövergång, talfamiljer och likhetstecknet, med lärarkommentar.",
-   "days": 16,
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 6 lektioner om samma ental med en tia till, dubblor, tiotalsövergång och talfamiljer.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
+     "point": "1:fluency-within-20",
+     "title": "Samma ental, en tia till: 3 + 4 och 13 + 4",
+     "objective": "Eleverna adderar ental till och subtraherar ental från tal mellan 11 och 19 utan tiotalsövergång, som 13 + 4 och 17 − 5, genom att använda det de kan om 3 + 4 och 7 − 5.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Taluppfattning och tals användning"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-561",
+       "title": "Liten uppgift, stor uppgift",
+       "core": "huvudrakning-g1561",
+       "easy": "huvudrakning-latt-g1561-6",
+       "hard": "huvudrakning-svar-g1561-11"
+      }
+     ],
+     "id": "1:fluency-within-20#samma-ental-en-tia-till",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "kulram",
+      "name": "Kulram"
+     },
+     "exit": {
+      "slug": "huvudrakning-g1561-2",
+      "title": "Liten uppgift, stor uppgift"
+     },
+     "note": {
+      "mistake": "Många elever räknar den stora uppgiften från början och räknar upp ett steg i taget från 13 i stället för att använda den lilla uppgiften. I subtraktion räknar en del bara den lilla uppgiften och glömmer tian i svaret (17 − 5 = 2).",
+      "words": "Visa båda uppgifterna på kulramen eller med brickor i två tioramar: ”Här är en hel tia. Den rör vi inte. Under den räknar vi 3 + 4.” Fråga: ”Vad är lika i den stora uppgiften? Vad är olika?” Säg: ”Den lilla uppgiften hjälper den stora. Entalen är desamma, och tian är med hela tiden.”",
+      "watch": "Se vem som skriver det stora svaret direkt efter det lilla och vem som räknar om. Det lättare bladet har bara addition: börja där. Bladet för alla har bara subtraktion, och det svårare blandar båda."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
      "point": "1:near-doubles",
      "title": "Dubblor och nästan dubblor",
      "objective": "Eleverna räknar ut nästan dubblor som 6 + 7 med hjälp av en dubbel: de skriver 6 + 6 + 1 och sedan summan, i talområdet 0–20.",
@@ -4013,7 +4063,7 @@
      "days": 3
     },
     {
-     "n": 2,
+     "n": 3,
      "point": "1:fluency-within-20",
      "title": "Tiotalsövergång i addition: först till tian",
      "objective": "Eleverna adderar över tio på tallinjen i två steg, först till 10 och sedan resten, och skriver hur de räknar: 8 + 5 = 8 + 2 + 3 = 13.",
@@ -4070,7 +4120,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:fluency-within-20",
      "title": "Tiotalsövergång i subtraktion: först ner till tian",
      "objective": "Eleverna subtraherar med tiotalsövergång på tallinjen i två steg, först ner till 10 och sedan resten, och skriver hur de räknar: 13 − 5 = 13 − 3 − 2 = 8.",
@@ -4115,7 +4165,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:fact-families",
      "title": "Talfamiljer till 20",
      "objective": "Eleverna använder de tre talen på taket och räknar ut de fyra uppgifter som hör ihop i en talfamilj, till exempel 13 + 7, 7 + 13, 20 − 13 och 20 − 7.",
@@ -4161,7 +4211,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:true-false-equations",
      "title": "Likhetstecknet: sant eller falskt?",
      "objective": "Eleverna avgör om en likhet i talområdet 0–20 är sann eller falsk, också när det ensamma talet står först, som i 16 = 13 + 3.",
@@ -12271,10 +12321,10 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Matematik åk 1: planering för 30 veckor",
-   "metaTitle": "Matematik åk 1: planering för 30 veckor (9 arbetsområden)",
-   "metaDescription": "9 arbetsområden i matematik för åk 1 i undervisningsordning, cirka 30 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 30,
+   "title": "Matematik åk 1: planering för 31 veckor",
+   "metaTitle": "Matematik åk 1: planering för 31 veckor (9 arbetsområden)",
+   "metaDescription": "9 arbetsområden i matematik för åk 1 i undervisningsordning, cirka 31 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 31,
    "framework": null,
    "units": [
     {
@@ -12363,10 +12413,11 @@
      "id": "sv-1-ma-add-sub-0-20",
      "slug": "addition-och-subtraktion-0-20-ak-1",
      "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
-     "weeks": 3,
+     "weeks": 4,
      "from": 18,
-     "to": 20,
+     "to": 21,
      "lessons": [
+      "Samma ental, en tia till: 3 + 4 och 13 + 4",
       "Dubblor och nästan dubblor",
       "Tiotalsövergång i addition: först till tian",
       "Tiotalsövergång i subtraktion: först ner till tian",
@@ -12380,8 +12431,8 @@
      "slug": "klockan-och-almanackan-ak-1",
      "title": "Klockan och almanackan",
      "weeks": 4,
-     "from": 21,
-     "to": 24,
+     "from": 22,
+     "to": 25,
      "lessons": [
       "Veckans dagar",
       "I går, i dag, i morgon och årets månader",
@@ -12397,8 +12448,8 @@
      "slug": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
      "title": "Utblick mot 100: tiotal, ental och kronor",
      "weeks": 3,
-     "from": 25,
-     "to": 27,
+     "from": 26,
+     "to": 28,
      "lessons": [
       "Hela tiotal: 10, 20, 30 … 100",
       "Bunta tio: tiotal och ental",
@@ -12412,8 +12463,8 @@
      "slug": "sortera-tabeller-och-diagram-ak-1",
      "title": "Sortera, tabeller och diagram",
      "weeks": 3,
-     "from": 28,
-     "to": 30,
+     "from": 29,
+     "to": 31,
      "lessons": [
       "Sortera i tre grupper",
       "Räkna med streck: fem i varje knippe",

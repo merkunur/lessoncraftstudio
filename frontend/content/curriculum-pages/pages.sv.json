@@ -25,7 +25,7 @@
     "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 123,
+    "lessons": 124,
     "parts": 6,
     "partsTaught": 6
    },
@@ -146,18 +146,22 @@
          "lessons": [
           {
            "n": 1,
-           "title": "Dubblor och nästan dubblor"
+           "title": "Samma ental, en tia till: 3 + 4 och 13 + 4"
           },
           {
            "n": 2,
-           "title": "Tiotalsövergång i addition: först till tian"
+           "title": "Dubblor och nästan dubblor"
           },
           {
            "n": 3,
-           "title": "Tiotalsövergång i subtraktion: först ner till tian"
+           "title": "Tiotalsövergång i addition: först till tian"
           },
           {
            "n": 4,
+           "title": "Tiotalsövergång i subtraktion: först ner till tian"
+          },
+          {
+           "n": 5,
            "title": "Talfamiljer till 20"
           }
          ]
@@ -499,7 +503,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Likhetstecknet: sant eller falskt?"
           }
          ]

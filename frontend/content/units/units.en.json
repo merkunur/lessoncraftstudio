@@ -2004,6 +2004,11 @@
        "hard": "number-charts-hard-bakery-k020"
       }
      ],
+     "tool": {
+      "key": "choral-counting",
+      "slug": "choral-counting",
+      "name": "Choral Counting"
+     },
      "screen": {
       "kind": "activity",
       "id": "choice-board.next-number.k-cc-a-2",
@@ -2700,9 +2705,9 @@
    "subject": "math",
    "title": "Number Bonds and Partners of 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Number Bonds and Partners of 10",
-   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on number bonds to 10, taking apart 8 and 9, and the partners of 10, with a first look at partners of 20.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A four-week Kindergarten math unit: 8 lessons on number bonds to 10, taking apart 6 to 9, and the partners of 10, with a first look at partners of 20.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -2768,6 +2773,41 @@
     {
      "n": 2,
      "point": "K:number-bonds-k",
+     "title": "Take apart 6 and 7",
+     "objective": "Children break a train of 6 or 7 cubes into two parts in different ways, color each way on a strip of squares, and write it as two numbers that make 6 or 7, such as 4 + 2 = 6.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.3",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-636",
+       "title": "Take Apart 6 and 7",
+       "core": "counting-frames-k636",
+       "easy": "counting-frames-easy-k636-2",
+       "hard": "counting-frames-hard-k636-3"
+      }
+     ],
+     "id": "K:number-bonds-k#take-apart-6-and-7",
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "number-bonds",
+      "name": "Number Bonds Board"
+     },
+     "note": {
+      "mistake": "Many children find one way and then color the same way again on the next strip. Some count 4 + 2 and 2 + 4 as the same and stop early; on this page they are two different strips. A few leave one color out and write 6 + 0, which the page does not ask for.",
+      "words": "Give each child a train of six cubes. Say: \"Break it into two parts. How many here? How many there?\" Then: \"Put it back. Can you break it in a different place?\" On the page say: \"Color the part in one hand red and the part in the other hand blue. Write the red number, then the blue number.\"",
+      "watch": "Watch who works in order (1 and 5, 2 and 4, 3 and 3) and who jumps around: both are fine, but the child who works in order can tell you when no way is left. Check that the two numbers match the squares the child colored. The easier page gives the two numbers to color; the harder page has strips of 7, so give it to every child once the ways to make 6 are found."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "K:number-bonds-k",
      "title": "Take apart 8 and 9",
      "objective": "Children find the missing part of a number bond when the whole is 8 or 9, and name the two parts that make the whole.",
      "standards": [
@@ -2826,7 +2866,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:make-10",
      "title": "How many more to make 10?",
      "objective": "Children look at a ten-frame with some dots, find how many more make 10, and write the missing number in a sentence such as 6 + 4 = 10.",
@@ -2872,7 +2912,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "K:number-bonds-k",
      "title": "Partners of 10",
      "objective": "Children find the partner that makes 10 with a given number in a number bond, and say the pair, such as 8 and 2.",
@@ -2923,7 +2963,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "K:fact-fluency-colour-code",
      "title": "Add and subtract to color",
      "objective": "Children solve addition and subtraction facts and color each part of a picture with the color for its answer.",
@@ -2975,7 +3015,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "K:number-bonds-20",
      "title": "Partners that make 20",
      "objective": "Children find the number that goes with a given number to make 20, using the partners that make 10.",
@@ -3021,7 +3061,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "K:odd-even-pairing",
      "title": "Odd or even?",
      "objective": "Children pair up the pictures in a group and say that the number is even when every one has a partner and odd when one is left over.",
@@ -3078,9 +3118,9 @@
    "subject": "math",
    "title": "Teen Numbers and Counting to 100",
    "metaTitle": "Kindergarten Math Lesson Plans: Teen Numbers and Counting to 100",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on teen numbers as ten and some more, counting to 100 on the hundreds chart, and counting by tens, with teacher notes.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A four-week Kindergarten math unit: 8 lessons on teen numbers as ten and some more, counting to 50 and to 100, counting on from any number, and counting by tens.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -3167,6 +3207,123 @@
     },
     {
      "n": 3,
+     "point": "K:teen-numbers",
+     "title": "Build and draw a teen number",
+     "objective": "Children read a written number from 11 to 20, build it with ten cubes on a stick and loose cubes, and draw it on two ten-frames with the first frame full.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.NBT.A.1",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-637",
+       "title": "Draw the Number on Two Ten-Frames",
+       "core": "counting-frames-education-bw-k637",
+       "easy": "counting-frames-easy-desserts-and-sweets-k637",
+       "hard": "counting-frames-hard-vegetables-k637"
+      }
+     ],
+     "id": "K:teen-numbers#build-and-draw-a-teen-number",
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "exit": {
+      "slug": "counting-frames-camping-k637-2",
+      "title": "Draw the Number on Two Ten-Frames"
+     },
+     "note": {
+      "mistake": "Children spread the dots over both frames and leave gaps in the first one, so the ten cannot be seen. Some read 15 as \"fifty\" and fill both frames. For 20 some stop at ten because the first frame is full.",
+      "words": "Say: \"Read the number. Build it: one stick of ten and some more.\" Then: \"Draw the ten first. Fill the first frame, every box.\" Ask: \"How many more do you need? Draw them in the second frame, starting at the top left.\"",
+      "watch": "Watch whether the child fills the first frame without counting to the number each time. Ask one child at a time: \"How do you know this is 14 without counting every dot?\" The answer you hope for names the full frame as ten."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "K:teen-numbers",
+     "title": "Ten and how many more?",
+     "objective": "Children take 11 to 19 cubes apart into a stick of ten and the rest, and write the missing part in a number bond that has the teen number as the whole and 10 as one part.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.NBT.A.1",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-634",
+       "title": "Ten and How Many More?",
+       "core": "number-bonds-k634",
+       "easy": "number-bonds-easy-k634-6",
+       "hard": "number-bonds-hard-k634-11"
+      }
+     ],
+     "id": "K:teen-numbers#ten-and-how-many-more",
+     "tool": {
+      "key": "counting-cups",
+      "slug": "counting-cups-grouping-tens-place-value",
+      "name": "The Counting Cups"
+     },
+     "exit": {
+      "slug": "number-bonds-k634-2",
+      "title": "Ten and How Many More?"
+     },
+     "note": {
+      "mistake": "Children add the two numbers they see (17 and 10) and write 27 in the empty circle. Others write the whole number again. In a number such as 17 many do not yet see that the 1 stands for the ten.",
+      "words": "Point to the top circle: \"This is all of them, 17.\" Point to the 10: \"This part is the stick of ten.\" Ask: \"How many are not on the stick?\" Let children check with cubes: snap ten together, count the rest, and say: \"17 is ten and seven more.\"",
+      "watch": "Watch who needs the cubes for every bond and who answers from the number itself (the 7 in 17). On level 3 the ten or the whole can be the empty circle: see whether the child still knows which circle is the whole."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "1:hundreds-chart",
+     "title": "Count to 50",
+     "objective": "Children count aloud to 50 by ones, touch each box of a number chart from 1 to 50, and write the numbers that are missing.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.1",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-633",
+       "title": "The Number Chart to 50",
+       "core": "number-charts-occupations-k633-2",
+       "easy": "number-charts-easy-reptiles-and-amphibians-k633",
+       "hard": "number-charts-hard-classroom-k633"
+      }
+     ],
+     "id": "1:hundreds-chart#count-to-50",
+     "tool": {
+      "key": "number-hotel",
+      "slug": "number-hotel-tens-and-ones-to-100",
+      "name": "The Number Hotel"
+     },
+     "exit": {
+      "slug": "number-charts-vegetables-k633-4",
+      "title": "The Number Chart to 50"
+     },
+     "note": {
+      "mistake": "The hard places are the turns to a new ten: after 29 many children say \"twenty-ten\" or jump to 40. When they write, some reverse the digits (12 for 21), most often in the teens, where the ones are said first (\"seventeen\" written as 71).",
+      "words": "Count together and touch each box. Stop before an empty box: \"What did we just say? What comes next?\" At the end of a row say: \"The row is full. A new ten starts.\" Show that every number in a column ends with the same digit.",
+      "watch": "Listen to each child count from 25 to 42 alone: this is where the count breaks. On the page, look first at the empty boxes at the start or the end of a row (such as 21), and at whether the child uses the box above to find the number."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "1:hundreds-chart",
      "title": "Count to 100 on the hundreds chart",
      "objective": "Children count aloud to 100, point to each number on a hundreds chart as they say it, and write the numbers that are missing on the chart.",
@@ -3217,7 +3374,46 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 7,
+     "point": "K:count-forward-missing",
+     "title": "Start at any number and count on",
+     "objective": "Children start at a number that is not 1, count on aloud without going back to 1, and write the missing numbers on a number strip.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.A.2",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-632",
+       "title": "Count On from Any Number",
+       "core": "number-charts-animals-bw-2-k632",
+       "easy": "number-charts-easy-vehicles-k632",
+       "hard": "number-charts-hard-fruits-k632"
+      }
+     ],
+     "id": "K:count-forward-missing#start-at-any-number",
+     "tool": {
+      "key": "choral-counting",
+      "slug": "choral-counting",
+      "name": "Choral Counting"
+     },
+     "exit": {
+      "slug": "number-charts-birds-bw-2-k632-3",
+      "title": "Count On from Any Number"
+     },
+     "note": {
+      "mistake": "Many children can only find what comes after 36 by counting from 1, or from 30. At a turn to a new ten (39, 40) they stop or say the wrong ten. Some write the same number as the box before.",
+      "words": "Say a start number and count on together for five numbers: \"36. Keep going: 37, 38, 39, 40.\" Ask: \"Do you need to go back to 1? No. Say the number in the box, then the next one.\" When the tens change, say: \"After 39 comes a new ten: 40.\"",
+      "watch": "Watch who whispers from 1 before writing. Check the strips that cross into a new ten first: a child who cannot write the new ten (39, then 40) needs the number chart beside the page for a few more days."
+     },
+     "days": 2
+    },
+    {
+     "n": 8,
      "point": "1:skip-counting",
      "title": "Count by tens to 100",
      "objective": "Children count aloud by tens to 100, go on from any ten, and write the tens that are missing in rows that count by tens.",
@@ -3658,12 +3854,90 @@
    "subject": "math",
    "title": "Tens and Ones",
    "metaTitle": "Grade 1 Math Lesson Plans: Tens and Ones",
-   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on tens and ones, number words, comparing two-digit numbers, and the number of the day, each with a teacher note.",
-   "days": 12,
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 1 math unit: 6 lessons on teen numbers, counting tens, tens and ones, number words, comparing two-digit numbers, and the number of the day.",
+   "days": 16,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
+     "point": "1:tens-and-ones",
+     "title": "Teen numbers: one ten and some ones",
+     "objective": "Children build the numbers 11 to 19 with one ten-rod and loose cubes and write them as one ten and some ones.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.B.2",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-564",
+       "title": "Teen Numbers: One Ten and Some Ones",
+       "core": "base-ten-g1564",
+       "easy": "base-ten-easy-g1564-6",
+       "hard": "base-ten-hard-g1564-7"
+      }
+     ],
+     "id": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "exit": {
+      "slug": "base-ten-g1564-2",
+      "title": "Teen Numbers: One Ten and Some Ones"
+     },
+     "note": {
+      "mistake": "Children count the ten-rod as one more cube and write 6 for a rod and five cubes. Others count every unit of the rod one by one. When they write, some put the ones first (51 for 15).",
+      "words": "Hold up a rod: \"This is one ten. Ten cubes are stuck together, so I do not count them again.\" Say: \"One ten and five ones is fifteen.\" Have children say it for each picture, then write how many ones and the number.",
+      "watch": "Watch whether the child counts on from ten (10, 11, 12 …) or starts at 1 on the rod. Look at the written numbers for reversed digits, and ask: \"Which digit tells you about the rod?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "1:tens-and-ones",
+     "title": "Count the tens: 10 to 90",
+     "objective": "Children count 1 to 9 ten-rods, say how many tens there are with no ones left over, and write the number from 10 to 90.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.B.2",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-563",
+       "title": "Count the Tens: 10 to 90",
+       "core": "base-ten-g1563",
+       "easy": "base-ten-easy-g1563-6",
+       "hard": "base-ten-hard-g1563-7"
+      }
+     ],
+     "id": "1:tens-and-ones#count-the-tens",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "exit": {
+      "slug": "base-ten-g1563-2",
+      "title": "Count the Tens: 10 to 90"
+     },
+     "note": {
+      "mistake": "Children write the number of rods as the number (4 for four rods) and leave the zero out. Some count by ones along the rods and lose their place. The names \"thirty\" and \"fifty\" do not sound like three tens and five tens.",
+      "words": "Count the rods two ways: \"1, 2, 3, 4 tens\" and \"10, 20, 30, 40.\" Say: \"Four tens and no ones is forty. The 0 says: no ones.\" Link the names: \"Six tens: sixty. Three tens: thirty. Five tens: fifty.\"",
+      "watch": "Watch whether the child counts by tens or by ones. Check the two boxes of each row: the first holds how many tens, the second the number. A child who writes 4 and 4 has not yet linked the rods to the number."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "1:tens-and-ones",
      "title": "Tens and ones",
      "objective": "Children read a two-digit number shown with base-ten blocks (tens rods and ones cubes), and choose the blocks that show a number.",
@@ -3718,7 +3992,7 @@
      "days": 2
     },
     {
-     "n": 2,
+     "n": 4,
      "point": "1:number-words",
      "title": "Number words",
      "objective": "Children read numbers and match them to their words, to twenty and for the tens to one hundred.",
@@ -3776,7 +4050,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 5,
      "point": "1:compare-order-two-digit",
      "title": "Compare and order two-digit numbers",
      "objective": "Children compare two two-digit numbers with the signs for greater than and less than, and put three numbers in order.",
@@ -3820,7 +4094,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 6,
      "point": "1:number-of-the-day",
      "title": "Number of the day",
      "objective": "Children show one number in many ways: as tens and ones, on ten frames, with tally marks, with its number word, and by writing 10 more and 10 less.",
@@ -4158,9 +4432,9 @@
    "subject": "math",
    "title": "Adding Within 100",
    "metaTitle": "Grade 1 Math Lesson Plans: Adding Within 100",
-   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on adding tens, adding ones with and without a new ten, and adding two two-digit numbers with rods and cubes, with teacher notes.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on adding tens, subtracting tens, adding ones with and without a new ten, and adding two-digit numbers with rods and cubes.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -4202,6 +4476,45 @@
     {
      "n": 2,
      "point": "1:mental-math-to-100",
+     "title": "Subtract tens from tens",
+     "objective": "Children subtract multiples of 10 from multiples of 10 in the range 10 to 90 (70 − 30) by crossing out ten-rods, and explain why 7 tens take away 3 tens leaves 4 tens.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.C.6",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-565",
+       "title": "Subtract Tens from Tens",
+       "core": "base-ten-g1565",
+       "easy": "base-ten-easy-g1565-6",
+       "hard": "base-ten-hard-g1565-11"
+      }
+     ],
+     "id": "1:mental-math-to-100#subtract-tens-from-tens",
+     "tool": {
+      "key": "number-hotel",
+      "slug": "number-hotel-tens-and-ones-to-100",
+      "name": "The Number Hotel"
+     },
+     "exit": {
+      "slug": "base-ten-g1565-2",
+      "title": "Subtract Tens from Tens"
+     },
+     "note": {
+      "mistake": "Children cross out the right number of rods and then write how many rods are left (4) in place of the number (40). Others count back by ones from 70 and lose count. Some count the crossed-out rods again when they count what is left.",
+      "words": "Say the problem in tens: \"70 is 7 tens. Take away 3 tens. Cross out three rods. How many tens are left? Four tens is forty.\" Then link it to a fact they know: \"7 − 3 = 4, so 7 tens − 3 tens = 4 tens.\" Show it in the Number Hotel too: from 70 the elevator goes down three floors, 60, 50, 40.",
+      "watch": "Watch who uses 7 − 3 and who counts each rod that is left by tens. Check the answers for a missing zero. Ask a child who is done early to solve 60 − 20 with no picture and to tell you how."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:mental-math-to-100",
      "title": "Add ones to a two-digit number",
      "objective": "Children add a one-digit number to a two-digit number when the ones stay under ten, such as 32 + 5, and say that the tens do not change.",
      "standards": [
@@ -4238,7 +4551,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:mental-math-to-100",
      "title": "Add ones and make a new ten",
      "objective": "Children add a one-digit number to a two-digit number when the ones make a new ten, such as 27 + 5: they jump to the next ten on the number line first, then jump the rest, and write the steps, 27 + 3 + 2 = 32.",
@@ -4277,7 +4590,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:add-with-blocks",
      "title": "Add two two-digit numbers: tens with tens, ones with ones",
      "objective": "Children add two two-digit numbers shown as rods and cubes when no new ten is made, such as 34 + 25: they add the tens, then the ones, and write the sum up to 99.",
@@ -5843,8 +6156,8 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 1,000",
-   "metaDescription": "A three-week Grade 2 math unit: 4 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
-   "days": 13,
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -5978,6 +6291,45 @@
     },
     {
      "n": 4,
+     "point": "2:column-method",
+     "title": "Subtract three-digit numbers with regrouping",
+     "objective": "Children subtract within 1,000 in columns when a ten or a hundred must be regrouped (432 − 151), and check each answer by adding.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.7",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-502",
+       "title": "Subtract Three-Digit Numbers with Regrouping",
+       "core": "column-arithmetic-g2502",
+       "easy": "column-arithmetic-easy-g2502-6",
+       "hard": "column-arithmetic-hard-g2502-11"
+      }
+     ],
+     "id": "2:column-method#subtract-three-digit-numbers",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "exit": {
+      "slug": "column-arithmetic-g2502-2",
+      "title": "Subtract Three-Digit Numbers with Regrouping"
+     },
+     "note": {
+      "mistake": "The common error is to subtract the smaller digit from the larger one in every column (432 − 151 = 321). Children who do regroup often forget to write one fewer ten or one fewer hundred, or regroup a ten when there are already enough ones.",
+      "words": "Start at the ones each time and ask: \"Enough ones? If not, regroup: trade one ten for ten ones. One ten fewer, ten more ones.\" Then the tens: \"Enough tens? If not, trade one hundred for ten tens.\" Have children cross out the digit and write the new one above it.",
+      "watch": "Watch the first step of each problem: does the child ask \"enough ones?\" or just subtract? Have every child check two answers by adding the answer and the number taken away. Level 1 takes away a two-digit number: use it for children who are not yet sure of the columns. On level 3 children regroup twice in the same problem, a ten and a hundred."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "3:column-regrouping",
      "title": "Subtract across zeros",
      "objective": "Children subtract in columns from a multiple of 100, such as 500 − 231, by trading one hundred for ten tens and then one ten for ten ones.",
@@ -12863,9 +13215,9 @@
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (24 Weeks)",
-   "metaDescription": "8 Kindergarten math units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 24,
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (27 Weeks)",
+   "metaDescription": "8 Kindergarten math units in teaching order, about 27 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 27,
    "framework": "Common Core",
    "units": [
     {
@@ -13003,11 +13355,12 @@
      "id": "k-putting-together-number-bonds",
      "slug": "putting-together-and-number-bonds-kindergarten-unit",
      "title": "Number Bonds and Partners of 10",
-     "weeks": 3,
+     "weeks": 4,
      "from": 20,
-     "to": 22,
+     "to": 23,
      "lessons": [
       "Number bonds to 5 and to 10",
+      "Take apart 6 and 7",
       "Take apart 8 and 9",
       "How many more to make 10?",
       "Partners of 10",
@@ -13025,17 +13378,22 @@
      "id": "k-teen-numbers-and-counting-to-100",
      "slug": "teen-numbers-and-counting-to-100-kindergarten-unit",
      "title": "Teen Numbers and Counting to 100",
-     "weeks": 2,
-     "from": 23,
-     "to": 24,
+     "weeks": 4,
+     "from": 24,
+     "to": 27,
      "lessons": [
       "Ten and some more",
       "Teen numbers on two ten-frames",
+      "Build and draw a teen number",
+      "Ten and how many more?",
+      "Count to 50",
       "Count to 100 on the hundreds chart",
+      "Start at any number and count on",
       "Count by tens to 100"
      ],
      "standards": [
       "K.CC.A.1",
+      "K.CC.A.2",
       "K.NBT.A.1"
      ]
     }
@@ -13048,9 +13406,9 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (25 Weeks)",
-   "metaDescription": "7 Grade 1 math units in teaching order, about 25 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 25,
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (27 Weeks)",
+   "metaDescription": "7 Grade 1 math units in teaching order, about 27 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 27,
    "framework": "Common Core",
    "units": [
     {
@@ -13106,10 +13464,12 @@
      "id": "g1-tens-and-ones",
      "slug": "tens-and-ones-grade-1-unit",
      "title": "Tens and Ones",
-     "weeks": 2,
+     "weeks": 3,
      "from": 10,
-     "to": 11,
+     "to": 12,
      "lessons": [
+      "Teen numbers: one ten and some ones",
+      "Count the tens: 10 to 90",
       "Tens and ones",
       "Number words",
       "Compare and order two-digit numbers",
@@ -13126,8 +13486,8 @@
      "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
      "title": "The Hundreds Chart and Skip Counting",
      "weeks": 3,
-     "from": 12,
-     "to": 14,
+     "from": 13,
+     "to": 15,
      "lessons": [
       "Find a number on the number line",
       "The hundreds chart",
@@ -13143,17 +13503,19 @@
      "id": "g1-adding-within-100",
      "slug": "adding-within-100-grade-1-unit",
      "title": "Adding Within 100",
-     "weeks": 2,
-     "from": 15,
-     "to": 16,
+     "weeks": 3,
+     "from": 16,
+     "to": 18,
      "lessons": [
       "Add tens to a number",
+      "Subtract tens from tens",
       "Add ones to a two-digit number",
       "Add ones and make a new ten",
       "Add two two-digit numbers: tens with tens, ones with ones"
      ],
      "standards": [
-      "1.NBT.C.4"
+      "1.NBT.C.4",
+      "1.NBT.C.6"
      ]
     },
     {
@@ -13161,8 +13523,8 @@
      "slug": "time-calendar-and-coins-grade-1-unit",
      "title": "Time, Calendar, and Coins",
      "weeks": 4,
-     "from": 17,
-     "to": 20,
+     "from": 19,
+     "to": 22,
      "lessons": [
       "Tell time to the hour and half hour",
       "Draw the clock hands",
@@ -13180,8 +13542,8 @@
      "slug": "shapes-measuring-and-graphs-grade-1-unit",
      "title": "Shapes, Measuring, and Graphs",
      "weeks": 5,
-     "from": 21,
-     "to": 25,
+     "from": 23,
+     "to": 27,
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",
@@ -13273,6 +13635,7 @@
       "Add with blocks",
       "Add three-digit numbers and make a new ten or hundred",
       "Subtract with blocks",
+      "Subtract three-digit numbers with regrouping",
       "Subtract across zeros"
      ],
      "standards": [

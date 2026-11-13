@@ -1286,36 +1286,37 @@
     },
     {
      "part": 2,
-     "lesson": 2,
+     "lesson": 3,
      "title": "Take apart 8 and 9",
      "type": "K-416",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 3,
+     "lesson": 4,
      "title": "How many more to make 10?",
      "type": "G1-106",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Partners of 10",
      "type": "K-277",
      "tasks": 1
     },
     {
      "part": 5,
-     "lesson": 7,
+     "lesson": 8,
      "title": "Odd or even?",
      "type": "K-016",
      "tasks": 1
     }
    ],
    "notCovered": [
-    5,
-    6
+    2,
+    6,
+    7
    ],
    "forms": {
     "A": {
@@ -1722,32 +1723,52 @@
     {
      "part": 1,
      "lesson": 1,
-     "title": "Tens and ones",
-     "type": "G1-120",
+     "title": "Teen numbers: one ten and some ones",
+     "type": "G1-564",
      "tasks": 1
     },
     {
      "part": 2,
      "lesson": 2,
+     "title": "Count the tens: 10 to 90",
+     "type": "G1-563",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Tens and ones",
+     "type": "G1-120",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
      "title": "Number words",
      "type": "G1-223",
      "tasks": 2
     },
     {
-     "part": 3,
-     "lesson": 3,
+     "part": 5,
+     "lesson": 5,
      "title": "Compare and order two-digit numbers",
      "type": "G1-135",
      "tasks": 2
     }
    ],
    "notCovered": [
-    4
+    6
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
+      [
+       "9c6a5cdc5836f095"
+      ],
+      [
+       "a8b3bf0312cf3145"
+      ],
       [
        "0bceb79102873ef5"
       ],
@@ -1765,6 +1786,12 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null
+      ],
+      [
        2,
        0
       ],
@@ -1774,6 +1801,12 @@
       ]
      ],
      "kinds": [
+      [
+       "w ? = ?"
+      ],
+      [
+       "? = ?"
+      ],
       [
        "?"
       ],
@@ -1787,6 +1820,12 @@
       ]
      ],
      "sizes": [
+      [
+       16
+      ],
+      [
+       60
+      ],
       [
        64
       ],
@@ -1804,6 +1843,12 @@
      "pages": 2,
      "cards": [
       [
+       "167358fe1c5a4def"
+      ],
+      [
+       "14184bfdebaa7d99"
+      ],
+      [
        "c202881c5ef2366c"
       ],
       [
@@ -1820,6 +1865,12 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null
+      ],
+      [
        0,
        2
       ],
@@ -1829,6 +1880,12 @@
       ]
      ],
      "kinds": [
+      [
+       "w ? = ?"
+      ],
+      [
+       "? = ?"
+      ],
       [
        "?"
       ],
@@ -1842,6 +1899,12 @@
       ]
      ],
      "sizes": [
+      [
+       17
+      ],
+      [
+       70
+      ],
       [
        63
       ],
@@ -1872,20 +1935,27 @@
     {
      "part": 2,
      "lesson": 2,
+     "title": "Subtract tens from tens",
+     "type": "G1-565",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
      "title": "Add ones to a two-digit number",
      "type": "G1-559",
      "tasks": 2
     },
     {
-     "part": 3,
-     "lesson": 4,
+     "part": 4,
+     "lesson": 5,
      "title": "Add two two-digit numbers: tens with tens, ones with ones",
      "type": "G2-203",
      "tasks": 1
     }
    ],
    "notCovered": [
-    3
+    4
    ],
    "forms": {
     "A": {
@@ -1894,6 +1964,9 @@
       [
        "91b4da44ce02aa49",
        "1e59c87e291888e6"
+      ],
+      [
+       "258eedb591b84d7c"
       ],
       [
        "960fd37b56e7407e",
@@ -1906,6 +1979,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1922,6 +1998,9 @@
        "w + w = ?"
       ],
       [
+       "w − w = ?"
+      ],
+      [
        "w + w = ?",
        "w + w = ?"
       ],
@@ -1933,6 +2012,9 @@
       [
        87,
        65
+      ],
+      [
+       70
       ],
       [
        68,
@@ -1951,6 +2033,9 @@
        "677f6dd292d1e0e6"
       ],
       [
+       "356f17c200faf2a9"
+      ],
+      [
        "a2e84d8a8778e078",
        "8b0ee7c946358933"
       ],
@@ -1961,6 +2046,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1977,6 +2065,9 @@
        "w + w = ?"
       ],
       [
+       "w − w = ?"
+      ],
+      [
        "w + w = ?",
        "w + w = ?"
       ],
@@ -1988,6 +2079,9 @@
       [
        86,
        64
+      ],
+      [
+       80
       ],
       [
        69,

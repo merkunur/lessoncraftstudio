@@ -25,7 +25,7 @@
     "taught": 36,
     "near": 0,
     "open": 3,
-    "lessons": 119,
+    "lessons": 123,
     "parts": 19,
     "partsTaught": 16
    },
@@ -246,7 +246,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 2,
+           "n": 3,
            "title": "Gerade und ungerade Zahlen"
           }
          ]
@@ -360,6 +360,21 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-10-klasse-1",
+         "unitTitle": "Zahlen bis 10: zählen, schreiben und vergleichen",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 7,
+           "title": "Zahlen zerlegen: die Schüttelbox"
+          },
+          {
+           "n": 8,
+           "title": "Zahlenhäuser: alle Zerlegungen finden"
+          }
+         ]
+        },
+        {
          "unit": "plus-und-minus-bis-10-klasse-1",
          "unitTitle": "Plus und Minus bis 10",
          "unitGrade": "1",
@@ -370,14 +385,18 @@
           },
           {
            "n": 2,
-           "title": "Wegnehmen: Wie viele bleiben übrig?"
+           "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
           },
           {
            "n": 3,
-           "title": "Verliebte Zahlen: zusammen 10"
+           "title": "Wegnehmen: Wie viele bleiben übrig?"
           },
           {
            "n": 4,
+           "title": "Verliebte Zahlen: zusammen 10"
+          },
+          {
+           "n": 5,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -412,14 +431,18 @@
          "lessons": [
           {
            "n": 1,
+           "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4"
+          },
+          {
+           "n": 2,
            "title": "Verdoppeln und Halbieren"
           },
           {
-           "n": 3,
+           "n": 4,
            "title": "Drei Gruppen addieren"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]
@@ -955,7 +978,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]
@@ -2006,7 +2029,7 @@
     "taught": 35,
     "near": 0,
     "open": 1,
-    "lessons": 87,
+    "lessons": 89,
     "parts": 13,
     "partsTaught": 12
    },
@@ -2045,11 +2068,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Verliebte Zahlen: zusammen 10"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -2079,7 +2102,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 2,
+           "n": 3,
            "title": "Gerade und ungerade Zahlen"
           }
          ]
@@ -2168,10 +2191,14 @@
           },
           {
            "n": 2,
-           "title": "Wegnehmen: Wie viele bleiben übrig?"
+           "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
           },
           {
            "n": 3,
+           "title": "Wegnehmen: Wie viele bleiben übrig?"
+          },
+          {
+           "n": 4,
            "title": "Verliebte Zahlen: zusammen 10"
           }
          ]
@@ -2206,14 +2233,18 @@
          "lessons": [
           {
            "n": 1,
+           "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4"
+          },
+          {
+           "n": 2,
            "title": "Verdoppeln und Halbieren"
           },
           {
-           "n": 3,
+           "n": 4,
            "title": "Drei Gruppen addieren"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]
@@ -3826,7 +3857,7 @@
     "taught": 51,
     "near": 1,
     "open": 2,
-    "lessons": 110,
+    "lessons": 112,
     "parts": 16,
     "partsTaught": 13
    },
@@ -3865,7 +3896,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -3895,11 +3926,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 1,
+           "n": 2,
            "title": "Verdoppeln und Halbieren"
           },
           {
-           "n": 2,
+           "n": 3,
            "title": "Gerade und ungerade Zahlen"
           }
          ]
@@ -4030,10 +4061,14 @@
           },
           {
            "n": 2,
+           "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
+          },
+          {
+           "n": 3,
            "title": "Wegnehmen: Wie viele bleiben übrig?"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -4067,7 +4102,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]
@@ -4204,7 +4239,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 2,
+           "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
+          },
+          {
+           "n": 4,
            "title": "Verliebte Zahlen: zusammen 10"
           }
          ]
@@ -4235,10 +4274,14 @@
          "lessons": [
           {
            "n": 1,
+           "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4"
+          },
+          {
+           "n": 2,
            "title": "Verdoppeln und Halbieren"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]
@@ -4389,7 +4432,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 1,
+           "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4"
+          },
+          {
+           "n": 4,
            "title": "Drei Gruppen addieren"
           }
          ]
@@ -5478,7 +5525,7 @@
     "taught": 44,
     "near": 0,
     "open": 0,
-    "lessons": 84,
+    "lessons": 86,
     "parts": 4,
     "partsTaught": 4
    },
@@ -5599,14 +5646,18 @@
           },
           {
            "n": 2,
-           "title": "Wegnehmen: Wie viele bleiben übrig?"
+           "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
           },
           {
            "n": 3,
-           "title": "Verliebte Zahlen: zusammen 10"
+           "title": "Wegnehmen: Wie viele bleiben übrig?"
           },
           {
            "n": 4,
+           "title": "Verliebte Zahlen: zusammen 10"
+          },
+          {
+           "n": 5,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -5664,18 +5715,22 @@
          "lessons": [
           {
            "n": 1,
-           "title": "Verdoppeln und Halbieren"
+           "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4"
           },
           {
            "n": 2,
-           "title": "Gerade und ungerade Zahlen"
+           "title": "Verdoppeln und Halbieren"
           },
           {
            "n": 3,
-           "title": "Drei Gruppen addieren"
+           "title": "Gerade und ungerade Zahlen"
           },
           {
            "n": 4,
+           "title": "Drei Gruppen addieren"
+          },
+          {
+           "n": 5,
            "title": "Zahlenmauern"
           }
          ]

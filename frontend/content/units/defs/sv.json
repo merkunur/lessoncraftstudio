@@ -555,7 +555,8 @@
      "types": [
       "G1-219",
       "G1-221"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "1:missing-number-equations",
@@ -696,9 +697,18 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–20 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 5 lektioner om dubblor, tiotalsövergång, talfamiljer och likhetstecknet, med lärarkommentar.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 6 lektioner om samma ental med en tia till, dubblor, tiotalsövergång och talfamiljer.",
+   "weeks": 4,
    "lessons": [
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#samma-ental-en-tia-till",
+     "types": [
+      "G1-561"
+     ],
+     "tool": "rekenrek",
+     "activity": null
+    },
     {
      "point": "1:near-doubles",
      "types": [
@@ -733,7 +743,8 @@
      "types": [
       "G1-220"
      ],
-     "activity": null
+     "activity": null,
+     "tool": null
     },
     {
      "point": "1:true-false-equations",

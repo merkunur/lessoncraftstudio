@@ -145,7 +145,8 @@
         "1:skip-counting",
         "2:skip-count-5-10-100",
         "2:skip-count-3-4",
-        "3:arithmetic-patterns"
+        "3:arithmetic-patterns",
+        "K:count-forward-missing"
       ]
     },
     "our-day": {
@@ -213,7 +214,8 @@
       "points": [
         "1:true-false-equations",
         "1:missing-number-equations",
-        "3:balance-equations"
+        "3:balance-equations",
+        "1:fact-families"
       ]
     },
     "pattern-bench": {

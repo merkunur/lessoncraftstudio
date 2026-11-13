@@ -192,7 +192,8 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "Top half: eight pictures of one ten-rod and 1 to 9 loose cubes; the child writes '1 ten _ ones' and the number. Bottom half: six written numbers from 11 to 19; the child draws one rod and the right number of cubes for each."
+            "page": "Top half: eight pictures of one ten-rod and 1 to 9 loose cubes; the child writes '1 ten _ ones' and the number. Bottom half: six written numbers from 11 to 19; the child draws one rod and the right number of cubes for each.",
+            "placed": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones"
           },
           {
             "new": true,
@@ -202,7 +203,8 @@
             "days": 2,
             "tool": "The Counting Cups",
             "source": "new",
-            "page": "Top half: eight pictures of 1 to 9 ten-rods and no loose cubes; the child writes '_ tens 0 ones' and the number. Bottom half: six numbers from 10 to 90; the child draws that many rods and writes how many tens."
+            "page": "Top half: eight pictures of 1 to 9 ten-rods and no loose cubes; the child writes '_ tens 0 ones' and the number. Bottom half: six numbers from 10 to 90; the child draws that many rods and writes how many tens.",
+            "placed": "1:tens-and-ones#count-the-tens"
           },
           {
             "existing": "1:tens-and-ones",
@@ -269,7 +271,8 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "Level 1: eight pictures of 2 to 9 ten-rods with a subtraction (70 - 30 = _); the child crosses out the rods taken away and completes '7 tens - 3 tens = _ tens' and the equation. Level 2: ten equations with no picture, two of them with a missing number (60 - _ = 20). All numbers are whole tens from 10 to 90; the answer is at least 10."
+            "page": "Level 1: eight pictures of 2 to 9 ten-rods with a subtraction (70 - 30 = _); the child crosses out the rods taken away and completes '7 tens - 3 tens = _ tens' and the equation. Level 2: ten equations with no picture, two of them with a missing number (60 - _ = 20). All numbers are whole tens from 10 to 90; the answer is at least 10.",
+            "placed": "1:mental-math-to-100#subtract-tens-from-tens"
           },
           {
             "new": true,
@@ -743,7 +746,8 @@
             "days": 2,
             "tool": "The Exchange Machine",
             "source": "new",
-            "page": "Eight tasks. Each has the difference in columns and a hundreds-tens-ones mat on which the first number is drawn. The child answers 'Enough ones? Enough tens?', opens a stick or a square when needed, crosses out, and writes the difference. Three tasks open a ten, two a hundred, three both. No digit of the first number is zero."
+            "page": "Eight tasks. Each has the difference in columns and a hundreds-tens-ones mat on which the first number is drawn. The child answers 'Enough ones? Enough tens?', opens a stick or a square when needed, crosses out, and writes the difference. Three tasks open a ten, two a hundred, three both. No digit of the first number is zero.",
+            "placed": "2:column-method#subtract-three-digit-numbers"
           },
           {
             "new": true,
@@ -1799,7 +1803,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "new",
-            "page": "Top half: five uncolored cube trains of 6; bottom half: five trains of 7. The child colors each train in two colors, a different way each time, and writes the equation under it (6 = _ + _). Neither part is zero. In class children break a real cube train before they color."
+            "page": "Top half: five uncolored cube trains of 6; bottom half: five trains of 7. The child colors each train in two colors, a different way each time, and writes the equation under it (6 = _ + _). Neither part is zero. In class children break a real cube train before they color.",
+            "placed": "K:number-bonds-k#take-apart-6-and-7"
           },
           {
             "new": true,
@@ -1875,7 +1880,8 @@
             "days": 2,
             "tool": "Rekenrek",
             "source": "new",
-            "page": "Six tasks. Each shows a written number from 11 to 19 and two empty ten-frames. The child draws counters to show the number (the first frame full) and completes the equation under it (15 = 10 + _). In class children build the number with a stick of ten cubes and loose cubes before they draw."
+            "page": "Six tasks. Each shows a written number from 11 to 19 and two empty ten-frames. The child draws counters to show the number (the first frame full) and completes the equation under it (15 = 10 + _). In class children build the number with a stick of ten cubes and loose cubes before they draw.",
+            "placed": "K:teen-numbers#build-and-draw-a-teen-number"
           },
           {
             "new": true,
@@ -1885,7 +1891,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "new",
-            "page": "Top half: six number bonds with a teen number as the whole and 10 as one part; the child writes the other part and completes 10 + _ = 17. Bottom half: six cards that say '10 and 4'; the child circles the right number of two (14 or 41). In class children snap ten cubes together and count the rest."
+            "page": "Top half: six number bonds with a teen number as the whole and 10 as one part; the child writes the other part and completes 10 + _ = 17. Bottom half: six cards that say '10 and 4'; the child circles the right number of two (14 or 41). In class children snap ten cubes together and count the rest.",
+            "placed": "K:teen-numbers#ten-and-how-many-more"
           },
           {
             "new": true,
@@ -1895,7 +1902,8 @@
             "days": 2,
             "tool": "Choral Counting",
             "source": "new",
-            "page": "A number chart from 1 to 50 in rows of ten with fourteen empty boxes, most of them where a new ten starts (19, 20, 21, 29, 30, 31, 39, 40, 41, 49, 50). The child says the count, touches each box, and writes the missing numbers. In class children drop a cube into a jar for each number said."
+            "page": "A number chart from 1 to 50 in rows of ten with fourteen empty boxes, most of them where a new ten starts (19, 20, 21, 29, 30, 31, 39, 40, 41, 49, 50). The child says the count, touches each box, and writes the missing numbers. In class children drop a cube into a jar for each number said.",
+            "placed": "1:hundreds-chart#count-to-50"
           },
           {
             "new": true,
@@ -1916,7 +1924,8 @@
             "days": 2,
             "tool": "Choral Counting",
             "source": "new",
-            "page": "Six number tracks of five boxes each. The first box holds a start number (4, 12, 28, 36, 53, 67) and the other four are empty; the child counts on and writes the next four numbers. Three of the six tracks cross into a new ten. In class children draw a number card from a bag and count on along the pocket chart."
+            "page": "Six number tracks of five boxes each. The first box holds a start number (4, 12, 28, 36, 53, 67) and the other four are empty; the child counts on and writes the next four numbers. Three of the six tracks cross into a new ten. In class children draw a number card from a bag and count on along the pocket chart.",
+            "placed": "K:count-forward-missing#start-at-any-number"
           },
           {
             "new": true,

@@ -1564,55 +1564,70 @@
     {
      "part": 1,
      "lesson": 1,
-     "title": "Dubblor och nästan dubblor",
-     "type": "G1-449",
+     "title": "Samma ental, en tia till: 3 + 4 och 13 + 4",
+     "type": "G1-561",
      "tasks": 2
     },
     {
      "part": 2,
      "lesson": 2,
+     "title": "Dubblor och nästan dubblor",
+     "type": "G1-449",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
      "title": "Tiotalsövergång i addition: först till tian",
      "type": "G1-439",
      "tasks": 1
     },
     {
-     "part": 3,
-     "lesson": 3,
+     "part": 4,
+     "lesson": 4,
      "title": "Tiotalsövergång i subtraktion: först ner till tian",
      "type": "G1-556",
      "tasks": 1
     },
     {
-     "part": 4,
-     "lesson": 4,
+     "part": 5,
+     "lesson": 5,
      "title": "Talfamiljer till 20",
      "type": "G1-220",
      "tasks": 2
     }
    ],
    "notCovered": [
-    5
+    6
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
+       "133a317a955a1397",
+       "6300faa52b3b98dc"
+      ],
+      [
        "8ac0fd9b228319e6",
-       "be6514cf0544cfaa"
+       "33f51ef31904b1ce"
       ],
       [
        "6ac0f49d12f93c81"
       ],
       [
-       "249bc49bde4bc365"
+       "449490066da213fa"
       ],
       [
-       "3488311e0c2058d0",
-       "984e6d549befda83"
+       "2826ca24f2fabeb1",
+       "e84cecf432a7f1d2"
       ]
      ],
      "pos": [
+      [
+       null,
+       null
+      ],
       [
        null,
        null
@@ -1630,6 +1645,10 @@
      ],
      "kinds": [
       [
+       "w − w = ? w − w = ?",
+       "w − w = ? w − w = ?"
+      ],
+      [
        "w + w = ? + ? + w = ?",
        "w + w = ? + ? + w = ?"
       ],
@@ -1646,8 +1665,12 @@
      ],
      "sizes": [
       [
+       18,
+       15
+      ],
+      [
        15,
-       9
+       13
       ],
       [
        20
@@ -1656,30 +1679,38 @@
        20
       ],
       [
-       16,
-       10
+       17,
+       12
       ]
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
+       "5597cf5638d277b1",
+       "a8cfcc268225107b"
+      ],
+      [
        "c5b174a0cbf714a0",
-       "d43850aa3236faaf"
+       "6f1742500899ef93"
       ],
       [
-       "3a62e882620bb940"
+       "70b4eacaa5fae036"
       ],
       [
-       "f3d357fc99695237"
+       "fdb5fe17d2d6739b"
       ],
       [
-       "2742e9323072feef",
-       "47e19efe58796ad1"
+       "78bb30e04885b02d",
+       "9ae10e5cd277a472"
       ]
      ],
      "pos": [
+      [
+       null,
+       null
+      ],
       [
        null,
        null
@@ -1697,6 +1728,10 @@
      ],
      "kinds": [
       [
+       "w − w = ? w − w = ?",
+       "w − w = ? w − w = ?"
+      ],
+      [
        "w + w = ? + ? + w = ?",
        "w + w = ? + ? + w = ?"
       ],
@@ -1713,8 +1748,12 @@
      ],
      "sizes": [
       [
+       19,
+       17
+      ],
+      [
        17,
-       7
+       11
       ],
       [
        20
@@ -1723,8 +1762,8 @@
        20
       ],
       [
-       17,
-       10
+       18,
+       14
       ]
      ]
     }

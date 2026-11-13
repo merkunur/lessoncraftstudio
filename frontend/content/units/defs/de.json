@@ -9,8 +9,8 @@
    "subject": "math",
    "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
    "metaTitle": "Mathe Klasse 1: Zahlen bis 10 | Unterrichtseinheit",
-   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zum Sortieren, zum Zählen und Ziffernschreiben bis 10, zum Vergleichen mit <, > und =, zu Vorgänger, Nachfolger und Ordnungszahlen.",
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zum Zählen und Ziffernschreiben bis 10, zum Vergleichen und Ordnen und zum Zerlegen mit Schüttelbox und Zahlenhaus.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:sort-three-groups",
@@ -58,6 +58,25 @@
       "G1-315",
       "G1-316"
      ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "types": [
+      "K-635"
+     ],
+     "tool": "part-whole-frame",
+     "activity": null
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#zahlenhaeuser",
+     "types": [
+      "K-456",
+      "K-638"
+     ],
+     "tool": "part-whole-frame",
+     "activity": null,
+     "exitType": "K-638"
     }
    ]
   },
@@ -69,8 +88,8 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 1: 4 Stunden zum Dazutun und Wegnehmen bis 10, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl, jede mit Lehrerhinweis.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Dazutun und Wegnehmen bis 10, zu Tauschaufgaben, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:add-within-10-models",
@@ -78,6 +97,15 @@
       "G1-101",
       "G1-110"
      ],
+     "activity": null
+    },
+    {
+     "point": "1:fact-families",
+     "id": "1:fact-families#tauschaufgaben",
+     "types": [
+      "G1-562"
+     ],
+     "tool": "number-balance",
      "activity": null
     },
     {
@@ -121,7 +149,8 @@
      "types": [
       "G1-219",
       "G1-221"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "1:missing-number-equations",
@@ -204,9 +233,18 @@
    "subject": "math",
    "title": "Verdoppeln, drei Summanden und Zahlenmauern",
    "metaTitle": "Mathe Klasse 1: Verdoppeln, drei Summanden und Zahlenmauern",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Verdoppeln und Halbieren, zu geraden und ungeraden Zahlen, drei Summanden und Zahlenmauern, jede mit Lehrerhinweis.",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zu kleinen und großen Aufgaben bis 20, zum Verdoppeln und Halbieren, zu drei Summanden und zu Zahlenmauern.",
    "weeks": 3,
    "lessons": [
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#kleine-aufgabe-grosse-aufgabe",
+     "types": [
+      "G1-561"
+     ],
+     "tool": "rekenrek",
+     "activity": null
+    },
     {
      "point": "1:doubles-halves",
      "types": [

@@ -23,7 +23,7 @@
     "taught": 23,
     "near": 1,
     "open": 0,
-    "lessons": 46
+    "lessons": 51
    },
    "groups": [
     {
@@ -38,14 +38,21 @@
          "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
          "unitTitle": "Teen Numbers and Counting to 100",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
+         "title": "Count to 50"
+        },
+        {
+         "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
+         "unitTitle": "Teen Numbers and Counting to 100",
+         "unitGrade": "K",
+         "n": 6,
          "title": "Count to 100 on the hundreds chart"
         },
         {
          "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
          "unitTitle": "Teen Numbers and Counting to 100",
          "unitGrade": "K",
-         "n": 4,
+         "n": 8,
          "title": "Count by tens to 100"
         },
         {
@@ -332,6 +339,13 @@
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
          "n": 2,
+         "title": "Take apart 6 and 7"
+        },
+        {
+         "unit": "putting-together-and-number-bonds-kindergarten-unit",
+         "unitTitle": "Number Bonds and Partners of 10",
+         "unitGrade": "K",
+         "n": 3,
          "title": "Take apart 8 and 9"
         }
        ]
@@ -352,14 +366,14 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "How many more to make 10?"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Partners of 10"
         },
         {
@@ -380,7 +394,7 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Add and subtract to color"
         }
        ]
@@ -408,6 +422,20 @@
          "unitGrade": "K",
          "n": 2,
          "title": "Teen numbers on two ten-frames"
+        },
+        {
+         "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
+         "unitTitle": "Teen Numbers and Counting to 100",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Build and draw a teen number"
+        },
+        {
+         "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
+         "unitTitle": "Teen Numbers and Counting to 100",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Ten and how many more?"
         }
        ]
       }
@@ -601,10 +629,10 @@
    "metaDescription": "First grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 24,
-    "taught": 20,
+    "taught": 21,
     "near": 1,
-    "open": 3,
-    "lessons": 39
+    "open": 2,
+    "lessons": 42
    },
    "groups": [
     {
@@ -697,14 +725,14 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Add and subtract to color"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Partners that make 20"
         },
         {
@@ -787,20 +815,34 @@
       {
        "code": "1.NBT.B.2",
        "state": "taught",
-       "text": "Children read a two-digit number shown with base-ten blocks (tens rods and ones cubes), and choose the blocks that show a number.",
+       "text": "Children build the numbers 11 to 19 with one ten-rod and loose cubes and write them as one ten and some ones.",
        "lessons": [
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
          "n": 1,
+         "title": "Teen numbers: one ten and some ones"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Count the tens: 10 to 90"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 3,
          "title": "Tens and ones"
         },
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 4,
+         "n": 6,
          "title": "Number of the day"
         }
        ]
@@ -828,7 +870,7 @@
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 3,
+         "n": 5,
          "title": "Compare and order two-digit numbers"
         }
        ]
@@ -849,21 +891,21 @@
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
-         "n": 2,
+         "n": 3,
          "title": "Add ones to a two-digit number"
         },
         {
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
-         "n": 3,
+         "n": 4,
          "title": "Add ones and make a new ten"
         },
         {
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Add two two-digit numbers: tens with tens, ones with ones"
         }
        ]
@@ -891,7 +933,7 @@
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 4,
+         "n": 6,
          "title": "Number of the day"
         },
         {
@@ -902,12 +944,25 @@
          "title": "Jumps on the hundreds chart"
         }
        ]
+      },
+      {
+       "code": "1.NBT.C.6",
+       "state": "taught",
+       "text": "Children subtract multiples of 10 from multiples of 10 in the range 10 to 90 (70 − 30) by crossing out ten-rods, and explain why 7 tens take away 3 tens leaves 4 tens.",
+       "lessons": [
+        {
+         "unit": "adding-within-100-grade-1-unit",
+         "unitTitle": "Adding Within 100",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Subtract tens from tens"
+        }
+       ]
       }
      ],
      "open": [
       "1.NBT.B.2.b",
-      "1.NBT.B.2.c",
-      "1.NBT.C.6"
+      "1.NBT.B.2.c"
      ]
     },
     {
@@ -1076,7 +1131,7 @@
     "taught": 20,
     "near": 2,
     "open": 6,
-    "lessons": 40
+    "lessons": 41
    },
    "groups": [
     {
@@ -1113,7 +1168,7 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "Odd or even?"
         },
         {
@@ -1318,7 +1373,7 @@
          "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
          "n": 4,
-         "title": "Subtract across zeros"
+         "title": "Subtract three-digit numbers with regrouping"
         }
        ]
       },
@@ -3143,7 +3198,7 @@
     "taught": 19,
     "near": 0,
     "open": 15,
-    "lessons": 40
+    "lessons": 44
    },
    "groups": [
     {
@@ -3354,21 +3409,21 @@
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
          "n": 2,
-         "title": "Take apart 8 and 9"
+         "title": "Take apart 6 and 7"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
          "n": 3,
-         "title": "How many more to make 10?"
+         "title": "Take apart 8 and 9"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
          "n": 4,
-         "title": "Partners of 10"
+         "title": "How many more to make 10?"
         }
        ]
       },
@@ -3634,7 +3689,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 49
+    "lessons": 53
    },
    "groups": [
     {
@@ -3671,70 +3726,70 @@
       {
        "code": "1.2.B",
        "state": "taught",
-       "text": "Children read a two-digit number shown with base-ten blocks (tens rods and ones cubes), and choose the blocks that show a number.",
+       "text": "Children build the numbers 11 to 19 with one ten-rod and loose cubes and write them as one ten and some ones.",
        "lessons": [
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
          "n": 1,
+         "title": "Teen numbers: one ten and some ones"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Count the tens: 10 to 90"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 3,
          "title": "Tens and ones"
         },
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 4,
+         "n": 6,
          "title": "Number of the day"
-        },
-        {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
-         "unitGrade": "2",
-         "n": 1,
-         "title": "Bundle ten ones"
-        },
-        {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
-         "unitGrade": "2",
-         "n": 2,
-         "title": "Ten tens make one hundred"
         }
        ]
       },
       {
        "code": "1.2.C",
        "state": "taught",
-       "text": "Children show one number in many ways: as tens and ones, on ten frames, with tally marks, with its number word, and by writing 10 more and 10 less.",
+       "text": "Children count 1 to 9 ten-rods, say how many tens there are with no ones left over, and write the number from 10 to 90.",
        "lessons": [
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
          "n": 1,
+         "title": "Teen numbers: one ten and some ones"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Count the tens: 10 to 90"
+        },
+        {
+         "unit": "tens-and-ones-grade-1-unit",
+         "unitTitle": "Tens and Ones",
+         "unitGrade": "1",
+         "n": 3,
          "title": "Tens and ones"
         },
         {
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 4,
+         "n": 6,
          "title": "Number of the day"
-        },
-        {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
-         "unitGrade": "2",
-         "n": 1,
-         "title": "Bundle ten ones"
-        },
-        {
-         "unit": "place-value-to-1000-grade-2-unit",
-         "unitTitle": "Place Value to 1,000",
-         "unitGrade": "2",
-         "n": 2,
-         "title": "Ten tens make one hundred"
         }
        ]
       },
@@ -3761,7 +3816,7 @@
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 3,
+         "n": 5,
          "title": "Compare and order two-digit numbers"
         }
        ]
@@ -3775,7 +3830,7 @@
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 3,
+         "n": 5,
          "title": "Compare and order two-digit numbers"
         }
        ]
@@ -3789,7 +3844,7 @@
          "unit": "tens-and-ones-grade-1-unit",
          "unitTitle": "Tens and Ones",
          "unitGrade": "1",
-         "n": 3,
+         "n": 5,
          "title": "Compare and order two-digit numbers"
         }
        ]
@@ -3812,13 +3867,20 @@
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
          "n": 2,
-         "title": "Add ones to a two-digit number"
+         "title": "Subtract tens from tens"
         },
         {
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
          "n": 3,
+         "title": "Add ones to a two-digit number"
+        },
+        {
+         "unit": "adding-within-100-grade-1-unit",
+         "unitTitle": "Adding Within 100",
+         "unitGrade": "1",
+         "n": 4,
          "title": "Add ones and make a new ten"
         }
        ]
@@ -3867,7 +3929,7 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "How many more to make 10?"
         }
        ]
@@ -3881,14 +3943,14 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Add and subtract to color"
         },
         {
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Partners that make 20"
         },
         {
@@ -3962,14 +4024,21 @@
       {
        "code": "1.5.A",
        "state": "near",
-       "text": "Children count aloud to 100, point to each number on a hundreds chart as they say it, and write the numbers that are missing on the chart.",
+       "text": "Children count aloud to 50 by ones, touch each box of a number chart from 1 to 50, and write the numbers that are missing.",
        "rel": "prepares",
        "lessons": [
         {
          "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
          "unitTitle": "Teen Numbers and Counting to 100",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
+         "title": "Count to 50"
+        },
+        {
+         "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
+         "unitTitle": "Teen Numbers and Counting to 100",
+         "unitGrade": "K",
+         "n": 6,
          "title": "Count to 100 on the hundreds chart"
         },
         {
@@ -3990,7 +4059,7 @@
          "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
          "unitTitle": "Teen Numbers and Counting to 100",
          "unitGrade": "K",
-         "n": 4,
+         "n": 8,
          "title": "Count by tens to 100"
         },
         {
@@ -4018,7 +4087,14 @@
          "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
          "unitTitle": "Teen Numbers and Counting to 100",
          "unitGrade": "K",
-         "n": 3,
+         "n": 5,
+         "title": "Count to 50"
+        },
+        {
+         "unit": "teen-numbers-and-counting-to-100-kindergarten-unit",
+         "unitTitle": "Teen Numbers and Counting to 100",
+         "unitGrade": "K",
+         "n": 6,
          "title": "Count to 100 on the hundreds chart"
         },
         {
@@ -4034,13 +4110,6 @@
          "unitGrade": "1",
          "n": 3,
          "title": "1 more, 1 less, 10 more, 10 less"
-        },
-        {
-         "unit": "tens-and-ones-grade-1-unit",
-         "unitTitle": "Tens and Ones",
-         "unitGrade": "1",
-         "n": 4,
-         "title": "Number of the day"
         }
        ]
       },
@@ -4385,7 +4454,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 44
+    "lessons": 46
    },
    "groups": [
     {
@@ -4590,7 +4659,7 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Add and subtract to color"
         },
         {
@@ -4654,7 +4723,7 @@
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Add two two-digit numbers: tens with tens, ones with ones"
         },
         {
@@ -4749,7 +4818,7 @@
          "unit": "putting-together-and-number-bonds-kindergarten-unit",
          "unitTitle": "Number Bonds and Partners of 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "Odd or even?"
         },
         {
@@ -5185,7 +5254,7 @@
          "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 1,000",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Subtract across zeros"
         },
         {

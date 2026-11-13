@@ -10,9 +10,9 @@
    "subject": "math",
    "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
    "metaTitle": "Mathe Klasse 1: Zahlen bis 10 | Unterrichtseinheit",
-   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zum Sortieren, zum Zählen und Ziffernschreiben bis 10, zum Vergleichen mit <, > und =, zu Vorgänger, Nachfolger und Ordnungszahlen.",
-   "days": 18,
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zum Zählen und Ziffernschreiben bis 10, zum Vergleichen und Ordnen und zum Zerlegen mit Schüttelbox und Zahlenhaus.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -313,6 +313,96 @@
       "watch": "Prüfe den Punkt hinter jeder Ordnungszahl und ob ein Kind von der Fahne aus zählt. Die Ordnungszahl-Wörter zu lesen ist eine Leseaufgabe; lies sie mit den Kindern, die das noch nicht können."
      },
      "days": 3
+    },
+    {
+     "n": 7,
+     "point": "K:number-bonds-k",
+     "title": "Zahlen zerlegen: die Schüttelbox",
+     "objective": "Die Kinder zerlegen die Zahlen von 2 bis 9 mit Plättchen in zwei Teile und bestimmen den verdeckten Teil, wenn die ganze Zahl und ein Teil bekannt sind.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-635",
+       "title": "Wie viele verstecken sich? Zahlen bis 9",
+       "core": "zahlzerlegung-objekte-sw-k635",
+       "easy": "zahlzerlegung-leicht-verschiedenes-k635",
+       "hard": "zahlzerlegung-schwer-vogel-2-k635"
+      }
+     ],
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "zahlen-zerlegen",
+      "name": "Zahlen zerlegen"
+     },
+     "exit": {
+      "slug": "zahlzerlegung-mobel-k635-2",
+      "title": "Wie viele verstecken sich? Zahlen bis 9"
+     },
+     "note": {
+      "mistake": "Viele Kinder schreiben die Zahl der sichtbaren Dinge noch einmal auf oder die ganze Zahl aus dem Kreis. Andere raten. Wer noch alles einzeln abzählt, findet den versteckten Teil nicht, weil er ihn nicht sehen kann.",
+      "words": "Schüttle zuerst eine echte Schüttelbox und decke eine Seite mit der Hand ab: „Es sind 7 Plättchen. Auf dieser Seite sehe ich 4. Wie viele liegen auf der verdeckten Seite?“ Sage beim Blatt: „Der Becher ist die verdeckte Seite.“ Lass weiterzählen: „4, und dann 5, 6, 7: Das sind 3.“ Sprich den Satz mit: „7 ist 4 und 3.“",
+      "watch": "Achte darauf, wer von der sichtbaren Zahl aus weiterzählt und wer die Zerlegung schon weiß. Lass einzelne Kinder mit Plättchen prüfen: Beide Teile zusammen müssen die Zahl im Kreis ergeben."
+     },
+     "days": 2
+    },
+    {
+     "n": 8,
+     "point": "K:number-bonds-k",
+     "title": "Zahlenhäuser: alle Zerlegungen finden",
+     "objective": "Die Kinder ergänzen in Zahlenhäusern bis 10 den fehlenden Teil, finden durch geordnetes Probieren alle Zerlegungen der Zahlen 6 bis 8 in zwei Teile und erklären, woran sie sehen, dass keine fehlt.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-456",
+       "title": "Zahlenhäuser",
+       "core": "zahlzerlegung-k456",
+       "easy": "zahlzerlegung-leicht-k456-6",
+       "hard": "zahlzerlegung-schwer-k456-7"
+      },
+      {
+       "type": "K-638",
+       "title": "Zahlenhäuser: alle Zerlegungen finden",
+       "core": "zahlzerlegung-k638",
+       "easy": "zahlzerlegung-leicht-k638-4",
+       "hard": "zahlzerlegung-schwer-k638-5"
+      }
+     ],
+     "id": "K:number-bonds-k#zahlenhaeuser",
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "zahlen-zerlegen",
+      "name": "Zahlen zerlegen"
+     },
+     "exit": {
+      "slug": "zahlzerlegung-k638-2",
+      "title": "Zahlenhäuser: alle Zerlegungen finden"
+     },
+     "maker": {
+      "id": "number-bonds",
+      "name": "Zahlzerlegung und Aufgabenfamilien",
+      "slug": "zahlzerlegung-und-zahlenhaeuser-arbeitsblaetter-erstellen",
+      "template": "K-456"
+     },
+     "note": {
+      "mistake": "Kinder schreiben Zerlegungen ungeordnet auf, wiederholen eine oder finden nicht alle. Manche halten 2 und 4 und 4 und 2 für dasselbe und lassen Stockwerke leer. Einige schreiben die Null (0 und 6); dafür hat das Haus kein Stockwerk.",
+      "words": "Beginne mit den halb gefüllten Häusern und frage: „Was fällt dir an den beiden Spalten auf?“ Lege dann 6 Plättchen in eine Reihe und schiebe einen Stift dazwischen: „1 und 5.“ Schiebe den Stift ein Plättchen weiter: „2 und 4.“ Frage: „Was passiert mit der linken Zahl? Was mit der rechten?“ So entsteht die Ordnung: Links wird es immer eins mehr, rechts eins weniger.",
+      "watch": "Sieh nach, ob die Kinder geordnet vorgehen. Frage: „Woher weißt du, dass du alle hast?“ Eine gute Antwort nennt die Reihenfolge oder die Zahl der Stockwerke. Lass die Tauschpaare (2 und 4, 4 und 2) mit derselben Farbe einkreisen."
+     },
+     "days": 3
     }
    ]
   },
@@ -324,9 +414,9 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 1: 4 Stunden zum Dazutun und Wegnehmen bis 10, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl, jede mit Lehrerhinweis.",
-   "days": 12,
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Dazutun und Wegnehmen bis 10, zu Tauschaufgaben, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl.",
+   "days": 14,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -379,6 +469,45 @@
     },
     {
      "n": 2,
+     "point": "1:fact-families",
+     "title": "Tauschaufgaben: 2 + 5 und 5 + 2",
+     "objective": "Die Kinder lösen Tauschaufgaben bis 10 und erläutern am Bild, warum beide Aufgaben dasselbe Ergebnis haben.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-562",
+       "title": "Tauschaufgaben beim Plusrechnen",
+       "core": "rechnen-mit-bildern-wetter-g1562-2",
+       "easy": "rechnen-mit-bildern-leicht-bildung-sw-g1562-2",
+       "hard": "rechnen-mit-bildern-schwer-kuchenwerkzeuge-g1562"
+      }
+     ],
+     "id": "1:fact-families#tauschaufgaben",
+     "tool": {
+      "key": "number-balance",
+      "slug": "zahlenwaage",
+      "name": "Zahlenwaage"
+     },
+     "exit": {
+      "slug": "rechnen-mit-bildern-natur-sw-g1562-3",
+      "title": "Tauschaufgaben beim Plusrechnen"
+     },
+     "note": {
+      "mistake": "Viele Kinder rechnen beide Aufgaben neu und zählen jedes Mal alles ab; sie sehen nicht, dass das Ergebnis gleich bleiben muss. Manche glauben, 2 + 5 sei schwerer als 5 + 2 und deshalb etwas anderes.",
+      "words": "Zeige auf das Bild: „Hier sind 2 und hier 5. Wie viele zusammen?“ Dann: „Jetzt fange ich mit der anderen Gruppe an: 5 und 2. Sind es mehr geworden? Weniger?“ Halte fest: „Die Zahlen tauschen den Platz, das Ergebnis bleibt.“ Frage: „Welche der beiden Aufgaben rechnest du lieber? Warum?“",
+      "watch": "Achte darauf, wer das zweite Ergebnis ohne Rechnen hinschreibt: Das ist das Ziel. Frage nach, ob das Kind mit der größeren Zahl beginnt, wenn es weiterzählt (bei 2 + 7 von der 7 aus)."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "1:subtract-cross-out",
      "title": "Wegnehmen: Wie viele bleiben übrig?",
      "objective": "Die Kinder sehen eine Gruppe von höchstens 10 Bildern, von denen einige durchgestrichen sind, zählen, wie viele übrig bleiben, und schreiben diese Zahl auf.",
@@ -420,7 +549,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:make-10",
      "title": "Verliebte Zahlen: zusammen 10",
      "objective": "Die Kinder finden zu einer Zahl die Partnerzahl, mit der sie zusammen 10 ergibt, und kennen die Zahlenpaare der 10.",
@@ -473,7 +602,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:count-on-back-hops",
      "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen",
      "objective": "Die Kinder rechnen plus, indem sie am Zahlenstrahl vorwärts hüpfen, und minus, indem sie rückwärts hüpfen; sie starten bei der ersten Zahl.",
@@ -1050,12 +1179,51 @@
    "subject": "math",
    "title": "Verdoppeln, drei Summanden und Zahlenmauern",
    "metaTitle": "Mathe Klasse 1: Verdoppeln, drei Summanden und Zahlenmauern",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Verdoppeln und Halbieren, zu geraden und ungeraden Zahlen, drei Summanden und Zahlenmauern, jede mit Lehrerhinweis.",
-   "days": 13,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zu kleinen und großen Aufgaben bis 20, zum Verdoppeln und Halbieren, zu drei Summanden und zu Zahlenmauern.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
      "n": 1,
+     "point": "1:fluency-within-20",
+     "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4",
+     "objective": "Die Kinder lösen Plus- und Minusaufgaben im zweiten Zehner ohne Zehnerübergang, indem sie die kleine Aufgabe bis 10 nutzen (13 + 4, 17 − 5).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-561",
+       "title": "Kleine Aufgabe, große Aufgabe",
+       "core": "kopfrechnen-g1561",
+       "easy": "kopfrechnen-leicht-g1561-6",
+       "hard": "kopfrechnen-schwer-g1561-11"
+      }
+     ],
+     "id": "1:fluency-within-20#kleine-aufgabe-grosse-aufgabe",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rechenrahmen",
+      "name": "Rechenrahmen"
+     },
+     "exit": {
+      "slug": "kopfrechnen-g1561-2",
+      "title": "Kleine Aufgabe, große Aufgabe"
+     },
+     "note": {
+      "mistake": "Kinder rechnen die große Aufgabe ganz neu und zählen von 13 in Einerschritten weiter, statt die kleine Aufgabe zu nutzen. Bei Minus rechnen manche nur die kleine Aufgabe und vergessen den Zehner im Ergebnis (17 − 5 = 2).",
+      "words": "Zeige beide Aufgaben am Rechenrahmen oder im Zwanzigerfeld: „Oben ist die volle Zehnerreihe. Die bleibt liegen. Unten rechnen wir 3 + 4.“ Frage: „Was ist bei der großen Aufgabe gleich? Was ist anders?“ Merksatz: „Die kleine Aufgabe hilft der großen. Der Zehner kommt dazu.“",
+      "watch": "Beobachte, wer nach der kleinen Aufgabe sofort das große Ergebnis schreibt und wer wieder zählt. Das leichtere Blatt hat nur Plusaufgaben: Beginne damit. Das Blatt für alle hat nur Minusaufgaben, das schwerere mischt beides."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
      "point": "1:doubles-halves",
      "title": "Verdoppeln und Halbieren",
      "objective": "Die Kinder verdoppeln eine Gruppe von Bildern und teilen eine gerade Anzahl in zwei gleiche Hälften; sie schreiben die Zahlen dazu.",
@@ -1113,7 +1281,7 @@
      "days": 3
     },
     {
-     "n": 2,
+     "n": 3,
      "point": "1:odd-even-pairs",
      "title": "Gerade und ungerade Zahlen",
      "objective": "Die Kinder zählen eine Menge in Paaren oder teilen sie abwechselnd an zwei Kinder aus und sagen, ob die Anzahl gerade oder ungerade ist.",
@@ -1171,7 +1339,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:add-three-addends",
      "title": "Drei Gruppen addieren",
      "objective": "Die Kinder addieren drei Gruppen von Bildern und schreiben das Ergebnis auf; im Gespräch lernen sie, zuerst zwei Zahlen zusammenzurechnen, die gut zueinander passen.",
@@ -1220,7 +1388,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:number-walls",
      "title": "Zahlenmauern",
      "objective": "Die Kinder füllen eine Zahlenmauer aus, in der jeder Stein die Summe der beiden Steine unter ihm ist, und finden einen fehlenden Grundstein.",
@@ -9162,26 +9330,28 @@
    "status": "live",
    "grade": "1",
    "subject": "math",
-   "title": "Mathe Klasse 1: Stoffverteilung für 25 Wochen",
-   "metaTitle": "Mathe Klasse 1: Stoffverteilung für 25 Wochen (8 Einheiten)",
-   "metaDescription": "8 Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa 25 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 25,
+   "title": "Mathe Klasse 1: Stoffverteilung für 27 Wochen",
+   "metaTitle": "Mathe Klasse 1: Stoffverteilung für 27 Wochen (8 Einheiten)",
+   "metaDescription": "8 Unterrichtseinheiten für Mathe Klasse 1 in Unterrichtsreihenfolge, etwa 27 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 27,
    "framework": null,
    "units": [
     {
      "id": "de1-zahlen-bis-10",
      "slug": "zahlen-bis-10-klasse-1",
      "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
-     "weeks": 4,
+     "weeks": 5,
      "from": 1,
-     "to": 4,
+     "to": 5,
      "lessons": [
       "Sortieren: Was gehört zusammen?",
       "Zahlen 1 bis 5: zählen und Ziffern schreiben",
       "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr",
       "Mehr, weniger, gleich viele: die Zeichen <, > und =",
       "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
-      "Ordnungszahlen: vom ersten bis zum zehnten Platz"
+      "Ordnungszahlen: vom ersten bis zum zehnten Platz",
+      "Zahlen zerlegen: die Schüttelbox",
+      "Zahlenhäuser: alle Zerlegungen finden"
      ],
      "standards": []
     },
@@ -9189,11 +9359,12 @@
      "id": "g1-add-subtract-within-10",
      "slug": "plus-und-minus-bis-10-klasse-1",
      "title": "Plus und Minus bis 10",
-     "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "weeks": 3,
+     "from": 6,
+     "to": 8,
      "lessons": [
       "Zwei Gruppen zusammenzählen",
+      "Tauschaufgaben: 2 + 5 und 5 + 2",
       "Wegnehmen: Wie viele bleiben übrig?",
       "Verliebte Zahlen: zusammen 10",
       "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
@@ -9205,8 +9376,8 @@
      "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
      "title": "Plus und Minus bis 10: Aufgabenfamilien und Rechengeschichten",
      "weeks": 3,
-     "from": 7,
-     "to": 9,
+     "from": 9,
+     "to": 11,
      "lessons": [
       "Aufgabenfamilien bis 10",
       "Platzhalteraufgaben: Welche Zahl fehlt?",
@@ -9221,8 +9392,8 @@
      "slug": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
      "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
      "weeks": 3,
-     "from": 10,
-     "to": 12,
+     "from": 12,
+     "to": 14,
      "lessons": [
       "Zahlen bis 20 in zwei Zehnerfeldern: ein Zehner und Einer",
       "Zahl des Tages",
@@ -9236,9 +9407,10 @@
      "slug": "verdoppeln-drei-summanden-und-zahlenmauern-klasse-1",
      "title": "Verdoppeln, drei Summanden und Zahlenmauern",
      "weeks": 3,
-     "from": 13,
-     "to": 15,
+     "from": 15,
+     "to": 17,
      "lessons": [
+      "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4",
       "Verdoppeln und Halbieren",
       "Gerade und ungerade Zahlen",
       "Drei Gruppen addieren",
@@ -9251,8 +9423,8 @@
      "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
      "title": "Plus über die 10 und Rechnen bis 20",
      "weeks": 3,
-     "from": 16,
-     "to": 18,
+     "from": 18,
+     "to": 20,
      "lessons": [
       "Plus über die 10: erst bis zur 10, dann weiter",
       "Verdoppeln hilft: 6 + 7",
@@ -9267,8 +9439,8 @@
      "slug": "uhr-kalender-und-geld-klasse-1",
      "title": "Uhr, Kalender und Geld",
      "weeks": 3,
-     "from": 19,
-     "to": 21,
+     "from": 21,
+     "to": 23,
      "lessons": [
       "Die Uhr lesen: volle und halbe Stunden",
       "Uhrzeiger einzeichnen",
@@ -9283,8 +9455,8 @@
      "slug": "formen-messen-und-diagramme-klasse-1",
      "title": "Formen, Messen und Diagramme",
      "weeks": 4,
-     "from": 22,
-     "to": 25,
+     "from": 24,
+     "to": 27,
      "lessons": [
       "Dreieck, Rechteck, Quadrat: Woran erkenne ich die Form?",
       "Tangram: Figuren legen",

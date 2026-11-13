@@ -94,7 +94,8 @@
             "days": 3,
             "tool": "Zahlen zerlegen",
             "source": "new",
-            "page": "Das Blatt zeigt Schüttelboxen von oben: ein Kasten mit Trennwand, links und rechts liegen Plättchen (zusammen 2 bis 9, auf jeder Seite mindestens eines). Über jeder Box steht die ganze Zahl; das Kind schreibt in die zwei Kästchen darunter, wie viele links und wie viele rechts liegen. Bei vier Boxen ist nur eine Seite gezeichnet, die andere ist abgedeckt: Das Kind malt die fehlenden Plättchen und schreibt beide Zahlen."
+            "page": "Das Blatt zeigt Schüttelboxen von oben: ein Kasten mit Trennwand, links und rechts liegen Plättchen (zusammen 2 bis 9, auf jeder Seite mindestens eines). Über jeder Box steht die ganze Zahl; das Kind schreibt in die zwei Kästchen darunter, wie viele links und wie viele rechts liegen. Bei vier Boxen ist nur eine Seite gezeichnet, die andere ist abgedeckt: Das Kind malt die fehlenden Plättchen und schreibt beide Zahlen.",
+            "placed": "K:number-bonds-k"
           },
           {
             "new": true,
@@ -104,7 +105,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt vier Zahlenhäuser mit den Dachzahlen 6, 7, 8 und 9; jedes Haus hat genau so viele Stockwerke mit zwei Kästchen, wie es Zerlegungen in zwei Teile ab 1 gibt (bei der 6 fünf Stockwerke). Im ersten Haus sind die ersten zwei Stockwerke vorgegeben (1 und 5, 2 und 4); das Kind füllt alle Häuser der Reihe nach und kreist in jedem Haus die Tauschpaare mit derselben Farbe ein."
+            "page": "Das Blatt zeigt vier Zahlenhäuser mit den Dachzahlen 6, 7, 8 und 9; jedes Haus hat genau so viele Stockwerke mit zwei Kästchen, wie es Zerlegungen in zwei Teile ab 1 gibt (bei der 6 fünf Stockwerke). Im ersten Haus sind die ersten zwei Stockwerke vorgegeben (1 und 5, 2 und 4); das Kind füllt alle Häuser der Reihe nach und kreist in jedem Haus die Tauschpaare mit derselben Farbe ein.",
+            "placed": "K:number-bonds-k#zahlenhaeuser"
           }
         ],
         "opened": "de1-zahlen-bis-10"
@@ -126,7 +128,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Plättchenreihen in zwei Farben (zum Beispiel 2 rote und 5 blaue), daneben dieselbe Reihe umgedreht (5 blaue und 2 rote). Das Kind schreibt zu jedem Bildpaar beide Plusaufgaben mit Ergebnis (2 + 5 = 7 und 5 + 2 = 7, Summen bis 10); im unteren Teil schreibt es zu sechs Aufgaben die Tauschaufgabe und kreuzt an, welche der beiden es leichter rechnet."
+            "page": "Das Blatt zeigt Plättchenreihen in zwei Farben (zum Beispiel 2 rote und 5 blaue), daneben dieselbe Reihe umgedreht (5 blaue und 2 rote). Das Kind schreibt zu jedem Bildpaar beide Plusaufgaben mit Ergebnis (2 + 5 = 7 und 5 + 2 = 7, Summen bis 10); im unteren Teil schreibt es zu sechs Aufgaben die Tauschaufgabe und kreuzt an, welche der beiden es leichter rechnet.",
+            "placed": "1:fact-families#tauschaufgaben"
           },
           {
             "existing": "1:subtract-cross-out",
@@ -260,7 +263,8 @@
             "days": 3,
             "tool": "Rechenrahmen",
             "source": "new",
-            "page": "Das Blatt zeigt Aufgabenpaare untereinander, jeweils mit einem kleinen Zwanzigerfeld-Bild: 3 + 4 und 13 + 4, 7 − 5 und 17 − 5. Das Kind rechnet zuerst die kleine, dann die große Aufgabe (16 Paare, alle ohne Zehnerübergang, Zahlenraum bis 20); in den letzten vier Paaren fehlt die kleine Aufgabe, und das Kind schreibt sie selbst dazu."
+            "page": "Das Blatt zeigt Aufgabenpaare untereinander, jeweils mit einem kleinen Zwanzigerfeld-Bild: 3 + 4 und 13 + 4, 7 − 5 und 17 − 5. Das Kind rechnet zuerst die kleine, dann die große Aufgabe (16 Paare, alle ohne Zehnerübergang, Zahlenraum bis 20); in den letzten vier Paaren fehlt die kleine Aufgabe, und das Kind schreibt sie selbst dazu.",
+            "placed": "1:fluency-within-20#kleine-aufgabe-grosse-aufgabe"
           },
           {
             "existing": "1:doubles-halves",

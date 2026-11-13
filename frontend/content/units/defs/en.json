@@ -49,7 +49,8 @@
      "types": [
       "G1-219",
       "G1-221"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "1:missing-number-equations",
@@ -529,14 +530,26 @@
    "subject": "math",
    "title": "Number Bonds and Partners of 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Number Bonds and Partners of 10",
-   "metaDescription": "A three-week Kindergarten math unit: 7 lessons on number bonds to 10, taking apart 8 and 9, and the partners of 10, with a first look at partners of 20.",
-   "weeks": 3,
+   "metaDescription": "A four-week Kindergarten math unit: 8 lessons on number bonds to 10, taking apart 6 to 9, and the partners of 10, with a first look at partners of 20.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:number-bonds-k",
      "types": [
       "K-273",
       "K-274"
+     ]
+    },
+    {
+     "point": "K:number-bonds-k",
+     "id": "K:number-bonds-k#take-apart-6-and-7",
+     "types": [
+      "K-636"
+     ],
+     "tool": "part-whole-frame",
+     "activity": null,
+     "standards": [
+      "K.OA.A.3"
      ]
     },
     {
@@ -610,8 +623,8 @@
    "subject": "math",
    "title": "Teen Numbers and Counting to 100",
    "metaTitle": "Kindergarten Math Lesson Plans: Teen Numbers and Counting to 100",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on teen numbers as ten and some more, counting to 100 on the hundreds chart, and counting by tens, with teacher notes.",
-   "weeks": 2,
+   "metaDescription": "A four-week Kindergarten math unit: 8 lessons on teen numbers as ten and some more, counting to 50 and to 100, counting on from any number, and counting by tens.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:teen-numbers",
@@ -636,6 +649,42 @@
      ]
     },
     {
+     "point": "K:teen-numbers",
+     "id": "K:teen-numbers#build-and-draw-a-teen-number",
+     "types": [
+      "K-637"
+     ],
+     "tool": "ten-frame",
+     "activity": null,
+     "standards": [
+      "K.NBT.A.1"
+     ]
+    },
+    {
+     "point": "K:teen-numbers",
+     "id": "K:teen-numbers#ten-and-how-many-more",
+     "types": [
+      "K-634"
+     ],
+     "tool": "counting-cups",
+     "activity": null,
+     "standards": [
+      "K.NBT.A.1"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "id": "1:hundreds-chart#count-to-50",
+     "types": [
+      "K-633"
+     ],
+     "tool": "number-hotel",
+     "activity": null,
+     "standards": [
+      "K.CC.A.1"
+     ]
+    },
+    {
      "point": "1:hundreds-chart",
      "id": "1:hundreds-chart#count-to-100",
      "types": [
@@ -648,6 +697,18 @@
      "activity": null,
      "standards": [
       "K.CC.A.1"
+     ]
+    },
+    {
+     "point": "K:count-forward-missing",
+     "id": "K:count-forward-missing#start-at-any-number",
+     "types": [
+      "K-632"
+     ],
+     "tool": "choral-counting",
+     "activity": null,
+     "standards": [
+      "K.CC.A.2"
      ]
     },
     {
@@ -744,9 +805,33 @@
    "subject": "math",
    "title": "Tens and Ones",
    "metaTitle": "Grade 1 Math Lesson Plans: Tens and Ones",
-   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on tens and ones, number words, comparing two-digit numbers, and the number of the day, each with a teacher note.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 1 math unit: 6 lessons on teen numbers, counting tens, tens and ones, number words, comparing two-digit numbers, and the number of the day.",
+   "weeks": 3,
    "lessons": [
+    {
+     "point": "1:tens-and-ones",
+     "id": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+     "types": [
+      "G1-564"
+     ],
+     "tool": "place-value-lab",
+     "activity": null,
+     "standards": [
+      "1.NBT.B.2"
+     ]
+    },
+    {
+     "point": "1:tens-and-ones",
+     "id": "1:tens-and-ones#count-the-tens",
+     "types": [
+      "G1-563"
+     ],
+     "tool": "place-value-lab",
+     "activity": null,
+     "standards": [
+      "1.NBT.B.2"
+     ]
+    },
     {
      "point": "1:tens-and-ones",
      "types": [
@@ -831,8 +916,8 @@
    "subject": "math",
    "title": "Adding Within 100",
    "metaTitle": "Grade 1 Math Lesson Plans: Adding Within 100",
-   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on adding tens, adding ones with and without a new ten, and adding two two-digit numbers with rods and cubes, with teacher notes.",
-   "weeks": 2,
+   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on adding tens, subtracting tens, adding ones with and without a new ten, and adding two-digit numbers with rods and cubes.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:mental-math-to-100",
@@ -848,6 +933,18 @@
      ],
      "noHard": [
       "G1-558"
+     ]
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#subtract-tens-from-tens",
+     "types": [
+      "G1-565"
+     ],
+     "tool": "number-hotel",
+     "activity": null,
+     "standards": [
+      "1.NBT.C.6"
      ]
     },
     {
@@ -1185,7 +1282,7 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 1,000",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 1,000",
-   "metaDescription": "A three-week Grade 2 math unit: 4 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
+   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on adding and subtracting three-digit numbers with blocks and in columns, with a new ten or hundred and across zeros.",
    "weeks": 3,
    "lessons": [
     {
@@ -1214,6 +1311,18 @@
      "point": "2:subtract-with-blocks",
      "types": [
       "G2-205"
+     ]
+    },
+    {
+     "point": "2:column-method",
+     "id": "2:column-method#subtract-three-digit-numbers",
+     "types": [
+      "G2-502"
+     ],
+     "tool": "exchange-machine",
+     "activity": null,
+     "standards": [
+      "2.NBT.B.7"
      ]
     },
     {

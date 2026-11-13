@@ -34,11 +34,19 @@
      "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
      "type": "G1-315",
      "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 7,
+     "title": "Zahlen zerlegen: die Schüttelbox",
+     "type": "K-635",
+     "tasks": 1
     }
    ],
    "notCovered": [
     1,
-    2
+    2,
+    8
    ],
    "forms": {
     "A": {
@@ -57,6 +65,9 @@
       ],
       [
        "a3b6016e82cd3eaa"
+      ],
+      [
+       "b1931d2558fe0a35"
       ]
      ],
      "pos": [
@@ -69,6 +80,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -89,6 +103,9 @@
       ],
       [
        "write 4"
+      ],
+      [
+       "w = + ? ? ?"
       ]
      ],
      "sizes": [
@@ -105,6 +122,9 @@
       ],
       [
        0
+      ],
+      [
+       8
       ]
      ]
     },
@@ -124,6 +144,9 @@
       ],
       [
        "7363028b12ff60ec"
+      ],
+      [
+       "ed3d6537e9e501a4"
       ]
      ],
      "pos": [
@@ -136,6 +159,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -156,6 +182,9 @@
       ],
       [
        "write 4"
+      ],
+      [
+       "w = + ? ? ?"
       ]
      ],
      "sizes": [
@@ -172,6 +201,9 @@
       ],
       [
        0
+      ],
+      [
+       9
       ]
      ]
     }
@@ -192,28 +224,38 @@
     {
      "part": 2,
      "lesson": 2,
-     "title": "Wegnehmen: Wie viele bleiben übrig?",
-     "type": "G1-103",
+     "title": "Tauschaufgaben: 2 + 5 und 5 + 2",
+     "type": "G1-562",
      "tasks": 1
     },
     {
      "part": 3,
      "lesson": 3,
+     "title": "Wegnehmen: Wie viele bleiben übrig?",
+     "type": "G1-103",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
      "title": "Verliebte Zahlen: zusammen 10",
      "type": "G1-106",
      "tasks": 1
     }
    ],
    "notCovered": [
-    4
+    5
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "672919f21bb45883",
        "350b9503cc33a63e"
+      ],
+      [
+       "75326a230b1a494d"
       ],
       [
        "58c9ecd07d734c4f"
@@ -232,12 +274,18 @@
       ],
       [
        null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
       [
        "+ = ?",
        "+ = ?"
+      ],
+      [
+       "w + w = ? w + w = ?"
       ],
       [
        "w − w = ?"
@@ -252,6 +300,9 @@
        3
       ],
       [
+       8
+      ],
+      [
        5
       ],
       [
@@ -260,11 +311,14 @@
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "d2b3b1ab82d83876",
        "3fec5b8d1053d2ad"
+      ],
+      [
+       "d850d4cc63b65065"
       ],
       [
        "2763cc0dd652cb6f"
@@ -283,12 +337,18 @@
       ],
       [
        null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
       [
        "+ = ?",
        "+ = ?"
+      ],
+      [
+       "w + w = ? w + w = ?"
       ],
       [
        "w − w = ?"
@@ -301,6 +361,9 @@
       [
        5,
        2
+      ],
+      [
+       9
       ],
       [
        4
@@ -637,27 +700,34 @@
     {
      "part": 1,
      "lesson": 1,
-     "title": "Verdoppeln und Halbieren",
-     "type": "G1-287",
+     "title": "Kleine Aufgabe, große Aufgabe: 3 + 4 und 13 + 4",
+     "type": "G1-561",
      "tasks": 2
     },
     {
      "part": 2,
      "lesson": 2,
-     "title": "Gerade und ungerade Zahlen",
-     "type": "G1-370",
+     "title": "Verdoppeln und Halbieren",
+     "type": "G1-287",
      "tasks": 2
     },
     {
      "part": 3,
      "lesson": 3,
+     "title": "Gerade und ungerade Zahlen",
+     "type": "G1-370",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
      "title": "Drei Gruppen addieren",
      "type": "G1-112",
      "tasks": 1
     },
     {
-     "part": 4,
-     "lesson": 4,
+     "part": 5,
+     "lesson": 5,
      "title": "Zahlenmauern",
      "type": "G1-266",
      "tasks": 2
@@ -666,8 +736,12 @@
    "notCovered": [],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
+      [
+       "41d448e9aa9fc14a",
+       "6300faa52b3b98dc"
+      ],
       [
        "4f5f910cd323bc3e",
        "91c2c0cd8e56849f"
@@ -690,6 +764,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        0,
        1
       ],
@@ -702,6 +780,10 @@
       ]
      ],
      "kinds": [
+      [
+       "w − w = ? w − w = ?",
+       "w − w = ? w − w = ?"
+      ],
       [
        "w w + w = ?",
        "w w + w = ?"
@@ -720,6 +802,10 @@
      ],
      "sizes": [
       [
+       18,
+       15
+      ],
+      [
        12,
        8
       ],
@@ -737,8 +823,12 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
+      [
+       "bf443a9f7d5897d1",
+       "6a2aad63ea527614"
+      ],
       [
        "78ee3d32ce0d6edc",
        "b3dfd80127d3ed5f"
@@ -761,6 +851,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        0,
        1
       ],
@@ -773,6 +867,10 @@
       ]
      ],
      "kinds": [
+      [
+       "w − w = ? w − w = ?",
+       "w − w = ? w − w = ?"
+      ],
       [
        "w w + w = ?",
        "w w + w = ?"
@@ -790,6 +888,10 @@
       ]
      ],
      "sizes": [
+      [
+       19,
+       16
+      ],
       [
        14,
        6

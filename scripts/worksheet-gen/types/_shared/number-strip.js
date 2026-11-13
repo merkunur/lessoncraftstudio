@@ -24,8 +24,11 @@ const STRIP_LEVELS = {
   },
   // Year pages E: count on from any number, to 50 and to 100 (K.CC.A.2)
   'K-632': {
-    1: v2({ rows: 4, blanks: 2, isolated: true, start: 'any', startMin: 11, startMax: 40, rangeMax: 50 }),
-    3: v2({ rows: 5, blanks: 4, adjacent: true, start: 'any', startMin: 26, startMax: 90, rangeMax: 100 }),
+    // tenBlanks: on that many strips the new ten itself is an empty box (38, 39, □, 41): naming the next ten is the hard
+    // step of counting on, and a random draw left it printed on whole pages
+    1: v2({ rows: 4, blanks: 2, isolated: true, start: 'any', startMin: 11, startMax: 40, rangeMax: 50, tenBlanks: 2 }),
+    2: v2({ rows: 5, blanks: 3, start: 'any', startMin: 12, startMax: 88, rangeMax: 100, tenBlanks: 3 }),
+    3: v2({ rows: 5, blanks: 4, adjacent: true, start: 'any', startMin: 26, startMax: 90, rangeMax: 100, tenBlanks: 3 }),
   },
   'K-023': { 1: v2({ rows: 4, blanks: 2, isolated: true }), 3: v2({ rows: 5, blanks: 4, adjacent: true }) },
   'G1-123': {
@@ -93,7 +96,7 @@ function makeNumberStripType(cfg) {
     assetClass: 'numeral-charts',
     exerciseType: 'number-charts',
     themeAxis: { applicable: true, minNouns: 1, decorative: true },
-    difficulty: L3 ? { 1: L3[1], 2: legacyLevels[2], 3: L3[3] } : legacyLevels,
+    difficulty: L3 ? { 1: L3[1], 2: L3[2] || legacyLevels[2], 3: L3[3] } : legacyLevels,   // a NEW face may bring its own level 2 (K-632)
     i18n,
     interactive: NCS.interactiveFor('choice', 'fill'),
     // what makes a copy different: its rows (start, rule) and which boxes are empty
@@ -153,6 +156,9 @@ function makeNumberStripType(cfg) {
       const order = rng.shuffle((d.steps || [stepFor(2)]).slice());
       const top = d.rangeMax || rangeMax;
       const cards = [], rowsOut = [], used = new Set();
+      // the rows on which the new ten is an empty box (drawn only where a level asks for it: other pages keep their draw)
+      const tenRows = d.tenBlanks ? new Set(rng.shuffle(Array.from({ length: d.rows }, (_, k) => k)).slice(0, d.tenBlanks)) : null;
+      const tenAt = (start, step) => { for (let k = 1; k < L; k++) if ((start + k * step) % 10 === 0) return k; return -1; };
       for (let i = 0; i < d.rows; i++) {
         const step = order[i % order.length];
         const span = step * (L - 1);
@@ -166,6 +172,7 @@ function makeNumberStripType(cfg) {
             if (d.start === 'multiple' && v % step !== 0) continue;
             if (d.start === 'off' && v % step === 0) continue;
             if (descending ? v - span < 0 || v > top : v + span > top) continue;
+            if (tenRows && tenRows.has(i) && tenAt(v, step) < 0) continue;
             cands.push(v);
           }
           const fresh = cands.filter((v) => !used.has(v + ':' + step));
@@ -174,7 +181,8 @@ function makeNumberStripType(cfg) {
         }
         used.add(start + ':' + step);
         const seq = Array.from({ length: L }, (_, k) => (descending ? start - k * step : start + k * step));
-        const blanks = pickBlanks(rng, L, d.blanks, d);
+        let blanks = pickBlanks(rng, L, d.blanks, d);
+        if (tenRows && tenRows.has(i)) { const k = tenAt(start, step); for (let t = 0; t < 300 && !blanks.includes(k); t++) blanks = pickBlanks(rng, L, d.blanks, d); if (!blanks.includes(k)) throw new Error(id + ': the new ten could not be made an empty box'); }
         const cellW = Math.min(72, Math.floor(600 / L) - 6);
         const sgn = descending ? -step : step;
         const cells = seq.map((v, k) => (blanks.includes(k)

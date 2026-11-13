@@ -235,7 +235,8 @@
             "days": 3,
             "tool": "Tioram",
             "source": "new",
-            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 13 + 4 eller 8 − 5 och 18 − 5, bredvid två tiorutor; eleven ritar brickorna och skriver båda svaren. Alla uppgifter ligger i talområdet 0–20 och är utan tiotalsövergång."
+            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 13 + 4 eller 8 − 5 och 18 − 5, bredvid två tiorutor; eleven ritar brickorna och skriver båda svaren. Alla uppgifter ligger i talområdet 0–20 och är utan tiotalsövergång.",
+            "placed": "1:fluency-within-20#samma-ental-en-tia-till"
           },
           {
             "new": true,

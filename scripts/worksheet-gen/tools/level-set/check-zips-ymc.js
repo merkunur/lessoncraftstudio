@@ -23,7 +23,12 @@ for (const w of fs.readdirSync(root).filter((d) => (/^wave-ymc-[a-z]{2}$/.test(d
     const desc = (/name="description" content="([^"]*)"/.exec(html) || [])[1] || '';
     const probs = [];
     if (m.indexable !== false) probs.push('NOT marked indexable:false');
-    if (m.interactive || z.getEntry('answer-key.pdf') || /window.DECK_BUNDLE=/.test(html)) probs.push('has a screen or an answer key, which this set does not make');
+    // G1-511 (Compare Word Problems) is of the word-problems family, which has a screen adapter: its pages carry a screen
+    // version and an answer key (played by qa/verify-interactive.js). Every other type of this batch is PDF only.
+    const playable = m.settings.worksheet_type === 'G1-511';
+    const hasScreen = !!m.interactive && !!z.getEntry('answer-key.pdf') && /window.DECK_BUNDLE=/.test(html);
+    const anyScreen = !!m.interactive || !!z.getEntry('answer-key.pdf') || /window.DECK_BUNDLE=/.test(html);
+    if (playable ? !hasScreen : anyScreen) probs.push(playable ? 'a page of a playable type without its screen or answer key' : 'has a screen or an answer key, which this type does not make');
     if (m.printable_only !== true || !z.getEntry('printable.pdf')) probs.push('no printable PDF');
     if (m.settings.difficulty === 2 ? (m.exercise_mode != null && m.exercise_mode !== 'core') : !['easy', 'hard'].includes(m.exercise_mode)) probs.push('level ' + m.settings.difficulty + ' carries the level word "' + m.exercise_mode + '"');
     if (title.length > 100) probs.push('title ' + title.length + ' > 100');

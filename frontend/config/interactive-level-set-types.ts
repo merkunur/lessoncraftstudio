@@ -91,5 +91,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   money: ['g2472'],
   'number-bonds': ['k456', 'k457'],
   'graphing-data': ['g1481'],
-  'word-problems': ['g1511', 'g2489'],
+  'word-problems': ['g2489'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
 };

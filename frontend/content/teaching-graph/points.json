@@ -1708,7 +1708,6 @@
     "G1-543",
     "G1-545",
     "G1-556",
-    "G1-557",
     "K-607"
    ],
    "families": [
@@ -2135,11 +2134,13 @@
    "code": "1.NBT.C.4 / 1.NBT.C.6 / 2.NBT.B.5",
    "types": [
     "G1-446",
+    "G1-557",
     "G1-558",
     "G1-559"
    ],
    "families": [
-    "mental-math"
+    "mental-math",
+    "number-lines"
    ],
    "activities": [],
    "planned": [],

@@ -481,7 +481,9 @@
    "types": [
     "K-019",
     "K-020",
-    "K-604"
+    "K-604",
+    "K-632",
+    "K-633"
    ],
    "families": [
     "number-charts"
@@ -815,7 +817,10 @@
     "K-417",
     "K-454",
     "K-456",
-    "K-608"
+    "K-608",
+    "K-635",
+    "K-636",
+    "K-638"
    ],
    "families": [
     "counting-frames",
@@ -918,11 +923,14 @@
    "code": "K.NBT.A.1",
    "types": [
     "K-448",
-    "K-627"
+    "K-627",
+    "K-634",
+    "K-637"
    ],
    "families": [
     "base-ten",
-    "counting-frames"
+    "counting-frames",
+    "number-bonds"
    ],
    "activities": [],
    "planned": [],
@@ -1455,7 +1463,8 @@
     "G1-220",
     "G1-221",
     "G1-222",
-    "G1-441"
+    "G1-441",
+    "G1-562"
    ],
    "families": [
     "fact-families",
@@ -1708,6 +1717,7 @@
     "G1-543",
     "G1-545",
     "G1-556",
+    "G1-561",
     "K-607"
    ],
    "families": [
@@ -1821,7 +1831,9 @@
     "G1-121",
     "G1-122",
     "G1-133",
-    "G1-551"
+    "G1-551",
+    "G1-563",
+    "G1-564"
    ],
    "families": [
     "base-ten"
@@ -2136,9 +2148,11 @@
     "G1-446",
     "G1-557",
     "G1-558",
-    "G1-559"
+    "G1-559",
+    "G1-565"
    ],
    "families": [
+    "base-ten",
     "mental-math",
     "number-lines"
    ],
@@ -2781,7 +2795,8 @@
     "G2-257",
     "G2-258",
     "G2-259",
-    "G2-397"
+    "G2-397",
+    "G2-502"
    ],
    "families": [
     "column-arithmetic"
@@ -3124,7 +3139,8 @@
    "code": "3.OA.A.2 (2.OA.C.4 readiness)",
    "types": [
     "G2-216",
-    "G2-217"
+    "G2-217",
+    "K-639"
    ],
    "families": [
     "arrays-multiplication"

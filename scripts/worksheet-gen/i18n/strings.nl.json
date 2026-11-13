@@ -4810,5 +4810,61 @@
   "K-627": {
     "title": "Tien en nog wat",
     "instruction": "Omcirkel 10. Schrijf hoeveel er nog over zijn. Schrijf dan het getal."
+  },
+  "K-632": {
+    "title": "Verder tellen tot 100",
+    "instruction": "Tel langs de strook. Schrijf elk ontbrekend getal op."
+  },
+  "K-633": {
+    "title": "Het getallenveld tot 50",
+    "instruction": "Sommige getallen zijn verstopt. Schrijf elk ontbrekend getal in zijn vak."
+  },
+  "K-634": {
+    "title": "Tien en hoeveel erbij?",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "K-635": {
+    "title": "Hoeveel zijn er verstopt? Tot 9",
+    "instruction": "De cirkel laat zien hoeveel het er samen zijn. Een paar zie je. De rest zit verstopt onder de beker. Schrijf op hoeveel er verstopt zijn."
+  },
+  "G2-502": {
+    "title": "Aftrekken tot 1000 met lenen",
+    "instruction": "Reken elke som kolom voor kolom uit. Leen als dat nodig is."
+  },
+  "K-636": {
+    "title": "De 6 en de 7 splitsen",
+    "instruction": "Kleur de vakjes: zoveel rood als het rode getal, zoveel blauw als het blauwe getal."
+  },
+  "K-637": {
+    "title": "Teken het getal in twee tienramen",
+    "instruction": "Lees het getal. Teken zoveel stippen in de twee tienramen. Vul eerst het eerste tienraam, dan het tweede."
+  },
+  "K-638": {
+    "title": "Splitshuizen: alle splitsingen",
+    "instruction": "Het dak laat het getal zien. Zoek alle manieren om het in twee delen te splitsen. Schrijf op elke verdieping één splitsing."
+  },
+  "K-639": {
+    "title": "Eén voor jou, één voor mij: eerlijk delen",
+    "instruction": "Verdeel de stapel eerlijk over de bakken. Schrijf op hoeveel elk krijgt."
+  },
+  "G1-561": {
+    "title": "Kleine som, grote som",
+    "instruction": "Reken eerst de kleine som uit. Die helpt je bij de grote som eronder."
+  },
+  "G1-562": {
+    "title": "Verwisselsommen",
+    "instruction": "Tel de twee groepen op. Draai daarna de getallen om en tel nog een keer op. Wat valt je op?"
+  },
+  "G1-563": {
+    "title": "Tel de tientallen: 10 tot 90",
+    "instruction": "Tel de tienstaven. Schrijf op hoeveel tientallen er zijn. Schrijf daarna het getal."
+  },
+  "G1-564": {
+    "title": "Van 11 tot 19: één tiental en eenheden",
+    "instruction": "Kijk naar de tienstaaf en de eenheden. Schrijf op hoeveel eenheden er zijn. Schrijf daarna het getal."
+  },
+  "G1-565": {
+    "title": "Tientallen aftrekken van tientallen",
+    "instruction": "Streep de tienstaven door die je weghaalt. Schrijf het getal op dat overblijft."
   }
 }

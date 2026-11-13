@@ -4805,5 +4805,61 @@
   "K-627": {
     "title": "Diez y algunos más",
     "instruction": "Encierra 10. Escribe cuántos quedan fuera. Luego escribe el número."
+  },
+  "K-632": {
+    "title": "Contar desde cualquier número",
+    "instruction": "Cuenta por la tira. Escribe cada número que falta."
+  },
+  "K-633": {
+    "title": "La tabla numérica del 1 al 50",
+    "instruction": "Algunos números se esconden. Escribe cada número que falta en su cuadro."
+  },
+  "K-634": {
+    "title": "Diez y ¿cuántos más?",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "K-635": {
+    "title": "¿Cuántos están escondidos? Hasta el 9",
+    "instruction": "El círculo muestra cuántos hay en total. Puedes ver algunos. Los demás están escondidos debajo del vaso. Escribe cuántos están escondidos."
+  },
+  "G2-502": {
+    "title": "Restas de tres cifras con transformación",
+    "instruction": "Resta en columnas. Pide prestado cuando haga falta."
+  },
+  "K-636": {
+    "title": "Descomponer el 6 y el 7",
+    "instruction": "Colorea los cuadros: tantos en rojo como el número rojo y tantos en azul como el número azul."
+  },
+  "K-637": {
+    "title": "Dibuja el número en dos marcos de diez",
+    "instruction": "Lee el número. Dibuja esa cantidad de puntos en los dos marcos de diez. Llena primero el primer marco y después el segundo."
+  },
+  "K-638": {
+    "title": "Casitas de los números: todas las maneras",
+    "instruction": "El techo muestra el número. Encuentra todas las maneras de separarlo en dos partes. Escribe una manera en cada piso."
+  },
+  "K-639": {
+    "title": "Uno para ti, uno para mí: reparte por igual",
+    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos le tocan a cada uno."
+  },
+  "G1-561": {
+    "title": "Operación pequeña, operación grande",
+    "instruction": "Resuelve primero la operación pequeña. Úsala para resolver la operación grande de abajo."
+  },
+  "G1-562": {
+    "title": "Cambia el orden de los sumandos",
+    "instruction": "Suma los dos grupos. Después cambia el orden de los números y suma otra vez. ¿Qué notas?"
+  },
+  "G1-563": {
+    "title": "Cuenta las decenas: del 10 al 90",
+    "instruction": "Cuenta las barras de diez. Escribe cuántas decenas hay. Después escribe el número."
+  },
+  "G1-564": {
+    "title": "Del 11 al 19: una decena y unidades",
+    "instruction": "Mira la barra de diez y las unidades. Escribe cuántas unidades hay. Después escribe el número."
+  },
+  "G1-565": {
+    "title": "Restar decenas de decenas",
+    "instruction": "Tacha las barras de diez que quitas. Escribe el número que queda."
   }
 }

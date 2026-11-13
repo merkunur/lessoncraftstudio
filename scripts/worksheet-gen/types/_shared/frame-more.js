@@ -65,7 +65,9 @@ function makeFrameMoreType(cfg) {
     assetClass: 'ten-frames',
     exerciseType: mode === 'three-ways' ? 'counting-frames' : 'counting-frames',
     themeAxis: { applicable: themed, minNouns: 4 },
-    difficulty: DIFF[mode],
+    difficulty: cfg.levels || DIFF[mode],   // a face may bring its own levels (Year pages E)
+    // … and says what a page asks, so that two Level Set copies are never the same tasks (a page of empty strips is ONE page)
+    ...(cfg.levels ? { levelSetWords(m) { return m.cards ? m.cards.map((c) => (c.n != null ? String(c.n) : c.red + '+' + c.blue)) : ['the', 'same', 'page', 'again']; } } : {}),
     i18n,
 
     build({ theme, difficulty, locale }, ctx) {
@@ -80,6 +82,11 @@ function makeFrameMoreType(cfg) {
         const ns = counts(rng, d.cards, d.lo, d.hi);
         const pics = d.pics ? slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.cards), labelSafeNouns(theme), theme) : null;
         ns.forEach((v, i) => {
+          if (d.draw) {   // Year pages E: the number is printed, the child draws it into two empty frames (the key shows the dots)
+            cards.push(`<div class="ws-card-stage" style="gap:22px;padding:4px 18px 4px 52px;justify-content:space-between" data-lcs-count="${v}" data-lcs-draw="1">${NUM(v, 60)}${doubleFrame(ctx.answerKey ? v : 0, 42)}</div>`);
+            truth.push({ n: v });
+            return;
+          }
           const href = pics ? fileUri(theme, pics[i].noun) : undefined;
           const sentence = d.sentence
             ? `<span style="display:inline-flex;align-items:center;gap:8px">${answerBox({ w: 60, h: 52, answer: v })}${T('=')}${NUM(10, 34)}${T('+')}${answerBox({ w: 60, h: 52, answer: v - 10 })}</span>`
@@ -208,19 +215,20 @@ function makeFrameMoreType(cfg) {
         // each square's data-lcs-answer is a placeholder in the key's convention (the first a red, the rest blue): the card's
         // data-lcs-colour-count decides right or wrong
         const cellsOf = (w, a) => {
-          const cell = w === 5 ? 66 : 56, n = w === 5 ? 5 : 10;
+          const row = w < 10;   // one row of w squares (5; 6 and 7 since Year pages E); 10 = the ten-frame
+          const cell = w === 5 ? 66 : w === 6 ? 60 : w === 7 ? 52 : 56, n = row ? w : 10;
           let s = '';
-          for (let i = 0; i < n; i++) s += `<rect x="${3 + (i % 5) * cell}" y="${3 + Math.floor(i / 5) * cell}" width="${cell}" height="${cell}" fill="#FFFFFF" fill-opacity="0" data-lcs-drop="1" data-lcs-answer="${i < a ? 'red' : 'blue'}" data-lcs-label="${i + 1}"/>`;
+          for (let i = 0; i < n; i++) s += `<rect x="${3 + (row ? i : i % 5) * cell}" y="${3 + (row ? 0 : Math.floor(i / 5)) * cell}" width="${cell}" height="${cell}" fill="#FFFFFF" fill-opacity="0" data-lcs-drop="1" data-lcs-answer="${i < a ? 'red' : 'blue'}" data-lcs-label="${i + 1}"/>`;
           return s;
         };
         // a whole of 5 uses one row of a ten-frame (the five-frame): the frame is drawn half — the top row only
-        const frameFor = (w, a = 0) => (w === 5 ? fiveFrame(66, ctx.answerKey ? a : 0, [red, blue]) : tenFrame({ a: ctx.answerKey ? a : 0, b: ctx.answerKey ? 10 - a : 0, cell: d.find ? 50 : 56, ...(ctx.answerKey ? { fills: [red, blue] } : {}) }).svg);   // squares big enough to colour in
+        const frameFor = (w, a = 0) => (w === 5 ? fiveFrame(66, ctx.answerKey ? a : 0, [red, blue]) : w < 10 ? rowFrame(w, w === 6 ? 60 : 52, ctx.answerKey ? a : 0, [red, blue]) : tenFrame({ a: ctx.answerKey ? a : 0, b: ctx.answerKey ? 10 - a : 0, cell: d.find ? 50 : 56, ...(ctx.answerKey ? { fills: [red, blue] } : {}) }).svg);   // squares big enough to colour in
         if (d.find) {
           // L3: every way to make 10 with two colours (1+9 … 9+1, never 0): five frames, the child finds and writes the pairs
           for (let i = 0; i < d.cards; i++) {
             const ka = i + 1;   // the key's example: 1+9, 2+8, … 5+5 — one different way per frame
-            cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="10" data-lcs-find="1">${frameFor(10, ka)}` +
-              `<span style="display:inline-flex;align-items:center;gap:8px"><span style="width:16px;height:16px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? ka : '' })}${T('+', 26)}<span style="width:16px;height:16px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? 10 - ka : '' })}${T('=', 26)}${NUM(10, 32)}</span></div>`);
+            cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="${d.whole}" data-lcs-find="1">${frameFor(d.whole, ka)}` +
+              `<span style="display:inline-flex;align-items:center;gap:8px"><span style="width:16px;height:16px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? ka : '' })}${T('+', 26)}<span style="width:16px;height:16px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? d.whole - ka : '' })}${T('=', 26)}${NUM(d.whole, 32)}</span></div>`);
           }
           return { bodyHtml: `<div style="display:flex;flex-direction:column;height:100%;min-height:0">${legend}<div style="flex:1 1 auto;min-height:0;display:flex">${cardGrid({ cards, cols: 1, rows: d.cards })}</div></div>`, meta: {} };
         }
@@ -248,6 +256,12 @@ function makeFrameMoreType(cfg) {
           const v = st ? +st.dataset.lcsCount : null;
           if (mode === 'double-frame') {
             const dots = st.querySelectorAll('[data-lcs-counter]').length;
+            if (st.dataset.lcsDraw) {
+              if (dots !== 0 && dots !== v) fails.push(`${c}: ${dots} counters in a frame to draw ${v}`);
+              if (v < 11 || v > 20) fails.push(`${c}: ${v} is not a number for two frames`);
+              if (st.querySelectorAll('svg').length !== 2) fails.push(`${c}: not two frames`);
+              return;
+            }
             if (dots !== v) fails.push(`${c}: ${dots} counters != ${v}`);
             const a = [...card.querySelectorAll('[data-lcs-answer]')].map((x) => x.dataset.lcsAnswer);
             if (a[0] !== String(v) || (a.length === 2 && a[1] !== String(v - 10))) fails.push(`${c}: answers ${a}`);
@@ -308,6 +322,16 @@ function fiveFrame(cell, a = 0, fills) {
   if (a) for (let i = 0; i < 5; i++) lines += `<rect x="${6 + i * cell}" y="6" width="${cell - 6}" height="${cell - 6}" rx="4" fill="${i < a ? fills[0] : fills[1]}" data-lcs-key-sample="1"/>`;
   for (let c = 1; c < 5; c++) lines += `<line x1="${3 + c * cell}" y1="6" x2="${3 + c * cell}" y2="${H - 6}" stroke="${t.teal}" stroke-width="1.5" opacity="0.55"/>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="five frame" data-lcs-prim="five-frame"><rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="10" fill="${t.white}" stroke="${t.teal}" stroke-width="3"/>${lines}</svg>`;
+}
+
+/** a strip of n squares in one row (Year pages E: the wholes 6 and 7; the five-frame above is untouched) */
+function rowFrame(n, cell, a = 0, fills) {
+  const t = tokens.color;
+  const W = n * cell + 6, H = cell + 6;
+  let lines = '';
+  if (a) for (let i = 0; i < n; i++) lines += `<rect x="${6 + i * cell}" y="6" width="${cell - 6}" height="${cell - 6}" rx="4" fill="${i < a ? fills[0] : fills[1]}" data-lcs-key-sample="1"/>`;
+  for (let c = 1; c < n; c++) lines += `<line x1="${3 + c * cell}" y1="6" x2="${3 + c * cell}" y2="${H - 6}" stroke="${t.teal}" stroke-width="1.5" opacity="0.55"/>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="strip of ${n}" data-lcs-prim="row-frame" data-lcs-squares="${n}"><rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="10" fill="${t.white}" stroke="${t.teal}" stroke-width="3"/>${lines}</svg>`;
 }
 
 module.exports = { makeFrameMoreType };

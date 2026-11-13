@@ -133,7 +133,7 @@ function makeBondMoreType(cfg) {
     assetClass: themed ? 'icon-placement' : 'numeral-charts',
     exerciseType: 'number-bonds',
     themeAxis: themed ? { applicable: true, minNouns: 5 } : { applicable: false },
-    difficulty: LEVELS[mode],
+    difficulty: cfg.levels || LEVELS[mode],   // a face may bring its own levels (Year pages E)
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
 
@@ -157,8 +157,8 @@ function makeBondMoreType(cfg) {
           const cell = (v, blank) => `<div style="flex:1;display:flex;align-items:center;justify-content:center;height:${rowH}px">` +
             (blank ? answerBox({ w: bw, h: bh, answer: v }) : NUM(v, Math.min(d.houses === 3 ? 40 : 32, rowH - 18))) + `</div>`;
           const floors = lefts.map((l, k) => `<div data-lcs-floor="${l}:${N - l}" style="display:flex;border-top:2.5px solid ${TEAL}">` +
-            cell(l, flip.has(k)) + `<div style="width:2.5px;background:${TEAL}"></div>` + cell(N - l, !flip.has(k)) + `</div>`).join('');
-          return `<div class="ws-card-stage" data-lcs-house="${N}" style="flex:0 0 auto;flex-direction:column;align-items:center;padding:0;border:none;background:none">` +
+            cell(l, d.empty || flip.has(k)) + `<div style="width:2.5px;background:${TEAL}"></div>` + cell(N - l, d.empty || !flip.has(k)) + `</div>`).join('');
+          return `<div class="ws-card-stage" data-lcs-house="${N}"${d.empty ? ' data-lcs-empty="1"' : ''} style="flex:0 0 auto;flex-direction:column;align-items:center;padding:0;border:none;background:none">` +
             roofSvg(N, W, d.dots) +
             `<div style="width:${W - 18}px;border:3.5px solid ${TEAL};border-top:none;background:#FFFFFF;box-sizing:border-box">${floors.replace(`border-top:2.5px solid ${TEAL}`, 'border-top:3.5px solid ' + TEAL)}</div></div>`;
         });
@@ -282,7 +282,7 @@ function makeBondMoreType(cfg) {
           if (floors.length !== N - 1) fails.push(`house ${N}: ${floors.length} floors`);
           if (floors.some(([l, r]) => l + r !== N || l < 1 || r < 1)) fails.push(`house ${N}: a floor does not make ${N}`);
           if (new Set(floors.map(([l]) => l)).size !== floors.length) fails.push(`house ${N}: a floor twice`);
-          h.querySelectorAll('[data-lcs-floor]').forEach((f) => { if (f.querySelectorAll('[data-lcs-answer]').length !== 1) fails.push(`house ${N}: a floor without exactly one box`); });
+          h.querySelectorAll('[data-lcs-floor]').forEach((f) => { if (f.querySelectorAll('[data-lcs-answer]').length !== (h.dataset.lcsEmpty ? 2 : 1)) fails.push(`house ${N}: a floor without exactly one box`); });
         });
         if (m === 'hundred') document.querySelectorAll('[data-lcs-prim="number-bond"]').forEach((s) => {
           if (n(s.dataset.lcsWhole) !== 100 || n(s.dataset.lcsA) + n(s.dataset.lcsB) !== 100) fails.push('bond not of 100');

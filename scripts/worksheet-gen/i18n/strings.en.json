@@ -4853,5 +4853,61 @@
   "K-631": {
     "title": "{U}: Read and Talk",
     "instruction": "Read the book again. Then talk about it with a grown-up."
+  },
+  "K-632": {
+    "title": "Count On from Any Number",
+    "instruction": "Count along the strip. Write each missing number."
+  },
+  "K-633": {
+    "title": "The Number Chart to 50",
+    "instruction": "Some numbers are hiding. Write each missing number in its box."
+  },
+  "K-634": {
+    "title": "Ten and How Many More?",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-635": {
+    "title": "How Many Are Hiding? Numbers to 9",
+    "instruction": "The circle shows how many there are in all. You can see some. The rest are hiding under the cup. Write how many are hiding."
+  },
+  "G2-502": {
+    "title": "Subtract Three-Digit Numbers with Regrouping",
+    "instruction": "Subtract one place at a time. Regroup when you need to borrow."
+  },
+  "K-636": {
+    "title": "Take Apart 6 and 7",
+    "instruction": "Color the squares: as many red as the red number, as many blue as the blue number."
+  },
+  "K-637": {
+    "title": "Draw the Number on Two Ten-Frames",
+    "instruction": "Read the number. Draw that many dots in the two ten-frames. Fill the first ten-frame before you start the second."
+  },
+  "K-638": {
+    "title": "Number Houses: Find Every Way",
+    "instruction": "The roof shows the number. Find every way to split it into two parts. Write one way on each floor."
+  },
+  "K-639": {
+    "title": "One for You, One for Me: Share Equally",
+    "instruction": "Share the pile equally into the bins. Write how many each gets."
+  },
+  "G1-561": {
+    "title": "Small Fact, Big Fact",
+    "instruction": "Solve the small problem first. Use it to solve the big problem under it."
+  },
+  "G1-562": {
+    "title": "Turn-Around Facts",
+    "instruction": "Add the two groups. Then turn the numbers around and add again. What do you notice?"
+  },
+  "G1-563": {
+    "title": "Count the Tens: 10 to 90",
+    "instruction": "Count the ten-rods. Write how many tens there are. Then write the number."
+  },
+  "G1-564": {
+    "title": "Teen Numbers: One Ten and Some Ones",
+    "instruction": "Look at the ten-rod and the ones. Write how many ones there are. Then write the number."
+  },
+  "G1-565": {
+    "title": "Subtract Tens from Tens",
+    "instruction": "Cross out the ten-rods you take away. Write the number that is left."
   }
 }

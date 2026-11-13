@@ -77,12 +77,12 @@ module.exports = {
     }
     const cell = d.end <= 50 ? 64 : 60;
     const keyText = !!(ctx && ctx.answerKey && !ctx.interactive);
-    const chart = hundredsChart({ start: d.start, end: d.end, missing, cell, keyText });
+    const chart = hundredsChart({ start: d.start, end: d.end, missing, cell, keyText, ...(d.cellH ? { cellH: d.cellH } : {}) });
 
     // two small theme flourishes flank the chart bottom — decoration only
     const ns = rng.sample(labelSafeNouns(theme), 2);
     const flourish = (n, flip) =>
-      `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:54px;height:54px${flip ? ';transform:scaleX(-1)' : ''}">`;
+      `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:${d.flourish || 54}px;height:${d.flourish || 54}px${flip ? ';transform:scaleX(-1)' : ''}">`;
 
     const b = {
       bodyHtml:

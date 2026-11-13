@@ -4792,5 +4792,61 @@
   "K-627": {
     "title": "Dieci e ancora un po’",
     "instruction": "Cerchia 10. Scrivi quanti ce ne sono in più. Poi scrivi il numero."
+  },
+  "K-632": {
+    "title": "Contare da un numero qualsiasi",
+    "instruction": "Conta lungo la striscia. Scrivi ogni numero mancante."
+  },
+  "K-633": {
+    "title": "La tabella dei numeri fino a 50",
+    "instruction": "Alcuni numeri si nascondono. Scrivi ogni numero mancante nel suo riquadro."
+  },
+  "K-634": {
+    "title": "Dieci e quanti ancora?",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "K-635": {
+    "title": "Quanti sono nascosti? Fino a 9",
+    "instruction": "Il cerchio mostra quanti sono in tutto. Ne vedi alcuni. Gli altri sono nascosti sotto il bicchiere. Scrivi quanti sono nascosti."
+  },
+  "G2-502": {
+    "title": "Sottrazioni a tre cifre con il prestito",
+    "instruction": "Risolvi ogni sottrazione in colonna. Usa il prestito quando serve."
+  },
+  "K-636": {
+    "title": "Scomporre il 6 e il 7",
+    "instruction": "Colora le caselle: tante in rosso quante dice il numero rosso, tante in blu quante dice il numero blu."
+  },
+  "K-637": {
+    "title": "Disegna il numero in due griglie del dieci",
+    "instruction": "Leggi il numero. Disegna altrettanti pallini nelle due griglie. Riempi prima la prima griglia, poi la seconda."
+  },
+  "K-638": {
+    "title": "Le casette dei numeri: tutti i modi",
+    "instruction": "Il tetto mostra il numero. Trova tutti i modi di dividerlo in due parti. Scrivi un modo su ogni piano."
+  },
+  "K-639": {
+    "title": "Uno a te, uno a me: dividi in parti uguali",
+    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne toccano a ognuno."
+  },
+  "G1-561": {
+    "title": "Calcolo piccolo, calcolo grande",
+    "instruction": "Fai prima il calcolo piccolo. Ti aiuta a fare il calcolo grande che sta sotto."
+  },
+  "G1-562": {
+    "title": "Scambia gli addendi",
+    "instruction": "Somma i due gruppi. Poi scambia i numeri e somma di nuovo. Che cosa noti?"
+  },
+  "G1-563": {
+    "title": "Conta le decine: da 10 a 90",
+    "instruction": "Conta le barre delle decine. Scrivi quante decine ci sono. Poi scrivi il numero."
+  },
+  "G1-564": {
+    "title": "Da 11 a 19: una decina e unità",
+    "instruction": "Guarda la barra delle decine e le unità. Scrivi quante unità ci sono. Poi scrivi il numero."
+  },
+  "G1-565": {
+    "title": "Sottrarre decine da decine",
+    "instruction": "Fai una croce sulle barre delle decine che togli. Scrivi il numero che resta."
   }
 }

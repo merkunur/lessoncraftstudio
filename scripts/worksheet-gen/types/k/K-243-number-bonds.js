@@ -164,6 +164,7 @@ module.exports = {
         for (let a = 1; a <= whole - 1; a++) {
           const b = whole - a;
           for (const blank of d.blanks) {
+            if (d.tenPart && a !== 10 && b !== 10) continue;   // a teen number as ten and some more (Year pages E)
             if (blank === 'whole') { if (d.parts && (a < d.parts[0] || a > d.parts[1] || b < d.parts[0] || b > d.parts[1])) continue; }
             else if (d.given) { const g = blank === 'a' ? b : a; if (g < d.given[0] || g > d.given[1]) continue; }
             pool.push({ whole, a, b, blank });

@@ -63,6 +63,7 @@ function makeBaseTenType(cfg) {
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const cards = [];
+      const itemsE = [];   // Year pages E: what a page of the new faces asks (the Level Set copies are compared by it)
       const rankBag = [];
       const hubBag = [];    // expanded: is the right form the one sharing the most pieces? true on a third of the rows   // digit-value: the rank of the right value among the chips, balanced over the page
       const used = new Set();
@@ -96,7 +97,15 @@ function makeBaseTenType(cfg) {
 
       for (let i = 0; i < d.rows; i++) {
         let stage;
-        if (mode === 'read') {
+        if (mode === 'read' && L && L.frame === 'teen') {
+          // Year pages E: ONE ten-rod and some ones; the frame says it without words: 1 rod, □ ones, = □
+          let o = rng.int(L.lo, L.hi);
+          for (let k = 0; k < 60 && used.has('teen' + o); k++) o = rng.int(L.lo, L.hi);
+          used.add('teen' + o); itemsE.push(10 + o);
+          stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px 8px 46px" data-lcs-value="${10 + o}">` +
+            draw(0, 1, o) + `<span style="display:inline-flex;align-items:center;gap:8px">` + NUM(1, 34) + TEN_ICON +
+            answerBox({ w: 54, h: 50, answer: o }) + ONE_ICON + OP('=') + answerBox({ w: 72, h: 50, answer: 10 + o }) + `</span></div>`;
+        } else if (mode === 'read') {
           const { h, t, o, v } = pick();
           stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px" data-lcs-value="${v}">` +
             draw(h, t, o) + answerBox({ w: 104, h: 60, answer: v }) + `</div>`;
@@ -115,11 +124,17 @@ function makeBaseTenType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:18px;justify-content:space-between;padding:6px 12px" data-lcs-value="${v}">` +
             NUM(v, 38) + `<span class="ws-pattern-choices" style="${choicesStyle}">${boxes}</span></div>`;
         } else if (mode === 'count-tens') {
-          const t = rng.int(L.lo, L.hi);
-          stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px" data-lcs-tens="${t}">` +
+          let t = rng.int(L.lo, L.hi);
+          // a face with its own levels (Year pages E): no number of rods twice on a page
+          if (cfg.levels) { for (let k = 0; k < 60 && used.has('ct' + t); k++) t = rng.int(L.lo, L.hi); used.add('ct' + t); }
+          const k = L.minus ? rng.int(1, t - 1) : 0;   // tens minus tens: the child crosses out k rods
+          if (L.minus || L.frame === 'icons') itemsE.push(L.minus ? t * 10 + '-' + k * 10 : t * 10);
+          stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px${cfg.levels ? ' 8px 46px' : ''}" data-lcs-tens="${t}"${L.minus ? ` data-lcs-minus="${k}"` : ''}>` +
             draw(0, t, 0) +
             `<span style="display:inline-flex;align-items:center;gap:10px">` +
-            answerBox({ w: 64, h: 54, answer: t }) + OP(MUL) + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 }) + `</span></div>`;
+            (L.minus ? NUM(t * 10, 34) + OP('−') + NUM(k * 10, 34) + OP('=') + answerBox({ w: 84, h: 54, answer: (t - k) * 10 })
+              : L.frame === 'icons' ? answerBox({ w: 64, h: 54, answer: t }) + TEN_ICON + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 })
+              : answerBox({ w: 64, h: 54, answer: t }) + OP(MUL) + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 })) + `</span></div>`;
         } else if (mode === 'add' || mode === 'sub') {
           // no-regrouping pairs
           // The RESULT's tens and ones are drawn first, evenly, then split into the two numbers. Drawing the first number and
@@ -239,7 +254,7 @@ function makeBaseTenType(cfg) {
         }
         cards.push(stage);
       }
-      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: {} };
+      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: itemsE.length ? { items: itemsE.map(String) } : {} };
     },
 
     async verify(page) {
@@ -276,7 +291,8 @@ function makeBaseTenType(cfg) {
             const c = census(card.querySelector('[data-lcs-prim="base-ten"]'));
             if (c.t !== t || c.o !== 0 || c.h !== 0) fails.push(`row ${i + 1}: rods ${c.t} != ${t}`);
             const boxes = [...card.querySelectorAll('[data-lcs-answer]')].map((b) => +b.dataset.lcsAnswer);
-            if (boxes[0] !== t || boxes[1] !== t * 10) fails.push(`row ${i + 1}: equation boxes wrong`);
+            const mk = card.querySelector('[data-lcs-tens]').dataset.lcsMinus;
+            if (mk ? (boxes.length !== 1 || +mk < 1 || +mk >= t || boxes[0] !== (t - +mk) * 10) : (boxes[0] !== t || boxes[1] !== t * 10)) fails.push(`row ${i + 1}: equation boxes wrong`);
           } else if (mode === 'add' || mode === 'sub') {
             const st = card.querySelector('[data-lcs-a]');
             const a = +st.dataset.lcsA, b = +st.dataset.lcsB, r = +st.dataset.lcsR;

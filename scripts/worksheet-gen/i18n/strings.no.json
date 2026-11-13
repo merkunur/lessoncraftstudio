@@ -4805,5 +4805,61 @@
   "K-627": {
     "title": "Ti og noen til",
     "instruction": "Sett ring rundt 10. Skriv hvor mange som er igjen. Skriv så tallet."
+  },
+  "K-632": {
+    "title": "Tell videre til 100",
+    "instruction": "Tell langs stripen. Skriv hvert tall som mangler."
+  },
+  "K-633": {
+    "title": "Tallruten til 50",
+    "instruction": "Noen tall gjemmer seg. Skriv hvert tall som mangler i ruten sin."
+  },
+  "K-634": {
+    "title": "Ti og hvor mange til?",
+    "instruction": "Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-635": {
+    "title": "Hvor mange gjemmer seg? Tall til 9",
+    "instruction": "Sirkelen viser hvor mange det er i alt. Noen kan du se. Resten gjemmer seg under koppen. Skriv hvor mange som gjemmer seg."
+  },
+  "G2-502": {
+    "title": "Subtraksjon med veksling opp til 1000",
+    "instruction": "Trekk fra én plass om gangen. Husk å veksle når du trenger det."
+  },
+  "K-636": {
+    "title": "Del opp tallene 6 og 7",
+    "instruction": "Fargelegg rutene: like mange røde som det røde tallet, like mange blå som det blå tallet."
+  },
+  "K-637": {
+    "title": "Tegn tallet i to tierruter",
+    "instruction": "Les tallet. Tegn like mange prikker i de to tierrutene. Fyll den første tierruta først, så den andre."
+  },
+  "K-638": {
+    "title": "Tallhus: finn alle måtene",
+    "instruction": "Taket viser tallet. Finn alle måtene å dele tallet i to deler på. Skriv én måte i hver etasje."
+  },
+  "K-639": {
+    "title": "En til deg, en til meg: del likt",
+    "instruction": "Del haugen likt i kurvene. Skriv hvor mange hver får."
+  },
+  "G1-561": {
+    "title": "Liten oppgave, stor oppgave",
+    "instruction": "Regn ut den lille oppgaven først. Den hjelper deg med den store oppgaven under."
+  },
+  "G1-562": {
+    "title": "Bytt plass på tallene",
+    "instruction": "Legg sammen de to gruppene. Bytt så plass på tallene og legg sammen igjen. Hva oppdager du?"
+  },
+  "G1-563": {
+    "title": "Tell tierne: 10 til 90",
+    "instruction": "Tell tierstavene. Skriv hvor mange tiere det er. Skriv så tallet."
+  },
+  "G1-564": {
+    "title": "Tallene 11 til 19: én tier og enere",
+    "instruction": "Se på tierstaven og enerne. Skriv hvor mange enere det er. Skriv så tallet."
+  },
+  "G1-565": {
+    "title": "Tiere minus tiere",
+    "instruction": "Stryk over tierstavene du tar bort. Skriv tallet som blir igjen."
   }
 }

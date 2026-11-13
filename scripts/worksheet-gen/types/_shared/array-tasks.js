@@ -119,6 +119,7 @@ function makeArrayType(cfg) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
       const qa = [];
+      const shareSeen = new Set();   // Year pages E: a face without the division sentence has no task twice
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const div = divGlyph(locale);
@@ -218,8 +219,9 @@ function makeArrayType(cfg) {
           const opx = Math.min(30, Math.floor(150 / Math.max(...opts.map((o) => Math.max(o.r, o.c)))));
           qa.push({ choose: true, eq: NUM(r) + OP(MUL) + NUM(c), q: `${r}x${c}`, opts: opts.map((o) => ({ label: `${o.r}x${o.c}`, html: iconArrayHtml(theme, nouns[i].noun, o.r, o.c, opx), ok: o.ok })) });
         } else if (mode === 'share-bins') {
-          const bins = rng.int(L.binLo, L.binHi);
-          const each = rng.int(L.eachLo, L.eachHi);
+          let bins = rng.int(L.binLo, L.binHi);
+          let each = rng.int(L.eachLo, L.eachHi);
+          if (L.noSentence) { for (let t = 0; t < 40 && shareSeen.has(bins + ':' + each); t++) { bins = rng.int(L.binLo, L.binHi); each = rng.int(L.eachLo, L.eachHi); } shareSeen.add(bins + ':' + each); }
           const total = bins * each;
           const px = Math.min(40, Math.floor(300 / total * 2));
           const pile = Array.from({ length: total }, () =>
@@ -230,9 +232,10 @@ function makeArrayType(cfg) {
             `<span style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:520px">${pile}</span>` +
             `<span style="display:flex;gap:18px;width:80%;justify-content:center">${binEls}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            NUM(total) + OP(div) + NUM(bins) + OP('=') + answerBox({ w: 60, h: 48, answer: each }) + `</span></div>`;
+            // without the sentence a small bin stands before the box: "one bin gets □"
+            (L.noSentence ? `<span class="ws-bin" style="flex:0 0 42px;height:36px;border-width:2.5px;border-radius:0 0 10px 10px"></span>` : NUM(total) + OP(div) + NUM(bins) + OP('=')) + answerBox({ w: L.noSentence ? 72 : 60, h: L.noSentence ? 56 : 48, answer: each }) + `</span></div>`;
           qa.push({ visual: `<span style="display:flex;flex-direction:column;align-items:center;gap:12px;width:520px"><span style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:520px">${pile}</span><span style="display:flex;gap:18px;width:80%;justify-content:center">${binEls}</span></span>`,
-            eq: NUM(total) + OP(div) + NUM(bins) + OP('=') + QBOX, q: `${total}/${bins}`, a: each, d: [each + 1, each - 1, bins, each + 2] });
+            eq: (L.noSentence ? '' : NUM(total) + OP(div) + NUM(bins) + OP('=')) + QBOX, q: `${total}/${bins}`, a: each, d: [each + 1, each - 1, bins, each + 2] });
         } else if (mode === 'group-rings') {
           const k = rng.int(L.kLo, L.kHi);
           const groups = rng.int(L.gLo, L.gHi);

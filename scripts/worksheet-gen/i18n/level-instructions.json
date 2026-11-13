@@ -6023,5 +6023,33 @@
       "no": "Trekk fra enere i hodet. Bare enerne endrer seg. Skriv svaret i ruten.",
       "fi": "Vähennä ykköset päässäsi. Vain ykköset muuttuvat. Kirjoita vastaus ruutuun."
     }
+  },
+  "K-636": {
+    "2": {
+      "en": "Find a different way to make 6 on each strip. Color some squares red and the rest blue. Write the red number, then the blue number.",
+      "de": "Finde auf jedem Streifen eine andere Zerlegung der 6. Male einige Kästchen rot und den Rest blau an. Schreibe zuerst die rote Zahl, dann die blaue.",
+      "es": "Encuentra una manera diferente de formar 6 en cada tira. Colorea algunos cuadros de rojo y los demás de azul. Escribe primero el número rojo y luego el azul.",
+      "pt": "Descubra um jeito diferente de formar 6 em cada tira. Pinte alguns quadradinhos de vermelho e os outros de azul. Escreva primeiro o número vermelho e depois o azul.",
+      "fr": "Trouve une façon différente de faire 6 sur chaque bande. Colorie des cases en rouge et les autres en bleu. Écris le nombre rouge, puis le nombre bleu.",
+      "it": "Trova un modo diverso di fare 6 su ogni striscia. Colora alcune caselle di rosso e le altre di blu. Scrivi prima il numero rosso, poi quello blu.",
+      "nl": "Zoek op elke strook een andere manier om 6 te maken. Kleur een deel van de vakjes rood en de rest blauw. Schrijf eerst het rode getal, dan het blauwe.",
+      "sv": "Hitta ett nytt sätt att göra 6 på varje remsa. Färglägg några rutor röda och resten blå. Skriv först det röda talet, sedan det blå.",
+      "da": "Find en ny måde at lave 6 på i hver strimmel. Farvelæg nogle felter røde og resten blå. Skriv først det røde tal, så det blå.",
+      "no": "Finn en ny måte å lage 6 på i hver remse. Fargelegg noen ruter røde og resten blå. Skriv først det røde tallet, så det blå.",
+      "fi": "Keksi jokaiseen ruutujonoon eri tapa tehdä 6. Väritä osa ruuduista punaiseksi ja loput siniseksi. Kirjoita ensin punainen luku, sitten sininen."
+    },
+    "3": {
+      "en": "Find a different way to make 7 on each strip. Color some squares red and the rest blue. Write the red number, then the blue number.",
+      "de": "Finde auf jedem Streifen eine andere Zerlegung der 7. Male einige Kästchen rot und den Rest blau an. Schreibe zuerst die rote Zahl, dann die blaue.",
+      "es": "Encuentra una manera diferente de formar 7 en cada tira. Colorea algunos cuadros de rojo y los demás de azul. Escribe primero el número rojo y luego el azul.",
+      "pt": "Descubra um jeito diferente de formar 7 em cada tira. Pinte alguns quadradinhos de vermelho e os outros de azul. Escreva primeiro o número vermelho e depois o azul.",
+      "fr": "Trouve une façon différente de faire 7 sur chaque bande. Colorie des cases en rouge et les autres en bleu. Écris le nombre rouge, puis le nombre bleu.",
+      "it": "Trova un modo diverso di fare 7 su ogni striscia. Colora alcune caselle di rosso e le altre di blu. Scrivi prima il numero rosso, poi quello blu.",
+      "nl": "Zoek op elke strook een andere manier om 7 te maken. Kleur een deel van de vakjes rood en de rest blauw. Schrijf eerst het rode getal, dan het blauwe.",
+      "sv": "Hitta ett nytt sätt att göra 7 på varje remsa. Färglägg några rutor röda och resten blå. Skriv först det röda talet, sedan det blå.",
+      "da": "Find en ny måde at lave 7 på i hver strimmel. Farvelæg nogle felter røde og resten blå. Skriv først det røde tal, så det blå.",
+      "no": "Finn en ny måte å lage 7 på i hver remse. Fargelegg noen ruter røde og resten blå. Skriv først det røde tallet, så det blå.",
+      "fi": "Keksi jokaiseen ruutujonoon eri tapa tehdä 7. Väritä osa ruuduista punaiseksi ja loput siniseksi. Kirjoita ensin punainen luku, sitten sininen."
+    }
   }
 }

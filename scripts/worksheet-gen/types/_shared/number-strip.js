@@ -22,6 +22,11 @@ const STRIP_LEVELS = {
     1: v2({ rows: 4, blanks: 2, isolated: true, start: 'any', startMin: 1, startMax: 8 }),
     3: v2({ rows: 5, blanks: 4, adjacent: true, start: 'any', startMin: 5, startMax: 11 }),
   },
+  // Year pages E: count on from any number, to 50 and to 100 (K.CC.A.2)
+  'K-632': {
+    1: v2({ rows: 4, blanks: 2, isolated: true, start: 'any', startMin: 11, startMax: 40, rangeMax: 50 }),
+    3: v2({ rows: 5, blanks: 4, adjacent: true, start: 'any', startMin: 26, startMax: 90, rangeMax: 100 }),
+  },
   'K-023': { 1: v2({ rows: 4, blanks: 2, isolated: true }), 3: v2({ rows: 5, blanks: 4, adjacent: true }) },
   'G1-123': {
     1: v2({ rows: 4, blanks: 2, isolated: true, start: 'multiple', startMin: 0, startMax: 20 }),

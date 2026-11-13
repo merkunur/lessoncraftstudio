@@ -4805,5 +4805,61 @@
   "K-627": {
     "title": "Dix et encore quelques-uns",
     "instruction": "Entoure 10. Écris combien il y en a en plus. Écris ensuite le nombre."
+  },
+  "K-632": {
+    "title": "Compter à partir d’un nombre",
+    "instruction": "Compte le long de la bande. Écris chaque nombre manquant."
+  },
+  "K-633": {
+    "title": "La grille des nombres jusqu’à 50",
+    "instruction": "Des nombres se cachent. Écris chaque nombre manquant dans sa case."
+  },
+  "K-634": {
+    "title": "Dix et combien encore ?",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-635": {
+    "title": "Combien y en a-t-il de cachés ? Jusqu’à 9",
+    "instruction": "Le cercle montre combien il y en a en tout. Tu en vois quelques-uns. Les autres sont cachés sous le gobelet. Écris combien il y en a de cachés."
+  },
+  "G2-502": {
+    "title": "Soustractions à trois chiffres avec retenue",
+    "instruction": "Soustrais colonne par colonne. N’oublie pas la retenue."
+  },
+  "K-636": {
+    "title": "Décomposer 6 et 7",
+    "instruction": "Colorie les cases : autant en rouge que le nombre rouge, autant en bleu que le nombre bleu."
+  },
+  "K-637": {
+    "title": "Dessine le nombre dans deux grilles de dix",
+    "instruction": "Lis le nombre. Dessine autant de points dans les deux grilles. Remplis d’abord la première grille, puis la deuxième."
+  },
+  "K-638": {
+    "title": "Les maisons des nombres : toutes les façons",
+    "instruction": "Le toit montre le nombre. Trouve toutes les façons de le décomposer en deux parties. Écris une façon à chaque étage."
+  },
+  "K-639": {
+    "title": "Un pour toi, un pour moi : partage équitable",
+    "instruction": "Partage le tas également dans les bacs. Écris combien chacun reçoit."
+  },
+  "G1-561": {
+    "title": "Petit calcul, grand calcul",
+    "instruction": "Fais d’abord le petit calcul. Il t’aide à faire le grand calcul en dessous."
+  },
+  "G1-562": {
+    "title": "Change l’ordre des nombres",
+    "instruction": "Additionne les deux groupes. Puis change l’ordre des nombres et additionne encore. Que remarques-tu ?"
+  },
+  "G1-563": {
+    "title": "Compte les dizaines : de 10 à 90",
+    "instruction": "Compte les barres de dix. Écris combien il y a de dizaines. Puis écris le nombre."
+  },
+  "G1-564": {
+    "title": "De 11 à 19 : une dizaine et des unités",
+    "instruction": "Regarde la barre de dix et les unités. Écris combien il y a d’unités. Puis écris le nombre."
+  },
+  "G1-565": {
+    "title": "Soustraire des dizaines entières",
+    "instruction": "Fais une croix sur les barres de dix que tu enlèves. Écris le nombre qui reste."
   }
 }

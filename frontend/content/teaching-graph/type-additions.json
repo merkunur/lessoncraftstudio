@@ -205,6 +205,20 @@
   "K-628": "K:read-decodable-text",
   "K-629": "K:read-picture-book",
   "K-630": "K:read-picture-book",
-  "K-631": "K:read-picture-book"
+  "K-631": "K:read-picture-book",
+  "K-632": "K:count-forward-missing",
+  "K-633": "K:count-forward-missing",
+  "K-634": "K:teen-numbers",
+  "K-635": "K:number-bonds-k",
+  "K-636": "K:number-bonds-k",
+  "K-637": "K:teen-numbers",
+  "K-638": "K:number-bonds-k",
+  "K-639": "2:share-and-group",
+  "G1-561": "1:fluency-within-20",
+  "G1-562": "1:fact-families",
+  "G1-563": "1:tens-and-ones",
+  "G1-564": "1:tens-and-ones",
+  "G1-565": "1:mental-math-to-100",
+  "G2-502": "2:column-method"
  }
 }

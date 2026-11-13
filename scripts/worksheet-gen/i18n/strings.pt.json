@@ -4815,5 +4815,61 @@
   "K-627": {
     "title": "Dez e mais alguns",
     "instruction": "Circule 10. Escreva quantos ficaram de fora. Depois escreva o número."
+  },
+  "K-632": {
+    "title": "Contar a partir de qualquer número",
+    "instruction": "Conte ao longo da fita. Escreva cada número que falta."
+  },
+  "K-633": {
+    "title": "O quadro numérico até 50",
+    "instruction": "Alguns números estão escondidos. Escreva cada número que falta no seu quadradinho."
+  },
+  "K-634": {
+    "title": "Dez e quantos mais?",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-635": {
+    "title": "Quantos estão escondidos? Até 9",
+    "instruction": "O círculo mostra quantos há ao todo. Você vê alguns. Os outros estão escondidos embaixo do copo. Escreva quantos estão escondidos."
+  },
+  "G2-502": {
+    "title": "Subtração com três algarismos e reagrupamento",
+    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, pegue emprestado da ordem vizinha."
+  },
+  "K-636": {
+    "title": "Decompor o 6 e o 7",
+    "instruction": "Pinte os quadradinhos: tantos de vermelho quanto o número vermelho e tantos de azul quanto o número azul."
+  },
+  "K-637": {
+    "title": "Desenhe o número em dois quadros de dez",
+    "instruction": "Leia o número. Desenhe essa quantidade de bolinhas nos dois quadros de dez. Preencha primeiro o primeiro quadro e depois o segundo."
+  },
+  "K-638": {
+    "title": "Casinhas dos números: todos os jeitos",
+    "instruction": "O telhado mostra o número. Descubra todos os jeitos de separar o número em duas partes. Escreva um jeito em cada andar."
+  },
+  "K-639": {
+    "title": "Um para você, um para mim: reparta igualmente",
+    "instruction": "Reparta a pilha igualmente nos cestos. Escreva quantos cada um recebe."
+  },
+  "G1-561": {
+    "title": "Conta pequena, conta grande",
+    "instruction": "Resolva primeiro a conta pequena. Use-a para resolver a conta grande de baixo."
+  },
+  "G1-562": {
+    "title": "Troque a ordem das parcelas",
+    "instruction": "Some os dois grupos. Depois troque a ordem dos números e some de novo. O que você percebe?"
+  },
+  "G1-563": {
+    "title": "Conte as dezenas: de 10 a 90",
+    "instruction": "Conte as barras de dez. Escreva quantas dezenas há. Depois escreva o número."
+  },
+  "G1-564": {
+    "title": "De 11 a 19: uma dezena e unidades",
+    "instruction": "Observe a barra de dez e as unidades. Escreva quantas unidades há. Depois escreva o número."
+  },
+  "G1-565": {
+    "title": "Subtrair dezenas de dezenas",
+    "instruction": "Risque as barras de dez que você tira. Escreva o número que sobra."
   }
 }

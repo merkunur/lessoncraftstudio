@@ -4786,5 +4786,61 @@
   "K-627": {
     "title": "Ti og nogle til",
     "instruction": "Sæt ring om 10. Skriv, hvor mange der er tilbage. Skriv så tallet."
+  },
+  "K-632": {
+    "title": "Tæl videre til 100",
+    "instruction": "Tæl langs talrækken. Skriv hvert tal, der mangler."
+  },
+  "K-633": {
+    "title": "Taltavlen til 50",
+    "instruction": "Nogle tal gemmer sig. Skriv hvert manglende tal i dets rude."
+  },
+  "K-634": {
+    "title": "Ti og hvor mange til?",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-635": {
+    "title": "Hvor mange gemmer sig? Tal til 9",
+    "instruction": "Cirklen viser, hvor mange der er i alt. Nogle kan du se. Resten gemmer sig under bægeret. Skriv, hvor mange der gemmer sig."
+  },
+  "G2-502": {
+    "title": "Minus med veksling op til 1000",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når du ikke kan trække fra."
+  },
+  "K-636": {
+    "title": "Del tallene 6 og 7 op",
+    "instruction": "Farvelæg felterne: lige så mange røde som det røde tal, lige så mange blå som det blå tal."
+  },
+  "K-637": {
+    "title": "Tegn tallet i to tierrammer",
+    "instruction": "Læs tallet. Tegn lige så mange prikker i de to tierrammer. Fyld den første tierramme først, så den anden."
+  },
+  "K-638": {
+    "title": "Talhuse: find alle måder",
+    "instruction": "Taget viser tallet. Find alle måder at dele tallet i to dele på. Skriv én måde på hver etage."
+  },
+  "K-639": {
+    "title": "En til dig, en til mig: del lige",
+    "instruction": "Del bunken ligeligt i kasserne. Skriv, hvor mange hver får."
+  },
+  "G1-561": {
+    "title": "Lille opgave, stor opgave",
+    "instruction": "Regn den lille opgave først. Den hjælper dig med den store opgave nedenunder."
+  },
+  "G1-562": {
+    "title": "Byt om på tallene",
+    "instruction": "Læg de to grupper sammen. Byt så om på tallene, og læg sammen igen. Hvad opdager du?"
+  },
+  "G1-563": {
+    "title": "Tæl tierne: 10 til 90",
+    "instruction": "Tæl tierstængerne. Skriv, hvor mange tiere der er. Skriv så tallet."
+  },
+  "G1-564": {
+    "title": "Tallene 11 til 19: en tier og enere",
+    "instruction": "Se på tierstangen og enerne. Skriv, hvor mange enere der er. Skriv så tallet."
+  },
+  "G1-565": {
+    "title": "Tiere minus tiere",
+    "instruction": "Streg de tierstænger over, som du tager væk. Skriv det tal, der er tilbage."
   }
 }

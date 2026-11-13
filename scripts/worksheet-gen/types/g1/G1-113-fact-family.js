@@ -39,16 +39,24 @@ module.exports = {
     const pool = labelSafeNouns(theme);
     const nouns = slot.pictures(ctx, rng.sample(pool, d.cards), pool, theme);
     const cards = [];
+    const seenPair = new Set();   // Year pages E (the two plus sentences only): no pair of numbers twice on a page
     for (let i = 0; i < d.cards; i++) {
       let a = rng.int(1, d.maxTotal - 1);
       let b = rng.int(1, d.maxTotal - a);
       if (a === b) b = Math.max(1, b - 1) === a ? b + 1 : Math.max(1, b - 1);   // a≠b keeps 4 distinct facts
+      if (d.plusOnly) {
+        const key = () => Math.min(a, b) + ':' + Math.max(a, b);
+        // both groups at least 2 (a page of +1 facts shows little), never equal, the sum inside the level's band
+        for (let k = 0; k < 300 && (Math.min(a, b) < 2 || a === b || a + b < (d.minTotal || 0) || a + b > d.maxTotal || seenPair.has(key())); k++) { a = rng.int(2, d.maxTotal - 2); b = rng.int(2, d.maxTotal - a); }
+        if (Math.min(a, b) < 2 || a === b || seenPair.has(key())) throw new Error('turn-around facts: no pair left');
+        seenPair.add(key());
+      }
       const t = a + b;
       // rows of ≤3 so groups read as compact blocks that FILL their boxes
       const fit = (n) => {
         const perRow = Math.min(3, n);
         const rows = Math.ceil(n / perRow);
-        const iconPx = Math.min(64, Math.floor((150 - (perRow - 1) * 6) / perRow), Math.floor((280 - (rows - 1) * 6) / rows));
+        const iconPx = Math.min(64, Math.floor((150 - (perRow - 1) * 6) / perRow), Math.floor(((d.fitH || 280) - (rows - 1) * 6) / rows));
         return { perRow, iconPx };
       };
       const fitA = fit(a);
@@ -57,13 +65,13 @@ module.exports = {
         `<span style="display:inline-flex;align-items:center;gap:8px" data-lcs-fact="${x}${op === '−' ? '-' : '+'}${y}=${ans}">` +
         NUM(x) + OPS(op) + NUM(y) + OPS('=') + answerBox({ w: 52, h: 42, answer: ans }) + `</span>`;
       cards.push(
-        `<div class="ws-card-stage"${slot.attr(ctx, 'pic', i)} style="gap:20px" data-lcs-a="${a}" data-lcs-b="${b}">` +
+        `<div class="ws-card-stage"${slot.attr(ctx, 'pic', i)} style="gap:20px" data-lcs-a="${a}" data-lcs-b="${b}"${d.plusOnly ? ' data-lcs-plus-only="1"' : ''}>` +
         `<div class="ws-subgroup" style="max-width:170px" data-lcs-part="a">` +
         iconRows({ theme, noun: nouns[i].noun, n: a, iconPx: fitA.iconPx, perRow: fitA.perRow, rng, gapX: 4, gapY: 4 }) + `</div>` +
         `<div class="ws-subgroup" style="max-width:170px" data-lcs-part="b">` +
         iconRows({ theme, noun: nouns[i].noun, n: b, iconPx: fitB.iconPx, perRow: fitB.perRow, rng, gapX: 4, gapY: 4 }) + `</div>` +
         `<span style="display:inline-flex;flex-direction:column;gap:12px;flex:0 0 auto">` +
-        line(a, '+', b, t) + line(b, '+', a, t) + line(t, '−', a, b) + line(t, '−', b, a) +
+        line(a, '+', b, t) + line(b, '+', a, t) + (d.plusOnly ? '' : line(t, '−', a, b) + line(t, '−', b, a)) +
         `</span></div>`
       );
     }
@@ -79,9 +87,11 @@ module.exports = {
         const cb = stage.querySelector('[data-lcs-part="b"]').querySelectorAll('.ws-icon').length;
         if (ca !== a || cb !== b) fails.push(`card ${i + 1}: icon groups ${ca},${cb} != ${a},${b}`);
         const facts = [...stage.querySelectorAll('[data-lcs-fact]')].map((f) => f.dataset.lcsFact);
-        if (facts.length !== 4) fails.push(`card ${i + 1}: ${facts.length} facts`);
+        const po = !!stage.dataset.lcsPlusOnly;
+        if (po && a === b) fails.push(`card ${i + 1}: ${a} + ${b} has no turn-around fact`);
+        if (facts.length !== (po ? 2 : 4)) fails.push(`card ${i + 1}: ${facts.length} facts`);
         const t = a + b;
-        const want = [`${a}+${b}=${t}`, `${b}+${a}=${t}`, `${t}-${a}=${b}`, `${t}-${b}=${a}`];
+        const want = [`${a}+${b}=${t}`, `${b}+${a}=${t}`, `${t}-${a}=${b}`, `${t}-${b}=${a}`].slice(0, po ? 2 : 4);
         want.forEach((w) => { if (!facts.includes(w)) fails.push(`card ${i + 1}: missing fact ${w}`); });
         facts.forEach((f) => {
           const m = f.match(/^(\d+)([+-])(\d+)=(\d+)$/);

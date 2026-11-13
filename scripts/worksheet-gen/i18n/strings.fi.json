@@ -4758,5 +4758,61 @@
   "K-627": {
     "title": "Kymmenen ja vähän lisää",
     "instruction": "Ympyröi 10. Kirjoita, montako on lisäksi. Kirjoita sitten luku."
+  },
+  "K-632": {
+    "title": "Jatka lukujonoa 100:aan",
+    "instruction": "Laske rivi läpi. Kirjoita jokainen puuttuva luku."
+  },
+  "K-633": {
+    "title": "Lukutaulu 50:een",
+    "instruction": "Osa luvuista piileskelee. Kirjoita jokainen puuttuva luku ruutuunsa."
+  },
+  "K-634": {
+    "title": "Kymmenen ja montako lisää?",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "K-635": {
+    "title": "Montako on piilossa? Luvut 9:ään",
+    "instruction": "Ympyrä näyttää, montako niitä on yhteensä. Osan näet. Loput ovat piilossa mukin alla. Kirjoita, montako on piilossa."
+  },
+  "G2-502": {
+    "title": "Vähennyslasku allekkain 1000:een",
+    "instruction": "Vähennä allekkain. Lainaa, kun ylempi numero ei riitä."
+  },
+  "K-636": {
+    "title": "Lukujen 6 ja 7 hajotelmat",
+    "instruction": "Väritä ruudut: yhtä monta punaiseksi kuin punainen luku ja yhtä monta siniseksi kuin sininen luku."
+  },
+  "K-637": {
+    "title": "Piirrä luku kahteen kymppiruudukkoon",
+    "instruction": "Lue luku. Piirrä yhtä monta pistettä kahteen kymppiruudukkoon. Täytä ensin ensimmäinen kymppiruudukko, sitten toinen."
+  },
+  "K-638": {
+    "title": "Lukutalot: etsi kaikki tavat",
+    "instruction": "Katossa on luku. Etsi kaikki tavat jakaa se kahteen osaan. Kirjoita jokaiseen kerrokseen yksi tapa."
+  },
+  "K-639": {
+    "title": "Yksi sinulle, yksi minulle: jaa tasan",
+    "instruction": "Jaa kasa tasan laatikoihin. Kirjoita, montako kukin saa."
+  },
+  "G1-561": {
+    "title": "Pieni lasku, iso lasku",
+    "instruction": "Laske ensin pieni lasku. Se auttaa sinua alla olevassa isossa laskussa."
+  },
+  "G1-562": {
+    "title": "Vaihda lukujen paikkaa",
+    "instruction": "Laske kaksi ryhmää yhteen. Vaihda sitten lukujen paikkaa ja laske uudelleen. Mitä huomaat?"
+  },
+  "G1-563": {
+    "title": "Laske kympit: 10–90",
+    "instruction": "Laske kymppisauvat. Kirjoita, montako kymppiä on. Kirjoita sitten luku."
+  },
+  "G1-564": {
+    "title": "Luvut 11–19: yksi kymppi ja ykkösiä",
+    "instruction": "Katso kymppisauvaa ja ykkösiä. Kirjoita, montako ykköstä on. Kirjoita sitten luku."
+  },
+  "G1-565": {
+    "title": "Kympeistä vähennetään kymppejä",
+    "instruction": "Vedä yli ne kymppisauvat, jotka otat pois. Kirjoita luku, joka jää jäljelle."
   }
 }

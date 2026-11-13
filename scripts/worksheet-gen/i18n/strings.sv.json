@@ -4760,5 +4760,61 @@
   "K-627": {
     "title": "Tio och några till",
     "instruction": "Ringa in 10. Skriv hur många till det är. Skriv sedan talet."
+  },
+  "K-632": {
+    "title": "Räkna vidare till 100",
+    "instruction": "Räkna längs raden. Skriv varje tal som saknas."
+  },
+  "K-633": {
+    "title": "Taltavlan till 50",
+    "instruction": "Några tal gömmer sig. Skriv varje tal som saknas i sin ruta."
+  },
+  "K-634": {
+    "title": "Tio och hur många till?",
+    "instruction": "Vilket tal saknas? Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-635": {
+    "title": "Hur många gömmer sig? Talen till 9",
+    "instruction": "Cirkeln visar hur många det är sammanlagt. Några kan du se. Resten gömmer sig under bägaren. Skriv hur många som gömmer sig."
+  },
+  "G2-502": {
+    "title": "Subtraktion med växling upp till 1000",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "K-636": {
+    "title": "Dela upp talen 6 och 7",
+    "instruction": "Färglägg rutorna: lika många röda som det röda talet, lika många blå som det blå talet."
+  },
+  "K-637": {
+    "title": "Rita talet i två tiorutor",
+    "instruction": "Läs talet. Rita lika många prickar i de två tiorutorna. Fyll den första tiorutan först, sedan den andra."
+  },
+  "K-638": {
+    "title": "Talhus: hitta alla sätt",
+    "instruction": "Taket visar talet. Hitta alla sätt att dela talet i två delar. Skriv ett sätt på varje våning."
+  },
+  "K-639": {
+    "title": "En till dig, en till mig: dela lika",
+    "instruction": "Dela högen lika i lådorna. Skriv hur många var och en får."
+  },
+  "G1-561": {
+    "title": "Liten uppgift, stor uppgift",
+    "instruction": "Räkna den lilla uppgiften först. Den hjälper dig med den stora uppgiften under."
+  },
+  "G1-562": {
+    "title": "Byt plats på talen",
+    "instruction": "Addera de två grupperna. Byt sedan plats på talen och addera igen. Vad ser du?"
+  },
+  "G1-563": {
+    "title": "Räkna tiotalen: 10 till 90",
+    "instruction": "Räkna tiostavarna. Skriv hur många tiotal det är. Skriv sedan talet."
+  },
+  "G1-564": {
+    "title": "Talen 11 till 19: ett tiotal och ental",
+    "instruction": "Titta på tiostaven och entalen. Skriv hur många ental det är. Skriv sedan talet."
+  },
+  "G1-565": {
+    "title": "Tiotal minus tiotal",
+    "instruction": "Stryk över de tiostavar som du tar bort. Skriv talet som blir kvar."
   }
 }

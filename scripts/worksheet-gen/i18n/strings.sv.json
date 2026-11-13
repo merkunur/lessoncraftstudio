@@ -4816,5 +4816,17 @@
   "G1-565": {
     "title": "Tiotal minus tiotal",
     "instruction": "Stryk över de tiostavar som du tar bort. Skriv talet som blir kvar."
+  },
+  "K-640": {
+    "title": "Räkna och skriv: 11 till 20",
+    "instruction": "Räkna alla bilder. Skriv hur många det är totalt."
+  },
+  "K-641": {
+    "title": "Para ihop: fler, färre eller lika många",
+    "instruction": "Dra ett streck från varje bild till en kompis i den andra raden. Ringa in raden som har fler. Om raderna har lika många, måla stjärnan."
+  },
+  "G1-566": {
+    "title": "Tänk addition när du subtraherar",
+    "instruction": "Hitta talet som saknas. Skriv det i den tomma cirkeln och i båda uppgifterna."
   }
 }

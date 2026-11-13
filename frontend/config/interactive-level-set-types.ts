@@ -93,6 +93,7 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)
   'arrays-multiplication': ['k639'],
   'column-arithmetic': ['g2502'],
+  'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481'],
   'word-problems': ['g2489'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
 };

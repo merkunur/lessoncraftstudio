@@ -4861,5 +4861,17 @@
   "G1-565": {
     "title": "Tiere minus tiere",
     "instruction": "Stryk over tierstavene du tar bort. Skriv tallet som blir igjen."
+  },
+  "K-640": {
+    "title": "Tell og skriv: 11 til 20",
+    "instruction": "Tell alle bildene. Skriv hvor mange det er til sammen."
+  },
+  "K-641": {
+    "title": "Lag par: flere, færre eller like mange",
+    "instruction": "Tegn en strek fra hvert bilde til en makker i den andre raden. Sett ring rundt raden som har flest. Hvis det er like mange, fargelegger du stjernen."
+  },
+  "G1-566": {
+    "title": "Tenk addisjon når du subtraherer",
+    "instruction": "Finn tallet som mangler. Skriv det i den tomme sirkelen og i begge regnestykkene."
   }
 }

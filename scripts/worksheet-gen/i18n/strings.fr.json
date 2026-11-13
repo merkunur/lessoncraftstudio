@@ -4861,5 +4861,17 @@
   "G1-565": {
     "title": "Soustraire des dizaines entières",
     "instruction": "Fais une croix sur les barres de dix que tu enlèves. Écris le nombre qui reste."
+  },
+  "K-640": {
+    "title": "Compte et écris : de 11 à 20",
+    "instruction": "Compte toutes les images. Écris combien il y en a en tout."
+  },
+  "K-641": {
+    "title": "Forme des paires : plus, moins ou autant",
+    "instruction": "Relie chaque image à une image de l’autre rangée. Entoure la rangée qui en a le plus. S’il y en a autant, colorie l’étoile."
+  },
+  "G1-566": {
+    "title": "Soustraire en pensant à l’addition",
+    "instruction": "Trouve le nombre qui manque. Écris-le dans le cercle vide et dans les deux calculs."
   }
 }

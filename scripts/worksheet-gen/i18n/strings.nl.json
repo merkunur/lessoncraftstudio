@@ -4866,5 +4866,17 @@
   "G1-565": {
     "title": "Tientallen aftrekken van tientallen",
     "instruction": "Streep de tienstaven door die je weghaalt. Schrijf het getal op dat overblijft."
+  },
+  "K-640": {
+    "title": "Tel en schrijf: 11 tot en met 20",
+    "instruction": "Tel alle plaatjes. Schrijf op hoeveel het er in totaal zijn."
+  },
+  "K-641": {
+    "title": "Maak paren: meer, minder of evenveel",
+    "instruction": "Trek een lijn van elk plaatje naar een maatje in de andere rij. Omcirkel de rij met meer plaatjes. Zijn het er evenveel? Kleur dan de ster."
+  },
+  "G1-566": {
+    "title": "Aftrekken door op te tellen",
+    "instruction": "Zoek het getal dat ontbreekt. Schrijf het in de lege cirkel en in beide sommen."
   }
 }

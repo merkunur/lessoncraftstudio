@@ -4871,5 +4871,17 @@
   "G1-565": {
     "title": "Subtrair dezenas de dezenas",
     "instruction": "Risque as barras de dez que você tira. Escreva o número que sobra."
+  },
+  "K-640": {
+    "title": "Conte e escreva: de 11 a 20",
+    "instruction": "Conte todas as figuras. Escreva quantas há no total."
+  },
+  "K-641": {
+    "title": "Forme pares: mais, menos ou igual",
+    "instruction": "Ligue cada figura a uma figura da outra fileira. Circule a fileira que tem mais. Se as duas fileiras tiverem a mesma quantidade, pinte a estrela."
+  },
+  "G1-566": {
+    "title": "Pense na adição para subtrair",
+    "instruction": "Descubra o número que falta. Escreva-o no círculo vazio e nas duas contas."
   }
 }

@@ -45,8 +45,9 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
               <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-primary hv6-cta-lg sm:whitespace-nowrap">
                 {t('ctaWorksheets')}
               </Link>
-              <Link href={`/${locale}/activities`} className="hv6-cta hv6-cta-ghost hv6-cta-lg sm:whitespace-nowrap">
-                {t('ctaActivities')}
+              {/* the second button names the makers, as the live hero does (the activities text was retired with v10.2) */}
+              <Link href={`/${locale}/worksheet-makers`} className="hv6-cta hv6-cta-ghost hv6-cta-lg sm:whitespace-nowrap">
+                {t('ctaMakers')}
               </Link>
             </div>
           </div>

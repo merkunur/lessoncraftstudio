@@ -4872,5 +4872,17 @@
   "G1-565": {
     "title": "Zehner minus Zehner",
     "instruction": "Streiche die Zehnerstangen durch, die du wegnimmst. Schreibe die Zahl auf, die übrig bleibt."
+  },
+  "K-640": {
+    "title": "Zählen und schreiben: 11 bis 20",
+    "instruction": "Zähle alle Bilder. Schreibe auf, wie viele es zusammen sind."
+  },
+  "K-641": {
+    "title": "Paare bilden: mehr, weniger oder gleich viele",
+    "instruction": "Verbinde jedes Bild mit einem Partner in der anderen Reihe. Kreise die Reihe ein, in der mehr sind. Sind es gleich viele, male den Stern an."
+  },
+  "G1-566": {
+    "title": "Minus mit Plus lösen",
+    "instruction": "Finde die fehlende Zahl. Schreibe sie in den leeren Kreis und in beide Aufgaben."
   }
 }

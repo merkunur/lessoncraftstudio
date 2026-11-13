@@ -4861,5 +4861,17 @@
   "G1-565": {
     "title": "Restar decenas de decenas",
     "instruction": "Tacha las barras de diez que quitas. Escribe el número que queda."
+  },
+  "K-640": {
+    "title": "Cuenta y escribe: del 11 al 20",
+    "instruction": "Cuenta todos los dibujos. Escribe cuántos hay en total."
+  },
+  "K-641": {
+    "title": "Forma parejas: más, menos o igual",
+    "instruction": "Une con una línea cada dibujo con una pareja de la otra fila. Encierra la fila que tiene más. Si las dos filas tienen la misma cantidad, colorea la estrella."
+  },
+  "G1-566": {
+    "title": "Piensa en la suma para restar",
+    "instruction": "Encuentra el número que falta. Escríbelo en el círculo vacío y en las dos operaciones."
   }
 }

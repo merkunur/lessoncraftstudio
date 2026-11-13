@@ -4842,5 +4842,17 @@
   "G1-565": {
     "title": "Tiere minus tiere",
     "instruction": "Streg de tierstænger over, som du tager væk. Skriv det tal, der er tilbage."
+  },
+  "K-640": {
+    "title": "Tæl og skriv: 11 til 20",
+    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt."
+  },
+  "K-641": {
+    "title": "Lav par: flere, færre eller lige mange",
+    "instruction": "Tegn en streg fra hvert billede til en makker i den anden række. Sæt ring om den række, der har flest. Hvis der er lige mange, så farv stjernen."
+  },
+  "G1-566": {
+    "title": "Tænk plus, når du trækker fra",
+    "instruction": "Find det tal, der mangler. Skriv det i den tomme cirkel og i begge regnestykker."
   }
 }

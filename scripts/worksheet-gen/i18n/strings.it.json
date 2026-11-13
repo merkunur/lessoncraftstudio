@@ -4848,5 +4848,17 @@
   "G1-565": {
     "title": "Sottrarre decine da decine",
     "instruction": "Fai una croce sulle barre delle decine che togli. Scrivi il numero che resta."
+  },
+  "K-640": {
+    "title": "Conta e scrivi: da 11 a 20",
+    "instruction": "Conta tutte le immagini. Scrivi quante sono in tutto."
+  },
+  "K-641": {
+    "title": "Forma le coppie: di più, di meno o uguali",
+    "instruction": "Collega ogni figura a una compagna dell’altra fila. Cerchia la fila che ne ha di più. Se le due file hanno lo stesso numero di figure, colora la stella."
+  },
+  "G1-566": {
+    "title": "Pensa all’addizione per sottrarre",
+    "instruction": "Trova il numero che manca. Scrivilo nel cerchio vuoto e nelle due operazioni."
   }
 }

@@ -4814,5 +4814,17 @@
   "G1-565": {
     "title": "Kympeistä vähennetään kymppejä",
     "instruction": "Vedä yli ne kymppisauvat, jotka otat pois. Kirjoita luku, joka jää jäljelle."
+  },
+  "K-640": {
+    "title": "Laske ja kirjoita: 11–20",
+    "instruction": "Laske kaikki kuvat. Kirjoita, montako niitä on kaikkiaan."
+  },
+  "K-641": {
+    "title": "Muodosta parit: enemmän, vähemmän vai yhtä monta?",
+    "instruction": "Vedä viiva jokaisesta kuvasta toisen rivin kuvaan. Ympyröi rivi, jossa on enemmän. Jos riveillä on yhtä monta, väritä tähti."
+  },
+  "G1-566": {
+    "title": "Vähennä yhteenlaskun avulla",
+    "instruction": "Etsi puuttuva luku. Kirjoita se tyhjään ympyrään ja molempiin laskuihin."
   }
 }

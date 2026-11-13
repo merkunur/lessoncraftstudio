@@ -4909,5 +4909,17 @@
   "G1-565": {
     "title": "Subtract Tens from Tens",
     "instruction": "Cross out the ten-rods you take away. Write the number that is left."
+  },
+  "K-640": {
+    "title": "Count and Write: 11 to 20",
+    "instruction": "Count all the pictures. Write how many there are in all."
+  },
+  "K-641": {
+    "title": "Match Them Up: More, Fewer, or the Same",
+    "instruction": "Draw a line from each picture to a partner in the other row. Circle the row that has more. If both rows have the same number, color the star."
+  },
+  "G1-566": {
+    "title": "Think Addition to Subtract",
+    "instruction": "Find the missing number. Write it in the empty circle and in both number sentences."
   }
 }

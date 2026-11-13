@@ -6051,5 +6051,20 @@
       "no": "Finn en ny måte å lage 7 på i hver remse. Fargelegg noen ruter røde og resten blå. Skriv først det røde tallet, så det blå.",
       "fi": "Keksi jokaiseen ruutujonoon eri tapa tehdä 7. Väritä osa ruuduista punaiseksi ja loput siniseksi. Kirjoita ensin punainen luku, sitten sininen."
     }
+  },
+  "G1-566": {
+    "3": {
+      "en": "Find the missing number. Write it in both number sentences.",
+      "de": "Finde die fehlende Zahl. Schreibe sie in beide Aufgaben.",
+      "es": "Encuentra el número que falta. Escríbelo en las dos operaciones.",
+      "pt": "Descubra o número que falta. Escreva-o nas duas contas.",
+      "fr": "Trouve le nombre qui manque. Écris-le dans les deux calculs.",
+      "it": "Trova il numero che manca. Scrivilo nelle due operazioni.",
+      "nl": "Zoek het getal dat ontbreekt. Schrijf het in beide sommen.",
+      "sv": "Hitta talet som saknas. Skriv det i båda uppgifterna.",
+      "da": "Find det tal, der mangler. Skriv det i begge regnestykker.",
+      "no": "Finn tallet som mangler. Skriv det i begge regnestykkene.",
+      "fi": "Etsi puuttuva luku. Kirjoita se molempiin laskuihin."
+    }
   }
 }

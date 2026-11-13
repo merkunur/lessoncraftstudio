@@ -8,7 +8,10 @@
  *
  * The stories are the native frames of the story-problem engine (lib/word-problems-levelset.js: the reviewed frames,
  * names and noun allow-list, {Q} agreement, fr elision), split at their last sentence: the story, and its question.
- * Only things that come by the dozen are counted (the engine's SMALL list: sweets, pencils, eggs …), so that 67 of
+ * Only things that come by the dozen are counted (the engine's SMALL list: sweets, pencils, eggs …), and every story
+ * is set in a PLACE (a table, a box, a shelf, a basket: the bank's place frames and data/word-problems/
+ * within-100-frames.json), never in a child's hands: "Elias has 53 forks and buys 44 more" made the teacher-reviewer
+ * smile, "there are 53 forks in a box" does not. A child is named in at most one story of a page. So 67 of
  * them is a believable number; a theme with fewer than three such things is refused. Nothing is counted in a picture:
  * one picture of the thing stands beside the story. No two stories of a page share an answer or a pair of numbers,
  * and no answer is a number the story prints. Printed page only.
@@ -33,6 +36,17 @@ const LABELS = {
   no: ['Spørsmål', 'Regnestykke', 'Svar'], fi: ['Kysymys', 'Lasku', 'Vastaus'],
 };
 const MINUS = '−';
+// the frames written for two-digit numbers (data/word-problems/within-100-frames.json explains why)
+const BIG = require('../../data/word-problems/within-100-frames.json');
+/** true when the first amount of a frame belongs to nobody: no name stands before it ("There are 53 forks in a box") */
+const inPlace = (f) => { const i = f.indexOf('{n1}'); return i > 0 && !f.slice(0, i).includes('{name'); };
+// what fits where (native reader, 2026-11-13): loose berries are not kept on a shelf; and where the story says the
+// things LIE on a shelf or a table (de liegen, nl liggen, sv / da / no ligger), a thing that stands is told in a box
+const BERRY = new Set(['raspberry', 'blackberry', 'blueberry', 'cherry']);
+const STANDS = new Set(['cup', 'car', 'race_car', 'dinosaur']);
+const SHELF = { en: /shelf/, de: /Regal/, es: /estante/, pt: /prateleira/, fr: /étagère/, it: /scaffale/, nl: /plank/, sv: /hylla/, da: /hylde/, no: /hyll[ea]/, fi: /[Hh]ylly/ };
+const LIES_ON = { de: /(Regal|Tisch)/, nl: /(plank|tafel)/, sv: /(hylla|bord)/, da: /(hylde|bord)/, no: /(hyll[ea]|bord)/ };
+const fitsHere = (f, noun, loc) => W.frameFits(f, noun, loc) && !(BERRY.has(noun) && SHELF[loc].test(f)) && !(STANDS.has(noun) && LIES_ON[loc] && LIES_ON[loc].test(f));
 
 /** two-digit numbers for a story of a kind: { n1, n2, answer } */
 function draw(kind, rng) {
@@ -61,10 +75,16 @@ module.exports = {
     const fit = Number(ctx.wpFit) || 0;   // a page that ran past the footer is rebuilt one step tighter (cli qaRetries)
     const pool = W.nounsFor(theme, loc).filter((n) => W.maxFor(n.noun, 100) === 100);
     if (pool.length < d.kinds.length) throw new Error(`G2-506: theme ${theme}/${loc} has ${pool.length} things that come by the dozen < ${d.kinds.length}`);
-    const nouns = rng.sample(pool, d.kinds.length);
     const names = W.namesFor(loc, false);
-    const usedFrames = new Set(), drawn = [];
-    const problems = d.kinds.map((kind, i) => {
+    let problems = null;
+    for (let attempt = 0; attempt < 40; attempt++) {
+    // (a page whose stories would be told twice in the same words — two things that stand, one box frame — draws
+    // its things again)
+    const nouns = rng.sample(pool, d.kinds.length);
+    // two things with one word (fr "ballons": balls and balloons) are not told on one page
+    if (new Set(nouns.map((n) => n.text)).size < nouns.length && attempt < 39) continue;
+    const usedFrames = new Set(), drawn = [], usedNames = []; let twice = false;
+    problems = d.kinds.map((kind, i) => {
       let nums = null;
       for (let t = 0; t < 400; t++) {
         const n = draw(kind, rng);
@@ -75,36 +95,46 @@ module.exports = {
       if (!nums) throw new Error('G2-506: no numbers for ' + kind);
       drawn.push(nums);
       const noun = nouns[i];
-      const all = W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)).filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f));
-      const fits = all.filter((f) => W.frameFits(f, noun.noun, loc));
-      const list = fits.length ? fits : all;
-      if (!list.length) throw new Error(`G2-506: no frame of two sentences for ${kind}/${loc}`);
+      // only stories in which the things lie in a PLACE (the first amount is nobody's): the bank's place frames and
+      // the frames written for two-digit numbers
+      const all = [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((BIG[loc] || {})[kind] || [])]
+        .filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f) && inPlace(f));
+      const list = all.filter((f) => fitsHere(f, noun.noun, loc));
+      if (!list.length) throw new Error(`G2-506: no frame of two sentences for ${kind}/${loc}/${noun.noun}`);
       const free = list.filter((f) => !usedFrames.has(f));
+      if (!free.length) twice = true;
       const tpl = rng.pick(free.length ? free : list); usedFrames.add(tpl);
-      const name = rng.pick(names);
-      const name2 = rng.pick(names.filter((n) => n !== name && n.slice(0, 4) !== name.slice(0, 4)));
+      // a child is named once on a page: two stories about Elias read as one story (teacher review 2026-11-13)
+      const freeNames = names.filter((n) => !usedNames.some((u) => u === n || u.slice(0, 4) === n.slice(0, 4)));
+      const name = rng.pick(freeNames);
+      const name2 = rng.pick(freeNames.filter((n) => n !== name && n.slice(0, 4) !== name.slice(0, 4)));
+      for (const n of [name, name2]) if (tpl.includes(n === name ? '{name}' : '{name2}')) usedNames.push(n);
       const sentence = W.fill(tpl, { name, name2, n1: nums.n1, n2: nums.n2, n3: null, noun: noun.text, gender: noun.gender }, loc);
       const cut = sentence.lastIndexOf('. ');
       if (cut < 0) throw new Error('G2-506: a story without a question sentence: ' + sentence);
-      return { kind, ...nums, noun: noun.noun, vocabKey: noun.vocabKey, frame: kind + ':' + tpl.length + ':' + tpl.slice(0, 12), story: sentence.slice(0, cut + 1), question: sentence.slice(cut + 2) };
+      return { kind, ...nums, noun: noun.noun, vocabKey: noun.vocabKey, frame: kind + ':' + tpl.length + ':' + tpl.slice(0, 12), story: sentence.slice(0, cut + 1), question: sentence.slice(cut + 2), names: [tpl.includes('{name}') ? name : null, tpl.includes('{name2}') ? name2 : null].filter(Boolean) };
     });
+    if (!twice) break;
+    }
     // which stories lose their question: drawn, never the same place on every page
     // never a compare story: two amounts side by side take two honest questions (how many more? how many together?),
     // and the second one leaves the hundred; a story in which something comes or goes has one natural question
     const lost = new Set(rng.sample(problems.map((p, i) => (p.kind === 'compare' ? -1 : i)).filter((i) => i >= 0), d.missing));
     const font = 17 - fit, lineH = Math.max(26, 32 - 2 * fit);
-    const label = (s) => `<span style="font-family:'Nunito';font-weight:800;font-size:14px;color:${T.teal};white-space:nowrap;align-self:end;padding-bottom:3px">${s}${loc === 'fr' ? '\u00A0' : ''}:</span>`;
+    // (the label of a PRINTED question stands on the question's first line: a question of two lines kept its label on
+    // the second one, and the first line read as story text — teacher review 2026-11-13)
+    const label = (s, first) => `<span style="font-family:'Nunito';font-weight:800;font-size:14px;color:${T.teal};white-space:nowrap;${first ? 'align-self:baseline' : 'align-self:end;padding-bottom:3px'}">${s}${loc === 'fr' ? '\u00A0' : ''}:</span>`;
     const line = (extra, inner) => `<span ${extra || ''} style="display:flex;align-items:flex-end;min-width:0;height:${lineH}px;border-bottom:2px solid ${T.grid};font-family:'Baloo 2';font-weight:700;font-size:20px;color:${T.coral};line-height:1;padding:0 6px 2px">${inner || ''}</span>`;
     const cards = problems.map((p, i) => {
       const eq = key ? `${p.n1} ${p.kind === 'add' ? '+' : MINUS} ${p.n2} = ${p.answer}` : '';
       const q = lost.has(i)
         ? line('data-lcs-qline', key ? `<span data-lcs-key-sample="1" style="font-family:'Nunito';font-weight:700;font-size:14px">${p.question}</span>` : '')
-        : `<span data-lcs-question style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.35;color:${T.ink};align-self:end">${p.question}</span>`;
-      return `<div class="ws-card-stage" data-lcs-fra="${p.kind}|${p.n1}|${p.n2}|${p.answer}" style="flex:1 0 auto;flex-direction:column;align-items:stretch;justify-content:center;gap:10px;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;padding:14px 20px">` +
+        : `<span data-lcs-question style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.35;color:${T.ink};align-self:baseline">${p.question}</span>`;
+      return `<div class="ws-card-stage" data-lcs-fra="${p.kind}|${p.n1}|${p.n2}|${p.answer}" data-lcs-names="${p.names.join('|')}" style="flex:1 0 auto;flex-direction:column;align-items:stretch;justify-content:center;gap:10px;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;padding:14px 20px">` +
         `<div style="display:flex;align-items:center;gap:14px"><span data-lcs-thing style="flex:0 0 auto;display:inline-flex">${W.iconImg(theme, p.noun, 46)}</span>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.4;color:${T.ink};margin:0" data-lcs-sentence>${p.story}</p></div>` +
         `<div style="display:grid;grid-template-columns:auto 1fr;column-gap:12px;row-gap:${8 - fit}px;align-items:end">` +
-        `${label(L[0])}${q}${label(L[1])}${line('data-lcs-eqline', eq)}${label(L[2])}${line(`data-lcs-answer="${p.answer}"`, key ? `<span data-lcs-keytext>${p.answer}</span>` : '')}` +
+        `${label(L[0], !lost.has(i))}${q}${label(L[1])}${line('data-lcs-eqline', eq)}${label(L[2])}${line(`data-lcs-answer="${p.answer}"`, key ? `<span data-lcs-keytext>${p.answer}</span>` : '')}` +
         `</div></div>`;
     });
     const bodyHtml = `<div data-ws-content data-lcs-fra-page="${d.missing}" style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:stretch">${cards.join('')}</div>`;
@@ -145,6 +175,8 @@ module.exports = {
         const cr = c.getBoundingClientRect();
         c.querySelectorAll('*').forEach((e) => { const r = e.getBoundingClientRect(); if (r.width && (r.right > cr.right + 1 || r.left < cr.left - 1 || r.bottom > cr.bottom + 1 || r.top < cr.top - 1)) fails.push(`${P}: something runs out of the card`); });
       });
+      const seen = [];
+      for (const c of cards) for (const n of (c.dataset.lcsNames || '').split('|').filter(Boolean)) { if (seen.includes(n)) fails.push('the name ' + n + ' stands in two stories'); seen.push(n); }
       if (lost !== missing) fails.push(`${lost} stories without a question, the level has ${missing}`);
       return [...new Set(fails)];
     });

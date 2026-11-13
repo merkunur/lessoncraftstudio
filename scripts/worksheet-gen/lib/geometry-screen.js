@@ -100,7 +100,7 @@ function screen(C, salt) {
   const ptsQ = (x) => x.P.map((q) => q.join(',')).join(' ');
   const fig = (x, px) => (x.shape === 'poly' ? GT().polySvg(x.P, px, x.fill) : shape(x.shape, px));
   if (m === 'count-sides') return numberScreen(it.map((x) => ({ q: x.shape === 'poly' ? `pts:${ptsQ(x)}` : `sides:${x.shape}`, prompt: fig(x, 150), ans: x.ans, slips: [x.ans + 1, x.ans - 1] })), salt);
-  if (m === 'symmetry-count') return numberScreen(it.map((x) => ({ q: `symn:${x.shape}`, prompt: shape(x.shape, 150), ans: x.ans, slips: [x.ans + 1, x.ans - 1, x.ans * 2] })), salt);
+  if (m === 'symmetry-count') return numberScreen(it.map((x) => ({ q: `symn:${x.shape}`, prompt: GT().symShapePublic(x.shape, 150), ans: x.ans, slips: [x.ans + 1, x.ans - 1, x.ans * 2] })), salt);
   if (m === 'solid-counts') {
     return numberScreen(it.map((x) => {
       const S = SHAPES_3D[x.shape];

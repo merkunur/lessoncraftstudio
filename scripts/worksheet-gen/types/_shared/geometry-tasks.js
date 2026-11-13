@@ -46,8 +46,11 @@ function shapeImg(k, px, extra) {
 // an angle: two rays from a vertex. NO right-angle mark — a mark on exactly the right angles gave the answer away.
 function angleSvg(deg, size) {
   const t = tokens;
-  const c = 14, len = size - 22;
+  // an obtuse angle opens to the LEFT of its corner: the corner moves right and the arms shorten, so that the whole
+  // angle lies inside the picture (2026-11-13: it was drawn from x = 14 and its second arm was cut off at the edge)
   const a = (-deg) * Math.PI / 180;
+  const back = deg > 90 ? -Math.cos(a) : 0;
+  const len = Math.round(((size - 22) / (1 + back)) * 100) / 100, c = Math.round((14 + len * back) * 100) / 100;
   // to a hundredth of a pixel: Node and the browser differ in the last digit of Math.cos / Math.sin (makers parity gate)
   const x2 = Math.round((c + len * Math.cos(a)) * 100) / 100, y2 = Math.round(((size - 14) + len * Math.sin(a)) * 100) / 100;
   const parts = [
@@ -165,9 +168,25 @@ const SYM_TRAPEZOID = [[34, 34], [86, 34], [110, 88], [10, 88]];
 // drawn in the shapes library's own style (its pale green fill, a thin near-black edge) so it sits with the other pictures;
 // those two colours are the library's, not the page palette: the svg says so (data-lcs-prim="lib-shape", qa/lints.js)
 const LIB_SHAPE = { fill: '#CFE1B9', stroke: '#1F2420' };
-const symTrapezoidSvg = (px) => svgRoot({ width: px, height: px, label: 'trapezoid' },
-  el('polygon', { points: SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), fill: LIB_SHAPE.fill, stroke: LIB_SHAPE.stroke, 'stroke-width': 0.9, 'stroke-linejoin': 'round' }),
-  { viewBox: '0 0 120 120', 'data-lcs-pts': SYM_TRAPEZOID.map((q) => q.join(',')).join(' '), 'data-lcs-prim': 'lib-shape' });
+// the mirror-line page's REGULAR shapes (2026-11-13): the library pentagon is 5 % too tall, its hexagon 3.5 % too flat,
+// its star 6 % off; a shape with 5 or 6 mirror lines has them only when it is exactly regular, so the page draws it
+// (to a hundredth of a unit: Node and the browser differ in the last digit of Math.cos / Math.sin)
+const ring = (n, R, cx, cy, start, r2) => Array.from({ length: r2 ? 2 * n : n }, (_, i) => {
+  const t = (start + i * (r2 ? 180 : 360) / n) * Math.PI / 180, rr = r2 && i % 2 ? r2 : R;
+  return [Math.round((cx + rr * Math.cos(t)) * 100) / 100, Math.round((cy + rr * Math.sin(t)) * 100) / 100];
+});
+const SYM_DRAWN = {
+  trapezoid: SYM_TRAPEZOID,
+  pentagon: ring(5, 54, 60, 64, -90),
+  hexagon: ring(6, 54, 60, 60, 0),
+  star: ring(5, 56, 60, 64, -90, 56 * Math.sin(Math.PI / 10) / Math.sin(3 * Math.PI / 10)),
+};
+const symDrawnSvg = (k, px) => svgRoot({ width: px, height: px, label: k },
+  el('polygon', { points: SYM_DRAWN[k].map((q) => q.join(',')).join(' '), fill: LIB_SHAPE.fill, stroke: LIB_SHAPE.stroke, 'stroke-width': 0.9, 'stroke-linejoin': 'round' }),
+  { viewBox: '0 0 120 120', 'data-lcs-pts': SYM_DRAWN[k].map((q) => q.join(',')).join(' '), 'data-lcs-prim': 'lib-shape' });
+const symTrapezoidSvg = (px) => symDrawnSvg('trapezoid', px);
+/** the picture of a shape on the mirror-line page and its screen: drawn where the library art is not exact */
+const symShape = (k, px) => (SYM_DRAWN[k] ? symDrawnSvg(k, px) : shapeImg(k, px));
 
 /**
  * The solids the counting pages draw themselves (2026-10-08): the library pictures are OPAQUE — a child counting the
@@ -572,7 +591,7 @@ function makeGeometryType(cfg) {
           // the library trapezoid slants under 5 degrees: at page size it reads as a rectangle (2 lines, the key says 1) — the
           // page draws a clearly slanted ISOSCELES trapezoid instead (2026-11-04)
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-shape="${k}" data-lcs-symn="${SYMMETRY_COUNT[k]}">` +
-            (k === 'trapezoid' ? symTrapezoidSvg(SZ) : shapeImg(k, SZ)) + answerBox({ w: 60, h: 48, answer: SYMMETRY_COUNT[k] }) + `</div>`);
+            symShape(k, SZ) + answerBox({ w: 60, h: 48, answer: SYMMETRY_COUNT[k] }) + `</div>`);
           items.push({ ask: k, shape: k, ans: SYMMETRY_COUNT[k] });
         });
         return out(cardGrid({ cards, cols: cards.length === 4 ? 2 : 3, rows: 2 }));
@@ -710,6 +729,8 @@ function makeGeometryType(cfg) {
               const deg = +svg.dataset.lcsAngle;
               const marked = !!svg.closest('.ws-pattern-slot').dataset.lcsTarget;
               if ((deg === 90) !== marked) fails.push(`card ${i + 1}: ${deg}° mark wrong`);
+              const W = +svg.getAttribute('width');
+              svg.querySelectorAll('line').forEach((l) => { for (const k of ['x1', 'x2', 'y1', 'y2']) { const v = +l.getAttribute(k); if (v < 2 || v > W - 2) fails.push(`card ${i + 1}: the ${deg}° angle leaves its picture`); } });
             });
           });
         } else if (mode === 'symmetry-count') {
@@ -725,6 +746,19 @@ function makeGeometryType(cfg) {
               const top = Math.abs(P[1][0] - P[0][0]), bottom = Math.abs(P[2][0] - P[3][0]);
               if (top > 0.7 * bottom) fails.push(`trapezoid: top ${top} too close to the bottom ${bottom} (reads as a rectangle)`);
               if (Math.abs((P[0][0] + P[1][0]) / 2 - (P[2][0] + P[3][0]) / 2) > 0.5) fails.push('trapezoid: not isosceles — it would have no mirror line');
+            }
+            // a pentagon, a hexagon and a star have their 5, 6, 5 mirror lines only when they are REGULAR: drawn, never
+            // the library picture, with every side the same length and every outer corner as far from the centre
+            if (k === 'pentagon' || k === 'hexagon' || k === 'star') {
+              const s = c.querySelector('svg[data-lcs-pts]');
+              if (!s) { fails.push(k + ': drawn from the library art, which is not exactly regular'); return; }
+              const P = s.dataset.lcsPts.split(' ').map((q) => q.split(',').map(Number));
+              const side = P.map((p, i) => Math.hypot(P[(i + 1) % P.length][0] - p[0], P[(i + 1) % P.length][1] - p[1]));
+              if (Math.max(...side) - Math.min(...side) > 0.05) fails.push(k + ': sides from ' + Math.min(...side).toFixed(2) + ' to ' + Math.max(...side).toFixed(2));
+              const cx = P.reduce((t, p) => t + p[0], 0) / P.length, cy = P.reduce((t, p) => t + p[1], 0) / P.length;
+              const outer = (k === 'star' ? P.filter((_, i) => i % 2 === 0) : P).map((p) => Math.hypot(p[0] - cx, p[1] - cy));
+              if (Math.max(...outer) - Math.min(...outer) > 0.05) fails.push(k + ': corners not on one circle');
+              if (P.length !== (k === 'pentagon' ? 5 : k === 'hexagon' ? 6 : 10)) fails.push(k + ': ' + P.length + ' corners drawn');
             }
           });
         }
@@ -742,4 +776,4 @@ function makeGeometryType(cfg) {
   };
 }
 
-module.exports = { makeGeometryType, quadPoints, isRectangle, SYMMETRY_COUNT, reviewedPools, unitRectSvg: unitRect, quadSvg, angleSvgPublic: angleSvg, polySvg, solidSvg, DRAWN_SOLIDS };
+module.exports = { makeGeometryType, quadPoints, isRectangle, SYMMETRY_COUNT, reviewedPools, unitRectSvg: unitRect, quadSvg, angleSvgPublic: angleSvg, symShapePublic: symShape, polySvg, solidSvg, DRAWN_SOLIDS };

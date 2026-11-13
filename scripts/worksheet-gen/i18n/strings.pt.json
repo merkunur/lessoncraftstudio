@@ -4887,5 +4887,9 @@
   "G3-481": {
     "title": "Que fração o ponto mostra?",
     "instruction": "Cada reta numérica de 0 a 1 está dividida em partes iguais. Escreva a fração que o ponto mostra."
+  },
+  "G3-482": {
+    "title": "Truques da tabuada do 6 e do 7",
+    "instruction": "Use o truque de cada linha. Preencha os quadradinhos um por um."
   }
 }

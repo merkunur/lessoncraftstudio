@@ -3604,7 +3604,8 @@
    "types": [
     "G3-314",
     "G3-409",
-    "G3-410"
+    "G3-410",
+    "G3-482"
    ],
    "families": [
     "arrays-multiplication",

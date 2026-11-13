@@ -4884,5 +4884,9 @@
   "G1-566": {
     "title": "Minus mit Plus lösen",
     "instruction": "Finde die fehlende Zahl. Schreibe sie in den leeren Kreis und in beide Aufgaben."
+  },
+  "G3-482": {
+    "title": "Rechentricks beim Einmaleins: 6 und 7",
+    "instruction": "Nutze den Trick in jeder Zeile. Fülle die Kästchen der Reihe nach aus."
   }
 }

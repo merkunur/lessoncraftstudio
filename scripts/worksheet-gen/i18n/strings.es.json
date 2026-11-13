@@ -4877,5 +4877,9 @@
   "G3-481": {
     "title": "¿Qué fracción señala el punto?",
     "instruction": "Cada recta numérica del 0 al 1 está dividida en partes iguales. Escribe la fracción que señala el punto."
+  },
+  "G3-482": {
+    "title": "Trucos para las tablas del 6 y del 7",
+    "instruction": "Usa el truco de cada renglón. Completa los recuadros uno por uno."
   }
 }

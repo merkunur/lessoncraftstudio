@@ -4862,5 +4862,9 @@
   "G3-481": {
     "title": "Hvilken brøk viser prikken?",
     "instruction": "Hver tallinje fra 0 til 1 er delt i lige store dele. Skriv den brøk, som prikken viser."
+  },
+  "G3-482": {
+    "title": "Smarte tricks: 6- og 7-tabellen",
+    "instruction": "Brug tricket på hver linje. Udfyld felterne ét ad gangen."
   }
 }

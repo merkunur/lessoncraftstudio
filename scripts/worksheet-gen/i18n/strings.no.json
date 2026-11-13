@@ -4881,5 +4881,9 @@
   "G3-481": {
     "title": "Hvilken brøk viser prikken?",
     "instruction": "Hver tallinje fra 0 til 1 er delt i like store deler. Skriv brøken som prikken viser."
+  },
+  "G3-482": {
+    "title": "Lure triks: 6- og 7-gangen",
+    "instruction": "Bruk trikset på hver linje. Fyll ut rutene én etter én."
   }
 }

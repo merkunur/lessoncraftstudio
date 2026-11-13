@@ -4836,5 +4836,9 @@
   "G3-481": {
     "title": "Vilket bråk visar punkten?",
     "instruction": "Varje tallinje från 0 till 1 är delad i lika stora delar. Skriv det bråk som punkten visar."
+  },
+  "G3-482": {
+    "title": "Smarta knep: 6:ans och 7:ans tabell",
+    "instruction": "Använd knepet på varje rad. Fyll i rutorna en i taget."
   }
 }

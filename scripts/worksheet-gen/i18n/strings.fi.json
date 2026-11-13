@@ -4834,5 +4834,9 @@
   "G3-481": {
     "title": "Minkä murtoluvun piste näyttää?",
     "instruction": "Jokainen lukusuora nollasta yhteen on jaettu yhtä suuriin osiin. Kirjoita murtoluku, jonka piste näyttää."
+  },
+  "G3-482": {
+    "title": "Kertotaulun kikkoja: 6:n ja 7:n kertotaulu",
+    "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
   }
 }

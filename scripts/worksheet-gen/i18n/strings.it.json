@@ -4868,5 +4868,9 @@
   "G3-481": {
     "title": "Quale frazione indica il punto?",
     "instruction": "Ogni linea dei numeri da 0 a 1 è divisa in parti uguali. Scrivi la frazione indicata dal punto."
+  },
+  "G3-482": {
+    "title": "Trucchi per le tabelline del 6 e del 7",
+    "instruction": "Usa il trucco di ogni riga. Completa le caselle una alla volta."
   }
 }

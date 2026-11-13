@@ -4925,5 +4925,9 @@
   "G3-481": {
     "title": "What Fraction Is the Dot?",
     "instruction": "Each number line from 0 to 1 is cut into equal parts. Write the fraction that the dot shows."
+  },
+  "G3-482": {
+    "title": "Times Table Tricks: 6 and 7",
+    "instruction": "Use the trick on each line. Fill in the boxes one by one."
   }
 }

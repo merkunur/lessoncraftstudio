@@ -59,7 +59,7 @@ function makeMdMoreType(cfg) {
     assetClass: 'numeral-charts',
     exerciseType: mode === 'draw' ? 'arrays-multiplication' : 'multiplication-tables',
     themeAxis: { applicable: false },
-    difficulty: LEVELS[mode],
+    difficulty: cfg.levels || LEVELS[mode],   // a face may bring its own levels (Year pages J)
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
 
@@ -178,6 +178,9 @@ function makeMdMoreType(cfg) {
           let parts;
           if (p.kind === 'x4') parts = [NUM(a), op(MUL), NUM(4), op('='), NUM(a), op(MUL), NUM(2), op(MUL), NUM(2), op('='), B(2 * a), op(MUL), NUM(2), op('='), B(4 * a)];
           else if (p.kind === 'x8') parts = [NUM(a), op(MUL), NUM(8), op('='), NUM(a), op(MUL), NUM(4), op(MUL), NUM(2), op('='), B(4 * a), op(MUL), NUM(2), op('='), B(8 * a)];
+          // Year pages J: the tables of 6 and 7 from the table of 5 (one more group; two more groups)
+          else if (p.kind === 'x6') parts = [NUM(a), op(MUL), NUM(6), op('='), NUM(a), op(MUL), NUM(5), op('+'), NUM(a), op('='), B(5 * a), op('+'), NUM(a), op('='), B(6 * a)];
+          else if (p.kind === 'x7') parts = [NUM(a), op(MUL), NUM(7), op('='), NUM(a), op(MUL), NUM(5), op('+'), NUM(a), op(MUL), NUM(2), op('='), B(5 * a), op('+'), B(2 * a), op('='), B(7 * a)];
           else if (p.kind === 'x5') parts = [NUM(a), op(MUL), NUM(5), op('='), `<span style="display:inline-flex;align-items:center;gap:6px">${NUM('(' + a)}${op(MUL)}${NUM('10)')}</span>`, op(DIV), NUM(2), op('='), B(10 * a), op(DIV), NUM(2), op('='), B(5 * a)];
           else parts = [NUM(a), op(MUL), NUM(9), op('='), NUM(a), op(MUL), NUM(10), op('−'), NUM(a), op('='), B(10 * a, 64), op('−'), NUM(a), op('='), B(9 * a)];
           return `<div class="ws-card-stage" data-lcs-chain="${p.kind}:${a}" style="justify-content:center;align-items:center;gap:6px">${parts.join('')}</div>`;
@@ -213,9 +216,9 @@ function makeMdMoreType(cfg) {
           if (a !== b * q || b < 2 || q < 1) fails.push('div ' + c.dataset.lcsDiv);
         });
         if (m === 'chain') document.querySelectorAll('[data-lcs-chain]').forEach((c) => {
-          const [k, a] = c.dataset.lcsChain.split(':'); const want = { x4: [2, 4], x8: [4, 8], x5: [10, 5], x9: [10, 9] }[k].map((f) => f * n(a));
+          const [k, a] = c.dataset.lcsChain.split(':'); const want = { x4: [2, 4], x8: [4, 8], x5: [10, 5], x9: [10, 9], x6: [5, 6], x7: [5, 2, 7] }[k].map((f) => f * n(a));
           const got = [...c.querySelectorAll('[data-lcs-answer]')].map((b) => n(b.dataset.lcsAnswer));
-          if (got.join() !== want.join() || want[1] > 100) fails.push('chain ' + c.dataset.lcsChain);
+          if (got.join() !== want.join() || want[want.length - 1] > 100) fails.push('chain ' + c.dataset.lcsChain);
         });
         if (m === 'draw') document.querySelectorAll('[data-lcs-drawarray]').forEach((c) => {
           const [a, b] = c.dataset.lcsDrawarray.split('x').map(n); const [gr] = c.querySelector('[data-lcs-dotgrid]').dataset.lcsDotgrid.split('x').map(n);

@@ -6066,5 +6066,99 @@
       "no": "Finn tallet som mangler. Skriv det i begge regnestykkene.",
       "fi": "Etsi puuttuva luku. Kirjoita se molempiin laskuihin."
     }
+  },
+  "G3-482": {
+    "1": {
+      "en": {
+        "title": "Times Table Tricks: 6",
+        "instruction": "Use the trick on each line. Fill in the boxes one by one."
+      },
+      "de": {
+        "title": "Rechentricks beim Einmaleins: 6",
+        "instruction": "Nutze den Trick in jeder Zeile. Fülle die Kästchen der Reihe nach aus."
+      },
+      "es": {
+        "title": "Trucos para la tabla del 6",
+        "instruction": "Usa el truco de cada renglón. Completa los recuadros uno por uno."
+      },
+      "pt": {
+        "title": "Truques da tabuada do 6",
+        "instruction": "Use o truque de cada linha. Preencha os quadradinhos um por um."
+      },
+      "fr": {
+        "title": "Astuces pour la table de 6",
+        "instruction": "Utilise l'astuce de chaque ligne. Remplis les cases une par une."
+      },
+      "it": {
+        "title": "Trucchi per la tabellina del 6",
+        "instruction": "Usa il trucco di ogni riga. Completa le caselle una alla volta."
+      },
+      "nl": {
+        "title": "Slimme tafeltrucs: de tafel van 6",
+        "instruction": "Gebruik de truc op elke regel. Vul de vakjes één voor één in."
+      },
+      "sv": {
+        "title": "Smarta knep: 6:ans tabell",
+        "instruction": "Använd knepet på varje rad. Fyll i rutorna en i taget."
+      },
+      "da": {
+        "title": "Smarte tricks: 6-tabellen",
+        "instruction": "Brug tricket på hver linje. Udfyld felterne ét ad gangen."
+      },
+      "no": {
+        "title": "Lure triks: 6-gangen",
+        "instruction": "Bruk trikset på hver linje. Fyll ut rutene én etter én."
+      },
+      "fi": {
+        "title": "Kertotaulun kikkoja: 6:n kertotaulu",
+        "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
+      }
+    },
+    "3": {
+      "en": {
+        "title": "Times Table Tricks: 7",
+        "instruction": "Use the trick on each line. Fill in the boxes one by one."
+      },
+      "de": {
+        "title": "Rechentricks beim Einmaleins: 7",
+        "instruction": "Nutze den Trick in jeder Zeile. Fülle die Kästchen der Reihe nach aus."
+      },
+      "es": {
+        "title": "Trucos para la tabla del 7",
+        "instruction": "Usa el truco de cada renglón. Completa los recuadros uno por uno."
+      },
+      "pt": {
+        "title": "Truques da tabuada do 7",
+        "instruction": "Use o truque de cada linha. Preencha os quadradinhos um por um."
+      },
+      "fr": {
+        "title": "Astuces pour la table de 7",
+        "instruction": "Utilise l'astuce de chaque ligne. Remplis les cases une par une."
+      },
+      "it": {
+        "title": "Trucchi per la tabellina del 7",
+        "instruction": "Usa il trucco di ogni riga. Completa le caselle una alla volta."
+      },
+      "nl": {
+        "title": "Slimme tafeltrucs: de tafel van 7",
+        "instruction": "Gebruik de truc op elke regel. Vul de vakjes één voor één in."
+      },
+      "sv": {
+        "title": "Smarta knep: 7:ans tabell",
+        "instruction": "Använd knepet på varje rad. Fyll i rutorna en i taget."
+      },
+      "da": {
+        "title": "Smarte tricks: 7-tabellen",
+        "instruction": "Brug tricket på hver linje. Udfyld felterne ét ad gangen."
+      },
+      "no": {
+        "title": "Lure triks: 7-gangen",
+        "instruction": "Bruk trikset på hver linje. Fyll ut rutene én etter én."
+      },
+      "fi": {
+        "title": "Kertotaulun kikkoja: 7:n kertotaulu",
+        "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
+      }
+    }
   }
 }

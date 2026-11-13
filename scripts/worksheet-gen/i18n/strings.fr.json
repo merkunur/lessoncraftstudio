@@ -4881,5 +4881,9 @@
   "G3-481": {
     "title": "Quelle fraction correspond au point ?",
     "instruction": "Chaque droite graduée de 0 à 1 est partagée en parts égales. Écris la fraction qui correspond au point."
+  },
+  "G3-482": {
+    "title": "Astuces pour les tables de 6 et de 7",
+    "instruction": "Utilise l'astuce de chaque ligne. Remplis les cases une par une."
   }
 }

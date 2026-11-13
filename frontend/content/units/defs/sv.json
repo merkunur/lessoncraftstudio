@@ -1105,7 +1105,7 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 9 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 10 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 5,
    "lessons": [
     {
@@ -1149,6 +1149,15 @@
       "G1-439": 3
      },
      "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#talsorterna-var-for-sig",
+     "types": [
+      "G2-504"
+     ],
+     "tool": "place-value-lab",
      "activity": null
     },
     {
@@ -1705,15 +1714,15 @@
    ]
   },
   {
-   "id": "sv-3-ma-mult-division",
-   "slug": "multiplikation-och-division-ak-3",
+   "id": "sv-3-ma-multiplikationstabellerna",
+   "slug": "multiplikationstabellerna-ak-3",
    "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Multiplikation och division",
-   "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fem veckor.",
-   "weeks": 5,
+   "title": "Multiplikationstabellerna 1–10",
+   "metaTitle": "Matematik åk 3: Multiplikationstabellerna 1–10 | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikationstabellerna 1–10”: 5 lektioner med lärarkommentar, daglig tabellträning och arbetsblad.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:skip-count-3-4",
@@ -1721,6 +1730,23 @@
       "G2-207",
       "G2-208"
      ],
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#tabelltraning-de-21-uppgifterna",
+     "led": true,
+     "tool": "folding-wall",
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#treans-och-fyrans-tabell",
+     "types": [
+      "G3-367",
+      "G3-368"
+     ],
+     "tool": null,
      "activity": null
     },
     {
@@ -1738,6 +1764,29 @@
      "tool": "baking-tray",
      "activity": null
     },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#sjuans-attans-och-nians-tabell",
+     "types": [
+      "G3-483",
+      "G3-405"
+     ],
+     "tool": "baking-tray",
+     "activity": null
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-mult-division",
+   "slug": "multiplikation-och-division-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Multiplikation och division",
+   "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 4,
+   "lessons": [
     {
      "point": "2:share-and-group",
      "types": [
@@ -2191,6 +2240,7 @@
    "units": [
     "sv-3-ma-tal-0-1000",
     "sv-3-ma-avrundning-uppstallning",
+    "sv-3-ma-multiplikationstabellerna",
     "sv-3-ma-mult-division",
     "sv-3-ma-matning",
     "sv-3-ma-brak",

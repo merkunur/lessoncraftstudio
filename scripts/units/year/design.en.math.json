@@ -624,7 +624,8 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "Eight tasks. Each has the sum (47 + 38 = _), a tens-and-ones mat for a drawing of sticks and dots, and the frame 40 + 30 = _, 7 + 8 = _, _ + _ = _. The child draws, rings ten dots for a new stick, and fills the three lines. The ones add up to 10 to 18 in six tasks and stay under 10 in two; sums from 41 to 100."
+            "page": "Eight tasks. Each has the sum (47 + 38 = _), a tens-and-ones mat for a drawing of sticks and dots, and the frame 40 + 30 = _, 7 + 8 = _, _ + _ = _. The child draws, rings ten dots for a new stick, and fills the three lines. The ones add up to 10 to 18 in six tasks and stay under 10 in two; sums from 41 to 100.",
+            "placed": "1:mental-math-to-100#add-tens-and-ones"
           },
           {
             "new": true,
@@ -1110,7 +1111,8 @@
             "days": 3,
             "tool": "The Baking Tray",
             "source": "new",
-            "page": "Level 1: six dot arrays (6 x 7, 7 x 8, 6 x 9 and others) with a dashed line already drawn after the fifth row; the child completes 7 x 8 = 5 x 8 + 2 x 8 = _ + _ = _. Level 2: six arrays with no line; the child draws the line where it helps and writes the three steps. Level 3: eight facts with no array and the frame 8 x 6 = (5 x 6) + (_ x 6) = _. One factor is always 6, 7, 8 or 9; products up to 81."
+            "page": "Level 1: six dot arrays (6 x 7, 7 x 8, 6 x 9 and others) with a dashed line already drawn after the fifth row; the child completes 7 x 8 = 5 x 8 + 2 x 8 = _ + _ = _. Level 2: six arrays with no line; the child draws the line where it helps and writes the three steps. Level 3: eight facts with no array and the frame 8 x 6 = (5 x 6) + (_ x 6) = _. One factor is always 6, 7, 8 or 9; products up to 81.",
+            "placed": "3:times-tables#break-a-hard-fact"
           },
           {
             "new": true,

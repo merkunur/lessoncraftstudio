@@ -25,7 +25,7 @@
     "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 126,
+    "lessons": 130,
     "parts": 6,
     "partsTaught": 6
    },
@@ -262,18 +262,22 @@
           },
           {
            "n": 6,
-           "title": "Subtrahera tvåsiffriga tal på tom tallinje"
+           "title": "Addera tvåsiffriga tal: talsorterna var för sig"
           },
           {
            "n": 7,
-           "title": "Addition och subtraktion upp till 100"
+           "title": "Subtrahera tvåsiffriga tal på tom tallinje"
           },
           {
            "n": 8,
-           "title": "Räkna mynt"
+           "title": "Addition och subtraktion upp till 100"
           },
           {
            "n": 9,
+           "title": "Räkna mynt"
+          },
+          {
+           "n": 10,
            "title": "Handla: räkna ihop priset"
           }
          ]
@@ -368,36 +372,55 @@
          ]
         },
         {
+         "unit": "multiplikationstabellerna-ak-3",
+         "unitTitle": "Multiplikationstabellerna 1–10",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Tabellträning: de 21 uppgifter som återstår"
+          },
+          {
+           "n": 3,
+           "title": "3:ans och 4:ans tabell"
+          },
+          {
+           "n": 4,
+           "title": "6:ans tabell med hjälp av 5:ans tabell"
+          },
+          {
+           "n": 5,
+           "title": "7:ans, 8:ans och 9:ans tabell: bryt isär den svåra"
+          }
+         ]
+        },
+        {
          "unit": "multiplikation-och-division-ak-3",
          "unitTitle": "Multiplikation och division",
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 2,
-           "title": "6:ans tabell med hjälp av 5:ans tabell"
-          },
-          {
-           "n": 3,
+           "n": 1,
            "title": "Dela lika och bilda grupper"
           },
           {
-           "n": 4,
+           "n": 2,
            "title": "Division: dela lika"
           },
           {
-           "n": 5,
+           "n": 3,
            "title": "Division: hoppa tillbaka till noll"
           },
           {
-           "n": 6,
+           "n": 4,
            "title": "Faktorn som saknas och talfamiljer"
           },
           {
-           "n": 7,
+           "n": 5,
            "title": "Räknehändelser med multiplikation och division"
           },
           {
-           "n": 8,
+           "n": 6,
            "title": "Division med rest"
           }
          ]
@@ -554,16 +577,23 @@
          ]
         },
         {
-         "unit": "multiplikation-och-division-ak-3",
-         "unitTitle": "Multiplikation och division",
+         "unit": "multiplikationstabellerna-ak-3",
+         "unitTitle": "Multiplikationstabellerna 1–10",
          "unitGrade": "3",
          "lessons": [
           {
            "n": 1,
            "title": "3-hopp och 4-hopp"
-          },
+          }
+         ]
+        },
+        {
+         "unit": "multiplikation-och-division-ak-3",
+         "unitTitle": "Multiplikation och division",
+         "unitGrade": "3",
+         "lessons": [
           {
-           "n": 6,
+           "n": 4,
            "title": "Faktorn som saknas och talfamiljer"
           }
          ]
@@ -896,7 +926,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 9,
+           "n": 10,
            "title": "Handla: räkna ihop priset"
           }
          ]
@@ -907,7 +937,7 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 7,
+           "n": 5,
            "title": "Räknehändelser med multiplikation och division"
           }
          ]

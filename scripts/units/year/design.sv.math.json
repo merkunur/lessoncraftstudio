@@ -564,7 +564,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar additioner av två tvåsiffriga tal, först utan och sedan med tiotalsövergång (34 + 25, 47 + 26), med en färdig mall för mellanled: tiotal + tiotal, ental + ental, summa; eleven fyller i mallen och skriver svaret. Ingen summa är större än 100."
+            "page": "Bladet visar additioner av två tvåsiffriga tal, först utan och sedan med tiotalsövergång (34 + 25, 47 + 26), med en färdig mall för mellanled: tiotal + tiotal, ental + ental, summa; eleven fyller i mallen och skriver svaret. Ingen summa är större än 100.",
+            "placed": "1:mental-math-to-100#talsorterna-var-for-sig"
           },
           {
             "new": true,
@@ -1012,7 +1013,8 @@
             "days": 2,
             "tool": "Tabellhyllan",
             "source": "teacher-led",
-            "page": "Fem minuter varje dag under resten av läsåret: eleverna tränar i par med kort på de tabeller som klassen har gått igenom, och var och en har en egen lista där säkra uppgifter bockas av. Läraren lyssnar efter om svaren kommer direkt eller räknas fram med hopp, och vilka av de 21 uppgifterna (till exempel 6 · 7, 7 · 8 och 8 · 9) som behöver tas upp igen med hela klassen."
+            "page": "Fem minuter varje dag under resten av läsåret: eleverna tränar i par med kort på de tabeller som klassen har gått igenom, och var och en har en egen lista där säkra uppgifter bockas av. Läraren lyssnar efter om svaren kommer direkt eller räknas fram med hopp, och vilka av de 21 uppgifterna (till exempel 6 · 7, 7 · 8 och 8 · 9) som behöver tas upp igen med hela klassen.",
+            "placed": "3:times-tables#tabelltraning-de-21-uppgifterna"
           },
           {
             "new": true,
@@ -1021,7 +1023,8 @@
             "standard": "Taluppfattning och tals användning",
             "days": 2,
             "tool": null,
-            "source": "reuse:2:ans tabell"
+            "source": "reuse:2:ans tabell",
+            "placed": "3:times-tables#treans-och-fyrans-tabell"
           },
           {
             "new": true,
@@ -1042,7 +1045,8 @@
             "days": 3,
             "tool": "Bullplåten",
             "source": "new",
-            "page": "Bladet visar rutnät för de sex uppgifterna 7 · 7, 7 · 8, 7 · 9, 8 · 8, 8 · 9 och 9 · 9, där eleven själv ritar ett streck som delar rutnätet i två kända delar och skriver delprodukterna och summan. I andra delen skriver eleven 9:ans tabell som 10 · n − n, till exempel 9 · 6 = 60 − 6 = 54, och beskriver mönstret i svaren."
+            "page": "Bladet visar rutnät för de sex uppgifterna 7 · 7, 7 · 8, 7 · 9, 8 · 8, 8 · 9 och 9 · 9, där eleven själv ritar ett streck som delar rutnätet i två kända delar och skriver delprodukterna och summan. I andra delen skriver eleven 9:ans tabell som 10 · n − n, till exempel 9 · 6 = 60 − 6 = 54, och beskriver mönstret i svaren.",
+            "placed": "3:times-tables#sjuans-attans-och-nians-tabell"
           }
         ]
       },

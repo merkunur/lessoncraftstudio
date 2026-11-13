@@ -102,6 +102,9 @@
   ],
   "G1-131": [
    "G1-132"
+  ],
+  "G3-367": [
+   "G3-368"
   ]
  },
  "sameGiven": [
@@ -117,7 +120,8 @@
   "K-275": "^(10|[125]|1[589])$",
   "G1-397": "handlig",
   "K-231": "x|^s\\|j|^g\\|[eiyäö]|^k\\|[eiyäö]|g\\|n$|l\\|g$|(.)\\|\\1",
-  "G1-266": "^4\\|4\\|8$"
+  "G1-266": "^4\\|4\\|8$",
+  "G3-482": "^(10\\|12|25\\|30|50\\|60)$"
  },
  "pairKind": [
   "G3-319"
@@ -152,6 +156,18 @@
  "avoidNums": {
   "G1-137": [
    56
+  ],
+  "G3-367": [
+   1,
+   2,
+   5,
+   10
+  ],
+  "G3-405": [
+   1,
+   2,
+   5,
+   10
   ]
  },
  "nearWrong": {
@@ -196,7 +212,8 @@
  "onlyText": {
   "G2-223": "([1-9]00 \\+.*){2}",
   "G1-282": "^[^?]*$",
-  "G1-104": "− [2-9] ="
+  "G1-104": "− [2-9] =",
+  "G3-377": "\\d+\\D+[3-9]\\s*="
  },
  "avoidPictures": [
   "vulture"
@@ -260,7 +277,12 @@
   "not changed after the second look": "[sv.review-2, notes] Small pictures (tigers, pandas, vultures, giraffes) are the worksheets' own size and are to be looked at on a printed page. Twelve limes stand as eleven and one (the worksheet's line break). The left-out lessons are named on the first teacher page. The line under every page is the product's name. The key note's quotation marks are the Swedish ones in the file (U+201D); the page font draws them nearly upright.",
   "G3-321 notLongest": "[sv.review-2] In form A the right strip was the longest (2, 4, 3 squares), in form B the shortest (5, 7, 6): \"the whole is the biggest\" scored without reading the fraction. The right strip is never the longest, in either form (held to the middle one in both, form B could not be filled).",
   "G1-104 avoid and onlyText": "[sv.review-2] The reader asked for boxes of 7 to 10 pictures; taking one away is counted at a glance, so the boxes take away two or more.",
-  "G1-104 otherFirst": "[sv.review-2] The same number of pictures to start from in both forms (4 and 4, then 7 and 7): form B starts from another number than form A."
+  "G1-104 otherFirst": "[sv.review-2] The same number of pictures to start from in both forms (4 and 4, then 7 and 7): form B starts from another number than form A.",
+  "G3-367 blend G3-368": "[teacher-reviewer of the Year pages K, 2026-11-13] The lesson is the tables of 3 AND of 4 and hands out one worksheet per table; a part cut from the first alone asks no fact of 4.",
+  "G3-367 G3-405 avoidNums": "[teacher-reviewer of the Year pages K, 2026-11-13] Form A asked 5 · 3, 5 · 6 and 5 · 9 and form B no fact of 5: the tables of 1, 2, 5 and 10 are known since åk 2, so a class that takes A before and B after looks as if it learned less than it did. The parts of the tables unit ask no fact with 1, 2, 5 or 10.",
+  "G3-482 avoidAns": "The same ruling for the chains of the table of 6: no chain of 2 · 6, 5 · 6 or 10 · 6.",
+  "G3-377 onlyText": "[teacher-reviewer of the Year pages K, 2026-11-13, optional] Form A asked 21 / 2 (ten groups to ring, a two-digit quotient) and form B 22 / 5 (four groups): the forms were not the same size of task. The part divides by 3 to 9.",
+  "G2-216 kept": "[teacher-reviewer of the Year pages K, 2026-11-13; decided, not applied] The reviewer asked to take 9 / 3 = 3 and 16 / 4 = 4 out of the sharing part (the answer is the number of boxes, so the mistake of writing the number of boxes scores as right). Without them the page of the level the lesson hands out leaves six different tasks, too few to fill two forms of the same size, and the part fell back to the grouping page, where the rings are drawn and the child only counts them. The sharing part stays: each form has one task whose answer is not its number of boxes (15 / 3, 10 / 2)."
  },
  "sameAnswer": [
   "G1-353"

@@ -2173,14 +2173,14 @@
     },
     {
      "part": 4,
-     "lesson": 6,
+     "lesson": 7,
      "title": "Subtrahera tvåsiffriga tal på tom tallinje",
      "type": "G2-501",
      "tasks": 1
     },
     {
      "part": 5,
-     "lesson": 8,
+     "lesson": 9,
      "title": "Räkna mynt",
      "type": "G1-228",
      "tasks": 2
@@ -2189,8 +2189,9 @@
    "notCovered": [
     1,
     5,
-    7,
-    9
+    6,
+    8,
+    10
    ],
    "forms": {
     "A": {
@@ -3013,53 +3014,193 @@
    }
   },
   {
+   "unit": "sv-3-ma-multiplikationstabellerna",
+   "slug": "multiplikationstabellerna-ak-3",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "3:ans och 4:ans tabell",
+     "type": "G3-367",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "6:ans tabell med hjälp av 5:ans tabell",
+     "type": "G3-482",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "7:ans, 8:ans och 9:ans tabell: bryt isär den svåra",
+     "type": "G3-405",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    2
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "3f63d9dc06e4e7b0",
+       "23de8cf336f45098"
+      ],
+      [
+       "a7211fc06a41593e",
+       "eafa70f6c46d884a"
+      ],
+      [
+       "595882d278ba1425",
+       "d0f770fde5c88cc9"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w · w = ? ·0",
+       "w · w = ? ·1"
+      ],
+      [
+       "w · w = w · w + w = ? + w = ?",
+       "w · w = w · w + w = ? + w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       24,
+       28
+      ],
+      [
+       48,
+       36
+      ],
+      [
+       72,
+       54
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "25bb2976b235b00e",
+       "54aa475ee1a54e03"
+      ],
+      [
+       "56bb557a38282b4d",
+       "c34aa5229944b093"
+      ],
+      [
+       "160552e1280f3fca",
+       "1396fd3512275ffc"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w · w = ? ·0",
+       "w · w = ? ·1"
+      ],
+      [
+       "w · w = w · w + w = ? + w = ?",
+       "w · w = w · w + w = ? + w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       27,
+       32
+      ],
+      [
+       54,
+       42
+      ],
+      [
+       81,
+       63
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "sv-3-ma-mult-division",
    "slug": "multiplikation-och-division-ak-3",
    "status": "live",
    "parts": [
     {
      "part": 1,
-     "lesson": 2,
-     "title": "6:ans tabell med hjälp av 5:ans tabell",
-     "type": "G3-482",
-     "tasks": 2
-    },
-    {
-     "part": 2,
-     "lesson": 3,
+     "lesson": 1,
      "title": "Dela lika och bilda grupper",
      "type": "G2-216",
      "tasks": 2
     },
     {
-     "part": 3,
-     "lesson": 6,
+     "part": 2,
+     "lesson": 4,
      "title": "Faktorn som saknas och talfamiljer",
      "type": "G3-312",
      "tasks": 1
     },
     {
-     "part": 4,
-     "lesson": 8,
+     "part": 3,
+     "lesson": 6,
      "title": "Division med rest",
      "type": "G3-377",
      "tasks": 1
     }
    ],
    "notCovered": [
-    1,
-    4,
-    5,
-    7
+    2,
+    3,
+    5
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
-      [
-       "15606e2b6ee429c7",
-       "25f549077dc54bca"
-      ],
       [
        "1e24a3be768fb736",
        "7a5902320e237034"
@@ -3068,14 +3209,10 @@
        "810d45829ad731e6"
       ],
       [
-       "a0e7ab6571d1b8cd"
+       "85cdb475b6610326"
       ]
      ],
      "pos": [
-      [
-       null,
-       null
-      ],
       [
        null,
        null
@@ -3089,10 +3226,6 @@
      ],
      "kinds": [
       [
-       "w · w = w · w + w = ? + w = ?",
-       "w · w = w · w + w = ? + w = ?"
-      ],
-      [
        "w / w = ?",
        "w / w = ?"
       ],
@@ -3105,10 +3238,6 @@
      ],
      "sizes": [
       [
-       42,
-       30
-      ],
-      [
        15,
        9
       ],
@@ -3116,17 +3245,13 @@
        24
       ],
       [
-       21
+       23
       ]
      ]
     },
     "B": {
      "pages": 2,
      "cards": [
-      [
-       "b204c0828c939fcf",
-       "c1bdc88d18d1d76e"
-      ],
       [
        "68d54ab016fb787c",
        "54c96ecf2dfcee0a"
@@ -3144,10 +3269,6 @@
        null
       ],
       [
-       null,
-       null
-      ],
-      [
        null
       ],
       [
@@ -3155,10 +3276,6 @@
       ]
      ],
      "kinds": [
-      [
-       "w · w = w · w + w = ? + w = ?",
-       "w · w = w · w + w = ? + w = ?"
-      ],
       [
        "w / w = ?",
        "w / w = ?"
@@ -3171,10 +3288,6 @@
       ]
      ],
      "sizes": [
-      [
-       48,
-       24
-      ],
       [
        16,
        10

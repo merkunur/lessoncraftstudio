@@ -1260,7 +1260,7 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
+   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and mixed practice.",
    "weeks": 4,
    "lessons": [
     {
@@ -1283,6 +1283,18 @@
       "G1-438"
      ],
      "tool": "open-number-line",
+     "standards": [
+      "2.NBT.B.5"
+     ]
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#add-tens-and-ones",
+     "types": [
+      "G2-504"
+     ],
+     "tool": "place-value-lab",
+     "activity": null,
      "standards": [
       "2.NBT.B.5"
      ]
@@ -1476,18 +1488,18 @@
      }
     },
     {
-     "point": "2:line-plots",
-     "types": [
-      "G2-240"
-     ]
-    },
-    {
      "point": "2:grid-coordinates",
      "types": [
       "G2-279",
       "G2-308"
      ],
      "activity": null
+    },
+    {
+     "point": "2:line-plots",
+     "types": [
+      "G2-240"
+     ]
     },
     {
      "point": "2:scaled-pictograph",
@@ -1734,8 +1746,8 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, and word problems, with a first look at remainders.",
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, word problems, and remainders.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:division-sharing",
@@ -1766,6 +1778,15 @@
       "G3-407": 3
      },
      "tool": "folding-wall",
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#break-a-hard-fact",
+     "types": [
+      "G3-483"
+     ],
+     "tool": "baking-tray",
      "activity": null
     },
     {

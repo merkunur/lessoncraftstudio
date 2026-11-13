@@ -5949,8 +5949,8 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
-   "days": 19,
+   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and mixed practice.",
+   "days": 21,
    "weeks": 4,
    "lessons": [
     {
@@ -6129,6 +6129,45 @@
     },
     {
      "n": 4,
+     "point": "1:mental-math-to-100",
+     "title": "Add tens and ones, then put them together",
+     "objective": "Children add two two-digit numbers within 100 when the ones make a new ten (47 + 38) by adding the tens, adding the ones, and adding the two partial sums (70 + 15).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-504",
+       "title": "Add Tens and Ones",
+       "core": "mental-math-g2504",
+       "easy": "mental-math-easy-g2504-6",
+       "hard": "mental-math-hard-g2504-11"
+      }
+     ],
+     "id": "1:mental-math-to-100#add-tens-and-ones",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "exit": {
+      "slug": "mental-math-g2504-2",
+      "title": "Add Tens and Ones"
+     },
+     "note": {
+      "mistake": "When the ones add up to more than nine, children write the two sums side by side, so 47 + 38 becomes 715, or they drop the new ten and answer 75. Some add the tens as if they were ones and write 4 + 3 = 7 instead of 40 + 30 = 70.",
+      "words": "Build 47 in the Place Value Lab and add 38: first 3 tens, then 8 ones. Say: \"4 tens and 3 tens are 7 tens: 70. 7 ones and 8 ones are 15 ones. 70 and 15 make 85.\" Ask: \"What is 15? One ten and five ones. Where does that ten go?\" Let children draw sticks and dots for one problem on scrap paper and circle ten dots to make a new stick.",
+      "watch": "Check the first box of each problem: for 40 + 30, did the child write 70 and not 7? The easier page has problems with no new ten, such as 34 + 25. On the harder page children write the tens and ones themselves; the first problem shows how. Check there that the first line says 40 + 30 and not 4 + 3. Not every problem on the harder page makes a new ten; ask children to say which ones will before they add. Have children test an answer against an estimate: 47 + 38 is close to 50 + 40."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "2:column-method",
      "title": "Add and subtract vertically",
      "objective": "Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.",
@@ -6187,7 +6226,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:add-sub-within-100-practice",
      "title": "Add and subtract within 100",
      "objective": "Children add and subtract two-digit numbers to fill number walls and to follow a road through a math maze.",
@@ -6242,7 +6281,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:explain-strategies",
      "title": "Why does it work?",
      "objective": "Children explain with blocks or a drawing why a way of adding or subtracting within 100 works, and compare two worked ways for the same problem, such as 38 + 25.",
@@ -6991,6 +7030,47 @@
     },
     {
      "n": 3,
+     "point": "2:grid-coordinates",
+     "title": "Find a square on a grid",
+     "objective": "Children find a square by its letter and number, such as B2, color it, and write the code of a square.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "G2-279",
+       "title": "Grid Coordinates",
+       "core": "grid-coordinates-g2279",
+       "easy": "grid-coordinates-easy-g2279-7",
+       "hard": "grid-coordinates-hard-g2279-12",
+       "landing": "grid-coordinates-color-the-squares"
+      },
+      {
+       "type": "G2-308",
+       "title": "Grid Coordinates: Write the Codes",
+       "core": "grid-coordinates-g2308",
+       "easy": "grid-coordinates-easy-g2308-7",
+       "hard": "grid-coordinates-hard-g2308-12",
+       "landing": "grid-coordinates-write-the-codes"
+      }
+     ],
+     "exit": {
+      "slug": "grid-coordinates-g2279-2",
+      "title": "Grid Coordinates"
+     },
+     "maker": {
+      "id": "maps-grids",
+      "name": "Maps & Coordinates",
+      "slug": "map-and-coordinates-worksheet-maker",
+      "template": "G2-279"
+     },
+     "note": {
+      "mistake": "Children use the letter or the number and not both, coloring a whole row or the wrong square in the right column. Writing codes, they put the number first or name the square next door.",
+      "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\"",
+      "watch": "The picture checks the work: a square out of place shows at once. See who uses two fingers and who guesses. Writing the code of a square is harder than finding one; do it second."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "2:line-plots",
      "title": "Read a line plot",
      "objective": "Children count the X marks above each number on a line plot and write how many there are.",
@@ -7031,47 +7111,6 @@
       "mistake": "Children mix up the two kinds of numbers: the number under a stack (what was measured) and the number of X marks (how many times). Asked \"how many are 5 long,\" they answer \"5.\"",
       "words": "Say: \"The numbers on the line tell WHAT was measured. The X marks tell HOW MANY times.\" Ask: \"How many pencils were 5 units long? Count the Xs above the 5.\" Then: \"Which length came up most often?\"",
       "watch": "Ask one question each way: \"How many Xs are above the 7?\" and \"Which number has 3 Xs?\" A child who can answer both understands the plot. Then have the class measure six pencils and add an X for each; making a plot from your own measurements is the other half of this skill."
-     },
-     "days": 2
-    },
-    {
-     "n": 4,
-     "point": "2:grid-coordinates",
-     "title": "Find a square on a grid",
-     "objective": "Children find a square by its letter and number, such as B2, color it, and write the code of a square.",
-     "standards": [],
-     "paper": [
-      {
-       "type": "G2-279",
-       "title": "Grid Coordinates",
-       "core": "grid-coordinates-g2279",
-       "easy": "grid-coordinates-easy-g2279-7",
-       "hard": "grid-coordinates-hard-g2279-12",
-       "landing": "grid-coordinates-color-the-squares"
-      },
-      {
-       "type": "G2-308",
-       "title": "Grid Coordinates: Write the Codes",
-       "core": "grid-coordinates-g2308",
-       "easy": "grid-coordinates-easy-g2308-7",
-       "hard": "grid-coordinates-hard-g2308-12",
-       "landing": "grid-coordinates-write-the-codes"
-      }
-     ],
-     "exit": {
-      "slug": "grid-coordinates-g2279-2",
-      "title": "Grid Coordinates"
-     },
-     "maker": {
-      "id": "maps-grids",
-      "name": "Maps & Coordinates",
-      "slug": "map-and-coordinates-worksheet-maker",
-      "template": "G2-279"
-     },
-     "note": {
-      "mistake": "Children use the letter or the number and not both, coloring a whole row or the wrong square in the right column. Writing codes, they put the number first or name the square next door.",
-      "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\"",
-      "watch": "The picture checks the work: a square out of place shows at once. See who uses two fingers and who guesses. Writing the code of a square is harder than finding one; do it second."
      },
      "days": 2
     },
@@ -8540,9 +8579,9 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, and word problems, with a first look at remainders.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, word problems, and remainders.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -8740,6 +8779,45 @@
     },
     {
      "n": 5,
+     "point": "3:times-tables",
+     "title": "Break a hard fact into two easy ones",
+     "objective": "Children split an array for a fact with 7, 8, or 9 into two arrays they know and add the two products, such as 7 × 8 = 5 × 8 + 2 × 8 = 40 + 16.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.OA.C.7",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-483",
+       "title": "Break Apart a Hard Fact",
+       "core": "multiplication-tables-g3483",
+       "easy": "multiplication-tables-easy-g3483-3",
+       "hard": "multiplication-tables-hard-g3483-8"
+      }
+     ],
+     "id": "3:times-tables#break-a-hard-fact",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "baking-tray",
+      "name": "The Baking Tray"
+     },
+     "exit": {
+      "slug": "multiplication-tables-g3483-2",
+      "title": "Break Apart a Hard Fact"
+     },
+     "note": {
+      "mistake": "Children cut the array into two parts they do not know either, such as 7 × 8 into 4 × 8 and 3 × 8, and then skip-count both parts. Others write both products correctly and forget to add them. Some cut between columns, so the two parts no longer fit the number sentence under the array.",
+      "words": "On the Baking Tray, set 7 rows of 8 buns and break the tray after the fifth row. Say: \"5 rows of 8 is 40. 2 rows of 8 is 16. 7 × 8 is 40 + 16, so 56.\" Ask: \"Where will you draw your line so that you know both parts?\" Push the pieces back together and ask: \"Did the number of buns change?\"",
+      "watch": "Look at where each child draws the line: a cut after 5 rows gives a 5s fact and a small part of 2, 3, or 4 rows. A child who does not know the small part yet can build it from the 2s: 2 × 8 is 16, so 4 × 8 is double, 32, and 3 × 8 is 16 and 8 more, 24. The easier page has the line and the two smaller facts printed. On the harder page children cut the same array in two different ways and see that the total stays the same."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "3:muldiv-word-problems",
      "title": "Multiplication and division word problems",
      "objective": "Children solve word problems with equal groups, deciding whether the story asks for the total, for the size of each group, or for the number of groups.",
@@ -8801,7 +8879,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "3:division-remainder",
      "title": "Division with a remainder",
      "objective": "Children make equal groups from a pile or deal it into boxes, write how many groups there are or how many each box gets, and write how many are left over.",
@@ -13783,6 +13861,7 @@
       "A number line that does not start at zero",
       "Jumps on the hundreds chart",
       "Jumps on an open number line",
+      "Add tens and ones, then put them together",
       "Add and subtract vertically",
       "Add and subtract within 100",
       "Why does it work?"
@@ -13845,8 +13924,8 @@
      "lessons": [
       "From tally marks to a bar graph",
       "Make a graph from counts",
-      "Read a line plot",
       "Find a square on a grid",
+      "Read a line plot",
       "Each picture counts as two"
      ],
      "standards": [
@@ -13903,9 +13982,9 @@
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (24 Weeks)",
-   "metaDescription": "7 Grade 3 math units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 24,
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (25 Weeks)",
+   "metaDescription": "7 Grade 3 math units in teaching order, about 25 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 25,
    "framework": "Common Core",
    "units": [
     {
@@ -13955,14 +14034,15 @@
      "id": "g3-division",
      "slug": "division-grade-3-unit",
      "title": "Division",
-     "weeks": 3,
+     "weeks": 4,
      "from": 8,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "Divide by sharing",
       "Divide by hopping back",
       "The missing factor and fact families",
       "The facts we still need",
+      "Break a hard fact into two easy ones",
       "Multiplication and division word problems",
       "Division with a remainder"
      ],
@@ -13979,8 +14059,8 @@
      "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
      "title": "Time, Temperature, Mass, and Liquid Volume",
      "weeks": 4,
-     "from": 11,
-     "to": 14,
+     "from": 12,
+     "to": 15,
      "lessons": [
       "Tell time to the minute",
       "How much time passed?",
@@ -14000,8 +14080,8 @@
      "slug": "area-and-perimeter-grade-3-unit",
      "title": "Area and Perimeter",
      "weeks": 3,
-     "from": 15,
-     "to": 17,
+     "from": 16,
+     "to": 18,
      "lessons": [
       "Area: count the squares",
       "Same area, different shape",
@@ -14020,8 +14100,8 @@
      "slug": "fractions-grade-3-unit",
      "title": "Fractions",
      "weeks": 4,
-     "from": 18,
-     "to": 21,
+     "from": 19,
+     "to": 22,
      "lessons": [
       "Equal pieces",
       "Name and shade a fraction",
@@ -14047,8 +14127,8 @@
      "slug": "shapes-and-data-grade-3-unit",
      "title": "Shapes and Data",
      "weeks": 3,
-     "from": 22,
-     "to": 24,
+     "from": 23,
+     "to": 25,
      "lessons": [
       "Right angles",
       "Is it a rectangle?",

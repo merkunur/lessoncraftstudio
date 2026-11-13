@@ -1145,7 +1145,7 @@
     "taught": 20,
     "near": 2,
     "open": 6,
-    "lessons": 41
+    "lessons": 42
    },
    "groups": [
     {
@@ -1345,14 +1345,14 @@
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 4,
-         "title": "Add and subtract vertically"
+         "title": "Add tens and ones, then put them together"
         },
         {
          "unit": "adding-and-subtracting-within-100-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 5,
-         "title": "Add and subtract within 100"
+         "title": "Add and subtract vertically"
         }
        ]
       },
@@ -1414,7 +1414,7 @@
          "unit": "adding-and-subtracting-within-100-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Why does it work?"
         }
        ]
@@ -1543,7 +1543,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "Read a line plot"
         }
        ]
@@ -1648,7 +1648,7 @@
     "taught": 23,
     "near": 2,
     "open": 9,
-    "lessons": 40
+    "lessons": 41
    },
    "groups": [
     {
@@ -1733,7 +1733,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 5,
+         "n": 6,
          "title": "Multiplication and division word problems"
         }
        ]
@@ -1798,6 +1798,13 @@
          "unitGrade": "3",
          "n": 4,
          "title": "The facts we still need"
+        },
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 5,
+         "title": "Break a hard fact into two easy ones"
         }
        ]
       },
@@ -3717,7 +3724,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 54
+    "lessons": 55
    },
    "groups": [
     {
@@ -4489,7 +4496,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 46
+    "lessons": 47
    },
    "groups": [
     {
@@ -4737,14 +4744,14 @@
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 4,
-         "title": "Add and subtract vertically"
+         "title": "Add tens and ones, then put them together"
         },
         {
          "unit": "adding-and-subtracting-within-100-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 5,
-         "title": "Add and subtract within 100"
+         "title": "Add and subtract vertically"
         }
        ]
       },
@@ -5095,7 +5102,7 @@
     "taught": 29,
     "near": 2,
     "open": 22,
-    "lessons": 40
+    "lessons": 41
    },
    "groups": [
     {
@@ -5410,6 +5417,13 @@
          "unitGrade": "3",
          "n": 4,
          "title": "The facts we still need"
+        },
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 5,
+         "title": "Break a hard fact into two easy ones"
         }
        ]
       },
@@ -5485,7 +5499,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 5,
+         "n": 6,
          "title": "Multiplication and division word problems"
         }
        ]
@@ -5510,7 +5524,7 @@
          "unit": "division-grade-3-unit",
          "unitTitle": "Division",
          "unitGrade": "3",
-         "n": 5,
+         "n": 6,
          "title": "Multiplication and division word problems"
         }
        ]

@@ -2393,7 +2393,7 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Add and subtract vertically",
      "type": "G2-255",
      "tasks": 2
@@ -2401,8 +2401,9 @@
    ],
    "notCovered": [
     2,
-    5,
-    6
+    4,
+    6,
+    7
    ],
    "forms": {
     "A": {
@@ -2850,7 +2851,7 @@
     },
     {
      "part": 3,
-     "lesson": 6,
+     "lesson": 7,
      "title": "Division with a remainder",
      "type": "G3-377",
      "tasks": 1
@@ -2859,7 +2860,8 @@
    "notCovered": [
     2,
     4,
-    5
+    5,
+    6
    ],
    "forms": {
     "A": {

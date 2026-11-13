@@ -34,7 +34,8 @@
   },
   "base-ten": {
     "full": "Zehnerblöcke machen den abstrakten Stellenwert sichtbar und zählbar – Hunderter, Zehner und Einer auf einen Blick.",
-    "short": "Macht Stellenwert mit Hundertern, Zehnern und Einern greifbar."
+    "short": "Macht Stellenwert mit Hundertern, Zehnern und Einern greifbar.",
+    "levelSetShort": "Macht den Stellenwert greifbar."
   },
   "telling-time": {
     "full": "Analoge Uhren auf volle und halbe Stunden und auf fünf Minuten genau abzulesen ist eine Alltagskompetenz, die Kinder stolz macht.",

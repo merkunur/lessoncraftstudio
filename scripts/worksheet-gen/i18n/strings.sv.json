@@ -4848,5 +4848,13 @@
   "G2-504": {
     "title": "Addera tiotal och ental var för sig",
     "instruction": "Addera tiotalen. Addera entalen. Lägg sedan ihop de två summorna."
+  },
+  "K-642": {
+    "title": "Räknehändelser: rita och lös",
+    "instruction": "Lyssna på varje räknehändelse. Rita den i rutan. Skriv svaret."
+  },
+  "G2-505": {
+    "title": "Hitta felet i programmet",
+    "instruction": "Följ pilarna från flaggan: varje pil är ett steg. En pil är fel: vägen slutar inte på stjärnan. Ringa in den felaktiga pilen och rita den rätta pilen i rutan under."
   }
 }

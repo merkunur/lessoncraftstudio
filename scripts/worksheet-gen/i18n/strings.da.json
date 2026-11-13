@@ -4874,5 +4874,13 @@
   "G2-504": {
     "title": "Læg tiere og enere sammen hver for sig",
     "instruction": "Læg tierne sammen. Læg enerne sammen. Læg til sidst de to resultater sammen."
+  },
+  "K-642": {
+    "title": "Regnehistorier: tegn og løs",
+    "instruction": "Lyt til hver regnehistorie. Tegn den i feltet. Skriv svaret."
+  },
+  "G2-505": {
+    "title": "Find fejlen i programmet",
+    "instruction": "Følg pilene fra flaget: hver pil er ét skridt. Én pil er forkert: vejen ender ikke ved stjernen. Sæt ring om den forkerte pil, og tegn den rigtige pil i feltet under den."
   }
 }

@@ -4889,5 +4889,13 @@
   "G2-504": {
     "title": "Suma decenas y unidades",
     "instruction": "Suma las decenas. Suma las unidades. Después suma los dos resultados."
+  },
+  "K-642": {
+    "title": "Problemas: dibuja y resuelve",
+    "instruction": "Escucha cada historia. Dibújala en el recuadro. Escribe la respuesta."
+  },
+  "G2-505": {
+    "title": "Corrige el programa de flechas",
+    "instruction": "Sigue las flechas desde la bandera: cada flecha es un paso. Una flecha está mal: el camino no termina en la estrella. Encierra la flecha equivocada y dibuja la flecha correcta en el recuadro que está debajo de ella."
   }
 }

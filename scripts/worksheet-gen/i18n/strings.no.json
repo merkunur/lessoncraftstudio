@@ -4893,5 +4893,13 @@
   "G2-504": {
     "title": "Legg sammen tiere og enere hver for seg",
     "instruction": "Legg sammen tierne. Legg sammen enerne. Legg til slutt sammen de to svarene."
+  },
+  "K-642": {
+    "title": "Regnefortellinger: tegn og løs",
+    "instruction": "Lytt til hver regnefortelling. Tegn den i ruta. Skriv svaret."
+  },
+  "G2-505": {
+    "title": "Finn feilen i programmet",
+    "instruction": "Følg pilene fra flagget: hver pil er ett steg. Én pil er feil: veien ender ikke på stjernen. Sett ring rundt pilen som er feil, og tegn den riktige pilen i ruta under."
   }
 }

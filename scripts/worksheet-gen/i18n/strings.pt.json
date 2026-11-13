@@ -4899,5 +4899,13 @@
   "G2-504": {
     "title": "Some dezenas e unidades",
     "instruction": "Some as dezenas. Some as unidades. Depois some os dois resultados."
+  },
+  "K-642": {
+    "title": "Probleminhas: desenhe e resolva",
+    "instruction": "Ouça cada história. Desenhe a história no espaço abaixo dela. Escreva a resposta no quadrinho."
+  },
+  "G2-505": {
+    "title": "Corrija o programa de setas",
+    "instruction": "Siga as setas a partir da bandeira: cada seta é um passo. Uma seta está errada: o caminho não termina na estrela. Circule a seta errada e desenhe a seta certa no quadrinho abaixo dela."
   }
 }

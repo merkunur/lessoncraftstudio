@@ -4880,5 +4880,13 @@
   "G2-504": {
     "title": "Somma decine e unità",
     "instruction": "Somma le decine. Somma le unità. Poi somma i due risultati."
+  },
+  "K-642": {
+    "title": "Problemi: disegna e risolvi",
+    "instruction": "Ascolta ogni storia. Disegnala nel riquadro. Scrivi la risposta."
+  },
+  "G2-505": {
+    "title": "Correggi il programma di frecce",
+    "instruction": "Segui le frecce partendo dalla bandierina: ogni freccia è un passo. Una freccia è sbagliata: il percorso non finisce sulla stella. Cerchia la freccia sbagliata e disegna quella giusta nella casella sotto."
   }
 }

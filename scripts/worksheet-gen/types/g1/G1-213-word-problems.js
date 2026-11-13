@@ -257,6 +257,17 @@ module.exports = {
             return `<span style="position:relative;display:inline-flex"${crossed ? ' data-lcs-crossed' : ' data-lcs-g1'}>${W.iconImg(theme, p.noun, iconPx, crossed ? ';opacity:0.45' : '')}${crossed ? cross : ''}</span>`;
           }).join('') + `</div>`;
       }
+      // a DRAW face (K-642, Year pages M): the child draws the story itself, so no counted picture is printed: one
+      // picture of the thing beside the story, a large empty box to draw in, and the answer box
+      if (d.draw && !screen) {
+        const stampsD = `data-lcs-problem data-lcs-ls="1" data-lcs-draw="1" data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}" data-lcs-op="${p.kind}" data-lcs-max="${d.max}"`;
+        return `<div class="ws-card-stage" style="flex:1 0 auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:12px;background:#FBF3E4;` +
+          `border:2px solid #F0E4CB;border-radius:14px;padding:16px 20px" ${stampsD}>` +
+          `<div style="display:flex;align-items:center;gap:14px"><span data-lcs-thing style="flex:0 0 auto;display:inline-flex">${W.iconImg(theme, p.noun, 54)}</span>` +
+          `<p style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.45;color:#3A3530;margin:0" data-lcs-sentence>${p.sentence}</p></div>` +
+          `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch"><div data-lcs-drawbox style="flex:1;min-width:0;background:#FFFFFF;border:2.5px dashed #C8BFAE;border-radius:12px;min-height:${Math.max(120, 190 - 20 * (d.fit || 0))}px"></div>` +
+          `<div style="display:flex;align-items:flex-end">${answerBox({ w: 84, h: 64, answer: p.answer })}</div></div></div>`;
+      }
       const stamps = `data-lcs-problem${slot.attr(ctx, 'pic', pi)} data-lcs-ls="1" data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}" data-lcs-op="${p.kind}" data-lcs-max="${d.max}"`;
       const box = screen
         ? W.writeBox(p.answer, p.vocabKey, `data-lcs-kind="${p.kind}" data-lcs-a="${p.n1}" data-lcs-b="${p.n2 == null ? '' : p.n2}" data-lcs-c="${p.n3 == null ? '' : p.n3}"`, SCR.box, 104)
@@ -307,6 +318,13 @@ module.exports = {
           if (!box || +box.dataset.lcsAnswer !== ans) fails.push(`${P}: box != ${ans}`);
           const key = box && box.querySelector('[data-lcs-keytext]');
           if (keyPage ? (!key || +key.textContent !== ans) : !!key) fails.push(`${P}: key text wrong`);
+          if (p.dataset.lcsDraw) {   // a draw face: room to draw, one picture of the thing, and nothing counted for the child
+            const db = p.querySelector('[data-lcs-drawbox]');
+            if (!db || db.getBoundingClientRect().height < 110 || db.getBoundingClientRect().width < 380) fails.push(`${P}: the box to draw in is too small`);
+            if (p.querySelector('[data-lcs-strip]')) fails.push(`${P}: a draw page prints no counted picture`);
+            if (p.querySelectorAll('[data-lcs-thing] img').length !== 1) fails.push(`${P}: one picture of the thing`);
+            return;
+          }
           const strip = p.querySelector('[data-lcs-strip]');
           if (!strip) { fails.push(`${P}: no picture`); return; }
           const g1 = strip.querySelectorAll('[data-lcs-g1]').length, g2 = strip.querySelectorAll('[data-lcs-g2]').length, x = strip.querySelectorAll('[data-lcs-crossed]').length;

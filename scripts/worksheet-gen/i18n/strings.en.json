@@ -4937,5 +4937,13 @@
   "G2-504": {
     "title": "Add Tens and Ones",
     "instruction": "Add the tens. Add the ones. Then add the two sums."
+  },
+  "K-642": {
+    "title": "Story Problems: Draw and Solve",
+    "instruction": "Listen to each story. Draw it in the box. Write the answer."
+  },
+  "G2-505": {
+    "title": "Fix the Arrow Program",
+    "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it."
   }
 }

@@ -4893,5 +4893,13 @@
   "G2-504": {
     "title": "Additionner les dizaines et les unités",
     "instruction": "Additionne les dizaines. Additionne les unités. Puis additionne les deux résultats."
+  },
+  "K-642": {
+    "title": "Problèmes : dessine et résous",
+    "instruction": "Écoute chaque histoire. Dessine-la dans le cadre. Écris la réponse."
+  },
+  "G2-505": {
+    "title": "Corrige le programme de flèches",
+    "instruction": "Suis les flèches à partir du drapeau : chaque flèche est un pas. Une flèche est fausse : le chemin n'arrive pas à l'étoile. Entoure la flèche fausse et dessine la bonne flèche dans la case en dessous."
   }
 }

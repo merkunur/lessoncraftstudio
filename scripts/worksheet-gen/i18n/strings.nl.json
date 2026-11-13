@@ -4894,5 +4894,13 @@
   "G2-504": {
     "title": "Tientallen en eenheden optellen",
     "instruction": "Tel de tientallen op. Tel de eenheden op. Tel dan de twee uitkomsten bij elkaar op."
+  },
+  "K-642": {
+    "title": "Rekenverhalen: teken en los op",
+    "instruction": "Luister naar elk verhaaltje. Teken het in het vak. Schrijf het antwoord op."
+  },
+  "G2-505": {
+    "title": "Zoek de fout in het pijlenprogramma",
+    "instruction": "Volg de pijlen vanaf de vlag: elke pijl is één stap. Eén pijl is fout: de weg eindigt niet bij de ster. Omcirkel de foute pijl en teken de goede pijl in het vakje eronder."
   }
 }

@@ -4896,5 +4896,13 @@
   "G2-504": {
     "title": "Zehner und Einer getrennt addieren",
     "instruction": "Addiere zuerst die Zehner, dann die Einer. Addiere zum Schluss die beiden Ergebnisse."
+  },
+  "K-642": {
+    "title": "Rechengeschichten: malen und lösen",
+    "instruction": "Höre dir jede Geschichte an. Male sie in das Feld. Schreibe das Ergebnis auf."
+  },
+  "G2-505": {
+    "title": "Finde den Fehler im Pfeilprogramm",
+    "instruction": "Folge den Pfeilen von der Fahne aus: Jeder Pfeil ist ein Schritt. Ein Pfeil ist falsch: Der Weg endet nicht beim Stern. Kreise den falschen Pfeil ein und zeichne den richtigen Pfeil in das Kästchen darunter."
   }
 }

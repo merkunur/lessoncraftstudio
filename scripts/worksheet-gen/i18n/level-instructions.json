@@ -6188,5 +6188,20 @@
       "no": "Hvert rektangel står to ganger. Del det mellom to rader på to ulike måter. Skriv produktene, og legg dem sammen.",
       "fi": "Jokainen suorakulmio on painettu kaksi kertaa. Jaa se rivien välistä kahdella eri tavalla. Kirjoita tulot ja laske ne yhteen."
     }
+  },
+  "G2-506": {
+    "1": {
+      "en": "Read each story and its question. Write the equation and the answer.",
+      "de": "Lies jede Sachaufgabe und ihre Frage. Schreibe die Rechnung und die Antwort auf.",
+      "es": "Lee cada problema y su pregunta. Escribe la operación y la respuesta.",
+      "pt": "Leia cada probleminha e a pergunta. Escreva a conta e a resposta.",
+      "fr": "Lis chaque problème et sa question. Écris le calcul et la réponse.",
+      "it": "Leggi ogni problema e la sua domanda. Scrivi l'operazione e la risposta.",
+      "nl": "Lees elke verhaalsom en de vraag. Schrijf de som en het antwoord op.",
+      "sv": "Läs varje räknehändelse och frågan. Skriv uträkningen och svaret.",
+      "da": "Læs hver regnehistorie og spørgsmålet. Skriv regnestykket og svaret.",
+      "no": "Les hver regnefortelling og spørsmålet. Skriv regnestykket og svaret.",
+      "fi": "Lue jokainen tehtävä ja sen kysymys. Kirjoita lasku ja vastaus."
+    }
   }
 }

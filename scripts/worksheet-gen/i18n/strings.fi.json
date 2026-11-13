@@ -4854,5 +4854,9 @@
   "G2-505": {
     "title": "Etsi virhe ohjelmasta",
     "instruction": "Seuraa nuolia lipusta alkaen: jokainen nuoli on yksi askel. Yksi nuoli on väärin: reitti ei pääty tähteen. Ympyröi väärä nuoli ja piirrä korjattu nuoli sen alla olevaan ruutuun."
+  },
+  "G2-506": {
+    "title": "Sanalliset tehtävät 0–100: kysymys, lasku, vastaus",
+    "instruction": "Lue jokainen tehtävä. Jos kysymys puuttuu, keksi ja kirjoita kysymys. Kirjoita sitten lasku ja vastaus."
   }
 }

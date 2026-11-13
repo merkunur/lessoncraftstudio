@@ -4907,5 +4907,9 @@
   "G2-505": {
     "title": "Corrija o programa de setas",
     "instruction": "Siga as setas a partir da bandeira: cada seta é um passo. Uma seta está errada: o caminho não termina na estrela. Circule a seta errada e desenhe a seta certa no quadrinho abaixo dela."
+  },
+  "G2-506": {
+    "title": "Probleminhas até 100: pergunta, conta e resposta",
+    "instruction": "Leia cada probleminha. Se faltar a pergunta, escreva uma. Depois escreva a conta e a resposta."
   }
 }

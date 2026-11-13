@@ -4901,5 +4901,9 @@
   "G2-505": {
     "title": "Corrige le programme de flèches",
     "instruction": "Suis les flèches à partir du drapeau : chaque flèche est un pas. Une flèche est fausse : le chemin n'arrive pas à l'étoile. Entoure la flèche fausse et dessine la bonne flèche dans la case en dessous."
+  },
+  "G2-506": {
+    "title": "Problèmes jusqu'à 100 : question, calcul, réponse",
+    "instruction": "Lis chaque problème. Si la question manque, écris une question. Écris ensuite le calcul et la réponse."
   }
 }

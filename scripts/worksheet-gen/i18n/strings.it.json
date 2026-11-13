@@ -4888,5 +4888,9 @@
   "G2-505": {
     "title": "Correggi il programma di frecce",
     "instruction": "Segui le frecce partendo dalla bandierina: ogni freccia è un passo. Una freccia è sbagliata: il percorso non finisce sulla stella. Cerchia la freccia sbagliata e disegna quella giusta nella casella sotto."
+  },
+  "G2-506": {
+    "title": "Problemi entro il 100: domanda, operazione, risposta",
+    "instruction": "Leggi ogni problema. Se manca la domanda, scrivine una. Poi scrivi l'operazione e la risposta."
   }
 }

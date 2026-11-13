@@ -4856,5 +4856,9 @@
   "G2-505": {
     "title": "Hitta felet i programmet",
     "instruction": "Följ pilarna från flaggan: varje pil är ett steg. En pil är fel: vägen slutar inte på stjärnan. Ringa in den felaktiga pilen och rita den rätta pilen i rutan under."
+  },
+  "G2-506": {
+    "title": "Räknehändelser 0–100: fråga, uträkning, svar",
+    "instruction": "Läs varje räknehändelse. Om frågan saknas skriver du en egen fråga. Skriv sedan uträkningen och svaret."
   }
 }

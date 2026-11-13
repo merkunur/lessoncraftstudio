@@ -2365,7 +2365,8 @@
    "skill": "Solve one- and two-step addition and subtraction word problems within 100",
    "code": "2.OA.A.1",
    "types": [
-    "G2-489"
+    "G2-489",
+    "G2-506"
    ],
    "families": [
     "word-problems"

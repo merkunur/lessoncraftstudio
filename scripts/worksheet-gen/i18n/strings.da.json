@@ -4882,5 +4882,9 @@
   "G2-505": {
     "title": "Find fejlen i programmet",
     "instruction": "Følg pilene fra flaget: hver pil er ét skridt. Én pil er forkert: vejen ender ikke ved stjernen. Sæt ring om den forkerte pil, og tegn den rigtige pil i feltet under den."
+  },
+  "G2-506": {
+    "title": "Regnehistorier til 100: spørgsmål, regnestykke, svar",
+    "instruction": "Læs hver regnehistorie. Hvis spørgsmålet mangler, skal du selv skrive et spørgsmål. Skriv så regnestykket og svaret."
   }
 }

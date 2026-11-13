@@ -4902,5 +4902,9 @@
   "G2-505": {
     "title": "Zoek de fout in het pijlenprogramma",
     "instruction": "Volg de pijlen vanaf de vlag: elke pijl is één stap. Eén pijl is fout: de weg eindigt niet bij de ster. Omcirkel de foute pijl en teken de goede pijl in het vakje eronder."
+  },
+  "G2-506": {
+    "title": "Verhaalsommen tot 100: vraag, som, antwoord",
+    "instruction": "Lees elke verhaalsom. Ontbreekt de vraag? Bedenk dan zelf een vraag en schrijf die op. Schrijf daarna de som en het antwoord op."
   }
 }

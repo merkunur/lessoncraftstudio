@@ -4901,5 +4901,9 @@
   "G2-505": {
     "title": "Finn feilen i programmet",
     "instruction": "Følg pilene fra flagget: hver pil er ett steg. Én pil er feil: veien ender ikke på stjernen. Sett ring rundt pilen som er feil, og tegn den riktige pilen i ruta under."
+  },
+  "G2-506": {
+    "title": "Regnefortellinger til 100: spørsmål, regnestykke, svar",
+    "instruction": "Les hver regnefortelling. Hvis spørsmålet mangler, skriver du et spørsmål selv. Skriv så regnestykket og svaret."
   }
 }

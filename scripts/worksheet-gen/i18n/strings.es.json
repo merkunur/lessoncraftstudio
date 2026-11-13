@@ -4897,5 +4897,9 @@
   "G2-505": {
     "title": "Corrige el programa de flechas",
     "instruction": "Sigue las flechas desde la bandera: cada flecha es un paso. Una flecha está mal: el camino no termina en la estrella. Encierra la flecha equivocada y dibuja la flecha correcta en el recuadro que está debajo de ella."
+  },
+  "G2-506": {
+    "title": "Problemas hasta 100: pregunta, operación y respuesta",
+    "instruction": "Lee cada problema. Si falta la pregunta, escribe una. Después escribe la operación y la respuesta."
   }
 }

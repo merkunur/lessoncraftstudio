@@ -4904,5 +4904,9 @@
   "G2-505": {
     "title": "Finde den Fehler im Pfeilprogramm",
     "instruction": "Folge den Pfeilen von der Fahne aus: Jeder Pfeil ist ein Schritt. Ein Pfeil ist falsch: Der Weg endet nicht beim Stern. Kreise den falschen Pfeil ein und zeichne den richtigen Pfeil in das Kästchen darunter."
+  },
+  "G2-506": {
+    "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+    "instruction": "Lies jede Sachaufgabe. Wenn die Frage fehlt, schreibe eine passende Frage auf. Schreibe dann die Rechnung und die Antwort auf."
   }
 }

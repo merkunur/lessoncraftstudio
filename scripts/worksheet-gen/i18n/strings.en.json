@@ -4945,5 +4945,9 @@
   "G2-505": {
     "title": "Fix the Arrow Program",
     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it."
+  },
+  "G2-506": {
+    "title": "Story Problems Within 100: Question, Equation, Answer",
+    "instruction": "Read each story. If the question is missing, write a question that fits. Then write the equation and the answer."
   }
 }

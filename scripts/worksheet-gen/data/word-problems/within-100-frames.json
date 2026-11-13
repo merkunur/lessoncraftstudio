@@ -1,0 +1,112 @@
+{
+ "$comment": "Story frames for two-digit numbers (G2-506, Year pages O, 2026-11-13). The story bank (word-problems-levelset.json + frames.js) was written for numbers to 20: a child HAS, BUYS, SEES or LOSES the things. With 53 forks or 90 pencils that reads absurd (teacher review of the German and Swedish lessons, 2026-11-13), so the within-100 page tells only stories in which the things lie in a PLACE (a table, a box, a shelf, a basket): the bank's own place frames plus the frames below, each modelled on a place frame of its language (same slots: {n1} {n2} {noun} {name}, {Q} = how many, agreeing, in es / pt / it). Read by a native reader (2026-11-13). Only G2-506 reads this file: the published pages of the other story types keep their draw. After the native read: the question \"how many are missing in the blue box\" names the red box as the target in every language (\"so that both boxes hold the same\" has a second answer: move half the difference).",
+ "en": {
+  "add": [
+   "There are {n1} {noun} on a shelf. {name} puts {n2} more on the shelf. How many {noun} are on the shelf now?",
+   "There are {n1} {noun} in a basket. {name} puts in {n2} more. How many {noun} are in the basket now?"
+  ],
+  "compare": [
+   "There are {n1} {noun} in a red box and {n2} {noun} in a blue box. How many fewer {noun} are in the blue box?",
+   "There are {n1} {noun} in a red box and {n2} {noun} in a blue box. How many more {noun} does the blue box need so that it has as many as the red box?"
+  ]
+ },
+ "de": {
+  "add": [
+   "Auf einem Regal liegen {n1} {noun}. {name} legt noch {n2} {noun} dazu. Wie viele {noun} liegen jetzt auf dem Regal?",
+   "In einer Kiste sind {n1} {noun}. {name} legt noch {n2} {noun} hinein. Wie viele {noun} sind jetzt in der Kiste?"
+  ],
+  "compare": [
+   "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2} {noun}. Wie viele {noun} sind in der blauen Kiste weniger?",
+   "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2} {noun}. Wie viele {noun} fehlen in der blauen Kiste, damit dort genauso viele sind wie in der roten Kiste?"
+  ]
+ },
+ "es": {
+  "add": [
+   "Hay {n1} {noun} en un estante. {name} pone {n2} {noun} más. ¿{Q} {noun} hay ahora en el estante?",
+   "Hay {n1} {noun} en una caja. {name} mete {n2} {noun} más. ¿{Q} {noun} hay ahora en la caja?"
+  ],
+  "compare": [
+   "Hay {n1} {noun} en una caja roja y {n2} {noun} en una caja azul. ¿{Q} {noun} menos hay en la caja azul?",
+   "Hay {n1} {noun} en una caja roja y {n2} {noun} en una caja azul. ¿{Q} {noun} le faltan a la caja azul para tener la misma cantidad que la caja roja?"
+  ]
+ },
+ "pt": {
+  "add": [
+   "Há {n1} {noun} em uma prateleira. {name} coloca mais {n2} {noun}. {Q} {noun} há agora na prateleira?",
+   "Há {n1} {noun} em uma caixa. {name} coloca mais {n2} {noun}. {Q} {noun} há agora na caixa?"
+  ],
+  "compare": [
+   "Há {n1} {noun} em uma caixa vermelha e {n2} {noun} em uma caixa azul. {Q} {noun} a caixa azul tem a menos?",
+   "Há {n1} {noun} em uma caixa vermelha e {n2} {noun} em uma caixa azul. {Q} {noun} faltam na caixa azul para ela ficar com a mesma quantidade da caixa vermelha?"
+  ]
+ },
+ "fr": {
+  "add": [
+   "Il y a {n1} {noun} sur une étagère. {name} en ajoute {n2}. Combien de {noun} y a-t-il sur l'étagère maintenant ?",
+   "Il y a {n1} {noun} dans une boîte. {name} en ajoute {n2}. Combien de {noun} y a-t-il dans la boîte maintenant ?"
+  ],
+  "compare": [
+   "Il y a {n1} {noun} dans une boîte rouge et {n2} {noun} dans une boîte bleue. Combien de {noun} y a-t-il de moins dans la boîte bleue ?",
+   "Il y a {n1} {noun} dans une boîte rouge et {n2} {noun} dans une boîte bleue. Combien de {noun} faut-il ajouter dans la boîte bleue pour qu'il y en ait autant que dans la boîte rouge ?"
+  ]
+ },
+ "it": {
+  "add": [
+   "Su uno scaffale ci sono {n1} {noun}. {name} ne aggiunge {n2}. {Q} {noun} ci sono adesso sullo scaffale?",
+   "In una scatola ci sono {n1} {noun}. {name} ne aggiunge {n2}. {Q} {noun} ci sono adesso nella scatola?"
+  ],
+  "compare": [
+   "In una scatola rossa ci sono {n1} {noun} e in una scatola blu ci sono {n2} {noun}. {Q} {noun} ci sono in meno nella scatola blu?",
+   "In una scatola rossa ci sono {n1} {noun} e in una scatola blu ci sono {n2} {noun}. {Q} {noun} mancano nella scatola blu per arrivare allo stesso numero della scatola rossa?"
+  ]
+ },
+ "nl": {
+  "add": [
+   "Op een plank liggen {n1} {noun}. {name} legt er nog {n2} bij. Hoeveel {noun} liggen er nu op de plank?",
+   "In een doos zitten {n1} {noun}. {name} doet er nog {n2} bij. Hoeveel {noun} zitten er nu in de doos?"
+  ],
+  "compare": [
+   "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2} {noun}. Hoeveel {noun} zitten er minder in de blauwe doos?",
+   "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2} {noun}. Hoeveel {noun} moeten er nog bij in de blauwe doos, zodat er evenveel in zitten als in de rode doos?"
+  ]
+ },
+ "sv": {
+  "add": [
+   "Det ligger {n1} {noun} på en hylla. {name} lägger dit {n2} {noun} till. Hur många {noun} ligger på hyllan nu?",
+   "Det ligger {n1} {noun} i en låda. {name} lägger i {n2} {noun} till. Hur många {noun} ligger i lådan nu?"
+  ],
+  "compare": [
+   "I en röd låda ligger {n1} {noun} och i en blå låda ligger {n2} {noun}. Hur många färre {noun} ligger i den blå lådan?",
+   "I en röd låda ligger {n1} {noun} och i en blå låda ligger {n2} {noun}. Hur många {noun} till behövs i den blå lådan för att det ska ligga lika många där som i den röda lådan?"
+  ]
+ },
+ "da": {
+  "add": [
+   "Der ligger {n1} {noun} på en hylde. {name} lægger {n2} {noun} mere på hylden. Hvor mange {noun} ligger der nu på hylden?",
+   "Der er {n1} {noun} i en kurv. {name} lægger {n2} {noun} ned i kurven. Hvor mange {noun} er der nu i kurven?"
+  ],
+  "compare": [
+   "Der ligger {n1} {noun} i en rød kasse og {n2} {noun} i en blå kasse. Hvor mange færre {noun} ligger der i den blå kasse?",
+   "Der ligger {n1} {noun} i en rød kasse og {n2} {noun} i en blå kasse. Hvor mange {noun} mangler der i den blå kasse, før der er lige så mange som i den røde kasse?"
+  ]
+ },
+ "no": {
+  "add": [
+   "Det ligger {n1} {noun} på en hylle. {name} legger {n2} {noun} til på hylla. Hvor mange {noun} ligger det på hylla nå?",
+   "Det ligger {n1} {noun} i en eske. {name} legger {n2} {noun} til i esken. Hvor mange {noun} ligger det i esken nå?"
+  ],
+  "compare": [
+   "I en rød eske ligger det {n1} {noun}, og i en blå eske ligger det {n2} {noun}. Hvor mange færre {noun} ligger det i den blå esken?",
+   "I en rød eske ligger det {n1} {noun}, og i en blå eske ligger det {n2} {noun}. Hvor mange {noun} mangler i den blå esken for at det skal ligge like mange der som i den røde esken?"
+  ]
+ },
+ "fi": {
+  "add": [
+   "Hyllyllä on {n1} {noun}. {name} tuo hyllylle vielä {n2} {noun}. Kuinka monta {noun} hyllyllä on nyt?"
+  ],
+  "compare": [
+   "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2} {noun}. Kuinka monta {noun} vähemmän sinisessä laatikossa on?",
+   "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2} {noun}. Kuinka monta {noun} siniseen laatikkoon pitää lisätä, jotta siinä olisi yhtä monta kuin punaisessa laatikossa?"
+  ]
+ }
+}

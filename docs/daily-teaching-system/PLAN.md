@@ -1012,3 +1012,27 @@ The first year map said how much was missing. This step says WHAT, lesson by les
 - **PDF only for now:** these six types have no screen adapter, so their pages have no screen version and no answer key. A lesson that uses one gets its screen practice from an activity or has none.
 - **Next batches:** the other 31 types that exist and are needed (27 of them render at three levels in English, German and Swedish without a failure; "Measure in Inches" is rightly refused outside English), then the generator changes (the first: a plus-only and a minus-only face of the jumps over the ten, which eight lessons need), then the new types.
 - **A mistake of mine while writing this record, with no harm done:** I put backticks inside a shell command, and the shell tried to run the catalogue table as a script (every line answered "command not found"). I stopped it; the repository and the table were unchanged. Text with backticks goes into a script FILE, never into `node -e` or `git commit -m` (the rule was already in the project notes).
+
+**2026-11-13, Part 12.2: every existing type the year designs need is published (batches B and C).**
+
+| Batch | Types | Pages (11 languages) | Class sheets | Screen version |
+|---|---|---|---|---|
+| A, `yma` | 6 without pictures | 924 | 66 | none |
+| B, `ymb` | 18 without pictures | 2,761 | 198 | none |
+| C, `ymc` | 13 with pictures | 1,711 | 124 | 91 pages (Compare Word Problems), with answer key |
+| **Together** | **37** | **5,396** | **388** | |
+
+All are Level Sets: three levels, up to five copies a level, visible to teachers, not for search engines, no landing page. The type work list now reads: 27 pages published and waiting for their lessons, none left to publish, 128 close to an existing type, 49 to build.
+
+**What the checks caught before or right after the publish (each fixed at its source):**
+- **121 "copies" that were the same page** (batch B). `build-waves.js` accepts a copy without pictures by the words it asks; a page that does not depend on the seed at a level (the full multiplication square, an open "find your own way to make 10" frame) has no such words, so one page passed as five. The file check saw it on the thumbnails. New tool `tools/level-set/drop-same-pages.js <prefix>`: keeps the lowest copy of every identical group and takes the others out of the committed waves.
+- **One Finnish title for two different pages.** G3-317 (which fraction does the dot show?) and G3-406 (draw the dot for the fraction) were both "Murtoluvut lukusuoralla", so their set titles were the same string and the publish refused five pages. G3-406 is now "Merkitse murtoluku lukusuoralle". The title is mine: a Finnish reader sees it with the next review batch.
+- **One German description four characters under the band** (the family's short sentence did not fit, so the description had none): a shorter sentence for never-indexed pages of the base-ten family.
+- **The site called 2,607 PDF-only pages playable.** It decides "playable on screen" for a never-indexed page by its FAMILY (`frontend/config/interactive-level-set-types.ts`), and ten of the new pages' families are playable (mental math, number lines, doubles and halves …). The page-by-page comparison of the catalogue (`build-assets.js`, `out/teaching-graph/screen-rule.txt`) showed it: 902 disagreements where 143 are old. 21 codes are now listed as print-only variations and the comparison is back at 143. Live for about four hours on batch A and under an hour on batch B; corrected by the deploy of 02:50.
+- **The reverse on batch C:** my file check failed 91 files "for having a screen". The surprise was real: Compare Word Problems belongs to a family with a screen adapter. The robot plays all 91 pages in 11 languages without a failure; the code is not listed as print-only, and the check asks for the screen there.
+- **Eight families had Level Sets and no place in the Level Set pathway** (`frontend/content/level-set-pathways/sequence.json`): seven through the Year pages, and picture-tracing since October (the gate measures placement only where ladder exports exist, which is the PC). Placed: counting pictures, counting frames and comparing numbers before the number words; picture arithmetic first among the operations; base ten before the number lines; position words and grid copy before the mazes; picture tracing after the first pencil control.
+- **Accepted, as for every Level Set:** the audit names 28 pages whose title has no room for the theme and 4 titles over 70 characters (es, fr, pt); these pages are never in a search result.
+
+**One script for everything after a publish:** `bash scripts/units/year/after-publish.sh <prefix> <codes>`: counts the pages in the database and fails on an indexable one; reads from each page whether it has a screen; removes the staging folder and its backup twin; exports the ladders, renders and uploads the class sheets; adds or corrects the rows of `decks.tsv`; rebuilds the asset index; FAILS when a page of the batch disagrees with the site's playable rule; runs the gates and the work list. Its first version wrote "no screen" for every page and then accused the 91 playable ones: it reads the page now.
+
+**Next in 12.2:** (1) rule the 128 close lines (use the page as it is, or change its generator); (2) the generator changes, the first being plus-only and minus-only pages of the jumps over the ten; (3) the 49 pages to build new; (4) lesson texts and teacher notes, one native reviewer per language; (5) the units and plans in the designed order.

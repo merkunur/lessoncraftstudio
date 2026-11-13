@@ -1,0 +1,751 @@
+{
+  "id": "wave-ymc-de",
+  "_note": "Level Set 2026-11-13: Year pages C (Part 12.2). Thirteen maker-only mathematics picture types published for the first time, three levels each, for the lessons of the year designs.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "de"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-448",
+    "K-443",
+    "K-444",
+    "K-445",
+    "K-457",
+    "K-467",
+    "G1-444",
+    "G1-511",
+    "G2-489",
+    "G1-481",
+    "G1-528",
+    "G1-529"
+  ],
+  "levels": {
+    "K-448": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits bw"
+        },
+        {
+          "copy": 3,
+          "theme": "camping"
+        },
+        {
+          "copy": 4,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 5,
+          "theme": "furniture"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "animals bw 5"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 3,
+          "theme": "dessert bw"
+        },
+        {
+          "copy": 4,
+          "theme": "beach"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "insects and bugs"
+        },
+        {
+          "copy": 2,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 3,
+          "theme": "summer"
+        },
+        {
+          "copy": 4,
+          "theme": "animals bw 5"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ]
+    },
+    "K-443": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "spring"
+        },
+        {
+          "copy": 2,
+          "theme": "beach bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals bw"
+        },
+        {
+          "copy": 5,
+          "theme": "clothing"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "vehicles bw"
+        },
+        {
+          "copy": 2,
+          "theme": "post office"
+        },
+        {
+          "copy": 3,
+          "theme": "Easter bw 2"
+        },
+        {
+          "copy": 4,
+          "theme": "winter"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "dinosaurs"
+        },
+        {
+          "copy": 2,
+          "theme": "sports bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "toys"
+        }
+      ]
+    },
+    "K-444": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 2,
+          "theme": "vehicles bw 3"
+        },
+        {
+          "copy": 3,
+          "theme": "tools"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 5,
+          "theme": "bakery"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 2,
+          "theme": "furniture"
+        },
+        {
+          "copy": 3,
+          "theme": "toys bw 2"
+        },
+        {
+          "copy": 4,
+          "theme": "space"
+        },
+        {
+          "copy": 5,
+          "theme": "Christmas bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits bw"
+        },
+        {
+          "copy": 3,
+          "theme": "flowers"
+        },
+        {
+          "copy": 4,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 5,
+          "theme": "post office"
+        }
+      ]
+    },
+    "K-445": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "emotions"
+        },
+        {
+          "copy": 2,
+          "theme": "space bw"
+        },
+        {
+          "copy": 3,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 4,
+          "theme": "valentine bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "winter"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "food bw 3"
+        },
+        {
+          "copy": 2,
+          "theme": "clothing"
+        },
+        {
+          "copy": 3,
+          "theme": "home bw"
+        },
+        {
+          "copy": 4,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 5,
+          "theme": "sports bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "winter"
+        },
+        {
+          "copy": 2,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 3,
+          "theme": "camping"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw"
+        },
+        {
+          "copy": 5,
+          "theme": "furniture"
+        }
+      ]
+    },
+    "K-457": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "christmas"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 4,
+          "theme": "kitchen bw"
+        },
+        {
+          "copy": 5,
+          "theme": "reptiles and Amphibians"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "education bw"
+        },
+        {
+          "copy": 2,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 3,
+          "theme": "home and nature bw"
+        },
+        {
+          "copy": 4,
+          "theme": "emotions"
+        },
+        {
+          "copy": 5,
+          "theme": "kitchen bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "space"
+        },
+        {
+          "copy": 2,
+          "theme": "Easter bw"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "emotions"
+        }
+      ]
+    },
+    "K-467": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 2,
+          "theme": "occupations"
+        },
+        {
+          "copy": 3,
+          "theme": "dinosaurs"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 5,
+          "theme": "hospital"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "dinosaurs"
+        },
+        {
+          "copy": 2,
+          "theme": "weather"
+        },
+        {
+          "copy": 3,
+          "theme": "insects and bugs"
+        },
+        {
+          "copy": 4,
+          "theme": "camping"
+        },
+        {
+          "copy": 5,
+          "theme": "thanksgivinng"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "kitchen tools"
+        },
+        {
+          "copy": 2,
+          "theme": "hospital"
+        },
+        {
+          "copy": 3,
+          "theme": "thanksgivinng"
+        },
+        {
+          "copy": 4,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 5,
+          "theme": "occupations"
+        }
+      ]
+    },
+    "G1-444": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "thanksgivinng"
+        },
+        {
+          "copy": 2,
+          "theme": "Easter bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "education bw"
+        },
+        {
+          "copy": 5,
+          "theme": "flowers"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "nature bw"
+        },
+        {
+          "copy": 2,
+          "theme": "shapes"
+        },
+        {
+          "copy": 3,
+          "theme": "tools bw"
+        },
+        {
+          "copy": 4,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 5,
+          "theme": "valentine bw 2"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 2,
+          "theme": "home and nature bw"
+        },
+        {
+          "copy": 3,
+          "theme": "shapes"
+        },
+        {
+          "copy": 4,
+          "theme": "nature bw"
+        },
+        {
+          "copy": 5,
+          "theme": "weather"
+        }
+      ]
+    },
+    "G1-511": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 3,
+          "theme": "kitchen tools"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "accessories"
+        },
+        {
+          "copy": 2,
+          "theme": "kitchen tools"
+        },
+        {
+          "copy": 3,
+          "theme": "desserts and sweets"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 2,
+          "theme": "kitchen bw"
+        }
+      ]
+    },
+    "G2-489": {
+      "1": [],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        }
+      ],
+      "3": []
+    },
+    "G1-481": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "music"
+        },
+        {
+          "copy": 2,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 3,
+          "theme": "pets"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 2,
+          "theme": "music"
+        },
+        {
+          "copy": 3,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "vehicles"
+        },
+        {
+          "copy": 2,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 3,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 4,
+          "theme": "pets"
+        },
+        {
+          "copy": 5,
+          "theme": "zoo animals"
+        }
+      ]
+    },
+    "G1-528": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "shapes"
+        },
+        {
+          "copy": 2,
+          "theme": "summer"
+        },
+        {
+          "copy": 3,
+          "theme": "weather"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "animals"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "flowers"
+        },
+        {
+          "copy": 2,
+          "theme": "occupations"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 5,
+          "theme": "At the Supermarket"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "spring"
+        },
+        {
+          "copy": 2,
+          "theme": "clothing"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "around the house"
+        }
+      ]
+    },
+    "G1-529": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "post office"
+        },
+        {
+          "copy": 2,
+          "theme": "insects and bugs"
+        },
+        {
+          "copy": 3,
+          "theme": "around the house"
+        },
+        {
+          "copy": 4,
+          "theme": "birds"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "hospital"
+        },
+        {
+          "copy": 2,
+          "theme": "summer"
+        },
+        {
+          "copy": 3,
+          "theme": "pets"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "around the house"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "tools"
+        },
+        {
+          "copy": 2,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 3,
+          "theme": "reptiles and Amphibians"
+        },
+        {
+          "copy": 4,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 5,
+          "theme": "beach"
+        }
+      ]
+    }
+  }
+}

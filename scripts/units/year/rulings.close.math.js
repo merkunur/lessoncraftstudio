@@ -1,0 +1,163 @@
+/**
+ * The ruling of every "close" line of the type work list (Daily Teaching System, Part 12.2, 2026-11-13).
+ *
+ * The matching said for 128 needed pages: an existing type does the same task, but something differs from the page
+ * the teacher described. The rule for each line:
+ *
+ *   use     the existing page teaches the lesson's OBJECTIVE; what differs is the scaffold or the layout the teacher
+ *           had in mind (a number line where she described two ten-frames, one answer box where she drew three).
+ *           The lesson is written on the page as it is. Where the fit is a LEVEL of the type and not its level 2,
+ *           the level is named (the unit's lesson then hands out that level as its core page).
+ *   change  the objective itself is not met without a change to the generator: an operation the lesson does not
+ *           teach is mixed in, the number range of the grade is missing, the one thing the lesson is about is
+ *           not asked. The note says the change in a few words.
+ *   build   what the type has is too far from the page; it is built as a new type (it joins the "to build" list).
+ *
+ * Who ruled: the build session, reading each line's objective and the analyst's account of the difference. It is a
+ * first ruling: the native teacher-reviewer of each language reads the lesson texts WITH their pages before a lesson
+ * goes live, and overrules a "use" where the page does not carry the lesson.
+ */
+'use strict';
+const U = (note, level) => ({ rule: 'use', note, ...(level ? { level } : {}) });
+const C = (note) => ({ rule: 'change', note });
+const B = (note) => ({ rule: 'build', note });
+module.exports = {
+  en: {
+    // Kindergarten
+    'K-002': C('six tasks with unequal rows and a decision (more, fewer, the same); today one task with equal rows'),
+    'K-003': U('one direction a task, with pictures'),
+    'K-004': U('six pairs of written numbers; the number line on top is on the projector tool', 1),
+    'K-005': U('the dot-paper page; sides and corners are counted aloud'),
+    'K-007': C('the cone is missing from the solids'),
+    'K-008': U('tracing lanes for 11 to 20'),
+    'K-009': C('any number from 11 to 20 in even rows; today only 12, 15, 16 and 20'),
+    'K-010': U('the same task with totals to 10'),
+    'K-011': U('counters crossed out on the ten-frame', 2),
+    'K-012': U('add-to stories with a picture and one answer box (Kindergarten solves with drawings)', 1),
+    'K-013': U('take-away stories with a picture', 1),
+    'K-014': C('put-together stories are missing from the story bank'),
+    'K-015': C('wholes of 6 and 7; today only 5 and 10'),
+    'K-016': U('the bond pages of 8 and of 9'),
+    'K-018': U('the same equation on a ten-frame'),
+    'K-019': U('ring ten loose cubes, write ten and ones'),
+    'K-021': C('the reverse direction: the number is printed, the child draws it into two empty frames'),
+    'K-022': C('a teen number as the whole with ten as one part (a setting of the bond factory)'),
+    'K-023': C('a chart from 1 to 50; today always 1 to 100'),
+    'K-025': C('counting strips that start at any number to 100; today within 20'),
+    'K-026': U('the strip of tens to 100, with the groups-of-ten page'),
+    // Grade 1
+    '1-027': U('true or false, within 10 at level 1, within 20 with all three forms above'),
+    '1-028': U('the double is printed at level 1', 1),
+    '1-029': U('level 1 is addition only, across ten, with the first task worked', 1),
+    '1-030': C('all three numbers stand on the roof: a level where the child finds the missing part'),
+    '1-031': B('a put-together story with a bar model and an equation frame (the bar page has no story)'),
+    '1-032': C('a line for the equation with a box for the unknown under each story'),
+    '1-033': U('compare stories with the two amounts as rows of pictures'),
+    '1-034': B('stories with three addends (the story bank has none; the bare sums exist)'),
+    '1-035': C('exactly one ten-rod and the line "1 ten _ ones"'),
+    '1-036': C('the frame "_ tens" in place of a multiplication sign in Grade 1'),
+    '1-037': C('a tens-only kind (34 + 20); today mixed with ones and with taking away'),
+    '1-038': C('whole tens minus whole tens with rods to cross out'),
+    '1-039': C('an ones-only kind without a new ten (32 + 5)'),
+    '1-040': C('addition only within 100 (27 + 5); today plus and minus take turns at level 3'),
+    '1-041': U('two two-digit numbers as rods and cubes, no new ten'),
+    '1-042': B('adding with a new ten on a tens-and-ones mat (the block page never regroups)'),
+    '1-043': U('clocks to the hour and half hour matched to digital times', 3),
+    '1-045': U('two pages: circle the shapes cut into equal parts; halves and fourths'),
+    // Grade 2
+    '2-046': U('level 1 is addition only, across ten', 1),
+    '2-047': U('near doubles in either order; doubles and halves are their own pages'),
+    '2-048': C('subtraction only (15 - 7 back to ten); today it takes turns with addition'),
+    '2-049': C('fact triangles with one part missing; today the house gives all three numbers'),
+    '2-050': U('more than nine tens with ones: write the number'),
+    '2-051': U('expanded form both ways with a zero place', 3),
+    '2-053': B('adding two-digit numbers with a new ten as a drawing on a mat and partial sums'),
+    '2-054': B('subtracting with a ten opened, on a mat'),
+    '2-056': B('one-step stories within 100 with a bar model and an equation'),
+    '2-058': B('compare stories within 100 with the larger or the smaller amount unknown'),
+    '2-059': C('two-step stories with two-digit numbers within 100'),
+    '2-060': U('column addition of three-digit numbers with carrying'),
+    '2-061': C('a subtraction-only level with three-digit numbers'),
+    '2-062': U('column subtraction across a zero', 3),
+    '2-063': U('count mixed coins, largest first'),
+    '2-066': U('a table of counts and an empty picture graph'),
+    '2-068': C('the child draws the rows and columns into an empty rectangle'),
+    // Grade 3
+    '3-070': U('the empty 10 by 10 square, filled in the order the teacher gives', 3),
+    '3-072': C('two-step stories with three-digit numbers within 1,000'),
+    '3-075': C('rectangles with side lengths and units and no squares inside'),
+    '3-078': U('a dot for the fraction on a line from 0 to 1'),
+    '3-080': C('readings to the half and the quarter inch'),
+  },
+  de: {
+    '1-082': U('eine Zeile je Zahl von 1 bis 5 mit der Ziffer zum Nachspuren', 1),
+    '1-083': U('drei Seiten: Zehnerfeld zählen, Zahl ins Feld malen, Ziffern schreiben'),
+    '1-084': U('zwei Bildgruppen und das passende Zeichen'),
+    '1-085': U('Vorgänger und Nachfolger, dazu die Zahlenketten vorwärts und rückwärts', 1),
+    '1-086': C('Mengen von 2 bis 9 unter dem Becher; heute nur 5, 10 oder 11 bis 16'),
+    '1-087': C('eine Stufe mit leeren Stockwerken: das Kind findet alle Zerlegungen selbst'),
+    '1-088': C('nur die beiden Plusaufgaben (Tauschaufgaben), ohne die Minusaufgaben'),
+    '1-090': U('zwei Seiten: Schritten folgen, Wege angeben'),
+    '1-091': U('zwei Seiten: die Rechnung zum Bild schreiben, eine Rechengeschichte erfinden', 3),
+    '1-092': U('ein volles Zehnerfeld und ein zweites: Zahl und Gleichung schreiben', 2),
+    '1-093': C('die kleine Aufgabe neben der großen (3 + 4 und 13 + 4)'),
+    '1-094': U('Stufe 1 ist nur Plus über die 10, die erste Aufgabe ist vorgemacht', 1),
+    '1-095': U('6 + 7 als 6 + 6 + 1 schreiben'),
+    '1-096': C('nur Minus (zurück zur 10); heute wechseln Plus und Minus'),
+    '1-102': C('30 bis 80 lose Dinge mit mehreren Zehnern zum Einkreisen'),
+    '1-104': C('Preise in ganzen Euro mit Scheinen; die deutschen Münzdaten haben nur Cent'),
+    '2-105': C('nur Zehnerzahlen dazu und weg; heute halb mit Einern gemischt'),
+    '2-106': C('nur Einer ohne Zehnerübergang, mit der kleinen Aufgabe daneben'),
+    '2-108': C('nur Plus bis 100, am leeren Rechenstrich'),
+    '2-109': C('nur Minus bis 100, am leeren Rechenstrich'),
+    '2-110': C('nur Plus, zuerst ohne Zehnerübergang, mit Zeilen für die Zwischenschritte'),
+    '2-111': C('nur Minus, zuerst ohne Zehnerübergang, mit Zeilen für die Zwischenschritte'),
+    '2-117': U('die 10er-Reihe mit den vorgemachten Kernaufgaben', 1),
+    '2-118': U('die Reihenseiten 4er und 8er'),
+    '2-119': U('die Reihenseiten 3er und 6er'),
+    '2-120': U('die Ableitungsketten und die Reihenseiten 7er und 9er', 2),
+    '2-121': U('die leere Einmaleins-Tafel', 3),
+    '2-122': U('Punktefeld und die vier Aufgaben der Mal-Familie'),
+    '3-124': U('Zahlenstrahl in Hunderter- und Zehnerschritten bis 1000', 3),
+    '3-126': C('dreistellig plus dreistellig mit Zeilen für die Rechenschritte'),
+    '3-127': B('abziehen oder ergänzen: nahe Zahlen (503 − 497) und die Wahl des Weges'),
+    '3-128': U('Zauberquadrate 3 mal 3'),
+    '3-136': C('fertige schriftliche Rechnungen bis 1000 prüfen; heute waagerecht bis 100'),
+  },
+  sv: {
+    '1-154': U('två bildgrupper och rätt tecken'),
+    '1-156': U('sant eller falskt; likhetstecknet åt båda håll kommer på nivå 2 och 3'),
+    '1-157': C('lägesorden framför, bakom, mellan och bredvid; i dag andra lägesord'),
+    '1-158': U('två sidor: följ stegen, skriv stegen'),
+    '1-160': C('den lilla uppgiften bredvid den stora (3 + 4 och 13 + 4)'),
+    '1-161': U('6 + 7 skrivet som 6 + 6 + 1'),
+    '1-162': U('nivå 1 är bara addition över tio, första uppgiften är löst', 1),
+    '1-163': C('bara subtraktion (först ner till tian); i dag växlar plus och minus'),
+    '1-167': U('jämförelsehändelser med två bildrader', 2),
+    '1-168': C('händelser där starten saknas finns inte i berättelsebanken'),
+    '1-170': U('två räknehändelser med ruta för uträkning och svar', 2),
+    '1-172': C('20 till 60 lösa saker med flera tiotal att ringa in'),
+    '1-174': U('rita mynt som betalar priset exakt', 3),
+    '2-175': C('bara hela tiotal; i dag blandat med ental'),
+    '2-176': U('sidan för lektionen: plus och minus i tur och ordning upp till 100', 3),
+    '2-177': C('mall för mellanled: tiotal för sig, ental för sig'),
+    '2-178': C('bara subtraktion, med par av näraliggande tal (61 − 58)'),
+    '2-179': C('priser 12 till 95 kr som betalas med sedel; i dag mynt upp till 50 kr'),
+    '2-181': B('tabell för uppskattning och uppmätt värde (meter och centimeter)'),
+    '2-182': C('hela kilogram med 1-kilosvikter; i dag gram'),
+    '2-183': C('graderingen i deciliter; i dag milliliter'),
+    '2-185': U('dubbelt och hälften upp till 100 som maskiner', 3),
+    '2-186': U('klockor på femminuterstider mot tiden i ord', 3),
+    '2-187': C('tider som inte är hela timmar (från nio till halv tolv)'),
+    '2-189': U('ett program med pilar och antal rutor', 2),
+    '2-191': U('rita bilden dubbelt så stor'),
+    '3-198': C('kedjan 6 · 7 = 5 · 7 + 1 · 7; i dag bara 4, 5, 8 och 9'),
+    '3-199': C('rutnät för 7 · 7 till 9 · 9 som eleven delar själv'),
+    '3-203': C('egen fråga och egna svarsalternativ; i dag är de tryckta'),
+    '3-204': B('mäta i halva centimeter och själv göra diagrammet'),
+    'K-146': U('stapeldiagram med bildkategorier: skriv antalet', 1),
+    'K-148': U('två grupper: hur många tillsammans'),
+    'K-149': U('några stryks över: hur många är kvar', 2),
+    'K-150': C('utan divisionsuttryck i förskoleklass'),
+  },
+};

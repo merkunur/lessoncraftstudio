@@ -588,7 +588,8 @@
      "types": [
       "G1-240",
       "G1-238"
-     ]
+     ],
+     "tool": "missing-question"
     },
     {
      "point": "1:fluency-within-20",

@@ -639,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 45
+    "lessons": 48
    },
    "groups": [
     {
@@ -651,11 +651,32 @@
        "text": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
        "lessons": [
         {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
          "unitGrade": "1",
-         "n": 7,
+         "n": 1,
          "title": "Word problems within 10"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Find the missing part"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "What happened in the middle?"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "How many more? How many fewer?"
         }
        ]
       },
@@ -1149,15 +1170,29 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 20,
+    "taught": 21,
     "near": 2,
-    "open": 6,
-    "lessons": 48
+    "open": 5,
+    "lessons": 49
    },
    "groups": [
     {
      "title": "Operations and Algebraic Thinking",
      "items": [
+      {
+       "code": "2.OA.A.1",
+       "state": "taught",
+       "text": "Children solve one-step story problems within 100 in which the end, the change, or a part is missing, with a bar model and an equation, and write the question for a story that has none.",
+       "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 8,
+         "title": "One-step stories with a bar model"
+        }
+       ]
+      },
       {
        "code": "2.OA.B.2",
        "state": "near",
@@ -1243,9 +1278,6 @@
         }
        ]
       }
-     ],
-     "open": [
-      "2.OA.A.1"
      ]
     },
     {
@@ -3247,7 +3279,7 @@
     "taught": 19,
     "near": 0,
     "open": 15,
-    "lessons": 46
+    "lessons": 49
    },
    "groups": [
     {
@@ -3521,15 +3553,8 @@
       {
        "code": "K.3.B",
        "state": "taught",
-       "text": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
+       "text": "Children listen to a story in which some more come, use the picture of the two groups, and write how many there are in all, with totals up to 10.",
        "lessons": [
-        {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
-         "unitGrade": "1",
-         "n": 7,
-         "title": "Word problems within 10"
-        },
         {
          "unit": "adding-and-taking-away-within-10-kindergarten-unit",
          "unitTitle": "Adding and Taking Away Within 10",
@@ -3543,6 +3568,20 @@
          "unitGrade": "K",
          "n": 4,
          "title": "Take-away stories: some go away"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Word problems within 10"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Find the missing part"
         }
        ]
       }
@@ -3745,7 +3784,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 59
+    "lessons": 62
    },
    "groups": [
     {
@@ -3944,15 +3983,8 @@
       {
        "code": "1.3.B",
        "state": "taught",
-       "text": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
+       "text": "Children listen to a story in which some more come, use the picture of the two groups, and write how many there are in all, with totals up to 10.",
        "lessons": [
-        {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
-         "unitGrade": "1",
-         "n": 7,
-         "title": "Word problems within 10"
-        },
         {
          "unit": "adding-and-taking-away-within-10-kindergarten-unit",
          "unitTitle": "Adding and Taking Away Within 10",
@@ -3966,6 +3998,20 @@
          "unitGrade": "K",
          "n": 4,
          "title": "Take-away stories: some go away"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Word problems within 10"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Find the missing part"
         }
        ]
       },
@@ -4524,7 +4570,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 49
+    "lessons": 50
    },
    "groups": [
     {
@@ -4736,7 +4782,7 @@
          "unit": "addition-and-subtraction-within-10-grade-1-unit",
          "unitTitle": "Addition and Subtraction Within 10",
          "unitGrade": "1",
-         "n": 8,
+         "n": 7,
          "title": "Fact fluency within 10"
         },
         {
@@ -4793,9 +4839,23 @@
       {
        "code": "2.4.C",
        "state": "near",
-       "text": "Children add two two-digit numbers shown as rods and cubes when no new ten is made, such as 34 + 25: they add the tens, then the ones, and write the sum up to 99.",
+       "text": "Children solve one-step story problems within 100 in which the end, the change, or a part is missing, with a bar model and an equation, and write the question for a story that has none.",
        "rel": "prepares",
        "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Add and subtract vertically"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 8,
+         "title": "One-step stories with a bar model"
+        },
         {
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
@@ -4809,20 +4869,6 @@
          "unitGrade": "2",
          "n": 1,
          "title": "Add with blocks"
-        },
-        {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 1,000",
-         "unitGrade": "2",
-         "n": 2,
-         "title": "Add three-digit numbers and make a new ten or hundred"
-        },
-        {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 1,000",
-         "unitGrade": "2",
-         "n": 3,
-         "title": "Subtract with blocks"
         }
        ]
       },

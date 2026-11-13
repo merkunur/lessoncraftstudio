@@ -51,15 +51,13 @@
     },
     {
      "part": 7,
-     "lesson": 8,
+     "lesson": 7,
      "title": "Fact fluency within 10",
      "type": "G1-214",
      "tasks": 2
     }
    ],
-   "notCovered": [
-    7
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
      "pages": 3,
@@ -2575,7 +2573,8 @@
     2,
     4,
     6,
-    7
+    7,
+    8
    ],
    "forms": {
     "A": {

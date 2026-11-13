@@ -165,7 +165,8 @@
       "G1-240",
       "G1-238"
      ],
-     "activity": null
+     "activity": null,
+     "tool": "missing-question"
     },
     {
      "point": "1:write-the-equation",
@@ -319,7 +320,8 @@
      "types": [
       "G1-213"
      ],
-     "activity": null
+     "activity": null,
+     "tool": "missing-question"
     },
     {
      "point": "1:fluency-within-20",

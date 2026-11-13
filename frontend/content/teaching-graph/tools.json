@@ -193,7 +193,8 @@
     "part-whole-frame": {
       "points": [
         "K:number-bonds-k",
-        "1:make-10"
+        "1:make-10",
+        "1:word-problems"
       ]
     },
     "dictation-desk": {
@@ -283,7 +284,8 @@
     "comparison-planks": {
       "points": [
         "2:compare-lengths",
-        "1:bar-model"
+        "1:bar-model",
+        "1:word-problems"
       ]
     },
     "cold-line": {
@@ -373,7 +375,8 @@
     "the-gap": {
       "points": [
         "K:count-on",
-        "1:missing-number-equations"
+        "1:missing-number-equations",
+        "1:word-problems"
       ]
     },
     "shape-stretcher": {

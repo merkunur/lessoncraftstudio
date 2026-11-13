@@ -10,9 +10,9 @@
    "subject": "math",
    "title": "Addition and Subtraction Within 10",
    "metaTitle": "Grade 1 Math Lesson Plans: Addition and Subtraction Within 10",
-   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
-   "days": 23,
-   "weeks": 5,
+   "metaDescription": "A four-week Grade 1 math unit: 7 lessons on adding and subtracting within 10, each with a teacher note, practice pages (most at three levels), and on-screen practice.",
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -363,65 +363,6 @@
     },
     {
      "n": 7,
-     "point": "1:word-problems",
-     "title": "Word problems within 10",
-     "objective": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "1.OA.A.1",
-       "title": "Operations and Algebraic Thinking"
-      }
-     ],
-     "paper": [
-      {
-       "type": "G1-240",
-       "title": "Word Problems Within 10",
-       "core": "word-problems-fruits-g1240",
-       "easy": "word-problems-easy-classroom-g1240",
-       "hard": "word-problems-hard-vegetables-g1240",
-       "landing": "word-problems-within-10"
-      },
-      {
-       "type": "G1-238",
-       "title": "Addition Word Problems",
-       "core": "word-problems-fruits-g1238",
-       "easy": "word-problems-easy-vegetables-g1238",
-       "hard": "word-problems-hard-vegetables-bw-g1238-2",
-       "landing": "addition-word-problems-with-pictures"
-      }
-     ],
-     "tool": {
-      "key": "missing-question",
-      "slug": "missing-question-decompose-numbers-kindergarten",
-      "name": "The Missing Question"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "vet-diagnosis.word-problems.1-oa-a-1",
-      "slug": "vet-diagnosis-window",
-      "title": "Vet's Diagnosis Window — Word-Problem Modeling"
-     },
-     "exit": {
-      "slug": "word-problems-toys-bw-g1240-2",
-      "title": "Word Problems Within 10"
-     },
-     "maker": {
-      "id": "word-problems",
-      "name": "Word Problems",
-      "slug": "math-word-problem-worksheet-maker",
-      "template": "G1-240"
-     },
-     "note": {
-      "mistake": "Children pick out the two numbers and add them no matter what the story says, or look for one word such as \"more\" and choose the operation from it.",
-      "words": "Ask: \"What happens in the story? Are things joining or leaving?\" Have the child retell the story before any number is written. Then: \"Write the equation that tells the story.\" The page has a box for the answer only, so have the children write the equation next to the picture.",
-      "watch": "Listen to the retelling. A child who can act the story out with counters but writes the wrong sign needs the link from the action to the sign, not more counting."
-     },
-     "days": 3
-    },
-    {
-     "n": 8,
      "point": "1:fluency-within-20",
      "title": "Fact fluency within 10",
      "objective": "Children add and subtract within 10 without counting every time, using facts they know and facts they can figure out.",
@@ -3976,6 +3917,209 @@
    ]
   },
   {
+   "id": "g1-story-problems-within-20",
+   "slug": "story-problems-within-20-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Story Problems Within 20",
+   "metaTitle": "Grade 1 Math Lesson Plans: Story Problems Within 20",
+   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on story problems within 20, with a missing part, a missing change, and how many more or fewer, with a bar model or a picture.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:word-problems",
+     "title": "Word problems within 10",
+     "objective": "Children solve addition and subtraction story problems within 10 and say or write the equation that tells the story.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-240",
+       "title": "Word Problems Within 10",
+       "core": "word-problems-fruits-g1240",
+       "easy": "word-problems-easy-classroom-g1240",
+       "hard": "word-problems-hard-vegetables-g1240",
+       "landing": "word-problems-within-10"
+      },
+      {
+       "type": "G1-238",
+       "title": "Addition Word Problems",
+       "core": "word-problems-fruits-g1238",
+       "easy": "word-problems-easy-vegetables-g1238",
+       "hard": "word-problems-hard-vegetables-bw-g1238-2",
+       "landing": "addition-word-problems-with-pictures"
+      }
+     ],
+     "tool": {
+      "key": "missing-question",
+      "slug": "missing-question-decompose-numbers-kindergarten",
+      "name": "The Missing Question"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "vet-diagnosis.word-problems.1-oa-a-1",
+      "slug": "vet-diagnosis-window",
+      "title": "Vet's Diagnosis Window — Word-Problem Modeling"
+     },
+     "exit": {
+      "slug": "word-problems-toys-bw-g1240-2",
+      "title": "Word Problems Within 10"
+     },
+     "maker": {
+      "id": "word-problems",
+      "name": "Word Problems",
+      "slug": "math-word-problem-worksheet-maker",
+      "template": "G1-240"
+     },
+     "note": {
+      "mistake": "Children pick out the two numbers and add them no matter what the story says, or look for one word such as \"more\" and choose the operation from it.",
+      "words": "Ask: \"What happens in the story? Are things joining or leaving?\" Have the child retell the story before any number is written. Then: \"Write the equation that tells the story.\" The page has a box for the answer only, so have the children write the equation next to the picture.",
+      "watch": "Listen to the retelling. A child who can act the story out with counters but writes the wrong sign needs the link from the action to the sign, not more counting."
+     },
+     "days": 3
+    },
+    {
+     "n": 2,
+     "point": "1:word-problems",
+     "title": "Find the missing part",
+     "objective": "Children solve put-together stories within 20 in which the total and one part are known: they mark the missing part with a question mark in a bar model and write an equation for the story.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-567",
+       "title": "Find the Missing Part: Story Problems",
+       "core": "word-problems-classroom-b-w-g1567",
+       "easy": "word-problems-easy-accessories-g1567",
+       "hard": "word-problems-hard-fruits-g1567"
+      }
+     ],
+     "id": "1:word-problems#find-the-missing-part",
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "number-bonds",
+      "name": "Number Bonds Board"
+     },
+     "exit": {
+      "slug": "word-problems-toys-g1567-2",
+      "title": "Find the Missing Part: Story Problems"
+     },
+     "note": {
+      "mistake": "Children add the two numbers they see (12 in all and 7 in the red box become 19), because nothing is taken away in the story. Others write the total in one of the small parts of the bar.",
+      "words": "Open the Number Bonds Board, set the number to 10, tap counters across until the left part holds 6, and put the cloth over the right part: \"Two boxes have 10 apples in all. 6 are in the red box. What do we know? What are we looking for?\" Draw the bar on the board: \"The long bar is all 10. The two short bars are the parts. One part is 6. The other part is our question mark.\" Write 6 + ? = 10, then take the cloth off.",
+      "watch": "On the page for everyone the total is between 11 and 20. The easier page stays within 10 and its first story is worked, so a child sees what goes where; the harder page uses whole tens (70 in all, 30 in the red box). Check the bar first: the total belongs in the long bar. For 12 in all and 7 in one part, the key writes 7 + 5 = 12; 12 − 7 = 5 is just as correct. A child who answers 19 has added: build the 12 with counters and cover the 7."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:word-problems",
+     "title": "What happened in the middle?",
+     "objective": "Children solve stories within 20 in which the start and the end are known and the change is missing (some came or some left): they mark the change with a question mark in a bar model and write an equation for the story.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-568",
+       "title": "What Happened in the Middle? Story Problems",
+       "core": "word-problems-vegetables-bw-g1568",
+       "easy": "word-problems-easy-toys-g1568",
+       "hard": "word-problems-hard-classroom-g1568"
+      }
+     ],
+     "id": "1:word-problems#what-happened-in-the-middle",
+     "tool": {
+      "key": "the-gap",
+      "slug": "the-gap-what-changed-while-you-could-not-see-grade-1",
+      "name": "The Gap"
+     },
+     "exit": {
+      "slug": "word-problems-toys-g1568-2",
+      "title": "What Happened in the Middle? Story Problems"
+     },
+     "note": {
+      "mistake": "Children add the two numbers in the story no matter what happened. In a story where some leave, many write the starting number in a small part of the bar, but in those stories the start is the whole.",
+      "words": "Open The Gap and choose \"up to sixteen\" in its settings. Count the marks on the ground together (say there are 8), tap \"Show the gap,\" and count again (say 13). Write both numbers: \"Did some come or did some leave? How many?\" Take a child's number and try it. Then draw the bar: \"More came, so 13 is all of them. 8 were there at the start. The question mark is what came.\" Write 8 + ? = 13. When some left, the first count is all of them.",
+      "watch": "The page for everyone has one story in which some more come and two in which some leave, with a larger number from 11 to 20. The easier page stays within 10 and its first story is worked; the harder page uses whole tens. Ask \"Which number is all of them?\" before the child writes: in 8 + ? = 13 it is the end, in 12 − ? = 7 it is the start. Either true equation counts (13 − 8 = 5 for 8 + ? = 13)."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:word-problems",
+     "title": "How many more? How many fewer?",
+     "objective": "Children compare two amounts within 20 in a story, shown as two lined-up rows of pictures, and find how many more or how many fewer.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-511",
+       "title": "Compare Word Problems",
+       "core": "word-problems-bakery-g1511",
+       "easy": "word-problems-easy-fruits-g1511",
+       "hard": "word-problems-hard-toys-bw-2-g1511",
+       "screen": 1
+      }
+     ],
+     "id": "1:word-problems#how-many-more-how-many-fewer",
+     "tool": {
+      "key": "comparison-planks",
+      "slug": "compare-lengths-difference-grade-1-2",
+      "name": "The Planks"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "vet-diagnosis.word-problems.1-oa-a-1",
+      "slug": "vet-diagnosis-window",
+      "title": "Vet's Diagnosis Window — Word-Problem Modeling"
+     },
+     "exit": {
+      "slug": "word-problems-kitchen-bw-g1511-2",
+      "title": "Compare Word Problems"
+     },
+     "maker": {
+      "id": "word-problems",
+      "name": "Word Problems",
+      "slug": "math-word-problem-worksheet-maker",
+      "template": "G1-511"
+     },
+     "note": {
+      "mistake": "Children hear \"more\" and add the two amounts (12 and 7 become 19), or they answer with the larger amount. \"How many fewer\" is harder than \"how many more\", although it is the same difference.",
+      "words": "Open The Planks and drag the two planks to 12 and 7 before you say anything: \"Mia has 12 stickers. Ben has 7. Where do you see how many more?\" Let the class say how long the piece under the bracket is, then move it to the end of the short plank: \"Mia has 5 more than Ben. Ben has 5 fewer than Mia. Ben needs 5 more to have as many as Mia.\" Say all three sentences for every pair.",
+      "watch": "The page shows the two amounts as two rows of pictures that start at the same line. Have the child circle the pictures that stick out before writing the number in the box; the dotted space is for a drawing or an equation. On the page for everyone the larger amount is 11 to 14 in both stories; the easier page stays within 10; the harder page has three stories. A child who writes 19 has added: cover what both rows have and ask what is left. Children can also practice story problems on screen."
+     },
+     "days": 3
+    }
+   ]
+  },
+  {
    "id": "g1-tens-and-ones",
    "slug": "tens-and-ones-grade-1-unit",
    "status": "live",
@@ -6154,9 +6298,9 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and mixed practice.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and story problems.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -6510,6 +6654,52 @@
       "mistake": "Children retell the steps (\"I carried the 1\") and cannot say what the 1 stands for. Others think that two different ways must give two different answers, or that only the way they learned first is right.",
       "words": "Ask: \"What did this child do first? What happened to the 8 ones and the 5 ones?\" Say: \"8 ones and 5 ones are 13 ones: 1 new ten and 3 ones.\" Ask: \"Why do both ways give 63?\"",
       "watch": "Listen for place-value words: \"3 tens and 2 tens,\" \"I made a new ten.\" A child who can explain a classmate's way, not only their own, has understood why it works."
+     },
+     "days": 2
+    },
+    {
+     "n": 8,
+     "point": "2:two-step-word-problems",
+     "title": "One-step stories with a bar model",
+     "objective": "Children solve one-step story problems within 100 in which the end, the change, or a part is missing, with a bar model and an equation, and write the question for a story that has none.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-509",
+       "title": "Story Problems Within 100: Bar Model",
+       "core": "word-problems-vegetables-bw-g2509",
+       "easy": "word-problems-easy-kitchen-tools-g2509",
+       "hard": "word-problems-hard-bakery-g2509"
+      },
+      {
+       "type": "G2-506",
+       "title": "Story Problems Within 100: Question, Equation, Answer",
+       "core": "word-problems-classroom-b-w-g2506",
+       "easy": "word-problems-easy-accessories-g2506",
+       "hard": "word-problems-hard-fruits-g2506"
+      }
+     ],
+     "id": "2:two-step-word-problems#one-step-stories-with-a-bar-model",
+     "tool": {
+      "key": "missing-question",
+      "slug": "missing-question-decompose-numbers-kindergarten",
+      "name": "The Missing Question"
+     },
+     "exit": {
+      "slug": "word-problems-fruits-g2509-2",
+      "title": "Story Problems Within 100: Bar Model"
+     },
+     "note": {
+      "mistake": "With two-digit numbers children stop reading and just compute: they add the two numbers in every story. When more are added and the story asks for the change (34 + ? = 52), they write 34 + 52.",
+      "words": "Open The Missing Question and tell a story with no numbers, for example: \"There are some pencils in a box. Sam puts in some more.\" Ask: \"What could we ask?\" Collect their questions, then tell the numbers one at a time. Draw the bar: \"Which number is all of them? Which part do we know? Where is the question mark?\" Write 34 + ? = 52 first, then the equation you solve, 52 − 34 = 18.",
+      "watch": "On the bar-model page one story asks for the end and two ask for the change; its easier page asks for the end in all three stories and the first is worked; its harder page asks for the change or for a missing part. The second page, Question, Equation, Answer, has three more stories and no bar. On the page for everyone one question is missing and the child writes it: accept any question that needs both numbers (\"How many are still on the table?\"). One story there compares two boxes. Either true equation counts."
      },
      "days": 2
     }
@@ -13856,18 +14046,18 @@
    "grade": "1",
    "subject": "math",
    "title": "Grade 1 Math Scope and Sequence",
-   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (28 Weeks)",
-   "metaDescription": "7 Grade 1 math units in teaching order, about 28 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 28,
+   "metaTitle": "Grade 1 Math Scope and Sequence with Pacing Guide (30 Weeks)",
+   "metaDescription": "8 Grade 1 math units in teaching order, about 30 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 30,
    "framework": "Common Core",
    "units": [
     {
      "id": "g1-add-subtract-within-10",
      "slug": "addition-and-subtraction-within-10-grade-1-unit",
      "title": "Addition and Subtraction Within 10",
-     "weeks": 5,
+     "weeks": 4,
      "from": 1,
-     "to": 5,
+     "to": 4,
      "lessons": [
       "Add two groups",
       "Take away: how many are left?",
@@ -13875,11 +14065,9 @@
       "Count on and count back on a number line",
       "Fact families to 10",
       "Find the missing number",
-      "Word problems within 10",
       "Fact fluency within 10"
      ],
      "standards": [
-      "1.OA.A.1",
       "1.OA.B.3",
       "1.OA.B.4",
       "1.OA.C.5",
@@ -13892,8 +14080,8 @@
      "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
      "title": "Doubles, Three Addends, and Addition Pyramids",
      "weeks": 5,
-     "from": 6,
-     "to": 10,
+     "from": 5,
+     "to": 9,
      "lessons": [
       "Doubles and halves",
       "Near doubles",
@@ -13913,12 +14101,29 @@
      ]
     },
     {
+     "id": "g1-story-problems-within-20",
+     "slug": "story-problems-within-20-grade-1-unit",
+     "title": "Story Problems Within 20",
+     "weeks": 3,
+     "from": 10,
+     "to": 12,
+     "lessons": [
+      "Word problems within 10",
+      "Find the missing part",
+      "What happened in the middle?",
+      "How many more? How many fewer?"
+     ],
+     "standards": [
+      "1.OA.A.1"
+     ]
+    },
+    {
      "id": "g1-tens-and-ones",
      "slug": "tens-and-ones-grade-1-unit",
      "title": "Tens and Ones",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 13,
+     "to": 15,
      "lessons": [
       "Teen numbers: one ten and some ones",
       "Count the tens: 10 to 90",
@@ -13938,8 +14143,8 @@
      "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
      "title": "The Hundreds Chart and Skip Counting",
      "weeks": 3,
-     "from": 14,
-     "to": 16,
+     "from": 16,
+     "to": 18,
      "lessons": [
       "Find a number on the number line",
       "The hundreds chart",
@@ -13956,8 +14161,8 @@
      "slug": "adding-within-100-grade-1-unit",
      "title": "Adding Within 100",
      "weeks": 3,
-     "from": 17,
-     "to": 19,
+     "from": 19,
+     "to": 21,
      "lessons": [
       "Add tens to a number",
       "Subtract tens from tens",
@@ -13975,8 +14180,8 @@
      "slug": "time-calendar-and-coins-grade-1-unit",
      "title": "Time, Calendar, and Coins",
      "weeks": 4,
-     "from": 20,
-     "to": 23,
+     "from": 22,
+     "to": 25,
      "lessons": [
       "Tell time to the hour and half hour",
       "Draw the clock hands",
@@ -13994,8 +14199,8 @@
      "slug": "shapes-measuring-and-graphs-grade-1-unit",
      "title": "Shapes, Measuring, and Graphs",
      "weeks": 5,
-     "from": 24,
-     "to": 28,
+     "from": 26,
+     "to": 30,
      "lessons": [
       "What makes a shape that shape?",
       "Tangram puzzles",
@@ -14024,9 +14229,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (28 Weeks)",
-   "metaDescription": "8 Grade 2 math units in teaching order, about 28 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 28,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (29 Weeks)",
+   "metaDescription": "8 Grade 2 math units in teaching order, about 29 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 29,
    "framework": "Common Core",
    "units": [
     {
@@ -14076,9 +14281,9 @@
      "id": "g2-adding-and-subtracting-within-100",
      "slug": "adding-and-subtracting-within-100-grade-2-unit",
      "title": "Adding and Subtracting Within 100",
-     "weeks": 4,
+     "weeks": 5,
      "from": 7,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "A number line that does not start at zero",
       "Jumps on the hundreds chart",
@@ -14086,12 +14291,14 @@
       "Add tens and ones, then put them together",
       "Add and subtract vertically",
       "Add and subtract within 100",
-      "Why does it work?"
+      "Why does it work?",
+      "One-step stories with a bar model"
      ],
      "standards": [
       "2.MD.B.6",
       "2.NBT.B.5",
-      "2.NBT.B.9"
+      "2.NBT.B.9",
+      "2.OA.A.1"
      ]
     },
     {
@@ -14099,8 +14306,8 @@
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
      "title": "Adding and Subtracting Within 1,000",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 12,
+     "to": 14,
      "lessons": [
       "Add with blocks",
       "Add three-digit numbers and make a new ten or hundred",
@@ -14117,8 +14324,8 @@
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
      "weeks": 5,
-     "from": 14,
-     "to": 18,
+     "from": 15,
+     "to": 19,
      "lessons": [
       "Measure with a ruler",
       "Estimate, then measure",
@@ -14141,8 +14348,8 @@
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
      "weeks": 3,
-     "from": 19,
-     "to": 21,
+     "from": 20,
+     "to": 22,
      "lessons": [
       "From tally marks to a bar graph",
       "Make a graph from counts",
@@ -14159,8 +14366,8 @@
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
      "weeks": 4,
-     "from": 22,
-     "to": 25,
+     "from": 23,
+     "to": 26,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -14181,8 +14388,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 26,
-     "to": 28,
+     "from": 27,
+     "to": 29,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",

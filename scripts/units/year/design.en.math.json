@@ -146,7 +146,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "new",
-            "page": "Six stories within 20 (\"12 children are on the playground. 7 are girls. How many are boys?\"). Each has a bar model, one long bar for the total above two parts, in which the child writes the two known numbers and a question mark; an equation frame with a box (7 + _ = 12); and an answer line with a label. Four stories ask for a part and two for the total."
+            "page": "Six stories within 20 (\"12 children are on the playground. 7 are girls. How many are boys?\"). Each has a bar model, one long bar for the total above two parts, in which the child writes the two known numbers and a question mark; an equation frame with a box (7 + _ = 12); and an answer line with a label. Four stories ask for a part and two for the total.",
+            "placed": "1:word-problems#find-the-missing-part"
           },
           {
             "new": true,
@@ -156,7 +157,8 @@
             "days": 3,
             "tool": "The Gap",
             "source": "new",
-            "page": "Six stories ('8 children are on the bus. Some more get on. Now there are 13. How many got on?'). Each has a strip of three boxes for start, change and end with a plus or minus sign to circle, space for a drawing, and an equation frame with the box in the middle (8 + _ = 13). Level 1: within 10; level 2: within 20, three stories of each kind. The child fills the strip, draws, and writes the equation and the answer with its label."
+            "page": "Six stories ('8 children are on the bus. Some more get on. Now there are 13. How many got on?'). Each has a strip of three boxes for start, change and end with a plus or minus sign to circle, space for a drawing, and an equation frame with the box in the middle (8 + _ = 13). Level 1: within 10; level 2: within 20, three stories of each kind. The child fills the strip, draws, and writes the equation and the answer with its label.",
+            "placed": "1:word-problems#what-happened-in-the-middle"
           },
           {
             "new": true,
@@ -166,7 +168,8 @@
             "days": 3,
             "tool": "The Planks",
             "source": "new",
-            "page": "Six stories ('Mia has 12 stickers. Ben has 7 stickers. How many more stickers does Mia have?'). Each has two rows of 20 empty squares, one under the other, with the names in front; the child colors each amount from the left, rings the squares that stick out, and writes an equation (7 + _ = 12 or 12 - 7 = _) and the answer. Level 1 asks 'how many more'; level 2 mixes 'more' and 'fewer'. Amounts from 3 to 20."
+            "page": "Six stories ('Mia has 12 stickers. Ben has 7 stickers. How many more stickers does Mia have?'). Each has two rows of 20 empty squares, one under the other, with the names in front; the child colors each amount from the left, rings the squares that stick out, and writes an equation (7 + _ = 12 or 12 - 7 = _) and the answer. Level 1 asks 'how many more'; level 2 mixes 'more' and 'fewer'. Amounts from 3 to 20.",
+            "placed": "1:word-problems#how-many-more-how-many-fewer"
           },
           {
             "new": true,
@@ -686,7 +689,8 @@
             "days": 2,
             "tool": "The Missing Question",
             "source": "new",
-            "page": "Six stories with two-digit numbers: three with the end missing and three with the change missing (\"34 children were on the playground. Some more came. Now there are 52.\"). Each has an empty bar model (one long bar over two parts) to label, an equation frame with a box (34 + _ = 52), and an answer line with a label."
+            "page": "Six stories with two-digit numbers: three with the end missing and three with the change missing (\"34 children were on the playground. Some more came. Now there are 52.\"). Each has an empty bar model (one long bar over two parts) to label, an equation frame with a box (34 + _ = 52), and an answer line with a label.",
+            "placed": "2:two-step-word-problems#one-step-stories-with-a-bar-model"
           },
           {
             "new": true,

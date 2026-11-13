@@ -250,7 +250,9 @@
       "note": "numbers sorted out by a clue that acts (a property of number): no single teaching point covers it"
     },
     "arrow-strip": {
-      "points": [],
+      "points": [
+        "1:map-key"
+      ],
       "note": "directions, turns and a plan of moves: no teaching point covers it yet"
     },
     "draw-bag": {

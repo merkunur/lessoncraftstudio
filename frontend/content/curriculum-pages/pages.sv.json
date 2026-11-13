@@ -22,10 +22,10 @@
    "metaDescription": "Kunskapsområdena i det centrala innehållet i matematik för årskurs 1–3 enligt Lgr22, vart och ett med våra lektioner och arbetsblad och antalet punkter som lektionerna täcker.",
    "counts": {
     "objectives": 22,
-    "taught": 16,
+    "taught": 17,
     "near": 0,
     "open": 0,
-    "lessons": 130,
+    "lessons": 137,
     "parts": 6,
     "partsTaught": 6
    },
@@ -43,6 +43,29 @@
         "taught": 6
        },
        "units": [
+        {
+         "unit": "lagga-till-ta-bort-och-losa-problem-forskoleklass",
+         "unitTitle": "Lägga till, ta bort och lösa problem",
+         "unitGrade": "K",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Några kommer till: först, sedan, nu"
+          },
+          {
+           "n": 2,
+           "title": "Några går iväg: hur många är kvar?"
+          },
+          {
+           "n": 3,
+           "title": "Dela lika: en till dig, en till mig"
+          },
+          {
+           "n": 4,
+           "title": "Lös problemet: lägg, rita och berätta"
+          }
+         ]
+        },
         {
          "unit": "talen-0-10-antal-talrad-och-uppdelning-ak-1",
          "unitTitle": "Talen 0–10: antal, talrad och uppdelning",
@@ -577,6 +600,21 @@
          ]
         },
         {
+         "unit": "rutnat-programmering-och-skala-ak-2",
+         "unitTitle": "Rutnät, programmering och skala",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Programmera med pilar i rutnät"
+          },
+          {
+           "n": 3,
+           "title": "Hitta felet i programmet"
+          }
+         ]
+        },
+        {
          "unit": "multiplikationstabellerna-ak-3",
          "unitTitle": "Multiplikationstabellerna 1–10",
          "unitGrade": "3",
@@ -626,7 +664,7 @@
        "state": "taught",
        "counts": {
         "objectives": 5,
-        "taught": 3
+        "taught": 4
        },
        "units": [
         {
@@ -734,6 +772,17 @@
           {
            "n": 7,
            "title": "Tangram: vilken figur ligger som skuggbilden?"
+          }
+         ]
+        },
+        {
+         "unit": "rutnat-programmering-och-skala-ak-2",
+         "unitTitle": "Rutnät, programmering och skala",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Förstora i rutnät: dubbelt så stort"
           }
          ]
         },
@@ -885,6 +934,17 @@
            "title": "Dubbelt och hälften upp till 100"
           }
          ]
+        },
+        {
+         "unit": "rutnat-programmering-och-skala-ak-2",
+         "unitTitle": "Rutnät, programmering och skala",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Förstora i rutnät: dubbelt så stort"
+          }
+         ]
         }
        ]
       },
@@ -898,6 +958,25 @@
         "taught": 1
        },
        "units": [
+        {
+         "unit": "lagga-till-ta-bort-och-losa-problem-forskoleklass",
+         "unitTitle": "Lägga till, ta bort och lösa problem",
+         "unitGrade": "K",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Några kommer till: först, sedan, nu"
+          },
+          {
+           "n": 2,
+           "title": "Några går iväg: hur många är kvar?"
+          },
+          {
+           "n": 4,
+           "title": "Lös problemet: lägg, rita och berätta"
+          }
+         ]
+        },
         {
          "unit": "addition-och-subtraktion-0-10-ak-1",
          "unitTitle": "Addition och subtraktion 0–10",

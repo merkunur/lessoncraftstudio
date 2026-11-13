@@ -260,6 +260,73 @@
    ]
   },
   {
+   "id": "sv-f-ma-lagga-till-ta-bort",
+   "slug": "lagga-till-ta-bort-och-losa-problem-forskoleklass",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Lägga till, ta bort och lösa problem",
+   "metaTitle": "Matematik förskoleklass: Lägga till, ta bort och lösa problem",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Lägga till, ta bort och lösa problem”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 4,
+   "lessons": [
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#nagra-kommer-till",
+     "types": [
+      "K-642"
+     ],
+     "core": {
+      "K-642": 1
+     },
+     "noHard": [
+      "K-642"
+     ],
+     "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#nagra-gar-ivag",
+     "types": [
+      "K-642"
+     ],
+     "noEasy": [
+      "K-642"
+     ],
+     "noHard": [
+      "K-642"
+     ],
+     "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "2:share-and-group",
+     "id": "2:share-and-group#en-till-dig-en-till-mig",
+     "types": [
+      "K-639"
+     ],
+     "tool": "lids",
+     "activity": null
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#los-problemet-rita",
+     "types": [
+      "K-642"
+     ],
+     "core": {
+      "K-642": 3
+     },
+     "noEasy": [
+      "K-642"
+     ],
+     "tool": "missing-question",
+     "activity": "ten-frame.solve-the-story.k-oa-a-2"
+    }
+   ]
+  },
+  {
    "id": "sv-f-sv-spraklekar",
    "slug": "spraklekar-rim-stavelser-och-ljud-forskoleklass",
    "status": "live",
@@ -619,7 +686,8 @@
      ],
      "standards": [
       "MA.1-3.2.4"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "1:measure-length-units",
@@ -1335,7 +1403,7 @@
    "subject": "math",
    "title": "Geometriska objekt, symmetri och rutnät",
    "metaTitle": "Matematik åk 2: Geometriska objekt, symmetri och rutnät",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Geometriska objekt, symmetri och rutnät”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 4,
    "lessons": [
     {
@@ -1386,7 +1454,20 @@
      "types": [
       "G2-347"
      ]
-    },
+    }
+   ]
+  },
+  {
+   "id": "sv-2-ma-rutnat-programmering",
+   "slug": "rutnat-programmering-och-skala-ak-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Rutnät, programmering och skala",
+   "metaTitle": "Matematik åk 2: Rutnät, programmering och skala | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Rutnät, programmering och skala”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
     {
      "point": "2:grid-coordinates",
      "types": [
@@ -1394,6 +1475,47 @@
       "G2-308"
      ],
      "activity": null
+    },
+    {
+     "point": "1:map-key",
+     "id": "1:map-key#programmera-med-pilar",
+     "types": [
+      "G1-528",
+      "G1-529"
+     ],
+     "tool": "arrow-strip",
+     "activity": null,
+     "standards": [
+      "MA.1-3.2.4"
+     ]
+    },
+    {
+     "point": "1:map-key",
+     "id": "1:map-key#hitta-felet-i-programmet",
+     "types": [
+      "G2-505"
+     ],
+     "tool": "arrow-strip",
+     "activity": null,
+     "standards": [
+      "MA.1-3.2.4"
+     ]
+    },
+    {
+     "point": "K:grid-copy",
+     "id": "K:grid-copy#forstora-i-rutnat",
+     "types": [
+      "K-300",
+      "K-502"
+     ],
+     "core": {
+      "K-502": 3
+     },
+     "activity": null,
+     "standards": [
+      "MA.1-3.3.4",
+      "MA.1-3.5.1"
+     ]
     }
    ]
   },
@@ -2161,7 +2283,8 @@
     "sv-f-ma-antal-0-10",
     "sv-f-ma-former",
     "sv-f-ma-talraden-20",
-    "sv-f-ma-sortera-dela-upp"
+    "sv-f-ma-sortera-dela-upp",
+    "sv-f-ma-lagga-till-ta-bort"
    ]
   },
   {
@@ -2212,6 +2335,7 @@
     "sv-2-ma-langd-tid",
     "sv-2-ma-multiplikation",
     "sv-2-ma-geometri",
+    "sv-2-ma-rutnat-programmering",
     "sv-2-ma-diagram"
    ]
   },

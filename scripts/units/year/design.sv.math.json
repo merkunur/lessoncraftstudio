@@ -825,7 +825,8 @@
             "days": 3,
             "tool": "Kommandorälsen",
             "source": "new",
-            "page": "Bladet visar rutnät med 6 × 6 rutor med start, mål och hinder; i första delen följer eleven ett färdigt program med pilar och sätter ett kryss där figuren hamnar, i andra delen skriver eleven ett eget program med högst tio pilar som går runt hindren till målet."
+            "page": "Bladet visar rutnät med 6 × 6 rutor med start, mål och hinder; i första delen följer eleven ett färdigt program med pilar och sätter ett kryss där figuren hamnar, i andra delen skriver eleven ett eget program med högst tio pilar som går runt hindren till målet.",
+            "placed": "1:map-key#programmera-med-pilar"
           },
           {
             "new": true,
@@ -835,7 +836,8 @@
             "days": 2,
             "tool": "Kommandorälsen",
             "source": "new",
-            "page": "Bladet visar sex rutnät med start och mål och under varje ett program med pilar som innehåller exakt ett fel; eleven ritar den väg programmet ger, ringar in den felaktiga pilen och skriver den rätta pilen under."
+            "page": "Bladet visar sex rutnät med start och mål och under varje ett program med pilar som innehåller exakt ett fel; eleven ritar den väg programmet ger, ringar in den felaktiga pilen och skriver den rätta pilen under.",
+            "placed": "1:map-key#hitta-felet-i-programmet"
           },
           {
             "new": true,
@@ -845,7 +847,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar enkla figurer av raka streck i ett rutnät (ett hus, en båt, bokstaven L) och ett tomt rutnät bredvid; eleven räknar rutorna längs varje sida och ritar figuren dubbelt så stor. I de två sista uppgifterna ritar eleven figuren hälften så stor, och där har alla sidor ett jämnt antal rutor."
+            "page": "Bladet visar enkla figurer av raka streck i ett rutnät (ett hus, en båt, bokstaven L) och ett tomt rutnät bredvid; eleven räknar rutorna längs varje sida och ritar figuren dubbelt så stor. I de två sista uppgifterna ritar eleven figuren hälften så stor, och där har alla sidor ett jämnt antal rutor.",
+            "placed": "K:grid-copy#forstora-i-rutnat"
           }
         ]
       },
@@ -1507,7 +1510,8 @@
             "days": 2,
             "tool": "Ögonblicket",
             "source": "new",
-            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu), till exempel 3 fåglar på en gren och 2 som flyger dit; eleven ritar alla fåglarna i den sista rutan och skriver siffran, med summor upp till 10 och utan plustecken. Varje händelse spelas först med riktiga föremål på bordet."
+            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu), till exempel 3 fåglar på en gren och 2 som flyger dit; eleven ritar alla fåglarna i den sista rutan och skriver siffran, med summor upp till 10 och utan plustecken. Varje händelse spelas först med riktiga föremål på bordet.",
+            "placed": "1:word-problems#nagra-kommer-till"
           },
           {
             "new": true,
@@ -1517,7 +1521,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar bilder med 3 till 10 föremål där några är överkryssade eller på väg bort (ballonger som flyger iväg, kakor som äts upp); eleven räknar dem som är kvar och skriver siffran. Minst ett föremål är alltid kvar, och varje händelse spelas först med riktiga föremål."
+            "page": "Bladet visar bilder med 3 till 10 föremål där några är överkryssade eller på väg bort (ballonger som flyger iväg, kakor som äts upp); eleven räknar dem som är kvar och skriver siffran. Minst ett föremål är alltid kvar, och varje händelse spelas först med riktiga föremål.",
+            "placed": "1:word-problems#nagra-gar-ivag"
           },
           {
             "new": true,
@@ -1527,7 +1532,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar 4, 6, 8 eller 10 kakor och två tallrikar samt 6 eller 9 kakor och tre tallrikar; eleven drar ett streck från varje kaka till en tallrik så att alla får lika många och skriver hur många det blev på varje tallrik. Eleverna delar först ut riktiga föremål på riktiga tallrikar."
+            "page": "Bladet visar 4, 6, 8 eller 10 kakor och två tallrikar samt 6 eller 9 kakor och tre tallrikar; eleven drar ett streck från varje kaka till en tallrik så att alla får lika många och skriver hur många det blev på varje tallrik. Eleverna delar först ut riktiga föremål på riktiga tallrikar.",
+            "placed": "2:share-and-group#en-till-dig-en-till-mig"
           },
           {
             "new": true,
@@ -1537,7 +1543,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet har ett problem per sida med en bild och en stor tom ruta, till exempel ”Fyra barn ska ha två vantar var. Hur många vantar behövs?”; läraren läser problemet, eleven lägger först med klossar, ritar sedan sin lösning i rutan och skriver svaret med en siffra, högst 10."
+            "page": "Bladet har ett problem per sida med en bild och en stor tom ruta, till exempel ”Fyra barn ska ha två vantar var. Hur många vantar behövs?”; läraren läser problemet, eleven lägger först med klossar, ritar sedan sin lösning i rutan och skriver svaret med en siffra, högst 10.",
+            "placed": "1:word-problems#los-problemet-rita"
           }
         ]
       }

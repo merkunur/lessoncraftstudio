@@ -3811,10 +3811,28 @@
     {
      "id": "F.3.3",
      "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.5.1",
+     "rel": "teaches"
     }
    ],
-   "why": "Copying square by square means finding the same place in another grid: «rum, läge, form» (F.3.3).",
-   "review": "author-all"
+   "why": "Copying square by square means finding the same place in another grid: «rum, läge, form» (F.3.3). [teacher-reviewer of the åk 2 unit Rutnät, programmering och skala, 2026-11-13] The page Rita dubbelt så stort enlarges a picture so that every square becomes a block of 2 by 2: «skala vid enkel förminskning och förstoring» (MA.1-3.3.4) and «proportionella samband, däribland dubbelt och hälften» (MA.1-3.5.1); a lesson of åk 2 on it shows these two, not the förskoleklass row.",
+   "review": "author-all",
+   "was": {
+    "rows": [
+     {
+      "id": "F.3.3",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Copying square by square means finding the same place in another grid: «rum, läge, form» (F.3.3).",
+    "review": "author-all"
+   }
   },
   "1:find-the-differences": {
    "none": "visual discrimination has no counterpart in Lgr22",

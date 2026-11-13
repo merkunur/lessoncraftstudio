@@ -213,11 +213,15 @@ module.exports = {
     if (pool.length < kinds.length) throw new Error(`G1-213: theme ${theme}/${loc} has ${pool.length} countable nouns < ${kinds.length}`);
     const nouns = slot.pictures(ctx, rng.sample(pool, kinds.length), pool, theme);   // a teacher's thing per story (maker), else as drawn
     const names = W.namesFor(loc, false);
-    const usedFrames = new Set(), usedNums = new Set();
+    const usedFrames = new Set(), usedNums = new Set(), drawn = [];
     const three = kinds.length >= 3;
     const problems = kinds.map((kind, i) => {
       let nums = null, guard = 0;
-      do { nums = W.drawG1(kind, d, rng); guard++; } while ((!nums || usedNums.has([nums.n1, nums.n2, nums.n3].join())) && guard < 400);
+      // a DRAW page (K-642): its stories share no answer and no pair of numbers (2 + 4 and 4 + 2 on one page: the second
+      // story asks nothing new; teacher-reviewer, 2026-11-13). Only a clash draws again, so every other page keeps its draw.
+      const clash = (n) => !!d.draw && drawn.some((q) => q.answer === n.answer || [q.n1, q.n2].sort().join() === [n.n1, n.n2].sort().join());
+      do { nums = W.drawG1(kind, d, rng); guard++; } while ((!nums || usedNums.has([nums.n1, nums.n2, nums.n3].join()) || clash(nums)) && guard < 400);
+      if (nums) drawn.push(nums);
       if (!nums) throw new Error(`G1-213: no numbers for ${kind} at ${JSON.stringify(d)}`);
       usedNums.add([nums.n1, nums.n2, nums.n3].join());
       const noun = nouns[i];

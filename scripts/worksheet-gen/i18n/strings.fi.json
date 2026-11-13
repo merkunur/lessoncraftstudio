@@ -4870,5 +4870,17 @@
   "G2-508": {
     "title": "Satunnaiskoe: nosta ja kirjaa",
     "instruction": "Tee samanlainen pussi kuin kuvassa. Ympyröi ensin arvauksesi. Nosta sitten yksi pala katsomatta, tee viiva tukkimiehen kirjanpitoon, vedä yli yksi numeroruutu ja pane pala takaisin pussiin. Tee näin kerran jokaista numeroruutua kohti. Laske viivat, piirrä pylväät ja täytä sivu loppuun."
+  },
+  "G1-567": {
+    "title": "Sanalliset tehtävät: mikä osa puuttuu?",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan osan kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G1-568": {
+    "title": "Sanalliset tehtävät: mitä välissä tapahtui?",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G2-509": {
+    "title": "Palkkimalli: sanalliset tehtävät 0–100",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
   }
 }

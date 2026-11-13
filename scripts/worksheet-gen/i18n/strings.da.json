@@ -4898,5 +4898,17 @@
   "G2-508": {
     "title": "Chanceeksperiment: træk og tæl",
     "instruction": "Lav en pose som på billedet. Sæt først ring om dit gæt. Træk så en brik uden at kigge, sæt en tællestreg, streg et felt med tal ud, og læg brikken tilbage. Gør det én gang for hvert felt med tal. Tæl stregerne, tegn søjlerne, og gør arket færdigt."
+  },
+  "G1-567": {
+    "title": "Regnehistorier: hvilken del mangler?",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for den del, der mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G1-568": {
+    "title": "Regnehistorier: hvad skete der i midten?",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, der mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-509": {
+    "title": "Regnehistorier til 100 med blokmodel",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
   }
 }

@@ -4917,5 +4917,17 @@
   "G2-508": {
     "title": "Expérience aléatoire : tire et compte",
     "instruction": "Prépare un sac comme celui du dessin. Entoure d'abord ce que tu penses. Puis tire un jeton sans regarder, trace un bâton, barre une case numérotée et remets le jeton dans le sac. Fais-le une fois pour chaque case numérotée. Compte les bâtons, dessine les barres et termine la fiche."
+  },
+  "G1-567": {
+    "title": "Problèmes : trouve la partie manquante",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour la partie manquante. Écris un calcul. Puis écris la réponse."
+  },
+  "G1-568": {
+    "title": "Problèmes : que s'est-il passé au milieu ?",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre manquant. Écris un calcul. Puis écris la réponse."
+  },
+  "G2-509": {
+    "title": "Problèmes jusqu'à 100 avec un schéma en barres",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse."
   }
 }

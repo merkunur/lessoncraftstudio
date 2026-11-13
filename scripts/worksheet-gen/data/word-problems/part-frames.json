@@ -1,0 +1,113 @@
+{
+ "$comment": "PUT-TOGETHER stories with one PART unknown (Year pages Q, 2026-11-13; 1.OA.A.1 'put together / take apart, addend unknown', de 'Teil-Ganzes', sv 'del-helhet'): the whole ({n3}) and one part ({n1}) are told, the other part is asked. Nothing happens in these stories (nobody gives or takes): that is what sets them apart from the change stories of word-problems-levelset.json. Slots as there: {n1} {n3} {noun} {name} {name2}, {Q} = how many, agreeing (es, pt, it), {il2} = il / elle of the second name (fr). `place` frames tell the things in a place and suit any amount; `people` frames tell two children and are used within 20 only. Read by a native reader (2026-11-13). Only the bar-model story pages read this file.",
+ "en": {
+  "place": [
+   "Two boxes have {n3} {noun} in all. {n1} {noun} are in the red box. How many {noun} are in the blue box?",
+   "There are {n3} {noun}. {n1} {noun} are on the table and the rest are in a basket. How many {noun} are in the basket?",
+   "Two shelves have {n3} {noun} in all. {n1} {noun} are on the top shelf. How many {noun} are on the bottom shelf?"
+  ],
+  "people": [
+   "{name} and {name2} have {n3} {noun} in all. {name} has {n1} {noun}. How many {noun} does {name2} have?"
+  ]
+ },
+ "de": {
+  "place": [
+   "In zwei Kisten sind zusammen {n3} {noun}. In der roten Kiste sind {n1} {noun}. Wie viele {noun} sind in der blauen Kiste?",
+   "Es sind insgesamt {n3} {noun}. {n1} {noun} sind auf dem Tisch, die übrigen sind in einem Korb. Wie viele {noun} sind im Korb?",
+   "Auf zwei Regalen sind zusammen {n3} {noun}. Auf dem oberen Regal sind {n1} {noun}. Wie viele {noun} sind auf dem unteren Regal?"
+  ],
+  "people": [
+   "{name} und {name2} haben zusammen {n3} {noun}. {name} hat {n1} {noun}. Wie viele {noun} hat {name2}?"
+  ]
+ },
+ "es": {
+  "place": [
+   "En dos cajas hay {n3} {noun} en total. En la caja roja hay {n1} {noun}. ¿{Q} {noun} hay en la caja azul?",
+   "Hay {n3} {noun}. {n1} {noun} están en la mesa y el resto está en una canasta. ¿{Q} {noun} hay en la canasta?",
+   "En dos estantes hay {n3} {noun} en total. En el estante de arriba hay {n1} {noun}. ¿{Q} {noun} hay en el estante de abajo?"
+  ],
+  "people": [
+   "{name} y {name2} tienen {n3} {noun} en total. {name} tiene {n1} {noun}. ¿{Q} {noun} tiene {name2}?"
+  ]
+ },
+ "pt": {
+  "place": [
+   "Em duas caixas há {n3} {noun} ao todo. Na caixa vermelha há {n1} {noun}. {Q} {noun} há na caixa azul?",
+   "Há {n3} {noun}. {n1} {noun} estão na mesa e o resto está em uma cesta. {Q} {noun} há na cesta?",
+   "Em duas prateleiras há {n3} {noun} ao todo. Na prateleira de cima há {n1} {noun}. {Q} {noun} há na prateleira de baixo?"
+  ],
+  "people": [
+   "{name} e {name2} têm {n3} {noun} ao todo. {name} tem {n1} {noun}. {Q} {noun} {name2} tem?"
+  ]
+ },
+ "fr": {
+  "place": [
+   "Il y a {n3} {noun} en tout dans deux boîtes. Dans la boîte rouge, il y a {n1} {noun}. Combien de {noun} y a-t-il dans la boîte bleue ?",
+   "Il y a {n3} {noun}. {n1} {noun} sont sur la table et le reste est dans un panier. Combien de {noun} y a-t-il dans le panier ?",
+   "Il y a {n3} {noun} en tout sur deux étagères. Sur l'étagère du haut, il y a {n1} {noun}. Combien de {noun} y a-t-il sur l'étagère du bas ?"
+  ],
+  "people": [
+   "{name} et {name2} ont {n3} {noun} en tout. {name} a {n1} {noun}. Combien de {noun} {name2} a-t-{il2} ?"
+  ]
+ },
+ "it": {
+  "place": [
+   "In due scatole ci sono in tutto {n3} {noun}. Nella scatola rossa ci sono {n1} {noun}. {Q} {noun} ci sono nella scatola blu?",
+   "Ci sono {n3} {noun}. {n1} {noun} sono sul tavolo e il resto è in un cesto. {Q} {noun} ci sono nel cesto?",
+   "Su due scaffali ci sono in tutto {n3} {noun}. Sullo scaffale in alto ci sono {n1} {noun}. {Q} {noun} ci sono sullo scaffale in basso?"
+  ],
+  "people": [
+   "{name} e {name2} hanno in tutto {n3} {noun}. {name} ha {n1} {noun}. {Q} {noun} ha {name2}?"
+  ]
+ },
+ "nl": {
+  "place": [
+   "In twee dozen zitten samen {n3} {noun}. In de rode doos zitten {n1} {noun}. Hoeveel {noun} zitten er in de blauwe doos?",
+   "Er zijn {n3} {noun}. {n1} {noun} liggen op tafel en de rest ligt in een mand. Hoeveel {noun} liggen er in de mand?",
+   "Op twee planken liggen samen {n3} {noun}. Op de bovenste plank liggen {n1} {noun}. Hoeveel {noun} liggen er op de onderste plank?"
+  ],
+  "people": [
+   "{name} en {name2} hebben samen {n3} {noun}. {name} heeft {n1} {noun}. Hoeveel {noun} heeft {name2}?"
+  ]
+ },
+ "sv": {
+  "place": [
+   "I två lådor ligger det sammanlagt {n3} {noun}. I den röda lådan ligger {n1} {noun}. Hur många {noun} ligger i den blå lådan?",
+   "Det finns {n3} {noun}. {n1} {noun} ligger på bordet och resten ligger i en korg. Hur många {noun} ligger i korgen?",
+   "På två hyllor ligger det sammanlagt {n3} {noun}. På den övre hyllan ligger {n1} {noun}. Hur många {noun} ligger på den nedre hyllan?"
+  ],
+  "people": [
+   "{name} och {name2} har {n3} {noun} tillsammans. {name} har {n1} {noun}. Hur många {noun} har {name2}?"
+  ]
+ },
+ "da": {
+  "place": [
+   "Der ligger i alt {n3} {noun} i to kasser. I den røde kasse ligger der {n1} {noun}. Hvor mange {noun} ligger der i den blå kasse?",
+   "Der er {n3} {noun}. {n1} {noun} ligger på bordet, og resten ligger i en kurv. Hvor mange {noun} ligger der i kurven?",
+   "Der ligger i alt {n3} {noun} på to hylder. På den øverste hylde ligger der {n1} {noun}. Hvor mange {noun} ligger der på den nederste hylde?"
+  ],
+  "people": [
+   "{name} og {name2} har {n3} {noun} tilsammen. {name} har {n1} {noun}. Hvor mange {noun} har {name2}?"
+  ]
+ },
+ "no": {
+  "place": [
+   "Det ligger til sammen {n3} {noun} i to esker. I den røde esken ligger det {n1} {noun}. Hvor mange {noun} ligger det i den blå esken?",
+   "Det er {n3} {noun}. {n1} {noun} ligger på bordet, og resten ligger i en kurv. Hvor mange {noun} ligger det i kurven?",
+   "Det ligger til sammen {n3} {noun} på to hyller. På den øverste hylla ligger det {n1} {noun}. Hvor mange {noun} ligger det på den nederste hylla?"
+  ],
+  "people": [
+   "{name} og {name2} har {n3} {noun} til sammen. {name} har {n1} {noun}. Hvor mange {noun} har {name2}?"
+  ]
+ },
+ "fi": {
+  "place": [
+   "Kahdessa laatikossa on yhteensä {n3} {noun}. Punaisessa laatikossa on {n1} {noun}. Kuinka monta {noun} sinisessä laatikossa on?",
+   "Pöydällä ja korissa on yhteensä {n3} {noun}. Pöydällä on {n1} {noun}. Kuinka monta {noun} korissa on?",
+   "Kahdella hyllyllä on yhteensä {n3} {noun}. Ylähyllyllä on {n1} {noun}. Kuinka monta {noun} alahyllyllä on?"
+  ],
+  "people": [
+   "{name} ja {name2} keräävät yhteensä {n3} {noun}. {name} kerää {n1} {noun}. Kuinka monta {noun} {name2} kerää?"
+  ]
+ }
+}

@@ -4920,5 +4920,17 @@
   "G2-508": {
     "title": "Zufallsversuch: Ziehen und Strichliste",
     "instruction": "Fülle einen Beutel wie auf dem Bild. Kreise zuerst deine Vermutung ein. Ziehe dann ein Plättchen, ohne hinzusehen, mache einen Strich in der Strichliste, streiche ein Zahlenkästchen durch und lege das Plättchen zurück. Mache das für jedes Zahlenkästchen einmal. Zähle die Striche, zeichne die Säulen und fülle das Blatt zu Ende aus."
+  },
+  "G1-567": {
+    "title": "Sachaufgaben: Welcher Teil fehlt?",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für den fehlenden Teil. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G1-568": {
+    "title": "Sachaufgaben: Was ist dazwischen passiert?",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die fehlende Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G2-509": {
+    "title": "Sachaufgaben bis 100 mit Streifenmodell",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
   }
 }

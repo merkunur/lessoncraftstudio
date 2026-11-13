@@ -4918,5 +4918,17 @@
   "G2-508": {
     "title": "Kansexperiment: trekken en turven",
     "instruction": "Vul een zak zoals op het plaatje. Omcirkel eerst wat jij denkt. Trek dan één figuurtje zonder te kijken, zet een streepje, streep een genummerd vakje door en doe het figuurtje terug. Doe dit één keer voor elk genummerd vakje. Tel de streepjes, teken de staven en maak het blad af."
+  },
+  "G1-567": {
+    "title": "Verhaalsommen: welk deel ontbreekt?",
+    "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het deel dat ontbreekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G1-568": {
+    "title": "Verhaalsommen: wat gebeurde er in het midden?",
+    "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat ontbreekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G2-509": {
+    "title": "Verhaalsommen tot 100 met het strookmodel",
+    "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
   }
 }

@@ -4872,5 +4872,17 @@
   "G2-508": {
     "title": "Slumpförsök: dra och pricka av",
     "instruction": "Gör i ordning en påse som på bilden. Ringa först in vad du tror. Dra sedan en bricka utan att titta, gör ett streck, stryk över en numrerad ruta och lägg tillbaka brickan. Gör så en gång för varje numrerad ruta. Räkna strecken, rita staplarna och gör klart bladet."
+  },
+  "G1-567": {
+    "title": "Räknehändelser: vilken del saknas?",
+    "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för delen som saknas. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G1-568": {
+    "title": "Räknehändelser: vad hände i mitten?",
+    "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet som saknas. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G2-509": {
+    "title": "Räknehändelser upp till 100 med blockmodell",
+    "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
   }
 }

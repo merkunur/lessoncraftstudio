@@ -4917,5 +4917,17 @@
   "G2-508": {
     "title": "Sjanseforsøk: trekk og tell",
     "instruction": "Lag en pose som på bildet. Ring først rundt det du tror. Trekk så en brikke uten å se, sett en tellestrek, stryk over en rute med tall og legg brikken tilbake. Gjør det én gang for hver rute med tall. Tell strekene, tegn søylene og gjør arket ferdig."
+  },
+  "G1-567": {
+    "title": "Regnefortellinger: hvilken del mangler?",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for delen som mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G1-568": {
+    "title": "Regnefortellinger: hva skjedde i midten?",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet som mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-509": {
+    "title": "Regnefortellinger til 100 med blokkmodell",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
   }
 }

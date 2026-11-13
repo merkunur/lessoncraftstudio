@@ -4923,5 +4923,17 @@
   "G2-508": {
     "title": "Experimento aleatório: sorteie e registre",
     "instruction": "Monte uma sacola como a do desenho. Primeiro circule o seu palpite. Depois tire uma peça sem olhar, faça um risquinho, risque um quadradinho numerado e devolva a peça à sacola. Faça isso uma vez para cada quadradinho numerado. Conte os risquinhos, desenhe as barras e complete a folha."
+  },
+  "G1-567": {
+    "title": "Probleminhas: descubra a parte que falta",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para a parte que falta. Escreva uma conta. Depois escreva a resposta."
+  },
+  "G1-568": {
+    "title": "Probleminhas: o que aconteceu no meio?",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que falta. Escreva uma conta. Depois escreva a resposta."
+  },
+  "G2-509": {
+    "title": "Probleminhas até 100 com modelo de barras",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta."
   }
 }

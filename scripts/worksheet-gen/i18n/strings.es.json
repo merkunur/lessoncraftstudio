@@ -4913,5 +4913,17 @@
   "G2-508": {
     "title": "Experimento de azar: saca y registra",
     "instruction": "Prepara una bolsa como la del dibujo. Primero encierra tu predicción. Después saca una pieza sin mirar, haz una marca de conteo, tacha una casilla con número y regresa la pieza a la bolsa. Hazlo una vez por cada casilla con número. Cuenta las marcas, dibuja las barras y termina la hoja."
+  },
+  "G1-567": {
+    "title": "Problemas: encuentra la parte que falta",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para la parte que falta. Escribe una operación. Después escribe la respuesta."
+  },
+  "G1-568": {
+    "title": "Problemas: ¿qué pasó en medio?",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que falta. Escribe una operación. Después escribe la respuesta."
+  },
+  "G2-509": {
+    "title": "Problemas hasta 100 con modelo de barras",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta."
   }
 }

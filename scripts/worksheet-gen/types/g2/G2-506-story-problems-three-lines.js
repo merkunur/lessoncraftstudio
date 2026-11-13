@@ -64,6 +64,8 @@ module.exports = {
   themeAxis: { applicable: true, minNouns: 3 },
   difficulty: D,
   LABELS,
+  // the rules of fit for stories with two-digit numbers, for the other pages that tell them (types/_shared/story-model.js)
+  storyFit: { inPlace, fitsHere, BIG },
   i18n: { en: { title: 'Story Problems Within 100: Question, Equation, Answer', instruction: 'Read each story. If the question is missing, write it. Then write the equation and the answer.' } },
   levelSetWords(m) { return ((m && m.problems) || []).map((p) => p.vocabKey + ':' + p.frame); },
 

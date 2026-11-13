@@ -4904,5 +4904,17 @@
   "G2-508": {
     "title": "Esperimento di probabilità: estrai e conta",
     "instruction": "Prepara un sacchetto come quello del disegno. Prima cerchia la tua previsione. Poi estrai un gettone senza guardare, fai una tacca, cancella una casella numerata e rimetti il gettone nel sacchetto. Fallo una volta per ogni casella numerata. Conta le tacche, disegna le colonne e completa la scheda."
+  },
+  "G1-567": {
+    "title": "Problemi: trova la parte che manca",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per la parte che manca. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G1-568": {
+    "title": "Problemi: che cosa è successo nel frattempo?",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che manca. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G2-509": {
+    "title": "Problemi entro il 100 con il modello a barre",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
   }
 }

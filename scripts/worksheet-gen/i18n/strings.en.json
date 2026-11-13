@@ -4961,5 +4961,17 @@
   "G2-508": {
     "title": "Chance Experiment: Draw and Tally",
     "instruction": "Make a bag like the one in the picture. First circle your guess. Then take one piece without looking, make a tally mark, cross off a numbered box, and put the piece back. Do this once for every numbered box. Count the tally marks, draw the bars, and finish the page."
+  },
+  "G1-567": {
+    "title": "Find the Missing Part: Story Problems",
+    "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the missing part. Write an equation. Then write the answer."
+  },
+  "G1-568": {
+    "title": "What Happened in the Middle? Story Problems",
+    "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the missing number. Write an equation. Then write the answer."
+  },
+  "G2-509": {
+    "title": "Story Problems Within 100: Bar Model",
+    "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
   }
 }

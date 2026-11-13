@@ -1,5 +1,5 @@
 {
- "$comment": "Story frames for two-digit numbers (G2-506, Year pages O, 2026-11-13). The story bank (word-problems-levelset.json + frames.js) was written for numbers to 20: a child HAS, BUYS, SEES or LOSES the things. With 53 forks or 90 pencils that reads absurd (teacher review of the German and Swedish lessons, 2026-11-13), so the within-100 page tells only stories in which the things lie in a PLACE (a table, a box, a shelf, a basket): the bank's own place frames plus the frames below, each modelled on a place frame of its language (same slots: {n1} {n2} {noun} {name}, {Q} = how many, agreeing, in es / pt / it). Read by a native reader (2026-11-13). Only G2-506 reads this file: the published pages of the other story types keep their draw. After the native read: the question \"how many are missing in the blue box\" names the red box as the target in every language (\"so that both boxes hold the same\" has a second answer: move half the difference).",
+ "$comment": "Story frames for two-digit numbers (G2-506, Year pages O, 2026-11-13). The story bank (word-problems-levelset.json + frames.js) was written for numbers to 20: a child HAS, BUYS, SEES or LOSES the things. With 53 forks or 90 pencils that reads absurd (teacher review of the German and Swedish lessons, 2026-11-13), so the within-100 page tells only stories in which the things lie in a PLACE (a table, a box, a shelf, a basket): the bank's own place frames plus the frames below, each modelled on a place frame of its language (same slots: {n1} {n2} {noun} {name}, {Q} = how many, agreeing, in es / pt / it). Read by a native reader (2026-11-13). Only G2-506 reads this file: the published pages of the other story types keep their draw. After the native read: the question \"how many are missing in the blue box\" names the red box as the target in every language (\"so that both boxes hold the same\" has a second answer: move half the difference). `subChange` (2026-11-13, read by the bar-model pages only): the change story on a shelf in which somebody takes the things down; the bank's own shelf story lets them fall, which a teacher would not print for 45 things.",
  "en": {
   "add": [
    "There are {n1} {noun} on a shelf. {name} puts {n2} more on the shelf. How many {noun} are on the shelf now?",
@@ -8,6 +8,9 @@
   "compare": [
    "There are {n1} {noun} in a red box and {n2} {noun} in a blue box. How many fewer {noun} are in the blue box?",
    "There are {n1} {noun} in a red box and {n2} {noun} in a blue box. How many more {noun} does the blue box need so that it has as many as the red box?"
+  ],
+  "subChange": [
+   "There are {n1} {noun} on a shelf. {name} takes some down. Now there are {n3} {noun} on the shelf. How many {noun} did {name} take down?"
   ]
  },
  "de": {
@@ -18,6 +21,9 @@
   "compare": [
    "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2} {noun}. Wie viele {noun} sind in der blauen Kiste weniger?",
    "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2} {noun}. Wie viele {noun} fehlen in der blauen Kiste, damit dort genauso viele sind wie in der roten Kiste?"
+  ],
+  "subChange": [
+   "Auf einem Regal liegen {n1} {noun}. {name} nimmt welche herunter. Jetzt liegen noch {n3} {noun} auf dem Regal. Wie viele {noun} hat {name} heruntergenommen?"
   ]
  },
  "es": {
@@ -28,6 +34,9 @@
   "compare": [
    "Hay {n1} {noun} en una caja roja y {n2} {noun} en una caja azul. ¿{Q} {noun} menos hay en la caja azul?",
    "Hay {n1} {noun} en una caja roja y {n2} {noun} en una caja azul. ¿{Q} {noun} le faltan a la caja azul para tener la misma cantidad que la caja roja?"
+  ],
+  "subChange": [
+   "Hay {n1} {noun} en un estante. {name} se lleva {noun} del estante. Ahora quedan {n3} {noun} en el estante. ¿{Q} {noun} se llevó {name}?"
   ]
  },
  "pt": {
@@ -38,6 +47,9 @@
   "compare": [
    "Há {n1} {noun} em uma caixa vermelha e {n2} {noun} em uma caixa azul. {Q} {noun} a caixa azul tem a menos?",
    "Há {n1} {noun} em uma caixa vermelha e {n2} {noun} em uma caixa azul. {Q} {noun} faltam na caixa azul para ela ficar com a mesma quantidade da caixa vermelha?"
+  ],
+  "subChange": [
+   "Há {n1} {noun} em uma prateleira. {name} tira uma parte. Agora há {n3} {noun} na prateleira. {Q} {noun} {name} tirou?"
   ]
  },
  "fr": {
@@ -48,6 +60,9 @@
   "compare": [
    "Il y a {n1} {noun} dans une boîte rouge et {n2} {noun} dans une boîte bleue. Combien de {noun} y a-t-il de moins dans la boîte bleue ?",
    "Il y a {n1} {noun} dans une boîte rouge et {n2} {noun} dans une boîte bleue. Combien de {noun} faut-il ajouter dans la boîte bleue pour qu'il y en ait autant que dans la boîte rouge ?"
+  ],
+  "subChange": [
+   "Il y a {n1} {noun} sur une étagère. {name} en prend une partie. Maintenant, il reste {n3} {noun} sur l'étagère. Combien de {noun} prend {name} ?"
   ]
  },
  "it": {
@@ -58,6 +73,9 @@
   "compare": [
    "In una scatola rossa ci sono {n1} {noun} e in una scatola blu ci sono {n2} {noun}. {Q} {noun} ci sono in meno nella scatola blu?",
    "In una scatola rossa ci sono {n1} {noun} e in una scatola blu ci sono {n2} {noun}. {Q} {noun} mancano nella scatola blu per arrivare allo stesso numero della scatola rossa?"
+  ],
+  "subChange": [
+   "Su uno scaffale ci sono {n1} {noun}. {name} ne prende una parte. Adesso sullo scaffale ci sono {n3} {noun}. {Q} {noun} prende {name}?"
   ]
  },
  "nl": {
@@ -68,6 +86,9 @@
   "compare": [
    "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2} {noun}. Hoeveel {noun} zitten er minder in de blauwe doos?",
    "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2} {noun}. Hoeveel {noun} moeten er nog bij in de blauwe doos, zodat er evenveel in zitten als in de rode doos?"
+  ],
+  "subChange": [
+   "Op een plank liggen {n1} {noun}. {name} pakt er een deel van. Nu liggen er nog {n3} {noun} op de plank. Hoeveel {noun} heeft {name} gepakt?"
   ]
  },
  "sv": {
@@ -78,6 +99,9 @@
   "compare": [
    "I en röd låda ligger {n1} {noun} och i en blå låda ligger {n2} {noun}. Hur många färre {noun} ligger i den blå lådan?",
    "I en röd låda ligger {n1} {noun} och i en blå låda ligger {n2} {noun}. Hur många {noun} till behövs i den blå lådan för att det ska ligga lika många där som i den röda lådan?"
+  ],
+  "subChange": [
+   "Det ligger {n1} {noun} på en hylla. {name} tar ner en del. Nu ligger det {n3} {noun} kvar på hyllan. Hur många {noun} tog {name} ner?"
   ]
  },
  "da": {
@@ -88,6 +112,9 @@
   "compare": [
    "Der ligger {n1} {noun} i en rød kasse og {n2} {noun} i en blå kasse. Hvor mange færre {noun} ligger der i den blå kasse?",
    "Der ligger {n1} {noun} i en rød kasse og {n2} {noun} i en blå kasse. Hvor mange {noun} mangler der i den blå kasse, før der er lige så mange som i den røde kasse?"
+  ],
+  "subChange": [
+   "Der ligger {n1} {noun} på en hylde. {name} tager nogle ned. Nu ligger der {n3} {noun} tilbage på hylden. Hvor mange {noun} tog {name} ned?"
   ]
  },
  "no": {
@@ -98,6 +125,9 @@
   "compare": [
    "I en rød eske ligger det {n1} {noun}, og i en blå eske ligger det {n2} {noun}. Hvor mange færre {noun} ligger det i den blå esken?",
    "I en rød eske ligger det {n1} {noun}, og i en blå eske ligger det {n2} {noun}. Hvor mange {noun} mangler i den blå esken for at det skal ligge like mange der som i den røde esken?"
+  ],
+  "subChange": [
+   "Det ligger {n1} {noun} på en hylle. {name} tar ned noen. Nå ligger det {n3} {noun} igjen på hylla. Hvor mange {noun} tok {name} ned?"
   ]
  },
  "fi": {
@@ -107,6 +137,9 @@
   "compare": [
    "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2} {noun}. Kuinka monta {noun} vähemmän sinisessä laatikossa on?",
    "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2} {noun}. Kuinka monta {noun} siniseen laatikkoon pitää lisätä, jotta siinä olisi yhtä monta kuin punaisessa laatikossa?"
+  ],
+  "subChange": [
+   "Hyllyllä on {n1} {noun}. {name} ottaa hyllyltä osan. Nyt hyllyllä on {n3} {noun}. Kuinka monta {noun} {name} otti?"
   ]
  }
 }

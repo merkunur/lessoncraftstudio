@@ -4,11 +4,11 @@
     "name": "Ten Frame",
     "tagline": "Build numbers to 10 and 20",
     "metaTitle": "Free Interactive Ten Frame Tool | LessonCraftStudio",
-    "metaDescription": "A free online ten-frame for the classroom. Drag counters to build numbers, count, and explore early addition — no login, no install, works on any device.",
+    "metaDescription": "A free online ten-frame for the classroom. Drag counters to build numbers, count, and explore early addition — no install, works on any device.",
     "about": [
       "A ten-frame is one of the most powerful pictures in early mathematics: ten boxes in two rows of five that let children see a number instead of only saying it. This free interactive ten-frame lets a child drag counters into the frame and watch each number take shape, one box at a time.",
       "Because the frame always holds ten, children quickly begin to see numbers in relation to ten — that seven is \"three away from full,\" or that five fills exactly one row. That sense of quantity is the foundation that counting, addition, subtraction, and place value all grow from.",
-      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm, hands-on space to explore numbers."
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install. There is no timer and no score — just a calm, hands-on space to explore numbers."
     ],
     "howToUse": [
       "Display the ten-frame on a whiteboard or hand it to children on tablets, and ask them to show a number by dragging counters into the boxes.",
@@ -28,11 +28,11 @@
     "name": "Number Line",
     "tagline": "Jump along to add and subtract",
     "metaTitle": "Free Interactive Number Line Tool | LessonCraftStudio",
-    "metaDescription": "A free online number line for the classroom. Count, skip-count, and see addition and subtraction as jumps — no login, no install, works on any device.",
+    "metaDescription": "A free online number line for the classroom. Count, skip-count, and see addition and subtraction as jumps — no install, works on any device.",
     "about": [
       "A number line turns numbers into a journey: a straight path where every step has its place and bigger numbers live further along. This free interactive number line lets children count forward and back, take jumps, and see how numbers are spaced in order.",
       "Seeing addition as jumps to the right and subtraction as jumps to the left gives children a mental model they can carry for years. It connects the act of counting to the size and order of numbers in a way that loose counters cannot.",
-      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm space to explore how numbers move."
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install. There is no timer and no score — just a calm space to explore how numbers move."
     ],
     "howToUse": [
       "Show the number line on a whiteboard and count along it together, pointing to each number as you say it.",
@@ -52,11 +52,11 @@
     "name": "Ruler",
     "tagline": "Measure length in cm and inches",
     "metaTitle": "Free Interactive Ruler Tool | LessonCraftStudio",
-    "metaDescription": "A free online ruler for the classroom. Measure length in centimetres and inches and explore early measurement — no login, no install, works on any device.",
+    "metaDescription": "A free online ruler for the classroom. Measure length in centimeters and inches and explore early measurement — no install, works on any device.",
     "about": [
       "Measuring is one of the first ways children connect numbers to the real world, and a ruler is where it begins. This free interactive ruler lets children measure length in centimetres and inches and see how a number describes how long something is.",
       "Working with a ruler builds the careful habits early measurement depends on: lining up the start at zero, reading the marks in order, and naming the unit. These are the same habits children will later bring to rulers, tapes, and scales of every kind.",
-      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm space to explore length and measurement."
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install. There is no timer and no score — just a calm space to explore length and measurement."
     ],
     "howToUse": [
       "Show the ruler on a whiteboard and point out where measuring starts — at the zero mark, not the edge.",
@@ -76,11 +76,11 @@
     "name": "Sound Boxes",
     "tagline": "Push a chip for every sound you hear",
     "metaTitle": "Free Interactive Sound Boxes (Elkonin) | LessonCraftStudio",
-    "metaDescription": "Free online Elkonin sound boxes for the classroom. Say a word, push a chip for each sound, then reveal the letters — no login, no install, on any device.",
+    "metaDescription": "Free online Elkonin sound boxes for the classroom. Say a word, push a chip for each sound, then reveal the letters — no install, on any device.",
     "about": [
       "Sound boxes — often called Elkonin boxes — give children a way to see something invisible: the individual sounds inside a spoken word. A picture appears, the word is spoken aloud, and the child pushes one chip into a box for every sound they hear. Three boxes for \"ship,\" four for \"frog\" — the boxes quietly confirm the answer without a single red X.",
       "Segmenting words into phonemes is one of the strongest predictors of early reading success, and it comes straight out of the Science of Reading playbook: first hear the sounds, then map them to letters. That is exactly how this tool is built. Start with chips only for pure phonemic awareness, then tap the letters button and watch each sound's spelling appear in its box — the bridge from listening to reading, made visible.",
-      "It runs in the browser on whiteboards, tablets, and classroom computers, with nothing to install and no account to create. Word lists follow a phonics progression from simple three-sound words to blends and vowel teams, every word comes with a friendly picture and spoken audio, and there is no timer and no score — just a calm space to stretch words out, sound by sound."
+      "It runs in the browser on whiteboards, tablets, and classroom computers, with nothing to install. Word lists follow a phonics progression from simple three-sound words to blends and vowel teams, every word comes with a friendly picture and spoken audio, and there is no timer and no score — just a calm space to stretch words out, sound by sound."
     ],
     "howToUse": [
       "Pick a word list that matches your phonics focus — the starter list of simple three-sound words is a good first stop.",
@@ -102,11 +102,11 @@
     "name": "Blending Board",
     "tagline": "Flick the cards, blend the word",
     "metaTitle": "Free Online Blending Board for Phonics | LessonCraftStudio",
-    "metaDescription": "Free blending board for phonics lessons. Flick letter cards to build words, sweep to blend, and let real words earn a picture — no login, on any device.",
+    "metaDescription": "Free blending board for phonics lessons. Flick letter cards to build words, sweep to blend, and let real words earn a picture — on any device.",
     "about": [
       "A blending board puts word-building in children’s hands: two or three columns of letter cards, and every flick of a column builds a new word to blend. Change just the first card and “sat” becomes “mat” becomes “pat” — the word chains that make successive blending click, without a box of laminated cards to shuffle and drop.",
       "Blending is the other half of the phonemic-awareness pair: children segment words into sounds, then pull sounds back together into words. This board is built for that second half, the Science of Reading way. Sweep across the cards and each one lights up in order as the class blends aloud; then the word is spoken whole. Real words earn a picture, and made-up ones earn a friendly robot — because reading “zat” correctly is every bit as much a win as reading “sat,” and the robot says so without a single red X.",
-      "Decks follow a phonics progression, from a first handful of letters to digraphs and blends, in eleven languages. And because no class learns letters in the same order, you can build your own deck from just the cards your class has been taught — the board then only ever builds words your children can actually decode. It runs in the browser on whiteboards and tablets, with no login, no timer, and no score."
+      "Decks follow a phonics progression, from a first handful of letters to digraphs and blends, in eleven languages. And because no class learns letters in the same order, you can build your own deck from just the cards your class has been taught — the board then only ever builds words your children can actually decode. It runs in the browser on whiteboards and tablets, with no timer and no score."
     ],
     "howToUse": [
       "Pick the deck that matches your phonics scope — the starter deck covers a first set of letters and sounds.",
@@ -128,7 +128,7 @@
     "name": "Letter Tiles",
     "tagline": "An open magnetic board for building words",
     "metaTitle": "Free Online Letter Tiles for Word Building | LessonCraftStudio",
-    "metaDescription": "Free magnetic letter tiles for phonics and spelling. Drag letters onto the board, hear anchor words, and check real words — no login, on any device.",
+    "metaDescription": "Free magnetic letter tiles for phonics and spelling. Drag letters onto the board, hear anchor words, and check real words — on any device.",
     "about": [
       "Letter tiles are the classic word-building manipulative: a tray of magnetic letters and an open board where any word can take shape. This digital board keeps everything teachers love about the physical version — tiles that snap side by side, a tray that never runs out of letters — and adds the one thing plastic letters cannot do: every tile can talk. Tap a letter and it says its anchor word, so a child who has forgotten which letter makes a sound can find it again on their own.",
       "The board is built for encoding — the spelling half of phonics. Children segment a word into sounds, then pick the letter for each sound and build it. When they press check, the board reads their word aloud. Real words earn a picture; a child’s own inventive spelling is simply read back, never marked wrong — because a kindergartner who writes “kat” has done real phonemic work, and a red X would undo it. There is no timer, no score, and nothing to get wrong on an open board.",
@@ -154,7 +154,7 @@
     "name": "Calendar Wall",
     "tagline": "Your morning meeting, alive",
     "metaTitle": "Free Interactive Calendar Wall for the Classroom | LessonCraftStudio",
-    "metaDescription": "Free interactive calendar for morning meeting: the spoken date, a days-in-school counter with bundling, and a weather graph — no login, on any device.",
+    "metaDescription": "Free interactive calendar for morning meeting: the spoken date, a days-in-school counter with bundling, and a weather graph — on any device.",
     "about": [
       "The calendar wall is the heart of the K-2 morning meeting: the date, the days we have been in school, and what the weather is doing outside. This digital wall replaces the laminated pockets and paper straws with one screen the whole class can see — and every element is touchable, because in a good calendar routine it is a child, the calendar helper, who does the touching.",
       "The mathematics is real, not decorative. Every date in the month is written and readable from the back of the room, and the date line is spoken in real words — “Thursday, July sixteenth,” never a robotic digit reading. The days-in-school counter shows the same number three ways at once: straw bundles, a ten-frame, and the numeral. When day ten arrives, the class watches ten loose straws become one bundle — place value happening in front of them, and the hundredth day gets the same treatment with bunting. One tap moves all three representations together, something a physical wall can never do.",
@@ -183,7 +183,7 @@
     "name": "Number Talk Easel",
     "tagline": "Flash a picture, talk about the math",
     "metaTitle": "Free Number Talk & Subitizing Easel | LessonCraftStudio",
-    "metaDescription": "Free quick-image easel for number talks: flash dots, frames or a bead rack for three seconds, then talk about how children saw it — no login needed.",
+    "metaDescription": "Free quick-image easel for number talks: flash dots, frames or a bead rack for three seconds, then talk about how children saw it.",
     "about": [
       "A number talk starts with a picture you can only look at for a moment. This easel flashes a quantity image — scattered dots, dice patterns, ten frames, a bead rack, or seven ducks — for about three seconds, long enough to see structure and too short to count one by one. That constraint is the entire pedagogy: children stop counting and start seeing groups, and the roller-shade curtain that hides and reveals the picture is yours to control, including press-and-hold for exactly as long as your thumb is down.",
       "What follows the flash matters more than the flash: children describe how they saw it, and every way of seeing is welcome. The easel never says right or wrong — there are no chimes, no stars, and the number itself stays hidden until you tap Count it, which counts the structure aloud and raises the answer card. In the discussion, a tap colors the dots the way a child grouped them — five red and three blue — and a crayon circles the pairs and fives children found.",
@@ -235,7 +235,7 @@
     "name": "Class Timer",
     "tagline": "A calm picture of the time you have left",
     "metaTitle": "Free Visual Classroom Timer — No Alarm | LessonCraftStudio",
-    "metaDescription": "A calm visual timer for classroom transitions: a shrinking clock wedge, gentle voice cues and a warm chime instead of an alarm — free, no login.",
+    "metaDescription": "A calm visual timer for classroom transitions: a shrinking clock wedge, gentle voice cues and a warm chime instead of an alarm — free to try.",
     "about": [
       "Five minutes of cleanup goes better when the whole class can see the five minutes. This timer turns time into a picture — a coral wedge that quietly shrinks on a clock face, a jar filling with sand, a candle burning down, or a balloon drifting to a soft landing. There are no flashing colors, no ticking, no acceleration, and no alarm at the end: the time you have left is simply an amount children can glance at, the way they glance at the classic red-disc timer on your shelf. It times the routine — never a child.",
       "The routine is one tap. Pick the minutes, pick what you are doing — Cleanup, Centers, Quiet reading, Pack-up, Turn and talk — and tap Start. A warm voice can announce the start in your classroom's language, whisper \"one more minute\" near the end, and finish with a gentle three-note chime and \"time to gather.\" Need more time? The +1 minute button visibly grows the wedge back — the honest version of \"I'm giving you one more minute\" — and pausing dims the picture instead of hiding anything.",
@@ -313,11 +313,11 @@
     "name": "Learning Clock",
     "tagline": "The clock that says the time the way people really say it",
     "metaTitle": "Free Interactive Learning Clock — Telling Time K-3",
-    "metaDescription": "A big geared teaching clock for the projector: drag the hands and it says the time out loud — \"half past 2\" — with an arc that shows why. Free, no signup.",
+    "metaDescription": "A big geared teaching clock for the projector: drag the hands and it says the time out loud — \"half past 2\" — with an arc that shows why. Free to try.",
     "about": [
       "The Learning Clock is a big, friendly analog clock with real gearing: drag the minute hand all the way around and the hour hand creeps forward with it, exactly like the classroom clock on your wall. That one detail quietly fixes the most stubborn time-telling misconception — at 2:50, is it 2 o'clock or 3? Children who only ever see clocks drawn with the hour hand parked on a number never get to wrestle with that; here the answer is visible in the hands themselves.",
       "The speech bubble is the part your class will remember. Set the clock to 2:30 and it doesn't recite \"two thirty\" — it says \"half past 2\", out loud, the way people actually say it. A tap on the little question mark draws a soft arc on the face showing exactly which half the words are talking about, and the numeral the phrase points to gives a friendly wave. Reading a clock and saying the time are two different skills; this tool teaches them together.",
-      "A five-stop difficulty ladder walks the journey: whole hours for the youngest, then half hours, quarter hours and five minutes — all free — and finally to-the-minute times, where the bubble switches to the formal reading a station announcer would use. You can hide either hand for the one-handed-clock lesson, and count on in fives around the face. It runs in the browser, no account needed."
+      "A five-stop difficulty ladder walks the journey: whole hours for the youngest, then half hours, quarter hours and five minutes — all free — and finally to-the-minute times, where the bubble switches to the formal reading a station announcer would use. You can hide either hand for the one-handed-clock lesson, and count on in fives around the face. It runs in the browser."
     ],
     "howToUse": [
       "Project the clock and drag either hand — the bubble reads the new time aloud when you let go. Let children take turns being the one who sets it.",
@@ -339,11 +339,11 @@
     "name": "Place Value Lab",
     "tagline": "Blocks, digits, and the number word — linked live",
     "metaTitle": "Free Interactive Base-10 Blocks — Place Value Lab K-2",
-    "metaDescription": "A projector base-10 workmat: ten ones snap into a ten, and the number word lights up to show which part means tens and which means ones. Free, no signup.",
+    "metaDescription": "A projector base-10 workmat: ten ones snap into a ten, and the number word lights up to show which part means tens and which means ones. Free to try.",
     "about": [
       "The Place Value Lab is a base-10 blocks workmat with a twist no physical set can offer: three displays stay linked while you work. Tap blocks onto the mat and the numeral builds itself in labeled place columns — and beneath it, the number word assembles too, with its tens part and ones part glowing in the same colors as the columns. Twenty-four shows twenty in teal and four in coral; the connection between what we SAY and what we WRITE stops being invisible.",
       "The bundling moment is the heart of place value, so the Lab makes it a moment worth watching. Collect ten loose ones and the mat offers a bundle — one tap, and the cubes squeeze together with a rubber-band snap and become a ten rod that slides into the tens column. It works the other way too: break a ten back into ten ones with a pop. That unbundling IS borrowing, and the premium Subtract lab stages it: take 17 from 42, hit the wall at two loose ones, and the borrow becomes something children physically do rather than a rule they memorize.",
-      "A Show me mode turns it into a gentle challenge — build the number you see, or the trickier version: build the number you HEAR. When a child hears the word and builds the digits reversed, the tool never buzzes; it names what they actually built, lights up the word parts, and invites another look. All three places are free — hundreds, tens and ones — along with the whole mat, the number word and the printable sheets. Premium adds the Subtract lab, the full library of numbers behind Show me, and saving your class's own numbers: days of school, kids in the room, the numbers children actually care about. Free in the browser, no account needed."
+      "A Show me mode turns it into a gentle challenge — build the number you see, or the trickier version: build the number you HEAR. When a child hears the word and builds the digits reversed, the tool never buzzes; it names what they actually built, lights up the word parts, and invites another look. All three places are free — hundreds, tens and ones — along with the whole mat, the number word and the printable sheets. Premium adds the Subtract lab, the full library of numbers behind Show me, and saving your class's own numbers: days of school, kids in the room, the numbers children actually care about. Free to try in the browser."
     ],
     "howToUse": [
       "Project the mat and tap the + buttons to add blocks — the numeral and the number word build along with you.",
@@ -365,7 +365,7 @@
     "name": "Picture Word Wall",
     "tagline": "1,495 illustrated words that say themselves",
     "metaTitle": "Free Picture Word Wall — 1,495 Illustrated Words K-3",
-    "metaDescription": "A projector word wall of 1,495 illustrated nouns across 50 themes. Tap a card: it grows big and says its word out loud. Free, no signup, 11 languages.",
+    "metaDescription": "A projector word wall of 1,495 illustrated nouns across 50 themes. Tap a card: it grows big and says its word out loud. Free to try, 11 languages.",
     "about": [
       "The Picture Word Wall turns a shelf of vocabulary flashcards into something a wall of butcher paper never could be: a browsable, speaking wall of 1,495 illustrated nouns across 50 themes — animals, the kitchen, the beach, occupations, weather. Tap any card and it lifts out of the wall, grows large, and says its word out loud in a clear voice a child can replay as many times as she likes. The pictures are the same warm illustrations used across the whole platform, so a word learned here is recognised everywhere else.",
       "The part no other word wall can do is the toggle. Every card holds both its singular and its plural, hand-checked rather than guessed, so one duck becomes three ducks and the word changes with the picture — and where the word does NOT change, the card says so out loud instead of pretending. In the languages that have grammatical gender, every card is colour-coded by its article and the article is always spoken with the noun, never apart from it, because that is how the word actually lives in a sentence.",
@@ -619,7 +619,7 @@
     "metaDescription": "A free syllable clapping and segmenting activity for K–2 classrooms. Tap the drum once per clap, draw an arc under each syllable, then rebuild the word.",
     "about": [
       "Syllable Splitter puts the oldest routine in early literacy up on the board: say the word, clap the parts. A picture card appears with the word deliberately hidden, the class says it together, and one child taps a big drum once for every clap they hear — each tap dropping a plain beat marker, no letters. Only when the class has committed to a number does the teacher reveal the word, and the beats become arcs beneath it, the Silbenbögen convention teachers use worldwide. Hiding the word first is the whole point: syllable awareness is an oral skill, and a printed word lets the two strongest readers answer in a second while everyone else stops listening. The word then snaps into syllable cards to scramble and rebuild. The drum takes as many taps as the class gives it and never announces a number — you and the children decide together, and that decision is the lesson. Syllable counts across the decks are checked against several independent sources, which is more than most free syllable tools manage; the split you see on screen was written by hand for English classrooms.",
-      "The first word set is free and stays free, with nothing held back inside it: the drum, the arcs, the reveal, the whole-word audio and the scramble-and-rebuild face all work in full. So does typing your own words — your class’s names, this week’s topic words — which you add at any time and split yourself by tapping between the letters where you hear a new clap. The tool never guesses that split for you, because on a teacher’s own words it has nothing to check it against, and a confident wrong answer is worse than none. Your words stay yours, on your machine, for as long as you keep them, and the printable worksheet is free too. It opens on a projector or interactive whiteboard with no account and nothing to install. Premium adds the other word sets — one-clap words, a second bank of two-clap words, and three-clap words — and the sorting fields, where children place each picture in the one-, two- or three-clap field it belongs to. Nothing was taken out of the free set to make room for either."
+      "The first word set is free and stays free, with nothing held back inside it: the drum, the arcs, the reveal, the whole-word audio and the scramble-and-rebuild face all work in full. So does typing your own words — your class’s names, this week’s topic words — which you add at any time and split yourself by tapping between the letters where you hear a new clap. The tool never guesses that split for you, because on a teacher’s own words it has nothing to check it against, and a confident wrong answer is worse than none. Your words stay yours, on your machine, for as long as you keep them, and the printable worksheet is free too. It opens on a projector or interactive whiteboard with nothing to install. Premium adds the other word sets — one-clap words, a second bank of two-clap words, and three-clap words — and the sorting fields, where children place each picture in the one-, two- or three-clap field it belongs to. Nothing was taken out of the free set to make room for either."
     ],
     "howToUse": [
       "Open the tool on the projector, say the word on the card together, then invite one child up to tap the drum once for each clap the class hears.",
@@ -1065,7 +1065,7 @@
       "On screen is a table with identical round counters. Drag a lid onto it and the counters underneath are gone — not faded, not greyed, gone. Put a second lid down and everything re-settles, because every lid of the same colour hides exactly the same number. Whatever will not share stays where it is, in plain sight. A strip of numerals runs under the table, and the class parks a marker on the number they have agreed. Then the lids come up and the counters are shown sitting under their own lid.",
       "Sharing equally, grouping, and the remainder are the ground the whole of multiplication and division is built on, and children meet them long before any notation. The hard part is not the arithmetic: it is that one unknown REPEATED is not the same problem as one unknown. With a single lid a child subtracts and is finished. There is no efficacy study for this routine, and none is claimed — what the tool offers is a way to put that question in front of a whole class at once.",
       "Two lids can be beaten with halving, which most of a Year 1 class already owns. The third lid is where it changes: halving stops working, the number that was right a moment ago is wrong, and the total has to be shared out from scratch. That is where the sentences worth hearing appear — \"then it cannot be seven\", \"if I give one to this lid I have to give one to all of them\" — and where the remainder becomes the most interesting thing on the table.",
-      "There is nothing to read: a table, some counters, some lids and a row of numerals, so children who are not yet reading and children new to the language take part on the same terms. It runs in the browser on a whiteboard or projector with no login and nothing to install. And the class's number is never marked, coloured, scored or corrected — the lids simply come up, and the counters answer. Bigger totals, the table book and printing are part of the Teacher plan."
+      "There is nothing to read: a table, some counters, some lids and a row of numerals, so children who are not yet reading and children new to the language take part on the same terms. It runs in the browser on a whiteboard or projector with nothing to install. And the class's number is never marked, coloured, scored or corrected — the lids simply come up, and the counters answer. Bigger totals, the table book and printing are part of the Teacher plan."
     ],
     "howToUse": [
       "Choose how many counters are on the table and let the class look at the whole lot before anything is covered.",
@@ -1094,7 +1094,7 @@
       "An object lies across the top of the bench: a crayon, a fork, a stick of celery, a ladder. Beneath it run two tapes, each built of identical tiles laid end to end from the object's left edge, each with a number at its far end. On the first tile of each tape there is a grip. Drag it and that tile — the unit — grows or shrinks under your finger, the whole tape re-lays itself, and the number climbs or falls with it. The other tape does not move.",
       "Measuring the same thing twice with two different-sized units, and saying how the two measurements relate to the size of the unit, is a standard K-2 expectation and a genuinely hard one. The number a child reads is not a property of the object; it belongs to the object and the unit together, and the unit is the part that stays invisible. There is no efficacy study for this routine and none is claimed — what the tool offers is a way to make the unit the visible, movable thing.",
       "Then comes the moment the whole tool exists for: the unit shrinks and the number gets bigger, while the object lies exactly where it was. Plenty of children conclude first that the object must have grown, because the number did. With both tapes on screen at once — one held still, one stretching in front of the class — the question asks itself: what actually changed? A cupboard full of fixed unit sets can never stage this, because no unit set stretches.",
-      "There is nothing to read: an object, some tiles and two numerals, so children who are not yet reading take part on the same terms. It runs in the browser on a whiteboard or projector with no login and nothing to install. When a unit does not fit a whole number of times, the leftover is drawn dashed and is not counted. Neither measurement is ever marked right or wrong, and the tool never says which unit is better. The whole object shelf and printing are part of the Teacher plan."
+      "There is nothing to read: an object, some tiles and two numerals, so children who are not yet reading take part on the same terms. It runs in the browser on a whiteboard or projector with nothing to install. When a unit does not fit a whole number of times, the leftover is drawn dashed and is not counted. Neither measurement is ever marked right or wrong, and the tool never says which unit is better. The whole object shelf and printing are part of the Teacher plan."
     ],
     "howToUse": [
       "Put an object on the bench and let the class look at it before anything is measured.",
@@ -1539,7 +1539,7 @@
       "Print the sheet and let pairs record one count per line: which end they started from, and how many. The printed sheet and the join-and-leave counting come with a Teacher plan; the whole apparatus — every line, both ends, sliding the hand, and counting from either way — is free for everyone."
     ],
     "metaTitle": "The Counting Line — count a line from both ends | LessonCraftStudio",
-    "metaDescription": "A free K-2 classroom counting tool. Slide the hand to count a line of characters; the last number tells how many. Count from the other end and everyone gets a different number, but how many stays the same. Any board or tablet, no account."
+    "metaDescription": "A free K-2 classroom counting tool. Slide the hand to count a line of characters; the last number tells how many. Count from the other end and everyone gets a different number, but how many stays the same. Any board or tablet."
   },
   "labels": {
     "about": "About this tool",

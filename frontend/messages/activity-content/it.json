@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Questa è un'attività di conteggio interattiva per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+          "Questa è un'attività di conteggio interattiva per i più piccoli, con numeri fino a {max}. Funziona direttamente nel browser su tablet, telefoni e computer della classe: non c'è nulla da installare e nessuna preparazione per l'insegnante.",
           "L'attività è allineata alle Indicazioni nazionali nell'ambito dei numeri. I bambini ricevono un riscontro delicato e immediato mentre procedono, così possono continuare a provare finché la risposta non sembra giusta. Non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Questa attività di lettura interattiva offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare e senza account da configurare.",
+          "Questa attività di lettura interattiva offre ai bambini un esercizio concreto per pronunciare i suoni e costruire le parole. Funziona direttamente nel browser su tablet, telefoni e computer della classe, senza nulla da installare.",
           "È allineata alle Indicazioni nazionali nell'ambito della lettura. Ogni parola viene verificata per una divisione accurata e adatta ai bambini, e il riscontro è delicato e immediato: non c'è nessun timer e nessun punteggio."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Questa è un'attività di apprendimento interattiva per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare, nessun account da creare e nessuna preparazione per l'insegnante.",
+        "Questa è un'attività di apprendimento interattiva per i bambini più piccoli, che funziona direttamente nel browser su tablet, telefoni e computer della classe. Non c'è nulla da installare e nessuna preparazione per l'insegnante.",
         "È allineata alle Indicazioni nazionali nell'ambito {strand}. I bambini lavorano al proprio ritmo con un riscontro delicato e immediato, e non c'è nessun timer e nessun punteggio, solo esercizio sereno e concreto."
       ],
       "practices": [
@@ -220,7 +220,7 @@
       "about": [
         "Pip la volpe gestisce una piccola cioccolateria dove ogni frazione va colata a mano. Il bambino apre le ordinazioni, sceglie lo stampo giusto per DIMENSIONE — senza nessuna etichetta da leggere — e cola il pezzo di cioccolato il numero esatto di volte, finché la tavoletta è completa e l’ordine è pronto da consegnare. Costruire 3/4 significa colare tre volte il pezzo da un quarto: la frazione nasce sotto gli occhi, un pezzo alla volta, invece di comparire già scritta.",
         "Dietro il gioco c’è un’idea precisa: una frazione a/b è semplicemente a copie del pezzo unitario 1/b. Scegliendo lo stampo per dimensione, il bambino impara a riconoscere la frazione unitaria e a lavorare con parti uguali; capisce che il denominatore indica in quante parti è divisa l’intero e che il numeratore conta quante di quelle parti prende. Ritrovando la stessa frazione su forme diverse — la tavoletta di cioccolato e la pizza — scopre che una frazione descrive una relazione, non una forma sola.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È interattiva e si apre subito nel browser, senza registrazione. Non ci sono timer, punteggi né classifiche: il bambino può sbagliare, riprovare e colare con calma i suoi pezzi, concentrandosi sul significato delle frazioni e non sulla velocità."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È interattiva e si apre nel browser. Non ci sono timer, punteggi né classifiche: il bambino può sbagliare, riprovare e colare con calma i suoi pezzi, concentrandosi sul significato delle frazioni e non sulla velocità."
       ],
       "practices": [
         "Sceglie il pezzo unitario giusto guardandone la dimensione",
@@ -527,7 +527,7 @@
       "about": [
         "Con Marina, la gatta del faro, ogni barchetta porta un numero fino al porto più vicino: il bambino arrotonda i numeri di due cifre alla decina (63 diventa 60) e quelli di tre cifre al centinaio (247 diventa 200), muovendosi lungo la retta dei numeri.",
         "Nei giri con la boa in mezzo si scopre il caso più delicato: un numero esattamente al centro tra due porti, come 45 o 75, si arrotonda per eccesso. Così arrotondare diventa una questione di posizione sulla retta, non una regola sull’ultima cifra da imparare a memoria.",
-        "È un’attività interattiva, pensata per la classe terza della scuola primaria e in linea con le Indicazioni nazionali: si gioca subito nel browser, senza registrazione, senza timer e senza punteggio."
+        "È un’attività interattiva, pensata per la classe terza della scuola primaria e in linea con le Indicazioni nazionali: si gioca nel browser, senza timer e senza punteggio."
       ],
       "practices": [
         "Individuare la posizione di un numero sulla retta dei numeri",
@@ -1085,7 +1085,7 @@
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "Nella bottega di Tessa, la mosaicista, ogni mosaico prende vita quadretto dopo quadretto: il bambino cerca, tra tre mosaici, quello fatto con lo stesso numero di quadretti del modello di Tessa.",
-        "È un'attività di geometria per la classe quarta (bambini di circa 9 anni), giocabile online nel browser senza registrazione, in cui si misura l'area contando i quadretti invece di lasciarsi ingannare dal mosaico con il contorno più grande.",
+        "È un'attività di geometria per la classe quarta (bambini di circa 9 anni), giocabile online nel browser, in cui si misura l'area contando i quadretti invece di lasciarsi ingannare dal mosaico con il contorno più grande.",
         "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: niente punteggio e niente tempo, solo il piacere di scoprire che due figure di forma diversa possono avere la stessa area."
       ],
       "practices": [
@@ -1453,7 +1453,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Un ruscello si divide due volte sulla strada per uno stagno dove aspetta un amico: una rana, una volpe, un riccio. A ogni bivio galleggiano due boe con un numero, una in ogni ramo, e un cartellino in alto dà la regola del viaggio: seguire i numeri più grandi oppure i più piccoli. Il bambino tocca un numero a ogni bivio, la strada scelta si illumina e Verifica ci manda giù una barca a vela. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "Un ruscello si divide due volte sulla strada per uno stagno dove aspetta un amico: una rana, una volpe, un riccio. A ogni bivio galleggiano due boe con un numero, una in ogni ramo, e un cartellino in alto dà la regola del viaggio: seguire i numeri più grandi oppure i più piccoli. Il bambino tocca un numero a ogni bivio, la strada scelta si illumina e Verifica ci manda giù una barca a vela. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
         "La regola cambia da un viaggio all’altro, quindi il bambino deve leggere il cartello e i numeri ogni volta: chi sceglie sempre il numero più grande non passa. Se la strada è sbagliata, la barca va avanti finché può e si ferma tra le canne al primo bivio sbagliato, che viene cerchiato: quale numero lì è più grande (o più piccolo)? Dopo un secondo tentativo compaiono dei pallini sotto i due numeri di quel bivio, per contare quale ne ha di più. Una strada giusta porta la barca fino all’amico: «Sì: hai seguito i numeri più grandi, 7 e 5, fino allo stagno!» Alcuni numeri sono lontani, come 2 e 7, altri sono vicini, come 7 e 8. I due numeri non sono mai uguali.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 o fino a 10, e una regola che cambia a ogni viaggio, oppure sempre il più grande o sempre il più piccolo. Nessun timer e nessun punteggio."
       ],
@@ -1527,7 +1527,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "Un biglietto mostra un numero e al binario aspetta un treno da dieci posti, insieme a tanti animali. Il bambino tocca gli animali uno alla volta — ognuno salta nel posto libero successivo — e preme Partenza quando sul treno ce ne sono esattamente quanti ne indica il biglietto. È un’attività interattiva di conteggio fino a 10 che funziona nel browser, senza installare nulla e senza account.",
+        "Un biglietto mostra un numero e al binario aspetta un treno da dieci posti, insieme a tanti animali. Il bambino tocca gli animali uno alla volta — ognuno salta nel posto libero successivo — e preme Partenza quando sul treno ce ne sono esattamente quanti ne indica il biglietto. È un’attività interattiva di conteggio fino a 10 che funziona nel browser, senza installare nulla.",
         "La parte difficile del contare una quantità è sapere quando fermarsi, e il treno è costruito proprio su questo: aspettano sempre più animali di quanti ne chieda il biglietto, quindi il bambino deve tenere il conto e decidere. I dieci posti sono una tabella del dieci — due file da cinque, riempite a partire dal davanti —, così sette si vede come una fila piena e altri due. Quando il conto non torna, il treno numera i passeggeri perché il bambino veda il motivo, ed è il bambino a correggere; l’aiuto non sposta mai un animale. In alcuni turni il treno si ferma di nuovo e il nuovo biglietto indica uno in più o uno in meno: il bambino fa salire o scendere un solo animale invece di ricominciare.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: associare un numero a ogni oggetto, sapere che l’ultimo numero detto indica quanti sono e che ogni numero successivo è uno in più. L’insegnante sceglie biglietti fino a 5 o fino a 10 e se i numeri del conteggio compaiono quando salgono gli animali o sono detti ad alta voce dal bambino. Nessun timer e nessun punteggio."
       ],
@@ -1551,7 +1551,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Un foglietto d’ordine mostra un numero e alla bancarella della frutta aspettano due vassoi da dieci posti. Il bambino tocca il posto dove finisce l’ordine — la frutta arriva un posto dopo l’altro fino a lì — e preme Verifica quando nei vassoi ci sono esattamente tanti frutti quanti ne indica l’ordine. È un’attività interattiva di conteggio fino a 20 che funziona nel browser, senza installare nulla e senza account.",
+        "Un foglietto d’ordine mostra un numero e alla bancarella della frutta aspettano due vassoi da dieci posti. Il bambino tocca il posto dove finisce l’ordine — la frutta arriva un posto dopo l’altro fino a lì — e preme Verifica quando nei vassoi ci sono esattamente tanti frutti quanti ne indica l’ordine. È un’attività interattiva di conteggio fino a 20 che funziona nel browser, senza installare nulla.",
         "Per formare una quantità conta soprattutto sapere dove finisce. I due vassoi sono una doppia tabella del dieci: 17 è un vassoio pieno e altri 7, e il bambino trova il diciassettesimo posto contando uno alla volta oppure per dieci e per cinque. Toccare un frutto toglie quel frutto e tutti quelli dopo, così ogni posto successivo è uno in più e togliere l’ultimo frutto è uno in meno. Quando il conto non torna, la bancarella numera la sua frutta perché il bambino veda il motivo; dopo un secondo errore segna i frutti in più o i posti che aspettano ancora, e l’aiuto non sposta mai un frutto. I due errori tipici con i numeri oltre il dieci hanno un nome: solo la parte dopo il dieci (7 al posto di 17) e solo il vassoio pieno (10 al posto di 17).",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: associare un numero a ogni oggetto, sapere che l’ultimo numero detto indica quanti sono e che ogni numero successivo è uno in più. L’insegnante sceglie ordini fino a 10 (un vassoio) o fino a 20 e se toccare un posto riempie fino a lì o aggiunge un frutto alla volta (così il bambino dice un numero per ogni frutto). Nessun timer e nessun punteggio."
       ],
@@ -1575,7 +1575,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Un tavolo pieno di animali e una sola domanda: quanti sono? Il bambino tocca ogni animale per contarlo – un'etichetta numerata gli cade sopra – poi tocca sulla barra il numero che dice quanti sono. Gli animali sono in fila, in righe, in cerchio o sparsi: proprio le quattro disposizioni che il contare chiede alla scuola dell'infanzia. Funziona nel browser, senza installare nulla e senza account.",
+        "Un tavolo pieno di animali e una sola domanda: quanti sono? Il bambino tocca ogni animale per contarlo – un'etichetta numerata gli cade sopra – poi tocca sulla barra il numero che dice quanti sono. Gli animali sono in fila, in righe, in cerchio o sparsi: proprio le quattro disposizioni che il contare chiede alla scuola dell'infanzia. Funziona nel browser, senza installare nulla.",
         "I tre principi del contare sono nel materiale: un animale può ricevere una sola etichetta (corrispondenza uno a uno), le etichette sono numerate nell'ordine in cui sono state date (ordine stabile) e l'ultima etichetta si illumina perché l'ultimo numero detto è la risposta (cardinalità). Se ne salta uno, il suggerimento lo dice e l'animale non contato si ingrandisce due volte. Due mosse libere – Conta di nuovo e Mescola – fanno scoprire che l'ordine non conta e che la quantità resta la stessa quando gli animali si spostano.",
         "Contare raccolte fino a 10 elementi, come indicano le Indicazioni nazionali. Senza timer né punteggio: si conta con calma, con le mani."
       ],
@@ -1693,7 +1693,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Due tappeti, due gruppi che vanno insieme: api e fiori, conigli e carote, scoiattoli e ghiande. Quale gruppo ne ha di più, o sono uguali? Il bambino tocca «Di più» sul gruppo che ne ha di più, oppure «Tanti quanti», e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente e senza account.",
+        "Due tappeti, due gruppi che vanno insieme: api e fiori, conigli e carote, scoiattoli e ghiande. Quale gruppo ne ha di più, o sono uguali? Il bambino tocca «Di più» sul gruppo che ne ha di più, oppure «Tanti quanti», e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente.",
         "La disposizione spesso è un trabocchetto: in molti turni il gruppo più piccolo è sparpagliato su tutto il tappeto e quello più grande è stretto stretto, così il gruppo che sembra più grande è quello che ne ha di meno, ma non sempre: dell’occhio non ci si può fidare. È la trappola classica del confronto a occhio, e l’attività dà al bambino due modi onesti per evitarla. Uno è la corrispondenza: toccare uno in alto e poi uno in basso dà a tutti e due lo stesso fiocco — un colore e una forma — e chi resta senza fiocco mostra quale gruppo ne ha di più; se non avanza nessuno, sono uguali. L’altro è contare i due gruppi. Una risposta sbagliata porta un suggerimento: formare le coppie, oppure cercare chi è rimasto senza compagno. Al secondo errore, gli altri vengono messi in coppia e quelli senza compagno vengono cerchiati. Una risposta giusta dà un fiocco a ogni coppia, numera i due gruppi e lo dice con i numeri: «10 è più di 7».",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare raccolte fino a 10 per corrispondenza e contando — di più, di meno o tanti quanti. L’insegnante sceglie gruppi fino a 5 o fino a 10 e può togliere il trabocchetto della disposizione. Nessun timer e nessun punteggio."
       ],
@@ -2058,7 +2058,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Il bambino calcola carte come 8 + 5, 9 + 7, 14 − 6 e 17 − 8, poi tocca ogni operazione e il numero che è la sua risposta per collegare la coppia e rafforzare la padronanza entro il 20. È un'attività di matematica interattiva per la scuola primaria, che funziona direttamente nel browser: niente da installare e nessun account.",
+        "Il bambino calcola carte come 8 + 5, 9 + 7, 14 − 6 e 17 − 8, poi tocca ogni operazione e il numero che è la sua risposta per collegare la coppia e rafforzare la padronanza entro il 20. È un'attività di matematica interattiva per la scuola primaria, che funziona direttamente nel browser: niente da installare.",
         "L'idea importante è il richiamo rapido e sicuro dei fatti di addizione e sottrazione entro il 20. Ogni turno mescola tre operazioni — alcune addizioni, alcune sottrazioni — con le loro tre risposte mischiate, così il bambino calcola ciascuna e poi trova il valore corrispondente. L'esercizio ripetuto nei vari turni porta fatti come 9 + 9 = 18 e 16 − 9 = 7 dal contare verso la memoria.",
         "L'attività è allineata alle Indicazioni nazionali, nell'ambito del calcolo: addizionare e sottrarre con sicurezza entro il 20 e conoscere a memoria le somme dei numeri a una cifra. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
       ],
@@ -2201,7 +2201,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Un numero da 1 a 9 (o da 9 a 19 con l’impostazione più ampia) è scoperto su un sentiero di pietre con i coperchi, con una pedina sopra. Il bambino scrive con i tasti dei numeri quello che viene subito dopo – è sul 7 e scrive 8 – e la pedina salta sulla pietra che si apre. È un’attività interattiva di conteggio per la scuola dell’infanzia che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Un numero da 1 a 9 (o da 9 a 19 con l’impostazione più ampia) è scoperto su un sentiero di pietre con i coperchi, con una pedina sopra. Il bambino scrive con i tasti dei numeri quello che viene subito dopo – è sul 7 e scrive 8 – e la pedina salta sulla pietra che si apre. È un’attività interattiva di conteggio per la scuola dell’infanzia che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla.",
         "L’idea centrale è continuare a contare da un numero dato invece di ripartire ogni volta da uno. Le pietre prima della pedina sono nascoste sotto i coperchi, così la risposta non si può leggere su una fila di numeri; si può sollevare un coperchio per sbirciare un numero precedente quando serve, e l’insegnante può mostrare tutto il sentiero fino alla pedina. Una risposta sbagliata viene nominata – lo stesso numero, quello prima o troppo lontano – e il sentiero si apre fino alla pedina perché il bambino conti da lì.",
         "È allineata alle Indicazioni nazionali per la scuola dell’infanzia: contare in avanti a partire da un numero dato nella sequenza conosciuta. Niente timer, niente punteggio: solo pratica tranquilla e giocosa."
       ],
@@ -2416,7 +2416,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Due grandi carte con un numero stanno una accanto all’altra — per esempio 3 e 8 —, ognuna con sopra la base vuota di una torre. Quale numero è più piccolo? Il bambino lo tocca e preme Verifica. Allora le due torri crescono nello stesso momento, un cubetto alla volta, mentre sotto si accende una striscia dei numeri: 1, 2, 3… La torre del 3 si ferma a tre cubetti e alza una bandierina; quella dell’8 continua a salire. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "Due grandi carte con un numero stanno una accanto all’altra — per esempio 3 e 8 —, ognuna con sopra la base vuota di una torre. Quale numero è più piccolo? Il bambino lo tocca e preme Verifica. Allora le due torri crescono nello stesso momento, un cubetto alla volta, mentre sotto si accende una striscia dei numeri: 1, 2, 3… La torre del 3 si ferma a tre cubetti e alza una bandierina; quella dell’8 continua a salire. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
         "Le torri mostrano quanto vale ogni numero scritto e perché uno è più piccolo: contando da 1, si arriva prima al numero più piccolo, per questo la sua torre si ferma per prima. Dopo un primo errore, l’aiuto invita a contare da 1 e a notare quale dei due numeri viene prima; dopo un secondo, le torri crescono per farlo vedere, con la bandierina sul più piccolo, finché il bambino sceglie di nuovo. Una risposta giusta lo dice con i numeri: «Sì: 3 è più piccolo di 8!» Alcuni numeri sono lontani, come 2 e 9, altri sono vicini, come 5 e 6: sono quelli da guardare con attenzione. I due numeri non sono mai uguali.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 o fino a 10 e può mostrare o nascondere la striscia dei numeri sotto le torri. Nessun timer e nessun punteggio."
       ],
@@ -2633,7 +2633,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Accanto a un palazzo di dieci piani aspettano due animali passeggeri, ognuno con un biglietto su cui è scritto un numero — per esempio un maiale con il 6 e un cane con il 9. Chi sale più in alto? Il bambino tocca il passeggero con il numero più grande e preme Verifica. Allora l’ascensore sale: si ferma al piano 6, dove scende un passeggero, e porta l’altro fino al piano 9. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "Accanto a un palazzo di dieci piani aspettano due animali passeggeri, ognuno con un biglietto su cui è scritto un numero — per esempio un maiale con il 6 e un cane con il 9. Chi sale più in alto? Il bambino tocca il passeggero con il numero più grande e preme Verifica. Allora l’ascensore sale: si ferma al piano 6, dove scende un passeggero, e porta l’altro fino al piano 9. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
         "Il palazzo è una linea dei numeri messa in piedi: i numeri dei piani salgono lungo il muro nell’ordine della conta, quindi un numero più grande è un piano più alto e il confronto diventa visibile. Chi è incerto può cercare prima i due numeri sul muro. Dopo un primo errore, l’aiuto invita a cercare i due numeri sul palazzo (o, se i numeri sono nascosti, a contare i piani dal basso); dopo un secondo, i due piani si illuminano, ognuno del colore del suo passeggero, e si vede subito qual è più in alto. Una risposta giusta lo dice con i numeri: «Sì: 9 è più grande di 6!» Alcuni numeri sono lontani, come 8 e 2, altri sono vicini, come 7 e 8: sono quelli da guardare con attenzione. I due numeri non sono mai uguali.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 (un palazzo di cinque piani) o fino a 10 e può nascondere i numeri dei piani, così bisogna contare i piani dal basso. Nessun timer e nessun punteggio."
       ],
@@ -2657,7 +2657,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Una finestrella con due imposte: si aprono, compare un gruppo di immagini — anatre, mele, carote — e le imposte si richiudono. Quanti erano? Il bambino tocca un numero da 1 a 10, può guardare di nuovo tutte le volte che vuole e preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla e senza account.",
+        "Una finestrella con due imposte: si aprono, compare un gruppo di immagini — anatre, mele, carote — e le imposte si richiudono. Quanti erano? Il bambino tocca un numero da 1 a 10, può guardare di nuovo tutte le volte che vuole e preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla.",
         "L’occhiata è il cuore dell’attività. I gruppi piccoli si vedono a colpo d’occhio, quelli più grandi compaiono nelle forme usate in classe: le facce del dado fino a sei, cinque in fila e ancora qualcuno, coppie, una fila corta, pochi oggetti sparsi. Così il bambino impara a vedere sette come cinque e due invece di contare uno alla volta, e contare resta sempre lì per controllare. Dopo un numero sbagliato la finestra resta aperta e il bambino conta; dopo un secondo, i numeri scorrono sulle immagini fino a un punto interrogativo sull’ultima, perché sia il bambino a dire quanti sono.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: riconoscere piccole quantità a colpo d’occhio e contare raccolte fino a 10 elementi. L’insegnante sceglie numeri fino a 5 o fino a 10 e se la finestra si apre per un attimo, un po’ di più o resta aperta per contare con calma. Nessun timer e nessun punteggio: guardare di nuovo non conta mai contro il bambino."
       ],
@@ -2919,7 +2919,7 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Due piatti di giocattoli, uno sopra l’altro, con un piccolo ponte di assi in mezzo: per esempio sette palloni sopra e tre sotto. Quale piatto ne ha di più, o ce ne sono tanti quanti? Il bambino tocca il piatto che ne ha di più, oppure «Tanti quanti». Poi arriva la parte giusta: il bambino tocca un giocattolo per mandarlo sull’altro piatto attraverso il ponte, finché nei due piatti ce ne sono tanti quanti, e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente e senza account.",
+        "Due piatti di giocattoli, uno sopra l’altro, con un piccolo ponte di assi in mezzo: per esempio sette palloni sopra e tre sotto. Quale piatto ne ha di più, o ce ne sono tanti quanti? Il bambino tocca il piatto che ne ha di più, oppure «Tanti quanti». Poi arriva la parte giusta: il bambino tocca un giocattolo per mandarlo sull’altro piatto attraverso il ponte, finché nei due piatti ce ne sono tanti quanti, e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente.",
         "Fare «tanti quanti» con le proprie mani è il momento in cui contare serve davvero. Sette e tre non diventano cinque e cinque con un solo tocco: il bambino manda un giocattolo, conta i due piatti, ne manda un altro, conta di nuovo, e vede che il piatto che ne ha di più diminuisce mentre l’altro cresce. Una prima risposta sbagliata fa solo tremare il piatto, e il bambino guarda di nuovo. Un Verifica prima che i piatti ne abbiano tanti quanti dice quale piatto ne ha ancora di più e numera i giocattoli dei due piatti per quello sguardo; la seconda volta, un giocattolo del piatto più pieno si illumina per mostrare quale mandare. Quando è giusto, lo dice con i numeri: «Giusto! 5 e 5». Il totale è sempre pari, quindi fare le parti giuste è sempre possibile, e ogni piatto ha posto per dodici giocattoli, così la sua grandezza non dà mai la risposta.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare raccolte fino a 10 contando — di più, di meno o tanti quanti — e capire che cosa vuol dire «tanti quanti». L’insegnante sceglie gruppi fino a 5 o fino a 10 e può disporre i giocattoli in file invece che sparsi, così il confronto si vede più facilmente. Nessun timer e nessun punteggio."
       ],
@@ -2966,7 +2966,7 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "Un cielo notturno pieno di stelle numerate, e una di loro è sveglia: un 7, per esempio, o un 12, mai l’1. Il bambino continua a contare da lì toccando la stella che viene dopo, e poi la successiva: ogni stella giusta si accende d’oro, un filo corre fino alla stella e il numero viene detto a voce, finché il filo non ha disegnato una figura – un aquilone, una tazza, una corona, una scala. È un’attività interattiva di conteggio per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Un cielo notturno pieno di stelle numerate, e una di loro è sveglia: un 7, per esempio, o un 12, mai l’1. Il bambino continua a contare da lì toccando la stella che viene dopo, e poi la successiva: ogni stella giusta si accende d’oro, un filo corre fino alla stella e il numero viene detto a voce, finché il filo non ha disegnato una figura – un aquilone, una tazza, una corona, una scala. È un’attività interattiva di conteggio per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla.",
         "L’idea centrale è contare in avanti a partire da un numero dato invece di ricominciare da uno. Nel cielo ci sono anche stelle con numeri più piccoli di quello di partenza – l’1 c’è sempre – e se il bambino ne tocca una la risposta viene detta per nome: quel numero viene prima del tuo, non serve tornare indietro, continua a contare da dove sei. Anche una stella troppo avanti viene nominata: un numero alla volta. Con un tocco sbagliato non si accende nulla, quindi la figura esiste solo se il conteggio è giusto, e la striscia sotto il cielo mostra il percorso fatto finora – 7, 8, 9 – perché la sequenza detta resti visibile. Le impostazioni arrivano fino a 10 o fino a 20 (oltre la decina), e le stelle in più si possono togliere per una classe che ha ancora bisogno di un cielo sereno.",
         "L’attività segue le Indicazioni nazionali per la classe prima: contare in avanti a partire da un numero dato. Senza cronometro e senza punteggio: solo esercizio calmo e giocoso."
       ],
@@ -2989,7 +2989,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi ha ordinato una scatola di golosità, e il biglietto dell’ordine dice quante: 7, per esempio. Il bambino tocca le golosità sul vassoio, e ognuna cade in una scatola da pasticceria con il coperchio chiuso: un tocco, una golosità che sparisce. Quando il bambino pensa che nella scatola ce ne siano esattamente quante dice il biglietto, preme Verifica e la scatola si apre. È un’attività interattiva di conta che funziona nel browser, senza installare nulla e senza account.",
+        "Mochi ha ordinato una scatola di golosità, e il biglietto dell’ordine dice quante: 7, per esempio. Il bambino tocca le golosità sul vassoio, e ognuna cade in una scatola da pasticceria con il coperchio chiuso: un tocco, una golosità che sparisce. Quando il bambino pensa che nella scatola ce ne siano esattamente quante dice il biglietto, preme Verifica e la scatola si apre. È un’attività interattiva di conta che funziona nel browser, senza installare nulla.",
         "Tutto sta nel coperchio. Una volta nella scatola la golosità non si vede più, quindi la conta deve restare nella testa del bambino: l’ultimo numero detto è quante ce ne sono nella scatola, ed è lì che bisogna fermarsi. Formare una raccolta di una quantità data è più difficile che contare una raccolta che c’è già, e la scatola chiusa fa sì che il bambino tenga il conto invece di guardare. Un tocco sul coperchio lo solleva per una breve sbirciata, poi ricade da solo; finché la scatola è aperta, un tocco su una golosità all’interno la rimette sul vassoio. Sul vassoio ci sono sempre più golosità di quante ne chieda l’ordine (12, oppure 7 quando i numeri arrivano a 5), quindi la sua grandezza non dà mai la risposta. Una verifica sbagliata dice «troppe» o «troppo poche» e lascia la scatola senza coperchio per il resto del turno; dopo una seconda, le golosità nella scatola vengono numerate e la scatola segna quelle in più o i posti vuoti che mancano ancora. L’aiuto non sposta mai una golosità.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: formare una raccolta di una quantità data fino a 10 e sapere che l’ultimo numero contato dice quanti sono. L’insegnante sceglie numeri fino a 5 o fino a 10 e può togliere il coperchio perché le golosità restino in vista. Nessun timer e nessun punteggio."
       ],
@@ -3037,7 +3037,7 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Un barattolo è pieno di animaletti — coccinelle, api, lumache — ammucchiati uno sull’altro, così nessuno riesce a contarli attraverso il vetro. Accanto c’è un barattolo con esattamente dieci animaletti uguali. Il bambino prima indovina: meno che nel barattolo da dieci, o di più? Poi svuota il barattolo, gli animaletti finiscono su un vassoio dove si possono contare, e lo scopre. È un’attività interattiva di conteggio che funziona nel browser, senza installare niente e senza account.",
+        "Un barattolo è pieno di animaletti — coccinelle, api, lumache — ammucchiati uno sull’altro, così nessuno riesce a contarli attraverso il vetro. Accanto c’è un barattolo con esattamente dieci animaletti uguali. Il bambino prima indovina: meno che nel barattolo da dieci, o di più? Poi svuota il barattolo, gli animaletti finiscono su un vassoio dove si possono contare, e lo scopre. È un’attività interattiva di conteggio che funziona nel browser, senza installare niente.",
         "Il barattolo da dieci è il punto di riferimento. I due barattoli sono riempiti allo stesso modo, quindi quello più pieno ne contiene davvero di più, e il bambino impara a stimare una quantità rispetto a un numero che conosce prima di contarla. Dopo averli versati, gli animaletti sono in file, in uno schieramento rettangolare, in cerchio o sparsi, fino a 16. Toccare un animaletto lo segna come contato, così il bambino sa quali ha già contato; il segno non è mai un numero. Il bambino regola l’etichetta del barattolo con − e +; parte da dieci, quindi contare andando avanti da dieci («dieci, undici, dodici…») è un modo per arrivare a un numero maggiore di dieci. Quando non è giusto, il suggerimento dice se ci sono ancora animaletti senza segno o se il numero è troppo grande o troppo piccolo; al secondo errore, gli animaletti vengono numerati fino all’ultimo, che mostra un punto interrogativo, e il bambino dice l’ultimo numero: sono tanti così. Quando è giusto, gli animaletti vengono numerati nell’ordine in cui il bambino li ha segnati e la quantità viene confrontata con l’ipotesi: «Più di 10, proprio come avevi indovinato» oppure «più di quanti pensavi». Un’ipotesi non viene mai segnata come sbagliata.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare raccolte fino a 16 in file o in schieramento rettangolare, fino a 9 in cerchio e fino a 10 sparse. L’insegnante sceglie numeri fino a 10 (il riferimento diventa un barattolo da cinque) o fino a 16 e può togliere l’ipotesi. Nessun timer e nessun punteggio."
       ],
@@ -3061,7 +3061,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Una via con cinque case, ognuna con il numero civico stampato sopra la porta, e un furgoncino della posta con tre lettere. L’indirizzo di ogni lettera è scritto a mano, con la grafia con cui i bambini imparano a scrivere le cifre, mentre i numeri delle case sono stampati. Così il bambino non può confrontare le forme: deve leggere il numero. Trascina ogni lettera fino a una casa; entra in una sola buca delle lettere. Quando la porta giusta si apre, il vicino esce sulla soglia, il numero viene detto ad alta voce e compare la lettera successiva. Quando la terza lettera è imbucata, il turno si controlla da solo. Un’attività interattiva di lettura dei numeri per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Una via con cinque case, ognuna con il numero civico stampato sopra la porta, e un furgoncino della posta con tre lettere. L’indirizzo di ogni lettera è scritto a mano, con la grafia con cui i bambini imparano a scrivere le cifre, mentre i numeri delle case sono stampati. Così il bambino non può confrontare le forme: deve leggere il numero. Trascina ogni lettera fino a una casa; entra in una sola buca delle lettere. Quando la porta giusta si apre, il vicino esce sulla soglia, il numero viene detto ad alta voce e compare la lettera successiva. Quando la terza lettera è imbucata, il turno si controlla da solo. Un’attività interattiva di lettura dei numeri per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla.",
         "L’idea centrale: leggere i numeri da 0 a 20 come numeri, non come figure. Ogni via contiene le confusioni di chi inizia a leggere: il 13 abita accanto al 31, quindi conta l’ordine delle cifre; il 14 sta tra il 13 e l’11, quindi bisogna leggere l’ultima cifra; il 14 sta accanto al 4, perché una cifra non è due; e il 6 sta vicino al 9, il 2 vicino al 5, l’1 vicino al 7. Una porta sbagliata risponde con il proprio numero accanto a quello della lettera e dà un nome all’errore – le stesse cifre al contrario, guarda l’ultima cifra, due cifre e non una – e dopo due tentativi sbagliati la targa giusta si illumina. Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure l’indirizzo passa da scritto a detto a voce, così il bambino ascolta il numero, con un pulsante Mostra per un’aula silenziosa.",
         "L’attività segue le Indicazioni nazionali per la classe prima, ambito «Numeri»: leggere e distinguere i numeri fino a 20. Senza timer e senza punteggio: un esercizio calmo e giocoso."
       ],
@@ -3084,7 +3084,7 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy mette le uova in scatole da dieci e il bambino le conta nel modo veloce. Tocca ogni scatola sullo scaffale e riceve un'etichetta con il totale fin lì – 10, 20, 30 –: la quarta scatola dice 40 e l'ultima dice quante uova sono; poi tocca quel numero sulla barra. In un round di impacchettamento lo scaffale parte vuoto e il bambino aggiunge scatole finché l'ultima mostra il numero richiesto. Funziona nel browser, senza installare nulla e senza account.",
+        "Posy mette le uova in scatole da dieci e il bambino le conta nel modo veloce. Tocca ogni scatola sullo scaffale e riceve un'etichetta con il totale fin lì – 10, 20, 30 –: la quarta scatola dice 40 e l'ultima dice quante uova sono; poi tocca quel numero sulla barra. In un round di impacchettamento lo scaffale parte vuoto e il bambino aggiunge scatole finché l'ultima mostra il numero richiesto. Funziona nel browser, senza installare nulla.",
         "Una scatola è disegnata come un vassoio con coperchio e due file di cinque alveoli, così una scatola rappresenta chiaramente dieci, non uno. Le etichette rendono visibile il contare di dieci in dieci: ogni scatola porta il totale fino a sé, ed è proprio questo contare di dieci in dieci. I due errori tipici hanno il loro aiuto: toccare 10 come se ogni scatola avesse un uovo solo ricorda che una scatola sono dieci uova; toccare il numero sbagliato si vede sulla barra. Conta di nuovo cancella le etichette per un secondo giro.",
         "Contare di dieci in dieci fino a 100, come indicano le Indicazioni nazionali: leggere un gruppo di decine e costruirne uno. Senza timer né punteggio: si conta con calma, con le mani."
       ],
@@ -3109,7 +3109,7 @@
       "about": [
         "Sprocket, il galletto, indica un’ora sul suo orologio analogico e chiede: che ora sarà tra un po’? Tuo figlio legge le lancette, conta avanti i minuti un quarto d’ora o mezz’ora alla volta e tocca l’ora di arrivo giusta.",
         "Qui si allena una vera abilità matematica: leggere l’ora sull’orologio analogico, calcolare il tempo trascorso contando avanti o indietro i minuti a intervalli di 15 e 30 minuti, e capire quanto dura un’attività dall’inizio alla fine.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È: senza registrazione, senza timer e senza punteggi, così il bambino impara con calma e senza fretta."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È: senza timer e senza punteggi, così il bambino impara con calma e senza fretta."
       ],
       "practices": [
         "Leggere l’ora sull’orologio analogico",
@@ -3132,7 +3132,7 @@
       "about": [
         "Qui le lancette si muovono in tutt’e due i sensi: Sprocket il galletto mostra un’ora di partenza e il bambino deve decidere se andare avanti o tornare indietro, perché a volte l’ora deve ancora arrivare e a volte è già passata. La parte più interessante è quando i minuti superano il sessanta e si cambia numero all’ora: da e:45 a un intervallo di trenta minuti si passa all’ora dopo, mentre andando indietro si torna a quella prima.",
         "Il bambino somma e sottrae i minuti direttamente sull’orologio analogico, contando avanti o indietro con intervalli di 10, 15, 20, 25, 30, 40 e 45 minuti. Impara così a calcolare il tempo trascorso anche quando si passa da un’ora all’altra, unendo la lettura dell’orologio a un piccolo calcolo mentale che tiene insieme le due operazioni.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. Senza registrazione, senza timer e senza punteggi: il bambino può provare, sbagliare e riprovare con calma, tutte le volte che vuole."
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. Senza timer e senza punteggi: il bambino può provare, sbagliare e riprovare con calma, tutte le volte che vuole."
       ],
       "practices": [
         "Sommare i minuti per contare in avanti",
@@ -3155,7 +3155,7 @@
       "about": [
         "Il coniglietto giardiniere Sprout deve rivestire di verde i suoi prati fioriti, uno più storto dell’altro: il bambino posa soffici zolle di muschio a forma di quadretto, le sistema una accanto all’altra fino a ricoprire ogni angolo e scopre che l’area del prato è semplicemente il numero di quadretti che servono per coprirlo.",
         "L’attività allena a misurare l’area contando i quadretti che ricoprono una superficie: si riempie tutto lo spazio senza lasciare buchi e senza sovrapporre le zolle, e si capisce che l’area è il numero di quadretti usati — un’unità arbitraria, senza formule e senza centimetri quadrati.",
-        "Pensata per la classe terza e allineata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggi: solo tempo tranquillo per esplorare, sbagliare e riprovare con Sprout."
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, è senza timer e senza punteggi: solo tempo tranquillo per esplorare, sbagliare e riprovare con Sprout."
       ],
       "practices": [
         "Ricoprire una superficie con i quadretti, senza buchi né sovrapposizioni",
@@ -3176,7 +3176,7 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Una riga di scrittura, tre caselle. La prima casella mostra tutta la strada del numero con un punto verde di partenza; la seconda solo una linea leggera; la terza è vuota. Il bambino scrive il numero con il dito in ogni casella, una dopo l’altra – da 0 a 9, un numero per turno – e l’inchiostro compare solo dove il dito ha davvero percorso il tratto, dall’inizio. Quando la terza casella è fatta, i tre numeri scritti dal bambino restano sulla riga e il numero viene detto a voce. È un’attività interattiva di scrittura per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Una riga di scrittura, tre caselle. La prima casella mostra tutta la strada del numero con un punto verde di partenza; la seconda solo una linea leggera; la terza è vuota. Il bambino scrive il numero con il dito in ogni casella, una dopo l’altra – da 0 a 9, un numero per turno – e l’inchiostro compare solo dove il dito ha davvero percorso il tratto, dall’inizio. Quando la terza casella è fatta, i tre numeri scritti dal bambino restano sulla riga e il numero viene detto a voce. È un’attività interattiva di scrittura per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla.",
         "L’idea centrale è il metodo del quaderno di pregrafismo – modello, ricalco, copia – con un aiuto che sfuma dentro la stessa riga, così l’ultimo numero è davvero del bambino. L’ordine e la direzione dei tratti sono incorporati: un tratto conta solo se viene fatto dal suo punto di partenza, lungo la sua strada; un numero iniziato dal basso, o al contrario, non passa. Gli errori tipici di chi comincia a scrivere vengono nominati a partire dal percorso del dito – iniziato dall’altra parte, al contrario, girato dalla parte sbagliata, fermato troppo presto – e dopo tre tentativi torna la linea leggera, poi la strada intera. Un puntino che cammina mostra i tratti su richiesta, e Cancella fa ricominciare una casella. Le impostazioni tengono la guida completa in ogni casella per una classe che ne ha bisogno, o la tolgono per una classe pronta a scrivere da sola; il foglio può mostrare tre righe o una.",
         "L’attività segue le Indicazioni nazionali per la classe prima: scrivere le cifre da 0 a 9 nella direzione e nell’ordine dei tratti corretti. Senza cronometro e senza punteggio: solo esercizio calmo e giocoso."
       ],
@@ -3222,7 +3222,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Quattro vasetti aspettano in fila — per esempio 6, 9, 2 e 4 — e sembrano tutti identici: cambia solo il numero dipinto su ciascuno. Il bambino tocca un vasetto, che scende negli altri e cresce fino alla grandezza del suo numero: il 9 diventa un vaso grande, il 2 uno piccolo. Un vasetto entra solo in uno con un numero più grande, quindi bisogna incastrarli dal numero più grande al più piccolo. È un’attività interattiva per la classe prima che funziona nel browser, senza installare nulla e senza account.",
+        "Quattro vasetti aspettano in fila — per esempio 6, 9, 2 e 4 — e sembrano tutti identici: cambia solo il numero dipinto su ciascuno. Il bambino tocca un vasetto, che scende negli altri e cresce fino alla grandezza del suo numero: il 9 diventa un vaso grande, il 2 uno piccolo. Un vasetto entra solo in uno con un numero più grande, quindi bisogna incastrarli dal numero più grande al più piccolo. È un’attività interattiva per la classe prima che funziona nel browser, senza installare nulla.",
         "Poiché tutti i vasetti della fila hanno la stessa grandezza, la grandezza non dice nulla: il bambino legge e confronta i numeri, e provando un vasetto vede subito se entra. Sono i vasetti stessi a rispondere: uno troppo grande sporge dal bordo, traballa e torna nella fila. Scegliere troppo presto un vasetto piccolo porta a un vicolo cieco — prima il 9, poi il 2, e non entrano più né il 6 né il 4 —: allora il vasetto più interno si illumina e un tocco lo toglie di nuovo. Dopo due vasetti rifiutati compaiono dei pallini su quelli che aspettano, per contare quale numero è il più grande. Quando tutti i vasetti sono dentro, Verifica legge la pila: «Sì: 9, 6, 4, 2, dal numero più grande al più piccolo!»",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare numeri scritti in cifre tra 1 e 10, qui tre o quattro alla volta. L’insegnante sceglie tre vasetti fino a 5 o quattro fino a 10 e mostra i pallini solo come aiuto o sempre. Nessun timer e nessun punteggio."
       ],
@@ -3296,7 +3296,7 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Due pozze tra gli scogli, una accanto all’altra (una sopra l’altra sul telefono). Nella prima ci sono animali marini: per esempio sette granchi sparsi, o sei stelle marine in cerchio. Il bambino li conta e poi riempie la pozza gemella, vuota, con altrettanti animali, ma di un altro tipo: sette stelle marine per sette granchi. Quando la pozza gemella è pronta, preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare niente e senza account.",
+        "Due pozze tra gli scogli, una accanto all’altra (una sopra l’altra sul telefono). Nella prima ci sono animali marini: per esempio sette granchi sparsi, o sei stelle marine in cerchio. Il bambino li conta e poi riempie la pozza gemella, vuota, con altrettanti animali, ma di un altro tipo: sette stelle marine per sette granchi. Quando la pozza gemella è pronta, preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare niente.",
         "I due lati del contare stanno in una sola mossa: scoprire quanti sono e poi formarne altrettanti. Gli animali della prima pozza sono in fila, in cerchio, in righe o sparsi; toccarne uno lo segna come contato, così il bambino sa quali ha già contato, e il segno non è mai un numero. Nella pozza gemella, toccare un posto libero ci mette un animale e toccare un animale lo toglie. Poiché gli animali gemelli sono, di base, di un altro tipo e disposti in un altro modo, può corrispondere solo la quantità. La pozza gemella ha sempre più posti di quanti ne servano (12, oppure 8 quando i numeri arrivano a 5), quindi la sua grandezza non dà mai la risposta. Quando è giusto, un filo lega ogni animale della prima pozza a uno della pozza gemella, senza che ne avanzi nessuno da una parte o dall’altra: è questo che vuol dire «altrettanti». Quando non è giusto, il suggerimento dice «troppi» o «mancano» e gli animali della pozza gemella vengono numerati; al secondo errore, i fili legano tutte le coppie possibili e cerchiano gli animali rimasti senza gemello. L’aiuto non sposta mai un animale.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare raccolte fino a 10 in fila, in cerchio, in righe o sparse e formare una raccolta di una quantità data. L’insegnante sceglie numeri fino a 5 o fino a 10 e può mettere lo stesso tipo di animale nella pozza gemella, perché le coppie si vedano più facilmente. Nessun timer e nessun punteggio."
       ],
@@ -3320,7 +3320,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Un barattolo di vetro pieno di giocattoli con un’etichetta vuota sul coperchio. Il bambino conta – ogni giocattolo riceve un segno quando lo si tocca – e scrive quanti sono con i tasti dei numeri; le cifre compaiono sull’etichetta. Al controllo l’etichetta viene accostata al barattolo: i giocattoli si sistemano in tanti posti quanti ne dice l’etichetta, e se è giusta diventa dorata e si attacca, mentre il numero viene detto ad alta voce. Nell’altro tipo di turno l’etichetta è già scritta e il barattolo è vuoto: il bambino tocca i giocattoli sulla mensola per farli cadere dentro, finché il barattolo ne contiene altrettanti. Un’attività interattiva per contare e scrivere i numeri, per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "Un barattolo di vetro pieno di giocattoli con un’etichetta vuota sul coperchio. Il bambino conta – ogni giocattolo riceve un segno quando lo si tocca – e scrive quanti sono con i tasti dei numeri; le cifre compaiono sull’etichetta. Al controllo l’etichetta viene accostata al barattolo: i giocattoli si sistemano in tanti posti quanti ne dice l’etichetta, e se è giusta diventa dorata e si attacca, mentre il numero viene detto ad alta voce. Nell’altro tipo di turno l’etichetta è già scritta e il barattolo è vuoto: il bambino tocca i giocattoli sulla mensola per farli cadere dentro, finché il barattolo ne contiene altrettanti. Un’attività interattiva per contare e scrivere i numeri, per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla.",
         "L’idea centrale è l’andata e ritorno del lavoro sui numeri: una quantità contata diventa un numero scritto, e un numero scritto torna a essere una quantità. Fino a dieci i giocattoli stanno sparsi; da undici a venti stanno in file, così l’occhio non perde il segno. A un’etichetta sbagliata risponde il barattolo, non una croce rossa: un’etichetta troppo piccola lascia giocattoli senza posto, una troppo grande lascia posti vuoti tratteggiati, e l’errore ha un nome – le cifre al contrario (41 per 14) o solo le unità (4 per 14). Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure si scelgono solo i turni del contare o solo quelli del riempire.",
         "L’attività segue le Indicazioni nazionali per la classe prima, ambito «Numeri»: contare raccolte fino a 20 e scrivere il numero. Senza timer e senza punteggio: un esercizio calmo e giocoso."
       ],
@@ -3343,7 +3343,7 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mamma Papera fa l’appello del mattino allo stagno. La sua carta mostra dei puntini, e il bambino manda esattamente quel numero di anatroccoli dalla zattera alla riva: un tocco, un anatroccolo che attraversa nuotando. Poi il bambino firma l’appello: preme il timbro con il numero di anatroccoli arrivati e ripassa quel numero con il dito nel fango. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla e senza account.",
+        "Mamma Papera fa l’appello del mattino allo stagno. La sua carta mostra dei puntini, e il bambino manda esattamente quel numero di anatroccoli dalla zattera alla riva: un tocco, un anatroccolo che attraversa nuotando. Poi il bambino firma l’appello: preme il timbro con il numero di anatroccoli arrivati e ripassa quel numero con il dito nel fango. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla.",
         "Mamma non mostra mai la cifra (a meno che l’insegnante non lo scelga): il bambino conta i puntini, conta altrettanti anatroccoli e scrive il numero che dice quanti sono, così la cifra è la sua risposta. Sulla zattera aspettano più anatroccoli di quanti ne chieda Mamma, quindi il bambino deve decidere quando fermarsi; toccare un anatroccolo sulla riva lo rimanda indietro. Gli anatroccoli arrivano sparsi, perciò ricontarli è contare davvero. Verifica guarda prima la riva, poi la firma, e dice che cosa manca: troppi, troppo pochi, ancora nessun numero, un numero che non dice quanti sono arrivati o un numero non ancora ripassato. Dopo un errore gli anatroccoli sulla riva vengono numerati; dopo un secondo anche i puntini di Mamma. L’aiuto non sposta mai un anatroccolo.",
         "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare raccolte, formare una raccolta di una quantità data e scrivere il numero corrispondente. L’insegnante sceglie numeri fino a 5 o fino a 9 e se la carta di Mamma mostra puntini o il numero. Nessun timer e nessun punteggio."
       ],
@@ -3442,7 +3442,7 @@
       "about": [
         "L’orso Booker apre il suo grande dizionario sul banco e mostra in cima alla pagina due parole guida: tocca a te capire quale parola si nasconde proprio in mezzo, in ordine alfabetico.",
         "Questa attività aiuta a usare le parole guida del dizionario, a mettere le parole in ordine alfabetico e a confrontarle lettera per lettera — la 1ª, poi la 2ª, poi la 3ª — per consultare il dizionario con sicurezza.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza timer e senza punteggio."
       ],
       "practices": [
         "Usare le parole guida del dizionario",
@@ -3465,7 +3465,7 @@
       "about": [
         "Nel suo giardino degli indizi, Fern il cerbiatto raccoglie parole speciali che nascondono più di un significato e invita i bambini a scoprire quale senso si nasconde in ogni frase.",
         "Giocando, il bambino impara a capire il significato di una parola dal contesto, a riconoscere le parole con più significati e a leggere con attenzione ogni frase prima di scegliere.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza timer e senza punteggio."
       ],
       "practices": [
         "capire il significato di una parola dal contesto",
@@ -3535,7 +3535,7 @@
       "about": [
         "L’oca Gabby adora le frasi buffe: ogni volta apre il becco e racconta un modo di dire, aspettando che tu scopra che cosa vuole dire davvero.",
         "Questa attività aiuta a capire il senso figurato di un modo di dire, a distinguere il senso letterale da quello figurato e ad arricchire il lessico di ogni giorno.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza timer e senza punteggio."
       ],
       "practices": [
         "capire il senso figurato dei modi di dire",
@@ -3721,7 +3721,7 @@
       "about": [
         "Pim, il piccione postino, ha la borsa piena di lettere da recapitare, ma le consegna soltanto quando il bambino sceglie la cartolina scritta bene, con la virgola al posto giusto nel saluto e nella chiusura.",
         "Quando si scrive una lettera, il saluto e la chiusura finiscono con una virgola — «Caro Nonno,» e «Un abbraccio,» — e la virgola non va mai messa nel mezzo: giocando con Pim, il bambino allena l’occhio a riconoscerla e a collocarla dove serve davvero.",
-        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è senza timer e senza punteggio."
       ],
       "practices": [
         "mettere la virgola dopo il saluto",
@@ -3976,7 +3976,7 @@
       "about": [
         "Due parole che diventano una parola sola: «in» e «il» si uniscono e nasce «nel».",
         "Il bambino guarda la coppia di parole, pensa alla forma unita e tocca quella giusta tra tre proposte, mentre il 🔊 legge ogni parola ad alta voce.",
-        "È un’attività senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe terza."
+        "È un’attività senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe terza."
       ],
       "practices": [
         "unire preposizione e articolo",
@@ -4048,7 +4048,7 @@
       "about": [
         "Come si chiama un gruppo di pecore? E un gruppo di api o di uccelli? Le parole di gruppo degli animali — i nomi collettivi — sono piccole parole speciali tutte da scoprire.",
         "Insieme a Mango la scimmia, il bambino osserva un animale e sceglie fra tre parole quella che indica il suo gruppo: un gregge di pecore, uno sciame di api, uno stormo di uccelli. Le immagini e la lettura ad alta voce accompagnano ogni passo, per imparare giocando.",
-        "Un’attività pensata per la scuola primaria per arricchire il lessico in modo sereno: è allineata alle Indicazioni nazionali ed è senza registrazione, senza timer e senza punteggio. I bambini imparano al proprio ritmo, senza fretta e senza pressioni."
+        "Un’attività pensata per la scuola primaria per arricchire il lessico in modo sereno: è allineata alle Indicazioni nazionali ed è senza timer e senza punteggio. I bambini imparano al proprio ritmo, senza fretta e senza pressioni."
       ],
       "practices": [
         "Riconoscere i nomi collettivi degli animali",
@@ -4163,7 +4163,7 @@
       "about": [
         "1/2 e 2/4 sono davvero la stessa quantità? Con Briciola i bambini lo scoprono guardando le barre colorate, non imparando regole a memoria.",
         "Briciola la topina mostra una frazione di riferimento come barra colorata; il bambino confronta le barre e tocca la frazione che copre esattamente la stessa parte, per esempio 1/2 = 2/4 = 3/6.",
-        "Allineata alle «Indicazioni nazionali», l’attività è senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+        "Allineata alle «Indicazioni nazionali», l’attività è senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
       ],
       "practices": [
         "Riconoscere le frazioni equivalenti",

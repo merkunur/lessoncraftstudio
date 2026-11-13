@@ -540,7 +540,12 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
           }
 
           // Online-exercise hub variant (Unit 4) — only locales with online copy.
-          const onlineSibs = sibs.filter((loc) => isOnlineHubAvailable(loc, subjectKey));
+          // … and only where enough of the pages PLAY on screen (the online hub's own count and floor)
+          const onlineSibs: TopicLocale[] = [];
+          for (const loc of sibs) {
+            if (!isOnlineHubAvailable(loc, subjectKey)) continue;
+            if ((await countDecksForSubjectLevel(subjectKey, levelKey, loc, { playable: true })) >= MIN_INDEXABLE_SUBJECT_HUB_DECKS) onlineSibs.push(loc);
+          }
           if (onlineSibs.length > 0) {
             const onlineAlternates: Record<string, string> = {};
             for (const sib of onlineSibs) {

@@ -23,7 +23,8 @@
  *   P8  account     operator rulings 2026-11-12: every play on screen needs a free account (activities and tools,
  *                   then interactive worksheets too). The meter keeps the rule (lib/quota.ts), the player frame says
  *                   what it plays, the homepage sample is the one exception, the deck script (lcs-meter.js) is the
- *                   build of today's texts, and no live English sentence says that anything plays, prints or
+ *                   build of today's texts, no sentence a page shows says in any of the eleven languages that
+ *                   something needs no account (no-account-lib.js), and no live English sentence says that anything plays, prints or
  *                   downloads without an account
  *   P11 downloads   operator ruling 2026-11-12: 1 download a month for a free account. The sentences that name the
  *                   number (the download wall, the homepage's free list, the maker pages' free list) carry the
@@ -77,6 +78,8 @@ function load() {
   d.$en = {}; for (const k of ['pricingPage.free.blurb', 'pricingPage.free.item2', 'pricingPage.faq.a1', 'pricingPage.faq.a2', 'homepageV6.close.body', 'homepageV6.hero.pillar4Gloss', 'topicFaq.fallback.single.a2', 'topicFaq.fallback.intersection.a2', 'topicFaq.fallback.standards.a2', 'topicFaq.fallback.activity.a1', 'standardsPage.intro', 'aboutPage.intro', 'learnPage.learnIntro']) d.$en[k] = get(en, k);
   d.$enOverrides = Object.values(get(en, 'topicFaq.overrides') || {}).flatMap((arr) => Object.values(arr).map((x) => x && x.a).filter(Boolean));
   d.$enProse = Object.values(get(en, 'topicProse') || {}).filter((x) => typeof x === 'string');
+  // every sentence of the site's files, in all eleven languages, that says it and is shown (no-account-lib.js)
+  d.$noAccount = require('./no-account-lib.js').collect().filter((h) => h.cls === 'open').map((h) => h.loc + ' ' + h.file + ' ' + h.key + ': ' + h.text.slice(0, 90));
   d.$num = {}; for (const loc of LOCALES) { const m = loc === 'en' ? en : readJson(path.join(FRONT, 'messages', loc + '.json')); const ml = readJson(path.join(C, 'maker-landings', 'ui.' + loc + '.json')); d.$num[loc] = { 'quotaWall.signupBody': get(m, 'quotaWall.signupBody'), 'homepageV6.teacher.free3': get(m, 'homepageV6.teacher.free3'), 'maker planFree2': ml.planFree2 }; }
   d.$meterBuild = (() => { try { const b = require('../publish-cli/build-lcs-meter.js'); return ['REFERENCE TRANSLATIONS/lcs-meter.js', 'scripts/class-results/web/lcs-meter.js'].map((f) => fs.readFileSync(path.join(FRONT, '..', f), 'utf8').replace(/\r\n/g, '\n') === b.SOURCE); } catch (e) { return [false, String(e.message)]; } })();
   return d;
@@ -132,6 +135,10 @@ function run(d) {
   for (const [k, v] of Object.entries(d.$en)) { if (typeof v !== 'string') fail('P8', 'messages/en.json ' + k + ' is missing'); else if (NO_ACCOUNT.test(v)) fail('P8', 'messages/en.json ' + k + ' says that something needs no account: ' + v.slice(0, 90)); }
   for (const v of d.$enOverrides) if (NO_ACCOUNT.test(v) || /paywall/i.test(v)) { fail('P8', 'a topic page answer says that something needs no account: ' + v.slice(0, 90)); break; }
   for (const v of d.$enProse) if (NO_ACCOUNT.test(v) || /paywall/i.test(v)) { fail('P8', 'a topic page paragraph says that something needs no account: ' + v.slice(0, 90)); break; }
+  // … and in every language, in every file a page shows (the English lists above were the whole rule until 2026-11-13,
+  // when 1,148 sentences of the other surfaces and languages still said it): scan-no-account.js names them,
+  // fix-no-account.js corrects them, no-account-keep.json holds the true ones
+  if (d.$noAccount.length) fail('P8', d.$noAccount.length + ' sentence(s) say that something needs no account (node scripts/teacher-gate/scan-no-account.js), the first: ' + d.$noAccount[0]);
   // P11
   const dl = (/DOWNLOADS_PER_MONTH\s*=\s*(\d+)/.exec(d.$code.quota) || [])[1];
   if (dl !== '1') fail('P11', 'lib/quota.ts gives a free account ' + dl + ' downloads a month (the ruling says 1)');
@@ -210,6 +217,7 @@ const POISONS = [
   ['a worksheet plays without an account again', 'P8', (d) => { d.$code.quota = d.$code.quota.replace('surface !== PLAY_SAMPLE;', "surface === 'activity' || surface === 'tool';"); }],
   ['the deck script is an old build', 'P8', (d) => { d.$meterBuild = [true, false]; }],
   ['a topic answer says no signup', 'P8', (d) => { d.$enOverrides.push('Yes — every worksheet here is free to print and to play online, with an answer key and no signup.'); }],
+  ['a German tool page says ohne Anmeldung', 'P8', (d) => { d.$noAccount.push('de messages/tool-content/de.json ten-frame.metaDescription: Kostenlos online, ohne Anmeldung'); }],
   ['a topic paragraph says no account', 'P8', (d) => { d.$enProse.push('Each sheet plays online without an account.'); }],
   ['the pricing answer says no login', 'P8', (d) => { d.$en['pricingPage.faq.a1'] = 'Play 10 interactive worksheets a day with no login.'; }],
   ['three downloads in the meter', 'P11', (d) => { d.$code.quota = d.$code.quota.replace('DOWNLOADS_PER_MONTH = 1', 'DOWNLOADS_PER_MONTH = 3'); }],

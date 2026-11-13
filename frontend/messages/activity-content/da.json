@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Dette er en interaktiv tælleaktivitet for de yngste, der arbejder med tal op til {max}. Den kører direkte i browseren på tablets, telefoner og computere i klassen — der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
+          "Dette er en interaktiv tælleaktivitet for de yngste, der arbejder med tal op til {max}. Den kører direkte i browseren på tablets, telefoner og computere i klassen — der er intet at installere og ingen forberedelse for læreren.",
           "Aktiviteten følger Fælles Mål inden for området tal og algebra (tælling og antal). Børnene får blid og øjeblikkelig tilbagemelding undervejs, så de kan blive ved med at prøve, indtil svaret føles rigtigt. Der er ingen timer og ingen point — kun rolig, konkret øvelse."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Denne interaktive aktivitet giver børnene konkret øvelse med de første idéer om addition og subtraktion, med mængder op til {max}. Den kører direkte i browseren på enhver enhed, uden noget at installere og uden login.",
+          "Denne interaktive aktivitet giver børnene konkret øvelse med de første idéer om addition og subtraktion, med mængder op til {max}. Den kører direkte i browseren på enhver enhed, uden noget at installere.",
           "Den følger Fælles Mål inden for området tal og algebra (regnestrategier). Tilbagemeldingen er øjeblikkelig og opmuntrende, og der er ingen timer eller point — børnene kan tænke tingene igennem i deres eget tempo."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Denne interaktive aktivitet med former hjælper små børn med at lægge mærke til, navngive og sammenligne formerne omkring dem. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
+          "Denne interaktive aktivitet med former hjælper små børn med at lægge mærke til, navngive og sammenligne formerne omkring dem. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere.",
           "Den følger Fælles Mål inden for området geometri og måling. Børnene udforsker i deres eget tempo med blid og øjeblikkelig tilbagemelding — ingen timer, ingen point, kun legende øvelse."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Denne interaktive måleaktivitet hjælper små børn med at sammenligne ting efter størrelse – højere, kortere og længere – helt uden at tælle. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto.",
+          "Denne interaktive måleaktivitet hjælper små børn med at sammenligne ting efter størrelse – højere, kortere og længere – helt uden at tælle. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere.",
           "Den følger Fælles Mål inden for området {strand}. Børnene sammenligner i deres eget tempo med blid og øjeblikkelig tilbagemelding – ingen timer, ingen point, bare leg og øvelse i at se nøje på, hvordan tingene måler sig op mod hinanden."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Denne interaktive læseaktivitet giver børnene konkret øvelse i at lyde sig frem og bygge ord. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere og uden konto at oprette.",
+          "Denne interaktive læseaktivitet giver børnene konkret øvelse i at lyde sig frem og bygge ord. Den kører direkte i browseren på tablets, telefoner og computere i klassen, uden noget at installere.",
           "Den følger Fælles Mål inden for området læsning (afkodning). Hvert ord kontrolleres for en korrekt, børnevenlig opdeling, og tilbagemeldingen er blid og øjeblikkelig — der er ingen timer og ingen point."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Dette er en interaktiv læringsaktivitet for små børn, der kører direkte i browseren på tablets, telefoner og computere i klassen. Der er intet at installere, ingen konto at oprette og ingen forberedelse for læreren.",
+        "Dette er en interaktiv læringsaktivitet for små børn, der kører direkte i browseren på tablets, telefoner og computere i klassen. Der er intet at installere og ingen forberedelse for læreren.",
         "Den følger Fælles Mål inden for området {strand}. Børnene arbejder i deres eget tempo med blid og øjeblikkelig tilbagemelding, og der er ingen timer og ingen point — kun rolig, konkret øvelse."
       ],
       "practices": [
@@ -244,7 +244,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "En billet viser et tal, og ved perronen holder et tog med ti pladser og venter sammen med en masse dyr. Barnet trykker på dyrene ét ad gangen – hvert dyr hopper hen på den næste ledige plads – og trykker på Afgang, når der sidder præcis lige så mange i toget, som der står på billetten. Det er en interaktiv tælleaktivitet op til 10, der virker i browseren, uden installation og uden konto.",
+        "En billet viser et tal, og ved perronen holder et tog med ti pladser og venter sammen med en masse dyr. Barnet trykker på dyrene ét ad gangen – hvert dyr hopper hen på den næste ledige plads – og trykker på Afgang, når der sidder præcis lige så mange i toget, som der står på billetten. Det er en interaktiv tælleaktivitet op til 10, der virker i browseren, uden installation.",
         "Det svære ved at tælle et antal af er at vide, hvornår man skal stoppe, og toget er bygget op om netop det: Der venter altid flere dyr, end billetten kræver, så barnet skal holde styr på tællingen og selv beslutte. De ti pladser er en tierramme – to rækker med fem, som fyldes forfra –, så syv ses som en fuld række og to til. Passer antallet ikke, nummererer toget sine passagerer, så barnet kan se hvorfor, og barnet retter selv; hjælpen flytter aldrig et dyr. I nogle runder holder toget igen, og på den nye billet står der én mere eller én mindre – så stiger præcis ét dyr på eller af, i stedet for at barnet begynder forfra.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at give hver ting ét tal, at vide, at det sidste tal siger, hvor mange der er, og at det næste tal er én mere. Læreren vælger billetter op til 5 eller op til 10, og om tælletallene skal vises, når dyrene stiger på, eller siges højt af barnet. Ingen tidtagning og ingen point."
       ],
@@ -268,7 +268,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "En bestillingsseddel viser et tal, og ved frugtboden venter to bakker med ti pladser hver. Barnet trykker på den plads, hvor bestillingen slutter – frugterne triller ned plads for plads dertil – og trykker på Tjek, når der ligger præcis lige så mange frugter i bakkerne, som der står på sedlen. Det er en interaktiv tælleaktivitet op til 20, der virker i browseren, uden installation og uden konto.",
+        "En bestillingsseddel viser et tal, og ved frugtboden venter to bakker med ti pladser hver. Barnet trykker på den plads, hvor bestillingen slutter – frugterne triller ned plads for plads dertil – og trykker på Tjek, når der ligger præcis lige så mange frugter i bakkerne, som der står på sedlen. Det er en interaktiv tælleaktivitet op til 20, der virker i browseren, uden installation.",
         "At lægge et antal frem handler mest om at vide, hvor det slutter. De to bakker er en dobbelt tierramme: 17 er en fuld bakke og 7 til, og barnet finder den syttende plads ved at tælle én ad gangen eller i tiere og femmere. Et tryk på en frugt tager den frugt og alle efter den væk, så hver næste plads er én mere, og at tage den sidste frugt væk er én mindre. Passer antallet ikke, nummererer boden sine frugter, så barnet kan se hvorfor; efter endnu en fejl markerer den frugterne, der er for mange, eller pladserne, der stadig venter, og hjælpen flytter aldrig en frugt. De to typiske fejl med tal over ti får et navn: kun delen efter ti (7 i stedet for 17) og kun den fulde bakke (10 i stedet for 17).",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at give hver ting ét tal, at vide, at det sidste tal siger, hvor mange der er, og at det næste tal er én mere. Læreren vælger bestillinger op til 10 (én bakke) eller op til 20, og om et tryk fylder op til pladsen eller lægger én frugt i ad gangen (så siger barnet ét tal for hver frugt). Ingen tidtagning og ingen point."
       ],
@@ -292,7 +292,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Et bord fuld af dyr og ét spørgsmål: hvor mange? Barnet trykker på hvert dyr for at tælle det – en nummereret mærkat lander på dyret – og trykker derefter på talrækken på det tal, der siger hvor mange der er. Dyrene står på række, i rækker, i rundkreds eller spredt: netop de fire opstillinger, som tælling i børnehaveklassen handler om. Kører i browseren, uden installation og uden konto.",
+        "Et bord fuld af dyr og ét spørgsmål: hvor mange? Barnet trykker på hvert dyr for at tælle det – en nummereret mærkat lander på dyret – og trykker derefter på talrækken på det tal, der siger hvor mange der er. Dyrene står på række, i rækker, i rundkreds eller spredt: netop de fire opstillinger, som tælling i børnehaveklassen handler om. Kører i browseren, uden installation.",
         "De tre tælleprincipper sidder i materialet: et dyr kan kun få én mærkat (en-til-en), mærkaterne nummereres i den rækkefølge, de blev givet (stabil talrække), og den sidste mærkat lyser, fordi det sidst sagte tal er svaret (kardinalitet). Springes et dyr over, siger hintet det, og det utalte dyr pulserer. To frie træk – Tæl igen og Bland dem – lader barnet opdage, at rækkefølgen er ligegyldig, og at antallet er det samme, når dyrene flytter sig.",
         "Tilpasset Fælles Mål: tæl op til 10 ting for at svare på \"hvor mange?\". Ingen timer, ingen point – rolig tælling med hænderne."
       ],
@@ -410,7 +410,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "To måtter, to grupper, der hører sammen – bier og blomster, kaniner og gulerødder, egern og agern. Hvilken gruppe har flere, eller er der lige mange? Barnet trykker på ”Flere” ved gruppen med flere, eller på ”Lige mange”, og trykker på Tjek. En interaktiv øvelse, der virker i browseren, uden installation og uden konto.",
+        "To måtter, to grupper, der hører sammen – bier og blomster, kaniner og gulerødder, egern og agern. Hvilken gruppe har flere, eller er der lige mange? Barnet trykker på ”Flere” ved gruppen med flere, eller på ”Lige mange”, og trykker på Tjek. En interaktiv øvelse, der virker i browseren, uden installation.",
         "Fordelingen er tit en fælde: I mange runder er den mindre gruppe spredt ud over hele sin måtte, mens den større klumper sig sammen, så den gruppe, der ser større ud, er den, der har færre – men ikke altid, så man kan ikke stole på øjet. Det er den klassiske fælde, når man sammenligner med øjnene, og øvelsen giver barnet to ærlige måder at undgå den på. Den ene er at parre: et tryk på én i den øverste gruppe og så på én i den nederste giver dem begge den samme sløjfe – en farve og en form – og dem, der står uden sløjfe, viser, hvilken gruppe der har flere; er der ingen tilovers, er der lige mange. Den anden er at tælle begge grupper. Et forkert svar giver et hint: lav par, eller kig efter dem uden makker. Efter endnu et forsøg parres resten, og dem uden makker får en ring om. Et rigtigt svar giver hvert par en sløjfe, nummererer begge grupper og siger det med tal: ”10 er flere end 7”.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne antal op til 10 ved at parre og tælle – flere, færre eller lige mange. Læreren vælger grupper op til 5 eller op til 10 og kan slå fordelingsfælden fra. Ingen tidtagning og ingen point."
       ],
@@ -918,7 +918,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Et tal fra 1 til 9 (eller fra 9 til 19 med den bredere indstilling) ligger åbent på en sti af sten med låg, med en brik ovenpå. Barnet skriver med taltasterne det tal, der kommer lige efter – står på 7, skriver 8 – og brikken hopper hen på den sten, der åbner sig. Det er en interaktiv tælleaktivitet til børnehaveklassen, som kører direkte i browseren på tablet, telefon og computer, uden installation og uden konto.",
+        "Et tal fra 1 til 9 (eller fra 9 til 19 med den bredere indstilling) ligger åbent på en sti af sten med låg, med en brik ovenpå. Barnet skriver med taltasterne det tal, der kommer lige efter – står på 7, skriver 8 – og brikken hopper hen på den sten, der åbner sig. Det er en interaktiv tælleaktivitet til børnehaveklassen, som kører direkte i browseren på tablet, telefon og computer, uden installation.",
         "Kernen er at tælle videre fra et givet tal i stedet for at begynde forfra ved ét. Stenene før brikken er skjult under låg, så svaret ikke kan aflæses på en række tal; et låg kan løftes for at kigge på et tidligere tal, når det hjælper, og læreren kan vise hele stien frem til brikken. Et forkert svar får et navn – det samme tal, tallet før eller for langt – og stien åbner sig frem til brikken, så barnet kan tælle videre derfra.",
         "Aktiviteten følger Fælles Mål for børnehaveklassen: tælle fremad fra et givet tal i den kendte talrække. Ingen timer, ingen point – bare rolig og legende øvelse."
       ],
@@ -1012,7 +1012,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Match regnestykker op til 20 lader barnet regne kort ud som 8 + 5, 9 + 7, 14 − 6 og 17 − 8 og derefter trykke på hvert regnestykke og det tal, der er svaret, så parret forbindes, og barnet bliver hurtigt og sikkert. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
+        "Match regnestykker op til 20 lader barnet regne kort ud som 8 + 5, 9 + 7, 14 − 6 og 17 − 8 og derefter trykke på hvert regnestykke og det tal, der er svaret, så parret forbindes, og barnet bliver hurtigt og sikkert. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden noget at installere.",
         "Den store idé er hurtig og sikker hukommelse af plus- og minusstykker op til 20. Hver runde blander tre regnestykker — nogle plus, nogle minus — med deres tre svar rodet ind imellem, så barnet regner hvert stykke ud og derefter finder den tilhørende værdi. Gentagen øvelse runde efter runde flytter stille og roligt stykker som 9 + 9 = 18 og 16 − 9 = 7 fra at skulle tælles til at sidde på rygraden.",
         "Aktiviteten følger Fælles Mål inden for området tal og algebra: at lægge sammen og trække fra inden for 20 med sikkerhed og at kende summen af to ensifrede tal udenad. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
       ],
@@ -1131,7 +1131,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "To store talkort ligger ved siden af hinanden – for eksempel 3 og 8 – med en tom tårnfod over hvert kort. Hvilket tal er mindst? Barnet trykker på det og trykker på Tjek. Så vokser begge tårne samtidig, én klods ad gangen, mens en talrække nedenunder lyser op: 1, 2, 3 … Tårnet for 3 stopper ved tre klodser og hejser et lille flag; tårnet for 8 fortsætter op. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "To store talkort ligger ved siden af hinanden – for eksempel 3 og 8 – med en tom tårnfod over hvert kort. Hvilket tal er mindst? Barnet trykker på det og trykker på Tjek. Så vokser begge tårne samtidig, én klods ad gangen, mens en talrække nedenunder lyser op: 1, 2, 3 … Tårnet for 3 stopper ved tre klodser og hejser et lille flag; tårnet for 8 fortsætter op. En interaktiv aktivitet, der kører i browseren uden installation.",
         "Tårnene viser, hvor mange hvert skrevet tal betyder, og hvorfor det ene er mindst: Når man tæller fra 1, kommer man først til det mindste tal, og derfor stopper dets tårn først. Efter en første fejl beder hjælpen barnet om at tælle fra 1 og lægge mærke til, hvilket af de to tal der kommer først; efter en anden vokser tårnene for at vise det, med flaget ved det mindste tal, indtil barnet vælger igen. Et rigtigt svar siger det med tal: ”Ja – 3 er mindre end 8!” Nogle tal ligger langt fra hinanden, som 2 og 9, og nogle er naboer, som 5 og 6 – dem skal man kigge godt på. De to tal er aldrig ens.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne to skrevne tal mellem 1 og 10. Læreren vælger tal op til 5 eller op til 10 og kan vise eller skjule talrækken under tårnene. Ingen tidtagning og ingen point."
       ],
@@ -1347,7 +1347,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Ved siden af et hus med ti etager venter to dyr som passagerer, hver med en billet, hvor der står et tal – for eksempel en gris med 6 og en hund med 9. Hvem skal højest op? Barnet trykker på passageren med det største tal og trykker på Tjek. Så kører elevatoren op: den stopper på etage 6, hvor den ene passager står af, og kører den anden videre op til etage 9. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "Ved siden af et hus med ti etager venter to dyr som passagerer, hver med en billet, hvor der står et tal – for eksempel en gris med 6 og en hund med 9. Hvem skal højest op? Barnet trykker på passageren med det største tal og trykker på Tjek. Så kører elevatoren op: den stopper på etage 6, hvor den ene passager står af, og kører den anden videre op til etage 9. En interaktiv aktivitet, der kører i browseren uden installation.",
         "Huset er en tallinje, der står på højkant: etagenumrene går op ad væggen i tælleorden, så et større tal er en højere etage – og sammenligningen bliver noget, barnet kan se. Et barn, der er usikkert, kan først finde begge tal på væggen. Efter en første fejl beder hjælpen barnet om at finde begge tal på huset (eller, når numrene er skjult, at tælle etagerne nedefra); efter en anden lyser begge etager op, hver i sin passagers farve, og man ser med det samme, hvilken der ligger højest. Et rigtigt svar siger det med tal: ”Ja – 9 er større end 6!” Nogle tal ligger langt fra hinanden, som 8 og 2, og nogle er naboer, som 7 og 8 – dem skal man kigge godt på. De to tal er aldrig ens.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne to skrevne tal mellem 1 og 10. Læreren vælger tal op til 5 (et hus med fem etager) eller op til 10 og kan skjule etagenumrene, så etagerne skal tælles nedefra. Ingen tidtagning og ingen point."
       ],
@@ -1371,7 +1371,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Et lille vindue med to skodder: de slår op, en gruppe billeder kigger frem – ænder, æbler, gulerødder – og skodderne lukker igen. Hvor mange var der? Barnet trykker på et tal fra 1 til 10, må kigge igen så mange gange, det vil, og trykker på Tjek. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation og uden konto.",
+        "Et lille vindue med to skodder: de slår op, en gruppe billeder kigger frem – ænder, æbler, gulerødder – og skodderne lukker igen. Hvor mange var der? Barnet trykker på et tal fra 1 til 10, må kigge igen så mange gange, det vil, og trykker på Tjek. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation.",
         "Det korte kig er kernen. Små grupper ser man med ét blik, og større vises i de mønstre, lærere bruger i klassen: terningbilleder op til seks, fem på række og nogle flere, par, en kort række, nogle spredt ud. Sådan lærer barnet at se syv som fem og to i stedet for at tælle én ad gangen – og tælling er der altid til at tjekke med. Efter et forkert tal bliver vinduet stående åbent, og barnet tæller; efter endnu et går tallene hen over billederne til et spørgsmålstegn på det sidste, så barnet selv siger, hvor mange der er.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at genkende små antal med ét blik og tælle antal op til 10. Læreren vælger tal op til 5 eller op til 10, og om vinduet åbner et øjeblik, lidt længere eller står åbent til almindelig tælling. Ingen tidtagning og ingen point – at kigge igen tæller aldrig imod barnet."
       ],
@@ -1587,7 +1587,7 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy pakker sine æg i bakker med ti, og barnet tæller dem på den hurtige måde. Tryk på hver bakke på hylden, så får den en mærkat med summen indtil nu – 10, 20, 30 – så den fjerde bakke siger 40, og den sidste bakke siger hvor mange æg der er; tryk derefter på det tal på talrækken. I en pakkerunde er hylden tom fra start, og barnet lægger bakker til, indtil den sidste viser det tal der bliver bedt om. Kører i browseren, uden installation og uden konto.",
+        "Posy pakker sine æg i bakker med ti, og barnet tæller dem på den hurtige måde. Tryk på hver bakke på hylden, så får den en mærkat med summen indtil nu – 10, 20, 30 – så den fjerde bakke siger 40, og den sidste bakke siger hvor mange æg der er; tryk derefter på det tal på talrækken. I en pakkerunde er hylden tom fra start, og barnet lægger bakker til, indtil den sidste viser det tal der bliver bedt om. Kører i browseren, uden installation.",
         "En æggebakke er tegnet som en bakke med låg og to rækker med fem æggehuller, så én bakke tydeligt står for ti, ikke én. Mærkaterne gør tælling med tiere synlig: hver bakke bærer summen frem til sig selv, og det er netop, hvad det vil sige at tælle med tiere. De to almindelige fejl får deres egen hjælp – at trykke på 10, som om hver bakke kun havde ét æg, giver påmindelsen om, at en bakke er ti æg, og at trykke på det forkerte tal ses på talrækken. Tæl igen rydder mærkaterne til en runde mere.",
         "Tilpasset Fælles Mål: tæl med tiere op til 100 – aflæs en gruppe tiere og byg en. Ingen timer, ingen point – rolig tælling med hænderne."
       ],
@@ -1610,7 +1610,7 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "En nattehimmel fuld af stjerner med tal, og én af dem er vågen – et 7-tal for eksempel, eller et 12-tal, aldrig 1. Barnet tæller videre fra den ved at trykke på den stjerne, der kommer efter, og så på den næste: hver rigtig stjerne lyser op i guld, en tråd løber hen til den, og tallet bliver sagt højt, indtil tråden har tegnet et billede – en drage, en kop, en krone, en trappe. Det er en interaktiv tælleøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation og uden konto.",
+        "En nattehimmel fuld af stjerner med tal, og én af dem er vågen – et 7-tal for eksempel, eller et 12-tal, aldrig 1. Barnet tæller videre fra den ved at trykke på den stjerne, der kommer efter, og så på den næste: hver rigtig stjerne lyser op i guld, en tråd løber hen til den, og tallet bliver sagt højt, indtil tråden har tegnet et billede – en drage, en kop, en krone, en trappe. Det er en interaktiv tælleøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation.",
         "Kernen er at tælle fremad fra et givet tal i stedet for at begynde forfra ved ét hver gang. På himlen er der også stjerner med tal, der ligger før starten – 1 er der altid – og trykker man på sådan en, bliver det sagt ved navn: det tal kommer før dit, du behøver ikke at gå tilbage, tæl videre derfra, hvor du er. En stjerne for langt fremme får også et navn: ét skridt ad gangen. Ved et forkert tryk lyser ingenting op, så billedet findes kun, når der tælles rigtigt, og striben under himlen viser det, der er talt indtil nu – 7, 8, 9 – så den sagte talrække kan ses. Indstillingerne går til 10 eller til 20 (hen over tieren), og de ekstra stjerner kan slås fra til en klasse, der stadig har brug for en klar himmel.",
         "Øvelsen følger Fælles Mål: fortsætte talrækken fremad fra et givet tal. Uden timer og uden point – rolig og legende træning."
       ],
@@ -1633,7 +1633,7 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Én skrivelinje, tre felter. Det første felt viser hele tallets vej med en grøn startprik, det andet kun en svag linje, det tredje er tomt. Barnet skriver tallet med fingeren i felt efter felt – fra 0 til 9, ét tal pr. runde – og blækket kommer kun frem dér, hvor fingeren faktisk har fulgt stregen, fra begyndelsen. Når det tredje felt er færdigt, står de tre tal, barnet har skrevet, på linjen, og tallet bliver sagt højt. Det er en interaktiv skriveøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation og uden konto.",
+        "Én skrivelinje, tre felter. Det første felt viser hele tallets vej med en grøn startprik, det andet kun en svag linje, det tredje er tomt. Barnet skriver tallet med fingeren i felt efter felt – fra 0 til 9, ét tal pr. runde – og blækket kommer kun frem dér, hvor fingeren faktisk har fulgt stregen, fra begyndelsen. Når det tredje felt er færdigt, står de tre tal, barnet har skrevet, på linjen, og tallet bliver sagt højt. Det er en interaktiv skriveøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation.",
         "Kernen er skrivebogens metode – forbillede, spor, skriv selv – hvor hjælpen tager af inden for én og samme linje, så det sidste tal er barnets eget. Stregrækkefølge og skriveretning er bygget ind: en streg tæller kun, når den trækkes fra sit startpunkt langs sin vej, så et tal, der begyndes nedefra eller skrives spejlvendt, går ikke igennem. De fejl, nye skrivere laver, får navn ud fra fingerens egen vej – begyndte i den anden ende, spejlvendt, den forkerte vej rundt, stoppede for tidligt – og efter tre forsøg kommer den svage linje tilbage, derefter hele vejen. En lille vandrer viser stregerne, når man beder om det, og Visk ud starter et felt forfra. Indstillingerne beholder den fulde hjælp i hvert felt til en klasse, der har brug for den, eller fjerner den for en klasse, der allerede skriver selv; papiret kan vise tre linjer eller én.",
         "Øvelsen følger Fælles Mål: skrive tallene 0–9 med den rigtige skriveretning og stregrækkefølge. Uden timer og uden point – rolig og legende træning."
       ],
@@ -1656,7 +1656,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "En gade med fem huse, hvert med et trykt husnummer over døren, og en postbil med tre breve. Adressen på hvert brev er skrevet i hånden – med den håndskrift børn lærer at skrive deres tal med – mens husnumrene er trykte. Barnet kan altså ikke sammenligne former: tallet skal læses. Barnet trækker hvert brev hen til et hus; brevet passer kun ned i én postkasse. Når den rigtige dør går op, træder naboen ud på trappestenen, tallet bliver sagt højt, og det næste brev dukker op. Når det tredje brev er afleveret, tjekker runden sig selv. En interaktiv øvelse i at læse tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation og uden konto.",
+        "En gade med fem huse, hvert med et trykt husnummer over døren, og en postbil med tre breve. Adressen på hvert brev er skrevet i hånden – med den håndskrift børn lærer at skrive deres tal med – mens husnumrene er trykte. Barnet kan altså ikke sammenligne former: tallet skal læses. Barnet trækker hvert brev hen til et hus; brevet passer kun ned i én postkasse. Når den rigtige dør går op, træder naboen ud på trappestenen, tallet bliver sagt højt, og det næste brev dukker op. Når det tredje brev er afleveret, tjekker runden sig selv. En interaktiv øvelse i at læse tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation.",
         "Kernen: at læse tallene 0 til 20 som tal, ikke genkende dem som billeder. Hver gade rummer de forvekslinger, nye læsere laver: 13 bor ved siden af 31, så cifrenes rækkefølge betyder noget; 14 står mellem 13 og 11, så det sidste ciffer skal læses; 14 står ved siden af 4, for ét ciffer er ikke to; og 6 står tæt på 9, 2 på 5, 1 på 7. En forkert dør svarer med sit eget nummer ved siden af brevets og sætter ord på fejlen – de samme cifre bare omvendt, se på det sidste ciffer, to cifre og ikke ét – og efter to forbiere lyser det rigtige skilt. I indstillingerne bliver tallene ved 10 til en gruppe, der lige er begyndt, eller adressen læses op i stedet for at blive vist, så barnet lytter efter tallet – med en Vis-knap til et stille lokale.",
         "Øvelsen følger Fælles Mål: at læse og skelne mellem tal op til 20. Uden timer og uden point – rolig og legende træning."
       ],
@@ -1679,7 +1679,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Et glas med legetøj og en tom etiket på låget. Barnet tæller – hvert stykke legetøj får et mærke, når man trykker på det – og skriver med taltasterne, hvor mange der er; cifrene står på etiketten. Når man tjekker, holdes etiketten op mod glasset: legetøjet stiller sig på lige så mange pladser, som etiketten siger, og passer den, bliver den gylden og sidder fast, mens tallet bliver sagt højt. I den anden slags runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på legetøj på hylden, så det falder ned, indtil glasset rummer så mange. En interaktiv øvelse i at tælle og skrive tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation og uden konto.",
+        "Et glas med legetøj og en tom etiket på låget. Barnet tæller – hvert stykke legetøj får et mærke, når man trykker på det – og skriver med taltasterne, hvor mange der er; cifrene står på etiketten. Når man tjekker, holdes etiketten op mod glasset: legetøjet stiller sig på lige så mange pladser, som etiketten siger, og passer den, bliver den gylden og sidder fast, mens tallet bliver sagt højt. I den anden slags runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på legetøj på hylden, så det falder ned, indtil glasset rummer så mange. En interaktiv øvelse i at tælle og skrive tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation.",
         "Kernen er vejen frem og tilbage mellem antal og tal: et talt antal bliver et skrevet tal, og et skrevet tal bliver et antal igen. Op til ti ligger legetøjet løst; fra elleve til tyve står det i rækker, så øjet ikke mister sin plads. En forkert etiket besvares af glasset, ikke af et rødt kryds: en for lille etiket lader legetøj stå uden plads, en for stor lader stiplede pladser stå tomme, og fejlen får et navn – cifrene omvendt (41 for 14) eller kun enerne (4 for 14). I indstillingerne bliver tallene ved 10 til en gruppe, der lige er begyndt, eller man vælger kun tællerunderne eller kun fylderunderne.",
         "Øvelsen følger Fælles Mål: at tælle antal op til 20 og skrive tallet. Uden timer og uden point – rolig og legende træning."
       ],
@@ -1725,7 +1725,7 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mor And holder morgenopråb ved dammen. Hendes kort viser prikker, og barnet sender præcis så mange ællinger fra flåden ind til bredden – ét tryk, én ælling, der svømmer over. Så skriver barnet under på navneopråbet: trykker på talstemplet for, hvor mange der kom, og tegner tallet efter med fingeren i mudderet. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation og uden konto.",
+        "Mor And holder morgenopråb ved dammen. Hendes kort viser prikker, og barnet sender præcis så mange ællinger fra flåden ind til bredden – ét tryk, én ælling, der svømmer over. Så skriver barnet under på navneopråbet: trykker på talstemplet for, hvor mange der kom, og tegner tallet efter med fingeren i mudderet. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation.",
         "Mor viser aldrig et ciffer (medmindre læreren vælger det): barnet tæller prikkerne, tæller lige så mange ællinger af og skriver det tal, der siger, hvor mange der er – cifferet er barnets eget svar. På flåden venter flere ællinger, end Mor beder om, så barnet må selv beslutte, hvornår det skal stoppe; et tryk på en ælling ved bredden sender den tilbage. Ællingerne lander spredt, så at tælle dem igen er rigtig tælling. Tjek ser først på bredden og så på underskriften og siger, hvad der mangler: for mange, for få, intet tal endnu, et tal, der ikke siger, hvor mange der kom, eller et tal, der ikke er tegnet efter endnu. Efter en fejl bliver ællingerne ved bredden nummereret, efter endnu en også Mors prikker. Hjælpen flytter aldrig en ælling.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle antal, tælle et givet antal af og skrive det tal, der hører til. Læreren vælger tal op til 5 eller op til 9, og om Mors kort viser prikker eller tallet. Ingen tidtagning og ingen point."
       ],
@@ -1749,7 +1749,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi har bestilt en æske med lækkerier, og bestillingssedlen viser hvor mange – for eksempel 7. Barnet trykker på lækkerier på bakken, og hvert lækkeri falder ned i en kageæske med låg på: ét tryk, ét lækkeri ude af syne. Når barnet tror, at æsken rummer præcis det tal, der står på sedlen, trykker det på Tjek, og æsken åbner sig. En interaktiv tælleøvelse, der kører i browseren uden installation og uden konto.",
+        "Mochi har bestilt en æske med lækkerier, og bestillingssedlen viser hvor mange – for eksempel 7. Barnet trykker på lækkerier på bakken, og hvert lækkeri falder ned i en kageæske med låg på: ét tryk, ét lækkeri ude af syne. Når barnet tror, at æsken rummer præcis det tal, der står på sedlen, trykker det på Tjek, og æsken åbner sig. En interaktiv tælleøvelse, der kører i browseren uden installation.",
         "Låget er hele pointen. Når et lækkeri ligger i æsken, kan det ikke ses længere, så tællingen må blive i barnets hoved – det sidste tal, barnet sagde, er det antal, der ligger i æsken, og dér skal barnet stoppe. At tælle et givet antal af er sværere end at tælle en mængde, der allerede ligger der, og den lukkede æske får barnet til at holde tællingen i stedet for at kigge. Et tryk på låget løfter det et kort øjeblik, så barnet kan kigge, og så falder det på igen af sig selv; mens æsken er åben, kan barnet trykke på et lækkeri i den for at lægge det tilbage på bakken. På bakken ligger der altid flere lækkerier end i bestillingen (12, eller 7 når tallene går op til 5), så dens størrelse afslører aldrig svaret. Et forkert tjek siger ”for mange” eller ”for få” og lader låget være af resten af runden; efter et andet bliver lækkerierne i æsken nummereret, og æsken markerer de lækkerier, der er for mange, eller de tomme pladser, der stadig mangler. Hjælpen flytter aldrig et lækkeri.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle et givet antal af op til 10 og vide, at det sidste tal, man tæller, fortæller hvor mange der er. Læreren vælger tal op til 5 eller op til 10 og kan tage låget af, så lækkerierne hele tiden kan ses. Ingen tidtagning og ingen point."
       ],
@@ -1773,7 +1773,7 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "To klippepøler ligger ved siden af hinanden (over hinanden på en mobil). I den første er der havdyr – for eksempel syv krabber hulter til bulter eller seks søstjerner i en ring. Barnet tæller dem og fylder så den tomme tvillingepøl med lige så mange, men af en anden slags: syv søstjerner for syv krabber. Når tvillingepølen er klar, trykker barnet på Tjek. En interaktiv tælleøvelse, der virker i browseren, uden installation og uden konto.",
+        "To klippepøler ligger ved siden af hinanden (over hinanden på en mobil). I den første er der havdyr – for eksempel syv krabber hulter til bulter eller seks søstjerner i en ring. Barnet tæller dem og fylder så den tomme tvillingepøl med lige så mange, men af en anden slags: syv søstjerner for syv krabber. Når tvillingepølen er klar, trykker barnet på Tjek. En interaktiv tælleøvelse, der virker i browseren, uden installation.",
         "Tællingens to sider er samlet i ét træk: finde ud af, hvor mange der er, og så tælle lige så mange af. Dyrene i den første pøl ligger på række, i ring, i rækker eller hulter til bulter; et tryk på et dyr sætter flueben ved det som talt, så barnet ved, hvilke der allerede er talt – fluebenet er aldrig et tal. I tvillingepølen sætter et tryk på en tom plads et dyr der, og et tryk på et dyr tager det op igen. Fordi tvillingedyrene som standard er af en anden slags og ligger anderledes, kan kun antallet passe. Tvillingepølen har altid flere pladser, end en runde skal bruge (12, eller 8 når tallene går op til 5), så dens størrelse røber aldrig svaret. Når det passer, binder en snor hvert dyr i den første pøl sammen med et i tvillingepølen, og der er ingen tilovers på nogen af siderne – det er det, ”lige så mange” betyder. Når det ikke passer, siger hintet ”for mange” eller ”for få”, og dyrene i tvillingepølen får numre; efter endnu et forsøg binder snorene så mange par sammen, som de kan, og ringer dyrene uden tvilling ind. Hjælpen flytter aldrig et dyr.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle, hvor mange der er, op til 10 – på række, i ring, i rækker eller hulter til bulter – og at tælle et givet antal af. Læreren vælger tal op til 5 eller op til 10 og kan sætte den samme slags dyr i tvillingepølen, så parrene er lettere at se. Ingen tidtagning og ingen point."
       ],
@@ -1797,7 +1797,7 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Et glas er fuldt af kryb – mariehøns, bier, snegle – der ligger hulter til bulter oven på hinanden, så ingen kan tælle dem gennem glasset. Ved siden af står et glas med præcis ti af de samme kryb. Barnet gætter først: færre end i glasset med ti, eller flere? Så hælder barnet glasset ud, krybene lander på en bakke, hvor de kan tælles, og barnet finder ud af det. En interaktiv tælleøvelse, der virker i browseren, uden installation og uden konto.",
+        "Et glas er fuldt af kryb – mariehøns, bier, snegle – der ligger hulter til bulter oven på hinanden, så ingen kan tælle dem gennem glasset. Ved siden af står et glas med præcis ti af de samme kryb. Barnet gætter først: færre end i glasset med ti, eller flere? Så hælder barnet glasset ud, krybene lander på en bakke, hvor de kan tælles, og barnet finder ud af det. En interaktiv tælleøvelse, der virker i browseren, uden installation.",
         "Glasset med ti er målestokken. Begge glas er fyldt på samme måde, så det fyldigste rummer virkelig flest, og barnet lærer at vurdere en mængde ud fra et tal, det kender, før det tæller. Når glasset er hældt ud, ligger krybene i rækker, i et rektangel, i ring eller hulter til bulter, op til 16. Et tryk på et kryb sætter flueben ved det som talt, så barnet ved, hvilke der allerede er talt – fluebenet er aldrig et tal. Barnet sætter glassets etiket med − og +; den starter på ti, så det at tælle videre fra ti (”ti, elleve, tolv …”) er en vej til et tal over ti. Når det ikke passer, siger hintet, om der stadig er kryb uden flueben, eller om tallet er for stort eller for lille; efter endnu et forsøg nummereres krybene frem til det sidste, som viser et spørgsmålstegn, og barnet siger det sidste tal – så mange er der. Når det passer, nummereres krybene i den rækkefølge, barnet satte flueben ved dem, og antallet holdes op mod gættet: ”Flere end 10, præcis som du gættede” eller ”flere, end du gættede”. Et gæt regnes aldrig som forkert.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle, hvor mange der er, op til 16 i rækker eller i et rektangel, op til 9 i ring og op til 10 hulter til bulter. Læreren vælger tal op til 10 (målestokken er så et glas med fem) eller op til 16 og kan slå gættet fra. Ingen tidtagning og ingen point."
       ],
@@ -1821,7 +1821,7 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "To tallerkener med legetøj står over hinanden med en lille plankebro imellem – for eksempel syv bolde foroven og tre forneden. Hvilken tallerken har flere, eller har de lige mange? Barnet trykker på tallerkenen med flere, eller på ”Lige mange”. Så kommer den retfærdige del: Barnet trykker på et stykke legetøj for at sende det over broen til den anden tallerken, indtil begge tallerkener har lige mange, og trykker på Tjek. En interaktiv øvelse, der virker i browseren, uden installation og uden konto.",
+        "To tallerkener med legetøj står over hinanden med en lille plankebro imellem – for eksempel syv bolde foroven og tre forneden. Hvilken tallerken har flere, eller har de lige mange? Barnet trykker på tallerkenen med flere, eller på ”Lige mange”. Så kommer den retfærdige del: Barnet trykker på et stykke legetøj for at sende det over broen til den anden tallerken, indtil begge tallerkener har lige mange, og trykker på Tjek. En interaktiv øvelse, der virker i browseren, uden installation.",
         "At lave ”lige mange” med sine egne hænder er der, hvor tælling gør nytte. Syv og tre bliver ikke til fem og fem med ét tryk: Barnet sender et stykke legetøj over, tæller begge tallerkener, sender et til, tæller igen – og ser, at tallerkenen med flere bliver mindre, mens den anden vokser. Et forkert første svar får kun tallerkenen til at ryste, og barnet kigger igen. Et Tjek, før der er lige mange, siger, hvilken tallerken der stadig har flere, og nummererer legetøjet på begge tallerkener til det blik; anden gang lyser et stykke legetøj på den fyldigste tallerken op og viser, hvilket der skal sendes. Et rigtigt svar siger det med tal: ”Retfærdigt! 5 og 5.” Summen er altid lige, så det kan altid deles retfærdigt, og hver tallerken har plads til tolv stykker legetøj, så dens størrelse røber aldrig svaret.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne antal op til 10 ved at tælle – flere, færre eller lige mange – og forstå, hvad ”lige mange” betyder. Læreren vælger grupper op til 5 eller op til 10 og kan lægge legetøjet i rækker i stedet for hulter til bulter, så sammenligningen er lettere at se. Ingen tidtagning og ingen point."
       ],
@@ -1845,7 +1845,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "En bæk deler sig to gange på vej til en dam, hvor en ven venter – en frø, en ræv, et pindsvin. Ved hver forgrening flyder to talbøjer, én i hver arm, og et lille skilt øverst viser reglen for turen: følg de største tal eller de mindste. Barnet trykker på et tal ved hver forgrening, den planlagte rute lyser op, og Tjek sender en sejlbåd ned ad den. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "En bæk deler sig to gange på vej til en dam, hvor en ven venter – en frø, en ræv, et pindsvin. Ved hver forgrening flyder to talbøjer, én i hver arm, og et lille skilt øverst viser reglen for turen: følg de største tal eller de mindste. Barnet trykker på et tal ved hver forgrening, den planlagte rute lyser op, og Tjek sender en sejlbåd ned ad den. En interaktiv aktivitet, der kører i browseren uden installation.",
         "Reglen skifter fra tur til tur, så barnet skal læse skiltet og tallene hver gang – den, der altid vælger det største tal, kommer ikke igennem. Er ruten forkert, sejler båden så langt den kan og sidder fast i sivene ved den første forkerte forgrening, som bliver markeret: Hvilket tal dér er størst (eller mindst)? Efter et andet forsøg kommer der prikker under de to tal ved den forgrening, så barnet kan tælle, hvor der er flest. En rigtig rute fører båden helt hen til vennen: ”Ja – du fulgte de største tal, 7 og 5, helt hen til dammen!” Nogle tal ligger langt fra hinanden, som 2 og 7, og nogle er naboer, som 7 og 8. De to tal er aldrig ens.",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne to skrevne tal mellem 1 og 10. Læreren vælger tal op til 5 eller op til 10 og en regel, der skifter ved hver tur, eller altid det største eller altid det mindste tal. Ingen tidtagning og ingen point."
       ],
@@ -1869,7 +1869,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Fire urtepotter står på række – for eksempel 6, 9, 2 og 4 – og de ser helt ens ud: kun tallet på hver af dem er forskelligt. Barnet trykker på en potte, og den falder ned i de andre og vokser til størrelsen af sit tal: 9-tallet bliver en stor potte, 2-tallet en lille. En potte kan kun være i en potte med et større tal, så man skal sætte dem i hinanden fra det største tal til det mindste. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "Fire urtepotter står på række – for eksempel 6, 9, 2 og 4 – og de ser helt ens ud: kun tallet på hver af dem er forskelligt. Barnet trykker på en potte, og den falder ned i de andre og vokser til størrelsen af sit tal: 9-tallet bliver en stor potte, 2-tallet en lille. En potte kan kun være i en potte med et større tal, så man skal sætte dem i hinanden fra det største tal til det mindste. En interaktiv aktivitet, der kører i browseren uden installation.",
         "Fordi alle potterne i rækken er lige store, afslører størrelsen intet: barnet læser og sammenligner tallene, og den, der prøver en potte, ser med det samme, om den kan være der. Potterne svarer selv: En potte, der er for stor, stikker op over kanten, vipper og går tilbage til rækken. Den, der tager en lille potte for tidligt, ender i en blindgyde – først 9-tallet, så 2-tallet, og nu kan hverken 6-tallet eller 4-tallet være der – så lyser den inderste potte, og et tryk tager den ud igen. Efter to potter, der ikke kunne være der, kommer der prikker på de ventende potter, så barnet kan tælle, hvilket tal der er størst. Når alle potterne er i, læser Tjek stablen op: ”Ja – 9, 6, 4, 2: fra det største tal til det mindste!”",
         "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne skrevne tal mellem 1 og 10, her tre eller fire ad gangen. Læreren vælger tre potter op til 5 eller fire potter op til 10 og viser prikkerne kun som hjælp eller altid. Ingen tidtagning og ingen point."
       ],

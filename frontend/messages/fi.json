@@ -46,9 +46,9 @@
   "homepage": {
     "meta": {
       "title": "Ilmaisia tulostettavia tehtäviä esiopetuksesta 3. luokkaan, 11 kielellä",
-      "description": "Tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan. OPS 2014 -yhteensopiva. Ilmaiseksi, ei rekisteröitymistä, 11 kielellä.",
+      "description": "Tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan. OPS 2014 -yhteensopiva. Ilmaiseksi, 11 kielellä.",
       "ogTitle": "LessonCraftStudio — Ilmaisia tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan, 11 kielellä.",
-      "ogDescription": "Fonologinen tietoisuus, matematiikka, sanasto. Tulostettavia tehtäviä ja interaktiivisia harjoituksia. Kaksikielisiin ja kansainvälisiin luokkiin — ei rekisteröitymistä.",
+      "ogDescription": "Fonologinen tietoisuus, matematiikka, sanasto. Tulostettavia tehtäviä ja interaktiivisia harjoituksia. Kaksikielisiin ja kansainvälisiin luokkiin.",
       "ogAlt": "LessonCraftStudio — tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan, 11 kielellä"
     },
     "hero": {
@@ -1746,7 +1746,7 @@
       "easter": [
         {
           "q": "Ovatko pääsiäistehtävät ilmaisia?",
-          "a": "Kyllä. Kaikki pääsiäistehtävät voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa. Tiliä tai kirjautumista ei tarvita, eikä mitään tarvitse asentaa."
+          "a": "Kyllä. Kaikki pääsiäistehtävät voi tulostaa ilmaiseksi PDF-muodossa vastauksineen tai tehdä suoraan selaimessa. Mitään ei tarvitse asentaa."
         },
         {
           "q": "Sopivatko pääsiäistehtävät eskariin?",

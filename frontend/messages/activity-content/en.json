@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "This is an interactive counting activity for young learners, working with numbers up to {max}. It plays right in the browser on tablets, phones, and classroom computers — there is nothing to install, no account to create, and no setup for the teacher.",
+          "This is an interactive counting activity for young learners, working with numbers up to {max}. It plays right in the browser on tablets, phones, and classroom computers — there is nothing to install and no setup for the teacher.",
           "The activity is aligned to Common Core {code} in the Counting & Cardinality strand. Children get gentle, immediate feedback as they go, so they can keep trying until the answer feels right. There is no timer and no score — just calm, hands-on practice."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "This interactive activity gives children hands-on practice with early addition and subtraction ideas, working with quantities up to {max}. It plays straight in the browser on any device, with nothing to install and no login.",
+          "This interactive activity gives children hands-on practice with early addition and subtraction ideas, working with quantities up to {max}. It plays straight in the browser on any device, with nothing to install.",
           "It is aligned to Common Core {code} in the Operations & Algebraic Thinking strand. Feedback is immediate and encouraging, and there is no timer or score — children can think things through at their own pace."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "This interactive shape activity helps young children notice, name, and compare the shapes around them. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account needed.",
+          "This interactive shape activity helps young children notice, name, and compare the shapes around them. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install.",
           "It is aligned to Common Core {code} in the Geometry strand. Children explore at their own pace with gentle, immediate feedback — no timer, no score, just playful practice."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "This interactive measurement activity helps young children compare objects by size — taller, shorter, and longer — without any counting. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account needed.",
+          "This interactive measurement activity helps young children compare objects by size — taller, shorter, and longer — without any counting. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install.",
           "It is aligned to Common Core {code} in the {strand} strand. Children compare at their own pace with gentle, immediate feedback — no timer, no score, just playful practice looking closely at how things measure up."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "This interactive reading activity gives children hands-on practice sounding out and building words. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to set up.",
+          "This interactive reading activity gives children hands-on practice sounding out and building words. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install.",
           "It is aligned to Common Core {code} in the Reading: Foundational Skills strand. Each word is checked for an accurate, child-safe break, and feedback is gentle and immediate — there is no timer and no score."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "This interactive listening activity helps children hear and play with the sounds inside spoken words. It plays right in the browser on any device, with nothing to install and no login required.",
+          "This interactive listening activity helps children hear and play with the sounds inside spoken words. It plays right in the browser on any device, with nothing to install.",
           "It is aligned to Common Core {code} in the Phonological Awareness strand. Feedback is warm and immediate, and there is no timer or score to rush a young learner."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "This is an interactive learning activity for young children that plays right in the browser on tablets, phones, and classroom computers. There is nothing to install, no account to create, and no setup for the teacher.",
+        "This is an interactive learning activity for young children that plays right in the browser on tablets, phones, and classroom computers. There is nothing to install and no setup for the teacher.",
         "It is aligned to Common Core {code} in the {strand} strand. Children work at their own pace with gentle, immediate feedback, and there is no timer and no score — just calm, hands-on practice."
       ],
       "practices": [
@@ -292,7 +292,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "A ticket shows a number, and a train with ten seats waits at a platform full of animals. The child taps the animals one at a time — each one hops into the next seat — and presses Go when the train holds exactly as many as the ticket says. It's an interactive Kindergarten counting activity for numbers to 10 that runs in the browser with nothing to install and no account.",
+        "A ticket shows a number, and a train with ten seats waits at a platform full of animals. The child taps the animals one at a time — each one hops into the next seat — and presses Go when the train holds exactly as many as the ticket says. It's an interactive Kindergarten counting activity for numbers to 10 that runs in the browser with nothing to install.",
         "The hard part of making a number is knowing when to stop, and the train is built around it: more animals wait than any ticket asks for, so the child has to keep the count and decide. The ten seats are a ten-frame — two rows of five, filled from the front — so seven reads as a full row and two more. When the count is wrong, the train numbers its passengers so the child can see why, and the child fixes it; the help never moves an animal. On some rounds the train stops again and the new ticket is one more or one fewer, so the child puts on or lets off just one animal instead of starting over.",
         "It is aligned to Common Core K.CC.B.4 — one number for each object, the last number said tells how many, and each next number is one more. Teachers can choose tickets up to 5 or up to 10, and counting numbers shown as the animals get on or said aloud by the child. No timer, no score."
       ],
@@ -316,7 +316,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "An order slip shows a number, and two market trays of ten spaces wait at the fruit stand. The child taps the space where the order ends — the fruit tumbles in, space after space, up to there — and presses Check when the trays hold exactly as many fruits as the order says. It's an interactive Kindergarten counting activity for numbers to 20 that runs in the browser with nothing to install and no account.",
+        "An order slip shows a number, and two market trays of ten spaces wait at the fruit stand. The child taps the space where the order ends — the fruit tumbles in, space after space, up to there — and presses Check when the trays hold exactly as many fruits as the order says. It's an interactive Kindergarten counting activity for numbers to 20 that runs in the browser with nothing to install.",
         "Making a number is mostly about knowing where it ends. The two trays are a double ten-frame, so 17 is a full tray and 7 more, and the child can find the seventeenth space by counting one by one or by tens and fives. A tap on a fruit takes back that fruit and every fruit after it, so each next space is one more, and taking back the last fruit makes one fewer. When the count is wrong, the stand numbers its fruit so the child can see why; a second wrong Check marks the extra fruit or the spaces still waiting, and the help never moves a fruit. The two mistakes teachers see most with numbers past ten are named: only the part after ten (7 for 17) and only the full tray (10 for 17).",
         "It is aligned to Common Core K.CC.B.4 — one number for each object, the last number said tells how many, and each next number is one more. Teachers can choose orders up to 10 (one tray) or up to 20, and whether a tap fills up to the space or adds one fruit at a time (then the child says one number for each fruit). No timer, no score."
       ],
@@ -340,7 +340,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "A table of animals and one question: how many? The child taps each animal to count it — a numbered tag drops on it — then taps the numeral on the rail that tells how many. The animals sit in a line, in rows, in a circle or scattered, exactly the four arrangements Kindergarten counting asks for. It runs in the browser, with nothing to install and no account.",
+        "A table of animals and one question: how many? The child taps each animal to count it — a numbered tag drops on it — then taps the numeral on the rail that tells how many. The animals sit in a line, in rows, in a circle or scattered, exactly the four arrangements Kindergarten counting asks for. It runs in the browser, with nothing to install.",
         "This is counting with the three principles built into the material. An animal can be tagged only once (one-to-one), the tags are numbered in the order they were given (stable order), and the last tag glows because the last number said is the answer (cardinality). If something is skipped, the hint names it and the uncounted animal pulses. Two extra moves — Count again and Mix them up — let a child discover that the order does not matter and that the number stays the same when the animals move.",
         "It is the first half of Common Core K.CC.B.5 — counting to answer \"how many?\" about things arranged in a line, an array or a circle, or scattered; this table runs 1 to 10, the standard continues to 20. No timer, no score — just calm, hands-on counting."
       ],
@@ -484,7 +484,7 @@
     },
     "affix.apply.l-2-4-b": {
       "about": [
-        "Marigold the mole runs a Knowing Machine that builds new words by snapping a prefix or suffix onto a root: kind, lucky, tell, color, fear, or help drops in, a cog stamped un-, re-, -ful, or -less clicks on, and the child reads what it makes — unkind, retell, colorful, fearless — then taps what it now means. It's a browser-based Grade 2 reading activity that needs no account or download.",
+        "Marigold the mole runs a Knowing Machine that builds new words by snapping a prefix or suffix onto a root: kind, lucky, tell, color, fear, or help drops in, a cog stamped un-, re-, -ful, or -less clicks on, and the child reads what it makes — unkind, retell, colorful, fearless — then taps what it now means. It's a browser-based Grade 2 reading activity that needs no download.",
         "The work is meaning, not memorizing. For unkind the choices are 'kind,' 'not kind,' and 'full of kindness,' so the child has to know that un- flips a word to its opposite, while -ful means 'full of' and -less means 'without.' Later rounds turn it around: the machine shows a meaning like 'to tie it again' or 'without any use,' and the child taps the affix (re-, less) that builds it, proving the part-to-meaning link both directions.",
         "It is aligned to Common Core L.2.4.b — using a known affix as a clue to the meaning of a new word. No timer, no score — just calm, playful practice."
       ],
@@ -646,7 +646,7 @@
     },
     "booker-glossary-desk.guide-words.l-2-4-e": {
       "about": [
-        "Booker the bear keeps the glossary and shows the child what the two words at the top of a dictionary page are for: two guide words sit at the top — like cap and cot — and the child taps the one word, from choices such as car, can, and cup, that would actually appear on that page because it falls between them in ABC order. It's a Grade 2 vocabulary activity that runs in the browser with no account.",
+        "Booker the bear keeps the glossary and shows the child what the two words at the top of a dictionary page are for: two guide words sit at the top — like cap and cot — and the child taps the one word, from choices such as car, can, and cup, that would actually appear on that page because it falls between them in ABC order. It's a Grade 2 vocabulary activity that runs in the browser.",
         "Guide words are a real reference tool, and the only way to use them is to compare letters in order. Between cap and cot, the word car fits (it comes after cap and before cot), while can comes too early and cup comes too late. Because the choices share their first letters, the child has to look at the second and third letters to decide — the exact alphabetizing skill that makes a dictionary or glossary usable.",
         "It is aligned to Common Core L.2.4.e — using glossaries and beginning dictionaries to find the meaning of words. No timer, no score — just calm, playful practice."
       ],
@@ -888,7 +888,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "A little window with two shutters: they swing open, a group of pictures looks out — ducks, apples, carrots — and the shutters close again. How many were there? The child taps a number from 1 to 10, can look again as often as they like, and presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "A little window with two shutters: they swing open, a group of pictures looks out — ducks, apples, carrots — and the shutters close again. How many were there? The child taps a number from 1 to 10, can look again as often as they like, and presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install.",
         "The short look is the point. Small groups can be seen at a glance, and bigger ones are shown in the shapes teachers use in number talks: dice faces up to six, five in a line and some more, pairs, a short line, a small scatter. So the child learns to see seven as five and two instead of counting one by one — and counting is always there to check. After a wrong number the window stays open and the child counts; after a second, the numbers run along the pictures to a question mark on the last one, so the child still says how many.",
         "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" about up to 10 things. Teachers can choose numbers up to 5 or up to 10, and whether the window opens for a moment, a little longer, or stays open for plain counting. No timer, no score — looking again is never counted against the child."
       ],
@@ -936,7 +936,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "A number from 1 to 9 (or 9 to 19 with the wider setting) stands open on a path of lidded stones, with a counter resting on it. The child writes the number that comes right after it on the number keys — stand on 7, write 8 — and the counter hops forward onto the stone as it opens. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "A number from 1 to 9 (or 9 to 19 with the wider setting) stands open on a path of lidded stones, with a counter resting on it. The child writes the number that comes right after it on the number keys — stand on 7, write 8 — and the counter hops forward onto the stone as it opens. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install.",
         "The big idea is counting on from a number you are given instead of starting over at one. The stones before the counter are hidden under lids, so the child cannot read the answer off a line of numbers; a lid can be lifted to peek at an earlier number when that helps, and the teacher can show the whole path up to the counter. A wrong answer is named for what it is — the same number, the one before, or too far — and the path opens up to the counter so the child can count on from it.",
         "It is aligned to Common Core K.CC.A.2 — counting forward beginning from a given number within the known sequence. No timer, no score — just calm, playful practice."
       ],
@@ -982,7 +982,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "A building of ten floors stands beside two animal passengers, each holding a ticket with a number on it — a pig with 6 and a dog with 9, say. Who goes higher? The child taps the passenger with the bigger number and presses Check. Then the elevator rides up: it stops at floor 6, where one passenger gets off, and carries the other on up to floor 9. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "A building of ten floors stands beside two animal passengers, each holding a ticket with a number on it — a pig with 6 and a dog with 9, say. Who goes higher? The child taps the passenger with the bigger number and presses Check. Then the elevator rides up: it stops at floor 6, where one passenger gets off, and carries the other on up to floor 9. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "The building is a number line stood upright: its floor numbers run up the wall in counting order, so a bigger number is a higher floor, and the comparison becomes something the child can see. A child who is not sure can find both numbers on the wall first. A wrong Check says to find both numbers on the building (or, with the numbers hidden, to count the floors from the bottom); after a second, both floors light up, each in its passenger's colour, so the higher one is plain to see. A right Check says it with numbers: “Yes — 9 is bigger than 6!” Some pairs are far apart, like 8 and 2, and some are neighbours, like 7 and 8 — those are the ones that need a careful look. The two numbers are never the same.",
         "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 (a building of five floors) or up to 10, and hide the floor numbers so the floors have to be counted from the bottom. No timer, no score."
       ],
@@ -1006,7 +1006,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Two big number cards stand side by side — 3 and 8, say — each with an empty tower base above it. Which number is smaller? The child taps it and presses Check. Then both towers grow at the same time, one block per beat, while a counting row underneath lights up 1, 2, 3… The tower for 3 stops at three blocks and raises a little flag; the tower for 8 keeps climbing. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Two big number cards stand side by side — 3 and 8, say — each with an empty tower base above it. Which number is smaller? The child taps it and presses Check. Then both towers grow at the same time, one block per beat, while a counting row underneath lights up 1, 2, 3… The tower for 3 stops at three blocks and raises a little flag; the tower for 8 keeps climbing. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "The towers show what each written number means and why one is smaller: counting up from 1, the smaller number is the one you reach first, so its tower stops first. A wrong Check asks the child to count from 1 and notice which of the two numbers comes first; after a second, the towers grow for that look, the flag marking the smaller one, until the child chooses again. A right Check says it with numbers: “Yes — 3 is smaller than 8!” Some pairs are far apart, like 2 and 9, and some are neighbours, like 5 and 6 — those are the ones that need a careful look. The two numbers are never the same.",
         "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 or up to 10, and show or hide the counting row under the towers. No timer, no score."
       ],
@@ -1172,7 +1172,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Two mats, two groups that belong together — bees and flowers, bunnies and carrots, squirrels and acorns. Which group has more, or are they the same? The child taps “More” on the group with more, or “The same”, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Two mats, two groups that belong together — bees and flowers, bunnies and carrots, squirrels and acorns. Which group has more, or are they the same? The child taps “More” on the group with more, or “The same”, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "The spacing is often a trick: in many rounds the smaller group is spread out across its mat while the bigger one huddles together, so the group that looks bigger is the one with fewer — but not always, so the eye can't be trusted either way. That is the classic trap of comparing by eye, and the activity gives the child two honest ways past it. One is matching: a tap on one in the top group and then one in the bottom group gives both the same bow — a colour and a shape — and whoever is left without a bow shows which group has more; if nobody is left over, the groups are the same. The other is counting both groups. A wrong answer brings a hint: pair them up, or look for the ones without a partner. After a second, the rest are paired and the ones without a partner are ringed. A right answer bows every pair, numbers both groups and says it with numbers: “10 is more than 7”.",
         "It is aligned to Common Core K.CC.C.6 — saying whether the number of objects in one group is greater than, less than or equal to the number in another, by matching and counting, up to 10. Teachers can choose groups up to 5 or up to 10, and switch the spacing trick off. No timer, no score."
       ],
@@ -1364,7 +1364,7 @@
     },
     "clock-digital.read-minute.3-md-a-1": {
       "about": [
-        "An analog clock shows its minute marks and an exact time like 3:23, 7:47, 10:08, or 12:41, and the child reads the hands and taps the matching digital time from three choices. Sprocket the rooster cheers along in this interactive Grade 3 time activity about reading a clock to the nearest minute, right in the browser with no account.",
+        "An analog clock shows its minute marks and an exact time like 3:23, 7:47, 10:08, or 12:41, and the child reads the hands and taps the matching digital time from three choices. Sprocket the rooster cheers along in this interactive Grade 3 time activity about reading a clock to the nearest minute, right in the browser.",
         "The challenge is reading past the nearest five: the child finds the closest five-minute mark by counting in fives, then counts the small ticks on to the exact minute, so the long hand just past the 4 reads 23, not 20. The wrong choices sit only a minute or two away, so estimating to the nearest five is not enough — the child has to read the precise minute. This is the most exact clock reading in the elementary grades.",
         "It is aligned to Common Core 3.MD.A.1 — telling and writing time to the nearest minute. No timer, no score — just calm, playful practice."
       ],
@@ -1410,7 +1410,7 @@
     },
     "clock-elapsed.add-subtract.3-md-a-1": {
       "about": [
-        "Sprocket the rooster shows a start time on an analog face — say 3:00, 7:20, or 12:10 — and asks either 'What time will it be in 30 minutes?' or 'What time was it 30 minutes ago?' The child reads the hands, counts the minutes forward or back, and taps the matching digital time from three cards, in this Grade 3 time activity that runs right in the browser with no install and no account.",
+        "Sprocket the rooster shows a start time on an analog face — say 3:00, 7:20, or 12:10 — and asks either 'What time will it be in 30 minutes?' or 'What time was it 30 minutes ago?' The child reads the hands, counts the minutes forward or back, and taps the matching digital time from three cards, in this Grade 3 time activity that runs right in the browser with no install.",
         "The activity mixes counting on and counting back on purpose, so a child cannot lock into one direction. Several rounds cross an hour boundary in both directions — 3:45 plus 30 lands on 4:15, while 12:10 minus 20 slips back to 11:50 and 1:05 minus 10 becomes 12:55. The three choices are close together, like the right answer, the same shift in the wrong direction, and a near time, so the child has to track which way the question points and roll the hour over correctly rather than nudge the nearest number.",
         "It is aligned to Common Core 3.MD.A.1 — solving elapsed-time word problems in minutes by adding and subtracting on a clock. No timer, no score — just calm, playful practice."
       ],
@@ -1433,7 +1433,7 @@
     },
     "clock-elapsed.what-time.3-md-a-1": {
       "about": [
-        "Sprocket the rooster shows a start time on an analog clock — 3:00, 7:20, 10:50, 2:15 — and asks, for example, 'What time will it be in 30 minutes?' The child reads the hands, counts on the minutes, and taps the matching digital time from three cards, in this Grade 3 time activity that plays right in the browser with no sign-up.",
+        "Sprocket the rooster shows a start time on an analog clock — 3:00, 7:20, 10:50, 2:15 — and asks, for example, 'What time will it be in 30 minutes?' The child reads the hands, counts on the minutes, and taps the matching digital time from three cards, in this Grade 3 time activity that plays right in the browser.",
         "Every round here counts forward, and most of them cross the next hour, which is the part that trips children up. Three o'clock plus thirty is an easy 3:30, but 3:45 plus 30 must roll past four to 4:15, 10:50 plus 20 jumps to 11:10, and 2:15 plus 45 lands exactly on 3:00. The two wrong cards are deliberately tempting — a time that forgot to roll the hour, or one that added the minutes the lazy way — so the only sure path is to count on carefully and carry the hour.",
         "It is aligned to Common Core 3.MD.A.1 — solving elapsed-time problems in minutes by counting on from a start time. No timer, no score — just calm, playful practice."
       ],
@@ -1601,7 +1601,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "A creek forks twice on its way to a pond where a friend is waiting — a frog, a fox, a hedgehog. At each fork two number buoys float, one in each channel, and a little sign at the top gives the rule for this trip: follow the bigger numbers, or follow the smaller ones. The child taps one number at each fork, the planned route lights up, and Check sends a sailboat down it. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "A creek forks twice on its way to a pond where a friend is waiting — a frog, a fox, a hedgehog. At each fork two number buoys float, one in each channel, and a little sign at the top gives the rule for this trip: follow the bigger numbers, or follow the smaller ones. The child taps one number at each fork, the planned route lights up, and Check sends a sailboat down it. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "The rule changes from trip to trip, so the child has to read the sign and the numbers every time — a child who always picks the bigger number will not get through. If the route is wrong, the boat sails as far as it can and stops in the reeds at the first wrong fork, and that fork is ringed: which number there is bigger (or smaller)? After a second try, dots appear under the two numbers at that fork, so the child can count which has more. A right route takes the boat all the way to the friend: “Yes — you followed the bigger numbers, 7 and 5, all the way to the pond!” Some forks are far apart, like 2 and 7, and some are neighbours, like 7 and 8. The two numbers are never the same.",
         "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 or up to 10, and a rule that changes every trip, or always the bigger, or always the smaller. No timer, no score."
       ],
@@ -1625,7 +1625,7 @@
     },
     "compound-meaning.predict.l-2-4-d": {
       "about": [
-        "Skip the squirrel welds two word-blocks together — fish and bowl, milk and jug, egg and cup, foot and ball — and the child works out what the new word means from its parts; a fishbowl is a bowl for fish, not a bowl made of fish. Skip's Word-Welding Yard is a Grade 2 vocabulary game about compound words that plays in the browser with no sign-up.",
+        "Skip the squirrel welds two word-blocks together — fish and bowl, milk and jug, egg and cup, foot and ball — and the child works out what the new word means from its parts; a fishbowl is a bowl for fish, not a bowl made of fish. Skip's Word-Welding Yard is a Grade 2 vocabulary game about compound words that plays in the browser.",
         "The activity teaches children to read a compound from its pieces instead of memorizing it. Different rounds approach this from several directions: choose the right meaning (a bed for dogs, not made of dogs), pick the correctly-ordered compound (football, not ballfoot or handball), supply the missing part in a frame like 'a bed for ___,' or name which word is the main thing the compound is (a fishbowl is a kind of bowl). The wrong choices are pointed — 'made of' instead of 'for,' the two words reversed, or the wrong first word — so children must reason about how the parts combine.",
         "It is aligned to Common Core L.2.4.d — using knowledge of the meaning of individual words to predict the meaning of compound words. No timer, no score — just calm, playful practice."
       ],
@@ -1648,7 +1648,7 @@
     },
     "contraction.apostrophe.l-2-2-c": {
       "about": [
-        "Nib the apostrophe-spirit shows two words — do and not, it and is, you and are, I and am — and the child picks the contraction that drops the right letters and puts the apostrophe in exactly the right spot, making don't, it's, you're, and I'm. Nib's Apostrophe Seat is a Grade 2 grammar activity about forming contractions that runs in the browser with no account.",
+        "Nib the apostrophe-spirit shows two words — do and not, it and is, you and are, I and am — and the child picks the contraction that drops the right letters and puts the apostrophe in exactly the right spot, making don't, it's, you're, and I'm. Nib's Apostrophe Seat is a Grade 2 grammar activity about forming contractions that runs in the browser.",
         "The thing children most often get wrong is where the apostrophe goes, so that is exactly what the choices test: the right answer sits next to a look-alike with the apostrophe in the wrong place. The set also slips in the tricky irregulars — will not becomes won't and can not becomes can't, where more than the obvious letters change — so children learn that an apostrophe marks the missing letters rather than just sitting wherever it looks nice.",
         "It is aligned to Common Core L.2.2.c — using an apostrophe to form contractions. No timer, no score — just calm, playful practice."
       ],
@@ -1763,7 +1763,7 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "One writing line, three boxes. The first box shows the whole road of the numeral with a green start dot; the second only a faint line; the third is empty. The child writes the number with a finger in each box in turn — 0 to 9, one numeral per round — and the ink appears only where the finger has actually travelled the stroke, from its start. When the third box is done, the three numerals the child wrote stand on the line and the number is spoken. It is an interactive Kindergarten handwriting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "One writing line, three boxes. The first box shows the whole road of the numeral with a green start dot; the second only a faint line; the third is empty. The child writes the number with a finger in each box in turn — 0 to 9, one numeral per round — and the ink appears only where the finger has actually travelled the stroke, from its start. When the third box is done, the three numerals the child wrote stand on the line and the number is spoken. It is an interactive Kindergarten handwriting activity that runs in the browser on tablets, phones and computers, with nothing to install.",
         "The big idea is the handwriting-book method — model, trace, copy — with the help fading inside one line, so the last numeral is the child’s own. Stroke order and direction are built in: a stroke only counts when it is drawn from its starting point along its path, so a numeral drawn from the bottom, or flipped, does not pass. The slips young writers make are named from the finger’s own path — started at the other end, flipped the wrong way, went round the wrong way, stopped short — and after three tries the faint line comes back to help, then the whole road. A walker can show the strokes on request, and Rub out starts a box again. Settings keep the full guide in every box for a class that needs it, or remove it for one that is ready to write alone; the paper can show three lines or one.",
         "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
       ],
@@ -1809,7 +1809,7 @@
     },
     "echo-grove.match-the-rune.3-oa-a-1": {
       "about": [
-        "Pim shows a rune such as 3 × 4, and the child taps the grove that shows 3 groups of 4 fruits — raspberries, strawberries, apples, lemons, pears, bananas, oranges, or plums. This interactive Grade 3 math activity is about reading multiplication as equal groups, and it runs in the browser on any device with nothing to install and no account.",
+        "Pim shows a rune such as 3 × 4, and the child taps the grove that shows 3 groups of 4 fruits — raspberries, strawberries, apples, lemons, pears, bananas, oranges, or plums. This interactive Grade 3 math activity is about reading multiplication as equal groups, and it runs in the browser on any device with nothing to install.",
         "The big idea is that the two numbers in a product mean different things: the first factor is how many groups, and the second is how many in each group. The trap in every round is a look-alike grove with the same total but the wrong grouping — for 3 × 4 the decoy might show 4 groups of 3. Both hold twelve fruits, so a child who only counts the total is fooled; the child has to read the grouping itself, which is exactly what 3 × 4 and 4 × 3 record differently.",
         "It is aligned to Common Core 3.OA.A.1 — interpreting products of whole numbers as the total number of objects in equal groups. No timer, no score — just calm, playful practice."
       ],
@@ -1832,7 +1832,7 @@
     },
     "fern-clue-garden.context-clues.l-2-4-a": {
       "about": [
-        "Fern the fawn works out what a tricky word means by reading the words around it: each round shows a sentence with a word that has more than one meaning — bark, bat, trunk, ring, light, fair, wave, park, or duck — and the child reads the whole sentence and taps the meaning that fits. It's an interactive Grade 2 vocabulary game played in the browser on any device with no sign-up.",
+        "Fern the fawn works out what a tricky word means by reading the words around it: each round shows a sentence with a word that has more than one meaning — bark, bat, trunk, ring, light, fair, wave, park, or duck — and the child reads the whole sentence and taps the meaning that fits. It's an interactive Grade 2 vocabulary game played in the browser on any device.",
         "The big idea is that many everyday words mean different things, and the sentence tells you which one. In each round one wrong choice is a real, correct definition of the word — just not the one this sentence is using (for 'The puppy began to bark,' the tree-bark meaning is offered as a tempting decoy) — and another choice is simply off. So a child cannot pick by recognizing the word alone; they have to use the context clues to decide.",
         "It is aligned to Common Core L.2.4.a — using sentence-level context as a clue to the meaning of a word or phrase. No timer, no score — just calm, playful practice."
       ],
@@ -1905,7 +1905,7 @@
     },
     "fox-forge.fraction.3-nf-a-1": {
       "about": [
-        "Pip the fox takes a chocolate order like three fourths, then the child picks the unit piece by its size — there are no labels to read — and forges it the right number of times along the bar. Rounds cover halves, thirds, fourths, sixths, and eighths, including 3/4, 2/3, 3/8, and 5/6. It's an interactive Grade 3 fractions activity that runs in the browser on any device, with nothing to install and no account.",
+        "Pip the fox takes a chocolate order like three fourths, then the child picks the unit piece by its size — there are no labels to read — and forges it the right number of times along the bar. Rounds cover halves, thirds, fourths, sixths, and eighths, including 3/4, 2/3, 3/8, and 5/6. It's an interactive Grade 3 fractions activity that runs in the browser on any device, with nothing to install.",
         "The big idea is that a fraction is built from copies of a unit fraction: 3/4 is three of the one-fourth pieces. Because the molds are shown by size, not labeled, the child has to judge which piece fits the whole bar the right number of times — one round even offers an unequal mold to reject, and another asks the same 3/4 on a bigger bar to show the share looks larger when the whole is larger. There are also 'name the unit' rounds where the bar is already split and the child picks the fraction for one part.",
         "It is aligned to Common Core 3.NF.A.1 — understanding a fraction 1/b as one part of a whole split into b equal parts, and a/b as a parts of size 1/b. No timer, no score — just calm, playful practice."
       ],
@@ -1928,7 +1928,7 @@
     },
     "fraction-equiv.same-amount.3-nf-a-3": {
       "about": [
-        "Crumb the mouse shows a piece cut one way, then three more cut into more or fewer slices, and the child taps the one that is the same amount — the equivalent fraction — for pairs like 1/2 and 3/6, or 3/4 and 6/8. Each fraction appears as a shaded bar beside its numbers, so the size is visible. It's an interactive Grade 3 fractions activity that plays in the browser on any device, with no sign-up.",
+        "Crumb the mouse shows a piece cut one way, then three more cut into more or fewer slices, and the child taps the one that is the same amount — the equivalent fraction — for pairs like 1/2 and 3/6, or 3/4 and 6/8. Each fraction appears as a shaded bar beside its numbers, so the size is visible. It's an interactive Grade 3 fractions activity that plays in the browser on any device.",
         "The big idea is that different fractions can name the very same amount. The reference fraction (such as 1/2, 1/3, 2/3, or 3/4) sits beside three candidates that are cut into different numbers of slices, and only one shades the same length of bar. The other choices are close but wrong — for 1/2 the decoys might be 2/6 or 5/6 — so the child compares the shaded amounts, not just the numbers, and learns to look past 'different numbers' to 'same size.'",
         "It is aligned to Common Core 3.NF.A.3 — recognizing and generating simple equivalent fractions and explaining why they are equal. No timer, no score — just calm, playful practice."
       ],
@@ -2024,7 +2024,7 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Two plates of toys sit one above the other, with a little plank bridge between them — seven balls on top, say, and three below. Which plate has more, or do they have the same? The child taps the plate with more, or “The same”. Then comes the fair part: the child taps a toy to send it walking across the bridge to the other plate, until both plates have the same, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Two plates of toys sit one above the other, with a little plank bridge between them — seven balls on top, say, and three below. Which plate has more, or do they have the same? The child taps the plate with more, or “The same”. Then comes the fair part: the child taps a toy to send it walking across the bridge to the other plate, until both plates have the same, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "Making “the same” by hand is where counting earns its keep. Seven and three do not become five and five with one tap: the child sends a toy across, counts both plates, sends another, counts again — and sees that the plate with more gets smaller while the other grows. A wrong first answer only makes the plate shake, so the child looks again. A Check before the plates are the same says which plate still has more and numbers the toys on both plates for that look; after a second, one toy on the bigger plate lights up to show the next one to send. A right Check says it with numbers: “Fair! 5 and 5.” The totals are always even, so a fair share is always possible, and each plate has room for twelve, so its size never gives the answer away.",
         "It is aligned to Common Core K.CC.C.6 — saying whether one group has more than, fewer than or the same as another, by counting, up to 10 — and to what “the same” means. Teachers can choose groups up to 5 or up to 10, and lay the toys out in rows instead of scattered, which makes the comparison easier to see. No timer, no score."
       ],
@@ -2048,7 +2048,7 @@
     },
     "gabby-sayings.idioms.l-3-5-a": {
       "about": [
-        "Gabby the goose explores funny sayings that don't mean what the words say — the child reads an idiom in a sentence, like 'It's raining cats and dogs,' 'a piece of cake,' 'hold your horses,' or 'let the cat out of the bag,' and taps what it really means. It's an interactive Grade 3 vocabulary game that runs in the browser, with nothing to install and no account.",
+        "Gabby the goose explores funny sayings that don't mean what the words say — the child reads an idiom in a sentence, like 'It's raining cats and dogs,' 'a piece of cake,' 'hold your horses,' or 'let the cat out of the bag,' and taps what it really means. It's an interactive Grade 3 vocabulary game that runs in the browser, with nothing to install.",
         "The big idea is that figurative language carries a meaning beyond the literal words. In every round one wrong choice is the funny literal picture (cats and dogs truly falling, an actual potato on the couch), which is exactly the trap, and another choice is simply off. So the child cannot pick the words at face value — they have to think about what the saying means when people really use it.",
         "It is aligned to Common Core L.3.5.a — distinguishing the literal and nonliteral meanings of words and phrases in context. No timer, no score — just calm, playful practice."
       ],
@@ -2141,7 +2141,7 @@
     },
     "halfway-harbors.nearest.3-nbt-a-1": {
       "about": [
-        "Marina the lighthouse-cat sends each little boat to its nearest round-number harbor: a boat sits at a spot on a number line — 63, 47, 24, or larger numbers like 247, 360, and 480 — and the child taps the harbor it is closest to, rounding to the nearest ten or hundred. It's an interactive Grade 3 math activity that plays in the browser, with no sign-up.",
+        "Marina the lighthouse-cat sends each little boat to its nearest round-number harbor: a boat sits at a spot on a number line — 63, 47, 24, or larger numbers like 247, 360, and 480 — and the child taps the harbor it is closest to, rounding to the nearest ten or hundred. It's an interactive Grade 3 math activity that plays in the browser.",
         "The heart of the activity is the halfway point. Some rounds ask the child to find the buoy in the middle between two harbors first — is 45 the halfway mark between 40 and 50? — so they can see which side the boat falls on. That focus is what makes rounding make sense rather than a rule to memorize, and it handles the tricky case where a number like 75 sits right on the line and rounds up. The child reads the position on the number line and decides; they do not just look at the last digit in isolation.",
         "It is aligned to Common Core 3.NBT.A.1 — using place-value understanding to round whole numbers to the nearest 10 or 100. No timer, no score — just calm, playful practice."
       ],
@@ -2375,7 +2375,7 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mama Duck calls the morning roll at the pond. Her card shows dots, and the child sends exactly that many ducklings from the raft to the bank — one tap, one duckling paddling across. Then the child signs the roll: presses the number stamp for how many came and traces the number in the mud with a finger. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "Mama Duck calls the morning roll at the pond. Her card shows dots, and the child sends exactly that many ducklings from the raft to the bank — one tap, one duckling paddling across. Then the child signs the roll: presses the number stamp for how many came and traces the number in the mud with a finger. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install.",
         "Mama never shows a numeral (unless the teacher chooses it), so the child counts the dots, counts out the same number of ducklings, and writes the number that tells how many — the numeral is the child's own answer. More ducklings wait on the raft than Mama asks for, so the child has to decide when to stop, and a tap on a duckling on the bank sends it back. The ducklings land scattered, so counting them again is real counting. Check reads the bank first, then the signature, and says what is missing: too many, too few, no number yet, a number that is not how many came, or a number not yet traced. After a wrong Check the ducklings on the bank are numbered; after a second, Mama's dots are too. The help never moves a duckling.",
         "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" and counting out a given number of things — together with writing the numeral that tells how many (K.CC.A.3). Teachers can choose numbers up to 5 or up to 9, and whether Mama's card shows dots or the number itself. No timer, no score."
       ],
@@ -2399,7 +2399,7 @@
     },
     "mango-animal-groups.collective-nouns.l-2-1-a": {
       "about": [
-        "Mango the monkey knows the special name for a group of animals — a herd of cows, a school of fish, a pack of wolves — so the child looks at the animal, then taps the word that names a whole group of them. It's an interactive Grade 2 grammar activity that plays in the browser, with no account.",
+        "Mango the monkey knows the special name for a group of animals — a herd of cows, a school of fish, a pack of wolves — so the child looks at the animal, then taps the word that names a whole group of them. It's an interactive Grade 2 grammar activity that plays in the browser.",
         "The big idea is collective nouns, the focus of L.2.1.a. The three choices are all real group words — herd, flock, pack, swarm, school, pride, bunch — so the child cannot pick by ruling out nonsense; they have to know which group word belongs to which animal. Covering bees in a swarm, lions in a pride, and even grapes in a bunch shows that English has a rich, specific vocabulary for groups.",
         "It is aligned to Common Core L.2.1.a — using collective nouns. No timer, no score — just calm, playful practice."
       ],
@@ -2422,7 +2422,7 @@
     },
     "maple-bakery.share.3-oa-a-2": {
       "about": [
-        "Maple the mouse divides cookies two ways: in sharing rounds the child deals cookies equally onto a set number of plates — 12 cookies onto 3 plates — and in packing rounds the child packs them into boxes that each hold the same number, like 18 cookies into boxes of 6, and finds how many boxes are needed. It's an interactive Grade 3 math activity that runs in the browser, with no sign-up.",
+        "Maple the mouse divides cookies two ways: in sharing rounds the child deals cookies equally onto a set number of plates — 12 cookies onto 3 plates — and in packing rounds the child packs them into boxes that each hold the same number, like 18 cookies into boxes of 6, and finds how many boxes are needed. It's an interactive Grade 3 math activity that runs in the browser.",
         "The big idea is the two meanings of division. Sharing asks 'how many in each group?' when you know the number of groups, while grouping asks 'how many groups?' when you know the size of each — and seeing both with the same kind of cookie problem shows that 12 ÷ 4 can answer either question. Because the child actually deals or packs the cookies, the division answer becomes a thing they can see and count, not a fact to recall.",
         "It is aligned to Common Core 3.OA.A.2 — interpreting whole-number quotients as objects shared equally into groups or as the number of equal groups. No timer, no score — just calm, playful practice."
       ],
@@ -2587,7 +2587,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Children work out cards like 8 + 5, 9 + 7, 14 − 6, and 17 − 8, then tap each fact and the number that is its answer to link the pair and build fluency within 20. It's an interactive Grade 2 math activity that runs right in the browser, with nothing to install and no account.",
+        "Children work out cards like 8 + 5, 9 + 7, 14 − 6, and 17 − 8, then tap each fact and the number that is its answer to link the pair and build fluency within 20. It's an interactive Grade 2 math activity that runs right in the browser, with nothing to install.",
         "The big idea is quick, confident recall of addition and subtraction facts to 20. Each round mixes three facts — some plus, some minus — with their three answers jumbled in, so children compute each fact and then locate its matching value. Repeated practice across the rounds nudges facts like 9 + 9 = 18 and 16 − 9 = 7 from counting toward memory.",
         "It is aligned to Common Core 2.OA.B.2 — fluently adding and subtracting within 20 and knowing all sums of two one-digit numbers from memory. No timer, no score — just calm, playful practice."
       ],
@@ -2656,7 +2656,7 @@
     },
     "mending-fences.mend-board.3-md-d-8": {
       "about": [
-        "Hazel the badger has paddock fences to mend, and children pitch in by finding the missing board when the whole fence and one side are known — a 6-by-4 paddock needs a board of 4, not 14 or 8. Along the way they judge which field needs more fence but grows less grass, tell the marks around the edge from the squares inside, and check whether a roll of fence reaches all the way around, in an interactive Grade 3 math activity that plays right in the browser with no install and no account.",
+        "Hazel the badger has paddock fences to mend, and children pitch in by finding the missing board when the whole fence and one side are known — a 6-by-4 paddock needs a board of 4, not 14 or 8. Along the way they judge which field needs more fence but grows less grass, tell the marks around the edge from the squares inside, and check whether a roll of fence reaches all the way around, in an interactive Grade 3 math activity that plays right in the browser with no install.",
         "The big idea is that perimeter is the distance all the way around a shape — a length — and not the space it covers. The rounds deliberately pit fence against grass: a long, thin 9-by-2 field and a square 5-by-5 field invite children to compare the fence around with the grass inside and discover the two can disagree. By fencing the edge in some rounds and counting inside squares in others, children feel the difference instead of memorizing a rule.",
         "It is aligned to Common Core 3.MD.D.8 — solving real-world problems involving perimeter, including finding an unknown side length and comparing shapes with the same perimeter or area. No timer, no score — just calm, playful practice."
       ],
@@ -2702,7 +2702,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi has ordered a box of treats, and the order ticket shows how many — 7, say. The child taps treats on the tray, and each one drops into a bakery box with the lid on: one tap, one treat out of sight. When the child thinks the box holds exactly the number on the ticket, they press Check and the box opens. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "Mochi has ordered a box of treats, and the order ticket shows how many — 7, say. The child taps treats on the tray, and each one drops into a bakery box with the lid on: one tap, one treat out of sight. When the child thinks the box holds exactly the number on the ticket, they press Check and the box opens. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install.",
         "The lid is the point. Once a treat is in the box it cannot be seen, so the count has to stay in the child's head — the last number said is how many are in the box, and the child has to stop there. Counting out a given number is harder than counting a group that is already there, and the closed box makes the child keep the count instead of looking. A tap on the lid lifts it for a short peek, and it drops again by itself; while the box is open, a tap on a treat inside puts it back on the tray. The tray always holds more treats than any order (12, or 7 when the numbers go up to 5), so its size never gives the answer. A wrong Check says too many or too few and leaves the lid off for the rest of the round; after a second, the treats in the box are numbered and the box marks the extra treats or the empty places still needed. The help never moves a treat.",
         "It is aligned to Common Core K.CC.B.5 — counting out a given number of things, up to 10 — and to the idea behind it, that the last number counted tells how many (K.CC.B.4b). Teachers can choose numbers up to 5 or up to 10, and take the lid off so the treats stay in sight. No timer, no score."
       ],
@@ -2774,7 +2774,7 @@
     },
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
-        "Tessa shows a mosaic — say a 2-by-3 block of 6 tiles — and children find the one made of the same number of unit tiles, which might be a single row of 6 even though it is shaped nothing like the target. It's an interactive Grade 3 math activity that runs right in the browser with nothing to install and no account.",
+        "Tessa shows a mosaic — say a 2-by-3 block of 6 tiles — and children find the one made of the same number of unit tiles, which might be a single row of 6 even though it is shaped nothing like the target. It's an interactive Grade 3 math activity that runs right in the browser with nothing to install.",
         "The big idea is that area is a count of unit squares, the same no matter the shape. One of the look-alike choices is a bigger-looking shape with the wrong count — a 3-by-3 of 9 tiles next to a 2-by-3 of 6 — so a child cannot pick by which looks largest and has to actually count the squares. Matching across different shapes is exactly what makes area click as a count rather than an impression.",
         "It is aligned to Common Core 3.MD.C.6 — measuring areas by counting unit squares. No timer, no score — just calm, playful practice."
       ],
@@ -2820,7 +2820,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Four flowerpots wait in a row — 6, 9, 2 and 4, say — and they all look exactly the same: only the number painted on each one is different. The child taps a pot and it drops into the nest, growing to the size of its number as it lands: the 9 becomes a big pot, the 2 a small one. A pot only fits inside a pot with a bigger number, so the nest has to be built from the biggest number down to the smallest. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Four flowerpots wait in a row — 6, 9, 2 and 4, say — and they all look exactly the same: only the number painted on each one is different. The child taps a pot and it drops into the nest, growing to the size of its number as it lands: the 9 becomes a big pot, the 2 a small one. A pot only fits inside a pot with a bigger number, so the nest has to be built from the biggest number down to the smallest. It's an interactive Kindergarten activity that runs in the browser with nothing to install.",
         "Because every pot in the row is the same size, size gives nothing away: the child reads and compares the numbers, and trying a pot shows at once whether it fits. The pots themselves answer back: a pot that is too big sticks out over the rim, wobbles and goes back to the row. Choosing a small pot too early leads to a dead end — put the 9 in and then the 2, and neither the 6 nor the 4 fits any more — so the inside pot glows, and a tap lifts it out again. After two bounces, dots appear on the waiting pots so the child can count which number is biggest. When every pot is in, Check reads the nest out: “Yes — 9, 6, 4, 2: from the biggest number to the smallest!”",
         "It is aligned to Common Core K.CC.C.7 — comparing numbers between 1 and 10 presented as written numerals, here three or four at a time. Teachers can choose three pots up to 5 or four pots up to 10, and show the dots only as a help or always. No timer, no score."
       ],
@@ -3137,7 +3137,7 @@
     },
     "patchwork-meadow.tile.3-md-c-6": {
       "about": [
-        "Sprout the gardener has irregular flower beds — L-shapes, staircases, and crosses — and children carpet each one completely with moss-patch unit squares, leaving no gaps and no overlaps, then count the squares to find the area. It's an interactive Grade 3 math activity that runs right in the browser with no account.",
+        "Sprout the gardener has irregular flower beds — L-shapes, staircases, and crosses — and children carpet each one completely with moss-patch unit squares, leaving no gaps and no overlaps, then count the squares to find the area. It's an interactive Grade 3 math activity that runs right in the browser.",
         "Because the beds are not plain rectangles, there is no length to multiply by a width — the child measures area the real way, by covering the space with unit squares and counting them. The rounds vary the thinking: cover an empty bed, fix a covering that has a gap and an overlap, predict an area before tiling, finish a partly-covered bed, and build a bed of an exact size such as 5 or 6 squares.",
         "It is aligned to Common Core 3.MD.C.6 (with 3.MD.C.5) — measuring area by counting unit squares with no gaps or overlaps. No timer, no score — just calm, playful practice."
       ],
@@ -3252,7 +3252,7 @@
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {
       "about": [
-        "Pim the carrier pigeon delivers letters, and a letter needs its commas in exactly the right spot, so children read three ways to write a greeting like 'Dear Sam' or a closing like 'Your friend,' and tap the one punctuated correctly. It's an interactive Grade 2 grammar activity that runs right in the browser with no account.",
+        "Pim the carrier pigeon delivers letters, and a letter needs its commas in exactly the right spot, so children read three ways to write a greeting like 'Dear Sam' or a closing like 'Your friend,' and tap the one punctuated correctly. It's an interactive Grade 2 grammar activity that runs right in the browser.",
         "The big idea is that the comma goes at the END of the greeting and the END of the closing — after the name, not before it. The three choices are built around the common mistakes: the correct form ('Dear Sam,'), a version with no comma at all ('Dear Sam'), and a version with the comma in the wrong place ('Dear, Sam'). The child has to know where the comma belongs, not just notice that a comma is somewhere on the card.",
         "It is aligned to Common Core L.2.2.b — using commas in the greeting and closing of a letter. No timer, no score — just calm, playful practice."
       ],
@@ -3299,7 +3299,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "A street of five houses, each with a printed number plate over its door, and a post van with three letters. The address on every letter is written by hand — in the same hand children learn to write their numerals — while the plates are printed, so the child cannot match shapes: the number has to be read. The child drags each letter to a house; it goes through one slot only. When the right door opens, the neighbour steps onto the doorstep, the number is spoken, and the next letter pops up. When the third letter is posted, the round checks itself. An interactive Kindergarten numeral-reading activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "A street of five houses, each with a printed number plate over its door, and a post van with three letters. The address on every letter is written by hand — in the same hand children learn to write their numerals — while the plates are printed, so the child cannot match shapes: the number has to be read. The child drags each letter to a house; it goes through one slot only. When the right door opens, the neighbour steps onto the doorstep, the number is spoken, and the next letter pops up. When the third letter is posted, the round checks itself. An interactive Kindergarten numeral-reading activity that runs in the browser on tablets, phones and computers, with nothing to install.",
         "The big idea is reading numerals 0 to 20 as numbers, not as pictures. Every street carries the mix-ups young readers make: 13 lives next to 31, so the order of the digits matters; 14 sits among 13 and 11, so the last digit has to be read; 14 stands beside 4, so one digit is not two; and 6 sits near 9, 2 near 5, 1 near 7. A wrong door answers with its own number beside the letter's and names the slip — the same digits the other way round, look at the last digit, two digits not one — and after two misses the right plate glows. Settings keep the numbers to 10 for a class that is starting, or switch the address from written to spoken so the child listens for the number, with a Show button for a quiet room.",
         "It is aligned to Common Core K.CC.A.3 — reading written numerals from 0 to 20. No timer, no score — just calm, playful practice."
       ],
@@ -3535,7 +3535,7 @@
     },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
-        "Pippa the frog runs a pond-juice stand where a customer orders by feel — \"a dragonfly wants about six cups!\" — and the child pours into a frosted beaker, then taps Pour or Look to reveal where the juice really landed on a 0-to-10 scale and taps that number. It's an interactive Grade 3 measurement activity that runs in the browser with no account.",
+        "Pippa the frog runs a pond-juice stand where a customer orders by feel — \"a dragonfly wants about six cups!\" — and the child pours into a frosted beaker, then taps Pour or Look to reveal where the juice really landed on a 0-to-10 scale and taps that number. It's an interactive Grade 3 measurement activity that runs in the browser.",
         "The activity is built so reading the scale is the only thing being judged — not how carefully you pour. The level stays invisible during the pour, so there is no line to chase, and the answer is the revealed level, never the order: when the customer asks for 'about six' but the juice reaches 5, tapping 6 is wrong. Some rounds show two beakers — including a tall-thin one beside a short-wide one, or scales that go to 10 next to one that goes to 20 — so the bigger-looking cup is not always the one with more; the number decides.",
         "It is aligned to Common Core 3.MD.A.2 — measuring and estimating liquid volumes using a scale. No timer, no score — just calm, playful practice."
       ],
@@ -3558,7 +3558,7 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy packs her eggs in cartons of ten, and the child counts them the fast way. Tap each carton on the shelf and it gets a tag with the running total — 10, 20, 30 — so the fourth carton says 40 and the last carton tells how many eggs; then tap that number on the rail. In a packing round the shelf starts empty and the child adds cartons until the last one says the number asked for. It runs in the browser, with nothing to install and no account.",
+        "Posy packs her eggs in cartons of ten, and the child counts them the fast way. Tap each carton on the shelf and it gets a tag with the running total — 10, 20, 30 — so the fourth carton says 40 and the last carton tells how many eggs; then tap that number on the rail. In a packing round the shelf starts empty and the child adds cartons until the last one says the number asked for. It runs in the browser, with nothing to install.",
         "A carton is drawn as a lidded tray with two rows of five egg cells, so one carton plainly stands for ten, not one. The tags make counting by tens visible: each carton wears the total so far, which is what counting by tens means. The two usual slips get their own help — tapping 10 as if the shelf held one egg per carton brings the reminder that a carton is ten eggs, and picking the wrong number is caught on the rail. Count again clears the tags for a second run.",
         "It is aligned to Common Core K.CC.A.1 — counting to 100 by tens, both reading a group of tens and building one. No timer, no score — just calm, hands-on counting."
       ],
@@ -3628,7 +3628,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "A glass jar of toys with an empty label on its lid. The child counts — every toy takes a mark when it is tapped — and writes how many on the number keys; the digits appear on the label. Check lays the label against the jar: the toys file into as many places as the label says, and if the label is right it turns gold and sticks while the number is spoken. In the other kind of round the label is already written and the jar is empty: the child taps toys on the shelf to drop them in until the jar holds that many. An interactive Kindergarten counting-and-writing activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "A glass jar of toys with an empty label on its lid. The child counts — every toy takes a mark when it is tapped — and writes how many on the number keys; the digits appear on the label. Check lays the label against the jar: the toys file into as many places as the label says, and if the label is right it turns gold and sticks while the number is spoken. In the other kind of round the label is already written and the jar is empty: the child taps toys on the shelf to drop them in until the jar holds that many. An interactive Kindergarten counting-and-writing activity that runs in the browser on tablets, phones and computers, with nothing to install.",
         "The big idea is the two-way link in numeral work: a count of things becomes a written number, and a written number becomes a count of things. Up to ten the toys sit loosely; from eleven to twenty they stand in rows, so the eye can keep its place. A wrong label is answered by the jar, not by a cross: a label too small leaves toys standing without a place, a label too big leaves empty dashed places, and the slip is named — the digits the other way round (41 for 14) or only the ones (4 for 14). Settings keep the numbers to 10 for a class that is starting, or choose only the counting rounds or only the filling rounds.",
         "It is aligned to Common Core K.CC.A.3 — writing numbers to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
       ],
@@ -3651,7 +3651,7 @@
     },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
-        "Roary the lion's roar can be soft or mighty, and so can words: shown big, large, huge, the child taps the strongest one — or, in other rounds, the weakest. It's an interactive Grade 2 vocabulary activity that runs in the browser with no account.",
+        "Roary the lion's roar can be soft or mighty, and so can words: shown big, large, huge, the child taps the strongest one — or, in other rounds, the weakest. It's an interactive Grade 2 vocabulary activity that runs in the browser.",
         "The big idea is shades of meaning: near-synonyms are not interchangeable, because some are stronger than others. Across the rounds children rank heat (warm, hot, boiling), loudness (talk, shout, scream), tiredness (tired, sleepy, exhausted), and feeling words like good/great/amazing, like/love/adore, and sad/upset/miserable. The prompt switches between asking for the strongest and the weakest, so a child has to think about the whole little scale rather than reaching for one habit answer.",
         "It is aligned to Common Core L.2.5.b — distinguishing shades of meaning among closely related words. No timer, no score — just calm, playful practice."
       ],
@@ -3674,7 +3674,7 @@
     },
     "robin-mirror.reflexive.l-2-1-c": {
       "about": [
-        "Robin holds up a mirror to show how a reflexive pronoun points right back at the doer: \"Mia poured the juice ___\" or \"I made this card all by ___,\" and the child taps the word that matches the subject — herself, myself, themselves. It's an interactive Grade 2 grammar activity that runs in the browser with no account.",
+        "Robin holds up a mirror to show how a reflexive pronoun points right back at the doer: \"Mia poured the juice ___\" or \"I made this card all by ___,\" and the child taps the word that matches the subject — herself, myself, themselves. It's an interactive Grade 2 grammar activity that runs in the browser.",
         "The whole idea is agreement: the reflexive pronoun has to match who the subject is — Mia takes herself, Sam takes himself, I takes myself, the twins take themselves, and the cat takes itself. The choices are all reflexive words but only one matches the subject, so a child cannot pick by 'which one is a real word'; they have to read who is acting and choose the mirror-word that points back to that same person or thing.",
         "It is aligned to Common Core L.2.1.c — using reflexive pronouns correctly. No timer, no score — just calm, playful practice."
       ],
@@ -3697,7 +3697,7 @@
     },
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
-        "Rusty the robot's machine turns today's verbs into yesterday's: shown go, the child taps went — never 'goed.' Each round offers the real irregular past beside the tempting made-up '-ed' form, in an interactive Grade 2 grammar activity that runs in the browser with no account.",
+        "Rusty the robot's machine turns today's verbs into yesterday's: shown go, the child taps went — never 'goed.' Each round offers the real irregular past beside the tempting made-up '-ed' form, in an interactive Grade 2 grammar activity that runs in the browser.",
         "The big idea is that some common verbs are irregular: they do not just add -ed to talk about the past. Each round shows three choices — the correct irregular past (went, ran, ate, saw, gave, took, came, swam), the present-tense word itself, and the tempting made-up '-ed' form (goed, runned, eated, seed, gived, taked, comed, swimmed). Because the made-up form is right there, a child has to know the real past-tense word rather than reaching for the regular -ed pattern.",
         "It is aligned to Common Core L.2.1.d — forming and using frequently occurring irregular past-tense verbs. No timer, no score — just calm, playful practice."
       ],
@@ -3720,7 +3720,7 @@
     },
     "sage-root-garden.roots.l-2-4-c": {
       "about": [
-        "Sage the tortoise grows word families from one root: from farm the child taps the bigger word that grows out of it — farmer — while dodging look-alikes like former and forest. It's an interactive Grade 2 vocabulary activity that runs in the browser with no account.",
+        "Sage the tortoise grows word families from one root: from farm the child taps the bigger word that grows out of it — farmer — while dodging look-alikes like former and forest. It's an interactive Grade 2 vocabulary activity that runs in the browser.",
         "The big idea is using a known root as a clue to a word's meaning: farm grows into farmer, help into helper, paint into painting, care into careful, play into player, teach into teacher. The two wrong choices are deliberately tricky look-alikes and sound-alikes — former and forest beside farmer, hammer and hello beside helper, pointing and planting beside painting — so a child cannot win on the first few letters; they have to find the word that truly contains the whole root.",
         "It is aligned to Common Core L.2.4.c — using a known root word as a clue to the meaning of an unknown word in the same family. No timer, no score — just calm, playful practice."
       ],
@@ -4057,7 +4057,7 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "A night sky full of numbered stars, and one of them is awake — a 7, say, or a 12, never a 1. The child counts on from it by tapping the star that comes next, then the next: each right star wakes with a gold glow, a thread runs to it and the number is spoken, until the thread has drawn a picture — a kite, a cup, a crown, a staircase. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "A night sky full of numbered stars, and one of them is awake — a 7, say, or a 12, never a 1. The child counts on from it by tapping the star that comes next, then the next: each right star wakes with a gold glow, a thread runs to it and the number is spoken, until the thread has drawn a picture — a kite, a cup, a crown, a staircase. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install.",
         "The big idea is counting forward from a number you are given instead of starting over at one. The sky also holds stars numbered below the start — 1 is always there — and tapping one is answered by name: that number comes before yours, you don’t have to go back, count on from where you are. A star too far ahead is named too: one at a time. Nothing lights for a wrong tap, so the picture only ever exists when the count is right, and the strip under the sky reads the run so far — 7, 8, 9 — so the spoken sequence stays visible. Settings go to 10 or to 20 (through the teens), and the extra stars can be switched off for a class that still needs a clear sky.",
         "It is aligned to Common Core K.CC.A.2 — counting forward beginning from a given number within the known sequence. No timer, no score — just calm, playful practice."
       ],
@@ -4437,7 +4437,7 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Two rock pools sit side by side (one above the other on a phone). The first holds sea creatures — seven crabs scattered about, say, or six starfish in a ring. The child counts them, then fills the empty twin pool with just as many, but of a different kind: seven starfish for seven crabs. When the twin pool is ready, the child presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "Two rock pools sit side by side (one above the other on a phone). The first holds sea creatures — seven crabs scattered about, say, or six starfish in a ring. The child counts them, then fills the empty twin pool with just as many, but of a different kind: seven starfish for seven crabs. When the twin pool is ready, the child presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install.",
         "Both halves of counting are in one move: count how many there are, then count out that many. The creatures in the first pool come in a line, a ring, rows or a scatter, and a tap on one marks it as counted, so the child can keep track of which ones are done; the mark is never a number. In the twin pool the child taps an empty place to put a creature in and taps a creature to take it out. Because the twin creatures are, by default, a different kind and lie in a different shape, only the number can match. The twin pool always has more places than any round needs (12, or 8 when the numbers go up to 5), so its size never gives the answer. A right Check ties a string from every creature in the first pool to one in the twin pool, with none left over on either side, which is what “the same number” means. A wrong Check says too many or too few and numbers the creatures in the twin pool; after a second, the strings tie as many pairs as they can and ring the creatures left without a twin. The help never moves a creature.",
         "It is aligned to Common Core K.CC.B.5 — counting how many things there are in a line, a ring, rows or a scatter, and counting out a given number, up to 10. Teachers can choose numbers up to 5 or up to 10, and put the same kind of creature in the twin pool to make the match easier to see. No timer, no score."
       ],
@@ -4555,7 +4555,7 @@
     },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
-        "Wally the walrus runs a crane that lifts a small letter up into a big CAPITAL. In each sentence — \"We celebrate halloween,\" \"She lives in texas,\" \"I love lego blocks\" — one special name has been left lowercase, and the child taps the word that needs Wally's capital. This interactive Grade 2 grammar activity runs in the browser with no account.",
+        "Wally the walrus runs a crane that lifts a small letter up into a big CAPITAL. In each sentence — \"We celebrate halloween,\" \"She lives in texas,\" \"I love lego blocks\" — one special name has been left lowercase, and the child taps the word that needs Wally's capital. This interactive Grade 2 grammar activity runs in the browser.",
         "The big idea is that proper nouns always begin with a capital letter. The sentences mix holidays (Halloween, Christmas), places (Texas, Paris, Canada), and product names (Lego, Oreo, Disney), each set among ordinary words that stay lowercase. The child has to recognize WHICH word names a particular holiday, place, or brand — not simply pick the first word or the longest one.",
         "It is aligned to Common Core L.2.2.a — capitalizing holidays, product names, and geographic names. No timer, no score — just calm, playful practice."
       ],
@@ -4648,7 +4648,7 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "A jar is packed with bugs — ladybugs, bees, snails — heaped over each other, so nobody can count them through the glass. Beside it stands a jar with exactly ten of the same bugs. The child guesses first: fewer than in the jar of ten, or more? Then the child pours the jar out, the bugs land on a tray where they can be counted, and the child finds out. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "A jar is packed with bugs — ladybugs, bees, snails — heaped over each other, so nobody can count them through the glass. Beside it stands a jar with exactly ten of the same bugs. The child guesses first: fewer than in the jar of ten, or more? Then the child pours the jar out, the bugs land on a tray where they can be counted, and the child finds out. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install.",
         "The jar of ten is the yardstick. Both jars are packed the same way, so the fuller one really holds more, and a child learns to judge an amount against a number they know before counting it. After the pour the bugs lie in rows, a rectangular array, a ring or a scatter — the arrangements of K.CC.B.5 — up to 16. A tap on a bug ticks it as counted, so the child can keep track of which ones are done; the tick is never a number. The child sets the jar's label with − and +, and the label starts at ten, so counting on from ten (\"ten, eleven, twelve…\") is one way to reach a teen number. A wrong Check says whether some bugs still have no tick or whether the number is too big or too small; after a second, the bugs are numbered up to the last one, which shows a question mark, and the child names the last number — that is how many. A right Check numbers the bugs in the order the child ticked them and holds the count against the guess: \"More than 10, just as you guessed\" or \"more than you guessed\". A guess is never marked wrong.",
         "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" about things in rows or an array (the standard runs to 20; here up to 16), in a ring (here up to 9) and up to 10 in a scatter. Teachers can choose numbers up to 10 (the yardstick is then a jar of five) or up to 16, and turn the guess off. No timer, no score."
       ],
@@ -4695,7 +4695,7 @@
     },
     "wordclass.adjective-adverb.l-2-1-e": {
       "about": [
-        "Glim the light-wisp needs help finishing each sentence with the right describing word. Given \"The ___ rabbit hopped away\" or \"The rabbit hopped ___,\" the child chooses between two forms of the same word — the adjective quick or the adverb quickly. This interactive Grade 2 grammar activity runs in the browser with no account.",
+        "Glim the light-wisp needs help finishing each sentence with the right describing word. Given \"The ___ rabbit hopped away\" or \"The rabbit hopped ___,\" the child chooses between two forms of the same word — the adjective quick or the adverb quickly. This interactive Grade 2 grammar activity runs in the browser.",
         "The big idea is that an adjective describes a thing while an adverb tells how an action happens. Each round pairs the very same idea two ways — a quick rabbit versus hopping quickly, a loud bell versus ringing loudly — so the child cannot rely on the word's meaning and must instead ask what the blank is describing: a noun or a verb. A guiding question (\"Which word describes the rabbit?\" or \"Which word tells how the rabbit hopped?\") points to what to look for.",
         "It is aligned to Common Core L.2.1.e — using adjectives and adverbs and choosing between them depending on what is to be modified. No timer, no score — just calm, playful practice."
       ],

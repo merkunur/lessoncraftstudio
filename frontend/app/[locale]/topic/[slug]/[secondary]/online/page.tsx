@@ -130,7 +130,9 @@ export async function generateMetadata({ params }: { params: OnlineParams }): Pr
     return { alternates: { canonical: canonicalUrl(r.redirectTo) }, robots: { index: false, follow: true } };
   }
   const { locale, subjectKey, levelKey } = r;
-  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale);
+  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale, PLAYS);
+  // a subject and grade without one page that plays has no online hub: the visitor is sent to its worksheets (below)
+  if (count === 0) return { robots: { index: false, follow: true } };
   const title = onlineHubTitle(locale, subjectKey, levelKey);
   const description = onlineHubDescription(locale, subjectKey, levelKey, count);
   const canonical = canonicalUrl(localePath(locale, 'topic', params.slug, params.secondary, 'online'));
@@ -143,7 +145,7 @@ export async function generateMetadata({ params }: { params: OnlineParams }): Pr
     const subjSlug = getSubjectSlugStrict(subjectKey, sib);
     const gradeSlug = getAxisSlug('educational-level', levelKey, sib);
     if (!subjSlug || !gradeSlug) continue;
-    const c = await countDecksForSubjectLevel(subjectKey, levelKey, sib);
+    const c = await countDecksForSubjectLevel(subjectKey, levelKey, sib, PLAYS);
     if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
     hreflangAlternates[getHreflangCode(sib)] = canonicalUrl(localePath(sib, 'topic', subjSlug, gradeSlug, 'online'));
   }
@@ -172,6 +174,9 @@ export async function generateMetadata({ params }: { params: OnlineParams }): Pr
   };
 }
 
+/** every count of this hub is of the pages that PLAY on screen (lib/topic-decks.ts playableWhere) */
+const PLAYS = { playable: true } as const;
+
 /* ---------------- page ---------------- */
 
 export default async function OnlineHubPage({ params }: { params: OnlineParams }) {
@@ -180,9 +185,13 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
   if ('redirectTo' in r) redirect(r.redirectTo);
   const { locale, subjectKey, levelKey } = r;
 
-  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale);
-  if (count === 0) notFound();
-  const decks = await fetchDecksForSubjectLevel(subjectKey, levelKey, locale, { take: 24 });
+  const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale, PLAYS);
+  if (count === 0) {
+    // nothing of this subject and grade plays on screen (science, 2026-11-13): its worksheets are on the print hub
+    if ((await countDecksForSubjectLevel(subjectKey, levelKey, locale)) === 0) notFound();
+    redirect(`/${locale}/topic/${params.slug}/${params.secondary}`);
+  }
+  const decks = await fetchDecksForSubjectLevel(subjectKey, levelKey, locale, { take: 24, playable: true });
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
@@ -204,7 +213,7 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
     if (!isSubjectHubAllowed(locale, subjectKey, g)) continue;
     const gSlug = getAxisSlug('educational-level', g, locale);
     if (!gSlug) continue;
-    const c = await countDecksForSubjectLevel(subjectKey, g, locale);
+    const c = await countDecksForSubjectLevel(subjectKey, g, locale, PLAYS);
     if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
     otherGrades.push({ label: subjectHubGradeLabel(locale, g), href: `/${locale}/topic/${params.slug}/${gSlug}/online` });
   }
@@ -217,7 +226,7 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
     if (!isSubjectHubAllowed(locale, s, levelKey)) continue;
     const sSlug = getSubjectSlugStrict(s, locale);
     if (!sSlug || !gradeLevelSlug) continue;
-    const c = await countDecksForSubjectLevel(s, levelKey, locale);
+    const c = await countDecksForSubjectLevel(s, levelKey, locale, PLAYS);
     if (c < MIN_INDEXABLE_SUBJECT_HUB_DECKS) continue;
     otherSubjects.push({ label: getSubjectName(s, locale) ?? s, href: `/${locale}/topic/${sSlug}/${gradeLevelSlug}/online` });
   }

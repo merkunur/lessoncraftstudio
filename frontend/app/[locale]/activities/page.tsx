@@ -329,7 +329,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     pageIntro: "OPS 2014:ään sidottuja tehtäviä, joita oppilaasi tekevät selaimessa: laskeminen, yhteenlasku, äänteet ja muuta. Suodata oppiaineen, luokan tai taitoalueen mukaan.",
     tryItLink: "Kokeile",
     metaTitle: "Ilmaisia oppimistehtäviä (K-3) — sidottu OPS 2014:ään",
-    metaDescription: "Ilmaisia, selaimessa pelattavia K-3-oppimistehtäviä, jotka on sidottu OPS 2014:ään: laskeminen, yhteenlasku, äänteet ja muuta. Ei rekisteröitymistä, 11 kielellä.",
+    metaDescription: "Ilmaisia, selaimessa pelattavia K-3-oppimistehtäviä, jotka on sidottu OPS 2014:ään: laskeminen, yhteenlasku, äänteet ja muuta. 11 kielellä.",
     gradeLabel: "Luokka",
     filtersHeading: "Suodattimet",
     subjectHeading: "Oppiaine",

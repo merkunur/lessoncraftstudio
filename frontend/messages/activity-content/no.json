@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Dette er en interaktiv telleaktivitet for de yngste, med tall opp til {max}. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet – det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.",
+          "Dette er en interaktiv telleaktivitet for de yngste, med tall opp til {max}. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet – det er ingenting å installere og ingen forberedelser for læreren.",
           "Aktiviteten følger LK20 innenfor området telling og tall. Barna får mild og umiddelbar tilbakemelding underveis, slik at de kan fortsette å prøve til svaret føles riktig. Det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Denne interaktive aktiviteten gir barna konkret øving med de første idéene om addisjon og subtraksjon, med mengder opp til {max}. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten innlogging.",
+          "Denne interaktive aktiviteten gir barna konkret øving med de første idéene om addisjon og subtraksjon, med mengder opp til {max}. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere.",
           "Den følger LK20 innenfor området regneoperasjoner og algebraisk tenkning. Tilbakemeldingen er umiddelbar og oppmuntrende, og det er ingen tidtaker eller poeng – barna kan tenke gjennom ting i sitt eget tempo."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Denne interaktive aktiviteten med former hjelper små barn med å legge merke til, navngi og sammenligne formene rundt seg. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
+          "Denne interaktive aktiviteten med former hjelper små barn med å legge merke til, navngi og sammenligne formene rundt seg. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere.",
           "Den følger LK20 innenfor området geometri. Barna utforsker i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Denne interaktive måleaktiviteten hjelper små barn med å sammenligne ting etter størrelse – høyere, kortere og lengre – helt uten telling. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
+          "Denne interaktive måleaktiviteten hjelper små barn med å sammenligne ting etter størrelse – høyere, kortere og lengre – helt uten telling. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere.",
           "Den følger LK20 innenfor området {strand}. Barna sammenligner i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving i å se nøye på hvordan ting måler seg mot hverandre."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Denne interaktive leseaktiviteten gir barna konkret øving i å lydere og bygge ord. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto å opprette.",
+          "Denne interaktive leseaktiviteten gir barna konkret øving i å lydere og bygge ord. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere.",
           "Den følger LK20 innenfor området lesing: grunnleggende ferdigheter. Hvert ord kontrolleres for en riktig, barnevennlig oppdeling, og tilbakemeldingen er mild og umiddelbar – det er ingen tidtaker og ingen poeng."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Dette er en interaktiv læringsaktivitet for små barn som kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet. Det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.",
+        "Dette er en interaktiv læringsaktivitet for små barn som kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet. Det er ingenting å installere og ingen forberedelser for læreren.",
         "Den følger LK20 innenfor området {strand}. Barna arbeider i sitt eget tempo med mild og umiddelbar tilbakemelding, og det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."
       ],
       "practices": [
@@ -244,7 +244,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "En billett viser et tall, og ved perrongen står et tog med ti plasser og venter sammen med en hel masse dyr. Barnet trykker på dyrene ett om gangen – hvert dyr hopper til neste ledige plass – og trykker på Avgang når det sitter nøyaktig like mange på toget som det står på billetten. Det er en interaktiv telleaktivitet opptil 10 som virker i nettleseren, uten installasjon og uten konto.",
+        "En billett viser et tall, og ved perrongen står et tog med ti plasser og venter sammen med en hel masse dyr. Barnet trykker på dyrene ett om gangen – hvert dyr hopper til neste ledige plass – og trykker på Avgang når det sitter nøyaktig like mange på toget som det står på billetten. Det er en interaktiv telleaktivitet opptil 10 som virker i nettleseren, uten installasjon.",
         "Det vanskelige med å telle opp et antall er å vite når man skal stoppe, og toget er bygd rundt akkurat det: Det venter alltid flere dyr enn billetten krever, så barnet må holde tellingen og bestemme selv. De ti plassene er en tierramme – to rader med fem, som fylles forfra –, så sju ses som en full rad og to til. Stemmer ikke antallet, nummererer toget passasjerene sine så barnet ser hvorfor, og barnet retter selv; hjelpen flytter aldri et dyr. I noen runder stopper toget en gang til, og på den nye billetten står det én mer eller én mindre – da går nøyaktig ett dyr på eller av, i stedet for at barnet begynner på nytt.",
         "Aktiviteten er tilpasset LK20 – å gi hver ting ett tall, å vite at det siste tallet sier hvor mange det er, og at det neste tallet er én mer. Læreren velger billetter opptil 5 eller opptil 10, og om telletallene skal vises når dyrene går på, eller sies høyt av barnet. Ingen tidtaker og ingen poeng."
       ],
@@ -268,7 +268,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "En bestillingslapp viser et tall, og ved fruktboden venter to brett med ti plasser hver. Barnet trykker på plassen der bestillingen slutter – fruktene triller ned plass for plass dit – og trykker på Sjekk når det ligger nøyaktig like mange frukter i brettene som det står på lappen. Det er en interaktiv telleaktivitet opptil 20 som virker i nettleseren, uten installasjon og uten konto.",
+        "En bestillingslapp viser et tall, og ved fruktboden venter to brett med ti plasser hver. Barnet trykker på plassen der bestillingen slutter – fruktene triller ned plass for plass dit – og trykker på Sjekk når det ligger nøyaktig like mange frukter i brettene som det står på lappen. Det er en interaktiv telleaktivitet opptil 20 som virker i nettleseren, uten installasjon.",
         "Å legge fram et antall handler mest om å vite hvor det slutter. De to brettene er en dobbel tierramme: 17 er et fullt brett og 7 til, og barnet finner den syttende plassen ved å telle én og én eller i tiere og femmere. Et trykk på en frukt tar bort den frukten og alle etter den, så hver neste plass er én mer, og å ta bort den siste frukten er én mindre. Stemmer ikke antallet, nummererer boden fruktene sine så barnet ser hvorfor; etter en ny feil markerer den fruktene som er for mange, eller plassene som fortsatt venter, og hjelpen flytter aldri en frukt. De to vanlige feilene med tall over ti får et navn: bare delen etter ti (7 i stedet for 17) og bare det fulle brettet (10 i stedet for 17).",
         "Aktiviteten er tilpasset LK20 – å gi hver ting ett tall, å vite at det siste tallet sier hvor mange det er, og at det neste tallet er én mer. Læreren velger bestillinger opptil 10 (ett brett) eller opptil 20, og om et trykk fyller opp til plassen eller legger i én frukt om gangen (da sier barnet ett tall for hver frukt). Ingen tidtaker og ingen poeng."
       ],
@@ -292,7 +292,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Et bord fullt av dyr og ett spørsmål: hvor mange? Barnet trykker på hvert dyr for å telle det – en nummerert lapp lander på dyret – og trykker så på tallrekken på det tallet som sier hvor mange det er. Dyrene står på rekke, i rader, i en ring eller spredt: akkurat de fire oppstillingene som telling på 1. trinn handler om. Kjører i nettleseren, uten installasjon og uten konto.",
+        "Et bord fullt av dyr og ett spørsmål: hvor mange? Barnet trykker på hvert dyr for å telle det – en nummerert lapp lander på dyret – og trykker så på tallrekken på det tallet som sier hvor mange det er. Dyrene står på rekke, i rader, i en ring eller spredt: akkurat de fire oppstillingene som telling på 1. trinn handler om. Kjører i nettleseren, uten installasjon.",
         "De tre telleprinsippene sitter i materialet: et dyr kan bare få én lapp (en-til-en), lappene nummereres i den rekkefølgen de ble gitt (stabil tallrekke), og den siste lappen lyser fordi det sist sagte tallet er svaret (kardinalitet). Hoppes et dyr over, sier hintet det, og det utalte dyret pulserer. To frie trekk – Tell igjen og Bland dem – lar barnet oppdage at rekkefølgen ikke spiller noen rolle, og at antallet er det samme når dyrene flytter seg.",
         "Tilpasset LK20: telle opp til 10 ting for å svare på \"hvor mange?\". Ingen timer, ingen poeng – rolig telling med hendene."
       ],
@@ -410,7 +410,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "To matter, to grupper som hører sammen – bier og blomster, kaniner og gulrøtter, ekorn og eikenøtter. Hvilken gruppe har flere, eller er det like mange? Barnet trykker på «Flere» ved gruppen med flere, eller på «Like mange», og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "To matter, to grupper som hører sammen – bier og blomster, kaniner og gulrøtter, ekorn og eikenøtter. Hvilken gruppe har flere, eller er det like mange? Barnet trykker på «Flere» ved gruppen med flere, eller på «Like mange», og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon.",
         "Fordelingen er ofte en felle: I mange runder er den mindre gruppen spredt utover hele matten sin, mens den større klumper seg sammen, så den gruppen som ser større ut, er den som har færre – men ikke alltid, så man kan ikke stole på øyet. Det er den klassiske fellen når man sammenligner med øynene, og øvelsen gir barnet to ærlige måter å unngå den på. Den ene er å pare: et trykk på én i den øverste gruppen og så på én i den nederste gir begge den samme sløyfen – en farge og en form – og de som står uten sløyfe, viser hvilken gruppe som har flere; blir ingen til overs, er det like mange. Den andre er å telle begge gruppene. Et feil svar gir et hint: lag par, eller se etter dem uten kompis. Etter enda et forsøk pares resten, og de uten kompis får ring rundt seg. Et riktig svar gir hvert par en sløyfe, nummererer begge gruppene og sier det med tall: «10 er flere enn 7».",
         "Aktiviteten er tilpasset LK20 – å sammenligne antall opptil 10 ved å pare og telle: flere, færre eller like mange. Læreren velger grupper opptil 5 eller opptil 10 og kan slå av fordelingsfellen. Ingen tidtaker og ingen poeng."
       ],
@@ -775,7 +775,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "Et stykke som 8 + 5, 9 + 7, 14 − 6 eller 17 − 8 venter på svaret sitt, og barnet trykker på stykket og tallet som er svaret for å koble paret og bygge sikkerhet opp til 20. Det er en interaktiv matteaktivitet for 2. trinn som kjøres rett i nettleseren, uten noe å installere og uten konto.",
+        "Et stykke som 8 + 5, 9 + 7, 14 − 6 eller 17 − 8 venter på svaret sitt, og barnet trykker på stykket og tallet som er svaret for å koble paret og bygge sikkerhet opp til 20. Det er en interaktiv matteaktivitet for 2. trinn som kjøres rett i nettleseren, uten noe å installere.",
         "Den store ideen er rask og trygg gjenkalling av pluss- og minusstykker opp til 20. Hver runde blander tre stykker — noen pluss, noen minus — med de tre svarene stokket inn imellom, så barnet regner ut hvert stykke og finner deretter den verdien som passer. Øving runde etter runde flytter stykker som 9 + 9 = 18 og 16 − 9 = 7 fra telling og over mot hukommelse.",
         "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å legge til og trekke fra sikkert opp til 20 og kunne summene av ensifrede tall utenat. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
       ],
@@ -918,7 +918,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Et tall fra 1 til 9 (eller fra 9 til 19 med den videre innstillingen) ligger åpent på en sti av steiner med lokk, med en brikke oppå. Barnet skriver med talltastene tallet som kommer rett etter – står på 7, skriver 8 – og brikken hopper bort på steinen som åpner seg. Det er en interaktiv telleaktivitet for barnehagen og første trinn som kjører rett i nettleseren på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "Et tall fra 1 til 9 (eller fra 9 til 19 med den videre innstillingen) ligger åpent på en sti av steiner med lokk, med en brikke oppå. Barnet skriver med talltastene tallet som kommer rett etter – står på 7, skriver 8 – og brikken hopper bort på steinen som åpner seg. Det er en interaktiv telleaktivitet for barnehagen og første trinn som kjører rett i nettleseren på nettbrett, mobil og datamaskin, uten installasjon.",
         "Kjernen er å telle videre fra et gitt tall i stedet for å begynne på nytt fra én. Steinene før brikken er skjult under lokk, så svaret kan ikke leses av fra en rekke med tall; et lokk kan løftes for å titte på et tidligere tall når det hjelper, og læreren kan vise hele stien fram til brikken. Et feil svar får et navn – det samme tallet, tallet før eller for langt – og stien åpner seg fram til brikken, slik at barnet kan telle videre derfra.",
         "Aktiviteten følger LK20: telle framover fra et gitt tall i den kjente tallrekka. Ingen tidtaker, ingen poeng – bare rolig og leken øving."
       ],
@@ -1133,7 +1133,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "To store tallkort ligger ved siden av hverandre – for eksempel 3 og 8 – med en tom tårnfot over hvert kort. Hvilket tall er minst? Barnet trykker på det og trykker på Sjekk. Så vokser begge tårnene samtidig, én kloss om gangen, mens en tallrekke under lyser opp: 1, 2, 3 … Tårnet til 3 stopper ved tre klosser og heiser et lite flagg; tårnet til 8 fortsetter oppover. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "To store tallkort ligger ved siden av hverandre – for eksempel 3 og 8 – med en tom tårnfot over hvert kort. Hvilket tall er minst? Barnet trykker på det og trykker på Sjekk. Så vokser begge tårnene samtidig, én kloss om gangen, mens en tallrekke under lyser opp: 1, 2, 3 … Tårnet til 3 stopper ved tre klosser og heiser et lite flagg; tårnet til 8 fortsetter oppover. En interaktiv aktivitet som kjører i nettleseren, uten installasjon.",
         "Tårnene viser hvor mange hvert skrevne tall betyr, og hvorfor det ene er minst: Når man teller fra 1, kommer man først til det minste tallet, og derfor stopper tårnet dets først. Etter en første feil ber hintet barnet telle fra 1 og legge merke til hvilket av de to tallene som kommer først; etter en andre vokser tårnene for å vise det, med flagget ved det minste tallet, til barnet velger på nytt. Et riktig svar sier det med tall: «Ja – 3 er mindre enn 8!» Noen tall ligger langt fra hverandre, som 2 og 9, og noen er naboer, som 5 og 6 – dem må man se godt på. De to tallene er aldri like.",
         "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 eller opptil 10 og kan vise eller skjule tallrekken under tårnene. Ingen tidtaker og ingen poeng."
       ],
@@ -1350,7 +1350,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Ved siden av et hus med ti etasjer venter to dyr som passasjerer, hver med en billett der det står et tall – for eksempel en gris med 6 og en hund med 9. Hvem skal høyest? Barnet trykker på passasjeren med det største tallet og trykker på Sjekk. Så kjører heisen opp: den stopper i etasje 6, der den ene passasjeren går av, og tar den andre videre opp til etasje 9. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "Ved siden av et hus med ti etasjer venter to dyr som passasjerer, hver med en billett der det står et tall – for eksempel en gris med 6 og en hund med 9. Hvem skal høyest? Barnet trykker på passasjeren med det største tallet og trykker på Sjekk. Så kjører heisen opp: den stopper i etasje 6, der den ene passasjeren går av, og tar den andre videre opp til etasje 9. En interaktiv aktivitet som kjører i nettleseren, uten installasjon.",
         "Huset er en tallinje som står på høykant: etasjenumrene går oppover veggen i telleordning, så et større tall er en høyere etasje – og sammenligningen blir noe barnet kan se. Et barn som er usikkert, kan først finne begge tallene på veggen. Etter en første feil ber hintet barnet finne begge tallene på huset (eller, når numrene er skjult, telle etasjene nedenfra); etter en andre lyser begge etasjene opp, hver i sin passasjers farge, og man ser med en gang hvilken som ligger høyest. Et riktig svar sier det med tall: «Ja – 9 er større enn 6!» Noen tall ligger langt fra hverandre, som 8 og 2, og noen er naboer, som 7 og 8 – dem må man se godt på. De to tallene er aldri like.",
         "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 (et hus med fem etasjer) eller opptil 10 og kan skjule etasjenumrene, så etasjene må telles nedenfra. Ingen tidtaker og ingen poeng."
       ],
@@ -1374,7 +1374,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Et lite vindu med to skodder: de slås opp, en gruppe bilder titter fram – ender, epler, gulrøtter – og skoddene lukkes igjen. Hvor mange var det? Barnet trykker på et tall fra 1 til 10, får kikke igjen så mange ganger det vil, og trykker på Sjekk. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon og uten konto.",
+        "Et lite vindu med to skodder: de slås opp, en gruppe bilder titter fram – ender, epler, gulrøtter – og skoddene lukkes igjen. Hvor mange var det? Barnet trykker på et tall fra 1 til 10, får kikke igjen så mange ganger det vil, og trykker på Sjekk. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon.",
         "Det korte kikket er kjernen. Små grupper ser man med ett blikk, og større vises i mønstrene lærere bruker i klasserommet: terningbilder opptil seks, fem på rad og noen til, par, en kort rad, noen spredt utover. Slik lærer barnet å se sju som fem og to i stedet for å telle én og én – og telling er alltid der for å sjekke. Etter et feil tall blir vinduet stående åpent, og barnet teller; etter et nytt går tallene bortover bildene fram til et spørsmålstegn på det siste, så barnet selv sier hvor mange det er.",
         "Aktiviteten er tilpasset LK20 – å kjenne igjen små antall med ett blikk og telle antall opptil 10. Læreren velger tall opptil 5 eller opptil 10, og om vinduet åpner seg et øyeblikk, litt lenger eller står åpent for vanlig telling. Ingen tidtaker og ingen poeng – å kikke igjen teller aldri mot barnet."
       ],
@@ -1564,7 +1564,7 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy pakker eggene sine i kartonger med ti, og barnet teller dem på den raske måten. Trykk på hver kartong på hylla, så får den en lapp med summen så langt – 10, 20, 30 – så den fjerde kartongen sier 40 og den siste kartongen sier hvor mange egg det er; trykk så på det tallet på tallrekken. I en pakkerunde er hylla tom fra start, og barnet legger til kartonger til den siste viser tallet det spørres etter. Kjører i nettleseren, uten installasjon og uten konto.",
+        "Posy pakker eggene sine i kartonger med ti, og barnet teller dem på den raske måten. Trykk på hver kartong på hylla, så får den en lapp med summen så langt – 10, 20, 30 – så den fjerde kartongen sier 40 og den siste kartongen sier hvor mange egg det er; trykk så på det tallet på tallrekken. I en pakkerunde er hylla tom fra start, og barnet legger til kartonger til den siste viser tallet det spørres etter. Kjører i nettleseren, uten installasjon.",
         "En kartong er tegnet som et brett med lokk og to rader med fem eggehull, så én kartong står tydelig for ti, ikke én. Lappene gjør telling med tiere synlig: hver kartong bærer summen fram til seg selv, og det er akkurat det telling med tiere betyr. De to vanlige feilene får egen hjelp – å trykke på 10 som om hver kartong bare hadde ett egg, gir påminnelsen om at en kartong er ti egg, og å trykke på feil tall ses på tallrekken. Tell igjen fjerner lappene for en runde til.",
         "Tilpasset LK20: telle med tiere opp til 100 – lese av en gruppe tiere og bygge en. Ingen timer, ingen poeng – rolig telling med hendene."
       ],
@@ -1587,7 +1587,7 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "En nattehimmel full av stjerner med tall, og én av dem er våken – et 7-tall for eksempel, eller et 12-tall, aldri 1. Barnet teller videre fra den ved å trykke på stjernen som kommer etter, og så på den neste: hver riktige stjerne lyser opp i gull, en tråd løper bort til den og tallet blir sagt høyt, til tråden har tegnet et bilde – en drage, en kopp, en krone, en trapp. Det er en interaktiv telleøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "En nattehimmel full av stjerner med tall, og én av dem er våken – et 7-tall for eksempel, eller et 12-tall, aldri 1. Barnet teller videre fra den ved å trykke på stjernen som kommer etter, og så på den neste: hver riktige stjerne lyser opp i gull, en tråd løper bort til den og tallet blir sagt høyt, til tråden har tegnet et bilde – en drage, en kopp, en krone, en trapp. Det er en interaktiv telleøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon.",
         "Kjernen er å telle framover fra et gitt tall i stedet for å begynne på nytt fra én hver gang. På himmelen er det også stjerner med tall som ligger før starten – 1 er alltid med – og trykker man på en slik, blir det sagt ved navn: det tallet kommer før ditt, du trenger ikke å gå tilbake, tell videre derfra du er. En stjerne for langt framme får også et navn: ett steg om gangen. Ved et feil trykk lyser ingenting opp, så bildet finnes bare når tellingen stemmer, og stripen under himmelen viser det som er telt så langt – 7, 8, 9 – slik at den sagte tallrekka er synlig. Innstillingene går til 10 eller til 20 (over tieren), og de ekstra stjernene kan slås av for en klasse som fortsatt trenger en klar himmel.",
         "Øvelsen følger LK20: fortsette tallrekka framover fra et gitt tall. Uten tidtaker og uten poeng – rolig og leken trening."
       ],
@@ -1610,7 +1610,7 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Én skrivelinje, tre ruter. Den første ruta viser hele veien til tallet med en grønn startprikk, den andre bare en svak linje, den tredje er tom. Barnet skriver tallet med fingeren i rute etter rute – fra 0 til 9, ett tall per runde – og blekket kommer bare fram der fingeren faktisk har fulgt streken, fra begynnelsen. Når den tredje ruta er ferdig, står de tre tallene barnet skrev igjen på linja, og tallet blir sagt høyt. Det er en interaktiv skriveøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "Én skrivelinje, tre ruter. Den første ruta viser hele veien til tallet med en grønn startprikk, den andre bare en svak linje, den tredje er tom. Barnet skriver tallet med fingeren i rute etter rute – fra 0 til 9, ett tall per runde – og blekket kommer bare fram der fingeren faktisk har fulgt streken, fra begynnelsen. Når den tredje ruta er ferdig, står de tre tallene barnet skrev igjen på linja, og tallet blir sagt høyt. Det er en interaktiv skriveøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon.",
         "Kjernen er skrivebokas metode – forbilde, spor, skriv selv – der hjelpen avtar innenfor én og samme linje, slik at det siste tallet er barnets eget. Strekrekkefølge og skriveretning er bygd inn: en strek teller bare når den trekkes fra startpunktet sitt langs veien sin, så et tall som begynnes nedenfra eller skrives speilvendt, går ikke gjennom. Feilene nye skrivere gjør, får navn ut fra fingerens egen vei – begynte i den andre enden, speilvendt, feil vei rundt, stoppet for tidlig – og etter tre forsøk kommer den svake linja tilbake, deretter hele veien. En liten vandrer viser strekene når man ber om det, og Visk ut starter en rute på nytt. Innstillingene beholder full hjelp i hver rute for en klasse som trenger det, eller fjerner den for en klasse som allerede skriver selv; papiret kan vise tre linjer eller én.",
         "Øvelsen følger LK20: skrive tallene 0–9 med riktig skriveretning og strekrekkefølge. Uten tidtaker og uten poeng – rolig og leken trening."
       ],
@@ -1633,7 +1633,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "En gate med fem hus, hvert med et trykt husnummer over døra, og en postbil med tre brev. Adressen på hvert brev er skrevet for hånd – med den håndskriften barn lærer å skrive tallene sine med – mens husnumrene er trykte. Barnet kan altså ikke sammenligne former: tallet må leses. Barnet drar hvert brev til et hus; brevet passer bare ned i én postkasse. Når riktig dør går opp, kommer naboen ut på trappa, tallet blir sagt høyt, og neste brev dukker opp. Når det tredje brevet er levert, sjekker runden seg selv. En interaktiv øvelse i å lese tall for 1. trinn, som kjører rett i nettleseren på nettbrett, mobil og datamaskin – uten installasjon og uten konto.",
+        "En gate med fem hus, hvert med et trykt husnummer over døra, og en postbil med tre brev. Adressen på hvert brev er skrevet for hånd – med den håndskriften barn lærer å skrive tallene sine med – mens husnumrene er trykte. Barnet kan altså ikke sammenligne former: tallet må leses. Barnet drar hvert brev til et hus; brevet passer bare ned i én postkasse. Når riktig dør går opp, kommer naboen ut på trappa, tallet blir sagt høyt, og neste brev dukker opp. Når det tredje brevet er levert, sjekker runden seg selv. En interaktiv øvelse i å lese tall for 1. trinn, som kjører rett i nettleseren på nettbrett, mobil og datamaskin – uten installasjon.",
         "Kjernen: å lese tallene 0 til 20 som tall, ikke kjenne dem igjen som bilder. Hver gate rommer forvekslingene nye lesere gjør: 13 bor ved siden av 31, så rekkefølgen på sifrene betyr noe; 14 står mellom 13 og 11, så det siste sifferet må leses; 14 står ved siden av 4, for ett siffer er ikke to; og 6 står nær 9, 2 nær 5, 1 nær 7. En feil dør svarer med sitt eget nummer ved siden av brevets og setter ord på feilen – de samme sifrene bare motsatt vei, se på det siste sifferet, to sifre og ikke ett – og etter to bom lyser riktig skilt. I innstillingene holder tallene seg til 10 for en gruppe som nettopp har begynt, eller adressen leses opp i stedet for å vises, slik at barnet lytter etter tallet – med en Vis-knapp for et stille rom.",
         "Øvelsen følger LK20: å lese og skille mellom tall opp til 20. Uten tidtaker og uten poeng – rolig og leken øving."
       ],
@@ -1656,7 +1656,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Et glass med leker og en tom etikett på lokket. Barnet teller – hver leke får et merke når man trykker på den – og skriver med talltastene hvor mange det er; sifrene står på etiketten. Når man sjekker, holdes etiketten mot glasset: lekene stiller seg på like mange plasser som etiketten sier, og stemmer den, blir den gyllen og sitter fast mens tallet blir sagt høyt. I den andre typen runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på leker på hylla så de faller nedi, til glasset rommer så mange. En interaktiv øvelse i å telle og skrive tall for 1. trinn, som kjører rett i nettleseren på nettbrett, mobil og datamaskin – uten installasjon og uten konto.",
+        "Et glass med leker og en tom etikett på lokket. Barnet teller – hver leke får et merke når man trykker på den – og skriver med talltastene hvor mange det er; sifrene står på etiketten. Når man sjekker, holdes etiketten mot glasset: lekene stiller seg på like mange plasser som etiketten sier, og stemmer den, blir den gyllen og sitter fast mens tallet blir sagt høyt. I den andre typen runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på leker på hylla så de faller nedi, til glasset rommer så mange. En interaktiv øvelse i å telle og skrive tall for 1. trinn, som kjører rett i nettleseren på nettbrett, mobil og datamaskin – uten installasjon.",
         "Kjernen er veien fram og tilbake mellom antall og tall: et telt antall blir et skrevet tall, og et skrevet tall blir et antall igjen. Opp til ti ligger lekene løst; fra elleve til tjue står de i rekker, så øyet ikke mister plassen sin. En feil etikett besvares av glasset, ikke av et rødt kryss: en for liten etikett lar leker stå uten plass, en for stor lar stiplede plasser stå tomme, og feilen får et navn – sifrene motsatt vei (41 for 14) eller bare enerne (4 for 14). I innstillingene holder tallene seg til 10 for en gruppe som nettopp har begynt, eller man velger bare tellerundene eller bare fyllrundene.",
         "Øvelsen følger LK20: å telle antall opp til 20 og skrive tallet. Uten tidtaker og uten poeng – rolig og leken øving."
       ],
@@ -1702,7 +1702,7 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mamma And har morgenopprop ved dammen. Kortet hennes viser prikker, og barnet sender nøyaktig så mange andunger fra flåten til land – ett trykk, én andunge som svømmer over. Så skriver barnet under på oppropet: trykker på tallstempelet for hvor mange som kom, og sporer tallet med fingeren i gjørma. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon og uten konto.",
+        "Mamma And har morgenopprop ved dammen. Kortet hennes viser prikker, og barnet sender nøyaktig så mange andunger fra flåten til land – ett trykk, én andunge som svømmer over. Så skriver barnet under på oppropet: trykker på tallstempelet for hvor mange som kom, og sporer tallet med fingeren i gjørma. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon.",
         "Mamma viser aldri et siffer (med mindre læreren velger det): barnet teller prikkene, teller opp like mange andunger og skriver tallet som sier hvor mange det er – sifferet er barnets eget svar. På flåten venter flere andunger enn Mamma ber om, så barnet må selv bestemme når det skal stoppe; et trykk på en andunge på land sender den tilbake. Andungene lander spredt, så å telle dem igjen er ekte telling. Sjekk ser først på land og så på underskriften og sier hva som mangler: for mange, for få, ikke noe tall ennå, et tall som ikke sier hvor mange som kom, eller et tall som ikke er sporet ennå. Etter en feil blir andungene på land nummerert, etter en ny også Mammas prikker. Hjelpen flytter aldri en andunge.",
         "Aktiviteten er tilpasset LK20 – å telle antall, telle opp et gitt antall og skrive tallet som hører til. Læreren velger tall opptil 5 eller opptil 9, og om Mammas kort viser prikker eller tallet. Ingen tidtaker og ingen poeng."
       ],
@@ -1726,7 +1726,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi har bestilt en boks med godsaker, og bestillingslappen viser hvor mange – for eksempel 7. Barnet trykker på godsaker på brettet, og hver godsak faller ned i en kakeboks med lokket på: ett trykk, én godsak ute av syne. Når barnet tror at boksen inneholder akkurat så mange som lappen sier, trykker det på Sjekk, og boksen åpner seg. En interaktiv telleøvelse som kjører i nettleseren, uten installasjon og uten konto.",
+        "Mochi har bestilt en boks med godsaker, og bestillingslappen viser hvor mange – for eksempel 7. Barnet trykker på godsaker på brettet, og hver godsak faller ned i en kakeboks med lokket på: ett trykk, én godsak ute av syne. Når barnet tror at boksen inneholder akkurat så mange som lappen sier, trykker det på Sjekk, og boksen åpner seg. En interaktiv telleøvelse som kjører i nettleseren, uten installasjon.",
         "Lokket er hele poenget. Når en godsak ligger i boksen, kan den ikke ses lenger, så tellingen må bli i barnets hode – det siste tallet barnet sa, er hvor mange som ligger i boksen, og der må barnet stoppe. Å telle opp et gitt antall er vanskeligere enn å telle en mengde som allerede ligger der, og den lukkede boksen gjør at barnet holder tellingen i stedet for å kikke. Et trykk på lokket løfter det et kort øyeblikk så barnet kan kikke, og så faller det på igjen av seg selv; mens boksen er åpen, kan barnet trykke på en godsak i den for å legge den tilbake på brettet. På brettet ligger det alltid flere godsaker enn i bestillingen (12, eller 7 når tallene går opptil 5), så størrelsen avslører aldri svaret. En feil sjekk sier «for mange» eller «for få» og lar lokket være av resten av runden; etter en andre blir godsakene i boksen nummerert, og boksen markerer de godsakene som er for mange, eller de tomme plassene som fortsatt mangler. Hjelpen flytter aldri en godsak.",
         "Aktiviteten er tilpasset LK20 – å telle opp et gitt antall opptil 10 og vite at det siste tallet man teller, sier hvor mange det er. Læreren velger tall opptil 5 eller opptil 10 og kan ta av lokket så godsakene hele tiden synes. Ingen tidtaker og ingen poeng."
       ],
@@ -1750,7 +1750,7 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "To fjærepytter ligger ved siden av hverandre (over hverandre på mobil). I den første er det sjødyr – for eksempel sju krabber hulter til bulter eller seks sjøstjerner i en ring. Barnet teller dem og fyller så den tomme tvillingpytten med like mange, men av et annet slag: sju sjøstjerner for sju krabber. Når tvillingpytten er klar, trykker barnet på Sjekk. En interaktiv telleøvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "To fjærepytter ligger ved siden av hverandre (over hverandre på mobil). I den første er det sjødyr – for eksempel sju krabber hulter til bulter eller seks sjøstjerner i en ring. Barnet teller dem og fyller så den tomme tvillingpytten med like mange, men av et annet slag: sju sjøstjerner for sju krabber. Når tvillingpytten er klar, trykker barnet på Sjekk. En interaktiv telleøvelse som virker i nettleseren, uten installasjon.",
         "Tellingens to sider ligger i ett og samme trekk: finne ut hvor mange det er, og så telle opp like mange. Dyrene i den første pytten ligger på rad, i ring, i rader eller hulter til bulter; et trykk på et dyr krysser det av som telt, så barnet vet hvilke som allerede er telt – krysset er aldri et tall. I tvillingpytten setter et trykk på en tom plass et dyr der, og et trykk på et dyr tar det opp igjen. Fordi tvillingdyrene som standard er av et annet slag og ligger annerledes, kan bare antallet stemme. Tvillingpytten har alltid flere plasser enn en runde trenger (12, eller 8 når tallene går opptil 5), så størrelsen røper aldri svaret. Når det stemmer, knytter en snor hvert dyr i den første pytten sammen med ett i tvillingpytten, og ingen blir til overs på noen av sidene – det er det «like mange» betyr. Når det ikke stemmer, sier hintet «for mange» eller «for få», og dyrene i tvillingpytten får nummer; etter enda et forsøk knytter snorene sammen så mange par som de kan, og ringer inn dyrene uten tvilling. Hjelpen flytter aldri et dyr.",
         "Aktiviteten er tilpasset LK20 – å telle hvor mange det er opptil 10, på rad, i ring, i rader eller hulter til bulter, og å telle opp et gitt antall. Læreren velger tall opptil 5 eller opptil 10 og kan sette samme slags dyr i tvillingpytten, så parene blir lettere å se. Ingen tidtaker og ingen poeng."
       ],
@@ -1774,7 +1774,7 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Et glass er fullt av småkryp – marihøner, bier, snegler – som ligger hulter til bulter oppå hverandre, så ingen kan telle dem gjennom glasset. Ved siden av står et glass med nøyaktig ti like småkryp. Barnet gjetter først: færre enn i glasset med ti, eller flere? Så heller barnet ut glasset, småkrypene havner på et brett der de kan telles, og barnet finner ut av det. En interaktiv telleøvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "Et glass er fullt av småkryp – marihøner, bier, snegler – som ligger hulter til bulter oppå hverandre, så ingen kan telle dem gjennom glasset. Ved siden av står et glass med nøyaktig ti like småkryp. Barnet gjetter først: færre enn i glasset med ti, eller flere? Så heller barnet ut glasset, småkrypene havner på et brett der de kan telles, og barnet finner ut av det. En interaktiv telleøvelse som virker i nettleseren, uten installasjon.",
         "Glasset med ti er målestokken. Begge glassene er fylt på samme måte, så det fulleste inneholder virkelig flest, og barnet lærer å anslå en mengde ut fra et tall det kjenner, før det teller. Når glasset er tømt, ligger småkrypene i rader, i et rektangel, i ring eller hulter til bulter, opptil 16. Et trykk på et småkryp krysser det av som telt, så barnet vet hvilke som allerede er telt – krysset er aldri et tall. Barnet stiller inn glassets etikett med − og +; den starter på ti, så det å telle videre fra ti («ti, elleve, tolv …») er en vei til et tall over ti. Når det ikke stemmer, sier hintet om det fortsatt er småkryp uten kryss, eller om tallet er for stort eller for lite; etter enda et forsøk nummereres småkrypene fram til det siste, som viser et spørsmålstegn, og barnet sier det siste tallet – så mange er det. Når det stemmer, nummereres småkrypene i den rekkefølgen barnet krysset dem av, og antallet holdes opp mot gjetningen: «Flere enn 10, akkurat som du gjettet» eller «flere enn du gjettet». En gjetning regnes aldri som feil.",
         "Aktiviteten er tilpasset LK16 – å telle hvor mange det er opptil 16 i rader eller i et rektangel, opptil 9 i ring og opptil 10 hulter til bulter. Læreren velger tall opptil 10 (målestokken er da et glass med fem) eller opptil 16 og kan slå av gjetningen. Ingen tidtaker og ingen poeng."
       ],
@@ -1798,7 +1798,7 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "To tallerkener med leker står over hverandre med en liten plankebru imellom – for eksempel sju baller oppe og tre nede. Hvilken tallerken har flere, eller har de like mange? Barnet trykker på tallerkenen med flere, eller på «Like mange». Så kommer den rettferdige delen: Barnet trykker på en leke for å sende den over brua til den andre tallerkenen, til begge tallerkenene har like mange, og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "To tallerkener med leker står over hverandre med en liten plankebru imellom – for eksempel sju baller oppe og tre nede. Hvilken tallerken har flere, eller har de like mange? Barnet trykker på tallerkenen med flere, eller på «Like mange». Så kommer den rettferdige delen: Barnet trykker på en leke for å sende den over brua til den andre tallerkenen, til begge tallerkenene har like mange, og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon.",
         "Å lage «like mange» med egne hender er der telling gjør nytte. Sju og tre blir ikke fem og fem med ett trykk: Barnet sender over en leke, teller begge tallerkenene, sender en til, teller igjen – og ser at tallerkenen med flere blir mindre mens den andre vokser. Et feil første svar får bare tallerkenen til å riste, og barnet ser en gang til. En Sjekk før det er like mange, sier hvilken tallerken som fortsatt har flere, og nummererer lekene på begge tallerkenene for det blikket; andre gang lyser en leke på den fulleste tallerkenen opp og viser hvilken som skal sendes. Et riktig svar sier det med tall: «Rettferdig! 5 og 5.» Summen er alltid partall, så det går alltid an å dele rettferdig, og hver tallerken har plass til tolv leker, så størrelsen røper aldri svaret.",
         "Aktiviteten er tilpasset LK20 – å sammenligne antall opptil 10 ved å telle: flere, færre eller like mange – og å forstå hva «like mange» betyr. Læreren velger grupper opptil 5 eller opptil 10 og kan legge lekene i rader i stedet for hulter til bulter, så sammenligningen blir lettere å se. Ingen tidtaker og ingen poeng."
       ],
@@ -1822,7 +1822,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "En bekk deler seg to ganger på vei til en dam der en venn venter – en frosk, en rev, et pinnsvin. Ved hver forgrening flyter to tallbøyer, én i hver arm, og et lite skilt øverst viser regelen for turen: følg de største tallene eller de minste. Barnet trykker på et tall ved hver forgrening, den planlagte ruten lyser opp, og Sjekk sender en seilbåt nedover den. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "En bekk deler seg to ganger på vei til en dam der en venn venter – en frosk, en rev, et pinnsvin. Ved hver forgrening flyter to tallbøyer, én i hver arm, og et lite skilt øverst viser regelen for turen: følg de største tallene eller de minste. Barnet trykker på et tall ved hver forgrening, den planlagte ruten lyser opp, og Sjekk sender en seilbåt nedover den. En interaktiv aktivitet som kjører i nettleseren, uten installasjon.",
         "Regelen skifter fra tur til tur, så barnet må lese skiltet og tallene hver gang – den som alltid velger det største tallet, kommer ikke fram. Er ruten feil, seiler båten så langt den kan og blir sittende fast i sivet ved den første feile forgreningen, som blir markert: Hvilket tall der er størst (eller minst)? Etter et nytt forsøk kommer det prikker under de to tallene ved den forgreningen, så barnet kan telle hvor det er flest. En riktig rute tar båten helt fram til vennen: «Ja – du fulgte de største tallene, 7 og 5, helt fram til dammen!» Noen tall ligger langt fra hverandre, som 2 og 7, og noen er naboer, som 7 og 8. De to tallene er aldri like.",
         "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 eller opptil 10 og en regel som skifter ved hver tur, eller alltid det største eller alltid det minste tallet. Ingen tidtaker og ingen poeng."
       ],
@@ -1846,7 +1846,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Fire blomsterpotter står på rad – for eksempel 6, 9, 2 og 4 – og de ser helt like ut: bare tallet på hver av dem er forskjellig. Barnet trykker på en potte, og den synker ned i de andre og vokser til størrelsen av tallet sitt: 9-tallet blir en stor potte, 2-tallet en liten. En potte får bare plass i en potte med et større tall, så man må sette dem i hverandre fra det største tallet til det minste. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "Fire blomsterpotter står på rad – for eksempel 6, 9, 2 og 4 – og de ser helt like ut: bare tallet på hver av dem er forskjellig. Barnet trykker på en potte, og den synker ned i de andre og vokser til størrelsen av tallet sitt: 9-tallet blir en stor potte, 2-tallet en liten. En potte får bare plass i en potte med et større tall, så man må sette dem i hverandre fra det største tallet til det minste. En interaktiv aktivitet som kjører i nettleseren, uten installasjon.",
         "Fordi alle pottene i raden er like store, avslører størrelsen ingenting: barnet leser og sammenligner tallene, og den som prøver en potte, ser med en gang om den får plass. Pottene svarer selv: En potte som er for stor, stikker opp over kanten, vipper og går tilbake til raden. Den som tar en liten potte for tidlig, havner i en blindvei – først 9-tallet, så 2-tallet, og nå får verken 6-tallet eller 4-tallet plass – da lyser den innerste potten, og et trykk tar den ut igjen. Etter to potter som ikke fikk plass, kommer det prikker på de ventende pottene, så barnet kan telle hvilket tall som er størst. Når alle pottene er oppi, leser Sjekk opp stabelen: «Ja – 9, 6, 4, 2: fra det største tallet til det minste!»",
         "Aktiviteten er tilpasset LK20 – å sammenligne skrevne tall mellom 1 og 10, her tre eller fire om gangen. Læreren velger tre potter opptil 5 eller fire potter opptil 10 og viser prikkene bare som hjelp eller alltid. Ingen tidtaker og ingen poeng."
       ],

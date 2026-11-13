@@ -1,0 +1,137 @@
+{
+ "$comment": "What the no-account scans leave alone, and why (scan-no-account.js, scan-no-account-live.js, fix-no-account.js, gates.js P8). keys: sentences of a file that are TRUE (a pupil on a teacher's link plays without an account; looking around and reading needs none; a worksheet embedded on another site plays there). notRendered: namespaces and files no live page shows any more (they are never corrected; the live scan proves no page shows them). falsePositives: wording the patterns hit that is NOT the claim, by the words around it: about something else (Spanish 'sin cuentas' = without sums), about PUPILS who need no account of their own when the teacher shows a tool, about where a tool keeps its data (no account, no server), or a question of the sign-in mail.",
+ "keys": [
+  {
+   "file": "^messages/classes/",
+   "key": "^linkHelp",
+   "why": "a pupil on the teacher's class link taps a picture: no account"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^activityShare\\.",
+   "why": "pupils on a teacher's share link"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^workspace\\.hosted\\.",
+   "why": "pupils on the link of a saved maker worksheet"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^pricingPage\\.tier\\.item2$",
+   "why": "pupils on a teacher's class link"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^auth\\.",
+   "why": "the sign-in form asks 'no account yet?'"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^homepage\\.embedViralityCTA\\.",
+   "why": "a worksheet embedded on another site plays there"
+  },
+  {
+   "file": "^content/maker-landings/hub\\.",
+   "key": "^twoShareBody$",
+   "why": "pupils on the link of a saved maker worksheet"
+  },
+  {
+   "file": "^content/maker-landings/ui\\.",
+   "key": "^(faqSaveA|faqFreeA|freeLine)$",
+   "why": "pupils on a link; looking at the worksheets needs no account"
+  },
+  {
+   "file": "^content/schools/ui\\.",
+   "key": "^seeLead$",
+   "why": "reading the page needs no account"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^homepageV6\\.share\\.",
+   "why": "pupils on a teacher's link: no pupil accounts"
+  },
+  {
+   "file": "^content/schools/ui\\.",
+   "key": "^studentsText$",
+   "why": "children need no account for anything on the site"
+  }
+ ],
+ "notRendered": [
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^(about|faq|homepageV3|homepageV4)\\.|^homepageV6\\.(?!share\\.)",
+   "why": "namespaces of earlier homepages and of the old about and FAQ pages"
+  },
+  {
+   "file": "^messages/[a-z]{2}\\.json$",
+   "key": "^homepage\\.freeExperience\\.",
+   "why": "a section of the second homepage"
+  },
+  {
+   "file": "^lib/default-product-faqs\\.ts$",
+   "key": "",
+   "why": "seller-era file, imported nowhere"
+  },
+  {
+   "file": "^components/homepage-v3/SignupV3\\.tsx$",
+   "key": "",
+   "why": "a comment"
+  },
+  {
+   "file": "^app/api/webhooks/",
+   "key": "",
+   "why": "a log line"
+  }
+ ],
+ "falsePositives": {
+  "es": [
+   "sin cifras, sin cuentas",
+   "sin cuentas y sin reloj",
+   "sin cuentas ni",
+   "reconocer sin cuenta"
+  ],
+  "en": [
+   "without registering them"
+  ],
+  "de": [
+   "ohne konto für die kinder",
+   "kein konto, kein server",
+   "kein konto bei lessoncraftstudio"
+  ],
+  "nl": [
+   "geen account heeft aangemaakt",
+   "geen registratie van welke"
+  ],
+  "sv": [
+   "ingen egen skärm och ingen inloggning",
+   "ingen server, inget konto",
+   "ingen innlogging og ingen konto",
+   "kræver ingen konto"
+  ],
+  "da": [
+   "intet login for børnene",
+   "ingen konto, intet login og ingen server",
+   "uden login for børnene",
+   "ingen innlogging og ingen konto"
+  ],
+  "no": [
+   "for elevene, ingen innlogging og ingen konto",
+   "ingen registrering av hvilke",
+   "kræver ingen konto",
+   "i valfri webbläsare"
+  ],
+  "fr": [
+   "aucun compte pour les enfants",
+   "sans compte pour les enfants",
+   "aucun compte à rebours"
+  ],
+  "it": [
+   "nessuna registrazione: chi ascolta"
+  ],
+  "pt": [
+   "um sim sem conta",
+   "sem veredito e sem conta nenhuma"
+  ]
+ }
+}

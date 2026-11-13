@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Voici une activité de comptage interactive pour les jeunes enfants, qui travaille avec les nombres jusqu'à {max}. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe — rien à installer, aucun compte à créer et aucune préparation pour l'enseignant.",
+          "Voici une activité de comptage interactive pour les jeunes enfants, qui travaille avec les nombres jusqu'à {max}. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe — rien à installer et aucune préparation pour l'enseignant.",
           "L'activité est alignée sur les programmes officiels du domaine Nombres et calcul. Les enfants reçoivent un retour doux et immédiat au fur et à mesure, ce qui leur permet de réessayer jusqu'à ce que la réponse leur semble juste. Il n'y a ni minuteur ni score — seulement une pratique calme et concrète."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Cette activité interactive offre aux enfants une pratique concrète des premières idées d'addition et de soustraction, avec des quantités jusqu'à {max}. Elle se lance directement dans le navigateur sur n'importe quel appareil, sans rien à installer et sans connexion.",
+          "Cette activité interactive offre aux enfants une pratique concrète des premières idées d'addition et de soustraction, avec des quantités jusqu'à {max}. Elle se lance directement dans le navigateur sur n'importe quel appareil, sans rien à installer.",
           "Elle est alignée sur les programmes officiels du domaine Nombres et calcul. Le retour est immédiat et encourageant, et il n'y a ni minuteur ni score — les enfants peuvent réfléchir à leur propre rythme."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Cette activité interactive sur les formes aide les jeunes enfants à remarquer, nommer et comparer les formes qui les entourent. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe, sans rien à installer et sans compte nécessaire.",
+          "Cette activité interactive sur les formes aide les jeunes enfants à remarquer, nommer et comparer les formes qui les entourent. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe, sans rien à installer.",
           "Elle est alignée sur les programmes officiels du domaine Espace et géométrie. Les enfants explorent à leur rythme avec un retour doux et immédiat — pas de minuteur, pas de score, seulement une pratique ludique."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Cette activité de mesure interactive aide les jeunes enfants à comparer des objets selon leur taille — plus grand, plus court et plus long — sans aucun comptage. Elle fonctionne directement dans le navigateur, sur tablette, téléphone ou ordinateur de classe, sans rien à installer ni aucun compte à créer.",
+          "Cette activité de mesure interactive aide les jeunes enfants à comparer des objets selon leur taille — plus grand, plus court et plus long — sans aucun comptage. Elle fonctionne directement dans le navigateur, sur tablette, téléphone ou ordinateur de classe, sans rien à installer.",
           "Elle est alignée sur les programmes officiels, dans le domaine {strand}. Les enfants comparent à leur rythme, avec un retour doux et immédiat — sans minuteur, sans score, juste un entraînement ludique pour observer attentivement comment les choses se mesurent."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Cette activité de lecture interactive offre aux enfants une pratique concrète du déchiffrage et de la construction des mots. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe, sans rien à installer et sans compte à configurer.",
+          "Cette activité de lecture interactive offre aux enfants une pratique concrète du déchiffrage et de la construction des mots. Elle se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe, sans rien à installer.",
           "Elle est alignée sur les programmes officiels du domaine Lecture et compréhension de l'écrit. Chaque mot est vérifié pour une découpe juste et adaptée à l'enfant, et le retour est doux et immédiat — il n'y a ni minuteur ni score."
         ],
         "practices": [
@@ -142,7 +142,7 @@
       },
       "Phonological Awareness": {
         "about": [
-          "Cette activité d'écoute interactive aide les enfants à entendre les sons à l'intérieur des mots parlés et à jouer avec eux. Elle se lance directement dans le navigateur sur n'importe quel appareil, sans rien à installer et sans connexion requise.",
+          "Cette activité d'écoute interactive aide les enfants à entendre les sons à l'intérieur des mots parlés et à jouer avec eux. Elle se lance directement dans le navigateur sur n'importe quel appareil, sans rien à installer.",
           "Elle est alignée sur les programmes officiels du domaine de la conscience phonologique. Le retour est chaleureux et immédiat, et il n'y a ni minuteur ni score pour presser un jeune enfant."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Voici une activité d'apprentissage interactive pour les jeunes enfants, qui se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe. Rien à installer, aucun compte à créer et aucune préparation pour l'enseignant.",
+        "Voici une activité d'apprentissage interactive pour les jeunes enfants, qui se lance directement dans le navigateur, sur tablette, sur téléphone et sur les ordinateurs de la classe. Rien à installer et aucune préparation pour l'enseignant.",
         "Elle est alignée sur les programmes officiels du domaine {strand}. Les enfants avancent à leur rythme avec un retour doux et immédiat, et il n'y a ni minuteur ni score — seulement une pratique calme et concrète."
       ],
       "practices": [
@@ -310,7 +310,7 @@
     "pim-comma-mail.letter-commas.l-2-2-b": {
       "about": [
         "Pim le pigeon voyageur distribue le courrier de tout le village, mais avant chaque envoi il faut bien écrire la lettre ! Votre enfant découvre que l'appel (« Chère Mamie, ») et la formule d'amitié (« Amitiés, ») se terminent tous les deux par une virgule. Trois cartes s'affichent : il lit chaque façon d'écrire, puis tape celle où la virgule est à la bonne place — ni oubliée, ni mal placée.",
-        "En jouant, les jeunes écrivains s'entraînent à la ponctuation de la lettre et apprennent à écrire correctement un appel et une formule d'amitié. L'activité se joue sans minuteur, sans score et sans compte : chacun avance à son rythme, en s'appuyant sur les programmes officiels de l'école."
+        "En jouant, les jeunes écrivains s'entraînent à la ponctuation de la lettre et apprennent à écrire correctement un appel et une formule d'amitié. L'activité se joue sans minuteur et sans score : chacun avance à son rythme, en s'appuyant sur les programmes officiels de l'école."
       ],
       "practices": [
         "Repérer la virgule qui termine l'appel",
@@ -332,7 +332,7 @@
     "fern-clue-garden.context-clues.l-2-4-a": {
       "about": [
         "Dans le jardin d'indices de Fern le faon, votre enfant découvre que beaucoup de mots cachent plusieurs sens : « la souris » peut être un petit animal ou l'objet devant l'ordinateur, « une feuille » peut pousser sur un arbre ou servir à écrire, et « la glace » peut se manger ou se casser en hiver. Fern lui montre une phrase, et l'enfant doit taper la définition qui correspond vraiment au sens du mot dans cette phrase-là. Le piège, c'est justement l'autre sens du mot : la carte tentante propose la définition la plus connue, mais qui ne convient pas ici. Pour ne pas s'y laisser prendre, il faut lire toute la phrase et pas seulement le mot.",
-        "Peu à peu, votre enfant comprend qu'un même mot peut vouloir dire plusieurs choses, et qu'on choisit le bon sens en regardant les autres mots de la phrase — le contexte. C'est une belle façon d'enrichir son vocabulaire et d'apprendre à lire avec attention, en lien avec les programmes officiels de l'école. L'activité se joue sans minuteur, sans score et sans compte : votre enfant avance à son rythme, se trompe sans stress et recommence autant de fois qu'il le souhaite."
+        "Peu à peu, votre enfant comprend qu'un même mot peut vouloir dire plusieurs choses, et qu'on choisit le bon sens en regardant les autres mots de la phrase — le contexte. C'est une belle façon d'enrichir son vocabulaire et d'apprendre à lire avec attention, en lien avec les programmes officiels de l'école. L'activité se joue sans minuteur et sans score : votre enfant avance à son rythme, se trompe sans stress et recommence autant de fois qu'il le souhaite."
       ],
       "practices": [
         "Comprendre qu'un même mot peut avoir plusieurs sens",
@@ -812,7 +812,7 @@
     },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
-        "Roary le lion adore mesurer la force des mots avec son « rugissomètre » : une petite jauge qui grimpe quand un mot devient plus intense. Sur cette activité, votre enfant voit trois mots de sens proche — par exemple « chuchoter », « parler » et « crier » — et touche celui qu'on lui demande : le plus fort, ou le plus faible. C'cela se joue directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "Roary le lion adore mesurer la force des mots avec son « rugissomètre » : une petite jauge qui grimpe quand un mot devient plus intense. Sur cette activité, votre enfant voit trois mots de sens proche — par exemple « chuchoter », « parler » et « crier » — et touche celui qu'on lui demande : le plus fort, ou le plus faible. Cela se joue directement dans le navigateur, sans rien installer.",
         "L'idée est simple à saisir : des mots proches ne disent pas tout à fait la même chose, ils ont de petites différences d'intensité et forment une gradation, du plus faible au plus fort. « Glacial » est plus fort que « frais » ; « crier » est plus fort que « parler » ; « brûlant » dépasse « tiède » et « chaud ». En apprenant à repérer cette échelle, votre enfant découvre que choisir le mot juste, c'est s'exprimer avec plus de précision et de nuance.",
         "Tout se fait sans pression : pas de chronomètre, pas de points, pas de compétition. Votre enfant essaie, se trompe si besoin, réfléchit à son rythme et recommence. L'activité s'appuie sur « les programmes officiels » et travaille le lexique et le vocabulaire, une compétence clé du cycle 2 à l'école élémentaire."
       ],
@@ -858,7 +858,7 @@
     },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
-        "Wally le morse a une petite grue, et il a besoin d'un coup de main ! Dans chaque phrase, un nom propre — le nom d'une personne, d'une ville ou d'un pays — s'est glissé tout en minuscule par erreur. Votre enfant lit la phrase mot à mot, repère le mot fautif et le touche : la grue de Wally soulève alors la petite lettre et la transforme en majuscule. « léo » devient « Léo », et la phrase est enfin correcte. Cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "Wally le morse a une petite grue, et il a besoin d'un coup de main ! Dans chaque phrase, un nom propre — le nom d'une personne, d'une ville ou d'un pays — s'est glissé tout en minuscule par erreur. Votre enfant lit la phrase mot à mot, repère le mot fautif et le touche : la grue de Wally soulève alors la petite lettre et la transforme en majuscule. « léo » devient « Léo », et la phrase est enfin correcte. Cela fonctionne directement dans le navigateur, sans rien installer.",
         "L'activité fait découvrir une règle simple de l'orthographe française : les noms propres — noms de personnes, de villes, de pays — prennent toujours une majuscule, même au milieu d'une phrase. Les noms communs, eux, comme « ami », « chien » ou « ballon », restent en minuscule. Petit à petit, votre enfant apprend à reconnaître un nom propre et à le distinguer d'un nom commun, une distinction essentielle pour bien écrire.",
         "Ici, pas de pression : l'activité se joue sans chrono, sans points et sans compétition. Votre enfant essaie à son rythme, se trompe sans crainte et recommence autant de fois qu'il le souhaite. Le contenu est pensé pour l'école élémentaire, en lien avec les programmes officiels, dans le domaine de l'orthographe et de l'étude de la langue au cycle 2."
       ],
@@ -881,7 +881,7 @@
     },
     "robin-mirror.reflexive.l-2-1-c": {
       "about": [
-        "Robin le rouge-gorge tient un petit miroir dans son aile, et il invite votre enfant à compléter des phrases où il manque un mot. À l'écran s'affiche une phrase à trou, par exemple « Je ___ lave chaque matin. » ou « Nous ___ levons tôt. » : votre enfant lit la phrase, regarde qui fait l'action, puis touche le petit mot qui va avec la personne — me, te, se, nous ou vous. C'est l'activité se joue directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "Robin le rouge-gorge tient un petit miroir dans son aile, et il invite votre enfant à compléter des phrases où il manque un mot. À l'écran s'affiche une phrase à trou, par exemple « Je ___ lave chaque matin. » ou « Nous ___ levons tôt. » : votre enfant lit la phrase, regarde qui fait l'action, puis touche le petit mot qui va avec la personne — me, te, se, nous ou vous. C'est l'activité se joue directement dans le navigateur, sans rien installer.",
         "Certains verbes, qu'on appelle les verbes pronominaux (se laver, se reposer, se lever…), s'accompagnent d'un petit mot qui pointe vers celui qui agit — comme le reflet dans le miroir de Robin. Et ce petit mot change avec le sujet : je → me, tu → te, il, elle, on → se, nous → nous, vous → vous. Ainsi le mot « voyage » toujours avec la personne : il se transforme selon qui se lave, qui se repose ou qui se lève, et il renvoie chaque fois l'action à celui qui la fait.",
         "Ici, pas de pression : c'se joue sans chrono, sans points et sans compétition. Votre enfant essaie à son rythme, autant de fois qu'il le souhaite, et peut lire chaque phrase à voix haute pour mieux entendre le petit mot qui convient. L'activité s'appuie sur les programmes officiels, dans le domaine de la grammaire et de l'étude de la langue à l'école élémentaire."
       ],
@@ -1326,7 +1326,7 @@
     "patchwork-meadow.tile.3-md-c-6": {
       "about": [
         "Sprout le lapin jardinier recouvre ses parterres de fleurs avec des carreaux de mousse, sans laisser le moindre trou et sans jamais superposer deux carreaux. Comme les parterres ont des formes irrégulières (en L, en escalier), il n'y a pas de longueur ni de largeur toute prête : pour connaître l'aire, il suffit de compter les carreaux qui recouvrent le parterre. À travers cinq actions, votre enfant apprend à recouvrir un parterre vide, à réparer un pavage qui a un trou et un carreau en double, à estimer l'aire d'un parterre avant de le remplir, à terminer un pavage déjà commencé et à construire un parterre d'exactement le nombre de carreaux demandé.",
-        "Cette activité fait mesurer une aire de la vraie manière : en couvrant l'espace avec des unités identiques et en les comptant, sans multiplier longueur par largeur, puisque les parterres sont irréguliers. L'enfant comprend ainsi que l'aire est un nombre de carreaux, et qu'elle ne change pas quand la forme change. Tout se passe dans le navigateur, sans minuteur, sans score et sans compte : votre enfant avance à son rythme, en accord avec les programmes officiels de l'école."
+        "Cette activité fait mesurer une aire de la vraie manière : en couvrant l'espace avec des unités identiques et en les comptant, sans multiplier longueur par largeur, puisque les parterres sont irréguliers. L'enfant comprend ainsi que l'aire est un nombre de carreaux, et qu'elle ne change pas quand la forme change. Tout se passe dans le navigateur, sans minuteur et sans score : votre enfant avance à son rythme, en accord avec les programmes officiels de l'école."
       ],
       "practices": [
         "Recouvrir une surface sans laisser de trou ni faire de chevauchement",
@@ -1370,7 +1370,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Un ruisseau se divise deux fois sur le chemin d’une mare où un ami attend — une grenouille, un renard, un hérisson. À chaque embranchement flottent deux bouées avec un nombre, une dans chaque bras, et un petit panneau en haut donne la règle du voyage : suivre les plus grands nombres, ou les plus petits. L’enfant touche un nombre à chaque embranchement, le chemin prévu s’allume, et Vérifier y envoie un voilier. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "Un ruisseau se divise deux fois sur le chemin d’une mare où un ami attend — une grenouille, un renard, un hérisson. À chaque embranchement flottent deux bouées avec un nombre, une dans chaque bras, et un petit panneau en haut donne la règle du voyage : suivre les plus grands nombres, ou les plus petits. L’enfant touche un nombre à chaque embranchement, le chemin prévu s’allume, et Vérifier y envoie un voilier. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
         "La règle change d’un voyage à l’autre : l’enfant doit donc lire le panneau et les nombres à chaque fois — celui qui prend toujours le plus grand nombre ne passe pas. Si le chemin est faux, le bateau va aussi loin qu’il peut et s’arrête dans les roseaux au premier embranchement faux, qui est entouré : quel nombre y est le plus grand (ou le plus petit) ? Après un deuxième essai, des points apparaissent sous les deux nombres de cet embranchement, pour compter lequel en a le plus. Un bon chemin mène le bateau jusqu’à l’ami : « Oui — tu as suivi les plus grands nombres, 7 et 5, jusqu’à la mare ! » Certains nombres sont loin l’un de l’autre, comme 2 et 7, d’autres sont voisins, comme 7 et 8. Les deux nombres ne sont jamais les mêmes.",
         "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et une règle qui change à chaque voyage, ou toujours le plus grand, ou toujours le plus petit. Ni chrono ni score."
       ],
@@ -1441,7 +1441,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi a commandé une boîte de gourmandises, et le ticket de commande indique combien — 7, par exemple. L’enfant touche des gourmandises sur le plateau, et chacune tombe dans une boîte de pâtissier fermée par un couvercle : une touche, une gourmandise qui disparaît. Quand l’enfant pense que la boîte contient exactement le nombre du ticket, il appuie sur Vérifier et la boîte s’ouvre. Une activité de dénombrement interactive, dans le navigateur, sans installation et sans compte.",
+        "Mochi a commandé une boîte de gourmandises, et le ticket de commande indique combien — 7, par exemple. L’enfant touche des gourmandises sur le plateau, et chacune tombe dans une boîte de pâtissier fermée par un couvercle : une touche, une gourmandise qui disparaît. Quand l’enfant pense que la boîte contient exactement le nombre du ticket, il appuie sur Vérifier et la boîte s’ouvre. Une activité de dénombrement interactive, dans le navigateur, sans installation.",
         "Tout tient au couvercle. Une fois dans la boîte, la gourmandise ne se voit plus : le compte doit rester dans la tête de l’enfant — le dernier nombre dit est le nombre de gourmandises dans la boîte, et il faut s’arrêter là. Constituer une collection d’un cardinal donné est plus difficile que dénombrer une collection déjà là, et la boîte fermée oblige l’enfant à garder le compte au lieu de regarder. Une touche sur le couvercle le soulève un court instant, puis il retombe tout seul ; tant que la boîte est ouverte, une touche sur une gourmandise à l’intérieur la remet sur le plateau. Le plateau contient toujours plus de gourmandises que la commande (12, ou 7 quand les nombres vont jusqu’à 5) : sa taille ne donne jamais la réponse. Une vérification fausse dit « trop » ou « pas assez » et laisse le couvercle enlevé jusqu’à la fin de la manche ; après une deuxième, les gourmandises de la boîte sont numérotées et la boîte marque celles en trop ou les places vides qui manquent encore. L’aide ne déplace jamais une gourmandise.",
         "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : constituer une collection d’un cardinal donné jusqu’à 10 et comprendre que le dernier nombre dit indique la quantité. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et peut enlever le couvercle pour que les gourmandises restent visibles. Ni chrono ni score."
       ],
@@ -1535,7 +1535,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Quatre pots de fleurs attendent en rangée — par exemple 6, 9, 2 et 4 — et ils se ressemblent tous exactement : seul le nombre peint sur chacun change. L’enfant touche un pot, qui tombe dans les autres en prenant la taille de son nombre : le 9 devient un grand pot, le 2 un petit. Un pot ne rentre que dans un pot au nombre plus grand : il faut donc les emboîter du plus grand nombre au plus petit. C’est une activité interactive pour le CP, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "Quatre pots de fleurs attendent en rangée — par exemple 6, 9, 2 et 4 — et ils se ressemblent tous exactement : seul le nombre peint sur chacun change. L’enfant touche un pot, qui tombe dans les autres en prenant la taille de son nombre : le 9 devient un grand pot, le 2 un petit. Un pot ne rentre que dans un pot au nombre plus grand : il faut donc les emboîter du plus grand nombre au plus petit. C’est une activité interactive pour le CP, qui fonctionne dans le navigateur, sans rien installer.",
         "Comme tous les pots de la rangée ont la même taille, la taille ne dit rien : l’enfant lit et compare les nombres, et essayer un pot montre tout de suite s’il rentre. Les pots répondent d’eux-mêmes : un pot trop grand dépasse du bord, vacille et retourne dans la rangée. Prendre un petit pot trop tôt mène à une impasse — le 9, puis le 2, et ni le 6 ni le 4 ne rentrent plus — : le pot du dedans s’allume alors, et un toucher le ressort. Après deux pots refusés, des points apparaissent sur les pots qui attendent, pour compter quel nombre est le plus grand. Quand tous les pots sont rangés, Vérifier lit la pile : « Oui — 9, 6, 4, 2 : du plus grand nombre au plus petit ! »",
         "L’activité suit les programmes officiels : comparer des nombres écrits en chiffres entre 1 et 10, ici trois ou quatre à la fois. L’enseignant choisit trois pots jusqu’à 5 ou quatre pots jusqu’à 10, et affiche les points seulement en aide ou toujours. Ni chrono ni score."
       ],
@@ -1843,7 +1843,7 @@
     "maple-bakery.share.3-oa-a-2": {
       "about": [
         "Dans la boulangerie de Maple la souris, ton enfant partage les biscuits ! À chaque tour, il y a deux façons de faire. Parfois, il faut partager les biscuits également sur plusieurs assiettes et trouver combien il y en a sur chaque assiette. Parfois, il faut ranger les biscuits dans des boîtes qui contiennent toutes le même nombre, et trouver combien de boîtes il faut. L'enfant VOIT la division prendre forme — les biscuits se rangent en groupes égaux — puis choisit le bon nombre parmi plusieurs propositions.",
-        "Découvrir la division par le sens du partage et du groupement, avec de petits nombres et sans reste, est un attendu du CE1. Bien avant de poser une division, l'enfant comprend ce qu'elle veut dire : partager en parts égales ou faire des groupes égaux. Cette compréhension imagée prépare tout le calcul à venir. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Découvrir la division par le sens du partage et du groupement, avec de petits nombres et sans reste, est un attendu du CE1. Bien avant de poser une division, l'enfant comprend ce qu'elle veut dire : partager en parts égales ou faire des groupes égaux. Cette compréhension imagée prépare tout le calcul à venir. Le jeu fonctionne directement dans le navigateur, sans minuteur et sans points, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
       ],
       "practices": [
         "Partager des biscuits en parts égales sur des assiettes",
@@ -1865,7 +1865,7 @@
     "echo-grove.match-the-rune.3-oa-a-1": {
       "about": [
         "Dans le bosquet de Pim le hibou, ton enfant apprend à lire la multiplication ! À chaque tour, Pim montre une rune, comme 3 × 4. L'enfant doit alors toucher le bosquet qui montre exactement 3 groupes de 4 fruits — et non le sosie, qui a bien le même total mais un groupement différent (par exemple 4 groupes de 3). Petit à petit, il comprend qu'un produit se lit comme des groupes égaux : le premier nombre dit combien il y a de groupes, et le second dit combien il y a dans chaque groupe.",
-        "Lire la multiplication comme des groupes égaux — le sens de la multiplication, bien avant d'apprendre les tables par cœur — est un attendu du CE1. Comprendre ce que veut vraiment dire 3 × 4 rend tout le calcul qui suit beaucoup plus solide. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Lire la multiplication comme des groupes égaux — le sens de la multiplication, bien avant d'apprendre les tables par cœur — est un attendu du CE1. Comprendre ce que veut vraiment dire 3 × 4 rend tout le calcul qui suit beaucoup plus solide. Le jeu fonctionne directement dans le navigateur, sans minuteur et sans points, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
       ],
       "practices": [
         "Lire une multiplication comme des groupes égaux",
@@ -2945,7 +2945,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "L'enfant calcule des cartes comme 8 + 5, 9 + 7, 14 − 6 et 17 − 8, puis touche chaque opération et le nombre qui en est la réponse pour relier la paire et gagner en aisance jusqu'à 20. C'est une activité de maths interactive pour le CE1, qui se joue directement dans le navigateur, sans rien installer et sans inscription.",
+        "L'enfant calcule des cartes comme 8 + 5, 9 + 7, 14 − 6 et 17 − 8, puis touche chaque opération et le nombre qui en est la réponse pour relier la paire et gagner en aisance jusqu'à 20. C'est une activité de maths interactive pour le CE1, qui se joue directement dans le navigateur, sans rien installer.",
         "La grande idée, c'est le rappel rapide et sûr des additions et des soustractions jusqu'à 20. Chaque tour mélange trois opérations — des additions, des soustractions — avec leurs trois résultats répartis parmi les cartes : l'enfant calcule chaque opération, puis retrouve la valeur qui lui correspond. À force de tours, des faits comme 9 + 9 = 18 ou 16 − 9 = 7 passent peu à peu du comptage à la mémoire.",
         "Cette activité de CE1 est alignée sur les programmes officiels : additionner et soustraire avec aisance jusqu'à 20 et connaître par cœur les sommes de deux nombres à un chiffre. Ni minuteur, ni score — juste une pratique calme et ludique."
       ],
@@ -3303,7 +3303,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Deux grandes cartes nombres sont posées côte à côte — par exemple 3 et 8 —, avec au-dessus de chacune le socle vide d’une tour. Quel nombre est le plus petit ? L’enfant le touche et appuie sur Vérifier. Alors les deux tours grandissent en même temps, un cube à la fois, pendant qu’une bande numérique s’allume en dessous : 1, 2, 3… La tour du 3 s’arrête à trois cubes et lève un petit drapeau ; celle du 8 continue de monter. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "Deux grandes cartes nombres sont posées côte à côte — par exemple 3 et 8 —, avec au-dessus de chacune le socle vide d’une tour. Quel nombre est le plus petit ? L’enfant le touche et appuie sur Vérifier. Alors les deux tours grandissent en même temps, un cube à la fois, pendant qu’une bande numérique s’allume en dessous : 1, 2, 3… La tour du 3 s’arrête à trois cubes et lève un petit drapeau ; celle du 8 continue de monter. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
         "Les tours montrent ce que vaut chaque nombre écrit et pourquoi l’un est plus petit : en comptant à partir de 1, on arrive d’abord au plus petit nombre, donc sa tour s’arrête la première. Après une première erreur, l’indice invite l’enfant à compter à partir de 1 et à repérer lequel des deux nombres vient en premier ; après une deuxième, les tours grandissent pour ce regard, le drapeau sur le plus petit, jusqu’à ce que l’enfant choisisse à nouveau. Une bonne réponse le dit avec des nombres : « Oui — 3 est plus petit que 8 ! » Certains nombres sont loin l’un de l’autre, comme 2 et 9, d’autres sont voisins, comme 5 et 6 — ce sont eux qu’il faut regarder de près. Les deux nombres ne sont jamais les mêmes.",
         "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et peut afficher ou cacher la bande numérique sous les tours. Ni chrono ni score."
       ],
@@ -3520,7 +3520,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "À côté d’un immeuble de dix étages attendent deux animaux passagers, chacun avec un ticket où est écrit un nombre — par exemple un cochon avec le 6 et un chien avec le 9. Qui monte le plus haut ? L’enfant touche le passager qui a le plus grand nombre et appuie sur Vérifier. Alors l’ascenseur monte : il s’arrête à l’étage 6, où un passager descend, et emmène l’autre jusqu’à l’étage 9. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "À côté d’un immeuble de dix étages attendent deux animaux passagers, chacun avec un ticket où est écrit un nombre — par exemple un cochon avec le 6 et un chien avec le 9. Qui monte le plus haut ? L’enfant touche le passager qui a le plus grand nombre et appuie sur Vérifier. Alors l’ascenseur monte : il s’arrête à l’étage 6, où un passager descend, et emmène l’autre jusqu’à l’étage 9. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
         "L’immeuble est une ligne numérique dressée à la verticale : les numéros des étages montent le long du mur dans l’ordre de la comptine, donc un plus grand nombre est un étage plus haut, et la comparaison devient visible. Un enfant qui hésite peut d’abord chercher les deux nombres sur le mur. Après une première erreur, l’indice invite à chercher les deux nombres sur l’immeuble (ou, si les numéros sont cachés, à compter les étages depuis le bas) ; après une deuxième, les deux étages s’allument, chacun de la couleur de son passager, et on voit tout de suite lequel est le plus haut. Une bonne réponse le dit avec des nombres : « Oui — 9 est plus grand que 6 ! » Certains nombres sont loin l’un de l’autre, comme 8 et 2, d’autres sont voisins, comme 7 et 8 — ce sont eux qu’il faut regarder de près. Les deux nombres ne sont jamais les mêmes.",
         "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 (un immeuble de cinq étages) ou jusqu’à 10, et peut cacher les numéros des étages pour qu’il faille compter les étages depuis le bas. Ni chrono ni score."
       ],
@@ -3917,7 +3917,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Une rue de cinq maisons, chacune avec un numéro imprimé au-dessus de sa porte, et une camionnette de la poste avec trois lettres. L’adresse de chaque lettre est écrite à la main – de l’écriture que les enfants apprennent pour tracer leurs chiffres –, tandis que les numéros des maisons sont imprimés. L’enfant ne peut donc pas comparer des formes : il doit lire le nombre. Il fait glisser chaque lettre jusqu’à une maison ; elle n’entre que dans une seule boîte aux lettres. Quand la bonne porte s’ouvre, le voisin sort sur le pas de la porte, le nombre est dit à voix haute et la lettre suivante apparaît. Quand la troisième lettre est postée, le tour se vérifie tout seul. Une activité interactive de lecture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans compte.",
+        "Une rue de cinq maisons, chacune avec un numéro imprimé au-dessus de sa porte, et une camionnette de la poste avec trois lettres. L’adresse de chaque lettre est écrite à la main – de l’écriture que les enfants apprennent pour tracer leurs chiffres –, tandis que les numéros des maisons sont imprimés. L’enfant ne peut donc pas comparer des formes : il doit lire le nombre. Il fait glisser chaque lettre jusqu’à une maison ; elle n’entre que dans une seule boîte aux lettres. Quand la bonne porte s’ouvre, le voisin sort sur le pas de la porte, le nombre est dit à voix haute et la lettre suivante apparaît. Quand la troisième lettre est postée, le tour se vérifie tout seul. Une activité interactive de lecture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer.",
         "L’idée centrale : lire les nombres de 0 à 20 comme des nombres, pas comme des images. Chaque rue contient les confusions des jeunes lecteurs : le 13 habite à côté du 31, donc l’ordre des chiffres compte ; le 14 est entre le 13 et le 11, donc il faut lire le dernier chiffre ; le 14 est à côté du 4, car un chiffre n’est pas deux ; et le 6 est près du 9, le 2 près du 5, le 1 près du 7. Une mauvaise porte répond avec son propre numéro à côté de celui de la lettre et nomme l’erreur – les mêmes chiffres dans l’autre sens, regarde le dernier chiffre, deux chiffres et non un – et après deux essais manqués, la bonne plaque s’allume. Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou passent l’adresse d’écrite à parlée pour que l’enfant écoute le nombre, avec un bouton Montrer pour une salle silencieuse.",
         "L’activité suit les programmes officiels du cycle 2 : lire les nombres jusqu’à 20 et les distinguer. Sans chronomètre et sans score – un entraînement calme et ludique."
       ],
@@ -4039,7 +4039,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Un bocal de jouets avec une étiquette vide sur le couvercle. L’enfant compte – chaque jouet reçoit une marque quand on le touche – et écrit combien il y en a avec les touches des chiffres ; les chiffres apparaissent sur l’étiquette. Vérifier pose l’étiquette contre le bocal : les jouets se rangent dans autant de places que l’étiquette l’indique, et si elle est juste, elle devient dorée et se colle pendant que le nombre est dit à voix haute. Dans l’autre sorte de manche, l’étiquette est déjà écrite et le bocal est vide : l’enfant touche des jouets sur l’étagère pour les faire tomber dedans jusqu’à ce que le bocal en contienne autant. Une activité interactive de dénombrement et d’écriture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans compte.",
+        "Un bocal de jouets avec une étiquette vide sur le couvercle. L’enfant compte – chaque jouet reçoit une marque quand on le touche – et écrit combien il y en a avec les touches des chiffres ; les chiffres apparaissent sur l’étiquette. Vérifier pose l’étiquette contre le bocal : les jouets se rangent dans autant de places que l’étiquette l’indique, et si elle est juste, elle devient dorée et se colle pendant que le nombre est dit à voix haute. Dans l’autre sorte de manche, l’étiquette est déjà écrite et le bocal est vide : l’enfant touche des jouets sur l’étagère pour les faire tomber dedans jusqu’à ce que le bocal en contienne autant. Une activité interactive de dénombrement et d’écriture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer.",
         "L’idée centrale est l’aller-retour du travail sur les nombres : une quantité comptée devient un nombre écrit, et un nombre écrit redevient une quantité. Jusqu’à dix, les jouets sont posés librement ; de onze à vingt, ils sont alignés en rangées pour que l’œil ne perde pas sa place. Une mauvaise étiquette reçoit la réponse du bocal, pas une croix rouge : une étiquette trop petite laisse des jouets sans place, une étiquette trop grande laisse des places vides en pointillé, et l’erreur est nommée – les chiffres dans l’autre sens (41 pour 14) ou seulement les unités (4 pour 14). Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou ne proposent que les manches de comptage ou que les manches de remplissage.",
         "L’activité suit les programmes officiels du cycle 2 : dénombrer une collection jusqu’à 20 et écrire le nombre. Sans chronomètre et sans score – un entraînement calme et ludique."
       ],

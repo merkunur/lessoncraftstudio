@@ -1,5 +1,7 @@
 import { prisma } from './prisma';
 import { Axis, levelKeyToAgeRanges, listAxisKeys, listExerciseModeKeys, exerciseTypeKeysForSubject } from './taxonomy';
+import { INTERACTIVE_EXERCISE_TYPES, INTERACTIVE_PRINTABLE_FAMILIES } from '@/config/interactive-exercise-types';
+import { INTERACTIVE_LEVEL_SET_TYPES, LEVEL_SET_PRINT_ONLY_VARIATIONS } from '@/config/interactive-level-set-types';
 
 export interface TopicDeckSummary {
   id: string;
@@ -394,12 +396,41 @@ export async function countDecksForIntersection(
  */
 function buildSubjectLevelWhere(
   subjectKey: string,
-  levelKey: string
+  levelKey: string,
+  playable = false
 ): Record<string, unknown> | null {
   const types = exerciseTypeKeysForSubject(subjectKey);
   const ageRanges = levelKeyToAgeRanges(levelKey);
   if (types.length === 0 || ageRanges.length === 0) return null;
+  if (playable) return { ageRange: { in: ageRanges }, ...playableWhere(types) };
   return { exerciseType: { in: types }, ageRange: { in: ageRanges } };
+}
+
+/**
+ * The pages of these worksheet types that PLAY on screen, as a database filter: the rule of
+ * lib/level-sets.ts `pageIsInteractive`. An indexed page plays when its type is one of the apps or an
+ * interactive printable family; a Level Set page (never indexed) plays when its type ships a screen and its
+ * variation is not one of the print-only ones (the variation code its slug ends with: `…-k332` or `…-k332-3`).
+ *
+ * Until 2026-11-13 the online hubs ("N free interactive exercises … play in the browser") counted and listed
+ * EVERY page of the subject and grade; measured that day, 40 % of those pages were PDF only, and the science
+ * hubs promised interactive exercises where not one page played.
+ */
+function playableWhere(types: string[]): Record<string, unknown> {
+  const indexed = types.filter((t) => INTERACTIVE_EXERCISE_TYPES.has(t) || INTERACTIVE_PRINTABLE_FAMILIES.has(t));
+  const sets = types.filter((t) => INTERACTIVE_LEVEL_SET_TYPES.has(t));
+  const codesOf = (t: string) => LEVEL_SET_PRINT_ONLY_VARIATIONS[t] || [];
+  return {
+    OR: [
+      { indexable: true, exerciseType: { in: indexed } },
+      { indexable: false, exerciseType: { in: sets.filter((t) => codesOf(t).length === 0) } },
+      ...sets.filter((t) => codesOf(t).length > 0).map((t) => ({
+        indexable: false,
+        exerciseType: t,
+        NOT: { OR: codesOf(t).flatMap((code) => [{ slug: { endsWith: `-${code}` } }, { slug: { contains: `-${code}-` } }]) },
+      })),
+    ],
+  };
 }
 
 /** Fetch published decks for a subject×grade hub (subject bucket × level), monolingual. */
@@ -407,16 +438,26 @@ export async function fetchDecksForSubjectLevel(
   subjectKey: string,
   levelKey: string,
   locale: string,
-  options?: { take?: number }
+  options?: { take?: number; playable?: boolean }
 ): Promise<TopicDeckSummary[]> {
-  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  const w = buildSubjectLevelWhere(subjectKey, levelKey, options?.playable);
   if (!w) return [];
-  return prisma.deck.findMany({
-    where: { language: locale, status: 'published', contentLanguage: null, ...w },
-    select: DECK_SELECT,
-    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    take: options?.take ?? 24,
-  }) as unknown as Promise<TopicDeckSummary[]>;
+  const where = { language: locale, status: 'published', contentLanguage: null, ...w };
+  const take = options?.take ?? 24;
+  // A hub shows what the grade HAS: one page per worksheet type first (the indexed page of the type, else its
+  // newest), then the newest of the rest. "The newest 24" alone was 24 copies of whatever was published last
+  // (2026-11-13: 24 set copies of one word-problem page on the Grade 1 hubs). The pick reads two narrow columns
+  // of the hub's rows; the cards are then fetched by id.
+  const order = [{ indexable: 'desc' as const }, { publishedAt: 'desc' as const }, { id: 'asc' as const }];
+  const firsts = await prisma.deck.findMany({ where, select: { id: true, exerciseType: true }, orderBy: order, distinct: ['exerciseType'], take });
+  const ids = firsts.map((d) => d.id);
+  if (ids.length < take) {
+    const rest = await prisma.deck.findMany({ where: { ...where, id: { notIn: ids } }, select: { id: true }, orderBy: order, take: take - ids.length });
+    ids.push(...rest.map((d) => d.id));
+  }
+  const rows = (await prisma.deck.findMany({ where: { id: { in: ids } }, select: DECK_SELECT })) as unknown as TopicDeckSummary[];
+  const at = new Map(ids.map((id, i) => [id, i]));
+  return rows.sort((x, y) => (at.get((x as unknown as { id: string }).id) ?? 0) - (at.get((y as unknown as { id: string }).id) ?? 0));
 }
 
 /** Latest content update in a subject×grade bucket — the hub's honest "Updated" date (Unit 6). */
@@ -456,9 +497,10 @@ export async function fetchLeadDeckForSubjectLevel(
 export async function countDecksForSubjectLevel(
   subjectKey: string,
   levelKey: string,
-  locale: string
+  locale: string,
+  options?: { playable?: boolean }
 ): Promise<number> {
-  const w = buildSubjectLevelWhere(subjectKey, levelKey);
+  const w = buildSubjectLevelWhere(subjectKey, levelKey, options?.playable);
   if (!w) return 0;
   return prisma.deck.count({
     where: { language: locale, status: 'published', contentLanguage: null, ...w },

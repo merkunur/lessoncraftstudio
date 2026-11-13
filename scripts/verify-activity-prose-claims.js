@@ -29,10 +29,12 @@
  *      A ban that condemns correct native prose teaches an author to word around it instead
  *      of reporting it, so both directions are poison-tested on every run.
  *
- * NOT BANNED, deliberately: "no sign-up / ohne Anmeldung / sans inscription / sin registro /
- * zonder inloggen" is TRUE — anonymous visitors really can play — and the native panels
- * confirmed it survives intact in every locale. Swapping one false claim for another was the
- * trap here. Also not banned: "try again as many times as you like", which every panel
+ * NOT BANNED HERE: "no sign-up / ohne Anmeldung / sans inscription / sin registro / zonder
+ * inloggen". It was true when this gate was written (anonymous visitors could play). Since
+ * 2026-11-12 a play needs a free account, so the wording is FALSE and is policed by its own
+ * gate in all eleven languages (scripts/teacher-gate/gates.js P8, no-account-lib.js); the
+ * must-pass cases below that hold it only prove that the PRICE patterns do not fire on it.
+ * Also not banned: "try again as many times as you like", which every panel
  * checked and found bounded in its own sentence by "there is no timer and no score" — it
  * promises retries within a task, not unmetered access. ⚠ If a future edit strips that
  * bounding clause the bare promise becomes false, so it is listed in NOTES below.
@@ -192,7 +194,7 @@ function main() {
     findings.slice(0, 40).forEach((f) => console.error('  [' + f.loc + '] ' + f.path + '  <' + f.word + '>\n      ' + f.text));
     if (findings.length > 40) console.error('  ... and ' + (findings.length - 40) + ' more');
     console.error('\nPlays are metered (10/day, frontend/lib/quota.ts), so the activity is not free.');
-    console.error('Remove the claim; do NOT remove the TRUE "no sign-up" clause alongside it.');
+    console.error('Remove the claim. (A "no sign-up" clause beside it is false too since 2026-11-12: a play needs a free account; scripts/teacher-gate/scan-no-account.js.)');
     process.exit(1);
   }
   console.log('VERIFY-ACTIVITY-PROSE-CLAIMS PASSED — 0 price claims in the activity body prose or the fallback templates.');

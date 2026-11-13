@@ -727,6 +727,8 @@ async function renderSubjectGradeHub(
   const count = await countDecksForSubjectLevel(subjectKey, levelKey, locale);
   if (count === 0) notFound();
   const decks = await fetchDecksForSubjectLevel(subjectKey, levelKey, locale, { take: 24 });
+  // the link to the online hub stands only where enough pages PLAY on screen (the online hub's own floor)
+  const playableCount = await countDecksForSubjectLevel(subjectKey, levelKey, locale, { playable: true });
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
@@ -883,7 +885,7 @@ async function renderSubjectGradeHub(
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">{h1}</h1>
           <ResultCount locale={locale} count={count} />
           <p className="mt-3 text-ink-700 max-w-3xl leading-relaxed">{intro}</p>
-          {isOnlineHubAvailable(locale, subjectKey) && count >= MIN_INDEXABLE_SUBJECT_HUB_DECKS && onlineHubLinkLabel(locale) && (
+          {isOnlineHubAvailable(locale, subjectKey) && playableCount >= MIN_INDEXABLE_SUBJECT_HUB_DECKS && onlineHubLinkLabel(locale) && (
             <p className="mt-3">
               <a href={`/${locale}/topic/${slug}/${secondary}/online`} className={`font-medium ${linkCls}`}>
                 {onlineHubLinkLabel(locale)}

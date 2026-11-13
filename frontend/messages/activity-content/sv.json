@@ -10,7 +10,7 @@
     "byStrand": {
       "Counting & Cardinality": {
         "about": [
-          "Det här är en interaktiv räkneaktivitet för de yngsta, med tal upp till {max}. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet – det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
+          "Det här är en interaktiv räkneaktivitet för de yngsta, med tal upp till {max}. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet – det finns inget att installera och inga förberedelser för läraren.",
           "Aktiviteten följer Lgr22 inom området taluppfattning och tals användning. Barnen får mjuk och omedelbar återkoppling medan de arbetar, så att de kan fortsätta försöka tills svaret känns rätt. Det finns ingen timer och inga poäng – bara lugn och konkret övning."
         ],
         "practices": [
@@ -54,7 +54,7 @@
       },
       "Operations & Algebraic Thinking": {
         "about": [
-          "Den här interaktiva aktiviteten ger barnen konkret övning i de första tankarna kring addition och subtraktion, med antal upp till {max}. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera och utan inloggning.",
+          "Den här interaktiva aktiviteten ger barnen konkret övning i de första tankarna kring addition och subtraktion, med antal upp till {max}. Den körs direkt i webbläsaren på vilken enhet som helst, utan något att installera.",
           "Den följer Lgr22 inom området algebra. Återkopplingen är omedelbar och uppmuntrande, och det finns ingen timer eller poäng – barnen kan tänka igenom saker i sin egen takt."
         ],
         "practices": [
@@ -76,7 +76,7 @@
       },
       "Geometry": {
         "about": [
-          "Den här interaktiva aktiviteten med former hjälper små barn att lägga märke till, namnge och jämföra formerna omkring sig. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
+          "Den här interaktiva aktiviteten med former hjälper små barn att lägga märke till, namnge och jämföra formerna omkring sig. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera.",
           "Den följer Lgr22 inom området geometri. Barnen utforskar i sin egen takt med mjuk och omedelbar återkoppling – ingen timer, inga poäng, bara lekfull övning."
         ],
         "practices": [
@@ -98,7 +98,7 @@
       },
       "Measurement & Data": {
         "about": [
-          "Den här interaktiva mätövningen hjälper små barn att jämföra föremål efter storlek – högre, kortare och längre – helt utan att räkna. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto.",
+          "Den här interaktiva mätövningen hjälper små barn att jämföra föremål efter storlek – högre, kortare och längre – helt utan att räkna. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera.",
           "Den följer Lgr22 inom området {strand}. Barnen jämför i sin egen takt med mjuk och omedelbar återkoppling – ingen timer, inga poäng, bara lekfull träning i att titta noga på hur saker mäter sig mot varandra."
         ],
         "practices": [
@@ -120,7 +120,7 @@
       },
       "Reading: Foundational Skills": {
         "about": [
-          "Den här interaktiva läsaktiviteten ger barnen konkret övning i att ljuda och bygga ord. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera och utan konto att skapa.",
+          "Den här interaktiva läsaktiviteten ger barnen konkret övning i att ljuda och bygga ord. Den körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet, utan något att installera.",
           "Den följer Lgr22 inom området läsa och skriva. Varje ord kontrolleras för en korrekt, barnsäker uppdelning, och återkopplingen är mjuk och omedelbar – det finns ingen timer och inga poäng."
         ],
         "practices": [
@@ -165,7 +165,7 @@
     },
     "generic": {
       "about": [
-        "Det här är en interaktiv lärandeaktivitet för små barn som körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet. Det finns inget att installera, inget konto att skapa och inga förberedelser för läraren.",
+        "Det här är en interaktiv lärandeaktivitet för små barn som körs direkt i webbläsaren på surfplattor, telefoner och datorer i klassrummet. Det finns inget att installera och inga förberedelser för läraren.",
         "Den följer Lgr22 inom området {strand}. Barnen arbetar i sin egen takt med mjuk och omedelbar återkoppling, och det finns ingen timer och inga poäng – bara lugn och konkret övning."
       ],
       "practices": [
@@ -194,7 +194,7 @@
   "prose": {
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
-        "Murklas ordsluss är en interaktiv övning i svenska för åk 3. Ett verb i nutid åker in i slussen och lämnar den i dåtid — och barnet väljer vilket av tre ord som är det rätta. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera, inget konto och inga förberedelser för läraren.",
+        "Murklas ordsluss är en interaktiv övning i svenska för åk 3. Ett verb i nutid åker in i slussen och lämnar den i dåtid — och barnet väljer vilket av tre ord som är det rätta. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera och inga förberedelser för läraren.",
         "Aktiviteten följer Lgr22 inom språkliga strukturer och normer. Alla tre orden i en uppgift liknar varandra, så barnet måste tänka efter i stället för att gissa. Återkopplingen är vänlig och förklarar varför just det valda ordet inte fungerar — det finns ingen tid som tickar och inga poäng."
       ],
       "practices": [
@@ -216,7 +216,7 @@
     },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
-        "Leos ordtrappa är en interaktiv övning i svenska för åk 3. Tre ord som betyder nästan samma sak visas — till exempel ljummen, varm och het — och barnet trycker på det ord som frågan ber om. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera, inget konto och inga förberedelser för läraren.",
+        "Leos ordtrappa är en interaktiv övning i svenska för åk 3. Tre ord som betyder nästan samma sak visas — till exempel ljummen, varm och het — och barnet trycker på det ord som frågan ber om. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera och inga förberedelser för läraren.",
         "Aktiviteten följer Lgr22 inom ord och begrepp. Frågan växlar mellan starkast och svagast, så barnet måste läsa den varje gång — det räcker inte att lära sig ett knep. Återkopplingen säger vad som gick fel, och det finns ingen tid som tickar och inga poäng."
       ],
       "practices": [
@@ -357,7 +357,7 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "En biljett visar ett tal, och vid perrongen väntar ett tåg med tio platser tillsammans med en massa djur. Barnet trycker på djuren ett i taget – vart och ett hoppar till nästa lediga plats – och trycker på Avgång när det sitter exakt så många på tåget som det står på biljetten. Det är en interaktiv räkneaktivitet upp till 10 som fungerar i webbläsaren, utan installation och utan konto.",
+        "En biljett visar ett tal, och vid perrongen väntar ett tåg med tio platser tillsammans med en massa djur. Barnet trycker på djuren ett i taget – vart och ett hoppar till nästa lediga plats – och trycker på Avgång när det sitter exakt så många på tåget som det står på biljetten. Det är en interaktiv räkneaktivitet upp till 10 som fungerar i webbläsaren, utan installation.",
         "Det svåra med att räkna fram ett antal är att veta när man ska sluta, och tåget är byggt kring just det: det väntar alltid fler djur än biljetten kräver, så barnet måste hålla räkningen och bestämma själv. De tio platserna är en tioram – två rader med fem, som fylls framifrån –, så sju syns som en full rad och två till. Stämmer inte antalet numrerar tåget sina passagerare så att barnet ser varför, och barnet rättar själv; hjälpen flyttar aldrig ett djur. I vissa omgångar stannar tåget en gång till, och på den nya biljetten står det ett mer eller ett mindre – då kliver precis ett djur på eller av i stället för att barnet börjar om.",
         "Aktiviteten följer Lgr22 – att ge varje sak ett tal, att veta att det sista talet säger hur många det är och att nästa tal är ett mer. Läraren väljer biljetter upp till 5 eller upp till 10 och om räknetalen ska synas när djuren kliver på eller sägas högt av barnet. Ingen timer och inga poäng."
       ],
@@ -381,7 +381,7 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "En beställningslapp visar ett tal, och vid fruktståndet väntar två brickor med tio rutor var. Barnet trycker på rutan där beställningen tar slut – frukterna ramlar ner ruta för ruta dit – och trycker på Kontrollera när det ligger exakt så många frukter i brickorna som det står på lappen. Det är en interaktiv räkneaktivitet upp till 20 som fungerar i webbläsaren, utan installation och utan konto.",
+        "En beställningslapp visar ett tal, och vid fruktståndet väntar två brickor med tio rutor var. Barnet trycker på rutan där beställningen tar slut – frukterna ramlar ner ruta för ruta dit – och trycker på Kontrollera när det ligger exakt så många frukter i brickorna som det står på lappen. Det är en interaktiv räkneaktivitet upp till 20 som fungerar i webbläsaren, utan installation.",
         "Att lägga fram ett antal handlar mest om att veta var det tar slut. De två brickorna är en dubbel tioram: 17 är en full bricka och 7 till, och barnet hittar den sjuttonde rutan genom att räkna en och en eller i tior och femmor. Ett tryck på en frukt tar bort den frukten och alla efter den, så varje nästa ruta är ett mer, och att ta bort den sista frukten är ett mindre. Stämmer inte antalet numrerar ståndet sina frukter så att barnet ser varför; efter ett andra fel markerar det frukterna som är för många eller rutorna som fortfarande väntar, och hjälpen flyttar aldrig en frukt. De två vanliga felen med tal över tio får ett namn: bara delen efter tio (7 i stället för 17) och bara den fulla brickan (10 i stället för 17).",
         "Aktiviteten följer Lgr22 – att ge varje sak ett tal, att veta att det sista talet säger hur många det är och att nästa tal är ett mer. Läraren väljer beställningar upp till 10 (en bricka) eller upp till 20 och om ett tryck fyller på till rutan eller lägger i en frukt i taget (då säger barnet ett tal för varje frukt). Ingen timer och inga poäng."
       ],
@@ -405,7 +405,7 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Ett bord fullt av djur och en enda fråga: hur många? Barnet trycker på varje djur för att räkna det – en numrerad lapp landar på djuret – och trycker sedan på talraden på det tal som säger hur många det är. Djuren står på rad, i rader, i en ring eller utspridda: precis de fyra uppställningar som räkning i förskoleklass handlar om. Körs i webbläsaren, utan installation och utan konto.",
+        "Ett bord fullt av djur och en enda fråga: hur många? Barnet trycker på varje djur för att räkna det – en numrerad lapp landar på djuret – och trycker sedan på talraden på det tal som säger hur många det är. Djuren står på rad, i rader, i en ring eller utspridda: precis de fyra uppställningar som räkning i förskoleklass handlar om. Körs i webbläsaren, utan installation.",
         "De tre räkneprinciperna sitter i materialet: ett djur kan bara få en lapp (ett-till-ett), lapparna numreras i den ordning de gavs (stabil räkneramsa) och den sista lappen lyser eftersom det sist sagda talet är svaret (kardinalitet). Hoppas ett djur över säger ledtråden det, och det oräknade djuret pulserar. Två fria drag – Räkna igen och Blanda om – låter barnet upptäcka att ordningen inte spelar någon roll och att antalet är detsamma när djuren flyttar sig.",
         "Anpassat till Lgr22: räkna föremål upp till 10 för att svara på \"hur många?\". Ingen timer, inga poäng – lugn räkning med händerna."
       ],
@@ -523,7 +523,7 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Två mattor, två grupper som hör ihop – bin och blommor, kaniner och morötter, ekorrar och ekollon. Vilken grupp har fler, eller är de lika många? Barnet trycker på ”Fler” vid gruppen som har fler, eller på ”Lika många”, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Två mattor, två grupper som hör ihop – bin och blommor, kaniner och morötter, ekorrar och ekollon. Vilken grupp har fler, eller är de lika många? Barnet trycker på ”Fler” vid gruppen som har fler, eller på ”Lika många”, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Utspridningen är ofta ett lurendrejeri: i många omgångar ligger den mindre gruppen utspridd över hela sin matta medan den större trängs ihop, så den grupp som ser större ut är den som har färre – men inte alltid, så ögat går inte att lita på. Det är den klassiska fällan när man jämför med ögat, och övningen ger barnet två ärliga sätt att ta sig förbi den. Det ena är att para ihop: ett tryck på en i den övre gruppen och sedan på en i den nedre ger båda samma rosett – en färg och en form – och de som blir utan rosett visar vilken grupp som har fler; blir ingen över är de lika många. Det andra är att räkna båda grupperna. Ett fel svar ger ett tips: gör par, eller leta efter dem som saknar kompis. Efter ett andra försök paras resten ihop och de som saknar kompis ringas in. Ett rätt svar ger varje par en rosett, numrerar båda grupperna och säger det med tal: ”10 är fler än 7”.",
         "Aktiviteten följer Lgr22 – att jämföra antal upp till 10 genom att para ihop och räkna: fler, färre eller lika många. Läraren väljer grupper upp till 5 eller upp till 10 och kan stänga av lurendrejeriet med utspridningen. Ingen timer och inga poäng."
       ],
@@ -888,7 +888,7 @@
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {
       "about": [
-        "På korten står uppgifter som 8 + 5, 9 + 7, 14 − 6 och 17 − 8 — barnet räknar ut var och en och trycker sedan på uppgiften och det tal som är dess svar för att koppla ihop paret och bygga en säker taluppfattning inom 20. Det är en interaktiv mattaktivitet för årskurs 2 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
+        "På korten står uppgifter som 8 + 5, 9 + 7, 14 − 6 och 17 − 8 — barnet räknar ut var och en och trycker sedan på uppgiften och det tal som är dess svar för att koppla ihop paret och bygga en säker taluppfattning inom 20. Det är en interaktiv mattaktivitet för årskurs 2 som körs direkt i webbläsaren, utan att något behöver installeras.",
         "Den stora idén är snabb och trygg minnesframplockning av additions- och subtraktionsuppgifter upp till 20. Varje runda blandar tre uppgifter — några plus, några minus — med sina tre svar inblandade, så barnet räknar ut varje uppgift och letar sedan upp det matchande värdet. Med upprepad övning runda efter runda flyttas uppgifter som 9 + 9 = 18 och 16 − 9 = 7 från att räknas till att kunnas utantill. Aktiviteten passar årskurs 2 och följer Lgr22."
       ],
       "practices": [
@@ -1030,7 +1030,7 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Ett tal från 1 till 9 (eller från 9 till 19 med den vidare inställningen) ligger öppet på en stig av stenar med lock, med en spelpjäs ovanpå. Barnet skriver med siffertangenterna det tal som kommer direkt efter – står på 7, skriver 8 – och pjäsen hoppar till stenen som öppnas. Det är en interaktiv räkneaktivitet för förskoleklass som körs direkt i webbläsaren på surfplatta, mobil och dator, utan installation och utan konto.",
+        "Ett tal från 1 till 9 (eller från 9 till 19 med den vidare inställningen) ligger öppet på en stig av stenar med lock, med en spelpjäs ovanpå. Barnet skriver med siffertangenterna det tal som kommer direkt efter – står på 7, skriver 8 – och pjäsen hoppar till stenen som öppnas. Det är en interaktiv räkneaktivitet för förskoleklass som körs direkt i webbläsaren på surfplatta, mobil och dator, utan installation.",
         "Kärnan är att räkna vidare från ett givet tal i stället för att börja om från ett. Stenarna före pjäsen är dolda under lock, så svaret går inte att läsa av från en rad med tal; ett lock kan lyftas för att titta på ett tidigare tal när det hjälper, och läraren kan visa hela stigen fram till pjäsen. Ett fel svar får ett namn – samma tal, talet före eller för långt – och stigen öppnas fram till pjäsen så att barnet kan räkna vidare därifrån.",
         "Aktiviteten följer Lgr22 för förskoleklassen: räkna framåt från ett givet tal i den kända talraden. Ingen timer, inga poäng – bara lugn och lekfull träning."
       ],
@@ -1245,7 +1245,7 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Två stora sifferkort ligger bredvid varandra – till exempel 3 och 8 – med en tom tornfot ovanför varje kort. Vilket tal är mindre? Barnet trycker på det och trycker på Kontrollera. Sedan växer båda tornen samtidigt, en kloss i taget, medan en talrad under dem lyser upp: 1, 2, 3 … Tornet för 3 stannar vid tre klossar och hissar en liten flagga; tornet för 8 fortsätter uppåt. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Två stora sifferkort ligger bredvid varandra – till exempel 3 och 8 – med en tom tornfot ovanför varje kort. Vilket tal är mindre? Barnet trycker på det och trycker på Kontrollera. Sedan växer båda tornen samtidigt, en kloss i taget, medan en talrad under dem lyser upp: 1, 2, 3 … Tornet för 3 stannar vid tre klossar och hissar en liten flagga; tornet för 8 fortsätter uppåt. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Tornen visar hur många varje skrivet tal betyder och varför det ena är mindre: när man räknar från 1 kommer man först till det mindre talet, och därför stannar dess torn först. Efter ett första fel ber tipset barnet att räkna från 1 och lägga märke till vilket av de två talen som kommer först; efter ett andra växer tornen för att visa det, med flaggan vid det mindre talet, tills barnet väljer igen. Ett rätt svar säger det med tal: ”Ja – 3 är mindre än 8!” Ibland ligger talen långt ifrån varandra, som 2 och 9, och ibland är de grannar, som 5 och 6 – då gäller det att titta noga. De två talen är aldrig lika.",
         "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 eller upp till 10 och kan visa eller dölja talraden under tornen. Ingen timer och inga poäng."
       ],
@@ -1462,7 +1462,7 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Bredvid ett hus med tio våningar väntar två djur som passagerare, var och en med en biljett där det står ett tal – till exempel en gris med 6 och en hund med 9. Vem åker högre? Barnet trycker på passageraren med det större talet och trycker på Kontrollera. Sedan åker hissen uppåt: den stannar på våning 6, där en passagerare kliver av, och tar den andra vidare upp till våning 9. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Bredvid ett hus med tio våningar väntar två djur som passagerare, var och en med en biljett där det står ett tal – till exempel en gris med 6 och en hund med 9. Vem åker högre? Barnet trycker på passageraren med det större talet och trycker på Kontrollera. Sedan åker hissen uppåt: den stannar på våning 6, där en passagerare kliver av, och tar den andra vidare upp till våning 9. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Huset är en tallinje som står upp: våningsnumren går uppför väggen i räkneordning, så ett större tal är en högre våning – och jämförelsen blir något barnet kan se. Ett barn som är osäkert kan först leta upp båda talen på väggen. Efter ett första fel ber tipset barnet att leta upp båda talen på huset (eller, när numren är dolda, att räkna våningarna nerifrån); efter ett andra tänds båda våningarna, var och en i sin passagerares färg, och man ser direkt vilken som är högst. Ett rätt svar säger det med tal: ”Ja – 9 är större än 6!” Ibland ligger talen långt ifrån varandra, som 8 och 2, och ibland är de grannar, som 7 och 8 – då gäller det att titta noga. De två talen är aldrig lika.",
         "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 (ett hus med fem våningar) eller upp till 10 och kan dölja våningsnumren, så att våningarna måste räknas nerifrån. Ingen timer och inga poäng."
       ],
@@ -1486,7 +1486,7 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Ett litet fönster med två fönsterluckor: de slås upp, en grupp bilder tittar fram – ankor, äpplen, morötter – och luckorna stängs igen. Hur många var det? Barnet trycker på ett tal från 1 till 10, får titta igen så många gånger det vill och trycker på Kontrollera. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation och utan konto.",
+        "Ett litet fönster med två fönsterluckor: de slås upp, en grupp bilder tittar fram – ankor, äpplen, morötter – och luckorna stängs igen. Hur många var det? Barnet trycker på ett tal från 1 till 10, får titta igen så många gånger det vill och trycker på Kontrollera. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation.",
         "Den korta titten är kärnan. Små grupper ser man med en blick, och större visas i de mönster lärare använder i klassrummet: tärningsbilder upp till sex, fem på rad och några till, par, en kort rad, några utspridda. Så lär sig barnet att se sju som fem och två i stället för att räkna en och en – och räkning finns alltid där för att kontrollera. Efter ett fel tal står fönstret öppet och barnet räknar; efter ett andra går talen längs bilderna fram till ett frågetecken på den sista, så att barnet själv säger hur många det är.",
         "Aktiviteten följer Lgr22 – att uppfatta små antal med en blick och räkna antal upp till 10. Läraren väljer tal upp till 5 eller upp till 10 och om fönstret öppnas en kort stund, lite längre eller står öppet för vanlig räkning. Ingen timer och inga poäng – att titta igen räknas aldrig emot barnet."
       ],
@@ -1999,7 +1999,7 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "En bäck delar sig två gånger på vägen till en damm där en kompis väntar – en groda, en räv, en igelkott. Vid varje förgrening flyter två sifferbojar, en i varje fåra, och en liten skylt högst upp visar regeln för färden: följ de större talen eller de mindre. Barnet trycker på ett tal vid varje förgrening, den planerade vägen lyser upp, och Kontrollera skickar en segelbåt nerför den. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "En bäck delar sig två gånger på vägen till en damm där en kompis väntar – en groda, en räv, en igelkott. Vid varje förgrening flyter två sifferbojar, en i varje fåra, och en liten skylt högst upp visar regeln för färden: följ de större talen eller de mindre. Barnet trycker på ett tal vid varje förgrening, den planerade vägen lyser upp, och Kontrollera skickar en segelbåt nerför den. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Regeln byts från färd till färd, så barnet måste läsa skylten och talen varje gång – den som alltid väljer det större talet kommer inte fram. Är vägen fel seglar båten så långt den kan och fastnar i vassen vid den första felaktiga förgreningen, som ringas in: vilket tal där är större (eller mindre)? Efter ett andra försök syns prickar under de två talen vid den förgreningen, så att barnet kan räkna var det är flest. En rätt väg tar båten ända fram till kompisen: ”Ja – du följde de större talen, 7 och 5, ända fram till dammen!” Ibland ligger talen långt ifrån varandra, som 2 och 7, och ibland är de grannar, som 7 och 8. De två talen är aldrig lika.",
         "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 eller upp till 10 och en regel som byts vid varje färd, eller alltid det större eller alltid det mindre talet. Ingen timer och inga poäng."
       ],
@@ -2048,7 +2048,7 @@
       "about": [
         "Alva bygger mosaiker av små rutor. Hon visar en mosaik i taget och berättar hur många rutor den är byggd av – nedanför ligger tre mosaiker att välja mellan.",
         "Barnet ska hitta den mosaik som är byggd av precis lika många rutor som Alvas, även när den har en helt annan form: en 2×3-rektangel och en lång 1×6-rektangel har båda sex rutor.",
-        "Det finns ingen tid att hålla och inget som räknas ihop. Barnet kan räkna om och prova igen så många gånger det vill. Aktiviteten körs direkt i webbläsaren, utan nedladdning och utan konto."
+        "Det finns ingen tid att hålla och inget som räknas ihop. Barnet kan räkna om och prova igen så många gånger det vill. Aktiviteten körs direkt i webbläsaren, utan nedladdning."
       ],
       "practices": [
         "Att bestämma area genom att räkna enhetsrutor, i stället för att mäta med linjal.",
@@ -2069,7 +2069,7 @@
     },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
-        "Grodan Ebba driver en liten saftkiosk nere vid dammen, och kunderna kommer flygande, krypande och simmande: en trollslända, en snigel, en sköldpadda, en fisk, ett bi. Barnet hjälper till bakom disken och läser av mätglaset åt Ebba i nio korta omgångar. Det är en interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren, utan nedladdning och utan konto.",
+        "Grodan Ebba driver en liten saftkiosk nere vid dammen, och kunderna kommer flygande, krypande och simmande: en trollslända, en snigel, en sköldpadda, en fisk, ett bi. Barnet hjälper till bakom disken och läser av mätglaset åt Ebba i nio korta omgångar. Det är en interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren, utan nedladdning.",
         "Omgångarna är av fyra slag. I tre av dem beställer en kund ungefär en viss mängd, och när saften väl är upphälld står nivån någon annanstans: barnet läser av det tal som skalan faktiskt visar, inte det tal kunden bad om. I två omgångar har Ebba redan hällt upp och barnet läser bara av nivån, en gång på en skala med streck vid varje tal och en gång på en skala med streck vid vartannat tal, där saften hamnar mitt emellan två streck. I två omgångar står två mätglas bredvid varandra och barnet väljer det som rymmer mest.",
         "Den stora idén ligger i de två sista omgångarna, där mätglasens skalor inte är lika. I den ena ser glaset till höger tommare ut men rymmer ändå mer, eftersom dess skala går till 20 medan grannens bara går till 10. I den andra är glaset till vänster fyllt ända upp till kanten och ser därför fullast ut, fast dess skala slutar redan vid 5 — det rymmer minst av de två. Barnet kan alltså inte gå på hur fullt det ser ut, utan måste läsa talen på båda skalorna. Aktiviteten följer Lgr22 inom området mätning: att jämföra, uppskatta och mäta volym. Ingen timer, inga poäng — bara lugn, lekfull träning."
       ],
@@ -2467,7 +2467,7 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy packar sina ägg i kartonger med tio, och barnet räknar dem på det snabba sättet. Tryck på varje kartong på hyllan så får den en lapp med summan så långt – 10, 20, 30 – så den fjärde kartongen säger 40 och den sista kartongen säger hur många ägg det är; tryck sedan på det talet på talraden. I en packomgång är hyllan tom från början och barnet lägger till kartonger tills den sista visar det tal som efterfrågas. Körs i webbläsaren, utan installation och utan konto.",
+        "Posy packar sina ägg i kartonger med tio, och barnet räknar dem på det snabba sättet. Tryck på varje kartong på hyllan så får den en lapp med summan så långt – 10, 20, 30 – så den fjärde kartongen säger 40 och den sista kartongen säger hur många ägg det är; tryck sedan på det talet på talraden. I en packomgång är hyllan tom från början och barnet lägger till kartonger tills den sista visar det tal som efterfrågas. Körs i webbläsaren, utan installation.",
         "En kartong är ritad som en bricka med lock och två rader med fem äggfack, så en kartong står tydligt för tio, inte ett. Lapparna gör räkning med tiotal synlig: varje kartong bär summan fram till sig, och det är precis vad räkning med tiotal betyder. De två vanliga felen får egen hjälp – att trycka på 10 som om varje kartong bara hade ett ägg ger påminnelsen att en kartong är tio ägg, och att trycka på fel tal syns på talraden. Räkna igen rensar lapparna för ett andra varv.",
         "Anpassat till Lgr22: räkna med tiotal upp till 100 – läsa av en grupp tiotal och bygga en. Ingen timer, inga poäng – lugn räkning med händerna."
       ],
@@ -2490,7 +2490,7 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "En natthimmel full av stjärnor med tal, och en av dem är vaken – en 7 till exempel, eller en 12, aldrig 1. Barnet räknar vidare från den genom att trycka på stjärnan som kommer efter, och sedan på nästa: varje rätt stjärna tänds i guld, en tråd löper fram till den och talet sägs högt, tills tråden har ritat en bild – en drake, en kopp, en krona, en trappa. Det är en interaktiv räkneövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation och utan konto.",
+        "En natthimmel full av stjärnor med tal, och en av dem är vaken – en 7 till exempel, eller en 12, aldrig 1. Barnet räknar vidare från den genom att trycka på stjärnan som kommer efter, och sedan på nästa: varje rätt stjärna tänds i guld, en tråd löper fram till den och talet sägs högt, tills tråden har ritat en bild – en drake, en kopp, en krona, en trappa. Det är en interaktiv räkneövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation.",
         "Kärnan är att räkna framåt från ett givet tal i stället för att börja om på ett varje gång. På himlen finns också stjärnor med tal som ligger före starten – 1 finns alltid med – och den som trycker på en sådan får höra varför: det talet kommer före ditt, du behöver inte gå tillbaka, räkna vidare därifrån du är. En stjärna för långt fram får också ett namn: ett steg i taget. Vid ett fel tryck tänds ingenting, så bilden finns bara när räkningen stämmer, och remsan under himlen visar vad som räknats hittills – 7, 8, 9 – så att den sagda talraden syns. Inställningarna går till 10 eller till 20 (över tiotalet), och de extra stjärnorna kan stängas av för en grupp som fortfarande behöver en klar himmel.",
         "Övningen följer Lgr22: fortsätta talraden framåt från ett givet tal. Utan timer och utan poäng – lugn och lekfull träning."
       ],
@@ -2513,7 +2513,7 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "En skrivrad, tre rutor. Första rutan visar siffrans hela väg med en grön startprick, den andra bara en svag linje, den tredje är tom. Barnet skriver siffran med fingret i ruta efter ruta – från 0 till 9, en siffra per omgång – och bläcket syns bara där fingret verkligen har följt strecket, från början. När tredje rutan är klar står de tre siffror barnet skrev kvar på raden och talet sägs högt. Det är en interaktiv skrivövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation och utan konto.",
+        "En skrivrad, tre rutor. Första rutan visar siffrans hela väg med en grön startprick, den andra bara en svag linje, den tredje är tom. Barnet skriver siffran med fingret i ruta efter ruta – från 0 till 9, en siffra per omgång – och bläcket syns bara där fingret verkligen har följt strecket, från början. När tredje rutan är klar står de tre siffror barnet skrev kvar på raden och talet sägs högt. Det är en interaktiv skrivövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation.",
         "Kärnan är skrivbokens metod – förebild, spåra, skriv själv – där stödet tonar bort inom en och samma rad, så att den sista siffran är barnets egen. Streckföljd och skrivriktning är inbyggda: ett streck räknas bara om det dras från sin startpunkt längs sin väg, så en siffra som börjas nerifrån eller skrivs spegelvänd går inte igenom. De vanliga felen hos den som nyss börjat skriva får namn utifrån fingrets egen väg – började i andra änden, spegelvänd, åt fel håll, slutade för tidigt – och efter tre försök kommer den svaga linjen tillbaka, sedan hela vägen. En liten vandrare visar strecken på begäran, och Sudda börjar om en ruta. Inställningarna behåller hela stödet i varje ruta för en grupp som behöver det, eller tar bort det för en grupp som redan skriver själv; pappret kan visa tre linjer eller en.",
         "Övningen följer Lgr22: skriva siffrorna 0–9 med rätt skrivriktning och streckföljd. Utan timer och utan poäng – lugn och lekfull träning."
       ],
@@ -2536,7 +2536,7 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "En gata med fem hus, vart och ett med ett tryckt husnummer över dörren, och en postbil med tre brev. Adressen på varje brev är skriven för hand – med den handstil barn lär sig skriva sina siffror med – medan husnumren är tryckta. Barnet kan alltså inte jämföra former: talet måste läsas. Barnet drar varje brev till ett hus; brevet går bara ner i en enda brevlåda. När rätt dörr öppnas kliver grannen ut på trappan, talet sägs högt och nästa brev dyker upp. När det tredje brevet är utdelat kontrollerar omgången sig själv. En interaktiv övning i att läsa tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation och utan konto.",
+        "En gata med fem hus, vart och ett med ett tryckt husnummer över dörren, och en postbil med tre brev. Adressen på varje brev är skriven för hand – med den handstil barn lär sig skriva sina siffror med – medan husnumren är tryckta. Barnet kan alltså inte jämföra former: talet måste läsas. Barnet drar varje brev till ett hus; brevet går bara ner i en enda brevlåda. När rätt dörr öppnas kliver grannen ut på trappan, talet sägs högt och nästa brev dyker upp. När det tredje brevet är utdelat kontrollerar omgången sig själv. En interaktiv övning i att läsa tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation.",
         "Kärnan: läsa talen 0 till 20 som tal, inte känna igen dem som bilder. Varje gata rymmer de förväxlingar som nya läsare gör: 13 bor bredvid 31, så siffrornas ordning spelar roll; 14 står mellan 13 och 11, så den sista siffran måste läsas; 14 står bredvid 4, för en siffra är inte två; och 6 står nära 9, 2 nära 5, 1 nära 7. En fel dörr svarar med sitt eget nummer bredvid brevets och sätter ord på misstaget – samma siffror fast tvärtom, titta på den sista siffran, två siffror och inte en – och efter två missar lyser rätt skylt. I inställningarna stannar talen vid 10 för en grupp som just börjat, eller läses adressen upp i stället för att visas, så att barnet lyssnar efter talet – med en Visa-knapp för ett tyst rum.",
         "Övningen följer Lgr22: läsa och skilja på tal upp till 20. Utan timer och utan poäng – lugn och lekfull träning."
       ],
@@ -2559,7 +2559,7 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "En glasburk med leksaker och en tom etikett på locket. Barnet räknar – varje leksak får ett märke när man trycker på den – och skriver hur många det är med sifferknapparna; siffrorna syns på etiketten. När man kontrollerar hålls etiketten mot burken: leksakerna ställer sig på så många platser som etiketten säger, och stämmer den blir den gyllene och fastnar medan talet sägs högt. I den andra sortens omgång står talet redan på etiketten och burken är tom: barnet trycker på leksaker på hyllan så att de ramlar ner, tills burken rymmer så många. En interaktiv övning i att räkna och skriva tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation och utan konto.",
+        "En glasburk med leksaker och en tom etikett på locket. Barnet räknar – varje leksak får ett märke när man trycker på den – och skriver hur många det är med sifferknapparna; siffrorna syns på etiketten. När man kontrollerar hålls etiketten mot burken: leksakerna ställer sig på så många platser som etiketten säger, och stämmer den blir den gyllene och fastnar medan talet sägs högt. I den andra sortens omgång står talet redan på etiketten och burken är tom: barnet trycker på leksaker på hyllan så att de ramlar ner, tills burken rymmer så många. En interaktiv övning i att räkna och skriva tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation.",
         "Kärnan är vägen fram och tillbaka mellan antal och tal: ett räknat antal blir ett skrivet tal, och ett skrivet tal blir ett antal igen. Upp till tio ligger leksakerna löst; från elva till tjugo står de i rader så att ögat inte tappar bort sig. En fel etikett besvaras av burken, inte av ett rött kryss: en för liten etikett lämnar leksaker utan plats, en för stor lämnar streckade platser tomma, och misstaget får ett namn – siffrorna tvärtom (41 för 14) eller bara entalen (4 för 14). I inställningarna stannar talen vid 10 för en grupp som just börjat, eller så väljer man bara räkneomgångarna eller bara fyllomgångarna.",
         "Övningen följer Lgr22: räkna antal upp till 20 och skriva talet. Utan timer och utan poäng – lugn och lekfull träning."
       ],
@@ -2605,7 +2605,7 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mamma Anka håller morgonupprop vid dammen. Hennes kort visar prickar, och barnet skickar exakt så många ankungar från flotten till stranden – ett tryck, en ankunge som simmar över. Sedan skriver barnet under uppropet: trycker på sifferstämpeln för hur många som kom och spårar talet med fingret i leran. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation och utan konto.",
+        "Mamma Anka håller morgonupprop vid dammen. Hennes kort visar prickar, och barnet skickar exakt så många ankungar från flotten till stranden – ett tryck, en ankunge som simmar över. Sedan skriver barnet under uppropet: trycker på sifferstämpeln för hur många som kom och spårar talet med fingret i leran. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation.",
         "Mamma visar aldrig någon siffra (om inte läraren väljer det): barnet räknar prickarna, räknar fram lika många ankungar och skriver talet som säger hur många det är – siffran är barnets eget svar. På flotten väntar fler ankungar än Mamma ber om, så barnet måste själv bestämma när det ska sluta; ett tryck på en ankunge på stranden skickar tillbaka den. Ankungarna landar utspridda, så att räkna dem igen är riktig räkning. Kontrollera tittar först på stranden och sedan på underskriften och säger vad som saknas: för många, för få, inget tal ännu, ett tal som inte säger hur många som kom eller ett tal som inte är spårat än. Efter ett fel numreras ankungarna på stranden, efter ett andra även Mammas prickar. Hjälpen flyttar aldrig en ankunge.",
         "Aktiviteten följer Lgr22 – att räkna antal, räkna fram ett givet antal och skriva talet som hör till. Läraren väljer tal upp till 5 eller upp till 9 och om Mammas kort visar prickar eller talet. Ingen timer och inga poäng."
       ],
@@ -2629,7 +2629,7 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi har beställt en ask med godsaker, och beställningslappen visar hur många – till exempel 7. Barnet trycker på godsaker på brickan, och varje godsak ramlar ner i en bakelseask med locket på: ett tryck, en godsak som försvinner ur sikte. När barnet tror att asken innehåller precis så många som lappen säger trycker det på Kontrollera, och asken öppnas. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Mochi har beställt en ask med godsaker, och beställningslappen visar hur många – till exempel 7. Barnet trycker på godsaker på brickan, och varje godsak ramlar ner i en bakelseask med locket på: ett tryck, en godsak som försvinner ur sikte. När barnet tror att asken innehåller precis så många som lappen säger trycker det på Kontrollera, och asken öppnas. En interaktiv räkneövning som fungerar i webbläsaren, utan installation.",
         "Locket är själva poängen. När en godsak ligger i asken syns den inte längre, så räkningen måste stanna i barnets huvud – det sista talet barnet sa är hur många som ligger i asken, och där måste barnet sluta. Att räkna fram ett givet antal är svårare än att räkna en mängd som redan finns, och den stängda asken gör att barnet håller räkningen i stället för att titta. Ett tryck på locket lyfter det en kort stund så att barnet kan kika, och sedan faller det igen av sig självt; medan asken är öppen kan barnet trycka på en godsak i den för att lägga tillbaka den på brickan. På brickan ligger alltid fler godsaker än beställningen (12, eller 7 när talen går upp till 5), så dess storlek avslöjar aldrig svaret. En felaktig kontroll säger ”för många” eller ”för få” och låter locket vara av resten av omgången; efter en andra numreras godsakerna i asken, och asken markerar de godsaker som är för många eller de tomma platser som fortfarande saknas. Hjälpen flyttar aldrig en godsak.",
         "Aktiviteten följer Lgr22 – att räkna fram ett givet antal upp till 10 och veta att det sista talet man räknar säger hur många det är. Läraren väljer tal upp till 5 eller upp till 10 och kan ta av locket så att godsakerna syns hela tiden. Ingen timer och inga poäng."
       ],
@@ -2653,7 +2653,7 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Två klippölar ligger bredvid varandra (ovanför varandra på en mobil). I den första finns havsdjur – till exempel sju krabbor huller om buller eller sex sjöstjärnor i en ring. Barnet räknar dem och fyller sedan den tomma tvillingpölen med lika många, men av ett annat slag: sju sjöstjärnor för sju krabbor. När tvillingpölen är klar trycker barnet på Kontrollera. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Två klippölar ligger bredvid varandra (ovanför varandra på en mobil). I den första finns havsdjur – till exempel sju krabbor huller om buller eller sex sjöstjärnor i en ring. Barnet räknar dem och fyller sedan den tomma tvillingpölen med lika många, men av ett annat slag: sju sjöstjärnor för sju krabbor. När tvillingpölen är klar trycker barnet på Kontrollera. En interaktiv räkneövning som fungerar i webbläsaren, utan installation.",
         "Räknandets två sidor ryms i ett och samma drag: ta reda på hur många det är och räkna sedan fram lika många. Djuren i den första pölen ligger på rad, i ring, i rader eller huller om buller; ett tryck på ett djur bockar av det som räknat, så att barnet vet vilka som redan är räknade – bocken är aldrig ett tal. I tvillingpölen sätter ett tryck på en tom plats dit ett djur, och ett tryck på ett djur tar upp det igen. Eftersom tvillingdjuren som standard är av ett annat slag och ligger på ett annat sätt kan bara antalet stämma. Tvillingpölen har alltid fler platser än en omgång behöver (12, eller 8 när talen går upp till 5), så dess storlek avslöjar aldrig svaret. När det stämmer knyter ett snöre ihop varje djur i den första pölen med ett i tvillingpölen, och inget blir över på någon sida – det är det ”lika många” betyder. När det inte stämmer säger tipset ”för många” eller ”för få”, och djuren i tvillingpölen får nummer; efter ett andra försök binder snörena ihop så många par som de kan och ringar in djuren utan tvilling. Hjälpen flyttar aldrig ett djur.",
         "Aktiviteten följer Lgr22 – att räkna hur många det är upp till 10, på rad, i ring, i rader eller huller om buller, och att räkna fram ett givet antal. Läraren väljer tal upp till 5 eller upp till 10 och kan sätta samma slags djur i tvillingpölen så att paren blir lättare att se. Ingen timer och inga poäng."
       ],
@@ -2677,7 +2677,7 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "En burk är full av småkryp – nyckelpigor, bin, sniglar – som ligger huller om buller över varandra, så att ingen kan räkna dem genom glaset. Bredvid står en burk med exakt tio likadana småkryp. Barnet gissar först: färre än i burken med tio, eller fler? Sedan häller barnet ut burken, småkrypen hamnar på en bricka där de går att räkna, och barnet tar reda på svaret. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "En burk är full av småkryp – nyckelpigor, bin, sniglar – som ligger huller om buller över varandra, så att ingen kan räkna dem genom glaset. Bredvid står en burk med exakt tio likadana småkryp. Barnet gissar först: färre än i burken med tio, eller fler? Sedan häller barnet ut burken, småkrypen hamnar på en bricka där de går att räkna, och barnet tar reda på svaret. En interaktiv räkneövning som fungerar i webbläsaren, utan installation.",
         "Burken med tio är måttstocken. Båda burkarna är fyllda på samma sätt, så den som är fullast innehåller verkligen fler, och barnet lär sig att uppskatta en mängd mot ett tal det känner innan det räknar. När burken är tömd ligger småkrypen i rader, i en rektangel, i ring eller huller om buller, upp till 16. Ett tryck på ett småkryp bockar av det som räknat, så att barnet vet vilka som redan är räknade – bocken är aldrig ett tal. Barnet ställer in burkens etikett med − och +; den börjar på tio, så att räkna vidare från tio (”tio, elva, tolv …”) är ett sätt att nå ett tal över tio. När det inte stämmer säger tipset om det finns småkryp utan bock eller om talet är för stort eller för litet; efter ett andra försök numreras småkrypen fram till det sista, som visar ett frågetecken, och barnet säger det sista talet – så många är det. När det stämmer numreras småkrypen i den ordning barnet bockade av dem, och antalet jämförs med gissningen: ”Fler än 10, precis som du gissade” eller ”fler än du gissade”. En gissning räknas aldrig som fel.",
         "Aktiviteten följer Lgr22 – att räkna hur många det är upp till 16 i rader eller i en rektangel, upp till 9 i ring och upp till 10 huller om buller. Läraren väljer tal upp till 10 (måttstocken blir då en burk med fem) eller upp till 16 och kan stänga av gissningen. Ingen timer och inga poäng."
       ],
@@ -2701,7 +2701,7 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Två tallrikar med leksaker står ovanför varandra, med en liten plankbro emellan – till exempel sju bollar uppe och tre nere. Vilken tallrik har fler, eller har de lika många? Barnet trycker på tallriken som har fler, eller på ”Lika många”. Sedan kommer den rättvisa delen: barnet trycker på en leksak för att skicka den över bron till den andra tallriken, tills båda tallrikarna har lika många, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Två tallrikar med leksaker står ovanför varandra, med en liten plankbro emellan – till exempel sju bollar uppe och tre nere. Vilken tallrik har fler, eller har de lika många? Barnet trycker på tallriken som har fler, eller på ”Lika många”. Sedan kommer den rättvisa delen: barnet trycker på en leksak för att skicka den över bron till den andra tallriken, tills båda tallrikarna har lika många, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Att själv göra ”lika många” är där räknandet gör nytta. Sju och tre blir inte fem och fem med ett enda tryck: barnet skickar över en leksak, räknar båda tallrikarna, skickar en till, räknar igen – och ser att tallriken med fler blir mindre medan den andra växer. Ett fel första svar får bara tallriken att skaka, och barnet tittar igen. Ett Kontrollera innan det är lika många säger vilken tallrik som fortfarande har fler och numrerar leksakerna på båda tallrikarna för den titten; andra gången lyser en leksak på den fullare tallriken upp och visar vilken som ska skickas. Ett rätt svar säger det med tal: ”Rättvist! 5 och 5.” Summan är alltid jämn, så det går alltid att dela rättvist, och varje tallrik har plats för tolv leksaker, så dess storlek avslöjar aldrig svaret.",
         "Aktiviteten följer Lgr22 – att jämföra antal upp till 10 genom att räkna: fler, färre eller lika många – och att förstå vad ”lika många” betyder. Läraren väljer grupper upp till 5 eller upp till 10 och kan lägga leksakerna i rader i stället för huller om buller, så att jämförelsen blir lättare att se. Ingen timer och inga poäng."
       ],
@@ -2725,7 +2725,7 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Fyra blomkrukor står på rad – till exempel 6, 9, 2 och 4 – och de ser exakt likadana ut: bara talet som står på var och en är olika. Barnet trycker på en kruka, och den sjunker ner i de andra och växer till storleken av sitt tal: 9:an blir en stor kruka, 2:an en liten. En kruka får bara plats i en kruka med ett större tal, så man måste ställa dem i varandra från det största talet till det minsta. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Fyra blomkrukor står på rad – till exempel 6, 9, 2 och 4 – och de ser exakt likadana ut: bara talet som står på var och en är olika. Barnet trycker på en kruka, och den sjunker ner i de andra och växer till storleken av sitt tal: 9:an blir en stor kruka, 2:an en liten. En kruka får bara plats i en kruka med ett större tal, så man måste ställa dem i varandra från det största talet till det minsta. En interaktiv övning som fungerar i webbläsaren, utan installation.",
         "Eftersom alla krukor i raden är lika stora avslöjar storleken ingenting: barnet läser och jämför talen, och den som provar en kruka ser direkt om den får plats. Krukorna svarar själva: en kruka som är för stor sticker upp över kanten, vickar och går tillbaka till raden. Den som tar en liten kruka för tidigt hamnar i en återvändsgränd – först 9:an, sedan 2:an, och varken 6:an eller 4:an får plats längre – då lyser den innersta krukan, och ett tryck tar ut den igen. Efter två krukor som inte fick plats syns prickar på de väntande krukorna, så att barnet kan räkna vilket tal som är störst. När alla krukor är i läser Kontrollera upp högen: ”Ja – 9, 6, 4, 2: från det största talet till det minsta!”",
         "Aktiviteten följer Lgr22 – att jämföra skrivna tal mellan 1 och 10, här tre eller fyra åt gången. Läraren väljer tre krukor upp till 5 eller fyra krukor upp till 10 och visar prickarna bara som hjälp eller alltid. Ingen timer och inga poäng."
       ],

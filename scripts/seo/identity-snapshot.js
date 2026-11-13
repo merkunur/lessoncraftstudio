@@ -164,7 +164,9 @@ async function capture() {
 }
 
 /** pure: every difference between two snapshots */
-function diff(base, now) {
+/** two descriptions that differ in their numbers only (and hold a number) */
+const countOnly = (a, b) => typeof a === 'string' && typeof b === 'string' && /\d/.test(a) && a.replace(/\d+/g, '#') === b.replace(/\d+/g, '#');
+function diff(base, now, counts = []) {
   const out = [];
   for (const [k, n] of Object.entries(base.shards)) {
     if (!(k in now.shards)) continue; // reported as unmeasured
@@ -174,7 +176,13 @@ function diff(base, now) {
     const c = now.pages[url]; if (!c) continue; // reported as unmeasured
     for (const f of FIELDS) {
       const x = JSON.stringify(b[f]), y = JSON.stringify(c[f]);
-      if (x !== y) out.push({ kind: 'field', where: url, field: f, was: b[f], is: c[f] });
+      if (x === y) continue;
+      // A description that OPENS with the live count of the catalogue ("1315 free interactive exercises for …": the
+      // subject hubs) moves with every publish. A changed NUMBER in an otherwise identical description is the page
+      // doing what it always did, not a changed identity (seen 2026-11-13: 1315 → 1352 after lesson pages were
+      // published). It is reported as a count that moved, and passes. A title is never excused this way.
+      if (f === 'description' && countOnly(b[f], c[f])) { counts.push({ where: url, was: b[f], is: c[f] }); continue; }
+      out.push({ kind: 'field', where: url, field: f, was: b[f], is: c[f] });
     }
     if (b.inShard === true && c.inShard === false) out.push({ kind: 'left-sitemap', where: url });
   }
@@ -185,8 +193,8 @@ function missing(base, now) {
   return Object.keys(base.pages).filter((u) => !now.pages[u]).concat(Object.keys(base.shards).filter((k) => !(k in now.shards)));
 }
 function verdict(base, now) {
-  const d = diff(base, now), m = missing(base, now);
-  return { diffs: d, missing: m, code: d.length ? 1 : (m.length ? 3 : 0) };
+  const counts = []; const d = diff(base, now, counts), m = missing(base, now);
+  return { diffs: d, missing: m, counts, code: d.length ? 1 : (m.length ? 3 : 0) };
 }
 
 function selfTest() {
@@ -203,6 +211,7 @@ function selfTest() {
     page[f] = f === 'hreflang' ? ['en https://x/a', 'de https://x/de/a'] : (typeof page[f] === 'number' ? page[f] + 1 : 'CHANGED');
     expect('a changed ' + f + ' fails', verdict(base, p).code, 1);
   }
+  { const b2 = clone(); b2.pages['https://x/a'].description = '1315 free exercises for Grade 3.'; const p = JSON.parse(JSON.stringify(b2)); p.pages['https://x/a'].description = '1352 free exercises for Grade 3.'; expect('a description whose live count moved passes', verdict(b2, p).code, 0); p.pages['https://x/a'].description = '1352 free exercises for Grade 3, no sign-up.'; expect('a description that changed its words beside the count fails', verdict(b2, p).code, 1); p.pages['https://x/a'].description = '1315 free exercises for Grade 3.'; p.pages['https://x/a'].title = 'T 2'; expect('a title that changed a number fails', verdict(b2, p).code, 1); }
   { const p = clone(); p.shards['/sitemap/0.xml'] = 99; expect('a shard that lost a URL fails', verdict(base, p).code, 1); }
   { const p = clone(); p.shards['/sitemap/0.xml'] = 140; expect('a shard that GREW passes (new pages are allowed)', verdict(base, p).code, 0); }
   { const p = clone(); p.pages['https://x/a'].inShard = false; expect('a page that left its sitemap fails', verdict(base, p).code, 1); }
@@ -242,6 +251,7 @@ function selfTest() {
     const v = verdict(base, now);
     for (const d of v.diffs) console.log('CHANGED  ' + d.kind + '  ' + d.where + (d.field ? '  [' + d.field + ']' : '') + '\n    was: ' + JSON.stringify(d.was) + '\n    is:  ' + JSON.stringify(d.is));
     for (const [k, n] of Object.entries(now.shards)) if (base.shards[k] !== undefined && n > base.shards[k]) console.log('grew     ' + k + '  ' + base.shards[k] + ' → ' + n + '  (allowed)');
+    for (const c of v.counts || []) console.log('count    ' + c.where + '  ' + (c.was.match(/\d+/) || [''])[0] + ' → ' + (c.is.match(/\d+/) || [''])[0] + '  (the live count in its description moved: allowed)');
     if (v.missing.length) console.log('UNMEASURED (' + v.missing.length + '):\n  ' + v.missing.join('\n  '));
     console.log(v.code === 0 ? 'IDENTITY PASS — ' + Object.keys(base.pages).length + ' pages and ' + Object.keys(base.shards).length + ' shards unchanged'
       : v.code === 1 ? 'IDENTITY FAIL — ' + v.diffs.length + ' difference(s)' : 'INCONCLUSIVE — ' + v.missing.length + ' item(s) could not be measured; this is NOT a pass');

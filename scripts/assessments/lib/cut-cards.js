@@ -39,7 +39,7 @@ const { buildPage } = require(path.join(WG, 'page', 'shell.js'));
 const { makeRng } = require(path.join(WG, 'lib', 'rng.js'));
 
 const NO_ANSWER = 'a card carries no answer in its markup, and the type draws no key for it';
-const DIFFICULTY = 2;                       // the core level of every type: the level of the worksheet the lesson hands out
+const DIFFICULTY = 2;                       // the core level of a type; a lesson that hands out another level as its page for everyone passes it (o.difficulty)
 
 /** Finds the tasks of a worksheet page (runs in the page). A page of cards: the .ws-card of its .ws-cardgrid. Any other
  *  page: the largest group of three or more children of one element that are alike (the same tag and class) — the rows
@@ -88,7 +88,7 @@ async function cutCards(page, o) {
   const attempt = async (variant) => {
   let built = null, usedTheme = null;
   for (const theme of themed ? [o.theme, 'animals'] : [null]) {
-    try { built = await type.build({ theme, difficulty: DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant }); usedTheme = theme; break; } catch (e) { built = null; }
+    try { built = await type.build({ theme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant }); usedTheme = theme; break; } catch (e) { built = null; }
   }
   if (!built) return { refused: 'it does not build without a unit' };
   const html = buildPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: built.bodyHtml, locale, pageSize: locale === 'en' ? 'letter' : 'a4' });
@@ -188,7 +188,7 @@ async function cutCards(page, o) {
   // are the key cards of the check, and a card the child circles or colours gets its answer from what the key marks.
   let keyCards = null, keyStyles = [];
   try {
-    const builtKey = await type.build({ theme: usedTheme, difficulty: DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant, answerKey: true });
+    const builtKey = await type.build({ theme: usedTheme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant, answerKey: true });
     fs.writeFileSync(file, buildPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: builtKey.bodyHtml, locale, pageSize: locale === 'en' ? 'letter' : 'a4' }), 'utf8');
     await page.goto(url.pathToFileURL(file).href, { waitUntil: 'networkidle0' });
     await page.evaluate(() => document.fonts.ready);

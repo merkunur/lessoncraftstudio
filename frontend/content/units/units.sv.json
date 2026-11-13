@@ -2546,8 +2546,7 @@
        "core": "hundraruta-latt-k021-7",
        "level": 1,
        "hard": "hundraruta-k021",
-       "screen": 1,
-       "landing": "tal-som-saknas-forskola"
+       "screen": 1
       },
       {
        "type": "K-023",

@@ -1,20 +1,20 @@
 {
- "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms. avoidPictures: pictures no check shows (by name). onlyPictures: per type the pictures its boxes are taken from. avoidText: words no box prints. onlyText: per type a pattern the text of a box must match. avoidEcho: types whose answer must not be a number the box prints. disjointWords: types whose boxes of a part share no word. keyNote: per type a line for the teacher under the direction, in the key only. parity: types about odd and even whose form B box is odd where form A is odd.",
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, by the lesson's key (its id, or its teaching point), with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms. avoidPictures: pictures no check shows (by name). onlyPictures: per type the pictures its boxes are taken from. avoidText: words no box prints. onlyText: per type a pattern the text of a box must match. avoidEcho: types whose answer must not be a number the box prints. disjointWords: types whose boxes of a part share no word. keyNote: per type a line for the teacher under the direction, in the key only. parity: types about odd and even whose form B box is odd where form A is odd.",
  "drop": {
   "k-sorting-tallies-days": {
-   "4": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
+   "K:heavy-light": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
   },
   "k-putting-together-number-bonds": {
-   "4": "[en.review-k1-math] The missing part of 20 without a picture cannot be tried by a child before the unit; far above the bonds of 5 in the part before it."
+   "K:number-bonds-20": "[en.review-k1-math] The missing part of 20 without a picture cannot be tried by a child before the unit; far above the bonds of 5 in the part before it."
   },
   "g2-place-value-to-1000": {
-   "1": "[en.review-g23-math] The answer frame of the worksheet reads \"[ ] ■×10 + [ ]\": a second grader has not met the multiplication sign, and nothing says which box is tens and which is ones."
+   "2:bundle-ten-ones": "[en.review-g23-math] The answer frame of the worksheet reads \"[ ] ■×10 + [ ]\": a second grader has not met the multiplication sign, and nothing says which box is tens and which is ones."
   },
   "g1-shapes-measuring-graphs": {
-   "2": "The tangram worksheet is built with the seven pieces of a real tangram: no task of a paper check."
+   "1:tangram-compose": "The tangram worksheet is built with the seven pieces of a real tangram: no task of a paper check."
   },
   "k-shapes": {
-   "4": "[en.review-73] The mirror picture of an animal that faces the front differs from its copy only in the tail; a kindergartner cannot see that at this size."
+   "K:mirror-image": "[en.review-73] The mirror picture of an animal that faces the front differs from its copy only in the tail; a kindergartner cannot see that at this size."
   }
  },
  "instruction": {

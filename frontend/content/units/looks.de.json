@@ -4,9 +4,9 @@
  "looks": {
   "1": {
    "unit": {
-    "slug": "plus-und-minus-bis-10-klasse-1",
-    "title": "Plus und Minus bis 10",
-    "src": "/teaching-looks/de/g1-unit.20077a5c.webp",
+    "slug": "zahlen-bis-10-klasse-1",
+    "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
+    "src": "/teaching-looks/de/g1-unit.7e46c97e.webp",
     "width": 640,
     "height": 906
    },
@@ -19,15 +19,15 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-1",
-    "title": "Mathe Klasse 1: Stoffverteilung für 18 Wochen",
-    "src": "/teaching-looks/de/g1-plan.f7f52791.webp",
+    "title": "Mathe Klasse 1: Stoffverteilung für 25 Wochen",
+    "src": "/teaching-looks/de/g1-plan.292fa3fb.webp",
     "width": 640,
     "height": 906
    },
    "check": {
     "slug": "plus-und-minus-bis-10-klasse-1",
     "title": "Plus und Minus bis 10",
-    "src": "/teaching-looks/de/g1-check.a7372175.webp",
+    "src": "/teaching-looks/de/g1-check.7b49ad3b.webp",
     "width": 640,
     "height": 906
    },
@@ -56,8 +56,8 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-2",
-    "title": "Mathe Klasse 2: Stoffverteilung für 21 Wochen",
-    "src": "/teaching-looks/de/g2-plan.bb6526a3.webp",
+    "title": "Mathe Klasse 2: Stoffverteilung für 26 Wochen",
+    "src": "/teaching-looks/de/g2-plan.5765ff1b.webp",
     "width": 640,
     "height": 906
    },
@@ -80,7 +80,7 @@
    "unit": {
     "slug": "zahlen-bis-1000-klasse-3",
     "title": "Zahlen bis 1000",
-    "src": "/teaching-looks/de/g3-unit.1c5db58e.webp",
+    "src": "/teaching-looks/de/g3-unit.04370a3a.webp",
     "width": 640,
     "height": 906
    },

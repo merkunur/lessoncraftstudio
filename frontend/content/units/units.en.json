@@ -2560,8 +2560,7 @@
        "core": "word-problems-easy-vegetables-g1238",
        "level": 1,
        "hard": "word-problems-fruits-g1238",
-       "screen": 1,
-       "landing": "addition-word-problems-with-pictures"
+       "screen": 1
       }
      ],
      "id": "1:word-problems#adding-stories-within-10",
@@ -2608,8 +2607,7 @@
        "core": "word-problems-easy-kitchen-tools-g1239",
        "level": 1,
        "hard": "word-problems-fruits-g1239",
-       "screen": 1,
-       "landing": "subtraction-word-problems-with-pictures"
+       "screen": 1
       }
      ],
      "id": "1:word-problems#take-away-stories-within-10",
@@ -5546,8 +5544,7 @@
        "core": "column-arithmetic-hard-g3362-12",
        "level": 3,
        "easy": "column-arithmetic-g3362",
-       "screen": 1,
-       "landing": "subtracting-across-zeros"
+       "screen": 1
       }
      ],
      "id": "3:column-regrouping#subtract-across-a-zero",

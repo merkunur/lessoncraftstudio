@@ -29,6 +29,10 @@ const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k
 const has = (k) => process.argv.includes('--' + k);
 const loc = arg('loc', 'en');
 const MIN_SECTIONS = 3;
+// a page of another level than 2 may print a direction of its own (i18n/level-instructions.json): the check's part of a
+// lesson that hands out that level says that line, not the type's general one
+const LEVEL_LINES = JSON.parse(fs.readFileSync(path.join(WG, 'i18n', 'level-instructions.json'), 'utf8'));
+const levelLine = (p) => (p.level && p.level !== 2 && ((LEVEL_LINES[p.type] || {})[String(p.level)] || {})[loc]) || null;
 const CARD_MAX = 460;                         // a taller card is most of a page: not a task of a short check
 const SECTION_MAX = 330;                      // the cards of a section are at most this tall together
 const SEEDS = 8;                              // worksheet pages built per form and type, to choose a section's cards from
@@ -293,7 +297,9 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     for (const l of u.lessons) {
       let found = null;
       const why = [];
-      if ((rules.drop[u.id] || {})[l.n]) { left.push(l.n); if (has('debug')) console.log('      lesson ' + l.n + ' is left out by a ruling: ' + rules.drop[u.id][l.n]); continue; }
+      // a ruling names a lesson by its key (its id, or its teaching point): the number of a lesson moves when lessons are added
+      const dropWhy = (rules.drop[u.id] || {})[l.id || l.point];
+      if (dropWhy) { left.push(l.n); if (has('debug')) console.log('      lesson ' + l.n + ' is left out by a ruling: ' + dropWhy); continue; }
       for (const p of l.paper || []) {
         const file = typeFiles.get(p.type);
         if (!file || !strings[p.type]) continue;
@@ -301,9 +307,11 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
         // the cards a form may choose from: the worksheet page of a type built with SEEDS seeds of the form
         const poolOf = async (typeId, form) => {
           const file = typeFiles.get(typeId), type = require(file), p = { type: typeId };
+          // the level the lesson hands out to everyone (its page for everyone is level 2 unless the lesson names another)
+          const lv = ((l.paper || []).find((x) => x.type === typeId) || {}).level || 2;
           let cols = 0; const cards = [], seen = new Set(), styles = [], keyStyles = [];
           for (let k = 1; k <= SEEDS; k++) {
-            const r = await cached({ file, typeId: type.id, seed: 'check|' + u.id + '|' + form + (k > 1 ? k : ''), theme: (rules.theme || {})[typeId] || THEMES[form] }, (seed) => cutCards(page, { type, strings: strings[p.type], locale: loc, seed, theme: (rules.theme || {})[typeId] || THEMES[form], outDir: dir }));
+            const r = await cached({ file, typeId: type.id + (lv === 2 ? '' : '@' + lv), seed: 'check|' + u.id + '|' + form + (k > 1 ? k : ''), theme: (rules.theme || {})[typeId] || THEMES[form] }, (seed) => cutCards(page, { type, strings: strings[p.type], locale: loc, seed, theme: (rules.theme || {})[typeId] || THEMES[form], outDir: dir, difficulty: lv }));
             if (r.refused) return r;
             if (cols && r.cols !== cols) return { refused: 'its page changes its columns' };
             cols = r.cols;
@@ -403,7 +411,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
         const furniture = new Set(every.length >= 4 ? every[0].nums.filter((n) => every.every((c) => c.nums.includes(n))) : []);
         // --dump-pool=<type>[,<type>]: what the two forms may choose from, for whoever writes a ruling (out/assessments/<loc>/_pool-<type>.json)
         if (arg('dump-pool', '').split(',').includes(p.type)) fs.writeFileSync(path.join(outRoot, '_pool-' + p.type + '.json'), JSON.stringify({ A: a.cards, B: b.cards, keyStyles: a.keyStyles, styles: a.styles }, null, 1));
-        const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), sameGap: listed('sameGap'), otherRest: listed('otherRest'), otherLead: listed('otherLead'), otherDrawings: listed('otherDrawings'), sameSize: listed('sameSize'), otherFirst: listed('otherFirst'), posA: rules.posA && p.type in rules.posA ? rules.posA[p.type] : null, disjointForm: listed('disjointForm'), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
+        const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || levelLine(p) || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), sameGap: listed('sameGap'), otherRest: listed('otherRest'), otherLead: listed('otherLead'), otherDrawings: listed('otherDrawings'), sameSize: listed('sameSize'), otherFirst: listed('otherFirst'), posA: rules.posA && p.type in rules.posA ? rules.posA[p.type] : null, disjointForm: listed('disjointForm'), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
         const cardsA = chooseA(plan, usedA, soloA);
         if (!cardsA.length || chooseB(plan, cardsA, new Set([...usedA, ...cardsA.map(fact).filter(Boolean)]), usedB, soloB).length < cardsA.length) { why.push(p.type + ': the two forms cannot both be filled (the same kind and size, no task twice)'); continue; }
         for (const c of cardsA) { if (fact(c)) usedA.add(fact(c)); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }

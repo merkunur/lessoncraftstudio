@@ -142,7 +142,8 @@ function assemble(loc, opt = {}) {
         if (easy) row.easy = easy.slug;
         if (hard) row.hard = hard.slug;
         if (core.screen) row.screen = 1;
-        if (a.landing) row.landing = a.landing;
+        // the landing page of a type shows its level-2 page: a lesson that hands out another level links to that page itself
+        if (a.landing && lv === 2) row.landing = a.landing;
         paper.push(row);
       }
       for (const a of paper) if (paper.some((b) => b !== a && b.title === a.title)) { bad(lw + ': two worksheets carry the title "' + a.title + '" (give one a label of its own: `titles` in the definition)'); break; }

@@ -219,8 +219,7 @@
        "core": "hundertertafel-leicht-k021-7",
        "level": 1,
        "hard": "hundertertafel-k021",
-       "screen": 1,
-       "landing": "zahlenfolgen-vorschule"
+       "screen": 1
       },
       {
        "type": "K-023",
@@ -3556,8 +3555,7 @@
        "core": "kleines-einmaleins-leicht-g3366-4",
        "level": 1,
        "hard": "kleines-einmaleins-g3366",
-       "screen": 1,
-       "landing": "10er-einmaleins"
+       "screen": 1
       }
      ],
      "id": "3:times-tables#zehner-einmaleins",

@@ -2,16 +2,16 @@
  "$comment": "What the readers of the checks ruled, for German. The rulings about numbers and pictures were made on the English checks (the worksheet types draw the same numbers and pictures in every language) and are carried over; the rulings about German words and direction lines are the German reader's (scripts/assessments/reviews/de.*). The kinds of ruling are explained in lists/en.json. Further kinds of ruling used here: slotWide (per box of a part the class of number pair it takes: close = within one ten, far), take (how many boxes a part takes), plainChunks (words with one letter per sound, of a given length), endMark / kindAttr / kindFolder (what makes two boxes another kind of task) with mixKinds (the boxes of a part are of different kinds), sameAnswer (form B asks the answer form A asks, in another order).",
  "drop": {
   "g2-shapes-solids-symmetry": {
-   "4": "[from the English reviews] The library pictures keyed as symmetrical are not exact mirror images (a persimmon with a highlight on one side, a bat with a mark beside the line): \"no\" can be defended."
+   "2:symmetry-line": "[from the English reviews] The library pictures keyed as symmetrical are not exact mirror images (a persimmon with a highlight on one side, a bat with a mark beside the line): \"no\" can be defended."
   },
   "g3-time-temperature-mass-volume": {
-   "1": "[from the English reviews] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks."
+   "3:time-to-minute": "[from the English reviews] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks."
   },
   "de2-zahlen-bis-100": {
-   "1": "[de.review-1] The frame \"□ ■·10 + □\" is no notation a second grader or a German teacher knows; the place-value notation would be \"□ Z □ E\"."
+   "2:bundle-ten-ones": "[de.review-1] The frame \"□ ■·10 + □\" is no notation a second grader or a German teacher knows; the place-value notation would be \"□ Z □ E\"."
   },
   "g1-add-subtract-within-10": {
-   "4": "[de.review-1] The number line runs to 20: the hops forward land on 15 and 17, the hops back start at 13, in a unit that goes to 10. The worksheets of the lesson have no box whose start and landing both lie within 10."
+   "1:count-on-back-hops": "[de.review-1] The number line runs to 20: the hops forward land on 15 and 17, the hops back start at 13, in a unit that goes to 10. The worksheets of the lesson have no box whose start and landing both lie within 10."
   }
  },
  "instruction": {

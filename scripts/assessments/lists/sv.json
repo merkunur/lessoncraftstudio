@@ -3,7 +3,7 @@
  "sayWords": true,
  "drop": {
   "sv-3-ma-brak": {
-   "2": "[sv.review-1] The part repeats part 1 (which shape is cut into equal parts) and does not ask what the lesson teaches: knowing and naming halves, thirds and fourths."
+   "2:equal-shares-shapes": "[sv.review-1] The part repeats part 1 (which shape is cut into equal parts) and does not ask what the lesson teaches: knowing and naming halves, thirds and fourths."
   }
  },
  "dropType": {

@@ -525,28 +525,36 @@
    "parts": [
     {
      "part": 1,
-     "lesson": 2,
+     "lesson": 3,
      "title": "Uppskatta: en bra gissning",
      "type": "K-029",
      "tasks": 1
     },
     {
      "part": 2,
-     "lesson": 3,
+     "lesson": 4,
      "title": "Hur många tillsammans?",
      "type": "K-028",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Femkamrater: dela upp talet 5",
      "type": "K-273",
      "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
+     "title": "Dela upp talen upp till 10",
+     "type": "K-274",
+     "tasks": 2
     }
    ],
    "notCovered": [
-    1
+    1,
+    2
    ],
    "forms": {
     "A": {
@@ -560,6 +568,10 @@
       ],
       [
        "d2b3b1ab82d83876"
+      ],
+      [
+       "78d17935e94e6f18",
+       "851c626c8407fe48"
       ]
      ],
      "pos": [
@@ -570,6 +582,10 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -582,6 +598,10 @@
       ],
       [
        "w ? w"
+      ],
+      [
+       "w ? w",
+       "w ? w"
       ]
      ],
      "sizes": [
@@ -593,6 +613,10 @@
       ],
       [
        5
+      ],
+      [
+       9,
+       7
       ]
      ]
     },
@@ -607,6 +631,10 @@
       ],
       [
        "58c9ecd07d734c4f"
+      ],
+      [
+       "d850d4cc63b65065",
+       "b1270ad3bd365d1d"
       ]
      ],
      "pos": [
@@ -617,6 +645,10 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -629,6 +661,10 @@
       ],
       [
        "w ? w"
+      ],
+      [
+       "w ? w",
+       "w ? w"
       ]
      ],
      "sizes": [
@@ -640,6 +676,153 @@
       ],
       [
        5
+      ],
+      [
+       9,
+       7
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-1-ma-talen-0-10",
+   "slug": "talen-0-10-antal-talrad-och-uppdelning-ak-1",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Talen upp till 10 i tiorutan",
+     "type": "K-004",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Talraden till 10: före, efter och bakåt",
+     "type": "K-021",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Större än, mindre än och lika med",
+     "type": "G1-114",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "37290018ea157ce7",
+       "b980a0a0fa45ce93"
+      ],
+      [
+       "cb347a2a40332065",
+       "45e7e4e0a05491eb"
+      ],
+      [
+       "a71a1ba28960dd4d"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "? w ?",
+       "? w ?"
+      ],
+      [
+       "< = >"
+      ]
+     ],
+     "sizes": [
+      [
+       8,
+       5
+      ],
+      [
+       8,
+       5
+      ],
+      [
+       7
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "2afc2b5bcf59848d",
+       "6ab4a6c6d2266799"
+      ],
+      [
+       "3cfc40a12c0f3000",
+       "8a04c57dee7b9320"
+      ],
+      [
+       "c9cda3e85c960ae3"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "? w ?",
+       "? w ?"
+      ],
+      [
+       "< = >"
+      ]
+     ],
+     "sizes": [
+      [
+       9,
+       4
+      ],
+      [
+       9,
+       4
+      ],
+      [
+       7
       ]
      ]
     }
@@ -1014,14 +1197,15 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Mäta längd med rutor",
      "type": "G1-139",
      "tasks": 1
     }
    ],
    "notCovered": [
-    2
+    2,
+    4
    ],
    "forms": {
     "A": {
@@ -1367,6 +1551,149 @@
       [
        0,
        0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-1-ma-add-sub-0-20",
+   "slug": "addition-och-subtraktion-0-20-ak-1",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Dubblor och nästan dubblor",
+     "type": "G1-449",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Tiotalsövergång i addition: först till tian",
+     "type": "G1-439",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Talfamiljer till 20",
+     "type": "G1-220",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "8ac0fd9b228319e6",
+       "be6514cf0544cfaa"
+      ],
+      [
+       "8152b5524a3b664b"
+      ],
+      [
+       "3488311e0c2058d0",
+       "984e6d549befda83"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w + w = w + ? w + ? w = ? w w w w w w"
+      ],
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       15,
+       9
+      ],
+      [
+       20
+      ],
+      [
+       16,
+       10
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "c5b174a0cbf714a0",
+       "d43850aa3236faaf"
+      ],
+      [
+       "d5c6d71d3b4fd83c"
+      ],
+      [
+       "2742e9323072feef",
+       "47e19efe58796ad1"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w + w = w + ? w + ? w = ? w w w w w w"
+      ],
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       17,
+       7
+      ],
+      [
+       20
+      ],
+      [
+       17,
+       10
       ]
      ]
     }
@@ -1909,6 +2236,13 @@
      "title": "2:ans och 5:ans tabell",
      "type": "G3-364",
      "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 9,
+     "title": "10:ans tabell",
+     "type": "G3-366",
+     "tasks": 2
     }
    ],
    "notCovered": [
@@ -1916,7 +2250,8 @@
     2,
     3,
     6,
-    7
+    7,
+    10
    ],
    "forms": {
     "A": {
@@ -1933,9 +2268,17 @@
       [
        "e15d4870d353744a",
        "a21c2f348ca7d2fc"
+      ],
+      [
+       "da4a5ae61a765fcc",
+       "d998ec81d5a62871"
       ]
      ],
      "pos": [
+      [
+       null,
+       null
+      ],
       [
        null,
        null
@@ -1961,6 +2304,10 @@
       [
        "w · w = ? ·0",
        "w · w = ? ·1"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
       ]
      ],
      "sizes": [
@@ -1975,6 +2322,10 @@
       [
        16,
        35
+      ],
+      [
+       80,
+       50
       ]
      ]
     },
@@ -1992,9 +2343,17 @@
       [
        "729bec29d8c5b3b1",
        "052d6a886cad0a44"
+      ],
+      [
+       "a5c6bf443356def2",
+       "2c22b3f8f0e075fc"
       ]
      ],
      "pos": [
+      [
+       null,
+       null
+      ],
       [
        null,
        null
@@ -2020,6 +2379,10 @@
       [
        "w · w = ? ·0",
        "w · w = ? ·1"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
       ]
      ],
      "sizes": [
@@ -2034,6 +2397,10 @@
       [
        18,
        30
+      ],
+      [
+       90,
+       40
       ]
      ]
     }
@@ -2361,6 +2728,143 @@
       [
        748,
        507
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-3-ma-avrundning-uppstallning",
+   "slug": "avrundning-overslag-och-uppstallning-ak-3",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 4,
+     "title": "Uppställning utan växling",
+     "type": "G2-255",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 5,
+     "title": "Uppställning med växling",
+     "type": "G3-359",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 6,
+     "title": "Uppställning: subtraktion med växling över noll",
+     "type": "G3-362",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    2,
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "5561204943ea9c82"
+      ],
+      [
+       "27234667f0ece57f"
+      ],
+      [
+       "d1a8855aaec41909",
+       "19d8b17fe8687e59"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "w w + w w"
+      ],
+      [
+       "w w + w w"
+      ],
+      [
+       "w w w − w w w",
+       "w w w − w w w"
+      ]
+     ],
+     "sizes": [
+      [
+       6
+      ],
+      [
+       8
+      ],
+      [
+       7,
+       9
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "886c0a22eafc8632"
+      ],
+      [
+       "3b6594b37ff3f8b1"
+      ],
+      [
+       "2738660bfb70934b",
+       "cc52c1f660361750"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "w w + w w"
+      ],
+      [
+       "w w + w w"
+      ],
+      [
+       "w w w − w w w",
+       "w w w − w w w"
+      ]
+     ],
+     "sizes": [
+      [
+       6
+      ],
+      [
+       8
+      ],
+      [
+       7,
+       9
       ]
      ]
     }

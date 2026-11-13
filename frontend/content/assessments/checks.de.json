@@ -3,6 +3,181 @@
  "locale": "de",
  "checks": [
   {
+   "unit": "de1-zahlen-bis-10",
+   "slug": "zahlen-bis-10-klasse-1",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr",
+     "type": "K-004",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Mehr, weniger, gleich viele: die Zeichen <, > und =",
+     "type": "G1-114",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
+     "type": "K-021",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 6,
+     "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
+     "type": "G1-315",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1,
+    2
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "37290018ea157ce7",
+       "a349f6bf569b9a9d"
+      ],
+      [
+       "55d41e6689f96135"
+      ],
+      [
+       "cb347a2a40332065",
+       "45e7e4e0a05491eb"
+      ],
+      [
+       "a3b6016e82cd3eaa"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "= > <"
+      ],
+      [
+       "? w ?",
+       "? w ?"
+      ],
+      [
+       "write 4"
+      ]
+     ],
+     "sizes": [
+      [
+       8,
+       5
+      ],
+      [
+       6
+      ],
+      [
+       8,
+       5
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "379d2c0a08137878",
+       "89922f1877d18fbe"
+      ],
+      [
+       "91c2c0cd8e56849f"
+      ],
+      [
+       "3cfc40a12c0f3000",
+       "8a04c57dee7b9320"
+      ],
+      [
+       "7363028b12ff60ec"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "?",
+       "?"
+      ],
+      [
+       "= > <"
+      ],
+      [
+       "? w ?",
+       "? w ?"
+      ],
+      [
+       "write 4"
+      ]
+     ],
+     "sizes": [
+      [
+       9,
+       4
+      ],
+      [
+       8
+      ],
+      [
+       9,
+       4
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g1-add-subtract-within-10",
    "slug": "plus-und-minus-bis-10-klasse-1",
    "status": "live",
@@ -27,36 +202,14 @@
      "title": "Verliebte Zahlen: zusammen 10",
      "type": "G1-106",
      "tasks": 1
-    },
-    {
-     "part": 4,
-     "lesson": 5,
-     "title": "Aufgabenfamilien bis 10",
-     "type": "G1-219",
-     "tasks": 2
-    },
-    {
-     "part": 5,
-     "lesson": 6,
-     "title": "Platzhalteraufgaben: Welche Zahl fehlt?",
-     "type": "G1-218",
-     "tasks": 2
-    },
-    {
-     "part": 6,
-     "lesson": 8,
-     "title": "Kopfrechnen bis 10",
-     "type": "G1-214",
-     "tasks": 2
     }
    ],
    "notCovered": [
-    4,
-    7
+    4
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 1,
      "cards": [
       [
        "672919f21bb45883",
@@ -67,18 +220,6 @@
       ],
       [
        "b34dfe4a5eb5a39e"
-      ],
-      [
-       "d850d4cc63b65065",
-       "b1270ad3bd365d1d"
-      ],
-      [
-       "4ee814b810c99b1d",
-       "851c626c8407fe48"
-      ],
-      [
-       "78d17935e94e6f18",
-       "ad9754026e918932"
       ]
      ],
      "pos": [
@@ -90,18 +231,6 @@
        null
       ],
       [
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       null,
        null
       ]
      ],
@@ -115,18 +244,6 @@
       ],
       [
        "w + ? = w"
-      ],
-      [
-       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
-       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
-      ],
-      [
-       "w + ? = w",
-       "? − w = w"
-      ],
-      [
-       "w + w = ?",
-       "w − w = ?"
       ]
      ],
      "sizes": [
@@ -139,23 +256,11 @@
       ],
       [
        10
-      ],
-      [
-       9,
-       7
-      ],
-      [
-       9,
-       7
-      ],
-      [
-       9,
-       8
       ]
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 1,
      "cards": [
       [
        "d2b3b1ab82d83876",
@@ -166,18 +271,6 @@
       ],
       [
        "984e6d549befda83"
-      ],
-      [
-       "c1bcf4d6bf2022af",
-       "c7567a7a87cff221"
-      ],
-      [
-       "47e19efe58796ad1",
-       "b3dfd80127d3ed5f"
-      ],
-      [
-       "5003c137f3845f4d",
-       "75326a230b1a494d"
       ]
      ],
      "pos": [
@@ -189,18 +282,6 @@
        null
       ],
       [
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       null,
        null
       ]
      ],
@@ -214,18 +295,6 @@
       ],
       [
        "w + ? = w"
-      ],
-      [
-       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
-       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
-      ],
-      [
-       "w + ? = w",
-       "? − w = w"
-      ],
-      [
-       "w + w = ?",
-       "w − w = ?"
       ]
      ],
      "sizes": [
@@ -238,14 +307,184 @@
       ],
       [
        10
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "de1-aufgabenfamilien-rechengeschichten",
+   "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Aufgabenfamilien bis 10",
+     "type": "G1-219",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Platzhalteraufgaben: Welche Zahl fehlt?",
+     "type": "G1-218",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Die Rechnung zum Bild: Plus oder Minus?",
+     "type": "G1-444",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Kopfrechnen bis 10",
+     "type": "G1-214",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "4ee814b810c99b1d",
+       "b1270ad3bd365d1d"
       ],
       [
-       10,
+       "d850d4cc63b65065",
+       "b3dfd80127d3ed5f"
+      ],
+      [
+       "c97664cca9eab1e9"
+      ],
+      [
+       "78d17935e94e6f18",
+       "c7567a7a87cff221"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ],
+      [
+       "w + ? = w",
+       "? − w = w"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       9,
+       7
+      ],
+      [
+       9,
        6
       ],
       [
-       10,
+       0
+      ],
+      [
+       9,
        6
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "47e19efe58796ad1",
+       "851c626c8407fe48"
+      ],
+      [
+       "984e6d549befda83",
+       "d2b3b1ab82d83876"
+      ],
+      [
+       "3145630bdaa86306"
+      ],
+      [
+       "c1bcf4d6bf2022af",
+       "ad9754026e918932"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
+       "w w w w + w = ? w + w = ? w − w = ? w − w = ?"
+      ],
+      [
+       "w + ? = w",
+       "? − w = w"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       10,
+       7
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       0
       ],
       [
        10,
@@ -263,8 +502,8 @@
     {
      "part": 1,
      "lesson": 1,
-     "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
-     "type": "G1-315",
+     "title": "Zahlen bis 20 in zwei Zehnerfeldern: ein Zehner und Einer",
+     "type": "K-448",
      "tasks": 1
     },
     {
@@ -287,10 +526,10 @@
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 1,
      "cards": [
       [
-       "5c9c507d7ad36e08"
+       "446e195eaf413358"
       ],
       [
        "76521062a9b82bc2",
@@ -314,7 +553,7 @@
      ],
      "kinds": [
       [
-       "write 4"
+       "? = w + ?"
       ],
       [
        "w w w w",
@@ -326,7 +565,7 @@
      ],
      "sizes": [
       [
-       0
+       16
       ],
       [
        16,
@@ -338,10 +577,10 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 1,
      "cards": [
       [
-       "8b48860a13d974c3"
+       "2742e9323072feef"
       ],
       [
        "a44d8fbb60a85297",
@@ -365,7 +604,7 @@
      ],
      "kinds": [
       [
-       "write 4"
+       "? = w + ?"
       ],
       [
        "w w w w",
@@ -377,7 +616,7 @@
      ],
      "sizes": [
       [
-       0
+       17
       ],
       [
        17,
@@ -565,6 +804,149 @@
       [
        9,
        7
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "de1-zehneruebergang",
+   "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Plus über die 10: erst bis zur 10, dann weiter",
+     "type": "G1-439",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Verdoppeln hilft: 6 + 7",
+     "type": "G1-449",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Kopfrechnen bis 20",
+     "type": "G1-208",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "f95ae84d8b69e07a"
+      ],
+      [
+       "b9d35c6a0e6939bf",
+       "85625d52d8b82115"
+      ],
+      [
+       "1cf028c43b99b722",
+       "a04c58a065a1b649"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       15,
+       9
+      ],
+      [
+       16,
+       11
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "492587c80679f8f7"
+      ],
+      [
+       "3e46f9d2350f5d07",
+       "1260dc5477ac8d67"
+      ],
+      [
+       "a0028498d43db4e7",
+       "c1bcf4d6bf2022af"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w + w = ?",
+       "w − w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       17,
+       7
+      ],
+      [
+       17,
+       10
       ]
      ]
     }
@@ -776,7 +1158,7 @@
     },
     {
      "part": 4,
-     "lesson": 7,
+     "lesson": 6,
      "title": "Malaufgaben zu Gruppen und großen Punktefeldern",
      "type": "G3-302",
      "tasks": 2
@@ -784,8 +1166,7 @@
    ],
    "notCovered": [
     2,
-    4,
-    6
+    4
    ],
    "forms": {
     "A": {
@@ -933,6 +1314,159 @@
    }
   },
   {
+   "unit": "de2-einmaleins-reihen",
+   "slug": "das-kleine-einmaleins-klasse-2",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "Das 4er- und das 8er-Einmaleins: verdoppeln",
+     "type": "G3-368",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Das 3er- und das 6er-Einmaleins",
+     "type": "G3-367",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Das 9er- und das 7er-Einmaleins: von den Kernaufgaben aus",
+     "type": "G3-405",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    2,
+    6
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "54aa475ee1a54e03",
+       "3239388b8830a001"
+      ],
+      [
+       "3f63d9dc06e4e7b0",
+       "1e24a3be768fb736"
+      ],
+      [
+       "595882d278ba1425",
+       "560deee91fdf7967"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       32,
+       20
+      ],
+      [
+       24,
+       15
+      ],
+      [
+       72,
+       45
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "945910417aa43488",
+       "68d54ab016fb787c"
+      ],
+      [
+       "25bb2976b235b00e",
+       "aeb514081cd61c0c"
+      ],
+      [
+       "160552e1280f3fca",
+       "d0f770fde5c88cc9"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ],
+      [
+       "w · w = ?",
+       "w · w = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       36,
+       16
+      ],
+      [
+       27,
+       18
+      ],
+      [
+       81,
+       54
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "de2-teilen",
    "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
    "status": "live",
@@ -947,20 +1481,27 @@
     {
      "part": 2,
      "lesson": 4,
+     "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen",
+     "type": "G3-311",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
      "title": "Gerade und ungerade: zwei gleiche Teile",
      "type": "G2-351",
      "tasks": 2
     },
     {
-     "part": 3,
-     "lesson": 5,
+     "part": 4,
+     "lesson": 6,
      "title": "Hälften, Drittel und Viertel",
      "type": "G2-232",
      "tasks": 1
     },
     {
-     "part": 4,
-     "lesson": 6,
+     "part": 5,
+     "lesson": 7,
      "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge",
      "type": "G2-233",
      "tasks": 2
@@ -972,11 +1513,14 @@
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "1e24a3be768fb736",
        "7a5902320e237034"
+      ],
+      [
+       "aeb514081cd61c0c"
       ],
       [
        "fc19bd5c62eef85a",
@@ -993,6 +1537,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1013,6 +1560,9 @@
        "w : w = ?"
       ],
       [
+       "w · w = ? w · w = ? w : w = ? w : w = ?"
+      ],
+      [
        "write 1 even",
        "write 1 odd"
       ],
@@ -1030,6 +1580,9 @@
        9
       ],
       [
+       18
+      ],
+      [
        18,
        15
       ],
@@ -1043,11 +1596,14 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "68d54ab016fb787c",
        "3b6594b37ff3f8b1"
+      ],
+      [
+       "3239388b8830a001"
       ],
       [
        "22d5dee670808cf9",
@@ -1064,6 +1620,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1084,6 +1643,9 @@
        "w : w = ?"
       ],
       [
+       "w · w = ? w · w = ? w : w = ? w : w = ?"
+      ],
+      [
        "write 1 even",
        "write 1 odd"
       ],
@@ -1099,6 +1661,9 @@
       [
        16,
        8
+      ],
+      [
+       20
       ],
       [
        14,

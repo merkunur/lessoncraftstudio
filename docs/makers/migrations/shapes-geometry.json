@@ -1,0 +1,12 @@
+[
+ {
+  "at": "1e0b941dd4b8",
+  "atData": "56301964fba9",
+  "templates": [
+   "G2-244"
+  ],
+  "kind": "content-fix",
+  "note": "Flat or Solid? no longer draws a ball: a ball is flat on paper and solid in the hand, so the page had two right answers.",
+  "date": "2026-11-13"
+ }
+]

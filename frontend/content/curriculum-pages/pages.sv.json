@@ -25,7 +25,7 @@
     "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 115,
+    "lessons": 123,
     "parts": 6,
     "partsTaught": 6
    },
@@ -154,6 +154,10 @@
           },
           {
            "n": 3,
+           "title": "Tiotalsövergång i subtraktion: först ner till tian"
+          },
+          {
+           "n": 4,
            "title": "Talfamiljer till 20"
           }
          ]
@@ -166,6 +170,25 @@
           {
            "n": 4,
            "title": "Ordningstal till tionde"
+          }
+         ]
+        },
+        {
+         "unit": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
+         "unitTitle": "Utblick mot 100: tiotal, ental och kronor",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Bunta tio: tiotal och ental"
+          },
+          {
+           "n": 3,
+           "title": "Mynten: 1, 2, 5 och 10 kronor"
+          },
+          {
+           "n": 4,
+           "title": "Betala på olika sätt"
           }
          ]
         },
@@ -219,22 +242,34 @@
           },
           {
            "n": 2,
-           "title": "Addera med tiostavar och entalskuber"
+           "title": "Addera och subtrahera hela tiotal"
           },
           {
            "n": 3,
-           "title": "Subtrahera med tiostavar och entalskuber"
+           "title": "Addera med tiostavar och entalskuber"
           },
           {
            "n": 4,
-           "title": "Addition och subtraktion upp till 100"
+           "title": "Subtrahera med tiostavar och entalskuber"
           },
           {
            "n": 5,
-           "title": "Räkna mynt"
+           "title": "Tiotalsövergång upp till 100: 38 + 5 och 43 − 5"
           },
           {
            "n": 6,
+           "title": "Subtrahera tvåsiffriga tal på tom tallinje"
+          },
+          {
+           "n": 7,
+           "title": "Addition och subtraktion upp till 100"
+          },
+          {
+           "n": 8,
+           "title": "Räkna mynt"
+          },
+          {
+           "n": 9,
            "title": "Handla: räkna ihop priset"
           }
          ]
@@ -464,8 +499,19 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Likhetstecknet: sant eller falskt?"
+          }
+         ]
+        },
+        {
+         "unit": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
+         "unitTitle": "Utblick mot 100: tiotal, ental och kronor",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Hela tiotal: 10, 20, 30 … 100"
           }
          ]
         },
@@ -822,12 +868,23 @@
          ]
         },
         {
+         "unit": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
+         "unitTitle": "Utblick mot 100: tiotal, ental och kronor",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Betala på olika sätt"
+          }
+         ]
+        },
+        {
          "unit": "addition-och-subtraktion-0-100-med-pengar-ak-2",
          "unitTitle": "Addition och subtraktion 0–100 med pengar",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 9,
            "title": "Handla: räkna ihop priset"
           }
          ]

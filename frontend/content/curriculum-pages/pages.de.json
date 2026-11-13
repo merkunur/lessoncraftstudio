@@ -25,7 +25,7 @@
     "taught": 36,
     "near": 0,
     "open": 3,
-    "lessons": 114,
+    "lessons": 119,
     "parts": 19,
     "partsTaught": 16
    },
@@ -111,7 +111,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -438,7 +438,11 @@
            "title": "Verdoppeln hilft: 6 + 7"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Minus über die 10: erst zurück zur 10"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -451,6 +455,29 @@
           {
            "n": 9,
            "title": "Plus und Minus bis 100 üben"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30"
+          },
+          {
+           "n": 2,
+           "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4"
+          },
+          {
+           "n": 3,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 4,
+           "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
         },
@@ -610,7 +637,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -1979,7 +2006,7 @@
     "taught": 35,
     "near": 0,
     "open": 1,
-    "lessons": 82,
+    "lessons": 87,
     "parts": 13,
     "partsTaught": 12
    },
@@ -2205,7 +2232,11 @@
            "title": "Verdoppeln hilft: 6 + 7"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Minus über die 10: erst zurück zur 10"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -2222,6 +2253,29 @@
           {
            "n": 9,
            "title": "Plus und Minus bis 100 üben"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30"
+          },
+          {
+           "n": 2,
+           "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4"
+          },
+          {
+           "n": 3,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 4,
+           "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
         },
@@ -2373,7 +2427,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -3772,7 +3826,7 @@
     "taught": 51,
     "near": 1,
     "open": 2,
-    "lessons": 105,
+    "lessons": 110,
     "parts": 16,
     "partsTaught": 13
    },
@@ -4024,7 +4078,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -4203,7 +4257,11 @@
            "title": "Verdoppeln hilft: 6 + 7"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Minus über die 10: erst zurück zur 10"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -4216,6 +4274,29 @@
           {
            "n": 7,
            "title": "In Fünfer- und Zehnerschritten zählen"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30"
+          },
+          {
+           "n": 2,
+           "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4"
+          },
+          {
+           "n": 3,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 4,
+           "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
         },
@@ -4327,7 +4408,11 @@
            "title": "Verdoppeln hilft: 6 + 7"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Minus über die 10: erst zurück zur 10"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -4340,6 +4425,29 @@
           {
            "n": 9,
            "title": "Plus und Minus bis 100 üben"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30"
+          },
+          {
+           "n": 2,
+           "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4"
+          },
+          {
+           "n": 3,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 4,
+           "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
         },
@@ -4766,7 +4874,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -5370,7 +5478,7 @@
     "taught": 44,
     "near": 0,
     "open": 0,
-    "lessons": 79,
+    "lessons": 84,
     "parts": 4,
     "partsTaught": 4
    },
@@ -5587,10 +5695,14 @@
           },
           {
            "n": 3,
-           "title": "Rechengeschichten bis 20"
+           "title": "Minus über die 10: erst zurück zur 10"
           },
           {
            "n": 4,
+           "title": "Rechengeschichten bis 20"
+          },
+          {
+           "n": 5,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -5635,6 +5747,29 @@
           {
            "n": 9,
            "title": "Plus und Minus bis 100 üben"
+          }
+         ]
+        },
+        {
+         "unit": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30"
+          },
+          {
+           "n": 2,
+           "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4"
+          },
+          {
+           "n": 3,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 4,
+           "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
         },

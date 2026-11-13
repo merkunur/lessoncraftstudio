@@ -95,7 +95,8 @@
   "G2-349 onlyPictures": "[en.review-73] The row with hens prints the singular word under its picture and the other rows print none: one box would be copy-and-add-s.",
   "G2-351 parity": "One form had an odd and an even number, the other two even ones: the question \"what is left over\" was asked once in one form and never in the other.",
   "G2-255 blend G2-256": "[build session, reading the check of g2-adding-and-subtracting-within-100, 2026-11-13] The lesson is adding AND subtracting in columns and hands out one worksheet for each; a part cut from the first alone made a check of a unit named \"Adding and Subtracting\" that asked no subtraction.",
-  "G2-255 instruction": "The worksheet of column addition says \"Add\"; the blended part holds a subtraction too."
+  "G2-255 instruction": "The worksheet of column addition says \"Add\"; the blended part holds a subtraction too.",
+  "units g2-fact-strategies-within-20": "[teacher-reviewer of the unit, 2026-11-13] Rulings that hold in this unit only (the same pages stand in the Grade 1 check, where they are right). G1-439 onlyText: form B asked 9 + 9 in the make-ten part, a double the same unit teaches from memory and far easier than the 6 + 8 of form A; the part asks no double. G1-449 avoidNums: 4 + 5 and 3 + 4 have sums under 10 and do not touch the doubles of 6 to 9 the Grade 2 lesson is about; the part asks no near double with 2, 3 or 4."
  },
  "blend": {
   "G3-364": [
@@ -194,5 +195,19 @@
  },
  "parity": [
   "G2-351"
- ]
+ ],
+ "units": {
+  "g2-fact-strategies-within-20": {
+   "onlyText": {
+    "G1-439": "^(?![^]*\\b(\\d)\\s*\\+\\s*\\1\\s*=)"
+   },
+   "avoidNums": {
+    "G1-449": [
+     2,
+     3,
+     4
+    ]
+   }
+  }
+ }
 }

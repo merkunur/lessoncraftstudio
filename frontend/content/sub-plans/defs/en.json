@@ -884,8 +884,8 @@
     {
      "key": "logic",
      "minutes": 20,
-     "point": "2:grid-coordinates",
-     "type": "G2-279"
+     "point": "2:logic-grid",
+     "type": "G2-319"
     },
     {
      "key": "closing",

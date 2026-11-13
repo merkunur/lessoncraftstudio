@@ -346,10 +346,32 @@
     {
      "id": "1.OA.C.6",
      "rel": "teaches"
+    },
+    {
+     "id": "2.OA.B.2",
+     "rel": "prepares"
     }
    ],
-   "why": "Found by the reviewer of the first units (an American K-1 teacher): the two addition facts of a fact family are the commutative property, 1.OA.B.3 'Apply properties of operations as strategies to add and subtract', which the derived rows left out. The two rows from the point's own codes stay.",
-   "review": "own-audit-units"
+   "why": "Found by the reviewer of the Grade 2 unit Fact Strategies Within 20 (an American Grade 2 teacher, 2026-11-13): thinking of the addition fact to subtract within 20 is a mental strategy of 2.OA.B.2; the Grade 1 lessons prepare it, the Grade 2 lesson teaches it. The three rows of the earlier reading stay.",
+   "review": "own-audit-units-4",
+   "was": {
+    "rows": [
+     {
+      "id": "1.OA.B.3",
+      "rel": "teaches"
+     },
+     {
+      "id": "1.OA.B.4",
+      "rel": "teaches"
+     },
+     {
+      "id": "1.OA.C.6",
+      "rel": "teaches"
+     }
+    ],
+    "why": "Found by the reviewer of the first units (an American K-1 teacher): the two addition facts of a fact family are the commutative property, 1.OA.B.3 'Apply properties of operations as strategies to add and subtract', which the derived rows left out. The two rows from the point's own codes stay.",
+    "review": "own-audit-units"
+   }
   },
   "1:bar-model": {
    "rows": [
@@ -1983,6 +2005,20 @@
    ],
    "why": "Level 2 of Add the Blocks adds two two-digit numbers shown as rods and cubes with no new ten and a sum up to 99: 1.NBT.C.4 (adding within 100 with concrete models, tens with tens and ones with ones).",
    "review": "year design en.review-1.json"
+  },
+  "1:near-doubles": {
+   "rows": [
+    {
+     "id": "1.OA.C.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.OA.B.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Found by the reviewer of the Grade 2 unit Fact Strategies Within 20 (an American Grade 2 teacher, 2026-11-13): doubles from memory and the near doubles built on them are mental strategies of 2.OA.B.2 (\"fluently add and subtract within 20 using mental strategies\"); the Grade 1 lesson prepares it, the Grade 2 lesson teaches it. The row from the point's own code stays.",
+   "review": "own-audit-units-4"
   }
  }
 }

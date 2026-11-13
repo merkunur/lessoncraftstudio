@@ -615,9 +615,14 @@
      "id": "1.OA.C.6",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "2.OA.B.2",
+     "rel": "prepares",
+     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:add-three-addends": {
    "rows": [
@@ -650,6 +655,11 @@
      "id": "1.OA.C.6",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "2.OA.B.2",
+     "rel": "prepares",
+     "grade": "2"
     }
    ],
    "by": "review"

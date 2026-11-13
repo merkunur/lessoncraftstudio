@@ -1988,17 +1988,17 @@
     {
      "key": "logic",
      "minutes": 20,
-     "point": "2:grid-coordinates",
-     "type": "G2-279",
-     "title": "Grid Coordinates",
-     "instruction": "Find each square by its letter and number, like B2. Color it with the color of its group to reveal the picture.",
-     "core": "grid-coordinates-g2279",
-     "hard": "grid-coordinates-hard-g2279-12",
-     "easy": "grid-coordinates-easy-g2279-7",
+     "point": "2:logic-grid",
+     "type": "G2-319",
+     "title": "Logic Grid Puzzles: Three Clues, One Answer",
+     "instruction": "Read the clues. Cross out on the grid what cannot be true, check what must be true, then circle the picture each child has.",
+     "core": "logic-puzzles-pets-g2319",
+     "hard": "logic-puzzles-hard-farm-animals-g2319-12",
+     "easy": "logic-puzzles-easy-farm-animals-g2319",
      "script": {
-      "say": "\"This grid hides a picture. Every square has a name made of a letter and a number, like B2. The lists at the bottom tell you which squares to color and in which color.\"",
-      "first": "Make sure every child has the crayons the lists name. Show how to find a square: put one finger on the letter at the top and one finger on the number at the side, and move them until they meet. Find the first square of the first list together and color it. Tell the children to cross out each code once its square is colored.",
-      "stuck": "Have the child say the code aloud, letter first, then find the letter's column and slide a finger down to the number's row. A square in the wrong place shows in the picture; the child can check its code again."
+      "say": "\"These are logic puzzles. In each puzzle three children each have one of the three pictures at the top of the grid, and no two children have the same one. The clues tell you what a child does NOT have. Put an X in the grid for every clue. When only one box is left in a row, that is what the child has.\"",
+      "first": "Do the first puzzle together. Read the first clue aloud, find the child's row and the picture's column, and put an X in the box where they meet. Do the other two clues the same way. Then show the two rules: a row with two Xs gets a check mark in its last box, and a check mark puts an X in every other box of its row and its column, because each child has only one picture and only one child has each picture. The small grid at the top right of the page shows this: one check mark with Xs around it. When every row has a check mark, find each child's strip under the puzzle and circle the picture that child has. Children do the second puzzle on their own. Children who finish write one sentence for each child on the back (\"Ben has the dog.\"), then make up a puzzle for a partner: three names, three pictures, and three \"does not have\" clues.",
+      "stuck": "Have the child read one clue at a time and make its X before reading the next one. Then ask, \"Which row has only one empty box? Which column?\" A box that is the last one left in its row or in its column gets the check mark. For your own reference, on the page for everyone: in the first puzzle Ben has the dog, Mia the mouse, and Tom the cat; in the second puzzle Leo has the frog, Max the hamster, and Emma the turtle."
      }
     },
     {

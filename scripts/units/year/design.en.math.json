@@ -505,7 +505,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Twelve sums from 11 to 18 with one addend 7, 8 or 9. Under the second addend is a small split with two empty circles; the child writes the two parts (the part that makes ten first) and completes 8 + 6 = 10 + _ = _. The first four tasks show two ten-frames as a help; the last four are the turned-around sums (6 + 8)."
+            "page": "Twelve sums from 11 to 18 with one addend 7, 8 or 9. Under the second addend is a small split with two empty circles; the child writes the two parts (the part that makes ten first) and completes 8 + 6 = 10 + _ = _. The first four tasks show two ten-frames as a help; the last four are the turned-around sums (6 + 8).",
+            "placed": "1:fluency-within-20#make-ten-sums-11-to-18"
           },
           {
             "new": true,
@@ -515,7 +516,8 @@
             "days": 2,
             "tool": "The Doubling Mirror",
             "source": "new",
-            "page": "Top third: the doubles from 5 + 5 to 9 + 9 to write from memory. Middle: eight near doubles (6 + 7, 7 + 8, 8 + 9 and their turn-arounds), each with the frame 7 + 8 = 7 + 7 + _ = _. Bottom: six subtractions that are halves of doubles (16 - 8, 14 - 7) and near them (15 - 7)."
+            "page": "Top third: the doubles from 5 + 5 to 9 + 9 to write from memory. Middle: eight near doubles (6 + 7, 7 + 8, 8 + 9 and their turn-arounds), each with the frame 7 + 8 = 7 + 7 + _ = _. Bottom: six subtractions that are halves of doubles (16 - 8, 14 - 7) and near them (15 - 7).",
+            "placed": "1:near-doubles#doubles-and-near-doubles"
           },
           {
             "new": true,
@@ -525,7 +527,8 @@
             "days": 2,
             "tool": "Rekenrek",
             "source": "new",
-            "page": "Twelve subtractions from 11 to 18 in which a ten is crossed. Under the number taken away is a small split with two empty circles; the child writes the part that gets back to 10 first, then the rest, and completes 15 - 7 = 10 - _ = _. The first four tasks show a full ten-frame and a second frame with the ones to cross out; the last four have no split printed."
+            "page": "Twelve subtractions from 11 to 18 in which a ten is crossed. Under the number taken away is a small split with two empty circles; the child writes the part that gets back to 10 first, then the rest, and completes 15 - 7 = 10 - _ = _. The first four tasks show a full ten-frame and a second frame with the ones to cross out; the last four have no split printed.",
+            "placed": "1:fluency-within-20#use-ten-to-subtract"
           },
           {
             "new": true,
@@ -535,7 +538,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "new",
-            "page": "Page 1: eight fact triangles (whole from 11 to 18 at the top, two parts below, one part missing); the child fills the triangle and writes the two additions and two subtractions of the family. Page 2: the first week of daily fact strips, five strips of ten mixed facts within 20, each with a box for 'how many I knew right away' and a small chart to color. A new sheet of strips goes with every later unit."
+            "page": "Page 1: eight fact triangles (whole from 11 to 18 at the top, two parts below, one part missing); the child fills the triangle and writes the two additions and two subtractions of the family. Page 2: the first week of daily fact strips, five strips of ten mixed facts within 20, each with a box for 'how many I knew right away' and a small chart to color. A new sheet of strips goes with every later unit.",
+            "placed": "1:fact-families#think-addition-and-daily-facts"
           }
         ]
       },

@@ -63,7 +63,7 @@ const DAYS = {
       [['morning', 10, '1:one-ten-more-less', 'G1-132'], ['reading', 15, '1:cloze', 'G1-367'], ['phonics', 15, '2:plural-nouns', 'G2-349'], ['writing', 20, '2:pronouns', 'G2-355'], ['math', 10, '2:number-line-not-from-zero', 'G2-305'], ['numbers', 10, '1:fluency-within-20', 'G1-217'], ['logic', 10, '1:mazes', 'G1-423'], ['closing', 15, '1:story-sequencing', 'G1-401']],
     ],
     middle: [
-      [['morning', 10, '2:calendar', 'G2-296'], ['reading', 20, '2:mystery-animal', 'G2-343'], ['phonics', 10, '2:synonyms', 'G2-358'], ['writing', 20, '2:question-words', 'G2-356'], ['math', 15, '2:column-method', 'G2-255'], ['problems', 15, '2:shopping-money', 'G2-291'], ['logic', 20, '2:grid-coordinates', 'G2-279'], ['closing', 10, '1:mazes', 'G1-424']],
+      [['morning', 10, '2:calendar', 'G2-296'], ['reading', 20, '2:mystery-animal', 'G2-343'], ['phonics', 10, '2:synonyms', 'G2-358'], ['writing', 20, '2:question-words', 'G2-356'], ['math', 15, '2:column-method', 'G2-255'], ['problems', 15, '2:shopping-money', 'G2-291'], ['logic', 20, '2:logic-grid', 'G2-319'], ['closing', 10, '1:mazes', 'G1-424']],
       [['morning', 15, '2:add-sub-within-100-practice', 'G2-313'], ['reading', 15, '2:family-relationships', 'G2-362'], ['phonics', 10, '2:compound-words', 'G2-330'], ['writing', 15, '2:verb-forms', 'G2-335'], ['math', 10, '2:measure-with-ruler', 'G2-235'], ['numbers', 15, '2:bar-graphs', 'G2-239'], ['logic', 15, '1:picture-sudoku', 'G1-158'], ['closing', 10, '2:skip-count-5-10-100', 'G2-392']],
     ],
     late: [

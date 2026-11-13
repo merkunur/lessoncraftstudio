@@ -41,9 +41,9 @@
   },
   "2": {
    "unit": {
-    "slug": "place-value-to-1000-grade-2-unit",
-    "title": "Place Value to 1,000",
-    "src": "/teaching-looks/en/g2-unit.880c2d88.webp",
+    "slug": "fact-strategies-within-20-grade-2-unit",
+    "title": "Fact Strategies Within 20",
+    "src": "/teaching-looks/en/g2-unit.8672cc03.webp",
     "width": 640,
     "height": 828
    },
@@ -57,21 +57,21 @@
    "plan": {
     "slug": "grade-2-math-scope-and-sequence",
     "title": "Grade 2 Math Scope and Sequence",
-    "src": "/teaching-looks/en/g2-plan.29a0088b.webp",
+    "src": "/teaching-looks/en/g2-plan.6993dabf.webp",
     "width": 640,
     "height": 828
    },
    "check": {
-    "slug": "place-value-to-1000-grade-2-unit",
-    "title": "Place Value to 1,000",
-    "src": "/teaching-looks/en/g2-check.9f1fe866.webp",
+    "slug": "fact-strategies-within-20-grade-2-unit",
+    "title": "Fact Strategies Within 20",
+    "src": "/teaching-looks/en/g2-check.4c3ca0c7.webp",
     "width": 640,
     "height": 828
    },
    "standards": {
     "slug": "common-core-2nd-grade-math-standards",
     "title": "Common Core Second Grade Math Standards: Checklist with Lessons",
-    "src": "/teaching-looks/en/standards-common-core-2nd-grade-math-standards.a5eeab80.webp",
+    "src": "/teaching-looks/en/standards-common-core-2nd-grade-math-standards.649ee38e.webp",
     "width": 640,
     "height": 828
    }
@@ -108,7 +108,7 @@
    "standards": {
     "slug": "common-core-3rd-grade-math-standards",
     "title": "Common Core Third Grade Math Standards: Checklist with Lessons",
-    "src": "/teaching-looks/en/standards-common-core-3rd-grade-math-standards.c149c522.webp",
+    "src": "/teaching-looks/en/standards-common-core-3rd-grade-math-standards.c5ac83cd.webp",
     "width": 640,
     "height": 828
    }

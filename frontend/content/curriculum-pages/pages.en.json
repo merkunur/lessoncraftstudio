@@ -639,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 43
+    "lessons": 45
    },
    "groups": [
     {
@@ -713,6 +713,13 @@
          "unitGrade": "1",
          "n": 4,
          "title": "Think addition to subtract"
+        },
+        {
+         "unit": "fact-strategies-within-20-grade-2-unit",
+         "unitTitle": "Fact Strategies Within 20",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Think addition to subtract, and start the daily facts"
         }
        ]
       },
@@ -1145,7 +1152,7 @@
     "taught": 20,
     "near": 2,
     "open": 6,
-    "lessons": 42
+    "lessons": 48
    },
    "groups": [
     {
@@ -1154,15 +1161,15 @@
       {
        "code": "2.OA.B.2",
        "state": "near",
-       "text": "Children add and subtract within 10 without counting every time, using facts they know and facts they can figure out.",
+       "text": "Children find a sum such as 6 + 7 by using a double and one more (6 + 6 + 1), with sums within 20.",
        "rel": "prepares",
        "lessons": [
         {
-         "unit": "addition-and-subtraction-within-10-grade-1-unit",
-         "unitTitle": "Addition and Subtraction Within 10",
+         "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
+         "unitTitle": "Doubles, Three Addends, and Addition Pyramids",
          "unitGrade": "1",
-         "n": 8,
-         "title": "Fact fluency within 10"
+         "n": 2,
+         "title": "Near doubles"
         },
         {
          "unit": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
@@ -1170,6 +1177,20 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Make ten to add"
+        },
+        {
+         "unit": "fact-strategies-within-20-grade-2-unit",
+         "unitTitle": "Fact Strategies Within 20",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "Make ten to add: sums from 11 to 18"
+        },
+        {
+         "unit": "fact-strategies-within-20-grade-2-unit",
+         "unitTitle": "Fact Strategies Within 20",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Doubles and near doubles"
         }
        ]
       },
@@ -3724,7 +3745,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 55
+    "lessons": 59
    },
    "groups": [
     {
@@ -4223,6 +4244,13 @@
          "unitGrade": "1",
          "n": 5,
          "title": "Fact families to 10"
+        },
+        {
+         "unit": "fact-strategies-within-20-grade-2-unit",
+         "unitTitle": "Fact Strategies Within 20",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Think addition to subtract, and start the daily facts"
         }
        ]
       }
@@ -4496,7 +4524,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 47
+    "lessons": 49
    },
    "groups": [
     {
@@ -4717,6 +4745,13 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Make ten to add"
+        },
+        {
+         "unit": "fact-strategies-within-20-grade-2-unit",
+         "unitTitle": "Fact Strategies Within 20",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "Make ten to add: sums from 11 to 18"
         }
        ]
       },

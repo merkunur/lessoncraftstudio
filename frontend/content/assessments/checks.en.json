@@ -2166,6 +2166,178 @@
    }
   },
   {
+   "unit": "g2-fact-strategies-within-20",
+   "slug": "fact-strategies-within-20-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Make ten to add: sums from 11 to 18",
+     "type": "G1-439",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Doubles and near doubles",
+     "type": "G1-449",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Use ten to subtract",
+     "type": "G1-556",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Think addition to subtract, and start the daily facts",
+     "type": "G1-566",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "d9359779ba8c6dee"
+      ],
+      [
+       "17f1c1045e2997db",
+       "604d498c334cc1ce"
+      ],
+      [
+       "8c5cc517f1cbca89"
+      ],
+      [
+       "1cf028c43b99b722",
+       "f488bcfb201d993a"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w − w = w − ? − ? = ? w w w w w"
+      ],
+      [
+       "w − w = ? w + ? = w",
+       "w − w = ? w + ? = w"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       15,
+       13
+      ],
+      [
+       20
+      ],
+      [
+       16,
+       13
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "b5e7e5eceac4ceec"
+      ],
+      [
+       "4a7a4b321151d20c",
+       "ef0ff52e1ad34440"
+      ],
+      [
+       "00ccf7cd9a832e6f"
+      ],
+      [
+       "b4f5c02b0f3cfe9a",
+       "6f1ba5f67e290e15"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w + w = ? + ? + w = ?",
+       "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w − w = w − ? − ? = ? w w w w w"
+      ],
+      [
+       "w − w = ? w + ? = w",
+       "w − w = ? w + ? = w"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       17,
+       11
+      ],
+      [
+       20
+      ],
+      [
+       14,
+       12
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g2-place-value-to-1000",
    "slug": "place-value-to-1000-grade-2-unit",
    "status": "live",

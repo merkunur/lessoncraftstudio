@@ -72,7 +72,7 @@ module.exports = {
     '2-046': U('level 1 is addition only, across ten', 1),
     '2-047': U('near doubles in either order; doubles and halves are their own pages'),
     '2-048': N('G1-556', 'built: subtraction only, back to ten first (15 - 7)', 2),
-    '2-049': C('fact triangles with one part missing; today the house gives all three numbers'),
+    '2-049': N('G1-566', 'the trio page built for Grade 1 carries the lesson at its level without a number bond; the daily facts are a routine the teacher leads (no strip page)', 3),
     '2-050': U('more than nine tens with ones: write the number (level 1 is too many tens, level 2 too many ones)', 1),
     '2-051': U('expanded form both ways with a zero place', 3),
     '2-053': N('G2-504', 'built: the three partial-sum lines under each sum (Add Tens and Ones); the sticks-and-dots drawing is done on scrap paper', 2),

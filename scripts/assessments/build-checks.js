@@ -44,7 +44,17 @@ const THEMES = { A: 'animals', B: 'fruits' };  // the picture theme of a form's 
 const ui = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'assessments', 'ui.' + loc + '.json'), 'utf8'));
 // what a reader of the checks ruled: sections left out, directions reworded for cut cards, units without a check
 const rulesFile = path.join(__dirname, 'lists', loc + '.json');
-const rules = fs.existsSync(rulesFile) ? JSON.parse(fs.readFileSync(rulesFile, 'utf8')) : { drop: {}, instruction: {}, noCheck: {} };
+const baseRules = fs.existsSync(rulesFile) ? JSON.parse(fs.readFileSync(rulesFile, 'utf8')) : { drop: {}, instruction: {}, noCheck: {} };
+// A ruling may hold for ONE unit only (`units: { <unit id>: { <kind>: … } }`): the same worksheet type can stand in the
+// checks of two grades, and what is too easy for Grade 2 (4 + 5 as a near double) is right for Grade 1. Inside its unit
+// the unit's rulings are laid over the language's: a map is merged key by key, a list is extended.
+const rulesFor = (unitId) => {
+  const own = (baseRules.units || {})[unitId]; if (!own) return baseRules;
+  const out = { ...baseRules };
+  for (const [kind, v] of Object.entries(own)) out[kind] = Array.isArray(v) ? [...(baseRules[kind] || []), ...v] : (v && typeof v === 'object') ? { ...(baseRules[kind] || {}), ...v } : v;
+  return out;
+};
+let rules = baseRules;
 const fill = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => (v[k] != null ? v[k] : '{' + k + '}'));
 // a range of numbers in a title stays on one line ("0–" at the end of a line and "10" on the next: review sv.review-1)
 const tie = (s) => s.replace(/(\d)\u2013(\d)/g, '$1\u2013\u2060$2');
@@ -306,6 +316,7 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
   const load = async (file, html) => { fs.writeFileSync(file, html, 'utf8'); await page.setViewport({ width: 703, height: 945, deviceScaleFactor: 2 }); await page.goto(url.pathToFileURL(file).href, { waitUntil: 'networkidle0' }); await page.evaluate(() => document.fonts.ready); };
 
   for (const u of units) {
+    rules = rulesFor(u.id);
     if (rules.noCheck[u.id]) { console.log('--    ' + u.id + ': no check by a ruling: ' + rules.noCheck[u.id]); continue; }
     const dir = path.join(outRoot, u.id);
     fs.rmSync(dir, { recursive: true, force: true });

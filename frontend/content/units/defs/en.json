@@ -1167,6 +1167,91 @@
    ]
   },
   {
+   "id": "g2-fact-strategies-within-20",
+   "slug": "fact-strategies-within-20-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Fact Strategies Within 20",
+   "metaTitle": "Grade 2 Math Lesson Plans: Fact Strategies Within 20",
+   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on making ten to add, doubles and near doubles, going back to ten to subtract, and thinking addition to subtract.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#make-ten-sums-11-to-18",
+     "types": [
+      "G1-439"
+     ],
+     "core": {
+      "G1-439": 1
+     },
+     "noHard": [
+      "G1-439"
+     ],
+     "tool": "open-number-line",
+     "activity": null,
+     "standards": [
+      "2.OA.B.2"
+     ],
+     "standardsRel": {
+      "2.OA.B.2": "teaches"
+     }
+    },
+    {
+     "point": "1:near-doubles",
+     "id": "1:near-doubles#doubles-and-near-doubles",
+     "types": [
+      "G1-449"
+     ],
+     "tool": "doubling-mirror",
+     "activity": null,
+     "standards": [
+      "2.OA.B.2",
+      "1.OA.C.6"
+     ],
+     "standardsRel": {
+      "2.OA.B.2": "teaches"
+     }
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#use-ten-to-subtract",
+     "types": [
+      "G1-556"
+     ],
+     "tool": "rekenrek",
+     "activity": null,
+     "standards": [
+      "2.OA.B.2"
+     ],
+     "standardsRel": {
+      "2.OA.B.2": "teaches"
+     }
+    },
+    {
+     "point": "1:fact-families",
+     "id": "1:fact-families#think-addition-and-daily-facts",
+     "types": [
+      "G1-566"
+     ],
+     "core": {
+      "G1-566": 3
+     },
+     "tool": "number-balance",
+     "activity": null,
+     "standards": [
+      "2.OA.B.2",
+      "1.OA.B.4",
+      "1.OA.C.6"
+     ],
+     "standardsRel": {
+      "2.OA.B.2": "teaches"
+     }
+    }
+   ]
+  },
+  {
    "id": "g2-place-value-to-1000",
    "slug": "place-value-to-1000-grade-2-unit",
    "status": "live",
@@ -2618,6 +2703,7 @@
    "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide ({weeks} Weeks)",
    "metaDescription": "{units} Grade 2 math units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
+    "g2-fact-strategies-within-20",
     "g2-place-value-to-1000",
     "g2-adding-and-subtracting-within-100",
     "g2-add-subtract-within-1000",

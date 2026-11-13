@@ -93,7 +93,8 @@
         "2:read-build-3-digit",
         "2:expanded-form-digit-value",
         "1:number-words",
-        "2:explain-strategies"
+        "2:explain-strategies",
+        "2:add-with-blocks"
       ]
     },
     "picture-word-wall": {
@@ -182,7 +183,8 @@
       "points": [
         "1:open-number-line",
         "1:mental-math-to-100",
-        "2:explain-strategies"
+        "2:explain-strategies",
+        "1:fluency-within-20"
       ]
     },
     "part-whole-frame": {
@@ -308,14 +310,17 @@
     "counting-cups": {
       "points": [
         "2:bundle-ten-ones",
-        "1:tens-and-ones"
+        "1:tens-and-ones",
+        "K:teen-numbers",
+        "1:skip-counting"
       ]
     },
     "number-hotel": {
       "points": [
         "1:hundreds-chart",
         "2:hundreds-chart-moves",
-        "1:one-ten-more-less"
+        "1:one-ten-more-less",
+        "1:mental-math-to-100"
       ]
     },
     "number-drum": {

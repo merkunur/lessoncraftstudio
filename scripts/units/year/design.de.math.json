@@ -315,7 +315,8 @@
             "days": 3,
             "tool": "Rechenrahmen",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 13 − 5) zeigt das Blatt ein Zwanzigerfeld mit 13 Plättchen. Das Kind streicht zuerst die Plättchen im zweiten Zehner durch, dann den Rest im ersten Zehner, und schreibt die Schritte in die vorgedruckte Zeile 13 − _ − _ = _; zwölf Aufgaben mit den Ausgangszahlen 11 bis 18."
+            "page": "Zu jeder Aufgabe (zum Beispiel 13 − 5) zeigt das Blatt ein Zwanzigerfeld mit 13 Plättchen. Das Kind streicht zuerst die Plättchen im zweiten Zehner durch, dann den Rest im ersten Zehner, und schreibt die Schritte in die vorgedruckte Zeile 13 − _ − _ = _; zwölf Aufgaben mit den Ausgangszahlen 11 bis 18.",
+            "placed": "1:fluency-within-20#minus-ueber-die-10"
           },
           {
             "new": true,
@@ -543,7 +544,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt oben ein Päckchen mit reinen Zehnerzahlen (40 + 30, 90 − 50) neben der kleinen Aufgabe (4 + 3, 9 − 5). Darunter stehen sechs Ausschnitte der Hundertertafel mit einem markierten Startfeld und einer Aufgabe wie 34 + 20 oder 76 − 30: Das Kind zeichnet die Sprünge nach unten oder oben ein und schreibt das Ergebnis; zum Schluss rechnet es zwölf Aufgaben ohne Tafel."
+            "page": "Das Blatt zeigt oben ein Päckchen mit reinen Zehnerzahlen (40 + 30, 90 − 50) neben der kleinen Aufgabe (4 + 3, 9 − 5). Darunter stehen sechs Ausschnitte der Hundertertafel mit einem markierten Startfeld und einer Aufgabe wie 34 + 20 oder 76 − 30: Das Kind zeichnet die Sprünge nach unten oder oben ein und schreibt das Ergebnis; zum Schluss rechnet es zwölf Aufgaben ohne Tafel.",
+            "placed": "1:mental-math-to-100"
           },
           {
             "new": true,
@@ -553,7 +555,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ (3 + 5 und 43 + 5, 8 − 4 und 68 − 4), daneben die größere Zahl als Bild aus Zehnerstangen und Einerwürfeln. Das Kind rechnet beide Aufgaben; alle Ergebnisse bleiben im selben Zehner. Im letzten Drittel schreibt es zur großen Aufgabe die kleine Aufgabe selbst dazu."
+            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ (3 + 5 und 43 + 5, 8 − 4 und 68 − 4), daneben die größere Zahl als Bild aus Zehnerstangen und Einerwürfeln. Das Kind rechnet beide Aufgaben; alle Ergebnisse bleiben im selben Zehner. Im letzten Drittel schreibt es zur großen Aufgabe die kleine Aufgabe selbst dazu.",
+            "placed": "1:mental-math-to-100#einer-dazu-und-weg"
           },
           {
             "new": true,
@@ -573,7 +576,8 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 47 + 8) ist ein leerer Rechenstrich mit der Startzahl vorgedruckt. Das Kind zeichnet zwei Sprünge (erst bis zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 47 + 3 + 5 = 55 in die Zeile darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert."
+            "page": "Zu jeder Aufgabe (zum Beispiel 47 + 8) ist ein leerer Rechenstrich mit der Startzahl vorgedruckt. Das Kind zeichnet zwei Sprünge (erst bis zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 47 + 3 + 5 = 55 in die Zeile darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert.",
+            "placed": "1:mental-math-to-100#plus-mit-zehneruebergang"
           },
           {
             "new": true,
@@ -583,9 +587,11 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 53 − 6) ist ein leerer Rechenstrich vorgedruckt, die Startzahl steht rechts. Das Kind zeichnet zwei Sprünge nach links (erst zurück zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 53 − 3 − 3 = 47 darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert."
+            "page": "Zu jeder Aufgabe (zum Beispiel 53 − 6) ist ein leerer Rechenstrich vorgedruckt, die Startzahl steht rechts. Das Kind zeichnet zwei Sprünge nach links (erst zurück zum Zehner, dann den Rest), schreibt die Sprungweiten über die Bögen und die Rechnung 53 − 3 − 3 = 47 darunter; zwölf Aufgaben im Zahlenraum bis 100, bei den ersten vier ist der Zehner auf dem Strich schon markiert.",
+            "placed": "1:fluency-within-20#minus-mit-zehneruebergang-bis-100"
           }
-        ]
+        ],
+        "opened": "de2-plus-minus-bis-100"
       },
       {
         "id": "new:plus-minus-bis-100-zweistellig",

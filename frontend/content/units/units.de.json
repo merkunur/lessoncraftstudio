@@ -1288,8 +1288,8 @@
    "subject": "math",
    "title": "Plus über die 10 und Rechnen bis 20",
    "metaTitle": "Mathe Klasse 1: Plus über die 10 und Rechnen bis 20",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Plusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten bis 20 und zum Kopfrechnen bis 20.",
-   "days": 15,
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Plus- und Minusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten und zum Kopfrechnen bis 20.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -1389,6 +1389,45 @@
     },
     {
      "n": 3,
+     "point": "1:fluency-within-20",
+     "title": "Minus über die 10: erst zurück zur 10",
+     "objective": "Die Kinder lösen Minusaufgaben bis 20 mit Zehnerübergang am Zahlenstrahl in zwei Schritten, erst zurück zur 10 und dann den Rest, und schreiben den Rechenweg auf: 13 − 5 = 13 − 3 − 2 = 8.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-556",
+       "title": "Minus mit Zehnerübergang am Zahlenstrahl",
+       "core": "zahlenstrahl-g1556",
+       "easy": "zahlenstrahl-leicht-g1556-6",
+       "hard": "zahlenstrahl-schwer-g1556-11"
+      }
+     ],
+     "id": "1:fluency-within-20#minus-ueber-die-10",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "rechenrahmen",
+      "name": "Rechenrahmen"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-g1556-2",
+      "title": "Minus mit Zehnerübergang am Zahlenstrahl"
+     },
+     "note": {
+      "mistake": "Viele Kinder zählen in Einerschritten rückwärts und zählen die Startzahl mit, sodass 13 − 5 zu 9 wird. Andere nehmen bis zur 10 richtig weg und ziehen danach noch einmal die ganze 5 ab.",
+      "words": "Frage: „Wie viele musst du wegnehmen, bis du bei der 10 bist? Fünf sollst du wegnehmen, drei hast du schon. Wie viele fehlen noch?“ Sag: „Erst zurück zur 10, dann den Rest.“ Zeige es am Rechenrahmen: erst die Kugeln der zweiten Reihe wegschieben, dann den Rest aus der ersten.",
+      "watch": "Achte auf den ersten Sprung: Er ist so groß wie die Einer der Startzahl und muss auf der 10 landen. Prüfe, ob die beiden Sprünge in den Kästchen zusammen die Zahl ergeben, die weggenommen wird."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "1:word-problems",
      "title": "Rechengeschichten bis 20",
      "objective": "Die Kinder lösen Rechengeschichten im Zahlenraum bis 20, in denen etwas dazukommt oder weggeht, nutzen die Bilder und schreiben die Antwort auf.",
@@ -1445,7 +1484,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:fluency-within-20",
      "title": "Kopfrechnen bis 20",
      "objective": "Die Kinder rechnen Plus- und Minusaufgaben bis 20 im Kopf und schreiben das Ergebnis auf.",
@@ -2702,6 +2741,175 @@
       "mistake": "Die Kinder rechnen Zehner und Einer getrennt und beachten den Zehnerübergang nicht: Aus 28 + 15 wird 313 oder 33. Im Labyrinth zieht sich ein falscher Schritt durch den ganzen Weg, und sie gehen nicht zurück, um ihn zu suchen.",
       "words": "Sag: „Rechne in Schritten. 28 + 15: erst plus 10, das sind 38. Dann plus 5: bis zur 40 sind es 2, dann noch 3, also 43.“ Frage: „Geht es über den Zehner?“ Im Labyrinth: „Schreibe nach jedem Schild die neue Zahl auf. Wenn das Ende nicht stimmt, prüfe jeden Schritt.“",
       "watch": "Lass die Kinder ihre Rechenschritte neben die Mauer schreiben. Sind die unteren Steine richtig und ein Stein weiter oben falsch, war es ein einzelner Rechenfehler, der nach oben gewandert ist; stimmt gar nichts, sieht das Kind vielleicht nicht, welche zwei Steine zusammengehören."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "de2-plus-minus-bis-100",
+   "slug": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+   "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit Zehnerübergang",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zu Zehnerzahlen und Einern dazu und weg und zu Plus und Minus mit Zehnerübergang bis 100 (47 + 8, 53 − 6), mit Lehrerhinweis.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:mental-math-to-100",
+     "title": "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30",
+     "objective": "Die Kinder addieren und subtrahieren Zehnerzahlen im Zahlenraum bis 100 im Kopf und erklären, dass sich dabei nur die Zehner ändern.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-558",
+       "title": "Zehner dazu und weg",
+       "core": "kopfrechnen-schwer-g1558-11",
+       "level": 3,
+       "easy": "kopfrechnen-g1558"
+      }
+     ],
+     "tool": {
+      "key": "number-hotel",
+      "slug": "zehneruebergang-zahlenraum-bis-100-grundschule",
+      "name": "Das Zahlenhotel"
+     },
+     "exit": {
+      "slug": "kopfrechnen-schwer-g1558-12",
+      "title": "Zehner dazu und weg"
+     },
+     "note": {
+      "mistake": "Die Kinder rechnen die Zehnerzahl zu den Einern, sodass 34 + 20 zu 36 wird. Wer in Zehnerschritten zählt, zählt oft die Startzahl mit und landet einen Zehner zu kurz (34 + 20 = 44). Bei Minus zählen manche in Einerschritten zurück und verlieren den Faden.",
+      "words": "Frage: „Wie viele Zehner hat die 34? Zwei Zehner kommen dazu. Wie viele Zehner sind es jetzt? Und die Einer?“ Zähle mit der Klasse in Zehnerschritten: „34, 44, 54.“ Zeige es im Zahlenhotel: Der Fahrstuhl fährt für jeden Zehner einen Flur höher, und du stehst wieder vor derselben Tür.",
+      "watch": "Achte darauf, wer die Einerziffer verändert und wer noch in Einerschritten zählt. Wer 30 + 20 sicher rechnet, aber bei 34 + 20 stockt, legt die Zahl noch einmal mit Zehnerstangen und Einerwürfeln."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "1:mental-math-to-100",
+     "title": "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4",
+     "objective": "Die Kinder addieren und subtrahieren einstellige Zahlen im Zahlenraum bis 100 ohne Zehnerübergang und nutzen dafür die kleine Aufgabe: 3 + 5 hilft bei 43 + 5.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-559",
+       "title": "Einer dazu und weg",
+       "core": "kopfrechnen-schwer-g1559-11",
+       "level": 3,
+       "easy": "kopfrechnen-g1559"
+      }
+     ],
+     "id": "1:mental-math-to-100#einer-dazu-und-weg",
+     "tool": {
+      "key": "number-hotel",
+      "slug": "zehneruebergang-zahlenraum-bis-100-grundschule",
+      "name": "Das Zahlenhotel"
+     },
+     "exit": {
+      "slug": "kopfrechnen-schwer-g1559-12",
+      "title": "Einer dazu und weg"
+     },
+     "note": {
+      "mistake": "Die Kinder zählen bei jeder Aufgabe an den Fingern weiter, obwohl die kleine Aufgabe das Ergebnis schon verrät. Manche rechnen die einstellige Zahl zum Zehner (43 + 5 = 93) oder ziehen sie vom Zehner ab (68 − 4 = 28).",
+      "words": "Schreibe die kleine Aufgabe neben die große an die Tafel: „3 + 5 = 8, also 43 + 5 = 48 und 73 + 5 = 78.“ Frage: „Welche kleine Aufgabe hilft dir hier? Ändert sich der Zehner? Warum nicht?“",
+      "watch": "Achte darauf, wer die kleine Aufgabe nutzt und wer von der großen Zahl aus weiterzählt. Wer 3 + 5 noch an den Fingern abzählt, übt zuerst die Aufgaben bis 10: Hier fehlt das kleine Einspluseins, nicht der Zahlenraum bis 100."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:mental-math-to-100",
+     "title": "Plus mit Zehnerübergang: 47 + 8",
+     "objective": "Die Kinder addieren im Zahlenraum bis 100 eine einstellige Zahl mit Zehnerübergang in zwei Schritten, erst bis zum nächsten Zehner und dann weiter: 47 + 8 = 47 + 3 + 5 = 55.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-557",
+       "title": "Plus mit Zehnerübergang am Zahlenstrahl",
+       "core": "zahlenstrahl-g1557",
+       "easy": "zahlenstrahl-leicht-g1557-6",
+       "hard": "zahlenstrahl-schwer-g1557-11"
+      }
+     ],
+     "id": "1:mental-math-to-100#plus-mit-zehneruebergang",
+     "tool": {
+      "key": "open-number-line",
+      "slug": "rechenstrich",
+      "name": "Rechenstrich"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-g1557-2",
+      "title": "Plus mit Zehnerübergang am Zahlenstrahl"
+     },
+     "note": {
+      "mistake": "Die Kinder behalten den alten Zehner und schreiben 47 + 8 = 45. Andere landen mit dem ersten Sprung nicht auf dem Zehner oder rechnen nach der 50 noch einmal die ganze 8 dazu. Manche wissen nicht, welcher Zehner der nächste ist.",
+      "words": "Frage: „Welcher Zehner kommt nach der 47? Wie viel fehlt bis zur 50?“ Dann: „Acht sollst du dazurechnen, drei hast du schon. Wie viele fehlen noch?“ Erinnere an Klasse 1: „Das ist wie 7 + 8, nur vier Zehner höher.“",
+      "watch": "Achte darauf, wie das Kind zum nächsten Zehner kommt. Wer in Einerschritten hinzählt, braucht die verliebten Zahlen noch einmal. Prüfe, ob die beiden Sprünge in den Kästchen zusammen die zweite Zahl ergeben."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:fluency-within-20",
+     "title": "Minus mit Zehnerübergang: 53 − 6",
+     "objective": "Die Kinder subtrahieren im Zahlenraum bis 100 eine einstellige Zahl mit Zehnerübergang in zwei Schritten, erst zurück zum Zehner und dann weiter: 53 − 6 = 53 − 3 − 3 = 47.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Bildungsstandards (KMK)",
+       "code": null,
+       "title": "Rechenoperationen verstehen und beherrschen"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-556",
+       "title": "Minus mit Zehnerübergang am Zahlenstrahl",
+       "core": "zahlenstrahl-schwer-g1556-11",
+       "level": 3,
+       "easy": "zahlenstrahl-g1556"
+      }
+     ],
+     "id": "1:fluency-within-20#minus-mit-zehneruebergang-bis-100",
+     "tool": {
+      "key": "open-number-line",
+      "slug": "rechenstrich",
+      "name": "Rechenstrich"
+     },
+     "exit": {
+      "slug": "zahlenstrahl-schwer-g1556-12",
+      "title": "Minus mit Zehnerübergang am Zahlenstrahl"
+     },
+     "note": {
+      "mistake": "Die Kinder drehen die Einer um, rechnen 5 − 2 statt 12 − 5 und behalten den Zehner: Aus 82 − 5 wird 83. Andere gehen richtig zum Zehner zurück und schreiben das Ergebnis dann in den falschen Zehner, zum Beispiel 53 − 6 = 57 statt 47.",
+      "words": "Lass das Kind vor dem Rechnen sagen, wo das Ergebnis liegt: „Bei den Vierzigern, denn ich gehe unter die 50.“ Frage dann: „Wie viele nimmst du weg, bis du bei der 50 bist? Sechs sollst du wegnehmen. Wie viele fehlen noch?“",
+      "watch": "Achte auf Ergebnisse, die größer sind als die Startzahl oder im selben Zehner bleiben: Dort wurden meist die Einer umgedreht. Wer beim zweiten Sprung stockt (50 − 3), übt noch einmal das Abziehen vom vollen Zehner."
      },
      "days": 2
     }
@@ -9048,6 +9256,7 @@
      "lessons": [
       "Plus über die 10: erst bis zur 10, dann weiter",
       "Verdoppeln hilft: 6 + 7",
+      "Minus über die 10: erst zurück zur 10",
       "Rechengeschichten bis 20",
       "Kopfrechnen bis 20"
      ],
@@ -9095,10 +9304,10 @@
    "status": "live",
    "grade": "2",
    "subject": "math",
-   "title": "Mathe Klasse 2: Stoffverteilung für 26 Wochen",
-   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 26 Wochen (6 Einheiten)",
-   "metaDescription": "6 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 26 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
-   "weeks": 26,
+   "title": "Mathe Klasse 2: Stoffverteilung für 28 Wochen",
+   "metaTitle": "Mathe Klasse 2: Stoffverteilung für 28 Wochen (7 Einheiten)",
+   "metaDescription": "7 Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa 28 Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
+   "weeks": 28,
    "framework": null,
    "units": [
     {
@@ -9122,12 +9331,27 @@
      "standards": []
     },
     {
+     "id": "de2-plus-minus-bis-100",
+     "slug": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+     "title": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+     "weeks": 2,
+     "from": 6,
+     "to": 7,
+     "lessons": [
+      "Zehnerzahlen dazu und weg: 34 + 20 und 76 − 30",
+      "Einer dazu und weg ohne Zehnerübergang: 43 + 5 und 68 − 4",
+      "Plus mit Zehnerübergang: 47 + 8",
+      "Minus mit Zehnerübergang: 53 − 6"
+     ],
+     "standards": []
+    },
+    {
      "id": "de2-groessen-daten",
      "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
      "title": "Messen, Uhrzeit, Geld und Diagramme",
      "weeks": 5,
-     "from": 6,
-     "to": 10,
+     "from": 8,
+     "to": 12,
      "lessons": [
       "Mit dem Lineal messen",
       "Wie viel länger?",
@@ -9145,8 +9369,8 @@
      "slug": "malnehmen-gruppen-felder-und-erste-einmaleinsreihen-klasse-2",
      "title": "Malnehmen: Gruppen, Felder und erste Einmaleinsreihen",
      "weeks": 4,
-     "from": 11,
-     "to": 14,
+     "from": 13,
+     "to": 16,
      "lessons": [
       "Gleiche Gruppen: vom Plus zum Mal",
       "Punktefelder: Reihen und Spalten",
@@ -9162,8 +9386,8 @@
      "slug": "das-kleine-einmaleins-klasse-2",
      "title": "Das kleine Einmaleins: von den Kernaufgaben zu allen Reihen",
      "weeks": 4,
-     "from": 15,
-     "to": 18,
+     "from": 17,
+     "to": 20,
      "lessons": [
       "Das 10er-Einmaleins und die Kernaufgaben",
       "In Dreier- und Viererschritten zählen",
@@ -9179,8 +9403,8 @@
      "slug": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
      "title": "Teilen: Verteilen, Aufteilen und die Hälfte",
      "weeks": 4,
-     "from": 19,
-     "to": 22,
+     "from": 21,
+     "to": 24,
      "lessons": [
       "Verteilen und Aufteilen",
       "Geteiltaufgaben: gerecht verteilen",
@@ -9197,8 +9421,8 @@
      "slug": "formen-koerper-und-symmetrie-klasse-2",
      "title": "Formen, Körper, Symmetrie und Planquadrate",
      "weeks": 4,
-     "from": 23,
-     "to": 26,
+     "from": 25,
+     "to": 28,
      "lessons": [
       "Formen nach Ecken und Seiten sortieren",
       "Flach oder räumlich? Flächen und Körper unterscheiden",

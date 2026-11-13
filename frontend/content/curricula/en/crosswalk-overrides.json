@@ -1951,6 +1951,38 @@
    ],
    "why": "Deciding whether a circle or rectangle is cut into equal shares, and naming halves and fourths, is 1.G.A.3; thirds and the Grade 2 wording are 2.G.A.3.",
    "review": "year design en.review-1.json"
+  },
+  "1:hundreds-chart": {
+   "rows": [
+    {
+     "id": "1.NBT.A.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.NBT.C.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "K.CC.A.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Level 1 of The Hundreds Chart shows the numbers 1 to 100 with eight boxes to fill: counting to 100 by ones, K.CC.A.1. The year design places that page in Kindergarten, near the hundredth day of school.",
+   "review": "year design en.review-1.json"
+  },
+  "2:add-with-blocks": {
+   "rows": [
+    {
+     "id": "2.NBT.B.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.NBT.C.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Level 2 of Add the Blocks adds two two-digit numbers shown as rods and cubes with no new ten and a sum up to 99: 1.NBT.C.4 (adding within 100 with concrete models, tens with tens and ones with ones).",
+   "review": "year design en.review-1.json"
   }
  }
 }

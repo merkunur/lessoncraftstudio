@@ -688,7 +688,7 @@
   {
    "unit": "sv-1-ma-talen-0-10",
    "slug": "talen-0-10-antal-talrad-och-uppdelning-ak-1",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -1559,7 +1559,7 @@
   {
    "unit": "sv-1-ma-add-sub-0-20",
    "slug": "addition-och-subtraktion-0-20-ak-1",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -1578,13 +1578,20 @@
     {
      "part": 3,
      "lesson": 3,
+     "title": "Tiotalsövergång i subtraktion: först ner till tian",
+     "type": "G1-556",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
      "title": "Talfamiljer till 20",
      "type": "G1-220",
      "tasks": 2
     }
    ],
    "notCovered": [
-    4
+    5
    ],
    "forms": {
     "A": {
@@ -1595,7 +1602,10 @@
        "be6514cf0544cfaa"
       ],
       [
-       "8152b5524a3b664b"
+       "6ac0f49d12f93c81"
+      ],
+      [
+       "249bc49bde4bc365"
       ],
       [
        "3488311e0c2058d0",
@@ -1605,6 +1615,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1621,7 +1634,10 @@
        "w + w = ? + ? + w = ?"
       ],
       [
-       "w + w = w + ? w + ? w = ? w w w w w w"
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w − w = w − ? − ? = ? w w w w w"
       ],
       [
        "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
@@ -1632,6 +1648,9 @@
       [
        15,
        9
+      ],
+      [
+       20
       ],
       [
        20
@@ -1650,7 +1669,10 @@
        "d43850aa3236faaf"
       ],
       [
-       "d5c6d71d3b4fd83c"
+       "3a62e882620bb940"
+      ],
+      [
+       "f3d357fc99695237"
       ],
       [
        "2742e9323072feef",
@@ -1660,6 +1682,9 @@
      "pos": [
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1676,7 +1701,10 @@
        "w + w = ? + ? + w = ?"
       ],
       [
-       "w + w = w + ? w + ? w = ? w w w w w w"
+       "w + w = w + ? + ? = ? w w w w w"
+      ],
+      [
+       "w − w = w − ? − ? = ? w w w w w"
       ],
       [
        "w w w w + w = ? w + w = ? w − w = ? w − w = ?",
@@ -1687,6 +1715,9 @@
       [
        17,
        7
+      ],
+      [
+       20
       ],
       [
        20
@@ -2083,20 +2114,34 @@
     {
      "part": 1,
      "lesson": 2,
+     "title": "Addera och subtrahera hela tiotal",
+     "type": "G1-558",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
      "title": "Addera med tiostavar och entalskuber",
      "type": "G2-203",
      "tasks": 1
     },
     {
-     "part": 2,
-     "lesson": 3,
+     "part": 3,
+     "lesson": 4,
      "title": "Subtrahera med tiostavar och entalskuber",
      "type": "G2-205",
      "tasks": 1
     },
     {
-     "part": 3,
-     "lesson": 5,
+     "part": 4,
+     "lesson": 6,
+     "title": "Subtrahera tvåsiffriga tal på tom tallinje",
+     "type": "G2-501",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 8,
      "title": "Räkna mynt",
      "type": "G1-228",
      "tasks": 2
@@ -2104,18 +2149,26 @@
    ],
    "notCovered": [
     1,
-    4,
-    6
+    5,
+    7,
+    9
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
+      [
+       "306223540f7f1930",
+       "f8a20284bb7d9569"
+      ],
       [
        "8cdc94731b899496"
       ],
       [
        "97eca18c8933f7e9"
+      ],
+      [
+       "fb9012b7c14b8e0e"
       ],
       [
        "92c3ae1d3f821370",
@@ -2124,6 +2177,13 @@
      ],
      "pos": [
       [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
        null
       ],
       [
@@ -2136,10 +2196,17 @@
      ],
      "kinds": [
       [
+       "w + w = ?",
+       "w − w = ?"
+      ],
+      [
        "+ = ?"
       ],
       [
        "− = ?"
+      ],
+      [
+       "w − w = ?"
       ],
       [
        "w w w ? w",
@@ -2148,10 +2215,17 @@
      ],
      "sizes": [
       [
+       83,
+       53
+      ],
+      [
        69
       ],
       [
        31
+      ],
+      [
+       72
       ],
       [
        9,
@@ -2160,8 +2234,12 @@
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
+      [
+       "2800ab8e8f3f79cb",
+       "8038b1a2b1985f80"
+      ],
       [
        "e30f0c67bb747ccc"
       ],
@@ -2169,11 +2247,21 @@
        "734450729b8351fe"
       ],
       [
+       "a7441e3d5230057a"
+      ],
+      [
        "43c695950e24ed9d",
        "851c626c8407fe48"
       ]
      ],
      "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
       [
        null
       ],
@@ -2187,10 +2275,17 @@
      ],
      "kinds": [
       [
+       "w + w = ?",
+       "w − w = ?"
+      ],
+      [
        "+ = ?"
       ],
       [
        "− = ?"
+      ],
+      [
+       "w − w = ?"
       ],
       [
        "w w w ? w",
@@ -2199,10 +2294,17 @@
      ],
      "sizes": [
       [
+       84,
+       55
+      ],
+      [
        67
       ],
       [
        36
+      ],
+      [
+       73
       ],
       [
        8,
@@ -2737,7 +2839,7 @@
   {
    "unit": "sv-3-ma-avrundning-uppstallning",
    "slug": "avrundning-overslag-och-uppstallning-ak-3",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,

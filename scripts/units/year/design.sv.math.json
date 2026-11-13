@@ -267,7 +267,8 @@
             "days": 3,
             "tool": "Tom tallinje",
             "source": "new",
-            "page": "Bladet visar subtraktioner som 13 − 5 och 15 − 7 med en tom tallinje där bara 10 är utsatt; eleven ritar två hopp bakåt (13 − 3 − 2), skriver mellanledet och differensen. Första termen är alltid ett tal mellan 11 och 18."
+            "page": "Bladet visar subtraktioner som 13 − 5 och 15 − 7 med en tom tallinje där bara 10 är utsatt; eleven ritar två hopp bakåt (13 − 3 − 2), skriver mellanledet och differensen. Första termen är alltid ett tal mellan 11 och 18.",
+            "placed": "1:fluency-within-20#tiotalsovergang-subtraktion"
           },
           {
             "new": true,
@@ -388,7 +389,8 @@
             "standard": "Taluppfattning och tals användning",
             "days": 2,
             "tool": "Räkna i kör",
-            "source": "reuse:Räkna med tiotal"
+            "source": "reuse:Räkna med tiotal",
+            "placed": "1:skip-counting#hela-tiotal"
           },
           {
             "new": true,
@@ -398,7 +400,8 @@
             "days": 2,
             "tool": "Tioaskarna",
             "source": "new",
-            "page": "Bladet visar bilder med 20 till 60 pinnar eller pärlor som ligger utspridda; eleven ringar in tio i taget, räknar buntarna och de lösa och fyller i ”tiotal: _, ental: _, talet: _”."
+            "page": "Bladet visar bilder med 20 till 60 pinnar eller pärlor som ligger utspridda; eleven ringar in tio i taget, räknar buntarna och de lösa och fyller i ”tiotal: _, ental: _, talet: _”.",
+            "placed": "2:bundle-ten-ones#bunta-tio"
           },
           {
             "new": true,
@@ -407,7 +410,8 @@
             "standard": "Taluppfattning och tals användning",
             "days": 3,
             "tool": "Pengamattan",
-            "source": "reuse:Räkna mynt: första stegen"
+            "source": "reuse:Räkna mynt: första stegen",
+            "placed": "1:coins#mynten"
           },
           {
             "new": true,
@@ -417,9 +421,11 @@
             "days": 2,
             "tool": "Pengamattan",
             "source": "new",
-            "page": "Bladet visar varor med prislappar mellan 5 och 20 kronor och två tomma plånböcker per vara; eleven ritar mynten 1, 2, 5 och 10 kronor så att priset stämmer på två olika sätt och ringar in den plånbok som har minst antal mynt."
+            "page": "Bladet visar varor med prislappar mellan 5 och 20 kronor och två tomma plånböcker per vara; eleven ritar mynten 1, 2, 5 och 10 kronor så att priset stämmer på två olika sätt och ringar in den plånbok som har minst antal mynt.",
+            "placed": "2:shopping-money#betala-pa-olika-satt"
           }
-        ]
+        ],
+        "opened": "sv-1-ma-utblick-100"
       },
       {
         "id": "sv-1-ma-diagram",
@@ -527,7 +533,8 @@
             "days": 2,
             "tool": "Tiotalslabbet",
             "source": "new",
-            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 30 + 40 eller 9 − 2 och 90 − 20, med tiostavar ritade bredvid; eleven skriver båda svaren. Sista raden har uppgifter där hela tiotal läggs till eller tas bort från ett tvåsiffrigt tal, som 34 + 20 och 76 − 30."
+            "page": "Bladet visar uppgifter i par, till exempel 3 + 4 och 30 + 40 eller 9 − 2 och 90 − 20, med tiostavar ritade bredvid; eleven skriver båda svaren. Sista raden har uppgifter där hela tiotal läggs till eller tas bort från ett tvåsiffrigt tal, som 34 + 20 och 76 − 30.",
+            "placed": "1:mental-math-to-100"
           },
           {
             "existing": "2:add-with-blocks",
@@ -545,7 +552,8 @@
             "days": 3,
             "tool": "Tom tallinje",
             "source": "new",
-            "page": "Bladet visar uppgifter som 38 + 5, 67 + 6, 43 − 5 och 82 − 4 med en tom tallinje under varje; eleven ritar två hopp via närmaste hela tiotal, skriver mellanledet och svaret."
+            "page": "Bladet visar uppgifter som 38 + 5, 67 + 6, 43 − 5 och 82 − 4 med en tom tallinje under varje; eleven ritar två hopp via närmaste hela tiotal, skriver mellanledet och svaret.",
+            "placed": "1:fluency-within-20#tiotalsovergang-upp-till-100"
           },
           {
             "new": true,
@@ -565,7 +573,8 @@
             "days": 2,
             "tool": "Tom tallinje",
             "source": "new",
-            "page": "Bladet visar subtraktioner som 58 − 23 och 72 − 35 med en tom tallinje under varje; eleven ritar hopp bakåt, först hela tiotal och sedan ental, och skriver svaret. De två sista uppgifterna har tal nära varandra (61 − 58), och där ritar eleven i stället hoppen uppåt och skriver skillnaden."
+            "page": "Bladet visar subtraktioner som 58 − 23 och 72 − 35 med en tom tallinje under varje; eleven ritar hopp bakåt, först hela tiotal och sedan ental, och skriver svaret. De två sista uppgifterna har tal nära varandra (61 − 58), och där ritar eleven i stället hoppen uppåt och skriver skillnaden.",
+            "placed": "1:open-number-line"
           },
           {
             "existing": "2:add-sub-within-100-practice",

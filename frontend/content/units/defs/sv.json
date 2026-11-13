@@ -696,7 +696,7 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–20 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 4 lektioner om dubblor, tiotalsövergång, talfamiljer och likhetstecknet, med lärarkommentar.",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 5 lektioner om dubblor, tiotalsövergång, talfamiljer och likhetstecknet, med lärarkommentar.",
    "weeks": 3,
    "lessons": [
     {
@@ -717,6 +717,15 @@
      },
      "tool": "rekenrek",
      "activity": "ten-stones.add-sub-within-20.1-oa-c-6"
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#tiotalsovergang-subtraktion",
+     "types": [
+      "G1-556"
+     ],
+     "tool": "open-number-line",
+     "activity": null
     },
     {
      "point": "1:fact-families",
@@ -790,6 +799,64 @@
       "G1-233",
       "G1-234"
      ]
+    }
+   ]
+  },
+  {
+   "id": "sv-1-ma-utblick-100",
+   "slug": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Utblick mot 100: tiotal, ental och kronor",
+   "metaTitle": "Matematik åk 1: Utblick mot 100 | Lektionsplanering",
+   "metaDescription": "Matematik åk 1: räkna hela tiotal till 100, bunta tio ental till tiotal, känna igen mynten och betala jämnt. 4 lektioner med lärarkommentar och arbetsblad.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "1:skip-counting",
+     "id": "1:skip-counting#hela-tiotal",
+     "types": [
+      "G1-123"
+     ],
+     "core": {
+      "G1-123": 1
+     },
+     "tool": "choral-counting",
+     "activity": null
+    },
+    {
+     "point": "2:bundle-ten-ones",
+     "id": "2:bundle-ten-ones#bunta-tio",
+     "types": [
+      "G1-560"
+     ],
+     "tool": "counting-cups",
+     "activity": "bundle-bot.bundle-machine.1-nbt-b-2-a"
+    },
+    {
+     "point": "1:coins",
+     "id": "1:coins#mynten",
+     "types": [
+      "G1-228"
+     ],
+     "core": {
+      "G1-228": 1
+     },
+     "tool": "money-mat",
+     "activity": null
+    },
+    {
+     "point": "2:shopping-money",
+     "id": "2:shopping-money#betala-pa-olika-satt",
+     "types": [
+      "G2-472"
+     ],
+     "core": {
+      "G2-472": 1
+     },
+     "tool": "money-mat",
+     "activity": null
     }
    ]
   },
@@ -1027,8 +1094,8 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 9 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:fluency-within-20",
@@ -1038,17 +1105,47 @@
      "activity": "match-pairs.match-facts-to-20.2-oa-b-2"
     },
     {
+     "point": "1:mental-math-to-100",
+     "types": [
+      "G1-558"
+     ],
+     "core": {
+      "G1-558": 3
+     },
+     "tool": "number-hotel"
+    },
+    {
      "point": "2:add-with-blocks",
      "types": [
       "G2-203"
      ],
-     "activity": "place-value-regroup.add-compose-ten.1-nbt-c-4"
+     "activity": "place-value-regroup.add-compose-ten.1-nbt-c-4",
+     "tool": null
     },
     {
      "point": "2:subtract-with-blocks",
      "types": [
       "G2-205"
      ]
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#tiotalsovergang-upp-till-100",
+     "types": [
+      "G1-439"
+     ],
+     "core": {
+      "G1-439": 3
+     },
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:open-number-line",
+     "types": [
+      "G2-501"
+     ],
+     "tool": "open-number-line"
     },
     {
      "point": "2:add-sub-within-100-practice",
@@ -2013,6 +2110,7 @@
     "sv-1-ma-tal-0-20",
     "sv-1-ma-add-sub-0-20",
     "sv-1-ma-klockan-almanackan",
+    "sv-1-ma-utblick-100",
     "sv-1-ma-diagram"
    ]
   },

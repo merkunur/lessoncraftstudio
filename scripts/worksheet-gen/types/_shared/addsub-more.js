@@ -256,6 +256,18 @@ function makeAddSubMoreType(cfg) {
           let a, b;
           if (d.kind === 'tens-or-ones') {
             const tens = d.part ? d.part === 'tens' : ps.length % 4 < 2;
+            // an ones-only face (G1-559): the second number is drawn FIRST, 4 to 8 on half of the cards and 2 to 5 on the
+            // rest, then a first number whose ones leave room for it. Drawn the other way round (any first number, then
+            // what fits) the second number was 1 on five cards of twelve and never above 4, and the small fact the
+            // lesson is about (3 + 5 helps with 43 + 5) was hardly needed (teacher-reviewer, 2026-11-13).
+            if (d.part === 'ones') {
+              b = ps.length % 4 < 2 ? rng.int(4, 8) : rng.int(2, 5);   // two cards large, two small: both operations of a mixed page get both
+              const o = op === '+' ? rng.int(1, 9 - b) : rng.int(b + 1, 9);
+              a = rng.int(1, 8) * 10 + o;
+              const r1 = val(a, op, b);
+              if (used.has(a + op + b)) continue;
+              used.add(a + op + b); ps.push({ a, op, b, r: r1 }); continue;
+            }
             a = rng.int(11, 89);
             if (op === '+') b = tens ? rng.int(1, Math.floor((99 - a) / 10)) * 10 : rng.int(1, 9 - (a % 10));
             else b = tens ? rng.int(1, Math.floor(a / 10) - 1) * 10 : rng.int(1, a % 10);

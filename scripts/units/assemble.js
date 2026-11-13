@@ -140,7 +140,9 @@ function assemble(loc, opt = {}) {
         const RUNG = { 1: 'easy', 2: 'core', 3: 'hard' };
         if (!pg || !pg[RUNG[lv]].length || !title) { bad(lw + ': type ' + typeId + ' has no published ' + (lv === 2 ? 'core page' : 'page at level ' + lv) + ' or no title in this language'); continue; }
         const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
-        const core = pick(RUNG[lv]), easy = lv > 1 ? pick(RUNG[lv - 1]) : null, hard = lv < 3 ? pick(RUNG[lv + 1]) : null;
+        // `noHard`: the next level of a type can teach ANOTHER step (level 2 of Add and Subtract Tens is subtraction only): a
+        // lesson that teaches only the step of its own level names the type there and offers no harder page of it
+        const core = pick(RUNG[lv]), easy = lv > 1 ? pick(RUNG[lv - 1]) : null, hard = lv < 3 && !(L.noHard || []).includes(typeId) ? pick(RUNG[lv + 1]) : null;
         if (!core) { bad(lw + ': every page of type ' + typeId + ' at level ' + lv + ' is handed out by an earlier lesson of the unit'); continue; }
         const a = assets.types[typeId] || {};
         // a lesson may give a page a label of its own (`titles`), where two of its pages print the same title

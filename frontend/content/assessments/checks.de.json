@@ -5,7 +5,7 @@
   {
    "unit": "de1-zahlen-bis-10",
    "slug": "zahlen-bis-10-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -315,7 +315,7 @@
   {
    "unit": "de1-aufgabenfamilien-rechengeschichten",
    "slug": "aufgabenfamilien-und-rechengeschichten-bis-10-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -396,7 +396,7 @@
        "? − w = w"
       ],
       [
-       "write 4"
+       "write 4 ·1"
       ],
       [
        "w + w = ?",
@@ -433,7 +433,7 @@
        "d2b3b1ab82d83876"
       ],
       [
-       "3145630bdaa86306"
+       "deb097d8fa2eb55d"
       ],
       [
        "c1bcf4d6bf2022af",
@@ -467,7 +467,7 @@
        "? − w = w"
       ],
       [
-       "write 4"
+       "write 4 ·1"
       ],
       [
        "w + w = ?",
@@ -812,7 +812,7 @@
   {
    "unit": "de1-zehneruebergang",
    "slug": "plus-und-minus-bis-20-mit-zehneruebergang-klasse-1",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -830,18 +830,25 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 3,
+     "title": "Minus über die 10: erst zurück zur 10",
+     "type": "G1-556",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
      "title": "Kopfrechnen bis 20",
      "type": "G1-208",
      "tasks": 2
     }
    ],
    "notCovered": [
-    3
+    4
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "f95ae84d8b69e07a"
@@ -851,8 +858,11 @@
        "85625d52d8b82115"
       ],
       [
-       "1cf028c43b99b722",
-       "a04c58a065a1b649"
+       "ec0f71cf4f02e76a"
+      ],
+      [
+       "2826ca24f2fabeb1",
+       "e84cecf432a7f1d2"
       ]
      ],
      "pos": [
@@ -861,6 +871,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -875,6 +888,9 @@
       [
        "w + w = ? + ? + w = ?",
        "w + w = ? + ? + w = ?"
+      ],
+      [
+       "w − w = w − ? − ? = ? w w w w w"
       ],
       [
        "w + w = ?",
@@ -890,24 +906,30 @@
        9
       ],
       [
-       16,
-       11
+       20
+      ],
+      [
+       17,
+       12
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
-       "492587c80679f8f7"
+       "1c5046cf85512c38"
       ],
       [
        "3e46f9d2350f5d07",
        "1260dc5477ac8d67"
       ],
       [
-       "a0028498d43db4e7",
-       "c1bcf4d6bf2022af"
+       "acf7a856a7984849"
+      ],
+      [
+       "426f2b2c218a3ac6",
+       "9ae10e5cd277a472"
       ]
      ],
      "pos": [
@@ -916,6 +938,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -932,6 +957,9 @@
        "w + w = ? + ? + w = ?"
       ],
       [
+       "w − w = w − ? − ? = ? w w w w w"
+      ],
+      [
        "w + w = ?",
        "w − w = ?"
       ]
@@ -945,8 +973,11 @@
        7
       ],
       [
-       17,
-       10
+       20
+      ],
+      [
+       18,
+       14
       ]
      ]
     }
@@ -1316,7 +1347,7 @@
   {
    "unit": "de2-einmaleins-reihen",
    "slug": "das-kleine-einmaleins-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,

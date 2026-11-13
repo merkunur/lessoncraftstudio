@@ -833,9 +833,14 @@
      "id": "1.NBT.C.5",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "K.CC.A.1",
+     "rel": "teaches",
+     "grade": "K"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "1:one-ten-more-less": {
    "rows": [
@@ -1202,9 +1207,14 @@
      "id": "2.NBT.B.7",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "1.NBT.C.4",
+     "rel": "teaches",
+     "grade": "1"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:subtract-with-blocks": {
    "rows": [

@@ -159,6 +159,12 @@ const fact = (c) => (c.key.startsWith('n:') ? c.key : null);
 // German check of 2026-11-13, whose form B asked 8 + 9 in three parts.
 const lead = (c) => { if (c._lead === undefined) { const m = /^\s*(\d+)\s*([+\u2212\u2013-])\s*(\d+)\s*=/.exec(textOf(c)); c._lead = m ? 'n:' + [...new Set([Number(m[1]), Number(m[3]), m[2] === '+' ? Number(m[1]) + Number(m[3]) : Number(m[1]) - Number(m[3])])].sort((x, y) => x - y).join(',') : null; } return c._lead; };
 const facts = (c) => [fact(c), lead(c)].filter(Boolean);
+const leadFact = lead;
+// The sum a card leads with never stands twice in ONE form. Across the two forms it is kept apart as long as the
+// pool allows (STRICT_LEAD); where a part could not be filled otherwise, form B may lead with a sum form A led with
+// in ANOTHER shape of task (sums over the ten and near doubles are largely the same sums: 6 + 7, 7 + 8, 8 + 9). The
+// forms are given weeks apart, and the same card (the same key) is never taken twice.
+let STRICT_LEAD = true;
 /** the one number of a card that has only one (count the pictures: 9): an answer once in a form, across its parts */
 const solo = (c) => (/^[tp]:/.test(c.key) ? null : /^\d+$/.test(String(c.ans)) && !/[+\-−×÷=<>]/.test(c.kind) ? 'n:' + c.ans : new Set(c.nums).size === 1 ? 'n:' + c.nums[0] : null);   // … also when the child circles it among three numbers; a sum is not meant
 /** a number a check can lean on: not 55, and of three digits not 262 or 774 (a child who writes the places in another
@@ -228,6 +234,15 @@ function chooseA(plan, usedA, soloA) {
  *  that is no fact of form A or of form B so far, shares no total and no larger number with the part's other cards,
  *  and whose right option, if it is a choice, does not sit where A has it when the pool offers that */
 function chooseB(plan, cardsA, usedA, usedB, soloB) {
+  STRICT_LEAD = true;
+  const strict = chooseBOnce(plan, cardsA, usedA, usedB, soloB);
+  if (strict.length >= cardsA.length) return strict;
+  STRICT_LEAD = false;
+  const loose = chooseBOnce(plan, cardsA, usedA, usedB, soloB);
+  STRICT_LEAD = true;
+  return loose.length > strict.length ? loose : strict;
+}
+function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
   const askedA = new Set(cardsA.map((x) => x.ask).filter(Boolean));
   const shownA = new Set(cardsA.map(shapes).filter(Boolean));
   // the cards form B may take for a box of form A, the best first, given the boxes of the part taken so far
@@ -245,7 +260,7 @@ function chooseB(plan, cardsA, usedA, usedB, soloB) {
     // a type without numbers whose forms must be alike (lists: sameLook): the card with about as much drawing
     const looks = (x) => (plan.sameLook ? Math.abs(drawn(x) - drawn(ca)) : 0) + Math.abs((x.len || 0) - (ca.len || 0));
     const ok = plan.b.cards.filter((c) => c.kind === ca.kind && !c.inOrder && !c.twins && !(c.ask && askedA.has(c.ask)) && !(shapes(c) && shownA.has(shapes(c))) && !(solo(c) && soloB.has(solo(c))) && !(printed(c) && out.concat(cardsA).some((x) => printed(x) === printed(c))) && !shown(c, PICS_B, out, plan.small) && !(plan.disjoint && out.some((x) => wordsOf(x).some((w) => wordsOf(c).includes(w)))) && !(plan.sameGiven && (c.given || []).join() !== (ca.given || []).join()) && !(plan.sameAnswer && c.ans !== ca.ans) && near(c, ca) && wide(c) === wide(ca) && !plan.avoid.includes(c.mag)
-      && !facts(c).some((k) => usedA.has(k) || usedB.has(k)) && !(c.fact2 && (usedB.has(c.fact2) || cardsA.some((x) => x.fact2 === c.fact2))) && !cardsA.some((x) => x.key === c.key)
+      && !(fact(c) && (usedA.has(fact(c)) || usedB.has(fact(c)))) && !(leadFact(c) && (usedB.has(leadFact(c)) || (STRICT_LEAD && usedA.has(leadFact(c))))) && !(c.fact2 && (usedB.has(c.fact2) || cardsA.some((x) => x.fact2 === c.fact2))) && !cardsA.some((x) => x.key === c.key)
       // (review sv.review-2) a figure of form A's box does not stand in form B's box; a word of as many sounds as form A's
       && !(plan.otherDrawings && drawingsOf(c).some((d) => cardsA.some((x) => drawingsOf(x).includes(d)))) && !(plan.sameSize && c.mag !== ca.mag) && !(plan.otherFirst && (c.given || [])[0] === (ca.given || [])[0])
       && !(plan.sameGap && Math.abs(gap(c) - gap(ca)) > 1) && !(plan.otherRest && (rest(c)[0] === rest(ca)[0] || rest(c)[1] === rest(ca)[1])) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_B, w)))

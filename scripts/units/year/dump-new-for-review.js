@@ -6,8 +6,10 @@
  * the lesson gives to everyone (downloaded from the live site), the tool and the practice on screen.
  * One reviewer reads it (CLAUDE.md rule 2): the native-speaker and the pedagogy check in one pass, WITH the pages.
  *
- *   node scripts/units/year/dump-new-for-review.js --loc=en [--subject=math]
+ *   node scripts/units/year/dump-new-for-review.js --loc=en [--subject=math] [--notes=en-math-year2]
  *     → out/year/review-<loc>/review.md + one PNG per page
+ *   --notes=<file of scripts/units/notes>: only the lessons whose note stands in that file (a later run of stage 1
+ *     is reviewed without the lessons an earlier reviewer has read), into out/year/review-<loc>-<file>/
  */
 'use strict';
 const fs = require('fs');
@@ -20,7 +22,9 @@ const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const design = readJson(path.join(__dirname, 'design.' + loc + '.' + subject + '.json'));
 const units = readJson(path.join(REPO, 'frontend', 'content', 'units', 'units.' + loc + '.json')).units;
 const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.' + loc + '.json'));
-const OUT = path.join(REPO, 'out', 'year', 'review-' + loc);
+const notesFile = arg('notes', '');
+const only = notesFile ? new Set(Object.keys(require(path.join(REPO, 'scripts', 'units', 'notes', notesFile + '.js')).points)) : null;
+const OUT = path.join(REPO, 'out', 'year', 'review-' + loc + (notesFile ? '-' + notesFile : ''));
 fs.mkdirSync(OUT, { recursive: true });
 const get = (url) => new Promise((res, rej) => https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36' } }, (r) => { if (r.statusCode !== 200) { r.resume(); return rej(new Error(r.statusCode + ' ' + url)); } const b = []; r.on('data', (c) => b.push(c)); r.on('end', () => res(Buffer.concat(b))); }).on('error', rej));
 const byKey = new Map(); for (const u of units) for (const l of u.lessons) byKey.set(l.id || l.point, { u, l });
@@ -31,7 +35,7 @@ const byKey = new Map(); for (const u of units) for (const l of u.lessons) byKey
   for (const g of ['K', '1', '2', '3']) {
     if (!design[g]) continue;
     for (const du of design[g].units) for (const dl of du.lessons) {
-      if (!dl.placed) continue;
+      if (!dl.placed || (only && !only.has(dl.placed))) continue;
       const x = byKey.get(dl.placed); if (!x) throw new Error(dl.placed + ' is not in the units file');
       const { u, l } = x; n++;
       L.push('## `' + dl.placed + '` — ' + l.title, '', '- unit: ' + u.title + ' (grade ' + u.grade + '), lesson ' + l.n + ' of ' + u.lessons.length + '; class days: ' + l.days,
@@ -48,7 +52,7 @@ const byKey = new Map(); for (const u of units) for (const l of u.lessons) byKey
       L.push('- teacher note, the usual mistake: ' + l.note.mistake, '- teacher note, words to use: ' + l.note.words, '- teacher note, what to watch for: ' + l.note.watch, '');
     }
   }
-  const newUnits = []; for (const g of ['K', '1', '2', '3']) if (design[g]) for (const du of design[g].units) if (du.opened) newUnits.push(units.find((u) => u.id === du.opened));
+  const newUnits = []; for (const g of ['K', '1', '2', '3']) if (design[g]) for (const du of design[g].units) if (du.opened && (!only || du.lessons.every((dl) => !dl.placed || only.has(dl.placed)))) newUnits.push(units.find((u) => u.id === du.opened));
   if (newUnits.length) { L.push('## New units (their page title and description are under review too)', ''); for (const u of newUnits) L.push('- `' + u.id + '` — ' + u.title + ' | page title: ' + u.metaTitle + ' | description: ' + u.metaDescription + ' | lessons: ' + u.lessons.map((l) => l.title).join(' · ')); L.push(''); }
   fs.writeFileSync(path.join(OUT, 'review.md'), L.join('\n') + '\n');
   console.log(loc + ': ' + n + ' lessons → ' + path.relative(REPO, path.join(OUT, 'review.md')));

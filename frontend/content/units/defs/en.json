@@ -603,6 +603,71 @@
    ]
   },
   {
+   "id": "k-teen-numbers-and-counting-to-100",
+   "slug": "teen-numbers-and-counting-to-100-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "math",
+   "title": "Teen Numbers and Counting to 100",
+   "metaTitle": "Kindergarten Math Lesson Plans: Teen Numbers and Counting to 100",
+   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on teen numbers as ten and some more, counting to 100 on the hundreds chart, and counting by tens, with teacher notes.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:teen-numbers",
+     "id": "K:teen-numbers#ten-and-some-more",
+     "types": [
+      "K-627"
+     ],
+     "tool": "counting-cups",
+     "activity": null,
+     "standards": [
+      "K.NBT.A.1"
+     ]
+    },
+    {
+     "point": "K:teen-numbers",
+     "types": [
+      "K-448"
+     ],
+     "tool": "ten-frame",
+     "standards": [
+      "K.NBT.A.1"
+     ]
+    },
+    {
+     "point": "1:hundreds-chart",
+     "id": "1:hundreds-chart#count-to-100",
+     "types": [
+      "G1-129"
+     ],
+     "core": {
+      "G1-129": 1
+     },
+     "tool": "number-hotel",
+     "activity": null,
+     "standards": [
+      "K.CC.A.1"
+     ]
+    },
+    {
+     "point": "1:skip-counting",
+     "id": "1:skip-counting#count-by-tens-to-100",
+     "types": [
+      "G1-123"
+     ],
+     "core": {
+      "G1-123": 1
+     },
+     "tool": "counting-cups",
+     "activity": "posy-egg-cartons.count-tens.k-cc-a-1",
+     "standards": [
+      "K.CC.A.1"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-doubles-three-addends-number-walls",
    "slug": "doubles-three-addends-and-addition-pyramids-grade-1-unit",
    "status": "live",
@@ -735,6 +800,10 @@
      "types": [
       "G1-129",
       "G1-310"
+     ],
+     "standards": [
+      "1.NBT.A.1",
+      "1.NBT.C.5"
      ]
     },
     {
@@ -750,6 +819,77 @@
       "G1-123",
       "G1-124",
       "G1-125"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-adding-within-100",
+   "slug": "adding-within-100-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Adding Within 100",
+   "metaTitle": "Grade 1 Math Lesson Plans: Adding Within 100",
+   "metaDescription": "A two-week Grade 1 math unit: 4 lessons on adding tens, adding ones with and without a new ten, and adding two two-digit numbers with rods and cubes, with teacher notes.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:mental-math-to-100",
+     "types": [
+      "G1-558"
+     ],
+     "core": {
+      "G1-558": 1
+     },
+     "tool": "number-hotel",
+     "standards": [
+      "1.NBT.C.4"
+     ],
+     "noHard": [
+      "G1-558"
+     ]
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#add-ones-to-a-two-digit-number",
+     "types": [
+      "G1-559"
+     ],
+     "core": {
+      "G1-559": 1
+     },
+     "tool": "number-hotel",
+     "activity": null,
+     "standards": [
+      "1.NBT.C.4"
+     ],
+     "noHard": [
+      "G1-559"
+     ]
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#add-ones-and-make-a-new-ten",
+     "types": [
+      "G1-557"
+     ],
+     "tool": "open-number-line",
+     "activity": null,
+     "standards": [
+      "1.NBT.C.4"
+     ]
+    },
+    {
+     "point": "2:add-with-blocks",
+     "id": "2:add-with-blocks#add-two-two-digit-numbers",
+     "types": [
+      "G2-203"
+     ],
+     "tool": "place-value-lab",
+     "activity": null,
+     "standards": [
+      "1.NBT.C.4"
      ]
     }
    ]
@@ -1052,7 +1192,11 @@
      "point": "2:add-with-blocks",
      "types": [
       "G2-203"
-     ]
+     ],
+     "standards": [
+      "2.NBT.B.7"
+     ],
+     "tool": null
     },
     {
      "point": "3:column-regrouping",
@@ -2262,7 +2406,8 @@
     "k-counting-in-order-to-20",
     "k-sorting-tallies-days",
     "k-adding-and-taking-away-within-10",
-    "k-putting-together-number-bonds"
+    "k-putting-together-number-bonds",
+    "k-teen-numbers-and-counting-to-100"
    ]
   },
   {
@@ -2278,6 +2423,7 @@
     "g1-doubles-three-addends-number-walls",
     "g1-tens-and-ones",
     "g1-hundreds-chart-skip-counting",
+    "g1-adding-within-100",
     "g1-time-calendar-coins",
     "g1-shapes-measuring-graphs"
    ]

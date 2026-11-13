@@ -1138,7 +1138,7 @@
   {
    "unit": "k-counting-in-order-to-20",
    "slug": "counting-in-order-to-20-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -1858,6 +1858,149 @@
    }
   },
   {
+   "unit": "g1-adding-within-100",
+   "slug": "adding-within-100-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Add tens to a number",
+     "type": "G1-558",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Add ones to a two-digit number",
+     "type": "G1-559",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Add two two-digit numbers: tens with tens, ones with ones",
+     "type": "G2-203",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "91b4da44ce02aa49",
+       "1e59c87e291888e6"
+      ],
+      [
+       "960fd37b56e7407e",
+       "63b1f816371bad8b"
+      ],
+      [
+       "60553c3cf8ae3a25"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ?",
+       "w + w = ?"
+      ],
+      [
+       "w + w = ?",
+       "w + w = ?"
+      ],
+      [
+       "+ = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       87,
+       65
+      ],
+      [
+       68,
+       45
+      ],
+      [
+       68
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "3512d00c17c6e56c",
+       "677f6dd292d1e0e6"
+      ],
+      [
+       "a2e84d8a8778e078",
+       "8b0ee7c946358933"
+      ],
+      [
+       "b5631c9ba4df9d91"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ?",
+       "w + w = ?"
+      ],
+      [
+       "w + w = ?",
+       "w + w = ?"
+      ],
+      [
+       "+ = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       86,
+       64
+      ],
+      [
+       69,
+       46
+      ],
+      [
+       69
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g2-place-value-to-1000",
    "slug": "place-value-to-1000-grade-2-unit",
    "status": "live",
@@ -2067,7 +2210,7 @@
   {
    "unit": "g2-adding-and-subtracting-within-100",
    "slug": "adding-and-subtracting-within-100-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,

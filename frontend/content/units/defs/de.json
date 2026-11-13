@@ -245,7 +245,7 @@
    "subject": "math",
    "title": "Plus über die 10 und Rechnen bis 20",
    "metaTitle": "Mathe Klasse 1: Plus über die 10 und Rechnen bis 20",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zum Plusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten bis 20 und zum Kopfrechnen bis 20.",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Plus- und Minusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten und zum Kopfrechnen bis 20.",
    "weeks": 3,
    "lessons": [
     {
@@ -265,6 +265,15 @@
      "types": [
       "G1-449"
      ]
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#minus-ueber-die-10",
+     "types": [
+      "G1-556"
+     ],
+     "tool": "rekenrek",
+     "activity": null
     },
     {
      "point": "1:word-problems",
@@ -471,6 +480,62 @@
       "G2-313",
       "G2-393"
      ]
+    }
+   ]
+  },
+  {
+   "id": "de2-plus-minus-bis-100",
+   "slug": "plus-und-minus-bis-100-mit-zehneruebergang-klasse-2",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
+   "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit Zehnerübergang",
+   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zu Zehnerzahlen und Einern dazu und weg und zu Plus und Minus mit Zehnerübergang bis 100 (47 + 8, 53 − 6), mit Lehrerhinweis.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:mental-math-to-100",
+     "types": [
+      "G1-558"
+     ],
+     "core": {
+      "G1-558": 3
+     },
+     "tool": "number-hotel"
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#einer-dazu-und-weg",
+     "types": [
+      "G1-559"
+     ],
+     "core": {
+      "G1-559": 3
+     },
+     "tool": "number-hotel",
+     "activity": null
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#plus-mit-zehneruebergang",
+     "types": [
+      "G1-557"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#minus-mit-zehneruebergang-bis-100",
+     "types": [
+      "G1-556"
+     ],
+     "core": {
+      "G1-556": 3
+     },
+     "tool": "open-number-line",
+     "activity": null
     }
    ]
   },
@@ -871,7 +936,8 @@
      "point": "2:add-with-blocks",
      "types": [
       "G2-203"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "2:subtract-with-blocks",
@@ -1540,6 +1606,7 @@
    "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 2 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "de2-zahlen-bis-100",
+    "de2-plus-minus-bis-100",
     "de2-groessen-daten",
     "de2-malnehmen",
     "de2-einmaleins-reihen",

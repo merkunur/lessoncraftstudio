@@ -258,7 +258,8 @@
             "days": 2,
             "tool": "The Number Hotel",
             "source": "new",
-            "page": "Level 1: ten equations of a two-digit number plus 10, 20, 30, 40, 50 or 60 (34 + 20 = _), with a small hundreds chart at the top for jumping down the rows. Level 2: ten equations with no chart, four of them with a missing number (34 + _ = 64). Sums up to 99; the ones digit never changes."
+            "page": "Level 1: ten equations of a two-digit number plus 10, 20, 30, 40, 50 or 60 (34 + 20 = _), with a small hundreds chart at the top for jumping down the rows. Level 2: ten equations with no chart, four of them with a missing number (34 + _ = 64). Sums up to 99; the ones digit never changes.",
+            "placed": "1:mental-math-to-100"
           },
           {
             "new": true,
@@ -278,7 +279,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Level 1: eight tasks; each shows a two-digit number drawn as rods and cubes and a sum (32 + 5 = _). The child draws the cubes that are added in another color and writes the sum. Level 2: ten equations with a place-value frame (tens and ones boxes) and no picture. The ones add up to 9 at most; sums up to 99."
+            "page": "Level 1: eight tasks; each shows a two-digit number drawn as rods and cubes and a sum (32 + 5 = _). The child draws the cubes that are added in another color and writes the sum. Level 2: ten equations with a place-value frame (tens and ones boxes) and no picture. The ones add up to 9 at most; sums up to 99.",
+            "placed": "1:mental-math-to-100#add-ones-to-a-two-digit-number"
           },
           {
             "new": true,
@@ -288,7 +290,8 @@
             "days": 3,
             "tool": "The Exchange Machine",
             "source": "new",
-            "page": "Level 1: six tasks; each shows the two-digit number as rods and cubes and the added ones as cubes in another color. The child rings ten cubes, draws the new rod, and writes the sum. Level 2: eight tasks with the frame 27 + 5 = 30 + _ = _ (first to the next ten, then the rest). Level 3: equations only. The ones always add up to 10 or more; sums up to 99."
+            "page": "Level 1: six tasks; each shows the two-digit number as rods and cubes and the added ones as cubes in another color. The child rings ten cubes, draws the new rod, and writes the sum. Level 2: eight tasks with the frame 27 + 5 = 30 + _ = _ (first to the next ten, then the rest). Level 3: equations only. The ones always add up to 10 or more; sums up to 99.",
+            "placed": "1:mental-math-to-100#add-ones-and-make-a-new-ten"
           },
           {
             "new": true,
@@ -298,7 +301,8 @@
             "days": 2,
             "tool": "Place Value Lab",
             "source": "new",
-            "page": "Level 1: six tasks; both numbers are drawn as rods and cubes, and the child counts all the rods, then all the cubes, and completes '_ tens and _ ones = _'. Level 2: eight tasks with the frame 34 + 25 = (30 + 20) + (4 + 5) = _ and space for a quick drawing of sticks and dots. The ones add up to 9 at most; sums up to 99."
+            "page": "Level 1: six tasks; both numbers are drawn as rods and cubes, and the child counts all the rods, then all the cubes, and completes '_ tens and _ ones = _'. Level 2: eight tasks with the frame 34 + 25 = (30 + 20) + (4 + 5) = _ and space for a quick drawing of sticks and dots. The ones add up to 9 at most; sums up to 99.",
+            "placed": "2:add-with-blocks#add-two-two-digit-numbers"
           },
           {
             "new": true,
@@ -310,7 +314,8 @@
             "source": "new",
             "page": "Six tasks. Each has the sum (36 + 28 = _), a tens-and-ones mat to draw both numbers as sticks and dots, and the sentence '_ tens and _ ones = _'. The child draws both numbers, rings ten dots and draws one stick for them, then counts sticks and dots. The last task asks: 'Tell your partner why you drew a new stick.' The ones add up to 10 to 17; sums up to 99."
           }
-        ]
+        ],
+        "opened": "g1-adding-within-100"
       },
       {
         "id": "g1-time-calendar-coins",
@@ -1848,7 +1853,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six pictures of 11 to 19 loose objects (straws, crayons, pencils) in rows of five. The child rings ten of them, counts the ones outside the ring, and completes '10 and _' and the number. In class children bundle real straws first."
+            "page": "Six pictures of 11 to 19 loose objects (straws, crayons, pencils) in rows of five. The child rings ten of them, counts the ones outside the ring, and completes '10 and _' and the number. In class children bundle real straws first.",
+            "placed": "K:teen-numbers#ten-and-some-more"
           },
           {
             "new": true,
@@ -1858,7 +1864,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "new",
-            "page": "Eight tasks. Each shows two ten-frames, the first full and the second with 1 to 9 counters. The child writes the number in a box and completes the equation under it (13 = 10 + _). In class children build each number with real counters on two paper ten-frames."
+            "page": "Eight tasks. Each shows two ten-frames, the first full and the second with 1 to 9 counters. The child writes the number in a box and completes the equation under it (13 = 10 + _). In class children build each number with real counters on two paper ten-frames.",
+            "placed": "K:teen-numbers"
           },
           {
             "new": true,
@@ -1898,7 +1905,8 @@
             "days": 2,
             "tool": "The Number Hotel",
             "source": "new",
-            "page": "A hundreds chart with rows 1 to 50 printed in full and twenty empty boxes in rows 51 to 100, among them the last two boxes of each row. The child counts on from 50 and writes the missing numbers. In class children hang real number cards on a pocket chart."
+            "page": "A hundreds chart with rows 1 to 50 printed in full and twenty empty boxes in rows 51 to 100, among them the last two boxes of each row. The child counts on from 50 and writes the missing numbers. In class children hang real number cards on a pocket chart.",
+            "placed": "1:hundreds-chart#count-to-100"
           },
           {
             "new": true,
@@ -1918,9 +1926,11 @@
             "days": 2,
             "tool": "The Counting Cups",
             "source": "new",
-            "page": "Top half: six pictures of 2 to 10 cups, each cup marked 10; the child counts by tens and circles the right number of three (30, 40 or 50). Bottom half: a path of ten stones from 10 to 100 with five numbers missing for the child to write. In class children fill real cups with ten beans each."
+            "page": "Top half: six pictures of 2 to 10 cups, each cup marked 10; the child counts by tens and circles the right number of three (30, 40 or 50). Bottom half: a path of ten stones from 10 to 100 with five numbers missing for the child to write. In class children fill real cups with ten beans each.",
+            "placed": "1:skip-counting#count-by-tens-to-100"
           }
-        ]
+        ],
+        "opened": "k-teen-numbers-and-counting-to-100"
       }
     ],
     "totalDays": 139,

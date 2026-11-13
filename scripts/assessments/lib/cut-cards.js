@@ -179,7 +179,7 @@ async function cutCards(page, o) {
     grid.style.cssText += ';flex:0 0 auto !important;height:auto !important;grid-template-rows:none !important;grid-auto-rows:max-content !important;align-content:start !important;align-items:start !important';
     if (!legacy) for (const c of els) c.style.cssText += ';flex:0 0 auto !important;height:auto !important;min-height:0 !important';
     els.forEach((c, i) => { const r = c.getBoundingClientRect(); cards[i].nh = pics(c) === before[i] && r.height > 20 ? Math.min(cards[i].h, Math.ceil(r.height)) : cards[i].h; });
-    return { alone: true, cols, cards: cards.filter((c) => !c.worked), worked: cards.filter((c) => c.worked).length, styles: found.styles, legacy };
+    return { alone: true, cols, cards, styles: found.styles, legacy };
   });
   fs.unlinkSync(file);
   if (!cut) return { refused: 'no tasks found on the page (no cards, no three rows alike)' };
@@ -261,6 +261,10 @@ async function cutCards(page, o) {
       if (!c.answers && !cut.legacy && k.plainHtml !== c.plainHtml) { c.answers = 1; let h = 5381; for (let j = 0; j < k.plainHtml.length; j++) h = ((h << 5) + h + k.plainHtml.charCodeAt(j)) >>> 0; c.ans = 'key:' + h.toString(16); }
     });
   }
+  // the worked card leaves HERE, after every page card has met its key card (they are paired by their place on the
+  // page: taken out earlier, no card of the type found its key, and the keys lost what the type draws for them)
+  cut.cards = cut.cards.filter((c) => !c.worked);
+  if (cut.cards.length < 2) return { refused: 'fewer than two cards that ask something' };
   if (cut.cards.some((c) => !c.answers)) return { refused: NO_ANSWER };
   if (cut.cards.some((c) => c.blind)) return { refused: 'its key cannot show an answer (an answer box without room on paper)' };
   if (!cut.legacy) for (const c of cut.cards) {

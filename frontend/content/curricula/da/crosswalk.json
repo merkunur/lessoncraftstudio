@@ -57,6 +57,10 @@
    ],
    "by": "authored"
   },
+  "K:measurable-attributes": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:patterns": {
    "rows": [
     {
@@ -1162,6 +1166,10 @@
    ],
    "by": "authored"
   },
+  "2:estimate-lengths": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "2:read-build-3-digit": {
    "rows": [
     {
@@ -1325,6 +1333,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "2:explain-strategies": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:shopping-money": {

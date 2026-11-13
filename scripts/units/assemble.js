@@ -116,6 +116,13 @@ function assemble(loc, opt = {}) {
       const tx = text[key];
       if (!tx || !tx.title || !tx.objective || !tx.note || !tx.note.mistake || !tx.note.words || !tx.note.watch) { bad(lw + ': ' + (L.id ? 'the lesson ' + L.id : 'the point') + ' has no title, objective and full teacher note in points/' + loc + '.json'); continue; }
 
+      // A lesson the teacher LEADS without a page (`led`: a routine with real objects, a number talk): it hands out no
+      // worksheet, and its text says what the class does (`routine`). The routine is one of its two real assets; the
+      // other is a tool or practice on screen.
+      const led = !!L.led;
+      if (led && (L.types || []).length) { bad(lw + ': a lesson the teacher leads names no worksheet type'); continue; }
+      if (led && (!tx.routine || tx.routine.length < 120)) { bad(lw + ': a lesson the teacher leads needs its routine (what the class does, 120 characters or more) in points/' + loc + '.json'); continue; }
+      if (!led && !(L.types || []).length) { bad(lw + ': no worksheet type (only a lesson the teacher leads, `led`, has none)'); continue; }
       // paper: the worksheet types the unit names, each with its core page and, where published, an easier and a harder one
       const paper = [];
       for (const typeId of L.types || []) {
@@ -222,10 +229,11 @@ function assemble(loc, opt = {}) {
 
       // two real assets: worksheet types, a tool, practice on screen. Practice on screen is an activity, or a page with
       // a Check button that is NOT one of the pages the lesson hands out on paper (the same page twice is one asset).
-      const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0);
+      const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0) + (led ? 1 : 0);
       if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');
       const lesson = { n: lessons.length + 1, point: L.point, title: tx.title, objective: tx.objective, standards, paper };
       if (L.id) lesson.id = L.id;
+      if (led) { lesson.led = true; lesson.routine = tx.routine; }
       if (tool) lesson.tool = tool;
       if (screen) lesson.screen = screen;
       if (exit) lesson.exit = exit;

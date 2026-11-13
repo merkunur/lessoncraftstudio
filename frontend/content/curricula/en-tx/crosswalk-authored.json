@@ -4321,6 +4321,36 @@
    ],
    "why": "Feelings are not an ELAR or science topic, but feeling words are what a child needs for the grade 1 oral language line 'expressing needs and feelings'; a paper page can only prepare a speaking expectation.",
    "review": "author-elar-science"
+  },
+  "K:measurable-attributes": {
+   "rows": [
+    {
+     "id": "K.7.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "K.7(A): «give an example of a measurable attribute of a given object, including length, capacity, and weight».",
+   "review": "year-design 2026-11-13"
+  },
+  "2:estimate-lengths": {
+   "rows": [
+    {
+     "id": "2.9.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "2.9(E): «determine a solution to a problem involving length, including estimating lengths».",
+   "review": "year-design 2026-11-13"
+  },
+  "2:explain-strategies": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "extends"
+    }
+   ],
+   "why": "2.4(B) asks children to add and subtract two-digit numbers «using mental strategies and algorithms based on knowledge of place value»; explaining WHY a strategy works goes beyond carrying it out.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

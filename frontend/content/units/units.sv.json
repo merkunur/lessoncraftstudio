@@ -5998,12 +5998,53 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "days": 15,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
      "n": 1,
+     "point": "1:fluency-within-20",
+     "title": "Huvudräkning 0–20: starta den dagliga rutinen",
+     "objective": "Eleverna tränar addition och subtraktion i talområdet 0–20 i en kort daglig rutin och berättar vilken strategi de använde.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Taluppfattning och tals användning"
+      },
+      {
+       "rel": "ahead",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+      }
+     ],
+     "paper": [],
+     "id": "1:fluency-within-20#huvudrakning-daglig-rutin",
+     "led": true,
+     "routine": "Använd de två första lektionerna till att repetera strategierna i talområdet 0–20 på kulramen: dubblor, tiokamrater och att fylla tian. Inför samtidigt rutinen: börja varje matematiklektion med fem minuters huvudräkning. Visa eller säg fem till åtta uppgifter i talområdet 0–20, till exempel 8 + 7 och 15 − 6. Eleverna skriver varje svar på sin miniwhiteboard och håller upp den på din signal. Låt en elev förklara sin strategi vid två eller tre av uppgifterna. Avsluta med övningen ”Para ihop tal upp till 20” på skärmen. Lektionen har inget arbetsblad; rutinen fortsätter resten av läsåret.",
+     "tool": {
+      "key": "rekenrek",
+      "slug": "kulram",
+      "name": "Kulram"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "match-pairs.match-facts-to-20.2-oa-b-2",
+      "slug": "para-ihop-tal-upp-till-20",
+      "title": "Para ihop tal upp till 20"
+     },
+     "note": {
+      "mistake": "Eleverna räknar ett steg i taget på fingrarna även när en dubbla eller en tiokamrat ger svaret direkt. Andra svarar snabbt men kan inte säga hur de tänkte.",
+      "words": "Fråga: ”Hur tänkte du? Finns det ett snabbare sätt?” Säg: ”8 + 7: jag fyller tian först, 8 + 2 är 10, och 5 till är 15.” Lyft fram olika strategier för samma uppgift: fylla tian och nästan dubblor (7 + 7 + 1) vid 8 + 7, talfamiljen (6 + 9 = 15) vid 15 − 6.",
+      "watch": "Anteckna vilka uppgifter som många behöver räkna fram, till exempel 8 + 7 och 15 − 6, och låt dem återkomma nästa dag. Se vilka elever som fortfarande räknar på fingrarna; visa de uppgifterna på kulramen så att de ser hur 8 + 7 blir 10 + 5."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
      "point": "2:add-with-blocks",
      "title": "Addera med tiostavar och entalskuber",
      "objective": "Eleverna adderar två tvåsiffriga tal som visas med tiostavar och entalskuber, tiotalen för sig och entalen för sig, och skriver summan.",
@@ -6042,7 +6083,7 @@
      "days": 2
     },
     {
-     "n": 2,
+     "n": 3,
      "point": "2:subtract-with-blocks",
      "title": "Subtrahera med tiostavar och entalskuber",
      "objective": "Eleverna tar bort ett tvåsiffrigt tal från ett annat med hjälp av tiostavar och entalskuber och skriver hur mycket som är kvar.",
@@ -6081,7 +6122,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:add-sub-within-100-practice",
      "title": "Addition och subtraktion upp till 100",
      "objective": "Eleverna adderar och subtraherar tvåsiffriga tal för att fylla i talpyramider och följa en väg genom en mattelabyrint.",
@@ -6136,7 +6177,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:coins",
      "title": "Räkna mynt",
      "objective": "Eleverna känner igen mynten, säger vad vart och ett är värt och räknar hur många kronor det ligger i en börs.",
@@ -6201,7 +6242,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:shopping-money",
      "title": "Handla: räkna ihop priset",
      "objective": "Eleverna läser av priser på en hylla, lägger ihop priserna på det som köps och löser två räknehändelser med priserna.",
@@ -11998,6 +12039,7 @@
      "from": 6,
      "to": 8,
      "lessons": [
+      "Huvudräkning 0–20: starta den dagliga rutinen",
       "Addera med tiostavar och entalskuber",
       "Subtrahera med tiostavar och entalskuber",
       "Addition och subtraktion upp till 100",

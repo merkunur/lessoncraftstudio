@@ -230,5 +230,46 @@ module.exports = {
         watch: 'Watch who uses a turn-around fact to fill a box and who starts counting again. Keep each child\'s list of the facts still needed; it is the practice plan for the next weeks.',
       },
     },
+    // ── lessons the teacher leads without a page (`routine`: what the class does) ──
+    'K:measurable-attributes': {
+      title: 'What can we measure?',
+      objective: 'Children hold a real object, such as a book, a cup, or a block, and say what can be measured about it: how long it is, how heavy it is, or how much it holds.',
+      routine: 'Sit in a circle with a basket of real objects. Each pair takes one object and tells two things about it that can be measured: "We can measure how long it is. We can measure how heavy it is." On the second day, show the length bench of the Measurement Bench. The class says what is being measured there (how long the object is) and what else could be measured about that object (how heavy it is, how much it holds). Then each pair takes a new object from the basket and tells again what can be measured about it. This lesson has no worksheet.',
+      note: {
+        mistake: 'Children name a color or what the object is used for ("It is red. You drink from it.") and not something that can be measured. Many use "big" for everything, whether the object is long, tall, heavy, or holds a lot.',
+        words: 'Ask: "What could we find out about this cup with a ruler? With a scale? With water?" Say: "We can measure how tall it is, how heavy it is, and how much it holds." Trade "big" for the exact word: "Is it long, tall, or heavy?"',
+        watch: 'Listen for children who name two different things to measure about one object. A child who can only say "big" needs two objects to hold: one that is long and light, and one that is short and heavy.',
+      },
+    },
+    'K:one-to-one#touch-and-count': {
+      title: 'Touch and count',
+      objective: 'Children touch and move 1 to 10 real counters one at a time into a ten-frame and say exactly one number for each counter.',
+      routine: 'Model it first on the Ten Frame tool while the class counts along. Then each child gets a cup with 1 to 10 counters and a ten-frame: two rows of five boxes that you draw on paper, or an egg carton cut down to ten cups. The child slides one counter into a box for each number said, fills the top row first, and stops when the cup is empty. Partners watch each other count. This lesson has no worksheet.',
+      note: {
+        mistake: 'Children say the number words faster than they move the counters, so the count runs ahead of the hand. Others count a counter twice or skip one, and some keep counting after the cup is empty.',
+        words: 'Say: "One touch, one number." Count slowly together: "Slide ... one. Slide ... two." Ask: "How many did you put in? How do you know you counted every one?"',
+        watch: 'Watch the hand and listen to the voice at the same time. A child whose last number word lands on the last counter, and who can say "there are 7" without counting again, is ready to write how many.',
+      },
+    },
+    '2:explain-strategies': {
+      title: 'Why does it work?',
+      objective: 'Children explain with blocks or a drawing why a way of adding or subtracting within 100 works, and compare two worked ways for the same problem, such as 38 + 25.',
+      routine: 'Run the lesson as a number talk. Write one problem on the board with two children\'s ways worked out side by side. For 38 + 25: add tens and ones separately (30 + 20 = 50, 8 + 5 = 13, 50 + 13 = 63) and jump to the next ten (38 + 2 = 40, 40 + 23 = 63). On the second day, for 63 − 28: take away the tens, then the ones (63 − 20 = 43, 43 − 8 = 35) and count up from 28 (28 + 2 = 30, 30 + 33 = 63, so 2 + 33 = 35). Pairs say what each child did and why both ways give the same answer. Then they show 38 + 25 with blocks on the Place Value Lab and 63 − 28 with real blocks. This lesson has no worksheet.',
+      note: {
+        mistake: 'Children retell the steps ("I carried the 1") and cannot say what the 1 stands for. Others think that two different ways must give two different answers, or that only the way they learned first is right.',
+        words: 'Ask: "What did this child do first? What happened to the 8 ones and the 5 ones?" Say: "8 ones and 5 ones are 13 ones: 1 new ten and 3 ones." Ask: "Why do both ways give 63?"',
+        watch: 'Listen for place-value words: "3 tens and 2 tens," "I made a new ten." A child who can explain a classmate\'s way, not only their own, has understood why it works.',
+      },
+    },
+    '2:estimate-lengths': {
+      title: 'Estimate, then measure',
+      objective: 'Children estimate lengths in inches, feet, centimeters, and meters with benchmarks they know, then measure and compare the estimate with the measurement.',
+      routine: 'Teach four benchmarks first: your little finger is about 1 centimeter wide, your thumb from the tip to the first knuckle is about 1 inch long, a 12-inch ruler is 1 foot long, and a door is about 1 meter wide. Show an inch and a centimeter on the Ruler tool so the class sees how different they are. On the first day pairs estimate in inches or feet, on the second day in centimeters or meters: a pencil, the desk, a bookshelf, and the rug. They estimate first, then measure with a ruler, a yardstick, or a meter stick, and write three things for each, always with the unit: my estimate, my measurement, how far off. This lesson has no worksheet; the children draw three columns on plain paper.',
+      note: {
+        mistake: 'Children give an estimate with no unit ("about 10") or change the estimate after they measure so that it looks right. Many guess wildly because they have no picture of an inch or a meter in their heads.',
+        words: 'Ask: "How many times does the tip of your thumb fit along the pencil? So about how many inches long is it?" Say: "An estimate is a smart guess with a unit. It does not have to be exact; it has to be close." Ask: "Was your estimate too long or too short?"',
+        watch: 'Watch the second and third estimates. A child who uses the first measurement to make the next estimate better is estimating; a child whose estimates stay far off needs the benchmarks again.',
+      },
+    },
   },
 };

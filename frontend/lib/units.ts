@@ -23,6 +23,9 @@ export interface UnitLesson {
   point: string;
   /** set on a further lesson of a teaching point ("<point>#<name>"): a point may carry several lessons */
   id?: string;
+  /** a lesson the teacher leads without a page: `routine` says what the class does, `paper` is empty */
+  led?: boolean;
+  routine?: string;
   title: string;
   objective: string;
   standards: UnitStandard[];

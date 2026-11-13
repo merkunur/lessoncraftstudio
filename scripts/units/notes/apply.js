@@ -28,6 +28,8 @@ for (const f of fs.readdirSync(__dirname).filter((x) => /^[a-z]{2}-[a-z]+-[a-z0-
     if (L.from[id]) { bad++; console.log('ERROR  ' + id + ' is in ' + L.from[id] + ' and in ' + f); continue; }
     if (!n.title || !n.objective || !n.note || !n.note.mistake || !n.note.words || !n.note.watch) { bad++; console.log('ERROR  ' + f + ': ' + id + ' lacks a title, an objective or a part of its note'); continue; }
     L.from[id] = f; L.points[id] = { title: n.title, objective: n.objective, note: { mistake: n.note.mistake, words: n.note.words, watch: n.note.watch } };
+    // a lesson the teacher leads without a page says what the class does (`routine`)
+    if (n.routine) L.points[id].routine = n.routine;
   }
 }
 if (bad) { console.log(bad + ' problem(s); nothing written'); process.exit(1); }

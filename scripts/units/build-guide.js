@@ -44,7 +44,7 @@ function html(unit) {
   // (the table at a glance lists a lesson's OWN standards; what it reviews or reaches ahead to is on the lesson's page)
   // (a framework without codes, such as the German Bildungsstandards, is named by the heading the objective stands under)
   const std = (l) => [...new Set(l.standards.filter((s) => s.rel === 'teaches').map((s) => (s.code ? [s.framework, s.code].join(' ') : (s.title || s.framework))).filter(Boolean))];
-  const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
+  const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.led ? ui.guideNoPage : l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
   const cover = '<section class="page cover"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.unitWord].join(' · ')) + '</p><h1>' + esc(unit.title) + '</h1><p class="kind">' + esc(ui.guideTitle) + '</p>'
     + '<p class="facts">' + esc(fill(ui.factLessons, { n: unit.lessons.length })) + ' · ' + esc(unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })) + '</p>'
     + ((hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) ? '<p class="facts">' + esc(hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) + '</p>' : '')
@@ -53,6 +53,7 @@ function html(unit) {
   const lessons = unit.lessons.map((l) => {
     const need = [];
     if (l.tool) need.push('<li><b>' + esc(ui.slotTool) + ':</b> ' + esc(fill(ui.slotToolText, { name: l.tool.name })) + '</li>');
+    if (l.led && l.routine) need.push('<li><b>' + esc(ui.slotRoutine) + ':</b> ' + esc(l.routine) + '</li>');
     for (const p of l.paper) need.push('<li><b>' + esc(ui.slotPaper) + ':</b> ' + esc(p.title) + ' <span class="lv">(' + esc([ui.levelCore, p.easy ? ui.levelEasy : null, p.hard ? ui.levelHard : null].filter(Boolean).join(', ')) + ')</span></li>');
     if (l.screen) need.push('<li><b>' + esc(ui.slotScreen) + ':</b> ' + esc(l.screen.kind === 'activity' ? l.screen.title : fill(ui.slotScreenPage, { title: l.screen.title })) + '</li>');
     if (l.exit) need.push('<li><b>' + esc(ui.slotExit) + ':</b> ' + esc(fill(ui.slotExitText, { title: l.exit.title })) + '</li>');
@@ -61,7 +62,7 @@ function html(unit) {
     const rel = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
     const stds = l.standards.map((s) => '<span class="std"><i>' + esc(rel[s.rel]) + '</i> <b>' + esc([s.framework, s.code].filter(Boolean).join(' ')) + '</b>' + (s.title ? ' ' + esc(s.title) : '') + '</span>').join('');
     return '<section class="page lesson"><header><p class="no">' + esc(fill(ui.lessonWord, { n: l.n }) + (l.days && ui.lessonDays ? ' · ' + fill(ui.lessonDays, { n: l.days }) : '')) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
-      + '<div class="cols"><div><h3>' + esc(ui.guideNeed) + '</h3><ul class="need">' + need.join('') + '</ul></div><div class="pics">' + pics + '</div></div>'
+      + '<div class="cols' + (pics ? '' : ' one') + '"><div><h3>' + esc(ui.guideNeed) + '</h3><ul class="need">' + need.join('') + '</ul></div><div class="pics">' + pics + '</div></div>'
       + '<div class="note"><h3>' + esc(ui.noteTitle) + '</h3><dl><dt>' + esc(ui.noteMistake) + '</dt><dd>' + esc(l.note.mistake) + '</dd><dt>' + esc(ui.noteWords) + '</dt><dd>' + esc(l.note.words) + '</dd><dt>' + esc(ui.noteWatch) + '</dt><dd>' + esc(l.note.watch) + '</dd></dl></div>'
       + '<div class="mine"><h3>' + esc(ui.guideMyNotes) + '</h3><div class="rules"><i></i><i></i><i></i><i></i></div></div>'
       + '<footer>' + esc(unit.title) + ' · ' + esc(ui.guideTitle) + '</footer></section>';
@@ -112,7 +113,7 @@ table { border-collapse: collapse; width: 100%; }
 .lesson.tight .cols { margin-top: 4mm; }
 .lesson.tight .need li { padding-top: 1.1mm; padding-bottom: 1.1mm; }
 .lesson.tight .note { margin-top: 4mm; }
-.lesson.tight .mine { margin-top: 4mm; min-height: 16mm; }
+.lesson.tight .mine { margin-top: 4mm; }
 .lesson.nomine .mine { display: none; }
 .lesson .no { font-size: 11pt; font-weight: 700; color: #146b5e; letter-spacing: 0.04em; text-transform: uppercase; }
 .lesson h2 { font-size: 24pt; margin-top: 1mm; }
@@ -122,6 +123,10 @@ table { border-collapse: collapse; width: 100%; }
 .std i { font-style: normal; color: #46625b; }
 .cols { display: grid; grid-template-columns: 1fr 62mm; gap: 8mm; margin-top: 7mm; align-items: start; }
 h3 { font-size: 13pt; }
+/* a lesson without a page has no pictures beside its list: the list takes the sheet's width */
+.cols.one { grid-template-columns: 1fr; }
+.cols.one .pics { display: none; }
+.cols.one .need { max-width: 165mm; }
 .need { list-style: none; margin-top: 2mm; }
 .need li { padding: 1.6mm 0 1.6mm 6mm; border-bottom: 0.5pt solid #d5ddd9; position: relative; }
 .need li::before { content: ''; position: absolute; left: 0; top: 2.6mm; width: 3.2mm; height: 3.2mm; border: 0.8pt solid #14332d; border-radius: 0.6mm; }
@@ -132,9 +137,11 @@ h3 { font-size: 13pt; }
 .pics figcaption { font-size: 8pt; margin-top: 1mm; line-height: 1.25; color: #46625b; }
 .note { margin-top: 7mm; padding: 4mm 5mm; background: #fff3c9; border-left: 2mm solid #f2cf5b; break-inside: avoid; }
 .note dt { margin-top: 2.2mm; font-weight: 700; font-size: 9.5pt; }
-.mine { margin-top: 7mm; flex: 1 1 auto; min-height: 20mm; display: flex; flex-direction: column; padding-bottom: 9mm; }
-.rules { flex: 1 1 auto; display: flex; flex-direction: column; max-height: 44mm; }
-.rules i { flex: 1 1 0; min-height: 7mm; border-bottom: 0.5pt solid #8fa39e; }
+/* the box for own notes takes the room that is left: a line is 7 mm or it is not drawn (the lines that do not fit are
+   cut off, never squeezed and never run into the footer); the box is at least its heading and ONE line */
+.mine { margin-top: 7mm; flex: 1 1 auto; min-height: 23mm; display: flex; flex-direction: column; padding-bottom: 12mm; overflow: hidden; }
+.rules { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; max-height: 44mm; overflow: hidden; }
+.rules i { flex: 1 0 7mm; min-height: 7mm; border-bottom: 0.5pt solid #8fa39e; }
 footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #46625b; border-top: 0.5pt solid #b9c7c3; padding-top: 1.5mm; }
 .record h2 { font-size: 20pt; }
 .record .lead { margin-top: 2mm; max-width: 165mm; }
@@ -148,6 +155,11 @@ footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; col
   const browser = await puppeteer.launch({ headless: 'new' });
   for (const unit of units) {
     const page = await browser.newPage();
+    // MEASURE WHAT IS PRINTED: the fit check below runs in the browser's layout, so that layout must be the sheet's
+    // own (print media, the width between the page margins). At the default 800 px window a line holds more words
+    // than on paper: a sheet "fitted", and in the PDF its note lines ran onto the next sheet, through its title.
+    await page.setViewport({ width: Math.round(((PAPER === 'Letter' ? 215.9 : 210) - 30) / 25.4 * 96), height: 1100 });
+    await page.emulateMediaType('print');
     await page.setContent(html(unit), { waitUntil: 'networkidle0', timeout: 120000 });
     await page.evaluate(() => document.fonts.ready);
     const broken = await page.evaluate(() => [...document.images].filter((i) => !i.naturalWidth).map((i) => i.src));

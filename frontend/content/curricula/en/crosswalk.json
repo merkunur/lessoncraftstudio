@@ -47,6 +47,16 @@
    ],
    "by": "review"
   },
+  "K:measurable-attributes": {
+   "rows": [
+    {
+     "id": "K.MD.A.1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:patterns": {
    "rows": [
     {
@@ -1057,6 +1067,16 @@
    ],
    "by": "code"
   },
+  "2:estimate-lengths": {
+   "rows": [
+    {
+     "id": "2.MD.A.3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:read-build-3-digit": {
    "rows": [
     {
@@ -1205,6 +1225,16 @@
     },
     {
      "id": "2.NBT.B.7",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:explain-strategies": {
+   "rows": [
+    {
+     "id": "2.NBT.B.9",
      "rel": "teaches",
      "grade": "2"
     }

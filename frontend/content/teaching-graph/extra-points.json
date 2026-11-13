@@ -1,5 +1,5 @@
 {
- "$comment": "Teaching points the coverage map does not hold, because the worksheet types under them were made after it. Same fields as a coverage-map point (tp, grade, skill, code, strand). Kept few: a new type normally joins an existing point.",
+ "$comment": "Teaching points the coverage map does not hold, because the worksheet types under them were made after it. Same fields as a coverage-map point (tp, grade, skill, code, strand). Kept few: a new type normally joins an existing point. A point marked `led` is taught by the teacher without a page (a routine with real objects, a number talk): it has no worksheet type by design.",
  "points": [
   {
    "tp": "1:story-writing",
@@ -21,6 +21,30 @@
    "strand": "Logical Reasoning",
    "code": "READINESS:logic",
    "skill": "Decode and encode a message with a key (picture code, number code, complete the key, make your own)"
+  },
+  {
+   "tp": "K:measurable-attributes",
+   "grade": "K",
+   "strand": "Measurement & Data",
+   "code": "K.MD.A.1",
+   "skill": "Say what can be measured about an object: how long, how heavy, how much it holds",
+   "led": true
+  },
+  {
+   "tp": "2:estimate-lengths",
+   "grade": "2",
+   "strand": "Measurement & Data",
+   "code": "2.MD.A.3",
+   "skill": "Estimate lengths in inches, feet, centimeters and meters with body benchmarks, then measure",
+   "led": true
+  },
+  {
+   "tp": "2:explain-strategies",
+   "grade": "2",
+   "strand": "Number & Operations in Base Ten",
+   "code": "2.NBT.B.9",
+   "skill": "Explain why a way of adding or subtracting works, with place value and blocks or a drawing",
+   "led": true
   }
  ]
 }

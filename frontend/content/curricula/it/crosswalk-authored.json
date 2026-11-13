@@ -3621,6 +3621,21 @@
    "none": "Emotional education is not in the disciplines of this registry (infanzia: campo di esperienza 'Il sé e l'altro'; primaria: educazione civica).",
    "why": "The only wordings that name emotions are about making art (ART.5.1) or a diary (ITA.5.19), not about recognising feelings.",
    "review": "author-all"
+  },
+  "K:measurable-attributes": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
+   "review": "year-design 2026-11-13"
+  },
+  "2:estimate-lengths": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
+   "review": "year-design 2026-11-13"
+  },
+  "2:explain-strategies": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

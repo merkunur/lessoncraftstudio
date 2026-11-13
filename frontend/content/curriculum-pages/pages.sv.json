@@ -25,7 +25,7 @@
     "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 114,
+    "lessons": 115,
     "parts": 6,
     "partsTaught": 6
    },
@@ -215,22 +215,26 @@
          "lessons": [
           {
            "n": 1,
-           "title": "Addera med tiostavar och entalskuber"
+           "title": "Huvudräkning 0–20: starta den dagliga rutinen"
           },
           {
            "n": 2,
-           "title": "Subtrahera med tiostavar och entalskuber"
+           "title": "Addera med tiostavar och entalskuber"
           },
           {
            "n": 3,
-           "title": "Addition och subtraktion upp till 100"
+           "title": "Subtrahera med tiostavar och entalskuber"
           },
           {
            "n": 4,
-           "title": "Räkna mynt"
+           "title": "Addition och subtraktion upp till 100"
           },
           {
            "n": 5,
+           "title": "Räkna mynt"
+          },
+          {
+           "n": 6,
            "title": "Handla: räkna ihop priset"
           }
          ]
@@ -823,7 +827,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Handla: räkna ihop priset"
           }
          ]

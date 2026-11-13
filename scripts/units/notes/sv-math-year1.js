@@ -152,5 +152,16 @@ module.exports = {
         watch: 'Titta på vad eleven skriver ovanför tiotalen. När också entalen behöver växlas, som i 806 − 178, ska det till slut stå 9 där. När entalen räcker, som i 806 − 235, ska det stå 10. Låt eleven kontrollera ett svar med addition: svaret plus talet som togs bort ska bli talet högst upp.',
       },
     },
+    // ── lektioner som läraren leder utan arbetsblad (`routine`: det här gör klassen) ──
+    '1:fluency-within-20#huvudrakning-daglig-rutin': {
+      title: 'Huvudräkning 0–20: starta den dagliga rutinen',
+      objective: 'Eleverna tränar addition och subtraktion i talområdet 0–20 i en kort daglig rutin och berättar vilken strategi de använde.',
+      routine: 'Använd de två första lektionerna till att repetera strategierna i talområdet 0–20 på kulramen: dubblor, tiokamrater och att fylla tian. Inför samtidigt rutinen: börja varje matematiklektion med fem minuters huvudräkning. Visa eller säg fem till åtta uppgifter i talområdet 0–20, till exempel 8 + 7 och 15 − 6. Eleverna skriver varje svar på sin miniwhiteboard och håller upp den på din signal. Låt en elev förklara sin strategi vid två eller tre av uppgifterna. Avsluta med övningen ”Para ihop tal upp till 20” på skärmen. Lektionen har inget arbetsblad; rutinen fortsätter resten av läsåret.',
+      note: {
+        mistake: 'Eleverna räknar ett steg i taget på fingrarna även när en dubbla eller en tiokamrat ger svaret direkt. Andra svarar snabbt men kan inte säga hur de tänkte.',
+        words: 'Fråga: ”Hur tänkte du? Finns det ett snabbare sätt?” Säg: ”8 + 7: jag fyller tian först, 8 + 2 är 10, och 5 till är 15.” Lyft fram olika strategier för samma uppgift: fylla tian och nästan dubblor (7 + 7 + 1) vid 8 + 7, talfamiljen (6 + 9 = 15) vid 15 − 6.',
+        watch: 'Anteckna vilka uppgifter som många behöver räkna fram, till exempel 8 + 7 och 15 − 6, och låt dem återkomma nästa dag. Se vilka elever som fortfarande räknar på fingrarna; visa de uppgifterna på kulramen så att de ser hur 8 + 7 blir 10 + 5.',
+      },
+    },
   },
 };

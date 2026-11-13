@@ -574,14 +574,15 @@
     },
     {
      "part": 4,
-     "lesson": 5,
+     "lesson": 6,
      "title": "What comes next?",
      "type": "K-046",
      "tasks": 1
     }
    ],
    "notCovered": [
-    2
+    2,
+    5
    ],
    "forms": {
     "A": {
@@ -711,49 +712,49 @@
    "parts": [
     {
      "part": 1,
-     "lesson": 3,
+     "lesson": 4,
      "title": "Count and write how many",
      "type": "K-006",
      "tasks": 2
     },
     {
      "part": 2,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Make a group of that many",
      "type": "K-011",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 5,
+     "lesson": 6,
      "title": "Still the same number",
      "type": "K-445",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 7,
+     "lesson": 8,
      "title": "How many? Look fast",
      "type": "K-018",
      "tasks": 2
     },
     {
      "part": 5,
-     "lesson": 8,
+     "lesson": 9,
      "title": "More and fewer",
      "type": "K-008",
      "tasks": 1
     },
     {
      "part": 6,
-     "lesson": 9,
+     "lesson": 10,
      "title": "One more, one less",
      "type": "K-443",
      "tasks": 1
     },
     {
      "part": 7,
-     "lesson": 10,
+     "lesson": 11,
      "title": "Which number is greater?",
      "type": "K-606",
      "tasks": 2
@@ -762,7 +763,8 @@
    "notCovered": [
     1,
     2,
-    6
+    3,
+    7
    ],
    "forms": {
     "A": {
@@ -2091,7 +2093,8 @@
    ],
    "notCovered": [
     2,
-    5
+    5,
+    6
    ],
    "forms": {
     "A": {

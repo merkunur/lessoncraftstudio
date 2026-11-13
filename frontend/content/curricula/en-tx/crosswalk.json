@@ -48,6 +48,16 @@
    ],
    "by": "authored"
   },
+  "K:measurable-attributes": {
+   "rows": [
+    {
+     "id": "K.7.A",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:patterns": {
    "none": "repeating and growing picture patterns are not in the Texas mathematics wording for K-5",
    "by": "authored"
@@ -1215,6 +1225,16 @@
    ],
    "by": "authored"
   },
+  "2:estimate-lengths": {
+   "rows": [
+    {
+     "id": "2.9.E",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:read-build-3-digit": {
    "rows": [
     {
@@ -1405,6 +1425,16 @@
      "id": "4.4.A",
      "rel": "prepares",
      "grade": "4"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:explain-strategies": {
+   "rows": [
+    {
+     "id": "2.4.B",
+     "rel": "extends",
+     "grade": "2"
     }
    ],
    "by": "authored"

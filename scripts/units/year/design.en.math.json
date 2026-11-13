@@ -653,7 +653,8 @@
             "days": 2,
             "tool": "Number Talk Easel",
             "source": "teacher-led",
-            "page": "Number talk: the teacher shows one sum (38 + 25, later 63 - 28) and two worked ways side by side (tens and ones apart; a jump to the next ten). Pairs say what each child did and why both give the same answer, then show it with blocks. Listen for place-value words ('3 tens and 2 tens', 'I made a new ten from 8 ones and 2 ones') and not only 'I carried the 1'."
+            "page": "Number talk: the teacher shows one sum (38 + 25, later 63 - 28) and two worked ways side by side (tens and ones apart; a jump to the next ten). Pairs say what each child did and why both give the same answer, then show it with blocks. Listen for place-value words ('3 tens and 2 tens', 'I made a new ten from 8 ones and 2 ones') and not only 'I carried the 1'.",
+            "placed": "2:explain-strategies"
           }
         ],
         "opened": "g2-adding-and-subtracting-within-100"
@@ -798,7 +799,8 @@
             "days": 2,
             "tool": "Measurement Bench",
             "source": "teacher-led",
-            "page": "Hands-on routine: the class learns four benchmarks, then pairs estimate the desk, the door, the rug and a pencil before they measure them; the page is only the recording sheet with three columns (my estimate, my measure, how far off). Listen for estimates that name a unit and lean on a benchmark ('about 3 rulers, so 3 feet'), and for children who change the next estimate after a measure."
+            "page": "Hands-on routine: the class learns four benchmarks, then pairs estimate the desk, the door, the rug and a pencil before they measure them; the page is only the recording sheet with three columns (my estimate, my measure, how far off). Listen for estimates that name a unit and lean on a benchmark ('about 3 rulers, so 3 feet'), and for children who change the next estimate after a measure.",
+            "placed": "2:estimate-lengths"
           },
           {
             "existing": "2:compare-lengths",
@@ -1479,7 +1481,8 @@
             "days": 2,
             "tool": "Measurement Bench",
             "source": "teacher-led",
-            "page": "Circle talk with objects in hand: each pair gets one real object and tells two things about it that can be measured ('It is long. It is heavy.'); on day 2 the class checks one object on the Measurement Bench for length, weight and how much it holds. Listen for children who name a measurable attribute (long, tall, heavy, holds a lot) and not a color or a use."
+            "page": "Circle talk with objects in hand: each pair gets one real object and tells two things about it that can be measured ('It is long. It is heavy.'); on day 2 the class checks one object on the Measurement Bench for length, weight and how much it holds. Listen for children who name a measurable attribute (long, tall, heavy, holds a lot) and not a color or a use.",
+            "placed": "K:measurable-attributes"
           },
           {
             "existing": "K:patterns",
@@ -1504,7 +1507,8 @@
             "days": 2,
             "tool": "Ten Frame",
             "source": "teacher-led",
-            "page": "Touch-and-count routine: each child gets a cup of 1 to 10 counters and a paper ten-frame, slides one counter into a box for each number said, and stops when the cup is empty; the teacher models on the Ten Frame tool and children count along. Listen and watch for one number word per touch: no skipped counter, no counter counted twice, no number word said without a touch."
+            "page": "Touch-and-count routine: each child gets a cup of 1 to 10 counters and a paper ten-frame, slides one counter into a box for each number said, and stops when the cup is empty; the teacher models on the Ten Frame tool and children count along. Listen and watch for one number word per touch: no skipped counter, no counter counted twice, no number word said without a touch.",
+            "placed": "K:one-to-one#touch-and-count"
           },
           {
             "existing": "K:numeral-formation",

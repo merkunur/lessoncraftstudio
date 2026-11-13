@@ -2082,29 +2082,30 @@
    "parts": [
     {
      "part": 1,
-     "lesson": 1,
+     "lesson": 2,
      "title": "Addera med tiostavar och entalskuber",
      "type": "G2-203",
      "tasks": 1
     },
     {
      "part": 2,
-     "lesson": 2,
+     "lesson": 3,
      "title": "Subtrahera med tiostavar och entalskuber",
      "type": "G2-205",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Räkna mynt",
      "type": "G1-228",
      "tasks": 2
     }
    ],
    "notCovered": [
-    3,
-    5
+    1,
+    4,
+    6
    ],
    "forms": {
     "A": {

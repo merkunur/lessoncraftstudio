@@ -108,5 +108,8 @@
  "dayRole3": "Reteach and extend",
  "unitEndOwn": "The unit ends with three more days: a review day, a day for your own unit check, and a day to act on what the check showed.",
  "dayRole2NoCheck": "Practice",
- "dayMore": "More pages from the maker"
+ "dayMore": "More pages from the maker",
+ "slotRoutine": "What the class does",
+ "guideNoPage": "No worksheet: the teacher leads this lesson",
+ "dayRoutine": "the routine with the class"
 }

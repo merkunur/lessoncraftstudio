@@ -122,7 +122,7 @@ function build(opt = {}) {
     return {
       id: p.tp, grade: p.grade, subject, strand, sourceStrand: p.strand === strand ? undefined : p.strand, skill: p.skill, code: p.code,
       types: own.sort((a, b) => a.localeCompare(b, 'en', { numeric: true })), sharedTypes: shared.length ? shared : undefined, families: fams.sort(),
-      activities: p.activities || [], planned: p.planned || [], verdict: p.verdict, extra: p.extra || undefined,
+      activities: p.activities || [], planned: p.planned || [], verdict: p.verdict, extra: p.extra || undefined, led: p.led || undefined,
       _key: [SUBJECT_ORDER.indexOf(subject), GRADES.indexOf(p.grade), strandPos.get(strand), famPos, firstId],
     };
   }).filter(Boolean);
@@ -179,7 +179,7 @@ function build(opt = {}) {
   for (const p of points) visit(p.id, []);
 
   const unmapped = [...types.values()].filter((t) => !typeOwner.has(t.id)).map((t) => t.id + '\t' + t.gradeBand + '\t' + t.exerciseType + '\t' + ((t.i18n && t.i18n.en && t.i18n.en.title) || t.slug));
-  for (const p of points) if (!p.types.length) bad(p.id + ': no worksheet type');
+  for (const p of points) if (!p.types.length && !p.led) bad(p.id + ': no worksheet type');
   return { points, problems, unmapped, types: types.size };
 }
 

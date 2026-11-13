@@ -3948,6 +3948,36 @@
    ],
    "why": "«Ord och begrepp som uttrycker behov, känslor» (F.1.8); årskurs 1–3 continues with «Ord och begrepp för att på ett varierat sätt uttrycka känslor».",
    "review": "author-all"
+  },
+  "K:measurable-attributes": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming what can be measured comes before «Jämförelser och uppskattningar av storheter. Mätning av längd, massa, volym och tid».",
+   "review": "year-design 2026-11-13"
+  },
+  "2:estimate-lengths": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Jämförelser och uppskattningar av storheter. Mätning av längd …»: estimate a length, then measure it.",
+   "review": "year-design 2026-11-13"
+  },
+  "2:explain-strategies": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Metoder för beräkningar med naturliga tal, vid huvudräkning … och skriftlig beräkning»: two methods for one calculation, compared and explained.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

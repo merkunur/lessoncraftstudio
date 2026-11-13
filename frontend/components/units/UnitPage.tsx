@@ -61,10 +61,10 @@ function Standards({ lesson, ui, codeLinks }: { lesson: UnitLesson; ui: UnitUi; 
 function LessonDays({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   if (!lesson.days || !ui.dayWord || !ui.lessonDays) return null;
   const levels = lesson.paper.some((p) => p.easy || p.hard);
-  const day1 = [lesson.tool ? lesson.tool.name : null, `${ui.slotPaper} (${ui.levelCore})`].filter(Boolean);
+  const day1 = [lesson.tool ? lesson.tool.name : null, lesson.led ? (ui.dayRoutine || ui.slotRoutine) : `${ui.slotPaper} (${ui.levelCore})`].filter(Boolean);
   const day2 = [levels ? `${ui.slotPaper} (${[lesson.paper.some((p) => p.easy) ? ui.levelEasy : null, lesson.paper.some((p) => p.hard) ? ui.levelHard : null].filter(Boolean).join(', ')})` : null, !levels && lesson.maker && ui.dayMore ? ui.dayMore : null, lesson.screen ? ui.slotScreen : null, lesson.exit ? ui.slotExit : null].filter(Boolean);
   const day3 = lesson.days >= 3 ? [ui.dayRespond || ui.slotMaker] : [];
-  const rows = [day1, day2.length ? day2 : [ui.slotPaper], day3].filter((d) => d.length);
+  const rows = [day1, day2.length ? day2 : [lesson.led ? (ui.dayRoutine || ui.slotRoutine) : ui.slotPaper], day3].filter((d) => d.length);
   // what each day is for; the second day is named for its check only where the lesson has a check-up page
   const role = (i: number) => (i === 1 && !lesson.exit ? ui.dayRole2NoCheck : ui[`dayRole${i + 1}`]);
   return (
@@ -103,6 +103,14 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
           </div>
         ) : null}
 
+        {lesson.led && lesson.routine ? (
+          <div className="un-slot un-slot-routine">
+            <h4 className="un-slot-name">{ui.slotRoutine}</h4>
+            <p className="un-slot-text un-routine">{lesson.routine}</p>
+          </div>
+        ) : null}
+
+        {lesson.paper.length ? (
         <div className="un-slot un-slot-paper">
           <h4 className="un-slot-name">{ui.slotPaper}</h4>
           <ul className="un-pages">
@@ -124,6 +132,7 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
             ))}
           </ul>
         </div>
+        ) : null}
 
         {lesson.screen ? (
           <div className="un-slot">

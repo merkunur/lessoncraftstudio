@@ -105,7 +105,8 @@ function run(d) {
     }
   }
 
-  for (const p of b.points) if (!p.types.length) fail('G6', p.id + ' has no printable type');
+  // (a point marked `led` is taught by the teacher without a page: a routine with real objects, a number talk)
+  for (const p of b.points) if (!p.types.length && !p.led) fail('G6', p.id + ' has no printable type');
 
   for (const [batch, e] of d.expectations) {
     for (const [family, by] of Object.entries(e.keys || {})) for (const loc of LOCALES) {

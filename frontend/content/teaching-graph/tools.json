@@ -9,7 +9,8 @@
         "K:teen-numbers",
         "1:make-10",
         "K:one-more-one-less",
-        "K:take-away"
+        "K:take-away",
+        "K:one-to-one"
       ]
     },
     "number-line": {
@@ -23,7 +24,8 @@
     "ruler": {
       "points": [
         "2:measure-with-ruler",
-        "2:compare-lengths"
+        "2:compare-lengths",
+        "2:estimate-lengths"
       ]
     },
     "sound-boxes": {
@@ -90,7 +92,8 @@
         "1:tens-and-ones",
         "2:read-build-3-digit",
         "2:expanded-form-digit-value",
-        "1:number-words"
+        "1:number-words",
+        "2:explain-strategies"
       ]
     },
     "picture-word-wall": {
@@ -126,7 +129,8 @@
       "points": [
         "1:measure-length-units",
         "2:mass-grams",
-        "2:read-jugs"
+        "2:read-jugs",
+        "K:measurable-attributes"
       ]
     },
     "money-mat": {
@@ -177,7 +181,8 @@
     "open-number-line": {
       "points": [
         "1:open-number-line",
-        "1:mental-math-to-100"
+        "1:mental-math-to-100",
+        "2:explain-strategies"
       ]
     },
     "part-whole-frame": {

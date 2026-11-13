@@ -79,6 +79,10 @@ function run(d) {
       for (const p of c.parts) {
         if (!lessons.has(p.lesson)) fail('T3', w + ' part ' + p.part + ': lesson ' + p.lesson + ' is no lesson of the unit');
         if (used.has(p.lesson)) fail('T3', w + ': lesson ' + p.lesson + ' has two parts'); used.add(p.lesson);
+        // the part names its lesson by number AND title: after a lesson is put in or moved, a check that was not rebuilt
+        // points at another lesson (the count of lessons alone does not show a reordered unit)
+        const ofPart = u.lessons.find((l) => l.n === p.lesson);
+        if (ofPart && ofPart.title !== p.title) fail('T3', w + ' part ' + p.part + ': lesson ' + p.lesson + ' of the unit is "' + ofPart.title + '", the check says "' + p.title + '" (rebuild the check)');
         if (!(p.tasks >= 1)) fail('T1', w + ' part ' + p.part + ': no task');
       }
       for (const n of c.notCovered) { if (used.has(n)) fail('T3', w + ': lesson ' + n + ' is in the check and in "not in the check"'); used.add(n); }
@@ -107,6 +111,7 @@ const POISONS = [
   ['a task that stands in both forms', 'T2', (d) => { const c = d.en.checks[0]; c.forms.B.cards[0][0] = c.forms.A.cards[0][0]; }],
   ['a form with a part less', 'T1', (d) => { d.en.checks[0].forms.B.cards.pop(); }],
   ['a check of two parts', 'T1', (d) => { const c = d.en.checks[0]; c.notCovered.push(...c.parts.slice(2).map((p) => p.lesson)); c.parts = c.parts.slice(0, 2); c.forms.A.cards = c.forms.A.cards.slice(0, 2); c.forms.B.cards = c.forms.B.cards.slice(0, 2); }],
+  ['a part that names another lesson of the unit (the unit was reordered)', 'T3', (d) => { const p = d.en.checks[0].parts; const t = p[0].lesson; p[0].lesson = p[1].lesson; p[1].lesson = t; }],
   ['a part of a lesson the unit does not have', 'T3', (d) => { d.en.checks[0].parts[0].lesson = 99; }],
   ['a lesson left out of both lists', 'T3', (d) => { d.en.checks[0].notCovered = []; d.en.checks[0].parts.pop(); d.en.checks[0].forms.A.cards.pop(); d.en.checks[0].forms.B.cards.pop(); }],
   ['a check of a unit that does not exist', 'T3', (d) => { d.en.checks[0].unit = 'no-such-unit'; }],

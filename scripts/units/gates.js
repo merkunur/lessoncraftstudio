@@ -97,7 +97,9 @@ function run(d) {
         const lw = w + ' lesson ' + x.n;
         if (!d.points.has(x.point)) fail('P2', lw + ': ' + x.point + ' is no teaching point');
         // practice on screen counts when it is an activity, or a page other than the pages handed out on paper
-        const real = x.paper.length + (x.tool ? 1 : 0) + (x.screen && (x.screen.kind === 'activity' || !x.paper.some((r) => r.core === x.screen.slug)) ? 1 : 0);
+        // a lesson the teacher leads has no page: its routine (what the class does) is an asset, and it must be there
+        if (x.led ? x.paper.length > 0 || !x.routine || x.routine.length < 120 : x.paper.length === 0) fail('P3', lw + ': ' + (x.led ? 'a lesson the teacher leads has a routine and no worksheet' : 'no worksheet (only a lesson the teacher leads has none)'));
+        const real = x.paper.length + (x.tool ? 1 : 0) + (x.screen && (x.screen.kind === 'activity' || !x.paper.some((r) => r.core === x.screen.slug)) ? 1 : 0) + (x.led && x.routine ? 1 : 0);
         if (real < 2) fail('P3', lw + ': fewer than two real assets');
         const n = x.note || {};
         if (!n.mistake || n.mistake.length < 60) fail('P3', lw + ': the note names no mistake');
@@ -200,6 +202,8 @@ const POISONS = [
   ['a lesson that claims a third day without the material', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2); x.days = 3; }],
   ['a unit that says two weeks', 'P9', (d) => { const u = d.loc.en.units.find((y) => y.weeks > 2); u.weeks = 2; }],
   ['a description that names the old length', 'P9', (d) => { const u = d.loc.en.units.find((y) => /\b[Aa]n? \w+-week\b/.test(y.metaDescription) && y.weeks !== 2); u.metaDescription = u.metaDescription.replace(/\b([Aa])n? \w+-week\b/, '$1 two-week'); }],
+  ['a lesson without a worksheet that the teacher does not lead', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 0; }],
+  ['a lesson the teacher leads without its routine', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 0; x.led = true; delete x.routine; }],
   ['a lesson with one worksheet and nothing else', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; delete x.screen; }],
   ['a lesson whose only screen practice is the very page it hands out', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; x.screen = { kind: 'page', slug: x.paper[0].core, title: x.paper[0].title }; }],
   ['a note whose words to use quote nothing', 'P3', (d) => { d.loc.en.units[0].lessons[1].note.words = 'Use clear language and encourage the children to explain their thinking.'; }],

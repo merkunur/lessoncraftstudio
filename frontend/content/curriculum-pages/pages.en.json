@@ -20,10 +20,10 @@
    "metaDescription": "Kindergarten math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 24,
-    "taught": 21,
+    "taught": 22,
     "near": 1,
-    "open": 2,
-    "lessons": 40
+    "open": 1,
+    "lessons": 42
    },
    "groups": [
     {
@@ -87,14 +87,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Write the numbers 0 to 9"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Count and write how many"
         },
         {
@@ -125,6 +125,13 @@
          "unitGrade": "K",
          "n": 1,
          "title": "One for each"
+        },
+        {
+         "unit": "counting-to-10-kindergarten-unit",
+         "unitTitle": "Counting to 10",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Touch and count"
         }
        ]
       },
@@ -137,14 +144,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Count and write how many"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Still the same number"
         }
        ]
@@ -158,7 +165,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 9,
+         "n": 10,
          "title": "One more, one less"
         },
         {
@@ -179,21 +186,21 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Count and write how many"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Make a group of that many"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "How many? Look fast"
         },
         {
@@ -214,7 +221,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 8,
+         "n": 9,
          "title": "More and fewer"
         }
        ]
@@ -228,7 +235,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 10,
+         "n": 11,
          "title": "Which number is greater?"
         }
        ]
@@ -377,6 +384,20 @@
      "title": "Measurement and Data",
      "items": [
       {
+       "code": "K.MD.A.1",
+       "state": "taught",
+       "text": "Children hold a real object, such as a book, a cup, or a block, and say what can be measured about it: how long it is, how heavy it is, or how much it holds.",
+       "lessons": [
+        {
+         "unit": "position-words-size-and-patterns-kindergarten-unit",
+         "unitTitle": "Position Words, Size, and Patterns",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "What can we measure?"
+        }
+       ]
+      },
+      {
        "code": "K.MD.A.2",
        "state": "taught",
        "text": "Children compare the pictures in a row and circle the biggest or the tallest one.",
@@ -418,9 +439,6 @@
         }
        ]
       }
-     ],
-     "open": [
-      "K.MD.A.1"
      ]
     },
     {
@@ -988,10 +1006,10 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 18,
+    "taught": 20,
     "near": 2,
-    "open": 8,
-    "lessons": 38
+    "open": 6,
+    "lessons": 40
    },
    "groups": [
     {
@@ -1250,12 +1268,25 @@
          "title": "100 more, 100 less"
         }
        ]
+      },
+      {
+       "code": "2.NBT.B.9",
+       "state": "taught",
+       "text": "Children explain with blocks or a drawing why a way of adding or subtracting within 100 works, and compare two worked ways for the same problem, such as 38 + 25.",
+       "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Why does it work?"
+        }
+       ]
       }
      ],
      "open": [
       "2.NBT.A.1.b",
-      "2.NBT.B.6",
-      "2.NBT.B.9"
+      "2.NBT.B.6"
      ]
     },
     {
@@ -1276,6 +1307,20 @@
        ]
       },
       {
+       "code": "2.MD.A.3",
+       "state": "taught",
+       "text": "Children estimate lengths in inches, feet, centimeters, and meters with benchmarks they know, then measure and compare the estimate with the measurement.",
+       "lessons": [
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Estimate, then measure"
+        }
+       ]
+      },
+      {
        "code": "2.MD.A.4",
        "state": "taught",
        "text": "Children measure two objects and find how many units longer one is than the other.",
@@ -1284,7 +1329,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "How much longer?"
         }
        ]
@@ -1319,7 +1364,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "Tell time to the nearest five minutes"
         }
        ]
@@ -1340,14 +1385,14 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Count mixed coins"
         },
         {
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Shopping with money"
         }
        ]
@@ -1398,7 +1443,6 @@
      ],
      "open": [
       "2.MD.A.2",
-      "2.MD.A.3",
       "2.MD.B.5"
      ]
     },
@@ -1864,7 +1908,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Each picture counts as two"
         },
         {
@@ -3029,10 +3073,10 @@
    "metaDescription": "Kindergarten math TEKS checklist for Texas: each student expectation for the grade, the lessons and worksheets that teach it, and the ones we do not cover yet.",
    "counts": {
     "objectives": 34,
-    "taught": 18,
+    "taught": 19,
     "near": 0,
-    "open": 16,
-    "lessons": 37
+    "open": 15,
+    "lessons": 38
    },
    "groups": [
     {
@@ -3095,21 +3139,21 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 2,
+         "n": 3,
          "title": "Write the numbers 0 to 9"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Count and write how many"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Make a group of that many"
         },
         {
@@ -3130,14 +3174,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Count and write how many"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Still the same number"
         },
         {
@@ -3165,7 +3209,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "How many? Look fast"
         }
        ]
@@ -3179,7 +3223,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Make a group of that many"
         }
        ]
@@ -3193,7 +3237,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 9,
+         "n": 10,
          "title": "One more, one less"
         },
         {
@@ -3214,14 +3258,14 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 8,
+         "n": 9,
          "title": "More and fewer"
         },
         {
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 10,
+         "n": 11,
          "title": "Which number is greater?"
         }
        ]
@@ -3408,6 +3452,20 @@
        ]
       },
       {
+       "code": "K.7.A",
+       "state": "taught",
+       "text": "Children hold a real object, such as a book, a cup, or a block, and say what can be measured about it: how long it is, how heavy it is, or how much it holds.",
+       "lessons": [
+        {
+         "unit": "position-words-size-and-patterns-kindergarten-unit",
+         "unitTitle": "Position Words, Size, and Patterns",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "What can we measure?"
+        }
+       ]
+      },
+      {
        "code": "K.7.B",
        "state": "taught",
        "text": "Children compare the pictures in a row and circle the biggest or the tallest one.",
@@ -3430,8 +3488,7 @@
       }
      ],
      "open": [
-      "K.6.C",
-      "K.7.A"
+      "K.6.C"
      ]
     },
     {
@@ -3539,7 +3596,7 @@
          "unit": "counting-to-10-kindergarten-unit",
          "unitTitle": "Counting to 10",
          "unitGrade": "K",
-         "n": 7,
+         "n": 8,
          "title": "How many? Look fast"
         }
        ]
@@ -3770,7 +3827,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Count mixed coins"
         }
        ]
@@ -3791,7 +3848,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Count mixed coins"
         }
        ]
@@ -4219,7 +4276,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 39
+    "lessons": 40
    },
    "groups": [
     {
@@ -4530,7 +4587,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Count mixed coins"
         }
        ]
@@ -4682,7 +4739,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "How much longer?"
         }
        ]
@@ -4697,6 +4754,13 @@
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
          "n": 2,
+         "title": "Estimate, then measure"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 3,
          "title": "How much longer?"
         }
        ]
@@ -4758,7 +4822,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Each picture counts as two"
         }
        ]
@@ -5421,7 +5485,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Each picture counts as two"
         },
         {

@@ -516,7 +516,8 @@
             "days": 2,
             "tool": null,
             "source": "teacher-led",
-            "page": "Fem minuter i början av varje lektion under resten av läsåret: läraren visar eller säger tio uppgifter i talområdet 0–20 (till exempel 8 + 7 och 15 − 6), eleverna svarar på miniwhiteboard och en elev förklarar sin strategi. Läraren lyssnar efter om eleverna fyller tian, använder dubblor eller talfamiljer i stället för att räkna ett steg i taget på fingrarna, och antecknar vilka kombinationer som behöver återkomma."
+            "page": "Fem minuter i början av varje lektion under resten av läsåret: läraren visar eller säger tio uppgifter i talområdet 0–20 (till exempel 8 + 7 och 15 − 6), eleverna svarar på miniwhiteboard och en elev förklarar sin strategi. Läraren lyssnar efter om eleverna fyller tian, använder dubblor eller talfamiljer i stället för att räkna ett steg i taget på fingrarna, och antecknar vilka kombinationer som behöver återkomma.",
+            "placed": "1:fluency-within-20#huvudrakning-daglig-rutin"
           },
           {
             "new": true,

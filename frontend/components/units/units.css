@@ -103,6 +103,7 @@
 .un-slots { margin-top: 18px; display: grid; gap: 14px; }
 .un-slot-name { font-family: var(--font-nunito), system-ui, sans-serif; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); }
 .un-slot-text { margin-top: -4px; }
+.un-routine { margin-top: 2px; max-width: 68ch; }
 .un-slot-text a, .un-page-levels a { display: inline-block; padding: 10px 0; }
 .un-pages { margin-top: 8px; display: grid; gap: 12px; }
 .un-page { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: center; }

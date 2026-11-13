@@ -108,5 +108,8 @@
  "unitEnd": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, die Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
  "unitEndOwn": "Am Ende der Einheit stehen drei weitere Tage: ein Wiederholungstag, deine eigene Lernkontrolle und ein Tag, an dem du mit den Ergebnissen weiterarbeitest.",
  "dayRole2NoCheck": "Üben",
- "dayMore": "Weitere Blätter aus dem Generator"
+ "dayMore": "Weitere Blätter aus dem Generator",
+ "slotRoutine": "Das macht die Klasse",
+ "guideNoPage": "Ohne Arbeitsblatt: Du leitest diese Stunde an",
+ "dayRoutine": "die Übung mit der ganzen Klasse"
 }

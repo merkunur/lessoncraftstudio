@@ -71,7 +71,8 @@
      "types": [
       "K-012"
      ],
-     "activity": "twinsies.count-twin.k-cc-b-5"
+     "activity": "twinsies.count-twin.k-cc-b-5",
+     "tool": null
     },
     {
      "point": "K:count-how-many",
@@ -1026,9 +1027,16 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 3,
    "lessons": [
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#huvudrakning-daglig-rutin",
+     "led": true,
+     "tool": "rekenrek",
+     "activity": "match-pairs.match-facts-to-20.2-oa-b-2"
+    },
     {
      "point": "2:add-with-blocks",
      "types": [

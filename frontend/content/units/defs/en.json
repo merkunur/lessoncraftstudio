@@ -147,7 +147,7 @@
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
    "metaTitle": "Kindergarten Math Lesson Plans: Position Words, Size, and Patterns",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
    "weeks": 3,
    "lessons": [
     {
@@ -180,6 +180,11 @@
      ]
     },
     {
+     "point": "K:measurable-attributes",
+     "led": true,
+     "tool": "measurement-bench"
+    },
+    {
      "point": "K:patterns",
      "types": [
       "K-046",
@@ -196,7 +201,7 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A five-week Kindergarten math unit: 10 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
+   "metaDescription": "A five-week Kindergarten math unit: 11 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
    "weeks": 5,
    "lessons": [
     {
@@ -204,7 +209,21 @@
      "types": [
       "K-012"
      ],
-     "activity": "twinsies.count-twin.k-cc-b-5"
+     "activity": "twinsies.count-twin.k-cc-b-5",
+     "tool": null
+    },
+    {
+     "point": "K:one-to-one",
+     "id": "K:one-to-one#touch-and-count",
+     "led": true,
+     "tool": "ten-frame",
+     "activity": null,
+     "standards": [
+      "K.CC.B.4.a"
+     ],
+     "standardsRel": {
+      "K.CC.B.4.a": "teaches"
+     }
     },
     {
      "point": "K:numeral-formation",
@@ -967,8 +986,8 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:number-line-not-from-zero",
@@ -1010,6 +1029,11 @@
       "G2-313",
       "G2-393"
      ]
+    },
+    {
+     "point": "2:explain-strategies",
+     "led": true,
+     "tool": "place-value-lab"
     }
    ]
   },
@@ -1073,14 +1097,19 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 7 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
      "types": [
       "G2-235"
      ]
+    },
+    {
+     "point": "2:estimate-lengths",
+     "led": true,
+     "tool": "ruler"
     },
     {
      "point": "2:compare-lengths",
@@ -1163,18 +1192,18 @@
      ]
     },
     {
-     "point": "2:scaled-pictograph",
-     "types": [
-      "G2-238"
-     ]
-    },
-    {
      "point": "2:grid-coordinates",
      "types": [
       "G2-279",
       "G2-308"
      ],
      "activity": null
+    },
+    {
+     "point": "2:scaled-pictograph",
+     "types": [
+      "G2-238"
+     ]
     }
    ]
   },

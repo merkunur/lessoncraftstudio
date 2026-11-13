@@ -3468,6 +3468,44 @@
    "none": "feelings are not content of the Bildungsstandards for Deutsch or Mathematik",
    "why": "Recognising and naming feelings is social learning (Sachunterricht, Ethik, class life); the feeling words alone do not carry a Deutsch standard.",
    "review": "author-all"
+  },
+  "K:measurable-attributes": {
+   "rows": [
+    {
+     "id": "M.2.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Saying what can be measured about an object (Länge, Gewicht, Fassungsvermögen) comes before «entwickeln und nutzen Vorstellungen über Repräsentanten für Standardeinheiten».",
+   "review": "year-design 2026-11-13"
+  },
+  "2:estimate-lengths": {
+   "rows": [
+    {
+     "id": "M.2.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«schätzen Größen sachadäquat und mit Bezug zu geeigneten Repräsentanten»; the lesson builds the Repräsentanten themselves («z. B. Höhe der Tür»).",
+   "review": "year-design 2026-11-13"
+  },
+  "2:explain-strategies": {
+   "rows": [
+    {
+     "id": "M.1.2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.P.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«beschreiben, vergleichen und bewerten verschiedene Rechenwege»; «beschreiben und erklären … Lösungswege und Ergebnisse».",
+   "review": "year-design 2026-11-13"
   }
  }
 }

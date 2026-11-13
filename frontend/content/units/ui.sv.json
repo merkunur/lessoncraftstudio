@@ -108,5 +108,8 @@
  "unitEnd": "Arbetsområdet avslutas med tre dagar till: en dag för repetition, kunskapskollen och en dag för att följa upp vad den visade.",
  "unitEndOwn": "Arbetsområdet avslutas med tre dagar till: en dag för repetition, din egen avstämning av arbetsområdet och en dag för att följa upp vad den visade.",
  "dayRole2NoCheck": "Öva",
- "dayMore": "Fler arbetsblad från ”Gör fler”"
+ "dayMore": "Fler arbetsblad från ”Gör fler”",
+ "slotRoutine": "Det här gör klassen",
+ "guideNoPage": "Inget arbetsblad: läraren leder lektionen",
+ "dayRoutine": "rutinen med klassen"
 }

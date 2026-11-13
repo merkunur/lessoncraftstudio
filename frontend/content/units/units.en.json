@@ -846,8 +846,8 @@
    "subject": "math",
    "title": "Position Words, Size, and Patterns",
    "metaTitle": "Kindergarten Math Lesson Plans: Position Words, Size, and Patterns",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
-   "days": 13,
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on position words, searching a picture, comparing sizes, and repeating patterns, each with a teacher note.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -1037,6 +1037,34 @@
     },
     {
      "n": 5,
+     "point": "K:measurable-attributes",
+     "title": "What can we measure?",
+     "objective": "Children hold a real object, such as a book, a cup, or a block, and say what can be measured about it: how long it is, how heavy it is, or how much it holds.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.MD.A.1",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [],
+     "led": true,
+     "routine": "Sit in a circle with a basket of real objects. Each pair takes one object and tells two things about it that can be measured: \"We can measure how long it is. We can measure how heavy it is.\" On the second day, show the length bench of the Measurement Bench. The class says what is being measured there (how long the object is) and what else could be measured about that object (how heavy it is, how much it holds). Then each pair takes a new object from the basket and tells again what can be measured about it. This lesson has no worksheet.",
+     "tool": {
+      "key": "measurement-bench",
+      "slug": "measurement-bench",
+      "name": "Measurement Bench"
+     },
+     "note": {
+      "mistake": "Children name a color or what the object is used for (\"It is red. You drink from it.\") and not something that can be measured. Many use \"big\" for everything, whether the object is long, tall, heavy, or holds a lot.",
+      "words": "Ask: \"What could we find out about this cup with a ruler? With a scale? With water?\" Say: \"We can measure how tall it is, how heavy it is, and how much it holds.\" Trade \"big\" for the exact word: \"Is it long, tall, or heavy?\"",
+      "watch": "Listen for children who name two different things to measure about one object. A child who can only say \"big\" needs two objects to hold: one that is long and light, and one that is short and heavy."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "K:patterns",
      "title": "What comes next?",
      "objective": "Children read a repeating pattern aloud, find the part that repeats, and circle what comes next.",
@@ -1085,8 +1113,8 @@
    "subject": "math",
    "title": "Counting to 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Counting to 10",
-   "metaDescription": "A five-week Kindergarten math unit: 10 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
-   "days": 23,
+   "metaDescription": "A five-week Kindergarten math unit: 11 lessons on counting and writing numbers to 10, quick looks, comparing groups and numbers, and one more and one less.",
+   "days": 25,
    "weeks": 5,
    "lessons": [
     {
@@ -1140,6 +1168,35 @@
     },
     {
      "n": 2,
+     "point": "K:one-to-one",
+     "title": "Touch and count",
+     "objective": "Children touch and move 1 to 10 real counters one at a time into a ten-frame and say exactly one number for each counter.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.CC.B.4.a",
+       "title": "Counting and Cardinality"
+      }
+     ],
+     "paper": [],
+     "id": "K:one-to-one#touch-and-count",
+     "led": true,
+     "routine": "Model it first on the Ten Frame tool while the class counts along. Then each child gets a cup with 1 to 10 counters and a ten-frame: two rows of five boxes that you draw on paper, or an egg carton cut down to ten cups. The child slides one counter into a box for each number said, fills the top row first, and stops when the cup is empty. Partners watch each other count. This lesson has no worksheet.",
+     "tool": {
+      "key": "ten-frame",
+      "slug": "ten-frame",
+      "name": "Ten Frame"
+     },
+     "note": {
+      "mistake": "Children say the number words faster than they move the counters, so the count runs ahead of the hand. Others count a counter twice or skip one, and some keep counting after the cup is empty.",
+      "words": "Say: \"One touch, one number.\" Count slowly together: \"Slide ... one. Slide ... two.\" Ask: \"How many did you put in? How do you know you counted every one?\"",
+      "watch": "Watch the hand and listen to the voice at the same time. A child whose last number word lands on the last counter, and who can say \"there are 7\" without counting again, is ready to write how many."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "K:numeral-formation",
      "title": "Write the numbers 0 to 9",
      "objective": "Children trace and write the numbers 0 to 9, starting each one at the dot and following the arrows.",
@@ -1198,7 +1255,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "K:count-how-many",
      "title": "Count and write how many",
      "objective": "Children count up to 10 pictures, say the last number as how many there are, and write that number.",
@@ -1263,7 +1320,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "K:count-out-n",
      "title": "Make a group of that many",
      "objective": "Children read a number and color or draw exactly that many, stopping when they reach the number.",
@@ -1316,7 +1373,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "K:conservation",
      "title": "Still the same number",
      "objective": "Children count two groups of the same kind of object, one in a row and one spread out, write how many are in each, and decide whether both groups have the same number.",
@@ -1360,7 +1417,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "K:colour-by-number",
      "title": "Color by number",
      "objective": "Children read the number in each part of a picture and color the part with the color the key gives for that number.",
@@ -1411,7 +1468,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "K:subitize",
      "title": "How many? Look fast",
      "objective": "Children look at a small group for a moment and say how many there are without counting one by one.",
@@ -1464,7 +1521,7 @@
      "days": 2
     },
     {
-     "n": 8,
+     "n": 9,
      "point": "K:compare-groups",
      "title": "More and fewer",
      "objective": "Children compare two groups and tell which has more and which has fewer.",
@@ -1512,7 +1569,7 @@
      "days": 2
     },
     {
-     "n": 9,
+     "n": 10,
      "point": "K:one-more-one-less",
      "title": "One more, one less",
      "objective": "Children count a group of up to 9 pictures, draw one more or cross one out as the label says, and write how many there are now.",
@@ -1556,7 +1613,7 @@
      "days": 2
     },
     {
-     "n": 10,
+     "n": 11,
      "point": "K:compare-groups",
      "title": "Which number is greater?",
      "objective": "Children compare two written numbers from 1 to 10 and color the greater one.",
@@ -5089,9 +5146,9 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on number lines, jumps on the hundreds chart and on an open number line, adding and subtracting in columns, and mixed practice.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -5380,6 +5437,34 @@
       "watch": "Let children show their steps beside the wall. A child with the lower bricks right and one brick near the top wrong made a single adding mistake that carried upward; a child with nothing right may not see which two bricks to add."
      },
      "days": 2
+    },
+    {
+     "n": 6,
+     "point": "2:explain-strategies",
+     "title": "Why does it work?",
+     "objective": "Children explain with blocks or a drawing why a way of adding or subtracting within 100 works, and compare two worked ways for the same problem, such as 38 + 25.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.9",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [],
+     "led": true,
+     "routine": "Run the lesson as a number talk. Write one problem on the board with two children's ways worked out side by side. For 38 + 25: add tens and ones separately (30 + 20 = 50, 8 + 5 = 13, 50 + 13 = 63) and jump to the next ten (38 + 2 = 40, 40 + 23 = 63). On the second day, for 63 − 28: take away the tens, then the ones (63 − 20 = 43, 43 − 8 = 35) and count up from 28 (28 + 2 = 30, 30 + 33 = 63, so 2 + 33 = 35). Pairs say what each child did and why both ways give the same answer. Then they show 38 + 25 with blocks on the Place Value Lab and 63 − 28 with real blocks. This lesson has no worksheet.",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "note": {
+      "mistake": "Children retell the steps (\"I carried the 1\") and cannot say what the 1 stands for. Others think that two different ways must give two different answers, or that only the way they learned first is right.",
+      "words": "Ask: \"What did this child do first? What happened to the 8 ones and the 5 ones?\" Say: \"8 ones and 5 ones are 13 ones: 1 new ten and 3 ones.\" Ask: \"Why do both ways give 63?\"",
+      "watch": "Listen for place-value words: \"3 tens and 2 tens,\" \"I made a new ten.\" A child who can explain a classmate's way, not only their own, has understood why it works."
+     },
+     "days": 2
     }
    ]
   },
@@ -5586,9 +5671,9 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A four-week Grade 2 math unit: 6 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 7 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -5643,6 +5728,34 @@
     },
     {
      "n": 2,
+     "point": "2:estimate-lengths",
+     "title": "Estimate, then measure",
+     "objective": "Children estimate lengths in inches, feet, centimeters, and meters with benchmarks they know, then measure and compare the estimate with the measurement.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.A.3",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [],
+     "led": true,
+     "routine": "Teach four benchmarks first: your little finger is about 1 centimeter wide, your thumb from the tip to the first knuckle is about 1 inch long, a 12-inch ruler is 1 foot long, and a door is about 1 meter wide. Show an inch and a centimeter on the Ruler tool so the class sees how different they are. On the first day pairs estimate in inches or feet, on the second day in centimeters or meters: a pencil, the desk, a bookshelf, and the rug. They estimate first, then measure with a ruler, a yardstick, or a meter stick, and write three things for each, always with the unit: my estimate, my measurement, how far off. This lesson has no worksheet; the children draw three columns on plain paper.",
+     "tool": {
+      "key": "ruler",
+      "slug": "ruler",
+      "name": "Ruler"
+     },
+     "note": {
+      "mistake": "Children give an estimate with no unit (\"about 10\") or change the estimate after they measure so that it looks right. Many guess wildly because they have no picture of an inch or a meter in their heads.",
+      "words": "Ask: \"How many times does the tip of your thumb fit along the pencil? So about how many inches long is it?\" Say: \"An estimate is a smart guess with a unit. It does not have to be exact; it has to be close.\" Ask: \"Was your estimate too long or too short?\"",
+      "watch": "Watch the second and third estimates. A child who uses the first measurement to make the next estimate better is estimating; a child whose estimates stay far off needs the benchmarks again."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "2:compare-lengths",
      "title": "How much longer?",
      "objective": "Children measure two objects and find how many units longer one is than the other.",
@@ -5692,7 +5805,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:time-5-min-quarter",
      "title": "Tell time to the nearest five minutes",
      "objective": "Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.",
@@ -5750,7 +5863,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:calendar",
      "title": "Read a calendar",
      "objective": "Children read a month calendar to find the weekday of a date, the date one week later, and the number of days between two dates.",
@@ -5801,7 +5914,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:coins",
      "title": "Count mixed coins",
      "objective": "Children count the coins in a purse (quarters, dimes, nickels, and pennies), starting with the coins that are worth the most, and write the total in cents.",
@@ -5853,7 +5966,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:shopping-money",
      "title": "Shopping with money",
      "objective": "Children read prices from a shelf, add the prices of the things in a basket, and solve two story problems with those prices.",
@@ -6081,6 +6194,47 @@
     },
     {
      "n": 4,
+     "point": "2:grid-coordinates",
+     "title": "Find a square on a grid",
+     "objective": "Children find a square by its letter and number, such as B2, color it, and write the code of a square.",
+     "standards": [],
+     "paper": [
+      {
+       "type": "G2-279",
+       "title": "Grid Coordinates",
+       "core": "grid-coordinates-g2279",
+       "easy": "grid-coordinates-easy-g2279-7",
+       "hard": "grid-coordinates-hard-g2279-12",
+       "landing": "grid-coordinates-color-the-squares"
+      },
+      {
+       "type": "G2-308",
+       "title": "Grid Coordinates: Write the Codes",
+       "core": "grid-coordinates-g2308",
+       "easy": "grid-coordinates-easy-g2308-7",
+       "hard": "grid-coordinates-hard-g2308-12",
+       "landing": "grid-coordinates-write-the-codes"
+      }
+     ],
+     "exit": {
+      "slug": "grid-coordinates-g2279-2",
+      "title": "Grid Coordinates"
+     },
+     "maker": {
+      "id": "maps-grids",
+      "name": "Maps & Coordinates",
+      "slug": "map-and-coordinates-worksheet-maker",
+      "template": "G2-279"
+     },
+     "note": {
+      "mistake": "Children use the letter or the number and not both, coloring a whole row or the wrong square in the right column. Writing codes, they put the number first or name the square next door.",
+      "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\"",
+      "watch": "The picture checks the work: a square out of place shows at once. See who uses two fingers and who guesses. Writing the code of a square is harder than finding one; do it second."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "2:scaled-pictograph",
      "title": "Each picture counts as two",
      "objective": "Children read a pictograph in which each picture stands for 2 and write the real count for each row.",
@@ -6127,47 +6281,6 @@
       "mistake": "Children count the pictures and write that number, because until now one picture has always meant one thing. The key goes unread.",
       "words": "Say: \"Read the key first. Each picture stands for 2.\" Count a row by twos, touching each picture: \"2, 4, 6, 8.\" Ask: \"If a row shows 5 pictures, how many things is that? How do you know?\"",
       "watch": "Look at the first row a child fills in: a plain count of the pictures means the key was skipped. Counting by twos here is a first step toward multiplying; name it (\"4 twos are 8\")."
-     },
-     "days": 2
-    },
-    {
-     "n": 5,
-     "point": "2:grid-coordinates",
-     "title": "Find a square on a grid",
-     "objective": "Children find a square by its letter and number, such as B2, color it, and write the code of a square.",
-     "standards": [],
-     "paper": [
-      {
-       "type": "G2-279",
-       "title": "Grid Coordinates",
-       "core": "grid-coordinates-g2279",
-       "easy": "grid-coordinates-easy-g2279-7",
-       "hard": "grid-coordinates-hard-g2279-12",
-       "landing": "grid-coordinates-color-the-squares"
-      },
-      {
-       "type": "G2-308",
-       "title": "Grid Coordinates: Write the Codes",
-       "core": "grid-coordinates-g2308",
-       "easy": "grid-coordinates-easy-g2308-7",
-       "hard": "grid-coordinates-hard-g2308-12",
-       "landing": "grid-coordinates-write-the-codes"
-      }
-     ],
-     "exit": {
-      "slug": "grid-coordinates-g2279-2",
-      "title": "Grid Coordinates"
-     },
-     "maker": {
-      "id": "maps-grids",
-      "name": "Maps & Coordinates",
-      "slug": "map-and-coordinates-worksheet-maker",
-      "template": "G2-279"
-     },
-     "note": {
-      "mistake": "Children use the letter or the number and not both, coloring a whole row or the wrong square in the right column. Writing codes, they put the number first or name the square next door.",
-      "words": "Say: \"Letter first: slide one finger along the letters to B. Then the number: slide another finger along the numbers to 2. Where the two fingers meet is B2.\" Then: \"Say the code before you color.\"",
-      "watch": "The picture checks the work: a square out of place shows at once. See who uses two fingers and who guesses. Writing the code of a square is harder than finding one; do it second."
      },
      "days": 2
     }
@@ -12400,10 +12513,12 @@
       "Find every one like it",
       "Biggest and tallest",
       "Put them in order by size",
+      "What can we measure?",
       "What comes next?"
      ],
      "standards": [
       "K.G.A.1",
+      "K.MD.A.1",
       "K.MD.A.2"
      ]
     },
@@ -12416,6 +12531,7 @@
      "to": 8,
      "lessons": [
       "One for each",
+      "Touch and count",
       "Write the numbers 0 to 9",
       "Count and write how many",
       "Make a group of that many",
@@ -12428,6 +12544,7 @@
      ],
      "standards": [
       "K.CC.A.3",
+      "K.CC.B.4.a",
       "K.CC.B.4.b",
       "K.CC.B.4.c",
       "K.CC.B.5",
@@ -12691,9 +12808,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (24 Weeks)",
-   "metaDescription": "7 Grade 2 math units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 24,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (26 Weeks)",
+   "metaDescription": "7 Grade 2 math units in teaching order, about 26 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 26,
    "framework": "Common Core",
    "units": [
     {
@@ -12726,19 +12843,21 @@
      "id": "g2-adding-and-subtracting-within-100",
      "slug": "adding-and-subtracting-within-100-grade-2-unit",
      "title": "Adding and Subtracting Within 100",
-     "weeks": 3,
+     "weeks": 4,
      "from": 5,
-     "to": 7,
+     "to": 8,
      "lessons": [
       "A number line that does not start at zero",
       "Jumps on the hundreds chart",
       "Jumps on an open number line",
       "Add and subtract vertically",
-      "Add and subtract within 100"
+      "Add and subtract within 100",
+      "Why does it work?"
      ],
      "standards": [
       "2.MD.B.6",
-      "2.NBT.B.5"
+      "2.NBT.B.5",
+      "2.NBT.B.9"
      ]
     },
     {
@@ -12746,8 +12865,8 @@
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
      "title": "Adding and Subtracting Within 1,000",
      "weeks": 3,
-     "from": 8,
-     "to": 10,
+     "from": 9,
+     "to": 11,
      "lessons": [
       "Add with blocks",
       "Add three-digit numbers and make a new ten or hundred",
@@ -12762,11 +12881,12 @@
      "id": "g2-measurement-time-money",
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
-     "weeks": 4,
-     "from": 11,
-     "to": 14,
+     "weeks": 5,
+     "from": 12,
+     "to": 16,
      "lessons": [
       "Measure with a ruler",
+      "Estimate, then measure",
       "How much longer?",
       "Tell time to the nearest five minutes",
       "Read a calendar",
@@ -12775,6 +12895,7 @@
      ],
      "standards": [
       "2.MD.A.1",
+      "2.MD.A.3",
       "2.MD.A.4",
       "2.MD.C.7",
       "2.MD.C.8"
@@ -12785,14 +12906,14 @@
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
      "weeks": 3,
-     "from": 15,
-     "to": 17,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "From tally marks to a bar graph",
       "Make a graph from counts",
       "Read a line plot",
-      "Each picture counts as two",
-      "Find a square on a grid"
+      "Find a square on a grid",
+      "Each picture counts as two"
      ],
      "standards": [
       "2.MD.D.10"
@@ -12803,8 +12924,8 @@
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
      "weeks": 4,
-     "from": 18,
-     "to": 21,
+     "from": 20,
+     "to": 23,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -12825,8 +12946,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 22,
-     "to": 24,
+     "from": 24,
+     "to": 26,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",

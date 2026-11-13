@@ -32,7 +32,8 @@ const MIN_SECTIONS = 3;
 // a page of another level than 2 may print a direction of its own (i18n/level-instructions.json): the check's part of a
 // lesson that hands out that level says that line, not the type's general one
 const LEVEL_LINES = JSON.parse(fs.readFileSync(path.join(WG, 'i18n', 'level-instructions.json'), 'utf8'));
-const levelLine = (p) => (p.level && p.level !== 2 && ((LEVEL_LINES[p.type] || {})[String(p.level)] || {})[loc]) || null;
+// (an entry may be { title, instruction }: a level that also prints its own title — the direction is its instruction)
+const levelLine = (p) => { const e = (p.level && p.level !== 2 && ((LEVEL_LINES[p.type] || {})[String(p.level)] || {})[loc]) || null; return e && typeof e === 'object' ? (e.instruction || null) : e; };
 const CARD_MAX = 460;                         // a taller card is most of a page: not a task of a short check
 const SECTION_MAX = 330;                      // the cards of a section are at most this tall together
 const SEEDS = 8;                              // worksheet pages built per form and type, to choose a section's cards from

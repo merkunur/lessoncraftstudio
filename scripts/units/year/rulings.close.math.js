@@ -155,7 +155,7 @@ module.exports = {
     '2-187': C('tider som inte är hela timmar (från nio till halv tolv)'),
     '2-189': U('ett program med pilar och antal rutor', 2),
     '2-191': U('rita bilden dubbelt så stor'),
-    '3-198': C('kedjan 6 · 7 = 5 · 7 + 1 · 7; i dag bara 4, 5, 8 och 9'),
+    '3-198': N('G3-482', 'byggd: kedjor som bygger 6:ans tabell ur 5:ans (nivå 1), 6:ans och 7:ans (nivå 2), 7:ans (nivå 3)', 1),
     '3-199': C('rutnät för 7 · 7 till 9 · 9 som eleven delar själv'),
     '3-203': C('egen fråga och egna svarsalternativ; i dag är de tryckta'),
     '3-204': B('mäta i halva centimeter och själv göra diagrammet'),

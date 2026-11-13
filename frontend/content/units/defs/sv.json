@@ -1712,8 +1712,8 @@
    "subject": "math",
    "title": "Multiplikation och division",
    "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
-   "weeks": 4,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fem veckor.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:skip-count-3-4",
@@ -1721,6 +1721,21 @@
       "G2-207",
       "G2-208"
      ],
+     "activity": null
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#sexans-tabell-ur-tabeller-du-kan",
+     "types": [
+      "G3-482"
+     ],
+     "core": {
+      "G3-482": 1
+     },
+     "titles": {
+      "G3-482": "Smarta knep: 6:ans tabell"
+     },
+     "tool": "baking-tray",
      "activity": null
     },
     {

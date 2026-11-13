@@ -25,7 +25,7 @@
     "taught": 16,
     "near": 0,
     "open": 0,
-    "lessons": 125,
+    "lessons": 126,
     "parts": 6,
     "partsTaught": 6
    },
@@ -374,26 +374,30 @@
          "lessons": [
           {
            "n": 2,
-           "title": "Dela lika och bilda grupper"
+           "title": "6:ans tabell med hjälp av 5:ans tabell"
           },
           {
            "n": 3,
-           "title": "Division: dela lika"
+           "title": "Dela lika och bilda grupper"
           },
           {
            "n": 4,
-           "title": "Division: hoppa tillbaka till noll"
+           "title": "Division: dela lika"
           },
           {
            "n": 5,
-           "title": "Faktorn som saknas och talfamiljer"
+           "title": "Division: hoppa tillbaka till noll"
           },
           {
            "n": 6,
-           "title": "Räknehändelser med multiplikation och division"
+           "title": "Faktorn som saknas och talfamiljer"
           },
           {
            "n": 7,
+           "title": "Räknehändelser med multiplikation och division"
+          },
+          {
+           "n": 8,
            "title": "Division med rest"
           }
          ]
@@ -559,7 +563,7 @@
            "title": "3-hopp och 4-hopp"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Faktorn som saknas och talfamiljer"
           }
          ]
@@ -903,7 +907,7 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Räknehändelser med multiplikation och division"
           }
          ]

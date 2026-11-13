@@ -3020,20 +3020,27 @@
     {
      "part": 1,
      "lesson": 2,
+     "title": "6:ans tabell med hjälp av 5:ans tabell",
+     "type": "G3-482",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
      "title": "Dela lika och bilda grupper",
      "type": "G2-216",
      "tasks": 2
     },
     {
-     "part": 2,
-     "lesson": 5,
+     "part": 3,
+     "lesson": 6,
      "title": "Faktorn som saknas och talfamiljer",
      "type": "G3-312",
      "tasks": 1
     },
     {
-     "part": 3,
-     "lesson": 7,
+     "part": 4,
+     "lesson": 8,
      "title": "Division med rest",
      "type": "G3-377",
      "tasks": 1
@@ -3041,14 +3048,18 @@
    ],
    "notCovered": [
     1,
-    3,
     4,
-    6
+    5,
+    7
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
+      [
+       "15606e2b6ee429c7",
+       "25f549077dc54bca"
+      ],
       [
        "1e24a3be768fb736",
        "7a5902320e237034"
@@ -3066,6 +3077,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -3073,6 +3088,10 @@
       ]
      ],
      "kinds": [
+      [
+       "w · w = w · w + w = ? + w = ?",
+       "w · w = w · w + w = ? + w = ?"
+      ],
       [
        "w / w = ?",
        "w / w = ?"
@@ -3085,6 +3104,10 @@
       ]
      ],
      "sizes": [
+      [
+       42,
+       30
+      ],
       [
        15,
        9
@@ -3100,6 +3123,10 @@
     "B": {
      "pages": 2,
      "cards": [
+      [
+       "b204c0828c939fcf",
+       "c1bdc88d18d1d76e"
+      ],
       [
        "68d54ab016fb787c",
        "54c96ecf2dfcee0a"
@@ -3117,6 +3144,10 @@
        null
       ],
       [
+       null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -3124,6 +3155,10 @@
       ]
      ],
      "kinds": [
+      [
+       "w · w = w · w + w = ? + w = ?",
+       "w · w = w · w + w = ? + w = ?"
+      ],
       [
        "w / w = ?",
        "w / w = ?"
@@ -3136,6 +3171,10 @@
       ]
      ],
      "sizes": [
+      [
+       48,
+       24
+      ],
       [
        16,
        10

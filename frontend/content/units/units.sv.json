@@ -9858,9 +9858,9 @@
    "subject": "math",
    "title": "Multiplikation och division",
    "metaTitle": "Matematik åk 3: Multiplikation och division | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Multiplikation och division”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fem veckor.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -9926,6 +9926,47 @@
     },
     {
      "n": 2,
+     "point": "3:times-tables",
+     "title": "6:ans tabell med hjälp av 5:ans tabell",
+     "objective": "Eleverna räknar ut uppgifter i 6:ans tabell med hjälp av 5:ans tabell, till exempel 7 · 6 = 7 · 5 + 7 = 35 + 7 = 42.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Taluppfattning och tals användning"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-482",
+       "title": "Smarta knep: 6:ans tabell",
+       "core": "multiplikationstabeller-latt-g3482-6",
+       "level": 1,
+       "hard": "multiplikationstabeller-g3482"
+      }
+     ],
+     "id": "3:times-tables#sexans-tabell-ur-tabeller-du-kan",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "bullplaten",
+      "name": "Bullplåten"
+     },
+     "note": {
+      "mistake": "När eleverna räknar i huvudet lägger många till 6 i stället för 7 och räknar 7 · 6 som 35 + 6. På bladet står ”+ 7” redan utskrivet, så felet syns först när de räknar utan bladet. En del kan inte 5:ans tabell utantill och hoppräknar sig fram, så att knepet inte sparar någon tid. Andra skriver 35 och glömmer att lägga till den sista delen.",
+      "words": "Visa på Bullplåten: ”Här är 7 rader med 6 bullar i varje rad. Jag bryter av en kolumn. Kvar är 7 rader med 5 bullar i varje rad: 35 bullar. Kolumnen jag bröt av har 7 bullar.” Säg: ”7 · 6 är 7 · 5 och 7 till.” Fråga vid varje rad på bladet: ”Hur mycket är 7 · 5? Varför lägger vi till just 7?”",
+      "watch": "Se vem som kan 5:ans tabell utantill: utan den hjälper knepet inte. Kontrollera den första rutan på varje rad (uppgiften ur 5:ans tabell) innan eleven räknar vidare. Det svårare bladet har också 7:ans tabell, där två delar läggs ihop, till exempel 3 · 7 = 3 · 5 + 3 · 2 = 15 + 6."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "2:share-and-group",
      "title": "Dela lika och bilda grupper",
      "objective": "Eleverna delar en hög lika i lådor och skriver hur många var och en får, och räknar hur många lika stora grupper en hög ger.",
@@ -9982,7 +10023,7 @@
      "days": 3
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "3:division-sharing",
      "title": "Division: dela lika",
      "objective": "Eleverna delar en hög lika i ett givet antal lådor och skriver hur många varje låda får.",
@@ -10031,7 +10072,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "3:division-repeated-subtraction",
      "title": "Division: hoppa tillbaka till noll",
      "objective": "Eleverna tar reda på hur många lika långa hopp det behövs för att komma från ett tal tillbaka till noll på en tallinje.",
@@ -10075,7 +10116,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "3:mult-div-relationship",
      "title": "Faktorn som saknas och talfamiljer",
      "objective": "Eleverna hittar den faktor som saknas till ett rutnät och skriver de två multiplikationer och de två divisioner som hör till det.",
@@ -10132,7 +10173,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "3:muldiv-word-problems",
      "title": "Räknehändelser med multiplikation och division",
      "objective": "Eleverna löser räknehändelser med lika stora grupper och avgör om händelsen frågar efter hela antalet, efter antalet i varje grupp eller efter antalet grupper.",
@@ -10199,7 +10240,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "3:division-remainder",
      "title": "Division med rest",
      "objective": "Eleverna bildar lika stora grupper av en samling eller delar ut den i rutor, skriver hur många grupper det blir eller hur många varje ruta får och skriver hur många som blir över.",
@@ -12710,10 +12751,10 @@
    "status": "live",
    "grade": "3",
    "subject": "math",
-   "title": "Matematik åk 3: planering för 24 veckor",
-   "metaTitle": "Matematik åk 3: planering för 24 veckor (7 arbetsområden)",
-   "metaDescription": "7 arbetsområden i matematik för åk 3 i undervisningsordning, cirka 24 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
-   "weeks": 24,
+   "title": "Matematik åk 3: planering för 25 veckor",
+   "metaTitle": "Matematik åk 3: planering för 25 veckor (7 arbetsområden)",
+   "metaDescription": "7 arbetsområden i matematik för åk 3 i undervisningsordning, cirka 25 veckor (inte ett helt läsår), med lektionerna i varje arbetsområde.",
+   "weeks": 25,
    "framework": null,
    "units": [
     {
@@ -12752,11 +12793,12 @@
      "id": "sv-3-ma-mult-division",
      "slug": "multiplikation-och-division-ak-3",
      "title": "Multiplikation och division",
-     "weeks": 4,
+     "weeks": 5,
      "from": 7,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "3-hopp och 4-hopp",
+      "6:ans tabell med hjälp av 5:ans tabell",
       "Dela lika och bilda grupper",
       "Division: dela lika",
       "Division: hoppa tillbaka till noll",
@@ -12771,8 +12813,8 @@
      "slug": "matning-tid-massa-volym-och-temperatur-ak-3",
      "title": "Mätning: tid, massa, volym och temperatur",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 12,
+     "to": 14,
      "lessons": [
       "Klockan på minuten",
       "Analog och digital tid",
@@ -12787,8 +12829,8 @@
      "slug": "brak-del-av-helhet-och-del-av-antal-ak-3",
      "title": "Bråk: del av helhet och del av antal",
      "weeks": 4,
-     "from": 14,
-     "to": 17,
+     "from": 15,
+     "to": 18,
      "lessons": [
       "Lika stora delar",
       "Halvor, tredjedelar och fjärdedelar",
@@ -12805,8 +12847,8 @@
      "slug": "likheter-talfoljder-och-talmaskiner-ak-3",
      "title": "Likheter, talföljder och talmaskiner",
      "weeks": 2,
-     "from": 18,
-     "to": 19,
+     "from": 19,
+     "to": 20,
      "lessons": [
       "Likheter: lika mycket på båda sidor",
       "Talföljder: hitta regeln",
@@ -12820,8 +12862,8 @@
      "slug": "fyrhorningar-symmetri-omkrets-och-area-ak-3",
      "title": "Fyrhörningar, symmetri, omkrets och area",
      "weeks": 5,
-     "from": 20,
-     "to": 24,
+     "from": 21,
+     "to": 25,
      "lessons": [
       "Är det en rektangel?",
       "Jakten på räta vinklar",

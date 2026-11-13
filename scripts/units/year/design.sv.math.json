@@ -1031,7 +1031,8 @@
             "days": 2,
             "tool": "Bullplåten",
             "source": "new",
-            "page": "Bladet visar rutnät med 6 rader och 2 till 10 kolumner, delade med ett streck i 5 rader och 1 rad; eleven skriver de två delprodukterna och summan, till exempel 6 · 7 = 5 · 7 + 1 · 7 = 35 + 7 = 42, och fyller sist i hela 6:ans tabell."
+            "page": "Bladet visar rutnät med 6 rader och 2 till 10 kolumner, delade med ett streck i 5 rader och 1 rad; eleven skriver de två delprodukterna och summan, till exempel 6 · 7 = 5 · 7 + 1 · 7 = 35 + 7 = 42, och fyller sist i hela 6:ans tabell.",
+            "placed": "3:times-tables#sexans-tabell-ur-tabeller-du-kan"
           },
           {
             "new": true,

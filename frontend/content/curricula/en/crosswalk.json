@@ -1401,6 +1401,10 @@
    ],
    "by": "code"
   },
+  "2:chance-certain-possible": {
+   "none": "the point names no standard of these documents (\"READINESS:chance\")",
+   "by": "code"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -1898,6 +1902,10 @@
     }
    ],
    "by": "review"
+  },
+  "3:chance-more-likely": {
+   "none": "the point names no standard of these documents (\"READINESS:chance\")",
+   "by": "code"
   },
   "3:volume-cubes": {
    "rows": [

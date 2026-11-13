@@ -1269,6 +1269,10 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "none": "No wording of the registry names chance (kans) or likelihood.",
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -1762,6 +1766,10 @@
      "grade": "1-8"
     }
    ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "none": "No wording of the registry names chance (kans) or likelihood.",
    "by": "authored"
   },
   "3:volume-cubes": {

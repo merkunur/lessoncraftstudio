@@ -4908,5 +4908,17 @@
   "G2-506": {
     "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
     "instruction": "Lies jede Sachaufgabe. Wenn die Frage fehlt, schreibe eine passende Frage auf. Schreibe dann die Rechnung und die Antwort auf."
+  },
+  "G2-507": {
+    "title": "Sicher, möglich, unmöglich",
+    "instruction": "Du ziehst ein Plättchen aus dem Beutel, ohne hinzusehen. Schau dir das Plättchen am Anfang jeder Zeile an. Ist es sicher, möglich oder unmöglich, dass du dieses Plättchen ziehst? Kreuze in jeder Zeile ein Kästchen an. Möglich heißt: Es kann passieren, muss aber nicht."
+  },
+  "G3-484": {
+    "title": "Wahrscheinlicher: Welcher Beutel?",
+    "instruction": "Schau dir das Plättchen links an. Du ziehst ein Plättchen aus einem Beutel, ohne hinzusehen. Bei welchem Beutel ist es wahrscheinlicher, dass du dieses Plättchen ziehst? Kreuze das Kästchen neben diesem Beutel an."
+  },
+  "G2-508": {
+    "title": "Zufallsversuch: Ziehen und Strichliste",
+    "instruction": "Fülle einen Beutel wie auf dem Bild. Kreise zuerst deine Vermutung ein. Ziehe dann ein Plättchen, ohne hinzusehen, mache einen Strich in der Strichliste, streiche ein Zahlenkästchen durch und lege das Plättchen zurück. Mache das für jedes Zahlenkästchen einmal. Zähle die Striche, zeichne die Säulen und fülle das Blatt zu Ende aus."
   }
 }

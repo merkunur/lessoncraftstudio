@@ -3646,6 +3646,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "MAT.5.26",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The objective of classes 4 and 5 is «di una coppia di eventi intuire … qual è il più probabile»; calling a draw certain, possible or impossible prepares it.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "MAT.5.26",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two bags, one piece: which is more likely, or are they «ugualmente probabili»? The objective stands in classes 4 and 5.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

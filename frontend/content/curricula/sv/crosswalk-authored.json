@@ -4006,6 +4006,30 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.4.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Draws from a bag are «slumpmässiga händelser i konkreta situationer»; the record sheet (tally, table, bars) uses «enkla tabeller och diagram … för att … beskriva resultat från undersökningar».",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "MA.1-3.4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Which bag gives the greater chance: «slumpmässiga händelser i konkreta situationer».",
+   "review": "year-design 2026-11-13"
   }
  }
 }

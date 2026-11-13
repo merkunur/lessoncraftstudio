@@ -4027,6 +4027,34 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "EF01MA20",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF02MA21",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The three headings are the classes of EF01MA20: «acontecerá com certeza», «talvez aconteça», «é impossível acontecer»; a bag in which all but one piece are alike prepares «pouco prováveis, muito prováveis».",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "EF03MA25",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF04MA26",
+     "rel": "prepares"
+    }
+   ],
+   "why": "«estimando os que têm maiores ou menores chances de ocorrência» is what a pair of bags asks; EF04MA26 («maior chance de ocorrência … sem utilizar frações») follows in grade 4.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

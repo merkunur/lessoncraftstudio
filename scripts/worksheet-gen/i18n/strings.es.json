@@ -4901,5 +4901,17 @@
   "G2-506": {
     "title": "Problemas hasta 100: pregunta, operación y respuesta",
     "instruction": "Lee cada problema. Si falta la pregunta, escribe una. Después escribe la operación y la respuesta."
+  },
+  "G2-507": {
+    "title": "Seguro, posible, imposible",
+    "instruction": "Sacas una pieza de la bolsa sin mirar. Observa la pieza al inicio de cada fila. ¿Es seguro, posible o imposible que saques esa pieza? Marca una casilla en cada fila. Posible quiere decir que puede pasar, pero no es seguro."
+  },
+  "G3-484": {
+    "title": "Más probable: ¿de cuál bolsa?",
+    "instruction": "Observa la pieza de la izquierda. Sacas una pieza de una bolsa sin mirar. ¿De cuál bolsa es más probable que saques esa pieza? Marca la casilla junto a esa bolsa."
+  },
+  "G2-508": {
+    "title": "Experimento de azar: saca y registra",
+    "instruction": "Prepara una bolsa como la del dibujo. Primero encierra tu predicción. Después saca una pieza sin mirar, haz una marca de conteo, tacha una casilla con número y regresa la pieza a la bolsa. Hazlo una vez por cada casilla con número. Cuenta las marcas, dibuja las barras y termina la hoja."
   }
 }

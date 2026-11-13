@@ -4171,6 +4171,34 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "M1/2.4.2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M1/2.4.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The headings are the «Grundbegriffe sicher, möglich und unmöglich»; the record sheet is the «einfache Zufallsexperiment (z. B. Ziehen von Kugeln aus verschiedenen Säckchen)» the class carries out.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "M3/4.4.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M3/4.4.2.2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Pairs of bags: «schätzen zu einfachen Zufallsexperimenten Gewinnchancen ein … vergleichen ihre Ergebnisse»; bags whose number or kind of pieces differs prepare «variieren die Bedingungen … (Anzahl oder Farbe der Kugeln in einem Säckchen)».",
+   "review": "year-design 2026-11-13"
   }
  }
 }

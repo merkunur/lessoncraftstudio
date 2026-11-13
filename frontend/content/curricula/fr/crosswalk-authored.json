@@ -4712,6 +4712,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "none": "No objective of the registry (cycle 2) names chance (hasard) or probability.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "none": "No objective of the registry (cycle 2) names chance (hasard) or probability.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

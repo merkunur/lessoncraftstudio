@@ -94,6 +94,6 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'arrays-multiplication': ['k639'],
   'column-arithmetic': ['g2502'],
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
-  'graphing-data': ['g1481'],
+  'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only)
   'word-problems': ['g2489', 'k642', 'g2506'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
 };

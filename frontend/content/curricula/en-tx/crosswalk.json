@@ -1609,6 +1609,10 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "none": "No mathematics standard of kindergarten to grade 3 in this registry names chance or likelihood.",
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2236,6 +2240,10 @@
      "grade": "2"
     }
    ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "none": "No mathematics standard of kindergarten to grade 3 in this registry names chance or likelihood.",
    "by": "authored"
   },
   "3:volume-cubes": {

@@ -4905,5 +4905,17 @@
   "G2-506": {
     "title": "Problèmes jusqu'à 100 : question, calcul, réponse",
     "instruction": "Lis chaque problème. Si la question manque, écris une question. Écris ensuite le calcul et la réponse."
+  },
+  "G2-507": {
+    "title": "Certain, possible, impossible",
+    "instruction": "Tu tires un jeton du sac sans regarder. Regarde le jeton au début de chaque ligne. Est-il certain, possible ou impossible de tirer ce jeton ? Coche une case par ligne. Possible veut dire : cela peut arriver, mais ce n'est pas sûr."
+  },
+  "G3-484": {
+    "title": "Plus de chances : dans quel sac ?",
+    "instruction": "Regarde le jeton à gauche. Tu tires un jeton d'un sac sans regarder. Dans quel sac as-tu le plus de chances de tirer ce jeton ? Coche la case à côté de ce sac."
+  },
+  "G2-508": {
+    "title": "Expérience aléatoire : tire et compte",
+    "instruction": "Prépare un sac comme celui du dessin. Entoure d'abord ce que tu penses. Puis tire un jeton sans regarder, trace un bâton, barre une case numérotée et remets le jeton dans le sac. Fais-le une fois pour chaque case numérotée. Compte les bâtons, dessine les barres et termine la fiche."
   }
 }

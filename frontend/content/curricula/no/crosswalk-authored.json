@@ -3496,6 +3496,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "KM13270",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The competence aim «utforske og beskrive tilfeldighet og sannsynlighet i spill og praktiske situasjoner» stands in grade 5; the bag pages prepare it.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "KM13270",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Comparing two bags explores «tilfeldighet og sannsynlighet» in a practical situation, before the grade 5 aim ties it to fractions.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

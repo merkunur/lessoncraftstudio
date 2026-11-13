@@ -3516,6 +3516,30 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "M.5.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.5.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The page names the three «Grundbegriffe … (sicher, möglich, unmöglich)» for draws from a bag; the record sheet has the class «bei … einfachen Experimenten Daten» erfassen (tally, bars).",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "M.5.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two bags are compared: «schätzen Chancen für das Eintreten von Ereignissen … bei einfachen Zufallsexperimenten ein und vergleichen (z. B. \"ist wahrscheinlicher als\")».",
+   "review": "year-design 2026-11-13"
   }
  }
 }

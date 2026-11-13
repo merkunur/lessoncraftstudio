@@ -4911,5 +4911,17 @@
   "G2-506": {
     "title": "Probleminhas até 100: pergunta, conta e resposta",
     "instruction": "Leia cada probleminha. Se faltar a pergunta, escreva uma. Depois escreva a conta e a resposta."
+  },
+  "G2-507": {
+    "title": "Com certeza, talvez, impossível",
+    "instruction": "Você tira uma peça da sacola sem olhar. Observe a peça no começo de cada linha. Você vai tirar essa peça com certeza, talvez, ou é impossível? Marque um quadradinho em cada linha. Talvez quer dizer: pode acontecer, mas não é certeza."
+  },
+  "G3-484": {
+    "title": "Mais provável: de qual sacola?",
+    "instruction": "Observe a peça à esquerda. Você tira uma peça de uma sacola sem olhar. De qual sacola é mais provável tirar essa peça? Marque o quadradinho ao lado dessa sacola."
+  },
+  "G2-508": {
+    "title": "Experimento aleatório: sorteie e registre",
+    "instruction": "Monte uma sacola como a do desenho. Primeiro circule o seu palpite. Depois tire uma peça sem olhar, faça um risquinho, risque um quadradinho numerado e devolva a peça à sacola. Faça isso uma vez para cada quadradinho numerado. Conte os risquinhos, desenhe as barras e complete a folha."
   }
 }

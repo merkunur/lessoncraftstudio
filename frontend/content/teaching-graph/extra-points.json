@@ -59,6 +59,20 @@
    "strand": "Foundational Skills",
    "code": "RF.K.4",
    "skill": "Read a first picture book with purpose and understanding: sight words, a repeating sentence, and a picture for the new word"
+  },
+  {
+   "tp": "2:chance-certain-possible",
+   "grade": "2",
+   "strand": "Measurement & Data",
+   "code": "READINESS:chance",
+   "skill": "Say whether an outcome of drawing from a bag is certain, possible or impossible, and test a guess in an experiment with a tally and bars"
+  },
+  {
+   "tp": "3:chance-more-likely",
+   "grade": "3",
+   "strand": "Measurement & Data",
+   "code": "READINESS:chance",
+   "skill": "Compare the chance of an outcome in two bags (more likely, less likely, the same) without fractions"
   }
  ]
 }

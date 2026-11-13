@@ -4886,5 +4886,17 @@
   "G2-506": {
     "title": "Regnehistorier til 100: spørgsmål, regnestykke, svar",
     "instruction": "Læs hver regnehistorie. Hvis spørgsmålet mangler, skal du selv skrive et spørgsmål. Skriv så regnestykket og svaret."
+  },
+  "G2-507": {
+    "title": "Sikkert, muligt, umuligt",
+    "instruction": "Du trækker en brik op af posen uden at kigge. Se på brikken i begyndelsen af hver række. Er det sikkert, muligt eller umuligt, at du trækker den brik? Sæt ét kryds i hver række. Muligt betyder, at det kan ske, men det er ikke sikkert."
+  },
+  "G3-484": {
+    "title": "Størst chance: hvilken pose?",
+    "instruction": "Se på brikken til venstre. Du trækker en brik op af en pose uden at kigge. Fra hvilken pose er chancen størst for at trække den brik? Sæt kryds i feltet ved siden af den pose."
+  },
+  "G2-508": {
+    "title": "Chanceeksperiment: træk og tæl",
+    "instruction": "Lav en pose som på billedet. Sæt først ring om dit gæt. Træk så en brik uden at kigge, sæt en tællestreg, streg et felt med tal ud, og læg brikken tilbage. Gør det én gang for hvert felt med tal. Tæl stregerne, tegn søjlerne, og gør arket færdigt."
   }
 }

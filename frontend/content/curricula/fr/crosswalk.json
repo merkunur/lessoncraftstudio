@@ -1729,6 +1729,10 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "none": "No objective of the registry (cycle 2) names chance (hasard) or probability.",
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2264,6 +2268,10 @@
      "grade": "3"
     }
    ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "none": "No objective of the registry (cycle 2) names chance (hasard) or probability.",
    "by": "authored"
   },
   "3:volume-cubes": {

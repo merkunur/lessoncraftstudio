@@ -4383,6 +4383,16 @@
    ],
    "why": "A picture mini-book is made of the high-frequency words of K.2(B)(iv); the child holds the book, turns its pages and points under each word (K.2(D)(ii)) and reads a grade-appropriate text (K.4).",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "none": "No mathematics standard of kindergarten to grade 3 in this registry names chance or likelihood.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "none": "No mathematics standard of kindergarten to grade 3 in this registry names chance or likelihood.",
+   "why": "Nothing in the wording asks for it.",
+   "review": "year-design 2026-11-13"
   }
  }
 }

@@ -1464,6 +1464,16 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -1963,6 +1973,16 @@
     },
     {
      "id": "MAT.3.K3",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "MAT.3.K4",
      "rel": "teaches",
      "grade": "1-3"
     }

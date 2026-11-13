@@ -256,8 +256,10 @@
       "note": "directions, turns and a plan of moves: no teaching point covers it yet"
     },
     "draw-bag": {
-      "points": [],
-      "note": "chance and likelihood: no teaching point covers it yet"
+      "points": [
+        "2:chance-certain-possible",
+        "3:chance-more-likely"
+      ]
     },
     "lids": {
       "points": [

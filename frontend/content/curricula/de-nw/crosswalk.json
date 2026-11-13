@@ -1560,6 +1560,16 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "M.4.2.g2",
+     "rel": "teaches",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2136,6 +2146,16 @@
      "id": "M.3.1.k6",
      "rel": "prepares",
      "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "M.4.2.g2",
+     "rel": "teaches",
+     "grade": "1-4"
     }
    ],
    "by": "authored"

@@ -1634,6 +1634,21 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "EF01MA20",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "EF02MA21",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2255,6 +2270,21 @@
      "id": "EF03MA28",
      "rel": "prepares",
      "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "EF03MA25",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "EF04MA26",
+     "rel": "prepares",
+     "grade": "4"
     }
    ],
    "by": "authored"

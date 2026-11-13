@@ -3987,6 +3987,38 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "MA.1-2.4.4.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.4.4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Verwenden der Fachbegriffe: sicher, möglich, unmöglich, Zufall» and, on the record sheet, «Durchführen von einfachen Zufallsexperimenten».",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "MA.3.4.4.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.4.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4.4.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Which bag is more likely: «Ordnen von Ereignissen nach ihrer Wahrscheinlichkeit», «Anstellen von Vermutungen über den Ausgang von Zufallsexperimenten»; it prepares the Klasse 4 «Vergleichen von Wahrscheinlichkeiten in einfachen Zufallsexperimenten».",
+   "review": "year-design 2026-11-13"
   }
  }
 }

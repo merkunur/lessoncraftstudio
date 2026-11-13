@@ -4905,5 +4905,17 @@
   "G2-506": {
     "title": "Regnefortellinger til 100: spørsmål, regnestykke, svar",
     "instruction": "Les hver regnefortelling. Hvis spørsmålet mangler, skriver du et spørsmål selv. Skriv så regnestykket og svaret."
+  },
+  "G2-507": {
+    "title": "Sikkert, mulig, umulig",
+    "instruction": "Du trekker en brikke fra posen uten å se. Se på brikken først i hver rad. Er det sikkert, mulig eller umulig at du trekker denne brikken? Sett ett kryss i hver rad. Mulig betyr at det kan skje, men det er ikke sikkert."
+  },
+  "G3-484": {
+    "title": "Størst sjanse: hvilken pose?",
+    "instruction": "Se på brikken til venstre. Du trekker en brikke fra en pose uten å se. Fra hvilken pose er sjansen størst for å trekke denne brikken? Sett kryss i ruten ved siden av den posen."
+  },
+  "G2-508": {
+    "title": "Sjanseforsøk: trekk og tell",
+    "instruction": "Lag en pose som på bildet. Ring først rundt det du tror. Trekk så en brikke uten å se, sett en tellestrek, stryk over en rute med tall og legg brikken tilbake. Gjør det én gang for hver rute med tall. Tell strekene, tegn søylene og gjør arket ferdig."
   }
 }

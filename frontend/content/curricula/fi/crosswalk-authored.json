@@ -3865,6 +3865,30 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-13 for the English mini-books (Part 8); a language gets its own books, and no unit of this language teaches the point yet. Read it against the wording when the first books of this language are written.",
    "review": "readers 2026-11-13"
+  },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "MA.3-6.T13",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The goal of grades 3 to 6 is to «tarjota kokemuksia todennäköisyydestä»; a grade 2 class that calls a draw certain, possible or impossible prepares it.",
+   "review": "year-design 2026-11-13"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "MA.3-6.T13",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing two bags gives the «kokemuksia todennäköisyydestä» the goal names (content area «Tietojenkäsittely, tilastot ja todennäköisyys»).",
+   "review": "year-design 2026-11-13"
   }
  }
 }

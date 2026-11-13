@@ -6203,5 +6203,83 @@
       "no": "Les hver regnefortelling og spørsmålet. Skriv regnestykket og svaret.",
       "fi": "Lue jokainen tehtävä ja sen kysymys. Kirjoita lasku ja vastaus."
     }
+  },
+  "G2-507": {
+    "3": {
+      "en": "You take one piece out of the bag without looking. Look at the piece at the start of each row. Is it certain, possible, or impossible that you take this piece? Mark one box in each row. Possible means it may happen, but it does not have to. Two bags are empty, and their boxes are marked already: draw 6 pieces in each empty bag so that the marks are true.",
+      "de": "Du ziehst ein Plättchen aus dem Beutel, ohne hinzusehen. Schau dir das Plättchen am Anfang jeder Zeile an. Ist es sicher, möglich oder unmöglich, dass du dieses Plättchen ziehst? Kreuze in jeder Zeile ein Kästchen an. Möglich heißt: Es kann passieren, muss aber nicht. Zwei Beutel sind leer, und ihre Kästchen sind schon angekreuzt: Male in jeden leeren Beutel 6 Plättchen, sodass die Kreuze stimmen.",
+      "es": "Sacas una pieza de la bolsa sin mirar. Observa la pieza al inicio de cada fila. ¿Es seguro, posible o imposible que saques esa pieza? Marca una casilla en cada fila. Posible quiere decir que puede pasar, pero no es seguro. Dos bolsas están vacías y sus casillas ya están marcadas: dibuja 6 piezas en cada bolsa vacía para que las marcas sean correctas.",
+      "pt": "Você tira uma peça da sacola sem olhar. Observe a peça no começo de cada linha. Você vai tirar essa peça com certeza, talvez, ou é impossível? Marque um quadradinho em cada linha. Talvez quer dizer: pode acontecer, mas não é certeza. Duas sacolas estão vazias e os quadradinhos já estão marcados: desenhe 6 peças em cada sacola vazia para que as marcas fiquem certas.",
+      "fr": "Tu tires un jeton du sac sans regarder. Regarde le jeton au début de chaque ligne. Est-il certain, possible ou impossible de tirer ce jeton ? Coche une case par ligne. Possible veut dire : cela peut arriver, mais ce n'est pas sûr. Deux sacs sont vides et leurs cases sont déjà cochées : dessine 6 jetons dans chaque sac vide pour que les croix soient justes.",
+      "it": "Estrai un gettone dal sacchetto senza guardare. Osserva il gettone all'inizio di ogni riga. È certo, possibile o impossibile estrarre questo gettone? Segna una casella in ogni riga. Possibile vuol dire: può succedere, ma non è certo. Due sacchetti sono vuoti e le loro caselle sono già segnate: disegna 6 gettoni in ogni sacchetto vuoto in modo che le crocette siano giuste.",
+      "nl": "Je trekt één figuurtje uit de zak zonder te kijken. Kijk naar het figuurtje aan het begin van elke rij. Is het zeker, mogelijk of onmogelijk dat je dit figuurtje trekt? Kruis in elke rij één vakje aan. Mogelijk betekent: het kan gebeuren, maar het hoeft niet. Twee zakken zijn leeg en de vakjes zijn al aangekruist: teken 6 figuurtjes in elke lege zak zodat de kruisjes kloppen.",
+      "sv": "Du drar en bricka ur påsen utan att titta. Titta på brickan i början av varje rad. Är det säkert, möjligt eller omöjligt att du drar den brickan? Kryssa i en ruta på varje rad. Möjligt betyder att det kan hända, men det måste inte hända. Två påsar är tomma och rutorna är redan ikryssade: rita 6 brickor i varje tom påse så att kryssen stämmer.",
+      "da": "Du trækker en brik op af posen uden at kigge. Se på brikken i begyndelsen af hver række. Er det sikkert, muligt eller umuligt, at du trækker den brik? Sæt ét kryds i hver række. Muligt betyder, at det kan ske, men det er ikke sikkert. To poser er tomme, og krydserne er sat i forvejen: Tegn 6 brikker i hver tom pose, så krydserne passer.",
+      "no": "Du trekker en brikke fra posen uten å se. Se på brikken først i hver rad. Er det sikkert, mulig eller umulig at du trekker denne brikken? Sett ett kryss i hver rad. Mulig betyr at det kan skje, men det er ikke sikkert. To poser er tomme, og kryssene er satt på forhånd: Tegn 6 brikker i hver tom pose slik at kryssene stemmer.",
+      "fi": "Nostat pussista yhden palan katsomatta. Katso jokaisen rivin alussa olevaa palaa. Onko varmaa, mahdollista vai mahdotonta, että nostat juuri sen palan? Rastita yksi ruutu joka riviltä. Mahdollista tarkoittaa, että niin voi käydä, mutta se ei ole varmaa. Kaksi pussia on tyhjiä, ja niiden ruudut on jo rastitettu: piirrä kumpaankin tyhjään pussiin 6 palaa niin, että rastit pitävät paikkansa."
+    }
+  },
+  "G3-484": {
+    "3": {
+      "en": "Look at the piece on the left. You take one piece out of a bag without looking. From which bag are you more likely to take this piece? Mark the box beside that bag. If the chance is the same for both bags, mark the box under the equal sign.",
+      "de": "Schau dir das Plättchen links an. Du ziehst ein Plättchen aus einem Beutel, ohne hinzusehen. Bei welchem Beutel ist es wahrscheinlicher, dass du dieses Plättchen ziehst? Kreuze das Kästchen neben diesem Beutel an. Ist die Chance bei beiden Beuteln gleich groß, kreuze das Kästchen unter dem Gleichheitszeichen an.",
+      "es": "Observa la pieza de la izquierda. Sacas una pieza de una bolsa sin mirar. ¿De cuál bolsa es más probable que saques esa pieza? Marca la casilla junto a esa bolsa. Si la probabilidad es igual en las dos bolsas, marca la casilla debajo del signo igual.",
+      "pt": "Observe a peça à esquerda. Você tira uma peça de uma sacola sem olhar. De qual sacola é mais provável tirar essa peça? Marque o quadradinho ao lado dessa sacola. Se a chance for igual nas duas sacolas, marque o quadradinho embaixo do sinal de igual.",
+      "fr": "Regarde le jeton à gauche. Tu tires un jeton d'un sac sans regarder. Dans quel sac as-tu le plus de chances de tirer ce jeton ? Coche la case à côté de ce sac. Si tu as autant de chances avec les deux sacs, coche la case sous le signe égal.",
+      "it": "Osserva il gettone a sinistra. Estrai un gettone da un sacchetto senza guardare. Da quale sacchetto è più probabile estrarre questo gettone? Segna la casella accanto a quel sacchetto. Se la probabilità è uguale per i due sacchetti, segna la casella sotto il segno di uguale.",
+      "nl": "Kijk naar het figuurtje links. Je trekt één figuurtje uit een zak zonder te kijken. Uit welke zak heb je meer kans om dit figuurtje te trekken? Kruis het vakje naast die zak aan. Is de kans bij beide zakken even groot, kruis dan het vakje onder het is-teken aan.",
+      "sv": "Titta på brickan till vänster. Du drar en bricka ur en påse utan att titta. Ur vilken påse är chansen störst att du drar den brickan? Kryssa i rutan bredvid den påsen. Om chansen är lika stor för båda påsarna kryssar du i rutan under likhetstecknet.",
+      "da": "Se på brikken til venstre. Du trækker en brik op af en pose uden at kigge. Fra hvilken pose er chancen størst for at trække den brik? Sæt kryds i feltet ved siden af den pose. Hvis chancen er lige stor for begge poser, sætter du kryds i feltet under lighedstegnet.",
+      "no": "Se på brikken til venstre. Du trekker en brikke fra en pose uten å se. Fra hvilken pose er sjansen størst for å trekke denne brikken? Sett kryss i ruten ved siden av den posen. Hvis sjansen er like stor for begge posene, setter du kryss i ruten under likhetstegnet.",
+      "fi": "Katso vasemmalla olevaa palaa. Nostat yhden palan pussista katsomatta. Kummasta pussista saat tämän palan todennäköisemmin? Rastita ruutu sen pussin vierestä. Jos mahdollisuus on kummassakin pussissa yhtä suuri, rastita yhtäsuuruusmerkin alla oleva ruutu."
+    }
+  },
+  "G2-508": {
+    "3": {
+      "en": {
+        "title": "Chance Experiment: Roll and Tally",
+        "instruction": "First circle your guess. Then roll a die, make a tally mark, and cross off a numbered box. Do this once for every numbered box. Count the tally marks, draw the bars, and finish the page."
+      },
+      "de": {
+        "title": "Zufallsversuch: Würfeln und Strichliste",
+        "instruction": "Kreise zuerst deine Vermutung ein. Würfle dann, mache einen Strich in der Strichliste und streiche ein Zahlenkästchen durch. Mache das für jedes Zahlenkästchen einmal. Zähle die Striche, zeichne die Säulen und fülle das Blatt zu Ende aus."
+      },
+      "es": {
+        "title": "Experimento de azar: lanza el dado y registra",
+        "instruction": "Primero encierra tu predicción. Después lanza un dado, haz una marca de conteo y tacha una casilla con número. Hazlo una vez por cada casilla con número. Cuenta las marcas, dibuja las barras y termina la hoja."
+      },
+      "pt": {
+        "title": "Experimento aleatório: jogue o dado e registre",
+        "instruction": "Primeiro circule o seu palpite. Depois jogue um dado, faça um risquinho e risque um quadradinho numerado. Faça isso uma vez para cada quadradinho numerado. Conte os risquinhos, desenhe as barras e complete a folha."
+      },
+      "fr": {
+        "title": "Expérience aléatoire : lance le dé et compte",
+        "instruction": "Entoure d'abord ce que tu penses. Puis lance un dé, trace un bâton et barre une case numérotée. Fais-le une fois pour chaque case numérotée. Compte les bâtons, dessine les barres et termine la fiche."
+      },
+      "it": {
+        "title": "Esperimento di probabilità: lancia il dado e conta",
+        "instruction": "Prima cerchia la tua previsione. Poi lancia un dado, fai una tacca e cancella una casella numerata. Fallo una volta per ogni casella numerata. Conta le tacche, disegna le colonne e completa la scheda."
+      },
+      "nl": {
+        "title": "Kansexperiment: dobbelen en turven",
+        "instruction": "Omcirkel eerst wat jij denkt. Gooi dan met een dobbelsteen, zet een streepje en streep een genummerd vakje door. Doe dit één keer voor elk genummerd vakje. Tel de streepjes, teken de staven en maak het blad af."
+      },
+      "sv": {
+        "title": "Slumpförsök: slå tärning och pricka av",
+        "instruction": "Ringa först in vad du tror. Slå sedan en tärning, gör ett streck och stryk över en numrerad ruta. Gör så en gång för varje numrerad ruta. Räkna strecken, rita staplarna och gör klart bladet."
+      },
+      "da": {
+        "title": "Chanceeksperiment: slå med terning og tæl",
+        "instruction": "Sæt først ring om dit gæt. Slå så med en terning, sæt en tællestreg, og streg et felt med tal ud. Gør det én gang for hvert felt med tal. Tæl stregerne, tegn søjlerne, og gør arket færdigt."
+      },
+      "no": {
+        "title": "Sjanseforsøk: kast terning og tell",
+        "instruction": "Ring først rundt det du tror. Kast så en terning, sett en tellestrek og stryk over en rute med tall. Gjør det én gang for hver rute med tall. Tell strekene, tegn søylene og gjør arket ferdig."
+      },
+      "fi": {
+        "title": "Satunnaiskoe: heitä noppaa ja kirjaa",
+        "instruction": "Ympyröi ensin arvauksesi. Heitä sitten noppaa, tee viiva tukkimiehen kirjanpitoon ja vedä yli yksi numeroruutu. Tee näin kerran jokaista numeroruutua kohti. Laske viivat, piirrä pylväät ja täytä sivu loppuun."
+      }
+    }
   }
 }

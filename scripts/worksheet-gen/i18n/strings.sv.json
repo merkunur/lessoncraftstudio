@@ -4860,5 +4860,17 @@
   "G2-506": {
     "title": "Räknehändelser 0–100: fråga, uträkning, svar",
     "instruction": "Läs varje räknehändelse. Om frågan saknas skriver du en egen fråga. Skriv sedan uträkningen och svaret."
+  },
+  "G2-507": {
+    "title": "Säkert, möjligt, omöjligt",
+    "instruction": "Du drar en bricka ur påsen utan att titta. Titta på brickan i början av varje rad. Är det säkert, möjligt eller omöjligt att du drar den brickan? Kryssa i en ruta på varje rad. Möjligt betyder att det kan hända, men det måste inte hända."
+  },
+  "G3-484": {
+    "title": "Störst chans: vilken påse?",
+    "instruction": "Titta på brickan till vänster. Du drar en bricka ur en påse utan att titta. Ur vilken påse är chansen störst att du drar den brickan? Kryssa i rutan bredvid den påsen."
+  },
+  "G2-508": {
+    "title": "Slumpförsök: dra och pricka av",
+    "instruction": "Gör i ordning en påse som på bilden. Ringa först in vad du tror. Dra sedan en bricka utan att titta, gör ett streck, stryk över en numrerad ruta och lägg tillbaka brickan. Gör så en gång för varje numrerad ruta. Räkna strecken, rita staplarna och gör klart bladet."
   }
 }

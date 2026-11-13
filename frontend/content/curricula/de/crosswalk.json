@@ -1497,6 +1497,21 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "rows": [
+    {
+     "id": "M.5.2.1",
+     "rel": "teaches",
+     "grade": "1-4"
+    },
+    {
+     "id": "M.5.1.1",
+     "rel": "teaches",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2042,6 +2057,16 @@
     {
      "id": "M.2.1.4",
      "rel": "prepares",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "rows": [
+    {
+     "id": "M.5.2.2",
+     "rel": "teaches",
      "grade": "1-4"
     }
    ],

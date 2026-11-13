@@ -4906,5 +4906,17 @@
   "G2-506": {
     "title": "Verhaalsommen tot 100: vraag, som, antwoord",
     "instruction": "Lees elke verhaalsom. Ontbreekt de vraag? Bedenk dan zelf een vraag en schrijf die op. Schrijf daarna de som en het antwoord op."
+  },
+  "G2-507": {
+    "title": "Zeker, mogelijk, onmogelijk",
+    "instruction": "Je trekt één figuurtje uit de zak zonder te kijken. Kijk naar het figuurtje aan het begin van elke rij. Is het zeker, mogelijk of onmogelijk dat je dit figuurtje trekt? Kruis in elke rij één vakje aan. Mogelijk betekent: het kan gebeuren, maar het hoeft niet."
+  },
+  "G3-484": {
+    "title": "Meer kans: uit welke zak?",
+    "instruction": "Kijk naar het figuurtje links. Je trekt één figuurtje uit een zak zonder te kijken. Uit welke zak heb je meer kans om dit figuurtje te trekken? Kruis het vakje naast die zak aan."
+  },
+  "G2-508": {
+    "title": "Kansexperiment: trekken en turven",
+    "instruction": "Vul een zak zoals op het plaatje. Omcirkel eerst wat jij denkt. Trek dan één figuurtje zonder te kijken, zet een streepje, streep een genummerd vakje door en doe het figuurtje terug. Doe dit één keer voor elk genummerd vakje. Tel de streepjes, teken de staven en maak het blad af."
   }
 }

@@ -4858,5 +4858,17 @@
   "G2-506": {
     "title": "Sanalliset tehtävät 0–100: kysymys, lasku, vastaus",
     "instruction": "Lue jokainen tehtävä. Jos kysymys puuttuu, keksi ja kirjoita kysymys. Kirjoita sitten lasku ja vastaus."
+  },
+  "G2-507": {
+    "title": "Varmaa, mahdollista, mahdotonta",
+    "instruction": "Nostat pussista yhden palan katsomatta. Katso jokaisen rivin alussa olevaa palaa. Onko varmaa, mahdollista vai mahdotonta, että nostat juuri sen palan? Rastita yksi ruutu joka riviltä. Mahdollista tarkoittaa, että niin voi käydä, mutta se ei ole varmaa."
+  },
+  "G3-484": {
+    "title": "Todennäköisempää: kummasta pussista?",
+    "instruction": "Katso vasemmalla olevaa palaa. Nostat yhden palan pussista katsomatta. Kummasta pussista saat tämän palan todennäköisemmin? Rastita ruutu sen pussin vierestä."
+  },
+  "G2-508": {
+    "title": "Satunnaiskoe: nosta ja kirjaa",
+    "instruction": "Tee samanlainen pussi kuin kuvassa. Ympyröi ensin arvauksesi. Nosta sitten yksi pala katsomatta, tee viiva tukkimiehen kirjanpitoon, vedä yli yksi numeroruutu ja pane pala takaisin pussiin. Tee näin kerran jokaista numeroruutua kohti. Laske viivat, piirrä pylväät ja täytä sivu loppuun."
   }
 }

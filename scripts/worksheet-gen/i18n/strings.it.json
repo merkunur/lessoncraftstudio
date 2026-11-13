@@ -4892,5 +4892,17 @@
   "G2-506": {
     "title": "Problemi entro il 100: domanda, operazione, risposta",
     "instruction": "Leggi ogni problema. Se manca la domanda, scrivine una. Poi scrivi l'operazione e la risposta."
+  },
+  "G2-507": {
+    "title": "Certo, possibile, impossibile",
+    "instruction": "Estrai un gettone dal sacchetto senza guardare. Osserva il gettone all'inizio di ogni riga. È certo, possibile o impossibile estrarre questo gettone? Segna una casella in ogni riga. Possibile vuol dire: può succedere, ma non è certo."
+  },
+  "G3-484": {
+    "title": "Più probabile: da quale sacchetto?",
+    "instruction": "Osserva il gettone a sinistra. Estrai un gettone da un sacchetto senza guardare. Da quale sacchetto è più probabile estrarre questo gettone? Segna la casella accanto a quel sacchetto."
+  },
+  "G2-508": {
+    "title": "Esperimento di probabilità: estrai e conta",
+    "instruction": "Prepara un sacchetto come quello del disegno. Prima cerchia la tua previsione. Poi estrai un gettone senza guardare, fai una tacca, cancella una casella numerata e rimetti il gettone nel sacchetto. Fallo una volta per ogni casella numerata. Conta le tacche, disegna le colonne e completa la scheda."
   }
 }

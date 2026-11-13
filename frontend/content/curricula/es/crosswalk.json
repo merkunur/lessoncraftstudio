@@ -1612,6 +1612,10 @@
    ],
    "by": "authored"
   },
+  "2:chance-certain-possible": {
+   "none": "No content of the registry names chance (azar) or likelihood.",
+   "by": "authored"
+  },
   "2:share-and-group": {
    "rows": [
     {
@@ -2203,6 +2207,10 @@
      "grade": "3"
     }
    ],
+   "by": "authored"
+  },
+  "3:chance-more-likely": {
+   "none": "No content of the registry names chance (azar) or likelihood.",
    "by": "authored"
   },
   "3:volume-cubes": {

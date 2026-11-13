@@ -299,7 +299,7 @@ function makeLineMoreType(cfg) {
           const labelText = { 0: '0', 1: '1', 2: '2' };
           if (d.write) {
             // the dot is printed on the line; the child writes its fraction into two boxes, one over the other
-            const wl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 440, labelText, marks: [f.p / f.b] });
+            const wl = numberLine({ min: 0, max: d.max, tickStep: 1 / f.b, labelEvery: f.b, width: 440, labelText, marks: [f.p / f.b], tickH: 24, markR: 5.5 });   // the tick shows above and below its dot
             const boxes = `<span data-lcs-write="${f.p}/${f.b}" style="display:inline-flex;flex-direction:column;align-items:center;gap:4px">${answerBox({ w: 56, h: 46, answer: f.p })}<span style="width:60px;border-top:3px solid ${INK}"></span>${answerBox({ w: 56, h: 46, answer: f.b })}</span>`;
             return `<div class="ws-card-stage" style="justify-content:center;align-items:center;gap:26px" data-lcs-fraction="${f.p}/${f.b}">${wl.svg}${boxes}</div>`;
           }

@@ -90,7 +90,7 @@ module.exports = {
     '3-070': U('the empty 10 by 10 square, filled in the order the teacher gives', 3),
     '3-072': C('two-step stories with three-digit numbers within 1,000'),
     '3-075': C('rectangles with side lengths and units and no squares inside'),
-    '3-078': C('the page asks for any fraction (3/8, 4/6), read on the published page: unit fractions only and a box to write the fraction'),
+    '3-078': N('G3-481', 'built: a dot on a number line from 0 to 1, the child writes its fraction; levels 1 and 2 unit fractions only (What Fraction Is the Dot?)', 2),
     '3-080': C('readings to the half and the quarter inch'),
   },
   de: {
@@ -149,7 +149,7 @@ module.exports = {
     '2-179': C('priser 12 till 95 kr som betalas med sedel; i dag mynt upp till 50 kr'),
     '2-181': B('tabell för uppskattning och uppmätt värde (meter och centimeter)'),
     '2-182': C('hela kilogram med 1-kilosvikter; i dag gram'),
-    '2-183': C('graderingen i deciliter; i dag milliliter'),
+    '2-183': N('G2-503', 'byggd: mätkannan graderad i deciliter (1 liter = 10 streck; nivå 3 två liter)', 2),
     '2-185': U('dubbelt och hälften upp till 100 som maskiner', 3),
     '2-186': U('klockor på femminuterstider mot tiden i ord', 3),
     '2-187': C('tider som inte är hela timmar (från nio till halv tolv)'),

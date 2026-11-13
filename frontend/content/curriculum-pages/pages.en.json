@@ -1648,7 +1648,7 @@
     "taught": 23,
     "near": 2,
     "open": 9,
-    "lessons": 39
+    "lessons": 40
    },
    "groups": [
     {
@@ -1719,7 +1719,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 7,
+         "n": 8,
          "title": "A fraction of a group"
         }
        ]
@@ -1923,13 +1923,20 @@
       {
        "code": "3.NF.A.2",
        "state": "taught",
-       "text": "Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.",
+       "text": "Children see the distance from 0 to 1 on a number line partitioned into 2, 3, 4, 6, or 8 equal parts and name the endpoint of the first part as 1/2, 1/3, 1/4, 1/6, or 1/8. Then they count equal parts from 0 to place a fraction such as 3/8 on the line.",
        "lessons": [
         {
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
          "n": 4,
+         "title": "Unit fractions on the number line"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 5,
          "title": "Fractions on a number line"
         }
        ]
@@ -1943,7 +1950,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 6,
+         "n": 7,
          "title": "Equivalent fractions: different names, same amount"
         }
        ]
@@ -1957,7 +1964,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 6,
+         "n": 7,
          "title": "Equivalent fractions: different names, same amount"
         }
        ]
@@ -1971,7 +1978,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 5,
+         "n": 6,
          "title": "Which fraction is greater?"
         }
        ]
@@ -5088,7 +5095,7 @@
     "taught": 29,
     "near": 2,
     "open": 22,
-    "lessons": 39
+    "lessons": 40
    },
    "groups": [
     {
@@ -5156,6 +5163,13 @@
          "unitTitle": "Fractions",
          "unitGrade": "3",
          "n": 4,
+         "title": "Unit fractions on the number line"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 5,
          "title": "Fractions on a number line"
         }
        ]
@@ -5163,13 +5177,20 @@
       {
        "code": "3.3.B",
        "state": "taught",
-       "text": "Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.",
+       "text": "Children see the distance from 0 to 1 on a number line partitioned into 2, 3, 4, 6, or 8 equal parts and name the endpoint of the first part as 1/2, 1/3, 1/4, 1/6, or 1/8. Then they count equal parts from 0 to place a fraction such as 3/8 on the line.",
        "lessons": [
         {
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
          "n": 4,
+         "title": "Unit fractions on the number line"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 5,
          "title": "Fractions on a number line"
         }
        ]
@@ -5219,7 +5240,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 7,
+         "n": 8,
          "title": "A fraction of a group"
         }
        ]
@@ -5233,7 +5254,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 6,
+         "n": 7,
          "title": "Equivalent fractions: different names, same amount"
         }
        ]
@@ -5247,7 +5268,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 6,
+         "n": 7,
          "title": "Equivalent fractions: different names, same amount"
         }
        ]
@@ -5261,7 +5282,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 5,
+         "n": 6,
          "title": "Which fraction is greater?"
         }
        ]
@@ -5415,7 +5436,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 7,
+         "n": 8,
          "title": "A fraction of a group"
         }
        ]
@@ -5597,6 +5618,13 @@
          "unitTitle": "Fractions",
          "unitGrade": "3",
          "n": 4,
+         "title": "Unit fractions on the number line"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 5,
          "title": "Fractions on a number line"
         },
         {

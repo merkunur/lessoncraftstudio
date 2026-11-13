@@ -1895,7 +1895,7 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Grade 3 Math Lesson Plans: Fractions",
-   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
+   "metaDescription": "A four-week Grade 3 math unit: 8 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
    "weeks": 4,
    "lessons": [
     {
@@ -1915,6 +1915,20 @@
      "point": "3:whole-from-unit",
      "types": [
       "G3-321"
+     ]
+    },
+    {
+     "point": "3:fraction-number-line",
+     "id": "3:fraction-number-line#unit-fractions-on-the-number-line",
+     "types": [
+      "G3-481",
+      "G3-406"
+     ],
+     "exitType": "G3-406",
+     "tool": null,
+     "activity": null,
+     "standards": [
+      "3.NF.A.2"
      ]
     },
     {

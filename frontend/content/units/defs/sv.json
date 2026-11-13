@@ -1189,7 +1189,7 @@
    "subject": "math",
    "title": "Längd, klockan och almanackan",
    "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, ”Längd, klockan och almanackan”: 5 lektioner om längd, liter och deciliter, klockan och almanackan, cirka tre veckor.",
    "weeks": 3,
    "lessons": [
     {
@@ -1203,6 +1203,15 @@
      "types": [
       "G2-236"
      ]
+    },
+    {
+     "point": "2:read-jugs",
+     "id": "2:read-jugs#liter-och-deciliter",
+     "types": [
+      "G2-503"
+     ],
+     "tool": "measurement-bench",
+     "activity": null
     },
     {
      "point": "2:time-5-min-quarter",

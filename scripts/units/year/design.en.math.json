@@ -1258,7 +1258,8 @@
             "days": 2,
             "tool": "Number Line",
             "source": "new",
-            "page": "Top half: five number lines from 0 to 1 with the tick marks already drawn for halves, thirds, fourths, sixths and eighths; the child counts the equal parts, puts a dot at the end of the first part, and writes the unit fraction under it. Bottom half: four lines from 0 to 1 with a paper-strip picture above them and no tick marks; the child draws the ticks for the fraction asked and labels the first one. Last task: a line with unequal parts and the question 'Why is this point not 1/4?'"
+            "page": "Top half: five number lines from 0 to 1 with the tick marks already drawn for halves, thirds, fourths, sixths and eighths; the child counts the equal parts, puts a dot at the end of the first part, and writes the unit fraction under it. Bottom half: four lines from 0 to 1 with a paper-strip picture above them and no tick marks; the child draws the ticks for the fraction asked and labels the first one. Last task: a line with unequal parts and the question 'Why is this point not 1/4?'",
+            "placed": "3:fraction-number-line#unit-fractions-on-the-number-line"
           },
           {
             "existing": "3:fraction-number-line",

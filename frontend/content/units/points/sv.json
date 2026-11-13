@@ -1973,6 +1973,15 @@
     "words": "Visa båda uppgifterna på kulramen eller med brickor i två tioramar: ”Här är en hel tia. Den rör vi inte. Under den räknar vi 3 + 4.” Fråga: ”Vad är lika i den stora uppgiften? Vad är olika?” Säg: ”Den lilla uppgiften hjälper den stora. Entalen är desamma, och tian är med hela tiden.”",
     "watch": "Se vem som skriver det stora svaret direkt efter det lilla och vem som räknar om. Det lättare bladet har bara addition: börja där. Bladet för alla har bara subtraktion, och det svårare blandar båda."
    }
+  },
+  "2:read-jugs#liter-och-deciliter": {
+   "title": "Liter och deciliter",
+   "objective": "Eleverna läser av en mätkanna med ett streck för varje deciliter, vet att 1 liter är 10 deciliter och skriver hur många deciliter som finns i kannan.",
+   "note": {
+    "mistake": "Många elever skriver kannans högsta tal (10) i stället för att läsa av vid vätskans yta: de blandar ihop hur mycket kannan rymmer med hur mycket som finns i den. När bara vartannat streck har ett tal skriver en del det närmaste utskrivna talet, eller säger ”två och en halv” om strecket mellan 2 och 4, i stället för att se att strecket emellan är 3. Liter och deciliter blandas ihop: en del tror att 10 dl är mer än 1 liter.",
+    "words": "Häll först på riktigt: ”Hur många decilitermått behövs för att fylla litermåttet?” Räkna tillsammans till tio och säg: ”Tio deciliter är en liter.” Vid bladet: ”Titta på vattenytan. Vilket streck når den? Mellan 4 och 6 finns ett streck utan tal. Vilket tal hör till det?” I Mätbänken på tavlan kan ni hälla lite i taget och läsa av efter varje gång; bänkens kärl är graderade i milliliter, så säg att 100 milliliter är 1 deciliter.",
+    "watch": "Se vem som läser av vid ytan och vem som gissar. Fråga också: ”Hur många deciliter är en liter?” och vid en nästan full kanna: ”Hur många deciliter fattas till en liter?” På det svårare bladet rymmer kannan två liter: låt eleverna säga 14 dl som 1 liter och 4 deciliter."
+   }
   }
  }
 }

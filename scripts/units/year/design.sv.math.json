@@ -659,7 +659,8 @@
             "days": 2,
             "tool": "Mätbänken",
             "source": "new",
-            "page": "Bladet visar litermått med ett skalstreck för varje deciliter, fyllda till olika nivåer, och vardagskärl (glas, mjölkpaket, hink); eleven läser av hur många deciliter som finns i måttet (1 till 10 dl), färglägger ett mått till en given nivå och ringar in om kärlet rymmer mer eller mindre än 1 liter."
+            "page": "Bladet visar litermått med ett skalstreck för varje deciliter, fyllda till olika nivåer, och vardagskärl (glas, mjölkpaket, hink); eleven läser av hur många deciliter som finns i måttet (1 till 10 dl), färglägger ett mått till en given nivå och ringar in om kärlet rymmer mer eller mindre än 1 liter.",
+            "placed": "2:read-jugs#liter-och-deciliter"
           }
         ]
       },

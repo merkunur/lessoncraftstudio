@@ -9479,8 +9479,8 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Grade 3 Math Lesson Plans: Fractions",
-   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
-   "days": 19,
+   "metaDescription": "A four-week Grade 3 math unit: 8 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
+   "days": 21,
    "weeks": 4,
    "lessons": [
     {
@@ -9639,6 +9639,47 @@
     {
      "n": 4,
      "point": "3:fraction-number-line",
+     "title": "Unit fractions on the number line",
+     "objective": "Children see the distance from 0 to 1 on a number line partitioned into 2, 3, 4, 6, or 8 equal parts and name the endpoint of the first part as 1/2, 1/3, 1/4, 1/6, or 1/8. Then they count equal parts from 0 to place a fraction such as 3/8 on the line.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.NF.A.2",
+       "title": "Number and Operations—Fractions"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-481",
+       "title": "What Fraction Is the Dot?",
+       "core": "number-lines-g3481",
+       "easy": "number-lines-easy-g3481-2",
+       "hard": "number-lines-hard-g3481-3"
+      },
+      {
+       "type": "G3-406",
+       "title": "Fractions on the Number Line",
+       "core": "number-lines-g3406",
+       "easy": "number-lines-easy-g3406-6",
+       "hard": "number-lines-hard-g3406-7"
+      }
+     ],
+     "id": "3:fraction-number-line#unit-fractions-on-the-number-line",
+     "exit": {
+      "slug": "number-lines-g3406-2",
+      "title": "Fractions on the Number Line"
+     },
+     "note": {
+      "mistake": "Children count the tick marks instead of the equal parts, so on a line partitioned into fourths they write 1/5 (five marks) or 1/3 (three marks between 0 and 1). Some write the fraction upside down (4/1). Many think 1/8 is greater than 1/4 because 8 is greater than 4.",
+      "words": "Say: \"Count the jumps from 0 to 1, not the marks. How many equal parts? Four. Each part is one fourth.\" Point to the dot: \"The dot is at the end of the first part. That is 1 of 4 equal parts: 1 on top, 4 on the bottom.\" Compare two lines: \"Which first part is longer, one fourth or one eighth? Why?\" For the second worksheet say: \"Three eighths. Each jump is one eighth. Start at 0 and count three jumps: one eighth, two eighths, three eighths. Draw the dot there.\"",
+      "watch": "Watch what the child counts: parts or marks. Check the bottom number first: it must be the number of equal parts between 0 and 1. On the second worksheet the fraction is printed and the child draws the dot. Most of its fractions are not unit fractions (3/8, 2/3, 4/6): watch that the child counts that many parts from 0 and does not stop at the first mark. The harder page of the first worksheet has fractions such as 3/4."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "3:fraction-number-line",
      "title": "Fractions on a number line",
      "objective": "Children read the fraction that a dot marks on a number line from 0 to 1 by counting the equal spaces.",
      "standards": [
@@ -9681,7 +9722,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "3:compare-fractions",
      "title": "Which fraction is greater?",
      "objective": "Children compare two fractions of the same whole with fraction bars and circle the greater one.",
@@ -9725,7 +9766,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "3:equivalent-fractions",
      "title": "Equivalent fractions: different names, same amount",
      "objective": "Children match a picture to a fraction that shows the same amount, such as one half and two fourths.",
@@ -9783,7 +9824,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "3:fraction-of-set",
      "title": "A fraction of a group",
      "objective": "Children circle a fraction of a group of pictures, such as one third of 12, and write how many that is.",
@@ -13985,6 +14026,7 @@
       "Equal pieces",
       "Name and shade a fraction",
       "Find the whole",
+      "Unit fractions on the number line",
       "Fractions on a number line",
       "Which fraction is greater?",
       "Equivalent fractions: different names, same amount",

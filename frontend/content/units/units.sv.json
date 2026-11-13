@@ -6780,8 +6780,8 @@
    "subject": "math",
    "title": "Längd, klockan och almanackan",
    "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Längd, klockan och almanackan”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
-   "days": 15,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, ”Längd, klockan och almanackan”: 5 lektioner om längd, liter och deciliter, klockan och almanackan, cirka tre veckor.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -6893,6 +6893,45 @@
     },
     {
      "n": 3,
+     "point": "2:read-jugs",
+     "title": "Liter och deciliter",
+     "objective": "Eleverna läser av en mätkanna med ett streck för varje deciliter, vet att 1 liter är 10 deciliter och skriver hur många deciliter som finns i kannan.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Lgr22",
+       "code": null,
+       "title": "Geometri"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-503",
+       "title": "Läs av mätkannan i deciliter",
+       "core": "matning-g2503",
+       "easy": "matning-latt-g2503-5",
+       "hard": "matning-svar-g2503-8"
+      }
+     ],
+     "id": "2:read-jugs#liter-och-deciliter",
+     "tool": {
+      "key": "measurement-bench",
+      "slug": "matbanken",
+      "name": "Mätbänken"
+     },
+     "exit": {
+      "slug": "matning-g2503-2",
+      "title": "Läs av mätkannan i deciliter"
+     },
+     "note": {
+      "mistake": "Många elever skriver kannans högsta tal (10) i stället för att läsa av vid vätskans yta: de blandar ihop hur mycket kannan rymmer med hur mycket som finns i den. När bara vartannat streck har ett tal skriver en del det närmaste utskrivna talet, eller säger ”två och en halv” om strecket mellan 2 och 4, i stället för att se att strecket emellan är 3. Liter och deciliter blandas ihop: en del tror att 10 dl är mer än 1 liter.",
+      "words": "Häll först på riktigt: ”Hur många decilitermått behövs för att fylla litermåttet?” Räkna tillsammans till tio och säg: ”Tio deciliter är en liter.” Vid bladet: ”Titta på vattenytan. Vilket streck når den? Mellan 4 och 6 finns ett streck utan tal. Vilket tal hör till det?” I Mätbänken på tavlan kan ni hälla lite i taget och läsa av efter varje gång; bänkens kärl är graderade i milliliter, så säg att 100 milliliter är 1 deciliter.",
+      "watch": "Se vem som läser av vid ytan och vem som gissar. Fråga också: ”Hur många deciliter är en liter?” och vid en nästan full kanna: ”Hur många deciliter fattas till en liter?” På det svårare bladet rymmer kannan två liter: låt eleverna säga 14 dl som 1 liter och 4 deciliter."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "2:time-5-min-quarter",
      "title": "Klockan: kvart över, halv, kvart i och fem minuter",
      "objective": "Eleverna läser av klockan på kvart över, halv och kvart i, och sedan på fem minuter när, och väljer den tid som passar.",
@@ -6950,7 +6989,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:calendar",
      "title": "Läsa almanackan",
      "objective": "Eleverna läser en månad i almanackan och hittar veckodagen för ett datum, datumet en vecka senare och antalet dagar mellan två datum.",
@@ -12536,6 +12575,7 @@
      "lessons": [
       "Mäta med linjal",
       "Hur mycket längre?",
+      "Liter och deciliter",
       "Klockan: kvart över, halv, kvart i och fem minuter",
       "Läsa almanackan"
      ],

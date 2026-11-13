@@ -9,7 +9,9 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, line, circle, el, tickRow, roundedRect } = require('./_svg.js');
 
-function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null, rings = [], tickBoxes = null }, ctx) {
+function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null, rings = [], tickBoxes = null, tickH = 14, markR = 7 }, ctx) {
+  // tickH / markR (Year pages I, additive: the defaults draw every published line as before): a face whose dot sits ON a
+  // tick draws taller ticks and a smaller dot, so the cut under the dot stays visible
   const t = (ctx && ctx.tokens) || tokens;
   const padX = 26;
   // nt20-B `pointers` (G1-248): a coral arrow from a dashed answer box down to
@@ -28,7 +30,7 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
 
   const ticks = tickRow({
     x: padX, y, w: width, min, max, tickStep,
-    tickH: 14, majorH: 14,
+    tickH, majorH: tickH,
     strokeColor: t.color.ink, strokeWidth: 2,
     labelEvery, labelSize: 17, labelColor: t.color.ink, fontFamily: t.font.display, labelDy: 26,
     // labelText (Fractions 2026-10-08): print a tick's label as other text (the fraction line's end reads 1, not 6)
@@ -61,7 +63,7 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
   });
 
   marks.forEach((v) => {
-    parts.push(circle({ cx: ticks.xFor(v), cy: y, r: 7, fill: t.color.teal, data: { 'data-lcs-mark': v } }));
+    parts.push(circle({ cx: ticks.xFor(v), cy: y, r: markR, fill: t.color.teal, data: { 'data-lcs-mark': v } }));
   });
 
   // screen-from-marks 2026-11-01 (additive, screen builds only): a transparent hit box per tick, a candidate to tap;

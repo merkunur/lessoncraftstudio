@@ -4970,5 +4970,9 @@
   "G2-516": {
     "title": "Mittaa ja tee pistediagrammi",
     "instruction": "Taulukossa on kymmenen kynän pituudet. Kirjoita puuttuvat luvut lukusuoran alle. Piirrä rasti jokaista kynää kohti. Vastaa sitten kysymyksiin."
+  },
+  "G3-493": {
+    "title": "Mittaa puolen senttimetrin tarkkuudella",
+    "instruction": "Jokainen kynä on oman viivaimensa vieressä. Kirjoita kynän pituus puolen senttimetrin tarkkuudella. Piirrä sitten diagrammiin rasti jokaista kynää kohti ja vastaa kysymyksiin."
   }
 }

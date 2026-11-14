@@ -5017,5 +5017,9 @@
   "G2-516": {
     "title": "Mål og lag et diagram",
     "instruction": "Tabellen viser lengden på ti blyanter. Skriv tallene som mangler, under tallinjen. Tegn et kryss for hver blyant. Svar så på spørsmålene."
+  },
+  "G3-493": {
+    "title": "Mål i halve centimeter",
+    "instruction": "Hver blyant ligger ved sin egen linjal. Skriv lengden med en halv centimeters nøyaktighet. Tegn så et kryss i diagrammet for hver blyant og svar på spørsmålene."
   }
 }

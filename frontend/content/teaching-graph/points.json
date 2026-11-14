@@ -4423,7 +4423,8 @@
    "skill": "Measure to the half unit and show the data on a line plot marked in halves",
    "code": "3.MD.B.4",
    "types": [
-    "G3-335"
+    "G3-335",
+    "G3-493"
    ],
    "families": [
     "graphing-data"

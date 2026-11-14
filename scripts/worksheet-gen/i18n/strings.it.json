@@ -5004,5 +5004,9 @@
   "G2-516": {
     "title": "Misura e costruisci un grafico a punti",
     "instruction": "La tabella mostra la lunghezza di dieci matite. Scrivi i numeri che mancano sotto la linea dei numeri. Disegna una X per ogni matita. Poi rispondi alle domande."
+  },
+  "G3-493": {
+    "title": "Misurare con la precisione del mezzo centimetro",
+    "instruction": "Ogni matita è appoggiata al suo righello. Scrivi la sua lunghezza con la precisione del mezzo centimetro. Poi disegna una X sul grafico per ogni matita e rispondi alle domande."
   }
 }

@@ -6795,5 +6795,33 @@
       "no": "Mål ti brukte blyanter til nærmeste centimeter og skriv lengdene i tabellen. Skriv tall under linjen: Begynn med et tall som er litt mindre enn lengden på den korteste blyanten din. Tegn et kryss for hver blyant. Svar så på spørsmålene.",
       "fi": "Mittaa kymmenen käytettyä kynää senttimetrin tarkkuudella ja kirjoita pituudet taulukkoon. Numeroi suora: aloita vähän lyhintä kynääsi pienemmästä luvusta. Piirrä rasti jokaista kynää kohti. Vastaa sitten kysymyksiin."
     }
+  },
+  "G3-493": {
+    "1": {
+      "en": "Each pencil is lined up with its own ruler. Write its length. Some pencils end at a half inch. The rulers on this page are drawn smaller than a real ruler.",
+      "de": "Jeder Stift liegt an seinem eigenen Lineal. Schreibe seine Länge auf. Manche Stifte enden bei einem halben Zentimeter.",
+      "es": "Cada lápiz está sobre su propia regla. Escribe su longitud. Algunos lápices terminan en medio centímetro.",
+      "pt": "Cada lápis está sobre a sua própria régua. Escreva o comprimento dele. Alguns lápis terminam em meio centímetro.",
+      "fr": "Chaque crayon est posé le long de sa propre règle. Écris sa longueur. Certains crayons s'arrêtent sur un demi-centimètre.",
+      "it": "Ogni matita è appoggiata al suo righello. Scrivi la sua lunghezza. Alcune matite finiscono su un mezzo centimetro.",
+      "nl": "Elk potlood ligt langs zijn eigen liniaal. Schrijf de lengte op. Sommige potloden eindigen op een halve centimeter.",
+      "sv": "Varje penna ligger vid sin egen linjal. Skriv längden. Några pennor slutar vid en halv centimeter.",
+      "da": "Hver blyant ligger ved sin egen lineal. Skriv længden. Nogle blyanter slutter ved en halv centimeter.",
+      "no": "Hver blyant ligger ved sin egen linjal. Skriv lengden. Noen blyanter slutter ved en halv centimeter.",
+      "fi": "Jokainen kynä on oman viivaimensa vieressä. Kirjoita kynän pituus. Jotkin kynät päättyvät puolen senttimetrin kohdalle."
+    },
+    "3": {
+      "en": "The pencils do not start at 0. Find the length of each pencil to the nearest quarter inch: count the inches and quarter inches from where the pencil starts to where it ends. Then draw an X on the line plot for each pencil and answer the questions. The rulers are drawn smaller than a real ruler.",
+      "de": "Die Stifte beginnen nicht bei 0. Bestimme die Länge jedes Stiftes auf einen halben Zentimeter genau: Zähle die Zentimeter vom Anfang bis zum Ende des Stiftes. Zeichne dann für jeden Stift ein Kreuz in das Diagramm und beantworte die Fragen.",
+      "es": "Los lápices no empiezan en el 0. Encuentra la longitud de cada lápiz al medio centímetro más cercano: cuenta los centímetros desde donde empieza hasta donde termina. Después dibuja una X en la gráfica por cada lápiz y contesta las preguntas.",
+      "pt": "Os lápis não começam no 0. Descubra o comprimento de cada lápis com precisão de meio centímetro: conte os centímetros de onde ele começa até onde termina. Depois desenhe um X no gráfico para cada lápis e responda às perguntas.",
+      "fr": "Les crayons ne commencent pas à 0. Trouve la longueur de chaque crayon au demi-centimètre près : compte les centimètres entre le début et la pointe du crayon. Dessine ensuite une croix sur le diagramme pour chaque crayon et réponds aux questions.",
+      "it": "Le matite non partono da 0. Trova la lunghezza di ogni matita con la precisione del mezzo centimetro: conta i centimetri da dove comincia a dove finisce. Poi disegna una X sul grafico per ogni matita e rispondi alle domande.",
+      "nl": "De potloden beginnen niet bij 0. Bepaal de lengte van elk potlood op een halve centimeter nauwkeurig: tel de centimeters van het begin tot het eind van het potlood. Zet daarna voor elk potlood een kruisje in de grafiek en beantwoord de vragen.",
+      "sv": "Pennorna börjar inte vid 0. Ta reda på hur lång varje penna är, med en halv centimeters noggrannhet: räkna centimetrarna från där pennan börjar till där den slutar. Rita sedan ett kryss i diagrammet för varje penna och svara på frågorna.",
+      "da": "Blyanterne begynder ikke ved 0. Find længden af hver blyant med en halv centimeters nøjagtighed: Tæl centimeterne fra der, hvor blyanten begynder, til der, hvor den slutter. Sæt så et kryds i diagrammet for hver blyant, og svar på spørgsmålene.",
+      "no": "Blyantene begynner ikke på 0. Finn lengden på hver blyant med en halv centimeters nøyaktighet: Tell centimeterne fra der blyanten begynner, til der den slutter. Tegn så et kryss i diagrammet for hver blyant og svar på spørsmålene.",
+      "fi": "Kynät eivät ala nollasta. Selvitä jokaisen kynän pituus puolen senttimetrin tarkkuudella: laske senttimetrit kynän alusta sen kärkeen. Piirrä sitten diagrammiin rasti jokaista kynää kohti ja vastaa kysymyksiin."
+    }
   }
 }

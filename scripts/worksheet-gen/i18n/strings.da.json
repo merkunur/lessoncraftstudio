@@ -4998,5 +4998,9 @@
   "G2-516": {
     "title": "Mål og lav et prikdiagram",
     "instruction": "Tabellen viser længden af ti blyanter. Skriv de tal, der mangler, under tallinjen. Sæt et kryds for hver blyant. Svar så på spørgsmålene."
+  },
+  "G3-493": {
+    "title": "Mål i halve centimeter",
+    "instruction": "Hver blyant ligger ved sin egen lineal. Skriv længden med en halv centimeters nøjagtighed. Sæt så et kryds i diagrammet for hver blyant, og svar på spørgsmålene."
   }
 }

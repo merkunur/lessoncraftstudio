@@ -5018,5 +5018,9 @@
   "G2-516": {
     "title": "Meten en een grafiek maken",
     "instruction": "In de tabel staan de lengtes van tien potloden. Schrijf de ontbrekende getallen onder de getallenlijn. Zet voor elk potlood een kruisje. Beantwoord daarna de vragen."
+  },
+  "G3-493": {
+    "title": "Meten op een halve centimeter nauwkeurig",
+    "instruction": "Elk potlood ligt langs zijn eigen liniaal. Schrijf de lengte op, op een halve centimeter nauwkeurig. Zet daarna voor elk potlood een kruisje in de grafiek en beantwoord de vragen."
   }
 }

@@ -5061,5 +5061,9 @@
   "G2-517": {
     "title": "Same Length, Two Units",
     "instruction": "Each ribbon was measured twice, with two different units. Write how many of each unit it took. Then fill in the circle for the unit it took more of."
+  },
+  "G3-493": {
+    "title": "Measure to the Nearest Quarter Inch",
+    "instruction": "Each pencil is lined up with its own ruler. Write its length to the nearest quarter inch. Then draw an X on the line plot for each pencil and answer the questions. The rulers on this page are drawn smaller than a real ruler."
   }
 }

@@ -5017,5 +5017,9 @@
   "G2-516": {
     "title": "Mesurer et faire un diagramme",
     "instruction": "Le tableau donne la longueur de dix crayons. Écris les nombres qui manquent sous la droite graduée. Dessine une croix pour chaque crayon. Réponds ensuite aux questions."
+  },
+  "G3-493": {
+    "title": "Mesurer au demi-centimètre près",
+    "instruction": "Chaque crayon est posé le long de sa propre règle. Écris sa longueur au demi-centimètre près. Dessine ensuite une croix sur le diagramme pour chaque crayon et réponds aux questions."
   }
 }

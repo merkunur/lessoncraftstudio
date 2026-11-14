@@ -5020,5 +5020,9 @@
   "G2-516": {
     "title": "Längen messen und ein Diagramm zeichnen",
     "instruction": "Die Tabelle zeigt die Längen von zehn Stiften. Schreibe die fehlenden Zahlen unter den Zahlenstrahl. Zeichne für jeden Stift ein Kreuz. Beantworte dann die Fragen."
+  },
+  "G3-493": {
+    "title": "Auf einen halben Zentimeter genau messen",
+    "instruction": "Jeder Stift liegt an seinem eigenen Lineal. Schreibe seine Länge auf einen halben Zentimeter genau auf. Zeichne dann für jeden Stift ein Kreuz in das Diagramm und beantworte die Fragen."
   }
 }

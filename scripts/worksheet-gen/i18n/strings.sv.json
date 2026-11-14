@@ -4972,5 +4972,9 @@
   "G2-516": {
     "title": "Mät och gör ett diagram",
     "instruction": "Tabellen visar längden på tio pennor. Skriv talen som saknas under tallinjen. Rita ett kryss för varje penna. Svara sedan på frågorna."
+  },
+  "G3-493": {
+    "title": "Mät i halva centimeter",
+    "instruction": "Varje penna ligger vid sin egen linjal. Skriv längden med en halv centimeters noggrannhet. Rita sedan ett kryss i diagrammet för varje penna och svara på frågorna."
   }
 }

@@ -5013,5 +5013,9 @@
   "G2-516": {
     "title": "Mide y haz una gráfica de puntos",
     "instruction": "La tabla muestra la longitud de diez lápices. Escribe los números que faltan debajo de la recta numérica. Dibuja una X por cada lápiz. Después contesta las preguntas."
+  },
+  "G3-493": {
+    "title": "Medir centímetros y medios centímetros",
+    "instruction": "Cada lápiz está sobre su propia regla. Escribe su longitud al medio centímetro más cercano. Después dibuja una X en la gráfica por cada lápiz y contesta las preguntas."
   }
 }

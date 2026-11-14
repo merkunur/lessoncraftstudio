@@ -5023,5 +5023,9 @@
   "G2-516": {
     "title": "Meça e faça um gráfico de pontos",
     "instruction": "A tabela mostra o comprimento de dez lápis. Escreva os números que faltam embaixo da reta numérica. Desenhe um X para cada lápis. Depois responda às perguntas."
+  },
+  "G3-493": {
+    "title": "Medir com precisão de meio centímetro",
+    "instruction": "Cada lápis está sobre a sua própria régua. Escreva o comprimento dele com precisão de meio centímetro. Depois desenhe um X no gráfico para cada lápis e responda às perguntas."
   }
 }

@@ -150,15 +150,54 @@ const showAnswers = () => {
 // strings and the page shell are the files it was made from (their time stamps are part of its name).
 const CACHE = path.join(REPO, 'out', 'assessments', '_cut-cache');
 const stamp = (f) => { try { return String(fs.statSync(f).mtimeMs); } catch (e) { return '0'; } };
-// (a type's own file is often three lines over a factory in types/_shared: the newest factory is part of the name too.
-//  2026-11-14: a changed factory left the cards of its types as they were, and a check showed a mat without its numbers)
-const FACTORIES = (() => { const d = path.join(WG, 'types', '_shared'); try { return String(Math.max(0, ...fs.readdirSync(d).filter((x) => x.endsWith('.js')).map((x) => fs.statSync(path.join(d, x)).mtimeMs))); } catch (e) { return '0'; } })();
-const SHARED = [path.join(__dirname, 'lib', 'cut-cards.js'), path.join(WG, 'i18n', 'strings.' + loc + '.json'), path.join(WG, 'page', 'shell.js'), path.join(WG, 'page', 'page.css')].map(stamp).concat(FACTORIES).join('|');
+// What an entry was made from is part of its name, PER TYPE (2026-11-14, second version):
+//   - every file the type's own file requires, followed through the generator's folders (a type's file is often three
+//     lines over a factory in types/_shared; the factory requires primitives, layouts, word tables and data files);
+//   - the type's own texts (its title and instruction in this language and its level instructions), not the time
+//     stamp of the whole strings file;
+//   - the cutter, the page shell and its style sheet.
+// Not followed: a data file a generator reads with fs.readFileSync (a story bank). After changing one, run once with
+// --no-cache, or save the generator that reads it.
+// The first version named the NEWEST factory of types/_shared and the strings file's time stamp: every batch of new
+// page types (a new factory, new strings) threw away every card of every unit, about a hundred minutes of rebuilding.
+// (And before that the factories were not in the name at all: a changed factory left the cards of its types as they
+//  were, and a check showed a mat without its numbers.)
+const DEPS = new Map();
+function depsOf(file) {
+  if (DEPS.has(file)) return DEPS.get(file);
+  const seen = new Set(), todo = [file];
+  while (todo.length) {
+    const f = todo.pop(); if (seen.has(f)) continue; seen.add(f);
+    if (!f.endsWith('.js')) continue;
+    let src; try { src = fs.readFileSync(f, 'utf8'); } catch (e) { continue; }
+    for (const m of src.matchAll(/require\(\s*['"](\.{1,2}\/[^'"]+)['"]\s*\)/g)) {
+      let t = path.resolve(path.dirname(f), m[1]);
+      if (!/\.(js|json)$/.test(t)) t = fs.existsSync(t + '.js') ? t + '.js' : fs.existsSync(t + '.json') ? t + '.json' : path.join(t, 'index.js');
+      if (t.startsWith(WG) && !t.includes('node_modules') && fs.existsSync(t)) todo.push(t);
+    }
+  }
+  // (the strings files and the level instructions are read through the type's own texts, below: their time stamps
+  //  change with every batch)
+  const list = [...seen].filter((f) => !/[\\/]i18n[\\/](strings\.[a-z]{2}|level-instructions)\.json$/.test(f)).sort();
+  const v = { n: list.length, stamp: crypto.createHash('sha1').update(list.map((f) => path.relative(WG, f) + ':' + stamp(f)).join('|')).digest('hex').slice(0, 16), newest: Math.max(0, ...list.map((f) => Number(stamp(f)))) };
+  DEPS.set(file, v); return v;
+}
+const textsOf = (typeId) => { const id = typeId.split('@')[0]; const lv = LEVEL_LINES[id] || {}; return crypto.createHash('sha1').update(JSON.stringify([strings[id] || null, Object.keys(lv).sort().map((k) => [k, lv[k] && lv[k][loc]])])).digest('hex').slice(0, 16); };
+const FIXED = [path.join(__dirname, 'lib', 'cut-cards.js'), path.join(WG, 'page', 'shell.js'), path.join(WG, 'page', 'page.css')].map(stamp).join('|');
+// The cards kept under the first version's names stay good where nothing they were made from has changed since: the
+// name parts of the last run of that version, and every type's texts of that day, are kept in _legacy-shared.<loc>.json, and an entry found under its old
+// name is written again under the new one. (Without this the change itself would cost one more full rebuild.)
+const LEGACY = (() => { try { const j = JSON.parse(fs.readFileSync(path.join(CACHE, '_legacy-shared.' + loc + '.json'), 'utf8')); return j.texts ? j : null; } catch (e) { return null; } })();
 async function cached(o, make) {
   if (has('no-cache')) return make(o.seed);
-  const name = crypto.createHash('sha1').update([loc, o.typeId, o.seed, o.theme, stamp(o.file), SHARED].join('|')).digest('hex').slice(0, 24) + '.json';
+  const deps = depsOf(o.file);
+  const name = crypto.createHash('sha1').update(['v2', loc, o.typeId, o.seed, o.theme, deps.stamp, textsOf(o.typeId), FIXED].join('|')).digest('hex').slice(0, 24) + '.json';
   const at = path.join(CACHE, name);
   if (fs.existsSync(at)) return JSON.parse(fs.readFileSync(at, 'utf8'));
+  if (LEGACY && deps.newest <= Number(LEGACY.factories) && LEGACY.texts[o.typeId.split('@')[0]] === textsOf(o.typeId)) {   // (nothing the entry was made from has changed: its files are older, its texts are the same)
+    const old = path.join(CACHE, crypto.createHash('sha1').update([loc, o.typeId, o.seed, o.theme, stamp(o.file), LEGACY.shared].join('|')).digest('hex').slice(0, 24) + '.json');
+    if (fs.existsSync(old)) { const r = JSON.parse(fs.readFileSync(old, 'utf8')); fs.writeFileSync(at, JSON.stringify(r)); return r; }
+  }
   const r = await make(o.seed);
   fs.mkdirSync(CACHE, { recursive: true });
   fs.writeFileSync(at, JSON.stringify(r));

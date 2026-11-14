@@ -87,7 +87,7 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481'],
   'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483', 'g3491'],   // g3491 Year pages W: Multiply by Tens (boxes to write in; PDF only)
   'telling-time': ['g1477'],
-  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
+  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517', 'g3493'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
   money: ['g2472'],
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)

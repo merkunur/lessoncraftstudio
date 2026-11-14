@@ -102,6 +102,17 @@ module.exports = {
     },
   },
 
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the sort face (G1-292) gives the check
+   * seven words of its own deal, each a card (build, ctx.check: the word over the headings, its answer on the line under
+   * its own heading); seven, where the page has six or eight. Every other face gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (!d.sortWords) return this.build({ theme, difficulty, locale }, ctx);
+    return this.build.call({ ...this, difficulty: { ...this.difficulty, [difficulty]: { ...d, cards: 7 } } }, { theme, difficulty, locale }, { ...ctx, check: true });
+  },
+
   build({ theme, difficulty, locale }, ctx) {
     // the printed noun (L1) takes a line of the card: the picture gives it the room (measured: the
     // 8-card page and the fr/pt 6-card page overflowed the paper by 15-60 px at full picture size)
@@ -276,6 +287,23 @@ module.exports = {
         : chips;
       const wordOf = ({ e, count }) => (isForm ? displayWord(count > 1 ? e.plural : e.singular, loc) : displayWord(e.singular, loc));
       const keyOf = ({ key, count }) => (isForm ? (count > 1 ? 1 : 0) : key);
+      if (ctx && ctx.check) {
+        // THE ITEM BANK (Part 7.6, checkPage): each word a card of its own — the word over the page's headings, a line
+        // under each; the line under its own heading carries the word as its answer (the key writes it there)
+        const { checkGrid } = require('../../lib/check-page.js');
+        const lineW = binLabels.length > 2 ? 150 : 128;
+        const cards = cardsData.map((c) => {
+          const w = wordOf(c), k = keyOf(c);
+          const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(c.e._theme || theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
+          const heads = binLabels.map((label, i) => `<div style="display:flex;flex-direction:column;align-items:center;gap:6px">` +
+            `<span class="ws-pill" style="font-size:18px;padding:2px 16px">${label}</span>` +
+            `<span style="display:block;width:${lineW}px;height:40px;border-bottom:2px dashed #C8BFAE"${i === k ? ` data-lcs-answer="${w}"` : ''}></span></div>`).join('');
+          return `<div style="display:flex;flex-direction:column;align-items:center;gap:10px" data-lcs-sortword="${w}">` +
+            `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px">${pic}${w}</span>` +
+            `<div style="display:flex;gap:16px;justify-content:center">${heads}</div></div>`;
+        });
+        return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards, { cols: binLabels.length > 2 ? 1 : 2 })}</div>`, meta: {} };
+      }
       if (screen) {
         // screen: the bins cannot be written into, so each word becomes a row with the bin
         // headings as BIG buttons — the same decision (which article goes with this READ word)

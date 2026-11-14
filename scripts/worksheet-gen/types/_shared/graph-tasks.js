@@ -34,6 +34,7 @@ const { makeRng } = require('../../lib/rng.js');
 const { distinctPick } = require('../../lib/picture-distinct.js');
 const slot = require('../../lib/slot.js');
 const B2 = require('../../lib/b2-common.js');
+const { checkGrid } = require('../../lib/check-page.js');
 
 const FW = 640;   // the widest a graph may be: the 675-px body minus its frame
 /**
@@ -87,6 +88,109 @@ const ansCard = (href, ans, three, attrs) => (three
   : card(ICON(href, 52) + SYM('=', 30) + answerBox({ w: 80, h: 60, answer: ans }), attrs));
 const pictCell = (slots, cap) => Math.max(30, Math.min(cap, Math.floor((FW - 40 - 6 * slots) / (slots + 1))));
 
+/* ---- THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6") ----
+ * A graph page is one task over one graph: the cards below it lean on the graph, so a check cannot cut them. The check
+ * page instead draws SIX small graphs of TWO categories each (a line plot of the page's own numbers with three of them
+ * plotted), each a card of its own: the graph by the page's own primitives, its "= 2" key inside it, and the page's
+ * answer cards beside it. A reading card asks every category it plots; a building card (count and graph, tally to
+ * graph) draws the empty graph of its two categories, and the box where the colouring of a row (a bar) stops carries
+ * the count — the key of a check writes it there. Every card has pictures of its own; another seed draws others. */
+const CHECK_MODES = new Set(['pict-read', 'bar-read', 'lineplot', 'pict-fill', 'tally-fill']);
+const CHECK_CARDS = 6;
+const checkRow = (...parts) => `<div style="display:flex;align-items:center;justify-content:center;gap:16px">${parts.join('')}</div>`;
+const checkCol = (items) => `<div style="display:flex;flex-direction:column;gap:10px;align-items:stretch">${items.join('')}</div>`;
+/** an svg element's attribute (x, not data-lcs-x) */
+const svgAttr = (s, k) => { const m = new RegExp('(?:^|\\s)' + k + '="([^"]*)"').exec(s); return m ? m[1] : null; };
+/** the X marks of a check's line plot drawn as two strokes, not as the glyph ✕: a check knows the shape of a task by the
+ *  text a card prints, and marks as text made every pattern of counts a shape of its own (form B finds no card of form
+ *  A's shape). Same place, size and colour as the glyph. */
+const strokeMarks = (svg) => svg.replace(/<text ([^>]*)>✕<\/text>/g, (m, a) => {
+  const x = Number(svgAttr(a, 'x')), y = Number(svgAttr(a, 'y')), s = Number(svgAttr(a, 'font-size')), r = s * 0.27;
+  const f = (v) => v.toFixed(1);
+  return `<path d="M${f(x - r)} ${f(y - r)}L${f(x + r)} ${f(y + r)}M${f(x + r)} ${f(y - r)}L${f(x - r)} ${f(y + r)}" fill="none" stroke="${svgAttr(a, 'fill')}" ` +
+    `stroke-width="${f(Math.max(2.5, s * 0.14))}" stroke-linecap="round" data-lcs-x="${svgAttr(a, 'data-lcs-x')}"/>`;
+});
+/** the largest pictograph cell for `slots` stamps in a graph of about 420 px (a check card holds the graph and its answers) */
+const checkCell = (slots) => Math.max(24, Math.min(40, Math.floor((380 - 6 * slots) / (slots + 1))));
+
+function graphCheckPage(type, { mode, scale, fracLabels }, { theme, difficulty }, ctx) {
+  const d = type.difficulty[difficulty] || type.difficulty[2];
+  const rng = ctx.rng;
+  const sc = scale || 1;
+  const pool = labelSafeNouns(theme);
+  if (pool.length < 4) throw new Error(`${type.id} checkPage: theme ${theme} has ${pool.length} pictures`);
+  const hrefOf = (n) => fileUri(theme, n.noun);
+  const cards = [];
+  if (mode === 'lineplot') {
+    // the page's own line (1 to 6, or 1 to 4 by halves) with three of its numbers plotted, every plotted number asked
+    const lo = 1, hi = fracLabels ? 4 : 6, step = fracLabels ? 0.5 : 1;
+    const ticks = Array.from({ length: Math.round((hi - lo) / step) + 1 }, (_, k) => lo + k * step);
+    const cMax = ({ 1: 3, 2: 5, 3: 7 })[difficulty] || 5;
+    const label = (v) => (fracLabels && v % 1 !== 0 ? Math.floor(v) + '½' : String(v));
+    const seen = new Set();
+    for (let guard = 0; cards.length < CHECK_CARDS && guard < 400; guard++) {
+      const chosen = rng.sample(ticks, 3).sort((a, b) => a - b);
+      const counts = {};
+      chosen.forEach((v) => { counts[v] = rng.int(1, cMax); });
+      // one full stack (as on a new page: a plot of short stacks is half empty), the counts of a card all different
+      if (Math.max(...chosen.map((v) => counts[v])) < cMax) counts[chosen[rng.int(0, 2)]] = cMax;
+      const sig = chosen.map((v) => v + ':' + counts[v]).join(',');
+      if (seen.has(sig) || new Set(chosen.map((v) => counts[v])).size < 3) continue;
+      seen.add(sig);
+      const g = linePlot({ counts, min: lo, max: hi, step, width: fracLabels ? 330 : 300, fracLabels, xH: 24, xSize: 22, labelSize: 22, padX: 22 });
+      const asks = chosen.map((v) => card(NUMTXT(label(v), 28) + SYM('→', 26) + answerBox({ w: 66, h: 52, answer: counts[v] }), ` data-lcs-qv="${v}" data-lcs-qn="${counts[v]}"`).replace('padding:10px 16px', 'padding:6px 12px'));
+      cards.push(checkRow(frame(strokeMarks(g.svg)), checkCol(asks)));
+    }
+  } else {
+    // two pictures per card from a shuffled bag (drawn again when it is empty), never two that look alike, never a pair twice
+    let bag = [];
+    const draw = () => { if (!bag.length) bag = rng.shuffle(pool); return bag.pop(); };
+    const pairs = new Set();
+    for (let guard = 0; cards.length < CHECK_CARDS && guard < 200; guard++) {
+      let pair = [draw(), draw()];
+      if (pair[0].noun === pair[1].noun) continue;
+      pair = distinctPick(theme, pair, pool, makeRng(rng.seed + '|distinct|' + cards.length));
+      const pk = pair.map((n) => n.noun).sort().join('+');
+      if (pairs.has(pk)) continue;
+      pairs.add(pk);
+      const hrefs = pair.map(hrefOf);
+      let vals;
+      // (a graph to build has no row of one: one box to colour is no count)
+      if (mode === 'tally-fill') { const a = rng.int(2, d.maxN); let b; do { b = rng.int(2, d.maxN); } while (b === a); vals = [a, b]; }
+      else vals = distinctVals(rng, 2, mode === 'pict-fill' ? 2 : 1, d.maxN).map((v) => v * (mode === 'pict-fill' ? 1 : sc));
+      if (vals.length < 2) continue;
+      if (mode === 'pict-read') {
+        const cell = checkCell(Math.max(...vals) / sc);
+        const g = pictograph({ rows: pair.map((n, i) => ({ iconHref: hrefs[i], n: vals[i] })), scale: sc, cell, rowGap: Math.round(cell * 0.45), keyScale: 1 });
+        cards.push(checkRow(frame(g.svg), checkCol(pair.map((n, i) => ansCard(hrefs[i], vals[i], true, ` data-lcs-row="${i}" data-lcs-rown="${vals[i]}"`)))));
+      } else if (mode === 'bar-read') {
+        const g = barGraph({ values: vals, iconHrefs: hrefs, yMax: Math.max(...vals) + (sc > 1 ? sc : 1), yStep: sc, w: 300, h: 246, padL: 50, padB: 60, fontSize: 16, iconSize: 42, barMax: 70 });
+        cards.push(checkRow(frame(g.svg), checkCol(pair.map((n, i) => ansCard(hrefs[i], vals[i], true, ` data-lcs-row="${i}" data-lcs-rown="${vals[i]}"`)))));
+      } else if (mode === 'pict-fill') {
+        // the count cards, and the empty picture graph as wide as the level's largest count (a row that is full gives nothing away)
+        const cell = checkCell(d.maxN);
+        let g = pictograph({ rows: pair.map((n, i) => ({ iconHref: hrefs[i], n: vals[i] })), cell, rowGap: Math.round(cell * 0.45), emptyGrid: true, slots: d.maxN }).svg;
+        const at = {};
+        g = g.replace(/data-lcs-emptycell="(\d+)"/g, (m, i) => { at[i] = (at[i] || 0) + 1; return at[i] === vals[i] ? m + ` data-lcs-answer="${vals[i]}"` : m; });
+        cards.push(checkRow(checkCol(pair.map((n, i) => card(ICON(hrefs[i], 40) + NUMTXT(vals[i], 30), ` data-lcs-row="${i}" data-lcs-rown="${vals[i]}"`))), frame(g)));
+      } else {
+        // tally-fill: the tally cards, and the empty bar graph of the level (0 to the level's largest count)
+        const w = 280, h = 246, padL = 44, padB = 60, padT = 12, padR = 10, yMax = d.maxN;
+        const g = barGraph({ values: [0, 0], iconHrefs: hrefs, yMax, w, h, padL, padB, fontSize: 16, iconSize: 42, barMax: 64 });
+        // the box where a bar stops (the geometry of primitives/bar-graph.js): its answer is the count
+        const plotW = w - padL - padR, plotH = h - padT - padB, slotW = plotW / 2, barW = Math.min(64, slotW * 0.55);
+        const yFor = (v) => padT + plotH - (v / yMax) * plotH;
+        const stops = vals.map((v, i) => `<rect x="${(padL + i * slotW + (slotW - barW) / 2).toFixed(1)}" y="${yFor(v).toFixed(1)}" width="${barW.toFixed(1)}" height="${(yFor(v - 1) - yFor(v)).toFixed(1)}" fill="none" data-lcs-answer="${v}" data-lcs-stop="${i}"/>`).join('');
+        cards.push(checkRow(checkCol(pair.map((n, i) => card(ICON(hrefs[i], 40) + tallyPrim({ n: vals[i], strokeH: 34 }).svg, ` data-lcs-tallycat="${i}" data-lcs-catn="${vals[i]}"`))), frame(g.svg.replace(/<\/svg>$/, stops + '</svg>'))));
+      }
+    }
+  }
+  if (cards.length < CHECK_CARDS) throw new Error(`${type.id} checkPage: only ${cards.length} different cards`);
+  // (the grid in a wrapper of its own: a grid straight in the page body is cut the old way, where a card is known by its
+  // numbers only, and two graphs whose answers lie on one scale would be one task)
+  return { bodyHtml: `<div>${checkGrid(cards)}</div>`, meta: {} };
+}
+
 function makeGraphType(cfg) {
   const { id, slug, mode, scale, which, gradeBand, i18n, fracLabels } = cfg;
   const screenLib = () => require('../../lib/graph-screen.js');
@@ -109,6 +213,8 @@ function makeGraphType(cfg) {
     interactive: mode === 'survey' ? undefined : require('../../lib/graph-screen.js').interactiveFor(mode, which, scale || 1),
     /** Level Set copies: what a page asks (build-waves compares copies by these) */
     levelSetWords(m) { return (m.asks || []).map(String); },
+    // the unit checks' page (Part 7.6, above): only the modes whose task a small graph of two categories asks whole
+    ...(CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return graphCheckPage(this, cfg, args, ctx); } } : {}),
 
     build({ theme, difficulty, locale }, ctx) {
       // (the maker-only modes have no published catalogue face: their level 2, copy 1 builds its key like every page)

@@ -1186,6 +1186,41 @@ const TYPE = {
   },
 };
 function hexToRgb(h) { const n = parseInt(h.slice(1), 16); return `rgb(${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255})`; }
+/**
+ * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the base page's letter block made a card —
+ * seven letters (the page's own lesson first, then the next lessons; each lesson's order drawn by the check's seed), each
+ * its own block at the level's size and chains (the
+ * page's own geometry, resolvePage over that one letter), row A (the model + the grey chains to trace) over ONE empty row
+ * of the same ruling: a writing task with a model answer, the letter, carried by that row (the key writes it there).
+ * Seven: a page has three to six letters. Every other face gives the check its page as it is.
+ */
+TYPE.checkPage = function checkPage({ difficulty, locale, unit }, ctx) {
+  const d = this.difficulty[difficulty];
+  if (!d || d.mode !== 'base') return this.build({ difficulty, locale, unit }, ctx);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const loc = String(locale || 'en').slice(0, 2);
+  if (NEUTRAL.refusedLocales[loc]) throw new Error(`${ID}: type refused in ${loc}: no national joined script (${NEUTRAL.refusedLocales[loc]})`);
+  const bankLoc = loadBank(KEY, loc);
+  const u = unit || (bankLoc.exemplarByMode && bankLoc.exemplarByMode.base) || bankLoc.exemplar;
+  // the letters the lesson's page teaches first (lesson 0), then the next lessons in the country's teaching order
+  const where = [];
+  (bankLoc.lessons[u] || []).forEach((lesson, li) => ctx.rng.shuffle(lesson).forEach((letter) => { if (!where.some((x) => x.letter === letter)) where.push({ letter, li }); }));
+  const W = BODY_W - 35;   // the card's inner width
+  let face = '';
+  const cards = where.slice(0, 7).map(({ letter, li }) => {
+    const p = resolvePage(bankLoc, { ...d, lesson: li, letterSet: [letter] }, loc, u);
+    face = C6.cwFontFace(p.unit);
+    const seyes = p.kind === 'seyes' ? SR.seyesGeometry({ unit: p.unit, i: p.X, rows: 2, last: true }) : null;
+    const block = C6.cwBlock({ unit: p.unit, kind: p.kind, letter, chains: p.chains, writeRows: 1, w: W, marginX: MARGIN_X, geom: p.geom, seyes, dashHelpers: p.dashHelpers, blockIndex: 0, rowGap: [ROW_GAP, ROW_GAP] });
+    const ans = (style) => `<span data-lcs-answer="${letter}" style="position:absolute;left:${MARGIN_X}px;right:0;${style}"></span>`;
+    const out = p.kind === 'seyes'
+      ? block.replace(/(<div class="cw-row" data-lcs-row="B" data-lcs-yb="([\d.]+)" data-lcs-empty=""[^>]*>)/, (m, open, yb) => open + ans(`top:${Math.round(+yb - 3 * p.X)}px;height:${Math.round(3 * p.X)}px`))
+      : block.replace(/(data-lcs-row="B"[^>]*>[\s\S]*?<\/svg>)/, (m) => m + ans('top:0;bottom:0'));
+    if (!out.includes('data-lcs-answer=')) throw new Error(`${ID}: no empty row to carry "${letter}"`);
+    return `<div style="display:flex;flex-direction:column">${out}</div>`;
+  });
+  return { bodyHtml: `<div data-lcs-check-page>${face}${checkGrid(cards)}</div>`, meta: {} };
+};
 TYPE._browserVerify = browserVerify;
 TYPE._rasterVerify = rasterVerify;
 /** the G2-386 mark classes of a locale as [source, flags, letters, label] (the bank gate reads the same table) */

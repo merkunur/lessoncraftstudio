@@ -19,6 +19,7 @@
 const tokens = require('../../primitives/_tokens.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { PLOT_WORDS } = require('./measure-units.js');
+const { checkGrid } = require('../../lib/check-page.js');
 
 const C = tokens.color, INK = C.ink, TEAL = C.teal, CORAL = C.coral;
 const loc2 = (l) => String(l || 'en').slice(0, 2);
@@ -83,18 +84,24 @@ function makeRulerLengthsType({ id, slug, mode, gradeBand, i18n }) {
     i18n,
     levelSetWords(m) { return [(m.items || []).join(' ')]; },
 
+    /** THE ITEM BANK (Part 7.6): the pencils of the level, each over its own ruler, a card each (build, ctx.check) */
+    checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
+
     build(args, ctx) {
       const lv = Number(args.difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, L = loc2(args.locale);
       const Wd = PLOT_WORDS[L]; if (!Wd) throw new Error(`${id}: no words for ${L}`);
-      const S = systemOf(L), mark = !!(ctx && (ctx.answerKey || ctx.screen));
+      const S = systemOf(L), mark = !!(ctx && (ctx.answerKey || ctx.screen || ctx.check));
       const box = (v, w = 54, h = 38) => `<span class="ws-answerbox"${mark && v != null ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;flex:0 0 auto;vertical-align:middle;width:${w}px;height:${h}px;box-sizing:border-box;border:2.5px dashed ${CORAL};border-radius:9px;background:#FFFFFF"></span>`;
       const step = d.halves && S.per === 4 ? 2 : 1;   // the easier English page stays on the wholes and halves
       // the lengths, in ticks: with a plot, ONE most frequent length (never an end of the data), 5 or 6 different lengths
+      // (the item bank of the unit checks, ctx.check: seven DIFFERENT lengths of the level, no plot — seven, so that its
+      // cards are never paired with the cards of the level's answer key, which has six or eight)
+      const dl = ctx && ctx.check ? { ...d, n: 7, plot: false } : d;
       let ks;
       for (let t = 0; t < 600; t++) {
         // (a pencil that does not start at 0 starts one or two whole units in: it is at most the ruler less one unit long)
-        const all = []; for (let k = S.lo + (d.plot ? 1 : 0); k <= S.hi - (d.offset ? S.per : 0); k += step) all.push(k);
-        if (!d.plot) { ks = rng.sample(all, d.n); if (ks.filter((k) => k % S.per !== 0).length >= 3 && ks.some((k) => k % S.per === 0)) break; ks = null; continue; }
+        const all = []; for (let k = S.lo + (dl.plot ? 1 : 0); k <= S.hi - (d.offset ? S.per : 0); k += step) all.push(k);
+        if (!dl.plot) { ks = rng.sample(all, dl.n); if (ks.filter((k) => k % S.per !== 0).length >= 3 && ks.some((k) => k % S.per === 0)) break; ks = null; continue; }
         const freq = rng.pick([[3, 2, 1, 1, 1], [3, 2, 2, 1], [3, 1, 1, 1, 1, 1]]);
         const pool = rng.sample(all, freq.length); ks = []; freq.forEach((f, i) => { for (let j = 0; j < f; j++) ks.push(pool[i]); });
         const mn = Math.min(...ks), mx = Math.max(...ks);
@@ -113,6 +120,9 @@ function makeRulerLengthsType({ id, slug, mode, gradeBand, i18n }) {
         const pic = `<svg width="${W}" height="${PH + 6 + 32}" viewBox="0 0 ${W} ${PH + 6 + 32}" style="display:block;flex:0 0 auto" data-lcs-measure="${k}|${s0}">${pencil(X0 + s0 * T, 2, k * T, PH, bodies[i % 3])}${ruler(X0, PH + 6, S.units, S.per, T, d.halves && S.per === 4 ? 2 : S.per)}</svg>`;
         return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:${big ? 10 : 4}px;padding:0 2px" data-lcs-len="${k}|${s0}">${pic}<span style="display:inline-flex;align-items:center;gap:5px;flex:0 0 auto">${box(S.key(k), big ? 92 : 78, big ? 46 : 36)}${WORD(S.unit, 16)}</span></div>`;
       });
+      // the item bank of the unit checks (Part 7.6): each pencil over its ruler is a card of its own, its box carrying the
+      // length (the line plot and its questions read the whole page's data: they stay on the worksheet)
+      if (ctx && ctx.check) return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
       let extra = '', stamp = '';
       if (d.plot) {
         const count = (v) => ks.filter((x) => x === v).length, mode1 = ks.slice().sort((a, b) => count(b) - count(a))[0];

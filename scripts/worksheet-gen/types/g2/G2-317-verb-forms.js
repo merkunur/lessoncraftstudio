@@ -652,6 +652,29 @@ module.exports = {
     return this._buildWith(bank, d, { theme, locale: loc, unit }, ctx);
   },
 
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the base page's sentences made cards — eight
+   * lanes over eight distinct verbs of the level's pool (pickRows over the merged bank, pictured or not), each with its verb
+   * in the chip (on the page the table names the verbs; a card without the chip could take several verbs), the lane
+   * carrying its form as data-lcs-answer (the key writes it into the gap box). Eight: the page has three lanes, six table
+   * rows, and its level-1 key seven alike blocks (the cutter pairs check and key cards by place when the counts agree). Every other face gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale, unit }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (d.match || d.tables === 0 || d.choice || d.hunt || d.pool === 'irregular') return this.build({ theme, difficulty, locale, unit }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = (locale || 'en').slice(0, 2);
+    const bank = mergedBankOf(loc);
+    const u = unitOf(bank, unit || bank.exemplar);
+    const rows = pickRows(ctx.rng, bank, u, withForms(bank, u, poolFor(bank, d.pool)), 8);
+    if (!rows) throw new Error(`${ID}: no 8 check lanes over the verbs of ${u.key}/${loc}`);
+    const cards = rows.map((l) => sentenceGap({
+      src: pictureOf(l.verb, loc), text: l.frame.text, hint: l.verb.inf, render: 'gap', padding: '0',
+      attrs: `data-lcs-verb="${l.verb.inf}" data-lcs-col="${l.col}" data-lcs-form="${l.form}" data-lcs-frame="${l.frame.id}" data-lcs-answer="${l.form}"`,
+    }).replace('<div class="ws-lane" data-lcs-lane', '<div data-lcs-lane'));
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
+
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
   _buildWith(bank, d, { locale, unit }, ctx) {
     if (!d) throw new Error(`${ID}: no difficulty config`);

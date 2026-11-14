@@ -26,6 +26,50 @@ function makeSceneCountType(cfg) {
     },
     i18n,
 
+    /**
+     * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): the page's scene made
+     * small, six times — each card its own little scatter (mixedScatter, the level's counts, at most three kinds so the
+     * pictures stay big enough to count) with what the task needs inside the card: the legend of kinds with a box each
+     * (legend), or the picture to look for in its box (find: every picture like it carries data-lcs-correct, the key
+     * rings them). The cutter pairs a page's cards with the cards of the type's answer key when their numbers agree: the
+     * key page's own scatter (the same seed) is counted first and the check takes another number of cards.
+     */
+    checkPage({ theme, difficulty, locale }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const { makeRng } = require('../../lib/rng.js');
+      const th = theme || (this.themeAxis && this.themeAxis.fixedTheme);
+      const d = this.difficulty[difficulty] || this.difficulty[2];
+      const rng = ctx.rng;
+      const keyItems = this.build({ theme, difficulty, locale }, { rng: makeRng(rng.seed), variant: ctx.variant, answerKey: true }).meta.items;
+      const avoid = new Set([keyItems.reduce((a, it) => a + it.n, 0), keyItems.length]);
+      let N = 6; while (avoid.has(N)) N++;
+      const pool = labelSafeNouns(th);
+      const kinds = Math.min(3, d.nouns);
+      if (pool.length < kinds + 1) throw new Error(`${id} checkPage: theme ${th} has ${pool.length} nouns`);
+      // the thing to look for (find) / the first kind (legend) comes round the theme's nouns in a drawn order
+      const firsts = rng.shuffle(pool.slice());
+      const W = 600, H = 180;
+      const cards = Array.from({ length: N }, (_, c) => {
+        const first = firsts[c % firsts.length];
+        const picked = [first, ...rng.sample(pool.filter((p) => p.noun !== first.noun), kinds - 1)];
+        const items = picked.map((p) => ({ ...p, n: rng.int(d.minN, d.maxN) }));
+        const total = items.reduce((a, it) => a + it.n, 0);
+        const cols = Math.ceil(Math.sqrt(total * (W / H))), rows = Math.ceil(total / cols);
+        const iconPx = Math.max(30, Math.min(64, Math.floor(Math.sqrt((W * H) / total) * 0.62), Math.floor(W / cols) - 6, Math.floor(H / rows) - 6));
+        const scatter = mixedScatter({ theme: th, items, w: W, h: H, iconPx, rng, ...(mode === 'find' ? { mark: (it) => (it === items[0] ? ' data-lcs-correct="1"' : '') } : {}) });
+        const target = items[0];
+        const head = mode === 'find'
+          ? `<div class="ws-scene-banner" style="align-self:center" data-lcs-target="${target.vocabKey}" data-lcs-targetn="${target.n}"><img class="ws-icon" src="${fileUri(th, target.noun)}" alt="" style="width:48px;height:48px"></div>`
+          : '';
+        const legend = mode === 'legend'
+          ? `<div class="ws-scene-legend" style="margin-top:0">` + items.map((it) => `<span class="ws-scene-legend-item" data-lcs-noun="${it.vocabKey}" style="gap:8px;padding:6px 10px">` +
+            `<img class="ws-icon" src="${fileUri(th, it.noun)}" alt="" style="width:42px;height:42px">${answerBox({ w: 56, h: 44, answer: it.n })}</span>`).join('') + `</div>`
+          : '';
+        return `<div class="ws-card-stage" style="flex-direction:column;gap:8px;padding:2px">${head}<div class="ws-scene" style="flex:0 0 auto;padding:6px" data-lcs-scene>${scatter}</div>${legend}</div>`;
+      });
+      return { bodyHtml: checkGrid(cards), meta: {} };
+    },
+
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;

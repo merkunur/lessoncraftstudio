@@ -712,6 +712,36 @@ module.exports = {
   },
 
   /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the base page's story rows made cards —
+   * seven stories of the level's pool (as many as the pool holds, at least six), each one hung row of its pictures in a
+   * scramble of the page's law (drawPerm), every tag carrying the number of the card above it (data-lcs-answer: the key
+   * writes it there); the cards a fifth smaller than the page's so a row stays under ~330 px. Seven: the page has two or
+   * three rows of three or four cards. Every face gives the check its page as it is (retell-with-starters, G2-378, is free
+   * writing: no one answer).
+   */
+  checkPage({ difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty];
+    if (!d || d.mode !== 'base') return this.build({ difficulty, locale }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = String(locale || 'en').slice(0, 2), rng = ctx.rng;
+    const block = bank('story-sequencing', loc);
+    if (!block || !block.strings || !block.strings.base) throw new Error(`K-379 ${loc}: no locale block (refuse)`);
+    const pool = storyPool(block, loc, d.sub);
+    if (pool.length < 6) throw new Error(`K-379 ${loc}: ${pool.length} stories carry ${d.sub} (< 6 for a check; refuse)`);
+    const w = Math.round(d.panelW * 0.8);
+    const cards = rng.sample(pool, Math.min(7, pool.length)).map((s) => {
+      const sub = s[d.sub];
+      const perm = drawPerm(d.panels, rng);
+      const row = C6.ssHungRow({
+        cards: perm.map((seq) => { const r = SP.storyPanel({ story: s, rank: sub[seq - 1], w, vh: d.vh, frame: false }); return { svg: r.svg, w: r.width, h: r.height, seq, tag: { w: d.tagW, h: d.tagH }, anchor: s.anchor, sky: SKY(s) }; }),
+        w: ROW_W, gap: d.gap, under: 'tag', grow: 0, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(','), panels: d.panels },
+      });
+      return perm.reduce((html, seq, j) => html.replace(`data-lcs-slot="${j}" data-lcs-answer=""`, `data-lcs-slot="${j}" data-lcs-answer="${seq}"`), row);
+    });
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
+
+  /**
    * The whole build over an INJECTED {block, config}; `plan` ({stories:[ids], perms:[[..]]})
    * and `composer` ('law' | 'derange') are GATE-ONLY seams (PR1 a forced rotation, PR2 the
    * inputs' derangement rule): build() never passes them.

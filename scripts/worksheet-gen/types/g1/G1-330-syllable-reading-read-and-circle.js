@@ -13,4 +13,23 @@ module.exports = {
   interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('circle'),
   difficulty: { 1: { ...D, carpetRows: 2, cards: 4, cols: 2, rows: 2, maxCount: 3, poolMin: 5, choices: 2, pic: 96 }, 2: D, 3: { ...D, carpetRows: 2, cards: 8, cols: 4, rows: 2, maxCount: 4, choices: 4, pic: 64 } },
   i18n: { en: { title: "Word Families: Read and Circle", instruction: "Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it." } },
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): seven cards of the level, each a card of
+   * its own — the face's own build (a new copy) with seven cards over three carpet rows (more words to draw from; the
+   * carpet itself stays off the check: a card's pills are the cells of its own row, read on the card), the right pill
+   * carrying data-lcs-correct (the key rings it). Seven: the page has four, six or eight cards.
+   */
+  checkPage({ difficulty, locale, unit }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const built = base._build.call({ ...this, difficulty: { 0: { ...d, cards: 7, rows: 3, carpetRows: Math.max(3, d.carpetRows) } } }, { difficulty: 0, locale, unit }, { rng: ctx.rng, variant: ctx.variant }, true);
+    const cards = [...built.bodyHtml.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => {
+      const own = (/ data-lcs-answer="([^"]*)"/.exec(m[1]) || [])[1];
+      const pill = ` data-lcs-choice="${own}" `;
+      if (!own || m[1].split(pill).length !== 2) throw new Error(`${this.id}: a card without its one right pill`);
+      return m[1].replace(` data-lcs-answer="${own}"`, '').replace(pill, ` data-lcs-choice="${own}" data-lcs-correct="1" `);
+    });
+    if (cards.length !== 7) throw new Error(`${this.id}: check page cut ${cards.length} cards, not 7`);
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards, { cols: 3 })}</div>`, meta: {} };
+  },
 };

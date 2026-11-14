@@ -11,6 +11,7 @@
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { checkGrid } = require('../../lib/check-page.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const NCS = require('../../lib/number-charts-screen.js');
 
@@ -106,8 +107,18 @@ function makeNumberStripType(cfg) {
       const d = this.difficulty[args.difficulty];
       const b = d.v2 ? this._buildV2(args, ctx, d) : this._buildLegacy(args, ctx, d);
       if (ctx && (ctx.interactive || ctx.answerKey)) return this._screenOrKey(b, args, ctx);
-      delete b._rows;
+      delete b._rows; delete b._cards;
       return b;
+    },
+
+    /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the strips of the level, six of
+     *  them, each a card of its own and nothing beside them (the page's theme picture stands beside its strips, so a
+     *  strip could not be cut from the page). Same draw, same blanks, at the level the lesson hands out. */
+    checkPage(args, ctx) {
+      const d0 = this.difficulty[args.difficulty] || this.difficulty[2];
+      const d = { ...d0, rows: Math.max(6, d0.rows) };
+      const b = d.v2 ? this._buildV2({ ...args, theme: null }, ctx, d) : this._buildLegacy(args, ctx, d);
+      return { bodyHtml: checkGrid(b._cards), meta: b.meta };
     },
 
     /** the published draw (level 2) — unchanged */
@@ -146,7 +157,7 @@ function makeNumberStripType(cfg) {
       const n = ctx.rng.pick(labelSafeNouns(theme));
       const flourish = `<div style="display:flex;justify-content:flex-end;padding:2px 8px">` +
         `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:44px;height:44px"></div>`;
-      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }) + flourish, meta: { asks: asksOf(rowsOut) }, _rows: rowsOut };
+      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }) + flourish, meta: { asks: asksOf(rowsOut) }, _rows: rowsOut, _cards: cards };
     },
 
     /** levels 1 and 3: every row its own start (and rule), blanks spread or paired as the level asks */
@@ -197,7 +208,7 @@ function makeNumberStripType(cfg) {
         flourish = `<div style="display:flex;justify-content:flex-end;padding:2px 8px">` +
           `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:44px;height:44px"></div>`;
       }
-      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }) + flourish, meta: { asks: asksOf(rowsOut) }, _rows: rowsOut };
+      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }) + flourish, meta: { asks: asksOf(rowsOut) }, _rows: rowsOut, _cards: cards };
     },
 
     /** the key (answers in the boxes) or the screen (one card per empty box) */

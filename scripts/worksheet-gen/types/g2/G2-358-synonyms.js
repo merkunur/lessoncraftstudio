@@ -822,6 +822,55 @@ module.exports = {
     return m.pile;   // fields
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the faces whose page shares one thing
+   *  among its tasks: SHADES (the strength key above the rows) — eight three-step scales of the bank, each row a card of its
+   *  own with its own small strength key (none at a no-key level), in the face's own balanced orders; FIELDS (the word pile
+   *  above the two plots) — eight field words, four of each field, each a card with the two plots made small (sign + one
+   *  line): the child writes the word in its field. Every other face (and the base) is cut from its page as before. */
+  checkPage({ theme, difficulty, locale, unit }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (!d || (d.mode !== 'shades' && d.mode !== 'fields')) return this.build({ theme, difficulty, locale, unit }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = String(locale || 'en').slice(0, 2);
+    const block = mergedBankOf(loc);
+    stringsFor(block, d.mode, loc);
+    if ((block.refuse || []).includes(d.mode)) throw new Error(`${this.id}: the ${loc} bank refuses the ${d.mode} face — refuse`);
+    const rng = ctx.rng;
+    const L = lookups(block, loc);
+    let blocks;
+    if (d.mode === 'shades') {
+      const scales = (block.scales || []).filter((s) => Array.isArray(s.words) && s.words.length === 3 && s.words.every((w) => !L.banned.has(norm(w)) && glyphN(w) <= d.maxGlyphs));
+      if (scales.length < 8) throw new Error(`${this.id}: the ${loc} bank signs ${scales.length} three-step scales < 8 — refuse`);
+      // EIGHT cards (the face's balanced orders of a six-row and a three-row page): the cutter pairs a page's cards with the
+      // key page of build() by their place when the counts agree, and the worksheet's own page has three or six rows
+      const pick = rng.shuffle(scales).slice(0, 8);
+      const orders = [...shadeOrders(6, rng), ...shadeOrders(3, rng)];
+      blocks = pick.map((s, i) => (d.noKey ? '' : `<div style="display:flex;justify-content:center;margin-bottom:6px">${C5.synStrengthKey({ w: 210, h: 42 })}</div>`) +
+        `<div>${C5.synShadeRow({ scaleId: s.id, cells: orders[i].map((r) => ({ word: s.words[r], rank: r + 1 })), chipPx: d.chipPx, chipH: d.chipH, box: d.box, maxGlyphs: d.maxGlyphs })}</div>`);
+    } else {
+      const F = block.fields || {};
+      if (!Array.isArray(block.quotes) || block.quotes.length !== 2) throw new Error(`${this.id}: the ${loc} bank has no quotes — refuse`);
+      const lists = d.fields.map((k) => {
+        const f = F[k];
+        if (!f || !f.head || !Array.isArray(f.words)) throw new Error(`${this.id}: the ${loc} bank has no fields.${k} — refuse`);
+        const ws = f.words.filter((w) => !L.banned.has(norm(w)) && glyphN(w) <= d.maxGlyphs);
+        if (ws.length < 8) throw new Error(`${this.id}: fields.${k} has ${ws.length} usable words < 8 — refuse`);
+        return ws;
+      });
+      // (eight words, four of each field: a count the worksheet's own key page never shows, see shades)
+      const words = rng.shuffle([...rng.shuffle(lists[0]).slice(0, 4).map((w) => ({ word: w, field: d.fields[0] })), ...rng.shuffle(lists[1]).slice(0, 4).map((w) => ({ word: w, field: d.fields[1] }))]);
+      blocks = words.map((x) => `<div style="display:flex;flex-direction:column;align-items:center;gap:10px">` +
+        C5.synWordPile({ words: [x], wordPx: d.wordPx }).replace('margin-bottom:12px', 'margin-bottom:0;display:inline-flex;padding:8px 14px') +
+        `<div style="display:flex;gap:16px;width:100%">` + d.fields.map((f) =>
+          `<div style="flex:1 1 0;min-width:0;display:flex;position:relative"${f === x.field ? ` data-lcs-answer="${esc(x.word)}"` : ''}>` +
+          C5.synFieldPlot({ fieldId: f, head: F[f].head, quotes: block.quotes, rows: 1, rowH: d.rowH, glyphH: d.glyphH }) +
+          `<div data-lcs-gapbox style="position:absolute;left:12px;right:12px;bottom:2px;height:${d.rowH}px"></div></div>`).join('') + `</div></div>`);
+    }
+    // (the grid in a wrapper: a grid straight in the page body is cut the old way, where a card whose answers are numbers
+    // is known by its numbers only — six rows ranked 1, 2, 3 would be one task)
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   build({ difficulty, locale }, ctx) {
     const loc = String(locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];

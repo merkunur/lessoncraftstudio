@@ -56,6 +56,47 @@ function dotGrid(rows, cols, { r = 7, gap = 20, fillR = 0, fillC = 0 } = {}) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" data-lcs-dotgrid="${rows}x${cols}">${s}</svg>`;
 }
 
+/**
+ * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the multiplication
+ * square is one task over one grid, its cells no tasks of their own. A check card is a PIECE of the square: two of its
+ * row numbers and three of its column numbers (never one number in both, so no product stands twice), the corner sign,
+ * the headers and the products in the square's own cells, the level's share of them given (L1 four of six, L2 three,
+ * L3 none) and the others empty boxes that carry their product. Rows and columns stand in the square's order. A square
+ * of ten leaves out its 1-row and 1-column (nothing to work out in a check).
+ */
+function squareCheckPage(type, { difficulty, locale }, ctx) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const d = type.difficulty[difficulty] || type.difficulty[2];
+  const rng = ctx.rng;
+  const MUL = mulGlyph(locale);
+  const C = 52;
+  const from = Array.from({ length: d.n }, (_, k) => k + 1).filter((v) => d.n <= 5 || v > 1);
+  const head = (v) => `<span style="width:${C}px;height:${C}px;display:flex;align-items:center;justify-content:center;background:${SOFT};font-family:'Baloo 2';font-weight:700;font-size:24px;color:${INK}">${v}</span>`;
+  const seen = new Set(), cards = [];
+  for (let guard = 0; cards.length < 6 && guard < 400; guard++) {
+    const picked = shuffle(from, rng).slice(0, 5);
+    const rows = picked.slice(0, 2).sort((a, b) => a - b), cols = picked.slice(2).sort((a, b) => a - b);
+    const sig = rows.join(',') + '|' + cols.join(',');
+    if (seen.has(sig)) continue;
+    seen.add(sig);
+    const all = []; for (const r of rows) for (const c of cols) all.push(r + ':' + c);
+    const given = new Set(shuffle(all, rng).slice(0, Math.round(all.length * d.given)));
+    const cells = [`<span style="width:${C}px;height:${C}px;display:flex;align-items:center;justify-content:center;background:${TEAL};color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:26px">${MUL}</span>`, ...cols.map(head)];
+    for (const r of rows) {
+      cells.push(head(r));
+      for (const c of cols) {
+        cells.push(given.has(r + ':' + c)
+          ? `<span data-lcs-sq="${r}x${c}" style="width:${C}px;height:${C}px;display:flex;align-items:center;justify-content:center;background:${CREAM};font-family:'Baloo 2';font-weight:700;font-size:21px;color:${INK}">${r * c}</span>`
+          : `<span data-lcs-sq="${r}x${c}" style="width:${C}px;height:${C}px;display:flex;align-items:center;justify-content:center;background:#FFFFFF">${answerBox({ w: C - 8, h: C - 8, answer: r * c })}</span>`);
+      }
+    }
+    cards.push(`<div style="display:flex;justify-content:center;padding:4px 0"><div style="display:grid;grid-template-columns:repeat(${cols.length + 1},${C}px);gap:2px;background:${GRID};border:2px solid ${GRID};border-radius:8px;overflow:hidden" data-lcs-square-piece="${sig}">${cells.join('')}</div></div>`);
+  }
+  if (cards.length < 6) throw new Error(`${type.id} checkPage: fewer than six pieces of the square`);
+  // (the grid in a wrapper of its own: a card is then known by its look, not by the set of its numbers)
+  return { bodyHtml: `<div>${checkGrid(cards, { cols: 2 })}</div>`, meta: {} };
+}
+
 function makeMdMoreType(cfg) {
   const { id, slug, mode, gradeBand, i18n } = cfg;
   return {
@@ -68,6 +109,8 @@ function makeMdMoreType(cfg) {
     difficulty: cfg.levels || LEVELS[mode],   // a face may bring its own levels (Year pages J)
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
+    // the unit checks' page (Part 7.6, squareCheckPage above): the square only
+    ...(mode === 'square' ? { checkPage(args, ctx) { return squareCheckPage(this, args, ctx); } } : {}),
 
     build(args, ctx) {
       const d = this.difficulty[args.difficulty];

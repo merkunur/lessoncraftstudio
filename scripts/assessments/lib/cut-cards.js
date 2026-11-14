@@ -37,8 +37,11 @@ const url = require('url');
 const WG = path.join(__dirname, '..', '..', 'worksheet-gen');
 const { buildPage } = require(path.join(WG, 'page', 'shell.js'));
 const { makeRng } = require(path.join(WG, 'lib', 'rng.js'));
+const { resolveUnitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
 
 const NO_ANSWER = 'a card carries no answer in its markup, and the type draws no key for it';
+// themes a themed type may need when it refuses the check's own (the countable things of the story pages: fruits, toys, …)
+const THEME_FALLBACK = ['fruits', 'toys', 'vegetables', 'bakery', 'classroom'];
 const DIFFICULTY = 2;                       // the core level of a type; a lesson that hands out another level as its page for everyone passes it (o.difficulty)
 
 /** Finds the tasks of a worksheet page (runs in the page). A page of cards: the .ws-card of its .ws-cardgrid. Any other
@@ -82,13 +85,24 @@ const FIND = `window.__tcFind = function () {
 };`;
 
 async function cutCards(page, o) {
-  const { type, strings, locale, seed, outDir } = o;
+  const { type, locale, seed, outDir } = o;
+  // a type with units ({UNIT}, {U} in its title or line) is built here without a unit, on its exemplar: its strings name
+  // that unit too (Part 7.6: three literacy types were refused for their tokens alone)
+  const strings = o.strings ? resolveUnitTokens(o.strings, type, null, locale) : o.strings;
   if (!strings || !strings.instruction || /\{[A-Za-z_]+\}/.test(strings.instruction + (strings.title || ''))) return { refused: 'its strings hold a token' };   // a type with tokens of its own is not cut
   const themed = !!(type.themeAxis && type.themeAxis.applicable);
   const attempt = async (variant) => {
   let built = null, usedTheme = null;
-  for (const theme of themed ? [o.theme, 'animals'] : [null]) {
-    try { built = await type.build({ theme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant }); usedTheme = theme; break; } catch (e) { built = null; }
+  // a type that names its own themes (type.THEMES: the black-and-white things to color, the countable things of the
+  // story pages) is built on one of them when the check's theme does not build; form B takes them from the other end,
+  // so that its pictures are not form A's (Part 7.6, 2026-11-14: 16 lessons had no part only for this)
+  const own = [...(type.THEMES || []), ...THEME_FALLBACK];
+  for (const theme of themed ? [o.theme, 'animals', ...(o.theme === 'fruits' ? own.slice().reverse() : own)] : [null]) {
+    // THE ITEM BANK (Part 7.6): a type whose worksheet is one whole-page task (a word bank, a number line or a code beside
+    // its tasks) builds a page of check-size cards instead, by the same generator: each card stands alone and carries its
+    // answer in its markup, so it is cut like the cards of any card page. type.checkPage(args, ctx) → { bodyHtml }.
+    const make = typeof type.checkPage === 'function' ? type.checkPage.bind(type) : type.build.bind(type);
+    try { built = await make({ theme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant, check: true }); usedTheme = theme; break; } catch (e) { built = null; }
   }
   if (!built) return { refused: 'it does not build without a unit' };
   const html = buildPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: built.bodyHtml, locale, pageSize: locale === 'en' ? 'letter' : 'a4' });
@@ -192,7 +206,11 @@ async function cutCards(page, o) {
   // are the key cards of the check, and a card the child circles or colours gets its answer from what the key marks.
   let keyCards = null, keyStyles = [];
   try {
-    const builtKey = await type.build({ theme: usedTheme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant, answerKey: true });
+    // (a type with a check page is keyed from that page, never from its worksheet: built again from the same seed it has the
+    // same tasks; the worksheet would pair its own cards with the check's by place whenever both had as many — found by
+    // two of the agents of the item bank, 2026-11-14: the key showed another page's tasks)
+    const makeKey = typeof type.checkPage === 'function' ? type.checkPage.bind(type) : type.build.bind(type);
+    const builtKey = await makeKey({ theme: usedTheme, difficulty: o.difficulty || DIFFICULTY, locale, unit: null }, { rng: makeRng(seed + '|' + type.id), variant, answerKey: true, check: typeof type.checkPage === 'function' });
     fs.writeFileSync(file, buildPage({ title: strings.printTitle || strings.title, instruction: strings.instruction, bodyHtml: builtKey.bodyHtml, locale, pageSize: locale === 'en' ? 'letter' : 'a4' }), 'utf8');
     await page.goto(url.pathToFileURL(file).href, { waitUntil: 'networkidle0' });
     await page.evaluate(() => document.fonts.ready);

@@ -11,6 +11,9 @@ module.exports = {
   slug: 'odd-and-even-sum-decide-without-adding',
   difficulty: base.levelsFor('G3-386', D),
   interactive: base.interactiveFor('sums'),
+  /** THE ITEM BANK (Part 7.6): each row of the level a card of its own, with its parity table and its two words (the
+   *  page shares them above the columns, so a row could not be cut from it). The factory draws it (G1-351 _checkSums). */
+  checkPage(args, ctx) { return this._checkSums(args, ctx); },
   i18n: { en: { title: "Odd or Even Sum? Decide Without Adding", instruction: "Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd." } },
   gradeBand: "G3",
 };

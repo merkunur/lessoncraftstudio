@@ -40,6 +40,37 @@ module.exports = {
     };
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): eight sight words of the locale's core list
+   *  (the published units), each a card of its own — the word in its box and ONE of its reviewed sentences with the word
+   *  taken out, drawn by the page's own rules (blankable, a sentence-initial gap only as the level allows it, traced at
+   *  level 1). The gap carries the word (data-lcs-answer, a gap box for the key). Eight: the cutter pairs a page's cards
+   *  with the key page of build() by their place when the counts agree, and a page holds four to six sentences. */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    const rng = ctx.rng;
+    const units = SW.unitAxis.units(loc).slice(0, 24);
+    const blocks = [];
+    for (const unit of rng.shuffle(units)) {
+      if (blocks.length === 8) break;
+      const word = SW.wordOf(unit, loc);
+      const all = SW.sentencesOf(word, loc).filter((s) => SW.blankable(s, word));
+      const inner = all.filter((s) => !SW.startsSentence(s, word));
+      const pool = d.initial === 'any' ? all : (inner.length ? inner : all);
+      if (!pool.length) continue;
+      const s = rng.pick(pool);
+      const sentence = SW.blankSentence(s, word, { traced: d.traced, fontPx: d.fontPx })
+        .replace('<span data-lcs-gap style="', '<span data-lcs-gap style="position:relative;')
+        .replace(/(<span data-lcs-gap [^>]*>)/, '$1<span data-lcs-gapbox style="position:absolute;inset:0;z-index:1;line-height:normal"></span>');
+      blocks.push(`<div style="display:flex;flex-direction:column;gap:8px">` +
+        `<div style="display:flex;justify-content:center">${SW.wordBox(word, 40)}</div>${sentence}` +
+        (SW.startsSentence(s, word) ? `<div data-lcs-capital style="font-family:'Nunito',sans-serif;font-size:15px;font-style:italic">${SW.esc(SW.label('capital', loc))}</div>` : '') + `</div>`);
+    }
+    if (blocks.length < 8) throw new Error(`K-389 checkPage: ${loc} gives ${blocks.length} sight words with a sentence`);
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];

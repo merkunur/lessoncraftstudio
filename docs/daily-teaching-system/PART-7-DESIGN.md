@@ -382,3 +382,22 @@ Förskoleklass: Läge, storlek och mönster · Antal och siffror 0–10 · Geome
 ### Next in Part 7
 
 The open task for every language is unchanged: a second form of item for whole-page worksheets (7.6 in PLAN.md §13), which the checks of the year and a check for every unit wait for.
+
+## 7.6 The item bank: a check-size task for every lesson (2026-11-14)
+
+**Measured before it was built (English, `build-checks.js --debug`):** 109 of 283 lessons had a part in a check; 21 of 44 units had no check. 118 lessons had no worksheet the cutter could take a card from: 66 types stand their tasks beside something they share (a word bank, a number line, a legend, a code), 19 write their answers only into the key, 16 refused the check's picture themes, 20 cannot fill two forms without asking a task twice, 6 have no tasks of a repeated shape. The gap list is `out/assessments/item-bank-gap.en.json` (lesson, its types, each type's reason).
+
+**Two changes in the cutter (`lib/cut-cards.js`):**
+- A themed type that names its own themes (`type.THEMES`) or counts things of a few themes only is built on one of them when the check's theme does not build; form B takes them from the other end (16 lessons had no part only for this: the story pages, How Many in All?).
+- **The hook.** A type whose worksheet is one whole-page task gives the check a page of its own: `checkPage(args, ctx) → { bodyHtml }`, called with the arguments of `build` (`ctx.check` is true). The cutter takes its cards exactly as it takes the cards of any card page; nothing else in the check pipeline changes.
+
+**What a check page must be** (every rule is a gate of the cutter or of `scripts/assessments/gates.js`, or a reason a reader has refused a part before):
+1. A `.ws-cardgrid` of `.ws-card` sections (`lib/check-page.js` `checkGrid(cards, { cols })`) and NOTHING else on the page: each card is one task that stands alone. A task that needs a word bank, a key, a number line or a legend carries its own small one inside the card. `checkGrid` wraps the grid in `<div data-lcs-check-page>`: a grid standing straight in the page's body is cut as an old worksheet grid whose cards are keyed by the numbers they show (cards with count badges 1/2/3, or a clock and a ruler card with the same number, became one task).
+2. Each card carries its answer in its markup: `data-lcs-answer="…"` on every box the child writes in, or `data-lcs-correct="1"` on the right option of a choice. The form shows no answer (the key is drawn from the same markup).
+3. A card is at most about 330 px tall at the page's width (a part of a check is one to three cards; `CARD_MAX` 460 refuses a card outright).
+4. At least six different tasks per page, and another seed gives other tasks: form B may not ask what form A asks (same numbers in any order, same sentence, same picture = the same task).
+5. Made by the type's OWN generator, data and drawing functions, at the level the lesson hands out (`args.difficulty`), in every language the type ships in: the item is the worksheet's task made small, never a new task.
+6. The type's instruction line stands above the part. Where it names something a single card does not have ("look at the table", "in each row"), the check gets its own line in `scripts/assessments/lists/<loc>.json` → `instruction` (written natively for every language whose checks are built: en, de, sv).
+7. Free writing (a page of lines to write about a picture or oneself) has no one answer and stays out of the check, named on the teacher page; a task with a model answer (write the letter, the word, the missing number) is a part.
+
+**Tool:** `node scripts/assessments/probe-cut.js --types=<ids> [--loc=en] [--level=2] [--out=<folder>]` tries types through the cutter in isolation (several runs may go at once; it shares no file with `build-checks.js`) and says per type: refused and why, or the cards with their heights and answers.

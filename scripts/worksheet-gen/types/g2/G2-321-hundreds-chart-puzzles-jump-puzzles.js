@@ -14,4 +14,21 @@ module.exports = {
   difficulty: { 1: { ...D, arrows: 2 }, 2: D, 3: { ...D, arrows: 4, unitOverride: '101-200', cols: 1 } },
   i18n: { en: { title: "Jump Puzzles: Follow the Arrows", instruction: "Start at the number and follow the arrows: up is 10 less, down is 10 more, left is 1 less, right is 1 more. Write where you land." } },
   gradeBand: "G2",
+
+  /** THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): six chains of the level,
+   *  each a card of its own with the arrow key drawn small inside it (on the worksheet one key stands above all the
+   *  chains). The chains are the page's own (G1-310 generateChains, through build), drawn by its own jumpChain; six, so
+   *  that the cards are never paired with the eight chains of the level's answer key. */
+  checkPage({ theme, difficulty, locale, unit }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const C3 = require('../../templates/components-b3.js');
+    const d = { ...(this.difficulty[difficulty] || this.difficulty[2]), items: 6 };
+    const built = base.build.call(Object.assign(Object.create(this), { difficulty: { check: d } }), { theme, difficulty: 'check', locale, unit }, { ...(ctx || {}), interactive: false, answerKey: false });
+    const chains = built.meta.chains, step = built.meta.step;
+    if (!Array.isArray(chains) || chains.length !== 6) throw new Error('G2-321 checkPage: no six chains');
+    const cards = chains.map((ch) => `<div class="ws-card-stage" style="flex-direction:column;gap:10px;padding:2px 4px">` +
+      C3.chartCompass({ width: 430, height: 30, chip: 24, px: 17, step }) +
+      C3.jumpChain({ start: ch.start, moves: ch.moves, step, answer: ch.answer, showSteps: !!d.showSteps, pointer: d.pointer !== false, chip: d.chip, gap: d.gap }) + `</div>`);
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
 };

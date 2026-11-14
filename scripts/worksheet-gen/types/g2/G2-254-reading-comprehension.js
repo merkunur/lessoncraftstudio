@@ -106,6 +106,30 @@ module.exports = {
     };
   },
 
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small — each story of
+   * the native pool (six) at the level, in its smallest measured size, with ONE of its questions of that level (drawn by
+   * the check's seed): a card of its own, the right choice carrying data-lcs-correct as on the page. Level 3's write-in
+   * question has no one answer and stays off the check (its two multiple-choice questions are drawn). Six cards, where the
+   * page has three questions.
+   */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = (locale || 'en').slice(0, 2), lvl = [1, 2, 3].includes(Number(difficulty)) ? Number(difficulty) : 2, rng = ctx.rng;
+    const pool = poolOf(this.id, loc);
+    const cards = rng.shuffle(pool.map((_, i) => i)).map((i) => {
+      const built = this._buildLevel(lvl, loc, lvl === 2 ? i : i + 1, 3);
+      const html = built.bodyHtml;
+      const passage = html.slice(html.indexOf('<div style="background:#FBF3E4'), html.indexOf('</p></div>') + '</p></div>'.length);
+      const qs = html.split(/(?=<div class="ws-card-stage")/).slice(1).filter((q) => !q.includes('data-lcs-write="1"'));
+      const q = rng.pick(qs).replace(/(<\/div><\/div>)(<\/div><\/div>)?$/, '$1')
+        .replace(/<span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%[^>]*>\d<\/span>/, '')   // its number on the page
+        .replace('padding-left:36px', 'padding-left:0').replace('padding:8px 14px"', 'padding:8px 12px"');    // (the room of that number)
+      return `<div style="display:flex;flex-direction:column;gap:8px">${passage.replace('padding:12px 22px"', 'padding:10px 16px"').replace('margin-bottom:8px', 'margin-bottom:4px')}${q}</div>`;
+    });
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
+
   /** A copy with a new story on a face prints that story's own title (the face titles name their story). */
   copyStrings(strings, { locale, difficulty, seedVariant }) {
     if (!seedVariant) return strings;

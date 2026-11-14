@@ -58,7 +58,21 @@
   "G1-110": "Räkna prickarna på dominobrickans båda halvor. Skriv summan.",
   "G1-312": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta. Börja längst till vänster och lämna de rutor du inte behöver tomma.",
   "K-231": "Bygg ordet till varje bild med de tre bokstäverna.",
-  "K-358": "Titta på bitarna ovanför figuren. Rita linjerna inuti figuren där bitarna möts."
+  "K-358": "Titta på bitarna ovanför figuren. Rita linjerna inuti figuren där bitarna möts.",
+  "K-237": "Spåra varje siffra. Skriv den sedan själv i den tomma rutan.",
+  "K-253": "Spåra varje siffra. Skriv den sedan själv i den tomma rutan.",
+  "G1-243": "Titta på det stora talet. Fyll i varje ruta med hjälp av talet.",
+  "K-644": "Dra ett streck från kroppen till saken med samma form.",
+  "G2-516": "Rita ett kryss ovanför tallinjen för varje längd. Svara sedan på frågan.",
+  "K-389": "Läs meningen. Skriv ordet från rutan på linjen.",
+  "G2-339": "Läs alternativen och ringa in det som stämmer för djuret.",
+  "G1-293": "Är ordet ett substantiv eller ett verb? Skriv det i rätt ruta.",
+  "G3-493": "Varje penna ligger vid sin egen linjal. Skriv längden med en halv centimeters noggrannhet.",
+  "G2-279": "Hitta varje ruta med hjälp av bokstav och siffra, till exempel B2. Måla den i gruppens färg.",
+  "G3-397": "Skriv varje ord i fältet gå eller i fältet titta, där det hör hemma.",
+  "G2-296": "Titta i kalendern och svara på varje fråga.",
+  "G1-330": "Säg ordet till varje bild och ringa in det ord under bilden som passar.",
+  "G2-317": "Läs varje mening och verbet inom parentes. Skriv rätt form av verbet i rutan."
  },
  "noCheck": {
   "sv-f-sv-spraklekar": "[sv.review-1] Three of the four parts show pictures with several likely words, or sounds that cannot be told apart by ear (ängel: ä or e; kort and skrivbord: rt and rd are one sound; lemonad, trollstav), and rhyme has no part. The check waits until its pictures are chosen word by word for Swedish.",

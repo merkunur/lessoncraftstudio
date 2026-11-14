@@ -60,6 +60,34 @@ function makeSortBinsType(cfg) {
       };
     },
 
+    /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small — one picture
+     *  of the strip over the bins it is sorted into, the right bin carrying data-lcs-correct (a line drawn on a check has no
+     *  mark its key can show: the check circles the bin). Seven cards, each with its own set of bins (two cards with the
+     *  same bins would be the same task), the right bin's place drawn evenly over the cards. */
+    checkPage({ theme }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const rng = ctx.rng, n = 7;
+      const pool = labelSafeNouns(theme);
+      if (pool.length < bins + 1) throw new Error(id + ': theme ' + theme + ' has too few pictures for a check');
+      const sets = [], seen = new Set();
+      for (let guard = 0; sets.length < n && guard < 400; guard++) {
+        const cats = rng.sample(pool, bins), k = cats.map((c) => c.noun).sort().join('|');
+        if (!seen.has(k)) { seen.add(k); sets.push(cats); }
+      }
+      if (sets.length < n) throw new Error(id + ': theme ' + theme + ' gives fewer than ' + n + ' sets of bins');
+      const at = rng.shuffle(sets.map((_, i) => i % bins));
+      const cards = sets.map((cats, ci) => {
+        const item = cats[at[ci]];
+        const binBoxes = cats.map((c) =>
+          `<div class="ws-bin" style="flex:0 0 92px;height:62px" data-lcs-bin="${c.vocabKey}"${c === item ? ' data-lcs-correct="1"' : ''}>` +
+          `<span class="ws-bin-label" style="width:52px;height:52px;top:-26px"><img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:40px;height:40px"></span></div>`).join('');
+        return `<div style="display:flex;flex-direction:column;align-items:center;gap:36px;padding-top:2px">` +
+          `<span class="ws-pattern-slot" style="width:78px;height:78px" data-lcs-item="${item.vocabKey}"><img class="ws-icon" src="${fileUri(theme, item.noun)}" alt="" style="width:66px;height:66px"></span>` +
+          `<div style="display:flex;justify-content:center;gap:18px;width:100%">${binBoxes}</div></div>`;
+      });
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards, { cols: 2 })}</div>`, meta: {} };   // (in a wrapper: a grid straight in the body is cut as an old card page, keyed by the numbers it shows)
+    },
+
     async verify(page) {
       return page.evaluate(() => {
         const fails = [];

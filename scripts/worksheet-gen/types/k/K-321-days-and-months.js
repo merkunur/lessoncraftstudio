@@ -169,6 +169,56 @@ module.exports = {
     },
   },
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the two layouts whose
+   * page is one task the check cannot cut:
+   *  - the numbering page (no layout, the days): six cards, each the WHOLE week to number — the page's own composer
+   *    (_buildWith: the level's given ranks, the shuffle rules) at a card's size, in two columns;
+   *  - the neighbours face (G1-319 yesterday / today / tomorrow, G1-321 the month before and after): one card per day
+   *    (month) of the cycle, each row under its own small column heads (on the worksheet one row of heads stands above
+   *    all the rows); the level's inverse rows, and the easier level's strip of the cycle inside every card. The answer a
+   *    lane carries is the NAME the child writes (the page stamps the cycle index there for its own key).
+   * Every other face builds its own page, as before.
+   */
+  checkPage(args, ctx) {
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = (args.locale || 'en').slice(0, 2);
+    const plain = { ...(ctx || {}), interactive: false, answerKey: false };
+    if (!d.layout && d.unit === 'days') {
+      // the week at a card's size: two columns, the rows at the K element floor and no taller, a narrower gap
+      const card = { ...d, cols: 2, tileW: 200, namePx: 21, boxPx: tokens.density.K.minElement, rowMax: tokens.density.K.minElement };
+      const self = Object.assign(Object.create(this), { difficulty: { check: card } });
+      const cards = Array.from({ length: 6 }, () => this._buildWith.call(self, loadBank(BANK, loc), { difficulty: 'check', locale: loc }, plain).bodyHtml
+        .replace(/row-gap:14px;/, 'row-gap:6px;').replace(/<div style="flex:0 0 auto;margin-bottom:14px">/, '<div style="flex:0 0 auto;margin-bottom:8px">'));
+      return { bodyHtml: checkGrid(cards), meta: {} };
+    }
+    if (d.layout === 'neighbours') {
+      const bank = loadBank(BANK, loc), cal = calendarOf(loc), rng = ctx.rng;
+      const { names, start, N } = cycleOf(cal, d.unit);
+      const texts = this._texts(bank, loc, d.unit, names);
+      const labels = bank.labels || {};
+      const heads = d.heads === 'beforeAfter' ? { left: labels.before, mid: '', right: labels.after } : { left: labels.yesterday, mid: labels.today, right: labels.tomorrow };
+      if (!heads.left || !heads.right || (d.heads !== 'beforeAfter' && !heads.mid)) throw new Error(`K-321 checkPage: ${loc} bank has no head labels`);
+      const laneKey = d.unit === 'months' ? 'months' : 'neighbours';
+      const glyphH = Math.min(28, (bank.laneGlyphH && bank.laneGlyphH[laneKey]) || d.glyphH || 32);
+      // every day (month) of the cycle once, in a drawn order; the level's share of inverse rows (today is the blank)
+      const todays = rng.shuffle(Array.from({ length: N }, (_, i) => i)).slice(0, Math.min(N, 8));
+      const inv = new Set(d.inverse ? rng.sample(todays.map((_, i) => i), Math.round(d.inverse * todays.length / d.rows)) : []);
+      const at = (i) => ({ day: i, text: texts[i] });
+      const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+      const strip = d.strip ? nameStrip({ names: Array.from({ length: N }, (_, k) => { const i = (start + k) % N; return { day: i, text: texts[i] }; }), px: N > 7 ? 14 : 16, h: 28 }) : '';
+      const cards = todays.map((t, i) => {
+        const row = neighbourRow({ left: at((t - 1 + N) % N), today: at(t), right: at((t + 1) % N), laneW: 190, tileW: 150, h: 60, namePx: d.todayPx || 21, glyphH, inverse: inv.has(i) })
+          .replace(/data-lcs-answer="(\d+)"/g, (m, idx) => `data-lcs-answer="${esc(texts[+idx])}"`);
+        return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;gap:6px;padding:2px 4px">${strip}` +
+          neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right, laneW: 190, tileW: 150, px: 18 }) + row + '</div>';
+      });
+      return { bodyHtml: checkGrid(cards), meta: {} };
+    }
+    return this.build(args, ctx);
+  },
+
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key

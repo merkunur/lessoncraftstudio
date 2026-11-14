@@ -918,6 +918,48 @@ const TYPE = {
     return { ...strings, title, instruction };
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for three of the family's pages (the gap,
+   *  match and position faces are cut from their pages as before). The page's own composer draws SEVEN tasks of the level
+   *  on the page's own team set (the published bank at level 2, the level's first set elsewhere); each is a card of its own:
+   *   BASE      one wire of the abacus under its own key row; the right bead carries data-lcs-correct
+   *   SORT-TWO  one picture between the two team houses; the right house carries data-lcs-correct
+   *   TEXT      one sentence under the target bead; its count box carries the count (data-lcs-answer)
+   *  Seven: the cutter pairs a page's cards with the key page of build() by their place when the counts agree, and no
+   *  page of the family holds seven. */
+  checkPage({ difficulty, locale }, ctx) {
+    const loc = (locale || 'en').slice(0, 2);
+    const d0 = this.difficulty[difficulty] || this.difficulty[2];
+    if (!d0 || !['base', 'sort-two', 'text'].includes(d0.mode)) return this.build({ difficulty, locale }, ctx);
+    if (DIGRAPHS_NEUTRAL.REFUSED_LOCALES.includes(loc)) throw new Error(`${ID}: ${loc} is REFUSED whole-family — refuse`);
+    if (d0.mode !== 'base' && (DIGRAPHS_NEUTRAL.FACE_REFUSALS[loc] || []).includes(d0.mode)) throw new Error(`${ID}: ${loc} REFUSES the ${d0.mode} face — refuse`);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const rng = ctx.rng;
+    const pub = loadBank(BANK, loc);
+    const { B, d } = Number(difficulty) === 2 ? { B: pub, d: d0 } : levelSetPage(pub, d0, loc, 1);
+    let blocks;
+    if (d.mode === 'base') {
+      const built = this._buildWith(B, { ...d, wires: 7, perTeam: [2, 4] }, { locale: loc }, { rng });
+      const { teams, rows } = built._ans;
+      const cfg = { capPx: d.capPx, iconPx: d.iconPx, rowMin: d.rowMin, rowMax: d.capPx + SPARSE_MAX - 4, keyH: d.keyH, bead: d.bead, keyBead: d.keyBead };
+      blocks = rows.map((r) => C5.soundAbacus({ teams, rows: [{ n: '', src: fileUri(r.item.theme, r.item.noun), vocabKey: r.item.vocabKey, seg: r.item.seg, snd: r.item.snd, answerCol: r.col }], cfg }).html
+        .replace(`data-lcs-bead="${esc(teams[r.col])}" data-lcs-col="${r.col}"`, `data-lcs-bead="${esc(teams[r.col])}" data-lcs-col="${r.col}" data-lcs-correct="1"`));
+    } else if (d.mode === 'sort-two') {
+      const built = FACE_BUILD['sort-two'](B, { ...d, pictures: 7, split: rng.next() < 0.5 ? [3, 4] : [4, 3] }, loc, rng, {});
+      const { teams, rows } = built._ans;
+      blocks = rows.map((r) => C5.teamHouses({ teams, cards: [{ src: fileUri(r.item.theme, r.item.noun), vocabKey: r.item.vocabKey, seg: r.item.seg, snd: r.item.snd, bin: r.col }], cfg: d }).html
+        .replace(`data-lcs-house="${esc(teams[r.col])}" data-lcs-col="${r.col}"`, `data-lcs-house="${esc(teams[r.col])}" data-lcs-col="${r.col}" data-lcs-correct="1"`));
+    } else {
+      let built = null;
+      for (const n of [7, 6]) { try { built = FACE_BUILD.text(B, { ...d, sentences: n, total: [n, 99] }, loc, rng); break; } catch (e) { if (n === 6) throw e; } }
+      const { target, sentences } = built._ans;
+      const laneCfg = { textPx: d.textPx, textMax: d.textPx, textCqh: 1, lineH: d.lineH, box: d.box };
+      const head = `<div style="display:flex;justify-content:center;margin-bottom:8px;line-height:0">${teamBead({ text: target, w: 80, h: 46, mode: 'given', fontPx: 28 }).svg}</div>`;
+      blocks = sentences.map((s) => head + C5.sentenceLane({ n: '', id: s.id, text: s.text, tokens: s.tokens, cfg: laneCfg, blankNumeralBox: C3.blankNumeralBox })
+        .replace('data-lcs-answer=""', `data-lcs-answer="${s.n}"`));
+    }
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam). */
   _buildWith(B, d, { locale }, ctx) {
     if (ctx && (ctx.interactive || ctx.answerKey) && (!d || d.mode === 'base')) return screenOrKey('base', this._buildWith(B, d, { locale }, { ...ctx, interactive: false, answerKey: false }), ctx, (locale || 'en').slice(0, 2));

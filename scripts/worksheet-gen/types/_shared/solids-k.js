@@ -24,6 +24,7 @@
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { fileUri } = require('../../image-cache/resolve.js');
+const { checkGrid } = require('../../lib/check-page.js');
 
 const C = tokens.color, INK = C.ink, TEAL = C.teal, CORAL = C.coral;
 const loc2 = (l) => String(l || 'en').slice(0, 2);
@@ -95,6 +96,38 @@ function makeSolidsType({ id, slug, gradeBand, i18n }) {
     i18n,
     // one word for the whole page: the order of the solids below is the page (two copies with one order are one page)
     levelSetWords(m) { return [(m.items || []).join(' ')]; },
+
+    /**
+     * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's match made small — one
+     * solid a card, drawn as the level draws the solids to colour (its sizes; on levels 2-3 also turned: a tilted cube,
+     * a cylinder lying down, a cone on its side or its tip), beside the four things of the level's match in a drawn order;
+     * the thing of the same shape carries data-lcs-correct. Every solid in every pose of the level (level 1 in both
+     * sizes); the page's colour code needs the whole page and stays out.
+     */
+    checkPage(args, ctx) {
+      const lv = Number(args.difficulty) || 2, d = LEVELS[lv] || LEVELS[2], rng = ctx.rng;
+      const turned = { cube: ['tilt'], cylinder: ['lying'], cone: ['lying', 'tip'] };
+      const asks = [];
+      for (const k of SOLIDS) {
+        const poses = d.turn ? ['up', ...(turned[k] || [])] : ['up'];
+        const sizes = shuffle(d.sizes, rng);
+        if (poses.length === 1 && !d.turn) for (const size of sizes.slice(0, 2)) asks.push({ k, pose: 'up', size });
+        else poses.forEach((pose, j) => asks.push({ k, pose, size: sizes[j % sizes.length] }));
+      }
+      const thingOf = Object.fromEntries(SOLIDS.map((s) => [s, rng.pick(THINGS[d.things][s])]));
+      // never as many cards as the page has solids to colour (8 / 12): the cutter pairs a page's key cards with the
+      // cards by their number
+      let list = shuffle(asks, rng);
+      if (list.length === (d.each ? d.each * SOLIDS.length : 12)) list = list.slice(0, list.length - 1);
+      const cards = list.map((a) => {
+        const opts = shuffle(SOLIDS, rng).map((s) => `<span data-lcs-choice="${s}"${s === a.k ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:86px;height:86px;box-sizing:border-box;border:2px solid #F0E4CB;border-radius:14px;background:#FFFFFF">` +
+          `<img class="ws-icon" src="${fileUri(thingOf[s][0], thingOf[s][1])}" alt="" style="width:70px;height:70px;display:block"></span>`).join('');
+        return `<div class="ws-card-stage" style="justify-content:space-between;align-items:center;gap:18px;padding:4px 10px" data-lcs-solidask="${a.k}|${a.pose}|${a.size}">` +
+          `<span style="display:inline-flex;align-items:center;justify-content:center;width:104px;height:104px;flex:0 0 auto">${solidSvg(a.k, a.pose, a.size)}</span>` +
+          `<span style="display:flex;gap:12px">${opts}</span></div>`;
+      });
+      return { bodyHtml: checkGrid(cards), meta: { items: list.map((a) => a.k + ':' + a.pose + ':' + a.size) } };
+    },
 
     build(args, ctx) {
       const lv = Number(args.difficulty) || 2, d = LEVELS[lv] || LEVELS[2], rng = ctx.rng, L = loc2(args.locale);

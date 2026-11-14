@@ -153,7 +153,10 @@ module.exports = {
       nouns = slot.pictures(ctx, rng.sample(pool, d.n), pool, theme);   // a teacher's thing per story (maker)
       kinds = rng.sample(Object.keys(frames), d.n);
     }
-    const mark = !!(ctx && (ctx.answerKey || ctx.screen));
+    // the item bank of the unit checks (Part 7.6, G3-487 checkPage): the stories as rows of their own, every answer in
+    // the markup (data-lcs-answer: nothing shows), no number of their place on a page, and no stretch to a page's height
+    const checkRows = !!(ctx && ctx.checkRows);
+    const mark = !!(ctx && (ctx.answerKey || ctx.screen)) || checkRows;
     // the faces of Grade 3 (long stories in some languages): a page that ran past the footer is rebuilt one step tighter (cli qaRetries)
     const fit = d.store || d.muldiv ? Number(ctx.wpFit) || 0 : 0;
     const box = (v) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;vertical-align:middle;width:70px;height:48px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
@@ -194,11 +197,12 @@ module.exports = {
       const answer = `<span style="${eq}">${lab.letter} =</span>${sm(it.s2).replace("width:62px;height:38px", `width:84px;height:${(d.n > 2 ? 30 : 44) - 3 * fit}px`)}`;
       let rows;
       if (d.check && last) {
-        const choice = (t) => `<span style="display:inline-flex;align-items:center;gap:6px;font:700 16px/1 'Nunito',sans-serif;color:${T.ink}"><span style="width:20px;height:20px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:50%;background:#FFFFFF"></span>${esc(t)}</span>`;
+        // (a check row: the right one of yes / no carries data-lcs-correct)
+        const choice = (t, ok) => `<span${checkRows && ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;gap:6px;font:700 16px/1 'Nunito',sans-serif;color:${T.ink}"><span style="width:20px;height:20px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:50%;background:#FFFFFF"></span>${esc(t)}</span>`;
         rows = [
           row(`<span data-lcs-says style="font:700 18px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(lab.says.replace('{name}', it.name).replace('{eq}', lab.letter + ' = ' + it.claim))}</span>`),
           row(label(lab.est) + rule),
-          row(label(lab.ok) + choice(lab.yes) + choice(lab.no)),
+          row(label(lab.ok) + choice(lab.yes, it.claim === it.s2) + choice(lab.no, it.claim !== it.s2)),
           row(label(lab.ans) + answer),
         ];
       } else {
@@ -211,14 +215,15 @@ module.exports = {
       return `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch;min-height:0"><div style="flex:0 0 ${d.eqGiven ? 'auto' : '56%'};display:flex;flex-direction:column;justify-content:space-evenly;gap:4px;min-width:0">${rows.join('')}</div>` +
         `<div data-lcs-dots style="flex:1;min-width:0;background-color:${T.white};background-image:radial-gradient(circle,#C8BFAE 1.6px,transparent 1.8px);background-size:26px 24px;background-position:2px 2px;border:2px solid ${T.creamDeep};border-radius:12px"></div></div>`;
     };
-    const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}"${d.lines ? ` data-lcs-est="${it.est}"${d.check && i === items.length - 1 ? ` data-lcs-claim="${it.claim}"` : ''}` : ''}${d.place ? ` data-lcs-nums="${[it.n1, it.o1, it.n2, it.o2, it.n3, it.s1, it.s2].join('|')}"` : ''} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}${d.place ? ';flex:1 1 0;min-height:0' : ''}">` +
-      `<div style="font:600 ${d.font - fit}px/${fit ? 1.35 : 1.45} 'Nunito',sans-serif;color:${T.ink}">${i + 1}. ${esc(it.story)}</div>` +
+    const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}"${d.lines ? ` data-lcs-est="${it.est}"${d.check && i === items.length - 1 ? ` data-lcs-claim="${it.claim}"` : ''}` : ''}${d.place ? ` data-lcs-nums="${[it.n1, it.o1, it.n2, it.o2, it.n3, it.s1, it.s2].join('|')}"` : ''} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}${d.place && !checkRows ? ';flex:1 1 0;min-height:0' : ''}">` +
+      `<div style="font:600 ${d.font - fit}px/${fit ? 1.35 : 1.45} 'Nunito',sans-serif;color:${T.ink}">${checkRows ? '' : (i + 1) + '. '}${esc(it.story)}</div>` +
       (d.lines ? linesOf(it, i === items.length - 1) : d.steps
         ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">a)</span> ${it.n1} ${op(it.o1)} ${it.n2} = ${box(it.s1)}</span>` +
           `<span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">b)</span> ${box(it.s1)} ${op(it.o2)} ${it.n3} = ${box(it.s2)}</span></div>`
         : d.place ? '' : `<div style="display:flex;justify-content:flex-end">${box(it.s2)}</div>`) +
       // the face told in a place: a dotted space to work in; where no steps are printed the answer box stands beside it
       (d.place && !d.lines ? `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch;min-height:40px"><div data-lcs-dots style="flex:1;min-width:0;background-color:${T.white};background-image:radial-gradient(circle,#C8BFAE 1.6px,transparent 1.8px);background-size:26px 24px;background-position:2px 2px;border:2px solid ${T.creamDeep};border-radius:12px"></div>${d.steps ? '' : `<div style="display:flex;align-items:center">${box(it.s2)}</div>`}</div>` : '') + '</div>');
+    if (checkRows) return { rows, meta: {} };
     return {
       bodyHtml: `<div data-ws-content data-lcs-two-steps${d.lines ? ` data-lcs-lines="${d.eqGiven ? 1 : 0}|${d.check ? 1 : 0}|${lab.letter}"` : ''}${d.place ? ` data-lcs-place="${d.max}|${d.tens ? 1 : 0}|${d.muldiv ? 2 : d.store ? 100 : 10}|${d.muldiv ? 1 : 0}"` : ''} style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:12px;min-height:0">${rows.join('')}</div>`,
       meta: { stories: items.map((it) => `${it.story} → ${it.n1}${it.o1}${it.n2}=${it.s1}, ${it.s1}${it.o2}${it.n3}=${it.s2}`) },

@@ -27,6 +27,7 @@
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { checkGrid } = require('../../lib/check-page.js');
 const { clipPath } = require('./measurement-more.js');
 
 const C = tokens.color, INK = C.ink, TEAL = C.teal, CORAL = C.coral;
@@ -89,6 +90,72 @@ const clipIcon = (w = 44) => `<svg width="${w + 2}" height="${Math.ceil(w * 0.36
 const cubeIcon = (s = 20) => `<svg width="${s + 9}" height="${s + 9}" viewBox="0 0 ${s + 9} ${s + 9}" style="display:block;flex:0 0 auto" data-lcs-icon="cube"><path d="M2 7 l5 -5 h${s} l-5 5 Z" fill="${C.cream}" stroke="${INK}" stroke-width="1.6" stroke-linejoin="round"/><path d="M${s + 2} 7 l5 -5 v${s} l-5 5 Z" fill="${C.creamDeep}" stroke="${INK}" stroke-width="1.6" stroke-linejoin="round"/><rect x="2" y="7" width="${s}" height="${s}" fill="${C.coralSoft}" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
 const stickIcon = (w = 46) => `<svg width="${w + 4}" height="16" viewBox="0 0 ${w + 4} 16" style="display:block;flex:0 0 auto" data-lcs-icon="stick"><rect x="2" y="2" width="${w}" height="12" rx="6" fill="${C.creamDeep}" stroke="${INK}" stroke-width="1.8"/></svg>`;
 
+/** the ten lengths of a line-plot page: ONE most frequent length; five or six different lengths inside a span of seven;
+ *  K (how many are longer than K) — and the answers of the three questions (null: no draw) */
+function plotData(rng, L) {
+  let vals, lo;
+  for (let t = 0; t < 400; t++) {
+    const freq = rng.pick([[4, 2, 2, 1, 1], [3, 2, 2, 2, 1], [3, 2, 2, 1, 1, 1]]);
+    // (a pencil is 2 to 8 inches, or 7 to 18 centimeters, long)
+    lo = L === 'en' ? rng.int(0, 1) : rng.int(5, 9);
+    const pool = rng.sample(L === 'en' ? [2, 3, 4, 5, 6, 7, 8] : Array.from({ length: 8 }, (_, k) => lo + 2 + k), freq.length);
+    vals = []; freq.forEach((f, k) => { for (let j = 0; j < f; j++) vals.push(pool[k]); });
+    const mn = Math.min(...vals), mx = Math.max(...vals);
+    if (mx - mn < 4 || mx - mn === pool[0] || pool[0] === mn || pool[0] === mx) continue;   // the answers of the three questions differ, and the most frequent length is neither end
+    vals = shuffle(vals, rng); break;
+  }
+  if (!vals) return null;
+  const count = (v) => vals.filter((x) => x === v).length, mode1 = vals.slice().sort((a, b) => count(b) - count(a))[0];
+  const mn = Math.min(...vals), mx = Math.max(...vals);
+  let K = mn; for (let t = 0; t < 100; t++) { K = rng.int(mn, mx - 1); const c = vals.filter((x) => x > K).length; if (c >= 2 && c <= 7 && c !== mode1 && c !== mx - mn) break; }
+  const longer = vals.filter((x) => x > K).length;
+  return { vals, lo, count, mode1, mn, mx, K, longer };
+}
+/** the number line of a line-plot page: TICKS ticks from lo, room for four Xs above each (the key draws them); `compact`
+ *  (a card of the unit checks): the line a little lower in its picture and no caption under it (the card names the
+ *  length above its numbers) */
+function plotLine({ lo, TICKS, d, mark, count, label, compact = false }) {
+  const PW = 624, PX0 = TICKS > 12 ? 20 : 30, step = (PW - 2 * PX0) / (TICKS - 1), LY = TICKS > 12 || compact ? 104 : 118, BW = TICKS > 12 ? 28 : 34, BH = TICKS > 12 ? 44 : 26;
+  let s = `<line x1="${PX0 - 14}" y1="${LY}" x2="${PW - PX0 + 14}" y2="${LY}" stroke="${INK}" stroke-width="3" stroke-linecap="round"/>`;
+  for (let k = 0; k < TICKS; k++) {
+    const x = PX0 + k * step;
+    s += `<line x1="${x}" y1="${LY - 9}" x2="${x}" y2="${LY + 9}" stroke="${INK}" stroke-width="2.4" data-lcs-tick="${lo + k}"/>`;
+    if (d.numbered || (k === 0 && d.data)) s += `<text x="${x}" y="${LY + 32}" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="20" fill="${INK}" data-lcs-ticknum="${lo + k}">${lo + k}</text>`;
+    else s += `<rect x="${x - BW / 2}" y="${LY + 14}" width="${BW}" height="${BH}" rx="6" fill="#FFFFFF" stroke="${CORAL}" stroke-width="2" stroke-dasharray="5 4" data-lcs-tickbox="${lo + k}"${mark && d.data ? ` data-lcs-answer="${lo + k}"` : ''}/>`;
+    if (mark && d.data) for (let j = 0; j < count(lo + k); j++) s += `<path d="M${x - 7} ${LY - 22 - j * 22} l14 -14 m0 14 l-14 -14" stroke="${CORAL}" stroke-width="3" stroke-linecap="round" data-lcs-key-sample="1"/>`;
+  }
+  if (!compact) s += `<text x="${PW / 2}" y="${LY + 38 + BH}" text-anchor="middle" font-family="'Nunito',sans-serif" font-weight="800" font-size="15" fill="${TEAL}">${label}</text>`;
+  const H = compact ? LY + 42 : LY + 46 + BH;
+  return `<svg width="${PW}" height="${H}" viewBox="0 0 ${PW} ${H}" style="display:block;flex:0 0 auto">${s}</svg>`;
+}
+
+/**
+ * THE ITEM BANK of the line-plot page (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"; G2-516 checkPage):
+ * the page made small — each card ten lengths of its own (the page's draw), the number line to plot them on (numbered:
+ * the level-2 page's boxes under the line hold no task of the lesson) and ONE of the page's three questions, its answer
+ * in the markup. Level 3 measures real pencils (no single answer) and gives no card.
+ */
+function plotCheck({ id, difficulty, locale }, ctx) {
+  const lv = Number(difficulty) || 2, d = LEVELS['plot-make'][lv] || LEVELS['plot-make'][2], rng = ctx.rng, L = loc2(locale);
+  if (!d.data) throw new Error(`${id}: level ${lv} measures real pencils (no answer a check can hold)`);
+  const Wd = PLOT_WORDS[L]; if (!Wd) throw new Error(`${id}: no words for ${L}`);
+  const unit = unitOf(L), ASKS = ['most', 'longer', 'diff'];
+  const box = (v) => `<span class="ws-answerbox" data-lcs-answer="${v}" style="display:inline-flex;flex:0 0 auto;vertical-align:middle;width:60px;height:38px;box-sizing:border-box;border:2.5px dashed ${CORAL};border-radius:9px;background:#FFFFFF"></span>`;
+  const cards = [];
+  for (let i = 0; i < 6; i++) {
+    const P = plotData(rng, L);
+    if (!P) throw new Error(`${id}: no ten lengths`);
+    const ask = ASKS[i % 3];
+    const [text, v, withUnit] = ask === 'most' ? [Wd.most, P.mode1, true] : ask === 'longer' ? [Wd.longer.replace('{K}', P.K).replace('{U}', L === 'en' ? 'inches' : unit), P.longer, false] : [Wd.diff, P.mx - P.mn, true];
+    const lengths = `<div style="display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:nowrap"><span style="font:800 15px/1 'Nunito',sans-serif;color:${TEAL};white-space:nowrap;margin-right:6px">${Wd.length} (${unit})</span>` +
+      P.vals.map((x) => `<span style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:36px;box-sizing:border-box;border:2px solid ${INK};border-radius:7px;background:#FFFFFF">${NUM(x, 22)}</span>`).join('') + `</div>`;
+    const line = `<div style="display:flex;justify-content:center">${plotLine({ lo: P.lo, TICKS: 12, d: { data: true, numbered: true }, mark: false, count: P.count, label: '', compact: true })}</div>`;
+    const q = `<div style="display:flex;align-items:center;gap:8px" data-lcs-q="${ask}"><span style="flex:1 1 auto;min-width:0">${WORD(text, 17)}</span>${box(v)}${withUnit ? WORD(unit, 16) : `<span style="width:${unit === 'in.' ? 22 : 24}px"></span>`}</div>`;
+    cards.push(`<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:6px;padding:2px 6px" data-lcs-plotcard="${P.vals.join(',')}|${ask}">${lengths}${line}${q}</div>`);
+  }
+  return { bodyHtml: checkGrid(cards), meta: {} };
+}
+
 function makeMeasureUnitsType({ id, slug, mode, gradeBand, i18n }) {
   const D = LEVELS[mode];
   if (!D) throw new Error(`${id}: unknown mode ${mode}`);
@@ -102,6 +169,8 @@ function makeMeasureUnitsType({ id, slug, mode, gradeBand, i18n }) {
     // one word for the whole page: two copies with the same rows or the same ten lengths are the same page, and two pages
     // that merely share some lengths (ten numbers out of a small range always do) are different pages
     levelSetWords(m) { return [(m.items || []).join(' ')]; },
+    // the item bank of the unit checks (Part 7.6): the line-plot page only (the rows of the other two are cards already)
+    ...(mode === 'plot-make' ? { checkPage(args, ctx) { return plotCheck({ ...args, id }, ctx); } } : {}),
 
     build(args, ctx) {
       const lv = Number(args.difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, L = loc2(args.locale);
@@ -185,38 +254,14 @@ function makeMeasureUnitsType({ id, slug, mode, gradeBand, i18n }) {
       } else {
         const Wd = PLOT_WORDS[L]; if (!Wd) throw new Error(`${id}: no words for ${L}`);
         const unit = unitOf(L), TICKS = !d.data && L !== 'en' ? 18 : 12;   // (real pencils run from a 6 cm stub to 19 cm: the empty centimeter line has 18 ticks)
-        // ten lengths with ONE most frequent length; five or six different lengths inside a span of seven
-        let vals, lo;
-        for (let t = 0; t < 400; t++) {
-          const freq = rng.pick([[4, 2, 2, 1, 1], [3, 2, 2, 2, 1], [3, 2, 2, 1, 1, 1]]);
-          // (a pencil is 2 to 8 inches, or 7 to 18 centimeters, long)
-          lo = L === 'en' ? rng.int(0, 1) : rng.int(5, 9);
-          const pool = rng.sample(L === 'en' ? [2, 3, 4, 5, 6, 7, 8] : Array.from({ length: 8 }, (_, k) => lo + 2 + k), freq.length);
-          vals = []; freq.forEach((f, k) => { for (let j = 0; j < f; j++) vals.push(pool[k]); });
-          const mn = Math.min(...vals), mx = Math.max(...vals);
-          if (mx - mn < 4 || mx - mn === pool[0] || pool[0] === mn || pool[0] === mx) continue;   // the answers of the three questions differ, and the most frequent length is neither end
-          vals = shuffle(vals, rng); break;
-        }
-        if (!vals) throw new Error(`${id}: no ten lengths`);
-        const count = (v) => vals.filter((x) => x === v).length, mode1 = vals.slice().sort((a, b) => count(b) - count(a))[0];
-        const mn = Math.min(...vals), mx = Math.max(...vals);
-        let K = mn; for (let t = 0; t < 100; t++) { K = rng.int(mn, mx - 1); const c = vals.filter((x) => x > K).length; if (c >= 2 && c <= 7 && c !== mode1 && c !== mx - mn) break; }
-        const longer = vals.filter((x) => x > K).length;
+        const P = plotData(rng, L);
+        if (!P) throw new Error(`${id}: no ten lengths`);
+        const { vals, lo, count, mode1, mn, mx, K, longer } = P;
         // 1. the table: two rows of five
         const cell = (k) => `<span style="display:inline-flex;flex-direction:column;align-items:center;width:118px;border:2px solid ${INK};border-radius:8px;background:#FFFFFF;overflow:hidden" data-lcs-cell="${k + 1}"><span style="width:100%;text-align:center;font:800 14px/24px 'Nunito',sans-serif;color:${TEAL};background:${C.tealSoft};white-space:nowrap">${Wd.thing} ${k + 1}</span><span style="height:44px;display:flex;align-items:center;justify-content:center;gap:4px">${d.data ? `${NUM(vals[k], 26)}${WORD(unit, 16)}` : `<span style="width:54px;height:26px;border-bottom:2px solid #B9AE9C" data-lcs-blank></span>${WORD(unit, 15)}`}</span></span>`;
         const table = `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:8px" data-lcs-plottable="${d.data ? vals.join(',') : ''}"><span style="${''}font:800 15px/1 'Nunito',sans-serif;color:${TEAL}">${Wd.length} (${unit})</span><div style="display:grid;grid-template-columns:repeat(5,118px);gap:8px">${Array.from({ length: 10 }, (_, k) => cell(k)).join('')}</div></div>`;
         // 2. the line: twelve ticks from lo, room for four Xs above each
-        const PW = 624, PX0 = TICKS > 12 ? 20 : 30, step = (PW - 2 * PX0) / (TICKS - 1), LY = TICKS > 12 ? 104 : 118, BW = TICKS > 12 ? 28 : 34, BH = TICKS > 12 ? 44 : 26;
-        let s = `<line x1="${PX0 - 14}" y1="${LY}" x2="${PW - PX0 + 14}" y2="${LY}" stroke="${INK}" stroke-width="3" stroke-linecap="round"/>`;
-        for (let k = 0; k < TICKS; k++) {
-          const x = PX0 + k * step;
-          s += `<line x1="${x}" y1="${LY - 9}" x2="${x}" y2="${LY + 9}" stroke="${INK}" stroke-width="2.4" data-lcs-tick="${lo + k}"/>`;
-          if (d.numbered || (k === 0 && d.data)) s += `<text x="${x}" y="${LY + 32}" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="20" fill="${INK}" data-lcs-ticknum="${lo + k}">${lo + k}</text>`;
-          else s += `<rect x="${x - BW / 2}" y="${LY + 14}" width="${BW}" height="${BH}" rx="6" fill="#FFFFFF" stroke="${CORAL}" stroke-width="2" stroke-dasharray="5 4" data-lcs-tickbox="${lo + k}"${mark && d.data ? ` data-lcs-answer="${lo + k}"` : ''}/>`;
-          if (mark && d.data) for (let j = 0; j < count(lo + k); j++) s += `<path d="M${x - 7} ${LY - 22 - j * 22} l14 -14 m0 14 l-14 -14" stroke="${CORAL}" stroke-width="3" stroke-linecap="round" data-lcs-key-sample="1"/>`;
-        }
-        s += `<text x="${PW / 2}" y="${LY + 38 + BH}" text-anchor="middle" font-family="'Nunito',sans-serif" font-weight="800" font-size="15" fill="${TEAL}">${Wd.length} (${unit})</text>`;
-        const plot = `<div class="ws-card-stage" style="justify-content:center;align-items:center" data-lcs-plotline="${lo}|${d.numbered ? 1 : 0}"><svg width="${PW}" height="${LY + 46 + BH}" viewBox="0 0 ${PW} ${LY + 46 + BH}" style="display:block;flex:0 0 auto">${s}</svg></div>`;
+        const plot = `<div class="ws-card-stage" style="justify-content:center;align-items:center" data-lcs-plotline="${lo}|${d.numbered ? 1 : 0}">${plotLine({ lo, TICKS, d, mark, count, label: `${Wd.length} (${unit})` })}</div>`;
         // 3. the questions
         const q = (text, v, withUnit, tag) => `<div style="display:flex;align-items:center;gap:8px;flex-wrap:nowrap" data-lcs-q="${tag}"><span style="flex:1 1 auto;min-width:0">${WORD(text, 17)}</span>${box(v, 60, 38)}${withUnit ? WORD(unit, 16) : `<span style="width:${unit === 'in.' ? 22 : 24}px"></span>`}</div>`;
         const qs = d.data

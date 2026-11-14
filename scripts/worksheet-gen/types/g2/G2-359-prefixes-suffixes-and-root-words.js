@@ -833,6 +833,58 @@ const TYPE = {
     };
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for two faces (every other face and the base
+   *  are cut from their page as before):
+   *   ROOT-WORD — eight root cards of the level drawn by the face's own composer (its families, its triples, no worked
+   *     card), each a card of its own; the empty stone carries the root word (data-lcs-answer).
+   *   FAMILY-IN-SENTENCE — the blocks of the face's own composer cut into their sentences: each card is ONE sentence of a
+   *     block under that block's four words and stone; its gap carries the word (data-lcs-answer).
+   *  Eight cards: the cutter pairs a page's cards with the key page of build() by their place when the counts agree. */
+  checkPage({ theme, difficulty, locale, unit }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (!d || (d.mode !== 'root-word' && d.mode !== 'family-in-sentence')) return this.build({ theme, difficulty, locale, unit }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = String(locale || 'en').slice(0, 2);
+    const block = mergedBank(loc);
+    const rng = ctx.rng;
+    const fams = Object.fromEntries([...(block.families || []), ...(block.rootFamilies || [])].map((f) => [f.id, f]));
+    let blocks;
+    if (d.mode === 'root-word') {
+      const dd = { ...d, cards: 8, cols: 2, rows: 4, worked: 0 };
+      const built = buildFace(this, block, dd, loc, rng, null);
+      const cardW = (BODY_W - (dd.cols - 1) * 14) / dd.cols - 28;
+      blocks = built.meta.families.map((id, i) => {
+        const f = fams[id];
+        const root = literal(f.root && f.root.word, `family ${id} root.word`, loc);
+        return C5.wordPartRootCard({ famId: id, members: built.meta.members[i], root, stem: literal(f.stem, `family ${id} stem`, loc), worked: false, w: cardW, px: d.memberPx, brickH: d.brickH, stoneH: d.stoneH, glyphH: d.stoneGlyphH, loc })
+          .replace('<div data-lcs-rw-stone="" data-lcs-root=', `<div style="position:relative" data-lcs-answer="${esc(root)}" data-lcs-rw-stone="" data-lcs-root=`)
+          .replace(/<\/div><\/div><\/div>$/, '<div data-lcs-gapbox style="position:absolute;inset:0"></div></div></div></div>')
+          .replace('flex:1 1 auto;min-height:0;padding-top:18px', 'flex:0 0 auto;padding-top:4px');
+      });
+    } else {
+      const dd = { ...d, blocks: 2, sharedCourse: false };
+      const built = buildFace(this, block, dd, loc, rng, null);
+      const maxG = Math.max(...built.meta.courses.flat().map(glyphs));
+      const gapW = Math.max(150, Math.min(300, Math.round(1.6 * 10 * maxG + 24)));
+      blocks = [];
+      built.meta.families.forEach((id, b) => {
+        const ss = (block.sentences || {})[id];
+        built.meta.answers[b].forEach((word) => {
+          const x = ss.find((s) => s.word === word);
+          const [pre, post] = String(x.frame).split('{gap}');
+          blocks.push(C5.wordPartFamilyBlock({ famId: id, root: literal(fams[id].root.word, `family ${id} root`, loc), course: built.meta.courses[b], gapW, coursePx: d.coursePx, brickH: d.brickH, stoneH: d.stoneH, stonePx: d.stonePx, sentPx: d.sentPx, rowH: d.rowH, gapH: d.gapH, glyphH: d.glyphH,
+            sentences: [{ n: 1, pre: pre.replace(/\s+$/, ' '), post: post.replace(/^\s+/, ' '), slot: x.slot }] })
+            // (one sentence a card: the row's number badge is let go)
+            .replace(/<div style="flex:0 0 auto;display:flex"><span data-lcs-row-badge="1"[^>]*>1<\/span><\/div>/, '')
+            .replace('<span data-lcs-gap="" ', `<span data-lcs-gap="" data-lcs-answer="${esc(word)}" `)
+            .replace('style="display:inline-block;vertical-align:middle;margin:2px 4px">', 'style="display:inline-block;vertical-align:middle;margin:2px 4px;position:relative"><span data-lcs-gapbox style="position:absolute;inset:0;z-index:1"></span>'));
+        });
+      });
+      blocks = rng.shuffle(blocks);
+    }
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   async verify(page) {
     const faceMode = await page.evaluate((ID) => { const r = document.querySelector(`[data-lcs-type="${ID}"]`); return r ? r.dataset.lcsMode : null; }, ID);
     if (faceMode && faceMode !== 'base') return verifyFace(page, faceMode);

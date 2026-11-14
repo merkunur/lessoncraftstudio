@@ -16,6 +16,7 @@
  */
 'use strict';
 const base = require('../g2/G2-489-two-step-word-problems.js');
+const { checkGrid } = require('../../lib/check-page.js');
 
 module.exports = {
   ...base,
@@ -30,4 +31,13 @@ module.exports = {
     3: { n: 3, max: 999, font: 17, place: true, store: true, lines: true, check: true },
   },
   i18n: { en: { title: 'Two-Step Stories: Equation, Estimate, Answer', instruction: 'Read each story. Write one equation with n for the number you need to find. Round each number to the nearest hundred and estimate. Then find n and compare it with your estimate.' } },
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): six stories of the level, each a card
+   *  with its own three labelled lines and its space to work in, every answer in the markup. A page holds two or three
+   *  stories of four kinds, drawn without repeating a kind, so the six are the stories of three (level 3: two) pages of
+   *  the level, drawn one after the other by the same build. Never as many cards as a page holds. */
+  checkPage(args, ctx) {
+    const rows = [];
+    for (let t = 0; t < 6 && rows.length < 6; t++) rows.push(...this.build(args, { ...ctx, checkRows: true }).rows);
+    return { bodyHtml: checkGrid(rows.slice(0, 6)), meta: {} };
+  },
 };

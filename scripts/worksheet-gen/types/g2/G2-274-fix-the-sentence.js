@@ -149,15 +149,19 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const bank = SENTENCES[loc];
     if (!bank) throw new Error(`G2-274: no sentence bank for ${loc}`);
+    // the item bank of the unit checks (Part 7.6, checkPage): a check draws like a NEW copy (both frame banks, the covered
+    // nouns, the one-line pill) but at random from its own seed — the copies' shared-out frames would give form A and
+    // form B the same sentences
+    const check = !!(ctx && ctx.check);
+    // Level Set 2026-09-28: 20 more native-authored fix frames per locale (data/b2/fix-frames-levelset.json)
+    // so that copies print NEW sentences. The PUBLISHED coordinate (level 2, copy 1) keeps the original
+    // bank — its page stays byte-identical; every other level/copy draws from both.
+    const published = difficulty === 2 && variant === 1 && !check;
     // Level Set: new copies draw only nouns every noun-form table of the bank covers (fi partitive …) —
     // one uncovered noun used to fail the whole page. The published page keeps its original draw.
     const tables = Object.values(bank.nounForms || {});
     const entries = entriesFor(theme, loc).filter(countable)
-      .filter((e) => (difficulty === 2 && variant === 1) || tables.every((t) => t[e.vocabKey]));
-    // Level Set 2026-09-28: 20 more native-authored fix frames per locale (data/b2/fix-frames-levelset.json)
-    // so that copies print NEW sentences. The PUBLISHED coordinate (level 2, copy 1) keeps the original
-    // bank — its page stays byte-identical; every other level/copy draws from both.
-    const published = difficulty === 2 && variant === 1;
+      .filter((e) => published || tables.every((t) => t[e.vocabKey]));
     const extra = published ? [] : (levelSetFrames()[loc] || []);
     const pool = bank.frames.concat(extra).filter((f) => f.kind === 'simple' && (f.uses || []).includes('fix'))
       .filter((f) => { const end = SB.endMark(f.text); if (!d.ends.includes(end)) return false; if (end === '!' && !f.exclaimStrict) return false; return true; })
@@ -174,7 +178,9 @@ module.exports = {
       .filter((f) => !(d.needQ && f.qUncued && SB.endMark(f.text) === '?'))
       // Level Set: a new copy never takes a frame whose sentence cannot fit ONE line of the pill
       // (measured with a long noun and name; fr frames overflowed 5-lane pages). Published page unchanged.
-      .filter((f) => published || fitsPill(f.text, d));
+      .filter((f) => published || fitsPill(f.text, d))
+      // a check's random draw at a level without names takes only name-free frames (a copy's shared-out frames do that)
+      .filter((f) => !check || d.needCaps !== 0 || !/\{name\}/.test(f.text));
     // choose frames: ≥ needCaps with a {name} (a capital inside), ≥ needQ questions at d3
     let frames = null, guard = 0;
     while (!frames && guard++ < 200) {
@@ -188,7 +194,7 @@ module.exports = {
       // sentences — measured before: 172 copy pairs shared 5 sentences with independent draws. The
       // published page (level 2, copy 1) keeps its original random draw.
       let cand;
-      if (!published && guard === 1) {
+      if (!published && guard === 1 && !check) {
         const a = allocateFrames(pool, d, this.id, difficulty, loc, variant);
         cand = a ? rng.shuffle(a) : [];
       } else {
@@ -289,6 +295,37 @@ module.exports = {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:10px;justify-content:space-evenly" data-ws-content${d.hideChips ? ' data-lcs-nochips="1"' : ''}>${chips}${lanes.join('')}</div>`,
       meta: { canonical: canonList },
     };
+  },
+
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): seven lanes of the level drawn by build()
+   *  itself (ctx.check: random frames of both banks), each lane a card of its own with the page's checklist made part of
+   *  it; the lane's writing line carries the corrected sentence (data-lcs-answer). Seven: the cutter pairs a page's cards
+   *  with the key page of build() by their place when the counts agree, and a worksheet page has four or five lanes. */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d0 = this.difficulty[difficulty] || this.difficulty[2];
+    // (six when the level's frames cannot fill seven: the name-free frames of a language are few)
+    let built = null, n = 0;
+    for (n of [7, 6]) {
+      const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, lanes: n } } });
+      try { built = this.build.call(self, { theme, difficulty, locale }, { rng: ctx.rng, variant: 1, check: true }); break; } catch (e) { if (n === 6) throw e; }
+    }
+    const at = built.bodyHtml.indexOf('<div class="ws-lane"');
+    if (at < 0) throw new Error(`${this.id} checkPage: no lanes on the page`);
+    const chips = built.bodyHtml.slice(built.bodyHtml.indexOf('>') + 1, at);
+    const lanes = built.bodyHtml.slice(at).replace(/<\/div>\s*$/, '').split('<div class="ws-lane"').filter(Boolean).map((x) => '<div class="ws-lane"' + x);
+    if (lanes.length !== n) throw new Error(`${this.id} checkPage: ${lanes.length} lanes, not ${n}`);
+    const COL = '<div style="display:flex;flex-direction:column;gap:6px;min-width:0">';
+    const blocks = lanes.map((lane) => {
+      const canonical = (lane.match(/data-lcs-canonical="([^"]*)"/) || [])[1];
+      if (!canonical || lane.indexOf(COL) < 0) throw new Error(`${this.id} checkPage: a lane without its sentence`);
+      // the answer: the corrected sentence, written by the key over the lane's writing line (its gap box)
+      const rul = (d0.joinPairs ? 2 : 1) * (d0.rulH || 60);
+      const withAnswer = lane.replace(COL, `<div style="display:flex;flex-direction:column;gap:6px;min-width:0;position:relative" data-lcs-answer="${canonical}">`)
+        .replace(/<\/div><\/div>$/, `<div data-lcs-gapbox style="position:absolute;left:0;right:0;bottom:4px;height:${Math.min(44, rul - 12)}px"></div></div></div>`);
+      return `<div style="display:flex;flex-direction:column;gap:8px">${chips}${withAnswer}</div>`;
+    });
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
   },
 
   async verify(page) {

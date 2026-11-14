@@ -45,6 +45,25 @@ const FADE1 = (n) => ['model', ...Array(n).fill('trace')];
 const FADE3 = ['model', 'trace', 'dot', 'empty', 'empty'];
 const DIGITS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+/**
+ * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): one number's lane made
+ * short for a check card, the level's fade ending in blank space where the child writes the number alone — level 1
+ * model, two traces, a blank; level 2 the published lane's model, a trace with its dot and arrows, a plain dashed one,
+ * a blank; level 3 the level's own fade (model, trace, start dots only, two blanks). Every slot the child writes alone
+ * carries the number as its answer (an empty box over the slot: the check's key writes the number there). Shared with
+ * K-253 (11 to 20). Numbers of two digits on a five-slot lane are drawn a little smaller (20 does not fit at 52 px).
+ */
+const CHECK_MODES = { 1: ['model', 'trace', 'trace', 'empty'], 2: ['model', 'trace', 'dash', 'empty'], 3: ['model', 'trace', 'dot', 'empty', 'empty'] };
+function checkLane(form, n, level) {
+  const modes = CHECK_MODES[level] || CHECK_MODES[2];
+  const w = 290, h = 71, glyphH = n >= 10 && modes.length >= 5 ? 44 : 52;
+  const lane = digitFadeLane({ glyphs: glyphsOf(form, n), box: BOX, w, h, glyphH, modes, badges: false, number: n, label: `trace number ${n}` });
+  const segW = w / modes.length, yTop = h * 0.86 - glyphH;
+  const boxes = modes.map((m, i) => (m === 'dot' || m === 'empty'
+    ? `<rect x="${(i * segW + 3).toFixed(1)}" y="${(yTop - 2).toFixed(1)}" width="${(segW - 6).toFixed(1)}" height="${glyphH + 4}" fill="none" data-lcs-answer="${n}"/>` : '')).join('');
+  return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-digit-lane="${n}">${lane.svg.replace(/<\/svg>$/, boxes + '</svg>')}</div>`;
+}
+
 /** One range lane through the fading lane (new pages only). */
 function fadeLane(form, n, d, laneW) {
   return digitFadeLane({
@@ -76,7 +95,19 @@ module.exports = {
     void printTitle;
     return { ...rest, title: f.title.replace('{N}', unit), instruction: f['i' + difficulty] };
   },
-  PER_NUMBER, NUMBER_UNITS, FADE1, FADE3,
+  PER_NUMBER, NUMBER_UNITS, FADE1, FADE3, checkLane,
+  /** the unit checks' page (Part 7.6, checkLane above): six numbers of the page's range, each a card of its own lane.
+   *  Inherited by K-249/250/251, whose range is their own. */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const form = formFor(locale);
+    const numbers = ctx.rng.shuffle(d.digits || DIGITS).slice(0, 6);
+    // a range of five (K-249, K-250) has fewer than six tasks for a check — and its own page has five lanes, whose key
+    // the check would take for these cards (the cutter pairs them by their count)
+    if (numbers.length < 6) throw new Error(`${this.id} checkPage: ${numbers.length} numbers are fewer than six tasks`);
+    return { bodyHtml: `<div>${checkGrid(numbers.map((n) => checkLane(form, n, Number(difficulty))), { cols: 2 })}</div>`, meta: {} };
+  },
   difficulty: {
     1: { digits: DIGITS, glyphH: 52, laneH: 71, modes: FADE1(4) },
     2: { digits: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], glyphH: 52, laneH: 71, reps: 5 },

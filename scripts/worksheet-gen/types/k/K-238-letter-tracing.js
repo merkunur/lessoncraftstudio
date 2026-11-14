@@ -140,6 +140,33 @@ module.exports = {
     };
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): eight letters of the locale's school
+   *  alphabet (the level's own letters first: its specials at level 3), each lane a card of its own at the level's size —
+   *  the solid model, the dashed copies with their dot and arrows, and the empty slot "on your own", which carries the
+   *  letter as its model answer (data-lcs-answer on a frame of the slot). */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    const set = (d.lowercase ? LOWERCASE_SETS : LETTER_SETS)[loc] || (d.lowercase ? LOWERCASE_SETS : LETTER_SETS).en;
+    const rng = ctx.rng;
+    // eight cards, or seven when this type's own page has eight lanes (K-256 S–Z): the cutter pairs a page's cards with
+    // the key page of build() by their place when the counts agree
+    let own = 0;
+    try { own = (this.build({ difficulty, locale }, { rng: require('../../lib/rng.js').makeRng('lanes') }).bodyHtml.match(/data-lcs-letter="/g) || []).length; } catch (e) { own = 0; }
+    const n = own === 8 ? 7 : 8;
+    const first = d.from === 'specials' ? set.specials.slice() : [];
+    const letters = [...first, ...rng.shuffle(set.alphabet.filter((c) => !first.includes(c)))].slice(0, n);
+    if (letters.length < n) throw new Error(`${this.id} checkPage: ${loc} has ${letters.length} letters`);
+    const w = 600, segW = w / d.reps;
+    const blocks = rng.shuffle(letters).map((ch) => {
+      const lane = strokeLetterLane({ text: ch, w, h: d.laneH, glyphH: d.glyphH, reps: d.reps, emptyCount: 1, lowercase: !!d.lowercase });
+      const slot = `<rect x="${((d.reps - 1) * segW + 4).toFixed(1)}" y="2" width="${(segW - 8).toFixed(1)}" height="${d.laneH - 4}" fill="none" data-lcs-answer="${ch}"/>`;
+      return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-letter="${ch}">${lane.svg.replace(/<\/svg>\s*$/, slot + '</svg>')}</div>`;
+    });
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   /** One letter, both cases (Level Set). Throws when a level cannot fit its lanes — never shrinks silently. */
   _buildLetter(difficulty, loc, unit) {
     const P = PER_LETTER[difficulty];

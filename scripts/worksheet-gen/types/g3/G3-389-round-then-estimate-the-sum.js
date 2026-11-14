@@ -15,4 +15,21 @@ module.exports = {
   interactive: base.interactiveFor('estimate'),
   i18n: { en: { title: "Round, then Estimate the Sum", instruction: "Round both numbers to the nearest ten and write them in the boxes. Then add the rounded numbers." } },
   gradeBand: "G3",
+
+  /** THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): seven lines of the level,
+   *  each a card of its own (the worksheet's rule box is a worked example above the lines; the instruction carries the
+   *  rule). Built by the page's own estimate composer (G2-346 _buildEstimate) with seven lines — seven, so that its cards
+   *  are never paired with the six or eight lines of the level's answer key. */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = { ...(this.difficulty[difficulty] || this.difficulty[2]), items: 7, rule: false };
+    const built = base.build.call(Object.assign(Object.create(this), { difficulty: { check: d } }), { theme, difficulty: 'check', locale }, { ...(ctx || {}), interactive: false, answerKey: false });
+    const html = built.bodyHtml, at = html.indexOf('<span data-lcs-row ');
+    if (at < 0 || !html.endsWith('</div></div>')) throw new Error('G3-389 checkPage: no lines on the page');
+    const rows = html.slice(at, html.length - '</div></div>'.length).split(/(?=<span data-lcs-row )/)
+      // a card is numbered by the check: the line's own number badge (and its spacer) leaves
+      .map((r) => r.replace(/<span data-lcs-idx="\d+"[^>]*>\d+<\/span><span style="width:12px;flex:0 0 12px"><\/span>/, ''));
+    if (rows.length !== 7 || rows.some((r) => /data-lcs-idx=/.test(r))) throw new Error('G3-389 checkPage: ' + rows.length + ' lines');
+    return { bodyHtml: checkGrid(rows.map((r) => `<div class="ws-card-stage" style="padding:4px 2px">${r}</div>`)), meta: {} };
+  },
 };

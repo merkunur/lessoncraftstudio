@@ -393,6 +393,32 @@ module.exports = {
     return { bodyHtml: SP.tap(bodyHtml), meta: { rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: models.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { face: 'base', items: picks.map(itemMeta) } : {}) } };
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the BASE page (the faces are cut from
+   *  their pages as before): seven picture cards of the rule drawn by the base composer itself (a new page's pool: the
+   *  review's exclusions, the refused pictures), each a card of its own with the page's rule box made small above it;
+   *  each dashed box carries its rule letters (data-lcs-answer). Seven: the cutter pairs a page's cards with the key page
+   *  of build() by their place when the counts agree, and a page holds six or eight cards. */
+  checkPage({ theme, difficulty, locale, unit }, ctx) {
+    const d0 = this.difficulty[difficulty] || this.difficulty[2];
+    if (faceOf(d0)) return this.build({ theme, difficulty, locale, unit }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = (locale || 'en').slice(0, 2);
+    const bank = loadBank(KEY, loc);
+    const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, cards: 7, cols: 1, rows: 7 } } });
+    const built = this._buildWith.call(self, bank, { difficulty, locale: loc, unit }, { rng: ctx.rng, fresh: true });
+    const box = (built.bodyHtml.match(/<div class="ws-scene-banner" data-lcs-rulebox[\s\S]*?(?=<div class="ws-cardgrid")/) || [])[0];
+    const cards = [...built.bodyHtml.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => m[1]);
+    if (!box || cards.length !== 7 || !built.meta.items) throw new Error(`${ID} checkPage: the base page did not read back (${cards.length} cards)`);
+    const small = box.replace('width:675px;min-height:60px', 'width:600px;min-height:52px');
+    const blocks = cards.map((inner, i) => {
+      const it = built.meta.items[i];
+      const letters = gapLetters(it.word, it.gaps.slice().sort((a, b) => a.from - b.from));
+      const withAnswers = inner.replace(/data-lcs-gapbox="(\d+)"/g, (m, k) => `${m} data-lcs-answer="${esc(letters[Number(k)])}"`);
+      return `<div style="display:flex;flex-direction:column;align-items:center;gap:8px">${small}${withAnswers.replace('flex:0 1 auto;min-height:' + MIN_PIC + 'px', 'flex:0 0 auto')}</div>`;
+    });
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
+
   /* ---------------------------------------------------------------- Phase 2 face builders */
   faceOf, faceRefusal, unitsFor, exemplarFor, unitAxisFor, eligiblePlural, chipOrder,
 

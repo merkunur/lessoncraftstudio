@@ -111,10 +111,11 @@ const TWIN_GROUP = new Map();
 (QUESTION_WORDS.THING_TWINS || []).forEach((g, i) => g.forEach((k) => TWIN_GROUP.set(k, i)));
 if (!TWIN_GROUP.size) throw new Error('G1-351: QUESTION_WORDS.THING_TWINS is empty — the look-alike fence would be vacuous');
 const { GLOBAL } = require('../../data/b4/odd-and-even.js');
-const { chipStrip, houseBin, houseHeight, dotRowCard, shareLane, countLane, pvLane, sumLane, columnHeads, ruleStrip, parityTable, parityPills, shareLaneScreen, countLaneScreen } = require('../../templates/components-b4.js');
+const { chipStrip, houseBin, houseHeight, dotRowCard, shareLane, countLane, pvLane, sumLane, columnHeads, ruleStrip, parityTable, parityPills, shareLaneScreen, countLaneScreen, tickPair } = require('../../templates/components-b4.js');
 const { entriesFor, countable, fileUri } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { checkGrid } = require('../../lib/check-page.js');
 
 const KEY = 'odd-and-even';
 const { refusedPicture } = require('../../lib/picture-refusals.js');
@@ -1245,6 +1246,33 @@ module.exports = {
       { items: cfg.items, rows: cfg.rows, range: cfg.range.join(','), 'has-table': cfg.table ? 1 : 0, cases: casesStamp, circle: cfg.circle, keys: keys.join(','), 'lane-min': cfg.laneMin, stack: cfg.stack },
       'flex:1 1 auto;display:flex;flex-direction:column;min-height:0', top + this._columns(cfg, heads, lanes));
     return { bodyHtml, meta };
+  },
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6") of the sums face (G3-386 checkPage):
+   *  the rows of the level's deal, each a card of its own that carries what the page shares above its two columns —
+   *  the parity table where the level prints it, and the two words over the tick circles. Same deal, same lanes. */
+  _checkSums({ difficulty, locale }, ctx) {
+    const loc = (locale || 'en').slice(0, 2), bank = loadBank(KEY, loc);
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const cfg = resolveSums(d);
+    // two rows more than the page deals: more to choose from, and a check page never holds as many cards as the page
+    // (the cutter pairs a page's key cards with its cards by their number)
+    const deal = composeSums(ctx.rng, { ...cfg, items: cfg.items + 2 });
+    if (!deal) throw new Error(`${ID}: no sums deal for ${cfg.items + 2} rows in [${cfg.range}] — REFUSED`);
+    const keys = bank.houseOrder.slice();
+    const table = cfg.table ? `<div style="padding-bottom:6px">${parityTable({ chips: bank.chips, order: GLOBAL.tableOrder })}</div>` : '';
+    // the two tick circles side by side, each under its word (the lane's own cells wrap each circle alone: a check reads
+    // the place of the right one among its options), each named by its parity
+    const TICK_GAP = 24;
+    const heads = columnHeads({ left: null, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: cfg.circle + 16, rightGap: TICK_GAP - 16, padX: COLS.lanePadX + 2 - 8, h: COLS.headH });
+    const cards = deal.rows.map((r) => {
+      const correct = parity(r.a + r.b);
+      const lane = sumLane({ a: r.a, b: r.b, correct, keys, px: cfg.px, circle: cfg.circle, cell: COLS.cell, gap: COLS.tickGap, padY: COLS.lanePadY, padX: COLS.lanePadX });
+      const pair = tickPair({ keys, correct, size: cfg.circle, gap: TICK_GAP }).replace(/data-lcs-tick="(even|odd)"/g, 'data-lcs-tick="$1" data-lcs-choice="$1"');
+      const at = lane.lastIndexOf('<span data-lcs-ticks');
+      if (at < 0 || !lane.endsWith('</span></div>')) throw new Error(`${ID}: the sum lane changed its shape`);
+      return `<div style="display:flex;flex-direction:column;gap:2px;width:100%">${table}${heads}${lane.slice(0, at)}${pair}</div></div>`;
+    });
+    return { bodyHtml: checkGrid(cards), meta: { face: 'sums', rows: deal.rows } };
   },
 
   resolveProof, resolvePics, resolveOnes, resolveSums, composeProof, composePics, composeOnes, composeSums,

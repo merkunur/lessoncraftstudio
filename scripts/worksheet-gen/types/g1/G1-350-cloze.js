@@ -959,6 +959,59 @@ module.exports = {
     return tapFrames(ctx, this._buildWith(bank, d, { theme, locale: loc, globals: G }, { ...ctx, perRow: true }));
   },
 
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card a task
+   * of its own with its answers in its markup (the lane / sentence carries data-lcs-answer, its gap box takes the key), drawn
+   * by the face's own composer over the merged bank (a new copy).
+   *   base  (G1-350) eight rows of the level, each card = a word bank of three (its answer + two answers of other rows of the
+   *         check — the composer keeps every row's `fits` clear of the other rows' nouns, so the small bank holds one right
+   *         word) over its row. Eight: the page has six or seven rows.
+   *   story (G2-350) seven stories, each card = a word bank of five (its three answers + two of the other stories or the
+   *         level's extra words) over its story block. Seven: the page has three stories.
+   * Every other face gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (d.mode && d.mode !== 'base' && d.mode !== 'story') return this.build({ theme, difficulty, locale }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const loc = (locale || 'en').slice(0, 2);
+    const all = bankModule(KEY);
+    const G = { twins: all.twins, excludeKeys: all.excludeKeys };
+    const bank = mergedBank(loadBank(KEY, loc), loc);
+    const rng = ctx.rng;
+    const cctx = { rng, variant: ctx.variant, perRow: true, check: true };
+    const { wordBank } = require('../../templates/components-b2.js');
+    const smallBank = (words) => wordBank({ words: words.map((w) => ({ word: w })), wordPx: 17 }).replace('data-lcs-bank-banner>', 'data-lcs-bank-banner style="margin:0 0 8px">');
+    let cards;
+    if (d.mode === 'story') {
+      if (bank.refuse && bank.refuse.story === true) throw new Error(`${ID}: ${loc} REFUSES the story face`);
+      const built = this._buildStory(bank, { ...d, stories: 7, bank: false }, loc, G, rng, cctx);   // (no page bank: each card carries its own)
+      const blocks = built.bodyHtml.split(/(?=<div class="ws-lane" data-ws-content data-lcs-story=")/).slice(1);
+      const ans = built.meta.stories.map((s) => s[4].split(','));
+      const pool = ans.flat().concat(built.meta.extras || []);
+      cards = blocks.map((b, i) => {
+        const own = ans[i], other = rng.sample(pool.filter((w) => !own.includes(w)), 2);
+        const words = own.concat(other);
+        const html = b.replace(/(<\/div><\/div>)(<\/div><\/div>)?$/, '$1');
+        return smallBank(C4.derange(words.map((_, k) => k), rng).map((k) => words[k])) + html.replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace("padding:" + (d.storyPadding || '6px 16px') + ';', 'padding:0;');
+      });
+    } else {
+      const built = this._buildWith(bank, { ...d, rows: 8, bank: false, extra: 0 }, { locale: loc, globals: G }, cctx);   // (no page bank: each card carries its own; the other rows give its wrong words)
+      const at = built.bodyHtml.indexOf('<div data-lcs-list');
+      const inner = built.bodyHtml.slice(built.bodyHtml.indexOf('>', at) + 1, -'</div></div>'.length);
+      const lanes = inner.split(/(?=<div class="ws-lane" data-ws-content data-lcs-row=")/).filter(Boolean);
+      const answers = built.meta.rows.map((r) => r[3]);
+      const pos = rng.shuffle(lanes.map((_, i) => i % 3));
+      cards = lanes.map((lane, i) => {
+        const words = rng.sample(answers.filter((w) => w !== answers[i]), 2);
+        words.splice(pos[i], 0, answers[i]);
+        return smallBank(words) + lane.replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace('padding:' + (d.padding || '5px 16px') + ';', 'padding:0;');
+      });
+    }
+    if (cards.length < 7) throw new Error(`${ID}: check page cut ${cards.length} cards`);
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
+
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
   _buildWith(bank, d, { locale, globals }, ctx) {
     if (!d) throw new Error(`${ID}: no difficulty config`);
@@ -1290,7 +1343,7 @@ module.exports = {
       stories: d.stories, sentences: d.sentences || 3, bank: d.bank !== false, shuffleStrip: d.shuffleStrip !== false, picPx: d.picPx || 44, gapH: d.gapH || 36, fontPx: d.fontPx || 18,
       maxChars: d.maxChars, maxGlyphs: d.maxGlyphs, blockMin: d.blockMin, blockGap: d.blockGap == null ? 10 : d.blockGap, padding: d.storyPadding || '6px 16px', nameSlot: d.nameSlot === 'perLocale' ? !!bank.nameSlot : !!d.nameSlot,
     };
-    if (!Number.isInteger(cfg.stories) || cfg.stories < 2 || cfg.stories > 4) throw new Error(`${ID}: stories ${cfg.stories} outside [2, 4]`);
+    if (!Number.isInteger(cfg.stories) || cfg.stories < 2 || cfg.stories > (ctx && ctx.check ? 8 : 4)) throw new Error(`${ID}: stories ${cfg.stories} outside [2, 4]`);   // (a check page: seven stories as cards of their own, checkPage)
     if (cfg.sentences !== 3) throw new Error(`${ID}: sentences ${cfg.sentences} (the story block is three sentences; a fourth no-gap sentence is not built)`);
     if (cfg.picPx < 36) throw new Error(`${ID}: story picPx ${cfg.picPx} below the G2 floor 36`);
     if (cfg.gapH < 36 || cfg.fontPx < 16 || !(cfg.maxChars > 0) || !(cfg.maxGlyphs > 0 && cfg.maxGlyphs <= 9) || !(cfg.blockMin > 0)) throw new Error(`${ID}: story gapH / fontPx / maxChars / maxGlyphs (<= 9) / blockMin`);

@@ -176,6 +176,37 @@ function makeFractionType(cfg) {
     /** Level Set copies: what a page asks (build-waves compares copies by these) */
     levelSetWords(m) { return (m.asks || []).map(String); },
 
+    /**
+     * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the match face (the
+     * lines join two columns, so the page cannot be cut): seven cards, each the page's task made small — three of the
+     * level's shaded pictures in a row and their three labels in another order in a row below (the page's own draw of
+     * the level, its first three pictures; drawn by its own fractionShape / FRAC). Left of every picture an empty place
+     * carries its label as the answer (the key writes it there). Seven: the cutter pairs a page's cards with the cards of
+     * the type's answer key when their numbers agree. Every other face's page is cut as it is.
+     */
+    ...(mode === 'match-equiv' ? { checkPage({ theme, difficulty, locale }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const rng = ctx.rng, seen = new Set();
+      const dot = (side) => `<span class="ws-match-dot" style="top:auto;bottom:auto;${side}:-22px;left:50%;transform:translateX(-50%)"></span>`;
+      const row = (html) => `<div style="display:flex;justify-content:center;gap:64px">${html}</div>`;
+      const cards = Array.from({ length: 7 }, () => {
+        let items, guard = 0;
+        do { items = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false })._cards.items.slice(0, 3); }
+        while (seen.has(items.map((x) => x.pic.n + '/' + x.pic.d).sort().join('|')) && ++guard < 40);
+        seen.add(items.map((x) => x.pic.n + '/' + x.pic.d).sort().join('|'));
+        const lab = (x) => x.label.n + '/' + x.label.d;
+        let order;
+        do { order = rng.shuffle([0, 1, 2]); } while (order.some((v, i) => v === i));
+        const top = items.map((x) => `<div class="ws-match-item" style="width:126px;height:118px" data-lcs-left="${x.pic.n}/${x.pic.d}">` +
+          `<span data-lcs-answer="${lab(x)}" style="position:absolute;right:100%;top:50%;transform:translate(-4px,-50%);width:58px;height:34px"></span>` +
+          fractionShape({ shape: x.shape, d: x.pic.d, shaded: x.pic.n, size: 108 }).svg + dot('bottom') + `</div>`).join('');
+        const bottom = order.map((k) => `<div class="ws-match-item ws-match-item--plain" style="width:126px;height:78px" data-lcs-right="${lab(items[k])}">` +
+          FRAC(items[k].label.n, items[k].label.d, 24) + dot('top') + `</div>`).join('');
+        return `<div class="ws-card-stage" style="flex-direction:column;gap:76px;padding:4px 4px 6px 30px">${row(top)}${row(bottom)}</div>`;
+      });
+      return { bodyHtml: checkGrid(cards), meta: {} };
+    } } : {}),
+
     build({ theme, difficulty, locale }, ctx) {
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
       if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {

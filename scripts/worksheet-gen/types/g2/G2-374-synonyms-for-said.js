@@ -13,4 +13,44 @@ module.exports = {
   interactive: require('../../lib/synonyms-screen.js').interactiveFor('say', base.mergedBankOf),
   difficulty: { 1: { ...D, rows: 4, bank: 4 }, 2: D, 3: { ...D, rows: 6, bank: 8, decoys: 2 } },
   i18n: { en: { title: "Synonyms for Said: Pick the Word That Fits", instruction: "Read each sentence and write the word from the bubble that fits best in the box instead of said." } },
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the say face's task made small — seven
+   * sentences of the merged bank, seven different answers, each a card with its own small bubble: its word + two (level 3:
+   * three) words the bank marks as NOT fitting that sentence (fit === false: one right word per card), over its row; the
+   * gap box carries the answer (the key writes it there). Seven: the page has four or six rows. (Overrides the base's
+   * checkPage, which gives this face its page as it is.)
+   */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const C5 = require('../../templates/components-b5.js');
+    const { SENTENCES } = require('../../data/b2/sentences.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = String(locale || 'en').slice(0, 2), rng = ctx.rng;
+    const say = (base.mergedBankOf(loc).fields || {}).say;
+    if (!say || !Array.isArray(say.words) || !Array.isArray(say.sentences)) throw new Error(`${this.id}: the ${loc} bank has no fields.say — refuse`);
+    const glyphs = (w) => [...String(w)].length;
+    const words = say.words.filter((w) => glyphs(w) <= d.maxGlyphs);
+    const names = rng.shuffle((SENTENCES[loc] && SENTENCES[loc].names) || []);
+    const nb = d.decoys ? 4 : 3, n = 7;
+    const picks = [], usedS = new Set();
+    for (const w of rng.shuffle(words)) {
+      if (picks.length === n) break;
+      const ss = say.sentences.filter((s) => s.fit && s.fit[w] === true && !usedS.has(s.id) && words.filter((x) => s.fit[x] === false).length >= nb - 1);
+      if (!ss.length) continue;
+      const s = ss[Math.floor(rng.next() * ss.length)];
+      usedS.add(s.id);
+      picks.push({ s, w, wrong: rng.sample(words.filter((x) => s.fit[x] === false), nb - 1) });
+    }
+    if (picks.length < n || names.length < n) throw new Error(`${this.id}: ${loc} gives ${picks.length} check sentences (names ${names.length}) < ${n} — refuse`);
+    const at = rng.shuffle(picks.map((_, i) => i % nb));
+    const cards = picks.map((p, i) => {
+      const bank = p.wrong.slice(0, at[i]).concat([p.w], p.wrong.slice(at[i]));
+      const [pre, post] = p.s.text.split('{name}').join(names[i]).split('{gap}');
+      const gapW = Math.min(300, Math.max(150, Math.round(1.6 * 10 * Math.max(...bank.map(glyphs)) + 24)));
+      return C5.synSayBubble({ head: say.head, words: bank, wordPx: d.bankPx }) +
+        C5.synSayRow({ n: i + 1, sentenceId: p.s.id, pre, post, answer: p.w, gapW, fontPx: d.fontPx })
+          .replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace('data-lcs-disc ', 'data-lcs-disc data-lcs-badge ').replace('padding:5px 16px;', 'padding:0;').replace('flex:1 1 0;min-height:0', 'flex:0 0 auto');   // (a row of the page shares its height; a card's row has its own)
+    });
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
 };

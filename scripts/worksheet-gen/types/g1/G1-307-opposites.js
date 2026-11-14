@@ -241,6 +241,66 @@ module.exports = {
   },
   mergedBank: (loc) => mergedBank(loc),
   interactive: interactiveFor('write'), interactiveFor,
+
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the face's task made small, each card a
+   * task of its own with its answer in its markup, drawn by the face's own pick and components over the merged bank.
+   *   'match'  (K-351)  one picture + word of a pair over its opposite and one or two opposites of the other pairs of the
+   *                     check (oppositeMatch, one item left, the options right): the right one carries data-lcs-correct
+   *   'prefix' (G2-320) the prefix legend (when the level shows one) over one row base → lane; the lane holds the word
+   * Seven cards (the page has 4/6/8 or 8/10 of each). Every other face gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    if (d.layout === 'match') return this._checkMatch(mergedBank(loc), d, loc, ctx);
+    if (d.layout === 'prefix') return this._checkPrefix(mergedBank(loc), d, loc, ctx);
+    return this.build({ theme, difficulty, locale }, ctx);
+  },
+  _checkMatch(bank, d, loc, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const who = this.id, rng = ctx.rng;
+    // the pictures as small as the K floor and the scale pair's 1.3 ratio allow (a card stays under ~330 px)
+    const pic = Math.max(K_FLOOR, Math.min(d.picPx, 73)), scale = Math.max(K_FLOOR, Math.min(d.scalePx, Math.floor(pic / 1.3)));
+    const dd = { ...d, picPx: pic, scalePx: scale, maxScale: pic / scale >= 1.3 ? d.maxScale : 0 };
+    let built = null;
+    for (const k of [7, 5]) { try { built = this._buildMatch(bank, { ...dd, pairs: k }, loc, ctx); break; } catch (e) { if (k === 5) throw e; } }
+    const byId = new Map(bank.pairs.map((p) => [p.id, p]));
+    const taken = built.meta.pairs.map((id) => byId.get(id));
+    const side = (p, which) => {
+      if (p.pic.kind === 'scale') { const one = resolvePic({ theme: p.pic.theme, noun: p.pic.noun, key: p.pic.key }, loc, who); return { pair: p.id, word: which === 'a' ? p.a : p.b, src: one.src, px: which === 'a' ? pic : scale, kind: 'scale' }; }
+      return { pair: p.id, word: which === 'a' ? p.a : p.b, src: resolvePic(which === 'a' ? p.pic.a : p.pic.b, loc, who).src, px: pic, kind: 'two' };
+    };
+    const n = d.pairs <= 4 ? 2 : 3;
+    const at = rng.shuffle(taken.map((_, i) => i % n));
+    // never an option that reads as a second opposite: summer → "cold", hot → "winter"; big → "light", heavy → "small"
+    const RELATED = [['temperature', 'season'], ['size', 'weight']];
+    const related = (p, q) => RELATED.some(([x, y]) => (p.family === x && q.family === y) || (p.family === y && q.family === x));
+    const cards = taken.map((p, ci) => {
+      const others = rng.sample(taken.filter((q) => q !== p && !related(p, q)), n - 1).map((q) => side(q, 'b'));
+      const right = others.slice(0, at[ci]).concat([side(p, 'b')], others.slice(at[ci]));
+      return oppositeMatch({ left: [side(p, 'a')], right, tileW: d.tileW, itemH: pic + 12, wordPx: d.wordPx })
+        .replace('class="ws-match" style="min-height:0"', 'class="ws-match" style="min-height:0;padding:0 30px"')
+        .replace('class="ws-match-col" style="min-height:0" data-lcs-col="right"', 'class="ws-match-col" style="min-height:0;gap:6px" data-lcs-col="right"')
+        .replace(`data-lcs-right="${p.id}"`, `data-lcs-right="${p.id}" data-lcs-correct="1"`);
+    });
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
+  _checkPrefix(bank, d, loc, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const built = this._buildPrefix(bank, { ...d, rows: 8 }, loc, ctx);
+    const items = (bank.prefix.items || []);
+    // the legend of the page's prefixes, small, inside each card (not where the row prints its own prefix or one prefix is all there is)
+    const legend = d.showLegend && !d.showPrefix && bank.prefix.prefixes.length > 1 ? oppositePrefixChips({ prefixes: bank.prefix.prefixes, px: 18 }) : '';
+    const cards = built.meta.bases.slice(0, 7).map((base) => {
+      const it = items.find((x) => x.base === base);
+      const row = oppositePrefixRow({ n: 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) })
+        .replace(/<span class="ws-card-badge"[^>]*>1<\/span>/, '')
+        .replace('<span data-lcs-prefix-slot style="display:flex">', `<span data-lcs-prefix-slot style="display:flex;position:relative"><span data-lcs-answer="${it.expected.replace(/"/g, '&quot;')}" style="position:absolute;inset:0"></span>`);
+      return legend + row;
+    });
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
   levelSetData: () => levelSetData(),
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. */

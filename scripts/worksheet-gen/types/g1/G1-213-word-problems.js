@@ -22,6 +22,7 @@
 const { labelSafeNouns, fileUri, labelsForKey: labels } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
 const slot = require('../../lib/slot.js');
+const { checkGrid } = require('../../lib/check-page.js');
 const { FRAMES } = require('../../data/word-problems/frames.js');
 const W = require('../../lib/word-problems-levelset.js');
 
@@ -77,6 +78,15 @@ module.exports = {
       if (!Number.isInteger(v) || v < 1) throw new Error('word-problems oracle: no answer for ' + JSON.stringify(m));
       return v;
     }),
+  },
+
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): six stories of the level, each a card of its
+   *  own, for the unit checks (a worksheet page holds two or three stories, too few to cut two forms from) */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = { ...(this.difficulty[difficulty] || this.difficulty[2]) }, n = 6;
+    if (d.kinds) d.kinds = Array.from({ length: n }, (_, i) => d.kinds[i % d.kinds.length]);
+    d.problems = n;
+    return this._levelSet(d, theme, (locale || 'en').slice(0, 2), { ...(ctx || {}), check: true });
   },
 
   build({ theme, difficulty, locale }, ctx) {
@@ -293,6 +303,8 @@ module.exports = {
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px 14px">${strip}</div>` +
         tail + `</div>`;
     });
+    // the item bank of the unit checks (Part 7.6): each story is a card of its own (checkPage)
+    if (ctx.check) return { bodyHtml: checkGrid(blocks), meta: {} };
     let bodyHtml = `<div style="flex:1;display:flex;flex-direction:column;gap:${screen ? 28 : (three ? 14 : 26)}px;justify-content:${screen ? 'flex-start' : 'stretch'}">${blocks.join('')}</div>`;
     if (key) bodyHtml = W.fillAnswerBoxes(bodyHtml);
     return { bodyHtml, meta: { problems: problems.map(({ kind, n1, n2, n3, answer, vocabKey, frame, name, name2 }) => ({ kind, n1, n2, n3, answer, vocabKey, frame, name, name2 })) } };

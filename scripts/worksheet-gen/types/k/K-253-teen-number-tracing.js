@@ -30,6 +30,17 @@ module.exports = {
     },
   },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): six of the numbers 11 to 20, each a card of
+   *  its own lane — K-237's check lane (the level's fade made short, ending in blank space where the child writes the
+   *  number alone; every such slot carries the number as its answer). */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const { checkLane } = require('./K-237-number-tracing.js');
+    const form = FORMS[FORM_BY_LOCALE[(locale || 'en').slice(0, 2)] || 'continental'];
+    const numbers = ctx.rng.shuffle(Array.from({ length: 10 }, (_, k) => k + 11)).slice(0, 6);
+    return { bodyHtml: `<div>${checkGrid(numbers.map((n) => checkLane(form, n, Number(difficulty))), { cols: 2 })}</div>`, meta: {} };
+  },
+
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const form = FORMS[FORM_BY_LOCALE[(locale || 'en').slice(0, 2)] || 'continental'];

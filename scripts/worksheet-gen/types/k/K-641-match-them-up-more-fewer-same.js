@@ -30,6 +30,50 @@ module.exports = {
   i18n: { en: { title: 'Match Them Up: More, Fewer, or the Same', instruction: 'Draw a line from each picture to a partner in the other row. Circle the row that has more. If both rows have the same number, color the star.' } },
   levelSetWords(m) { return (m.pairs || []).map(String); },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): the page's cards carry no answer, so a check
+   *  could not take them. Here eight of the page's tasks (two the same, three with more on top, three below, in a
+   *  shuffled order; never one pair of numbers twice, 5 over 3 being 3 over 5 turned round), drawn by the page's own rows
+   *  and star, and the decision marked in the markup: the row that has more (or the star when both rows have the same
+   *  number) carries data-lcs-correct, each row its number (data-lcs-group). The rows and the star stand side by side in
+   *  one box, so a check knows which of the three the answer is. */
+  checkPage({ theme, difficulty }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const rng = ctx.rng;
+    const nouns = rng.shuffle(labelSafeNouns(theme).slice());
+    if (nouns.length < 2) throw new Error(`K-641: theme ${theme} has ${nouns.length} pictures`);
+    // (eight, not six: the check pairs its cards with the cards of the page's own key by their count, and a level-3 page
+    // has six — the key would then show the page's rows, not these)
+    const kinds = rng.shuffle(['same', 'same', 'top', 'top', 'top', 'bottom', 'bottom', 'bottom']);
+    const used = new Set(), pairs = [];
+    for (const kind of kinds) {
+      let top, bottom, ok = false;
+      for (let t = 0; t < 400 && !ok; t++) {
+        const big = rng.int(d.lo, d.hi);
+        if (kind === 'same') { top = bottom = big; if (big < 2) continue; }
+        else {
+          const small = big - rng.pick(d.diffs);
+          if (small < d.lo) continue;
+          [top, bottom] = kind === 'top' ? [big, small] : [small, big];
+        }
+        ok = !used.has(Math.min(top, bottom) + ':' + Math.max(top, bottom));
+      }
+      if (!ok) throw new Error('K-641 checkPage: no pair of rows left');
+      used.add(Math.min(top, bottom) + ':' + Math.max(top, bottom)); pairs.push({ top, bottom, kind });
+    }
+    const cell = 50, px = 40;
+    const cards = pairs.map((p, i) => {
+      const a = nouns[(2 * i) % nouns.length], b = nouns[(2 * i + 1) % nouns.length];
+      const mark = (which) => (p.kind === which ? ' data-lcs-correct="1"' : '');
+      const row = (noun, n, which) => rowOf(theme, noun, n, cell, px, which)
+        .replace(`<div style="display:flex" data-lcs-row="${which}">`, `<div style="display:flex;grid-column:1;justify-self:start" data-lcs-row="${which}" data-lcs-group="${n}" data-lcs-choice="${which}"${mark(which)}>`);
+      const star = STAR.replace('<svg ', `<svg style="grid-column:2;grid-row:1 / span 2" data-lcs-choice="same"${mark('same')} `);
+      return `<div class="ws-card-stage" style="display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:10px;row-gap:14px;padding:4px 16px" data-lcs-rows="${p.top}:${p.bottom}" data-lcs-more="${p.kind}">` +
+        `${row(a.noun, p.top, 'top')}${row(b.noun, p.bottom, 'bottom')}${star}</div>`;
+    });
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;

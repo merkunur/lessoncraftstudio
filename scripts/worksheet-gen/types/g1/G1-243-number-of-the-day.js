@@ -95,6 +95,50 @@ module.exports = {
   },
   levelSetWords(m) { return [m.N, ...(m.answers || [])].map(String); },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): the page is ONE number's page, so a check
+   *  cannot cut a task from it. Here six numbers of the level, each a card of its own: the big number, and the page's
+   *  cells that have one right answer — before and after, tens and ones, ten more and ten less — with the page's own
+   *  labels, boxes and sums. (The number word, the drawing and the mark on the line stay on the page: the word has a
+   *  line, not a box; the drawing and the mark have many right answers.) Inherited by G1-255/256/257, whose levels
+   *  give their own numbers. */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const rng = ctx.rng;
+    const loc = (locale || 'en').slice(0, 2);
+    const L = LABELS[loc] && LABELS[loc].numberOfDay;
+    if (!L) throw new Error(`${this.id}: no labels for locale ${loc}`);
+    const big = (txt, px) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:${px}px;color:#3A3530;white-space:nowrap">${txt}</span>`;
+    const head = (t) => `<span style="font-family:'Nunito';font-weight:800;font-size:15px;color:#8A8276">${t}</span>`;
+    const part = (label, inner, extra, css) =>
+      `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:8px 12px;display:flex;flex-direction:column;gap:6px;box-sizing:border-box;${css || ''}" ${extra || ''}>` +
+      `<span style="font-family:'Nunito';font-weight:800;font-size:14px;color:#8A8276;line-height:1.15" data-lcs-label>${label}</span>` +
+      `<div style="display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap" data-lcs-cell-body>${inner}</div></div>`;
+    const cardOf = (N) => {
+      const box = (w, h, a) => answerBox({ w, h, answer: a });
+      const eq = (op, k) => `<span style="display:flex;align-items:center;gap:8px" data-lcs-eq="${op}${k}">${big(`${N} ${op === '+' ? '+' : '−'} ${k} =`, 22)}${box(58, 46, op === '+' ? N + k : N - k)}</span>`;
+      const numeral = `<div style="width:104px;height:104px;background:#FFFFFF;border:3px solid #146B5E;border-radius:16px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box" data-lcs-cell="numeral">` +
+        `<span style="font-family:'Baloo 2';font-weight:700;font-size:62px;line-height:1;color:#3A3530" data-lcs-numeral>${N}</span></div>`;
+      const cells = [
+        part(L.beforeAfter, `<span style="display:flex;align-items:center;gap:6px">${box(50, 46, N - 1)}${big(N, 26)}${box(50, 46, N + 1)}</span>`, 'data-lcs-cell="before-after"'),
+        part(L.tensOnes, `<span style="display:flex;align-items:center;gap:10px">${head(L.tens)}${box(58, 46, Math.floor(N / 10))}<span style="width:4px"></span>${head(L.ones)}${box(58, 46, N % 10)}</span>`, 'data-lcs-cell="tens-ones"'),
+        part(L.tenMoreLess, `<span style="display:flex;align-items:center;gap:26px">${eq('+', 10)}${eq('-', 10)}</span>`, 'data-lcs-cell="plus-minus"', 'grid-column:1 / span 2'),
+      ];
+      return `<div style="display:flex;align-items:center;gap:14px" data-lcs-n="${N}">${numeral}` +
+        `<div style="flex:1 1 auto;display:grid;grid-template-columns:auto 1fr;gap:10px">${cells.join('')}</div></div>`;
+    };
+    const used = new Set(), cards = [];
+    for (let guard = 0; cards.length < 6 && guard < 400; guard++) {
+      const N = rng.int(d.min, d.max);
+      if (d.exclude(N) || used.has(N) || N - 10 < 0) continue;
+      used.add(N);
+      cards.push(cardOf(N));
+    }
+    if (cards.length < 6) throw new Error(`${this.id} checkPage: fewer than six numbers at level ${difficulty}`);
+    // (the grid in a wrapper of its own: a card is then known by what it says, not by the set of its numbers)
+    return { bodyHtml: `<div>${checkGrid(cards)}</div>`, meta: {} };
+  },
+
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;

@@ -11,4 +11,38 @@ module.exports = {
   slug: 'animal-fact-file-tick-the-facts',
   difficulty: { 1: D, 2: D, 3: D },
   i18n: { en: { title: "{U} Fact File: Circle the True Facts", instruction: "Read the choices in each row and circle the one that is true for this animal. Then draw where it lives and finish the sentence." } },
+
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): seven fact rows, each about ANOTHER animal of
+   *  the table (its picture and name above the row), each a card of its own; the chips are the face's own (_tickRows:
+   *  the truth and its distractors from the field's option set), the true chip carries data-lcs-correct. The drawing and
+   *  the sentence of the page have no one answer and stay out. Seven: a count the page's own key never shows. */
+  checkPage({ difficulty, locale }, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const { bank: loadBank } = require('../../lib/b3-common.js');
+    const { fileUri } = require('../../lib/b2-common.js');
+    const { factTable } = require('../../templates/components-b3.js');
+    const table = require('../../data/b3/animal-facts.json');
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    const bankLoc = loadBank('animal-fact-file', loc);
+    const rng = ctx.rng;
+    const full = (a) => d.fields.every((f) => a[f] !== null && a[f] !== undefined);
+    const keys = Object.keys(table.animals).filter((k) => {
+      const a = table.animals[k], lit = bankLoc.animals && bankLoc.animals[k];
+      return a.pic && !/\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i.test(String(a.pic.theme)) && full(a) && lit && typeof lit.name === 'string' && lit.name.trim();
+    });
+    if (keys.length < 7) throw new Error(`${this.id} checkPage: ${loc} has ${keys.length} animals with every fact`);
+    const fields = rng.shuffle(d.fields);
+    const blocks = rng.sample(keys, 7).map((key, i) => {
+      const animal = table.animals[key];
+      const rows = d.fields.map((f) => ({ key: f, label: bankLoc.labels[f], lane: 'write', fact: animal[f] }));
+      this._tickRows(bankLoc, table, d, rows, { key, animal, loc }, rng);
+      const row = rows.find((r) => r.key === fields[i % fields.length]);
+      return `<div style="display:flex;flex-direction:column;gap:8px">` +
+        `<div style="display:flex;align-items:center;gap:12px"><img class="ws-icon" src="${fileUri(animal.pic.theme, animal.pic.noun)}" alt="" style="width:64px;height:64px">` +
+        `<span style="font-family:'Baloo 2',cursive;font-weight:700;font-size:26px;color:#146B5E">${bankLoc.animals[key].name}</span></div>` +
+        factTable({ rows: [row], w: 600, rowMin: d.rowMin, glyphH: d.glyphH, labelPx: d.labelPx, laneH: d.laneH }) + `</div>`;
+    });
+    return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
+  },
 };

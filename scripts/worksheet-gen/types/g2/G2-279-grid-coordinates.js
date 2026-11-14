@@ -137,6 +137,46 @@ module.exports = {
   // a Level Set copy is a different PICTURE (build-waves compares these between the copies of a level)
   levelSetWords(meta) { return [meta.figure]; },
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): the colour-the-squares
+   * task made small, six times. Each card: a lettered grid a little smaller than the level's (the page's own coordGrid),
+   * one colour group of codes (the page's own codeList: swatch, colour word, the codes shuffled as on the page) and the
+   * small "what B2 means" legend. The squares to find are the grid's answer cells; each carries its code as its answer
+   * (the key writes the code into its square). The face that has the child WRITE the codes (inverse) builds its own
+   * page, as before.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const lv = (levelsFor(this.id) || {})[difficulty] || this.difficulty[difficulty] || this.difficulty[2];
+    if (lv.inverse) return this.build({ theme, difficulty, locale }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const rng = ctx.rng, loc = (locale || 'en').slice(0, 2);
+    const words = COLOR_WORDS[loc];
+    if (!words) throw new Error(`G2-279 checkPage: no colour words for ${loc}`);
+    const size = lv.cols <= 6 ? 5 : lv.cols <= 8 ? 6 : 7;          // the grid of a card: 5 / 6 / 7 squares a side
+    const n = lv.cols <= 6 ? 3 : lv.cols <= 8 ? 4 : 5;             // squares to find
+    const letters = rng.shuffle(Object.keys(COLOR_LETTERS));
+    const demo = coordGrid.coordDemo({ cell: 14 });
+    const cards = Array.from({ length: 6 }, (_, k) => {
+      const ch = letters[k % letters.length], key = COLOR_LETTERS[ch];
+      // (never B2: the legend beside the grid shows where B2 is)
+      const at = new Set(rng.sample(Array.from({ length: size * size }, (_, i) => i).filter((i) => i !== size + 1), n));
+      const figure = { key: 'check', rows: Array.from({ length: size }, (_, r) => Array.from({ length: size }, (_, c) => (at.has(r * size + c) ? ch : '.')).join('')) };
+      const grid = coordGrid({ cols: size, rows: size, cell: 30, figure, offset: { ox: 0, oy: 0 } });
+      const rowMajor = grid.cells.map((c) => c.code).join('|');
+      let codes = grid.cells.map((c) => c.code), guard = 0;
+      if (lv.sorted) codes = codes.slice();
+      else do { codes = rng.shuffle(codes); guard++; } while (codes.join('|') === rowMajor && guard < 20);
+      // the answer of a square is its code, written into it on the key
+      const svg = grid.svg.replace(/data-lcs-answer-cell="([A-P]\d+)"/g, '$& data-lcs-answer="$1"');
+      return `<div class="ws-card-stage" style="gap:22px;justify-content:center;align-items:center;padding:2px 4px">` +
+        `<div style="flex:0 0 auto">${svg}</div>` +
+        `<div style="display:flex;flex-direction:column;align-items:center;gap:14px">` +
+        `<div style="display:flex;align-items:center;gap:8px">${demo.svg}<span class="ws-codechip" style="font-size:15px;height:26px" data-lcs-demo-chip>B2</span></div>` +
+        codeList({ groups: [{ key, word: words[key], codes }] }) + `</div></div>`;
+    });
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   async verify(page) {
     const figures = ALL_FIGURES.map((f) => ({ key: f.key, rows: f.rows }));
     const pf = await page.evaluate(require('../../lib/page-fill.js').pageFill);

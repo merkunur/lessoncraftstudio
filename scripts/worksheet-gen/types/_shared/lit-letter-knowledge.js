@@ -108,7 +108,71 @@ function makeLitLetterKnowledge(cfg) {
         return fails;
       });
     },
+    // THE ITEM BANK (Part 7.6): the unit checks take their cards from checkPage (K-222, K-223, K-229; not the vowel sort)
+    ...(CHECK_MODES.has(cfg.mode || 'upper-lower') ? { checkPage(args, ctx) { return checkPage.call(this, args, ctx, alphabets); } } : {}),
   };
+}
+
+/* --- THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card a
+ * task of its own with its answer in its markup, by the same letters and the same steps as the page.
+ *   upper-lower       a capital letter and three (level 3: four) small letters: the right one carries data-lcs-correct
+ *                     (a line drawn on a check has no mark its key can show: the check circles the small letter)
+ *   missing-alphabet  six letters of the alphabet in a row, the first always printed, one / two / three left out: each
+ *                     blank an answer box holding its letter
+ *   find-letter-grid  the letter in its box (small and capital, as on the page) over twelve letters: every match
+ *                     carries data-lcs-correct
+ * Seven cards: no page of the type has seven of anything alike (the cutter pairs a check card with the page's key card by
+ * its place when the two counts agree). */
+const CHECK_MODES = new Set(['upper-lower', 'missing-alphabet', 'find-letter-grid']);
+const CHECK_CARDS = 7;
+function checkPage({ difficulty, locale }, ctx, alphabets) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const rng = ctx.rng;
+  const d = this.difficulty[difficulty] || this.difficulty[2];
+  const lvl = Number(difficulty) || 2;
+  const alphabet = (alphabets[(locale || 'en').slice(0, 2)] || alphabets.en || 'abcdefghijklmnopqrstuvwxyz').split('');
+  const tileStyle = (px, font) => `flex:none;width:${px}px;height:${px}px;font-size:${font}px`;
+  const cards = [];
+  if (this.mode === 'find-letter-grid') {
+    // as the page: the target, then d.n of it among the others (on 12 cells instead of 30: 2 / 3 / 4)
+    const total = 12, hits = Math.max(2, Math.round(d.n * total / 30));
+    for (const target of rng.sample(alphabet, CHECK_CARDS)) {
+      const others = alphabet.filter((c) => c !== target);
+      const cells = [];
+      for (let i = 0; i < hits; i++) cells.push(target);
+      while (cells.length < total) cells.push(others[Math.floor(rng.next() * others.length)]);
+      const grid = rng.shuffle(cells).map((ch) => `<span class="lit-lk-cell lit-letter" style="${tileStyle(40, 24)}"${ch === target ? ' data-lcs-correct="1"' : ''}>${ch}</span>`).join('');
+      cards.push(`<div style="display:flex;flex-direction:column;align-items:center;gap:8px">` +
+        `<div class="lit-lk-target" style="padding:0;gap:10px"><span class="lit-lk-target-chip" style="${tileStyle(46, 28)}">${target}</span>` +
+        `<span class="lit-lk-target-chip" style="${tileStyle(46, 28)};background:#FBF3E4;color:#146B5E;border:2.5px solid #146B5E">${target.toUpperCase()}</span></div>` +
+        `<div style="display:grid;grid-template-columns:repeat(6,auto);gap:6px">${grid}</div></div>`);
+    }
+  } else if (this.mode === 'missing-alphabet') {
+    // a stretch of six letters in order; the first is always printed (the page never blanks the first letter either)
+    const len = 6, blanks = Math.max(1, Math.min(3, Math.ceil((d.n - 4) / 2)));
+    const starts = rng.sample(alphabet.map((_, i) => i).filter((i) => i + len <= alphabet.length), CHECK_CARDS);
+    for (const s of starts) {
+      const run = alphabet.slice(s, s + len);
+      const gone = new Set(rng.sample(run.map((_, i) => i).filter((i) => i > 0), blanks));
+      cards.push(`<div style="display:flex;justify-content:center;gap:6px">` + run.map((ch, i) => (gone.has(i)
+        ? `<span class="lit-lk-cell lit-lk-blank" data-lcs-answer="${ch}" style="width:40px;height:40px"></span>`
+        : `<span class="lit-lk-cell lit-letter" style="${tileStyle(40, 24)}">${ch}</span>`)).join('') + `</div>`);
+    }
+  } else {
+    // upper-lower: a capital and its small letter among others of the alphabet; where the right one stands is drawn evenly
+    const n = lvl >= 3 ? 4 : 3;
+    const letters = rng.sample(alphabet, CHECK_CARDS);
+    const at = rng.shuffle(letters.map((_, i) => i % n));
+    letters.forEach((ch, ci) => {
+      const wrong = rng.sample(alphabet.filter((c) => c !== ch && c.toUpperCase() !== ch.toUpperCase()), n - 1);
+      const opts = wrong.slice(0, at[ci]).concat([ch], wrong.slice(at[ci]));
+      cards.push(`<div style="display:flex;align-items:center;justify-content:center;gap:12px">` +
+        `<span class="lit-lk-mtile lit-letter" style="${tileStyle(52, 32)};background:#FFFFFF;border-color:#146B5E">${ch.toUpperCase()}</span>` +
+        `<span style="flex:none;font:700 22px/1 'Nunito',sans-serif;color:#C8BFAE">&#8594;</span>` +
+        `<div style="display:flex;gap:8px">` + opts.map((o) => `<span class="lit-lk-cell lit-letter" style="${tileStyle(42, 26)}"${o === ch ? ' data-lcs-correct="1"' : ''}>${o}</span>`).join('') + `</div></div>`);
+    });
+  }
+  return { bodyHtml: `<div data-lcs-check-page><style>${SCOPED_CSS}</style>` + checkGrid(cards, { cols: 2 }) + `</div>`, meta: {} };   // (in a wrapper: a grid straight in the body is cut as an old card page, keyed by the numbers it shows)
 }
 
 /* --- upper-lower match --- */

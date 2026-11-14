@@ -1900,6 +1900,21 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.3.2.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.1.6.g1",
+     "rel": "teaches",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

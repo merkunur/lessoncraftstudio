@@ -6427,5 +6427,63 @@
       "no": "Les hver regnefortelling. Tegn de to blokkene: Den lengste blokken er esken med flest. Vis forskjellen ved siden av den korteste blokken. Skriv de to tallene du kjenner, og et spørsmålstegn. Skriv et regnestykke. Skriv så svaret.",
       "fi": "Lue jokainen tehtävä. Piirrä kaksi palkkia: pidempi palkki kuvaa sitä laatikkoa, jossa on enemmän. Merkitse ero lyhyemmän palkin viereen. Kirjoita kaksi lukua, jotka tiedät, ja kysymysmerkki. Kirjoita lasku. Kirjoita sitten vastaus."
     }
+  },
+  "G3-485": {
+    "3": {
+      "en": "Read each story. Work it out in two steps. Write the answer in the box.",
+      "de": "Lies jede Geschichte. Rechne in zwei Schritten. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Lee cada problema. Resuélvelo en dos pasos. Escribe la respuesta en el recuadro.",
+      "pt": "Leia cada problema. Resolva em duas etapas. Escreva a resposta no quadrinho.",
+      "fr": "Lis chaque problème. Résous-le en deux étapes. Écris la réponse dans la case.",
+      "it": "Leggi ogni problema. Risolvilo con due operazioni. Scrivi la risposta nella casella.",
+      "nl": "Lees elk verhaaltje. Reken het uit in twee stappen. Schrijf het antwoord in het vakje.",
+      "sv": "Läs varje räknehändelse. Räkna i två steg. Skriv svaret i rutan.",
+      "da": "Læs hver regnehistorie. Regn den ud i to trin. Skriv svaret i feltet.",
+      "no": "Les hver regnefortelling. Regn den ut i to steg. Skriv svaret i ruten.",
+      "fi": "Lue jokainen tehtävä. Laske se kahdessa vaiheessa. Kirjoita vastaus ruutuun."
+    }
+  },
+  "G3-486": {
+    "3": {
+      "en": "Read each story. Work it out in two steps. Write the answer in the box.",
+      "de": "Lies jede Geschichte. Rechne in zwei Schritten. Schreibe das Ergebnis in das Kästchen.",
+      "es": "Lee cada problema. Resuélvelo en dos pasos. Escribe la respuesta en el recuadro.",
+      "pt": "Leia cada problema. Resolva em duas etapas. Escreva a resposta no quadrinho.",
+      "fr": "Lis chaque problème. Résous-le en deux étapes. Écris la réponse dans la case.",
+      "it": "Leggi ogni problema. Risolvilo con due operazioni. Scrivi la risposta nella casella.",
+      "nl": "Lees elk verhaaltje. Reken het uit in twee stappen. Schrijf het antwoord in het vakje.",
+      "sv": "Läs varje räknehändelse. Räkna i två steg. Skriv svaret i rutan.",
+      "da": "Læs hver regnehistorie. Regn den ud i to trin. Skriv svaret i feltet.",
+      "no": "Les hver regnefortelling. Regn den ut i to steg. Skriv svaret i ruten.",
+      "fi": "Lue jokainen tehtävä. Laske se kahdessa vaiheessa. Kirjoita vastaus ruutuun."
+    }
+  },
+  "G3-487": {
+    "1": {
+      "en": "Read each story. The equation is written for you: n stands for the number you need to find. Round each number to the nearest hundred and write your estimate in the boxes. Then find n and compare it with your estimate.",
+      "de": "Lies jede Geschichte. Die Gleichung steht schon da: x ist die gesuchte Zahl. Runde jede Zahl auf den nächsten Hunderter und schreibe deinen Überschlag in die Kästchen. Rechne dann x aus und vergleiche mit deinem Überschlag.",
+      "es": "Lee cada problema. La ecuación ya está escrita: x es el número que buscas. Redondea cada número a la centena más cercana y escribe tu estimación en los recuadros. Luego calcula x y compara con tu estimación.",
+      "pt": "Leia cada problema. A equação já está escrita: x é o número que você procura. Arredonde cada número à centena mais próxima e escreva a sua estimativa nos quadrinhos. Depois calcule x e compare com a sua estimativa.",
+      "fr": "Lis chaque problème. L'équation est déjà écrite : x est le nombre cherché. Arrondis chaque nombre à la centaine et écris ton estimation dans les cases. Calcule ensuite x et compare avec ton estimation.",
+      "it": "Leggi ogni problema. L'equazione è già scritta: x è il numero che cerchi. Arrotonda ogni numero al centinaio e scrivi la tua stima nelle caselle. Poi calcola x e confrontalo con la tua stima.",
+      "nl": "Lees elk verhaaltje. De som staat er al: x is het getal dat je zoekt. Rond elk getal af op het honderdtal en schrijf je schatting in de vakjes. Reken daarna x uit en vergelijk met je schatting.",
+      "sv": "Läs varje räknehändelse. Ekvationen är redan skriven: x är talet du söker. Avrunda varje tal till närmaste hundratal och skriv ditt överslag i rutorna. Räkna sedan ut x och jämför med ditt överslag.",
+      "da": "Læs hver regnehistorie. Ligningen står der allerede: x er det tal, du skal finde. Rund hvert tal af til nærmeste hundrede, og skriv dit overslag i felterne. Regn så x ud, og sammenlign med dit overslag.",
+      "no": "Les hver regnefortelling. Likningen står der allerede: x er tallet du skal finne. Rund av hvert tall til nærmeste hundrer og skriv overslaget ditt i rutene. Regn så ut x og sammenlign med overslaget ditt.",
+      "fi": "Lue jokainen tehtävä. Yhtälö on jo kirjoitettu: x on kysytty luku. Pyöristä jokainen luku lähimpään sataan ja kirjoita arviosi ruutuihin. Laske sitten x ja vertaa sitä arvioosi."
+    },
+    "3": {
+      "en": "Read each story. Write one equation with n, estimate with rounded numbers, and find n. In the last story a child has an answer: estimate, decide whether it can be right, and then find n yourself.",
+      "de": "Lies jede Geschichte. Schreibe eine Gleichung mit x, überschlage mit gerundeten Zahlen und rechne x aus. In der letzten Geschichte hat ein Kind schon ein Ergebnis: Überschlage, entscheide, ob es stimmen kann, und rechne dann selbst nach.",
+      "es": "Lee cada problema. Escribe una ecuación con x, estima con números redondeados y calcula x. En el último problema alguien ya tiene una respuesta: estima, decide si puede ser correcta y después calcula x por tu cuenta.",
+      "pt": "Leia cada problema. Escreva uma equação com x, estime com números arredondados e calcule x. No último problema, uma criança já tem uma resposta: estime, decida se ela pode estar certa e depois calcule x por conta própria.",
+      "fr": "Lis chaque problème. Écris une équation avec x, estime avec des nombres arrondis et calcule x. Dans le dernier problème, un enfant a déjà une réponse : estime, décide si elle est possible, puis calcule x à ton tour.",
+      "it": "Leggi ogni problema. Scrivi un'equazione con x, fai una stima con i numeri arrotondati e calcola x. Nell'ultimo problema un bambino ha già una risposta: fai una stima, decidi se può essere giusta e poi calcola x anche tu.",
+      "nl": "Lees elk verhaaltje. Schrijf één som met x, maak een schatting met afgeronde getallen en reken x uit. Bij het laatste verhaaltje heeft een kind al een antwoord: maak een schatting, kruis aan of het kan kloppen en reken x daarna zelf uit.",
+      "sv": "Läs varje räknehändelse. Skriv en ekvation med x, gör ett överslag med avrundade tal och räkna ut x. I den sista räknehändelsen har ett barn redan ett svar: gör ett överslag, avgör om det kan stämma och räkna sedan ut x själv.",
+      "da": "Læs hver regnehistorie. Skriv en ligning med x, lav et overslag med afrundede tal, og regn x ud. I den sidste regnehistorie har et barn allerede et svar: Lav et overslag, afgør, om det kan passe, og regn så selv x ud.",
+      "no": "Les hver regnefortelling. Skriv en likning med x, gjør et overslag med avrundede tall og regn ut x. I den siste regnefortellingen har et barn allerede et svar: Gjør et overslag, avgjør om det kan stemme, og regn så ut x selv.",
+      "fi": "Lue jokainen tehtävä. Kirjoita yhtälö, jossa on x, arvioi pyöristetyillä luvuilla ja laske x. Viimeisessä tehtävässä lapsella on jo vastaus: arvioi, päätä, voiko se pitää paikkansa, ja laske sitten x itse."
+    }
   }
 }

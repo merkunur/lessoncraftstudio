@@ -4944,5 +4944,17 @@
   "G2-512": {
     "title": "Problemi di confronto entro il 100 con due barre",
     "instruction": "Leggi ogni problema. Nelle due barre e nella parte tratteggiata scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G3-485": {
+    "title": "Problemi con due operazioni entro il 1000",
+    "instruction": "Leggi ogni problema. Fai prima la prima operazione, poi la seconda. Scrivi i numeri nelle caselle."
+  },
+  "G3-486": {
+    "title": "Problemi con due operazioni: moltiplicare e dividere",
+    "instruction": "Leggi ogni problema. Fai prima la prima operazione, poi la seconda. Scrivi i numeri nelle caselle."
+  },
+  "G3-487": {
+    "title": "Problemi con due operazioni: equazione, stima, risposta",
+    "instruction": "Leggi ogni problema. Scrivi un'equazione con x per il numero che cerchi. Arrotonda ogni numero al centinaio e fai una stima. Poi calcola x e confrontalo con la tua stima."
   }
 }

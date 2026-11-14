@@ -4055,6 +4055,24 @@
    ],
    "why": "«estimando os que têm maiores ou menores chances de ocorrência» is what a pair of bags asks; EF04MA26 («maior chance de ocorrência … sem utilizar frações») follows in grade 4.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "EF03MA06",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA07",
+     "rel": "teaches"
+    },
+    {
+     "id": "EF03MA08",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Problemas de duas etapas de «adição e subtração … utilizando diferentes estratégias de cálculo exato ou aproximado» (a página com estimativa) e de «multiplicação» e «divisão» com os significados de parcelas iguais e repartição.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -2032,6 +2032,21 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.CE2.30",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "M.CE2.32",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "none": "No objective in PART 2 asks to find the rule that links two lists of numbers.",
    "by": "authored"

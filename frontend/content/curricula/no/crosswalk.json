@@ -1693,6 +1693,26 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "KM13243",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "KM13246",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "KM13259",
+     "rel": "prepares",
+     "grade": "4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

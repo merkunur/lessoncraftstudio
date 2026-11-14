@@ -4393,6 +4393,28 @@
    "none": "No mathematics standard of kindergarten to grade 3 in this registry names chance or likelihood.",
    "why": "Nothing in the wording asks for it.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "3.4.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.K",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.5.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.4.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two-step problems «involving addition and subtraction within 1,000» (3.4.A) and «multiplication and division within 100» (3.4.K), written as equations (3.5.A); the page with an estimate rounds «to the nearest … 100 … to estimate solutions» (3.4.B).",
+   "review": "year-design 2026-11-14"
   }
  }
 }

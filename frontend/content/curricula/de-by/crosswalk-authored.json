@@ -4199,6 +4199,24 @@
    ],
    "why": "Pairs of bags: «schätzen zu einfachen Zufallsexperimenten Gewinnchancen ein … vergleichen ihre Ergebnisse»; bags whose number or kind of pieces differs prepare «variieren die Bedingungen … (Anzahl oder Farbe der Kugeln in einem Säckchen)».",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M3/4.1.3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M3/4.1.3.6",
+     "rel": "teaches"
+    },
+    {
+     "id": "M3/4.1.2.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "These are «mehrschrittige Sachaufgaben» whose «einzelne Lösungsschritte» are written down one by one; on the page with an estimate the child decides «ob Ergebnisse plausibel und richtig sind … durch Überschlag» and corrects a wrong one.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -3516,6 +3516,24 @@
    ],
    "why": "Comparing two bags explores «tilfeldighet og sannsynlighet» in a practical situation, before the grade 5 aim ties it to fractions.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "KM13243",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13246",
+     "rel": "teaches"
+    },
+    {
+     "id": "KM13259",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Regnefortellinger i to steg der eleven bruker «addisjon og subtraksjon» og «multiplikasjon og divisjon til å … løse problemer fra … hverdag»; siden med overslag forbereder «estimere, gjøre overslag … og vurdere kritisk … løsninger».",
+   "review": "year-design 2026-11-14"
   }
  }
 }

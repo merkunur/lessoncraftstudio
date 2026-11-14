@@ -3540,6 +3540,24 @@
    ],
    "why": "Two bags are compared: «schätzen Chancen für das Eintreten von Ereignissen … bei einfachen Zufallsexperimenten ein und vergleichen (z. B. \"ist wahrscheinlicher als\")».",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.1.3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.P.4.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The pages have the child «bei Sachaufgaben Rechenoperationen an[wenden]» and name «die einzelnen Lösungsschritte» (step a, step b); the page with an estimate has the child «Lösungen durch … Überschlagsrechnung» kontrollieren.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

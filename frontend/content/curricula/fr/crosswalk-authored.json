@@ -4722,6 +4722,20 @@
    "none": "No objective of the registry (cycle 2) names chance (hasard) or probability.",
    "why": "Nothing in the wording asks for it.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.CE2.30",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.CE2.32",
+     "rel": "teaches"
+    }
+   ],
+   "why": "La page jusqu’à 1 000 propose des «problèmes additifs en deux étapes»; la page avec multiplication et division, des «problèmes mixtes en deux … étapes».",
+   "review": "year-design 2026-11-14"
   }
  }
 }

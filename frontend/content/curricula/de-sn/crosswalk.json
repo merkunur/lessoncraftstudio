@@ -1915,6 +1915,26 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MA.3.2.12.1",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "MA.3.2.12.2",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "MA.3.2.11.1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

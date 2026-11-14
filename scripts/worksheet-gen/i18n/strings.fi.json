@@ -4910,5 +4910,17 @@
   "G2-512": {
     "title": "Vertailutehtävät kahdella palkilla 0–100",
     "instruction": "Lue jokainen tehtävä. Kirjoita kahteen palkkiin ja katkoviivalla merkittyyn osaan kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G3-485": {
+    "title": "Kaksivaiheiset sanalliset tehtävät 0–1000",
+    "instruction": "Lue jokainen tehtävä. Laske ensin ensimmäinen vaihe ja sitten toinen. Kirjoita luvut ruutuihin."
+  },
+  "G3-486": {
+    "title": "Kaksivaiheiset sanalliset tehtävät: kerto- ja jakolasku",
+    "instruction": "Lue jokainen tehtävä. Laske ensin ensimmäinen vaihe ja sitten toinen. Kirjoita luvut ruutuihin."
+  },
+  "G3-487": {
+    "title": "Kaksivaiheiset sanalliset tehtävät: yhtälö, arvio, vastaus",
+    "instruction": "Lue jokainen tehtävä. Kirjoita yhtälö, jossa x on kysytty luku. Pyöristä jokainen luku lähimpään sataan ja arvioi. Laske sitten x ja vertaa sitä arvioosi."
   }
 }

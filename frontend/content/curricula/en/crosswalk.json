@@ -1674,6 +1674,16 @@
    ],
    "by": "code"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "3.OA.D.8",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:input-output": {
    "rows": [
     {

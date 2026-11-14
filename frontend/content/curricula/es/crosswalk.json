@@ -1929,6 +1929,26 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.1",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "F4.SPC.12.G3.2",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

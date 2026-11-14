@@ -3666,6 +3666,20 @@
    ],
    "why": "Deciding from which of two bags a piece is more likely is to «udtrykke intuitive chancestørrelser».",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Two-step stories are «situationer med matematik» in which the child chooses and carries out «beregninger med naturlige tal»; the page with an estimate has the child judge the result.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -3872,6 +3872,24 @@
    "none": "No content of the registry names chance (azar) or likelihood.",
    "why": "Nothing in the wording asks for it.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "F4.SPC.12.G3.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.12.G3.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "F4.SPC.13.G3.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Situaciones problemáticas de dos pasos con «sumas» y «restas de números naturales de hasta tres cifras» y, en la página de multiplicar y dividir, con repartos y agrupamientos.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -73,6 +73,13 @@
    "strand": "Measurement & Data",
    "code": "READINESS:chance",
    "skill": "Compare the chance of an outcome in two bags (more likely, less likely, the same) without fractions"
+  },
+  {
+   "tp": "3:two-step-word-problems",
+   "grade": "3",
+   "strand": "Operations & Algebraic Thinking",
+   "code": "3.OA.D.8",
+   "skill": "Solve two-step word problems with the four operations, write the problem as one equation with a letter for the unknown, and check the answer against an estimate from rounded numbers"
   }
  ]
 }

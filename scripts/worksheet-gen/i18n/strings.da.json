@@ -4938,5 +4938,17 @@
   "G2-512": {
     "title": "Sammenligningshistorier til 100 med to blokke",
     "instruction": "Læs hver regnehistorie. Skriv i de to blokke og i den stiplede del de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G3-485": {
+    "title": "Regnehistorier i to trin til 1000",
+    "instruction": "Læs hver regnehistorie. Regn først det første trin og så det andet. Skriv tallene i felterne."
+  },
+  "G3-486": {
+    "title": "Regnehistorier i to trin: gange og dele",
+    "instruction": "Læs hver regnehistorie. Regn først det første trin og så det andet. Skriv tallene i felterne."
+  },
+  "G3-487": {
+    "title": "Regnehistorier i to trin: ligning, overslag, svar",
+    "instruction": "Læs hver regnehistorie. Skriv en ligning med x for det tal, du skal finde. Rund hvert tal af til nærmeste hundrede, og lav et overslag. Regn så x ud, og sammenlign med dit overslag."
   }
 }

@@ -1,0 +1,69 @@
+{
+ "$comment": "TWO-STEP stories with THREE-DIGIT numbers (Year pages T, 2026-11-14; 3.OA.D.8 two-step problems, adding and subtracting within 1,000; de 'Sachaufgaben mit zwei Rechenschritten bis 1000', sv 'textuppgifter i två steg 0–1000'): the four step pairs of two-step-frames.js (A + then − · B − then + · C + then + · D − then −), each told where hundreds of one thing are believable: a store with a delivery truck, a market, workers who pack, a truck that delivers. Nobody is named: 356 pencils belong to no child. Slots: {n1} {n2} {n3} {noun}, {Q} = how many, agreeing (es, pt, it). The thing is named after the first number and after 'how many' only. Read by a native reader (2026-11-14). Only the two-step page within 1,000 reads this file.",
+ "en": {
+  "A": "A store has {n1} {noun}. A truck brings {n2} more. Then the store sells {n3}. How many {noun} does the store have now?",
+  "B": "A market has {n1} {noun}. In the morning it sells {n2}. At noon a truck brings {n3} more. How many {noun} does the market have now?",
+  "C": "Workers pack {n1} {noun} on Monday, {n2} on Tuesday, and {n3} on Wednesday. How many {noun} do they pack in all?",
+  "D": "A truck is loaded with {n1} {noun}. The driver leaves {n2} at the first store and {n3} at the second store. How many {noun} are still on the truck?"
+ },
+ "de": {
+  "A": "Ein Laden hat {n1} {noun}. Ein Lastwagen bringt {n2} dazu. Dann verkauft der Laden {n3}. Wie viele {noun} hat der Laden jetzt?",
+  "B": "Auf einem Markt gibt es {n1} {noun}. Am Vormittag werden {n2} verkauft. Am Mittag bringt ein Lastwagen {n3} dazu. Wie viele {noun} gibt es jetzt auf dem Markt?",
+  "C": "Arbeiter packen am Montag {n1} {noun} ein, am Dienstag {n2} und am Mittwoch {n3}. Wie viele {noun} packen sie insgesamt ein?",
+  "D": "Ein Lastwagen hat {n1} {noun} geladen. Der Fahrer lädt {n2} beim ersten Laden ab und {n3} beim zweiten Laden. Wie viele {noun} sind noch auf dem Lastwagen?"
+ },
+ "es": {
+  "A": "Una tienda tiene {n1} {noun}. Un camión trae {n2} más. Después la tienda vende {n3}. ¿{Q} {noun} tiene ahora la tienda?",
+  "B": "En un mercado hay {n1} {noun}. En la mañana se venden {n2}. Al mediodía un camión trae {n3} más. ¿{Q} {noun} hay ahora en el mercado?",
+  "C": "Unos trabajadores empacan {n1} {noun} el lunes, {n2} el martes y {n3} el miércoles. ¿{Q} {noun} empacan en total?",
+  "D": "Un camión lleva {n1} {noun}. El chofer deja {n2} en la primera tienda y {n3} en la segunda. ¿{Q} {noun} quedan en el camión?"
+ },
+ "pt": {
+  "A": "Uma loja tem {n1} {noun}. Um caminhão traz mais {n2}. Depois a loja vende {n3}. {Q} {noun} a loja tem agora?",
+  "B": "Um mercado tem {n1} {noun}. De manhã vende {n2}. Ao meio-dia um caminhão traz mais {n3}. {Q} {noun} o mercado tem agora?",
+  "C": "Alguns trabalhadores embalam {n1} {noun} na segunda-feira, {n2} na terça-feira e {n3} na quarta-feira. {Q} {noun} eles embalam ao todo?",
+  "D": "Um caminhão leva {n1} {noun}. O motorista deixa {n2} na primeira loja e {n3} na segunda. {Q} {noun} ainda estão no caminhão?"
+ },
+ "fr": {
+  "A": "Un magasin a {n1} {noun}. Un camion en apporte {n2} de plus. Puis le magasin en vend {n3}. Combien de {noun} le magasin a-t-il maintenant ?",
+  "B": "Sur un marché, il y a {n1} {noun}. Le matin, on en vend {n2}. À midi, un camion en apporte {n3} de plus. Combien de {noun} y a-t-il maintenant sur le marché ?",
+  "C": "Des ouvriers emballent {n1} {noun} lundi, {n2} mardi et {n3} mercredi. Combien de {noun} emballent-ils en tout ?",
+  "D": "Un camion transporte {n1} {noun}. Le chauffeur en laisse {n2} au premier magasin et {n3} au deuxième. Combien de {noun} reste-t-il dans le camion ?"
+ },
+ "it": {
+  "A": "Un negozio ha {n1} {noun}. Un camion ne porta {n2} in più. Poi il negozio ne vende {n3}. {Q} {noun} ha adesso il negozio?",
+  "B": "Al mercato ci sono {n1} {noun}. Al mattino se ne vendono {n2}. A mezzogiorno un camion ne porta {n3} in più. {Q} {noun} ci sono adesso al mercato?",
+  "C": "Gli operai confezionano {n1} {noun} lunedì, {n2} martedì e {n3} mercoledì. {Q} {noun} confezionano in tutto?",
+  "D": "Un camion trasporta {n1} {noun}. L'autista ne lascia {n2} al primo negozio e {n3} al secondo. {Q} {noun} restano sul camion?"
+ },
+ "nl": {
+  "A": "Een winkel heeft {n1} {noun}. Een vrachtwagen brengt er {n2} bij. Dan verkoopt de winkel er {n3}. Hoeveel {noun} heeft de winkel nu?",
+  "B": "Op een markt zijn {n1} {noun}. In de ochtend worden er {n2} verkocht. In de middag brengt een vrachtwagen er {n3} bij. Hoeveel {noun} zijn er nu op de markt?",
+  "C": "Medewerkers pakken op maandag {n1} {noun} in, op dinsdag {n2} en op woensdag {n3}. Hoeveel {noun} pakken ze in totaal in?",
+  "D": "Een vrachtwagen is geladen met {n1} {noun}. De chauffeur laat er {n2} achter bij de eerste winkel en {n3} bij de tweede. Hoeveel {noun} zitten er nog in de vrachtwagen?"
+ },
+ "sv": {
+  "A": "En affär har {n1} {noun}. En lastbil kommer med {n2} till. Sedan säljer affären {n3}. Hur många {noun} har affären nu?",
+  "B": "På en marknad finns det {n1} {noun}. På förmiddagen säljs {n2}. Vid lunch kommer en lastbil med {n3} till. Hur många {noun} finns det på marknaden nu?",
+  "C": "Arbetare packar {n1} {noun} på måndagen, {n2} på tisdagen och {n3} på onsdagen. Hur många {noun} packar de sammanlagt?",
+  "D": "En lastbil är lastad med {n1} {noun}. Chauffören lämnar {n2} i den första affären och {n3} i den andra. Hur många {noun} finns kvar på lastbilen?"
+ },
+ "da": {
+  "A": "En butik har {n1} {noun}. En lastbil kommer med {n2} flere. Så sælger butikken {n3}. Hvor mange {noun} har butikken nu?",
+  "B": "På et marked er der {n1} {noun}. Om formiddagen bliver der solgt {n2}. Ved middagstid kommer en lastbil med {n3} flere. Hvor mange {noun} er der nu på markedet?",
+  "C": "Arbejdere pakker {n1} {noun} om mandagen, {n2} om tirsdagen og {n3} om onsdagen. Hvor mange {noun} pakker de i alt?",
+  "D": "En lastbil er læsset med {n1} {noun}. Chaufføren afleverer {n2} i den første butik og {n3} i den anden. Hvor mange {noun} er der tilbage på lastbilen?"
+ },
+ "no": {
+  "A": "En butikk har {n1} {noun}. En lastebil kommer med {n2} til. Så selger butikken {n3}. Hvor mange {noun} har butikken nå?",
+  "B": "På et marked er det {n1} {noun}. Om formiddagen blir det solgt {n2}. Midt på dagen kommer en lastebil med {n3} til. Hvor mange {noun} er det på markedet nå?",
+  "C": "Arbeidere pakker {n1} {noun} på mandag, {n2} på tirsdag og {n3} på onsdag. Hvor mange {noun} pakker de til sammen?",
+  "D": "En lastebil er lastet med {n1} {noun}. Sjåføren leverer {n2} i den første butikken og {n3} i den andre. Hvor mange {noun} er det igjen på lastebilen?"
+ },
+ "fi": {
+  "A": "Kaupassa on {n1} {noun}. Kuorma-auto tuo {n2} lisää. Sitten kauppa myy {n3}. Kuinka monta {noun} kaupassa on nyt?",
+  "B": "Torilla on {n1} {noun}. Aamupäivällä niistä myydään {n2}. Keskipäivällä kuorma-auto tuo {n3} lisää. Kuinka monta {noun} torilla on nyt?",
+  "C": "Työntekijät pakkaavat maanantaina {n1} {noun}, tiistaina {n2} ja keskiviikkona {n3}. Kuinka monta {noun} he pakkaavat yhteensä?",
+  "D": "Kuorma-autossa on {n1} {noun}. Kuljettaja jättää niistä {n2} ensimmäiseen kauppaan ja {n3} toiseen. Kuinka monta {noun} kuorma-autoon jää?"
+ }
+}

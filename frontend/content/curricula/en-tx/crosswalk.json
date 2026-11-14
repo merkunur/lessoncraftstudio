@@ -1938,6 +1938,31 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "3.4.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "3.4.K",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "3.5.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "3.4.B",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

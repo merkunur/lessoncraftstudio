@@ -3889,6 +3889,24 @@
    ],
    "why": "Comparing two bags gives the «kokemuksia todennäköisyydestä» the goal names (content area «Tietojenkäsittely, tilastot ja todennäköisyys»).",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MA.3-6.T5",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.T6",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3-6.S2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Kaksivaiheiset sanalliset tehtävät kehittävät «ongelmanratkaisutaitoja»; arviosivulla oppilas arvioi «ratkaisun järkevyyttä ja tuloksen mielekkyyttä».",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -4958,5 +4958,17 @@
   "G2-512": {
     "title": "Vergelijksommen met twee stroken tot 100",
     "instruction": "Lees elke verhaalsom. Schrijf in de twee stroken en in het stuk met de stippellijn de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G3-485": {
+    "title": "Verhaaltjessommen in twee stappen tot 1000",
+    "instruction": "Lees elk verhaaltje. Reken eerst de eerste stap uit en dan de tweede. Schrijf de getallen in de vakjes."
+  },
+  "G3-486": {
+    "title": "Verhaaltjessommen in twee stappen: vermenigvuldigen en delen",
+    "instruction": "Lees elk verhaaltje. Reken eerst de eerste stap uit en dan de tweede. Schrijf de getallen in de vakjes."
+  },
+  "G3-487": {
+    "title": "Verhaaltjessommen in twee stappen: som, schatting, antwoord",
+    "instruction": "Lees elk verhaaltje. Schrijf één som met x voor het getal dat je zoekt. Rond elk getal af op het honderdtal en maak een schatting. Reken daarna x uit en vergelijk met je schatting."
   }
 }

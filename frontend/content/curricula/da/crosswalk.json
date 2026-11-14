@@ -1744,6 +1744,21 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.K1",
+     "rel": "teaches",
+     "grade": "1-3"
+    },
+    {
+     "id": "MAT.3.K2",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

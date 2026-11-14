@@ -1,0 +1,113 @@
+{
+ "$comment": "The printed words of the page 'two-step stories: an equation with a letter, an estimate, an answer' (Year pages T, 2026-11-14; 3.OA.D.8: an equation with a letter for the unknown, and the answer checked against an estimate from rounded numbers). letter = the letter of the unknown (US pages write n; the other languages write x). eq / est / ans = the labels of the three lines. says = the line of the last card of the harder page, where a child's finished answer is printed ({name}, {eq} = letter = number). ok = the question under it, yes / no its two choices; the last line of that card is the child's own answer (ans): the printed answer is right on some pages, so no label calls it wrong. Read by a native reader (2026-11-14).",
+ "en": {
+  "letter": "n",
+  "eq": "Equation",
+  "est": "Estimate",
+  "ans": "Answer",
+  "says": "{name} says: {eq}",
+  "ok": "Can that be right?",
+  "yes": "yes",
+  "no": "no"
+ },
+ "de": {
+  "letter": "x",
+  "eq": "Gleichung",
+  "est": "Überschlag",
+  "ans": "Ergebnis",
+  "says": "{name} sagt: {eq}",
+  "ok": "Kann das stimmen?",
+  "yes": "ja",
+  "no": "nein"
+ },
+ "es": {
+  "letter": "x",
+  "eq": "Ecuación",
+  "est": "Estimación",
+  "ans": "Respuesta",
+  "says": "{name} dice: {eq}",
+  "ok": "¿Puede ser correcto?",
+  "yes": "sí",
+  "no": "no"
+ },
+ "pt": {
+  "letter": "x",
+  "eq": "Equação",
+  "est": "Estimativa",
+  "ans": "Resposta",
+  "says": "{name} diz: {eq}",
+  "ok": "Pode estar certo?",
+  "yes": "sim",
+  "no": "não"
+ },
+ "fr": {
+  "letter": "x",
+  "eq": "Équation",
+  "est": "Estimation",
+  "ans": "Réponse",
+  "says": "{name} dit : {eq}",
+  "ok": "Est-ce possible ?",
+  "yes": "oui",
+  "no": "non"
+ },
+ "it": {
+  "letter": "x",
+  "eq": "Equazione",
+  "est": "Stima",
+  "ans": "Risposta",
+  "says": "{name} dice: {eq}",
+  "ok": "Può essere giusto?",
+  "yes": "sì",
+  "no": "no"
+ },
+ "nl": {
+  "letter": "x",
+  "eq": "Som met x",
+  "est": "Schatting",
+  "ans": "Antwoord",
+  "says": "{name} zegt: {eq}",
+  "ok": "Kan dat kloppen?",
+  "yes": "ja",
+  "no": "nee"
+ },
+ "sv": {
+  "letter": "x",
+  "eq": "Ekvation",
+  "est": "Överslag",
+  "ans": "Svar",
+  "says": "{name} säger: {eq}",
+  "ok": "Kan det stämma?",
+  "yes": "ja",
+  "no": "nej"
+ },
+ "da": {
+  "letter": "x",
+  "eq": "Ligning",
+  "est": "Overslag",
+  "ans": "Svar",
+  "says": "{name} siger: {eq}",
+  "ok": "Kan det passe?",
+  "yes": "ja",
+  "no": "nej"
+ },
+ "no": {
+  "letter": "x",
+  "eq": "Likning",
+  "est": "Overslag",
+  "ans": "Svar",
+  "says": "{name} sier: {eq}",
+  "ok": "Kan det stemme?",
+  "yes": "ja",
+  "no": "nei"
+ },
+ "fi": {
+  "letter": "x",
+  "eq": "Yhtälö",
+  "est": "Arvio",
+  "ans": "Vastaus",
+  "says": "{name} sanoo: {eq}",
+  "ok": "Voiko se pitää paikkansa?",
+  "yes": "kyllä",
+  "no": "ei"
+ }
+}

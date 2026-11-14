@@ -1,0 +1,80 @@
+{
+ "$comment": "TWO-STEP stories in which one step MULTIPLIES or DIVIDES (Year pages T, 2026-11-14; 3.OA.D.8; facts within 100): M1 times then plus · M2 times then minus · M3 divide then plus · M4 plus then divide · M5 minus then divide. The words for packs, baskets and fair sharing are those of the reviewed one-step stories (word-problems-levelset.json: mul, share). Slots: {n1} {n2} {n3} are the numbers in the order of the two number sentences (n1 ○ n2 = s, s ○ n3 = answer), {noun}, {name}, {Q} = how many, agreeing (es, pt, it). A name is never inflected and takes no pronoun that shows a gender. The thing is named after a number and after 'how many' only; in M1 it is named again after the number at home (\"already has 19\" read as 19 packs: native reader). Read by a native reader (2026-11-14). Only the two-step page with multiplying and dividing reads this file. M4 never ends its first sentence in a numeral before the number of children (de, nl, sv, fi: \"16. 7 Kinder\" read as a date).",
+ "en": {
+  "M1": "{name} buys {n1} packs. Each pack has {n2} {noun}. At home, {name} already has {n3} {noun}. How many {noun} does {name} have in all?",
+  "M2": "There are {n1} baskets. Each basket holds {n2} {noun}. {name} takes out {n3}. How many {noun} are left in the baskets?",
+  "M3": "{name} puts {n1} {noun} into {n2} baskets, the same number in each basket. Then {name} puts {n3} more into the first basket. How many {noun} are in the first basket now?",
+  "M4": "There are {n1} {noun} in a red box and {n2} in a blue box. {n3} children share all of them fairly. How many {noun} does each child get?",
+  "M5": "{name} has {n1} {noun}. {name} keeps {n2} and shares the rest fairly among {n3} friends. How many {noun} does each friend get?"
+ },
+ "de": {
+  "M1": "{name} kauft {n1} Packungen. In jeder Packung sind {n2} {noun}. Zu Hause hat {name} schon {n3} {noun}. Wie viele {noun} hat {name} jetzt insgesamt?",
+  "M2": "Es stehen {n1} Körbe da. In jedem Korb sind {n2} {noun}. {name} nimmt {n3} heraus. Wie viele {noun} sind noch in den Körben?",
+  "M3": "{name} verteilt {n1} {noun} gleichmäßig auf {n2} Körbe. Dann legt {name} noch {n3} in den ersten Korb. Wie viele {noun} sind jetzt im ersten Korb?",
+  "M4": "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2}. Alle werden gerecht an {n3} Kinder verteilt. Wie viele {noun} bekommt jedes Kind?",
+  "M5": "{name} hat {n1} {noun}. {name} behält {n2} und verteilt den Rest gerecht an {n3} Freunde. Wie viele {noun} bekommt jeder Freund?"
+ },
+ "es": {
+  "M1": "{name} compra {n1} paquetes. Cada paquete trae {n2} {noun}. En su casa ya tiene {n3} {noun}. ¿{Q} {noun} tiene ahora en total?",
+  "M2": "Hay {n1} canastas. En cada canasta hay {n2} {noun}. {name} saca {n3}. ¿{Q} {noun} quedan en las canastas?",
+  "M3": "{name} reparte {n1} {noun} en {n2} canastas por igual. Después pone {n3} más en la primera canasta. ¿{Q} {noun} hay ahora en la primera canasta?",
+  "M4": "Hay {n1} {noun} en una caja roja y {n2} en una caja azul. {n3} niños se reparten todo en partes iguales. ¿{Q} {noun} recibe cada niño?",
+  "M5": "{name} tiene {n1} {noun}. Se queda con {n2} y reparte el resto en partes iguales entre {n3} amigos. ¿{Q} {noun} recibe cada amigo?"
+ },
+ "pt": {
+  "M1": "{name} compra {n1} pacotes. Cada pacote tem {n2} {noun}. Em casa, {name} já tem {n3} {noun}. {Q} {noun} {name} tem agora ao todo?",
+  "M2": "Há {n1} cestas. Cada cesta tem {n2} {noun}. {name} tira {n3}. {Q} {noun} sobram nas cestas?",
+  "M3": "{name} distribui {n1} {noun} igualmente em {n2} cestas. Depois coloca mais {n3} na primeira cesta. {Q} {noun} há agora na primeira cesta?",
+  "M4": "Há {n1} {noun} em uma caixa vermelha e {n2} em uma caixa azul. {n3} crianças dividem tudo igualmente. {Q} {noun} cada criança recebe?",
+  "M5": "{name} tem {n1} {noun}. Fica com {n2} e divide o resto igualmente entre {n3} amigos. {Q} {noun} cada amigo recebe?"
+ },
+ "fr": {
+  "M1": "{name} achète {n1} paquets. Dans chaque paquet, il y a {n2} {noun}. À la maison, {name} a déjà {n3} {noun}. Combien de {noun} cela fait-il en tout ?",
+  "M2": "Il y a {n1} paniers. Chaque panier contient {n2} {noun}. {name} en sort {n3}. Combien de {noun} reste-t-il dans les paniers ?",
+  "M3": "{name} répartit {n1} {noun} dans {n2} paniers, autant dans chaque panier. Puis {name} en ajoute {n3} dans le premier panier. Combien de {noun} y a-t-il maintenant dans le premier panier ?",
+  "M4": "Il y a {n1} {noun} dans une boîte rouge et {n2} dans une boîte bleue. {n3} enfants se partagent le tout en parts égales. Combien de {noun} reçoit chaque enfant ?",
+  "M5": "{name} a {n1} {noun}. {name} en garde {n2} et partage le reste en parts égales entre {n3} amis. Combien de {noun} reçoit chaque ami ?"
+ },
+ "it": {
+  "M1": "{name} compra {n1} confezioni. In ogni confezione ci sono {n2} {noun}. A casa ha già {n3} {noun}. {Q} {noun} ha adesso in tutto?",
+  "M2": "Ci sono {n1} cesti. In ogni cesto ci sono {n2} {noun}. {name} ne toglie {n3}. {Q} {noun} restano nei cesti?",
+  "M3": "{name} divide {n1} {noun} in {n2} cesti in parti uguali. Poi ne aggiunge {n3} nel primo cesto. {Q} {noun} ci sono adesso nel primo cesto?",
+  "M4": "Ci sono {n1} {noun} in una scatola rossa e {n2} in una scatola blu. {n3} bambini si dividono tutto in parti uguali. {Q} {noun} riceve ogni bambino?",
+  "M5": "{name} ha {n1} {noun}. Ne tiene {n2} e divide il resto in parti uguali fra {n3} amici. {Q} {noun} riceve ogni amico?"
+ },
+ "nl": {
+  "M1": "{name} koopt {n1} pakjes. In elk pakje zitten {n2} {noun}. Thuis heeft {name} al {n3} {noun}. Hoeveel {noun} heeft {name} nu in totaal?",
+  "M2": "Er staan {n1} manden. In elke mand zitten {n2} {noun}. {name} haalt er {n3} uit. Hoeveel {noun} zitten er nog in de manden?",
+  "M3": "{name} verdeelt {n1} {noun} eerlijk over {n2} manden. Dan doet {name} er {n3} bij in de eerste mand. Hoeveel {noun} zitten er nu in de eerste mand?",
+  "M4": "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2}. Ze worden allemaal eerlijk verdeeld over {n3} kinderen. Hoeveel {noun} krijgt elk kind?",
+  "M5": "{name} heeft {n1} {noun}. {name} houdt er {n2} en verdeelt de rest eerlijk over {n3} vrienden. Hoeveel {noun} krijgt elke vriend?"
+ },
+ "sv": {
+  "M1": "{name} köper {n1} paket. I varje paket finns {n2} {noun}. Hemma har {name} redan {n3} {noun}. Hur många {noun} har {name} nu sammanlagt?",
+  "M2": "På bordet står {n1} korgar. I varje korg finns {n2} {noun}. {name} tar ut {n3}. Hur många {noun} finns kvar i korgarna?",
+  "M3": "{name} fördelar {n1} {noun} lika i {n2} korgar. Sedan lägger {name} {n3} till i den första korgen. Hur många {noun} finns det i den första korgen nu?",
+  "M4": "I en röd låda finns {n1} {noun} och i en blå låda {n2}. Alla delas lika mellan {n3} barn. Hur många {noun} får varje barn?",
+  "M5": "{name} har {n1} {noun}. {name} behåller {n2} och delar resten lika mellan {n3} kompisar. Hur många {noun} får varje kompis?"
+ },
+ "da": {
+  "M1": "{name} køber {n1} pakker. I hver pakke er der {n2} {noun}. Derhjemme har {name} allerede {n3} {noun}. Hvor mange {noun} har {name} nu i alt?",
+  "M2": "På bordet står der {n1} kurve. I hver kurv er der {n2} {noun}. {name} tager {n3} op. Hvor mange {noun} er der tilbage i kurvene?",
+  "M3": "{name} fordeler {n1} {noun} ligeligt i {n2} kurve. Så lægger {name} {n3} flere i den første kurv. Hvor mange {noun} er der nu i den første kurv?",
+  "M4": "Der er {n1} {noun} i en rød kasse og {n2} i en blå kasse. {n3} børn deler dem alle ligeligt. Hvor mange {noun} får hvert barn?",
+  "M5": "{name} har {n1} {noun}. {name} beholder {n2} og deler resten ligeligt mellem {n3} venner. Hvor mange {noun} får hver ven?"
+ },
+ "no": {
+  "M1": "{name} kjøper {n1} pakker. I hver pakke er det {n2} {noun}. Hjemme har {name} allerede {n3} {noun}. Hvor mange {noun} har {name} nå til sammen?",
+  "M2": "På bordet står det {n1} kurver. I hver kurv er det {n2} {noun}. {name} tar ut {n3}. Hvor mange {noun} er det igjen i kurvene?",
+  "M3": "{name} fordeler {n1} {noun} likt i {n2} kurver. Så legger {name} {n3} til i den første kurven. Hvor mange {noun} er det i den første kurven nå?",
+  "M4": "Det er {n1} {noun} i en rød eske og {n2} i en blå eske. {n3} barn deler alt sammen likt. Hvor mange {noun} får hvert barn?",
+  "M5": "{name} har {n1} {noun}. {name} beholder {n2} og deler resten likt mellom {n3} venner. Hvor mange {noun} får hver venn?"
+ },
+ "fi": {
+  "M1": "{name} ostaa {n1} pakettia. Jokaisessa paketissa on {n2} {noun}. Kotona hänellä on jo {n3} {noun}. Kuinka monta {noun} hänellä on nyt yhteensä?",
+  "M2": "Pöydällä on {n1} koria. Jokaisessa korissa on {n2} {noun}. {name} ottaa niistä pois {n3}. Kuinka monta {noun} koreihin jää?",
+  "M3": "{name} jakaa {n1} {noun} tasan {n2} koriin. Sitten {name} laittaa ensimmäiseen koriin {n3} lisää. Kuinka monta {noun} ensimmäisessä korissa on nyt?",
+  "M4": "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2}. Ne kaikki jaetaan tasan {n3} lapselle. Kuinka monta {noun} jokainen lapsi saa?",
+  "M5": "{name} saa {n1} {noun}. Hän pitää niistä {n2} ja jakaa loput tasan {n3} kaverille. Kuinka monta {noun} jokainen kaveri saa?"
+ }
+}

@@ -3430,6 +3430,20 @@
    "none": "No wording of the registry names chance (kans) or likelihood.",
    "why": "Nothing in the wording asks for it.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Verhaaltjessommen in twee stappen zijn «toepassings-problemen» waarvoor de leerling een aanpak bedenkt en uitvoert, met optellen, aftrekken, vermenigvuldigen en delen; op de schatpagina controleert de leerling de uitkomst.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

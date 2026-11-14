@@ -1999,6 +1999,26 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "EF03MA06",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "EF03MA07",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "EF03MA08",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

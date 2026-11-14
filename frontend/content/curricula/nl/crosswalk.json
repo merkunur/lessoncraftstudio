@@ -1543,6 +1543,21 @@
    ],
    "by": "authored"
   },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "K15.A",
+     "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "K10.A",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
   "3:input-output": {
    "rows": [
     {

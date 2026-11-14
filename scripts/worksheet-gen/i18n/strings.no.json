@@ -4957,5 +4957,17 @@
   "G2-512": {
     "title": "Sammenligningsfortellinger til 100 med to blokker",
     "instruction": "Les hver regnefortelling. Skriv i de to blokkene og i den stiplede delen de to tallene du kjenner, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G3-485": {
+    "title": "Regnefortellinger i to steg til 1000",
+    "instruction": "Les hver regnefortelling. Regn først det første steget og så det andre. Skriv tallene i rutene."
+  },
+  "G3-486": {
+    "title": "Regnefortellinger i to steg: gange og dele",
+    "instruction": "Les hver regnefortelling. Regn først det første steget og så det andre. Skriv tallene i rutene."
+  },
+  "G3-487": {
+    "title": "Regnefortellinger i to steg: likning, overslag, svar",
+    "instruction": "Les hver regnefortelling. Skriv en likning med x for tallet du skal finne. Rund av hvert tall til nærmeste hundrer og gjør et overslag. Regn så ut x og sammenlign med overslaget ditt."
   }
 }

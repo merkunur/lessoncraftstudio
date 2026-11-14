@@ -5001,5 +5001,17 @@
   "G2-512": {
     "title": "Compare Stories Within 100: Two Bars",
     "instruction": "Read each story. In the two bars and the dashed piece, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
+  },
+  "G3-485": {
+    "title": "Two-Step Story Problems Within 1,000",
+    "instruction": "Read each story. Do the first step, then the second step. Write the numbers in the boxes."
+  },
+  "G3-486": {
+    "title": "Two-Step Story Problems: Multiply and Divide",
+    "instruction": "Read each story. Do the first step, then the second step. Write the numbers in the boxes."
+  },
+  "G3-487": {
+    "title": "Two-Step Stories: Equation, Estimate, Answer",
+    "instruction": "Read each story. Write one equation with n for the number you need to find. Round each number to the nearest hundred and estimate. Then find n and compare it with your estimate."
   }
 }

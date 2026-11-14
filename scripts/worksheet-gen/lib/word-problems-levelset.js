@@ -61,6 +61,7 @@ function fiForm(key) {
   return _fi(key);
 }
 
+const PROPER = { pt: ['Natal', 'Páscoa'], fr: ['Noël', 'Pâques'], it: ['Natale', 'Befana', 'Pasqua'], es: ['Navidad', 'Pascua'] };
 /** The nouns a NEW page may count on this theme in this locale: [{noun, vocabKey, text, gender}] (throws on an un-listed theme). */
 function nounsFor(theme, loc) {
   const allow = ALLOW_SET[theme];
@@ -75,6 +76,8 @@ function nounsFor(theme, loc) {
     let text = loc === 'fi' ? fiForm(n.vocabKey) : l[1];
     if (!text) continue;
     if (loc !== 'de') text = text.toLocaleLowerCase(loc);
+    // (a holiday or a name keeps its capital: "enfeites de Natal", "boules de Noël", "calze della Befana"; native reader 2026-11-14)
+    for (const p of PROPER[loc] || []) text = text.split(p.toLocaleLowerCase(loc)).join(p);
     out.push({ noun: n.noun, vocabKey: n.vocabKey, text, gender: l[2] || null });
   }
   return out;

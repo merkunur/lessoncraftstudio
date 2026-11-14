@@ -4013,6 +4013,20 @@
    ],
    "why": "Comparing two bags describes the likelihood of a simple event (more likely, less likely).",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "M.3.2.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.6.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sachaufgaben with two steps in the Zahlenraum bis 1000 and with facts of the Einmaleins; the page with an estimate has the child set «Überschlagsergebnisse zu den Aufgabenanforderungen in Beziehung» and «auf Plausibilität» prüfen.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

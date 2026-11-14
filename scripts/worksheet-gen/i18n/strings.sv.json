@@ -4912,5 +4912,17 @@
   "G2-512": {
     "title": "Jämförelser med två block upp till 100",
     "instruction": "Läs varje räknehändelse. Skriv i de två blocken och i den streckade delen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G3-485": {
+    "title": "Räknehändelser i två steg upp till 1000",
+    "instruction": "Läs varje räknehändelse. Räkna först det första steget och sedan det andra. Skriv talen i rutorna."
+  },
+  "G3-486": {
+    "title": "Räknehändelser i två steg: multiplikation och division",
+    "instruction": "Läs varje räknehändelse. Räkna först det första steget och sedan det andra. Skriv talen i rutorna."
+  },
+  "G3-487": {
+    "title": "Räknehändelser i två steg: ekvation, överslag, svar",
+    "instruction": "Läs varje räknehändelse. Skriv en ekvation med x för talet du söker. Avrunda varje tal till närmaste hundratal och gör ett överslag. Räkna sedan ut x och jämför med ditt överslag."
   }
 }

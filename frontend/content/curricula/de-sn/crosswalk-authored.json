@@ -4019,6 +4019,24 @@
    ],
    "why": "Which bag is more likely: «Ordnen von Ereignissen nach ihrer Wahrscheinlichkeit», «Anstellen von Vermutungen über den Ausgang von Zufallsexperimenten»; it prepares the Klasse 4 «Vergleichen von Wahrscheinlichkeiten in einfachen Zufallsexperimenten».",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MA.3.2.12.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.2.12.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.2.11.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child sets up a «Lösungsansatz» for a Sachaufgabe with two steps and carries the «Lösungsplan» out; the page with an estimate is «Eingrenzen von Ergebnissen durch Überschlagsbildung».",
+   "review": "year-design 2026-11-14"
   }
  }
 }

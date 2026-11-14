@@ -3666,6 +3666,24 @@
    ],
    "why": "Two bags, one piece: which is more likely, or are they «ugualmente probabili»? The objective stands in classes 4 and 5.",
    "review": "year-design 2026-11-13"
+  },
+  "3:two-step-word-problems": {
+   "rows": [
+    {
+     "id": "MAT.3.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MAT.5.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Problemi con due operazioni: il bambino esegue le «operazioni con i numeri naturali» e ne verbalizza la procedura passo per passo; la pagina con la stima prepara a «stimare il risultato di una operazione».",
+   "review": "year-design 2026-11-14"
   }
  }
 }

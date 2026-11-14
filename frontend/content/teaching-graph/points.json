@@ -3874,6 +3874,28 @@
    ]
   },
   {
+   "id": "3:two-step-word-problems",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Operations & Algebraic Thinking",
+   "skill": "Solve two-step word problems with the four operations, write the problem as one equation with a letter for the unknown, and check the answer against an estimate from rounded numbers",
+   "code": "3.OA.D.8",
+   "types": [
+    "G3-485",
+    "G3-486",
+    "G3-487"
+   ],
+   "families": [
+    "word-problems"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 141,
+   "prerequisites": []
+  },
+  {
    "id": "3:input-output",
    "grade": "3",
    "subject": "math",
@@ -3891,7 +3913,7 @@
     295
    ],
    "verdict": "gap",
-   "order": 141,
+   "order": 142,
    "prerequisites": [
     "3:arithmetic-patterns",
     "3:mult-div-relationship"
@@ -3919,7 +3941,7 @@
     290
    ],
    "verdict": "partial",
-   "order": 142,
+   "order": 143,
    "prerequisites": [
     "1:true-false-equations",
     "3:mult-div-relationship"
@@ -3943,7 +3965,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 143,
+   "order": 144,
    "prerequisites": [
     "3:time-to-minute"
    ]
@@ -3970,7 +3992,7 @@
     303
    ],
    "verdict": "partial",
-   "order": 144,
+   "order": 145,
    "prerequisites": [
     "3:add-subtract-time"
    ]
@@ -3994,7 +4016,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 145,
+   "order": 146,
    "prerequisites": [
     "2:time-5-min-quarter"
    ]
@@ -4023,7 +4045,7 @@
     305
    ],
    "verdict": "partial",
-   "order": 146,
+   "order": 147,
    "prerequisites": [
     "3:mult-equal-groups"
    ]
@@ -4046,7 +4068,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 147,
+   "order": 148,
    "prerequisites": [
     "3:area-model"
    ]
@@ -4069,7 +4091,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 148,
+   "order": 149,
    "prerequisites": [
     "2:measure-with-ruler"
    ]
@@ -4094,7 +4116,7 @@
     306
    ],
    "verdict": "partial",
-   "order": 149,
+   "order": 150,
    "prerequisites": [
     "3:perimeter",
     "3:same-area"
@@ -4123,7 +4145,7 @@
     299
    ],
    "verdict": "gap",
-   "order": 150,
+   "order": 151,
    "prerequisites": [
     "3:division-sharing",
     "3:times-tables"
@@ -4147,7 +4169,7 @@
     309
    ],
    "verdict": "gap",
-   "order": 151,
+   "order": 152,
    "prerequisites": []
   },
   {
@@ -4170,7 +4192,7 @@
     308
    ],
    "verdict": "partial",
-   "order": 152,
+   "order": 153,
    "prerequisites": [
     "3:right-angles",
     "2:2d-attributes"
@@ -4194,7 +4216,7 @@
     285
    ],
    "verdict": "gap",
-   "order": 153,
+   "order": 154,
    "prerequisites": [
     "2:symmetry-line"
    ]
@@ -4219,7 +4241,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 154,
+   "order": 155,
    "prerequisites": [
     "2:equal-shares-shapes"
    ]
@@ -4246,7 +4268,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 155,
+   "order": 156,
    "prerequisites": [
     "3:partition-equal-areas"
    ]
@@ -4272,7 +4294,7 @@
     300
    ],
    "verdict": "partial",
-   "order": 156,
+   "order": 157,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4299,7 +4321,7 @@
     301
    ],
    "verdict": "gap",
-   "order": 157,
+   "order": 158,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4325,7 +4347,7 @@
     302
    ],
    "verdict": "partial",
-   "order": 158,
+   "order": 159,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4351,7 +4373,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 159,
+   "order": 160,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4375,7 +4397,7 @@
     268
    ],
    "verdict": "gap",
-   "order": 160,
+   "order": 161,
    "prerequisites": [
     "2:fraction-of-a-set",
     "3:division-sharing"
@@ -4401,7 +4423,7 @@
     304
    ],
    "verdict": "partial",
-   "order": 161,
+   "order": 162,
    "prerequisites": [
     "2:line-plots",
     "3:fraction-number-line",
@@ -4425,7 +4447,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 162,
+   "order": 163,
    "prerequisites": []
   },
   {
@@ -4446,7 +4468,7 @@
     307
    ],
    "verdict": "gap",
-   "order": 163,
+   "order": 164,
    "prerequisites": [
     "3:area-model"
    ]

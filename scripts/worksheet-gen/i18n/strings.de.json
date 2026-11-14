@@ -4960,5 +4960,17 @@
   "G2-512": {
     "title": "Vergleichsaufgaben mit zwei Streifen bis 100",
     "instruction": "Lies jede Sachaufgabe. Trage in die zwei Streifen und das gestrichelte Stück die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G3-485": {
+    "title": "Sachaufgaben mit zwei Schritten bis 1000",
+    "instruction": "Lies jede Geschichte. Rechne zuerst den ersten Schritt, dann den zweiten. Schreibe die Zahlen in die Kästchen."
+  },
+  "G3-486": {
+    "title": "Sachaufgaben mit zwei Schritten: Malnehmen und Teilen",
+    "instruction": "Lies jede Geschichte. Rechne zuerst den ersten Schritt, dann den zweiten. Schreibe die Zahlen in die Kästchen."
+  },
+  "G3-487": {
+    "title": "Sachaufgaben: Gleichung, Überschlag, Ergebnis",
+    "instruction": "Lies jede Geschichte. Schreibe eine Gleichung mit x für die gesuchte Zahl. Runde jede Zahl auf den nächsten Hunderter und überschlage. Rechne dann x aus und vergleiche mit deinem Überschlag."
   }
 }

@@ -82,15 +82,18 @@ const ago = (d) => new Date(NOW.getTime() - d * DAY);
       { id: 'keep-ended-recent', name: 'x', lastUsedAt: ago(2), teacher: { isAdmin: false, subscription: { status: 'canceled', lsSubscriptionId: 'c', currentPeriodEnd: ago(10) } }, seats: 5, attempts: 4 },
     ];
     const open = [{ id: 'o1', createdAt: ago(8) }, { id: 'o2', createdAt: ago(6) }];
-    const calls = { deleted: [], deletedOpen: 0 };
+    // results of the class that STAYS and is used every week: one older than 427 days, one younger; and one old result of a class that goes anyway
+    const results = [{ id: 'r-old', classId: 'keep-active', createdAt: ago(428) }, { id: 'r-young', classId: 'keep-active', createdAt: ago(426) }, { id: 'r-gone', classId: 'gone-unused', createdAt: ago(480) }];
+    const oldOf = (where) => results.filter((a) => a.createdAt < where.createdAt.lt && !(where.assignment && where.assignment.classId.notIn.includes(a.classId)));
+    const calls = { deleted: [], deletedOpen: 0, deletedOld: null };
     const prisma = {
       classroom: {
         findMany: async () => classes.map((c) => ({ id: c.id, lastUsedAt: c.lastUsedAt, _count: { seats: c.seats }, teacher: c.teacher })),
         delete: async ({ where }) => { calls.deleted.push(where.id); },
       },
       classAttempt: {
-        count: async ({ where }) => (where.assignment ? classes.filter((c) => where.assignment.classId.in.includes(c.id)).reduce((a, c) => a + c.attempts, 0) : open.filter((a) => a.createdAt < where.createdAt.lt).length),
-        deleteMany: async ({ where }) => { calls.deletedOpen = open.filter((a) => a.createdAt < where.createdAt.lt).length; },
+        count: async ({ where }) => (where.reportedAt && where.reportedAt.not === null ? oldOf(where).length : where.assignment ? classes.filter((c) => where.assignment.classId.in.includes(c.id)).reduce((a, c) => a + c.attempts, 0) : open.filter((a) => a.createdAt < where.createdAt.lt).length),
+        deleteMany: async ({ where }) => { if (where.reportedAt && where.reportedAt.not === null) calls.deletedOld = oldOf(where).map((a) => a.id); else calls.deletedOpen = open.filter((a) => a.createdAt < where.createdAt.lt).length; },
       },
     };
     return { prisma, calls };
@@ -102,6 +105,9 @@ const ago = (d) => new Date(NOW.getTime() - d * DAY);
   lines = []; m = make();
   r = await R.run({ prisma: m.prisma, now: NOW, apply: true, log: (l) => lines.push(l) });
   ok(JSON.stringify(m.calls.deleted.sort()) === JSON.stringify(['gone-ended', 'gone-unused']) && m.calls.deletedOpen === 1 && r.deleted === 2 && /APPLIED/.test(lines[0]), '--apply deletes exactly the two expired classes and the one stale open attempt', m.calls);
+  // a result's own maximum age (legal decision 2026-11-14, E5)
+  ok(r.oldResults === 1 && JSON.stringify(m.calls.deletedOld) === JSON.stringify(['r-old']), 'a result 428 days old is deleted in a class that is used every week; one 426 days old stays; the old result of a deleted class is not counted twice', { old: r.oldResults, deleted: m.calls.deletedOld });
+  ok(R.RESULT_MAX_DAYS === 427 && /1 results older than 427 days removed/.test(lines[0]), 'the log line counts the old results', lines);
   lines = [];
   r = await R.run({ prisma: { classroom: { findMany: async () => { const e = new Error('The table `public.class_rooms` does not exist in the current database.'); e.code = 'P2021'; throw e; } } }, now: NOW, apply: true, log: (l) => lines.push(l) });
   ok(r.noTables === true && lines.length === 1, 'before the migration is applied the job says so and does nothing');

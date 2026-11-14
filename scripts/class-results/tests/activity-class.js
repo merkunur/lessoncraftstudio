@@ -41,7 +41,7 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
   fs.mkdirSync(SHOTS, { recursive: true });
   const S = await start({ poisonActivity: POISON });
   const { base, db, store, teacher } = S;
-  const sub = { userId: teacher, usable: true };
+  const sub = { userId: teacher, usable: true, names: true };
   const A = store.CODE_ALPHABET;
   const draw = (n) => () => { let s = ''; for (let i = 0; i < n; i++) s += A[Math.floor(Math.random() * A.length)]; return s; };
   const made = await store.createClass(db, sub, { name: 'Class 1C', namesMode: 'names', locale: 'en', names: 'Max\nLea\nTom' }, draw(10));

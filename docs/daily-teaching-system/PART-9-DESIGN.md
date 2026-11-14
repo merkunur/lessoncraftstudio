@@ -220,3 +220,25 @@ One task with unknown tries makes the whole sitting **"Finished" with no number*
 - **Two decisions that are mine, not the reviewer's.** de and fi: the reviewer found "Aufgabe" and "Tehtävä" ambiguous for an activity (each also means one task on a worksheet) and proposed "Interaktive Übung" and "Harjoitus". The site's own activity pages say "Aufgaben" and "tehtävät", so the label is now "Interaktive Aufgabe" and "Interaktiivinen tehtävä": the site's word, made unambiguous. The print hint: the reviewer proposed quoting the browser's "Save as PDF" label; the label differs by browser, so no label is quoted in any language.
 - **French spacing:** the whole French file now uses a non-breaking space inside « » and before : ; ! ? (32 places; the release 1 texts had ordinary spaces, which can break a line there).
 - In English the tab is therefore called "By standard"; this record keeps "by curriculum" as the name of the view.
+
+## 13. The legal decision of 2026-11-14 and its thirteen conditions (the switch stays off until all are done)
+
+The operator delegated the legal check to an AI legal agent (not a licensed lawyer). Its decision is `legal/DECISION-2026-11-14.md`: **as built NO-GO; GO for numbers-only classes, in every language and country, after the conditions E1 to E13.** First-name classes stay off for everyone at launch. This section is the build list; it replaces step 1 of the launch checklist in section 9.
+
+| | Condition | State |
+|---|---|---|
+| E1 | Numbers only, enforced by the server; first names need the server switch `CLASS_NAMES_ENABLED` AND the teacher's own permission | **built 2026-11-14.** `Caller.names` (store.ts); a class is made as a numbers class whatever is sent, cannot be switched to names, no seat takes a name (`names_off`, 403); `http.ts` gives nobody the permission (no acceptance record exists yet); the teacher screen offers the choice only when the server says so and starts on numbers. 223 rule checks, 60 of 60 planted faults caught, the robot plays a teacher with and without the permission. |
+| E2 | The teacher's one-time confirmation before her first class, stored (a new small table) | open. Needs a migration (a new table only), an endpoint, the tick on the screen, the wording in eleven languages. |
+| E3 | No request to another company, no analytics, no ad tag on any page a child reaches through a class link | open, the largest piece: fonts from this site on deck pages (about 200,000 published), maker play pages and the activity shell; the beacon and the ad tag silent when the address carries `#lcs=`; a robot that records every request. Facts read on the server 2026-11-14: no Pinterest tag id and no other tag is set in production; the analytics is the site's own Umami. |
+| E4 | nginx: `/c/` and `/api/class/` logged without address and browser name; the general log lives 14 days at most | open. Read on the server: logs rotate daily and 14 are kept. |
+| E5 | No result older than 427 days, whatever the class's last use | **built 2026-11-14** (`retention.js` `RESULT_MAX_DAYS`; 25 checks; poisoned twice). |
+| E6 | The play check of a class visit carries no cookie | open (`lcs-meter.js` through its build script, `client-meter.ts`). |
+| E7 | The corrected texts in eleven languages, natively written and read; the pricing answer a4 replaced in the same deploy; FACTS.md corrected | open. One native reviewer over all eleven. |
+| E8 | Class rows never leave the server in a backup, or the owner confirms the backup computer | open; the simplest is to strip the four tables from every dump the PC pulls (`strip-class-data.js --days=0`). |
+| E9 | A privacy link at the foot of the children's class page | open (small). |
+| E10 | A written rule: no person, script or AI session reads class rows | open (a paragraph in this file and in the server-access doc). |
+| E11 | "Do not put a child's name here." under the class-name field, eleven languages | open (with E7's reviewer). |
+| E12 | Company details in the texts; the hosting data-processing agreement concluded | waits for the owner (questions F1 to F4). |
+| E13 | A deploy that contains `pageHasScreen` | done (every deploy since commit `cc0b953a4`). |
+
+**Order of the rest:** E6, E9, E10, E8 (small, no texts) → E2 (table, endpoint, screen) → E3 (fonts, beacon, the request robot) → E4 (nginx) → E7 + E11 (texts ×11, one native reviewer) → E12 from the owner's answers → the launch walk of section 9.

@@ -35,7 +35,8 @@ let seq = 0;
 const A = 'abcdefghijkmnpqrstuvwxyz23456789';
 const gen = (len) => () => { let x = ++seq, s = ''; for (let i = 0; i < len; i++) { s += A[x % 32]; x = Math.floor(x / 32); } return s; };
 const newCode = gen(10), newToken = gen(20);
-const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: true }, FREE = { userId: 'free', usable: false };
+// (SUB and SUB2 hold the first-names permission, so the names paths stay tested; NONAMES is what every teacher is at launch)
+const SUB = { userId: 'sub', usable: true, names: true }, SUB2 = { userId: 'sub2', usable: true, names: true }, FREE = { userId: 'free', usable: false }, NONAMES = { userId: 'plain', usable: true };
 
 (async () => {
   // ── text ──
@@ -130,7 +131,7 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
   eq((await S.addAssignment(db, SUB2, cid, { link: '/s/abcdefghjkmn' }, now())).status, 404, "another teacher's class refuses");
   r = await S.addAssignment(db, SUB, cid, { link: '/s/abcdefghjkmn' }, now());
   eq([r.status, r.body.kind], [201, 'maker'], "the teacher's own maker worksheet is assigned");
-  const db2cls = (await S.createClass(db, SUB2, { name: 'Other' }, newCode)).body.id;
+  const db2cls = (await S.createClass(db, SUB2, { name: 'Other', namesMode: 'names' }, newCode)).body.id;
   eq((await S.addAssignment(db, SUB2, db2cls, { link: '/s/abcdefghjkmn' }, now())).status, 404, "another teacher's maker link cannot be assigned");
 
   // ── child routes ──
@@ -262,6 +263,31 @@ const SUB = { userId: 'sub', usable: true }, SUB2 = { userId: 'sub2', usable: tr
   eq((await S.deleteClass(db, SUB2, cid)).status, 404, "another teacher cannot delete the class");
   eq((await S.deleteClass(db, LAPSED, cid)).status, 200, 'the owner deletes the class');
   ok(!db.classes.has(cid) && ![...db.seats.values()].some((s) => s.classId === cid) && ![...db.assignments.values()].some((a) => a.classId === cid) && ![...db.attempts.values()].some((a) => a.assignmentId === ladA || a.assignmentId === deckA), 'the class, its seats, its assignments and its results are all gone');
+
+  // ── first names need the teacher's own permission (legal decision 2026-11-14, E1): without it the server stores no name, whatever is sent ──
+  {
+    db.usable.add('plain');
+    let q = await S.createClass(db, NONAMES, { name: '3C', namesMode: 'names', locale: 'en', names: ['Max', 'Lea', 'Tom'], count: 2 }, newCode);
+    const pid = q.body.id;
+    eq([q.status, db.classes.get(pid).namesMode, q.body.seats], [201, 'numbers', 2], 'a teacher without the permission asks for a names class: a numbers class is made, with the counted seats');
+    ok([...db.seats.values()].filter((s) => s.classId === pid).every((s) => s.displayName === null), 'and not one of the names she sent is stored');
+    eq(db.classes.get((await S.createClass(db, NONAMES, { name: '3D' }, newCode)).body.id).namesMode, 'numbers', 'a class made without a kind is a numbers class');
+    eq((await S.updateClass(db, NONAMES, pid, { namesMode: 'names' }, newCode, now())).body, { error: 'names_off' }, 'she cannot switch the class to first names');
+    eq(db.classes.get(pid).namesMode, 'numbers', 'and the class is still a numbers class');
+    eq((await S.updateClass(db, NONAMES, pid, { name: '3C blue' }, newCode, now())).status, 200, 'twin: renaming the class works');
+    const seat0 = [...db.seats.values()].find((s) => s.classId === pid).id;
+    eq((await S.updateSeat(db, NONAMES, pid, seat0, { displayName: 'Max' })).body, { error: 'names_off' }, 'no seat takes a name');
+    eq(db.seats.get(seat0).displayName, null, 'and none was stored');
+    eq((await S.updateSeat(db, NONAMES, pid, seat0, { icon: db.seats.get(seat0).icon })).status, 200, 'twin: the seat picture can be set');
+    eq([(await S.addSeats(db, NONAMES, pid, { names: ['Ida'], count: 1 }, now())).status, [...db.seats.values()].filter((s) => s.classId === pid).length], [201, 3], 'adding seats to her numbers class adds counted seats');
+    ok([...db.seats.values()].filter((s) => s.classId === pid).every((s) => s.displayName === null), 'again without a name');
+    // a names class that exists (made while its teacher held the permission) takes no new name once she does not
+    const held = await S.createClass(db, SUB2, { name: 'Held', namesMode: 'names', names: 'Ann' }, newCode);
+    eq((await S.addSeats(db, { userId: 'sub2', usable: true }, held.body.id, { names: ['Bob'] }, now())).body, { error: 'names_off' }, 'a names class takes no new name from a teacher without the permission');
+    eq((await S.addSeats(db, SUB2, held.body.id, { names: ['Bob'] }, now())).status, 201, 'twin: with the permission the name is added');
+    eq((await S.updateClass(db, { userId: 'sub2', usable: true }, held.body.id, { namesMode: 'numbers' }, newCode, now())).status, 200, 'and she can always switch it to numbers only');
+    db.usable.delete('plain');
+  }
 
   // numbers-only from the start, a new link key, the class cap
   db.usable.add('sub');

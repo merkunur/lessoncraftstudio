@@ -31,7 +31,7 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
   fs.mkdirSync(SHOTS, { recursive: true });
   const S = await start({ seed: true });
   const { base, seeded, db, store, teacher } = S;
-  const sub = { userId: teacher, usable: true };
+  const sub = { userId: teacher, usable: true, names: true };
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const url = base + '/c/' + seeded.code;
 

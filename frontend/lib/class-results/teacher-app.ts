@@ -41,7 +41,7 @@ export interface ClassesOptions {
 interface ClassView { id: string; name: string; code: string; namesMode: 'names' | 'numbers'; locale: string; lastUsedAt: string }
 interface SeatView { id: string; seatNo: number; displayName: string | null; icon: string }
 interface AssignmentView { id: string; kind: 'deck' | 'ladder' | 'maker' | 'activity'; title: string; closed: boolean; position: number; levels: string[] | null }
-interface ClassData { class: ClassView; seats: SeatView[]; assignments: AssignmentView[]; canEdit?: boolean }
+interface ClassData { class: ClassView; seats: SeatView[]; assignments: AssignmentView[]; canEdit?: boolean; names?: boolean }
 interface Results extends ClassData { cells: Record<string, Record<string, Cell>> }
 interface ListItem { id: string; name: string; code: string; namesMode: string; locale: string; seats: number; assignments: number; lastUsedAt: string }
 type Tab = 'results' | 'skills' | 'children' | 'work' | 'link';
@@ -191,8 +191,9 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
 
   let dead = false;
   let timer: ReturnType<typeof setInterval> | null = null;
-  const st: { view: 'list' | 'class' | 'new'; id: string | null; tab: Tab; mode: 'child' | 'level'; setId: string | null; openSeat: string | null; usable: boolean; signedIn: boolean } =
-    { view: 'list', id: null, tab: 'results', mode: 'child', setId: null, openSeat: null, usable: o.usable, signedIn: o.signedIn };
+  const st: { view: 'list' | 'class' | 'new'; id: string | null; tab: Tab; mode: 'child' | 'level'; setId: string | null; openSeat: string | null; usable: boolean; signedIn: boolean; names: boolean } =
+    // names: may this teacher keep first names? The server says so with every list and every class; until it does, no.
+    { view: 'list', id: null, tab: 'results', mode: 'child', setId: null, openSeat: null, usable: o.usable, signedIn: o.signedIn, names: false };
 
   if (!document.getElementById('lcsc-style')) document.head.append(h('style', { id: 'lcsc-style', text: CLASSES_CSS }));
   root.classList.add('lcsc');
@@ -410,6 +411,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     if (r.status !== 200) { show(header(), h('p', { class: 'c-err', text: t('error') }), h('button', { type: 'button', text: t('retry'), onclick: () => { void list(); } })); return; }
     const items: ListItem[] = r.body.items || [];
     st.usable = !!r.body.canEdit; // what the server lets this account do, not what the page assumed
+    st.names = r.body.names === true;
     const kids: Kid[] = [header()];
     if (!st.usable && !items.length) { kids.push(planCard(), demoCard()); show(...kids); return; }
     if (!st.usable) kids.push(h('p', { class: 'c-banner', 'data-lapsed': '', text: t('lapsedBanner') }));
@@ -444,7 +446,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
   function newClass(): void {
     stop();
     st.view = 'new';
-    let mode: 'names' | 'numbers' = 'names';
+    let mode: 'names' | 'numbers' = 'numbers';   // a class works under numbers; first names are a choice only where the server allows them
     const name = h('input', { id: 'lcsc-name', type: 'text', maxlength: 60, placeholder: t('formNamePlaceholder'), autocomplete: 'off' }) as HTMLInputElement;
     const lang = languageSelect(o.locale, 'lcsc-lang');
     const slot = h('div');
@@ -469,7 +471,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     } },
       h('h2', { text: t('newClass') }),
       h('label', { for: 'lcsc-name', text: t('formName') }), name,
-      h('fieldset', { style: 'border:0;padding:0;margin:14px 0 0' }, h('legend', { style: 'font-weight:700;padding:0', text: t('formKind') }), radio('names', t('formNames'), t('formNamesHelp')), radio('numbers', t('formNumbers'), t('formNumbersHelp'))),
+      st.names ? h('fieldset', { style: 'border:0;padding:0;margin:14px 0 0' }, h('legend', { style: 'font-weight:700;padding:0', text: t('formKind') }), radio('numbers', t('formNumbers'), t('formNumbersHelp')), radio('names', t('formNames'), t('formNamesHelp'))) : null,
       slot,
       h('label', { for: 'lcsc-lang', text: t('formLanguage') }), lang,
       msg,
@@ -657,7 +659,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     }
     const danger = h('div', { class: 'c-row', style: 'margin-top:18px' });
     if (d.class.namesMode === 'names') danger.append(confirmButton(t('toNumbers'), t('toNumbersConfirm'), async () => { const r2 = await api('PATCH', '/api/classes/' + id, { namesMode: 'numbers' }); if (r2.status === 200) again('children'); else msg.textContent = errorText(r2); }));
-    else if (edit) danger.append(h('button', { type: 'button', 'data-act': 'to-names', text: t('toNames'), onclick: async () => { const r2 = await api('PATCH', '/api/classes/' + id, { namesMode: 'names' }); if (r2.status === 200) again('children'); else msg.textContent = errorText(r2); } }));
+    else if (edit && d.names === true) danger.append(h('button', { type: 'button', 'data-act': 'to-names', text: t('toNames'), onclick: async () => { const r2 = await api('PATCH', '/api/classes/' + id, { namesMode: 'names' }); if (r2.status === 200) again('children'); else msg.textContent = errorText(r2); } }));
     if (edit) danger.append(confirmButton(t('newLink'), t('newLinkConfirm'), async () => { const r2 = await api('PATCH', '/api/classes/' + id, { newCode: true }); if (r2.status === 200) again('link'); else msg.textContent = errorText(r2); }, ''));
     danger.append(confirmButton(t('deleteClass'), t('deleteClassConfirm'), async () => { await api('DELETE', '/api/classes/' + id); void list(); }));
     settings.append(danger, h('p', { class: 'c-muted', style: 'margin-top:14px', text: t('retention') }));

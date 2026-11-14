@@ -188,9 +188,14 @@ export interface ClassDb {
 
 export interface Reply { status: number; body: unknown }
 /** who is calling a teacher route: a signed-in user and whether their subscription is usable now */
-export type Caller = { userId: string; usable: boolean } | null;
+/** `names`: may this teacher keep children's FIRST NAMES? (legal decision of 2026-11-14, condition E1.) Absent or
+ *  false = numbers only, and the rules below refuse a name whatever the request says: a class is made as a numbers
+ *  class, cannot be switched to names, and no seat takes a name. It is true only when the server switch
+ *  CLASS_NAMES_ENABLED is on AND the teacher holds her own permission (http.ts callerOf). */
+export type Caller = { userId: string; usable: boolean; names?: boolean } | null;
 
 const json = (status: number, body: unknown): Reply => ({ status, body });
+const NAMES_OFF: Reply = { status: 403, body: { error: 'names_off' } };
 const iso = (d: Date | string) => (typeof d === 'string' ? d : d.toISOString());
 const ms = (d: Date | string) => (typeof d === 'string' ? Date.parse(d) : d.getTime());
 const HOUR = 3600 * 1000;
@@ -399,7 +404,7 @@ function seatsFrom(body: { names?: unknown; count?: unknown }, mode: NamesMode, 
 
 export async function listClasses(db: ClassDb, me: Caller): Promise<Reply> {
   if (!me) return SIGNIN;
-  return json(200, { items: await db.listClasses(me.userId), canEdit: me.usable });
+  return json(200, { items: await db.listClasses(me.userId), canEdit: me.usable, names: me.names === true });
 }
 
 export async function createClass(db: ClassDb, me: Caller, body: unknown, newCode: () => string): Promise<Reply> {
@@ -409,7 +414,8 @@ export async function createClass(db: ClassDb, me: Caller, body: unknown, newCod
   if (!b || typeof b !== 'object') return json(400, { error: 'bad_json' });
   const name = cleanClassName(b.name);
   if (!name) return json(400, { error: 'bad_name' });
-  const namesMode = (NAMES_MODES as readonly unknown[]).includes(b.namesMode) ? (b.namesMode as NamesMode) : 'names';
+  // numbers only unless this teacher may keep first names AND asked for them (a list of names sent with the request is then never read)
+  const namesMode: NamesMode = me.names === true && b.namesMode === 'names' ? 'names' : 'numbers';
   const locale = (LOCALES as readonly unknown[]).includes(b.locale) ? (b.locale as string) : 'en';
   const s = seatsFrom(b, namesMode, 1, new Set());
   if ('status' in s) return s;
@@ -430,7 +436,7 @@ export async function getClass(db: ClassDb, me: Caller, id: string): Promise<Rep
   const c = await own(db, me, id);
   if (!c) return NOT_FOUND;
   const [seats, assignments] = await Promise.all([db.listSeats(c.id), db.listAssignments(c.id)]);
-  return json(200, { class: classView(c), seats: seats.map(seatView), assignments: assignments.map(assignmentView), canEdit: me.usable });
+  return json(200, { class: classView(c), seats: seats.map(seatView), assignments: assignments.map(assignmentView), canEdit: me.usable, names: me.names === true });
 }
 
 export async function updateClass(db: ClassDb, me: Caller, id: string, body: unknown, newCode: () => string, now: Date): Promise<Reply> {
@@ -443,6 +449,7 @@ export async function updateClass(db: ClassDb, me: Caller, id: string, body: unk
   if (b.name !== undefined) { const n = cleanClassName(b.name); if (!n) return json(400, { error: 'bad_name' }); patch.name = n; }
   if (b.locale !== undefined) { if (!(LOCALES as readonly unknown[]).includes(b.locale)) return json(400, { error: 'bad_locale' }); patch.locale = b.locale as string; }
   if (b.namesMode !== undefined) { if (!(NAMES_MODES as readonly unknown[]).includes(b.namesMode)) return json(400, { error: 'bad_mode' }); patch.namesMode = b.namesMode as NamesMode; }
+  if (patch.namesMode === 'names' && me.names !== true) return NAMES_OFF;
   // switching a class to numbers only REMOVES the stored names (it is the privacy switch, not a display option);
   // this one is allowed without a subscription, like every removal
   const toNumbers = patch.namesMode === 'numbers' && c.namesMode !== 'numbers';
@@ -471,6 +478,7 @@ export async function addSeats(db: ClassDb, me: Caller, id: string, body: unknow
   if (!c) return NOT_FOUND;
   const b = body as { names?: unknown; count?: unknown } | null;
   if (!b || typeof b !== 'object') return json(400, { error: 'bad_json' });
+  if (c.namesMode === 'names' && me.names !== true) return NAMES_OFF;   // a names class whose teacher lost the permission takes no new name
   const have = await db.listSeats(c.id);
   const firstNo = have.reduce((m, s) => Math.max(m, s.seatNo), 0) + 1;
   const s = seatsFrom(b, c.namesMode, firstNo, new Set(have.map((x) => x.icon)));
@@ -497,6 +505,7 @@ export async function updateSeat(db: ClassDb, me: Caller, id: string, seatId: st
   if (!b || typeof b !== 'object') return json(400, { error: 'bad_json' });
   const patch: { displayName?: string | null; icon?: string } = {};
   if (b.displayName !== undefined) {
+    if (me.names !== true) return NAMES_OFF;
     if (c.namesMode === 'numbers') return json(400, { error: 'numbers_only' });
     const n = cleanSeatName(b.displayName);
     if (!n) return json(400, { error: 'bad_name' });

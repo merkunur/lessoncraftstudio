@@ -119,7 +119,9 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
   const A = S.CODE_ALPHABET;
   const draw = (n) => () => { let s = ''; for (let i = 0; i < n; i++) s += A[Math.floor(Math.random() * A.length)]; return s; };
   const newCode = draw(10), newToken = draw(20);
-  const me = () => (state.who === 'anon' ? null : { userId: TEACHER, usable: state.who === 'sub' });
+  // (names: the first-names permission; on by default here so the names paths stay tested, off with /__class/as?names=0 —
+  //  which is what every teacher is at launch)
+  const me = () => (state.who === 'anon' ? null : { userId: TEACHER, usable: state.who === 'sub', names: state.names !== false });
   const deckCache = new Map();
 
   const send = (res, status, body, headers) => { const h = { 'content-type': 'application/json', 'cache-control': 'no-store' }; for (const k of Object.keys(headers || {})) h[k.toLowerCase()] = headers[k]; res.writeHead(status, h); res.end(typeof body === 'string' ? body : JSON.stringify(body)); };
@@ -187,7 +189,7 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
       const pathname = decodeURIComponent(rawPath);
       const parts = pathname.split('/').filter(Boolean);
       if (parts[0] === '__class') {
-        if (parts[1] === 'as') { const w = query.get('who'); if (['sub', 'free', 'anon'].includes(w)) state.who = w; if (state.who === 'sub') usable.add(TEACHER); else usable.delete(TEACHER); return send(res, 200, { who: state.who }); }
+        if (parts[1] === 'as') { const w = query.get('who'); if (['sub', 'free', 'anon'].includes(w)) state.who = w; if (query.has('names')) state.names = query.get('names') !== '0'; if (state.who === 'sub') usable.add(TEACHER); else usable.delete(TEACHER); return send(res, 200, { who: state.who }); }
         if (parts[1] === 'clock') { state.skew += (Number(query.get('hours')) || 0) * 3600 * 1000; return send(res, 200, { now: now().toISOString() }); }
         if (parts[1] === 'state') return send(res, 200, { who: state.who, now: now().toISOString(), classes: [...db.classes.values()], seats: [...db.seats.values()], assignments: [...db.assignments.values()], attempts: [...db.attempts.values()] });
         if (parts[1] === 'teacher-app.js') { const f = path.join(OUT, 'teacher-app.js'); return fs.existsSync(f) ? send(res, 200, fs.readFileSync(f, 'utf8'), { 'content-type': 'text/javascript; charset=utf-8' }) : send(res, 404, 'not built', { 'content-type': 'text/plain' }); }
@@ -220,7 +222,7 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
   }
 
   async function seedData() {
-    const sub = { userId: TEACHER, usable: true };
+    const sub = { userId: TEACHER, usable: true, names: true };
     const made = await S.createClass(db, sub, { name: 'Class 1B', namesMode: 'names', locale: 'en', names: 'Max\nAna María\nTom\nLena\nOmar\nYuki\nSofia\nBen' }, newCode);
     const id = made.body.id, code = made.body.code;
     const add = async (link) => (await S.addAssignment(db, sub, id, { link }, now())).body.id;

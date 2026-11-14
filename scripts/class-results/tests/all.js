@@ -15,7 +15,7 @@ const D = __dirname;
 const QUICK = process.argv.includes('--quick'), LIVE = process.argv.includes('--live');
 const list = [
   ['the rules', 'class-store.test.js'],
-  ['the rules, 55 planted faults', 'mutate-class-store.js'],
+  ['the rules, planted faults', 'mutate-class-store.js'],
   ['the retention job and the backup step', 'retention.test.js'],
   ['the texts in 11 languages', 'strings.js'],
   ['the 40 seat pictures', '../seat-icons-sheet.js'],

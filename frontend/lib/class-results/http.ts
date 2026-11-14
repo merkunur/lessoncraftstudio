@@ -18,10 +18,19 @@ const NO_STORE = { 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } as c
 export const off = () => NextResponse.json({ error: 'not_found' }, { status: 404, headers: NO_STORE });
 export const send = (r: Reply) => NextResponse.json(r.body, { status: r.status, headers: NO_STORE });
 
+/**
+ * First names need TWO keys (legal decision of 2026-11-14, condition E1): the server switch CLASS_NAMES_ENABLED and
+ * the teacher's own permission, which is given only after a person who may sign for her school has accepted the
+ * school agreement (or, outside the US, on a private tutor's own declaration). No record of such an acceptance
+ * exists yet, so nobody holds the permission and the switch alone opens nothing. When first names are opened
+ * (the decision's item 20), this reads that record.
+ */
+const holdsNamesPermission = (_userId: string): boolean => false;
+
 /** the teacher behind a request: the same two-step identity the meter and the makers use (Bearer, then the refresh cookie) */
 export async function callerOf(request: NextRequest): Promise<Caller> {
   const id = await resolveQuotaIdentity(request);
-  if (id.kind === 'subscriber') return { userId: id.userId, usable: true };
+  if (id.kind === 'subscriber') return { userId: id.userId, usable: true, names: process.env.CLASS_NAMES_ENABLED === '1' && holdsNamesPermission(id.userId) };
   if (id.kind === 'free-user') return { userId: id.userId, usable: false };
   return null;
 }

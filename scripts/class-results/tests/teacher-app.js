@@ -80,6 +80,10 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
     // ── the list, and a new class from a pasted list ──
     check('the list: the title, the seeded class with its counts, a New class button', (await text(page, 'h1')) === EN.title && /Class 1B/.test(await text(page, '[data-class]')) && /8 children · 3 worksheets/.test(await text(page, '[data-class]')) && (await page.$('[data-act=new]')) !== null, await text(page, '[data-class]'));
     await page.click('[data-act=new]'); await page.waitForSelector('[data-form=new]');
+    // this teacher holds the first-names permission: she is offered the choice, and numbers are what is ticked
+    const kinds = await page.evaluate(() => [...document.querySelectorAll('input[name=lcsc-mode]')].map((r) => r.value + (r.checked ? '*' : '')));
+    check('with the permission: the kind of class is a choice, numbers first and ticked', JSON.stringify(kinds) === JSON.stringify(['numbers*', 'names']) && (await page.$('#lcsc-count')) !== null && (await page.$('#lcsc-names')) === null, kinds);
+    await page.click('input[name=lcsc-mode][value=names]'); await page.waitForSelector('#lcsc-names');
     await clickText(page, EN.formCreate);
     check('an empty class name is refused in words', (await err(page)) === EN.errClassName, await err(page));
     await page.type('#lcsc-name', 'Class "2A" & co');
@@ -305,6 +309,25 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
       check('signed out: a sign-in card and the example, and no request for classes is answered with data', (await a.page.$('[data-signin]')) !== null && (await a.page.$('[data-demo]')) !== null && (await fetch(base + '/api/classes')).status === 401);
       await a.page.close();
       await fetch(base + '/__class/as?who=sub');
+    }
+    // ── a teacher WITHOUT the first-names permission (every teacher at launch): no choice, no names field, no way back to names ──
+    if (!POISON) {
+      await fetch(base + '/__class/as?who=sub&names=0');
+      const n = await open(1280);
+      await n.page.click('[data-act=new]'); await n.page.waitForSelector('[data-form=new]');
+      const form = await n.page.evaluate(() => ({ radios: document.querySelectorAll('input[name=lcsc-mode]').length, names: !!document.querySelector('#lcsc-names'), count: !!document.querySelector('#lcsc-count') }));
+      check('without the permission: the new-class form asks for a number of children and offers no first names', form.radios === 0 && !form.names && form.count, form);
+      await n.page.type('#lcsc-name', 'Numbers class'); await n.page.type('#lcsc-count', '4');
+      await clickText(n.page, EN.formCreate); await n.page.waitForSelector('[data-tab=work]');
+      const numbersClass = [...db.classes.values()].find((c) => c.name === 'Numbers class');
+      check('the class is a numbers class with four seats and no name stored', !!numbersClass && numbersClass.namesMode === 'numbers' && [...db.seats.values()].filter((s) => s.classId === numbersClass.id).length === 4 && [...db.seats.values()].filter((s) => s.classId === numbersClass.id).every((s) => s.displayName === null));
+      await tab(n.page, 'link');
+      check('its settings offer no switch to first names', (await n.page.$('[data-act=to-names]')) === null && (await n.page.$('[data-settings]')) !== null);
+      const refused = await (await fetch(base + '/api/classes/' + numbersClass.id, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ namesMode: 'names' }) })).json();
+      check('and the server refuses the switch when it is asked directly', refused.error === 'names_off', refused);
+      check('without the permission: no script error', !n.errors.length, n.errors);
+      await n.page.close();
+      await fetch(base + '/__class/as?who=sub&names=1');
     }
     check('no script error on the teacher screen', !errors.length, errors);
     await page.close();

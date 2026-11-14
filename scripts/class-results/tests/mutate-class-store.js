@@ -31,6 +31,12 @@ const M = [
   ['a sitting has one page more', 'if (recent.length >= SITTING_PAGES)', 'if (recent.length > SITTING_PAGES)'],
   ['a page played before is preferred over a fresh one', 'const fresh = pages.find((p) => !lastPlayed.has(p));', 'const fresh = pages.find((p) => lastPlayed.has(p));'],
   ['a later Check overwrites the first', 'if (!att.reportedAt) await db.saveReport', 'if (true) await db.saveReport'],
+  // first names need the teacher's own permission (legal decision 2026-11-14, E1)
+  ['a teacher without the permission makes a names class', "me.names === true && b.namesMode === 'names' ? 'names' : 'numbers'", "b.namesMode === 'names' ? 'names' : 'numbers'"],
+  ['a class made without a kind is a names class', "me.names === true && b.namesMode === 'names' ? 'names' : 'numbers'", "b.namesMode === 'numbers' ? 'numbers' : 'names'"],
+  ['a teacher without the permission switches a class to names', "if (patch.namesMode === 'names' && me.names !== true) return NAMES_OFF;", ''],
+  ['a seat takes a name without the permission', "    if (me.names !== true) return NAMES_OFF;", ''],
+  ['a names class takes a new name without the permission', "  if (c.namesMode === 'names' && me.names !== true) return NAMES_OFF;", ''],
   ['a numbers-only class shows names', "name: mode === 'names' ? s.displayName : null,", 'name: s.displayName,'],
   ['switching to numbers keeps the names', '  if (toNumbers) await db.clearSeatNames(c.id);\n', '\n'],
   ['a print-only deck can be assigned', "    if (!d.interactive) return json(422, { error: 'print_only' });\n", '\n'],

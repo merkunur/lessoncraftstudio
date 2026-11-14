@@ -7,7 +7,9 @@
  *   - its teacher's plan ended more than 60 days ago.
  * (A teacher can delete a class, a child or a child's results at any time on the Classes screen; this job is for
  * what nobody came back to.) It also removes attempts a child opened and never checked, after 7 days: they hold no
- * result.
+ * result. And NO RESULT lives longer than 14 months (427 days) from the day it was started, however often its class
+ * is used since (legal decision of 2026-11-14, condition E5: a class that is used every week would otherwise keep a
+ * child's first results for as long as the teacher keeps the class).
  *
  *   node scripts/class-results/retention.js            says what it would delete, deletes nothing
  *   node scripts/class-results/retention.js --apply    deletes (the daily cron on the server runs this)
@@ -28,6 +30,7 @@ const UNUSED_DAYS = 427;          // = store.ts RETENTION_UNUSED_DAYS (14 months
 const AFTER_PLAN_DAYS = 60;       // = store.ts RETENTION_AFTER_SUBSCRIPTION_DAYS
 const GRACE_DAYS = 14;            // = lib/entitlements.ts SUBSCRIPTION_GRACE_DAYS
 const OPEN_ATTEMPT_DAYS = 7;
+const RESULT_MAX_DAYS = 427;      // a result's own maximum age, whatever the class's last use
 
 const time = (v) => { if (!v) return null; const t = v instanceof Date ? v.getTime() : Date.parse(v); return Number.isFinite(t) ? t : null; };
 
@@ -67,7 +70,7 @@ function expired(cls, state, now) {
 
 /**
  * @param o { prisma, now: Date, apply: boolean, log: (line) => void }
- * @returns { classes, unused, planEnded, seats, attempts, openAttempts, deleted }
+ * @returns { classes, unused, planEnded, seats, attempts, openAttempts, oldResults, deleted }
  */
 async function run(o) {
   const { prisma, now, apply } = o;
@@ -81,7 +84,7 @@ async function run(o) {
     if (/does not exist|P2021/.test(String(e && (e.code || '') + ' ' + e.message))) { log('retention: the class tables do not exist yet (migration not applied): nothing to do'); return { classes: 0, unused: 0, planEnded: 0, seats: 0, attempts: 0, openAttempts: 0, deleted: 0, noTables: true }; }
     throw e;
   }
-  const out = { classes: rows.length, unused: 0, planEnded: 0, seats: 0, attempts: 0, openAttempts: 0, deleted: 0 };
+  const out = { classes: rows.length, unused: 0, planEnded: 0, seats: 0, attempts: 0, openAttempts: 0, oldResults: 0, deleted: 0 };
   const gone = [];
   for (const c of rows) {
     const why = expired(c, teacherState(c.teacher, now), now);
@@ -93,11 +96,15 @@ async function run(o) {
   if (gone.length) out.attempts = await prisma.classAttempt.count({ where: { assignment: { classId: { in: gone } } } });
   const stale = { reportedAt: null, createdAt: { lt: new Date(now.getTime() - OPEN_ATTEMPT_DAYS * DAY) } };
   out.openAttempts = await prisma.classAttempt.count({ where: stale });
+  // a result's own maximum age (in classes that stay: those of a deleted class go with it)
+  const old = { reportedAt: { not: null }, createdAt: { lt: new Date(now.getTime() - RESULT_MAX_DAYS * DAY) }, ...(gone.length ? { assignment: { classId: { notIn: gone } } } : {}) };
+  out.oldResults = await prisma.classAttempt.count({ where: old });
   if (apply) {
     for (const id of gone) { await prisma.classroom.delete({ where: { id } }); out.deleted++; } // seats, assignments and attempts cascade
     await prisma.classAttempt.deleteMany({ where: stale });
+    await prisma.classAttempt.deleteMany({ where: old });
   }
-  log(`retention ${now.toISOString().slice(0, 10)} ${apply ? 'APPLIED' : 'dry run'}: ${out.classes} classes read; ${out.unused} unused for ${UNUSED_DAYS} days + ${out.planEnded} whose plan ended ${AFTER_PLAN_DAYS}+ days ago ${apply ? 'deleted' : 'would be deleted'} (${out.seats} children, ${out.attempts} results); ${out.openAttempts} never-checked attempts older than ${OPEN_ATTEMPT_DAYS} days ${apply ? 'removed' : 'would be removed'}`);
+  log(`retention ${now.toISOString().slice(0, 10)} ${apply ? 'APPLIED' : 'dry run'}: ${out.classes} classes read; ${out.unused} unused for ${UNUSED_DAYS} days + ${out.planEnded} whose plan ended ${AFTER_PLAN_DAYS}+ days ago ${apply ? 'deleted' : 'would be deleted'} (${out.seats} children, ${out.attempts} results); ${out.openAttempts} never-checked attempts older than ${OPEN_ATTEMPT_DAYS} days and ${out.oldResults} results older than ${RESULT_MAX_DAYS} days ${apply ? 'removed' : 'would be removed'}`);
   return out;
 }
 
@@ -108,4 +115,4 @@ if (require.main === module) {
     .then(() => prisma.$disconnect())
     .catch(async (e) => { console.error('retention FAILED: ' + (e && e.message)); try { await prisma.$disconnect(); } catch (e2) { /* closing */ } process.exit(1); });
 }
-module.exports = { run, teacherState, expired, UNUSED_DAYS, AFTER_PLAN_DAYS, GRACE_DAYS, OPEN_ATTEMPT_DAYS };
+module.exports = { run, teacherState, expired, UNUSED_DAYS, AFTER_PLAN_DAYS, GRACE_DAYS, OPEN_ATTEMPT_DAYS, RESULT_MAX_DAYS };

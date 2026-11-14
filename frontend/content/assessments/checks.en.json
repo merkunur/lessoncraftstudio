@@ -3021,7 +3021,7 @@
     },
     {
      "part": 3,
-     "lesson": 7,
+     "lesson": 6,
      "title": "Division with a remainder",
      "type": "G3-377",
      "tasks": 1
@@ -3030,8 +3030,7 @@
    "notCovered": [
     2,
     4,
-    5,
-    6
+    5
    ],
    "forms": {
     "A": {

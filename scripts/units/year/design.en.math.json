@@ -1170,7 +1170,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Five stories with three-digit numbers ('The school had 345 books. It bought 128 more and gave 96 away. How many books now?'). Each has two empty bar models marked Step 1 and Step 2, an equation line for each step, and an answer line with a label. The first two stories give the helper question for step 1; the last three do not."
+            "page": "Five stories with three-digit numbers ('The school had 345 books. It bought 128 more and gave 96 away. How many books now?'). Each has two empty bar models marked Step 1 and Step 2, an equation line for each step, and an answer line with a label. The first two stories give the helper question for step 1; the last three do not.",
+            "placed": "3:two-step-word-problems#two-step-stories-add-and-subtract"
           },
           {
             "new": true,
@@ -1180,7 +1181,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six stories ('4 bags hold 6 apples each. 5 apples are eaten. How many are left?'; '28 children sit at 4 equal tables. 2 more join one table. How many sit there now?'). Each has space for a drawing of equal groups or an array, two equation lines, and an answer line with a label. Three stories multiply first, two divide first, and in one the adding comes first. Facts within 100."
+            "page": "Six stories ('4 bags hold 6 apples each. 5 apples are eaten. How many are left?'; '28 children sit at 4 equal tables. 2 more join one table. How many sit there now?'). Each has space for a drawing of equal groups or an array, two equation lines, and an answer line with a label. Three stories multiply first, two divide first, and in one the adding comes first. Facts within 100.",
+            "placed": "3:two-step-word-problems#two-step-stories-multiply-or-divide"
           },
           {
             "new": true,
@@ -1190,7 +1192,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Five two-step stories with all four operations. Each has three lines: 'My equation' (for example 3 x 8 + 19 = n), 'My estimate' (the child rounds to the nearest ten and computes), and 'My answer'. A last box asks 'Is the answer close to the estimate? yes / no'. One story at the end shows a wrong worked answer far from the estimate for the child to find and fix."
+            "page": "Five two-step stories with all four operations. Each has three lines: 'My equation' (for example 3 x 8 + 19 = n), 'My estimate' (the child rounds to the nearest ten and computes), and 'My answer'. A last box asks 'Is the answer close to the estimate? yes / no'. One story at the end shows a wrong worked answer far from the estimate for the child to find and fix.",
+            "placed": "3:two-step-word-problems#an-equation-with-a-letter-and-an-estimate"
           }
         ]
       },

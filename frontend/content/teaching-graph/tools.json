@@ -301,7 +301,8 @@
       "points": [
         "2:bundle-ten-ones",
         "2:column-method",
-        "3:column-regrouping"
+        "3:column-regrouping",
+        "3:two-step-word-problems"
       ]
     },
     "baking-tray": {
@@ -309,7 +310,8 @@
         "3:times-tables",
         "3:area-model",
         "3:mult-equal-groups",
-        "2:arrays"
+        "2:arrays",
+        "3:two-step-word-problems"
       ]
     },
     "folding-wall": {
@@ -349,7 +351,8 @@
     "rounding-hill": {
       "points": [
         "2:round-to-ten",
-        "3:rounding"
+        "3:rounding",
+        "3:two-step-word-problems"
       ]
     },
     "pair-gate": {

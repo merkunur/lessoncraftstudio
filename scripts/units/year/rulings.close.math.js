@@ -90,7 +90,9 @@ module.exports = {
     // Grade 3
     '3-069': N('G3-483', 'built (nothing was close): an array of squares the child cuts between two rows into two known facts (Break Apart a Hard Fact)', 2),
     '3-070': U('the empty 10 by 10 square, filled in the order the teacher gives', 3),
-    '3-072': C('two-step stories with three-digit numbers within 1,000'),
+    '3-072': N('G3-485', 'built: three two-step stories with three-digit numbers told in a store, a market, by workers who pack and on a delivery truck, the steps printed as a) and b) with a dotted space for the column work (Two-Step Story Problems Within 1,000); three stories for the five of the design, no bar models', 2),
+    '3-073': N('G3-486', 'built: three two-step stories in which one step multiplies or divides a fact within 100 (one multiplies first, one divides first, one adds first), the steps printed as a) and b) (Two-Step Story Problems: Multiply and Divide)', 2),
+    '3-074': N('G3-487', 'built: two-step stories within 1,000 with the three lines equation with n, estimate, answer; the harder page ends with a finished answer to test against an estimate (Two-Step Stories: Equation, Estimate, Answer); adding and subtracting only', 2),
     '3-075': C('rectangles with side lengths and units and no squares inside'),
     '3-078': N('G3-481', 'built: a dot on a number line from 0 to 1, the child writes its fraction; levels 1 and 2 unit fractions only (What Fraction Is the Dot?)', 2),
     '3-080': C('readings to the half and the quarter inch'),

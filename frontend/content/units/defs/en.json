@@ -1944,8 +1944,8 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, word problems, and remainders.",
-   "weeks": 4,
+   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, and remainders.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:division-sharing",
@@ -1988,6 +1988,26 @@
      "activity": null
     },
     {
+     "point": "3:division-remainder",
+     "types": [
+      "G3-377",
+      "G3-380"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g3-story-problems-all-four-operations",
+   "slug": "story-problems-with-all-four-operations-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Story Problems with All Four Operations",
+   "metaTitle": "Grade 3 Math Lesson Plans: Story Problems, All Four Operations",
+   "metaDescription": "A two-week Grade 3 math unit: 4 lessons on story problems with one step and two steps, an equation with a letter for the unknown, and an estimate as a check.",
+   "weeks": 2,
+   "lessons": [
+    {
      "point": "3:muldiv-word-problems",
      "types": [
       "G3-371",
@@ -1996,11 +2016,31 @@
      ]
     },
     {
-     "point": "3:division-remainder",
+     "point": "3:two-step-word-problems",
+     "id": "3:two-step-word-problems#two-step-stories-add-and-subtract",
      "types": [
-      "G3-377",
-      "G3-380"
-     ]
+      "G3-485"
+     ],
+     "tool": "exchange-machine",
+     "activity": null
+    },
+    {
+     "point": "3:two-step-word-problems",
+     "id": "3:two-step-word-problems#two-step-stories-multiply-or-divide",
+     "types": [
+      "G3-486"
+     ],
+     "tool": "baking-tray",
+     "activity": null
+    },
+    {
+     "point": "3:two-step-word-problems",
+     "id": "3:two-step-word-problems#an-equation-with-a-letter-and-an-estimate",
+     "types": [
+      "G3-487"
+     ],
+     "tool": "rounding-hill",
+     "activity": null
     }
    ]
   },
@@ -2840,6 +2880,7 @@
     "g3-rounding-adding-subtracting",
     "g3-starting-multiplication",
     "g3-division",
+    "g3-story-problems-all-four-operations",
     "g3-time-temperature-mass-volume",
     "g3-area-perimeter-volume",
     "g3-fractions",

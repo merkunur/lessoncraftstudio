@@ -208,7 +208,7 @@ module.exports = {
           row(label(lab.ans) + answer),
         ];
       }
-      return `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch;min-height:0"><div style="flex:0 0 ${d.eqGiven ? 64 : 56}%;display:flex;flex-direction:column;justify-content:space-evenly;gap:4px;min-width:0">${rows.join('')}</div>` +
+      return `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch;min-height:0"><div style="flex:0 0 ${d.eqGiven ? 'auto' : '56%'};display:flex;flex-direction:column;justify-content:space-evenly;gap:4px;min-width:0">${rows.join('')}</div>` +
         `<div data-lcs-dots style="flex:1;min-width:0;background-color:${T.white};background-image:radial-gradient(circle,#C8BFAE 1.6px,transparent 1.8px);background-size:26px 24px;background-position:2px 2px;border:2px solid ${T.creamDeep};border-radius:12px"></div></div>`;
     };
     const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}"${d.lines ? ` data-lcs-est="${it.est}"${d.check && i === items.length - 1 ? ` data-lcs-claim="${it.claim}"` : ''}` : ''}${d.place ? ` data-lcs-nums="${[it.n1, it.o1, it.n2, it.o2, it.n3, it.s1, it.s2].join('|')}"` : ''} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}${d.place ? ';flex:1 1 0;min-height:0' : ''}">` +
@@ -253,6 +253,8 @@ module.exports = {
             if (bx.length !== 5) fails.push(`${P}: ${bx.length} boxes (four of the estimate and the answer)`);
             else if (bx.slice(0, 4).some((b) => Math.abs(b.top - bx[0].top) > 2)) fails.push(`${P}: the frame of the estimate breaks into two lines`);
           }
+          // (the frame of the estimate ran under the dotted space on the easier page: US teacher-reviewer, 2026-11-14)
+          { const dr = r.querySelector('[data-lcs-dots]'); const dl = dr ? dr.getBoundingClientRect().left : 0; if ([...r.querySelectorAll('.ws-answerbox')].some((b) => b.getBoundingClientRect().right > dl - 4)) fails.push(`${P}: a box runs under the dotted space`); }
           const dots = r.querySelector('[data-lcs-dots]'); if (!dots || dots.getBoundingClientRect().width < 150 || dots.getBoundingClientRect().height < 80) fails.push(`${P}: no room to work in`);
         });
         const withWrong = rows.filter((r) => r.dataset.lcsClaim !== undefined).length;

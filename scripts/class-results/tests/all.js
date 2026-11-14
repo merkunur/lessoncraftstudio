@@ -27,6 +27,8 @@ if (!QUICK) list.push(
   ['an activity through a class link', 'activity-class.js'], ['… poisoned', 'activity-class.js', '--poison'],
 );
 if (LIVE) list.push(['the reporter on 26 live decks', 'reporter-live.js'], ['… poisoned', 'reporter-live.js', '--poison']);
+// which hosts a browser talks to on the pages a child reaches (the live origin; legal decision 2026-11-14, E3d)
+if (LIVE) list.push(['pages a child reaches talk to this site only; a class visit is not counted', 'live-hosts.js', '--origin', '--beacon']);
 
 for (const [name, file, ...args] of list) {
   const t = Date.now();

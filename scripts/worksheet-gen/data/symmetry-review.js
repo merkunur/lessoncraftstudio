@@ -8,16 +8,27 @@
  * of a clock, a two-coloured sweater, a planet lit from one side) scored "symmetric". A page then had two or three
  * pictures that are "the same on both sides". The score now only pre-filters (sym ≥ 0.95, asym ≤ 0.6); a picture is
  * used only when its verdict is written here. Anything unclear is simply left out.
+ *
+ * What "symmetric" means here (2026-11-14, after a U.S. teacher-reviewer of the Grade 2 check found pictures where "no"
+ * can be defended: "a persimmon with a highlight on one side, a bat with a mouth mark left of the line"): folded on the
+ * line the page draws (the middle of the picture), the OUTLINE and every PART a child can name (eyes, nose, mouth, ears,
+ * wings, legs, stem, leaves, crown) land on each other. Soft shading and texture do not count; a part that is off the
+ * line or on one side only does (the animals bat's nose and mouth, the persimmon's leaves, the pomegranate's leaning
+ * crown, the sheep's turned body — all four left the list that day).
+ * borrow: "folder/noun" — a picture from another colour folder that its own folder keys symmetric and that is the same
+ * kind of thing as this theme (a butterfly is an animal). Used when a theme's own folder has too few: the animals folder
+ * has none whose parts mirror.
  */
 'use strict';
 module.exports = {
   animals: {
-    sym: ['bat', 'sheep'],
+    sym: [],
+    borrow: ['forest creatures/butterfly', 'forest creatures/dragonfly', 'forest creatures/spider', 'Things That Fly/bat'],
     asym: ['antelope', 'camel', 'dog', 'dolphin', 'donkey', 'duck', 'fox', 'giraffe', 'iguana', 'horse', 'jaguar', 'moose', 'rabbit', 'raccoon', 'seagull', 'reindeer', 'swan', 'vulture', 'wolf', 'woodpecker', 'whale', 'zebra'],
   },
   fruits: {
-    sym: ['blueberry', 'persimmon', 'pomegranate', 'watermelon'],
-    asym: ['banana', 'clementine', 'cranberry'],
+    sym: ['blueberry', 'watermelon'],
+    asym: ['apple', 'apricot', 'banana', 'cherry', 'clementine', 'coconut', 'cranberry', 'dragonfruit', 'grapefruit', 'kiwi', 'lime', 'mango', 'nectarine', 'orange', 'papaya', 'plum'],
   },
   'around the house': {
     sym: ['curtains', 'couch', 'fireplace', 'fork', 'gate', 'lamp', 'lock', 'mirror', 'oven', 'plate', 'pot', 'sofa', 'vase', 'window', 'bowl'],

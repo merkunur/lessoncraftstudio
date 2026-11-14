@@ -202,7 +202,7 @@ const KIT = convKit();
 
 /** which drawing a build is asked for: the printed page, the screen version or the answer key */
 function viewOf(ctx) { return ctx && ctx.interactive ? 'screen' : ctx && ctx.answerKey ? 'key' : 'page'; }
-const clockOpts = (d) => ({ ...(d.numerals === false ? { numerals: false } : {}), ...(d.minuteMarks === false ? { minuteMarks: false } : {}), ...(d.minuteRing ? { minuteRing: true } : {}) });
+const clockOpts = (d) => ({ ...(d.numerals === false ? { numerals: false } : {}), ...(d.minuteMarks === false ? { minuteMarks: false } : {}), ...(d.minuteRing ? { minuteRing: true } : {}), ...(d.stepM === 1 ? { minuteToMarks: true } : {}) });
 const SCR_W = 660, OPT_H = 104;
 const screenWrap = (inner) => `<div data-ws-content data-lcs-screen="time" style="flex:0 0 auto;display:flex;flex-direction:column;gap:16px;align-items:center;padding-top:6px">${inner}</div>`;
 const screenCard = (k, attrs, inner) => `<div data-lcs-item data-lcs-word="${k + 1}" ${attrs} data-ws-content ` +
@@ -214,6 +214,60 @@ const KEY_RING = `<style data-lcs-key>[data-lcs-correct]{box-shadow:0 0 0 5px ${
 const KEY_BOX = `<style data-lcs-key>.ws-answerbox[data-lcs-answer]{position:relative}.ws-answerbox[data-lcs-answer]::after{content:attr(data-lcs-answer);` +
   `position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:700 30px 'Baloo 2',cursive;color:${CORAL}}</style>`;
 const tbox = (attrs, answer, w) => `<span class="ws-answerbox" data-lcs-tbox ${attrs} data-lcs-answer="${answer}" style="width:${w || 116}px;height:${OPT_H}px"></span>`;
+
+/**
+ * THE ITEM BANK of the unit checks (Part 7.6): a page of check-size cards for the draw and match faces, built by the
+ * face's own build (its times, its foil-free draw, its derangement) and drawn by the same clock primitive.
+ *  - draw: seven cards (the key page of a level has four or six; the cutter pairs a page's cards with the key's when
+ *    their numbers agree), each a clock to draw on and its time; the answer (the time) sits in the empty lower half of
+ *    the face, where the key writes it. The daily-routine face (d.routine) builds its own page.
+ *  - match: seven cards, each the page's task made small — three clocks and their three times in another order (the
+ *    level's own times: on the hour / half past / one hour at :00 and :30 and half past the hour before); left of every
+ *    clock an empty place carries its time as the answer (the key writes it there: the time the line must reach).
+ */
+function clockCheckPage({ difficulty, locale }, ctx, mode) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const d = this.difficulty[difficulty] || this.difficulty[2];
+  const self = (dd) => Object.assign(Object.create(this), { difficulty: { check: dd } });
+  const plain = { ...(ctx || {}), interactive: false, answerKey: false };
+  if (mode === 'draw') {
+    if (d.routine) return this.build({ difficulty, locale }, ctx);
+    const body = this.build.call(self({ ...d, cards: 7 }), { difficulty: 'check', locale }, plain).bodyHtml;
+    const cards = [...body.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => {
+      const inner = m[1], at = /data-lcs-target="([^"]+)"/.exec(inner);
+      const size = +(/<svg[^>]*\swidth="(\d+(?:\.\d+)?)"/.exec(inner) || [])[1];
+      if (!at || !size) throw new Error(this.id + ' checkPage: a draw card without its time');
+      const c = size / 2;
+      const slot = `<rect x="${c - 0.26 * size}" y="${c + 0.07 * size}" width="${0.52 * size}" height="${0.2 * size}" fill="none" data-lcs-answer="${at[1]}"/>`;
+      return inner.replace('</svg>', slot + '</svg>');
+    });
+    if (cards.length !== 7) throw new Error(this.id + ' checkPage: ' + cards.length + ' clocks');
+    return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
+  }
+  // match: three pairs a card, the level's own times (no two cards with the same three times)
+  const seen = new Set();
+  const cards = Array.from({ length: 7 }, () => {
+    let body, set, guard = 0;
+    do {
+      body = this.build.call(self({ ...d, ls: 1, pairs: 3, ...(d.sameHour ? { sameHour: true } : {}) }), { difficulty: 'check', locale }, plain).bodyHtml;
+      set = [...body.matchAll(/data-lcs-left="([^"]+)"/g)].map((m) => m[1]).sort().join('|');
+    } while (seen.has(set) && ++guard < 40);
+    seen.add(set);
+    const left = [...body.matchAll(/data-lcs-left="([^"]+)"/g)].map((m) => m[1]), right = [...body.matchAll(/data-lcs-right="([^"]+)"/g)].map((m) => m[1]);
+    if (left.length !== 3 || right.length !== 3) throw new Error(this.id + ' checkPage: ' + left.length + ' clocks');
+    // the clocks in a row, their times in another order in a row below (a card has the width for clocks a child can
+    // read, not the height for a column of them); the line runs from the dot under a clock to the dot over its time
+    const dot = (side) => `<span class="ws-match-dot" style="top:auto;bottom:auto;${side}:-22px;left:50%;transform:translateX(-50%)"></span>`;
+    const row = (html) => `<div style="display:flex;justify-content:center;gap:64px">${html}</div>`;
+    const l = left.map((t) => { const [h, m] = t.split(':').map(Number); return `<div class="ws-match-item" style="width:126px;height:118px" data-lcs-left="${t}">` +
+      `<span data-lcs-answer="${t}" style="position:absolute;right:100%;top:50%;transform:translate(-4px,-50%);width:58px;height:30px"></span>` +
+      clock({ h, m, size: 106 }).svg + dot('bottom') + `</div>`; }).join('');
+    const r = right.map((t) => `<div class="ws-match-item ws-match-item--plain" style="width:126px;height:56px" data-lcs-right="${t}">` +
+      `<span style="font-family:'Baloo 2';font-weight:700;font-size:28px;color:#3A3530">${t}</span>${dot('top')}</div>`).join('');
+    return `<div class="ws-card-stage" style="flex-direction:column;gap:76px;padding:4px 4px 6px 30px">${row(l)}${row(r)}</div>`;
+  });
+  return { bodyHtml: checkGrid(cards), meta: {} };
+}
 
 function makeClockType(cfg) {
   const { id, slug, mode, stepM, gradeBand, i18n } = cfg;
@@ -232,6 +286,11 @@ function makeClockType(cfg) {
     i18n,
     interactive: interactiveFor(mode),
     levelSetWords: (m) => (m.times || []).map(String),
+
+    // THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md) — the two faces whose
+    // page the check cannot cut: draw (the answer is the hands, which no markup carried) and match (the lines join two
+    // columns). Every other face's page is a page of cards with their answers, and is cut as it is.
+    ...(mode === 'draw' || mode === 'match' ? { checkPage(args, ctx) { return clockCheckPage.call(this, args, ctx, mode); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];

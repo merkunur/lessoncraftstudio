@@ -24,6 +24,7 @@
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { checkGrid } = require('../../lib/check-page.js');
 const { themeEntry, fileUri, labelSafeNouns } = require('../../image-cache/resolve.js');
 const { SHAPES_2D, SHAPES_3D, SOLID_REAL_OBJECTS } = require('../../lib/shape-data.js');
 const SYM_REVIEW = require('../../data/symmetry-review.js');
@@ -132,6 +133,46 @@ function quadSvg(P, px, fill) {
     el('polygon', { points: P.map((p) => p.join(',')).join(' '), fill, stroke: tokens.color.ink, 'stroke-width': 2.5, 'stroke-linejoin': 'round', 'data-lcs-quad': 1 }),
     { viewBox: '0 0 120 120', 'data-lcs-pts': P.map((p) => p.join(',')).join(' ') });
 }
+/** the kinds of four-sided shape of a level of the classify page: level 1 clear shapes, levels 2-3 also the near misses */
+const classifyKinds = (difficulty) => (difficulty === 1 ? ['square', 'rect', 'trapezoid', 'parallelogram', 'irregular'] : ['square', 'rect', 'rhombus', 'parallelogram', 'trapezoid', 'kite', 'irregular']);
+/**
+ * THE ITEM BANK of the classify page (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the shapes of the
+ * level, each a card of its own beside its own two small boxes "rectangle" / "not a rectangle" (the page's two bins
+ * stand beside its row of shapes, so a shape could not be cut from it). Three or four rectangles (squares among them)
+ * and three to five other shapes, drawn and turned as the page draws them; the right box carries data-lcs-correct.
+ */
+function classifyCheck({ difficulty, locale }, ctx) {
+  const lv = Number(difficulty) || 2, rng = ctx.rng, n = lv === 1 ? 5 : lv === 3 ? 8 : 7;
+  const words = require('../../data/geometry-words.js')[(locale || 'en').slice(0, 2)] || require('../../data/geometry-words.js').en;
+  const otherKinds = classifyKinds(lv).filter((k) => k !== 'square' && k !== 'rect');
+  // one shape more than the page (6 / 8 / 9): a check page never holds as many cards as the page, whose key cards the
+  // cutter pairs with the cards by their number
+  // (level 1 turns nothing: there one square and two rectangles of other proportions, never two alike upright squares)
+  const rects = lv === 1 ? ['square', 'rect', 'rect'] : ['square', 'rect', 'square', 'rect'];
+  const kinds = rng.shuffle([...rects, ...rng.shuffle(otherKinds).slice(0, n + 1 - rects.length)]);
+  const box = (cls, word, ok) => `<span data-lcs-choice="${cls}"${ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;min-width:132px;min-height:44px;padding:6px 12px;box-sizing:border-box;border:2.5px dashed ${tokens.color.teal};border-radius:12px;background:#FFFFFF;font-family:'Nunito';font-weight:800;font-size:16px;color:${tokens.color.teal};white-space:nowrap">${word}</span>`;
+  // no two shapes of a check page alike (a kind at the same turn and in the same proportions is the same task twice)
+  const seen = new Set();
+  const look = (s) => { const [a, b, c] = s.P, deg = ((Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI) % 90 + 90) % 90; return s.k + ':' + Math.round(deg / 5) % 18 + ':' + Math.round(4 * Math.hypot(b[0] - a[0], b[1] - a[1]) / Math.hypot(c[0] - b[0], c[1] - b[1])); };
+  const cards = kinds.map((k, i) => {
+    let s = classifyQuad(k, i, lv, rng);
+    for (let t = 0; t < 20 && seen.has(look(s)); t++) s = classifyQuad(k, i, lv, rng);
+    seen.add(look(s));
+    return `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:center;gap:16px;padding:6px 4px" data-lcs-class="${s.rect ? 'rect' : 'not'}">${quadSvg(s.P, 112, s.fill)}` +
+      `<span style="display:flex;flex-direction:column;gap:14px">${box('rect', words.rectangle, s.rect)}${box('not', words.notRectangle, !s.rect)}</span></div>`;
+  });
+  return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
+}
+/** one shape of the classify page (kind k, i-th on the page): turned as its level turns shapes; a shape that is NOT a
+ *  rectangle must not look like one (every corner well away from a square corner) */
+function classifyQuad(k, i, difficulty, rng) {
+  const rot = difficulty === 1 ? 0 : difficulty === 3 ? rng.pick([0, 20, 30, 45, 60]) : (k === 'square' && rng.next() < 0.5 ? 45 : 0);
+  const gap = difficulty === 1 ? 12 : 8;
+  let P, g = 0;
+  do { P = quadPoints(k, rng, rot); g++; }
+  while (!['square', 'rect'].includes(k) && cornerAngles(P).some((a) => Math.abs(a - 90) < gap) && g < 60);
+  return { k, P, rect: isRectangle(P), fill: QUAD_FILL[i % QUAD_FILL.length] };
+}
 
 /**
  * A polygon the page draws itself (count / sort the sides): n corners around a circle, unevenly spaced and turned, so a
@@ -191,10 +232,11 @@ const symShape = (k, px) => (SYM_DRAWN[k] ? symDrawnSvg(k, px) : shapeImg(k, px)
 /**
  * The solids the counting pages draw themselves (2026-10-08): the library pictures are OPAQUE — a child counting the
  * edges of the cube picture finds 9, its faces 3. School books draw a solid see-through with its HIDDEN edges dashed,
- * so every face, edge and corner can be counted on the page. Cube, box, square pyramid and cylinder; the sphere keeps
- * its picture (nothing to hide).
+ * so every face, edge and corner can be counted on the page. Cube, box, square pyramid, cylinder, and (2026-11-14) the
+ * sphere, which kept its painted picture until a teacher-reviewer saw a flat circle among the line drawings.
  */
-const DRAWN_SOLIDS = ['cube', 'rectangular_box', 'pyramid', 'cylinder'];
+const DRAWN_SOLIDS = ['cube', 'rectangular_box', 'pyramid', 'cylinder', 'sphere'];
+let sphereSeq = 0;   // each shaded sphere has its own gradient id on a page
 function solidSvg(kind, px) {
   const C = tokens.color, P = (pts) => pts.map((q) => q.join(',')).join(' ');
   const face = (pts, fill) => el('polygon', { points: P(pts), fill, 'fill-opacity': 0.6, stroke: 'none' });
@@ -220,6 +262,12 @@ function solidSvg(kind, px) {
       el('path', { d: 'M 24 96 A 36 11 0 0 1 96 96', fill: 'none', stroke: C.teal, 'stroke-width': 2, 'stroke-dasharray': '5 5', 'data-lcs-hidden': '1' }),
       el('path', { d: 'M 24 96 A 36 11 0 0 0 96 96', fill: 'none', stroke: C.teal, 'stroke-width': 3 }),
       seg([24, 26], [24, 96]), seg([96, 26], [96, 96])];
+  } else if (kind === 'sphere') {
+    // a ball, not a flat disc (a teacher-reviewer, 2026-11-12: the painted sphere read as a circle or a coin among the
+    // line drawings): its outline shaded from a highlight, and NO line across it, which a child counting edges would count
+    const gid = 'lcs-sphere-' + (++sphereSeq);
+    parts = ['<defs><radialGradient id="' + gid + '" cx="38%" cy="34%" r="70%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="' + C.teal + '" stop-opacity="0.45"/></radialGradient></defs>',
+      el('circle', { cx: 60, cy: 60, r: 44, fill: 'url(#' + gid + ')', stroke: C.teal, 'stroke-width': 3 })];
   } else throw new Error('solidSvg: ' + kind);
   return svgRoot({ width: px, height: px, viewBox: '0 0 120 120', label: kind.replace('_', ' ') }, parts.join(''), { 'data-lcs-solid': kind });
 }
@@ -233,12 +281,23 @@ function yesNoChips(sym, loc) {
   return chip('yes', sym, w ? w[0] : '✓') + chip('no', !sym, w ? w[1] : '✗');
 }
 
-/** the reviewed mirror-symmetry pictures of a theme (only those the library still has, label-safe) */
+/** the reviewed mirror-symmetry pictures of a theme (only those the library still has, label-safe). Each picture carries
+ *  the colour folder it is drawn from (.theme): the page's own, or — a theme's `borrow` list, "folder/noun" — another
+ *  folder whose own review keys the picture symmetric (2026-11-14: no picture in the animals folder mirrors in its parts;
+ *  a butterfly from forest creatures is an animal in the same library style). borrowed = true when any picture is. */
 function reviewedPools(theme) {
   const R = SYM_REVIEW[theme];
-  if (!R) return { sym: [], asym: [] };
+  if (!R) return { sym: [], asym: [], borrowed: false };
   const have = new Map(labelSafeNouns(theme).map((n) => [n.noun, n]));
-  return { sym: R.sym.filter((n) => have.has(n)).map((n) => have.get(n)), asym: R.asym.filter((n) => have.has(n)).map((n) => have.get(n)) };
+  const own = (list) => list.filter((n) => have.has(n)).map((n) => ({ ...have.get(n), theme }));
+  const lent = (R.borrow || []).map((tn) => {
+    const j = tn.lastIndexOf('/'), from = tn.slice(0, j), noun = tn.slice(j + 1);
+    if (!SYM_REVIEW[from] || !SYM_REVIEW[from].sym.includes(noun)) throw new Error(`symmetry-review: ${theme} borrows ${tn}, which ${from} does not key symmetric`);
+    if (R.sym.includes(noun) || R.asym.includes(noun)) throw new Error(`symmetry-review: ${theme} borrows ${tn} but lists its own ${noun} too`);
+    const it = labelSafeNouns(from).find((x) => x.noun === noun);
+    return it ? { ...it, theme: from } : null;
+  }).filter(Boolean);
+  return { sym: [...own(R.sym), ...lent], asym: own(R.asym), borrowed: lent.length > 0 };
 }
 
 function makeGeometryType(cfg) {
@@ -258,6 +317,8 @@ function makeGeometryType(cfg) {
     interactive: require('../../lib/geometry-screen.js').interactiveFor(mode, facet),
     /** Level Set copies: what a page asks (build-waves compares copies by these) */
     levelSetWords(m) { return (m.asks || []).map(String); },
+    // the item bank of the unit checks (Part 7.6): the classify page only (the other pages are cards already)
+    ...(mode === 'classify-quads' ? { checkPage(args, ctx) { return classifyCheck(args, ctx); } } : {}),
 
     // synchronous (the mirror pictures come from the reviewed list now, not from awaited silhouette masks)
     build({ theme, difficulty, locale }, ctx) {
@@ -393,11 +454,23 @@ function makeGeometryType(cfg) {
       if (mode === 'symmetry-yn' || mode === 'pick-symmetric') {
         // pictures from the by-eye reviewed list only (data/symmetry-review.js) — the silhouette score disagreed with
         // the eye, so a page had two or three pictures that are "the same on both sides"
-        const { sym: symAll, asym: asymAll } = reviewedPools(theme);
+        const { sym: symAll, asym: asymAll, borrowed } = reviewedPools(theme);
         const sym = rng.shuffle(symAll), asym = rng.shuffle(asymAll);
         const nYn = mode === 'symmetry-yn' && difficulty === 3 ? 3 : 2;   // L3: six cards
-        // pick-symmetric: one symmetric picture per row, so the theme needs enough of them for a full page
-        const minSym = mode === 'symmetry-yn' ? 2 : Math.min(d.rows, 4);
+        // a picture's own folder: the page's, or the folder a borrowed picture comes from (reviewedPools)
+        const src = (n) => n.theme || theme;
+        // the maker's picture slots: a theme that borrows keys them "folder/noun" (slot.anyPictures: the picker shows each
+        // key's own picture); a saved recipe's plain noun means the page's own folder. Other themes keep plain nouns.
+        const pics = (picked, all, role) => {
+          if (!borrowed) return slot.pictures(ctx, picked, all, theme, role);
+          const ov = ctx && ctx.overrides && ctx.overrides[role];
+          const c = ov ? { ...ctx, overrides: { ...ctx.overrides, [role]: Object.fromEntries(Object.entries(ov).map(([i, k]) => [i, String(k).includes('/') ? k : theme + '/' + k])) } } : ctx;
+          return slot.anyPictures(c, picked, all, role);
+        };
+        // pick-symmetric: one symmetric picture per row, so the theme needs enough of them for a full page — except a
+        // published theme (cfg.pubThemes), which keeps its page with as many rows as it has (never fewer than two)
+        const pubTheme = (cfg.pubThemes || []).includes(theme);
+        const minSym = mode === 'symmetry-yn' ? 2 : pubTheme ? Math.min(d.rows, 2) : Math.min(d.rows, 4);
         if (sym.length < minSym || asym.length < (mode === 'symmetry-yn' ? 2 * nYn - Math.min(nYn, sym.length) : 2)) {
           throw new Error(`geometry: theme ${theme} has too few reviewed mirror pictures for ${mode} (sym=${sym.length}, asym=${asym.length})`);
         }
@@ -413,20 +486,20 @@ function makeGeometryType(cfg) {
           // keeps its card's answer (a swap only takes a picture of the same reviewed class); the draws above stay put
           const symIdx = [], asymIdx = [];
           picks.forEach((x, k) => (x.s ? symIdx : asymIdx).push(k));
-          const symShown = slot.pictures(ctx, symIdx.map((k) => picks[k].n), symAll, theme, 'sym');
-          const asymShown = slot.pictures(ctx, asymIdx.map((k) => picks[k].n), asymAll, theme, 'asym');
+          const symShown = pics(symIdx.map((k) => picks[k].n), symAll, 'sym');
+          const asymShown = pics(asymIdx.map((k) => picks[k].n), asymAll, 'asym');
           symIdx.forEach((k, j) => { picks[k] = { n: symShown[j], s: true, tap: slot.attr(ctx, 'sym', j) }; });
           asymIdx.forEach((k, j) => { picks[k] = { n: asymShown[j], s: false, tap: slot.attr(ctx, 'asym', j) }; });
           picks.forEach(({ n, s, tap }) => {
             cards.push(
-              `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-sym="${s ? 1 : 0}" data-lcs-noun="${theme}|${n.noun}">` +
+              `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-sym="${s ? 1 : 0}" data-lcs-noun="${src(n)}|${n.noun}">` +
               `<span style="position:relative;display:inline-block">` +
-              `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt=""${tap} style="width:120px;height:120px">` +
+              `<img class="ws-icon" src="${fileUri(src(n), n.noun)}" alt=""${tap} style="width:120px;height:120px">` +
               `<span style="position:absolute;left:50%;top:-6px;bottom:-6px;width:0;border-left:3px dashed #F2784B"></span></span>` +
               `<div class="ws-choices">` +
               yesNoChips(s, (locale || 'en').slice(0, 2)) +
               `</div></div>`);
-            items.push({ ask: n.noun, noun: n.noun, sym: s });
+            items.push({ ask: n.noun, noun: n.noun, ...(src(n) !== theme ? { theme: src(n) } : {}), sym: s });
           });
           return out(cardGrid({ cards, cols: 2, rows: Math.ceil(cards.length / 2) }));
         }
@@ -436,15 +509,24 @@ function makeGeometryType(cfg) {
         const drawAsym = (k) => { const outA = []; while (outA.length < k) { if (!bag.length) bag = rng.shuffle(asym.slice()); const n = bag.pop(); if (!outA.includes(n)) outA.push(n); } return outA; };
         // maker (2026-11-02): each row's mirror picture is a slot of role sym (a symmetric picture only), each row's
         // lopsided pictures a slot of role row<i> (lopsided only) — the row's answer cannot change; no draw moves
-        const symShown = slot.pictures(ctx, sym.slice(0, Math.min(d.rows, sym.length)), symAll, theme, 'sym');
-        for (let i = 0; i < Math.min(d.rows, sym.length); i++) {
-          const dis = slot.pictures(ctx, published ? rng.sample(asym, 2) : drawAsym(difficulty === 1 ? 1 : 2), asymAll, theme, 'row' + i);
-          const opts = rng.shuffle([{ n: symShown[i], ok: true, tap: slot.attr(ctx, 'sym', i) }, ...dis.map((n, j) => ({ n, ok: false, tap: slot.attr(ctx, 'row' + i, j) }))]);
+        // 2026-11-14: a published theme with fewer mirror pictures than rows (fruits: two, once the persimmon and the
+        // pomegranate left the list) has a row per mirror picture, each with more lopsided pictures: the page keeps its work
+        const nRows = Math.min(d.rows, sym.length);
+        const perRow = (difficulty === 1 ? 1 : 2) + (nRows < Math.min(d.rows, 4) ? (difficulty === 3 ? 2 : 1) : 0);
+        const few = nRows < Math.min(d.rows, 4), answerAt = [];
+        const symShown = pics(sym.slice(0, nRows), symAll, 'sym');
+        for (let i = 0; i < nRows; i++) {
+          const dis = pics(published ? rng.sample(asym, perRow) : drawAsym(perRow), asymAll, 'row' + i);
+          let opts = rng.shuffle([{ n: symShown[i], ok: true, tap: slot.attr(ctx, 'sym', i) }, ...dis.map((n, j) => ({ n, ok: false, tap: slot.attr(ctx, 'row' + i, j) }))]);
+          // two rows: their answers never sit in the same place (where the answer sits is part of the page)
+          if (few) { for (let g = 0; g < 40 && answerAt.includes(opts.findIndex((o) => o.ok)); g++) opts = rng.shuffle(opts); answerAt.push(opts.findIndex((o) => o.ok)); }
+          // two tall rows: bigger pictures (the page keeps its usual size otherwise)
+          const cpx = few ? (opts.length > 4 ? 112 : 126) : 96, ipx = few ? Math.round(cpx * 0.74) : 70;
           const chips = opts.map((o) =>
-            `<span class="ws-pattern-chip" style="width:96px;height:96px"${o.ok ? ' data-lcs-correct="1"' : ''} data-lcs-noun="${theme}|${o.n.noun}"${o.tap}>` +
-            `<img class="ws-icon" src="${fileUri(theme, o.n.noun)}" alt="" style="width:70px;height:70px"></span>`).join('');
-          cards.push(`<div class="ws-card-stage" style="justify-content:center;gap:26px">${chips}</div>`);
-          items.push({ ask: symShown[i].noun, opts: opts.map((o) => ({ noun: o.n.noun, ok: o.ok })) });
+            `<span class="ws-pattern-chip" style="width:${cpx}px;height:${cpx}px"${o.ok ? ' data-lcs-correct="1"' : ''} data-lcs-noun="${src(o.n)}|${o.n.noun}"${o.tap}>` +
+            `<img class="ws-icon" src="${fileUri(src(o.n), o.n.noun)}" alt="" style="width:${ipx}px;height:${ipx}px"></span>`).join('');
+          cards.push(`<div class="ws-card-stage" style="justify-content:center;gap:${opts.length > 4 ? 14 : opts.length > 3 ? 18 : 26}px">${chips}</div>`);
+          items.push({ ask: symShown[i].noun, opts: opts.map((o) => ({ noun: o.n.noun, ...(src(o.n) !== theme ? { theme: src(o.n) } : {}), ok: o.ok })) });
         }
         return out(cardGrid({ cards, cols: 1, rows: cards.length }));
       }
@@ -538,21 +620,13 @@ function makeGeometryType(cfg) {
         // Is it a rectangle? Squares count — a square IS a rectangle (3.G.A.1). The shapes are drawn by the page
         // (the library has one picture per kind); level 1 clear upright shapes, level 3 turned shapes and the near
         // misses (a rhombus, a parallelogram close to a rectangle, a kite).
-        const KINDS = difficulty === 1 ? ['square', 'rect', 'trapezoid', 'parallelogram', 'irregular'] : ['square', 'rect', 'rhombus', 'parallelogram', 'trapezoid', 'kite', 'irregular'];
+        const KINDS = classifyKinds(difficulty);
         const n = difficulty === 1 ? 5 : difficulty === 3 ? 8 : 7;
         // about half rectangles (squares included), never all of one kind
         const rectKinds = ['square', 'rect'], otherKinds = KINDS.filter((k) => !rectKinds.includes(k));
         const nRect = difficulty === 1 ? 2 : rng.int(3, 4);
         const kinds = rng.shuffle([...Array.from({ length: nRect }, (_, i) => rectKinds[i % 2 === 0 ? rng.int(0, 1) : 1 - (i % 2)]), ...rng.shuffle(otherKinds).slice(0, n - nRect)]);
-        const shapes = kinds.map((k, i) => {
-          const rot = difficulty === 1 ? 0 : difficulty === 3 ? rng.pick([0, 20, 30, 45, 60]) : (k === 'square' && rng.next() < 0.5 ? 45 : 0);
-          // a shape that is NOT a rectangle must not look like one: every corner well away from a square corner
-          const gap = difficulty === 1 ? 12 : 8;
-          let P, g = 0;
-          do { P = quadPoints(k, rng, rot); g++; }
-          while (!['square', 'rect'].includes(k) && cornerAngles(P).some((a) => Math.abs(a - 90) < gap) && g < 60);
-          return { k, P, rect: isRectangle(P), fill: QUAD_FILL[i % QUAD_FILL.length] };
-        });
+        const shapes = kinds.map((k, i) => classifyQuad(k, i, difficulty, rng));
         const words = require('../../data/geometry-words.js')[(locale || 'en').slice(0, 2)] || require('../../data/geometry-words.js').en;
         const strip = shapes.map((s, i) =>
           `<span class="ws-pattern-slot" style="width:112px;height:112px" data-lcs-item="${i}" data-lcs-class="${s.rect ? 'rect' : 'not'}">${quadSvg(s.P, 104, s.fill)}</span>`).join('');
@@ -632,7 +706,7 @@ function makeGeometryType(cfg) {
             const k = c.dataset.lcsShape;
             if (k === 'cone') fails.push('cone: its picture is a cut-off cone');
             if (facet === 'edges' && k === 'cylinder') fails.push('cylinder edges: a convention curricula disagree on');
-            const HID = { cube: 3, rectangular_box: 3, pyramid: 3, cylinder: 1 };
+            const HID = { cube: 3, rectangular_box: 3, pyramid: 3, cylinder: 1, sphere: 0 };
             if (HID[k] !== undefined) {
               const svg = c.querySelector(`[data-lcs-solid="${k}"]`);
               if (!svg) fails.push(`${k}: an opaque picture (hidden faces/edges cannot be counted) — draw it see-through`);

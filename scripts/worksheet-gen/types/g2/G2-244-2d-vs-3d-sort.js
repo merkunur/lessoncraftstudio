@@ -5,6 +5,9 @@
 'use strict';
 const { themeEntry, fileUri } = require('../../image-cache/resolve.js');
 const { SHAPES_2D, SHAPES_3D } = require('../../lib/shape-data.js');
+const { checkGrid } = require('../../lib/check-page.js');
+// the bins' labels (flat · solid): never a shape to sort, on the page or on the check
+const LABELS = ['square', 'cube'];
 
 module.exports = {
   id: 'G2-244',
@@ -26,6 +29,29 @@ module.exports = {
   interactive: require('../../lib/geometry-screen.js').interactiveFor('flat-solid'),
   levelSetWords(m) { return [...(m.flat || []), ...(m.solid || [])].map(String); },
 
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): each shape a card of its own beside
+   *  its own two small bins, labelled as the page labels them (a square: flat · a cube: solid); the page's two bins stand
+   *  beside its row of shapes, so a shape could not be cut from it. The square and the cube are not asked: a picture the
+   *  same as a bin's label is matched, not sorted. Two flat shapes more than the level draws, and three or four solids
+   *  (all the page has besides the cube and the sphere): never as many cards as the page, whose key cards the cutter
+   *  pairs with the cards by their number. The right bin carries data-lcs-correct. */
+  checkPage({ difficulty }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2], rng = ctx.rng;
+    const have = Object.keys(themeEntry('shapes').nouns);
+    const flatAll = Object.keys(SHAPES_2D).filter((k) => have.includes(k) && k !== 'square');
+    const solidAll = Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere' && k !== 'cube');   // (the sphere: see build)
+    const items = rng.shuffle([
+      ...rng.sample(flatAll, d.per + 2).map((k) => ({ k, dim: '2d' })),
+      ...rng.sample(solidAll, Math.min(solidAll.length, d.per)).map((k) => ({ k, dim: '3d' })),
+    ]);
+    const bin = (labelKey, dim, ok) => `<span data-lcs-choice="${dim}" data-lcs-bin="${dim}"${ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:84px;height:66px;box-sizing:border-box;border:2.5px dashed #146B5E;border-radius:12px;background:#FFFFFF">` +
+      `<img class="ws-icon" src="${fileUri('shapes', labelKey)}" alt="" style="width:40px;height:40px"></span>`;
+    const cards = items.map((it) => `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:center;gap:16px;padding:6px 4px" data-lcs-dim="${it.dim}" data-lcs-shape="${it.k}">` +
+      `<img class="ws-icon" src="${fileUri('shapes', it.k)}" alt="" style="width:104px;height:104px">` +
+      `<span style="display:flex;gap:14px">${bin('square', '2d', it.dim === '2d')}${bin('cube', '3d', it.dim === '3d')}</span></div>`);
+    return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: { flat: items.filter((x) => x.dim === '2d').map((x) => x.k), solid: items.filter((x) => x.dim === '3d').map((x) => x.k) } };
+  },
+
   build({ difficulty, locale }, ctx) {
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
     if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
@@ -35,10 +61,14 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const have = Object.keys(themeEntry('shapes').nouns);
-    const flat = rng.sample(Object.keys(SHAPES_2D).filter((k) => have.includes(k)), d.per);
+    // 2026-11-14: the square and the cube are the bins' labels, so they are never shapes to sort: a picture the same as
+    // a label is matched, not sorted (a reviewer found both on live pages). LABELS below is the one list.
+    const flat = rng.sample(Object.keys(SHAPES_2D).filter((k) => have.includes(k) && !LABELS.includes(k)), d.per);
     // 2026-11-13: no sphere on this page. The library's ball is a disc with a faint shine: beside a flat circle a
-    // child (and a reviewing teacher) sorts it as flat, and the key says solid. Five solids are left (level 3 uses all).
-    const solid = rng.sample(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere'), d.per);
+    // child (and a reviewing teacher) sorts it as flat, and the key says solid. Four solids are left (box, cone,
+    // cylinder, pyramid), so level 3 sorts five flat shapes and four solids.
+    const solidAll = Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere' && !LABELS.includes(k));
+    const solid = rng.sample(solidAll, Math.min(d.per, solidAll.length));
     const items = rng.shuffle([
       ...flat.map((k) => ({ k, dim: '2d' })),
       ...solid.map((k) => ({ k, dim: '3d' })),
@@ -77,6 +107,7 @@ module.exports = {
       items.forEach((it) => {
         const k = it.dataset.lcsShape, dim = it.dataset.lcsDim;
         const want = flat2d.includes(k) ? '2d' : (solid3d.includes(k) ? '3d' : null);
+        if (k === 'square' || k === 'cube') fails.push(`${k}: a bin's label is a shape to sort (matched, not sorted)`);
         if (!want) fails.push(`${k}: unknown shape`);
         else if (want !== dim) fails.push(`${k}: tagged ${dim}, is ${want}`);
         if (dim === '2d') n2++; else n3++;

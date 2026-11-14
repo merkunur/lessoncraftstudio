@@ -38,6 +38,14 @@ for (const f of fs.readdirSync(path.join(WG, 'waves'))) {
   const w = JSON.parse(fs.readFileSync(path.join(WG, 'waves', f), 'utf8'));
   if (w.id) (waveFiles[shortOf(w.id)] = waveFiles[shortOf(w.id)] || []).push(f);
 }
+// a republish wave that made its own ids (2026-10-08: _geo-repub-fix2-*, ids wave-fix2-*) is the source of its pages: it is
+// used when no regular wave has its id. This tool's own pinned files (_fix-*) keep an original id and never count.
+for (const f of fs.readdirSync(path.join(WG, 'waves'))) {
+  if (!f.endsWith('.json') || !f.startsWith('_') || f.startsWith('_fix-')) continue;
+  const w = JSON.parse(fs.readFileSync(path.join(WG, 'waves', f), 'utf8'));
+  if (w.id && !waveFiles[shortOf(w.id)] && /^wave-fix\d/.test(w.id)) (waveFiles[shortOf(w.id) + '\u0000'] = waveFiles[shortOf(w.id) + '\u0000'] || []).push(f);
+}
+for (const k of Object.keys(waveFiles)) if (k.endsWith('\u0000')) { waveFiles[k.slice(0, -1)] = waveFiles[k]; delete waveFiles[k]; }
 
 const live = fs.readFileSync(LIVE, 'utf8').trim().split(/\r?\n/).map((l) => JSON.parse(l));
 const groups = {};

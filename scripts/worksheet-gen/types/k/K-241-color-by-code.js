@@ -22,6 +22,25 @@ const { COLOR_WORDS } = require('../../data/color-words.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
 
+// 2026-11-14 (reviewers: "10 + 3" ran over a star's points on live pages). How wide a text each shape holds, as a part of
+// the shape's size, at the height the page writes it (font 0.2-0.3 of the size): measured in a browser with the page font
+// under the test in verify() below (a star holds 0.39-0.41, a heart or triangle 0.52-0.55, a circle 0.89, a square 0.91);
+// the smallest of the three font sizes, a little less. And the width of each character in Baloo 2 Bold (em, measured the
+// same day). A text goes only into a shape that holds it; a character not in the table counts as wide.
+const ROOM = { circle: 0.88, square: 0.9, triangle: 0.51, heart: 0.51, star: 0.38 };
+const EM = { 0: 0.6, 1: 0.384, 2: 0.519, 3: 0.515, 4: 0.589, 5: 0.526, 6: 0.556, 7: 0.476, 8: 0.562, 9: 0.557, '+': 0.546, '−': 0.508, '×': 0.502, ' ': 0.2,
+  a: 0.533, b: 0.58, c: 0.486, d: 0.577, e: 0.542, f: 0.423, g: 0.558, h: 0.577, i: 0.272, j: 0.276, k: 0.539, l: 0.275, m: 0.84, n: 0.575, o: 0.578, p: 0.576, q: 0.577,
+  r: 0.404, s: 0.481, t: 0.391, u: 0.574, v: 0.533, w: 0.776, x: 0.513, y: 0.536, z: 0.478, ä: 0.533, ö: 0.578, å: 0.533, æ: 0.826, ø: 0.578, ü: 0.574, é: 0.542,
+  è: 0.542, à: 0.533, ç: 0.486, ñ: 0.577, õ: 0.578, ã: 0.533, â: 0.533, ê: 0.542, í: 0.272, ó: 0.578, ú: 0.574 };
+const emWidth = (s) => [...s].reduce((w, ch) => w + (EM[ch] != null ? EM[ch] : EM[ch.toLowerCase()] != null ? EM[ch.toLowerCase()] + 0.1 : 0.85), 0);
+/** the shapes of `kinds` that hold `label` written at `ratio` × the shape's size (a 4% margin for the font size's rounding) */
+function kindsFor(kinds, label, ratio) {
+  const need = emWidth(label) * ratio * 1.04;
+  const ok = kinds.filter((k) => ROOM[k] >= need);
+  if (!ok.length) throw new Error(`K-241: "${label}" fits none of ${kinds.join(', ')}`);
+  return ok;
+}
+
 const COLOR_KEYS = ['red', 'blue', 'yellow', 'green'];
 const SWATCH = { red: tokens.codeColors.codeRed, blue: tokens.codeColors.codeBlue, yellow: tokens.codeColors.codeYellow, green: tokens.codeColors.codeGreen, orange: tokens.codeColors.codeOrange };
 
@@ -150,7 +169,7 @@ module.exports = {
         const ws = slot.words(ctx, rng.sample(pool, d.codes), pool, 'word');
         entries = ws.map((w, i) => ({ code: w, colorKey: colorKeys[i], word: words[colorKeys[i]], slot: i }));
         const bag = []; ws.forEach((w) => { bag.push(w, w); }); while (bag.length < d.items) bag.push(rng.pick(ws));
-        rng.shuffle(bag).forEach((w) => items.push({ kind: rng.pick(roomy), code: w, word: w }));
+        rng.shuffle(bag).forEach((w) => items.push({ kind: rng.pick(kindsFor(roomy, w, 0.21)), code: w, word: w }));
       } else {
         const S = require('../../data/literacy/sort-by-beginning-sound.json');
         const all = (S.itemsByLocale && S.itemsByLocale[loc]) || (loc === 'en' ? S.items : null);
@@ -170,7 +189,8 @@ module.exports = {
       // nt20-VAR: d.values = custom value pool (sums-to-20 page); mode
       // 'numbers' = the classic plain color-by-number (numeral in the shape,
       // no arithmetic — the legend numeral IS the code)
-      const values = rng.sample(d.values || [2, 3, 4, 5, 6, 7, 8, 9, 10], d.codes);
+      // a subtraction-only code stays below the limit (its first number is the value plus at least one)
+      const values = rng.sample(d.values || [2, 3, 4, 5, 6, 7, 8, 9, 10].filter((v) => d.mode !== 'sums' || d.top || (d.ops || []).includes('+') || v < (d.max || 10)), d.codes);
       // a multiplication code (mode 'facts'): every product has at least two facts among the level's factors
       const factsOf = (v) => { const f = []; for (const a of d.factors || []) for (const b of d.factors || []) if (a * b === v) f.push([a, b]); return f; };
       entries = values.map((v, i) => ({ code: v, colorKey: colorKeys[i], word: words[colorKeys[i]] }));
@@ -204,22 +224,27 @@ module.exports = {
           } while ((a > d.top || usedExpr.has(`${a}${op}${b}`)) && guard < 80);
           if (a > d.top) throw new Error('K-241: no expression for ' + v + ' within ' + d.top);
           usedExpr.add(`${a}${op}${b}`);
-          items.push({ kind: rng.pick(kinds), code: v, expr: `${a} ${op === '-' ? '−' : '+'} ${b}` });
+          const expr = `${a} ${op === '-' ? '−' : '+'} ${b}`;
+          items.push({ kind: rng.pick(kindsFor(kinds, expr, 0.2)), code: v, expr });
         });
       } else {
       const usedExpr = new Set();
+      // 2026-11-14: a subtraction starts within the level's limit too (d.max, 10 at Kindergarten: K.OA.A.2 "within 10" is
+      // both numbers). It used to start at up to 12, so "12 − 3" stood on pages within 10.
+      const max = d.max || 10;
       order.forEach((v) => {
         // find a fresh ± expression landing exactly on v
         let a, b, op, guard = 0;
         do {
           op = rng.pick(d.ops);
           if (op === '+') { a = rng.int(0, v); b = v - a; }
-          else { b = rng.int(1, 9); a = v + b; }
+          else { b = rng.int(1, Math.max(1, max - v)); a = v + b; }
           guard++;
-        } while ((op === '-' && a > 12 || usedExpr.has(`${a}${op}${b}`)) && guard < 60);
+        } while ((a > max || usedExpr.has(`${a}${op}${b}`)) && guard < 60);
+        if (a > max) throw new Error('K-241: no expression for ' + v + ' within ' + max);
         usedExpr.add(`${a}${op}${b}`);
         const expr = `${a} ${op === '-' ? '−' : '+'} ${b}`;
-        items.push({ kind: rng.pick(kinds), code: v, expr });
+        items.push({ kind: rng.pick(kindsFor(kinds, expr, 0.2)), code: v, expr });
       });
       }
     }
@@ -299,6 +324,22 @@ module.exports = {
       });
       codes.forEach((code) => {
         if ((counts[code] || 0) < 2) fails.push(`code ${code} appears ${counts[code] || 0}× (want ≥2)`);
+      });
+      // 2026-11-14 (reviewers: "10 + 3" ran over a star's points on live pages): every word, number or sum written in a
+      // shape lies inside the shape. The text's ink box (its measured width; 0.72 of the font size high, centred on the
+      // line) must be inside the outline's fill at its corners and the middles of its sides, 1.5 units in from the line.
+      items.forEach((it) => {
+        const svg = it.querySelector('svg'), text = svg && svg.querySelector('text');
+        const outline = svg && svg.querySelector('circle, rect, path, polygon');
+        if (!text || !outline || !text.textContent.trim()) return;
+        const b = text.getBBox(), fs = parseFloat(text.getAttribute('font-size')) || 16;
+        const cy = parseFloat(text.getAttribute('y')), h = 0.72 * fs, x0 = b.x + 1.5, x1 = b.x + b.width - 1.5, y0 = cy - h / 2, y1 = cy + h / 2;
+        const pts = [[x0, y0], [x1, y0], [x0, y1], [x1, y1], [(x0 + x1) / 2, y0], [(x0 + x1) / 2, y1], [x0, cy], [x1, cy]];
+        const inset = 1.5 + 2.5 / 2;
+        const inside = ([x, y]) => [[0, 0], [inset, 0], [-inset, 0], [0, inset], [0, -inset]].every(([dx, dy]) => {
+          const p = svg.createSVGPoint(); p.x = x + dx; p.y = y + dy; return outline.isPointInFill(p);
+        });
+        if (!pts.every(inside)) fails.push(`"${text.textContent}" runs over its ${outline.tagName === 'polygon' ? 'star' : outline.tagName}`);
       });
       return fails;
     });

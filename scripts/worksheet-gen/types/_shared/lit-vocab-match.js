@@ -18,6 +18,24 @@
 const { fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
 
+// 2026-11-14 (a German native reviewer of K-225): a picture a child may name with ANOTHER word of the same sheet gives that
+// word two pictures — a calf beside the word "Kuh", a toe beside "Fuß", a gate beside "Tür" — and a word printed twice
+// (de "Uhr" and da "ur" for a clock and a watch, fi "kana" for a chicken and a hen) has two pictures by construction.
+// A sheet, and the pictures of a check card, never hold one word twice or two nouns of one family below (a whole and its
+// part — a face and a nose, a leg and a knee — or two things a child names alike — a car and a van, an onion and garlic).
+const FAMILIES = [
+  ['cow', 'calf', 'bull', 'ox'], ['chicken', 'hen', 'rooster', 'chick'], ['deer', 'moose'], ['duck', 'goose'],
+  ['leg', 'knee', 'foot', 'toe', 'heel'], ['arm', 'hand', 'finger', 'nail'],
+  ['face', 'head', 'chin', 'forehead', 'mouth', 'nose', 'eye', 'eyelashes', 'ear', 'hair'],
+  ['door', 'gate'], ['clock', 'watch'], ['cup', 'mug'], ['jar', 'jug'], ['hat', 'cap', 'beanie'],
+  ['lake', 'river', 'water', 'wave'], ['bread', 'bun'], ['car', 'van', 'jeep'], ['airplane', 'jet'],
+  ['kitchen', 'oven', 'sink', 'faucet'], ['onion', 'garlic'], ['baby', 'doll'],
+];
+const FAMILY_OF = new Map();
+FAMILIES.forEach((f, i) => f.forEach((n) => FAMILY_OF.set(n, i)));
+const clash = (a, b) => a.word.toLowerCase() === b.word.toLowerCase() || (FAMILY_OF.has(a.noun) && FAMILY_OF.get(a.noun) === FAMILY_OF.get(b.noun));
+const noClash = (set) => set.every((a, i) => set.every((b, j) => j <= i || !clash(a, b)));
+
 const SCOPED_CSS = `
 .lit-vm-word{display:flex;align-items:center;justify-content:center;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;font-family:'Baloo 2',cursive;font-weight:700;color:#146B5E}
 `;
@@ -40,8 +58,12 @@ function makeLitVocabMatch(cfg) {
       const d = this.difficulty[difficulty] || this.difficulty[2];
       const all = pairsByLocale[locale] || pairsByLocale.en || [];
       const n = Math.min(d.pairs, all.length);
-      // a teacher's picture choice (maker): any pair of the reviewed list (its word comes with its picture), else as drawn
-      const pairs = slot.anyPictures(ctx, rng.sample(all, n), all, 'pic');
+      // a teacher's picture choice (maker): any pair of the reviewed list (its word comes with its picture), else as drawn.
+      // A draw with two pairs that clash (above) is drawn again: the first draw stays whenever it is clean
+      let drawn = rng.sample(all, n);
+      for (let g = 0; g < 200 && !noClash(drawn); g++) drawn = rng.sample(all, n);
+      if (!noClash(drawn)) throw new Error(`${this.id}: no ${n} pairs without a clash in ${locale}`);
+      const pairs = slot.anyPictures(ctx, drawn, all, 'pic');
 
       let order;
       do { order = rng.shuffle(pairs.map((_, i) => i)); }
@@ -77,6 +99,35 @@ function makeLitVocabMatch(cfg) {
       };
     },
 
+    /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): eight pairs of the reviewed list drawn as
+     *  the page draws them, each a card of its own — the word, and three pictures of the draw to draw its line to (its own
+     *  and two others, in a shuffled order); the right picture carries data-lcs-correct. Eight: the cutter pairs a page's
+     *  cards with the key page of build() by their place when the counts agree, and a page holds five to seven pairs. */
+    checkPage({ difficulty, locale }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const rng = ctx.rng;
+      const all = pairsByLocale[locale] || pairsByLocale.en || [];
+      if (all.length < 8) throw new Error(`${this.id} checkPage: ${all.length} pairs < 8`);
+      const pairs = rng.sample(all, 8);
+      const blocks = pairs.map((p, i) => {
+        // the two other pictures come from other themes when the draw has them (a cap beside "hat", a jug beside "jar":
+        // two pictures a child may name with the same word)
+        // and never a picture that clashes with the card's word (a calf beside "Kuh", a watch beside "Uhr")
+        const rest = pairs.filter((o, j) => j !== i && !clash(o, p)), far = rest.filter((o) => o.theme !== p.theme);
+        if (rest.length < 2) throw new Error(`${this.id} checkPage: too few pictures for "${p.word}"`);
+        const others = rng.sample(far.length >= 2 ? far : rest, 2);
+        const opts = rng.shuffle([p, ...others]);
+        return `<div style="display:flex;align-items:center;justify-content:center;gap:56px;padding:4px 0">` +
+          `<div class="ws-match-item" style="width:190px;height:96px;flex:0 0 auto" data-lit-left="${p.noun}"><span class="lit-vm-word" style="min-width:130px;height:60px;padding:0 16px;font-size:32px">${p.word}</span><span class="ws-match-dot ws-match-dot--right"></span></div>` +
+          `<div style="display:flex;gap:18px">` + opts.map((o) =>
+            `<div class="ws-match-item ws-match-item--plain" style="width:112px;height:96px" data-lit-right="${o.noun}"${o === p ? ' data-lcs-correct="1"' : ''}>` +
+            `<img class="ws-icon" src="${fileUri(o.theme, o.noun)}" alt="" style="width:80px;height:80px"></div>`).join('') +
+          `</div></div>`;
+      });
+      // (the style sheet stands once, before the grid: the cutter carries a page's style sheets along with its cards)
+      return { bodyHtml: `<style>${SCOPED_CSS}</style><div>${checkGrid(blocks)}</div>`, meta: {} };
+    },
+
     async verify(page) {
       return page.evaluate(() => {
         const fails = [];
@@ -86,6 +137,9 @@ function makeLitVocabMatch(cfg) {
         if (left.length !== right.length) fails.push('column length mismatch');
         if ([...left].sort().join() !== [...right].sort().join()) fails.push('right column not a permutation of left');
         left.forEach((v, i) => { if (right[i] === v) fails.push(`row ${i + 1}: word sits straight across from its picture`); });
+        // one word printed twice gives it two pictures (the families are checked where the sheet is drawn)
+        const words = [...document.querySelectorAll('[data-lit-left] [data-lit-content]')].map((e) => e.textContent.trim().toLowerCase());
+        if (new Set(words).size !== words.length) fails.push('a word printed twice: ' + words.join(', '));
         return fails;
       });
     },

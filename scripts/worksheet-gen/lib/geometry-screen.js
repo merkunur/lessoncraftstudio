@@ -129,7 +129,8 @@ function screen(C, salt) {
   if (m === 'pick-symmetric') {
     return choiceScreen(it.map((x) => ({
       q: `pick:${C.theme}`, prompt: '',
-      opts: x.opts.map((o) => ({ label: `${C.theme}|${o.noun}`, html: pic(C.theme, o.noun, 110), ok: o.ok })),
+      // a picture carries its own folder when the theme borrowed it (geometry-tasks reviewedPools, 2026-11-14)
+      opts: x.opts.map((o) => ({ label: `${o.theme || C.theme}|${o.noun}`, html: pic(o.theme || C.theme, o.noun, 110), ok: o.ok })),
     })), salt);
   }
   if (m === 'same-area' || m === 'same-perimeter') {
@@ -148,8 +149,8 @@ function screen(C, salt) {
   }
   if (m === 'symmetry-yn') {
     return selectScreen([it.map((x) => ({
-      html: `<span style="position:relative;display:inline-block">${pic(C.theme, x.noun, 120)}<span style="position:absolute;left:50%;top:-4px;bottom:-4px;width:0;border-left:3px dashed ${CORAL}"></span></span>`,
-      hit: x.sym, meta: { 'data-lcs-noun': `${C.theme}|${x.noun}` },
+      html: `<span style="position:relative;display:inline-block">${pic(x.theme || C.theme, x.noun, 120)}<span style="position:absolute;left:50%;top:-4px;bottom:-4px;width:0;border-left:3px dashed ${CORAL}"></span></span>`,
+      hit: x.sym, meta: { 'data-lcs-noun': `${x.theme || C.theme}|${x.noun}` },
     }))], salt);
   }
   if (m === 'angles') {
@@ -211,7 +212,8 @@ function choiceAnswer(q, labels) {
   if (kind === 'sameper') { const [r, c] = rest.split('x').map(Number); return labels.find((l) => { const [a, b] = l.split('x').map(Number); return a + b === r + c; }); }
   if (kind === 'area') { const [r, c] = rest.split('x').map(Number); return labels.find((l) => { const [a, b] = l.split('x').map(Number); return a * b === r * c; }); }
   if (kind === 'real') { const O = require('./shape-data.js').SOLID_REAL_OBJECTS[rest] || []; return labels.find((l) => O.some((o) => `${o.theme}/${o.noun}` === l)); }
-  if (kind === 'pick') { const R = require('../data/symmetry-review.js')[rest]; return labels.find((l) => R.sym.includes(l.split('|')[1])); }
+  // each label names its picture's own folder ("folder|noun"): a borrowed picture is keyed by the folder it comes from
+  if (kind === 'pick') { const REV = require('../data/symmetry-review.js'); return labels.find((l) => { const [t, n] = l.split('|'); return !!(REV[t] && REV[t].sym.includes(n)); }); }
   throw new Error('geometry oracle: cannot read "' + q + '"');
 }
 function oracle(items) {

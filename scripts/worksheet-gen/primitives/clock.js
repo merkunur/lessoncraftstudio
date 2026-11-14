@@ -6,6 +6,8 @@
  *   numerals:false   a plain face: hour ticks, no 1-12 (the stretch level reads the hands by position)
  *   minuteMarks:false no one-minute ticks (only the twelve hour ticks)
  *   minuteRing:true  the face shrinks and 5, 10 … 55 are printed outside it (the support level of 5-minute times)
+ *   minuteToMarks:true the minute hand reaches the one-minute marks (time to the minute: a teacher-reviewer, 2026-11-12,
+ *                    could not tell 8:48 from 8:49 by eye when the hand stopped a quarter inch short of the marks)
  * Hour hand gets the proportional offset (h + m/60); minute ticks; the 12
  * numerals in Baloo. meta carries both hand angles for QA.
  */
@@ -17,7 +19,7 @@ const { svgRoot, circle, el, label } = require('./_svg.js');
 // of Math.sin / Math.cos, so an unrounded face printed different bytes in the maker than in the catalogue (parity gate)
 const r2 = (v) => Math.round(v * 100) / 100;
 
-function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks = true, minuteRing = false }, ctx) {
+function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks = true, minuteRing = false, minuteToMarks = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (h < 0 || h > 12 || m < 0 || m > 59) throw new Error(`clock: invalid time ${h}:${m}`);
   const c = size / 2;
@@ -72,7 +74,7 @@ function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks 
   // dot stays as the "start your hands here" anchor (design-panel lock).
   if (hands !== 'none') {
     if (hands !== 'minute') parts.push(hand(hourAngle, rFace * 0.48, 6, t.color.ink, 'hourhand'));
-    parts.push(hand(minuteAngle, rFace * 0.72, 4.5, t.color.coral, 'minutehand'));
+    parts.push(hand(minuteAngle, minuteToMarks ? rFace - 6 : rFace * 0.72, 4.5, t.color.coral, 'minutehand'));
   }
   parts.push(circle({ cx: c, cy: c, r: hands !== 'both' ? 7 : 5.5, fill: hands !== 'both' ? t.color.coral : t.color.teal }));
 

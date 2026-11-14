@@ -236,7 +236,7 @@ The operator delegated the legal check to an AI legal agent (not a licensed lawy
 | E7 | The corrected texts in eleven languages, natively written and read; the pricing answer a4 replaced in the same deploy; FACTS.md corrected | open. One native reviewer over all eleven. |
 | E8 | Class rows never leave the server in a backup, or the owner confirms the backup computer | open; the simplest is to strip the four tables from every dump the PC pulls (`strip-class-data.js --days=0`). |
 | E9 | A privacy link at the foot of the children's class page | open (small). |
-| E10 | A written rule: no person, script or AI session reads class rows | open (a paragraph in this file and in the server-access doc). |
+| E10 | A written rule: no person, script or AI session reads class rows | **written 2026-11-14**: `docs/ops/server-access.md`, "Class data — nobody reads the rows". Scripts print counts only; a fault is reproduced on the local preview with made-up children. |
 | E11 | "Do not put a child's name here." under the class-name field, eleven languages | open (with E7's reviewer). |
 | E12 | Company details in the texts; the hosting data-processing agreement concluded | waits for the owner (questions F1 to F4). |
 | E13 | A deploy that contains `pageHasScreen` | done (every deploy since commit `cc0b953a4`). |

@@ -112,3 +112,18 @@ The server hosts only what it serves or builds. Everything else is on the PC:
   `git sparse-checkout set --no-cone '/*' '!/docs/audit-results/'`. `git pull`/`deploy.sh` are unaffected.
   Undo: `git sparse-checkout disable`. Scripts that write reports there still work (the dir is simply
   untracked on the server) — archive + remove with the tool above when they pile up.
+
+## Class data — nobody reads the rows (2026-11-14; legal decision, condition E10)
+
+The four class tables (`class_rooms`, `class_seats`, `class_assignments`, `class_attempts`) hold what children did in a
+class. The rule for support, debugging and every script:
+
+- **No person, no script and no AI coding session reads rows of these tables, prints them, copies them to the PC
+  or sends them to any outside service.** An outside service that received such rows would be a processor nobody
+  was told about.
+- **Scripts print counts only** (as `scripts/class-results/retention.js` and `live-db-check.js` do). A new script that
+  touches these tables follows the same rule and says so in its header.
+- A teacher's question about her class is answered from what she sees on her own screen, or by her deleting and
+  remaking the class; never by looking the class up in the database.
+- A fault that can only be found in the rows is reproduced on the local preview (`scripts/class-results/dev-server.js`,
+  made-up children), not on production data.

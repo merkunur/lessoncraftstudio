@@ -87,6 +87,10 @@ export const pinterestEvents = {
   }
 };
 
+/** A visit through a class link: the children's class page, or an address that carries a class attempt (#lcs=<token>).
+ *  No advertising tag loads there and nothing is sent (legal decision of 2026-11-14, condition E3c). */
+const CLASS_VISIT = "(/^\\/c\\//.test(location.pathname)||/[#&]lcs=[a-z2-9]{20}(?:&|$)/.test(location.hash||''))";
+
 export function PinterestTag() {
   const pathname = usePathname();
 
@@ -110,6 +114,7 @@ export function PinterestTag() {
         strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
+            if(!${CLASS_VISIT}){
             !function(e){if(!window.pintrk){window.pintrk=function(){
             window.pintrk.queue.push(Array.prototype.slice.call(arguments))};
             var n=window.pintrk;n.queue=[],n.version="3.0";
@@ -119,20 +124,13 @@ export function PinterestTag() {
             ("https://s.pinimg.com/ct/core.js");
             pintrk('load', '${PINTEREST_TAG_ID}');
             pintrk('page');
+            }
           `,
         }}
       />
 
-      {/* Pinterest noscript fallback */}
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{ display: 'none' }}
-          alt=""
-          src={`https://ct.pinterest.com/v3/?event=init&tid=${PINTEREST_TAG_ID}&noscript=1`}
-        />
-      </noscript>
+      {/* (No noscript image: it would be fetched from Pinterest on every page, a class visit included, and a script
+          cannot hold it back. Without scripts no page of the site counts a visit.) */}
     </>
   );
 }

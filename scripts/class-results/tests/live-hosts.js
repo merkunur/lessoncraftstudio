@@ -43,7 +43,8 @@ const LIST = pages.length ? pages : [
     const loaded = await page.evaluate(() => (document.fonts ? [...document.fonts].filter((f) => f.status === 'loaded').map((f) => f.family.replace(/["']/g, '')) : [])).catch(() => []);
     const other = Object.keys(hosts).filter((h) => h !== HOST);
     // the analytics: counted on an ordinary visit, silent on a class visit (an address with #lcs=<token>, or /c/…)
-    const classVisit = /#lcs=[a-z2-9]{20}/.test(url) || /\/c\//.test(new URL(url).pathname);
+    // --poison: every visit is judged as a class visit, so the ordinary ones (which ARE counted) must fail the check
+    const classVisit = process.argv.includes('--poison') || /#lcs=[a-z2-9]{20}/.test(url) ||/\/c\//.test(new URL(url).pathname);
     const core = paths.includes('/lcs-insights-core.js'), sent = paths.includes('/api/send');
     // (a page that carries no analytics tag at all, like an activity's own file, has nothing to count)
     const tagged = await page.evaluate(() => !!document.querySelector('script[src*="lcs-insights.js"]')).catch(() => false);

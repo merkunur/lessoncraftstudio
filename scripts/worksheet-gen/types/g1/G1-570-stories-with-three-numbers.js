@@ -13,6 +13,10 @@
  *   Level 3  totals 11 to 20: one story with two numbers that make ten, one with a double (and no ten), one with
  *            neither. The child has to look before adding.
  * No two stories of a page share an answer or the same three numbers, and a child is named in at most one story.
+ * Where every story has a pair that makes ten (level 2), the pair stands in a different place in each: first and
+ * second, first and third, second and third. (A page whose pairs all came first never asked the child to look: adding
+ * from left to right used the ten by itself; US teacher-reviewer, 2026-11-14.) A thing of the kitchen is told in a place
+ * only (no child finds 7 spoons in the morning), so a kitchen theme has one story frame and is refused.
  * The key fills the frame in the order the story tells the numbers and rings the two boxes that make ten or the double.
  * The stories are data/word-problems/three-frames.json (native, read by a native reader); the things are the reviewed
  * noun allow-list of the story-problem engine. Nothing is counted in a picture: one picture of the thing stands beside
@@ -74,12 +78,15 @@ module.exports = {
       const sorts = rng.shuffle(d.sorts), nouns = rng.sample(pool, 3);
       if (new Set(nouns.map((n) => n.text)).size < 3) continue;   // two things with one word (fr "ballons")
       const usedFrames = new Set(), usedNames = [], drawn = [];
+      // level 2: the place of the ten pair, a different one in each story
+      const places = sorts.every((x) => x === 'ten') ? rng.shuffle(['0,1', '0,2', '1,2']) : null;
       let ok = true;
       const list = sorts.map((sort, i) => {
-        const all = triples(sort).filter((n) => !drawn.some((q) => q.sum === n[0] + n[1] + n[2] || q.n.slice().sort().join() === n.slice().sort().join()));
+        const all = triples(sort).filter((n) => !drawn.some((q) => q.sum === n[0] + n[1] + n[2] || q.n.slice().sort().join() === n.slice().sort().join()))
+          .filter((n) => !places || pairOf(n).join() === places[i]);
         if (!all.length) { ok = false; return null; }
         const n = rng.pick(all); drawn.push({ n, sum: n[0] + n[1] + n[2] });
-        const free = FRAMES[loc].filter((f) => !usedFrames.has(f) && storyFit.fitsHere(f, nouns[i].noun === 'strawberry' ? 'raspberry' : nouns[i].noun, loc));
+        const free = FRAMES[loc].filter((f) => !usedFrames.has(f) && W.frameFits(f, nouns[i].noun, loc) && !(storyFit.HOUSE.has(nouns[i].noun) && f.startsWith('{name}')));
         if (!free.length) { ok = false; return null; }
         const tpl = rng.pick(free); usedFrames.add(tpl);
         const freeNames = names.filter((x) => !usedNames.some((u) => u === x || u.slice(0, 4) === x.slice(0, 4)));
@@ -156,6 +163,10 @@ module.exports = {
         if (eq.left < draw.right - 1) fails.push(`${P}: the frame runs into the drawing box`);
       });
       const want = level === 1 ? 'small,small,small' : level === 2 ? 'ten,ten,ten' : 'double,plain,ten';
+      if (level === 2) {   // the ten pair stands in three different places
+        const at = cards.map((c) => { const n = c.dataset.lcsThree.split('|').slice(1, 4).map(Number); return n[0] + n[1] === 10 ? '0,1' : n[0] + n[2] === 10 ? '0,2' : '1,2'; });
+        if (new Set(at).size !== 3) fails.push('the pairs that make ten stand at ' + at.join(' / ') + ': not three different places');
+      }
       if (sorts.slice().sort().join() !== want) fails.push(`level ${level} has the stories ${sorts.join(', ')}`);
       return [...new Set(fails)];
     });

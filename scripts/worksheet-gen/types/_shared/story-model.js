@@ -107,10 +107,12 @@ function makeStoryModelType(o) {
       if (pool.length < d.kinds.length) throw new Error(`${o.id}: theme ${theme}/${loc} has ${pool.length} things to count < ${d.kinds.length}`);
       const names = W.namesFor(loc, false);
       const framesOf = (kind, noun) => {
+        // a thing of the kitchen is told in a place, never in a child's hands (storyFit.HOUSE; teacher-reviewer 2026-11-14)
+        const house = storyFit.HOUSE.has(noun);
         const list = kind === 'part'
-          ? [...PART[loc].place, ...(big ? [] : PART[loc].people)]
-          : isStart(kind) ? [...START[loc][kind].place, ...(big ? [] : START[loc][kind].people)]
-          : [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((big && storyFit.BIG[loc] && storyFit.BIG[loc][kind]) || [])].filter((f) => !big || storyFit.inPlace(f))
+          ? [...PART[loc].place, ...(big || house ? [] : PART[loc].people)]
+          : isStart(kind) ? [...START[loc][kind].place, ...(big || house ? [] : START[loc][kind].people)]
+          : [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((big && storyFit.BIG[loc] && storyFit.BIG[loc][kind]) || [])].filter((f) => !(big || house) || storyFit.inPlace(f))
             // with two-digit numbers nothing falls by itself: 45 figs do not fall off a shelf (native reader 2026-11-13);
             // a take-away story is told with somebody who takes
             .filter((f) => !big || (kind !== 'sub' && kind !== 'subChange') || f.includes('{name}'));

@@ -1,12 +1,12 @@
 {
- "$comment": "Stories with THREE amounts to add (Year pages R, 2026-11-14; 1.OA.A.2 'word problems that call for addition of three whole numbers whose sum is less than or equal to 20'). All three amounts are told ({n1} {n2} {n3}, each 2 to 9), the total is asked. Slots as in word-problems-levelset.json: {noun} {name}, {Q} = how many, agreeing (es, pt, it), {il} = il / elle of the name (fr). The thing is named after the first amount only, so no frame needs a second form of the noun. Read by a native reader (2026-11-14). Only the three-number story page reads this file.",
+ "$comment": "Stories with THREE amounts to add (Year pages R, 2026-11-14; 1.OA.A.2 'word problems that call for addition of three whole numbers whose sum is less than or equal to 20'). All three amounts are told ({n1} {n2} {n3}, each 2 to 9), the total is asked. Slots as in word-problems-levelset.json: {noun} {name}, {Q} = how many, agreeing (es, pt, it), {il} = il / elle of the name (fr). The thing is named after the first amount only, so no frame needs a second form of the noun. Read by a native reader (2026-11-14). The frame with a table, a box and a basket says \"there are\" in de, nl, sv, da and no (no \"lie\": a toy car stands), so it suits every thing. Only the three-number story page reads this file.",
  "en": [
   "There are {n1} {noun} on the table, {n2} in a box, and {n3} in a basket. How many {noun} are there in all?",
   "{name} finds {n1} {noun} in the morning, {n2} after lunch, and {n3} in the evening. How many {noun} does {name} find in all?",
   "{name} has {n1} {noun}. {name} gets {n2} more, and then {n3} more. How many {noun} does {name} have now?"
  ],
  "de": [
-  "Auf dem Tisch liegen {n1} {noun}, in einer Kiste {n2} und in einem Korb {n3}. Wie viele {noun} sind es zusammen?",
+  "Auf dem Tisch sind {n1} {noun}, in einer Kiste {n2} und in einem Korb {n3}. Wie viele {noun} sind es zusammen?",
   "{name} findet am Morgen {n1} {noun}, am Mittag {n2} und am Abend {n3}. Wie viele {noun} findet {name} insgesamt?",
   "{name} hat {n1} {noun}. {name} bekommt erst {n2} dazu und dann noch {n3}. Wie viele {noun} hat {name} jetzt?"
  ],
@@ -31,22 +31,22 @@
   "{name} ha {n1} {noun}. Ne riceve {n2} e poi ancora {n3}. {Q} {noun} ha {name} adesso?"
  ],
  "nl": [
-  "Er liggen {n1} {noun} op tafel, {n2} in een doos en {n3} in een mand. Hoeveel {noun} zijn dat samen?",
+  "Er zijn {n1} {noun} op tafel, {n2} in een doos en {n3} in een mand. Hoeveel {noun} zijn dat samen?",
   "{name} vindt 's ochtends {n1} {noun}, 's middags {n2} en 's avonds {n3}. Hoeveel {noun} vindt {name} in totaal?",
   "{name} heeft {n1} {noun}. {name} krijgt er {n2} bij en daarna nog {n3}. Hoeveel {noun} heeft {name} nu?"
  ],
  "sv": [
-  "Det ligger {n1} {noun} på bordet, {n2} i en låda och {n3} i en korg. Hur många {noun} är det sammanlagt?",
+  "Det finns {n1} {noun} på bordet, {n2} i en låda och {n3} i en korg. Hur många {noun} är det sammanlagt?",
   "{name} hittar {n1} {noun} på morgonen, {n2} efter lunch och {n3} på kvällen. Hur många {noun} hittar {name} sammanlagt?",
   "{name} har {n1} {noun}. {name} får {n2} till och sedan {n3} till. Hur många {noun} har {name} nu?"
  ],
  "da": [
-  "Der ligger {n1} {noun} på bordet, {n2} i en kasse og {n3} i en kurv. Hvor mange {noun} er der i alt?",
+  "Der er {n1} {noun} på bordet, {n2} i en kasse og {n3} i en kurv. Hvor mange {noun} er der i alt?",
   "{name} finder {n1} {noun} om morgenen, {n2} efter frokost og {n3} om aftenen. Hvor mange {noun} finder {name} i alt?",
   "{name} har {n1} {noun}. {name} får {n2} flere og så {n3} flere. Hvor mange {noun} har {name} nu?"
  ],
  "no": [
-  "Det ligger {n1} {noun} på bordet, {n2} i en eske og {n3} i en kurv. Hvor mange {noun} er det til sammen?",
+  "Det er {n1} {noun} på bordet, {n2} i en eske og {n3} i en kurv. Hvor mange {noun} er det til sammen?",
   "{name} finner {n1} {noun} om morgenen, {n2} etter lunsj og {n3} om kvelden. Hvor mange {noun} finner {name} til sammen?",
   "{name} har {n1} {noun}. {name} får {n2} til og så {n3} til. Hvor mange {noun} har {name} nå?"
  ],

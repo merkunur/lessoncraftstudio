@@ -43,7 +43,14 @@ const inPlace = (f) => { const i = f.indexOf('{n1}'); return i > 0 && !f.slice(0
 // what fits where (native reader, 2026-11-13): loose berries are not kept on a shelf; and where the story says the
 // things LIE on a shelf or a table (de liegen, nl liggen, sv / da / no ligger), a thing that stands is told in a box
 const BERRY = new Set(['raspberry', 'blackberry', 'blueberry', 'cherry']);
-const STANDS = new Set(['cup', 'car', 'race_car', 'dinosaur']);
+// (2026-11-14, the Swedish teacher-reviewer of Year pages R: "flaskor ligger inte på en hylla": bottles, plates, cups,
+// toys on wheels, dolls and the like stand or sit; none of the added things is counted past 20, so the two-digit pages
+// keep their draw)
+const STANDS = new Set(['cup', 'car', 'race_car', 'dinosaur', 'bottle', 'glass', 'jar', 'mug', 'teapot', 'teacup', 'plate', 'bowl',
+  'doll', 'robot', 'teddy_bear', 'truck', 'train', 'rocket', 'airplane', 'helicopter', 'boat', 'bucket', 'candle', 'cake', 'pie', 'backpack', 'lunchbox']);
+// things of the kitchen are told in a PLACE (a box, a shelf, a table), never in a child's hands: nobody "has 19 teacups"
+// or "loses 18 plates" (same reviewer). The pages with small numbers ask this; the two-digit pages are place-only anyway.
+const HOUSE = new Set(['bottle', 'bowl', 'cup', 'fork', 'glass', 'jar', 'ladle', 'mug', 'plate', 'spatula', 'spoon', 'teapot', 'teacup', 'whisk']);
 const SHELF = { en: /shelf/, de: /Regal/, es: /estante/, pt: /prateleira/, fr: /étagère/, it: /scaffale/, nl: /plank/, sv: /hylla/, da: /hylde/, no: /hyll[ea]/, fi: /[Hh]ylly/ };
 const LIES_ON = { de: /(Regal|Tisch)/, nl: /(plank|tafel)/, sv: /(hylla|bord)/, da: /(hylde|bord)/, no: /(hyll[ea]|bord)/ };
 const fitsHere = (f, noun, loc) => W.frameFits(f, noun, loc) && !(BERRY.has(noun) && SHELF[loc].test(f)) && !(STANDS.has(noun) && LIES_ON[loc] && LIES_ON[loc].test(f));
@@ -75,7 +82,7 @@ module.exports = {
   difficulty: D,
   LABELS,
   // the rules of fit for stories with two-digit numbers, for the other pages that tell them (types/_shared/story-model.js)
-  storyFit: { inPlace, fitsHere, BIG },
+  storyFit: { inPlace, fitsHere, BIG, HOUSE },
   i18n: { en: { title: 'Story Problems Within 100: Question, Equation, Answer', instruction: 'Read each story. If the question is missing, write it. Then write the equation and the answer.' } },
   levelSetWords(m) { return ((m && m.problems) || []).map((p) => p.vocabKey + ':' + p.frame); },
 
@@ -112,7 +119,7 @@ module.exports = {
       // only stories in which the things lie in a PLACE (the first amount is nobody's): the bank's place frames and
       // the frames written for two-digit numbers
       const all = [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((BIG[loc] || {})[kind] || [])]
-        .filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f) && (d.max || inPlace(f)));
+        .filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f) && (d.max ? (!HOUSE.has(noun.noun) || inPlace(f)) : inPlace(f)));
       const list = all.filter((f) => fitsHere(f, noun.noun, loc));
       if (!list.length) throw new Error(`G2-506: no frame of two sentences for ${kind}/${loc}/${noun.noun}`);
       const free = list.filter((f) => !usedFrames.has(f));

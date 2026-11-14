@@ -16,7 +16,8 @@
  * Where every story has a pair that makes ten (level 2), the pair stands in a different place in each: first and
  * second, first and third, second and third. (A page whose pairs all came first never asked the child to look: adding
  * from left to right used the ten by itself; US teacher-reviewer, 2026-11-14.) A thing of the kitchen is told in a place
- * only (no child finds 7 spoons in the morning), so a kitchen theme has one story frame and is refused.
+ * only (no child finds 7 spoons in the morning), so a page of a kitchen theme tells its three stories in the one
+ * place frame (a table, a box and a basket), with three things and three sets of numbers.
  * The key fills the frame in the order the story tells the numbers and rings the two boxes that make ten or the double.
  * The stories are data/word-problems/three-frames.json (native, read by a native reader); the things are the reviewed
  * noun allow-list of the story-problem engine. Nothing is counted in a picture: one picture of the thing stands beside
@@ -86,7 +87,9 @@ module.exports = {
           .filter((n) => !places || pairOf(n).join() === places[i]);
         if (!all.length) { ok = false; return null; }
         const n = rng.pick(all); drawn.push({ n, sum: n[0] + n[1] + n[2] });
-        const free = FRAMES[loc].filter((f) => !usedFrames.has(f) && W.frameFits(f, nouns[i].noun, loc) && !(storyFit.HOUSE.has(nouns[i].noun) && f.startsWith('{name}')));
+        // (a thing of the kitchen has the one place frame, so a kitchen page tells its stories in it more than once)
+        const house = storyFit.HOUSE.has(nouns[i].noun);
+        const free = FRAMES[loc].filter((f) => (house || !usedFrames.has(f)) && W.frameFits(f, nouns[i].noun, loc) && !(house && f.startsWith('{name}')));
         if (!free.length) { ok = false; return null; }
         const tpl = rng.pick(free); usedFrames.add(tpl);
         const freeNames = names.filter((x) => !usedNames.some((u) => u === x || u.slice(0, 4) === x.slice(0, 4)));

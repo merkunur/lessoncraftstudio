@@ -5027,5 +5027,9 @@
   "G3-493": {
     "title": "Medir com precisão de meio centímetro",
     "instruction": "Cada lápis está sobre a sua própria régua. Escreva o comprimento dele com precisão de meio centímetro. Depois desenhe um X no gráfico para cada lápis e responda às perguntas."
+  },
+  "K-643": {
+    "title": "Quantos são ao todo?",
+    "instruction": "Ouça cada história. Pinte os desenhos como a história diz e deixe o resto em branco. Escreva os números."
   }
 }

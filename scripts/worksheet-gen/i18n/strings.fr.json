@@ -5021,5 +5021,9 @@
   "G3-493": {
     "title": "Mesurer au demi-centimètre près",
     "instruction": "Chaque crayon est posé le long de sa propre règle. Écris sa longueur au demi-centimètre près. Dessine ensuite une croix sur le diagramme pour chaque crayon et réponds aux questions."
+  },
+  "K-643": {
+    "title": "Deux couleurs : combien en tout ?",
+    "instruction": "Écoute chaque histoire. Colorie les dessins comme dans l’histoire et laisse les autres en blanc. Écris les nombres."
   }
 }

@@ -4974,5 +4974,9 @@
   "G3-493": {
     "title": "Mittaa puolen senttimetrin tarkkuudella",
     "instruction": "Jokainen kynä on oman viivaimensa vieressä. Kirjoita kynän pituus puolen senttimetrin tarkkuudella. Piirrä sitten diagrammiin rasti jokaista kynää kohti ja vastaa kysymyksiin."
+  },
+  "K-643": {
+    "title": "Kaksi väriä: montako yhteensä?",
+    "instruction": "Kuuntele jokainen laskutarina. Väritä kuvat tarinan mukaan ja jätä loput valkoisiksi. Kirjoita luvut."
   }
 }

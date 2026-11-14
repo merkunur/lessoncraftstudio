@@ -6823,5 +6823,20 @@
       "no": "Blyantene begynner ikke på 0. Finn lengden på hver blyant med en halv centimeters nøyaktighet: Tell centimeterne fra der blyanten begynner, til der den slutter. Tegn så et kryss i diagrammet for hver blyant og svar på spørsmålene.",
       "fi": "Kynät eivät ala nollasta. Selvitä jokaisen kynän pituus puolen senttimetrin tarkkuudella: laske senttimetrit kynän alusta sen kärkeen. Piirrä sitten diagrammiin rasti jokaista kynää kohti ja vastaa kysymyksiin."
     }
+  },
+  "K-643": {
+    "3": {
+      "en": "Listen to each story. In the box, draw a circle for each one in its color. Write the numbers.",
+      "de": "Hör dir jede Rechengeschichte an. Male im Rahmen für jedes Ding einen Kreis in der richtigen Farbe. Schreib die Zahlen.",
+      "es": "Escucha cada historia. En el recuadro, dibuja un círculo por cada cosa, de su color. Escribe los números.",
+      "pt": "Ouça cada história. No espaço, desenhe uma bolinha para cada coisa, com a cor dela. Escreva os números.",
+      "fr": "Écoute chaque histoire. Dans le cadre, dessine un rond pour chaque objet, de sa couleur. Écris les nombres.",
+      "it": "Ascolta ogni storia. Nel riquadro disegna un cerchio per ogni cosa, del suo colore. Scrivi i numeri.",
+      "nl": "Luister naar elk rekenverhaal. Teken in het vak een rondje voor elk ding, in de goede kleur. Schrijf de getallen.",
+      "sv": "Lyssna på varje räknesaga. Rita en ring i rutan för varje sak, i rätt färg. Skriv talen.",
+      "da": "Lyt til hver regnehistorie. Tegn en cirkel i feltet for hver ting, i den rigtige farve. Skriv tallene.",
+      "no": "Lytt til hver regnefortelling. Tegn en ring i ruta for hver ting, i riktig farge. Skriv tallene.",
+      "fi": "Kuuntele jokainen laskutarina. Piirrä ruutuun jokaisesta yksi ympyrä oikealla värillä. Kirjoita luvut."
+    }
   }
 }

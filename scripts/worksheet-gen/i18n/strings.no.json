@@ -5021,5 +5021,9 @@
   "G3-493": {
     "title": "Mål i halve centimeter",
     "instruction": "Hver blyant ligger ved sin egen linjal. Skriv lengden med en halv centimeters nøyaktighet. Tegn så et kryss i diagrammet for hver blyant og svar på spørsmålene."
+  },
+  "K-643": {
+    "title": "Hvor mange er det til sammen?",
+    "instruction": "Lytt til hver regnefortelling. Fargelegg bildene slik fortellingen sier, og la resten være hvite. Skriv tallene."
   }
 }

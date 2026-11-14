@@ -3,7 +3,7 @@
  * Renders given page types at every level, in given languages and for several draws, and prints what the page's own
  * check and the lints say. A dev tool for a new type before its waves are built.
  *
- *   node tools/level-set/probe-types.js --types=G3-491,G3-492 [--locales=en,de,fi] [--seeds=3] [--levels=1,2,3] [--keep]
+ *   node tools/level-set/probe-types.js --types=G3-491,G3-492 [--locales=en,de,fi] [--seeds=3] [--levels=1,2,3] [--theme="toys bw"] [--keep]
  *
  * Pictures and PDFs go to out/probe/ (deleted at the end unless --keep).
  */
@@ -21,6 +21,7 @@ const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SEEDS = Number(arg('seeds', 3));
 const LEVELS = arg('levels', '1,2,3').split(',').map(Number);
 const KEEP = process.argv.includes('--keep');
+const THEME = arg('theme', null);   // a themed type: the theme its pages are drawn on (2026-11-14)
 const OUT = path.join(__dirname, '..', '..', 'out', 'probe');
 
 (async () => {
@@ -37,7 +38,7 @@ const OUT = path.join(__dirname, '..', '..', 'out', 'probe');
           const tag = `${id} ${locale} L${difficulty} #${v}`;
           try {
             const strings = withLevelInstruction(resolveStrings(id, locale, spec), id, difficulty, locale);
-            const r = await renderInstance({ type: spec, theme: null, difficulty, locale, variant: v, seedVariant: v + 1, page, outDir: OUT, baseName: `${id}-${locale}-L${difficulty}-${v}`, strings });
+            const r = await renderInstance({ type: spec, theme: THEME, difficulty, locale, variant: v, seedVariant: v + 1, page, outDir: OUT, baseName: `${id}-${locale}-L${difficulty}-${v}`, strings });
             const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
             if (fails.length) { bad++; console.log('FAIL  ' + tag + ': ' + fails.slice(0, 6).join(' · ')); }
           } catch (e) { bad++; console.log('ERROR ' + tag + ': ' + e.message); }

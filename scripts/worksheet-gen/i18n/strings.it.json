@@ -5008,5 +5008,9 @@
   "G3-493": {
     "title": "Misurare con la precisione del mezzo centimetro",
     "instruction": "Ogni matita è appoggiata al suo righello. Scrivi la sua lunghezza con la precisione del mezzo centimetro. Poi disegna una X sul grafico per ogni matita e rispondi alle domande."
+  },
+  "K-643": {
+    "title": "Quanti sono in tutto?",
+    "instruction": "Ascolta ogni storia. Colora i disegni come dice la storia e lascia bianchi gli altri. Scrivi i numeri."
   }
 }

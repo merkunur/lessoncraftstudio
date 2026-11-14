@@ -1,0 +1,126 @@
+{
+  "$comment": "PUT-TOGETHER stories in TWO COLORS (Year pages Z, 2026-11-14; K.OA.A.2 'put together, total unknown', de 'zusammenfügen', sv 'del-del-helhet'): one thing in two colors, nothing moves (nobody gives, takes or comes), and the question asks for all of them. Read by types/_shared/two-kinds.js. Slots: {n1} {n2} the two amounts, {noun} the thing (its plural; fi: the partitive singular after a numeral), {c1} {c2} the two color words in the form the frame needs (`colors`: one form, or m / f where the word agrees with the noun's gender), {name} a child, {Q} the 'how many' that agrees with the noun (es, pt, it), {il} the pronoun of {name} (fr), {verb} the posture verb of the thing (nl: liggen / staan / zitten, `verbs`). Frames carry a place tag: shelf, box, table, people (what a child has; fi has none: a Finnish name would need the adessive case), garden (only butterflies and flowers, which never sit in a box). `nouns`: a plural this page prints instead of the vocabulary's (a word children use: en presents, nl belletjes, no skåler; de Windrädchen, not the wind turbines). `eq`: the two words of the frame under a story where children do not write + and = yet (fr grande section, nl groep 2, da 0. klasse, fi esiopetus; native and teaching review 2026-11-14); the others write _ + _ = _. `fiForms`: Finnish partitives the story bank's tables do not carry.",
+  "en": {
+    "colors": { "red": "red", "blue": "blue", "yellow": "yellow", "green": "green" },
+    "frames": [
+      { "t": "shelf", "s": "On the shelf there are {n1} {c1} {noun} and {n2} {c2} {noun}. How many {noun} are on the shelf?" },
+      { "t": "box", "s": "In the box there are {n1} {c1} {noun} and {n2} {c2} {noun}. How many {noun} are in the box?" },
+      { "t": "table", "s": "On the table there are {n1} {c1} {noun} and {n2} {c2} {noun}. How many {noun} are on the table?" },
+      { "t": "people", "s": "{name} has {n1} {c1} {noun} and {n2} {c2} {noun}. How many {noun} does {name} have?" },
+      { "t": "garden", "s": "In the garden there are {n1} {c1} {noun} and {n2} {c2} {noun}. How many {noun} are in the garden?" }
+    ],
+    "nouns": { "t-shirt": "T-shirts", "gift": "presents" }
+  },
+  "de": {
+    "colors": { "red": "rote", "blue": "blaue", "yellow": "gelbe", "green": "grüne" },
+    "frames": [
+      { "t": "shelf", "s": "Auf dem Regal sind {n1} {c1} {noun} und {n2} {c2} {noun}. Wie viele {noun} sind auf dem Regal?" },
+      { "t": "box", "s": "In der Kiste sind {n1} {c1} {noun} und {n2} {c2} {noun}. Wie viele {noun} sind in der Kiste?" },
+      { "t": "table", "s": "Auf dem Tisch sind {n1} {c1} {noun} und {n2} {c2} {noun}. Wie viele {noun} sind auf dem Tisch?" },
+      { "t": "people", "s": "{name} hat {n1} {c1} {noun} und {n2} {c2} {noun}. Wie viele {noun} hat {name}?" },
+      { "t": "garden", "s": "Im Garten sind {n1} {c1} {noun} und {n2} {c2} {noun}. Wie viele {noun} sind im Garten?" }
+    ],
+    "nouns": { "pinwheel": "Windrädchen" }
+  },
+  "es": {
+    "colors": { "red": { "m": "rojos", "f": "rojas" }, "blue": "azules", "yellow": { "m": "amarillos", "f": "amarillas" }, "green": "verdes" },
+    "frames": [
+      { "t": "shelf", "s": "En el estante hay {n1} {noun} {c1} y {n2} {noun} {c2}. ¿{Q} {noun} hay en el estante?" },
+      { "t": "box", "s": "En la caja hay {n1} {noun} {c1} y {n2} {noun} {c2}. ¿{Q} {noun} hay en la caja?" },
+      { "t": "table", "s": "En la mesa hay {n1} {noun} {c1} y {n2} {noun} {c2}. ¿{Q} {noun} hay en la mesa?" },
+      { "t": "people", "s": "{name} tiene {n1} {noun} {c1} y {n2} {noun} {c2}. ¿{Q} {noun} tiene {name}?" },
+      { "t": "garden", "s": "En el jardín hay {n1} {noun} {c1} y {n2} {noun} {c2}. ¿{Q} {noun} hay en el jardín?" }
+    ]
+  },
+  "pt": {
+    "colors": { "red": { "m": "vermelhos", "f": "vermelhas" }, "blue": "azuis", "yellow": { "m": "amarelos", "f": "amarelas" }, "green": "verdes" },
+    "frames": [
+      { "t": "shelf", "s": "Na prateleira há {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} há na prateleira?" },
+      { "t": "box", "s": "Na caixa há {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} há na caixa?" },
+      { "t": "table", "s": "Na mesa há {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} há na mesa?" },
+      { "t": "people", "s": "{name} tem {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} {name} tem?" },
+      { "t": "garden", "s": "No jardim há {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} há no jardim?" }
+    ]
+  },
+  "fr": {
+    "colors": { "red": "rouges", "blue": { "m": "bleus", "f": "bleues" }, "yellow": "jaunes", "green": { "m": "verts", "f": "vertes" } },
+    "frames": [
+      { "t": "shelf", "s": "Sur l'étagère, il y a {n1} {noun} {c1} et {n2} {noun} {c2}. Combien de {noun} y a-t-il sur l'étagère ?" },
+      { "t": "box", "s": "Dans la boîte, il y a {n1} {noun} {c1} et {n2} {noun} {c2}. Combien de {noun} y a-t-il dans la boîte ?" },
+      { "t": "table", "s": "Sur la table, il y a {n1} {noun} {c1} et {n2} {noun} {c2}. Combien de {noun} y a-t-il sur la table ?" },
+      { "t": "people", "s": "{name} a {n1} {noun} {c1} et {n2} {noun} {c2}. Combien de {noun} a-t-{il} ?" },
+      { "t": "garden", "s": "Dans le jardin, il y a {n1} {noun} {c1} et {n2} {noun} {c2}. Combien de {noun} y a-t-il dans le jardin ?" }
+    ],
+    "eq": ["et", ", ça fait"]
+  },
+  "it": {
+    "colors": { "red": { "m": "rossi", "f": "rosse" }, "blue": "blu", "yellow": { "m": "gialli", "f": "gialle" }, "green": "verdi" },
+    "frames": [
+      { "t": "shelf", "s": "Sullo scaffale ci sono {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} ci sono sullo scaffale?" },
+      { "t": "box", "s": "Nella scatola ci sono {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} ci sono nella scatola?" },
+      { "t": "table", "s": "Sul tavolo ci sono {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} ci sono sul tavolo?" },
+      { "t": "people", "s": "{name} ha {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} ha {name}?" },
+      { "t": "garden", "s": "In giardino ci sono {n1} {noun} {c1} e {n2} {noun} {c2}. {Q} {noun} ci sono in giardino?" }
+    ]
+  },
+  "nl": {
+    "colors": { "red": "rode", "blue": "blauwe", "yellow": "gele", "green": "groene" },
+    "frames": [
+      { "t": "shelf", "s": "Op de plank {verb} {n1} {c1} {noun} en {n2} {c2} {noun}. Hoeveel {noun} {verb} er op de plank?" },
+      { "t": "box", "s": "In de doos zitten {n1} {c1} {noun} en {n2} {c2} {noun}. Hoeveel {noun} zitten er in de doos?" },
+      { "t": "table", "s": "Op tafel {verb} {n1} {c1} {noun} en {n2} {c2} {noun}. Hoeveel {noun} {verb} er op tafel?" },
+      { "t": "people", "s": "{name} heeft {n1} {c1} {noun} en {n2} {c2} {noun}. Hoeveel {noun} heeft {name}?" },
+      { "t": "garden", "s": "In de tuin {verb} {n1} {c1} {noun} en {n2} {c2} {noun}. Hoeveel {noun} {verb} er in de tuin?" }
+    ],
+    "verbs": {
+      "liggen": "cap hat shirt sock t-shirt bow ornament stocking kite egg gift umbrella donut lollipop bell rocket pinwheel",
+      "staan": "bottle bowl plate teacup cup candle bucket flower cupcake muffin",
+      "zitten": "butterfly"
+    },
+    "nouns": { "bell": "belletjes" },
+    "eq": ["en", "is samen"]
+  },
+  "sv": {
+    "colors": { "red": "röda", "blue": "blå", "yellow": "gula", "green": "gröna" },
+    "frames": [
+      { "t": "shelf", "s": "På hyllan finns det {n1} {c1} {noun} och {n2} {c2} {noun}. Hur många {noun} finns det på hyllan?" },
+      { "t": "box", "s": "I lådan finns det {n1} {c1} {noun} och {n2} {c2} {noun}. Hur många {noun} finns det i lådan?" },
+      { "t": "table", "s": "På bordet finns det {n1} {c1} {noun} och {n2} {c2} {noun}. Hur många {noun} finns det på bordet?" },
+      { "t": "people", "s": "{name} har {n1} {c1} {noun} och {n2} {c2} {noun}. Hur många {noun} har {name}?" },
+      { "t": "garden", "s": "I trädgården finns det {n1} {c1} {noun} och {n2} {c2} {noun}. Hur många {noun} finns det i trädgården?" }
+    ]
+  },
+  "da": {
+    "colors": { "red": "røde", "blue": "blå", "yellow": "gule", "green": "grønne" },
+    "frames": [
+      { "t": "shelf", "s": "På hylden er der {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er der på hylden?" },
+      { "t": "box", "s": "I kassen er der {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er der i kassen?" },
+      { "t": "table", "s": "På bordet er der {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er der på bordet?" },
+      { "t": "people", "s": "{name} har {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} har {name}?" },
+      { "t": "garden", "s": "I haven er der {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er der i haven?" }
+    ],
+    "eq": ["og", "er i alt"]
+  },
+  "no": {
+    "colors": { "red": "røde", "blue": "blå", "yellow": "gule", "green": "grønne" },
+    "frames": [
+      { "t": "shelf", "s": "På hylla er det {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er det på hylla?" },
+      { "t": "box", "s": "I eska er det {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er det i eska?" },
+      { "t": "table", "s": "På bordet er det {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er det på bordet?" },
+      { "t": "people", "s": "{name} har {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} har {name}?" },
+      { "t": "garden", "s": "I hagen er det {n1} {c1} {noun} og {n2} {c2} {noun}. Hvor mange {noun} er det i hagen?" }
+    ],
+    "nouns": { "bowl": "skåler", "lollipop": "slikkepinner" }
+  },
+  "fi": {
+    "colors": { "red": "punaista", "blue": "sinistä", "yellow": "keltaista", "green": "vihreää" },
+    "frames": [
+      { "t": "shelf", "s": "Hyllyllä on {n1} {c1} {noun} ja {n2} {c2} {noun}. Kuinka monta {noun} hyllyllä on?" },
+      { "t": "box", "s": "Laatikossa on {n1} {c1} {noun} ja {n2} {c2} {noun}. Kuinka monta {noun} laatikossa on?" },
+      { "t": "table", "s": "Pöydällä on {n1} {c1} {noun} ja {n2} {c2} {noun}. Kuinka monta {noun} pöydällä on?" },
+      { "t": "garden", "s": "Puutarhassa on {n1} {c1} {noun} ja {n2} {c2} {noun}. Kuinka monta {noun} puutarhassa on?" }
+    ],
+    "fiForms": { "pinwheel": "tuulihyrrää", "t-shirt": "T-paitaa", "teacup": "teekuppia", "bow": "rusettia", "stocking": "joulusukkaa", "pencil": "lyijykynää", "crayon": "vahaliitua", "gift": "lahjaa", "cupcake": "kuppikakkua" },
+    "eq": ["ja", "on yhteensä"]
+  }
+}

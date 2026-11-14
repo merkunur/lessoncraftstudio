@@ -5002,5 +5002,9 @@
   "G3-493": {
     "title": "Mål i halve centimeter",
     "instruction": "Hver blyant ligger ved sin egen lineal. Skriv længden med en halv centimeters nøjagtighed. Sæt så et kryds i diagrammet for hver blyant, og svar på spørgsmålene."
+  },
+  "K-643": {
+    "title": "Hvor mange er der i alt?",
+    "instruction": "Lyt til hver regnehistorie. Farvelæg billederne, som historien siger, og lad resten være hvide. Skriv tallene."
   }
 }

@@ -252,4 +252,4 @@ function fillLegacy(tpl, slots, loc, vocabKey) {
   return loc === 'fr' ? frElide(out) : loc === 'it' ? itEuphony(out) : out;
 }
 
-module.exports = { fillLegacy, ALLOW, THEMES, nounsFor, framesFor, namesFor, fill, frElide, itEuphony, quantWord, drawG1, g1Answer, iconImg, changeStrip, compareStrip, writeBox, fillAnswerBoxes, frameFits, maxFor, newFrame, CORAL, TEAL, INK, LS };
+module.exports = { fillLegacy, ALLOW, THEMES, nounsFor, fiForm, framesFor, namesFor, fill, frElide, itEuphony, quantWord, drawG1, g1Answer, iconImg, changeStrip, compareStrip, writeBox, fillAnswerBoxes, frameFits, maxFor, newFrame, CORAL, TEAL, INK, LS };

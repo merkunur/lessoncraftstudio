@@ -4976,5 +4976,9 @@
   "G3-493": {
     "title": "Mät i halva centimeter",
     "instruction": "Varje penna ligger vid sin egen linjal. Skriv längden med en halv centimeters noggrannhet. Rita sedan ett kryss i diagrammet för varje penna och svara på frågorna."
+  },
+  "K-643": {
+    "title": "Hur många är det tillsammans?",
+    "instruction": "Lyssna på varje räknesaga. Färglägg bilderna som sagan säger och lämna resten vita. Skriv talen."
   }
 }

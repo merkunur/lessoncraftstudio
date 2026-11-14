@@ -502,7 +502,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Sort into three groups"
         }
        ]
@@ -639,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 50
+    "lessons": 51
    },
    "groups": [
     {
@@ -1049,6 +1049,13 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Measure length with squares"
+        },
+        {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "No gaps, no overlaps"
         }
        ]
       },
@@ -1089,21 +1096,21 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Sort into three groups"
         },
         {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Sort, count, and read a picture graph"
         },
         {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Read and make a bar graph"
         }
        ]
@@ -1150,7 +1157,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 8,
+         "n": 9,
          "title": "Equal shares: fair or not?"
         }
        ]
@@ -1177,10 +1184,10 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 23,
+    "taught": 24,
     "near": 2,
-    "open": 3,
-    "lessons": 55
+    "open": 2,
+    "lessons": 57
    },
    "groups": [
     {
@@ -1537,6 +1544,20 @@
        ]
       },
       {
+       "code": "2.MD.A.2",
+       "state": "taught",
+       "text": "Children measure the same object twice, with a longer and a shorter unit (paper clips and cubes or craft sticks, then inches and centimeters), and tell why the smaller unit gives the larger number.",
+       "lessons": [
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Same length, two units"
+        }
+       ]
+      },
+      {
        "code": "2.MD.A.3",
        "state": "taught",
        "text": "Children estimate lengths in inches, feet, centimeters, and meters with benchmarks they know, then measure and compare the estimate with the measurement.",
@@ -1545,7 +1566,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "Estimate, then measure"
         }
        ]
@@ -1559,7 +1580,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "How much longer?"
         }
        ]
@@ -1594,7 +1615,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 4,
+         "n": 5,
          "title": "Tell time to the nearest five minutes"
         }
        ]
@@ -1615,14 +1636,14 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Count mixed coins"
         },
         {
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 7,
+         "n": 8,
          "title": "Shopping with money"
         }
        ]
@@ -1639,6 +1660,13 @@
          "unitGrade": "2",
          "n": 4,
          "title": "Read a line plot"
+        },
+        {
+         "unit": "graphs-and-grids-grade-2-unit",
+         "unitTitle": "Graphs and Grids",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Measure and make a line plot"
         }
        ]
       },
@@ -1651,7 +1679,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Read and make a bar graph"
         },
         {
@@ -1672,7 +1700,6 @@
       }
      ],
      "open": [
-      "2.MD.A.2",
       "2.MD.B.5"
      ]
     },
@@ -1753,7 +1780,7 @@
     "taught": 28,
     "near": 1,
     "open": 5,
-    "lessons": 49
+    "lessons": 50
    },
    "groups": [
     {
@@ -2200,7 +2227,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Each picture counts as two"
         },
         {
@@ -2224,6 +2251,13 @@
          "unitGrade": "3",
          "n": 5,
          "title": "A line plot with halves"
+        },
+        {
+         "unit": "shapes-and-data-grade-3-unit",
+         "unitTitle": "Shapes and Data",
+         "unitGrade": "3",
+         "n": 6,
+         "title": "Measure to the nearest quarter inch"
         }
        ]
       },
@@ -3849,7 +3883,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Sort into three groups"
         }
        ]
@@ -3863,7 +3897,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Sort, count, and read a picture graph"
         }
        ]
@@ -3906,7 +3940,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 63
+    "lessons": 65
    },
    "groups": [
     {
@@ -4209,7 +4243,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Count mixed coins"
         }
        ]
@@ -4230,7 +4264,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Count mixed coins"
         }
        ]
@@ -4538,13 +4572,27 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Measure length with squares"
+        },
+        {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "No gaps, no overlaps"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Same length, two units"
         }
        ]
       },
       {
        "code": "1.7.D",
        "state": "taught",
-       "text": "Children measure the length of an object by counting the unit squares under it, and put three objects in order from shortest to longest.",
+       "text": "Children measure a length by laying paper clips end to end from one end to the other with no gaps and no overlaps, and find the mistakes in rows of clips that were laid wrong.",
        "lessons": [
         {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
@@ -4552,6 +4600,20 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Measure length with squares"
+        },
+        {
+         "unit": "shapes-measuring-and-graphs-grade-1-unit",
+         "unitTitle": "Shapes, Measuring, and Graphs",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "No gaps, no overlaps"
+        },
+        {
+         "unit": "measurement-time-and-money-grade-2-unit",
+         "unitTitle": "Measurement, Time, and Money",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Same length, two units"
         }
        ]
       },
@@ -4603,7 +4665,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Sort, count, and read a picture graph"
         }
        ]
@@ -4617,7 +4679,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Read and make a bar graph"
         },
         {
@@ -4638,14 +4700,14 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 5,
+         "n": 6,
          "title": "Sort, count, and read a picture graph"
         },
         {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 6,
+         "n": 7,
          "title": "Read and make a bar graph"
         },
         {
@@ -4840,7 +4902,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 8,
+         "n": 9,
          "title": "Equal shares: fair or not?"
         },
         {
@@ -4875,7 +4937,7 @@
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
-         "n": 8,
+         "n": 9,
          "title": "Equal shares: fair or not?"
         },
         {
@@ -5010,7 +5072,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Count mixed coins"
         }
        ]
@@ -5162,7 +5224,7 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "How much longer?"
         }
        ]
@@ -5176,14 +5238,14 @@
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 2,
+         "n": 3,
          "title": "Estimate, then measure"
         },
         {
          "unit": "measurement-time-and-money-grade-2-unit",
          "unitTitle": "Measurement, Time, and Money",
          "unitGrade": "2",
-         "n": 3,
+         "n": 4,
          "title": "How much longer?"
         }
        ]
@@ -5259,7 +5321,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Each picture counts as two"
         }
        ]
@@ -5319,7 +5381,7 @@
     "taught": 30,
     "near": 2,
     "open": 21,
-    "lessons": 50
+    "lessons": 51
    },
    "groups": [
     {
@@ -5968,6 +6030,13 @@
          "unitGrade": "3",
          "n": 5,
          "title": "A line plot with halves"
+        },
+        {
+         "unit": "shapes-and-data-grade-3-unit",
+         "unitTitle": "Shapes and Data",
+         "unitGrade": "3",
+         "n": 6,
+         "title": "Measure to the nearest quarter inch"
         }
        ]
       },
@@ -6061,7 +6130,7 @@
          "unit": "graphs-and-grids-grade-2-unit",
          "unitTitle": "Graphs and Grids",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Each picture counts as two"
         },
         {

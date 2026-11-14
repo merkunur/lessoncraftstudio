@@ -4427,7 +4427,8 @@
     "G3-493"
    ],
    "families": [
-    "graphing-data"
+    "graphing-data",
+    "measurement"
    ],
    "activities": [
     "line-plot.read.2-md-d-9"

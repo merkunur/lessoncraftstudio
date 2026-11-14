@@ -5335,8 +5335,8 @@
    "subject": "math",
    "title": "Shapes, Measuring, and Graphs",
    "metaTitle": "Grade 1 Math Lesson Plans: Shapes, Measuring, and Graphs",
-   "metaDescription": "A five-week Grade 1 math unit: 8 lessons on shapes, tangram puzzles, measuring length, sorting, picture and bar graphs, patterns, and halves and fourths.",
-   "days": 24,
+   "metaDescription": "A five-week Grade 1 math unit: 9 lessons on shapes, tangram puzzles, measuring length with no gaps, sorting, picture and bar graphs, patterns, and halves and fourths.",
+   "days": 26,
    "weeks": 5,
    "lessons": [
     {
@@ -5516,6 +5516,45 @@
     },
     {
      "n": 4,
+     "point": "1:measure-length-units",
+     "title": "No gaps, no overlaps",
+     "objective": "Children measure a length by laying paper clips end to end from one end to the other with no gaps and no overlaps, and find the mistakes in rows of clips that were laid wrong.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.MD.A.2",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-574",
+       "title": "No Gaps, No Overlaps",
+       "core": "measurement-g1574",
+       "easy": "measurement-easy-g1574-6",
+       "hard": "measurement-hard-g1574-11"
+      }
+     ],
+     "id": "1:measure-length-units#no-gaps-no-overlaps",
+     "tool": {
+      "key": "measurement-bench",
+      "slug": "measurement-bench",
+      "name": "Measurement Bench"
+     },
+     "exit": {
+      "slug": "measurement-g1574-2",
+      "title": "No Gaps, No Overlaps"
+     },
+     "note": {
+      "mistake": "Children leave gaps between the clips or let them overlap, and still count every clip. Others start the row a little way in from one end of the object, or stop before the other end. Many think any row of clips gives the length, no matter how it is laid.",
+      "words": "On the Measurement Bench (sound on), choose Length and lay paper clips from one end of the object to the other, but leave gaps. Tap \"Count.\" The bench pushes the clips together and says aloud that part of the object is not covered yet. \"Why does it need more clips?\" Add clips and count again. Then lay a pencil under the document camera and measure it with real paper clips that overlap: \"Is my pencil 6 clips long?\" Agree on the rule and write it on the board: start at one end, use clips of one size, lay them end to end, no gaps, no overlaps, stop at the other end. Then pairs measure three things from their desks and say \"about _ paper clips long.\"",
+      "watch": "On the easier page, four ribbons each have a row of clips: two rows are laid right, one has gaps, and one has overlaps. On the page for everyone, there are six rows, and one wrong row starts late. On the harder page, one wrong row stops short, and the child writes how many clips long the ribbon is only where the clips are laid right. The child fills in the circle next to \"right\" or \"wrong\" and circles every mistake: a row with gaps or overlaps has two, and a row that starts late also runs past the other end. Ask: \"Is the number too big or too small?\" (A row that starts late may show the right number.)"
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "1:sort-three-groups",
      "title": "Sort into three groups",
      "objective": "Children decide where each picture belongs and sort a set of pictures into three groups.",
@@ -5564,7 +5603,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "1:picture-graphs-sort-count",
      "title": "Sort, count, and read a picture graph",
      "objective": "Children count each kind in a mixed set, write the totals in a table, and read how many a picture graph shows in each row.",
@@ -5621,7 +5660,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "1:bar-graphs",
      "title": "Read and make a bar graph",
      "objective": "Children read the number each bar shows and color a bar graph, one box for each one counted.",
@@ -5684,7 +5723,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "1:patterns-missing",
      "title": "Patterns: two are missing",
      "objective": "Children find the part that repeats in a pattern and fill in two missing pictures.",
@@ -5719,7 +5758,7 @@
      "days": 2
     },
     {
-     "n": 8,
+     "n": 9,
      "point": "2:equal-shares-shapes",
      "title": "Equal shares: fair or not?",
      "objective": "Children decide whether a circle or a rectangle is cut into equal shares and circle the shapes that are. With the teacher they name two equal shares halves and four equal shares fourths.",
@@ -7253,8 +7292,8 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A five-week Grade 2 math unit: 7 lessons on measuring with a ruler, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
-   "days": 23,
+   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on measuring with a ruler and in two units, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
+   "days": 25,
    "weeks": 5,
    "lessons": [
     {
@@ -7310,6 +7349,45 @@
     },
     {
      "n": 2,
+     "point": "1:measure-length-units",
+     "title": "Same length, two units",
+     "objective": "Children measure the same object twice, with a longer and a shorter unit (paper clips and cubes or craft sticks, then inches and centimeters), and tell why the smaller unit gives the larger number.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.A.2",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-517",
+       "title": "Same Length, Two Units",
+       "core": "measurement-g2517",
+       "easy": "measurement-easy-g2517-6",
+       "hard": "measurement-hard-g2517-11"
+      }
+     ],
+     "id": "1:measure-length-units#same-length-two-units",
+     "tool": {
+      "key": "unit-handle",
+      "slug": "measure-with-a-changing-unit-length-k2",
+      "name": "The Unit Handle"
+     },
+     "exit": {
+      "slug": "measurement-g2517-2",
+      "title": "Same Length, Two Units"
+     },
+     "note": {
+      "mistake": "Children think the larger number means the longer object, so a ribbon that is 8 cubes long seems longer than the same ribbon measured as 4 paper clips. Others expect the bigger unit to give the bigger number. Some mix the two units in one row.",
+      "words": "On The Unit Handle, one object sits above two tapes of units, each with its own number (a short end piece left over is not counted). \"Both tapes measure the same object.\" Drag the end of the first tile of the top tape to make its unit smaller. \"What happened to the number? Did the object change?\" The number goes up; the object and the other tape stay the same. Make the unit bigger: the number goes down. \"Smaller unit, more of them.\" Then pairs measure a pencil, a book, and a glue stick with a classroom ruler, in inches and in centimeters, and say which number is larger and why.",
+      "watch": "On every page, two ribbons are measured with paper clips and cubes, and two with paper clips and craft sticks; a stick is as long as two clips. On the easier page, two cubes are as long as one clip; on the page for everyone, three. On the harder page, the second row is not finished: the child counts the clips and figures out the other unit (4 clips, 2 cubes under the first clip: 8 cubes; 6 clips: 3 sticks). The child writes both numbers and fills in the circle next to the unit it took more of: the cube on the cube rows, the clip on the stick rows. Have every child say why: \"It took more cubes because a cube is shorter than a paper clip.\""
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "2:estimate-lengths",
      "title": "Estimate, then measure",
      "objective": "Children estimate lengths in inches, feet, centimeters, and meters with benchmarks they know, then measure and compare the estimate with the measurement.",
@@ -7337,7 +7415,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:compare-lengths",
      "title": "How much longer?",
      "objective": "Children measure two objects and find how many units longer one is than the other.",
@@ -7387,7 +7465,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:time-5-min-quarter",
      "title": "Tell time to the nearest five minutes",
      "objective": "Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.",
@@ -7445,7 +7523,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:calendar",
      "title": "Read a calendar",
      "objective": "Children read a month calendar to find the weekday of a date, the date one week later, and the number of days between two dates.",
@@ -7496,7 +7574,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "1:coins",
      "title": "Count mixed coins",
      "objective": "Children count the coins in a purse (quarters, dimes, nickels, and pennies), starting with the coins that are worth the most, and write the total in cents.",
@@ -7548,7 +7626,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "2:shopping-money",
      "title": "Shopping with money",
      "objective": "Children read prices from a shelf, add the prices of the things in a basket, and solve two story problems with those prices.",
@@ -7616,8 +7694,8 @@
    "subject": "math",
    "title": "Graphs and Grids",
    "metaTitle": "Grade 2 Math Lesson Plans: Graphs and Grids",
-   "metaDescription": "A three-week Grade 2 math unit: 5 lessons on making a graph from counts, bar graphs, and line plots, with a first look at picture graphs with a key and at grids.",
-   "days": 15,
+   "metaDescription": "A three-week Grade 2 math unit: 6 lessons on making a graph from counts, bar graphs, reading and making line plots, picture graphs with a key, and grids.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -7817,6 +7895,45 @@
     },
     {
      "n": 5,
+     "point": "2:line-plots",
+     "title": "Measure and make a line plot",
+     "objective": "Children measure pencils to the nearest inch, record ten lengths in a table, and show them as Xs on a line plot.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.D.9",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-516",
+       "title": "Measure and Make a Line Plot",
+       "core": "graphing-data-g2516",
+       "easy": "graphing-data-easy-g2516-6",
+       "hard": "graphing-data-hard-g2516-11"
+      }
+     ],
+     "id": "2:line-plots#measure-and-make-a-line-plot",
+     "tool": {
+      "key": "ruler",
+      "slug": "ruler",
+      "name": "Ruler"
+     },
+     "exit": {
+      "slug": "graphing-data-g2516-2",
+      "title": "Measure and Make a Line Plot"
+     },
+     "note": {
+      "mistake": "Children draw one X for each different length, not one for each pencil, so three 6-inch pencils get only one X. Others stack the Xs unevenly, so a column of three looks taller than a column of four. When they number the line, some skip the lengths nobody measured.",
+      "words": "On the Ruler, set the units to inches and turn off \"Show length.\" Leave the start handle at 0 and drag the end handle; the bar is the object. \"Where does it end? Which inch mark is closest?\" Read to the nearest inch. Then draw a number line from 2 to 9 on the board. Ten children each measure a used pencil to the nearest inch and say its length; draw each X above its number: \"This pencil is 6 inches long. One X above the 6. Another 6: the new X goes on top of the first.\" Ask: \"Which length do we see most often? How can you tell without counting again?\"",
+      "watch": "On the easier page, the ten lengths are printed and the line is numbered: the child draws the Xs, one for each pencil, and answers the questions. On the page for everyone, the child also writes the missing numbers under the line; every tick mark gets a number, even where there will be no X. On the harder page, the table and the line are empty: the child measures ten used pencils with a ruler and numbers the line. Nothing printed on the page is to be measured. Have children cross out each length in the table as they draw its X, and count the Xs at the end: ten. For \"how much longer,\" they count the spaces from the shortest to the longest."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "2:scaled-pictograph",
      "title": "Each picture counts as two",
      "objective": "Children read a pictograph in which each picture stands for 2 and write the real count for each row.",
@@ -11041,9 +11158,9 @@
    "subject": "math",
    "title": "Shapes and Data",
    "metaTitle": "Grade 3 Math Lesson Plans: Shapes and Data",
-   "metaDescription": "A three-week Grade 3 math unit: 5 lessons on right angles, rectangles and squares, scaled graphs, and line plots, with a first look at lines of symmetry.",
-   "days": 16,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 3 math unit: 6 lessons on right angles, rectangles and squares, lines of symmetry, scaled graphs, line plots, and measuring to the quarter inch.",
+   "days": 18,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -11287,6 +11404,45 @@
       "mistake": "Children skip the half marks and read only the whole numbers, moving an X at 2½ to 2 or to 3. They also mix up the measurement under a stack with the number of Xs in it.",
       "words": "Read the line aloud together: \"1, one and a half, 2, two and a half.\" Ask: \"How many things were two and a half units long? Count the Xs above that mark.\" Then: \"How many were longer than 2?\"",
       "watch": "Ask a question whose answer sits on a half mark. A child who answers for the nearest whole number is not yet reading the halves on the line."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "3:line-plot-halves",
+     "title": "Measure to the nearest quarter inch",
+     "objective": "Children measure lengths to the nearest half and quarter inch on a ruler and show the lengths as Xs on a line plot marked in quarters.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.MD.B.4",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-493",
+       "title": "Measure to the Nearest Quarter Inch",
+       "core": "measurement-g3493",
+       "easy": "measurement-easy-g3493-6",
+       "hard": "measurement-hard-g3493-11"
+      }
+     ],
+     "id": "3:line-plot-halves#measure-to-the-quarter-inch",
+     "tool": {
+      "key": "ruler",
+      "slug": "ruler",
+      "name": "Ruler"
+     },
+     "exit": {
+      "slug": "measurement-g3493-2",
+      "title": "Measure to the Nearest Quarter Inch"
+     },
+     "note": {
+      "mistake": "Children count the marks from 0, not the spaces, so every length comes out a quarter inch too long. Others read each small mark as a half (2¼ becomes 2½) or write 2 2/4 for 2½. When a pencil does not start at 0, they write the number where it ends.",
+      "words": "On the Ruler, set the units to inches and turn off \"Show length.\" \"How many small spaces in one inch? Eight. So a quarter inch, one of four equal parts, is two spaces.\" Leave the start handle at 0 and drag the end handle two small spaces past the 2. \"How long is the bar? Two inches and one quarter of an inch: 2¼.\" Turn \"Show length\" on to check: it reads 2 1/4 in. (If it shows eighths, nudge with the arrow keys.) Do 3½ and 1¾ the same way. Then put the end at 3¼, move the start handle to 1, and ask how long the bar is now (2¼). Give each pair a paper strip and a ruler: they measure it to the nearest quarter inch, say how they know, and add an X to a class line plot.",
+      "watch": "On the easier page, six pencils are each lined up with their own ruler, marked in halves; the lengths are whole and half inches; there is no line plot. On the page for everyone, eight pencils lie on rulers marked in quarters (here one space is a quarter, not two); the child writes each length, draws an X for each pencil on the line plot, and answers two questions. On the harder page, the pencils start at the 1 or the 2, and the child counts the inches and quarter inches from where the pencil starts to where it ends (from 1 to 3¼ is 2¼). The rulers are drawn smaller than a real ruler: the child reads the ruler on the page. On the line plot every quarter inch from 1 to 4 has a labeled tick mark; two pencils of the same length make a stack of two Xs."
      },
      "days": 2
     }
@@ -14887,6 +15043,7 @@
       "What makes a shape that shape?",
       "Tangram puzzles",
       "Measure length with squares",
+      "No gaps, no overlaps",
       "Sort into three groups",
       "Sort, count, and read a picture graph",
       "Read and make a bar graph",
@@ -15029,6 +15186,7 @@
      "to": 21,
      "lessons": [
       "Measure with a ruler",
+      "Same length, two units",
       "Estimate, then measure",
       "How much longer?",
       "Tell time to the nearest five minutes",
@@ -15038,6 +15196,7 @@
      ],
      "standards": [
       "2.MD.A.1",
+      "2.MD.A.2",
       "2.MD.A.3",
       "2.MD.A.4",
       "2.MD.C.7",
@@ -15056,9 +15215,11 @@
       "Make a graph from counts",
       "Find a square on a grid",
       "Read a line plot",
+      "Measure and make a line plot",
       "Each picture counts as two"
      ],
      "standards": [
+      "2.MD.D.9",
       "2.MD.D.10"
      ]
     },
@@ -15114,9 +15275,9 @@
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (29 Weeks)",
-   "metaDescription": "8 Grade 3 math units in teaching order, about 29 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 29,
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (30 Weeks)",
+   "metaDescription": "8 Grade 3 math units in teaching order, about 30 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 30,
    "framework": "Common Core",
    "units": [
     {
@@ -15283,19 +15444,21 @@
      "id": "g3-shapes-and-data",
      "slug": "shapes-and-data-grade-3-unit",
      "title": "Shapes and Data",
-     "weeks": 3,
+     "weeks": 4,
      "from": 27,
-     "to": 29,
+     "to": 30,
      "lessons": [
       "Right angles",
       "Is it a rectangle?",
       "How many lines of symmetry?",
       "Graphs with a scale",
-      "A line plot with halves"
+      "A line plot with halves",
+      "Measure to the nearest quarter inch"
      ],
      "standards": [
       "3.G.A.1",
-      "3.MD.B.3"
+      "3.MD.B.3",
+      "3.MD.B.4"
      ]
     }
    ]

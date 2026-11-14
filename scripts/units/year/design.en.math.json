@@ -373,7 +373,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: six pictures of an object with a row of units under it; in three the units are laid right, and in three there is a gap, an overlap, or a row that starts or ends in the wrong place. The child ticks right or wrong and circles the mistake. Bottom half: four objects with empty space under them and a strip of same-size squares to cut out and glue; the child lays the squares end to end and writes \"about _ squares long\". Lengths from 3 to 9 units."
+            "page": "Top half: six pictures of an object with a row of units under it; in three the units are laid right, and in three there is a gap, an overlap, or a row that starts or ends in the wrong place. The child ticks right or wrong and circles the mistake. Bottom half: four objects with empty space under them and a strip of same-size squares to cut out and glue; the child lays the squares end to end and writes \"about _ squares long\". Lengths from 3 to 9 units.",
+            "placed": "1:measure-length-units#no-gaps-no-overlaps"
           },
           {
             "existing": "1:sort-three-groups",
@@ -815,7 +816,8 @@
             "days": 3,
             "tool": "The Unit Handle",
             "source": "new",
-            "page": "A recording page for real things: six rows (pencil, book, desk edge, shoe, glue stick, crayon), each with two boxes, 'about _ inches' and 'about _ centimeters'. Below: three sentences to finish ('I needed more _ than _ because a centimeter is _ than an inch.') and two picture tasks in which one ribbon is measured with a row of long units and a row of short units to count. The child measures the real things with a class ruler, never the pictures."
+            "page": "A recording page for real things: six rows (pencil, book, desk edge, shoe, glue stick, crayon), each with two boxes, 'about _ inches' and 'about _ centimeters'. Below: three sentences to finish ('I needed more _ than _ because a centimeter is _ than an inch.') and two picture tasks in which one ribbon is measured with a row of long units and a row of short units to count. The child measures the real things with a class ruler, never the pictures.",
+            "placed": "1:measure-length-units#same-length-two-units"
           },
           {
             "new": true,
@@ -876,7 +878,8 @@
             "days": 2,
             "tool": "Ruler",
             "source": "new",
-            "page": "A recording page: a table with ten rows (object, length) for ten real things of one kind (ten pencils from the class, ten shoes), an empty number line with twelve tick marks whose numbers the child writes after finding the shortest and the longest, and space for the Xs above it. Three questions follow ('Which length did we find most often? How many are longer than _?'). Nothing printed on the page is to be measured."
+            "page": "A recording page: a table with ten rows (object, length) for ten real things of one kind (ten pencils from the class, ten shoes), an empty number line with twelve tick marks whose numbers the child writes after finding the shortest and the longest, and space for the Xs above it. Three questions follow ('Which length did we find most often? How many are longer than _?'). Nothing printed on the page is to be measured.",
+            "placed": "2:line-plots#measure-and-make-a-line-plot"
           }
         ]
       },
@@ -1359,7 +1362,8 @@
             "days": 2,
             "tool": "Ruler",
             "source": "new",
-            "page": "Top half: eight objects (nails, ribbons, pencils), each drawn directly above its own printed ruler marked in quarter inches, so that printing at another size changes nothing; the child writes each length (2 1/4 in., 3 1/2 in.). Bottom half: an empty line plot from 1 to 4 inches with a tick for every quarter; the child draws one X for each length and answers three questions ('How many are longer than 2 1/2 inches?'). Lengths from 1 to 4 inches."
+            "page": "Top half: eight objects (nails, ribbons, pencils), each drawn directly above its own printed ruler marked in quarter inches, so that printing at another size changes nothing; the child writes each length (2 1/4 in., 3 1/2 in.). Bottom half: an empty line plot from 1 to 4 inches with a tick for every quarter; the child draws one X for each length and answers three questions ('How many are longer than 2 1/2 inches?'). Lengths from 1 to 4 inches.",
+            "placed": "3:line-plot-halves#measure-to-the-quarter-inch"
           },
           {
             "existing": "3:line-plot-halves",

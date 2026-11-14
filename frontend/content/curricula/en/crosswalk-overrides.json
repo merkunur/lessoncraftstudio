@@ -2091,6 +2091,24 @@
    ],
    "why": "The point carries 3.OA.C.7 for its pages on the multiplication facts. Multiply by Tens multiplies a one-digit number by a multiple of ten from 20 to 90 with the facts and place value (4 × 6 tens = 24 tens = 240): 3.NBT.A.3. Each lesson of a unit shows the one it teaches.",
    "review": "year-design 2026-11-14"
+  },
+  "1:measure-length-units": {
+   "rows": [
+    {
+     "id": "1.MD.A.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "1.MD.A.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.MD.A.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point carries 1.MD.A.1 and 1.MD.A.2 for its pages on ordering lengths and measuring with units laid end to end. Same Length, Two Units measures one ribbon with paper clips and with cubes and asks which unit was needed more often: measuring twice with units of different lengths and relating the two numbers to the size of the unit is 2.MD.A.2. Each lesson of a unit shows the one it teaches.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

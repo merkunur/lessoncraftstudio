@@ -1616,7 +1616,8 @@
      "point": "2:line-plots",
      "types": [
       "G2-240"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "2:chance-certain-possible",

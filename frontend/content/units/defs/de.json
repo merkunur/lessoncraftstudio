@@ -675,7 +675,8 @@
      "point": "2:line-plots",
      "types": [
       "G2-240"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "2:scaled-pictograph",
@@ -1256,7 +1257,8 @@
      "point": "3:line-plot-halves",
      "types": [
       "G3-335"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "3:chance-more-likely",

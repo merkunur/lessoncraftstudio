@@ -2798,6 +2798,145 @@
    }
   },
   {
+   "unit": "g2-measurement-time-money",
+   "slug": "measurement-time-and-money-grade-2-unit",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Measure with a ruler",
+     "type": "G2-235",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Same length, two units",
+     "type": "G2-517",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Tell time to the nearest five minutes",
+     "type": "G2-249",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    3,
+    4,
+    6,
+    7,
+    8
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "c5b87d5f283ec957"
+      ],
+      [
+       "249ca2e048f72016"
+      ],
+      [
+       "38c8a821ee7a0a68",
+       "f4bdf131968c33b2"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w ?"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ]
+     ],
+     "sizes": [
+      [
+       10
+      ],
+      [
+       0
+      ],
+      [
+       45,
+       25
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "5a07fe8395bc5818"
+      ],
+      [
+       "b55bb4d8b6078361"
+      ],
+      [
+       "5dc1a713b07005a1",
+       "675f59f6b351c287"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       2,
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w ?"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ]
+     ],
+     "sizes": [
+      [
+       10
+      ],
+      [
+       0
+      ],
+      [
+       40,
+       30
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g2-equal-groups-equal-shares",
    "slug": "equal-groups-and-equal-shares-grade-2-unit",
    "status": "live",

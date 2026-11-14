@@ -67,6 +67,7 @@ module.exports = {
     '1-041': U('two two-digit numbers as rods and cubes, no new ten'),
     '1-042': N('G1-573', 'built: six sums of two two-digit numbers on a tens-and-ones mat with the frame _ tens and _ ones; both numbers drawn at level 1, an empty mat at levels 2 and 3 (Add and Make a New Ten: Tens-and-Ones Mat); the partner sentence of the design is a question the teacher asks', 2),
     '1-043': U('clocks to the hour and half hour matched to digital times', 3),
+    '1-044': N('G1-574', 'built (nothing was close): ribbons with a row of paper clips laid right or wrong (gaps, overlaps, a late start, a row that stops short); the child marks right or wrong, circles every mistake and, on the harder page, writes the number of clips where the row is right (No Gaps, No Overlaps); the squares to cut out and glue of the design are done with real paper clips in class', 2),
     '1-045': U('two pages: circle the shapes cut into equal parts; halves and fourths'),
     // Grade 2
     '2-046': U('level 1 is addition only, across ten', 1),
@@ -86,7 +87,9 @@ module.exports = {
     '2-061': N('G2-502', 'built: subtraction only in columns, three-digit numbers, one regrouping on level 2 and two on level 3', 2),
     '2-062': U('column subtraction across a zero', 3),
     '2-063': U('count mixed coins, largest first'),
+    '2-064': N('G2-517', 'built (nothing was close): one ribbon measured with paper clips and with a second unit, shorter on two rows (cubes) and longer on two (a craft stick); both numbers and the unit it took more of (Same Length, Two Units); the recording of real things in inches and centimeters is done with a class ruler, as the note says', 2),
     '2-066': U('a table of counts and an empty picture graph'),
+    '2-067': N('G2-516', 'built (nothing was close): ten pencil lengths in a table, a number line to number and the Xs to draw, three questions; the harder page is the empty recording page of the design for ten real pencils (Measure and Make a Line Plot)', 2),
     '2-068': N('G2-515', 'built: four rectangles the child divides into rows and columns of same-size squares with a ruler, then _ rows, _ columns and an addition of equal rows; one row and one column drawn at level 1, marks on four sides at level 2, on two sides at level 3; up to 4 rows and 5 columns (Rows and Columns of Squares)', 2),
     // Grade 3
     '3-069': N('G3-483', 'built (nothing was close): an array of squares the child cuts between two rows into two known facts (Break Apart a Hard Fact)', 2),
@@ -100,7 +103,7 @@ module.exports = {
     '3-077': N('G3-490', 'built: figures drawn to scale with every side length but one and the perimeter, an equation with n and the missing side (Perimeter: Find the Missing Side); figures only, the three stories of the design are not on the page', 2),
     '3-078': N('G3-481', 'built: a dot on a number line from 0 to 1, the child writes its fraction; levels 1 and 2 unit fractions only (What Fraction Is the Dot?)', 2),
     '3-079': N('G3-492', 'built (nothing was close): fully shaded whole shapes at level 1, four number lines with the fraction to complete under each whole number at level 2, twelve equations at level 3 (Whole Numbers as Fractions); English only', 2),
-    '3-080': C('readings to the half and the quarter inch'),
+    '3-080': N('G3-493', 'built: pencils on their own printed rulers read to the half and the quarter inch, and a line plot in quarters the child fills with the eight lengths (Measure to the Nearest Quarter Inch); the rulers are drawn smaller than real ones and the page says so', 2),
   },
   de: {
     '1-082': U('eine Zeile je Zahl von 1 bis 5 mit der Ziffer zum Nachspuren', 1),

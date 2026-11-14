@@ -6569,5 +6569,76 @@
       "no": "Omkretsen av hver figur er oppgitt. Skriv en likning med x for den manglende siden. Regn så ut x. I et rektangel er motstående sider like lange.",
       "fi": "Jokaisen kuvion piiri on annettu. Kirjoita yhtälö, jossa x on puuttuva sivu. Laske sitten x. Suorakulmiossa vastakkaiset sivut ovat yhtä pitkät."
     }
+  },
+  "G1-573": {
+    "1": {
+      "en": "Both numbers are drawn on the mat: a stick is a ten, a dot is a one. Circle ten dots and draw one new stick for them. Then write the tens, the ones, and the sum.",
+      "de": "Beide Zahlen sind in die Stellenwerttafel eingezeichnet: Ein Strich ist ein Zehner, ein Punkt ist ein Einer. Kreise zehn Punkte ein und zeichne dafür einen neuen Strich. Schreibe dann die Zehner, die Einer und das Ergebnis auf.",
+      "es": "Los dos números ya están dibujados en el tablero: una barra es una decena y un punto es una unidad. Encierra diez puntos y dibuja una barra nueva en su lugar. Después escribe las decenas, las unidades y el resultado.",
+      "pt": "Os dois números já estão desenhados no quadro: uma barra é uma dezena e um ponto é uma unidade. Circule dez pontos e desenhe uma barra nova no lugar deles. Depois escreva as dezenas, as unidades e o resultado.",
+      "fr": "Les deux nombres sont dessinés dans le tableau : une barre est une dizaine, un point est une unité. Entoure dix points et dessine une nouvelle barre à leur place. Écris ensuite les dizaines, les unités et le résultat.",
+      "it": "I due numeri sono già disegnati nella tabella: una barretta è una decina, un puntino è un'unità. Cerchia dieci puntini e disegna al loro posto una nuova barretta. Poi scrivi le decine, le unità e il risultato.",
+      "nl": "Beide getallen zijn in het schema getekend: een streep is een tiental, een stip is een eenheid. Omcirkel tien stippen en teken er één nieuwe streep voor. Schrijf daarna de tientallen, de eenheden en de uitkomst op.",
+      "sv": "Båda talen är ritade i tabellen: ett streck är ett tiotal och en prick är ett ental. Ringa in tio prickar och rita ett nytt streck för dem. Skriv sedan tiotalen, entalen och summan.",
+      "da": "Begge tal er tegnet i skemaet: en streg er en tier, og en prik er en ener. Sæt ring om ti prikker, og tegn en ny streg for dem. Skriv så tierne, enerne og resultatet.",
+      "no": "Begge tallene er tegnet i tabellen: en strek er en tier, og en prikk er en ener. Sett ring rundt ti prikker og tegn en ny strek for dem. Skriv så tierne, enerne og svaret.",
+      "fi": "Molemmat luvut on piirretty taulukkoon: viiva on kymppi ja piste on ykkönen. Ympyröi kymmenen pistettä ja piirrä niiden tilalle uusi viiva. Kirjoita sitten kympit, ykköset ja summa."
+    },
+    "3": {
+      "en": "Draw both numbers on the mat: a stick for each ten, a dot for each one. If there are ten dots or more, circle ten and draw one new stick for them. Then write the tens, the ones, and the sum.",
+      "de": "Zeichne beide Zahlen in die Stellenwerttafel: einen Strich für jeden Zehner, einen Punkt für jeden Einer. Sind es zehn Punkte oder mehr, kreise zehn ein und zeichne dafür einen neuen Strich. Schreibe dann die Zehner, die Einer und das Ergebnis auf.",
+      "es": "Dibuja los dos números en el tablero: una barra por cada decena y un punto por cada unidad. Si hay diez puntos o más, encierra diez y dibuja una barra nueva en su lugar. Después escribe las decenas, las unidades y el resultado.",
+      "pt": "Desenhe os dois números no quadro: uma barra para cada dezena e um ponto para cada unidade. Se houver dez pontos ou mais, circule dez e desenhe uma barra nova no lugar deles. Depois escreva as dezenas, as unidades e o resultado.",
+      "fr": "Dessine les deux nombres dans le tableau : une barre pour chaque dizaine, un point pour chaque unité. S'il y a dix points ou plus, entoures-en dix et dessine une nouvelle barre à leur place. Écris ensuite les dizaines, les unités et le résultat.",
+      "it": "Disegna i due numeri nella tabella: una barretta per ogni decina, un puntino per ogni unità. Se i puntini sono dieci o più, cerchiane dieci e disegna al loro posto una nuova barretta. Poi scrivi le decine, le unità e il risultato.",
+      "nl": "Teken beide getallen in het schema: een streep voor elk tiental, een stip voor elke eenheid. Zijn er tien stippen of meer? Omcirkel er dan tien en teken er één nieuwe streep voor. Schrijf daarna de tientallen, de eenheden en de uitkomst op.",
+      "sv": "Rita båda talen i tabellen: ett streck för varje tiotal och en prick för varje ental. Om det blir tio prickar eller fler ringar du in tio och ritar ett nytt streck för dem. Skriv sedan tiotalen, entalen och summan.",
+      "da": "Tegn begge tal i skemaet: en streg for hver tier og en prik for hver ener. Er der ti prikker eller flere, sætter du ring om ti og tegner en ny streg for dem. Skriv så tierne, enerne og resultatet.",
+      "no": "Tegn begge tallene i tabellen: en strek for hver tier og en prikk for hver ener. Er det ti prikker eller flere, setter du ring rundt ti og tegner en ny strek for dem. Skriv så tierne, enerne og svaret.",
+      "fi": "Piirrä molemmat luvut taulukkoon: viiva jokaisesta kympistä ja piste jokaisesta ykkösestä. Jos pisteitä on kymmenen tai enemmän, ympyröi kymmenen ja piirrä niiden tilalle uusi viiva. Kirjoita sitten kympit, ykköset ja summa."
+    }
+  },
+  "G2-513": {
+    "3": {
+      "en": "Draw the first number on the mat: a stick for each ten, a dot for each one. Are there enough ones to take away? Mark yes or no. If there are not enough, cross out one stick and draw ten dots for it. Cross out what is taken away and write what is left.",
+      "de": "Zeichne die erste Zahl in die Stellenwerttafel: einen Strich für jeden Zehner, einen Punkt für jeden Einer. Sind es genug Einer zum Wegnehmen? Kreuze ja oder nein an. Wenn es nicht genug sind, streiche einen Strich durch und zeichne dafür zehn Punkte. Streiche durch, was weggenommen wird, und schreibe auf, was übrig bleibt.",
+      "es": "Dibuja el primer número en el tablero: una barra por cada decena y un punto por cada unidad. ¿Alcanzan las unidades para quitar? Marca sí o no. Si no alcanzan, tacha una barra y dibuja diez puntos en su lugar. Tacha lo que se quita y escribe lo que queda.",
+      "pt": "Desenhe o primeiro número no quadro: uma barra para cada dezena e um ponto para cada unidade. Dá para tirar as unidades? Marque sim ou não. Se não der, risque uma barra e desenhe dez pontos no lugar dela. Risque o que é tirado e escreva o que sobra.",
+      "fr": "Dessine le premier nombre dans le tableau : une barre pour chaque dizaine, un point pour chaque unité. Y a-t-il assez d'unités pour soustraire ? Coche oui ou non. S'il n'y en a pas assez, raye une barre et dessine dix points à sa place. Raye ce que tu enlèves et écris ce qui reste.",
+      "it": "Disegna il primo numero nella tabella: una barretta per ogni decina, un puntino per ogni unità. Bastano le unità per togliere? Segna sì o no. Se non bastano, cancella con una X una barretta e disegna al suo posto dieci puntini. Cancella con una X quello che togli e scrivi quello che resta.",
+      "nl": "Teken het eerste getal in het schema: een streep voor elk tiental, een stip voor elke eenheid. Zijn er genoeg eenheden om weg te halen? Kruis ja of nee aan. Zijn het er niet genoeg, zet dan een kruis door één streep en teken er tien stippen voor. Streep door wat eraf gaat en schrijf op wat overblijft.",
+      "sv": "Rita det första talet i tabellen: ett streck för varje tiotal och en prick för varje ental. Räcker entalen till det som ska tas bort? Kryssa för ja eller nej. Om de inte räcker: stryk över ett streck och rita tio prickar för det. Stryk över det som tas bort och skriv det som blir kvar.",
+      "da": "Tegn det første tal i skemaet: en streg for hver tier og en prik for hver ener. Er der enere nok til det, der skal trækkes fra? Sæt kryds ved ja eller nej. Hvis der ikke er nok, sætter du kryds over en streg og tegner ti prikker for den. Streg det over, der trækkes fra, og skriv, hvad der er tilbage.",
+      "no": "Tegn det første tallet i tabellen: en strek for hver tier og en prikk for hver ener. Er det nok enere til det som skal trekkes fra? Sett kryss ved ja eller nei. Hvis det ikke er nok, stryker du over en strek og tegner ti prikker for den. Stryk over det som trekkes fra, og skriv det som er igjen.",
+      "fi": "Piirrä ensimmäinen luku taulukkoon: viiva jokaisesta kympistä ja piste jokaisesta ykkösestä. Riittävätkö ykköset vähentämiseen? Merkitse kyllä tai ei. Jos eivät riitä, yliviivaa yksi viiva ja piirrä sen tilalle kymmenen pistettä. Yliviivaa se, mikä vähennetään, ja kirjoita, mitä jää jäljelle."
+    }
+  },
+  "G2-514": {
+    "1": {
+      "en": "Add the ones first, then the tens. Write the sum in the boxes.",
+      "de": "Addiere zuerst die Einer, dann die Zehner. Schreibe das Ergebnis in die Kästchen.",
+      "es": "Suma primero las unidades y después las decenas. Escribe el resultado en los recuadros.",
+      "pt": "Some primeiro as unidades e depois as dezenas. Escreva o resultado nos quadrinhos.",
+      "fr": "Additionne d'abord les unités, puis les dizaines. Écris le résultat dans les cases.",
+      "it": "Somma prima le unità, poi le decine. Scrivi il risultato nelle caselle.",
+      "nl": "Tel eerst de eenheden op en dan de tientallen. Schrijf de uitkomst in de vakjes.",
+      "sv": "Addera först entalen och sedan tiotalen. Skriv summan i rutorna.",
+      "da": "Læg først enerne sammen og så tierne. Skriv resultatet i felterne.",
+      "no": "Legg først sammen enerne og så tierne. Skriv svaret i rutene.",
+      "fi": "Laske ensin ykköset yhteen ja sitten kympit. Kirjoita summa ruutuihin."
+    },
+    "3": {
+      "en": "Add the ones first. Write the new tens in the small box above the tens. Then add the tens.",
+      "de": "Addiere zuerst die Einer. Schreibe die neuen Zehner in das kleine Kästchen bei den Zehnern. Addiere dann die Zehner.",
+      "es": "Suma primero las unidades. Escribe las nuevas decenas en el recuadro pequeño que está arriba de las decenas. Después suma las decenas.",
+      "pt": "Some primeiro as unidades. Escreva as novas dezenas no quadrinho pequeno acima das dezenas. Depois some as dezenas.",
+      "fr": "Additionne d'abord les unités. Écris les nouvelles dizaines dans la petite case au-dessus des dizaines. Additionne ensuite les dizaines.",
+      "it": "Somma prima le unità. Scrivi le nuove decine nella casella piccola sopra le decine. Poi somma le decine.",
+      "nl": "Tel eerst de eenheden op. Schrijf de nieuwe tientallen in het kleine vakje boven de tientallen. Tel daarna de tientallen op.",
+      "sv": "Addera först entalen. Skriv de nya tiotalen i den lilla rutan ovanför tiotalen. Addera sedan tiotalen.",
+      "da": "Læg først enerne sammen. Skriv de nye tiere i det lille felt over tierne. Læg så tierne sammen.",
+      "no": "Legg først sammen enerne. Skriv de nye tierne i den lille ruten over tierne. Legg så sammen tierne.",
+      "fi": "Laske ensin ykköset yhteen. Kirjoita uudet kympit pieneen ruutuun kymppien yläpuolelle. Laske sitten kympit yhteen."
+    }
   }
 }

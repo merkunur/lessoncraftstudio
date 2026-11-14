@@ -2758,6 +2758,7 @@
    "skill": "Add two groups of base-ten blocks within 1000 and write the total",
    "code": "2.NBT.B.7",
    "types": [
+    "G1-573",
     "G2-203"
    ],
    "families": [
@@ -2782,7 +2783,8 @@
    "skill": "Take away base-ten blocks within 1000",
    "code": "2.NBT.B.7",
    "types": [
-    "G2-205"
+    "G2-205",
+    "G2-513"
    ],
    "families": [
     "base-ten"
@@ -2813,7 +2815,8 @@
     "G2-258",
     "G2-259",
     "G2-397",
-    "G2-502"
+    "G2-502",
+    "G2-514"
    ],
    "families": [
     "column-arithmetic"

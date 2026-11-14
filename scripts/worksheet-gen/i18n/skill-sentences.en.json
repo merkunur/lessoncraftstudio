@@ -33,7 +33,8 @@
   },
   "base-ten": {
     "full": "Base ten blocks turn abstract place value into something children can see and count — hundreds, tens and ones at a glance.",
-    "short": "Makes place value concrete with hundreds, tens and ones."
+    "short": "Makes place value concrete with hundreds, tens and ones.",
+    "levelSetShort": "Makes place value concrete."
   },
   "telling-time": {
     "full": "Reading analog clocks to the hour, half hour and five minutes builds a life skill children are proud to master.",

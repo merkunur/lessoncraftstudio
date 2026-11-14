@@ -4987,5 +4987,17 @@
   "G3-490": {
     "title": "Perímetro: descubra o lado que falta",
     "instruction": "O perímetro de cada figura é dado. Escreva uma equação com x para o lado que falta. Depois calcule x."
+  },
+  "G1-573": {
+    "title": "Adição com reagrupamento: quadro de dezenas e unidades",
+    "instruction": "Desenhe os dois números no quadro: uma barra para cada dezena e um ponto para cada unidade. Circule dez pontos e desenhe uma barra nova no lugar deles. Depois escreva as dezenas, as unidades e o resultado."
+  },
+  "G2-513": {
+    "title": "Subtração com desagrupamento: quadro de dezenas e unidades",
+    "instruction": "O primeiro número está desenhado no quadro. Dá para tirar as unidades? Marque sim ou não. Se não der, risque uma barra e desenhe dez pontos no lugar dela. Risque o que é tirado e escreva o que sobra."
+  },
+  "G2-514": {
+    "title": "Adição de três e quatro números de dois algarismos",
+    "instruction": "Some primeiro as unidades. Procure nas unidades dois algarismos que somem dez. Escreva a nova dezena no quadrinho pequeno acima das dezenas. Depois some as dezenas."
   }
 }

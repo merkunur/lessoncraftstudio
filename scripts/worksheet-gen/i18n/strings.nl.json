@@ -4982,5 +4982,17 @@
   "G3-490": {
     "title": "Omtrek: zoek de ontbrekende zijde",
     "instruction": "Van elke figuur is de omtrek gegeven. Schrijf een som met x voor de ontbrekende zijde. Reken daarna x uit."
+  },
+  "G1-573": {
+    "title": "Optellen over het tiental: tientallen en eenheden tekenen",
+    "instruction": "Teken beide getallen in het schema: een streep voor elk tiental, een stip voor elke eenheid. Omcirkel tien stippen en teken er één nieuwe streep voor. Schrijf daarna de tientallen, de eenheden en de uitkomst op."
+  },
+  "G2-513": {
+    "title": "Aftrekken over het tiental: een tiental inwisselen",
+    "instruction": "Het eerste getal is in het schema getekend. Zijn er genoeg eenheden om weg te halen? Kruis ja of nee aan. Zijn het er niet genoeg, zet dan een kruis door één streep en teken er tien stippen voor. Streep door wat eraf gaat en schrijf op wat overblijft."
+  },
+  "G2-514": {
+    "title": "Drie en vier getallen onder elkaar optellen",
+    "instruction": "Tel eerst de eenheden op. Zoek bij de eenheden twee cijfers die samen tien zijn. Schrijf het nieuwe tiental in het kleine vakje boven de tientallen. Tel daarna de tientallen op."
   }
 }

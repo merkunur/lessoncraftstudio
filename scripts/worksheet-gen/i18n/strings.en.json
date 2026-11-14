@@ -5025,5 +5025,17 @@
   "G3-490": {
     "title": "Perimeter: Find the Missing Side",
     "instruction": "The perimeter of each shape is given. Write an equation with n for the missing side. Then find n."
+  },
+  "G1-573": {
+    "title": "Add and Make a New Ten: Tens-and-Ones Mat",
+    "instruction": "Draw both numbers on the mat: a stick for each ten, a dot for each one. Circle ten dots and draw one new stick for them. Then write the tens, the ones, and the sum."
+  },
+  "G2-513": {
+    "title": "Subtract with Regrouping: Tens-and-Ones Mat",
+    "instruction": "The first number is drawn on the mat. Are there enough ones to take away? Mark yes or no. If there are not enough, cross out one stick and draw ten dots for it. Cross out what is taken away and write what is left."
+  },
+  "G2-514": {
+    "title": "Add Three and Four Two-Digit Numbers",
+    "instruction": "Add the ones first. Look for two digits in the ones column that make ten. Write the new ten in the small box above the tens. Then add the tens."
   }
 }

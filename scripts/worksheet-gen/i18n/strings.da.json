@@ -4962,5 +4962,17 @@
   "G3-490": {
     "title": "Omkreds: find den manglende side",
     "instruction": "Omkredsen af hver figur er oplyst. Skriv en ligning med x for den manglende side. Regn så x ud."
+  },
+  "G1-573": {
+    "title": "Plus med tierovergang: tegn tiere og enere",
+    "instruction": "Tegn begge tal i skemaet: en streg for hver tier og en prik for hver ener. Sæt ring om ti prikker, og tegn en ny streg for dem. Skriv så tierne, enerne og resultatet."
+  },
+  "G2-513": {
+    "title": "Minus med tierovergang: veksl en tier",
+    "instruction": "Det første tal er tegnet i skemaet. Er der enere nok til det, der skal trækkes fra? Sæt kryds ved ja eller nej. Hvis der ikke er nok, sætter du kryds over en streg og tegner ti prikker for den. Streg det over, der trækkes fra, og skriv, hvad der er tilbage."
+  },
+  "G2-514": {
+    "title": "Læg tre og fire tocifrede tal sammen",
+    "instruction": "Læg først enerne sammen. Find to tal blandt enerne, der tilsammen giver ti. Skriv den nye tier i det lille felt over tierne. Læg så tierne sammen."
   }
 }

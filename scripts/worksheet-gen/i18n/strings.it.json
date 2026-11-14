@@ -4968,5 +4968,17 @@
   "G3-490": {
     "title": "Perimetro: trova il lato mancante",
     "instruction": "Di ogni figura è dato il perimetro. Scrivi un'equazione con x per il lato mancante. Poi calcola x."
+  },
+  "G1-573": {
+    "title": "Addizioni con il cambio: tabella di decine e unità",
+    "instruction": "Disegna i due numeri nella tabella: una barretta per ogni decina, un puntino per ogni unità. Cerchia dieci puntini e disegna al loro posto una nuova barretta. Poi scrivi le decine, le unità e il risultato."
+  },
+  "G2-513": {
+    "title": "Sottrazioni con il cambio: tabella di decine e unità",
+    "instruction": "Il primo numero è disegnato nella tabella. Bastano le unità per togliere? Segna sì o no. Se non bastano, cancella con una X una barretta e disegna al suo posto dieci puntini. Cancella con una X quello che togli e scrivi quello che resta."
+  },
+  "G2-514": {
+    "title": "Addizioni in colonna con tre e quattro addendi",
+    "instruction": "Somma prima le unità. Cerca tra le unità due cifre che insieme fanno dieci. Scrivi la nuova decina nella casella piccola sopra le decine. Poi somma le decine."
   }
 }

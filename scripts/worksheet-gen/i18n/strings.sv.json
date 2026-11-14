@@ -4936,5 +4936,17 @@
   "G3-490": {
     "title": "Omkrets: hitta den saknade sidan",
     "instruction": "Varje figurs omkrets är given. Skriv en ekvation med x för den saknade sidan. Räkna sedan ut x."
+  },
+  "G1-573": {
+    "title": "Addition med tiotalsövergång: rita tiotal och ental",
+    "instruction": "Rita båda talen i tabellen: ett streck för varje tiotal och en prick för varje ental. Ringa in tio prickar och rita ett nytt streck för dem. Skriv sedan tiotalen, entalen och summan."
+  },
+  "G2-513": {
+    "title": "Subtraktion med växling: växla ett tiotal",
+    "instruction": "Det första talet är ritat i tabellen. Räcker entalen till det som ska tas bort? Kryssa för ja eller nej. Om de inte räcker: stryk över ett streck och rita tio prickar för det. Stryk över det som tas bort och skriv det som blir kvar."
+  },
+  "G2-514": {
+    "title": "Addera tre och fyra tvåsiffriga tal",
+    "instruction": "Addera först entalen. Leta bland entalen efter två siffror som tillsammans blir tio. Skriv det nya tiotalet i den lilla rutan ovanför tiotalen. Addera sedan tiotalen."
   }
 }

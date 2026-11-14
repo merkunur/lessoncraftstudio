@@ -4984,5 +4984,17 @@
   "G3-490": {
     "title": "Umfang: die fehlende Seitenlänge finden",
     "instruction": "Der Umfang jeder Figur ist angegeben. Schreibe eine Gleichung mit x für die fehlende Seite. Rechne dann x aus."
+  },
+  "G1-573": {
+    "title": "Plus mit Zehnerübergang: Zehner und Einer zeichnen",
+    "instruction": "Zeichne beide Zahlen in die Stellenwerttafel: einen Strich für jeden Zehner, einen Punkt für jeden Einer. Kreise zehn Punkte ein und zeichne dafür einen neuen Strich. Schreibe dann die Zehner, die Einer und das Ergebnis auf."
+  },
+  "G2-513": {
+    "title": "Minus mit Zehnerübergang: einen Zehner entbündeln",
+    "instruction": "Die erste Zahl ist in die Stellenwerttafel eingezeichnet. Sind es genug Einer zum Wegnehmen? Kreuze ja oder nein an. Wenn es nicht genug sind, streiche einen Strich durch und zeichne dafür zehn Punkte. Streiche durch, was weggenommen wird, und schreibe auf, was übrig bleibt."
+  },
+  "G2-514": {
+    "title": "Schriftlich addieren: drei und vier Zahlen",
+    "instruction": "Addiere zuerst die Einer. Suche bei den Einern zwei Ziffern, die zusammen zehn ergeben. Schreibe den neuen Zehner in das kleine Kästchen bei den Zehnern. Addiere dann die Zehner."
   }
 }

@@ -4981,5 +4981,17 @@
   "G3-490": {
     "title": "Omkrets: finn den manglende siden",
     "instruction": "Omkretsen av hver figur er oppgitt. Skriv en likning med x for den manglende siden. Regn så ut x."
+  },
+  "G1-573": {
+    "title": "Addisjon med tierovergang: tegn tiere og enere",
+    "instruction": "Tegn begge tallene i tabellen: en strek for hver tier og en prikk for hver ener. Sett ring rundt ti prikker og tegn en ny strek for dem. Skriv så tierne, enerne og svaret."
+  },
+  "G2-513": {
+    "title": "Subtraksjon med veksling: veksle en tier",
+    "instruction": "Det første tallet er tegnet i tabellen. Er det nok enere til det som skal trekkes fra? Sett kryss ved ja eller nei. Hvis det ikke er nok, stryker du over en strek og tegner ti prikker for den. Stryk over det som trekkes fra, og skriv det som er igjen."
+  },
+  "G2-514": {
+    "title": "Legg sammen tre og fire tosifrede tall",
+    "instruction": "Legg først sammen enerne. Finn to sifre blant enerne som til sammen blir ti. Skriv den nye tieren i den lille ruten over tierne. Legg så sammen tierne."
   }
 }

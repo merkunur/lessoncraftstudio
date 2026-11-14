@@ -92,7 +92,7 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)
   'arrays-multiplication': ['k639'],
-  'column-arithmetic': ['g2502'],
+  'column-arithmetic': ['g2502', 'g2514'],   // g2514 Year pages V: three and four numbers in columns (boxes to write in; PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only)
   geometry: ['g3488', 'g3489', 'g3490'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only)

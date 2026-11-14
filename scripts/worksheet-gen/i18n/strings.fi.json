@@ -4934,5 +4934,17 @@
   "G3-490": {
     "title": "Piiri: selvitä puuttuva sivu",
     "instruction": "Jokaisen kuvion piiri on annettu. Kirjoita yhtälö, jossa x on puuttuva sivu. Laske sitten x."
+  },
+  "G1-573": {
+    "title": "Yhteenlasku kymmenylityksellä: piirrä kympit ja ykköset",
+    "instruction": "Piirrä molemmat luvut taulukkoon: viiva jokaisesta kympistä ja piste jokaisesta ykkösestä. Ympyröi kymmenen pistettä ja piirrä niiden tilalle uusi viiva. Kirjoita sitten kympit, ykköset ja summa."
+  },
+  "G2-513": {
+    "title": "Vähennyslasku lainaamalla: pura yksi kymppi",
+    "instruction": "Ensimmäinen luku on piirretty taulukkoon. Riittävätkö ykköset vähentämiseen? Merkitse kyllä tai ei. Jos eivät riitä, yliviivaa yksi viiva ja piirrä sen tilalle kymmenen pistettä. Yliviivaa se, mikä vähennetään, ja kirjoita, mitä jää jäljelle."
+  },
+  "G2-514": {
+    "title": "Kolmen ja neljän kaksinumeroisen luvun yhteenlasku",
+    "instruction": "Laske ensin ykköset yhteen. Etsi ykkösistä kaksi lukua, joista tulee yhteensä kymmenen. Kirjoita uusi kymppi pieneen ruutuun kymppien yläpuolelle. Laske sitten kympit yhteen."
   }
 }

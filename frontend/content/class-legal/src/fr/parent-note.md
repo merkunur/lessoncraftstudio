@@ -1,6 +1,6 @@
 # Mot aux parents
 
-> **Pour l’enseignant (ce bloc ne fait pas partie du mot) :** N’utilisez ce mot que si votre école vous autorise à utiliser cet outil. Il informe les parents ; il ne remplace pas les informations de votre école sur la protection des données. Imprimez-le ou envoyez-le ; complétez les passages entre crochets. Une page, sans vocabulaire juridique.
+> **Pour l’enseignant (cet encadré ne fait pas partie du mot) :** N’utilisez ce mot que si votre école vous autorise à utiliser cet outil. Il informe les parents ; il ne remplace pas les informations de votre école sur la protection des données. Imprimez-le ou envoyez-le ; complétez les passages entre crochets. Une page, sans vocabulaire juridique.
 
 ---
 
@@ -18,7 +18,7 @@ En classe, nous nous exerçons parfois à l’écran avec des fiches de LessonCr
 
 **Qui le voit.** Je suis la seule personne à pouvoir voir les résultats. Les autres parents et les autres enseignants ne le peuvent pas. Sur la page commune de la classe, un enfant peut voir quelles fiches une autre place a terminées, mais jamais combien de réponses étaient justes. Votre enfant ne voit ni score, ni classement, ni chronomètre.
 
-**À quoi cela sert.** Uniquement à mon enseignement. Ce n’est pas utilisé pour la publicité et ce n’est pas vendu. C’est conservé pour [nom de l’école] sur un serveur en Finlande par l’exploitant du site, qui ne peut l’utiliser que pour cela.
+**À quoi cela sert.** Uniquement à mon enseignement. Les résultats ne servent pas à la publicité et ne sont pas vendus. L’exploitant du site les conserve pour [nom de l’école] sur un serveur en Finlande et ne peut les utiliser que pour cela.
 
 **Combien de temps c’est conservé.** Je peux supprimer les résultats de votre enfant à tout moment. Chaque résultat est supprimé automatiquement au bout de 14 mois au plus tard[, et à la fin de l’année scolaire je supprime la classe].
 

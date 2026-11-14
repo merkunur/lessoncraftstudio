@@ -158,9 +158,9 @@
   "reportHeadResult": "Wie es geklappt hat",
   "reportDate": "Stand: {date}",
   "formNameHelp": "Bitte hier keinen Namen eines Kindes eintragen.",
-  "confirmText": "Ich bestätige: (1) Ich nutze Klassenlinks für den Unterricht. Meine Schule erlaubt mir Online-Angebote, in denen Kinder unter einer Nummer arbeiten, oder ich gebe privat Nachhilfe oder bin ein Elternteil und entscheide das selbst. (2) Ich trage in den Namen der Klasse keinen Namen eines Kindes und keine anderen persönlichen Angaben ein. (3) Ich habe den Abschnitt „Klassen und Ergebnisse“ der Datenschutzerklärung gelesen und nehme die Bedingungen zur Datenverarbeitung für Klassen an.",
+  "confirmText": "Ich bestätige: (1) Ich nutze Klassenlinks für den Unterricht. Meine Schule erlaubt mir Online-Angebote, in denen Kinder unter einer Nummer arbeiten, oder ich gebe privat Nachhilfe oder bin ein Elternteil und entscheide das selbst. (2) Ich trage in den Namen der Klasse keinen Namen eines Kindes und keine anderen persönlichen Angaben ein. (3) Ich habe den Abschnitt „Klassen und Ergebnisse“ der Datenschutzerklärung gelesen und nehme die Bedingungen zur Auftragsverarbeitung für Klassen an.",
   "confirmPrivacy": "Datenschutzerklärung: Klassen und Ergebnisse",
-  "confirmTerms": "Bedingungen zur Datenverarbeitung für Klassen",
+  "confirmTerms": "Bedingungen zur Auftragsverarbeitung für Klassen",
   "errConfirm": "Bitte setzen Sie zuerst das Häkchen bei der Bestätigung.",
   "docsParentNote": "Elternbrief zum Ausdrucken"
 }

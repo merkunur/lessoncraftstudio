@@ -1,4 +1,4 @@
-# Bedingungen zur Datenverarbeitung für Klassen (Klassen und Ergebnisse)
+# Bedingungen zur Auftragsverarbeitung für Klassen (Klassen und Ergebnisse)
 
 **Zwischen**
 
@@ -55,7 +55,7 @@ Die Schule stimmt diesen Unterauftragsverarbeitern zu:
 | Hetzner Online GmbH (Deutschland) | Server-Hosting | Finnland, EU |
 | Cloudflare, Inc. | Auslieferung der Website; Anfragen werden durchgeleitet, Klassendaten werden nicht gespeichert | Vereinigte Staaten und das weltweite Netz von Cloudflare; Zertifizierung von Cloudflare, Inc. nach dem EU-US Data Privacy Framework und die EU-Standardvertragsklauseln (Durchführungsbeschluss (EU) 2021/914) im Zusatz zur Auftragsverarbeitung (Data Processing Addendum) von Cloudflare |
 
-LessonCraftStudio informiert die Schule 30 Tage, bevor ein Unterauftragsverarbeiter hinzukommt oder ersetzt wird, per E-Mail an die Kontoadresse jeder Lehrkraft der Schule und auf der Seite www.lessoncraftstudio.com/de/class-terms. LessonCraftStudio verpflichtet jeden Unterauftragsverarbeiter vertraglich auf dieselben Datenschutzpflichten wie in dieser Vereinbarung und haftet der Schule gegenüber in vollem Umfang für das, was ein Unterauftragsverarbeiter tut. Die Schule kann widersprechen; lässt sich dem Widerspruch nicht entsprechen, kann die Schule die Nutzung der Funktion beenden, und ihre Daten werden gelöscht.
+LessonCraftStudio informiert die Schule 30 Tage, bevor ein Unterauftragsverarbeiter hinzukommt oder ersetzt wird, per E-Mail an die Kontoadresse jeder Lehrkraft der Schule und auf der Seite www.lessoncraftstudio.com/de/class-terms. LessonCraftStudio verpflichtet jeden Unterauftragsverarbeiter vertraglich auf dieselben Datenschutzpflichten wie in dieser Vereinbarung und haftet der Schule gegenüber in vollem Umfang für das, was ein Unterauftragsverarbeiter tut. Die Schule kann widersprechen; kann dem Widerspruch nicht abgeholfen werden, kann die Schule die Nutzung der Funktion beenden, und ihre Daten werden gelöscht.
 
 ## 9. Löschung und Rückgabe
 

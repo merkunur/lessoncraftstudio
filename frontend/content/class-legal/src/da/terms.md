@@ -16,10 +16,10 @@ At gemme de klasser, en lærer opretter, modtage resultaterne af arbejdsark, som
 
 ## 3. Typer af personoplysninger
 
-- Om børn: et pladsnummer og et billede; et vist navn (fornavn eller kaldenavn), kun hvis Skolen har slået fornavne til; pr. arbejdsark: hvilket arbejdsark, hvornår det blev åbnet, antallet af rigtige svar ved den første kontrol, og hvornår det var, antallet af svar, hvilke svar der var rigtige, antallet af tryk på »Kontroller svar«, om siden blev gjort færdig; for et niveausæt sidens niveau. Om klassen: dens navn og sprog. Kun under overførslen, ikke gemt sammen med noget af ovenstående: enhedens IP-adresse.
+- Om børn: et pladsnummer og et billede; et visningsnavn (fornavn eller kaldenavn), kun hvis Skolen har slået fornavne til; pr. arbejdsark: hvilket arbejdsark, hvornår det blev åbnet, antallet af rigtige svar ved den første kontrol, og hvornår det var, antallet af svar, hvilke svar der var rigtige, antallet af tryk på »Kontroller svar«, om siden blev gjort færdig; for et niveausæt sidens niveau. Om klassen: dens navn og sprog. Kun under overførslen, ikke gemt sammen med noget af ovenstående: enhedens IP-adresse.
 - Om lærere: de kontooplysninger, der er beskrevet i den generelle privatlivspolitik.
 
-Der anmodes ikke om særlige kategorier af personoplysninger. Skolen instruerer sine lærere i ikke at skrive et barns navn eller andre personoplysninger i klassens navn og, hvor fornavne er slået til, i ikke at skrive andet end et fornavn eller kaldenavn som vist navn.
+Der anmodes ikke om særlige kategorier af personoplysninger. Skolen instruerer sine lærere i ikke at skrive et barns navn eller andre personoplysninger i klassens navn og, hvor fornavne er slået til, i ikke at skrive andet end et fornavn eller kaldenavn som visningsnavn.
 
 ## 4. Registrerede
 

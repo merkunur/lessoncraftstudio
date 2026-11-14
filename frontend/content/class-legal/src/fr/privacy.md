@@ -4,7 +4,7 @@ Les enseignants qui ont la formule Enseignant peuvent créer une classe sur Less
 
 ### Qui est responsable
 
-L’école décide si cette fonctionnalité est utilisée et pour quels enfants. Lorsqu’un enseignant travaille dans une école, l’école (ou l’autorité dont elle dépend) est le « responsable du traitement » des données de la classe, et l’enseignant utilise la fonctionnalité pour son compte. Un professeur particulier ou un parent qui assure l’instruction en famille est lui-même responsable du traitement. Nous faisons fonctionner la fonctionnalité pour eux et suivons leurs instructions ; au sens de la protection des données, nous sommes leur « sous-traitant », selon les [conditions de traitement des données pour les classes](/class-terms), qui s’appliquent à chaque classe et qu’une école peut faire contresigner. Pour deux choses, nous sommes nous-mêmes responsables : la diffusion sécurisée des pages (qui utilise l’adresse IP de l’appareil le temps de la requête) et le compte de l’enseignant lui-même.
+L’école décide si cette fonctionnalité est utilisée et pour quels enfants. Lorsqu’un enseignant travaille dans une école, l’école (ou l’autorité dont elle dépend) est le « responsable du traitement » des données de la classe, et l’enseignant utilise la fonctionnalité pour son compte. Un professeur particulier ou un parent qui assure l’instruction en famille est lui-même responsable du traitement. Nous exploitons cette fonctionnalité pour eux et suivons leurs instructions ; au sens de la protection des données, nous sommes leur « sous-traitant », selon les [conditions de traitement des données pour les classes](/class-terms), qui s’appliquent à chaque classe et qu’une école peut faire contresigner. Pour deux choses, nous sommes nous-mêmes responsables : la diffusion sécurisée des pages (qui utilise l’adresse IP de l’appareil le temps de la requête) et le compte de l’enseignant lui-même.
 
 ### Ce que nous enregistrons sur un enfant
 
@@ -26,7 +26,7 @@ Sur le site, seul l’enseignant qui a créé la classe peut voir les résultats
 
 ### À quoi servent les données
 
-Uniquement à montrer aux enseignants les résultats de leurs propres classes. Nous n’utilisons pas les données des classes pour la publicité, nous ne les vendons pas, nous ne les communiquons à personne d’autre qu’aux deux entreprises qui hébergent et diffusent le site (voir plus bas), et nous ne les utilisons pour entraîner aucun système. Nous n’établissons aucun profil d’un enfant pour nos propres besoins. Une seule chose est automatique et fait partie de l’enseignement : dans une série par niveau, la page suivante est plus facile ou plus difficile selon la façon dont la précédente s’est passée, et l’écran de l’enseignant range chaque résultat dans « Presque tout juste », « Quelques erreurs » ou « Beaucoup d’erreurs ». Le site ne prend aucune décision concernant un enfant.
+Uniquement à montrer aux enseignants les résultats de leurs propres classes. Nous n’utilisons pas les données de classe pour la publicité, nous ne les vendons pas, nous ne les communiquons à personne d’autre qu’aux deux entreprises qui hébergent et diffusent le site (voir plus bas), et nous ne les utilisons pour entraîner aucun système. Nous n’établissons aucun profil d’un enfant pour nos propres besoins. Une seule chose est automatique et fait partie de l’enseignement : dans une série par niveau, la page suivante est plus facile ou plus difficile selon la façon dont la précédente s’est passée, et l’écran de l’enseignant range chaque résultat dans « Presque tout juste », « Quelques erreurs » ou « Beaucoup d’erreurs ». Le site ne prend aucune décision concernant un enfant.
 
 ### Cookies et suivi
 
@@ -42,7 +42,7 @@ Sur la page de la classe et sur toutes les pages qu’un enfant ouvre à partir 
 
 ### Où elles se trouvent
 
-Dans une seule base de données, sur un serveur que nous louons à Hetzner Online GmbH (Allemagne) et qui se trouve en Finlande. Les sauvegardes qui contiennent des données de classe sont conservées uniquement sur ce serveur. Cloudflare, Inc. (États-Unis) assure la diffusion du site : chaque requête, y compris un résultat, passe par son réseau, qui ne la conserve pas, hormis de brefs journaux techniques. Cloudflare est certifiée au titre du cadre de protection des données UE-États-Unis (EU-US Data Privacy Framework), et notre contrat avec elle contient les clauses contractuelles types de l’UE. Ces deux entreprises sont les seules à manipuler des données de classe.
+Dans une seule base de données, sur un serveur que nous louons à Hetzner Online GmbH (Allemagne) et qui se trouve en Finlande. Les sauvegardes qui contiennent des données de classe sont conservées uniquement sur ce serveur. Cloudflare, Inc. (États-Unis) assure la diffusion du site : chaque requête, y compris un résultat, passe par son réseau, qui ne la conserve pas, hormis de brefs journaux techniques. Cloudflare est certifiée au titre du cadre de protection des données UE-États-Unis (EU-US Data Privacy Framework), et notre contrat avec elle contient les clauses contractuelles types de l’UE. Ces deux entreprises sont les seules à traiter des données de classe.
 
 ### Vos droits
 
@@ -58,4 +58,4 @@ Si des données de classe sont perdues ou vues par une personne qui ne devrait p
 
 ### Modifications
 
-Nous prévenons les enseignants par e-mail avant de modifier ce que cette fonctionnalité enregistre ou les entreprises qui manipulent les données.
+Nous prévenons les enseignants par e-mail avant de modifier ce que cette fonctionnalité enregistre ou les entreprises qui traitent les données.

@@ -158,7 +158,7 @@
   "reportHeadResult": "Miten se sujui",
   "reportDate": "Tilanne {date}",
   "formNameHelp": "Älä kirjoita tähän lapsen nimeä.",
-  "confirmText": "Vahvistan: (1) Käytän luokkalinkkejä opetukseen. Kouluni sallii verkkotyökalut, joissa lapset työskentelevät numerolla, tai olen yksityisopettaja tai huoltaja ja päätän tästä itse. (2) En kirjoita luokan nimeen lapsen nimeä enkä muita henkilötietoja. (3) Olen lukenut tietosuojaselosteen osion ”Luokat ja tulokset” ja hyväksyn luokkia koskevat tietojenkäsittelyn ehdot.",
+  "confirmText": "Vahvistan: (1) Käytän luokan linkkejä opetukseen. Kouluni sallii verkkotyökalut, joissa lapset työskentelevät numerolla, tai olen yksityisopettaja tai huoltaja ja päätän tästä itse. (2) En kirjoita luokan nimeen lapsen nimeä enkä muita henkilötietoja. (3) Olen lukenut tietosuojaselosteen osion ”Luokat ja tulokset” ja hyväksyn luokkia koskevat tietojenkäsittelyn ehdot.",
   "confirmPrivacy": "Tietosuojaseloste: Luokat ja tulokset",
   "confirmTerms": "Luokkia koskevat tietojenkäsittelyn ehdot",
   "errConfirm": "Rastita ensin vahvistus.",

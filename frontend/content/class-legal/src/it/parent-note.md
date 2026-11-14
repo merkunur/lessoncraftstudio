@@ -8,7 +8,7 @@
 
 in classe a volte ci esercitiamo sullo schermo con le schede di LessonCraftStudio. Per farlo uso un link della classe, così posso vedere quali esercizi ha capito ciascun bambino e chi ha bisogno di esercitarsi ancora.
 
-**Che cosa fa vostro figlio o vostra figlia.** Apre la pagina della classe, tocca il suo numero e la sua figura di un animale e fa la scheda. Non c’è nessun account, nessuna password e niente da installare.
+**Che cosa fa vostro figlio o vostra figlia.** Apre la pagina della classe, tocca il suo numero e la sua figura di animale e fa la scheda. Non c’è nessun account, nessuna password e niente da installare.
 
 **Che cosa viene salvato.**
 - Nessun nome: solo un numero e una figura di un animale. L’elenco di chi ha quale numero lo tengo io.

@@ -86,7 +86,7 @@ Class data is stored in Finland. It passes through the network of Cloudflare, In
 
 ## 15. Law and precedence
 
-Where the School is in the European Economic Area, the United Kingdom or Switzerland, this agreement is governed by the law of the School's country and the courts at the School's seat decide. Otherwise it is governed by the law of Sweden. A public school in the United States is governed by the law of its own state. Where this agreement and the general terms differ on personal data, this agreement applies.
+Where the School is in the European Economic Area, the United Kingdom or Switzerland, this agreement is governed by the law of the School's country and the courts at the School's seat decide. Otherwise it is governed by the law of Sweden. For a public school in the United States, the law of its own state applies. Where this agreement and the general terms differ on personal data, this agreement applies.
 
 ## 16. Schools in the United States
 

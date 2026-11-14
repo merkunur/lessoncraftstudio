@@ -18,7 +18,7 @@ I klassen øver vi noen ganger på en skjerm med arbeidsark fra LessonCraftStudi
 
 **Hvem som ser det.** Bare jeg kan se resultatene. Andre foresatte og andre lærere kan ikke det. På klassens felles side kan et barn se hvilke arbeidsark en annen plass har gjort ferdig, men aldri hvor mange svar som var riktige. Barnet deres ser ingen poengsum, ingen rangering og ingen tidtaker.
 
-**Hva det brukes til.** Bare til undervisningen min. Det brukes ikke til reklame og selges ikke. Det lagres for [navnet på skolen] på en server i Finland av den som driver nettstedet, som bare kan bruke det til dette.
+**Hva det brukes til.** Bare til undervisningen min. Det brukes ikke til reklame og selges ikke. Det lagres for [navnet på skolen] på en server i Finland av den som driver nettstedet, som bare får bruke det til dette.
 
 **Hvor lenge det lagres.** Jeg kan når som helst slette resultatene til barnet deres. Hvert resultat slettes automatisk senest etter 14 måneder[, og ved slutten av skoleåret sletter jeg klassen].
 

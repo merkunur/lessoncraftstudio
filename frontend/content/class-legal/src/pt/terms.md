@@ -53,7 +53,7 @@ A Escola concorda com estes suboperadores:
 | Suboperador | Finalidade | Local |
 |---|---|---|
 | Hetzner Online GmbH (Alemanha) | Hospedagem do servidor | Finlândia, UE |
-| Cloudflare, Inc. | Entrega do site; as solicitações passam pela rede, os dados de turmas não são armazenados | Estados Unidos e sua rede mundial; certificação da Cloudflare, Inc. no âmbito do EU-US Data Privacy Framework e as cláusulas contratuais padrão da UE (Decisão de Execução (UE) 2021/914) no aditivo de tratamento de dados da Cloudflare |
+| Cloudflare, Inc. | Entrega do site; as solicitações passam pela rede, os dados de turmas não são armazenados | Estados Unidos e sua rede mundial; certificação da Cloudflare, Inc. no âmbito do EU-US Data Privacy Framework e as cláusulas-padrão contratuais da UE (Decisão de Execução (UE) 2021/914) no aditivo de tratamento de dados da Cloudflare |
 
 O LessonCraftStudio informa a Escola 30 dias antes de incluir ou substituir um suboperador, por e-mail para o endereço da conta de cada professor da Escola e na página www.lessoncraftstudio.com/pt/class-terms. O LessonCraftStudio obriga cada suboperador, por contrato, aos mesmos deveres de proteção de dados deste acordo e continua plenamente responsável perante a Escola pelo que um suboperador fizer. A Escola pode se opor; se a objeção não puder ser atendida, a Escola pode parar de usar o recurso e seus dados são apagados.
 
@@ -66,7 +66,7 @@ O LessonCraftStudio informa a Escola 30 dias antes de incluir ou substituir um s
 
 ## 10. Ajuda à Escola
 
-O LessonCraftStudio ajuda a Escola, no que diz respeito ao recurso, a responder a pedidos de crianças e de pais ou responsáveis (acesso, correção, eliminação, oposição), nos relatórios de impacto à proteção de dados pessoais e nas consultas à autoridade de proteção de dados. A maioria dos pedidos pode ser atendida pelo professor diretamente no recurso. Os pedidos que chegam ao LessonCraftStudio são repassados ao professor sem demora. O LessonCraftStudio não responde a esses pedidos por conta própria. Também ajuda a Escola a cumprir seus deveres de segurança, comunicação de incidentes e avaliação de impacto (artigos 32 a 36 do GDPR (UE)).
+O LessonCraftStudio ajuda a Escola, no que diz respeito ao recurso, a responder a pedidos de crianças e de pais ou responsáveis (acesso, correção, eliminação, oposição), nos relatórios de impacto à proteção de dados pessoais e nas consultas à autoridade de proteção de dados. A maioria dos pedidos pode ser atendida pelo professor diretamente no recurso. Os pedidos que chegam ao LessonCraftStudio são repassados ao professor sem demora. O LessonCraftStudio não responde a esses pedidos por conta própria. Também ajuda a Escola a cumprir seus deveres de segurança, comunicação de incidentes e avaliação de impacto (artigos 32 a 36 do GDPR, o regulamento de proteção de dados da UE).
 
 ## 11. Incidentes de segurança com dados pessoais
 
@@ -82,11 +82,11 @@ O LessonCraftStudio não usa dados de turmas para publicidade de nenhum tipo, n�
 
 ## 14. Transferências para fora da UE / do EEE
 
-Os dados de turmas ficam armazenados na Finlândia. Eles passam pela rede da Cloudflare, Inc., que pode tratá-los nos Estados Unidos; essa transferência se baseia na certificação da Cloudflare no âmbito do EU-US Data Privacy Framework e, caso ela deixe de existir, nas cláusulas contratuais padrão da UE contidas no aditivo de tratamento de dados da Cloudflare.
+Os dados de turmas ficam armazenados na Finlândia. Eles passam pela rede da Cloudflare, Inc., que pode tratá-los nos Estados Unidos; essa transferência se baseia na certificação da Cloudflare no âmbito do EU-US Data Privacy Framework e, caso ela deixe de existir, nas cláusulas-padrão contratuais da UE contidas no aditivo de tratamento de dados da Cloudflare.
 
 ## 15. Lei aplicável e prevalência
 
-Quando a Escola está no Espaço Econômico Europeu, no Reino Unido ou na Suíça, este acordo é regido pela lei do país da Escola, e decidem os tribunais da sede da Escola. Nos demais casos, é regido pela lei da Suécia. Uma escola pública dos Estados Unidos é regida pela lei do seu próprio estado. Quando este acordo e os termos gerais divergirem sobre dados pessoais, vale este acordo.
+Quando a Escola está no Espaço Econômico Europeu, no Reino Unido ou na Suíça, este acordo é regido pela lei do país da Escola, e decidem os tribunais da sede da Escola. Nos demais casos, é regido pela lei da Suécia. Para uma escola pública dos Estados Unidos, aplica-se a lei do seu próprio estado. Quando este acordo e os termos gerais divergirem sobre dados pessoais, vale este acordo.
 
 ## 16. Escolas nos Estados Unidos
 

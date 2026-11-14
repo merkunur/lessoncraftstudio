@@ -18,7 +18,7 @@ En clase a veces practicamos en pantalla con hojas de trabajo de LessonCraftStud
 
 **Quién lo ve.** Solo yo puedo ver los resultados. Otras madres y padres y otros docentes no pueden. En la página compartida del grupo, un niño puede ver qué hojas de trabajo terminó otro lugar, pero nunca cuántas respuestas estaban bien. Su hija o hijo no ve puntajes, ni clasificación, ni cronómetro.
 
-**Para qué se usa.** Solo para mi enseñanza. No se usa para publicidad y no se vende. Lo guarda para [nombre de la escuela], en un servidor en Finlandia, el operador del sitio, que solo puede usarlo para esto.
+**Para qué se usa.** Solo para mi enseñanza. No se usa para publicidad y no se vende. El operador del sitio lo guarda para [nombre de la escuela] en un servidor en Finlandia y solo puede usarlo para esto.
 
 **Cuánto tiempo se conserva.** Puedo borrar los resultados de su hija o hijo en cualquier momento. Cada resultado se borra automáticamente a más tardar a los 14 meses[, y al final del ciclo escolar borro el grupo].
 

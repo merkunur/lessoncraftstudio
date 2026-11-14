@@ -72,7 +72,7 @@ export const CHILD_STRINGS: Record<string, ChildStrings> = {
     emptyWork: 'Aquí todavía no hay nada que hacer.', emptySeats: 'Todavía no hay niños en este grupo.', askTeacher: 'Pregúntale a tu maestra o maestro.',
     inactive: 'Este enlace del grupo no está abierto en este momento.', notFound: 'Este enlace del grupo no existe.',
     error: 'No funcionó. Toca para intentarlo de nuevo.', loading: 'Un momento…', back: 'Regresar',
-    privacy: 'Privacidad',
+    privacy: 'Aviso de privacidad',
   },
   pt: {
     pick: 'Toque na sua figura', work: 'Toque em uma atividade', switchChild: 'Não sou eu', number: 'Número {n}',
@@ -112,7 +112,7 @@ export const CHILD_STRINGS: Record<string, ChildStrings> = {
     emptyWork: 'Här finns inget att göra än.', emptySeats: 'Det finns inga barn i den här klassen än.', askTeacher: 'Fråga din lärare.',
     inactive: 'Den här klasslänken är inte öppen just nu.', notFound: 'Den här klasslänken finns inte.',
     error: 'Det gick inte. Tryck för att försöka igen.', loading: 'Ett ögonblick …', back: 'Tillbaka',
-    privacy: 'Integritet',
+    privacy: 'Integritetspolicy',
   },
   da: {
     pick: 'Tryk på dit billede', work: 'Tryk på et arbejdsark', switchChild: 'Det er ikke mig', number: 'Nummer {n}',
@@ -122,7 +122,7 @@ export const CHILD_STRINGS: Record<string, ChildStrings> = {
     emptyWork: 'Her er ikke noget at lave endnu.', emptySeats: 'Der er ingen børn i denne klasse endnu.', askTeacher: 'Spørg din lærer.',
     inactive: 'Dette klasselink er ikke åbent lige nu.', notFound: 'Dette klasselink findes ikke.',
     error: 'Det virkede ikke. Tryk for at prøve igen.', loading: 'Et øjeblik …', back: 'Tilbage',
-    privacy: 'Privatliv',
+    privacy: 'Privatlivspolitik',
   },
   no: {
     pick: 'Trykk på bildet ditt', work: 'Trykk på et arbeidsark', switchChild: 'Det er ikke meg', number: 'Nummer {n}',

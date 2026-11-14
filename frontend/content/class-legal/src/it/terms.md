@@ -4,7 +4,7 @@
 
 la scuola o l’autorità scolastica indicata al momento dell’accettazione, rappresentata da una persona autorizzata a firmare per essa, oppure un insegnante privato o un genitore che fa istruzione parentale e decide da solo sui dati («la Scuola», titolare del trattamento), e
 
-Riza Kunur Genc (LessonCraftStudio), Björkvägen 15D, 459 31 Ljungskile, Svezia, che gestisce LessonCraftStudio come privato («LessonCraftStudio», responsabile del trattamento).
+Riza Kunur Genc (LessonCraftStudio), Björkvägen 15D, 459 31 Ljungskile, Svezia, che gestisce LessonCraftStudio in qualità di persona fisica («LessonCraftStudio», responsabile del trattamento).
 
 ## 1. Oggetto e durata
 
@@ -86,7 +86,7 @@ I dati delle classi sono conservati in Finlandia. Passano attraverso la rete di 
 
 ## 15. Legge applicabile e prevalenza
 
-Se la Scuola si trova nello Spazio economico europeo, nel Regno Unito o in Svizzera, il presente accordo è regolato dalla legge del Paese della Scuola e decidono i tribunali del luogo in cui la Scuola ha sede. Negli altri casi è regolato dalla legge della Svezia. Una scuola pubblica negli Stati Uniti è regolata dalla legge del proprio Stato. Dove il presente accordo e le condizioni generali differiscono in materia di dati personali, si applica il presente accordo.
+Se la Scuola si trova nello Spazio economico europeo, nel Regno Unito o in Svizzera, il presente accordo è regolato dalla legge del Paese della Scuola e decidono i tribunali del luogo in cui la Scuola ha sede. Negli altri casi è regolato dalla legge della Svezia. Per una scuola pubblica negli Stati Uniti si applica la legge del proprio Stato. Dove il presente accordo e le condizioni generali differiscono in materia di dati personali, si applica il presente accordo.
 
 ## 16. Scuole negli Stati Uniti
 

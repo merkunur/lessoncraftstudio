@@ -1,10 +1,10 @@
 # Brief voor ouders
 
-> **Voor de leerkracht (dit blok hoort niet bij de brief):** Gebruik deze brief alleen als je school je toestaat dit hulpmiddel te gebruiken. De brief informeert ouders; hij vervangt niet de privacy-informatie van je eigen school. Print of verstuur hem; vul de regels tussen vierkante haken in. Eén pagina, geen juridische termen.
+> **Voor de leerkracht (dit kader hoort niet bij de brief):** Gebruik deze brief alleen als je school je toestaat dit hulpmiddel te gebruiken. De brief informeert ouders; hij vervangt niet de privacy-informatie van je eigen school. Print of verstuur hem; vul de regels tussen vierkante haken in. Eén pagina, geen juridische termen.
 
 ---
 
-**Beste ouders,**
+**Beste ouders en verzorgers,**
 
 In de klas oefenen we soms op een scherm met werkbladen van LessonCraftStudio. Ik gebruik daarvoor een klaslink, zodat ik kan zien welke oefeningen elk kind heeft begrepen en wie meer oefening nodig heeft.
 

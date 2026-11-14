@@ -16,7 +16,7 @@ I klassen övar vi ibland på en skärm med arbetsblad från LessonCraftStudio. 
 
 **Vad som inte sparas.** Inget efternamn, inget födelsedatum, inget foto, ingen adress, ingen e-postadress. Webbplatsen registrerar inte vad ditt barn skriver, och det finns ingen tidtagning.
 
-**Vem som ser det.** Bara jag kan se resultaten. Andra vårdnadshavare och andra lärare kan inte det. På klassens gemensamma sida kan ett barn se vilka arbetsblad en annan plats har gjort klart, men aldrig hur många svar som var rätt. Ditt barn ser inga poäng, ingen rangordning och ingen tidtagning.
+**Vem som ser det.** Bara jag kan se resultaten. Andra vårdnadshavare och andra lärare kan inte det. På klassens gemensamma sida kan ett barn se vilka arbetsblad en annan plats har gjort klart, men aldrig hur många svar som var rätt. Ditt barn ser inga poäng, ingen topplista och ingen tidtagning.
 
 **Vad det används till.** Bara till min undervisning. Det används inte för reklam och säljs inte. Det sparas för [skolans namn] på en server i Finland av den som driver webbplatsen, som bara får använda det till detta.
 

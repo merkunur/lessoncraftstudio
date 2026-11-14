@@ -158,7 +158,7 @@
   "reportHeadResult": "Hvordan det gik",
   "reportDate": "Status pr. {date}",
   "formNameHelp": "Skriv ikke et barns navn her.",
-  "confirmText": "Jeg bekræfter: (1) Jeg bruger klasselinks til undervisning. Min skole tillader, at jeg bruger onlineværktøjer, hvor børnene arbejder under et nummer, eller jeg er privatlærer eller forælder og bestemmer det selv. (2) Jeg skriver ikke et barns navn eller andre personoplysninger i klassens navn. (3) Jeg har læst afsnittet ”Klasser og resultater” i privatlivspolitikken og accepterer vilkårene for databehandling for klasser.",
+  "confirmText": "Jeg bekræfter: (1) Jeg bruger klasselinks til undervisning. Min skole tillader, at jeg bruger onlineværktøjer, hvor børnene arbejder under et nummer, eller jeg er privatlærer eller forælder og bestemmer det selv. (2) Jeg skriver ikke et barns navn eller andre personoplysninger i klassens navn. (3) Jeg har læst afsnittet »Klasser og resultater« i privatlivspolitikken og accepterer vilkårene for databehandling for klasser.",
   "confirmPrivacy": "Privatlivspolitik: Klasser og resultater",
   "confirmTerms": "Vilkår for databehandling for klasser",
   "errConfirm": "Sæt først kryds ved bekræftelsen.",

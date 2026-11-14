@@ -27,7 +27,7 @@ Barn i Skolens klasser, vanligvis 4 til 10 år gamle. Skolens lærere.
 
 ## 5. Instrukser
 
-LessonCraftStudio behandler opplysningene bare etter dokumenterte instrukser fra Skolen. Skolen gir instruksene sine ved å bruke funksjonen: ved å opprette, endre og slette klasser, plasser og tildelte arbeidsark. LessonCraftStudio sier fra til Skolen hvis det mener at en instruks er i strid med personvernregelverket. Disse vilkårene og innstillingene i funksjonen er Skolens fullstendige instrukser. LessonCraftStudio behandler ikke klasseopplysninger til egne formål og overfører dem ikke ut av Det europeiske økonomiske samarbeidsområdet, unntatt som beskrevet i punkt 14, med mindre unionsretten eller en medlemsstats nasjonale rett krever det; i så fall informerer det Skolen på forhånd, med mindre denne retten forbyr det.
+LessonCraftStudio behandler opplysningene bare etter dokumenterte instrukser fra Skolen. Skolen gir instruksene sine ved å bruke funksjonen: ved å opprette, endre og slette klasser, plasser og tildelte arbeidsark. LessonCraftStudio underretter Skolen hvis det mener at en instruks er i strid med personvernregelverket. Disse vilkårene og innstillingene i funksjonen er Skolens fullstendige instrukser. LessonCraftStudio behandler ikke klasseopplysninger til egne formål og overfører dem ikke ut av Det europeiske økonomiske samarbeidsområdet, unntatt som beskrevet i punkt 14, med mindre unionsretten eller en medlemsstats nasjonale rett krever det; i så fall informerer det Skolen på forhånd, med mindre denne retten forbyr det.
 
 ## 6. Konfidensialitet
 
@@ -55,7 +55,7 @@ Skolen godtar disse underdatabehandlerne:
 | Hetzner Online GmbH (Tyskland) | Serverdrift | Finland, EU |
 | Cloudflare, Inc. | Levering av nettstedet; forespørsler passerer gjennom, klasseopplysninger lagres ikke | USA og Cloudflares verdensomspennende nettverk; sertifisering av Cloudflare, Inc. under EU-US Data Privacy Framework og EUs standard personvernbestemmelser (gjennomføringsbeslutning (EU) 2021/914) i Cloudflares databehandlertillegg |
 
-LessonCraftStudio informerer Skolen 30 dager før en underdatabehandler legges til eller byttes ut, på e-post til kontoadressen til hver lærer ved Skolen og på siden www.lessoncraftstudio.com/no/class-terms. LessonCraftStudio pålegger hver underdatabehandler ved avtale de samme personvernforpliktelsene som i denne avtalen og er fortsatt fullt ansvarlig overfor Skolen for det en underdatabehandler gjør. Skolen kan protestere; hvis innsigelsen ikke kan imøtekommes, kan Skolen slutte å bruke funksjonen, og opplysningene dens slettes.
+LessonCraftStudio informerer Skolen 30 dager før en underdatabehandler legges til eller byttes ut, på e-post til kontoadressen til hver lærer ved Skolen og på siden www.lessoncraftstudio.com/no/class-terms. LessonCraftStudio pålegger hver underdatabehandler ved avtale de samme personvernforpliktelsene som i denne avtalen og er fortsatt fullt ansvarlig overfor Skolen for det en underdatabehandler gjør. Skolen kan komme med innsigelse; hvis innsigelsen ikke kan imøtekommes, kan Skolen slutte å bruke funksjonen, og opplysningene dens slettes.
 
 ## 9. Sletting og tilbakelevering
 

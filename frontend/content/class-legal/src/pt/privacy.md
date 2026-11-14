@@ -4,7 +4,7 @@ Professores com o plano Professor podem criar uma turma no LessonCraftStudio, da
 
 ### Quem é responsável
 
-A escola decide se este recurso é usado e para quais crianças. Quando um professor trabalha em uma escola, a escola (ou o órgão que a administra) é o “controlador” dos dados da turma, e o professor usa o recurso em nome dela. Um professor particular ou um pai ou uma mãe que educa a criança em casa é, ele mesmo, o controlador. Nós operamos o recurso para eles e seguimos as instruções deles; em termos de proteção de dados, somos o “operador” deles, conforme as [condições de tratamento de dados para turmas](/class-terms), que valem para todas as turmas e que uma escola pode pedir assinadas pelas duas partes. Por duas coisas nós mesmos somos responsáveis: entregar as páginas com segurança (o que usa o endereço IP do aparelho no momento da solicitação) e a conta do próprio professor.
+A escola decide se este recurso é usado e para quais crianças. Quando um professor trabalha em uma escola, a escola (ou o órgão que a administra) é o “controlador” dos dados da turma, e o professor usa o recurso em nome dela. Um professor particular ou um pai ou uma mãe que educa a criança em casa é o próprio controlador. Nós operamos o recurso para eles e seguimos as instruções deles; em termos de proteção de dados, somos o “operador” deles, conforme as [condições de tratamento de dados para turmas](/class-terms), que valem para todas as turmas e que uma escola pode pedir assinadas pelas duas partes. Por duas coisas nós mesmos somos responsáveis: entregar as páginas com segurança (o que usa o endereço IP do aparelho no momento da solicitação) e a conta do próprio professor.
 
 ### O que guardamos sobre uma criança
 
@@ -12,7 +12,7 @@ A escola decide se este recurso é usado e para quais crianças. Quando um profe
 - **Resultados**: para cada atividade que uma criança faz pelo link da turma: qual era a atividade, quando foi aberta, quantas respostas estavam certas quando a criança tocou em “Verificar respostas” pela primeira vez e quando isso aconteceu, quantas respostas havia, quais estavam certas, quantas vezes a criança tocou em “Verificar respostas” e se a página foi concluída. Em um conjunto por nível, guardamos também qual era o nível da página.
 - **A turma**: o nome que o professor deu a ela e o idioma dela. O nome da turma aparece na página da turma; por isso, o professor não deve colocar nele o nome de uma pessoa.
 
-É só isso. Não pedimos nem guardamos sobrenome, data de nascimento, e-mail, foto, endereço ou localização. Não guardamos o que uma criança digitou ou desenhou, apenas se uma resposta estava certa. Nenhum cronômetro funciona, e ninguém vê quanto tempo uma criança levou.
+É só isso. Não pedimos nem guardamos sobrenome, data de nascimento, e-mail, foto, endereço ou localização. Não guardamos o que uma criança digitou ou desenhou, apenas se uma resposta estava certa. Não há nenhum cronômetro rodando, e ninguém vê quanto tempo uma criança levou.
 
 ### Como funciona para a criança
 
@@ -30,7 +30,7 @@ Somente para mostrar aos professores os resultados das próprias turmas. Não us
 
 ### Cookies e rastreamento
 
-Na página da turma e em todas as páginas que uma criança abre a partir dela, nada é carregado de outra empresa, nenhuma ferramenta de análise de acessos funciona e não há nenhuma tag de publicidade. As solicitações enviadas por essas páginas não levam nenhum cookie e não gravam nenhum. Para que a criança volte à própria lista, a aba do navegador lembra o lugar tocado por 20 minutos, somente no aparelho. Como todo servidor web, o nosso recebe o endereço IP do aparelho a cada solicitação; no caso da página da turma e das solicitações por trás dela, não gravamos esse endereço em nosso registro. Nosso registro geral de solicitações (endereço IP, horário, endereço da página) é mantido por segurança e apagado depois de 14 dias.
+Na página da turma e em todas as páginas que uma criança abre a partir dela, nada é carregado de outra empresa, nenhuma ferramenta de análise de acessos é executada e não há nenhuma tag de publicidade. As solicitações enviadas por essas páginas não levam nenhum cookie e não gravam nenhum. Para que a criança volte à própria lista, a aba do navegador lembra o lugar tocado por 20 minutos, somente no aparelho. Como todo servidor web, o nosso recebe o endereço IP do aparelho a cada solicitação; no caso da página da turma e das solicitações por trás dela, não gravamos esse endereço em nosso registro. Nosso registro geral de solicitações (endereço IP, horário, endereço da página) é mantido por segurança e apagado depois de 14 dias.
 
 ### Por quanto tempo guardamos
 
@@ -42,7 +42,7 @@ Na página da turma e em todas as páginas que uma criança abre a partir dela, 
 
 ### Onde os dados ficam
 
-Em um único banco de dados, em um servidor que alugamos da Hetzner Online GmbH (Alemanha), localizado na Finlândia. Os backups que contêm dados de turmas ficam somente nesse servidor. A Cloudflare, Inc. (Estados Unidos) entrega o site: cada solicitação, inclusive um resultado, passa pela rede dela e não é armazenada por ela além de breves registros técnicos. A Cloudflare é certificada no âmbito do EU-US Data Privacy Framework, e nosso contrato com ela contém as cláusulas contratuais padrão da UE. Essas duas empresas são as únicas que lidam com dados de turmas.
+Em um único banco de dados, em um servidor que alugamos da Hetzner Online GmbH (Alemanha), localizado na Finlândia. Os backups que contêm dados de turmas ficam somente nesse servidor. A Cloudflare, Inc. (Estados Unidos) entrega o site: cada solicitação, inclusive um resultado, passa pela rede dela e não é armazenada por ela além de breves registros técnicos. A Cloudflare é certificada no âmbito do EU-US Data Privacy Framework, e nosso contrato com ela contém as cláusulas-padrão contratuais da UE. Essas duas empresas são as únicas que lidam com dados de turmas.
 
 ### Seus direitos
 

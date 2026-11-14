@@ -4,7 +4,7 @@ Gli insegnanti con il piano Insegnante possono creare una classe su LessonCraftS
 
 ### Chi ne risponde
 
-La scuola decide se questa funzione viene usata e per quali bambini. Quando un insegnante lavora in una scuola, la scuola (o l’ente che la gestisce) è il «titolare del trattamento» dei dati della classe, e l’insegnante usa la funzione per suo conto. Un insegnante privato o un genitore che fa istruzione parentale è titolare in prima persona. Noi gestiamo la funzione per loro e seguiamo le loro istruzioni; in termini di protezione dei dati siamo il loro «responsabile del trattamento», in base alle [condizioni sul trattamento dei dati per le classi](/class-terms), che valgono per ogni classe e che una scuola può far controfirmare. Di due cose rispondiamo noi direttamente: la consegna sicura delle pagine (che usa l’indirizzo IP del dispositivo per il momento della richiesta) e l’account dell’insegnante.
+La scuola decide se questa funzione viene usata e per quali bambini. Quando un insegnante lavora in una scuola, la scuola (o l’ente che la gestisce) è il «titolare del trattamento» dei dati della classe, e l’insegnante usa la funzione per suo conto. Un insegnante privato o un genitore che fa istruzione parentale è titolare in prima persona. Noi gestiamo la funzione per loro e seguiamo le loro istruzioni; in termini di protezione dei dati siamo il loro «responsabile del trattamento», in base alle [condizioni sul trattamento dei dati per le classi](/class-terms), che valgono per ogni classe e che una scuola può far controfirmare. Di due cose rispondiamo noi direttamente: la consegna sicura delle pagine (che usa l’indirizzo IP del dispositivo per la durata della richiesta) e l’account dell’insegnante.
 
 ### Che cosa salviamo di un bambino
 
@@ -26,7 +26,7 @@ Sul sito, solo l’insegnante che ha creato la classe può vedere i risultati, d
 
 ### Per che cosa usiamo i dati
 
-Solo per mostrare agli insegnanti i risultati delle loro classi. Non usiamo i dati delle classi per la pubblicità, non li vendiamo, non li condividiamo con nessuno tranne le due aziende che ospitano e distribuiscono il sito (vedi sotto) e non li usiamo per addestrare alcun sistema. Non costruiamo alcun profilo di un bambino per scopi nostri. Una cosa è automatica e fa parte dell’insegnamento: in un set a livelli la pagina successiva è più facile o più difficile a seconda di come è andata l’ultima, e la schermata dell’insegnante ordina ogni risultato in «Quasi tutto giusto», «Qualche errore» o «Molti errori». Il sito non prende alcuna decisione su un bambino.
+Solo per mostrare agli insegnanti i risultati delle loro classi. Non usiamo i dati delle classi per la pubblicità, non li vendiamo, non li condividiamo con nessuno tranne le due aziende che ospitano e distribuiscono il sito (vedi sotto) e non li usiamo per addestrare alcun sistema. Non costruiamo alcun profilo di un bambino per scopi nostri. Una cosa è automatica e fa parte dell’insegnamento: in un set a livelli la pagina successiva è più facile o più difficile a seconda di come è andata l’ultima, e la schermata dell’insegnante classifica ogni risultato come «Quasi tutto giusto», «Qualche errore» o «Molti errori». Il sito non prende alcuna decisione su un bambino.
 
 ### Cookie e tracciamento
 

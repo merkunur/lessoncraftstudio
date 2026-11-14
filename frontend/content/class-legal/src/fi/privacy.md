@@ -4,12 +4,12 @@ Opettajat, joilla on Opettaja-paketti, voivat tehdä LessonCraftStudiossa luokan
 
 ### Kuka vastaa tiedoista
 
-Koulu päättää, käytetäänkö tätä toimintoa ja keiden lasten kanssa. Kun opettaja työskentelee koulussa, koulu (tai opetuksen järjestäjä, joka sitä ylläpitää) on luokan tietojen ”rekisterinpitäjä”, ja opettaja käyttää toimintoa sen lukuun. Yksityisopettaja tai lastaan kotona opettava vanhempi on itse rekisterinpitäjä. Me ylläpidämme toimintoa heitä varten ja noudatamme heidän ohjeitaan; tietosuojan kielellä olemme heidän ”henkilötietojen käsittelijänsä” [luokkia koskevien tietojenkäsittelyn ehtojen](/class-terms) mukaisesti; ehdot koskevat jokaista luokkaa, ja koulu voi pyytää ne molempien osapuolten allekirjoittamina. Kahdesta asiasta vastaamme itse: sivujen turvallisesta toimittamisesta (siinä käytetään laitteen IP-osoitetta pyynnön hetken ajan) ja opettajan omasta tilistä.
+Koulu päättää, käytetäänkö tätä toimintoa ja keiden lasten kanssa. Kun opettaja työskentelee koulussa, koulu (tai opetuksen järjestäjä, joka sitä ylläpitää) on luokan tietojen ”rekisterinpitäjä”, ja opettaja käyttää toimintoa sen lukuun. Yksityisopettaja tai lastaan kotona opettava vanhempi on itse rekisterinpitäjä. Me ylläpidämme toimintoa heitä varten ja noudatamme heidän ohjeitaan; tietosuojan kielellä olemme heidän ”henkilötietojen käsittelijänsä” [luokkia koskevien tietojenkäsittelyn ehtojen](/class-terms) mukaisesti; ehdot koskevat jokaista luokkaa, ja koulu voi pyytää ne molempien osapuolten allekirjoittamina. Kahdesta asiasta vastaamme itse: sivujen turvallisesta toimittamisesta (siinä käytetään laitteen IP-osoitetta pyynnön ajan) ja opettajan omasta tilistä.
 
 ### Mitä tallennamme lapsesta
 
 - **Ei nimeä.** Luokka toimii numeroilla: jokaisella lapsella on paikan numero ja eläimen kuva. Opettaja pitää itse listaa siitä, kenellä on mikä numero; me emme saa sitä koskaan.
-- **Tulokset**: jokaisesta tehtäväarkista, jonka lapsi tekee luokan linkin kautta: mikä tehtäväarkki se oli, milloin se avattiin, kuinka moni vastaus oli oikein, kun lapsi painoi ensimmäisen kerran ”Tarkista vastaukset”, ja milloin se tapahtui, kuinka monta vastausta oli, mitkä niistä olivat oikein, kuinka monta kertaa ”Tarkista vastaukset” painettiin ja tehtiinkö sivu loppuun. Tasosarjasta tallennamme lisäksi, mikä taso sivu oli.
+- **Tulokset**: jokaisesta tehtäväarkista, jonka lapsi tekee luokan linkin kautta: mikä tehtäväarkki se oli, milloin se avattiin, kuinka moni vastaus oli oikein, kun lapsi painoi ensimmäisen kerran ”Tarkista vastaukset”, ja milloin se tapahtui, kuinka monta vastausta oli, mitkä niistä olivat oikein, kuinka monta kertaa ”Tarkista vastaukset” painettiin ja tehtiinkö sivu loppuun. Tasosarjasta tallennamme lisäksi, millä tasolla sivu oli.
 - **Luokka**: nimi, jonka opettaja antoi sille, ja sen kieli. Luokan nimi näkyy luokan sivulla, joten opettajan ei pidä kirjoittaa siihen kenenkään henkilön nimeä.
 
 Siinä kaikki. Emme kysy emmekä tallenna sukunimeä, syntymäaikaa, sähköpostiosoitetta, valokuvaa, osoitetta tai sijaintia. Emme tallenna sitä, mitä lapsi kirjoitti tai piirsi, vaan ainoastaan sen, oliko vastaus oikein. Ajastinta ei ole käynnissä, eikä kenellekään näytetä, kuinka kauan lapsella kesti.
@@ -18,7 +18,7 @@ Siinä kaikki. Emme kysy emmekä tallenna sukunimeä, syntymäaikaa, sähköpost
 
 Lapsi avaa luokan linkin, napauttaa omaa numeroaan ja kuvaansa ja tekee tehtäväarkin. Ei tiliä, ei salasanaa, ei mitään asennettavaa. Lapsi ei näe pisteitä, sijoituksia eikä ajastinta. Luokan sivu on yhteinen: lapsi, joka napauttaa toista paikkaa, näkee, mitkä tehtäväarkit se paikka on jo tehnyt (tehty tai ei tehty, ei koskaan sitä, kuinka moni vastaus oli oikein).
 
-Luokan sivu näyttää koko luokan paikat (numerot ja kuvat), jotta jokainen lapsi löytää omansa. Jokainen, jolla on luokan linkki, voi avata tämän sivun, joten opettajan pitää jakaa linkki vain luokalle. Linkissä on pitkä satunnainen avain, ja opettaja voi vaihtaa sen milloin tahansa, jolloin vanha linkki kytkeytyy pois käytöstä.
+Luokan sivu näyttää koko luokan paikat (numerot ja kuvat), jotta jokainen lapsi löytää omansa. Jokainen, jolla on luokan linkki, voi avata tämän sivun, joten opettajan pitää jakaa linkki vain luokalle. Linkissä on pitkä satunnainen avain, ja opettaja voi vaihtaa sen milloin tahansa, jolloin vanha linkki lakkaa toimimasta.
 
 ### Kuka voi nähdä tulokset
 
@@ -26,7 +26,7 @@ Sivustolla tulokset näkee vain luokan tehnyt opettaja sisäänkirjautuneena. Em
 
 ### Mihin käytämme tietoja
 
-Vain siihen, että näytämme opettajille heidän omien luokkiensa tulokset. Emme käytä luokkien tietoja mainontaan, emme myy niitä, emme jaa niitä kenellekään muulle kuin kahdelle yritykselle, jotka huolehtivat sivuston palvelimesta ja toimittamisesta (ks. alla), emmekä käytä niitä minkään järjestelmän kouluttamiseen. Emme muodosta lapsesta profiilia mihinkään omaan tarkoitukseemme. Yksi asia tapahtuu automaattisesti ja kuuluu opetukseen: tasosarjassa seuraava sivu on helpompi tai vaikeampi sen mukaan, miten edellinen sujui, ja opettajan näkymä lajittelee jokaisen tuloksen ryhmään ”Lähes kaikki oikein”, ”Muutama väärin” tai ”Monta väärin”. Sivusto ei tee lapsesta mitään päätöstä.
+Vain siihen, että näytämme opettajille heidän omien luokkiensa tulokset. Emme käytä luokkien tietoja mainontaan, emme myy niitä, emme jaa niitä kenellekään muulle kuin kahdelle yritykselle, jotka huolehtivat sivuston palvelimesta ja toimittamisesta (ks. alla), emmekä käytä niitä minkään järjestelmän kouluttamiseen. Emme muodosta lapsesta profiilia mihinkään omaan tarkoitukseemme. Yksi asia tapahtuu automaattisesti ja kuuluu opetukseen: tasosarjassa seuraava sivu on helpompi tai vaikeampi sen mukaan, miten edellinen sujui, ja opettajan näkymä lajittelee jokaisen tuloksen ryhmään ”Lähes kaikki oikein”, ”Muutama väärin” tai ”Monta väärin”. Sivusto ei tee mitään lasta koskevia päätöksiä.
 
 ### Evästeet ja seuranta
 
@@ -46,7 +46,7 @@ Yhdessä tietokannassa palvelimella, jonka vuokraamme Hetzner Online GmbH:lta (S
 
 ### Oikeutesi
 
-Huoltajilla ja lapsilla on oikeus nähdä, mitä on tallennettu, saada tiedot oikaistuksi tai poistetuksi, saada niiden käyttöä rajoitetuksi ja vastustaa käyttöä. Koska koulu vastaa luokasta ja vain opettaja tietää, mikä paikka on kenenkin lapsen, pyydämme kysymään ensin opettajalta tai koululta; me autamme heitä vastaamaan. Voit myös kirjoittaa meille osoitteeseen support@lessoncraftstudio.com; välitämme pyynnön opettajalle viipymättä. Voit milloin tahansa tehdä valituksen oman maasi tietosuojaviranomaiselle. LessonCraftStudion tilit on tarkoitettu aikuisille (18 vuotta täyttäneille); lapset eivät koskaan tee tiliä.
+Huoltajilla ja lapsilla on oikeus nähdä, mitä on tallennettu, saada tiedot oikaistuksi tai poistetuksi, saada niiden käyttö rajoitetuksi ja vastustaa käyttöä. Koska koulu vastaa luokasta ja vain opettaja tietää, mikä paikka on kenenkin lapsen, pyydämme kysymään ensin opettajalta tai koululta; me autamme heitä vastaamaan. Voit myös kirjoittaa meille osoitteeseen support@lessoncraftstudio.com; välitämme pyynnön opettajalle viipymättä. Voit milloin tahansa tehdä valituksen oman maasi tietosuojaviranomaiselle. LessonCraftStudion tilit on tarkoitettu aikuisille (18 vuotta täyttäneille); lapset eivät koskaan tee tiliä.
 
 ### Yhdysvallat
 

@@ -14,9 +14,9 @@ im Unterricht üben wir manchmal am Bildschirm mit Arbeitsblättern von LessonCr
 - Kein Name: nur eine Nummer und ein Tierbild. Die Liste, welches Kind welche Nummer hat, führe ich selbst.
 - Zu jedem Arbeitsblatt: welches Arbeitsblatt es war, wann es geöffnet wurde, wie viele Antworten richtig waren und welche, wie oft die Antworten geprüft wurden und ob die Seite abgeschlossen wurde.
 
-**Was nicht gespeichert wird.** Kein Nachname, kein Geburtsdatum, kein Foto, keine Adresse, keine E-Mail-Adresse. Die Website zeichnet nicht auf, was Ihr Kind eintippt, und es läuft keine Uhr.
+**Was nicht gespeichert wird.** Kein Nachname, kein Geburtsdatum, kein Foto, keine Adresse, keine E-Mail-Adresse. Die Website zeichnet nicht auf, was Ihr Kind eintippt, und es läuft keine Stoppuhr.
 
-**Wer es sieht.** Nur ich kann die Ergebnisse sehen. Andere Eltern und andere Lehrkräfte können das nicht. Auf der gemeinsamen Klassenseite kann ein Kind sehen, welche Arbeitsblätter ein anderer Platz fertig bearbeitet hat, aber nie, wie viele Antworten richtig waren. Ihr Kind sieht keine Punktzahlen, keine Rangliste und keine Uhr.
+**Wer es sieht.** Nur ich kann die Ergebnisse sehen. Andere Eltern und andere Lehrkräfte können das nicht. Auf der gemeinsamen Klassenseite kann ein Kind sehen, welche Arbeitsblätter ein anderer Platz fertig bearbeitet hat, aber nie, wie viele Antworten richtig waren. Ihr Kind sieht keine Punktzahlen, keine Rangliste und keine Stoppuhr.
 
 **Wofür es verwendet wird.** Nur für meinen Unterricht. Es wird nicht für Werbung verwendet und nicht verkauft. Gespeichert wird es für [Name der Schule] auf einem Server in Finnland vom Betreiber der Website, der es nur dafür verwenden darf.
 

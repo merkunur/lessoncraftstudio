@@ -1,6 +1,6 @@
 # Bilhete para os responsáveis
 
-> **Para o professor (este bloco não faz parte do bilhete):** Use este bilhete somente se a sua escola permitir que você use esta ferramenta. Ele informa os pais ou responsáveis; não substitui as informações de privacidade da sua escola. Imprima ou envie; preencha as partes entre colchetes. Uma página, sem vocabulário jurídico.
+> **Para o professor (este quadro não faz parte do bilhete):** Use este bilhete somente se a sua escola permitir que você use esta ferramenta. Ele informa os pais ou responsáveis; não substitui as informações de privacidade da sua escola. Imprima ou envie; preencha as partes entre colchetes. Uma página, sem vocabulário jurídico.
 
 ---
 
@@ -18,7 +18,7 @@ Na aula, às vezes praticamos na tela com atividades do LessonCraftStudio. Para 
 
 **Quem vê.** Só eu posso ver os resultados. Outros pais ou responsáveis e outros professores não podem. Na página compartilhada da turma, uma criança pode ver quais atividades outro lugar terminou, mas nunca quantas respostas estavam certas. Seu filho ou sua filha não vê pontuação, nem ranking, nem cronômetro.
 
-**Para que serve.** Somente para o meu ensino. Não é usado para publicidade e não é vendido. Fica guardado para [nome da escola] em um servidor na Finlândia por quem mantém o site, que só pode usá-lo para isso.
+**Para que serve.** Somente para o meu ensino. Não é usado para publicidade e não é vendido. Quem mantém o site guarda esses dados para [nome da escola] em um servidor na Finlândia e só pode usá-los para isso.
 
 **Por quanto tempo fica guardado.** Posso apagar os resultados do seu filho ou da sua filha a qualquer momento. Cada resultado é apagado automaticamente depois de 14 meses, no máximo[, e no fim do ano letivo eu apago a turma].
 

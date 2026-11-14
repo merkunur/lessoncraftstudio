@@ -4,7 +4,7 @@ Lærere med pakken Lærer kan oprette en klasse på LessonCraftStudio, give elev
 
 ### Hvem der er ansvarlig
 
-Skolen bestemmer, om funktionen bruges, og for hvilke børn. Når en lærer arbejder på en skole, er skolen (eller den myndighed, der driver den) »dataansvarlig« for klassens oplysninger, og læreren bruger funktionen på skolens vegne. En privatlærer eller en forælder, der hjemmeunderviser, er selv dataansvarlig. Vi driver funktionen for dem og følger deres instrukser; i databeskyttelsens sprog er vi deres »databehandler« i henhold til [vilkårene for databehandling for klasser](/class-terms), som gælder for hver klasse, og som en skole kan få underskrevet af begge parter. For to ting er vi selv ansvarlige: at levere siderne sikkert (hvortil enhedens IP-adresse bruges i det øjeblik, anmodningen varer) og lærerens egen konto.
+Skolen bestemmer, om funktionen bruges, og for hvilke børn. Når en lærer arbejder på en skole, er skolen (eller den myndighed, der driver den) »dataansvarlig« for klassens oplysninger, og læreren bruger funktionen på skolens vegne. En privatlærer eller en forælder, der hjemmeunderviser, er selv dataansvarlig. Vi driver funktionen for dem og følger deres instrukser; i databeskyttelsesreglernes forstand er vi deres »databehandler« i henhold til [vilkårene for databehandling for klasser](/class-terms), som gælder for hver klasse, og som en skole kan få underskrevet af begge parter. For to ting er vi selv ansvarlige: at levere siderne sikkert (hvortil enhedens IP-adresse bruges, så længe anmodningen varer) og lærerens egen konto.
 
 ### Hvad vi gemmer om et barn
 
@@ -22,7 +22,7 @@ Klassens side viser hele klassens pladser (numre og billeder), så hvert barn ka
 
 ### Hvem der kan se resultaterne
 
-På webstedet kan kun den lærer, der oprettede klassen, se resultaterne, når læreren er logget ind. Vi viser ikke resultater til andre lærere, til andre kunder eller til offentligheden, og der er ingen side til forældre. Vi selv kigger ikke på klasseoplysninger; vi kan kun få adgang til databasen for at drive og reparere tjenesten. En forælder, der vil se, hvad der er gemt om sit barn, spørger læreren eller skolen.
+På webstedet kan kun den lærer, der oprettede klassen, se resultaterne, når læreren er logget ind. Vi viser ikke resultater til andre lærere, til andre kunder eller til offentligheden, og der er ingen side til forældre. Vi kigger ikke selv på klasseoplysninger; vi kan kun få adgang til databasen for at drive og reparere tjenesten. En forælder, der vil se, hvad der er gemt om barnet, spørger læreren eller skolen.
 
 ### Hvad vi bruger oplysningerne til
 
@@ -46,7 +46,7 @@ I én database på en server, vi lejer af Hetzner Online GmbH (Tyskland), og som
 
 ### Dine rettigheder
 
-Forældre og børn har ret til at se, hvad der er gemt, til at få det rettet eller slettet, til at få brugen begrænset og til at gøre indsigelse mod den. Fordi skolen er ansvarlig for klassen, og kun læreren ved, hvilken plads der er hvilket barn, beder vi dig spørge læreren eller skolen først; vi hjælper dem med at svare. Du kan også skrive til os på support@lessoncraftstudio.com; vi sender anmodningen videre til læreren uden ophold. Du kan til enhver tid klage til databeskyttelsesmyndigheden i dit land. Konti på LessonCraftStudio er for voksne (18 år eller ældre); børn opretter aldrig en konto.
+Forældre og børn har ret til at se, hvad der er gemt, til at få det rettet eller slettet, til at få brugen begrænset og til at gøre indsigelse mod den. Fordi skolen er ansvarlig for klassen, og kun læreren ved, hvilken plads der hører til hvilket barn, beder vi dig spørge læreren eller skolen først; vi hjælper dem med at svare. Du kan også skrive til os på support@lessoncraftstudio.com; vi sender anmodningen videre til læreren uden ophold. Du kan til enhver tid klage til databeskyttelsesmyndigheden i dit land. Konti på LessonCraftStudio er for voksne (18 år eller ældre); børn opretter aldrig en konto.
 
 ### USA
 

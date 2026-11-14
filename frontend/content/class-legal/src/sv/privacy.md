@@ -4,7 +4,7 @@ Lärare med paketet Lärare kan skapa en klass på LessonCraftStudio, ge elevern
 
 ### Vem som är ansvarig
 
-Skolan bestämmer om funktionen används och för vilka barn. När en lärare arbetar på en skola är skolan (eller huvudmannen som driver den) ”personuppgiftsansvarig” för klassens uppgifter, och läraren använder funktionen för skolans räkning. En privatlärare eller en förälder som undervisar sitt barn hemma är själv personuppgiftsansvarig. Vi driver funktionen åt dem och följer deras instruktioner; med dataskyddets ord är vi deras ”personuppgiftsbiträde”, enligt [villkoren för behandling av personuppgifter för klasser](/class-terms), som gäller för varje klass och som en skola kan få undertecknade av båda parter. För två saker är vi själva ansvariga: att leverera sidorna säkert (då används enhetens IP-adress under den stund begäran pågår) och lärarens eget konto.
+Skolan bestämmer om funktionen används och för vilka barn. När en lärare arbetar på en skola är skolan (eller huvudmannen som driver den) ”personuppgiftsansvarig” för klassens uppgifter, och läraren använder funktionen för skolans räkning. En privatlärare eller en förälder som undervisar sitt barn hemma är själv personuppgiftsansvarig. Vi driver funktionen åt dem och följer deras instruktioner; i dataskyddsreglernas mening är vi deras ”personuppgiftsbiträde”, enligt [villkoren för behandling av personuppgifter för klasser](/class-terms), som gäller för varje klass och som en skola kan få undertecknade av båda parter. För två saker är vi själva ansvariga: att leverera sidorna säkert (då används enhetens IP-adress så länge förfrågan pågår) och lärarens eget konto.
 
 ### Vad vi sparar om ett barn
 
@@ -12,17 +12,17 @@ Skolan bestämmer om funktionen används och för vilka barn. När en lärare ar
 - **Resultat**: för varje arbetsblad som ett barn gör via klasslänken: vilket arbetsblad det var, när det öppnades, hur många svar som var rätt när barnet första gången tryckte på ”Kontrollera svar” och när det var, hur många svar det fanns, vilka som var rätt, hur många gånger barnet tryckte på ”Kontrollera svar” och om sidan gjordes klar. För ett nivåset sparar vi också vilken nivå sidan hade.
 - **Klassen**: namnet som läraren gav den och dess språk. Klassens namn visas på klassens sida, så en lärare bör inte skriva en persons namn i det.
 
-Det är allt. Vi frågar inte efter och sparar inte efternamn, födelsedatum, e-postadress, foto, adress eller plats. Vi sparar inte vad ett barn har skrivit eller ritat, bara om ett svar var rätt. Ingen tidtagning pågår, och ingen får se hur lång tid ett barn tog på sig.
+Det är allt. Vi frågar inte efter och sparar inte efternamn, födelsedatum, e-postadress, foto, adress eller var barnet befinner sig. Vi sparar inte vad ett barn har skrivit eller ritat, bara om ett svar var rätt. Ingen tidtagning pågår, och ingen får se hur lång tid ett barn tog på sig.
 
 ### Så fungerar det för ett barn
 
-Ett barn öppnar klasslänken, trycker på sitt eget nummer och sin bild och gör arbetsbladet. Inget konto, inget lösenord, inget att installera. Barnet ser inga poäng, ingen rangordning och ingen tidtagning. Klassens sida är gemensam: ett barn som trycker på en annan plats ser vilka arbetsblad den platsen redan har gjort (gjort eller inte gjort, aldrig hur många svar som var rätt).
+Ett barn öppnar klasslänken, trycker på sitt eget nummer och sin bild och gör arbetsbladet. Inget konto, inget lösenord, inget att installera. Barnet ser inga poäng, ingen topplista och ingen tidtagning. Klassens sida är gemensam: ett barn som trycker på en annan plats ser vilka arbetsblad den platsen redan har gjort (gjort eller inte gjort, aldrig hur många svar som var rätt).
 
 Klassens sida visar hela klassens platser (nummer och bilder) så att varje barn kan hitta sin egen. Alla som har klasslänken kan öppna den sidan, så en lärare bör bara dela länken med klassen. Länken innehåller en lång slumpmässig nyckel, och läraren kan när som helst byta ut den, vilket stänger av den gamla länken.
 
 ### Vem som kan se resultaten
 
-På webbplatsen kan bara den lärare som skapade klassen se resultaten, som inloggad. Vi visar inte resultat för andra lärare, andra kunder eller allmänheten, och det finns ingen sida för vårdnadshavare. Vi själva tittar inte på klassuppgifter; vi kan bara komma åt databasen för att driva och reparera tjänsten. En vårdnadshavare som vill se vad som är sparat om sitt barn frågar läraren eller skolan.
+På webbplatsen kan bara den lärare som skapade klassen se resultaten, och bara som inloggad. Vi visar inte resultat för andra lärare, andra kunder eller allmänheten, och det finns ingen sida för vårdnadshavare. Vi tittar inte själva på klassuppgifter; vi kan bara komma åt databasen för att driva och reparera tjänsten. En vårdnadshavare som vill se vad som är sparat om barnet frågar läraren eller skolan.
 
 ### Vad vi använder uppgifterna till
 

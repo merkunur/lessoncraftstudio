@@ -38,7 +38,7 @@ Jokaista LessonCraftStudiossa, jolla on pääsy tietoihin, sitoo salassapitovelv
 LessonCraftStudio pitää yllä vähintään nämä toimenpiteet:
 
 - Siirron salaus (HTTPS) jokaisella sivulla ja jokaisessa pyynnössä.
-- Tuloksia voi lukea vain luokan omistava opettaja kirjauduttuaan sisään; jokainen pyyntö tarkistetaan palvelimella omistajaa vasten.
+- Tuloksia voi lukea vain luokan omistava opettaja kirjauduttuaan sisään; jokaisen pyynnön kohdalla palvelin tarkistaa, että se tulee omistajalta.
 - Luokan linkissä on satunnainen 10 merkin avain, jonka merkit valitaan 32 symbolista; opettaja voi vaihtaa sen milloin tahansa. Tulos sidotaan paikkaan satunnaisella 20 merkin kertakäyttöisellä tunnisteella.
 - Lapsen tulospyynnössä ei kulje evästettä; laitteen tunnistetta ei tallenneta.
 - Tietokanta on yhdellä palvelimella Suomessa, ja ylläpitoa varten siihen pääsee vain henkilökohtaisella avaimella. Tietokannan varmuuskopioita säilytetään tällä palvelimella 7 päivää; palvelimelta lähtevä kopio ei sisällä luokkien tietoja.

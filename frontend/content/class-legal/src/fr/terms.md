@@ -86,7 +86,7 @@ Les données de classe sont conservées en Finlande. Elles passent par le résea
 
 ## 15. Droit applicable et ordre de priorité
 
-Lorsque l’École se trouve dans l’Espace économique européen, au Royaume-Uni ou en Suisse, le présent accord est régi par le droit du pays de l’École et les tribunaux du siège de l’École sont compétents. Dans les autres cas, il est régi par le droit de la Suède. Une école publique des États-Unis est régie par le droit de son propre État. Lorsque le présent accord et les conditions générales diffèrent au sujet des données à caractère personnel, le présent accord s’applique.
+Lorsque l’École se trouve dans l’Espace économique européen, au Royaume-Uni ou en Suisse, le présent accord est régi par le droit du pays de l’École et les tribunaux du siège de l’École sont compétents. Dans les autres cas, il est régi par le droit de la Suède. Pour une école publique des États-Unis, c’est le droit de son propre État qui s’applique. Lorsque le présent accord et les conditions générales diffèrent au sujet des données à caractère personnel, le présent accord s’applique.
 
 ## 16. Écoles aux États-Unis
 

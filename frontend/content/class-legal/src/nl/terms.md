@@ -2,7 +2,7 @@
 
 **Tussen**
 
-de school of het schoolbestuur dat bij de aanvaarding is genoemd, vertegenwoordigd door een persoon die bevoegd is om ervoor te tekenen, of iemand die bijles of thuisonderwijs geeft en alleen over de gegevens beslist (‘de School’, de verwerkingsverantwoordelijke), en
+de school of het schoolbestuur dat bij de aanvaarding is genoemd, vertegenwoordigd door een persoon die bevoegd is om ervoor te tekenen, of iemand die bijles of thuisonderwijs geeft en als enige over de gegevens beslist (‘de School’, de verwerkingsverantwoordelijke), en
 
 Riza Kunur Genc (LessonCraftStudio), Björkvägen 15D, 459 31 Ljungskile, Zweden, die LessonCraftStudio als particulier exploiteert (‘LessonCraftStudio’, de verwerker).
 
@@ -38,7 +38,7 @@ Iedereen bij LessonCraftStudio die toegang tot de gegevens heeft, is tot geheimh
 LessonCraftStudio houdt ten minste deze maatregelen in stand:
 
 - Transportversleuteling (HTTPS) voor elke pagina en elk verzoek.
-- Resultaten kunnen alleen worden gelezen door de leerkracht van wie de klas is, na het inloggen; elk verzoek wordt op de server gecontroleerd tegen die eigenaar.
+- Resultaten kunnen alleen worden gelezen door de leerkracht van wie de klas is, na het inloggen; bij elk verzoek controleert de server of het van die eigenaar komt.
 - Een klaslink bevat een willekeurige sleutel van 10 tekens uit 32 symbolen; de leerkracht kan die op elk moment vervangen. Een resultaat is aan een plek gekoppeld met een willekeurig eenmalig token van 20 tekens.
 - Het verzoek waarmee het resultaat van een kind wordt verstuurd, bevat geen cookie; er wordt geen apparaatidentificatie opgeslagen.
 - De database staat op één server in Finland, die voor beheer alleen met een persoonlijke sleutel bereikbaar is. Back-ups van de database worden 7 dagen op die server bewaard; een kopie die de server verlaat, bevat geen klasgegevens.

@@ -4,7 +4,7 @@ Lehrkräfte mit dem Paket „Lehrkraft“ können auf LessonCraftStudio eine Kla
 
 ### Wer verantwortlich ist
 
-Die Schule entscheidet, ob diese Funktion genutzt wird und für welche Kinder. Arbeitet eine Lehrkraft an einer Schule, ist die Schule (oder der Träger, der sie betreibt) der „Verantwortliche“ für die Klassendaten, und die Lehrkraft nutzt die Funktion in ihrem Auftrag. Wer privat Nachhilfe gibt oder als Elternteil das eigene Kind zu Hause unterrichtet, ist selbst Verantwortlicher. Wir betreiben die Funktion für sie und handeln nach ihren Weisungen; datenschutzrechtlich sind wir ihr „Auftragsverarbeiter“, und zwar nach den [Bedingungen zur Datenverarbeitung für Klassen](/class-terms), die für jede Klasse gelten und die eine Schule gegenzeichnen lassen kann. Für zwei Dinge sind wir selbst verantwortlich: die sichere Auslieferung der Seiten (dafür wird die IP-Adresse des Geräts für den Moment der Anfrage verwendet) und das eigene Konto der Lehrkraft.
+Die Schule entscheidet, ob diese Funktion genutzt wird und für welche Kinder. Arbeitet eine Lehrkraft an einer Schule, ist die Schule (oder der Träger, der sie betreibt) der „Verantwortliche“ für die Klassendaten, und die Lehrkraft nutzt die Funktion im Auftrag der Schule. Wer privat Nachhilfe gibt oder als Elternteil das eigene Kind zu Hause unterrichtet, ist selbst Verantwortlicher. Wir betreiben die Funktion für sie und handeln nach ihren Weisungen; datenschutzrechtlich sind wir ihr „Auftragsverarbeiter“, und zwar nach den [Bedingungen zur Auftragsverarbeitung für Klassen](/class-terms), die für jede Klasse gelten und die eine Schule gegenzeichnen lassen kann. Für zwei Dinge sind wir selbst verantwortlich: die sichere Auslieferung der Seiten (dafür wird die IP-Adresse des Geräts für den Moment der Anfrage verwendet) und das eigene Konto der Lehrkraft.
 
 ### Was wir über ein Kind speichern
 
@@ -12,11 +12,11 @@ Die Schule entscheidet, ob diese Funktion genutzt wird und für welche Kinder. A
 - **Ergebnisse**: für jedes Arbeitsblatt, das ein Kind über den Klassenlink bearbeitet: welches Arbeitsblatt es war, wann es geöffnet wurde, wie viele Antworten richtig waren, als das Kind zum ersten Mal auf „Antworten prüfen“ gedrückt hat, und wann das war, wie viele Antworten es gab, welche davon richtig waren, wie oft „Antworten prüfen“ gedrückt wurde und ob die Seite abgeschlossen wurde. Bei einem Niveau-Set speichern wir außerdem, welche Stufe die Seite hatte.
 - **Die Klasse**: der Name, den die Lehrkraft ihr gegeben hat, und ihre Sprache. Der Name der Klasse wird auf der Klassenseite angezeigt; eine Lehrkraft sollte deshalb keinen Namen einer Person hineinschreiben.
 
-Das ist alles. Wir fragen nicht nach Nachname, Geburtsdatum, E-Mail-Adresse, Foto, Anschrift oder Standort und speichern nichts davon. Wir speichern nicht, was ein Kind getippt oder gezeichnet hat, sondern nur, ob eine Antwort richtig war. Es läuft keine Uhr, und niemandem wird angezeigt, wie lange ein Kind gebraucht hat.
+Das ist alles. Wir fragen nicht nach Nachname, Geburtsdatum, E-Mail-Adresse, Foto, Anschrift oder Standort und speichern nichts davon. Wir speichern nicht, was ein Kind getippt oder gezeichnet hat, sondern nur, ob eine Antwort richtig war. Es läuft keine Stoppuhr, und niemandem wird angezeigt, wie lange ein Kind gebraucht hat.
 
 ### So funktioniert es für ein Kind
 
-Ein Kind öffnet den Klassenlink, tippt auf seine eigene Nummer und sein Bild und bearbeitet das Arbeitsblatt. Kein Konto, kein Passwort, nichts zu installieren. Das Kind sieht keine Punktzahl, keine Rangliste und keine Uhr. Die Klassenseite wird gemeinsam genutzt: Ein Kind, das auf einen anderen Platz tippt, sieht, welche Arbeitsblätter dieser Platz schon bearbeitet hat (bearbeitet oder nicht bearbeitet, nie, wie viele Antworten richtig waren).
+Ein Kind öffnet den Klassenlink, tippt auf seine eigene Nummer und sein Bild und bearbeitet das Arbeitsblatt. Kein Konto, kein Passwort, nichts zu installieren. Das Kind sieht keine Punktzahl, keine Rangliste und keine Stoppuhr. Die Klassenseite wird gemeinsam genutzt: Ein Kind, das auf einen anderen Platz tippt, sieht, welche Arbeitsblätter dieser Platz schon bearbeitet hat (bearbeitet oder nicht bearbeitet, nie, wie viele Antworten richtig waren).
 
 Die Klassenseite zeigt die Plätze der ganzen Klasse (Nummern und Bilder), damit jedes Kind seinen eigenen findet. Jeder, der den Klassenlink hat, kann diese Seite öffnen; eine Lehrkraft sollte den Link deshalb nur an die Klasse weitergeben. Der Link enthält einen langen zufälligen Schlüssel, und die Lehrkraft kann ihn jederzeit ersetzen; damit wird der alte Link abgeschaltet.
 
@@ -30,7 +30,7 @@ Nur dafür, Lehrkräften die Ergebnisse ihrer eigenen Klassen zu zeigen. Wir ver
 
 ### Cookies und Tracking
 
-Auf der Klassenseite und auf jeder Seite, die ein Kind von dort aus öffnet, wird nichts von einem anderen Unternehmen geladen, es läuft keine Analyse-Software und es ist kein Werbe-Tag vorhanden. Die Anfragen, die diese Seiten senden, enthalten kein Cookie und setzen keines. Damit ein Kind wieder zu seiner eigenen Liste kommt, merkt sich der Browser-Tab den angetippten Platz 20 Minuten lang, und zwar nur auf dem Gerät. Wie jeder Webserver erhält auch unserer mit jeder Anfrage die IP-Adresse des Geräts; bei der Klassenseite und den Anfragen dahinter schreiben wir diese Adresse nicht in unser Protokoll. Unser allgemeines Protokoll der Anfragen (IP-Adresse, Uhrzeit, Adresse der Seite) wird aus Sicherheitsgründen geführt und nach 14 Tagen gelöscht.
+Auf der Klassenseite und auf jeder Seite, die ein Kind von dort aus öffnet, wird nichts von einem anderen Unternehmen geladen, es läuft keine Analyse-Software und es ist kein Werbe-Code eingebunden. Die Anfragen, die diese Seiten senden, enthalten kein Cookie und setzen keines. Damit ein Kind wieder zu seiner eigenen Liste kommt, merkt sich der Browser-Tab den angetippten Platz 20 Minuten lang, und zwar nur auf dem Gerät. Wie jeder Webserver erhält auch unserer mit jeder Anfrage die IP-Adresse des Geräts; bei der Klassenseite und den Anfragen dahinter schreiben wir diese Adresse nicht in unser Protokoll. Unser allgemeines Protokoll der Anfragen (IP-Adresse, Uhrzeit, Adresse der Seite) wird aus Sicherheitsgründen geführt und nach 14 Tagen gelöscht.
 
 ### Wie lange wir die Daten aufbewahren
 
@@ -46,7 +46,7 @@ In einer einzigen Datenbank auf einem Server, den wir von der Hetzner Online Gmb
 
 ### Ihre Rechte
 
-Eltern und Kinder haben das Recht, zu sehen, was gespeichert ist, es berichtigen oder löschen zu lassen, die Verwendung einschränken zu lassen und ihr zu widersprechen. Weil die Schule für die Klasse verantwortlich ist und nur die Lehrkraft weiß, welcher Platz zu welchem Kind gehört, wenden Sie sich bitte zuerst an die Lehrkraft oder die Schule; wir helfen ihnen bei der Antwort. Sie können uns auch an support@lessoncraftstudio.com schreiben; wir leiten die Anfrage unverzüglich an die Lehrkraft weiter. Sie können sich jederzeit bei der Datenschutzaufsichtsbehörde Ihres Landes beschweren. Konten auf LessonCraftStudio sind für Erwachsene (18 Jahre oder älter); Kinder legen nie ein Konto an.
+Eltern und Kinder haben das Recht, zu sehen, was gespeichert ist, es berichtigen oder löschen zu lassen, die Verwendung einschränken zu lassen und ihr zu widersprechen. Weil die Schule für die Klasse verantwortlich ist und nur die Lehrkraft weiß, welcher Platz zu welchem Kind gehört, wenden Sie sich bitte zuerst an die Lehrkraft oder die Schule; wir helfen ihnen bei der Antwort. Sie können uns auch unter support@lessoncraftstudio.com schreiben; wir leiten die Anfrage unverzüglich an die Lehrkraft weiter. Sie können sich jederzeit bei der Datenschutzaufsichtsbehörde Ihres Landes beschweren. Konten auf LessonCraftStudio sind für Erwachsene (18 Jahre oder älter); Kinder legen nie ein Konto an.
 
 ### Vereinigte Staaten
 

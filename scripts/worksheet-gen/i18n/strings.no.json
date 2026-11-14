@@ -4949,5 +4949,13 @@
   "G2-510": {
     "title": "Hvor mange fra starten? Regnefortellinger til 100",
     "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-511": {
+    "title": "Regnefortellinger i to steg til 100",
+    "instruction": "Les hver regnefortelling. Regn først det første steget og så det andre. Skriv tallene i rutene."
+  },
+  "G2-512": {
+    "title": "Sammenligningsfortellinger til 100 med to blokker",
+    "instruction": "Les hver regnefortelling. Skriv i de to blokkene og i den stiplede delen de to tallene du kjenner, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
   }
 }

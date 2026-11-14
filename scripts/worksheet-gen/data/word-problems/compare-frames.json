@@ -1,0 +1,69 @@
+{
+ "$comment": "COMPARE stories with the larger or the smaller amount unknown, two-digit numbers (Year pages S, 2026-11-14; 2.OA.A.1 'compare, bigger unknown / smaller unknown', de 'Vergleichsaufgaben', sv 'jämförelse'): a red box holds {n1} things, {n2} is the difference, and the blue box is asked. `more` and `fewer` say the difference of the BLUE box (consistent language: more → add, fewer → subtract). `moreThan` and `fewerThan` say that the RED box has {n2} more / fewer than the blue box (inconsistent language: 'more' → subtract, 'fewer' → add; the hard kind). The difference-unknown story is the first compare frame of within-100-frames.json. Slots: {n1} {n2} {noun}, {Q} = how many, agreeing (es, pt, it). The thing is named after the first number and after 'how many' only. Read by a native reader (2026-11-14). Only the compare page with two bars reads this file.",
+ "en": {
+  "more": "There are {n1} {noun} in a red box. A blue box has {n2} more {noun} than the red box. How many {noun} are in the blue box?",
+  "fewer": "There are {n1} {noun} in a red box. A blue box has {n2} fewer {noun} than the red box. How many {noun} are in the blue box?",
+  "moreThan": "There are {n1} {noun} in a red box. That is {n2} more than in the blue box. How many {noun} are in the blue box?",
+  "fewerThan": "There are {n1} {noun} in a red box. That is {n2} fewer than in the blue box. How many {noun} are in the blue box?"
+ },
+ "de": {
+  "more": "In einer roten Kiste sind {n1} {noun}. In einer blauen Kiste sind {n2} mehr als in der roten Kiste. Wie viele {noun} sind in der blauen Kiste?",
+  "fewer": "In einer roten Kiste sind {n1} {noun}. In einer blauen Kiste sind {n2} weniger als in der roten Kiste. Wie viele {noun} sind in der blauen Kiste?",
+  "moreThan": "In einer roten Kiste sind {n1} {noun}. Das sind {n2} mehr als in der blauen Kiste. Wie viele {noun} sind in der blauen Kiste?",
+  "fewerThan": "In einer roten Kiste sind {n1} {noun}. Das sind {n2} weniger als in der blauen Kiste. Wie viele {noun} sind in der blauen Kiste?"
+ },
+ "es": {
+  "more": "Hay {n1} {noun} en una caja roja. En una caja azul hay {n2} más que en la caja roja. ¿{Q} {noun} hay en la caja azul?",
+  "fewer": "Hay {n1} {noun} en una caja roja. En una caja azul hay {n2} menos que en la caja roja. ¿{Q} {noun} hay en la caja azul?",
+  "moreThan": "Hay {n1} {noun} en una caja roja. Son {n2} más que en la caja azul. ¿{Q} {noun} hay en la caja azul?",
+  "fewerThan": "Hay {n1} {noun} en una caja roja. Son {n2} menos que en la caja azul. ¿{Q} {noun} hay en la caja azul?"
+ },
+ "pt": {
+  "more": "Há {n1} {noun} em uma caixa vermelha. Em uma caixa azul há {n2} a mais do que na caixa vermelha. {Q} {noun} há na caixa azul?",
+  "fewer": "Há {n1} {noun} em uma caixa vermelha. Em uma caixa azul há {n2} a menos do que na caixa vermelha. {Q} {noun} há na caixa azul?",
+  "moreThan": "Há {n1} {noun} em uma caixa vermelha. São {n2} a mais do que na caixa azul. {Q} {noun} há na caixa azul?",
+  "fewerThan": "Há {n1} {noun} em uma caixa vermelha. São {n2} a menos do que na caixa azul. {Q} {noun} há na caixa azul?"
+ },
+ "fr": {
+  "more": "Il y a {n1} {noun} dans une boîte rouge. Dans une boîte bleue, il y en a {n2} de plus que dans la boîte rouge. Combien de {noun} y a-t-il dans la boîte bleue ?",
+  "fewer": "Il y a {n1} {noun} dans une boîte rouge. Dans une boîte bleue, il y en a {n2} de moins que dans la boîte rouge. Combien de {noun} y a-t-il dans la boîte bleue ?",
+  "moreThan": "Il y a {n1} {noun} dans une boîte rouge. C'est {n2} de plus que dans la boîte bleue. Combien de {noun} y a-t-il dans la boîte bleue ?",
+  "fewerThan": "Il y a {n1} {noun} dans une boîte rouge. C'est {n2} de moins que dans la boîte bleue. Combien de {noun} y a-t-il dans la boîte bleue ?"
+ },
+ "it": {
+  "more": "In una scatola rossa ci sono {n1} {noun}. In una scatola blu ce ne sono {n2} in più rispetto alla scatola rossa. {Q} {noun} ci sono nella scatola blu?",
+  "fewer": "In una scatola rossa ci sono {n1} {noun}. In una scatola blu ce ne sono {n2} in meno rispetto alla scatola rossa. {Q} {noun} ci sono nella scatola blu?",
+  "moreThan": "In una scatola rossa ci sono {n1} {noun}. Sono {n2} in più rispetto alla scatola blu. {Q} {noun} ci sono nella scatola blu?",
+  "fewerThan": "In una scatola rossa ci sono {n1} {noun}. Sono {n2} in meno rispetto alla scatola blu. {Q} {noun} ci sono nella scatola blu?"
+ },
+ "nl": {
+  "more": "In een rode doos zitten {n1} {noun}. In een blauwe doos zitten er {n2} meer dan in de rode doos. Hoeveel {noun} zitten er in de blauwe doos?",
+  "fewer": "In een rode doos zitten {n1} {noun}. In een blauwe doos zitten er {n2} minder dan in de rode doos. Hoeveel {noun} zitten er in de blauwe doos?",
+  "moreThan": "In een rode doos zitten {n1} {noun}. Dat zijn er {n2} meer dan in de blauwe doos. Hoeveel {noun} zitten er in de blauwe doos?",
+  "fewerThan": "In een rode doos zitten {n1} {noun}. Dat zijn er {n2} minder dan in de blauwe doos. Hoeveel {noun} zitten er in de blauwe doos?"
+ },
+ "sv": {
+  "more": "I en röd låda ligger {n1} {noun}. I en blå låda ligger {n2} fler än i den röda lådan. Hur många {noun} ligger i den blå lådan?",
+  "fewer": "I en röd låda ligger {n1} {noun}. I en blå låda ligger {n2} färre än i den röda lådan. Hur många {noun} ligger i den blå lådan?",
+  "moreThan": "I en röd låda ligger {n1} {noun}. Det är {n2} fler än i den blå lådan. Hur många {noun} ligger i den blå lådan?",
+  "fewerThan": "I en röd låda ligger {n1} {noun}. Det är {n2} färre än i den blå lådan. Hur många {noun} ligger i den blå lådan?"
+ },
+ "da": {
+  "more": "Der ligger {n1} {noun} i en rød kasse. I en blå kasse ligger der {n2} flere end i den røde kasse. Hvor mange {noun} ligger der i den blå kasse?",
+  "fewer": "Der ligger {n1} {noun} i en rød kasse. I en blå kasse ligger der {n2} færre end i den røde kasse. Hvor mange {noun} ligger der i den blå kasse?",
+  "moreThan": "Der ligger {n1} {noun} i en rød kasse. Det er {n2} flere end i den blå kasse. Hvor mange {noun} ligger der i den blå kasse?",
+  "fewerThan": "Der ligger {n1} {noun} i en rød kasse. Det er {n2} færre end i den blå kasse. Hvor mange {noun} ligger der i den blå kasse?"
+ },
+ "no": {
+  "more": "I en rød eske ligger det {n1} {noun}. I en blå eske ligger det {n2} flere enn i den røde esken. Hvor mange {noun} ligger det i den blå esken?",
+  "fewer": "I en rød eske ligger det {n1} {noun}. I en blå eske ligger det {n2} færre enn i den røde esken. Hvor mange {noun} ligger det i den blå esken?",
+  "moreThan": "I en rød eske ligger det {n1} {noun}. Det er {n2} flere enn i den blå esken. Hvor mange {noun} ligger det i den blå esken?",
+  "fewerThan": "I en rød eske ligger det {n1} {noun}. Det er {n2} færre enn i den blå esken. Hvor mange {noun} ligger det i den blå esken?"
+ },
+ "fi": {
+  "more": "Punaisessa laatikossa on {n1} {noun}. Sinisessä laatikossa on {n2} enemmän kuin punaisessa laatikossa. Kuinka monta {noun} sinisessä laatikossa on?",
+  "fewer": "Punaisessa laatikossa on {n1} {noun}. Sinisessä laatikossa on {n2} vähemmän kuin punaisessa laatikossa. Kuinka monta {noun} sinisessä laatikossa on?",
+  "moreThan": "Punaisessa laatikossa on {n1} {noun}. Niitä on {n2} enemmän kuin sinisessä laatikossa. Kuinka monta {noun} sinisessä laatikossa on?",
+  "fewerThan": "Punaisessa laatikossa on {n1} {noun}. Niitä on {n2} vähemmän kuin sinisessä laatikossa. Kuinka monta {noun} sinisessä laatikossa on?"
+ }
+}

@@ -6384,5 +6384,48 @@
       "no": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret. Den første regnefortellingen er allerede løst.",
       "fi": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
     }
+  },
+  "G2-511": {
+    "3": {
+      "en": "Read each story. Work it out in two steps. Write the answer in the box.",
+      "de": "Lies jede Geschichte. Rechne in zwei Schritten. Schreibe das Ergebnis in das Kästchen.",
+      "fr": "Lis chaque problème. Résous-le en deux étapes. Écris la réponse dans la case.",
+      "es": "Lee cada problema. Resuélvelo en dos pasos. Escribe la respuesta en el recuadro.",
+      "pt": "Leia cada problema. Resolva em duas etapas. Escreva a resposta no quadrinho.",
+      "it": "Leggi ogni problema. Risolvilo con due operazioni. Scrivi la risposta nella casella.",
+      "nl": "Lees elk verhaaltje. Reken het uit in twee stappen. Schrijf het antwoord in het vakje.",
+      "sv": "Läs varje räknehändelse. Räkna i två steg. Skriv svaret i rutan.",
+      "da": "Læs hver regnehistorie. Regn den ud i to trin. Skriv svaret i feltet.",
+      "no": "Les hver regnefortelling. Regn den ut i to steg. Skriv svaret i ruten.",
+      "fi": "Lue jokainen tehtävä. Laske se kahdessa vaiheessa. Kirjoita vastaus ruutuun."
+    }
+  },
+  "G2-512": {
+    "1": {
+      "en": "Read each story. In the two bars and the dashed piece, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer. The first story is done for you.",
+      "de": "Lies jede Sachaufgabe. Trage in die zwei Streifen und das gestrichelte Stück die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen. Die erste Aufgabe ist schon gelöst.",
+      "es": "Lee cada problema. En las dos barras y en la parte punteada, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta. El primer problema ya está resuelto.",
+      "pt": "Leia cada probleminha. Nas duas barras e na parte tracejada, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta. O primeiro probleminha já está resolvido.",
+      "fr": "Lis chaque problème. Dans les deux barres et dans la partie en pointillés, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse. Le premier problème est déjà résolu.",
+      "it": "Leggi ogni problema. Nelle due barre e nella parte tratteggiata scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta. Il primo problema è già risolto.",
+      "nl": "Lees elke verhaalsom. Schrijf in de twee stroken en in het stuk met de stippellijn de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op. De eerste verhaalsom is al gemaakt.",
+      "sv": "Läs varje räknehändelse. Skriv i de två blocken och i den streckade delen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret. Den första räknehändelsen är redan löst.",
+      "da": "Læs hver regnehistorie. Skriv i de to blokke og i den stiplede del de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret. Den første regnehistorie er allerede løst.",
+      "no": "Les hver regnefortelling. Skriv i de to blokkene og i den stiplede delen de to tallene du kjenner, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret. Den første regnefortellingen er allerede løst.",
+      "fi": "Lue jokainen tehtävä. Kirjoita kahteen palkkiin ja katkoviivalla merkittyyn osaan kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
+    },
+    "3": {
+      "en": "Read each story. Draw the two bars: the longer bar is for the box with more. Show the difference beside the shorter bar. Write the two numbers you know and a question mark. Write an equation. Then write the answer.",
+      "de": "Lies jede Sachaufgabe. Zeichne die zwei Streifen: Der längere Streifen gehört zu der Kiste mit mehr. Zeige den Unterschied neben dem kürzeren Streifen. Trage die zwei Zahlen ein, die du kennst, und ein Fragezeichen. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen.",
+      "es": "Lee cada problema. Dibuja las dos barras: la barra más larga es la de la caja que tiene más. Marca la diferencia junto a la barra más corta. Escribe los dos números que conoces y un signo de interrogación. Escribe una operación. Después escribe la respuesta.",
+      "pt": "Leia cada probleminha. Desenhe as duas barras: a barra mais comprida é a da caixa que tem mais. Mostre a diferença ao lado da barra mais curta. Escreva os dois números que você conhece e um ponto de interrogação. Escreva uma conta. Depois escreva a resposta.",
+      "fr": "Lis chaque problème. Dessine les deux barres : la barre la plus longue est celle de la boîte qui en a le plus. Montre la différence à côté de la barre la plus courte. Écris les deux nombres que tu connais et un point d'interrogation. Écris un calcul. Puis écris la réponse.",
+      "it": "Leggi ogni problema. Disegna le due barre: la barra più lunga è quella della scatola che ne ha di più. Mostra la differenza accanto alla barra più corta. Scrivi i due numeri che conosci e un punto interrogativo. Scrivi un'operazione. Poi scrivi la risposta.",
+      "nl": "Lees elke verhaalsom. Teken de twee stroken: de langste strook hoort bij de doos waar de meeste in zitten. Laat het verschil zien naast de kortste strook. Schrijf de twee getallen die je weet en een vraagteken erbij. Schrijf een som. Schrijf daarna het antwoord op.",
+      "sv": "Läs varje räknehändelse. Rita de två blocken: det längre blocket hör till lådan med flest. Visa skillnaden bredvid det kortare blocket. Skriv de två tal du vet och ett frågetecken. Skriv en uträkning. Skriv sedan svaret.",
+      "da": "Læs hver regnehistorie. Tegn de to blokke: Den længste blok er kassen med flest. Vis forskellen ved siden af den korteste blok. Skriv de to tal, du kender, og et spørgsmålstegn. Skriv et regnestykke. Skriv så svaret.",
+      "no": "Les hver regnefortelling. Tegn de to blokkene: Den lengste blokken er esken med flest. Vis forskjellen ved siden av den korteste blokken. Skriv de to tallene du kjenner, og et spørsmålstegn. Skriv et regnestykke. Skriv så svaret.",
+      "fi": "Lue jokainen tehtävä. Piirrä kaksi palkkia: pidempi palkki kuvaa sitä laatikkoa, jossa on enemmän. Merkitse ero lyhyemmän palkin viereen. Kirjoita kaksi lukua, jotka tiedät, ja kysymysmerkki. Kirjoita lasku. Kirjoita sitten vastaus."
+    }
   }
 }

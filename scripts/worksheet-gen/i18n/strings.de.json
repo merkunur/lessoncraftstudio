@@ -4952,5 +4952,13 @@
   "G2-510": {
     "title": "Wie viele am Anfang? Sachaufgaben bis 100",
     "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G2-511": {
+    "title": "Sachaufgaben mit zwei Schritten bis 100",
+    "instruction": "Lies jede Geschichte. Rechne zuerst den ersten Schritt, dann den zweiten. Schreibe die Zahlen in die Kästchen."
+  },
+  "G2-512": {
+    "title": "Vergleichsaufgaben mit zwei Streifen bis 100",
+    "instruction": "Lies jede Sachaufgabe. Trage in die zwei Streifen und das gestrichelte Stück die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
   }
 }

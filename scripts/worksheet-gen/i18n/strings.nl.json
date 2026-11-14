@@ -4950,5 +4950,13 @@
   "G2-510": {
     "title": "Hoeveel waren er eerst? Verhaalsommen tot 100",
     "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G2-511": {
+    "title": "Verhaaltjessommen in twee stappen tot 100",
+    "instruction": "Lees elk verhaaltje. Reken eerst de eerste stap uit en dan de tweede. Schrijf de getallen in de vakjes."
+  },
+  "G2-512": {
+    "title": "Vergelijksommen met twee stroken tot 100",
+    "instruction": "Lees elke verhaalsom. Schrijf in de twee stroken en in het stuk met de stippellijn de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
   }
 }

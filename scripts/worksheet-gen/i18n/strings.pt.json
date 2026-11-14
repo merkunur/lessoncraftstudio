@@ -4955,5 +4955,13 @@
   "G2-510": {
     "title": "Quantos havia no começo? Probleminhas até 100",
     "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta."
+  },
+  "G2-511": {
+    "title": "Problemas de duas etapas até 100",
+    "instruction": "Leia cada problema. Faça primeiro a primeira etapa e depois a segunda. Escreva os números nos quadrinhos."
+  },
+  "G2-512": {
+    "title": "Problemas de comparação com duas barras até 100",
+    "instruction": "Leia cada probleminha. Nas duas barras e na parte tracejada, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta."
   }
 }

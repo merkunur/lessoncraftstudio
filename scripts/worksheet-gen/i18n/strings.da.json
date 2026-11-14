@@ -4930,5 +4930,13 @@
   "G2-510": {
     "title": "Hvor mange fra start? Regnehistorier til 100",
     "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-511": {
+    "title": "Regnehistorier i to trin til 100",
+    "instruction": "Læs hver regnehistorie. Regn først det første trin og så det andet. Skriv tallene i felterne."
+  },
+  "G2-512": {
+    "title": "Sammenligningshistorier til 100 med to blokke",
+    "instruction": "Læs hver regnehistorie. Skriv i de to blokke og i den stiplede del de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
   }
 }

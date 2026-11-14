@@ -4949,5 +4949,13 @@
   "G2-510": {
     "title": "Combien au début ? Problèmes jusqu'à 100",
     "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse."
+  },
+  "G2-511": {
+    "title": "Problèmes en deux étapes jusqu'à 100",
+    "instruction": "Lis chaque problème. Fais d'abord la première étape, puis la deuxième. Écris les nombres dans les cases."
+  },
+  "G2-512": {
+    "title": "Problèmes de comparaison jusqu'à 100 : deux barres",
+    "instruction": "Lis chaque problème. Dans les deux barres et dans la partie en pointillés, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse."
   }
 }

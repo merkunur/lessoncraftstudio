@@ -4904,5 +4904,13 @@
   "G2-510": {
     "title": "Hur många från början? Räknehändelser upp till 100",
     "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G2-511": {
+    "title": "Räknehändelser i två steg upp till 100",
+    "instruction": "Läs varje räknehändelse. Räkna först det första steget och sedan det andra. Skriv talen i rutorna."
+  },
+  "G2-512": {
+    "title": "Jämförelser med två block upp till 100",
+    "instruction": "Läs varje räknehändelse. Skriv i de två blocken och i den streckade delen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
   }
 }

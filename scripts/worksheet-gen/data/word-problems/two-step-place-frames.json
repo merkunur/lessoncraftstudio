@@ -1,0 +1,58 @@
+{
+ "$comment": "TWO-STEP stories told in a PLACE (Year pages S, 2026-11-14; 2.OA.A.1 two-step problems within 100): the four step pairs of two-step-frames.js (A + then − · B − then + · C + then + · D − then −) for two-digit numbers, where 53 forks lie in a box and never in a child's hands. B is the frame of two-step-frames.js (it is told in a box already); A, C and D are written here, each modelled on the B frame of its language. Slots as there: {n1} {n2} {n3} {noun} {name} {name2}, {Q} = how many, agreeing (es, pt, it). Read by a native reader (2026-11-14). Only the two-step page with two-digit numbers reads this file.",
+ "en": {
+  "A": "There are {n1} {noun} in a box. {name} puts in {n2} more. Then {name} takes out {n3}. How many {noun} are in the box now?",
+  "C": "There are {n1} {noun} on a shelf. On Monday {name} puts {n2} more on the shelf, and on Tuesday another {n3}. How many {noun} are on the shelf now?",
+  "D": "There are {n1} {noun} on a table. {name} takes {n2}, and {name2} takes {n3}. How many {noun} are left on the table?"
+ },
+ "de": {
+  "A": "In einer Kiste sind {n1} {noun}. {name} legt {n2} dazu. Dann nimmt {name} {n3} heraus. Wie viele {noun} sind jetzt in der Kiste?",
+  "C": "In einem Regal sind {n1} {noun}. Am Montag legt {name} {n2} dazu und am Dienstag noch {n3}. Wie viele {noun} sind jetzt im Regal?",
+  "D": "Auf einem Tisch sind {n1} {noun}. {name} nimmt {n2} weg und {name2} nimmt {n3} weg. Wie viele {noun} sind noch auf dem Tisch?"
+ },
+ "fr": {
+  "A": "Il y a {n1} {noun} dans une boîte. {name} en ajoute {n2}. Puis {name} en sort {n3}. Combien de {noun} y a-t-il maintenant dans la boîte ?",
+  "C": "Il y a {n1} {noun} sur une étagère. Lundi, {name} en ajoute {n2}, et mardi, encore {n3}. Combien de {noun} y a-t-il maintenant sur l'étagère ?",
+  "D": "Il y a {n1} {noun} sur une table. {name} en prend {n2} et {name2} en prend {n3}. Combien de {noun} reste-t-il sur la table ?"
+ },
+ "es": {
+  "A": "En una caja hay {n1} {noun}. {name} mete {n2} más. Después saca {n3}. ¿{Q} {noun} hay ahora en la caja?",
+  "C": "En un estante hay {n1} {noun}. El lunes {name} pone {n2} más y el martes, {n3} más. ¿{Q} {noun} hay ahora en el estante?",
+  "D": "En una mesa hay {n1} {noun}. {name} se lleva {n2} y {name2} se lleva {n3}. ¿{Q} {noun} quedan en la mesa?"
+ },
+ "pt": {
+  "A": "Em uma caixa há {n1} {noun}. {name} coloca mais {n2} na caixa. Depois tira {n3}. {Q} {noun} há agora na caixa?",
+  "C": "Em uma prateleira há {n1} {noun}. Na segunda-feira {name} coloca mais {n2} e, na terça-feira, mais {n3}. {Q} {noun} há agora na prateleira?",
+  "D": "Em uma mesa há {n1} {noun}. {name} leva {n2} e {name2} leva {n3}. {Q} {noun} sobram na mesa?"
+ },
+ "it": {
+  "A": "In una scatola ci sono {n1} {noun}. {name} ne aggiunge {n2}. Poi ne toglie {n3}. {Q} {noun} ci sono adesso nella scatola?",
+  "C": "Su uno scaffale ci sono {n1} {noun}. Lunedì {name} ne aggiunge {n2} e martedì ancora {n3}. {Q} {noun} ci sono adesso sullo scaffale?",
+  "D": "Su un tavolo ci sono {n1} {noun}. {name} ne prende {n2} e {name2} ne prende {n3}. {Q} {noun} restano sul tavolo?"
+ },
+ "nl": {
+  "A": "In een doos zitten {n1} {noun}. {name} doet er {n2} bij. Dan haalt {name} er {n3} uit. Hoeveel {noun} zitten er nu in de doos?",
+  "C": "Op een plank liggen {n1} {noun}. Op maandag legt {name} er {n2} bij en op dinsdag nog {n3}. Hoeveel {noun} liggen er nu op de plank?",
+  "D": "Op een tafel liggen {n1} {noun}. {name} pakt er {n2} en {name2} pakt er {n3}. Hoeveel {noun} liggen er nog op tafel?"
+ },
+ "sv": {
+  "A": "I en låda finns det {n1} {noun}. {name} lägger i {n2} till. Sedan tar {name} ut {n3}. Hur många {noun} finns det i lådan nu?",
+  "C": "På en hylla finns det {n1} {noun}. På måndagen lägger {name} dit {n2} till och på tisdagen {n3} till. Hur många {noun} finns det på hyllan nu?",
+  "D": "På ett bord finns det {n1} {noun}. {name} tar {n2} och {name2} tar {n3}. Hur många {noun} finns det kvar på bordet?"
+ },
+ "da": {
+  "A": "Der er {n1} {noun} i en kasse. {name} lægger {n2} flere i. Så tager {name} {n3} op. Hvor mange {noun} er der nu i kassen?",
+  "C": "Der er {n1} {noun} på en hylde. Mandag lægger {name} {n2} flere på hylden, og tirsdag {n3} til. Hvor mange {noun} er der nu på hylden?",
+  "D": "Der er {n1} {noun} på et bord. {name} tager {n2}, og {name2} tager {n3}. Hvor mange {noun} er der tilbage på bordet?"
+ },
+ "no": {
+  "A": "Det er {n1} {noun} i en kasse. {name} legger oppi {n2} til. Så tar {name} ut {n3}. Hvor mange {noun} er det i kassen nå?",
+  "C": "Det er {n1} {noun} på en hylle. På mandag legger {name} {n2} til på hylla, og på tirsdag {n3} til. Hvor mange {noun} er det på hylla nå?",
+  "D": "Det er {n1} {noun} på et bord. {name} tar {n2}, og {name2} tar {n3}. Hvor mange {noun} er det igjen på bordet?"
+ },
+ "fi": {
+  "A": "Laatikossa on {n1} {noun}. {name} laittaa laatikkoon {n2} lisää. Sitten {name} ottaa pois {n3}. Kuinka monta {noun} laatikossa on nyt?",
+  "C": "Hyllyllä on {n1} {noun}. {name} tuo hyllylle maanantaina {n2} lisää ja tiistaina vielä {n3}. Kuinka monta {noun} hyllyllä on nyt?",
+  "D": "Pöydällä on {n1} {noun}. {name} vie niistä {n2} ja {name2} vie {n3}. Kuinka monta {noun} pöydälle jää?"
+ }
+}

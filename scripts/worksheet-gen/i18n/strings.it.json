@@ -4936,5 +4936,13 @@
   "G2-510": {
     "title": "Quanti erano all'inizio? Problemi entro il 100",
     "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G2-511": {
+    "title": "Problemi con due operazioni entro il 100",
+    "instruction": "Leggi ogni problema. Fai prima la prima operazione, poi la seconda. Scrivi i numeri nelle caselle."
+  },
+  "G2-512": {
+    "title": "Problemi di confronto entro il 100 con due barre",
+    "instruction": "Leggi ogni problema. Nelle due barre e nella parte tratteggiata scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
   }
 }

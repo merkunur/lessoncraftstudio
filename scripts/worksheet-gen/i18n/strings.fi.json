@@ -4902,5 +4902,13 @@
   "G2-510": {
     "title": "Kuinka monta oli aluksi? Sanalliset tehtävät 0–100",
     "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G2-511": {
+    "title": "Kaksivaiheiset sanalliset tehtävät 0–100",
+    "instruction": "Lue jokainen tehtävä. Laske ensin ensimmäinen vaihe ja sitten toinen. Kirjoita luvut ruutuihin."
+  },
+  "G2-512": {
+    "title": "Vertailutehtävät kahdella palkilla 0–100",
+    "instruction": "Lue jokainen tehtävä. Kirjoita kahteen palkkiin ja katkoviivalla merkittyyn osaan kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
   }
 }

@@ -4945,5 +4945,13 @@
   "G2-510": {
     "title": "¿Cuántos al principio? Problemas hasta 100",
     "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta."
+  },
+  "G2-511": {
+    "title": "Problemas de dos pasos hasta 100",
+    "instruction": "Lee cada problema. Haz primero el primer paso y después el segundo. Escribe los números en los recuadros."
+  },
+  "G2-512": {
+    "title": "Problemas de comparación hasta 100 con dos barras",
+    "instruction": "Lee cada problema. En las dos barras y en la parte punteada, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta."
   }
 }

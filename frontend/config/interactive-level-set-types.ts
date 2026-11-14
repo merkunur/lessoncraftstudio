@@ -95,5 +95,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'column-arithmetic': ['g2502'],
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only)
-  'word-problems': ['g2489', 'k642', 'g2506', 'g1567', 'g1568', 'g2509', 'g1569', 'g1570', 'g1571', 'g2510', 'g1572'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
+  'word-problems': ['g2489', 'k642', 'g2506', 'g1567', 'g1568', 'g2509', 'g1569', 'g1570', 'g1571', 'g2510', 'g1572', 'g2511', 'g2512'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
 };

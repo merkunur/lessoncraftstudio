@@ -4993,5 +4993,13 @@
   "G2-510": {
     "title": "Find the Start: Story Problems Within 100",
     "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
+  },
+  "G2-511": {
+    "title": "Two-Step Story Problems Within 100",
+    "instruction": "Read each story. Do the first step, then the second step. Write the numbers in the boxes."
+  },
+  "G2-512": {
+    "title": "Compare Stories Within 100: Two Bars",
+    "instruction": "Read each story. In the two bars and the dashed piece, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
   }
 }

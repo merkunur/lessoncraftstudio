@@ -2959,6 +2959,7 @@
       "a3": "Med ett klikk fra betalingssiden din — ingen e-poster, ingen telefonsamtaler. Abonnementet fornyes rett og slett ikke, og du beholder tilgangen til perioden er over.",
       "q4": "Trenger elevene mine kontoer?",
       "a4": "Aldri. Barn logger aldri inn på LessonCraftStudio. Du deler en lenke; de spiller. Vi samler ikke inn elevdata i det hele tatt.",
+      "a4Classes": "Aldri. Barn logger aldri inn på LessonCraftStudio. Du deler en lenke; de spiller. Uten klasselenke lagrer vi ingenting om et barn. Med en klasselenke lagrer vi resultatene til hver plass under et nummer og et dyrebilde, aldri under et navn, slik at du kan se hvordan det gikk med klassen din.",
       "q5": "Hvilke betalingsmåter og hvilken valuta bruker dere?",
       "a5": "Betalingen håndteres av Lemon Squeezy (kort, PayPal i mange land) og belastes i amerikanske dollar — banken din veksler til dagens kurs."
     }

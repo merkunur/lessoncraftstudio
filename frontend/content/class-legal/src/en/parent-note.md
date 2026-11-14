@@ -12,7 +12,7 @@ In class we sometimes practice on a screen with worksheets from LessonCraftStudi
 
 **What is stored.**
 - No name: only a number and an animal picture. I keep the list of who has which number myself.
-- For each worksheet: which worksheet it was, how many answers were right, which ones, and the date and time.
+- For each worksheet: which worksheet it was, when it was opened, how many answers were right and which ones, how often the answers were checked, and whether the page was finished.
 
 **What is not stored.** No surname, no date of birth, no photo, no address, no email. The site does not record what your child types, and there is no timer.
 

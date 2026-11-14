@@ -2944,6 +2944,7 @@
       "a3": "Yhdellä klikkauksella laskutussivultasi — ei sähköposteja, ei puheluita. Tilaus ei yksinkertaisesti uusiudu, ja käyttöoikeus säilyy jakson loppuun asti.",
       "q4": "Tarvitsevatko oppilaani tilit?",
       "a4": "Eivät koskaan. Lapset eivät kirjaudu LessonCraftStudioon. Sinä jaat linkin; he pelaavat. Emme kerää oppilaista mitään tietoja.",
+      "a4Classes": "Eivät koskaan. Lapset eivät kirjaudu LessonCraftStudioon. Sinä jaat linkin; he pelaavat. Ilman luokan linkkiä emme tallenna lapsesta mitään. Kun käytössä on luokan linkki, tallennamme jokaisen paikan tulokset numerolla ja eläinkuvalla, emme koskaan nimellä, jotta näet, miten luokallasi sujui.",
       "q5": "Mitä maksutapoja ja valuuttaa käytätte?",
       "a5": "Maksun käsittelee Lemon Squeezy (kortit, monissa maissa myös PayPal), ja veloitus tapahtuu Yhdysvaltain dollareina — pankkisi muuntaa summan päivän kurssiin."
     }

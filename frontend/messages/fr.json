@@ -2975,6 +2975,7 @@
       "a3": "En un clic depuis votre page de facturation — sans e-mail ni appel téléphonique. Votre abonnement ne se renouvelle simplement pas, et vous conservez l'accès jusqu'à la fin de la période.",
       "q4": "Mes élèves ont-ils besoin d'un compte ?",
       "a4": "Jamais. Les enfants ne se connectent jamais sur LessonCraftStudio. Vous partagez un lien ; ils jouent. Nous ne collectons aucune donnée sur les élèves.",
+      "a4Classes": "Jamais. Les enfants ne se connectent jamais sur LessonCraftStudio. Vous partagez un lien ; ils jouent. Sans lien de classe, nous n'enregistrons rien sur un enfant. Avec un lien de classe, nous enregistrons les résultats de chaque place sous un numéro et une image d'animal, jamais sous un nom, pour que vous puissiez voir comment votre classe a réussi.",
       "q5": "Quels moyens de paiement et quelle devise utilisez-vous ?",
       "a5": "Le paiement est géré par Lemon Squeezy (cartes, PayPal dans de nombreux pays) et facturé en dollars US — votre banque convertit au taux du jour."
     }

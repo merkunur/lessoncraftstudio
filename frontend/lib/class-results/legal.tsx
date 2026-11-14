@@ -13,9 +13,19 @@
  */
 import type { ReactNode } from 'react';
 import en from '@/content/class-legal/legal.en.json';
+import de from '@/content/class-legal/legal.de.json';
+import fr from '@/content/class-legal/legal.fr.json';
+import es from '@/content/class-legal/legal.es.json';
+import pt from '@/content/class-legal/legal.pt.json';
+import it from '@/content/class-legal/legal.it.json';
+import nl from '@/content/class-legal/legal.nl.json';
+import sv from '@/content/class-legal/legal.sv.json';
+import da from '@/content/class-legal/legal.da.json';
+import no from '@/content/class-legal/legal.no.json';
+import fi from '@/content/class-legal/legal.fi.json';
 
 export type LegalDoc = 'privacy' | 'terms' | 'parentNote';
-const LEGAL: Record<string, Record<LegalDoc, string>> = { en };
+const LEGAL: Record<string, Record<LegalDoc, string>> = { en, de, fr, es, pt, it, nl, sv, da, no, fi };
 
 /** the languages whose three texts exist */
 export const LEGAL_LOCALES: readonly string[] = Object.keys(LEGAL);

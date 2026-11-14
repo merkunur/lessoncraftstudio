@@ -63,7 +63,7 @@ LessonCraftStudio informs the School 30 days before adding or replacing a sub-pr
 
 - A teacher can delete a child's results, a child, an assignment or a class at any time, and can print the results or save them as a PDF from the dashboard before doing so.
 - A class not used for 14 months is deleted automatically. When the teacher's plan ends, their classes are deleted 60 days later.
-- Every single result is deleted at the latest 14 months after it was made.
+- Every single result is deleted at the latest 14 months after it was made. A page a child opened and never checked is removed after 7 days.
 - When this agreement ends, all class data is deleted within 60 days, and from backups within a further 7 days, unless a law requires it to be kept.
 
 ## 10. Helping the School
@@ -96,4 +96,4 @@ LessonCraftStudio acts as a school official with a legitimate educational intere
 
 ## How a school accepts it
 
-Decided: (1) For numbers-only classes these terms apply through the teacher's confirmation when she makes her first class. (2) To switch first names on, a person authorized to sign for the school accepts this agreement on a page of the site that is opened when first names are offered, giving name, role, school, the school's official e-mail address and the confirmation "I am authorized to conclude this agreement for the school named above"; LessonCraftStudio confirms by e-mail to that address and only then switches first names on for the teachers the school names. (3) A countersigned PDF is sent on request. A teacher cannot accept for a school.
+(1) For numbers-only classes these terms apply through the teacher's confirmation when she makes her first class. (2) To switch first names on, a person authorized to sign for the school accepts this agreement on a page of the site that is opened when first names are offered, giving name, role, school, the school's official e-mail address and the confirmation "I am authorized to conclude this agreement for the school named above"; LessonCraftStudio confirms by e-mail to that address and only then switches first names on for the teachers the school names. (3) A countersigned PDF is sent on request. A teacher's confirmation covers numbers-only classes; she cannot accept this agreement for a school.

@@ -639,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 48
+    "lessons": 49
    },
    "groups": [
     {
@@ -692,6 +692,13 @@
          "unitGrade": "1",
          "n": 7,
          "title": "Add three groups"
+        },
+        {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 5,
+         "title": "Stories with three numbers"
         }
        ]
       },
@@ -1173,7 +1180,7 @@
     "taught": 21,
     "near": 2,
     "open": 5,
-    "lessons": 49
+    "lessons": 50
    },
    "groups": [
     {
@@ -1190,6 +1197,13 @@
          "unitGrade": "2",
          "n": 8,
          "title": "One-step stories with a bar model"
+        },
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 9,
+         "title": "What was there at the start?"
         }
        ]
       },
@@ -3784,7 +3798,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 62
+    "lessons": 63
    },
    "groups": [
     {
@@ -4285,18 +4299,18 @@
          "title": "Add three groups"
         },
         {
+         "unit": "story-problems-within-20-grade-1-unit",
+         "unitTitle": "Story Problems Within 20",
+         "unitGrade": "1",
+         "n": 5,
+         "title": "Stories with three numbers"
+        },
+        {
          "unit": "addition-and-subtraction-within-10-grade-1-unit",
          "unitTitle": "Addition and Subtraction Within 10",
          "unitGrade": "1",
          "n": 5,
          "title": "Fact families to 10"
-        },
-        {
-         "unit": "fact-strategies-within-20-grade-2-unit",
-         "unitTitle": "Fact Strategies Within 20",
-         "unitGrade": "2",
-         "n": 4,
-         "title": "Think addition to subtract, and start the daily facts"
         }
        ]
       }
@@ -4570,7 +4584,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 50
+    "lessons": 51
    },
    "groups": [
     {
@@ -4857,18 +4871,18 @@
          "title": "One-step stories with a bar model"
         },
         {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 9,
+         "title": "What was there at the start?"
+        },
+        {
          "unit": "adding-within-100-grade-1-unit",
          "unitTitle": "Adding Within 100",
          "unitGrade": "1",
          "n": 5,
          "title": "Add two two-digit numbers: tens with tens, ones with ones"
-        },
-        {
-         "unit": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 1,000",
-         "unitGrade": "2",
-         "n": 1,
-         "title": "Add with blocks"
         }
        ]
       },

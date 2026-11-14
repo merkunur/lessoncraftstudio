@@ -179,7 +179,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six stories with three groups ('4 red, 6 blue and 5 green marbles. How many marbles?'). Each has a drawing box and the frame _ + _ + _ = _. The child draws the three groups, rings two numbers that make ten or a double when there are some, and writes the equation and the answer. Each number is 1 to 9; totals from 8 to 20."
+            "page": "Six stories with three groups ('4 red, 6 blue and 5 green marbles. How many marbles?'). Each has a drawing box and the frame _ + _ + _ = _. The child draws the three groups, rings two numbers that make ten or a double when there are some, and writes the equation and the answer. Each number is 1 to 9; totals from 8 to 20.",
+            "placed": "1:add-three-addends#stories-with-three-numbers"
           }
         ]
       },
@@ -700,7 +701,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six stories with two-digit numbers and the start missing: three in which something is added (\"Some birds sat in the tree. 17 more came. Now there are 45.\") and three in which something is taken away. Each has an empty bar model to label, an equation frame that begins with the box (_ + 17 = 45, _ - 25 = 38), a second line for the equation the child uses to solve it (45 - 17 = _), and an answer line with a label."
+            "page": "Six stories with two-digit numbers and the start missing: three in which something is added (\"Some birds sat in the tree. 17 more came. Now there are 45.\") and three in which something is taken away. Each has an empty bar model to label, an equation frame that begins with the box (_ + 17 = 45, _ - 25 = 38), a second line for the equation the child uses to solve it (45 - 17 = _), and an answer line with a label.",
+            "placed": "2:two-step-word-problems#what-was-there-at-the-start"
           },
           {
             "new": true,

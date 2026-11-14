@@ -344,7 +344,8 @@
             "days": 3,
             "tool": "Plankorna",
             "source": "new",
-            "page": "Bladet visar räknehändelser som ”Mira har 12 kulor och Ali har 8. Hur många fler har Mira?” med två tomma staplar i ett rutnät; eleven färglägger staplarna, markerar skillnaden med en klammer och skriver uträkning och svar. Alla tal är högst 20."
+            "page": "Bladet visar räknehändelser som ”Mira har 12 kulor och Ali har 8. Hur många fler har Mira?” med två tomma staplar i ett rutnät; eleven färglägger staplarna, markerar skillnaden med en klammer och skriver uträkning och svar. Alla tal är högst 20.",
+            "placed": "1:word-problems#hur-manga-fler"
           },
           {
             "new": true,
@@ -354,7 +355,8 @@
             "days": 2,
             "tool": "Ögonblicket",
             "source": "new",
-            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu) där den första eller den mellersta rutan är täckt, till exempel ”Först 7 fåglar, nu 12. Vad hände?”; eleven skriver den öppna utsagan med en lucka, fyller i talet som saknas och skriver ett svar."
+            "page": "Bladet visar räknehändelser i tre rutor (först, sedan, nu) där den första eller den mellersta rutan är täckt, till exempel ”Först 7 fåglar, nu 12. Vad hände?”; eleven skriver den öppna utsagan med en lucka, fyller i talet som saknas och skriver ett svar.",
+            "placed": "1:word-problems#vad-hande"
           },
           {
             "new": true,
@@ -364,7 +366,8 @@
             "days": 2,
             "tool": "Fickbrädet",
             "source": "new",
-            "page": "Bladet visar en vardagsbild med tal men utan fråga, till exempel en fruktskål med 9 äpplen och 6 päron; eleven skriver två olika frågor som går att räkna ut, väljer en av dem och skriver uträkningen och svaret."
+            "page": "Bladet visar en vardagsbild med tal men utan fråga, till exempel en fruktskål med 9 äpplen och 6 päron; eleven skriver två olika frågor som går att räkna ut, väljer en av dem och skriver uträkningen och svaret.",
+            "placed": "1:word-problems#hitta-pa-en-egen-fraga"
           },
           {
             "new": true,
@@ -374,7 +377,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet har tre textuppgifter med addition eller subtraktion i talområdet 0–20, var och en med fyra fält: Rita, Räkna, Svar och Stämmer det?; eleven ritar streck eller ringar i stället för detaljerade bilder, skriver uträkningen och ett svar med enhet."
+            "page": "Bladet har tre textuppgifter med addition eller subtraktion i talområdet 0–20, var och en med fyra fält: Rita, Räkna, Svar och Stämmer det?; eleven ritar streck eller ringar i stället för detaljerade bilder, skriver uträkningen och ett svar med enhet.",
+            "placed": "1:word-problems#rita-rakna-svara"
           }
         ]
       },

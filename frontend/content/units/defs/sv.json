@@ -883,6 +883,57 @@
    ]
   },
   {
+   "id": "sv-1-ma-raknehandelser-0-20",
+   "slug": "raknehandelser-och-problemlosning-0-20-ak-1",
+   "status": "live",
+   "grade": "1",
+   "subject": "math",
+   "title": "Räknehändelser och problemlösning 0–20",
+   "metaTitle": "Matematik åk 1: Räknehändelser och problemlösning | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Räknehändelser och problemlösning 0–20”: 4 lektioner om att jämföra, hitta det som saknas, ställa egna frågor och rita och räkna.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#hur-manga-fler",
+     "types": [
+      "G1-511"
+     ],
+     "tool": "comparison-planks",
+     "avoid": [
+      "raknehandelser-svar-efterratter-och-godis-g1511"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#vad-hande",
+     "types": [
+      "G1-568",
+      "G1-569"
+     ],
+     "tool": "the-gap",
+     "activity": null
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#hitta-pa-en-egen-fraga",
+     "types": [
+      "G1-571"
+     ],
+     "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#rita-rakna-svara",
+     "types": [
+      "G1-572"
+     ],
+     "tool": null
+    }
+   ]
+  },
+  {
    "id": "sv-1-ma-utblick-100",
    "slug": "utblick-mot-100-tiotal-ental-och-kronor-ak-1",
    "status": "live",
@@ -2336,6 +2387,7 @@
     "sv-1-ma-tal-0-20",
     "sv-1-ma-add-sub-0-20",
     "sv-1-ma-klockan-almanackan",
+    "sv-1-ma-raknehandelser-0-20",
     "sv-1-ma-utblick-100",
     "sv-1-ma-diagram"
    ]

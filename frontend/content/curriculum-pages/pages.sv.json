@@ -25,7 +25,7 @@
     "taught": 18,
     "near": 0,
     "open": 0,
-    "lessons": 139,
+    "lessons": 143,
     "parts": 6,
     "partsTaught": 6
    },
@@ -197,6 +197,29 @@
           {
            "n": 4,
            "title": "Ordningstal till tionde"
+          }
+         ]
+        },
+        {
+         "unit": "raknehandelser-och-problemlosning-0-20-ak-1",
+         "unitTitle": "Räknehändelser och problemlösning 0–20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Hur många fler? Jämföra två antal"
+          },
+          {
+           "n": 2,
+           "title": "Vad hände? Räknehändelser där något saknas"
+          },
+          {
+           "n": 3,
+           "title": "Hitta på en egen fråga"
+          },
+          {
+           "n": 4,
+           "title": "Rita, räkna, svara"
           }
          ]
         },
@@ -993,6 +1016,29 @@
           {
            "n": 5,
            "title": "Räknehändelser till 10"
+          }
+         ]
+        },
+        {
+         "unit": "raknehandelser-och-problemlosning-0-20-ak-1",
+         "unitTitle": "Räknehändelser och problemlösning 0–20",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Hur många fler? Jämföra två antal"
+          },
+          {
+           "n": 2,
+           "title": "Vad hände? Räknehändelser där något saknas"
+          },
+          {
+           "n": 3,
+           "title": "Hitta på en egen fråga"
+          },
+          {
+           "n": 4,
+           "title": "Rita, räkna, svara"
           }
          ]
         },

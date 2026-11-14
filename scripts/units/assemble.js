@@ -139,7 +139,9 @@ function assemble(loc, opt = {}) {
         if (![1, 2, 3].includes(lv)) { bad(lw + ': core level ' + lv + ' of type ' + typeId); continue; }
         const RUNG = { 1: 'easy', 2: 'core', 3: 'hard' };
         if (!pg || !pg[RUNG[lv]].length || !title) { bad(lw + ': type ' + typeId + ' has no published ' + (lv === 2 ? 'core page' : 'page at level ' + lv) + ' or no title in this language'); continue; }
-        const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
+        // `avoid`: a page the lesson does not hand out, by its address (a page known to print an error that waits for its
+        // fix, e.g. a wrong plural of the picture vocabulary: the next page of the level is taken)
+        const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
         // `noHard`: the next level of a type can teach ANOTHER step (level 2 of Add and Subtract Tens is subtraction only): a
         // lesson that teaches only the step of its own level names the type there and offers no harder page of it
         const core = pick(RUNG[lv]), easy = lv > 1 && !(L.noEasy || []).includes(typeId) ? pick(RUNG[lv - 1]) : null,   /* `noEasy`: the level below can be ANOTHER kind of task too (Draw and Solve: level 1 some come, level 2 some go) */ hard = lv < 3 && !(L.noHard || []).includes(typeId) ? pick(RUNG[lv + 1]) : null;

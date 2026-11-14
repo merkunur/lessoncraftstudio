@@ -831,7 +831,7 @@
    "subject": "math",
    "title": "Story Problems Within 20",
    "metaTitle": "Grade 1 Math Lesson Plans: Story Problems Within 20",
-   "metaDescription": "A three-week Grade 1 math unit: 4 lessons on story problems within 20, with a missing part, a missing change, and how many more or fewer, with a bar model or a picture.",
+   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on story problems within 20: a missing part, a missing change, how many more or fewer, and three numbers to add.",
    "weeks": 3,
    "lessons": [
     {
@@ -879,6 +879,20 @@
      "standards": [
       "1.OA.A.1"
      ]
+    },
+    {
+     "point": "1:add-three-addends",
+     "id": "1:add-three-addends#stories-with-three-numbers",
+     "types": [
+      "G1-570",
+      "G1-445"
+     ],
+     "standards": [
+      "1.OA.A.2"
+     ],
+     "standardsRel": {
+      "1.OA.A.2": "teaches"
+     }
     }
    ]
   },
@@ -1393,7 +1407,7 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and story problems.",
+   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and stories.",
    "weeks": 5,
    "lessons": [
     {
@@ -1460,6 +1474,15 @@
      "types": [
       "G2-509",
       "G2-506"
+     ],
+     "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "2:two-step-word-problems",
+     "id": "2:two-step-word-problems#what-was-there-at-the-start",
+     "types": [
+      "G2-510"
      ],
      "tool": "missing-question",
      "activity": null

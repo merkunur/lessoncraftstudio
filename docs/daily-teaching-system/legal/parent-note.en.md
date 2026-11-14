@@ -9,20 +9,20 @@
 
 In class we sometimes practise on a screen with worksheets from LessonCraftStudio. I use a class link for this, so that I can see which exercises each child has understood and who needs more practice.
 
-**What your child does.** Your child opens the class page, taps [their first name / their number and animal picture] and does the worksheet. There is no account, no password and nothing to install.
+**What your child does.** Your child opens the class page, taps their number and animal picture and does the worksheet. There is no account, no password and nothing to install.
 
 **What is stored.**
-- [Your child's first name or nickname, as I typed it. / No name: only a number and an animal picture.]
-- For each worksheet: how many answers were right, which ones, and the date.
+- No name: only a number and an animal picture. I keep the list of who has which number myself.
+- For each worksheet: which worksheet it was, how many answers were right, which ones, and the date and time.
 
-**What is not stored.** No surname, no date of birth, no photo, no address, no email. The site does not record what your child types or how long your child takes.
+**What is not stored.** No surname, no date of birth, no photo, no address, no email. The site does not record what your child types, and there is no timer.
 
-**Who sees it.** Only I can see the results. Other children, other parents and other teachers cannot. Your child sees no scores, no ranking and no timer.
+**Who sees it.** Only I can see the results. Other parents and other teachers cannot. On the shared class page a child can see which worksheets another seat has finished, but never how many answers were right. Your child sees no scores, no ranking and no timer.
 
-**What it is used for.** Only for my teaching. It is not used for advertising and is not passed on.
+**What it is used for.** Only for my teaching. It is not used for advertising and is not sold. It is stored for [name of school] on a server in [Finland / Germany] by the company that runs the site, which may use it only for this.
 
-**How long it is kept.** I can delete your child's results at any time. Everything is deleted automatically when the class has not been used for 14 months[, and at the end of the school year I delete the class].
+**How long it is kept.** I can delete your child's results at any time. Each result is deleted automatically after 14 months at the latest[, and at the end of the school year I delete the class].
 
 **Your questions.** If you would like to see what is stored about your child, have it corrected or deleted, or if you do not want your child's results to be stored, please tell me. [Contact.]
 
-[Name of teacher, school, date]
+[Name of teacher, school, date] · Responsible for this data: [name of school]. More: [address of the privacy section]

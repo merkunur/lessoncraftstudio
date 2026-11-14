@@ -1,7 +1,7 @@
-# DRAFT — a note for parents
+# A note for parents
 
-> Draft for a lawyer's check (2026-11-11). Not published. A teacher prints or sends this. One page, no legal vocabulary.
-> The teacher fills in the lines in square brackets. Nothing here may say more than `FACTS.md`.
+> The text after the legal decision of 2026-11-14 (`DECISION-2026-11-14.md`, section D), with the operator's facts filled in (PART-9-DESIGN.md section 13). **Not published**: it goes live with condition E7, in eleven languages, and only when the feature does what every sentence says.
+> **For the teacher (this block is not part of the note):** Use this note only if your school allows you to use this tool. It informs parents; it does not replace your school's own privacy information. Print or send it; fill in the lines in square brackets. One page, no legal vocabulary.
 
 ---
 
@@ -19,10 +19,10 @@ In class we sometimes practise on a screen with worksheets from LessonCraftStudi
 
 **Who sees it.** Only I can see the results. Other parents and other teachers cannot. On the shared class page a child can see which worksheets another seat has finished, but never how many answers were right. Your child sees no scores, no ranking and no timer.
 
-**What it is used for.** Only for my teaching. It is not used for advertising and is not sold. It is stored for [name of school] on a server in [Finland / Germany] by the company that runs the site, which may use it only for this.
+**What it is used for.** Only for my teaching. It is not used for advertising and is not sold. It is stored for [name of school] on a server in Finland by the operator of the site, who may use it only for this.
 
 **How long it is kept.** I can delete your child's results at any time. Each result is deleted automatically after 14 months at the latest[, and at the end of the school year I delete the class].
 
 **Your questions.** If you would like to see what is stored about your child, have it corrected or deleted, or if you do not want your child's results to be stored, please tell me. [Contact.]
 
-[Name of teacher, school, date] · Responsible for this data: [name of school]. More: [address of the privacy section]
+[Name of teacher, school, date] · Responsible for this data: [name of school]. More: www.lessoncraftstudio.com/en/privacy#classes

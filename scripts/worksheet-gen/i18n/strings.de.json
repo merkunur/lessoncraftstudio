@@ -4996,5 +4996,17 @@
   "G2-514": {
     "title": "Schriftlich addieren: drei und vier Zahlen",
     "instruction": "Addiere zuerst die Einer. Suche bei den Einern zwei Ziffern, die zusammen zehn ergeben. Schreibe den neuen Zehner in das kleine Kästchen bei den Zehnern. Addiere dann die Zehner."
+  },
+  "G3-491": {
+    "title": "Malnehmen mit Zehnerzahlen",
+    "instruction": "Rechne zuerst die Einmaleinsaufgabe. Denke dann an Zehner: Schreibe, wie viele Zehner es sind. Schreibe dann das Ergebnis."
+  },
+  "G3-492": {
+    "title": "Ganze Zahlen als Brüche",
+    "instruction": "Über jedem Zahlenstrahl stehen die ganzen Zahlen. Zähle die gleich großen Teile. Ergänze unter jeder ganzen Zahl den Bruch."
+  },
+  "G2-515": {
+    "title": "Reihen und Spalten aus Quadraten",
+    "instruction": "Nimm ein Lineal. Zeichne Linien von Strich zu Strich und teile das Rechteck in Quadrate. Schreibe, wie viele Reihen und Spalten es sind. Addiere dann die Quadrate Reihe für Reihe."
   }
 }

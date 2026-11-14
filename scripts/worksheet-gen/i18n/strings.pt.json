@@ -4999,5 +4999,17 @@
   "G2-514": {
     "title": "Adição de três e quatro números de dois algarismos",
     "instruction": "Some primeiro as unidades. Procure nas unidades dois algarismos que somem dez. Escreva a nova dezena no quadrinho pequeno acima das dezenas. Depois some as dezenas."
+  },
+  "G3-491": {
+    "title": "Multiplicar por dezenas exatas",
+    "instruction": "Resolva primeiro a multiplicação da tabuada. Depois pense em dezenas: escreva quantas dezenas são. Por fim, escreva o produto."
+  },
+  "G3-492": {
+    "title": "Números inteiros como frações",
+    "instruction": "Acima de cada reta numérica estão os números inteiros. Conte as partes iguais. Complete a fração embaixo de cada número inteiro."
+  },
+  "G2-515": {
+    "title": "Linhas e colunas de quadrados",
+    "instruction": "Use uma régua. Faça traços de marca a marca para dividir o retângulo em quadrados. Escreva quantas linhas e quantas colunas há. Depois some os quadrados linha por linha."
   }
 }

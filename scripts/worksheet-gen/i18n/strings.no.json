@@ -4993,5 +4993,17 @@
   "G2-514": {
     "title": "Legg sammen tre og fire tosifrede tall",
     "instruction": "Legg først sammen enerne. Finn to sifre blant enerne som til sammen blir ti. Skriv den nye tieren i den lille ruten over tierne. Legg så sammen tierne."
+  },
+  "G3-491": {
+    "title": "Gange med tiere",
+    "instruction": "Regn først ut gangestykket. Tenk så i tiere: Skriv hvor mange tiere det blir. Skriv til slutt svaret."
+  },
+  "G3-492": {
+    "title": "Hele tall som brøker",
+    "instruction": "Over hver tallinje står de hele tallene. Tell de like store delene. Gjør brøken ferdig under hvert helt tall."
+  },
+  "G2-515": {
+    "title": "Rader og kolonner med kvadrater",
+    "instruction": "Bruk en linjal. Tegn linjer fra strek til strek og del rektangelet i kvadrater. Skriv hvor mange rader og kolonner det er. Legg så sammen kvadratene rad for rad."
   }
 }

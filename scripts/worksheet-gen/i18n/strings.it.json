@@ -4980,5 +4980,17 @@
   "G2-514": {
     "title": "Addizioni in colonna con tre e quattro addendi",
     "instruction": "Somma prima le unità. Cerca tra le unità due cifre che insieme fanno dieci. Scrivi la nuova decina nella casella piccola sopra le decine. Poi somma le decine."
+  },
+  "G3-491": {
+    "title": "Moltiplicare per le decine",
+    "instruction": "Calcola prima la moltiplicazione della tabellina. Poi pensa alle decine: scrivi quante decine sono. Infine scrivi il prodotto."
+  },
+  "G3-492": {
+    "title": "Numeri interi come frazioni",
+    "instruction": "Sopra ogni linea dei numeri ci sono i numeri interi. Conta le parti uguali. Completa la frazione sotto ogni numero intero."
+  },
+  "G2-515": {
+    "title": "Righe e colonne di quadrati",
+    "instruction": "Usa il righello. Traccia delle linee da un segno all'altro per dividere il rettangolo in quadrati. Scrivi quante righe e quante colonne ci sono. Poi somma i quadrati riga per riga."
   }
 }

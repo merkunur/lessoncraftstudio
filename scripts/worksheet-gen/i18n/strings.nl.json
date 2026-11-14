@@ -4994,5 +4994,17 @@
   "G2-514": {
     "title": "Drie en vier getallen onder elkaar optellen",
     "instruction": "Tel eerst de eenheden op. Zoek bij de eenheden twee cijfers die samen tien zijn. Schrijf het nieuwe tiental in het kleine vakje boven de tientallen. Tel daarna de tientallen op."
+  },
+  "G3-491": {
+    "title": "Vermenigvuldigen met tientallen",
+    "instruction": "Reken eerst de tafelsom uit. Denk dan in tientallen: schrijf op hoeveel tientallen het zijn. Schrijf daarna het antwoord op."
+  },
+  "G3-492": {
+    "title": "Hele getallen als breuken",
+    "instruction": "Boven elke getallenlijn staan de hele getallen. Tel de gelijke delen. Maak de breuk onder elk heel getal af."
+  },
+  "G2-515": {
+    "title": "Rijen en kolommen van vierkanten",
+    "instruction": "Gebruik een liniaal. Trek lijnen van streepje naar streepje en verdeel de rechthoek in vierkanten. Schrijf op hoeveel rijen en kolommen er zijn. Tel daarna de vierkanten rij voor rij op."
   }
 }

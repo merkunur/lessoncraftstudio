@@ -4974,5 +4974,17 @@
   "G2-514": {
     "title": "Læg tre og fire tocifrede tal sammen",
     "instruction": "Læg først enerne sammen. Find to tal blandt enerne, der tilsammen giver ti. Skriv den nye tier i det lille felt over tierne. Læg så tierne sammen."
+  },
+  "G3-491": {
+    "title": "Gange med tiere",
+    "instruction": "Regn først gangestykket ud. Tænk så i tiere: Skriv, hvor mange tiere det bliver. Skriv til sidst resultatet."
+  },
+  "G3-492": {
+    "title": "Hele tal som brøker",
+    "instruction": "Over hver tallinje står de hele tal. Tæl de lige store dele. Gør brøken færdig under hvert helt tal."
+  },
+  "G2-515": {
+    "title": "Rækker og kolonner af kvadrater",
+    "instruction": "Brug en lineal. Tegn linjer fra streg til streg, og del rektanglet i kvadrater. Skriv, hvor mange rækker og kolonner der er. Læg så kvadraterne sammen række for række."
   }
 }

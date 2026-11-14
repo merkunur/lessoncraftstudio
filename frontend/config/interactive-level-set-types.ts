@@ -85,13 +85,14 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'doubles-halves': ['g1449', 'g1451'],
   'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504'],
   'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481'],
-  'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483'],
+  'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483', 'g3491'],   // g3491 Year pages W: Multiply by Tens (boxes to write in; PDF only)
   'telling-time': ['g1477'],
   measurement: ['g2476', 'g2477', 'g2503'],
   money: ['g2472'],
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)
-  'arrays-multiplication': ['k639'],
+  'arrays-multiplication': ['k639', 'g2515'],   // g2515 Year pages W: Rows and Columns of Squares (lines drawn with a ruler; PDF only)
+  fractions: ['g3492'],   // Year pages W: Whole Numbers as Fractions (boxes to write in; PDF only)
   'column-arithmetic': ['g2502', 'g2514'],   // g2514 Year pages V: three and four numbers in columns (boxes to write in; PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only)

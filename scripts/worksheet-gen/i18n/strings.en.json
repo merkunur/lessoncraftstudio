@@ -5037,5 +5037,17 @@
   "G2-514": {
     "title": "Add Three and Four Two-Digit Numbers",
     "instruction": "Add the ones first. Look for two digits in the ones column that make ten. Write the new ten in the small box above the tens. Then add the tens."
+  },
+  "G3-491": {
+    "title": "Multiply by Multiples of 10",
+    "instruction": "Solve the basic fact. Then think of tens: write how many tens that is. Then write the product."
+  },
+  "G3-492": {
+    "title": "Whole Numbers as Fractions",
+    "instruction": "The whole numbers are shown above each number line. Count the equal parts. Complete the fraction under each whole number."
+  },
+  "G2-515": {
+    "title": "Rows and Columns of Squares",
+    "instruction": "Use a ruler. Draw lines from mark to mark to divide the rectangle into squares. Write how many rows and columns there are. Then add the squares row by row."
   }
 }

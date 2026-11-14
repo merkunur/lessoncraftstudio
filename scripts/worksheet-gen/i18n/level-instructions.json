@@ -6640,5 +6640,89 @@
       "no": "Legg først sammen enerne. Skriv de nye tierne i den lille ruten over tierne. Legg så sammen tierne.",
       "fi": "Laske ensin ykköset yhteen. Kirjoita uudet kympit pieneen ruutuun kymppien yläpuolelle. Laske sitten kympit yhteen."
     }
+  },
+  "G3-491": {
+    "1": {
+      "en": "Count the groups and the tens rods in each group. Write how many tens there are in all. Then write the product.",
+      "de": "Zähle die Gruppen und die Zehnerstangen in jeder Gruppe. Schreibe, wie viele Zehner es zusammen sind. Schreibe dann das Ergebnis.",
+      "es": "Cuenta los grupos y las barras de diez de cada grupo. Escribe cuántas decenas hay en total. Después escribe el producto.",
+      "pt": "Conte os grupos e as barras de dez em cada grupo. Escreva quantas dezenas há ao todo. Depois escreva o produto.",
+      "fr": "Compte les groupes et les barres de dix dans chaque groupe. Écris combien de dizaines il y a en tout. Écris ensuite le produit.",
+      "it": "Conta i gruppi e le barrette da dieci in ogni gruppo. Scrivi quante decine ci sono in tutto. Poi scrivi il prodotto.",
+      "nl": "Tel de groepen en de staven van tien in elke groep. Schrijf op hoeveel tientallen er samen zijn. Schrijf daarna het antwoord op.",
+      "sv": "Räkna grupperna och tiostavarna i varje grupp. Skriv hur många tiotal det är sammanlagt. Skriv sedan produkten.",
+      "da": "Tæl grupperne og tierstængerne i hver gruppe. Skriv, hvor mange tiere der er i alt. Skriv så resultatet.",
+      "no": "Tell gruppene og tierstavene i hver gruppe. Skriv hvor mange tiere det er til sammen. Skriv så svaret.",
+      "fi": "Laske ryhmät ja kymmensauvat jokaisessa ryhmässä. Kirjoita, montako kymppiä on yhteensä. Kirjoita sitten tulo."
+    },
+    "3": {
+      "en": "Multiply. Think of the basic fact first, then of tens.",
+      "de": "Rechne aus. Denke zuerst an die Einmaleinsaufgabe, dann an Zehner.",
+      "es": "Multiplica. Piensa primero en la tabla de multiplicar y después en decenas.",
+      "pt": "Multiplique. Pense primeiro na tabuada e depois em dezenas.",
+      "fr": "Multiplie. Pense d'abord au résultat de la table, puis aux dizaines.",
+      "it": "Moltiplica. Pensa prima alla tabellina, poi alle decine.",
+      "nl": "Reken uit. Denk eerst aan de tafelsom en dan aan tientallen.",
+      "sv": "Multiplicera. Tänk först på multiplikationen i tabellen och sedan på tiotal.",
+      "da": "Regn ud. Tænk først på gangestykket fra tabellen og så på tiere.",
+      "no": "Regn ut. Tenk først på gangestykket fra gangetabellen og så på tiere.",
+      "fi": "Laske. Ajattele ensin kertotaulun laskua ja sitten kymppejä."
+    }
+  },
+  "G3-492": {
+    "1": {
+      "en": "Every part is shaded. Count the shaded parts and complete the fraction. Then write how many wholes that is.",
+      "de": "Alle Teile sind gefärbt. Zähle die gefärbten Teile und ergänze den Bruch. Schreibe dann, wie viele Ganze das sind.",
+      "es": "Todas las partes están sombreadas. Cuenta las partes sombreadas y completa la fracción. Después escribe cuántos enteros son.",
+      "pt": "Todas as partes estão pintadas. Conte as partes pintadas e complete a fração. Depois escreva quantos inteiros são.",
+      "fr": "Toutes les parts sont coloriées. Compte les parts coloriées et complète la fraction. Écris ensuite combien d'unités cela fait.",
+      "it": "Tutte le parti sono colorate. Conta le parti colorate e completa la frazione. Poi scrivi quanti interi sono.",
+      "nl": "Alle delen zijn gekleurd. Tel de gekleurde delen en maak de breuk af. Schrijf daarna op hoeveel helen dat zijn.",
+      "sv": "Alla delar är färgade. Räkna de färgade delarna och gör klart bråket. Skriv sedan hur många hela det är.",
+      "da": "Alle dele er farvet. Tæl de farvede dele, og gør brøken færdig. Skriv så, hvor mange hele det er.",
+      "no": "Alle delene er fargelagt. Tell de fargelagte delene og gjør brøken ferdig. Skriv så hvor mange hele det er.",
+      "fi": "Kaikki osat on väritetty. Laske väritetyt osat ja täydennä murtoluku. Kirjoita sitten, montako kokonaista se on."
+    },
+    "3": {
+      "en": "Write the missing number. A fraction can be equal to a whole number.",
+      "de": "Schreibe die fehlende Zahl. Ein Bruch kann genauso viel sein wie eine ganze Zahl.",
+      "es": "Escribe el número que falta. Una fracción puede ser igual a un número entero.",
+      "pt": "Escreva o número que falta. Uma fração pode ser igual a um número inteiro.",
+      "fr": "Écris le nombre qui manque. Une fraction peut être égale à un nombre entier.",
+      "it": "Scrivi il numero che manca. Una frazione può essere uguale a un numero intero.",
+      "nl": "Vul het ontbrekende getal in. Een breuk kan gelijk zijn aan een heel getal.",
+      "sv": "Skriv talet som saknas. Ett bråk kan vara lika med ett heltal.",
+      "da": "Skriv det tal, der mangler. En brøk kan være lig med et helt tal.",
+      "no": "Skriv tallet som mangler. En brøk kan være lik et helt tall.",
+      "fi": "Kirjoita puuttuva luku. Murtoluku voi olla yhtä suuri kuin kokonaisluku."
+    }
+  },
+  "G2-515": {
+    "1": {
+      "en": "Use a ruler. One row and one column of squares are already drawn. Draw the missing lines. Write how many rows, columns, and squares there are.",
+      "de": "Nimm ein Lineal. Eine Reihe und eine Spalte aus Quadraten sind schon gezeichnet. Zeichne die fehlenden Linien ein. Schreibe, wie viele Reihen, Spalten und Quadrate es sind.",
+      "es": "Usa una regla. Ya están dibujadas una fila y una columna de cuadrados. Traza las líneas que faltan. Escribe cuántas filas, columnas y cuadrados hay.",
+      "pt": "Use uma régua. Uma linha e uma coluna de quadrados já estão desenhadas. Faça os traços que faltam. Escreva quantas linhas, colunas e quadrados há.",
+      "fr": "Prends une règle. Une ligne et une colonne de carrés sont déjà tracées. Trace les traits qui manquent. Écris combien il y a de lignes, de colonnes et de carrés.",
+      "it": "Usa il righello. Una riga e una colonna di quadrati sono già disegnate. Traccia le linee che mancano. Scrivi quante righe, colonne e quadrati ci sono.",
+      "nl": "Gebruik een liniaal. Eén rij en één kolom vierkanten zijn al getekend. Teken de lijnen die ontbreken. Schrijf op hoeveel rijen, kolommen en vierkanten er zijn.",
+      "sv": "Använd en linjal. En rad och en kolumn med rutor är redan ritade. Rita linjerna som saknas. Skriv hur många rader, kolumner och rutor det blir.",
+      "da": "Brug en lineal. En række og en kolonne af kvadrater er allerede tegnet. Tegn de linjer, der mangler. Skriv, hvor mange rækker, kolonner og kvadrater der er.",
+      "no": "Bruk en linjal. Én rad og én kolonne med kvadrater er allerede tegnet. Tegn linjene som mangler. Skriv hvor mange rader, kolonner og kvadrater det er.",
+      "fi": "Käytä viivainta. Yksi rivi ja yksi sarake neliöitä on jo piirretty. Piirrä puuttuvat viivat. Kirjoita, montako riviä, saraketta ja neliötä on."
+    },
+    "3": {
+      "en": "Use a ruler. The marks are on two sides only. Draw straight lines across and down to divide the rectangle into squares. Write how many rows and columns there are. Then add the squares row by row.",
+      "de": "Nimm ein Lineal. Die Striche sind nur an zwei Seiten. Zeichne gerade Linien quer und nach unten und teile das Rechteck in Quadrate. Schreibe, wie viele Reihen und Spalten es sind. Addiere dann die Quadrate Reihe für Reihe.",
+      "es": "Usa una regla. Solo hay marcas en dos lados. Traza líneas rectas de lado a lado y de arriba abajo para dividir el rectángulo en cuadrados. Escribe cuántas filas y cuántas columnas hay. Después suma los cuadrados fila por fila.",
+      "pt": "Use uma régua. Só há marcas em dois lados. Faça traços retos na horizontal e na vertical para dividir o retângulo em quadrados. Escreva quantas linhas e quantas colunas há. Depois some os quadrados linha por linha.",
+      "fr": "Prends une règle. Il n'y a des marques que sur deux côtés. Trace des traits bien droits, horizontaux et verticaux, pour partager le rectangle en carrés. Écris combien il y a de lignes et de colonnes. Additionne ensuite les carrés ligne par ligne.",
+      "it": "Usa il righello. I segni sono solo su due lati. Traccia linee diritte in orizzontale e in verticale per dividere il rettangolo in quadrati. Scrivi quante righe e quante colonne ci sono. Poi somma i quadrati riga per riga.",
+      "nl": "Gebruik een liniaal. De streepjes staan maar aan twee kanten. Trek rechte lijnen naar de overkant en naar beneden en verdeel de rechthoek in vierkanten. Schrijf op hoeveel rijen en kolommen er zijn. Tel daarna de vierkanten rij voor rij op.",
+      "sv": "Använd en linjal. Strecken finns bara på två sidor. Dra raka linjer tvärs över och rakt ner och dela rektangeln i rutor. Skriv hur många rader och kolumner det blir. Addera sedan rutorna rad för rad.",
+      "da": "Brug en lineal. Stregerne er kun på to sider. Tegn lige linjer på tværs og nedad, og del rektanglet i kvadrater. Skriv, hvor mange rækker og kolonner der er. Læg så kvadraterne sammen række for række.",
+      "no": "Bruk en linjal. Strekene står bare på to sider. Tegn rette linjer bortover og nedover og del rektangelet i kvadrater. Skriv hvor mange rader og kolonner det er. Legg så sammen kvadratene rad for rad.",
+      "fi": "Käytä viivainta. Merkit ovat vain kahdella sivulla. Piirrä suorat viivat vaakaan ja pystyyn ja jaa suorakulmio neliöiksi. Kirjoita, montako riviä ja saraketta on. Laske sitten neliöt yhteen rivi riviltä."
+    }
   }
 }

@@ -4948,5 +4948,17 @@
   "G2-514": {
     "title": "Addera tre och fyra tvåsiffriga tal",
     "instruction": "Addera först entalen. Leta bland entalen efter två siffror som tillsammans blir tio. Skriv det nya tiotalet i den lilla rutan ovanför tiotalen. Addera sedan tiotalen."
+  },
+  "G3-491": {
+    "title": "Multiplicera med tiotal",
+    "instruction": "Räkna först ut multiplikationen. Tänk sedan i tiotal: skriv hur många tiotal det blir. Skriv till sist produkten."
+  },
+  "G3-492": {
+    "title": "Heltal som bråk",
+    "instruction": "Ovanför varje tallinje står heltalen. Räkna de lika stora delarna. Gör klart bråket under varje heltal."
+  },
+  "G2-515": {
+    "title": "Rader och kolumner med rutor",
+    "instruction": "Använd en linjal. Dra linjer från streck till streck och dela rektangeln i rutor. Skriv hur många rader och kolumner det blir. Addera sedan rutorna rad för rad."
   }
 }

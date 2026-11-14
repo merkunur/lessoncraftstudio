@@ -252,6 +252,9 @@
   "G3-490": "3:perimeter",
   "G1-573": "2:add-with-blocks",
   "G2-513": "2:subtract-with-blocks",
-  "G2-514": "2:column-method"
+  "G2-514": "2:column-method",
+  "G3-491": "3:times-tables",
+  "G3-492": "3:equivalent-fractions",
+  "G2-515": "2:arrays"
  }
 }

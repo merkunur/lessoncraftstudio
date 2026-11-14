@@ -4989,5 +4989,17 @@
   "G2-514": {
     "title": "Sumar tres y cuatro números de dos cifras",
     "instruction": "Suma primero las unidades. Busca en las unidades dos cifras que sumen diez. Escribe la nueva decena en el recuadro pequeño que está arriba de las decenas. Después suma las decenas."
+  },
+  "G3-491": {
+    "title": "Multiplicar por decenas",
+    "instruction": "Resuelve primero la multiplicación de la tabla. Después piensa en decenas: escribe cuántas decenas son. Al final escribe el producto."
+  },
+  "G3-492": {
+    "title": "Números enteros como fracciones",
+    "instruction": "Arriba de cada recta numérica están los números enteros. Cuenta las partes iguales. Completa la fracción debajo de cada número entero."
+  },
+  "G2-515": {
+    "title": "Filas y columnas de cuadrados",
+    "instruction": "Usa una regla. Traza líneas de marca a marca para dividir el rectángulo en cuadrados. Escribe cuántas filas y cuántas columnas hay. Después suma los cuadrados fila por fila."
   }
 }

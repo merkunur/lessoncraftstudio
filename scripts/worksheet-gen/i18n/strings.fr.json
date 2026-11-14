@@ -4993,5 +4993,17 @@
   "G2-514": {
     "title": "Additionner trois et quatre nombres à deux chiffres",
     "instruction": "Additionne d'abord les unités. Cherche dans les unités deux chiffres qui font dix. Écris la nouvelle dizaine dans la petite case au-dessus des dizaines. Additionne ensuite les dizaines."
+  },
+  "G3-491": {
+    "title": "Multiplier par des dizaines entières",
+    "instruction": "Calcule d'abord le résultat de la table. Pense ensuite en dizaines : écris combien de dizaines cela fait. Écris enfin le produit."
+  },
+  "G3-492": {
+    "title": "Les nombres entiers sous forme de fractions",
+    "instruction": "Les nombres entiers sont écrits au-dessus de chaque droite graduée. Compte les parts égales. Complète la fraction sous chaque nombre entier."
+  },
+  "G2-515": {
+    "title": "Lignes et colonnes de carrés",
+    "instruction": "Prends une règle. Trace des traits d'une marque à l'autre pour partager le rectangle en carrés. Écris combien il y a de lignes et de colonnes. Additionne ensuite les carrés ligne par ligne."
   }
 }

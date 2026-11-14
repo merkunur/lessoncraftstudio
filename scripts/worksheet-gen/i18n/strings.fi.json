@@ -4946,5 +4946,17 @@
   "G2-514": {
     "title": "Kolmen ja neljän kaksinumeroisen luvun yhteenlasku",
     "instruction": "Laske ensin ykköset yhteen. Etsi ykkösistä kaksi lukua, joista tulee yhteensä kymmenen. Kirjoita uusi kymppi pieneen ruutuun kymppien yläpuolelle. Laske sitten kympit yhteen."
+  },
+  "G3-491": {
+    "title": "Täysillä kymmenillä kertominen",
+    "instruction": "Laske ensin kertotaulun lasku. Ajattele sitten kymppejä: kirjoita, montako kymppiä tulee. Kirjoita lopuksi tulo."
+  },
+  "G3-492": {
+    "title": "Kokonaisluvut murtolukuina",
+    "instruction": "Jokaisen lukusuoran yläpuolella ovat kokonaisluvut. Laske yhtä suuret osat. Täydennä murtoluku jokaisen kokonaisluvun alla."
+  },
+  "G2-515": {
+    "title": "Neliöiden rivit ja sarakkeet",
+    "instruction": "Käytä viivainta. Piirrä viivat merkistä merkkiin ja jaa suorakulmio neliöiksi. Kirjoita, montako riviä ja saraketta on. Laske sitten neliöt yhteen rivi riviltä."
   }
 }

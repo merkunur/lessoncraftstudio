@@ -5049,5 +5049,17 @@
   "G2-515": {
     "title": "Rows and Columns of Squares",
     "instruction": "Use a ruler. Draw lines from mark to mark to divide the rectangle into squares. Write how many rows and columns there are. Then add the squares row by row."
+  },
+  "G1-574": {
+    "title": "No Gaps, No Overlaps",
+    "instruction": "Paper clips measure a ribbon when they lie end to end, from one end of the ribbon to the other. Mark each row right or wrong. Circle every mistake you find."
+  },
+  "G2-516": {
+    "title": "Measure and Make a Line Plot",
+    "instruction": "The table shows the lengths of ten pencils. Write the missing numbers under the number line. Draw an X for each pencil. Then answer the questions."
+  },
+  "G2-517": {
+    "title": "Same Length, Two Units",
+    "instruction": "Each ribbon was measured twice, with two different units. Write how many of each unit it took. Then fill in the circle for the unit it took more of."
   }
 }

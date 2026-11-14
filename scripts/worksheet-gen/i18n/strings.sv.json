@@ -4960,5 +4960,17 @@
   "G2-515": {
     "title": "Rader och kolumner med rutor",
     "instruction": "Använd en linjal. Dra linjer från streck till streck och dela rektangeln i rutor. Skriv hur många rader och kolumner det blir. Addera sedan rutorna rad för rad."
+  },
+  "G1-574": {
+    "title": "Mät utan mellanrum och utan överlapp",
+    "instruction": "Gemen mäter ett band rätt när de ligger kant i kant, från bandets ena ände till den andra. Kryssa för rätt eller fel på varje rad. Ringa in varje fel du hittar."
+  },
+  "G2-517": {
+    "title": "Samma längd, två enheter",
+    "instruction": "Varje band har mätts två gånger, med två olika enheter. Skriv hur många av varje enhet som behövdes. Fyll sedan i ringen vid den enhet som det behövdes flest av."
+  },
+  "G2-516": {
+    "title": "Mät och gör ett diagram",
+    "instruction": "Tabellen visar längden på tio pennor. Skriv talen som saknas under tallinjen. Rita ett kryss för varje penna. Svara sedan på frågorna."
   }
 }

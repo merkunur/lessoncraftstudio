@@ -1,0 +1,253 @@
+{
+  "id": "wave-ymx-nl",
+  "_note": "Level Set 2026-11-14: Year pages X (Part 12.2). Three new measuring page types without pictures of things (rows of paper clips laid right or wrong under a ribbon; ten lengths made into a line plot; one ribbon measured in paper clips and in cubes), three levels each, for lessons of the year designs.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "nl"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-574",
+    "G2-516",
+    "G2-517"
+  ],
+  "levels": {
+    "G1-574": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "G2-516": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-517": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    }
+  }
+}

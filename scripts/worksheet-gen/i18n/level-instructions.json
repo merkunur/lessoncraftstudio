@@ -6724,5 +6724,76 @@
       "no": "Bruk en linjal. Strekene står bare på to sider. Tegn rette linjer bortover og nedover og del rektangelet i kvadrater. Skriv hvor mange rader og kolonner det er. Legg så sammen kvadratene rad for rad.",
       "fi": "Käytä viivainta. Merkit ovat vain kahdella sivulla. Piirrä suorat viivat vaakaan ja pystyyn ja jaa suorakulmio neliöiksi. Kirjoita, montako riviä ja saraketta on. Laske sitten neliöt yhteen rivi riviltä."
     }
+  },
+  "G1-574": {
+    "1": {
+      "en": "Paper clips measure a ribbon when they lie end to end, with no gaps and no overlaps. Mark each row right or wrong. Circle every mistake you find.",
+      "de": "Büroklammern messen ein Band richtig, wenn sie ohne Lücke und ohne Überlappung aneinanderliegen. Kreuze bei jeder Reihe richtig oder falsch an. Kreise jeden Fehler ein.",
+      "es": "Los clips miden bien un listón cuando están uno tras otro, sin huecos y sin encimarse. Marca en cada fila si está bien o mal. Encierra cada error que encuentres.",
+      "pt": "Os clipes medem bem uma fita quando ficam um depois do outro, sem espaços e sem ficar um em cima do outro. Marque em cada linha se está certo ou errado. Circule cada erro que encontrar.",
+      "fr": "Les trombones mesurent bien un ruban quand ils sont placés bout à bout, sans trou et sans se chevaucher. Pour chaque rangée, coche juste ou faux. Entoure chaque erreur que tu trouves.",
+      "it": "Le graffette misurano bene un nastro quando sono messe una dopo l'altra, senza spazi e senza sovrapporsi. Per ogni fila segna giusto o sbagliato. Cerchia ogni errore che trovi.",
+      "nl": "Paperclips meten een lint goed als ze tegen elkaar aan liggen, zonder ruimte ertussen en zonder over elkaar te liggen. Kruis bij elke rij goed of fout aan. Omcirkel elke fout die je vindt.",
+      "sv": "Gemen mäter ett band rätt när de ligger kant i kant, utan mellanrum och utan att överlappa varandra. Kryssa för rätt eller fel på varje rad. Ringa in varje fel du hittar.",
+      "da": "Clipsene måler et bånd rigtigt, når de ligger lige efter hinanden uden mellemrum og uden at ligge oven på hinanden. Sæt kryds ved rigtigt eller forkert for hver række. Sæt ring om hver fejl, du finder.",
+      "no": "Bindersene måler et bånd riktig når de ligger kant i kant, uten mellomrom og uten å ligge oppå hverandre. Kryss av for riktig eller feil på hver rad. Sett ring rundt hver feil du finner.",
+      "fi": "Paperiliittimet mittaavat nauhan oikein, kun ne ovat peräkkäin ilman rakoja ja menemättä päällekkäin. Merkitse jokaiselle riville oikein tai väärin. Ympyröi jokainen virhe, jonka löydät."
+    },
+    "3": {
+      "en": "Mark each row right or wrong and circle every mistake. Where the clips are laid right, write how many paper clips long the ribbon is. Leave the box empty where the row is wrong.",
+      "de": "Kreuze bei jeder Reihe richtig oder falsch an und kreise jeden Fehler ein. Wo die Büroklammern richtig liegen, schreibe auf, wie viele Büroklammern lang das Band ist. Wo die Reihe falsch ist, bleibt das Kästchen leer.",
+      "es": "Marca en cada fila si está bien o mal y encierra cada error. Donde los clips están bien puestos, escribe cuántos clips mide el listón. Deja el recuadro vacío donde la fila está mal.",
+      "pt": "Marque em cada linha se está certo ou errado e circule cada erro. Onde os clipes estão bem colocados, escreva quantos clipes de comprimento a fita tem. Deixe o quadrinho vazio onde a linha está errada.",
+      "fr": "Pour chaque rangée, coche juste ou faux et entoure chaque erreur. Quand les trombones sont bien placés, écris combien de trombones mesure le ruban. Laisse la case vide quand la rangée est fausse.",
+      "it": "Per ogni fila segna giusto o sbagliato e cerchia ogni errore. Dove le graffette sono messe bene, scrivi quante graffette misura il nastro. Lascia vuota la casella dove la fila è sbagliata.",
+      "nl": "Kruis bij elke rij goed of fout aan en omcirkel elke fout. Waar de paperclips goed liggen, schrijf je op hoeveel paperclips lang het lint is. Laat het vakje leeg als de rij fout is.",
+      "sv": "Kryssa för rätt eller fel på varje rad och ringa in varje fel. Där gemen ligger rätt skriver du hur många gem långt bandet är. Lämna rutan tom där raden är fel.",
+      "da": "Sæt kryds ved rigtigt eller forkert for hver række, og sæt ring om hver fejl. Hvor clipsene ligger rigtigt, skriver du, hvor mange clips langt båndet er. Lad feltet stå tomt, hvor rækken er forkert.",
+      "no": "Kryss av for riktig eller feil på hver rad, og sett ring rundt hver feil. Der bindersene ligger riktig, skriver du hvor mange binders langt båndet er. La ruten stå tom der raden er feil.",
+      "fi": "Merkitse jokaiselle riville oikein tai väärin ja ympyröi jokainen virhe. Kun paperiliittimet ovat oikein, kirjoita, kuinka monta paperiliitintä pitkä nauha on. Jätä ruutu tyhjäksi, jos rivi on väärin."
+    }
+  },
+  "G2-517": {
+    "3": {
+      "en": "The second row of units is not finished. Write how many paper clips long the ribbon is. Work out how many of the other unit it would take, and write the number. Then fill in the circle for the unit it takes more of.",
+      "de": "Die zweite Reihe ist erst angefangen. Schreibe auf, wie viele Büroklammern lang das Band ist. Überlege, wie viele von der anderen Einheit man braucht, und schreibe die Zahl auf. Male dann den Kreis bei der Einheit aus, von der man mehr braucht.",
+      "es": "La segunda fila está incompleta. Escribe cuántos clips mide el listón. Calcula cuántas unidades del otro tipo se necesitan y escribe el número. Después rellena el círculo de la unidad de la que se necesitan más.",
+      "pt": "A segunda fileira está incompleta. Escreva quantos clipes a fita mede. Descubra quantas unidades do outro tipo são necessárias e escreva o número. Depois pinte o círculo da unidade que é usada mais vezes.",
+      "fr": "La deuxième rangée n'est pas terminée. Écris combien de trombones mesure le ruban. Trouve combien il faudrait d'unités de l'autre sorte et écris le nombre. Colorie ensuite le rond de l'unité dont il faut le plus.",
+      "it": "La seconda fila è appena iniziata. Scrivi quante graffette misura il nastro. Calcola quante unità dell'altro tipo servono e scrivi il numero. Poi colora il cerchietto dell'unità che serve più volte.",
+      "nl": "De tweede rij is nog niet af. Schrijf op hoeveel paperclips lang het lint is. Bedenk hoeveel je van de andere maat nodig hebt en schrijf het getal op. Kleur daarna het rondje bij de maat waarvan er meer nodig zijn.",
+      "sv": "Den andra raden är bara påbörjad. Skriv hur många gem långt bandet är. Räkna ut hur många av den andra enheten som behövs och skriv talet. Fyll sedan i ringen vid den enhet som det behövs flest av.",
+      "da": "Den anden række er ikke færdig. Skriv, hvor mange clips båndet er langt. Regn ud, hvor mange af den anden enhed der skal bruges, og skriv tallet. Farv så cirklen ved den enhed, der skal bruges flest af.",
+      "no": "Den andre raden er bare påbegynt. Skriv hvor mange binders båndet er langt. Finn ut hvor mange av den andre enheten som trengs, og skriv tallet. Fargelegg så sirkelen ved den enheten det trengs flest av.",
+      "fi": "Toinen rivi on vasta aloitettu. Kirjoita, kuinka monta paperiliitintä pitkä nauha on. Päättele, kuinka monta toista yksikköä tarvitaan, ja kirjoita luku. Väritä sitten sen yksikön ympyrä, jota tarvitaan enemmän."
+    }
+  },
+  "G2-516": {
+    "1": {
+      "en": "The table shows the lengths of ten pencils. For each pencil, draw an X above its length on the number line. Then answer the questions.",
+      "de": "Die Tabelle zeigt die Längen von zehn Stiften. Zeichne für jeden Stift ein Kreuz über seine Länge am Zahlenstrahl. Beantworte dann die Fragen.",
+      "es": "La tabla muestra la longitud de diez lápices. Dibuja una X sobre la recta numérica por cada lápiz. Después contesta las preguntas.",
+      "pt": "A tabela mostra o comprimento de dez lápis. Desenhe um X acima da reta numérica para cada lápis. Depois responda às perguntas.",
+      "fr": "Le tableau donne la longueur de dix crayons. Dessine une croix au-dessus de la droite graduée pour chaque crayon. Réponds ensuite aux questions.",
+      "it": "La tabella mostra la lunghezza di dieci matite. Disegna una X sopra la linea dei numeri per ogni matita. Poi rispondi alle domande.",
+      "nl": "In de tabel staan de lengtes van tien potloden. Zet voor elk potlood een kruisje boven de getallenlijn. Beantwoord daarna de vragen.",
+      "sv": "Tabellen visar längden på tio pennor. Rita ett kryss ovanför tallinjen för varje penna. Svara sedan på frågorna.",
+      "da": "Tabellen viser længden af ti blyanter. Sæt et kryds over tallinjen for hver blyant. Svar så på spørgsmålene.",
+      "no": "Tabellen viser lengden på ti blyanter. Tegn et kryss over tallinjen for hver blyant. Svar så på spørsmålene.",
+      "fi": "Taulukossa on kymmenen kynän pituudet. Piirrä lukusuoran yläpuolelle rasti jokaista kynää kohti. Vastaa sitten kysymyksiin."
+    },
+    "3": {
+      "en": "Measure ten used pencils to the nearest inch and write the lengths in the table. Number the line. Start with a number a little less than your shortest length. Draw an X for each pencil. Then answer the questions.",
+      "de": "Miss zehn benutzte Stifte auf den Zentimeter genau und schreibe die Längen in die Tabelle. Beschrifte den Zahlenstrahl: Beginne mit einer Zahl, die etwas kleiner ist als die Länge deines kürzesten Stiftes. Zeichne für jeden Stift ein Kreuz. Beantworte dann die Fragen.",
+      "es": "Mide diez lápices usados al centímetro más cercano y escribe las longitudes en la tabla. Numera la recta: empieza con un número un poco menor que la medida de tu lápiz más corto. Dibuja una X por cada lápiz. Después contesta las preguntas.",
+      "pt": "Meça dez lápis usados, arredondando para o centímetro mais próximo, e escreva os comprimentos na tabela. Numere a reta: comece com um número um pouco menor que a medida do seu lápis mais curto. Desenhe um X para cada lápis. Depois responda às perguntas.",
+      "fr": "Mesure dix crayons déjà utilisés au centimètre près et écris les longueurs dans le tableau. Écris les nombres sous la droite : commence par un nombre un peu plus petit que la longueur de ton crayon le plus court. Dessine une croix pour chaque crayon. Réponds ensuite aux questions.",
+      "it": "Misura dieci matite usate arrotondando al centimetro e scrivi le lunghezze nella tabella. Numera la linea: comincia da un numero un po' più piccolo della lunghezza della tua matita più corta. Disegna una X per ogni matita. Poi rispondi alle domande.",
+      "nl": "Meet tien gebruikte potloden op de centimeter nauwkeurig en schrijf de lengtes in de tabel. Zet de getallen onder de lijn: begin met een getal dat iets kleiner is dan de lengte van je kortste potlood. Zet voor elk potlood een kruisje. Beantwoord daarna de vragen.",
+      "sv": "Mät tio använda pennor till närmaste centimeter och skriv längderna i tabellen. Skriv tal under linjen: börja med ett tal som är lite mindre än längden på din kortaste penna. Rita ett kryss för varje penna. Svara sedan på frågorna.",
+      "da": "Mål ti brugte blyanter til nærmeste centimeter, og skriv længderne i tabellen. Skriv tal under linjen: Begynd med et tal, der er lidt mindre end længden af din korteste blyant. Sæt et kryds for hver blyant. Svar så på spørgsmålene.",
+      "no": "Mål ti brukte blyanter til nærmeste centimeter og skriv lengdene i tabellen. Skriv tall under linjen: Begynn med et tall som er litt mindre enn lengden på den korteste blyanten din. Tegn et kryss for hver blyant. Svar så på spørsmålene.",
+      "fi": "Mittaa kymmenen käytettyä kynää senttimetrin tarkkuudella ja kirjoita pituudet taulukkoon. Numeroi suora: aloita vähän lyhintä kynääsi pienemmästä luvusta. Piirrä rasti jokaista kynää kohti. Vastaa sitten kysymyksiin."
+    }
   }
 }

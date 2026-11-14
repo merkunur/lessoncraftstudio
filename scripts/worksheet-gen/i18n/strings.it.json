@@ -4992,5 +4992,17 @@
   "G2-515": {
     "title": "Righe e colonne di quadrati",
     "instruction": "Usa il righello. Traccia delle linee da un segno all'altro per dividere il rettangolo in quadrati. Scrivi quante righe e quante colonne ci sono. Poi somma i quadrati riga per riga."
+  },
+  "G1-574": {
+    "title": "Misurare senza spazi e senza sovrapposizioni",
+    "instruction": "Le graffette misurano bene un nastro quando sono messe una dopo l'altra, da un capo all'altro del nastro. Per ogni fila segna giusto o sbagliato. Cerchia ogni errore che trovi."
+  },
+  "G2-517": {
+    "title": "Stessa lunghezza, due unità di misura",
+    "instruction": "Ogni nastro è stato misurato due volte, con due unità di misura diverse. Scrivi quante unità di ogni tipo misura. Poi colora il cerchietto dell'unità che è servita più volte."
+  },
+  "G2-516": {
+    "title": "Misura e costruisci un grafico a punti",
+    "instruction": "La tabella mostra la lunghezza di dieci matite. Scrivi i numeri che mancano sotto la linea dei numeri. Disegna una X per ogni matita. Poi rispondi alle domande."
   }
 }

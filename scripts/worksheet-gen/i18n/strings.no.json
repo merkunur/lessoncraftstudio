@@ -5005,5 +5005,17 @@
   "G2-515": {
     "title": "Rader og kolonner med kvadrater",
     "instruction": "Bruk en linjal. Tegn linjer fra strek til strek og del rektangelet i kvadrater. Skriv hvor mange rader og kolonner det er. Legg så sammen kvadratene rad for rad."
+  },
+  "G1-574": {
+    "title": "Mål uten mellomrom og uten overlapp",
+    "instruction": "Bindersene måler et bånd riktig når de ligger kant i kant, fra den ene enden av båndet til den andre. Kryss av for riktig eller feil på hver rad. Sett ring rundt hver feil du finner."
+  },
+  "G2-517": {
+    "title": "Samme lengde, to enheter",
+    "instruction": "Hvert bånd er målt to ganger, med to forskjellige enheter. Skriv hvor mange det trengtes av hver enhet. Fargelegg så sirkelen ved den enheten det trengtes flest av."
+  },
+  "G2-516": {
+    "title": "Mål og lag et diagram",
+    "instruction": "Tabellen viser lengden på ti blyanter. Skriv tallene som mangler, under tallinjen. Tegn et kryss for hver blyant. Svar så på spørsmålene."
   }
 }

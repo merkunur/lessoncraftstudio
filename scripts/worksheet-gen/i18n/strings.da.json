@@ -4986,5 +4986,17 @@
   "G2-515": {
     "title": "Rækker og kolonner af kvadrater",
     "instruction": "Brug en lineal. Tegn linjer fra streg til streg, og del rektanglet i kvadrater. Skriv, hvor mange rækker og kolonner der er. Læg så kvadraterne sammen række for række."
+  },
+  "G1-574": {
+    "title": "Mål uden mellemrum og uden overlap",
+    "instruction": "Clipsene måler et bånd rigtigt, når de ligger lige efter hinanden, fra den ene ende af båndet til den anden. Sæt kryds ved rigtigt eller forkert for hver række. Sæt ring om hver fejl, du finder."
+  },
+  "G2-517": {
+    "title": "Samme længde, to enheder",
+    "instruction": "Hvert bånd er målt to gange, med to forskellige enheder. Skriv, hvor mange der blev brugt af hver enhed. Farv så cirklen ved den enhed, der blev brugt flest af."
+  },
+  "G2-516": {
+    "title": "Mål og lav et prikdiagram",
+    "instruction": "Tabellen viser længden af ti blyanter. Skriv de tal, der mangler, under tallinjen. Sæt et kryds for hver blyant. Svar så på spørgsmålene."
   }
 }

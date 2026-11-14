@@ -1655,7 +1655,9 @@
    "types": [
     "G1-139",
     "G1-140",
-    "G1-480"
+    "G1-480",
+    "G1-574",
+    "G2-517"
    ],
    "families": [
     "measurement"
@@ -2927,7 +2929,8 @@
    "skill": "Read a line plot (X marks above numbers)",
    "code": "2.MD.D.9",
    "types": [
-    "G2-240"
+    "G2-240",
+    "G2-516"
    ],
    "families": [
     "graphing-data"

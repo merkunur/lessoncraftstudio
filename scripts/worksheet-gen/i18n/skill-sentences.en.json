@@ -58,7 +58,8 @@
   },
   "measurement": {
     "full": "Measuring with rulers and unit cubes and comparing lengths builds practical measurement sense step by step.",
-    "short": "Builds hands-on measurement sense."
+    "short": "Builds hands-on measurement sense.",
+    "levelSetShort": "Builds hands-on measurement sense step by step."
   },
   "visual-logic": {
     "full": "Picture sudoku and reasoning grids stretch deduction skills — every puzzle has exactly one right answer to discover.",

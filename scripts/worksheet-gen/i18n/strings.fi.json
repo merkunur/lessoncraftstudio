@@ -4958,5 +4958,17 @@
   "G2-515": {
     "title": "Neliöiden rivit ja sarakkeet",
     "instruction": "Käytä viivainta. Piirrä viivat merkistä merkkiin ja jaa suorakulmio neliöiksi. Kirjoita, montako riviä ja saraketta on. Laske sitten neliöt yhteen rivi riviltä."
+  },
+  "G1-574": {
+    "title": "Mittaa ilman rakoja ja päällekkäisyyksiä",
+    "instruction": "Paperiliittimet mittaavat nauhan oikein, kun ne ovat peräkkäin ilman väliä, nauhan päästä päähän. Merkitse jokaiselle riville oikein tai väärin. Ympyröi jokainen virhe, jonka löydät."
+  },
+  "G2-517": {
+    "title": "Sama pituus, kaksi mittayksikköä",
+    "instruction": "Jokainen nauha on mitattu kaksi kertaa, kahdella eri mittayksiköllä. Kirjoita, kuinka monta kumpaakin yksikköä tarvittiin. Väritä sitten sen yksikön ympyrä, jota tarvittiin enemmän."
+  },
+  "G2-516": {
+    "title": "Mittaa ja tee pistediagrammi",
+    "instruction": "Taulukossa on kymmenen kynän pituudet. Kirjoita puuttuvat luvut lukusuoran alle. Piirrä rasti jokaista kynää kohti. Vastaa sitten kysymyksiin."
   }
 }

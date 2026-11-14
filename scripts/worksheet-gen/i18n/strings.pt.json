@@ -5011,5 +5011,17 @@
   "G2-515": {
     "title": "Linhas e colunas de quadrados",
     "instruction": "Use uma régua. Faça traços de marca a marca para dividir o retângulo em quadrados. Escreva quantas linhas e quantas colunas há. Depois some os quadrados linha por linha."
+  },
+  "G1-574": {
+    "title": "Medir sem espaços e sem sobreposição",
+    "instruction": "Os clipes medem bem uma fita quando ficam um depois do outro, de uma ponta da fita até a outra. Marque em cada linha se está certo ou errado. Circule cada erro que encontrar."
+  },
+  "G2-517": {
+    "title": "O mesmo comprimento, duas unidades",
+    "instruction": "Cada fita foi medida duas vezes, com duas unidades de medida diferentes. Escreva quantas unidades de cada tipo ela mede. Depois pinte o círculo da unidade que foi usada mais vezes."
+  },
+  "G2-516": {
+    "title": "Meça e faça um gráfico de pontos",
+    "instruction": "A tabela mostra o comprimento de dez lápis. Escreva os números que faltam embaixo da reta numérica. Desenhe um X para cada lápis. Depois responda às perguntas."
   }
 }

@@ -5008,5 +5008,17 @@
   "G2-515": {
     "title": "Reihen und Spalten aus Quadraten",
     "instruction": "Nimm ein Lineal. Zeichne Linien von Strich zu Strich und teile das Rechteck in Quadrate. Schreibe, wie viele Reihen und Spalten es sind. Addiere dann die Quadrate Reihe für Reihe."
+  },
+  "G1-574": {
+    "title": "Messen ohne Lücken und Überlappungen",
+    "instruction": "Büroklammern messen ein Band richtig, wenn sie lückenlos aneinanderliegen, vom Anfang bis zum Ende des Bandes. Kreuze bei jeder Reihe richtig oder falsch an. Kreise jeden Fehler ein."
+  },
+  "G2-517": {
+    "title": "Gleiche Länge, zwei Einheiten",
+    "instruction": "Jedes Band wurde zweimal gemessen, mit zwei verschiedenen Einheiten. Schreibe auf, wie viele man von jeder Einheit gebraucht hat. Male dann den Kreis bei der Einheit aus, von der man mehr gebraucht hat."
+  },
+  "G2-516": {
+    "title": "Längen messen und ein Diagramm zeichnen",
+    "instruction": "Die Tabelle zeigt die Längen von zehn Stiften. Schreibe die fehlenden Zahlen unter den Zahlenstrahl. Zeichne für jeden Stift ein Kreuz. Beantworte dann die Fragen."
   }
 }

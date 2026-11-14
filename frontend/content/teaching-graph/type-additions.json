@@ -255,6 +255,9 @@
   "G2-514": "2:column-method",
   "G3-491": "3:times-tables",
   "G3-492": "3:equivalent-fractions",
-  "G2-515": "2:arrays"
+  "G2-515": "2:arrays",
+  "G1-574": "1:measure-length-units",
+  "G2-516": "2:line-plots",
+  "G2-517": "1:measure-length-units"
  }
 }

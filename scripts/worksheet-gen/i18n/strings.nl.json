@@ -5006,5 +5006,17 @@
   "G2-515": {
     "title": "Rijen en kolommen van vierkanten",
     "instruction": "Gebruik een liniaal. Trek lijnen van streepje naar streepje en verdeel de rechthoek in vierkanten. Schrijf op hoeveel rijen en kolommen er zijn. Tel daarna de vierkanten rij voor rij op."
+  },
+  "G1-574": {
+    "title": "Meten zonder tussenruimte en zonder overlap",
+    "instruction": "Paperclips meten een lint goed als ze precies tegen elkaar aan liggen, van het ene eind van het lint tot het andere. Kruis bij elke rij goed of fout aan. Omcirkel elke fout die je vindt."
+  },
+  "G2-517": {
+    "title": "Dezelfde lengte, twee maten",
+    "instruction": "Elk lint is twee keer gemeten, met twee verschillende maten. Schrijf op hoeveel er van elke maat nodig waren. Kleur daarna het rondje bij de maat waarvan er meer nodig waren."
+  },
+  "G2-516": {
+    "title": "Meten en een grafiek maken",
+    "instruction": "In de tabel staan de lengtes van tien potloden. Schrijf de ontbrekende getallen onder de getallenlijn. Zet voor elk potlood een kruisje. Beantwoord daarna de vragen."
   }
 }

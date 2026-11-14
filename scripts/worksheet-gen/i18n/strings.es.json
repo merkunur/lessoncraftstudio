@@ -5001,5 +5001,17 @@
   "G2-515": {
     "title": "Filas y columnas de cuadrados",
     "instruction": "Usa una regla. Traza líneas de marca a marca para dividir el rectángulo en cuadrados. Escribe cuántas filas y cuántas columnas hay. Después suma los cuadrados fila por fila."
+  },
+  "G1-574": {
+    "title": "Medir sin huecos ni traslapes",
+    "instruction": "Los clips miden bien un listón cuando están uno tras otro, de un extremo del listón al otro. Marca en cada fila si está bien o mal. Encierra cada error que encuentres."
+  },
+  "G2-517": {
+    "title": "La misma longitud, dos unidades",
+    "instruction": "Cada listón se midió dos veces, con dos unidades de medida distintas. Escribe cuántas unidades de cada tipo mide. Después rellena el círculo de la unidad de la que se necesitaron más."
+  },
+  "G2-516": {
+    "title": "Mide y haz una gráfica de puntos",
+    "instruction": "La tabla muestra la longitud de diez lápices. Escribe los números que faltan debajo de la recta numérica. Dibuja una X por cada lápiz. Después contesta las preguntas."
   }
 }

@@ -66,6 +66,9 @@ BLOCK = """    {marker}
         proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
         proxy_ignore_headers Set-Cookie Cache-Control Expires Vary;
         proxy_hide_header Set-Cookie;
+        proxy_hide_header Cache-Control;
+        proxy_hide_header Expires;
+        proxy_hide_header Access-Control-Allow-Origin;
         proxy_hide_header Link;
         sub_filter 'https://fonts.gstatic.com/' '/gf/s/';
         sub_filter_once off;
@@ -86,6 +89,9 @@ BLOCK = """    {marker}
         proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
         proxy_ignore_headers Set-Cookie Cache-Control Expires Vary;
         proxy_hide_header Set-Cookie;
+        proxy_hide_header Cache-Control;
+        proxy_hide_header Expires;
+        proxy_hide_header Access-Control-Allow-Origin;
         add_header Cache-Control "public, max-age=31536000, immutable";
         add_header Access-Control-Allow-Origin "*";
         add_header X-Robots-Tag "noindex" always;

@@ -4030,7 +4030,9 @@
    "code": "3.MD.C.7.a",
    "types": [
     "G3-313",
-    "G3-477"
+    "G3-477",
+    "G3-488",
+    "G3-489"
    ],
    "families": [
     "arrays-multiplication",
@@ -4081,7 +4083,8 @@
    "skill": "Find perimeter as the distance around a shape",
    "code": "3.MD.D.8",
    "types": [
-    "G3-337"
+    "G3-337",
+    "G3-490"
    ],
    "families": [
     "geometry"

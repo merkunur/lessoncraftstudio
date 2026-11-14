@@ -4969,5 +4969,17 @@
   "G3-487": {
     "title": "Problèmes en deux étapes : équation, estimation, réponse",
     "instruction": "Lis chaque problème. Écris une équation avec x pour le nombre cherché. Arrondis chaque nombre à la centaine et estime. Calcule ensuite x et compare avec ton estimation."
+  },
+  "G3-488": {
+    "title": "Aire du rectangle : multiplier les côtés",
+    "instruction": "Multiplie les longueurs des deux côtés. Écris le calcul et l'aire."
+  },
+  "G3-489": {
+    "title": "Aire d'une figure en L",
+    "instruction": "Partage chaque figure en deux rectangles en traçant un seul trait droit. Calcule l'aire de chaque partie. Additionne ensuite les deux aires."
+  },
+  "G3-490": {
+    "title": "Périmètre : trouver le côté manquant",
+    "instruction": "Le périmètre de chaque figure est donné. Écris une équation avec x pour le côté manquant. Calcule ensuite x."
   }
 }

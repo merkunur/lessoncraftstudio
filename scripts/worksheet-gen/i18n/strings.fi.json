@@ -4922,5 +4922,17 @@
   "G3-487": {
     "title": "Kaksivaiheiset sanalliset tehtävät: yhtälö, arvio, vastaus",
     "instruction": "Lue jokainen tehtävä. Kirjoita yhtälö, jossa x on kysytty luku. Pyöristä jokainen luku lähimpään sataan ja arvioi. Laske sitten x ja vertaa sitä arvioosi."
+  },
+  "G3-488": {
+    "title": "Suorakulmion pinta-ala: kerro sivujen pituudet",
+    "instruction": "Kerro kahden sivun pituudet keskenään. Kirjoita lasku ja pinta-ala."
+  },
+  "G3-489": {
+    "title": "L-kirjaimen muotoisen kuvion pinta-ala",
+    "instruction": "Jaa jokainen kuvio suoralla viivalla kahdeksi suorakulmioksi. Laske kummankin osan pinta-ala. Laske sitten pinta-alat yhteen."
+  },
+  "G3-490": {
+    "title": "Piiri: selvitä puuttuva sivu",
+    "instruction": "Jokaisen kuvion piiri on annettu. Kirjoita yhtälö, jossa x on puuttuva sivu. Laske sitten x."
   }
 }

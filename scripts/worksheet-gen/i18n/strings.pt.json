@@ -4975,5 +4975,17 @@
   "G3-487": {
     "title": "Problemas de duas etapas: equação, estimativa, resposta",
     "instruction": "Leia cada problema. Escreva uma equação com x para o número que você procura. Arredonde cada número à centena mais próxima e estime. Depois calcule x e compare com a sua estimativa."
+  },
+  "G3-488": {
+    "title": "Área do retângulo: multiplique os lados",
+    "instruction": "Multiplique as medidas dos dois lados. Escreva a conta e a área."
+  },
+  "G3-489": {
+    "title": "Área de uma figura em L",
+    "instruction": "Divida cada figura em dois retângulos com uma linha reta. Calcule a área de cada parte. Depois some as duas áreas."
+  },
+  "G3-490": {
+    "title": "Perímetro: descubra o lado que falta",
+    "instruction": "O perímetro de cada figura é dado. Escreva uma equação com x para o lado que falta. Depois calcule x."
   }
 }

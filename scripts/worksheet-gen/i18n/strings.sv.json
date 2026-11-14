@@ -4924,5 +4924,17 @@
   "G3-487": {
     "title": "Räknehändelser i två steg: ekvation, överslag, svar",
     "instruction": "Läs varje räknehändelse. Skriv en ekvation med x för talet du söker. Avrunda varje tal till närmaste hundratal och gör ett överslag. Räkna sedan ut x och jämför med ditt överslag."
+  },
+  "G3-488": {
+    "title": "Rektangelns area: längden gånger bredden",
+    "instruction": "Multiplicera de två sidornas längder. Skriv uträkningen och arean."
+  },
+  "G3-489": {
+    "title": "Arean av en L-formad figur",
+    "instruction": "Dela varje figur i två rektanglar med en rak linje. Räkna ut arean av varje del. Addera sedan de två areorna."
+  },
+  "G3-490": {
+    "title": "Omkrets: hitta den saknade sidan",
+    "instruction": "Varje figurs omkrets är given. Skriv en ekvation med x för den saknade sidan. Räkna sedan ut x."
   }
 }

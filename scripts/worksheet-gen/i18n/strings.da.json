@@ -4950,5 +4950,17 @@
   "G3-487": {
     "title": "Regnehistorier i to trin: ligning, overslag, svar",
     "instruction": "Læs hver regnehistorie. Skriv en ligning med x for det tal, du skal finde. Rund hvert tal af til nærmeste hundrede, og lav et overslag. Regn så x ud, og sammenlign med dit overslag."
+  },
+  "G3-488": {
+    "title": "Rektanglets areal: længde gange bredde",
+    "instruction": "Gang de to sidelængder med hinanden. Skriv regnestykket og arealet."
+  },
+  "G3-489": {
+    "title": "Arealet af en L-formet figur",
+    "instruction": "Del hver figur i to rektangler med en lige linje. Find arealet af hver del. Læg så de to arealer sammen."
+  },
+  "G3-490": {
+    "title": "Omkreds: find den manglende side",
+    "instruction": "Omkredsen af hver figur er oplyst. Skriv en ligning med x for den manglende side. Regn så x ud."
   }
 }

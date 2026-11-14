@@ -6485,5 +6485,89 @@
       "no": "Les hver regnefortelling. Skriv en likning med x, gjør et overslag med avrundede tall og regn ut x. I den siste regnefortellingen har et barn allerede et svar: Gjør et overslag, avgjør om det kan stemme, og regn så ut x selv.",
       "fi": "Lue jokainen tehtävä. Kirjoita yhtälö, jossa on x, arvioi pyöristetyillä luvuilla ja laske x. Viimeisessä tehtävässä lapsella on jo vastaus: arvioi, päätä, voiko se pitää paikkansa, ja laske sitten x itse."
     }
+  },
+  "G3-488": {
+    "1": {
+      "en": "Each rectangle is covered with squares. Multiply the two side lengths. Write the equation and the area.",
+      "de": "Jedes Rechteck ist in Quadrate eingeteilt. Multipliziere die beiden Seitenlängen. Schreibe die Rechnung und den Flächeninhalt auf.",
+      "es": "Cada rectángulo está cubierto de cuadrados. Multiplica las longitudes de los dos lados. Escribe la operación y el área.",
+      "pt": "Cada retângulo está coberto de quadradinhos. Multiplique as medidas dos dois lados. Escreva a conta e a área.",
+      "fr": "Chaque rectangle est recouvert de carreaux. Multiplie les longueurs des deux côtés. Écris le calcul et l'aire.",
+      "it": "Ogni rettangolo è ricoperto di quadretti. Moltiplica le lunghezze dei due lati. Scrivi l'operazione e l'area.",
+      "nl": "Elke rechthoek is verdeeld in hokjes. Vermenigvuldig de lengtes van de twee zijden. Schrijf de som en de oppervlakte op.",
+      "sv": "Varje rektangel är indelad i rutor. Multiplicera de två sidornas längder. Skriv uträkningen och arean.",
+      "da": "Hvert rektangel er inddelt i tern. Gang de to sidelængder med hinanden. Skriv regnestykket og arealet.",
+      "no": "Hvert rektangel er delt inn i ruter. Gang de to sidelengdene med hverandre. Skriv regnestykket og arealet.",
+      "fi": "Jokainen suorakulmio on jaettu ruutuihin. Kerro kahden sivun pituudet keskenään. Kirjoita lasku ja pinta-ala."
+    },
+    "3": {
+      "en": "Multiply the two side lengths and write the area. Where a side shows a question mark, find its length from the area.",
+      "de": "Multipliziere die beiden Seitenlängen und schreibe den Flächeninhalt auf. Steht an einer Seite ein Fragezeichen, dann berechne ihre Länge mithilfe des Flächeninhalts.",
+      "es": "Multiplica las longitudes de los dos lados y escribe el área. Donde un lado tiene un signo de interrogación, encuentra su longitud con el área.",
+      "pt": "Multiplique as medidas dos dois lados e escreva a área. Onde um lado tem um ponto de interrogação, descubra a medida dele usando a área.",
+      "fr": "Multiplie les longueurs des deux côtés et écris l'aire. Quand un côté porte un point d'interrogation, trouve sa longueur à l'aide de l'aire.",
+      "it": "Moltiplica le lunghezze dei due lati e scrivi l'area. Dove un lato ha un punto interrogativo, trova la sua lunghezza a partire dall'area.",
+      "nl": "Vermenigvuldig de lengtes van de twee zijden en schrijf de oppervlakte op. Staat er bij een zijde een vraagteken? Zoek dan de lengte met behulp van de oppervlakte.",
+      "sv": "Multiplicera de två sidornas längder och skriv arean. Där en sida har ett frågetecken räknar du ut dess längd med hjälp av arean.",
+      "da": "Gang de to sidelængder med hinanden, og skriv arealet. Hvor der står et spørgsmålstegn ved en side, finder du dens længde ved hjælp af arealet.",
+      "no": "Gang de to sidelengdene med hverandre og skriv arealet. Der det står et spørsmålstegn ved en side, finner du lengden ved hjelp av arealet.",
+      "fi": "Kerro kahden sivun pituudet keskenään ja kirjoita pinta-ala. Jos sivun kohdalla on kysymysmerkki, selvitä sen pituus pinta-alan avulla."
+    }
+  },
+  "G3-489": {
+    "1": {
+      "en": "Each shape is cut into two rectangles, A and B. Find the area of each part. Then add the two areas.",
+      "de": "Jede Figur ist in zwei Rechtecke zerlegt, A und B. Berechne den Flächeninhalt jedes Teils. Addiere dann die beiden Flächeninhalte.",
+      "es": "Cada figura está dividida en dos rectángulos, A y B. Calcula el área de cada parte. Después suma las dos áreas.",
+      "pt": "Cada figura está dividida em dois retângulos, A e B. Calcule a área de cada parte. Depois some as duas áreas.",
+      "fr": "Chaque figure est partagée en deux rectangles, A et B. Calcule l'aire de chaque partie. Additionne ensuite les deux aires.",
+      "it": "Ogni figura è divisa in due rettangoli, A e B. Calcola l'area di ogni parte. Poi somma le due aree.",
+      "nl": "Elke figuur is verdeeld in twee rechthoeken, A en B. Bereken de oppervlakte van elk deel. Tel daarna de twee oppervlaktes op.",
+      "sv": "Varje figur är delad i två rektanglar, A och B. Räkna ut arean av varje del. Addera sedan de två areorna.",
+      "da": "Hver figur er delt i to rektangler, A og B. Find arealet af hver del. Læg så de to arealer sammen.",
+      "no": "Hver figur er delt i to rektangler, A og B. Finn arealet av hver del. Legg så sammen de to arealene.",
+      "fi": "Jokainen kuvio on jaettu kahdeksi suorakulmioksi, A ja B. Laske kummankin osan pinta-ala. Laske sitten pinta-alat yhteen."
+    },
+    "3": {
+      "en": "The side lengths of each shape are written on it. Cut the shape into two rectangles with one straight line. Find the area of each part. Then add the two areas.",
+      "de": "An jeder Figur stehen ihre Seitenlängen. Zerlege die Figur mit einer geraden Linie in zwei Rechtecke. Berechne den Flächeninhalt jedes Teils. Addiere dann die beiden Flächeninhalte.",
+      "es": "Cada figura tiene escritas las longitudes de sus lados. Divídela en dos rectángulos con una línea recta. Calcula el área de cada parte. Después suma las dos áreas.",
+      "pt": "Cada figura traz as medidas dos seus lados. Divida a figura em dois retângulos com uma linha reta. Calcule a área de cada parte. Depois some as duas áreas.",
+      "fr": "Les longueurs des côtés sont écrites sur chaque figure. Partage la figure en deux rectangles en traçant un seul trait droit. Calcule l'aire de chaque partie. Additionne ensuite les deux aires.",
+      "it": "Su ogni figura sono scritte le lunghezze dei lati. Dividi la figura in due rettangoli con una linea retta. Calcola l'area di ogni parte. Poi somma le due aree.",
+      "nl": "Bij elke figuur staan de lengtes van de zijden. Verdeel de figuur met één rechte lijn in twee rechthoeken. Bereken de oppervlakte van elk deel. Tel daarna de twee oppervlaktes op.",
+      "sv": "Vid varje figur står sidornas längder. Dela figuren i två rektanglar med en rak linje. Räkna ut arean av varje del. Addera sedan de två areorna.",
+      "da": "Ved hver figur står sidernes længder. Del figuren i to rektangler med en lige linje. Find arealet af hver del. Læg så de to arealer sammen.",
+      "no": "Ved hver figur står lengdene på sidene. Del figuren i to rektangler med en rett linje. Finn arealet av hver del. Legg så sammen de to arealene.",
+      "fi": "Jokaiseen kuvioon on merkitty sivujen pituudet. Jaa kuvio suoralla viivalla kahdeksi suorakulmioksi. Laske kummankin osan pinta-ala. Laske sitten pinta-alat yhteen."
+    }
+  },
+  "G3-490": {
+    "1": {
+      "en": "The perimeter of each shape is given, and the equation is written for you. Find n, the missing side.",
+      "de": "Der Umfang jeder Figur ist angegeben, und die Gleichung steht schon da. Berechne x, die fehlende Seitenlänge.",
+      "es": "Se da el perímetro de cada figura y la ecuación ya está escrita. Calcula x, el lado que falta.",
+      "pt": "O perímetro de cada figura é dado e a equação já está escrita. Calcule x, o lado que falta.",
+      "fr": "Le périmètre de chaque figure est donné et l'équation est déjà écrite. Calcule x, le côté manquant.",
+      "it": "Di ogni figura è dato il perimetro e l'equazione è già scritta. Calcola x, il lato mancante.",
+      "nl": "Van elke figuur is de omtrek gegeven en de som staat er al. Reken x uit, de ontbrekende zijde.",
+      "sv": "Varje figurs omkrets är given och ekvationen är redan skriven. Räkna ut x, den saknade sidan.",
+      "da": "Omkredsen af hver figur er oplyst, og ligningen står der allerede. Regn x ud, den manglende side.",
+      "no": "Omkretsen av hver figur er oppgitt, og likningen står der allerede. Regn ut x, den manglende siden.",
+      "fi": "Jokaisen kuvion piiri on annettu, ja yhtälö on jo kirjoitettu. Laske x eli puuttuvan sivun pituus."
+    },
+    "3": {
+      "en": "The perimeter of each shape is given. Write an equation with n for the missing side length. Then find n. In a rectangle, opposite sides have the same length.",
+      "de": "Der Umfang jeder Figur ist angegeben. Schreibe eine Gleichung mit x für die fehlende Seite. Rechne dann x aus. Im Rechteck sind gegenüberliegende Seiten gleich lang.",
+      "es": "Se da el perímetro de cada figura. Escribe una ecuación con x para el lado que falta. Luego calcula x. En un rectángulo, los lados opuestos miden lo mismo.",
+      "pt": "O perímetro de cada figura é dado. Escreva uma equação com x para o lado que falta. Depois calcule x. Em um retângulo, os lados opostos têm a mesma medida.",
+      "fr": "Le périmètre de chaque figure est donné. Écris une équation avec x pour le côté manquant. Calcule ensuite x. Dans un rectangle, les côtés opposés ont la même longueur.",
+      "it": "Di ogni figura è dato il perimetro. Scrivi un'equazione con x per il lato mancante. Poi calcola x. In un rettangolo i lati opposti hanno la stessa lunghezza.",
+      "nl": "Van elke figuur is de omtrek gegeven. Schrijf een som met x voor de ontbrekende zijde. Reken daarna x uit. In een rechthoek zijn de overstaande zijden even lang.",
+      "sv": "Varje figurs omkrets är given. Skriv en ekvation med x för den saknade sidan. Räkna sedan ut x. I en rektangel är motstående sidor lika långa.",
+      "da": "Omkredsen af hver figur er oplyst. Skriv en ligning med x for den manglende side. Regn så x ud. I et rektangel er de modstående sider lige lange.",
+      "no": "Omkretsen av hver figur er oppgitt. Skriv en likning med x for den manglende siden. Regn så ut x. I et rektangel er motstående sider like lange.",
+      "fi": "Jokaisen kuvion piiri on annettu. Kirjoita yhtälö, jossa x on puuttuva sivu. Laske sitten x. Suorakulmiossa vastakkaiset sivut ovat yhtä pitkät."
+    }
   }
 }

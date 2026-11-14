@@ -4956,5 +4956,17 @@
   "G3-487": {
     "title": "Problemi con due operazioni: equazione, stima, risposta",
     "instruction": "Leggi ogni problema. Scrivi un'equazione con x per il numero che cerchi. Arrotonda ogni numero al centinaio e fai una stima. Poi calcola x e confrontalo con la tua stima."
+  },
+  "G3-488": {
+    "title": "Area del rettangolo: moltiplica i lati",
+    "instruction": "Moltiplica le lunghezze dei due lati. Scrivi l'operazione e l'area."
+  },
+  "G3-489": {
+    "title": "Area di una figura a L",
+    "instruction": "Dividi ogni figura in due rettangoli con una linea retta. Calcola l'area di ogni parte. Poi somma le due aree."
+  },
+  "G3-490": {
+    "title": "Perimetro: trova il lato mancante",
+    "instruction": "Di ogni figura è dato il perimetro. Scrivi un'equazione con x per il lato mancante. Poi calcola x."
   }
 }

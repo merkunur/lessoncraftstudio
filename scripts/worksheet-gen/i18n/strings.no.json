@@ -4969,5 +4969,17 @@
   "G3-487": {
     "title": "Regnefortellinger i to steg: likning, overslag, svar",
     "instruction": "Les hver regnefortelling. Skriv en likning med x for tallet du skal finne. Rund av hvert tall til nærmeste hundrer og gjør et overslag. Regn så ut x og sammenlign med overslaget ditt."
+  },
+  "G3-488": {
+    "title": "Arealet av rektangelet: lengde ganger bredde",
+    "instruction": "Gang de to sidelengdene med hverandre. Skriv regnestykket og arealet."
+  },
+  "G3-489": {
+    "title": "Arealet av en L-formet figur",
+    "instruction": "Del hver figur i to rektangler med en rett linje. Finn arealet av hver del. Legg så sammen de to arealene."
+  },
+  "G3-490": {
+    "title": "Omkrets: finn den manglende siden",
+    "instruction": "Omkretsen av hver figur er oppgitt. Skriv en likning med x for den manglende siden. Regn så ut x."
   }
 }

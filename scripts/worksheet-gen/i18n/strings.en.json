@@ -5013,5 +5013,17 @@
   "G3-487": {
     "title": "Two-Step Stories: Equation, Estimate, Answer",
     "instruction": "Read each story. Write one equation with n for the number you need to find. Round each number to the nearest hundred and estimate. Then find n and compare it with your estimate."
+  },
+  "G3-488": {
+    "title": "Area of a Rectangle: Multiply the Side Lengths",
+    "instruction": "Multiply the two side lengths. Write the equation and the area."
+  },
+  "G3-489": {
+    "title": "Area of an L-Shape",
+    "instruction": "Cut each shape into two rectangles with one straight line. Find the area of each part. Then add the two areas."
+  },
+  "G3-490": {
+    "title": "Perimeter: Find the Missing Side",
+    "instruction": "The perimeter of each shape is given. Write an equation with n for the missing side. Then find n."
   }
 }

@@ -4965,5 +4965,17 @@
   "G3-487": {
     "title": "Problemas de dos pasos: ecuación, estimación, respuesta",
     "instruction": "Lee cada problema. Escribe una ecuación con x para el número que buscas. Redondea cada número a la centena más cercana y estima. Luego calcula x y compara con tu estimación."
+  },
+  "G3-488": {
+    "title": "Área del rectángulo: multiplica los lados",
+    "instruction": "Multiplica las longitudes de los dos lados. Escribe la operación y el área."
+  },
+  "G3-489": {
+    "title": "Área de una figura en L",
+    "instruction": "Divide cada figura en dos rectángulos con una línea recta. Calcula el área de cada parte. Después suma las dos áreas."
+  },
+  "G3-490": {
+    "title": "Perímetro: encuentra el lado que falta",
+    "instruction": "Se da el perímetro de cada figura. Escribe una ecuación con x para el lado que falta. Luego calcula x."
   }
 }

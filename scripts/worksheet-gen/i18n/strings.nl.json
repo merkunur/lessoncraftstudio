@@ -4970,5 +4970,17 @@
   "G3-487": {
     "title": "Verhaaltjessommen in twee stappen: som, schatting, antwoord",
     "instruction": "Lees elk verhaaltje. Schrijf één som met x voor het getal dat je zoekt. Rond elk getal af op het honderdtal en maak een schatting. Reken daarna x uit en vergelijk met je schatting."
+  },
+  "G3-488": {
+    "title": "Oppervlakte van de rechthoek: lengte keer breedte",
+    "instruction": "Vermenigvuldig de lengtes van de twee zijden. Schrijf de som en de oppervlakte op."
+  },
+  "G3-489": {
+    "title": "Oppervlakte van een L-vorm",
+    "instruction": "Verdeel elke figuur met één rechte lijn in twee rechthoeken. Bereken de oppervlakte van elk deel. Tel daarna de twee oppervlaktes op."
+  },
+  "G3-490": {
+    "title": "Omtrek: zoek de ontbrekende zijde",
+    "instruction": "Van elke figuur is de omtrek gegeven. Schrijf een som met x voor de ontbrekende zijde. Reken daarna x uit."
   }
 }

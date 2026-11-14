@@ -4972,5 +4972,17 @@
   "G3-487": {
     "title": "Sachaufgaben: Gleichung, Überschlag, Ergebnis",
     "instruction": "Lies jede Geschichte. Schreibe eine Gleichung mit x für die gesuchte Zahl. Runde jede Zahl auf den nächsten Hunderter und überschlage. Rechne dann x aus und vergleiche mit deinem Überschlag."
+  },
+  "G3-488": {
+    "title": "Flächeninhalt des Rechtecks: Länge mal Breite",
+    "instruction": "Multipliziere die beiden Seitenlängen. Schreibe die Rechnung und den Flächeninhalt auf."
+  },
+  "G3-489": {
+    "title": "Flächeninhalt zusammengesetzter Figuren",
+    "instruction": "Zerlege jede Figur mit einer geraden Linie in zwei Rechtecke. Berechne den Flächeninhalt jedes Teils. Addiere dann die beiden Flächeninhalte."
+  },
+  "G3-490": {
+    "title": "Umfang: die fehlende Seitenlänge finden",
+    "instruction": "Der Umfang jeder Figur ist angegeben. Schreibe eine Gleichung mit x für die fehlende Seite. Rechne dann x aus."
   }
 }

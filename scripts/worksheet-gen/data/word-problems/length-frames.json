@@ -1,0 +1,1081 @@
+{
+  "$comment": "LENGTH story problems (Year pages AB, 2026-11-14; 2.MD.B.5: add and subtract within 100 to solve word problems involving lengths given in the same units). Read by types/_shared/length-stories.js. Every frame names its own thing (so no word has to agree with another), and its unit: `small` things in inches (en) or centimeters, `long` things in feet (en) or meters. Slots: {n1} {n2} {n3} the lengths the story tells, {name} a child, {il} the pronoun of {name} (fr). Kinds: add (two lengths put together), sub (a length taken away), cmpDiff (how much longer), cmpMore (so much longer: how long), cmpLess (so much shorter: how long), subChange (how much was taken away). A frame's `thing` names its picture. No rope: the library has no picture of one (its \"rope\" is a tool).",
+  "en": {
+    "unit": {
+      "small": "inches",
+      "long": "feet"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} lays two pieces of ribbon end to end. One piece is {n1} inches long and the other is {n2} inches long. How long are they together?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Two garden hoses are joined. One is {n1} feet long and the other is {n2} feet long. How long is the hose now?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "A fence is {n1} feet long. {name} builds {n2} more feet of fence. How long is the fence now?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "A ribbon is {n1} inches long. {name} cuts off {n2} inches. How long is the ribbon now?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "A roll has {n1} inches of tape. {name} uses {n2} inches. How many inches of tape are left?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "A fence is {n1} feet long. {name} takes down {n2} feet of it. How long is the fence now?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "The fence by the garden is {n1} feet long. The fence by the road is {n2} feet long. How much longer is the fence by the garden?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "The green scarf is {n1} inches long. The yellow scarf is {n2} inches long. How much longer is the green scarf?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "The green hose is {n1} feet long. The black hose is {n2} feet long. How much longer is the green hose?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "The green scarf is {n1} inches long. The yellow scarf is {n2} inches longer. How long is the yellow scarf?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "The fence by the garden is {n1} feet long. The fence by the road is {n2} feet longer. How long is the fence by the road?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "The green hose is {n1} feet long. The black hose is {n2} feet shorter. How long is the black hose?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "The pink ribbon is {n1} inches long. The white ribbon is {n2} inches shorter. How long is the white ribbon?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "A ribbon was {n1} inches long. {name} cut off a piece. Now the ribbon is {n3} inches long. How long was the piece?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "A roll had {n1} inches of tape. {name} used some. Now {n3} inches are left. How many inches of tape did {name} use?"
+      }
+    ]
+  },
+  "de": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} legt zwei Bänder hintereinander. Ein Band ist {n1} cm lang, das andere {n2} cm. Wie lang sind die Bänder zusammen?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Zwei Gartenschläuche werden verbunden. Einer ist {n1} m lang, der andere {n2} m. Wie lang ist der Schlauch jetzt?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Ein Zaun ist {n1} m lang. {name} baut noch {n2} m Zaun dazu. Wie lang ist der Zaun jetzt?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Ein Band ist {n1} cm lang. {name} schneidet {n2} cm ab. Wie lang ist das Band jetzt?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Auf einer Rolle sind {n1} cm Klebeband. {name} verbraucht {n2} cm. Wie viele Zentimeter Klebeband sind noch auf der Rolle?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Ein Zaun ist {n1} m lang. {name} baut {n2} m davon ab. Wie lang ist der Zaun jetzt?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Der Zaun am Garten ist {n1} m lang. Der Zaun an der Straße ist {n2} m lang. Wie viel länger ist der Zaun am Garten?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Der grüne Schal ist {n1} cm lang. Der gelbe Schal ist {n2} cm lang. Wie viel länger ist der grüne Schal?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Der grüne Schlauch ist {n1} m lang. Der schwarze Schlauch ist {n2} m lang. Wie viel länger ist der grüne Schlauch?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Der grüne Schal ist {n1} cm lang. Der gelbe Schal ist {n2} cm länger. Wie lang ist der gelbe Schal?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Der Zaun am Garten ist {n1} m lang. Der Zaun an der Straße ist {n2} m länger. Wie lang ist der Zaun an der Straße?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Der grüne Schlauch ist {n1} m lang. Der schwarze Schlauch ist {n2} m kürzer. Wie lang ist der schwarze Schlauch?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Das rosa Band ist {n1} cm lang. Das weiße Band ist {n2} cm kürzer. Wie lang ist das weiße Band?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Ein Band war {n1} cm lang. {name} hat ein Stück abgeschnitten. Jetzt ist das Band {n3} cm lang. Wie lang war das Stück?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Auf einer Rolle waren {n1} cm Klebeband. {name} hat etwas davon verbraucht. Jetzt sind noch {n3} cm auf der Rolle. Wie viele Zentimeter hat {name} verbraucht?"
+      }
+    ]
+  },
+  "es": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} pone dos listones uno detrás del otro. Uno mide {n1} cm y el otro mide {n2} cm. ¿Cuánto miden juntos?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Se unen dos mangueras. Una mide {n1} m y la otra mide {n2} m. ¿Cuánto mide la manguera ahora?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Una cerca mide {n1} m. {name} le agrega {n2} m más. ¿Cuánto mide la cerca ahora?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un listón mide {n1} cm. {name} le corta {n2} cm. ¿Cuánto mide el listón ahora?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "En un rollo hay {n1} cm de cinta adhesiva. {name} usa {n2} cm. ¿Cuántos centímetros de cinta quedan?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Una cerca mide {n1} m. {name} quita {n2} m de la cerca. ¿Cuánto mide la cerca ahora?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "La cerca del jardín mide {n1} m. La cerca de la calle mide {n2} m. ¿Cuánto más larga es la cerca del jardín?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "La bufanda verde mide {n1} cm. La bufanda amarilla mide {n2} cm. ¿Cuánto más larga es la bufanda verde?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "La manguera verde mide {n1} m. La manguera negra mide {n2} m. ¿Cuánto más larga es la manguera verde?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "La bufanda verde mide {n1} cm. La bufanda amarilla mide {n2} cm más que la verde. ¿Cuánto mide la bufanda amarilla?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "La cerca del jardín mide {n1} m. La cerca de la calle mide {n2} m más que la del jardín. ¿Cuánto mide la cerca de la calle?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "La manguera verde mide {n1} m. La manguera negra mide {n2} m menos que la verde. ¿Cuánto mide la manguera negra?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "El listón rosa mide {n1} cm. El listón blanco mide {n2} cm menos que el rosa. ¿Cuánto mide el listón blanco?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un listón medía {n1} cm. {name} cortó un pedazo. Ahora el listón mide {n3} cm. ¿Cuánto medía el pedazo?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "En un rollo había {n1} cm de cinta adhesiva. {name} usó un poco. Ahora quedan {n3} cm. ¿Cuántos centímetros de cinta usó {name}?"
+      }
+    ]
+  },
+  "pt": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} coloca duas fitas uma depois da outra. Uma mede {n1} cm e a outra mede {n2} cm. Quanto elas medem juntas?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Duas mangueiras são emendadas. Uma mede {n1} m e a outra mede {n2} m. Quanto mede a mangueira agora?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Uma cerca mede {n1} m. {name} constrói mais {n2} m de cerca. Quanto mede a cerca agora?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Uma fita mede {n1} cm. {name} corta {n2} cm. Quanto mede a fita agora?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Um rolo tem {n1} cm de fita adesiva. {name} usa {n2} cm. Quantos centímetros de fita sobram?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Uma cerca mede {n1} m. {name} tira {n2} m da cerca. Quanto mede a cerca agora?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "A cerca do jardim mede {n1} m. A cerca da rua mede {n2} m. Quantos metros a cerca do jardim tem a mais?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "O cachecol verde mede {n1} cm. O cachecol amarelo mede {n2} cm. Quantos centímetros o cachecol verde tem a mais?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "A mangueira verde mede {n1} m. A mangueira preta mede {n2} m. Quantos metros a mangueira verde tem a mais?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "O cachecol verde mede {n1} cm. O cachecol amarelo mede {n2} cm a mais. Quanto mede o cachecol amarelo?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "A cerca do jardim mede {n1} m. A cerca da rua mede {n2} m a mais. Quanto mede a cerca da rua?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "A mangueira verde mede {n1} m. A mangueira preta mede {n2} m a menos. Quanto mede a mangueira preta?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "A fita rosa mede {n1} cm. A fita branca mede {n2} cm a menos. Quanto mede a fita branca?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Uma fita media {n1} cm. {name} cortou um pedaço. Agora a fita mede {n3} cm. Quanto media o pedaço?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Um rolo tinha {n1} cm de fita adesiva. {name} usou um pouco. Agora sobram {n3} cm. Quantos centímetros de fita {name} usou?"
+      }
+    ]
+  },
+  "fr": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} pose deux rubans bout à bout. L’un mesure {n1} cm et l’autre {n2} cm. Combien mesurent-ils ensemble ?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "On raccorde deux tuyaux d’arrosage. L’un mesure {n1} m et l’autre {n2} m. Combien mesure le tuyau maintenant ?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Une clôture mesure {n1} m. {name} construit encore {n2} m de clôture. Combien mesure la clôture maintenant ?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un ruban mesure {n1} cm. {name} en coupe {n2} cm. Combien mesure le ruban maintenant ?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Un rouleau contient {n1} cm de ruban adhésif. {name} en utilise {n2} cm. Combien de centimètres reste-t-il ?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Une clôture mesure {n1} m. {name} en enlève {n2} m. Combien mesure la clôture maintenant ?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "La clôture du jardin mesure {n1} m. La clôture au bord de la route mesure {n2} m. De combien la clôture du jardin est-elle plus longue ?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "L’écharpe verte mesure {n1} cm. L’écharpe jaune mesure {n2} cm. De combien l’écharpe verte est-elle plus longue ?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Le tuyau vert mesure {n1} m. Le tuyau noir mesure {n2} m. De combien le tuyau vert est-il plus long ?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "L’écharpe verte mesure {n1} cm. L’écharpe jaune mesure {n2} cm de plus. Combien mesure l’écharpe jaune ?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "La clôture du jardin mesure {n1} m. La clôture au bord de la route mesure {n2} m de plus. Combien mesure la clôture au bord de la route ?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Le tuyau vert mesure {n1} m. Le tuyau noir mesure {n2} m de moins. Combien mesure le tuyau noir ?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Le ruban rose mesure {n1} cm. Le ruban blanc mesure {n2} cm de moins. Combien mesure le ruban blanc ?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un ruban mesurait {n1} cm. {name} en a coupé un morceau. Maintenant, le ruban mesure {n3} cm. Combien mesurait le morceau ?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Un rouleau contenait {n1} cm de ruban adhésif. {name} en a utilisé un peu. Maintenant, il en reste {n3} cm. Combien de centimètres {name} a-t-{il} utilisés ?"
+      }
+    ]
+  },
+  "it": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} mette due nastri uno dopo l'altro. Uno è lungo {n1} cm e l'altro {n2} cm. Quanto sono lunghi insieme?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Si uniscono due tubi da giardino. Uno è lungo {n1} m e l'altro {n2} m. Quanto è lungo il tubo adesso?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Un recinto è lungo {n1} m. {name} ne costruisce altri {n2} m. Quanto è lungo il recinto adesso?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un nastro è lungo {n1} cm. {name} ne taglia {n2} cm. Quanto è lungo il nastro adesso?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Su un rotolo ci sono {n1} cm di nastro adesivo. {name} ne usa {n2} cm. Quanti centimetri di nastro restano?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Un recinto è lungo {n1} m. {name} ne toglie {n2} m. Quanto è lungo il recinto adesso?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Il recinto del giardino è lungo {n1} m. Il recinto vicino alla strada è lungo {n2} m. Di quanto è più lungo il recinto del giardino?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "La sciarpa verde è lunga {n1} cm. La sciarpa gialla è lunga {n2} cm. Di quanto è più lunga la sciarpa verde?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Il tubo verde è lungo {n1} m. Il tubo nero è lungo {n2} m. Di quanto è più lungo il tubo verde?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "La sciarpa verde è lunga {n1} cm. La sciarpa gialla è {n2} cm più lunga. Quanto è lunga la sciarpa gialla?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Il recinto del giardino è lungo {n1} m. Il recinto vicino alla strada è {n2} m più lungo. Quanto è lungo il recinto vicino alla strada?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Il tubo verde è lungo {n1} m. Il tubo nero è {n2} m più corto. Quanto è lungo il tubo nero?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Il nastro rosa è lungo {n1} cm. Il nastro bianco è {n2} cm più corto. Quanto è lungo il nastro bianco?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Un nastro era lungo {n1} cm. {name} ne ha tagliato un pezzo. Ora il nastro è lungo {n3} cm. Quanto era lungo il pezzo?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Su un rotolo c'erano {n1} cm di nastro adesivo. {name} ne ha usato un po'. Ora ne restano {n3} cm. Quanti centimetri di nastro ha usato {name}?"
+      }
+    ]
+  },
+  "nl": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} legt twee linten achter elkaar. Het ene lint is {n1} cm lang en het andere {n2} cm. Hoe lang zijn ze samen?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Twee tuinslangen worden aan elkaar vastgemaakt. De ene is {n1} m lang en de andere {n2} m. Hoe lang is de slang nu?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Een hek is {n1} m lang. {name} bouwt er nog {n2} m hek bij. Hoe lang is het hek nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Een lint is {n1} cm lang. {name} knipt er {n2} cm af. Hoe lang is het lint nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Op een rol zit {n1} cm plakband. {name} gebruikt {n2} cm. Hoeveel centimeter plakband zit er nog op de rol?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Een hek is {n1} m lang. {name} haalt er {n2} m van weg. Hoe lang is het hek nu?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Het hek bij de tuin is {n1} m lang. Het hek langs de weg is {n2} m lang. Hoeveel langer is het hek bij de tuin?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "De groene sjaal is {n1} cm lang. De gele sjaal is {n2} cm lang. Hoeveel langer is de groene sjaal?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "De groene slang is {n1} m lang. De zwarte slang is {n2} m lang. Hoeveel langer is de groene slang?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "De groene sjaal is {n1} cm lang. De gele sjaal is {n2} cm langer. Hoe lang is de gele sjaal?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Het hek bij de tuin is {n1} m lang. Het hek langs de weg is {n2} m langer. Hoe lang is het hek langs de weg?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "De groene slang is {n1} m lang. De zwarte slang is {n2} m korter. Hoe lang is de zwarte slang?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Het roze lint is {n1} cm lang. Het witte lint is {n2} cm korter. Hoe lang is het witte lint?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Een lint was {n1} cm lang. {name} heeft er een stuk afgeknipt. Nu is het lint {n3} cm lang. Hoe lang was het stuk?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Op een rol zat {n1} cm plakband. {name} heeft wat gebruikt. Nu zit er nog {n3} cm op. Hoeveel centimeter plakband heeft {name} gebruikt?"
+      }
+    ]
+  },
+  "sv": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} lägger två band efter varandra. Det ena bandet är {n1} cm långt och det andra {n2} cm. Hur långa är de tillsammans?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Två trädgårdsslangar kopplas ihop. Den ena är {n1} m lång och den andra {n2} m. Hur lång är slangen nu?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Ett staket är {n1} m långt. {name} bygger {n2} m staket till. Hur långt är staketet nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Ett band är {n1} cm långt. {name} klipper av {n2} cm. Hur långt är bandet nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rulle finns {n1} cm tejp. {name} använder {n2} cm. Hur många centimeter tejp finns kvar?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Ett staket är {n1} m långt. {name} river {n2} m av det. Hur långt är staketet nu?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Staketet vid trädgården är {n1} m långt. Staketet vid vägen är {n2} m långt. Hur mycket längre är staketet vid trädgården?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Den gröna halsduken är {n1} cm lång. Den gula halsduken är {n2} cm lång. Hur mycket längre är den gröna halsduken?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den gröna slangen är {n1} m lång. Den svarta slangen är {n2} m lång. Hur mycket längre är den gröna slangen?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Den gröna halsduken är {n1} cm lång. Den gula halsduken är {n2} cm längre. Hur lång är den gula halsduken?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Staketet vid trädgården är {n1} m långt. Staketet vid vägen är {n2} m längre. Hur långt är staketet vid vägen?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den gröna slangen är {n1} m lång. Den svarta slangen är {n2} m kortare. Hur lång är den svarta slangen?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Det rosa bandet är {n1} cm långt. Det vita bandet är {n2} cm kortare. Hur långt är det vita bandet?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Ett band var {n1} cm långt. {name} klippte av en bit. Nu är bandet {n3} cm långt. Hur lång var biten?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rulle fanns {n1} cm tejp. {name} använde lite. Nu finns {n3} cm kvar. Hur många centimeter tejp använde {name}?"
+      }
+    ]
+  },
+  "da": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} lægger to bånd efter hinanden. Det ene bånd er {n1} cm langt, og det andet er {n2} cm. Hvor lange er de tilsammen?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "To haveslanger bliver sat sammen. Den ene er {n1} m lang, og den anden er {n2} m. Hvor lang er slangen nu?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Et hegn er {n1} m langt. {name} bygger {n2} m hegn mere. Hvor langt er hegnet nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Et bånd er {n1} cm langt. {name} klipper {n2} cm af. Hvor langt er båndet nu?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rulle er der {n1} cm tape. {name} bruger {n2} cm. Hvor mange centimeter tape er der tilbage?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Et hegn er {n1} m langt. {name} tager {n2} m af hegnet ned. Hvor langt er hegnet nu?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Hegnet ved haven er {n1} m langt. Hegnet ved vejen er {n2} m langt. Hvor meget længere er hegnet ved haven?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Det grønne halstørklæde er {n1} cm langt. Det gule halstørklæde er {n2} cm langt. Hvor meget længere er det grønne halstørklæde?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den grønne slange er {n1} m lang. Den sorte slange er {n2} m lang. Hvor meget længere er den grønne slange?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Det grønne halstørklæde er {n1} cm langt. Det gule halstørklæde er {n2} cm længere. Hvor langt er det gule halstørklæde?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Hegnet ved haven er {n1} m langt. Hegnet ved vejen er {n2} m længere. Hvor langt er hegnet ved vejen?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den grønne slange er {n1} m lang. Den sorte slange er {n2} m kortere. Hvor lang er den sorte slange?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Det lyserøde bånd er {n1} cm langt. Det hvide bånd er {n2} cm kortere. Hvor langt er det hvide bånd?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Et bånd var {n1} cm langt. {name} klippede et stykke af. Nu er båndet {n3} cm langt. Hvor langt var stykket?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rulle var der {n1} cm tape. {name} brugte noget. Nu er der {n3} cm tilbage. Hvor mange centimeter tape brugte {name}?"
+      }
+    ]
+  },
+  "no": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} legger to bånd etter hverandre. Det ene båndet er {n1} cm langt, og det andre er {n2} cm. Hvor lange er de til sammen?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "To hageslanger blir koblet sammen. Den ene er {n1} m lang, og den andre er {n2} m. Hvor lang er slangen nå?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Et gjerde er {n1} m langt. {name} bygger {n2} m gjerde til. Hvor langt er gjerdet nå?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Et bånd er {n1} cm langt. {name} klipper av {n2} cm. Hvor langt er båndet nå?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rull er det {n1} cm teip. {name} bruker {n2} cm. Hvor mange centimeter teip er det igjen?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Et gjerde er {n1} m langt. {name} river {n2} m av gjerdet. Hvor langt er gjerdet nå?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Gjerdet ved hagen er {n1} m langt. Gjerdet ved veien er {n2} m langt. Hvor mye lengre er gjerdet ved hagen?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Det grønne skjerfet er {n1} cm langt. Det gule skjerfet er {n2} cm langt. Hvor mye lengre er det grønne skjerfet?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den grønne slangen er {n1} m lang. Den svarte slangen er {n2} m lang. Hvor mye lengre er den grønne slangen?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Det grønne skjerfet er {n1} cm langt. Det gule skjerfet er {n2} cm lengre. Hvor langt er det gule skjerfet?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Gjerdet ved hagen er {n1} m langt. Gjerdet ved veien er {n2} m lengre. Hvor langt er gjerdet ved veien?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Den grønne slangen er {n1} m lang. Den svarte slangen er {n2} m kortere. Hvor lang er den svarte slangen?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Det rosa båndet er {n1} cm langt. Det hvite båndet er {n2} cm kortere. Hvor langt er det hvite båndet?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Et bånd var {n1} cm langt. {name} klippet av en bit. Nå er båndet {n3} cm langt. Hvor lang var biten?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "På en rull var det {n1} cm teip. {name} brukte litt. Nå er det {n3} cm igjen. Hvor mange centimeter teip brukte {name}?"
+      }
+    ]
+  },
+  "fi": {
+    "unit": {
+      "small": "cm",
+      "long": "m"
+    },
+    "frames": [
+      {
+        "kind": "add",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "{name} laittaa kaksi nauhaa peräkkäin. Toinen nauha on {n1} cm pitkä ja toinen {n2} cm. Kuinka pitkät ne ovat yhteensä?"
+      },
+      {
+        "kind": "add",
+        "thing": "hose",
+        "size": "long",
+        "s": "Kaksi puutarhaletkua liitetään yhteen. Toinen on {n1} m pitkä ja toinen {n2} m. Kuinka pitkä letku on nyt?"
+      },
+      {
+        "kind": "add",
+        "thing": "fence",
+        "size": "long",
+        "s": "Aita on {n1} m pitkä. Aitaa rakennetaan vielä {n2} m lisää. Kuinka pitkä aita on nyt?"
+      },
+      {
+        "kind": "sub",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Nauha on {n1} cm pitkä. Siitä leikataan pois {n2} cm. Kuinka pitkä nauha on nyt?"
+      },
+      {
+        "kind": "sub",
+        "thing": "tape",
+        "size": "small",
+        "s": "Rullassa on {n1} cm teippiä. Siitä käytetään {n2} cm. Montako senttimetriä teippiä on jäljellä?"
+      },
+      {
+        "kind": "sub",
+        "thing": "fence",
+        "size": "long",
+        "s": "Aita on {n1} m pitkä. Siitä puretaan {n2} m. Kuinka pitkä aita on nyt?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "fence",
+        "size": "long",
+        "s": "Puutarhan aita on {n1} m pitkä. Tien varren aita on {n2} m pitkä. Kuinka paljon pidempi puutarhan aita on?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Vihreä kaulahuivi on {n1} cm pitkä. Keltainen kaulahuivi on {n2} cm pitkä. Kuinka paljon pidempi vihreä kaulahuivi on?"
+      },
+      {
+        "kind": "cmpDiff",
+        "thing": "hose",
+        "size": "long",
+        "s": "Vihreä letku on {n1} m pitkä. Musta letku on {n2} m pitkä. Kuinka paljon pidempi vihreä letku on?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "scarf",
+        "size": "small",
+        "s": "Vihreä kaulahuivi on {n1} cm pitkä. Keltainen kaulahuivi on {n2} cm pidempi. Kuinka pitkä keltainen kaulahuivi on?"
+      },
+      {
+        "kind": "cmpMore",
+        "thing": "fence",
+        "size": "long",
+        "s": "Puutarhan aita on {n1} m pitkä. Tien varren aita on {n2} m pidempi. Kuinka pitkä tien varren aita on?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "hose",
+        "size": "long",
+        "s": "Vihreä letku on {n1} m pitkä. Musta letku on {n2} m lyhyempi. Kuinka pitkä musta letku on?"
+      },
+      {
+        "kind": "cmpLess",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Vaaleanpunainen nauha on {n1} cm pitkä. Valkoinen nauha on {n2} cm lyhyempi. Kuinka pitkä valkoinen nauha on?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "ribbon",
+        "size": "small",
+        "s": "Nauha oli {n1} cm pitkä. Siitä leikattiin pala. Nyt nauha on {n3} cm pitkä. Kuinka pitkä pala oli?"
+      },
+      {
+        "kind": "subChange",
+        "thing": "tape",
+        "size": "small",
+        "s": "Rullassa oli {n1} cm teippiä. Siitä käytettiin osa. Nyt teippiä on jäljellä {n3} cm. Montako senttimetriä teippiä käytettiin?"
+      }
+    ]
+  }
+}

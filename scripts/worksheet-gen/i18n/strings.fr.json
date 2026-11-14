@@ -5029,5 +5029,9 @@
   "K-644": {
     "title": "Reconnaître les solides",
     "instruction": "Relie chaque solide à l’objet qui a la même forme. Puis colorie chaque solide selon le code et dis son nom."
+  },
+  "G2-518": {
+    "title": "Problèmes de longueurs avec un schéma en barres",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux longueurs que tu connais et un point d’interrogation pour la longueur que tu cherches. La plus grande longueur va dans la barre du haut. Écris un calcul. Puis écris la réponse."
   }
 }

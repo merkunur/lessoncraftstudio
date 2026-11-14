@@ -6853,5 +6853,20 @@
       "no": "Trekk en strek fra hver figur til tingen med samme form. Fargelegg så figurene etter fargekoden, og si hva de heter. La formene som ikke er i fargekoden, være hvite.",
       "fi": "Yhdistä jokainen kappale esineeseen, jolla on sama muoto. Väritä sitten kappaleet värikoodin mukaan ja sano niiden nimet. Jätä valkoisiksi muodot, joita ei ole värikoodissa."
     }
+  },
+  "G2-518": {
+    "1": {
+      "en": "Read each story. In the bar model, write the two lengths you know and a question mark for the length you need to find. The longest length goes in the top bar. Write an equation. Then write the answer. The first story is done for you.",
+      "de": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Längen ein, die du kennst, und ein Fragezeichen für die gesuchte Länge. In den oberen Streifen kommt die größte Länge. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen. Die erste Aufgabe ist schon gelöst.",
+      "es": "Lee cada problema. En el modelo de barras, escribe las dos longitudes que conoces y un signo de interrogación para la longitud que buscas. La longitud mayor va en la barra de arriba. Escribe una operación. Después escribe la respuesta. El primer problema ya está resuelto.",
+      "pt": "Leia cada probleminha. No modelo de barras, escreva os dois comprimentos que você conhece e um ponto de interrogação para o comprimento que você procura. O maior comprimento vai na barra de cima. Escreva uma conta. Depois escreva a resposta. O primeiro probleminha já está resolvido.",
+      "fr": "Lis chaque problème. Dans le schéma en barres, écris les deux longueurs que tu connais et un point d’interrogation pour la longueur que tu cherches. La plus grande longueur va dans la barre du haut. Écris un calcul. Puis écris la réponse. Le premier problème est déjà résolu.",
+      "it": "Leggi ogni problema. Nel modello a barre scrivi le due lunghezze che conosci e un punto interrogativo per la lunghezza che cerchi. La lunghezza maggiore va nella barra in alto. Scrivi un’operazione. Poi scrivi la risposta. Il primo problema è già risolto.",
+      "nl": "Lees elke verhaalsom. Schrijf in het strookmodel de twee lengtes die je weet en een vraagteken voor de lengte die je zoekt. De grootste lengte komt in de bovenste strook. Schrijf een som. Schrijf daarna het antwoord op. De eerste verhaalsom is al gemaakt.",
+      "sv": "Läs varje räknehändelse. Skriv i blockmodellen de två längder du vet och ett frågetecken för längden du söker. Den största längden skriver du i det översta blocket. Skriv en uträkning. Skriv sedan svaret. Den första räknehändelsen är redan löst.",
+      "da": "Læs hver regnehistorie. Skriv i blokmodellen de to længder, du kender, og et spørgsmålstegn for den længde, du skal finde. Den største længde skal stå i den øverste blok. Skriv et regnestykke. Skriv så svaret. Den første regnehistorie er allerede løst.",
+      "no": "Les hver regnefortelling. Skriv i blokkmodellen de to lengdene du vet, og et spørsmålstegn for lengden du skal finne. Den største lengden skal stå i den øverste blokken. Skriv et regnestykke. Skriv så svaret. Den første regnefortellingen er allerede løst.",
+      "fi": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi pituutta, jotka tiedät, ja kysymysmerkki etsittävän pituuden kohdalle. Suurin pituus kirjoitetaan ylempään palkkiin. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
+    }
   }
 }

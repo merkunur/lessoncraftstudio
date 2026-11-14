@@ -5025,5 +5025,9 @@
   "K-644": {
     "title": "Nombra los cuerpos geométricos",
     "instruction": "Une cada cuerpo con el objeto que tiene la misma forma. Después colorea cada cuerpo según la clave y di su nombre."
+  },
+  "G2-518": {
+    "title": "Problemas de longitud con modelo de barras",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe las dos longitudes que conoces y un signo de interrogación para la longitud que buscas. La longitud mayor va en la barra de arriba. Escribe una operación. Después escribe la respuesta."
   }
 }

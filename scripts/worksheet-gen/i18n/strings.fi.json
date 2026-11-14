@@ -4982,5 +4982,9 @@
   "K-644": {
     "title": "Kappaleiden nimet",
     "instruction": "Yhdistä jokainen kappale esineeseen, jolla on sama muoto. Väritä sitten kappaleet värikoodin mukaan ja sano niiden nimet."
+  },
+  "G2-518": {
+    "title": "Sanallisia tehtäviä pituuksista",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi pituutta, jotka tiedät, ja kysymysmerkki etsittävän pituuden kohdalle. Suurin pituus kirjoitetaan ylempään palkkiin. Kirjoita lasku. Kirjoita sitten vastaus."
   }
 }

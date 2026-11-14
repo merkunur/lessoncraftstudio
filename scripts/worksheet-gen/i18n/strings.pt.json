@@ -5035,5 +5035,9 @@
   "K-644": {
     "title": "Nomeie os sólidos geométricos",
     "instruction": "Ligue cada sólido ao objeto que tem a mesma forma. Depois pinte cada sólido de acordo com a legenda e diga o nome dele."
+  },
+  "G2-518": {
+    "title": "Probleminhas de comprimento com modelo de barras",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois comprimentos que você conhece e um ponto de interrogação para o comprimento que você procura. O maior comprimento vai na barra de cima. Escreva uma conta. Depois escreva a resposta."
   }
 }

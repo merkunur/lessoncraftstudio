@@ -5029,5 +5029,9 @@
   "K-644": {
     "title": "Romfigurer",
     "instruction": "Trekk en strek fra hver figur til tingen med samme form. Fargelegg så figurene etter fargekoden, og si hva de heter."
+  },
+  "G2-518": {
+    "title": "Regnefortellinger med lengder",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to lengdene du vet, og et spørsmålstegn for lengden du skal finne. Den største lengden skal stå i den øverste blokken. Skriv et regnestykke. Skriv så svaret."
   }
 }

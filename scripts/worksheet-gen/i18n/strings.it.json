@@ -5016,5 +5016,9 @@
   "K-644": {
     "title": "Riconosci i solidi",
     "instruction": "Collega ogni solido all’oggetto che ha la stessa forma. Poi colora ogni solido secondo la legenda e di’ il suo nome."
+  },
+  "G2-518": {
+    "title": "Problemi con le lunghezze e il modello a barre",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi le due lunghezze che conosci e un punto interrogativo per la lunghezza che cerchi. La lunghezza maggiore va nella barra in alto. Scrivi un’operazione. Poi scrivi la risposta."
   }
 }

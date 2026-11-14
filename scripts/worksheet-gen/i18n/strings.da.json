@@ -5010,5 +5010,9 @@
   "K-644": {
     "title": "Rumlige figurer",
     "instruction": "Tegn en streg fra hver figur til tingen med samme form. Farvelæg så figurerne efter farvekoden, og sig, hvad de hedder."
+  },
+  "G2-518": {
+    "title": "Regnehistorier med længder",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to længder, du kender, og et spørgsmålstegn for den længde, du skal finde. Den største længde skal stå i den øverste blok. Skriv et regnestykke. Skriv så svaret."
   }
 }

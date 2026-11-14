@@ -5032,5 +5032,9 @@
   "K-644": {
     "title": "Geometrische Körper erkennen",
     "instruction": "Verbinde jeden Körper mit dem Gegenstand, der die gleiche Form hat. Male dann jeden Körper nach dem Farbcode an und sag seinen Namen."
+  },
+  "G2-518": {
+    "title": "Sachaufgaben mit Längen",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Längen ein, die du kennst, und ein Fragezeichen für die gesuchte Länge. In den oberen Streifen kommt die größte Länge. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
   }
 }

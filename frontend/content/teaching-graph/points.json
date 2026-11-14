@@ -2429,10 +2429,12 @@
    "skill": "Measure two objects and find how much longer",
    "code": "2.MD.A.4",
    "types": [
-    "G2-236"
+    "G2-236",
+    "G2-518"
    ],
    "families": [
-    "measurement"
+    "measurement",
+    "word-problems"
    ],
    "activities": [
     "span-length-gap.how-much-longer.2-md-a-4"

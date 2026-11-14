@@ -5073,5 +5073,9 @@
   "K-644": {
     "title": "Name the Solid Shapes",
     "instruction": "Draw a line from each solid to the thing with the same shape. Then color each solid by the color code and say its name."
+  },
+  "G2-518": {
+    "title": "Length Story Problems",
+    "instruction": "Read each story. In the bar model, write the two lengths you know and a question mark for the length you need to find. The longest length goes in the top bar. Write an equation. Then write the answer."
   }
 }

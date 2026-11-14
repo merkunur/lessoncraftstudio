@@ -2019,6 +2019,24 @@
    ],
    "why": "Found by the reviewer of the Grade 2 unit Fact Strategies Within 20 (an American Grade 2 teacher, 2026-11-13): doubles from memory and the near doubles built on them are mental strategies of 2.OA.B.2 (\"fluently add and subtract within 20 using mental strategies\"); the Grade 1 lesson prepares it, the Grade 2 lesson teaches it. The row from the point's own code stays.",
    "review": "own-audit-units-4"
+  },
+  "3:area-model": {
+   "rows": [
+    {
+     "id": "3.MD.C.7.a",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.MD.C.7.b",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.MD.C.7.d",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point holds three kinds of page: rectangles tiled with unit squares (7.a), rectangles with two side lengths to multiply (7.b: Area of a Rectangle: Multiply the Side Lengths), and L-shapes cut into two rectangles whose areas are added (7.d: Area of an L-Shape). Each lesson of a unit shows the one it teaches.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

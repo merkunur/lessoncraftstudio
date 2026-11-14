@@ -3,7 +3,7 @@
  *   sides         G3-488 Area of a Rectangle: Multiply the Sides — a rectangle with its two side lengths and their
  *                 unit; the child writes the product and the area. Level 1 the unit squares are still drawn (the
  *                 bridge from counting) · level 2 no squares · level 3 sides from 4 to 10 and, on two cards, the area
- *                 and one side are given and the other side is asked. 3.MD.C.7.b.
+ *                 ("Area = 54 square meters") and one side are given and the other side is asked. 3.MD.C.7.b.
  *   lshape        G3-489 Area of an L-Shape — an L-shaped figure to cut into two rectangles; the child writes the
  *                 product of each part and adds. Level 1 on a grid with the cut drawn and the parts named A and B ·
  *                 level 2 on a grid without the cut · level 3 no grid, the six side lengths written. 3.MD.C.7.d.
@@ -73,21 +73,21 @@ function ellPoints(W, H, w, h, corner) {
 const shoelace = (P) => Math.abs(P.reduce((s, p, i) => { const q = P[(i + 1) % P.length]; return s + p[0] * q[1] - q[0] * p[1]; }, 0)) / 2;
 
 const pointIn = (pt, Q) => { let r = false; for (let i = 0, j = Q.length - 1; i < Q.length; j = i++) if ((Q[i][1] > pt[1]) !== (Q[j][1] > pt[1]) && pt[0] < ((Q[j][0] - Q[i][0]) * (pt[1] - Q[i][1])) / (Q[j][1] - Q[i][1]) + Q[i][0]) r = !r; return r; };
-/** side labels of a polygon (px points): each at the middle of its edge, pushed outward. The two edges that meet at
- *  an inner corner (the notch of an L-shape) carry their labels INSIDE the figure: outside, the two labels met in the
- *  notch. */
+/** side labels of a polygon (px points): each pushed outward from its edge, at the middle. The two edges that meet
+ *  at an inner corner (the notch of an L-shape) carry their labels outside too, in the notch, but toward their OUTER
+ *  ends: at the middle the two labels met in the notch, and inside the figure a notch length read as a repeat of the
+ *  side above it (US teacher-reviewer, 2026-11-14). */
 function edgeLabels(P, texts, attrs) {
   const n = P.length, cross = (i) => { const a = P[(i + n - 1) % n], b = P[i], c = P[(i + 1) % n]; return (b[0] - a[0]) * (c[1] - b[1]) - (b[1] - a[1]) * (c[0] - b[0]); };
   const turn = Math.sign(P.reduce((t, _, i) => t + cross(i), 0)), inner = P.map((_, i) => n > 4 && Math.sign(cross(i)) === -turn);
   return P.map((p, i) => {
     if (texts[i] == null) return '';
-    const q = P[(i + 1) % n], inside = inner[(i + 1) % n] || inner[i], mx = (p[0] + q[0]) / 2, my = (p[1] + q[1]) / 2;
+    const q = P[(i + 1) % n], t = inner[(i + 1) % n] ? 0.2 : inner[i] ? 0.8 : 0.5, mx = p[0] + (q[0] - p[0]) * t, my = p[1] + (q[1] - p[1]) * t;
     const dx = q[0] - p[0], dy = q[1] - p[1], L = Math.hypot(dx, dy) || 1;
     let nx = -dy / L, ny = dx / L;
     // outward: a point just off the edge that is NOT in the figure (the middle of the corners lies on the wrong side
     // of a notch edge)
     if (pointIn([mx + nx * 2, my + ny * 2], P)) { nx = -nx; ny = -ny; }
-    if (inside) { nx = -nx; ny = -ny; }
     // (the label is centred on its point: beside an upright edge it needs half its own width)
     const off = 11 + Math.abs(nx) * 4.8 * String(texts[i]).length + Math.abs(ny) * 3;
     return svgText(mx + nx * off, my + ny * off, texts[i], ` data-lcs-side="${i}"${attrs ? attrs(i) : ''}`);
@@ -126,7 +126,7 @@ function figure(kind, rng, maxP) {
     const xs = P.map((p) => p[0]), ys = P.map((p) => p[1]), bw = Math.max(...xs) - Math.min(...xs), bh = Math.max(...ys) - Math.min(...ys);
     if (bw / bh > 3.2 || bh / bw > 1.6) continue;
     // (… and every side of an L-shape is long enough for its label: two short sides of the notch put two labels on each other)
-    if (kind === 'ell' && sides.some((v) => v * Math.min(150 / bw, 96 / bh) < 38)) continue;
+    if (kind === 'ell' && sides.some((v) => v * Math.min(150 / bw, 96 / bh) < 46)) continue;
     return { kind, P, sides, unknown, per, answer: sides[unknown[0]] };
   }
   return null;
@@ -174,7 +174,7 @@ function makeAreaPerimeterType({ id, slug, mode, i18n }) {
           g += svgText(x0 + w / 2, y0 - 13, top, ' data-lcs-label="b"') + `<text x="${x0 - 8}" y="${f1(y0 + h / 2)}" text-anchor="end" dominant-baseline="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="17" fill="${INK}" data-lcs-label="a">${left}</text>`;
           const svg = `<svg width="${f1(x0 + w + 8)}" height="${f1(y0 + h + 6)}" viewBox="0 0 ${f1(x0 + w + 8)} ${f1(y0 + h + 6)}" data-lcs-prim="sides-rect">${g}</svg>`;
           const eq = it.find
-            ? `<span style="${EQ}">${box(it.find === 'a' ? it.a : it.b)} ${mul} ${it.find === 'a' ? it.b : it.a} = ${it.a * it.b}</span><span style="${SMALL}">${it.unit.sq}</span>`
+            ? `<span style="${SMALL};flex-basis:100%;text-align:center" data-lcs-areagiven>${Wd.area} = ${it.a * it.b} ${it.unit.sq}</span><span style="${EQ}">${box(it.find === 'a' ? it.a : it.b)} ${mul} ${it.find === 'a' ? it.b : it.a} = ${it.a * it.b}</span>`
             : `<span style="${EQ}">${box(it.a, 52)} ${mul} ${box(it.b, 52)} = ${box(it.a * it.b)}</span><span style="${SMALL};flex-basis:100%;text-align:center">${it.unit.sq}</span>`;
           return `<div class="ws-card-stage" style="flex-direction:column;gap:10px;padding:6px 8px 6px 30px" data-lcs-sides="${it.a}|${it.b}|${it.find || ''}">${svg}<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center">${eq}</div></div>`;
         });
@@ -183,10 +183,10 @@ function makeAreaPerimeterType({ id, slug, mode, i18n }) {
         const drawn = [];
         let shapes = [];
         for (let t = 0; t < 600 && shapes.length < d.cards; t++) {
-          const W = rng.int(d.W[0], d.W[1]), H = rng.int(d.H[0], d.H[1]), w = rng.int(1, W - 2), h = rng.int(1, H - 2);
-          if (W < H || (w === 1 && h === 1)) continue;
+          const W = rng.int(d.W[0], d.W[1]), H = rng.int(d.H[0], d.H[1]), w = rng.int(2, W - 2), h = rng.int(2, H - 2);
+          if (W < H) continue;   // (every part is at least two squares wide and tall: a part one square tall made three of four cards practise "× 1")
           // without a grid every side carries its length: each side is long enough for its label (a notch one unit deep left two labels on each other)
-          if (!d.grid) { const sc = Math.min(20, 170 / W, 96 / H); if (h * sc < 40 || (H - h) * sc < 34 || w * sc < 66 || (W - w) * sc < 56) continue; }
+          if (!d.grid) { const sc = Math.min(20, 170 / W, 96 / H); if (h * sc < 46 || (H - h) * sc < 34 || w * sc < 66 || (W - w) * sc < 56) continue; }
           const area = W * H - w * h;
           if (area > 100 || drawn.includes(area) || shapes.some((s) => s.W === W && s.H === H)) continue;
           drawn.push(area);
@@ -268,7 +268,9 @@ function makeAreaPerimeterType({ id, slug, mode, i18n }) {
         // every drawing and every box stays inside its card
         document.querySelectorAll('.ws-card').forEach((c, i) => { const cb = rectOf(c); c.querySelectorAll('svg, .ws-answerbox, text').forEach((e) => { const r = rectOf(e); if (r.width && (r.left < cb.left - 1 || r.right > cb.right + 1 || r.top < cb.top - 1 || r.bottom > cb.bottom + 1)) fails.push(`card ${i + 1}: something leaves the card`); }); });
         // no label lies on another label
-        document.querySelectorAll('svg[data-lcs-prim]').forEach((svg, i) => { const t = [...svg.querySelectorAll('text')].map(rectOf); for (let a = 0; a < t.length; a++) for (let b = a + 1; b < t.length; b++) if (t[a].left < t[b].right - 1 && t[b].left < t[a].right - 1 && t[a].top < t[b].bottom - 1 && t[b].top < t[a].bottom - 1) fails.push(`figure ${i + 1}: two labels overlap`); });
+        document.querySelectorAll('svg[data-lcs-prim]').forEach((svg, i) => {
+        // (the INK of a label: a text box is a line box, a fifth taller than the letters above and below)
+        const T = [...svg.querySelectorAll('text')], t = T.map((e) => { const r = rectOf(e), k = r.height * 0.2; return { left: r.left, right: r.right, top: r.top + k, bottom: r.bottom - k }; }); for (let a = 0; a < t.length; a++) for (let b = a + 1; b < t.length; b++) if (t[a].left < t[b].right - 1 && t[b].left < t[a].right - 1 && t[a].top < t[b].bottom - 1 && t[b].top < t[a].bottom - 1) fails.push(`figure ${i + 1}: the labels "${T[a].textContent}" and "${T[b].textContent}" overlap`); });
         if (mode === 'sides') {
           const cards = [...document.querySelectorAll('[data-lcs-sides]')], areas = new Set();
           cards.forEach((c, i) => {
@@ -283,7 +285,7 @@ function makeAreaPerimeterType({ id, slug, mode, i18n }) {
             if (find === 'b' ? lb !== '?' : parseInt(lb, 10) !== B) fails.push(`${P}: the long side reads "${lb}"`);
             const boxes = c.querySelectorAll('.ws-answerbox').length;
             if (boxes !== (find ? 1 : 3)) fails.push(`${P}: ${boxes} boxes`);
-            if (find && !c.textContent.includes('= ' + A * B)) fails.push(`${P}: the area is not printed`);
+            if (find && !(c.querySelector('[data-lcs-areagiven]') && c.querySelector('[data-lcs-areagiven]').textContent.includes('= ' + A * B + ' '))) fails.push(`${P}: the area is not printed with its unit`);
           });
           const finds = cards.filter((c) => c.dataset.lcsSides.split('|')[2]).length;
           if (finds !== (lv === '3' ? 2 : 0)) fails.push(`${finds} cards ask for a side`);

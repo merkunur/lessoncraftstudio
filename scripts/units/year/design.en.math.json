@@ -1214,7 +1214,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: six rectangles with no squares inside, labeled with two side lengths (6 ft and 4 ft); the child writes 6 x 4 = _ square feet. Bottom half: four stories with a sketch to label (a rug 8 feet long and 5 feet wide, a garden bed, a poster in inches); the child writes the equation and the answer with the square unit. Side lengths from 2 to 10; units are square inches, square feet, square centimeters and square meters."
+            "page": "Top half: six rectangles with no squares inside, labeled with two side lengths (6 ft and 4 ft); the child writes 6 x 4 = _ square feet. Bottom half: four stories with a sketch to label (a rug 8 feet long and 5 feet wide, a garden bed, a poster in inches); the child writes the equation and the answer with the square unit. Side lengths from 2 to 10; units are square inches, square feet, square centimeters and square meters.",
+            "placed": "3:area-model#area-of-a-rectangle-multiply-the-side-lengths"
           },
           {
             "existing": "3:same-area",
@@ -1228,7 +1229,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Level 1: four L-shapes drawn on a grid with a dashed cut line; the child writes the product for each part and adds them. Level 2: four L-shapes on a grid with no line; the child draws the cut, and one task asks for a second way to cut. Level 3: three L-shapes with side lengths only and no grid (all sides needed are given). Side lengths from 1 to 10; areas up to 100 square units."
+            "page": "Level 1: four L-shapes drawn on a grid with a dashed cut line; the child writes the product for each part and adds them. Level 2: four L-shapes on a grid with no line; the child draws the cut, and one task asks for a second way to cut. Level 3: three L-shapes with side lengths only and no grid (all sides needed are given). Side lengths from 1 to 10; areas up to 100 square units.",
+            "placed": "3:area-model#area-of-an-l-shape"
           },
           {
             "existing": "3:perimeter",
@@ -1242,7 +1244,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: six polygons (triangles, rectangles, a pentagon, an L-shape) with every side length written except one, which is marked with a letter, and the perimeter given (\"Perimeter = 30 cm\"); the child writes the equation (8 + 8 + 5 + n = 30) and the missing length. Bottom half: three stories with a sketch to label (\"A garden in the shape of a rectangle has a perimeter of 26 feet. It is 9 feet long. How wide is it?\"). Side lengths from 2 to 40; perimeters up to 100; units are inches, feet, centimeters and meters."
+            "page": "Top half: six polygons (triangles, rectangles, a pentagon, an L-shape) with every side length written except one, which is marked with a letter, and the perimeter given (\"Perimeter = 30 cm\"); the child writes the equation (8 + 8 + 5 + n = 30) and the missing length. Bottom half: three stories with a sketch to label (\"A garden in the shape of a rectangle has a perimeter of 26 feet. It is 9 feet long. How wide is it?\"). Side lengths from 2 to 40; perimeters up to 100; units are inches, feet, centimeters and meters.",
+            "placed": "3:perimeter#find-the-missing-side"
           },
           {
             "existing": "3:same-perimeter",

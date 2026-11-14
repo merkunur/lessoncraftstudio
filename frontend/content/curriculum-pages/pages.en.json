@@ -1726,10 +1726,10 @@
    "metaDescription": "Third grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 34,
-    "taught": 24,
+    "taught": 26,
     "near": 1,
-    "open": 9,
-    "lessons": 44
+    "open": 7,
+    "lessons": 47
    },
    "groups": [
     {
@@ -2188,7 +2188,7 @@
          "unit": "area-and-perimeter-grade-3-unit",
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
-         "n": 2,
+         "n": 3,
          "title": "Same area, different shape"
         }
        ]
@@ -2208,6 +2208,34 @@
        ]
       },
       {
+       "code": "3.MD.C.7.b",
+       "state": "taught",
+       "text": "Children find the area of a rectangle by multiplying its two side lengths and say the area with its square unit (24 square feet).",
+       "lessons": [
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 2,
+         "title": "Area of a rectangle: multiply the side lengths"
+        }
+       ]
+      },
+      {
+       "code": "3.MD.C.7.d",
+       "state": "taught",
+       "text": "Children cut an L-shaped figure into two rectangles, find the area of each by multiplying, and add the two areas.",
+       "lessons": [
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 4,
+         "title": "Area of an L-shape"
+        }
+       ]
+      },
+      {
        "code": "3.MD.D.8",
        "state": "taught",
        "text": "Children find the perimeter of a rectangle by counting the unit edges all the way around.",
@@ -2216,14 +2244,21 @@
          "unit": "area-and-perimeter-grade-3-unit",
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
-         "n": 3,
+         "n": 5,
          "title": "Perimeter: walk the edge"
         },
         {
          "unit": "area-and-perimeter-grade-3-unit",
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
-         "n": 4,
+         "n": 6,
+         "title": "Perimeter: find the missing side"
+        },
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 7,
          "title": "Same perimeter, different area"
         }
        ]
@@ -2232,9 +2267,7 @@
      "open": [
       "3.MD.C.5.a",
       "3.MD.C.5.b",
-      "3.MD.C.7.b",
-      "3.MD.C.7.c",
-      "3.MD.C.7.d"
+      "3.MD.C.7.c"
      ]
     },
     {
@@ -4611,7 +4644,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 53
+    "lessons": 55
    },
    "groups": [
     {
@@ -5119,6 +5152,20 @@
          "unitGrade": "3",
          "n": 1,
          "title": "Area: count the squares"
+        },
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 2,
+         "title": "Area of a rectangle: multiply the side lengths"
+        },
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 4,
+         "title": "Area of an L-shape"
         }
        ]
       },
@@ -5224,7 +5271,7 @@
     "taught": 30,
     "near": 2,
     "open": 21,
-    "lessons": 44
+    "lessons": 47
    },
    "groups": [
     {
@@ -5788,6 +5835,13 @@
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
          "n": 2,
+         "title": "Area of a rectangle: multiply the side lengths"
+        },
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 3,
          "title": "Same area, different shape"
         },
         {
@@ -5795,7 +5849,7 @@
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
          "n": 4,
-         "title": "Same perimeter, different area"
+         "title": "Area of an L-shape"
         }
        ]
       },
@@ -5850,14 +5904,21 @@
          "unit": "area-and-perimeter-grade-3-unit",
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
-         "n": 3,
+         "n": 5,
          "title": "Perimeter: walk the edge"
         },
         {
          "unit": "area-and-perimeter-grade-3-unit",
          "unitTitle": "Area and Perimeter",
          "unitGrade": "3",
-         "n": 4,
+         "n": 6,
+         "title": "Perimeter: find the missing side"
+        },
+        {
+         "unit": "area-and-perimeter-grade-3-unit",
+         "unitTitle": "Area and Perimeter",
+         "unitGrade": "3",
+         "n": 7,
          "title": "Same perimeter, different area"
         }
        ]

@@ -1744,9 +1744,19 @@
      "id": "3.MD.C.7.a",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "3.MD.C.7.b",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "3.MD.C.7.d",
+     "rel": "teaches",
+     "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:same-area": {
    "rows": [

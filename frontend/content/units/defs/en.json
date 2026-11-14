@@ -2111,13 +2111,28 @@
    "subject": "math",
    "title": "Area and Perimeter",
    "metaTitle": "Grade 3 Math Lesson Plans: Area and Perimeter",
-   "metaDescription": "A three-week Grade 3 math unit: 5 lessons, four on area as rows times columns and perimeter as the distance around, and one extra lesson on counting the cubes in a solid.",
+   "metaDescription": "A four-week Grade 3 math unit: 8 lessons on area from counting squares to multiplying side lengths, L-shapes, perimeter with a missing side, and cubes in a solid.",
    "weeks": 3,
    "lessons": [
     {
      "point": "3:area-model",
      "types": [
       "G3-313"
+     ],
+     "standards": [
+      "3.MD.C.7.a"
+     ]
+    },
+    {
+     "point": "3:area-model",
+     "id": "3:area-model#area-of-a-rectangle-multiply-the-side-lengths",
+     "types": [
+      "G3-488"
+     ],
+     "tool": "baking-tray",
+     "activity": null,
+     "standards": [
+      "3.MD.C.7.b"
      ]
     },
     {
@@ -2127,10 +2142,31 @@
      ]
     },
     {
+     "point": "3:area-model",
+     "id": "3:area-model#area-of-an-l-shape",
+     "types": [
+      "G3-489"
+     ],
+     "tool": "baking-tray",
+     "activity": null,
+     "standards": [
+      "3.MD.C.7.d"
+     ]
+    },
+    {
      "point": "3:perimeter",
      "types": [
       "G3-337"
      ]
+    },
+    {
+     "point": "3:perimeter",
+     "id": "3:perimeter#find-the-missing-side",
+     "types": [
+      "G3-490"
+     ],
+     "tool": "unroll-tape",
+     "activity": null
     },
     {
      "point": "3:same-perimeter",

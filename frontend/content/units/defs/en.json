@@ -1677,7 +1677,7 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on measuring with a ruler and in two units, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
+   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on measuring with a ruler and in two units, length story problems, time to five minutes, the calendar, and money.",
    "weeks": 5,
    "lessons": [
     {
@@ -1707,6 +1707,21 @@
      "point": "2:compare-lengths",
      "types": [
       "G2-236"
+     ],
+     "standards": [
+      "2.MD.A.4"
+     ]
+    },
+    {
+     "point": "2:compare-lengths",
+     "id": "2:compare-lengths#length-story-problems",
+     "types": [
+      "G2-518"
+     ],
+     "tool": "comparison-planks",
+     "activity": null,
+     "standards": [
+      "2.MD.B.5"
      ]
     },
     {

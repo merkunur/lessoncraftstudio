@@ -2820,6 +2820,13 @@
     {
      "part": 3,
      "lesson": 5,
+     "title": "Length story problems",
+     "type": "G2-518",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
      "title": "Tell time to the nearest five minutes",
      "type": "G2-249",
      "tasks": 2
@@ -2828,9 +2835,9 @@
    "notCovered": [
     3,
     4,
-    6,
     7,
-    8
+    8,
+    9
    ],
    "forms": {
     "A": {
@@ -2841,6 +2848,9 @@
       ],
       [
        "249ca2e048f72016"
+      ],
+      [
+       "332bb09d7e5bf01a"
       ],
       [
        "38c8a821ee7a0a68",
@@ -2855,6 +2865,9 @@
        0
       ],
       [
+       null
+      ],
+      [
        0,
        1
       ]
@@ -2867,6 +2880,9 @@
        "choose 1"
       ],
       [
+       "w w w w w w w. w w w w. w w w w w w w? = ? w"
+      ],
+      [
        "w w w w w w w w w w w w w:w w:w w:w",
        "w w w w w w w w w w w w w:w w:w w:w"
       ]
@@ -2877,6 +2893,9 @@
       ],
       [
        0
+      ],
+      [
+       76
       ],
       [
        45,
@@ -2894,6 +2913,9 @@
        "b55bb4d8b6078361"
       ],
       [
+       "14cc996169bbbfc4"
+      ],
+      [
        "5dc1a713b07005a1",
        "675f59f6b351c287"
       ]
@@ -2904,6 +2926,9 @@
       ],
       [
        0
+      ],
+      [
+       null
       ],
       [
        2,
@@ -2918,6 +2943,9 @@
        "choose 1"
       ],
       [
+       "w w w w w w w. w w w w. w w w w w w w? = ? w"
+      ],
+      [
        "w w w w w w w w w w w w w:w w:w w:w",
        "w w w w w w w w w w w w w:w w:w w:w"
       ]
@@ -2928,6 +2956,9 @@
       ],
       [
        0
+      ],
+      [
+       64
       ],
       [
        40,

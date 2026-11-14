@@ -7378,8 +7378,8 @@
    "subject": "math",
    "title": "Measurement, Time, and Money",
    "metaTitle": "Grade 2 Math Lesson Plans: Measurement, Time, and Money",
-   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on measuring with a ruler and in two units, time to five minutes, the calendar, counting mixed coins, and shopping with money.",
-   "days": 25,
+   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on measuring with a ruler and in two units, length story problems, time to five minutes, the calendar, and money.",
+   "days": 27,
    "weeks": 5,
    "lessons": [
     {
@@ -7552,6 +7552,45 @@
     },
     {
      "n": 5,
+     "point": "2:compare-lengths",
+     "title": "Length story problems",
+     "objective": "Children solve story problems within 100 about lengths given in the same unit (inches or feet): they draw a bar model with a ? for the unknown and write a matching equation.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.MD.B.5",
+       "title": "Measurement and Data"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-518",
+       "title": "Length Story Problems",
+       "core": "word-problems-g2518",
+       "easy": "word-problems-easy-g2518-6",
+       "hard": "word-problems-hard-g2518-11"
+      }
+     ],
+     "id": "2:compare-lengths#length-story-problems",
+     "tool": {
+      "key": "comparison-planks",
+      "slug": "compare-lengths-difference-grade-1-2",
+      "name": "The Planks"
+     },
+     "exit": {
+      "slug": "word-problems-g2518-2",
+      "title": "Length Story Problems"
+     },
+     "note": {
+      "mistake": "Children add the two numbers of every story, even when a piece is cut off or two lengths are compared. Many put the longest length in a part of the bar instead of on top, so their equation adds what it should subtract. Others answer with a length the story gives.",
+      "words": "On The Planks, drag the ends to make the top plank 16 and the bottom plank 9. \"Which is longer? By how much?\" Before moving the piece that sticks out, the class says how long it is: 7. Drag the bracket all the way down to take the piece off and lay it at the end of the short plank: 9 and 7 reach exactly as far as 16. Draw it on the board as a bar: 16 on top, 9 and ? below, and write 16 − 9 = ?. Then tell a story with bigger numbers: \"The red ribbon is 63 inches long. The blue ribbon is 48 inches long. How much longer is the red ribbon?\" Pairs draw the bar with the longest length on top and write an equation.",
+      "watch": "Every page has three stories about a ribbon, tape, a scarf, a garden hose, or a fence, each in one unit, with a bar, an equation frame, and the unit beside the answer box. On the easier page, the lengths are whole tens, and the first story is done. On the page for everyone, the stories join two lengths, cut one off and compare two. On the harder page, the unknown moves: find the longer or shorter length, or the piece cut off. 63 − 48 = 15 and 48 + 15 = 63 are both right. Ask: \"Which length goes on top, and why?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "2:time-5-min-quarter",
      "title": "Tell time to the nearest five minutes",
      "objective": "Children read a clock to the nearest five minutes and to the quarter hour and choose the matching time.",
@@ -7609,7 +7648,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:calendar",
      "title": "Read a calendar",
      "objective": "Children read a month calendar to find the weekday of a date, the date one week later, and the number of days between two dates.",
@@ -7660,7 +7699,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "1:coins",
      "title": "Count mixed coins",
      "objective": "Children count the coins in a purse (quarters, dimes, nickels, and pennies), starting with the coins that are worth the most, and write the total in cents.",
@@ -7712,7 +7751,7 @@
      "days": 3
     },
     {
-     "n": 8,
+     "n": 9,
      "point": "2:shopping-money",
      "title": "Shopping with money",
      "objective": "Children read prices from a shelf, add the prices of the things in a basket, and solve two story problems with those prices.",
@@ -15277,6 +15316,7 @@
       "Same length, two units",
       "Estimate, then measure",
       "How much longer?",
+      "Length story problems",
       "Tell time to the nearest five minutes",
       "Read a calendar",
       "Count mixed coins",
@@ -15287,6 +15327,7 @@
       "2.MD.A.2",
       "2.MD.A.3",
       "2.MD.A.4",
+      "2.MD.B.5",
       "2.MD.C.7",
       "2.MD.C.8"
      ]

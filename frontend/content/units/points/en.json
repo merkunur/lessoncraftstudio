@@ -2551,6 +2551,15 @@
     "words": "Bring a big and a small ball, a number cube, a can and a party hat. Name each one: \"This is a sphere. It is round all over.\" Roll, stack and slide them: the sphere rolls any way, the cube stacks and slides, the cylinder rolls on its side and stands on a flat end, the cone rolls in a circle. Lay the can down and hold the hat point down: \"Still a cylinder? Still a cone?\" Turning a solid or changing its size does not change its name. Then children find a sphere, a cube, a cylinder and a cone in the classroom and say each name.",
     "watch": "At the top of every page, the child draws a line from each of four solids to the thing of the same shape. Below, a color code gives each name a color. Easier page: eight solids, upright, in two sizes. Page for everyone: twelve solids in three sizes, some turned (a cylinder lying down, a cone on its side or tip, a tilted cube). Harder page: the things are an orange, a number cube, a drum and an ice-cream cone, and a box and a pyramid among the twelve are none of the four and stay white. The second page matches three solids to things once more (it has no cone). Ask: \"How do you know it is a cylinder, even lying down?\""
    }
+  },
+  "2:compare-lengths#length-story-problems": {
+   "title": "Length story problems",
+   "objective": "Children solve story problems within 100 about lengths given in the same unit (inches or feet): they draw a bar model with a ? for the unknown and write a matching equation.",
+   "note": {
+    "mistake": "Children add the two numbers of every story, even when a piece is cut off or two lengths are compared. Many put the longest length in a part of the bar instead of on top, so their equation adds what it should subtract. Others answer with a length the story gives.",
+    "words": "On The Planks, drag the ends to make the top plank 16 and the bottom plank 9. \"Which is longer? By how much?\" Before moving the piece that sticks out, the class says how long it is: 7. Drag the bracket all the way down to take the piece off and lay it at the end of the short plank: 9 and 7 reach exactly as far as 16. Draw it on the board as a bar: 16 on top, 9 and ? below, and write 16 − 9 = ?. Then tell a story with bigger numbers: \"The red ribbon is 63 inches long. The blue ribbon is 48 inches long. How much longer is the red ribbon?\" Pairs draw the bar with the longest length on top and write an equation.",
+    "watch": "Every page has three stories about a ribbon, tape, a scarf, a garden hose, or a fence, each in one unit, with a bar, an equation frame, and the unit beside the answer box. On the easier page, the lengths are whole tens, and the first story is done. On the page for everyone, the stories join two lengths, cut one off and compare two. On the harder page, the unknown moves: find the longer or shorter length, or the piece cut off. 63 − 48 = 15 and 48 + 15 = 63 are both right. Ask: \"Which length goes on top, and why?\""
+   }
   }
  }
 }

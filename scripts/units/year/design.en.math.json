@@ -842,7 +842,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six stories about lengths ('A ribbon is 45 cm long. Lea cuts off 18 cm. How long is it now?'; 'The red rope is 36 feet, the blue rope is 27 feet longer.'). Each has space to draw the lengths as bars or on a number line, an equation frame with a box, and an answer line with the unit. Two put lengths together, two take a length away, two compare. All numbers within 100, one unit per story."
+            "page": "Six stories about lengths ('A ribbon is 45 cm long. Lea cuts off 18 cm. How long is it now?'; 'The red rope is 36 feet, the blue rope is 27 feet longer.'). Each has space to draw the lengths as bars or on a number line, an equation frame with a box, and an answer line with the unit. Two put lengths together, two take a length away, two compare. All numbers within 100, one unit per story.",
+            "placed": "2:compare-lengths#length-story-problems"
           }
         ]
       },

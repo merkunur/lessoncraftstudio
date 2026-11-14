@@ -2109,6 +2109,20 @@
    ],
    "why": "The point carries 1.MD.A.1 and 1.MD.A.2 for its pages on ordering lengths and measuring with units laid end to end. Same Length, Two Units measures one ribbon with paper clips and with cubes and asks which unit was needed more often: measuring twice with units of different lengths and relating the two numbers to the size of the unit is 2.MD.A.2. Each lesson of a unit shows the one it teaches.",
    "review": "year-design 2026-11-14"
+  },
+  "2:compare-lengths": {
+   "rows": [
+    {
+     "id": "2.MD.A.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.MD.B.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point carries 2.MD.A.4 for its page on measuring two objects and finding how much longer one is. Length Story Problems tells lengths in one unit that are put together, cut off and compared, with a bar model and an equation: word problems within 100 about lengths are 2.MD.B.5. Each lesson of a unit shows the one it teaches.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

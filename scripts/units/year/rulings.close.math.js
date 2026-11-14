@@ -88,6 +88,7 @@ module.exports = {
     '2-062': U('column subtraction across a zero', 3),
     '2-063': U('count mixed coins, largest first'),
     '2-064': N('G2-517', 'built (nothing was close): one ribbon measured with paper clips and with a second unit, shorter on two rows (cubes) and longer on two (a craft stick); both numbers and the unit it took more of (Same Length, Two Units); the recording of real things in inches and centimeters is done with a class ruler, as the note says', 2),
+    '2-065': N('G2-518', 'built (nothing was close): three length stories in one unit (inches or feet; cm or m), each with a bar model, an equation frame and the unit beside the answer; join, cut off, compare, and on level 3 the unknown moves (Length Story Problems)', 2),
     '2-066': U('a table of counts and an empty picture graph'),
     '2-067': N('G2-516', 'built (nothing was close): ten pencil lengths in a table, a number line to number and the Xs to draw, three questions; the harder page is the empty recording page of the design for ten real pencils (Measure and Make a Line Plot)', 2),
     '2-068': N('G2-515', 'built: four rectangles the child divides into rows and columns of same-size squares with a ruler, then _ rows, _ columns and an addition of equal rows; one row and one column drawn at level 1, marks on four sides at level 2, on two sides at level 3; up to 4 rows and 5 columns (Rows and Columns of Squares)', 2),

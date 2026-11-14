@@ -4980,5 +4980,9 @@
   "K-643": {
     "title": "Hur många är det tillsammans?",
     "instruction": "Lyssna på varje räknesaga. Färglägg bilderna som sagan säger och lämna resten vita. Skriv talen."
+  },
+  "K-644": {
+    "title": "Geometriska kroppar",
+    "instruction": "Dra ett streck från varje kropp till saken med samma form. Färglägg sedan kropparna efter färgkoden och säg vad de heter."
   }
 }

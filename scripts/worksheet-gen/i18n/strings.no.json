@@ -5025,5 +5025,9 @@
   "K-643": {
     "title": "Hvor mange er det til sammen?",
     "instruction": "Lytt til hver regnefortelling. Fargelegg bildene slik fortellingen sier, og la resten være hvite. Skriv tallene."
+  },
+  "K-644": {
+    "title": "Romfigurer",
+    "instruction": "Trekk en strek fra hver figur til tingen med samme form. Fargelegg så figurene etter fargekoden, og si hva de heter."
   }
 }

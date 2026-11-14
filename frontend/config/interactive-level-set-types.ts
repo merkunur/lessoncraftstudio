@@ -96,6 +96,6 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'column-arithmetic': ['g2502', 'g2514'],   // g2514 Year pages V: three and four numbers in columns (boxes to write in; PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484', 'g2516'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only); g2516 Year pages X: a line plot the child makes (PDF only)
-  geometry: ['g3488', 'g3489', 'g3490'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only)
+  geometry: ['g3488', 'g3489', 'g3490', 'k644'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only); k644 Year pages AA: lines to draw and solids to color by a code (PDF only)
   'word-problems': ['g2489', 'k642', 'g2506', 'g1567', 'g1568', 'g2509', 'g1569', 'g1570', 'g1571', 'g2510', 'g1572', 'g2511', 'g2512', 'g3485', 'g3486', 'g3487', 'k643'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
 };

@@ -5025,5 +5025,9 @@
   "K-643": {
     "title": "Deux couleurs : combien en tout ?",
     "instruction": "Écoute chaque histoire. Colorie les dessins comme dans l’histoire et laisse les autres en blanc. Écris les nombres."
+  },
+  "K-644": {
+    "title": "Reconnaître les solides",
+    "instruction": "Relie chaque solide à l’objet qui a la même forme. Puis colorie chaque solide selon le code et dis son nom."
   }
 }

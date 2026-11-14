@@ -4978,5 +4978,9 @@
   "K-643": {
     "title": "Kaksi väriä: montako yhteensä?",
     "instruction": "Kuuntele jokainen laskutarina. Väritä kuvat tarinan mukaan ja jätä loput valkoisiksi. Kirjoita luvut."
+  },
+  "K-644": {
+    "title": "Kappaleiden nimet",
+    "instruction": "Yhdistä jokainen kappale esineeseen, jolla on sama muoto. Väritä sitten kappaleet värikoodin mukaan ja sano niiden nimet."
   }
 }

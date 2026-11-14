@@ -5031,5 +5031,9 @@
   "K-643": {
     "title": "Quantos são ao todo?",
     "instruction": "Ouça cada história. Pinte os desenhos como a história diz e deixe o resto em branco. Escreva os números."
+  },
+  "K-644": {
+    "title": "Nomeie os sólidos geométricos",
+    "instruction": "Ligue cada sólido ao objeto que tem a mesma forma. Depois pinte cada sólido de acordo com a legenda e diga o nome dele."
   }
 }

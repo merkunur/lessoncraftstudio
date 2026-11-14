@@ -5012,5 +5012,9 @@
   "K-643": {
     "title": "Quanti sono in tutto?",
     "instruction": "Ascolta ogni storia. Colora i disegni come dice la storia e lascia bianchi gli altri. Scrivi i numeri."
+  },
+  "K-644": {
+    "title": "Riconosci i solidi",
+    "instruction": "Collega ogni solido all’oggetto che ha la stessa forma. Poi colora ogni solido secondo la legenda e di’ il suo nome."
   }
 }

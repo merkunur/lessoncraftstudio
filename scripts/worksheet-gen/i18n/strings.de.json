@@ -5028,5 +5028,9 @@
   "K-643": {
     "title": "Wie viele sind es zusammen?",
     "instruction": "Hör dir jede Rechengeschichte an. Male die Bilder passend zur Geschichte an und lass den Rest weiß. Schreib die Zahlen."
+  },
+  "K-644": {
+    "title": "Geometrische Körper erkennen",
+    "instruction": "Verbinde jeden Körper mit dem Gegenstand, der die gleiche Form hat. Male dann jeden Körper nach dem Farbcode an und sag seinen Namen."
   }
 }

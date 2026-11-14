@@ -5021,5 +5021,9 @@
   "K-643": {
     "title": "¿Cuántos hay en total?",
     "instruction": "Escucha cada historia. Colorea los dibujos como dice la historia y deja los demás en blanco. Escribe los números."
+  },
+  "K-644": {
+    "title": "Nombra los cuerpos geométricos",
+    "instruction": "Une cada cuerpo con el objeto que tiene la misma forma. Después colorea cada cuerpo según la clave y di su nombre."
   }
 }

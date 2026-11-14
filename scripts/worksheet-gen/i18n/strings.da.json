@@ -5006,5 +5006,9 @@
   "K-643": {
     "title": "Hvor mange er der i alt?",
     "instruction": "Lyt til hver regnehistorie. Farvelæg billederne, som historien siger, og lad resten være hvide. Skriv tallene."
+  },
+  "K-644": {
+    "title": "Rumlige figurer",
+    "instruction": "Tegn en streg fra hver figur til tingen med samme form. Farvelæg så figurerne efter farvekoden, og sig, hvad de hedder."
   }
 }

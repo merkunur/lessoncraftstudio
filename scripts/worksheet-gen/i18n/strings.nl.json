@@ -5026,5 +5026,9 @@
   "K-643": {
     "title": "Hoeveel zijn het samen?",
     "instruction": "Luister naar elk rekenverhaal. Kleur de plaatjes zoals het verhaal zegt en laat de rest wit. Schrijf de getallen."
+  },
+  "K-644": {
+    "title": "Ruimtelijke figuren benoemen",
+    "instruction": "Verbind elke figuur met het voorwerp dat dezelfde vorm heeft. Kleur dan elke figuur volgens de kleurcode en zeg hoe hij heet."
   }
 }

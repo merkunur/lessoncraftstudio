@@ -2707,7 +2707,8 @@
    "skill": "Match a solid (sphere, cube, cylinder, cone, rectangular prism, pyramid) to a real object of the same shape",
    "code": "2.G.A.1 / K.G.A.2",
    "types": [
-    "G2-243"
+    "G2-243",
+    "K-644"
    ],
    "families": [
     "geometry"

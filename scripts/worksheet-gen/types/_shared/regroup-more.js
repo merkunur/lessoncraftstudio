@@ -83,9 +83,12 @@ function dotsSvg(rows) {
 function mat(Wd, rows) {
   const head = (t, tag, first) => `<div style="flex:1 1 0;min-width:0;text-align:center;font:800 13px/21px 'Nunito',sans-serif;color:${TEAL};white-space:nowrap;${first ? '' : `border-left:2px solid ${INK};`}" data-lcs-head="${tag}">${t}</div>`;
   const cell = (inner, tag, first) => `<div style="flex:1 1 0;min-width:0;min-height:0;padding:6px 0 0 6px;box-sizing:border-box;display:flex;align-items:flex-start;${first ? '' : `border-left:2px solid ${INK};`}" data-lcs-cell="${tag}">${inner}</div>`;
-  return `<div data-lcs-prim="tens-ones-mat" style="flex:1 1 0;min-height:0;align-self:stretch;display:flex;flex-direction:column;box-sizing:border-box;background:#FFFFFF;border:2.5px solid ${INK};border-radius:8px;overflow:hidden">` +
+  // On a page the card's height is given and the mat takes what is left. Cut out of its page (a unit check), nothing
+  // gives it a height: it then stands at its own size, with room for the drawn numbers and for a child's drawing.
+  const minH = Math.max(66, rows.length * ROW + 6), ownH = Math.max(96, rows.length * ROW + 30);
+  return `<div data-lcs-prim="tens-ones-mat" style="flex:1 1 auto;min-height:0;align-self:stretch;display:flex;flex-direction:column;box-sizing:border-box;background:#FFFFFF;border:2.5px solid ${INK};border-radius:8px;overflow:hidden">` +
     `<div style="flex:0 0 auto;display:flex;border-bottom:2px solid ${INK}">${head(Wd.tensHead, 'tens', true)}${head(Wd.onesHead, 'ones')}</div>` +
-    `<div style="flex:1 1 0;min-height:0;display:flex">${cell(rows.length ? sticksSvg(rows) : '', 'tens', true)}${cell(rows.length ? dotsSvg(rows) : '', 'ones')}</div></div>`;
+    `<div style="flex:1 1 ${ownH}px;min-height:${minH}px;display:flex">${cell(rows.length ? sticksSvg(rows) : '', 'tens', true)}${cell(rows.length ? dotsSvg(rows) : '', 'ones')}</div></div>`;
 }
 
 function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
@@ -115,7 +118,7 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
             if (!oa || !ob || sum > 99 || sum % 10 === 1) continue;   // (a sum that ends in 1 would read "1 ones": wrong in fi, nl, da, no)
             // a new ten: the ones add up to 10 to 17 (ten exactly is a new ten with no ones left: once a page at most)
             if (plainAt.has(i) ? oa + ob > 9 : oa + ob < 10) continue;
-            if (oa + ob === 10 && items.some((q) => (q.a % 10) + (q.b % 10) === 10)) continue;
+            if (oa + ob === 10 && (items.some((q) => (q.a % 10) + (q.b % 10) === 10) || (lv === 1 && i === 0))) continue;   // (and never as the first sum of the easier page)
             if (seen.has(sum) || items.some((q) => q.a === a || q.b === b || q.a === b)) continue;
             // (drawn numbers: at most 6 sticks a row fit the tens column)
             if (Math.floor(a / 10) > 6 || Math.floor(b / 10) > 6) continue;
@@ -141,11 +144,11 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
           }
         }
         if (items.length < d.cards) throw new Error(`${id}: no ${d.cards} differences`);
-        const choice = (t2) => `<span style="display:inline-flex;align-items:center;gap:4px;${SMALL}"><span style="width:18px;height:18px;box-sizing:border-box;border:2.5px solid ${INK};border-radius:50%;background:#FFFFFF"></span>${t2}</span>`;
+        const choice = (t2, right) => `<span style="display:inline-flex;align-items:center;gap:${mark ? 9 : 4}px;${SMALL}"><span${mark && right ? ' data-lcs-correct' : ''} style="width:18px;height:18px;box-sizing:border-box;border:2.5px solid ${mark && right ? CORAL : INK};border-radius:50%;background:${mark && right ? CORAL : '#FFFFFF'}"></span>${t2}</span>`;
         cards = items.map((it) =>
           `<div class="ws-card-stage" style="flex-direction:column;gap:6px;padding:0 2px" data-lcs-matsub="${it.a}|${it.b}|${it.diff}|${it.open ? 1 : 0}">` +
           `<span style="${EQ}">${it.a} ${MINUS} ${it.b} = ${box(it.diff, 62, 36)}</span>${mat(Wd, d.drawn ? [it.a] : [])}` +
-          `<div style="flex:0 0 auto;display:flex;align-items:center;gap:10px;flex-wrap:nowrap;justify-content:center" data-lcs-enough data-lcs-line><span style="font:800 15px/1.2 'Nunito',sans-serif;color:${TEAL};white-space:nowrap">${Wd.enough}</span>${choice(Wd.yes)}${choice(Wd.no)}</div></div>`);
+          `<div style="flex:0 0 auto;display:flex;align-items:center;gap:10px;flex-wrap:nowrap;justify-content:center" data-lcs-enough data-lcs-line><span style="font:800 15px/1.2 'Nunito',sans-serif;color:${TEAL};white-space:nowrap">${Wd.enough}</span>${choice(Wd.yes, !it.open)}${choice(Wd.no, it.open)}</div></div>`);
         items = items.map((it) => `${it.a}-${it.b}`);
       } else {
         const CELL = d.cols === 3 ? 52 : 46, FS = Math.round(CELL * 0.68), SIGN = 30, CB = Math.round(CELL * 0.58); items = []; const seen = new Set();   // the cells fill the card: three cards in a row carry larger digits than four
@@ -155,7 +158,7 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
             const nums = Array.from({ length: n }, () => rng.int(10, 39)), ones = nums.map((v) => v % 10), so = ones.reduce((a, b) => a + b, 0), sum = nums.reduce((a, b) => a + b, 0);
             if (sum > 99 || sum < 40 || new Set(nums).size < n) continue;
             const carry = Math.floor(so / 10);
-            if (d.carry === 0 ? carry !== 0 : d.carry === 1 ? carry !== 1 : carry < 1) continue;
+            if (d.carry === 0 ? carry !== 0 : d.carry === 1 ? carry !== 1 : carry < 1 || carry > 2) continue;   // (four ones digits can add up to 30 and more: the harder page stops at two new tens)
             if (d.carry === 2 && i % 2 === 0 && carry !== 2 && n === 4 && t < 1500) continue;   // half of the four-number sums carry two tens
             if (d.tenPair && !ones.some((a, x) => a > 0 && ones.some((b, y) => y > x && a + b === 10))) continue;
             if (ones.filter((v) => v === 0).length > 1 || seen.has(sum)) continue;
@@ -208,6 +211,7 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
             const P = 'card ' + (i + 1), [a, b, sum] = c.dataset.lcsMatadd.split('|').map(Number);
             if (a + b !== sum || sum > 99) fails.push(`${P}: ${a} + ${b} is not ${sum}`);
             if (sum % 10 === 1) fails.push(`${P}: the sum ends in 1 ("1 ones")`);
+            if (lv === '1' && i === 0 && (a % 10) + (b % 10) === 10) fails.push(`${P}: the easier page opens with ones that make exactly ten`);
             if (sums.has(sum)) fails.push(`${P}: a sum twice`); sums.add(sum);
             if ((a % 10) + (b % 10) < 10) plain++;
             const sticks = c.querySelectorAll('[data-lcs-stick]').length, dots = c.querySelectorAll('[data-lcs-dot]').length;
@@ -245,7 +249,7 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
             if (nums.some((v) => v < 10 || v > 39)) fails.push(`${P}: a number outside 10 to 39`);
             if (lv === '1' && (nums.length !== 3 || +carry !== 0)) fails.push(`${P}: the easier page has three numbers and no new ten`);
             if (lv === '2' && (+carry !== 1 || !ones.some((a, x) => a > 0 && ones.some((b, y) => y > x && a + b === 10)))) fails.push(`${P}: no two ones make ten`);
-            if (lv === '3' && (nums.length !== 4 || +carry < 1)) fails.push(`${P}: the harder page has four numbers and a new ten`);
+            if (lv === '3' && (nums.length !== 4 || +carry < 1 || +carry > 2)) fails.push(`${P}: the harder page has four numbers and one or two new tens`);
             if (c.querySelectorAll('.ws-answerbox').length !== 2 || !!c.querySelector('[data-lcs-carrybox]') !== (lv !== '1')) fails.push(`${P}: the answer cells or the box for the new tens (the easier page has none)`);
             const cr = rectOf(c.closest(".ws-card")), used = [...c.children].reduce((h, e) => h + rectOf(e).height, 0);
             if (used < cr.height * 0.5) fails.push(`${P}: the sum uses ${Math.round(used)} of ${Math.round(cr.height)} px of its card`);

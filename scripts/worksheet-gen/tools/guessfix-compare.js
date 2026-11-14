@@ -13,6 +13,7 @@
  * --positions: the words must also sit where they sat (pdftotext -bbox) — a change drawn in vector shapes (coin tokens at
  * their real sizes, 2026-11-01) moves the numerals inside them but changes no word and no picture.
  * Every kept page is reported with whether its WORDS changed: a fix that should only move things must show none.
+ * --new-titles: a page whose title changed keeps the regenerated title (the fix is the title).
  * --keep-all: never drop a page (a fix drawn in strokes or opacity, which neither words nor picture places show).
  * Without --apply it only reports.
  */
@@ -32,6 +33,8 @@ const POSITIONS = process.argv.includes('--positions');
 // --keep-all: a fix the comparison cannot see (a stroke width, an opacity — G1-349's crossed-out clue, 2026-11-01) keeps
 // every regenerated page; titles are still restored
 const KEEP_ALL = process.argv.includes('--keep-all');
+// --new-titles: the fix IS a new title (a title too long for its page, 2026-11-14): the regenerated title stays
+const NEW_TITLES = process.argv.includes('--new-titles');
 /** every word with its box, rounded to a tenth of a point (PyMuPDF: the Windows pdftotext is Xpdf 4.00, no -bbox) */
 const boxes = (pdf) => execFileSync('python', [path.join(__dirname, 'pdf-word-boxes.py'), pdf], { encoding: 'utf8', maxBuffer: 64 << 20 }).trim().split(/\r?\n/).join(' ');
 let wordsChanged = 0;
@@ -73,7 +76,8 @@ for (const d of live) {
   if (!sameWords) { wordsChanged++; s.words = (s.words || 0) + 1; if (wordsChanged <= 10 || process.argv.includes('--list-words')) console.log('words differ ' + d.loc + ' ' + d.deck_id); }
   const m = JSON.parse(zip.readAsText('manifest.json'));
   const liveM = JSON.parse(fs.readFileSync(path.join(LIVEDIR, d.loc, d.slug, 'manifest.json'), 'utf8'));
-  if (JSON.stringify(m.title) !== JSON.stringify(liveM.title)) {
+  if (JSON.stringify(m.title) !== JSON.stringify(liveM.title) && NEW_TITLES) console.log('new title ' + d.deck_id + ': ' + JSON.stringify(liveM.title) + ' -> ' + JSON.stringify(m.title));
+  else if (JSON.stringify(m.title) !== JSON.stringify(liveM.title)) {
     retitled++;
     console.log('title ' + d.deck_id + ': ' + JSON.stringify(m.title) + ' -> live ' + JSON.stringify(liveM.title));
     if (APPLY) {

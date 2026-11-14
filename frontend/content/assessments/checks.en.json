@@ -2021,6 +2021,13 @@
      "title": "Add two two-digit numbers: tens with tens, ones with ones",
      "type": "G2-203",
      "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 6,
+     "title": "Add two two-digit numbers and make a new ten",
+     "type": "G1-573",
+     "tasks": 2
     }
    ],
    "notCovered": [
@@ -2028,7 +2035,7 @@
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "91b4da44ce02aa49",
@@ -2043,6 +2050,10 @@
       ],
       [
        "60553c3cf8ae3a25"
+      ],
+      [
+       "9a9370eec828d7ca",
+       "33e90a276e89add4"
       ]
      ],
      "pos": [
@@ -2058,6 +2069,10 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -2075,6 +2090,10 @@
       ],
       [
        "+ = ?"
+      ],
+      [
+       "w + w = w w w w w",
+       "w + w = w w w w w"
       ]
      ],
      "sizes": [
@@ -2091,11 +2110,15 @@
       ],
       [
        68
+      ],
+      [
+       59,
+       48
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "3512d00c17c6e56c",
@@ -2110,6 +2133,10 @@
       ],
       [
        "b5631c9ba4df9d91"
+      ],
+      [
+       "824e38dee49cc099",
+       "1af48e76714412d0"
       ]
      ],
      "pos": [
@@ -2125,6 +2152,10 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -2142,6 +2173,10 @@
       ],
       [
        "+ = ?"
+      ],
+      [
+       "w + w = w w w w w",
+       "w + w = w w w w w"
       ]
      ],
      "sizes": [
@@ -2158,6 +2193,10 @@
       ],
       [
        69
+      ],
+      [
+       49,
+       57
       ]
      ]
     }
@@ -2564,20 +2603,34 @@
     {
      "part": 3,
      "lesson": 5,
+     "title": "Subtract and open a ten",
+     "type": "G2-513",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
      "title": "Add and subtract vertically",
      "type": "G2-255",
      "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 8,
+     "title": "Add three and four two-digit numbers",
+     "type": "G2-514",
+     "tasks": 3
     }
    ],
    "notCovered": [
     2,
     4,
-    6,
-    7
+    7,
+    9
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "27ddcbdc461a7382"
@@ -2586,8 +2639,16 @@
        "4f6317efad2f96e4"
       ],
       [
+       "95fdbc55d4860975"
+      ],
+      [
        "346417871ad84c5d",
        "78d17935e94e6f18"
+      ],
+      [
+       "88f23a790fa1f7d2",
+       "0fcbc7726527974e",
+       "92001a2dc0ab8458"
       ]
      ],
      "pos": [
@@ -2598,8 +2659,16 @@
        null
       ],
       [
+       0
+      ],
+      [
        0,
        1
+      ],
+      [
+       null,
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -2610,8 +2679,16 @@
        "w + w = ?"
       ],
       [
+       "choose 1"
+      ],
+      [
        "w w + w w ·0",
        "w w − w w ·1"
+      ],
+      [
+       "w w w w w w + w w",
+       "w w w w + w w",
+       "w w w w + w w"
       ]
      ],
      "sizes": [
@@ -2622,13 +2699,21 @@
        64
       ],
       [
+       58
+      ],
+      [
        6,
        9
+      ],
+      [
+       7,
+       9,
+       6
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "ad3a7c4099c96554"
@@ -2637,8 +2722,16 @@
        "6761c835659c9f8e"
       ],
       [
+       "9f98690d9e44c861"
+      ],
+      [
        "70fef212cdb14b0e",
        "b0191072b33b3421"
+      ],
+      [
+       "2663dc3dd3ec96eb",
+       "840d628337d9a17c",
+       "7ebd00a3b646e735"
       ]
      ],
      "pos": [
@@ -2649,8 +2742,16 @@
        null
       ],
       [
+       0
+      ],
+      [
        0,
        0
+      ],
+      [
+       null,
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -2661,8 +2762,16 @@
        "w + w = ?"
       ],
       [
+       "choose 1"
+      ],
+      [
        "w w + w w ·0",
        "w w − w w ·1"
+      ],
+      [
+       "w w w w w w + w w",
+       "w w w w + w w",
+       "w w w w + w w"
       ]
      ],
      "sizes": [
@@ -2673,8 +2782,16 @@
        61
       ],
       [
+       57
+      ],
+      [
        6,
        9
+      ],
+      [
+       7,
+       9,
+       6
       ]
      ]
     }

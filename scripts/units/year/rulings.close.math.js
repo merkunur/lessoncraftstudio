@@ -65,7 +65,7 @@ module.exports = {
     '1-039': N('G1-559', 'built: level 1 adds ones only, no new ten (32 + 5)', 1),
     '1-040': N('G1-557', 'built: addition only within 100, to the next ten first (27 + 5)', 2),
     '1-041': U('two two-digit numbers as rods and cubes, no new ten'),
-    '1-042': B('adding with a new ten on a tens-and-ones mat (the block page never regroups)'),
+    '1-042': N('G1-573', 'built: six sums of two two-digit numbers on a tens-and-ones mat with the frame _ tens and _ ones; both numbers drawn at level 1, an empty mat at levels 2 and 3 (Add and Make a New Ten: Tens-and-Ones Mat); the partner sentence of the design is a question the teacher asks', 2),
     '1-043': U('clocks to the hour and half hour matched to digital times', 3),
     '1-045': U('two pages: circle the shapes cut into equal parts; halves and fourths'),
     // Grade 2
@@ -76,7 +76,8 @@ module.exports = {
     '2-050': U('more than nine tens with ones: write the number (level 1 is too many tens, level 2 too many ones)', 1),
     '2-051': U('expanded form both ways with a zero place', 3),
     '2-053': N('G2-504', 'built: the three partial-sum lines under each sum (Add Tens and Ones); the sticks-and-dots drawing is done on scrap paper', 2),
-    '2-054': B('subtracting with a ten opened, on a mat'),
+    '2-054': N('G2-513', 'built: six differences on a tens-and-ones mat with the question Enough ones? yes / no; the first number drawn at levels 1 and 2, drawn by the child at level 3 (Subtract with Regrouping: Tens-and-Ones Mat); six tasks for the eight of the design, the mat needs the room', 2),
+    '2-055': N('G2-514', 'built: sums of three and four two-digit numbers in columns with a small box for the new tens (Add Three and Four Two-Digit Numbers); sums only, the two stories of the design are not on the page', 2),
     '2-056': N('G2-509', 'built: three stories with two-digit numbers, the end or the change unknown, each with an empty bar model, an equation frame and the answer box (Story Problems Within 100: Bar Model)', 2),
     '2-057': N('G2-510', 'built: three stories with two-digit numbers and the start unknown, each with an empty bar model, an equation frame and the answer box (Find the Start: Story Problems Within 100)', 2),
     '2-058': N('G2-512', 'built: three compare stories about a red and a blue box with the difference, the larger or the smaller amount unknown, each with two bars, an equation frame and the answer box (Compare Stories Within 100: Two Bars)', 2),

@@ -1015,7 +1015,7 @@
    "subject": "math",
    "title": "Adding Within 100",
    "metaTitle": "Grade 1 Math Lesson Plans: Adding Within 100",
-   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on adding tens, subtracting tens, adding ones with and without a new ten, and adding two-digit numbers with rods and cubes.",
+   "metaDescription": "A three-week Grade 1 math unit: 6 lessons on adding and subtracting tens, adding ones, and adding two-digit numbers with and without a new ten on a tens-and-ones mat.",
    "weeks": 3,
    "lessons": [
     {
@@ -1081,6 +1081,18 @@
      "id": "2:add-with-blocks#add-two-two-digit-numbers",
      "types": [
       "G2-203"
+     ],
+     "tool": "place-value-lab",
+     "activity": null,
+     "standards": [
+      "1.NBT.C.4"
+     ]
+    },
+    {
+     "point": "2:add-with-blocks",
+     "id": "2:add-with-blocks#add-two-two-digit-numbers-and-make-a-new-ten",
+     "types": [
+      "G1-573"
      ],
      "tool": "place-value-lab",
      "activity": null,
@@ -1407,8 +1419,8 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart, adding tens and ones, and adding and subtracting vertically within 100.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on number lines, the hundreds chart, adding tens and ones, opening a ten to subtract, and adding and subtracting in columns.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:number-line-not-from-zero",
@@ -1447,6 +1459,18 @@
      ]
     },
     {
+     "point": "2:subtract-with-blocks",
+     "id": "2:subtract-with-blocks#subtract-and-open-a-ten",
+     "types": [
+      "G2-513"
+     ],
+     "tool": "exchange-machine",
+     "activity": null,
+     "standards": [
+      "2.NBT.B.5"
+     ]
+    },
+    {
      "point": "2:column-method",
      "types": [
       "G2-255",
@@ -1461,6 +1485,18 @@
      "types": [
       "G2-313",
       "G2-393"
+     ]
+    },
+    {
+     "point": "2:column-method",
+     "id": "2:column-method#add-three-and-four-two-digit-numbers",
+     "types": [
+      "G2-514"
+     ],
+     "tool": "exchange-machine",
+     "activity": null,
+     "standards": [
+      "2.NBT.B.6"
      ]
     },
     {

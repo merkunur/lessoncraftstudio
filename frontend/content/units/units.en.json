@@ -4752,8 +4752,8 @@
    "subject": "math",
    "title": "Adding Within 100",
    "metaTitle": "Grade 1 Math Lesson Plans: Adding Within 100",
-   "metaDescription": "A three-week Grade 1 math unit: 5 lessons on adding tens, subtracting tens, adding ones with and without a new ten, and adding two-digit numbers with rods and cubes.",
-   "days": 13,
+   "metaDescription": "A three-week Grade 1 math unit: 6 lessons on adding and subtracting tens, adding ones, and adding two-digit numbers with and without a new ten on a tens-and-ones mat.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -4945,6 +4945,45 @@
       "mistake": "Children count each rod as one, so 34 + 25 becomes 3 + 4 + 2 + 5 = 14. Others count the rods one cube at a time and lose the count. When they write the sum, some put the ones first (95 for 59).",
       "words": "Say: \"Rods first. Count them by tens: 10, 20, 30, 40, 50. Now the cubes: 4 and 5 is 9.\" Then: \"5 tens and 9 ones. What number is that?\" Give the rule in the children's words: \"Tens with tens, ones with ones.\"",
       "watch": "Watch who counts a rod as one and who reverses the digits of the sum. Before a child writes, ask how many tens and how many ones there are in all: a child who can say \"5 tens and 9 ones, 59\" without recounting is ready for adding without blocks."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "2:add-with-blocks",
+     "title": "Add two two-digit numbers and make a new ten",
+     "objective": "Children add two two-digit numbers when the ones make a new ten (36 + 28), with a drawing of sticks and dots on a tens-and-ones mat, and tell why the new ten joins the tens.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "1.NBT.C.4",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-573",
+       "title": "Add and Make a New Ten: Tens-and-Ones Mat",
+       "core": "base-ten-g1573",
+       "easy": "base-ten-easy-g1573-6",
+       "hard": "base-ten-hard-g1573-11"
+      }
+     ],
+     "id": "2:add-with-blocks#add-two-two-digit-numbers-and-make-a-new-ten",
+     "tool": {
+      "key": "place-value-lab",
+      "slug": "place-value-lab",
+      "name": "Place Value Lab"
+     },
+     "exit": {
+      "slug": "base-ten-g1573-2",
+      "title": "Add and Make a New Ten: Tens-and-Ones Mat"
+     },
+     "note": {
+      "mistake": "Children add each column and write both totals side by side, so 36 + 28 becomes 514 (5 tens, 14 ones). Others circle ten dots and forget to draw the new stick, or draw it and still count the circled dots as ones.",
+      "words": "On the Place Value Lab, build 36 with \"Add a ten\" and \"Add a one.\" Then add 28 more: two tens and eight ones. \"How many ones now? 14. Can we write 14 in the ones place?\" The lab asks, \"Ten ones! Can you make a ten?\" Tap \"Make a ten!\" and say: \"Ten ones make one ten. It joins the tens: 6 tens and 4 ones, 64.\" Do the same problem on the board with sticks and dots, the dots in rows of five: circle ten dots, draw one new stick, and ask a child to tell why you drew it.",
+      "watch": "On the easier page, both numbers are drawn on the mat, the second under the first (in green); the child circles ten dots, draws the new stick, and counts. On the page for everyone, the mat is empty: the child draws both numbers first, and every problem makes a new ten. On the harder page, two of the six problems make no new ten, so the child has to look before circling. In the boxes under the mat, ten circled dots count as one ten: 6 tens and 4 ones, not 5 tens and 14 ones. When the ones make exactly ten (41 + 29), the child writes 7 tens and 0 ones; watch for an empty ones box."
      },
      "days": 2
     }
@@ -6345,9 +6384,9 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart, adding tens and ones, and adding and subtracting vertically within 100.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on number lines, the hundreds chart, adding tens and ones, opening a ten to subtract, and adding and subtracting in columns.",
+   "days": 25,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -6564,6 +6603,45 @@
     },
     {
      "n": 5,
+     "point": "2:subtract-with-blocks",
+     "title": "Subtract and open a ten",
+     "objective": "Children subtract within 100 when there are not enough ones (52 − 27) by regrouping: they open one ten into ten ones in a drawing of sticks and dots.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.5",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-513",
+       "title": "Subtract with Regrouping: Tens-and-Ones Mat",
+       "core": "base-ten-g2513",
+       "easy": "base-ten-easy-g2513-6",
+       "hard": "base-ten-hard-g2513-11"
+      }
+     ],
+     "id": "2:subtract-with-blocks#subtract-and-open-a-ten",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "exit": {
+      "slug": "base-ten-g2513-2",
+      "title": "Subtract with Regrouping: Tens-and-Ones Mat"
+     },
+     "note": {
+      "mistake": "Children subtract the smaller ones digit from the larger, no matter which number it is in, so 52 − 27 becomes 35. Others draw the ten dots but do not cross out the stick they opened, so they take 2 tens from 5, not from 4. Some open a ten in every problem, even when there are enough ones.",
+      "words": "The Exchange Machine opens with 48 − 23. \"Start at the ones. Are there enough to take 3 away? Yes.\" Tap \"Another sum\": 42 − 17. \"Enough ones to take 7 away? No, there are only 2.\" Tap the tens column: one ten crosses over and comes apart into ten ones, and the 4 is crossed out. \"We regrouped: 3 tens and 12 ones. It is still 42.\" Draw the same on the board: four sticks and two dots. Cross out one stick, draw ten dots for it, then cross out 7 dots and 1 stick. \"What is left? 2 tens and 5 ones: 25.\"",
+      "watch": "The easier page takes away a one-digit number; the page for everyone, a two-digit number. On the harder page, the mat is empty and the child draws the first number. Every page has problems that need no ten opened (two on the first two pages, one on the harder page): there the child marks \"yes\" and only crosses out. Check the yes/no mark first; a wrong mark explains a wrong answer. A first number with no ones (50 − 4) always needs a ten opened; watch for 54. Have children say what the mat shows after the trade (\"4 tens and 10 ones\") before they cross anything out."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
      "point": "2:column-method",
      "title": "Add and subtract vertically",
      "objective": "Children add and subtract two-digit numbers written in columns, starting with the ones and writing the traded ten.",
@@ -6622,7 +6700,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:add-sub-within-100-practice",
      "title": "Add and subtract within 100",
      "objective": "Children add and subtract two-digit numbers to fill number walls and to follow a road through a math maze.",
@@ -6677,7 +6755,46 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 8,
+     "point": "2:column-method",
+     "title": "Add three and four two-digit numbers",
+     "objective": "Children add three or four two-digit numbers with a sum within 100 in columns, look for ones that make ten, and write the new tens above the tens column.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.6",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-514",
+       "title": "Add Three and Four Two-Digit Numbers",
+       "core": "column-arithmetic-g2514",
+       "easy": "column-arithmetic-easy-g2514-6",
+       "hard": "column-arithmetic-hard-g2514-11"
+      }
+     ],
+     "id": "2:column-method#add-three-and-four-two-digit-numbers",
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
+     "exit": {
+      "slug": "column-arithmetic-g2514-2",
+      "title": "Add Three and Four Two-Digit Numbers"
+     },
+     "note": {
+      "mistake": "Children add the ones, get 18 or 23, and write both digits under the line, so the answer has three digits. Others write the new ten above the tens and forget to add it. When the ones add up to 20 or more, they still write 1 in the small box.",
+      "words": "On the Exchange Machine, tap \"Another sum\" five times, until 38 + 25 appears. Fill the outlines in the ones column: \"8 and 5 make 13. Only one digit fits under the line.\" Tap the ones column: ten gather into one new ten on the left. The machine adds two numbers only, so go to the board. Write 18 + 36 + 24 in columns. \"Look at the ones: 8, 6, 4. Do two of them make ten? 6 and 4. Ten and 8 more is 18.\" Write 8 under the ones and a small 1 above the tens. \"Now the tens: 1 new ten, and 1, 3, 2. That makes 7 tens.\" 78.",
+      "watch": "On the easier page, there are six problems with three numbers; the ones make no new ten and there is no small box. On the page for everyone, four problems have three numbers and four have four; in each, two of the ones digits make ten, and one new ten goes in the small box. On the harder page, every problem has four numbers and the ones make one or two new tens (8 + 9 + 6 + 0 = 23: write 3 under the ones and 2 in the small box). When the ones make exactly 20, a 0 goes under the ones. Ask children to say the sum of the ones before they write. Have them check by adding from the bottom up."
+     },
+     "days": 2
+    },
+    {
+     "n": 9,
      "point": "2:explain-strategies",
      "title": "Why does it work?",
      "objective": "Children explain with blocks or a drawing why a way of adding or subtracting within 100 works, and compare two worked ways for the same problem, such as 38 + 25.",
@@ -6996,6 +7113,12 @@
        "framework": "Common Core",
        "code": "2.NBT.B.7",
        "title": "Number and Operations in Base Ten"
+      },
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.NBT.B.5",
+       "title": "Number and Operations in Base Ten"
       }
      ],
      "paper": [
@@ -7005,6 +7128,11 @@
        "core": "base-ten-g2205"
       }
      ],
+     "tool": {
+      "key": "exchange-machine",
+      "slug": "exchange-machine",
+      "name": "The Exchange Machine"
+     },
      "screen": {
       "kind": "activity",
       "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
@@ -14596,7 +14724,8 @@
       "Subtract tens from tens",
       "Add ones to a two-digit number",
       "Add ones and make a new ten",
-      "Add two two-digit numbers: tens with tens, ones with ones"
+      "Add two two-digit numbers: tens with tens, ones with ones",
+      "Add two two-digit numbers and make a new ten"
      ],
      "standards": [
       "1.NBT.C.4",
@@ -14657,9 +14786,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (30 Weeks)",
-   "metaDescription": "9 Grade 2 math units in teaching order, about 30 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 30,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (31 Weeks)",
+   "metaDescription": "9 Grade 2 math units in teaching order, about 31 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 31,
    "framework": "Common Core",
    "units": [
     {
@@ -14709,21 +14838,24 @@
      "id": "g2-adding-and-subtracting-within-100",
      "slug": "adding-and-subtracting-within-100-grade-2-unit",
      "title": "Adding and Subtracting Within 100",
-     "weeks": 4,
+     "weeks": 5,
      "from": 7,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "A number line that does not start at zero",
       "Jumps on the hundreds chart",
       "Jumps on an open number line",
       "Add tens and ones, then put them together",
+      "Subtract and open a ten",
       "Add and subtract vertically",
       "Add and subtract within 100",
+      "Add three and four two-digit numbers",
       "Why does it work?"
      ],
      "standards": [
       "2.MD.B.6",
       "2.NBT.B.5",
+      "2.NBT.B.6",
       "2.NBT.B.9"
      ]
     },
@@ -14732,8 +14864,8 @@
      "slug": "story-problems-within-100-grade-2-unit",
      "title": "Story Problems Within 100",
      "weeks": 2,
-     "from": 11,
-     "to": 12,
+     "from": 12,
+     "to": 13,
      "lessons": [
       "One-step stories with a bar model",
       "What was there at the start?",
@@ -14749,8 +14881,8 @@
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
      "title": "Adding and Subtracting Within 1,000",
      "weeks": 3,
-     "from": 13,
-     "to": 15,
+     "from": 14,
+     "to": 16,
      "lessons": [
       "Add with blocks",
       "Add three-digit numbers and make a new ten or hundred",
@@ -14759,6 +14891,7 @@
       "Subtract across zeros"
      ],
      "standards": [
+      "2.NBT.B.5",
       "2.NBT.B.7"
      ]
     },
@@ -14767,8 +14900,8 @@
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
      "weeks": 5,
-     "from": 16,
-     "to": 20,
+     "from": 17,
+     "to": 21,
      "lessons": [
       "Measure with a ruler",
       "Estimate, then measure",
@@ -14791,8 +14924,8 @@
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
      "weeks": 3,
-     "from": 21,
-     "to": 23,
+     "from": 22,
+     "to": 24,
      "lessons": [
       "From tally marks to a bar graph",
       "Make a graph from counts",
@@ -14809,8 +14942,8 @@
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
      "weeks": 4,
-     "from": 24,
-     "to": 27,
+     "from": 25,
+     "to": 28,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -14831,8 +14964,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 28,
-     "to": 30,
+     "from": 29,
+     "to": 31,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",

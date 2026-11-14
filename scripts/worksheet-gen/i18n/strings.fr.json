@@ -4983,11 +4983,11 @@
     "instruction": "Le périmètre de chaque figure est donné. Écris une équation avec x pour le côté manquant. Calcule ensuite x."
   },
   "G1-573": {
-    "title": "Additionner avec retenue : tableau des dizaines et des unités",
+    "title": "Additionner avec retenue : dizaines et unités",
     "instruction": "Dessine les deux nombres dans le tableau : une barre pour chaque dizaine, un point pour chaque unité. Entoure dix points et dessine une nouvelle barre à leur place. Écris ensuite les dizaines, les unités et le résultat."
   },
   "G2-513": {
-    "title": "Soustraire en cassant une dizaine : tableau des dizaines et des unités",
+    "title": "Soustraire en cassant une dizaine : dizaines et unités",
     "instruction": "Le premier nombre est dessiné dans le tableau. Y a-t-il assez d'unités pour soustraire ? Coche oui ou non. S'il n'y en a pas assez, raye une barre et dessine dix points à sa place. Raye ce que tu enlèves et écris ce qui reste."
   },
   "G2-514": {

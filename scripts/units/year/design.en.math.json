@@ -320,7 +320,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Six tasks. Each has the sum (36 + 28 = _), a tens-and-ones mat to draw both numbers as sticks and dots, and the sentence '_ tens and _ ones = _'. The child draws both numbers, rings ten dots and draws one stick for them, then counts sticks and dots. The last task asks: 'Tell your partner why you drew a new stick.' The ones add up to 10 to 17; sums up to 99."
+            "page": "Six tasks. Each has the sum (36 + 28 = _), a tens-and-ones mat to draw both numbers as sticks and dots, and the sentence '_ tens and _ ones = _'. The child draws both numbers, rings ten dots and draws one stick for them, then counts sticks and dots. The last task asks: 'Tell your partner why you drew a new stick.' The ones add up to 10 to 17; sums up to 99.",
+            "placed": "2:add-with-blocks#add-two-two-digit-numbers-and-make-a-new-ten"
           }
         ],
         "opened": "g1-adding-within-100"
@@ -643,7 +644,8 @@
             "days": 2,
             "tool": "The Exchange Machine",
             "source": "new",
-            "page": "Eight tasks. Each has the difference (52 - 27 = _) and a tens-and-ones mat on which the first number is already drawn as sticks and dots. The child first answers 'Enough ones? yes / no', crosses out one stick and draws ten dots when the answer is no, then crosses out what is taken away and writes what is left. Six tasks need a ten opened and two do not."
+            "page": "Eight tasks. Each has the difference (52 - 27 = _) and a tens-and-ones mat on which the first number is already drawn as sticks and dots. The child first answers 'Enough ones? yes / no', crosses out one stick and draws ten dots when the answer is no, then crosses out what is taken away and writes what is left. Six tasks need a ten opened and two do not.",
+            "placed": "2:subtract-with-blocks#subtract-and-open-a-ten"
           },
           {
             "existing": "2:column-method",
@@ -661,7 +663,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: four sums of three two-digit numbers and four sums of four two-digit numbers written in columns with a tens and a ones column and a small box for the new tens; the child rings ones that make ten before adding. Bottom half: two short stories with three or four amounts (points in four rounds of a game). Each number is 10 to 39; sums from 40 to 100."
+            "page": "Top half: four sums of three two-digit numbers and four sums of four two-digit numbers written in columns with a tens and a ones column and a small box for the new tens; the child rings ones that make ten before adding. Bottom half: two short stories with three or four amounts (points in four rounds of a game). Each number is 10 to 39; sums from 40 to 100.",
+            "placed": "2:column-method#add-three-and-four-two-digit-numbers"
           },
           {
             "new": true,

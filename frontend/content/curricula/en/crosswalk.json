@@ -1232,9 +1232,14 @@
      "id": "2.NBT.B.7",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "2.NBT.B.5",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:column-method": {
    "rows": [
@@ -1247,9 +1252,14 @@
      "id": "2.NBT.B.7",
      "rel": "teaches",
      "grade": "2"
+    },
+    {
+     "id": "2.NBT.B.6",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "2:explain-strategies": {
    "rows": [

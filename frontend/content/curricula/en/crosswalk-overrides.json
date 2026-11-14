@@ -2037,6 +2037,38 @@
    ],
    "why": "The point holds three kinds of page: rectangles tiled with unit squares (7.a), rectangles with two side lengths to multiply (7.b: Area of a Rectangle: Multiply the Side Lengths), and L-shapes cut into two rectangles whose areas are added (7.d: Area of an L-Shape). Each lesson of a unit shows the one it teaches.",
    "review": "year-design 2026-11-14"
+  },
+  "2:subtract-with-blocks": {
+   "rows": [
+    {
+     "id": "2.NBT.B.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.NBT.B.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point carries 2.NBT.B.7 for its page with base-ten blocks (Take Away the Blocks). Subtract and Open a Ten: Tens-and-Ones Mat subtracts a one- or two-digit number from a two-digit number in a drawing of sticks and dots: within 100, with a strategy based on place value (2.NBT.B.5).",
+   "review": "year-design 2026-11-14"
+  },
+  "2:column-method": {
+   "rows": [
+    {
+     "id": "2.NBT.B.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.NBT.B.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "2.NBT.B.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The column pages add and subtract two two-digit numbers (2.NBT.B.5) and two three-digit numbers (2.NBT.B.7). Add Three and Four Two-Digit Numbers adds three or four two-digit numbers in columns: 2.NBT.B.6. Each lesson of a unit shows the one it teaches.",
+   "review": "year-design 2026-11-14"
   }
  }
 }

@@ -639,7 +639,7 @@
     "taught": 21,
     "near": 1,
     "open": 2,
-    "lessons": 49
+    "lessons": 50
    },
    "groups": [
     {
@@ -1177,10 +1177,10 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 21,
+    "taught": 22,
     "near": 2,
-    "open": 5,
-    "lessons": 52
+    "open": 4,
+    "lessons": 54
    },
    "groups": [
     {
@@ -1433,7 +1433,21 @@
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
          "n": 5,
-         "title": "Add and subtract vertically"
+         "title": "Subtract and open a ten"
+        }
+       ]
+      },
+      {
+       "code": "2.NBT.B.6",
+       "state": "taught",
+       "text": "Children add three or four two-digit numbers with a sum within 100 in columns, look for ones that make ten, and write the new tens above the tens column.",
+       "lessons": [
+        {
+         "unit": "adding-and-subtracting-within-100-grade-2-unit",
+         "unitTitle": "Adding and Subtracting Within 100",
+         "unitGrade": "2",
+         "n": 8,
+         "title": "Add three and four two-digit numbers"
         }
        ]
       },
@@ -1495,15 +1509,14 @@
          "unit": "adding-and-subtracting-within-100-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 7,
+         "n": 9,
          "title": "Why does it work?"
         }
        ]
       }
      ],
      "open": [
-      "2.NBT.A.1.b",
-      "2.NBT.B.6"
+      "2.NBT.A.1.b"
      ]
     },
     {
@@ -4644,7 +4657,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 55
+    "lessons": 58
    },
    "groups": [
     {
@@ -4905,7 +4918,7 @@
          "unit": "adding-and-subtracting-within-100-grade-2-unit",
          "unitTitle": "Adding and Subtracting Within 100",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Add and subtract vertically"
         }
        ]

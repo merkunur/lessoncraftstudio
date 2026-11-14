@@ -150,7 +150,10 @@ const showAnswers = () => {
 // strings and the page shell are the files it was made from (their time stamps are part of its name).
 const CACHE = path.join(REPO, 'out', 'assessments', '_cut-cache');
 const stamp = (f) => { try { return String(fs.statSync(f).mtimeMs); } catch (e) { return '0'; } };
-const SHARED = [path.join(__dirname, 'lib', 'cut-cards.js'), path.join(WG, 'i18n', 'strings.' + loc + '.json'), path.join(WG, 'page', 'shell.js'), path.join(WG, 'page', 'page.css')].map(stamp).join('|');
+// (a type's own file is often three lines over a factory in types/_shared: the newest factory is part of the name too.
+//  2026-11-14: a changed factory left the cards of its types as they were, and a check showed a mat without its numbers)
+const FACTORIES = (() => { const d = path.join(WG, 'types', '_shared'); try { return String(Math.max(0, ...fs.readdirSync(d).filter((x) => x.endsWith('.js')).map((x) => fs.statSync(path.join(d, x)).mtimeMs))); } catch (e) { return '0'; } })();
+const SHARED = [path.join(__dirname, 'lib', 'cut-cards.js'), path.join(WG, 'i18n', 'strings.' + loc + '.json'), path.join(WG, 'page', 'shell.js'), path.join(WG, 'page', 'page.css')].map(stamp).concat(FACTORIES).join('|');
 async function cached(o, make) {
   if (has('no-cache')) return make(o.seed);
   const name = crypto.createHash('sha1').update([loc, o.typeId, o.seed, o.theme, stamp(o.file), SHARED].join('|')).digest('hex').slice(0, 24) + '.json';

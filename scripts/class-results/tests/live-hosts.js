@@ -45,10 +45,12 @@ const LIST = pages.length ? pages : [
     // the analytics: counted on an ordinary visit, silent on a class visit (an address with #lcs=<token>, or /c/…)
     const classVisit = /#lcs=[a-z2-9]{20}/.test(url) || /\/c\//.test(new URL(url).pathname);
     const core = paths.includes('/lcs-insights-core.js'), sent = paths.includes('/api/send');
-    const beaconOk = BEACON ? (classVisit ? !core && !sent : core && sent) : true;
+    // (a page that carries no analytics tag at all, like an activity's own file, has nothing to count)
+    const tagged = await page.evaluate(() => !!document.querySelector('script[src*="lcs-insights.js"]')).catch(() => false);
+    const beaconOk = BEACON ? (classVisit || !tagged ? !core && !sent : core && sent) : true;
     const ok = status === 200 && !other.length && fonts.length > 0 && fonts.every((f) => f.startsWith('200 ' + HOST)) && beaconOk;
     if (!ok) bad++;
-    console.log((ok ? 'ok    ' : 'FAIL  ') + url + '\n        status ' + status + ' · requests ' + JSON.stringify(hosts) + ' · font files ' + fonts.length + (fonts.length ? ' (' + [...new Set(fonts)].join(', ') + ')' : '') + ' · families shown: ' + [...new Set(loaded)].join(', ') + (BEACON ? ' · ' + (classVisit ? 'class visit' : 'ordinary visit') + ': analytics script ' + (core ? 'loaded' : 'not loaded') + ', visit ' + (sent ? 'sent' : 'not sent') : ''));
+    console.log((ok ? 'ok    ' : 'FAIL  ') + url + '\n        status ' + status + ' · requests ' + JSON.stringify(hosts) + ' · font files ' + fonts.length + (fonts.length ? ' (' + [...new Set(fonts)].join(', ') + ')' : '') + ' · families shown: ' + [...new Set(loaded)].join(', ') + (BEACON ? ' · ' + (classVisit ? 'class visit' : tagged ? 'ordinary visit' : 'no analytics tag') + ': analytics script ' + (core ? 'loaded' : 'not loaded') + ', visit ' + (sent ? 'sent' : 'not sent') : ''));
     await page.close();
   }
   await browser.close();

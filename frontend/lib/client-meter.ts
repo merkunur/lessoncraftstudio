@@ -48,14 +48,16 @@ export async function meterAction(kind: 'download' | 'play', surface?: 'activity
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        // a class visit names nobody: no sign-in header and no cookie travel with it (legal decision 2026-11-14, E6).
+        // A child on a shared tablet must not be tied to whoever is signed in on that browser.
+        ...(token && !classToken ? { Authorization: `Bearer ${token}` } : {}),
       },
       // a play opened through a class link carries its attempt token after '#'; the server does not meter a play of
       // a live class (thirty children on six shared tablets must not meet the per-device wall) and ignores any
       // other token (app/api/quota/check-and-increment)
       // surface: what is played. Every play needs an account but the homepage sample (lib/quota.ts playNeedsAccount)
       body: JSON.stringify({ kind, ...(surface ? { surface } : {}), ...(classToken ? { classToken } : {}) }),
-      credentials: 'include',
+      credentials: classToken ? 'omit' : 'include',
       cache: 'no-store',
     });
     if (res.ok) return { proceed: true };

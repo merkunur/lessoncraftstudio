@@ -151,6 +151,14 @@ const ago = (d) => new Date(NOW.getTime() - d * DAY);
   console.log = quiet;
   ok(again.read === 0 && again.rows === 0, 'a second run reads nothing again');
   ok(strip.DEFAULT_DAYS + 7 <= 35, 'the default age (28 days) plus the weekly run keeps the 35-day promise of the privacy texts', strip.DEFAULT_DAYS);
+  // --all (what the server runs on the copy it hands to the PC): a dump of TODAY loses its class rows too
+  const today = 'db_' + NOW.toISOString().slice(0, 10).replace(/-/g, '') + '.sql.gz';
+  write(today);
+  console.log = () => {};
+  const none = await strip.main(dir, 28, false, NOW);
+  const all = await strip.main(dir, -Infinity, false, NOW);
+  console.log = quiet;
+  ok(none.read === 0 && all.read === 2 && all.rows === 14 && read(today) === want && read('db_20261101.sql.gz') === want, 'by age a dump of today is left alone; with --all it and the young dump lose their class rows', { none, all });
   fs.rmSync(dir, { recursive: true, force: true });
 
   console.log(fails ? `${fails} of ${n} FAILED` : `retention: ${n} checks pass`);

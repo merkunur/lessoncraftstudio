@@ -102,12 +102,26 @@ ls -1t "$BACKUP_DIR"/decks_*.tar.gz 2>/dev/null | tail -n +$((KEEP+1)) | while r
 # only what it serves — CLAUDE.md §A.14.12 rule 6). Copy every db_*.sql.gz / studio_*.tar.gz the PC does not have
 # yet, then prune (prune_dumps below): weekly studio archives are byte-identical most weeks, and 74 daily DB dumps
 # were 2.3 GB of near-copies.
-for pat in 'db_*.sql.gz' 'studio_*.tar.gz'; do
-  for f in $($SSH "ls /opt/lessoncraftstudio/backups/$pat 2>/dev/null"); do
-    [ -f "$BACKUP_DIR/$(basename "$f")" ] && continue
-    scp -q -o BatchMode=yes -i "$KEY" "$HOST:$f" "$BACKUP_DIR/" && say "copied $(basename "$f")"
-  done
+for f in $($SSH "ls /opt/lessoncraftstudio/backups/studio_*.tar.gz 2>/dev/null"); do
+  [ -f "$BACKUP_DIR/$(basename "$f")" ] && continue
+  scp -q -o BatchMode=yes -i "$KEY" "$HOST:$f" "$BACKUP_DIR/" && say "copied $(basename "$f")"
 done
+# Database dumps: CLASS ROWS NEVER LEAVE THE SERVER (legal decision of 2026-11-14, condition E8). The server makes a
+# copy of the dump in a folder of its own, takes the rows of the four class tables out of the copy
+# (strip-class-data.js --all; counts only), and the PC fetches that copy. The server's own dump is not changed.
+for f in $($SSH "ls /opt/lessoncraftstudio/backups/db_*.sql.gz 2>/dev/null"); do
+  b=$(basename "$f")
+  [ -f "$BACKUP_DIR/$b" ] && continue
+  T=$($SSH "set -e; T=\$(mktemp -d /opt/lessoncraftstudio/backups/.pull.XXXXXX); cp '$f' \"\$T/\"; node /opt/lessoncraftstudio/scripts/class-results/strip-class-data.js \"\$T\" --all > \"\$T/strip.log\" 2>&1 && test -f \"\$T/$b.noclass\" && echo \"\$T\"") || T=""
+  case "$T" in
+    /opt/lessoncraftstudio/backups/.pull.??????)
+      scp -q -o BatchMode=yes -i "$KEY" "$HOST:$T/$b" "$BACKUP_DIR/" && cp /dev/null "$BACKUP_DIR/$b.noclass" && say "copied $b (class rows left on the server)"
+      $SSH "rm -rf '$T'" ;;
+    *) say "NOT copied: $b (the server could not make a copy without class rows)" ;;
+  esac
+done
+# a copy folder a broken run left behind (older than an hour) goes
+$SSH 'find /opt/lessoncraftstudio/backups -maxdepth 1 -type d -name ".pull.??????" -mmin +60 -exec rm -rf {} +'
 
 prune_dumps
 # Class results (Daily Teaching System, Part 9): a dump kept longer than 35 days holds no class data, so what a teacher

@@ -34,6 +34,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     const page = await browser.newPage();
     await page.setViewport({ width: 420, height: 700 });
     let asked = 0; let body = null;
+    // what the script hands to fetch for its check: whether cookies travel, and which headers
+    await page.evaluateOnNewDocument(() => { const f = window.fetch; window.__check = []; window.fetch = function (u, o) { if (String(u).includes('check-and-increment')) window.__check.push({ credentials: o && o.credentials, headers: Object.keys((o && o.headers) || {}).map((k) => k.toLowerCase()) }); return f.apply(this, arguments); }; });
     await page.setRequestInterception(true);
     page.on('request', (rq) => {
       const u = rq.url();
@@ -54,7 +56,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       const a = [...o.querySelectorAll('a')];
       return { kind: o.getAttribute('data-wall'), title: o.querySelector('h2').textContent, body: o.querySelector('p').textContent, links: a.map((x) => ({ text: x.textContent, href: x.getAttribute('href'), target: x.getAttribute('target'), h: Math.round(x.getBoundingClientRect().height) })), covers: o.getBoundingClientRect().width >= window.innerWidth - 1 && o.getBoundingClientRect().height >= window.innerHeight - 1 };
     }) : null;
-    return { page, f, asked, body, w };
+    const sent = f ? await f.evaluate(() => window.__check || []) : [];
+    return { page, f, asked, body, w, sent };
   }
   const SIGNUP = { status: 401, json: { allowed: false, reason: 'signup_required' } }, VERIFY = { status: 401, json: { allowed: false, reason: 'verify_required' } }, USED = { status: 402, json: { allowed: false, reason: 'quota_exceeded' } }, OK = { status: 200, json: { allowed: true } };
 
@@ -64,6 +67,14 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   check(r.w && r.w.links.length === 2 && r.w.links[0].href === HOST + '/en/auth/signup?from=play' && r.w.links[1].href === HOST + '/en/auth/signin?from=play' && r.w.links.every((l) => l.target === '_top' && l.h >= 44), 'two links, to sign-up and sign-in, leaving a frame, at least 44 px high');
   check(r.w && r.w.covers, 'the wall covers the page');
   check(JSON.parse(r.body).kind === 'play' && !('surface' in JSON.parse(r.body)), 'the deck asks for a play and names no surface (only the homepage sample does)');
+  check(r.sent.length === 1 && r.sent[0].credentials === 'include', 'an ordinary play check carries the visitor\'s cookies (the account is what is counted)');
+  {
+    // a class visit: the address carries the attempt token after #; its check names nobody
+    const c = await run({ top: HOST + '/en/decks/some-deck/#lcs=abcdefghjkmnpqrstuvw', answer: { status: 200, json: { allowed: true } } });
+    check(c.asked === 1 && JSON.parse(c.body).classToken === 'abcdefghjkmnpqrstuvw', 'a class visit sends its token with the check');
+    check(c.sent.length === 1 && c.sent[0].credentials === 'omit' && !c.sent[0].headers.includes('authorization'), 'and the check carries no cookie and no sign-in header');
+    await c.page.close();
+  }
   await r.f.evaluate(() => { const a = document.querySelector('[data-wall-main]'); a.addEventListener('click', (e) => e.preventDefault()); a.click(); });
   check(await r.page.evaluate(() => sessionStorage.getItem('lcs-return')) === '/en/decks/some-deck/', 'a click on the wall remembers the page for the way back');
   await r.page.close();

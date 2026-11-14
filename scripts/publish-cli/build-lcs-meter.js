@@ -134,7 +134,8 @@ const SOURCE = `/**
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(CLASS_TOKEN ? { kind: 'play', classToken: CLASS_TOKEN } : { kind: 'play' }),
-        credentials: 'include',
+        // a class visit names nobody: no cookie travels with it (legal decision 2026-11-14, E6)
+        credentials: CLASS_TOKEN ? 'omit' : 'include',
         cache: 'no-store'
       }).then(function (res) {
         if (res.status === 402) return showWall('used');

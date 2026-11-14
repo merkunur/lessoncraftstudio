@@ -10,6 +10,11 @@
  * byte for byte.
  *
  *   node scripts/class-results/strip-class-data.js <folder> [--days=28] [--dry-run]
+ *   node scripts/class-results/strip-class-data.js <folder> --all      every dump in the folder, whatever its age
+ *
+ * --all is what the SERVER runs on the copy it hands to the PC (scripts/ops/pull-deck-backup.sh): class rows never
+ * leave the server (legal decision of 2026-11-14, condition E8). The server's own dumps keep them for the seven days
+ * they live. ("--days=0" does not mean "all": a dump of today has age 0 and is skipped, and 0 used to fall back to 28.)
  *
  * A stripped file gets a marker beside it (<file>.noclass) so it is read once, not every week. The rewrite goes to
  * a temporary file that is read back in full (gzip check + the same number of other lines) before it replaces the
@@ -86,7 +91,7 @@ async function main(dir, days, dry, now) {
   for (const f of files) {
     const d = f.slice(3, 11);
     const age = (now.getTime() - Date.UTC(+d.slice(0, 4), +d.slice(4, 6) - 1, +d.slice(6, 8))) / (24 * 3600 * 1000);
-    if (age <= days) continue;
+    if (days !== -Infinity && age <= days) continue;
     const full = path.join(dir, f), marker = full + '.noclass';
     if (fs.existsSync(marker)) continue;
     const r = await stripFile(full, dry);
@@ -96,7 +101,7 @@ async function main(dir, days, dry, now) {
   }
   // a marker whose dump is gone is litter
   for (const m of fs.readdirSync(dir).filter((f) => f.endsWith('.sql.gz.noclass'))) if (!fs.existsSync(path.join(dir, m.replace(/\.noclass$/, '')))) fs.rmSync(path.join(dir, m), { force: true });
-  console.log('class data: ' + read + ' dump(s) older than ' + days + ' days read, ' + rows + ' class row(s) ' + (dry ? 'found' : 'removed'));
+  console.log('class data: ' + read + ' dump(s) ' + (days === -Infinity ? 'of any age' : 'older than ' + days + ' days') + ' read, ' + rows + ' class row(s) ' + (dry ? 'found' : 'removed'));
   return { read, rows };
 }
 
@@ -104,6 +109,8 @@ if (require.main === module) {
   const dir = process.argv[2];
   const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=')[1] : null; };
   if (!dir || !fs.existsSync(dir)) { console.error('usage: strip-class-data.js <folder with db_YYYYMMDD.sql.gz> [--days=28] [--dry-run]'); process.exit(2); }
-  main(dir, Number(arg('days')) || DEFAULT_DAYS, process.argv.includes('--dry-run'), new Date()).catch((e) => { console.error('class data FAILED: ' + e.message); process.exit(1); });
+  const d = arg('days');
+  if (d !== null && !(Number.isFinite(Number(d)) && Number(d) >= 1)) { console.error('--days takes a whole number of days from 1; use --all for every dump'); process.exit(2); }
+  main(dir, process.argv.includes('--all') ? -Infinity : d !== null ? Number(d) : DEFAULT_DAYS, process.argv.includes('--dry-run'), new Date()).catch((e) => { console.error('class data FAILED: ' + e.message); process.exit(1); });
 }
 module.exports = { main, stripFile, pass, TABLES, DEFAULT_DAYS };

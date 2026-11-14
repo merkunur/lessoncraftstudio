@@ -2213,7 +2213,7 @@
    "subject": "math",
    "title": "Time, Temperature, Mass, and Liquid Volume",
    "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Liquid Volume",
-   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, milliliters in a cup, plus a first look at 24-hour time.",
+   "metaDescription": "A four-week Grade 3 math unit: 6 lessons on time to the minute, elapsed time, adding and subtracting time, a thermometer, grams on a scale, and milliliters.",
    "weeks": 4,
    "lessons": [
     {
@@ -2232,12 +2232,6 @@
      "point": "3:add-subtract-time",
      "types": [
       "G3-356"
-     ]
-    },
-    {
-     "point": "3:time-12-24",
-     "types": [
-      "G3-355"
      ]
     },
     {

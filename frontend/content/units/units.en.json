@@ -10106,8 +10106,8 @@
    "subject": "math",
    "title": "Time, Temperature, Mass, and Liquid Volume",
    "metaTitle": "Grade 3 Math Lesson Plans: Time, Temperature, Mass, and Liquid Volume",
-   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on time to the minute, elapsed time, a thermometer, grams on a scale, milliliters in a cup, plus a first look at 24-hour time.",
-   "days": 20,
+   "metaDescription": "A four-week Grade 3 math unit: 6 lessons on time to the minute, elapsed time, adding and subtracting time, a thermometer, grams on a scale, and milliliters.",
+   "days": 18,
    "weeks": 4,
    "lessons": [
     {
@@ -10253,44 +10253,6 @@
     },
     {
      "n": 4,
-     "point": "3:time-12-24",
-     "title": "12-hour and 24-hour time",
-     "objective": "Children match a time on the 12-hour clock to the same time on the 24-hour clock.",
-     "standards": [],
-     "paper": [
-      {
-       "type": "G3-355",
-       "title": "12-Hour and 24-Hour Time",
-       "core": "telling-time-g3355",
-       "easy": "telling-time-easy-g3355-2",
-       "hard": "telling-time-hard-g3355-7"
-      }
-     ],
-     "screen": {
-      "kind": "activity",
-      "id": "clock-convert.12-24.2-md-c-7",
-      "slug": "convert-12-hour-and-24-hour-time",
-      "title": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion"
-     },
-     "exit": {
-      "slug": "telling-time-g3355-2",
-      "title": "12-Hour and 24-Hour Time"
-     },
-     "maker": {
-      "id": "telling-time",
-      "name": "Telling Time",
-      "slug": "telling-time-worksheet-maker",
-      "template": "G3-355"
-     },
-     "note": {
-      "mistake": "Children add 12 to morning times as well, or they drop the first digit, so that 15:00 becomes 5:00. Noon and midnight are confused.",
-      "words": "Say: \"After 12 noon the 24-hour clock keeps counting: 13, 14, 15.\" Give the rule both ways: \"From 1:00 p.m. to 11:59 p.m., add 12 to the hour. From 24-hour time: if the hour is more than 12, subtract 12 and say p.m.\" Ask: \"Is 08:00 morning or evening? How do you know?\"",
-      "watch": "Check noon and the hour after it, such as 12:30 p.m., which stays 12:30, and midnight, which is 00:00. Most clocks around the children show a.m. and p.m.; point out a bus schedule or a plane ticket that uses 24-hour time. This lesson goes beyond the Common Core; many Americans know 24-hour time as \"military time.\""
-     },
-     "days": 2
-    },
-    {
-     "n": 5,
      "point": "3:thermometer",
      "title": "Read a thermometer",
      "objective": "Children read the temperature on a thermometer whose scale counts by 2, by 5, or by 10.",
@@ -10335,7 +10297,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 5,
      "point": "2:mass-grams",
      "title": "Read a scale in grams",
      "objective": "Children add the gram weights on a balance to find how much an object weighs, and read amounts on balance scales and measuring cups, writing each amount with its unit.",
@@ -10393,7 +10355,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 6,
      "point": "2:read-jugs",
      "title": "Read a measuring cup",
      "objective": "Children read from the scale on a measuring cup how many milliliters of liquid are inside.",
@@ -15505,7 +15467,6 @@
       "Tell time to the minute",
       "How much time passed?",
       "Add and subtract time",
-      "12-hour and 24-hour time",
       "Read a thermometer",
       "Read a scale in grams",
       "Read a measuring cup"

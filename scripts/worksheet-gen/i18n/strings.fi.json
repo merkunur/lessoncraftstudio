@@ -4879,8 +4879,28 @@
     "title": "Sanalliset tehtävät: mitä välissä tapahtui?",
     "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
   },
+  "G1-569": {
+    "title": "Sanalliset tehtävät: kuinka monta oli aluksi?",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G1-570": {
+    "title": "Sanalliset tehtävät: kolme lukua",
+    "instruction": "Lue jokainen tehtävä. Piirrä se ruutuun. Kirjoita kolme lukua. Etsi ensin kaksi lukua, joista tulee yhteensä 10, ja laske sitten."
+  },
+  "G1-571": {
+    "title": "Keksi kysymys: sanalliset tehtävät 0–20",
+    "instruction": "Lue jokainen tehtävä. Jos kysymys puuttuu, keksi ja kirjoita kysymys, jonka voit ratkaista laskemalla. Kirjoita sitten lasku ja vastaus."
+  },
+  "G1-572": {
+    "title": "Piirrä, laske, vastaa: sanalliset tehtävät 0–20",
+    "instruction": "Lue jokainen tehtävä. Piirrä se ruutuun. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
   "G2-509": {
     "title": "Palkkimalli: sanalliset tehtävät 0–100",
+    "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
+  },
+  "G2-510": {
+    "title": "Kuinka monta oli aluksi? Sanalliset tehtävät 0–100",
     "instruction": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus."
   }
 }

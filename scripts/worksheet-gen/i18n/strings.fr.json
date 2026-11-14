@@ -4926,8 +4926,28 @@
     "title": "Problèmes : que s'est-il passé au milieu ?",
     "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre manquant. Écris un calcul. Puis écris la réponse."
   },
+  "G1-569": {
+    "title": "Combien au début ? Problèmes",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre manquant. Écris un calcul. Puis écris la réponse."
+  },
+  "G1-570": {
+    "title": "Problèmes à trois nombres",
+    "instruction": "Lis chaque problème. Dessine-le dans le cadre. Écris les trois nombres. Cherche d'abord deux nombres qui font 10, puis calcule."
+  },
+  "G1-571": {
+    "title": "Écris la question : problèmes jusqu'à 20",
+    "instruction": "Lis chaque problème. Si la question manque, écris une question qui demande un calcul. Écris ensuite le calcul et la réponse."
+  },
+  "G1-572": {
+    "title": "Dessine, calcule, réponds : problèmes jusqu'à 20",
+    "instruction": "Lis chaque problème. Dessine-le dans le cadre. Écris le calcul. Puis écris la réponse."
+  },
   "G2-509": {
     "title": "Problèmes jusqu'à 100 avec un schéma en barres",
+    "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse."
+  },
+  "G2-510": {
+    "title": "Combien au début ? Problèmes jusqu'à 100",
     "instruction": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse."
   }
 }

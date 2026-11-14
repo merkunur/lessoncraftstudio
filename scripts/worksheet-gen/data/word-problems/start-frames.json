@@ -1,0 +1,223 @@
+{
+ "$comment": "CHANGE stories with the START unknown (Year pages R, 2026-11-14; 1.OA.A.1 / 2.OA.A.1 'add to / take from, start unknown', de 'Anfangsmenge gesucht', sv 'starten saknas'): the change ({n2}) and the end ({n3}) are told, what was there at the start is asked. Slots as in word-problems-levelset.json: {n2} {n3} {noun} {name} {name2}, {Q} = how many, agreeing (es, pt, it), {il} = il / elle of the name (fr). No frame puts a word for 'some' before the thing where that word would have to agree with it (es, pt: a bare plural; it, fi: the story begins with what is done). `place` frames tell the things in a place and suit any amount; `people` frames tell a child and are used within 20 only. A take-away story is told with somebody who takes. Read by a native reader (2026-11-14). Only the start-unknown story pages read this file.",
+ "en": {
+  "addStart": {
+   "place": [
+    "There are some {noun} in a box. {name} puts in {n2} more. Now there are {n3} {noun} in the box. How many {noun} were in the box at the start?",
+    "There are some {noun} on the table. {name} brings {n2} more. Now there are {n3} {noun} on the table. How many {noun} were on the table at the start?"
+   ],
+   "people": [
+    "{name} has some {noun}. {name} gets {n2} more. Now {name} has {n3} {noun}. How many {noun} did {name} have at the start?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "There are some {noun} in a box. {name} takes out {n2}. Now there are {n3} {noun} left in the box. How many {noun} were in the box at the start?",
+    "There are some {noun} on a shelf. {name} takes {n2} down. Now there are {n3} {noun} left on the shelf. How many {noun} were on the shelf at the start?"
+   ],
+   "people": [
+    "{name} has some {noun}. {name} gives {n2} to {name2}. Now {name} has {n3} {noun} left. How many {noun} did {name} have at the start?"
+   ]
+  }
+ },
+ "de": {
+  "addStart": {
+   "place": [
+    "In einer Kiste sind {noun}. {name} legt {n2} dazu. Jetzt sind {n3} {noun} in der Kiste. Wie viele {noun} waren am Anfang in der Kiste?",
+    "Auf dem Tisch liegen {noun}. {name} legt {n2} dazu. Jetzt liegen {n3} {noun} auf dem Tisch. Wie viele {noun} lagen am Anfang auf dem Tisch?"
+   ],
+   "people": [
+    "{name} hat einige {noun}. {name} bekommt {n2} dazu. Jetzt hat {name} {n3} {noun}. Wie viele {noun} hatte {name} am Anfang?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "In einer Kiste sind {noun}. {name} nimmt {n2} heraus. Jetzt sind noch {n3} {noun} in der Kiste. Wie viele {noun} waren am Anfang in der Kiste?",
+    "Auf einem Regal liegen {noun}. {name} nimmt {n2} herunter. Jetzt liegen noch {n3} {noun} auf dem Regal. Wie viele {noun} lagen am Anfang auf dem Regal?"
+   ],
+   "people": [
+    "{name} hat einige {noun}. {name} gibt {n2} davon ab. Jetzt hat {name} noch {n3} {noun}. Wie viele {noun} hatte {name} am Anfang?"
+   ]
+  }
+ },
+ "es": {
+  "addStart": {
+   "place": [
+    "Hay {noun} en una caja. {name} mete {n2} más. Ahora hay {n3} {noun} en la caja. ¿{Q} {noun} había en la caja al principio?",
+    "Hay {noun} en la mesa. {name} trae {n2} más. Ahora hay {n3} {noun} en la mesa. ¿{Q} {noun} había en la mesa al principio?"
+   ],
+   "people": [
+    "{name} tiene {noun}. Le dan {n2} más. Ahora {name} tiene {n3} {noun}. ¿{Q} {noun} tenía {name} al principio?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Hay {noun} en una caja. {name} saca {n2}. Ahora quedan {n3} {noun} en la caja. ¿{Q} {noun} había en la caja al principio?",
+    "Hay {noun} en un estante. {name} baja {n2}. Ahora quedan {n3} {noun} en el estante. ¿{Q} {noun} había en el estante al principio?"
+   ],
+   "people": [
+    "{name} tiene {noun}. Regala {n2}. Ahora a {name} le quedan {n3} {noun}. ¿{Q} {noun} tenía {name} al principio?"
+   ]
+  }
+ },
+ "pt": {
+  "addStart": {
+   "place": [
+    "Há {noun} em uma caixa. {name} coloca mais {n2}. Agora há {n3} {noun} na caixa. {Q} {noun} havia na caixa no começo?",
+    "Há {noun} na mesa. {name} traz mais {n2}. Agora há {n3} {noun} na mesa. {Q} {noun} havia na mesa no começo?"
+   ],
+   "people": [
+    "{name} tem {noun} e ganha mais {n2}. Agora {name} tem {n3} {noun}. {Q} {noun} {name} tinha no começo?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Há {noun} em uma caixa. {name} tira {n2}. Agora restam {n3} {noun} na caixa. {Q} {noun} havia na caixa no começo?",
+    "Há {noun} em uma prateleira. {name} pega {n2}. Agora restam {n3} {noun} na prateleira. {Q} {noun} havia na prateleira no começo?"
+   ],
+   "people": [
+    "{name} tem {noun} e dá {n2} para {name2}. Agora {name} ficou com {n3} {noun}. {Q} {noun} {name} tinha no começo?"
+   ]
+  }
+ },
+ "fr": {
+  "addStart": {
+   "place": [
+    "Il y a des {noun} dans une boîte. {name} en ajoute {n2}. Maintenant, il y a {n3} {noun} dans la boîte. Combien de {noun} y avait-il dans la boîte au début ?",
+    "Il y a des {noun} sur la table. {name} en apporte encore {n2}. Maintenant, il y a {n3} {noun} sur la table. Combien de {noun} y avait-il sur la table au début ?"
+   ],
+   "people": [
+    "{name} a des {noun}. On lui en donne encore {n2}. Maintenant, {name} a {n3} {noun}. Combien de {noun} {name} avait-{il} au début ?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Il y a des {noun} dans une boîte. {name} en sort {n2}. Maintenant, il reste {n3} {noun} dans la boîte. Combien de {noun} y avait-il dans la boîte au début ?",
+    "Il y a des {noun} sur une étagère. {name} en prend {n2}. Maintenant, il reste {n3} {noun} sur l'étagère. Combien de {noun} y avait-il sur l'étagère au début ?"
+   ],
+   "people": [
+    "{name} a des {noun} et en donne {n2} à {name2}. Maintenant, il reste {n3} {noun} à {name}. Combien de {noun} {name} avait-{il} au début ?"
+   ]
+  }
+ },
+ "it": {
+  "addStart": {
+   "place": [
+    "{name} aggiunge {n2} {noun} in una scatola. Adesso nella scatola ci sono {n3} {noun}. {Q} {noun} c'erano nella scatola all'inizio?",
+    "{name} porta {n2} {noun} sul tavolo, dove ce n'erano già. Adesso sul tavolo ci sono {n3} {noun}. {Q} {noun} c'erano sul tavolo all'inizio?"
+   ],
+   "people": [
+    "{name} riceve ancora {n2} {noun}. Adesso {name} ha {n3} {noun}. {Q} {noun} aveva {name} all'inizio?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "{name} tira fuori {n2} {noun} da una scatola. Adesso nella scatola restano {n3} {noun}. {Q} {noun} c'erano nella scatola all'inizio?",
+    "{name} prende {n2} {noun} da uno scaffale. Adesso sullo scaffale restano {n3} {noun}. {Q} {noun} c'erano sullo scaffale all'inizio?"
+   ],
+   "people": [
+    "{name} regala {n2} {noun} a {name2}. Adesso a {name} restano {n3} {noun}. {Q} {noun} aveva {name} all'inizio?"
+   ]
+  }
+ },
+ "nl": {
+  "addStart": {
+   "place": [
+    "In een doos zitten {noun}. {name} doet er {n2} bij. Nu zitten er {n3} {noun} in de doos. Hoeveel {noun} zaten er eerst in de doos?",
+    "Op tafel liggen {noun}. {name} legt er {n2} bij. Nu liggen er {n3} {noun} op tafel. Hoeveel {noun} lagen er eerst op tafel?"
+   ],
+   "people": [
+    "{name} heeft wat {noun}. {name} krijgt er {n2} bij. Nu heeft {name} {n3} {noun}. Hoeveel {noun} had {name} eerst?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "In een doos zitten {noun}. {name} haalt er {n2} uit. Nu zitten er nog {n3} {noun} in de doos. Hoeveel {noun} zaten er eerst in de doos?",
+    "Op een plank liggen {noun}. {name} pakt er {n2} af. Nu liggen er nog {n3} {noun} op de plank. Hoeveel {noun} lagen er eerst op de plank?"
+   ],
+   "people": [
+    "{name} heeft wat {noun}. {name} geeft er {n2} aan {name2}. Nu heeft {name} nog {n3} {noun}. Hoeveel {noun} had {name} eerst?"
+   ]
+  }
+ },
+ "sv": {
+  "addStart": {
+   "place": [
+    "Det ligger {noun} i en låda. {name} lägger i {n2} till. Nu ligger det {n3} {noun} i lådan. Hur många {noun} låg det i lådan från början?",
+    "Det ligger {noun} på bordet. {name} lägger dit {n2} till. Nu ligger det {n3} {noun} på bordet. Hur många {noun} låg det på bordet från början?"
+   ],
+   "people": [
+    "{name} har några {noun}. {name} får {n2} till. Nu har {name} {n3} {noun}. Hur många {noun} hade {name} från början?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Det ligger {noun} i en låda. {name} tar ut {n2}. Nu ligger det {n3} {noun} kvar i lådan. Hur många {noun} låg det i lådan från början?",
+    "Det ligger {noun} på en hylla. {name} tar ner {n2}. Nu ligger det {n3} {noun} kvar på hyllan. Hur många {noun} låg det på hyllan från början?"
+   ],
+   "people": [
+    "{name} har några {noun}. {name} ger bort {n2}. Nu har {name} {n3} {noun} kvar. Hur många {noun} hade {name} från början?"
+   ]
+  }
+ },
+ "da": {
+  "addStart": {
+   "place": [
+    "Der ligger {noun} i en kasse. {name} lægger {n2} flere i. Nu ligger der {n3} {noun} i kassen. Hvor mange {noun} lå der i kassen fra start?",
+    "Der ligger {noun} på bordet. {name} lægger {n2} flere på bordet. Nu ligger der {n3} {noun} på bordet. Hvor mange {noun} lå der på bordet fra start?"
+   ],
+   "people": [
+    "{name} har nogle {noun}. {name} får {n2} flere. Nu har {name} {n3} {noun}. Hvor mange {noun} havde {name} fra start?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Der ligger {noun} i en kasse. {name} tager {n2} op af kassen. Nu ligger der {n3} {noun} tilbage i kassen. Hvor mange {noun} lå der i kassen fra start?",
+    "Der ligger {noun} på en hylde. {name} tager {n2} ned. Nu ligger der {n3} {noun} tilbage på hylden. Hvor mange {noun} lå der på hylden fra start?"
+   ],
+   "people": [
+    "{name} har nogle {noun}. {name} giver {n2} væk. Nu har {name} {n3} {noun} tilbage. Hvor mange {noun} havde {name} fra start?"
+   ]
+  }
+ },
+ "no": {
+  "addStart": {
+   "place": [
+    "Det ligger {noun} i en eske. {name} legger {n2} til oppi esken. Nå ligger det {n3} {noun} i esken. Hvor mange {noun} lå det i esken fra starten?",
+    "Det ligger {noun} på bordet. {name} legger {n2} til på bordet. Nå ligger det {n3} {noun} på bordet. Hvor mange {noun} lå det på bordet fra starten?"
+   ],
+   "people": [
+    "{name} har noen {noun}. {name} får {n2} til. Nå har {name} {n3} {noun}. Hvor mange {noun} hadde {name} fra starten?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "Det ligger {noun} i en eske. {name} tar ut {n2}. Nå ligger det {n3} {noun} igjen i esken. Hvor mange {noun} lå det i esken fra starten?",
+    "Det ligger {noun} på en hylle. {name} tar ned {n2}. Nå ligger det {n3} {noun} igjen på hylla. Hvor mange {noun} lå det på hylla fra starten?"
+   ],
+   "people": [
+    "{name} har noen {noun}. {name} gir bort {n2}. Nå har {name} {n3} {noun} igjen. Hvor mange {noun} hadde {name} fra starten?"
+   ]
+  }
+ },
+ "fi": {
+  "addStart": {
+   "place": [
+    "{name} laittaa laatikkoon {n2} {noun} lisää. Nyt laatikossa on {n3} {noun}. Kuinka monta {noun} laatikossa oli aluksi?",
+    "{name} tuo pöydälle {n2} {noun} lisää. Nyt pöydällä on {n3} {noun}. Kuinka monta {noun} pöydällä oli aluksi?"
+   ],
+   "people": [
+    "{name} saa {n2} {noun} lisää. Nyt hänellä on {n3} {noun}. Kuinka monta {noun} hänellä oli aluksi?"
+   ]
+  },
+  "subStart": {
+   "place": [
+    "{name} ottaa laatikosta {n2} {noun}. Nyt laatikossa on jäljellä {n3} {noun}. Kuinka monta {noun} laatikossa oli aluksi?",
+    "{name} ottaa hyllyltä {n2} {noun}. Nyt hyllyllä on jäljellä {n3} {noun}. Kuinka monta {noun} hyllyllä oli aluksi?"
+   ],
+   "people": [
+    "{name} antaa pois {n2} {noun}. Nyt hänellä on jäljellä {n3} {noun}. Kuinka monta {noun} hänellä oli aluksi?"
+   ]
+  }
+ }
+}

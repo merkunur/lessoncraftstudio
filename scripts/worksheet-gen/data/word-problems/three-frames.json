@@ -1,0 +1,58 @@
+{
+ "$comment": "Stories with THREE amounts to add (Year pages R, 2026-11-14; 1.OA.A.2 'word problems that call for addition of three whole numbers whose sum is less than or equal to 20'). All three amounts are told ({n1} {n2} {n3}, each 2 to 9), the total is asked. Slots as in word-problems-levelset.json: {noun} {name}, {Q} = how many, agreeing (es, pt, it), {il} = il / elle of the name (fr). The thing is named after the first amount only, so no frame needs a second form of the noun. Read by a native reader (2026-11-14). Only the three-number story page reads this file.",
+ "en": [
+  "There are {n1} {noun} on the table, {n2} in a box, and {n3} in a basket. How many {noun} are there in all?",
+  "{name} finds {n1} {noun} in the morning, {n2} after lunch, and {n3} in the evening. How many {noun} does {name} find in all?",
+  "{name} has {n1} {noun}. {name} gets {n2} more, and then {n3} more. How many {noun} does {name} have now?"
+ ],
+ "de": [
+  "Auf dem Tisch liegen {n1} {noun}, in einer Kiste {n2} und in einem Korb {n3}. Wie viele {noun} sind es zusammen?",
+  "{name} findet am Morgen {n1} {noun}, am Mittag {n2} und am Abend {n3}. Wie viele {noun} findet {name} insgesamt?",
+  "{name} hat {n1} {noun}. {name} bekommt erst {n2} dazu und dann noch {n3}. Wie viele {noun} hat {name} jetzt?"
+ ],
+ "es": [
+  "Hay {n1} {noun} en la mesa, {n2} en una caja y {n3} en una canasta. ¿{Q} {noun} hay en total?",
+  "{name} encuentra {n1} {noun} en la mañana, {n2} en la tarde y {n3} en la noche. ¿{Q} {noun} encuentra {name} en total?",
+  "{name} tiene {n1} {noun}. Le dan {n2} más y luego {n3} más. ¿{Q} {noun} tiene {name} ahora?"
+ ],
+ "pt": [
+  "Há {n1} {noun} na mesa, {n2} em uma caixa e {n3} em uma cesta. {Q} {noun} há ao todo?",
+  "{name} encontra {n1} {noun} de manhã, {n2} à tarde e {n3} à noite. {Q} {noun} {name} encontra ao todo?",
+  "{name} tem {n1} {noun}. {name} ganha mais {n2} e depois mais {n3}. {Q} {noun} {name} tem agora?"
+ ],
+ "fr": [
+  "Il y a {n1} {noun} sur la table, {n2} dans une boîte et {n3} dans un panier. Combien de {noun} y a-t-il en tout ?",
+  "{name} trouve {n1} {noun} le matin, {n2} l'après-midi et {n3} le soir. Combien de {noun} {name} trouve-t-{il} en tout ?",
+  "{name} a {n1} {noun}. On lui en donne {n2}, puis encore {n3}. Combien de {noun} {name} a-t-{il} maintenant ?"
+ ],
+ "it": [
+  "Ci sono {n1} {noun} sul tavolo, {n2} in una scatola e {n3} in un cesto. {Q} {noun} ci sono in tutto?",
+  "{name} trova {n1} {noun} al mattino, {n2} al pomeriggio e {n3} alla sera. {Q} {noun} trova {name} in tutto?",
+  "{name} ha {n1} {noun}. Ne riceve {n2} e poi ancora {n3}. {Q} {noun} ha {name} adesso?"
+ ],
+ "nl": [
+  "Er liggen {n1} {noun} op tafel, {n2} in een doos en {n3} in een mand. Hoeveel {noun} zijn dat samen?",
+  "{name} vindt 's ochtends {n1} {noun}, 's middags {n2} en 's avonds {n3}. Hoeveel {noun} vindt {name} in totaal?",
+  "{name} heeft {n1} {noun}. {name} krijgt er {n2} bij en daarna nog {n3}. Hoeveel {noun} heeft {name} nu?"
+ ],
+ "sv": [
+  "Det ligger {n1} {noun} på bordet, {n2} i en låda och {n3} i en korg. Hur många {noun} är det sammanlagt?",
+  "{name} hittar {n1} {noun} på morgonen, {n2} efter lunch och {n3} på kvällen. Hur många {noun} hittar {name} sammanlagt?",
+  "{name} har {n1} {noun}. {name} får {n2} till och sedan {n3} till. Hur många {noun} har {name} nu?"
+ ],
+ "da": [
+  "Der ligger {n1} {noun} på bordet, {n2} i en kasse og {n3} i en kurv. Hvor mange {noun} er der i alt?",
+  "{name} finder {n1} {noun} om morgenen, {n2} efter frokost og {n3} om aftenen. Hvor mange {noun} finder {name} i alt?",
+  "{name} har {n1} {noun}. {name} får {n2} flere og så {n3} flere. Hvor mange {noun} har {name} nu?"
+ ],
+ "no": [
+  "Det ligger {n1} {noun} på bordet, {n2} i en eske og {n3} i en kurv. Hvor mange {noun} er det til sammen?",
+  "{name} finner {n1} {noun} om morgenen, {n2} etter lunsj og {n3} om kvelden. Hvor mange {noun} finner {name} til sammen?",
+  "{name} har {n1} {noun}. {name} får {n2} til og så {n3} til. Hvor mange {noun} har {name} nå?"
+ ],
+ "fi": [
+  "Pöydällä on {n1} {noun}, laatikossa {n2} ja korissa {n3}. Kuinka monta {noun} on yhteensä?",
+  "{name} löytää aamulla {n1} {noun}, päivällä {n2} ja illalla {n3}. Kuinka monta {noun} {name} löytää yhteensä?",
+  "{name} saa ensin {n1} {noun}, sitten {n2} ja lopuksi {n3}. Kuinka monta {noun} {name} saa yhteensä?"
+ ]
+}

@@ -4929,8 +4929,28 @@
     "title": "Sachaufgaben: Was ist dazwischen passiert?",
     "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die fehlende Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
   },
+  "G1-569": {
+    "title": "Sachaufgaben: Wie viele waren es am Anfang?",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die fehlende Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G1-570": {
+    "title": "Sachaufgaben mit drei Zahlen",
+    "instruction": "Lies jede Sachaufgabe. Zeichne sie in das Feld. Schreibe die drei Zahlen auf. Suche zuerst zwei Zahlen, die zusammen 10 ergeben, und rechne dann."
+  },
+  "G1-571": {
+    "title": "Finde die Frage: Sachaufgaben bis 20",
+    "instruction": "Lies jede Sachaufgabe. Wenn die Frage fehlt, schreibe eine Frage auf, die du ausrechnen kannst. Schreibe dann die Rechnung und die Antwort auf."
+  },
+  "G1-572": {
+    "title": "Zeichne, rechne, antworte: Sachaufgaben bis 20",
+    "instruction": "Lies jede Sachaufgabe. Zeichne sie in das Feld. Schreibe die Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
   "G2-509": {
     "title": "Sachaufgaben bis 100 mit Streifenmodell",
+    "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
+  },
+  "G2-510": {
+    "title": "Wie viele am Anfang? Sachaufgaben bis 100",
     "instruction": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen."
   }
 }

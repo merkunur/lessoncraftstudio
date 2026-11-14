@@ -6312,7 +6312,65 @@
       "fi": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
     }
   },
+  "G1-569": {
+    "1": {
+      "en": "Read each story. In the bar model, write the two numbers you know and a question mark for the missing number. Write an equation. Then write the answer. The first story is done for you.",
+      "de": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die fehlende Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen. Die erste Aufgabe ist schon gelöst.",
+      "es": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que falta. Escribe una operación. Después escribe la respuesta. El primer problema ya está resuelto.",
+      "pt": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que falta. Escreva uma conta. Depois escreva a resposta. O primeiro probleminha já está resolvido.",
+      "fr": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre manquant. Écris un calcul. Puis écris la réponse. Le premier problème est déjà résolu.",
+      "it": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che manca. Scrivi un'operazione. Poi scrivi la risposta. Il primo problema è già risolto.",
+      "nl": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat ontbreekt. Schrijf een som. Schrijf daarna het antwoord op. De eerste verhaalsom is al gemaakt.",
+      "sv": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet som saknas. Skriv en uträkning. Skriv sedan svaret. Den första räknehändelsen är redan löst.",
+      "da": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, der mangler. Skriv et regnestykke. Skriv så svaret. Den første regnehistorie er allerede løst.",
+      "no": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet som mangler. Skriv et regnestykke. Skriv så svaret. Den første regnefortellingen er allerede løst.",
+      "fi": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki puuttuvan luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
+    }
+  },
+  "G1-570": {
+    "1": {
+      "en": "Read each story. Draw it in the box. Write the three numbers and add.",
+      "de": "Lies jede Sachaufgabe. Zeichne sie in das Feld. Schreibe die drei Zahlen auf und rechne.",
+      "es": "Lee cada problema. Dibújalo en el recuadro. Escribe los tres números y suma.",
+      "pt": "Leia cada probleminha. Desenhe no espaço em branco. Escreva os três números e some.",
+      "fr": "Lis chaque problème. Dessine-le dans le cadre. Écris les trois nombres et calcule.",
+      "it": "Leggi ogni problema. Disegnalo nel riquadro. Scrivi i tre numeri e calcola.",
+      "nl": "Lees elke verhaalsom. Maak er een tekening bij in het vak. Schrijf de drie getallen op en reken uit.",
+      "sv": "Läs varje räknehändelse. Rita den i rutan. Skriv de tre talen och räkna.",
+      "da": "Læs hver regnehistorie. Tegn den i feltet. Skriv de tre tal, og regn.",
+      "no": "Les hver regnefortelling. Tegn den i ruta. Skriv de tre tallene og regn.",
+      "fi": "Lue jokainen tehtävä. Piirrä se ruutuun. Kirjoita kolme lukua ja laske."
+    },
+    "3": {
+      "en": "Read each story. Draw it in the box. Write the three numbers. Look for two numbers that make ten or a double, then add.",
+      "de": "Lies jede Sachaufgabe. Zeichne sie in das Feld. Schreibe die drei Zahlen auf. Suche zuerst zwei Zahlen, die zusammen 10 ergeben, oder zwei gleiche Zahlen, und rechne dann.",
+      "es": "Lee cada problema. Dibújalo en el recuadro. Escribe los tres números. Busca primero dos números que sumen 10 o dos números iguales y después suma.",
+      "pt": "Leia cada probleminha. Desenhe no espaço em branco. Escreva os três números. Procure primeiro dois números que formem 10 ou dois números iguais e depois some.",
+      "fr": "Lis chaque problème. Dessine-le dans le cadre. Écris les trois nombres. Cherche d'abord deux nombres qui font 10 ou un double, puis calcule.",
+      "it": "Leggi ogni problema. Disegnalo nel riquadro. Scrivi i tre numeri. Cerca prima due numeri che fanno 10 oppure due numeri uguali, poi calcola.",
+      "nl": "Lees elke verhaalsom. Maak er een tekening bij in het vak. Schrijf de drie getallen op. Zoek eerst twee getallen die samen 10 zijn of twee dezelfde getallen en reken dan uit.",
+      "sv": "Läs varje räknehändelse. Rita den i rutan. Skriv de tre talen. Leta först efter två tal som blir 10 tillsammans eller två lika tal och räkna sedan.",
+      "da": "Læs hver regnehistorie. Tegn den i feltet. Skriv de tre tal. Find først to tal, der giver 10 tilsammen, eller to ens tal, og regn så.",
+      "no": "Les hver regnefortelling. Tegn den i ruta. Skriv de tre tallene. Finn først to tall som blir 10 til sammen, eller to like tall, og regn så.",
+      "fi": "Lue jokainen tehtävä. Piirrä se ruutuun. Kirjoita kolme lukua. Etsi ensin kaksi lukua, joista tulee yhteensä 10, tai kaksi samaa lukua, ja laske sitten."
+    }
+  },
   "G2-509": {
+    "1": {
+      "en": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer. The first story is done for you.",
+      "de": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen. Die erste Aufgabe ist schon gelöst.",
+      "es": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta. El primer problema ya está resuelto.",
+      "pt": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta. O primeiro probleminha já está resolvido.",
+      "fr": "Lis chaque problème. Dans le schéma en barres, écris les deux nombres que tu connais et un point d'interrogation pour le nombre que tu cherches. Écris un calcul. Puis écris la réponse. Le premier problème est déjà résolu.",
+      "it": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta. Il primo problema è già risolto.",
+      "nl": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op. De eerste verhaalsom is al gemaakt.",
+      "sv": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret. Den första räknehändelsen är redan löst.",
+      "da": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret. Den første regnehistorie er allerede løst.",
+      "no": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret. Den første regnefortellingen er allerede løst.",
+      "fi": "Lue jokainen tehtävä. Kirjoita palkkimalliin kaksi lukua, jotka tiedät, ja kysymysmerkki etsittävän luvun kohdalle. Kirjoita lasku. Kirjoita sitten vastaus. Ensimmäinen tehtävä on jo ratkaistu."
+    }
+  },
+  "G2-510": {
     "1": {
       "en": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer. The first story is done for you.",
       "de": "Lies jede Sachaufgabe. Trage in das Streifenmodell die zwei Zahlen ein, die du kennst, und ein Fragezeichen für die gesuchte Zahl. Schreibe eine Rechnung. Schreibe dann die Antwort in das Kästchen. Die erste Aufgabe ist schon gelöst.",

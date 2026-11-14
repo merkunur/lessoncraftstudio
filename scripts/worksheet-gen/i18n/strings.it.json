@@ -4913,8 +4913,28 @@
     "title": "Problemi: che cosa è successo nel frattempo?",
     "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che manca. Scrivi un'operazione. Poi scrivi la risposta."
   },
+  "G1-569": {
+    "title": "Problemi: quanti erano all'inizio?",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che manca. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G1-570": {
+    "title": "Problemi con tre numeri",
+    "instruction": "Leggi ogni problema. Disegnalo nel riquadro. Scrivi i tre numeri. Cerca prima due numeri che fanno 10, poi calcola."
+  },
+  "G1-571": {
+    "title": "Scrivi la domanda: problemi entro il 20",
+    "instruction": "Leggi ogni problema. Se manca la domanda, scrivine una che si risolve con un'operazione. Poi scrivi l'operazione e la risposta."
+  },
+  "G1-572": {
+    "title": "Disegna, calcola, rispondi: problemi entro il 20",
+    "instruction": "Leggi ogni problema. Disegnalo nel riquadro. Scrivi l'operazione. Poi scrivi la risposta."
+  },
   "G2-509": {
     "title": "Problemi entro il 100 con il modello a barre",
+    "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
+  },
+  "G2-510": {
+    "title": "Quanti erano all'inizio? Problemi entro il 100",
     "instruction": "Leggi ogni problema. Nel modello a barre scrivi i due numeri che conosci e un punto interrogativo per il numero che cerchi. Scrivi un'operazione. Poi scrivi la risposta."
   }
 }

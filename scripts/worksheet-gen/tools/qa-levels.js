@@ -80,7 +80,8 @@ async function themesFor(spec, level, unit) {
                 const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
                 done++;
                 if (fails.length) { bad++; console.log(`FAIL ${base}: ${JSON.stringify(fails).slice(0, 300)}`); }
-                try { fs.unlinkSync(r.pdfPath); fs.unlinkSync(path.join(OUT, base + '.html')); } catch (e) {}
+                // --keep-pdf: the PDFs stay beside the pictures (a text dump for a native reader is made from them)
+                try { if (!process.argv.includes('--keep-pdf')) fs.unlinkSync(r.pdfPath); fs.unlinkSync(path.join(OUT, base + '.html')); } catch (e) {}
               } catch (e) {
                 done++; bad++;
                 console.log(`FAIL ${base}: ${String(e.message || e).slice(0, 200)}`);

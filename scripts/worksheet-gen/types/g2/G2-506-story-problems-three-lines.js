@@ -55,6 +55,16 @@ function draw(kind, rng) {
   const n1 = rng.int(25, 99), n2 = rng.int(11, n1 - 6); return { n1, n2, answer: n1 - n2 };   // compare: how many more
 }
 
+/** numbers within `max` (10 or 20) for the page with small numbers (G1-571): within 20 the larger amount is 11 to 20 */
+function drawSmall(kind, max, rng) {
+  const low = max === 20 ? 11 : 5;
+  if (kind === 'add') { const sum = rng.int(low, max), n1 = rng.int(2, sum - 2); return { n1, n2: sum - n1, answer: sum }; }
+  // two amounts side by side: the first question a 7-year-old writes is "how many in all?", so the SUM stays within
+  // `max` too (19 and 2 gave 21 on a page called "within 20"; native reader 2026-11-14)
+  if (kind === 'compare') { const n1 = rng.int(low, max - 2), n2 = rng.int(2, Math.min(n1 - 2, max - n1)); return { n1, n2, answer: n1 - n2 }; }
+  const n1 = rng.int(low, max), n2 = rng.int(2, n1 - 2); return { n1, n2, answer: n1 - n2 };   // take away
+}
+
 module.exports = {
   id: 'G2-506',
   slug: 'story-problems-question-equation-answer',
@@ -75,8 +85,10 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const L = LABELS[loc]; if (!L) throw new Error(`G2-506: no labels for ${loc}`);
     const fit = Number(ctx.wpFit) || 0;   // a page that ran past the footer is rebuilt one step tighter (cli qaRetries)
-    const pool = W.nounsFor(theme, loc).filter((n) => W.maxFor(n.noun, 100) === 100);
-    if (pool.length < d.kinds.length) throw new Error(`G2-506: theme ${theme}/${loc} has ${pool.length} things that come by the dozen < ${d.kinds.length}`);
+    // d.max (G1-571, numbers within 10 or 20): any thing of the story bank, told in a place or in a child's hands
+    // (no big thing there: a child does not buy 17 pineapples and lose 15 — the engine's test for a thing too big for a basket)
+    const pool = W.nounsFor(theme, loc).filter((n) => (d.max ? W.frameFits('in a basket', n.noun, 'en') : W.maxFor(n.noun, 100) === 100));
+    if (pool.length < d.kinds.length) throw new Error(`${this.id}: theme ${theme}/${loc} has ${pool.length} things that come by the dozen < ${d.kinds.length}`);
     const names = W.namesFor(loc, false);
     let problems = null;
     for (let attempt = 0; attempt < 40; attempt++) {
@@ -89,7 +101,7 @@ module.exports = {
     problems = d.kinds.map((kind, i) => {
       let nums = null;
       for (let t = 0; t < 400; t++) {
-        const n = draw(kind, rng);
+        const n = d.max ? drawSmall(kind, d.max, rng) : draw(kind, rng);
         if ([n.n1, n.n2].includes(n.answer) || n.n1 === n.n2) continue;
         if (drawn.some((q) => q.answer === n.answer || [q.n1, q.n2].sort().join() === [n.n1, n.n2].sort().join() || q.n1 === n.n1 || q.n2 === n.n2)) continue;
         nums = n; break;
@@ -100,7 +112,7 @@ module.exports = {
       // only stories in which the things lie in a PLACE (the first amount is nobody's): the bank's place frames and
       // the frames written for two-digit numbers
       const all = [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((BIG[loc] || {})[kind] || [])]
-        .filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f) && inPlace(f));
+        .filter((f) => f.lastIndexOf('. ') > 0 && /\?\s*$/.test(f) && (d.max || inPlace(f)));
       const list = all.filter((f) => fitsHere(f, noun.noun, loc));
       if (!list.length) throw new Error(`G2-506: no frame of two sentences for ${kind}/${loc}/${noun.noun}`);
       const free = list.filter((f) => !usedFrames.has(f));
@@ -121,7 +133,8 @@ module.exports = {
     // which stories lose their question: drawn, never the same place on every page
     // never a compare story: two amounts side by side take two honest questions (how many more? how many together?),
     // and the second one leaves the hundred; a story in which something comes or goes has one natural question
-    const lost = new Set(rng.sample(problems.map((p, i) => (p.kind === 'compare' ? -1 : i)).filter((i) => i >= 0), d.missing));
+    // (d.anyQuestion, G1-571 level 3: the lesson is "make up a question", so the compare story loses its question too)
+    const lost = new Set(rng.sample(problems.map((p, i) => (p.kind === 'compare' && !d.anyQuestion ? -1 : i)).filter((i) => i >= 0), d.missing));
     const font = 17 - fit, lineH = Math.max(26, 32 - 2 * fit);
     // (the label of a PRINTED question stands on the question's first line: a question of two lines kept its label on
     // the second one, and the first line read as story text — teacher review 2026-11-13)
@@ -139,7 +152,7 @@ module.exports = {
         `${label(L[0], !lost.has(i))}${q}${label(L[1])}${line('data-lcs-eqline', eq)}${label(L[2])}${line(`data-lcs-answer="${p.answer}"`, key ? `<span data-lcs-keytext>${p.answer}</span>` : '')}` +
         `</div></div>`;
     });
-    const bodyHtml = `<div data-ws-content data-lcs-fra-page="${d.missing}" style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:stretch">${cards.join('')}</div>`;
+    const bodyHtml = `<div data-ws-content data-lcs-fra-page="${d.missing}"${d.max ? ` data-lcs-fra-max="${d.max}"` : ''} style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:stretch">${cards.join('')}</div>`;
     return { bodyHtml, meta: { problems: problems.map(({ kind, n1, n2, answer, vocabKey, frame }) => ({ kind, n1, n2, answer, vocabKey, frame })) } };
   },
 
@@ -156,7 +169,9 @@ module.exports = {
         const P = 'story ' + (i + 1);
         const [kind, a, b, ans] = c.dataset.lcsFra.split('|').map((v, k) => (k ? +v : v));
         const want = kind === 'add' ? a + b : a - b;
-        if (want !== ans || ans < 1 || ans > 99 || a < 10 || b < 10 || a > 99) fails.push(`${P}: ${a} and ${b} do not give ${ans} within 100`);
+        const small = +box.dataset.lcsFraMax || 0;
+        if (small) { if (want !== ans || [a, b, ans].some((v) => v < 2 || v > small)) fails.push(`${P}: ${a} and ${b} do not give ${ans} within ${small}`); }
+        else if (want !== ans || ans < 1 || ans > 99 || a < 10 || b < 10 || a > 99) fails.push(`${P}: ${a} and ${b} do not give ${ans} within 100`);
         if (ans === a || ans === b) fails.push(`${P}: the answer is a printed number`);
         if (answers.has(ans)) fails.push(`${P}: an answer twice on the page`); answers.add(ans);
         const story = (c.querySelector('[data-lcs-sentence]') || {}).textContent || '';

@@ -4970,8 +4970,28 @@
     "title": "What Happened in the Middle? Story Problems",
     "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the missing number. Write an equation. Then write the answer."
   },
+  "G1-569": {
+    "title": "How Many at the Start? Story Problems",
+    "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the missing number. Write an equation. Then write the answer."
+  },
+  "G1-570": {
+    "title": "Stories with Three Numbers",
+    "instruction": "Read each story. Draw it in the box. Write the three numbers. Look for two numbers that make ten, then add."
+  },
+  "G1-571": {
+    "title": "Write the Question: Story Problems Within 20",
+    "instruction": "Read each story. If the question is missing, write a question you can answer by adding or subtracting. Then write the equation and the answer."
+  },
+  "G1-572": {
+    "title": "Draw, Solve, Answer: Story Problems Within 20",
+    "instruction": "Read each story. Draw it in the box. Write the equation. Then write the answer."
+  },
   "G2-509": {
     "title": "Story Problems Within 100: Bar Model",
+    "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
+  },
+  "G2-510": {
+    "title": "Find the Start: Story Problems Within 100",
     "instruction": "Read each story. In the bar model, write the two numbers you know and a question mark for the number you need. Write an equation. Then write the answer."
   }
 }

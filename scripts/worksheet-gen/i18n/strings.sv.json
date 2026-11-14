@@ -4881,8 +4881,28 @@
     "title": "Räknehändelser: vad hände i mitten?",
     "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet som saknas. Skriv en uträkning. Skriv sedan svaret."
   },
+  "G1-569": {
+    "title": "Hur många från början? Räknehändelser",
+    "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet som saknas. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G1-570": {
+    "title": "Räknehändelser med tre tal",
+    "instruction": "Läs varje räknehändelse. Rita den i rutan. Skriv de tre talen. Leta först efter två tal som blir 10 tillsammans och räkna sedan."
+  },
+  "G1-571": {
+    "title": "Hitta på frågan: räknehändelser upp till 20",
+    "instruction": "Läs varje räknehändelse. Om frågan saknas skriver du en egen fråga som du kan räkna ut. Skriv sedan uträkningen och svaret."
+  },
+  "G1-572": {
+    "title": "Rita, räkna, svara: räknehändelser upp till 20",
+    "instruction": "Läs varje räknehändelse. Rita den i rutan. Skriv uträkningen. Skriv sedan svaret."
+  },
   "G2-509": {
     "title": "Räknehändelser upp till 100 med blockmodell",
+    "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G2-510": {
+    "title": "Hur många från början? Räknehändelser upp till 100",
     "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två tal du vet och ett frågetecken för talet du söker. Skriv en uträkning. Skriv sedan svaret."
   }
 }

@@ -4927,8 +4927,28 @@
     "title": "Verhaalsommen: wat gebeurde er in het midden?",
     "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat ontbreekt. Schrijf een som. Schrijf daarna het antwoord op."
   },
+  "G1-569": {
+    "title": "Verhaalsommen: hoeveel waren er eerst?",
+    "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat ontbreekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G1-570": {
+    "title": "Verhaalsommen met drie getallen",
+    "instruction": "Lees elke verhaalsom. Maak er een tekening bij in het vak. Schrijf de drie getallen op. Zoek eerst twee getallen die samen 10 zijn en reken dan uit."
+  },
+  "G1-571": {
+    "title": "Bedenk de vraag: verhaalsommen tot 20",
+    "instruction": "Lees elke verhaalsom. Ontbreekt de vraag? Bedenk dan zelf een vraag waarbij je moet rekenen en schrijf die op. Schrijf daarna de som en het antwoord op."
+  },
+  "G1-572": {
+    "title": "Teken, reken, antwoord: verhaalsommen tot 20",
+    "instruction": "Lees elke verhaalsom. Maak er een tekening bij in het vak. Schrijf de som op. Schrijf daarna het antwoord op."
+  },
   "G2-509": {
     "title": "Verhaalsommen tot 100 met het strookmodel",
+    "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
+  },
+  "G2-510": {
+    "title": "Hoeveel waren er eerst? Verhaalsommen tot 100",
     "instruction": "Lees elke verhaalsom. Schrijf in het strookmodel de twee getallen die je weet en een vraagteken voor het getal dat je zoekt. Schrijf een som. Schrijf daarna het antwoord op."
   }
 }

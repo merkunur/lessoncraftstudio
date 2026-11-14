@@ -3,6 +3,8 @@
  *   G1-567  Find the Missing Part              put-together stories, one part unknown        1.OA.A.1
  *   G1-568  What Happened in the Middle?       change stories, the change unknown            1.OA.A.1
  *   G2-509  Story Problems Within 100: Bar Model   end, change or part unknown, two-digit numbers   2.OA.A.1
+ *   G1-569  What Was There at the Start?       change stories, the start unknown (Year pages R, 2026-11-14)
+ *   G2-510  Story Problems Within 100: Find the Start   the start unknown, two-digit numbers   2.OA.A.1
  *
  * Three stories a page. Under each story stand
  *   - an empty BAR MODEL: one long bar (the whole) over two parts. The child writes the two numbers the story tells and
@@ -14,7 +16,8 @@
  * and the teacher note says so).
  *
  * The stories are the native frames of the story-problem engine (lib/word-problems-levelset.js) and, for the
- * put-together stories with a part unknown, data/word-problems/part-frames.json. Stories with two-digit numbers are told
+ * put-together stories with a part unknown, data/word-problems/part-frames.json, and for the stories with the start
+ * unknown, data/word-problems/start-frames.json. Stories with two-digit numbers are told
  * in a PLACE only and keep the rules of fit of G2-506 (53 forks lie in a box, never in a child's hands; berries are not
  * told on a shelf). No two stories of a page share an answer or a pair of numbers, no answer is a number the story
  * prints, every answer is 2 or more, and a child is named in at most one story.
@@ -27,6 +30,8 @@ const W = require('../../lib/word-problems-levelset.js');
 const T = require('../../primitives/_tokens.js').color;
 const { storyFit } = require('../g2/G2-506-story-problems-three-lines.js');
 const PART = require('../../data/word-problems/part-frames.json');
+const START = require('../../data/word-problems/start-frames.json');
+const isStart = (kind) => kind === 'addStart' || kind === 'subStart';
 
 const MINUS = '−';
 /** what a kind of story knows and asks: { whole, parts: [left, right], eq: [a, sign, b, c] } with '?' for the unknown */
@@ -35,6 +40,9 @@ function model(p) {
   if (p.kind === 'part') return { whole: p.n3, parts: [p.n1, q], eq: [p.n1, '+', q, p.n3] };
   if (p.kind === 'addChange') return { whole: p.n3, parts: [p.n1, q], eq: [p.n1, '+', q, p.n3] };
   if (p.kind === 'subChange') return { whole: p.n1, parts: [q, p.n3], eq: [p.n1, MINUS, q, p.n3] };
+  // the start is unknown: some + n2 = n3 (the end is the whole), some − n2 = n3 (the start is the whole)
+  if (p.kind === 'addStart') return { whole: p.n3, parts: [q, p.n2], eq: [q, '+', p.n2, p.n3] };
+  if (p.kind === 'subStart') return { whole: q, parts: [p.n2, p.n3], eq: [q, MINUS, p.n2, p.n3] };
   if (p.kind === 'add') return { whole: q, parts: [p.n1, p.n2], eq: [p.n1, '+', p.n2, q] };
   if (p.kind === 'sub') return { whole: p.n1, parts: [p.n2, q], eq: [p.n1, MINUS, p.n2, q] };
   throw new Error('story-model: unknown kind ' + p.kind);
@@ -42,6 +50,8 @@ function model(p) {
 function answerOf(p) {
   if (p.kind === 'part' || p.kind === 'addChange') return p.n3 - p.n1;
   if (p.kind === 'subChange') return p.n1 - p.n3;
+  if (p.kind === 'addStart') return p.n3 - p.n2;
+  if (p.kind === 'subStart') return p.n2 + p.n3;
   return p.kind === 'add' ? p.n1 + p.n2 : p.n1 - p.n2;
 }
 /** numbers for a story of a kind within `max` (10, 20 or 100): { n1, n2, n3 }. `tens`: whole tens only (10 to 90) */
@@ -50,6 +60,8 @@ function draw(kind, max, rng, tens) {
     const t = (lo, hi) => 10 * rng.int(lo, hi);
     if (kind === 'part' || kind === 'addChange') { const n3 = t(3, 9); return { n1: t(1, n3 / 10 - 1), n2: null, n3 }; }
     if (kind === 'subChange') { const n1 = t(3, 9); return { n1, n2: null, n3: t(1, n1 / 10 - 1) }; }
+    if (kind === 'addStart') { const n3 = t(3, 9); return { n1: null, n2: t(1, n3 / 10 - 1), n3 }; }
+    if (kind === 'subStart') { const w = t(3, 9), n2 = t(1, w / 10 - 1); return { n1: null, n2, n3: w - n2 }; }
     if (kind === 'add') { const n1 = t(1, 8); return { n1, n2: t(1, 9 - n1 / 10), n3: null }; }
     const n1 = t(3, 9); return { n1, n2: t(1, n1 / 10 - 1), n3: null };
   }
@@ -61,6 +73,8 @@ function draw(kind, max, rng, tens) {
     return { n1, n2: null, n3 };
   }
   if (kind === 'subChange') { const n1 = big ? rng.int(31, 99) : rng.int(low, max); const c = rng.int(lo, n1 - lo); return { n1, n2: null, n3: n1 - c }; }
+  if (kind === 'addStart') { const n3 = big ? rng.int(31, 99) : rng.int(low, max); return { n1: null, n2: rng.int(lo, n3 - lo), n3 }; }
+  if (kind === 'subStart') { const w = big ? rng.int(31, 99) : rng.int(low, max), n2 = rng.int(lo, w - lo); return { n1: null, n2, n3: w - n2 }; }
   if (kind === 'add') { const n1 = big ? rng.int(12, 78) : rng.int(2, max - 2); const n2 = rng.int(big ? lo : Math.max(lo, low - n1), (big ? 99 : max) - n1); return { n1, n2, n3: null }; }
   const n1 = big ? rng.int(31, 99) : rng.int(low, max); return { n1, n2: rng.int(lo, n1 - lo), n3: null };
 }
@@ -87,12 +101,15 @@ function makeStoryModelType(o) {
       const big = d.max > 20;
       const fit = Number(ctx.wpFit) || 0;   // a page that ran past the footer is rebuilt one step tighter (cli qaRetries)
       // the things: with two-digit numbers only things that come by the dozen
-      const pool = W.nounsFor(theme, loc).filter((n) => !big || W.maxFor(n.noun, 100) === 100);
+      // (the start-unknown pages, Year pages R, tell no big thing either: nobody brings 5 more watermelons to make 17;
+      // the pages of Year pages Q keep their draw)
+      const pool = W.nounsFor(theme, loc).filter((n) => (!big || W.maxFor(n.noun, 100) === 100) && (!(o.draw || d.kinds.some(isStart)) || W.frameFits('in a basket', n.noun, 'en')));
       if (pool.length < d.kinds.length) throw new Error(`${o.id}: theme ${theme}/${loc} has ${pool.length} things to count < ${d.kinds.length}`);
       const names = W.namesFor(loc, false);
       const framesOf = (kind, noun) => {
         const list = kind === 'part'
           ? [...PART[loc].place, ...(big ? [] : PART[loc].people)]
+          : isStart(kind) ? [...START[loc][kind].place, ...(big ? [] : START[loc][kind].people)]
           : [...W.framesFor(loc, kind).map((f) => W.newFrame(f, loc)), ...((big && storyFit.BIG[loc] && storyFit.BIG[loc][kind]) || [])].filter((f) => !big || storyFit.inPlace(f))
             // with two-digit numbers nothing falls by itself: 45 figs do not fall off a shelf (native reader 2026-11-13);
             // a take-away story is told with somebody who takes
@@ -152,12 +169,16 @@ function makeStoryModelType(o) {
         const eq = `<span data-lcs-eq="${m.eq.join(' ')}" style="flex:0 0 auto;display:flex;align-items:center;gap:7px">${box('data-lcs-eqbox', show(m.eq[0]))}${sign}${box('data-lcs-eqbox', show(m.eq[2]))}${equals}${box('data-lcs-eqbox', show(m.eq[3]))}</span>`;
         const answer = `<span style="flex:0 0 auto;display:flex;align-items:center;gap:8px;min-width:0"><span data-lcs-answer="${p.answer}" style="width:${cell + 14}px;height:${cell}px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;background:${T.white};border:2.5px dashed ${T.grid};border-radius:8px">${worked ? inked(p.answer) : key ? num(p.answer, 'data-lcs-keytext') : ''}</span>` +
           `<span data-lcs-label style="flex:0 0 auto;display:inline-flex">${W.iconImg(theme, p.noun, 32)}</span></span>`;
-        return `<div class="ws-card-stage"${worked ? ' data-lcs-example="1"' : ''} data-lcs-story="${p.kind}|${p.n1}|${p.n2 == null ? '' : p.n2}|${p.n3 == null ? '' : p.n3}|${p.answer}" style="flex:1 0 auto;flex-direction:column;align-items:stretch;justify-content:center;gap:${12 - fit}px;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;padding:12px 20px">` +
+        return `<div class="ws-card-stage"${worked ? ' data-lcs-example="1"' : ''} data-lcs-story="${p.kind}|${p.n1 == null ? '' : p.n1}|${p.n2 == null ? '' : p.n2}|${p.n3 == null ? '' : p.n3}|${p.answer}" style="flex:1 0 auto;flex-direction:column;align-items:stretch;justify-content:center;gap:${12 - fit}px;background:${T.cream};border:2px solid ${T.creamDeep};border-radius:14px;padding:12px 20px">` +
           `<div style="display:flex;align-items:center;gap:14px"><span data-lcs-thing style="flex:0 0 auto;display:inline-flex">${W.iconImg(theme, p.noun, 46)}</span>` +
           `<p style="font-family:'Nunito';font-weight:800;font-size:${font}px;line-height:1.4;color:${T.ink};margin:0" data-lcs-sentence>${p.sentence}</p></div>` +
-          `<div style="display:flex;align-items:center;justify-content:space-between;gap:14px">${bar}${eq}${answer}</div></div>`;
+          // o.draw (G1-572 Draw, Solve, Answer): a large empty box to draw the story in stands where the bar model is
+          (o.draw
+            ? `<div style="flex:1 1 auto;display:flex;align-items:stretch;gap:14px"><div data-lcs-drawbox style="flex:1;min-width:0;background:${T.white};border:2.5px dashed ${T.grid};border-radius:12px;min-height:${Math.max(56, 84 - 12 * fit)}px"></div>` +
+              `<div style="flex:0 0 auto;display:flex;align-items:flex-end;gap:14px">${eq}${answer}</div></div></div>`
+            : `<div style="display:flex;align-items:center;justify-content:space-between;gap:14px">${bar}${eq}${answer}</div></div>`);
       });
-      const bodyHtml = `<div data-ws-content data-lcs-model-page="${d.max}" data-lcs-tens="${d.tens ? 1 : 0}" style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:stretch">${cards.join('')}</div>`;
+      const bodyHtml = `<div data-ws-content data-lcs-model-page="${d.max}" data-lcs-tens="${d.tens ? 1 : 0}"${o.draw ? ' data-lcs-draw="1"' : ''} style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:stretch">${cards.join('')}</div>`;
       return { bodyHtml, meta: { problems: problems.map(({ kind, n1, n2, n3, answer, vocabKey, frame }) => ({ kind, n1, n2, n3, answer, vocabKey, frame })) } };
     },
 
@@ -173,7 +194,7 @@ function makeStoryModelType(o) {
         cards.forEach((c, i) => {
           const P = 'story ' + (i + 1);
           const [kind, a, b, n3, ans] = c.dataset.lcsStory.split('|').map((v, k) => (k ? (v === '' ? null : +v) : v));
-          const want = kind === 'part' || kind === 'addChange' ? n3 - a : kind === 'subChange' ? a - n3 : kind === 'add' ? a + b : a - b;
+          const want = kind === 'part' || kind === 'addChange' ? n3 - a : kind === 'subChange' ? a - n3 : kind === 'addStart' ? n3 - b : kind === 'subStart' ? b + n3 : kind === 'add' ? a + b : a - b;
           if (want !== ans) fails.push(`${P}: the key says ${ans}, the story gives ${want}`);
           const told = [a, b, n3].filter((v) => v != null);
           for (const v of [...told, ans]) if (v < 2 || v > max) fails.push(`${P}: ${v} is outside 2 to ${max}`);
@@ -187,6 +208,13 @@ function makeStoryModelType(o) {
           if (!/[?？]\s*$/.test(story.trim())) fails.push(`${P}: the story does not end with its question`);
           // the bar: the whole is the sum of its parts, with the answer for the question mark
           const val = (v) => (v === '?' ? ans : +v);
+          const drawPage = root.dataset.lcsDraw === '1', drawBox = c.querySelector('[data-lcs-drawbox]');
+          if (drawPage) {
+            // a draw page: a box to draw in where the bar is, and no bar
+            if (c.querySelector('[data-lcs-bar]')) fails.push(`${P}: a bar model on a draw page`);
+            const dr = drawBox ? drawBox.getBoundingClientRect() : null;
+            if (!dr || dr.height < 50 || dr.width < 150) fails.push(`${P}: the drawing box is ${dr ? Math.round(dr.width) + ' by ' + Math.round(dr.height) : 'missing'}`);
+          } else {
           const whole = val(c.querySelector('[data-lcs-whole]').dataset.lcsWhole), parts = [...c.querySelectorAll('[data-lcs-part]')].map((e) => val(e.dataset.lcsPart));
           if (parts.length !== 2 || parts[0] + parts[1] !== whole) fails.push(`${P}: the bar says ${parts.join(' + ')} = ${whole}`);
           { const w = c.querySelector('[data-lcs-whole]').getBoundingClientRect(), pr = [...c.querySelectorAll('[data-lcs-part]')].map((e) => e.getBoundingClientRect());
@@ -194,6 +222,7 @@ function makeStoryModelType(o) {
             if (Math.abs(w.width - (pr[0].width + pr[1].width)) > 3) fails.push(`${P}: the parts are not as long as the whole`); }
           const marks = [c.querySelector('[data-lcs-whole]').dataset.lcsWhole, ...[...c.querySelectorAll('[data-lcs-part]')].map((e) => e.dataset.lcsPart)].filter((v) => v === '?').length;
           if (marks !== 1) fails.push(`${P}: ${marks} unknowns in the bar`);
+          }
           // the equation of the key is true
           const e = c.querySelector('[data-lcs-eq]').dataset.lcsEq.split(' '), x = val(e[0]), y = val(e[2]), z = val(e[3]);
           if ((e[1] === '+' ? x + y : x - y) !== z) fails.push(`${P}: the equation ${e.join(' ')} is not true`);
@@ -206,7 +235,7 @@ function makeStoryModelType(o) {
           const cr = c.getBoundingClientRect();
           c.querySelectorAll('*').forEach((el) => { const r = el.getBoundingClientRect(); if (r.width && (r.right > cr.right + 1 || r.left < cr.left - 1 || r.bottom > cr.bottom + 1 || r.top < cr.top - 1)) fails.push(`${P}: something runs out of it`); });
           // bar, equation and answer stand on ONE line (a wrapped answer box reads as a second task)
-          const row = [c.querySelector('[data-lcs-bar]'), c.querySelector('[data-lcs-eq]'), c.querySelector('[data-lcs-answer]')].map((el) => el.getBoundingClientRect());
+          const row = [drawPage ? drawBox : c.querySelector('[data-lcs-bar]'), c.querySelector('[data-lcs-eq]'), c.querySelector('[data-lcs-answer]')].map((el) => el.getBoundingClientRect());
           if (row[1].top > row[0].bottom || row[2].top > row[0].bottom) fails.push(`${P}: the working line wraps`);
         });
         return [...new Set(fails)];

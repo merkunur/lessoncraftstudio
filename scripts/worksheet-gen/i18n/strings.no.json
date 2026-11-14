@@ -4926,8 +4926,28 @@
     "title": "Regnefortellinger: hva skjedde i midten?",
     "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet som mangler. Skriv et regnestykke. Skriv så svaret."
   },
+  "G1-569": {
+    "title": "Hvor mange fra starten? Regnefortellinger",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet som mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G1-570": {
+    "title": "Regnefortellinger med tre tall",
+    "instruction": "Les hver regnefortelling. Tegn den i ruta. Skriv de tre tallene. Finn først to tall som blir 10 til sammen, og regn så."
+  },
+  "G1-571": {
+    "title": "Lag spørsmålet: regnefortellinger til 20",
+    "instruction": "Les hver regnefortelling. Hvis spørsmålet mangler, skriver du selv et spørsmål som du kan regne ut. Skriv så regnestykket og svaret."
+  },
+  "G1-572": {
+    "title": "Tegn, regn, svar: regnefortellinger til 20",
+    "instruction": "Les hver regnefortelling. Tegn den i ruta. Skriv regnestykket. Skriv så svaret."
+  },
   "G2-509": {
     "title": "Regnefortellinger til 100 med blokkmodell",
+    "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-510": {
+    "title": "Hvor mange fra starten? Regnefortellinger til 100",
     "instruction": "Les hver regnefortelling. Skriv i blokkmodellen de to tallene du vet, og et spørsmålstegn for tallet du skal finne. Skriv et regnestykke. Skriv så svaret."
   }
 }

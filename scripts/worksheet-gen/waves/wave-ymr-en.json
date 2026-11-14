@@ -1,0 +1,366 @@
+{
+  "id": "wave-ymr-en",
+  "_note": "Level Set 2026-11-14: Year pages R (Part 12.2). Five new mathematics picture page types (story problems: the start unknown within 20 and within 100, three numbers to add, write the question, draw and solve), three levels each, for lessons of the year designs.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-569",
+    "G1-570",
+    "G1-571",
+    "G1-572",
+    "G2-510"
+  ],
+  "levels": {
+    "G1-569": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "accessories"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "christmas"
+        },
+        {
+          "copy": 4,
+          "theme": "kitchen bw"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 4,
+          "theme": "bakery"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "fruits"
+        },
+        {
+          "copy": 2,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ]
+    },
+    "G1-570": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 4,
+          "theme": "accessories"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "classroom"
+        },
+        {
+          "copy": 2,
+          "theme": "toys bw"
+        },
+        {
+          "copy": 3,
+          "theme": "kitchen tools"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ]
+    },
+    "G1-571": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "kitchen tools"
+        },
+        {
+          "copy": 2,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "kitchen bw"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits"
+        },
+        {
+          "copy": 3,
+          "theme": "toys bw"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 5,
+          "theme": "Christmas bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "easter"
+        },
+        {
+          "copy": 4,
+          "theme": "kitchen bw"
+        },
+        {
+          "copy": 5,
+          "theme": "toys"
+        }
+      ]
+    },
+    "G1-572": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 2,
+          "theme": "toys bw"
+        },
+        {
+          "copy": 3,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 4,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 2,
+          "theme": "christmas"
+        },
+        {
+          "copy": 3,
+          "theme": "fruits bw"
+        },
+        {
+          "copy": 4,
+          "theme": "kitchen tools"
+        },
+        {
+          "copy": 5,
+          "theme": "toys bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 2,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 3,
+          "theme": "christmas"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ]
+    },
+    "G2-510": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "fruits"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 5,
+          "theme": "toys"
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 2,
+          "theme": "accessories"
+        },
+        {
+          "copy": 3,
+          "theme": "food bw 2"
+        },
+        {
+          "copy": 4,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 5,
+          "theme": "desserts and sweets"
+        }
+      ]
+    }
+  }
+}

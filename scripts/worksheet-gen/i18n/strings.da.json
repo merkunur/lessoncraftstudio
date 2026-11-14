@@ -4907,8 +4907,28 @@
     "title": "Regnehistorier: hvad skete der i midten?",
     "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, der mangler. Skriv et regnestykke. Skriv så svaret."
   },
+  "G1-569": {
+    "title": "Hvor mange fra start? Regnehistorier",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, der mangler. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G1-570": {
+    "title": "Regnehistorier med tre tal",
+    "instruction": "Læs hver regnehistorie. Tegn den i feltet. Skriv de tre tal. Find først to tal, der giver 10 tilsammen, og regn så."
+  },
+  "G1-571": {
+    "title": "Find på spørgsmålet: regnehistorier til 20",
+    "instruction": "Læs hver regnehistorie. Hvis spørgsmålet mangler, skal du selv skrive et spørgsmål, som du kan regne ud. Skriv så regnestykket og svaret."
+  },
+  "G1-572": {
+    "title": "Tegn, regn, svar: regnehistorier til 20",
+    "instruction": "Læs hver regnehistorie. Tegn den i feltet. Skriv regnestykket. Skriv så svaret."
+  },
   "G2-509": {
     "title": "Regnehistorier til 100 med blokmodel",
+    "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
+  },
+  "G2-510": {
+    "title": "Hvor mange fra start? Regnehistorier til 100",
     "instruction": "Læs hver regnehistorie. Skriv i blokmodellen de to tal, du kender, og et spørgsmålstegn for det tal, du skal finde. Skriv et regnestykke. Skriv så svaret."
   }
 }

@@ -4932,8 +4932,28 @@
     "title": "Probleminhas: o que aconteceu no meio?",
     "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que falta. Escreva uma conta. Depois escreva a resposta."
   },
+  "G1-569": {
+    "title": "Probleminhas: quantos havia no começo?",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que falta. Escreva uma conta. Depois escreva a resposta."
+  },
+  "G1-570": {
+    "title": "Probleminhas com três números",
+    "instruction": "Leia cada probleminha. Desenhe no espaço em branco. Escreva os três números. Procure primeiro dois números que formem 10 e depois some."
+  },
+  "G1-571": {
+    "title": "Escreva a pergunta: probleminhas até 20",
+    "instruction": "Leia cada probleminha. Se faltar a pergunta, escreva uma que se resolva com uma conta. Depois escreva a conta e a resposta."
+  },
+  "G1-572": {
+    "title": "Desenhe, calcule, responda: probleminhas até 20",
+    "instruction": "Leia cada probleminha. Desenhe no espaço em branco. Escreva a conta. Depois escreva a resposta."
+  },
   "G2-509": {
     "title": "Probleminhas até 100 com modelo de barras",
+    "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta."
+  },
+  "G2-510": {
+    "title": "Quantos havia no começo? Probleminhas até 100",
     "instruction": "Leia cada probleminha. No modelo de barras, escreva os dois números que você conhece e um ponto de interrogação para o número que você procura. Escreva uma conta. Depois escreva a resposta."
   }
 }

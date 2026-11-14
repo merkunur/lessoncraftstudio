@@ -4922,8 +4922,28 @@
     "title": "Problemas: ¿qué pasó en medio?",
     "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que falta. Escribe una operación. Después escribe la respuesta."
   },
+  "G1-569": {
+    "title": "Problemas: ¿cuántos había al principio?",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que falta. Escribe una operación. Después escribe la respuesta."
+  },
+  "G1-570": {
+    "title": "Problemas con tres números",
+    "instruction": "Lee cada problema. Dibújalo en el recuadro. Escribe los tres números. Busca primero dos números que sumen 10 y después suma."
+  },
+  "G1-571": {
+    "title": "Escribe la pregunta: problemas hasta 20",
+    "instruction": "Lee cada problema. Si falta la pregunta, escribe una que se resuelva con una suma o una resta. Después escribe la operación y la respuesta."
+  },
+  "G1-572": {
+    "title": "Dibuja, calcula, responde: problemas hasta 20",
+    "instruction": "Lee cada problema. Dibújalo en el recuadro. Escribe la operación. Después escribe la respuesta."
+  },
   "G2-509": {
     "title": "Problemas hasta 100 con modelo de barras",
+    "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta."
+  },
+  "G2-510": {
+    "title": "¿Cuántos al principio? Problemas hasta 100",
     "instruction": "Lee cada problema. En el modelo de barras, escribe los dos números que conoces y un signo de interrogación para el número que buscas. Escribe una operación. Después escribe la respuesta."
   }
 }

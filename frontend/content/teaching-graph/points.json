@@ -1290,6 +1290,9 @@
     "G1-513",
     "G1-567",
     "G1-568",
+    "G1-569",
+    "G1-571",
+    "G1-572",
     "K-642"
    ],
    "families": [
@@ -1436,11 +1439,13 @@
    "code": "1.OA.A.2",
    "types": [
     "G1-112",
-    "G1-445"
+    "G1-445",
+    "G1-570"
    ],
    "families": [
     "mental-math",
-    "picture-arithmetic"
+    "picture-arithmetic",
+    "word-problems"
    ],
    "activities": [
     "numberbond.add-three.1-oa-a-2",
@@ -2369,7 +2374,8 @@
    "types": [
     "G2-489",
     "G2-506",
-    "G2-509"
+    "G2-509",
+    "G2-510"
    ],
    "families": [
     "word-problems"

@@ -7876,9 +7876,9 @@
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
    "metaTitle": "Grade 2 Math Lesson Plans: Equal Groups and Equal Shares",
-   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on odd and even, equal groups, arrays, sharing, and halves, thirds, and fourths, with a first look at the multiplication sign.",
-   "days": 22,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on odd and even, equal groups, arrays, rows and columns of squares, sharing, and halves, thirds, and fourths.",
+   "days": 24,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -8063,6 +8063,45 @@
     },
     {
      "n": 4,
+     "point": "2:arrays",
+     "title": "Rows and columns of squares",
+     "objective": "Children divide a rectangle into rows and columns of same-size squares (up to 4 rows and 5 columns) and count the squares by rows.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.G.A.2",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-515",
+       "title": "Rows and Columns of Squares",
+       "core": "arrays-multiplication-g2515",
+       "easy": "arrays-multiplication-easy-g2515-6",
+       "hard": "arrays-multiplication-hard-g2515-11"
+      }
+     ],
+     "id": "2:arrays#rows-and-columns-of-squares",
+     "tool": {
+      "key": "baking-tray",
+      "slug": "baking-tray",
+      "name": "The Baking Tray"
+     },
+     "exit": {
+      "slug": "arrays-multiplication-g2515-2",
+      "title": "Rows and Columns of Squares"
+     },
+     "note": {
+      "mistake": "Children draw the lines freehand, so the squares come out in different sizes, or they draw one line too many. Others mix up rows and columns. When they count, some count the lines they drew, not the squares.",
+      "words": "On The Baking Tray, use the arrow buttons to make 3 rows with 4 in each row. \"Rows go across. How many rows? 3. Columns go up and down. How many columns? 4.\" Count the buns row by row: 4, 8, 12, and write 4 + 4 + 4 = 12. Tap \"Turn the tray\" and ask what changed and what did not (skip the on-screen question about breaking the tray). Now squares instead of buns: give each pair a paper rectangle and square tiles: \"Cover it with no gaps or overlaps. How many rows? How many columns?\" On the board, draw a rectangle with marks on its sides and show how to lay the ruler from one mark to the mark across from it.",
+      "watch": "Every child needs a ruler. On the easier page, one row and one column of squares are already drawn; the child draws the missing lines and writes the number of rows, columns, and squares. On the page for everyone, there are only marks on all four sides: the child joins each mark to the mark across from it, then adds the squares row by row (4 + 4 + 4 = 12). On the harder page, the marks are on two sides only, so the child must line up the ruler with no second mark to aim at. Each box in the addition gets the number of squares in one row; there are as many boxes as rows. Check the drawing before the numbers: crooked lines make squares of different sizes."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "2:skip-count-3-4",
      "title": "Count by threes and fours",
      "objective": "Children skip count by 3 and by 4 and write the missing numbers in each counting row.",
@@ -8125,7 +8164,7 @@
      "days": 3
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:share-and-group",
      "title": "Share fairly and make groups",
      "objective": "Children share a pile equally into bins and write how many each gets, and count how many equal groups a pile makes.",
@@ -8182,7 +8221,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 7,
      "point": "2:equal-shares-shapes",
      "title": "Halves, thirds, and fourths",
      "objective": "Children tell equal parts from unequal parts and color one half, one third, or one fourth of a shape.",
@@ -8247,7 +8286,7 @@
      "days": 3
     },
     {
-     "n": 7,
+     "n": 8,
      "point": "2:fraction-of-a-set",
      "title": "A fraction of a group",
      "objective": "Children circle one half, one third, or one fourth of a group of pictures and write how many that is.",
@@ -9280,9 +9319,9 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, and remainders.",
-   "days": 17,
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on sharing, making groups, fact families, the facts still to learn, hard facts, remainders, and multiplying by tens.",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -9574,6 +9613,53 @@
       "watch": "Check each remainder against the number the pile was divided by: the size of a group on the grouping page, the number of boxes on the sharing page. A remainder of 5 with groups of 4 means one group is still hiding in the leftovers. Remainders are a fourth-grade standard: keep the words \"left over\" and treat this lesson as a first look."
      },
      "days": 3
+    },
+    {
+     "n": 7,
+     "point": "3:times-tables",
+     "title": "Multiply by multiples of 10",
+     "objective": "Children multiply a one-digit number by a multiple of 10 from 20 to 90 (4 × 60) by thinking in tens: 4 × 6 tens = 24 tens = 240.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.NBT.A.3",
+       "title": "Number and Operations in Base Ten"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-491",
+       "title": "Multiply by Multiples of 10",
+       "core": "multiplication-tables-g3491",
+       "easy": "multiplication-tables-easy-g3491-6",
+       "hard": "multiplication-tables-hard-g3491-11"
+      },
+      {
+       "type": "G3-366",
+       "title": "Times Table of 10",
+       "core": "multiplication-tables-g3366",
+       "easy": "multiplication-tables-easy-g3366-4",
+       "hard": "multiplication-tables-hard-g3366-6",
+       "landing": "times-table-of-10"
+      }
+     ],
+     "id": "3:times-tables#multiply-by-tens",
+     "screen": {
+      "kind": "page",
+      "slug": "multiplication-tables-g3366-2",
+      "title": "Times Table of 10"
+     },
+     "exit": {
+      "slug": "multiplication-tables-g3491-2",
+      "title": "Multiply by Multiples of 10"
+     },
+     "note": {
+      "mistake": "Children multiply the digits and leave out the zero, so 4 × 60 becomes 24. Others \"add a zero\" as a trick and cannot say why, and then write 2,400 or 204. In 5 × 40, some write 20: the fact itself ends in zero (5 × 4 = 20), so they think the zero is already there.",
+      "words": "Draw 4 groups of 6 tens rods on the board, or lay them out. \"How many rods are in each group? 6. How many groups? 4. How many rods in all? 4 × 6 = 24. Each rod is a ten, so that is 24 tens. What number is 24 tens?\" Ten rods make 100, so 20 tens are 200, and 4 more tens make 240. Write three lines, one under the other: 4 × 6 = 24, 4 × 6 tens = 24 tens, 4 × 60 = 240. \"What stays the same in every line? What changes?\" Do 5 × 4 tens the same way and ask why the answer has two zeros.",
+      "watch": "Warm up with Times Table of 10; have children read each fact as tens, not \"add a zero\" (3 × 10 is 3 tens, 30). On the easier page of Multiply by Multiples of 10, six pictures show tens rods in equal groups; the child writes how many tens there are and then the product (2 to 5 groups of 2 to 5 tens). On the page for everyone, each of the eight cards has three lines: the basic fact, the same fact in tens, and the product (3 × 7 = 21, 3 × 7 tens = 21 tens, 3 × 70 = 210). On the harder page, there are twelve equations with no help; in six of them the multiple of 10 comes first (70 × 3). Ask a child who writes 21 for 3 × 70 to say the middle line aloud. Watch the facts that end in zero: 5 × 60 is 30 tens, 300."
+     },
+     "days": 2
     }
    ]
   },
@@ -10506,9 +10592,9 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Grade 3 Math Lesson Plans: Fractions",
-   "metaDescription": "A four-week Grade 3 math unit: 8 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
-   "days": 21,
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 3 math unit: 9 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, equivalent fractions, and whole numbers.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -10852,6 +10938,45 @@
     },
     {
      "n": 8,
+     "point": "3:equivalent-fractions",
+     "title": "Whole numbers as fractions",
+     "objective": "Children write whole numbers as fractions (1 = 4/4, 2 = 8/4, 3 = 3/1) and find the fraction and the whole number at the same point on a number line.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "3.NF.A.3.c",
+       "title": "Number and Operations—Fractions"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-492",
+       "title": "Whole Numbers as Fractions",
+       "core": "fractions-g3492",
+       "easy": "fractions-easy-g3492-6",
+       "hard": "fractions-hard-g3492-11"
+      }
+     ],
+     "id": "3:equivalent-fractions#whole-numbers-as-fractions",
+     "tool": {
+      "key": "fraction-kitchen",
+      "slug": "fraction-kitchen",
+      "name": "Fraction Kitchen"
+     },
+     "exit": {
+      "slug": "fractions-g3492-2",
+      "title": "Whole Numbers as Fractions"
+     },
+     "note": {
+      "mistake": "Children think a fraction is always less than 1, so 8/4 looks wrong to them. Others read 4/4 as 4, or write 2 = 2/4 because both numbers are in the problem. Many read 3/1 as one third.",
+      "words": "In Fraction Kitchen, pick Pizza, tap \"fourths,\" and cut. \"How many fourths make the whole pizza? 4.\" Tap \"one whole\" to check, and write 4/4 = 1. Draw a second pizza in fourths on the board: \"Two whole pizzas? 8 fourths: 8/4 = 2.\" Draw a number line from 0 to 3 and mark it in halves. Count the jumps aloud: \"one half, two halves. Two halves land on 1.\" Write 2/2 under the 1, then 4/2 under the 2 and 6/2 under the 3. \"What does the denominator, the bottom number, tell us? How many parts make one whole.\" Finally, hold up three uncut sheets of paper: \"One part makes each whole, so the bottom number is 1. Three parts: 3/1 = 3.\"",
+      "watch": "On the easier page, one, two, or three whole shapes are shaded completely; the child counts all the shaded parts for the top number (the bottom number is printed) and writes how many wholes that is. Each outlined shape is one whole. On the page for everyone, four number lines are marked in equal parts; the child writes the top number of each fraction under its whole number (the bottom number is printed); the first part (such as 1/3) is labeled. Watch for children who count the marks, not the spaces between them. On the harder page, twelve equations have one number missing (6/6 = _, 3 = _/1, 2 = _/4, _/3 = 2). For 2 = _/4 ask: \"How many fourths are in one whole? In two?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 9,
      "point": "3:fraction-of-set",
      "title": "A fraction of a group",
      "objective": "Children circle a fraction of a group of pictures, such as one third of 12, and write how many that is.",
@@ -14786,9 +14911,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (31 Weeks)",
-   "metaDescription": "9 Grade 2 math units in teaching order, about 31 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 31,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (32 Weeks)",
+   "metaDescription": "9 Grade 2 math units in teaching order, about 32 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 32,
    "framework": "Common Core",
    "units": [
     {
@@ -14941,19 +15066,21 @@
      "id": "g2-equal-groups-equal-shares",
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
-     "weeks": 4,
+     "weeks": 5,
      "from": 25,
-     "to": 28,
+     "to": 29,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
       "Rows and columns",
+      "Rows and columns of squares",
       "Count by threes and fours",
       "Share fairly and make groups",
       "Halves, thirds, and fourths",
       "A fraction of a group"
      ],
      "standards": [
+      "2.G.A.2",
       "2.G.A.3",
       "2.OA.C.3",
       "2.OA.C.4"
@@ -14964,8 +15091,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 29,
-     "to": 31,
+     "from": 30,
+     "to": 32,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",
@@ -14987,9 +15114,9 @@
    "grade": "3",
    "subject": "math",
    "title": "Grade 3 Math Scope and Sequence",
-   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (27 Weeks)",
-   "metaDescription": "8 Grade 3 math units in teaching order, about 27 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 27,
+   "metaTitle": "Grade 3 Math Scope and Sequence with Pacing Guide (29 Weeks)",
+   "metaDescription": "8 Grade 3 math units in teaching order, about 29 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 29,
    "framework": "Common Core",
    "units": [
     {
@@ -15039,18 +15166,20 @@
      "id": "g3-division",
      "slug": "division-grade-3-unit",
      "title": "Division",
-     "weeks": 3,
+     "weeks": 4,
      "from": 8,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "Divide by sharing",
       "Divide by hopping back",
       "The missing factor and fact families",
       "The facts we still need",
       "Break a hard fact into two easy ones",
-      "Division with a remainder"
+      "Division with a remainder",
+      "Multiply by multiples of 10"
      ],
      "standards": [
+      "3.NBT.A.3",
       "3.OA.A.2",
       "3.OA.A.4",
       "3.OA.B.6",
@@ -15062,8 +15191,8 @@
      "slug": "story-problems-with-all-four-operations-grade-3-unit",
      "title": "Story Problems with All Four Operations",
      "weeks": 2,
-     "from": 11,
-     "to": 12,
+     "from": 12,
+     "to": 13,
      "lessons": [
       "Multiplication and division word problems",
       "Two-step stories: add and subtract",
@@ -15080,8 +15209,8 @@
      "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
      "title": "Time, Temperature, Mass, and Liquid Volume",
      "weeks": 4,
-     "from": 13,
-     "to": 16,
+     "from": 14,
+     "to": 17,
      "lessons": [
       "Tell time to the minute",
       "How much time passed?",
@@ -15101,8 +15230,8 @@
      "slug": "area-and-perimeter-grade-3-unit",
      "title": "Area and Perimeter",
      "weeks": 4,
-     "from": 17,
-     "to": 20,
+     "from": 18,
+     "to": 21,
      "lessons": [
       "Area: count the squares",
       "Area of a rectangle: multiply the side lengths",
@@ -15125,9 +15254,9 @@
      "id": "g3-fractions",
      "slug": "fractions-grade-3-unit",
      "title": "Fractions",
-     "weeks": 4,
-     "from": 21,
-     "to": 24,
+     "weeks": 5,
+     "from": 22,
+     "to": 26,
      "lessons": [
       "Equal pieces",
       "Name and shade a fraction",
@@ -15136,6 +15265,7 @@
       "Fractions on a number line",
       "Which fraction is greater?",
       "Equivalent fractions: different names, same amount",
+      "Whole numbers as fractions",
       "A fraction of a group"
      ],
      "standards": [
@@ -15144,6 +15274,7 @@
       "3.NF.A.2",
       "3.NF.A.3.a",
       "3.NF.A.3.b",
+      "3.NF.A.3.c",
       "3.NF.A.3.d",
       "3.OA.A.2"
      ]
@@ -15153,8 +15284,8 @@
      "slug": "shapes-and-data-grade-3-unit",
      "title": "Shapes and Data",
      "weeks": 3,
-     "from": 25,
-     "to": 27,
+     "from": 27,
+     "to": 29,
      "lessons": [
       "Right angles",
       "Is it a rectangle?",

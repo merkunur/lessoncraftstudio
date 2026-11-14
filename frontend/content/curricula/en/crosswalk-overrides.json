@@ -624,9 +624,13 @@
     {
      "id": "3.OA.A.1",
      "rel": "teaches"
+    },
+    {
+     "id": "2.G.A.2",
+     "rel": "teaches"
     }
    ],
-   "why": "Matching an array to a multiplication is 3.OA.A.1, which was missing; 2.OA.C.4 only asks for a sum of equal addends.",
+   "why": "Matching an array to a multiplication is 3.OA.A.1, which was missing; 2.OA.C.4 only asks for a sum of equal addends. Rows and Columns of Squares (year design 2026-11-14) has the child cut a rectangle into rows and columns of same-size squares and count them: 2.G.A.2.",
    "review": "review-math"
   },
   "2:share-and-group": {
@@ -784,9 +788,13 @@
     {
      "id": "3.NF.A.3.b",
      "rel": "teaches"
+    },
+    {
+     "id": "3.NF.A.3.c",
+     "rel": "teaches"
     }
    ],
-   "why": "The parent standard also covers comparing fractions; recognising equivalent fractions as the same amount is exactly components 3.NF.A.3.a and 3.NF.A.3.b.",
+   "why": "The parent standard also covers comparing fractions; recognising equivalent fractions as the same amount is exactly components 3.NF.A.3.a and 3.NF.A.3.b. Whole Numbers as Fractions (year design 2026-11-14) writes whole numbers as fractions and finds fractions that are equal to whole numbers (3 = 3/1, 6/1 = 6, 4/4 = 1): 3.NF.A.3.c.",
    "review": "review-math"
   },
   "3:fraction-of-set": {
@@ -2068,6 +2076,20 @@
     }
    ],
    "why": "The column pages add and subtract two two-digit numbers (2.NBT.B.5) and two three-digit numbers (2.NBT.B.7). Add Three and Four Two-Digit Numbers adds three or four two-digit numbers in columns: 2.NBT.B.6. Each lesson of a unit shows the one it teaches.",
+   "review": "year-design 2026-11-14"
+  },
+  "3:times-tables": {
+   "rows": [
+    {
+     "id": "3.OA.C.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "3.NBT.A.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The point carries 3.OA.C.7 for its pages on the multiplication facts. Multiply by Tens multiplies a one-digit number by a multiple of ten from 20 to 90 with the facts and place value (4 × 6 tens = 24 tens = 240): 3.NBT.A.3. Each lesson of a unit shows the one it teaches.",
    "review": "year-design 2026-11-14"
   }
  }

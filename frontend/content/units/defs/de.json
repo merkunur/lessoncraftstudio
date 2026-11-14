@@ -1033,7 +1033,8 @@
      "point": "2:subtract-with-blocks",
      "types": [
       "G2-205"
-     ]
+     ],
+     "tool": null
     },
     {
      "point": "2:column-method",

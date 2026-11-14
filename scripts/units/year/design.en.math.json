@@ -905,7 +905,8 @@
             "days": 2,
             "tool": "The Baking Tray",
             "source": "new",
-            "page": "Top half: four rectangles with tick marks on two sides; the child draws the lines with a ruler to make rows and columns and completes '_ rows, _ columns, _ squares' and an addition of equal rows (4 + 4 + 4 = 12). Bottom half: four rectangles with one row and one column of squares already drawn; the child finishes the grid and counts. Up to 5 rows and 5 columns. In class children first cover a paper rectangle with square tiles."
+            "page": "Top half: four rectangles with tick marks on two sides; the child draws the lines with a ruler to make rows and columns and completes '_ rows, _ columns, _ squares' and an addition of equal rows (4 + 4 + 4 = 12). Bottom half: four rectangles with one row and one column of squares already drawn; the child finishes the grid and counts. Up to 5 rows and 5 columns. In class children first cover a paper rectangle with square tiles.",
+            "placed": "2:arrays#rows-and-columns-of-squares"
           },
           {
             "existing": "2:2d-attributes",
@@ -1152,7 +1153,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: six tasks with a picture of ten-rods in equal groups (4 groups of 6 rods); the child completes 4 x 6 tens = _ tens = _. Bottom half: twelve equations in pairs, the fact and its tens partner (3 x 7 = _, 3 x 70 = _), and two short stories (5 boxes of 40 pencils). One factor is 2 to 9, the other a whole ten from 10 to 90."
+            "page": "Top half: six tasks with a picture of ten-rods in equal groups (4 groups of 6 rods); the child completes 4 x 6 tens = _ tens = _. Bottom half: twelve equations in pairs, the fact and its tens partner (3 x 7 = _, 3 x 70 = _), and two short stories (5 boxes of 40 pencils). One factor is 2 to 9, the other a whole ten from 10 to 90.",
+            "placed": "3:times-tables#multiply-by-tens"
           }
         ]
       },
@@ -1300,7 +1302,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top third: six shapes or groups of whole shapes fully shaded (one circle in fourths, two rectangles in halves); the child writes the fraction and the whole number (4/4 = 1, 4/2 = 2). Middle: three number lines from 0 to 3 marked in halves, thirds and fourths; the child writes the fraction under each whole number. Bottom: eight equations to finish (6/6 = _, 3 = _/1, 2 = _/4). Denominators 1, 2, 3, 4, 6 and 8."
+            "page": "Top third: six shapes or groups of whole shapes fully shaded (one circle in fourths, two rectangles in halves); the child writes the fraction and the whole number (4/4 = 1, 4/2 = 2). Middle: three number lines from 0 to 3 marked in halves, thirds and fourths; the child writes the fraction under each whole number. Bottom: eight equations to finish (6/6 = _, 3 = _/1, 2 = _/4). Denominators 1, 2, 3, 4, 6 and 8.",
+            "placed": "3:equivalent-fractions#whole-numbers-as-fractions"
           },
           {
             "existing": "3:compare-fractions",

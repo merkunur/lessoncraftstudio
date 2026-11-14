@@ -1377,6 +1377,11 @@
      "id": "3.OA.A.1",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "2.G.A.2",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "review"
@@ -1615,9 +1620,14 @@
      "id": "3.OA.C.7",
      "rel": "teaches",
      "grade": "3"
+    },
+    {
+     "id": "3.NBT.A.3",
+     "rel": "teaches",
+     "grade": "3"
     }
    ],
-   "by": "code"
+   "by": "review"
   },
   "3:scaled-graphs": {
    "rows": [
@@ -1897,6 +1907,11 @@
     },
     {
      "id": "3.NF.A.3.b",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "3.NF.A.3.c",
      "rel": "teaches",
      "grade": "3"
     }

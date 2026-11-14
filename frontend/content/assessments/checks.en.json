@@ -2818,14 +2818,14 @@
     },
     {
      "part": 3,
-     "lesson": 6,
+     "lesson": 7,
      "title": "Halves, thirds, and fourths",
      "type": "G2-232",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 7,
+     "lesson": 8,
      "title": "A fraction of a group",
      "type": "G2-233",
      "tasks": 1
@@ -2834,7 +2834,8 @@
    "notCovered": [
     3,
     4,
-    5
+    5,
+    6
    ],
    "forms": {
     "A": {
@@ -3142,6 +3143,13 @@
      "title": "Division with a remainder",
      "type": "G3-377",
      "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 7,
+     "title": "Multiply by multiples of 10",
+     "type": "G3-491",
+     "tasks": 2
     }
    ],
    "notCovered": [
@@ -3162,6 +3170,10 @@
       ],
       [
        "fa6589c1e53b5d62"
+      ],
+      [
+       "1a2538bfc49099b0",
+       "9d09b66d5a50c560"
       ]
      ],
      "pos": [
@@ -3174,6 +3186,10 @@
       ],
       [
        0
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -3186,6 +3202,10 @@
       ],
       [
        "choose 2"
+      ],
+      [
+       "w × w = w × w w = w w × w =",
+       "w × w = w × w w = w w × w ="
       ]
      ],
      "sizes": [
@@ -3198,6 +3218,10 @@
       ],
       [
        23
+      ],
+      [
+       70,
+       50
       ]
      ]
     },
@@ -3213,6 +3237,10 @@
       ],
       [
        "cd84cdcf172cb63b"
+      ],
+      [
+       "cfbc2af7631c9fc3",
+       "52e5d5a473ec94a2"
       ]
      ],
      "pos": [
@@ -3225,6 +3253,10 @@
       ],
       [
        0
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -3237,6 +3269,10 @@
       ],
       [
        "choose 2"
+      ],
+      [
+       "w × w = w × w w = w w × w =",
+       "w × w = w × w w = w w × w ="
       ]
      ],
      "sizes": [
@@ -3249,6 +3285,10 @@
       ],
       [
        23
+      ],
+      [
+       80,
+       40
       ]
      ]
     }
@@ -3587,6 +3627,13 @@
     {
      "part": 7,
      "lesson": 8,
+     "title": "Whole numbers as fractions",
+     "type": "G3-492",
+     "tasks": 1
+    },
+    {
+     "part": 8,
+     "lesson": 9,
      "title": "A fraction of a group",
      "type": "G3-320",
      "tasks": 1
@@ -3610,14 +3657,17 @@
        "c32006415df57646"
       ],
       [
-       "55f71a9a3836ffbc",
-       "b3fd01d68e2e2fce"
+       "edc4e5e13f883a11",
+       "9ab7322dd2f37e4b"
       ],
       [
        "74e4acf9845fcf75"
       ],
       [
        "346417871ad84c5d"
+      ],
+      [
+       "1b28d0048c9a4db3"
       ],
       [
        "350b9503cc33a63e"
@@ -3646,6 +3696,9 @@
       ],
       [
        null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
@@ -3668,6 +3721,9 @@
       ],
       [
        "w w w w ·top"
+      ],
+      [
+       "w w w w w w w"
       ],
       [
        "w w ?"
@@ -3695,6 +3751,9 @@
        6
       ],
       [
+       6
+      ],
+      [
        3
       ]
      ]
@@ -3713,14 +3772,17 @@
        "0faa8f6ac30cc4b1"
       ],
       [
-       "fdc5b97fca60ef2d",
-       "caf866bcdc914f01"
+       "27b29dad73fbe76e",
+       "4693014fa6eb57f0"
       ],
       [
        "23a078571df2a125"
       ],
       [
        "a9a117ce842de56f"
+      ],
+      [
+       "722107dc57c79c0d"
       ],
       [
        "2c18e96bf860ffc9"
@@ -3749,6 +3811,9 @@
       ],
       [
        null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
@@ -3771,6 +3836,9 @@
       ],
       [
        "w w w w ·top"
+      ],
+      [
+       "w w w w w w w"
       ],
       [
        "w w ?"
@@ -3796,6 +3864,9 @@
       ],
       [
        6
+      ],
+      [
+       8
       ],
       [
        3

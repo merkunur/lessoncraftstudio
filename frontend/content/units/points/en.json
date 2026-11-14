@@ -2470,6 +2470,33 @@
     "words": "On the Exchange Machine, tap \"Another sum\" five times, until 38 + 25 appears. Fill the outlines in the ones column: \"8 and 5 make 13. Only one digit fits under the line.\" Tap the ones column: ten gather into one new ten on the left. The machine adds two numbers only, so go to the board. Write 18 + 36 + 24 in columns. \"Look at the ones: 8, 6, 4. Do two of them make ten? 6 and 4. Ten and 8 more is 18.\" Write 8 under the ones and a small 1 above the tens. \"Now the tens: 1 new ten, and 1, 3, 2. That makes 7 tens.\" 78.",
     "watch": "On the easier page, there are six problems with three numbers; the ones make no new ten and there is no small box. On the page for everyone, four problems have three numbers and four have four; in each, two of the ones digits make ten, and one new ten goes in the small box. On the harder page, every problem has four numbers and the ones make one or two new tens (8 + 9 + 6 + 0 = 23: write 3 under the ones and 2 in the small box). When the ones make exactly 20, a 0 goes under the ones. Ask children to say the sum of the ones before they write. Have them check by adding from the bottom up."
    }
+  },
+  "3:times-tables#multiply-by-tens": {
+   "title": "Multiply by multiples of 10",
+   "objective": "Children multiply a one-digit number by a multiple of 10 from 20 to 90 (4 × 60) by thinking in tens: 4 × 6 tens = 24 tens = 240.",
+   "note": {
+    "mistake": "Children multiply the digits and leave out the zero, so 4 × 60 becomes 24. Others \"add a zero\" as a trick and cannot say why, and then write 2,400 or 204. In 5 × 40, some write 20: the fact itself ends in zero (5 × 4 = 20), so they think the zero is already there.",
+    "words": "Draw 4 groups of 6 tens rods on the board, or lay them out. \"How many rods are in each group? 6. How many groups? 4. How many rods in all? 4 × 6 = 24. Each rod is a ten, so that is 24 tens. What number is 24 tens?\" Ten rods make 100, so 20 tens are 200, and 4 more tens make 240. Write three lines, one under the other: 4 × 6 = 24, 4 × 6 tens = 24 tens, 4 × 60 = 240. \"What stays the same in every line? What changes?\" Do 5 × 4 tens the same way and ask why the answer has two zeros.",
+    "watch": "Warm up with Times Table of 10; have children read each fact as tens, not \"add a zero\" (3 × 10 is 3 tens, 30). On the easier page of Multiply by Multiples of 10, six pictures show tens rods in equal groups; the child writes how many tens there are and then the product (2 to 5 groups of 2 to 5 tens). On the page for everyone, each of the eight cards has three lines: the basic fact, the same fact in tens, and the product (3 × 7 = 21, 3 × 7 tens = 21 tens, 3 × 70 = 210). On the harder page, there are twelve equations with no help; in six of them the multiple of 10 comes first (70 × 3). Ask a child who writes 21 for 3 × 70 to say the middle line aloud. Watch the facts that end in zero: 5 × 60 is 30 tens, 300."
+   }
+  },
+  "3:equivalent-fractions#whole-numbers-as-fractions": {
+   "title": "Whole numbers as fractions",
+   "objective": "Children write whole numbers as fractions (1 = 4/4, 2 = 8/4, 3 = 3/1) and find the fraction and the whole number at the same point on a number line.",
+   "note": {
+    "mistake": "Children think a fraction is always less than 1, so 8/4 looks wrong to them. Others read 4/4 as 4, or write 2 = 2/4 because both numbers are in the problem. Many read 3/1 as one third.",
+    "words": "In Fraction Kitchen, pick Pizza, tap \"fourths,\" and cut. \"How many fourths make the whole pizza? 4.\" Tap \"one whole\" to check, and write 4/4 = 1. Draw a second pizza in fourths on the board: \"Two whole pizzas? 8 fourths: 8/4 = 2.\" Draw a number line from 0 to 3 and mark it in halves. Count the jumps aloud: \"one half, two halves. Two halves land on 1.\" Write 2/2 under the 1, then 4/2 under the 2 and 6/2 under the 3. \"What does the denominator, the bottom number, tell us? How many parts make one whole.\" Finally, hold up three uncut sheets of paper: \"One part makes each whole, so the bottom number is 1. Three parts: 3/1 = 3.\"",
+    "watch": "On the easier page, one, two, or three whole shapes are shaded completely; the child counts all the shaded parts for the top number (the bottom number is printed) and writes how many wholes that is. Each outlined shape is one whole. On the page for everyone, four number lines are marked in equal parts; the child writes the top number of each fraction under its whole number (the bottom number is printed); the first part (such as 1/3) is labeled. Watch for children who count the marks, not the spaces between them. On the harder page, twelve equations have one number missing (6/6 = _, 3 = _/1, 2 = _/4, _/3 = 2). For 2 = _/4 ask: \"How many fourths are in one whole? In two?\""
+   }
+  },
+  "2:arrays#rows-and-columns-of-squares": {
+   "title": "Rows and columns of squares",
+   "objective": "Children divide a rectangle into rows and columns of same-size squares (up to 4 rows and 5 columns) and count the squares by rows.",
+   "note": {
+    "mistake": "Children draw the lines freehand, so the squares come out in different sizes, or they draw one line too many. Others mix up rows and columns. When they count, some count the lines they drew, not the squares.",
+    "words": "On The Baking Tray, use the arrow buttons to make 3 rows with 4 in each row. \"Rows go across. How many rows? 3. Columns go up and down. How many columns? 4.\" Count the buns row by row: 4, 8, 12, and write 4 + 4 + 4 = 12. Tap \"Turn the tray\" and ask what changed and what did not (skip the on-screen question about breaking the tray). Now squares instead of buns: give each pair a paper rectangle and square tiles: \"Cover it with no gaps or overlaps. How many rows? How many columns?\" On the board, draw a rectangle with marks on its sides and show how to lay the ruler from one mark to the mark across from it.",
+    "watch": "Every child needs a ruler. On the easier page, one row and one column of squares are already drawn; the child draws the missing lines and writes the number of rows, columns, and squares. On the page for everyone, there are only marks on all four sides: the child joins each mark to the mark across from it, then adds the squares row by row (4 + 4 + 4 = 12). On the harder page, the marks are on two sides only, so the child must line up the ruler with no second mark to aim at. Each box in the addition gets the number of squares in one row; there are as many boxes as rows. Check the drawing before the numbers: crooked lines make squares of different sizes."
+   }
   }
  }
 }

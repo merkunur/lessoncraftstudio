@@ -1751,8 +1751,8 @@
    "subject": "math",
    "title": "Equal Groups and Equal Shares",
    "metaTitle": "Grade 2 Math Lesson Plans: Equal Groups and Equal Shares",
-   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on odd and even, equal groups, arrays, sharing, and halves, thirds, and fourths, with a first look at the multiplication sign.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 2 math unit: 8 lessons on odd and even, equal groups, arrays, rows and columns of squares, sharing, and halves, thirds, and fourths.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:odd-even",
@@ -1773,6 +1773,22 @@
      "types": [
       "G2-211",
       "G2-212"
+     ],
+     "standards": [
+      "2.OA.C.4",
+      "3.OA.A.1"
+     ]
+    },
+    {
+     "point": "2:arrays",
+     "id": "2:arrays#rows-and-columns-of-squares",
+     "types": [
+      "G2-515"
+     ],
+     "tool": "baking-tray",
+     "activity": null,
+     "standards": [
+      "2.G.A.2"
      ]
     },
     {
@@ -1962,6 +1978,9 @@
       "G3-364",
       "G3-365",
       "G3-358"
+     ],
+     "standards": [
+      "3.OA.C.7"
      ]
     },
     {
@@ -1980,8 +1999,8 @@
    "subject": "math",
    "title": "Division",
    "metaTitle": "Grade 3 Math Lesson Plans: Division",
-   "metaDescription": "A three-week Grade 3 math unit: 6 lessons on sharing, making groups, fact families, the facts still to learn, breaking hard facts apart, and remainders.",
-   "weeks": 3,
+   "metaDescription": "A four-week Grade 3 math unit: 7 lessons on sharing, making groups, fact families, the facts still to learn, hard facts, remainders, and multiplying by tens.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:division-sharing",
@@ -2012,7 +2031,10 @@
       "G3-407": 3
      },
      "tool": "folding-wall",
-     "activity": null
+     "activity": null,
+     "standards": [
+      "3.OA.C.7"
+     ]
     },
     {
      "point": "3:times-tables",
@@ -2021,13 +2043,29 @@
       "G3-483"
      ],
      "tool": "baking-tray",
-     "activity": null
+     "activity": null,
+     "standards": [
+      "3.OA.C.7"
+     ]
     },
     {
      "point": "3:division-remainder",
      "types": [
       "G3-377",
       "G3-380"
+     ]
+    },
+    {
+     "point": "3:times-tables",
+     "id": "3:times-tables#multiply-by-tens",
+     "types": [
+      "G3-491",
+      "G3-366"
+     ],
+     "tool": null,
+     "activity": null,
+     "standards": [
+      "3.NBT.A.3"
      ]
     }
    ]
@@ -2226,8 +2264,8 @@
    "subject": "math",
    "title": "Fractions",
    "metaTitle": "Grade 3 Math Lesson Plans: Fractions",
-   "metaDescription": "A four-week Grade 3 math unit: 8 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, and equivalent fractions.",
-   "weeks": 4,
+   "metaDescription": "A five-week Grade 3 math unit: 9 lessons on equal parts, naming fractions, the whole, fractions on a number line, comparing, equivalent fractions, and whole numbers.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "3:partition-equal-areas",
@@ -2280,6 +2318,23 @@
      "types": [
       "G3-318",
       "G3-322"
+     ],
+     "tool": null,
+     "standards": [
+      "3.NF.A.3.a",
+      "3.NF.A.3.b"
+     ]
+    },
+    {
+     "point": "3:equivalent-fractions",
+     "id": "3:equivalent-fractions#whole-numbers-as-fractions",
+     "types": [
+      "G3-492"
+     ],
+     "tool": "fraction-kitchen",
+     "activity": null,
+     "standards": [
+      "3.NF.A.3.c"
      ]
     },
     {

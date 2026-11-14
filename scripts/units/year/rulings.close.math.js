@@ -87,10 +87,11 @@ module.exports = {
     '2-062': U('column subtraction across a zero', 3),
     '2-063': U('count mixed coins, largest first'),
     '2-066': U('a table of counts and an empty picture graph'),
-    '2-068': C('the child draws the rows and columns into an empty rectangle'),
+    '2-068': N('G2-515', 'built: four rectangles the child divides into rows and columns of same-size squares with a ruler, then _ rows, _ columns and an addition of equal rows; one row and one column drawn at level 1, marks on four sides at level 2, on two sides at level 3; up to 4 rows and 5 columns (Rows and Columns of Squares)', 2),
     // Grade 3
     '3-069': N('G3-483', 'built (nothing was close): an array of squares the child cuts between two rows into two known facts (Break Apart a Hard Fact)', 2),
     '3-070': U('the empty 10 by 10 square, filled in the order the teacher gives', 3),
+    '3-071': N('G3-491', 'built (nothing was close): tens rods in equal groups at level 1, the basic fact, the same fact in tens and the product at level 2, twelve bare equations at level 3 (Multiply by Multiples of 10); the two stories of the design are told by the teacher', 2),
     '3-072': N('G3-485', 'built: three two-step stories with three-digit numbers told in a store, a market, by workers who pack and on a delivery truck, the steps printed as a) and b) with a dotted space for the column work (Two-Step Story Problems Within 1,000); three stories for the five of the design, no bar models', 2),
     '3-073': N('G3-486', 'built: three two-step stories in which one step multiplies or divides a fact within 100 (one multiplies first, one divides first, one adds first), the steps printed as a) and b) (Two-Step Story Problems: Multiply and Divide)', 2),
     '3-074': N('G3-487', 'built: two-step stories within 1,000 with the three lines equation with n, estimate, answer; the harder page ends with a finished answer to test against an estimate (Two-Step Stories: Equation, Estimate, Answer); adding and subtracting only', 2),
@@ -98,6 +99,7 @@ module.exports = {
     '3-076': N('G3-489', 'built: L-shapes on a grid (level 1 with the cut drawn, level 2 without) and with side lengths only (level 3), a product for each part and the sum (Area of an L-Shape)', 2),
     '3-077': N('G3-490', 'built: figures drawn to scale with every side length but one and the perimeter, an equation with n and the missing side (Perimeter: Find the Missing Side); figures only, the three stories of the design are not on the page', 2),
     '3-078': N('G3-481', 'built: a dot on a number line from 0 to 1, the child writes its fraction; levels 1 and 2 unit fractions only (What Fraction Is the Dot?)', 2),
+    '3-079': N('G3-492', 'built (nothing was close): fully shaded whole shapes at level 1, four number lines with the fraction to complete under each whole number at level 2, twelve equations at level 3 (Whole Numbers as Fractions); English only', 2),
     '3-080': C('readings to the half and the quarter inch'),
   },
   de: {

@@ -1177,10 +1177,10 @@
    "metaDescription": "Second grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 28,
-    "taught": 22,
+    "taught": 23,
     "near": 2,
-    "open": 4,
-    "lessons": 54
+    "open": 3,
+    "lessons": 55
    },
    "groups": [
     {
@@ -1701,6 +1701,20 @@
        ]
       },
       {
+       "code": "2.G.A.2",
+       "state": "taught",
+       "text": "Children divide a rectangle into rows and columns of same-size squares (up to 4 rows and 5 columns) and count the squares by rows.",
+       "lessons": [
+        {
+         "unit": "equal-groups-and-equal-shares-grade-2-unit",
+         "unitTitle": "Equal Groups and Equal Shares",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Rows and columns of squares"
+        }
+       ]
+      },
+      {
        "code": "2.G.A.3",
        "state": "taught",
        "text": "Children tell equal parts from unequal parts and color one half, one third, or one fourth of a shape.",
@@ -1709,14 +1723,11 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Halves, thirds, and fourths"
         }
        ]
       }
-     ],
-     "open": [
-      "2.G.A.2"
      ]
     }
    ]
@@ -1739,10 +1750,10 @@
    "metaDescription": "Third grade math standards checklist: each Common Core code for the grade, the lessons, worksheets, and activities that teach it, and the codes we do not cover yet.",
    "counts": {
     "objectives": 34,
-    "taught": 26,
+    "taught": 28,
     "near": 1,
-    "open": 7,
-    "lessons": 47
+    "open": 5,
+    "lessons": 49
    },
    "groups": [
     {
@@ -1792,7 +1803,7 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Share fairly and make groups"
         },
         {
@@ -1813,7 +1824,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 8,
+         "n": 9,
          "title": "A fraction of a group"
         }
        ]
@@ -2004,10 +2015,21 @@
          "title": "Add and subtract with regrouping"
         }
        ]
+      },
+      {
+       "code": "3.NBT.A.3",
+       "state": "taught",
+       "text": "Children multiply a one-digit number by a multiple of 10 from 20 to 90 (4 × 60) by thinking in tens: 4 × 6 tens = 24 tens = 240.",
+       "lessons": [
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 7,
+         "title": "Multiply by multiples of 10"
+        }
+       ]
       }
-     ],
-     "open": [
-      "3.NBT.A.3"
      ]
     },
     {
@@ -2084,6 +2106,20 @@
        ]
       },
       {
+       "code": "3.NF.A.3.c",
+       "state": "taught",
+       "text": "Children write whole numbers as fractions (1 = 4/4, 2 = 8/4, 3 = 3/1) and find the fraction and the whole number at the same point on a number line.",
+       "lessons": [
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 8,
+         "title": "Whole numbers as fractions"
+        }
+       ]
+      },
+      {
        "code": "3.NF.A.3.d",
        "state": "taught",
        "text": "Children compare two fractions of the same whole with fraction bars and circle the greater one.",
@@ -2100,8 +2136,7 @@
      ],
      "open": [
       "3.NF.A.2.a",
-      "3.NF.A.2.b",
-      "3.NF.A.3.c"
+      "3.NF.A.2.b"
      ]
     },
     {
@@ -4812,7 +4847,7 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Halves, thirds, and fourths"
         }
        ]
@@ -4847,7 +4882,7 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 6,
+         "n": 7,
          "title": "Halves, thirds, and fourths"
         }
        ]
@@ -5003,7 +5038,7 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Share fairly and make groups"
         }
        ]
@@ -5284,7 +5319,7 @@
     "taught": 30,
     "near": 2,
     "open": 21,
-    "lessons": 47
+    "lessons": 50
    },
    "groups": [
     {
@@ -5429,7 +5464,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 8,
+         "n": 9,
          "title": "A fraction of a group"
         }
        ]
@@ -5445,13 +5480,20 @@
          "unitGrade": "3",
          "n": 7,
          "title": "Equivalent fractions: different names, same amount"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 8,
+         "title": "Whole numbers as fractions"
         }
        ]
       },
       {
        "code": "3.3.G",
        "state": "taught",
-       "text": "Children match a picture to a fraction that shows the same amount, such as one half and two fourths.",
+       "text": "Children write whole numbers as fractions (1 = 4/4, 2 = 8/4, 3 = 3/1) and find the fraction and the whole number at the same point on a number line.",
        "lessons": [
         {
          "unit": "fractions-grade-3-unit",
@@ -5459,6 +5501,13 @@
          "unitGrade": "3",
          "n": 7,
          "title": "Equivalent fractions: different names, same amount"
+        },
+        {
+         "unit": "fractions-grade-3-unit",
+         "unitTitle": "Fractions",
+         "unitGrade": "3",
+         "n": 8,
+         "title": "Whole numbers as fractions"
         }
        ]
       },
@@ -5566,6 +5615,13 @@
          "title": "Rows and columns"
         },
         {
+         "unit": "equal-groups-and-equal-shares-grade-2-unit",
+         "unitTitle": "Equal Groups and Equal Shares",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Rows and columns of squares"
+        },
+        {
          "unit": "starting-multiplication-grade-3-unit",
          "unitTitle": "Starting Multiplication",
          "unitGrade": "3",
@@ -5594,18 +5650,18 @@
          "title": "Rows and columns"
         },
         {
-         "unit": "starting-multiplication-grade-3-unit",
-         "unitTitle": "Starting Multiplication",
-         "unitGrade": "3",
-         "n": 1,
-         "title": "Multiplication as equal groups"
+         "unit": "equal-groups-and-equal-shares-grade-2-unit",
+         "unitTitle": "Equal Groups and Equal Shares",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Rows and columns of squares"
         },
         {
          "unit": "starting-multiplication-grade-3-unit",
          "unitTitle": "Starting Multiplication",
          "unitGrade": "3",
-         "n": 2,
-         "title": "Multiplication hops"
+         "n": 1,
+         "title": "Multiplication as equal groups"
         }
        ]
       },
@@ -5634,6 +5690,13 @@
          "unitGrade": "3",
          "n": 5,
          "title": "Break a hard fact into two easy ones"
+        },
+        {
+         "unit": "division-grade-3-unit",
+         "unitTitle": "Division",
+         "unitGrade": "3",
+         "n": 7,
+         "title": "Multiply by multiples of 10"
         }
        ]
       },
@@ -5646,7 +5709,7 @@
          "unit": "equal-groups-and-equal-shares-grade-2-unit",
          "unitTitle": "Equal Groups and Equal Shares",
          "unitGrade": "2",
-         "n": 5,
+         "n": 6,
          "title": "Share fairly and make groups"
         },
         {
@@ -5660,7 +5723,7 @@
          "unit": "fractions-grade-3-unit",
          "unitTitle": "Fractions",
          "unitGrade": "3",
-         "n": 8,
+         "n": 9,
          "title": "A fraction of a group"
         }
        ]

@@ -289,6 +289,24 @@ const SUB = { userId: 'sub', usable: true, names: true }, SUB2 = { userId: 'sub2
     db.usable.delete('plain');
   }
 
+  // ── the one-time confirmation before a first class (legal decision 2026-11-14, E2) ──
+  {
+    db.usable.add('fresh'); db.unconfirmed.add('fresh');
+    const FRESH = { userId: 'fresh', usable: true };
+    eq((await S.listClasses(db, FRESH)).body.confirmed, false, 'a new teacher has not confirmed');
+    let q = await S.createClass(db, FRESH, { name: 'First', count: 2 }, newCode);
+    eq([q.status, q.body.error, q.body.version], [403, 'confirm_first', S.CONFIRM_VERSION], 'without the confirmation no class is made');
+    eq((await S.createClass(db, FRESH, { name: 'First', count: 2, confirm: 'an-older-text' }, newCode)).status, 403, 'a confirmation of another text does not count');
+    eq((await S.createClass(db, FRESH, { name: '', count: 2, confirm: S.CONFIRM_VERSION }, newCode)).status, 400, 'a class that cannot be made is refused for its own fault');
+    ok(!db.confirmations.has('fresh') && ![...db.classes.values()].some((c) => c.teacherId === 'fresh'), 'and until then nothing is stored: no class, no confirmation');
+    q = await S.createClass(db, FRESH, { name: 'First', count: 2, confirm: S.CONFIRM_VERSION }, newCode, now());
+    eq([q.status, db.confirmations.get('fresh') && db.confirmations.get('fresh').version], [201, S.CONFIRM_VERSION], 'with the confirmation the class is made, and the confirmation is stored with the version of its text');
+    ok(db.confirmations.get('fresh').at instanceof Date, 'and with its date');
+    eq((await S.createClass(db, FRESH, { name: 'Second', count: 1 }, newCode)).status, 201, 'her second class needs no new confirmation');
+    eq((await S.listClasses(db, FRESH)).body.confirmed, true, 'and the list says she has confirmed');
+    db.usable.delete('fresh');
+  }
+
   // numbers-only from the start, a new link key, the class cap
   db.usable.add('sub');
   r = await S.createClass(db, SUB, { name: '2A', namesMode: 'numbers', count: 3, names: 'Max\nLea' }, newCode);

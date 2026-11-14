@@ -189,7 +189,7 @@ function start({ port = 0, seed = false, poisonActivity = false } = {}) {
       const pathname = decodeURIComponent(rawPath);
       const parts = pathname.split('/').filter(Boolean);
       if (parts[0] === '__class') {
-        if (parts[1] === 'as') { const w = query.get('who'); if (['sub', 'free', 'anon'].includes(w)) state.who = w; if (query.has('names')) state.names = query.get('names') !== '0'; if (state.who === 'sub') usable.add(TEACHER); else usable.delete(TEACHER); return send(res, 200, { who: state.who }); }
+        if (parts[1] === 'as') { const w = query.get('who'); if (['sub', 'free', 'anon'].includes(w)) state.who = w; if (query.has('names')) state.names = query.get('names') !== '0'; if (query.has('confirmed')) { if (query.get('confirmed') === '0') { db.unconfirmed.add(TEACHER); db.confirmations.delete(TEACHER); } else db.unconfirmed.delete(TEACHER); } if (state.who === 'sub') usable.add(TEACHER); else usable.delete(TEACHER); return send(res, 200, { who: state.who }); }
         if (parts[1] === 'clock') { state.skew += (Number(query.get('hours')) || 0) * 3600 * 1000; return send(res, 200, { now: now().toISOString() }); }
         if (parts[1] === 'state') return send(res, 200, { who: state.who, now: now().toISOString(), classes: [...db.classes.values()], seats: [...db.seats.values()], assignments: [...db.assignments.values()], attempts: [...db.attempts.values()] });
         if (parts[1] === 'teacher-app.js') { const f = path.join(OUT, 'teacher-app.js'); return fs.existsSync(f) ? send(res, 200, fs.readFileSync(f, 'utf8'), { 'content-type': 'text/javascript; charset=utf-8' }) : send(res, 404, 'not built', { 'content-type': 'text/plain' }); }

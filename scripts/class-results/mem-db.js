@@ -18,12 +18,16 @@ function memDb(opt) {
   let k = 0; const id = (p) => p + String(++k).padStart(9, '0');
   const classes = new Map(), seats = new Map(), assignments = new Map(), attempts = new Map();
   const usable = opt.usable || new Set(['sub', 'sub2']);
+  // the one-time confirmation: every teacher counts as having confirmed, except those named in `unconfirmed`
+  const confirmations = new Map(), unconfirmed = new Set(opt.unconfirmed || []);
   const decks = opt.decks || { 'en/count-k002': { title: 'Count the Animals', interactive: true }, 'en/trace-k100': { title: 'Trace the Lines', interactive: false } };
   const ladders = opt.ladders || { 'en/k002': { code: 'k002', title: 'Count and Write', levels: { easy: ['e1', 'e2'], core: ['c1', 'c2', 'c3'], hard: ['h1', 'h2'] } }, 'en/k100': { code: 'k100', title: 'Tracing', levels: { easy: [], core: [], hard: [] } }, 'en/k300': { code: 'k300', title: 'Two levels', levels: { easy: [], core: ['c1', 'c2'], hard: [] } } };
   const makers = opt.makers || { abcdefghjkmn: { teacherId: 'sub', title: 'My number bonds' } };
   const copy = (x) => (x ? JSON.parse(JSON.stringify(x)) : x);
   const db = {
-    usable, classes, seats, assignments, attempts,
+    usable, classes, seats, assignments, attempts, confirmations, unconfirmed,
+    async hasConfirmed(t, version) { return confirmations.has(t) ? confirmations.get(t).version === version : !unconfirmed.has(t); },
+    async saveConfirmation(t, version, at) { confirmations.set(t, { version, at }); },
     async listClasses(t) { return [...classes.values()].filter((c) => c.teacherId === t).map((c) => ({ id: c.id, name: c.name, code: c.code, namesMode: c.namesMode, locale: c.locale, seats: [...seats.values()].filter((s) => s.classId === c.id).length, assignments: [...assignments.values()].filter((a) => a.classId === c.id).length, lastUsedAt: c.lastUsedAt })); },
     async countClasses(t) { return [...classes.values()].filter((c) => c.teacherId === t).length; },
     async createClass(t, c) { const r = { id: id('c'), teacherId: t, ...c, lastUsedAt: new Date(0).toISOString(), createdAt: new Date(0).toISOString() }; classes.set(r.id, r); return copy(r); },

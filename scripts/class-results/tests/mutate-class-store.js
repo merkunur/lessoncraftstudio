@@ -20,7 +20,7 @@ fs.mkdirSync(TMP, { recursive: true });
 const src = fs.readFileSync(SRC, 'utf8').replace(/\r\n/g, '\n');
 
 const M = [
-  ['a free account can make a class', "  if (!me.usable) return SUBSCRIBE;\n  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown } | null;", "  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown } | null;"],
+  ['a free account can make a class', "  if (!me.usable) return SUBSCRIBE;\n  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown; confirm?: unknown } | null;", "  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown; confirm?: unknown } | null;"],
   ["any teacher owns any class", 'return c && c.teacherId === me.userId ? c : null;', 'return c ? c : null;'],
   ['one wrong of four counts as almost all right', '(total >= 5 && wrong <= 1)', '(wrong <= 1)'],
   ['"several wrong" starts lower', 'wrong >= 2 && right / total < 0.6', 'wrong >= 2 && right / total < 0.5'],
@@ -37,6 +37,10 @@ const M = [
   ['a teacher without the permission switches a class to names', "if (patch.namesMode === 'names' && me.names !== true) return NAMES_OFF;", ''],
   ['a seat takes a name without the permission', "    if (me.names !== true) return NAMES_OFF;", ''],
   ['a names class takes a new name without the permission', "  if (c.namesMode === 'names' && me.names !== true) return NAMES_OFF;", ''],
+  // the one-time confirmation (legal decision 2026-11-14, E2)
+  ['a class is made without the confirmation', "  if (!confirmed && b.confirm !== CONFIRM_VERSION) return json(403, { error: 'confirm_first', version: CONFIRM_VERSION });", ''],
+  ['a confirmation of any text counts', 'if (!confirmed && b.confirm !== CONFIRM_VERSION) return', 'if (!confirmed && !b.confirm) return'],
+  ['the confirmation is not stored', '  if (!confirmed) await db.saveConfirmation(me.userId, CONFIRM_VERSION, now);', ''],
   ['a numbers-only class shows names', "name: mode === 'names' ? s.displayName : null,", 'name: s.displayName,'],
   ['switching to numbers keeps the names', '  if (toNumbers) await db.clearSeatNames(c.id);\n', '\n'],
   ['a print-only deck can be assigned', "    if (!d.interactive) return json(422, { error: 'print_only' });\n", '\n'],

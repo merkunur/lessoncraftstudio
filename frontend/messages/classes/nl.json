@@ -156,5 +156,10 @@
   "reportIntro": "Deze pagina laat zien wat uw kind in de klas op het scherm heeft geoefend en hoe de eerste poging ging. Het is één van de vele signalen, geen cijfer.",
   "reportHeadSkill": "Wat er is geoefend",
   "reportHeadResult": "Hoe het ging",
-  "reportDate": "Stand per {date}"
+  "reportDate": "Stand per {date}",
+  "formNameHelp": "Zet hier geen naam van een kind.",
+  "confirmText": "Ik bevestig: (1) Ik gebruik klaslinks om les te geven. Mijn school staat toe dat ik online hulpmiddelen gebruik waarin kinderen onder een nummer werken, of ik geef bijles of ben een ouder en beslis dit zelf. (2) Ik zet geen naam van een kind en geen andere persoonlijke gegevens in de naam van de klas. (3) Ik heb het onderdeel ‘Klassen en resultaten’ van de privacyverklaring gelezen en ga akkoord met de voorwaarden voor gegevensverwerking voor klassen.",
+  "confirmPrivacy": "Privacyverklaring: Klassen en resultaten",
+  "confirmTerms": "Voorwaarden voor gegevensverwerking voor klassen",
+  "errConfirm": "Vink eerst de bevestiging aan."
 }

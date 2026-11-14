@@ -156,5 +156,10 @@
   "reportIntro": "Esta página mostra o que seu filho ou sua filha praticou na tela, em sala de aula, e como foi a primeira tentativa. É um sinal entre muitos, não uma nota.",
   "reportHeadSkill": "O que foi praticado",
   "reportHeadResult": "Como foi",
-  "reportDate": "Situação em {date}"
+  "reportDate": "Situação em {date}",
+  "formNameHelp": "Não escreva aqui o nome de uma criança.",
+  "confirmText": "Confirmo: (1) Uso os links de turma para ensinar. Minha escola permite que eu use ferramentas online em que as crianças trabalham com um número, ou dou aulas particulares ou sou responsável por uma criança e decido isso por conta própria. (2) Não vou escrever o nome de uma criança nem outros dados pessoais no nome da turma. (3) Li a seção “Turmas e resultados” da política de privacidade e aceito as condições de tratamento de dados para turmas.",
+  "confirmPrivacy": "Política de privacidade: Turmas e resultados",
+  "confirmTerms": "Condições de tratamento de dados para turmas",
+  "errConfirm": "Marque primeiro a confirmação."
 }

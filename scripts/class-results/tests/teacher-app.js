@@ -327,6 +327,24 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
       check('and the server refuses the switch when it is asked directly', refused.error === 'names_off', refused);
       check('without the permission: no script error', !n.errors.length, n.errors);
       await n.page.close();
+      // ── a teacher who has not confirmed yet: the tick stands in the form, and without it no class is made ──
+      await fetch(base + '/__class/as?who=sub&names=0&confirmed=0');
+      const k = await open(1280);
+      await k.page.click('[data-act=new]'); await k.page.waitForSelector('[data-form=new]');
+      const links = await k.page.$$eval('[data-confirm-terms] a', (a) => a.map((x) => x.getAttribute('href') + ' ' + x.textContent));
+      check('before her first class the form shows the confirmation and the two documents it names', (await k.page.$('#lcsc-confirm')) !== null && (await text(k.page, '[data-confirm-terms]')).includes(EN.confirmText) && JSON.stringify(links) === JSON.stringify(['/en/privacy#classes ' + EN.confirmPrivacy, '/en/class-terms ' + EN.confirmTerms]), links);
+      check('the class-name field says not to put a child\'s name there', (await text(k.page, '[data-name-help]')) === EN.formNameHelp);
+      await k.page.type('#lcsc-name', 'Confirmed class'); await k.page.type('#lcsc-count', '2');
+      await clickText(k.page, EN.formCreate); await sleep(300);
+      check('without the tick: refused in words, and no class is made', (await err(k.page)) === EN.errConfirm && ![...db.classes.values()].some((c) => c.name === 'Confirmed class'), await err(k.page));
+      await k.page.click('#lcsc-confirm'); await clickText(k.page, EN.formCreate); await k.page.waitForSelector('[data-tab=work]');
+      check('with the tick the class is made and the confirmation is stored', [...db.classes.values()].some((c) => c.name === 'Confirmed class') && db.confirmations.has(teacher), [...db.confirmations.keys()]);
+      await k.page.goto(base + '/teacher', { waitUntil: 'networkidle0' }); await k.page.waitForSelector('[data-act=new]');
+      await k.page.click('[data-act=new]'); await k.page.waitForSelector('[data-form=new]');
+      check('for her next class the form asks for no confirmation', (await k.page.$('#lcsc-confirm')) === null && (await k.page.$('[data-name-help]')) !== null);
+      check('not yet confirmed: no script error', !k.errors.length, k.errors);
+      await k.page.close();
+      await fetch(base + '/__class/as?who=sub&confirmed=1');
       await fetch(base + '/__class/as?who=sub&names=1');
     }
     check('no script error on the teacher screen', !errors.length, errors);

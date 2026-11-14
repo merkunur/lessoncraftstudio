@@ -54,6 +54,13 @@ export const prismaClassDb: ClassDb = {
     });
     return rows.map((c) => ({ id: c.id, name: c.name, code: c.code, namesMode: c.namesMode as NamesMode, locale: c.locale, seats: c._count.seats, assignments: c._count.assignments, lastUsedAt: c.lastUsedAt.toISOString() }));
   },
+  async hasConfirmed(teacherId, version) {
+    const r = await prisma.classTeacherConfirmation.findUnique({ where: { teacherId }, select: { textVersion: true } });
+    return !!r && r.textVersion === version;
+  },
+  async saveConfirmation(teacherId, version, now) {
+    await prisma.classTeacherConfirmation.upsert({ where: { teacherId }, create: { teacherId, textVersion: version, confirmedAt: now }, update: { textVersion: version, confirmedAt: now } });
+  },
   countClasses(teacherId) {
     return prisma.classroom.count({ where: { teacherId } });
   },

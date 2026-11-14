@@ -87,6 +87,7 @@ model User {
   makerRecipes       MakerRecipe[]
   makerShareLinks    MakerShareLink[]
   classrooms         Classroom[]
+  classConfirmation  ClassTeacherConfirmation?
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1645,4 +1646,17 @@ model ClassAttempt {
   @@index([assignmentId, seatId])
   @@index([seatId])
   @@map("class_attempts")
+}
+
+// The teacher's one-time confirmation before her first class (legal decision of 2026-11-14, condition E2): who, when,
+// and which version of the text. A NEW table; no existing table changes. Goes with the teacher's account (cascade).
+model ClassTeacherConfirmation {
+  id          String   @id @default(cuid())
+  teacherId   String   @unique @map("teacher_id")
+  textVersion String   @map("text_version") @db.VarChar(16)
+  confirmedAt DateTime @default(now()) @map("confirmed_at")
+
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@map("class_teacher_confirmations")
 }

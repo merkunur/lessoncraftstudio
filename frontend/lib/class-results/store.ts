@@ -141,6 +141,9 @@ export interface ClassListItem {
 export interface ClassDb {
   listClasses(teacherId: string): Promise<ClassListItem[]>;
   countClasses(teacherId: string): Promise<number>;
+  /** has this teacher confirmed the text of THIS version? (the one-time confirmation before a first class) */
+  hasConfirmed(teacherId: string, version: string): Promise<boolean>;
+  saveConfirmation(teacherId: string, version: string, now: Date): Promise<void>;
   createClass(teacherId: string, c: { name: string; code: string; namesMode: NamesMode; locale: string }): Promise<ClassRow>;
   getClass(id: string): Promise<ClassRow | null>;
   /** the class behind a link with whether its teacher may use paid features NOW (isSubscriptionUsable) */
@@ -196,6 +199,10 @@ export type Caller = { userId: string; usable: boolean; names?: boolean } | null
 
 const json = (status: number, body: unknown): Reply => ({ status, body });
 const NAMES_OFF: Reply = { status: 403, body: { error: 'names_off' } };
+/** The version of the confirmation text a teacher ticks before her first class (messages/classes `confirmText`; legal
+ *  decision of 2026-11-14, condition E2). A change of what the text SAYS gets a new version: every teacher is then
+ *  asked once more. */
+export const CONFIRM_VERSION = '2026-11-14';
 const iso = (d: Date | string) => (typeof d === 'string' ? d : d.toISOString());
 const ms = (d: Date | string) => (typeof d === 'string' ? Date.parse(d) : d.getTime());
 const HOUR = 3600 * 1000;
@@ -404,13 +411,13 @@ function seatsFrom(body: { names?: unknown; count?: unknown }, mode: NamesMode, 
 
 export async function listClasses(db: ClassDb, me: Caller): Promise<Reply> {
   if (!me) return SIGNIN;
-  return json(200, { items: await db.listClasses(me.userId), canEdit: me.usable, names: me.names === true });
+  return json(200, { items: await db.listClasses(me.userId), canEdit: me.usable, names: me.names === true, confirmed: await db.hasConfirmed(me.userId, CONFIRM_VERSION), confirmVersion: CONFIRM_VERSION });
 }
 
-export async function createClass(db: ClassDb, me: Caller, body: unknown, newCode: () => string): Promise<Reply> {
+export async function createClass(db: ClassDb, me: Caller, body: unknown, newCode: () => string, now: Date = new Date()): Promise<Reply> {
   if (!me) return SIGNIN;
   if (!me.usable) return SUBSCRIBE;
-  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown } | null;
+  const b = body as { name?: unknown; namesMode?: unknown; locale?: unknown; names?: unknown; count?: unknown; confirm?: unknown } | null;
   if (!b || typeof b !== 'object') return json(400, { error: 'bad_json' });
   const name = cleanClassName(b.name);
   if (!name) return json(400, { error: 'bad_name' });
@@ -420,8 +427,12 @@ export async function createClass(db: ClassDb, me: Caller, body: unknown, newCod
   const s = seatsFrom(b, namesMode, 1, new Set());
   if ('status' in s) return s;
   if ((await db.countClasses(me.userId)) >= CLASSES_PER_TEACHER) return json(429, { error: 'class_cap', cap: CLASSES_PER_TEACHER });
+  // the one-time confirmation: asked of a class that could be made, stored with the class it comes with
+  const confirmed = await db.hasConfirmed(me.userId, CONFIRM_VERSION);
+  if (!confirmed && b.confirm !== CONFIRM_VERSION) return json(403, { error: 'confirm_first', version: CONFIRM_VERSION });
   const code = newCode();
   if (!CODE_RE.test(code)) throw new Error('newCode must return 10 chars of CODE_ALPHABET');
+  if (!confirmed) await db.saveConfirmation(me.userId, CONFIRM_VERSION, now);
   const cls = await db.createClass(me.userId, { name, code, namesMode, locale });
   if (s.seats.length) await db.createSeats(cls.id, s.seats);
   return json(201, { id: cls.id, code: cls.code, seats: s.seats.length, refused: s.refused });

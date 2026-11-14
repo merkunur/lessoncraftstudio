@@ -191,9 +191,10 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
 
   let dead = false;
   let timer: ReturnType<typeof setInterval> | null = null;
-  const st: { view: 'list' | 'class' | 'new'; id: string | null; tab: Tab; mode: 'child' | 'level'; setId: string | null; openSeat: string | null; usable: boolean; signedIn: boolean; names: boolean } =
+  const st: { view: 'list' | 'class' | 'new'; id: string | null; tab: Tab; mode: 'child' | 'level'; setId: string | null; openSeat: string | null; usable: boolean; signedIn: boolean; names: boolean; confirmed: boolean; confirmVersion: string } =
+    // confirmed: has she ticked the confirmation of today's text? Until the server says yes, the form asks for it.
     // names: may this teacher keep first names? The server says so with every list and every class; until it does, no.
-    { view: 'list', id: null, tab: 'results', mode: 'child', setId: null, openSeat: null, usable: o.usable, signedIn: o.signedIn, names: false };
+    { view: 'list', id: null, tab: 'results', mode: 'child', setId: null, openSeat: null, usable: o.usable, signedIn: o.signedIn, names: false, confirmed: false, confirmVersion: '' };
 
   if (!document.getElementById('lcsc-style')) document.head.append(h('style', { id: 'lcsc-style', text: CLASSES_CSS }));
   root.classList.add('lcsc');
@@ -210,6 +211,7 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
   const errorText = (r: { status: number; body: any }): string => { // eslint-disable-line @typescript-eslint/no-explicit-any
     const e = r.body && r.body.error;
     if (e === 'bad_name') return t('errClassName');
+    if (e === 'confirm_first') return t('errConfirm');
     if (e === 'seat_cap') return t('errSeatCap', { n: SEATS_PER_CLASS });
     if (e === 'class_cap') return t('errClassCap', { n: CLASSES_PER_TEACHER });
     if (e === 'no_names') return t('errNoNames');
@@ -412,6 +414,8 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     const items: ListItem[] = r.body.items || [];
     st.usable = !!r.body.canEdit; // what the server lets this account do, not what the page assumed
     st.names = r.body.names === true;
+    st.confirmed = r.body.confirmed === true;
+    st.confirmVersion = typeof r.body.confirmVersion === 'string' ? r.body.confirmVersion : '';
     const kids: Kid[] = [header()];
     if (!st.usable && !items.length) { kids.push(planCard(), demoCard()); show(...kids); return; }
     if (!st.usable) kids.push(h('p', { class: 'c-banner', 'data-lapsed': '', text: t('lapsedBanner') }));
@@ -457,23 +461,33 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
       h('span', null, h('b', { text: title }), h('span', { class: 'c-muted', text: help })));
     const msg = h('p', { class: 'c-err', role: 'alert' });
     const go = h('button', { type: 'submit', class: 'c-primary', text: t('formCreate') }) as HTMLButtonElement;
+    // before her first class: the confirmation, with the two documents it names (shown until the server has it)
+    const tick = h('input', { type: 'checkbox', id: 'lcsc-confirm' }) as HTMLInputElement;
+    const confirmBox = st.confirmed ? null : h('label', { class: 'c-radio', 'data-confirm-terms': 'tick', style: 'margin-top:14px' }, tick,
+      h('span', null, h('span', { text: t('confirmText') }), h('span', { style: 'display:block;margin-top:6px' },
+        h('a', { href: '/' + o.locale + '/privacy#classes', target: '_blank', rel: 'noopener', text: t('confirmPrivacy') }), ' · ',
+        h('a', { href: '/' + o.locale + '/class-terms', target: '_blank', rel: 'noopener', text: t('confirmTerms') }))));
     const form = h('form', { class: 'c-card', 'data-form': 'new', novalidate: true, onsubmit: async (ev: Event) => {
       ev.preventDefault();
       msg.textContent = '';
       const f = fields.read();
       if (mode === 'numbers' && !((f.count as number) >= 1 && (f.count as number) <= SEATS_PER_CLASS)) { msg.textContent = t('errCount', { n: SEATS_PER_CLASS }); return; }
+      if (!st.confirmed && !tick.checked) { msg.textContent = t('errConfirm'); return; }
       go.disabled = true;
-      const r = await api('POST', '/api/classes', Object.assign({ name: name.value, namesMode: mode, locale: lang.value }, f));
+      const r = await api('POST', '/api/classes', Object.assign({ name: name.value, namesMode: mode, locale: lang.value }, st.confirmed ? {} : { confirm: st.confirmVersion }, f));
       go.disabled = false;
       if (dead) return;
       if (r.status !== 201) { msg.textContent = errorText(r); return; }
+      st.confirmed = true;
       await openClass(r.body.id, r.body.seats ? 'work' : 'children', r.body.refused && r.body.refused.length ? t('refused', { list: r.body.refused.join(', ') }) : '');
     } },
       h('h2', { text: t('newClass') }),
       h('label', { for: 'lcsc-name', text: t('formName') }), name,
+      h('p', { class: 'c-muted', style: 'margin:4px 0 0', 'data-name-help': 'class', text: t('formNameHelp') }),
       st.names ? h('fieldset', { style: 'border:0;padding:0;margin:14px 0 0' }, h('legend', { style: 'font-weight:700;padding:0', text: t('formKind') }), radio('numbers', t('formNumbers'), t('formNumbersHelp')), radio('names', t('formNames'), t('formNamesHelp'))) : null,
       slot,
       h('label', { for: 'lcsc-lang', text: t('formLanguage') }), lang,
+      confirmBox,
       msg,
       h('div', { class: 'c-row', style: 'margin-top:14px' }, go, h('button', { type: 'button', text: t('cancel'), onclick: () => { void list(); } })),
       h('p', { class: 'c-muted', style: 'margin-top:14px', text: t('privacyNote') }));

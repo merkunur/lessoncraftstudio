@@ -156,5 +156,10 @@
   "reportIntro": "Sidan visar vad ditt barn har övat på i klassrummet, på skärm, och hur det gick på första försöket. Det är en fingervisning bland många, inget omdöme om ditt barn.",
   "reportHeadSkill": "Vad som övades",
   "reportHeadResult": "Hur det gick",
-  "reportDate": "Läget den {date}"
+  "reportDate": "Läget den {date}",
+  "formNameHelp": "Skriv inte ett barns namn här.",
+  "confirmText": "Jag bekräftar: (1) Jag använder klasslänkar i undervisningen. Min skola tillåter att jag använder digitala verktyg där eleverna arbetar under ett nummer, eller så är jag privatlärare eller förälder och bestämmer detta själv. (2) Jag skriver inte ett barns namn eller andra personuppgifter i klassens namn. (3) Jag har läst avsnittet ”Klasser och resultat” i integritetspolicyn och godkänner villkoren för behandling av personuppgifter för klasser.",
+  "confirmPrivacy": "Integritetspolicy: Klasser och resultat",
+  "confirmTerms": "Villkor för behandling av personuppgifter för klasser",
+  "errConfirm": "Kryssa först i bekräftelsen."
 }

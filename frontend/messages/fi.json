@@ -451,7 +451,7 @@
     },
     "contact": {
       "title": "13. YHTEYSTIEDOT",
-      "content": "Kysymykset: legal@lessoncraftstudio.com"
+      "content": "Kysymykset: support@lessoncraftstudio.com"
     }
   },
   "privacy": {
@@ -464,7 +464,7 @@
     },
     "dataController": {
       "title": "2. REKISTERINPITÄJÄ",
-      "content": "LessonCraftStudio, Tukholma, Ruotsi. Yhteystiedot: privacy@lessoncraftstudio.com"
+      "content": "LessonCraftStudio (Riza Kunur Genc), Björkvägen 15D, 459 31 Ljungskile, Ruotsi. Yhteystiedot: support@lessoncraftstudio.com"
     },
     "dataCollection": {
       "title": "3. KERÄTTÄVÄT TIEDOT",
@@ -540,8 +540,8 @@
     "contact": {
       "title": "14. YHTEYSTIEDOT",
       "intro": "Kysymykset tai oikeuksien käyttö:",
-      "email": "Sähköposti: privacy@lessoncraftstudio.com",
-      "address": "Osoite: Tukholma, Ruotsi",
+      "email": "Sähköposti: support@lessoncraftstudio.com",
+      "address": "Osoite: Björkvägen 15D, 459 31 Ljungskile, Ruotsi",
       "dpo": "Tietosuojavastaava: dpo@lessoncraftstudio.com"
     }
   },
@@ -596,7 +596,7 @@
     },
     "contact": {
       "title": "10. YHTEYSTIEDOT",
-      "content": "Lisenssikysymykset: license@lessoncraftstudio.com"
+      "content": "Lisenssikysymykset: support@lessoncraftstudio.com"
     },
     "metaDescription": "LessonCraftStudion lisenssiehdot. Ilmaiset K-3-tehtäväarkit ja toiminnot; yksi yhtenäinen lisenssi kaikille käyttäjille; henkilökohtainen, luokkahuone- ja maksullinen opetuskäyttö sallittu; ei tehtäväarkkitiedostojen jälleenmyyntiä."
   },

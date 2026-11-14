@@ -451,7 +451,7 @@
     },
     "contact": {
       "title": "13. KONTAKT",
-      "content": "Spørsmål: legal@lessoncraftstudio.com"
+      "content": "Spørsmål: support@lessoncraftstudio.com"
     }
   },
   "privacy": {
@@ -464,7 +464,7 @@
     },
     "dataController": {
       "title": "2. BEHANDLINGSANSVARLIG",
-      "content": "LessonCraftStudio, Stockholm, Sverige. Kontakt: privacy@lessoncraftstudio.com"
+      "content": "LessonCraftStudio (Riza Kunur Genc), Björkvägen 15D, 459 31 Ljungskile, Sverige. Kontakt: support@lessoncraftstudio.com"
     },
     "dataCollection": {
       "title": "3. DATA VI SAMLER INN",
@@ -540,8 +540,8 @@
     "contact": {
       "title": "14. KONTAKT",
       "intro": "Spørsmål eller utøvelse av rettigheter:",
-      "email": "E-post: privacy@lessoncraftstudio.com",
-      "address": "Adresse: Stockholm, Sverige",
+      "email": "E-post: support@lessoncraftstudio.com",
+      "address": "Adresse: Björkvägen 15D, 459 31 Ljungskile, Sverige",
       "dpo": "Personvernombud: dpo@lessoncraftstudio.com"
     }
   },
@@ -596,7 +596,7 @@
     },
     "contact": {
       "title": "10. KONTAKT",
-      "content": "For lisensspørsmål: license@lessoncraftstudio.com"
+      "content": "For lisensspørsmål: support@lessoncraftstudio.com"
     },
     "metaDescription": "LessonCraftStudios lisensvilkår. Gratis K-3 arbeidsark og aktiviteter; én ensartet lisens for alle brukere; personlig bruk, klasseromsbruk og betalt undervisning tillatt; intet videresalg av arbeidsarkfilene."
   },

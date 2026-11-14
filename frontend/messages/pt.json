@@ -451,7 +451,7 @@
     },
     "contact": {
       "title": "13. CONTATO",
-      "content": "Dúvidas: legal@lessoncraftstudio.com"
+      "content": "Dúvidas: support@lessoncraftstudio.com"
     }
   },
   "privacy": {
@@ -464,7 +464,7 @@
     },
     "dataController": {
       "title": "2. CONTROLADOR DE DADOS",
-      "content": "LessonCraftStudio, Estocolmo, Suécia. Contato: privacy@lessoncraftstudio.com"
+      "content": "LessonCraftStudio (Riza Kunur Genc), Björkvägen 15D, 459 31 Ljungskile, Suécia. Contato: support@lessoncraftstudio.com"
     },
     "dataCollection": {
       "title": "3. DADOS COLETADOS",
@@ -540,8 +540,8 @@
     "contact": {
       "title": "14. CONTATO",
       "intro": "Dúvidas ou exercício de direitos:",
-      "email": "Email: privacy@lessoncraftstudio.com",
-      "address": "Endereço: Estocolmo, Suécia",
+      "email": "Email: support@lessoncraftstudio.com",
+      "address": "Endereço: Björkvägen 15D, 459 31 Ljungskile, Suécia",
       "dpo": "EPD: dpo@lessoncraftstudio.com"
     }
   },
@@ -597,7 +597,7 @@
     },
     "contact": {
       "title": "10. CONTATO",
-      "content": "Para consultas sobre licença: license@lessoncraftstudio.com"
+      "content": "Para consultas sobre licença: support@lessoncraftstudio.com"
     }
   },
   "faq": {

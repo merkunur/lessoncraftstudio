@@ -242,10 +242,10 @@ export default async function PrivacyPage({
               </h2>
               <div className="text-gray-600 dark:text-gray-300 space-y-2">
                 <p>{t('contact.intro')}</p>
-                <p className="font-semibold">LessonCraft Studio</p>
-                <p>{t('contact.email')}: privacy@lessoncraftstudio.com</p>
-                <p>{t('contact.address')}: Stockholm, Sweden</p>
-                <p>{t('contact.dpo')}: dataprotection@lessoncraftstudio.com</p>
+                <p className="font-semibold">LessonCraftStudio</p>
+                <p>Riza Kunur Genc</p>
+                <p>{t('contact.email').includes('@') ? t('contact.email') : `${t('contact.email')}: support@lessoncraftstudio.com`}</p>
+                <p>{t('contact.address').includes(':') ? t('contact.address') : `${t('contact.address')}: Björkvägen 15D, 459 31 Ljungskile, Sweden`}</p>
               </div>
             </section>
           </div>

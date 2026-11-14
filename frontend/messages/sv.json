@@ -451,7 +451,7 @@
     },
     "contact": {
       "title": "13. KONTAKT",
-      "content": "Frågor: legal@lessoncraftstudio.com"
+      "content": "Frågor: support@lessoncraftstudio.com"
     }
   },
   "privacy": {
@@ -464,7 +464,7 @@
     },
     "dataController": {
       "title": "2. PERSONUPPGIFTSANSVARIG",
-      "content": "LessonCraftStudio, Stockholm, Sverige. Kontakt: privacy@lessoncraftstudio.com"
+      "content": "LessonCraftStudio (Riza Kunur Genc), Björkvägen 15D, 459 31 Ljungskile, Sverige. Kontakt: support@lessoncraftstudio.com"
     },
     "dataCollection": {
       "title": "3. INSAMLADE UPPGIFTER",
@@ -540,8 +540,8 @@
     "contact": {
       "title": "14. KONTAKT",
       "intro": "Frågor eller utövande av rättigheter:",
-      "email": "E-post: privacy@lessoncraftstudio.com",
-      "address": "Adress: Stockholm, Sverige",
+      "email": "E-post: support@lessoncraftstudio.com",
+      "address": "Adress: Björkvägen 15D, 459 31 Ljungskile, Sverige",
       "dpo": "DSO: dpo@lessoncraftstudio.com"
     }
   },
@@ -596,7 +596,7 @@
     },
     "contact": {
       "title": "10. KONTAKT",
-      "content": "För licensfrågor: license@lessoncraftstudio.com"
+      "content": "För licensfrågor: support@lessoncraftstudio.com"
     },
     "metaDescription": "LessonCraftStudios licensvillkor. Gratis F-3-arbetsblad och aktiviteter; en enhetlig licens för alla användare; personlig, klassrums- och betald undervisning tillåtet; ingen vidareförsäljning av arbetsbladsfilerna."
   },

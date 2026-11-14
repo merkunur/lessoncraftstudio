@@ -6,6 +6,8 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
 import GrandHall from '@/components/homepage-v10/GrandHall';
+import TeachingWing from '@/components/homepage-v10/TeachingWing';
+import { getHomepageTeaching } from '@/lib/homepage-teaching';
 import { heroStrings } from '@/components/homepage-v10/hero-strings';
 import {
   InstrumentHall,
@@ -408,6 +410,10 @@ export default async function HomePage({ params }: { params: { locale: string } 
       }
     : undefined;
 
+  // the teaching wing (Part 11.7): null in a language without the products, and the page is today's page there
+  const teaching = await getHomepageTeaching(locale).catch(() => null);
+  const N = teaching ? ['II', 'III', 'IV', 'V', 'VI', 'VII'] : ['I', 'II', 'III', 'IV', 'V', 'VI'];
+
   const touch = MANIPULATIVES.find((x) => x.id === TOUCHABLE);
   const live = {
     src: `/mini-tools/${TOUCHABLE}.html?lang=${locale}&embed=compact`,
@@ -446,12 +452,13 @@ export default async function HomePage({ params }: { params: { locale: string } 
           setPages={exhibit ? exhibit.pages.map((p) => p.thumbnailUrl) : undefined}
           strings={hero}
         />
-        <PrintRoom locale={locale} numeral="I" works={works} exhibit={exhibit} strings={rooms} />
-        <Studio locale={locale} numeral="II" strings={rooms} sheets={studioSheets(locale)} wall={studioWall(locale)} />
-        <InstrumentHall locale={locale} numeral="III" strings={rooms} instruments={instruments} live={live} />
-        <Playroom locale={locale} numeral="IV" strings={rooms} activities={alcoves} />
-        <Dispatch locale={locale} numeral="V" strings={rooms} deck={embedDeck} embed={embed} />
-        <MembersRoom locale={locale} numeral="VI" strings={rooms} exhibit={exhibit} />
+        {teaching ? <TeachingWing numeral="I" data={teaching} /> : null}
+        <PrintRoom locale={locale} numeral={N[0]} works={works} exhibit={exhibit} strings={rooms} />
+        <Studio locale={locale} numeral={N[1]} strings={rooms} sheets={studioSheets(locale)} wall={studioWall(locale)} />
+        <InstrumentHall locale={locale} numeral={N[2]} strings={rooms} instruments={instruments} live={live} />
+        <Playroom locale={locale} numeral={N[3]} strings={rooms} activities={alcoves} />
+        <Dispatch locale={locale} numeral={N[4]} strings={rooms} deck={embedDeck} embed={embed} />
+        <MembersRoom locale={locale} numeral={N[5]} strings={rooms} exhibit={exhibit} />
         <Exit locale={locale} strings={rooms} />
 
         {/* The catalogue at the back of the building — the crawl-bait mesh

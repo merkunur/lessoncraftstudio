@@ -285,7 +285,8 @@
       "points": [
         "2:compare-lengths",
         "1:bar-model",
-        "1:word-problems"
+        "1:word-problems",
+        "2:two-step-word-problems"
       ]
     },
     "cold-line": {

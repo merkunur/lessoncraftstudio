@@ -2371,6 +2371,24 @@
     "words": "Open The Missing Question and choose \"one thing happened\". Tell a story with no numbers: \"There are some pencils in a box. Sam puts in some more. Now there are a lot.\" Ask, \"What could we ask?\" until someone asks what was there at the start (ask it yourself if no one does); choose that place as the one to work out and give the other two numbers (the tool goes up to twenty). Then draw the bar model with two-digit numbers: \"45 are in the box now. 17 were put in. The question mark is what was there before.\" Write ? + 17 = 45, then 45 − 17 = 28.",
     "watch": "On the page for everyone all three stories ask for the start. When some were added, the end is the whole (? + 17 = 45). When some were taken away, the start is the whole, so the question mark goes in the long bar and the child adds (? − 25 = 38, so 38 + 25 = 63). On the easier page every number is a multiple of 10 and the first story is worked. On the harder page one story asks for the change, so the child has to read which number is missing. Accept either equation: ? + 17 = 45 or 45 − 17 = 28."
    }
+  },
+  "2:two-step-word-problems#compare-stories-more-and-fewer": {
+   "title": "Compare stories: more and fewer",
+   "objective": "Children solve compare stories within 100 in which the difference, the larger amount, or the smaller amount is unknown, with two bars and an equation.",
+   "note": {
+    "mistake": "Children add when they read \"more\" and subtract when they read \"fewer\" without asking which box has more. That fails when the story says \"That is 29 more than in the blue box\": the red box has more, so the blue box has fewer, and the child has to subtract.",
+    "words": "Open The Planks and drag the two planks to 15 and 9: \"The red box has 15. The blue box has 9. Which box has more? How many more?\" Carry away the piece that sticks out and say all three sentences: \"The red box has 6 more. The blue box has 6 fewer. 9 and 6 more make 15.\" Then draw two bars on the board: \"There are 85 oranges in a red box. That is 29 more than in the blue box. Which bar is longer?\" The dashed piece is the piece that sticks out, drawn next to the short bar. Write 85 in the long bar, 29 in the dashed piece, a question mark in the short bar, and 85 − 29 = 56: \"The blue box has 56.\"",
+    "watch": "On the page for everyone, the bars are drawn: the longer bar is the box with more, and the dashed piece next to the shorter bar is the difference. In all three stories, \"more\" means add and \"fewer\" means subtract, so a correct page does not yet show that the child compared. On the easier page, every number is a multiple of 10 and the first story is done. On the harder page, two stories say \"That is … more than\" or \"That is … fewer than,\" and the child draws the bars next to the red and blue squares. Ask \"Which box has more?\" before any number is written."
+   }
+  },
+  "2:two-step-word-problems#two-step-stories": {
+   "title": "Two-step stories",
+   "objective": "Children solve story problems within 100 that need two steps of adding or subtracting, and write an equation for each step.",
+   "note": {
+    "mistake": "Children do one step and stop, or they add all three numbers no matter what happens in the story. Many start the second step from the first number of the story again instead of from the answer to the first step.",
+    "words": "Tell a story in two parts and stop in the middle: \"There are 36 apples in a box. Mia takes out 21.\" Ask, \"How many are in the box now?\" Write 36 − 21 = 15 and circle the 15. \"Then Mia puts in 27. Which number do we start from now?\" Write 15 + 27 = 42 under it and draw an arrow from the 15 to the start of the second line. Have a child retell the whole story with the numbers.",
+    "watch": "On the page for everyone, the two steps are printed as a) and b) with boxes: the answer to step a) is written again at the start of step b). The easier page has two stories with multiples of 10. On the harder page, only the answer box is printed, and the child works out the two steps in the dotted space. Where two children take some, adding the two amounts first and subtracting once is right, too. The second page, Two-Step Word Problems, has three stories within 20 with the steps printed: start there with children who are not sure. A child who adds all three numbers needs to act the story out with counters and small numbers."
+   }
   }
  }
 }

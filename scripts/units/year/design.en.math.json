@@ -712,7 +712,8 @@
             "days": 2,
             "tool": "The Planks",
             "source": "new",
-            "page": "Six stories with two-digit numbers: two ask for the difference, two for the larger amount, two for the smaller amount; in two of them the word 'fewer' points to an addition. Each has two empty bars one under the other with name tags and a bracket for the difference; the child labels the bars, writes an equation with a box, and answers with a label."
+            "page": "Six stories with two-digit numbers: two ask for the difference, two for the larger amount, two for the smaller amount; in two of them the word 'fewer' points to an addition. Each has two empty bars one under the other with name tags and a bracket for the difference; the child labels the bars, writes an equation with a box, and answers with a label.",
+            "placed": "2:two-step-word-problems#compare-stories-more-and-fewer"
           },
           {
             "new": true,
@@ -722,7 +723,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Five stories with two-digit numbers (\"There were 34 birds in the tree. 12 flew away, then 25 more came. How many birds now?\"). Each has two equation lines marked Step 1 and Step 2 and an answer line with a label. In the first two stories a helper question for step 1 is printed; in the last three it is not. Both steps add or subtract within 100."
+            "page": "Five stories with two-digit numbers (\"There were 34 birds in the tree. 12 flew away, then 25 more came. How many birds now?\"). Each has two equation lines marked Step 1 and Step 2 and an answer line with a label. In the first two stories a helper question for step 1 is printed; in the last three it is not. Both steps add or subtract within 100.",
+            "placed": "2:two-step-word-problems#two-step-stories"
           }
         ]
       },

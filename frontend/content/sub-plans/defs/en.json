@@ -938,8 +938,8 @@
     {
      "key": "numbers",
      "minutes": 15,
-     "point": "2:bar-graphs",
-     "type": "G2-239"
+     "point": "2:expanded-form-digit-value",
+     "type": "G2-401"
     },
     {
      "key": "logic",

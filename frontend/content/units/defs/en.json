@@ -1407,8 +1407,8 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and stories.",
-   "weeks": 5,
+   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart, adding tens and ones, and adding and subtracting vertically within 100.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:number-line-not-from-zero",
@@ -1467,7 +1467,20 @@
      "point": "2:explain-strategies",
      "led": true,
      "tool": "place-value-lab"
-    },
+    }
+   ]
+  },
+  {
+   "id": "g2-story-problems-within-100",
+   "slug": "story-problems-within-100-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Story Problems Within 100",
+   "metaTitle": "Grade 2 Math Lesson Plans: Story Problems Within 100",
+   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on story problems within 100, with a bar model, an unknown start, comparing two amounts, and stories with two steps.",
+   "weeks": 2,
+   "lessons": [
     {
      "point": "2:two-step-word-problems",
      "id": "2:two-step-word-problems#one-step-stories-with-a-bar-model",
@@ -1485,6 +1498,25 @@
       "G2-510"
      ],
      "tool": "missing-question",
+     "activity": null
+    },
+    {
+     "point": "2:two-step-word-problems",
+     "id": "2:two-step-word-problems#compare-stories-more-and-fewer",
+     "types": [
+      "G2-512"
+     ],
+     "tool": "comparison-planks",
+     "activity": null
+    },
+    {
+     "point": "2:two-step-word-problems",
+     "id": "2:two-step-word-problems#two-step-stories",
+     "types": [
+      "G2-511",
+      "G2-489"
+     ],
+     "tool": null,
      "activity": null
     }
    ]
@@ -2788,6 +2820,7 @@
     "g2-fact-strategies-within-20",
     "g2-place-value-to-1000",
     "g2-adding-and-subtracting-within-100",
+    "g2-story-problems-within-100",
     "g2-add-subtract-within-1000",
     "g2-measurement-time-money",
     "g2-graphs-and-grids",

@@ -1180,7 +1180,7 @@
     "taught": 21,
     "near": 2,
     "open": 5,
-    "lessons": 50
+    "lessons": 52
    },
    "groups": [
     {
@@ -1192,18 +1192,32 @@
        "text": "Children solve one-step story problems within 100 in which the end, the change, or a part is missing, with a bar model and an equation, and write the question for a story that has none.",
        "lessons": [
         {
-         "unit": "adding-and-subtracting-within-100-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100",
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
          "unitGrade": "2",
-         "n": 8,
+         "n": 1,
          "title": "One-step stories with a bar model"
         },
         {
-         "unit": "adding-and-subtracting-within-100-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100",
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
          "unitGrade": "2",
-         "n": 9,
+         "n": 2,
          "title": "What was there at the start?"
+        },
+        {
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Compare stories: more and fewer"
+        },
+        {
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Two-step stories"
         }
        ]
       },
@@ -4584,7 +4598,7 @@
     "taught": 21,
     "near": 4,
     "open": 25,
-    "lessons": 51
+    "lessons": 53
    },
    "groups": [
     {
@@ -4857,32 +4871,32 @@
        "rel": "prepares",
        "lessons": [
         {
-         "unit": "adding-and-subtracting-within-100-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100",
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
          "unitGrade": "2",
-         "n": 5,
-         "title": "Add and subtract vertically"
-        },
-        {
-         "unit": "adding-and-subtracting-within-100-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100",
-         "unitGrade": "2",
-         "n": 8,
+         "n": 1,
          "title": "One-step stories with a bar model"
         },
         {
-         "unit": "adding-and-subtracting-within-100-grade-2-unit",
-         "unitTitle": "Adding and Subtracting Within 100",
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
          "unitGrade": "2",
-         "n": 9,
+         "n": 2,
          "title": "What was there at the start?"
         },
         {
-         "unit": "adding-within-100-grade-1-unit",
-         "unitTitle": "Adding Within 100",
-         "unitGrade": "1",
-         "n": 5,
-         "title": "Add two two-digit numbers: tens with tens, ones with ones"
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Compare stories: more and fewer"
+        },
+        {
+         "unit": "story-problems-within-100-grade-2-unit",
+         "unitTitle": "Story Problems Within 100",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Two-step stories"
         }
        ]
       },

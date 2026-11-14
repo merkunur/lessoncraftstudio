@@ -1,8 +1,8 @@
 /**
  * G2-489 — Two-Step Word Problems (Word Problems maker 2026-11-02, NEW-TEMPLATES §50 T2; 2.OA.A.1 two-step problems;
  * de "Sachaufgaben", nl "verhaaltjessommen"): stories with two changes (gets some, then gives some away; takes some out,
- * then puts some in…); levels 1-2 give the two steps as number sentences with boxes (step 1, step 2 starting from step
- * 1's result), level 3 one box for the answer. The stories are literals per locale (data/word-problems/two-step-
+ * then puts some in…); levels 1-2 give the two steps as number sentences with boxes (step a, step b starting from step
+ * a's result; lettered a) and b), because the stories are numbered), level 3 one box for the answer. The stories are literals per locale (data/word-problems/two-step-
  * frames.js, four step pairs), filled by the Word Problems engine (lib/word-problems-levelset.js fill: the reviewed
  * nouns, {Q} agreement, fr elision); every number is 2 or more and no step goes below 1; a big thing (a train, a kite) is
  * never counted past 20 (W.maxFor). Every box is an answer box.
@@ -113,8 +113,8 @@ module.exports = {
     const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}"${d.place ? ` data-lcs-nums="${[it.n1, it.o1, it.n2, it.o2, it.n3, it.s1, it.s2].join('|')}"` : ''} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}${d.place ? ';flex:1 1 0;min-height:0' : ''}">` +
       `<div style="font:600 ${d.font}px/1.45 'Nunito',sans-serif;color:${T.ink}">${i + 1}. ${esc(it.story)}</div>` +
       (d.steps
-        ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span style="color:${T.teal}">${d.place ? 'a)' : '1.'}</span> ${it.n1} ${op(it.o1)} ${it.n2} = ${box(it.s1)}</span>` +
-          `<span style="${eqStyle}"><span style="color:${T.teal}">${d.place ? 'b)' : '2.'}</span> ${box(it.s1)} ${op(it.o2)} ${it.n3} = ${box(it.s2)}</span></div>`
+        ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">a)</span> ${it.n1} ${op(it.o1)} ${it.n2} = ${box(it.s1)}</span>` +
+          `<span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">b)</span> ${box(it.s1)} ${op(it.o2)} ${it.n3} = ${box(it.s2)}</span></div>`
         : d.place ? '' : `<div style="display:flex;justify-content:flex-end">${box(it.s2)}</div>`) +
       // the face told in a place: a dotted space to work in; where no steps are printed the answer box stands beside it
       (d.place ? `<div style="flex:1 1 auto;display:flex;gap:14px;align-items:stretch;min-height:40px"><div data-lcs-dots style="flex:1;min-width:0;background-color:${T.white};background-image:radial-gradient(circle,#C8BFAE 1.6px,transparent 1.8px);background-size:26px 24px;background-position:2px 2px;border:2px solid ${T.creamDeep};border-radius:12px"></div>${d.steps ? '' : `<div style="display:flex;align-items:center">${box(it.s2)}</div>`}</div>` : '') + '</div>');
@@ -131,6 +131,8 @@ module.exports = {
       if (rows.length < 2) fails.push(`${rows.length} stories`);
       const root = document.querySelector('[data-lcs-two-steps]').getBoundingClientRect();
       rows.forEach((r, i) => { const b = r.getBoundingClientRect(); if (b.right > root.right + 1 || b.bottom > root.bottom + 1) fails.push(`story ${i + 1} leaves the page`); });
+      // the steps are lettered: a step numbered "1." under story 2 reads as a problem number (US teacher-reviewer, 2026-11-14)
+      rows.forEach((r, i) => { const t = [...r.querySelectorAll('[data-lcs-step]')].map((x) => x.textContent.trim()).join(' '); if (t && t !== 'a) b)') fails.push(`story ${i + 1}: the steps are labelled "${t}"`); });
       // the face told in a place (G2-511): the numbers of each story, stamped on its card
       const place = document.querySelector('[data-lcs-two-steps]').dataset.lcsPlace;
       if (place) {

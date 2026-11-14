@@ -6345,9 +6345,9 @@
    "subject": "math",
    "title": "Adding and Subtracting Within 100",
    "metaTitle": "Grade 2 Math Lesson Plans: Adding and Subtracting Within 100",
-   "metaDescription": "A five-week Grade 2 math unit: 9 lessons on number lines, jumps on the hundreds chart and an open number line, adding tens and ones, column sums, and stories.",
-   "days": 25,
-   "weeks": 5,
+   "metaDescription": "A four-week Grade 2 math unit: 7 lessons on number lines, jumps on the hundreds chart, adding tens and ones, and adding and subtracting vertically within 100.",
+   "days": 21,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -6703,9 +6703,23 @@
       "watch": "Listen for place-value words: \"3 tens and 2 tens,\" \"I made a new ten.\" A child who can explain a classmate's way, not only their own, has understood why it works."
      },
      "days": 2
-    },
+    }
+   ]
+  },
+  {
+   "id": "g2-story-problems-within-100",
+   "slug": "story-problems-within-100-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "math",
+   "title": "Story Problems Within 100",
+   "metaTitle": "Grade 2 Math Lesson Plans: Story Problems Within 100",
+   "metaDescription": "A two-week Grade 2 math unit: 4 lessons on story problems within 100, with a bar model, an unknown start, comparing two amounts, and stories with two steps.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
     {
-     "n": 8,
+     "n": 1,
      "point": "2:two-step-word-problems",
      "title": "One-step stories with a bar model",
      "objective": "Children solve one-step story problems within 100 in which the end, the change, or a part is missing, with a bar model and an equation, and write the question for a story that has none.",
@@ -6751,7 +6765,7 @@
      "days": 2
     },
     {
-     "n": 9,
+     "n": 2,
      "point": "2:two-step-word-problems",
      "title": "What was there at the start?",
      "objective": "Children solve one-step story problems within 100 in which the starting amount is unknown, with a bar model and an equation.",
@@ -6786,6 +6800,84 @@
       "mistake": "Children do what the story says: when 17 more are put in, they add 17 to the number they see, and when some are taken out, they subtract. In these stories the words point the wrong way: \"takes out 25, now there are 38 left\" calls for adding.",
       "words": "Open The Missing Question and choose \"one thing happened\". Tell a story with no numbers: \"There are some pencils in a box. Sam puts in some more. Now there are a lot.\" Ask, \"What could we ask?\" until someone asks what was there at the start (ask it yourself if no one does); choose that place as the one to work out and give the other two numbers (the tool goes up to twenty). Then draw the bar model with two-digit numbers: \"45 are in the box now. 17 were put in. The question mark is what was there before.\" Write ? + 17 = 45, then 45 − 17 = 28.",
       "watch": "On the page for everyone all three stories ask for the start. When some were added, the end is the whole (? + 17 = 45). When some were taken away, the start is the whole, so the question mark goes in the long bar and the child adds (? − 25 = 38, so 38 + 25 = 63). On the easier page every number is a multiple of 10 and the first story is worked. On the harder page one story asks for the change, so the child has to read which number is missing. Accept either equation: ? + 17 = 45 or 45 − 17 = 28."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:two-step-word-problems",
+     "title": "Compare stories: more and fewer",
+     "objective": "Children solve compare stories within 100 in which the difference, the larger amount, or the smaller amount is unknown, with two bars and an equation.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-512",
+       "title": "Compare Stories Within 100: Two Bars",
+       "core": "word-problems-vegetables-bw-g2512",
+       "easy": "word-problems-easy-toys-g2512",
+       "hard": "word-problems-hard-classroom-g2512"
+      }
+     ],
+     "id": "2:two-step-word-problems#compare-stories-more-and-fewer",
+     "tool": {
+      "key": "comparison-planks",
+      "slug": "compare-lengths-difference-grade-1-2",
+      "name": "The Planks"
+     },
+     "exit": {
+      "slug": "word-problems-toys-g2512-2",
+      "title": "Compare Stories Within 100: Two Bars"
+     },
+     "note": {
+      "mistake": "Children add when they read \"more\" and subtract when they read \"fewer\" without asking which box has more. That fails when the story says \"That is 29 more than in the blue box\": the red box has more, so the blue box has fewer, and the child has to subtract.",
+      "words": "Open The Planks and drag the two planks to 15 and 9: \"The red box has 15. The blue box has 9. Which box has more? How many more?\" Carry away the piece that sticks out and say all three sentences: \"The red box has 6 more. The blue box has 6 fewer. 9 and 6 more make 15.\" Then draw two bars on the board: \"There are 85 oranges in a red box. That is 29 more than in the blue box. Which bar is longer?\" The dashed piece is the piece that sticks out, drawn next to the short bar. Write 85 in the long bar, 29 in the dashed piece, a question mark in the short bar, and 85 − 29 = 56: \"The blue box has 56.\"",
+      "watch": "On the page for everyone, the bars are drawn: the longer bar is the box with more, and the dashed piece next to the shorter bar is the difference. In all three stories, \"more\" means add and \"fewer\" means subtract, so a correct page does not yet show that the child compared. On the easier page, every number is a multiple of 10 and the first story is done. On the harder page, two stories say \"That is … more than\" or \"That is … fewer than,\" and the child draws the bars next to the red and blue squares. Ask \"Which box has more?\" before any number is written."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:two-step-word-problems",
+     "title": "Two-step stories",
+     "objective": "Children solve story problems within 100 that need two steps of adding or subtracting, and write an equation for each step.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "2.OA.A.1",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-511",
+       "title": "Two-Step Story Problems Within 100",
+       "core": "word-problems-toys-g2511-2",
+       "easy": "word-problems-easy-accessories-g2511",
+       "hard": "word-problems-hard-fruits-g2511"
+      },
+      {
+       "type": "G2-489",
+       "title": "Two-Step Word Problems",
+       "core": "word-problems-kitchen-tools-g2489"
+      }
+     ],
+     "id": "2:two-step-word-problems#two-step-stories",
+     "exit": {
+      "slug": "word-problems-fruits-g2511-3",
+      "title": "Two-Step Story Problems Within 100"
+     },
+     "note": {
+      "mistake": "Children do one step and stop, or they add all three numbers no matter what happens in the story. Many start the second step from the first number of the story again instead of from the answer to the first step.",
+      "words": "Tell a story in two parts and stop in the middle: \"There are 36 apples in a box. Mia takes out 21.\" Ask, \"How many are in the box now?\" Write 36 − 21 = 15 and circle the 15. \"Then Mia puts in 27. Which number do we start from now?\" Write 15 + 27 = 42 under it and draw an arrow from the 15 to the start of the second line. Have a child retell the whole story with the numbers.",
+      "watch": "On the page for everyone, the two steps are printed as a) and b) with boxes: the answer to step a) is written again at the start of step b). The easier page has two stories with multiples of 10. On the harder page, only the answer box is printed, and the child works out the two steps in the dotted space. Where two children take some, adding the two amounts first and subtracting once is right, too. The second page, Two-Step Word Problems, has three stories within 20 with the steps printed: start there with children who are not sure. A child who adds all three numbers needs to act the story out with counters and small numbers."
      },
      "days": 2
     }
@@ -14317,9 +14409,9 @@
    "grade": "2",
    "subject": "math",
    "title": "Grade 2 Math Scope and Sequence",
-   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (29 Weeks)",
-   "metaDescription": "8 Grade 2 math units in teaching order, about 29 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 29,
+   "metaTitle": "Grade 2 Math Scope and Sequence with Pacing Guide (30 Weeks)",
+   "metaDescription": "9 Grade 2 math units in teaching order, about 30 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 30,
    "framework": "Common Core",
    "units": [
     {
@@ -14369,9 +14461,9 @@
      "id": "g2-adding-and-subtracting-within-100",
      "slug": "adding-and-subtracting-within-100-grade-2-unit",
      "title": "Adding and Subtracting Within 100",
-     "weeks": 5,
+     "weeks": 4,
      "from": 7,
-     "to": 11,
+     "to": 10,
      "lessons": [
       "A number line that does not start at zero",
       "Jumps on the hundreds chart",
@@ -14379,14 +14471,28 @@
       "Add tens and ones, then put them together",
       "Add and subtract vertically",
       "Add and subtract within 100",
-      "Why does it work?",
-      "One-step stories with a bar model",
-      "What was there at the start?"
+      "Why does it work?"
      ],
      "standards": [
       "2.MD.B.6",
       "2.NBT.B.5",
-      "2.NBT.B.9",
+      "2.NBT.B.9"
+     ]
+    },
+    {
+     "id": "g2-story-problems-within-100",
+     "slug": "story-problems-within-100-grade-2-unit",
+     "title": "Story Problems Within 100",
+     "weeks": 2,
+     "from": 11,
+     "to": 12,
+     "lessons": [
+      "One-step stories with a bar model",
+      "What was there at the start?",
+      "Compare stories: more and fewer",
+      "Two-step stories"
+     ],
+     "standards": [
       "2.OA.A.1"
      ]
     },
@@ -14395,8 +14501,8 @@
      "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
      "title": "Adding and Subtracting Within 1,000",
      "weeks": 3,
-     "from": 12,
-     "to": 14,
+     "from": 13,
+     "to": 15,
      "lessons": [
       "Add with blocks",
       "Add three-digit numbers and make a new ten or hundred",
@@ -14413,8 +14519,8 @@
      "slug": "measurement-time-and-money-grade-2-unit",
      "title": "Measurement, Time, and Money",
      "weeks": 5,
-     "from": 15,
-     "to": 19,
+     "from": 16,
+     "to": 20,
      "lessons": [
       "Measure with a ruler",
       "Estimate, then measure",
@@ -14437,8 +14543,8 @@
      "slug": "graphs-and-grids-grade-2-unit",
      "title": "Graphs and Grids",
      "weeks": 3,
-     "from": 20,
-     "to": 22,
+     "from": 21,
+     "to": 23,
      "lessons": [
       "From tally marks to a bar graph",
       "Make a graph from counts",
@@ -14455,8 +14561,8 @@
      "slug": "equal-groups-and-equal-shares-grade-2-unit",
      "title": "Equal Groups and Equal Shares",
      "weeks": 4,
-     "from": 23,
-     "to": 26,
+     "from": 24,
+     "to": 27,
      "lessons": [
       "Odd and even with equal parts",
       "Equal groups",
@@ -14477,8 +14583,8 @@
      "slug": "shapes-solids-and-symmetry-grade-2-unit",
      "title": "Shapes, Solids, and Symmetry",
      "weeks": 3,
-     "from": 27,
-     "to": 29,
+     "from": 28,
+     "to": 30,
      "lessons": [
       "Sort shapes by sides",
       "Solid shapes around us",

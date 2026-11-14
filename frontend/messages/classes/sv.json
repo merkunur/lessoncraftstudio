@@ -161,5 +161,6 @@
   "confirmText": "Jag bekräftar: (1) Jag använder klasslänkar i undervisningen. Min skola tillåter att jag använder digitala verktyg där eleverna arbetar under ett nummer, eller så är jag privatlärare eller förälder och bestämmer detta själv. (2) Jag skriver inte ett barns namn eller andra personuppgifter i klassens namn. (3) Jag har läst avsnittet ”Klasser och resultat” i integritetspolicyn och godkänner villkoren för behandling av personuppgifter för klasser.",
   "confirmPrivacy": "Integritetspolicy: Klasser och resultat",
   "confirmTerms": "Villkor för behandling av personuppgifter för klasser",
-  "errConfirm": "Kryssa först i bekräftelsen."
+  "errConfirm": "Kryssa först i bekräftelsen.",
+  "docsParentNote": "Brev till vårdnadshavare (att skriva ut)"
 }

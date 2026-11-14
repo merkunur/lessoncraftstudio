@@ -161,5 +161,6 @@
   "confirmText": "Confirmo: (1) Uso los enlaces de grupo para enseñar. Mi escuela me permite usar herramientas en línea en las que los alumnos trabajan con un número, o doy clases particulares o soy madre o padre de familia y lo decido yo. (2) No escribiré el nombre de un niño ni otros datos personales en el nombre del grupo. (3) Leí la sección «Grupos y resultados» del aviso de privacidad y acepto las condiciones de tratamiento de datos para grupos.",
   "confirmPrivacy": "Aviso de privacidad: Grupos y resultados",
   "confirmTerms": "Condiciones de tratamiento de datos para grupos",
-  "errConfirm": "Primero marca la confirmación."
+  "errConfirm": "Primero marca la confirmación.",
+  "docsParentNote": "Aviso para madres y padres (para imprimir)"
 }

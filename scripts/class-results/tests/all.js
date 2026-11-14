@@ -18,6 +18,7 @@ const list = [
   ['the rules, planted faults', 'mutate-class-store.js'],
   ['the retention job and the backup step', 'retention.test.js'],
   ['the texts in 11 languages', 'strings.js'],
+  ['the privacy section, the terms and the parent note', '../build-class-legal.js', '--check'],
   ['the 40 seat pictures', '../seat-icons-sheet.js'],
 ];
 if (!QUICK) list.push(

@@ -161,5 +161,6 @@
   "confirmText": "I confirm: (1) I use class links for teaching. My school allows me to use online tools in which children work under a number, or I am a private tutor or a parent and decide this myself. (2) I will not put a child's name or other personal details in the class name. (3) I have read the \"Classes and results\" section of the privacy policy and accept the data processing terms for classes.",
   "confirmPrivacy": "Privacy policy: Classes and results",
   "confirmTerms": "Data processing terms for classes",
-  "errConfirm": "Please tick the confirmation first."
+  "errConfirm": "Please tick the confirmation first.",
+  "docsParentNote": "A note for parents (to print)"
 }

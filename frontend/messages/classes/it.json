@@ -161,5 +161,6 @@
   "confirmText": "Confermo: (1) Uso i link di classe per insegnare. La mia scuola mi permette di usare strumenti online in cui i bambini lavorano con un numero, oppure do lezioni private o sono un genitore e lo decido io. (2) Non scriverò il nome di un bambino né altri dati personali nel nome della classe. (3) Ho letto la sezione «Classi e risultati» dell’informativa sulla privacy e accetto le condizioni sul trattamento dei dati per le classi.",
   "confirmPrivacy": "Informativa sulla privacy: Classi e risultati",
   "confirmTerms": "Condizioni sul trattamento dei dati per le classi",
-  "errConfirm": "Spunta prima la conferma."
+  "errConfirm": "Spunta prima la conferma.",
+  "docsParentNote": "Avviso per i genitori (da stampare)"
 }

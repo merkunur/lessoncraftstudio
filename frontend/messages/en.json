@@ -4475,6 +4475,7 @@
       "a3": "In one click from your billing page — no emails, no phone calls. Your subscription simply doesn't renew, and you keep access until the period ends.",
       "q4": "Do my students need accounts?",
       "a4": "Never. Children never sign in on LessonCraftStudio. You share a link; they play. We collect no student data at all.",
+      "a4Classes": "Never. Children never sign in on LessonCraftStudio. You share a link; they play. Without a class link we store nothing about a child. With a class link we store each seat's results under a number and an animal picture, never a name, so that you can see how your class did.",
       "q5": "What payment methods and currency do you use?",
       "a5": "Payment is handled by Lemon Squeezy (cards, PayPal in many regions) and charged in US dollars — your bank converts at the day's rate."
     }

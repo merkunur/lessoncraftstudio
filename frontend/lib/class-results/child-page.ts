@@ -30,7 +30,9 @@ const CSS = `
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:#FBF3E4;color:#14322D;font-family:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:700;min-height:100vh}
-main{max-width:1040px;margin:0 auto;padding:20px 16px 48px}
+main{max-width:1040px;margin:0 auto;padding:20px 16px 24px}
+.c-foot{max-width:1040px;margin:0 auto;padding:0 16px 32px;text-align:center}
+.c-foot a{display:inline-block;min-height:44px;line-height:44px;padding:0 12px;font-size:14px;color:#6B6257;text-decoration:underline}
 h1{font-family:'Baloo 2','Nunito',sans-serif;font-size:1.5rem;line-height:1.2;margin:0 0 4px;color:#146B5E;overflow-wrap:anywhere}
 h2{font-family:'Baloo 2','Nunito',sans-serif;font-size:1.9rem;line-height:1.15;margin:10px 0 18px;color:#14322D}
 button{font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
@@ -80,6 +82,10 @@ const SCRIPT = `
   if (lang === 'nb' || lang === 'nn') lang = 'no';
   if (!S[lang]) lang = 'en';
   var T = S[lang], cls = null, busy = false;
+  /* the one line for adults: the privacy section, in the class's language */
+  var privEl = document.getElementById('c-privacy');
+  function foot() { if (privEl) { privEl.textContent = T.privacy; privEl.setAttribute('href', '/' + lang + '/privacy#classes'); } }
+  foot();
   var SEAT_KEY = 'lcs-class-seat', KEEP_MS = 20 * 60 * 1000;
 
   var ICON = {
@@ -219,7 +225,7 @@ const SCRIPT = `
       if (status !== 200 || !j) { failed(load); return; }
       if (j.inactive) { closed(); return; }
       cls = j;
-      if (S[j.locale]) { lang = j.locale; T = S[lang]; document.documentElement.lang = lang; }
+      if (S[j.locale]) { lang = j.locale; T = S[lang]; document.documentElement.lang = lang; foot(); }
       nameEl.textContent = j.name;
       document.title = j.name;
       var seat = remembered();
@@ -240,7 +246,7 @@ export function childPageHtml(): string {
     + '<meta name="robots" content="noindex, nofollow">\n'
     + '<meta name="referrer" content="no-referrer">\n'
     + '<title>LessonCraftStudio</title>\n<link rel="icon" href="data:,">\n'
-    + '<style>' + CSS + '</style>\n</head>\n<body>\n<main>\n<h1 id="c-name"></h1>\n<div id="c-view" aria-live="polite"></div>\n</main>\n'
+    + '<style>' + CSS + '</style>\n</head>\n<body>\n<main>\n<h1 id="c-name"></h1>\n<div id="c-view" aria-live="polite"></div>\n</main>\n<footer class="c-foot"><a id="c-privacy" href="/en/privacy#classes" target="_blank" rel="noopener"></a></footer>\n'
     + '<script>' + SCRIPT.replace('__STRINGS__', () => strings) + '</script>\n</body>\n</html>\n';
 }
 

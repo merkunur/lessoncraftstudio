@@ -100,7 +100,8 @@ export default async function PricingPage({
 
   const faqItems = [1, 2, 3, 4, 5].map((i) => ({
     q: t(`faq.q${i}`),
-    a: t(`faq.a${i}`),
+    // (answer 4, "do you collect data about children?": with class links on, the answer names what a class stores)
+    a: i === 4 && process.env.CLASS_RESULTS_ENABLED === '1' && t.has('faq.a4Classes') ? t('faq.a4Classes') : t(`faq.a${i}`),
   }));
 
   const faqSchema = {

@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getHreflangCode, ogLocaleMap, generateStaticPageSchemas } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { LegalText, legalText } from '@/lib/class-results/legal';
 
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -235,6 +236,14 @@ export default async function PrivacyPage({
                 {t('changes.content')}
               </p>
             </section>
+
+            {/* Classes and results (Daily Teaching System, Part 9): what the class feature stores. Shown only while the
+                feature is switched on; the confirmation a teacher ticks links here (#classes). */}
+            {process.env.CLASS_RESULTS_ENABLED === '1' ? (
+              <section id="classes" className="mb-8 scroll-mt-24" data-class-privacy="">
+                <LegalText md={legalText(locale, 'privacy')} locale={locale} />
+              </section>
+            ) : null}
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">

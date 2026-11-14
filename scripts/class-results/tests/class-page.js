@@ -173,6 +173,9 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
       await n.page.waitForSelector('.c-seat');
       const ng = await seats(n.page);
       const ni = await n.page.evaluate(() => ({ h2: document.querySelector('h2').textContent, lang: document.documentElement.lang }));
+      // the one line for adults at the foot: the privacy section, in the class's language (legal decision 2026-11-14, E9)
+      const foot = await n.page.evaluate(() => { const a = document.getElementById('c-privacy'); const r = a ? a.getBoundingClientRect() : null; return a ? { text: a.textContent, href: a.getAttribute('href'), h: Math.round(r.height), target: a.target } : null; });
+      check('a German class page ends with "Datenschutz", to the privacy section in German, 44 px tall, in a new tab', !!foot && foot.text === 'Datenschutz' && foot.href === '/de/privacy#classes' && foot.h >= 44 && foot.target === '_blank', foot);
       check('numbers-only class in German: "Tippe auf dein Bild", tiles show 1–5, a screen reader hears "Nummer n"', ni.h2 === 'Tippe auf dein Bild' && ni.lang === 'de' && ng.map((s) => s.text).join('') === '12345' && ng[2].label === 'Nummer 3', { ni, ng });
       await n.page.screenshot({ path: path.join(SHOTS, 'class-page-numbers-768.png'), fullPage: true });
       await n.page.close();

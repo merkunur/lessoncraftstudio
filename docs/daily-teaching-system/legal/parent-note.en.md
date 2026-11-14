@@ -7,7 +7,7 @@
 
 **Dear parents,**
 
-In class we sometimes practise on a screen with worksheets from LessonCraftStudio. I use a class link for this, so that I can see which exercises each child has understood and who needs more practice.
+In class we sometimes practice on a screen with worksheets from LessonCraftStudio. I use a class link for this, so that I can see which exercises each child has understood and who needs more practice.
 
 **What your child does.** Your child opens the class page, taps their number and animal picture and does the worksheet. There is no account, no password and nothing to install.
 

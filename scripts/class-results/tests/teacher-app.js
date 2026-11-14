@@ -322,6 +322,8 @@ const check = (name, ok, extra) => { if (!ok) fails++; console.log((ok ? 'ok    
       const numbersClass = [...db.classes.values()].find((c) => c.name === 'Numbers class');
       check('the class is a numbers class with four seats and no name stored', !!numbersClass && numbersClass.namesMode === 'numbers' && [...db.seats.values()].filter((s) => s.classId === numbersClass.id).length === 4 && [...db.seats.values()].filter((s) => s.classId === numbersClass.id).every((s) => s.displayName === null));
       await tab(n.page, 'link');
+      const docs = await n.page.$$eval('[data-class-docs] a', (a) => a.map((x) => x.getAttribute('href')));
+      check('its settings link the note for parents, the processing terms and the privacy section', JSON.stringify(docs) === JSON.stringify(['/en/class-terms/parent-note', '/en/class-terms', '/en/privacy#classes']), docs);
       check('its settings offer no switch to first names', (await n.page.$('[data-act=to-names]')) === null && (await n.page.$('[data-settings]')) !== null);
       const refused = await (await fetch(base + '/api/classes/' + numbersClass.id, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ namesMode: 'names' }) })).json();
       check('and the server refuses the switch when it is asked directly', refused.error === 'names_off', refused);

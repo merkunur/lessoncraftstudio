@@ -161,5 +161,6 @@
   "confirmText": "Jeg bekrefter: (1) Jeg bruker klasselenker i undervisningen. Skolen min tillater at jeg bruker nettbaserte verktøy der barna arbeider under et nummer, eller jeg er privatlærer eller forelder og bestemmer dette selv. (2) Jeg skriver ikke et barns navn eller andre personopplysninger i navnet på klassen. (3) Jeg har lest avsnittet «Klasser og resultater» i personvernerklæringen og godtar vilkårene for databehandling for klasser.",
   "confirmPrivacy": "Personvernerklæring: Klasser og resultater",
   "confirmTerms": "Vilkår for databehandling for klasser",
-  "errConfirm": "Kryss først av for bekreftelsen."
+  "errConfirm": "Kryss først av for bekreftelsen.",
+  "docsParentNote": "Brev til foresatte (til utskrift)"
 }

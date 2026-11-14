@@ -676,7 +676,9 @@ export function mountClasses(root: HTMLElement, o: ClassesOptions): { destroy: (
     else if (edit && d.names === true) danger.append(h('button', { type: 'button', 'data-act': 'to-names', text: t('toNames'), onclick: async () => { const r2 = await api('PATCH', '/api/classes/' + id, { namesMode: 'names' }); if (r2.status === 200) again('children'); else msg.textContent = errorText(r2); } }));
     if (edit) danger.append(confirmButton(t('newLink'), t('newLinkConfirm'), async () => { const r2 = await api('PATCH', '/api/classes/' + id, { newCode: true }); if (r2.status === 200) again('link'); else msg.textContent = errorText(r2); }, ''));
     danger.append(confirmButton(t('deleteClass'), t('deleteClassConfirm'), async () => { await api('DELETE', '/api/classes/' + id); void list(); }));
-    settings.append(danger, h('p', { class: 'c-muted', style: 'margin-top:14px', text: t('retention') }));
+    const docLink = (href: string, label: string) => h('a', { href: '/' + o.locale + href, target: '_blank', rel: 'noopener', text: label });
+    settings.append(danger, h('p', { class: 'c-muted', style: 'margin-top:14px', text: t('retention') }),
+      h('p', { class: 'c-muted', style: 'margin-top:8px', 'data-class-docs': 'links' }, docLink('/class-terms/parent-note', t('docsParentNote')), ' · ', docLink('/class-terms', t('confirmTerms')), ' · ', docLink('/privacy#classes', t('confirmPrivacy'))));
     body.append(settings);
   }
 

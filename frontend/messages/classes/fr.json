@@ -161,5 +161,6 @@
   "confirmText": "Je confirme : (1) J’utilise les liens de classe pour enseigner. Mon école m’autorise à utiliser des outils en ligne dans lesquels les élèves travaillent sous un numéro, ou bien je donne des cours particuliers ou je suis parent et j’en décide moi-même. (2) Je n’écrirai ni le nom d’un enfant ni d’autres données personnelles dans le nom de la classe. (3) J’ai lu la section « Classes et résultats » de la politique de confidentialité et j’accepte les conditions de traitement des données pour les classes.",
   "confirmPrivacy": "Politique de confidentialité : Classes et résultats",
   "confirmTerms": "Conditions de traitement des données pour les classes",
-  "errConfirm": "Veuillez d’abord cocher la confirmation."
+  "errConfirm": "Veuillez d’abord cocher la confirmation.",
+  "docsParentNote": "Mot aux parents, à imprimer"
 }

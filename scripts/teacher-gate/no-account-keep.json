@@ -2,6 +2,10 @@
  "$comment": "What the no-account scans leave alone, and why (scan-no-account.js, scan-no-account-live.js, fix-no-account.js, gates.js P8). keys: sentences of a file that are TRUE (a pupil on a teacher's link plays without an account; looking around and reading needs none; a worksheet embedded on another site plays there). notRendered: namespaces and files no live page shows any more (they are never corrected; the live scan proves no page shows them). falsePositives: wording the patterns hit that is NOT the claim, by the words around it: about something else (Spanish 'sin cuentas' = without sums), about PUPILS who need no account of their own when the teacher shows a tool, about where a tool keeps its data (no account, no server), or a question of the sign-in mail.",
  "keys": [
   {
+   "file": "^content/class-legal/",
+   "why": "the privacy section and the parent note of class links: a CHILD on a class link has no account and no password (the teacher has the account)"
+  },
+  {
    "file": "^messages/classes/",
    "key": "^linkHelp",
    "why": "a pupil on the teacher's class link taps a picture: no account"

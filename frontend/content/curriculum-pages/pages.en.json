@@ -23,7 +23,7 @@
     "taught": 23,
     "near": 1,
     "open": 0,
-    "lessons": 53
+    "lessons": 55
    },
    "groups": [
     {
@@ -546,6 +546,13 @@
          "title": "Name the shape"
         },
         {
+         "unit": "shapes-all-around-kindergarten-unit",
+         "unitTitle": "Shapes All Around",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Name the solid shapes"
+        },
+        {
          "unit": "shapes-measuring-and-graphs-grade-1-unit",
          "unitTitle": "Shapes, Measuring, and Graphs",
          "unitGrade": "1",
@@ -609,7 +616,7 @@
          "unit": "shapes-all-around-kindergarten-unit",
          "unitTitle": "Shapes All Around",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Build shapes from pieces"
         }
        ]
@@ -3435,7 +3442,7 @@
     "taught": 19,
     "near": 0,
     "open": 15,
-    "lessons": 49
+    "lessons": 51
    },
    "groups": [
     {
@@ -3726,18 +3733,18 @@
          "title": "Take-away stories: some go away"
         },
         {
-         "unit": "story-problems-within-20-grade-1-unit",
-         "unitTitle": "Story Problems Within 20",
-         "unitGrade": "1",
-         "n": 1,
-         "title": "Word problems within 10"
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Put-together stories: how many in all?"
         },
         {
          "unit": "story-problems-within-20-grade-1-unit",
          "unitTitle": "Story Problems Within 20",
          "unitGrade": "1",
-         "n": 2,
-         "title": "Find the missing part"
+         "n": 1,
+         "title": "Word problems within 10"
         }
        ]
       }
@@ -3767,8 +3774,15 @@
       {
        "code": "K.6.B",
        "state": "taught",
-       "text": "Children match a sphere, cube, cylinder, cone, rectangular prism, or pyramid to a real object with the same shape.",
+       "text": "Children name the sphere, the cube, the cylinder and the cone, match each one to an everyday thing of the same shape, and name it again when it is big or small, standing or lying down.",
        "lessons": [
+        {
+         "unit": "shapes-all-around-kindergarten-unit",
+         "unitTitle": "Shapes All Around",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Name the solid shapes"
+        },
         {
          "unit": "shapes-solids-and-symmetry-grade-2-unit",
          "unitTitle": "Shapes, Solids, and Symmetry",
@@ -3940,7 +3954,7 @@
     "taught": 25,
     "near": 6,
     "open": 19,
-    "lessons": 65
+    "lessons": 67
    },
    "groups": [
     {
@@ -4156,18 +4170,18 @@
          "title": "Take-away stories: some go away"
         },
         {
-         "unit": "story-problems-within-20-grade-1-unit",
-         "unitTitle": "Story Problems Within 20",
-         "unitGrade": "1",
-         "n": 1,
-         "title": "Word problems within 10"
+         "unit": "adding-and-taking-away-within-10-kindergarten-unit",
+         "unitTitle": "Adding and Taking Away Within 10",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Put-together stories: how many in all?"
         },
         {
          "unit": "story-problems-within-20-grade-1-unit",
          "unitTitle": "Story Problems Within 20",
          "unitGrade": "1",
-         "n": 2,
-         "title": "Find the missing part"
+         "n": 1,
+         "title": "Word problems within 10"
         }
        ]
       },
@@ -4522,8 +4536,15 @@
       {
        "code": "1.6.E",
        "state": "taught",
-       "text": "Children match a sphere, cube, cylinder, cone, rectangular prism, or pyramid to a real object with the same shape.",
+       "text": "Children name the sphere, the cube, the cylinder and the cone, match each one to an everyday thing of the same shape, and name it again when it is big or small, standing or lying down.",
        "lessons": [
+        {
+         "unit": "shapes-all-around-kindergarten-unit",
+         "unitTitle": "Shapes All Around",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Name the solid shapes"
+        },
         {
          "unit": "shapes-solids-and-symmetry-grade-2-unit",
          "unitTitle": "Shapes, Solids, and Symmetry",
@@ -4549,7 +4570,7 @@
          "unit": "shapes-all-around-kindergarten-unit",
          "unitTitle": "Shapes All Around",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Build shapes from pieces"
         },
         {

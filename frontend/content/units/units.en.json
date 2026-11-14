@@ -1647,8 +1647,8 @@
    "subject": "math",
    "title": "Shapes All Around",
    "metaTitle": "Kindergarten Math Lesson Plans: Shapes All Around",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on naming shapes, counting sides, flat and solid shapes, building with tangram pieces, and mirror pictures.",
-   "days": 13,
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on naming shapes, counting sides, flat and solid shapes, naming solids, tangram pieces, and mirror pictures.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -1808,6 +1808,53 @@
     },
     {
      "n": 4,
+     "point": "2:solids-in-real-life",
+     "title": "Name the solid shapes",
+     "objective": "Children name the sphere, the cube, the cylinder and the cone, match each one to an everyday thing of the same shape, and name it again when it is big or small, standing or lying down.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.G.A.2",
+       "title": "Geometry"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-644",
+       "title": "Name the Solid Shapes",
+       "core": "geometry-k644",
+       "easy": "geometry-easy-k644-6",
+       "hard": "geometry-hard-k644-11"
+      },
+      {
+       "type": "G2-243",
+       "title": "Solid Shapes Around Us",
+       "core": "geometry-easy-g2243-7",
+       "level": 1,
+       "hard": "geometry-g2243",
+       "screen": 1
+      }
+     ],
+     "id": "2:solids-in-real-life#name-the-solid-shapes",
+     "screen": {
+      "kind": "page",
+      "slug": "geometry-easy-g2243-8",
+      "title": "Solid Shapes Around Us"
+     },
+     "exit": {
+      "slug": "geometry-k644-2",
+      "title": "Name the Solid Shapes"
+     },
+     "note": {
+      "mistake": "Children name a solid by its size or the way it lies: a can on its side is \"a different shape,\" and a cone on its tip is \"not a cone.\" Many use flat-shape words for solids (a ball is \"a circle,\" a block \"a square\"), and some call every box a cube.",
+      "words": "Bring a big and a small ball, a number cube, a can and a party hat. Name each one: \"This is a sphere. It is round all over.\" Roll, stack and slide them: the sphere rolls any way, the cube stacks and slides, the cylinder rolls on its side and stands on a flat end, the cone rolls in a circle. Lay the can down and hold the hat point down: \"Still a cylinder? Still a cone?\" Turning a solid or changing its size does not change its name. Then children find a sphere, a cube, a cylinder and a cone in the classroom and say each name.",
+      "watch": "At the top of every page, the child draws a line from each of four solids to the thing of the same shape. Below, a color code gives each name a color. Easier page: eight solids, upright, in two sizes. Page for everyone: twelve solids in three sizes, some turned (a cylinder lying down, a cone on its side or tip, a tilted cube). Harder page: the things are an orange, a number cube, a drum and an ice-cream cone, and a box and a pyramid among the twelve are none of the four and stay white. The second page matches three solids to things once more (it has no cone). Ask: \"How do you know it is a cylinder, even lying down?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "K:compose-shapes",
      "title": "Build shapes from pieces",
      "objective": "Children put tangram pieces together to make a figure and show where the pieces meet inside a shape.",
@@ -1853,7 +1900,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "K:mirror-image",
      "title": "Mirror pictures",
      "objective": "Children look at a picture and choose the one that shows it the way a mirror would.",
@@ -2536,9 +2583,9 @@
    "subject": "math",
    "title": "Adding and Taking Away Within 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Adding and Taking Away Within 10",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on putting two groups together, taking away on a ten-frame, and addition and take-away stories within 10.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on putting two groups together, taking away on a ten-frame, and adding, take-away, and put-together stories.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -2717,6 +2764,45 @@
       "mistake": "Children add the two numbers because every story so far was an adding story. Others count every picture, the crossed-out ones too, and write the starting number.",
       "words": "Ask: \"Did some come, or did some go away? Will there be more or fewer than at the start?\" Say: \"The crossed-out ones are gone.\" Have children tell the ending in a sentence: \"2 plates are left.\"",
       "watch": "Tell one adding story in the middle of the lesson and watch who notices. A child who takes away every time is following the page, not the story."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "1:word-problems",
+     "title": "Put-together stories: how many in all?",
+     "objective": "Children show stories about one thing in two colors (totals from 4 to 10) with counters of two colors, color pictures to match, and write the addition equation.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "K.OA.A.2",
+       "title": "Operations and Algebraic Thinking"
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-643",
+       "title": "How Many in All?",
+       "core": "word-problems-toys-bw-2-k643",
+       "easy": "word-problems-easy-apparel-bw-k643",
+       "hard": "word-problems-hard-household-bw-k643"
+      }
+     ],
+     "id": "1:word-problems#two-kinds-together",
+     "tool": {
+      "key": "part-whole-frame",
+      "slug": "number-bonds",
+      "name": "Number Bonds Board"
+     },
+     "exit": {
+      "slug": "word-problems-household-bw-k643-2",
+      "title": "How Many in All?"
+     },
+     "note": {
+      "mistake": "Children count one color only, or count the second group from 1 and give that number. Some color the whole row, or write how many pictures the row has. Some write the two numbers and leave the total out.",
+      "words": "On the Number Bonds Board, set the parts to \"One for each part\" and \"Written form\" to \"One number sentence\"; keep \"Show the counts\" on. Put the cloth over the whole first (the board says numbers aloud until it is covered), then set the number to 8 with − and +, and tap a tray until the left part shows 3 and the right part 5. The board reads ? = 3 + 5. Tell the story in the board's colors: \"On the shelf there are 3 orange cups and 5 blue cups. How many cups are on the shelf?\" Children count all the counters. Lift the cloth: 8. \"Nothing came and nothing went away.\" The board writes 8 = 3 + 5, the page 3 + 5 = 8: both are true. Then pairs show two of your stories with two-color counters.",
+      "watch": "Each story names one thing in two colors, with a colored dot after each color word. Easier page: three stories, totals 4 to 6, a row of eight pictures. Page for everyone: four stories, totals 5 to 10, a row of ten. The child colors each group, leaves the rest white, and writes _ + _ = _ (the dots under the first two boxes show which group goes where). Harder page: three stories, totals 6 to 10, no pictures: the child draws a circle in its color for each thing. Ask: \"How do you know you colored the right number of each?\""
      },
      "days": 2
     }
@@ -14687,9 +14773,9 @@
    "grade": "K",
    "subject": "math",
    "title": "Kindergarten Math Scope and Sequence",
-   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (27 Weeks)",
-   "metaDescription": "8 Kindergarten math units in teaching order, about 27 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 27,
+   "metaTitle": "Kindergarten Math Scope and Sequence with Pacing Guide (28 Weeks)",
+   "metaDescription": "8 Kindergarten math units in teaching order, about 28 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 28,
    "framework": "Common Core",
    "units": [
     {
@@ -14755,6 +14841,7 @@
       "Name the shape",
       "Count the sides",
       "Flat or solid?",
+      "Name the solid shapes",
       "Build shapes from pieces",
       "Mirror pictures"
      ],
@@ -14812,14 +14899,15 @@
      "id": "k-adding-and-taking-away-within-10",
      "slug": "adding-and-taking-away-within-10-kindergarten-unit",
      "title": "Adding and Taking Away Within 10",
-     "weeks": 2,
+     "weeks": 3,
      "from": 18,
-     "to": 19,
+     "to": 20,
      "lessons": [
       "How many altogether?",
       "Take away: how many are left?",
       "Adding stories: some more come",
-      "Take-away stories: some go away"
+      "Take-away stories: some go away",
+      "Put-together stories: how many in all?"
      ],
      "standards": [
       "K.OA.A.1",
@@ -14831,8 +14919,8 @@
      "slug": "putting-together-and-number-bonds-kindergarten-unit",
      "title": "Number Bonds and Partners of 10",
      "weeks": 4,
-     "from": 20,
-     "to": 23,
+     "from": 21,
+     "to": 24,
      "lessons": [
       "Number bonds to 5 and to 10",
       "Take apart 6 and 7",
@@ -14854,8 +14942,8 @@
      "slug": "teen-numbers-and-counting-to-100-kindergarten-unit",
      "title": "Teen Numbers and Counting to 100",
      "weeks": 4,
-     "from": 24,
-     "to": 27,
+     "from": 25,
+     "to": 28,
      "lessons": [
       "Ten and some more",
       "Teen numbers on two ten-frames",

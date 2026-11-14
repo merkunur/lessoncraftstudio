@@ -1670,7 +1670,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Top half: four plain solids (sphere, cube, cylinder, cone), each with a line to draw to the everyday object of the same shape (ball, number cube, soup can, party hat). Bottom half: twelve objects and solids in different sizes, some lying on their side; the child colors them by a code of four crayons, one color for each solid name."
+            "page": "Top half: four plain solids (sphere, cube, cylinder, cone), each with a line to draw to the everyday object of the same shape (ball, number cube, soup can, party hat). Bottom half: twelve objects and solids in different sizes, some lying on their side; the child colors them by a code of four crayons, one color for each solid name.",
+            "placed": "2:solids-in-real-life#name-the-solid-shapes"
           },
           {
             "existing": "K:compose-shapes",
@@ -1815,7 +1816,8 @@
             "days": 2,
             "tool": "Number Bonds Board",
             "source": "new",
-            "page": "Four stories in which nothing moves ('3 red apples and 5 green apples are in the bowl. How many apples?'). Under each story is a row of ten outlined objects and the frame _ + _ = _. The child colors the two kinds in two colors, leaves the rest white, and writes all three numbers. Totals from 3 to 10; no group is zero. In class children lay out counters of two colors first."
+            "page": "Four stories in which nothing moves ('3 red apples and 5 green apples are in the bowl. How many apples?'). Under each story is a row of ten outlined objects and the frame _ + _ = _. The child colors the two kinds in two colors, leaves the rest white, and writes all three numbers. Totals from 3 to 10; no group is zero. In class children lay out counters of two colors first.",
+            "placed": "1:word-problems#two-kinds-together"
           }
         ],
         "opened": "k-adding-and-taking-away-within-10"

@@ -319,7 +319,7 @@
    "subject": "math",
    "title": "Shapes All Around",
    "metaTitle": "Kindergarten Math Lesson Plans: Shapes All Around",
-   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on naming shapes, counting sides, flat and solid shapes, building with tangram pieces, and mirror pictures.",
+   "metaDescription": "A three-week Kindergarten math unit: 6 lessons on naming shapes, counting sides, flat and solid shapes, naming solids, tangram pieces, and mirror pictures.",
    "weeks": 3,
    "lessons": [
     {
@@ -340,6 +340,22 @@
      "point": "2:flat-or-solid",
      "types": [
       "G2-244"
+     ]
+    },
+    {
+     "point": "2:solids-in-real-life",
+     "id": "2:solids-in-real-life#name-the-solid-shapes",
+     "types": [
+      "K-644",
+      "G2-243"
+     ],
+     "core": {
+      "G2-243": 1
+     },
+     "tool": null,
+     "activity": null,
+     "standards": [
+      "K.G.A.2"
      ]
     },
     {
@@ -482,8 +498,8 @@
    "subject": "math",
    "title": "Adding and Taking Away Within 10",
    "metaTitle": "Kindergarten Math Lesson Plans: Adding and Taking Away Within 10",
-   "metaDescription": "A two-week Kindergarten math unit: 4 lessons on putting two groups together, taking away on a ten-frame, and addition and take-away stories within 10.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten math unit: 5 lessons on putting two groups together, taking away on a ten-frame, and adding, take-away, and put-together stories.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:combine-groups",
@@ -529,6 +545,18 @@
       "G1-239": 1
      },
      "tool": null,
+     "activity": null,
+     "standards": [
+      "K.OA.A.2"
+     ]
+    },
+    {
+     "point": "1:word-problems",
+     "id": "1:word-problems#two-kinds-together",
+     "types": [
+      "K-643"
+     ],
+     "tool": "part-whole-frame",
      "activity": null,
      "standards": [
       "K.OA.A.2"

@@ -1003,7 +1003,7 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Build shapes from pieces",
      "type": "K-358",
      "tasks": 1
@@ -1011,7 +1011,8 @@
    ],
    "notCovered": [
     3,
-    5
+    4,
+    6
    ],
    "forms": {
     "A": {

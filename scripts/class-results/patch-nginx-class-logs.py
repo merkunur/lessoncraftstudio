@@ -11,9 +11,13 @@ carries the class key and, for one endpoint, a seat id.
 
 WHAT
 ----
-1. /etc/nginx/conf.d/lcs-class-log-format.conf: a log format `lcs_class` with the time, the method, the path cut to
-   "/c/*" or "/api/class/*", the status, the size and the duration. Nothing else: no address, no user agent, no
-   referrer, no class key. It keeps what operations need (how many, how slow, which status).
+1. /etc/nginx/conf.d/lcs-class-log-format.conf: two log formats, `lcs_class_page` and `lcs_class_api`, with the
+   time, the method, the fixed words "/c/*" or "/api/class/*" in place of the path, the status, the size and the
+   duration. Nothing else: no address, no user agent, no referrer, no class key. It keeps what operations need (how
+   many, how slow, which status).
+   (Two formats and no `map`: conf.d is read BEFORE the site file, whose first line sets map_hash_max_size, and nginx
+   refuses that directive after any map: "map_hash_max_size directive is duplicate". Found on the first install,
+   2026-11-14; the script had restored both files.)
 2. Two locations before `location / {` in every server block that proxies the site:
        location ^~ /c/            the children's class page
        location ^~ /api/class/    what that page and the reporter call
@@ -48,17 +52,13 @@ MAIN_LOC_RE = re.compile(r"^\s*location\s+/\s*\{")
 FORMAT = """# Managed by scripts/class-results/patch-nginx-class-logs.py — do not hand-edit.
 #
 # Requests made through a class link are logged WITHOUT the address, the user agent, the referrer and the class key
-# (legal decision of 2026-11-14, condition E4). The path is cut to its first part.
-map $uri $lcs_class_path {
-    default          "-";
-    ~^/c/            "/c/*";
-    ~^/api/class/    "/api/class/*";
-}
-log_format lcs_class '[$time_local] $request_method $lcs_class_path $status $body_bytes_sent rt=$request_time';
+# (legal decision of 2026-11-14, condition E4). The path is replaced by its first part. No `map` here: see the script.
+log_format lcs_class_page '[$time_local] $request_method /c/* $status $body_bytes_sent rt=$request_time';
+log_format lcs_class_api  '[$time_local] $request_method /api/class/* $status $body_bytes_sent rt=$request_time';
 """
 
 LOCATION = """    location ^~ {path} {{
-        access_log /var/log/nginx/access.log lcs_class;
+        access_log /var/log/nginx/access.log {fmt};
         limit_req zone=lcsasset burst=300 nodelay;
         proxy_pass http://nextjs;
         proxy_http_version 1.1;
@@ -75,7 +75,8 @@ LOCATION = """    location ^~ {path} {{
     }}
 """
 
-BLOCK = "    " + MARKER + "\n" + LOCATION.format(path="/c/") + LOCATION.format(path="/api/class/") + "    " + END + "\n\n"
+BLOCK = ("    " + MARKER + "\n" + LOCATION.format(path="/c/", fmt="lcs_class_page")
+         + LOCATION.format(path="/api/class/", fmt="lcs_class_api") + "    " + END + "\n\n")
 
 
 def run(cmd):

@@ -266,6 +266,8 @@
   "G1-575": "1:info-text-key-details",
   "G1-576": "1:main-topic-key-details",
   "G1-577": "1:text-features",
-  "G1-578": "1:text-features"
+  "G1-578": "1:text-features",
+  "K-645": "K:fact-text-key-details",
+  "K-646": "K:fact-text-main-topic"
  }
 }

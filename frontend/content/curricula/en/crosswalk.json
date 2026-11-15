@@ -2251,6 +2251,26 @@
    ],
    "by": "code"
   },
+  "K:fact-text-key-details": {
+   "rows": [
+    {
+     "id": "RI.K.1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:fact-text-main-topic": {
+   "rows": [
+    {
+     "id": "RI.K.2",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

@@ -2606,6 +2606,36 @@
    ],
    "by": "authored"
   },
+  "K:fact-text-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.6.C",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:fact-text-main-topic": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.i",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.5.G",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

@@ -2505,6 +2505,14 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:fact-text-key-details": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:fact-text-main-topic": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

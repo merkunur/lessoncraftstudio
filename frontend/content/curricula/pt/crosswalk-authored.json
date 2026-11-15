@@ -4088,6 +4088,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
    "review": "year-design 2026-11-15"
+  },
+  "K:fact-text-key-details": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English fact texts of Kindergarten (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first fact texts of this language are written.",
+   "review": "year-design 2026-11-15"
+  },
+  "K:fact-text-main-topic": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English fact texts of Kindergarten (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first fact texts of this language are written.",
+   "review": "year-design 2026-11-15"
   }
  }
 }

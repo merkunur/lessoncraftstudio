@@ -108,6 +108,26 @@
    "strand": "Reading: Informational Text",
    "code": "RI.1.5",
    "skill": "Use headings, bold words, a caption and a glossary to find facts and word meanings in an informational text"
+  },
+  {
+   "tp": "K:fact-text-key-details",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.1",
+   "skill": "Listen to a short fact text, read along, and answer questions about its key details with a picture",
+   "activities": [
+    "atlas-fact-files.key-detail.ri-k-1"
+   ]
+  },
+  {
+   "tp": "K:fact-text-main-topic",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.2",
+   "skill": "Name what a whole fact text is about and tell two key details of it",
+   "activities": [
+    "nila-pond.main-idea-net.ri-k-2"
+   ]
   }
  ]
 }

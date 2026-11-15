@@ -4453,6 +4453,34 @@
    ],
    "why": "Finding a fact from a heading, a bold word, a caption or the glossary is «features and simple graphics to locate or gain information» in informational text.",
    "review": "year-design 2026-11-15"
+  },
+  "K:fact-text-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.6.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Answering and asking questions about a short fact text that is read aloud is «generate questions about text before, during, and after reading to deepen understanding and gain information with adult assistance»; choosing the picture the text tells about is «use text evidence to support an appropriate response».",
+   "review": "year-design 2026-11-15"
+  },
+  "K:fact-text-main-topic": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.5.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling what the whole text is about and showing two things it tells is «the central idea and supporting evidence with adult assistance» of informational text; choosing the key details is «evaluate details to determine what is most important with adult assistance».",
+   "review": "year-design 2026-11-15"
   }
  }
 }

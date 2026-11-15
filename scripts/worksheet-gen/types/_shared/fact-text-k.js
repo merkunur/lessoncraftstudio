@@ -44,6 +44,11 @@ const shuffle = (a, rng) => { const b = a.slice(); for (let i = b.length - 1; i 
 const pk = (p) => p.theme + '/' + p.noun;
 const words = (s) => String(s).split(/\s+/).filter(Boolean).length;
 
+// The picture cache is on the machines that BUILD pages (the PC, the makers' build). The server loads every type module
+// for its content gates and has no cache: there the pictures are not looked up (the deploy of 2026-11-15 stopped on it).
+let HAVE_PICTURES = true;
+try { require('../../image-cache/resolve.js').manifest(); } catch (e) { HAVE_PICTURES = false; }
+
 /** What must be true of a Kindergarten text before any page prints it. Returns the list of faults (empty = sound). */
 function faultsOf(t) {
   const f = [], id = t.id;
@@ -76,7 +81,7 @@ function faultsOf(t) {
     if (new Set(three).size !== 3 || !c.firstWord || !c.thenWord) f.push(id + ': the change is not two different pictures with their words and a third picture');
     else if (((mt && mt.pics) || []).map(pk).includes(pk(c.other)) || pk(c.other) === pk(t.picture)) f.push(id + ': the picture that is no part of the change is a picture of the text');
   }
-  for (const p of [t.picture, ...t.questions.flatMap((q) => [q.right, ...(q.wrong || [])]), ...tw, ...((mt && mt.pics) || []), ...(t.change ? [t.change.first, t.change.then, t.change.other] : [])]) { try { fileUri(p.theme, p.noun); } catch (e) { f.push(`${id}: no library picture ${pk(p)}`); } }
+  if (HAVE_PICTURES) for (const p of [t.picture, ...t.questions.flatMap((q) => [q.right, ...(q.wrong || [])]), ...tw, ...((mt && mt.pics) || []), ...(t.change ? [t.change.first, t.change.then, t.change.other] : [])]) { try { fileUri(p.theme, p.noun); } catch (e) { f.push(`${id}: no library picture ${pk(p)}`); } }
   return f;
 }
 const TEXTS = BANK.k || [];

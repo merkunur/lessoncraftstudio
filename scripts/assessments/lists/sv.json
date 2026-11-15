@@ -25,7 +25,7 @@
   "G1-282": "Ordna orden till en mening och skriv den på raden. Meningen börjar med stor bokstav och slutar med punkt.",
   "G1-287": "Varje kort visar det dubbla av ett tal. Skriv hur många det är tillsammans.",
   "G1-266": "Lägg ihop talen i två stenar som ligger bredvid varandra. Skriv summan i stenen ovanför.",
-  "K-016": "Bilderna står i par. Om en blir över är talet udda. Ringa in udda eller jämnt.",
+  "K-016": "Bilderna står i par. Är talet udda eller jämnt? Ringa in rätt ord.",
   "G3-338": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA area, alltså lika många rutor.",
   "G3-339": "Titta på rektangeln till vänster. Ringa in rektangeln till höger som har SAMMA omkrets, alltså lika långt runt om.",
   "G3-346": "Räkna alla kuber i varje bygge. Skriv hur många kuber det är.",
@@ -42,7 +42,7 @@
   "G1-219": "Titta på de tre talen i taket. Räkna ut de fyra uppgifterna som hör ihop.",
   "G1-381": "Läs namnet. Ringa in alla figurer som är en sådan form.",
   "G1-155": "Två bilder saknas i mönstret. Dra ett streck från rätt bild till varje tom ruta. Två bilder blir över.",
-  "G1-139": "Hur lång är bilden? Räkna de färgade rutorna under den och skriv hur många rutor lång den är.",
+  "G1-139": "Hur lång är bilden? Räkna rutorna under den, från den ena änden till den andra, och skriv hur många rutor lång den är.",
   "K-275": "Vilken tjugokamrat saknas? Skriv talet som fattas i den streckade cirkeln.",
   "G1-370": "Ringa in bilderna två och två. Skriv hur många par det blev. Är antalet bilder udda eller jämnt? Ringa in rätt ord.",
   "G1-260": "Säg ordet till bilden och skriv det på raden.",
@@ -59,25 +59,49 @@
   "G1-312": "Säg ordet till bilden långsamt. Skriv ett ljud i varje ruta. Börja längst till vänster och lämna de rutor du inte behöver tomma.",
   "K-231": "Bygg ordet till varje bild med de tre bokstäverna.",
   "K-358": "Titta på bitarna ovanför figuren. Rita linjerna inuti figuren där bitarna möts.",
-  "K-237": "Spåra varje siffra. Skriv den sedan själv i den tomma rutan.",
+  "K-237": "Spåra varje siffra. Skriv den sedan själv i slutet av raden.",
   "K-253": "Spåra varje siffra. Skriv den sedan själv i den tomma rutan.",
   "G1-243": "Titta på det stora talet. Fyll i varje ruta med hjälp av talet.",
   "K-644": "Dra ett streck från kroppen till saken med samma form.",
   "G2-516": "Rita ett kryss ovanför tallinjen för varje längd. Svara sedan på frågan.",
-  "K-389": "Läs meningen. Skriv ordet från rutan på linjen.",
+  "K-389": "Läs meningen. Välj det ord i rutan som passar och skriv det på linjen.",
   "G2-339": "Läs alternativen och ringa in det som stämmer för djuret.",
   "G1-293": "Är ordet ett substantiv eller ett verb? Skriv det i rätt ruta.",
   "G3-493": "Varje penna ligger vid sin egen linjal. Skriv längden med en halv centimeters noggrannhet.",
   "G2-279": "Hitta varje ruta med hjälp av bokstav och siffra, till exempel B2. Måla den i gruppens färg.",
-  "G3-397": "Skriv varje ord i fältet gå eller i fältet titta, där det hör hemma.",
+  "G3-397": "Skriv varje ord i rätt fält: gå eller titta.",
   "G2-296": "Titta i kalendern och svara på varje fråga.",
   "G1-330": "Säg ordet till varje bild och ringa in det ord under bilden som passar.",
-  "G2-317": "Läs varje mening och verbet inom parentes. Skriv rätt form av verbet i rutan."
+  "G2-317": "Läs varje mening och verbet inom parentes. Skriv rätt form av verbet i rutan.",
+  "K-642": "Lyssna på räknehändelsen. Rita den i rutan. Skriv svaret.",
+  "K-639": "Dela bilderna lika i lådorna. Skriv hur många det blir i varje låda.",
+  "K-042": "Dra ett streck från bilden till den låda där den hör hemma.",
+  "K-351": "Dra ett streck från bilden till den bild och det ord som visar motsatsen.",
+  "K-379": "Titta på vad som ändras i berättelsen. Skriv 1, 2, 3 och 4 i rutorna så att bilderna kommer i rätt ordning.",
+  "K-222": "Ringa in den lilla bokstaven som hör ihop med den stora.",
+  "K-238": "Spåra varje bokstav. Skriv sedan bokstaven själv i slutet av raden. Börja vid den orange pricken och följ pilarna.",
+  "K-223": "Skriv de bokstäver som fattas i alfabetet.",
+  "K-233": "Lyssna när jag säger ordet. Skriv hur många stavelser du hör.",
+  "K-221": "Lyssna när jag säger ordet. Skriv bokstaven som ordet börjar med.",
+  "K-226": "Lyssna när jag säger ordet. Skriv bokstaven som ordet slutar med.",
+  "K-059": "Hitta alla bilder som är likadana som den i rutan. Ringa in dem.",
+  "G1-143": "Läs av staplarna. Skriv hur många varje stapel visar.",
+  "G1-160": "Dra ett streck från varje bild till den låda där den hör hemma.",
+  "G1-511": "Läs räknehändelsen. Jämför de två raderna med bilder. Skriv i rutan hur många fler det är.",
+  "G1-571": "Frågan saknas. Skriv en egen fråga som du kan räkna ut. Skriv sedan uträkningen och svaret.",
+  "G1-255": "Dagens tal ligger mellan 11 och 20. Fyll i alla tomma rutor.",
+  "G1-350": "Läs meningen. Välj det ord i ordlistan som passar och skriv det i rutan.",
+  "G1-353": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem: vem, vad eller var.",
+  "G2-240": "Räkna kryssen ovanför varje tal. Skriv hur många det är.",
+  "G2-507": "Du drar en bricka ur påsen utan att titta. Titta på brickan i början av varje rad. Är det säkert, möjligt eller omöjligt att du drar den brickan? Kryssa i en ruta på varje rad. Möjligt betyder att det kan hända, men det behöver inte hända.",
+  "G2-274": "Meningen saknar stor bokstav och skiljetecken. Skriv den rätt på raden.",
+  "K-302": "En bild eller flera? Skriv ordet för flera.",
+  "G2-315": "Titta på exemplen i rutan. Säg ordet till bilden och skriv de bokstäver som fattas i den streckade rutan.",
+  "G2-375": "Ringa in den del som de tre orden har gemensamt och skriv ordstammen i den tomma rutan.",
+  "G3-399": "Välj det ord som passar i meningen och skriv det i rutan.",
+  "G3-340": "Är det en rektangel? Kvadrater är också rektanglar. Dra ett streck från varje figur till rätt låda."
  },
- "noCheck": {
-  "sv-f-sv-spraklekar": "[sv.review-1] Three of the four parts show pictures with several likely words, or sounds that cannot be told apart by ear (ängel: ä or e; kort and skrivbord: rt and rd are one sound; lemonad, trollstav), and rhyme has no part. The check waits until its pictures are chosen word by word for Swedish.",
-  "sv-1-sv-ord-meningar": "[sv.review-1] All three parts need changes, and four of the seven lessons have no part, among them all reading of single words: the check shows too little of the unit."
- },
+ "noCheck": {},
  "avoid": {
   "K-016": [
    10
@@ -135,7 +159,9 @@
   "G1-397": "handlig",
   "K-231": "x|^s\\|j|^g\\|[eiyäö]|^k\\|[eiyäö]|g\\|n$|l\\|g$|(.)\\|\\1",
   "G1-266": "^4\\|4\\|8$",
-  "G3-482": "^(10\\|12|25\\|30|50\\|60)$"
+  "G3-482": "^(10\\|12|25\\|30|50\\|60)$",
+  "G1-353": "^Vem\\|Vad\\|Var$",
+  "K-639": "^2$"
  },
  "pairKind": [
   "G3-319"
@@ -150,11 +176,13 @@
  "kindText": {
   "K-368": "(?=.*kvadrat)(?=.*rektangel).*→ 1:(kvadrat|rektangel)",
   "G3-315": "→ 1\\|",
-  "G1-131": "−1 \\d*[09] \\+1"
+  "G1-131": "−1 \\d*[09] \\+1",
+  "G2-317": "→.*[a-zåäö](ade|de|te)(\\||$)"
  },
  "mixKinds": [
   "K-368",
-  "G3-315"
+  "G3-315",
+  "K-639"
  ],
  "topFact": [
   "G1-266"
@@ -207,7 +235,9 @@
  ],
  "disjointWords": [
   "G1-395",
-  "G1-337"
+  "G1-337",
+  "K-389",
+  "G2-317"
  ],
  "disjointForm": [
   "G1-337",
@@ -227,7 +257,8 @@
   "G2-223": "([1-9]00 \\+.*){2}",
   "G1-282": "^[^?]*$",
   "G1-104": "− [2-9] =",
-  "G3-377": "\\d+\\D+[3-9]\\s*="
+  "G3-377": "\\d+\\D+[3-9]\\s*=",
+  "G2-339": "^(Uggla|Lejon|Tiger|Varg|Haj|Örn|Ko|Häst|Får|Get|Giraff|Elefant|Zebra|Hjort|Rådjur|Björn)\\s"
  },
  "avoidPictures": [
   "vulture"
@@ -251,7 +282,8 @@
   "G1-312": "Ge poäng när eleven har skrivit ett ljud i varje ruta, i rätt ordning, och lämnat de övriga rutorna tomma. Ljudenlig stavning godtas.",
   "G1-305": "Poängen ges för rätt antal bågar. Den exakta gränsen mellan stavelserna behöver inte stämma (sköld-pad-da och sköld-padd-a har båda tre bågar).",
   "K-011": "Poängen ges när rätt antal bilder är målade, vilka av bilderna det än är.",
-  "K-368": "Läs de tre namnen uppifrån och ned och peka på varje namn medan du läser."
+  "K-368": "Läs de tre namnen uppifrån och ned och peka på varje namn medan du läser.",
+  "G1-568": "Godta också en annan uträkning som stämmer med händelsen (till exempel 14 − 8 = 6 eller 6 + 8 = 14)."
  },
  "reasons": {
   "carried over": "[from the English and German reviews] See lists/en.json and lists/de.json for the reason of each ruling carried over (avoid K-016 G2-351 G2-242, blend G3-364, sameGiven, lowestTerms, avoidAns G3-317 G2-223, pairKind, sameLook, theme K-063, avoidEcho, parity, disjointWords, slotWide, take, onlyText, the first eight dropType lines).",
@@ -296,11 +328,21 @@
   "G3-367 G3-405 avoidNums": "[teacher-reviewer of the Year pages K, 2026-11-13] Form A asked 5 · 3, 5 · 6 and 5 · 9 and form B no fact of 5: the tables of 1, 2, 5 and 10 are known since åk 2, so a class that takes A before and B after looks as if it learned less than it did. The parts of the tables unit ask no fact with 1, 2, 5 or 10.",
   "G3-482 avoidAns": "The same ruling for the chains of the table of 6: no chain of 2 · 6, 5 · 6 or 10 · 6.",
   "G3-377 onlyText": "[teacher-reviewer of the Year pages K, 2026-11-13, optional] Form A asked 21 / 2 (ten groups to ring, a two-digit quotient) and form B 22 / 5 (four groups): the forms were not the same size of task. The part divides by 3 to 9.",
-  "G2-216 kept": "[teacher-reviewer of the Year pages K, 2026-11-13; decided, not applied] The reviewer asked to take 9 / 3 = 3 and 16 / 4 = 4 out of the sharing part (the answer is the number of boxes, so the mistake of writing the number of boxes scores as right). Without them the page of the level the lesson hands out leaves six different tasks, too few to fill two forms of the same size, and the part fell back to the grouping page, where the rings are drawn and the child only counts them. The sharing part stays: each form has one task whose answer is not its number of boxes (15 / 3, 10 / 2)."
+  "G2-216 kept": "[teacher-reviewer of the Year pages K, 2026-11-13; decided, not applied] The reviewer asked to take 9 / 3 = 3 and 16 / 4 = 4 out of the sharing part (the answer is the number of boxes, so the mistake of writing the number of boxes scores as right). Without them the page of the level the lesson hands out leaves six different tasks, too few to fill two forms of the same size, and the part fell back to the grouping page, where the rings are drawn and the child only counts them. The sharing part stays: each form has one task whose answer is not its number of boxes (15 / 3, 10 / 2).",
+  "otherWords": "[second review 2026-11-15] Form B repeated form A: torsdag in both forms, \"Otto … på lekplatsen\" in both, promenera and springa in both. Form B takes the box that shares the fewest words with form A.",
+  "G1-353 order": "[second review 2026-11-15] Svaren gick Vem, Vad, Var uppifrån och ned i båda formerna, samma ordning som knapparna: no card in that order, and form B in another order than form A.",
+  "G2-507 keyAttr": "[second review 2026-11-15] Form B repeated form A: the same bag of squares only and the same pattern of crosses. The bags tell the cards apart, and form B takes the card that shares no bag with form A.",
+  "G2-339 onlyText": "[second review 2026-11-15] Ingen faktatext på kortet: only animals whose food every child knows (mus → \"både och\" was harder than kamel → \"växter\").",
+  "G2-317 kindText": "[second review 2026-11-15] Form A had two strong past forms (sov, sprang), form B two weak ones (viskade, gömde): a box with a weak past form faces a box with a weak past form.",
+  "K-268 kindOps": "[second review 2026-11-15] Form B had four additions, two of them with a zero, against four subtractions in form A: form B's picture has as many subtractions as form A's, and no picture has two sums with a zero.",
+  "K-639 otherTask": "[second review 2026-11-15] Form B's second box (9 in 3 boxes) was form A's second box: no box of form B has the boxes and the answer of a box of form A.",
+  "turnB": "[second review 2026-11-15] Both forms were answered in one order (3-1-2): form B stands in the other order where its boxes then still face boxes of their size. K-016 (jämnt, udda in both forms) is NOT turned: its boxes are 8 and 7 against 6 and 5, and the gate holds box against box to one size; the reviewer listed it as minor.",
+  "K-389 disjointWords": "[second review 2026-11-15] Form B had the pair han/har on both cards, so the second card was solved by what was left.",
+  "G2-317 disjointWords": "[second review 2026-11-15, own read of the rebuilt part] Form B asked the verb äta on both cards: two cards of the part share no word.",
+  "K-639 avoidAns": "[second review 2026-11-15] 4 in 2 boxes (answer 2) was much easier than form A's 8 in 2 boxes: no box with the answer 2.",
+  "K-064 askAgain": "[2026-11-15] The page now asks ON, UNDER and BESIDE in turn (it asked ON on every card). The place word is what a card asks, and there are three: form B may ask a place form A asks, with other pictures; a part never asks one place twice in a form."
  },
- "sameAnswer": [
-  "G1-353"
- ],
+ "sameAnswer": [],
  "endMark": [
   "G1-282"
  ],
@@ -325,5 +367,33 @@
  ],
  "otherFirst": [
   "G1-104"
+ ],
+ "kindAttr": {
+  "K-639": "bins"
+ },
+ "otherWords": [
+  "G1-319",
+  "G1-353",
+  "G3-397",
+  "G1-293",
+  "G2-317"
+ ],
+ "sameAnswerSet": [
+  "G1-353"
+ ],
+ "keyAttr": {
+  "G2-507": "bag"
+ },
+ "kindOps": [
+  "K-268"
+ ],
+ "otherTask": [
+  "K-639"
+ ],
+ "turnB": [
+  "K-033"
+ ],
+ "askAgain": [
+  "K-064"
  ]
 }

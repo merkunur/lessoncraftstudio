@@ -12,46 +12,55 @@
      "lesson": 1,
      "title": "Lägesord: på, under, bredvid, vänster och höger",
      "type": "K-064",
-     "tasks": 1
+     "tasks": 2
     },
     {
      "part": 2,
+     "lesson": 2,
+     "title": "Hitta alla som är likadana",
+     "type": "K-059",
+     "tasks": 1
+    },
+    {
+     "part": 3,
      "lesson": 3,
      "title": "Störst och högst",
      "type": "K-032",
      "tasks": 1
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 4,
      "title": "Ordna efter storlek",
      "type": "K-033",
      "tasks": 1
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 5,
      "title": "Vad är tyngst?",
      "type": "K-038",
      "tasks": 1
     },
     {
-     "part": 5,
+     "part": 6,
      "lesson": 6,
      "title": "Mönster: vad kommer sedan?",
      "type": "K-046",
      "tasks": 1
     }
    ],
-   "notCovered": [
-    2
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
      "pages": 3,
      "cards": [
       [
-       "e9dc813e39e026e1"
+       "4cd411b9ff4d9381",
+       "60281b087c5ad8c3"
+      ],
+      [
+       "c22576ac8b08672f"
       ],
       [
        "b37f889ce1e80510"
@@ -68,7 +77,11 @@
      ],
      "pos": [
       [
-       1
+       2,
+       3
+      ],
+      [
+       2
       ],
       [
        2
@@ -85,7 +98,11 @@
      ],
      "kinds": [
       [
-       ""
+       "w w",
+       "w w"
+      ],
+      [
+       "choose 3"
       ],
       [
        ""
@@ -101,6 +118,10 @@
       ]
      ],
      "sizes": [
+      [
+       0,
+       0
+      ],
       [
        0
       ],
@@ -122,13 +143,17 @@
      "pages": 3,
      "cards": [
       [
-       "9687f413b51a6346"
+       "b50ccf22dc8b9335",
+       "c3616d1b8931e4cc"
+      ],
+      [
+       "100b524951c8fe20"
       ],
       [
        "e07d881b91e3327f"
       ],
       [
-       "93aa308ded620854"
+       "0abbba9f57e5c3e9"
       ],
       [
        "27436931f5525103"
@@ -139,7 +164,11 @@
      ],
      "pos": [
       [
-       1
+       1,
+       2
+      ],
+      [
+       5
       ],
       [
        0
@@ -156,7 +185,11 @@
      ],
      "kinds": [
       [
-       ""
+       "w w",
+       "w w"
+      ],
+      [
+       "choose 3"
       ],
       [
        ""
@@ -172,6 +205,10 @@
       ]
      ],
      "sizes": [
+      [
+       0,
+       0
+      ],
       [
        0
       ],
@@ -223,11 +260,17 @@
      "title": "Fler, färre och lika många",
      "type": "K-008",
      "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 6,
+     "title": "Skriva siffrorna 0 till 9",
+     "type": "K-237",
+     "tasks": 2
     }
    ],
    "notCovered": [
     1,
-    6,
     7
    ],
    "forms": {
@@ -242,11 +285,15 @@
        "f630110750e49b8f"
       ],
       [
-       "381dc3694a74c14e",
-       "ca25da864db06fad"
+       "a78d89dc6d3533e3",
+       "77d44acc8b68d143"
       ],
       [
        "fb373fbb0aa1af6e"
+      ],
+      [
+       "50a70fa058b9f1ab",
+       "37a921da080bff0c"
       ]
      ],
      "pos": [
@@ -259,10 +306,14 @@
       ],
       [
        1,
-       0
+       2
       ],
       [
        0
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -279,6 +330,10 @@
       ],
       [
        ""
+      ],
+      [
+       "?",
+       "?"
       ]
      ],
      "sizes": [
@@ -290,11 +345,15 @@
        3
       ],
       [
-       7,
+       9,
        6
       ],
       [
        8
+      ],
+      [
+       7,
+       2
       ]
      ]
     },
@@ -309,11 +368,15 @@
        "7c73961d99723c1f"
       ],
       [
-       "ef3c6b3aee2fcc07",
-       "d2b3b1ab82d83876"
+       "383da09c9c22a47f",
+       "491007d72929bab9"
       ],
       [
        "497170efb8b8ad66"
+      ],
+      [
+       "332c12f81211c395",
+       "1417bd289b2fd2ae"
       ]
      ],
      "pos": [
@@ -326,10 +389,14 @@
       ],
       [
        0,
-       1
+       0
       ],
       [
        1
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -346,6 +413,10 @@
       ],
       [
        ""
+      ],
+      [
+       "?",
+       "?"
       ]
      ],
      "sizes": [
@@ -357,11 +428,15 @@
        4
       ],
       [
-       7,
-       5
+       9,
+       6
       ],
       [
        7
+      ],
+      [
+       8,
+       1
       ]
      ]
     }
@@ -411,7 +486,7 @@
        "384b29f52be42ec5"
       ],
       [
-       "75f4af3319874fcc"
+       "337211081b4f7679"
       ]
      ],
      "pos": [
@@ -470,7 +545,7 @@
        "aae98e4dc2ad7797"
       ],
       [
-       "c10daa1fc1bdadee"
+       "faf2f484f5689c14"
       ]
      ],
      "pos": [
@@ -525,41 +600,58 @@
    "parts": [
     {
      "part": 1,
+     "lesson": 1,
+     "title": "Sortera och räkna varje sort",
+     "type": "K-013",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Klassens diagram: läs av staplarna",
+     "type": "G1-143",
+     "tasks": 1
+    },
+    {
+     "part": 3,
      "lesson": 3,
      "title": "Uppskatta: en bra gissning",
      "type": "K-029",
      "tasks": 1
     },
     {
-     "part": 2,
+     "part": 4,
      "lesson": 4,
      "title": "Hur många tillsammans?",
      "type": "K-028",
      "tasks": 1
     },
     {
-     "part": 3,
+     "part": 5,
      "lesson": 5,
      "title": "Femkamrater: dela upp talet 5",
      "type": "K-273",
      "tasks": 1
     },
     {
-     "part": 4,
+     "part": 6,
      "lesson": 6,
      "title": "Dela upp talen upp till 10",
      "type": "K-274",
      "tasks": 2
     }
    ],
-   "notCovered": [
-    1,
-    2
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
+      [
+       "7f754275521f3039"
+      ],
+      [
+       "bc07fc808d98a438"
+      ],
       [
        "5c2fcb379f359438"
       ],
@@ -576,6 +668,12 @@
      ],
      "pos": [
       [
+       null
+      ],
+      [
+       null
+      ],
+      [
        1
       ],
       [
@@ -591,6 +689,12 @@
      ],
      "kinds": [
       [
+       "? ? ?"
+      ],
+      [
+       "w w w w w w = ? = ?"
+      ],
+      [
        "w w"
       ],
       [
@@ -605,6 +709,12 @@
       ]
      ],
      "sizes": [
+      [
+       5
+      ],
+      [
+       5
+      ],
       [
        25
       ],
@@ -621,8 +731,14 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
+      [
+       "aedc6d0a7e827f85"
+      ],
+      [
+       "986de9c362054443"
+      ],
       [
        "bbad3e4adccd6157"
       ],
@@ -639,6 +755,12 @@
      ],
      "pos": [
       [
+       null
+      ],
+      [
+       null
+      ],
+      [
        0
       ],
       [
@@ -653,6 +775,12 @@
       ]
      ],
      "kinds": [
+      [
+       "? ? ?"
+      ],
+      [
+       "w w w w w w = ? = ?"
+      ],
       [
        "w w"
       ],
@@ -669,6 +797,12 @@
      ],
      "sizes": [
       [
+       5
+      ],
+      [
+       5
+      ],
+      [
        30
       ],
       [
@@ -680,6 +814,741 @@
       [
        9,
        7
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-f-ma-lagga-till-ta-bort",
+   "slug": "lagga-till-ta-bort-och-losa-problem-forskoleklass",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Några kommer till: först, sedan, nu",
+     "type": "K-642",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Några går iväg: hur många är kvar?",
+     "type": "K-642",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Dela lika: en till dig, en till mig",
+     "type": "K-639",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Lös problemet: lägg, rita och berätta",
+     "type": "K-642",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "7afd522f2810055d"
+      ],
+      [
+       "9ba95c298612ac44"
+      ],
+      [
+       "a9fdafe829edfc77",
+       "9e6144a90111f063"
+      ],
+      [
+       "cf61391370972afd"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w. w w w w w. w w w w w w? ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w? ?"
+      ],
+      [
+       "? ·2",
+       "? ·3"
+      ],
+      [
+       "w w w w w w w w w w. w w w w w w? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       5
+      ],
+      [
+       8
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       8
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "ee8a2dce85fb0479"
+      ],
+      [
+       "a3879cd414391109"
+      ],
+      [
+       "3789f8a7a63631d6",
+       "1a3be312b01d91c4"
+      ],
+      [
+       "d920cab758ab0eb2"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w. w w w w w. w w w w w w? ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w? ?"
+      ],
+      [
+       "? ·2",
+       "? ·3"
+      ],
+      [
+       "w w w w w w w w w w. w w w w w w? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       6
+      ],
+      [
+       9
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       9
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-f-sv-spraklekar",
+   "slug": "spraklekar-rim-stavelser-och-ljud-forskoleklass",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Klappa stavelser",
+     "type": "K-233",
+     "tasks": 3
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Första ljudet i ordet",
+     "type": "K-221",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Sista ljudet och ljudet i mitten",
+     "type": "K-226",
+     "tasks": 3
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Räkna ljuden i ordet",
+     "type": "K-329",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "5594646f5cf948b8",
+       "110ff6ed67f92ef2",
+       "7bcce6dc7e1daed5"
+      ],
+      [
+       "3e6f88777ffb925a",
+       "5be96d7da4470e6f",
+       "e3f1f440e21a9493"
+      ],
+      [
+       "2a8d7e2af90a3c78",
+       "7ba02d0be7c991ed",
+       "f9a74ff95b2a70ac"
+      ],
+      [
+       "973a4b5edbf01891",
+       "ed047f5a42150b2e"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "",
+       "",
+       ""
+      ],
+      [
+       "write 1",
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1",
+       "write 1"
+      ],
+      [
+       "?",
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       2,
+       3,
+       1
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "41a615332b7a2b3e",
+       "5a0833fc396546f2",
+       "cd3dfa45239235d6"
+      ],
+      [
+       "5a77b577b2436e0c",
+       "78febc7136d35e8d",
+       "2590911554de7b64"
+      ],
+      [
+       "fb24fce3ea1e5179",
+       "c1a85cf29ad49c0b",
+       "8dd9aa529e9b4eba"
+      ],
+      [
+       "a773def2d82a9719",
+       "6a21ce172d4c7077"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "",
+       "",
+       ""
+      ],
+      [
+       "write 1",
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1",
+       "write 1"
+      ],
+      [
+       "?",
+       "?"
+      ]
+     ],
+     "sizes": [
+      [
+       3,
+       1,
+       2
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-f-sv-ord-berattande",
+   "slug": "ord-begrepp-och-berattande-forskoleklass",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Sortera efter sort",
+     "type": "K-042",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Motsatser",
+     "type": "K-351",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Bildserie: först, sedan, till sist",
+     "type": "K-379",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    2
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "074d8906b0207893",
+       "2391f51d63fb6255"
+      ],
+      [
+       "817996a0d32a096f"
+      ],
+      [
+       "77a5a2326169cc5c"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       4
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "b962cf4240bbd39b",
+       "4bb0fa3590f50eb5"
+      ],
+      [
+       "517f8a61561008fb"
+      ],
+      [
+       "142ecfe6e39afab9"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       2
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       4
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-f-sv-bokstaver",
+   "slug": "bokstaver-och-forsta-skrivandet-forskoleklass",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Hitta bokstaven",
+     "type": "K-229",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Stora och små bokstäver",
+     "type": "K-222",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Skriva bokstäver",
+     "type": "K-238",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Spåra och skriva ord",
+     "type": "K-289",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 7,
+     "title": "Alfabetet i ordning",
+     "type": "K-223",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    6
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "48015e41477079fa",
+       "ebb75c6c73658e2d"
+      ],
+      [
+       "61412e649e2318a7",
+       "eb2ab9fc0dc7928e"
+      ],
+      [
+       "9d53ceb70fe824b0",
+       "04bae730f265dd1f"
+      ],
+      [
+       "9161913835086844"
+      ],
+      [
+       "27bc2b189c081778",
+       "55035484fa398fac"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       5
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3",
+       "choose 3"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 2",
+       "write 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "a95babc4aadfeff7",
+       "32f048b135b6c041"
+      ],
+      [
+       "f1e232a80259fe3e",
+       "07b2d808ad84c7a6"
+      ],
+      [
+       "14182f5f2e65c0e5",
+       "d1978e3a46b96896"
+      ],
+      [
+       "277f448402bb4cc7"
+      ],
+      [
+       "ffbfb09da699c8d6",
+       "f824e7232b051188"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3",
+       "choose 3"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 2",
+       "write 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
       ]
      ]
     }
@@ -849,6 +1718,20 @@
     },
     {
      "part": 3,
+     "lesson": 4,
+     "title": "Räkna och måla efter kod",
+     "type": "K-268",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Räknehändelser till 10",
+     "type": "G1-240",
+     "tasks": 1
+    },
+    {
+     "part": 5,
      "lesson": 6,
      "title": "Huvudräkning 0–10",
      "type": "G1-214",
@@ -856,19 +1739,23 @@
     }
    ],
    "notCovered": [
-    3,
-    4,
-    5
+    3
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "75326a230b1a494d"
       ],
       [
        "4ee814b810c99b1d"
+      ],
+      [
+       "2b3cac0365579a17"
+      ],
+      [
+       "870caed0570b581e"
       ],
       [
        "78d17935e94e6f18",
@@ -883,6 +1770,12 @@
        null
       ],
       [
+       null
+      ],
+      [
+       null
+      ],
+      [
        null,
        null
       ]
@@ -893,6 +1786,12 @@
       ],
       [
        "w − w = ?"
+      ],
+      [
+       "write 6 ·m4"
+      ],
+      [
+       "w w w w. w w w w. w w w w w w w w? + ?"
       ],
       [
        "w + w = ?",
@@ -907,13 +1806,19 @@
        9
       ],
       [
+       7
+      ],
+      [
+       8
+      ],
+      [
        9,
        7
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "d850d4cc63b65065"
@@ -922,11 +1827,23 @@
        "47e19efe58796ad1"
       ],
       [
+       "f5c37615c0f06fa3"
+      ],
+      [
+       "2ee8f18b5dd80823"
+      ],
+      [
        "c1bcf4d6bf2022af",
        "c7567a7a87cff221"
       ]
      ],
      "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
       [
        null
       ],
@@ -946,6 +1863,12 @@
        "w − w = ?"
       ],
       [
+       "write 6 ·m4"
+      ],
+      [
+       "w w w w. w w w w. w w w w w w w w? + ?"
+      ],
+      [
        "w + w = ?",
        "w − w = ?"
       ]
@@ -953,6 +1876,12 @@
      "sizes": [
       [
        9
+      ],
+      [
+       10
+      ],
+      [
+       6
       ],
       [
        10
@@ -1218,7 +2147,7 @@
        "cc7a52fee462b202"
       ],
       [
-       "e6b2474565241e96"
+       "c8a66c77cbcce8fb"
       ]
      ],
      "pos": [
@@ -1265,7 +2194,7 @@
        "92037db19eaca93e"
       ],
       [
-       "d4c9246009b3d400"
+       "25e935920668b53a"
       ]
      ],
      "pos": [
@@ -1363,8 +2292,8 @@
        "ea31206e7c4a8463"
       ],
       [
-       "76521062a9b82bc2",
-       "cfa5bdaaeddc037e"
+       "607c47eccd85674b",
+       "8ce022797583d0a4"
       ],
       [
        "80413c0348faec2b"
@@ -1374,8 +2303,8 @@
        "91c2c0cd8e56849f"
       ],
       [
-       "1b128d09ac9319e9",
-       "c11a6de1c38b4734"
+       "dcf5a54b42f3d7b7",
+       "1b128d09ac9319e9"
       ],
       [
        "80620496d8f2c4eb",
@@ -1388,7 +2317,7 @@
       ],
       [
        2,
-       1
+       0
       ],
       [
        null
@@ -1398,8 +2327,8 @@
        null
       ],
       [
-       2,
-       3
+       3,
+       2
       ],
       [
        1,
@@ -1411,8 +2340,8 @@
        "w w w ? ? ?"
       ],
       [
-       "w w w w",
-       "w w w w"
+       "choose 1",
+       "choose 1"
       ],
       [
        "w ? w"
@@ -1435,8 +2364,8 @@
        20
       ],
       [
-       16,
-       9
+       0,
+       0
       ],
       [
        20
@@ -1446,8 +2375,8 @@
        8
       ],
       [
-       7,
-       6
+       8,
+       7
       ],
       [
        0,
@@ -1462,8 +2391,8 @@
        "1a6bbcf96ef8064b"
       ],
       [
-       "fc1bebd50b48b927",
-       "dcf5a54b42f3d7b7"
+       "d2f5b4cd083d363d",
+       "da0c9a83be5167bb"
       ],
       [
        "3ff40e3e73a3ef1a"
@@ -1473,8 +2402,8 @@
        "b3dfd80127d3ed5f"
       ],
       [
-       "416ce38531631f19",
-       "7c73961d99723c1f"
+       "c11a6de1c38b4734",
+       "416ce38531631f19"
       ],
       [
        "66c2d6c359723d2d",
@@ -1486,8 +2415,8 @@
        null
       ],
       [
-       1,
-       2
+       2,
+       0
       ],
       [
        null
@@ -1497,8 +2426,8 @@
        null
       ],
       [
-       2,
-       3
+       3,
+       2
       ],
       [
        1,
@@ -1510,8 +2439,8 @@
        "w w w ? ? ?"
       ],
       [
-       "w w w w",
-       "w w w w"
+       "choose 1",
+       "choose 1"
       ],
       [
        "w ? w"
@@ -1534,8 +2463,8 @@
        20
       ],
       [
-       15,
-       8
+       0,
+       0
       ],
       [
        20
@@ -1545,8 +2474,8 @@
        6
       ],
       [
-       5,
-       4
+       6,
+       5
       ],
       [
        0,
@@ -1770,6 +2699,442 @@
    }
   },
   {
+   "unit": "sv-1-ma-klockan-almanackan",
+   "slug": "klockan-och-almanackan-ak-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "I går, i dag, i morgon och årets månader",
+     "type": "G1-319",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Ordningstal till tionde",
+     "type": "G1-315",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 6,
+     "title": "Rita visarna på klockan",
+     "type": "G1-233",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    3,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "39eca945de0f99db"
+      ],
+      [
+       "6cdd906a223b95c5"
+      ],
+      [
+       "e675d900897ed7d1",
+       "74500dcf454facf5"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 4"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "c3eccbc9070886da"
+      ],
+      [
+       "df9ff55b55142524"
+      ],
+      [
+       "fccf41ce9a390809",
+       "534b22080ce46451"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 4"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-1-ma-raknehandelser-0-20",
+   "slug": "raknehandelser-och-problemlosning-0-20-ak-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Hur många fler? Jämföra två antal",
+     "type": "G1-511",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Vad hände? Räknehändelser där något saknas",
+     "type": "G1-568",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Rita, räkna, svara",
+     "type": "G1-572",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "389f5b7d754393f1"
+      ],
+      [
+       "a61fd6c43a9c5a50"
+      ],
+      [
+       "4c7dd62f5ad966d3"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w. w w w w. w w w w w w w w? w w ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w w. w w w w w? = ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w? = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       13
+      ],
+      [
+       14
+      ],
+      [
+       13
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "9754c151d92912dc"
+      ],
+      [
+       "f0be16d867da4b9b"
+      ],
+      [
+       "6969f47609e931a0"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w. w w w w. w w w w w w w w? w w ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w w. w w w w w? = ?"
+      ],
+      [
+       "w w w w. w w w w w. w w w w w? = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       14
+      ],
+      [
+       13
+      ],
+      [
+       11
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-1-ma-diagram",
+   "slug": "sortera-tabeller-och-diagram-ak-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Sortera i tre grupper",
+     "type": "G1-160",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Räkna med streck: fem i varje knippe",
+     "type": "K-014",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Sortera, räkna och läsa ett bilddiagram",
+     "type": "G1-141",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Läsa och rita stapeldiagram",
+     "type": "G1-143",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "40a0b22d1be332b5",
+       "21cc079ec7a9673b"
+      ],
+      [
+       "6fa4a5573896b494",
+       "e6df0b9d12c9334c"
+      ],
+      [
+       "e36cdc2a3cf908a2"
+      ],
+      [
+       "49bc4f638aa9e74e"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "?",
+       "?"
+      ],
+      [
+       "= ? = ?"
+      ],
+      [
+       "w w w w w w w w = ? = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       8,
+       5
+      ],
+      [
+       6
+      ],
+      [
+       7
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "9fda032413edc05f",
+       "4c0ae3dc62743159"
+      ],
+      [
+       "b38f61d2b7db6565",
+       "2383d6731ffbda6f"
+      ],
+      [
+       "9fb4d106db9a3fea"
+      ],
+      [
+       "7428df3045ce8e37"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "?",
+       "?"
+      ],
+      [
+       "= ? = ?"
+      ],
+      [
+       "w w w w w w w w = ? = ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       9,
+       4
+      ],
+      [
+       6
+      ],
+      [
+       7
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "sv-1-sv-ljuda-stava",
    "slug": "ljuda-lasa-och-stava-ord-ak-1",
    "status": "live",
@@ -1790,13 +3155,20 @@
     },
     {
      "part": 3,
+     "lesson": 3,
+     "title": "Ljuda ihop ord",
+     "type": "G1-330",
+     "tasks": 3
+    },
+    {
+     "part": 4,
      "lesson": 4,
      "title": "Stava ordet till bilden",
      "type": "G1-260",
      "tasks": 2
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 6,
      "title": "Dela upp ord i stavelser",
      "type": "G1-305",
@@ -1804,12 +3176,11 @@
     }
    ],
    "notCovered": [
-    3,
     5
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "b3e2c8dd3d7f7698",
@@ -1817,8 +3188,13 @@
        "92f8a51562b9a73c"
       ],
       [
-       "1b22364fe6a260bb",
-       "c50bd3bd8819653b"
+       "3222e3d581a118af",
+       "fbe387c8cc9babe9"
+      ],
+      [
+       "961230456c8d207d",
+       "f4a40a64f2d7b86f",
+       "9ddef8ff883d2e17"
       ],
       [
        "7c244b8401cefea1",
@@ -1840,6 +3216,11 @@
        null
       ],
       [
+       2,
+       0,
+       1
+      ],
+      [
        null,
        null
       ],
@@ -1857,6 +3238,11 @@
       [
        "write 1",
        "write 1"
+      ],
+      [
+       "choose 1",
+       "choose 1",
+       "choose 1"
       ],
       [
        "write 1",
@@ -1879,6 +3265,11 @@
       ],
       [
        0,
+       0,
+       0
+      ],
+      [
+       0,
        0
       ],
       [
@@ -1888,20 +3279,25 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "1bcef064c0322257",
-       "ee80518a317ab9e6",
+       "1ff8f80d7573b6b5",
        "afd30a8856d35000"
       ],
       [
-       "6faafa83407f6396",
-       "7febb474abc0b1eb"
+       "9f7f93934a43c2cf",
+       "1b22364fe6a260bb"
       ],
       [
-       "be4aa2f44d4e467b",
-       "b9da2d6861845e62"
+       "3a4a01aa06f7e77f",
+       "f77c461ea6acf9e8",
+       "87928b5c7da5be1a"
+      ],
+      [
+       "b9da2d6861845e62",
+       "33ebfac5e9e48b37"
       ],
       [
        "01b11f4429e952d7",
@@ -1917,6 +3313,11 @@
       [
        null,
        null
+      ],
+      [
+       2,
+       0,
+       0
       ],
       [
        null,
@@ -1936,6 +3337,11 @@
       [
        "write 1",
        "write 1"
+      ],
+      [
+       "choose 1",
+       "choose 1",
+       "choose 1"
       ],
       [
        "write 1",
@@ -1958,11 +3364,252 @@
       ],
       [
        0,
+       0,
+       0
+      ],
+      [
+       0,
        0
       ],
       [
        2,
        3
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-1-sv-ord-meningar",
+   "slug": "lasa-och-skriva-ord-och-meningar-ak-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Para ihop ord och bild",
+     "type": "K-225",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Vanliga ord som ordbilder",
+     "type": "K-389",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Vilket ord passar i luckan?",
+     "type": "G1-350",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Ordna orden till en mening",
+     "type": "G1-282",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 6,
+     "title": "Frågeord: vem, vad, var",
+     "type": "G1-353",
+     "tasks": 1
+    },
+    {
+     "part": 6,
+     "lesson": 7,
+     "title": "Bildserie: vad händer sedan?",
+     "type": "G1-400",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "d15a17a1a14c259a",
+       "6eb92c4a98e19f1c"
+      ],
+      [
+       "0c48bbb8fc913ec8",
+       "41aa897b07e48a91"
+      ],
+      [
+       "54db64a9ef92de27"
+      ],
+      [
+       "946a125efcb7c16e"
+      ],
+      [
+       "3ecc96ce4b6bf31b"
+      ],
+      [
+       "5d8dbd60a1bae3f0"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1 ·."
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "663c7551e9edbbf0",
+       "ee8d2bf5bbde7c91"
+      ],
+      [
+       "d5a2fa5b22c15d3e",
+       "bc5aeb9c93bdf74d"
+      ],
+      [
+       "9915128abaaf96ac"
+      ],
+      [
+       "6e1f38b2b6f992b6"
+      ],
+      [
+       "23670d2e3ceee5ac"
+      ],
+      [
+       "ef895dfdd206c684"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1 ·."
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
       ]
      ]
     }
@@ -1989,23 +3636,29 @@
     },
     {
      "part": 3,
+     "lesson": 5,
+     "title": "Hopp i hundrarutan",
+     "type": "G2-321",
+     "tasks": 2
+    },
+    {
+     "part": 4,
      "lesson": 6,
      "title": "En tallinje som inte börjar på noll",
      "type": "G2-305",
      "tasks": 1
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 7,
      "title": "Jämföra och ordna tvåsiffriga tal",
-     "type": "G1-137",
-     "tasks": 2
+     "type": "G1-135",
+     "tasks": 1
     }
    ],
    "notCovered": [
     1,
     3,
-    5,
     8
    ],
    "forms": {
@@ -2020,11 +3673,14 @@
        "28fd9d0515736e5f"
       ],
       [
+       "3146beba0ec6d09e",
+       "5e6cba5941db4ae1"
+      ],
+      [
        "2ad67f9784b5e08f"
       ],
       [
-       "dafee4dce357508a",
-       "fe1560abd995a67b"
+       "a0ba01e170eba1b7"
       ]
      ],
      "pos": [
@@ -2036,11 +3692,14 @@
        null
       ],
       [
+       null,
        null
       ],
       [
-       0,
-       2
+       null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
@@ -2052,11 +3711,14 @@
        "? −w w +w ? ·1 ·0"
       ],
       [
+       "−w +w −w +w ? w ?",
+       "−w +w −w +w ? w ?"
+      ],
+      [
        "w w w w w ? ?"
       ],
       [
-       "w < = > w",
-       "w < = > w"
+       "w ? w ? w ?"
       ]
      ],
      "sizes": [
@@ -2068,11 +3730,14 @@
        45
       ],
       [
+       86,
+       40
+      ],
+      [
        60
       ],
       [
-       51,
-       77
+       79
       ]
      ]
     },
@@ -2087,11 +3752,14 @@
        "997a1eb969f41899"
       ],
       [
+       "1c6f46ca91d8784b",
+       "1f40f84d8ab93be0"
+      ],
+      [
        "9372b270dde89868"
       ],
       [
-       "bc899362c5e234e3",
-       "96eb815c35d85c4e"
+       "d0503ccfa9a752c3"
       ]
      ],
      "pos": [
@@ -2103,11 +3771,14 @@
        null
       ],
       [
+       null,
        null
       ],
       [
-       2,
-       0
+       null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
@@ -2119,11 +3790,14 @@
        "? −w w +w ? ·1 ·0"
       ],
       [
+       "−w +w −w +w ? w ?",
+       "−w +w −w +w ? w ?"
+      ],
+      [
        "w w w w w ? ?"
       ],
       [
-       "w < = > w",
-       "w < = > w"
+       "w ? w ? w ?"
       ]
      ],
      "sizes": [
@@ -2135,11 +3809,14 @@
        46
       ],
       [
+       83,
+       39
+      ],
+      [
        60
       ],
       [
-       43,
-       80
+       78
       ]
      ]
     }
@@ -2551,93 +4228,87 @@
    }
   },
   {
-   "unit": "sv-2-sv-ordkunskap",
-   "slug": "ordkunskap-och-alfabetisk-ordning-ak-2",
+   "unit": "sv-2-ma-geometri",
+   "slug": "geometriska-objekt-symmetri-och-rutnat-ak-2",
    "status": "live",
    "parts": [
     {
      "part": 1,
      "lesson": 2,
-     "title": "Motsatsord",
-     "type": "G1-337",
-     "tasks": 2
+     "title": "Plan figur eller kropp?",
+     "type": "G2-244",
+     "tasks": 1
     },
     {
      "part": 2,
-     "lesson": 3,
-     "title": "Två ord som betyder samma sak",
-     "type": "G1-395",
-     "tasks": 2
+     "lesson": 5,
+     "title": "Är det en symmetrilinje?",
+     "type": "G2-248",
+     "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 4,
-     "title": "Synonymer",
-     "type": "G2-358",
+     "lesson": 6,
+     "title": "Gör klart den andra halvan",
+     "type": "G2-264",
      "tasks": 2
     },
     {
      "part": 4,
      "lesson": 7,
-     "title": "Släktord: ord som är byggda av samma ord",
-     "type": "G1-397",
+     "title": "Tangram: vilken figur ligger som skuggbilden?",
+     "type": "G2-347",
      "tasks": 1
     }
    ],
    "notCovered": [
     1,
-    5,
-    6
+    3,
+    4
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
       [
-       "c8f61a71c2e2be78",
-       "3fe5d076c0196994"
+       "834b871971d27b96"
       ],
       [
-       "5761e3037e5615c1",
-       "8a2f25b109bdf4f5"
+       "38e11a26aaf9c254"
       ],
       [
-       "f50e1f078d0347d4",
-       "ee250c22c02f70bc"
+       "a41e7391d4023c31",
+       "60485cfd5a4dabcb"
       ],
       [
-       "b66ebac398da56d7"
+       "d6319234d59a99fa"
       ]
      ],
      "pos": [
       [
-       1,
-       0
-      ],
-      [
-       1,
-       2
-      ],
-      [
-       1,
-       3
+       6
       ],
       [
        0
+      ],
+      [
+       24,
+       25
+      ],
+      [
+       1
       ]
      ],
      "kinds": [
       [
-       "choose 1",
        "choose 1"
       ],
       [
-       "choose 2",
-       "choose 2"
+       ""
       ],
       [
-       "choose 1",
-       "choose 1"
+       "w",
+       "w"
       ],
       [
        "choose 1"
@@ -2645,11 +4316,9 @@
      ],
      "sizes": [
       [
-       0,
        0
       ],
       [
-       0,
        0
       ],
       [
@@ -2665,22 +4334,339 @@
      "pages": 2,
      "cards": [
       [
-       "47014bf96bcf4cf1",
-       "d13abf8770949e33"
+       "2794e73a25d2065c"
       ],
       [
-       "7c509b02011e358a",
-       "d154690f949c31ec"
+       "a6b82c2e535494c7"
       ],
       [
-       "5609d752e56b644c",
-       "9f2753fd060349ce"
+       "c191f8316509b895",
+       "45a3746513bde79f"
       ],
       [
-       "6a942d27bcfdb296"
+       "8031305ef5413918"
       ]
      ],
      "pos": [
+      [
+       6
+      ],
+      [
+       1
+      ],
+      [
+       22,
+       23
+      ],
+      [
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       ""
+      ],
+      [
+       "w",
+       "w"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-2-ma-diagram",
+   "slug": "tabeller-och-diagram-ak-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Från streck till stapeldiagram",
+     "type": "G2-239",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Bilddiagram där varje bild står för 2",
+     "type": "G2-238",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Diagram där ett steg är 5",
+     "type": "G3-333",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Läsa ett diagram med kryss",
+     "type": "G2-240",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Slump: vad finns i påsen?",
+     "type": "G2-507",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "e56c3e463f89ffd3"
+      ],
+      [
+       "6ac0ed999f859aee"
+      ],
+      [
+       "698185dc0936469a"
+      ],
+      [
+       "8e32d9b37c90d031"
+      ],
+      [
+       "f1c9b724f3a64f21"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       6
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w ? ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "w w w w w w w → ? w → ? w → ?"
+      ],
+      [
+       "choose 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       12
+      ],
+      [
+       30
+      ],
+      [
+       6
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "26f32cbb4a42229f"
+      ],
+      [
+       "5648f5a24fa6194f"
+      ],
+      [
+       "b40977284d5e8e92"
+      ],
+      [
+       "e7a73dc1723a1177"
+      ],
+      [
+       "f83b51121e4da6ad"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       7
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w ? ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "w w w w w w w → ? w → ? w → ?"
+      ],
+      [
+       "choose 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       14
+      ],
+      [
+       35
+      ],
+      [
+       6
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-2-sv-ordkunskap",
+   "slug": "ordkunskap-och-alfabetisk-ordning-ak-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Alfabetisk ordning",
+     "type": "G1-262",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Motsatsord",
+     "type": "G1-337",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Två ord som betyder samma sak",
+     "type": "G1-395",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Synonymer",
+     "type": "G2-358",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Ordens styrka: från lite till mycket",
+     "type": "G1-396",
+     "tasks": 1
+    },
+    {
+     "part": 6,
+     "lesson": 7,
+     "title": "Släktord: ord som är byggda av samma ord",
+     "type": "G1-397",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    6
+   ],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "c75e9b929f9da798"
+      ],
+      [
+       "c8f61a71c2e2be78",
+       "3fe5d076c0196994"
+      ],
+      [
+       "07329a066bdb62a1",
+       "ffb86a7829b7d195"
+      ],
+      [
+       "ecd0547ae53c7ca8",
+       "7ca6a7f36a531ba8"
+      ],
+      [
+       "dd0d1bbfb411341b"
+      ],
+      [
+       "b66ebac398da56d7"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ],
       [
        1,
        0
@@ -2690,14 +4676,16 @@
        2
       ],
       [
-       0,
-       2
+       null
       ],
       [
        0
       ]
      ],
      "kinds": [
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
+      ],
       [
        "choose 1",
        "choose 1"
@@ -2711,7 +4699,393 @@
        "choose 1"
       ],
       [
+       "w w w w ? w ? w ?"
+      ],
+      [
        "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "6c91a6b385fccece"
+      ],
+      [
+       "47014bf96bcf4cf1",
+       "d13abf8770949e33"
+      ],
+      [
+       "691e14df86c2ff25",
+       "6ea82d61aa5d98e7"
+      ],
+      [
+       "88022a7690e8b942",
+       "1eba76158ed4c91e"
+      ],
+      [
+       "b1bb9c57c1b2e546"
+      ],
+      [
+       "6a942d27bcfdb296"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       1,
+       3
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 2",
+       "choose 2"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "w w w w ? w ? w ?"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-2-sv-lasa-skriva-texter",
+   "slug": "lasa-forsta-och-skriva-texter-ak-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Stor bokstav och punkt",
+     "type": "G2-274",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Läs en berättelse och svara på frågor",
+     "type": "G2-254",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Fyll i orden som saknas i berättelsen",
+     "type": "G2-350",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 7,
+     "title": "Ett faktablad om ett djur",
+     "type": "G2-339",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    2,
+    5,
+    6
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "3cadec6445af162a"
+      ],
+      [
+       "daacde8c96fe755c"
+      ],
+      [
+       "b1f5f1accff10cb4"
+      ],
+      [
+       "186ce23beb1cc465"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "choose 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "d53bca1036305403"
+      ],
+      [
+       "cd34e954b098445d"
+      ],
+      [
+       "7d8ffe5de4db5b4e"
+      ],
+      [
+       "19aa618789eeb1b8"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "choose 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-2-sv-substantiv",
+   "slug": "substantiv-verb-och-adjektiv-ak-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "En eller ett?",
+     "type": "K-288",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Sortera en-ord och ett-ord",
+     "type": "G1-292",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "En och flera",
+     "type": "K-302",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Fler än en: substantiv i plural",
+     "type": "G2-349",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Substantiv, verb och adjektiv",
+     "type": "G1-293",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "38500ad1c1ba5cb2",
+       "e16d9efecab54e47"
+      ],
+      [
+       "f6d726b8a1ee1b96",
+       "71180de5f92fce44"
+      ],
+      [
+       "e2a987b8bdceaba1"
+      ],
+      [
+       "60d1c0d2d57cb282"
+      ],
+      [
+       "cefd6d4407d6dcac"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 2",
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 4"
       ]
      ],
      "sizes": [
@@ -2724,7 +5098,88 @@
        0
       ],
       [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "1ec7aa8dac6ea8ec",
+       "a4f26768cc9929d0"
+      ],
+      [
+       "77a150acd510cdaf",
+       "4f362889da876feb"
+      ],
+      [
+       "f0b50a8abb67dd5e"
+      ],
+      [
+       "f956352838657336"
+      ],
+      [
+       "1c1ed84e107e8907"
+      ]
+     ],
+     "pos": [
+      [
        0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 2",
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
        0
       ],
       [
@@ -3516,41 +5971,48 @@
    "parts": [
     {
      "part": 1,
+     "lesson": 1,
+     "title": "Är det en rektangel?",
+     "type": "G3-340",
+     "tasks": 1
+    },
+    {
+     "part": 2,
      "lesson": 2,
      "title": "Jakten på räta vinklar",
      "type": "G3-341",
      "tasks": 1
     },
     {
-     "part": 2,
+     "part": 3,
      "lesson": 3,
      "title": "Hur många symmetrilinjer?",
      "type": "G3-342",
      "tasks": 3
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 4,
      "title": "Omkrets: gå runt kanten",
      "type": "G3-337",
      "tasks": 2
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 5,
      "title": "Area: räkna rutorna",
      "type": "G3-313",
      "tasks": 1
     },
     {
-     "part": 5,
+     "part": 6,
      "lesson": 6,
      "title": "Samma area, annan form",
      "type": "G3-338",
      "tasks": 1
     },
     {
-     "part": 6,
+     "part": 7,
      "lesson": 7,
      "title": "Samma omkrets, annan area",
      "type": "G3-339",
@@ -3558,7 +6020,6 @@
     }
    ],
    "notCovered": [
-    1,
     8
    ],
    "forms": {
@@ -3566,11 +6027,14 @@
      "pages": 3,
      "cards": [
       [
-       "4b8d3ff09807f58f"
+       "ac6efe2d75322c33"
       ],
       [
-       "1ec4ce9b7204e73b",
-       "e266e39eb1c825d3",
+       "d505cf7421a0683f"
+      ],
+      [
+       "d87e85c070a89799",
+       "21e3e426d3d72ef4",
        "8787d09cfcdf4e23"
       ],
       [
@@ -3589,7 +6053,10 @@
      ],
      "pos": [
       [
-       2
+       1
+      ],
+      [
+       1
       ],
       [
        null,
@@ -3611,6 +6078,9 @@
       ]
      ],
      "kinds": [
+      [
+       "choose 2"
+      ],
       [
        ""
       ],
@@ -3634,6 +6104,9 @@
       ]
      ],
      "sizes": [
+      [
+       0
+      ],
       [
        0
       ],
@@ -3661,12 +6134,15 @@
      "pages": 3,
      "cards": [
       [
-       "27be83f3f94d3a57"
+       "4bfbe6368f5f9033"
       ],
       [
-       "dfc37e3679bc4790",
-       "fb51138565cd6875",
-       "279619d00f7adb80"
+       "0770034bd75b843d"
+      ],
+      [
+       "87ae8198551b913b",
+       "1ec4ce9b7204e73b",
+       "dfc37e3679bc4790"
       ],
       [
        "f8d55b0ae7e06af1",
@@ -3685,6 +6161,9 @@
      "pos": [
       [
        1
+      ],
+      [
+       2
       ],
       [
        null,
@@ -3706,6 +6185,9 @@
       ]
      ],
      "kinds": [
+      [
+       "choose 2"
+      ],
       [
        ""
       ],
@@ -3733,9 +6215,12 @@
        0
       ],
       [
-       3,
+       0
+      ],
+      [
        5,
-       1
+       4,
+       3
       ],
       [
        26,
@@ -3743,6 +6228,435 @@
       ],
       [
        32
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-3-sv-ordklasser",
+   "slug": "ordklasser-tempus-och-pronomen-ak-3",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Substantiv, verb och adjektiv: sortera orden",
+     "type": "G2-275",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Verb i presens och preteritum: nu och i går",
+     "type": "G2-317",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Han, hon eller de",
+     "type": "G1-352",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Vem står ordet för? Pronomen i meningen",
+     "type": "G2-353",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "a3611bdb90858985"
+      ],
+      [
+       "d68ac64b9e005f03",
+       "f1000612da3087b2"
+      ],
+      [
+       "5f3f0c2d4e49fb57"
+      ],
+      [
+       "218c78ec6896317b"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "write 3"
+      ],
+      [
+       "write 2 ·0",
+       "write 2 ·1"
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "choose 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "5db840efe734dec0"
+      ],
+      [
+       "1487ca27f72479dc",
+       "5e334ba8b6024aa5"
+      ],
+      [
+       "e826850c8bf60643"
+      ],
+      [
+       "aa172d9811e769b3"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "write 3"
+      ],
+      [
+       "write 2 ·0",
+       "write 2 ·1"
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "choose 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "sv-3-sv-stavning-ordbildning",
+   "slug": "stavning-ordbildning-och-ordval-ak-3",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Stavningsregler: vilka bokstäver ska stå här?",
+     "type": "G2-315",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Släktord: hitta den gemensamma delen",
+     "type": "G2-375",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Släktord i meningar: välj rätt form",
+     "type": "G3-399",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Förstavelser ändrar betydelsen",
+     "type": "G2-320",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Vem gör det? Ord för personen",
+     "type": "G3-398",
+     "tasks": 2
+    },
+    {
+     "part": 6,
+     "lesson": 6,
+     "title": "Ord för att gå och ord för att titta",
+     "type": "G3-397",
+     "tasks": 1
+    },
+    {
+     "part": 7,
+     "lesson": 7,
+     "title": "Mer exakta ord än ”sa”",
+     "type": "G2-374",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "e43fe672c4e46119"
+      ],
+      [
+       "743851f5e9c9e834"
+      ],
+      [
+       "6934b6415743eba1"
+      ],
+      [
+       "2c02fbb6b3ff0a99",
+       "2b9fefb811f9789b"
+      ],
+      [
+       "16fd3ad4c66c1531",
+       "a5239821ceef2cae"
+      ],
+      [
+       "e9d4499edd3103ca"
+      ],
+      [
+       "e4808ec2ff554cca"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "84c4ece4024f7bf8"
+      ],
+      [
+       "ea36038576aaca77"
+      ],
+      [
+       "0c5e907f336112d6"
+      ],
+      [
+       "05134fe9ce2a7cf8",
+       "53e302e47b609073"
+      ],
+      [
+       "d4a81d23264d6a27",
+       "b9d9f3833e192ace"
+      ],
+      [
+       "19034c3d19f45d87"
+      ],
+      [
+       "f432cd161cd9639e"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
       ],
       [
        0

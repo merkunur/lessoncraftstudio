@@ -12,6 +12,9 @@
   },
   "g1-add-subtract-within-10": {
    "1:count-on-back-hops": "[de.review-1] The number line runs to 20: the hops forward land on 15 and 17, the hops back start at 13, in a unit that goes to 10. The worksheets of the lesson have no box whose start and landing both lie within 10."
+  },
+  "g1-shapes-measuring-graphs": {
+   "1:tangram-compose": "Das Tangram-Blatt wird mit den sieben Teilen eines echten Tangrams gelöst: keine Aufgabe für eine Lernkontrolle auf Papier."
   }
  },
  "instruction": {
@@ -48,15 +51,41 @@
   "K-389": "Lies den Satz. Schreibe das Wort aus dem Kästchen auf die Linie.",
   "G2-339": "Lies die Auswahl und kreise das ein, was für dieses Tier stimmt.",
   "G3-493": "Jeder Stift liegt an seinem eigenen Lineal. Schreibe seine Länge auf einen halben Zentimeter genau auf.",
-  "G2-279": "Finde jedes Feld mit Buchstabe und Zahl, zum Beispiel B2. Male es in der Farbe seiner Gruppe an.",
-  "G3-397": "Schreibe jedes Wort in das Wortfeld des Verbs, zu dem es gehört.",
+  "G2-279": "Finde jedes Feld mit Buchstabe und Zahl, zum Beispiel B2. Male es in der Farbe an, die daneben steht.",
+  "G3-397": "Schreibe jedes Wort in das Wortfeld, zu dem es gehört: „gehen“ oder „sehen“.",
   "K-289": "Spure das Wort nach und schreibe es auf.",
   "G2-296": "Beantworte jede Frage mit dem Kalender.",
   "G1-330": "Sprich jedes Bildwort und kreise darunter die Silbe ein, mit der es beginnt.",
-  "G2-317": "Lies jeden Satz und das Verb in Klammern. Schreibe die richtige Form des Verbs in das Kästchen."
+  "G2-317": "Lies jeden Satz und das Verb in Klammern. Schreibe die richtige Form des Verbs in das Kästchen.",
+  "G1-233": "Lies die Uhrzeit. Zeichne den kurzen Stundenzeiger und den langen Minutenzeiger in die Uhr ein.",
+  "G1-228": "Wie viel Geld ist es? Rechne die Münzen zusammen und schreibe den Betrag in das Kästchen.",
+  "G2-506": "Lies die Sachaufgabe. Schreibe die Rechnung und einen Antwortsatz auf.",
+  "G2-244": "Verbinde jede Form mit der richtigen Kiste: flache Formen links, Körper rechts.",
+  "G1-262": "Ordne die vier Wörter nach dem Abc. Schreibe 1, 2, 3 und 4 in die Kreise.",
+  "G1-293": "Ist das Wort ein Nomen oder ein Verb? Schreibe jedes Wort in den richtigen Kasten. Nomen schreibst du groß.",
+  "G2-274": "In diesem Satz fehlen die großen Anfangsbuchstaben und das Satzzeichen. Schreibe ihn richtig auf die Linie.",
+  "G2-349": "Schau dir die Bilder an. Es sind mehrere. Schreibe das Wort unter dem Bild in der Mehrzahl in das Kästchen.",
+  "G2-315": "Schau dir die Beispiele im Kasten an. Sprich das Bildwort deutlich und schreibe t oder tt in das Kästchen.",
+  "G1-397": "Sag, was du auf dem Bild siehst. Kreise darüber das Wort ein, das zur selben Wortfamilie gehört.",
+  "G2-375": "Kreise in allen drei Wörtern den gemeinsamen Teil ein. Schreibe ihn als Nomen mit großem Anfangsbuchstaben in das leere Kästchen.",
+  "G2-320": "Setze die Vorsilbe un- vor jedes Wort. Schreibe das neue Wort mit der gegenteiligen Bedeutung auf die Linie.",
+  "G2-374": "Lies jeden Satz. Welches Wort aus der Sprechblase passt statt „sagt“ am besten? Schreibe es in das Kästchen.",
+  "G2-254": "Lies die Geschichte genau. Kreise dann die richtige Antwort ein.",
+  "G2-377": "Spure die grauen Buchstaben nach. Schreibe den Buchstaben dann verbunden weiter bis zum Ende der Zeile und in die leere Zeile darunter.",
+  "G1-240": "Lies die Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen.",
+  "G1-213": "Lies die Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen.",
+  "G1-208": "Rechne jede Aufgabe im Kopf. Schreibe das Ergebnis in das Kästchen.",
+  "G1-255": "Das ist die Zahl des Tages. Schreibe den Vorgänger, den Nachfolger, die Zehner und die Einer auf.",
+  "G2-238": "Jedes Bild steht für 2. Schreibe auf, wie viele es in jeder Reihe wirklich sind.",
+  "G3-333": "Jedes Bild steht für 5. Schreibe auf, wie viele es in jeder Reihe wirklich sind.",
+  "G3-386": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und kreuze an, ob die Summe gerade oder ungerade ist.",
+  "G3-340": "Ist es ein Rechteck? Auch Quadrate sind Rechtecke. Verbinde jede Form mit dem richtigen Kasten.",
+  "G3-399": "Welches Wort von den vier Karten passt in den Satz? Schreibe es in die Lücke.",
+  "G1-139": "Wie lang ist das Bild? Zähle die Kästchen darunter und schreibe die Länge auf.",
+  "G1-155": "Zwei Bilder fehlen. Welche sind es? Verbinde jedes leere Kästchen mit dem passenden Bild.",
+  "G1-160": "Zu welcher Kiste gehört das Bild? Verbinde es mit der richtigen Kiste."
  },
  "noCheck": {
-  "g1-shapes-measuring-graphs": "[from the English reviews] The parts a check can be cut from leave out the picture graph and the bar graph, and the tangram lesson needs real pieces: not a fair check of the unit.",
   "de3-runden-schriftlich": "[de.review-1] The rounding lessons (three of seven, and the first word of the title) have no part, every sum stays two-digit at the level of Klasse 2, and the carry boxes of the written sums are empty in the key."
  },
  "avoid": {
@@ -93,8 +122,9 @@
  ],
  "avoidAns": {
   "G3-317": "^[01]\\d$",
-  "G1-352": "^es$",
-  "G2-223": "^[6789]00"
+  "G2-223": "^[6789]00",
+  "G1-444": "\\|1$",
+  "G1-353": "^Wer\\|Was\\|Wo$"
  },
  "pairKind": [
   "G3-319"
@@ -141,13 +171,17 @@
  },
  "onlyText": {
   "G2-223": "([1-9]00 \\+.*){2}",
-  "G1-282": "^[^?]*$"
+  "G1-282": "^[^?]*$",
+  "G2-339": "^(Eule|Löwe|Tiger|Wolf|Hai|Adler|Kuh|Pferd|Schaf|Ziege|Giraffe|Elefant|Zebra|Hirsch|Reh|Bär)\\s",
+  "G2-353": "sind im Park|sind in der Schule|sind zu Hause|sind am Strand|sind im Garten|sind in der Küche|sitzen im Bus|sind im Zoo"
  },
  "keyNote": {
   "G1-305": "Gewertet wird die Anzahl der Bögen, nicht die genaue Silbengrenze (Ze-bra und Zeb-ra sind beide richtig).",
   "G1-312": "Gewertet wird: ein Laut in jedem Kästchen, in der richtigen Reihenfolge.",
   "G1-260": "In Klasse 1 zählt die lautgetreue, lesbare Schreibung (zum Beispiel „Tiga“ oder „kamel“), nicht die Rechtschreibung.",
-  "G2-233": "Lies den Bruch beim Vorlesen mit („ein Halb“, „ein Viertel“)."
+  "G2-233": "Lies den Bruch beim Vorlesen mit („ein Halb“, „ein Viertel“).",
+  "G2-506": "Den Punkt gibt es für einen Antwortsatz mit der richtigen Zahl.",
+  "G2-356": "Auch eine Frage mit „Um wie viel Uhr …?“ statt „Wann …?“ ist richtig."
  },
  "reasons": {
   "carried over": "[from the English reviews] avoid (K-016 never 10 pictures; G2-351 no number below 11; G2-242 no sphere, which is drawn as a flat circle), blend (a lesson with one worksheet per times table), sameGiven, lowestTerms, avoidAns (no unit fraction on the number line), pairKind, sameLook, theme (mirror pictures of animals), avoidEcho, parity, disjointWords: see lists/en.json for each reason.",
@@ -164,7 +198,17 @@
   "G1-352": "[de.review-1] \"Auto → es\" is the obvious choice for a thing; each form now has a name and a thing with der or die.",
   "G2-223 avoidAns": "A row of six or more hundred-flats with its tens and ones is wider than the box it stands in (measured: 686 px in a 671 px card); the boxes take numbers below 600.",
   "G1-282 onlyText": "[de.review-1] The reader asked for a statement of four or five words in both forms; a question with the verb first is the harder task.",
-  "G1-444 kindText": "[build session, reading the check of de1-aufgabenfamilien-rechengeschichten, 2026-11-13] Form A showed a picture to take away from (8 − 7) where form B showed a picture to add (5 + 4): the two forms did not ask the same kind of task. A box whose answer holds a minus sign is one kind, a box with a plus sign the other."
+  "G1-444 kindText": "[build session, reading the check of de1-aufgabenfamilien-rechengeschichten, 2026-11-13] Form A showed a picture to take away from (8 − 7) where form B showed a picture to add (5 + 4): the two forms did not ask the same kind of task. A box whose answer holds a minus sign is one kind, a box with a plus sign the other.",
+  "G1-444 take": "[second review 2026-11-15] Both forms showed ONE picture, a take-away with the answer 1 (8 − 7, 6 − 5): the part takes two pictures per form, one that adds and one that takes away (mixKinds), and none whose answer is 1.",
+  "otherWords": "[second review 2026-11-15] Form B repeated form A: \"hüpfen → springen\" was \"springen → hüpfen\" turned round, one sentence with another noun, the two days of form A in the other order. Form B takes the box that shares the fewest words with form A.",
+  "G1-353 order": "[second review 2026-11-15] The answers ran Wer, Was, Wo from top to bottom in both forms, the order of the buttons: no card in that order, and form B asks the same three words in another order than form A.",
+  "G1-337 spreadPos": "[second review 2026-11-15] In form B the answer stood first on both cards: the right word stands at another place on each card of a part.",
+  "G2-347 avoidHtml": "[second review 2026-11-15] The boat is its own mirror image, so its card has turned choices only (form A), while form B had a mirrored one: both forms take a figure that is not symmetrical.",
+  "G2-339 onlyText": "[second review 2026-11-15] Kein Steckbrief-Text auf der Karte: nur Tiere, deren Nahrung jedes Kind kennt (Hamster → „beides“ war schwerer und die naheliegende Antwort falsch).",
+  "G3-342 avoidHtml": "[second review 2026-11-15] Stern 5, Quadrat 4, Dreieck 3: the answer was the number of corners in all three boxes. The square, the square on its tip, the equilateral triangle and the pentagon are not taken; the star and the hexagon stay (without them the two forms cannot both be filled), so at most one or two boxes of a form can be answered by counting corners.",
+  "G2-353 onlyText": "[second review 2026-11-15] The pictures are grown-ups at work (a waitress, a police officer): only the places that fit them (park, school, home, beach, garden, kitchen, bus, zoo), not the sandbox or the rope in the gym.",
+  "G2-507 keyAttr": "[second review 2026-11-15] Form B's second bag was form A's first (only circles): the bags tell the cards apart, and form B takes the card that shares no bag with form A.",
+  "K-064 askAgain": "[2026-11-15] The page now asks ON, UNDER and BESIDE in turn (it asked ON on every card). The place word is what a card asks, and there are three: form B may ask a place form A asks, with other pictures; a part never asks one place twice in a form."
  },
  "slotWide": {
   "G1-137": [
@@ -173,7 +217,8 @@
   ]
  },
  "take": {
-  "G2-233": 2
+  "G2-233": 2,
+  "G1-444": 2
  },
  "plainChunks": {
   "G1-312": {
@@ -185,9 +230,7 @@
  "endMark": [
   "G1-282"
  ],
- "sameAnswer": [
-  "G1-353"
- ],
+ "sameAnswer": [],
  "kindAttr": {
   "G3-398": "depicted"
  },
@@ -196,9 +239,40 @@
  ],
  "mixKinds": [
   "G3-398",
-  "G1-352"
+  "G1-352",
+  "G1-444",
+  "G2-249"
  ],
  "kindText": {
-  "G1-444": "→[^→]*[\\u2212\\u2013-]"
- }
+  "G1-444": "→[^→]*[\\u2212\\u2013-]",
+  "G2-249": ":(3[5-9]|[45]\\d)$"
+ },
+ "sameSize": [
+  "G1-312"
+ ],
+ "otherWords": [
+  "G2-358",
+  "G1-282",
+  "G1-319",
+  "G1-353"
+ ],
+ "sameAnswerSet": [
+  "G1-353"
+ ],
+ "spreadPos": [
+  "G1-337"
+ ],
+ "avoidHtml": {
+  "G2-347": "data-lcs-figure=\"boat\"",
+  "G3-342": "data-lcs-shape=\"(pentagon|square|diamond|triangle)\""
+ },
+ "keyAttr": {
+  "G2-507": "bag"
+ },
+ "otherNums": [
+  "G1-444"
+ ],
+ "askAgain": [
+  "K-064"
+ ]
 }

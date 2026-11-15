@@ -2000,12 +2000,16 @@
     {
      "point": "3:column-regrouping",
      "types": [
-      "G3-359",
-      "G3-360"
+      "G3-357",
+      "G3-363"
      ],
      "standards": [
       "3.NBT.A.2"
-     ]
+     ],
+     "core": {
+      "G3-357": 3,
+      "G3-363": 3
+     }
     },
     {
      "point": "3:balance-equations",

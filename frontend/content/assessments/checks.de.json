@@ -9,31 +9,31 @@
    "parts": [
     {
      "part": 1,
+     "lesson": 1,
+     "title": "Sortieren: Was gehört zusammen?",
+     "type": "G1-160",
+     "tasks": 2
+    },
+    {
+     "part": 2,
      "lesson": 3,
      "title": "Zahlen bis 10 im Zehnerfeld: fünf und noch mehr",
      "type": "K-004",
      "tasks": 2
     },
     {
-     "part": 2,
+     "part": 3,
      "lesson": 4,
      "title": "Mehr, weniger, gleich viele: die Zeichen <, > und =",
      "type": "G1-114",
      "tasks": 1
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 5,
      "title": "Die Zahlenreihe bis 10: Vorgänger und Nachfolger",
      "type": "K-021",
      "tasks": 2
-    },
-    {
-     "part": 4,
-     "lesson": 6,
-     "title": "Ordnungszahlen: vom ersten bis zum zehnten Platz",
-     "type": "G1-315",
-     "tasks": 1
     },
     {
      "part": 5,
@@ -44,14 +44,18 @@
     }
    ],
    "notCovered": [
-    1,
     2,
+    6,
     8
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
+      [
+       "ddd7e9fa4b682256",
+       "36323ac33ed6e2f9"
+      ],
       [
        "37290018ea157ce7",
        "a349f6bf569b9a9d"
@@ -64,13 +68,14 @@
        "45e7e4e0a05491eb"
       ],
       [
-       "a3b6016e82cd3eaa"
-      ],
-      [
        "b1931d2558fe0a35"
       ]
      ],
      "pos": [
+      [
+       0,
+       2
+      ],
       [
        null,
        null
@@ -84,12 +89,13 @@
       ],
       [
        null
-      ],
-      [
-       null
       ]
      ],
      "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
       [
        "?",
        "?"
@@ -102,13 +108,14 @@
        "? w ?"
       ],
       [
-       "write 4"
-      ],
-      [
        "w = + ? ? ?"
       ]
      ],
      "sizes": [
+      [
+       0,
+       0
+      ],
       [
        8,
        5
@@ -121,9 +128,6 @@
        5
       ],
       [
-       0
-      ],
-      [
        8
       ]
      ]
@@ -131,6 +135,10 @@
     "B": {
      "pages": 2,
      "cards": [
+      [
+       "19e21a1f8714faf9",
+       "afb8a212228f330c"
+      ],
       [
        "379d2c0a08137878",
        "89922f1877d18fbe"
@@ -143,13 +151,14 @@
        "8a04c57dee7b9320"
       ],
       [
-       "7363028b12ff60ec"
-      ],
-      [
        "ed3d6537e9e501a4"
       ]
      ],
      "pos": [
+      [
+       1,
+       2
+      ],
       [
        null,
        null
@@ -163,12 +172,13 @@
       ],
       [
        null
-      ],
-      [
-       null
       ]
      ],
      "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
       [
        "?",
        "?"
@@ -181,13 +191,14 @@
        "? w ?"
       ],
       [
-       "write 4"
-      ],
-      [
        "w = + ? ? ?"
       ]
      ],
      "sizes": [
+      [
+       0,
+       0
+      ],
       [
        9,
        4
@@ -198,9 +209,6 @@
       [
        9,
        4
-      ],
-      [
-       0
       ],
       [
        9
@@ -396,25 +404,30 @@
     },
     {
      "part": 3,
-     "lesson": 4,
-     "title": "Die Rechnung zum Bild: Plus oder Minus?",
-     "type": "G1-444",
+     "lesson": 3,
+     "title": "Rechengeschichten bis 10",
+     "type": "G1-240",
      "tasks": 1
     },
     {
      "part": 4,
+     "lesson": 4,
+     "title": "Die Rechnung zum Bild: Plus oder Minus?",
+     "type": "G1-444",
+     "tasks": 2
+    },
+    {
+     "part": 5,
      "lesson": 5,
      "title": "Kopfrechnen bis 10",
      "type": "G1-214",
      "tasks": 2
     }
    ],
-   "notCovered": [
-    3
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "4ee814b810c99b1d",
@@ -425,7 +438,11 @@
        "b3dfd80127d3ed5f"
       ],
       [
-       "c97664cca9eab1e9"
+       "4eba48644766af1d"
+      ],
+      [
+       "8fd4a1c3732d57d6",
+       "04171ef92c6b7eb5"
       ],
       [
        "78d17935e94e6f18",
@@ -447,6 +464,10 @@
       [
        null,
        null
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -459,6 +480,10 @@
        "? − w = w"
       ],
       [
+       "w w w w w w w w w w w. w w w w w w? + ?"
+      ],
+      [
+       "write 4 ·0",
        "write 4 ·1"
       ],
       [
@@ -476,6 +501,10 @@
        6
       ],
       [
+       8
+      ],
+      [
+       0,
        0
       ],
       [
@@ -485,7 +514,7 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "47e19efe58796ad1",
@@ -496,7 +525,11 @@
        "d2b3b1ab82d83876"
       ],
       [
-       "deb097d8fa2eb55d"
+       "27d065b4f36fc762"
+      ],
+      [
+       "3145630bdaa86306",
+       "40f0c849ef207777"
       ],
       [
        "c1bcf4d6bf2022af",
@@ -518,6 +551,10 @@
       [
        null,
        null
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -530,6 +567,10 @@
        "? − w = w"
       ],
       [
+       "w w w w w w w w w w w. w w w w w w? + ?"
+      ],
+      [
+       "write 4 ·0",
        "write 4 ·1"
       ],
       [
@@ -547,6 +588,10 @@
        5
       ],
       [
+       8
+      ],
+      [
+       0,
        0
       ],
       [
@@ -595,8 +640,8 @@
        "446e195eaf413358"
       ],
       [
-       "76521062a9b82bc2",
-       "6692042158632c47"
+       "781d97e66b51d6fd",
+       "4d2932585ed3cdef"
       ],
       [
        "e6751d990aed40b4"
@@ -607,7 +652,7 @@
        null
       ],
       [
-       0,
+       1,
        2
       ],
       [
@@ -619,8 +664,8 @@
        "? = w + ?"
       ],
       [
-       "w w w w",
-       "w w w w"
+       "choose 1",
+       "choose 1"
       ],
       [
        "w w w ? ? ?"
@@ -631,8 +676,8 @@
        16
       ],
       [
-       16,
-       10
+       0,
+       0
       ],
       [
        20
@@ -646,8 +691,8 @@
        "2742e9323072feef"
       ],
       [
-       "a44d8fbb60a85297",
-       "cfa5bdaaeddc037e"
+       "1c961c70cd18c475",
+       "b479373ef9cb4481"
       ],
       [
        "b829c5b24c304784"
@@ -658,7 +703,7 @@
        null
       ],
       [
-       2,
+       1,
        0
       ],
       [
@@ -670,8 +715,8 @@
        "? = w + ?"
       ],
       [
-       "w w w w",
-       "w w w w"
+       "choose 1",
+       "choose 1"
       ],
       [
        "w w w ? ? ?"
@@ -682,8 +727,8 @@
        17
       ],
       [
-       17,
-       9
+       0,
+       0
       ],
       [
        20
@@ -939,15 +984,20 @@
     },
     {
      "part": 4,
+     "lesson": 4,
+     "title": "Rechengeschichten bis 20",
+     "type": "G1-213",
+     "tasks": 1
+    },
+    {
+     "part": 5,
      "lesson": 5,
      "title": "Kopfrechnen bis 20",
      "type": "G1-208",
      "tasks": 2
     }
    ],
-   "notCovered": [
-    4
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
      "pages": 2,
@@ -963,6 +1013,9 @@
        "ec0f71cf4f02e76a"
       ],
       [
+       "31b72114b385efea"
+      ],
+      [
        "2826ca24f2fabeb1",
        "e84cecf432a7f1d2"
       ]
@@ -973,6 +1026,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -995,6 +1051,9 @@
        "w − w = w − ? − ? = ? w w w w w"
       ],
       [
+       "w w w w w w w. w w w w w w w. w w w w w w w? ?"
+      ],
+      [
        "w + w = ?",
        "w − w = ?"
       ]
@@ -1009,6 +1068,9 @@
       ],
       [
        20
+      ],
+      [
+       12
       ],
       [
        17,
@@ -1030,6 +1092,9 @@
        "acf7a856a7984849"
       ],
       [
+       "9a7664692e8a8e15"
+      ],
+      [
        "426f2b2c218a3ac6",
        "9ae10e5cd277a472"
       ]
@@ -1040,6 +1105,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1062,6 +1130,9 @@
        "w − w = w − ? − ? = ? w w w w w"
       ],
       [
+       "w w w w w w w. w w w w w w w. w w w w w w w? ?"
+      ],
+      [
        "w + w = ?",
        "w − w = ?"
       ]
@@ -1078,8 +1149,345 @@
        20
       ],
       [
+       11
+      ],
+      [
        18,
        14
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-time-calendar-coins",
+   "slug": "uhr-kalender-und-geld-klasse-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Uhrzeiger einzeichnen",
+     "type": "G1-233",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Gestern, heute, morgen und die Monate",
+     "type": "G1-319",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Geldbeträge mit Münzen zählen",
+     "type": "G1-228",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "fccf41ce9a390809",
+       "7499fd298ab50820"
+      ],
+      [
+       "1f95c63ba117da7e"
+      ],
+      [
+       "92c3ae1d3f821370",
+       "ec5f52d6c6d1943f"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "w w w ? w",
+       "w w ? w"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       9,
+       6
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "2cf07496054dfb52",
+       "74500dcf454facf5"
+      ],
+      [
+       "ecddcb98d9962cee"
+      ],
+      [
+       "43c695950e24ed9d",
+       "851c626c8407fe48"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "w w w ? w",
+       "w w ? w"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       8,
+       7
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-shapes-measuring-graphs",
+   "slug": "formen-messen-und-diagramme-klasse-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Dreieck, Rechteck, Quadrat: Woran erkenne ich die Form?",
+     "type": "G1-381",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Längen mit Kästchen messen",
+     "type": "G1-139",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Sortieren, zählen und ein Bilddiagramm lesen",
+     "type": "G1-141",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
+     "title": "Ein Säulendiagramm lesen und ausmalen",
+     "type": "G1-143",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 7,
+     "title": "Muster: Zwei Bilder fehlen",
+     "type": "G1-155",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    2,
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "fa4c6f67557d3955"
+      ],
+      [
+       "a74c35b3cf68db87"
+      ],
+      [
+       "64edd841186aeb95"
+      ],
+      [
+       "ad78eb2e7be6aa45"
+      ],
+      [
+       "b2b3df3e0a91a4ba"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "?"
+      ],
+      [
+       "= ? = ?"
+      ],
+      [
+       "w w w w w w w w = ? = ?"
+      ],
+      [
+       "? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       6
+      ],
+      [
+       6
+      ],
+      [
+       7
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "fb438493d536ce36"
+      ],
+      [
+       "c2f5cef80f01e4a9"
+      ],
+      [
+       "930cd05a71b8e3e5"
+      ],
+      [
+       "a37020f341e4b7f3"
+      ],
+      [
+       "c5038a89a46cf1d5"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "?"
+      ],
+      [
+       "= ? = ?"
+      ],
+      [
+       "w w w w w w w w = ? = ?"
+      ],
+      [
+       "? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       7
+      ],
+      [
+       6
+      ],
+      [
+       7
+      ],
+      [
+       0
       ]
      ]
     }
@@ -1108,8 +1516,8 @@
      "part": 3,
      "lesson": 5,
      "title": "Zweistellige Zahlen vergleichen und ordnen",
-     "type": "G1-137",
-     "tasks": 2
+     "type": "G1-135",
+     "tasks": 1
     },
     {
      "part": 4,
@@ -1117,13 +1525,19 @@
      "title": "Ausschnitte aus dem Zahlenstrahl: Der Anfang ist nicht die Null",
      "type": "G2-305",
      "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 8,
+     "title": "Sprünge auf der Hundertertafel",
+     "type": "G2-321",
+     "tasks": 2
     }
    ],
    "notCovered": [
     1,
     3,
-    7,
-    8
+    7
    ],
    "forms": {
     "A": {
@@ -1137,11 +1551,14 @@
        "0ee1bd5e58ca5d59"
       ],
       [
-       "e61562afb131cadd",
-       "737826858b466694"
+       "179e35c75b22559b"
       ],
       [
        "27ddcbdc461a7382"
+      ],
+      [
+       "a8bb152a913c5aa8",
+       "591418e5777ece89"
       ]
      ],
      "pos": [
@@ -1153,10 +1570,13 @@
        null
       ],
       [
-       2,
-       0
+       null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -1169,11 +1589,14 @@
        "? −w w +w ?"
       ],
       [
-       "w < = > w",
-       "w < = > w"
+       "w ? w ? w ?"
       ],
       [
        "w w w w w ? ?"
+      ],
+      [
+       "−w +w −w +w ? w ?",
+       "−w +w −w +w ? w ?"
       ]
      ],
      "sizes": [
@@ -1185,11 +1608,14 @@
        42
       ],
       [
-       82,
-       69
+       76
       ],
       [
        60
+      ],
+      [
+       83,
+       51
       ]
      ]
     },
@@ -1204,11 +1630,14 @@
        "52dc7473118a04bf"
       ],
       [
-       "ff11d20921db0130",
-       "a52ca11b959ea907"
+       "2e1c66f99bb9edce"
       ],
       [
        "947e5d6b161de39e"
+      ],
+      [
+       "82a67fa2e09cc4ab",
+       "cb9fb0509d275b08"
       ]
      ],
      "pos": [
@@ -1220,10 +1649,13 @@
        null
       ],
       [
-       0,
-       2
+       null
       ],
       [
+       null
+      ],
+      [
+       null,
        null
       ]
      ],
@@ -1236,11 +1668,14 @@
        "? −w w +w ?"
       ],
       [
-       "w < = > w",
-       "w < = > w"
+       "w ? w ? w ?"
       ],
       [
        "w w w w w ? ?"
+      ],
+      [
+       "−w +w −w +w ? w ?",
+       "−w +w −w +w ? w ?"
       ]
      ],
      "sizes": [
@@ -1252,11 +1687,141 @@
        39
       ],
       [
-       88,
-       68
+       75
       ],
       [
        60
+      ],
+      [
+       85,
+       53
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "de2-plus-minus-zweistellig",
+   "slug": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Zweistellige Zahlen addieren: 35 + 23 und 48 + 37",
+     "type": "G2-500",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35",
+     "type": "G2-501",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
+     "type": "G2-506",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "ce2af4ba26d72451"
+      ],
+      [
+       "594e09519d3b60c5"
+      ],
+      [
+       "589748d2e2e72356"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ?"
+      ],
+      [
+       "w − w = ?"
+      ],
+      [
+       "w w w w w w. w w w w w w. w: w w w w w w w w? w: w: ?"
+      ]
+     ],
+     "sizes": [
+      [
+       71
+      ],
+      [
+       66
+      ],
+      [
+       71
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "d738ddc7b9246966"
+      ],
+      [
+       "15cf12e3a4d00fa8"
+      ],
+      [
+       "35b0cf192a10af71"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + w = ?"
+      ],
+      [
+       "w − w = ?"
+      ],
+      [
+       "w w w w w w. w w w w w w. w: w w w w w w w w? w: w: ?"
+      ]
+     ],
+     "sizes": [
+      [
+       62
+      ],
+      [
+       64
+      ],
+      [
+       84
       ]
      ]
     }
@@ -1265,7 +1830,7 @@
   {
    "unit": "de2-groessen-daten",
    "slug": "messen-uhrzeit-geld-und-diagramme-klasse-2",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -1276,13 +1841,34 @@
     },
     {
      "part": 2,
-     "lesson": 3,
-     "title": "Die Uhr auf fünf Minuten genau lesen",
-     "type": "G2-249",
-     "tasks": 2
+     "lesson": 2,
+     "title": "Wie viel länger?",
+     "type": "G2-236",
+     "tasks": 1
     },
     {
      "part": 3,
+     "lesson": 6,
+     "title": "Von der Strichliste zum Säulendiagramm",
+     "type": "G2-239",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 7,
+     "title": "Ein X-Diagramm lesen",
+     "type": "G2-240",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 8,
+     "title": "Jedes Bild zählt doppelt",
+     "type": "G2-238",
+     "tasks": 1
+    },
+    {
+     "part": 6,
      "lesson": 9,
      "title": "Sicher, möglich, unmöglich",
      "type": "G2-507",
@@ -1290,26 +1876,31 @@
     }
    ],
    "notCovered": [
-    2,
+    3,
     4,
-    5,
-    6,
-    7,
-    8
+    5
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "108b9531b702e2b9"
       ],
       [
-       "4bfc8504cd8a1d4e",
-       "675f59f6b351c287"
+       "0241d004c0412fc2"
       ],
       [
-       "0288110a37943100"
+       "b373917e24fa1dc5"
+      ],
+      [
+       "63653e20b143b20f"
+      ],
+      [
+       "2292094370d40be5"
+      ],
+      [
+       "287f8c9a07494467"
       ]
      ],
      "pos": [
@@ -1317,11 +1908,19 @@
        null
       ],
       [
-       2,
-       1
+       null
       ],
       [
        null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       7
       ]
      ],
      "kinds": [
@@ -1329,11 +1928,19 @@
        "w w w w w w w w w w w ?"
       ],
       [
-       "w w w w w w w w w w w w w:w w:w w:w",
-       "w w w w w w w w w w w w w:w w:w w:w"
+       "?"
       ],
       [
-       "write 1"
+       "w w w w w w w w w ? ?"
+      ],
+      [
+       "w w w w w w w → ? w → ? w → ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "choose 4"
       ]
      ],
      "sizes": [
@@ -1341,8 +1948,16 @@
        10
       ],
       [
-       45,
-       30
+       3
+      ],
+      [
+       0
+      ],
+      [
+       6
+      ],
+      [
+       12
       ],
       [
        0
@@ -1350,17 +1965,25 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "5a07fe8395bc5818"
       ],
       [
-       "5aca451138b15922",
-       "f4bdf131968c33b2"
+       "83e341e0a7b292f8"
       ],
       [
-       "d3d675d09f6c668d"
+       "7b08aae5c3505cbd"
+      ],
+      [
+       "b00699c2ab8340b6"
+      ],
+      [
+       "98f3b067e1da7d6b"
+      ],
+      [
+       "2da8de2456795a1e"
       ]
      ],
      "pos": [
@@ -1368,11 +1991,19 @@
        null
       ],
       [
-       1,
-       0
+       null
       ],
       [
        null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       6
       ]
      ],
      "kinds": [
@@ -1380,11 +2011,19 @@
        "w w w w w w w w w w w ?"
       ],
       [
-       "w w w w w w w w w w w w w:w w:w w:w",
-       "w w w w w w w w w w w w w:w w:w w:w"
+       "?"
       ],
       [
-       "write 1"
+       "w w w w w w w w w ? ?"
+      ],
+      [
+       "w w w w w w w → ? w → ? w → ?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "choose 4"
       ]
      ],
      "sizes": [
@@ -1392,8 +2031,16 @@
        10
       ],
       [
-       50,
-       25
+       1
+      ],
+      [
+       0
+      ],
+      [
+       6
+      ],
+      [
+       14
       ],
       [
        0
@@ -1953,6 +2600,175 @@
    }
   },
   {
+   "unit": "g2-shapes-solids-symmetry",
+   "slug": "formen-koerper-und-symmetrie-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Flach oder räumlich? Flächen und Körper unterscheiden",
+     "type": "G2-244",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 6,
+     "title": "Die andere Hälfte ergänzen",
+     "type": "G2-264",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 7,
+     "title": "Tangram: Welche Figur passt zum Schattenbild?",
+     "type": "G2-347",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 8,
+     "title": "Planquadrate: Wo liegt das Feld B2?",
+     "type": "G2-279",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "34669b55e08e45d3"
+      ],
+      [
+       "787953525ba949e8",
+       "20b48c4b4f1c5267"
+      ],
+      [
+       "6945addae6e2c07d"
+      ],
+      [
+       "4d7fb812ddf6099f"
+      ]
+     ],
+     "pos": [
+      [
+       6
+      ],
+      [
+       25,
+       23
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "w",
+       "w"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "58d6cb613cf80b34"
+      ],
+      [
+       "5ed388d63a3f2804",
+       "c9295b22e23cf657"
+      ],
+      [
+       "60238830e801a47f"
+      ],
+      [
+       "95d8cf13f4686726"
+      ]
+     ],
+     "pos": [
+      [
+       6
+      ],
+      [
+       22,
+       24
+      ],
+      [
+       3
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "w",
+       "w"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 4"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "de3-zahlen-bis-1000",
    "slug": "zahlen-bis-1000-klasse-3",
    "status": "live",
@@ -2149,17 +2965,23 @@
      "title": "Gleichungen im Gleichgewicht",
      "type": "G3-350",
      "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Ist die Summe gerade oder ungerade?",
+     "type": "G3-386",
+     "tasks": 1
     }
    ],
    "notCovered": [
     2,
-    5,
     6,
     7
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "3239388b8830a001"
@@ -2169,6 +2991,9 @@
       ],
       [
        "cd65a9ba4a45a7de"
+      ],
+      [
+       "bf2c099d22174615"
       ]
      ],
      "pos": [
@@ -2180,6 +3005,9 @@
       ],
       [
        null
+      ],
+      [
+       1
       ]
      ],
      "kinds": [
@@ -2191,6 +3019,9 @@
       ],
       [
        "w + w w + ?"
+      ],
+      [
+       "choose 1"
       ]
      ],
      "sizes": [
@@ -2202,11 +3033,14 @@
       ],
       [
        14
+      ],
+      [
+       69
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "aeb514081cd61c0c"
@@ -2216,6 +3050,9 @@
       ],
       [
        "f99f8e7e2c4820ab"
+      ],
+      [
+       "36818a19282c6859"
       ]
      ],
      "pos": [
@@ -2227,6 +3064,9 @@
       ],
       [
        null
+      ],
+      [
+       0
       ]
      ],
      "kinds": [
@@ -2238,6 +3078,9 @@
       ],
       [
        "w + w w + ?"
+      ],
+      [
+       "choose 1"
       ]
      ],
      "sizes": [
@@ -2249,6 +3092,9 @@
       ],
       [
        15
+      ],
+      [
+       68
       ]
      ]
     }
@@ -2460,7 +3306,7 @@
   {
    "unit": "g3-shapes-and-data",
    "slug": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -2471,47 +3317,82 @@
     },
     {
      "part": 2,
+     "lesson": 2,
+     "title": "Ist es ein Rechteck?",
+     "type": "G3-340",
+     "tasks": 1
+    },
+    {
+     "part": 3,
      "lesson": 3,
      "title": "Wie viele Spiegelachsen?",
      "type": "G3-342",
      "tasks": 3
     },
     {
-     "part": 3,
+     "part": 4,
+     "lesson": 4,
+     "title": "Diagramme mit einer Skala in Fünferschritten",
+     "type": "G3-333",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl",
+     "type": "G3-335",
+     "tasks": 1
+    },
+    {
+     "part": 6,
      "lesson": 6,
      "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel",
      "type": "G3-484",
      "tasks": 1
     }
    ],
-   "notCovered": [
-    2,
-    4,
-    5
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
-       "826dd8938b1e1abd"
+       "f21710729e6a9a2d"
       ],
       [
-       "d6e7fdb83a0a091e",
-       "e266e39eb1c825d3",
-       "60506d027dbf73e1"
+       "2869f3735e87933f"
       ],
       [
-       "6fc46a51cbe3cab5"
+       "d87e85c070a89799",
+       "21e3e426d3d72ef4",
+       "791c1a7ddbf7cdf5"
+      ],
+      [
+       "02a775802aec96c3"
+      ],
+      [
+       "c7bce7d4f1efa43c"
+      ],
+      [
+       "a90e6f94d95c44f2"
       ]
      ],
      "pos": [
       [
-       3
+       0
+      ],
+      [
+       1
       ],
       [
        null,
        null,
+       null
+      ],
+      [
+       null
+      ],
+      [
        null
       ],
       [
@@ -2523,15 +3404,27 @@
        ""
       ],
       [
+       "choose 2"
+      ],
+      [
        "?",
        "?",
        "?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "w w½ w w½ w w½ w w½ → ? w½ → ? w → ?"
       ],
       [
        "write 1"
       ]
      ],
      "sizes": [
+      [
+       0
+      ],
       [
        0
       ],
@@ -2541,32 +3434,56 @@
        2
       ],
       [
+       30
+      ],
+      [
+       5
+      ],
+      [
        0
       ]
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
-       "4cab80fa8c567ad0"
+       "a20ae5838f3b6e18"
       ],
       [
-       "eb6514f3cb694434",
-       "1ec4ce9b7204e73b",
-       "dfc37e3679bc4790"
+       "35470478baaff528"
       ],
       [
-       "4b4b6ccc3cd06509"
+       "60506d027dbf73e1",
+       "454d4683c50183a9",
+       "251795c6eb3a7b2e"
+      ],
+      [
+       "11275212fbcef54e"
+      ],
+      [
+       "01c75024d99ea64b"
+      ],
+      [
+       "b5126e38b6becdde"
       ]
      ],
      "pos": [
       [
-       2
+       1
+      ],
+      [
+       0
       ],
       [
        null,
        null,
+       null
+      ],
+      [
+       null
+      ],
+      [
        null
       ],
       [
@@ -2578,9 +3495,18 @@
        ""
       ],
       [
+       "choose 2"
+      ],
+      [
        "?",
        "?",
        "?"
+      ],
+      [
+       "= w = ? = ?"
+      ],
+      [
+       "w w½ w w½ w w½ w w½ → ? w½ → ? w → ?"
       ],
       [
        "write 1"
@@ -2591,9 +3517,18 @@
        0
       ],
       [
+       0
+      ],
+      [
+       2,
        5,
-       4,
-       3
+       1
+      ],
+      [
+       35
+      ],
+      [
+       5
       ],
       [
        0
@@ -2616,13 +3551,20 @@
     },
     {
      "part": 2,
-     "lesson": 4,
-     "title": "Lautstreifen: Laute hören und zusammenschleifen",
-     "type": "G1-312",
+     "lesson": 3,
+     "title": "Der Silbenteppich",
+     "type": "G1-330",
      "tasks": 2
     },
     {
      "part": 3,
+     "lesson": 4,
+     "title": "Lautstreifen: Laute hören und zusammenschleifen",
+     "type": "G1-314",
+     "tasks": 2
+    },
+    {
+     "part": 4,
      "lesson": 6,
      "title": "Bilder beschriften",
      "type": "G1-260",
@@ -2631,7 +3573,6 @@
    ],
    "notCovered": [
     1,
-    3,
     5
    ],
    "forms": {
@@ -2643,8 +3584,12 @@
        "a7aea0d6f259273c"
       ],
       [
-       "7febb474abc0b1eb",
-       "e5e4f41dc4e304ab"
+       "7b89260a8ffb79d9",
+       "98566cb045cf244c"
+      ],
+      [
+       "b2ed2e96a8ef718f",
+       "ab40dd90cf532f60"
       ],
       [
        "7c244b8401cefea1",
@@ -2655,6 +3600,10 @@
       [
        null,
        null
+      ],
+      [
+       0,
+       2
       ],
       [
        null,
@@ -2669,6 +3618,10 @@
       [
        "write 1",
        "write 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
       ],
       [
        "write 1",
@@ -2685,8 +3638,12 @@
        2
       ],
       [
-       5,
-       4
+       3,
+       2
+      ],
+      [
+       0,
+       0
       ],
       [
        0,
@@ -2702,8 +3659,12 @@
        "20588950f173f0bd"
       ],
       [
-       "1b22364fe6a260bb",
-       "48268a0f5468f5ee"
+       "ee6fc73d176eba00",
+       "b055f42294ee7547"
+      ],
+      [
+       "6246826d0f051670",
+       "86cd5484bf552f2b"
       ],
       [
        "33ebfac5e9e48b37",
@@ -2714,6 +3675,10 @@
       [
        null,
        null
+      ],
+      [
+       0,
+       2
       ],
       [
        null,
@@ -2730,6 +3695,10 @@
        "write 1"
       ],
       [
+       "choose 1",
+       "choose 1"
+      ],
+      [
        "write 1",
        "write 1"
       ],
@@ -2744,8 +3713,12 @@
        3
       ],
       [
-       5,
+       2,
        3
+      ],
+      [
+       0,
+       0
       ],
       [
        0,
@@ -2762,20 +3735,27 @@
    "parts": [
     {
      "part": 1,
+     "lesson": 2,
+     "title": "Das fehlende Wort einsetzen",
+     "type": "G1-350",
+     "tasks": 1
+    },
+    {
+     "part": 2,
      "lesson": 3,
      "title": "Schüttelsätze",
      "type": "G1-282",
      "tasks": 1
     },
     {
-     "part": 2,
+     "part": 3,
      "lesson": 4,
      "title": "W-Fragen: wer, was, wo",
      "type": "G1-353",
-     "tasks": 2
+     "tasks": 1
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 5,
      "title": "Bildergeschichten: Was passiert als Nächstes?",
      "type": "G1-400",
@@ -2783,19 +3763,20 @@
     }
    ],
    "notCovered": [
-    1,
-    2
+    1
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
-       "85d2ad9b50a9734d"
+       "b30a060642bfec64"
       ],
       [
-       "9eaa5792565c5895",
-       "62b0bc55d2d22f70"
+       "72bf20f3d3e1e82e"
+      ],
+      [
+       "1bf22306c5f12566"
       ],
       [
        "26974e1f129b663c"
@@ -2806,8 +3787,10 @@
        null
       ],
       [
-       2,
-       1
+       null
+      ],
+      [
+       0
       ],
       [
        null
@@ -2815,11 +3798,13 @@
      ],
      "kinds": [
       [
+       "write 1"
+      ],
+      [
        "write 1 ·."
       ],
       [
-       "choose 1",
-       "choose 1"
+       "choose 3"
       ],
       [
        "write 1"
@@ -2830,7 +3815,9 @@
        0
       ],
       [
-       0,
+       0
+      ],
+      [
        0
       ],
       [
@@ -2839,14 +3826,16 @@
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
-       "86f2eb0b93821af9"
+       "d6da577bc7dd2432"
       ],
       [
-       "542c3a27f948ec01",
-       "0739fb825d4d9d3c"
+       "b26b4a8324167a1a"
+      ],
+      [
+       "dc92b044a71f7d29"
       ],
       [
        "d40d9135e11acbb5"
@@ -2857,7 +3846,9 @@
        null
       ],
       [
-       1,
+       null
+      ],
+      [
        2
       ],
       [
@@ -2866,11 +3857,13 @@
      ],
      "kinds": [
       [
+       "write 1"
+      ],
+      [
        "write 1 ·."
       ],
       [
-       "choose 1",
-       "choose 1"
+       "choose 3"
       ],
       [
        "write 1"
@@ -2881,10 +3874,856 @@
        0
       ],
       [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-words-and-how-they-work",
+   "slug": "abc-nomen-begleiter-und-gegenteile-klasse-1",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Nach dem Abc ordnen",
+     "type": "G1-262",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Nomen und Verben",
+     "type": "G1-293",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Der, die oder das?",
+     "type": "G1-292",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Gegenteile",
+     "type": "G1-337",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "db5ceba401982d03"
+      ],
+      [
+       "989ec19cae1d364b"
+      ],
+      [
+       "bd23671108bd4970"
+      ],
+      [
+       "70cee88e206da5b5",
+       "0a4f19afb553d2b5"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "c1311acb794de31b"
+      ],
+      [
+       "6d67ad98a54535d4"
+      ],
+      [
+       "a148aabd8a04d2a5"
+      ],
+      [
+       "52cbfb768272bfad",
+       "8004eb7d55170871"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-sentences-and-grammar",
+   "slug": "saetze-und-grammatik-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Satzanfang, Nomen und Satzzeichen",
+     "type": "G2-274",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Nomen, Verben und Adjektive sortieren",
+     "type": "G2-275",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Einzahl und Mehrzahl",
+     "type": "G2-349",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Verben verändern sich: ich, du, er, wir, ihr, sie",
+     "type": "G2-317",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "4785e9c528940ab8"
+      ],
+      [
+       "7482348e4566480c"
+      ],
+      [
+       "88f48070535c383c"
+      ],
+      [
+       "e4248bc6409a6773",
+       "d85850050886ea8a"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "7364066b4d41ec22"
+      ],
+      [
+       "91a839c1452c4cf2"
+      ],
+      [
+       "8a0f78e8beb46f1d"
+      ],
+      [
+       "0d59f99914187998",
+       "d56818c74c8c5d74"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-spelling-and-word-building",
+   "slug": "rechtschreiben-und-woerter-bilden-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Rechtschreibregeln: doppelte Mitlaute, ck und ie",
+     "type": "G2-315",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Wortfamilien: Welches Wort gehört dazu?",
+     "type": "G1-397",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Wortstamm und Wortfamilie",
+     "type": "G2-375",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
+     "title": "Vorsilben: un-, ein-, aus- und um-",
+     "type": "G2-320",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    1,
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "34d24f8d407f9306"
+      ],
+      [
+       "e63ceb1b643498da"
+      ],
+      [
+       "b882c693bf570d1a"
+      ],
+      [
+       "b711a041172889c8",
+       "ac22f84b6d7b9634"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "cd8bb410f3534cc7"
+      ],
+      [
+       "124ae6ca8c54ef36"
+      ],
+      [
+       "7203bf59c13835bd"
+      ],
+      [
+       "c6652a6aca5e01fb",
+       "06b05fb48ba636e3"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "de2-wortschatz",
+   "slug": "wortschatz-gleiche-bedeutung-und-wortfelder-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Zwei Wörter, eine Bedeutung",
+     "type": "G1-395",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Wörter mit gleicher Bedeutung",
+     "type": "G2-358",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Von ein bisschen bis sehr",
+     "type": "G1-396",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Wortfeld „sagen“: genauere Wörter",
+     "type": "G2-374",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "60d578f124c7d98b",
+       "787f7ff05326c7e8"
+      ],
+      [
+       "cf95f3767754fe95",
+       "0c40c219429b106d"
+      ],
+      [
+       "5b6ce3f56dda9b46"
+      ],
+      [
+       "d0a2b934720fa649",
+       "f6c8fe98cfe75a8a"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       0
+      ],
+      [
+       3,
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2",
+       "choose 2"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "w w w w ? w ? w ?"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
        0,
        0
       ],
       [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "5bf89c4c0fb1cb4a",
+       "3745c2616f6ba919"
+      ],
+      [
+       "16cf1d773455f586",
+       "7c22548b85222deb"
+      ],
+      [
+       "460ba5916b633167"
+      ],
+      [
+       "041dc6b7b5e1e58d",
+       "702ff43669eee489"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2",
+       "choose 2"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "w w w w ? w ? w ?"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-stories-facts-and-writing",
+   "slug": "geschichten-steckbriefe-und-schreibschrift-klasse-2",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Eine Geschichte lesen und Fragen beantworten",
+     "type": "G2-254",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Die fehlenden Wörter einer Geschichte",
+     "type": "G2-350",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Ein Tier-Steckbrief",
+     "type": "G2-339",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 6,
+     "title": "Schreibschrift: Buchstaben verbinden",
+     "type": "G2-377",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    3,
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "963268d15a5ad4c9"
+      ],
+      [
+       "cd195fdbd37e3c85"
+      ],
+      [
+       "895cd1a688d25603"
+      ],
+      [
+       "cdbef5fec277ea70",
+       "6b96582c81145d1f"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "8d3ba4cc2d0c5116"
+      ],
+      [
+       "d83969d258a8ecdb"
+      ],
+      [
+       "97b7d294df226b31"
+      ],
+      [
+       "ef0b3f7bf0d1bf2a",
+       "5c8e1754cda15b10"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
        0
       ]
      ]
@@ -2898,54 +4737,75 @@
    "parts": [
     {
      "part": 1,
+     "lesson": 1,
+     "title": "Wortfelder: gehen und sehen",
+     "type": "G3-397",
+     "tasks": 1
+    },
+    {
+     "part": 2,
      "lesson": 2,
      "title": "Wer macht das? Wörter mit -er und -erin",
      "type": "G3-398",
      "tasks": 2
     },
     {
-     "part": 2,
+     "part": 3,
+     "lesson": 3,
+     "title": "Wortfamilien im Satz",
+     "type": "G3-399",
+     "tasks": 1
+    },
+    {
+     "part": 4,
      "lesson": 4,
      "title": "Er, sie oder es?",
      "type": "G1-352",
-     "tasks": 2
+     "tasks": 1
     },
     {
-     "part": 3,
+     "part": 5,
      "lesson": 5,
      "title": "Wer ist gemeint? Pronomen im Satz",
      "type": "G2-353",
      "tasks": 1
     }
    ],
-   "notCovered": [
-    1,
-    3
-   ],
+   "notCovered": [],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 3,
      "cards": [
+      [
+       "c57509383ad86471"
+      ],
       [
        "c29c7a5bc28089dc",
        "b0a4411229b6cde8"
       ],
       [
-       "b38088c89a59492a",
-       "4fb2fdc710328809"
+       "f06670996b5c03ff"
       ],
       [
-       "2bc7eb5c2c12e623"
+       "d8e20f1f15f2c582"
+      ],
+      [
+       "9a31b45d81405427"
       ]
      ],
      "pos": [
+      [
+       null
+      ],
       [
        null,
        null
       ],
       [
-       0,
-       1
+       null
+      ],
+      [
+       2
       ],
       [
        0
@@ -2953,12 +4813,17 @@
      ],
      "kinds": [
       [
+       "write 4"
+      ],
+      [
        "write 1 ·f",
        "write 1 ·m"
       ],
       [
-       "choose 1 ·thing",
-       "choose 1 ·person"
+       "write 1"
+      ],
+      [
+       "choose 3 ·thing"
       ],
       [
        "choose 4"
@@ -2966,11 +4831,16 @@
      ],
      "sizes": [
       [
-       0,
        0
       ],
       [
        0,
+       0
+      ],
+      [
+       0
+      ],
+      [
        0
       ],
       [
@@ -2979,27 +4849,37 @@
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 3,
      "cards": [
+      [
+       "45942647fa1f309c"
+      ],
       [
        "898ee8d5bba3920f",
        "90b0ce04e31df5eb"
       ],
       [
-       "d7dddbfe77f2188e",
-       "f452bd391d8e6e64"
+       "30f07df7b716af5c"
       ],
       [
-       "de7187ef32749dd2"
+       "473dce377bd8bfdc"
+      ],
+      [
+       "8aeb051272c5427c"
       ]
      ],
      "pos": [
+      [
+       null
+      ],
       [
        null,
        null
       ],
       [
-       1,
+       null
+      ],
+      [
        0
       ],
       [
@@ -3008,12 +4888,17 @@
      ],
      "kinds": [
       [
+       "write 4"
+      ],
+      [
        "write 1 ·f",
        "write 1 ·m"
       ],
       [
-       "choose 1 ·thing",
-       "choose 1 ·person"
+       "write 1"
+      ],
+      [
+       "choose 3 ·thing"
       ],
       [
        "choose 4"
@@ -3021,11 +4906,16 @@
      ],
      "sizes": [
       [
-       0,
        0
       ],
       [
        0,
+       0
+      ],
+      [
+       0
+      ],
+      [
        0
       ],
       [

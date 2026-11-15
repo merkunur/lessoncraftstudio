@@ -2224,14 +2224,14 @@
          "unit": "time-temperature-mass-and-liquid-volume-grade-3-unit",
          "unitTitle": "Time, Temperature, Mass, and Liquid Volume",
          "unitGrade": "3",
-         "n": 6,
+         "n": 5,
          "title": "Read a scale in grams"
         },
         {
          "unit": "time-temperature-mass-and-liquid-volume-grade-3-unit",
          "unitTitle": "Time, Temperature, Mass, and Liquid Volume",
          "unitGrade": "3",
-         "n": 7,
+         "n": 6,
          "title": "Read a measuring cup"
         }
        ]
@@ -4920,7 +4920,7 @@
          "unit": "time-temperature-mass-and-liquid-volume-grade-3-unit",
          "unitTitle": "Time, Temperature, Mass, and Liquid Volume",
          "unitGrade": "3",
-         "n": 5,
+         "n": 4,
          "title": "Read a thermometer"
         }
        ]
@@ -6144,14 +6144,14 @@
          "unit": "time-temperature-mass-and-liquid-volume-grade-3-unit",
          "unitTitle": "Time, Temperature, Mass, and Liquid Volume",
          "unitGrade": "3",
-         "n": 6,
+         "n": 5,
          "title": "Read a scale in grams"
         },
         {
          "unit": "time-temperature-mass-and-liquid-volume-grade-3-unit",
          "unitTitle": "Time, Temperature, Mass, and Liquid Volume",
          "unitGrade": "3",
-         "n": 7,
+         "n": 6,
          "title": "Read a measuring cup"
         }
        ]

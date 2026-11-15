@@ -15,6 +15,10 @@
   },
   "k-shapes": {
    "K:mirror-image": "[en.review-73] The mirror picture of an animal that faces the front differs from its copy only in the tail; a kindergartner cannot see that at this size."
+  },
+  "g2-add-subtract-within-1000": {
+   "2:add-with-blocks": "[en.review-f1115-math] The blocks page adds (subtracts) two-digit numbers with no new ten: Grade 1 work in a within-1,000 check. The lesson keeps it as its concrete start; a three-digit blocks page is still to build.",
+   "2:subtract-with-blocks": "[en.review-f1115-math] The blocks page adds (subtracts) two-digit numbers with no new ten: Grade 1 work in a within-1,000 check. The lesson keeps it as its concrete start; a three-digit blocks page is still to build."
   }
  },
  "instruction": {
@@ -36,7 +40,7 @@
   "K-221": "I will say the name of each picture. Write the letter for the first sound you hear.",
   "K-226": "I will say the name of each picture. Write the letter for the last sound you hear.",
   "K-329": "I will say the name of each picture. Say the word slowly. Draw one dot in the long box for every sound you hear. Then write the number of sounds in the small box.",
-  "G1-312": "Say the picture word slowly. Write the letter or letters for each sound in its own box. Start at the left. Leave the boxes you do not need empty.",
+  "G1-312": "I will say the name of each picture. Say the word slowly. Write the letter or letters for each sound in its own box. Start at the left. Leave the boxes you do not need empty.",
   "G1-260": "Write the word for each picture on the lines.",
   "K-368": "Look at each shape. Some are turned and some are skinny. I will read the three names. Circle the name of the shape.",
   "G3-377": "Circle equal groups in the pile. The second number tells you how many go in each group. Write how many groups you made and how many pictures are left over.",
@@ -47,19 +51,46 @@
   "G1-243": "Look at the big number. Fill in every box for that number.",
   "K-644": "Draw a line from the solid to the thing with the same shape.",
   "G2-516": "Draw an X above the number line for each length. Then answer the question.",
-  "K-389": "Read the sentence. Write the word from the box on the line.",
+  "K-389": "Read the sentence. Write the word from the box that fits on the line.",
   "G2-339": "Read the choices and circle the one that is true for this animal.",
-  "G1-293": "Is the word a noun or a verb? Write it in the right bin.",
-  "G3-493": "Each pencil is lined up with its own ruler. Write its length to the nearest quarter inch. The rulers are drawn smaller than a real ruler.",
+  "G1-293": "Read each word. Is it a noun or a verb? Write it in the right bin.",
+  "G3-493": "Each pencil lies on its own ruler. Write its length to the nearest quarter inch. The rulers are drawn smaller than a real ruler.",
   "G2-279": "Find each square by its letter and number, like B2. Color it with the color of its group.",
   "G1-330": "Say each picture word, then circle the one word under the picture that names it.",
-  "G2-317": "Read each sentence and the verb in brackets. Write the right form of the verb in the box."
+  "G2-317": "Read each sentence and the verb in parentheses. Write the right form of the verb in the box.",
+  "G1-238": "Listen to the story. Use the pictures to help you. Write the answer in the box.",
+  "G1-239": "Listen to the story. Use the pictures to help you. Write the answer in the box.",
+  "G2-244": "Draw a line from each shape to the right bin. Flat shapes go to the square bin. Solid shapes go to the cube bin.",
+  "G1-228": "Add up the coins in each box. Write how many cents in all.",
+  "G1-139": "Each object sits on a row of unit squares. Count the squares from one end of the object to the other. Write the length.",
+  "G1-381": "Read the name. Circle every shape that really is that shape.",
+  "G3-386": "Do not add. Look at the underlined ones digits and use the table. Fill in the circle to show if the sum is odd or even.",
+  "G3-359": "Add one place at a time. Start with the ones. Regroup when you need to.",
+  "G3-361": "Add one place at a time. Start with the ones. Regroup when you need to.",
+  "G2-502": "Subtract one place at a time. Start with the ones. Regroup when you need to.",
+  "G3-340": "Is each shape a rectangle? Remember, a square is a rectangle too. Draw a line from each shape to the right box.",
+  "G2-511": "Read the story. Write each step: the numbers, the sign in the circle, and the answer.",
+  "G3-485": "Read the story. Write each step: the numbers, the sign in the circle, and the answer.",
+  "G3-486": "Read the story. Write each step: the numbers, the sign (+, −, ×, ÷) in the circle, and the answer.",
+  "K-222": "Circle the small letter that matches the capital letter.",
+  "K-238": "Trace each letter. Then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
+  "K-302": "Look at the picture with more than one. Circle the word that names them.",
+  "K-288": "I will say the name of each picture. Circle a or an to go in front of it.",
+  "K-379": "Look at what changes in the story. Write 1, 2, 3 and 4 in the boxes to put the pictures in order.",
+  "G1-305": "I will say the name of each picture. Clap its parts. Draw one scoop under every syllable you hear.",
+  "G1-350": "Read the sentence. Find the word in the word bank that fits and write it in the box.",
+  "G1-400": "Look at the three pictures in the story, then circle the picture below that belongs in the ? frame.",
+  "G1-396": "Read the three words in the row. Write 1, 2 and 3 in the boxes, from the weakest word to the strongest.",
+  "G2-254": "Read the story carefully. Then circle the best answer to each question.",
+  "G2-375": "Circle the part the three words share and write that root word in the empty box.",
+  "G2-377": "Trace the gray letters, then keep writing the letter joined on your own to the end of the line and on the empty line below.",
+  "G2-320": "Choose un-, dis- or in- for each word. Write the new word that means the opposite on the line.",
+  "G3-397": "Write each word under \"go\" or \"look\".",
+  "G3-398": "Look at each person, read the word beside them and write the person word in the empty box.",
+  "G3-399": "Read the four words above the root word. Write the one that fits the sentence in the gap.",
+  "G2-315": "Look at the example in the box. Say the name of each picture, then write the missing letters in the dashed boxes."
  },
  "noCheck": {
-  "g2-shapes-solids-symmetry": "[en.review-g23-math] The pictures keyed as symmetrical are drawn with shading and uneven details (a persimmon with a highlight on one side, a bat with a mouth mark left of the line): \"no\" can be defended. Without that part the unit has two parts, fewer than a check needs.",
-  "g3-time-temperature-mass-volume": "[en.review-g23-math] The clocks offer a choice one minute from the key while the minute hand stops short of the minute marks; 24-hour time is not taught in U.S. Grades K-3. One part would be left.",
-  "g1-shapes-measuring-graphs": "[en.review-73] The parts a check could be cut from leave out sorting, picture graphs and bar graphs, four of the seven lessons: not a fair check of the unit.",
-  "g2-add-subtract-within-1000": "[en.review-73] Every box is two-digit without regrouping, nothing goes above 100 and nothing is subtracted vertically: a child gets full marks without the main skills of the unit.",
   "k-teen-numbers-and-counting-to-100": "[2026-11-13] The parts a check can be cut from are three of the teen-number lessons; counting to 50 and to 100, counting on from any number and counting by tens (five of the eight lessons) are not in it: not a fair check of a unit with this name."
  },
  "avoid": {
@@ -108,7 +139,18 @@
   "G2-351 parity": "One form had an odd and an even number, the other two even ones: the question \"what is left over\" was asked once in one form and never in the other.",
   "G2-255 blend G2-256": "[build session, reading the check of g2-adding-and-subtracting-within-100, 2026-11-13] The lesson is adding AND subtracting in columns and hands out one worksheet for each; a part cut from the first alone made a check of a unit named \"Adding and Subtracting\" that asked no subtraction.",
   "G2-255 instruction": "The worksheet of column addition says \"Add\"; the blended part holds a subtraction too.",
-  "units g2-fact-strategies-within-20": "[teacher-reviewer of the unit, 2026-11-13] Rulings that hold in this unit only (the same pages stand in the Grade 1 check, where they are right). G1-439 onlyText: form B asked 9 + 9 in the make-ten part, a double the same unit teaches from memory and far easier than the 6 + 8 of form A; the part asks no double. G1-449 avoidNums: 4 + 5 and 3 + 4 have sums under 10 and do not touch the doubles of 6 to 9 the Grade 2 lesson is about; the part asks no near double with 2, 3 or 4."
+  "units g2-fact-strategies-within-20": "[teacher-reviewer of the unit, 2026-11-13] Rulings that hold in this unit only (the same pages stand in the Grade 1 check, where they are right). G1-439 onlyText: form B asked 9 + 9 in the make-ten part, a double the same unit teaches from memory and far easier than the 6 + 8 of form A; the part asks no double. G1-449 avoidNums: 4 + 5 and 3 + 4 have sums under 10 and do not touch the doubles of 6 to 9 the Grade 2 lesson is about; the part asks no near double with 2, 3 or 4.",
+  "G3-357 kindRegroup": "[second review 2026-11-15] Form B regrouped twice where form A regrouped once (337 + 175 against 217 + 144), and 564 − 556 = 8 is no column task: a box of form B regroups as often as its box of form A; no one-digit answer.",
+  "sharesOk": "[second review 2026-11-15] Rounded numbers are few (the tens, the hundreds): two boxes of a part may share one, or a unit on rounding gets no rounding part at all.",
+  "otherWords": "[second review 2026-11-15] Form B repeated form A: the same day (Sunday) in \"Yesterday, Today, Tomorrow\", the same three words in the prefix part, \"red\" as the only adjective in both forms, one sentence with another noun (\"a story about the bat / the fig\"), \"inspect\", \"yawned\", \"is at the pool\". Form B takes the box that shares the fewest words with form A.",
+  "G1-147 in g2-graphs-and-grids": "[second review 2026-11-15] The counts of part 2 (7 and 4) were the counts of the tally of part 1, and form B shared the 7: part 2 takes no count of part 1 of either form, and form B no count of form A.",
+  "G1-106 avoidAns": "[second review 2026-11-15] 9 + □ = 10 is \"one more\", easier than 7 + 3 (the class of the first review, parts 52 and 55): no answer 1 (and, as before, no 5).",
+  "G1-260": "[second review 2026-11-15] horse, zebra, lemon, apple are not Grade 1 spelling patterns, and the page has no shorter words at the level the lesson hands out (a farm theme left two cards): the reviewer's second way is taken, both forms are scored by the sounds in order.",
+  "G2-339 onlyText": "[second review 2026-11-15] The card prints no fact text, so the child answers from what he knows: hamster → \"both\" is not known (form B was harder and the natural answer was marked wrong). Only animals whose food every child knows.",
+  "G2-254 in g2-stories-facts-and-writing": "[second review 2026-11-15] \"Milo the Cat\" has three sentences against five of form A's story, and its first question is answered by the title: form B takes another story.",
+  "G2-315 instruction": "[second review 2026-11-15] The box shows four patterns and one example, no rule to read.",
+  "turnB": "[second review 2026-11-15] Both forms were answered in one order (a, an; right bin, left bin): form B stands in the other order.",
+  "K-064 askAgain": "[2026-11-15] The page now asks ON, UNDER and BESIDE in turn (it asked ON on every card). The place word is what a card asks, and there are three: form B may ask a place form A asks, with other pictures; a part never asks one place twice in a form."
  },
  "blend": {
   "G3-364": [
@@ -128,7 +170,9 @@
  "avoidAns": {
   "G3-317": "^[01]\\d$",
   "K-231": "^(?![bcdfghjklmnpqrstvwxyz]\\|[aeiou]\\|[bcdfgklmnpstvxz]$)",
-  "K-221": "^[AEIOUaeiou]$"
+  "K-221": "^[AEIOUaeiou]$",
+  "G1-106": "^[15]$",
+  "G3-357": "^1:"
  },
  "pairKind": [
   "G3-319"
@@ -149,7 +193,8 @@
   "nest"
  ],
  "avoidText": [
-  "vulture"
+  "vulture",
+  "stands up tall"
  ],
  "onlyPictures": {
   "K-329": [
@@ -173,26 +218,21 @@
    "donkey",
    "panda",
    "penguin",
-   "raccoon"
-  ],
-  "G2-349": [
-   "lion",
-   "penguin",
-   "bee",
-   "bat",
-   "airplane",
-   "horse",
-   "monkey",
-   "duck",
-   "ball",
-   "cow"
+   "raccoon",
+   "elephant",
+   "kangaroo",
+   "butterfly",
+   "cat",
+   "dog"
   ]
  },
  "onlyText": {
-  "G1-337": "^(hot|happy|wet|good|loud|clean|lost|sweet|sick|true) "
+  "G1-337": "^(hot|happy|wet|good|loud|clean|lost|sweet|sick|true) ",
+  "G2-339": "^(Owl|Lion|Tiger|Wolf|Shark|Eagle|Cow|Horse|Sheep|Goat|Giraffe|Elephant|Zebra|Deer|Bear)\\s"
  },
  "avoidEcho": [
-  "G3-312"
+  "G3-312",
+  "G3-350"
  ],
  "disjointWords": [
   "G1-395",
@@ -200,7 +240,7 @@
  ],
  "keyNote": {
   "G1-312": "Give the point when each box holds one sound and the sounds stand in the right order, whatever the spelling.",
-  "G1-260": "These words are not spelled the way they sound. Before the unit, give the point for a spelling that shows every sound in order (for example “zebru” for zebra); after the unit, for the correct spelling.",
+  "G1-260": "These words are not spelled the way they sound. In both forms, give 1 point for each word whose spelling shows every sound in order (for example, “zebru” for zebra).",
   "G2-353": "The same number marks a word and the name it stands for.",
   "G2-356": "Another correct question that asks for the highlighted words is right too (for example “What time …?” for “When …?”).",
   "G1-395": "You may read the four words aloud."
@@ -220,6 +260,63 @@
      4
     ]
    }
+  },
+  "g2-graphs-and-grids": {
+   "avoidNums": {
+    "G1-147": [
+     7,
+     4,
+     6,
+     3
+    ]
+   }
+  },
+  "g2-stories-facts-and-writing": {
+   "avoidText": [
+    "milo"
+   ]
   }
- }
+ },
+ "kindAttr": {
+  "K-451": "crossed",
+  "K-444": "loose",
+  "G1-312": "sounds"
+ },
+ "otherDrawings": [
+  "G3-318"
+ ],
+ "disjointForm": [
+  "G2-358"
+ ],
+ "mixKinds": [
+  "G1-312"
+ ],
+ "kindRegroup": [
+  "G3-357"
+ ],
+ "sharesOk": [
+  "G2-221",
+  "G3-323",
+  "G3-389"
+ ],
+ "otherWords": [
+  "G1-319",
+  "G2-320",
+  "G2-275",
+  "G2-274",
+  "G1-282",
+  "G3-397",
+  "G2-374",
+  "G1-353"
+ ],
+ "otherNums": [
+  "G1-147"
+ ],
+ "turnB": [
+  "K-288",
+  "K-042"
+ ],
+ "askAgain": [
+  "K-064"
+ ]
 }

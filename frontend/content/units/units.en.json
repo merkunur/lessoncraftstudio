@@ -9077,20 +9077,20 @@
      ],
      "paper": [
       {
-       "type": "G3-359",
-       "title": "Addition with Carrying",
-       "core": "column-arithmetic-g3359",
-       "easy": "column-arithmetic-easy-g3359-7",
-       "hard": "column-arithmetic-hard-g3359-12",
-       "landing": "2-digit-addition-with-regrouping"
+       "type": "G3-357",
+       "title": "Addition and Subtraction with Regrouping",
+       "core": "column-arithmetic-hard-g3357-12",
+       "level": 3,
+       "easy": "column-arithmetic-g3357",
+       "screen": 1
       },
       {
-       "type": "G3-360",
-       "title": "Subtraction with Borrowing",
-       "core": "column-arithmetic-g3360",
-       "easy": "column-arithmetic-easy-g3360-7",
-       "hard": "column-arithmetic-hard-g3360-12",
-       "landing": "2-digit-subtraction-with-regrouping"
+       "type": "G3-363",
+       "title": "Regrouping Review",
+       "core": "column-arithmetic-hard-g3363-12",
+       "level": 3,
+       "easy": "column-arithmetic-g3363",
+       "screen": 1
       }
      ],
      "tool": {
@@ -9105,14 +9105,14 @@
       "title": "Tuck Makes a Hundred — Add with Regrouping"
      },
      "exit": {
-      "slug": "column-arithmetic-g3359-2",
-      "title": "Addition with Carrying"
+      "slug": "column-arithmetic-hard-g3357-13",
+      "title": "Addition and Subtraction with Regrouping"
      },
      "maker": {
       "id": "addition-subtraction",
       "name": "Addition & Subtraction",
       "slug": "addition-and-subtraction-worksheet-generator",
-      "template": "G3-359"
+      "template": "G3-357"
      },
      "note": {
       "mistake": "Children forget to add the new ten or hundred, or they write it and add it twice. In subtraction they trade a ten for ten ones and forget to make the tens one smaller; with a zero in the tens place (402 − 178) they do not know where the ten ones can come from.",

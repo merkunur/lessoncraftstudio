@@ -516,6 +516,29 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
       const title = tie(fill(ui.formTitle, { unit: u.title, form }));
       await load(path.join(dir, '_probe.html'), pageHtml(title, [], 1));
       const cap = await page.evaluate(() => document.querySelector('[data-lcs-body]').clientHeight);
+      // 2026-11-15: a part's slots are as wide as its WIDEST card (cards cut from two pages of a type can differ by a few
+      // px: K-014 with nine pictures needed 334 where its first card had 327); when that many no longer stand side by
+      // side on the page's row (gap 14), one fewer stands a row
+      const rowW = await page.evaluate(() => document.querySelector('.tc-wrap').clientWidth);
+      const fitRow = (s) => { while (s.perRow > 1 && s.perRow * s.w + (s.perRow - 1) * 14 > rowW) s.perRow--; };
+      for (const s of sections[form]) {
+        s.w = Math.max(...s.cards.map((c) => c.w));
+        // a few px over the row is the difference between two pages' columns (331 + 14 + 331 on a 675 px row), not a
+        // wider card: the slot is narrowed to what the row allows (the key below still widens it if a card needs more)
+        const over = s.perRow * s.w + (s.perRow - 1) * 14 - rowW;
+        if (s.perRow > 1 && over > 0 && over <= 4 * s.perRow) s.w = Math.floor((rowW - (s.perRow - 1) * 14) / s.perRow);
+        fitRow(s);
+      }
+      // the key writes its answers into the boxes, and a box may grow with them (nine tally marks made a K-014 card 7 px
+      // wider than on the form): the slot takes the width the key needs
+      // (a flexible box grows with its slot, so the slot is widened by what still sticks out until nothing does)
+      for (let round = 0; round < 6; round++) {
+        await load(path.join(dir, '_probe.html'), pageHtml(title, sections[form], 1, { pageHeight: 9000, keyLabel: ui.keyLabel }));
+        await page.evaluate(showAnswers);
+        const outW = await page.evaluate(() => [...document.querySelectorAll('.tc-section')].map((sec) => Math.max(0, ...[...sec.querySelectorAll('[data-tc-unit]')].map((c) => c.scrollWidth - c.clientWidth))));
+        if (!outW.some((x) => x > 2)) break;
+        sections[form].forEach((s, i) => { if (outW[i] > 2) { s.w = Math.min(rowW, s.w + outW[i] + 1); fitRow(s); } });
+      }
       const tallOf = () => page.evaluate(() => [...document.querySelectorAll('.tc-section')].map((s) => Math.ceil(s.getBoundingClientRect().height)));
       await load(path.join(dir, '_probe.html'), pageHtml(title, sections[form], 1, { pageHeight: 9000 }));
       // a box that does not fit the height it was measured at without its page (a line of choices that wraps) gets the
@@ -553,7 +576,7 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
     if (sections.A.length < MIN_SECTIONS) { console.log('--    ' + u.id + ': ' + sections.A.length + ' lesson(s) with cards after a part was left out; no check'); fs.rmSync(dir, { recursive: true, force: true }); continue; }
     const cap = Math.min(mA.cap, mB.cap);
     const heights = mA.heights.map((h, i) => Math.max(h, mB.heights[i]));
-    if (has('debug')) console.log('      a page holds ' + cap + ' px; sections ' + heights.join(', '));
+    if (has('debug')) console.log('      a page holds ' + cap + ' px; sections ' + heights.join(', ') + '\n      (' + sections.A.map((s, i) => s.type + ' ' + s.cards.length + '/' + sections.B[i].cards.length + ' cards, ' + s.perRow + '/' + sections.B[i].perRow + ' a row, ' + s.w + '/' + sections.B[i].w + ' px wide, ' + s.h + ' high').join(' · ') + ')');
     if (heights.some((x) => x > cap)) throw new Error(u.id + ': a section is taller than a page');
     // the parts stand in the order of the lessons; a page takes sections until the next one no longer fits
     const pages = []; { let cur = [], h = -GAP; heights.forEach((x, i) => { if (cur.length && h + GAP + x > cap) { pages.push(cur); cur = []; h = -GAP; } cur.push(i); h += GAP + x; }); if (cur.length) pages.push(cur); }

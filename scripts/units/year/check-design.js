@@ -39,7 +39,7 @@ function load() {
   // standard a lesson can teach. A curriculum without codes (German, Swedish): the id of a line of the curriculum, or
   // the heading of the area a live lesson already stands under.
   const codes = loc === 'en'
-    ? new Set(fw.nodes.map((n) => String(n.id)).filter((id) => /^(K|\d)\.[A-Z]+\.[A-Z]\.\d+(\.[a-z])?$/.test(id)))
+    ? new Set(fw.nodes.map((n) => String(n.id)).filter((id) => /^(K|\d)\.[A-Z]+\.[A-Z]\.\d+(\.[a-z])?$/.test(id) || /^(RL|RI|RF|W|SL|L)\.(K|\d)\.\d+(\.[a-z])?$/.test(id)))   // (2026-11-15: the English language arts codes name the strand first: RF.1.3.c)
     : new Set([...fw.nodes.filter((n) => (MATH_FRAMEWORKS[loc] || []).includes(n.f) && (n.kind === 'standard' || n.kind === 'content')).map((n) => String(n.id)), ...unitsFile.units.flatMap((u) => u.lessons.flatMap((l) => l.standards.map((x) => x.title).filter(Boolean)))]);
   if (codes.size < 50) throw new Error('the framework of ' + loc + ' gave only ' + codes.size + ' standard codes: the design cannot be checked against it');
   const src = fs.readFileSync(path.join(REPO, 'frontend', 'lib', 'manipulatives.ts'), 'utf8');
@@ -103,7 +103,7 @@ function run(d) {
         else { const t = l.title.toLowerCase(); if (titles.has(t)) fail('D5', lw + ': the title "' + l.title + '" stands twice'); titles.set(t, true); }
         if (!(CHILDREN[loc] || CHILDREN.en).test(l.objective || '') || (l.objective || '').length < 40) fail('D3', lw + ' "' + l.title + '": the objective does not start with the children (' + (CHILDREN[loc] || CHILDREN.en).source + ') or is too short to say what they do');
         if (!d.codes.has(l.standard)) fail('D3', lw + ' "' + l.title + '": ' + l.standard + ' is no code of the framework');
-        else if (loc === 'en') { const cg = /^(K|\d)\./.exec(l.standard); const order = ['K', '1', '2', '3', '4', '5']; if (cg && order.indexOf(cg[1]) > order.indexOf(grade)) fail('D3', lw + ' "' + l.title + '": ' + l.standard + ' is a standard of a later grade'); }
+        else if (loc === 'en') { const cg = /^(K|\d)\./.exec(l.standard) || /^[A-Z]+\.(K|\d)\./.exec(l.standard); const order = ['K', '1', '2', '3', '4', '5']; if (cg && order.indexOf(cg[1]) > order.indexOf(grade)) fail('D3', lw + ' "' + l.title + '": ' + l.standard + ' is a standard of a later grade'); }
         if (![2, 3].includes(l.days) || (grade === 'K' && l.days !== 2)) fail('D3', lw + ' "' + l.title + '": ' + l.days + ' days');
         days += [2, 3].includes(l.days) ? l.days : 2;
         if (l.tool != null && !d.tools.has(l.tool)) fail('D4', lw + ' "' + l.title + '": the site has no tool named "' + l.tool + '"');

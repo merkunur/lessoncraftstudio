@@ -1,0 +1,2221 @@
+{
+  "1": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Routines, discussion rules, and the beginning-of-year screening: letter sounds, nonsense-word reading, oral reading fluency, a spelling inventory."
+      },
+      {
+        "weeks": "10",
+        "what": "End of the first quarter: report-card checks and family conferences."
+      },
+      {
+        "weeks": "17",
+        "what": "The short week before winter break: review stations and favorite read-alouds, no new lesson."
+      },
+      {
+        "weeks": "20",
+        "what": "Middle-of-year benchmark window: oral reading fluency and nonsense-word reading."
+      },
+      {
+        "weeks": "28",
+        "what": "End of the third quarter: report-card checks and spring conferences."
+      },
+      {
+        "weeks": "34",
+        "what": "End-of-year benchmark window."
+      },
+      {
+        "weeks": "36",
+        "what": "Last week of school: review stations, class book share, and summer reading packets."
+      }
+    ],
+    "units": [
+      {
+        "id": "g1-sounds-spelling-syllables",
+        "title": "Sounds and Short-Vowel Words",
+        "why": "Grade 1 opens by firming up what Kindergarten started: every sound in a short-vowel word, heard, read, and spelled.",
+        "lessons": [
+          {
+            "existing": "1:phoneme-boxes"
+          },
+          {
+            "new": true,
+            "title": "First, middle, or last sound?",
+            "objective": "Children isolate and say the first, middle, or last sound in a spoken one-syllable word and mark where they hear a given sound.",
+            "standard": "RF.1.2.c",
+            "days": 2,
+            "tool": "Sound Boxes",
+            "source": "new",
+            "page": "Sound-position page: twelve pictures of CVC and CCVC words, each with three boxes in a row. The teacher names a sound; the child colors the box where it is heard (first, middle, last). Level 1: first and last sounds only; level 2: the middle vowel too; level 3: the child writes the letter for the sound in its box."
+          },
+          {
+            "existing": "1:word-families-syllable-reading"
+          },
+          {
+            "existing": "1:spell-picture-words"
+          }
+        ]
+      },
+      {
+        "id": "new:digraphs-and-blends",
+        "title": "Digraphs and Blends",
+        "why": "Once short-vowel words are firm, the class reads two-letter sounds and consonant blends, the next step in every Grade 1 phonics sequence.",
+        "lessons": [
+          {
+            "existing": "1:digraphs",
+            "from": "g1-sounds-spelling-syllables"
+          },
+          {
+            "new": true,
+            "title": "ck, ng, and wh",
+            "objective": "Children read and spell words with ck at the end (duck), ng at the end (ring), and wh at the start (whip), knowing each spelling makes one sound.",
+            "standard": "RF.1.3.a",
+            "days": 2,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (du__, ri__, __ip). Level 1: one pattern per page; level 2: two patterns mixed, sorted into two columns; level 3: the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Blends at the start: st, fl, tr",
+            "objective": "Children read and spell one-syllable words that start with a consonant blend (stop, flag, trip) and say both sounds of the blend.",
+            "standard": "RF.1.3.b",
+            "days": 3,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (__op, __ag, __ip). Level 1: one pattern per page (s-blends); level 2: two patterns mixed (s-blends and l-blends), sorted into two columns; level 3: s-, l- and r-blends, the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Blends at the end: nd, mp, st",
+            "objective": "Children read and spell short-vowel words that end in a consonant blend (hand, jump, nest) and hear both final sounds.",
+            "standard": "RF.1.3.b",
+            "days": 2,
+            "tool": "Dictation Desk",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (ha__, ju__, ne__). Level 1: one pattern per page (nd); level 2: two patterns mixed, sorted into two columns; level 3: nd, mp, st, nk, the whole word written under each picture."
+          }
+        ]
+      },
+      {
+        "id": "g1-reading-sentences-and-stories",
+        "title": "Reading Sentences",
+        "why": "With digraphs and blends decodable, the class reads whole sentences for meaning: follows them, completes them, builds them, and questions them.",
+        "lessons": [
+          {
+            "existing": "1:read-and-follow"
+          },
+          {
+            "existing": "1:cloze"
+          },
+          {
+            "existing": "1:unscramble-sentence"
+          },
+          {
+            "existing": "1:question-words"
+          },
+          {
+            "existing": "1:story-sequencing"
+          }
+        ]
+      },
+      {
+        "id": "new:reading-stories-g1",
+        "title": "Reading Stories: Characters and Lessons",
+        "why": "Sentence reading leads straight into short stories: the class answers questions from the text, describes characters, retells with the lesson, and talks about books.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Find the answer in the story",
+            "objective": "Children ask and answer who, what, where, when, and why questions about key details in a short story and point to the sentence that gives the answer.",
+            "standard": "RL.1.1",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a decodable story of about 60 words in 8 to 10 sentences with two pictures. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the story that tells it."
+          },
+          {
+            "new": true,
+            "title": "Characters, setting, and big events",
+            "objective": "Children describe the characters, the setting, and the major events of a story using key details from the words and pictures.",
+            "standard": "RL.1.3",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 70 words with two pictures. Below: a story map with three boxes (characters, setting, big events). Level 1: the child circles answers from word-and-picture choices; level 2: the child writes a word or phrase in each box; level 3: the child writes a sentence for each box with a detail from the story."
+          },
+          {
+            "new": true,
+            "title": "Retell the story and tell its lesson",
+            "objective": "Children retell a story with its beginning, middle, and end and say its central message or lesson in one sentence.",
+            "standard": "RL.1.2",
+            "days": 3,
+            "tool": "Story Line",
+            "source": "new",
+            "page": "Story and questions page: a fable-like story of about 80 words with three pictures. Below: three retell boxes (beginning, middle, end) and a lesson line (The lesson is ___.). Level 1: the child cuts and glues three sentence strips in order and circles the lesson from two choices; level 2: the child writes a sentence per box with a word bank; level 3: the child writes the retell and the lesson in their own words."
+          },
+          {
+            "new": true,
+            "title": "Words that show feelings",
+            "objective": "Children find words and phrases in stories and poems that show how a character feels or that appeal to the senses, and say what each one shows.",
+            "standard": "RL.1.4",
+            "days": 2,
+            "tool": "Feelings Check-In",
+            "source": "new",
+            "page": "Story and questions page: a story or poem of about 60 words; the child underlines feeling words (glad, scared, grumpy) and sense words (crunchy, loud) and matches four of them to face or sense pictures. Level 1: the words to find stand in a box; level 2: the child finds them without the box; level 3: the child writes a new feeling word for the character and tells why."
+          },
+          {
+            "new": true,
+            "title": "Who is telling the story?",
+            "objective": "Children tell who is speaking at different points in a story, the narrator or a character, using speech bubbles and quotation marks as clues.",
+            "standard": "RL.1.6",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 70 words with three lines of dialogue in quotation marks. Below: six sentences from the story; the child writes N for the narrator or the first letter of the character who speaks. Level 1: the dialogue also stands in speech bubbles; level 2: quotation marks only; level 3: the child writes one line a character could say next."
+          },
+          {
+            "new": true,
+            "title": "Book talk: listen, then add on",
+            "objective": "Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.",
+            "standard": "SL.1.1.a",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "teacher-led",
+            "page": "Routine: after the teacher reads a story aloud, groups of four sit knee to knee. The teacher draws a name stick and asks one question (Which character changed?). The first child answers; each next child starts with I agree with ... because or I want to add .... Listen for: turn taking, eyes on the speaker, and answers that link to the one before."
+          }
+        ]
+      },
+      {
+        "id": "new:long-vowels-g1",
+        "title": "Long Vowels: Silent e and Vowel Teams",
+        "why": "Midyear the class moves from short to long vowels: first silent e, then the common vowel teams for long a, e, and o.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Silent e changes the vowel",
+            "objective": "Children read and spell words with a final silent e (cap and cape, kit and kite, hop and hope) and explain that the e makes the vowel say its name.",
+            "standard": "RF.1.3.c",
+            "days": 3,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: ten pairs of picture words, one short and one with silent e (cap and cape, pin and pine); the child reads both and draws a line to each picture. Bottom: the child adds an e to six words and reads the new word. Level 1: a_e only; level 2: a_e and i_e; level 3: a_e, i_e, o_e, u_e, with the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Long or short vowel?",
+            "objective": "Children hear whether a spoken one-syllable word has a long or a short vowel and sort picture words by the vowel sound.",
+            "standard": "RF.1.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Sound sort page: twelve pictures of one-syllable words to cut and sort into two boxes, short vowel and long vowel. Level 1: one vowel (a); level 2: a and i; level 3: all five vowels, and the child writes each word under its picture."
+          },
+          {
+            "new": true,
+            "title": "ai and ay",
+            "objective": "Children read and spell words with the vowel teams ai and ay for long a and learn that ay comes at the end of a word (rain, play).",
+            "standard": "RF.1.3.c",
+            "days": 2,
+            "tool": "Dictation Desk",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (r__n, pl__). Level 1: one pattern per page (ai); level 2: two patterns mixed (ai and ay), sorted into two columns; level 3: the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "ee and ea",
+            "objective": "Children read and spell words with the vowel teams ee and ea for long e (feet, seat) and sort words by the two spellings.",
+            "standard": "RF.1.3.c",
+            "days": 2,
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (f__t, s__t). Level 1: one pattern per page (ee); level 2: two patterns mixed (ee and ea), sorted into two columns; level 3: the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "oa and ow",
+            "objective": "Children read and spell words with the vowel teams oa and ow for long o (boat, snow) and sort words by the two spellings.",
+            "standard": "RF.1.3.c",
+            "days": 2,
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__t, sn__). Level 1: one pattern per page (oa); level 2: two patterns mixed (oa and ow), sorted into two columns; level 3: the whole word written under each picture."
+          }
+        ]
+      },
+      {
+        "id": "g1-words-and-how-they-work",
+        "title": "Words in Sentences: Grammar",
+        "why": "In winter grammar becomes the class's own tool: kinds of words, pronouns, capitals for names and dates, joining words, and verb tense.",
+        "lessons": [
+          {
+            "existing": "1:alphabetical-order"
+          },
+          {
+            "existing": "1:word-classes"
+          },
+          {
+            "existing": "1:pronouns"
+          },
+          {
+            "existing": "1:articles"
+          },
+          {
+            "new": true,
+            "title": "Names, days, and months get capitals",
+            "objective": "Children capitalize the names of people, the days of the week, and the months in sentences and in dates.",
+            "standard": "L.1.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: eight sentences with names, days, and months written in small letters; the child circles each word that needs a capital and writes it again correctly. Bottom: the child writes today's date and their own full name. Level 1: names only; level 2: names and days; level 3: names, days, and months, and one sentence about their birthday."
+          },
+          {
+            "new": true,
+            "title": "Joining words: and, but, so, because",
+            "objective": "Children join two short sentences with and, but, so, or because and choose the joining word that makes sense.",
+            "standard": "L.1.1.g",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: eight pairs of short sentences with a picture (It rained. We stayed in.); the child picks a joining word from a box and writes one sentence. Level 1: and, but; level 2: and, but, so; level 3: and, but, so, because, and the child writes one joined sentence of their own."
+          },
+          {
+            "new": true,
+            "title": "Yesterday, today, tomorrow: verb tense",
+            "objective": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
+            "standard": "L.1.1.e",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: a table with three columns (yesterday, today, tomorrow) and eight regular verbs; the child fills the missing form in each row. Bottom: four sentences with a time word, and the child circles the verb that fits. Level 1: four verbs with -ed; level 2: eight verbs; level 3: the child writes three sentences about one activity, one per column."
+          }
+        ]
+      },
+      {
+        "id": "new:writing-g1",
+        "title": "Writing: Stories, Opinions, and Facts",
+        "why": "With long vowels and grammar in hand, children write longer pieces: a true story, an opinion, and an all-about page, and then revise one with a partner.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Write a true story: plan and draft",
+            "objective": "Children plan a true story in three boxes (first, next, last) and draft it with time words and a sentence that ends it.",
+            "standard": "W.1.3",
+            "days": 3,
+            "source": "new",
+            "page": "Writing page (narrative): a planner with three picture boxes labeled first, next, last, then a draft page with six writing lines and the starters First, Next, Then, At the end. A checklist at the bottom: I told the events in order. I used time words. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "My opinion and a reason",
+            "objective": "Children name a book or a topic, write their opinion with a reason, and write a sentence that closes the piece.",
+            "standard": "W.1.1",
+            "days": 2,
+            "tool": "Class Graph",
+            "source": "new",
+            "page": "Writing page (opinion): a planner with an opinion box and a reason box, then five writing lines with the frames I think ___. One reason is ___. That is why ___. A checklist at the bottom: I told my opinion. I gave a reason. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "All about a topic: facts and a closing",
+            "objective": "Children name a topic, write two or three facts about it, and add a closing sentence.",
+            "standard": "W.1.2",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a planner with a topic box and three fact boxes, then five writing lines with the frames This is all about ___. One fact is ___. Another fact is ___. Now you know ___. A checklist at the bottom: I named my topic. I wrote facts. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Revise and edit with a checklist",
+            "objective": "Children reread one piece from this unit with a partner, add one detail the partner asked about, and fix capitals, end marks, and heart-word spellings with a checklist.",
+            "standard": "W.1.5",
+            "days": 2,
+            "source": "new",
+            "page": "Revise-and-edit page: a short sample piece of four sentences with four mistakes that the class fixes together, then a checklist with picture icons (Did I add a detail? A capital at the start? An end mark? Heart words spelled right?) that the child uses on their own draft. Level 1: two checks; level 2: four checks; level 3: four checks and a line for the partner's comment."
+          }
+        ]
+      },
+      {
+        "id": "new:word-meanings-g1",
+        "title": "Word Meanings and Word Parts",
+        "why": "In spring the class grows its vocabulary: opposites, synonyms, shades of meaning, categories, and the root and ending of a word.",
+        "lessons": [
+          {
+            "existing": "1:opposites",
+            "from": "g1-words-and-how-they-work"
+          },
+          {
+            "existing": "1:synonyms",
+            "from": "g1-words-and-how-they-work"
+          },
+          {
+            "existing": "1:shades-of-meaning",
+            "from": "g1-words-and-how-they-work"
+          },
+          {
+            "new": true,
+            "title": "A duck is a bird that swims: words by category",
+            "objective": "Children sort words into categories and define a word by its category and one key attribute (a duck is a bird that swims).",
+            "standard": "L.1.5.b",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "new",
+            "page": "Word meaning page: twelve picture words to cut and sort into three categories (birds, fish, bugs). Bottom: three frames A ___ is a ___ that ___. Level 1: two categories; level 2: three categories; level 3: the child writes two definitions by category and attribute."
+          },
+          {
+            "existing": "1:root-words",
+            "from": "g1-words-and-how-they-work"
+          },
+          {
+            "new": true,
+            "title": "Endings -s, -ed, and -ing",
+            "objective": "Children read and write words with the endings -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
+            "standard": "RF.1.3.f",
+            "days": 2,
+            "tool": "Letter Tiles",
+            "source": "new",
+            "page": "Phonics pattern page: a table of eight base words with three columns (-s, -ed, -ing); the child writes each form and circles the base word. Bottom: six sentences with a missing word and a choice of three forms. Level 1: four base words that do not change (jump, play); level 2: eight base words; level 3: the child also writes a sentence with each ending."
+          }
+        ]
+      },
+      {
+        "id": "new:reading-to-learn-g1",
+        "title": "Reading to Learn: Information Texts",
+        "why": "Spring reading turns to information texts: key details, the main topic, text features, and two texts on one topic.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Ask and answer: facts in the text",
+            "objective": "Children ask and answer questions about key details in a short information text and point to where the text says it.",
+            "standard": "RI.1.1",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 70 words with a heading and a photo-style picture about one animal or place. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the text that tells it."
+          },
+          {
+            "new": true,
+            "title": "The main topic and key details",
+            "objective": "Children name the main topic of an information text and retell two or three key details that tell about it.",
+            "standard": "RI.1.2",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 70 words with a heading and one picture. Below: a topic box and three key-detail boxes. Level 1: the child circles the topic from three choices and copies one detail; level 2: the child writes the topic and two details; level 3: the child writes the topic and three details in their own words."
+          },
+          {
+            "new": true,
+            "title": "Text features: headings, bold words, a glossary",
+            "objective": "Children use headings, bold words, captions, and a glossary to find facts and word meanings in an information text.",
+            "standard": "RI.1.5",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 80 words in two sections, each with a heading, two bold words, a captioned picture, and a three-word glossary. Below: five find-it questions (Which heading tells about food? What does burrow mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer; level 3: the child adds a caption to a second picture."
+          },
+          {
+            "new": true,
+            "title": "Two texts on one topic",
+            "objective": "Children find the facts that are the same and the facts that are different in two short information texts about the same topic.",
+            "standard": "RI.1.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two short information texts side by side on one topic (frogs and toads, about 40 words each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six fact strips into the two circles and the middle; level 2: the child writes two facts that are the same and one that is different; level 3: the child writes the facts and one sentence that compares."
+          }
+        ]
+      },
+      {
+        "id": "new:two-syllable-words",
+        "title": "Two-Syllable Words",
+        "why": "Grade 1 ends with longer words: syllables, the vowel in every syllable, compound words, and the tricky words that do not follow the rules.",
+        "lessons": [
+          {
+            "existing": "1:syllables-split",
+            "from": "g1-sounds-spelling-syllables"
+          },
+          {
+            "new": true,
+            "title": "Every syllable has a vowel",
+            "objective": "Children count the vowel sounds in a printed word to find how many syllables it has, and mark the vowel in each syllable.",
+            "standard": "RF.1.3.d",
+            "days": 2,
+            "tool": "Syllable Splitter",
+            "source": "new",
+            "page": "Syllable page: sixteen one- and two-syllable words; the child underlines each vowel, writes the number of syllables, and reads the word. Bottom: six pictures to match to their two-syllable words. Level 1: one-syllable and compound words; level 2: two-syllable words with two consonants in the middle (napkin, basket); level 3: the child splits each word and reads it part by part."
+          },
+          {
+            "new": true,
+            "title": "Compound words and two-part words",
+            "objective": "Children read two-syllable words by breaking them into parts, starting with compound words (sunset, cupcake) and then words like rabbit and picnic.",
+            "standard": "RF.1.3.e",
+            "days": 2,
+            "source": "new",
+            "page": "Syllable page: twelve two-syllable words to split and read; for compound words the child draws a line between the two small words and draws a picture of each. Level 1: compound words only; level 2: compound words and words with a double consonant (rabbit); level 3: all kinds mixed, and the child sorts them into compound and not compound."
+          },
+          {
+            "new": true,
+            "title": "Tricky words: said, was, of, could",
+            "objective": "Children read and spell common irregular words (said, was, of, could, would) by mapping the regular sounds and remembering the tricky part.",
+            "standard": "RF.1.3.g",
+            "days": 2,
+            "tool": "Heart Words",
+            "source": "new",
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+          }
+        ]
+      }
+    ],
+    "totalDays": 138,
+    "leftOut": [
+      {
+        "what": "Rhyming words (1:rhyming)",
+        "why": "Below grade: rhyme is Kindergarten (RF.K.2.a); in Grade 1 the rime work continues in Word families and in the oral warm-up.",
+        "lesson": "1:rhyming"
+      },
+      {
+        "what": "RF.1.1.a: the features of a sentence",
+        "why": "Taught in Unscramble the sentence and Names, days, and months get capitals, which use the first word, the capital, and the end mark."
+      },
+      {
+        "what": "RF.1.2.b: blend sounds, including blends, into words orally",
+        "why": "Taught orally in Sound boxes and the two blend lessons."
+      },
+      {
+        "what": "RF.1.4.b: oral reading with accuracy, rate, and expression",
+        "why": "A daily fluency routine (repeated reading, partner reading, the Reading Easel), not a lesson."
+      },
+      {
+        "what": "RL.1.5: books that tell stories and books that give information",
+        "why": "Opened as the first talk of the information-text unit with a storybook and a fact book side by side; not a page of its own."
+      },
+      {
+        "what": "RL.1.9: compare the adventures and experiences of characters in stories",
+        "why": "Comparing characters across stories is done in the read-aloud; it becomes a printed lesson in Grade 2 (Two versions of one tale)."
+      },
+      {
+        "what": "RL.1.10 and RI.1.10: read prose, poetry, and information texts of grade complexity",
+        "why": "The goal of the daily reading block and small-group reading, not a lesson."
+      },
+      {
+        "what": "RI.1.3, RI.1.4, RI.1.6, RI.1.7, RI.1.8: connections, word meanings, pictures and words, reasons",
+        "why": "Word meanings come through the glossary in the text-features lesson; the others are discussed in the information read-aloud. The 28 weeks of Grade 1 are given first to foundational skills, the US priority."
+      },
+      {
+        "what": "W.1.6: digital tools to publish writing",
+        "why": "Needs devices and adult help at a screen; it cannot be taught on a printed page."
+      },
+      {
+        "what": "W.1.7: shared research and writing projects",
+        "why": "A class how-to or all-about book built over several weeks in science time, not a two- or three-day lesson."
+      },
+      {
+        "what": "W.1.8: recall or gather information to answer a question",
+        "why": "Practised inside All about a topic and Two texts on one topic."
+      },
+      {
+        "what": "SL.1.1.b, SL.1.1.c, SL.1.2, SL.1.3, SL.1.4, SL.1.5, SL.1.6: conversation and presentation",
+        "why": "Daily routines (turn and talk, show and tell, author's chair); the book-talk lesson teaches the first one."
+      },
+      {
+        "what": "L.1.1.a: print all upper- and lowercase letters",
+        "why": "A daily handwriting warm-up, not a lesson."
+      },
+      {
+        "what": "L.1.1.b: common, proper, and possessive nouns",
+        "why": "Proper nouns are taught in Names, days, and months get capitals; possessives wait for the apostrophe lesson of Grade 2 (L.2.2.c)."
+      },
+      {
+        "what": "L.1.1.c: singular and plural nouns with matching verbs",
+        "why": "Practised orally in the grammar unit; subject-verb agreement becomes a printed lesson in Grade 3 (L.3.1.f)."
+      },
+      {
+        "what": "L.1.1.i: prepositions",
+        "why": "Place words were taught in Kindergarten (In, on, under, next to); Grade 1 uses them in writing without a new lesson."
+      },
+      {
+        "what": "L.1.2.c: commas in dates and in a series",
+        "why": "Met in the date line of Names, days, and months; a series comma lesson does not fit the year's days."
+      },
+      {
+        "what": "L.1.4.b: affixes as a clue to meaning",
+        "why": "Taught with the endings lesson; prefixes are a Grade 2 lesson."
+      },
+      {
+        "what": "L.1.5.c: real-life connections between words and their use",
+        "why": "A daily word-wall talk routine, not a page."
+      },
+      {
+        "what": "L.1.6: use words and phrases acquired through talk and reading",
+        "why": "The outcome of all vocabulary work, practised daily; not a lesson."
+      }
+    ]
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Routines, reading-workshop habits, and the beginning-of-year screening: oral reading fluency, a phonics survey, a spelling inventory."
+      },
+      {
+        "weeks": "10",
+        "what": "End of the first quarter: report-card checks and family conferences."
+      },
+      {
+        "weeks": "17",
+        "what": "The short week before winter break: review stations and favorite read-alouds, no new lesson."
+      },
+      {
+        "weeks": "20",
+        "what": "Middle-of-year benchmark window: oral reading fluency and comprehension."
+      },
+      {
+        "weeks": "28",
+        "what": "End of the third quarter: report-card checks and spring conferences."
+      },
+      {
+        "weeks": "34",
+        "what": "End-of-year benchmark window."
+      },
+      {
+        "weeks": "36",
+        "what": "Last week of school: review stations, a class poetry share, and summer reading packets."
+      }
+    ],
+    "units": [
+      {
+        "id": "new:long-vowels-and-vowel-teams-g2",
+        "title": "Long Vowels and Vowel Teams",
+        "why": "Grade 2 starts by reviewing short and long vowels and the Grade 1 vowel teams, then adds the vowel sounds of oo, ou, ow, oi, and oy.",
+        "lessons": [
+          {
+            "existing": "2:digraphs",
+            "from": "g2-spelling-and-word-building"
+          },
+          {
+            "new": true,
+            "title": "Short or long vowel?",
+            "objective": "Children tell short from long vowels in regularly spelled one-syllable words (hop and hope, step and steep) and sort the words by vowel sound.",
+            "standard": "RF.2.3.a",
+            "days": 2,
+            "source": "new",
+            "page": "Phonics pattern page: sixteen one-syllable words to read and sort into two columns, short vowel and long vowel; then four sentences where the child picks the word that fits (hop or hope). Level 1: words with pictures; level 2: words only; level 3: the child also writes two words of each kind and uses one in a sentence."
+          },
+          {
+            "new": true,
+            "title": "Vowel teams for long a, e, and o",
+            "objective": "Children read and spell words with the vowel teams ai, ay, ee, ea, oa, and ow and choose the right team for a word they hear.",
+            "standard": "RF.2.3.b",
+            "days": 3,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (tr__n, d__p, c__t). Level 1: one pattern per page (long a); level 2: two patterns mixed, sorted into two columns; level 3: all six teams, the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "oo, ou, ow, oi, and oy",
+            "objective": "Children read and spell words with oo (moon, book), ou and ow (cloud, cow), and oi and oy (coin, boy), and learn that oy and ow, not oi and ou, spell these sounds at the end of a word.",
+            "standard": "RF.2.3.b",
+            "days": 2,
+            "tool": "Dictation Desk",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (cl__d, c__n, b__). Level 1: one pattern per page (oo); level 2: two patterns mixed (ou and ow, or oi and oy), sorted into two columns; level 3: all five, the whole word written under each picture."
+          }
+        ]
+      },
+      {
+        "id": "g2-stories-facts-and-writing",
+        "title": "Reading Stories: Characters and Lessons",
+        "why": "Fall reading builds the habits every story needs: answer from the text, use context for missing words, follow a character through a challenge, and find the lesson.",
+        "lessons": [
+          {
+            "existing": "2:read-and-answer"
+          },
+          {
+            "existing": "2:cloze-context"
+          },
+          {
+            "new": true,
+            "title": "How characters meet a challenge",
+            "objective": "Children describe how the characters in a story respond to a major event or challenge, using details from the text.",
+            "standard": "RL.2.3",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 150 words with two pictures in which a character meets a problem. Below: a three-box organizer (the challenge, what the character did, how the character felt) and two questions. Level 1: the child chooses from three answers per box; level 2: the child writes a sentence per box; level 3: the child writes the sentences and quotes a phrase from the story as proof."
+          },
+          {
+            "new": true,
+            "title": "Fables: what is the lesson?",
+            "objective": "Children retell a fable or folktale and state its central message or moral in their own words.",
+            "standard": "RL.2.2",
+            "days": 3,
+            "tool": "Story Line",
+            "source": "new",
+            "page": "Story and questions page: a fable of about 150 words with one picture (The Ant and the Grasshopper, The Lion and the Mouse). Below: three retell boxes (beginning, middle, end) and a lesson line. Level 1: the child orders three sentence strips and circles the lesson from three; level 2: the child writes the retell with a word bank and the lesson; level 3: the child writes the retell and the lesson and tells a time the lesson would help them."
+          }
+        ]
+      },
+      {
+        "id": "new:writing-stories-g2",
+        "title": "Writing Stories",
+        "why": "Right after reading stories, children write their own: describe a picture, retell with starters, then plan, draft, revise, and edit a true story.",
+        "lessons": [
+          {
+            "existing": "2:describe-a-picture",
+            "from": "g2-stories-facts-and-writing"
+          },
+          {
+            "existing": "2:retell-with-starters",
+            "from": "g2-stories-facts-and-writing"
+          },
+          {
+            "new": true,
+            "title": "Plan and draft a true story",
+            "objective": "Children plan a true story of one small moment in a planner and draft it with details about actions, thoughts, and feelings, time words, and an ending.",
+            "standard": "W.2.3",
+            "days": 3,
+            "source": "new",
+            "page": "Writing page (narrative): a planner with four boxes (who and where, first, next, at the end) and a feelings box, then a draft page with ten writing lines. A checklist at the bottom: I told the events in order. I used time words. I told what I did, thought, and felt. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Revise and edit a story with a checklist",
+            "objective": "Children reread their story draft with a partner, add a detail or a better word, and fix capitals, end marks, and spelling using a checklist.",
+            "standard": "W.2.5",
+            "days": 2,
+            "source": "new",
+            "page": "Revise-and-edit page: a short sample story of six sentences with five mistakes that the class fixes together, then a checklist (Did I add a detail? A stronger word? Capitals? End marks? Spelling of the word-wall words?) that the child uses on their own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line for the partner's comment."
+          }
+        ]
+      },
+      {
+        "id": "g2-sentences-and-grammar",
+        "title": "Sentences and Grammar",
+        "why": "Once children write stories of their own, grammar has a purpose: complete sentences, kinds of words, plurals, past-tense verbs, pronouns, and questions.",
+        "lessons": [
+          {
+            "existing": "2:sentence-boundaries"
+          },
+          {
+            "existing": "2:word-classes"
+          },
+          {
+            "existing": "2:plural-nouns"
+          },
+          {
+            "existing": "2:verb-forms"
+          },
+          {
+            "existing": "2:pronouns"
+          },
+          {
+            "existing": "2:question-words"
+          }
+        ]
+      },
+      {
+        "id": "new:r-controlled-and-longer-words",
+        "title": "Bossy R and Longer Words",
+        "why": "In winter phonics moves to r-controlled vowels, long vowels in two-syllable words, and the common words that do not follow the rules.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "ar and or",
+            "objective": "Children read and spell words where r changes the vowel, ar as in car and or as in fork, and sort words by the two sounds.",
+            "standard": "RF.2.3.b",
+            "days": 2,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c__, f__k). Level 1: one pattern per page (ar); level 2: two patterns mixed (ar and or), sorted into two columns; level 3: the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "er, ir, and ur: one sound, three spellings",
+            "objective": "Children read words with er, ir, and ur, which sound the same (her, bird, turn), and learn to check the spelling of each word.",
+            "standard": "RF.2.3.e",
+            "days": 2,
+            "tool": "Dictation Desk",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__d, t__n, h__). Level 1: one pattern per page (er); level 2: two patterns mixed, sorted into two columns; level 3: all three, the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Long vowels in two-syllable words",
+            "objective": "Children split and read two-syllable words that have a long vowel in one syllable (rainbow, cupcake, music, paper).",
+            "standard": "RF.2.3.c",
+            "days": 3,
+            "tool": "Syllable Splitter",
+            "source": "new",
+            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks the long vowel, and reads the word. Bottom: six sentences with a missing two-syllable word to choose from three. Level 1: compound words with a vowel team (rainbow); level 2: words with silent e (cupcake, invite); level 3: words that split after a long vowel (paper, music)."
+          },
+          {
+            "new": true,
+            "title": "Tricky words: could, would, should",
+            "objective": "Children read and spell common words with irregular spellings (could, would, should, because, friend) by mapping the regular sounds and remembering the tricky part.",
+            "standard": "RF.2.3.f",
+            "days": 2,
+            "tool": "Heart Words",
+            "source": "new",
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+          }
+        ]
+      },
+      {
+        "id": "new:information-texts-g2",
+        "title": "Reading to Learn: Information Texts",
+        "why": "Midyear the class reads to learn: clues and key details, the main topic of each paragraph, text features, diagrams, steps in order, and two texts compared.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Clues to a mystery animal",
+            "objective": "Children read clues one at a time, ask and answer questions about the details, and use them to find a mystery animal.",
+            "standard": "RI.2.1",
+            "days": 2,
+            "source": "point:2:mystery-animal"
+          },
+          {
+            "new": true,
+            "title": "The main topic of a text and of each paragraph",
+            "objective": "Children name the main topic of an information text of several paragraphs and the focus of each paragraph.",
+            "standard": "RI.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 150 words in three paragraphs with a heading and a picture. Below: a topic box and one box per paragraph for its focus. Level 1: the child matches each paragraph to its focus from a list; level 2: the child writes the topic and one focus per paragraph; level 3: the child also adds a heading to each paragraph."
+          },
+          {
+            "new": true,
+            "title": "Text features: captions, bold words, glossary, index",
+            "objective": "Children use captions, bold print, subheadings, a glossary, and an index to find key facts in an information text quickly.",
+            "standard": "RI.2.5",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 150 words in three sections with subheadings, bold words, two captioned pictures, a glossary, and a short index. Below: six find-it questions (On which page can you read about teeth? What does molar mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer and the feature used; level 3: the child adds an index entry and a glossary entry."
+          },
+          {
+            "new": true,
+            "title": "What the diagram shows",
+            "objective": "Children explain how a diagram adds to an information text and use its labels to answer questions.",
+            "standard": "RI.2.7",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 120 words about the life cycle of a butterfly with a labeled cycle diagram. Below: four questions answered only from the diagram and one that needs both the text and the diagram. Level 1: multiple choice; level 2: short written answers; level 3: the child adds a missing label and an arrow."
+          },
+          {
+            "new": true,
+            "title": "Steps in order: how it is made",
+            "objective": "Children describe the steps of a process in an information text in order, using the signal words first, next, then, and finally.",
+            "standard": "RI.2.3",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 150 words that tells how something is made (bread, paper, honey) with three pictures. Below: a flow chart of four boxes for the steps. Level 1: the child orders four step strips; level 2: the child writes each step with a signal word; level 3: the child writes the steps and explains why one step must come before another."
+          },
+          {
+            "new": true,
+            "title": "Two animals: same and different",
+            "objective": "Children compare two animals from two short texts and sort the facts that are the same and the facts that are different.",
+            "standard": "RI.2.9",
+            "days": 2,
+            "source": "point:2:compare-two-animals"
+          }
+        ]
+      },
+      {
+        "id": "new:informative-writing-g2",
+        "title": "Writing to Inform",
+        "why": "Right after the information-text unit, children write their own: gather facts, plan, draft with a closing, and write a class report from two books.",
+        "lessons": [
+          {
+            "existing": "2:animal-fact-file",
+            "from": "g2-stories-facts-and-writing"
+          },
+          {
+            "new": true,
+            "title": "Plan an informative piece",
+            "objective": "Children choose a topic, sort their facts into two or three groups in a planner, and write a sentence that introduces the topic.",
+            "standard": "W.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a planner with a topic box, an introduction line, and three fact groups with two lines each, then a short checklist (I named my topic. I grouped my facts.). Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Draft with facts and a closing",
+            "objective": "Children draft an informative piece from their planner, using facts and definitions to develop each point and a concluding sentence.",
+            "standard": "W.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a draft page with twelve writing lines under the planner's three group headings, with linking words in the margin (also, another, for example). A checklist at the bottom: I introduced the topic. I used facts and a definition. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Research with two books: a class report",
+            "objective": "Children read two short texts on one topic, take notes in a shared organizer, and write one page of a class report.",
+            "standard": "W.2.7",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (research): two short information texts on one topic (about 80 words each), a note-taking organizer with three questions, and eight lines for one report page with a heading and a picture box. Level 1: notes are copied phrases; level 2: notes in the child's own words; level 3: the child also writes which text each fact came from."
+          }
+        ]
+      },
+      {
+        "id": "g2-spelling-and-word-building",
+        "title": "Spelling and Word Building",
+        "why": "In spring words are built from parts: spelling rules, compound words, roots, prefixes, suffixes, and apostrophes for contractions and owners.",
+        "lessons": [
+          {
+            "existing": "2:spelling-rules"
+          },
+          {
+            "existing": "2:compound-words"
+          },
+          {
+            "existing": "2:root-words"
+          },
+          {
+            "new": true,
+            "title": "Prefixes un- and re-",
+            "objective": "Children tell the meaning of a word formed when un- or re- is added to a known word (happy and unhappy, tell and retell).",
+            "standard": "L.2.4.b",
+            "days": 2,
+            "source": "new",
+            "page": "Word part page: twelve base words; the child adds un- or re-, writes the new word, and matches it to its meaning (not happy, tell again). Bottom: six sentences with a missing prefixed word. Level 1: un- only; level 2: un- and re-; level 3: un-, re-, and pre-, and the child writes a sentence with two of the words."
+          },
+          {
+            "new": true,
+            "title": "Suffixes -ful, -less, and -ly",
+            "objective": "Children read two-syllable words with the suffixes -ful, -less, and -ly (helpful, careless, slowly) and say what the suffix adds.",
+            "standard": "RF.2.3.d",
+            "days": 2,
+            "source": "new",
+            "page": "Word part page: twelve words with a suffix; the child circles the base word, underlines the suffix, and matches the word to its meaning (full of help, without care). Bottom: six sentences with a missing word to build. Level 1: -ful only; level 2: -ful and -less; level 3: -ful, -less, and -ly."
+          },
+          {
+            "new": true,
+            "title": "Apostrophes: can't and the dog's bone",
+            "objective": "Children use an apostrophe to write contractions (can't, it's, we're) and common possessives (the dog's bone).",
+            "standard": "L.2.2.c",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: top half, ten word pairs to join into a contraction (can not, it is); bottom half, six pictures with an owner and a thing (a dog and a bone) to write as a possessive. Level 1: contractions only; level 2: contractions and possessives; level 3: the child also fixes four sentences with a missing apostrophe."
+          }
+        ]
+      },
+      {
+        "id": "new:word-choice-g2",
+        "title": "Choosing the Right Word",
+        "why": "With word parts in place, the class works on word choice for its writing: synonyms, exact verbs, words in real life, and adjectives and adverbs.",
+        "lessons": [
+          {
+            "existing": "2:synonyms",
+            "from": "g2-spelling-and-word-building"
+          },
+          {
+            "existing": "2:synonyms~doing-stage",
+            "from": "g2-spelling-and-word-building"
+          },
+          {
+            "new": true,
+            "title": "Spicy, juicy, crunchy: words in real life",
+            "objective": "Children connect describing words to real things and places they know (foods that are spicy or juicy, places that are noisy) and use them in sentences.",
+            "standard": "L.2.5.a",
+            "days": 2,
+            "source": "new",
+            "page": "Word meaning page: eight describing words (spicy, juicy, crunchy, noisy, calm, sticky, smooth, gloomy), each with two picture boxes where the child draws or names a real thing it describes; then three sentences to write. Level 1: four words with picture choices; level 2: eight words; level 3: the child also writes a riddle using two of the words."
+          },
+          {
+            "new": true,
+            "title": "Adjective or adverb?",
+            "objective": "Children tell adjectives from adverbs and choose between them to describe a noun or a verb (a quick dog, the dog ran quickly).",
+            "standard": "L.2.1.e",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: ten sentences with a choice of two words (quick or quickly, soft or softly); the child circles the one that fits and draws an arrow to the word it describes. Bottom: four words to sort into two columns. Level 1: five sentences with pictures; level 2: ten sentences; level 3: the child writes two sentences, one with each form of the same word."
+          }
+        ]
+      },
+      {
+        "id": "new:stories-compare-g2",
+        "title": "Stories: Beginnings, Endings, and Versions",
+        "why": "In late spring the class reads stories as wholes: how they begin and end, how characters sound, how two versions of one tale differ, and how to talk about them.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "How a story begins and ends",
+            "objective": "Children describe how the beginning of a story introduces the characters and the problem and how the ending solves the problem.",
+            "standard": "RL.2.5",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 150 words with a clear beginning, middle, and end, and two pictures. Below: a story arc with three labeled points and four questions (What do we learn first? How is the problem solved?). Level 1: the child matches sentences to the parts of the arc; level 2: the child writes one sentence per part; level 3: the child writes a different ending that still solves the problem."
+          },
+          {
+            "new": true,
+            "title": "Different voices for different characters",
+            "objective": "Children notice how characters in a story have different points of view and read their dialogue in a different voice for each.",
+            "standard": "RL.2.6",
+            "days": 2,
+            "tool": "Reading Easel",
+            "source": "new",
+            "page": "Story and questions page: a story of about 150 words told mostly in dialogue between two characters who see a problem differently. Below: the child marks each line with the speaker's initial and writes how that character feels (worried, excited). Level 1: four lines with feeling-word choices; level 2: eight lines; level 3: the child writes what each character would say next."
+          },
+          {
+            "new": true,
+            "title": "Two versions of one tale",
+            "objective": "Children compare and contrast two versions of the same story by different authors or from different cultures, such as two Cinderella stories.",
+            "standard": "RL.2.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two versions of one tale side by side (about 120 words each, each with a picture). Below: a comparison chart with rows for characters, setting, problem, and ending. Level 1: the child sorts eight fact strips into the chart; level 2: the child writes one entry per row for each version; level 3: the child also writes two sentences that compare."
+          },
+          {
+            "new": true,
+            "title": "Book club talk: build on what others say",
+            "objective": "Children build on what others say in a book talk, link their comments to the last speaker, and ask a question to clear up confusion.",
+            "standard": "SL.2.1.b",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "teacher-led",
+            "page": "Routine: groups of four read one story from this unit and meet as a book club. A name stick picks the first speaker, who answers a question card (Which version did you like better and why?). Each next speaker starts with I agree, I disagree, or I want to add, and one child asks a clarifying question. Listen for: comments that link to the last speaker and evidence from the text."
+          }
+        ]
+      },
+      {
+        "id": "new:opinion-and-letters-g2",
+        "title": "Opinion Writing and Letters",
+        "why": "The year ends with writing for a reader: an opinion with reasons and linking words, a friendly letter, and the capitals of real names and places.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Plan an opinion: reasons and linking words",
+            "objective": "Children state an opinion about a book or topic and plan two or three reasons with linking words (because, and, also).",
+            "standard": "W.2.1",
+            "days": 2,
+            "tool": "Class Graph",
+            "source": "new",
+            "page": "Writing page (opinion): a planner with an opinion box, three reason boxes, and a closing box, with linking words in the margin (because, also, another reason). A checklist at the bottom: I told my opinion. I gave reasons. I used linking words. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Draft an opinion piece",
+            "objective": "Children draft an opinion piece from their planner with an introduction, reasons joined by linking words, and a concluding statement.",
+            "standard": "W.2.1",
+            "days": 3,
+            "source": "new",
+            "page": "Writing page (opinion): a draft page with twelve writing lines under the headings opinion, reasons, closing, with linking words in the margin. A checklist at the bottom: I introduced my opinion. I gave reasons. I used linking words. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "A friendly letter",
+            "objective": "Children write a friendly letter with a date, a greeting, a body, and a closing, and use commas after the greeting and the closing.",
+            "standard": "L.2.2.b",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (letter): a letter frame with labeled places for the date, the greeting, the body, the closing, and the signature, and a sample letter with three missing commas to fix first. Level 1: frames for every line of the body; level 2: starters only; level 3: open lines and a second short letter to a different reader."
+          },
+          {
+            "new": true,
+            "title": "Capitals for holidays, places, and brand names",
+            "objective": "Children capitalize holidays, product names, and geographic names (Thanksgiving, Lake Erie, Main Street) in sentences.",
+            "standard": "L.2.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: ten sentences with holidays, places, and product names in small letters; the child circles each word that needs a capital and writes it correctly. Bottom: a sort of twelve words into needs a capital and does not (river and Mississippi River). Level 1: holidays only; level 2: holidays and places; level 3: all three kinds and a sentence about a place the child has been."
+          }
+        ]
+      }
+    ],
+    "totalDays": 139,
+    "leftOut": [
+      {
+        "what": "Cursive letters and connections (2:cursive-writing)",
+        "why": "Cursive is handwriting, not a Common Core standard; in the states that require it it is a daily ten-minute handwriting routine, not a two-day lesson. The ready page Read words written in cursive (2:read-cursive) belongs to the same routine.",
+        "lesson": "2:cursive-writing"
+      },
+      {
+        "what": "RF.2.4.a and RF.2.4.b: read with purpose, accuracy, rate, and expression",
+        "why": "A daily fluency routine (repeated reading, partner reading, the Reading Easel), not a lesson."
+      },
+      {
+        "what": "RL.2.4: rhythm and meaning in stories, poems, and songs",
+        "why": "Taught with the poem of the week in the daily read-aloud, where the class hears the beats and rhymes; not a page."
+      },
+      {
+        "what": "RL.2.7: use pictures and words to understand characters, setting, or plot",
+        "why": "Needs picture books with many illustrations; done in the read-aloud, while the printed story pages carry one or two pictures."
+      },
+      {
+        "what": "RL.2.10 and RI.2.10: read texts of grade complexity proficiently",
+        "why": "The goal of the daily reading block and small-group reading, not a lesson."
+      },
+      {
+        "what": "RI.2.4: the meaning of words and phrases in a text",
+        "why": "Taught through the glossary in the text-features lesson and the context lesson Fill in the story's missing words."
+      },
+      {
+        "what": "RI.2.6 and RI.2.8: the author's purpose and the reasons an author gives",
+        "why": "Discussed in the information read-aloud; both become printed lessons in Grade 3 through point of view and connections, and the year's days go to foundational skills first."
+      },
+      {
+        "what": "W.2.6: digital tools to produce and publish writing",
+        "why": "Needs devices and adult help at a screen; it cannot be taught on a printed page."
+      },
+      {
+        "what": "SL.2.1.a, SL.2.1.c, SL.2.2, SL.2.3, SL.2.4, SL.2.5, SL.2.6: conversation and presentation",
+        "why": "Daily routines (turn and talk, read-aloud questions, author's chair, sharing a report); the book-club lesson teaches building on what others say."
+      },
+      {
+        "what": "L.2.1.a and L.2.1.c: collective nouns and reflexive pronouns",
+        "why": "Short points taught as mini-lessons on the review day of Sentences and Grammar, not two-day lessons."
+      },
+      {
+        "what": "L.2.2.e and L.2.4.e: reference materials, glossaries, and beginning dictionaries",
+        "why": "The glossary is taught in the text-features lesson; dictionary skills are a Grade 3 lesson (L.3.4.d)."
+      },
+      {
+        "what": "L.2.3.a: formal and informal English",
+        "why": "Met in the friendly-letter lesson, where the class compares a letter to a friend with a note to the principal."
+      },
+      {
+        "what": "L.2.6: use words and phrases acquired through talk and reading",
+        "why": "The outcome of all vocabulary work, practised daily; not a lesson."
+      }
+    ]
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Routines, reading-workshop habits, and the beginning-of-year screening: oral reading fluency, a decoding survey, a spelling inventory, a writing sample."
+      },
+      {
+        "weeks": "10",
+        "what": "End of the first quarter: report-card checks and family conferences."
+      },
+      {
+        "weeks": "17",
+        "what": "The short week before winter break: review stations and favorite read-alouds, no new lesson."
+      },
+      {
+        "weeks": "20",
+        "what": "Middle-of-year benchmark window: oral reading fluency and comprehension."
+      },
+      {
+        "weeks": "28",
+        "what": "End of the third quarter: report-card checks and spring conferences."
+      },
+      {
+        "weeks": "30-31",
+        "what": "The state ELA test: a week of test-format review and the test week itself."
+      },
+      {
+        "weeks": "34",
+        "what": "End-of-year benchmark window."
+      },
+      {
+        "weeks": "36",
+        "what": "Last week of school: review stations, a class book share, and summer reading packets."
+      }
+    ],
+    "units": [
+      {
+        "id": "new:decoding-long-words-g3",
+        "title": "Reading Long Words",
+        "why": "Grade 3 starts by making multisyllable decoding automatic, because every text of the year is full of long words.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Closed and open syllables",
+            "objective": "Children divide two-syllable words into closed and open syllables (rab-bit, ro-bot, ti-ger) and read each syllable with the right vowel sound.",
+            "standard": "RF.3.3.c",
+            "days": 3,
+            "tool": "Syllable Splitter",
+            "source": "new",
+            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks each syllable C for closed or O for open, and reads the word. Bottom: six sentences with a missing long word to choose from three. Level 1: words that split between two consonants (rabbit, napkin); level 2: words that split after a long vowel (robot, tiger); level 3: words that split after the consonant (camel, lemon), where the child tries both splits."
+          },
+          {
+            "new": true,
+            "title": "Silent-e, vowel-team, and consonant-le syllables",
+            "objective": "Children find silent-e, vowel-team, and consonant-le syllables in longer words (cupcake, rainbow, table, puzzle) and read the words part by part.",
+            "standard": "RF.3.3.c",
+            "days": 2,
+            "tool": "Syllable Splitter",
+            "source": "new",
+            "page": "Syllable page: sixteen words with two or three syllables; the child draws the split lines, names each syllable type, and reads the word. Bottom: a sort of twelve words by the type of their last syllable. Level 1: consonant-le words only; level 2: consonant-le and silent-e syllables; level 3: all three types in three-syllable words (pineapple, bumblebee)."
+          },
+          {
+            "new": true,
+            "title": "Suffixes -able, -ment, -ness, -ful, -less",
+            "objective": "Children decode words with common suffixes (comfortable, payment, kindness, careful, endless) and tell how the suffix changes the base word.",
+            "standard": "RF.3.3.a",
+            "days": 2,
+            "source": "new",
+            "page": "Word part page: sixteen words with a suffix; the child circles the base word, underlines the suffix, reads the word, and matches it to its meaning. Bottom: six sentences with a missing word to build from a base and a suffix. Level 1: -ful and -less; level 2: -ful, -less, -ness, -ment; level 3: all five, including words where the base changes (happiness)."
+          },
+          {
+            "new": true,
+            "title": "Tricky words: enough, though, ocean",
+            "objective": "Children read and spell grade-level words with irregular spellings (enough, though, ocean, laugh, through) by mapping the regular parts and remembering the tricky part.",
+            "standard": "RF.3.3.d",
+            "days": 2,
+            "tool": "Heart Words",
+            "source": "new",
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+          }
+        ]
+      },
+      {
+        "id": "new:stories-key-details-g3",
+        "title": "Stories: Evidence, Lessons, and Characters",
+        "why": "Third graders now read to learn from stories: they answer with evidence, find the central message of fables and folktales, and explain why characters act as they do.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Show where the story says it",
+            "objective": "Children ask and answer questions about a story and refer explicitly to the sentences that give the answer.",
+            "standard": "RL.3.1",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 250 words with one picture and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer."
+          },
+          {
+            "new": true,
+            "title": "Fables and folktales: the central message",
+            "objective": "Children recount a fable or folktale from another culture and explain its central message or moral with key details from the text.",
+            "standard": "RL.3.2",
+            "days": 3,
+            "tool": "Story Line",
+            "source": "new",
+            "page": "Story and questions page: a fable or folktale of about 250 words from another culture with one picture. Below: a recount organizer (beginning, middle, end), a message line, and two lines for the details that show the message. Level 1: the child orders sentence strips and picks the message from three; level 2: the child writes the recount and the message; level 3: the child also explains which detail shows the message best."
+          },
+          {
+            "new": true,
+            "title": "Characters: traits, feelings, and actions",
+            "objective": "Children describe a character's traits, motivations, and feelings and explain how the character's actions move the events of the story.",
+            "standard": "RL.3.3",
+            "days": 3,
+            "source": "new",
+            "page": "Story and questions page: a story of about 250 words with one picture and a character who changes. Below: a character web (a trait, a feeling, what the character wants) with a proof line each, and a cause-and-effect chain of three boxes (the action and what it led to). Level 1: the child chooses traits from a word bank; level 2: the child writes the traits with proof; level 3: the child also explains how the character changed."
+          },
+          {
+            "new": true,
+            "title": "Literature circle: come prepared, give evidence",
+            "objective": "Children come to a book discussion having read the text and marked two places, and support what they say with evidence from the story.",
+            "standard": "SL.3.1.a",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "teacher-led",
+            "page": "Routine: each child reads a story from this unit and marks two places with sticky notes (a surprise, a question). Groups of four meet; a name stick picks the first speaker, who reads one marked place aloud and says why it matters. The others respond with I agree because or I see it differently because. Listen for: page or paragraph references and comments that build on each other."
+          }
+        ]
+      },
+      {
+        "id": "g3-words-and-their-meanings",
+        "title": "Words and Their Meanings",
+        "why": "In fall the class learns to work out word meanings on its own: prefixes, person words, roots, context, word fields, and the dictionary.",
+        "lessons": [
+          {
+            "existing": "2:prefixes"
+          },
+          {
+            "existing": "3:person-words"
+          },
+          {
+            "new": true,
+            "title": "Root words as clues",
+            "objective": "Children use a known root word as a clue to the meaning of an unknown word with the same root (company and companion, agree and disagreement).",
+            "standard": "L.3.4.c",
+            "days": 2,
+            "source": "new",
+            "page": "Word part page: six word families, each with a known root and three relatives (play: player, playful, replay); the child circles the root and writes what each relative means. Bottom: six sentences with an unknown word whose root the child underlines before choosing its meaning. Level 1: three families; level 2: six families; level 3: the child adds a fourth relative to each family."
+          },
+          {
+            "new": true,
+            "title": "Context clues",
+            "objective": "Children use the sentence and the sentences around an unknown word as a clue to its meaning (a definition, an example, or an opposite nearby).",
+            "standard": "L.3.4.a",
+            "days": 2,
+            "source": "new",
+            "page": "Word meaning page: a passage of about 200 words with eight bold words that are new for third graders; for each, the child underlines the clue and chooses or writes the meaning. Level 1: the clue is a definition in the same sentence, with three meanings to choose from; level 2: example and opposite clues, written meanings; level 3: the clue is in the next sentence, and the child names the kind of clue."
+          },
+          {
+            "existing": "3:word-fields"
+          },
+          {
+            "new": true,
+            "title": "Use a dictionary and a glossary",
+            "objective": "Children use guide words to find words in a print dictionary and a glossary, choose the right meaning, and check a spelling.",
+            "standard": "L.3.4.d",
+            "days": 2,
+            "source": "new",
+            "page": "Dictionary page: a printed dictionary page with guide words and twelve entries, some with two meanings. The child answers eight questions: which guide words a word falls between, which meaning fits a sentence, and how a word is spelled. Level 1: ABC order to the first letter; level 2: to the second and third letter; level 3: the child also writes an entry for a new word."
+          }
+        ]
+      },
+      {
+        "id": "new:opinion-writing-g3",
+        "title": "Opinion Writing",
+        "why": "With the fall reading routines in place, children write a full opinion piece: plan, draft with linking words, conclude, then revise and edit.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "State an opinion and plan the reasons",
+            "objective": "Children introduce the topic or book they write about, state an opinion, and organize two or three reasons in a planner.",
+            "standard": "W.3.1.a",
+            "days": 2,
+            "tool": "Class Graph",
+            "source": "new",
+            "page": "Writing page (opinion): a planner with an introduction box, an opinion box, three reason boxes with a line for a fact or example each, and a conclusion box. A checklist at the bottom: I introduced the topic. I stated my opinion. I organized my reasons. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Reasons with linking words",
+            "objective": "Children draft an opinion piece that connects the opinion and the reasons with linking words and phrases (because, therefore, since, for example).",
+            "standard": "W.3.1.c",
+            "days": 3,
+            "source": "new",
+            "page": "Writing page (opinion): a draft page with sixteen writing lines under the planner's headings, with linking words in the margin (because, therefore, since, for example, another reason). A checklist at the bottom: Each reason has a fact or example. I used linking words. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "End with a concluding statement",
+            "objective": "Children write a concluding statement or section that restates the opinion in new words and leaves the reader with a thought.",
+            "standard": "W.3.1.d",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (opinion): three short opinion pieces with weak or missing endings; the child picks the best of three conclusions for the first, rewrites the second, and writes one for the third. Then four lines for the conclusion of the child's own draft. Level 1: frames (That is why ___.); level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Revise and edit an opinion piece",
+            "objective": "Children revise their opinion draft with a peer's suggestions and edit it with a checklist for capitals, punctuation, and spelling.",
+            "standard": "W.3.5",
+            "days": 2,
+            "source": "new",
+            "page": "Revise-and-edit page: a sample opinion paragraph of eight sentences with six mistakes that the class fixes together, then a checklist (Is every reason supported? Did I use linking words? Capitals? Commas? Spelling of the word-wall words?) and a peer-comment box for the child's own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line where the child records one change they made."
+          }
+        ]
+      },
+      {
+        "id": "new:parts-of-speech-g3",
+        "title": "Parts of Speech",
+        "why": "In winter the class names what every word in a sentence does and makes nouns and verbs take the right form, the grammar the writing units depend on.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "What each word does in a sentence",
+            "objective": "Children explain the job of nouns, pronouns, verbs, adjectives, and adverbs in general and in particular sentences, and label them.",
+            "standard": "L.3.1.a",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: eight sentences in which the child labels each word with N, P, V, Adj, or Adv; then a sort of sixteen words into five columns. Level 1: nouns, verbs, and adjectives only; level 2: all five; level 3: the child writes a sentence with all five and labels it."
+          },
+          {
+            "existing": "3:root-words-in-context",
+            "from": "g3-words-and-their-meanings"
+          },
+          {
+            "new": true,
+            "title": "Plural nouns: regular and irregular",
+            "objective": "Children form and use regular plurals (boxes, babies, leaves) and irregular plurals (mice, teeth, children) in sentences.",
+            "standard": "L.3.1.b",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: a table of sixteen nouns where the child writes the plural and the rule used (add -s, add -es, change y to i, change f to v, irregular); then six sentences with a missing plural. Level 1: -s and -es; level 2: all regular rules; level 3: regular and irregular mixed."
+          },
+          {
+            "new": true,
+            "title": "Past tense: regular and irregular verbs",
+            "objective": "Children form and use the past tense of regular verbs (jumped, carried) and common irregular verbs (ran, brought, knew).",
+            "standard": "L.3.1.d",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: a table of sixteen verbs where the child writes the past tense and marks it regular or irregular; then a short story of about 100 words in the present tense that the child rewrites in the past. Level 1: regular verbs; level 2: regular and eight irregular verbs; level 3: the whole story rewritten."
+          },
+          {
+            "new": true,
+            "title": "Subjects and verbs agree",
+            "objective": "Children make the verb agree with its subject (The dog runs. The dogs run.) and the pronoun agree with the noun it stands for.",
+            "standard": "L.3.1.f",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: twelve sentences with a choice of two verbs or two pronouns; the child circles the one that agrees and draws an arrow to its subject or noun. Bottom: four sentences with an error to fix. Level 1: singular and plural subjects next to the verb; level 2: words between the subject and the verb; level 3: pronouns that must agree with a noun in the sentence before."
+          }
+        ]
+      },
+      {
+        "id": "new:information-texts-g3",
+        "title": "Information Texts: Main Idea and Text Features",
+        "why": "Midyear the class reads science and social-studies texts closely: evidence, the main idea, search tools, diagrams and maps, and how events connect.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Answer with evidence from an information text",
+            "objective": "Children ask and answer questions about an information text and refer explicitly to the sentences that give the answer.",
+            "standard": "RI.3.1",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 250 words with headings, a photo, and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer."
+          },
+          {
+            "new": true,
+            "title": "Main idea and key details",
+            "objective": "Children determine the main idea of an information text, recount the key details that support it, and explain how they support it.",
+            "standard": "RI.3.2",
+            "days": 3,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 250 words in four paragraphs with a heading and a picture. Below: a table organizer (the main idea on the tabletop, three key details as legs) and a short summary of three lines. Level 1: the child chooses the main idea from three and matches details; level 2: the child writes the main idea and details; level 3: the child also writes the summary in their own words."
+          },
+          {
+            "new": true,
+            "title": "Text features and search tools",
+            "objective": "Children use text features and search tools (headings, key words, sidebars, an index, a table of contents) to find information quickly.",
+            "standard": "RI.3.5",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: a four-page information text of about 300 words with a table of contents, headings, bold key words, a sidebar, and an index. Below: eight find-it questions that the child answers and marks with the feature used. Level 1: four questions naming the feature to use; level 2: eight questions; level 3: the child also writes the index entries for one page."
+          },
+          {
+            "new": true,
+            "title": "Maps, diagrams, and photos",
+            "objective": "Children use the information in maps, diagrams, and photos together with the words of a text to show understanding (where, when, why, how).",
+            "standard": "RI.3.7",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 200 words about the water cycle with a labeled diagram and a map of where it rains most. Below: six questions, two answered from the diagram, two from the map, two needing both the text and a picture. Level 1: multiple choice; level 2: written answers; level 3: the child adds a missing step to the diagram."
+          },
+          {
+            "new": true,
+            "title": "Time order and cause and effect",
+            "objective": "Children describe how events, steps, or ideas in a text connect, using words of time, sequence, and cause and effect.",
+            "standard": "RI.3.3",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of about 250 words on a historical event or a science process with a timeline. Below: a cause-and-effect chain of four boxes and a list of signal words (because, as a result, then, after). Level 1: the child orders event strips on the chain; level 2: the child writes the chain with signal words; level 3: the child also explains one cause and its effect in two sentences."
+          }
+        ]
+      },
+      {
+        "id": "new:informative-writing-g3",
+        "title": "Informative Writing and Research",
+        "why": "Right after reading information texts closely, children research and write their own: notes, an introduction, grouped facts, and a short report.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Take notes and sort them",
+            "objective": "Children take brief notes from two print sources in their own words and sort the notes into categories.",
+            "standard": "W.3.8",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (research): two short information texts on one animal (about 150 words each) and a note-taking organizer with three category boxes (body, food, home) and a source line for each note. Level 1: the child copies key phrases into the boxes; level 2: notes in the child's own words; level 3: the child adds a fourth category of their own."
+          },
+          {
+            "new": true,
+            "title": "Introduce a topic and group the facts",
+            "objective": "Children write an introduction that names the topic and group related information together, with a picture or diagram that helps the reader.",
+            "standard": "W.3.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a planner with an introduction box, three group boxes with a heading line each, and a picture box with a caption line. A checklist at the bottom: I introduced my topic. I grouped facts under headings. I added a picture with a caption. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Facts, definitions, and details",
+            "objective": "Children develop each part of an informative piece with facts, definitions, and details, joined by linking words.",
+            "standard": "W.3.2.b",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a draft page with sixteen writing lines under three heading lines, with linking words in the margin (also, another, more, but) and a definition frame (A ___ is a ___ that ___.). A checklist at the bottom: Each part has facts. I defined a hard word. I used linking words. I wrote a concluding section. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "A short research report",
+            "objective": "Children conduct a short research project on a topic of their choice, from question and notes to a one-page report with a heading and a source list.",
+            "standard": "W.3.7",
+            "days": 3,
+            "source": "new",
+            "page": "Writing page (research): a project sheet with a question box, notes from two given texts in three categories, a one-page report frame with a title, three headings and a diagram box, and a source list of two lines. Level 1: the texts are given and the categories named; level 2: the child names the categories; level 3: the child adds a third source from the class library."
+          }
+        ]
+      },
+      {
+        "id": "new:sentences-and-conventions-g3",
+        "title": "Sentences and Conventions",
+        "why": "In spring children build longer sentences for their writing and the test: conjunctions, compound and complex sentences, comparisons, possessives, and capitals in titles.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Joining words: and, but, so, because, when",
+            "objective": "Children use coordinating conjunctions (and, but, or, so) and subordinating conjunctions (because, when, if, after) to join ideas in sentences.",
+            "standard": "L.3.1.h",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: ten pairs of sentences to join with a conjunction from a box; the child writes the joined sentence and circles the conjunction. Bottom: four sentences that end in a conjunction for the child to finish. Level 1: and, but, so; level 2: and, but, or, so, because; level 3: all the conjunctions, including when, if, and after."
+          },
+          {
+            "new": true,
+            "title": "Simple, compound, and complex sentences",
+            "objective": "Children produce simple, compound, and complex sentences and tell which kind a sentence is.",
+            "standard": "L.3.1.i",
+            "days": 3,
+            "source": "new",
+            "page": "Grammar page: twelve sentences to sort into simple, compound, and complex; then a paragraph of six short simple sentences that the child rewrites with two compound and one complex sentence. Level 1: the sort with simple and compound sentences only; level 2: all three kinds; level 3: the full rewrite."
+          },
+          {
+            "new": true,
+            "title": "Better, best: comparing with adjectives and adverbs",
+            "objective": "Children form and choose comparative and superlative adjectives and adverbs (taller, tallest, more slowly, most carefully, good, better, best).",
+            "standard": "L.3.1.g",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: three pictures of three animals of different sizes with ten sentences to complete with the right form (tall, taller, tallest); then a table of eight adjectives and adverbs with both forms to write. Level 1: -er and -est; level 2: more and most; level 3: irregular forms (good, better, best; bad, worse, worst)."
+          },
+          {
+            "new": true,
+            "title": "Possessives: the dog's bone, the dogs' bones",
+            "objective": "Children form and use singular and plural possessives with apostrophes and tell them from plurals.",
+            "standard": "L.3.2.d",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: twelve owner-and-thing pictures to write as possessives (one cat's toy, two cats' toys); then eight sentences where the child chooses between a plural and a possessive (dogs or dog's). Level 1: singular possessives; level 2: singular and plural possessives; level 3: irregular plurals too (the children's books)."
+          },
+          {
+            "new": true,
+            "title": "Capitals in titles",
+            "objective": "Children capitalize the important words in titles of books, stories, and songs and leave short words such as a, the, and of small.",
+            "standard": "L.3.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: twelve book, story, and song titles written all in small letters; the child rewrites each with the right capitals. Bottom: the child writes the titles of three favorite books and a title for their own report. Level 1: titles of three words; level 2: titles with a, the, of, and in; level 3: titles with a colon or a name."
+          }
+        ]
+      },
+      {
+        "id": "new:narrative-writing-g3",
+        "title": "Narrative Writing",
+        "why": "After the test weeks children write a full story: plan it, show the characters through dialogue, order the events, and revise for word choice.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Plan a story: characters, setting, problem",
+            "objective": "Children establish a situation and introduce a narrator or characters, and plan an event sequence that unfolds naturally to an ending.",
+            "standard": "W.3.3.a",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (narrative): a planner with boxes for the characters, the setting, the problem, three events, and the ending, and a story-mountain picture beside it. A checklist at the bottom: I introduced the characters and setting. My events lead to the ending. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Dialogue and description",
+            "objective": "Children use dialogue with quotation marks and descriptions of actions, thoughts, and feelings to show how characters respond to events.",
+            "standard": "W.3.3.b",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (narrative): a comic strip of four panels with speech bubbles that the child turns into story sentences with quotation marks and commas; then six lines to add dialogue and one feeling to their own draft. Level 1: the speech is given, the child punctuates it; level 2: the child writes the dialogue; level 3: the child adds an action and a thought to each line of dialogue."
+          },
+          {
+            "new": true,
+            "title": "Time words that order the events",
+            "objective": "Children use temporal words and phrases (later that day, after a while, finally) to signal the order of events and write a sense of closure.",
+            "standard": "W.3.3.c",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (narrative): a draft page with sixteen writing lines under the planner's event headings, with time words in the margin (at first, later that day, after a while, finally) and an ending box. A checklist at the bottom: I used time words. My events are in order. My ending closes the story. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+          },
+          {
+            "new": true,
+            "title": "Revise for words that work",
+            "objective": "Children revise their story by choosing words and phrases for effect, replacing weak words (went, said, nice) with exact ones.",
+            "standard": "L.3.3.a",
+            "days": 2,
+            "source": "new",
+            "page": "Revise page: a sample story paragraph of eight sentences with eight weak words underlined; the child replaces each with a stronger word from a word field box (words for went, said, looked, nice) and then marks three words to change in their own draft. Level 1: four underlined words with choices; level 2: eight words with the word box; level 3: the child finds the weak words themselves."
+          }
+        ]
+      },
+      {
+        "id": "new:comparing-texts-g3",
+        "title": "Point of View and Comparing Texts",
+        "why": "The year ends with reading across texts: how parts build a story, whose point of view it is, what words mean beyond the literal, and two texts compared.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Chapters, scenes, and stanzas",
+            "objective": "Children refer to the parts of stories, plays, and poems (chapter, scene, stanza) and describe how each part builds on the one before.",
+            "standard": "RL.3.5",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a short play of two scenes (about 200 words) and a poem of three stanzas. Below: questions that name the part (What changes in scene 2? What does stanza 3 add?) and a box for how each part builds on the one before. Level 1: multiple choice; level 2: written answers; level 3: the child writes a third scene of four lines."
+          },
+          {
+            "new": true,
+            "title": "Whose point of view?",
+            "objective": "Children tell their own point of view from that of the narrator or a character and explain where they agree or disagree.",
+            "standard": "RL.3.6",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a story of about 250 words told in the first person by a character with a strong opinion. Below: a two-column chart (what the narrator thinks, what I think) with a proof line from the text for the narrator's view. Level 1: the child chooses the narrator's view from three; level 2: the child writes both views; level 3: the child also rewrites one paragraph from another character's point of view."
+          },
+          {
+            "new": true,
+            "title": "Literal and nonliteral language",
+            "objective": "Children tell literal from nonliteral meanings of words and phrases in context (take steps, a piece of cake, raining cats and dogs).",
+            "standard": "L.3.5.a",
+            "days": 2,
+            "source": "new",
+            "page": "Word meaning page: ten sentences with a phrase in bold; the child marks it literal or nonliteral and writes what it means in the sentence. Bottom: four idioms, each with a picture of the literal meaning to label with the real meaning. Level 1: five sentences with meaning choices; level 2: ten sentences; level 3: the child writes a sentence using two of the idioms."
+          },
+          {
+            "new": true,
+            "title": "Two books by one author",
+            "objective": "Children compare and contrast the themes, settings, and plots of two stories by the same author about the same or similar characters.",
+            "standard": "RL.3.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two stories by one author about the same characters side by side (about 200 words each, each with a picture). Below: a comparison chart with rows for setting, problem, plot, and theme, and lines for two sentences that compare. Level 1: the child sorts fact strips into the chart; level 2: the child writes one entry per row for each story; level 3: the child also writes the two sentences."
+          },
+          {
+            "new": true,
+            "title": "Two texts on one topic",
+            "objective": "Children compare and contrast the most important points and key details in two information texts on the same topic.",
+            "standard": "RI.3.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two information texts on one topic side by side (about 200 words each, with headings and a picture). Below: a two-circle diagram with a shared middle and lines for two sentences that compare. Level 1: the child sorts eight fact strips into the circles and the middle; level 2: the child writes three facts in each part; level 3: the child also writes the two sentences."
+          }
+        ]
+      }
+    ],
+    "totalDays": 129,
+    "leftOut": [
+      {
+        "what": "RF.3.3.a: the meaning of common prefixes and suffixes",
+        "why": "Taught in the existing lessons Prefixes change the meaning and The person word, and in the suffix lesson of Reading Long Words."
+      },
+      {
+        "what": "RF.3.4.a, RF.3.4.b, RF.3.4.c: read with purpose, accuracy, rate, expression, and self-correction",
+        "why": "A daily fluency routine (repeated reading, partner reading, the Reading Easel); context for self-correction is taught in Context clues."
+      },
+      {
+        "what": "RL.3.4: the meaning of words and phrases in a story",
+        "why": "Taught in Literal and nonliteral language and in Context clues."
+      },
+      {
+        "what": "RL.3.7: how illustrations add to the words of a story",
+        "why": "Needs picture books with many illustrations; done in the read-aloud, while the printed story pages carry one picture."
+      },
+      {
+        "what": "RL.3.10 and RI.3.10: read texts of grade complexity independently",
+        "why": "The goal of the daily reading block and independent reading, not a lesson."
+      },
+      {
+        "what": "RI.3.4: the meaning of academic and domain words in a text",
+        "why": "Taught in Context clues and Use a dictionary and a glossary."
+      },
+      {
+        "what": "RI.3.6: tell my point of view from the author's",
+        "why": "Taught as the point-of-view routine of the information read-aloud; the printed point-of-view lesson of this year is the story one (RL.3.6)."
+      },
+      {
+        "what": "RI.3.8: the logical connection between sentences and paragraphs",
+        "why": "Taught inside Time order and cause and effect, whose chain is exactly that connection."
+      },
+      {
+        "what": "W.3.1.b, W.3.2.c, W.3.2.d, W.3.3.d: reasons, linking words, and conclusions",
+        "why": "Each is a line of the checklists in the opinion, informative, and narrative lessons; separate lessons would repeat them."
+      },
+      {
+        "what": "W.3.4: clear and coherent writing for the task and purpose",
+        "why": "The aim of every writing lesson, not a lesson of its own."
+      },
+      {
+        "what": "W.3.6: digital tools to produce and publish writing",
+        "why": "Keyboarding and publishing on devices cannot be taught on a printed page or with a projector tool."
+      },
+      {
+        "what": "W.3.10: write routinely over short and extended time frames",
+        "why": "A daily writing routine (journal, quick-writes), not a lesson."
+      },
+      {
+        "what": "SL.3.1.b, SL.3.1.c, SL.3.1.d, SL.3.2, SL.3.3, SL.3.4, SL.3.5, SL.3.6: discussion and presentation",
+        "why": "Daily routines (discussion roles, read-aloud questions, presenting the research report); the literature-circle lesson teaches the first one."
+      },
+      {
+        "what": "L.3.1.c: abstract nouns",
+        "why": "Met in the parts-of-speech lesson and the vocabulary units; a separate two-day lesson does not fit the 26 weeks."
+      },
+      {
+        "what": "L.3.1.e: simple verb tenses",
+        "why": "Taught in the existing lesson Choose the right form of the word."
+      },
+      {
+        "what": "L.3.2.b: commas in addresses",
+        "why": "Met when the class addresses an envelope for a letter; no page of its own."
+      },
+      {
+        "what": "L.3.2.c: commas and quotation marks in dialogue",
+        "why": "Taught in Dialogue and description, whose page punctuates the dialogue."
+      },
+      {
+        "what": "L.3.2.e and L.3.2.f: spelling with suffixes and spelling patterns",
+        "why": "Taught in The person word and the suffix lesson, and practised in the weekly spelling routine."
+      },
+      {
+        "what": "L.3.2.g: consult reference materials to check spelling",
+        "why": "Taught in Use a dictionary and a glossary."
+      },
+      {
+        "what": "L.3.3.b: spoken and written standard English",
+        "why": "Discussed when the class turns a recorded talk into written dialogue; the year's days do not allow a separate lesson."
+      },
+      {
+        "what": "L.3.5.b and L.3.5.c: real-life connections and shades of meaning",
+        "why": "Shades of meaning are taught in Words for go and words for look and Revise for words that work; real-life connections are a daily word-wall routine."
+      },
+      {
+        "what": "L.3.6: use grade-level academic and domain words",
+        "why": "The outcome of all vocabulary work, practised daily; not a lesson."
+      },
+      {
+        "what": "Ready page 3:cursive-sentences: trace and copy a sentence in cursive",
+        "why": "Cursive is handwriting, not a Common Core standard; a daily ten-minute routine in the states that require it."
+      }
+    ]
+  },
+  "K": {
+    "nonTeachingWeeks": [
+      {
+        "weeks": "1-2",
+        "what": "Routines, read-aloud habits, discussion rules, and the beginning-of-year screening: letter names, letter sounds, rhyming, first-sound fluency."
+      },
+      {
+        "weeks": "10",
+        "what": "End of the first quarter: report-card checks and family conferences."
+      },
+      {
+        "weeks": "17",
+        "what": "The short week before winter break: review stations and favorite read-alouds, no new lesson."
+      },
+      {
+        "weeks": "20",
+        "what": "Middle-of-year benchmark window: letter-sound fluency, phoneme segmentation, first nonsense words."
+      },
+      {
+        "weeks": "28",
+        "what": "End of the third quarter: report-card checks and spring conferences."
+      },
+      {
+        "weeks": "34",
+        "what": "End-of-year benchmark window."
+      },
+      {
+        "weeks": "36",
+        "what": "Last week of school: review stations, class book share, and summer reading packets."
+      }
+    ],
+    "units": [
+      {
+        "id": "k-letters-and-handwriting",
+        "title": "Letters and Handwriting",
+        "why": "Letter names and letter formation come first in Kindergarten: every later sound, word, and sentence lesson needs them.",
+        "lessons": [
+          {
+            "existing": "K:pre-writing-strokes"
+          },
+          {
+            "existing": "K:letter-identification"
+          },
+          {
+            "existing": "K:letter-case"
+          },
+          {
+            "existing": "K:letter-formation"
+          },
+          {
+            "existing": "K:alphabet-order"
+          },
+          {
+            "existing": "K:word-sentence-tracing"
+          },
+          {
+            "existing": "K:all-about-me-personal"
+          }
+        ]
+      },
+      {
+        "id": "new:how-print-works",
+        "title": "How Books and Print Work",
+        "why": "Once children know letters, they learn how print carries the words they hear: the book, the direction, the word, and the space.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Front cover, back cover, and title page",
+            "objective": "Children find and name the front cover, the back cover, and the title page of a book and show where the story starts.",
+            "standard": "RI.K.5",
+            "days": 2,
+            "source": "new",
+            "page": "Print-concepts mini-book: one sheet that folds into an 8-page book with a front cover, a title page, six pages of one short sentence each, and a back cover. The child colors the front cover, circles the title on the title page, puts a star on the back cover, and numbers the pages. Level 1: the parts carry picture labels; level 2: the child matches the words cover, title, page to the parts; level 3: the child writes the title on the cover and on the title page."
+          },
+          {
+            "new": true,
+            "title": "Read left to right, top to bottom",
+            "objective": "Children follow printed words from left to right, top to bottom, and page by page while the teacher reads, pointing to each word.",
+            "standard": "RF.K.1.a",
+            "days": 2,
+            "tool": "Reading Easel",
+            "source": "new",
+            "page": "Print-concepts page: three big-print sentences of 4 to 6 words that run over two lines, each with a green start dot and a red stop dot. The child traces the arrow along each line and the return-sweep arrow down to the next line, then touches each word while the teacher reads. Level 1: arrows printed, the child traces them; level 2: the child draws the arrows; level 3: the child numbers the words in reading order."
+          },
+          {
+            "new": true,
+            "title": "One spoken word, one written word",
+            "objective": "Children match each word they say in a short sentence to one written word on the page, pointing word by word.",
+            "standard": "RF.K.1.b",
+            "days": 2,
+            "source": "new",
+            "page": "Print-concepts page: six pictures, each with a short sentence (I see a cat.) and a row of empty boxes under it, one box per word. The child says the sentence, points to each word, and colors one box per word. Level 1: 3-word sentences; level 2: 4- and 5-word sentences; level 3: the child matches each spoken sentence to the printed one of the same length."
+          },
+          {
+            "new": true,
+            "title": "Spaces between words: count the words",
+            "objective": "Children find the spaces that separate printed words, count the words in a sentence, and leave a finger space when they copy one.",
+            "standard": "RF.K.1.c",
+            "days": 2,
+            "source": "new",
+            "page": "Print-concepts page: five sentences in big print with clear spaces; the child draws a line in each space, counts the words, and writes the number. Bottom: the child copies one sentence and leaves a finger space between the words. Level 1: 3-word sentences with dotted spaces; level 2: 4- and 5-word sentences; level 3: 5- and 6-word sentences and the copy task."
+          }
+        ]
+      },
+      {
+        "id": "k-hearing-sounds-in-words",
+        "title": "Hearing Sounds in Words",
+        "why": "Phonemic awareness grows in a set order (rhyme, syllables, onset and rime, single sounds) and is the ground for reading the first words.",
+        "lessons": [
+          {
+            "existing": "K:rhyme"
+          },
+          {
+            "existing": "K:count-syllables"
+          },
+          {
+            "new": true,
+            "title": "Blend the first sound and the rest",
+            "objective": "Children blend a spoken first sound and the rest of a one-syllable word (/m/ + /op/) into the whole word and find its picture.",
+            "standard": "RF.K.2.c",
+            "days": 2,
+            "tool": "Picture Word Wall",
+            "source": "new",
+            "page": "Sound-play picture page: eight rows of three pictures; the teacher says a word in two parts (/s/ ... /un/) and the child circles the picture of the whole word. Bottom: the child splits two picture words aloud into first sound and rest for a partner. Level 1: the three pictures start with different sounds; level 2: same first sound, different rest (sun, sock, sad); level 3: same rest, different first sound (cat, hat, bat)."
+          },
+          {
+            "existing": "K:beginning-sounds"
+          },
+          {
+            "existing": "K:sound-position"
+          },
+          {
+            "existing": "K:segment-phonemes"
+          },
+          {
+            "existing": "K:cvc-build"
+          }
+        ]
+      },
+      {
+        "id": "k-first-words-to-read",
+        "title": "First Words to Read",
+        "why": "With letter sounds and blending started, the class reads its first words: pictures and words, heart words, and a first patterned book.",
+        "lessons": [
+          {
+            "existing": "K:word-picture-match"
+          },
+          {
+            "existing": "K:sight-words-reading"
+          },
+          {
+            "new": true,
+            "title": "Read a little book with a pattern",
+            "objective": "Children read a short picture book with a repeating sentence (I see a ...), using the heart words and the picture to read the new word on each page.",
+            "standard": "RF.K.4",
+            "days": 2,
+            "tool": "Heart Words",
+            "source": "point:K:read-picture-book"
+          },
+          {
+            "existing": "K:singular-plural"
+          }
+        ]
+      },
+      {
+        "id": "new:short-vowels-and-cvc-words",
+        "title": "Short Vowels and CVC Words",
+        "why": "In winter letters and sounds come together: the class reads and spells CVC words vowel by vowel, meets its first two-letter sounds, and reads a decodable book.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Vowels and consonants",
+            "objective": "Children sort letters into vowels and consonants and find the vowel in short words they can read.",
+            "standard": "RF.K.3.b",
+            "days": 2,
+            "tool": "Letter Tiles",
+            "source": "point:K:vowels-consonants"
+          },
+          {
+            "new": true,
+            "title": "Short a and short i",
+            "objective": "Children say the short sounds of a and i and read and spell CVC words with them, such as cat, map, pig, and sit.",
+            "standard": "RF.K.3.b",
+            "days": 2,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c_t, p_g). Level 1: one pattern per page (short a); level 2: two patterns mixed (short a and short i), sorted into two columns; level 3: the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Short o, short u, and short e",
+            "objective": "Children say the short sounds of o, u, and e and read and spell CVC words with them, such as hot, bug, and bed.",
+            "standard": "RF.K.3.b",
+            "days": 2,
+            "tool": "Blending Board",
+            "source": "new",
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (h_t, b_g, b_d). Level 1: one pattern per page (short o); level 2: two patterns mixed, sorted into two columns; level 3: all three vowels, with the whole word written under each picture."
+          },
+          {
+            "new": true,
+            "title": "Change one sound to make a new word",
+            "objective": "Children change the first, last, or middle sound of a spoken CVC word to make a new word (cat to hat, hat to ham, ham to him) and spell each new word.",
+            "standard": "RF.K.2.e",
+            "days": 2,
+            "tool": "Letter Tiles",
+            "source": "new",
+            "page": "Phonics chain page: a word ladder of six CVC words with pictures; each rung changes one letter. The child reads the top word, listens to the change the teacher says, and writes the new word on the next rung. Level 1: only the first sound changes; level 2: the first or the last sound; level 3: the first, last, or middle sound."
+          },
+          {
+            "new": true,
+            "title": "Which word matches: cat or cot?",
+            "objective": "Children tell apart two words that differ by one letter (cat and cot, pin and pen) by saying the sound of the letter that differs and choosing the word for the picture.",
+            "standard": "RF.K.3.d",
+            "days": 2,
+            "source": "new",
+            "page": "Phonics pattern page: ten pictures, each with two words that differ by one letter (bag and big, hen and pen). The child reads both words, circles the word for the picture, and underlines the letter that differs. Level 1: the different letter is the first one; level 2: the last one; level 3: the middle vowel."
+          },
+          {
+            "existing": "K:digraphs-k",
+            "from": "k-first-words-to-read"
+          },
+          {
+            "new": true,
+            "title": "Read a decodable book",
+            "objective": "Children read a short book made only of CVC words they can sound out and taught heart words, page by page, and draw what each page says.",
+            "standard": "RF.K.3",
+            "days": 2,
+            "tool": "Reading Easel",
+            "source": "point:K:read-decodable-text"
+          }
+        ]
+      },
+      {
+        "id": "new:reading-stories-k",
+        "title": "Reading Stories",
+        "why": "After a fall of read-alouds, the class learns the questions a reader asks of any story: who, where, what happened, and what the pictures add.",
+        "lessons": [
+          {
+            "existing": "K:story-sequencing",
+            "from": "k-sorting-words-telling-stories"
+          },
+          {
+            "new": true,
+            "title": "Who is in the story, and where?",
+            "objective": "Children name the characters and the setting of a story read aloud and tell one major event, pointing to the pictures that show them.",
+            "standard": "RL.K.3",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes, Who? Where? What happened?, where the child answers. Level 1: the child circles the character and the place from three pictures each; level 2: the child draws them; level 3: the child draws and writes a label for each box."
+          },
+          {
+            "new": true,
+            "title": "Retell the story: beginning, middle, end",
+            "objective": "Children retell a familiar story with its beginning, middle, and end, using the key details and the pictures.",
+            "standard": "RL.K.2",
+            "days": 2,
+            "tool": "Story Line",
+            "source": "new",
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes labeled beginning, middle, end. Level 1: the child cuts out three pictures and glues them in order; level 2: the child draws each part; level 3: the child draws each part and finishes a frame (First ___. Then ___. At the end ___.)."
+          },
+          {
+            "new": true,
+            "title": "Ask and answer questions about a story",
+            "objective": "Children answer who, what, where, and why questions about key details in a story read aloud and ask one question of their own.",
+            "standard": "RL.K.1",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "new",
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words and four questions the teacher reads (Who lost the hat? Where did it go?); the child circles the picture answer from three. Level 1: who and where questions; level 2: what and why questions; level 3: the child also draws or dictates a question of their own in a question-mark box."
+          },
+          {
+            "new": true,
+            "title": "The pictures and the words",
+            "objective": "Children tell which moment in a story a picture shows and match each picture to the sentence it goes with.",
+            "standard": "RL.K.7",
+            "days": 2,
+            "source": "new",
+            "page": "Story and questions page: six sentences and six pictures from one short story in mixed order; the teacher reads each sentence and the child draws a line to its picture. Level 1: three sentences; level 2: six sentences; level 3: one sentence has no picture, and the child draws it."
+          },
+          {
+            "new": true,
+            "title": "Two stories, two adventures",
+            "objective": "Children compare the adventures of two characters in two familiar stories and tell one thing that is the same and one that is different.",
+            "standard": "RL.K.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two short read-aloud texts with picture panels side by side (a lost puppy, a lost kitten). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them."
+          }
+        ]
+      },
+      {
+        "id": "new:words-and-sentences-k",
+        "title": "Words and Sentences",
+        "why": "With first words read, the class turns to the sentence: naming and action words, place words, the capital at the start, and the mark at the end.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Naming words and action words",
+            "objective": "Children sort pictured words into naming words (dog, cup) and action words (run, jump) and say each in a sentence.",
+            "standard": "L.K.1.b",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "new",
+            "page": "Grammar page: twelve picture words, half things and half actions, to cut and sort into a naming box and an action box. Level 1: pictures only; level 2: pictures with the word under each; level 3: the child also writes one naming word and one action word into a sentence frame (The ___ can ___.)."
+          },
+          {
+            "new": true,
+            "title": "In, on, under, next to",
+            "objective": "Children use the place words in, on, under, next to, behind, and in front of to tell where a thing is in a picture.",
+            "standard": "L.K.1.e",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: six scenes, each with a cat in, on, under, next to, behind, or in front of a box; the child circles the place word for each scene. Level 1: in, on, under; level 2: all six words; level 3: the child draws the cat where a printed sentence tells (The cat is under the bed.)."
+          },
+          {
+            "new": true,
+            "title": "A sentence starts with a capital letter",
+            "objective": "Children find the capital letter at the start of a sentence and in the word I, and fix sentences that start with a small letter.",
+            "standard": "L.K.2.a",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: six short sentences in big print; the child circles the first letter and every word I. Three of them start with a small letter, and the child writes the capital above it. Level 1: 3-word sentences; level 2: 4- and 5-word sentences; level 3: the child also copies one fixed sentence."
+          },
+          {
+            "new": true,
+            "title": "A period or a question mark?",
+            "objective": "Children name the period and the question mark, tell which one ends a telling sentence and which one ends an asking sentence, and add the right mark.",
+            "standard": "L.K.2.b",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: eight sentences without end marks, half telling and half asking, each with a picture; the child writes a period or a question mark. Level 1: the teacher reads every sentence; level 2: the child reads with picture support; level 3: the child also writes one telling and one asking sentence about a picture."
+          },
+          {
+            "new": true,
+            "title": "Say more: make the sentence longer",
+            "objective": "Children say and write a complete sentence about a picture and make it longer by adding where, when, or how (The dog runs to the park.).",
+            "standard": "L.K.1.f",
+            "days": 2,
+            "source": "new",
+            "page": "Grammar page: four pictures, each with a short sentence (The dog runs.) and a box of add-ons (fast, to the park, in the rain). The child reads the sentence, picks an add-on that fits the picture, and writes the longer sentence. Level 1: the child circles the add-on; level 2: the child copies the longer sentence; level 3: the child writes an add-on of their own."
+          }
+        ]
+      },
+      {
+        "id": "k-sorting-words-telling-stories",
+        "title": "Sorting Words and Word Meanings",
+        "why": "In spring vocabulary deepens: sorting by category, odd one out, opposites, words with two meanings, and verbs that show how an action is done.",
+        "lessons": [
+          {
+            "existing": "K:category-sort"
+          },
+          {
+            "existing": "K:category-odd-one-out"
+          },
+          {
+            "existing": "K:opposites"
+          },
+          {
+            "new": true,
+            "title": "Words with two meanings",
+            "objective": "Children find the two meanings of a known word (a bat that flies, a bat for baseball) and choose the meaning that fits a sentence.",
+            "standard": "L.K.4.a",
+            "days": 2,
+            "source": "new",
+            "page": "Word meaning page: six words with two meanings (bat, duck, ring, bark, top, can), each shown with two pictures. The teacher reads a sentence with the word and the child circles the picture that fits it. Level 1: three words; level 2: six words; level 3: the child draws the other meaning and says a sentence for it."
+          },
+          {
+            "new": true,
+            "title": "Walk, march, tiptoe: act it out",
+            "objective": "Children act out verbs with close meanings (walk, march, tiptoe, stomp, prance) and tell how one action is different from the other.",
+            "standard": "L.K.5.d",
+            "days": 2,
+            "tool": "Picture Word Wall",
+            "source": "teacher-led",
+            "page": "Routine: the teacher shows a picture card and says one verb (walk, march, tiptoe, stomp); the class acts it out in place. Then two children act two verbs side by side and the class tells the difference (quiet or loud, slow or fast). Second day: toss, throw, fling and nibble, munch, gobble. Listen for: children choosing the exact verb when they describe a classmate's action."
+          }
+        ]
+      },
+      {
+        "id": "new:reading-to-learn-k",
+        "title": "Reading to Learn: Fact Texts",
+        "why": "In spring the class reads to learn about the world: questions, the main topic, the pictures, how two ideas connect, and two texts on one topic.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Ask and answer questions about a fact text",
+            "objective": "Children answer who, what, where, and how questions about key details in a short information text read aloud and ask a question of their own.",
+            "standard": "RI.K.1",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) about one animal or thing, with a photo-style picture. Below: four questions the teacher reads; the child circles the picture answer. Level 1: answers from three pictures; level 2: the child draws the answer; level 3: the child also draws a fact and dictates or writes a question about the topic."
+          },
+          {
+            "new": true,
+            "title": "What is it all about? The main topic",
+            "objective": "Children name the main topic of a short information text and retell two key details about it.",
+            "standard": "RI.K.2",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) with one picture. Below: a topic box (circle one of three pictures) and two key-detail boxes. Level 1: the child circles the topic and one detail; level 2: the child draws two details; level 3: the child draws and labels two details."
+          },
+          {
+            "new": true,
+            "title": "Pictures that teach",
+            "objective": "Children tell what a labeled picture in a fact text shows and match each sentence to the part of the picture it explains.",
+            "standard": "RI.K.7",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of four sentences about a plant with a labeled picture (roots, stem, leaf, flower). The child draws a line from each sentence to the part of the picture it tells about. Level 1: two labels; level 2: four labels; level 3: the child adds a label to a part that has none."
+          },
+          {
+            "new": true,
+            "title": "First this, then that: connect two ideas",
+            "objective": "Children tell how two events or ideas in an information text connect, such as an egg and a chick, or rain and a puddle.",
+            "standard": "RI.K.3",
+            "days": 2,
+            "source": "new",
+            "page": "Fact text and questions page: an information text of four sentences about a change (an egg hatches into a chick). Below: two boxes joined by an arrow; the child shows the first and the second thing. Level 1: the child cuts and glues two pictures in order; level 2: the child draws both; level 3: the child draws both and finishes a frame (First ___, then ___.)."
+          },
+          {
+            "new": true,
+            "title": "Two texts, one topic",
+            "objective": "Children find what is the same and what is different in two short information texts about the same topic.",
+            "standard": "RI.K.9",
+            "days": 2,
+            "source": "new",
+            "page": "Two-text comparison page: two short read-aloud texts side by side on one topic (two kinds of bears, three sentences each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them."
+          }
+        ]
+      },
+      {
+        "id": "new:draw-and-write-k",
+        "title": "Draw and Write: Opinions, Facts, and Stories",
+        "why": "By spring children sound out and spell CVC words and some heart words, so they write the three kinds of text with a picture and sentence frames.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "My favorite and why: an opinion",
+            "objective": "Children draw and write their opinion about a book or a topic (My favorite is ... I like it because ...) after the class votes.",
+            "standard": "W.K.1",
+            "days": 2,
+            "tool": "Class Graph",
+            "source": "new",
+            "page": "Writing page (opinion): a box for a picture and three writing lines with the frames My favorite ___ is ___. I like it because ___. At the bottom, a checklist of three picture icons: I drew it. I wrote my opinion. I told why. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+          },
+          {
+            "new": true,
+            "title": "Teach a fact: draw, label, and write",
+            "objective": "Children draw a topic they know, label its parts, and write one or two facts about it.",
+            "standard": "W.K.2",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (informative): a box for a labeled drawing and three writing lines with the frames This is a ___. It has ___. It can ___. At the bottom, a checklist of three picture icons: I named my topic. I labeled my picture. I wrote a fact. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+          },
+          {
+            "new": true,
+            "title": "What happened to me: a small moment",
+            "objective": "Children draw and write about one event in the order it happened and tell how they felt about it.",
+            "standard": "W.K.3",
+            "days": 2,
+            "source": "new",
+            "page": "Writing page (narrative): two boxes for pictures (first, then) and three writing lines with the frames First I ___. Then I ___. I felt ___. At the bottom, a checklist of three picture icons: I drew two parts. I wrote what happened. I told how I felt. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+          },
+          {
+            "new": true,
+            "title": "Author's chair: a friend asks, I add",
+            "objective": "Children read their writing to the class, answer a classmate's question about it, and add one detail to the picture or the words.",
+            "standard": "W.K.5",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "teacher-led",
+            "page": "Routine: three children a day sit in the author's chair and read a writing page from this unit. The teacher pulls a name stick; that child asks one question (Where were you? What color was it?). The author adds the answer to the picture or the sentence with a colored pencil. Listen for: questions that ask for a detail, and an author who adds it."
+          }
+        ]
+      }
+    ],
+    "totalDays": 138,
+    "leftOut": [
+      {
+        "what": "A or an? (K:articles)",
+        "why": "Choosing a or an is Grade 1 grammar (L.1.1.h) and is taught there in 'A or an: sort the words'; in Kindergarten children use a and an correctly in speech without a page.",
+        "lesson": "K:articles"
+      },
+      {
+        "what": "RL.K.4 and RI.K.4: ask about unknown words in a text",
+        "why": "A daily read-aloud routine (stop, ask, explain the word), not a separate lesson."
+      },
+      {
+        "what": "RL.K.5: recognize storybooks and poems",
+        "why": "Taught in the daily read-aloud and the poem of the week, where the class names the kind of text each time."
+      },
+      {
+        "what": "RL.K.6 and RI.K.6: name the author and the illustrator",
+        "why": "Part of introducing every read-aloud book (cover, author, illustrator); the cover-and-title-page lesson starts it."
+      },
+      {
+        "what": "RL.K.10 and RI.K.10: group reading activities with purpose",
+        "why": "This is the daily read-aloud and shared reading itself, a routine every day of the year."
+      },
+      {
+        "what": "RI.K.8: the reasons an author gives",
+        "why": "Kindergarten fact texts of four sentences hardly give reasons; met with prompting in the read-aloud of opinion picture books, not on a page."
+      },
+      {
+        "what": "W.K.6: digital tools to publish writing",
+        "why": "Needs devices and adult help at a screen; it cannot be taught on a printed page or with a projector tool."
+      },
+      {
+        "what": "W.K.7: shared research and writing projects",
+        "why": "A class book built over several weeks in science and read-aloud time, not a two-day lesson; the fact-text unit and the informative writing lesson prepare it."
+      },
+      {
+        "what": "W.K.8: recall information from experiences",
+        "why": "Practised inside the narrative and informative writing lessons, which start from what the child remembers."
+      },
+      {
+        "what": "SL.K.1.a and SL.K.1.b: rules for discussion and conversation",
+        "why": "Set in the first two weeks of routines and kept every day; the Name Sticks questions and the author's chair practise them."
+      },
+      {
+        "what": "SL.K.2 and SL.K.3: ask and answer questions about what is read aloud or said",
+        "why": "Done in every read-aloud and in the story and fact-text question lessons."
+      },
+      {
+        "what": "SL.K.4, SL.K.5, SL.K.6: describe, add drawings, speak audibly",
+        "why": "A daily show-and-tell routine; the author's chair lesson carries them."
+      },
+      {
+        "what": "L.K.1.d: question words",
+        "why": "Used in the story and fact-text question lessons (who, what, where, why, how) rather than a page of their own."
+      },
+      {
+        "what": "L.K.4.b: inflections and affixes as clues",
+        "why": "-s is taught in One and many; -ed, -ing, re- and un- are taught in Grade 1 endings and Grade 2 prefixes, where children can read them."
+      },
+      {
+        "what": "L.K.5.c: real-life connections between words and their use",
+        "why": "A daily word-wall talk routine (Where in our school do we see something noisy?), not a page."
+      },
+      {
+        "what": "L.K.6: use words acquired through conversations and reading",
+        "why": "The outcome of all vocabulary work, practised daily in talk; not a lesson."
+      },
+      {
+        "what": "K:bilingual-cards: bilingual picture word cards",
+        "why": "A word-wall display resource for multilingual classes, not a lesson with a teaching point."
+      }
+    ]
+  }
+}

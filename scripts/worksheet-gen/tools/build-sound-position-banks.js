@@ -60,7 +60,9 @@ const END_OK = {
 const MIDDLE_REFUSED = new Set(['fr', 'es', 'it', 'pt', 'fi']);
 // words a review refused, per bank (filled from the review)
 const REJECT = {
-  beginning: {},
+  // sv (unit-check review 2026-11-15): short ä is said like short e, so a child who names the picture (ängel, älg) cannot
+  // hear whether the word begins with Ä or E
+  beginning: { sv: ['ängel', 'älg'] },
   // the native + pedagogy review of the rebuilt banks (2026-11-02): an ng-final loan (Ballon), a picture named with
   // another word (Elf → Elfe, Henne → Huhn, sofa → canapé, bote → barco in Mexico, jasje → jas, eendje → eend, kon), a
   // word a child does not use (pajar), a duplicate (elvisp / visp)

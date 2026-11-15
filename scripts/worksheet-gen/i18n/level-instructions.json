@@ -6883,5 +6883,29 @@
       "no": "På hvert kort står et sted: PÅ eller UNDER esken. Sett ring rundt bildet som er der.",
       "fi": "Jokaisessa kortissa lukee paikka: laatikon PÄÄLLÄ tai ALLA. Ympyröi kuva, joka on siinä."
     }
+  },
+  "G1-575": {
+    "1": {
+      "en": "Read the text. Circle the answer to each question."
+    },
+    "3": {
+      "en": "Read the text. Write the answer to each question. Then underline the sentence in the text that tells you the answer."
+    }
+  },
+  "G1-576": {
+    "1": {
+      "en": "Read the text. Circle what the text is mostly about. Then copy one key detail from the text."
+    },
+    "3": {
+      "en": "Read the text. Write the main topic. Then write three key details in your own words."
+    }
+  },
+  "G1-577": {
+    "1": {
+      "en": "Read the text. Use the headings, the bold words, the caption, and the glossary. Circle each answer."
+    },
+    "3": {
+      "en": "Read the text. Use the headings, the bold words, the caption, and the glossary to write each answer. Then write a caption for the second picture."
+    }
   }
 }

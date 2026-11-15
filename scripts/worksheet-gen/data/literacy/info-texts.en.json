@@ -1,0 +1,2033 @@
+{
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`, DRAFT 2026-11-15, read by no reviewer, used by no page): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`); `topic` = the picture of the main topic and two pictures of details; `details` = the numbers of the two sentences that are key details.",
+ "g1": [
+  {
+   "id": "frogs",
+   "title": "Frogs",
+   "picture": {
+    "noun": "frog",
+    "theme": "forest creatures"
+   },
+   "caption": "A frog has strong back legs for jumping.",
+   "sections": [
+    {
+     "heading": "Where Frogs Live",
+     "sentences": [
+      "Many frogs live near ponds.",
+      "A pond has still water and many plants.",
+      "Frogs like to sit on wet mud.",
+      "Their skin must stay wet."
+     ]
+    },
+    {
+     "heading": "What Frogs Eat",
+     "sentences": [
+      "Frogs eat bugs.",
+      "A frog has a long, sticky tongue.",
+      "The tongue shoots out and grabs a bug.",
+      "Then the frog swallows the bug whole.",
+      "Frogs do not chew their food."
+     ]
+    }
+   ],
+   "bold": [
+    "ponds",
+    "tongue"
+   ],
+   "glossary": [
+    {
+     "word": "pond",
+     "meaning": "a small lake with still water"
+    },
+    {
+     "word": "swallow",
+     "meaning": "to make food go down your throat"
+    },
+    {
+     "word": "tongue",
+     "meaning": "the soft part in the mouth that can move and taste"
+    }
+   ],
+   "topic": {
+    "right": "frogs",
+    "detail": "a sticky tongue",
+    "mentioned": "plants"
+   },
+   "details": [
+    "Many frogs live near ponds.",
+    "Frogs eat bugs.",
+    "A frog has a long, sticky tongue."
+   ],
+   "questions": [
+    {
+     "q": "Where do many frogs live?",
+     "choices": [
+      "near ponds",
+      "in the snow",
+      "in the sand"
+     ],
+     "correct": 0,
+     "sentence": 1,
+     "starter": "Many frogs live near",
+     "full": "Many frogs live near ponds."
+    },
+    {
+     "q": "What must stay wet?",
+     "choices": [
+      "the fly",
+      "a frog's skin",
+      "the plants"
+     ],
+     "correct": 1,
+     "sentence": 4,
+     "starter": "A frog's",
+     "full": "A frog's skin must stay wet."
+    },
+    {
+     "q": "What do frogs eat?",
+     "choices": [
+      "grass",
+      "mud",
+      "bugs"
+     ],
+     "correct": 2,
+     "sentence": 5,
+     "starter": "Frogs eat",
+     "full": "Frogs eat bugs."
+    },
+    {
+     "q": "What is a frog's tongue like?",
+     "choices": [
+      "long and sticky",
+      "short and dry",
+      "hard and sharp"
+     ],
+     "correct": 0,
+     "sentence": 6,
+     "starter": "A frog's tongue is",
+     "full": "A frog's tongue is long and sticky."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about food?",
+     "answer": "What Frogs Eat"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about ponds?",
+     "answer": "Where Frogs Live"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the first part?",
+     "answer": "ponds"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word pond mean?",
+     "answer": "a small lake with still water"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say a frog's back legs are for?",
+     "answer": "jumping"
+    }
+   ],
+   "lure": "mud",
+   "capChoices": [
+    "digging",
+    "climbing"
+   ],
+   "picture2": {
+    "theme": "insects and bugs",
+    "noun": "dragonfly",
+    "sample": "Frogs eat bugs like this dragonfly."
+   },
+   "headLure": "Frog Eggs"
+  },
+  {
+   "id": "honeybees",
+   "title": "Honeybees",
+   "picture": {
+    "noun": "bee",
+    "theme": "insects and bugs"
+   },
+   "caption": "This bee is flying.",
+   "sections": [
+    {
+     "heading": "A Busy Hive",
+     "sentences": [
+      "Honeybees live in a hive.",
+      "One hive holds many, many bees.",
+      "Each bee has a job to do.",
+      "Some bees guard the door of the hive."
+     ]
+    },
+    {
+     "heading": "From Flower to Honey",
+     "sentences": [
+      "Other bees fly out to find flowers.",
+      "They drink sweet nectar from the flowers.",
+      "Back in the hive, the bees turn nectar into honey.",
+      "Honey is food for the bees in winter."
+     ]
+    }
+   ],
+   "bold": [
+    "hive",
+    "nectar"
+   ],
+   "glossary": [
+    {
+     "word": "guard",
+     "meaning": "to keep something safe"
+    },
+    {
+     "word": "hive",
+     "meaning": "the home of a group of bees"
+    },
+    {
+     "word": "nectar",
+     "meaning": "a sweet juice inside flowers"
+    }
+   ],
+   "topic": {
+    "right": "honeybees",
+    "detail": "the door of the hive",
+    "mentioned": "winter"
+   },
+   "details": [
+    "Honeybees live in a hive.",
+    "Bees drink nectar from flowers.",
+    "Bees turn nectar into honey."
+   ],
+   "questions": [
+    {
+     "q": "Where do honeybees live?",
+     "choices": [
+      "in a pond",
+      "in a hive",
+      "in a nest of sticks"
+     ],
+     "correct": 1,
+     "sentence": 1,
+     "starter": "Honeybees live in a",
+     "full": "Honeybees live in a hive."
+    },
+    {
+     "q": "What do some bees guard?",
+     "choices": [
+      "the door of the hive",
+      "the flowers",
+      "the trees"
+     ],
+     "correct": 0,
+     "sentence": 4,
+     "starter": "Some bees guard the",
+     "full": "Some bees guard the door of the hive."
+    },
+    {
+     "q": "What do bees drink from flowers?",
+     "choices": [
+      "water",
+      "honey",
+      "nectar"
+     ],
+     "correct": 2,
+     "sentence": 6,
+     "starter": "Bees drink",
+     "full": "Bees drink nectar."
+    },
+    {
+     "q": "When is honey food for the bees?",
+     "choices": [
+      "in winter",
+      "at night",
+      "in spring"
+     ],
+     "correct": 0,
+     "sentence": 8,
+     "starter": "Honey is food for the bees in",
+     "full": "Honey is food for the bees in winter."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about honey?",
+     "answer": "From Flower to Honey"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about bees that guard the door?",
+     "answer": "A Busy Hive"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the second part?",
+     "answer": "nectar"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word hive mean?",
+     "answer": "the home of a group of bees"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say the bee is doing?",
+     "answer": "flying"
+    }
+   ],
+   "lure": "honey",
+   "capChoices": [
+    "sleeping",
+    "eating"
+   ],
+   "picture2": {
+    "theme": "spring",
+    "noun": "flower",
+    "sample": "Bees drink nectar from flowers."
+   },
+   "headLure": "The Queen Bee"
+  },
+  {
+   "id": "owls",
+   "title": "Owls",
+   "picture": {
+    "noun": "owl",
+    "theme": "camping"
+   },
+   "caption": "An owl has big eyes that look to the front.",
+   "sections": [
+    {
+     "heading": "Awake at Night",
+     "sentences": [
+      "Most owls sleep in the day.",
+      "At night they wake up to hunt.",
+      "An owl has big eyes.",
+      "Big eyes help it see in the dark."
+     ]
+    },
+    {
+     "heading": "A Silent Hunter",
+     "sentences": [
+      "An owl hunts mice and other small animals.",
+      "Its soft feathers make almost no sound when it flies.",
+      "A mouse does not hear the owl coming.",
+      "That is how an owl gets its food at night."
+     ]
+    }
+   ],
+   "bold": [
+    "hunt",
+    "feathers"
+   ],
+   "glossary": [
+    {
+     "word": "feathers",
+     "meaning": "the soft covering on a bird's body"
+    },
+    {
+     "word": "hunt",
+     "meaning": "to find and catch animals to eat"
+    },
+    {
+     "word": "silent",
+     "meaning": "making no sound"
+    }
+   ],
+   "topic": {
+    "right": "owls",
+    "detail": "soft feathers",
+    "mentioned": "mice"
+   },
+   "details": [
+    "Most owls sleep in the day.",
+    "Big eyes help an owl see in the dark.",
+    "An owl's soft feathers make almost no sound."
+   ],
+   "questions": [
+    {
+     "q": "When do most owls sleep?",
+     "choices": [
+      "at night",
+      "in the day",
+      "in winter"
+     ],
+     "correct": 1,
+     "sentence": 1,
+     "starter": "Most owls sleep in the",
+     "full": "Most owls sleep in the day."
+    },
+    {
+     "q": "What helps an owl see in the dark?",
+     "choices": [
+      "its big eyes",
+      "its soft feathers",
+      "its long legs"
+     ],
+     "correct": 0,
+     "sentence": 4,
+     "starter": "An owl sees in the dark with its",
+     "full": "An owl sees in the dark with its big eyes."
+    },
+    {
+     "q": "What does an owl hunt?",
+     "choices": [
+      "grass and seeds",
+      "leaves and bark",
+      "mice and other small animals"
+     ],
+     "correct": 2,
+     "sentence": 5,
+     "starter": "An owl hunts",
+     "full": "An owl hunts mice and other small animals."
+    },
+    {
+     "q": "What makes almost no sound when an owl flies?",
+     "choices": [
+      "its eyes",
+      "its soft feathers",
+      "the mouse"
+     ],
+     "correct": 1,
+     "sentence": 6,
+     "starter": "An owl's",
+     "full": "An owl's soft feathers make almost no sound."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how an owl catches mice?",
+     "answer": "A Silent Hunter"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read when owls wake up?",
+     "answer": "Awake at Night"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the first part?",
+     "answer": "hunt"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word silent mean?",
+     "answer": "making no sound"
+    },
+    {
+     "kind": "caption",
+     "q": "Where does the caption say an owl's big eyes look?",
+     "answer": "to the front"
+    }
+   ],
+   "lure": "eyes",
+   "capChoices": [
+    "to the side",
+    "to the back"
+   ],
+   "picture2": {
+    "theme": "forest creatures",
+    "noun": "mouse",
+    "sample": "An owl hunts mice."
+   },
+   "headLure": "Owl Babies"
+  },
+  {
+   "id": "penguins",
+   "title": "Penguins",
+   "picture": {
+    "noun": "penguin",
+    "theme": "birds"
+   },
+   "caption": "This penguin has black and white feathers.",
+   "sections": [
+    {
+     "heading": "Birds That Swim",
+     "sentences": [
+      "A penguin is a bird, but it cannot fly.",
+      "Its wings work like flippers in the water.",
+      "Penguins swim fast and catch fish to eat."
+     ]
+    },
+    {
+     "heading": "Life in the Cold",
+     "sentences": [
+      "Many penguins live where it is very cold.",
+      "Thick fat and feathers keep them warm.",
+      "Some penguins stand close together in a big huddle.",
+      "The huddle helps each penguin stay warm in the wind."
+     ]
+    }
+   ],
+   "bold": [
+    "flippers",
+    "huddle"
+   ],
+   "glossary": [
+    {
+     "word": "fat",
+     "meaning": "a layer under the skin that keeps the body warm"
+    },
+    {
+     "word": "flippers",
+     "meaning": "flat body parts used for swimming"
+    },
+    {
+     "word": "huddle",
+     "meaning": "a group of animals that stand close together"
+    }
+   ],
+   "topic": {
+    "right": "penguins",
+    "detail": "flippers",
+    "mentioned": "fish"
+   },
+   "details": [
+    "A penguin is a bird that cannot fly.",
+    "Penguins swim fast and catch fish.",
+    "Thick fat and feathers keep penguins warm."
+   ],
+   "questions": [
+    {
+     "q": "What can a penguin not do?",
+     "choices": [
+      "swim",
+      "fly",
+      "walk"
+     ],
+     "correct": 1,
+     "sentence": 1,
+     "starter": "A penguin cannot",
+     "full": "A penguin cannot fly."
+    },
+    {
+     "q": "What do penguins catch to eat?",
+     "choices": [
+      "fish",
+      "bugs",
+      "seeds"
+     ],
+     "correct": 0,
+     "sentence": 3,
+     "starter": "Penguins catch",
+     "full": "Penguins catch fish."
+    },
+    {
+     "q": "What do penguins have that keeps them warm?",
+     "choices": [
+      "thick fur",
+      "a nest of grass",
+      "thick fat and feathers"
+     ],
+     "correct": 2,
+     "sentence": 5,
+     "starter": "Penguins have thick",
+     "full": "Penguins have thick fat and feathers."
+    },
+    {
+     "q": "How do some penguins stand in a huddle?",
+     "choices": [
+      "close together",
+      "far apart",
+      "one behind a rock"
+     ],
+     "correct": 0,
+     "sentence": 6,
+     "starter": "Some penguins stand",
+     "full": "Some penguins stand close together."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how penguins stay warm?",
+     "answer": "Life in the Cold"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read what penguins eat?",
+     "answer": "Birds That Swim"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the first part?",
+     "answer": "flippers"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word flippers mean?",
+     "answer": "flat body parts used for swimming"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say about this penguin's feathers?",
+     "answer": "They are black and white."
+    }
+   ],
+   "lure": "wings",
+   "capChoices": [
+    "They are brown and gray.",
+    "They are all yellow."
+   ],
+   "picture2": {
+    "theme": "ocean life",
+    "noun": "fish",
+    "sample": "Penguins catch fish to eat."
+   },
+   "headLure": "Penguin Eggs"
+  },
+  {
+   "id": "squirrels",
+   "title": "Squirrels",
+   "picture": {
+    "noun": "squirrel",
+    "theme": "forest creatures"
+   },
+   "caption": "This squirrel sits up on its back legs.",
+   "sections": [
+    {
+     "heading": "Life in the Trees",
+     "sentences": [
+      "Many squirrels live in trees.",
+      "They build a nest of leaves and twigs high up.",
+      "A squirrel has a long, bushy tail.",
+      "The tail helps it balance when it jumps."
+     ]
+    },
+    {
+     "heading": "Nuts for Winter",
+     "sentences": [
+      "In fall, squirrels gather nuts and seeds.",
+      "They bury the nuts in the ground.",
+      "In winter, they dig up the nuts to eat.",
+      "A squirrel uses its nose to find nuts under the snow."
+     ]
+    }
+   ],
+   "bold": [
+    "nest",
+    "bury"
+   ],
+   "glossary": [
+    {
+     "word": "bury",
+     "meaning": "to put something in the ground and cover it"
+    },
+    {
+     "word": "bushy",
+     "meaning": "thick and fluffy"
+    },
+    {
+     "word": "nest",
+     "meaning": "a home that an animal builds"
+    }
+   ],
+   "topic": {
+    "right": "squirrels",
+    "detail": "a bushy tail",
+    "mentioned": "twigs"
+   },
+   "details": [
+    "Many squirrels live in trees.",
+    "A squirrel's tail helps it balance.",
+    "Squirrels bury nuts to eat in winter."
+   ],
+   "questions": [
+    {
+     "q": "Where do many squirrels live?",
+     "choices": [
+      "in trees",
+      "in ponds",
+      "under rocks"
+     ],
+     "correct": 0,
+     "sentence": 1,
+     "starter": "Many squirrels live in",
+     "full": "Many squirrels live in trees."
+    },
+    {
+     "q": "What is a squirrel's nest made of?",
+     "choices": [
+      "mud and stones",
+      "leaves and twigs",
+      "nuts and seeds"
+     ],
+     "correct": 1,
+     "sentence": 2,
+     "starter": "A squirrel's nest is made of",
+     "full": "A squirrel's nest is made of leaves and twigs."
+    },
+    {
+     "q": "What helps a squirrel balance?",
+     "choices": [
+      "its teeth",
+      "its ears",
+      "its tail"
+     ],
+     "correct": 2,
+     "sentence": 4,
+     "starter": "A squirrel balances with its",
+     "full": "A squirrel balances with its tail."
+    },
+    {
+     "q": "When do squirrels gather nuts?",
+     "choices": [
+      "in fall",
+      "in spring",
+      "in summer"
+     ],
+     "correct": 0,
+     "sentence": 5,
+     "starter": "Squirrels gather nuts in",
+     "full": "Squirrels gather nuts in fall."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about nuts?",
+     "answer": "Nuts for Winter"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about a squirrel's nest?",
+     "answer": "Life in the Trees"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the second part?",
+     "answer": "bury"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word bury mean?",
+     "answer": "to put something in the ground and cover it"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say the squirrel sits up on?",
+     "answer": "its back legs"
+    }
+   ],
+   "lure": "nuts",
+   "capChoices": [
+    "a branch",
+    "a rock"
+   ],
+   "picture2": {
+    "theme": "miscellaneous",
+    "noun": "acorn",
+    "sample": "Squirrels bury nuts like this acorn."
+   },
+   "headLure": "Kinds of Squirrels"
+  },
+  {
+   "id": "turtles",
+   "title": "Turtles",
+   "picture": {
+    "noun": "turtle",
+    "theme": "pets"
+   },
+   "caption": "A turtle carries its shell everywhere.",
+   "sections": [
+    {
+     "heading": "A Hard Shell",
+     "sentences": [
+      "A turtle has a hard shell on its back.",
+      "The shell is part of its body.",
+      "The shell keeps the turtle safe.",
+      "Many turtles pull their heads and legs inside when they are scared."
+     ]
+    },
+    {
+     "heading": "Turtle Eggs",
+     "sentences": [
+      "A mother turtle digs a hole in sand or dirt.",
+      "She lays her eggs in the hole.",
+      "Then she covers the eggs up.",
+      "The baby turtles hatch from the eggs."
+     ]
+    }
+   ],
+   "bold": [
+    "shell",
+    "hatch"
+   ],
+   "glossary": [
+    {
+     "word": "hatch",
+     "meaning": "to come out of an egg"
+    },
+    {
+     "word": "scared",
+     "meaning": "afraid"
+    },
+    {
+     "word": "shell",
+     "meaning": "the hard cover on a turtle's back"
+    }
+   ],
+   "topic": {
+    "right": "turtles",
+    "detail": "a hole for eggs",
+    "mentioned": "legs"
+   },
+   "details": [
+    "A turtle has a hard shell on its back.",
+    "The shell keeps the turtle safe.",
+    "A mother turtle lays her eggs in a hole."
+   ],
+   "questions": [
+    {
+     "q": "What is on a turtle's back?",
+     "choices": [
+      "soft fur",
+      "a hard shell",
+      "long feathers"
+     ],
+     "correct": 1,
+     "sentence": 1,
+     "starter": "A turtle has a hard",
+     "full": "A turtle has a hard shell."
+    },
+    {
+     "q": "What does the shell do?",
+     "choices": [
+      "It helps the turtle hear.",
+      "It keeps the turtle safe.",
+      "It helps the turtle find food."
+     ],
+     "correct": 1,
+     "sentence": 3,
+     "starter": "The shell keeps the turtle",
+     "full": "The shell keeps the turtle safe."
+    },
+    {
+     "q": "Where does a mother turtle dig a hole?",
+     "choices": [
+      "in a tree",
+      "in the snow",
+      "in sand or dirt"
+     ],
+     "correct": 2,
+     "sentence": 5,
+     "starter": "A mother turtle digs a hole in",
+     "full": "A mother turtle digs a hole in sand or dirt."
+    },
+    {
+     "q": "What does the mother turtle cover up?",
+     "choices": [
+      "her eggs",
+      "her shell",
+      "her food"
+     ],
+     "correct": 0,
+     "sentence": 7,
+     "starter": "The mother turtle covers her",
+     "full": "The mother turtle covers her eggs."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about baby turtles?",
+     "answer": "Turtle Eggs"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read how a turtle stays safe?",
+     "answer": "A Hard Shell"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the first part?",
+     "answer": "shell"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word hatch mean?",
+     "answer": "to come out of an egg"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say a turtle carries?",
+     "answer": "its shell"
+    }
+   ],
+   "lure": "back",
+   "capChoices": [
+    "its eggs",
+    "its food"
+   ],
+   "picture2": {
+    "theme": "ocean life",
+    "noun": "sea_turtle",
+    "sample": "This sea turtle has a hard shell on its back."
+   },
+   "headLure": "What Turtles Eat"
+  },
+  {
+   "id": "ladybugs",
+   "title": "Ladybugs",
+   "picture": {
+    "noun": "ladybug",
+    "theme": "insects and bugs"
+   },
+   "caption": "This ladybug has black spots on its red back.",
+   "sections": [
+    {
+     "heading": "Small and Spotted",
+     "sentences": [
+      "A ladybug is a small beetle.",
+      "Many ladybugs are red with black spots.",
+      "A ladybug has six legs.",
+      "Hard covers keep its soft wings safe."
+     ]
+    },
+    {
+     "heading": "A Helper in the Garden",
+     "sentences": [
+      "Most ladybugs eat tiny bugs called aphids.",
+      "Aphids hurt plants.",
+      "So gardeners are glad to see ladybugs.",
+      "One ladybug can eat many aphids in a day.",
+      "That helps keep the plants healthy."
+     ]
+    }
+   ],
+   "bold": [
+    "spots",
+    "aphids"
+   ],
+   "glossary": [
+    {
+     "word": "aphids",
+     "meaning": "tiny bugs that suck juice from plants"
+    },
+    {
+     "word": "gardener",
+     "meaning": "a person who grows plants"
+    },
+    {
+     "word": "spots",
+     "meaning": "small round marks"
+    }
+   ],
+   "topic": {
+    "right": "ladybugs",
+    "detail": "six legs",
+    "mentioned": "gardeners"
+   },
+   "details": [
+    "Many ladybugs are red with black spots.",
+    "Most ladybugs eat tiny bugs called aphids.",
+    "Ladybugs help keep plants healthy."
+   ],
+   "questions": [
+    {
+     "q": "What color are many ladybugs?",
+     "choices": [
+      "red with black spots",
+      "blue with white stripes",
+      "all green"
+     ],
+     "correct": 0,
+     "sentence": 2,
+     "starter": "Many ladybugs are",
+     "full": "Many ladybugs are red with black spots."
+    },
+    {
+     "q": "How many legs does a ladybug have?",
+     "choices": [
+      "four",
+      "six",
+      "eight"
+     ],
+     "correct": 1,
+     "sentence": 3,
+     "starter": "A ladybug has",
+     "full": "A ladybug has six legs."
+    },
+    {
+     "q": "What do most ladybugs eat?",
+     "choices": [
+      "leaves",
+      "seeds",
+      "aphids"
+     ],
+     "correct": 2,
+     "sentence": 5,
+     "starter": "Most ladybugs eat",
+     "full": "Most ladybugs eat aphids."
+    },
+    {
+     "q": "What do aphids do to plants?",
+     "choices": [
+      "They hurt plants.",
+      "They help plants grow.",
+      "They keep plants safe."
+     ],
+     "correct": 0,
+     "sentence": 6,
+     "starter": "Aphids",
+     "full": "Aphids hurt plants."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how ladybugs help plants?",
+     "answer": "A Helper in the Garden"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read what a ladybug looks like?",
+     "answer": "Small and Spotted"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the second part?",
+     "answer": "aphids"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word aphids mean?",
+     "answer": "tiny bugs that suck juice from plants"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say is on the ladybug's back?",
+     "answer": "black spots"
+    }
+   ],
+   "lure": "plants",
+   "capChoices": [
+    "white stripes",
+    "green dots"
+   ],
+   "picture2": {
+    "theme": "spring",
+    "noun": "leaf",
+    "sample": "Ladybugs help keep leaves like this one healthy."
+   },
+   "headLure": "Ladybug Eggs"
+  },
+  {
+   "id": "ducks",
+   "title": "Ducks",
+   "picture": {
+    "noun": "duck",
+    "theme": "farm animals"
+   },
+   "caption": "A duck has webbed feet for swimming.",
+   "sections": [
+    {
+     "heading": "Made for Water",
+     "sentences": [
+      "Many ducks live near ponds and lakes.",
+      "A duck has webbed feet.",
+      "Webbed feet push the water like paddles.",
+      "Oil on its feathers keeps a duck dry."
+     ]
+    },
+    {
+     "heading": "Ducklings",
+     "sentences": [
+      "Baby ducks are called ducklings.",
+      "Ducklings hatch from eggs.",
+      "Soon they walk in a line behind their mother.",
+      "She shows them where to find food.",
+      "Ducklings can swim soon after they hatch."
+     ]
+    }
+   ],
+   "bold": [
+    "webbed",
+    "hatch"
+   ],
+   "glossary": [
+    {
+     "word": "hatch",
+     "meaning": "to come out of an egg"
+    },
+    {
+     "word": "paddle",
+     "meaning": "a flat tool used to push water"
+    },
+    {
+     "word": "webbed",
+     "meaning": "having skin between the toes"
+    }
+   ],
+   "topic": {
+    "right": "ducks",
+    "detail": "webbed feet",
+    "mentioned": "lakes"
+   },
+   "details": [
+    "Many ducks live near ponds and lakes.",
+    "Webbed feet push the water like paddles.",
+    "Baby ducks are called ducklings."
+   ],
+   "questions": [
+    {
+     "q": "Where do many ducks live?",
+     "choices": [
+      "in the desert",
+      "near ponds and lakes",
+      "in caves"
+     ],
+     "correct": 1,
+     "sentence": 1,
+     "starter": "Many ducks live near",
+     "full": "Many ducks live near ponds and lakes."
+    },
+    {
+     "q": "What do webbed feet do?",
+     "choices": [
+      "They push the water.",
+      "They dig holes.",
+      "They hold on to branches."
+     ],
+     "correct": 0,
+     "sentence": 3,
+     "starter": "Webbed feet push the",
+     "full": "Webbed feet push the water."
+    },
+    {
+     "q": "What keeps a duck dry?",
+     "choices": [
+      "mud",
+      "sand",
+      "oil"
+     ],
+     "correct": 2,
+     "sentence": 4,
+     "starter": "A duck stays dry with",
+     "full": "A duck stays dry with oil."
+    },
+    {
+     "q": "What are baby ducks called?",
+     "choices": [
+      "ducklings",
+      "goslings",
+      "cubs"
+     ],
+     "correct": 0,
+     "sentence": 5,
+     "starter": "Baby ducks are called",
+     "full": "Baby ducks are called ducklings."
+    }
+   ],
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about baby ducks?",
+     "answer": "Ducklings"
+    },
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about a duck's feet?",
+     "answer": "Made for Water"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print in the first part?",
+     "answer": "webbed"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word webbed mean?",
+     "answer": "having skin between the toes"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption say webbed feet are for?",
+     "answer": "swimming"
+    }
+   ],
+   "lure": "paddles",
+   "capChoices": [
+    "climbing",
+    "digging"
+   ],
+   "picture2": {
+    "theme": "camping",
+    "noun": "lake",
+    "sample": "Many ducks live near lakes like this one."
+   },
+   "headLure": "What Ducks Eat"
+  }
+ ],
+ "k": [
+  {
+   "id": "cows",
+   "title": "Cows",
+   "picture": {
+    "theme": "farm animals",
+    "noun": "cow"
+   },
+   "sentences": [
+    "A cow eats grass all day.",
+    "A cow gives us milk.",
+    "We make cheese from milk.",
+    "A baby cow is called a calf."
+   ],
+   "questions": [
+    {
+     "q": "What does a cow eat?",
+     "sentence": 1,
+     "right": {
+      "theme": "spring",
+      "noun": "grass"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "bread"
+      }
+     ]
+    },
+    {
+     "q": "What does a cow give us?",
+     "sentence": 2,
+     "right": {
+      "theme": "At the Supermarket",
+      "noun": "milk"
+     },
+     "wrong": [
+      {
+       "theme": "vegetables",
+       "noun": "corn"
+      },
+      {
+       "theme": "fruits",
+       "noun": "apple"
+      }
+     ]
+    },
+    {
+     "q": "What do we make from milk?",
+     "sentence": 3,
+     "right": {
+      "theme": "breakfast",
+      "noun": "cheese"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "bread"
+      },
+      {
+       "theme": "fruits",
+       "noun": "banana"
+      }
+     ]
+    },
+    {
+     "q": "What is a baby cow called? Circle the calf.",
+     "sentence": 4,
+     "right": {
+      "theme": "farm animals",
+      "noun": "calf"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "chick"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "lamb"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "farm animals",
+     "noun": "cow"
+    },
+    "wrong": [
+     {
+      "theme": "At the Supermarket",
+      "noun": "milk"
+     },
+     {
+      "theme": "spring",
+      "noun": "grass"
+     }
+    ]
+   },
+   "details": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "hens",
+   "title": "Hens",
+   "picture": {
+    "theme": "farm animals",
+    "noun": "hen"
+   },
+   "sentences": [
+    "A hen is a bird.",
+    "A hen eats corn.",
+    "A hen lays eggs in a nest.",
+    "A chick comes out of each egg."
+   ],
+   "questions": [
+    {
+     "q": "What does a hen eat?",
+     "sentence": 2,
+     "right": {
+      "theme": "vegetables",
+      "noun": "corn"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "cheese"
+      }
+     ]
+    },
+    {
+     "q": "What does a hen lay?",
+     "sentence": 3,
+     "right": {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     },
+     "wrong": [
+      {
+       "theme": "fruits",
+       "noun": "apple"
+      },
+      {
+       "theme": "toys",
+       "noun": "ball"
+      }
+     ]
+    },
+    {
+     "q": "Where does a hen lay her eggs?",
+     "sentence": 3,
+     "right": {
+      "theme": "spring",
+      "noun": "nest"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      },
+      {
+       "theme": "camping",
+       "noun": "tent"
+      }
+     ]
+    },
+    {
+     "q": "What comes out of an egg?",
+     "sentence": 4,
+     "right": {
+      "theme": "farm animals",
+      "noun": "chick"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "calf"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "lamb"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "farm animals",
+     "noun": "hen"
+    },
+    "wrong": [
+     {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     },
+     {
+      "theme": "vegetables",
+      "noun": "corn"
+     }
+    ]
+   },
+   "details": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "owls",
+   "title": "Owls",
+   "picture": {
+    "theme": "camping",
+    "noun": "owl"
+   },
+   "sentences": [
+    "An owl sleeps in a tree all day.",
+    "It wakes up when the moon is out.",
+    "An owl has big eyes to see in the dark.",
+    "It hunts for mice."
+   ],
+   "questions": [
+    {
+     "q": "Where does an owl sleep?",
+     "sentence": 1,
+     "right": {
+      "theme": "tree",
+      "noun": "oak"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      },
+      {
+       "theme": "winter",
+       "noun": "igloo"
+      }
+     ]
+    },
+    {
+     "q": "What is out when an owl wakes up?",
+     "sentence": 2,
+     "right": {
+      "theme": "camping",
+      "noun": "moon"
+     },
+     "wrong": [
+      {
+       "theme": "weather",
+       "noun": "sun"
+      },
+      {
+       "theme": "weather",
+       "noun": "rainbow"
+      }
+     ]
+    },
+    {
+     "q": "What helps an owl see in the dark?",
+     "sentence": 3,
+     "right": {
+      "theme": "body parts",
+      "noun": "eye"
+     },
+     "wrong": [
+      {
+       "theme": "body parts",
+       "noun": "ear"
+      },
+      {
+       "theme": "body parts",
+       "noun": "nose"
+      }
+     ]
+    },
+    {
+     "q": "What does an owl hunt?",
+     "sentence": 4,
+     "right": {
+      "theme": "forest creatures",
+      "noun": "mouse"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "pig"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "horse"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "camping",
+     "noun": "owl"
+    },
+    "wrong": [
+     {
+      "theme": "camping",
+      "noun": "moon"
+     },
+     {
+      "theme": "forest creatures",
+      "noun": "mouse"
+     }
+    ]
+   },
+   "details": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": "sheep",
+   "title": "Sheep",
+   "picture": {
+    "theme": "farm animals",
+    "noun": "sheep"
+   },
+   "sentences": [
+    "A sheep eats grass.",
+    "A farmer cuts off its thick wool.",
+    "We make warm sweaters from wool.",
+    "A baby sheep is called a lamb."
+   ],
+   "questions": [
+    {
+     "q": "What does a sheep eat?",
+     "sentence": 1,
+     "right": {
+      "theme": "spring",
+      "noun": "grass"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "pizza"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
+      }
+     ]
+    },
+    {
+     "q": "Who cuts off the wool?",
+     "sentence": 2,
+     "right": {
+      "theme": "occupations",
+      "noun": "farmer"
+     },
+     "wrong": [
+      {
+       "theme": "occupations",
+       "noun": "chef"
+      },
+      {
+       "theme": "occupations",
+       "noun": "pilot"
+      }
+     ]
+    },
+    {
+     "q": "What do we make from wool?",
+     "sentence": 3,
+     "right": {
+      "theme": "winter",
+      "noun": "sweater"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "bread"
+      },
+      {
+       "theme": "around the house",
+       "noun": "cup"
+      }
+     ]
+    },
+    {
+     "q": "What is a baby sheep called? Circle the lamb.",
+     "sentence": 4,
+     "right": {
+      "theme": "farm animals",
+      "noun": "lamb"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "calf"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "chick"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "farm animals",
+     "noun": "sheep"
+    },
+    "wrong": [
+     {
+      "theme": "winter",
+      "noun": "sweater"
+     },
+     {
+      "theme": "spring",
+      "noun": "grass"
+     }
+    ]
+   },
+   "details": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "butterflies",
+   "title": "Butterflies",
+   "picture": {
+    "theme": "spring",
+    "noun": "butterfly"
+   },
+   "sentences": [
+    "A caterpillar comes out of an egg.",
+    "It eats leaves and grows.",
+    "Then it turns into a butterfly.",
+    "A butterfly drinks from flowers."
+   ],
+   "questions": [
+    {
+     "q": "What comes out of the egg?",
+     "sentence": 1,
+     "right": {
+      "theme": "spring",
+      "noun": "caterpillar"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "chick"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
+      }
+     ]
+    },
+    {
+     "q": "What does a caterpillar eat?",
+     "sentence": 2,
+     "right": {
+      "theme": "spring",
+      "noun": "leaf"
+     },
+     "wrong": [
+      {
+       "theme": "breakfast",
+       "noun": "cheese"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "bread"
+      }
+     ]
+    },
+    {
+     "q": "What does a caterpillar turn into?",
+     "sentence": 3,
+     "right": {
+      "theme": "spring",
+      "noun": "butterfly"
+     },
+     "wrong": [
+      {
+       "theme": "insects and bugs",
+       "noun": "bee"
+      },
+      {
+       "theme": "insects and bugs",
+       "noun": "ladybug"
+      }
+     ]
+    },
+    {
+     "q": "Where does a butterfly drink?",
+     "sentence": 4,
+     "right": {
+      "theme": "spring",
+      "noun": "flower"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "cup"
+      },
+      {
+       "theme": "around the house",
+       "noun": "bowl"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "spring",
+     "noun": "butterfly"
+    },
+    "wrong": [
+     {
+      "theme": "spring",
+      "noun": "leaf"
+     },
+     {
+      "theme": "spring",
+      "noun": "flower"
+     }
+    ]
+   },
+   "details": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "apple-trees",
+   "title": "Apple Trees",
+   "picture": {
+    "theme": "tree",
+    "noun": "apple"
+   },
+   "sentences": [
+    "An apple tree has flowers in spring.",
+    "Bees visit the flowers.",
+    "Then apples grow on the tree.",
+    "In fall the leaves drop off."
+   ],
+   "questions": [
+    {
+     "q": "What does an apple tree have in spring?",
+     "sentence": 1,
+     "right": {
+      "theme": "spring",
+      "noun": "flower"
+     },
+     "wrong": [
+      {
+       "theme": "winter",
+       "noun": "mittens"
+      },
+      {
+       "theme": "vegetables",
+       "noun": "corn"
+      }
+     ]
+    },
+    {
+     "q": "What visits the flowers?",
+     "sentence": 2,
+     "right": {
+      "theme": "insects and bugs",
+      "noun": "bee"
+     },
+     "wrong": [
+      {
+       "theme": "pets",
+       "noun": "dog"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
+      }
+     ]
+    },
+    {
+     "q": "What grows on the tree?",
+     "sentence": 3,
+     "right": {
+      "theme": "fruits",
+      "noun": "apple"
+     },
+     "wrong": [
+      {
+       "theme": "fruits",
+       "noun": "banana"
+      },
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      }
+     ]
+    },
+    {
+     "q": "What drops off in fall?",
+     "sentence": 4,
+     "right": {
+      "theme": "spring",
+      "noun": "leaf"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "ball"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "cheese"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "tree",
+     "noun": "apple"
+    },
+    "wrong": [
+     {
+      "theme": "fruits",
+      "noun": "apple"
+     },
+     {
+      "theme": "insects and bugs",
+      "noun": "bee"
+     }
+    ]
+   },
+   "details": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "ducks",
+   "title": "Ducks",
+   "picture": {
+    "theme": "farm animals",
+    "noun": "duck"
+   },
+   "sentences": [
+    "A duck lives by a lake.",
+    "A duck eats plants and worms.",
+    "A mother duck lays eggs.",
+    "A baby duck is called a duckling."
+   ],
+   "questions": [
+    {
+     "q": "Where does a duck live?",
+     "sentence": 1,
+     "right": {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     "wrong": [
+      {
+       "theme": "winter",
+       "noun": "igloo"
+      },
+      {
+       "theme": "camping",
+       "noun": "tent"
+      }
+     ]
+    },
+    {
+     "q": "What does a duck eat?",
+     "sentence": 2,
+     "right": {
+      "theme": "spring",
+      "noun": "worm"
+     },
+     "wrong": [
+      {
+       "theme": "At the Supermarket",
+       "noun": "pizza"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "cheese"
+      }
+     ]
+    },
+    {
+     "q": "What does a mother duck lay?",
+     "sentence": 3,
+     "right": {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "ball"
+      },
+      {
+       "theme": "fruits",
+       "noun": "apple"
+      }
+     ]
+    },
+    {
+     "q": "What is a baby duck called? Circle the duckling.",
+     "sentence": 4,
+     "right": {
+      "theme": "farm animals",
+      "noun": "duckling"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "calf"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "lamb"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "farm animals",
+     "noun": "duck"
+    },
+    "wrong": [
+     {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     }
+    ]
+   },
+   "details": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": "dogs",
+   "title": "Dogs",
+   "picture": {
+    "theme": "pets",
+    "noun": "dog"
+   },
+   "sentences": [
+    "A dog eats from a bowl.",
+    "It likes to play with a ball.",
+    "A dog smells with its nose.",
+    "At night it sleeps in its bed."
+   ],
+   "questions": [
+    {
+     "q": "What does a dog eat from?",
+     "sentence": 1,
+     "right": {
+      "theme": "around the house",
+      "noun": "bowl"
+     },
+     "wrong": [
+      {
+       "theme": "camping",
+       "noun": "tent"
+      },
+      {
+       "theme": "winter",
+       "noun": "sweater"
+      }
+     ]
+    },
+    {
+     "q": "What does a dog like to play with?",
+     "sentence": 2,
+     "right": {
+      "theme": "toys",
+      "noun": "ball"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "fork"
+      },
+      {
+       "theme": "around the house",
+       "noun": "key"
+      }
+     ]
+    },
+    {
+     "q": "What does a dog smell with?",
+     "sentence": 3,
+     "right": {
+      "theme": "body parts",
+      "noun": "nose"
+     },
+     "wrong": [
+      {
+       "theme": "body parts",
+       "noun": "ear"
+      },
+      {
+       "theme": "body parts",
+       "noun": "hand"
+      }
+     ]
+    },
+    {
+     "q": "Where does a dog sleep at night?",
+     "sentence": 4,
+     "right": {
+      "theme": "around the house",
+      "noun": "bed"
+     },
+     "wrong": [
+      {
+       "theme": "spring",
+       "noun": "nest"
+      },
+      {
+       "theme": "winter",
+       "noun": "igloo"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "pets",
+     "noun": "dog"
+    },
+    "wrong": [
+     {
+      "theme": "toys",
+      "noun": "ball"
+     },
+     {
+      "theme": "around the house",
+      "noun": "bowl"
+     }
+    ]
+   },
+   "details": [
+    2,
+    4
+   ]
+  }
+ ]
+}

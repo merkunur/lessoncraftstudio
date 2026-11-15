@@ -5077,5 +5077,17 @@
   "G2-518": {
     "title": "Length Story Problems",
     "instruction": "Read each story. In the bar model, write the two lengths you know and a question mark for the length you need to find. The longest length goes in the top bar. Write an equation. Then write the answer."
+  },
+  "G1-575": {
+    "title": "Read the Facts",
+    "instruction": "Read the text. Write the answer to each question. Finish the sentence."
+  },
+  "G1-576": {
+    "title": "Main Topic and Key Details",
+    "instruction": "Read the text. Write the main topic. Then write two key details from the text."
+  },
+  "G1-577": {
+    "title": "Use the Text Features",
+    "instruction": "Read the text. Use the headings, the bold words, the caption, and the glossary to write each answer."
   }
 }

@@ -37,7 +37,7 @@ module.exports = {
     'K-020': C('a K level with 3-4-word sentences and no names'),
     'K-021': C('a \'write only the end mark\' K level with pictures'),
     'K-022': C('a K level with a picture and a printed add-on box'),
-    'K-024': N('K-645', 'built: Find the Facts, a fact text of four sentences in big print; four questions answered by circling one of three pictures, by drawing, or by drawing and asking a question of one's own'),
+    'K-024': N('K-645', 'built: Find the Facts, a fact text of four sentences in big print; four questions answered by circling one of three pictures, by drawing, or by drawing and asking a question of their own'),
     'K-025': N('K-646', 'built: What Is It All About?, the same texts; circle the picture of the whole text, then circle or draw its key details'),
     'K-026': C('a 2-/4-label K ladder and a line-drawing answer'),
     'K-027': C('for the picture part'),

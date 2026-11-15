@@ -1,0 +1,189 @@
+{
+  "id": "wave-ylb-en",
+  "_note": "Level Set 2026-11-15: Year pages, literacy B (Part 12.3). Two new Kindergarten reading page types on a fact text of four sentences in big print with a library picture (questions answered by circling or drawing a picture; the main topic and key details), three levels, for the lessons of the English literacy year design.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-645",
+    "K-646"
+  ],
+  "levels": {
+    "K-645": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 9
+        }
+      ]
+    },
+    "K-646": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ]
+    }
+  }
+}

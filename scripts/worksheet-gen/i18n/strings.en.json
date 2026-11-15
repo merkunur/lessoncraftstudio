@@ -5093,5 +5093,13 @@
   "G1-578": {
     "title": "Name the Text Features",
     "instruction": "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part."
+  },
+  "K-645": {
+    "title": "Find the Facts",
+    "instruction": "Listen to the text and read along. Listen to each question. Draw the answer in the box."
+  },
+  "K-646": {
+    "title": "What Is It All About?",
+    "instruction": "Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it."
   }
 }

@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`, DRAFT 2026-11-15, read by no reviewer, used by no page): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`); `topic` = the picture of the main topic and two pictures of details; `details` = the numbers of the two sentences that are key details.",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details.",
  "g1": [
   {
    "id": "frogs",
@@ -1173,7 +1173,7 @@
     "noun": "cow"
    },
    "sentences": [
-    "A cow eats grass all day.",
+    "A cow eats grass.",
     "A cow gives us milk.",
     "We make cheese from milk.",
     "A baby cow is called a calf."
@@ -1224,8 +1224,8 @@
      },
      "wrong": [
       {
-       "theme": "At the Supermarket",
-       "noun": "bread"
+       "theme": "vegetables",
+       "noun": "carrot"
       },
       {
        "theme": "fruits",
@@ -1234,7 +1234,7 @@
      ]
     },
     {
-     "q": "What is a baby cow called? Circle the calf.",
+     "q": "Which baby is a calf? Circle it.",
      "sentence": 4,
      "right": {
       "theme": "farm animals",
@@ -1249,7 +1249,8 @@
        "theme": "farm animals",
        "noun": "lamb"
       }
-     ]
+     ],
+     "draw": "Draw a calf."
     }
    ],
    "topic": {
@@ -1259,12 +1260,12 @@
     },
     "wrong": [
      {
-      "theme": "At the Supermarket",
-      "noun": "milk"
-     },
-     {
       "theme": "spring",
       "noun": "grass"
+     },
+     {
+      "theme": "At the Supermarket",
+      "noun": "milk"
      }
     ]
    },
@@ -1284,7 +1285,7 @@
     "A hen is a bird.",
     "A hen eats corn.",
     "A hen lays eggs in a nest.",
-    "A chick comes out of each egg."
+    "A chick can hatch from an egg."
    ],
    "questions": [
     {
@@ -1342,7 +1343,7 @@
      ]
     },
     {
-     "q": "What comes out of an egg?",
+     "q": "What can hatch from a hen's egg?",
      "sentence": 4,
      "right": {
       "theme": "farm animals",
@@ -1367,12 +1368,12 @@
     },
     "wrong": [
      {
-      "theme": "At the Supermarket",
-      "noun": "egg"
-     },
-     {
       "theme": "vegetables",
       "noun": "corn"
+     },
+     {
+      "theme": "spring",
+      "noun": "nest"
      }
     ]
    },
@@ -1389,8 +1390,8 @@
     "noun": "owl"
    },
    "sentences": [
-    "An owl sleeps in a tree all day.",
-    "It wakes up when the moon is out.",
+    "An owl sleeps in a tree in the daytime.",
+    "It wakes up at night.",
     "An owl has big eyes to see in the dark.",
     "It hunts for mice."
    ],
@@ -1414,10 +1415,10 @@
      ]
     },
     {
-     "q": "What is out when an owl wakes up?",
+     "q": "When does an owl wake up?",
      "sentence": 2,
      "right": {
-      "theme": "camping",
+      "theme": "shapes",
       "noun": "moon"
      },
      "wrong": [
@@ -1475,8 +1476,8 @@
     },
     "wrong": [
      {
-      "theme": "camping",
-      "noun": "moon"
+      "theme": "tree",
+      "noun": "oak"
      },
      {
       "theme": "forest creatures",
@@ -1490,66 +1491,66 @@
    ]
   },
   {
-   "id": "sheep",
-   "title": "Sheep",
+   "id": "squirrels",
+   "title": "Squirrels",
    "picture": {
-    "theme": "farm animals",
-    "noun": "sheep"
+    "theme": "forest creatures",
+    "noun": "squirrel"
    },
    "sentences": [
-    "A sheep eats grass.",
-    "A farmer cuts off its thick wool.",
-    "We make warm sweaters from wool.",
-    "A baby sheep is called a lamb."
+    "A squirrel lives in a tree.",
+    "It makes a nest of leaves.",
+    "A squirrel eats nuts.",
+    "It carries a nut in its mouth."
    ],
    "questions": [
     {
-     "q": "What does a sheep eat?",
+     "q": "Where does a squirrel live?",
      "sentence": 1,
      "right": {
-      "theme": "spring",
-      "noun": "grass"
+      "theme": "tree",
+      "noun": "oak"
      },
      "wrong": [
       {
-       "theme": "At the Supermarket",
-       "noun": "pizza"
+       "theme": "winter",
+       "noun": "igloo"
       },
       {
-       "theme": "At the Supermarket",
-       "noun": "fish"
+       "theme": "camping",
+       "noun": "tent"
       }
      ]
     },
     {
-     "q": "Who cuts off the wool?",
+     "q": "What does a squirrel make its nest of?",
      "sentence": 2,
      "right": {
-      "theme": "occupations",
-      "noun": "farmer"
+      "theme": "spring",
+      "noun": "leaf"
      },
      "wrong": [
       {
-       "theme": "occupations",
-       "noun": "chef"
+       "theme": "camping",
+       "noun": "rock"
       },
       {
-       "theme": "occupations",
-       "noun": "pilot"
+       "theme": "around the house",
+       "noun": "fork"
       }
      ]
     },
     {
-     "q": "What do we make from wool?",
+     "q": "What does a squirrel eat?",
      "sentence": 3,
      "right": {
-      "theme": "winter",
-      "noun": "sweater"
+      "theme": "miscellaneous",
+      "noun": "acorn"
      },
      "wrong": [
       {
-       "theme": "At the Supermarket",
-       "noun": "bread"
+       "theme": "around the house",
+       "noun": "key"
       },
       {
        "theme": "around the house",
@@ -1558,42 +1559,42 @@
      ]
     },
     {
-     "q": "What is a baby sheep called? Circle the lamb.",
+     "q": "Where does a squirrel carry a nut?",
      "sentence": 4,
      "right": {
-      "theme": "farm animals",
-      "noun": "lamb"
+      "theme": "body parts",
+      "noun": "mouth"
      },
      "wrong": [
       {
-       "theme": "farm animals",
-       "noun": "calf"
+       "theme": "body parts",
+       "noun": "ear"
       },
       {
-       "theme": "farm animals",
-       "noun": "chick"
+       "theme": "body parts",
+       "noun": "eye"
       }
      ]
     }
    ],
    "topic": {
     "right": {
-     "theme": "farm animals",
-     "noun": "sheep"
+     "theme": "forest creatures",
+     "noun": "squirrel"
     },
     "wrong": [
      {
-      "theme": "winter",
-      "noun": "sweater"
+      "theme": "tree",
+      "noun": "oak"
      },
      {
-      "theme": "spring",
-      "noun": "grass"
+      "theme": "miscellaneous",
+      "noun": "acorn"
      }
     ]
    },
    "details": [
-    2,
+    1,
     3
    ]
   },
@@ -1605,14 +1606,14 @@
     "noun": "butterfly"
    },
    "sentences": [
-    "A caterpillar comes out of an egg.",
+    "A caterpillar comes out of a butterfly egg.",
     "It eats leaves and grows.",
     "Then it turns into a butterfly.",
     "A butterfly drinks from flowers."
    ],
    "questions": [
     {
-     "q": "What comes out of the egg?",
+     "q": "What comes out of a butterfly egg?",
      "sentence": 1,
      "right": {
       "theme": "spring",
@@ -1620,12 +1621,12 @@
      },
      "wrong": [
       {
-       "theme": "farm animals",
-       "noun": "chick"
+       "theme": "pets",
+       "noun": "dog"
       },
       {
-       "theme": "At the Supermarket",
-       "noun": "fish"
+       "theme": "farm animals",
+       "noun": "cow"
       }
      ]
     },
@@ -1638,12 +1639,12 @@
      },
      "wrong": [
       {
-       "theme": "breakfast",
-       "noun": "cheese"
+       "theme": "around the house",
+       "noun": "fork"
       },
       {
-       "theme": "At the Supermarket",
-       "noun": "bread"
+       "theme": "around the house",
+       "noun": "key"
       }
      ]
     },
@@ -1702,7 +1703,7 @@
    },
    "details": [
     1,
-    3
+    4
    ]
   },
   {
@@ -1715,7 +1716,7 @@
    "sentences": [
     "An apple tree has flowers in spring.",
     "Bees visit the flowers.",
-    "Then apples grow on the tree.",
+    "Then apples grow where the flowers were.",
     "In fall the leaves drop off."
    ],
    "questions": [
@@ -1756,7 +1757,7 @@
      ]
     },
     {
-     "q": "What grows on the tree?",
+     "q": "What grows where the flowers were?",
      "sentence": 3,
      "right": {
       "theme": "fruits",
@@ -1764,12 +1765,12 @@
      },
      "wrong": [
       {
-       "theme": "fruits",
-       "noun": "banana"
-      },
-      {
        "theme": "vegetables",
        "noun": "carrot"
+      },
+      {
+       "theme": "At the Supermarket",
+       "noun": "fish"
       }
      ]
     },
@@ -1799,8 +1800,8 @@
     },
     "wrong": [
      {
-      "theme": "fruits",
-      "noun": "apple"
+      "theme": "spring",
+      "noun": "flower"
      },
      {
       "theme": "insects and bugs",
@@ -1821,10 +1822,10 @@
     "noun": "duck"
    },
    "sentences": [
-    "A duck lives by a lake.",
+    "A duck lives near a pond or lake.",
     "A duck eats plants and worms.",
     "A mother duck lays eggs.",
-    "A baby duck is called a duckling."
+    "A duck's feathers keep it dry."
    ],
    "questions": [
     {
@@ -1882,20 +1883,20 @@
      ]
     },
     {
-     "q": "What is a baby duck called? Circle the duckling.",
+     "q": "What keeps a duck dry?",
      "sentence": 4,
      "right": {
-      "theme": "farm animals",
-      "noun": "duckling"
+      "theme": "easter",
+      "noun": "feather"
      },
      "wrong": [
       {
-       "theme": "farm animals",
-       "noun": "calf"
+       "theme": "weather",
+       "noun": "umbrella"
       },
       {
-       "theme": "farm animals",
-       "noun": "lamb"
+       "theme": "spring",
+       "noun": "raincoat"
       }
      ]
     }
@@ -1911,14 +1912,14 @@
       "noun": "lake"
      },
      {
-      "theme": "At the Supermarket",
-      "noun": "egg"
+      "theme": "spring",
+      "noun": "worm"
      }
     ]
    },
    "details": [
     1,
-    4
+    2
    ]
   },
   {
@@ -2020,7 +2021,7 @@
      },
      {
       "theme": "around the house",
-      "noun": "bowl"
+      "noun": "bed"
      }
     ]
    },

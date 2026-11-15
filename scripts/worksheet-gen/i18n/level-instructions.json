@@ -6912,5 +6912,21 @@
     "3": {
       "en": "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part. Then read each job and write the number of the part that does it."
     }
+  },
+  "K-645": {
+    "1": {
+      "en": "Listen to the text and read along. Listen to each question. Circle the picture that answers it."
+    },
+    "3": {
+      "en": "Listen to the text and read along. Draw the answer to each question. Then draw one more fact and ask your own question."
+    }
+  },
+  "K-646": {
+    "1": {
+      "en": "Listen to the text and read along. Circle the picture that shows what the whole text is about. Then circle one thing the text tells about it."
+    },
+    "3": {
+      "en": "Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it and write a word for each."
+    }
   }
 }

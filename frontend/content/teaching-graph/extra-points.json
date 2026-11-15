@@ -148,6 +148,23 @@
    "activities": [
     "linc-fact-chain.connect.ri-k-3"
    ]
+  },
+  {
+   "tp": "2:main-topic-paragraphs",
+   "grade": "2",
+   "strand": "Reading: Informational Text",
+   "code": "RI.2.2",
+   "skill": "Name the main topic of an informational text of several paragraphs and what each paragraph is mostly about",
+   "activities": [
+    "marina-headline-desk.main-topic.ri-2-2"
+   ]
+  },
+  {
+   "tp": "2:text-features",
+   "grade": "2",
+   "strand": "Reading: Informational Text",
+   "code": "RI.2.5",
+   "skill": "Use headings, bold print, captions, a glossary, and an index to find facts in an informational text"
   }
  ]
 }

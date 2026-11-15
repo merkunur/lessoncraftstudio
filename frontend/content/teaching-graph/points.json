@@ -6613,6 +6613,48 @@
    ]
   },
   {
+   "id": "2:main-topic-paragraphs",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Name the main topic of an informational text of several paragraphs and what each paragraph is mostly about",
+   "code": "RI.2.2",
+   "types": [
+    "G2-519"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [
+    "marina-headline-desk.main-topic.ri-2-2"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 75,
+   "prerequisites": []
+  },
+  {
+   "id": "2:text-features",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Use headings, bold print, captions, a glossary, and an index to find facts in an informational text",
+   "code": "RI.2.5",
+   "types": [
+    "G2-520"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 76,
+   "prerequisites": []
+  },
+  {
    "id": "2:animal-fact-file",
    "grade": "2",
    "subject": "literacy",
@@ -6635,7 +6677,7 @@
     282
    ],
    "verdict": "partial",
-   "order": 75,
+   "order": 77,
    "prerequisites": [
     "2:read-and-answer"
    ]
@@ -6660,7 +6702,7 @@
     282
    ],
    "verdict": "gap",
-   "order": 76,
+   "order": 78,
    "prerequisites": [
     "2:animal-fact-file"
    ]
@@ -6684,7 +6726,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 77,
+   "order": 79,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -6711,7 +6753,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 78,
+   "order": 80,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -6738,7 +6780,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 79,
+   "order": 81,
    "prerequisites": [
     "2:root-words"
    ]
@@ -6763,7 +6805,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 80,
+   "order": 82,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"

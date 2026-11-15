@@ -2909,6 +2909,26 @@
    ],
    "by": "review"
   },
+  "2:main-topic-paragraphs": {
+   "rows": [
+    {
+     "id": "RI.2.2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:text-features": {
+   "rows": [
+    {
+     "id": "RI.2.5",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:animal-fact-file": {
    "rows": [
     {

@@ -4501,6 +4501,34 @@
    ],
    "why": "Showing what comes first and what comes next in a text that tells a change is «the steps in a sequence with adult assistance» of informational text.",
    "review": "year-design 2026-11-15"
+  },
+  "2:main-topic-paragraphs": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.6.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the main topic of the whole text and what each paragraph is mostly about is «the central idea and supporting evidence with adult assistance» of informational text; matching each statement to its paragraph is «evaluate details read to determine key ideas».",
+   "review": "year-design 2026-11-15"
+  },
+  "2:text-features": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a fact from a heading, a bold word, a caption, the glossary or the index is «features and graphics to locate and gain information» in informational text; looking a word up in the glossary of the text is «use a dictionary or glossary to find words».",
+   "review": "year-design 2026-11-15"
   }
  }
 }

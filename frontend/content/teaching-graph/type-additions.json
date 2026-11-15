@@ -270,6 +270,8 @@
   "K-645": "K:fact-text-key-details",
   "K-646": "K:fact-text-main-topic",
   "K-647": "K:pictures-and-text",
-  "K-648": "K:first-then"
+  "K-648": "K:first-then",
+  "G2-519": "2:main-topic-paragraphs",
+  "G2-520": "2:text-features"
  }
 }

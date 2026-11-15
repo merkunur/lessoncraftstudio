@@ -3371,6 +3371,36 @@
    ],
    "by": "authored"
   },
+  "2:main-topic-paragraphs": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.6.G",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:text-features": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.ii",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.D",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {

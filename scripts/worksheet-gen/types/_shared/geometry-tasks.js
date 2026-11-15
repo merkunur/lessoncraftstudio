@@ -267,7 +267,7 @@ const symShape = (k, px) => (SYM_DRAWN[k] ? symDrawnSvg(k, px) : shapeImg(k, px)
  * sphere, which kept its painted picture until a teacher-reviewer saw a flat circle among the line drawings.
  */
 const DRAWN_SOLIDS = ['cube', 'rectangular_box', 'pyramid', 'cylinder', 'sphere'];
-let sphereSeq = 0;   // each shaded sphere has its own gradient id on a page
+let sphereSeq = 0;   // each shaded sphere has its own gradient id on a page; build() starts it at 0 for every page
 function solidSvg(kind, px) {
   const C = tokens.color, P = (pts) => pts.map((q) => q.join(',')).join(' ');
   const face = (pts, fill) => el('polygon', { points: P(pts), fill, 'fill-opacity': 0.6, stroke: 'none' });
@@ -353,6 +353,10 @@ function makeGeometryType(cfg) {
 
     // synchronous (the mirror pictures come from the reviewed list now, not from awaited silhouette masks)
     build({ theme, difficulty, locale }, ctx) {
+      // the gradient ids of a page count from 1 on EVERY page (2026-11-15): the counter ran on from page to page, so the
+      // bytes of a page with a sphere depended on the pages built before it in the same process (the makers' slots gate
+      // read that as a changed catalogue page; the picture was the same)
+      sphereSeq = 0;
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
       if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });

@@ -1,0 +1,16 @@
+[
+ {
+  "at": "cf3c2e9cbd56",
+  "atData": "56301964fba9",
+  "templates": [
+   "K-241",
+   "K-267",
+   "K-268",
+   "K-269",
+   "K-474"
+  ],
+  "kind": "content-fix",
+  "note": "Every sum or word now fits inside its shape, and subtraction within 10 no longer starts above 10.",
+  "date": "2026-11-15"
+ }
+]

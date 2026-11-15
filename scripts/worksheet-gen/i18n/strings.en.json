@@ -5109,5 +5109,13 @@
   "K-648": {
     "title": "First, Then",
     "instruction": "Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box."
+  },
+  "G2-519": {
+    "title": "Main Topic and Paragraphs",
+    "instruction": "Read the text. Write the main topic of the whole text. Then write what each paragraph is mostly about."
+  },
+  "G2-520": {
+    "title": "Glossary and Index",
+    "instruction": "Read the text. Use the headings, the bold words, the captions, the glossary, and the index to write each answer."
   }
 }

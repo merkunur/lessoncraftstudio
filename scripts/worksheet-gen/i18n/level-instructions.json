@@ -6941,5 +6941,21 @@
     "3": {
       "en": "Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box. Write a word under each drawing."
     }
+  },
+  "G2-519": {
+    "1": {
+      "en": "Read the text. Circle the main topic. Then write the number of the paragraph next to what it is mostly about."
+    },
+    "3": {
+      "en": "Read the text. Write the main topic. Then write a heading for each paragraph and what the paragraph is mostly about."
+    }
+  },
+  "G2-520": {
+    "1": {
+      "en": "Read the text. Use the headings, the bold words, the captions, the glossary, and the index. Circle each answer."
+    },
+    "3": {
+      "en": "Read the text. Use the text features to write each answer. Then add a word to the index and a word to the glossary."
+    }
   }
 }

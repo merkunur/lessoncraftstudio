@@ -384,4 +384,5 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
   };
 }
 
-module.exports = { makeInfoTextType, faultsOf, TEXTS, LEVELS, placesFor };
+// _parts: the pieces the Grade 2 factory (info-text-g2.js) builds its pages from
+module.exports = { makeInfoTextType, faultsOf, TEXTS, LEVELS, placesFor, _parts: { W, esc, shuffle, stem, line, choices, placed, rowSvg } };

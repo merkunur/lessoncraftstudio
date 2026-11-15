@@ -38,6 +38,18 @@ const TEXT = {
     2: "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part.",
     3: "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part. Then read each job and write the number of the part that does it.",
   },
+  'G2-519': {
+    title: "Main Topic and Paragraphs",
+    1: "Read the text. Circle the main topic. Then write the number of the paragraph next to what it is mostly about.",
+    2: "Read the text. Write the main topic of the whole text. Then write what each paragraph is mostly about.",
+    3: "Read the text. Write the main topic. Then write a heading for each paragraph and what the paragraph is mostly about.",
+  },
+  'G2-520': {
+    title: "Glossary and Index",
+    1: "Read the text. Use the headings, the bold words, the captions, the glossary, and the index. Circle each answer.",
+    2: "Read the text. Use the headings, the bold words, the captions, the glossary, and the index to write each answer.",
+    3: "Read the text. Use the text features to write each answer. Then add a word to the index and a word to the glossary.",
+  },
 };
 
 function edit(file, fn) {

@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed.",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text).",
  "g1": [
   {
    "id": "frogs",
@@ -2556,6 +2556,952 @@
      4
     ]
    }
+  }
+ ],
+ "g2": [
+  {
+   "id": "beavers",
+   "title": "Beavers",
+   "pictures": [
+    {
+     "theme": "forest creatures",
+     "noun": "beaver",
+     "caption": "A beaver has a wide, flat tail."
+    },
+    {
+     "theme": "camping",
+     "noun": "log",
+     "caption": "A beaver can cut through a log like this one."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Builders in the Water",
+     "focus": "what beavers build",
+     "sentences": [
+      "Beavers are busy builders.",
+      "They chew through small trees to cut them down.",
+      "Then they pile sticks and mud across a stream.",
+      "This wall is called a dam.",
+      "The dam holds back the water and makes a pond.",
+      "In the pond the beavers build their home, called a lodge.",
+      "The door of the lodge is under the water."
+     ]
+    },
+    {
+     "heading": "Teeth That Keep Growing",
+     "focus": "a beaver's teeth",
+     "sentences": [
+      "A beaver has four long front teeth.",
+      "The teeth are orange and very strong.",
+      "They never stop growing.",
+      "Chewing on wood wears them down, so they stay the right length.",
+      "With these teeth a beaver can gnaw through a small tree in a short time."
+     ]
+    },
+    {
+     "heading": "A Body Made for Swimming",
+     "focus": "how a beaver's body helps it live in the water",
+     "sentences": [
+      "A beaver swims well.",
+      "Its back feet are webbed, like a duck's feet.",
+      "Its wide, flat tail helps it steer.",
+      "When danger is near, a beaver slaps its tail on the water.",
+      "The loud sound warns the other beavers.",
+      "Thick fur keeps a beaver warm and dry."
+     ]
+    }
+   ],
+   "bold": [
+    "dam",
+    "gnaw",
+    "webbed"
+   ],
+   "glossary": [
+    {
+     "word": "dam",
+     "meaning": "a wall built across a stream to hold back water"
+    },
+    {
+     "word": "gnaw",
+     "meaning": "to bite and chew on something hard"
+    },
+    {
+     "word": "lodge",
+     "meaning": "a beaver's home of sticks and mud"
+    },
+    {
+     "word": "webbed",
+     "meaning": "having skin between the toes"
+    }
+   ],
+   "index": [
+    {
+     "word": "dam",
+     "page": 1
+    },
+    {
+     "word": "fur",
+     "page": 3
+    },
+    {
+     "word": "lodge",
+     "page": 1
+    },
+    {
+     "word": "teeth",
+     "page": 2
+    }
+   ],
+   "focusLure": "what beavers eat in winter",
+   "topic": {
+    "right": "beavers",
+    "detail": "how beavers slap their tails",
+    "wide": "animals that live in water"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about a beaver's back feet?",
+     "answer": "A Body Made for Swimming"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about the beavers' home?",
+     "answer": "Builders in the Water"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 2?",
+     "answer": "gnaw"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word lodge mean?",
+     "answer": "a beaver's home of sticks and mud"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the first picture say a beaver's tail is like?",
+     "answer": "wide and flat",
+     "wrong": [
+      "long and thin",
+      "short and round"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about teeth?",
+     "answer": "2"
+    }
+   ]
+  },
+  {
+   "id": "bats",
+   "title": "Bats",
+   "pictures": [
+    {
+     "theme": "animals",
+     "noun": "bat",
+     "caption": "A bat's wing is thin skin stretched over long finger bones."
+    },
+    {
+     "theme": "insects and bugs",
+     "noun": "mosquito",
+     "caption": "In one night, a small bat can eat hundreds of bugs like this mosquito."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Flying Mammals",
+     "focus": "what kind of animal a bat is",
+     "sentences": [
+      "Bats are the only mammals that can truly fly.",
+      "A bat's wing is made of thin skin.",
+      "The skin stretches between its long finger bones.",
+      "Bats are not birds.",
+      "They have fur, not feathers, and mother bats feed their babies milk.",
+      "A baby bat is called a pup."
+     ]
+    },
+    {
+     "heading": "Hunting in the Dark",
+     "focus": "how bats find food at night",
+     "sentences": [
+      "Most bats sleep in the day and hunt at night.",
+      "Many bats eat insects such as moths and mosquitoes.",
+      "To find them in the dark, a bat makes high sounds.",
+      "The sounds bounce off things and come back as an echo.",
+      "The echo tells the bat where its food is."
+     ]
+    },
+    {
+     "heading": "Where Bats Rest",
+     "focus": "where bats rest",
+     "sentences": [
+      "In the day, bats rest in caves, trees, and old barns.",
+      "They hang upside down by their feet.",
+      "A group of bats is called a colony.",
+      "Some colonies have thousands of bats.",
+      "In winter, many bats sleep for months until warm weather returns."
+     ]
+    }
+   ],
+   "bold": [
+    "pup",
+    "echo",
+    "colony"
+   ],
+   "glossary": [
+    {
+     "word": "colony",
+     "meaning": "a large group of animals that live together"
+    },
+    {
+     "word": "echo",
+     "meaning": "a sound that bounces back to you"
+    },
+    {
+     "word": "mammal",
+     "meaning": "an animal that has fur or hair and feeds its babies milk"
+    },
+    {
+     "word": "pup",
+     "meaning": "a baby bat"
+    }
+   ],
+   "index": [
+    {
+     "word": "caves",
+     "page": 3
+    },
+    {
+     "word": "fur",
+     "page": 1
+    },
+    {
+     "word": "insects",
+     "page": 2
+    },
+    {
+     "word": "milk",
+     "page": 1
+    }
+   ],
+   "focusLure": "how to build a house for bats",
+   "topic": {
+    "right": "bats",
+    "detail": "a bat's wings",
+    "wide": "animals that fly"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about bats that hang upside down?",
+     "answer": "Where Bats Rest"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how bats find their food?",
+     "answer": "Hunting in the Dark"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 1?",
+     "answer": "pup"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word colony mean?",
+     "answer": "a large group of animals that live together"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the second picture say a small bat can eat in one night?",
+     "answer": "hundreds of bugs",
+     "wrong": [
+      "ten bugs",
+      "one bug"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about caves?",
+     "answer": "3"
+    }
+   ]
+  },
+  {
+   "id": "sea-turtles",
+   "title": "Sea Turtles",
+   "pictures": [
+    {
+     "theme": "ocean life",
+     "noun": "sea_turtle",
+     "caption": "A sea turtle swims with its flippers."
+    },
+    {
+     "theme": "ocean life",
+     "noun": "jellyfish",
+     "caption": "Leatherback turtles eat jellyfish."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Life in the Ocean",
+     "focus": "how a sea turtle's body fits life in the ocean",
+     "sentences": [
+      "Most sea turtles live in warm oceans around the world.",
+      "A sea turtle cannot pull its head into its shell.",
+      "Its four legs are flippers.",
+      "The flippers work like paddles, so a sea turtle is a strong swimmer.",
+      "It must come up to the top of the water to breathe air."
+     ]
+    },
+    {
+     "heading": "What Sea Turtles Eat",
+     "focus": "what sea turtles eat",
+     "sentences": [
+      "Different sea turtles eat different foods.",
+      "Green sea turtles eat sea grass.",
+      "Leatherback turtles eat jellyfish.",
+      "A sea turtle has no teeth.",
+      "It bites with a hard, sharp beak.",
+      "Sadly, a plastic bag in the water can look like a jellyfish, and a turtle may eat it by mistake."
+     ]
+    },
+    {
+     "heading": "Nests on the Beach",
+     "focus": "how sea turtles lay their eggs",
+     "sentences": [
+      "A mother sea turtle often swims back to the beach where she hatched.",
+      "At night she digs a hole in the sand and lays about one hundred eggs.",
+      "Then she covers the nest and returns to the sea.",
+      "Weeks later the tiny hatchlings dig out and crawl to the water."
+     ]
+    }
+   ],
+   "bold": [
+    "flippers",
+    "beak",
+    "hatchlings"
+   ],
+   "glossary": [
+    {
+     "word": "beak",
+     "meaning": "the hard, pointed mouth of a turtle or a bird"
+    },
+    {
+     "word": "flipper",
+     "meaning": "a wide, flat leg used for swimming"
+    },
+    {
+     "word": "hatchling",
+     "meaning": "a baby animal that has just come out of its egg"
+    },
+    {
+     "word": "nest",
+     "meaning": "a place where an animal lays its eggs"
+    }
+   ],
+   "index": [
+    {
+     "word": "beach",
+     "page": 3
+    },
+    {
+     "word": "eggs",
+     "page": 3
+    },
+    {
+     "word": "sea grass",
+     "page": 2
+    },
+    {
+     "word": "shell",
+     "page": 1
+    }
+   ],
+   "focusLure": "how fast sea turtles grow",
+   "topic": {
+    "right": "sea turtles",
+    "detail": "what leatherback turtles eat",
+    "wide": "ocean animals"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about sea turtle eggs?",
+     "answer": "Nests on the Beach"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about a sea turtle's food?",
+     "answer": "What Sea Turtles Eat"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 3?",
+     "answer": "hatchlings"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word beak mean?",
+     "answer": "the hard, pointed mouth of a turtle or a bird"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the first picture say a sea turtle swims with?",
+     "answer": "its flippers",
+     "wrong": [
+      "its tail",
+      "its shell"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about a sea turtle's shell?",
+     "answer": "1"
+    }
+   ]
+  },
+  {
+   "id": "polar-bears",
+   "title": "Polar Bears",
+   "pictures": [
+    {
+     "theme": "winter",
+     "noun": "polar_bear",
+     "caption": "A polar bear is hard to see on the white ice."
+    },
+    {
+     "theme": "winter",
+     "noun": "seal",
+     "caption": "Seals are the main food of polar bears."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Built for the Cold",
+     "focus": "how a polar bear stays warm",
+     "sentences": [
+      "Polar bears live in the Arctic, near the North Pole.",
+      "It is one of the coldest places on Earth.",
+      "A polar bear has two layers of fur.",
+      "Under its skin is a thick layer of fat called blubber.",
+      "The fur and the blubber keep the bear warm on the ice."
+     ]
+    },
+    {
+     "heading": "Hunters on the Ice",
+     "focus": "how polar bears hunt",
+     "sentences": [
+      "Polar bears are meat eaters.",
+      "Their main food is seals.",
+      "A seal must come up through a hole in the ice to breathe.",
+      "The polar bear waits beside the hole without moving.",
+      "It may wait for hours.",
+      "A polar bear can smell its prey from far away."
+     ]
+    },
+    {
+     "heading": "Mothers and Cubs",
+     "focus": "how polar bear cubs are born and grow",
+     "sentences": [
+      "In fall, a mother polar bear digs a den in the snow.",
+      "Her cubs are born there in the middle of winter.",
+      "The cubs are tiny, about as big as a squirrel.",
+      "They drink their mother's milk and grow fast.",
+      "In spring the family leaves the den."
+     ]
+    }
+   ],
+   "bold": [
+    "blubber",
+    "prey",
+    "den"
+   ],
+   "glossary": [
+    {
+     "word": "Arctic",
+     "meaning": "the very cold land and sea around the North Pole"
+    },
+    {
+     "word": "blubber",
+     "meaning": "a thick layer of fat under the skin"
+    },
+    {
+     "word": "den",
+     "meaning": "a hidden home dug by a wild animal"
+    },
+    {
+     "word": "prey",
+     "meaning": "an animal that is hunted for food"
+    }
+   ],
+   "index": [
+    {
+     "word": "cubs",
+     "page": 3
+    },
+    {
+     "word": "fur",
+     "page": 1
+    },
+    {
+     "word": "smell",
+     "page": 2
+    },
+    {
+     "word": "snow",
+     "page": 3
+    }
+   ],
+   "focusLure": "why the Arctic ice is melting",
+   "topic": {
+    "right": "polar bears",
+    "detail": "a polar bear's den",
+    "wide": "the Arctic"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about baby polar bears?",
+     "answer": "Mothers and Cubs"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how a polar bear stays warm?",
+     "answer": "Built for the Cold"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 2?",
+     "answer": "prey"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word blubber mean?",
+     "answer": "a thick layer of fat under the skin"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the second picture say seals are?",
+     "answer": "the main food of polar bears",
+     "wrong": [
+      "the friends of polar bears",
+      "bigger than polar bears"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about cubs?",
+     "answer": "3"
+    }
+   ]
+  },
+  {
+   "id": "camels",
+   "title": "Camels",
+   "pictures": [
+    {
+     "theme": "animals",
+     "noun": "camel",
+     "caption": "This camel has one hump on its back."
+    },
+    {
+     "theme": "weather",
+     "noun": "sun",
+     "caption": "In the desert the sun is hot and rain is rare."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Ships of the Desert",
+     "focus": "how camels help people in the desert",
+     "sentences": [
+      "Most camels live in hot, dry deserts.",
+      "For thousands of years, people have ridden camels and used them to carry heavy loads across the sand.",
+      "That is why camels are called ships of the desert.",
+      "A camel can carry a load a long way in one day."
+     ]
+    },
+    {
+     "heading": "The Hump",
+     "focus": "what a camel's hump is for",
+     "sentences": [
+      "Some camels have one hump, and some have two.",
+      "Many people think a hump is full of water.",
+      "It is not.",
+      "A hump is full of fat.",
+      "When there is little food, the camel's body uses the fat for energy.",
+      "Then the hump gets smaller and can flop over."
+     ]
+    },
+    {
+     "heading": "A Body for the Sand",
+     "focus": "how a camel's body fits the desert",
+     "sentences": [
+      "A camel's body is made for sand and sun.",
+      "Long eyelashes keep blowing sand out of its eyes.",
+      "It can even close its nostrils.",
+      "Its wide feet spread out, so it does not sink into the soft sand.",
+      "Thick lips let it eat thorny desert plants."
+     ]
+    }
+   ],
+   "bold": [
+    "deserts",
+    "hump",
+    "nostrils"
+   ],
+   "glossary": [
+    {
+     "word": "desert",
+     "meaning": "a very dry place with little rain"
+    },
+    {
+     "word": "hump",
+     "meaning": "the big bump on a camel's back"
+    },
+    {
+     "word": "load",
+     "meaning": "something heavy that is carried"
+    },
+    {
+     "word": "nostrils",
+     "meaning": "the two openings of the nose"
+    }
+   ],
+   "index": [
+    {
+     "word": "eyelashes",
+     "page": 3
+    },
+    {
+     "word": "fat",
+     "page": 2
+    },
+    {
+     "word": "feet",
+     "page": 3
+    },
+    {
+     "word": "water",
+     "page": 2
+    }
+   ],
+   "focusLure": "how baby camels learn to walk",
+   "topic": {
+    "right": "camels",
+    "detail": "what a hump is full of",
+    "wide": "deserts"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about a camel's eyes?",
+     "answer": "A Body for the Sand"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you why camels are called ships?",
+     "answer": "Ships of the Desert"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 3?",
+     "answer": "nostrils"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word load mean?",
+     "answer": "something heavy that is carried"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the second picture say is rare in the desert?",
+     "answer": "rain",
+     "wrong": [
+      "sand",
+      "sun"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about fat?",
+     "answer": "2"
+    }
+   ]
+  },
+  {
+   "id": "spiders",
+   "title": "Spiders",
+   "pictures": [
+    {
+     "theme": "insects and bugs",
+     "noun": "spider",
+     "caption": "A spider has eight legs."
+    },
+    {
+     "theme": "insects and bugs",
+     "noun": "bee",
+     "caption": "A crab spider can catch a bee that comes to its flower."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Not an Insect",
+     "focus": "how a spider's body is different from an insect's",
+     "sentences": [
+      "A spider is not an insect.",
+      "An insect has six legs, but a spider has eight.",
+      "An insect's body has three main parts, but a spider's body has only two.",
+      "Most spiders also have eight eyes.",
+      "Insects have two feelers, called antennae, and many have wings.",
+      "A spider has no antennae and no wings."
+     ]
+    },
+    {
+     "heading": "Silk and Webs",
+     "focus": "how spiders make and use silk",
+     "sentences": [
+      "Spiders make silk inside their bodies.",
+      "The silk comes out as a thin thread.",
+      "It is very strong for its size.",
+      "Many spiders use silk to spin a web.",
+      "Parts of the web are sticky.",
+      "When a fly or a mosquito flies into it, the insect cannot get away."
+     ]
+    },
+    {
+     "heading": "Hunters Without Webs",
+     "focus": "how some spiders hunt without a web",
+     "sentences": [
+      "Not all spiders spin webs.",
+      "Jumping spiders creep up on an insect and leap onto it.",
+      "Wolf spiders run fast and chase their prey.",
+      "Some crab spiders hide in flowers and wait.",
+      "When a bee or a fly comes close, the spider grabs it."
+     ]
+    }
+   ],
+   "bold": [
+    "insect",
+    "silk",
+    "prey"
+   ],
+   "glossary": [
+    {
+     "word": "insect",
+     "meaning": "a small animal with six legs, such as a fly or an ant"
+    },
+    {
+     "word": "prey",
+     "meaning": "an animal that is hunted for food"
+    },
+    {
+     "word": "silk",
+     "meaning": "the thin, strong thread that a spider makes"
+    },
+    {
+     "word": "web",
+     "meaning": "a net of silk that a spider spins to catch insects"
+    }
+   ],
+   "index": [
+    {
+     "word": "eyes",
+     "page": 1
+    },
+    {
+     "word": "feelers",
+     "page": 1
+    },
+    {
+     "word": "jumping spiders",
+     "page": 3
+    },
+    {
+     "word": "thread",
+     "page": 2
+    }
+   ],
+   "focusLure": "how long spiders live",
+   "topic": {
+    "right": "spiders",
+    "detail": "how jumping spiders hunt",
+    "wide": "small animals"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read about spiders that jump?",
+     "answer": "Hunters Without Webs"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you how a spider is different from an insect?",
+     "answer": "Not an Insect"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 2?",
+     "answer": "silk"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word web mean?",
+     "answer": "a net of silk that a spider spins to catch insects"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the first picture say a spider has?",
+     "answer": "eight legs",
+     "wrong": [
+      "six legs",
+      "two wings"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about thread?",
+     "answer": "2"
+    }
+   ]
+  },
+  {
+   "id": "elephants",
+   "title": "Elephants",
+   "pictures": [
+    {
+     "theme": "animals",
+     "noun": "elephant",
+     "caption": "An elephant picks things up with its trunk."
+    },
+    {
+     "theme": "camping",
+     "noun": "log",
+     "caption": "An elephant's trunk can lift a log."
+    }
+   ],
+   "parts": [
+    {
+     "heading": "Life in a Herd",
+     "focus": "how elephants live together in a herd",
+     "sentences": [
+      "Elephants live together in groups called herds.",
+      "A herd is a family of mothers, aunts, sisters, and their babies.",
+      "The leader of the herd is the oldest mother.",
+      "She knows where to find water, and the others follow her.",
+      "When young males grow up, they leave the herd."
+     ]
+    },
+    {
+     "heading": "A Trunk for Everything",
+     "focus": "what an elephant does with its trunk",
+     "sentences": [
+      "An elephant's trunk is its nose and its upper lip together.",
+      "The trunk can smell, breathe, and pick things up.",
+      "It is strong enough to lift a log and gentle enough to pick one flower.",
+      "An elephant also sucks up water with its trunk and squirts it into its mouth."
+     ]
+    },
+    {
+     "heading": "Big Eaters",
+     "focus": "what elephants eat",
+     "sentences": [
+      "Elephants eat only plants.",
+      "They eat grass, leaves, fruit, and bark.",
+      "Most elephants have two long front teeth called tusks.",
+      "Elephants use their tusks to dig for roots and to peel bark off trees.",
+      "An elephant eats for most of the day, because its big body needs a lot of food."
+     ]
+    }
+   ],
+   "bold": [
+    "herds",
+    "trunk",
+    "tusks"
+   ],
+   "glossary": [
+    {
+     "word": "bark",
+     "meaning": "the hard skin of a tree"
+    },
+    {
+     "word": "herd",
+     "meaning": "a group of animals that live together"
+    },
+    {
+     "word": "trunk",
+     "meaning": "an elephant's long nose and upper lip"
+    },
+    {
+     "word": "tusks",
+     "meaning": "the two long front teeth of an elephant"
+    }
+   ],
+   "index": [
+    {
+     "word": "flower",
+     "page": 2
+    },
+    {
+     "word": "grass",
+     "page": 3
+    },
+    {
+     "word": "leader",
+     "page": 1
+    },
+    {
+     "word": "mouth",
+     "page": 2
+    }
+   ],
+   "focusLure": "where elephants sleep at night",
+   "topic": {
+    "right": "elephants",
+    "detail": "an elephant's trunk",
+    "wide": "animals that eat plants"
+   },
+   "features": [
+    {
+     "kind": "heading",
+     "q": "Under which heading can you read what elephants eat?",
+     "answer": "Big Eaters"
+    },
+    {
+     "kind": "heading",
+     "q": "Which heading tells you about an elephant's nose?",
+     "answer": "A Trunk for Everything"
+    },
+    {
+     "kind": "bold",
+     "q": "Which word is in bold print on page 1?",
+     "answer": "herds"
+    },
+    {
+     "kind": "glossary",
+     "q": "What does the word bark mean?",
+     "answer": "the hard skin of a tree"
+    },
+    {
+     "kind": "caption",
+     "q": "What does the caption under the second picture say an elephant's trunk can lift?",
+     "answer": "a log",
+     "wrong": [
+      "a car",
+      "a house"
+     ]
+    },
+    {
+     "kind": "index",
+     "q": "On which page can you read about the leader?",
+     "answer": "1"
+    }
+   ]
   }
  ]
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Proves that the page checks of types/_shared/fact-text-k.js (K-645 Find the Facts, K-646 What Is It All About?) can
+ * Proves that the page checks of types/_shared/fact-text-k.js (K-645 Find the Facts, K-646 What Is It All About?, K-647 Pictures That Teach, K-648 First, Then) can
  * fail: each planted fault changes the factory (or the text bank), renders the page it concerns, and expects the
  * page's own check or the bank's check to report it. The file is restored after every fault (and on any error).
  * A dev tool: never run it while pages are generated.
@@ -20,8 +20,8 @@ const FAULTS = [
   ['the right pictures as a staircase', FACTORY, 'const at = placesFor(4, rng);', 'const at = [0, 1, 2, 0];', 'K-645', 1],
   ['pictures too small to see', FACTORY, 'facts: { 1: { font: 27, pic: 88 }', 'facts: { 1: { font: 27, pic: 40 }', 'K-645', 1],
   ['pictures too big for their row', FACTORY, 'facts: { 1: { font: 27, pic: 88 }', 'facts: { 1: { font: 27, pic: 150 }', 'K-645', 1],
-  ['small print', FACTORY, '2: { font: 27 }, 3: { font: 26 } },', '2: { font: 16 }, 3: { font: 26 } },', 'K-645', 2],
-  ['print too big for the page', FACTORY, '2: { font: 27 }, 3: { font: 26 } },', '2: { font: 60 }, 3: { font: 26 } },', 'K-645', 2],
+  ['small print', FACTORY, 'pic: 88 }, 2: { font: 27 }, 3: { font: 26 } },', 'pic: 88 }, 2: { font: 16 }, 3: { font: 26 } },', 'K-645', 2],
+  ['print too big for the page', FACTORY, 'pic: 88 }, 2: { font: 27 }, 3: { font: 26 } },', 'pic: 88 }, 2: { font: 60 }, 3: { font: 26 } },', 'K-645', 2],
   ['three questions to draw on the hardest page', FACTORY, 'shuffle(t.questions, rng).slice(0, 2).sort(', 'shuffle(t.questions, rng).slice(0, 3).sort(', 'K-645', 3],
   ['questions against the order of the text', FACTORY, 'const qs = lv === 2 ? t.questions :', 'const qs = lv === 2 ? t.questions.slice().reverse() :', 'K-645', 2],
   ['a picture that does not load', FACTORY, 'src="${fileUri(t.picture.theme, t.picture.noun)}" alt="" style="flex:0 0 auto;width:156px', 'src="missing.png" alt="" style="flex:0 0 auto;width:156px', 'K-646', 2],
@@ -31,6 +31,17 @@ const FAULTS = [
   ['a writing line on the middle page', FACTORY, "${lv === 3 ? row(300, 50) : ''}", '${row(300, 50)}', 'K-646', 2],
   ['one box to draw two things in', FACTORY, 'const det = t.details.map((s) => t.questions.find((q) => q.sentence === s));', 'const det = t.details.slice(0, 1).map((s) => t.questions.find((q) => q.sentence === s));', 'K-646', 2],
   ['a drawing box too small to draw in', FACTORY, 'flex:1 1 auto;min-height:96px;display:flex', 'flex:0 0 40px;height:40px;display:flex', 'K-645', 2],
+  ['matching: a picture opposite its own sentence', FACTORY, 'if (rowsP.every((x, i) => x.n !== rowsS[i].n)) break;', 'rowsP = rowsS.slice(); break;', 'K-647', 2],
+  ['matching: four sentences on the easy page', FACTORY, 'pictures: { 1: { n: 3, font: 27, pic: 112 }', 'pictures: { 1: { n: 4, font: 27, pic: 112 }', 'K-647', 1],
+  ['matching: a missing picture that leaves two answers', FACTORY, 'rng.pick(t.match.leaveOut.filter((n) => rowsS.some((x) => x.n === n)))', 'rng.pick([1, 2, 3, 4].filter((n) => !t.match.leaveOut.includes(n)).concat(t.match.leaveOut.length === 4 ? [9] : []))', 'K-647', 3],
+  ['matching: no empty box on the hard page', FACTORY, '3: { n: 4, font: 26, pic: 100, missing: true } },', '3: { n: 4, font: 26, pic: 100 } },', 'K-647', 3],
+  ['matching: small print', FACTORY, '2: { n: 4, font: 26, pic: 100 }, 3: { n: 4, font: 26', '2: { n: 4, font: 15, pic: 100 }, 3: { n: 4, font: 26', 'K-647', 2],
+  ['matching: pictures too big for their rows', FACTORY, '2: { n: 4, font: 26, pic: 100 }, 3: { n: 4, font: 26', '2: { n: 4, font: 26, pic: 230 }, 3: { n: 4, font: 26', 'K-647', 2],
+  ['first-then: the cut-outs already in the right order', FACTORY, "if (order[0][0] !== 'first' || order[1][0] !== 'then') break;", "order = [['first', c.first], ['then', c.then], ['other', c.other]]; break;", 'K-648', 1],
+  ['first-then: Then on the left', FACTORY, "${slot('first', c.first, c.firstWord)}${arrow}${slot('then', c.then, c.thenWord)}", "${slot('then', c.then, c.thenWord)}${arrow}${slot('first', c.first, c.firstWord)}", 'K-648', 2],
+  ['first-then: a cut-out that does not fit its box', FACTORY, 'data-lcs-glue style="flex:0 0 auto;align-self:center;width:${side}px;height:${side}px;', 'data-lcs-glue style="flex:0 0 auto;align-self:center;width:${side - 40}px;height:${side - 40}px;', 'K-648', 1],
+  ['first-then: writing lines on the middle page', FACTORY, '(lv === 3 ? `<div data-lcs-line style="line-height:0;align-self:center">', '(lv >= 2 ? `<div data-lcs-line style="line-height:0;align-self:center">', 'K-648', 2],
+  ['bank: a left-over picture that is a picture of the text', BANK, '"noun": "carrot"\n    },\n    "firstWord": "flowers"', '"noun": "bee"\n    },\n    "firstWord": "flowers"', 'K-648', 1],
   // the bank's own check (it runs when the factory loads)
   ['bank: a text of five sentences', BANK, '"A cow eats grass.",', '"A cow eats grass.",\n    "A cow is big.",', 'K-645', 1],
   ['bank: a wrong picture that the text tells about', BANK, '"noun": "bread"', '"noun": "milk"', 'K-645', 1],

@@ -5101,5 +5101,13 @@
   "K-646": {
     "title": "What Is It All About?",
     "instruction": "Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it."
+  },
+  "K-647": {
+    "title": "Pictures That Teach",
+    "instruction": "Listen to each sentence and read along. Draw a line from each sentence to the picture that goes with it."
+  },
+  "K-648": {
+    "title": "First, Then",
+    "instruction": "Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box."
   }
 }

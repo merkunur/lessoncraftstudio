@@ -6928,5 +6928,18 @@
     "3": {
       "en": "Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it and write a word for each."
     }
+  },
+  "K-647": {
+    "3": {
+      "en": "Listen to each sentence and read along. Draw a line from each sentence to the picture that goes with it. One picture is missing. Draw the missing picture in the empty box. Then draw a line from its sentence to the box."
+    }
+  },
+  "K-648": {
+    "1": {
+      "en": "Listen to the text and read along. Answer the question with the pictures: cut them out, glue the first thing in the First box and the next thing in the Then box. One picture is left over."
+    },
+    "3": {
+      "en": "Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box. Write a word under each drawing."
+    }
   }
 }

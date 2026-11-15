@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details.",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed.",
  "g1": [
   {
    "id": "frogs",
@@ -1272,7 +1272,47 @@
    "details": [
     1,
     2
-   ]
+   ],
+   "change": {
+    "first": {
+     "theme": "At the Supermarket",
+     "noun": "milk"
+    },
+    "then": {
+     "theme": "breakfast",
+     "noun": "cheese"
+    },
+    "other": {
+     "theme": "toys",
+     "noun": "ball"
+    },
+    "firstWord": "milk",
+    "thenWord": "cheese",
+    "question": "What do we make from milk?"
+   },
+   "match": {
+    "pics": [
+     {
+      "theme": "spring",
+      "noun": "grass"
+     },
+     {
+      "theme": "At the Supermarket",
+      "noun": "milk"
+     },
+     {
+      "theme": "breakfast",
+      "noun": "cheese"
+     },
+     {
+      "theme": "farm animals",
+      "noun": "calf"
+     }
+    ],
+    "leaveOut": [
+     4
+    ]
+   }
   },
   {
    "id": "hens",
@@ -1380,7 +1420,36 @@
    "details": [
     2,
     3
-   ]
+   ],
+   "match": {
+    "pics": [
+     {
+      "theme": "farm animals",
+      "noun": "hen"
+     },
+     {
+      "theme": "vegetables",
+      "noun": "corn"
+     },
+     {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     },
+     {
+      "theme": "farm animals",
+      "noun": "chick"
+     }
+    ],
+    "leaveOut": [
+     1
+    ],
+    "sentences": [
+     "A hen is a bird.",
+     "A hen eats corn.",
+     "A hen lays eggs.",
+     "A baby hen is called a chick."
+    ]
+   }
   },
   {
    "id": "owls",
@@ -1596,7 +1665,38 @@
    "details": [
     1,
     3
-   ]
+   ],
+   "match": {
+    "pics": [
+     {
+      "theme": "tree",
+      "noun": "oak"
+     },
+     {
+      "theme": "spring",
+      "noun": "leaf"
+     },
+     {
+      "theme": "miscellaneous",
+      "noun": "acorn"
+     },
+     {
+      "theme": "camping",
+      "noun": "pinecone"
+     }
+    ],
+    "leaveOut": [
+     1,
+     3,
+     4
+    ],
+    "sentences": [
+     "A squirrel lives in a tree.",
+     "A squirrel makes a nest of leaves.",
+     "A squirrel eats nuts, like acorns.",
+     "A squirrel eats seeds from pine cones."
+    ]
+   }
   },
   {
    "id": "butterflies",
@@ -1704,7 +1804,59 @@
    "details": [
     1,
     4
-   ]
+   ],
+   "change": {
+    "first": {
+     "theme": "spring",
+     "noun": "caterpillar"
+    },
+    "then": {
+     "theme": "spring",
+     "noun": "butterfly"
+    },
+    "other": {
+     "theme": "insects and bugs",
+     "noun": "bee"
+    },
+    "firstWord": "caterpillar",
+    "thenWord": "butterfly",
+    "sentences": [
+     "A caterpillar comes out of a tiny egg.",
+     "The caterpillar eats leaves and grows.",
+     "Then the caterpillar turns into a butterfly.",
+     "A butterfly drinks from flowers."
+    ],
+    "question": "What does the caterpillar turn into?"
+   },
+   "match": {
+    "pics": [
+     {
+      "theme": "spring",
+      "noun": "caterpillar"
+     },
+     {
+      "theme": "spring",
+      "noun": "leaf"
+     },
+     {
+      "theme": "spring",
+      "noun": "butterfly"
+     },
+     {
+      "theme": "spring",
+      "noun": "flower"
+     }
+    ],
+    "leaveOut": [
+     1
+    ],
+    "sentences": [
+     "A caterpillar comes out of a tiny egg.",
+     "The caterpillar eats leaves and grows.",
+     "Then the caterpillar turns into a butterfly.",
+     "A butterfly drinks from flowers."
+    ]
+   }
   },
   {
    "id": "apple-trees",
@@ -1812,7 +1964,54 @@
    "details": [
     1,
     3
-   ]
+   ],
+   "change": {
+    "first": {
+     "theme": "spring",
+     "noun": "flower"
+    },
+    "then": {
+     "theme": "fruits",
+     "noun": "apple"
+    },
+    "other": {
+     "theme": "vegetables",
+     "noun": "carrot"
+    },
+    "firstWord": "flowers",
+    "thenWord": "apples",
+    "question": "What grows where the flowers were?"
+   },
+   "match": {
+    "pics": [
+     {
+      "theme": "spring",
+      "noun": "flower"
+     },
+     {
+      "theme": "insects and bugs",
+      "noun": "bee"
+     },
+     {
+      "theme": "fruits",
+      "noun": "apple"
+     },
+     {
+      "theme": "spring",
+      "noun": "leaf"
+     }
+    ],
+    "leaveOut": [
+     1,
+     4
+    ],
+    "sentences": [
+     "In spring the tree has flowers.",
+     "Bees visit the flowers.",
+     "Then apples grow where the flowers were.",
+     "In fall the leaves drop off."
+    ]
+   }
   },
   {
    "id": "ducks",
@@ -1920,7 +2119,33 @@
    "details": [
     1,
     2
-   ]
+   ],
+   "match": {
+    "pics": [
+     {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     {
+      "theme": "spring",
+      "noun": "worm"
+     },
+     {
+      "theme": "At the Supermarket",
+      "noun": "egg"
+     },
+     {
+      "theme": "easter",
+      "noun": "feather"
+     }
+    ],
+    "leaveOut": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
   },
   {
    "id": "dogs",
@@ -2029,6 +2254,308 @@
     2,
     4
    ]
+  },
+  {
+   "id": "oak-trees",
+   "since": "c",
+   "title": "Oak Trees",
+   "picture": {
+    "theme": "tree",
+    "noun": "oak"
+   },
+   "sentences": [
+    "An acorn is a seed.",
+    "A squirrel hides the acorn in the ground.",
+    "Rain helps the acorn grow.",
+    "After many years it grows into a big oak tree."
+   ],
+   "questions": [
+    {
+     "q": "Which one is a seed?",
+     "sentence": 1,
+     "right": {
+      "theme": "miscellaneous",
+      "noun": "acorn"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "ball"
+      },
+      {
+       "theme": "around the house",
+       "noun": "key"
+      }
+     ]
+    },
+    {
+     "q": "Who hides the acorn?",
+     "sentence": 2,
+     "right": {
+      "theme": "forest creatures",
+      "noun": "squirrel"
+     },
+     "wrong": [
+      {
+       "theme": "pets",
+       "noun": "dog"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "cow"
+      }
+     ]
+    },
+    {
+     "q": "What helps the acorn grow?",
+     "sentence": 3,
+     "right": {
+      "theme": "spring",
+      "noun": "rain"
+     },
+     "wrong": [
+      {
+       "theme": "winter",
+       "noun": "igloo"
+      },
+      {
+       "theme": "around the house",
+       "noun": "fork"
+      }
+     ]
+    },
+    {
+     "q": "What does the acorn grow into?",
+     "sentence": 4,
+     "right": {
+      "theme": "tree",
+      "noun": "oak"
+     },
+     "wrong": [
+      {
+       "theme": "spring",
+       "noun": "flower"
+      },
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "tree",
+     "noun": "oak"
+    },
+    "wrong": [
+     {
+      "theme": "spring",
+      "noun": "rain"
+     },
+     {
+      "theme": "forest creatures",
+      "noun": "squirrel"
+     }
+    ]
+   },
+   "details": [
+    2,
+    4
+   ],
+   "change": {
+    "first": {
+     "theme": "miscellaneous",
+     "noun": "acorn"
+    },
+    "then": {
+     "theme": "tree",
+     "noun": "oak"
+    },
+    "other": {
+     "theme": "vegetables",
+     "noun": "carrot"
+    },
+    "firstWord": "acorn",
+    "thenWord": "oak tree",
+    "question": "What does the acorn grow into?"
+   },
+   "match": {
+    "pics": [
+     {
+      "theme": "miscellaneous",
+      "noun": "acorn"
+     },
+     {
+      "theme": "forest creatures",
+      "noun": "squirrel"
+     },
+     {
+      "theme": "spring",
+      "noun": "rain"
+     },
+     {
+      "theme": "tree",
+      "noun": "oak"
+     }
+    ],
+    "leaveOut": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "rain",
+   "since": "c",
+   "title": "Rain",
+   "picture": {
+    "theme": "spring",
+    "noun": "rain"
+   },
+   "sentences": [
+    "Rain falls from a cloud.",
+    "The rain makes a puddle.",
+    "Grass drinks the rain and grows.",
+    "When the sun comes out, you may see a rainbow."
+   ],
+   "questions": [
+    {
+     "q": "What does rain fall from?",
+     "sentence": 1,
+     "right": {
+      "theme": "spring",
+      "noun": "cloud"
+     },
+     "wrong": [
+      {
+       "theme": "pets",
+       "noun": "dog"
+      },
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      }
+     ]
+    },
+    {
+     "q": "What does the rain make?",
+     "sentence": 2,
+     "right": {
+      "theme": "spring",
+      "noun": "puddle"
+     },
+     "wrong": [
+      {
+       "theme": "winter",
+       "noun": "igloo"
+      },
+      {
+       "theme": "around the house",
+       "noun": "key"
+      }
+     ]
+    },
+    {
+     "q": "What drinks the rain?",
+     "sentence": 3,
+     "right": {
+      "theme": "spring",
+      "noun": "grass"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "fork"
+      },
+      {
+       "theme": "toys",
+       "noun": "ball"
+      }
+     ]
+    },
+    {
+     "q": "What may you see when the sun comes out?",
+     "sentence": 4,
+     "right": {
+      "theme": "weather",
+      "noun": "rainbow"
+     },
+     "wrong": [
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      },
+      {
+       "theme": "weather",
+       "noun": "snowflake"
+      }
+     ]
+    }
+   ],
+   "topic": {
+    "right": {
+     "theme": "spring",
+     "noun": "rain"
+    },
+    "wrong": [
+     {
+      "theme": "spring",
+      "noun": "puddle"
+     },
+     {
+      "theme": "weather",
+      "noun": "rainbow"
+     }
+    ]
+   },
+   "details": [
+    1,
+    2
+   ],
+   "change": {
+    "first": {
+     "theme": "spring",
+     "noun": "rain"
+    },
+    "then": {
+     "theme": "spring",
+     "noun": "puddle"
+    },
+    "other": {
+     "theme": "toys",
+     "noun": "ball"
+    },
+    "firstWord": "rain",
+    "thenWord": "puddle",
+    "question": "What does the rain make on the ground?"
+   },
+   "match": {
+    "pics": [
+     {
+      "theme": "spring",
+      "noun": "cloud"
+     },
+     {
+      "theme": "spring",
+      "noun": "puddle"
+     },
+     {
+      "theme": "spring",
+      "noun": "grass"
+     },
+     {
+      "theme": "weather",
+      "noun": "rainbow"
+     }
+    ],
+    "leaveOut": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
   }
  ]
 }

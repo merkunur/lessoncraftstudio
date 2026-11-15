@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Writes the page text of the two Kindergarten fact-text pages (types/_shared/fact-text-k.js; English literacy year,
+ * Writes the page text of the Kindergarten fact-text pages (types/_shared/fact-text-k.js; English literacy year,
  * 2026-11-15) into i18n/strings.en.json (title and the instruction of level 2) and i18n/level-instructions.json (the
  * instructions of levels 1 and 3). English only. Run again after a wording change; it replaces its own entries.
  *
@@ -24,6 +24,18 @@ const TEXT = {
     1: 'Listen to the text and read along. Circle the picture that shows what the whole text is about. Then circle one thing the text tells about it.',
     2: 'Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it.',
     3: 'Listen to the text and read along. Circle the picture that shows what the whole text is about. Then draw two things the text tells about it and write a word for each.',
+  },
+  'K-647': {
+    title: 'Pictures That Teach',
+    1: 'Listen to each sentence and read along. Draw a line from each sentence to the picture that goes with it.',
+    2: 'Listen to each sentence and read along. Draw a line from each sentence to the picture that goes with it.',
+    3: 'Listen to each sentence and read along. Draw a line from each sentence to the picture that goes with it. One picture is missing. Draw the missing picture in the empty box. Then draw a line from its sentence to the box.',
+  },
+  'K-648': {
+    title: 'First, Then',
+    1: 'Listen to the text and read along. Answer the question with the pictures: cut them out, glue the first thing in the First box and the next thing in the Then box. One picture is left over.',
+    2: 'Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box.',
+    3: 'Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box. Write a word under each drawing.',
   },
 };
 

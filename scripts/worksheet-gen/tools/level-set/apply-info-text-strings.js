@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Writes the page text of the three information-text pages (types/_shared/info-text.js; English literacy year,
+ * Writes the page text of the information-text pages (types/_shared/info-text.js; English literacy year,
  * 2026-11-15) into i18n/strings.en.json (title and the instruction of level 2) and i18n/level-instructions.json (the
  * instructions of levels 1 and 3). English only: the texts are English texts. Run again after a wording change; it
  * replaces its own entries and touches no other.
@@ -32,6 +32,12 @@ const TEXT = {
     2: 'Read the text. Use the headings, the bold words, the caption, and the glossary to write each answer.',
     3: 'Read the text. Use the headings, the bold words, the caption, and the glossary to write each answer. Then write a caption for the second picture.',
   },
+  'G1-578': {
+    title: 'Name the Text Features',
+    1: "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part.",
+    2: "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part.",
+    3: "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part. Then read each job and write the number of the part that does it.",
+  },
 };
 
 function edit(file, fn) {
@@ -49,6 +55,6 @@ function edit(file, fn) {
 }
 
 const a = edit(path.join(I18N, 'strings.en.json'), (j) => { for (const [id, t] of Object.entries(TEXT)) j[id] = { title: t.title, instruction: t[2] }; });
-const b = edit(path.join(I18N, 'level-instructions.json'), (j) => { for (const [id, t] of Object.entries(TEXT)) j[id] = { 1: { en: t[1] }, 3: { en: t[3] } }; });
+const b = edit(path.join(I18N, 'level-instructions.json'), (j) => { for (const [id, t] of Object.entries(TEXT)) { const lv = {}; for (const n of [1, 3]) if (t[n] !== t[2]) lv[n] = { en: t[n] }; j[id] = lv; } });
 if (CHECK && (a || b)) { console.error('info-text strings: the i18n files do not hold the text of this script'); process.exit(1); }
 console.log('info-text strings: ' + (a || b ? 'written' : 'already there') + ' (' + Object.keys(TEXT).join(', ') + ')');

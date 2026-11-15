@@ -21,6 +21,12 @@
  *               level 2  five questions, the child writes each answer
  *               level 3  four questions to write, and a second picture that needs a caption
  *
+ *   label     Name the Text Features (RI.1.5, the "know" half: a child names a feature before using it). Numbered dots
+ *             stand at parts of the text; the child writes each number in the box by the part's name.
+ *               level 1  four parts: title, heading, picture, caption
+ *               level 2  six parts: and a bold word and the glossary
+ *               level 3  six parts, and three jobs ("It tells what a word means.") to give to the right part
+ *
  * English only (the texts are written for the Common Core's Grade 1; another language gets its own texts with its own
  * curriculum's reading aims). Themeless: a copy is another text (meta.items names the text, so two copies of a level
  * never share one). PDF only. The answer key circles, prints the answer sentence in teal on the line (a key detail a
@@ -90,11 +96,14 @@ const TEXTS = BANK.g1;
 const LEVELS = {
   details: { 1: { font: 22, rowH: 0, qFont: 21, pad: 7 }, 2: { font: 21, rowH: 58, qFont: 20 }, 3: { font: 20, rowH: 56, qFont: 20 } },
   topic: { 1: { font: 23, rowH: 66, details: 1, rows: 3 }, 2: { font: 21, rowH: 52, details: 2, rows: 2 }, 3: { font: 18, rowH: 42, details: 3, rows: 2 } },
+  label: { 1: { font: 24, parts: 4, cols: 2, box: 72, gap: 26 }, 2: { font: 22, parts: 6, cols: 2, box: 58, gap: 16 }, 3: { font: 18, parts: 6, cols: 3, box: 44, gap: 10, jobs: true } },
   features: { 1: { font: 17, n: 5, qFont: 18 }, 2: { font: 17, n: 5, rowH: 43, qFont: 19 }, 3: { font: 17, n: 4, rowH: 40, qFont: 18 } },
 };
 
 /** the text in its box: title, the two parts (heading + sentences, one bold word each), the picture and its caption */
-function textBox(t, { font, glossary, underline }) {
+function textBox(t, { font, glossary, underline, badges }) {
+  // a numbered dot at a part of the text (the naming page)
+  const bd = (f) => (badges && badges.get(f) ? `<span data-lcs-badge="${f}|${badges.get(f)}" style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:${T.coral};color:#FFFFFF;font:800 15px/1 'Nunito',sans-serif;font-style:normal;vertical-align:middle;margin:0 5px;-webkit-text-stroke:0">${badges.get(f)}</span>` : '');
   const done = new Set();
   let k = 0;
   const parts = t.sections.map((s, si) => {
@@ -104,23 +113,24 @@ function textBox(t, { font, glossary, underline }) {
       for (const b of t.bold) {
         if (done.has(b)) continue;
         const re = new RegExp('\\b' + b + '\\b');
-        if (re.test(h)) { h = h.replace(re, `<b data-lcs-bold="${esc(b)}" style="font-weight:800;-webkit-text-stroke:0.7px ${T.ink}">${esc(b)}</b>`); done.add(b); }
+        if (re.test(h)) { h = h.replace(re, `${done.size ? '' : bd('bold')}<b data-lcs-bold="${esc(b)}" style="font-weight:800;-webkit-text-stroke:0.7px ${T.ink}">${esc(b)}</b>`); done.add(b); }
       }
       const u = underline && underline.get(k);
       return `<span data-lcs-sent="${k}"${u ? ` data-lcs-underlined="${u}" style="text-decoration:underline;text-decoration-color:${T.teal};text-decoration-thickness:2.5px;text-underline-offset:4px"` : ''}>${h}</span>` +
         (u ? `<sup style="font:800 12px/1 'Nunito',sans-serif;color:${T.teal}">${u}</sup>` : '');
     }).join(' ');
-    return `<div data-lcs-part="${si + 1}"><div data-lcs-heading style="font:700 ${font + 2}px/1.25 'Baloo 2',cursive;color:${T.teal};margin-top:${si ? 6 : 0}px">${esc(s.heading)}</div>` +
+    return `<div data-lcs-part="${si + 1}"><div data-lcs-heading style="font:700 ${font + 2}px/1.25 'Baloo 2',cursive;color:${T.teal};margin-top:${si ? 6 : 0}px">${esc(s.heading)}${si ? '' : bd('heading')}</div>` +
       `<div style="font:700 ${font}px/1.45 'Nunito',sans-serif;color:${T.ink}">${sents}</div></div>`;
   }).join('');
-  const pic = `<figure style="flex:0 0 150px;margin:0;display:flex;flex-direction:column;align-items:center;gap:4px">` +
+  const pic = `<figure style="flex:0 0 150px;margin:0;display:flex;flex-direction:column;align-items:center;gap:4px;position:relative">` +
+    (badges && badges.get('picture') ? `<span style="position:absolute;left:-8px;top:0">${bd('picture')}</span>` : '') +
     `<img class="ws-icon" data-lcs-pic="${esc(t.picture.theme + '/' + t.picture.noun)}" src="${fileUri(t.picture.theme, t.picture.noun)}" alt="" style="width:132px;height:132px;display:block;object-fit:contain">` +
-    `<figcaption data-lcs-caption style="font:700 14px/1.3 'Nunito',sans-serif;font-style:italic;color:${T.ink};text-align:center">${esc(t.caption)}</figcaption></figure>`;
+    `<figcaption data-lcs-caption style="font:700 14px/1.3 'Nunito',sans-serif;font-style:italic;color:${T.ink};text-align:center">${bd('caption')}${esc(t.caption)}</figcaption></figure>`;
   const gl = glossary ? `<div data-lcs-glossary style="margin-top:8px;padding-top:6px;border-top:2px dashed ${T.teal};display:grid;grid-template-columns:auto 1fr 1fr 1fr;gap:4px 14px;align-items:start">` +
-    `<div style="font:700 16px/1.3 'Baloo 2',cursive;color:${T.teal}">Glossary</div>` +
+    `<div style="font:700 16px/1.3 'Baloo 2',cursive;color:${T.teal}">Glossary${bd('glossary')}</div>` +
     t.glossary.map((g) => `<div data-lcs-gloss="${esc(g.word)}" style="font:700 14px/1.3 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;-webkit-text-stroke:0.5px ${T.ink}">${esc(g.word)}</span><br>${esc(g.meaning)}</div>`).join('') + `</div>` : '';
   return `<div data-lcs-infotext="${t.id}" data-lcs-words="${wordsOf(t)}" style="flex:0 0 auto;padding:10px 16px 12px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
-    `<div data-lcs-title style="font:700 26px/1.15 'Baloo 2',cursive;color:${T.ink};margin-bottom:2px">${esc(t.title)}</div>` +
+    `<div data-lcs-title style="font:700 26px/1.15 'Baloo 2',cursive;color:${T.ink};margin-bottom:2px">${esc(t.title)}${bd('title')}</div>` +
     `<div style="display:flex;gap:16px;align-items:flex-start"><div style="flex:1 1 auto;min-width:0">${parts}</div>${pic}</div>${gl}</div>`;
 }
 
@@ -207,6 +217,31 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
         items = [t.id + ': topic', ...t.details.slice(0, d.details).map((x) => t.id + ': ' + x)];
       }
 
+      let badges = null;
+      if (mode === 'label') {
+        const NAME = { title: 'title', heading: 'heading', bold: 'bold word', picture: 'picture', caption: 'caption', glossary: 'glossary' };
+        const parts = d.parts === 4 ? ['title', 'heading', 'picture', 'caption'] : ['title', 'heading', 'bold', 'picture', 'caption', 'glossary'];
+        // the numbers stand at the parts in no order, and the names below follow neither the page nor the numbers
+        const rising = (a) => a.every((x, i) => !i || x > a[i - 1]), falling = (a) => a.every((x, i) => !i || x < a[i - 1]);
+        let nums, order;
+        for (let n = 0; n < 200; n++) {
+          nums = shuffle(parts.map((_, i) => i + 1), rng); order = shuffle(parts, rng);
+          const want = order.map((f) => nums[parts.indexOf(f)]);
+          if (!rising(nums) && !falling(nums) && !rising(want) && !falling(want) && order.join() !== parts.join()) break;
+        }
+        badges = new Map(parts.map((f, i) => [f, nums[i]]));
+        const box = (f, extra = '') => `<span data-lcs-box="${f}" data-lcs-want="${badges.get(f)}"${extra} style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:${d.box}px;height:${d.box}px;border:2.5px solid ${T.ink};border-radius:10px;background:#FFFFFF;font:800 ${Math.round(d.box * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? badges.get(f) : ''}</span>`;
+        below = `<div data-lcs-names style="display:grid;grid-template-columns:repeat(${d.cols},1fr);gap:${d.gap}px 16px;padding:${d.gap + 2}px 14px;border-radius:14px;background:${T.cream}">` +
+          order.map((f) => `<div data-lcs-name="${f}" style="display:flex;align-items:center;gap:12px">${box(f)}<span style="font:700 ${d.cols === 3 ? 20 : 23}px/1.2 'Nunito',sans-serif;color:${T.ink}">${NAME[f]}</span></div>`).join('') + `</div>`;
+        if (d.jobs) {
+          const JOBS = shuffle([['heading', 'It tells what one part of the text is about.'], ['glossary', 'It tells what a word means.'], ['caption', 'It uses words to tell about the picture.']], rng);
+          below += `<div data-lcs-jobs style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border:2.5px solid ${T.teal};border-radius:14px;background:#FFFFFF">` +
+            `<div style="font:700 18px/1.3 'Baloo 2',cursive;color:${T.teal}">Which part does this job? Write its number.</div>` +
+            JOBS.map(([f, text]) => `<div data-lcs-job="${f}" style="display:flex;align-items:center;gap:12px">${box(f, ' data-lcs-jobbox="1"')}<span style="font:700 20px/1.25 'Nunito',sans-serif;color:${T.ink}">${text}</span></div>`).join('') + `</div>`;
+        }
+        items = parts.map((f) => t.id + ': ' + f);
+      }
+
       if (mode === 'features') {
         let fs = t.features.slice();
         if (d.n === 4) { const drop = rng.pick(fs.filter((x) => x.kind === 'heading')); fs = fs.filter((x) => x !== drop); }
@@ -236,7 +271,7 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
 
       return {
         bodyHtml: `<div data-ws-content data-lcs-info="${mode}|${lv}" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:7px;min-height:0">` +
-          textBox(t, { font: d.font, glossary: mode === 'features', underline }) + below + `</div>`,
+          textBox(t, { font: d.font, glossary: mode === 'features' || mode === 'label', underline, badges }) + below + `</div>`,
         meta: { text: t.id, items },
       };
     },
@@ -263,7 +298,7 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
         if (!cap || cap.textContent.trim().split(/\s+/).length < 3) fails.push('no caption under the picture');
         if (cap && im && R(cap).top < R(im).bottom - 1) fails.push('the caption is not under its picture');
         const gl = box.querySelectorAll('[data-lcs-gloss]').length;
-        if (mode === 'features' ? gl !== 3 : gl !== 0) fails.push(`a glossary of ${gl} words on a ${mode} page`);
+        if (mode === 'features' || mode === 'label' ? gl !== 3 : gl !== 0) fails.push(`a glossary of ${gl} words on a ${mode} page`);
         // nothing leaves the page, no two blocks overlap, the stack fills the body
         const blocks = [...root.children];
         blocks.forEach((b, i) => { const r = R(b); if (r.left < rb.left - 1 || r.right > rb.right + 1 || r.bottom > rb.bottom + 1) fails.push(`block ${i + 1} leaves the page`); if (i && r.top < R(blocks[i - 1]).bottom - 0.5) fails.push(`block ${i + 1} overlaps the one above`); });
@@ -306,6 +341,31 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
           if (det !== lv) fails.push(`${det} key detail boxes on level ${lv}`);
           if (lv === 1 ? choiceSets.length !== 1 : choiceSets.length !== 0) fails.push('the topic is circled on level 1 only');
           if (lv > 1 && !tp.querySelector('[data-lcs-line]')) fails.push('no line for the main topic');
+        }
+        if (mode === 'label') {
+          const want = lv === 1 ? 4 : 6;
+          const dots = [...document.querySelectorAll('[data-lcs-badge]')].map((e) => { const [f, n] = e.dataset.lcsBadge.split('|'); return { e, f, n: +n }; });
+          if (dots.length !== want) fails.push(dots.length + ' numbered dots, ' + want + ' wanted');
+          if (dots.map((x) => x.n).sort((a, b) => a - b).join() !== Array.from({ length: want }, (_, i) => i + 1).join()) fails.push('the dots are not numbered 1 to ' + want);
+          const at = { title: '[data-lcs-title]', heading: '[data-lcs-heading]', bold: '[data-lcs-part]', picture: 'figure', caption: '[data-lcs-caption]', glossary: '[data-lcs-glossary]' };
+          for (const x of dots) {
+            if (!x.e.closest(at[x.f])) fails.push('the dot of the ' + x.f + ' does not stand at it');
+            if (x.f === 'bold' && !(x.e.nextElementSibling && x.e.nextElementSibling.matches('[data-lcs-bold]'))) fails.push('the dot of the bold word does not stand before a bold word');
+            if (R(x.e).width < 20) fails.push('a dot too small to read');
+          }
+          const inOrder = dots.map((x) => x.n);
+          if (inOrder.every((n, i) => !i || n > inOrder[i - 1])) fails.push('the dots count up in the order of the page');
+          const names = [...document.querySelectorAll('[data-lcs-name]')];
+          if (names.length !== want) fails.push(names.length + ' names for ' + want + ' dots');
+          const wants = names.map((e) => +e.querySelector('[data-lcs-box]').dataset.lcsWant);
+          names.forEach((e) => { const f = e.dataset.lcsName, d = dots.find((x) => x.f === f); if (!d || d.n !== +e.querySelector('[data-lcs-box]').dataset.lcsWant) fails.push('the key of "' + f + '" is not the number at that part'); if (!e.textContent.replace(/\d/g, '').trim()) fails.push('a box without a name'); });
+          if (wants.every((n, i) => !i || n > wants[i - 1]) || wants.every((n, i) => !i || n < wants[i - 1])) fails.push('the answers below count up or down: ' + wants.join(''));
+          const jobs = [...document.querySelectorAll('[data-lcs-job]')];
+          if (lv === 3 ? jobs.length !== 3 : jobs.length !== 0) fails.push(jobs.length + ' jobs on level ' + lv);
+          jobs.forEach((e) => { const d = dots.find((x) => x.f === e.dataset.lcsJob); if (!d || d.n !== +e.querySelector('[data-lcs-box]').dataset.lcsWant) fails.push('the key of a job is not the number of its part'); });
+          if (new Set(jobs.map((e) => e.dataset.lcsJob)).size !== jobs.length) fails.push('two jobs of one part');
+          document.querySelectorAll('[data-lcs-box]').forEach((b) => { const r = R(b); if (r.width < 40 || r.height < 40) fails.push('a box too small to write a number in'); });
+          if (choiceSets.length || lines.length) fails.push('the naming page has neither choices nor writing lines');
         }
         if (mode === 'features') {
           const want = lv === 3 ? 4 : 5;

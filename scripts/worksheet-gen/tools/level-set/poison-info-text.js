@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Proves that the page checks of types/_shared/info-text.js (G1-575 Read the Facts, G1-576 Main Topic and Key Details,
- * G1-577 Use the Text Features) can fail: each planted fault changes the factory (or the text bank), renders the page
+ * G1-577 Use the Text Features, G1-578 Name the Text Features) can fail: each planted fault changes the factory (or the text bank), renders the page
  * it concerns, and expects the page's own check or the bank's check to report it. The file is restored after every
  * fault (and on any error). A dev tool: never run it while pages are generated.
  *
@@ -32,6 +32,12 @@ const FAULTS = [
   ['one answer printed twice', FACTORY, 'const out = wrong.slice(); out.splice(at, 0, right); return out;', 'const out = [wrong[0], wrong[0]]; out.splice(at, 0, right); return out;', 'G1-577', 1],
   ['the second picture is the first again', FACTORY, 'const p2 = t.picture2;', 'const p2 = t.picture;', 'G1-577', 3],
   ['a writing line wider than its card', FACTORY, "line({ w: inner, h: d.rowH, answer: key ? x.answer : null })", "line({ w: inner + 60, h: d.rowH, answer: key ? x.answer : null })", 'G1-577', 2],
+  ['naming page: every dot carries the number 1', FACTORY, 'badges = new Map(parts.map((f, i) => [f, nums[i]]));', 'badges = new Map(parts.map((f) => [f, 1]));', 'G1-578', 2],
+  ['naming page: the dots count up down the page', FACTORY, 'if (!rising(nums) && !falling(nums) && !rising(want) && !falling(want) && order.join() !== parts.join()) break;', 'nums = parts.map((_, i) => i + 1); break;', 'G1-578', 2],
+  ['naming page: six parts on the easy page', FACTORY, '1: { font: 24, parts: 4, cols: 2, box: 72, gap: 26 }', '1: { font: 24, parts: 6, cols: 2, box: 72, gap: 26 }', 'G1-578', 1],
+  ['naming page: a job keyed to another part', FACTORY, 'JOBS.map(([f, text]) => `<div data-lcs-job="${f}"', 'JOBS.map(([f, text]) => `<div data-lcs-job="title"', 'G1-578', 3],
+  ['naming page: boxes too small to write in', FACTORY, '3: { font: 18, parts: 6, cols: 3, box: 44, gap: 10, jobs: true }', '3: { font: 18, parts: 6, cols: 3, box: 30, gap: 10, jobs: true }', 'G1-578', 3],
+  ['naming page: no dot at the caption', FACTORY, "text-align:center\">${bd('caption')}", 'text-align:center">', 'G1-578', 1],
   // the bank's own check (it runs when the factory loads)
   ['bank: a question whose sentence is not in the text', BANK, '"sentence": 1,', '"sentence": 41,', 'G1-575', 2],
   ['bank: a bold word that the glossary does not hold', BANK, '"word": "tongue",', '"word": "tooth",', 'G1-577', 2],

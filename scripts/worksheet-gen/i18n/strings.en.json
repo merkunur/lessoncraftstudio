@@ -5089,5 +5089,9 @@
   "G1-577": {
     "title": "Use the Text Features",
     "instruction": "Read the text. Use the headings, the bold words, the caption, and the glossary to write each answer."
+  },
+  "G1-578": {
+    "title": "Name the Text Features",
+    "instruction": "Look at the text. Each numbered dot is on one part of the text. Write the dot's number in the box next to the name of that part."
   }
 }

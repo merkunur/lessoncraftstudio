@@ -1344,6 +1344,79 @@ module.exports = {
   mergedBank: (loc) => mergedBank(loc),
   levelSetData: () => levelSetData(),
 
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6") — the unit checks' page, 2026-11-15 (the
+   * de / sv reviewers of the checks):
+   *   base (G1-352)       each card asks EVERY pronoun of the lesson once (de er · sie · es, sv han · hon · de; three at most):
+   *                       a row per referent — its picture over its name or word, the locale's chips beside it, the right
+   *                       chip carrying data-lcs-correct — in a drawn order. Two one-referent cards per form never asked
+   *                       the third word (de "es", sv form A "de")
+   *   anaphora (G2-353)   only the blocks whose FIRST pronoun stands for the SECOND name (crossed): form A crossed and form
+   *                       B kept the order, so a child who linked first to first had one form right
+   * Drawn like a new page (the merged bank). Every other face gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    const { checkGrid } = require('../../lib/check-page.js');
+    if (d.layout === 'anaphora') {
+      const cards = [], seenA = new Set();
+      let style = '', crossedOnly = true;
+      for (let round = 0; round < 10 && cards.length < 6; round++) {
+        if (round === 6 && cards.length < 4) { crossedOnly = false; cards.length = 0; seenA.clear(); style = ''; }
+        const built = this.build({ theme, difficulty, locale }, { ...ctx, check: false });
+        const html = built.bodyHtml;
+        const st = html.match(/<style data-lcs-key>[\s\S]*?<\/style>/);
+        let added = false;
+        for (let at = html.indexOf('<div class="ws-lane" data-ws-content data-lcs-pair'); at >= 0; at = html.indexOf('<div class="ws-lane" data-ws-content data-lcs-pair', at + 10)) {
+          // the block is one <div> … its balanced </div>
+          let depth = 0, end = -1;
+          const re = /<\/?div\b/g; re.lastIndex = at;
+          for (let m; (m = re.exec(html));) { depth += m[0] === '<div' ? 1 : -1; if (depth === 0) { end = html.indexOf('>', m.index) + 1; break; } }
+          if (end < 0) break;
+          const block = html.slice(at, end);
+          const a = (block.match(/data-lcs-a="([^"]*)"/) || [])[1];
+          const first = (block.match(/data-lcs-anaphor data-lcs-ref="([^"]*)"/) || [])[1];
+          if (cards.length >= 6 || seenA.has(a) || (crossedOnly && first !== 'b')) continue;
+          seenA.add(a); cards.push(block.replace('style="padding:8px 16px;', 'style="padding:4px 4px;')); added = true;
+        }
+        if (added && st) style += st[0];
+      }
+      if (cards.length < 4) throw new Error(`${this.id} checkPage: ${loc} gives ${cards.length} anaphora blocks (< 4)`);
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}${style}</div>`, meta: {} };
+    }
+    if (d.layout) return this.build({ theme, difficulty, locale }, ctx);
+    const { articleChips } = require('../../templates/components-b2.js');
+    const { portraitStrip, namePlate } = require('../../templates/components-b4.js');
+    const bank = { ...mergedBank(loc), __fresh: true };
+    const cfg = resolveBase(d, bank);
+    const G = Math.min(3, bank.chips.length);
+    const byChip = bank.chips.map(() => []), seen = new Set();
+    for (let deal = 0; deal < 8 && byChip.filter((x) => x.length >= 6).length < G; deal++) {
+      const cards = compose(ctx.rng, bank, cfg, loc);
+      if (!cards) continue;
+      for (const c of cards) {
+        const id = c.it.kind === 'object' ? 'o:' + c.it.object.key : c.it.names.map((n) => n.name).join('+');
+        if (seen.has(id)) continue;
+        seen.add(id); byChip[c.chip].push({ ...c, deal });
+      }
+    }
+    const chipsAsked = byChip.map((x, i) => [i, x.length]).filter(([, n]) => n > 0).sort((p, q) => q[1] - p[1]).slice(0, G).map(([i]) => i).sort((p, q) => p - q);
+    const N = Math.min(6, ...chipsAsked.map((i) => byChip[i].length));
+    if (chipsAsked.length < G || N < 4) throw new Error(`${this.id} checkPage: ${loc} gives ${N} cards of every pronoun (< 4)`);
+    const row = (c) => {
+      const obj = c.it.kind === 'object';
+      const pics = d.noPics ? [] : obj ? [{ src: fileUri(c.it.object.pic.theme, c.it.object.pic.noun), key: c.it.object.key }] : c.it.people.map((p) => ({ src: portraitSrc(p), key: p.key }));
+      const plate = obj ? objectCaption(c.it.object, loc, cfg.objectCaption) : fillSubject('{subj}', c.it.names.map((n) => n.name), bank.and, bank.andBefore);
+      return `<div data-lcs-item data-lcs-key="${c.key}" data-lcs-chip-key="${c.chip}" style="display:grid;grid-template-columns:190px 1fr;column-gap:12px;align-items:center;padding:2px 0">` +
+        `<div style="display:flex;flex-direction:column;align-items:center;gap:2px">${pics.length ? portraitStrip({ pics, px: pics.length > 1 ? 48 : 60, gap: 4 }) : ''}${namePlate({ text: plate, px: 17, h: 26 })}</div>` +
+        articleChips({ chips: bank.chips, correctIndex: c.chip, w: bank.chips.length > 3 ? 64 : 72, h: 44, fontPx: bank.chips.length > 3 ? 20 : 22 }).replace('class="ws-achips"', 'class="ws-achips" style="justify-content:flex-start;padding-top:0"') + `</div>`;
+    };
+    const out = [];
+    for (let k = 0; k < N; k++) out.push(`<div style="display:flex;flex-direction:column;gap:8px">${ctx.rng.shuffle(chipsAsked.map((i) => byChip[i][k])).map(row).join('')}</div>`);
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(out)}</div>`, meta: {} };
+  },
+
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
   _buildWith(bank, d, { locale }, ctx) {
     if (!d) throw new Error(`${ID}: no difficulty config`);

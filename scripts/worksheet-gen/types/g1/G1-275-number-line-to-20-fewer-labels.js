@@ -10,4 +10,9 @@ module.exports = {
   slug: 'number-line-to-20-fewer-labels',
   difficulty: base.pointerLevels(D),
   i18n: { en: { title: "Number Line to 20: Fewer Labels", instruction: "Only 0, 10 and 20 are printed. Count on to each arrow." } },
+
+  /** THE ITEM BANK of the unit checks (Part 7.6), 2026-11-15 (German reviewer: the key printed each number twice, one
+   *  over the other, in two sizes and colours): the check takes the page's own lines, and its key is built WITHOUT the
+   *  page key's numbers — every box carries its number (data-lcs-answer), which the key of a check writes in itself. */
+  checkPage(args, ctx) { return base.build.call(this, args, { ...(ctx || {}), answerKey: false }); },
 };

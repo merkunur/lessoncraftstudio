@@ -71,11 +71,11 @@ const ROWS = [
     THEMED],
   ['g2', 'G2-352', 'odd-and-even-under-100-look-at-the-ones-box', 'G1-351-odd-and-even.js', 2,
     { mode: 'ones', range: [10, 99], items: 12, rule: true, onesCover: true, maxOnesRepeat: 2, minEachParity: 4, minHigh: 4, box: 64, digitPx: 34, circle: 60 },
-    'Odd and Even Numbers Under 100: Look at the Ones Box', 'Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd.',
+    'Odd and Even Numbers Under 100: Look at the Ones Box', 'Read the rule at the top. Look only at the ones box of each number and fill in the circle under even or odd.',
     { gradeBand: 'G2' }],
   ['g3', 'G3-386', 'odd-and-even-sum-decide-without-adding', 'G1-351-odd-and-even.js', 2,
     { mode: 'sums', range: [100, 999], items: 12, terms: 2, table: true, cases: { ee: 3, oo: 3, eo: 3, oe: 3 }, circle: 60, px: 30 },
-    'Odd or Even Sum? Decide Without Adding', 'Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd.',
+    'Odd or Even Sum? Decide Without Adding', 'Do not add. Look at the underlined ones digit of each number, use the table, and mark whether the sum is even or odd.',
     { gradeBand: 'G3' }],
   ['g1', 'G1-370', 'odd-and-even-count-the-pictures-in-pairs', 'G1-351-odd-and-even.js', 2,
     // ⚠ KNOWN FULL PARITY TELL, and unlike G1-369 there is NO legal configuration that closes it.

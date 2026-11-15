@@ -11,6 +11,6 @@ module.exports = {
   slug: 'cursive-capitals-with-names',
   // Level Set 2026-09-28 (PDF only): L1 capital + name traced twice · L2 published (new copies: the whole alphabet in groups) · L3 the name printed in print letters, written in cursive
   difficulty: { 1: { ...D, traceTwice: true, nameAlt: 0 }, 2: { ...D, nameAlt: 1 }, 3: { ...D, printStrip: true, nameAlt: 0 } },
-  i18n: { en: { title: "Cursive Capital Letters: Write the Names", instruction: "Trace each grey capital letter and name, then write them on the empty line below." } },
+  i18n: { en: { title: "Cursive Capital Letters: Write the Names", instruction: "Trace each gray capital letter and name, then write them on the empty line below." } },
   gradeBand: "G2",
 };

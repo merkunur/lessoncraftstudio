@@ -491,6 +491,26 @@ function makeGlyphTask({ id, slug, exerciseType, gradeBand, mode, unit, unitMax,
     ...(axis ? { unitAxis: axis } : {}),
     difficulty: Object.fromEntries((levels || [1, 2, 3]).map((l) => [l, {}])),
     i18n,
+    /** THE ITEM BANK of the unit checks (Part 7.6), the "colour the greater number" page only, 2026-11-15 (US
+     *  teacher-reviewer): the page's own pairs, eight cards each its own pair of the level's numbers, drawn smaller so a
+     *  part clears the page's foot (the page's cards of 218 px ran into it), no number on two cards of a page and no pair
+     *  twice in either order (form B asked 8 and 4, then 4 and 8). Each option names its number (data-lcs-choice), so a
+     *  check knows that two cards with the same greater number ask the same thing. */
+    ...(mode === 'bigger' ? { checkPage({ difficulty }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const lv = Number(difficulty) || 2, rng = ctx.rng, M = { 1: 10, 2: 20, 3: 99 }[lv] || 20, cards = [];
+      // (a number on two cards of a page at most: the numbers to 10 are too few for eight cards of their own)
+      const times = new Map(), pairs = new Set(), most = M >= 20 ? 1 : 2;
+      for (let g = 0; cards.length < 8 && g < 600; g++) {
+        const a = rng.int(1, M), b = rng.int(1, M), pk = Math.min(a, b) + ',' + Math.max(a, b);
+        if (a === b || pairs.has(pk) || (times.get(a) || 0) >= most || (times.get(b) || 0) >= most) continue;
+        pairs.add(pk); times.set(a, (times.get(a) || 0) + 1); times.set(b, (times.get(b) || 0) + 1);
+        const lab = (v) => opt(v, 104, v === Math.max(a, b), 104).replace(`data-lcs-label="${v}"`, `data-lcs-label="${v}" data-lcs-choice="${v}"`);
+        cards.push(`<div style="display:flex;justify-content:space-around;align-items:center;padding:4px">${lab(a)}${lab(b)}</div>`);
+      }
+      if (cards.length < 8) throw new Error(`${id} checkPage: ${cards.length} pairs`);
+      return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
+    } } : {}),
     build({ difficulty, locale, unit: u }, ctx) {
       const loc = String(locale || 'en').slice(0, 2), lv = Number(difficulty) || 2;
       const un = u || (axis ? axis.exemplar(loc) : null);

@@ -3,7 +3,7 @@
   "types": {
     "K-236": {"title": "Grafismo e traçados", "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."},
     "K-237": {"title": "Números pontilhados de 0 a 9", "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."},
-    "K-238": {"title": "Letras maiúsculas pontilhadas", "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."},
+    "K-238": {"title": "Letras maiúsculas pontilhadas", "instruction": "Cubra cada letra pontilhada. Depois, tente escrever a letra na linha vazia."},
     "K-239": {"title": "Palavras frequentes", "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."},
     "K-240": {"title": "Recorte e colagem", "instruction": "Recorte as figuras da parte de baixo, separe em grupos e cole cada uma no seu quadro."},
     "K-241": {"title": "Pinte conforme o resultado", "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."},

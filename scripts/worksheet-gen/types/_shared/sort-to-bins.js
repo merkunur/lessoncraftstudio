@@ -10,6 +10,15 @@ const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
 const { keyNumber } = require('./key-number.js');
 
+/** the kinds of thing a check sorts by (checkPage): each a colour theme of the library and members a child names at once
+ *  (pictures opened 2026-11-15: no cherry or plum, which read as apples; one of hen and chicken, which are one picture) */
+const SORT_KINDS = [
+  { key: 'animals', theme: 'farm animals', members: ['cow', 'pig', 'horse', 'sheep', 'duck', 'hen', 'goat', 'rabbit', 'dog', 'donkey', 'cat'] },
+  { key: 'fruit', theme: 'fruits', members: ['banana', 'apple', 'pear', 'lemon', 'strawberry', 'pineapple', 'watermelon', 'orange'] },
+  { key: 'vehicles', theme: 'vehicles', members: ['car', 'bus', 'truck', 'train', 'airplane', 'bicycle', 'boat', 'tractor', 'helicopter'] },
+  { key: 'clothes', theme: 'clothing', members: ['t-shirt', 'hat', 'shoe', 'dress', 'jacket', 'pants', 'boots', 'scarf', 'mitten', 'sweater', 'skirt', 'cap'] },
+];
+
 function makeSortBinsType(cfg) {
   const { id, slug, bins, gradeBand, i18n } = cfg;
   return {
@@ -61,29 +70,37 @@ function makeSortBinsType(cfg) {
     },
 
     /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small — one picture
-     *  of the strip over the bins it is sorted into, the right bin carrying data-lcs-correct (a line drawn on a check has no
-     *  mark its key can show: the check circles the bin). Seven cards, each with its own set of bins (two cards with the
-     *  same bins would be the same task), the right bin's place drawn evenly over the cards. */
-    checkPage({ theme }, ctx) {
+     *  over the bins it is sorted into, the right bin carrying data-lcs-correct (a line drawn on a check has no mark its key
+     *  can show: the check circles the bin). Seven cards, each with its own set of bins, the right bin's place drawn evenly
+     *  over the cards.
+     *  2026-11-15 (native reviews en, de, sv: "picture-to-identical-picture matching that every child gets right"): a bin
+     *  of a check is a KIND of thing — animals, fruit, vehicles, clothes — labelled by two of its members, and the picture
+     *  to sort is a third member that no bin of the card shows. The kinds and their members are SORT_KINDS below (every
+     *  picture opened and read: a cherry and a plum read as apples, a hen and a chicken are one picture, so they are out);
+     *  colour pictures only. No word is printed, so the card is the same in every language. */
+    checkPage(args, ctx) {
       const { checkGrid } = require('../../lib/check-page.js');
       const rng = ctx.rng, n = 7;
-      const pool = labelSafeNouns(theme);
-      if (pool.length < bins + 1) throw new Error(id + ': theme ' + theme + ' has too few pictures for a check');
-      const sets = [], seen = new Set();
-      for (let guard = 0; sets.length < n && guard < 400; guard++) {
-        const cats = rng.sample(pool, bins), k = cats.map((c) => c.noun).sort().join('|');
-        if (!seen.has(k)) { seen.add(k); sets.push(cats); }
-      }
-      if (sets.length < n) throw new Error(id + ': theme ' + theme + ' gives fewer than ' + n + ' sets of bins');
+      // (two cards may share their kinds, not their picture to sort: each card draws its own label pictures and its own item)
+      const sets = Array.from({ length: n }, () => rng.sample(SORT_KINDS, bins));
       const at = rng.shuffle(sets.map((_, i) => i % bins));
-      const cards = sets.map((cats, ci) => {
-        const item = cats[at[ci]];
-        const binBoxes = cats.map((c) =>
-          `<div class="ws-bin" style="flex:0 0 92px;height:62px" data-lcs-bin="${c.vocabKey}"${c === item ? ' data-lcs-correct="1"' : ''}>` +
-          `<span class="ws-bin-label" style="width:52px;height:52px;top:-26px"><img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:40px;height:40px"></span></div>`).join('');
+      const usedItems = new Set();
+      const cards = sets.map((kinds, ci) => {
+        const right = kinds[at[ci]];
+        // the picture to sort: a member of the right kind not sorted on another card of the page; the two label pictures of
+        // each bin: two other members of its kind
+        const free = right.members.filter((m) => !usedItems.has(right.theme + '/' + m));
+        const item = rng.pick(free.length ? free : right.members);
+        usedItems.add(right.theme + '/' + item);
+        const binBoxes = kinds.map((c) => {
+          const labels = rng.sample(c.members.filter((m) => !(c === right && m === item)), 2);
+          return `<div class="ws-bin" style="flex:0 0 ${bins === 3 ? 96 : 104}px;height:62px" data-lcs-bin="${c.key}" data-lcs-choice="${c.key}"${c === right ? ' data-lcs-correct="1"' : ''}>` +
+            `<span class="ws-bin-label" style="width:${bins === 3 ? 84 : 90}px;height:48px;top:-26px;display:flex;align-items:center;justify-content:center;gap:2px">` +
+            labels.map((m) => `<img class="ws-icon" src="${fileUri(c.theme, m)}" alt="" style="width:${bins === 3 ? 38 : 40}px;height:${bins === 3 ? 38 : 40}px">`).join('') + `</span></div>`;
+        }).join('');
         return `<div style="display:flex;flex-direction:column;align-items:center;gap:36px;padding-top:2px">` +
-          `<span class="ws-pattern-slot" style="width:78px;height:78px" data-lcs-item="${item.vocabKey}"><img class="ws-icon" src="${fileUri(theme, item.noun)}" alt="" style="width:66px;height:66px"></span>` +
-          `<div style="display:flex;justify-content:center;gap:18px;width:100%">${binBoxes}</div></div>`;
+          `<span class="ws-pattern-slot" style="width:78px;height:78px" data-lcs-item="${right.key}:${item}"><img class="ws-icon" src="${fileUri(right.theme, item)}" alt="" style="width:66px;height:66px"></span>` +
+          `<div style="display:flex;justify-content:center;gap:${bins === 3 ? 10 : 18}px;width:100%">${binBoxes}</div></div>`;
       });
       return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards, { cols: 2 })}</div>`, meta: {} };   // (in a wrapper: a grid straight in the body is cut as an old card page, keyed by the numbers it shows)
     },

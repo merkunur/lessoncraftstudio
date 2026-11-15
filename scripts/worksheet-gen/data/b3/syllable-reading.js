@@ -186,14 +186,11 @@ const SYLLABLE_READING = {
       { key: 'actor', word: 'actor', split: ['ac', 'tor'] },
       { key: 'airplane', word: 'airplane', split: ['air', 'plane'] },
       { key: 'angel', word: 'angel', split: ['an', 'gel'] },
-      { key: 'baker', word: 'baker', split: ['bak', 'er'] },
-      { key: 'baking', word: 'baking', split: ['bak', 'ing'] },
       { key: 'balloon', word: 'balloon', split: ['bal', 'loon'] },
       { key: 'bandage', word: 'bandage', split: ['ban', 'dage'] },
       { key: 'barber', word: 'barber', split: ['bar', 'ber'] },
       { key: 'basket', word: 'basket', split: ['bas', 'ket'] },
       { key: 'basketball', word: 'basketball', split: ['bas', 'ket', 'ball'] },
-      { key: 'biking', word: 'biking', split: ['bik', 'ing'] },
       { key: 'biscuit', word: 'biscuit', split: ['bis', 'cuit'] },
       { key: 'bonfire', word: 'bonfire', split: ['bon', 'fire'] },
       { key: 'bookcase', word: 'bookcase', split: ['book', 'case'] },
@@ -240,7 +237,6 @@ const SYLLABLE_READING = {
       { key: 'hammock', word: 'hammock', split: ['ham', 'mock'] },
       { key: 'hamster', word: 'hamster', split: ['ham', 'ster'] },
       { key: 'headband', word: 'headband', split: ['head', 'band'] },
-      { key: 'hiking', word: 'hiking', split: ['hik', 'ing'] },
       { key: 'honey', word: 'honey', split: ['hon', 'ey'] },
       { key: 'hoodie', word: 'hoodie', split: ['hood', 'ie'] },
       { key: 'island', word: 'island', split: ['is', 'land'] },
@@ -295,10 +291,8 @@ const SYLLABLE_READING = {
       { key: 'santa', word: 'santa', split: ['san', 'ta'] },
       { key: 'scissors', word: 'scissors', split: ['scis', 'sors'] },
       { key: 'scooter', word: 'scooter', split: ['scoot', 'er'] },
-      { key: 'seagull', word: 'seagull', split: ['seag', 'ull'] },
       { key: 'shampoo', word: 'shampoo', split: ['sham', 'poo'] },
       { key: 'shovel', word: 'shovel', split: ['shov', 'el'] },
-      { key: 'skating', word: 'skating', split: ['skat', 'ing'] },
       { key: 'sledding', word: 'sledding', split: ['sled', 'ding'] },
       { key: 'slippers', word: 'slippers', split: ['slip', 'pers'] },
       { key: 'snowman', word: 'snowman', split: ['snow', 'man'] },
@@ -327,7 +321,6 @@ const SYLLABLE_READING = {
       { key: 'walrus', word: 'walrus', split: ['wal', 'rus'] },
       { key: 'wheelchair', word: 'wheelchair', split: ['wheel', 'chair'] },
       { key: 'window', word: 'window', split: ['win', 'dow'] },
-      { key: 'writing', word: 'writing', split: ['writ', 'ing'] },
     ],
     // a `structure:'simple'` R page: one short vowel then consonants; `r` is
     // absent from the class so every r-controlled rime (-ar, -orn) fails, and
@@ -336,6 +329,10 @@ const SYLLABLE_READING = {
     // `red` is approved, count 1, TeX and pictured — but its only picture (colors/red) is a
     // red DROP, which a six-year-old reads as blood or a drop, not as the word; opened 2026-09-14
     ban: [
+      // 2026-11-15: approved boundaries that are hyphenation, not what a child hears and reads: seag-ull (sea-gull), and the
+      // open first syllable of ba-ker, ba-king, bi-king, hi-king, ska-ting, wri-ting printed as bak-er, bak-ing … (the six the
+      // syllable-split page already leaves out for English)
+      'seagull', 'baker', 'baking', 'biking', 'hiking', 'skating', 'writing',
       'red', 'black', 'brown', 'crimson', 'scarlet', 'yellow',                                   // colour drops
       'angry', 'content', 'excited', 'happy', 'merry', 'sunny',                                  // emotion emoji
       'asteroid', 'barrette', 'butter', 'cymbals', 'harvest', 'liberty', 'muscles', 'neptune',   // not the word (opened)

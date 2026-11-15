@@ -221,7 +221,7 @@
   },
   "K-064": {
     "title": "Sopra, sotto, accanto",
-    "instruction": "Cerchia l'immagine che sta SOPRA la scatola."
+    "instruction": "Ogni riquadro indica un posto: SOPRA, SOTTO o ACCANTO alla scatola. Cerchia l'immagine che sta lì."
   },
   "K-065": {
     "title": "Sinistra e destra",
@@ -986,7 +986,7 @@
   },
   "K-238": {
     "title": "Lettere maiuscole tratteggiate",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-239": {
     "title": "Parole frequenti",
@@ -1098,23 +1098,23 @@
   },
   "K-254": {
     "title": "Lettere tratteggiate da G a N",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-255": {
     "title": "Lettere tratteggiate da O a T",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-256": {
     "title": "Lettere tratteggiate da R a Z",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-257": {
     "title": "Le vocali tratteggiate: A E I O U",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-258": {
     "title": "Le prime lettere: A B C D",
-    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-259": {
     "title": "Parole frequenti: serie 2",
@@ -1426,7 +1426,7 @@
   },
   "K-278": {
     "title": "Lettere minuscole tratteggiate",
-    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu alla fine della riga. Parti dal punto arancione e segui le frecce."
   },
   "K-279": {
     "title": "Minuscole tratteggiate da g a n",

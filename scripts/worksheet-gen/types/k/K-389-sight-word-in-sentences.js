@@ -9,6 +9,12 @@
  */
 'use strict';
 const SW = require('../../lib/sight-words-levelset.js');
+// the check page's box (checkPage): words that fit almost any gap never stand beside the card's word as the wrong one
+const FLOATING = {
+  en: ['now', 'then', 'here', 'there', 'too', 'today', 'also', 'so', 'very', 'not', 'all', 'again', 'soon', 'out', 'up', 'down', 'away', 'just', 'only', 'still', 'yes', 'no', 'please', 'well', 'back', 'off', 'on', 'in', 'over', 'around'],
+  de: ['nicht', 'auch', 'noch', 'schon', 'jetzt', 'hier', 'da', 'dort', 'heute', 'sehr', 'nur', 'mal', 'gern', 'gerne', 'oft', 'so', 'dann', 'nun', 'ja', 'nein', 'bitte', 'gut', 'wieder', 'immer', 'doch', 'viel', 'mit', 'weg', 'hin', 'her'],
+  sv: ['inte', 'också', 'nu', 'här', 'där', 'då', 'idag', 'mycket', 'bara', 'så', 'gärna', 'ofta', 'ja', 'nej', 'snälla', 'bra', 'igen', 'alltid', 'redan', 'med', 'ut', 'in', 'upp', 'ner', 'bort', 'hem', 'hit', 'dit', 'också', 'mer'],
+};
 
 module.exports = {
   id: 'K-389',
@@ -41,7 +47,8 @@ module.exports = {
   },
 
   /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): eight sight words of the locale's core list
-   *  (the published units), each a card of its own — the word in its box and ONE of its reviewed sentences with the word
+   *  (the published units), each a card of its own — the word in its box beside one sight word that does not fit (the
+   *  child chooses), and ONE of its reviewed sentences with the word
    *  taken out, drawn by the page's own rules (blankable, a sentence-initial gap only as the level allows it, traced at
    *  level 1). The gap carries the word (data-lcs-answer, a gap box for the key). Eight: the cutter pairs a page's cards
    *  with the key page of build() by their place when the counts agree, and a page holds four to six sentences. */
@@ -51,6 +58,27 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const rng = ctx.rng;
     const units = SW.unitAxis.units(loc).slice(0, 24);
+    // the box holds TWO sight words, the card's own and one that does not fit its sentence (2026-11-15, en / sv check
+    // reviews: a box of one word was copied onto the line, nothing was read or chosen). "Does not fit": the locale's
+    // own reviewed sentences never put that word right after the gap's left neighbour or right before its right one (a
+    // look-alike first — här / har, then / they — so the child reads the word, then any other)
+    // … and never a word that stands where the card's word stands (the two share a left or right neighbour in those
+    // sentences: de / du, now / not — "Kommer de med?" is a sentence too)
+    const tok = (s) => ['^', ...String(s).toLocaleLowerCase(loc).split(/[^\p{L}\p{N}']+/u).filter(Boolean), '$'];
+    const pairs = new Set(), left = new Map(), right = new Map();
+    const add = (m, k, v) => { if (!m.has(k)) m.set(k, new Set()); m.get(k).add(v); };
+    for (const w of SW.words(loc)) for (const s of SW.sentencesOf(w, loc)) {
+      const t = tok(s);
+      for (let i = 1; i < t.length; i++) { pairs.add(t[i - 1] + ' ' + t[i]); add(right, t[i - 1], t[i]); add(left, t[i], t[i - 1]); }
+    }
+    const shares = (m, a, b) => [...(m.get(a) || [])].some((x) => x !== '^' && x !== '$' && (m.get(b) || new Set()).has(x));
+    // … and never a word that fits almost any gap (now, auch, nu: "I am now sad", "Kom nu!")
+    const floating = new Set(FLOATING[loc] || []);
+    const fitsGap = (s, word, other) => {
+      const { before, after } = SW.splitAtWord(s, word);
+      const b = tok(before), a = tok(after), o = other.toLocaleLowerCase(loc), w = word.toLocaleLowerCase(loc);
+      return floating.has(o) || pairs.has(b[b.length - 2] + ' ' + o) || pairs.has(o + ' ' + a[1]) || shares(left, w, o) || shares(right, w, o);
+    };
     const blocks = [];
     for (const unit of rng.shuffle(units)) {
       if (blocks.length === 8) break;
@@ -60,11 +88,16 @@ module.exports = {
       const pool = d.initial === 'any' ? all : (inner.length ? inner : all);
       if (!pool.length) continue;
       const s = rng.pick(pool);
+      const low = word.toLocaleLowerCase(loc);
+      const other = [...SW.foils(word, loc, { k: 12, mode: 'alike', rng }), ...SW.foils(word, loc, { k: 30, mode: 'unlike', rng })]
+        .find((w) => w.toLocaleLowerCase(loc) !== low && !fitsGap(s, word, w));
+      if (!other) continue;
+      const box = rng.next() < 0.5 ? [word, other] : [other, word];
       const sentence = SW.blankSentence(s, word, { traced: d.traced, fontPx: d.fontPx })
         .replace('<span data-lcs-gap style="', '<span data-lcs-gap style="position:relative;')
         .replace(/(<span data-lcs-gap [^>]*>)/, '$1<span data-lcs-gapbox style="position:absolute;inset:0;z-index:1;line-height:normal"></span>');
       blocks.push(`<div style="display:flex;flex-direction:column;gap:8px">` +
-        `<div style="display:flex;justify-content:center">${SW.wordBox(word, 40)}</div>${sentence}` +
+        `<div style="display:flex;justify-content:center;gap:16px">${box.map((w) => SW.wordBox(w, 34)).join('')}</div>${sentence}` +
         (SW.startsSentence(s, word) ? `<div data-lcs-capital style="font-family:'Nunito',sans-serif;font-size:15px;font-style:italic">${SW.esc(SW.label('capital', loc))}</div>` : '') + `</div>`);
     }
     if (blocks.length < 8) throw new Error(`K-389 checkPage: ${loc} gives ${blocks.length} sight words with a sentence`);

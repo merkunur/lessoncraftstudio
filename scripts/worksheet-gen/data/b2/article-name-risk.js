@@ -29,6 +29,7 @@ const NAME_RISK = {
     "asteroid": "a rock",
     "athlete": "a runner",
     "author": "a writer",
+    "avocado": "a pear",   // 2026-11-15, en check review: the halved avocado with its stem reads as a pear to a US kindergartner
     "azalea": "a flower",
     "dart": "an arrow",
     "earthworm": "a worm",

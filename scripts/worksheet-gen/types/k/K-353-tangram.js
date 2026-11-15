@@ -150,6 +150,35 @@ module.exports = {
   FACE_MODES,
   K_FLOOR,
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6), the `match` face (G2-347): a card is one row — a shadow beside three
+   * drawn solutions — of a figure that has NO symmetry (boat, cat, rabbit), its two wrong solutions its mirror image and a
+   * turn of it, so "turned or flipped" has to be checked (review de f1115, 2026-11-15: the arrow pointing down was found
+   * by "which arrow points down", and both forms showed it). The figures are drawn a little smaller than on the page so
+   * that all three fit; the right solution stands where the draw puts it. Every other face builds its own page.
+   */
+  checkPage(args, ctx) {
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    if (!d || d.mode !== 'match') return this.build(args, ctx);
+    const rng = ctx.rng, S = 80, box = 150, gap = 8, pad = 1.5, inner = box - 4;
+    const pool = FIG.poolFor('match', { S, pool: ['boat', 'cat', 'rabbit'], box, pad }, d.bodyMin || 677).filter((k) => TG.symmetryGroup(FIG.figure(k).tans).length === 1);
+    if (pool.length < 2) throw new Error(`${ID} checkPage: ${pool.length} figures without symmetry fit the check's box`);
+    const ROT = ['rot90', 'rot180', 'rot270'], MIR = ['mirX', 'mirY', 'mirD', 'mirA'];
+    const { checkGrid } = require('../../lib/check-page.js');
+    const seen = new Set(), cards = [];
+    for (let guard = 0; cards.length < 6 && guard < 300; guard++) {
+      const k = pool[cards.length % pool.length], t0 = rng.pick(TG.TRANSFORM_NAMES);
+      const target = TG.transformTiling(FIG.figure(k).tans, t0);
+      const list = rng.shuffle([{ tans: target, t: 'id', correct: true }, { t: rng.pick(MIR) }, { t: rng.pick(ROT) }].map((c) => (c.tans ? c : { ...c, tans: TG.transformTiling(target, c.t), correct: false })));
+      const sig = k + ':' + shapeKeyOf(target);
+      if (seen.has(sig) || list.some((c) => { const s = drawnSize(c.tans, S, pad); return s.w > inner || s.h > inner; })) continue;
+      seen.add(sig);
+      cards.push(`<div class="ws-card-stage" style="justify-content:center;align-items:center;padding:6px 2px">` + C4.matchRow({ figure: { key: k, tans: target }, S, candidates: list, box, gap, transform: t0 }) + '</div>');
+    }
+    if (cards.length < 6) throw new Error(`${ID} checkPage: only ${cards.length} different rows`);
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];

@@ -9728,9 +9728,13 @@
     "id": "bicycle-trampar",
     "noun": "bicycle",
     "form": "sg",
-    "text": "{name} trampar på sin {gap} till skolan.",
+    "text": "{name} åker till skolan på sin {gap}.",
     "fits": [
-     "bicycle"
+     "bicycle",
+     "tractor",
+     "camel",
+     "elephant",
+     "donkey"
     ],
     "foil": "car",
     "predicateKind": "verb",

@@ -217,7 +217,7 @@
   },
   "K-064": {
     "title": "Auf, unter, neben",
-    "instruction": "Kreise das Bild ein, das AUF der Kiste liegt."
+    "instruction": "Auf jeder Karte steht, wo du schauen sollst: AUF, UNTER oder NEBEN der Kiste. Kreise das Bild ein, das dort ist."
   },
   "K-065": {
     "title": "Links und rechts",
@@ -973,7 +973,7 @@
   },
   "K-238": {
     "title": "Großbuchstaben nachspuren",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-239": {
     "title": "Lernwörter üben",
@@ -1085,23 +1085,23 @@
   },
   "K-254": {
     "title": "Buchstaben nachspuren: G bis L",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-255": {
     "title": "Buchstaben nachspuren: M bis R",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-256": {
     "title": "Buchstaben nachspuren: S bis Z",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-257": {
     "title": "Umlaute nachspuren: Ä, Ö, Ü",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-258": {
     "title": "Meine ersten Buchstaben: A, B, C, D",
-    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-259": {
     "title": "Lernwörter: Liste 2",
@@ -1413,27 +1413,27 @@
   },
   "K-278": {
     "title": "Kleinbuchstaben nachspuren",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst am Ende der Zeile."
   },
   "K-279": {
     "title": "Kleinbuchstaben nachspuren: g bis l",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie."
   },
   "K-280": {
     "title": "Kleinbuchstaben nachspuren: m bis r",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie."
   },
   "K-281": {
     "title": "Kleinbuchstaben nachspuren: s bis z",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie."
   },
   "K-282": {
     "title": "Kleine Umlaute und ß nachspuren",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie."
   },
   "K-283": {
     "title": "Meine ersten Kleinbuchstaben: a, b, c, d",
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie."
   },
   "K-284": {
     "title": "Wörter nachspuren",
@@ -1973,7 +1973,7 @@
   },
   "G2-315": {
     "title": "Rechtschreibregel der Woche: {UNIT}",
-    "instruction": "Lies die Regel im Kasten. Sprich jedes Bildwort und schreibe die fehlenden Regelbuchstaben in die gestrichelten Kästchen."
+    "instruction": "Schau dir die Beispiele im Kasten an. Sprich jedes Bildwort und schreibe die fehlenden Buchstaben in die gestrichelten Kästchen."
   },
   "G2-316": {
     "title": "Zusammengesetzte Nomen: Bild + Bild",
@@ -2281,7 +2281,7 @@
   },
   "G2-325": {
     "title": "Regel-Detektiv: {UNIT}",
-    "instruction": "Lies jedes Wort. Finde die Regelbuchstaben, kreise sie im Wort ein und schreibe sie in das kleine Kästchen."
+    "instruction": "Lies jedes Wort. Kreise die Buchstaben ein, um die es oben im Kasten geht, und schreibe sie in das kleine Kästchen."
   },
   "G2-326": {
     "title": "Wörter nach Schreibweise sortieren: {UNIT}",
@@ -2289,7 +2289,7 @@
   },
   "G2-327": {
     "title": "Schreibe das Wort: {UNIT}",
-    "instruction": "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und schreibe alle anderen Buchstaben in die Kästchen."
+    "instruction": "Die Buchstaben in Orange sind schon da. Sprich das Bildwort und schreibe die fehlenden Buchstaben in die Kästchen."
   },
   "G2-329": {
     "title": "Fugen-n oder nicht? Zusammengesetzte Nomen",

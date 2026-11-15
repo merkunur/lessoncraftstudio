@@ -217,7 +217,7 @@
   },
   "K-064": {
     "title": "Em cima, embaixo, ao lado",
-    "instruction": "Circule a figura que está EM CIMA da caixa."
+    "instruction": "Cada cartão diz um lugar: EM CIMA, EMBAIXO ou AO LADO da caixa. Circule a figura que está ali."
   },
   "K-065": {
     "title": "Esquerda e direita",
@@ -984,7 +984,7 @@
   },
   "K-238": {
     "title": "Letras maiúsculas pontilhadas",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-239": {
     "title": "Palavras frequentes",
@@ -1096,23 +1096,23 @@
   },
   "K-254": {
     "title": "Letras pontilhadas de G a M",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-255": {
     "title": "Letras pontilhadas de N a S",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-256": {
     "title": "Letras pontilhadas de S a Z",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-257": {
     "title": "As letras K, W e Y",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-258": {
     "title": "Primeiras letras: A, B, C, D",
-    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-259": {
     "title": "Palavras frequentes: lista 2",
@@ -1424,27 +1424,27 @@
   },
   "K-278": {
     "title": "Letras minúsculas pontilhadas",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra no final da linha."
   },
   "K-279": {
     "title": "Minúsculas pontilhadas de g a m",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia."
   },
   "K-280": {
     "title": "Minúsculas pontilhadas de n a s",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia."
   },
   "K-281": {
     "title": "Minúsculas pontilhadas de s a z",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia."
   },
   "K-282": {
     "title": "As letras k, w e y minúsculas",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia."
   },
   "K-283": {
     "title": "Primeiras minúsculas: a, b, c, d",
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia."
   },
   "K-284": {
     "title": "Palavras pontilhadas com figuras",

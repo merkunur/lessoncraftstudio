@@ -1,0 +1,14 @@
+{
+ "$comment": "K-064 (On, Under, Beside): the words under each card name the place the child looks at (2026-11-15: the page asked ON on every card, so the answer was always the top picture and the two other words of the title were never asked). Native per language; the place word in capitals as in the page's direction line.",
+ "en": { "on": "ON the box", "under": "UNDER the box", "beside": "BESIDE the box" },
+ "de": { "on": "AUF der Kiste", "under": "UNTER der Kiste", "beside": "NEBEN der Kiste" },
+ "es": { "on": "ENCIMA de la caja", "under": "DEBAJO de la caja", "beside": "AL LADO de la caja" },
+ "fr": { "on": "SUR la boîte", "under": "SOUS la boîte", "beside": "À CÔTÉ de la boîte" },
+ "it": { "on": "SOPRA la scatola", "under": "SOTTO la scatola", "beside": "ACCANTO alla scatola" },
+ "pt": { "on": "EM CIMA da caixa", "under": "EMBAIXO da caixa", "beside": "AO LADO da caixa" },
+ "nl": { "on": "OP de doos", "under": "ONDER de doos", "beside": "NAAST de doos" },
+ "sv": { "on": "PÅ lådan", "under": "UNDER lådan", "beside": "BREDVID lådan" },
+ "da": { "on": "PÅ kassen", "under": "UNDER kassen", "beside": "VED SIDEN AF kassen" },
+ "no": { "on": "PÅ esken", "under": "UNDER esken", "beside": "VED SIDEN AV esken" },
+ "fi": { "on": "laatikon PÄÄLLÄ", "under": "laatikon ALLA", "beside": "laatikon VIERESSÄ" }
+}

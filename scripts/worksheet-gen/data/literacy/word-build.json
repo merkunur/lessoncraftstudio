@@ -3,18 +3,6 @@
   "items": {
     "en": [
       {
-        "theme": "forest creatures",
-        "noun": "ant",
-        "word": "ant",
-        "blank": 0
-      },
-      {
-        "theme": "body parts",
-        "noun": "arm",
-        "word": "arm",
-        "blank": 0
-      },
-      {
         "theme": "At the Supermarket",
         "noun": "bag",
         "word": "bag",
@@ -30,12 +18,6 @@
         "theme": "around the house",
         "noun": "bed",
         "word": "bed",
-        "blank": 1
-      },
-      {
-        "theme": "farm animals",
-        "noun": "bee",
-        "word": "bee",
         "blank": 1
       },
       {
@@ -63,21 +45,9 @@
         "blank": 1
       },
       {
-        "theme": "vehicles",
-        "noun": "car",
-        "word": "car",
-        "blank": 1
-      },
-      {
         "theme": "animals",
         "noun": "cat",
         "word": "cat",
-        "blank": 1
-      },
-      {
-        "theme": "farm animals",
-        "noun": "cow",
-        "word": "cow",
         "blank": 1
       },
       {
@@ -91,24 +61,6 @@
         "noun": "dog",
         "word": "dog",
         "blank": 1
-      },
-      {
-        "theme": "body parts",
-        "noun": "ear",
-        "word": "ear",
-        "blank": 0
-      },
-      {
-        "theme": "At the Supermarket",
-        "noun": "egg",
-        "word": "egg",
-        "blank": 0
-      },
-      {
-        "theme": "body parts",
-        "noun": "eye",
-        "word": "eye",
-        "blank": 0
       },
       {
         "theme": "around the house",
@@ -159,12 +111,6 @@
         "blank": 1
       },
       {
-        "theme": "kitchen tools",
-        "noun": "jar",
-        "word": "jar",
-        "blank": 1
-      },
-      {
         "theme": "vehicles",
         "noun": "jet",
         "word": "jet",
@@ -174,12 +120,6 @@
         "theme": "kitchen tools",
         "noun": "jug",
         "word": "jug",
-        "blank": 1
-      },
-      {
-        "theme": "around the house",
-        "noun": "key",
-        "word": "key",
         "blank": 1
       },
       {

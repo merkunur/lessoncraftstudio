@@ -104,13 +104,15 @@ module.exports = {
 
   /**
    * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the sort face (G1-292) gives the check
-   * seven words of its own deal, each a card (build, ctx.check: the word over the headings, its answer on the line under
-   * its own heading); seven, where the page has six or eight. Every other face gives the check its page as it is.
+   * twelve words of its own deal, two of two different bins a card (build, ctx.check: the two words over the headings, each
+   * word the answer of the line under its own heading). Every other face gives the check its page as it is.
    */
   checkPage({ theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty] || this.difficulty[2];
     if (!d.sortWords) return this.build({ theme, difficulty, locale }, ctx);
-    return this.build.call({ ...this, difficulty: { ...this.difficulty, [difficulty]: { ...d, cards: 7 } } }, { theme, difficulty, locale }, { ...ctx, check: true });
+    // twelve words dealt as a NEW page deals them (variant 2: the articles balanced, a scarce one borrowed from other themes),
+    // paired into cards of two bins each (see build, ctx.check)
+    return this.build.call({ ...this, difficulty: { ...this.difficulty, [difficulty]: { ...d, cards: 12 } } }, { theme, difficulty, locale }, { ...ctx, check: true, variant: 2 });
   },
 
   build({ theme, difficulty, locale }, ctx) {
@@ -236,11 +238,12 @@ module.exports = {
       if (isKey) chipHtml = ringCorrect(chipHtml);
       if (screen) {
         // screen: ONE card per row — the picture (+ printed word) left, BIG article buttons right,
-        // so a button stays >= 44 px on a phone even with four articles (render-instance crops)
+        // so a button stays >= 44 px on a phone even with four articles (render-instance crops); a row that prints the word
+        // under the picture (showWord) holds a 72 px picture — 92 px and the word ran out of the 128 px row (2026-11-15)
         const n = chipLabels.length, bw = Math.floor((440 - (n - 1) * 12) / n);
         const bigChips = articleChips({ chips: chipLabels, correctIndex: key, w: bw, h: 104, fontPx: isForm ? 26 : 38, dots: A.chipDots });
         return `<div style="display:flex;align-items:center;gap:14px;width:660px;height:128px;padding:0 8px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px" data-lcs-item${picTap(ci)} data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
-          `<div style="width:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px">${pics.replace(/width:(\d+)px;height:(\d+)px/g, (m0, a) => `width:${Math.min(+a, count > 1 ? 56 : 92)}px;height:${Math.min(+a, count > 1 ? 56 : 92)}px`)}${word}</div>` +
+          `<div style="width:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px">${pics.replace(/width:(\d+)px;height:(\d+)px/g, (m0, a) => `width:${Math.min(+a, count > 1 ? 56 : (d.showWord ? 72 : 92))}px;height:${Math.min(+a, count > 1 ? 56 : (d.showWord ? 72 : 92))}px`)}${word.replace(/font-size:(\d+)px;/, (m0, px) => `font-size:${Math.min(+px, Math.floor(184 / (0.6 * [...displayWord(e.singular, loc)].length)))}px;white-space:nowrap;`)}</div>` +
           `<div style="flex:1;display:flex;justify-content:center">${bigChips.replace('class="ws-achips"', 'class="ws-achips" style="gap:12px;flex-wrap:nowrap"')}</div></div>`;
       }
       return `<div class="ws-card-stage" style="flex-direction:column;gap:6px" data-lcs-item${picTap(ci)} data-lcs-vocab="${e.vocabKey}" data-lcs-key="${key}" data-lcs-count="${count}">` +
@@ -290,18 +293,31 @@ module.exports = {
       if (ctx && ctx.check) {
         // THE ITEM BANK (Part 7.6, checkPage): each word a card of its own — the word over the page's headings, a line
         // under each; the line under its own heading carries the word as its answer (the key writes it there)
+        // … and every card holds TWO words of two different bins (2026-11-15, en / sv check reviews: a form whose two cards
+        // were both «a» words — or both en-words — was right for a child who wrote everything under one heading)
         const { checkGrid } = require('../../lib/check-page.js');
         const lineW = binLabels.length > 2 ? 150 : 128;
-        const cards = cardsData.map((c) => {
-          const w = wordOf(c), k = keyOf(c);
-          const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(c.e._theme || theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
-          const heads = binLabels.map((label, i) => `<div style="display:flex;flex-direction:column;align-items:center;gap:6px">` +
+        const byKey = new Map();
+        for (const c of cardsData) { const k = keyOf(c); if (!byKey.has(k)) byKey.set(k, []); byKey.get(k).push(c); }
+        const pairs = [];
+        for (;;) {
+          const open = [...byKey.keys()].filter((k) => byKey.get(k).length).sort((a, b) => byKey.get(b).length - byKey.get(a).length || a - b);
+          if (open.length < 2) break;
+          pairs.push(rng.shuffle([byKey.get(open[0]).pop(), byKey.get(open[1]).pop()]));
+        }
+        const cards = pairs.map((pair) => {
+          const tiles = pair.map((c) => {
+            const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(c.e._theme || theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
+            return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px">${pic}${wordOf(c)}</span>`;
+          }).join('');
+          const heads = binLabels.map((label, i) => { const c = pair.find((x) => keyOf(x) === i); return `<div style="display:flex;flex-direction:column;align-items:center;gap:6px">` +
             `<span class="ws-pill" style="font-size:18px;padding:2px 16px">${label}</span>` +
-            `<span style="display:block;width:${lineW}px;height:40px;border-bottom:2px dashed #C8BFAE"${i === k ? ` data-lcs-answer="${w}"` : ''}></span></div>`).join('');
-          return `<div style="display:flex;flex-direction:column;align-items:center;gap:10px" data-lcs-sortword="${w}">` +
-            `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px">${pic}${w}</span>` +
+            `<span style="display:block;width:${lineW}px;height:40px;border-bottom:2px dashed #C8BFAE"${c ? ` data-lcs-answer="${wordOf(c)}"` : ''}></span></div>`; }).join('');
+          return `<div style="display:flex;flex-direction:column;align-items:center;gap:10px" data-lcs-sortword="${pair.map(wordOf).join('|')}">` +
+            `<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">${tiles}</div>` +
             `<div style="display:flex;gap:16px;justify-content:center">${heads}</div></div>`;
         });
+        if (cards.length < 2) throw new Error(`K-288: ${theme}/${loc} gives the check ${cards.length} card(s) of two bins`);
         return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards, { cols: binLabels.length > 2 ? 1 : 2 })}</div>`, meta: {} };
       }
       if (screen) {

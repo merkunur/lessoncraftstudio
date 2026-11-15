@@ -166,17 +166,21 @@ function qwChips({ kinds, px = 20, h = CHIP_H, pad = 12, gap = 12 }) {
 }
 
 /* ---------- answerRow (base) ---------- */
-function answerRow({ n, src, depicted, frame, kind, ask, name, slots, text, span, chips, picPx = 56, fontPx = 18, padding = '5px 16px', picKind = 'person', pic, chipPx = 20, chipPad = 12, rowH = CHIP_H }) {
+function answerRow({ n, src, depicted, frame, kind, ask, name, slots, text, span, chips, picPx = 56, fontPx = 18, padding = '5px 16px', picKind = 'person', pic, chipPx = 20, chipPad = 12, rowH = CHIP_H, keepSlot = false }) {
   if (!(picPx >= 44)) throw new Error(`answerRow: picPx ${picPx} < 44`);
   if (!(fontPx >= 16)) throw new Error(`answerRow: fontPx ${fontPx} < 16`);
   if (!frame || !kind || !ask || !name) throw new Error('answerRow: frame / kind / ask / name are required');
   const p = sentenceP(renderMarked(text, span), '', fontPx);
   const strip = qwChips({ kinds: chips, px: chipPx, h: rowH, pad: chipPad });
+  // src null (2026-11-15, the reviewers of the unit checks): a row whose subject is a named child carries NO portrait — an
+  // occupation figure (a chef, a barber) beside "Leo is at the pool" contradicts the sentence. The row is badge + text
+  // (keepSlot: on a page whose other rows show a picture, the row keeps the picture's column empty, so the sentences align)
+  const cols = src || keepSlot ? `30px 10px ${picPx}px 12px 1fr` : '30px 12px 1fr', c = src || keepSlot ? 5 : 3;
   return `<div class="ws-lane" data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)} ${attr('data-lcs-kind', kind)} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ` +
-    `style="padding:${padding};display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${rowH}px;row-gap:6px;align-items:center;min-width:0">` +
-    badge(n) + picImg({ src, pic, picKind, depicted, px: picPx }) +
-    `<div style="min-width:0;display:flex;align-items:center;grid-column:5;grid-row:1">${p}</div>` +
-    `<div style="min-width:0;grid-column:5;grid-row:2">${strip}</div></div>`;
+    `style="padding:${padding};display:grid;grid-template-columns:${cols};grid-template-rows:auto ${rowH}px;row-gap:6px;align-items:center;min-width:0">` +
+    badge(n) + (src ? picImg({ src, pic, picKind, depicted, px: picPx }) : '') +
+    `<div style="min-width:0;display:flex;align-items:center;grid-column:${c};grid-row:1">${p}</div>` +
+    `<div style="min-width:0;grid-column:${c};grid-row:2">${strip}</div></div>`;
 }
 
 /* ---------- qaMatch (F1) ---------- */
@@ -209,6 +213,8 @@ function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, p
     }
     if (a.clock) {
       picHtml = `<span style="flex:0 0 auto;display:inline-flex;line-height:0">${clock({ h: a.clock.h, m: 0, size: picPx }).svg}</span>`;   // flex:0 0 auto: an inline svg shrinks beside a wrapping literal (measured 81 of 88)
+    } else if (a.noPic) {
+      picHtml = '';   // a name answer (2026-11-15): no portrait — an occupation figure under a child's name contradicts it
     } else {
       if (!a.src || !a.pic) throw new Error(`qaMatch: right item ${j} needs src + pic or a clock`);
       if (a.picKind && !['person', 'thing', 'place'].includes(a.picKind)) throw new Error(`qaMatch: right item ${j} picKind "${a.picKind}"`);
@@ -235,10 +241,11 @@ function questionFrame({ n, src, depicted, frame, kind, ask, name, slots, questi
   const box = `<span class="ws-blankbox" data-lcs-gapbox style="width:${gapW}px;height:${gapH}px;display:inline-block;vertical-align:middle;margin:0 4px"></span>`;
   const q = `<p data-lcs-question style="margin:0;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;line-height:1.3;color:${T.ink};white-space:nowrap">${esc(qPrefix)}${box}${esc(rest)}</p>`;
   const p = sentenceP(renderMarked(text, span), '', fontPx);
+  const cols = src ? `30px 10px ${picPx}px 12px 1fr` : '30px 12px 1fr', c = src ? 5 : 3;   // src null: no portrait (see answerRow)
   return `<div class="ws-lane" data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} data-lcs-gapw="${gapW}" ` +
-    `style="padding:${padding};display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto auto;row-gap:6px;align-items:center;min-width:0">` +
-    badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
-    `<div style="min-width:0;grid-column:5;grid-row:1">${q}</div><div style="min-width:0;grid-column:5;grid-row:2">${p}</div></div>`;
+    `style="padding:${padding};display:grid;grid-template-columns:${cols};grid-template-rows:auto auto;row-gap:6px;align-items:center;min-width:0">` +
+    badge(n) + (src ? picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) : '') +
+    `<div style="min-width:0;grid-column:${c};grid-row:1">${q}</div><div style="min-width:0;grid-column:${c};grid-row:2">${p}</div></div>`;
 }
 
 /* ---------- qwBins (F3) ---------- */
@@ -284,11 +291,12 @@ function writeRow({ n, src, depicted, frame, kind, ask, name, slots, text, span,
   // starter (Level Set 2026-09-29, the easier write): the question's opening words printed on the ruling, the child finishes
   if (starter != null && !String(answer).startsWith(String(starter))) throw new Error(`writeRow: the starter "${starter}" does not open "${answer}"`);
   const ruling = rulingBlock({ rows: 1, w, h, glyphH, ...(starter != null ? { starters: { 0: starter } } : {}) });
+  const cols = src ? `30px 10px ${picPx}px 12px 1fr` : '30px 12px 1fr', c = src ? 5 : 3;   // src null: no portrait (see answerRow)
   return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} ` +
-    `style="display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${h}px;row-gap:6px;align-items:center;min-width:0">` +
-    badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
-    `<div style="min-width:0;grid-column:5;grid-row:1">${p}</div>` +
-    `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:5;grid-row:2">${ruling}</div></div>`;
+    `style="display:grid;grid-template-columns:${cols};grid-template-rows:auto ${h}px;row-gap:6px;align-items:center;min-width:0">` +
+    badge(n) + (src ? picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) : '') +
+    `<div style="min-width:0;grid-column:${c};grid-row:1">${p}</div>` +
+    `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:${c};grid-row:2">${ruling}</div></div>`;
 }
 
 /* ---------- writeRow2 (Level Set 2026-09-29, the harder write: two highlighted parts, two questions) ---------- */
@@ -310,11 +318,12 @@ function writeRow2({ n, src, depicted, frame, kind, asks, name, slots, text, spa
   for (const a of answers) { if (String(text).includes(String(a))) throw new Error(`writeRow2: the sentence prints the answer "${a}"`); if (need(a) > w) throw new Error(`writeRow2: "${a}" needs ${need(a)} px > ${w}`); }
   const p = sentenceP(renderMarked2(text, spans[0], spans[1]), '', fontPx);
   const ruling = rulingBlock({ rows: 2, w, h, glyphH, gap: 6 });
+  const cols = src ? `30px 10px ${picPx}px 12px 1fr` : '30px 12px 1fr', c = src ? 5 : 3;   // src null: no portrait (see answerRow)
   return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-asks', asks.join(','))} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answers', JSON.stringify(answers))} ` +
-    `style="display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${2 * h + 6}px;row-gap:6px;align-items:center;min-width:0">` +
-    badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
-    `<div style="min-width:0;grid-column:5;grid-row:1">${p}</div>` +
-    `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:5;grid-row:2">${ruling}</div></div>`;
+    `style="display:grid;grid-template-columns:${cols};grid-template-rows:auto ${2 * h + 6}px;row-gap:6px;align-items:center;min-width:0">` +
+    badge(n) + (src ? picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) : '') +
+    `<div style="min-width:0;grid-column:${c};grid-row:1">${p}</div>` +
+    `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:${c};grid-row:2">${ruling}</div></div>`;
 }
 
 /* ---------- askScene (F5) ---------- */

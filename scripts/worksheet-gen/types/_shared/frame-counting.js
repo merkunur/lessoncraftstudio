@@ -43,6 +43,29 @@ function makeFrameCountingType(cfg) {
     },
     i18n,
 
+    /* THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), quick look with
+     * pictures: the page sizes its pictures by their number (five in one row at 26 px, six as 3 + 3 at 44 px) and goes up
+     * to 10, so one form looked at six big pictures in two rows and the other at nine small ones (reviews en / sv f1115,
+     * 2026-11-15). A check card shows every number at ONE picture size in a pattern a child takes in at a glance (up to
+     * four in a row; 5 = 3 + 2, 6 = 3 + 3, 7 = 4 + 3, 8 = 4 + 4, 9 = 3 + 3 + 3), the numbers of the middle of the level,
+     * each once; the choices as on the page. */
+    ...(mode === 'subitize-icons' ? { checkPage({ theme, difficulty }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const d = this.difficulty[difficulty] || this.difficulty[2];
+      const rng = ctx.rng;
+      const hi = Math.min(d.max, Number(difficulty) >= 3 ? 9 : 8), lo = Math.max(2, Math.min(d.min + 1, hi - 5));
+      const counts = rng.shuffle(Array.from({ length: hi - lo + 1 }, (_, k) => lo + k));
+      const pool = labelSafeNouns(theme);
+      const nouns = rng.sample(pool, counts.length);
+      const perRowOf = (n) => (n <= 4 ? n : n === 5 || n === 6 || n === 9 ? 3 : 4);
+      const cards = counts.map((n, i) => {
+        const visual = `<span data-lcs-iconpattern="${n}">` + iconRows({ theme, noun: nouns[i].noun, n, iconPx: 40, perRow: perRowOf(n), rng, gapX: 8, gapY: 8 }) + `</span>`;
+        const choices = rng.shuffle([n, ...distractorsFor({ correct: n, count: 2, min: d.min, max: d.max, rng, deltas: [-2, -1, 1, 2] })]);
+        return `<div class="ws-card-stage" style="flex-direction:column;gap:14px;padding:8px" data-lcs-expect="${n}">${visual}${chipRow({ choices, correct: n })}</div>`;
+      });
+      return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: { counts } };
+    } } : {}),
+
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;

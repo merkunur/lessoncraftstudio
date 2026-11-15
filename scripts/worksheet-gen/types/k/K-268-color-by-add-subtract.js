@@ -24,8 +24,18 @@ module.exports = {
     const codes = Math.min(3, d0.codes);
     const d = { ...d0, codes, items: 2 * codes, size: 84 };
     const self = Object.assign(Object.create(this), { difficulty: { check: d } });
+    // 2026-11-15 (Swedish reviewer: form A had four subtractions and two additions, form B one subtraction and five
+    // additions, 4 + 6 beside 6 + 4): a card is drawn again until it has as many additions as subtractions, give or take
+    // one, and no sum stands twice in either order
+    const fair = (html) => {
+      const ex = [...html.matchAll(/data-lcs-expr="(\d+) ([+−]) (\d+)"/g)];
+      const minus = ex.filter((m) => m[2] === '−').length, sums = ex.filter((m) => m[2] === '+').map((m) => [+m[1], +m[3]].sort((a, b) => a - b).join('+'));
+      return !(d.ops.includes('+') && d.ops.includes('-')) || (Math.abs(2 * minus - ex.length) <= 2 && new Set(sums).size === sums.length);
+    };
     const cards = Array.from({ length: 6 }, () => {
-      const html = base.build.call(self, { theme, difficulty: 'check', locale }, { ...(ctx || {}), interactive: false, answerKey: false, screen: false }).bodyHtml;
+      let html, guard = 0;
+      do { html = base.build.call(self, { theme, difficulty: 'check', locale }, { ...(ctx || {}), interactive: false, answerKey: false, screen: false }).bodyHtml; }
+      while (!fair(html) && ++guard < 60);
       const at = html.indexOf('<div data-ws-content');
       if (at < 0) throw new Error('K-268 checkPage: no stage');
       const colorOf = {};

@@ -4,13 +4,16 @@ const base = require('./K-284-word-tracing.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[1], ...{} };
+// 2026-11-15 (en reviewer of the unit checks): the peach reads as an apple; the plum, persimmon, apricot and nectarine as an
+// apple, a tomato or an orange — never a word to trace under its picture (swapped out of the draw: base avoidNouns)
+const AVOID = ['peach', 'plum', 'persimmon', 'apricot', 'nectarine'];
+const D = { ...base.difficulty[1], ...{ avoidNouns: AVOID } };
 module.exports = {
   ...base,
   id: 'K-289',
   slug: 'word-tracing-first-words',
   // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); PDF only
-  difficulty: { 1: { ...base.difficulty[1], maxLetters: 4, glyphH: 62, laneH: 72, pic: 160, cardW: 184, rowH: 230 }, 2: D, 3: { ...base.difficulty[2], maxLetters: 6 } },
+  difficulty: { 1: { ...base.difficulty[1], maxLetters: 4, glyphH: 62, laneH: 72, pic: 160, cardW: 184, rowH: 230, avoidNouns: AVOID }, 2: D, 3: { ...base.difficulty[2], maxLetters: 6, avoidNouns: AVOID } },
   i18n: { en: { title: "Trace Your First Words", instruction: "Trace the dashed word, then write it on the empty line." } },
 
   /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): seven rows of the level drawn by the page's

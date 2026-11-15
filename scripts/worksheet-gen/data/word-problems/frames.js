@@ -30,7 +30,7 @@ const FRAMES = {
       ],
       "sub": [
         "{name} has {n1} {noun}. {name} gives {n2} away. How many {noun} are left?",
-        "There are {n1} {noun} on the table. {n2} fall down. How many {noun} are still on the table?",
+        "There are {n1} {noun} on the table. {n2} fall off. How many {noun} are still on the table?",
         "{name} collects {n1} {noun}. Then {name} loses {n2}. How many {noun} are left?"
       ]
     }
@@ -214,13 +214,13 @@ const FRAMES = {
       "add": [
         "{name} har {n1} {noun} och får {n2} {noun} till. Hur många {noun} har {name} nu?",
         "{name} ser först {n1} {noun} och sedan {n2} {noun} till. Hur många {noun} ser {name} sammanlagt?",
-        "{name} räknar {n1} {noun}. {name} hittar {n2} {noun} till. Hur många {noun} blir det tillsammans?",
+        "{name} har {n1} {noun}. {name} hittar {n2} {noun} till. Hur många {noun} blir det tillsammans?",
         "{name} har {n1} {noun}. En kompis ger {name} {n2} {noun}. Hur många {noun} har {name} då?"
       ],
       "sub": [
         "{name} har {n1} {noun} och ger bort {n2} {noun}. Hur många {noun} har {name} kvar?",
         "{name} har {n1} {noun}. {name} tappar bort {n2} {noun}. Hur många {noun} finns kvar?",
-        "{name} räknar {n1} {noun}. Sedan försvinner {n2} {noun}. Hur många {noun} är kvar?"
+        "{name} har {n1} {noun}. Sedan försvinner {n2} {noun}. Hur många {noun} är kvar?"
       ]
     }
   },

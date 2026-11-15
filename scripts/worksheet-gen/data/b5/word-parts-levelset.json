@@ -4003,12 +4003,14 @@
      {
       "word": "abbilden",
       "kind": "prefixed",
-      "slot": "verb"
+      "slot": "verb",
+      "grade": 3
      },
      {
       "word": "Abbildung",
       "kind": "prefixed",
-      "slot": "noun-thing"
+      "slot": "noun-thing",
+      "grade": 3
      },
      {
       "word": "Vorbild",
@@ -4028,7 +4030,8 @@
      {
       "word": "Bildhauer",
       "kind": "compound",
-      "slot": "noun-person"
+      "slot": "noun-person",
+      "grade": 3
      }
     ],
     "lookAlikes": [
@@ -4490,17 +4493,20 @@
      {
       "word": "Bezahlung",
       "kind": "prefixed",
-      "slot": "noun-thing"
+      "slot": "noun-thing",
+      "grade": 3
      },
      {
       "word": "auszahlen",
       "kind": "prefixed",
-      "slot": "verb"
+      "slot": "verb",
+      "grade": 3
      },
      {
       "word": "zahlreich",
       "kind": "derived",
-      "slot": "adjective"
+      "slot": "adjective",
+      "grade": 3
      },
      {
       "word": "Anzahl",
@@ -5784,7 +5790,6 @@
   "exemplarF5": [
    "heim",
    "rat",
-   "herz",
    "geist",
    "bild",
    "witz",
@@ -14547,7 +14552,7 @@
     {
      "word": "åhörare",
      "slot": "noun-person",
-     "frame": "Varje {gap} i salongen klappade händerna efter pjäsen."
+     "frame": "Varje {gap} i salen klappade händerna efter konserten."
     },
     {
      "word": "hörsel",

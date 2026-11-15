@@ -787,7 +787,17 @@
       "col": "past",
       "unit": "nu-igar",
       "fits": [
-        "viska",
+        "viska"
+      ],
+      "subjectLiteral": "Elias",
+      "pic": null
+    },
+    {
+      "id": "f27",
+      "text": "Nyss {form} Elias nyckeln.",
+      "col": "past",
+      "unit": "nu-igar",
+      "fits": [
         "gömma"
       ],
       "subjectLiteral": "Elias",

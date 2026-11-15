@@ -666,12 +666,40 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const bank = mergedBankOf(loc);
     const u = unitOf(bank, unit || bank.exemplar);
-    const rows = pickRows(ctx.rng, bank, u, withForms(bank, u, poolFor(bank, d.pool)), 8);
-    if (!rows) throw new Error(`${ID}: no 8 check lanes over the verbs of ${u.key}/${loc}`);
-    const cards = rows.map((l) => sentenceGap({
+    const lane = (l) => sentenceGap({
       src: pictureOf(l.verb, loc), text: l.frame.text, hint: l.verb.inf, render: 'gap', padding: '0',
       attrs: `data-lcs-verb="${l.verb.inf}" data-lcs-col="${l.col}" data-lcs-form="${l.form}" data-lcs-frame="${l.frame.id}" data-lcs-answer="${l.form}"`,
-    }).replace('<div class="ws-lane" data-lcs-lane', '<div data-lcs-lane'));
+    }).replace('<div class="ws-lane" data-lcs-lane', '<div data-lcs-lane');
+    if (bank.mode === 'tense') {
+      // 2026-11-15 (the en / sv reviewers of the unit checks): one sentence per card let form A ask only the present and form
+      // B only the past (sv: A two strong preterites, B two presents). Each card now asks BOTH tenses of the lesson — one
+      // sentence of each column, in a drawn order, two different verbs; en asks an irregular past (went, sang: the Grade 2
+      // point, L.2.1.d), never a past in -ed.
+      const verbs = withForms(bank, u, poolFor(bank, d.pool));
+      const [c0, c1] = bank.columns.map((c) => c.key);
+      const strongPast = (r) => loc !== 'en' || !/ed$/.test(fold(r.form));
+      const by = { [c0]: [], [c1]: [] }, seenF = new Set();
+      for (let k = 0; k < 16 && (by[c0].length < 6 || by[c1].length < 6); k++) {
+        const rows = pickRows(ctx.rng, bank, u, verbs, Math.min(8, verbs.length));
+        if (!rows) break;
+        for (const r of rows) {
+          if (seenF.has(r.frame.id) || by[r.col].length >= 6 || (r.col === c1 && !strongPast(r))) continue;
+          seenF.add(r.frame.id); by[r.col].push(r);
+        }
+      }
+      const cards = [];
+      for (const a of by[c0]) {
+        const b = by[c1].find((x) => x.verb.inf !== a.verb.inf && !x.taken);
+        if (!b) continue;
+        b.taken = true;
+        cards.push(`<div style="display:flex;flex-direction:column;gap:10px">${ctx.rng.shuffle([a, b]).map(lane).join('')}</div>`);
+      }
+      if (cards.length < 4) throw new Error(`${ID}: ${loc} gives ${cards.length} two-tense check cards (< 4)`);
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+    }
+    const rows = pickRows(ctx.rng, bank, u, withForms(bank, u, poolFor(bank, d.pool)), 8);
+    if (!rows) throw new Error(`${ID}: no 8 check lanes over the verbs of ${u.key}/${loc}`);
+    const cards = rows.map(lane);
     return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
   },
 

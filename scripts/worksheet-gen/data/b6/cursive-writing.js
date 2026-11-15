@@ -81,14 +81,14 @@ const CURSIVE_WRITING = {
     strings: {
       'G2-377': {
         title: 'Cursive Letters: i, t, u and w',
-        instruction: 'Trace the grey letters, then keep writing each letter joined on your own to the end of its line and on the empty line below.',
+        instruction: 'Trace the gray letters, then keep writing each letter joined on your own to the end of its line and on the empty line below.',
       },
       // Phase E faces (ids fixed by _records/b6var-id-allocation.json)
-      'G2-384': { title: 'Cursive Capital Letters: Write the Names', instruction: 'Trace each grey capital letter and name, then write them on the empty line below.' },
-      'G2-385': { title: 'Cursive Connecting Letters: Joining Two Letters', instruction: 'Trace each grey pair of joined letters and the word, then write them on the empty line below.' },
-      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below.' },
+      'G2-384': { title: 'Cursive Capital Letters: Write the Names', instruction: 'Trace each gray capital letter and name, then write them on the empty line below.' },
+      'G2-385': { title: 'Cursive Connecting Letters: Joining Two Letters', instruction: 'Trace each gray pair of joined letters and the word, then write them on the empty line below.' },
+      'G2-386': { title: 'Cursive Words to Write with Pictures', instruction: 'Trace each gray word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below.' },
       'G2-387': { title: 'Reading Cursive: Match Each Word to Its Picture', instruction: 'Read each word in cursive and draw a line to its picture.' },
-      'G3-401': { title: 'Cursive Sentences to Copy', instruction: 'Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it.' },
+      'G3-401': { title: 'Cursive Sentences to Copy', instruction: 'Trace the gray sentence, then copy each printed sentence in cursive on the two lines below it.' },
     },
   },
 };

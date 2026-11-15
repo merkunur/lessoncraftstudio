@@ -259,7 +259,7 @@ async function main() {
       r.kc.forEach((x) => ok(false, `${tag} key: ${x}`));
       shipped.push(`${tag} stack ${r.st.stack} items ${r.out.interactive.items.length}`);
     };
-    for (const d of [1, 2, 3]) { const n = SPEC.difficulty[d].count; judgeRun(`base d${d}`, await render('base', d, 1, d === 2 ? undefined : { title: `Find ${n} Differences: Dog in the Garden`, instruction: `Look down from picture 1 to picture 2, circle the ${n} things that are different and tick a box for each one.` }, `base-d${d}`, locArg)); }
+    for (const d of [1, 2, 3]) { const n = SPEC.difficulty[d].count; judgeRun(`base d${d}`, await render('base', d, 1, d === 2 ? undefined : { title: `Find ${n} Differences: Dog in the Garden`, instruction: `Look down from picture 1 to picture 2, circle the ${n} things that are different and check a box for each one.` }, `base-d${d}`, locArg)); }
     for (const r of ROWS) judgeRun(r[5].mode, await render(r[5].mode, 2, 1, undefined, r[5].mode, locArg));
     if (!quick) for (let v = 2; v <= 6; v++) judgeRun(`base seed v${v}`, await render('base', 2, v, undefined, 'base-sweep', locArg));
     // chrome stress on the base: a 2-line title + a 150-char instruction (733, the tallest shipped chrome)

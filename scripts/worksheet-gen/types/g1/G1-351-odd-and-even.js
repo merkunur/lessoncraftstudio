@@ -406,7 +406,7 @@ const PROOF = { dot: 20, gap: 9, perRow: 10, boxW: 44, remW: 36, eqH: 56, cardCh
 const PICS = { lanePad: 4, rowGap: 6, plateW: 64, plateGap: 8, leftW: 84, pillsW: 106, pairsW: 56, lanePadX: 16, tileGapY: 6, pileGap: { share: 4, count: 7 } };
 const COLS = { headH: 28, laneGap: 8, colGap: 14, colW: 330, under: 12, cell: 76, tickGap: 8, lanePadY: 4, lanePadX: 8, laneInner: 310 };
 const ONES = { box: 64, digitPx: 34, circle: 60, ruleH: { one: 40, two: 60 } };
-const SUMS = { px: 30, circle: 60, tableH: 92 };
+const SUMS = { px: 30, circle: 60, tableH: 116 };   // the table: four rows of 24 px + padding (the fourth row, odd + even, 2026-11-15)
 const LANE_INNER = 639;
 // the SCREEN's one column of tick lanes (Level Set 2026-10-14): a tick circle >= 104 page px is >= 44 px on a 360-px phone
 const SCREEN_COL = { w: 640, box: 84, digitPx: 46, circle: 108, cell: 124, gap: 14, padX: 12, sumPx: 44 };
@@ -811,10 +811,10 @@ function VERIFY_FACE() {
         if (!table) fails.push('the parity table is missing');
         else {
           const trows = [...table.querySelectorAll('[data-lcs-trow]')];
-          if (trows.map((r) => r.dataset.lcsTrow).join(',') !== 'ee,oo,eo') fails.push(`table rows ${trows.map((r) => r.dataset.lcsTrow)}`);
+          if (trows.map((r) => r.dataset.lcsTrow).join(',') !== 'ee,oo,eo,oe') fails.push(`table rows ${trows.map((r) => r.dataset.lcsTrow)}`);
           const W = headWords[0] || [];
           const E = W[keys.indexOf('even')], O = W[keys.indexOf('odd')];
-          const want = { ee: `${E} + ${E} = ${E}`, oo: `${O} + ${O} = ${E}`, eo: `${E} + ${O} = ${O}` };
+          const want = { ee: `${E} + ${E} = ${E}`, oo: `${O} + ${O} = ${E}`, eo: `${E} + ${O} = ${O}`, oe: `${O} + ${E} = ${O}` };
           trows.forEach((r) => { const t = r.textContent.replace(/\s+/g, ' ').trim(); if (t !== want[r.dataset.lcsTrow]) fails.push(`table row ${r.dataset.lcsTrow} reads "${t}" not "${want[r.dataset.lcsTrow]}"`); if (/\d/.test(t)) fails.push('a digit in the table'); });
           if (Math.abs(R(table).top - bodyR.top) > 1) fails.push('the table is not at the top');
           if (R(table).width > 675.6) fails.push(`the table is ${R(table).width.toFixed(1)} wide (> the 675 page inner)`);

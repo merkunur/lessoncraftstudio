@@ -36,7 +36,7 @@ const ROWS = [
   // 2 x 4 cards minmax(132,1fr) (570) + 12 + lane 116 = 698 <= 700; tick 56, cue 80, literal 18/22 <= 2 lines in 146.
   ['k', 'K-345', 'all-about-me-i-can', 'K-323-all-about-me.js', 2,
     { layout: 'ican', cards: 8, tick: 56, pic: 80, textW: 146, literalPx: 18, rowMin: 132, glyphH: 40, laneH: 116 },
-    'I Can: Tick What You Can Do', 'Read each sentence and tick the things you can do. Then write one thing you want to learn.'],
+    'I Can: Tick What You Can Do', 'Read each sentence and check the things you can do. Then write one thing you want to learn.'],
   // F5 — WRITE the name one letter per box, COUNT the letters, name the FIRST letter, COMPARE with a friend (K.CC.B.5 + K.CC.C.6):
   // 112 + 78 + 110 + 112 + 78 + 100 = 590 + 5 x 12 = 650 <= 700 (space-between opens the slack between blocks).
   ['k', 'K-346', 'all-about-me-my-name', 'K-323-all-about-me.js', 2,

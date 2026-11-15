@@ -455,9 +455,9 @@ async function main() {
     }
     // 3b. SPARSE / FILL at the three chromes (814 one-line, 722 three-line, 677 four-line title) for EVERY unit
     const CHROME = {
-      one: { title: 'Cursive', instruction: 'Trace the grey letters.' },
-      three: { title: 'Cursive Letters for Second Grade Practice with the Traditional Joined Hand', instruction: 'Trace the grey letters with your pencil, then keep writing each letter joined on your own to the end of its line. Then write it joined again on the empty line below, and again.' },
-      four: { title: 'Sammenhengende skrift for tredje trinn: skriv de små bokstavene sammen på linjene nedenfor i dag og øv videre', instruction: 'Trace the grey letters, then write them joined.' },
+      one: { title: 'Cursive', instruction: 'Trace the gray letters.' },
+      three: { title: 'Cursive Letters for Second Grade Practice with the Traditional Joined Hand', instruction: 'Trace the gray letters with your pencil, then keep writing each letter joined on your own to the end of its line. Then write it joined again on the empty line below, and again.' },
+      four: { title: 'Sammenhengende skrift for tredje trinn: skriv de små bokstavene sammen på linjene nedenfor i dag og øv videre', instruction: 'Trace the gray letters, then write them joined.' },
     };
     for (const pr of PROBES) {
       const block = pr.block || EN;
@@ -656,7 +656,7 @@ async function main() {
       const t = Object.assign({}, spec, { build({ difficulty, locale, unit }, ctx) { return TYPE._buildWith(pr.block, spec.difficulty[difficulty], { locale: String(locale).slice(0, 2), unit }, ctx); } });
       TYPE._verifyBank = () => pr.block;
       try {
-        const out = await renderInstance({ type: t, theme: null, difficulty: 2, locale: pr.loc, unit: pr.unit, page, outDir: OUT, baseName: `G2-384-probe-${pr.unit}-d2`, strings: { title: 'Capitals', instruction: 'Trace each grey capital letter and name, then write them on the empty line below.' } });
+        const out = await renderInstance({ type: t, theme: null, difficulty: 2, locale: pr.loc, unit: pr.unit, page, outDir: OUT, baseName: `G2-384-probe-${pr.unit}-d2`, strings: { title: 'Capitals', instruction: 'Trace each gray capital letter and name, then write them on the empty line below.' } });
         ok(out.qa.verify.length === 0 && out.qa.lints.length === 0, `G2-384 ${pr.unit}: verify ${out.qa.verify.join(' | ')} lints ${out.qa.lints.join(' | ')}`);
         if (!QUICK || pr.unit === 'fr-trad') console.log(`7b. G2-384 capitals ${pr.unit}: verify ${out.qa.verify.length} lints ${out.qa.lints.length} → ${out.pngPath}`);
       } catch (e) { ok(false, `G2-384 ${pr.unit}: ${e.message}`); }
@@ -712,7 +712,7 @@ async function main() {
       const t5 = Object.assign({}, spec5, { build({ difficulty, locale, unit }, ctx) { return TYPE._buildWith(block, spec5.difficulty[difficulty], { locale: String(locale).slice(0, 2), unit }, ctx); } });
       TYPE._verifyBank = () => block;
       try {
-        const out = await renderInstance({ type: t5, theme: null, difficulty: 2, locale: pr.loc, unit: pr.unit, page, outDir: OUT, baseName: `G3-401-probe-${pr.unit}-d2`, strings: { title: 'Sentences', instruction: 'Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it.' } });
+        const out = await renderInstance({ type: t5, theme: null, difficulty: 2, locale: pr.loc, unit: pr.unit, page, outDir: OUT, baseName: `G3-401-probe-${pr.unit}-d2`, strings: { title: 'Sentences', instruction: 'Trace the gray sentence, then copy each printed sentence in cursive on the two lines below it.' } });
         ok(out.qa.verify.length === 0 && out.qa.lints.length === 0, `G3-401 ${pr.unit}${draft ? ' (draft sentences)' : ''}: verify ${out.qa.verify.join(' | ')} lints ${out.qa.lints.join(' | ')}`);
         const gaps = await page.evaluate(() => [...document.querySelectorAll('[data-lcs-kind="sentence"]')].map((n) => n.style.wordSpacing));
         console.log(`7d. G3-401 copy ${pr.unit}${draft ? ' (draft)' : ''}: word-spacing ${gaps.join(',') || 'none'} verify ${out.qa.verify.length} → ${out.pngPath}`);
@@ -810,7 +810,7 @@ async function main() {
       if (app.length) console.log(`poison killed PR19 an instruction naming apparatus not on the page → ${app.join(', ')}`);
     }
     // bank poisons on the face data
-    bankPoison('P19 a two-sentence instruction (the old G2-386)', 'en', EN, (b) => { b.strings['G2-386'].instruction = 'Trace each grey word, then write it. Add the dots and crosses last.'; }, 7, /more than one sentence/);
+    bankPoison('P19 a two-sentence instruction (the old G2-386)', 'en', EN, (b) => { b.strings['G2-386'].instruction = 'Trace each gray word, then write it. Add the dots and crosses last.'; }, 7, /more than one sentence/);
     bankPoison('P20 copy before trace (the old G3-401, as one sentence)', 'en', EN, (b) => { b.strings['G3-401'].instruction = 'Copy each printed sentence in cursive on the two lines below it, tracing the grey sentence first.'; }, 7, /copies before it traces/);
     bankPoison('P21 de "ohne abzusetzen" over capitalised nouns', 'de', Object.assign({}, DE_PROBE, { words: { 'animals/cat': 'Katze' } }), (b) => { b.strings = { 'G2-386': { title: 'Wörter', instruction: 'Spure jedes graue Wort ohne abzusetzen nach und schreibe es.' } }; }, 7, /lifts the pen \(a capital start\)/);
     bankPoison('P22 no "uten å løfte" over a word with a lift letter', 'no', NO, (b) => { b.words = { 'animals/fish': 'fisk' }; b.strings = { 'G2-386': { title: 'Ord', instruction: 'Skriv over hvert grå ord uten å løfte blyanten.' } }; }, 7, /lifts the pen \(a lift letter\)/);

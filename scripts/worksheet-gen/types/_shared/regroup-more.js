@@ -102,6 +102,10 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
     i18n,
     levelSetWords(m) { return (m.items || []).map(String); },
 
+    /** THE ITEM BANK (Part 7.6): the page's own cards, built with ctx.check — so that the check's key is built the same way
+     *  as its form (the subtraction page opens a ten on every card; the key of the column sums writes the new tens) */
+    checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
+
     build(args, ctx) {
       const lv = Number(args.difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, L = loc2(args.locale), Wd = WORDS[L];
       if (!Wd) throw new Error(`${id}: no words for ${L}`);
@@ -133,7 +137,10 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
         items = items.map((it) => `${it.a}+${it.b}`);
       } else if (mode === 'mat-sub') {
         const seen = new Set(); items = [];
-        const plainAt = new Set(rng.sample([0, 1, 2, 3, 4, 5], d.plain));
+        // the item bank of the unit checks (ctx.check, 2026-11-15, US teacher-reviewer): a check takes one card a form,
+        // and both forms took a card with enough ones — the skill of the lesson, opening a ten, was never asked. A check
+        // page opens a ten on every card (the worksheet keeps its tasks that need none).
+        const plainAt = new Set(rng.sample([0, 1, 2, 3, 4, 5], ctx && ctx.check ? 0 : d.plain));
         for (let i = 0; i < d.cards; i++) {
           for (let t = 0; t < 400; t++) {
             const a = rng.int(21, 69), b = d.one ? rng.int(2, 9) : rng.int(11, a - 5), oa = a % 10, ob = b % 10, diff = a - b;
@@ -169,12 +176,15 @@ function makeRegroupType({ id, slug, mode, gradeBand, i18n }) {
         const cell = (t2, wash, extra = '') => `<span style="display:inline-flex;align-items:center;justify-content:center;width:${CELL}px;height:${CELL}px;background:${wash};font:700 ${FS}px/1 'Baloo 2',cursive;color:${INK}"${extra}>${t2}</span>`;
         const WASH = ['#DDEBE8', '#FBE3D8'];   // tens, ones (as the column pages)
         const below = L === 'de';   // the German written method notes the new ten under the numbers, at the line (native reader, 2026-11-14)
+        // the key of a check card (ctx.check, 2026-11-15, US teacher-reviewer: the direction asks for the new ten in the
+        // small box and the key left it empty) writes the new tens there; the worksheet and its key are unchanged
+        const carryAns = (it) => (ctx && ctx.check && mark ? ` data-lcs-answer="${it.carry}"` : '');
         cards = items.map((it) => {
           const rowsHtml = it.nums.map((v, k) => `<div style="display:flex;align-items:center"><span style="width:${SIGN}px;font:700 ${FS}px/1 'Baloo 2',cursive;color:${TEAL};text-align:center">${k === it.nums.length - 1 ? '+' : ''}</span>${cell(Math.floor(v / 10), WASH[0])}${cell(v % 10, WASH[1])}</div>`).join('');
           const ans = (v) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;width:${CELL}px;height:${CELL}px;box-sizing:border-box;border:2.5px dashed ${CORAL};border-radius:7px;background:#FFFFFF"></span>`;
           return `<div class="ws-card-stage" style="flex-direction:column;gap:0;padding:6px ${6 + SIGN / 2}px 6px 6px" data-lcs-colmany="${it.nums.join('+')}|${it.sum}|${it.carry}">` +
-            (d.carry === 0 || below ? '' : `<div style="display:flex;align-items:flex-end;height:${CB + 6}px"><span style="width:${SIGN}px"></span><span style="display:inline-flex;justify-content:center;width:${CELL}px"><span data-lcs-carrybox style="width:${CB}px;height:${CB}px;box-sizing:border-box;border:2px dashed #B9AE9C;border-radius:6px;background:#FFFFFF"></span></span><span style="width:${CELL}px"></span></div>`) +
-            rowsHtml + (d.carry && below ? `<div style="display:flex;align-items:flex-start;height:${CB + 4}px" data-lcs-carry-below><span style="width:${SIGN}px"></span><span style="display:inline-flex;justify-content:center;width:${CELL}px"><span data-lcs-carrybox style="width:${CB}px;height:${CB}px;box-sizing:border-box;border:2px dashed #B9AE9C;border-radius:6px;background:#FFFFFF"></span></span><span style="width:${CELL}px"></span></div>` : '') + `<div style="width:${SIGN + 2 * CELL}px;height:3px;background:${TEAL};margin:5px 0"></div>` +
+            (d.carry === 0 || below ? '' : `<div style="display:flex;align-items:flex-end;height:${CB + 6}px"><span style="width:${SIGN}px"></span><span style="display:inline-flex;justify-content:center;width:${CELL}px"><span data-lcs-carrybox${carryAns(it)} style="width:${CB}px;height:${CB}px;box-sizing:border-box;border:2px dashed #B9AE9C;border-radius:6px;background:#FFFFFF"></span></span><span style="width:${CELL}px"></span></div>`) +
+            rowsHtml + (d.carry && below ? `<div style="display:flex;align-items:flex-start;height:${CB + 4}px" data-lcs-carry-below><span style="width:${SIGN}px"></span><span style="display:inline-flex;justify-content:center;width:${CELL}px"><span data-lcs-carrybox${carryAns(it)} style="width:${CB}px;height:${CB}px;box-sizing:border-box;border:2px dashed #B9AE9C;border-radius:6px;background:#FFFFFF"></span></span><span style="width:${CELL}px"></span></div>` : '') + `<div style="width:${SIGN + 2 * CELL}px;height:3px;background:${TEAL};margin:5px 0"></div>` +
             `<div style="display:flex;align-items:center"><span style="width:${SIGN}px"></span>${ans(Math.floor(it.sum / 10))}${ans(it.sum % 10)}</div></div>`;
         });
         items = items.map((it) => it.nums.join('+'));

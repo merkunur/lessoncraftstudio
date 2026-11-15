@@ -150,7 +150,7 @@ const ROWS = [
   // frame pool is too thin to build - de has 3 qualifying frames and fi has 1,
   // which is why the base d3 has never been shippable in those locales.
   ['g1', 'G1-283', 'unscramble-the-sentence-no-clues', 'G1-249-unscramble-sentence.js', 3, { minTok: 4, maxTok: 6 },
-    'Unscramble the Sentence: No Clues', 'No capital, no full stop. Find the one order that works.'],
+    'Unscramble the Sentence: No Clues', 'No capital, no period. Find the one order that works.'],
 
   // ---------------- G2-274 capitals-punctuation ----------------
   // ends widened from the base d1's full-stop-only set. This face's axis is that

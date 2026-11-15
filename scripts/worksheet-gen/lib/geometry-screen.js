@@ -155,7 +155,7 @@ function screen(C, salt) {
   }
   if (m === 'angles') {
     const GTs = GT();
-    return selectScreen(it.map((x) => x.degs.map((deg) => ({ html: GTs.angleSvgPublic(deg, 112), hit: deg === 90, meta: { 'data-lcs-deg': deg } }))), salt);
+    return selectScreen(it.map((x) => x.degs.map((deg, k) => ({ html: GTs.angleSvgPublic(deg, 112, x.turns ? x.turns[k] : 0), hit: deg === 90, meta: { 'data-lcs-deg': deg } }))), salt);
   }
   throw new Error('geometry screen: no screen for mode ' + m);
 }

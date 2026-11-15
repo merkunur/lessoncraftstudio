@@ -130,7 +130,7 @@
   {"id": "ls-u1", "text": "{name} ritar {noun}.", "noun": "pl"},
   {"id": "ls-u2", "text": "Jag ser {noun}.", "noun": "pl"},
   {"id": "ls-u3", "text": "{name} gillar {noun}.", "noun": "pl"},
-  {"id": "ls-u4", "text": "{name} har två små {noun}.", "noun": "pl"},
+  {"id": "ls-u4", "text": "{name} ser två små {noun}.", "noun": "pl"},
   {"id": "ls-u5", "text": "Min bror ritar fyra {noun}.", "noun": "pl"},
   {"id": "ls-u6", "text": "Vår fröken räknar sina {noun}.", "noun": "pl"},
   {"id": "ls-u7", "text": "{name} hittar tre små {noun}.", "noun": "pl"},

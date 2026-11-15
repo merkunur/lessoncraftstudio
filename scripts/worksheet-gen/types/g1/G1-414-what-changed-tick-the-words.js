@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-414',
   slug: 'what-changed-tick-the-words',
   difficulty: { 1: { ...D, ...{"floor":"K","kinds":["remove","swap","scale"]} }, 2: D, 3: { ...D, ...{"floor":"G2"} } },
-  i18n: { en: { title: "What Changed? Tick the Words", instruction: "Circle the 3 differences in the bottom picture, then tick the words of the things that changed." } },
+  i18n: { en: { title: "What Changed? Tick the Words", instruction: "Circle the 3 differences in the bottom picture, then check the words of the things that changed." } },
   gradeBand: "G1",
 };

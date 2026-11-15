@@ -125,6 +125,13 @@ function makeLitLetterKnowledge(cfg) {
  * its place when the two counts agree). */
 const CHECK_MODES = new Set(['upper-lower', 'missing-alphabet', 'find-letter-grid']);
 const CHECK_CARDS = 7;
+// upper-lower check: the small letters that are their capital made small, and for each small letter the ones that look like it
+const SAME_SHAPE = new Set('ckopsuvwxzöø'.split(''));
+const LOOK_ALIKE = {
+  a: 'eod', b: 'dph', c: 'eo', d: 'bqp', e: 'ac', f: 'tl', g: 'qpy', h: 'nb', i: 'jl', j: 'ig', k: 'hx', l: 'it', m: 'nw', n: 'mhu',
+  o: 'ac', p: 'qbd', q: 'pg', r: 'nv', s: 'zc', t: 'fl', u: 'nv', v: 'uy', w: 'mv', x: 'kz', y: 'vg', z: 'sx',
+  ä: 'aö', ö: 'oä', ü: 'uö', å: 'aä', æ: 'ae', ø: 'oö', ñ: 'nh', é: 'eè', è: 'eé', à: 'aá', ç: 'ce',
+};
 function checkPage({ difficulty, locale }, ctx, alphabets) {
   const { checkGrid } = require('../../lib/check-page.js');
   const rng = ctx.rng;
@@ -159,12 +166,17 @@ function checkPage({ difficulty, locale }, ctx, alphabets) {
         : `<span class="lit-lk-cell lit-letter" style="${tileStyle(40, 24)}">${ch}</span>`)).join('') + `</div>`);
     }
   } else {
-    // upper-lower: a capital and its small letter among others of the alphabet; where the right one stands is drawn evenly
+    // upper-lower: a capital and its small letter among others of the alphabet; where the right one stands is drawn evenly.
+    // (2026-11-15, en / sv check reviews) never a letter whose small form is its capital made small (C c, O o, S s …: the
+    // child matches the shape, not the letter), and every card offers ONE small letter that looks like the right one
+    // (Z among s z x, L among i l t), so no form is the easier one
     const n = lvl >= 3 ? 4 : 3;
-    const letters = rng.sample(alphabet, CHECK_CARDS);
+    const letters = rng.sample(alphabet.filter((c) => !SAME_SHAPE.has(c)), CHECK_CARDS);
     const at = rng.shuffle(letters.map((_, i) => i % n));
     letters.forEach((ch, ci) => {
-      const wrong = rng.sample(alphabet.filter((c) => c !== ch && c.toUpperCase() !== ch.toUpperCase()), n - 1);
+      const like = (LOOK_ALIKE[ch] || '').split('').filter((c) => alphabet.includes(c) && c !== ch);
+      const near = like.length ? [like[Math.floor(rng.next() * like.length)]] : [];
+      const wrong = rng.shuffle(near.concat(rng.sample(alphabet.filter((c) => c !== ch && !near.includes(c) && c.toUpperCase() !== ch.toUpperCase()), n - 1 - near.length)));
       const opts = wrong.slice(0, at[ci]).concat([ch], wrong.slice(at[ci]));
       cards.push(`<div style="display:flex;align-items:center;justify-content:center;gap:12px">` +
         `<span class="lit-lk-mtile lit-letter" style="${tileStyle(52, 32)};background:#FFFFFF;border-color:#146B5E">${ch.toUpperCase()}</span>` +

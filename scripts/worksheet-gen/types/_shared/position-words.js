@@ -13,6 +13,9 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
+const { makeRng } = require('../../lib/rng.js');
+// the words under each card of the on / under / beside page (native per language)
+const CAPTIONS = require('../../data/position-captions.json');
 
 const CRATE = (w, h) =>
   `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">` +
@@ -37,15 +40,30 @@ function makePositionType(cfg) {
     },
     i18n,
 
-    build({ theme, difficulty }, ctx) {
+    build({ theme, difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
       const pool = labelSafeNouns(theme);
 
       if (mode === 'on-under') {
         // 2×2 cards: crate + one icon at each of 3 spots; target = `relation`
+        // WHICH PLACE each card asks (2026-11-15, sv check review + the page's own title): the page asked the type's one
+        // relation on every card, so the answer was always the top picture and UNDER / BESIDE were never asked. Now the
+        // cards ask the places in turn (level 1: on and under, its two visible spots), from a stream of their own so that
+        // every page keeps the pictures it had; the words under a card name its place.
+        const L = String(locale || 'en').slice(0, 2), cap = CAPTIONS[L];
+        if (!cap) throw new Error(`${id}: no place captions for ${L}`);
+        const r2 = makeRng(String(rng.seed) + '|asks');
+        const asked = [];
+        while (asked.length < d.cards) {
+          let blk = r2.shuffle(difficulty === 1 ? ['on', 'under'] : ['on', 'under', 'beside']);
+          if (asked.length && blk[0] === asked[asked.length - 1]) blk = blk.slice(1).concat(blk[0]);
+          asked.push(...blk);
+        }
+        asked.length = d.cards;
         const cards = [];
         for (let i = 0; i < d.cards; i++) {
+          const relation = asked[i];
           let ns = rng.sample(pool, 3);
           // icon art has transparent padding — sink the ON icon a few px into
           // the crate's top edge so it visually SITS on it
@@ -70,16 +88,17 @@ function makePositionType(cfg) {
           const scene = `<div style="position:relative;width:280px;height:268px" data-lcs-relation="${relation}">` +
             `<div style="position:absolute;left:70px;top:74px">${CRATE(140, 120)}</div>` +
             imgs + `</div>`;
+          const word = `<div data-lcs-relword="${relation}" style="text-align:center;font-family:'Baloo 2',cursive;font-weight:700;font-size:${k === 1 ? 20 : 17}px;line-height:${k === 1 ? 26 : 22}px;color:#3A3530">${cap[relation]}</div>`;
           cards.push(
-            `<div class="ws-card-stage" style="padding:0" data-lcs-card>` +
+            `<div class="ws-card-stage" style="padding:0;display:flex;flex-direction:column;align-items:center" data-lcs-card>` +
             (k === 1 ? scene
               : `<div style="width:${Math.round(280 * k)}px;height:${Math.round(268 * k)}px"><div style="transform:scale(${k});transform-origin:0 0">${scene}</div></div>`) +
-            `</div>`
+            word + `</div>`
           );
         }
         return {
           bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }),
-          meta: { relation },
+          meta: { relation, asked },
         };
       }
 

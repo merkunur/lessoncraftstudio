@@ -653,7 +653,7 @@ async function main() {
       ok(h.pillsW.every((w) => w <= 102) && h.pillsH.every((x) => x >= 44), `pills ${h.pillsW.map((w) => w.toFixed(1)).join('/')} wide, ${h.pillsH.join('/')} high`);
       ok(Math.abs(h.pv - 48) <= 1 && /251, 227, 216/.test(h.hi), `placeValueRow ${h.pv.toFixed(1)} high, ones box background ${h.hi} (coralSoft)`);
       ok(h.ticks.length === 2 && h.ticks.every((t) => t.startsWith('44/') && t.endsWith('/')), `tickPair ${h.ticks.join(' ')} (44 px, EMPTY)`);
-      ok(Math.abs(h.table - 92) <= 1 && h.tableW <= 250 && h.rows.join('|') === 'even + even = even|odd + odd = even|even + odd = odd', `parityTable ${h.table.toFixed(1)} x ${h.tableW.toFixed(1)} rows ${h.rows.join(' | ')}`);
+      ok(Math.abs(h.table - 116) <= 1 && h.tableW <= 250 && h.rows.join('|') === 'even + even = even|odd + odd = even|even + odd = odd|odd + even = odd', `parityTable ${h.table.toFixed(1)} x ${h.tableW.toFixed(1)} rows ${h.rows.join(' | ')}`);
       ok(h.icons, 'every picture in the smoke lanes loaded at >= 44 px');
       console.log(`components: rule ${h.rule.toFixed(1)} · dotRowCard ${h.f1.map((x) => x.toFixed(1)).join('/')} (eq ${h.eqW.map((x) => x.toFixed(1)).join('/')}) · shareLane ${h.share.h.toFixed(1)}/${h.share.row.toFixed(1)} · countLane ${h.count.h.toFixed(1)}/${h.count.row.toFixed(1)} · captions ${h.captions.map((c) => c.t + '@' + c.w.toFixed(1)).join(' ')} · pills ${h.pillsW.map((w) => w.toFixed(1)).join('/')} · pv ${h.pv.toFixed(1)} · table ${h.table.toFixed(1)}x${h.tableW.toFixed(1)}`);
       // component contracts (throws)
@@ -670,7 +670,7 @@ async function main() {
       throws(() => C4.chipStrip({ values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }), /> 639/, 'chipStrip 10 x 64');
       throws(() => C4.chipStrip({ values: [1, 0, 3] }), /positive integer/, 'chipStrip a 0');
       throws(() => C4.tickPair({ keys: ['even', 'even'], correct: 'even' }), /permutation/, 'tickPair keys');
-      throws(() => C4.parityTable({ chips: en.chips, order: ['ee', 'ee', 'oo'] }), /permutation/, 'parityTable order');
+      throws(() => C4.parityTable({ chips: en.chips, order: ['ee', 'ee', 'oo', 'eo'] }), /permutation/, 'parityTable order');
       throws(() => C4.shareLane({ n: 9, src, names: ['Mia', 'Mia'], leftoverLabel: 'x' }), /DIFFERENT/, 'shareLane same name twice');
       throws(() => C4.placeValueRow({ digits: [0, 7] }), /leading 0/, 'placeValueRow 07');
     }
@@ -855,7 +855,7 @@ async function main() {
         } else if (mode === 'sums') {
           E.forEach((e, i) => { const l = P.lanes[i]; if (!l || l.a !== e.a || l.b !== e.b || e.parity !== TYPE.parity(e.a + e.b)) out.push(`lane ${i + 1}: ${JSON.stringify(e)} vs render ${l && l.a} + ${l && l.b}`); if (l) { const c = l.ticks.find((t) => t.correct); if (!c || c.key !== e.parity) out.push(`lane ${i + 1}: the correct tick ${c && c.key} != ${e.parity}`); if (l.laneText.includes(String(e.a + e.b))) out.push(`lane ${i + 1}: the sum ${e.a + e.b} appears`); } });
           const ch = bank.chips;
-          if (r.m.stamps.lcsHasTable === '1' && (!P.table || P.table.rows.join('|') !== `${ch.even} + ${ch.even} = ${ch.even}|${ch.odd} + ${ch.odd} = ${ch.even}|${ch.even} + ${ch.odd} = ${ch.odd}`)) out.push(`the table reads ${P.table && P.table.rows.join(' | ')}`);
+          if (r.m.stamps.lcsHasTable === '1' && (!P.table || P.table.rows.join('|') !== `${ch.even} + ${ch.even} = ${ch.even}|${ch.odd} + ${ch.odd} = ${ch.even}|${ch.even} + ${ch.odd} = ${ch.odd}|${ch.odd} + ${ch.even} = ${ch.odd}`)) out.push(`the table reads ${P.table && P.table.rows.join(' | ')}`);
           P.heads.forEach((h, ci) => { const W = h.filter((c) => c.key === 'odd' || c.key === 'even'); if (W.map((c) => c.key).join() !== bank.houseOrder.join() || W.some((c) => c.t !== bank.chips[c.key])) out.push(`column ${ci + 1}: word heads ${JSON.stringify(W)}`); });
         }
         const ban = banRegex(loc);
@@ -906,7 +906,7 @@ async function main() {
             else ok(l.px >= 30 && l.text === `${l.a} + ${l.b}` && l.underline.every((d) => d >= 1 && d <= 6), `${name} lane ${i + 1}: "${l.text}" at ${l.px} px, underline ${l.underline.map((d) => d.toFixed(1))} px under the baseline (1..6)`);
           }
           if (mode === 'ones') ok(P.rule && P.rule.h <= 60.6 && P.rule.px >= 14, `${name}: rule strip ${P.rule && P.rule.h.toFixed(1)} high at ${P.rule && P.rule.px} px (<= 2 lines)`);
-          else ok(P.table && Math.abs(P.table.h - 92) <= 1 && P.table.w <= 675, `${name}: table ${P.table && P.table.h.toFixed(1)} x ${P.table && P.table.w.toFixed(1)}`);
+          else ok(P.table && Math.abs(P.table.h - 116) <= 1 && P.table.w <= 675, `${name}: table ${P.table && P.table.h.toFixed(1)} x ${P.table && P.table.w.toFixed(1)}`);
         }
         return P;
       }

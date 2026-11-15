@@ -356,7 +356,11 @@ async function checkRender(page, job, out, en) {
   ok(m.models.join(',') === rule.models.slice(0, d.models).map((x) => x.word).join(','), `${tag}: models ${m.models.join(',')} ≠ bank first ${d.models}`);
   ok(m.title.includes(rule.head), `${tag}: title "${m.title}" does not carry the rule head "${rule.head}"`);
   // node-side re-derivation: every stamped word is in eligible() with the bank literal gaps
-  const pool = spec.eligible('en', unit, { ...cfgFor(job.d), bank: en });
+  // the box width (2026-11-15): a rule whose letters differ in length (en c / k / ck) gives EVERY box the width of its
+  // longest candidate, or the box would tell the answer; a rule of one length, or split boxes, keeps the level's width
+  const cfg0 = cfgFor(job.d), candLens = new Set((rule.cands || []).map((c) => [...c].length));
+  const gapCells = cfg0.gapCells === 'len' && candLens.size > 1 && rule.gap.boxes !== 'split' ? Math.max(...candLens) : cfg0.gapCells;
+  const pool = spec.eligible('en', unit, { ...cfg0, gapCells, bank: en });
   const byKey = new Map(pool.map((e) => [e.vocabKey, e]));
   for (const s of m.stamps) {
     const e = byKey.get(s.vocab);
@@ -866,7 +870,7 @@ async function sectionFacePoisons(page, en, poison) {
   poison('magic e on the plural face builds', tryBuild('plural', 'magic-e'), /not a plural-form rule.*REFUSED/);
   poison('the plural-form rule on the base builds', [(() => { try { spec.build({ theme: null, difficulty: 2, locale: 'en', unit: 'y-ies-f-ves' }, { rng: makeRng('G2-315|fp|2') }); return ''; } catch (e) { return e.message; } })()], /plural-form rule has no base page.*REFUSED/);
   poison('the plural-form rule on the detective face builds', tryBuild('detective', 'y-ies-f-ves'), /REFUSED/);
-  poison('ai-ay on the choice face builds (2 contrast words)', tryBuild('choice', 'ai-ay'), /sides 19\/2.*REFUSED/);
+  poison('ai-ay on the choice face builds (2 contrast words)', tryBuild('choice', 'ai-ay'), /sides 12\/2.*REFUSED/);   // (12 since 2026-11-15: the seven "air" words left the ai side)
   b = clone(en); b.rules['c-k-ck'].items = b.rules['c-k-ck'].items.filter((it) => it.g !== 'k').concat(b.rules['c-k-ck'].items.filter((it) => it.g === 'k').slice(0, 5));
   poison('c-k-ck bins with five k words (< minSide 6)', tryBuild('bins', 'c-k-ck', b), /sides \d+\/5 .*REFUSED/);
   b = clone(en); b.rules['y-ies-f-ves'].items = pr().items.slice(0, 7);

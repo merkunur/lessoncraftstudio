@@ -42,8 +42,9 @@ const FW = 640;   // the widest a graph may be: the 675-px body minus its frame
  * like best of things they know — nectarine, pomegranate, papaya are no vote for a six-year-old. Everyday things only;
  * a theme without a list is not offered for the survey (its pages cannot build).
  */
+// (2026-11-15: no peach. The library's peach reads as an apple or an orange to a child, and the survey prints its word.)
 const SURVEY_CHOICES = {
-  fruits: ['apple', 'banana', 'orange', 'strawberry', 'pear', 'watermelon', 'cherry', 'peach', 'pineapple', 'blueberry', 'raspberry', 'kiwi'],
+  fruits: ['apple', 'banana', 'orange', 'strawberry', 'pear', 'watermelon', 'cherry', 'pineapple', 'blueberry', 'raspberry', 'kiwi'],
   vegetables: ['carrot', 'corn', 'tomato', 'potato', 'broccoli', 'cucumber', 'pumpkin', 'lettuce', 'mushroom'],
   pets: ['cat', 'dog', 'fish', 'rabbit', 'hamster', 'turtle', 'parrot', 'mouse'],
   toys: ['ball', 'doll', 'kite', 'blocks', 'car', 'train', 'robot', 'bicycle', 'balloon', 'scooter', 'slide', 'swing'],
@@ -59,6 +60,7 @@ const SURVEY_CHOICES = {
   'insects and bugs': ['butterfly', 'ladybug', 'bee', 'ant', 'snail', 'spider', 'caterpillar', 'dragonfly'],
 };
 const TEAL = '#146B5E', INK = '#3A3530';
+const TOK = require('../../primitives/_tokens.js').color;
 
 function distinctVals(rng, n, lo, hi) {
   const s = new Set(); let g = 0;
@@ -112,12 +114,17 @@ const strokeMarks = (svg) => svg.replace(/<text ([^>]*)>✕<\/text>/g, (m, a) =>
 });
 /** the largest pictograph cell for `slots` stamps in a graph of about 420 px (a check card holds the graph and its answers) */
 const checkCell = (slots) => Math.max(24, Math.min(40, Math.floor((380 - 6 * slots) / (slots + 1))));
+/** pictures a child names as something else (a plum, a peach, a persimmon, an apricot, a nectarine read as an apple, a
+ *  tomato or an orange) and the teacher's key of a check names by their word: never a row of a check's graph
+ *  (review en.review-f1115-math, 2026-11-15: "the plum row shows a red apple") */
+const CHECK_NOT_NAMED = new Set(['plum', 'peach', 'persimmon', 'apricot', 'nectarine']);
 
 function graphCheckPage(type, { mode, scale, fracLabels }, { theme, difficulty }, ctx) {
   const d = type.difficulty[difficulty] || type.difficulty[2];
   const rng = ctx.rng;
   const sc = scale || 1;
-  const pool = labelSafeNouns(theme);
+  const keyMode = !!(ctx && ctx.answerKey);
+  const pool = labelSafeNouns(theme).filter((n) => !CHECK_NOT_NAMED.has(n.noun) && !CHECK_NOT_NAMED.has(n.vocabKey));
   if (pool.length < 4) throw new Error(`${type.id} checkPage: theme ${theme} has ${pool.length} pictures`);
   const hrefOf = (n) => fileUri(theme, n.noun);
   const cards = [];
@@ -128,14 +135,18 @@ function graphCheckPage(type, { mode, scale, fracLabels }, { theme, difficulty }
     const cMax = ({ 1: 3, 2: 5, 3: 7 })[difficulty] || 5;
     const label = (v) => (fracLabels && v % 1 !== 0 ? Math.floor(v) + '½' : String(v));
     const seen = new Set();
+    // (reviews en/de f1115, 2026-11-15) a line plot with halves plots two of its three stacks over HALF marks, so the half
+    // marks are read and asked in every card of both forms; and no stack is as tall as the number under it (5 X over the
+    // 5 is right by copying the label)
+    const halves = ticks.filter((v) => v % 1 !== 0), wholes = ticks.filter((v) => v % 1 === 0);
     for (let guard = 0; cards.length < CHECK_CARDS && guard < 400; guard++) {
-      const chosen = rng.sample(ticks, 3).sort((a, b) => a - b);
+      const chosen = (fracLabels ? [...rng.sample(halves, 2), ...rng.sample(wholes, 1)] : rng.sample(ticks, 3)).sort((a, b) => a - b);
       const counts = {};
       chosen.forEach((v) => { counts[v] = rng.int(1, cMax); });
       // one full stack (as on a new page: a plot of short stacks is half empty), the counts of a card all different
       if (Math.max(...chosen.map((v) => counts[v])) < cMax) counts[chosen[rng.int(0, 2)]] = cMax;
       const sig = chosen.map((v) => v + ':' + counts[v]).join(',');
-      if (seen.has(sig) || new Set(chosen.map((v) => counts[v])).size < 3) continue;
+      if (seen.has(sig) || new Set(chosen.map((v) => counts[v])).size < 3 || chosen.some((v) => counts[v] === v)) continue;
       seen.add(sig);
       const g = linePlot({ counts, min: lo, max: hi, step, width: fracLabels ? 330 : 300, fracLabels, xH: 24, xSize: 22, labelSize: 22, padX: 22 });
       const asks = chosen.map((v) => card(NUMTXT(label(v), 28) + SYM('→', 26) + answerBox({ w: 66, h: 52, answer: counts[v] }), ` data-lcs-qv="${v}" data-lcs-qn="${counts[v]}"`).replace('padding:10px 16px', 'padding:6px 12px'));
@@ -156,9 +167,13 @@ function graphCheckPage(type, { mode, scale, fracLabels }, { theme, difficulty }
       const hrefs = pair.map(hrefOf);
       let vals;
       // (a graph to build has no row of one: one box to colour is no count)
-      if (mode === 'tally-fill') { const a = rng.int(2, d.maxN); let b; do { b = rng.int(2, d.maxN); } while (b === a); vals = [a, b]; }
+      // tally to graph (reviews en/de/sv f1115, 2026-11-15): every card reads ONE tally with a bundle of five (6 or more)
+      // and one without (2 to 4), so the two forms ask the same reading; the larger row first, so that the same two counts
+      // in another order are the same task to the check (form B asked 4 and 7 after form A's 7 and 4)
+      if (mode === 'tally-fill') vals = [rng.int(Math.min(6, d.maxN), d.maxN), rng.int(2, 4)];
       else vals = distinctVals(rng, 2, mode === 'pict-fill' ? 2 : 1, d.maxN).map((v) => v * (mode === 'pict-fill' ? 1 : sc));
       if (vals.length < 2) continue;
+      if (mode === 'pict-fill') vals.sort((a, b) => b - a);
       if (mode === 'pict-read') {
         const cell = checkCell(Math.max(...vals) / sc);
         const g = pictograph({ rows: pair.map((n, i) => ({ iconHref: hrefs[i], n: vals[i] })), scale: sc, cell, rowGap: Math.round(cell * 0.45), keyScale: 1 });
@@ -176,12 +191,18 @@ function graphCheckPage(type, { mode, scale, fracLabels }, { theme, difficulty }
       } else {
         // tally-fill: the tally cards, and the empty bar graph of the level (0 to the level's largest count)
         const w = 280, h = 246, padL = 44, padB = 60, padT = 12, padR = 10, yMax = d.maxN;
-        const g = barGraph({ values: [0, 0], iconHrefs: hrefs, yMax, w, h, padL, padB, fontSize: 16, iconSize: 42, barMax: 64 });
-        // the box where a bar stops (the geometry of primitives/bar-graph.js): its answer is the count
+        // the key draws the bars coloured (review de/sv f1115: a key of small digits floating in an empty graph showed no bar)
+        const g = barGraph({ values: keyMode ? vals : [0, 0], iconHrefs: hrefs, yMax, w, h, padL, padB, fontSize: 16, iconSize: 42, barMax: 64 });
+        // the box where a bar stops (the geometry of primitives/bar-graph.js): its answer is the count (the key writes it
+        // into the top of its bar, two steps tall where the bar has them)
         const plotW = w - padL - padR, plotH = h - padT - padB, slotW = plotW / 2, barW = Math.min(64, slotW * 0.55);
         const yFor = (v) => padT + plotH - (v / yMax) * plotH;
-        const stops = vals.map((v, i) => `<rect x="${(padL + i * slotW + (slotW - barW) / 2).toFixed(1)}" y="${yFor(v).toFixed(1)}" width="${barW.toFixed(1)}" height="${(yFor(v - 1) - yFor(v)).toFixed(1)}" fill="none" data-lcs-answer="${v}" data-lcs-stop="${i}"/>`).join('');
-        cards.push(checkRow(checkCol(pair.map((n, i) => card(ICON(hrefs[i], 40) + tallyPrim({ n: vals[i], strokeH: 34 }).svg, ` data-lcs-tallycat="${i}" data-lcs-catn="${vals[i]}"`))), frame(g.svg.replace(/<\/svg>$/, stops + '</svg>'))));
+        const stopH = (v) => (keyMode ? yFor(Math.max(0, v - 2)) : yFor(v - 1)) - yFor(v);
+        const stops = vals.map((v, i) => `<rect x="${(padL + i * slotW + (slotW - barW) / 2).toFixed(1)}" y="${yFor(v).toFixed(1)}" width="${barW.toFixed(1)}" height="${stopH(v).toFixed(1)}" fill="none" data-lcs-answer="${v}" data-lcs-stop="${i}"/>`).join('');
+        // (the key's bars in the soft tints: the count the key writes into a bar reads on them)
+        const soft = { [TOK.teal]: TOK.tealSoft, [TOK.coral]: TOK.coralSoft };
+        const bars = keyMode ? g.svg.replace(/(<rect [^>]*?)fill="([^"]*)"([^>]*data-lcs-bar=)/g, (m, a, f, b) => a + 'fill="' + (soft[f] || f) + '"' + b) : g.svg;
+        cards.push(checkRow(checkCol(pair.map((n, i) => card(ICON(hrefs[i], 40) + tallyPrim({ n: vals[i], strokeH: 34 }).svg, ` data-lcs-tallycat="${i}" data-lcs-catn="${vals[i]}"`))), frame(bars.replace(/<\/svg>$/, stops + '</svg>'))));
       }
     }
   }
@@ -341,6 +362,13 @@ function makeGraphType(cfg) {
         // levels (2026-09-27): level 1 = 3 values with 1-3 marks, level 2 (published) 4 values with 1-5, level 3 = 5 with 1-7
         const LP = { 1: { vals: 3, cMax: 3 }, 2: { vals: 4, cMax: 5 }, 3: { vals: 5, cMax: 7 } }[difficulty] || { vals: 4, cMax: 5 };
         const chosen = rng.sample(Array.from({ length: nvals }, (_, k) => lo + k * step), Math.min(LP.vals, nvals));
+        // Halfway Marks (2026-11-15, review en/de f1115: "the half marks are never read"): a page that drew only whole
+        // numbers plots one of its stacks over a half mark instead (a stream of its own: every other page keeps its draw)
+        if (fracLabels && !chosen.some((v) => v % 1 !== 0)) {
+          const alt = makeRng(rng.seed + '|half');
+          const free = Array.from({ length: nvals }, (_, k) => lo + k * step).filter((v) => v % 1 !== 0 && !chosen.includes(v));
+          chosen[alt.int(0, chosen.length - 1)] = alt.pick(free);
+        }
         chosen.forEach((v) => { counts[v] = rng.int(1, LP.cMax); });
         // a NEW page has one full stack (a plot of short stacks left half its page empty); the published page is as drawn
         if (!published && Math.max(...chosen.map((v) => counts[v])) < LP.cMax) counts[chosen[rng.int(0, chosen.length - 1)]] = LP.cMax;

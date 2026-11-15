@@ -3007,7 +3007,7 @@
   "strings": {
     "G2-315": {
       "title": "Stavningsregel: {UNIT}",
-      "instruction": "Läs regeln i rutan. Säg ordet till varje bild och skriv sedan de bokstäver som fattas i de streckade rutorna."
+      "instruction": "Titta på exemplen i rutan. Säg ordet till varje bild och skriv sedan de bokstäver som fattas i de streckade rutorna."
     },
     "G2-324": {
       "title": "Vilket är rätt? {UNIT}",

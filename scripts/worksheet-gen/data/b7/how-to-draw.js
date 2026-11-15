@@ -77,7 +77,7 @@ const HOW_TO_DRAW = {
     strings: {
       base: { title: 'How to Draw {L} Step by Step', instruction: 'Look at the four numbered steps and draw the cat on the big paper: first the outline, then the new lines you see in each step.' },
       shapes: { title: 'Draw {L} with Simple Shapes', instruction: 'Go over the dotted shapes in the box, then finish the dog with the new lines of each step.' },
-      trace: { title: 'Trace, Then Draw {L}', instruction: 'Trace the grey rabbit with your pencil, then draw the rabbit yourself in the empty box beside it.' },
+      trace: { title: 'Trace, Then Draw {L}', instruction: 'Trace the gray rabbit with your pencil, then draw the rabbit yourself in the empty box beside it.' },
       finish: { title: 'Finish the {N} Drawing', instruction: 'Look at the whole horse, draw the lines that are missing on the second horse, then draw a horse of your own below.' },
       grid: { title: 'Draw {L} with the Grid', instruction: 'Look at the dinosaur on the grid and draw it on the empty grid one square at a time, then once more without the grid.' },
       word: { title: 'Draw {L} and Write the Word', instruction: 'Follow the steps to draw the fish on the paper, then trace the word under it and write it once more.' },

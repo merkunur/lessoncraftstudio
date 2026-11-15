@@ -46,7 +46,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Look, Fold and Find',
-      instruction: 'Look at picture 1 for as long as you like. Then fold the page on the dashed line so picture 1 is hidden. Circle the changes in picture 2 and tick a box for each one.',
+      instruction: 'Look at picture 1 for as long as you like. Then fold the page on the dashed line so picture 1 is hidden. Circle the changes in picture 2 and check a box for each one.',
     },
   },
 

@@ -101,7 +101,8 @@ const REVIEW_EXCLUDE = {
   // round-2 review opened them): oatmeal reads as cereal, frisbee as a plate, the jeep prints its own brand name, the
   // teacher / weasel / evergreen / peach pictures are on the naming refusals (lady, fox, tree, apple)
   en: { 'y-ies-f-ves': ['galaxy'], 'c-k-ck': ['baker'], 'magic-e': ['baker'], 'ee-ea': ['manatee', 'cereal', 'theater', 'earmuffs', 'meerkat', 'beet', 'heel', 'deer', 'leek', 'beach', 'peas', 'ear', 'reindeer', 'oatmeal', 'frisbee', 'jeep', 'teacher', 'weasel', 'peach', 'evergreen'], 'ai-ay': ['armchair', 'stairs', 'wheelchair', 'chair', 'hair', 'eclair'] },
-  de: { ie: ['dahlie', 'hortensie', 'petunie', 'begonie'], tt: ['nachttisch', 'mütze', 'leuchtturm'], ss: ['hausschuhe'], ll: ['bulldozer', 'medaille', 'schöpfkelle'], ck: ['schöpfkelle'], nn: ['zinnie'] },
+  // de tt «butter» (2026-11-15, de check review): both library butters are a yellow block with holes, named «Käse» or «Schwamm»
+  de: { ie: ['dahlie', 'hortensie', 'petunie', 'begonie'], tt: ['nachttisch', 'mütze', 'leuchtturm', 'butter'], ss: ['hausschuhe'], ll: ['bulldozer', 'medaille', 'schöpfkelle'], ck: ['schöpfkelle'], nn: ['zinnie'] },
   es: { 'g-gu': ['baguette', 'guante', 'paraguas'], 'b-v': ['bolillo', 'bote'] },
   fr: { 's-ou-ss': ['tournesol'] },
   it: { 'chi-ghi': ['cocco'] },
@@ -170,7 +171,9 @@ function eligible(loc, ruleId, opts) {
   const exclRe = b.exclude && b.exclude.re ? new RegExp(b.exclude.re, 'u') : null;   // an item family the locale refuses
   const pool = (rule.items || [])
     .filter(notFace)
-    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun))
+    // `pictureOk` (an item's own reviewed note): a picture the general refusals keep out is right for THIS word — the
+    // body-parts skeleton is refused as "a whole body for a body part", and is exactly a Skelett (de tt, 2026-11-15)
+    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun) || !!it.pictureOk)
     .map((it) => ({ ...it, word: displayWord(it.word, l, b.capital) }))
     .filter((it) => /^\p{L}+$/u.test(it.word))
     .filter((it) => !o.fresh || !reviewExcluded(l, ruleId, it.word))
@@ -284,7 +287,9 @@ function eligiblePlural(loc, ruleId, opts) {
   const pool = (rule.items || [])
     .filter((it) => !(Array.isArray(it.not) && it.not.includes('plural')))
     .filter((it) => it.plural)
-    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun))
+    // `pictureOk` (an item's own reviewed note): a picture the general refusals keep out is right for THIS word — the
+    // body-parts skeleton is refused as "a whole body for a body part", and is exactly a Skelett (de tt, 2026-11-15)
+    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun) || !!it.pictureOk)
     .filter((it) => !o.fresh || !reviewExcluded(l, ruleId, displayWord(it.word, l, b.capital)))
     .map((it) => ({ ...it, word: displayWord(it.word, l, b.capital), plural: displayWord(it.plural, l, b.capital) }))
     .filter((it) => /^\p{L}+$/u.test(it.word) && /^\p{L}+$/u.test(it.plural))
@@ -358,7 +363,12 @@ module.exports = {
     if (refused) throw new Error(`${ID}: rule ${ruleId}/${loc} cannot carry the base page (${refused}) — REFUSED`);
     if (d.mode !== 'gap') throw new Error(`${ID}: the base renders mode 'gap' only (got ${d.mode})`);
     if ((rule.models || []).length < d.models) throw new Error(`${ID}: rule ${ruleId}/${loc} has ${(rule.models || []).length} models < ${d.models} — REFUSED`);
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: d.gapCells, bank, fresh: !!(ctx && ctx.fresh) });
+    // ONE box width for a rule whose letters differ in length (de t / tt, en c / k / ck, sv l / ll): a box as wide as its
+    // grapheme gave the answer away (2026-11-15, de check review: «Man_el» one letter wide, «Bu__er» two) — every box is as
+    // wide as the rule's longest candidate (the choice face's rule, G1-305's); a rule of one length keeps 'len'
+    const candLens = new Set((rule.cands || []).map((c) => [...c].length));
+    const gapCellsCfg = d.gapCells === 'len' && candLens.size > 1 && rule.gap.boxes !== 'split' ? Math.max(...candLens) : d.gapCells;
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: gapCellsCfg, bank, fresh: !!(ctx && ctx.fresh) });
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} has ${pool.length} eligible words < ${floor} (d${difficulty}) — REFUSED`);
     const picks0 = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
@@ -386,7 +396,7 @@ module.exports = {
     });
     const bodyHtml = `<div data-ws-content data-lcs-type="${ID}" data-lcs-face="base" data-lcs-rule="${esc(ruleId)}" data-lcs-rule-head="${esc(rule.head)}" ` +
       `data-lcs-re="${esc(rule.gap.re)}" data-lcs-boxes="${esc(rule.gap.boxes || 'wide')}" data-lcs-cands="${esc((rule.cands || []).join(','))}" ` +
-      `data-lcs-cards="${d.cards}" data-lcs-models="${d.models}" data-lcs-gapcells="${d.gapCells}" data-lcs-cellmax="${d.cellMax}" ` +
+      `data-lcs-cards="${d.cards}" data-lcs-models="${d.models}" data-lcs-gapcells="${gapCellsCfg}" data-lcs-cellmax="${d.cellMax}" ` +
       `data-lcs-minletters="${d.minLetters}" data-lcs-maxletters="${d.maxLetters}" data-lcs-pic="${d.pic}" ` +
       `style="flex:1;display:flex;flex-direction:column;min-height:0;gap:14px">` +
       box + cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`;
@@ -394,28 +404,57 @@ module.exports = {
   },
 
   /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the BASE page (the faces are cut from
-   *  their pages as before): seven picture cards of the rule drawn by the base composer itself (a new page's pool: the
-   *  review's exclusions, the refused pictures), each a card of its own with the page's rule box made small above it;
-   *  each dashed box carries its rule letters (data-lcs-answer). Seven: the cutter pairs a page's cards with the key page
-   *  of build() by their place when the counts agree, and a page holds six or eight cards. */
+   *  their pages as before): picture words of the rule drawn by the base composer itself (a new page's pool: the review's
+   *  exclusions, the refused pictures), TWO of two different rule letters a card under the page's rule box made small (its
+   *  models never a word of the card's own letters, where the rule has others); each dashed box carries its rule letters
+   *  (data-lcs-answer). */
   checkPage({ theme, difficulty, locale, unit }, ctx) {
     const d0 = this.difficulty[difficulty] || this.difficulty[2];
     if (faceOf(d0)) return this.build({ theme, difficulty, locale, unit }, ctx);
     const { checkGrid } = require('../../lib/check-page.js');
     const loc = (locale || 'en').slice(0, 2);
     const bank = loadBank(KEY, loc);
-    const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, cards: 7, cols: 1, rows: 7 } } });
-    const built = this._buildWith.call(self, bank, { difficulty, locale: loc, unit }, { rng: ctx.rng, fresh: true });
+    // TWO words of two different rule letters a card (2026-11-15, de check review: each form asked one word, form A «Mantel»
+    // (t), form B «Butter» (tt) — a form asks one of each): a page of twelve words (ten, eight where the rule has fewer),
+    // paired across their letters; a rule whose words all take the same letters keeps one word a card
+    let built = null, n = 0;
+    for (n of [12, 10, 8, 7]) {
+      const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, cards: n, cols: 1, rows: n } } });
+      try { built = this._buildWith.call(self, bank, { difficulty, locale: loc, unit }, { rng: ctx.rng, fresh: true }); break; } catch (e) { built = null; }
+    }
+    if (!built) throw new Error(`${ID} checkPage: the rule draws no base page of 7+ words`);
     const box = (built.bodyHtml.match(/<div class="ws-scene-banner" data-lcs-rulebox[\s\S]*?(?=<div class="ws-cardgrid")/) || [])[0];
     const cards = [...built.bodyHtml.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => m[1]);
-    if (!box || cards.length !== 7 || !built.meta.items) throw new Error(`${ID} checkPage: the base page did not read back (${cards.length} cards)`);
+    if (!box || cards.length !== n || !built.meta.items) throw new Error(`${ID} checkPage: the base page did not read back (${cards.length} cards)`);
     const small = box.replace('width:675px;min-height:60px', 'width:600px;min-height:52px');
-    const blocks = cards.map((inner, i) => {
+    // a card's box never shows a model word of the card's OWN pattern when the rule has models of other patterns
+    // (2026-11-15, en check review: form A asked «face» under the model «cake», a_e worked out; form B's u_e was not shown)
+    const rule = ruleOf(bank, unit || bank.exemplar);
+    const allModels = rule.models || [];
+    const boxFor = (gs) => {
+      if (!d0.models) return small;
+      const others = allModels.filter((m) => !gs.includes(m.g));
+      if (others.length === allModels.length || !others.length) return small;
+      const models = others.slice(0, d0.models).map((m) => ({ src: pictureOf(m, loc), word: displayWord(m.word, loc, bank.capital), gaps: m.gaps }));
+      return ruleBox({ chips: String(rule.chip || '').split(/\s+/).filter(Boolean), models, w: 600, h: 52 });
+    };
+    const stage = (i) => {
       const it = built.meta.items[i];
       const letters = gapLetters(it.word, it.gaps.slice().sort((a, b) => a.from - b.from));
-      const withAnswers = inner.replace(/data-lcs-gapbox="(\d+)"/g, (m, k) => `${m} data-lcs-answer="${esc(letters[Number(k)])}"`);
-      return `<div style="display:flex;flex-direction:column;align-items:center;gap:8px">${small}${withAnswers.replace('flex:0 1 auto;min-height:' + MIN_PIC + 'px', 'flex:0 0 auto')}</div>`;
-    });
+      return cards[i].replace(/data-lcs-gapbox="(\d+)"/g, (m, k) => `${m} data-lcs-answer="${esc(letters[Number(k)])}"`).replace('flex:0 1 auto;min-height:' + MIN_PIC + 'px', 'flex:0 0 auto');
+    };
+    const byG = new Map();
+    built.meta.items.forEach((it, i) => { if (!byG.has(it.g)) byG.set(it.g, []); byG.get(it.g).push(i); });
+    const pairs = [];
+    for (;;) {
+      const open = [...byG.keys()].filter((g) => byG.get(g).length).sort((a, b) => byG.get(b).length - byG.get(a).length || (a < b ? -1 : 1));
+      if (open.length < 2) break;
+      pairs.push(ctx.rng.shuffle([byG.get(open[0]).shift(), byG.get(open[1]).shift()]));
+    }
+    const blocks = pairs.length >= 2
+      ? pairs.map((p) => `<div style="display:flex;flex-direction:column;align-items:center;gap:8px">${boxFor(p.map((i) => built.meta.items[i].g))}` +
+        `<div style="display:flex;gap:16px 56px;flex-wrap:wrap;justify-content:space-evenly;align-items:flex-end">${p.map(stage).join('')}</div></div>`)
+      : cards.map((_, i) => `<div style="display:flex;flex-direction:column;align-items:center;gap:8px">${boxFor([built.meta.items[i].g])}${stage(i)}</div>`);
     return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
   },
 

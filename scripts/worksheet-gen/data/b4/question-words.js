@@ -127,7 +127,9 @@ const QUESTION_WORDS = {
       // time (3)
       { id: 'play-time',   kind: 'time',  text: '{name} plays {time}.',      q: { who: 'Who plays {time}?',      when: 'When does {name} play?' },       signed: true },
       { id: 'eat-time',    kind: 'time',  text: '{name} eats {time}.',       q: { who: 'Who eats {time}?',       when: 'When does {name} eat?' },        signed: true },
-      { id: 'sleep-time',  kind: 'time',  text: '{name} sleeps {time}.',     q: { who: 'Who sleeps {time}?',     when: 'When does {name} sleep?' },      signed: true },
+      // 2026-11-15 (en reviewer of the unit checks): "Eli sleeps at six o'clock" reads oddly; "goes to bed at eight o'clock" (the
+      // frame takes an evening hour only: G1-353 SLEEP_HOURS)
+      { id: 'sleep-time',  kind: 'time',  text: '{name} goes to bed {time}.', q: { who: 'Who goes to bed {time}?', when: 'When does {name} go to bed?' }, signed: true },
       // count (3)
       { id: 'see-count',   kind: 'count', text: '{name} sees {n} {pl}.',     q: { who: 'Who sees {n} {pl}?',     howmany: 'How many {pl} does {name} see?' },  signed: true },
       { id: 'draw-count',  kind: 'count', text: '{name} draws {n} {pl}.',    q: { who: 'Who draws {n} {pl}?',    howmany: 'How many {pl} does {name} draw?' }, signed: true },

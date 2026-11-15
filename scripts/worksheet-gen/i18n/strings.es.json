@@ -225,7 +225,7 @@
   },
   "K-064": {
     "title": "Encima, debajo, al lado",
-    "instruction": "Rodea el dibujo que está ENCIMA de la caja."
+    "instruction": "Cada tarjeta dice un lugar: ENCIMA, DEBAJO o AL LADO de la caja. Encierra el dibujo que está ahí."
   },
   "K-065": {
     "title": "Izquierda y derecha",
@@ -989,7 +989,7 @@
   },
   "K-238": {
     "title": "Letras mayúsculas punteadas",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-239": {
     "title": "Palabras de uso frecuente",
@@ -1102,23 +1102,23 @@
   },
   "K-254": {
     "title": "Letras punteadas de la G a la L",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-255": {
     "title": "Letras punteadas de la M a la R",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-256": {
     "title": "Letras punteadas de la S a la Z",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-257": {
     "title": "La letra Ñ punteada",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-258": {
     "title": "Mis primeras letras: A B C D",
-    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-259": {
     "title": "Palabras frecuentes: lista 2",
@@ -1435,7 +1435,7 @@
   },
   "K-278": {
     "title": "Letras minúsculas punteadas",
-    "instruction": "Repasa cada letra minúscula con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía."
+    "instruction": "Repasa cada letra minúscula con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú al final del renglón."
   },
   "K-279": {
     "title": "Minúsculas punteadas de la g a la l",

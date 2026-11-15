@@ -15,8 +15,9 @@ const { NAME_RISK } = require('../data/b2/article-name-risk.js');
 const SOUND = require('../data/literacy/sound-name-risk.json');
 const { REFUSED, NAME_ONLY } = require('./picture-name-refusals.js');
 
-// a narwhal is "a whale", a hen "a chicken", both library wolves look like a grey husky ("a dog"), a goose is "a duck"
-const UNAIDED_KEYS = new Set(['narwhal', 'hen', 'wolf', 'goose']);
+// a narwhal is "a whale", a hen "a chicken", both library wolves look like a grey husky ("a dog"), a goose is "a duck",
+// the cobra is a plain red snake every child calls "a snake" (de check review 2026-11-15: "Kobra" → "Schlange")
+const UNAIDED_KEYS = new Set(['narwhal', 'hen', 'wolf', 'goose', 'cobra']);
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
 const loc2 = (l) => String(l || 'en').slice(0, 2);
 

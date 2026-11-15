@@ -419,10 +419,12 @@ function ruleStrip({ text, px = 15 }) {
   return `<div class="ws-lane" data-lcs-rule data-ws-content style="padding:8px 16px;text-align:center;font-family:${F.body},sans-serif;font-weight:800;font-size:${px}px;line-height:20px;color:${T.ink}">${esc(text)}</div>`;
 }
 
-const TABLE_ROWS = { ee: ['even', 'even', 'even'], oo: ['odd', 'odd', 'even'], eo: ['even', 'odd', 'odd'] };
-function parityTable({ chips, order = ['ee', 'oo', 'eo'] }) {
+// 2026-11-15 (native reviews en, de): the table had "even + odd = odd" and not "odd + even = odd", while a quarter of the
+// rows of the page ask odd + even and the direction says "use the table" — the fourth row is printed too
+const TABLE_ROWS = { ee: ['even', 'even', 'even'], oo: ['odd', 'odd', 'even'], eo: ['even', 'odd', 'odd'], oe: ['odd', 'even', 'odd'] };
+function parityTable({ chips, order = ['ee', 'oo', 'eo', 'oe'] }) {
   if (!chips || typeof chips.odd !== 'string' || typeof chips.even !== 'string') throw new Error('parityTable: chips {odd, even}');
-  if (!Array.isArray(order) || order.length !== 3 || new Set(order).size !== 3 || order.some((k) => !TABLE_ROWS[k])) throw new Error('parityTable: order = a permutation of ee|oo|eo');
+  if (!Array.isArray(order) || order.length !== 4 || new Set(order).size !== 4 || order.some((k) => !TABLE_ROWS[k])) throw new Error('parityTable: order = a permutation of ee|oo|eo|oe');
   const rows = order.map((k) => { const [x, y, z] = TABLE_ROWS[k]; return `<div data-lcs-trow="${k}" style="height:24px;line-height:24px">${esc(chips[x])} + ${esc(chips[y])} = ${esc(chips[z])}</div>`; }).join('');
   return `<div class="ws-lane" data-lcs-table data-ws-content style="padding:8px 16px;width:max-content;margin:0 auto;font-family:${F.display},cursive;font-weight:700;font-size:16px;color:${T.ink};text-align:center">${rows}</div>`;
 }

@@ -11,4 +11,13 @@ module.exports = {
   slug: 'tangram-draw-the-lines-2-and-3-pieces',
   difficulty: { 1: D, 2: D, 3: D },
   i18n: { en: { title: "Easy Tangram Puzzles: Draw the Lines for 2 and 3 Pieces", instruction: "Look at the pieces above each shape. Draw the lines inside the shape to show where those pieces meet." } },
+
+  /** THE ITEM BANK of the unit checks (Part 7.6), 2026-11-15 (US teacher-reviewer: form B was form A's shape turned upside
+   *  down, the same shape with the same cuts): the page's own cards, every shape drawn in ONE way (the first turn of the
+   *  shape that fits its card), so the same shape is the same card on every page and a check cannot take it twice. The
+   *  page itself turns its shapes freely. */
+  checkPage(args, ctx) {
+    const rng = Object.assign(Object.create(ctx.rng), { pick: (a) => a[0] });
+    return base.build.call(this, args, { ...ctx, rng });
+  },
 };

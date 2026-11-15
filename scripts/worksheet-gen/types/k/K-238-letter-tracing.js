@@ -85,7 +85,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Trace the Capital Letters',
-      instruction: 'Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.',
+      instruction: 'Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.',
     },
   },
 

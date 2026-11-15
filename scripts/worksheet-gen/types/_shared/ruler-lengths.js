@@ -101,6 +101,10 @@ function makeRulerLengthsType({ id, slug, mode, gradeBand, i18n }) {
       for (let t = 0; t < 600; t++) {
         // (a pencil that does not start at 0 starts one or two whole units in: it is at most the ruler less one unit long)
         const all = []; for (let k = S.lo + (dl.plot ? 1 : 0); k <= S.hi - (d.offset ? S.per : 0); k += step) all.push(k);
+        // (2026-11-15, US teacher-reviewer: form A's pencil ended on a half inch, form B's on a quarter — the skill of the
+        // lesson; a check page of the quarter-inch level ends every pencil on a quarter mark, ¼ or ¾: the six of a ruler)
+        // (the harder page's pencils start further in and are shorter: there four quarters, and two halves to make six)
+        if (ctx && ctx.check && !d.halves && S.per === 4) { const q = all.filter((k) => k % 2 === 1); ks = rng.shuffle(q.concat(rng.sample(all.filter((k) => k % 4 === 2), Math.max(0, 6 - q.length)))); break; }
         if (!dl.plot) { ks = rng.sample(all, dl.n); if (ks.filter((k) => k % S.per !== 0).length >= 3 && ks.some((k) => k % S.per === 0)) break; ks = null; continue; }
         const freq = rng.pick([[3, 2, 1, 1, 1], [3, 2, 2, 1], [3, 1, 1, 1, 1, 1]]);
         const pool = rng.sample(all, freq.length); ks = []; freq.forEach((f, i) => { for (let j = 0; j < f; j++) ks.push(pool[i]); });

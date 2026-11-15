@@ -12,8 +12,8 @@
  *   - an empty EQUATION frame: number, sign, number, equals, number. The child writes an equation with the unknown;
  *   - the ANSWER box with the picture of the thing (a picture, not a word: in eleven languages the word would have
  *     to agree with the number).
- * The key fills all three (the equation in the order the story tells it; "13 − 8 = 5" is as right as "8 + 5 = 13",
- * and the teacher note says so).
+ * The key fills all three: the bar as the child writes it (the two numbers and "?", 2026-11-15), the equation in the order
+ * the story tells it ("13 − 8 = 5" is as right as "8 + 5 = 13", and the teacher note says so), the answer.
  *
  * The stories are the native frames of the story-problem engine (lib/word-problems-levelset.js) and, for the
  * put-together stories with a part unknown, data/word-problems/part-frames.json, and for the stories with the start
@@ -46,6 +46,14 @@ function model(p) {
   if (p.kind === 'add') return { whole: q, parts: [p.n1, p.n2], eq: [p.n1, '+', p.n2, q] };
   if (p.kind === 'sub') return { whole: p.n1, parts: [p.n2, q], eq: [p.n1, MINUS, p.n2, q] };
   throw new Error('story-model: unknown kind ' + p.kind);
+}
+/** whether the story's sum (the two parts that make its whole) makes a new ten: 46 + 37 (within 100); within 20 it
+ *  goes PAST the ten: 8 + 5, 13 − 5 (17 + 3 = 20 only reaches it) */
+function regroups(p, a, max) {
+  const pair = p.kind === 'part' || p.kind === 'addChange' ? [p.n1, a] : p.kind === 'subChange' ? [p.n3, a] : p.kind === 'addStart' ? [a, p.n2]
+    : p.kind === 'subStart' ? [p.n2, p.n3] : p.kind === 'add' ? [p.n1, p.n2] : [p.n2, a];
+  const ones = (pair[0] % 10) + (pair[1] % 10);
+  return max > 20 ? ones >= 10 : ones > 10;
 }
 function answerOf(p) {
   if (p.kind === 'part' || p.kind === 'addChange') return p.n3 - p.n1;
@@ -93,6 +101,9 @@ function makeStoryModelType(o) {
     difficulty: o.levels,
     i18n: o.i18n,
     levelSetWords(m) { return ((m && m.problems) || []).map((p) => p.vocabKey + ':' + p.frame); },
+    /** the unit checks (Part 7.6): the page of the level, with every story making a new ten (see the draw); the key from
+     *  the same page (ctx.check reaches the key build only through this hook) */
+    checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
 
     build({ theme, difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty] || this.difficulty[2];
@@ -130,6 +141,9 @@ function makeStoryModelType(o) {
           for (let t = 0; t < 400 && !nums; t++) {
             const n = draw(kind, d.max, rng, d.tens), p = { kind, ...n }, a = answerOf(p), told = [n.n1, n.n2, n.n3].filter((v) => v != null);
             if (a < 2 || told.includes(a) || new Set(told).size < told.length) continue;
+            // a page of the unit checks (checkPage): within 20 and within 100 every story makes a new ten, so that the two
+            // forms ask alike (review en f1115: form A added 46 + 37, form B 27 + 60)
+            if (ctx.check && d.max >= 20 && !d.tens && !regroups(p, a, d.max)) continue;
             if (drawn.some((q) => q.answer === a || q.told.slice().sort().join() === told.slice().sort().join() || q.told.some((v) => told.includes(v)))) continue;
             nums = { ...n, answer: a, told };
           }
@@ -161,7 +175,10 @@ function makeStoryModelType(o) {
         // the first story of a level-1 page is WORKED (bar, equation, answer in ink): the page itself shows that the long
         // bar is the whole and where the question mark goes (native reader 2026-11-13)
         const worked = !!d.worked && pi === 0;
-        const m = model(p), show = (v, bar) => (worked ? inked(v === '?' && !bar ? p.answer : v) : key ? num(v === '?' ? p.answer : v) : '');
+        // the key writes the bar as the child is asked to write it — the two numbers the story tells and a question mark
+        // (review sv.review-3, 2026-11-15: the key filled the part with the answer while the direction asks for "?", and the
+        // worked story shows "?"); the equation and the answer box carry the answer
+        const m = model(p), show = (v, bar) => (worked ? inked(v === '?' && !bar ? p.answer : v) : key ? num(v === '?' && !bar ? p.answer : v) : '');
         const barCell = (attr, v, extra) => `<span ${attr} style="flex:1 1 0;min-height:${cell - 4}px;height:${cell - 4}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;background:${T.white};border:2px solid ${T.teal};${extra || ''}">${show(v, true)}</span>`;
         const bar = `<span data-lcs-bar style="flex:0 0 auto;width:220px;display:flex;flex-direction:column">` +
           `<span style="display:flex">${barCell(`data-lcs-whole="${m.whole}"`, m.whole, 'border-radius:8px 8px 0 0;border-bottom-width:1px')}</span>` +

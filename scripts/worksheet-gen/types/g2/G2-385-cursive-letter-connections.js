@@ -11,6 +11,6 @@ module.exports = {
   slug: 'cursive-letter-connections',
   // Level Set 2026-09-28 (PDF only): L1 baseline joins, word traced twice · L2 published · L3 joins from the top, the word printed (no trace)
   difficulty: { 1: { ...D, joinTier: 'easy', traceTwice: true }, 2: D, 3: { ...D, joinTier: 'hard', printStrip: true } },
-  i18n: { en: { title: "Cursive Connecting Letters: Joining Two Letters", instruction: "Trace each grey pair of joined letters and the word, then write them on the empty line below." } },
+  i18n: { en: { title: "Cursive Connecting Letters: Joining Two Letters", instruction: "Trace each gray pair of joined letters and the word, then write them on the empty line below." } },
   gradeBand: "G2",
 };

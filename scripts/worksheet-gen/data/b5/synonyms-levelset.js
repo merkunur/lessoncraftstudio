@@ -33,7 +33,7 @@ module.exports = {
         S('warned', '“Be careful, the ice on the pond is very thin,” {name} {gap}.', ['shouted']),
         S('warned', '“Don’t touch the stove, it is still hot,” {name} {gap}.', ['shouted']),
         S('begged', '“Please, please, let me play a little longer,” {name} {gap}.', ['asked']),
-        S('begged', '“Oh please, just five more minutes in the pool,” {name} {gap}.', ['asked']),
+        S('begged', '“Oh please, just five more minutes in the pool,” {name} {gap}.', ['asked', 'complained']),
         S('boasted', '“I can run faster than everyone in our class,” {name} {gap}.'),
         S('boasted', '“My sandcastle is the biggest and the best,” {name} {gap}.'),
         S('sighed', '“Oh well, it is raining again,” {name} {gap}.', ['complained']),
@@ -104,12 +104,14 @@ module.exports = {
       sc('cry', 'verb', ['schniefen', 'weinen', 'schluchzen']),
       sc('surprised', 'adj', ['überrascht', 'erstaunt', 'fassungslos']),
       sc('wind', 'verb', ['säuseln', 'wehen', 'stürmen']),
-      sc('fast', 'adj', ['flott', 'schnell', 'blitzschnell']),
+      // 2026-11-15 (de check review): «flott – schnell» could be ordered either way (Duden: flott = schnell, zügig)
+      sc('full', 'adj', ['halbvoll', 'voll', 'randvoll']),
       sc('small', 'adj', ['klein', 'winzig', 'klitzeklein']),
       sc('tasty', 'adj', ['gut', 'lecker', 'köstlich']),
     ],
     go: ['laufen', 'joggen', 'hüpfen', 'trampeln', 'watscheln', 'stapfen', 'flitzen', 'schlurfen'],
-    look: ['anschauen', 'entdecken', 'bemerken', 'gaffen', 'mustern', 'untersuchen', 'linsen', 'besichtigen'],
+    // 2026-11-15 (de check review): «gaffen» is pejorative (rubbernecking), no model word for Klasse 3 → «zuschauen»
+    look: ['anschauen', 'entdecken', 'bemerken', 'zuschauen', 'mustern', 'untersuchen', 'linsen', 'besichtigen'],
   },
 
   es: {
@@ -154,7 +156,7 @@ module.exports = {
       sc('like', 'verb', ['gustar', 'encantar', 'adorar']),
       sc('ugly', 'adj', ['feo', 'feísimo', 'horrible']),
     ],
-    go: ['caminar', 'correr', 'trotar', 'saltar', 'cojear', 'nadar', 'escalar', 'huir'],
+    go: ['caminar', 'correr', 'trotar', 'saltar', 'cojear', 'huir'],
     look: ['asomarse', 'ver', 'divisar', 'revisar', 'inspeccionar', 'atisbar', 'curiosear', 'fijarse'],
   },
 
@@ -199,7 +201,7 @@ module.exports = {
       sc('small', 'adj', ['petit', 'minuscule', 'microscopique']),
       sc('ugly', 'adj', ['laid', 'affreux', 'horrible']),
     ],
-    go: ['trotter', 'sautiller', 'boiter', 'patauger', 'grimper', 'nager', 'galoper', 'se dandiner'],
+    go: ['trotter', 'sautiller', 'boiter', 'patauger', 'galoper', 'se dandiner'],
     look: ['dévisager', 'voir', 'apercevoir', 'remarquer', 'inspecter', 'surveiller', 'fixer', 'loucher'],
   },
 
@@ -243,7 +245,7 @@ module.exports = {
       sc('small', 'adj', ['piccolo', 'minuscolo', 'microscopico']),
       sc('tasty', 'adj', ['gustoso', 'delizioso', 'squisito']),
     ],
-    go: ['saltare', 'zoppicare', 'marciare', 'arrampicarsi', 'nuotare', 'galoppare', 'trotterellare', 'zampettare'],
+    go: ['saltare', 'zoppicare', 'marciare', 'galoppare', 'trotterellare', 'zampettare'],
     look: ['intravedere', 'vedere', 'notare', 'scorgere', 'ispezionare', 'avvistare', 'adocchiare', 'squadrare'],
   },
 
@@ -288,7 +290,7 @@ module.exports = {
       sc('ugly', 'adj', ['feio', 'horrível', 'medonho']),
       sc('tasty', 'adj', ['bom', 'gostoso', 'delicioso']),
     ],
-    go: ['pular', 'trotar', 'mancar', 'saltar', 'escalar', 'nadar', 'galopar', 'cambalear'],
+    go: ['pular', 'trotar', 'mancar', 'saltar', 'galopar', 'cambalear'],
     look: ['espreitar', 'ver', 'notar', 'avistar', 'inspecionar', 'admirar', 'perceber', 'reparar'],
   },
 
@@ -330,9 +332,10 @@ module.exports = {
       sc('surprised', 'adj', ['verrast', 'verbaasd', 'stomverbaasd']),
       sc('small', 'adj', ['klein', 'piepklein', 'microscopisch']),
       sc('ugly', 'adj', ['lelijk', 'afschuwelijk', 'afgrijselijk']),
-      sc('fast', 'adj', ['vlug', 'snel', 'bliksemsnel']),
+      // 2026-11-15 (the de review's «flott – schnell» finding): «vlug – snel» is the same pair of equals (Van Dale: vlug = snel)
+      sc('knock', 'verb', ['tikken', 'kloppen', 'bonzen']),
     ],
-    go: ['springen', 'hinken', 'stampen', 'waggelen', 'sprinten', 'trippelen', 'klimmen', 'zwemmen'],
+    go: ['springen', 'hinken', 'stampen', 'waggelen', 'sprinten', 'trippelen'],
     look: ['begluren', 'zien', 'speuren', 'bewonderen', 'inspecteren', 'waarnemen', 'opmerken', 'gadeslaan'],
   },
 
@@ -376,8 +379,9 @@ module.exports = {
       sc('fast', 'adj', ['snabb', 'jättesnabb', 'blixtsnabb']),
       sc('dark', 'adj', ['dunkel', 'mörk', 'kolsvart']),
     ],
-    go: ['traska', 'springa', 'hoppa', 'skutta', 'halta', 'stampa', 'klättra', 'simma'],
-    look: ['kisa', 'se', 'blänga', 'granska', 'studera', 'beundra', 'observera', 'snegla'],
+    // 2026-11-15 (sv check review, second read): «hoppa» is no way of walking (the reason «simma», «klättra» left) and «beundra» is no verb of looking
+    go: ['traska', 'springa', 'skutta', 'halta', 'stampa'],
+    look: ['kisa', 'se', 'blänga', 'granska', 'studera', 'observera', 'snegla'],
   },
 
   da: {
@@ -419,8 +423,9 @@ module.exports = {
       sc('small', 'adj', ['lille', 'lillebitte', 'mikroskopisk']),
       sc('dark', 'adj', ['dunkel', 'mørk', 'kulsort']),
     ],
-    go: ['traske', 'løbe', 'hoppe', 'hinke', 'halte', 'trampe', 'klatre', 'svømme'],
-    look: ['myse', 'granske', 'undersøge', 'beundre', 'studere', 'observere', 'skimte', 'glane'],
+    // 2026-11-15 (the sv review's «hoppa» / «beundra» finding holds for the same Danish words)
+    go: ['traske', 'løbe', 'hinke', 'halte', 'trampe'],
+    look: ['myse', 'granske', 'undersøge', 'studere', 'observere', 'skimte', 'glane'],
   },
 
   no: {
@@ -464,8 +469,9 @@ module.exports = {
       sc('rain', 'verb', ['duskregne', 'regne', 'pøsregne']),
       sc('dark', 'adj', ['dunkel', 'mørk', 'kullsvart']),
     ],
-    go: ['traske', 'løpe', 'hoppe', 'hinke', 'halte', 'trampe', 'klatre', 'svømme'],
-    look: ['skimte', 'titte', 'granske', 'undersøke', 'beundre', 'studere', 'glane'],
+    // 2026-11-15 (the sv review's «hoppa» / «beundra» finding holds for the same Norwegian words)
+    go: ['traske', 'løpe', 'hinke', 'halte', 'trampe'],
+    look: ['skimte', 'titte', 'granske', 'undersøke', 'studere', 'glane'],
   },
 
   fi: {
@@ -506,7 +512,7 @@ module.exports = {
       sc('small', 'adj', ['pieni', 'pikkuinen', 'pikkiriikkinen']),
       sc('dark', 'adj', ['hämärä', 'pimeä', 'pilkkopimeä']),
     ],
-    go: ['juosta', 'hypätä', 'ontua', 'tömistellä', 'kiivetä', 'uida', 'köpötellä', 'laukata'],
+    go: ['juosta', 'hypätä', 'ontua', 'tömistellä', 'köpötellä', 'laukata'],
     look: ['kurkkia', 'nähdä', 'tutkia', 'ihailla', 'tarkastaa', 'vilkuilla', 'tiirailla', 'siristellä'],
   },
 };

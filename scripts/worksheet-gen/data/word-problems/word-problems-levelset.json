@@ -37,7 +37,7 @@
     "subChange": [
       "{name} has {n1} {noun}. {name} gives some away. Now {name} has {n3} {noun}. How many {noun} did {name} give away?",
       "There are {n1} {noun} in a box. {name} takes some out. Now there are {n3} {noun} in the box. How many {noun} did {name} take out?",
-      "{name} has {n1} {noun}. Some {noun} get lost. Now {name} has {n3} {noun}. How many {noun} got lost?",
+      "{name} has {n1} {noun}. {name} leaves some at Grandma's house. Now {name} has {n3} {noun}. How many {noun} did {name} leave at Grandma's house?",
       "There are {n1} {noun} on a shelf. Some fall off. Now there are {n3} {noun} on the shelf. How many {noun} fell off?",
       "{name} has {n1} {noun}. {name} gives some to {name2}. Now {name} has {n3} {noun}. How many {noun} did {name2} get?"
     ],

@@ -1101,7 +1101,7 @@ const TYPE = {
   i18n: {
     en: {
       title: 'Cursive Letters: i, t, u and w',
-      instruction: 'Trace the grey letters, then keep writing each letter joined on your own to the end of its line and on the empty line below.',
+      instruction: 'Trace the gray letters, then keep writing each letter joined on your own to the end of its line and on the empty line below.',
     },
   },
   resolvePage,
@@ -1207,7 +1207,9 @@ TYPE.checkPage = function checkPage({ difficulty, locale, unit }, ctx) {
   (bankLoc.lessons[u] || []).forEach((lesson, li) => ctx.rng.shuffle(lesson).forEach((letter) => { if (!where.some((x) => x.letter === letter)) where.push({ letter, li }); }));
   const W = BODY_W - 35;   // the card's inner width
   let face = '';
-  const cards = where.slice(0, 7).map(({ letter, li }) => {
+  // 2026-11-15 (de reviewer of the unit checks): never f — the one letter that loops both above and below the line (the
+  // hardest of the Ausgangsschrift) made form B ("f, i") much harder than form A ("t, u")
+  const cards = where.filter(({ letter }) => !/^f$/i.test(letter)).slice(0, 7).map(({ letter, li }) => {
     const p = resolvePage(bankLoc, { ...d, lesson: li, letterSet: [letter] }, loc, u);
     face = C6.cwFontFace(p.unit);
     const seyes = p.kind === 'seyes' ? SR.seyesGeometry({ unit: p.unit, i: p.X, rows: 2, last: true }) : null;

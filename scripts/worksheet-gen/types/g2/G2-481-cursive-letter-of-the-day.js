@@ -89,7 +89,7 @@ module.exports = {
   unitAxis: { ...G.unitAxis, exemplar: (loc) => { const b = CW.loadBank(CW.KEY, String(loc).slice(0, 2)); return (b.exemplarByMode && b.exemplarByMode.base) || b.exemplar; } },
   difficulty: D,
   fitsChrome: true,
-  i18n: { en: { title: 'Cursive Letter of the Day', instruction: 'Trace the grey letters, joining them, then write them on your own on the empty lines: the letter alone, joined to other letters, and in a word.' } },
+  i18n: { en: { title: 'Cursive Letter of the Day', instruction: 'Trace the gray letters, joining them, then write them on your own on the empty lines: the letter alone, joined to other letters, and in a word.' } },
 
   build({ difficulty, locale, unit }, ctx0) {
     const ctx = ctx0 || {}, rng = ctx.rng;

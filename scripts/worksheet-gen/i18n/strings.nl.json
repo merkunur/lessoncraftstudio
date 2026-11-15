@@ -220,7 +220,7 @@
   },
   "K-064": {
     "title": "Op, onder, naast",
-    "instruction": "Omcirkel het plaatje dat OP de doos staat."
+    "instruction": "Op elke kaart staat een plek: OP, ONDER of NAAST de doos. Omcirkel het plaatje dat daar staat."
   },
   "K-065": {
     "title": "Links en rechts",
@@ -980,7 +980,7 @@
   },
   "K-238": {
     "title": "Hoofdletters overtrekken",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-239": {
     "title": "Flitswoorden lezen en schrijven",
@@ -1092,23 +1092,23 @@
   },
   "K-254": {
     "title": "Letters overtrekken: G tot L",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-255": {
     "title": "Letters overtrekken: M tot R",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-256": {
     "title": "Letters overtrekken: S tot Z",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-257": {
     "title": "De IJ en de letters G, H, K, L, M",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-258": {
     "title": "Mijn eerste hoofdletters: A B C D",
-    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-259": {
     "title": "Flitswoorden: lijst 2",
@@ -1420,7 +1420,7 @@
   },
   "K-278": {
     "title": "Kleine letters overtrekken",
-    "instruction": "Trek elke kleine letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel."
+    "instruction": "Trek elke kleine letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één aan het eind van de regel."
   },
   "K-279": {
     "title": "Kleine letters overtrekken: g tot l",

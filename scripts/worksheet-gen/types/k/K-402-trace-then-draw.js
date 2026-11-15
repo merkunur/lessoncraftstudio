@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-402',
   slug: 'trace-then-draw',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace, Then Draw {L}", instruction: "Trace the grey rabbit with your pencil, then draw the rabbit yourself in the empty box beside it." } },
+  i18n: { en: { title: "Trace, Then Draw {L}", instruction: "Trace the gray rabbit with your pencil, then draw the rabbit yourself in the empty box beside it." } },
 };

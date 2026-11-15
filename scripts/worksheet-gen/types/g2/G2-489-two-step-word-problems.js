@@ -124,6 +124,36 @@ module.exports = {
   difficulty: D,
   i18n: { en: { title: 'Two-Step Word Problems', instruction: 'Read each story. Do the first step, then the second step. Write the numbers in the boxes.' } },
 
+  /** THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), 2026-11-15 (US
+   *  teacher-reviewer): the stories as cards of their own, without the number of their place on a page ("1." stood in
+   *  front of a story cut from its page), the steps as EMPTY frames (build, ctx.checkRows: the child writes the numbers
+   *  and chooses the sign). Six stories of the level, drawn page after page by the same build. A face whose steps add and
+   *  subtract two- or three-digit numbers takes only stories that regroup in a step (form A asked 68 + 21 and 89 − 11,
+   *  form B 86 − 39); the face that multiplies or divides takes only stories with a division (both forms multiplied, and
+   *  nothing in a check of the four operations divided). G3-487 has its own. */
+  checkPage(args, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = (this.difficulty || D)[args.difficulty] || (this.difficulty || D)[2];
+    const regroups = (o, a, b) => { for (let p = 10; p <= 100; p *= 10) { const x = Math.floor((a % p) / (p / 10)), y = Math.floor((b % p) / (p / 10)); if (o === '+' ? x + y >= 10 : x < y) return true; } return false; };
+    const keep = (row) => {
+      if (d.muldiv) return /data-lcs-kind="M[345]"/.test(row);
+      if (!d.place || d.tens) return true;
+      const v = (/data-lcs-nums="([^"]+)"/.exec(row) || [])[1];
+      if (!v) return true;
+      const [n1, o1, n2, o2, n3, s1] = v.split('|');
+      return regroups(o1, +n1, +n2) || regroups(o2, +s1, +n3);
+    };
+    const rows = [], answers = new Set();
+    for (let t = 0; t < 40 && rows.length < 6; t++) {
+      for (const row of this.build(args, { ...ctx, checkRows: true }).rows) {
+        const s2 = ((/data-lcs-nums="([^"]+)"/.exec(row) || [])[1] || '').split('|')[6];
+        if (rows.length < 6 && keep(row) && !(s2 && answers.has(s2))) { rows.push(row); if (s2) answers.add(s2); }
+      }
+    }
+    if (rows.length < 6) throw new Error(`${this.id} checkPage: ${rows.length} stories`);
+    return { bodyHtml: checkGrid(rows), meta: {} };
+  },
+
   build({ theme, difficulty, locale }, ctx) {
     const DD = this.difficulty || D;   // a face (G2-511) brings its own levels
     const d = DD[difficulty] || DD[2], rng = ctx.rng, L = String(locale || 'en').slice(0, 2);
@@ -161,6 +191,8 @@ module.exports = {
     const fit = d.store || d.muldiv ? Number(ctx.wpFit) || 0 : 0;
     const box = (v) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;vertical-align:middle;width:70px;height:48px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:10px;background:#FFFFFF"></span>`;
     const op = (o) => (o === '+' ? '+' : o === 'x' ? mulGlyph(L) : o === ':' ? divGlyph(L) : MINUS);
+    // (a check card: a small circle for the sign of a step, the sign its answer — round, so it reads as no number box)
+    const sign = (v) => `<span class="ws-answerbox" data-lcs-answer="${v}" style="display:inline-flex;vertical-align:middle;width:44px;height:44px;margin:0 4px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:50%;background:#FFFFFF"></span>`;
     const drawn = [], usedNames = [];
     const items = kinds.map((kind, i) => {
       // a big thing (trains, skateboards, kites) is never counted past 20 (lib/word-problems-levelset.js maxFor)
@@ -191,6 +223,12 @@ module.exports = {
     const linesOf = (it, last) => {
       const label = (t) => `<span data-lcs-label style="flex:0 0 auto;min-width:100px;font:800 15px/1.2 'Nunito',sans-serif;color:${T.teal}">${esc(t)}</span>`;
       const rule = `<span style="flex:1;align-self:flex-end;height:26px;border-bottom:2px solid #B9AE9C"></span>`;
+      // the key of a check card (2026-11-15, US teacher-reviewer: the key showed only "n = 703"): the equation and the
+      // estimate written on their lines
+      const keyed = !!(checkRows && ctx && ctx.answerKey);
+      const keyRule = (s) => (keyed ? `<span style="flex:1;align-self:flex-end;height:26px;border-bottom:2px solid #B9AE9C;font:700 18px/26px 'Baloo 2',cursive;color:${T.coral};white-space:nowrap" data-lcs-keyline>${esc(s)}</span>` : rule);
+      const eqText = `${it.n1} ${op(it.o1)} ${it.n2} ${op(it.o2)} ${it.n3} = ${lab.letter}`;
+      const estText = `${round100(it.n1)} ${op(it.o1)} ${round100(it.n2)} ${op(it.o2)} ${round100(it.n3)} = ${it.est}`;
       const sm = (v) => `<span class="ws-answerbox"${mark ? ` data-lcs-answer="${v}"` : ''} style="display:inline-flex;vertical-align:middle;width:62px;height:38px;margin:0 3px;box-sizing:border-box;border:2.5px dashed ${T.coral};border-radius:9px;background:#FFFFFF"></span>`;
       const eq = `flex:0 0 auto;white-space:nowrap;font:700 22px/1.2 'Baloo 2',cursive;color:${T.ink}`;
       const row = (inner) => `<div style="display:flex;align-items:center;gap:10px;min-height:${(d.n > 2 ? 30 : 44) - 3 * fit}px">${inner}</div>`;
@@ -201,14 +239,14 @@ module.exports = {
         const choice = (t, ok) => `<span${checkRows && ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;gap:6px;font:700 16px/1 'Nunito',sans-serif;color:${T.ink}"><span style="width:20px;height:20px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:50%;background:#FFFFFF"></span>${esc(t)}</span>`;
         rows = [
           row(`<span data-lcs-says style="font:700 18px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(lab.says.replace('{name}', it.name).replace('{eq}', lab.letter + ' = ' + it.claim))}</span>`),
-          row(label(lab.est) + rule),
+          row(label(lab.est) + keyRule(estText)),
           row(label(lab.ok) + choice(lab.yes, it.claim === it.s2) + choice(lab.no, it.claim !== it.s2)),
           row(label(lab.ans) + answer),
         ];
       } else {
         rows = [
-          row(label(lab.eq) + (d.eqGiven ? `<span style="${eq}">${it.n1} ${op(it.o1)} ${it.n2} ${op(it.o2)} ${it.n3} = ${lab.letter}</span>` : rule)),
-          row(label(lab.est) + (d.eqGiven ? `<span style="${eq}">${sm(round100(it.n1))} ${op(it.o1)} ${sm(round100(it.n2))} ${op(it.o2)} ${sm(round100(it.n3))} = ${sm(it.est)}</span>` : rule)),
+          row(label(lab.eq) + (d.eqGiven ? `<span style="${eq}">${it.n1} ${op(it.o1)} ${it.n2} ${op(it.o2)} ${it.n3} = ${lab.letter}</span>` : keyRule(eqText))),
+          row(label(lab.est) + (d.eqGiven ? `<span style="${eq}">${sm(round100(it.n1))} ${op(it.o1)} ${sm(round100(it.n2))} ${op(it.o2)} ${sm(round100(it.n3))} = ${sm(it.est)}</span>` : keyRule(estText))),
           row(label(lab.ans) + answer),
         ];
       }
@@ -217,7 +255,13 @@ module.exports = {
     };
     const rows = items.map((it, i) => `<div data-lcs-two-step="${i + 1}"${slot.attr(ctx, 'pic', i)} data-lcs-kind="${it.kind}"${d.lines ? ` data-lcs-est="${it.est}"${d.check && i === items.length - 1 ? ` data-lcs-claim="${it.claim}"` : ''}` : ''}${d.place ? ` data-lcs-nums="${[it.n1, it.o1, it.n2, it.o2, it.n3, it.s1, it.s2].join('|')}"` : ''} style="display:flex;flex-direction:column;gap:8px;padding:10px 14px;border-radius:14px;background:${T.cream}${d.place && !checkRows ? ';flex:1 1 0;min-height:0' : ''}">` +
       `<div style="font:600 ${d.font - fit}px/${fit ? 1.35 : 1.45} 'Nunito',sans-serif;color:${T.ink}">${checkRows ? '' : (i + 1) + '. '}${esc(it.story)}</div>` +
-      (d.lines ? linesOf(it, i === items.length - 1) : d.steps
+      (d.lines ? linesOf(it, i === items.length - 1) : d.steps && checkRows
+        // the item bank (checkPage, 2026-11-15, US teacher-reviewer): a card of a check prints NO number sentence — with
+        // "a) 68 + 21 = □" printed, a child gets full marks without reading the story, which is the skill of the unit.
+        // The two steps stand as empty frames: the child writes both numbers, chooses the sign and works out the step.
+        ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">a)</span> ${box(it.n1)}${sign(op(it.o1))}${box(it.n2)} = ${box(it.s1)}</span>` +
+          `<span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">b)</span> ${box(it.s1)}${sign(op(it.o2))}${box(it.n3)} = ${box(it.s2)}</span></div>`
+        : d.steps
         ? `<div style="display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center"><span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">a)</span> ${it.n1} ${op(it.o1)} ${it.n2} = ${box(it.s1)}</span>` +
           `<span style="${eqStyle}"><span data-lcs-step style="color:${T.teal}">b)</span> ${box(it.s1)} ${op(it.o2)} ${it.n3} = ${box(it.s2)}</span></div>`
         : d.place ? '' : `<div style="display:flex;justify-content:flex-end">${box(it.s2)}</div>`) +

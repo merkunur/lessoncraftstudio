@@ -49,6 +49,9 @@ function makeSizeCompareType(cfg) {
       3: { rows, items: itemsPerRow[2] || itemsPerRow[1] || itemsPerRow[0] + 2 },
     },
     i18n,
+    // the unit checks (Part 7.6), ordering: the page with no row that already stands in order (see the draw); ctx.check
+    // reaches the key build only through this hook
+    ...(mode === 'order' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
 
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
@@ -75,7 +78,11 @@ function makeSizeCompareType(cfg) {
         // consecutive ladder steps normalized so the largest = 1.0 (full base size)
         const steps = SCALE_LADDER.slice(0, d.items);
         const maxStep = Math.max(...steps);
-        const scales = rng.shuffle(steps.map((s) => Math.round((s / maxStep) * 100) / 100));
+        let scales = rng.shuffle(steps.map((s) => Math.round((s / maxStep) * 100) / 100));
+        // a unit check never orders a row that stands in order already, smallest to biggest or biggest to smallest (review
+        // sv f1115, 2026-11-15: form B was a staircase 3, 2, 1); the worksheet keeps its draw
+        const sorted = (a) => a.every((v, k) => !k || v > a[k - 1]) || a.every((v, k) => !k || v < a[k - 1]);
+        for (let t = 0; mode === 'order' && ctx && ctx.check && sorted(scales) && t < 20; t++) scales = rng.shuffle(scales);
         const targetIdx = target === 'largest'
           ? scales.indexOf(Math.max(...scales))
           : scales.indexOf(Math.min(...scales));

@@ -222,7 +222,9 @@ function walkChain(G, start) {
   const moves = [];
   let v = start;
   for (let i = 0; i < d.arrows; i++) {
-    const legal = ['U', 'D', 'L', 'R'].filter((m) => moveFrom(U, rows, v, m) != null && !(d.noReverse && moves.length && m === REVERSE[moves[moves.length - 1]]));
+    // noReverse: no move undoes an EARLIER one either (2026-11-15, German reviewer: "↓ ← ↑" cancels down and up, so the
+    // answer was always start − 1 and a child who ignored the up and down arrows scored)
+    const legal = ['U', 'D', 'L', 'R'].filter((m) => moveFrom(U, rows, v, m) != null && !(d.noReverse && moves.some((p) => m === REVERSE[p])));
     if (!legal.length) return null;
     const m = rng.pick(legal);
     moves.push(m);
@@ -561,7 +563,7 @@ function verifyFaceInPage() {
       if (!g) fails.push(`${P}: no given`); else if (givenText(g, P) !== s) fails.push(`${P}: given ${g.dataset.lcsGiven} != start ${s}`);
       let v = s, err = null;
       for (let k = 0; k < moves.length && !err; k++) {
-        if (noReverse && k > 0 && moves[k] === { U: 'D', D: 'U', L: 'R', R: 'L' }[moves[k - 1]]) fails.push(`${P}: ${moves[k - 1]} then ${moves[k]} reverses immediately`);
+        if (noReverse && k > 0 && moves.slice(0, k).includes({ U: 'D', D: 'U', L: 'R', R: 'L' }[moves[k]])) fails.push(`${P}: ${moves[k]} undoes an earlier ${{ U: 'D', D: 'U', L: 'R', R: 'L' }[moves[k]]}`);
         const m = move(v, moves[k]); if (m.err) err = m.err; else v = m.v;
       }
       if (err) fails.push(`${P}: ${err} (P5)`);

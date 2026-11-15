@@ -34,7 +34,10 @@ const { svgRoot, el, roundedRect, line } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
 
 // mirror-line counts for the shapes-theme art (hand-curated; circle skipped — "endless")
-const SYMMETRY_COUNT = { square: 4, rectangle: 2, triangle: 3, diamond: 4, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1 };
+const SYMMETRY_COUNT = { square: 4, rectangle: 2, triangle: 3, diamond: 4, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1, rhombus: 2, kite: 1, isosceles: 1, cross: 4 };
+// the shapes whose mirror lines are as many as their corners (the star: as its points): a page that asks only these is
+// answered by counting corners (German reviewer, 2026-11-15)
+const SYM_AS_CORNERS = new Set(['square', 'triangle', 'diamond', 'pentagon', 'hexagon', 'star']);
 /* ⚠ diamond is 4 because the shipped artwork IS a square rotated 45 degrees (measured 90.0 / 90.06 / 89.94 / 90.0
    degrees, sides within 0.21%). ⭐ The durable fix is to redraw `image library/shapes/diamond.png` as a genuinely
    non-square rhombus; when that art lands, revert this to 2. (The quadrilateral page no longer uses the library
@@ -45,8 +48,26 @@ function shapeImg(k, px, extra) {
 }
 
 // an angle: two rays from a vertex. NO right-angle mark — a mark on exactly the right angles gave the answer away.
-function angleSvg(deg, size) {
+// `turn` (degrees, 2026-11-15): the whole angle turned about its corner and fitted to the picture again. Drawn with one
+// arm lying flat, the right angle was the only upright "L" of a card (German reviewer: a child picks the L without
+// knowing the concept), so the page turns its angles.
+function angleSvg(deg, size, turn) {
   const t = tokens;
+  if (turn) {
+    const r2 = (v) => Math.round(v * 100) / 100;
+    const a = (-deg) * Math.PI / 180, q = (-turn) * Math.PI / 180;
+    const rot = ([x, y]) => [x * Math.cos(q) - y * Math.sin(q), x * Math.sin(q) + y * Math.cos(q)];
+    const P = [[0, 0], [1, 0], [Math.cos(a), Math.sin(a)]].map(rot);
+    const xs = P.map((p) => p[0]), ys = P.map((p) => p[1]);
+    const w = Math.max(...xs) - Math.min(...xs), h = Math.max(...ys) - Math.min(...ys);
+    const k = (size - 28) / Math.max(w, h, 0.5), ox = (size - k * w) / 2 - k * Math.min(...xs), oy = (size - k * h) / 2 - k * Math.min(...ys);
+    const [V, A, B] = P.map(([x, y]) => [r2(ox + k * x), r2(oy + k * y)]);
+    const parts = [
+      line({ x1: V[0], y1: V[1], x2: A[0], y2: A[1], strokeColor: t.color.ink, strokeWidth: 3.5 }),
+      line({ x1: V[0], y1: V[1], x2: B[0], y2: B[1], strokeColor: t.color.ink, strokeWidth: 3.5 }),
+    ];
+    return svgRoot({ width: size, height: size, label: `angle ${deg} degrees` }, parts.join(''), { 'data-lcs-angle': deg });
+  }
   // an obtuse angle opens to the LEFT of its corner: the corner moves right and the arms shorten, so that the whole
   // angle lies inside the picture (2026-11-13: it was drawn from x = 14 and its second arm was cut off at the edge)
   const a = (-deg) * Math.PI / 180;
@@ -142,24 +163,26 @@ const classifyKinds = (difficulty) => (difficulty === 1 ? ['square', 'rect', 'tr
  * and three to five other shapes, drawn and turned as the page draws them; the right box carries data-lcs-correct.
  */
 function classifyCheck({ difficulty, locale }, ctx) {
-  const lv = Number(difficulty) || 2, rng = ctx.rng, n = lv === 1 ? 5 : lv === 3 ? 8 : 7;
+  const lv = Number(difficulty) || 2, rng = ctx.rng, n = 7;
   const words = require('../../data/geometry-words.js')[(locale || 'en').slice(0, 2)] || require('../../data/geometry-words.js').en;
   const otherKinds = classifyKinds(lv).filter((k) => k !== 'square' && k !== 'rect');
-  // one shape more than the page (6 / 8 / 9): a check page never holds as many cards as the page, whose key cards the
-  // cutter pairs with the cards by their number
-  // (level 1 turns nothing: there one square and two rectangles of other proportions, never two alike upright squares)
-  const rects = lv === 1 ? ['square', 'rect', 'rect'] : ['square', 'rect', 'square', 'rect'];
-  const kinds = rng.shuffle([...rects, ...rng.shuffle(otherKinds).slice(0, n + 1 - rects.length)]);
-  const box = (cls, word, ok) => `<span data-lcs-choice="${cls}"${ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;min-width:132px;min-height:44px;padding:6px 12px;box-sizing:border-box;border:2.5px dashed ${tokens.color.teal};border-radius:12px;background:#FFFFFF;font-family:'Nunito';font-weight:800;font-size:16px;color:${tokens.color.teal};white-space:nowrap">${word}</span>`;
+  const box = (cls, word, ok) => `<span data-lcs-choice="${cls}"${ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:5px 6px;box-sizing:border-box;border:2.5px dashed ${tokens.color.teal};border-radius:12px;background:#FFFFFF;font-family:'Nunito';font-weight:800;font-size:14px;color:${tokens.color.teal};white-space:nowrap">${word}</span>`;
   // no two shapes of a check page alike (a kind at the same turn and in the same proportions is the same task twice)
   const seen = new Set();
   const look = (s) => { const [a, b, c] = s.P, deg = ((Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI) % 90 + 90) % 90; return s.k + ':' + Math.round(deg / 5) % 18 + ':' + Math.round(4 * Math.hypot(b[0] - a[0], b[1] - a[1]) / Math.hypot(c[0] - b[0], c[1] - b[1])); };
-  const cards = kinds.map((k, i) => {
-    let s = classifyQuad(k, i, lv, rng);
-    for (let t = 0; t < 20 && seen.has(look(s)); t++) s = classifyQuad(k, i, lv, rng);
-    seen.add(look(s));
-    return `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:center;gap:16px;padding:6px 4px" data-lcs-class="${s.rect ? 'rect' : 'not'}">${quadSvg(s.P, 112, s.fill)}` +
-      `<span style="display:flex;flex-direction:column;gap:14px">${box('rect', words.rectangle, s.rect)}${box('not', words.notRectangle, !s.rect)}</span></div>`;
+  const shape = (k, i) => { let s = classifyQuad(k, i, lv, rng); for (let t = 0; t < 20 && seen.has(look(s)); t++) s = classifyQuad(k, i, lv, rng); seen.add(look(s)); return s; };
+  const one = (s) => `<div style="display:flex;flex-direction:column;align-items:center;gap:8px" data-lcs-class="${s.rect ? 'rect' : 'not'}">${quadSvg(s.P, 104, s.fill)}` +
+    `<span style="display:flex;flex-direction:column;align-items:stretch;gap:8px">${box('rect', words.rectangle, s.rect)}${box('not', words.notRectangle, !s.rect)}</span></div>`;
+  // 2026-11-15 (native reviews en, de, sv: one shape a form, "not a rectangle" in both, and the square of "squares are
+  // rectangles too" never there): a card is TWO shapes, each above its own two boxes — one rectangle (on every other card
+  // a square: the rule the direction names) and one shape that is not, in either order. A form of one card asks both
+  // answers. Seven cards: never as many as the page, whose key cards the cutter pairs with the cards by their number.
+  const rects = Array.from({ length: n }, (_, i) => (i % 2 === 0 ? 'square' : 'rect'));
+  const others = Array.from({ length: n }, (_, i) => otherKinds[i % otherKinds.length]);
+  const cards = rng.shuffle(rects).map((rk, i) => {
+    const pair = [shape(rk, 2 * i), shape(rng.shuffle(others)[0], 2 * i + 1)];
+    if (rng.next() < 0.5) pair.reverse();
+    return `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:flex-start;gap:6px;padding:6px 2px">${pair.map(one).join('')}</div>`;
   });
   return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
 }
@@ -218,6 +241,14 @@ const ring = (n, R, cx, cy, start, r2) => Array.from({ length: r2 ? 2 * n : n },
 });
 const SYM_DRAWN = {
   trapezoid: SYM_TRAPEZOID,
+  // 2026-11-15 (German reviewer: the mirror lines of a regular shape equal its corners, so counting corners scored every
+  // card of a form): shapes whose mirror lines are NOT their corners — a rhombus that is no square (2), a kite (1), a
+  // tall triangle with two equal sides (1), a plus sign (4 lines, 12 corners). Exact by construction: every one is
+  // drawn symmetric about the lines it is keyed with and about no other.
+  rhombus: [[60, 10], [92, 60], [60, 110], [28, 60]],
+  kite: [[60, 10], [92, 44], [60, 110], [28, 44]],
+  isosceles: [[60, 10], [94, 108], [26, 108]],
+  cross: [[43, 12], [77, 12], [77, 43], [108, 43], [108, 77], [77, 77], [77, 108], [43, 108], [43, 77], [12, 77], [12, 43], [43, 43]],
   pentagon: ring(5, 54, 60, 64, -90),
   hexagon: ring(6, 54, 60, 60, 0),
   star: ring(5, 56, 60, 64, -90, 56 * Math.sin(Math.PI / 10) / Math.sin(3 * Math.PI / 10)),
@@ -644,21 +675,43 @@ function makeGeometryType(cfg) {
           // (70-80°, 100-110°) — the eye must check the square corner, not the general look
           const acute = () => (difficulty === 1 ? rng.int(25, 50) : difficulty === 3 ? rng.int(70, 80) : rng.int(30, 65));
           const obtuse = () => (difficulty === 1 ? rng.int(125, 155) : difficulty === 3 ? rng.int(100, 110) : rng.int(110, 150));
-          const degs = rng.shuffle([90, acute(), obtuse(), rng.next() < 0.5 ? 90 : (difficulty === 2 ? rng.int(35, 60) : acute())]);
-          const chips = degs.map((deg) =>
+          // 2026-11-15 (German reviewer): no two angles of a card alike (two equal sharp angles), and on level 2 the fourth
+          // angle, when it is not a second right angle, is a near miss (about 80 or 100 degrees): the eye must check the
+          // square corner. Every angle is turned; at least one right angle of a card stands on no line of the page.
+          let degs;
+          do {
+            const fourth = rng.next() < 0.5 ? 90 : (difficulty === 2 ? (rng.next() < 0.5 ? rng.int(76, 82) : rng.int(98, 104)) : acute());
+            degs = rng.shuffle([90, acute(), obtuse(), fourth]);
+          } while (degs.some((x, i) => x !== 90 && degs.some((y, j) => j !== i && Math.abs(x - y) < 8)));
+          const SLANT = [20, 30, 45, 60, 70, 110, 120, 135, 150, 160, 200, 210, 225, 240, 250, 290, 300, 315, 330, 340];
+          const ANY = [0, 90, 180, 270, ...SLANT];
+          const rights = degs.map((x, i) => (x === 90 ? i : -1)).filter((i) => i >= 0);
+          const slanted = rng.pick(rights);
+          const turns = degs.map((x, i) => (i === slanted ? rng.pick(SLANT) : rng.pick(ANY)));
+          const chips = degs.map((deg, i) =>
             `<span class="ws-pattern-slot" style="width:120px;height:120px"${deg === 90 ? ' data-lcs-target="1"' : ''}>` +
-            angleSvg(deg, 100) + `</span>`).join('');
+            angleSvg(deg, 100, turns[i]) + `</span>`).join('');
           cards.push(`<div class="ws-card-stage" style="justify-content:space-evenly">${chips}</div>`);
-          items.push({ ask: degs.join('-'), degs });
+          items.push({ ask: degs.join('-'), degs, turns });
         }
         return out(cardGrid({ cards, cols: 1, rows: 2 }));
       }
 
       if (mode === 'symmetry-count') {
-        // L1: shapes with one or two mirror lines; L3: three to six
-        const pool = Object.keys(SYMMETRY_COUNT).filter((k) => have.includes(k) &&
-          (difficulty === 1 ? SYMMETRY_COUNT[k] <= 2 : difficulty === 3 ? SYMMETRY_COUNT[k] >= 3 : true));
-        const picks = rng.sample(pool, Math.min(difficulty === 1 ? 4 : 6, pool.length));
+        // L1: shapes with one or two mirror lines; L2: any; L3: at least three shapes of three to six lines.
+        // 2026-11-15 (German reviewer): on levels 2 and 3 at least two shapes whose lines are NOT their corners
+        // (SYM_AS_CORNERS), and at least two that are, so neither counting corners nor "always a small number" scores
+        const pool = Object.keys(SYMMETRY_COUNT).filter((k) => (have.includes(k) || SYM_DRAWN[k]) &&
+          (difficulty === 1 ? SYMMETRY_COUNT[k] <= 2 : true));
+        let picks;
+        for (let t = 0; t < 400; t++) {
+          picks = rng.sample(pool, Math.min(difficulty === 1 ? 4 : 6, pool.length));
+          if (difficulty === 1) break;
+          const asC = picks.filter((k) => SYM_AS_CORNERS.has(k)).length;
+          if (asC < 2 || picks.length - asC < 2) continue;
+          if (difficulty === 3 && picks.filter((k) => SYMMETRY_COUNT[k] >= 3).length < 3) continue;
+          break;
+        }
         // the shapes fill their cards (they were 104 px in 215 x 390 cards)
         const SZ = picks.length === 4 ? 200 : 160;
         picks.forEach((k) => {

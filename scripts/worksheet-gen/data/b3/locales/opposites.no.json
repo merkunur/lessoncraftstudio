@@ -83,7 +83,9 @@
           "lei seg"
         ]
       },
-      "exclusiveWith": [],
+      "exclusiveWith": [
+        "sweet-sour"
+      ],
       "syn": {
         "a": "fornøyd"
       },
@@ -234,7 +236,9 @@
         "a": [],
         "b": []
       },
-      "exclusiveWith": [],
+      "exclusiveWith": [
+        "happy-sad"
+      ],
       "syn": null,
       "far": "lang",
       "pic": {

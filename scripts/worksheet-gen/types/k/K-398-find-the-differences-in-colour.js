@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-398',
   slug: 'find-the-differences-in-colour',
   difficulty: { 1: { ...D, ...{"kinds":["remove","add","swap","scale","colour"],"minArea":1500} }, 2: D, 3: { ...D, ...{"floor":"G1","kinds":["remove","add","swap","mirror","scale","move","detail","colour"]} } },
-  i18n: { en: { title: "Find the Differences in Color", instruction: "Circle the 5 things in the colored bottom picture that are different and tick a box for each; at least one of them has a new color." } },
+  i18n: { en: { title: "Find the Differences in Color", instruction: "Circle the 5 things in the colored bottom picture that are different and check a box for each; at least one of them has a new color." } },
 };

@@ -86,11 +86,16 @@ function screenOrKey(layout, built, ctx, loc, bank, resolvePic) {
         const p = byId.get(id);
         const L = side(p, 'a');
         const r = rotation(rights, i);
+        // 2026-11-15: a chip is a picture and its word side by side in 204 px. A word of five letters or more did not
+        // fit beside a 92-px picture at 30 px ("långsam": the snail stood out of the chip on the left and the word on
+        // the right), so the item's longest word sets ONE picture size and ONE font size for its three chips.
+        const longest = Math.max(...r.opts.map((w) => [...String(w)].length));
+        const small = longest > 4, fpx = small ? Math.max(16, Math.min(30, Math.floor(96 / (0.6 * longest)))) : 30;
         return item(`data-lcs-pair="${esc(id)}" data-lcs-given="${esc(p.a)}"`, `${pic(L.src, 110)}${word(L.w, 40)}`,
           opts(r.opts.map((w, j) => {
             const q = byId.get(m.pairs[rights.indexOf(w)]);
             const R = side(q, 'b');
-            return opt(j, w, `${pic(R.src, R.px)}<span>${esc(w)}</span>`, j === r.at, 190);
+            return opt(j, w, `${pic(R.src, small ? Math.min(R.px, 72) : R.px)}<span style="font-size:${fpx}px;white-space:nowrap">${esc(w)}</span>`, j === r.at, 204);
           }).join('')));
       });
     } else if (layout === 'choice') {

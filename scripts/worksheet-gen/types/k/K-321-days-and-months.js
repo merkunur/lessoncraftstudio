@@ -201,18 +201,33 @@ module.exports = {
       const heads = d.heads === 'beforeAfter' ? { left: labels.before, mid: '', right: labels.after } : { left: labels.yesterday, mid: labels.today, right: labels.tomorrow };
       if (!heads.left || !heads.right || (d.heads !== 'beforeAfter' && !heads.mid)) throw new Error(`K-321 checkPage: ${loc} bank has no head labels`);
       const laneKey = d.unit === 'months' ? 'months' : 'neighbours';
-      const glyphH = Math.min(28, (bank.laneGlyphH && bank.laneGlyphH[laneKey]) || d.glyphH || 32);
-      // every day (month) of the cycle once, in a drawn order; the level's share of inverse rows (today is the blank)
-      const todays = rng.shuffle(Array.from({ length: N }, (_, i) => i)).slice(0, Math.min(N, 8));
-      const inv = new Set(d.inverse ? rng.sample(todays.map((_, i) => i), Math.round(d.inverse * todays.length / d.rows)) : []);
+      // (the worksheet's own writing line: a first grader writes "Donnerstag" on it — review sv f1115, the 28 px line was small)
+      const glyphH = Math.min(32, (bank.laneGlyphH && bank.laneGlyphH[laneKey]) || d.glyphH || 32);
+      // A card is TWO rows under one row of heads (reviews en / de / sv f1115, 2026-11-15): two cards of Monday and Tuesday
+      // printed each other's answer ("Tuesday" is the today of one and the answer of the other), and one form went over the
+      // end of the week while the other did not. So the two days (months) of a card lie three or more apart (no name of one
+      // row is a name of the other), and on a level whose page goes over the seam (wrap) one row of every card is the first
+      // or the last of the cycle and the other is not; on the easier level neither is. On a level with "today" rows (inverse)
+      // the second row asks today.
+      const rank = (i) => ((i - start + N) % N) + 1;
+      const seam = (i) => rank(i) === 1 || rank(i) === N;
+      const apart = (a, b) => Math.min((a - b + N) % N, (b - a + N) % N) >= 3;
+      const pairs = [];
+      for (let a = 0; a < N; a++) for (let b = 0; b < N; b++) {
+        if (a === b || !apart(a, b) || seam(b)) continue;
+        if (d.wrap ? !seam(a) : seam(a)) continue;
+        pairs.push([a, b]);
+      }
+      const chosen = rng.shuffle(pairs).slice(0, 8).map((p) => (rng.next() < 0.5 ? p : [p[1], p[0]]).concat(p[1]));   // [row 1, row 2, the inner one]
       const at = (i) => ({ day: i, text: texts[i] });
       const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
       const strip = d.strip ? nameStrip({ names: Array.from({ length: N }, (_, k) => { const i = (start + k) % N; return { day: i, text: texts[i] }; }), px: N > 7 ? 14 : 16, h: 28 }) : '';
-      const cards = todays.map((t, i) => {
-        const row = neighbourRow({ left: at((t - 1 + N) % N), today: at(t), right: at((t + 1) % N), laneW: 190, tileW: 150, h: 60, namePx: d.todayPx || 21, glyphH, inverse: inv.has(i) })
-          .replace(/data-lcs-answer="(\d+)"/g, (m, idx) => `data-lcs-answer="${esc(texts[+idx])}"`);
+      const laneW = 205, tileW = 150;
+      const cards = chosen.map(([t1, t2, inner]) => {
+        const rows = [t1, t2].map((t) => neighbourRow({ left: at((t - 1 + N) % N), today: at(t), right: at((t + 1) % N), laneW, tileW, h: 64, namePx: d.todayPx || 21, glyphH, inverse: !!d.inverse && t === inner })
+          .replace(/data-lcs-answer="(\d+)"/g, (m, idx) => `data-lcs-answer="${esc(texts[+idx])}"`));
         return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;gap:6px;padding:2px 4px">${strip}` +
-          neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right, laneW: 190, tileW: 150, px: 18 }) + row + '</div>';
+          neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right, laneW, tileW, px: 18 }) + rows.join('') + '</div>';
       });
       return { bodyHtml: checkGrid(cards), meta: {} };
     }

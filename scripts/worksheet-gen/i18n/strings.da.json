@@ -218,7 +218,7 @@
   },
   "K-064": {
     "title": "På, under, ved siden af",
-    "instruction": "Indkreds billedet, der er PÅ kassen."
+    "instruction": "På hvert kort står et sted: PÅ, UNDER eller VED SIDEN AF kassen. Sæt ring om billedet, som er dér."
   },
   "K-065": {
     "title": "Venstre og højre",
@@ -982,7 +982,7 @@
   },
   "K-238": {
     "title": "Skriv de store bogstaver",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-239": {
     "title": "Hyppige ord: læs og skriv",
@@ -1095,23 +1095,23 @@
   },
   "K-254": {
     "title": "Skriv bogstaverne G til L",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-255": {
     "title": "Skriv bogstaverne M til R",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-256": {
     "title": "Skriv bogstaverne S til Z",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-257": {
     "title": "Skriv Æ, Ø og Å",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-258": {
     "title": "Mine første bogstaver: A B C D",
-    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-259": {
     "title": "Hyppige ord: sæt 2",
@@ -1423,27 +1423,27 @@
   },
   "K-278": {
     "title": "Skriv de små bogstaver",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv for enden af linjen. Start ved den orange prik, og følg pilene."
   },
   "K-279": {
     "title": "Skriv de små bogstaver g til l",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene."
   },
   "K-280": {
     "title": "Skriv de små bogstaver m til r",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene."
   },
   "K-281": {
     "title": "Skriv de små bogstaver s til z",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene."
   },
   "K-282": {
     "title": "Skriv de små bogstaver æ, ø og å",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene."
   },
   "K-283": {
     "title": "Mine første små bogstaver: a b c d",
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene."
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene."
   },
   "K-284": {
     "title": "Skriv ordene efter",

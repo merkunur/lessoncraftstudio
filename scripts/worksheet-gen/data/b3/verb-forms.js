@@ -115,7 +115,7 @@ const VERB_FORMS = {
       { id: 'f04', text: 'After school Leo {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['read', 'draw', 'play', 'sleep', 'sing', 'dance', 'build'], subjectLiteral: 'Leo', pic: null },
       { id: 'f05', text: 'On Mondays Anna {form} at the club.', col: 'pres', unit: 'today-yesterday', fits: ['swim', 'dance', 'sing', 'run', 'jump', 'climb'], subjectLiteral: 'Anna', pic: null },
       { id: 'f06', text: 'Tom {form} the big box every time.', col: 'pres', unit: 'today-yesterday', fits: ['push', 'pull', 'carry', 'hide'], subjectLiteral: 'Tom', pic: null },
-      { id: 'f07', text: 'Lily {form} in the garden today.', col: 'pres', unit: 'today-yesterday', fits: ['run', 'jump', 'play', 'dance', 'read', 'sing', 'wander', 'draw'], subjectLiteral: 'Lily', pic: null },
+      { id: 'f07', text: 'Lily {form} in the garden every day.', col: 'pres', unit: 'today-yesterday', fits: ['run', 'jump', 'play', 'dance', 'read', 'sing', 'wander', 'draw'], subjectLiteral: 'Lily', pic: null },
       { id: 'f08', text: 'Max {form} at the pool every week.', col: 'pres', unit: 'today-yesterday', fits: ['swim', 'jump', 'play'], subjectLiteral: 'Max', pic: null },
       { id: 'f09', text: 'Yesterday Max {form} at the party.', col: 'past', unit: 'today-yesterday', fits: ['dance', 'sing', 'eat', 'laugh', 'play', 'jump', 'giggle', 'shout'], subjectLiteral: 'Max', pic: null },
       { id: 'f10', text: 'Last night Mia {form} for an hour.', col: 'past', unit: 'today-yesterday', fits: ['read', 'sleep', 'dance', 'sing', 'draw', 'play', 'build'], subjectLiteral: 'Mia', pic: null },
@@ -130,7 +130,7 @@ const VERB_FORMS = {
       // name ONLY core verbs + UNPICTURED verbs, so no base-table slot (pictured verbs only) ever sees them and the
       // base's lane RNG path stays byte-identical (tools/b3-baseline.js). Every subject a SENTENCES.en name; <= 44 chars.
       { id: 'f18', text: 'Every evening Mia {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['be', 'sleep', 'play', 'draw'], subjectLiteral: 'Mia', pic: null },
-      { id: 'f19', text: 'Ben {form} a red bike.', col: 'pres', unit: 'today-yesterday', fits: ['have', 'push', 'pull', 'wash', 'hide'], subjectLiteral: 'Ben', pic: null },
+      { id: 'f19', text: 'Ben {form} a red bike now.', col: 'pres', unit: 'today-yesterday', fits: ['have'], subjectLiteral: 'Ben', pic: null },
       { id: 'f20', text: 'Every morning Leo {form} to school.', col: 'pres', unit: 'today-yesterday', fits: ['go'], subjectLiteral: 'Leo', pic: null },
       { id: 'f21', text: 'Anna {form} her homework after school.', col: 'pres', unit: 'today-yesterday', fits: ['do'], subjectLiteral: 'Anna', pic: null },
       { id: 'f22', text: 'Yesterday Tom {form} at the zoo.', col: 'past', unit: 'today-yesterday', fits: ['be', 'eat', 'laugh', 'draw', 'sit', 'play', 'giggle', 'shout'], subjectLiteral: 'Tom', pic: null },

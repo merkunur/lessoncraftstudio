@@ -11,6 +11,6 @@ module.exports = {
   slug: 'odd-and-even-under-100-look-at-the-ones-box',
   difficulty: base.levelsFor('G2-352', D),
   interactive: base.interactiveFor('ones'),
-  i18n: { en: { title: "Odd and Even Numbers Under 100: Look at the Ones Box", instruction: "Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd." } },
+  i18n: { en: { title: "Odd and Even Numbers Under 100: Look at the Ones Box", instruction: "Read the rule at the top. Look only at the ones box of each number and fill in the circle under even or odd." } },
   gradeBand: "G2",
 };

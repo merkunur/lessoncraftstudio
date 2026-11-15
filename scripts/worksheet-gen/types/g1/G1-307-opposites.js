@@ -262,7 +262,10 @@ module.exports = {
     const who = this.id, rng = ctx.rng;
     // the pictures as small as the K floor and the scale pair's 1.3 ratio allow (a card stays under ~330 px)
     const pic = Math.max(K_FLOOR, Math.min(d.picPx, 73)), scale = Math.max(K_FLOOR, Math.min(d.scalePx, Math.floor(pic / 1.3)));
-    const dd = { ...d, picPx: pic, scalePx: scale, maxScale: pic / scale >= 1.3 ? d.maxScale : 0 };
+    // 2026-11-15 (en reviewer of the unit checks): no SCALE pair on a check card — the "big" and the "small" dog were one
+    // drawing at 73 and 56 px, and the right option was the only one that showed the prompt's own object (matched by
+    // picture, not by knowing the opposite). The check takes the pairs drawn by two different pictures only.
+    const dd = { ...d, picPx: pic, scalePx: scale, maxScale: 0 };
     let built = null;
     for (const k of [7, 5]) { try { built = this._buildMatch(bank, { ...dd, pairs: k }, loc, ctx); break; } catch (e) { if (k === 5) throw e; } }
     const byId = new Map(bank.pairs.map((p) => [p.id, p]));
@@ -288,17 +291,30 @@ module.exports = {
   },
   _checkPrefix(bank, d, loc, ctx) {
     const { checkGrid } = require('../../lib/check-page.js');
-    const built = this._buildPrefix(bank, { ...d, rows: 8 }, loc, ctx);
     const items = (bank.prefix.items || []);
     // the legend of the page's prefixes, small, inside each card (not where the row prints its own prefix or one prefix is all there is)
     const legend = d.showLegend && !d.showPrefix && bank.prefix.prefixes.length > 1 ? oppositePrefixChips({ prefixes: bank.prefix.prefixes, px: 18 }) : '';
-    const cards = built.meta.bases.slice(0, 7).map((base) => {
-      const it = items.find((x) => x.base === base);
-      const row = oppositePrefixRow({ n: 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) })
-        .replace(/<span class="ws-card-badge"[^>]*>1<\/span>/, '')
-        .replace('<span data-lcs-prefix-slot style="display:flex">', `<span data-lcs-prefix-slot style="display:flex;position:relative"><span data-lcs-answer="${it.expected.replace(/"/g, '&quot;')}" style="position:absolute;inset:0"></span>`);
-      return legend + row;
-    });
+    const rowOf = (it) => oppositePrefixRow({ n: 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) })
+      .replace(/<span class="ws-card-badge"[^>]*>1<\/span>/, '')
+      .replace('<span data-lcs-prefix-slot style="display:flex">', `<span data-lcs-prefix-slot style="display:flex;position:relative"><span data-lcs-answer="${it.expected.replace(/"/g, '&quot;')}" style="position:absolute;inset:0"></span>`);
+    // 2026-11-15 (en reviewer of the unit checks): where the page has several prefixes, a card of ONE word never made the
+    // child choose among them (in- was the answer in neither form): each card carries one word of each prefix (up to three),
+    // in a drawn order. A page of one prefix (de un-, sv o-) keeps a word per card.
+    const pre = bank.prefix.prefixes.slice(0, 3);
+    if (pre.length > 1) {
+      const by = Object.fromEntries(pre.map((p) => [p, []])), seen = new Set();
+      for (let guard = 0; guard < 12 && pre.some((p) => by[p].length < 6); guard++) {
+        const built = this._buildPrefix(bank, { ...d, rows: 8 }, loc, ctx);
+        for (const base of built.meta.bases) { const it = items.find((x) => x.base === base); if (it && by[it.prefix] && !seen.has(base)) { seen.add(base); by[it.prefix].push(it); } }
+      }
+      const n = Math.min(6, ...pre.map((p) => by[p].length));
+      if (n < 3) throw new Error(`${this.id}: ${loc} gives ${n} words of some prefix for the check (< 3) — refuse`);
+      const cards = [];
+      for (let k = 0; k < n; k++) cards.push(legend + ctx.rng.shuffle(pre.map((p) => by[p][k])).map(rowOf).join(''));
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+    }
+    const built = this._buildPrefix(bank, { ...d, rows: 8 }, loc, ctx);
+    const cards = built.meta.bases.slice(0, 7).map((base) => legend + rowOf(items.find((x) => x.base === base)));
     return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
   },
   levelSetData: () => levelSetData(),

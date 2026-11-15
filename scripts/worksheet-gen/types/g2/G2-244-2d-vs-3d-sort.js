@@ -29,27 +29,40 @@ module.exports = {
   interactive: require('../../lib/geometry-screen.js').interactiveFor('flat-solid'),
   levelSetWords(m) { return [...(m.flat || []), ...(m.solid || [])].map(String); },
 
-  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): each shape a card of its own beside
-   *  its own two small bins, labelled as the page labels them (a square: flat · a cube: solid); the page's two bins stand
-   *  beside its row of shapes, so a shape could not be cut from it. The square and the cube are not asked: a picture the
-   *  same as a bin's label is matched, not sorted. Two flat shapes more than the level draws, and three or four solids
-   *  (all the page has besides the cube and the sphere): never as many cards as the page, whose key cards the cutter
-   *  pairs with the cards by their number. The right bin carries data-lcs-correct. */
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): a card is the page made small — a row
+   *  of three shapes (four from level 2), flat and solid mixed, over the page's two bins labelled as the page labels them
+   *  (a square: flat, left · a cube: solid, right); the child draws a line from each shape to its bin (review en f1115,
+   *  2026-11-15: one shape and two bins was a guess that scored half the time). The square and the cube are not asked: a
+   *  picture the same as a bin's label is matched, not sorted; nor is the sphere (see build). The key draws the lines. */
   checkPage({ difficulty }, ctx) {
-    const d = this.difficulty[difficulty] || this.difficulty[2], rng = ctx.rng;
+    const rng = ctx.rng, key = !!(ctx && ctx.answerKey);
     const have = Object.keys(themeEntry('shapes').nouns);
-    const flatAll = Object.keys(SHAPES_2D).filter((k) => have.includes(k) && k !== 'square');
-    const solidAll = Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere' && k !== 'cube');   // (the sphere: see build)
-    const items = rng.shuffle([
-      ...rng.sample(flatAll, d.per + 2).map((k) => ({ k, dim: '2d' })),
-      ...rng.sample(solidAll, Math.min(solidAll.length, d.per)).map((k) => ({ k, dim: '3d' })),
-    ]);
-    const bin = (labelKey, dim, ok) => `<span data-lcs-choice="${dim}" data-lcs-bin="${dim}"${ok ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;width:84px;height:66px;box-sizing:border-box;border:2.5px dashed #146B5E;border-radius:12px;background:#FFFFFF">` +
-      `<img class="ws-icon" src="${fileUri('shapes', labelKey)}" alt="" style="width:40px;height:40px"></span>`;
-    const cards = items.map((it) => `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:center;gap:16px;padding:6px 4px" data-lcs-dim="${it.dim}" data-lcs-shape="${it.k}">` +
-      `<img class="ws-icon" src="${fileUri('shapes', it.k)}" alt="" style="width:104px;height:104px">` +
-      `<span style="display:flex;gap:14px">${bin('square', '2d', it.dim === '2d')}${bin('cube', '3d', it.dim === '3d')}</span></div>`);
-    return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: { flat: items.filter((x) => x.dim === '2d').map((x) => x.k), solid: items.filter((x) => x.dim === '3d').map((x) => x.k) } };
+    const flatAll = Object.keys(SHAPES_2D).filter((k) => have.includes(k) && !LABELS.includes(k));
+    const solidAll = Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'sphere' && !LABELS.includes(k));
+    const n = Number(difficulty) === 1 ? 3 : 4, W = 600, H = 262, S = 92, BIN = { w: 150, h: 84, y: 170 };
+    const binX = { '2d': W * 0.3, '3d': W * 0.7 };
+    const seen = new Set(), cards = [];
+    for (let guard = 0; cards.length < 6 && guard < 200; guard++) {
+      const nSolid = rng.int(1, n - 1);
+      const items = rng.shuffle([
+        ...rng.sample(flatAll, n - nSolid).map((k) => ({ k, dim: '2d' })),
+        ...rng.sample(solidAll, Math.min(solidAll.length, nSolid)).map((k) => ({ k, dim: '3d' })),
+      ]);
+      const sig = items.map((x) => x.k).join(',');
+      if (items.length !== n || seen.has(sig)) continue;
+      seen.add(sig);
+      const cx = (i) => W * (i + 0.5) / n;
+      const shapes = items.map((it, i) => `<span data-lcs-dim="${it.dim}" data-lcs-shape="${it.k}" style="position:absolute;left:${(cx(i) - S / 2).toFixed(1)}px;top:0;width:${S}px;height:${S}px;display:flex">` +
+        `<img class="ws-icon" src="${fileUri('shapes', it.k)}" alt="" style="width:${S}px;height:${S}px"></span>`).join('');
+      const bin = (labelKey, dim) => `<span data-lcs-bin="${dim}" style="position:absolute;left:${(binX[dim] - BIN.w / 2).toFixed(1)}px;top:${BIN.y}px;width:${BIN.w}px;height:${BIN.h}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border:2.5px dashed #146B5E;border-radius:14px;background:#FFFFFF">` +
+        `<img class="ws-icon" src="${fileUri('shapes', labelKey)}" alt="" style="width:46px;height:46px"></span>`;
+      // the key: a line from each shape to its bin (the cutter reads the drawing as the card's one mark)
+      const lines = key ? `<svg data-lcs-key-sample="1" data-lcs-label="${items.map((x) => x.dim).join(',')}" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" style="position:absolute;left:0;top:0;pointer-events:none">` +
+        items.map((it, i) => `<line x1="${cx(i).toFixed(1)}" y1="${S + 4}" x2="${binX[it.dim].toFixed(1)}" y2="${BIN.y - 4}" stroke="#C9552E" stroke-width="3.5" stroke-linecap="round"/>`).join('') + '</svg>' : '';
+      cards.push(`<div class="ws-card-stage" style="justify-content:center;align-items:center;padding:8px 4px"><div style="position:relative;width:${W}px;height:${H}px;flex:0 0 auto">` +
+        shapes + bin('square', '2d') + bin('cube', '3d') + lines + '</div></div>');
+    }
+    return { bodyHtml: checkGrid(cards), meta: {} };
   },
 
   build({ difficulty, locale }, ctx) {

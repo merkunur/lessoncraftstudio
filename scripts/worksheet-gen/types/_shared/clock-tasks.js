@@ -232,15 +232,21 @@ function clockCheckPage({ difficulty, locale }, ctx, mode) {
   const plain = { ...(ctx || {}), interactive: false, answerKey: false };
   if (mode === 'draw') {
     if (d.routine) return this.build({ difficulty, locale }, ctx);
-    const body = this.build.call(self({ ...d, cards: 7 }), { difficulty: 'check', locale }, plain).bodyHtml;
+    // 2026-11-15 (native reviews en, de, sv): the KEY draws the hands, as the key of the page does — it wrote the time
+    // small into the face instead (the key's place for the answer stays, empty: the hands are the answer). And no time
+    // whose hands lie on one line (12:00 both on the 12, 6:00 one straight stroke): there a teacher cannot see whether
+    // the child knows which hand is which. Twelve clocks are drawn and the first seven that show both hands are kept.
+    const key = !!(ctx && ctx.answerKey);
+    const body = this.build.call(self({ ...d, cards: 12 }), { difficulty: 'check', locale }, { ...plain, answerKey: key }).bodyHtml;
+    const apart = (t) => { const [h, m] = t.split(':').map(Number), dh = ((h % 12) * 30 + m * 0.5 - m * 6 + 720) % 360, x = Math.min(dh, 360 - dh); return x >= 25 && x <= 155; };
     const cards = [...body.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => {
       const inner = m[1], at = /data-lcs-target="([^"]+)"/.exec(inner);
       const size = +(/<svg[^>]*\swidth="(\d+(?:\.\d+)?)"/.exec(inner) || [])[1];
       if (!at || !size) throw new Error(this.id + ' checkPage: a draw card without its time');
       const c = size / 2;
-      const slot = `<rect x="${c - 0.26 * size}" y="${c + 0.07 * size}" width="${0.52 * size}" height="${0.2 * size}" fill="none" data-lcs-answer="${at[1]}"/>`;
-      return inner.replace('</svg>', slot + '</svg>');
-    });
+      const slot = `<rect x="${c - 0.26 * size}" y="${c + 0.07 * size}" width="${0.52 * size}" height="${0.2 * size}" fill="none" data-lcs-answer="${key ? '' : at[1]}"/>`;
+      return { t: at[1], html: inner.replace('</svg>', slot + '</svg>') };
+    }).filter((x, i, all) => apart(x.t) && all.findIndex((y) => y.t === x.t) === i).slice(0, 7).map((x) => x.html);
     if (cards.length !== 7) throw new Error(this.id + ' checkPage: ' + cards.length + ' clocks');
     return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
   }

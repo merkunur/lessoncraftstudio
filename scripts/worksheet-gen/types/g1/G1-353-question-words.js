@@ -36,6 +36,11 @@
  * row's kind away without reading (person → Who, clock → When: 7 of 7); a
  * portrait on every row is constant-kind and scores only the `who` rows
  * (2 of 7 = 0.29 <= 0.35, `pictureBot`, asserted by verify() and the gate).
+ * ⚠ SUPERSEDED 2026-11-15 (the en / de / sv reviewers of the unit checks, two rounds): the portrait is an occupation
+ * figure (a chef, a barber, a police officer) beside a sentence about a named CHILD — every reader took it as
+ * contradicting the sentence. No row about a named child carries a picture any more, on any face (base, match's name
+ * answers, fill, write); the deal still draws the persons (every page keeps its sentences). The ask face's scene names
+ * nobody and keeps its person tile. qa/verify-b4-question-words.js still asserts the portraits and needs the same change.
  *
  * Difficulty is a CONFIG; every guard keys on the RESOLVED keys (never the
  * level index). resolveBase(d, bank):
@@ -120,7 +125,9 @@ function levelSetBank(b, loc) {
   return {
     ...b, frames, levelSet: true,
     excludeThings: [...(b.excludeThings || []), ...(all.excludeThings || []), ...(x.excludeThings || [])],
-    placeBan: { ...(all.placeBan || {}), ...(x.placeBan || {}) },
+    // 2026-11-15: the bank's OWN placeBan stays (it was dropped here, so a new copy printed "Otto läser i bassängen" — reads
+    // in the pool — and "Mia plays in bed", which the published page never does)
+    placeBan: { ...(b.placeBan || {}), ...(all.placeBan || {}), ...(x.placeBan || {}) },
     ...(x.sortThingForm ? { sortThingForm: x.sortThingForm } : {}),
     ...(x.bins ? { bins: x.bins } : {}),
     ...(x.starters ? { starters: x.starters } : {}),
@@ -146,6 +153,27 @@ const THING_SLOTS = ['thing', 'part', 'dat'];
 const SENTENCE_COL = 531;                                                   // 639 - 30 - 10 - 56 - 12 (design §2)
 const CHIP_GAP = 12;
 const CLASH_LOCALES = new Set(['sv', 'da', 'no']);                          // §5 rule 10: `unique` IS the definite form
+// 2026-11-15 (the sv reviewer of the unit checks: "Olle hittar tre färjor" — finds three ferries — makes no sense): the FIND
+// frame (es / pt: "has") takes the small things a child finds or has — fruits and toys — never a vehicle or a zoo animal.
+// Skipped at SELECTION (no draw of the RNG): only a row that had drawn such a thing changes.
+const FIND_THEMES = new Set(['fruits', 'toys']);
+const thingFits = (frame, th) => !(frame.id === 'find-count' && !FIND_THEMES.has(th.pic && th.pic.theme));
+// … and the SLEEP frame takes an evening hour ("Eli sleeps at six / two o'clock" read oddly to the en reviewer): a sleep row
+// whose drawn time is not seven, eight or nine swaps times with another time row of the page, else takes the first free
+// evening time of the bank (no draw of the RNG). null = the row cannot be timed.
+const SLEEP_HOURS = [7, 8, 9];
+const timeFits = (frame, t) => !(frame.id === 'sleep-time' && !SLEEP_HOURS.includes(t.h));
+function fitTimes(timeRows, times) {
+  for (const r of timeRows) {
+    if (timeFits(r.frame, r.time)) continue;
+    const o = timeRows.find((x) => x !== r && timeFits(r.frame, x.time) && timeFits(x.frame, r.time));
+    if (o) { const t = r.time; r.time = o.time; o.time = t; continue; }
+    const free = times.find((t) => timeFits(r.frame, t) && !timeRows.some((x) => x.time.h === t.h));
+    if (!free) return false;
+    r.time = free;
+  }
+  return true;
+}
 const BW_MARKER = /(^|[\s_])(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;
 
 function nfd(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
@@ -371,6 +399,7 @@ function compose(rng, bank, cfg, loc, data) {
         if (bank.avoidThings && bank.avoidThings.includes(th.key)) continue;   // a picture a child names otherwise (2026-09-29): skipped at SELECTION, so the pool's shuffle order - and every other page - stays as it was
         if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;   // a key without a code is refused for a count row
+        if (!thingFits(r.frame, th)) continue;   // 2026-11-15: a find row takes a fruit or a toy
         const ctx = { name: r.name, thing: th, n, loc };
         let text;
         try { text = fillFrame(r.frame, ctx); } catch (e) { continue; }
@@ -400,6 +429,7 @@ function compose(rng, bank, cfg, loc, data) {
     if (timeRows.length > times.length) return null;
     const tm = rng.sample(times, timeRows.length);
     timeRows.forEach((r, i) => { r.time = tm[i]; });
+    if (!fitTimes(timeRows, times)) continue;   // 2026-11-15: a sleep row takes an evening hour
     // 8. fill + mark + cap
     for (const r of rows) {
       const ctx = { name: r.name, thing: r.thing, place: r.place, time: r.time, n: r.n, loc };
@@ -606,6 +636,9 @@ function resolveWrite(d, bank) {
   if (!(cfg.picPx >= 36) || !(cfg.fontPx >= 16) || !(cfg.maxChars >= 20)) throw new Error(`${ID} write: picPx ${cfg.picPx} / fontPx ${cfg.fontPx} / maxChars ${cfg.maxChars}`);
   cfg.w = PAGE_INNER - F4_GRID - cfg.picPx;   // 575 at picPx 48
   if (need('x'.repeat(cfg.maxChars)) > cfg.w) throw new Error(`${ID} write: maxChars ${cfg.maxChars} needs ${need('x'.repeat(cfg.maxChars))} px > the ${cfg.w} ruling`);
+  // 2026-11-15: the rows carry no portrait (see the base), so the ruling runs the whole text column (badge 30 + gap 12);
+  // the deal keeps measuring against cfg.w, so every page keeps its rows
+  cfg.ruleW = PAGE_INNER - 42;
   return cfg;
 }
 /** F5 config: the ask page (design §3 F5; G2, open-ended). */
@@ -693,6 +726,7 @@ function dealFace(rng, bank, opts, loc, data) {
         if (bank.avoidThings && bank.avoidThings.includes(th.key)) continue;   // a picture a child names otherwise (2026-09-29): skipped at SELECTION, so the pool's shuffle order - and every other page - stays as it was
         if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;
+        if (!thingFits(r.frame, th)) continue;   // 2026-11-15: a find row takes a fruit or a toy
         const ctx = { name: r.name, thing: th, n, loc };
         let text;
         try { text = fillFrame(r.frame, ctx); } catch (e) { continue; }
@@ -721,6 +755,7 @@ function dealFace(rng, bank, opts, loc, data) {
     if (timeRows.length > times.length) return null;
     const tm = rng.sample(times, timeRows.length);
     timeRows.forEach((r, i) => { r.time = tm[i]; });
+    if (!fitTimes(timeRows, times)) continue;   // 2026-11-15: a sleep row takes an evening hour
     for (const r of rows) {
       const ctx = { name: r.name, thing: r.thing, place: r.place, time: r.time, n: r.n, loc };
       try { r.text = fillFrame(r.frame, ctx); r.span = markOf(r.frame, r.ask, ctx); r.slots = slotValues(ctx); r.question = questionOf(r.frame, r.ask, ctx); } catch (e) { ok = false; break; }
@@ -767,7 +802,7 @@ function buildMatch(bank, d, loc, rng, data) {
     const left = rows.map((r) => ({ frame: r.frame.id, ask: r.ask, text: r.question, name: r.name.name, slots: { ...r.slots, key: rowKey(r) } }));
     const right = rows.map((r, i) => {
       const base = { kind: r.ask, literal: answers[i] };
-      if (r.ask === 'who') return { ...base, src: portraitSrc(r.person), pic: `${r.person.pic.theme}/${r.person.pic.noun}`, picKind: 'person', depicted: r.person.depicted };
+      if (r.ask === 'who') return { ...base, noPic: true };   // 2026-11-15: no portrait under a child's name (see the base)
       if (r.ask === 'what') return { ...base, src: fileUri(r.thing.pic.theme, r.thing.pic.noun), pic: `${r.thing.pic.theme}/${r.thing.pic.noun}`, picKind: 'thing' };
       if (r.ask === 'howmany') return { ...base, src: fileUri(r.thing.pic.theme, r.thing.pic.noun), pic: `${r.thing.pic.theme}/${r.thing.pic.noun}`, picKind: 'thing', badge: r.n };
       if (r.ask === 'where') return { ...base, src: fileUri(r.place.pic.theme, r.place.pic.noun), pic: `${r.place.pic.theme}/${r.place.pic.noun}`, picKind: 'place' };
@@ -840,9 +875,10 @@ function buildFill(bank, d, loc, rng, data) {
   // bank:false (Level Set 2026-09-29, the harder fill): no bank — the child writes the question word from memory
   const order = cfg.bank ? shuffleAway(rng, fixed, fixed) : [];
   const bankHtml = cfg.bank ? wordBank({ words: order.map((w) => ({ word: w })), wordPx: cfg.fontPx }) : '';
+  // 2026-11-15: no portrait beside a sentence about a named child (see the base); the deal still draws the persons
   const lanes = rows.map((r, i) => questionFrame({
-    n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
-    slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
+    n: i + 1, src: null, depicted: null, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
+    slots: { ...r.slots, key: rowKey(r) },
     question: r.question, qPrefix: bank.qPrefix || '', rest: gapOf(bank, r.question, r.ask), text: r.text, span: r.span, gapW: cfg.gapW, gapH: cfg.gapH, fontPx: cfg.fontPx, answer: bank.qwords[r.ask], picPx: cfg.picPx,
   })).join('');
   const bodyHtml = `<div ${rootAttrs(bank, 'fill')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.chips.join(',')}" data-lcs-gapw="${cfg.gapW}" data-lcs-botmax="0.35" data-lcs-maxperkind="${cfg.maxPerKind}"${cfg.bank ? '' : ' data-lcs-nobank="1"'} style="${rootStyle()}">` +
@@ -921,13 +957,14 @@ function buildWrite(bank, d, loc, rng, data) {
   if (cfg.twoAsks) return buildWriteTwo(bank, cfg, asks, loc, rng, data);
   const rows = dealFace(rng, bank, { asks, whoKinds: null, maxChars: cfg.sentenceMax, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: (r, ctx) => { const q = questionOf(r.frame, r.ask, ctx); return glyphs(q) <= cfg.maxChars && need(q) <= cfg.w; } }, loc, data);
   if (!rows) throw new Error(`${ID} write: ${loc} cannot deal ${cfg.rows} rows (${JSON.stringify(cfg.kinds)}; question <= ${cfg.maxChars}) — REFUSED`);
+  // 2026-11-15: no portrait beside a sentence about a named child (see the base); the ruling takes the whole column
   const html = rows.map((r, i) => writeRow({
-    n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
-    slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
-    text: r.text, span: r.span, answer: r.question, w: cfg.w, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
+    n: i + 1, src: null, depicted: null, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
+    slots: { ...r.slots, key: rowKey(r) },
+    text: r.text, span: r.span, answer: r.question, w: cfg.ruleW, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
     ...(cfg.starter ? { starter: (bank.qPrefix || '') + bank.qwords[r.ask] } : {}),
   })).join('');
-  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="0.35"${cfg.starter ? ' data-lcs-starters="1"' : ''} style="${rootStyle()}">` +
+  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.ruleW}" data-lcs-picpx="0" data-lcs-botmax="0.35"${cfg.starter ? ' data-lcs-starters="1"' : ''} style="${rootStyle()}">` +
     `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0${cfg.padB ? ';padding-bottom:' + cfg.padB + 'px' : ''}">${html}</div></div>`;
   return { bodyHtml, meta: { face: 'write', rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, span: r.span, answer: r.question })) } };
 }
@@ -942,12 +979,13 @@ function buildWriteTwo(bank, cfg, asks, loc, rng, data) {
   const rows = dealFace(rng, bank, { asks, whoKinds: null, maxChars: cfg.sentenceMax, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: ok2 }, loc, data);
   if (!rows) throw new Error(`${ID} write: ${loc} cannot deal ${cfg.rows} two-question rows (${JSON.stringify(cfg.kinds)}) — REFUSED`);
   const out = rows.map((r) => ({ r, spans: [markOf(r.frame, 'who', r.ctx), r.span], answers: [questionOf(r.frame, 'who', r.ctx), r.question] }));
+  // 2026-11-15: no portrait beside a sentence about a named child (see the base); the rulings take the whole column
   const html = out.map(({ r, spans, answers }, i) => writeRow2({
-    n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, asks: ['who', r.ask], name: r.name.name,
-    slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
-    text: r.text, spans, answers, w: cfg.w, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
+    n: i + 1, src: null, depicted: null, frame: r.frame.id, kind: r.kind, asks: ['who', r.ask], name: r.name.name,
+    slots: { ...r.slots, key: rowKey(r) },
+    text: r.text, spans, answers, w: cfg.ruleW, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
   })).join('');
-  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-two="1" data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-h="${cfg.h}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="1" style="${rootStyle()}">` +
+  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-two="1" data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.ruleW}" data-lcs-h="${cfg.h}" data-lcs-picpx="0" data-lcs-botmax="1" style="${rootStyle()}">` +
     `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0${cfg.padB ? ';padding-bottom:' + cfg.padB + 'px' : ''}">${html}</div></div>`;
   return { bodyHtml, meta: { face: 'write', two: true, rows: out.map(({ r, spans, answers }) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, spans, answers })) } };
 }
@@ -1000,6 +1038,7 @@ function VERIFY_BASE() {
   let firstOrder = null, firstStyle = null;
   const hist = {}, names = new Set(), srcs = new Set(), frames = new Set();
   const botRows = [];
+  let firstLeft = null;
   const pred = { person: 'who', thing: 'what', place: 'where', clock: 'when' };
   rows.forEach((row, i) => {
     const L = `row ${i + 1}`;
@@ -1063,9 +1102,16 @@ function VERIFY_BASE() {
       if (text && wordRe(c.dataset.lcsLabel).test(text)) fails.push(`${L}: the chip label "${c.dataset.lcsLabel}" occurs in the sentence`);
       if (span && span.toLowerCase() === c.dataset.lcsLabel.toLowerCase()) fails.push(`${L}: the mark equals a chip label`);
     });
-    // the picture
+    // the picture: the marked referent's own on a d1 (referent) what / where row; NONE on a row whose subject is a named child
+    // (2026-11-15: the occupation portrait contradicted the sentence about the child)
+    const wantPic = root.dataset.lcsPicof === 'referent' && ask !== 'who';
     const imgs = [...row.querySelectorAll('img[data-lcs-pic]')];
-    if (imgs.length !== 1) fails.push(`${L}: ${imgs.length} pictures`);
+    if (imgs.length !== (wantPic ? 1 : 0)) fails.push(`${L}: ${imgs.length} pictures (want ${wantPic ? 1 : 0})`);
+    if (row.querySelector('img[data-lcs-pickind="person"]')) fails.push(`${L}: a portrait beside a sentence about a named child`);
+    // (a picture-less row on a page of pictures keeps the picture's column: its sentence aligns with the others)
+    const sentAt = root.dataset.lcsPicof === 'referent' ? null : 42;
+    if (!imgs.length && p && sentAt != null) { const pr = p.getBoundingClientRect(); if (Math.abs(pr.left - laneLeft - sentAt) > 0.6) fails.push(`${L}: row geometry — the sentence sits at +${(pr.left - laneLeft).toFixed(1)}, want +${sentAt}`); }
+    if (p) { const left = Math.round(p.getBoundingClientRect().left - laneLeft); if (firstLeft == null) firstLeft = left; else if (Math.abs(firstLeft - left) > 1) fails.push(`${L}: the sentence sits at +${left}, row 1's at +${firstLeft} (the rows do not align)`); }
     const img = imgs[0];
     if (img) {
       if (!img.complete || img.naturalWidth === 0) fails.push(`${L}: broken picture`);
@@ -1152,17 +1198,12 @@ function VERIFY_FACE() {
     for (const k of ORDER) if (qwords[k] && hasWordCi(t, qwords[k])) fails.push(`${L}: the question word "${qwords[k]}" is printed in the sentence`);
     return { p, t, span };
   };
-  const checkPortrait = (row, L, floor) => {
-    const imgs = [...row.querySelectorAll('img[data-lcs-pic]')];
-    if (imgs.length !== 1) { fails.push(`${L}: ${imgs.length} pictures`); return null; }
-    const img = imgs[0];
-    if (!img.complete || img.naturalWidth === 0) fails.push(`${L}: broken picture ${img.dataset.lcsPic}`);
-    if (r(img).width < floor - 0.6) fails.push(`${L}: picture ${r(img).width.toFixed(1)} px < ${floor}`);
-    if (img.dataset.lcsPickind !== 'person') fails.push(`${L}: the picture is a ${img.dataset.lcsPickind}, not the subject's portrait`);
-    if (!['m', 'f'].includes(img.dataset.lcsDepicted)) fails.push(`${L}: a portrait without a depicted tag`);
-    if (srcs.has(img.src)) fails.push(`${L}: picture src twice on the page`);
-    srcs.add(img.src);
-    return img;
+  // 2026-11-15 (native reviewers, two rounds): a row about a named child carries NO portrait — the occupation figure (a chef,
+  // a barber) contradicted the sentence. The rows of the fill and write faces are text only.
+  const checkPortrait = (row, L) => {
+    const imgs = [...row.querySelectorAll('img')];
+    if (imgs.length) fails.push(`${L}: ${imgs.length} picture(s) beside a sentence about a named child (want none)`);
+    return null;
   };
   const uniq = (row, L, needContent = true) => {
     const name = row.dataset.lcsName, frame = row.dataset.lcsFrame;
@@ -1287,6 +1328,7 @@ function VERIFY_FACE() {
       const kind = a.dataset.lcsKind;
       const img = a.querySelector('img'), clk = a.querySelector('[data-lcs-prim="clock"]');
       if (kind === 'when') { if (!clk) fails.push(`${L}: a when answer without a clock`); if (img) fails.push(`${L}: a when answer with a picture`); }
+      else if (kind === 'who') { if (img || clk) fails.push(`${L}: a picture under a child's name (2026-11-15: no portrait)`); }
       else {
         if (!img) fails.push(`${L}: no picture`);
         else {
@@ -1703,6 +1745,94 @@ module.exports = {
     return this._buildWith(bank, d, { theme, locale: loc, pron, objForms }, ctx);
   },
   interactive: interactiveFor('base'), interactiveFor,
+
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6") — the unit checks' page, 2026-11-15 (the
+   * reviewers of the en / de / sv checks):
+   *   base (G1-353)  each card asks ALL THREE of who · what · where (one sentence each, in a drawn order, the level's chip
+   *                  strip under each, the right chip carrying data-lcs-correct): two cards of one sentence each could never
+   *                  ask the lesson's three words (de "Wer" and sv "vad" were the answer on no card of either form)
+   *   write (G2-356) one sentence per card, and ONE sentence per frame: its name, thing, place and time are the frame's own
+   *                  (the first of the bank that fits), so form B cannot ask form A's frame again with another name and
+   *                  number (de "Max schläft um acht Uhr" after "Leon schläft um sieben Uhr" — the same card twice)
+   * The rows carry no picture (as on the worksheet: no portrait beside a sentence about a named child). Every other face
+   * gives the check its page as it is.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    if (!d || (d.mode && d.mode !== 'base' && d.mode !== 'write')) return this.build({ theme, difficulty, locale }, ctx);
+    const { checkGrid } = require('../../lib/check-page.js');
+    const deps = this._deps(loc);
+    const bank = levelSetBank(deps.bank, loc);
+    const data = faceData(bank, loc, deps.pron, deps.objForms);
+    const rng = ctx.rng;
+    if (!d.mode || d.mode === 'base') {
+      const chips = (d.chips || ['who', 'what', 'where']).map((k) => ({ kind: k, label: bank.qwords[k] }));
+      const cfg = resolveBase({ ...d, rows: 6, chips: ['who', 'what', 'where'], kinds: { who: 2, what: 2, where: 2 }, picOf: 'subject' }, bank);
+      const cards = [];
+      for (let deal = 0; deal < 4; deal++) {
+        const rows = compose(rng, bank, cfg, loc, data);
+        if (!rows) throw new Error(`${ID} checkPage: ${loc} cannot deal the check's rows — refuse`);
+        for (let k = 0; k < 2; k++) {
+          const three = rng.shuffle(['who', 'what', 'where'].map((a) => rows.filter((r) => r.ask === a)[k]));
+          cards.push(three.map((r, i) => answerRow({
+            n: i + 1, src: null, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, slots: { ...r.slots, key: rowKey(r) },
+            text: r.text, span: r.span, chips, chipPx: cfg.chipPx, chipPad: cfg.chipPad, rowH: cfg.chipH, padding: '4px 10px',
+          }).replace(/<span data-lcs-badge [^>]*>\d+<\/span>/, '').replace('grid-template-columns:30px 12px 1fr', 'grid-template-columns:1fr')
+            .replace(/grid-column:3;/g, 'grid-column:1;').replace(`data-lcs-chip="${r.ask}"`, `data-lcs-chip="${r.ask}" data-lcs-correct="1"`)).join(''));
+        }
+      }
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards.map((c) => `<div style="display:flex;flex-direction:column;gap:6px">${c}</div>`))}</div>`, meta: {} };
+    }
+    // write: one sentence per frame (see above); the two-question page (Level Set d3) gives its page as it is
+    const cfg = resolveWrite(d, bank);
+    if (cfg.twoAsks) return this.build({ theme, difficulty, locale }, ctx);
+    const two = false;
+    const places = data.places.filter((p) => p.text);
+    const cards = [];
+    for (const [fi, f] of rng.shuffle(bank.frames.map((x, i) => [i, x]))) {
+      if (cards.length === 7) break;
+      const ask = rng.pick(['who', KIND_ASK[f.kind]]);
+      if (!cfg.kinds[ask]) continue;
+      const name = data.names[fi % data.names.length];
+      let row = null;
+      const tryCtx = (c) => {
+        try {
+          const text = fillFrame(f, c), span = markOf(f, ask, c), question = questionOf(f, ask, c);
+          if (glyphs(text) > cfg.sentenceMax || glyphs(question) > cfg.maxChars || need(question) > cfg.w) return null;
+          if (two) { const qw = questionOf(f, 'who', c); if (glyphs(qw) > cfg.maxChars || need(qw) > cfg.w) return null; return { text, spans: [markOf(f, 'who', c), span], answers: [qw, question], ctx: c }; }
+          return { text, span, question, ctx: c };
+        } catch (e) { return null; }
+      };
+      if (f.kind === 'thing' || f.kind === 'count') {
+        const at = (fi * 7) % data.pool.length;   // each frame starts at its own place in the (sorted) pool
+        for (const th of data.pool.slice(at).concat(data.pool.slice(0, at))) {
+          if ((bank.avoidThings || []).includes(th.key) || !thingFits(f, th)) continue;          if (f.kind === 'count' && bank.genderFilter && bank.genderFilter.count && th.gender !== bank.genderFilter.count) continue;
+          if ((row = tryCtx({ name, thing: th, n: f.kind === 'count' ? (bank.numbers || [2, 3, 4, 5])[fi % (bank.numbers || [2, 3, 4, 5]).length] : null, loc }))) break;
+        }
+      } else if (f.kind === 'place') {
+        for (const p of places.slice(fi % places.length).concat(places.slice(0, fi % places.length))) {
+          if ((bank.placeBan && (bank.placeBan[f.id] || []).includes(p.key))) continue;
+          if ((row = tryCtx({ name, place: p, loc }))) break;
+        }
+      } else if (f.kind === 'time') {
+        for (const t of data.times.slice(fi % data.times.length).concat(data.times.slice(0, fi % data.times.length))) {
+          if (!timeFits(f, t)) continue;
+          if ((row = tryCtx({ name, time: t, loc }))) break;
+        }
+      }
+      if (!row) continue;
+      const n = cards.length + 1;
+      const slots = { ...slotValues(row.ctx), key: row.ctx.thing ? row.ctx.thing.key : row.ctx.place ? row.ctx.place.key : row.ctx.time ? String(row.ctx.time.h) : '' };
+      cards.push(two
+        ? writeRow2({ n, src: null, frame: f.id, kind: f.kind, asks: ['who', ask], name: name.name, slots, text: row.text, spans: row.spans, answers: row.answers, w: cfg.ruleW, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx })
+        : writeRow({ n, src: null, frame: f.id, kind: f.kind, ask, name: name.name, slots, text: row.text, span: row.span, answer: row.question, w: cfg.ruleW, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
+          ...(cfg.starter ? { starter: (bank.qPrefix || '') + bank.qwords[ask] } : {}) }));
+    }
+    if (cards.length < 6) throw new Error(`${ID} checkPage: ${loc} gives ${cards.length} write cards (< 6) — refuse`);
+    return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+  },
   /** What makes a Level Set copy different: its things, places, times (the rows' words), or its tiles. */
   levelSetWords(m) {
     if (m.tiles) return m.tiles.map((t) => t.text);
@@ -1733,14 +1863,17 @@ module.exports = {
     const chips = cfg.chips.map((k) => ({ kind: k, label: bank.qwords[k] }));
     const html = rows.map((r, i) => {
       let pic;
-      if (cfg.picOf === 'subject' || r.ask === 'who') pic = { src: portraitSrc(r.person), pic: `${r.person.pic.theme}/${r.person.pic.noun}`, picKind: 'person', depicted: r.person.depicted };
+      // 2026-11-15 (two rounds of native reviewers, en / de / sv): the subject's portrait is an occupation figure (a chef, a
+      // barber) beside a sentence about a named child — every reader took it as contradicting the sentence. A row whose
+      // subject is the child carries NO picture (the deal is untouched: the persons are still drawn, never shown)
+      if (cfg.picOf === 'subject' || r.ask === 'who') pic = { src: null, pic: null, picKind: null, depicted: null };
       else if (r.kind === 'thing') pic = { src: fileUri(r.thing.pic.theme, r.thing.pic.noun), pic: `${r.thing.pic.theme}/${r.thing.pic.noun}`, picKind: 'thing' };
       else if (r.kind === 'place') pic = { src: fileUri(r.place.pic.theme, r.place.pic.noun), pic: `${r.place.pic.theme}/${r.place.pic.noun}`, picKind: 'place' };
       else throw new Error(`${ID}: picOf 'referent' has no picture for a ${r.kind} row`);
       return answerRow({
         n: i + 1, src: pic.src, pic: pic.pic, picKind: pic.picKind, depicted: pic.depicted,
-        frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, slots: { ...r.slots, pic: pic.pic, key: r.thing ? r.thing.key : (r.place ? r.place.key : (r.time ? String(r.time.h) : '')) },
-        text: r.text, span: r.span, chips, picPx: cfg.picPx, chipPx: cfg.chipPx, chipPad: cfg.chipPad, rowH: cfg.chipH,
+        frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, slots: { ...r.slots, ...(pic.pic ? { pic: pic.pic } : {}), key: r.thing ? r.thing.key : (r.place ? r.place.key : (r.time ? String(r.time.h) : '')) },
+        text: r.text, span: r.span, chips, picPx: cfg.picPx, chipPx: cfg.chipPx, chipPad: cfg.chipPad, rowH: cfg.chipH, keepSlot: cfg.picOf === 'referent',
       });
     }).join('');
     const bodyHtml = `<div data-lcs-qw data-lcs-mode="base" data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.chips.join(',')}" data-lcs-botmax="${cfg.botMax}" data-lcs-picof="${cfg.picOf}" data-lcs-mixfloor="${cfg.mixFloor}" ` +
@@ -1748,7 +1881,7 @@ module.exports = {
     return {
       bodyHtml,
       meta: {
-        face: 'base', chips: cfg.chips, bot: pictureBot(rows.map((r) => ({ picKind: cfg.picOf === 'subject' || r.ask === 'who' ? 'person' : r.kind, ask: r.ask }))),
+        face: 'base', chips: cfg.chips, bot: pictureBot(rows.map((r) => ({ picKind: cfg.picOf === 'subject' || r.ask === 'who' ? null : r.kind, ask: r.ask }))),
         rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, span: r.span })),
       },
     };

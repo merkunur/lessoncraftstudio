@@ -702,9 +702,9 @@
   ],
   "prefixItems": [
    {
-    "base": "able",
-    "prefix": "un",
-    "expected": "unable"
+    "base": "active",
+    "prefix": "in",
+    "expected": "inactive"
    },
    {
     "base": "sure",
@@ -737,9 +737,9 @@
     "expected": "uncover"
    },
    {
-    "base": "like",
+    "base": "connect",
     "prefix": "dis",
-    "expected": "dislike"
+    "expected": "disconnect"
    },
    {
     "base": "agree",
@@ -981,9 +981,7 @@
      "b": []
     },
     "exclusiveWith": [],
-    "syn": {
-     "a": "munter"
-    },
+    "syn": null,
     "far": "schwer",
     "pic": null,
     "id": "awake-tired",
@@ -1080,9 +1078,7 @@
      ]
     },
     "exclusiveWith": [],
-    "syn": {
-     "a": "riskant"
-    },
+    "syn": null,
     "far": "leise",
     "pic": null,
     "id": "dangerous-safe",

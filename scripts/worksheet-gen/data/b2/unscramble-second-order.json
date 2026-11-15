@@ -781,8 +781,8 @@
    ]
   },
   "s10": {
-   "animal": "sind die pandas bunt / bunt sind die pandas",
-   "thing": "sind die bälle bunt / bunt sind die bälle",
+   "animal": "sind die pandas schön / schön sind die pandas",
+   "thing": "sind die bälle schön / schön sind die bälle",
    "animalTypes": [
     "Q",
     "S"
@@ -5321,8 +5321,8 @@
    ]
   },
   "ls-u4": {
-   "animal": "har elsa två små pandor / två små pandor har elsa",
-   "thing": "har elsa två små bollar / två små bollar har elsa",
+   "animal": "ser elsa två små pandor / två små pandor ser elsa",
+   "thing": "ser elsa två små bollar / två små bollar ser elsa",
    "animalTypes": [
     "Q",
     "S"

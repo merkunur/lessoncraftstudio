@@ -45,6 +45,14 @@ for (const f of fs.readdirSync(path.join(WG, 'waves'))) {
   const w = JSON.parse(fs.readFileSync(path.join(WG, 'waves', f), 'utf8'));
   if (w.id && !waveFiles[shortOf(w.id)] && /^wave-fix\d/.test(w.id)) (waveFiles[shortOf(w.id) + '\u0000'] = waveFiles[shortOf(w.id) + '\u0000'] || []).push(f);
 }
+// a fix wave that published under its OWN id (2026-11-15: wave-ltrfix-<loc> made the live K-258/K-283 pages, wave-qwfix-<loc>
+// the question-word pages, wave-plumfix-* single decks) is the source of its pages too. A fix wave that shares a regular
+// wave's id (wave-001-divfix-a = wave-001) stays out: the regular wave is the source, as before.
+for (const f of fs.readdirSync(path.join(WG, 'waves'))) {
+  if (!f.endsWith('.json') || f.startsWith('_') || !/fix/.test(f)) continue;
+  const w = JSON.parse(fs.readFileSync(path.join(WG, 'waves', f), 'utf8'));
+  if (w.id && !waveFiles[shortOf(w.id)]) (waveFiles[shortOf(w.id) + '\u0000'] = waveFiles[shortOf(w.id) + '\u0000'] || []).push(f);
+}
 for (const k of Object.keys(waveFiles)) if (k.endsWith('\u0000')) { waveFiles[k.slice(0, -1)] = waveFiles[k]; delete waveFiles[k]; }
 
 const live = fs.readFileSync(LIVE, 'utf8').trim().split(/\r?\n/).map((l) => JSON.parse(l));
@@ -93,7 +101,10 @@ for (const key of Object.keys(groups).sort()) {
         const th = themesOf(t)[k];
         if (th === undefined) continue;
         ts.push(t);
-        if (th) over[t] = th;
+        // the manifest stores the taxonomy key (around_the_house), a wave may list the cache name (around the house): pin the
+        // wave's own spelling of the same theme (2026-11-15, wave-b3var-da)
+        const keyOf = (x) => String(x).toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+        if (th) over[t] = (base.themes || []).find((x) => keyOf(x) === keyOf(th)) || th;
       }
       // every field of the source wave rides along (variantsPerType: a copies wave pinned without it lost copies 2-10)
       if (ts.length) plans.push({ ...base, id: base.id, seedEpoch: base.seedEpoch || 1, locales: [loc], themes: base.themes, themesPerType: 1,
@@ -118,6 +129,9 @@ for (const key of Object.keys(groups).sort()) {
   for (const d of decks) {
     const z = path.join(stagingDir, d.deck_id + '.zip');
     if (fs.existsSync(z) && !fs.existsSync(path.join(origDir, d.deck_id + '.zip'))) fs.copyFileSync(z, path.join(origDir, d.deck_id + '.zip'));
+    // the old ZIP leaves the staging folder (it is backed up above): a page whose build FAILS must end as "no fresh ZIP",
+    // never as the old staged one copied over as fresh (2026-11-15: 67 failed live pages; an old nl K-329 differed from live)
+    if (fs.existsSync(z)) fs.unlinkSync(z);
   }
   for (const f of files) {
     let out;

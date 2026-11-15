@@ -56,6 +56,47 @@ const LS_BLOCK = new Set(['medicine', 'cocktail', 'evergreen', 'vanity', 'dice',
 const LS_PUB_OBJECTS = { es: ['s16'], pt: ['s7'], it: ['s13', 's15'], da: ['s9'], no: ['s14'], fi: ['s8'] };   // fi s8 «kantaa» (carries a kangaroo)
 const themeFamily = (t) => String(t).replace(/ bw(\s+\d+)?$/i, '').toLowerCase();
 
+// HOW MANY the sentence names (2026-11-15, en check review: "I can see two ducks." stood beside ONE duck — the picture
+// contradicted its sentence): a lane whose frame prints a numeral 2-6 shows that many pictures. The numerals the frames
+// print, per language (index 0 = two); a frame without one keeps its single picture, byte for byte.
+const COUNT_WORDS = {
+  en: ['two', 'three', 'four', 'five', 'six'], de: ['zwei', 'drei', 'vier', 'fünf', 'sechs'], es: ['dos', 'tres', 'cuatro', 'cinco', 'seis'],
+  fr: ['deux', 'trois', 'quatre', 'cinq', 'six'], it: ['due', 'tre', 'quattro', 'cinque', 'sei'], pt: [['dois', 'duas'], 'três', 'quatro', 'cinco', 'seis'],
+  nl: ['twee', 'drie', 'vier', 'vijf', 'zes'], sv: ['två', 'tre', 'fyra', 'fem', 'sex'], da: ['to', 'tre', 'fire', 'fem', 'seks'],
+  no: ['to', 'tre', 'fire', 'fem', 'seks'], fi: ['kaksi', 'kolme', 'neljä', 'viisi', 'kuusi'],
+};
+function countOf(loc, frameText) {
+  const L = COUNT_WORDS[loc] || [];
+  for (const w of String(frameText).replace(/\{[a-z]+\}/g, ' ').toLocaleLowerCase(loc).split(/[^\p{L}]+/u)) {
+    const i = L.findIndex((x) => [].concat(x).includes(w));
+    if (i >= 0) return i + 2;
+  }
+  return 1;
+}
+// … and a PLURAL noun without a numeral (second check review 2026-11-15: "The bananas are so big." beside ONE banana,
+// "Unsere Lehrerin zählt alle Leguane." beside one iguana): two pictures; three where the sentence says many or all.
+const MANY_WORDS = {
+  en: ['many', 'all'], de: ['viele', 'alle'], es: ['muchos', 'muchas', 'todos', 'todas'], fr: ['beaucoup', 'tous', 'toutes'],
+  it: ['molti', 'molte', 'tanti', 'tante', 'tutti', 'tutte'], pt: ['muitos', 'muitas', 'todos', 'todas'], nl: ['veel', 'alle'],
+  sv: ['många', 'alla', 'flest'], da: ['mange', 'alle', 'flest'], no: ['mange', 'alle', 'flest'], fi: ['monta', 'paljon', 'kaikki'],
+};
+function picturesOf(loc, frame) {
+  const n = countOf(loc, frame.text);
+  if (n > 1 || frame.noun !== 'pl') return n;
+  const words = String(frame.text).replace(/\{[a-z]+\}/g, ' ').toLocaleLowerCase(loc).split(/[^\p{L}]+/u);
+  return (MANY_WORDS[loc] || []).some((w) => words.includes(w)) ? 3 : 2;
+}
+/** n copies of the lane's picture in its W x H cell (as large as the cell allows; one to three columns). */
+function picCluster(src, key, n, W, H) {
+  let best = null;
+  for (let cols = 1; cols <= 3; cols++) {
+    const rows = Math.ceil(n / cols), sz = Math.floor(Math.min((W - (cols - 1) * 4) / cols, (H - (rows - 1) * 4) / rows));
+    if (!best || sz > best.sz) best = { cols, sz };
+  }
+  const img = `<img class="ws-icon" src="${src}" alt="" data-lcs-noun="${key}" style="width:${best.sz}px;height:${best.sz}px">`;
+  return `<div data-lcs-pics="${n}" style="width:${W}px;display:grid;grid-template-columns:repeat(${best.cols},${best.sz}px);gap:4px;justify-content:center;align-content:center">${img.repeat(n)}</div>`;
+}
+
 module.exports = {
   id: 'G1-249',
   slug: 'unscramble-the-sentence',
@@ -96,6 +137,10 @@ module.exports = {
       .filter((e) => published || ([...e.plural.trim()].length <= 10 && [...e.singular.trim()].length <= 10))
       // native review: blocked nouns + all-caps acronyms (a lowercased "ufo")
       .filter((e) => published || (!LS_BLOCK.has(e.vocabKey) && !/^[A-ZÆØÅÄÖ]{2,}$/.test(e.singular.trim())));
+    // Level Set (new pages only): a noun every noun-form table of the bank covers (fi partitive) — one uncovered noun drawn
+    // under a frame that needs the form failed the whole page (2026-11-15: fi «lumikko», forest creatures; as G2-274 does)
+    const formTables = Object.values(bank.nounForms || {});
+    if (!published) for (let k = entries.length - 1; k >= 0; k--) if (!formTables.every((t) => t[entries[k].vocabKey])) entries.splice(k, 1);
     if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
     // no capital and no end mark on the tiles: only frames whose words make ONE sentence for this page's noun class (the
     // native review, data/b2/unscramble-second-order.json — "the panda found mia", "can you find the ball" / "you can find
@@ -199,9 +244,11 @@ module.exports = {
       // Mexican Spanish asks most yes/no questions in the statement's own order (¿Mi hermana puede ver cinco patos?): where the
       // statement has question orders, the key lists that one first (the screen accepts it already: same tiles, same order)
       if (loc === 'es' && SB.endMark(canonical) === '.' && rv.some(({ t }) => t !== 'S')) written.unshift('¿' + canonical.trim().replace(/\s*\.$/, '') + '?');
-      laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order, ...(alts.length ? { alts, altsWritten: written } : {}) });
+      const count = picturesOf(loc, frame);
+      laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order, ...(count > 1 ? { count } : {}), ...(alts.length ? { alts, altsWritten: written } : {}) });
       return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:14px;align-items:center"${slot.attr(ctx, 'pic', i)} data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-caps="${caps.join(',')}" data-lcs-end="${end}">` +
-        `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}" style="width:${d.icon}px;height:${d.icon}px">` +
+        (count > 1 ? picCluster(fileUri(theme, e.noun), e.vocabKey, count, d.icon, d.tileH + 10 + d.rulH)
+          : `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}" style="width:${d.icon}px;height:${d.icon}px">`) +
         `<div style="display:flex;flex-direction:column;gap:10px;min-width:0">${wordTiles({ tokens: shown, order, fontPx: d.font, tileH: d.tileH })}${rulingBlock({ rows: 1, w: 660 - d.icon - 14 - 32, h: d.rulH, glyphH: d.glyphH })}</div></div>`;
     });
     return {
@@ -210,6 +257,25 @@ module.exports = {
     };
   },
   mergedBank: (loc) => mergedBank(loc),
+  countOf, picturesOf,
+
+  /**
+   * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page as it is, but every sentence of it
+   * as long as the others (2026-11-15, sv check review: form A's sentence had five word cards, form B's four, so B was the
+   * easier form) — the level's longest sentences first, one word shorter where a language has too few; a language that
+   * cannot fill a page of one length gets the page as the worksheet draws it.
+   */
+  checkPage({ theme, difficulty, locale }, ctx) {
+    const d = this.difficulty[difficulty] || this.difficulty[2];
+    const tilesPerLane = (html) => html.split('data-lcs-item').slice(1).map((l) => (l.match(/data-lcs-tile="/g) || []).length);
+    for (let n = d.maxTok; n >= d.minTok; n--) {
+      try {
+        const built = this.build.call({ ...this, difficulty: { ...this.difficulty, [difficulty]: { ...d, minTok: n, maxTok: n } } }, { theme, difficulty, locale }, ctx);
+        if (new Set(tilesPerLane(built.bodyHtml)).size === 1) return built;
+      } catch (e) { /* too few frames of this length: one word shorter */ }
+    }
+    return this.build({ theme, difficulty, locale }, ctx);
+  },
   /** What makes a copy different (build-waves): its sentence frames + its nouns. */
   levelSetWords(meta) { return (meta.lanes || []).flatMap((l) => [l.frame, l.noun]); },
   interactive: {

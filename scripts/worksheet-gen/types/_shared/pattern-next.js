@@ -29,6 +29,9 @@ function makePatternType(cfg) {
       3: { rows: 5, repeats: (repeats || 2) + 1 },
     },
     i18n,
+    // the unit checks (Part 7.6), two blanks: the worksheet's page as it is, its key numbering the blanks of each card
+    // 1 and 2 (ctx.check reaches the key build only through this hook)
+    ...(variant === 'missing2' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
 
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
@@ -141,14 +144,17 @@ function makePatternType(cfg) {
         // which pictures fit). Makers only; the catalogue page is unchanged.
         const pairMarks = variant === 'missing2' && !!(ctx && (ctx.answerKey || ctx.screen));
         const keyMarks = pairMarks && !!ctx.answerKey;
+        // a unit check numbers the two blanks of each card 1 and 2 (review en/de f1115: a key card cut from row 4 of its page
+        // marked its blanks 7 and 8, as if they were numbers to write); the worksheet numbers them across its page
+        const pn = ctx && ctx.check ? 0 : 2 * i;
         const chipId = (sym) => 'r' + (i + 1) + '-' + sym;
         const grp = pairMarks && !keyMarks ? ` data-lcs-pair-group="${i + 1}"` : '';
         const slots = [];
         for (let k = 0; k < seqLen; k++) {
           if (k === blankIdx) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}"${keyMarks ? ` data-lcs-pair="${2 * i + 1}"` : pairMarks ? ` data-lcs-key-badge="${chipId(answerSym)}"${grp}` : ''}>${keyMarks ? 2 * i + 1 : '?'}</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? growStart + k : answerSym}"${keyMarks ? ` data-lcs-pair="${pn + 1}"` : pairMarks ? ` data-lcs-key-badge="${chipId(answerSym)}"${grp}` : ''}>${keyMarks ? pn + 1 : '?'}</span>`);
           } else if (k === blankIdx2) {
-            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}"${keyMarks ? ` data-lcs-pair="${2 * i + 2}"` : pairMarks ? ` data-lcs-key-badge="${chipId(answerSym2)}"${grp}` : ''}>${keyMarks ? 2 * i + 2 : '?'}</span>`);
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}"${keyMarks ? ` data-lcs-pair="${pn + 2}"` : pairMarks ? ` data-lcs-key-badge="${chipId(answerSym2)}"${grp}` : ''}>${keyMarks ? pn + 2 : '?'}</span>`);
           } else {
             slots.push(render(attribute === 'count' ? null : seq[k], k));
           }
@@ -194,7 +200,7 @@ function makePatternType(cfg) {
           });
         }
         const chipHtml = choices.map((c) =>
-          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : c.box ? ' style="width:80px;height:80px;border-radius:14px"' : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${keyMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym === answerSym && c.sym === answerSym2 ? (2 * i + 1) + '·' + (2 * i + 2) : 2 * i + (c.sym === answerSym ? 1 : 2)}"` : ''}${pairMarks && !keyMarks && c.sym ? ` data-lcs-pair="${chipId(c.sym)}" data-lcs-label="•"${grp}` : ''}>${c.html}</span>`).join('');
+          `<span class="ws-pattern-chip"${stack ? ` style="width:${chipPx}px;height:${chipPx}px"` : c.box ? ' style="width:80px;height:80px;border-radius:14px"' : ''}${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}${keyMarks && (c.sym === answerSym || c.sym === answerSym2) ? ` data-lcs-key-badge="${c.sym === answerSym && c.sym === answerSym2 ? (pn + 1) + '·' + (pn + 2) : pn + (c.sym === answerSym ? 1 : 2)}"` : ''}${pairMarks && !keyMarks && c.sym ? ` data-lcs-pair="${chipId(c.sym)}" data-lcs-label="•"${grp}` : ''}>${c.html}</span>`).join('');
 
         // stack: the choices under the sequence — at its right end for "what comes next", centred for the missing ones
         cards.push(stack

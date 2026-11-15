@@ -45,7 +45,7 @@ const READING_PASSAGES = {
     {
       "id": "the-garden",
       "title": "The Garden",
-      "text": "Emma and her grandpa have a small garden. They grow carrots, peas, and big orange pumpkins. Every evening, Emma waters the plants with her little green can. One day, a rabbit came and ate two carrots! Now Emma checks the garden every morning.",
+      "text": "Emma and her grandpa have a small garden. They grow carrots, peas, and big orange pumpkins. Every evening, Emma waters the plants with her little green watering can. One day, a rabbit came and ate two carrots! Now Emma checks the garden every morning.",
       "questions": [
         {
           "q": "Who has a garden with Emma?",

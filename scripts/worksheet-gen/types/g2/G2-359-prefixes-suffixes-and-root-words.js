@@ -306,7 +306,8 @@ function buildFace(self, block, d, loc, rng, fp) {
     const fit = (w) => WB.brickEstimate(d.memberPx, glyphs(w)) <= Math.floor(cardW) - 2;
     const all = [...(block.families || []), ...(block.rootFamilies || [])].filter((f) => f && f.signed === true && f.rootIsFreeWord).map((f) => ({
       id: literal(f.id, 'family id', loc), stem: literal(f.stem, `family ${f.id} stem`, loc), root: literal(f.root && f.root.word, `family ${f.id} root.word`, loc),
-      members: (f.members || []).filter((mm) => fit(mm.word) && !mm.stemSigned && (!d.kinds || d.kinds.includes(mm.kind)) && (!d.maxGlyphs || glyphs(mm.word) <= d.maxGlyphs)).map((mm) => ({ word: literal(mm.word, `family ${f.id} member`, loc), kind: mm.kind })),
+      // (grade 3: a member the native review placed above a Grade 2 page — de «Bildhauer», «zahlreich», 2026-11-15)
+      members: (f.members || []).filter((mm) => fit(mm.word) && !mm.stemSigned && !(mm.grade > 2) && (!d.kinds || d.kinds.includes(mm.kind)) && (!d.maxGlyphs || glyphs(mm.word) <= d.maxGlyphs)).map((mm) => ({ word: literal(mm.word, `family ${f.id} member`, loc), kind: mm.kind })),
     })).filter((f) => f.members.length >= d.members && low(f.stem, loc) === low(f.root, loc));
     const open = d.cards - d.worked;
     if (all.length < d.cards) throw new Error(`${ID}: ${loc} has ${all.length} free-root families for ${d.cards} root cards (refuse)`);

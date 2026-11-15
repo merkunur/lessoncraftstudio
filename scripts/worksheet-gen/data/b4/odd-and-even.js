@@ -53,8 +53,8 @@ const ODD_AND_EVEN = {
       base: { title: 'Odd and Even Numbers: Odd House, Even House', instruction: 'Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs.' },
       proof: { title: 'Odd or Even? Write Two Equal Addends', instruction: 'Circle the dots two by two. Then write the number as two equal parts and write what is left over in the small box.' },
       share: { title: 'Can Two Friends Share Fairly?', instruction: 'Share the pictures, one each in turn. Write how many each friend gets and how many are left. Is the number of pictures odd or even? Circle it.' },
-      ones: { title: 'Odd and Even Numbers Under 100: Look at the Ones Box', instruction: 'Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd.' },
-      sums: { title: 'Odd or Even Sum? Decide Without Adding', instruction: 'Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd.' },
+      ones: { title: 'Odd and Even Numbers Under 100: Look at the Ones Box', instruction: 'Read the rule at the top. Look only at the ones box of each number and fill in the circle under even or odd.' },
+      sums: { title: 'Odd or Even Sum? Decide Without Adding', instruction: 'Do not add. Look at the underlined ones digit of each number, use the table, and mark whether the sum is even or odd.' },
       count: { title: 'Odd or Even? Count the Pictures in Pairs', instruction: 'Count the pictures and circle them two by two. Write how many pairs you made. Is the number of pictures odd or even? Circle it.' },
     },
     refuse: {},
@@ -64,7 +64,7 @@ const ODD_AND_EVEN = {
 
 const GLOBAL = {
   worked: { maxN: 10 },                          // every worked numeral <= 10 (the pairDots ceiling, 5 columns)
-  tableOrder: ['ee', 'oo', 'eo'],                // the F4 parity table rows
+  tableOrder: ['ee', 'oo', 'eo', 'oe'],          // the F4 parity table rows (oe added 2026-11-15: the page asks odd + even)
   modes: ['proof', 'share', 'ones', 'sums', 'count'],
   pvHeaders: { de: ['Z', 'E'], fr: ['d', 'u'], es: ['D', 'U'], nl: ['T', 'E'], sv: ['T', 'E'], fi: ['K', 'Y'] },   // lock-given (design §1 bold)
   doublesBan: {

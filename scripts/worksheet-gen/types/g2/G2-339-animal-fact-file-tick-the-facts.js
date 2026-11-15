@@ -32,16 +32,19 @@ module.exports = {
       return a.pic && !/\b(BW|SW|BN|NB|ZW|SH|PB|MV|SV)$/i.test(String(a.pic.theme)) && full(a) && lit && typeof lit.name === 'string' && lit.name.trim();
     });
     if (keys.length < 7) throw new Error(`${this.id} checkPage: ${loc} has ${keys.length} animals with every fact`);
-    const fields = rng.shuffle(d.fields);
-    const blocks = rng.sample(keys, 7).map((key, i) => {
+    // 2026-11-15 (the en / de / sv reviewers of the unit checks): a card asked ONE row, and "Legs" (two of the six) was read
+    // off the animal's picture without reading anything. Each card now asks TWO facts the picture does not show — its
+    // animal group and what it eats — so every form asks the same two kinds of fact.
+    const ASK = ['class', 'diet'].filter((f) => d.fields.includes(f));
+    if (ASK.length < 2) throw new Error(`${this.id} checkPage: the level has no animal-group / diet rows`);
+    const blocks = rng.sample(keys, 7).map((key) => {
       const animal = table.animals[key];
-      const rows = d.fields.map((f) => ({ key: f, label: bankLoc.labels[f], lane: 'write', fact: animal[f] }));
+      const rows = ASK.map((f) => ({ key: f, label: bankLoc.labels[f], lane: 'write', fact: animal[f] }));
       this._tickRows(bankLoc, table, d, rows, { key, animal, loc }, rng);
-      const row = rows.find((r) => r.key === fields[i % fields.length]);
       return `<div style="display:flex;flex-direction:column;gap:8px">` +
         `<div style="display:flex;align-items:center;gap:12px"><img class="ws-icon" src="${fileUri(animal.pic.theme, animal.pic.noun)}" alt="" style="width:64px;height:64px">` +
         `<span style="font-family:'Baloo 2',cursive;font-weight:700;font-size:26px;color:#146B5E">${bankLoc.animals[key].name}</span></div>` +
-        factTable({ rows: [row], w: 600, rowMin: d.rowMin, glyphH: d.glyphH, labelPx: d.labelPx, laneH: d.laneH }) + `</div>`;
+        factTable({ rows, w: 600, rowMin: d.rowMin, glyphH: d.glyphH, labelPx: d.labelPx, laneH: d.laneH }) + `</div>`;
     });
     return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
   },

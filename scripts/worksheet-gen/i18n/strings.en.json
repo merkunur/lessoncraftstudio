@@ -217,7 +217,7 @@
   },
   "K-064": {
     "title": "On, Under, Beside",
-    "instruction": "Circle the picture that is ON the box."
+    "instruction": "Each card names a place: ON, UNDER, or BESIDE the box. Circle the picture that is there."
   },
   "K-065": {
     "title": "Left and Right",
@@ -394,7 +394,7 @@
   },
   "K-238": {
     "title": "Trace the Capital Letters",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-239": {
     "title": "Sight Words: Read, Trace, Write",
@@ -458,23 +458,23 @@
   },
   "K-254": {
     "title": "Trace the Letters G to L",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-255": {
     "title": "Trace the Letters M to R",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-256": {
     "title": "Trace the Letters S to Z",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-257": {
     "title": "Trace the Vowels",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-258": {
     "title": "My First Big Letters",
-    "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-259": {
     "title": "Sight Words Practice Set 2",
@@ -554,7 +554,7 @@
   },
   "K-278": {
     "title": "Trace the Lowercase Letters",
-    "instruction": "Trace each small letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows."
+    "instruction": "Trace each small letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows."
   },
   "K-279": {
     "title": "Trace the Lowercase Letters g to l",
@@ -794,7 +794,7 @@
   },
   "K-345": {
     "title": "I Can: Tick What You Can Do",
-    "instruction": "Read each sentence and tick the things you can do. Then write one thing you want to learn."
+    "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn."
   },
   "K-346": {
     "title": "My Name: Write, Count and Compare",
@@ -994,7 +994,7 @@
   },
   "K-395": {
     "title": "Find 5 Differences: {UNIT}",
-    "instruction": "Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one."
+    "instruction": "Compare picture 1 with picture 2 below it, circle the 5 things that are different and check a box for each one."
   },
   "K-396": {
     "title": "How to Draw {L} Step by Step",
@@ -1002,19 +1002,19 @@
   },
   "K-397": {
     "title": "Find 3 Differences: {UNIT}",
-    "instruction": "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
+    "instruction": "Find the 3 big things that are different in the bottom picture, circle them and check the 3 boxes."
   },
   "K-398": {
     "title": "Find the Differences in Color",
-    "instruction": "Circle the 5 things in the colored bottom picture that are different and tick a box for each; at least one of them has a new color."
+    "instruction": "Circle the 5 things in the colored bottom picture that are different and check a box for each; at least one of them has a new color."
   },
   "K-399": {
     "title": "What Is Missing?",
-    "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each."
+    "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each."
   },
   "K-400": {
     "title": "Picture Pairs: Find the Difference",
-    "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row."
+    "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row."
   },
   "K-401": {
     "title": "Draw {L} with Simple Shapes",
@@ -1022,7 +1022,7 @@
   },
   "K-402": {
     "title": "Trace, Then Draw {L}",
-    "instruction": "Trace the grey rabbit with your pencil, then draw the rabbit yourself in the empty box beside it."
+    "instruction": "Trace the gray rabbit with your pencil, then draw the rabbit yourself in the empty box beside it."
   },
   "K-403": {
     "title": "Finish the {N} Drawing",
@@ -1656,7 +1656,7 @@
   },
   "G1-283": {
     "title": "Unscramble the Sentence: No Clues",
-    "instruction": "No capital, no full stop. Find the one order that works."
+    "instruction": "No capital, no period. Find the one order that works."
   },
   "G1-285": {
     "title": "Dot-to-Dot: Count by Twos",
@@ -2164,7 +2164,7 @@
   },
   "G1-412": {
     "title": "Find 7 Differences at the Pond",
-    "instruction": "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each."
+    "instruction": "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and check a box for each."
   },
   "G1-413": {
     "title": "How Many Differences?",
@@ -2172,11 +2172,11 @@
   },
   "G1-414": {
     "title": "What Changed? Tick the Words",
-    "instruction": "Circle the 3 differences in the bottom picture, then tick the words of the things that changed."
+    "instruction": "Circle the 3 differences in the bottom picture, then check the words of the things that changed."
   },
   "G1-415": {
     "title": "Mirror Pictures: Fold and Check",
-    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check."
+    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, check a box for each, then fold on the line to check."
   },
   "G1-416": {
     "title": "Draw {L} with the Grid",
@@ -2216,7 +2216,7 @@
   },
   "G1-424": {
     "title": "Collect-the-Carrots Maze: The Rabbit's Garden",
-    "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot.",
+    "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
     "printTitle": "Help the Rabbit Pick Up Every Carrot"
   },
   "G1-425": {
@@ -2823,7 +2823,7 @@
   },
   "G2-352": {
     "title": "Odd and Even Numbers Under 100: Look at the Ones Box",
-    "instruction": "Read the rule at the top. Look only at the ones box of each number and tick the circle under even or odd."
+    "instruction": "Read the rule at the top. Look only at the ones box of each number and fill in the circle under even or odd."
   },
   "G2-353": {
     "title": "Who Is He? Pronouns in Sentences",
@@ -2923,7 +2923,7 @@
   },
   "G2-377": {
     "title": "Cursive Letters: i, t, u and w",
-    "instruction": "Trace the grey letters, then keep writing each letter joined on your own to the end of its line and on the empty line below."
+    "instruction": "Trace the gray letters, then keep writing each letter joined on your own to the end of its line and on the empty line below."
   },
   "G2-378": {
     "title": "Retell the Story with Starters",
@@ -2951,15 +2951,15 @@
   },
   "G2-384": {
     "title": "Cursive Capital Letters: Write the Names",
-    "instruction": "Trace each grey capital letter and name, then write them on the empty line below."
+    "instruction": "Trace each gray capital letter and name, then write them on the empty line below."
   },
   "G2-385": {
     "title": "Cursive Connecting Letters: Joining Two Letters",
-    "instruction": "Trace each grey pair of joined letters and the word, then write them on the empty line below."
+    "instruction": "Trace each gray pair of joined letters and the word, then write them on the empty line below."
   },
   "G2-386": {
     "title": "Cursive Words to Write with Pictures",
-    "instruction": "Trace each grey word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below."
+    "instruction": "Trace each gray word, joining the letters first and adding the dots and crosses last, then write it the same way on the line below."
   },
   "G2-387": {
     "title": "Reading Cursive: Match Each Word to Its Picture",
@@ -2967,7 +2967,7 @@
   },
   "G2-388": {
     "title": "Find 10 Differences in the Garden",
-    "instruction": "Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find."
+    "instruction": "Circle the 10 differences, 5 in each pair of pictures, and check a box under the pair for every one you find."
   },
   "G2-389": {
     "title": "Write What Is Different",
@@ -3291,7 +3291,7 @@
   },
   "G3-386": {
     "title": "Odd or Even Sum? Decide Without Adding",
-    "instruction": "Do not add. Look at the underlined ones digit of each number, use the table, and tick whether the sum is even or odd."
+    "instruction": "Do not add. Look at the underlined ones digit of each number, use the table, and mark whether the sum is even or odd."
   },
   "G3-387": {
     "title": "Rounding Up or Down? Sort the Numbers",
@@ -3351,7 +3351,7 @@
   },
   "G3-401": {
     "title": "Cursive Sentences to Copy",
-    "instruction": "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
+    "instruction": "Trace the gray sentence, then copy each printed sentence in cursive on the two lines below it."
   },
   "G3-402": {
     "title": "Times Table of 6",

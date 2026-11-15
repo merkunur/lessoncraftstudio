@@ -74,10 +74,28 @@ module.exports = {
     // beside a leopard, a husky-like wolf: the word cannot decide, 2026-11-04). Swapped after the draw for the next clean
     // word, so a page without one is byte-identical; the teacher's picker offers only the clean pictures.
     const risky = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || (!d.bank && !d.starter && nameRisky(loc, e.vocabKey));   // a printed first letter decides too; the letter boxes do not (Wolf/Hund, Geier/Adler, Jaguaari/Leopardi have the same length — native review 2026-11-04)
+    // a NEW page whose theme has fewer clean pictures than cards, even two letters longer (2026-11-15: en birds — the macaw is
+    // the parrot's double; fi occupations, three clean of seventeen), shows FEWER, LARGER cards, all of them clean: six (2 x 3,
+    // the level-1 card size) or four (2 x 2). Only such a page takes this path — any other page draws as before.
+    if (fresh && !d.bank && !d.starter) {
+      const clean = poolFor(d.maxLetters + 2).filter((e) => !risky(e));
+      if (clean.length < d.cards && clean.length >= 4) {
+        const n = clean.length >= 6 ? 6 : 4;
+        // four cards stand the picture ABOVE a full-width line (a 2 x 2 card is tall: a picture beside the line left it empty)
+        d = n === 6 ? { ...d, cards: 6, rows: 3, pic: 104, rulingW: 190 } : { ...d, cards: 4, rows: 2, pic: 150, rulingW: 260, stackCard: true };
+        pool = clean;
+      }
+    }
     const drawn = rng.sample(pool, d.cards);
     for (let i = 0; i < drawn.length; i++) {
       if (!risky(drawn[i])) continue;
-      const alt = pool.find((e) => !risky(e) && !drawn.includes(e));
+      let alt = pool.find((e) => !risky(e) && !drawn.includes(e));
+      // a NEW page whose theme has no clean word left at the level's limit looks one, then two letters longer, as the pool
+      // itself may (2026-11-15: fi bakery «bageli», birds «ara», occupations «muusikko» — the page failed outright)
+      for (let extra = 1; fresh && !alt && extra <= 2; extra++) {
+        alt = poolFor(d.maxLetters + extra).find((e) => !risky(e) && !drawn.some((x) => x.word === e.word)
+          && (!d.starter || !drawn.some((x, j) => j !== i && x.word.slice(0, 2).toLowerCase() === e.word.slice(0, 2).toLowerCase())));
+      }
       if (!alt) throw new Error(`G1-244: no clean word to replace "${drawn[i].word}" (${loc} ${theme})`);
       drawn[i] = alt;
     }
@@ -112,7 +130,7 @@ module.exports = {
       }
       const boxes = d.boxes ? `<div style="display:flex;justify-content:center;padding-top:2px">${letterBoxes({ n: [...e.word.replace(/[ ]/g, '')].length, box: Math.min(24, Math.floor(280 / [...e.word].length) - 4) })}</div>` : '';
       return `<div class="ws-card-stage" style="flex-direction:column;gap:4px;padding:6px 6px 2px" data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}"${slot.attr(ctx, 'pic', picks.indexOf(e))}>` +
-        `<div style="display:flex;align-items:center;gap:12px;width:100%;justify-content:center">` +
+        `<div style="display:flex;${d.stackCard ? 'flex-direction:column;' : ''}align-items:center;gap:12px;width:100%;justify-content:center">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.pic}px;height:${d.pic}px;flex:0 0 auto">${right}</div>${boxes}</div>`;
     });
     const bank = d.bank ? wordBank({ words: sorted.map((e) => ({ word: e.word, vocabKey: e.vocabKey })), wordPx: 17 }) : '';

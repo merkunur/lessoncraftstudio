@@ -29,6 +29,13 @@ const W = require('../../lib/word-problems-levelset.js');
 function fillFrame(tpl, slots) {
   return tpl.replace(/\{(name|n1|n2|noun)\}/g, (_, k) => String(slots[k]));
 }
+/** the two parts of a story's whole (G1 kinds): 9 − 4 is 4 and 5, 7 + ? = 13 is 7 and 6 */
+const partsOf = (kind, n) => (kind === 'add' ? [n.n1, n.n2] : kind === 'addChange' ? [n.n1, n.answer] : kind === 'subChange' ? [n.n3, n.answer] : [n.n2, n.answer]);
+/** the story crosses the ten (its two parts go past a ten: 8 + 5, 13 − 5; 6 + 4 = 10 only reaches it) — a check within 20 */
+const crossesTen = (kind, n) => { const [x, y] = partsOf(kind, n); return (x % 10) + (y % 10) > 10; };
+/** one way to tell a fact (checkPage): the larger part first in a story where some come (3 + 2, never 2 + 3), the smaller
+ *  part taken away in a story where some go (5 − 2, never 5 − 3) — so that the same fact prints the same numbers */
+const canonical = (kind, n) => (kind === 'add' ? n.n1 >= n.n2 : kind === 'addChange' ? n.n1 >= n.answer : kind === 'subChange' ? n.answer <= n.n3 : n.n2 <= n.answer);
 
 // Level Set levels per face: level 2 = D (the published config); levels 1 / 3 overlay it. `kinds` = one story kind per
 // problem (add / sub / addChange / subChange / compare); `n2Set` = the second number (or the change) is one of these.
@@ -86,6 +93,11 @@ module.exports = {
     const d = { ...(this.difficulty[difficulty] || this.difficulty[2]) }, n = 6;
     if (d.kinds) d.kinds = Array.from({ length: n }, (_, i) => d.kinds[i % d.kinds.length]);
     d.problems = n;
+    // (reviews de / sv f1115, 2026-11-15) the two forms ask alike: within 20 every story crosses the ten (form A took
+    // 9 − 4, form B 11 − 5); and a story where some come prints the larger number first, so that 2 + 3 in form B is seen
+    // as the 3 + 2 of form A (the check never asks a fact twice)
+    d.checkCross = d.max >= 20;
+    d.checkOrder = true;
     return this._levelSet(d, theme, (locale || 'en').slice(0, 2), { ...(ctx || {}), check: true });
   },
 
@@ -230,7 +242,9 @@ module.exports = {
       // a DRAW page (K-642): its stories share no answer and no pair of numbers (2 + 4 and 4 + 2 on one page: the second
       // story asks nothing new; teacher-reviewer, 2026-11-13). Only a clash draws again, so every other page keeps its draw.
       const clash = (n) => !!d.draw && drawn.some((q) => q.answer === n.answer || [q.n1, q.n2].sort().join() === [n.n1, n.n2].sort().join());
-      do { nums = W.drawG1(kind, d, rng); guard++; } while ((!nums || usedNums.has([nums.n1, nums.n2, nums.n3].join()) || clash(nums)) && guard < 400);
+      // a check page (checkPage): crossing the ten within 20, the larger number first in a story where some come
+      const unfit = (n) => (d.checkCross && !crossesTen(kind, n)) || (d.checkOrder && !canonical(kind, n));
+      do { nums = W.drawG1(kind, d, rng); guard++; } while ((!nums || usedNums.has([nums.n1, nums.n2, nums.n3].join()) || clash(nums) || unfit(nums)) && guard < 400);
       if (nums) drawn.push(nums);
       if (!nums) throw new Error(`G1-213: no numbers for ${kind} at ${JSON.stringify(d)}`);
       usedNums.add([nums.n1, nums.n2, nums.n3].join());

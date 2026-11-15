@@ -127,6 +127,7 @@ function drawPage(block, cfg, rng, L) {
   for (const cid of perm) {
     const g = byConcept.get(cid);
     if (!g || !cfg.tiers.includes(g.tier)) continue;
+    if (cfg.avoidConcepts && cfg.avoidConcepts.includes(cid)) continue;   // the check page only (never set by build)
     if (need[g.pos] > 0) { need[g.pos]--; picked.push(g); }
   }
   if (need.adj > 0 || need.verb > 0) throw new Error(`${ID}: the ${L.loc} bank signs too few tier-${cfg.tiers.join('/')} groups for ${cfg.posMix[0]} adj + ${cfg.posMix[1]} verb targets — refuse`);
@@ -293,7 +294,10 @@ function buildPictures(self, block, cfg, loc, rng) {
     const ans = {};
     let bad = false;
     for (const c of pick) {
-      const ws = L.byConcept.get(c).words.filter((w) => !L.banned.has(norm(w)) && glyphN(w) <= cfg.maxGlyphs);
+      let ws = L.byConcept.get(c).words.filter((w) => !L.banned.has(norm(w)) && glyphN(w) <= cfg.maxGlyphs);
+      // a group above the face's tiers (G1-395 is tier 1: 2026-11-15, en check review — "astonished" is not a Grade 1 word)
+      // keeps its two most common words, the two the bank lists first (surprised / amazed, überrascht / erstaunt)
+      if (Array.isArray(cfg.tiers) && !cfg.tiers.includes(L.byConcept.get(c).tier)) ws = ws.slice(0, 2);
       if (ws.length < 2) { bad = true; break; }
       ans[c] = rng.shuffle(ws).slice(0, 2);
     }
@@ -825,10 +829,20 @@ module.exports = {
   /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md), for the faces whose page shares one thing
    *  among its tasks: SHADES (the strength key above the rows) — eight three-step scales of the bank, each row a card of its
    *  own with its own small strength key (none at a no-key level), in the face's own balanced orders; FIELDS (the word pile
-   *  above the two plots) — eight field words, four of each field, each a card with the two plots made small (sign + one
-   *  line): the child writes the word in its field. Every other face (and the base) is cut from its page as before. */
+   *  above the two plots) — twelve field words, six of each field, three cards of four (two of each field) with the two
+   *  plots made small (sign + two lines): the child writes each word in its field. The BASE page draws no target from a
+   *  group the picture face draws (a unit may ask both). Every other face is cut from its page as before. */
   checkPage({ theme, difficulty, locale, unit }, ctx) {
     const d = this.difficulty[difficulty] || this.difficulty[2];
+    if (d && d.mode === 'base' && this.difficulty[difficulty]) {
+      // the BASE page in a check (2026-11-15, de check review: part 2 asked «erstaunt → verblüfft», the pair the child had
+      // just circled under a picture in part 1, Synonyms with Pictures): its target words are never a group the picture
+      // face draws; where the locale signs too few other groups at this level, the page draws as the worksheet does
+      const avoid = [...new Set([...Object.keys(DATA.PICTURES), ...Object.keys(DATA.PICTURES_LS || {})])];
+      const self = Object.create(this);
+      self.difficulty = { ...this.difficulty, [difficulty]: { ...d, avoidConcepts: avoid } };
+      try { return this.build.call(self, { theme, difficulty, locale, unit }, ctx); } catch (e) { return this.build({ theme, difficulty, locale, unit }, ctx); }
+    }
     if (!d || (d.mode !== 'shades' && d.mode !== 'fields')) return this.build({ theme, difficulty, locale, unit }, ctx);
     const { checkGrid } = require('../../lib/check-page.js');
     const loc = String(locale || 'en').slice(0, 2);
@@ -857,14 +871,21 @@ module.exports = {
         if (ws.length < 8) throw new Error(`${this.id}: fields.${k} has ${ws.length} usable words < 8 — refuse`);
         return ws;
       });
-      // (eight words, four of each field: a count the worksheet's own key page never shows, see shades)
-      const words = rng.shuffle([...rng.shuffle(lists[0]).slice(0, 4).map((w) => ({ word: w, field: d.fields[0] })), ...rng.shuffle(lists[1]).slice(0, 4).map((w) => ({ word: w, field: d.fields[1] }))]);
-      blocks = words.map((x) => `<div style="display:flex;flex-direction:column;align-items:center;gap:10px">` +
-        C5.synWordPile({ words: [x], wordPx: d.wordPx }).replace('margin-bottom:12px', 'margin-bottom:0;display:inline-flex;padding:8px 14px') +
-        `<div style="display:flex;gap:16px;width:100%">` + d.fields.map((f) =>
-          `<div style="flex:1 1 0;min-width:0;display:flex;position:relative"${f === x.field ? ` data-lcs-answer="${esc(x.word)}"` : ''}>` +
-          C5.synFieldPlot({ fieldId: f, head: F[f].head, quotes: block.quotes, rows: 1, rowH: d.rowH, glyphH: d.glyphH }) +
-          `<div data-lcs-gapbox style="position:absolute;left:12px;right:12px;bottom:2px;height:${d.rowH}px"></div></div>`).join('') + `</div></div>`);
+      // three cards of FOUR words, two of each field, the four in a shuffled pile (2026-11-15, en / de / sv check reviews: a
+      // card of one word was a guess between two fields, and both forms could ask the same field) — each field's two
+      // writing rows carry its two words; twelve words, six of each field: a count the worksheet's key page never shows
+      const pick = lists.map((ws) => rng.shuffle(ws).slice(0, 6));
+      const words = [0, 1, 2].map((k) => rng.shuffle([0, 1].flatMap((fi) => pick[fi].slice(2 * k, 2 * k + 2).map((w) => ({ word: w, field: d.fields[fi] })))));
+      blocks = words.map((xs) => `<div style="display:flex;flex-direction:column;align-items:center;gap:10px">` +
+        C5.synWordPile({ words: xs, wordPx: d.wordPx }).replace('margin-bottom:12px', 'margin-bottom:0;display:inline-flex;padding:8px 14px') +
+        `<div style="display:flex;gap:16px;width:100%">` + d.fields.map((f) => {
+          const mine = xs.filter((x) => x.field === f);
+          let k = 0;
+          // each writing row carries one of the field's words (the key writes it in the row's gap box)
+          const plot = C5.synFieldPlot({ fieldId: f, head: F[f].head, quotes: block.quotes, rows: mine.length, rowH: d.rowH, glyphH: d.glyphH })
+            .replace(/<div data-lcs-ruling-row="\d+">/g, (m) => m.replace('>', ` style="position:relative" data-lcs-answer="${esc(mine[k++].word)}"><div data-lcs-gapbox style="position:absolute;inset:0"></div>`));
+          return `<div style="flex:1 1 0;min-width:0;display:flex">${plot}</div>`;
+        }).join('') + `</div></div>`);
     }
     // (the grid in a wrapper: a grid straight in the page body is cut the old way, where a card whose answers are numbers
     // is known by its numbers only — six rows ranked 1, 2, 3 would be one task)

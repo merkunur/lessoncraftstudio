@@ -219,7 +219,7 @@
   },
   "K-064": {
     "title": "Sur, sous, à côté",
-    "instruction": "Entoure l'image qui est SUR la boîte."
+    "instruction": "Chaque carte indique un endroit : SUR la boîte, SOUS la boîte ou À CÔTÉ de la boîte. Entoure l'image qui s'y trouve."
   },
   "K-065": {
     "title": "Gauche et droite",
@@ -978,7 +978,7 @@
   },
   "K-238": {
     "title": "Écriture des lettres capitales",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-239": {
     "title": "Mots-outils : lire et écrire",
@@ -1090,23 +1090,23 @@
   },
   "K-254": {
     "title": "Écriture des lettres de G à L",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-255": {
     "title": "Écriture des lettres de M à R",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-256": {
     "title": "Écriture des lettres de S à Z",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-257": {
     "title": "Écriture des lettres É, È et Ê",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-258": {
     "title": "Mes premières lettres : A B C D",
-    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-259": {
     "title": "Mots-outils : liste 2",
@@ -1418,7 +1418,7 @@
   },
   "K-278": {
     "title": "Écriture des lettres minuscules",
-    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire au bout de la ligne. Pars du point orange et suis les flèches."
   },
   "K-279": {
     "title": "Écriture des minuscules de g à l",

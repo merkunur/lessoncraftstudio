@@ -339,7 +339,7 @@
     },
     "G2-315": {
       "title": "Rechtschreibregel der Woche: {UNIT}",
-      "instruction": "Lies die Regel im Kasten. Sprich jedes Bildwort und schreibe die fehlenden Regelbuchstaben in die gestrichelten Kästchen."
+      "instruction": "Schau dir die Beispiele im Kasten an. Sprich jedes Bildwort und schreibe die fehlenden Buchstaben in die gestrichelten Kästchen."
     },
     "G2-324": {
       "title": "Welche Schreibweise stimmt? {UNIT}",
@@ -347,7 +347,7 @@
     },
     "G2-325": {
       "title": "Regel-Detektiv: {UNIT}",
-      "instruction": "Lies jedes Wort. Finde die Regelbuchstaben, kreise sie im Wort ein und schreibe sie in das kleine Kästchen."
+      "instruction": "Lies jedes Wort. Kreise die Buchstaben ein, um die es oben im Kasten geht, und schreibe sie in das kleine Kästchen."
     },
     "G2-326": {
       "title": "Wörter nach Schreibweise sortieren: {UNIT}",
@@ -355,7 +355,7 @@
     },
     "G2-327": {
       "title": "Schreibe das Wort: {UNIT}",
-      "instruction": "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und schreibe alle anderen Buchstaben in die Kästchen."
+      "instruction": "Die Buchstaben in Orange sind schon da. Sprich das Bildwort und schreibe die fehlenden Buchstaben in die Kästchen."
     },
     "G2-316": {
       "title": "Zusammengesetzte Nomen: Bild + Bild",
@@ -19645,7 +19645,8 @@
         "turquoise",
         "venus",
         "writing",
-        "candy"
+        "candy",
+        "cobra"
       ],
       "whitelist": {},
       "refuse": {
@@ -22970,6 +22971,23 @@
               "pluralGap": null
             },
             {
+              "theme": "body parts",
+              "noun": "skeleton",
+              "vocabKey": "skeleton",
+              "word": "Skelett",
+              "gaps": [
+                {
+                  "from": 5,
+                  "len": 2
+                }
+              ],
+              "g": "tt",
+              "side": "rule",
+              "plural": "Skelette",
+              "pluralGap": null,
+              "pictureOk": "the whole skeleton is the word (refused elsewhere as a whole body for a body part)"
+            },
+            {
               "theme": "vegetables",
               "noun": "carrot",
               "vocabKey": "carrot",
@@ -23304,6 +23322,26 @@
               "side": "contrast",
               "plural": "Mützen",
               "pluralGap": null
+            },
+            {
+              "theme": "furniture",
+              "noun": "crib",
+              "vocabKey": "crib",
+              "word": "Kinderbett",
+              "gaps": [
+                {
+                  "from": 8,
+                  "len": 2
+                }
+              ],
+              "g": "tt",
+              "side": "rule",
+              "plural": "Kinderbetten",
+              "pluralGap": null,
+              "not": [
+                "bins",
+                "anchor"
+              ]
             }
           ],
           "foils": [
@@ -26185,7 +26223,7 @@
       "strings": {
         "G2-315": {
           "title": "Rechtschreibregel der Woche: {UNIT}",
-          "instruction": "Lies die Regel im Kasten. Sprich jedes Bildwort und schreibe die fehlenden Regelbuchstaben in die gestrichelten Kästchen."
+          "instruction": "Schau dir die Beispiele im Kasten an. Sprich jedes Bildwort und schreibe die fehlenden Buchstaben in die gestrichelten Kästchen."
         },
         "G2-324": {
           "title": "Welche Schreibweise stimmt? {UNIT}",
@@ -26193,7 +26231,7 @@
         },
         "G2-325": {
           "title": "Regel-Detektiv: {UNIT}",
-          "instruction": "Lies jedes Wort. Finde die Regelbuchstaben, kreise sie im Wort ein und schreibe sie in das kleine Kästchen."
+          "instruction": "Lies jedes Wort. Kreise die Buchstaben ein, um die es oben im Kasten geht, und schreibe sie in das kleine Kästchen."
         },
         "G2-326": {
           "title": "Wörter nach Schreibweise sortieren: {UNIT}",
@@ -26201,7 +26239,7 @@
         },
         "G2-327": {
           "title": "Schreibe das Wort: {UNIT}",
-          "instruction": "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und schreibe alle anderen Buchstaben in die Kästchen."
+          "instruction": "Die Buchstaben in Orange sind schon da. Sprich das Bildwort und schreibe die fehlenden Buchstaben in die Kästchen."
         }
       }
     },

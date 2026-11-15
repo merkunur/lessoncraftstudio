@@ -79,6 +79,9 @@ function fitStarters(html, lineW) {
   });
 }
 
+/** Nouns never put in a fix sentence (2026-11-15, see build): their pictures read as another fruit, or the word is rare. */
+const NOT_IN_A_SENTENCE = new Set(['peach', 'plum', 'persimmon', 'apricot', 'nectarine', 'lime']);
+
 let _lsFrames = null;
 /** The Level Set fix frames (native-authored ×11, 2026-09-28); lazy — data/ is gitignored. */
 function levelSetFrames() {
@@ -218,7 +221,39 @@ module.exports = {
       frames = cand;
     }
     if (!frames) throw new Error(`G2-274: bank ${loc} cannot satisfy d${difficulty} (fix frames: ${pool.length})`);
-    const nouns = slot.pictures(ctx, rng.sample(entries, d.lanes), entries, theme);   // a teacher's pictures (maker): each lane's sentence is made with its noun
+    // 2026-11-15 (the reviewers of the unit checks: "mia glued the persimmon on the paper", the picture read as a tomato;
+    // sv "tre limer"): fruits whose picture a child names otherwise (an apple, a tomato, an orange, a pear) or whose word
+    // is a rare one never stand in a sentence. A page that drew one takes the first unused clean noun instead — no extra
+    // draw, so only those pages change.
+    const odd = (e) => NOT_IN_A_SENTENCE.has(e.vocabKey) || NOT_IN_A_SENTENCE.has(e.noun);
+    // a theme with fewer nouns than lanes (colors at level 3: four nouns, five sentences) draws all of them; the borrow below fills
+    const drawn = rng.sample(entries, Math.min(d.lanes, entries.length));
+    // … and a theme with too few clean nouns of its own (colors: orange, lime, peach, violet — 2026-11-15, live Level Set
+    // copies es/fi/sv) borrows one from the fruits theme, its picture drawn from ITS theme's folder (e._theme)
+    let borrow = null;
+    const borrowPool = () => {
+      if (borrow) return borrow;
+      const words = new Set(entries.map((x) => String(x.singular).toLocaleLowerCase()));
+      borrow = theme === 'fruits' ? [] : entriesFor('fruits', loc).filter(countable)
+        .filter((x) => published || tables.every((t) => t[x.vocabKey]))
+        .filter((x) => !odd(x) && !words.has(String(x.singular).toLocaleLowerCase()))
+        .filter((x) => !require('../../lib/picture-name-risk.js').nameRisky(loc, x.vocabKey))   // a borrowed picture is one no review refused
+        .map((x) => ({ ...x, _theme: 'fruits' }));
+      return borrow;
+    };
+    drawn.forEach((e, i) => {
+      if (!odd(e)) return;
+      const r = entries.find((x) => !odd(x) && !drawn.includes(x))
+        || borrowPool().find((x) => !drawn.some((y) => y.vocabKey === x.vocabKey));
+      if (!r) throw new Error(`G2-274: theme ${theme}/${loc} has no clean noun to take the place of "${e.noun}"`);
+      drawn[i] = r;
+    });
+    while (drawn.length < d.lanes) {
+      const r = borrowPool().find((x) => !drawn.some((y) => y.vocabKey === x.vocabKey));
+      if (!r) throw new Error(`G2-274: theme ${theme}/${loc} has ${entries.length} nouns for ${d.lanes} sentences`);
+      drawn.push(r);
+    }
+    const nouns = slot.pictures(ctx, drawn, entries.filter((x) => !odd(x)), theme);   // a teacher's pictures (maker): each lane's sentence is made with its noun
     // In joinPairs mode `frames` holds 2 per lane, so walk it in pairs.
     const laneFrames = d.joinPairs
       ? Array.from({ length: d.lanes }, (_, i) => [frames[i * 2], frames[i * 2 + 1]])
@@ -260,11 +295,11 @@ module.exports = {
       const laneAttrs = `data-lcs-item${slot.attr(ctx, 'pic', i)} data-lcs-frame="${pair.map((f) => f.id).join('+')}"${d.joinPairs ? ' data-lcs-multi="1"' : ''}${d.markSplit && two ? ' data-lcs-split="1"' : ''} data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-end="${SB.endMark(canonical)}"`;
       if (screen) {
         // screen: the lane is carried as DATA (words, answers, icon); the runtime draws it live
-        return `<div ${laneAttrs} data-lcs-broken-text="${broken.replace(/"/g, '&quot;')}" data-lcs-icon="${fileUri(theme, e.noun)}" style="display:none"></div>`;
+        return `<div ${laneAttrs} data-lcs-broken-text="${broken.replace(/"/g, '&quot;')}" data-lcs-icon="${fileUri(e._theme || theme, e.noun)}" style="display:none"></div>`;
       }
       const keyStarters = isKey ? (two ? { 0: one, 1: two } : { 0: canonical }) : {};
       return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:12px;align-items:center;padding:10px 14px" ${laneAttrs}>` +
-        `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" style="width:${d.icon}px;height:${d.icon}px">` +
+        `<img class="ws-icon" src="${fileUri(e._theme || theme, e.noun)}" alt="" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:6px;min-width:0">` +
         `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:5px 14px;font-family:'Nunito';font-weight:700;font-size:${d.font}px;color:#3A3530" data-lcs-broken>${broken}</div>` +
         // ⚠ TWO sentences need TWO lines. The run-on faces ask the child to write
@@ -304,17 +339,33 @@ module.exports = {
   checkPage({ theme, difficulty, locale }, ctx) {
     const { checkGrid } = require('../../lib/check-page.js');
     const d0 = this.difficulty[difficulty] || this.difficulty[2];
+    const loc = (locale || 'en').slice(0, 2);
+    // 2026-11-15 (sv reviewer of the unit checks): where the level's checklist names the names, every card has exactly ONE
+    // name — form A had none and form B two ("oscar ritar tre limer till liam"), so B was the harder form
+    const oneName = (d0.chips || []).includes('name') && !d0.joinPairs;
+    const frameText = new Map([...((SENTENCES[loc] || {}).frames || []), ...(levelSetFrames()[loc] || [])].map((f) => [f.id, f.text]));
+    const names = (lane) => ((frameText.get((lane.match(/data-lcs-frame="([^"]*)"/) || [])[1]) || '').match(/\{name\}/g) || []).length;
     // (six when the level's frames cannot fill seven: the name-free frames of a language are few)
-    let built = null, n = 0;
-    for (n of [7, 6]) {
-      const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, lanes: n } } });
-      try { built = this.build.call(self, { theme, difficulty, locale }, { rng: ctx.rng, variant: 1, check: true }); break; } catch (e) { if (n === 6) throw e; }
+    let built = null, n = 0, chips = null;
+    const lanes = [], seen = new Set();
+    for (let round = 0; round < 8 && lanes.length < 7; round++) {
+      for (n of [7, 6]) {
+        const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [difficulty]: { ...d0, lanes: n } } });
+        try { built = this.build.call(self, { theme, difficulty, locale }, { rng: ctx.rng, variant: 1, check: true }); break; } catch (e) { if (n === 6) throw e; }
+      }
+      const at = built.bodyHtml.indexOf('<div class="ws-lane"');
+      if (at < 0) throw new Error(`${this.id} checkPage: no lanes on the page`);
+      if (chips == null) chips = built.bodyHtml.slice(built.bodyHtml.indexOf('>') + 1, at);
+      const got = built.bodyHtml.slice(at).replace(/<\/div>\s*$/, '').split('<div class="ws-lane"').filter(Boolean).map((x) => '<div class="ws-lane"' + x);
+      if (got.length !== n) throw new Error(`${this.id} checkPage: ${got.length} lanes, not ${n}`);
+      for (const lane of got) {
+        const id = (lane.match(/data-lcs-frame="([^"]*)"/) || [])[1];
+        if (lanes.length >= 7 || seen.has(id) || (oneName && names(lane) !== 1)) continue;
+        seen.add(id); lanes.push(lane);
+      }
+      if (!oneName && lanes.length >= n) break;
     }
-    const at = built.bodyHtml.indexOf('<div class="ws-lane"');
-    if (at < 0) throw new Error(`${this.id} checkPage: no lanes on the page`);
-    const chips = built.bodyHtml.slice(built.bodyHtml.indexOf('>') + 1, at);
-    const lanes = built.bodyHtml.slice(at).replace(/<\/div>\s*$/, '').split('<div class="ws-lane"').filter(Boolean).map((x) => '<div class="ws-lane"' + x);
-    if (lanes.length !== n) throw new Error(`${this.id} checkPage: ${lanes.length} lanes, not ${n}`);
+    if (lanes.length < 6) throw new Error(`${this.id} checkPage: ${loc} gives ${lanes.length} lanes for the check (< 6)`);
     const COL = '<div style="display:flex;flex-direction:column;gap:6px;min-width:0">';
     const blocks = lanes.map((lane) => {
       const canonical = (lane.match(/data-lcs-canonical="([^"]*)"/) || [])[1];

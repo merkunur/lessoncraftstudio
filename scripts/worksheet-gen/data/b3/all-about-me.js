@@ -122,7 +122,7 @@ const ALL_ABOUT_ME = {
       'K-342': { title: 'My Favorite Things: Circle and Write', instruction: 'In each row, circle your favorite picture and copy its word onto the line.' },
       'K-343': { title: 'All About My Family: Draw and Count', instruction: 'Draw your family. Then show how many people, brothers, sisters and pets on the ten-frames and write the number.' },
       'K-344': { title: 'This Is Me: Label the Face', instruction: 'Copy each word from the bank onto the line that points to that part of the face. Then draw your own face.' },
-      'K-345': { title: 'I Can: Tick What You Can Do', instruction: 'Read each sentence and tick the things you can do. Then write one thing you want to learn.' },
+      'K-345': { title: 'I Can: Tick What You Can Do', instruction: 'Read each sentence and check the things you can do. Then write one thing you want to learn.' },
       'K-346': { title: 'My Name: Write, Count and Compare', instruction: 'Write your name with one letter in each box and count the letters. Then do the same for a friend and circle who has more.' },
     },
   },

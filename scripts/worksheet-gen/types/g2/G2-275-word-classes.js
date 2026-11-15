@@ -188,40 +188,50 @@ module.exports = {
     };
   },
 
-  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): seven word chips of the page's own draw (the
-   *  Level Set generator of the level: its noun pool, its bank, its two-bin and ambiguity filters), each a card of its own
-   *  with the page's bins made small (lid, school term, one line): the child writes the word in the right bin. The chips
-   *  are shared out among the classes (4 + 3 on a two-bin page, 3 + 2 + 2 on three), so the right bin is not always one. */
+  /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md): words of the page's own draw (the Level Set
+   *  generator of the level: its noun pool, its bank, its two-bin and ambiguity filters), several on each card over the
+   *  page's bins made small (school term, one writing box per word that belongs there): the child writes each word in its
+   *  bin. 2026-11-15 (the en / de / sv reviewers of the unit checks): ONE word per card was a 1-in-2 or 1-in-3 guess, and
+   *  form A and form B tested other classes — a three-bin card now carries one word of EACH class, a two-bin card two of
+   *  each; no picture beside a word (a noun's picture told "thing") and no icon on a bin (the running figure of the verb
+   *  bin matched "springa"); de prints every word in block capitals (a capital letter alone told "Nomen"; the key writes
+   *  the noun with its capital, as the de direction asks). Six cards. */
   checkPage({ theme, difficulty, locale }, ctx) {
     const { checkGrid } = require('../../lib/check-page.js');
     const loc = (locale || 'en').slice(0, 2);
     const W = WORD_CLASSES[loc];
     const d = this.difficulty[difficulty] || this.difficulty[2];
     const classes = d.classes || ['noun', 'verb', 'adj'];
-    // SEVEN cards (4 + 3, or 3 + 2 + 2): the cutter pairs a page's cards with the key page of build() by their place when
-    // the counts agree, and a word-class page holds a multiple of its bins (six, nine, ten, twelve, fifteen chips)
-    const N = 7, quota = Object.fromEntries(classes.map((cls, i) => [cls, Math.floor(N / classes.length) + (i < N % classes.length ? 1 : 0)]));
+    let N = 6; const each = classes.length > 2 ? 1 : 2;
     const RE = /<span class="ws-tile ws-tile--word" style="([^"]*)" data-lcs-word="([^"]*)" data-lcs-class="([^"]*)"[^>]*>(?:<img class="ws-icon" src="([^"]*)"[^>]*>)?([^<]*)<\/span>/g;
-    const picked = [], seen = new Set(), count = {};
-    for (let guard = 0; picked.length < N && guard < 8; guard++) {
+    const pools = Object.fromEntries(classes.map((c) => [c, []])), seen = new Set();
+    for (let guard = 0; classes.some((c) => pools[c].length < N * each) && guard < 12; guard++) {
       const built = this._build({ theme, difficulty, locale }, { rng: ctx.rng }, true);
       for (const m of built.bodyHtml.matchAll(RE)) {
-        const c = { style: m[1], word: m[2], cls: m[3], src: m[4] || null, shown: m[5] };
-        if (seen.has(c.word.toLowerCase()) || (count[c.cls] || 0) >= quota[c.cls]) continue;
-        seen.add(c.word.toLowerCase()); count[c.cls] = (count[c.cls] || 0) + 1; picked.push(c);
+        const c = { style: m[1], word: m[2], cls: m[3] };
+        if (!pools[c.cls] || seen.has(c.word.toLowerCase()) || pools[c.cls].length >= N * each) continue;
+        seen.add(c.word.toLowerCase()); pools[c.cls].push(c);
       }
     }
-    if (picked.length < N) throw new Error(`G2-275 checkPage: ${theme}/${loc} gives too few words`);
-    const blocks = ctx.rng.shuffle(picked).map((c) => {
-      const bins = classes.map((cls) =>
-        `<div style="display:flex;flex-direction:column;align-items:center;gap:4px;width:180px">` +
-        `<span style="display:flex;align-items:center;gap:6px"><span style="width:44px;height:44px;border-radius:50%;background:#FFFFFF;border:2.5px solid #146B5E;display:flex;align-items:center;justify-content:center;flex:0 0 auto">${classIcons[cls]()}</span>` +
-        `<span style="font-family:'Nunito';font-weight:800;font-size:15px;color:#146B5E">${W.terms[cls]}</span></span>` +
-        `<div class="ws-bin" style="flex:0 0 auto;width:170px;height:52px;max-width:170px;padding:0;position:relative"${cls === c.cls ? ` data-lcs-answer="${c.word}"` : ''}><div data-lcs-gapbox style="position:absolute;inset:0"></div></div></div>`).join('');
-      return `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:4px 0">` +
-        `<span class="ws-tile ws-tile--word" style="${c.style}" data-lcs-word="${c.word}">${c.src ? `<img class="ws-icon" src="${c.src}" alt="" style="width:28px;height:28px">` : ''}${c.shown}</span>` +
-        `<div style="display:flex;justify-content:center;gap:${classes.length > 2 ? 14 : 40}px">${bins}</div></div>`;
-    });
+    // (a two-bin page of the first tier has ten or eleven verbs: five cards of two verbs each, never a verb twice)
+    N = Math.min(N, ...classes.map((x) => Math.floor(pools[x].length / each)));
+    if (N < 4) throw new Error(`G2-275 checkPage: ${theme}/${loc} gives too few words`);
+    const shown = (w) => (loc === 'de' ? String(w).toLocaleUpperCase('de') : w);
+    const blocks = [];
+    for (let k = 0; k < N; k++) {
+      const words = ctx.rng.shuffle(classes.flatMap((cls) => pools[cls].slice(k * each, (k + 1) * each)));
+      const row = words.map((c) => `<span class="ws-tile ws-tile--word" style="${c.style.replace(/height:\d+px/, 'height:40px')}" data-lcs-word="${c.word}">${shown(c.word)}</span>`).join('');
+      const bins = classes.map((cls) => {
+        const mine = words.filter((c) => c.cls === cls);
+        return `<div style="display:flex;flex-direction:column;align-items:center;gap:4px;width:${classes.length > 2 ? 180 : 220}px">` +
+          `<span style="font-family:'Nunito';font-weight:800;font-size:16px;color:#146B5E;line-height:24px" data-lcs-term="${cls}">${W.terms[cls]}</span>` +
+          `<div class="ws-bin" style="flex:0 0 auto;height:auto;width:${classes.length > 2 ? 170 : 210}px;max-width:${classes.length > 2 ? 170 : 210}px;padding:6px;display:flex;flex-direction:column;gap:6px">` +
+          mine.map((c) => `<div style="height:40px;width:100%;align-self:stretch;position:relative;border-bottom:1.5px dashed #C8BFAE" data-lcs-answer="${c.word}"><div data-lcs-gapbox style="position:absolute;inset:0"></div></div>`).join('') + `</div></div>`;
+      }).join('');
+      blocks.push(`<div style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:4px 0">` +
+        `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px">${row}</div>` +
+        `<div style="display:flex;justify-content:center;align-items:flex-start;gap:${classes.length > 2 ? 14 : 40}px">${bins}</div></div>`);
+    }
     // (the grid in a wrapper: a grid straight in the page body is cut the old way, see G1-262)
     return { bodyHtml: `<div>${checkGrid(blocks)}</div>`, meta: {} };
   },

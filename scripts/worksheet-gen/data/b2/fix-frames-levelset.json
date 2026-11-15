@@ -84,7 +84,7 @@
   {
    "id": "ls-L10",
    "kind": "simple",
-   "text": "{name} glued the {noun} on the paper.",
+   "text": "{name} glued a picture of the {noun} on the paper.",
    "noun": "sg",
    "uses": [
     "fix"
@@ -115,7 +115,8 @@
    "noun": "sg",
    "uses": [
     "fix"
-   ]
+   ],
+   "animalsOnly": true
   },
   {
    "id": "ls-L14",
@@ -213,7 +214,7 @@
   {
    "id": "ls-L4",
    "kind": "simple",
-   "text": "Oma mag die {noun} in der Geschichte.",
+   "text": "Oma zeigt uns die {noun} im Bilderbuch.",
    "noun": "pl",
    "uses": [
     "fix"

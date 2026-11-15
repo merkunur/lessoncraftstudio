@@ -219,7 +219,7 @@
   },
   "K-064": {
     "title": "Päällä, alla, vieressä",
-    "instruction": "Ympyröi kuva, joka on laatikon PÄÄLLÄ."
+    "instruction": "Jokaisessa kortissa lukee paikka: laatikon PÄÄLLÄ, ALLA tai VIERESSÄ. Ympyröi kuva, joka on siinä."
   },
   "K-065": {
     "title": "Vasen ja oikea",
@@ -980,7 +980,7 @@
   },
   "K-238": {
     "title": "Isojen kirjainten kirjoitusharjoitus",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-239": {
     "title": "Yleiset sanat: lue, jäljennä, kirjoita",
@@ -1092,23 +1092,23 @@
   },
   "K-254": {
     "title": "Kirjainten kirjoitusharjoitus G–L",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-255": {
     "title": "Kirjainten kirjoitusharjoitus M–R",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-256": {
     "title": "Kirjainten kirjoitusharjoitus S–Å",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-257": {
     "title": "Ääkköset: Ä ja Ö",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-258": {
     "title": "Ensimmäiset kirjaimet: A B C D",
-    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-259": {
     "title": "Yleiset sanat: sarja 2",
@@ -1420,27 +1420,27 @@
   },
   "K-278": {
     "title": "Pienten kirjainten kirjoitusharjoitus",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse viivan loppuun."
   },
   "K-279": {
     "title": "Pienten kirjainten kirjoitusharjoitus g–l",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle."
   },
   "K-280": {
     "title": "Pienten kirjainten kirjoitusharjoitus m–r",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle."
   },
   "K-281": {
     "title": "Pienten kirjainten kirjoitusharjoitus s–å",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle."
   },
   "K-282": {
     "title": "Pienet ääkköset: ä ja ö",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle."
   },
   "K-283": {
     "title": "Ensimmäiset pienet kirjaimet: a b c d",
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle."
   },
   "K-284": {
     "title": "Sanojen jäljentäminen",

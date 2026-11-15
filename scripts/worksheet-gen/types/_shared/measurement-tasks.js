@@ -62,14 +62,14 @@ function distinctLengths(pool, count, lenMin, rng) {
   return null;
 }
 
-function cubeRow(n, max, u) {
+function cubeRow(n, max, u, plain) {
   const t = tokens;
   const parts = [];
   const uu = u || U, rh = Math.round(uu * 36 / 44);
   for (let i = 0; i < max; i++) {
     parts.push(roundedRect({
       x: i * uu + 1, y: 1, w: uu - 2, h: rh, r: 4,
-      fill: i < n ? t.color.tealSoft : t.color.white,
+      fill: i < n && !plain ? t.color.tealSoft : t.color.white,
       strokeColor: t.color.teal, strokeWidth: 2,
       data: i < n ? { 'data-lcs-cubeunit': 1 } : { 'data-lcs-cubespare': 1 },
     }));
@@ -79,7 +79,7 @@ function cubeRow(n, max, u) {
 }
 
 /** object art registered over its cube row, starting at 0 (ruler-exemplar math) */
-function measuredObject(theme, item, lengthU, maxU, band, u, attr = '') {
+function measuredObject(theme, item, lengthU, maxU, band, u, attr = '', plain = false) {
   const uu = u || U;
   const targetPx = lengthU * uu;
   const boxW = targetPx / item.ext.widthFrac;
@@ -91,7 +91,7 @@ function measuredObject(theme, item, lengthU, maxU, band, u, attr = '') {
     `<span data-lcs-art="1" style="position:relative;display:block;width:${maxU * uu + 2}px;height:${bandH.toFixed(1)}px;overflow:hidden">` +
     `<img class="ws-icon" src="${fileUri(theme, item.noun, 0, { full: true })}" alt="" ` +
     `style="position:absolute;left:${(1 - leftShift).toFixed(1)}px;top:${(-topShift).toFixed(1)}px;width:${boxW.toFixed(1)}px;height:${boxW.toFixed(1)}px">` +
-    `</span>` + cubeRow(lengthU, maxU, uu) + `</span>`;
+    `</span>` + cubeRow(lengthU, maxU, uu, plain) + `</span>`;
 }
 
 /** the theme's pictures that can be drawn maxLen units long in `band` (flatNouns' rule, no random order: a slot's pool) */
@@ -162,6 +162,9 @@ function makeMeasurementType(cfg) {
       return b;
     },
     levelSetWords(m) { return (m.asks || []).map(String); },
+    // the unit checks (Part 7.6), cube by cube: the page with white squares, the key with the coloured ones (ctx.check
+    // reaches the key build only through this hook)
+    ...(mode === 'cubes-measure' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
 
     _build({ theme, difficulty }, ctx, S) {
       const d = this.difficulty[difficulty];
@@ -179,11 +182,14 @@ function makeMeasurementType(cfg) {
         const pick = distinctLengths(pool, d.rows, lenMin, rng);
         if (!pick) throw new Error(`cubes-measure: theme ${theme} cannot give ${d.rows} different lengths ${lenMin}..${lenMax}`);
         const rowItems = pickRows(ctx, pick.map((p) => ({ ...p, pool })), theme);
+        // a unit check prints every square white: the child finds where the picture ends (review en f1115, 2026-11-15: the
+        // squares under it were already coloured, so the child counted coloured squares); its key colours them
+        const plainRow = !!(ctx && ctx.check && !ctx.answerKey);
         for (const [i, { len }] of pick.entries()) {
           const item = rowItems[i];
           S.push({ kind: 'num', q: `len:${len}`, ask: len, ans: len, slips: [len + 1, len - 1, lenMax + 2], prompt: measuredObject(theme, item, len, lenMax + 2, band, u) });
           cards.push(`<div class="ws-card-stage" style="gap:44px;justify-content:center;padding:4px 8px">` +
-            measuredObject(theme, item, len, lenMax + 2, band, u, slot.attr(ctx, 'row' + i, 0)) +
+            measuredObject(theme, item, len, lenMax + 2, band, u, slot.attr(ctx, 'row' + i, 0), plainRow) +
             answerBox({ w: 72, h: 52, answer: len }) + `</div>`);
         }
         return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: {} };

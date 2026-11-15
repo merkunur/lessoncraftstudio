@@ -82,7 +82,10 @@ module.exports = {
       if (pool.length < d.rows) throw new Error(`K-284: theme ${theme} has ${pool.length} traceable nouns < ${d.rows}`);
     }
     const picks = rng.sample(pool, d.rows);
-    const swapOut = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || isPhrase(e.word);   // new pages already filter these
+    // avoidNouns (a face's knob, 2026-11-15, K-289): pictures a child names otherwise — swapped out of the draw like the
+    // published page's swaps, so only a page that drew one changes; absent on every other face
+    const avoid = new Set(d.avoidNouns || []);
+    const swapOut = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || isPhrase(e.word) || avoid.has(e.vocabKey);   // new pages already filter these
     for (let i = 0; i < picks.length; i++) {
       if (!swapOut(picks[i])) continue;
       const alt = pool.find((e) => !swapOut(e) && !picks.some((p) => p.vocabKey === e.vocabKey || p.word === e.word));
@@ -90,7 +93,7 @@ module.exports = {
       picks[i] = alt;
     }
     // a teacher's picture choice (maker), else as drawn — after the published page's swaps, so those stay as they were
-    const chosen = slot.pictures(ctx, picks, pool, theme);
+    const chosen = slot.pictures(ctx, picks, avoid.size ? pool.filter((e) => !avoid.has(e.vocabKey)) : pool, theme);
     const laneW = 660 - d.cardW - 14;
     const rows = chosen.map((e, i) => {
       const rot = (rng.next() * 8 - 4).toFixed(1);

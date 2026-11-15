@@ -4,7 +4,9 @@ const base = require('../g2/G2-358-synonyms.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"pictures","cards":6,"rows":3,"chips":4,"answers":2,"grid":"2x2","picPx":74,"picMaxW":220,"frameH":80,"chipPx":19,"chipH":44,"maxGlyphs":11,"maxConcept":2,"rowMin":214,"rowGap":10} };
+// Grade 1 (2026-11-15, en check review: "astonished" is not a Grade 1 word): a group above tier 1 keeps only its two
+// most common words (G2-358 buildPictures; tier-1 groups alone leave six locales fewer than the eight pictures a page needs)
+const D = { ...base.difficulty[2], tiers: [1], ...{"mode":"pictures","cards":6,"rows":3,"chips":4,"answers":2,"grid":"2x2","picPx":74,"picMaxW":220,"frameH":80,"chipPx":19,"chipH":44,"maxGlyphs":11,"maxConcept":2,"rowMin":214,"rowGap":10} };
 module.exports = {
   ...base,
   id: 'G1-395',

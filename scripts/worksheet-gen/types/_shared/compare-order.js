@@ -35,6 +35,48 @@ function makeCompareOrderType(cfg) {
     },
     i18n,
 
+    /** THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), two-digit pages,
+     *  2026-11-15 (native reviews en, de): the page's own cards, seven, built so that every form tests the ones place.
+     *  A worksheet draws its numbers freely, and a check of one or two cards then held no pair the tens do not decide
+     *  (form A: 82 > 75, 26 < 69; form B: 85 < 88). Here a compare card is either a pair in ONE ten (85 and 88: the ones
+     *  decide) or a pair ten or more apart in different tens — so the reading "within one ten" of a check is a pair the
+     *  ones decide — and no pair is equal; an order card's three numbers hold one pair in one ten (43, 66, 63). No number
+     *  with two equal digits, no card already in order. */
+    ...(digits === 2 ? { checkPage({ difficulty }, ctx) {
+      const { checkGrid } = require('../../lib/check-page.js');
+      const d = this.difficulty[difficulty] || this.difficulty[2], rng = ctx.rng;
+      const lo2 = d.lo || lo, hi2 = d.hi || hi;
+      const ok = (v) => v >= lo2 && v <= hi2 && !(v >= 10 && v % 11 === 0);
+      const tensOf = (v) => Math.floor(v / 10);
+      const sameTen = () => { for (let g = 0; g < 200; g++) { const a = rng.int(lo2, hi2), b = tensOf(a) * 10 + rng.int(0, 9); if (ok(a) && ok(b) && a !== b) return [a, b]; } return null; };
+      const apart = () => { for (let g = 0; g < 200; g++) { const a = rng.int(lo2, hi2), b = rng.int(lo2, hi2); if (ok(a) && ok(b) && tensOf(a) !== tensOf(b) && Math.abs(a - b) >= 10) return [a, b]; } return null; };
+      const cards = [], seen = new Set();
+      for (let g = 0; cards.length < 7 && g < 400; g++) {
+        if (mode === 'compare') {
+          const p = (cards.length % 2 === 0 ? sameTen : apart)();
+          if (!p) continue;
+          const [a, b] = rng.next() < 0.5 ? p : [p[1], p[0]], k = [a, b].sort((x, y) => x - y).join(',');
+          if (seen.has(k)) continue;
+          seen.add(k);
+          const sym = a < b ? '&lt;' : '&gt;';
+          const chips = ['&lt;', '=', '&gt;'].map((s) => `<span class="ws-chip" style="width:44px;height:44px;font-size:22px" data-lcs-sym="${s}"${s === sym ? ' data-lcs-correct="1"' : ''}>${s}</span>`).join('');
+          cards.push(`<div class="ws-card-stage" style="justify-content:center;gap:18px" data-lcs-mode="compare">` + NUMBOX(a) + `<span style="display:inline-flex;flex-direction:column;gap:6px">${chips}</span>` + NUMBOX(b) + `</div>`);
+        } else {
+          const p = sameTen(); if (!p) continue;
+          let c = null; for (let t = 0; t < 100 && c === null; t++) { const v = rng.int(lo2, hi2); if (ok(v) && tensOf(v) !== tensOf(p[0])) c = v; }
+          if (c === null) continue;
+          const ns = rng.shuffle([p[0], p[1], c]), k = ns.slice().sort((x, y) => x - y).join(',');
+          const sorted = [...ns].sort((x, y) => (descending ? y - x : x - y)), ranks = ns.map((v) => sorted.indexOf(v) + 1);
+          if (seen.has(k) || ranks.join() === '1,2,3') continue;
+          seen.add(k);
+          const items = ns.map((v, j) => `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:8px">` + NUMBOX(v) + answerBox({ w: 48, h: 42, answer: ranks[j] }) + `</span>`).join('');
+          cards.push(`<div class="ws-card-stage" style="justify-content:space-evenly" data-lcs-mode="order" data-lcs-dir="${descending ? 'desc' : 'asc'}">${items}</div>`);
+        }
+      }
+      if (cards.length < 7) throw new Error(`${id} checkPage: ${cards.length} cards`);
+      return { bodyHtml: checkGrid(cards, { cols: mode === 'compare' ? 2 : 1 }), meta: {} };
+    } } : {}),
+
     build({ difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;

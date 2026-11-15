@@ -5,7 +5,7 @@
    "sentences": [
     "Emma and her grandpa have a small garden.",
     "They grow carrots, peas, and big orange pumpkins.",
-    "Every evening, Emma waters the plants with her little green can.",
+    "Every evening, Emma waters the plants with her little green watering can.",
     "One day, a rabbit came and ate two carrots!",
     "Now Emma checks the garden every morning."
    ],
@@ -25,7 +25,7 @@
      "choices": [
       "a long yellow garden hose",
       "a red bucket",
-      "her little green can"
+      "her little green watering can"
      ],
      "correct": 2,
      "sentence": 3

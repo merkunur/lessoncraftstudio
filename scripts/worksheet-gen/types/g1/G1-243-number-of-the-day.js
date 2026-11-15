@@ -119,10 +119,13 @@ module.exports = {
       const eq = (op, k) => `<span style="display:flex;align-items:center;gap:8px" data-lcs-eq="${op}${k}">${big(`${N} ${op === '+' ? '+' : '−'} ${k} =`, 22)}${box(58, 46, op === '+' ? N + k : N - k)}</span>`;
       const numeral = `<div style="width:104px;height:104px;background:#FFFFFF;border:3px solid #146B5E;border-radius:16px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-sizing:border-box" data-lcs-cell="numeral">` +
         `<span style="font-family:'Baloo 2';font-weight:700;font-size:62px;line-height:1;color:#3A3530" data-lcs-numeral>${N}</span></div>`;
+      // (2026-11-15, German reviewer: "16 + 10 = 26" left the number range of a Klasse-1 unit to 20) the "ten more, ten
+      // less" cell only where the level's page has it (d.tenMore): the teen pages of G1-255 levels 1 and 2 show the
+      // number in ten frames and a tally instead, and their check card asks before / after and tens / ones
       const cells = [
         part(L.beforeAfter, `<span style="display:flex;align-items:center;gap:6px">${box(50, 46, N - 1)}${big(N, 26)}${box(50, 46, N + 1)}</span>`, 'data-lcs-cell="before-after"'),
         part(L.tensOnes, `<span style="display:flex;align-items:center;gap:10px">${head(L.tens)}${box(58, 46, Math.floor(N / 10))}<span style="width:4px"></span>${head(L.ones)}${box(58, 46, N % 10)}</span>`, 'data-lcs-cell="tens-ones"'),
-        part(L.tenMoreLess, `<span style="display:flex;align-items:center;gap:26px">${eq('+', 10)}${eq('-', 10)}</span>`, 'data-lcs-cell="plus-minus"', 'grid-column:1 / span 2'),
+        ...(d.tenMore === false ? [] : [part(L.tenMoreLess, `<span style="display:flex;align-items:center;gap:26px">${eq('+', 10)}${eq('-', 10)}</span>`, 'data-lcs-cell="plus-minus"', 'grid-column:1 / span 2')]),
       ];
       return `<div style="display:flex;align-items:center;gap:14px" data-lcs-n="${N}">${numeral}` +
         `<div style="flex:1 1 auto;display:grid;grid-template-columns:auto 1fr;gap:10px">${cells.join('')}</div></div>`;

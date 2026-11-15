@@ -21683,7 +21683,8 @@
     "dragon",
     "swimming",
     "weasel",
-    "cymbals"
+    "cymbals",
+    "cobra"
    ],
    "refuse": {
     "finalMuteE": false
@@ -24377,7 +24378,9 @@
        "lei seg"
       ]
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "sweet-sour"
+     ],
      "syn": {
       "a": "fornøyd"
      },
@@ -24528,7 +24531,9 @@
       "a": [],
       "b": []
      },
-     "exclusiveWith": [],
+     "exclusiveWith": [
+      "happy-sad"
+     ],
      "syn": null,
      "far": "lang",
      "pic": {

@@ -51,10 +51,16 @@ function bag({ pieces, slots, px, sample, attr }) {
     } else inner += shapeG(list[i], cx - s / 2, cy - s / 2, s, `data-lcs-in="${list[i]}"`);
   }
   const h = Math.round(px * 150 / 170);
+  // a cloth bag with a drawstring, open at the top (2026-11-15, German reviewer: the bag was drawn like a jar with a lid —
+  // a flat-topped band over straight sides): the opening is an oval with the dark inside showing, the cloth is gathered
+  // under it in folds, and a cord with two hanging ends ties the neck
   return `<svg ${attr || ''} data-lcs-bag="${slots ? 'slots:' + slots : list.join('')}" width="${px}" height="${h}" viewBox="0 0 170 150" style="flex:0 0 auto;display:block" aria-hidden="true">` +
-    `<path d="M34 38 L24 13 Q85 3 146 13 L136 38 Z" fill="${T.white}" stroke="${T.ink}" stroke-width="2.2" stroke-linejoin="round"/>` +
-    `<path d="M30 38 C6 64 4 124 20 140 Q85 152 150 140 C166 124 164 64 140 38 Z" fill="${T.white}" stroke="${T.ink}" stroke-width="2.2" stroke-linejoin="round"/>` +
-    `<path d="M30 38 Q85 46 140 38" fill="none" stroke="${T.teal}" stroke-width="4" stroke-linecap="round"/>` +
+    `<path d="M58 40 C30 48 12 68 12 100 C12 128 26 142 85 144 C144 142 158 128 158 100 C158 68 140 48 112 40 Z" fill="${T.white}" stroke="${T.ink}" stroke-width="2.2" stroke-linejoin="round"/>` +
+    `<path d="M58 41 C54 30 46 20 38 12 L132 12 C124 20 116 30 112 41 Z" fill="${T.white}" stroke="${T.ink}" stroke-width="2.2" stroke-linejoin="round"/>` +
+    `<ellipse cx="85" cy="12" rx="47" ry="7" fill="${T.creamDeep}" stroke="${T.ink}" stroke-width="2.2"/>` +
+    `<path d="M62 22 L66 38 M85 20 L85 39 M108 22 L104 38" fill="none" stroke="${T.ink}" stroke-width="1.4" stroke-linecap="round"/>` +
+    `<path d="M55 41 Q85 49 115 41" fill="none" stroke="${T.teal}" stroke-width="4.5" stroke-linecap="round"/>` +
+    `<path d="M114 42 C122 46 126 52 124 60 M114 42 C126 42 134 46 138 54" fill="none" stroke="${T.teal}" stroke-width="3" stroke-linecap="round"/>` +
     inner + `</svg>`;
 }
 

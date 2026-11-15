@@ -78,6 +78,42 @@ module.exports = {
   i18n: { en: { title: 'Certain, Possible, Impossible', instruction: 'You take one piece out of the bag without looking. Look at the piece at the start of each row. Is it certain, possible, or impossible that you take this piece? Mark one box in each row. Possible means it may happen, but it does not have to.' } },
   levelSetWords(m) { return (m.items || []).map(String); },
 
+  /** THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), 2026-11-15 (native
+   *  reviews de, sv): a check takes one card a form, and one bag cannot ask all three words — a bag of one kind has no
+   *  "possible", a mixed bag no "certain" (form A never asked "möglich", form B never "sicher"; the Swedish check asked
+   *  "säkert" nowhere). A card here is TWO bags of the level's sizes, each with two rows: a bag of one kind (its kind:
+   *  certain; a kind that is in the other bag: impossible) and a mixed bag (two kinds, on level 2 lopsided — all but one
+   *  piece alike: both are only possible). Seven cards; the right box of a row carries data-lcs-correct. */
+  checkPage(args, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    const rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+    const loc = (args.locale || 'en').slice(0, 2), W = WORDS[loc];
+    if (!W) throw new Error('G2-507: no headings for ' + loc);
+    const head = (s) => `<span style="font-family:'Nunito';font-weight:800;font-size:14px;line-height:1.1;color:${T.teal};text-align:center;white-space:nowrap">${s}</span>`;
+    const grid = (rows) => `<div style="flex:1 1 auto;display:grid;grid-template-columns:52px repeat(3,minmax(0,1fr));row-gap:7px;column-gap:6px;align-items:center;justify-items:center"><span></span>${W.map(head).join('')}${rows}</div>`;
+    const rowsOf = (pieces, asks) => asks.map((k) => { const v = B.verdict(pieces, k); return B.piece(k, 32, `data-lcs-ask="${k}"`) + ORDER.map((o) => B.box(28, key && o === v ? 'key' : null, `data-lcs-opt="${o}"${o === v ? ' data-lcs-correct="1"' : ''}`)).join(''); }).join('');
+    const seen = new Set(), cards = [];
+    for (let g = 0; cards.length < 7 && g < 400; g++) {
+      const kinds = rng.shuffle(B.KINDS.slice(0, d.kinds));
+      const n1 = rng.int(d.size[0], d.size[1]), n2 = rng.int(d.size[0], d.size[1]);
+      const a = kinds[0], [b, c] = [kinds[1], kinds[2]];
+      const one = Array(n1).fill(a);
+      const many = d.plan.includes('lopsided') ? n2 - 1 : rng.int(2, n2 - 2);
+      const mixed = rng.shuffle([...Array(many).fill(b), ...Array(n2 - many).fill(c)]);
+      const sig = a + n1 + '|' + mixed.slice().sort().join('');
+      if (seen.has(sig)) continue;
+      seen.add(sig);
+      // the one-kind bag asks its kind and a kind of the mixed bag; the mixed bag asks both its kinds (in either order)
+      const block = (pieces, asks) => `<div style="display:flex;flex-direction:row;align-items:center;gap:18px">${B.bag({ pieces, px: 120 })}${grid(rowsOf(pieces, asks))}</div>`;
+      const pair = [block(one, rng.shuffle([a, rng.pick([b, c])])), block(mixed, rng.shuffle([b, c]))];
+      if (rng.next() < 0.5) pair.reverse();
+      cards.push(`<div class="ws-card-stage" data-lcs-judge2 style="flex-direction:column;align-items:stretch;gap:10px;padding:4px 10px">${pair.join('')}</div>`);
+    }
+    if (cards.length < 7) throw new Error('G2-507 checkPage: ' + cards.length + ' cards');
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   build(args, ctx) {
     const d = this.difficulty[args.difficulty] || this.difficulty[2];
     const rng = ctx.rng, key = !!(ctx && ctx.answerKey);

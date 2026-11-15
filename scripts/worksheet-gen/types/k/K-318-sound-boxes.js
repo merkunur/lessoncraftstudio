@@ -49,6 +49,7 @@ const { entriesFor, displayWord, distinctByWord, sampleEntries, fileUri } = requ
 const { bank } = require('../../lib/b3-common.js');
 const { eligible } = require('../../lib/sound-boxes.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
+const { UNAIDED_KEYS } = require('../../lib/picture-name-risk.js');
 const { makeRng } = require('../../lib/rng.js');
 const SBS = require('../../lib/sound-boxes-screen.js');
 const RAC = require('../../lib/read-and-color.js');
@@ -66,6 +67,15 @@ const lookAlike = (a, b) => RAC.confusable(a, b) || BLEND_LOOKALIKE.some((g) => 
 const SB_EXCLUDE = {};
 const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
 const levelSetPool = (pool, theme, loc) => pool.filter((e) => !refusedPicture(theme, e.noun) && !(SB_EXCLUDE[loc] || []).includes(e.vocabKey));
+/**
+ * A word whose boxes have two right fillings, kept off EVERY page, the published ones too (2026-11-15, de check review):
+ * a picture every child names otherwise (lib/picture-name-risk.js UNAIDED_KEYS: the wolf is «Hund», the hen «Huhn»), and
+ * in German a word of two or more syllables that ends in an unstressed -er (Tiger: to a first grader the «er» is one sound,
+ * T-i-g-er). A theme that would then fall under its floor keeps its words (the page is never refused for this).
+ */
+const twoWays = (e, loc) => UNAIDED_KEYS.has(e.vocabKey) ||
+  (loc === 'de' && e.rows.length >= 2 && e.chunks.length >= 2 && e.chunks[e.chunks.length - 2] === 'e' && e.chunks[e.chunks.length - 1] === 'r');
+const oneWay = (pool, loc, d) => { const p = pool.filter((e) => !twoWays(e, loc)); return p.length >= Math.max(d.cards, d.poolFloor || 0) ? p : pool; };
 /** The sounds as the page shows them: de keeps the vocab capital in box 1. */
 const shownChunks = (e, cfg, loc) => (cfg.capitalBox1 ? [displayWord(e.word, loc).slice(0, [...e.chunks[0]].length), ...e.chunks.slice(1)] : e.chunks.slice());
 const cardMeta = (e, cfg, loc, extra) => ({ key: e.vocabKey, noun: e.noun, word: e.word, chunks: shownChunks(e, cfg, loc), rows: e.rows, ...(extra || {}) });
@@ -163,6 +173,18 @@ module.exports = {
     return this._buildWith(cfg, { theme, difficulty, locale }, ctx);   // REFUSES when the locale block is absent
   },
 
+  /**
+   * THE ITEM BANK (Part 7.6): the page as it is; the Sound Strip (G1-312) marks each row as a word with a sound of two
+   * letters or a word of one letter per sound (data-lcs-sounds="digraph" | "plain"), so that a check can ask one of each
+   * in both forms (2026-11-15, en check review: form A asked fish and duck, form B dog and pig — lists: kindAttr + mixKinds).
+   */
+  checkPage(args, ctx) {
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    const built = this.build(args, ctx);
+    if (faceOf(d) !== 'strip') return built;
+    return { ...built, bodyHtml: built.bodyHtml.replace(/data-lcs-chunks="([^"]*)"/g, (m, ch) => `${m} data-lcs-sounds="${ch.split('|').some((x) => [...x].length > 1) ? 'digraph' : 'plain'}"`) };
+  },
+
   /** The gate's seam: build against an explicit locale block (a poisoned bank never touches data/). */
   _buildWith(cfg, { theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
@@ -172,7 +194,7 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     const fresh = isFresh(difficulty, ctx);
     const pool0 = eligible({ theme, loc, cfg, d, inner: CARD_INNER });
-    const pool = fresh ? levelSetPool(pool0, theme, loc) : pool0;
+    const pool = oneWay(fresh ? levelSetPool(pool0, theme, loc) : pool0, loc, d);
     // the theme floor is the FACE pool after segmentation (design §1), enforced
     // at the shipping difficulty; d1/d3 keep the sample-or-throw guard only
     if (d.poolFloor && pool.length < d.poolFloor) {
@@ -215,7 +237,7 @@ module.exports = {
     }
     const fresh = !!ctx.fresh, keyFill = !!ctx.keyFill;
     const pool0 = eligible({ theme, loc, cfg, d, inner });
-    const pool = fresh ? levelSetPool(pool0, theme, loc) : pool0;
+    const pool = oneWay(fresh ? levelSetPool(pool0, theme, loc) : pool0, loc, d);
     if (d.poolFloor && pool.length < d.poolFloor) {
       throw new Error(`K-318/${face}: theme ${theme}/${loc} has ${pool.length} segmentable nouns < ${d.poolFloor} (refused)`);
     }

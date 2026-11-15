@@ -78,7 +78,9 @@
           "trist"
         ]
       },
-      "exclusiveWith": [],
+      "exclusiveWith": [
+        "sweet-sour"
+      ],
       "syn": {
         "a": "munter"
       },
@@ -217,7 +219,9 @@
         "a": [],
         "b": []
       },
-      "exclusiveWith": [],
+      "exclusiveWith": [
+        "happy-sad"
+      ],
       "syn": {
         "a": "sukkersød"
       },

@@ -41,6 +41,10 @@ module.exports = {
     fi: { odd: 'pariton', even: 'parillinen' },
   },
 
+  // the unit checks (Part 7.6): the worksheet page with the left-over picture unframed (ctx.check reaches the key build
+  // only through this hook)
+  checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
+
   build({ theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
@@ -51,6 +55,9 @@ module.exports = {
     const counts = rng.sample(all, d.cards);
 
     const cards = [];
+    // a unit check does not frame the picture left over (review sv f1115, 2026-11-15: a framed lone picture says "odd"
+    // before the child has paired anything); it stands unframed at the end of the pairs
+    const unframed = !!(ctx && ctx.check);
     for (let i = 0; i < d.cards; i++) {
       const n = counts[i];
       const px = 40;
@@ -65,7 +72,7 @@ module.exports = {
       }
       if (n % 2 === 1) {
         pairCols.push(
-          `<span style="display:inline-flex;flex-direction:column;gap:4px;padding:5px;border:2.5px dashed #F2784B;border-radius:10px" data-lcs-leftover="1">` +
+          `<span style="display:inline-flex;flex-direction:column;gap:4px;padding:5px;border:${unframed ? '2.5px solid transparent' : '2.5px dashed #F2784B'};border-radius:10px" data-lcs-leftover="1">` +
           `<img class="ws-icon" src="${fileUri(theme, nouns[i].noun)}" alt="" style="width:${px}px;height:${px}px"></span>`
         );
       }

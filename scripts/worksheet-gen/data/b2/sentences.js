@@ -173,10 +173,9 @@ const SENTENCES = {
       {
         "id": "s13",
         "kind": "simple",
-        "text": "My {noun} is very small.",
+        "text": "The {noun} in the picture is very small.",
         "noun": "sg",
         "uses": [
-          "unscramble",
           "fix"
         ]
       },
@@ -228,7 +227,7 @@ const SENTENCES = {
     "nounForms": {},
     "fixLabels": {
       "capital": "Satzanfang",
-      "name": "Namen",
+      "name": "Nomen",
       "end": "Satzzeichen"
     },
     "frames": [
@@ -259,10 +258,9 @@ const SENTENCES = {
       {
         "id": "s1",
         "kind": "simple",
-        "text": "Die {noun} sind sehr klein.",
+        "text": "Die {noun} auf dem Bild sind sehr klein.",
         "noun": "pl",
         "uses": [
-          "unscramble",
           "fix"
         ]
       },
@@ -347,7 +345,7 @@ const SENTENCES = {
       {
         "id": "s10",
         "kind": "simple",
-        "text": "Die {noun} sind bunt.",
+        "text": "Die {noun} sind schön.",
         "noun": "pl",
         "uses": [
           "unscramble",
@@ -1419,10 +1417,9 @@ const SENTENCES = {
       {
         "id": "s11",
         "kind": "simple",
-        "text": "De {noun} zijn heel klein.",
+        "text": "De {noun} op het plaatje zijn heel klein.",
         "noun": "pl",
         "uses": [
-          "unscramble",
           "fix"
         ]
       },

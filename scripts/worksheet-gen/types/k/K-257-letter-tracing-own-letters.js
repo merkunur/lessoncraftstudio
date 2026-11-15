@@ -8,5 +8,5 @@ module.exports = {
   // Level Set 2026-09-28: L1 numbered strokes (84/110, 4 reps) · L2 published · L3 two letters to write alone (emptyCount 2)
   difficulty: { 1: {"from":"specials","count":6,"glyphH":84,"laneH":110,"reps":4}, 2: {"from":"specials","count":6,"glyphH":74,"laneH":108,"reps":5}, 3: {"from":"specials","count":6,"glyphH":56,"laneH":80,"reps":5,"emptyCount":2} },
   unitAxis: { applicable: false },   // the per-letter axis belongs to K-238's own copies
-  i18n: { en: { title: "Trace the Vowels", instruction: "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows." } },
+  i18n: { en: { title: "Trace the Vowels", instruction: "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows." } },
 };

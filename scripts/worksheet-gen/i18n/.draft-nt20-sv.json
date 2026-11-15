@@ -3,7 +3,7 @@
   "types": {
     "K-236": {"title": "Spåra linjer", "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."},
     "K-237": {"title": "Spåra siffrorna 0 till 9", "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."},
-    "K-238": {"title": "Spåra stora bokstäver", "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."},
+    "K-238": {"title": "Spåra stora bokstäver", "instruction": "Spåra varje bokstav och skriv sedan bokstaven själv på den tomma raden."},
     "K-239": {"title": "Ordbilder: läs, spåra, skriv", "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."},
     "K-240": {"title": "Klipp, sortera och klistra", "instruction": "Klipp ut bilderna längst ner. Sortera dem och klistra in varje bild i rätt ruta."},
     "K-241": {"title": "Måla efter kod", "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."},

@@ -965,14 +965,17 @@ module.exports = {
    * by the face's own composer over the merged bank (a new copy).
    *   base  (G1-350) eight rows of the level, each card = a word bank of three (its answer + two answers of other rows of the
    *         check — the composer keeps every row's `fits` clear of the other rows' nouns, so the small bank holds one right
-   *         word) over its row. Eight: the page has six or seven rows.
+   *         word), each word under its picture, over its row WITHOUT the row's picture (the picture beside the gap was the
+   *         answer: the child read nothing). Eight: the page has six or seven rows.
+   *   plural (G2-349) cards of two rows, one hard plural (the panel's hardPlural) and one other, every picture labelled with
+   *         its word.
    *   story (G2-350) seven stories, each card = a word bank of five (its three answers + two of the other stories or the
    *         level's extra words) over its story block. Seven: the page has three stories.
    * Every other face gives the check its page as it is.
    */
   checkPage({ theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty] || this.difficulty[2];
-    if (d.mode && d.mode !== 'base' && d.mode !== 'story') return this.build({ theme, difficulty, locale }, ctx);
+    if (d.mode && d.mode !== 'base' && d.mode !== 'story' && d.mode !== 'plural') return this.build({ theme, difficulty, locale }, ctx);
     const { checkGrid } = require('../../lib/check-page.js');
     const loc = (locale || 'en').slice(0, 2);
     const all = bankModule(KEY);
@@ -981,9 +984,26 @@ module.exports = {
     const rng = ctx.rng;
     const cctx = { rng, variant: ctx.variant, perRow: true, check: true };
     const { wordBank } = require('../../templates/components-b2.js');
-    const smallBank = (words) => wordBank({ words: words.map((w) => ({ word: w })), wordPx: 17 }).replace('data-lcs-bank-banner>', 'data-lcs-bank-banner style="margin:0 0 8px">');
+    const smallBank = (words, srcs) => wordBank({ words: words.map((w, k) => ({ word: w, src: srcs && srcs[k] })), wordPx: 17, withIcons: !!srcs }).replace('data-lcs-bank-banner>', 'data-lcs-bank-banner style="margin:0 0 8px">');
+    const lanesOf = (html) => { const at = html.indexOf('<div data-lcs-list'); return html.slice(html.indexOf('>', at) + 1, -'</div></div>'.length).split(/(?=<div class="ws-lane" data-ws-content data-lcs-row=")/).filter(Boolean); };
     let cards;
-    if (d.mode === 'story') {
+    if (d.mode === 'plural') {
+      // PLURAL (G2-349; 2026-11-15, en / de / sv check reviews): a card is TWO lanes, one plural of the panel's hard class
+      // (hardPlural: -es, a changed stem, an umlaut) and one other, in either order — so every form asks one of each — and
+      // every picture carries its word (a child who says «Hühner» for the hens, «Fohlen» for the horses, or reads a hint
+      // under one form's picture only, is not marked by the picture: the direction reads «the word under the picture»)
+      if (bank.refuse && bank.refuse.plural === true) throw new Error(`${ID}: ${loc} REFUSES the plural face`);
+      const built = this._buildPlural(bank, { ...d, rows: 12, hardMin: (bank.hardPlural || []).length >= 6 ? 6 : 0, share: undefined, bank: false, labelAll: true }, loc, G, rng, cctx);
+      // (each lane without its number on the page: two lanes stand in one card, and the check numbers its cards itself)
+      const lanes = lanesOf(built.bodyHtml).map((lane) => lane.replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace('padding:5px 16px;', 'padding:0;')
+        .replace(/<span data-lcs-badge [^>]*>\d+<\/span>/, '').replace(/grid-template-columns:30px (\d+px) minmax\(0,1fr\)/, 'grid-template-columns:$1 minmax(0,1fr)'));
+      const hard = new Set(bank.hardPlural || []);
+      const H = [], E = [];
+      built.meta.rows.forEach((r, i) => (hard.has(r[0]) ? H : E).push(lanes[i]));
+      const n = Math.min(H.length, E.length);
+      cards = n >= 3 ? Array.from({ length: n }, (_, k) => (rng.next() < 0.5 ? [H[k], E[k]] : [E[k], H[k]]).join('<div style="height:10px"></div>'))
+        : lanes;   // a locale without the hard class: one lane a card, every picture with its word
+    } else if (d.mode === 'story') {
       if (bank.refuse && bank.refuse.story === true) throw new Error(`${ID}: ${loc} REFUSES the story face`);
       const built = this._buildStory(bank, { ...d, stories: 7, bank: false }, loc, G, rng, cctx);   // (no page bank: each card carries its own)
       const blocks = built.bodyHtml.split(/(?=<div class="ws-lane" data-ws-content data-lcs-story=")/).slice(1);
@@ -997,18 +1017,22 @@ module.exports = {
       });
     } else {
       const built = this._buildWith(bank, { ...d, rows: 8, bank: false, extra: 0 }, { locale: loc, globals: G }, cctx);   // (no page bank: each card carries its own; the other rows give its wrong words)
-      const at = built.bodyHtml.indexOf('<div data-lcs-list');
-      const inner = built.bodyHtml.slice(built.bodyHtml.indexOf('>', at) + 1, -'</div></div>'.length);
-      const lanes = inner.split(/(?=<div class="ws-lane" data-ws-content data-lcs-row=")/).filter(Boolean);
+      const lanes = lanesOf(built.bodyHtml);
       const answers = built.meta.rows.map((r) => r[3]);
+      // the picture stands over EVERY word of the small bank, not beside the sentence (2026-11-15, en / sv check reviews: the
+      // picture beside the gap IS the answer, so the child matched it to its word without reading the sentence)
+      const imgRe = /<img class="ws-icon"[^>]*>/;
+      const srcOf = lanes.map((lane) => (/src="([^"]+)"/.exec((imgRe.exec(lane) || [''])[0]) || [])[1]);
       const pos = rng.shuffle(lanes.map((_, i) => i % 3));
       cards = lanes.map((lane, i) => {
-        const words = rng.sample(answers.filter((w) => w !== answers[i]), 2);
-        words.splice(pos[i], 0, answers[i]);
-        return smallBank(words) + lane.replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace('padding:' + (d.padding || '5px 16px') + ';', 'padding:0;');
+        const others = rng.sample(answers.map((w, j) => j).filter((j) => answers[j] !== answers[i]), 2);
+        others.splice(pos[i], 0, i);
+        const row = lane.replace('<div class="ws-lane" data-ws-content', '<div data-ws-content').replace('padding:' + (d.padding || '5px 16px') + ';', 'padding:0;')
+          .replace(imgRe, '').replace(/grid-template-columns:30px \d+px minmax\(0,1fr\)/, 'grid-template-columns:30px minmax(0,1fr)');
+        return smallBank(others.map((j) => answers[j]), srcOf.every(Boolean) ? others.map((j) => srcOf[j]) : null) + row;
       });
     }
-    if (cards.length < 7) throw new Error(`${ID}: check page cut ${cards.length} cards`);
+    if (cards.length < (d.mode === 'plural' ? 3 : 7)) throw new Error(`${ID}: check page cut ${cards.length} cards`);
     return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
   },
 
@@ -1324,7 +1348,8 @@ module.exports = {
       text: row.text, answer: row.answer, slot: C4.gapBox({ w: gapW, h: cfg.gapH }), frameId: row.f.id, form: row.f.form, kase: row.f.case || null,
       // a picture a child names otherwise carries its own word (no bank to name it): "hen" under the chickens, so the
       // answer is "hens", not "chickens" too (lib/picture-name-risk.js, native review 2026-11-03)
-      label: !cfg.bank && nameRisky(loc, row.f.noun) ? answerFor(loc, row.f.noun, 'sg') : null,
+      // (labelAll: the check page only — every picture carries its word, see checkPage)
+      label: d.labelAll || (!cfg.bank && nameRisky(loc, row.f.noun)) ? answerFor(loc, row.f.noun, 'sg') : null,
     })).join('');
     const bankHtml = cfg.bank ? C4.gapBank({ words: answers, order: bankOrder, wordPx: 18 }) : '';
     const attrs = `data-lcs-rows="${cfg.rows}" data-lcs-gapw="${gapW}" data-lcs-bank="${cfg.bank ? 1 : 0}" data-lcs-clone-px="${cfg.clonePx}" data-lcs-clones-min="${cfg.clones[0]}" data-lcs-clones-max="${cfg.clones[1]}" data-lcs-gap-h="${cfg.gapH}"`;

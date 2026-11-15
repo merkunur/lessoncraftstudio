@@ -2,7 +2,7 @@
   "_note": "K-278..K-283 lowercase letter-tracing, 10 non-EN locales. Rebuilt from each locale's OWN established capitals vocabulary (Grossbuchstaben->Kleinbuchstaben, stora->sma, isojen->pienten), not translated from English; the arrow/dot and write-it-yourself clauses are reused verbatim from each locale's own K-238 instruction. Titles name the letters the page ACTUALLY carries, which differs per locale (pt and it slice differently; de carries ss, es n-tilde, nl the ij digraph).",
   "de": {
     "taxo": { "slug": "kleinbuchstaben-nachspuren", "name": "Kleinbuchstaben nachspuren" },
-    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann selbst auf die leere Linie.",
     "titles": {
       "K-278": "Kleinbuchstaben nachspuren",
       "K-279": "Kleinbuchstaben nachspuren: g bis l",
@@ -44,7 +44,7 @@
   },
   "pt": {
     "taxo": { "slug": "minusculas-pontilhadas", "name": "Minúsculas pontilhadas" },
-    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia.",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois, tente escrever a letra na linha vazia.",
     "titles": {
       "K-278": "Letras minúsculas pontilhadas",
       "K-279": "Minúsculas pontilhadas de g a m",
@@ -86,7 +86,7 @@
   },
   "sv": {
     "taxo": { "slug": "spara-sma-bokstaver", "name": "Spåra små bokstäver" },
-    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+    "instruction": "Spåra varje liten bokstav och skriv sedan bokstaven själv på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
     "titles": {
       "K-278": "Spåra små bokstäver",
       "K-279": "Spåra små bokstäver g till l",
@@ -100,7 +100,7 @@
   },
   "da": {
     "taxo": { "slug": "sma-bogstaver", "name": "Små bogstaver" },
-    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene.",
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter at skrive det selv på den tomme linje. Start ved den orange prik, og følg pilene.",
     "titles": {
       "K-278": "Skriv de små bogstaver",
       "K-279": "Skriv de små bogstaver g til l",
@@ -128,7 +128,7 @@
   },
   "fi": {
     "taxo": { "slug": "pienten-kirjainten-kirjoittaminen", "name": "Pienten kirjainten kirjoittaminen" },
-    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle.",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse tyhjälle viivalle.",
     "titles": {
       "K-278": "Pienten kirjainten kirjoitusharjoitus",
       "K-279": "Pienten kirjainten kirjoitusharjoitus g–l",

@@ -599,17 +599,11 @@ function crossCheck(rows, kinds, bank, pron, objForms, loc, cfg) {
     const hit = row.chips.find((c) => c.kind === row.ask);
     if (!hit || hit.idx !== want) out.push(`${L}: the ${row.ask} chip sits at ${hit ? hit.idx : 'none'}, kinds.indexOf = ${want}`);
     if (row.chips.map((c) => c.label).join('|') !== kinds.map((k) => bank.qwords[k]).join('|')) out.push(`${L}: chip labels ${row.chips.map((c) => c.label).join('|')} != the bank's`);
-    // the picture
-    if (row.picKind === 'person') {
-      const p = byPic.get(row.pic);
-      if (!p) out.push(`${L}: portrait "${row.pic}" is not in the pronouns bank`);
-      else {
-        if (p.depicted !== row.depicted) out.push(`${L}: portrait "${row.pic}" stamped ${row.depicted}, the bank says ${p.depicted}`);
-        if (p.depicted !== name.gender) out.push(`${L}: name "${row.name}" (${name.gender}) over a portrait "${row.pic}" depicted ${p.depicted} — tag mismatch`);
-        if (decodeURIComponent(row.src) !== decodeURIComponent(fileUri(p.pic.theme, p.pic.noun))) out.push(`${L}: portrait src is not the bank's file`);
-        if (row.picW < Math.max(FLOOR, p.minPx || 0) - 0.6) out.push(`${L}: portrait ${row.picW.toFixed(1)} px below ${Math.max(FLOOR, p.minPx || 0)}`);
-      }
-      if (cfg.picOf === 'subject' || row.ask === 'who') { /* fine */ } else out.push(`${L}: a portrait on a ${row.ask} row under picOf referent`);
+    // the picture. 2026-11-15 (three native reviews, two rounds: a chef beside "Leo is at the pool"): a row about a named
+    // child carries NO picture — the person's picture slot stays empty (the subject on levels 2-3, a who row on level 1)
+    if (row.picKind === 'person') out.push(`${L}: a portrait beside a named child ("${row.name}")`);
+    else if (row.picKind == null) {
+      if (!(cfg.picOf === 'subject' || row.ask === 'who')) out.push(`${L}: no picture on a ${row.ask} row under picOf referent`);
     } else if (row.picKind === 'thing') {
       const pin = TYPE.pinThing(slots.key, loc, bank);
       if (!pin || `${pin.theme}/${pin.noun}` !== row.pic) out.push(`${L}: thing picture "${row.pic}" != pinThing ${pin && pin.theme + '/' + pin.noun}`);
@@ -619,7 +613,7 @@ function crossCheck(rows, kinds, bank, pron, objForms, loc, cfg) {
       if (!p || `${p.pic.theme}/${p.pic.noun}` !== row.pic) out.push(`${L}: place picture "${row.pic}" != the bank's`);
       if (cfg.picOf !== 'referent' || row.ask !== 'where') out.push(`${L}: a place picture on a ${row.ask} row`);
     } else out.push(`${L}: picture kind "${row.picKind}"`);
-    if (srcs.has(row.src)) out.push(`${L}: src twice`); srcs.add(row.src);
+    if (row.src) { if (srcs.has(row.src)) out.push(`${L}: src twice`); srcs.add(row.src); }
     row.chips.forEach((c) => { if (c.h < FLOOR - 0.6) out.push(`${L}: chip ${c.h.toFixed(1)} < ${FLOOR}`); });
     if (row.pFont < 16) out.push(`${L}: sentence font ${row.pFont} < 16`);
   });
@@ -637,7 +631,7 @@ function assertRender(name, r, { rows }) {
   ok(r.m.rows.every((x) => x.chips.length && new Set(x.chips.map((c) => Math.round(c.top))).size === 1), `${name}: a chip strip wraps`);
   ok(r.m.rows.every((x) => x.stripRight <= 108 + 531 + 0.6), `${name}: strip right ${r.m.rows.map((x) => x.stripRight.toFixed(0)).join('/')} past the 531 column`);
   ok(r.m.rows.every((x) => x.pH <= 26.6), `${name}: sentence heights ${r.m.rows.map((x) => x.pH.toFixed(1)).join('/')} (one line <= 26)`);
-  ok(r.m.rows.every((x) => x.picW >= FLOOR - 0.6), `${name}: a picture below ${FLOOR}`);
+  ok(r.m.rows.every((x) => x.pic == null || x.picW >= FLOOR - 0.6), `${name}: a picture below ${FLOOR}`);
 }
 
 /** A type whose bodyHtml is post-processed (render poisons) */
@@ -750,7 +744,10 @@ async function main() {
       ok(cc.length === 0, `d${d} en node cross-check: ${cc.join(' | ')}`);
       const bot = TYPE.pictureBot(r.m.rows.map((x) => ({ picKind: x.picKind, ask: x.ask })));
       if (d >= 2) ok(bot <= 0.35, `d${d} pictureBot ${bot.toFixed(2)} (<= 0.35)`);
-      ok(r.m.rows.every((x) => Math.abs(x.picDx - 40) <= 0.6 && Math.abs(x.pDx - (40 + cfg.picPx + 12)) <= 0.6), `d${d}: the row geometry (pic at +40, sentence at +${40 + cfg.picPx + 12}) — got ${r.m.rows.map((x) => x.picDx.toFixed(0) + '/' + x.pDx.toFixed(0)).join(' ')}`);
+      // picOf subject (levels 2-3): every row is about a named child, so no row has a picture column (sentence at +42);
+      // picOf referent (level 1): a who row keeps the empty picture slot, so the sentences line up at +40 + picPx + 12
+      const noPicCol = cfg.picOf === 'subject';
+      ok(r.m.rows.every((x) => (noPicCol ? x.pic == null && Math.abs(x.pDx - 42) <= 0.6 : (x.pic == null || Math.abs(x.picDx - 40) <= 0.6) && Math.abs(x.pDx - (40 + cfg.picPx + 12)) <= 0.6)), `d${d}: the row geometry (${noPicCol ? 'no picture column, sentence at +42' : 'pic at +40, sentence at +' + (40 + cfg.picPx + 12)}) — got ${r.m.rows.map((x) => x.picDx.toFixed(0) + '/' + x.pDx.toFixed(0)).join(' ')}`);
       const strips = r.m.rows.map((x) => x.stripRight - 108);
       if (cfg.chipPx === 20 && cfg.chipPad === 12) r.m.rows[0].chips.forEach((c) => { const t = en.chipWidths && en.chipWidths[c.label]; if (t != null) ok(Math.abs(c.w - t) <= 3, `d${d}: chip "${c.label}" measures ${c.w.toFixed(1)}, the bank's chipWidths says ${t}`); });
       ok(Math.max(...strips) <= 531, `d${d}: the strip ${Math.max(...strips).toFixed(1)} <= 531`);
@@ -999,13 +996,13 @@ async function main() {
     };
     await renderPoison('P13 a count mark spanning "five lambs"', mutated(TYPE, (h) => h.replace(/(<span data-lcs-mark[^>]*>)([^<]+)(<\/span>)( \p{L}+)\./u, '$1$2$4$3.')), /spans more than the number word|mark ".*" != markOf/, { difficulty: 3 });
     await renderPoison('P14 the chips reordered on one row', mutated(TYPE, (h) => { const i = h.indexOf('<div class="ws-achips"'); const j = h.indexOf('</div>', i); const seg = h.slice(i, j); const chips = seg.match(/<span class="ws-achip"[\s\S]*?<\/span>/g); return h.slice(0, i) + seg.replace(chips.join(''), chips.slice().reverse().join('')) + h.slice(j); }), /position leak/);
-    await renderPoison('P18 a base page with 3 who rows', withDeps(TYPE, { d: { ...TYPE.difficulty[2], kinds: { who: 3, what: 2, where: 2 } } }), /pictureBot 0\.43 > 0\.35/);
-    { const bad = clone(pronEn); bad.names.forEach((n) => { n.gender = 'f'; }); await renderPoison('P19 the male names tagged f (a girl\'s portrait under "Ben")', withDeps(TYPE, { pron: bad }), /tag mismatch/); }
+    // (P18 three who rows / P19 a girl's portrait under "Ben" / PRd a portrait twice tested the portrait's tells; the rows
+    // carry no portrait since 2026-11-15, so the poison is a portrait put back)
+    await renderPoison('P19b a portrait beside a named child', mutated(TYPE, (h) => h.replace(/(<p data-lcs-sentence)/, '<img data-lcs-pic="occupations/chef" data-lcs-pickind="person" data-lcs-depicted="m" src="chef.png" alt="" style="width:56px;height:56px">$1')), /a portrait beside a named child/, { difficulty: 2 });
     await renderPoison('P22 the row grid with column-gap:10px 12px', mutated(TYPE, (h) => h.split('grid-template-columns:30px 10px 56px 12px 1fr').join('grid-template-columns:30px 56px 1fr;column-gap:10px 12px').split('grid-column:3;').join('grid-column:2;').split('grid-column:5;').join('grid-column:3;')), /row geometry|past the lane/);
     await renderPoison('PRa a chip carrying data-lcs-correct', mutated(TYPE, (h) => h.replace('data-lcs-chip="what"', 'data-lcs-chip="what" data-lcs-correct="1"')), /carries a correct marker/);
     await renderPoison('PRb a mark inside a chip strip', mutated(TYPE, (h) => h.replace(/(<span class="ws-achip"[^>]*>)(Who)(<\/span>)/, '$1' + C4.markedSpan('Who') + '$3')), /a mark inside the chip strip|prints ".*" not its label/);
     await renderPoison('PRc a chip label printed in the sentence', mutated(TYPE, (h) => h.replace(/(<p data-lcs-sentence[^>]*>)/, '$1Who ')), /occurs in the sentence|does not open with the name/);
-    await renderPoison('PRd a portrait src twice', mutated(TYPE, (h) => { const srcs = [...h.matchAll(/ src="([^"]+)"/g)].map((m) => m[1]); return h.replace(`src="${srcs[1]}"`, `src="${srcs[0]}"`); }), /src twice/);
     await renderPoison('PRe a stamped ask edited (what → who on a thing row)', mutated(TYPE, (h) => h.replace('data-lcs-kind="thing" data-lcs-ask="what"', 'data-lcs-kind="thing" data-lcs-ask="who"')), /a who row marks|mark ".*" != markOf/);
     // P22's geometry check is a positive assertion on the correct render too (d1-d3 above)
     // ================================================================ 5. the faces (Phase 2) ================================================================
@@ -1105,14 +1102,10 @@ function crossCheckFace(x, bank, pron, objForms, loc) {
     if (f.kind === 'count') { const n = (bank.numbers || [2, 3, 4, 5]).find((q) => numberWord(q, loc) === slots.n); if (!Number.isInteger(n)) { out.push(`${L}: number word "${slots.n}"`); return null; } ctx.n = n; }
     return ctx;
   };
-  const portraitOk = (pic, name, L, floor) => {
-    if (!pic) { out.push(`${L}: no portrait`); return; }
-    const p = byPic.get(pic.pic);
-    if (!p) { out.push(`${L}: portrait "${pic.pic}" is not in the pronouns bank`); return; }
-    if (p.depicted !== pic.depicted) out.push(`${L}: portrait stamped ${pic.depicted}, the bank says ${p.depicted}`);
-    if (name && p.depicted !== name.gender) out.push(`${L}: "${name.name}" (${name.gender}) over "${pic.pic}" depicted ${p.depicted} — tag mismatch`);
-    if (decodeURIComponent(pic.src) !== decodeURIComponent(fileUri(p.pic.theme, p.pic.noun))) out.push(`${L}: portrait src is not the bank's file`);
-    if (pic.w < Math.max(floor, p.minPx || 0) - 0.6) out.push(`${L}: portrait ${pic.w.toFixed(1)} < ${Math.max(floor, p.minPx || 0)} (its minPx)`);
+  // 2026-11-15 (three native reviews, two rounds: a chef beside "Leo is at the pool"): a row or an answer about a named
+  // child carries NO portrait (the old check here asserted the portrait's tags; the portrait is gone)
+  const portraitOk = (pic, name, L) => {
+    if (pic && (pic.kind === 'person' || pic.depicted)) out.push(`${L}: a portrait beside a named child${name ? ' ("' + name.name + '")' : ''}`);
   };
   if (x.mode === 'match') {
     const byJ = new Map(x.answers.map((a) => [a.j, a]));
@@ -1266,14 +1259,14 @@ async function facesSection(page, { en, pronEn, objEn, ctrlFilter }) {
     // the face-specific floors + measured numbers (design §3, re-measured)
     if (face === 'match') {
       for (const y of [a, b, c]) { ok(y.x.items.every((i) => i.h >= 100 - 0.6 && i.h <= 120 + 0.6), `match: items ${y.x.items.map((i) => i.h.toFixed(0)).join('/')} in [100, 120]`); ok(Math.max(...y.x.bands) <= 44.6, `match: bands ${y.x.bands.map((v) => v.toFixed(0)).join('/')} <= 44`); ok(y.x.slackUnder <= 50.6, `match: slack under ${y.x.slackUnder.toFixed(0)} <= 50`); }
-      ok(a.x.answers.every((an) => (an.pic ? an.pic.w >= 88 - 0.6 : an.clockW >= 88 - 0.6)), 'match: every answer picture / clock >= 88');
+      ok(a.x.answers.every((an) => (an.pic ? an.pic.w >= 88 - 0.6 : an.clockH != null ? an.clockW >= 88 - 0.6 : an.kind === 'who')), 'match: every answer picture / clock >= 88 (a name answer carries none)');
       ok(a.x.answers.filter((an) => an.kind === 'howmany').every((an) => an.badge >= 2 && an.badge <= 5), 'match: the count badge shows n in 2..5');
     }
     if (face === 'fill') {
       for (const y of [a, b, c]) { ok(Math.abs(y.x.body.bottom - y.x.lastBottom) <= 3, `fill: the lanes end ${(y.x.body.bottom - y.x.lastBottom).toFixed(1)} px above the body bottom`); ok(y.x.rows.every((rw) => rw.h >= 84 - 0.6), `fill: lanes ${y.x.rows.map((rw) => rw.h.toFixed(0)).join('/')} >= 84`); }
       ok(a.x.gapW === 170, `fill: en gapW ${a.x.gapW} (the design's 170 from "How many" 91.2)`);
       ok(new Set(a.x.bank.map((w) => Math.round(w.top))).size === 1, 'fill: the 5-pill bank on one row');
-      ok(a.x.rows.every((rw) => rw.pic && rw.pic.w >= 56 - 0.6), 'fill: portraits 56');
+      ok(a.x.rows.every((rw) => !rw.pic), 'fill: no portrait beside a named child');
     }
     if (face === 'sort') {
       for (const y of [a, b, c]) { ok(Math.abs(y.x.stack - 677) <= 4, `sort: stack ${y.x.stack.toFixed(1)} (fixed 677)`); ok(y.x.slackUnder <= 180 && y.x.slackUnder >= -0.6, `sort: slack under the bins ${y.x.slackUnder.toFixed(0)} (<= 180)`); ok(Math.abs(y.x.shelfH - 122) <= 2, `sort: shelf ${y.x.shelfH.toFixed(1)} (2 rows = 122)`); }
@@ -1283,8 +1276,9 @@ async function facesSection(page, { en, pronEn, objEn, ctrlFilter }) {
     }
     if (face === 'write') {
       for (const y of [a, b, c]) { ok(Math.abs(y.x.body.bottom - y.x.lastBottom) <= 3, `write: the rows end ${(y.x.body.bottom - y.x.lastBottom).toFixed(1)} px above the body bottom`); ok(y.x.rows.every((rw) => rw.h >= 78 - 0.6), `write: rows ${y.x.rows.map((rw) => rw.h.toFixed(0)).join('/')} >= 78`); }
-      ok(a.x.rows.every((rw) => Math.abs(rw.svgW - 575) <= 0.6 && Math.abs(rw.svgH - 48) <= 0.6), `write: rulings ${a.x.rows[0].svgW.toFixed(0)} x ${a.x.rows[0].svgH.toFixed(0)} (575 x 48)`);
-      ok(a.x.rows.every((rw) => rw.pic && rw.pic.w >= 48 - 0.6), 'write: portraits 48');
+      // the ruling runs the full width since the portrait left the row (cfg.ruleW = PAGE_INNER 675 - 42)
+      ok(a.x.rows.every((rw) => Math.abs(rw.svgW - 633) <= 0.6 && Math.abs(rw.svgH - 48) <= 0.6), `write: rulings ${a.x.rows[0].svgW.toFixed(0)} x ${a.x.rows[0].svgH.toFixed(0)} (633 x 48)`);
+      ok(a.x.rows.every((rw) => !rw.pic), 'write: no portrait beside a named child');
     }
     if (face === 'ask') {
       for (const y of [a, b, c]) { ok(y.x.stack >= 660 && y.x.stack <= 677, `ask: stack ${y.x.stack.toFixed(1)} in [660, 677]`); ok(y.x.slackUnder <= 180 && y.x.slackUnder >= -0.6, `ask: slack under ${y.x.slackUnder.toFixed(0)} (<= 180)`); }
@@ -1394,7 +1388,7 @@ async function facesSection(page, { en, pronEn, objEn, ctrlFilter }) {
   await facePoison('P16b F2 the bank in the fixed order', 'fill', (h) => { const words = [...h.matchAll(/<span class="ws-bankword"[\s\S]*?<\/span><\/span>/g)].map((m) => m[0]); const byWord = new Map(words.map((w) => [/data-lcs-bank-word="([^"]+)"/.exec(w)[1], w])); const fixed = QW_KEYS.map((k) => byWord.get(en.qwords[k])).join(''); return h.replace(words.join(''), fixed); }, /fixed qwords order \(position leak\)/);
   await facePoison('P16c F2 a per-row gap width (one box 120)', 'fill', (h) => h.replace('width:170px;height:40px', 'width:120px;height:40px'), /gap box 120.* != the page gapW 170/);
   await facePoison('P16d F2 a bank word missing', 'fill', (h) => { const w = /<span class="ws-bankword"[\s\S]*?<\/span><\/span>/.exec(h); return h.replace(w[0], ''); }, /bank words .* != the qwords table|bank .* != the qwords table/);
-  await facePoison('P16e F2 3 who rows of 7 (pictureBot 0.43)', 'fill', null, /pictureBot 0\.43 > 0\.35/, { d: { rows: 7, kinds: { who: 3, what: 1, where: 1, when: 1, howmany: 1 }, maxPerKind: 3 } });
+  // (P16e tested the portrait's who-row tell; the fill rows carry no portrait since 2026-11-15)
   await facePoison('PS2 F2 the lanes fixed at 84', 'fill', (h) => must(h, 'repeat(6,minmax(84px,1fr))', 'repeat(6,84px)', 'PS2'), /rows end \d+ px above the body bottom/);
   await facePoison('PN2 F2 an answer stamp edited (What on a who row)', 'fill', (h) => must(h, 'data-lcs-ask="who" data-lcs-name', 'data-lcs-ask="what" data-lcs-name', 'PN2'), /answer stamp .* != qwords\.what|mark ".*" != markOf|a what row marks the name/);
   // F3 sort
@@ -1407,7 +1401,7 @@ async function facesSection(page, { en, pronEn, objEn, ctrlFilter }) {
   // F4 write
   await facePoison('P17 F4 the canonical question as a starter', 'write', (h) => { const m = /data-lcs-answer="([^"]+)"/.exec(h); return h.replace('</svg></div></div></div>', `<text x="8" y="34" font-family="Nunito" font-size="27" data-lcs-starter="1">${m[1]}</text></svg></div></div></div>`); }, /a starter on the ruling|text printed on the ruling|is printed on the page/);
   await facePoison('P17b F4 a bank banner on the write face', 'write', (h) => must(h, '<div data-lcs-lanes', C4.qwChips({ kinds: [{ kind: 'who', label: 'Who' }, { kind: 'what', label: 'What' }] }).replace('data-lcs-chips', 'data-lcs-bank-banner data-lcs-chips') + '<div data-lcs-lanes', 'P17b'), /a bank on the write face|a chip on the write face/);
-  await facePoison('P17c F4 the ruling narrowed to 300 (< need)', 'write', (h) => h.split('width="575" height="48"').join('width="300" height="48"'), /ruling 300 < 575|< need/);
+  await facePoison('P17c F4 the ruling narrowed to 300 (< need)', 'write', (h) => h.split('width="633" height="48"').join('width="300" height="48"'), /ruling 300 < 633|< need|rulings 300/);
   await facePoison('PS4 F4 the rows fixed at 78', 'write', (h) => must(h, 'repeat(8,minmax(78px,1fr))', 'repeat(8,78px)', 'PS4'), /rows end \d+ px above the body bottom/);
   await facePoison('PN4 F4 an answer stamp edited', 'write', (h) => { const m = /data-lcs-answer="([^"]+)\?"/.exec(h); return h.replace(m[0], `data-lcs-answer="${m[1]} now?"`); }, /answer stamp .* != questionOf/);
   // F5 ask

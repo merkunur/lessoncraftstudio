@@ -108,8 +108,8 @@ module.exports = {
 
   /**
    * THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small — each story of
-   * the native pool (six) at the level, in its smallest measured size, with ONE of its questions of that level (drawn by
-   * the check's seed): a card of its own, the right choice carrying data-lcs-correct as on the page. Level 3's write-in
+   * the native pool (six) at the level, in its smallest measured size, with TWO of its questions of that level (its first
+   * and its last, the same in every draw): a card of its own, the right choice carrying data-lcs-correct as on the page. Level 3's write-in
    * question has no one answer and stays off the check (its two multiple-choice questions are drawn). Six cards, where the
    * page has three questions.
    */
@@ -122,10 +122,18 @@ module.exports = {
       const html = built.bodyHtml;
       const passage = html.slice(html.indexOf('<div style="background:#FBF3E4'), html.indexOf('</p></div>') + '</p></div>'.length);
       const qs = html.split(/(?=<div class="ws-card-stage")/).slice(1).filter((q) => !q.includes('data-lcs-write="1"'));
-      const q = rng.pick(qs).replace(/(<\/div><\/div>)(<\/div><\/div>)?$/, '$1')
+      // TWO of its questions, the same two for the story in every draw — its first and its last (2026-11-15, en / de check
+      // reviews: one question was thin, and the two forms read the same story; a story's card is now one task, so form B
+      // never takes the story form A took)
+      const two = [qs[0], qs[qs.length - 1]].map((q) => q.replace(/(<\/div><\/div>)(<\/div><\/div>)?$/, '$1')
         .replace(/<span style="flex:0 0 auto;width:26px;height:26px;border-radius:50%[^>]*>\d<\/span>/, '')   // its number on the page
-        .replace('padding-left:36px', 'padding-left:0').replace('padding:8px 14px"', 'padding:8px 12px"');    // (the room of that number)
-      return `<div style="display:flex;flex-direction:column;gap:8px">${passage.replace('padding:12px 22px"', 'padding:10px 16px"').replace('margin-bottom:8px', 'margin-bottom:4px')}${q}</div>`;
+        .replace('padding-left:36px', 'padding-left:0').replace('padding:8px 14px"', 'padding:8px 12px"'));   // (the room of that number)
+      // (two questions under a story is a tall card: the questions are set a step tighter — the measured level-3 card of the
+      // longest story stood at 477 px, over the check's 460)
+      const tight = (q) => q.replace(/gap:(?:6|10)px;background:#FFFFFF/, 'gap:4px;background:#FFFFFF').replace('padding:8px 12px"', 'padding:5px 10px"')
+        .replace('font-weight:800;font-size:17px', 'font-weight:800;font-size:16px').replace('gap:14px;flex-wrap:wrap;padding-left:0', 'gap:8px;flex-wrap:wrap;padding-left:0')
+        .replace(/padding:5px 16px;font-family:'Nunito';font-weight:700;font-size:16px/g, "padding:2px 12px;font-family:'Nunito';font-weight:700;font-size:15px");
+      return `<div style="display:flex;flex-direction:column;gap:6px">${passage.replace('padding:12px 22px"', 'padding:8px 14px"').replace('margin-bottom:8px', 'margin-bottom:2px').replace('font-size:22px;color:#146B5E', 'font-size:19px;color:#146B5E')}${two.map(tight).join('')}</div>`;
     });
     return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
   },

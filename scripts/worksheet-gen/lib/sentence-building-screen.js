@@ -44,7 +44,9 @@ function screenOrKey(built, ctx, loc) {
       const tiles = ln.order.map((idx) => `<span class="ws-achip" data-lcs-tile="${idx}" data-lcs-label="${esc(ln.shown[idx])}" style="min-width:${w}px;height:104px;box-sizing:border-box;font-size:28px;padding:0 14px">${esc(ln.shown[idx])}</span>`).join('');
       return `<div data-lcs-item data-lcs-frame="${esc(ln.frame)}" data-lcs-noun="${esc(ln.noun)}" data-lcs-names="${esc(JSON.stringify(ln.names))}" data-lcs-rules="${rules}" data-lcs-word="${esc(ln.shown.join(''))}"${ln.alts && ln.alts.length ? ` data-lcs-alts="${esc(ln.alts.map((a) => a.join('')).join('|'))}"` : ''} data-ws-content ` +
         `style="display:flex;flex-direction:column;align-items:center;gap:14px;width:${SCR_W}px;padding:16px 10px;background:#FFFDF8;border:2px solid #EFE4D2;border-radius:16px;box-sizing:border-box">` +
-        `<img class="ws-icon" src="${ln.src}" alt="" style="width:120px;height:120px;object-fit:contain">` +
+        // as many pictures as the sentence names (ln.count: "two ducks" — G1-249, 2026-11-15)
+        (ln.count > 1 ? `<div style="display:flex;gap:8px;justify-content:center">` + `<img class="ws-icon" src="${ln.src}" alt="" style="width:${Math.min(120, Math.floor((600 - (ln.count - 1) * 8) / ln.count))}px;height:${Math.min(120, Math.floor((600 - (ln.count - 1) * 8) / ln.count))}px;object-fit:contain">`.repeat(ln.count) + `</div>`
+          : `<img class="ws-icon" src="${ln.src}" alt="" style="width:120px;height:120px;object-fit:contain">`) +
         `<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center">${slots}</div>` +
         `<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center">${tiles}</div></div>`;
     });
@@ -53,12 +55,16 @@ function screenOrKey(built, ctx, loc) {
   }
   // answer key: each lane's sentence written in coral, SEATED on its own writing row (key-on-row.js)
   let html = out.bodyHtml;
+  // three or more lanes with other right orders (es/fi level 3: a yes/no question in the statement's own order) run the key
+  // past the footer at 14 px (2026-11-15): their lines are set at 11 px there, every other key keeps 14 px
+  const alsoLanes = m.lanes.filter((ln) => ln.altsWritten && ln.altsWritten.length).length;
+  const alsoPx = alsoLanes >= 3 ? 11 : 14;
   for (const ln of m.lanes) {
     const needle = `data-lcs-frame="${esc(ln.frame)}"`;
     html = seatAfter(html, needle, ln.canonical, { fill: CORAL, font: 'nunito-700' });
     // a no-clue lane whose tiles make other sentences too (the native word-order review): under its row, one small line
     // "also right:" with each other order written as the sentence it is — never squeezed onto the row with the first
-    if (ln.altsWritten && ln.altsWritten.length) html = alsoAfter(html, needle, `${ALSO_RIGHT[loc] || ALSO_RIGHT.en} ${ln.altsWritten.join(' · ')}`);
+    if (ln.altsWritten && ln.altsWritten.length) html = alsoAfter(html, needle, `${ALSO_RIGHT[loc] || ALSO_RIGHT.en} ${ln.altsWritten.join(' · ')}`, alsoPx);
   }
   out.bodyHtml = html;
   return out;
@@ -71,13 +77,13 @@ const ALSO_RIGHT = {
 };
 
 /** Insert a small coral line right after the item's own writing row (the key only). */
-function alsoAfter(html, needle, text) {
+function alsoAfter(html, needle, text, px = 14) {
   const at = html.indexOf(needle);
   if (at < 0) throw new Error(`sentence key: no element "${needle.slice(0, 60)}"`);
   const rel = html.slice(at).search(/<svg[^>]*data-lcs-prim="writing-row"/);
   if (rel < 0) throw new Error(`sentence key: no writing row after "${needle.slice(0, 60)}"`);
   const e = html.indexOf('</svg>', at + rel) + 6;
-  return html.slice(0, e) + `<div data-lcs-keyalso="1" style="margin-top:4px;font-family:${esc(tokens.font.body)};font-weight:700;font-size:14px;line-height:1.3;color:${CORAL}">${esc(text)}</div>` + html.slice(e);
+  return html.slice(0, e) + `<div data-lcs-keyalso="1" style="margin-top:${px < 14 ? 1 : 4}px;font-family:${esc(tokens.font.body)};font-weight:700;font-size:${px}px;line-height:${px < 14 ? 1.15 : 1.3};color:${CORAL}">${esc(text)}</div>` + html.slice(e);
 }
 
 /** The robot's truth per item: the sentence rebuilt from the merged bank, shown as the level shows it (a word list). */

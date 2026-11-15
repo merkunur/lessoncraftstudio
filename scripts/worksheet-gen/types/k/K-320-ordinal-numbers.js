@@ -175,6 +175,11 @@ function buildFace(bankLoc, d, { theme, locale }, ctx) {
   throw new Error('K-320: unknown layout ' + d.layout);
 }
 
+/** the two blank sets of a unit check's strips (idx from the flag, 0 = the 1st, always printed), per n:blank of a level:
+ *  5:2 → missing 2nd and 4th | 3rd and 5th; 8:4 → missing 2nd 3rd 5th 8th | 2nd 4th 6th 7th (the reviewer's pair);
+ *  10:7 → printed 1st 4th 8th | 1st 5th 9th. No run of four blanks in any of them. */
+const CHECK_BLANKS = { '5:2': [[1, 3], [2, 4]], '8:4': [[1, 2, 4, 7], [1, 3, 5, 6]], '10:7': [[1, 2, 4, 5, 6, 8, 9], [1, 2, 3, 5, 6, 7, 9]] };
+
 /** F1 — write the ordinal numbers: given cells + open cells under every tile. */
 function buildWrite(bankLoc, d, { theme, loc, pool }, ctx) {
   const rng = ctx.rng;
@@ -191,7 +196,9 @@ function buildWrite(bankLoc, d, { theme, loc, pool }, ctx) {
     for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320 write: duplicate noun in a strip: ' + it.noun); seen.add(it.noun); }
     const start = sides[s];
     // the blank set: `blank` of idx 1..n-1, no run of 4 in a row, distinct from every earlier strip
-    let blanks = null;
+    // (a unit check, ctx.check: one of two fixed sets that share as few places as the line allows, strip by strip — review
+    // sv f1115, 2026-11-15: three of form B's four blanks were form A's; the check gives form B the set form A did not ask)
+    let blanks = ctx && ctx.check && CHECK_BLANKS[d.n + ':' + d.blank] ? CHECK_BLANKS[d.n + ':' + d.blank][s % 2].slice() : null;
     for (let attempt = 0; attempt < 500 && !blanks; attempt++) {
       const cand = rng.sample(positions, d.blank).sort((a, b) => a - b);
       let run = 0, bad = false;
@@ -449,6 +456,10 @@ module.exports = {
       instruction: 'Start at the flag. Count to the number of each chip and make the mark it shows.',
     },
   },
+
+  // the unit checks (Part 7.6): the worksheet's page, its write strips with the check's two blank sets (buildWrite);
+  // ctx.check reaches the key build only through this hook
+  checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);

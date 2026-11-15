@@ -90,11 +90,15 @@ module.exports = {
   interactive: NLS.interactiveFor('ptr'),
   levelSetWords(m) { return (m.asks || []).map(String); },
   pointerLevels,
+  // the unit checks (Part 7.6): the worksheet's page; its key leaves the boxes to the check, which writes each answer into
+  // its box itself (reviews de f1115, 2026-11-15: the key printed every number twice on top of itself, in two sizes and two
+  // colours). ctx.check reaches the key build only through this hook.
+  checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); },
 
   build(args, ctx) {
     const d = this.difficulty[args.difficulty];
     const lines = d.v2 ? this._linesV2(d, ctx.rng) : this._linesLegacy(d, ctx.rng);
-    const cards = lines.map((r) => `<div class="ws-card-stage">${numberLine({ ...r.line, pointers: r.pointers.map((value) => ({ value, show: !!(ctx && ctx.answerKey && !ctx.interactive) })) }).svg}</div>`);
+    const cards = lines.map((r) => `<div class="ws-card-stage">${numberLine({ ...r.line, pointers: r.pointers.map((value) => ({ value, show: !!(ctx && ctx.answerKey && !ctx.interactive && !ctx.check) })) }).svg}</div>`);
     const b = { bodyHtml: cardGrid({ cards, cols: 1, rows: d.lines }), meta: { asks: lines.map((r) => r.pointers.join('.')) } };   // a copy = its lines (a 0-20 line has only 16 unprinted ticks: single numbers always repeat)
     if (ctx && ctx.interactive) {
       const loc = (args.locale || 'en').slice(0, 2);

@@ -2818,6 +2818,52 @@
    ]
   },
   {
+   "id": "g1-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Reading to Learn: Informational Texts",
+   "metaTitle": "Grade 1 Lesson Plans: Reading to Learn from Informational Texts",
+   "metaDescription": "A two-week Grade 1 reading unit with short informational texts: 4 lessons on key details, the main topic, text features, and comparing two animal fact files.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:info-text-key-details",
+     "types": [
+      "G1-575"
+     ]
+    },
+    {
+     "point": "1:main-topic-key-details",
+     "types": [
+      "G1-576"
+     ]
+    },
+    {
+     "point": "1:text-features",
+     "types": [
+      "G1-578",
+      "G1-577"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:compare-two-animals",
+     "id": "2:compare-two-animals#two-fact-files-grade-1",
+     "types": [
+      "G2-342"
+     ],
+     "standards": [
+      "RI.1.9"
+     ],
+     "standardsRel": {
+      "RI.1.9": "prepares"
+     }
+    }
+   ]
+  },
+  {
    "id": "g2-sentences-and-grammar",
    "slug": "sentences-and-grammar-grade-2-unit",
    "status": "live",
@@ -3141,7 +3187,8 @@
    "units": [
     "g1-sounds-spelling-syllables",
     "g1-reading-sentences-and-stories",
-    "g1-words-and-how-they-work"
+    "g1-words-and-how-they-work",
+    "g1-reading-to-learn-informational-texts"
    ]
   },
   {

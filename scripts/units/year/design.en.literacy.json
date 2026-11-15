@@ -383,7 +383,8 @@
             "standard": "RI.1.1",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 70 words with a heading and a photo-style picture about one animal or place. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the text that tells it."
+            "page": "Fact text and questions page: an information text of about 70 words with a heading and a photo-style picture about one animal or place. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the text that tells it.",
+            "placed": "1:info-text-key-details"
           },
           {
             "new": true,
@@ -392,7 +393,8 @@
             "standard": "RI.1.2",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 70 words with a heading and one picture. Below: a topic box and three key-detail boxes. Level 1: the child circles the topic from three choices and copies one detail; level 2: the child writes the topic and two details; level 3: the child writes the topic and three details in their own words."
+            "page": "Fact text and questions page: an information text of about 70 words with a heading and one picture. Below: a topic box and three key-detail boxes. Level 1: the child circles the topic from three choices and copies one detail; level 2: the child writes the topic and two details; level 3: the child writes the topic and three details in their own words.",
+            "placed": "1:main-topic-key-details"
           },
           {
             "new": true,
@@ -401,7 +403,8 @@
             "standard": "RI.1.5",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 80 words in two sections, each with a heading, two bold words, a captioned picture, and a three-word glossary. Below: five find-it questions (Which heading tells about food? What does burrow mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer; level 3: the child adds a caption to a second picture."
+            "page": "Fact text and questions page: an information text of about 80 words in two sections, each with a heading, two bold words, a captioned picture, and a three-word glossary. Below: five find-it questions (Which heading tells about food? What does burrow mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer; level 3: the child adds a caption to a second picture.",
+            "placed": "1:text-features"
           },
           {
             "new": true,
@@ -410,7 +413,8 @@
             "standard": "RI.1.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two short information texts side by side on one topic (frogs and toads, about 40 words each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six fact strips into the two circles and the middle; level 2: the child writes two facts that are the same and one that is different; level 3: the child writes the facts and one sentence that compares."
+            "page": "Two-text comparison page: two short information texts side by side on one topic (frogs and toads, about 40 words each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six fact strips into the two circles and the middle; level 2: the child writes two facts that are the same and one that is different; level 3: the child writes the facts and one sentence that compares.",
+            "placed": "2:compare-two-animals#two-fact-files-grade-1"
           }
         ]
       },
@@ -804,7 +808,7 @@
             "objective": "Children compare two animals from two short texts and sort the facts that are the same and the facts that are different.",
             "standard": "RI.2.9",
             "days": 2,
-            "source": "point:2:compare-two-animals"
+            "source": "reuse:Compare Two Animals: Same and Different"
           }
         ]
       },

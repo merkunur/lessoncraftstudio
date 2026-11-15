@@ -2566,6 +2566,36 @@
    ],
    "by": "code"
   },
+  "1:info-text-key-details": {
+   "rows": [
+    {
+     "id": "RI.1.1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:main-topic-key-details": {
+   "rows": [
+    {
+     "id": "RI.1.2",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:text-features": {
+   "rows": [
+    {
+     "id": "RI.1.5",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "2:digraphs": {
    "rows": [
     {
@@ -2860,6 +2890,11 @@
      "id": "RI.2.9",
      "rel": "prepares",
      "grade": "2"
+    },
+    {
+     "id": "RI.1.9",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "review"

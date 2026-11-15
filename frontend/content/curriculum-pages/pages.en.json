@@ -2941,10 +2941,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 22,
-    "near": 2,
-    "open": 49,
-    "lessons": 25
+    "taught": 25,
+    "near": 3,
+    "open": 45,
+    "lessons": 29
    },
    "groups": [
     {
@@ -2992,17 +2992,71 @@
     },
     {
      "title": "Reading: Informational Text",
-     "items": [],
+     "items": [
+      {
+       "code": "RI.1.1",
+       "state": "taught",
+       "text": "Children ask and answer questions about key details in a short informational text and point to the sentence that tells the answer.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Facts in the text"
+        }
+       ]
+      },
+      {
+       "code": "RI.1.2",
+       "state": "taught",
+       "text": "Children name the main topic of an informational text and retell two or three key details that tell about it.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "The main topic and key details"
+        }
+       ]
+      },
+      {
+       "code": "RI.1.5",
+       "state": "taught",
+       "text": "Children name the text features of an informational text (title, heading, bold word, picture, caption, glossary) and use headings, bold words, a caption, and a glossary to find facts and word meanings.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Text features: titles, headings, bold words, pictures, captions, and a glossary"
+        }
+       ]
+      },
+      {
+       "code": "RI.1.9",
+       "state": "near",
+       "text": "Children read fact files about two different animals and find which facts are the same and which are different.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "Two animal fact files: same and different"
+        }
+       ]
+      }
+     ],
      "open": [
-      "RI.1.1",
-      "RI.1.2",
       "RI.1.3",
       "RI.1.4",
-      "RI.1.5",
       "RI.1.6",
       "RI.1.7",
       "RI.1.8",
-      "RI.1.9",
       "RI.1.10"
      ]
     },
@@ -6236,10 +6290,10 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 18,
-    "near": 8,
-    "open": 58,
-    "lessons": 23
+    "taught": 23,
+    "near": 7,
+    "open": 54,
+    "lessons": 25
    },
    "groups": [
     {
@@ -6563,16 +6617,15 @@
      "items": [
       {
        "code": "1.6.B",
-       "state": "near",
-       "text": "Children choose the question word, who, what, or where, that asks for a part of a sentence, and match questions to answers.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children ask and answer questions about key details in a short informational text and point to the sentence that tells the answer.",
        "lessons": [
         {
-         "unit": "reading-sentences-and-stories-grade-1-unit",
-         "unitTitle": "Reading Sentences and Stories",
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
          "unitGrade": "1",
-         "n": 4,
-         "title": "Who, what, where"
+         "n": 1,
+         "title": "Facts in the text"
         }
        ]
       },
@@ -6590,6 +6643,20 @@
          "title": "What happens next?"
         }
        ]
+      },
+      {
+       "code": "1.6.G",
+       "state": "taught",
+       "text": "Children name the main topic of an informational text and retell two or three key details that tell about it.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "The main topic and key details"
+        }
+       ]
       }
      ],
      "open": [
@@ -6597,7 +6664,6 @@
       "1.6.D",
       "1.6.E",
       "1.6.F",
-      "1.6.G",
       "1.6.H",
       "1.6.I"
      ]
@@ -6605,6 +6671,20 @@
     {
      "title": "Knowledge and skills (7)",
      "items": [
+      {
+       "code": "1.7.C",
+       "state": "taught",
+       "text": "Children ask and answer questions about key details in a short informational text and point to the sentence that tells the answer.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Facts in the text"
+        }
+       ]
+      },
       {
        "code": "1.7.D",
        "state": "near",
@@ -6624,7 +6704,6 @@
      "open": [
       "1.7.A",
       "1.7.B",
-      "1.7.C",
       "1.7.E",
       "1.7.F"
      ]
@@ -6656,13 +6735,40 @@
     },
     {
      "title": "Knowledge and skills (9)",
-     "items": [],
+     "items": [
+      {
+       "code": "1.9.D.i",
+       "state": "taught",
+       "text": "Children name the main topic of an informational text and retell two or three key details that tell about it.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "The main topic and key details"
+        }
+       ]
+      },
+      {
+       "code": "1.9.D.ii",
+       "state": "taught",
+       "text": "Children name the text features of an informational text (title, heading, bold word, picture, caption, glossary) and use headings, bold words, a caption, and a glossary to find facts and word meanings.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Text features: titles, headings, bold words, pictures, captions, and a glossary"
+        }
+       ]
+      }
+     ],
      "open": [
       "1.9.A",
       "1.9.B",
       "1.9.C",
-      "1.9.D.i",
-      "1.9.D.ii",
       "1.9.D.iii",
       "1.9.E",
       "1.9.F"
@@ -6836,7 +6942,7 @@
     "taught": 21,
     "near": 9,
     "open": 58,
-    "lessons": 21
+    "lessons": 22
    },
    "groups": [
     {
@@ -7426,7 +7532,7 @@
       {
        "code": "2.13.E",
        "state": "taught",
-       "text": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
+       "text": "Children read fact files about two different animals and find which facts are the same and which are different.",
        "lessons": [
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
@@ -7434,6 +7540,13 @@
          "unitGrade": "2",
          "n": 5,
          "title": "An animal fact sheet"
+        },
+        {
+         "unit": "reading-to-learn-informational-texts-grade-1-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "Two animal fact files: same and different"
         }
        ]
       }

@@ -1425,9 +1425,13 @@
     {
      "id": "RI.2.9",
      "rel": "prepares"
+    },
+    {
+     "id": "RI.1.9",
+     "rel": "prepares"
     }
    ],
-   "why": "RI.2.9 compares two texts on the same topic; comparing the facts of two different animals practises the same-and-different step toward it.",
+   "why": "RI.2.9 compares two texts on the same topic; comparing the facts of two different animals practises the same-and-different step toward it. In Grade 1 the same page prepares RI.1.9 (basic similarities and differences between two texts on one topic): a lesson of the Grade 1 unit on information texts uses it.",
    "review": "review-ela-science"
   },
   "3:cursive-sentences": {

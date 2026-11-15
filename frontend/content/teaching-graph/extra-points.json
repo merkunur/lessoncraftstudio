@@ -80,6 +80,34 @@
    "strand": "Operations & Algebraic Thinking",
    "code": "3.OA.D.8",
    "skill": "Solve two-step word problems with the four operations, write the problem as one equation with a letter for the unknown, and check the answer against an estimate from rounded numbers"
+  },
+  {
+   "tp": "1:info-text-key-details",
+   "grade": "1",
+   "strand": "Reading: Informational Text",
+   "code": "RI.1.1",
+   "skill": "Ask and answer questions about key details in a short informational text and find the sentence that tells the answer",
+   "activities": [
+    "atlas-fact-files.key-detail.ri-k-1"
+   ]
+  },
+  {
+   "tp": "1:main-topic-key-details",
+   "grade": "1",
+   "strand": "Reading: Informational Text",
+   "code": "RI.1.2",
+   "skill": "Name the main topic of an informational text and retell two or three key details that tell about it",
+   "activities": [
+    "nila-pond.main-idea-net.ri-k-2",
+    "marina-headline-desk.main-topic.ri-2-2"
+   ]
+  },
+  {
+   "tp": "1:text-features",
+   "grade": "1",
+   "strand": "Reading: Informational Text",
+   "code": "RI.1.5",
+   "skill": "Use headings, bold words, a caption and a glossary to find facts and word meanings in an informational text"
   }
  ]
 }

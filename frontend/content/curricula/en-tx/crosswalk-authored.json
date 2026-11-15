@@ -4415,6 +4415,44 @@
    ],
    "why": "Two-step problems «involving addition and subtraction within 1,000» (3.4.A) and «multiplication and division within 100» (3.4.K), written as equations (3.5.A); the page with an estimate rounds «to the nearest … 100 … to estimate solutions» (3.4.B).",
    "review": "year-design 2026-11-14"
+  },
+  "1:info-text-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.1.6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.7.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Asking and answering questions about a short informational text is «generate questions about text before, during, and after reading to deepen understanding and gain information»; pointing to the sentence that tells the answer is «use text evidence to support an appropriate response».",
+   "review": "year-design 2026-11-15"
+  },
+  "1:main-topic-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.1.9.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.6.G",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the main topic and its key details is «the central idea and supporting evidence» of informational text; choosing which details are key is «evaluate details to determine what is most important».",
+   "review": "year-design 2026-11-15"
+  },
+  "1:text-features": {
+   "rows": [
+    {
+     "id": "ELAR.1.9.D.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a fact from a heading, a bold word, a caption or the glossary is «features and simple graphics to locate or gain information» in informational text.",
+   "review": "year-design 2026-11-15"
   }
  }
 }

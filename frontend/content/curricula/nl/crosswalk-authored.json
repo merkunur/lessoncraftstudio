@@ -3444,6 +3444,21 @@
    ],
    "why": "Verhaaltjessommen in twee stappen zijn «toepassings-problemen» waarvoor de leerling een aanpak bedenkt en uitvoert, met optellen, aftrekken, vermenigvuldigen en delen; op de schatpagina controleert de leerling de uitkomst.",
    "review": "year-design 2026-11-14"
+  },
+  "1:info-text-key-details": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
+  },
+  "1:main-topic-key-details": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
+  },
+  "1:text-features": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
   }
  }
 }

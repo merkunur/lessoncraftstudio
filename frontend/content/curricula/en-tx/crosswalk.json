@@ -2941,6 +2941,46 @@
    ],
    "by": "authored"
   },
+  "1:info-text-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.1.6.B",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.7.C",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:main-topic-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.1.9.D.i",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.6.G",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:text-features": {
+   "rows": [
+    {
+     "id": "ELAR.1.9.D.ii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "2:digraphs": {
    "rows": [
     {

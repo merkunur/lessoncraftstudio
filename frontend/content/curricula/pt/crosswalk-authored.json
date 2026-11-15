@@ -4073,6 +4073,21 @@
    ],
    "why": "Problemas de duas etapas de «adição e subtração … utilizando diferentes estratégias de cálculo exato ou aproximado» (a página com estimativa) e de «multiplicação» e «divisão» com os significados de parcelas iguais e repartição.",
    "review": "year-design 2026-11-14"
+  },
+  "1:info-text-key-details": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
+  },
+  "1:main-topic-key-details": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
+  },
+  "1:text-features": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-15 for the English informational texts of Grade 1 (Part 12.3); a language gets its own texts, and no unit of this language teaches the point yet. Read it against the wording when the first informational texts of this language are written.",
+   "review": "year-design 2026-11-15"
   }
  }
 }

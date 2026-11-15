@@ -2063,7 +2063,8 @@
             "standard": "RI.K.1",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) about one animal or thing, with a photo-style picture. Below: four questions the teacher reads; the child circles the picture answer. Level 1: answers from three pictures; level 2: the child draws the answer; level 3: the child also draws a fact and dictates or writes a question about the topic."
+            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) about one animal or thing, with a photo-style picture. Below: four questions the teacher reads; the child circles the picture answer. Level 1: answers from three pictures; level 2: the child draws the answer; level 3: the child also draws a fact and dictates or writes a question about the topic.",
+            "placed": "K:fact-text-key-details"
           },
           {
             "new": true,
@@ -2072,7 +2073,8 @@
             "standard": "RI.K.2",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) with one picture. Below: a topic box (circle one of three pictures) and two key-detail boxes. Level 1: the child circles the topic and one detail; level 2: the child draws two details; level 3: the child draws and labels two details."
+            "page": "Fact text and questions page: an information text of four sentences in big print (about 30 words) with one picture. Below: a topic box (circle one of three pictures) and two key-detail boxes. Level 1: the child circles the topic and one detail; level 2: the child draws two details; level 3: the child draws and labels two details.",
+            "placed": "K:fact-text-main-topic"
           },
           {
             "new": true,
@@ -2081,7 +2083,8 @@
             "standard": "RI.K.7",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of four sentences about a plant with a labeled picture (roots, stem, leaf, flower). The child draws a line from each sentence to the part of the picture it tells about. Level 1: two labels; level 2: four labels; level 3: the child adds a label to a part that has none."
+            "page": "Fact text and questions page: an information text of four sentences about a plant with a labeled picture (roots, stem, leaf, flower). The child draws a line from each sentence to the part of the picture it tells about. Level 1: two labels; level 2: four labels; level 3: the child adds a label to a part that has none.",
+            "placed": "K:pictures-and-text"
           },
           {
             "new": true,
@@ -2090,7 +2093,8 @@
             "standard": "RI.K.3",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of four sentences about a change (an egg hatches into a chick). Below: two boxes joined by an arrow; the child shows the first and the second thing. Level 1: the child cuts and glues two pictures in order; level 2: the child draws both; level 3: the child draws both and finishes a frame (First ___, then ___.)."
+            "page": "Fact text and questions page: an information text of four sentences about a change (an egg hatches into a chick). Below: two boxes joined by an arrow; the child shows the first and the second thing. Level 1: the child cuts and glues two pictures in order; level 2: the child draws both; level 3: the child draws both and finishes a frame (First ___, then ___.).",
+            "placed": "K:first-then"
           },
           {
             "new": true,

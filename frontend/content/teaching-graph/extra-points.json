@@ -128,6 +128,26 @@
    "activities": [
     "nila-pond.main-idea-net.ri-k-2"
    ]
+  },
+  {
+   "tp": "K:pictures-and-text",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.7",
+   "skill": "Tell which picture goes with which sentence of a fact text, and what the picture shows of it",
+   "activities": [
+    "otto-picture-book.which-picture.rl-k-7"
+   ]
+  },
+  {
+   "tp": "K:first-then",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.3",
+   "skill": "Tell what comes first and what comes next in a fact text that tells a change",
+   "activities": [
+    "linc-fact-chain.connect.ri-k-3"
+   ]
   }
  ]
 }

@@ -2636,6 +2636,26 @@
    ],
    "by": "authored"
   },
+  "K:pictures-and-text": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.ii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:first-then": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.iii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

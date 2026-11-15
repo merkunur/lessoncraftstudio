@@ -4481,6 +4481,26 @@
    ],
    "why": "Circling what the whole text is about and showing two things it tells is «the central idea and supporting evidence with adult assistance» of informational text; choosing the key details is «evaluate details to determine what is most important with adult assistance».",
    "review": "year-design 2026-11-15"
+  },
+  "K:pictures-and-text": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a line from each sentence of a fact text to the picture that goes with it is «titles and simple graphics to gain information» in informational text.",
+   "review": "year-design 2026-11-15"
+  },
+  "K:first-then": {
+   "rows": [
+    {
+     "id": "ELAR.K.8.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Showing what comes first and what comes next in a text that tells a change is «the steps in a sequence with adult assistance» of informational text.",
+   "review": "year-design 2026-11-15"
   }
  }
 }

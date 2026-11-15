@@ -2271,6 +2271,26 @@
    ],
    "by": "code"
   },
+  "K:pictures-and-text": {
+   "rows": [
+    {
+     "id": "RI.K.7",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:first-then": {
+   "rows": [
+    {
+     "id": "RI.K.3",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

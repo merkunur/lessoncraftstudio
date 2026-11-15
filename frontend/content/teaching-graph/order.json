@@ -259,6 +259,8 @@
     "K:read-decodable-text",
     "K:fact-text-key-details",
     "K:fact-text-main-topic",
+    "K:pictures-and-text",
+    "K:first-then",
     "K:word-sentence-tracing",
     "K:articles"
    ]

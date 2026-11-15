@@ -2643,6 +2643,43 @@
    ]
   },
   {
+   "id": "k-reading-to-learn-fact-texts",
+   "slug": "reading-to-learn-fact-texts-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Reading to Learn: Fact Texts",
+   "metaTitle": "Kindergarten Lesson Plans: Reading to Learn from Fact Texts",
+   "metaDescription": "A two-week Kindergarten reading unit on short nonfiction texts in big print: 4 lessons on key details, the main topic, matching pictures to words, and first and next.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:fact-text-key-details",
+     "types": [
+      "K-645"
+     ]
+    },
+    {
+     "point": "K:fact-text-main-topic",
+     "types": [
+      "K-646"
+     ]
+    },
+    {
+     "point": "K:pictures-and-text",
+     "types": [
+      "K-647"
+     ]
+    },
+    {
+     "point": "K:first-then",
+     "types": [
+      "K-648"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-sounds-spelling-syllables",
    "slug": "sounds-spelling-and-syllables-grade-1-unit",
    "status": "live",
@@ -3173,7 +3210,8 @@
     "k-letters-and-handwriting",
     "k-hearing-sounds-in-words",
     "k-first-words-to-read",
-    "k-sorting-words-telling-stories"
+    "k-sorting-words-telling-stories",
+    "k-reading-to-learn-fact-texts"
    ]
   },
   {

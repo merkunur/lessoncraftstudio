@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After. KINDERGARTEN PAIRS (`k2`), written 2026-11-16: two fact texts of four short sentences on one topic; two library pictures of things BOTH texts tell about, two of the first text only, two of the second only (each with the `word` that stands in the text and a `label` a child can write). GRADE 3 TEXTS (`g3`), 2026-11-16: about 230 words in FOUR paragraphs, each with a heading and a `focus` (what it is mostly about; `focusLure` fits none), one library picture; the main idea as a sentence with one that is too narrow and one that is too wide, three key details and one sentence that is not in the text, a summary; five questions, each with the paragraph that proves the answer and the proving sentence word for word; four sentences of the text with the question each answers and a wrong question about the same paragraph (`lure`). READ 2026-11-16 by a US Grade 3 reviewer with the rendered pages; every finding applied.",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After. KINDERGARTEN PAIRS (`k2`), written 2026-11-16: two fact texts of four short sentences on one topic; two library pictures of things BOTH texts tell about, two of the first text only, two of the second only (each with the `word` that stands in the text and a `label` a child can write). GRADE 3 TEXTS (`g3`), 2026-11-16: about 230 words in FOUR paragraphs, each with a heading and a `focus` (what it is mostly about; `focusLure` fits none), one library picture; the main idea as a sentence with one that is too narrow and one that is too wide, three key details and one sentence that is not in the text, a summary; five questions, each with the paragraph that proves the answer and the proving sentence word for word; four sentences of the text with the question each answers and a wrong question about the same paragraph (`lure`). READ 2026-11-16 by a US Grade 3 reviewer with the rendered pages; every finding applied. THE GRADE 3 TEXTS AS A SMALL BOOK (`book`, 2026-11-16; read by a US Grade 3 reviewer with the rendered pages, every finding applied): paragraph n is page n + 1 under its heading; `keys` one bold key word a page (`bold` as it stands in the paragraph, `word` and `meaning` for the glossary); `sidebar` a fact that the chapters do not tell; `index` words (their pages are FOUND in the text when the factory loads and checked against the questions); `find` eight find-it questions with the tool that answers each (contents, index, heading, glossary, sidebar, keyword); `wants` five \"You want to ...\" lines with the tool and what it gives. HOW THE GRADE 3 TEXTS CONNECT (`connect`, 2026-11-16; read by a US Grade 3 reviewer with the rendered pages, every finding applied): `links` four cause-and-effect pairs (two whole sentences each; every effect belongs to ONE cause), `chain` four events or steps in the order of the text, `explain` a sample sentence with because for the answer key.",
  "g1": [
   {
    "id": "frogs",
@@ -5147,7 +5147,174 @@
      "answer": "In fog, the keeper also sounded a loud horn or bell, because ships could not see the light.",
      "lure": "When did the keeper light the lamp?"
     }
-   ]
+   ],
+   "book": {
+    "keys": [
+     {
+      "bold": "coasts",
+      "word": "coast",
+      "meaning": "the land along the sea"
+     },
+     {
+      "bold": "lens",
+      "word": "lens",
+      "meaning": "a curved piece of glass that bends light"
+     },
+     {
+      "bold": "keeper",
+      "word": "keeper",
+      "meaning": "a person who takes care of a lighthouse"
+     },
+     {
+      "bold": "backup",
+      "word": "backup",
+      "meaning": "something ready to use if the first thing fails"
+     }
+    ],
+    "sidebar": {
+     "page": 5,
+     "title": "Did You Know?",
+     "text": "From 1886 to 1902, the Statue of Liberty in New York Harbor was used as a lighthouse."
+    },
+    "index": [
+     "beam",
+     "fog",
+     "keeper",
+     "lamp",
+     "lens",
+     "museum",
+     "satellite"
+    ],
+    "find": [
+     {
+      "tool": "contents",
+      "q": "On which page does the chapter \"The Lighthouse Keeper\" begin?",
+      "answer": "4",
+      "wrong": [
+       "3",
+       "5"
+      ]
+     },
+     {
+      "tool": "contents",
+      "q": "Which chapter begins on page 3?",
+      "answer": "How the Light Works",
+      "wrong": [
+       "Keeping Ships Safe",
+       "Lighthouses Today"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about the lens?",
+      "answer": "3 and 4",
+      "wrong": [
+       "2 and 3",
+       "5 only"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which page can you read about fog?",
+      "answer": "4",
+      "wrong": [
+       "2",
+       "5"
+      ]
+     },
+     {
+      "tool": "heading",
+      "q": "Under which heading can you read what lighthouses are like now?",
+      "answer": "Lighthouses Today",
+      "wrong": [
+       "How the Light Works",
+       "Keeping Ships Safe"
+      ]
+     },
+     {
+      "tool": "glossary",
+      "q": "Which word in the glossary means \"something ready to use if the first thing fails\"?",
+      "answer": "backup",
+      "wrong": [
+       "lens",
+       "keeper"
+      ]
+     },
+     {
+      "tool": "sidebar",
+      "q": "What was the Statue of Liberty once used as?",
+      "answer": "a lighthouse",
+      "wrong": [
+       "a bridge",
+       "a ship"
+      ]
+     },
+     {
+      "tool": "keyword",
+      "q": "Which word is printed in bold on page 4?",
+      "answer": "keeper",
+      "wrong": [
+       "lens",
+       "fog"
+      ]
+     }
+    ],
+    "wants": [
+     {
+      "tool": "glossary",
+      "want": "You want to know what the word \"lens\" means.",
+      "answer": "a curved piece of glass that bends light"
+     },
+     {
+      "tool": "contents",
+      "want": "You want to see the names of all the chapters in one place.",
+      "answer": "Keeping Ships Safe, How the Light Works, The Lighthouse Keeper, Lighthouses Today"
+     },
+     {
+      "tool": "index",
+      "want": "You want to find every page that tells about lamps.",
+      "answer": "3, 4, and 5"
+     },
+     {
+      "tool": "sidebar",
+      "want": "You want to read an extra fact that is not part of the chapters.",
+      "answer": "The Statue of Liberty was once used as a lighthouse."
+     },
+     {
+      "tool": "keyword",
+      "want": "You want to find quickly the one word that stands out from the rest on page 3.",
+      "answer": "lens"
+     }
+    ]
+   },
+   "connect": {
+    "links": [
+     {
+      "cause": "Sailors could not see rocks and sand at night.",
+      "effect": "People built tall towers with a bright light."
+     },
+     {
+      "cause": "A special lens bends the light into a strong beam.",
+      "effect": "Sailors can see the light from about 20 miles away."
+     },
+     {
+      "cause": "Each lighthouse flashes in its own pattern.",
+      "effect": "Sailors can tell which lighthouse they see."
+     },
+     {
+      "cause": "Electric lamps turn on and off by themselves.",
+      "effect": "Lighthouses no longer need keepers."
+     }
+    ],
+    "topic": "how the light of a lighthouse changed over time",
+    "chain": [
+     "Keepers burned wood or coal on top of the tower.",
+     "Keepers used oil lamps.",
+     "Augustin Fresnel invented a special lens.",
+     "Lighthouses got electric lamps that turn on and off by themselves."
+    ],
+    "explain": "Lighthouses no longer need keepers because electric lamps turn on and off by themselves."
+   }
   },
   {
    "id": "space-station",
@@ -5289,7 +5456,174 @@
      "answer": "In space, muscles and bones do not have to carry the weight of the body, so they get weak.",
      "lure": "How do astronauts keep their muscles strong?"
     }
-   ]
+   ],
+   "book": {
+    "keys": [
+     {
+      "bold": "laboratory",
+      "word": "laboratory",
+      "meaning": "a place where scientists do experiments"
+     },
+     {
+      "bold": "glide",
+      "word": "glide",
+      "meaning": "to move smoothly without effort"
+     },
+     {
+      "bold": "pouches",
+      "word": "pouch",
+      "meaning": "a small soft bag"
+     },
+     {
+      "bold": "treadmill",
+      "word": "treadmill",
+      "meaning": "a machine with a moving belt to walk or run on"
+     }
+    ],
+    "sidebar": {
+     "page": 2,
+     "title": "Did You Know?",
+     "text": "The space station is about as long as a football field."
+    },
+    "index": [
+     "astronaut",
+     "crew",
+     "exercise",
+     "experiment",
+     "sleeping bag",
+     "Velcro",
+     "wall"
+    ],
+    "find": [
+     {
+      "tool": "contents",
+      "q": "On which page does the chapter \"Eating and Sleeping\" begin?",
+      "answer": "4",
+      "wrong": [
+       "3",
+       "5"
+      ]
+     },
+     {
+      "tool": "contents",
+      "q": "Which chapter begins on page 5?",
+      "answer": "Work and Exercise",
+      "wrong": [
+       "Floating All Day",
+       "A Laboratory Above Earth"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about walls?",
+      "answer": "3 and 4",
+      "wrong": [
+       "2 and 5",
+       "4 only"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which page can you read about the crew?",
+      "answer": "2",
+      "wrong": [
+       "3",
+       "5"
+      ]
+     },
+     {
+      "tool": "heading",
+      "q": "Under which heading can you read how astronauts move through the station?",
+      "answer": "Floating All Day",
+      "wrong": [
+       "Work and Exercise",
+       "Eating and Sleeping"
+      ]
+     },
+     {
+      "tool": "glossary",
+      "q": "Which word in the glossary means \"a machine with a moving belt to walk or run on\"?",
+      "answer": "treadmill",
+      "wrong": [
+       "pouch",
+       "laboratory"
+      ]
+     },
+     {
+      "tool": "sidebar",
+      "q": "How long is the space station?",
+      "answer": "about as long as a football field",
+      "wrong": [
+       "about as long as a school bus",
+       "about as long as a car"
+      ]
+     },
+     {
+      "tool": "keyword",
+      "q": "Which word is printed in bold on page 3?",
+      "answer": "glide",
+      "wrong": [
+       "pouches",
+       "treadmill"
+      ]
+     }
+    ],
+    "wants": [
+     {
+      "tool": "glossary",
+      "want": "You want to know what the word \"laboratory\" means.",
+      "answer": "a place where scientists do experiments"
+     },
+     {
+      "tool": "contents",
+      "want": "You want to see the names of all the chapters in one place.",
+      "answer": "A Laboratory Above Earth, Floating All Day, Eating and Sleeping, Work and Exercise"
+     },
+     {
+      "tool": "index",
+      "want": "You want to find every page that tells about astronauts.",
+      "answer": "2, 3, 4, and 5"
+     },
+     {
+      "tool": "sidebar",
+      "want": "You want to read an extra fact that is not part of the chapters.",
+      "answer": "The space station is about as long as a football field."
+     },
+     {
+      "tool": "keyword",
+      "want": "You want to find quickly the one word that stands out from the rest on page 4.",
+      "answer": "pouches"
+     }
+    ]
+   },
+   "connect": {
+    "links": [
+     {
+      "cause": "The station travels very fast.",
+      "effect": "It goes around Earth about 16 times every day."
+     },
+     {
+      "cause": "Crumbs and drops could drift into the machines.",
+      "effect": "Meals come in sealed bags and cans."
+     },
+     {
+      "cause": "A sleeping astronaut would slowly float around.",
+      "effect": "Each sleeping bag is tied to the wall."
+     },
+     {
+      "cause": "In space, muscles and bones do not carry the weight of the body.",
+      "effect": "Muscles and bones get weak."
+     }
+    ],
+    "topic": "how astronauts stay strong in space",
+    "chain": [
+     "In space, muscles and bones do not carry the weight of the body.",
+     "Muscles and bones get weak.",
+     "Astronauts run on a treadmill and pull against machines.",
+     "The astronauts stay strong for their return to Earth."
+    ],
+    "explain": "Astronauts exercise every day because their muscles and bones get weak in space."
+   }
   },
   {
    "id": "emperor-penguins",
@@ -5434,7 +5768,174 @@
      "answer": "By summer, the young penguin has grown waterproof feathers.",
      "lure": "Who feeds the young penguin?"
     }
-   ]
+   ],
+   "book": {
+    "keys": [
+     {
+      "bold": "Antarctica",
+      "word": "Antarctica",
+      "meaning": "the icy land around the South Pole"
+     },
+     {
+      "bold": "balances",
+      "word": "balance",
+      "meaning": "to keep something steady so it does not fall"
+     },
+     {
+      "bold": "huddle",
+      "word": "huddle",
+      "meaning": "a group standing very close together"
+     },
+     {
+      "bold": "waterproof",
+      "word": "waterproof",
+      "meaning": "not letting water through"
+     }
+    ],
+    "sidebar": {
+     "page": 5,
+     "title": "Did You Know?",
+     "text": "Emperor penguins can dive more than 1,500 feet deep. No other bird dives so deep."
+    },
+    "index": [
+     "chick",
+     "egg",
+     "father",
+     "feathers",
+     "huddle",
+     "mother",
+     "sea"
+    ],
+    "find": [
+     {
+      "tool": "contents",
+      "q": "On which page does the chapter \"Huddling Together\" begin?",
+      "answer": "4",
+      "wrong": [
+       "2",
+       "5"
+      ]
+     },
+     {
+      "tool": "contents",
+      "q": "Which chapter begins on page 3?",
+      "answer": "One Egg in Winter",
+      "wrong": [
+       "The Chick Arrives",
+       "The Coldest Home on Earth"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about feathers?",
+      "answer": "2 and 5",
+      "wrong": [
+       "3 and 4",
+       "2 only"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about the sea?",
+      "answer": "3 and 5",
+      "wrong": [
+       "2 and 4",
+       "5 only"
+      ]
+     },
+     {
+      "tool": "heading",
+      "q": "Under which heading can you read how the chick is fed?",
+      "answer": "The Chick Arrives",
+      "wrong": [
+       "One Egg in Winter",
+       "Huddling Together"
+      ]
+     },
+     {
+      "tool": "glossary",
+      "q": "Which word in the glossary means \"the icy land around the South Pole\"?",
+      "answer": "Antarctica",
+      "wrong": [
+       "huddle",
+       "waterproof"
+      ]
+     },
+     {
+      "tool": "sidebar",
+      "q": "How deep can emperor penguins dive?",
+      "answer": "more than 1,500 feet",
+      "wrong": [
+       "about 40 feet",
+       "about four feet"
+      ]
+     },
+     {
+      "tool": "keyword",
+      "q": "Which word is printed in bold on page 5?",
+      "answer": "waterproof",
+      "wrong": [
+       "huddle",
+       "balances"
+      ]
+     }
+    ],
+    "wants": [
+     {
+      "tool": "glossary",
+      "want": "You want to know what the word \"waterproof\" means.",
+      "answer": "not letting water through"
+     },
+     {
+      "tool": "contents",
+      "want": "You want to see the names of all the chapters in one place.",
+      "answer": "The Coldest Home on Earth, One Egg in Winter, Huddling Together, The Chick Arrives"
+     },
+     {
+      "tool": "index",
+      "want": "You want to find every page that tells about the mother.",
+      "answer": "3 and 5"
+     },
+     {
+      "tool": "sidebar",
+      "want": "You want to read an extra fact that is not part of the chapters.",
+      "answer": "Emperor penguins can dive more than 1,500 feet deep."
+     },
+     {
+      "tool": "keyword",
+      "want": "You want to find quickly the one word that stands out from the rest on page 4.",
+      "answer": "huddle"
+     }
+    ]
+   },
+   "connect": {
+    "links": [
+     {
+      "cause": "Emperor penguins have thick fat and tightly packed feathers.",
+      "effect": "Their bodies stay warm in the cold."
+     },
+     {
+      "cause": "The father cannot leave the egg.",
+      "effect": "He eats nothing for about two months."
+     },
+     {
+      "cause": "The birds on the outside of the huddle are cold.",
+      "effect": "The penguins keep changing places."
+     },
+     {
+      "cause": "The mother comes back with food for the chick.",
+      "effect": "The hungry father can go to the sea."
+     }
+    ],
+    "topic": "how emperor penguins raise a chick",
+    "chain": [
+     "The mother lays one egg and passes it to the father.",
+     "The father keeps the egg warm on his feet for about two months.",
+     "The chick hatches, and the mother comes back with food.",
+     "The young penguin grows waterproof feathers."
+    ],
+    "explain": "The father can go to the sea to eat because the mother comes back and feeds the chick."
+   }
   },
   {
    "id": "pony-express",
@@ -5579,7 +6080,174 @@
      "answer": "In October 1861, workers finished a telegraph line that reached all the way to California.",
      "lure": "How long did the Pony Express last?"
     }
-   ]
+   ],
+   "book": {
+    "keys": [
+     {
+      "bold": "stagecoach",
+      "word": "stagecoach",
+      "meaning": "a large carriage pulled by horses that carried people and mail"
+     },
+     {
+      "bold": "route",
+      "word": "route",
+      "meaning": "the way from one place to another"
+     },
+     {
+      "bold": "teenagers",
+      "word": "teenager",
+      "meaning": "a person from 13 to 19 years old"
+     },
+     {
+      "bold": "telegraph",
+      "word": "telegraph",
+      "meaning": "a machine that sent messages over a wire"
+     }
+    ],
+    "sidebar": {
+     "page": 4,
+     "title": "Did You Know?",
+     "text": "The fastest trip took less than eight days. It carried the speech Abraham Lincoln gave on the day he became president."
+    },
+    "index": [
+     "California",
+     "horse",
+     "letter",
+     "mail",
+     "Missouri",
+     "station",
+     "telegraph"
+    ],
+    "find": [
+     {
+      "tool": "contents",
+      "q": "On which page does the chapter \"Brave Young Riders\" begin?",
+      "answer": "4",
+      "wrong": [
+       "3",
+       "5"
+      ]
+     },
+     {
+      "tool": "contents",
+      "q": "Which chapter begins on page 5?",
+      "answer": "The End of the Pony Express",
+      "wrong": [
+       "Mail for the West",
+       "From Station to Station"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about horses?",
+      "answer": "2, 3, and 4",
+      "wrong": [
+       "3 only",
+       "4 and 5"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which page can you read about Missouri?",
+      "answer": "3",
+      "wrong": [
+       "2",
+       "5"
+      ]
+     },
+     {
+      "tool": "heading",
+      "q": "Under which heading can you read why the Pony Express closed?",
+      "answer": "The End of the Pony Express",
+      "wrong": [
+       "Mail for the West",
+       "Brave Young Riders"
+      ]
+     },
+     {
+      "tool": "glossary",
+      "q": "Which word in the glossary means \"a person from 13 to 19 years old\"?",
+      "answer": "teenager",
+      "wrong": [
+       "route",
+       "telegraph"
+      ]
+     },
+     {
+      "tool": "sidebar",
+      "q": "How long did the fastest trip take?",
+      "answer": "less than eight days",
+      "wrong": [
+       "about 18 months",
+       "about one month"
+      ]
+     },
+     {
+      "tool": "keyword",
+      "q": "Which word is printed in bold on page 2?",
+      "answer": "stagecoach",
+      "wrong": [
+       "route",
+       "telegraph"
+      ]
+     }
+    ],
+    "wants": [
+     {
+      "tool": "glossary",
+      "want": "You want to know what the word \"telegraph\" means.",
+      "answer": "a machine that sent messages over a wire"
+     },
+     {
+      "tool": "contents",
+      "want": "You want to see the names of all the chapters in one place.",
+      "answer": "Mail for the West, From Station to Station, Brave Young Riders, The End of the Pony Express"
+     },
+     {
+      "tool": "index",
+      "want": "You want to find every page that tells about California.",
+      "answer": "2, 3, and 5"
+     },
+     {
+      "tool": "sidebar",
+      "want": "You want to read an extra fact that is not part of the chapters.",
+      "answer": "The fastest trip took less than eight days."
+     },
+     {
+      "tool": "keyword",
+      "want": "You want to find quickly the one word that stands out from the rest on page 4.",
+      "answer": "teenagers"
+     }
+    ]
+   },
+   "connect": {
+    "links": [
+     {
+      "cause": "Mail to California took three weeks or more.",
+      "effect": "Three businessmen started the Pony Express."
+     },
+     {
+      "cause": "The riders were young and light.",
+      "effect": "The horses could run fast."
+     },
+     {
+      "cause": "A new rider took over the bag of mail after about 75 miles.",
+      "effect": "The mail kept moving day and night."
+     },
+     {
+      "cause": "A telegraph line reached all the way to California.",
+      "effect": "Nobody needed the fast riders anymore."
+     }
+    ],
+    "topic": "how the Pony Express began and ended",
+    "chain": [
+     "Mail to California took three weeks or more.",
+     "Three businessmen started the Pony Express.",
+     "Workers finished a telegraph line to California.",
+     "The Pony Express closed."
+    ],
+    "explain": "The Pony Express closed because a telegraph could send a message in minutes."
+   }
   },
   {
    "id": "blue-whales",
@@ -5724,7 +6392,174 @@
      "answer": "It is a mammal, and it breathes air just as you do.",
      "lure": "Where are the blowholes of a blue whale?"
     }
-   ]
+   ],
+   "book": {
+    "keys": [
+     {
+      "bold": "oceans",
+      "word": "ocean",
+      "meaning": "a very large body of salt water"
+     },
+     {
+      "bold": "baleen",
+      "word": "baleen",
+      "meaning": "long plates in a whale's mouth that hold back food"
+     },
+     {
+      "bold": "mammal",
+      "word": "mammal",
+      "meaning": "an animal that breathes air and feeds its young with milk"
+     },
+     {
+      "bold": "calf",
+      "word": "calf",
+      "meaning": "a baby whale"
+     }
+    ],
+    "sidebar": {
+     "page": 3,
+     "title": "Did You Know?",
+     "text": "In one day, a blue whale can eat about four tons of krill."
+    },
+    "index": [
+     "baleen",
+     "blowhole",
+     "calf",
+     "krill",
+     "milk",
+     "teeth",
+     "tongue"
+    ],
+    "find": [
+     {
+      "tool": "contents",
+      "q": "On which page does the chapter \"Breathing Air\" begin?",
+      "answer": "4",
+      "wrong": [
+       "3",
+       "5"
+      ]
+     },
+     {
+      "tool": "contents",
+      "q": "Which chapter begins on page 5?",
+      "answer": "Mothers and Calves",
+      "wrong": [
+       "The Biggest Animal",
+       "Tiny Food for a Giant"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which pages can you read about krill?",
+      "answer": "3 and 5",
+      "wrong": [
+       "2 and 3",
+       "4 only"
+      ]
+     },
+     {
+      "tool": "index",
+      "q": "On which page can you read about the tongue?",
+      "answer": "2",
+      "wrong": [
+       "3",
+       "4"
+      ]
+     },
+     {
+      "tool": "heading",
+      "q": "Under which heading can you read what a blue whale eats?",
+      "answer": "Tiny Food for a Giant",
+      "wrong": [
+       "The Biggest Animal",
+       "Breathing Air"
+      ]
+     },
+     {
+      "tool": "glossary",
+      "q": "Which word in the glossary means \"an animal that breathes air and feeds its young with milk\"?",
+      "answer": "mammal",
+      "wrong": [
+       "ocean",
+       "calf"
+      ]
+     },
+     {
+      "tool": "sidebar",
+      "q": "How much krill can a blue whale eat in one day?",
+      "answer": "about four tons",
+      "wrong": [
+       "about 200 pounds",
+       "about 25 feet"
+      ]
+     },
+     {
+      "tool": "keyword",
+      "q": "Which word is printed in bold on page 3?",
+      "answer": "baleen",
+      "wrong": [
+       "mammal",
+       "calf"
+      ]
+     }
+    ],
+    "wants": [
+     {
+      "tool": "glossary",
+      "want": "You want to know what the word \"baleen\" means.",
+      "answer": "long plates in a whale's mouth that hold back food"
+     },
+     {
+      "tool": "contents",
+      "want": "You want to see the names of all the chapters in one place.",
+      "answer": "The Biggest Animal, Tiny Food for a Giant, Breathing Air, Mothers and Calves"
+     },
+     {
+      "tool": "index",
+      "want": "You want to find every page that tells about krill.",
+      "answer": "3 and 5"
+     },
+     {
+      "tool": "sidebar",
+      "want": "You want to read an extra fact that is not part of the chapters.",
+      "answer": "A blue whale can eat about four tons of krill in one day."
+     },
+     {
+      "tool": "keyword",
+      "want": "You want to find quickly the one word that stands out from the rest on page 4.",
+      "answer": "mammal"
+     }
+    ]
+   },
+   "connect": {
+    "links": [
+     {
+      "cause": "A blue whale has no teeth.",
+      "effect": "It catches krill with its baleen."
+     },
+     {
+      "cause": "A blue whale is a mammal and breathes air.",
+      "effect": "It has to come to the surface."
+     },
+     {
+      "cause": "The calf drinks milk from its mother.",
+      "effect": "It gains about 200 pounds every day."
+     },
+     {
+      "cause": "The whale blows out hard through its blowholes.",
+      "effect": "Spray shoots 30 feet into the air."
+     }
+    ],
+    "topic": "how a blue whale breathes",
+    "chain": [
+     "The whale comes to the surface.",
+     "It blows out through its two blowholes.",
+     "It breathes in.",
+     "It dives again."
+    ],
+    "explain": "A blue whale has to come to the surface because it is a mammal and breathes air."
+   }
   }
  ]
 }

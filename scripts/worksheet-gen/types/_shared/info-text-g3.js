@@ -99,8 +99,8 @@ const LEVELS = {
 
 const tab = (n) => `<span data-lcs-paratab="${n}" style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;margin-top:1px;border-radius:50%;background:${T.teal};color:#FFFFFF;font:800 14px/1 'Nunito',sans-serif">${n}</span>`;
 /** the text in its box: the title with the picture, then the four numbered paragraphs (with or without their headings) */
-function textBox(t, { font, lh, headings }) {
-  const parts = t.parts.map((p, i) => `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px;margin-top:${i ? 4 : 0}px">${tab(i + 1)}<div style="flex:1 1 auto;min-width:0">` +
+function textBox(t, { font, lh, headings, numbers = true }) {   // numbers:false = no paragraph numbers
+  const parts = t.parts.map((p, i) => `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px;margin-top:${i ? 4 : 0}px">${numbers ? tab(i + 1) : ''}<div style="flex:1 1 auto;min-width:0">` +
     `<div data-lcs-partbody style="font:700 ${font}px/${lh} 'Nunito',sans-serif;color:${T.ink}">` + (headings ? `<span data-lcs-heading style="font:700 ${font + 1}px/1 'Baloo 2',cursive;color:${T.teal};margin-right:7px">${esc(p.heading)}</span>` : '') + `${esc(partText(p))}</div></div></div>`).join('');
   return `<div data-lcs-info3text="${t.id}" data-lcs-words="${wordsIn(t.parts.map(partText).join(' '))}" style="flex:0 0 auto;padding:6px 14px 8px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
     `<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:2px"><div data-lcs-title style="font:700 24px/1.1 'Baloo 2',cursive;color:${T.ink}">${esc(t.title)}</div>` +
@@ -368,4 +368,4 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
   };
 }
 
-module.exports = { makeInfoText3Type, faultsOf, TEXTS, LEVELS };
+module.exports = { makeInfoText3Type, faultsOf, TEXTS, LEVELS, _parts3: { wordsIn, partText, textBox, cream, label, num, numBox, rule, stack, grid, FULL, RULE } };

@@ -7031,5 +7031,37 @@
     "3": {
       "en": "Read the text. Write a heading for each paragraph and what the paragraph is mostly about."
     }
+  },
+  "G3-498": {
+    "1": {
+      "en": "This text is printed as a small book. Read it. Then use the text feature named in each question and circle the answer."
+    },
+    "3": {
+      "en": "Read this small book. Write each answer and the letter of the text feature that helped you find it. Then add two words to the index."
+    }
+  },
+  "G3-499": {
+    "1": {
+      "en": "This text is printed as a small book. Read it. Then write the letter of the text feature you would use each time."
+    },
+    "3": {
+      "en": "This text is printed as a small book. Read it. For each text feature, write a question that it answers. Then write the answer."
+    }
+  },
+  "G3-500": {
+    "1": {
+      "en": "Read the text. Put the four events or steps in order. Then circle the answer to each question."
+    },
+    "3": {
+      "en": "Read the text. Write the four events or steps in order. Then explain why one of them happens or what it leads to."
+    }
+  },
+  "G3-501": {
+    "1": {
+      "en": "Read the text. A cause makes something happen. An effect is what happens. Next to each cause, write the letter of its effect."
+    },
+    "3": {
+      "en": "Read the text. Write the missing cause or effect. Then write the cause and the effect as one sentence with because or so."
+    }
   }
 }

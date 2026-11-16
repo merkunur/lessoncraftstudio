@@ -1,0 +1,205 @@
+/**
+ * info-text-g3c.js — two Grade 3 pages on how the events and ideas of ONE informational text connect (English literacy
+ * year, Daily Teaching System Part 12.3, 2026-11-16; unit "Reading to Learn: Informational Texts", Grade 3; RI.3.3:
+ * describe the relationship between a series of events, ideas or steps in a text, using language that pertains to
+ * time, sequence, and cause/effect). The texts are the key `g3` of data/literacy/info-texts.en.json with their field
+ * `connect`: four cause-and-effect pairs, a chain of four events or steps in the order of the text, and a sample
+ * sentence that explains one link.
+ *
+ *   chain   Events in Order
+ *             level 1  the four events, mixed: number them 1 to 4; then what happened right after the first event
+ *                      and right before the last (three answers each)
+ *             level 2  write the four events on a chain of four lines that begin First, Next, Then, Finally
+ *             level 3  the chain, and two lines that tell with because or so why one event happens or what it leads to
+ *                      (neighbouring events of a chain in TIME are not causes of each other: the reviewer, 2026-11-16)
+ *   cause   Cause and Effect
+ *             level 1  four causes and four effects (lettered, mixed): the letter of its effect next to each cause
+ *             level 2  four cards: the cause is given and the effect is written, or the other way round (two each)
+ *             level 3  three cards: the missing half, then cause and effect as ONE sentence with because or so (two lines)
+ * Every effect belongs to ONE cause (the reviewer listed every second match; the pairs were changed). Level 1 of the
+ * chain page prints the text without its paragraph numbers: the task asks for the numbers 1 to 4.
+ *
+ * The text is printed with its headings (info-text-g3.js textBox); writing lines are its ruled lines (rule()).
+ * English only. Themeless: a copy is another text. PDF only. The bank is checked when this file loads.
+ */
+'use strict';
+const T = require('../../primitives/_tokens.js').color;
+const { placesFor, _parts } = require('./info-text.js');
+const { W, esc, shuffle, choices, placed } = _parts;
+const { TEXTS, _parts3 } = require('./info-text-g3.js');
+const { partText, textBox, cream, label, num, numBox, rule, stack, grid } = _parts3;
+void placesFor;
+
+const STARTS = ['First,', 'Next,', 'Then,', 'Finally,'];
+const lowerFirst = (s) => (/^(I |[A-Z][a-z]+ [A-Z])/.test(s) ? s : s[0].toLowerCase() + s.slice(1));
+/** cause and effect as one sentence (the key's sample) */
+const joined = (l) => l.cause.replace(/\.$/, '') + ', so ' + lowerFirst(l.effect);
+
+/** What must be true of a text's connections before any page prints them. Returns the list of faults (empty = sound). */
+function connectFaultsOf(t) {
+  const f = [], id = t.id, c = t.connect;
+  if (!c) return [id + ': no connections'];
+  const sent = (s) => typeof s === 'string' && /^[A-Z].*\.$/.test(s) && s.length <= 70;
+  if (!Array.isArray(c.links) || c.links.length !== 4 || c.links.some((l) => !sent(l.cause) || !sent(l.effect))) f.push(id + ': not four cause-and-effect pairs of whole sentences of at most 70 letters');
+  else if (new Set(c.links.flatMap((l) => [l.cause, l.effect])).size !== 8) f.push(id + ': a cause or an effect stands twice');
+  if (!Array.isArray(c.chain) || c.chain.length !== 4 || c.chain.some((s) => !sent(s)) || new Set(c.chain).size !== 4) f.push(id + ': not a chain of four different whole sentences of at most 70 letters');
+  if (!/^[A-Z].*[.]$/.test(c.explain || '') || !/ because | so /.test(c.explain || '') || c.explain.length > 100) f.push(id + ': no sample sentence with because or so of at most 100 letters');
+  if (typeof c.topic !== 'string' || !/^[a-z]/.test(c.topic) || c.topic.length > 60) f.push(id + ': the chain does not say what it tells (at most 60 letters, no capital at the start)');
+  // every event of the chain is told in the text in this order: its first two long words stand in the text, and the places rise
+  const text = t.parts.map(partText).join(' ').toLowerCase();
+  const at = (c.chain || []).map((s) => { const ws = s.toLowerCase().replace(/[^a-z ]/g, '').split(' ').filter((w) => w.length > 4); const hit = ws.map((w) => text.indexOf(w.slice(0, 5))).filter((i) => i >= 0); return hit.length ? Math.min(...hit) : -1; });
+  if (at.some((i) => i < 0)) f.push(id + ': an event of the chain is not told in the text');
+  return f;
+}
+{ const f = TEXTS.flatMap(connectFaultsOf); if (f.length) throw new Error('info-texts.en.json (g3 connect): ' + f.join('; ')); }
+
+const LEVELS = {
+  chain: { 1: { font: 14.6, lh: 1.32 }, 2: { font: 15.6, lh: 1.42, rowH: 42 }, 3: { font: 14.6, lh: 1.32, rowH: 30 } },
+  cause: { 1: { font: 15.6, lh: 1.42 }, 2: { font: 14.6, lh: 1.32, rowH: 30 }, 3: { font: 14.5, lh: 1.3, rowH: 28 } },
+};
+const ARROW = `<svg data-lcs-arrow width="18" height="12" viewBox="0 0 18 12" style="display:block;margin:0 auto"><path d="M9 0 V7 M3.5 4.5 L9 11 L14.5 4.5" fill="none" stroke="${T.teal}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const given = (kind, text) => `<div data-lcs-given="${kind}" style="font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}"><b style="font-weight:800;color:${T.teal}">${kind === 'cause' ? 'Cause:' : 'Effect:'}</b> ${esc(text)}</div>`;
+
+function makeInfoText3cType({ id, slug, mode, i18n }) {
+  const D = LEVELS[mode];
+  if (!D) throw new Error('info-text-g3c: unknown mode ' + mode);
+  return {
+    id, slug, gradeBand: 'G3', assetClass: 'none', exerciseType: 'reading-comprehension',
+    themeAxis: { applicable: false },
+    difficulty: D,
+    i18n,
+
+    build({ difficulty, locale }, ctx) {
+      if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
+      const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng;
+      const key = !!(ctx && ctx.answerKey);
+      const t = rng.sample(TEXTS, 1)[0], c = t.connect;
+      const inner = W - 24;
+      let below = '', items = [];
+
+      if (mode === 'chain') {
+        if (lv === 1) {
+          let order; for (let n = 0; n < 100; n++) { order = shuffle([0, 1, 2, 3], rng); const s = order.join(''); if (s !== '0123' && s !== '3210') break; }
+          const strips = cream('data-lcs-strips="1"', label(`These four sentences tell <b data-lcs-topic>${esc(c.topic)}</b>. Put them in order: write 1, 2, 3, and 4 in the boxes.`, 15) +
+            order.map((i) => `<div data-lcs-strip="${i + 1}" style="display:flex;align-items:center;gap:10px;min-height:33px">${numBox(i + 1, key)}<span style="font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(c.chain[i])}</span></div>`).join(''), 6);
+          const at = [rng.int(0, 2), 0]; at[1] = (at[0] + 1 + rng.int(0, 1)) % 3;
+          const q = (n, text, right, wrong, k) => cream(`data-lcs-question="${n}"`, label(num(n) + text, 14) + choices(placed(right, shuffle(wrong, rng), at[k]), at[k], key, { column: true, font: 13.5 }), 5);
+          below = strips + `<div data-lcs-qgrid style="flex:0 0 auto;display:grid;grid-template-columns:1fr 1fr;gap:6px 14px">` +
+            q(1, 'Which event or step comes right <b>after</b> the first one?', c.chain[1], [c.chain[2], c.chain[3]], 0) + q(2, 'Which event or step comes right <b>before</b> the last one?', c.chain[2], [c.chain[0], c.chain[1]], 1) + `</div>`;
+        } else {
+          const lines = c.chain.map((s, i) => `<div data-lcs-link="${i + 1}">${i ? ARROW : ''}${rule({ w: inner, h: d.rowH, starter: STARTS[i], answer: key ? STARTS[i] + ' ' + lowerFirst(s) : null, sample: true })}</div>`).join('');
+          const chain = cream('data-lcs-chain="1"', label(`Write in order the four events or steps that tell <b data-lcs-topic>${esc(c.topic)}</b>, one on each line.`, 15) + lines, 6);
+          const why = lv === 3 ? cream('data-lcs-explain="1"', label('Choose one event or step in your chain. Tell why it happens or what it leads to. Use <b>because</b> or <b>so</b>.', 14.5) +
+            rule({ w: inner, h: d.rowH, answer: key ? c.explain : null, sample: true }) + rule({ w: inner, h: d.rowH }), 6) : '';
+          below = chain + why;
+        }
+        items = c.chain.map((s) => t.id + ': ' + s);
+      }
+
+      if (mode === 'cause') {
+        if (lv === 1) {
+          let order; for (let n = 0; n < 100; n++) { order = shuffle([0, 1, 2, 3], rng); if (order.filter((x, i) => x === i).length === 0) break; }
+          const letterOf = (i) => 'ABCD'[order.indexOf(i)];
+          const causes = c.links.map((l, i) => `<div data-lcs-cause="${letterOf(i)}" style="display:flex;align-items:center;gap:10px;min-height:33px">${numBox(letterOf(i), key)}<span style="font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}">${num(i + 1)}${esc(l.cause)}</span></div>`).join('');
+          const effects = order.map((i, k) => `<div data-lcs-effect="${'ABCD'[k]}" style="display:flex;align-items:baseline;gap:8px;font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}"><b style="flex:0 0 auto;font-weight:800;color:${T.teal}">${'ABCD'[k]}</b><span>${esc(c.links[i].effect)}</span></div>`).join('');
+          below = `<div data-lcs-qgrid style="flex:0 0 auto;display:flex;flex-direction:column;gap:8px">` +
+            cream('data-lcs-causes="1"', label('<b style="font-weight:800;color:' + T.teal + '">Causes.</b> What did each cause lead to? Write the letter of its effect in the box.', 15) + causes, 6) +
+            cream('data-lcs-effects="1"', label('<b style="font-weight:800;color:' + T.teal + '">Effects</b>', 15) + `<div style="display:grid;grid-template-columns:1fr 1fr;gap:5px 18px">${effects}</div>`, 6) + `</div>`;
+          items = c.links.map((l) => t.id + ': ' + l.cause);
+        } else {
+          // which half is given: two causes and two effects on level 2; of three cards, at least one of each on level 3
+          const picks = lv === 2 ? shuffle([0, 1, 2, 3], rng) : shuffle([0, 1, 2, 3], rng).slice(0, 3);
+          const give = shuffle(lv === 2 ? ['cause', 'cause', 'effect', 'effect'] : ['cause', 'effect', rng.pick(['cause', 'effect'])], rng);
+          const cards = picks.sort((a, b) => a - b).map((li, k) => { const l = c.links[li], g = give[k], miss = g === 'cause' ? 'effect' : 'cause';
+            return cream(`data-lcs-pair="${k + 1}" data-lcs-given-kind="${g}"`, `<div style="display:flex;gap:6px"><span style="flex:0 0 auto;font:700 14.5px/1.25 'Nunito',sans-serif">${num(k + 1)}</span><div style="flex:1 1 auto;min-width:0">${given(g, l[g])}</div></div>` +
+              rule({ w: inner, h: d.rowH, starter: miss === 'cause' ? 'Cause:' : 'Effect:', answer: key ? (miss === 'cause' ? 'Cause: ' : 'Effect: ') + l[miss] : null, sample: true }) +
+              (lv === 3 ? `<div data-lcs-oneline>${rule({ w: inner, h: d.rowH, starter: 'One sentence:', answer: key ? 'One sentence: ' + joined(l) : null, sample: true })}${rule({ w: inner, h: d.rowH })}</div>` : ''), 4); });
+          below = stack(cards, 5);
+          items = picks.map((li) => t.id + ': ' + c.links[li].cause);
+        }
+      }
+      void grid;
+
+      return {
+        bodyHtml: `<div data-ws-content data-lcs-info3c="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + textBox(t, { font: d.font, lh: d.lh, headings: true, numbers: !(mode === 'chain' && lv === 1) }) + below + `</div>`,
+        meta: { text: t.id, items },
+      };
+    },
+
+    async verify(page) {
+      return page.evaluate(() => {
+        const fails = [];
+        const root = document.querySelector('[data-lcs-info3c]');
+        if (!root) return ['no page'];
+        const [mode, lvS] = root.dataset.lcsInfo3c.split('|'), lv = +lvS;
+        const isKey = root.dataset.lcsIskey === '1';
+        const R = (e) => e.getBoundingClientRect();
+        const rb = R(root), box = document.querySelector('[data-lcs-info3text]');
+        const parts = [...box.querySelectorAll('[data-lcs-part]')];
+        if (parts.length !== 4 || box.querySelectorAll('[data-lcs-heading]').length !== 4) fails.push('the text is not four paragraphs with their headings');
+        parts.forEach((p, i) => { if (parseFloat(getComputedStyle(p.querySelector('[data-lcs-partbody]')).fontSize) < 14.5) fails.push('paragraph ' + (i + 1) + ' is printed too small'); });
+        document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); });
+        const blocks = [...root.children];
+        blocks.forEach((b, i) => { const r = R(b); if (r.left < rb.left - 1 || r.right > rb.right + 1 || r.bottom > rb.bottom + 1) fails.push(`block ${i + 1} leaves the page`); if (i && r.top < R(blocks[i - 1]).bottom - 0.5) fails.push(`block ${i + 1} overlaps the one above`); });
+        box.querySelectorAll('*').forEach((e) => { const r = R(e), b = R(box); if (r.width && (r.right > b.right + 0.5 || r.bottom > b.bottom + 0.5)) fails.push('something leaves the text box'); });
+        const used = blocks.reduce((s, b) => s + R(b).height, 0);
+        if (used < rb.height * 0.8) fails.push(`the blocks fill ${Math.round(100 * used / rb.height)} % of the page body`);
+        const CARDS = '[data-lcs-strips], [data-lcs-question], [data-lcs-chain], [data-lcs-explain], [data-lcs-causes], [data-lcs-effects], [data-lcs-pair]';
+        const lines = [...document.querySelectorAll('[data-lcs-line]')];
+        lines.forEach((l) => { const c = l.closest(CARDS), r = R(l); if (!c || r.right > R(c).right + 0.5 || r.bottom > R(c).bottom + 0.5) fails.push('a writing line leaves its card');
+          if (r.height < 27.5) fails.push(`a writing line of ${Math.round(r.height)} px (wide-ruled paper is 28)`);
+          if (r.width < rb.width * 0.5) fails.push('a writing line shorter than half the page');
+          const kt = l.querySelector('[data-lcs-keytext]'); if (kt && (R(kt).right > r.right + 0.5 || parseFloat(getComputedStyle(kt).fontSize) < 9)) fails.push('a key answer does not fit its line'); });
+        document.querySelectorAll(CARDS).forEach((c) => { const cb = R(c); c.querySelectorAll('[data-lcs-label], [data-lcs-choice], [data-lcs-numbox], [data-lcs-given], span').forEach((e) => { const r = R(e); if (r.width && (r.bottom > cb.bottom + 0.5 || r.right > cb.right + 0.5)) fails.push('something leaves its card'); }); });
+        const boxes = [...document.querySelectorAll('[data-lcs-numbox]')];
+        boxes.forEach((b) => { if (R(b).width < 28) fails.push('a box too small'); if (!isKey && b.textContent.trim()) fails.push('a box is filled'); });
+        const sets = [...document.querySelectorAll('[data-lcs-choices]')];
+        sets.forEach((c, i) => { const all = [...c.querySelectorAll('[data-lcs-choice]')];
+          if (all.length !== 3 || all.filter((e) => e.dataset.lcsOk).length !== 1 || new Set(all.map((e) => e.textContent.trim())).size !== 3) fails.push(`answers ${i + 1}: not three different with one right`);
+          all.forEach((e) => { if (R(e).right > R(c.parentElement).right + 0.5) fails.push(`answers ${i + 1}: an answer leaves its card`); }); });
+
+        if ((mode === 'chain' && lv === 1) !== (box.querySelectorAll('[data-lcs-paratab]').length === 0)) fails.push('paragraph numbers beside a task that asks for the numbers 1 to 4 (or none where they belong)');
+        if (mode === 'chain') {
+          if (!document.querySelector('[data-lcs-topic]')) fails.push('the task does not say what the chain tells');
+          if (lv === 1) {
+            const strips = [...document.querySelectorAll('[data-lcs-strip]')], seq = strips.map((s) => s.dataset.lcsStrip).join('');
+            if (strips.length !== 4 || [...seq].sort().join('') !== '1234') fails.push('not the four events');
+            if (seq === '1234' || seq === '4321') fails.push('the events stand in the order of the text');
+            strips.forEach((s) => { if (s.querySelector('[data-lcs-numbox]').dataset.lcsWant !== s.dataset.lcsStrip) fails.push('a box is keyed to another place'); });
+            if (sets.length !== 2 || lines.length || boxes.length !== 4) fails.push('level 1 is not four events to number and two questions');
+            const place = sets.map((c) => [...c.querySelectorAll('[data-lcs-choice]')].findIndex((e) => e.dataset.lcsOk));
+            if (place.length === 2 && place[0] === place[1]) fails.push('both right answers stand in the same place');
+            const text = (n) => (strips.find((s) => s.dataset.lcsStrip === String(n)) || { textContent: '' }).textContent.trim();
+            const ok = sets.map((c) => (c.querySelector('[data-lcs-ok]') || { textContent: '' }).textContent.trim());
+            if (ok[0] !== text(2) || ok[1] !== text(3)) fails.push('a question is keyed to another event');
+          } else {
+            const links = [...document.querySelectorAll('[data-lcs-link]')];
+            if (links.length !== 4 || document.querySelectorAll('[data-lcs-arrow]').length !== 3 || sets.length || boxes.length) fails.push('not a chain of four lines with three arrows');
+            if (!isKey && links.map((l) => (l.querySelector('[data-lcs-line]').dataset.lcsStartertext || '')).join(' ') !== 'First, Next, Then, Finally,') fails.push('the lines do not begin First, Next, Then, Finally');
+            if (lv === 2 ? lines.length !== 4 || document.querySelector('[data-lcs-explain]') : lines.length !== 6 || !document.querySelector('[data-lcs-explain]')) fails.push(`level ${lv}: ${lines.length} writing lines`);
+          }
+        }
+        if (mode === 'cause') {
+          if (lv === 1) {
+            const causes = [...document.querySelectorAll('[data-lcs-cause]')], effects = [...document.querySelectorAll('[data-lcs-effect]')];
+            const want = causes.map((c) => c.dataset.lcsCause).join('');
+            if (causes.length !== 4 || effects.map((e) => e.dataset.lcsEffect).join('') !== 'ABCD' || [...want].sort().join('') !== 'ABCD') fails.push('not four causes and four effects A to D');
+            if ([...want].some((l, i) => l === 'ABCD'[i])) fails.push('an effect stands in the place of its cause: ' + want);
+            causes.forEach((c) => { if (c.querySelector('[data-lcs-numbox]').dataset.lcsWant !== c.dataset.lcsCause) fails.push('a box is keyed to another effect'); });
+            if (sets.length || lines.length || boxes.length !== 4) fails.push('level 1 is not four boxes for four letters');
+          } else {
+            const pairs = [...document.querySelectorAll('[data-lcs-pair]')], kinds = pairs.map((p) => p.dataset.lcsGivenKind);
+            if (pairs.length !== (lv === 2 ? 4 : 3) || sets.length || boxes.length) fails.push(`level ${lv}: ${pairs.length} cards`);
+            if (new Set(kinds).size !== 2 || (lv === 2 && kinds.filter((k) => k === 'cause').length !== 2)) fails.push('the cards do not give causes AND effects: ' + kinds.join());
+            pairs.forEach((p, i) => { const g = p.querySelector('[data-lcs-given]'), l = p.querySelector('[data-lcs-line]'); if (!g || g.dataset.lcsGiven !== p.dataset.lcsGivenKind) fails.push(`card ${i + 1} gives another half than it names`);
+              if (!isKey && l.dataset.lcsStartertext !== (p.dataset.lcsGivenKind === 'cause' ? 'Effect:' : 'Cause:')) fails.push(`card ${i + 1} asks for the half it gives`); });
+            if (lines.length !== (lv === 2 ? 4 : 9) || document.querySelectorAll('[data-lcs-oneline]').length !== (lv === 3 ? 3 : 0) || [...document.querySelectorAll('[data-lcs-oneline]')].some((o) => o.querySelectorAll('[data-lcs-line]').length !== 2)) fails.push(`level ${lv}: ${lines.length} writing lines (the one sentence has two)`);
+          }
+        }
+        return fails;
+      });
+    },
+  };
+}
+
+module.exports = { makeInfoText3cType, connectFaultsOf, LEVELS };

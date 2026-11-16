@@ -104,6 +104,30 @@ const TEXT = {
     2: "Read the text. Write what each paragraph is mostly about.",
     3: "Read the text. Write a heading for each paragraph and what the paragraph is mostly about.",
   },
+  'G3-500': {
+    title: "Events in Order",
+    1: "Read the text. Put the four events or steps in order. Then circle the answer to each question.",
+    2: "Read the text. Then write the four events or steps in order.",
+    3: "Read the text. Write the four events or steps in order. Then explain why one of them happens or what it leads to.",
+  },
+  'G3-501': {
+    title: "Cause and Effect",
+    1: "Read the text. A cause makes something happen. An effect is what happens. Next to each cause, write the letter of its effect.",
+    2: "Read the text. A cause makes something happen. An effect is what happens. Write the missing cause or effect.",
+    3: "Read the text. Write the missing cause or effect. Then write the cause and the effect as one sentence with because or so.",
+  },
+  'G3-498': {
+    title: "Use the Text Features",
+    1: "This text is printed as a small book. Read it. Then use the text feature named in each question and circle the answer.",
+    2: "This text is printed as a small book. Read it. Then use the text feature named in each question and write the answer.",
+    3: "Read this small book. Write each answer and the letter of the text feature that helped you find it. Then add two words to the index.",
+  },
+  'G3-499': {
+    title: "Which Text Feature?",
+    1: "This text is printed as a small book. Read it. Then write the letter of the text feature you would use each time.",
+    2: "This text is printed as a small book. Read it. Write the letter of the text feature you would use. Then use it and write what you find.",
+    3: "This text is printed as a small book. Read it. For each text feature, write a question that it answers. Then write the answer.",
+  },
 };
 
 function edit(file, fn) {

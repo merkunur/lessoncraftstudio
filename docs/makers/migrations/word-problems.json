@@ -8,5 +8,19 @@
   "kind": "content-fix",
   "note": "The directions tell the child to write each answer in the box.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "08995f832884",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-213",
+   "G1-238",
+   "G1-239",
+   "G1-240",
+   "G1-241"
+  ],
+  "kind": "content-fix",
+  "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
+  "date": "2026-11-15"
  }
 ]

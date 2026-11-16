@@ -4861,6 +4861,48 @@
    ],
    "why": "Reading and spelling one-syllable words with the vowel teams oa and ow is «decoding words with closed syllables; open syllables; VCe syllables; vowel teams, including vowel digraphs and diphthongs; and r-controlled syllables».",
    "review": "year-design 2026-11-17"
+  },
+  "1:ck-ng-wh": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words with ck, ng, and wh is «decoding words with initial and final consonant blends, digraphs, and trigraphs»; writing them is «spelling words with initial and final consonant blends, digraphs, and trigraphs».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:blends-start": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words that start with a blend (stop, flag, trip) is «decoding words with initial and final consonant blends, digraphs, and trigraphs»; writing them is «spelling words with initial and final consonant blends, digraphs, and trigraphs».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:blends-end": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words that end in a blend (hand, lamp, nest, sink) is «decoding words with initial and final consonant blends, digraphs, and trigraphs»; writing them is «spelling words with initial and final consonant blends, digraphs, and trigraphs».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

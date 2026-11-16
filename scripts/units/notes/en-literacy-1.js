@@ -26,11 +26,11 @@ module.exports = {
     },
     '1:digraphs': {
       title: 'sh, ch, and th',
-      objective: 'Children hear which letter team a picture word has, sh, ch, or th, and write the missing team in the word.',
+      objective: 'Children read and spell one-syllable words with the digraphs sh, ch, and th, and tell a word with a digraph from the same word without it: sip, ship.',
       note: {
-        mistake: 'Children mix up th with f or d ("fumb," "dis") because that is how they say the words. They write a single letter for the team: "s" for sh, "c" for ch.',
-        words: 'Say: "A letter team is two letters that make one new sound." Show the mouth for th: "Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue." Compare: "Thumb. Not fumb. Feel your tongue."',
-        watch: 'Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child\'s family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there.',
+        mistake: 'Children write one letter for the digraph: s for sh, c or h for ch, t for th ("tin" for thin). They read the two letters as two sounds, /s/ /h/. Children who say "fin" for thin or "dis" for this write f or d.',
+        words: 'Say: "A digraph is two letters that make one sound. s says /s/, but s and h together say /sh/." Write sip, then add h: ship. For th: tongue between the teeth, then blow. Begin with the two picture pages: the child hears the digraph in a picture word and writes its two letters (one page calls it a letter team). Then the word page. On Level 1 the child writes one digraph to turn old words into new ones (sip, __ip) and circles the word that fits a sentence (sip or ship). Level 2 adds matching and a sort under sh or ch; Level 3 has words to write, a sort under sh, ch, and th, and sentences to finish.',
+        watch: 'Have the child read each sentence aloud with the word chosen; circling the longer word every time is a guess. If a child\'s family says "fing" for thing, do not call the speech wrong; teach that the word is spelled with th.',
       },
     },
     '1:spell-picture-words': {

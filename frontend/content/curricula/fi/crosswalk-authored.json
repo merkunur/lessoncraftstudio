@@ -4082,6 +4082,21 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the English long-vowel spellings of Grade 1 (Part 12.3: silent e, ai and ay, ee and ea, oa and ow); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "1:ck-ng-wh": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English digraphs and consonant blends of Grade 1 (Part 12.3: ck, ng, and wh; blends at the start; blends at the end); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:blends-start": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English digraphs and consonant blends of Grade 1 (Part 12.3: ck, ng, and wh; blends at the start; blends at the end); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:blends-end": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English digraphs and consonant blends of Grade 1 (Part 12.3: ck, ng, and wh; blends at the start; blends at the end); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -2746,8 +2746,8 @@
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
    "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A four-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, th, spelling picture words, and syllables.",
-   "weeks": 4,
+   "metaDescription": "A Grade 1 unit on short-vowel words and syllables: 5 lessons on rhymes, word families, sound boxes, spelling picture words, and splitting words into syllables.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:rhyming",
@@ -2774,13 +2774,6 @@
      ]
     },
     {
-     "point": "1:digraphs",
-     "types": [
-      "G1-380",
-      "G1-392"
-     ]
-    },
-    {
      "point": "1:spell-picture-words",
      "types": [
       "G1-258",
@@ -2792,6 +2785,45 @@
      "types": [
       "G1-305",
       "G1-325"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-digraphs-and-blends",
+   "slug": "digraphs-and-blends-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Digraphs and Blends",
+   "metaTitle": "Grade 1 Lesson Plans: Digraphs and Blends",
+   "metaDescription": "A Grade 1 phonics unit on digraphs and blends: 4 lessons on sh, ch, and th, on ck, ng, and wh, and on blends at the start and at the end of a word.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:digraphs",
+     "types": [
+      "G1-380",
+      "G1-392",
+      "G1-588"
+     ]
+    },
+    {
+     "point": "1:ck-ng-wh",
+     "types": [
+      "G1-589"
+     ]
+    },
+    {
+     "point": "1:blends-start",
+     "types": [
+      "G1-590"
+     ]
+    },
+    {
+     "point": "1:blends-end",
+     "types": [
+      "G1-591"
      ]
     }
    ]
@@ -3522,6 +3554,7 @@
    "metaDescription": "{units} Grade 1 reading and language units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "g1-sounds-spelling-syllables",
+    "g1-digraphs-and-blends",
     "g1-reading-sentences-and-stories",
     "g1-reading-stories-characters-and-lessons",
     "g1-long-vowels-silent-e-and-vowel-teams",

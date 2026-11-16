@@ -386,6 +386,36 @@
    "activities": [
     "syllable-builder.build-vowel-teams.rf-1-3"
    ]
+  },
+  {
+   "tp": "1:ck-ng-wh",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.a",
+   "skill": "Read and spell one-syllable words with the digraphs ck and ng at the end and wh at the start",
+   "activities": [
+    "cvc-builder.build-blend-word.rf-1-3"
+   ]
+  },
+  {
+   "tp": "1:blends-start",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.b",
+   "skill": "Read and spell one-syllable words that start with a consonant blend (s-blends, l-blends, r-blends)",
+   "activities": [
+    "cvc-builder.build-blend-word.rf-1-3"
+   ]
+  },
+  {
+   "tp": "1:blends-end",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.b",
+   "skill": "Read and spell short-vowel words that end in a consonant blend (nd, mp, st, nk)",
+   "activities": [
+    "cvc-builder.build-blend-word.rf-1-3"
+   ]
   }
  ]
 }

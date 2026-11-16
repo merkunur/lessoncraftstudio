@@ -2406,6 +2406,36 @@
    ],
    "by": "code"
   },
+  "1:ck-ng-wh": {
+   "rows": [
+    {
+     "id": "RF.1.3.a",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:blends-start": {
+   "rows": [
+    {
+     "id": "RF.1.3.b",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:blends-end": {
+   "rows": [
+    {
+     "id": "RF.1.3.b",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:spell-picture-words": {
    "rows": [
     {

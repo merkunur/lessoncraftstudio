@@ -7150,7 +7150,7 @@
     },
     {
      "part": 3,
-     "lesson": 5,
+     "lesson": 4,
      "title": "Spell the picture word",
      "type": "G1-260",
      "tasks": 2
@@ -7158,8 +7158,7 @@
    ],
    "notCovered": [
     1,
-    4,
-    6
+    5
    ],
    "forms": {
     "A": {

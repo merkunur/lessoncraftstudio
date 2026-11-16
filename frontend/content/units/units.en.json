@@ -12811,9 +12811,9 @@
    "subject": "literacy",
    "title": "Sounds, Spelling, and Syllables",
    "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A four-week Grade 1 unit on short vowels and digraphs: 6 lessons on rhymes, word families, sound boxes, the digraphs sh, ch, th, spelling picture words, and syllables.",
-   "days": 20,
-   "weeks": 4,
+   "metaDescription": "A Grade 1 unit on short-vowel words and syllables: 5 lessons on rhymes, word families, sound boxes, spelling picture words, and splitting words into syllables.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -12994,65 +12994,6 @@
     },
     {
      "n": 4,
-     "point": "1:digraphs",
-     "title": "sh, ch, and th",
-     "objective": "Children hear which letter team a picture word has, sh, ch, or th, and write the missing team in the word.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.1.3.a",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G1-380",
-       "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?",
-       "core": "digraphs-g1380",
-       "easy": "digraphs-easy-g1380-9",
-       "hard": "digraphs-hard-g1380-17",
-       "landing": "digraphs-sh-ch-th"
-      },
-      {
-       "type": "G1-392",
-       "title": "Missing Digraphs: Write sh, ch or th",
-       "core": "digraphs-g1392",
-       "easy": "digraphs-easy-g1392-9",
-       "hard": "digraphs-hard-g1392-17",
-       "landing": "missing-digraphs-sh-ch-th"
-      }
-     ],
-     "tool": {
-      "key": "dictation-desk",
-      "slug": "dictation-desk",
-      "name": "Dictation Desk"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "cvc-builder.build-blend-word.rf-1-3",
-      "slug": "build-blend-and-digraph-words",
-      "title": "Build Blend and Digraph Words"
-     },
-     "exit": {
-      "slug": "digraphs-g1380-2",
-      "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?"
-     },
-     "maker": {
-      "id": "phonics",
-      "name": "Phonics & Sounds",
-      "slug": "phonics-worksheet-maker",
-      "template": "G1-380"
-     },
-     "note": {
-      "mistake": "Children mix up th with f or d (\"fumb,\" \"dis\") because that is how they say the words. They write a single letter for the team: \"s\" for sh, \"c\" for ch.",
-      "words": "Say: \"A letter team is two letters that make one new sound.\" Show the mouth for th: \"Put your tongue between your teeth and blow: th, as in thumb. Now turn your voice on: th, as in this. Same letters, same tongue.\" Compare: \"Thumb. Not fumb. Feel your tongue.\"",
-      "watch": "Listen to how each child says the th words; a child who says /f/ or /d/ will write f or d. Use a small mirror for th. If that is how the child's family says the word, do not call the speech wrong; teach that the word is spelled with th. On the writing page, check that both letters of the team are there."
-     },
-     "days": 3
-    },
-    {
-     "n": 5,
      "point": "1:spell-picture-words",
      "title": "Spell the picture word",
      "objective": "Children say a picture word, listen for its sounds, and write the word, first with the first letter given and then on their own.",
@@ -13117,7 +13058,7 @@
      "days": 3
     },
     {
-     "n": 6,
+     "n": 5,
      "point": "1:syllables-split",
      "title": "Syllables",
      "objective": "Children clap the parts of a word, mark each syllable, and write a word with a dash between its syllables.",
@@ -13186,6 +13127,203 @@
       "watch": "Use the chin check with children who clap too many, and have children who clap too few hum the word; the chin hardly moves on sounds like ee (ba-by, bun-ny). On the dash page, check that each part has a vowel letter, and count y as a vowel at the end of a word (pup-py, can-dy); a part with no vowel cannot be a syllable."
      },
      "days": 3
+    }
+   ]
+  },
+  {
+   "id": "g1-digraphs-and-blends",
+   "slug": "digraphs-and-blends-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Digraphs and Blends",
+   "metaTitle": "Grade 1 Lesson Plans: Digraphs and Blends",
+   "metaDescription": "A Grade 1 phonics unit on digraphs and blends: 4 lessons on sh, ch, and th, on ck, ng, and wh, and on blends at the start and at the end of a word.",
+   "days": 12,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:digraphs",
+     "title": "sh, ch, and th",
+     "objective": "Children read and spell one-syllable words with the digraphs sh, ch, and th, and tell a word with a digraph from the same word without it: sip, ship.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-380",
+       "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?",
+       "core": "digraphs-g1380",
+       "easy": "digraphs-easy-g1380-9",
+       "hard": "digraphs-hard-g1380-17",
+       "landing": "digraphs-sh-ch-th"
+      },
+      {
+       "type": "G1-392",
+       "title": "Missing Digraphs: Write sh, ch or th",
+       "core": "digraphs-g1392",
+       "easy": "digraphs-easy-g1392-9",
+       "hard": "digraphs-hard-g1392-17",
+       "landing": "missing-digraphs-sh-ch-th"
+      },
+      {
+       "type": "G1-588",
+       "title": "Digraphs: sh, ch, and th",
+       "core": "digraphs-g1588",
+       "easy": "digraphs-easy-g1588-6",
+       "hard": "digraphs-hard-g1588-11"
+      }
+     ],
+     "tool": {
+      "key": "dictation-desk",
+      "slug": "dictation-desk",
+      "name": "Dictation Desk"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-blend-word.rf-1-3",
+      "slug": "build-blend-and-digraph-words",
+      "title": "Build Blend and Digraph Words"
+     },
+     "exit": {
+      "slug": "digraphs-g1380-2",
+      "title": "Digraphs sh, ch and th: Which Letter Team Do You Hear?"
+     },
+     "maker": {
+      "id": "phonics",
+      "name": "Phonics & Sounds",
+      "slug": "phonics-worksheet-maker",
+      "template": "G1-380"
+     },
+     "note": {
+      "mistake": "Children write one letter for the digraph: s for sh, c or h for ch, t for th (\"tin\" for thin). They read the two letters as two sounds, /s/ /h/. Children who say \"fin\" for thin or \"dis\" for this write f or d.",
+      "words": "Say: \"A digraph is two letters that make one sound. s says /s/, but s and h together say /sh/.\" Write sip, then add h: ship. For th: tongue between the teeth, then blow. Begin with the two picture pages: the child hears the digraph in a picture word and writes its two letters (one page calls it a letter team). Then the word page. On Level 1 the child writes one digraph to turn old words into new ones (sip, __ip) and circles the word that fits a sentence (sip or ship). Level 2 adds matching and a sort under sh or ch; Level 3 has words to write, a sort under sh, ch, and th, and sentences to finish.",
+      "watch": "Have the child read each sentence aloud with the word chosen; circling the longer word every time is a guess. If a child's family says \"fing\" for thing, do not call the speech wrong; teach that the word is spelled with th."
+     },
+     "days": 3
+    },
+    {
+     "n": 2,
+     "point": "1:ck-ng-wh",
+     "title": "ck, ng, and wh",
+     "objective": "Children read and spell words with ck at the end (duck), ng at the end (ring), and wh at the start (whip), knowing each spelling makes one sound.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-589",
+       "title": "Digraphs: ck, ng, and wh",
+       "core": "digraphs-g1589",
+       "easy": "digraphs-easy-g1589-6",
+       "hard": "digraphs-hard-g1589-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-blend-word.rf-1-3",
+      "slug": "build-blend-and-digraph-words",
+      "title": "Build Blend and Digraph Words"
+     },
+     "exit": {
+      "slug": "digraphs-g1589-2",
+      "title": "Digraphs: ck, ng, and wh"
+     },
+     "note": {
+      "mistake": "Children write k or c alone at the end (\"duk,\" \"soc\"). They drop the g of ng (\"rin\") or say it as n and then g. They write w alone for wh (\"wen\").",
+      "words": "Say: \"A digraph is two letters that make one sound. c and k together make /k/ at the end of a short word: duck, sock. n and g together make the sound at the end of ring. w and h make /w/ at the start of when.\" Have children hum /ng/ with the mouth open. On Level 1 each copy works with ck or with ng, and a grey model starts each task: the child writes the digraph to turn five old words into new ones (dug, du__; wig, wi__), writes it into five more words, reads the new words to a partner, and circles the word that fits three sentences. On Level 2 children draw lines from four of six words to their pictures (two words, such as song beside sock, have no picture) and sort six words under ck and ng. On Level 3 wh joins: they write the word for three pictures, sort six words under ck, ng, and wh, and finish three sentences by writing the digraph. On screen, Build Blend and Digraph Words gives more practice.",
+      "watch": "ck comes right after a short vowel at the end of a word. Before ng the vowel sounds a little different (ring, bang); teach -ing, -ang, -ong, -ung as chunks. In the ck sentences the other word ends in g (duck, dug), so the child must read to the end of the word. Most Americans say when and which with a plain /w/; some say /hw/, and both are fine. Levels 1 and 2 use no word that starts with a blend; truck and clock wait for Level 3."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:blends-start",
+     "title": "Blends at the start: st, fl, tr",
+     "objective": "Children read and spell one-syllable words that start with a consonant blend (stop, flag, trip) and say both sounds of the blend.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-590",
+       "title": "Blends at the Start",
+       "core": "digraphs-g1590",
+       "easy": "digraphs-easy-g1590-6",
+       "hard": "digraphs-hard-g1590-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-blend-word.rf-1-3",
+      "slug": "build-blend-and-digraph-words",
+      "title": "Build Blend and Digraph Words"
+     },
+     "exit": {
+      "slug": "digraphs-g1590-2",
+      "title": "Blends at the Start"
+     },
+     "note": {
+      "mistake": "Children say or write only one sound of the blend: \"top\" for stop, \"cab\" for crab. Others put a vowel between the two sounds (\"suh-top\") or write the two letters in the wrong order (\"tsop\").",
+      "words": "Say: \"A blend is two consonants side by side. You hear both: s, t, st, stop.\" Stretch it, \"sss-t-op,\" then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters.",
+      "watch": "In an s-blend the s comes first (st, sp, sn, sk, sw, sm, sc); in an l-blend or r-blend the l or r comes second (fl, tr). sl is both an s-blend and an l-blend, so the pages leave it out. On Level 3 the sentences show no letters to choose from: the meaning tells the word (\"A __ab walks on the sand\": cr, crab). Have the child read the finished sentence aloud."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:blends-end",
+     "title": "Blends at the end: nd, mp, st, and nk",
+     "objective": "Children read and spell short-vowel words that end in a consonant blend (hand, jump, nest) and hear both final sounds.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-591",
+       "title": "Blends at the End",
+       "core": "digraphs-g1591",
+       "easy": "digraphs-easy-g1591-6",
+       "hard": "digraphs-hard-g1591-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-blend-word.rf-1-3",
+      "slug": "build-blend-and-digraph-words",
+      "title": "Build Blend and Digraph Words"
+     },
+     "exit": {
+      "slug": "digraphs-g1591-2",
+      "title": "Blends at the End"
+     },
+     "note": {
+      "mistake": "Children leave off one of the last two sounds: \"han\" or \"had\" for hand, \"jup\" for jump, \"nes\" for nest. Before k they leave the n out (\"sik\" for sink). Some write the two letters in the wrong order (\"hadn\").",
+      "words": "Say: \"Some words end with two consonant sounds. Listen to the end: han-d, hand.\" Have children hold up a finger for each of the last two sounds. Compare had and hand, bed and bend. On Level 1 every copy is about nd, and a grey model starts each task: the child writes nd to turn five old words into new ones (had, ha__), writes nd into five more words, reads the new words to a partner, and circles the word that fits three sentences; the other word is missing a sound (sad, sand). On Level 2 children draw lines from four of six words to their pictures (two words, such as lap beside lamp, have no picture) and sort six words under nd and mp. On Level 3 st and nk join: they write the word for three pictures (hand, lamp, sink), sort four words under the four endings, and finish three sentences by writing nd, mp, st, or nk. On screen, Build Blend and Digraph Words gives more practice.",
+      "watch": "In nk the n sounds like the end of ring: say sink slowly and feel the tongue move back before the k. Teach -ink, -ank, -unk as chunks. A child who writes \"sigk\" has heard that sound; show the n. In mp the lips close for m and pop for p. On Level 2 the four pictures are the same in every copy (hand, lamp, stamp, shrimp); the words change."
+     },
+     "days": 2
     }
    ]
   },
@@ -17312,23 +17450,22 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (18 Weeks)",
-   "metaDescription": "6 Grade 1 reading and language units in teaching order, about 18 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 18,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (19 Weeks)",
+   "metaDescription": "7 Grade 1 reading and language units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 19,
    "framework": "Common Core",
    "units": [
     {
      "id": "g1-sounds-spelling-syllables",
      "slug": "sounds-spelling-and-syllables-grade-1-unit",
      "title": "Sounds, Spelling, and Syllables",
-     "weeks": 4,
+     "weeks": 3,
      "from": 1,
-     "to": 4,
+     "to": 3,
      "lessons": [
       "Rhyming words",
       "Word families",
       "Sound boxes",
-      "sh, ch, and th",
       "Spell the picture word",
       "Syllables"
      ],
@@ -17337,10 +17474,27 @@
       "L.1.2.e",
       "RF.1.2.b",
       "RF.1.2.d",
-      "RF.1.3.a",
       "RF.1.3.b",
       "RF.1.3.d",
       "RF.1.3.e"
+     ]
+    },
+    {
+     "id": "g1-digraphs-and-blends",
+     "slug": "digraphs-and-blends-grade-1-unit",
+     "title": "Digraphs and Blends",
+     "weeks": 2,
+     "from": 4,
+     "to": 5,
+     "lessons": [
+      "sh, ch, and th",
+      "ck, ng, and wh",
+      "Blends at the start: st, fl, tr",
+      "Blends at the end: nd, mp, st, and nk"
+     ],
+     "standards": [
+      "RF.1.3.a",
+      "RF.1.3.b"
      ]
     },
     {
@@ -17348,8 +17502,8 @@
      "slug": "reading-sentences-and-stories-grade-1-unit",
      "title": "Reading Sentences and Stories",
      "weeks": 3,
-     "from": 5,
-     "to": 7,
+     "from": 6,
+     "to": 8,
      "lessons": [
       "Read and do",
       "Fill in the missing word",
@@ -17371,8 +17525,8 @@
      "slug": "reading-stories-characters-and-lessons-grade-1-unit",
      "title": "Reading Stories: Characters and Lessons",
      "weeks": 3,
-     "from": 8,
-     "to": 10,
+     "from": 9,
+     "to": 11,
      "lessons": [
       "Find the Answer in the Story",
       "Characters, Setting, and Big Events",
@@ -17393,8 +17547,8 @@
      "slug": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
      "title": "Long Vowels: Silent e and Vowel Teams",
      "weeks": 2,
-     "from": 11,
-     "to": 12,
+     "from": 12,
+     "to": 13,
      "lessons": [
       "Silent e Changes the Vowel",
       "Long a: ai and ay",
@@ -17410,8 +17564,8 @@
      "slug": "words-and-how-they-work-grade-1-unit",
      "title": "Words and How They Work",
      "weeks": 4,
-     "from": 13,
-     "to": 16,
+     "from": 14,
+     "to": 17,
      "lessons": [
       "ABC order",
       "Nouns, verbs, and adjectives",
@@ -17436,8 +17590,8 @@
      "slug": "reading-to-learn-informational-texts-grade-1-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 2,
-     "from": 17,
-     "to": 18,
+     "from": 18,
+     "to": 19,
      "lessons": [
       "Facts in the text",
       "The main topic and key details",

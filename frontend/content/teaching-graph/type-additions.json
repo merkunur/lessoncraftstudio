@@ -311,6 +311,10 @@
   "G1-584": "1:silent-e",
   "G1-585": "1:long-a-ai-ay",
   "G1-586": "1:long-e-ee-ea",
-  "G1-587": "1:long-o-oa-ow"
+  "G1-587": "1:long-o-oa-ow",
+  "G1-588": "1:digraphs",
+  "G1-589": "1:ck-ng-wh",
+  "G1-590": "1:blends-start",
+  "G1-591": "1:blends-end"
  }
 }

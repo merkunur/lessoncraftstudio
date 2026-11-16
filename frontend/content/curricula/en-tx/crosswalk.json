@@ -2796,6 +2796,51 @@
    ],
    "by": "authored"
   },
+  "1:ck-ng-wh": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:blends-start": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:blends-end": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.ii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.C.ii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:spell-picture-words": {
    "rows": [
     {

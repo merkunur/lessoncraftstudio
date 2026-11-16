@@ -11,6 +11,8 @@
  * place-ready-k.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Long Vowels: Silent e and Vowel Teams (G1-584 to G1-587) were added by
  * place-ready-m.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
+ * The three new notes of the unit Digraphs and Blends (G1-589 to G1-591) were added by place-ready-o.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -131,6 +133,33 @@ module.exports = {
         mistake: 'Children write o alone (bot for boat) or a silent e for every long o (bote). They read ow as in cow in every word. They put ow in the middle (bowt) or oa at the end (snoa).',
         words: 'Say: "O and a, and o and w, can both say the name of o." Write boat and snow. "oa comes in the middle of a word. ow comes at the end." Tell children that ow has two sounds, as in snow and as in cow; on these pages it says the name of o in every word but cow. On Level 1 children match four words to pictures, then write oa in four words and ow in four words and read them. On Level 2 they read eight printed words out loud and sort them, read the rule, and write oa or ow into six words. On Level 3 they cross out the one word of seven that does not say long o, sort the other six, write the word for three pictures, and finish two sentences from a word box. On screen, Build Vowel-Team Words gives more practice.',
         watch: 'In the Level 2 gap words the place decides: a gap at the end takes ow, a gap in the middle takes oa. Words such as bowl and grown break this rule and are not on these pages. Cow has ow but does not say long o: it is the word to cross out on Level 3. Read row as in "row a boat." On Level 3 the pictures are three of boat, coat, goat, and toast, and the first letter on each row tells which name to write, so a child who says "ship" or "jacket" can still find the word.',
+      },
+    },
+    '1:ck-ng-wh': {
+      title: 'ck, ng, and wh',
+      objective: 'Children read and spell words with ck at the end (duck), ng at the end (ring), and wh at the start (whip), knowing each spelling makes one sound.',
+      note: {
+        mistake: 'Children write k or c alone at the end ("duk," "soc"). They drop the g of ng ("rin") or say it as n and then g. They write w alone for wh ("wen").',
+        words: 'Say: "A digraph is two letters that make one sound. c and k together make /k/ at the end of a short word: duck, sock. n and g together make the sound at the end of ring. w and h make /w/ at the start of when." Have children hum /ng/ with the mouth open. On Level 1 each copy works with ck or with ng, and a grey model starts each task: the child writes the digraph to turn five old words into new ones (dug, du__; wig, wi__), writes it into five more words, reads the new words to a partner, and circles the word that fits three sentences. On Level 2 children draw lines from four of six words to their pictures (two words, such as song beside sock, have no picture) and sort six words under ck and ng. On Level 3 wh joins: they write the word for three pictures, sort six words under ck, ng, and wh, and finish three sentences by writing the digraph. On screen, Build Blend and Digraph Words gives more practice.',
+        watch: 'ck comes right after a short vowel at the end of a word. Before ng the vowel sounds a little different (ring, bang); teach -ing, -ang, -ong, -ung as chunks. In the ck sentences the other word ends in g (duck, dug), so the child must read to the end of the word. Most Americans say when and which with a plain /w/; some say /hw/, and both are fine. Levels 1 and 2 use no word that starts with a blend; truck and clock wait for Level 3.',
+      },
+    },
+    '1:blends-start': {
+      title: 'Blends at the start: st, fl, tr',
+      objective: 'Children read and spell one-syllable words that start with a consonant blend (stop, flag, trip) and say both sounds of the blend.',
+      note: {
+        mistake: 'Children say or write only one sound of the blend: "top" for stop, "cab" for crab. Others put a vowel between the two sounds ("suh-top") or write the two letters in the wrong order ("tsop").',
+        words: 'Say: "A blend is two consonants side by side. You hear both: s, t, st, stop." Stretch it, "sss-t-op," then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters.',
+        watch: 'In an s-blend the s comes first (st, sp, sn, sk, sw, sm, sc); in an l-blend or r-blend the l or r comes second (fl, tr). sl is both an s-blend and an l-blend, so the pages leave it out. On Level 3 the sentences show no letters to choose from: the meaning tells the word ("A __ab walks on the sand": cr, crab). Have the child read the finished sentence aloud.',
+      },
+    },
+    '1:blends-end': {
+      title: 'Blends at the end: nd, mp, st, and nk',
+      objective: 'Children read and spell short-vowel words that end in a consonant blend (hand, jump, nest) and hear both final sounds.',
+      note: {
+        mistake: 'Children leave off one of the last two sounds: "han" or "had" for hand, "jup" for jump, "nes" for nest. Before k they leave the n out ("sik" for sink). Some write the two letters in the wrong order ("hadn").',
+        words: 'Say: "Some words end with two consonant sounds. Listen to the end: han-d, hand." Have children hold up a finger for each of the last two sounds. Compare had and hand, bed and bend. On Level 1 every copy is about nd, and a grey model starts each task: the child writes nd to turn five old words into new ones (had, ha__), writes nd into five more words, reads the new words to a partner, and circles the word that fits three sentences; the other word is missing a sound (sad, sand). On Level 2 children draw lines from four of six words to their pictures (two words, such as lap beside lamp, have no picture) and sort six words under nd and mp. On Level 3 st and nk join: they write the word for three pictures (hand, lamp, sink), sort four words under the four endings, and finish three sentences by writing nd, mp, st, or nk. On screen, Build Blend and Digraph Words gives more practice.',
+        watch: 'In nk the n sounds like the end of ring: say sink slowly and feel the tongue move back before the k. Teach -ink, -ank, -unk as chunks. A child who writes "sigk" has heard that sound; show the n. In mp the lips close for m and pop for p. On Level 2 the four pictures are the same in every copy (hand, lamp, stamp, shrimp); the words change.',
       },
     },
   },

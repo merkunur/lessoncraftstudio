@@ -74,7 +74,8 @@
             "days": 2,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (du__, ri__, __ip). Level 1: one pattern per page; level 2: two patterns mixed, sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (du__, ri__, __ip). Level 1: one pattern per page; level 2: two patterns mixed, sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "1:ck-ng-wh"
           },
           {
             "new": true,
@@ -84,7 +85,8 @@
             "days": 3,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (__op, __ag, __ip). Level 1: one pattern per page (s-blends); level 2: two patterns mixed (s-blends and l-blends), sorted into two columns; level 3: s-, l- and r-blends, the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (__op, __ag, __ip). Level 1: one pattern per page (s-blends); level 2: two patterns mixed (s-blends and l-blends), sorted into two columns; level 3: s-, l- and r-blends, the whole word written under each picture.",
+            "placed": "1:blends-start"
           },
           {
             "new": true,
@@ -94,7 +96,8 @@
             "days": 2,
             "tool": "Dictation Desk",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (ha__, ju__, ne__). Level 1: one pattern per page (nd); level 2: two patterns mixed, sorted into two columns; level 3: nd, mp, st, nk, the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (ha__, ju__, ne__). Level 1: one pattern per page (nd); level 2: two patterns mixed, sorted into two columns; level 3: nd, mp, st, nk, the whole word written under each picture.",
+            "placed": "1:blends-end"
           }
         ]
       },

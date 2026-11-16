@@ -1,0 +1,113 @@
+/**
+ * The planted faults of poison-vowels-g2.js (types/_shared/vowels-g2.js and data/literacy/vowels-g2.en.json):
+ * [name, file, text to find, its replacement, type, level]. Every text must stand in its file exactly once (bank: at
+ * least once; the first is replaced); the poison script refuses to run otherwise, so a changed factory cannot pass with a
+ * stale list. One fault for every rule of verify() that the child's page shows, and for every check of the bank (the bank
+ * is checked when the factory loads, so a bank fault ends the probe with an error). The probe renders the child's pages
+ * only: a rule that only a key can break is planted so that it breaks the child's page (a ring drawn on it).
+ */
+'use strict';
+module.exports = (FACTORY, BANK) => [
+  // the whole page
+  ['the page root without its no-ligature mark', FACTORY, 'data-lcs-noliga="1"${key ?', 'data-lcs-noliga-x="1"${key ?', 'G2-530', 2],
+  ['an f before i or l with no room of its own', FACTORY, 'out += inSvg ? text : text.replace(/f(?=[iflt])|t(?=t)/g', 'out += inSvg ? text : text.replace(/f(?=[x])|t(?=t)/g', 'G2-530', 2],
+  ['a t before t with no room of its own (letters)', FACTORY, 'out += inSvg ? text : text.replace(/f(?=[iflt])|t(?=t)/g', 'out += inSvg ? text : text.replace(/f(?=[ifl])/g', 'G2-532', 2],
+  ['pictures of 50 px', FACTORY, "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 2]], pic: 72,", "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 2]], pic: 50,", 'G2-530', 1],
+  ['the same picture on every row to write', FACTORY, '${img(x.w, d.wpic)}${x.cue ?', '${img(t.items[0].w, d.wpic)}${x.cue ?', 'G2-531', 1],
+  ['a level too full for the page (six sentences)', FACTORY, "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 2]], pic: 72,", "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 6]], pic: 72,", 'G2-530', 1],
+  ['words too big for their card', FACTORY, 'gfont: 38, gapMax: 6, grow: 24, wpic: 80', 'gfont: 92, gapMax: 6, grow: 24, wpic: 80', 'G2-534', 1],
+  ['a page that fills less than 80 % (one word a column)', FACTORY, "tasks: [['sort', 4], ['pillsent', 4]], chip: 23,", "tasks: [['sort', 1], ['pillsent', 4]], chip: 23,", 'G2-530', 2],
+  ['writing rows lower than 89 px', FACTORY, 'line({ w: colW, h: ROW, answer: key ? x.w : null, sample: true })', 'line({ w: colW, h: ROW - 12, answer: key ? x.w : null, sample: true })', 'G2-533', 2],
+  ['task lines of 17 px', FACTORY, 'const label = (html, px = 20) =>', 'const label = (html, px = 17) =>', 'G2-531', 2],
+  ['words to sort of 17 px', FACTORY, "tasks: [['sort', 3], ['pillsent', 4]], chip: 24, sfont: 26, pill: 26, spad: 6, pad: 12 },", "tasks: [['sort', 3], ['pillsent', 4]], chip: 17, sfont: 26, pill: 26, spad: 6, pad: 12 },", 'G2-533', 2],
+  ['a column head that is no teal bar', FACTORY, 'const headBar = (html, key) => `<div data-lcs-colhead="${key}" style="background:${T.teal};color:#FFFFFF;', 'const headBar = (html, key) => `<div data-lcs-colhead="${key}" style="background:${T.cream};color:#FFFFFF;', 'G2-534', 2],
+  ['a period set apart from its last word', FACTORY, '<span data-lcs-tail style="margin-left:1px">', '<span data-lcs-tail style="margin-left:24px">', 'G2-530', 2],
+  ['a period inside the pill of its last word', FACTORY, '<span data-lcs-tail style="margin-left:1px">', '<span data-lcs-tail style="margin-left:-14px">', 'G2-530', 2],
+  ['a gap of 60 px for two letters', FACTORY, 'display:inline-block;width:${g.length === 1 ? GAP1 : GAP2}px', 'display:inline-block;width:${g.length === 1 ? GAP1 : 60}px', 'G2-531', 1],
+  ["gaps filled on the child's page", FACTORY, '${key || example ? g : \'\'}', '${g}', 'G2-533', 1],
+  ['the task order of a level changed', FACTORY, "tasks.push({ kind: 'write', items: ws.map((w) => ({ w })) });\n      tasks.push({ kind: 'gaps', offered: ['ar', 'or'], rules: [], items: lineUp(gw, 3, rng) });", "tasks.push({ kind: 'gaps', offered: ['ar', 'or'], rules: [], items: lineUp(gw, 3, rng) });\n      tasks.push({ kind: 'write', items: ws.map((w) => ({ w })) });", 'G2-533', 3],
+  // sentences
+  ['a sentence keyed to the word that does not fit', FACTORY, 'const two = [[s.right, true], [s.wrong, false]]; if (s.first) two.reverse();', 'const two = [[s.right, false], [s.wrong, true]]; if (s.first) two.reverse();', 'G2-532', 1],
+  ['a sentence printed with other words than the bank', FACTORY, '${a ? `<span style="padding-bottom:${pb}px">${esc(a)}</span>` : \'\'}', '${a ? `<span style="padding-bottom:${pb}px">${esc(a + \' big\')}</span>` : \'\'}', 'G2-531', 3],
+  ['the right words of the sentences all short', FACTORY, "const sents = pickSents(b.shortlong.sentences, n, (ss) => ss.some((s) => kindOf(s.right) === 'short') && ss.some((s) => kindOf(s.right) === 'long'));", "const sents = pickSents(b.shortlong.sentences.filter((s) => kindOf(s.right) === 'short'), n);", 'G2-530', 2],
+  ['the right word first in every sentence', FACTORY, '({ ...s, kind: kindOf(s.right), first: at[i] })', '({ ...s, kind: kindOf(s.right), first: 0 })', 'G2-530', 2],
+  ['a choice sentence that shows a word of another pair', FACTORY, "const two = t.kind === 'choicewrite' ? (s.first ? [s.wrong, s.right] : [s.right, s.wrong]) : null;", "const two = t.kind === 'choicewrite' ? (s.first ? ['cake', s.right] : [s.right, 'cake']) : null;", 'G2-530', 3],
+  ['a word box without one of the answers', FACTORY, "const box = boxOrder(s1.map((s) => s.right), fillerPick(['a', 'e', 'o'], 2), rng);", "const box = boxOrder([s1[0].right], fillerPick(['a', 'e', 'o'], 3), rng);", 'G2-531', 3],
+  ['the answers in the word box in a staircase', FACTORY, 'function boxOrder(answers, fillers, rng) { for', 'function boxOrder(answers, fillers, rng) { return [...answers, ...fillers]; for', 'G2-533', 3],
+  // pictures with two words (G2-530)
+  ['the right word in the same place under every picture', FACTORY, 'const tops = places(4, 2, rng);', 'const tops = [1, 1, 1, 1];', 'G2-530', 1],
+  ['the two words under a picture side by side', FACTORY, '<div data-lcs-stack style="display:flex;flex-direction:column;align-items:center;gap:5px">${two.map', '<div data-lcs-stack style="display:flex;flex-direction:row;align-items:center;gap:5px">${two.map', 'G2-530', 1],
+  ['four pictures of short words', FACTORY, "if (!shown || shown.length < 4 || shown.filter((w) => kindOf(w) === 'short').length !== 2) throw new Error('no four pictured pairs (two short, two long)');", "shown = shuffle(b.shortlong.pairPics.filter((w) => kindOf(w) === 'short' && pairOf(w).every((x) => ok(x))), rng).slice(0, 4);", 'G2-530', 1],
+  // the sort
+  ['the sort words one column after the other', FACTORY, 'function mixed(items, rng) { let o = items;', 'function mixed(items, rng) { return items; let o = items;', 'G2-530', 1],
+  ['no line telling the child to cross out each word', FACTORY, "${t.odd ? '' : ' Cross out each word when you write it.'}", "${t.odd ? '' : ''}", 'G2-533', 2],
+  ['the odd word first in the bank', FACTORY, "all.splice(rng.int(1, all.length - 1), 0, { w: odd, col: 'odd' });", "all.splice(0, 0, { w: odd, col: 'odd' });", 'G2-534', 3],
+  ["the odd word crossed out on the child's page", FACTORY, "d.chip, key && x.col === 'odd', d.chipPad || 14)", "d.chip, x.col === 'odd', d.chipPad || 14)", 'G2-534', 3],
+  ['G2-530: no line telling the child to cross out the word that is not short or long', FACTORY, "'Read the words. One word is not short or long. Cross it out. Write the others under short vowel or long vowel.'", "'Read the words. Write them under short vowel or long vowel.'", 'G2-530', 3],
+  ['G2-530: the odd word also in the sentence of the page', FACTORY,
+    "const sents = pickSents(b.shortlong.sentences, nS, (ss) => nS < 2 || (ss.some((s) => kindOf(s.right) === 'short') && ss.some((s) => kindOf(s.right) === 'long')));\n      const firsts = nS < 2 ? [rng.int(0, 1)] : twoWay(nS, rng);\n      const per = d.tasks.find((t) => t[0] === 'sort')[1];\n      const short5 = (w) => w.length <= (d.sortMax || 99), ss = take(b.shortlong.short.hard, per, short5), ll = take(b.shortlong.long.hard, per, short5);\n      const odd = oddOf(b.shortlong.odd, sents);",
+    "const sents = pickSents(b.shortlong.sentences.filter((s) => /park|car\\./.test(s.text)), nS);\n      const firsts = nS < 2 ? [rng.int(0, 1)] : twoWay(nS, rng);\n      const per = d.tasks.find((t) => t[0] === 'sort')[1];\n      const short5 = (w) => w.length <= (d.sortMax || 99), ss = take(b.shortlong.short.hard, per, short5), ll = take(b.shortlong.long.hard, per, short5);\n      const odd = /park/.test(sents[0].text) ? 'park' : 'car';", 'G2-530', 3],
+  ['a sort of one long vowel only (teams level 2)', FACTORY, "return [...take(TS.words[g1], 1), ...take(TS.words[g2], 1), ...take(TS.words[more], per - 2)].map((w) => ({ w, col: v }));", "return take(TS.words[g1], per).map((w) => ({ w, col: v }));", 'G2-531', 2],
+  ['G2-532: hoop in the oo sort', FACTORY, "...take(DW['oo-moon'], per, sortable).map((w) => ({ w, col: 'oo-moon' }))", "...[...b.diph.notSort, ...take(DW['oo-moon'], per - 1, sortable)].map((w) => ({ w, col: 'oo-moon' }))", 'G2-532', 1],
+  ['G2-534: an er word of two syllables in the sort', FACTORY, 'take(E.words[g], per, oneSyl)', "take(E.words[g], per, (w) => g !== 'er' || !oneSyl(w))", 'G2-534', 2],
+  // the gaps
+  ['a gap that also makes another real word', FACTORY, 'return at >= 0 && w.indexOf(g, at + 1) < 0 && !rivalsOf(w, g, offered, real, bad).length &&', 'return at >= 0 && w.indexOf(g, at + 1) < 0 &&', 'G2-531', 3],
+  ['gaps of one team only', FACTORY, 'const seq = shuffle([...offered, ...Array.from({ length: n - offered.length }, () => offered[rng.int(0, offered.length - 1)])], rng);', 'const seq = shuffle(Array.from({ length: n }, () => offered[0]), rng);', 'G2-531', 2],
+  ['no rule printed where the place tells the spelling', FACTORY, 'rules: TS.rules[v] ? [TS.rules[v]] : [], items: lineUp(gw, 3, rng)', 'rules: [], items: lineUp(gw, 3, rng)', 'G2-531', 1],
+  ['a task line that does not name every spelling', FACTORY, "rule${t.rules.length > 1 ? 's' : ''}. Write ${orList(t.offered)}", "rule${t.rules.length > 1 ? 's' : ''}. Write ${orList(t.offered.slice(1))}", 'G2-531', 2],
+  ['G2-532: a row line that does not name its two spellings', FACTORY, 'Write ${orList(g.offered)}.', 'Write ${orList(g.offered.slice(1))}.', 'G2-532', 2],
+  ['G2-532: the rows of the gaps mix the two sounds', FACTORY, "[['ou', 'ow'], ['oi', 'oy']].map", "[['ou', 'oi'], ['ow', 'oy']].map", 'G2-532', 2],
+  ['G2-532: an oy gap in a word other than boy, toy, joy', FACTORY, 'SP.oy.filter((w) => b.diph.oyGap.includes(w))', 'SP.oy.filter((w) => !b.diph.oyGap.includes(w))', 'G2-532', 2],
+  ['G2-531: an ee or ea gap in a word outside the list', FACTORY, 'SP[g].filter((w) => b.teams.gapE.includes(w))', 'SP[g]', 'G2-531', 3],
+  ['G2-531: level 3 gaps of three teams and no long o', FACTORY, "if (new Set(seq).size < 4) throw new Error('no six gaps of four teams or more');\n      const gw = gapWords(seq, offered);", "const gw = gapWords(['ai', 'ay', 'ee', 'ai', 'ay', 'ee'], offered);", 'G2-531', 3],
+  ['G2-531: the long e line without "say the same sound"', FACTORY, '`${teal(t.offered[0])} and ${teal(t.offered[1])} say the same sound. Write the one that looks right.`', '`Write ${orList(t.offered)} in each word.`', 'G2-531', 1],
+  ['no worked word where the gaps take one spelling', FACTORY, "tasks.push({ kind: 'gaps', offered: ['ar'], rules: [], example: { w: ex, g: 'ar' }, items: gw });", "tasks.push({ kind: 'gaps', offered: ['ar'], rules: [], items: gw });", 'G2-533', 1],
+  ['a row of gaps all one spelling', FACTORY, 'function lineUp(gw, cols, rng) {', 'function lineUp(gw, cols, rng) { return gw.slice().sort((x, y) => (x.g < y.g ? -1 : 1));', 'G2-531', 1],
+  // words to write
+  ['a row to write on without its first letter', FACTORY, 'line({ w: cw, h: ROW, starter: x.w[0], answer: key ? x.w : null })', 'line({ w: cw, h: ROW, starter: null, answer: key ? x.w : null })', 'G2-534', 1],
+  ['no spelling box beside a picture (level 3)', FACTORY, "${x.cue ? cueBox(x) : ''}", "${false ? cueBox(x) : ''}", 'G2-534', 3],
+  ['G2-534: the box shows only the right letters', FACTORY, "${['er', 'ir', 'ur'].map((g) =>", '${[x.cue].map((g) =>', 'G2-534', 3],
+  ["G2-534: the right letters ringed on the child's page", FACTORY, "${key && g === x.cue ? T.teal : 'transparent'}", "${g === x.cue ? T.teal : 'transparent'}", 'G2-534', 3],
+  ['G2-534: no line asking the child to circle the letters', FACTORY, "'Circle the right letters in the box. Then write the word.'", "'Write the word for each picture.'", 'G2-534', 3],
+  ['three short words to write', FACTORY, 'const ws = [...take(b.shortlong.write.short, 1), ...take(b.shortlong.write.long, 1)];\n      ws.push(...take(rng.int(0, 1) ? b.shortlong.write.short : b.shortlong.write.long, nW - 2));', 'const ws = take(b.shortlong.write.short, nW);', 'G2-530', 3],
+  // the match (G2-533 level 1)
+  ['every picture straight across from its word', FACTORY, 'return { rows, pics: perm.map((s) => pics4[s]), Hw, Hp, G };', 'return { rows: [...pics4.map((w) => ({ w, pic: true })), ...dec.map((x) => ({ w: x.w, of: x.of, pic: false }))], pics: pics4, Hw, Hp, G };', 'G2-533', 1],
+  ['a word without a picture that comes from no pictured word', FACTORY, '${r.pic ? \'\' : ` data-lcs-decoy="${r.of}"`}', '${r.pic ? \'\' : ` data-lcs-decoy="xyz"`}', 'G2-533', 1],
+  // the spelling check (G2-534 level 2)
+  ['the right spelling always on top', FACTORY, 'const opts = wrong.slice(); opts.splice(at[i], 0, w);', 'const opts = wrong.slice(); opts.splice(0, 0, w);', 'G2-534', 2],
+  // the page-wide rules
+  ['the examples of the instruction used as task words', FACTORY, '  use(...say);\n', '  use();\n', 'G2-534', 2],
+  ['a word that fits a sentence put into its word box', FACTORY, 'const fillerPick = (vs, n) => take(vs.flatMap((v) => TS.fillers[v] || []), n);', 'const fillerPick = (vs, n) => { const fit = [...banned].filter((w) => !seen(w)).slice(0, 1); use(...fit); return [...fit, ...take(vs.flatMap((v) => TS.fillers[v] || []), n - fit.length)]; };', 'G2-531', 3],
+  // the bank's own check (it runs when the factory loads)
+  ['bank: a picture from a black-and-white theme', BANK, '"ocean life",\n   "shark"', '"ocean life bw",\n   "shark"', 'G2-533', 1],
+  ['bank: a print-only word that has a picture', BANK, '"slippers",', '"bird",', 'G2-534', 2],
+  ['bank: a pair that is no short word made long', BANK, '"cap",\n    "cape"', '"cap",\n    "capes"', 'G2-530', 1],
+  ['bank: a long word in the short list', BANK, '"cat",', '"cake",', 'G2-530', 1],
+  ['bank: a or e before g in the sort (bag)', BANK, '"map",', '"bag",', 'G2-530', 1],
+  ['bank: a long u that does not say its name (tune)', BANK, '"cute",', '"tune",', 'G2-530', 1],
+  ['bank: hate among the words of a page', BANK, '"mane",', '"hate",', 'G2-530', 1],
+  ['bank: an odd word of G2-530 that is a short word', BANK, '"odd": [\n   "car",', '"odd": [\n   "cap",', 'G2-530', 3],
+  ['bank: ay in the middle of a word', BANK, '"stray",', '"strays",', 'G2-531', 1],
+  ['bank: a team word of two syllables', BANK, '"greet",', '"greeting",', 'G2-531', 1],
+  ['bank: foam among the words that fill the box', BANK, '"o": [\n    "loaf",', '"o": [\n    "foam",', 'G2-531', 3],
+  ['bank: a long e gap word that is no ee or ea word', BANK, '"gapE": [\n   "see",', '"gapE": [\n   "boat",', 'G2-531', 1],
+  ['bank: an odd word that is a list word', BANK, '"here",', '"herd",', 'G2-534', 3],
+  ['bank: an odd word Americans say with the sound of her (sure)', BANK, '"there",', '"sure",', 'G2-534', 3],
+  ['bank: a keyword of the instruction as an answer (her)', BANK, '"right": "dinner"', '"right": "her"', 'G2-534', 1],
+  ['bank: a word to write with a doubled letter (ladder)', BANK, '"write": [\n   "blender",', '"write": [\n   "ladder",', 'G2-534', 1],
+  ['bank: a box word that fits a sentence', BANK, '"tar",', '"hard",', 'G2-533', 3],
+  ['bank: a word to write that starts with ar (arm)', BANK, '"jar",\n    "shark",\n    "scarf"', '"jar",\n    "arm",\n    "scarf"', 'G2-533', 3],
+  ['bank: a sentence whose fits are no list words', BANK, '"coach",\n     "jeep"', '"coach",\n     "bus"', 'G2-531', 3],
+  ['bank: a sentence that prints its own answer', BANK, '"text": "Zip up your ___."', '"text": "Zip up your ___ coat."', 'G2-530', 2],
+  ['bank: a sentence with two blanks', BANK, '"text": "A ___ makes honey."', '"text": "A ___ makes ___."', 'G2-531', 1],
+  ['bank: an oo pair of one sound', BANK, '"right": "hoop",\n    "wrong": "hook"', '"right": "hoop",\n    "wrong": "loop"', 'G2-532', 1],
+  ['bank: a word kept out of the oo sort that is no oo word', BANK, '"notSort": [\n   "hoop"', '"notSort": [\n   "howl"', 'G2-532', 1],
+  ['bank: an ar sentence whose other word is an or word', BANK, '"right": "pat",\n    "wrong": "part"', '"right": "pat",\n    "wrong": "port"', 'G2-533', 1],
+  ['bank: a word without a picture that is an ar word', BANK, '"cat",\n    "cup"', '"cart",\n    "cup"', 'G2-533', 1],
+  ['bank: a wrong spelling to check that is a real word', BANK, '"berd",', '"bard",', 'G2-534', 2],
+  ['bank: fart missing from the words a gap may never build', BANK, '"fart",', '"farm",', 'G2-533', 3],
+  ['bank: shart missing from the words a gap may never build', BANK, '"shart",', '"shxrt",', 'G2-533', 3],
+  ['bank: no oy word that can stand with a gap', BANK, '"joy",', '"coy",', 'G2-532', 2],
+  ['bank: a rule that names one example word', BANK, 'chain. ay', 'chains. ay', 'G2-531', 1],
+  ['bank: an ir word of two syllables', BANK, '"swirl",', '"circus",', 'G2-534', 2],
+];

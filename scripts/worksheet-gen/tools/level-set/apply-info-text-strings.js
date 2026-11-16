@@ -371,7 +371,7 @@ const TEXT = {
   'G2-532': {
     title: "Vowel Sounds: oo, ou, ow, oi, and oy",
     1: "oo can say two sounds: the sound in moon and the sound in book.",
-    2: "ou and ow say the sound in cow. oi and oy say the sound in boy.",
+    2: "ou and ow can say the sound in cow. oi and oy say the sound in boy.",
     3: "Vowel teams can say the sounds in moon, book, cow, and boy.",
   },
   'G2-533': {

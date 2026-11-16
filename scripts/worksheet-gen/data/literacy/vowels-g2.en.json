@@ -1,0 +1,3551 @@
+{
+ "_note": "Grade 2 vowels (English literacy year, Part 12.3; types/_shared/vowels-g2.js; written by s-g2vow/bank.js). General American pronunciation; one-syllable words except the er list of G2-534 (it also holds two-syllable words that end in er). `pics`: the library picture of a word (looked at on contact sheets; only pictures a second grader names with that word). `printOnly`: pictures a child names another way (none of them is in `pics`). `shortlong` (G2-530): short and long words (simple for Level 1, hard with blends and digraphs), `pairs` of a short word and the same word with a silent e or a vowel team, the pictured words of the pairs, the pictured words to write, the `odd` words of Level 3 (neither short nor long, to cross out), and `sentences` that only one word of a pair fits. `teams` (G2-531): the six vowel teams for long a, e, o; the rule of the place for ai/ay and oa/ow; `gapE`, the only ee and ea words a gap may stand in (no rule tells the two apart); pictured words to write; sentences to finish from a word box; `fillers` that fit no sentence. `diph` (G2-532): oo (moon and book sounds), ou, ow, oi, oy; `notSort` (never sorted by the sound of oo: hoop); `oyGap` (the oy words a gap may stand in); rules; pictures; pair sentences for the two sounds of oo; box sentences; fillers. `aror` (G2-533): ar and or words (no w before or), the pictures to match and their printed decoys, sentences of an ar word and the same word without r (Level 1), of an ar word and an or word (Level 2), box sentences and fillers (Level 3). `erirur` (G2-534): er, ir, ur words, the `keywords` of the instruction (her, first, turn: never an answer), the odd words that have the letters but not the sound, the check task (two wrong spellings that are no words), pictures to write, sentences. Every sentence names in `fits` every other word of its type's lists that also fits the gap; such a word is never printed on a page that shows the sentence. `real`: every real word a gap can build with another offered spelling (from the 50k OpenSubtitles list minus names and junk); `bad` and `badFragments`: words a gap may never build and letters that may never stand beside a gap.",
+ "pics": {
+  "cap": [
+   "accessories",
+   "cap"
+  ],
+  "can": [
+   "At the Supermarket",
+   "can"
+  ],
+  "pan": [
+   "around the house",
+   "pan"
+  ],
+  "bat": [
+   "animals",
+   "bat"
+  ],
+  "sock": [
+   "accessories",
+   "sock"
+  ],
+  "clock": [
+   "around the house",
+   "clock"
+  ],
+  "bed": [
+   "around the house",
+   "bed"
+  ],
+  "net": [
+   "beach",
+   "net"
+  ],
+  "tape": [
+   "classroom",
+   "tape"
+  ],
+  "plane": [
+   "vehicles",
+   "airplane"
+  ],
+  "kite": [
+   "beach",
+   "kite"
+  ],
+  "slide": [
+   "toys",
+   "slide"
+  ],
+  "note": [
+   "music",
+   "note"
+  ],
+  "coat": [
+   "clothing",
+   "coat"
+  ],
+  "goat": [
+   "farm animals",
+   "goat"
+  ],
+  "globe": [
+   "classroom",
+   "globe"
+  ],
+  "cat": [
+   "animals",
+   "cat"
+  ],
+  "dog": [
+   "animals",
+   "dog"
+  ],
+  "pig": [
+   "animals",
+   "pig"
+  ],
+  "bus": [
+   "vehicles",
+   "bus"
+  ],
+  "crab": [
+   "beach",
+   "crab"
+  ],
+  "drum": [
+   "music",
+   "drum"
+  ],
+  "duck": [
+   "animals",
+   "duck"
+  ],
+  "fan": [
+   "around the house",
+   "fan"
+  ],
+  "fish": [
+   "animals",
+   "fish"
+  ],
+  "flag": [
+   "4th of July",
+   "flag"
+  ],
+  "fox": [
+   "animals",
+   "fox"
+  ],
+  "frog": [
+   "pets",
+   "frog"
+  ],
+  "lamp": [
+   "around the house",
+   "lamp"
+  ],
+  "leg": [
+   "body parts",
+   "leg"
+  ],
+  "lock": [
+   "around the house",
+   "lock"
+  ],
+  "log": [
+   "camping",
+   "log"
+  ],
+  "map": [
+   "classroom",
+   "map"
+  ],
+  "mop": [
+   "around the house",
+   "mop"
+  ],
+  "pen": [
+   "around the house",
+   "pen"
+  ],
+  "sled": [
+   "winter",
+   "sled"
+  ],
+  "sun": [
+   "beach",
+   "sun"
+  ],
+  "tent": [
+   "camping",
+   "tent"
+  ],
+  "van": [
+   "vehicles",
+   "van"
+  ],
+  "bell": [
+   "christmas",
+   "bell"
+  ],
+  "belt": [
+   "accessories",
+   "belt"
+  ],
+  "bench": [
+   "furniture",
+   "bench"
+  ],
+  "cake": [
+   "bakery",
+   "cake"
+  ],
+  "nose": [
+   "body parts",
+   "nose"
+  ],
+  "gate": [
+   "around the house",
+   "gate"
+  ],
+  "rake": [
+   "around the house",
+   "rake"
+  ],
+  "plate": [
+   "around the house",
+   "plate"
+  ],
+  "whale": [
+   "animals",
+   "whale"
+  ],
+  "nail": [
+   "tools",
+   "nail"
+  ],
+  "snail": [
+   "forest creatures",
+   "snail"
+  ],
+  "train": [
+   "toys",
+   "train"
+  ],
+  "bee": [
+   "farm animals",
+   "bee"
+  ],
+  "tree": [
+   "tree",
+   "oak"
+  ],
+  "sheep": [
+   "animals",
+   "sheep"
+  ],
+  "leaf": [
+   "spring",
+   "leaf"
+  ],
+  "beach": [
+   "summer",
+   "beach"
+  ],
+  "boat": [
+   "toys",
+   "boat"
+  ],
+  "moon": [
+   "camping",
+   "moon"
+  ],
+  "spoon": [
+   "around the house",
+   "spoon"
+  ],
+  "pool": [
+   "summer",
+   "pool"
+  ],
+  "tooth": [
+   "body parts",
+   "tooth"
+  ],
+  "book": [
+   "classroom",
+   "book"
+  ],
+  "foot": [
+   "body parts",
+   "foot"
+  ],
+  "cloud": [
+   "weather",
+   "cloud"
+  ],
+  "mouse": [
+   "pets",
+   "mouse"
+  ],
+  "house": [
+   "miscellaneous",
+   "house"
+  ],
+  "mouth": [
+   "body parts",
+   "mouth"
+  ],
+  "couch": [
+   "around the house",
+   "couch"
+  ],
+  "cow": [
+   "farm animals",
+   "cow"
+  ],
+  "owl": [
+   "animals",
+   "owl"
+  ],
+  "crown": [
+   "accessories",
+   "crown"
+  ],
+  "car": [
+   "toys",
+   "car"
+  ],
+  "star": [
+   "christmas",
+   "star"
+  ],
+  "jar": [
+   "kitchen tools",
+   "jar"
+  ],
+  "shark": [
+   "ocean life",
+   "shark"
+  ],
+  "harp": [
+   "music",
+   "harp"
+  ],
+  "scarf": [
+   "accessories",
+   "scarf"
+  ],
+  "cart": [
+   "At the Supermarket",
+   "cart"
+  ],
+  "arm": [
+   "body parts",
+   "arm"
+  ],
+  "fork": [
+   "kitchen tools",
+   "fork"
+  ],
+  "corn": [
+   "vegetables",
+   "corn"
+  ],
+  "horse": [
+   "animals",
+   "horse"
+  ],
+  "bird": [
+   "spring",
+   "bird"
+  ],
+  "shirt": [
+   "clothing",
+   "shirt"
+  ],
+  "skirt": [
+   "clothing",
+   "skirt"
+  ],
+  "nurse": [
+   "hospital",
+   "nurse"
+  ],
+  "blender": [
+   "kitchen tools",
+   "blender"
+  ],
+  "hamster": [
+   "pets",
+   "hamster"
+  ],
+  "mixer": [
+   "kitchen tools",
+   "mixer"
+  ],
+  "purse": [
+   "accessories",
+   "purse"
+  ],
+  "church": [
+   "christmas",
+   "church"
+  ]
+ },
+ "printOnly": [
+  "letter",
+  "butter",
+  "dresser",
+  "slippers",
+  "river",
+  "girl",
+  "rain",
+  "toast",
+  "crow",
+  "seal",
+  "jeep",
+  "cube",
+  "rose",
+  "cone",
+  "rope",
+  "hose",
+  "dice",
+  "peach",
+  "hen",
+  "jam",
+  "jet",
+  "bun",
+  "ham",
+  "lid",
+  "lip",
+  "rock",
+  "bike",
+  "rod",
+  "cheeks",
+  "peas",
+  "knee",
+  "heel",
+  "goose",
+  "moose",
+  "broom",
+  "chart",
+  "yarn",
+  "stork",
+  "storm",
+  "cord",
+  "mug",
+  "pot",
+  "chick",
+  "ship",
+  "stamp",
+  "cane",
+  "rug",
+  "stool"
+ ],
+ "bad": [
+  "shart",
+  "hate",
+  "coont",
+  "shit",
+  "fart",
+  "turd",
+  "porn",
+  "coon",
+  "cooch",
+  "dork",
+  "poo",
+  "poop",
+  "pee",
+  "boob",
+  "butt",
+  "crap",
+  "piss",
+  "damn",
+  "hell",
+  "slut",
+  "tit",
+  "tits",
+  "dick",
+  "cock",
+  "jerk",
+  "nerd",
+  "bitch",
+  "hoe",
+  "ho",
+  "sex",
+  "fag",
+  "dyke",
+  "spic",
+  "cunt",
+  "twat",
+  "wank",
+  "prick"
+ ],
+ "badFragments": [
+  "ag",
+  "ass",
+  "ho",
+  "hoe",
+  "tit",
+  "tits",
+  "cum",
+  "poo",
+  "pee",
+  "butt",
+  "dic",
+  "dik",
+  "fuk",
+  "nig",
+  "sex",
+  "pis",
+  "fart"
+ ],
+ "real": [
+  "bait",
+  "barn",
+  "bay",
+  "beat",
+  "beech",
+  "been",
+  "beet",
+  "berth",
+  "boa",
+  "boat",
+  "boo",
+  "born",
+  "bout",
+  "bow",
+  "bowl",
+  "bread",
+  "breed",
+  "broad",
+  "brown",
+  "card",
+  "cheep",
+  "clown",
+  "coil",
+  "coo",
+  "cooch",
+  "cool",
+  "coon",
+  "coont",
+  "cord",
+  "cowl",
+  "coy",
+  "creak",
+  "creek",
+  "croon",
+  "dork",
+  "drown",
+  "fail",
+  "far",
+  "farm",
+  "fart",
+  "feat",
+  "fir",
+  "flay",
+  "flea",
+  "flee",
+  "fleet",
+  "foal",
+  "foil",
+  "fool",
+  "for",
+  "form",
+  "foul",
+  "fowl",
+  "fray",
+  "gait",
+  "glee",
+  "goon",
+  "grain",
+  "gray",
+  "great",
+  "green",
+  "groan",
+  "groat",
+  "grow",
+  "grown",
+  "hail",
+  "heal",
+  "heel",
+  "how",
+  "howl",
+  "laid",
+  "lay",
+  "lea",
+  "lead",
+  "leaf",
+  "lee",
+  "leek",
+  "loaf",
+  "low",
+  "mail",
+  "main",
+  "may",
+  "meal",
+  "mean",
+  "meat",
+  "meet",
+  "moan",
+  "moat",
+  "moose",
+  "mouse",
+  "mow",
+  "mown",
+  "noun",
+  "oast",
+  "oat",
+  "oil",
+  "pail",
+  "parch",
+  "park",
+  "pay",
+  "pea",
+  "peal",
+  "pee",
+  "peed",
+  "peek",
+  "peen",
+  "plea",
+  "plow",
+  "poach",
+  "pooch",
+  "pork",
+  "port",
+  "pow",
+  "quean",
+  "raid",
+  "read",
+  "real",
+  "reed",
+  "reel",
+  "roach",
+  "roan",
+  "row",
+  "said",
+  "sail",
+  "say",
+  "scoot",
+  "sea",
+  "seal",
+  "see",
+  "seek",
+  "seep",
+  "serf",
+  "shart",
+  "shea",
+  "shoot",
+  "shout",
+  "slay",
+  "snoot",
+  "sooth",
+  "sou",
+  "soul",
+  "sow",
+  "sown",
+  "spool",
+  "spork",
+  "spree",
+  "stark",
+  "steel",
+  "stoa",
+  "stow",
+  "strait",
+  "sweat",
+  "tarn",
+  "tea",
+  "teal",
+  "tee",
+  "teed",
+  "teem",
+  "tern",
+  "threat",
+  "three",
+  "throw",
+  "toil",
+  "too",
+  "tor",
+  "tow",
+  "trait",
+  "tray",
+  "tree",
+  "trow",
+  "weak",
+  "wee",
+  "week",
+  "wheal",
+  "woad",
+  "woo",
+  "wow"
+ ],
+ "shortlong": {
+  "short": {
+   "simple": [
+    "cat",
+    "map",
+    "man",
+    "can",
+    "pan",
+    "fan",
+    "jam",
+    "hat",
+    "rat",
+    "van",
+    "gas",
+    "bed",
+    "pet",
+    "ten",
+    "red",
+    "wet",
+    "hen",
+    "web",
+    "jet",
+    "pen",
+    "kit",
+    "pin",
+    "dig",
+    "big",
+    "pig",
+    "win",
+    "lip",
+    "six",
+    "wig",
+    "sit",
+    "hop",
+    "not",
+    "pot",
+    "top",
+    "dog",
+    "hot",
+    "mop",
+    "box",
+    "fox",
+    "log",
+    "cub",
+    "tub",
+    "cut",
+    "bug",
+    "sun",
+    "run",
+    "fun",
+    "nut",
+    "cup",
+    "mud",
+    "hug",
+    "bus",
+    "gum"
+   ],
+   "hard": [
+    "step",
+    "plan",
+    "clap",
+    "snap",
+    "trap",
+    "crab",
+    "grab",
+    "chat",
+    "shed",
+    "sled",
+    "spot",
+    "stop",
+    "drop",
+    "chop",
+    "shop",
+    "clock",
+    "frog",
+    "spin",
+    "swim",
+    "trip",
+    "ship",
+    "chin",
+    "skip",
+    "grin",
+    "drum",
+    "plum",
+    "club",
+    "shut",
+    "brush",
+    "stuck",
+    "truck",
+    "duck",
+    "sock",
+    "rock",
+    "black",
+    "track",
+    "snack",
+    "dress",
+    "chest",
+    "nest",
+    "test",
+    "best",
+    "fresh",
+    "check",
+    "neck",
+    "stem",
+    "strip",
+    "slim",
+    "block",
+    "stamp",
+    "crust",
+    "lunch",
+    "thick",
+    "thin"
+   ]
+  },
+  "long": {
+   "simple": [
+    "cake",
+    "game",
+    "gate",
+    "lake",
+    "name",
+    "same",
+    "tape",
+    "cave",
+    "wave",
+    "bake",
+    "kite",
+    "five",
+    "hide",
+    "ride",
+    "time",
+    "like",
+    "home",
+    "hope",
+    "nose",
+    "rope",
+    "bone",
+    "note",
+    "cute",
+    "rain",
+    "tail",
+    "wait",
+    "mail",
+    "day",
+    "play",
+    "say",
+    "way",
+    "see",
+    "bee",
+    "feet",
+    "tree",
+    "seed",
+    "eat",
+    "sea",
+    "tea",
+    "seat",
+    "leaf",
+    "boat",
+    "coat",
+    "goat",
+    "road",
+    "soap",
+    "snow",
+    "grow",
+    "low",
+    "show",
+    "made",
+    "mane",
+    "pain",
+    "bait",
+    "paid",
+    "feed",
+    "meet",
+    "mean",
+    "neat",
+    "bead",
+    "pine",
+    "bite",
+    "fine",
+    "dime",
+    "ripe",
+    "robe",
+    "rode",
+    "code",
+    "soak",
+    "hike",
+    "side",
+    "wide",
+    "dive",
+    "hive",
+    "hole",
+    "joke",
+    "pole",
+    "mule"
+   ],
+   "hard": [
+    "plane",
+    "snake",
+    "skate",
+    "shape",
+    "grape",
+    "plate",
+    "slide",
+    "smile",
+    "shine",
+    "white",
+    "stripe",
+    "spine",
+    "globe",
+    "stone",
+    "smoke",
+    "train",
+    "snail",
+    "paint",
+    "chain",
+    "spray",
+    "stay",
+    "tray",
+    "clay",
+    "sheep",
+    "sleep",
+    "green",
+    "street",
+    "teeth",
+    "wheel",
+    "beach",
+    "peach",
+    "clean",
+    "dream",
+    "cream",
+    "steam",
+    "toast",
+    "coach",
+    "float",
+    "throat",
+    "slow",
+    "throw",
+    "glow",
+    "blow",
+    "steep",
+    "speed",
+    "bleed",
+    "paste",
+    "coast",
+    "slime",
+    "brave",
+    "bride",
+    "spoke",
+    "broke",
+    "grade",
+    "trade",
+    "flame",
+    "crane"
+   ]
+  },
+  "odd": [
+   "car",
+   "star",
+   "park",
+   "cow",
+   "now",
+   "boy"
+  ],
+  "pairs": [
+   [
+    "cap",
+    "cape"
+   ],
+   [
+    "tap",
+    "tape"
+   ],
+   [
+    "can",
+    "cane"
+   ],
+   [
+    "man",
+    "mane"
+   ],
+   [
+    "mad",
+    "made"
+   ],
+   [
+    "plan",
+    "plane"
+   ],
+   [
+    "pan",
+    "pain"
+   ],
+   [
+    "ran",
+    "rain"
+   ],
+   [
+    "bat",
+    "bait"
+   ],
+   [
+    "pad",
+    "paid"
+   ],
+   [
+    "past",
+    "paste"
+   ],
+   [
+    "step",
+    "steep"
+   ],
+   [
+    "fed",
+    "feed"
+   ],
+   [
+    "met",
+    "meet"
+   ],
+   [
+    "men",
+    "mean"
+   ],
+   [
+    "net",
+    "neat"
+   ],
+   [
+    "set",
+    "seat"
+   ],
+   [
+    "bed",
+    "bead"
+   ],
+   [
+    "sped",
+    "speed"
+   ],
+   [
+    "bled",
+    "bleed"
+   ],
+   [
+    "stem",
+    "steam"
+   ],
+   [
+    "ten",
+    "teen"
+   ],
+   [
+    "kit",
+    "kite"
+   ],
+   [
+    "pin",
+    "pine"
+   ],
+   [
+    "rid",
+    "ride"
+   ],
+   [
+    "hid",
+    "hide"
+   ],
+   [
+    "bit",
+    "bite"
+   ],
+   [
+    "fin",
+    "fine"
+   ],
+   [
+    "dim",
+    "dime"
+   ],
+   [
+    "slid",
+    "slide"
+   ],
+   [
+    "rip",
+    "ripe"
+   ],
+   [
+    "spin",
+    "spine"
+   ],
+   [
+    "shin",
+    "shine"
+   ],
+   [
+    "hop",
+    "hope"
+   ],
+   [
+    "not",
+    "note"
+   ],
+   [
+    "rob",
+    "robe"
+   ],
+   [
+    "rod",
+    "rode"
+   ],
+   [
+    "cod",
+    "code"
+   ],
+   [
+    "cot",
+    "coat"
+   ],
+   [
+    "got",
+    "goat"
+   ],
+   [
+    "sock",
+    "soak"
+   ],
+   [
+    "cost",
+    "coast"
+   ],
+   [
+    "glob",
+    "globe"
+   ],
+   [
+    "clock",
+    "cloak"
+   ],
+   [
+    "cub",
+    "cube"
+   ],
+   [
+    "tub",
+    "tube"
+   ],
+   [
+    "cut",
+    "cute"
+   ]
+  ],
+  "pairPics": [
+   "cap",
+   "can",
+   "pan",
+   "bat",
+   "sock",
+   "clock",
+   "bed",
+   "net",
+   "tape",
+   "plane",
+   "kite",
+   "slide",
+   "note",
+   "coat",
+   "goat",
+   "globe"
+  ],
+  "write": {
+   "short": [
+    "cat",
+    "dog",
+    "pig",
+    "bus",
+    "crab",
+    "drum",
+    "duck",
+    "fan",
+    "fish",
+    "flag",
+    "fox",
+    "frog",
+    "lamp",
+    "leg",
+    "lock",
+    "log",
+    "map",
+    "mop",
+    "pen",
+    "sled",
+    "sun",
+    "tent",
+    "van",
+    "bell",
+    "belt",
+    "bench"
+   ],
+   "long": [
+    "cake",
+    "kite",
+    "nose",
+    "globe",
+    "gate",
+    "rake",
+    "plate",
+    "tape",
+    "plane",
+    "slide",
+    "whale",
+    "nail",
+    "snail",
+    "train",
+    "bee",
+    "tree",
+    "sheep",
+    "leaf",
+    "beach",
+    "boat",
+    "coat",
+    "goat"
+   ]
+  },
+  "sentences": [
+   {
+    "text": "A horse has a long ___.",
+    "right": "mane",
+    "wrong": "man",
+    "fits": [
+     "tail",
+     "nose",
+     "neck",
+     "leg"
+    ]
+   },
+   {
+    "text": "My dog ___ under the bed.",
+    "right": "hid",
+    "wrong": "hide",
+    "fits": [
+     "ran",
+     "slid",
+     "sped"
+    ]
+   },
+   {
+    "text": "I like to ___ my bike.",
+    "right": "ride",
+    "wrong": "rid",
+    "fits": [
+     "clean",
+     "paint",
+     "lock"
+    ]
+   },
+   {
+    "text": "A fish has a ___ on its back.",
+    "right": "fin",
+    "wrong": "fine",
+    "fits": [
+     "spot",
+     "stripe",
+     "spine"
+    ]
+   },
+   {
+    "text": "A ___ is worth ten cents.",
+    "right": "dime",
+    "wrong": "dim",
+    "fits": []
+   },
+   {
+    "text": "Can you ___ me at the park?",
+    "right": "meet",
+    "wrong": "met",
+    "fits": [
+     "see",
+     "hug",
+     "drop",
+     "hide"
+    ]
+   },
+   {
+    "text": "My room is clean and ___.",
+    "right": "neat",
+    "wrong": "net",
+    "fits": [
+     "white",
+     "fresh",
+     "big",
+     "wide",
+     "hot"
+    ]
+   },
+   {
+    "text": "Sit in the front ___ of the car.",
+    "right": "seat",
+    "wrong": "set",
+    "fits": []
+   },
+   {
+    "text": "Mom ___ the baby a bottle.",
+    "right": "fed",
+    "wrong": "feed",
+    "fits": [
+     "made",
+     "got"
+    ]
+   },
+   {
+    "text": "We need to ___ the fish.",
+    "right": "feed",
+    "wrong": "fed",
+    "fits": [
+     "cut",
+     "clean",
+     "net",
+     "bake",
+     "eat"
+    ]
+   },
+   {
+    "text": "Do not be ___ to your sister.",
+    "right": "mean",
+    "wrong": "men",
+    "fits": []
+   },
+   {
+    "text": "I made a necklace with a red ___.",
+    "right": "bead",
+    "wrong": "bed",
+    "fits": [
+     "stone",
+     "bell"
+    ]
+   },
+   {
+    "text": "I sleep in a big ___.",
+    "right": "bed",
+    "wrong": "bead",
+    "fits": [
+     "tent",
+     "cot",
+     "home"
+    ]
+   },
+   {
+    "text": "Sam is ___ years old.",
+    "right": "ten",
+    "wrong": "teen",
+    "fits": [
+     "five",
+     "six"
+    ]
+   },
+   {
+    "text": "My big sister is a ___ now.",
+    "right": "teen",
+    "wrong": "ten",
+    "fits": []
+   },
+   {
+    "text": "I ___ to see you soon.",
+    "right": "hope",
+    "wrong": "hop",
+    "fits": [
+     "plan"
+    ]
+   },
+   {
+    "text": "A frog can ___ very far.",
+    "right": "hop",
+    "wrong": "hope",
+    "fits": [
+     "swim",
+     "see"
+    ]
+   },
+   {
+    "text": "I wrote a ___ to Grandma.",
+    "right": "note",
+    "wrong": "not",
+    "fits": []
+   },
+   {
+    "text": "It is ___ cold today.",
+    "right": "not",
+    "wrong": "note",
+    "fits": []
+   },
+   {
+    "text": "We baked the cake in a ___.",
+    "right": "pan",
+    "wrong": "pain",
+    "fits": []
+   },
+   {
+    "text": "I have a ___ in my leg.",
+    "right": "pain",
+    "wrong": "pan",
+    "fits": [
+     "cut"
+    ]
+   },
+   {
+    "text": "I need a roll of ___.",
+    "right": "tape",
+    "wrong": "tap",
+    "fits": []
+   },
+   {
+    "text": "Can you ___ the drum with a stick?",
+    "right": "tap",
+    "wrong": "tape",
+    "fits": []
+   },
+   {
+    "text": "Dad ___ a cake for us.",
+    "right": "made",
+    "wrong": "mad",
+    "fits": [
+     "got"
+    ]
+   },
+   {
+    "text": "Sam is ___ at his dog.",
+    "right": "mad",
+    "wrong": "made",
+    "fits": []
+   },
+   {
+    "text": "The ___ flew high in the sky.",
+    "right": "kite",
+    "wrong": "kit",
+    "fits": [
+     "plane",
+     "bee",
+     "duck",
+     "bat"
+    ]
+   },
+   {
+    "text": "My paints are in my art ___.",
+    "right": "kit",
+    "wrong": "kite",
+    "fits": [
+     "box"
+    ]
+   },
+   {
+    "text": "Do not ___ your nails.",
+    "right": "bite",
+    "wrong": "bit",
+    "fits": [
+     "cut",
+     "paint"
+    ]
+   },
+   {
+    "text": "The pup ___ my sock last night.",
+    "right": "bit",
+    "wrong": "bite",
+    "fits": [
+     "hid",
+     "got"
+    ]
+   },
+   {
+    "text": "Is the banana ___ yet?",
+    "right": "ripe",
+    "wrong": "rip",
+    "fits": []
+   },
+   {
+    "text": "Do not ___ the paper.",
+    "right": "rip",
+    "wrong": "ripe",
+    "fits": [
+     "cut",
+     "paint",
+     "tape",
+     "drop",
+     "soak"
+    ]
+   },
+   {
+    "text": "We ___ our bikes to the lake.",
+    "right": "rode",
+    "wrong": "rod",
+    "fits": [
+     "ride"
+    ]
+   },
+   {
+    "text": "I put on my ___ after my bath.",
+    "right": "robe",
+    "wrong": "rob",
+    "fits": [
+     "coat"
+    ]
+   },
+   {
+    "text": "A top can ___ around and around.",
+    "right": "spin",
+    "wrong": "spine",
+    "fits": []
+   },
+   {
+    "text": "The sun will ___ all day.",
+    "right": "shine",
+    "wrong": "shin",
+    "fits": [
+     "glow",
+     "stay"
+    ]
+   },
+   {
+    "text": "A baby bear is a ___.",
+    "right": "cub",
+    "wrong": "cube",
+    "fits": []
+   },
+   {
+    "text": "An ice ___ is in my cup.",
+    "right": "cube",
+    "wrong": "cub",
+    "fits": []
+   },
+   {
+    "text": "I take a bath in the ___.",
+    "right": "tub",
+    "wrong": "tube",
+    "fits": []
+   },
+   {
+    "text": "The toothpaste is in a ___.",
+    "right": "tube",
+    "wrong": "tub",
+    "fits": [
+     "cup",
+     "box"
+    ]
+   },
+   {
+    "text": "Please ___ the paper on the line.",
+    "right": "cut",
+    "wrong": "cute",
+    "fits": [
+     "tape",
+     "pin",
+     "rip"
+    ]
+   },
+   {
+    "text": "The baby duck is so ___!",
+    "right": "cute",
+    "wrong": "cut",
+    "fits": [
+     "wet",
+     "big"
+    ]
+   },
+   {
+    "text": "We hiked up a ___ hill.",
+    "right": "steep",
+    "wrong": "step",
+    "fits": [
+     "big",
+     "green"
+    ]
+   },
+   {
+    "text": "Watch your ___ on the stairs.",
+    "right": "step",
+    "wrong": "steep",
+    "fits": []
+   },
+   {
+    "text": "The car ___ down the road.",
+    "right": "sped",
+    "wrong": "speed",
+    "fits": [
+     "slid"
+    ]
+   },
+   {
+    "text": "My cut ___ a little.",
+    "right": "bled",
+    "wrong": "bleed",
+    "fits": []
+   },
+   {
+    "text": "The flower has a long green ___.",
+    "right": "stem",
+    "wrong": "steam",
+    "fits": [
+     "leaf"
+    ]
+   },
+   {
+    "text": "I can see ___ from the hot pot.",
+    "right": "steam",
+    "wrong": "stem",
+    "fits": [
+     "smoke"
+    ]
+   },
+   {
+    "text": "I fixed my shirt with a ___.",
+    "right": "pin",
+    "wrong": "pine",
+    "fits": [
+     "tape"
+    ]
+   },
+   {
+    "text": "Let's ___ a trip to the zoo.",
+    "right": "plan",
+    "wrong": "plane",
+    "fits": []
+   },
+   {
+    "text": "We flew in a big ___.",
+    "right": "plane",
+    "wrong": "plan",
+    "fits": []
+   },
+   {
+    "text": "Yesterday I ___ to the bus stop.",
+    "right": "ran",
+    "wrong": "rain",
+    "fits": [
+     "rode",
+     "sped",
+     "slid"
+    ]
+   },
+   {
+    "text": "Hit the ball with the ___.",
+    "right": "bat",
+    "wrong": "bait",
+    "fits": []
+   },
+   {
+    "text": "We use ___ to catch a fish.",
+    "right": "bait",
+    "wrong": "bat",
+    "fits": [
+     "net"
+    ]
+   },
+   {
+    "text": "Mom ___ for the snacks.",
+    "right": "paid",
+    "wrong": "pad",
+    "fits": []
+   },
+   {
+    "text": "Glue the paper with ___.",
+    "right": "paste",
+    "wrong": "past",
+    "fits": [
+     "tape"
+    ]
+   },
+   {
+    "text": "We walked ___ the park.",
+    "right": "past",
+    "wrong": "paste",
+    "fits": []
+   },
+   {
+    "text": "Zip up your ___.",
+    "right": "coat",
+    "wrong": "cot",
+    "fits": [
+     "dress"
+    ]
+   },
+   {
+    "text": "We ___ a new puppy.",
+    "right": "got",
+    "wrong": "goat",
+    "fits": [
+     "hug",
+     "fed",
+     "met",
+     "see"
+    ]
+   },
+   {
+    "text": "Let the pan ___ in the sink.",
+    "right": "soak",
+    "wrong": "sock",
+    "fits": [
+     "sit"
+    ]
+   },
+   {
+    "text": "The ___ says it is time for lunch.",
+    "right": "clock",
+    "wrong": "cloak",
+    "fits": []
+   },
+   {
+    "text": "I know the secret ___.",
+    "right": "code",
+    "wrong": "cod",
+    "fits": [
+     "name"
+    ]
+   },
+   {
+    "text": "How much does it ___?",
+    "right": "cost",
+    "wrong": "coast",
+    "fits": []
+   },
+   {
+    "text": "The ___ on my desk shows the world.",
+    "right": "globe",
+    "wrong": "glob",
+    "fits": [
+     "map"
+    ]
+   },
+   {
+    "text": "A ___ of glue fell on the floor.",
+    "right": "glob",
+    "wrong": "globe",
+    "fits": [
+     "drop"
+    ]
+   },
+   {
+    "text": "I feel ___ today.",
+    "right": "fine",
+    "wrong": "fin",
+    "fits": [
+     "mad",
+     "hot",
+     "fresh",
+     "brave"
+    ]
+   },
+   {
+    "text": "A ___ tree is green all year.",
+    "right": "pine",
+    "wrong": "pin",
+    "fits": []
+   },
+   {
+    "text": "Put your ___ on your head.",
+    "right": "cap",
+    "wrong": "cape",
+    "fits": [
+     "hat"
+    ]
+   }
+  ]
+ },
+ "teams": {
+  "words": {
+   "ai": [
+    "rain",
+    "train",
+    "brain",
+    "chain",
+    "drain",
+    "grain",
+    "paint",
+    "sail",
+    "mail",
+    "nail",
+    "tail",
+    "snail",
+    "trail",
+    "wait",
+    "bait",
+    "paid",
+    "braid",
+    "main",
+    "plain",
+    "pain",
+    "stain",
+    "hail",
+    "rail"
+   ],
+   "ay": [
+    "day",
+    "play",
+    "say",
+    "way",
+    "may",
+    "stay",
+    "pay",
+    "ray",
+    "hay",
+    "tray",
+    "gray",
+    "clay",
+    "spray",
+    "stray",
+    "lay"
+   ],
+   "ee": [
+    "bee",
+    "see",
+    "tree",
+    "free",
+    "three",
+    "feet",
+    "meet",
+    "sleep",
+    "sheep",
+    "jeep",
+    "keep",
+    "deep",
+    "seed",
+    "need",
+    "feed",
+    "weed",
+    "week",
+    "cheek",
+    "green",
+    "queen",
+    "teeth",
+    "wheel",
+    "heel",
+    "feel",
+    "peel",
+    "sweet",
+    "street",
+    "steep",
+    "sheet",
+    "speed",
+    "beef",
+    "greet"
+   ],
+   "ea": [
+    "eat",
+    "sea",
+    "tea",
+    "pea",
+    "seat",
+    "meat",
+    "beat",
+    "heat",
+    "neat",
+    "treat",
+    "wheat",
+    "leaf",
+    "bead",
+    "beach",
+    "peach",
+    "reach",
+    "teach",
+    "each",
+    "clean",
+    "mean",
+    "bean",
+    "dream",
+    "cream",
+    "team",
+    "steam",
+    "beam",
+    "scream",
+    "stream",
+    "east",
+    "feast",
+    "least",
+    "cheap",
+    "sneak",
+    "speak",
+    "weak",
+    "peak",
+    "leak",
+    "beak",
+    "seal",
+    "meal",
+    "deal",
+    "heal",
+    "steal"
+   ],
+   "oa": [
+    "boat",
+    "coat",
+    "goat",
+    "road",
+    "toad",
+    "load",
+    "soap",
+    "loaf",
+    "foam",
+    "coach",
+    "roast",
+    "toast",
+    "coast",
+    "float",
+    "throat",
+    "croak",
+    "soak",
+    "goal",
+    "coal"
+   ],
+   "ow": [
+    "snow",
+    "grow",
+    "show",
+    "slow",
+    "blow",
+    "glow",
+    "flow",
+    "crow",
+    "throw",
+    "mow",
+    "tow",
+    "low"
+   ]
+  },
+  "gapE": [
+   "see",
+   "tree",
+   "three",
+   "green",
+   "sheep",
+   "feet",
+   "keep",
+   "sleep",
+   "need",
+   "eat",
+   "tea",
+   "leaf",
+   "clean",
+   "dream",
+   "team",
+   "teach",
+   "beach"
+  ],
+  "sound": {
+   "ai": "a",
+   "ay": "a",
+   "ee": "e",
+   "ea": "e",
+   "oa": "o",
+   "ow": "o"
+  },
+  "rules": {
+   "a": "ai comes in the middle of a word: chain. ay comes at the end: spray.",
+   "o": "oa comes in the middle of a word: float. ow comes at the end: throw."
+  },
+  "write": {
+   "a": [
+    "train",
+    "snail",
+    "nail"
+   ],
+   "e": [
+    "bee",
+    "tree",
+    "sheep",
+    "leaf",
+    "beach"
+   ],
+   "o": [
+    "boat",
+    "coat",
+    "goat"
+   ]
+  },
+  "sentences": [
+   {
+    "text": "The ___ stopped at the station.",
+    "right": "train",
+    "fits": [
+     "coach",
+     "jeep"
+    ]
+   },
+   {
+    "text": "I hit the ___ with a hammer.",
+    "right": "nail",
+    "fits": [
+     "beam",
+     "rail"
+    ]
+   },
+   {
+    "text": "Our dog wags its ___.",
+    "right": "tail",
+    "fits": []
+   },
+   {
+    "text": "A ___ has a shell on its back.",
+    "right": "snail",
+    "fits": []
+   },
+   {
+    "text": "Let's ___ the fence red.",
+    "right": "paint",
+    "fits": [
+     "stain"
+    ]
+   },
+   {
+    "text": "Water went down the ___.",
+    "right": "drain",
+    "fits": [
+     "road",
+     "street",
+     "stream"
+    ]
+   },
+   {
+    "text": "Lock the bike with a ___.",
+    "right": "chain",
+    "fits": []
+   },
+   {
+    "text": "We hiked on a ___ in the woods.",
+    "right": "trail",
+    "fits": [
+     "road"
+    ]
+   },
+   {
+    "text": "Put the cups on a ___.",
+    "right": "tray",
+    "fits": [
+     "sheet",
+     "seat"
+    ]
+   },
+   {
+    "text": "Horses eat ___.",
+    "right": "hay",
+    "fits": [
+     "grain",
+     "wheat",
+     "feed"
+    ]
+   },
+   {
+    "text": "We made a bowl out of ___.",
+    "right": "clay",
+    "fits": [
+     "snow",
+     "foam"
+    ]
+   },
+   {
+    "text": "Elephants are big and ___.",
+    "right": "gray",
+    "fits": [
+     "slow",
+     "sweet"
+    ]
+   },
+   {
+    "text": "We ___ tag at recess.",
+    "right": "play",
+    "fits": []
+   },
+   {
+    "text": "Dad will ___ for the snacks.",
+    "right": "pay",
+    "fits": [
+     "wait",
+     "reach"
+    ]
+   },
+   {
+    "text": "We ___ water on the plants.",
+    "right": "spray",
+    "fits": [
+     "throw"
+    ]
+   },
+   {
+    "text": "A ___ makes honey.",
+    "right": "bee",
+    "fits": []
+   },
+   {
+    "text": "Brush your ___ before bed.",
+    "right": "teeth",
+    "fits": [
+     "coat"
+    ]
+   },
+   {
+    "text": "I go to ___ at eight.",
+    "right": "sleep",
+    "fits": [
+     "sea"
+    ]
+   },
+   {
+    "text": "The farmer has ten ___.",
+    "right": "sheep",
+    "fits": [
+     "teeth"
+    ]
+   },
+   {
+    "text": "Cross the ___ at the light.",
+    "right": "street",
+    "fits": [
+     "road"
+    ]
+   },
+   {
+    "text": "Candy tastes ___.",
+    "right": "sweet",
+    "fits": []
+   },
+   {
+    "text": "The ___ wore a crown.",
+    "right": "queen",
+    "fits": []
+   },
+   {
+    "text": "Put a new ___ on the bed.",
+    "right": "sheet",
+    "fits": [
+     "tray"
+    ]
+   },
+   {
+    "text": "I go to camp next ___.",
+    "right": "week",
+    "fits": []
+   },
+   {
+    "text": "A bird uses its ___ to eat.",
+    "right": "beak",
+    "fits": []
+   },
+   {
+    "text": "Mom drinks hot ___.",
+    "right": "tea",
+    "fits": []
+   },
+   {
+    "text": "I had a scary ___ about a monster.",
+    "right": "dream",
+    "fits": []
+   },
+   {
+    "text": "Our soccer ___ won the game.",
+    "right": "team",
+    "fits": [
+     "coach"
+    ]
+   },
+   {
+    "text": "I put ___ on my strawberries.",
+    "right": "cream",
+    "fits": []
+   },
+   {
+    "text": "Ms. Lopez will ___ us to read.",
+    "right": "teach",
+    "fits": []
+   },
+   {
+    "text": "Please ___ up! I can't hear you.",
+    "right": "speak",
+    "fits": []
+   },
+   {
+    "text": "We sail a ___ on the lake.",
+    "right": "boat",
+    "fits": []
+   },
+   {
+    "text": "Zip up your ___.",
+    "right": "coat",
+    "fits": []
+   },
+   {
+    "text": "A ___ hops in the garden.",
+    "right": "toad",
+    "fits": []
+   },
+   {
+    "text": "I eat ___ with jam.",
+    "right": "toast",
+    "fits": []
+   },
+   {
+    "text": "The ___ blew the whistle.",
+    "right": "coach",
+    "fits": [
+     "train"
+    ]
+   },
+   {
+    "text": "My ___ hurts when I have a cold.",
+    "right": "throat",
+    "fits": []
+   },
+   {
+    "text": "The car drove down the ___.",
+    "right": "road",
+    "fits": [
+     "street"
+    ]
+   },
+   {
+    "text": "The ball went in! We scored a ___.",
+    "right": "goal",
+    "fits": []
+   },
+   {
+    "text": "Plants need sun to ___.",
+    "right": "grow",
+    "fits": []
+   },
+   {
+    "text": "Can you ___ out the candles?",
+    "right": "blow",
+    "fits": []
+   },
+   {
+    "text": "Dad will ___ the grass.",
+    "right": "mow",
+    "fits": [
+     "spray",
+     "feed",
+     "weed"
+    ]
+   },
+   {
+    "text": "A turtle is not fast. It is ___.",
+    "right": "slow",
+    "fits": [
+     "green",
+     "weak"
+    ]
+   },
+   {
+    "text": "Kids made a man out of ___.",
+    "right": "snow",
+    "fits": [
+     "clay",
+     "foam"
+    ]
+   }
+  ],
+  "fillers": {
+   "a": [
+    "main",
+    "stray",
+    "mail",
+    "braid"
+   ],
+   "e": [
+    "heel",
+    "peel",
+    "beef",
+    "steep",
+    "greet",
+    "bean",
+    "leak"
+   ],
+   "o": [
+    "loaf",
+    "croak",
+    "glow",
+    "flow"
+   ]
+  }
+ },
+ "diph": {
+  "words": {
+   "oo-moon": [
+    "moon",
+    "spoon",
+    "food",
+    "pool",
+    "cool",
+    "boot",
+    "hoop",
+    "loop",
+    "zoo",
+    "noon",
+    "soon",
+    "tooth",
+    "goose",
+    "shoot",
+    "scoop",
+    "stool",
+    "tool",
+    "zoom",
+    "bloom",
+    "moose",
+    "hoot",
+    "mood",
+    "fool",
+    "drool",
+    "swoop",
+    "smooth"
+   ],
+   "oo-book": [
+    "book",
+    "look",
+    "cook",
+    "took",
+    "good",
+    "hood",
+    "wood",
+    "foot",
+    "hook",
+    "shook",
+    "stood",
+    "wool",
+    "crook"
+   ],
+   "ou": [
+    "cloud",
+    "loud",
+    "proud",
+    "house",
+    "mouse",
+    "mouth",
+    "south",
+    "shout",
+    "scout",
+    "trout",
+    "snout",
+    "spout",
+    "sprout",
+    "couch",
+    "pouch",
+    "found",
+    "round",
+    "sound",
+    "pound",
+    "ground",
+    "count",
+    "grouch",
+    "crouch"
+   ],
+   "ow": [
+    "cow",
+    "how",
+    "now",
+    "wow",
+    "down",
+    "town",
+    "brown",
+    "clown",
+    "crown",
+    "frown",
+    "gown",
+    "owl",
+    "howl",
+    "growl"
+   ],
+   "oi": [
+    "coin",
+    "boil",
+    "soil",
+    "foil",
+    "join",
+    "point",
+    "spoil",
+    "coil"
+   ],
+   "oy": [
+    "boy",
+    "toy",
+    "joy",
+    "soy"
+   ]
+  },
+  "notSort": [
+   "hoop"
+  ],
+  "oyGap": [
+   "boy",
+   "toy",
+   "joy"
+  ],
+  "rules": {
+   "ou": "ou comes in the middle of a word: shout. ow comes at the end: how. ow comes before a last n or l: town, howl.",
+   "oi": "oi comes in the middle of a word: soil. oy comes at the end: boy."
+  },
+  "write": [
+   "spoon",
+   "pool",
+   "tooth",
+   "foot",
+   "cloud",
+   "mouse",
+   "house",
+   "mouth",
+   "couch",
+   "cow",
+   "owl",
+   "crown"
+  ],
+  "pairSentences": [
+   {
+    "text": "I read a funny ___.",
+    "right": "book",
+    "wrong": "boot",
+    "fits": []
+   },
+   {
+    "text": "Put on your left ___.",
+    "right": "boot",
+    "wrong": "book",
+    "fits": []
+   },
+   {
+    "text": "Let's ___ dinner for Mom.",
+    "right": "cook",
+    "wrong": "cool",
+    "fits": []
+   },
+   {
+    "text": "It is ___ in the shade.",
+    "right": "cool",
+    "wrong": "cook",
+    "fits": [
+     "good"
+    ]
+   },
+   {
+    "text": "My ___ hurts.",
+    "right": "foot",
+    "wrong": "food",
+    "fits": [
+     "tooth",
+     "mouth"
+    ]
+   },
+   {
+    "text": "The dog ate all its ___.",
+    "right": "food",
+    "wrong": "foot",
+    "fits": []
+   },
+   {
+    "text": "Pull up your ___ when it rains.",
+    "right": "hood",
+    "wrong": "hoot",
+    "fits": [
+     "boot"
+    ]
+   },
+   {
+    "text": "The bird will ___ at night.",
+    "right": "hoot",
+    "wrong": "hood",
+    "fits": [
+     "swoop"
+    ]
+   },
+   {
+    "text": "The dog ___ water off its fur.",
+    "right": "shook",
+    "wrong": "shoot",
+    "fits": []
+   },
+   {
+    "text": "We ___ in line.",
+    "right": "stood",
+    "wrong": "stool",
+    "fits": [
+     "count",
+     "shout",
+     "crouch"
+    ]
+   },
+   {
+    "text": "Sit on the ___.",
+    "right": "stool",
+    "wrong": "stood",
+    "fits": [
+     "couch",
+     "ground"
+    ]
+   },
+   {
+    "text": "She ___ a cookie from the jar.",
+    "right": "took",
+    "wrong": "tool",
+    "fits": []
+   },
+   {
+    "text": "A hammer is a ___.",
+    "right": "tool",
+    "wrong": "took",
+    "fits": []
+   },
+   {
+    "text": "Hang your bag on the ___.",
+    "right": "hook",
+    "wrong": "hoop",
+    "fits": []
+   },
+   {
+    "text": "Toss the ball through the ___.",
+    "right": "hoop",
+    "wrong": "hook",
+    "fits": [
+     "loop"
+    ]
+   },
+   {
+    "text": "Come and ___ at this bug.",
+    "right": "look",
+    "wrong": "loop",
+    "fits": [
+     "shout"
+    ]
+   },
+   {
+    "text": "Make a ___ with the string.",
+    "right": "loop",
+    "wrong": "look",
+    "fits": []
+   },
+   {
+    "text": "The cake tastes ___.",
+    "right": "good",
+    "wrong": "goose",
+    "fits": [
+     "smooth"
+    ]
+   },
+   {
+    "text": "A ___ honked at us.",
+    "right": "goose",
+    "wrong": "good",
+    "fits": [
+     "clown"
+    ]
+   }
+  ],
+  "sentences": [
+   {
+    "text": "A ___ ran into its hole.",
+    "right": "mouse",
+    "fits": []
+   },
+   {
+    "text": "We live in a red ___.",
+    "right": "house",
+    "fits": []
+   },
+   {
+    "text": "A dark ___ hid the sun.",
+    "right": "cloud",
+    "fits": []
+   },
+   {
+    "text": "Open your ___ and say ah.",
+    "right": "mouth",
+    "fits": []
+   },
+   {
+    "text": "Sit on the ___ and watch TV.",
+    "right": "couch",
+    "fits": [
+     "stool",
+     "ground"
+    ]
+   },
+   {
+    "text": "The music is too ___.",
+    "right": "loud",
+    "fits": [
+     "cool",
+     "smooth",
+     "good"
+    ]
+   },
+   {
+    "text": "Can you ___ from one to ten?",
+    "right": "count",
+    "fits": []
+   },
+   {
+    "text": "A ___ gives us milk.",
+    "right": "cow",
+    "fits": []
+   },
+   {
+    "text": "An ___ is awake at night.",
+    "right": "owl",
+    "fits": []
+   },
+   {
+    "text": "The king wore a gold ___.",
+    "right": "crown",
+    "fits": [
+     "coin",
+     "gown"
+    ]
+   },
+   {
+    "text": "A ___ has a red nose and big shoes.",
+    "right": "clown",
+    "fits": []
+   },
+   {
+    "text": "Mix red and green paint to get ___.",
+    "right": "brown",
+    "fits": []
+   },
+   {
+    "text": "Sit ___ on the rug.",
+    "right": "down",
+    "fits": [
+     "now"
+    ]
+   },
+   {
+    "text": "I put a ___ in my piggy bank.",
+    "right": "coin",
+    "fits": [
+     "toy"
+    ]
+   },
+   {
+    "text": "Plant the seed in the ___.",
+    "right": "soil",
+    "fits": [
+     "ground"
+    ]
+   },
+   {
+    "text": "Can I ___ your team?",
+    "right": "join",
+    "fits": []
+   },
+   {
+    "text": "Wrap the food in ___.",
+    "right": "foil",
+    "fits": []
+   },
+   {
+    "text": "My pencil has a sharp ___.",
+    "right": "point",
+    "fits": []
+   },
+   {
+    "text": "That ___ is my brother.",
+    "right": "boy",
+    "fits": [
+     "clown",
+     "scout",
+     "grouch"
+    ]
+   },
+   {
+    "text": "We jumped for ___.",
+    "right": "joy",
+    "fits": []
+   },
+   {
+    "text": "We swim in the ___.",
+    "right": "pool",
+    "fits": []
+   },
+   {
+    "text": "A loose ___ fell out of my mouth.",
+    "right": "tooth",
+    "fits": []
+   },
+   {
+    "text": "Eat the soup with a ___.",
+    "right": "spoon",
+    "fits": [
+     "scoop"
+    ]
+   },
+   {
+    "text": "We saw a lion at the ___.",
+    "right": "zoo",
+    "fits": [
+     "town"
+    ]
+   },
+   {
+    "text": "Put more ___ on the fire.",
+    "right": "wood",
+    "fits": []
+   }
+  ],
+  "fillers": {
+   "oo-moon": [
+    "hoop",
+    "loop",
+    "zoom",
+    "bloom"
+   ],
+   "oo-book": [
+    "hook"
+   ],
+   "ou": [
+    "snout",
+    "spout",
+    "trout",
+    "pouch"
+   ],
+   "ow": [],
+   "oi": [
+    "coil"
+   ],
+   "oy": []
+  }
+ },
+ "aror": {
+  "words": {
+   "ar": [
+    "car",
+    "star",
+    "jar",
+    "far",
+    "bar",
+    "scar",
+    "park",
+    "dark",
+    "bark",
+    "mark",
+    "shark",
+    "spark",
+    "farm",
+    "harm",
+    "arm",
+    "art",
+    "cart",
+    "part",
+    "start",
+    "smart",
+    "chart",
+    "barn",
+    "yarn",
+    "hard",
+    "card",
+    "yard",
+    "harp",
+    "sharp",
+    "march",
+    "charm",
+    "scarf",
+    "dart",
+    "tar"
+   ],
+   "or": [
+    "fork",
+    "corn",
+    "horn",
+    "born",
+    "torn",
+    "cord",
+    "for",
+    "storm",
+    "form",
+    "sport",
+    "short",
+    "fort",
+    "sort",
+    "north",
+    "horse",
+    "porch",
+    "torch",
+    "snort",
+    "stork",
+    "cork",
+    "pork",
+    "thorn"
+   ]
+  },
+  "match": [
+   "car",
+   "star",
+   "jar",
+   "shark",
+   "harp",
+   "scarf",
+   "cart",
+   "arm"
+  ],
+  "decoys": {
+   "car": [
+    "cat",
+    "cup"
+   ],
+   "star": [
+    "stay",
+    "stop"
+   ],
+   "jar": [
+    "jam",
+    "jaw"
+   ],
+   "shark": [
+    "shack",
+    "shock"
+   ],
+   "harp": [
+    "hop",
+    "hip"
+   ],
+   "cart": [
+    "coat",
+    "cot"
+   ],
+   "arm": [
+    "am",
+    "aim"
+   ],
+   "scarf": []
+  },
+  "write": {
+   "ar": [
+    "car",
+    "star",
+    "jar",
+    "shark",
+    "scarf",
+    "cart"
+   ],
+   "or": [
+    "fork",
+    "corn",
+    "horse"
+   ]
+  },
+  "rSentences": [
+   {
+    "text": "Push the ___ at the store.",
+    "right": "cart",
+    "wrong": "cat",
+    "fits": [
+     "car"
+    ]
+   },
+   {
+    "text": "Our ___ likes to nap.",
+    "right": "cat",
+    "wrong": "cart",
+    "fits": [
+     "horse"
+    ]
+   },
+   {
+    "text": "We had ___ for lunch.",
+    "right": "ham",
+    "wrong": "harm",
+    "fits": [
+     "corn",
+     "pork"
+    ]
+   },
+   {
+    "text": "Do not ___ the bugs.",
+    "right": "harm",
+    "wrong": "ham",
+    "fits": [
+     "mark",
+     "charm",
+     "sort",
+     "scar"
+    ]
+   },
+   {
+    "text": "Let's ___ on the phone.",
+    "right": "chat",
+    "wrong": "chart",
+    "fits": []
+   },
+   {
+    "text": "We made a ___ of the weather.",
+    "right": "chart",
+    "wrong": "chat",
+    "fits": []
+   },
+   {
+    "text": "Gently ___ the dog.",
+    "right": "pat",
+    "wrong": "part",
+    "fits": []
+   },
+   {
+    "text": "I got a big ___ in the play.",
+    "right": "part",
+    "wrong": "pat",
+    "fits": [
+     "scar"
+    ]
+   },
+   {
+    "text": "I ___ fun at the zoo.",
+    "right": "had",
+    "wrong": "hard",
+    "fits": []
+   },
+   {
+    "text": "A rock is very ___.",
+    "right": "hard",
+    "wrong": "had",
+    "fits": [
+     "sharp",
+     "dark"
+    ]
+   },
+   {
+    "text": "I ___ seven years old.",
+    "right": "am",
+    "wrong": "arm",
+    "fits": []
+   },
+   {
+    "text": "I hurt my ___.",
+    "right": "arm",
+    "wrong": "am",
+    "fits": []
+   },
+   {
+    "text": "Dogs ___ at the mail carrier.",
+    "right": "bark",
+    "wrong": "back",
+    "fits": [
+     "snort"
+    ]
+   },
+   {
+    "text": "Put the book ___ on the shelf.",
+    "right": "back",
+    "wrong": "bark",
+    "fits": []
+   },
+   {
+    "text": "Help me ___ my bag.",
+    "right": "pack",
+    "wrong": "park",
+    "fits": [
+     "sort"
+    ]
+   },
+   {
+    "text": "We play ball at the ___.",
+    "right": "park",
+    "wrong": "pack",
+    "fits": [
+     "farm",
+     "yard",
+     "barn"
+    ]
+   },
+   {
+    "text": "A ___ swam in the sea.",
+    "right": "shark",
+    "wrong": "shack",
+    "fits": []
+   },
+   {
+    "text": "A ___ shines in the sky.",
+    "right": "star",
+    "wrong": "stay",
+    "fits": []
+   },
+   {
+    "text": "Please ___ in your seat.",
+    "right": "stay",
+    "wrong": "star",
+    "fits": []
+   }
+  ],
+  "arorSentences": [
+   {
+    "text": "The cows sleep in the ___.",
+    "right": "barn",
+    "wrong": "born",
+    "fits": [
+     "yard",
+     "farm"
+    ]
+   },
+   {
+    "text": "Our baby was ___ in May.",
+    "right": "born",
+    "wrong": "barn",
+    "fits": []
+   },
+   {
+    "text": "I made a birthday ___ for Dad.",
+    "right": "card",
+    "wrong": "cord",
+    "fits": []
+   },
+   {
+    "text": "Tie the box with a ___.",
+    "right": "cord",
+    "wrong": "card",
+    "fits": [
+     "yarn"
+    ]
+   },
+   {
+    "text": "We slid down the slide at the ___.",
+    "right": "park",
+    "wrong": "pork",
+    "fits": [
+     "yard",
+     "farm"
+    ]
+   },
+   {
+    "text": "We had ___ chops for dinner.",
+    "right": "pork",
+    "wrong": "park",
+    "fits": []
+   },
+   {
+    "text": "Pigs and cows live on a ___.",
+    "right": "farm",
+    "wrong": "form",
+    "fits": []
+   },
+   {
+    "text": "Please ___ a line at the door.",
+    "right": "form",
+    "wrong": "farm",
+    "fits": [
+     "start"
+    ]
+   },
+   {
+    "text": "The moon is very ___ away.",
+    "right": "far",
+    "wrong": "for",
+    "fits": []
+   },
+   {
+    "text": "This gift is ___ you.",
+    "right": "for",
+    "wrong": "far",
+    "fits": []
+   }
+  ],
+  "sentences": [
+   {
+    "text": "A ___ has sharp teeth.",
+    "right": "shark",
+    "fits": []
+   },
+   {
+    "text": "It is ___ at night.",
+    "right": "dark",
+    "fits": [
+     "hard"
+    ]
+   },
+   {
+    "text": "Mom pushed the ___ in the store.",
+    "right": "cart",
+    "fits": []
+   },
+   {
+    "text": "Cows and pigs live on a ___.",
+    "right": "farm",
+    "fits": []
+   },
+   {
+    "text": "We drove in a red ___.",
+    "right": "car",
+    "fits": [
+     "cart"
+    ]
+   },
+   {
+    "text": "I keep my coins in a ___.",
+    "right": "jar",
+    "fits": [
+     "car"
+    ]
+   },
+   {
+    "text": "My cat plays with a ball of ___.",
+    "right": "yarn",
+    "fits": [
+     "cord",
+     "cork"
+    ]
+   },
+   {
+    "text": "The knife is very ___.",
+    "right": "sharp",
+    "fits": [
+     "short",
+     "hard"
+    ]
+   },
+   {
+    "text": "Let's ___ the race.",
+    "right": "start",
+    "fits": []
+   },
+   {
+    "text": "I eat with a ___.",
+    "right": "fork",
+    "fits": []
+   },
+   {
+    "text": "We ate ___ on the cob.",
+    "right": "corn",
+    "fits": []
+   },
+   {
+    "text": "The ___ ran in the field.",
+    "right": "horse",
+    "fits": [
+     "stork"
+    ]
+   },
+   {
+    "text": "Thunder and rain mean a ___ is coming.",
+    "right": "storm",
+    "fits": []
+   },
+   {
+    "text": "The car honked its ___.",
+    "right": "horn",
+    "fits": []
+   },
+   {
+    "text": "My pants are too ___.",
+    "right": "short",
+    "fits": [
+     "dark"
+    ]
+   },
+   {
+    "text": "A rose has a ___ on its stem.",
+    "right": "thorn",
+    "fits": [
+     "mark",
+     "scar"
+    ]
+   },
+   {
+    "text": "Light the ___ so we can see.",
+    "right": "torch",
+    "fits": [
+     "spark"
+    ]
+   },
+   {
+    "text": "Birds fly ___ in spring.",
+    "right": "north",
+    "fits": [
+     "far",
+     "march"
+    ]
+   }
+  ],
+  "fillers": [
+   "tar",
+   "art",
+   "charm",
+   "dart",
+   "sort",
+   "sport"
+  ]
+ },
+ "erirur": {
+  "words": {
+   "er": [
+    "her",
+    "herd",
+    "fern",
+    "germ",
+    "verb",
+    "serve",
+    "perch",
+    "term",
+    "nerve",
+    "sister",
+    "letter",
+    "winter",
+    "summer",
+    "dinner",
+    "butter",
+    "ladder",
+    "hammer",
+    "zipper",
+    "helper",
+    "under",
+    "after",
+    "never",
+    "better",
+    "number",
+    "silver",
+    "monster",
+    "river",
+    "slipper",
+    "supper",
+    "pepper",
+    "hamster",
+    "blender",
+    "mixer",
+    "winner",
+    "locker",
+    "sticker",
+    "flipper",
+    "thunder",
+    "blister",
+    "spinner",
+    "swimmer"
+   ],
+   "ir": [
+    "bird",
+    "girl",
+    "first",
+    "third",
+    "shirt",
+    "skirt",
+    "dirt",
+    "stir",
+    "firm",
+    "chirp",
+    "birth",
+    "twirl",
+    "swirl",
+    "whirl",
+    "squirt"
+   ],
+   "ur": [
+    "fur",
+    "turn",
+    "burn",
+    "hurt",
+    "curl",
+    "church",
+    "nurse",
+    "purse",
+    "burst",
+    "curb",
+    "surf",
+    "blur",
+    "slurp",
+    "purr",
+    "curve"
+   ]
+  },
+  "keywords": [
+   "her",
+   "first",
+   "turn"
+  ],
+  "odd": [
+   "here",
+   "there",
+   "where"
+  ],
+  "check": {
+   "bird": [
+    "berd",
+    "burd"
+   ],
+   "shirt": [
+    "shert",
+    "shurt"
+   ],
+   "skirt": [
+    "skert",
+    "skurt"
+   ],
+   "nurse": [
+    "nerse",
+    "nirse"
+   ],
+   "church": [
+    "cherch",
+    "chirch"
+   ]
+  },
+  "write": [
+   "blender",
+   "hamster",
+   "mixer",
+   "bird",
+   "shirt",
+   "skirt",
+   "nurse",
+   "purse",
+   "church"
+  ],
+  "pairSentences": [
+   {
+    "text": "A cow is part of a ___.",
+    "right": "herd",
+    "wrong": "fern",
+    "fits": []
+   },
+   {
+    "text": "A ___ can make you sick.",
+    "right": "germ",
+    "wrong": "verb",
+    "fits": [
+     "bird",
+     "hamster"
+    ]
+   },
+   {
+    "text": "We had ___ at five.",
+    "right": "supper",
+    "wrong": "silver",
+    "fits": [
+     "dinner"
+    ]
+   },
+   {
+    "text": "Zip up the ___ on your coat.",
+    "right": "zipper",
+    "wrong": "slipper",
+    "fits": []
+   },
+   {
+    "text": "My ___ slid off my foot.",
+    "right": "slipper",
+    "wrong": "zipper",
+    "fits": [
+     "flipper",
+     "sticker"
+    ]
+   },
+   {
+    "text": "Six is a ___.",
+    "right": "number",
+    "wrong": "river",
+    "fits": [
+     "winner"
+    ]
+   },
+   {
+    "text": "We swam in the ___.",
+    "right": "river",
+    "wrong": "number",
+    "fits": [
+     "summer",
+     "winter"
+    ]
+   },
+   {
+    "text": "The ring is made of ___.",
+    "right": "silver",
+    "wrong": "supper",
+    "fits": []
+   },
+   {
+    "text": "Is it ___ to walk or run?",
+    "right": "better",
+    "wrong": "butter",
+    "fits": []
+   },
+   {
+    "text": "I mailed a ___ to Grandma.",
+    "right": "letter",
+    "wrong": "ladder",
+    "fits": [
+     "sticker",
+     "mixer",
+     "blender"
+    ]
+   },
+   {
+    "text": "Put ___ on your bread.",
+    "right": "butter",
+    "wrong": "better",
+    "fits": [
+     "pepper"
+    ]
+   },
+   {
+    "text": "Use the ___ to get on the roof.",
+    "right": "ladder",
+    "wrong": "letter",
+    "fits": []
+   },
+   {
+    "text": "I will ___ give up.",
+    "right": "never",
+    "wrong": "river",
+    "fits": []
+   },
+   {
+    "text": "Add salt and ___ to the soup.",
+    "right": "pepper",
+    "wrong": "supper",
+    "fits": [
+     "butter"
+    ]
+   },
+   {
+    "text": "The cat hid ___ the bed.",
+    "right": "under",
+    "wrong": "after",
+    "fits": []
+   },
+   {
+    "text": "We play outside ___ school.",
+    "right": "after",
+    "wrong": "under",
+    "fits": []
+   },
+   {
+    "text": "Mom fixed the shelf with a ___.",
+    "right": "hammer",
+    "wrong": "number",
+    "fits": [
+     "helper"
+    ]
+   },
+   {
+    "text": "A ___ is a plant with soft green leaves.",
+    "right": "fern",
+    "wrong": "herd",
+    "fits": []
+   },
+   {
+    "text": "Please ___ the cake on a plate.",
+    "right": "serve",
+    "wrong": "herd",
+    "fits": []
+   },
+   {
+    "text": "The ___ in my book has big teeth.",
+    "right": "monster",
+    "wrong": "hammer",
+    "fits": [
+     "hamster"
+    ]
+   }
+  ],
+  "sentences": [
+   {
+    "text": "We eat ___ at six.",
+    "right": "dinner",
+    "fits": [
+     "supper"
+    ]
+   },
+   {
+    "text": "My big ___ is ten.",
+    "right": "sister",
+    "fits": [
+     "helper",
+     "number",
+     "monster",
+     "hamster"
+    ]
+   },
+   {
+    "text": "Snow falls in the ___.",
+    "right": "winter",
+    "fits": [
+     "river",
+     "summer"
+    ]
+   },
+   {
+    "text": "The cat is ___ the table.",
+    "right": "under",
+    "fits": []
+   },
+   {
+    "text": "Climb up the ___.",
+    "right": "ladder",
+    "fits": [
+     "curb"
+    ]
+   },
+   {
+    "text": "Hit the nail with a ___.",
+    "right": "hammer",
+    "fits": []
+   },
+   {
+    "text": "A ___ of cows ate grass.",
+    "right": "herd",
+    "fits": []
+   },
+   {
+    "text": "A ___ built a nest in the tree.",
+    "right": "bird",
+    "fits": []
+   },
+   {
+    "text": "Use a spoon to ___ the soup.",
+    "right": "stir",
+    "fits": [
+     "serve",
+     "slurp"
+    ]
+   },
+   {
+    "text": "Wash the ___ off your hands.",
+    "right": "dirt",
+    "fits": [
+     "germ",
+     "pepper",
+     "butter",
+     "sticker"
+    ]
+   },
+   {
+    "text": "Button up your ___.",
+    "right": "shirt",
+    "fits": [
+     "skirt"
+    ]
+   },
+   {
+    "text": "The baby birds ___ in the nest.",
+    "right": "chirp",
+    "fits": [
+     "stir",
+     "twirl",
+     "swirl",
+     "perch"
+    ]
+   },
+   {
+    "text": "Hot soup can ___ your tongue.",
+    "right": "burn",
+    "fits": [
+     "hurt",
+     "blister"
+    ]
+   },
+   {
+    "text": "My cat has soft ___.",
+    "right": "fur",
+    "fits": []
+   },
+   {
+    "text": "The ___ put a bandage on my knee.",
+    "right": "nurse",
+    "fits": [
+     "helper"
+    ]
+   },
+   {
+    "text": "Mom keeps the keys in a ___.",
+    "right": "purse",
+    "fits": [
+     "slipper",
+     "locker"
+    ]
+   },
+   {
+    "text": "The ___ has a tall bell tower.",
+    "right": "church",
+    "fits": []
+   },
+   {
+    "text": "The balloon will ___ if you poke it.",
+    "right": "burst",
+    "fits": []
+   },
+   {
+    "text": "Did you fall? Did you get ___?",
+    "right": "hurt",
+    "fits": [
+     "better"
+    ]
+   }
+  ],
+  "fillers": [
+   "fern",
+   "verb",
+   "zipper",
+   "silver",
+   "letter",
+   "never",
+   "after",
+   "thunder",
+   "spinner",
+   "mixer",
+   "blender",
+   "firm",
+   "blur"
+  ]
+ }
+}

@@ -4160,7 +4160,7 @@
   },
   "G1-495": {
     "title": "Long or Short Vowel?",
-    "instruction": "Say each word. Is the colored vowel long or short? Circle the line if it is long and the dot if it is short."
+    "instruction": "Say each word. Is the colored vowel sound long or short? Circle the line if it is long. Circle the curve if it is short."
   },
   "K-537": {
     "title": "Rhyme Memory Cards",
@@ -5325,5 +5325,25 @@
   "K-660": {
     "title": "Fix the First Letter",
     "instruction": "Circle the sentence that starts with a capital letter. Then write that capital letter in the box."
+  },
+  "G2-530": {
+    "title": "Short or Long Vowel?",
+    "instruction": "A short vowel says its sound: hop. A long vowel says its name: hope."
+  },
+  "G2-531": {
+    "title": "Vowel Teams for Long a, e, and o",
+    "instruction": "ai and ay spell long a. ee and ea spell long e. oa and ow spell long o."
+  },
+  "G2-532": {
+    "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+    "instruction": "ou and ow say the sound in cow. oi and oy say the sound in boy."
+  },
+  "G2-533": {
+    "title": "Bossy r: ar and or",
+    "instruction": "Bossy r changes the vowel sound: ar says the sound in park, and or says the sound in storm."
+  },
+  "G2-534": {
+    "title": "er, ir, and ur: One Sound, Three Spellings",
+    "instruction": "er, ir, and ur say the same sound: her, first, turn."
   }
 }

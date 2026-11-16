@@ -1,0 +1,609 @@
+{
+  "id": "wave-yln-en",
+  "_note": "Level Set 2026-11-17: Year pages, literacy N (Part 12.3). Seven new Kindergarten page types on words and sentences: naming words and action words, the capital letter at the start, the period and the question mark, and longer sentences, with cards to cut and glue, words to circle and rows to write on, three levels each. English only, PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-654",
+    "K-655",
+    "K-656",
+    "K-657",
+    "K-658",
+    "K-659",
+    "K-660"
+  ],
+  "levels": {
+    "K-654": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ]
+    },
+    "K-655": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "K-656": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "K-657": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "K-658": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "K-659": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "K-660": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ],
+      "3": [
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    }
+  }
+}

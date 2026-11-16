@@ -7333,5 +7333,25 @@
     "3": {
       "en": "Each sentence starts with a small letter. Write its first word with a capital letter on the line."
     }
+  },
+  "G2-530": {},
+  "G2-531": {},
+  "G2-532": {
+    "1": {
+      "en": "oo can say two sounds: the sound in moon and the sound in book."
+    },
+    "3": {
+      "en": "Vowel teams can say the sounds in moon, book, cow, and boy."
+    }
+  },
+  "G2-533": {
+    "1": {
+      "en": "Bossy r changes the vowel sound: ar says the sound in park."
+    }
+  },
+  "G2-534": {
+    "1": {
+      "en": "er says the sound you hear in her."
+    }
   }
 }

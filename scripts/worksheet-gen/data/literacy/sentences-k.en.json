@@ -1,0 +1,985 @@
+{
+ "_note": "Kindergarten \"Words and Sentences\" (English literacy year, Part 12.3; types/_shared/sentences-k.js). `pics`: the library picture of a word (colour themes only, a picture a kindergartner names with that word; every action picture SHOWS the action being done). `sort`: `naming` words (animals and things, never a word that is also a verb a kindergartner uses), `action` words (pictures of a person doing it), `words` the short words of the word cards of level 3 (`can`: the actions each animal can do, for the sample of \"The ___ can ___.\"). `capitals`: `three` (three words) and `long` (four or five words) correct sentences; no names, no capital inside except the word I; the first letter is a capital I or a letter whose small form looks unlike its capital (never c o s u v w x y z k p, never l: a small l looks like a capital I). `marks`: sentences without their end mark, `listen` (the teacher reads, level 1) and `read` (a kindergartner reads them: only the words of READ_WORDS in the factory and the pictured noun), each telling or asking and naming its picture; `short` the read sentences that stand on ONE line of a level-3 strip of Telling or Asking? (22 px, beside a 72 px box; checked by the factory); `write` a picture with a sample telling and asking sentence. `longer`: `cues` the four pictures that tell where or when (sun, moon, rain, snow) and the words they add; `items` a short sentence that says what its picture shows, and the cues that fit it. `find` (Find the Action Word): `people` pictured people standing still (naming words), `shownIn` the things an action picture shows (never in the same row), `actWords` and `nameWords` short words a kindergartner reads (no naming word that is also a verb), `sentences` with one naming word (/n) and one action word (/a), only words of FIND_WORDS in the factory, and the worked `example`.",
+ "pics": {
+  "dog": [
+   "pets",
+   "dog"
+  ],
+  "cat": [
+   "pets",
+   "cat"
+  ],
+  "pig": [
+   "farm animals",
+   "pig"
+  ],
+  "cow": [
+   "farm animals",
+   "cow"
+  ],
+  "horse": [
+   "animals",
+   "horse"
+  ],
+  "frog": [
+   "pets",
+   "frog"
+  ],
+  "bird": [
+   "spring",
+   "bird"
+  ],
+  "cup": [
+   "around the house",
+   "cup"
+  ],
+  "hat": [
+   "accessories",
+   "hat"
+  ],
+  "ball": [
+   "toys",
+   "ball"
+  ],
+  "car": [
+   "vehicles",
+   "car"
+  ],
+  "bed": [
+   "furniture",
+   "bed"
+  ],
+  "cake": [
+   "bakery",
+   "cake"
+  ],
+  "apple": [
+   "fruits",
+   "apple"
+  ],
+  "bus": [
+   "vehicles",
+   "bus"
+  ],
+  "sock": [
+   "accessories",
+   "sock"
+  ],
+  "key": [
+   "around the house",
+   "key"
+  ],
+  "chair": [
+   "furniture",
+   "chair"
+  ],
+  "clock": [
+   "around the house",
+   "clock"
+  ],
+  "book": [
+   "classroom",
+   "book"
+  ],
+  "banana": [
+   "fruits",
+   "banana"
+  ],
+  "lamp": [
+   "furniture",
+   "lamp"
+  ],
+  "spoon": [
+   "kitchen tools",
+   "spoon"
+  ],
+  "shoe": [
+   "clothing",
+   "shoe"
+  ],
+  "kite": [
+   "toys",
+   "kite"
+  ],
+  "run": [
+   "activities",
+   "running"
+  ],
+  "jump": [
+   "activities",
+   "jumping"
+  ],
+  "swim": [
+   "summer",
+   "swimming"
+  ],
+  "read": [
+   "activities",
+   "reading"
+  ],
+  "write": [
+   "activities",
+   "writing"
+  ],
+  "dance": [
+   "activities",
+   "dancing"
+  ],
+  "walk": [
+   "activities",
+   "hiking"
+  ],
+  "skate": [
+   "winter",
+   "skating"
+  ],
+  "mix": [
+   "occupations",
+   "cook"
+  ],
+  "duck": [
+   "farm animals",
+   "duck"
+  ],
+  "bee": [
+   "farm animals",
+   "bee"
+  ],
+  "fish": [
+   "pets",
+   "fish"
+  ],
+  "owl": [
+   "birds",
+   "owl"
+  ],
+  "rabbit": [
+   "pets",
+   "rabbit"
+  ],
+  "sun": [
+   "weather",
+   "sunny"
+  ],
+  "bear": [
+   "camping",
+   "bear"
+  ],
+  "girl_reads": [
+   "activities",
+   "reading"
+  ],
+  "girl_jumps": [
+   "activities",
+   "jumping"
+  ],
+  "girl_runs": [
+   "activities",
+   "running"
+  ],
+  "girl_swims": [
+   "summer",
+   "swimming"
+  ],
+  "girl_dances": [
+   "activities",
+   "dancing"
+  ],
+  "girl_skates": [
+   "winter",
+   "skating"
+  ],
+  "girl_walks": [
+   "activities",
+   "hiking"
+  ],
+  "cue_sun": [
+   "weather",
+   "sunny"
+  ],
+  "cue_night": [
+   "camping",
+   "moon"
+  ],
+  "cue_rain": [
+   "weather",
+   "rainy"
+  ],
+  "cue_snow": [
+   "weather",
+   "snowflake"
+  ],
+  "doctor": [
+   "occupations",
+   "doctor_2"
+  ],
+  "farmer": [
+   "occupations",
+   "farmer"
+  ],
+  "firefighter": [
+   "occupations",
+   "firefighter"
+  ],
+  "astronaut": [
+   "occupations",
+   "astronaut"
+  ]
+ },
+ "find": {
+  "people": [
+   "doctor",
+   "farmer",
+   "firefighter",
+   "astronaut"
+  ],
+  "shownIn": {
+   "read": [
+    "book"
+   ],
+   "write": [
+    "book"
+   ],
+   "mix": [
+    "spoon",
+    "cup"
+   ],
+   "skate": [
+    "shoe"
+   ]
+  },
+  "actWords": [
+   "run",
+   "hop",
+   "sit",
+   "dig",
+   "jump",
+   "swim",
+   "sing",
+   "kick",
+   "eat",
+   "read"
+  ],
+  "nameWords": [
+   "dog",
+   "cat",
+   "pig",
+   "hat",
+   "bus",
+   "cup",
+   "bed",
+   "hen",
+   "fox",
+   "pen",
+   "van",
+   "rug",
+   "egg",
+   "ant",
+   "sun",
+   "jet",
+   "web",
+   "lid"
+  ],
+  "sentences": [
+   "The dog/n runs/a.",
+   "Dogs/n run/a fast.",
+   "The big dog/n digs/a.",
+   "The cat/n naps/a.",
+   "A little cat/n jumps/a.",
+   "Frogs/n hop/a.",
+   "The red bird/n sings/a.",
+   "Ducks/n swim/a.",
+   "The pig/n digs/a.",
+   "The pink pig/n sits/a.",
+   "The fish/n swims/a fast.",
+   "The baby/n naps/a.",
+   "Hens/n peck/a.",
+   "Cows/n eat/a.",
+   "The sun/n sets/a.",
+   "The girl/n reads/a.",
+   "The boy/n runs/a fast.",
+   "A big frog/n jumps/a.",
+   "Bees/n buzz/a.",
+   "The frog/n hops/a away.",
+   "The cat/n sits/a down.",
+   "The pig/n runs/a away.",
+   "The hen/n digs/a fast.",
+   "The dog/n sits/a up.",
+   "Ducks/n swim/a away.",
+   "The bird/n hops/a down."
+  ],
+  "example": "The ant/n walks/a."
+ },
+ "sort": {
+  "naming": [
+   "dog",
+   "cat",
+   "pig",
+   "cow",
+   "horse",
+   "frog",
+   "bird",
+   "cup",
+   "hat",
+   "ball",
+   "car",
+   "bed",
+   "cake",
+   "apple",
+   "bus",
+   "sock",
+   "key",
+   "chair",
+   "clock",
+   "book",
+   "banana",
+   "lamp",
+   "spoon",
+   "shoe",
+   "kite"
+  ],
+  "action": [
+   "run",
+   "jump",
+   "swim",
+   "read",
+   "write",
+   "dance",
+   "walk",
+   "skate",
+   "mix"
+  ],
+  "words": {
+   "action": [
+    "run",
+    "sit",
+    "dig",
+    "hop",
+    "jump",
+    "swim",
+    "kick",
+    "eat"
+   ],
+   "naming": [
+    "dog",
+    "cat",
+    "pig",
+    "hat",
+    "bus",
+    "cup",
+    "bed",
+    "hen",
+    "fox",
+    "van",
+    "rug",
+    "egg"
+   ],
+   "can": {
+    "dog": [
+     "run",
+     "jump",
+     "swim",
+     "dig",
+     "sit",
+     "eat"
+    ],
+    "cat": [
+     "run",
+     "jump",
+     "sit",
+     "eat"
+    ],
+    "pig": [
+     "run",
+     "dig",
+     "sit",
+     "eat"
+    ],
+    "hen": [
+     "run",
+     "sit",
+     "eat"
+    ],
+    "fox": [
+     "run",
+     "jump",
+     "dig",
+     "sit",
+     "eat"
+    ]
+   }
+  }
+ },
+ "capitals": {
+  "three": [
+   "I can run.",
+   "I like cats.",
+   "I am big.",
+   "I can hop.",
+   "I see it.",
+   "I like dogs.",
+   "Here I am.",
+   "Now I sit.",
+   "Here I go.",
+   "Today I play.",
+   "Ten hens ran.",
+   "The cat ran.",
+   "The dog sat.",
+   "The bus stops.",
+   "Go to bed.",
+   "Dogs can run.",
+   "Frogs can hop.",
+   "Ducks can swim.",
+   "Bees can buzz.",
+   "Ants are small.",
+   "Fish can swim.",
+   "My cat naps.",
+   "Hens lay eggs.",
+   "Big dogs bark.",
+   "Mud is fun."
+  ],
+  "long": [
+   "I like my red hat.",
+   "I can see the moon.",
+   "I see a big bus.",
+   "I am five years old.",
+   "I like to read.",
+   "I can ride my bike.",
+   "The cat and I play.",
+   "My dog and I run.",
+   "Then I go to bed.",
+   "At night I sleep.",
+   "Today I can read.",
+   "After lunch I play.",
+   "Every day I read.",
+   "Here is my big dog.",
+   "The frog can hop.",
+   "The sun is hot.",
+   "Ducks swim in the pond.",
+   "Big fish can swim.",
+   "Frogs like to jump.",
+   "Bees make sweet honey.",
+   "Rain makes big puddles.",
+   "Hens sit on eggs.",
+   "Dogs dig in the mud."
+  ]
+ },
+ "marks": {
+  "listen": [
+   {
+    "text": "The dog wants to play with me",
+    "kind": "tell",
+    "pic": "dog"
+   },
+   {
+    "text": "Can your dog do a trick",
+    "kind": "ask",
+    "pic": "dog"
+   },
+   {
+    "text": "My cat sits in the sun",
+    "kind": "tell",
+    "pic": "cat"
+   },
+   {
+    "text": "Does your cat like milk",
+    "kind": "ask",
+    "pic": "cat"
+   },
+   {
+    "text": "The pig rolls in the mud",
+    "kind": "tell",
+    "pic": "pig"
+   },
+   {
+    "text": "Why does the pig like mud",
+    "kind": "ask",
+    "pic": "pig"
+   },
+   {
+    "text": "We ride the bus to school",
+    "kind": "tell",
+    "pic": "bus"
+   },
+   {
+    "text": "When will the bus come",
+    "kind": "ask",
+    "pic": "bus"
+   },
+   {
+    "text": "The frog jumps into the pond",
+    "kind": "tell",
+    "pic": "frog"
+   },
+   {
+    "text": "How far can the frog jump",
+    "kind": "ask",
+    "pic": "frog"
+   },
+   {
+    "text": "The cake has a berry on top",
+    "kind": "tell",
+    "pic": "cake"
+   },
+   {
+    "text": "Do you want some cake",
+    "kind": "ask",
+    "pic": "cake"
+   },
+   {
+    "text": "The little duck likes the rain",
+    "kind": "tell",
+    "pic": "duck"
+   },
+   {
+    "text": "Where did the duck go",
+    "kind": "ask",
+    "pic": "duck"
+   },
+   {
+    "text": "My kite flies up high",
+    "kind": "tell",
+    "pic": "kite"
+   },
+   {
+    "text": "Can you fly my kite",
+    "kind": "ask",
+    "pic": "kite"
+   },
+   {
+    "text": "I ate a big red apple",
+    "kind": "tell",
+    "pic": "apple"
+   },
+   {
+    "text": "Who ate my red apple",
+    "kind": "ask",
+    "pic": "apple"
+   },
+   {
+    "text": "The cow eats green grass",
+    "kind": "tell",
+    "pic": "cow"
+   },
+   {
+    "text": "What does the cow eat",
+    "kind": "ask",
+    "pic": "cow"
+   },
+   {
+    "text": "A bee buzzes by my ear",
+    "kind": "tell",
+    "pic": "bee"
+   },
+   {
+    "text": "Is the bee on a flower",
+    "kind": "ask",
+    "pic": "bee"
+   },
+   {
+    "text": "The owl hoots at night",
+    "kind": "tell",
+    "pic": "owl"
+   },
+   {
+    "text": "When does the owl wake up",
+    "kind": "ask",
+    "pic": "owl"
+   },
+   {
+    "text": "The horse runs in the field",
+    "kind": "tell",
+    "pic": "horse"
+   },
+   {
+    "text": "Can the horse run fast",
+    "kind": "ask",
+    "pic": "horse"
+   },
+   {
+    "text": "I wear my blue hat",
+    "kind": "tell",
+    "pic": "hat"
+   },
+   {
+    "text": "Where is my blue hat",
+    "kind": "ask",
+    "pic": "hat"
+   },
+   {
+    "text": "The rabbit eats a carrot",
+    "kind": "tell",
+    "pic": "rabbit"
+   },
+   {
+    "text": "What does the rabbit eat",
+    "kind": "ask",
+    "pic": "rabbit"
+   }
+  ],
+  "read": [
+   {
+    "text": "I see a big dog",
+    "kind": "tell",
+    "pic": "dog"
+   },
+   {
+    "text": "Can the dog run",
+    "kind": "ask",
+    "pic": "dog"
+   },
+   {
+    "text": "My cat can sit",
+    "kind": "tell",
+    "pic": "cat"
+   },
+   {
+    "text": "Is the cat little",
+    "kind": "ask",
+    "pic": "cat"
+   },
+   {
+    "text": "The pig is pink",
+    "kind": "tell",
+    "pic": "pig"
+   },
+   {
+    "text": "Can the pig run",
+    "kind": "ask",
+    "pic": "pig"
+   },
+   {
+    "text": "We go on the bus",
+    "kind": "tell",
+    "pic": "bus"
+   },
+   {
+    "text": "Is the bus big",
+    "kind": "ask",
+    "pic": "bus"
+   },
+   {
+    "text": "The frog can hop",
+    "kind": "tell",
+    "pic": "frog"
+   },
+   {
+    "text": "Can a frog jump",
+    "kind": "ask",
+    "pic": "frog"
+   },
+   {
+    "text": "I like the cake",
+    "kind": "tell",
+    "pic": "cake"
+   },
+   {
+    "text": "Do you like cake",
+    "kind": "ask",
+    "pic": "cake"
+   },
+   {
+    "text": "The duck can swim",
+    "kind": "tell",
+    "pic": "duck"
+   },
+   {
+    "text": "Where is the duck",
+    "kind": "ask",
+    "pic": "duck"
+   },
+   {
+    "text": "My kite is up",
+    "kind": "tell",
+    "pic": "kite"
+   },
+   {
+    "text": "Is my kite up",
+    "kind": "ask",
+    "pic": "kite"
+   },
+   {
+    "text": "The apple is red",
+    "kind": "tell",
+    "pic": "apple"
+   },
+   {
+    "text": "Is the apple red",
+    "kind": "ask",
+    "pic": "apple"
+   },
+   {
+    "text": "The cow says moo",
+    "kind": "tell",
+    "pic": "cow"
+   },
+   {
+    "text": "What did the cow say",
+    "kind": "ask",
+    "pic": "cow"
+   },
+   {
+    "text": "A bee can fly",
+    "kind": "tell",
+    "pic": "bee"
+   },
+   {
+    "text": "Can a bee fly",
+    "kind": "ask",
+    "pic": "bee"
+   },
+   {
+    "text": "The sun is hot",
+    "kind": "tell",
+    "pic": "sun"
+   },
+   {
+    "text": "Is the sun hot",
+    "kind": "ask",
+    "pic": "sun"
+   },
+   {
+    "text": "I have a blue hat",
+    "kind": "tell",
+    "pic": "hat"
+   },
+   {
+    "text": "Where is my hat",
+    "kind": "ask",
+    "pic": "hat"
+   },
+   {
+    "text": "The car is green",
+    "kind": "tell",
+    "pic": "car"
+   },
+   {
+    "text": "Is the car green",
+    "kind": "ask",
+    "pic": "car"
+   },
+   {
+    "text": "A fish can swim",
+    "kind": "tell",
+    "pic": "fish"
+   },
+   {
+    "text": "Can a fish swim",
+    "kind": "ask",
+    "pic": "fish"
+   },
+   {
+    "text": "I kick the ball",
+    "kind": "tell",
+    "pic": "ball"
+   },
+   {
+    "text": "Can you kick the ball",
+    "kind": "ask",
+    "pic": "ball"
+   }
+  ],
+  "short": [
+   "I see a big dog",
+   "My cat can sit",
+   "The pig is pink",
+   "I like the cake",
+   "My kite is up",
+   "The apple is red",
+   "A bee can fly",
+   "The sun is hot",
+   "I have a blue hat",
+   "The car is green",
+   "A fish can swim",
+   "I kick the ball",
+   "Can the dog run",
+   "Is the cat little",
+   "Can the pig run",
+   "Is the bus big",
+   "Can a frog jump",
+   "Do you like cake",
+   "Is my kite up",
+   "Is the apple red",
+   "Can a bee fly",
+   "Is the sun hot",
+   "Where is my hat",
+   "Is the car green",
+   "Can a fish swim"
+  ],
+  "write": [
+   {
+    "pic": "dog",
+    "tell": "The dog is big.",
+    "ask": "Can the dog run?"
+   },
+   {
+    "pic": "cat",
+    "tell": "The cat is little.",
+    "ask": "Can the cat jump?"
+   },
+   {
+    "pic": "frog",
+    "tell": "The frog is green.",
+    "ask": "Can the frog hop?"
+   },
+   {
+    "pic": "duck",
+    "tell": "The duck is yellow.",
+    "ask": "Can the duck swim?"
+   },
+   {
+    "pic": "pig",
+    "tell": "The pig is pink.",
+    "ask": "Is the pig big?"
+   },
+   {
+    "pic": "cow",
+    "tell": "The cow says moo.",
+    "ask": "Is the cow big?"
+   },
+   {
+    "pic": "horse",
+    "tell": "The horse can run.",
+    "ask": "Can the horse jump?"
+   },
+   {
+    "pic": "bird",
+    "tell": "The bird can fly.",
+    "ask": "Can the bird sing?"
+   }
+  ]
+ },
+ "longer": {
+  "cues": {
+   "sun": {
+    "pic": "cue_sun",
+    "add": "in the sun"
+   },
+   "night": {
+    "pic": "cue_night",
+    "add": "at night"
+   },
+   "rain": {
+    "pic": "cue_rain",
+    "add": "in the rain"
+   },
+   "snow": {
+    "pic": "cue_snow",
+    "add": "in the snow"
+   }
+  },
+  "items": [
+   {
+    "text": "The girl reads.",
+    "pic": "girl_reads",
+    "cues": [
+     "sun",
+     "night"
+    ]
+   },
+   {
+    "text": "The girl jumps.",
+    "pic": "girl_jumps",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The girl runs.",
+    "pic": "girl_runs",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The girl swims.",
+    "pic": "girl_swims",
+    "cues": [
+     "sun"
+    ]
+   },
+   {
+    "text": "The girl dances.",
+    "pic": "girl_dances",
+    "cues": [
+     "sun",
+     "night"
+    ]
+   },
+   {
+    "text": "The girl skates.",
+    "pic": "girl_skates",
+    "cues": [
+     "snow",
+     "sun"
+    ]
+   },
+   {
+    "text": "The girl walks.",
+    "pic": "girl_walks",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The dog stands.",
+    "pic": "dog",
+    "cues": [
+     "sun",
+     "rain",
+     "snow"
+    ]
+   },
+   {
+    "text": "The cat sits.",
+    "pic": "cat",
+    "cues": [
+     "sun",
+     "night"
+    ]
+   },
+   {
+    "text": "The duck quacks.",
+    "pic": "duck",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The frog sits.",
+    "pic": "frog",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The rabbit sits.",
+    "pic": "rabbit",
+    "cues": [
+     "sun",
+     "snow"
+    ]
+   },
+   {
+    "text": "The pig sits.",
+    "pic": "pig",
+    "cues": [
+     "sun",
+     "rain"
+    ]
+   },
+   {
+    "text": "The bear stands.",
+    "pic": "bear",
+    "cues": [
+     "snow"
+    ]
+   }
+  ]
+ }
+}

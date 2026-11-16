@@ -356,6 +356,36 @@ const TEXT = {
     2: "Circle the sentence that starts with a capital letter. Then write that capital letter in the box.",
     3: "Each sentence starts with a small letter. Write its first word with a capital letter on the line.",
   },
+  'G2-530': {
+    title: "Short or Long Vowel?",
+    1: "A short vowel says its sound: hop. A long vowel says its name: hope.",
+    2: "A short vowel says its sound: hop. A long vowel says its name: hope.",
+    3: "A short vowel says its sound: hop. A long vowel says its name: hope.",
+  },
+  'G2-531': {
+    title: "Vowel Teams for Long a, e, and o",
+    1: "ai and ay spell long a. ee and ea spell long e. oa and ow spell long o.",
+    2: "ai and ay spell long a. ee and ea spell long e. oa and ow spell long o.",
+    3: "ai and ay spell long a. ee and ea spell long e. oa and ow spell long o.",
+  },
+  'G2-532': {
+    title: "Vowel Sounds: oo, ou, ow, oi, and oy",
+    1: "oo can say two sounds: the sound in moon and the sound in book.",
+    2: "ou and ow say the sound in cow. oi and oy say the sound in boy.",
+    3: "Vowel teams can say the sounds in moon, book, cow, and boy.",
+  },
+  'G2-533': {
+    title: "Bossy r: ar and or",
+    1: "Bossy r changes the vowel sound: ar says the sound in park.",
+    2: "Bossy r changes the vowel sound: ar says the sound in park, and or says the sound in storm.",
+    3: "Bossy r changes the vowel sound: ar says the sound in park, and or says the sound in storm.",
+  },
+  'G2-534': {
+    title: "er, ir, and ur: One Sound, Three Spellings",
+    1: "er says the sound you hear in her.",
+    2: "er, ir, and ur say the same sound: her, first, turn.",
+    3: "er, ir, and ur say the same sound: her, first, turn.",
+  },
 };
 
 function edit(file, fn) {

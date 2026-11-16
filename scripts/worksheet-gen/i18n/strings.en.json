@@ -5413,5 +5413,21 @@
   "G1-595": {
     "title": "Yesterday, Today, and Tomorrow",
     "instruction": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits."
+  },
+  "G1-600": {
+    "title": "Every Syllable Has a Vowel",
+    "instruction": "Every syllable has a vowel, so count the vowels: nap | kin has two."
+  },
+  "G1-601": {
+    "title": "One Syllable or Two?",
+    "instruction": "One vowel, one syllable: fish. Two vowels, two syllables: nap | kin."
+  },
+  "G1-602": {
+    "title": "Compound Words and Two-Part Words",
+    "instruction": "Read a long word in two parts: sun | set, rab | bit."
+  },
+  "G1-603": {
+    "title": "Heart Words: said, was, of, could",
+    "instruction": "Some words have a tricky part. We learn that part by heart."
   }
 }

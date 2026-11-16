@@ -7455,5 +7455,30 @@
     "3": {
       "en": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways."
     }
-  }
+  },
+  "G1-600": {
+    "1": {
+      "en": "Every syllable has a vowel, so count the vowels: sun | set has two."
+    },
+    "3": {
+      "en": "Every syllable has a vowel. Split a two-syllable word between its two consonants: bas | ket."
+    }
+  },
+  "G1-601": {
+    "1": {
+      "en": "One vowel, one syllable: fish. Two vowels, two syllables: sun | set."
+    },
+    "3": {
+      "en": "Count the vowel sounds, not the vowel letters: cake has one, cup | cake has two."
+    }
+  },
+  "G1-602": {
+    "1": {
+      "en": "A compound word is two small words put together: sun + set = sunset."
+    },
+    "3": {
+      "en": "Read a long word in two parts. A compound word is two small words: sun | set."
+    }
+  },
+  "G1-603": {}
 }

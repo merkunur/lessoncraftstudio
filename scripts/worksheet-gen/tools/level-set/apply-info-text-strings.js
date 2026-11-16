@@ -488,6 +488,30 @@ const TEXT = {
     2: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
     3: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways.",
   },
+  'G1-600': {
+    title: "Every Syllable Has a Vowel",
+    1: "Every syllable has a vowel, so count the vowels: sun | set has two.",
+    2: "Every syllable has a vowel, so count the vowels: nap | kin has two.",
+    3: "Every syllable has a vowel. Split a two-syllable word between its two consonants: bas | ket.",
+  },
+  'G1-601': {
+    title: "One Syllable or Two?",
+    1: "One vowel, one syllable: fish. Two vowels, two syllables: sun | set.",
+    2: "One vowel, one syllable: fish. Two vowels, two syllables: nap | kin.",
+    3: "Count the vowel sounds, not the vowel letters: cake has one, cup | cake has two.",
+  },
+  'G1-602': {
+    title: "Compound Words and Two-Part Words",
+    1: "A compound word is two small words put together: sun + set = sunset.",
+    2: "Read a long word in two parts: sun | set, rab | bit.",
+    3: "Read a long word in two parts. A compound word is two small words: sun | set.",
+  },
+  'G1-603': {
+    title: "Heart Words: said, was, of, could",
+    1: "Some words have a tricky part. We learn that part by heart.",
+    2: "Some words have a tricky part. We learn that part by heart.",
+    3: "Some words have a tricky part. We learn that part by heart.",
+  },
 };
 
 function edit(file, fn) {

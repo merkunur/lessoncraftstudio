@@ -1,0 +1,2086 @@
+{
+ "_note": "Grade 2, the unit \"Spelling and Word Building\" (English literacy year; types/_shared/word-building-g2.js: G2-535 prefixes, G2-536 suffixes, G2-537 apostrophes). American English. PREFIX: `bases` with `pos` and `forms` (every prefix of un, re, pre that makes a REAL word with the base, common or not); `meanings` of the words a page asks by meaning (un- adjective: not X; un- verb: the opposite of X; re-: X again; pre-: X before); `l1Build` the bases of level 1 (add un-); `choose` level 1 sentences with a base and its un- word (one fits); `match` bases whose un- and re- words are both common (level 2); `gaps` sentences with a gap where the prefix stands (`rivals` = every other real word of the base, each judged not to fit; read with the bare base every sentence is wrong or clearly worse); `samples` (level 3) the two words of part 1 and a sample sentence. SUFFIX: `bases` with the suffixes that make a real word (no spelling change); `words` the words to mark; `meanings` of the words asked by meaning (-ful: full of; -less: without; -ly: in a ___ way); `choose` level 1; `match` bases with both -ful and -less; `gaps` with `rivals`; `traps` (level 3) words with the letters of a suffix and no base word. APOSTROPHE: `contractions` (can't stands for the one word cannot; won't is given only, never asked); `animalPairs` an animal and the things it owns (pictures printed with their words); `nameThings` things a named child owns; `names` (none ends in s, x, z); `fix` level 3 sentences with ONE missing apostrophe (c contraction, p one owner; \"cant\" is a deliberate exception: rare, no second grader reads it as a word). `pics`: library pictures (colour themes). `bad`: words no page may print or let a child build.",
+ "pics": {
+  "dog": [
+   "pets",
+   "dog"
+  ],
+  "cat": [
+   "pets",
+   "cat"
+  ],
+  "hen": [
+   "farm animals",
+   "hen"
+  ],
+  "bowl": [
+   "kitchen tools",
+   "bowl"
+  ],
+  "ball": [
+   "toys",
+   "ball"
+  ],
+  "nest": [
+   "spring",
+   "nest"
+  ],
+  "kite": [
+   "toys",
+   "kite"
+  ],
+  "hat": [
+   "accessories",
+   "hat"
+  ],
+  "drum": [
+   "music",
+   "drum"
+  ],
+  "doll": [
+   "toys",
+   "doll"
+  ],
+  "bike": [
+   "toys",
+   "bicycle"
+  ],
+  "cap": [
+   "accessories",
+   "cap"
+  ],
+  "book": [
+   "classroom",
+   "book"
+  ],
+  "car": [
+   "toys",
+   "car"
+  ],
+  "boat": [
+   "toys",
+   "boat"
+  ],
+  "robot": [
+   "toys",
+   "robot"
+  ],
+  "scarf": [
+   "accessories",
+   "scarf"
+  ],
+  "train": [
+   "toys",
+   "train"
+  ],
+  "crown": [
+   "accessories",
+   "crown"
+  ],
+  "truck": [
+   "toys",
+   "truck"
+  ],
+  "watch": [
+   "accessories",
+   "watch"
+  ]
+ },
+ "bad": [
+  "relock",
+  "shit",
+  "shat",
+  "fuck",
+  "dick",
+  "cock",
+  "prick",
+  "suck",
+  "pimp",
+  "fag",
+  "crap",
+  "drug",
+  "drunk",
+  "slut",
+  "twat",
+  "cunt",
+  "damn",
+  "hell",
+  "ass",
+  "butt",
+  "sex",
+  "kill",
+  "hate",
+  "stupid",
+  "dumb",
+  "ugly",
+  "fat",
+  "dead",
+  "die",
+  "gun"
+ ],
+ "prefix": {
+  "bases": {
+   "kind": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "happy": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "fair": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "safe": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "lucky": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "true": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "sure": {
+    "pos": "adj",
+    "forms": [
+     "un"
+    ]
+   },
+   "lock": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "tie": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re"
+    ]
+   },
+   "pack": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re",
+     "pre"
+    ]
+   },
+   "zip": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "do": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re"
+    ]
+   },
+   "wrap": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re"
+    ]
+   },
+   "fold": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re"
+    ]
+   },
+   "load": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re",
+     "pre"
+    ]
+   },
+   "plug": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "buckle": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "button": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "hook": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "roll": {
+    "pos": "verb",
+    "forms": [
+     "un"
+    ]
+   },
+   "cover": {
+    "pos": "verb",
+    "forms": [
+     "un",
+     "re"
+    ]
+   },
+   "build": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "fill": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "heat": {
+    "pos": "verb",
+    "forms": [
+     "re",
+     "pre"
+    ]
+   },
+   "tell": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "write": {
+    "pos": "verb",
+    "forms": [
+     "re",
+     "pre"
+    ]
+   },
+   "play": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "use": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "paint": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "start": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "open": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "check": {
+    "pos": "verb",
+    "forms": [
+     "re",
+     "un"
+    ]
+   },
+   "make": {
+    "pos": "verb",
+    "forms": [
+     "re",
+     "un"
+    ]
+   },
+   "plant": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "visit": {
+    "pos": "verb",
+    "forms": [
+     "re"
+    ]
+   },
+   "test": {
+    "pos": "verb",
+    "forms": [
+     "re",
+     "pre"
+    ]
+   },
+   "school": {
+    "pos": "noun",
+    "forms": [
+     "pre",
+     "un"
+    ]
+   }
+  },
+  "meanings": {
+   "unkind": "not kind",
+   "unhappy": "not happy",
+   "unfair": "not fair",
+   "unsafe": "not safe",
+   "unlucky": "not lucky",
+   "untrue": "not true",
+   "unsure": "not sure",
+   "unlock": "the opposite of lock",
+   "untie": "the opposite of tie",
+   "unpack": "the opposite of pack",
+   "unzip": "the opposite of zip",
+   "unwrap": "the opposite of wrap",
+   "unfold": "the opposite of fold",
+   "unload": "the opposite of load",
+   "unplug": "the opposite of plug",
+   "unbuckle": "the opposite of buckle",
+   "unbutton": "the opposite of button",
+   "unhook": "the opposite of hook",
+   "uncover": "the opposite of cover",
+   "retie": "tie again",
+   "repack": "pack again",
+   "rewrap": "wrap again",
+   "refold": "fold again",
+   "reload": "load again",
+   "rebuild": "build again",
+   "refill": "fill again",
+   "reheat": "heat again",
+   "retell": "tell again",
+   "rewrite": "write again",
+   "replay": "play again",
+   "reuse": "use again",
+   "repaint": "paint again",
+   "restart": "start again",
+   "redo": "do again",
+   "preheat": "heat before",
+   "pretest": "test before"
+  },
+  "l1Build": [
+   "kind",
+   "happy",
+   "fair",
+   "safe",
+   "lucky",
+   "true",
+   "sure",
+   "lock",
+   "tie",
+   "pack",
+   "zip",
+   "do",
+   "wrap",
+   "fold",
+   "load",
+   "plug",
+   "buckle",
+   "button",
+   "hook",
+   "roll",
+   "cover"
+  ],
+  "choose": [
+   {
+    "text": "Lily lost her kite, so she is ___.",
+    "right": "unhappy",
+    "wrong": "happy"
+   },
+   {
+    "text": "It is my birthday, and I am so ___!",
+    "right": "happy",
+    "wrong": "unhappy"
+   },
+   {
+    "text": "It is ___ to push a friend.",
+    "right": "unkind",
+    "wrong": "kind"
+   },
+   {
+    "text": "Thank you! It was ___ of you to help me.",
+    "right": "kind",
+    "wrong": "unkind"
+   },
+   {
+    "text": "Ben got two turns, and I got none. That is ___!",
+    "right": "unfair",
+    "wrong": "fair"
+   },
+   {
+    "text": "We each got one cookie, so it is ___.",
+    "right": "fair",
+    "wrong": "unfair"
+   },
+   {
+    "text": "It is ___ to play in the street.",
+    "right": "unsafe",
+    "wrong": "safe"
+   },
+   {
+    "text": "Hold my hand so you stay ___.",
+    "right": "safe",
+    "wrong": "unsafe"
+   },
+   {
+    "text": "Use the key to ___ the door so we can go in.",
+    "right": "unlock",
+    "wrong": "lock"
+   },
+   {
+    "text": "Please ___ the door so no one can get in.",
+    "right": "lock",
+    "wrong": "unlock"
+   },
+   {
+    "text": "This knot is too tight. Can you ___ it?",
+    "right": "untie",
+    "wrong": "tie"
+   },
+   {
+    "text": "Please ___ your shoes so you do not trip.",
+    "right": "tie",
+    "wrong": "untie"
+   },
+   {
+    "text": "We are home from our trip, so let's ___ our bags.",
+    "right": "unpack",
+    "wrong": "pack"
+   },
+   {
+    "text": "We leave on our trip today, so ___ your bag.",
+    "right": "pack",
+    "wrong": "unpack"
+   },
+   {
+    "text": "It is cold, so ___ your coat up to your chin.",
+    "right": "zip",
+    "wrong": "unzip"
+   },
+   {
+    "text": "It is hot in here, so I will ___ my coat.",
+    "right": "unzip",
+    "wrong": "zip"
+   },
+   {
+    "text": "Jake will ___ the gift and see what is inside.",
+    "right": "unwrap",
+    "wrong": "wrap"
+   },
+   {
+    "text": "Please ___ the lamp before you move it.",
+    "right": "unplug",
+    "wrong": "plug"
+   },
+   {
+    "text": "Please ___ the pot so the soup stays hot.",
+    "right": "cover",
+    "wrong": "uncover"
+   },
+   {
+    "text": "Please ___ your seat belt before we go.",
+    "right": "buckle",
+    "wrong": "unbuckle"
+   },
+   {
+    "text": "We are at school, so you can ___ your seat belt.",
+    "right": "unbuckle",
+    "wrong": "buckle"
+   },
+   {
+    "text": "I fell in a puddle. This day is so ___!",
+    "right": "unlucky",
+    "wrong": "lucky"
+   },
+   {
+    "text": "Fish can sing? That is ___!",
+    "right": "untrue",
+    "wrong": "true"
+   },
+   {
+    "text": "Please ___ the map so we can see the roads.",
+    "right": "unfold",
+    "wrong": "fold"
+   },
+   {
+    "text": "We got home from the store, so let's ___ the car.",
+    "right": "unload",
+    "wrong": "load"
+   },
+   {
+    "text": "Please ___ the mat so we can sit on it.",
+    "right": "unroll",
+    "wrong": "roll"
+   },
+   {
+    "text": "It is cold out, so ___ your coat.",
+    "right": "button",
+    "wrong": "unbutton"
+   }
+  ],
+  "match": [
+   "tie",
+   "pack",
+   "wrap",
+   "fold",
+   "load"
+  ],
+  "gaps": [
+   {
+    "text": "Please ___tie my shoe so I can take it off.",
+    "base": "tie",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "We are home, so let's ___pack our bags.",
+    "base": "pack",
+    "answer": "un",
+    "rivals": [
+     "re",
+     "pre"
+    ]
+   },
+   {
+    "text": "To take off my coat, I ___do the buttons.",
+    "base": "do",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "We got home, so let's ___load the car.",
+    "base": "load",
+    "answer": "un",
+    "rivals": [
+     "re",
+     "pre"
+    ]
+   },
+   {
+    "text": "It is my birthday! I can't wait to ___wrap my gifts.",
+    "base": "wrap",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Please ___fold the map so we can see it.",
+    "base": "fold",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Please ___lock the door so we can go in.",
+    "base": "lock",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "It is hot in here, so I will ___zip my coat.",
+    "base": "zip",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "Please ___plug the lamp before you move it.",
+    "base": "plug",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "It is ___kind to laugh when a friend falls.",
+    "base": "kind",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "Our dog ran away, so we were ___happy.",
+    "base": "happy",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "The bridge is ___safe, so we can't cross it.",
+    "base": "safe",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "I got no turn at all. That is ___fair!",
+    "base": "fair",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "We are at school now, so ___buckle your seat belt.",
+    "base": "buckle",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "Fish can sing? That is ___true!",
+    "base": "true",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "The knot is too tight, so I can't ___tie it.",
+    "base": "tie",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Please ___pack the groceries and put them away.",
+    "base": "pack",
+    "answer": "un",
+    "rivals": [
+     "re",
+     "pre"
+    ]
+   },
+   {
+    "text": "Oops! I can ___do my mistake with an eraser.",
+    "base": "do",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Let's ___load the new desks from the van.",
+    "base": "load",
+    "answer": "un",
+    "rivals": [
+     "re",
+     "pre"
+    ]
+   },
+   {
+    "text": "I ___wrap the candy and pop it in my mouth.",
+    "base": "wrap",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "I ___fold the letter so I can read it.",
+    "base": "fold",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Lift the lid to ___cover the pot.",
+    "base": "cover",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "Mom will ___lock the car so we can get our bags.",
+    "base": "lock",
+    "answer": "un",
+    "rivals": []
+   },
+   {
+    "text": "Take the blanket off to ___cover the cage.",
+    "base": "cover",
+    "answer": "un",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "I tied my shoe, but it came loose. I must ___tie it.",
+    "base": "tie",
+    "answer": "re",
+    "rivals": [
+     "un"
+    ]
+   },
+   {
+    "text": "I packed my bag, but it spilled. I must ___pack it.",
+    "base": "pack",
+    "answer": "re",
+    "rivals": [
+     "un",
+     "pre"
+    ]
+   },
+   {
+    "text": "Boxes fell off the truck, so we had to ___load them.",
+    "base": "load",
+    "answer": "re",
+    "rivals": [
+     "un",
+     "pre"
+    ]
+   },
+   {
+    "text": "I did my work, but it is messy. I will ___do it on a new page.",
+    "base": "do",
+    "answer": "re",
+    "rivals": [
+     "un"
+    ]
+   },
+   {
+    "text": "The paper ripped, so Mom will ___wrap the gift in new paper.",
+    "base": "wrap",
+    "answer": "re",
+    "rivals": [
+     "un"
+    ]
+   },
+   {
+    "text": "I folded my shirt, but it fell. I must ___fold it.",
+    "base": "fold",
+    "answer": "re",
+    "rivals": [
+     "un"
+    ]
+   },
+   {
+    "text": "We will ___build the sandcastle that fell down.",
+    "base": "build",
+    "answer": "re",
+    "rivals": []
+   },
+   {
+    "text": "I heated my soup once. Now I will ___heat it.",
+    "base": "heat",
+    "answer": "re",
+    "rivals": [
+     "pre"
+    ]
+   },
+   {
+    "text": "I wrote a letter once. Now I will ___write it neatly.",
+    "base": "write",
+    "answer": "re",
+    "rivals": [
+     "pre"
+    ]
+   },
+   {
+    "text": "We played the song once. Can we ___play it?",
+    "base": "play",
+    "answer": "re",
+    "rivals": []
+   },
+   {
+    "text": "I painted my box once. Now I will ___paint it.",
+    "base": "paint",
+    "answer": "re",
+    "rivals": []
+   },
+   {
+    "text": "I started the game once. Now I must ___start it.",
+    "base": "start",
+    "answer": "re",
+    "rivals": []
+   },
+   {
+    "text": "I checked my work once. Now I will ___check it.",
+    "base": "check",
+    "answer": "re",
+    "rivals": [
+     "un"
+    ]
+   },
+   {
+    "text": "The pot is too small, so we will ___plant the flower in a bigger one.",
+    "base": "plant",
+    "answer": "re",
+    "rivals": []
+   },
+   {
+    "text": "Please ___heat the oven before we bake.",
+    "base": "heat",
+    "answer": "pre",
+    "rivals": [
+     "re"
+    ]
+   },
+   {
+    "text": "My brother goes to ___school because he is too young for kindergarten.",
+    "base": "school",
+    "answer": "pre",
+    "rivals": [
+     "un"
+    ]
+   }
+  ],
+  "samples": [
+   {
+    "words": [
+     "unwrap",
+     "reuse"
+    ],
+    "text": "I will unwrap the gift and reuse the paper."
+   },
+   {
+    "words": [
+     "unfold",
+     "refold"
+    ],
+    "text": "Unfold the map, and then refold it."
+   },
+   {
+    "words": [
+     "preheat",
+     "unwrap"
+    ],
+    "text": "Preheat the oven and unwrap the pizza."
+   },
+   {
+    "words": [
+     "unpack",
+     "refill"
+    ],
+    "text": "Let's unpack our bags and refill our water bottles."
+   },
+   {
+    "words": [
+     "replay",
+     "unfair"
+    ],
+    "text": "The game was unfair, so let's replay it."
+   },
+   {
+    "words": [
+     "unplug",
+     "restart"
+    ],
+    "text": "Unplug the TV, plug it back in, and restart it."
+   },
+   {
+    "words": [
+     "unlock",
+     "untie"
+    ],
+    "text": "Unlock the gate and untie the dog."
+   },
+   {
+    "words": [
+     "rebuild",
+     "unsafe"
+    ],
+    "text": "The old bridge is unsafe, so they will rebuild it."
+   },
+   {
+    "words": [
+     "reheat",
+     "unwrap"
+    ],
+    "text": "Unwrap the pizza and reheat it."
+   },
+   {
+    "words": [
+     "unzip",
+     "repack"
+    ],
+    "text": "Unzip your bag and repack it."
+   },
+   {
+    "words": [
+     "retell",
+     "unlucky"
+    ],
+    "text": "Can you retell the story of the unlucky pig?"
+   },
+   {
+    "words": [
+     "untie",
+     "retie"
+    ],
+    "text": "I had to untie my shoe and retie it."
+   },
+   {
+    "words": [
+     "pretest",
+     "unsure"
+    ],
+    "text": "I was unsure of some words on the pretest."
+   },
+   {
+    "words": [
+     "unlock",
+     "restart"
+    ],
+    "text": "Unlock the tablet and restart the game."
+   },
+   {
+    "words": [
+     "repaint",
+     "unhappy"
+    ],
+    "text": "We were unhappy with the color, so we will repaint the door."
+   },
+   {
+    "words": [
+     "preheat",
+     "unpack"
+    ],
+    "text": "Preheat the oven while I unpack the food."
+   },
+   {
+    "words": [
+     "pretest",
+     "unhappy"
+    ],
+    "text": "I was unhappy that I missed a word on the pretest."
+   },
+   {
+    "words": [
+     "pretest",
+     "rewrite"
+    ],
+    "text": "After the pretest, I will rewrite the words I missed."
+   },
+   {
+    "words": [
+     "preheat",
+     "refill"
+    ],
+    "text": "Preheat the oven and refill the water jug."
+   },
+   {
+    "words": [
+     "unkind",
+     "retell"
+    ],
+    "text": "The story was about an unkind fox. Can you retell it?"
+   },
+   {
+    "words": [
+     "unfair",
+     "restart"
+    ],
+    "text": "The game was unfair, so we will restart it."
+   },
+   {
+    "words": [
+     "unlucky",
+     "replay"
+    ],
+    "text": "I was unlucky in the game, so I want to replay it."
+   },
+   {
+    "words": [
+     "unpack",
+     "reuse"
+    ],
+    "text": "I will unpack the box and reuse it for my toys."
+   },
+   {
+    "words": [
+     "unzip",
+     "refill"
+    ],
+    "text": "Unzip your bag and refill your water bottle."
+   },
+   {
+    "words": [
+     "untrue",
+     "retell"
+    ],
+    "text": "That story is untrue, so do not retell it."
+   },
+   {
+    "words": [
+     "unsure",
+     "redo"
+    ],
+    "text": "I am unsure of my answer, so I will redo it."
+   },
+   {
+    "words": [
+     "unload",
+     "repack"
+    ],
+    "text": "Unload the car and repack the bags for the next trip."
+   },
+   {
+    "words": [
+     "uncover",
+     "reheat"
+    ],
+    "text": "Uncover the soup and reheat it."
+   },
+   {
+    "words": [
+     "unfold",
+     "reuse"
+    ],
+    "text": "Unfold the paper bag so we can reuse it."
+   },
+   {
+    "words": [
+     "preheat",
+     "unload"
+    ],
+    "text": "Preheat the oven and unload the groceries."
+   }
+  ]
+ },
+ "suffix": {
+  "bases": {
+   "care": [
+    "ful",
+    "less"
+   ],
+   "help": [
+    "ful",
+    "less"
+   ],
+   "hope": [
+    "ful",
+    "less"
+   ],
+   "use": [
+    "ful",
+    "less"
+   ],
+   "pain": [
+    "ful",
+    "less"
+   ],
+   "fear": [
+    "ful",
+    "less"
+   ],
+   "color": [
+    "ful",
+    "less"
+   ],
+   "harm": [
+    "ful",
+    "less"
+   ],
+   "power": [
+    "ful",
+    "less"
+   ],
+   "thank": [
+    "ful",
+    "less"
+   ],
+   "play": [
+    "ful"
+   ],
+   "joy": [
+    "ful",
+    "less"
+   ],
+   "cheer": [
+    "ful",
+    "less"
+   ],
+   "wonder": [
+    "ful"
+   ],
+   "peace": [
+    "ful"
+   ],
+   "skill": [
+    "ful"
+   ],
+   "truth": [
+    "ful"
+   ],
+   "spot": [
+    "less"
+   ],
+   "end": [
+    "less"
+   ],
+   "seed": [
+    "less"
+   ],
+   "sleep": [
+    "less"
+   ],
+   "tooth": [
+    "less"
+   ],
+   "slow": [
+    "ly"
+   ],
+   "quick": [
+    "ly"
+   ],
+   "sad": [
+    "ly"
+   ],
+   "loud": [
+    "ly"
+   ],
+   "soft": [
+    "ly"
+   ],
+   "kind": [
+    "ly"
+   ],
+   "safe": [
+    "ly"
+   ],
+   "brave": [
+    "ly"
+   ],
+   "glad": [
+    "ly"
+   ],
+   "neat": [
+    "ly"
+   ],
+   "proud": [
+    "ly"
+   ],
+   "quiet": [
+    "ly"
+   ],
+   "warm": [
+    "ly"
+   ],
+   "bright": [
+    "ly"
+   ],
+   "sweet": [
+    "ly"
+   ]
+  },
+  "words": [
+   "careful",
+   "helpful",
+   "hopeful",
+   "useful",
+   "painful",
+   "fearful",
+   "colorful",
+   "harmful",
+   "powerful",
+   "thankful",
+   "playful",
+   "joyful",
+   "cheerful",
+   "wonderful",
+   "peaceful",
+   "skillful",
+   "truthful",
+   "careless",
+   "helpless",
+   "hopeless",
+   "useless",
+   "painless",
+   "fearless",
+   "colorless",
+   "harmless",
+   "powerless",
+   "spotless",
+   "endless",
+   "seedless",
+   "sleepless",
+   "toothless",
+   "slowly",
+   "quickly",
+   "sadly",
+   "loudly",
+   "softly",
+   "kindly",
+   "safely",
+   "bravely",
+   "gladly",
+   "neatly",
+   "proudly",
+   "quietly",
+   "warmly",
+   "brightly",
+   "sweetly"
+  ],
+  "meanings": {
+   "careful": "full of care",
+   "helpful": "full of help",
+   "hopeful": "full of hope",
+   "painful": "full of pain",
+   "fearful": "full of fear",
+   "colorful": "full of color",
+   "powerful": "full of power",
+   "playful": "full of play",
+   "joyful": "full of joy",
+   "cheerful": "full of cheer",
+   "peaceful": "full of peace",
+   "skillful": "full of skill",
+   "truthful": "full of truth",
+   "careless": "without care",
+   "helpless": "without help",
+   "hopeless": "without hope",
+   "painless": "without pain",
+   "fearless": "without fear",
+   "colorless": "without color",
+   "powerless": "without power",
+   "spotless": "without spots",
+   "endless": "without an end",
+   "seedless": "without seeds",
+   "sleepless": "without sleep",
+   "toothless": "without teeth",
+   "slowly": "in a slow way",
+   "quickly": "in a quick way",
+   "sadly": "in a sad way",
+   "loudly": "in a loud way",
+   "softly": "in a soft way",
+   "kindly": "in a kind way",
+   "safely": "in a safe way",
+   "bravely": "in a brave way",
+   "gladly": "in a glad way",
+   "neatly": "in a neat way",
+   "proudly": "in a proud way",
+   "quietly": "in a quiet way",
+   "warmly": "in a warm way",
+   "brightly": "in a bright way",
+   "sweetly": "in a sweet way"
+  },
+  "choose": [
+   {
+    "text": "Thank you for your ___!",
+    "right": "help",
+    "wrong": "helpful"
+   },
+   {
+    "text": "Max is very ___. He sets the table every night.",
+    "right": "helpful",
+    "wrong": "help"
+   },
+   {
+    "text": "Be ___ with the eggs, or they will break.",
+    "right": "careful",
+    "wrong": "care"
+   },
+   {
+    "text": "Our new puppy needs lots of love and ___.",
+    "right": "care",
+    "wrong": "careful"
+   },
+   {
+    "text": "I ___ it will be sunny for our picnic.",
+    "right": "hope",
+    "wrong": "hopeful"
+   },
+   {
+    "text": "Sam is ___ that his team will win.",
+    "right": "hopeful",
+    "wrong": "hope"
+   },
+   {
+    "text": "A map is ___ when you are lost.",
+    "right": "useful",
+    "wrong": "use"
+   },
+   {
+    "text": "May I ___ your red crayon?",
+    "right": "use",
+    "wrong": "useful"
+   },
+   {
+    "text": "A bee sting is very ___.",
+    "right": "painful",
+    "wrong": "pain"
+   },
+   {
+    "text": "I have a ___ in my tummy.",
+    "right": "pain",
+    "wrong": "painful"
+   },
+   {
+    "text": "Tess has no ___ of the dark.",
+    "right": "fear",
+    "wrong": "fearful"
+   },
+   {
+    "text": "The ___ puppy hid under the bed in the storm.",
+    "right": "fearful",
+    "wrong": "fear"
+   },
+   {
+    "text": "I am ___ for my family and my friends.",
+    "right": "thankful",
+    "wrong": "thank"
+   },
+   {
+    "text": "Remember to ___ Grandma for the gift.",
+    "right": "thank",
+    "wrong": "thankful"
+   },
+   {
+    "text": "The ___ kitten chased a ball of yarn.",
+    "right": "playful",
+    "wrong": "play"
+   },
+   {
+    "text": "Can you come out and ___ with me?",
+    "right": "play",
+    "wrong": "playful"
+   },
+   {
+    "text": "The ___ kite has red, blue, and green stripes.",
+    "right": "colorful",
+    "wrong": "color"
+   },
+   {
+    "text": "What ___ is your new bike?",
+    "right": "color",
+    "wrong": "colorful"
+   },
+   {
+    "text": "We had a ___ day at the zoo.",
+    "right": "wonderful",
+    "wrong": "wonder"
+   },
+   {
+    "text": "Grandpa is always ___ and smiling.",
+    "right": "cheerful",
+    "wrong": "cheer"
+   },
+   {
+    "text": "Too much candy can be ___ to your teeth.",
+    "right": "harmful",
+    "wrong": "harm"
+   }
+  ],
+  "match": [
+   "care",
+   "help",
+   "hope",
+   "pain",
+   "fear",
+   "color"
+  ],
+  "gaps": [
+   {
+    "text": "Mia was care___ and spilled her milk.",
+    "base": "care",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "Be care___ on the ice so you don't slip.",
+    "base": "care",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "Tom is so help___. He sets the table.",
+    "base": "help",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "The baby bird with a hurt wing is help___.",
+    "base": "help",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "The sun came out! Now we are hope___.",
+    "base": "hope",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "My kite is stuck up in a tree. It is hope___.",
+    "base": "hope",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "A pencil with no tip is use___.",
+    "base": "use",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "A flashlight is very use___ in the dark.",
+    "base": "use",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "The shot was pain___, so I did not cry.",
+    "base": "pain",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "My sore tooth is very pain___.",
+    "base": "pain",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "The fear___ firefighter ran into the smoke.",
+    "base": "fear",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "The fear___ kitten hid under the bed.",
+    "base": "fear",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "A glass of water is color___. It is not red, blue, or green.",
+    "base": "color",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "Her picture is very color___. It has red, blue, and green.",
+    "base": "color",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "This little worm is harm___. It cannot hurt you.",
+    "base": "harm",
+    "answer": "less",
+    "rivals": [
+     "ful"
+    ]
+   },
+   {
+    "text": "Too much sun can be harm___ to your skin.",
+    "base": "harm",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "Mom cleaned until the floor was spot___.",
+    "base": "spot",
+    "answer": "less",
+    "rivals": []
+   },
+   {
+    "text": "These seed___ grapes are easy to eat.",
+    "base": "seed",
+    "answer": "less",
+    "rivals": []
+   },
+   {
+    "text": "The baby cried, so Mom had a sleep___ night.",
+    "base": "sleep",
+    "answer": "less",
+    "rivals": []
+   },
+   {
+    "text": "The baby has a tooth___ smile.",
+    "base": "tooth",
+    "answer": "less",
+    "rivals": []
+   },
+   {
+    "text": "The line for the ride seemed end___.",
+    "base": "end",
+    "answer": "less",
+    "rivals": []
+   },
+   {
+    "text": "I am thank___ for my warm bed.",
+    "base": "thank",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "The play___ puppy chased the ball.",
+    "base": "play",
+    "answer": "ful",
+    "rivals": []
+   },
+   {
+    "text": "The cheer___ baker smiled at everyone.",
+    "base": "cheer",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "We had a wonder___ time at the beach.",
+    "base": "wonder",
+    "answer": "ful",
+    "rivals": []
+   },
+   {
+    "text": "The lake is calm and peace___.",
+    "base": "peace",
+    "answer": "ful",
+    "rivals": []
+   },
+   {
+    "text": "A lion has power___ legs.",
+    "base": "power",
+    "answer": "ful",
+    "rivals": [
+     "less"
+    ]
+   },
+   {
+    "text": "The turtle slow___ crawled to the pond.",
+    "base": "slow",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "The rabbit quick___ hopped into the bushes.",
+    "base": "quick",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "The dog loud___ barked at the door.",
+    "base": "loud",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Mom soft___ sang the baby to sleep.",
+    "base": "soft",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Ben sad___ waved as the bus drove away.",
+    "base": "sad",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Ms. Lee kind___ smiled at the new boy.",
+    "base": "kind",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "We safe___ crossed the busy street.",
+    "base": "safe",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Kim brave___ climbed the tall slide.",
+    "base": "brave",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "I will glad___ help you.",
+    "base": "glad",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Lily neat___ wrote her name.",
+    "base": "neat",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Ava proud___ held up her drawing.",
+    "base": "proud",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "The cat quiet___ crept toward the bird.",
+    "base": "quiet",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "Grandma hugged me warm___.",
+    "base": "warm",
+    "answer": "ly",
+    "rivals": []
+   },
+   {
+    "text": "The lamp bright___ lit up the room.",
+    "base": "bright",
+    "answer": "ly",
+    "rivals": []
+   }
+  ],
+  "traps": [
+   "jelly",
+   "belly",
+   "silly",
+   "fly",
+   "bless"
+  ]
+ },
+ "apostrophe": {
+  "contractions": [
+   {
+    "c": "can't",
+    "words": "cannot",
+    "kind": "not"
+   },
+   {
+    "c": "don't",
+    "words": "do not",
+    "kind": "not"
+   },
+   {
+    "c": "isn't",
+    "words": "is not",
+    "kind": "not"
+   },
+   {
+    "c": "didn't",
+    "words": "did not",
+    "kind": "not"
+   },
+   {
+    "c": "aren't",
+    "words": "are not",
+    "kind": "not"
+   },
+   {
+    "c": "wasn't",
+    "words": "was not",
+    "kind": "not"
+   },
+   {
+    "c": "doesn't",
+    "words": "does not",
+    "kind": "not"
+   },
+   {
+    "c": "haven't",
+    "words": "have not",
+    "kind": "not"
+   },
+   {
+    "c": "hasn't",
+    "words": "has not",
+    "kind": "not"
+   },
+   {
+    "c": "he's",
+    "words": "he is",
+    "kind": "is"
+   },
+   {
+    "c": "she's",
+    "words": "she is",
+    "kind": "is"
+   },
+   {
+    "c": "it's",
+    "words": "it is",
+    "kind": "is"
+   },
+   {
+    "c": "that's",
+    "words": "that is",
+    "kind": "is"
+   },
+   {
+    "c": "what's",
+    "words": "what is",
+    "kind": "is"
+   },
+   {
+    "c": "here's",
+    "words": "here is",
+    "kind": "is"
+   },
+   {
+    "c": "there's",
+    "words": "there is",
+    "kind": "is"
+   },
+   {
+    "c": "who's",
+    "words": "who is",
+    "kind": "is"
+   },
+   {
+    "c": "let's",
+    "words": "let us",
+    "kind": "us"
+   },
+   {
+    "c": "we're",
+    "words": "we are",
+    "kind": "are"
+   },
+   {
+    "c": "they're",
+    "words": "they are",
+    "kind": "are"
+   },
+   {
+    "c": "you're",
+    "words": "you are",
+    "kind": "are"
+   },
+   {
+    "c": "I'll",
+    "words": "I will",
+    "kind": "will"
+   },
+   {
+    "c": "we'll",
+    "words": "we will",
+    "kind": "will"
+   },
+   {
+    "c": "you'll",
+    "words": "you will",
+    "kind": "will"
+   },
+   {
+    "c": "they'll",
+    "words": "they will",
+    "kind": "will"
+   },
+   {
+    "c": "he'll",
+    "words": "he will",
+    "kind": "will"
+   },
+   {
+    "c": "she'll",
+    "words": "she will",
+    "kind": "will"
+   },
+   {
+    "c": "I've",
+    "words": "I have",
+    "kind": "have"
+   },
+   {
+    "c": "we've",
+    "words": "we have",
+    "kind": "have"
+   },
+   {
+    "c": "you've",
+    "words": "you have",
+    "kind": "have"
+   },
+   {
+    "c": "they've",
+    "words": "they have",
+    "kind": "have"
+   },
+   {
+    "c": "I'm",
+    "words": "I am",
+    "kind": "am"
+   }
+  ],
+  "given": {
+   "c": "won't",
+   "words": "will not"
+  },
+  "animalPairs": {
+   "dog": [
+    "bowl",
+    "ball"
+   ],
+   "cat": [
+    "bowl"
+   ],
+   "hen": [
+    "nest"
+   ]
+  },
+  "nameThings": [
+   "kite",
+   "hat",
+   "drum",
+   "doll",
+   "bike",
+   "cap",
+   "book",
+   "car",
+   "boat",
+   "ball",
+   "robot",
+   "scarf",
+   "train",
+   "crown",
+   "truck",
+   "watch"
+  ],
+  "names": [
+   "Mia",
+   "Omar",
+   "Ava",
+   "Leo",
+   "Nia",
+   "Kai",
+   "Zoe",
+   "Ali",
+   "Ana",
+   "Mei",
+   "Jin",
+   "Raj",
+   "Eli",
+   "Aya",
+   "Ivy",
+   "Ben",
+   "Ravi",
+   "Kofi",
+   "Yuki",
+   "Hana",
+   "Lena",
+   "Amir",
+   "Rosa",
+   "Ming",
+   "Noor",
+   "Luca",
+   "Tara",
+   "Juan",
+   "Abdi",
+   "Femi"
+  ],
+  "fix": [
+   {
+    "text": "Omars kite is stuck in a tree.",
+    "wrong": "Omars",
+    "right": "Omar's",
+    "kind": "p"
+   },
+   {
+    "text": "Theyre at the park.",
+    "wrong": "Theyre",
+    "right": "They're",
+    "kind": "c"
+   },
+   {
+    "text": "Im seven years old.",
+    "wrong": "Im",
+    "right": "I'm",
+    "kind": "c"
+   },
+   {
+    "text": "Youre my best friend.",
+    "wrong": "Youre",
+    "right": "You're",
+    "kind": "c"
+   },
+   {
+    "text": "Ive lost my mitten.",
+    "wrong": "Ive",
+    "right": "I've",
+    "kind": "c"
+   },
+   {
+    "text": "Yukis scarf fell off.",
+    "wrong": "Yukis",
+    "right": "Yuki's",
+    "kind": "p"
+   },
+   {
+    "text": "Thats my coat.",
+    "wrong": "Thats",
+    "right": "That's",
+    "kind": "c"
+   },
+   {
+    "text": "Whats in the box?",
+    "wrong": "Whats",
+    "right": "What's",
+    "kind": "c"
+   },
+   {
+    "text": "Lenas cat is black and white.",
+    "wrong": "Lenas",
+    "right": "Lena's",
+    "kind": "p"
+   },
+   {
+    "text": "Isnt it a sunny day?",
+    "wrong": "Isnt",
+    "right": "Isn't",
+    "kind": "c"
+   },
+   {
+    "text": "Zoes puppy is fast.",
+    "wrong": "Zoes",
+    "right": "Zoe's",
+    "kind": "p"
+   },
+   {
+    "text": "I like Mias red hat.",
+    "wrong": "Mias",
+    "right": "Mia's",
+    "kind": "p"
+   },
+   {
+    "text": "We played at Ravis house.",
+    "wrong": "Ravis",
+    "right": "Ravi's",
+    "kind": "p"
+   },
+   {
+    "text": "Today we cant go outside.",
+    "wrong": "cant",
+    "right": "can't",
+    "kind": "c"
+   },
+   {
+    "text": "The bus isnt here yet.",
+    "wrong": "isnt",
+    "right": "isn't",
+    "kind": "c"
+   },
+   {
+    "text": "My mom says shes tired.",
+    "wrong": "shes",
+    "right": "she's",
+    "kind": "c"
+   },
+   {
+    "text": "I cant find my other shoe.",
+    "wrong": "cant",
+    "right": "can't",
+    "kind": "c"
+   },
+   {
+    "text": "We dont have school today.",
+    "wrong": "dont",
+    "right": "don't",
+    "kind": "c"
+   },
+   {
+    "text": "The babys bottle is warm.",
+    "wrong": "babys",
+    "right": "baby's",
+    "kind": "p"
+   },
+   {
+    "text": "We didnt see the bus.",
+    "wrong": "didnt",
+    "right": "didn't",
+    "kind": "c"
+   },
+   {
+    "text": "I think hes in my class.",
+    "wrong": "hes",
+    "right": "he's",
+    "kind": "c"
+   },
+   {
+    "text": "Can you see Kofis drum?",
+    "wrong": "Kofis",
+    "right": "Kofi's",
+    "kind": "p"
+   },
+   {
+    "text": "Mom says its time for bed.",
+    "wrong": "its",
+    "right": "it's",
+    "kind": "c"
+   }
+  ],
+  "noFix": [
+   "well",
+   "were",
+   "ill",
+   "hell",
+   "shell",
+   "wed",
+   "id",
+   "hed",
+   "shed",
+   "wont",
+   "lets",
+   "whos"
+  ]
+ }
+}

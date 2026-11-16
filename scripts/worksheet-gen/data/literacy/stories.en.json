@@ -1,5 +1,5 @@
 {
- "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk. Key `g2` (2026-11-16, DRAFT, read by no reviewer): five fables retold in about 140 words and THREE paragraphs (beginning, middle, end); `challenge` three questions with a right answer and two wrong ones (the problem, what the character does, a feeling); `links` three causes with their effects; `lesson` with the lesson of another story and a literal sentence; `shows` two events that show the lesson, `notInStory` one that the story does not tell; `retell` the beginning, the middle and the end in one sentence each; `how` a sample sentence for the key.",
+ "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk. Key `g2` (2026-11-16, DRAFT, read by no reviewer): five fables retold in about 140 words and THREE paragraphs (beginning, middle, end); `challenge` three questions with a right answer and two wrong ones (the problem, what the character does, a feeling); `links` three causes with their effects; `lesson` with the lesson of another story and a literal sentence; `shows` two events that show the lesson, `notInStory` one that the story does not tell; `retell` the beginning, the middle and the end in one sentence each; `how` a sample sentence for the key. Key `g1` (2026-11-17; types/_shared/story-g1.js): five short original stories of about 70 words in THREE parts (`parts`: beginning, middle, end; arrays of sentences). `chars` two animal characters (name, kind, library picture; the initials differ and none is N); `place` where the story takes place; `details` four questions (answer, two wrong answers, a sentence starter, the whole answer, the number of the sentence that tells it); `map` the setting and the big event to choose or write; `retell` beginning, middle and end in one sentence each and `words` the word bank; `lesson` the lesson and the lesson of another story; `feel` the two feeling words with their face, `sense` the two sense words with the part of the body and two parts that do not fit; `said` three spoken lines and who says them, `told` three sentences of the narrator; `own` and `next` questions with a sample answer.",
  "g3": [
   {
    "id": "lion-and-mouse",
@@ -1475,6 +1475,950 @@
     "Nobody dares to put the bell on the cat."
    ],
    "how": "The plan sounds good, but no mouse is brave enough to do it."
+  }
+ ],
+ "g1": [
+  {
+   "id": "plums-for-fay",
+   "title": "Plums for Fay",
+   "place": "in the park",
+   "chars": [
+    {
+     "name": "Ben",
+     "kind": "bear",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "bear"
+     }
+    },
+    {
+     "name": "Fay",
+     "kind": "fox",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "fox"
+     }
+    }
+   ],
+   "parts": [
+    [
+     "Ben the bear had a big bag of plums.",
+     "Fay the fox sat in the park.",
+     "Her tummy made a loud noise."
+    ],
+    [
+     "\"I am sad,\" said Fay.",
+     "\"I have no lunch.\"",
+     "Ben looked at his bag.",
+     "\"You can have some of my plums,\" said Ben."
+    ],
+    [
+     "The plums were sweet.",
+     "Fay ate six of them.",
+     "\"Thank you, Ben!\" said Fay.",
+     "Now Fay was glad.",
+     "Ben ate some plums too."
+    ]
+   ],
+   "details": [
+    {
+     "q": "What does Ben have?",
+     "answer": "a bag of plums",
+     "wrong": [
+      "a bag of nuts",
+      "a red kite"
+     ],
+     "starter": "Ben has",
+     "full": "Ben has a bag of plums.",
+     "sentence": 1
+    },
+    {
+     "q": "Where does Fay sit?",
+     "answer": "in the park",
+     "wrong": [
+      "on a hill",
+      "in a den"
+     ],
+     "starter": "Fay sits",
+     "full": "Fay sits in the park.",
+     "sentence": 2
+    },
+    {
+     "q": "Why is Fay sad?",
+     "answer": "She has no lunch.",
+     "wrong": [
+      "She lost her bag.",
+      "She fell down."
+     ],
+     "starter": "Fay is sad because",
+     "full": "Fay is sad because she has no lunch.",
+     "sentence": 5
+    },
+    {
+     "q": "How many plums does Fay eat?",
+     "answer": "six",
+     "wrong": [
+      "two",
+      "ten"
+     ],
+     "starter": "Fay eats",
+     "full": "Fay eats six plums.",
+     "sentence": 9
+    }
+   ],
+   "map": {
+    "where": {
+     "right": "in a park",
+     "wrong": [
+      "on a farm",
+      "in a cave"
+     ]
+    },
+    "event": {
+     "right": "Ben shares his plums with Fay.",
+     "wrong": [
+      "Fay finds a bag of plums.",
+      "Ben falls into a pond."
+     ]
+    },
+    "write": {
+     "who": "Ben and Fay",
+     "where": "in the park",
+     "event": "Ben shares his plums."
+    },
+    "sentences": [
+     "Ben the bear and Fay the fox are in the story.",
+     "The story takes place in the park.",
+     "Ben gives Fay some of his plums."
+    ]
+   },
+   "retell": [
+    "Fay has no lunch.",
+    "Ben gives Fay some plums.",
+    "Fay is glad."
+   ],
+   "words": [
+    "Fay",
+    "lunch",
+    "Ben",
+    "gives",
+    "plums",
+    "glad"
+   ],
+   "lesson": {
+    "right": "Share what you have.",
+    "lure": "Do not give up."
+   },
+   "feel": [
+    {
+     "word": "sad",
+     "face": "sad"
+    },
+    {
+     "word": "glad",
+     "face": "happy"
+    }
+   ],
+   "sense": [
+    {
+     "word": "loud",
+     "organ": "ear",
+     "wrong": [
+      "nose",
+      "hand"
+     ],
+     "q": "Which word tells how the noise sounds?"
+    },
+    {
+     "word": "sweet",
+     "organ": "mouth",
+     "wrong": [
+      "ear",
+      "eye"
+     ],
+     "q": "Which word tells how the plums taste?"
+    }
+   ],
+   "own": {
+    "q": "How does Ben feel when Fay says she has no lunch?",
+    "sample": "Ben feels sorry for Fay because she is hungry."
+   },
+   "said": [
+    {
+     "words": "I have no lunch.",
+     "who": "Fay"
+    },
+    {
+     "words": "You can have some of my plums.",
+     "who": "Ben"
+    },
+    {
+     "words": "Thank you, Ben!",
+     "who": "Fay"
+    }
+   ],
+   "told": [
+    "Ben looked at his bag.",
+    "The plums were sweet.",
+    "Fay ate six of them."
+   ],
+   "next": {
+    "who": "Ben",
+    "sample": "You are welcome, Fay!"
+   }
+  },
+  {
+   "id": "pip-is-lost",
+   "title": "Pip Is Lost",
+   "place": "in the woods",
+   "chars": [
+    {
+     "name": "Pip",
+     "kind": "mouse",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "mouse"
+     }
+    },
+    {
+     "name": "Ola",
+     "kind": "owl",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "owl"
+     }
+    }
+   ],
+   "parts": [
+    [
+     "Pip the mouse was lost in the woods.",
+     "It was dark and quiet.",
+     "Pip was scared."
+    ],
+    [
+     "\"Who can help me?\" said Pip.",
+     "Ola the owl sat in a tree.",
+     "\"I can see at night,\" said Ola.",
+     "\"Come with me.\""
+    ],
+    [
+     "Ola flew slowly, and Pip ran after her.",
+     "Soon Pip saw his home.",
+     "\"You are a good friend!\" said Pip.",
+     "Pip was happy to be home."
+    ]
+   ],
+   "details": [
+    {
+     "q": "Where is Pip lost?",
+     "answer": "in the woods",
+     "wrong": [
+      "at the pond",
+      "on a farm"
+     ],
+     "starter": "Pip is lost",
+     "full": "Pip is lost in the woods.",
+     "sentence": 1
+    },
+    {
+     "q": "Where does Ola sit?",
+     "answer": "in a tree",
+     "wrong": [
+      "on a rock",
+      "in a den"
+     ],
+     "starter": "Ola sits",
+     "full": "Ola sits in a tree.",
+     "sentence": 5
+    },
+    {
+     "q": "What does Ola say she can do at night?",
+     "answer": "She can see.",
+     "wrong": [
+      "She can sing.",
+      "She can dig."
+     ],
+     "starter": "Ola says she can",
+     "full": "Ola says she can see at night.",
+     "sentence": 6
+    },
+    {
+     "q": "What does Pip see at the end?",
+     "answer": "his home",
+     "wrong": [
+      "a big cat",
+      "the moon"
+     ],
+     "starter": "Pip sees",
+     "full": "Pip sees his home.",
+     "sentence": 9
+    }
+   ],
+   "map": {
+    "where": {
+     "right": "in the woods",
+     "wrong": [
+      "at a pond",
+      "in a kitchen"
+     ]
+    },
+    "event": {
+     "right": "Ola helps Pip find his home.",
+     "wrong": [
+      "Pip helps Ola find a tree.",
+      "Ola falls out of the tree."
+     ]
+    },
+    "write": {
+     "who": "Pip and Ola",
+     "where": "in the woods",
+     "event": "Ola helps Pip get home."
+    },
+    "sentences": [
+     "Pip the mouse and Ola the owl are in the story.",
+     "The story takes place in the woods at night.",
+     "Ola shows Pip the way home."
+    ]
+   },
+   "retell": [
+    "Pip is lost in the woods.",
+    "Ola shows Pip the way.",
+    "Pip is happy at home."
+   ],
+   "words": [
+    "Pip",
+    "lost",
+    "woods",
+    "Ola",
+    "way",
+    "home"
+   ],
+   "lesson": {
+    "right": "Ask for help when you need it.",
+    "lure": "Tell the truth."
+   },
+   "feel": [
+    {
+     "word": "scared",
+     "face": "scared"
+    },
+    {
+     "word": "happy",
+     "face": "happy"
+    }
+   ],
+   "sense": [
+    {
+     "word": "dark",
+     "organ": "eye",
+     "wrong": [
+      "ear",
+      "nose"
+     ],
+     "q": "Which word tells how the woods look?"
+    },
+    {
+     "word": "quiet",
+     "organ": "ear",
+     "wrong": [
+      "nose",
+      "hand"
+     ],
+     "q": "Which word tells how the woods sound?"
+    }
+   ],
+   "own": {
+    "q": "How does Ola feel when Pip is home again?",
+    "sample": "Ola feels glad because she helped Pip."
+   },
+   "said": [
+    {
+     "words": "Who can help me?",
+     "who": "Pip"
+    },
+    {
+     "words": "I can see at night.",
+     "who": "Ola"
+    },
+    {
+     "words": "You are a good friend!",
+     "who": "Pip"
+    }
+   ],
+   "told": [
+    "Pip the mouse was lost in the woods.",
+    "Pip was scared.",
+    "Soon Pip saw his home."
+   ],
+   "next": {
+    "who": "Ola",
+    "sample": "I am glad I could help you."
+   }
+  },
+  {
+   "id": "hop-finn-hop",
+   "title": "Hop, Finn, Hop!",
+   "place": "at the pond",
+   "chars": [
+    {
+     "name": "Finn",
+     "kind": "frog",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "frog"
+     }
+    },
+    {
+     "name": "Dot",
+     "kind": "duck",
+     "picture": {
+      "theme": "farm animals",
+      "noun": "duck"
+     }
+    }
+   ],
+   "parts": [
+    [
+     "Finn the frog wanted to hop onto a big brown log.",
+     "He hopped, but he fell into the pond.",
+     "It made a loud splash."
+    ],
+    [
+     "Finn was mad.",
+     "\"I cannot do it!\" said Finn.",
+     "Dot the duck swam by.",
+     "\"Try one more time,\" said Dot."
+    ],
+    [
+     "Finn hopped again and again.",
+     "At last he landed on the log.",
+     "\"I did it!\" said Finn.",
+     "Now Finn was glad."
+    ]
+   ],
+   "details": [
+    {
+     "q": "What does Finn want to hop onto?",
+     "answer": "a log",
+     "wrong": [
+      "a rock",
+      "a boat"
+     ],
+     "starter": "Finn wants to hop onto",
+     "full": "Finn wants to hop onto a log.",
+     "sentence": 1
+    },
+    {
+     "q": "Where does Finn fall?",
+     "answer": "into the pond",
+     "wrong": [
+      "into the mud",
+      "onto the grass"
+     ],
+     "starter": "Finn falls",
+     "full": "Finn falls into the pond.",
+     "sentence": 2
+    },
+    {
+     "q": "What does Dot tell Finn?",
+     "answer": "to try one more time",
+     "wrong": [
+      "to go home",
+      "to swim away"
+     ],
+     "starter": "Dot tells Finn",
+     "full": "Dot tells Finn to try one more time.",
+     "sentence": 7
+    },
+    {
+     "q": "Where does Finn land at last?",
+     "answer": "on the log",
+     "wrong": [
+      "on a rock",
+      "in the mud"
+     ],
+     "starter": "At last Finn lands",
+     "full": "At last Finn lands on the log.",
+     "sentence": 9
+    }
+   ],
+   "map": {
+    "where": {
+     "right": "at a pond",
+     "wrong": [
+      "in a park",
+      "in a kitchen"
+     ]
+    },
+    "event": {
+     "right": "Finn keeps trying and lands on the log.",
+     "wrong": [
+      "Dot teaches Finn to swim.",
+      "Finn finds a new home."
+     ]
+    },
+    "write": {
+     "who": "Finn and Dot",
+     "where": "at the pond",
+     "event": "Finn hops onto the log."
+    },
+    "sentences": [
+     "Finn the frog and Dot the duck are in the story.",
+     "The story takes place at a pond.",
+     "Finn tries again and lands on the log."
+    ]
+   },
+   "retell": [
+    "Finn falls into the pond.",
+    "Dot tells Finn to try again.",
+    "Finn lands on the log."
+   ],
+   "words": [
+    "Finn",
+    "falls",
+    "pond",
+    "Dot",
+    "try",
+    "log"
+   ],
+   "lesson": {
+    "right": "Do not give up.",
+    "lure": "Share what you have."
+   },
+   "feel": [
+    {
+     "word": "mad",
+     "face": "angry"
+    },
+    {
+     "word": "glad",
+     "face": "happy"
+    }
+   ],
+   "sense": [
+    {
+     "word": "brown",
+     "organ": "eye",
+     "wrong": [
+      "ear",
+      "nose"
+     ],
+     "q": "Which word tells the color of the log?"
+    },
+    {
+     "word": "loud",
+     "organ": "ear",
+     "wrong": [
+      "nose",
+      "hand"
+     ],
+     "q": "Which word tells how the splash sounds?"
+    }
+   ],
+   "own": {
+    "q": "How does Dot feel when Finn lands on the log?",
+    "sample": "Dot feels happy because her friend did it."
+   },
+   "said": [
+    {
+     "words": "I cannot do it!",
+     "who": "Finn"
+    },
+    {
+     "words": "Try one more time.",
+     "who": "Dot"
+    },
+    {
+     "words": "I did it!",
+     "who": "Finn"
+    }
+   ],
+   "told": [
+    "Finn hopped again and again.",
+    "At last he landed on the log.",
+    "Now Finn was glad."
+   ],
+   "next": {
+    "who": "Dot",
+    "sample": "Good job, Finn!"
+   }
+  },
+  {
+   "id": "who-ate-the-cake",
+   "title": "Who Ate the Cake?",
+   "place": "in the kitchen",
+   "chars": [
+    {
+     "name": "Rex",
+     "kind": "dog",
+     "picture": {
+      "theme": "pets",
+      "noun": "dog"
+     }
+    },
+    {
+     "name": "Kit",
+     "kind": "cat",
+     "picture": {
+      "theme": "pets",
+      "noun": "cat"
+     }
+    }
+   ],
+   "parts": [
+    [
+     "Rex the dog made a cake in his kitchen.",
+     "It had pink jam on top.",
+     "The cake was still warm.",
+     "Rex went out to get milk."
+    ],
+    [
+     "Kit the cat came in and ate the cake.",
+     "Then Rex came back.",
+     "\"Where is my cake?\" said Rex.",
+     "Rex was sad."
+    ],
+    [
+     "Kit had jam on her chin.",
+     "\"I ate it, and that was wrong,\" said Kit.",
+     "\"I will help you make a new one.\"",
+     "Rex was happy that Kit told the truth."
+    ]
+   ],
+   "details": [
+    {
+     "q": "Where does Rex make the cake?",
+     "answer": "in his kitchen",
+     "wrong": [
+      "in the yard",
+      "at a store"
+     ],
+     "starter": "Rex makes the cake",
+     "full": "Rex makes the cake in his kitchen.",
+     "sentence": 1
+    },
+    {
+     "q": "Why does Rex go out?",
+     "answer": "to get milk",
+     "wrong": [
+      "to get eggs",
+      "to play ball"
+     ],
+     "starter": "Rex goes out",
+     "full": "Rex goes out to get milk.",
+     "sentence": 4
+    },
+    {
+     "q": "What does Kit do when she comes in?",
+     "answer": "She eats the cake.",
+     "wrong": [
+      "She gets the milk.",
+      "She takes a nap."
+     ],
+     "starter": "When Kit comes in, she",
+     "full": "When Kit comes in, she eats the cake.",
+     "sentence": 5
+    },
+    {
+     "q": "What does Kit have on her chin?",
+     "answer": "jam",
+     "wrong": [
+      "milk",
+      "mud"
+     ],
+     "starter": "Kit has",
+     "full": "Kit has jam on her chin.",
+     "sentence": 9
+    }
+   ],
+   "map": {
+    "where": {
+     "right": "in a kitchen",
+     "wrong": [
+      "in the woods",
+      "at a pond"
+     ]
+    },
+    "event": {
+     "right": "Kit eats the cake and tells the truth.",
+     "wrong": [
+      "Rex eats the cake and hides.",
+      "Kit spills milk on the cake."
+     ]
+    },
+    "write": {
+     "who": "Rex and Kit",
+     "where": "in the kitchen",
+     "event": "Kit eats the cake."
+    },
+    "sentences": [
+     "Rex the dog and Kit the cat are in the story.",
+     "The story takes place in the kitchen.",
+     "Kit eats the cake and then tells Rex the truth."
+    ]
+   },
+   "retell": [
+    "Rex makes a cake.",
+    "Kit eats the cake.",
+    "Kit tells the truth."
+   ],
+   "words": [
+    "Rex",
+    "makes",
+    "cake",
+    "Kit",
+    "eats",
+    "truth"
+   ],
+   "lesson": {
+    "right": "Tell the truth.",
+    "lure": "Do not give up."
+   },
+   "feel": [
+    {
+     "word": "sad",
+     "face": "sad"
+    },
+    {
+     "word": "happy",
+     "face": "happy"
+    }
+   ],
+   "sense": [
+    {
+     "word": "pink",
+     "organ": "eye",
+     "wrong": [
+      "ear",
+      "nose"
+     ],
+     "q": "Which word tells the color of the jam?"
+    },
+    {
+     "word": "warm",
+     "organ": "hand",
+     "wrong": [
+      "ear",
+      "nose"
+     ],
+     "q": "Which word tells how the cake feels when you touch it?"
+    }
+   ],
+   "own": {
+    "q": "How does Kit feel when Rex asks about his cake?",
+    "sample": "Kit feels bad because she ate the cake."
+   },
+   "said": [
+    {
+     "words": "Where is my cake?",
+     "who": "Rex"
+    },
+    {
+     "words": "I ate it, and that was wrong.",
+     "who": "Kit"
+    },
+    {
+     "words": "I will help you make a new one.",
+     "who": "Kit"
+    }
+   ],
+   "told": [
+    "The cake was still warm.",
+    "Then Rex came back.",
+    "Kit had jam on her chin."
+   ],
+   "next": {
+    "who": "Rex",
+    "sample": "Thank you for telling me, Kit."
+   }
+  },
+  {
+   "id": "the-big-apple",
+   "title": "The Big Apple",
+   "place": "by a hill",
+   "chars": [
+    {
+     "name": "Sam",
+     "kind": "squirrel",
+     "picture": {
+      "theme": "camping",
+      "noun": "squirrel"
+     }
+    },
+    {
+     "name": "Bess",
+     "kind": "rabbit",
+     "picture": {
+      "theme": "forest creatures",
+      "noun": "rabbit"
+     }
+    }
+   ],
+   "parts": [
+    [
+     "Sam the squirrel found a big red apple by a hill.",
+     "He wanted to take it home up the hill.",
+     "Sam pushed and pushed, but the apple did not move."
+    ],
+    [
+     "Sam was mad.",
+     "\"This is too hard for me!\" said Sam.",
+     "Bess the rabbit hopped by.",
+     "\"Let's push it together,\" said Bess."
+    ],
+    [
+     "They pushed, and the apple rolled up the hill.",
+     "\"We did it!\" said Sam.",
+     "Sam was happy.",
+     "They sat in the soft grass and ate the apple."
+    ]
+   ],
+   "details": [
+    {
+     "q": "What does Sam find?",
+     "answer": "a big red apple",
+     "wrong": [
+      "a big brown nut",
+      "a little green pear"
+     ],
+     "starter": "Sam finds",
+     "full": "Sam finds a big red apple.",
+     "sentence": 1
+    },
+    {
+     "q": "Where does Sam want to take the apple?",
+     "answer": "up the hill",
+     "wrong": [
+      "into the pond",
+      "down to the farm"
+     ],
+     "starter": "Sam wants to take the apple",
+     "full": "Sam wants to take the apple home up the hill.",
+     "sentence": 2
+    },
+    {
+     "q": "What does Bess say they can do?",
+     "answer": "push it together",
+     "wrong": [
+      "cut it in two",
+      "leave it there"
+     ],
+     "starter": "Bess says they can",
+     "full": "Bess says they can push it together.",
+     "sentence": 7
+    },
+    {
+     "q": "Where do the friends sit at the end?",
+     "answer": "in the grass",
+     "wrong": [
+      "on a log",
+      "by the pond"
+     ],
+     "starter": "The friends sit",
+     "full": "The friends sit in the grass.",
+     "sentence": 11
+    }
+   ],
+   "map": {
+    "where": {
+     "right": "by a hill",
+     "wrong": [
+      "in a kitchen",
+      "at a pond"
+     ]
+    },
+    "event": {
+     "right": "Sam and Bess push the apple up the hill.",
+     "wrong": [
+      "Sam eats the apple alone.",
+      "Bess takes the apple from Sam."
+     ]
+    },
+    "write": {
+     "who": "Sam and Bess",
+     "where": "by a hill",
+     "event": "They push the apple together."
+    },
+    "sentences": [
+     "Sam the squirrel and Bess the rabbit are in the story.",
+     "The story takes place by a hill.",
+     "Sam and Bess push the apple up the hill together."
+    ]
+   },
+   "retell": [
+    "Sam cannot move the apple.",
+    "Bess helps Sam push.",
+    "The apple rolls up the hill."
+   ],
+   "words": [
+    "Sam",
+    "move",
+    "apple",
+    "Bess",
+    "push",
+    "hill"
+   ],
+   "lesson": {
+    "right": "Work together.",
+    "lure": "Tell the truth."
+   },
+   "feel": [
+    {
+     "word": "mad",
+     "face": "angry"
+    },
+    {
+     "word": "happy",
+     "face": "happy"
+    }
+   ],
+   "sense": [
+    {
+     "word": "red",
+     "organ": "eye",
+     "wrong": [
+      "ear",
+      "nose"
+     ],
+     "q": "Which word tells the color of the apple?"
+    },
+    {
+     "word": "soft",
+     "organ": "hand",
+     "wrong": [
+      "nose",
+      "mouth"
+     ],
+     "q": "Which word tells how the grass feels when you touch it?"
+    }
+   ],
+   "own": {
+    "q": "How does Bess feel when the apple rolls up the hill?",
+    "sample": "Bess feels glad because they did it together."
+   },
+   "said": [
+    {
+     "words": "This is too hard for me!",
+     "who": "Sam"
+    },
+    {
+     "words": "Let's push it together.",
+     "who": "Bess"
+    },
+    {
+     "words": "We did it!",
+     "who": "Sam"
+    }
+   ],
+   "told": [
+    "Sam the squirrel found a big red apple by a hill.",
+    "They pushed, and the apple rolled up the hill.",
+    "Sam was happy."
+   ],
+   "next": {
+    "who": "Bess",
+    "sample": "That was fun, Sam!"
+   }
   }
  ]
 }

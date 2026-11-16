@@ -5221,5 +5221,25 @@
   "G2-529": {
     "title": "Beginning, Middle, and End",
     "instruction": "Read the story. Then retell it: write what happens at the beginning, in the middle, and at the end."
+  },
+  "G1-579": {
+    "title": "Find the Answer in the Story",
+    "instruction": "Read the story. Then finish the answer to each question."
+  },
+  "G1-580": {
+    "title": "Characters, Setting, and Events",
+    "instruction": "Read the story. Write who is in it, where it takes place, and what happens."
+  },
+  "G1-581": {
+    "title": "Retell the Story and Tell Its Lesson",
+    "instruction": "Read the story. Write what happens at the beginning, in the middle, and at the end. Use the word bank. Then circle the lesson."
+  },
+  "G1-582": {
+    "title": "Feeling Words and Sense Words",
+    "instruction": "Read the story. Underline the two feeling words and write them. Then answer the questions about sense words."
+  },
+  "G1-583": {
+    "title": "Who Is Telling the Story?",
+    "instruction": "Read the story. Who says or tells each sentence? Write the letter in the box."
   }
 }

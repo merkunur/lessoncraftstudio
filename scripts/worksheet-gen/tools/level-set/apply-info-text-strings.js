@@ -200,6 +200,36 @@ const TEXT = {
     2: "Read the story. Then retell it: write what happens at the beginning, in the middle, and at the end.",
     3: "Read the story. Retell it: write the beginning, the middle, and the end. Then write the lesson of the story.",
   },
+  'G1-579': {
+    title: "Find the Answer in the Story",
+    1: "Read the story. Then circle the answer to each question.",
+    2: "Read the story. Then finish the answer to each question.",
+    3: "Read the story. Write the answer to each question in a sentence. Then underline the sentence in the story that tells you the answer.",
+  },
+  'G1-580': {
+    title: "Characters, Setting, and Events",
+    1: "Read the story. Circle the two characters. Then circle where the story takes place and what happens.",
+    2: "Read the story. Write who is in it, where it takes place, and what happens.",
+    3: "Read the story. Write one sentence about the characters, one about the setting, and one about the big event.",
+  },
+  'G1-581': {
+    title: "Retell the Story and Tell Its Lesson",
+    1: "Read the story. Put the three sentences in order. Then circle the lesson of the story.",
+    2: "Read the story. Write what happens at the beginning, in the middle, and at the end. Use the word bank. Then circle the lesson.",
+    3: "Read the story. Retell it in your own words: the beginning, the middle, and the end. Then write its lesson.",
+  },
+  'G1-582': {
+    title: "Feeling Words and Sense Words",
+    1: "Read the story. Find the words from the box and underline them. Then circle the picture that goes with each word.",
+    2: "Read the story. Underline the two feeling words and write them. Then answer the questions about sense words.",
+    3: "Read the story. Underline and write the two feeling words. Answer the questions about sense words. Then tell how a character feels and why.",
+  },
+  'G1-583': {
+    title: "Who Is Telling the Story?",
+    1: "Read the story. Who says or tells each sentence? Circle the narrator or the character.",
+    2: "Read the story. Who says or tells each sentence? Write the letter in the box.",
+    3: "Read the story. Write the letter of who says or tells each sentence. Then write what a character could say next.",
+  },
 };
 
 function edit(file, fn) {

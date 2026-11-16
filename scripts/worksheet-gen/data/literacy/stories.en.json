@@ -1,5 +1,5 @@
 {
- "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk. Key `g2` (2026-11-16, DRAFT, read by no reviewer): five fables retold in about 140 words and THREE paragraphs (beginning, middle, end); `challenge` three questions with a right answer and two wrong ones (the problem, what the character does, a feeling); `links` three causes with their effects; `lesson` with the lesson of another story and a literal sentence; `shows` two events that show the lesson, `notInStory` one that the story does not tell; `retell` the beginning, the middle and the end in one sentence each; `how` a sample sentence for the key. Key `g1` (2026-11-17; types/_shared/story-g1.js): five short original stories of about 70 words in THREE parts (`parts`: beginning, middle, end; arrays of sentences). `chars` two animal characters (name, kind, library picture; the initials differ and none is N); `place` where the story takes place; `details` four questions (answer, two wrong answers, a sentence starter, the whole answer, the number of the sentence that tells it); `map` the setting and the big event to choose or write; `retell` beginning, middle and end in one sentence each and `words` the word bank; `lesson` the lesson and the lesson of another story; `feel` the two feeling words with their face, `sense` the two sense words with the part of the body and two parts that do not fit; `said` three spoken lines and who says them, `told` three sentences of the narrator; `own` and `next` questions with a sample answer.",
+ "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk. Key `g2` (2026-11-16, DRAFT, read by no reviewer): five fables retold in about 140 words and THREE paragraphs (beginning, middle, end); `challenge` three questions with a right answer and two wrong ones (the problem, what the character does, a feeling); `links` three causes with their effects; `lesson` with the lesson of another story and a literal sentence; `shows` two events that show the lesson, `notInStory` one that the story does not tell; `retell` the beginning, the middle and the end in one sentence each; `how` a sample sentence for the key. Key `g1` (2026-11-17; types/_shared/story-g1.js): five short original stories of about 70 words in THREE parts (`parts`: beginning, middle, end; arrays of sentences). `chars` two animal characters (name, kind, library picture; the initials differ and none is N); `place` where the story takes place; `details` four questions (answer, two wrong answers, a sentence starter, the whole answer, the number of the sentence that tells it); `map` the setting and the big event to choose or write; `retell` beginning, middle and end in one sentence each and `words` the word bank; `lesson` the lesson and the lesson of another story; `feel` the two feeling words with their face, `sense` the two sense words with the part of the body and two parts that do not fit; `said` three spoken lines and who says them, `told` three sentences of the narrator; `own` and `next` questions with a sample answer. Key `k` (2026-11-17; types/_shared/story-k.js): five read-aloud stories for Kindergarten in FOUR picture panels (`panels`: two library pictures and one or two short sentences each; the teacher reads). `hero` the character the story is about, `whoWrong` two animals that are not in the story; `place` where it happens (a word, its picture, two places that are wrong); `bme` the three panels that stand for beginning, middle and end, `frames` what the child may write after First, Then, At the end; `labels` one word each for who, where, what; `easy` three who and where questions and `hard` three what and how questions, each with a right picture and two wrong ones.",
  "g3": [
   {
    "id": "lion-and-mouse",
@@ -2419,6 +2419,1073 @@
     "who": "Bess",
     "sample": "That was fun, Sam!"
    }
+  }
+ ],
+ "k": [
+  {
+   "id": "ducks-new-hat",
+   "title": "Duck's New Hat",
+   "hero": {
+    "name": "Duck",
+    "picture": {
+     "theme": "farm animals",
+     "noun": "duck"
+    }
+   },
+   "whoWrong": [
+    {
+     "theme": "farm animals",
+     "noun": "pig"
+    },
+    {
+     "theme": "pets",
+     "noun": "cat"
+    }
+   ],
+   "place": {
+    "word": "lake",
+    "picture": {
+     "theme": "camping",
+     "noun": "lake"
+    },
+    "wrong": [
+     {
+      "theme": "spring",
+      "noun": "garden"
+     },
+     {
+      "theme": "miscellaneous",
+      "noun": "house"
+     }
+    ]
+   },
+   "panels": [
+    {
+     "pics": [
+      {
+       "theme": "farm animals",
+       "noun": "duck"
+      },
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      }
+     ],
+     "text": "Duck has a new blue hat. She wears it on a walk."
+    },
+    {
+     "pics": [
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      },
+      {
+       "theme": "camping",
+       "noun": "lake"
+      }
+     ],
+     "text": "Oh no! The wind blows her hat into the lake. It sinks! She is so sad."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "frog"
+      },
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      }
+     ],
+     "text": "Frog dives in with a splash. He gets the hat."
+    },
+    {
+     "pics": [
+      {
+       "theme": "farm animals",
+       "noun": "duck"
+      },
+      {
+       "theme": "spring",
+       "noun": "flower"
+      }
+     ],
+     "text": "Duck gives Frog a flower to say thank you."
+    }
+   ],
+   "bme": [
+    1,
+    2,
+    3
+   ],
+   "frames": [
+    "the wind blows Duck's hat into the lake",
+    "Frog gets the hat",
+    "Duck gives Frog a flower"
+   ],
+   "labels": {
+    "who": "Duck",
+    "where": "lake",
+    "what": "hat"
+   },
+   "easy": [
+    {
+     "q": "Who has a new hat?",
+     "right": {
+      "theme": "farm animals",
+      "noun": "duck"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "pig"
+      },
+      {
+       "theme": "pets",
+       "noun": "cat"
+      }
+     ]
+    },
+    {
+     "q": "Where does the wind blow the hat?",
+     "right": {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      },
+      {
+       "theme": "spring",
+       "noun": "garden"
+      }
+     ]
+    },
+    {
+     "q": "Who gets the hat?",
+     "right": {
+      "theme": "forest creatures",
+      "noun": "frog"
+     },
+     "wrong": [
+      {
+       "theme": "forest creatures",
+       "noun": "bear"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "mouse"
+      }
+     ]
+    }
+   ],
+   "hard": [
+    {
+     "q": "What does the wind blow away?",
+     "right": {
+      "theme": "accessories",
+      "noun": "hat"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "kite"
+      },
+      {
+       "theme": "weather",
+       "noun": "umbrella"
+      }
+     ]
+    },
+    {
+     "q": "What does Duck give Frog?",
+     "right": {
+      "theme": "spring",
+      "noun": "flower"
+     },
+     "wrong": [
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "honey"
+      }
+     ]
+    },
+    {
+     "q": "How does Duck feel when the hat is in the lake?",
+     "right": {
+      "theme": "emotions",
+      "noun": "sad"
+     },
+     "wrong": [
+      {
+       "theme": "emotions",
+       "noun": "happy"
+      },
+      {
+       "theme": "emotions",
+       "noun": "tired"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-big-carrot",
+   "title": "The Big Carrot",
+   "hero": {
+    "name": "Rabbit",
+    "picture": {
+     "theme": "forest creatures",
+     "noun": "rabbit"
+    }
+   },
+   "whoWrong": [
+    {
+     "theme": "farm animals",
+     "noun": "duck"
+    },
+    {
+     "theme": "forest creatures",
+     "noun": "bear"
+    }
+   ],
+   "place": {
+    "word": "garden",
+    "picture": {
+     "theme": "spring",
+     "noun": "garden"
+    },
+    "wrong": [
+     {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     {
+      "theme": "miscellaneous",
+      "noun": "house"
+     }
+    ]
+   },
+   "panels": [
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      },
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      }
+     ],
+     "text": "Rabbit finds a big carrot in her garden. She pulls and pulls."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      },
+      {
+       "theme": "spring",
+       "noun": "shovel"
+      }
+     ],
+     "text": "But it is stuck! Rabbit is mad. She gets her shovel."
+    },
+    {
+     "pics": [
+      {
+       "theme": "farm animals",
+       "noun": "hen"
+      },
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      }
+     ],
+     "text": "Hen comes to help. Hen pulls the carrot, too."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "hen"
+      }
+     ],
+     "text": "Pop! Out it comes! Rabbit and Hen have a big lunch."
+    }
+   ],
+   "bme": [
+    0,
+    2,
+    3
+   ],
+   "frames": [
+    "Rabbit finds a big carrot",
+    "Hen helps her pull",
+    "they eat the carrot"
+   ],
+   "labels": {
+    "who": "Rabbit",
+    "where": "garden",
+    "what": "carrot"
+   },
+   "easy": [
+    {
+     "q": "Who finds a carrot?",
+     "right": {
+      "theme": "forest creatures",
+      "noun": "rabbit"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "duck"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "bear"
+      }
+     ]
+    },
+    {
+     "q": "Where does Rabbit find the carrot?",
+     "right": {
+      "theme": "spring",
+      "noun": "garden"
+     },
+     "wrong": [
+      {
+       "theme": "camping",
+       "noun": "lake"
+      },
+      {
+       "theme": "camping",
+       "noun": "forest"
+      }
+     ]
+    },
+    {
+     "q": "Who comes to help?",
+     "right": {
+      "theme": "farm animals",
+      "noun": "hen"
+     },
+     "wrong": [
+      {
+       "theme": "forest creatures",
+       "noun": "owl"
+      },
+      {
+       "theme": "pets",
+       "noun": "dog"
+      }
+     ]
+    }
+   ],
+   "hard": [
+    {
+     "q": "What is stuck?",
+     "right": {
+      "theme": "vegetables",
+      "noun": "carrot"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "ball"
+      },
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      }
+     ]
+    },
+    {
+     "q": "What does Rabbit get when the carrot is stuck?",
+     "right": {
+      "theme": "spring",
+      "noun": "shovel"
+     },
+     "wrong": [
+      {
+       "theme": "weather",
+       "noun": "umbrella"
+      },
+      {
+       "theme": "around the house",
+       "noun": "pillow"
+      }
+     ]
+    },
+    {
+     "q": "How does Rabbit feel when the carrot is stuck?",
+     "right": {
+      "theme": "emotions",
+      "noun": "angry"
+     },
+     "wrong": [
+      {
+       "theme": "emotions",
+       "noun": "happy"
+      },
+      {
+       "theme": "emotions",
+       "noun": "scared"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat-wants-a-nap",
+   "title": "Cat Wants a Nap",
+   "hero": {
+    "name": "Cat",
+    "picture": {
+     "theme": "pets",
+     "noun": "cat"
+    }
+   },
+   "whoWrong": [
+    {
+     "theme": "farm animals",
+     "noun": "pig"
+    },
+    {
+     "theme": "farm animals",
+     "noun": "hen"
+    }
+   ],
+   "place": {
+    "word": "house",
+    "picture": {
+     "theme": "miscellaneous",
+     "noun": "house"
+    },
+    "wrong": [
+     {
+      "theme": "camping",
+      "noun": "lake"
+     },
+     {
+      "theme": "camping",
+      "noun": "forest"
+     }
+    ]
+   },
+   "panels": [
+    {
+     "pics": [
+      {
+       "theme": "pets",
+       "noun": "cat"
+      },
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      }
+     ],
+     "text": "Cat is sleepy. She gets on the bed for a nap."
+    },
+    {
+     "pics": [
+      {
+       "theme": "pets",
+       "noun": "dog"
+      },
+      {
+       "theme": "toys",
+       "noun": "ball"
+      }
+     ],
+     "text": "Bump! Bump! Dog plays with his ball in the house."
+    },
+    {
+     "pics": [
+      {
+       "theme": "pets",
+       "noun": "dog"
+      },
+      {
+       "theme": "around the house",
+       "noun": "door"
+      }
+     ],
+     "text": "Cat asks Dog to play outside. Dog runs out the door."
+    },
+    {
+     "pics": [
+      {
+       "theme": "pets",
+       "noun": "cat"
+      },
+      {
+       "theme": "around the house",
+       "noun": "pillow"
+      }
+     ],
+     "text": "Now the house is quiet. Cat sleeps on her soft pillow."
+    }
+   ],
+   "bme": [
+    0,
+    1,
+    3
+   ],
+   "frames": [
+    "Cat wants a nap",
+    "Dog plays with his ball",
+    "Cat sleeps on her pillow"
+   ],
+   "labels": {
+    "who": "Cat",
+    "where": "house",
+    "what": "ball"
+   },
+   "easy": [
+    {
+     "q": "Who is sleepy?",
+     "right": {
+      "theme": "pets",
+      "noun": "cat"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "pig"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "hen"
+      }
+     ]
+    },
+    {
+     "q": "Where does Cat want to nap?",
+     "right": {
+      "theme": "around the house",
+      "noun": "bed"
+     },
+     "wrong": [
+      {
+       "theme": "camping",
+       "noun": "tent"
+      },
+      {
+       "theme": "camping",
+       "noun": "lake"
+      }
+     ]
+    },
+    {
+     "q": "Who plays with a ball?",
+     "right": {
+      "theme": "pets",
+      "noun": "dog"
+     },
+     "wrong": [
+      {
+       "theme": "forest creatures",
+       "noun": "frog"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      }
+     ]
+    }
+   ],
+   "hard": [
+    {
+     "q": "What does Dog play with?",
+     "right": {
+      "theme": "toys",
+      "noun": "ball"
+     },
+     "wrong": [
+      {
+       "theme": "toys",
+       "noun": "kite"
+      },
+      {
+       "theme": "spring",
+       "noun": "shovel"
+      }
+     ]
+    },
+    {
+     "q": "What does Cat sleep on at the end?",
+     "right": {
+      "theme": "around the house",
+      "noun": "pillow"
+     },
+     "wrong": [
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      },
+      {
+       "theme": "spring",
+       "noun": "flower"
+      }
+     ]
+    },
+    {
+     "q": "How does Cat feel at the start?",
+     "right": {
+      "theme": "emotions",
+      "noun": "tired"
+     },
+     "wrong": [
+      {
+       "theme": "emotions",
+       "noun": "angry"
+      },
+      {
+       "theme": "emotions",
+       "noun": "scared"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bear-and-the-bee",
+   "title": "Bear and the Bee",
+   "hero": {
+    "name": "Bear",
+    "picture": {
+     "theme": "forest creatures",
+     "noun": "bear"
+    }
+   },
+   "whoWrong": [
+    {
+     "theme": "pets",
+     "noun": "cat"
+    },
+    {
+     "theme": "farm animals",
+     "noun": "duck"
+    }
+   ],
+   "place": {
+    "word": "forest",
+    "picture": {
+     "theme": "camping",
+     "noun": "forest"
+    },
+    "wrong": [
+     {
+      "theme": "miscellaneous",
+      "noun": "house"
+     },
+     {
+      "theme": "camping",
+      "noun": "lake"
+     }
+    ]
+   },
+   "panels": [
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "bear"
+      },
+      {
+       "theme": "camping",
+       "noun": "forest"
+      }
+     ],
+     "text": "Bear walks in the forest. He is very hungry."
+    },
+    {
+     "pics": [
+      {
+       "theme": "insects and bugs",
+       "noun": "bee"
+      },
+      {
+       "theme": "spring",
+       "noun": "flower"
+      }
+     ],
+     "text": "He sees a little bee on a flower."
+    },
+    {
+     "pics": [
+      {
+       "theme": "insects and bugs",
+       "noun": "bee"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "honey"
+      }
+     ],
+     "text": "The bee is kind. She shares her honey with him."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "bear"
+      },
+      {
+       "theme": "breakfast",
+       "noun": "honey"
+      }
+     ],
+     "text": "Bear eats the sweet honey. Now Bear is happy."
+    }
+   ],
+   "bme": [
+    0,
+    2,
+    3
+   ],
+   "frames": [
+    "Bear is hungry",
+    "the bee shares her honey with Bear",
+    "Bear eats the honey"
+   ],
+   "labels": {
+    "who": "Bear",
+    "where": "forest",
+    "what": "honey"
+   },
+   "easy": [
+    {
+     "q": "Who is hungry?",
+     "right": {
+      "theme": "forest creatures",
+      "noun": "bear"
+     },
+     "wrong": [
+      {
+       "theme": "pets",
+       "noun": "cat"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "duck"
+      }
+     ]
+    },
+    {
+     "q": "Where does Bear walk?",
+     "right": {
+      "theme": "camping",
+      "noun": "forest"
+     },
+     "wrong": [
+      {
+       "theme": "miscellaneous",
+       "noun": "house"
+      },
+      {
+       "theme": "camping",
+       "noun": "lake"
+      }
+     ]
+    },
+    {
+     "q": "Who shares her honey?",
+     "right": {
+      "theme": "insects and bugs",
+      "noun": "bee"
+     },
+     "wrong": [
+      {
+       "theme": "forest creatures",
+       "noun": "frog"
+      },
+      {
+       "theme": "farm animals",
+       "noun": "hen"
+      }
+     ]
+    }
+   ],
+   "hard": [
+    {
+     "q": "What does Bear eat?",
+     "right": {
+      "theme": "breakfast",
+      "noun": "honey"
+     },
+     "wrong": [
+      {
+       "theme": "vegetables",
+       "noun": "carrot"
+      },
+      {
+       "theme": "toys",
+       "noun": "ball"
+      }
+     ]
+    },
+    {
+     "q": "What is the bee sitting on?",
+     "right": {
+      "theme": "spring",
+      "noun": "flower"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "pillow"
+      },
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      }
+     ]
+    },
+    {
+     "q": "How does Bear feel at the end?",
+     "right": {
+      "theme": "emotions",
+      "noun": "happy"
+     },
+     "wrong": [
+      {
+       "theme": "emotions",
+       "noun": "sad"
+      },
+      {
+       "theme": "emotions",
+       "noun": "angry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mouse-in-the-rain",
+   "title": "Mouse in the Rain",
+   "hero": {
+    "name": "Mouse",
+    "picture": {
+     "theme": "forest creatures",
+     "noun": "mouse"
+    }
+   },
+   "whoWrong": [
+    {
+     "theme": "farm animals",
+     "noun": "pig"
+    },
+    {
+     "theme": "forest creatures",
+     "noun": "rabbit"
+    }
+   ],
+   "place": {
+    "word": "river",
+    "picture": {
+     "theme": "camping",
+     "noun": "river"
+    },
+    "wrong": [
+     {
+      "theme": "miscellaneous",
+      "noun": "house"
+     },
+     {
+      "theme": "spring",
+      "noun": "garden"
+     }
+    ]
+   },
+   "panels": [
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "mouse"
+      },
+      {
+       "theme": "weather",
+       "noun": "sun"
+      }
+     ],
+     "text": "Mouse goes for a walk by the river. The sun is out."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "mouse"
+      },
+      {
+       "theme": "weather",
+       "noun": "rainy"
+      }
+     ],
+     "text": "Drip, drop! It starts to rain. Boom! Mouse is scared."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "owl"
+      },
+      {
+       "theme": "weather",
+       "noun": "umbrella"
+      }
+     ],
+     "text": "Owl sees Mouse. She opens her big umbrella."
+    },
+    {
+     "pics": [
+      {
+       "theme": "forest creatures",
+       "noun": "mouse"
+      },
+      {
+       "theme": "spring",
+       "noun": "puddle"
+      }
+     ],
+     "text": "Now Mouse is dry. Mouse and Owl jump in a puddle. Splash!"
+    }
+   ],
+   "bme": [
+    1,
+    2,
+    3
+   ],
+   "frames": [
+    "Mouse goes for a walk, and it starts to rain",
+    "Owl opens her umbrella",
+    "Mouse and Owl jump in a puddle"
+   ],
+   "labels": {
+    "who": "Mouse",
+    "where": "river",
+    "what": "rain"
+   },
+   "easy": [
+    {
+     "q": "Who goes for a walk?",
+     "right": {
+      "theme": "forest creatures",
+      "noun": "mouse"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "pig"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "rabbit"
+      }
+     ]
+    },
+    {
+     "q": "Where does Mouse walk?",
+     "right": {
+      "theme": "camping",
+      "noun": "river"
+     },
+     "wrong": [
+      {
+       "theme": "miscellaneous",
+       "noun": "house"
+      },
+      {
+       "theme": "spring",
+       "noun": "garden"
+      }
+     ]
+    },
+    {
+     "q": "Who has an umbrella?",
+     "right": {
+      "theme": "forest creatures",
+      "noun": "owl"
+     },
+     "wrong": [
+      {
+       "theme": "farm animals",
+       "noun": "hen"
+      },
+      {
+       "theme": "forest creatures",
+       "noun": "frog"
+      }
+     ]
+    }
+   ],
+   "hard": [
+    {
+     "q": "What does Owl open?",
+     "right": {
+      "theme": "weather",
+      "noun": "umbrella"
+     },
+     "wrong": [
+      {
+       "theme": "accessories",
+       "noun": "hat"
+      },
+      {
+       "theme": "spring",
+       "noun": "shovel"
+      }
+     ]
+    },
+    {
+     "q": "What do Mouse and Owl jump in?",
+     "right": {
+      "theme": "spring",
+      "noun": "puddle"
+     },
+     "wrong": [
+      {
+       "theme": "around the house",
+       "noun": "bed"
+      },
+      {
+       "theme": "camping",
+       "noun": "tent"
+      }
+     ]
+    },
+    {
+     "q": "How does Mouse feel when it rains?",
+     "right": {
+      "theme": "emotions",
+      "noun": "scared"
+     },
+     "wrong": [
+      {
+       "theme": "emotions",
+       "noun": "happy"
+      },
+      {
+       "theme": "emotions",
+       "noun": "angry"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

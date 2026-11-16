@@ -230,6 +230,30 @@ const TEXT = {
     2: "Read the story. Who says or tells each sentence? Write the letter in the box.",
     3: "Read the story. Write the letter of who says or tells each sentence. Then write what a character could say next.",
   },
+  'K-650': {
+    title: "Who Is in the Story, and Where?",
+    1: "Listen to the story. Circle who the story is about, where it happens, and what happens.",
+    2: "Listen to the story. Draw who the story is about, where it happens, and one thing that happens.",
+    3: "Listen to the story. Draw who, where, and what happens. Write a word next to each picture.",
+  },
+  'K-651': {
+    title: "Retell the Story: Beginning, Middle, End",
+    1: "Listen to the story. Write 1 under what happens first, 2 under what happens next, and 3 under what happens last. Then tell the story.",
+    2: "Listen to the story. Draw the beginning, the middle, and the end. Then tell the story.",
+    3: "Listen to the story. Tell it to a partner. Then finish the three sentences: First, Then, At the end.",
+  },
+  'K-652': {
+    title: "Ask and Answer Questions About a Story",
+    1: "Listen to the story and to each question. Circle the picture that answers the question.",
+    2: "Listen to the story and to each question. Circle the picture that answers it. Tell how you know.",
+    3: "Listen to the story. Circle the picture that answers each question. Then ask a question of your own.",
+  },
+  'K-653': {
+    title: "The Pictures and the Words",
+    1: "Listen to each sentence. Draw a line from each sentence to its picture.",
+    2: "Listen to each sentence of the story. Draw a line from each sentence to its picture.",
+    3: "Listen to each sentence. Draw a line to its picture. One picture is missing. Draw it in the empty box, then draw a line to it.",
+  },
 };
 
 function edit(file, fn) {

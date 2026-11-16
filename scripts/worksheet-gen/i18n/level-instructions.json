@@ -7196,5 +7196,37 @@
     "3": {
       "en": "Read the story. Write the letter of who says or tells each sentence. Then write what a character could say next."
     }
+  },
+  "K-650": {
+    "1": {
+      "en": "Listen to the story. Circle who the story is about, where it happens, and what happens."
+    },
+    "3": {
+      "en": "Listen to the story. Draw who, where, and what happens. Write a word next to each picture."
+    }
+  },
+  "K-651": {
+    "1": {
+      "en": "Listen to the story. Write 1 under what happens first, 2 under what happens next, and 3 under what happens last. Then tell the story."
+    },
+    "3": {
+      "en": "Listen to the story. Tell it to a partner. Then finish the three sentences: First, Then, At the end."
+    }
+  },
+  "K-652": {
+    "1": {
+      "en": "Listen to the story and to each question. Circle the picture that answers the question."
+    },
+    "3": {
+      "en": "Listen to the story. Circle the picture that answers each question. Then ask a question of your own."
+    }
+  },
+  "K-653": {
+    "1": {
+      "en": "Listen to each sentence. Draw a line from each sentence to its picture."
+    },
+    "3": {
+      "en": "Listen to each sentence. Draw a line to its picture. One picture is missing. Draw it in the empty box, then draw a line to it."
+    }
   }
 }

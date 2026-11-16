@@ -5241,5 +5241,21 @@
   "G1-583": {
     "title": "Who Is Telling the Story?",
     "instruction": "Read the story. Who says or tells each sentence? Write the letter in the box."
+  },
+  "K-650": {
+    "title": "Who Is in the Story, and Where?",
+    "instruction": "Listen to the story. Draw who the story is about, where it happens, and one thing that happens."
+  },
+  "K-651": {
+    "title": "Retell the Story: Beginning, Middle, End",
+    "instruction": "Listen to the story. Draw the beginning, the middle, and the end. Then tell the story."
+  },
+  "K-652": {
+    "title": "Ask and Answer Questions About a Story",
+    "instruction": "Listen to the story and to each question. Circle the picture that answers it. Tell how you know."
+  },
+  "K-653": {
+    "title": "The Pictures and the Words",
+    "instruction": "Listen to each sentence of the story. Draw a line from each sentence to its picture."
   }
 }

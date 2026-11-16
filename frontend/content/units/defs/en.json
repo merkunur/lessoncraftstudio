@@ -2696,6 +2696,53 @@
    ]
   },
   {
+   "id": "k-words-and-sentences",
+   "slug": "words-and-sentences-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Words and Sentences",
+   "metaTitle": "Kindergarten Lesson Plans: Words and Sentences",
+   "metaDescription": "A Kindergarten unit on words and sentences: 5 lessons on naming and action words, place words, a capital at the start, the end mark, and longer sentences.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "K:naming-and-action-words",
+     "types": [
+      "K-654",
+      "K-658"
+     ]
+    },
+    {
+     "point": "K:place-words",
+     "types": [
+      "K-548",
+      "K-546"
+     ]
+    },
+    {
+     "point": "K:capital-letter",
+     "types": [
+      "K-660",
+      "K-655"
+     ]
+    },
+    {
+     "point": "K:period-or-question-mark",
+     "types": [
+      "K-659",
+      "K-656"
+     ]
+    },
+    {
+     "point": "K:make-the-sentence-longer",
+     "types": [
+      "K-657"
+     ]
+    }
+   ]
+  },
+  {
    "id": "k-reading-to-learn-fact-texts",
    "slug": "reading-to-learn-fact-texts-kindergarten-unit",
    "status": "live",
@@ -2817,7 +2864,8 @@
     {
      "point": "1:blends-start",
      "types": [
-      "G1-590"
+      "G1-590",
+      "G1-493"
      ]
     },
     {
@@ -2930,13 +2978,19 @@
    "subject": "literacy",
    "title": "Long Vowels: Silent e and Vowel Teams",
    "metaTitle": "Grade 1 Lesson Plans: Long Vowels, Silent e, Vowel Teams",
-   "metaDescription": "A Grade 1 phonics unit on long vowels: 4 lessons on silent e and the vowel teams ai and ay, ee and ea, oa and ow, with word sorts, gap words, and sentences.",
-   "weeks": 2,
+   "metaDescription": "A Grade 1 phonics unit on long vowels: 5 lessons on silent e, long and short vowel sounds, and the vowel teams ai and ay, ee and ea, oa and ow.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:silent-e",
      "types": [
       "G1-584"
+     ]
+    },
+    {
+     "point": "1:long-or-short-vowel",
+     "types": [
+      "G1-495"
      ]
     },
     {
@@ -3411,8 +3465,8 @@
    "subject": "literacy",
    "title": "Reading to Learn: Informational Texts",
    "metaTitle": "Grade 3 Lesson Plans: Reading to Learn from Informational Texts",
-   "metaDescription": "A Grade 3 reading unit on informational texts: 4 lessons on answering with evidence, main idea and key details, search tools, and cause and effect.",
-   "weeks": 2,
+   "metaDescription": "A Grade 3 reading unit on informational texts: 5 lessons on answering with evidence, main idea and key details, search tools, maps and diagrams, and cause and effect.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "3:answer-with-evidence",
@@ -3435,6 +3489,14 @@
      "types": [
       "G3-498",
       "G3-499"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:maps-diagrams-photos",
+     "types": [
+      "G3-510",
+      "G3-511"
      ],
      "activity": null
     },
@@ -3541,6 +3603,7 @@
     "k-first-words-to-read",
     "k-sorting-words-telling-stories",
     "k-reading-stories",
+    "k-words-and-sentences",
     "k-reading-to-learn-fact-texts"
    ]
   },

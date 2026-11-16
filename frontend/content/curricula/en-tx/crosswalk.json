@@ -2511,6 +2511,61 @@
    ],
    "by": "authored"
   },
+  "K:naming-and-action-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.10.D.iii",
+     "rel": "prepares",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:place-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.v",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:capital-letter": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.vii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:period-or-question-mark": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.viii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:make-the-sentence-longer": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:sound-position": {
    "rows": [
     {
@@ -3095,6 +3150,16 @@
    "rows": [
     {
      "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:long-or-short-vowel": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.A.iii",
      "rel": "teaches",
      "grade": "1"
     }
@@ -3891,6 +3956,21 @@
     {
      "id": "ELAR.3.9.D.ii",
      "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:maps-diagrams-photos": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.10.C",
+     "rel": "prepares",
      "grade": "3"
     }
    ],

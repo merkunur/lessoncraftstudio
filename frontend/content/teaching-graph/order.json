@@ -202,6 +202,7 @@
     "1:feeling-and-sense-words",
     "1:who-tells-the-story",
     "1:silent-e",
+    "1:long-or-short-vowel",
     "1:long-a-ai-ay",
     "1:long-e-ee-ea",
     "1:long-o-oa-ow",
@@ -256,6 +257,7 @@
     "3:answer-with-evidence",
     "3:main-idea-key-details",
     "3:text-features-search-tools",
+    "3:maps-diagrams-photos",
     "3:events-cause-effect"
    ],
    "K": [
@@ -276,6 +278,11 @@
     "K:retell-beginning-middle-end",
     "K:story-questions",
     "K:pictures-and-words",
+    "K:naming-and-action-words",
+    "K:place-words",
+    "K:capital-letter",
+    "K:period-or-question-mark",
+    "K:make-the-sentence-longer",
     "K:sound-position",
     "K:vowels-consonants",
     "K:bilingual-cards",

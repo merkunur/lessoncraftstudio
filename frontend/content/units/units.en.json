@@ -12595,6 +12595,231 @@
    ]
   },
   {
+   "id": "k-words-and-sentences",
+   "slug": "words-and-sentences-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Words and Sentences",
+   "metaTitle": "Kindergarten Lesson Plans: Words and Sentences",
+   "metaDescription": "A Kindergarten unit on words and sentences: 5 lessons on naming and action words, place words, a capital at the start, the end mark, and longer sentences.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "K:naming-and-action-words",
+     "title": "Naming words and action words",
+     "objective": "Children sort pictured words into naming words (dog, cup) and action words (run, jump) and say each one in a sentence.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.1.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-654",
+       "title": "Naming Words and Action Words",
+       "core": "word-classes-k654",
+       "easy": "word-classes-easy-k654-6",
+       "hard": "word-classes-hard-k654-11"
+      },
+      {
+       "type": "K-658",
+       "title": "Find the Action Word",
+       "core": "word-classes-k658",
+       "easy": "word-classes-easy-k658-6",
+       "hard": "word-classes-hard-k658-11"
+      }
+     ],
+     "exit": {
+      "slug": "word-classes-k654-2",
+      "title": "Naming Words and Action Words"
+     },
+     "note": {
+      "mistake": "Children sort by what they see first: the card of a girl running goes to the naming box because it shows a girl. Some name an action card with a naming word (runner, dancer) and then sort it as one.",
+      "words": "Say: \"A naming word names a person, an animal, or a thing: doctor, dog, cup. An action word tells what someone does: run, jump.\" Hold up a ball and act out jumping; ask which one you can do. Day 1, Naming Words and Action Words: children cut out twelve cards and glue six in the naming box and six in the action box. On Level 1 the cards are pictures only, so name each card; the words to say are printed in small grey type at the foot of the Level 1 page, row by row. Level 2 prints the word under each picture; Level 3 is for children who read: the cards are words only, and children finish \"The ___ can ___.\" Day 2, Find the Action Word: each row has one action and two naming words. On Level 1 name the three pictures in each row (one is a person standing still, such as a doctor or a farmer); the words to say are printed at the foot of the Level 1 page, row by row; children circle the action word. On Level 2 children read three short words and circle the action word. On Level 3 they read six sentences, circle the naming word, and underline the action word, as in the example at the top.",
+      "watch": "For a card a child is unsure of, try it in \"I can ___.\" \"I can dog\" makes no sense; \"I can swim\" does. Name each action picture with the action word: dance, not dancer; read, not book. A person is a naming word too: doctor and baby name who someone is, not what someone does. In the sentences, fast, big, little, and red are neither kind; only the naming word and the action word are marked."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "K:place-words",
+     "title": "In, on top of, under, next to",
+     "objective": "Children use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is in a picture.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.1.e",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-548",
+       "title": "Choose the Position Word",
+       "core": "position-words-k548",
+       "easy": "position-words-easy-k548-6",
+       "hard": "position-words-hard-k548-11"
+      },
+      {
+       "type": "K-546",
+       "title": "Read and Draw",
+       "core": "position-words-k546",
+       "easy": "position-words-easy-k546-6",
+       "hard": "position-words-hard-k546-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "parking-tower.place-by-relation.k-g-a-1",
+      "slug": "brambles-parking-tower",
+      "title": "Bramble's Parking Tower — Position Words: Above, Below, Between"
+     },
+     "exit": {
+      "slug": "position-words-k548-2",
+      "title": "Choose the Position Word"
+     },
+     "maker": {
+      "id": "position-words",
+      "name": "Position Words",
+      "slug": "position-words-worksheet-maker",
+      "template": "K-548"
+     },
+     "note": {
+      "mistake": "Children mix up above and on top of: a thing that is on top of another touches it, a thing that is above floats over it. Many point and say \"there\" and never say the place word.",
+      "words": "Start with a real box and a toy: \"Where is the bear? In the box. On top of the box. Under the box. Next to the box.\" Then hold the toy over the box without touching it: \"Above. It does not touch.\" On the page Choose the Position Word each row shows a picture and a shape beside a sentence, and the child circles the one word of three that fits. Level 1 has in, on top of, under, and next to; Level 2 adds above and between; Level 3 adds behind and in front of. On a flat page, behind means the shape hides part of the picture, and in front of means the picture covers part of the shape; show this first with two paper cutouts. On day 2, on the page Read and Draw, read each sentence with the child (\"The fish is under the square.\"); the child draws the fish where the sentence says, in the box with the shape. On screen, Bramble's Parking Tower gives more practice with above, below, next to, and between (below means the same as under).",
+      "watch": "Ask the child to say the finished sentence aloud and to show it with a hand: \"Show me under.\" On Read and Draw, look at where the drawing sits, not at how well it is drawn: on top of touches the shape, above floats over it."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "K:capital-letter",
+     "title": "A sentence starts with a capital letter",
+     "objective": "Children find the capital letter at the start of a sentence and in the word I, and fix sentences that start with a small letter.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.2.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-660",
+       "title": "Fix the First Letter",
+       "core": "capitals-punctuation-k660",
+       "easy": "capitals-punctuation-easy-k660-6",
+       "hard": "capitals-punctuation-hard-k660-11"
+      },
+      {
+       "type": "K-655",
+       "title": "A Sentence Starts with a Capital Letter",
+       "core": "capitals-punctuation-k655",
+       "easy": "capitals-punctuation-easy-k655-6",
+       "hard": "capitals-punctuation-hard-k655-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-k660-2",
+      "title": "Fix the First Letter"
+     },
+     "note": {
+      "mistake": "Children copy a sentence as it is printed and keep the small letter. Some write a capital at the start of every word, and many write the word I as a small i.",
+      "words": "Write \"the cat ran.\" on the board. Ask: \"How does a sentence start?\" Change the t to a T. Say: \"A sentence starts with a capital letter. The word I is always a capital letter.\" Day 1, Fix the First Letter: each sentence is printed two ways, once with a capital and once with a small first letter. On Level 1 (three-word sentences) children circle the one written right; on Level 2 they circle it and write its capital letter in the box; on Level 3 every sentence starts with a small letter and children write its first word with a capital on the line. Day 2, A Sentence Starts with a Capital Letter: children circle the first letter of six sentences and each word I. Three sentences start with a small letter; for those, children write the capital in the box in front of the sentence. Level 1 has three-word sentences, Level 2 four- and five-word sentences, and Level 3 adds a sentence to copy on a line.",
+      "watch": "The sentences have no names, so the only capitals are the first letters and I. On Day 1 the two ways differ in one letter only: have the child point to it. On Day 2 a child who writes a capital in every box has not looked; ask, \"Does this letter look like the capital on our alphabet chart?\" Check that the word I is circled inside a sentence too (\"here I am\")."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "K:period-or-question-mark",
+     "title": "A period or a question mark?",
+     "objective": "Children name the period and the question mark, tell which one ends a telling sentence and which one ends an asking sentence, and add the right mark.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.2.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-659",
+       "title": "Telling or Asking? Sort the Sentences",
+       "core": "capitals-punctuation-k659",
+       "easy": "capitals-punctuation-easy-k659-6",
+       "hard": "capitals-punctuation-hard-k659-11"
+      },
+      {
+       "type": "K-656",
+       "title": "A Period or a Question Mark?",
+       "core": "capitals-punctuation-k656",
+       "easy": "capitals-punctuation-easy-k656-6",
+       "hard": "capitals-punctuation-hard-k656-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-k659-2",
+      "title": "Telling or Asking? Sort the Sentences"
+     },
+     "note": {
+      "mistake": "Children choose by the picture or by how long the sentence is, not by what it says. Some put a question mark only after a question that starts with what or where, and miss questions such as \"Can a bee fly\".",
+      "words": "Draw a period and a question mark and name them. Say: \"A telling sentence tells something and ends with a period. An asking sentence asks something and ends with a question mark.\" Read a pair aloud: \"The dog can run. Can the dog run?\" Ask which one asks. Day 1, Telling or Asking? Sort the Sentences: numbered strips, half telling and half asking, to cut out and glue under the period or the question mark. On Level 1 read each strip aloud the way you would say it; on Level 2 children read eight strips; on Level 3 they read six strips and write the mark at the end of each before gluing. Day 2, A Period or a Question Mark?: on Level 1 children circle the mark for six sentences you read; on Level 2 they read eight short sentences and write the mark in the box; on Level 3 they write the mark for four sentences, then one telling and one asking sentence about a picture.",
+      "watch": "Every asking sentence on these pages starts with who, what, where, when, why, how, can, is, do, or does; point to the first word when a child is unsure. Half the sentences on a page tell and half ask. On Day 2, Level 3, a child may tell the two sentences while you write them; check the end marks."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "K:make-the-sentence-longer",
+     "title": "Say more: make the sentence longer",
+     "objective": "Children say a complete sentence about a picture, make it longer with words that tell where or when (The dog plays in the rain.), and write the words they added.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.1.f",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-657",
+       "title": "Say More: Make the Sentence Longer",
+       "core": "sentence-building-k657",
+       "easy": "sentence-building-easy-k657-6",
+       "hard": "sentence-building-hard-k657-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "sunny-side-diner.compound-order.l-k-1-f",
+      "slug": "sunny-side-diner",
+      "title": "Sunny-Side Diner — Say the Whole Order"
+     },
+     "exit": {
+      "slug": "sentence-building-k657-2",
+      "title": "Say More: Make the Sentence Longer"
+     },
+     "note": {
+      "mistake": "Children add words that do not fit the picture, or add a whole new sentence (The dog plays. It is raining.). When they write, some copy the short sentence again instead of the new words.",
+      "words": "Show a picture and say a short sentence: \"The cat sits.\" Ask: \"Where? When?\" Point to the sun, the moon, the rain, or the snow in the corner of the picture: \"The cat sits in the sun.\" Say: \"We can make a sentence longer. We add words that tell where or when.\" Each page has four pictures, and each shows one of these signs. On Level 1 read the sentence and its three choices; children circle the words that fit the picture. On Level 2 they circle the words and write them on the line. On Level 3 they write their own words on the line. Have each child read the whole long sentence aloud. On screen, Sunny-Side Diner has children say a whole order in one long sentence.",
+      "watch": "The picture decides: a dog with snowflakes stands in the snow, not in the sun. On Level 3 accept any words that tell where or when and fit the picture (in the snow, outside, at night); the key gives one answer. Listen for one whole sentence when the child reads it back."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "k-reading-to-learn-fact-texts",
    "slug": "reading-to-learn-fact-texts-kindergarten-unit",
    "status": "live",
@@ -13267,6 +13492,13 @@
        "core": "digraphs-g1590",
        "easy": "digraphs-easy-g1590-6",
        "hard": "digraphs-hard-g1590-11"
+      },
+      {
+       "type": "G1-493",
+       "title": "Blends",
+       "core": "digraphs-g1493",
+       "easy": "digraphs-easy-g1493-6",
+       "hard": "digraphs-hard-g1493-11"
       }
      ],
      "screen": {
@@ -13281,7 +13513,7 @@
      },
      "note": {
       "mistake": "Children say or write only one sound of the blend: \"top\" for stop, \"cab\" for crab. Others put a vowel between the two sounds (\"suh-top\") or write the two letters in the wrong order (\"tsop\").",
-      "words": "Say: \"A blend is two consonants side by side. You hear both: s, t, st, stop.\" Stretch it, \"sss-t-op,\" then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters.",
+      "words": "Say: \"A blend is two consonants side by side. You hear both: s, t, st, stop.\" Stretch it, \"sss-t-op,\" then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters. The page Blends gives more practice with pictures: on Level 1 the child circles the right two letters of three, on Level 2 writes them in front of the rest of the word (__og for frog), and on Level 3 names the picture and writes the two letters with no word printed.",
       "watch": "In an s-blend the s comes first (st, sp, sn, sk, sw, sm, sc); in an l-blend or r-blend the l or r comes second (fl, tr). sl is both an s-blend and an l-blend, so the pages leave it out. On Level 3 the sentences show no letters to choose from: the meaning tells the word (\"A __ab walks on the sand\": cr, crab). Have the child read the finished sentence aloud."
      },
      "days": 2
@@ -13856,9 +14088,9 @@
    "subject": "literacy",
    "title": "Long Vowels: Silent e and Vowel Teams",
    "metaTitle": "Grade 1 Lesson Plans: Long Vowels, Silent e, Vowel Teams",
-   "metaDescription": "A Grade 1 phonics unit on long vowels: 4 lessons on silent e and the vowel teams ai and ay, ee and ea, oa and ow, with word sorts, gap words, and sentences.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A Grade 1 phonics unit on long vowels: 5 lessons on silent e, long and short vowel sounds, and the vowel teams ai and ay, ee and ea, oa and ow.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -13901,6 +14133,50 @@
     },
     {
      "n": 2,
+     "point": "1:long-or-short-vowel",
+     "title": "Long or short vowel?",
+     "objective": "Children say a one-syllable word, hear whether its vowel sound is long or short, and mark it.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.2.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-495",
+       "title": "Long or Short Vowel?",
+       "core": "phonological-awareness-g1495",
+       "easy": "phonological-awareness-easy-g1495-6"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "stretch-giraffe.long-short-vowel.rf-1-2-a",
+      "slug": "stretch-giraffe",
+      "title": "Stretch the Giraffe — Long & Short Vowel Sounds"
+     },
+     "exit": {
+      "slug": "phonological-awareness-g1495-2",
+      "title": "Long or Short Vowel?"
+     },
+     "maker": {
+      "id": "phonics",
+      "name": "Phonics & Sounds",
+      "slug": "phonics-worksheet-maker",
+      "template": "G1-495"
+     },
+     "note": {
+      "mistake": "Children go by the letter and not by the sound: every word with an a is \"short a\" to them. Others think a long vowel means a long word, or that a word with two vowel letters has two vowel sounds.",
+      "words": "Say: \"A long vowel says its name: a as in cake. A short vowel says its sound: a as in cat.\" Stretch the word, \"caaake,\" and ask: \"Do you hear the name of the letter?\" On the page Long or Short Vowel? each card shows a picture and its word with the vowel in color. The child says the word and circles the line if the vowel sound is long and the curve if it is short. These are the marks teachers write over a vowel, a line for long and a curve for short; show them on the board over the a of cake and the a of cat. In cake, kite, and globe the e at the end is silent and not in color; it makes the first vowel say its name. Level 1 has six words, Level 2 has eight. On screen, Stretch the Giraffe has the child listen for long and short vowel sounds.",
+      "watch": "Have the child SAY the word before marking it; a child who marks without saying the word is guessing from the letters. In boat and goat two letters are in color, and together they make one long o sound. Ask now and then: \"Say the vowel sound alone. Is it the name of a letter?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
      "point": "1:long-a-ai-ay",
      "title": "Long a: ai and ay",
      "objective": "Children read and spell one-syllable words in which ai or ay spells long a, and use the place in the word to choose between them.",
@@ -13939,7 +14215,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "1:long-e-ee-ea",
      "title": "Long e: ee and ea",
      "objective": "Children read and spell one-syllable words in which ee or ea spells long e.",
@@ -13978,7 +14254,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "1:long-o-oa-ow",
      "title": "Long o: oa and ow",
      "objective": "Children read and spell one-syllable words in which oa or ow spells long o, and use the place in the word to choose between them.",
@@ -16344,9 +16620,9 @@
    "subject": "literacy",
    "title": "Reading to Learn: Informational Texts",
    "metaTitle": "Grade 3 Lesson Plans: Reading to Learn from Informational Texts",
-   "metaDescription": "A Grade 3 reading unit on informational texts: 4 lessons on answering with evidence, main idea and key details, search tools, and cause and effect.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A Grade 3 reading unit on informational texts: 5 lessons on answering with evidence, main idea and key details, search tools, maps and diagrams, and cause and effect.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -16470,6 +16746,46 @@
     },
     {
      "n": 4,
+     "point": "3:maps-diagrams-photos",
+     "title": "Maps, Diagrams, and Photos",
+     "objective": "Children use a map or a diagram together with the words of a text to answer where, when, why, and how questions, and tell whether each answer came from the text, from the graphic, or from both.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RI.3.7",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-510",
+       "title": "Read the Text and the Map",
+       "core": "reading-comprehension-g3510",
+       "easy": "reading-comprehension-easy-g3510-6",
+       "hard": "reading-comprehension-hard-g3510-11"
+      },
+      {
+       "type": "G3-511",
+       "title": "Read the Text and Diagram",
+       "core": "reading-comprehension-g3511",
+       "easy": "reading-comprehension-easy-g3511-6",
+       "hard": "reading-comprehension-hard-g3511-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3510-2",
+      "title": "Read the Text and the Map"
+     },
+     "note": {
+      "mistake": "Children answer from the words alone and skip the graphic, or look only at the pictures. They mark \"text\" because a place name is also in the text, even when only the map shows its square, or they mark \"both\" for every question. Some name a square the wrong way round (2B for B2) or give the direction from the wrong place.",
+      "words": "Show a map or a diagram from a science or social studies book. Ask: \"What does the text tell us that the picture does not? What does the picture tell us that the text does not?\" Model one question of each kind: a square or a direction read off the map, a date or a reason read in the text, and one that needs both, such as \"In which square did the Union Pacific Railroad start?\" The text names the city; the map shows its square. Day 1 is the map page, day 2 the diagram page. On Level 1 children circle each answer and circle where they found it. On Level 2 they write each answer and put a check mark next to the source. On Level 3 they answer four questions; then they name the two places on the map that show only a number, or write what happens in the diagram step that shows a question mark.",
+      "watch": "A question is \"both\" only when one fact comes from each source: the text tells which place or step, and the graphic gives its square, direction, or name, or the other way round. Ask: \"Could you answer it with your finger on the map alone?\" On the diagram page most step names, such as evaporation or mail carrier, are printed only in the diagram; the text tells in plain words what happens. Children may already know an answer (the president lives in the White House; lions eat zebras); ask where it is printed on this page."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "3:events-cause-effect",
      "title": "Events in Order, Cause and Effect",
      "objective": "Children describe how the events, steps, and ideas in an informational text connect, using words of time and sequence and of cause and effect (because, so).",
@@ -17305,9 +17621,9 @@
    "grade": "K",
    "subject": "literacy",
    "title": "Kindergarten Reading and Writing Scope and Sequence",
-   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (16 Weeks)",
-   "metaDescription": "6 Kindergarten reading and writing units in teaching order, about 16 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 16,
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (19 Weeks)",
+   "metaDescription": "7 Kindergarten reading and writing units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 19,
    "framework": "Common Core",
    "units": [
     {
@@ -17420,12 +17736,34 @@
      ]
     },
     {
+     "id": "k-words-and-sentences",
+     "slug": "words-and-sentences-kindergarten-unit",
+     "title": "Words and Sentences",
+     "weeks": 3,
+     "from": 14,
+     "to": 16,
+     "lessons": [
+      "Naming words and action words",
+      "In, on top of, under, next to",
+      "A sentence starts with a capital letter",
+      "A period or a question mark?",
+      "Say more: make the sentence longer"
+     ],
+     "standards": [
+      "L.K.1.b",
+      "L.K.1.e",
+      "L.K.1.f",
+      "L.K.2.a",
+      "L.K.2.b"
+     ]
+    },
+    {
      "id": "k-reading-to-learn-fact-texts",
      "slug": "reading-to-learn-fact-texts-kindergarten-unit",
      "title": "Reading to Learn: Fact Texts",
      "weeks": 3,
-     "from": 14,
-     "to": 16,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "Find the Facts",
       "What Is It All About?",
@@ -17450,9 +17788,9 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (19 Weeks)",
-   "metaDescription": "7 Grade 1 reading and language units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 19,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (20 Weeks)",
+   "metaDescription": "7 Grade 1 reading and language units in teaching order, about 20 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 20,
    "framework": "Common Core",
    "units": [
     {
@@ -17546,16 +17884,18 @@
      "id": "g1-long-vowels-silent-e-and-vowel-teams",
      "slug": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
      "title": "Long Vowels: Silent e and Vowel Teams",
-     "weeks": 2,
+     "weeks": 3,
      "from": 12,
-     "to": 13,
+     "to": 14,
      "lessons": [
       "Silent e Changes the Vowel",
+      "Long or short vowel?",
       "Long a: ai and ay",
       "Long e: ee and ea",
       "Long o: oa and ow"
      ],
      "standards": [
+      "RF.1.2.a",
       "RF.1.3.c"
      ]
     },
@@ -17564,8 +17904,8 @@
      "slug": "words-and-how-they-work-grade-1-unit",
      "title": "Words and How They Work",
      "weeks": 4,
-     "from": 14,
-     "to": 17,
+     "from": 15,
+     "to": 18,
      "lessons": [
       "ABC order",
       "Nouns, verbs, and adjectives",
@@ -17590,8 +17930,8 @@
      "slug": "reading-to-learn-informational-texts-grade-1-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 2,
-     "from": 18,
-     "to": 19,
+     "from": 19,
+     "to": 20,
      "lessons": [
       "Facts in the text",
       "The main topic and key details",
@@ -17720,9 +18060,9 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (6 Weeks)",
-   "metaDescription": "3 Grade 3 reading and language units in teaching order, about 6 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 6,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (7 Weeks)",
+   "metaDescription": "3 Grade 3 reading and language units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 7,
    "framework": "Common Core",
    "units": [
     {
@@ -17770,20 +18110,22 @@
      "id": "g3-reading-to-learn-informational-texts",
      "slug": "reading-to-learn-informational-texts-grade-3-unit",
      "title": "Reading to Learn: Informational Texts",
-     "weeks": 2,
+     "weeks": 3,
      "from": 5,
-     "to": 6,
+     "to": 7,
      "lessons": [
       "Answer with Evidence",
       "Main Idea and Key Details",
       "Text Features and Search Tools",
+      "Maps, Diagrams, and Photos",
       "Events in Order, Cause and Effect"
      ],
      "standards": [
       "RI.3.1",
       "RI.3.2",
       "RI.3.3",
-      "RI.3.5"
+      "RI.3.5",
+      "RI.3.7"
      ]
     }
    ]

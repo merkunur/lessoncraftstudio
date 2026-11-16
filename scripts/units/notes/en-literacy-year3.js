@@ -9,6 +9,8 @@
  * (build-guide.js): about 1,900 letters in all; the first drafts of 2,100 to 2,400 ran past the foot and were cut.
  * The four notes of the unit Stories: Evidence, Lessons, and Characters (G3-502 to G3-509) were added by
  * place-ready-i.en.literacy.js; the reviewer of the story pages read them (2026-11-16, every finding applied).
+ * The note of the lesson Maps, Diagrams, and Photos (G3-510, G3-511) was added by place-ready-p.en.literacy.js; the
+ * reviewer of the pages read it (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -84,6 +86,15 @@ module.exports = {
         mistake: 'Children come to the talk without having marked anything and say only "I liked it." They give an opinion without a reason from the story, or they repeat what the last speaker said. Some read their notes aloud and stop listening to the others.',
         words: 'Day 1: children read the story and fill in the Get Ready to Talk About a Story page: a part that surprised them with its paragraph, a question for the group, and (Levels 2 and 3) the words they will read aloud. Day 2: groups of four with the same story meet with the Talk About the Story page; give about ten minutes to write an idea for each question first, and start with the questions everyone has. Draw a name stick for the first speaker, who reads a question and gives an idea with its paragraph; each next child adds on, agrees, or disagrees. Practice the sentence starters printed on the page: "I think ... because the story says ...," "I agree with ... because ...," "I see it differently because ...," "Can you show where the story says that?"',
         watch: 'These pages have no answer key: every answer that the story supports is right. Look at the notes before the talk: a child with an empty page is not prepared, so pair the child with a partner to mark one part. During the talk, listen for the paragraph: a child who says "in paragraph 3 it says ..." is using the story. Listen also for links to what others said ("I agree with Maya because ..."). For a question about what might happen next, any paragraph that gives a reason counts.',
+      },
+    },
+    '3:maps-diagrams-photos': {
+      title: 'Maps, Diagrams, and Photos',
+      objective: 'Children use a map or a diagram together with the words of a text to answer where, when, why, and how questions, and tell whether each answer came from the text, from the graphic, or from both.',
+      note: {
+        mistake: 'Children answer from the words alone and skip the graphic, or look only at the pictures. They mark "text" because a place name is also in the text, even when only the map shows its square, or they mark "both" for every question. Some name a square the wrong way round (2B for B2) or give the direction from the wrong place.',
+        words: 'Show a map or a diagram from a science or social studies book. Ask: "What does the text tell us that the picture does not? What does the picture tell us that the text does not?" Model one question of each kind: a square or a direction read off the map, a date or a reason read in the text, and one that needs both, such as "In which square did the Union Pacific Railroad start?" The text names the city; the map shows its square. Day 1 is the map page, day 2 the diagram page. On Level 1 children circle each answer and circle where they found it. On Level 2 they write each answer and put a check mark next to the source. On Level 3 they answer four questions; then they name the two places on the map that show only a number, or write what happens in the diagram step that shows a question mark.',
+        watch: 'A question is "both" only when one fact comes from each source: the text tells which place or step, and the graphic gives its square, direction, or name, or the other way round. Ask: "Could you answer it with your finger on the map alone?" On the diagram page most step names, such as evaporation or mail carrier, are printed only in the diagram; the text tells in plain words what happens. Children may already know an answer (the president lives in the White House; lions eat zebras); ask where it is printed on this page.',
       },
     },
   },

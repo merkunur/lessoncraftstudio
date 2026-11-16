@@ -215,7 +215,8 @@
             "standard": "RF.1.2.a",
             "days": 2,
             "source": "new",
-            "page": "Sound sort page: twelve pictures of one-syllable words to cut and sort into two boxes, short vowel and long vowel. Level 1: one vowel (a); level 2: a and i; level 3: all five vowels, and the child writes each word under its picture."
+            "page": "Sound sort page: twelve pictures of one-syllable words to cut and sort into two boxes, short vowel and long vowel. Level 1: one vowel (a); level 2: a and i; level 3: all five vowels, and the child writes each word under its picture.",
+            "placed": "1:long-or-short-vowel"
           },
           {
             "new": true,
@@ -1399,7 +1400,8 @@
             "standard": "RI.3.7",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 200 words about the water cycle with a labeled diagram and a map of where it rains most. Below: six questions, two answered from the diagram, two from the map, two needing both the text and a picture. Level 1: multiple choice; level 2: written answers; level 3: the child adds a missing step to the diagram."
+            "page": "Fact text and questions page: an information text of about 200 words about the water cycle with a labeled diagram and a map of where it rains most. Below: six questions, two answered from the diagram, two from the map, two needing both the text and a picture. Level 1: multiple choice; level 2: written answers; level 3: the child adds a missing step to the diagram.",
+            "placed": "3:maps-diagrams-photos"
           },
           {
             "new": true,
@@ -2008,7 +2010,8 @@
             "days": 2,
             "tool": "Sorting Hoops",
             "source": "new",
-            "page": "Grammar page: twelve picture words, half things and half actions, to cut and sort into a naming box and an action box. Level 1: pictures only; level 2: pictures with the word under each; level 3: the child also writes one naming word and one action word into a sentence frame (The ___ can ___.)."
+            "page": "Grammar page: twelve picture words, half things and half actions, to cut and sort into a naming box and an action box. Level 1: pictures only; level 2: pictures with the word under each; level 3: the child also writes one naming word and one action word into a sentence frame (The ___ can ___.).",
+            "placed": "K:naming-and-action-words"
           },
           {
             "new": true,
@@ -2017,7 +2020,8 @@
             "standard": "L.K.1.e",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: six scenes, each with a cat in, on, under, next to, behind, or in front of a box; the child circles the place word for each scene. Level 1: in, on, under; level 2: all six words; level 3: the child draws the cat where a printed sentence tells (The cat is under the bed.)."
+            "page": "Grammar page: six scenes, each with a cat in, on, under, next to, behind, or in front of a box; the child circles the place word for each scene. Level 1: in, on, under; level 2: all six words; level 3: the child draws the cat where a printed sentence tells (The cat is under the bed.).",
+            "placed": "K:place-words"
           },
           {
             "new": true,
@@ -2026,7 +2030,8 @@
             "standard": "L.K.2.a",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: six short sentences in big print; the child circles the first letter and every word I. Three of them start with a small letter, and the child writes the capital above it. Level 1: 3-word sentences; level 2: 4- and 5-word sentences; level 3: the child also copies one fixed sentence."
+            "page": "Grammar page: six short sentences in big print; the child circles the first letter and every word I. Three of them start with a small letter, and the child writes the capital above it. Level 1: 3-word sentences; level 2: 4- and 5-word sentences; level 3: the child also copies one fixed sentence.",
+            "placed": "K:capital-letter"
           },
           {
             "new": true,
@@ -2035,7 +2040,8 @@
             "standard": "L.K.2.b",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: eight sentences without end marks, half telling and half asking, each with a picture; the child writes a period or a question mark. Level 1: the teacher reads every sentence; level 2: the child reads with picture support; level 3: the child also writes one telling and one asking sentence about a picture."
+            "page": "Grammar page: eight sentences without end marks, half telling and half asking, each with a picture; the child writes a period or a question mark. Level 1: the teacher reads every sentence; level 2: the child reads with picture support; level 3: the child also writes one telling and one asking sentence about a picture.",
+            "placed": "K:period-or-question-mark"
           },
           {
             "new": true,
@@ -2044,7 +2050,8 @@
             "standard": "L.K.1.f",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: four pictures, each with a short sentence (The dog runs.) and a box of add-ons (fast, to the park, in the rain). The child reads the sentence, picks an add-on that fits the picture, and writes the longer sentence. Level 1: the child circles the add-on; level 2: the child copies the longer sentence; level 3: the child writes an add-on of their own."
+            "page": "Grammar page: four pictures, each with a short sentence (The dog runs.) and a box of add-ons (fast, to the park, in the rain). The child reads the sentence, picks an add-on that fits the picture, and writes the longer sentence. Level 1: the child circles the add-on; level 2: the child copies the longer sentence; level 3: the child writes an add-on of their own.",
+            "placed": "K:make-the-sentence-longer"
           }
         ]
       },

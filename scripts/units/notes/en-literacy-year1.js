@@ -13,6 +13,8 @@
  * place-ready-m.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
  * The three new notes of the unit Digraphs and Blends (G1-589 to G1-591) were added by place-ready-o.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The note of 1:long-or-short-vowel (G1-495) was added by place-ready-q.en.literacy.js; a US teacher read it
+ * (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -149,7 +151,7 @@ module.exports = {
       objective: 'Children read and spell one-syllable words that start with a consonant blend (stop, flag, trip) and say both sounds of the blend.',
       note: {
         mistake: 'Children say or write only one sound of the blend: "top" for stop, "cab" for crab. Others put a vowel between the two sounds ("suh-top") or write the two letters in the wrong order ("tsop").',
-        words: 'Say: "A blend is two consonants side by side. You hear both: s, t, st, stop." Stretch it, "sss-t-op," then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters.',
+        words: 'Say: "A blend is two consonants side by side. You hear both: s, t, st, stop." Stretch it, "sss-t-op," then say it fast. Pair words: top and stop, pin and spin. On Level 1 every copy is about s-blends, and a grey model starts each task: the child adds s to five old words to make new ones (top, _top), writes two given blends into two words each, reads the new words to a partner, and circles the word that fits three sentences; the other word is the same word without the s. On Level 2 children draw lines from four of six words to their pictures (two words, such as lag beside flag, have no picture) and sort six words under s-blends and l-blends. On Level 3 r-blends join: they write the word for three pictures, sort six words, and write the two letters that start a word in three sentences. On screen, Build Blend and Digraph Words lets them build blend words from letters. The page Blends gives more practice with pictures: on Level 1 the child circles the right two letters of three, on Level 2 writes them in front of the rest of the word (__og for frog), and on Level 3 names the picture and writes the two letters with no word printed.',
         watch: 'In an s-blend the s comes first (st, sp, sn, sk, sw, sm, sc); in an l-blend or r-blend the l or r comes second (fl, tr). sl is both an s-blend and an l-blend, so the pages leave it out. On Level 3 the sentences show no letters to choose from: the meaning tells the word ("A __ab walks on the sand": cr, crab). Have the child read the finished sentence aloud.',
       },
     },
@@ -160,6 +162,15 @@ module.exports = {
         mistake: 'Children leave off one of the last two sounds: "han" or "had" for hand, "jup" for jump, "nes" for nest. Before k they leave the n out ("sik" for sink). Some write the two letters in the wrong order ("hadn").',
         words: 'Say: "Some words end with two consonant sounds. Listen to the end: han-d, hand." Have children hold up a finger for each of the last two sounds. Compare had and hand, bed and bend. On Level 1 every copy is about nd, and a grey model starts each task: the child writes nd to turn five old words into new ones (had, ha__), writes nd into five more words, reads the new words to a partner, and circles the word that fits three sentences; the other word is missing a sound (sad, sand). On Level 2 children draw lines from four of six words to their pictures (two words, such as lap beside lamp, have no picture) and sort six words under nd and mp. On Level 3 st and nk join: they write the word for three pictures (hand, lamp, sink), sort four words under the four endings, and finish three sentences by writing nd, mp, st, or nk. On screen, Build Blend and Digraph Words gives more practice.',
         watch: 'In nk the n sounds like the end of ring: say sink slowly and feel the tongue move back before the k. Teach -ink, -ank, -unk as chunks. A child who writes "sigk" has heard that sound; show the n. In mp the lips close for m and pop for p. On Level 2 the four pictures are the same in every copy (hand, lamp, stamp, shrimp); the words change.',
+      },
+    },
+    '1:long-or-short-vowel': {
+      title: 'Long or short vowel?',
+      objective: 'Children say a one-syllable word, hear whether its vowel sound is long or short, and mark it.',
+      note: {
+        mistake: 'Children go by the letter and not by the sound: every word with an a is "short a" to them. Others think a long vowel means a long word, or that a word with two vowel letters has two vowel sounds.',
+        words: 'Say: "A long vowel says its name: a as in cake. A short vowel says its sound: a as in cat." Stretch the word, "caaake," and ask: "Do you hear the name of the letter?" On the page Long or Short Vowel? each card shows a picture and its word with the vowel in color. The child says the word and circles the line if the vowel sound is long and the curve if it is short. These are the marks teachers write over a vowel, a line for long and a curve for short; show them on the board over the a of cake and the a of cat. In cake, kite, and globe the e at the end is silent and not in color; it makes the first vowel say its name. Level 1 has six words, Level 2 has eight. On screen, Stretch the Giraffe has the child listen for long and short vowel sounds.',
+        watch: 'Have the child SAY the word before marking it; a child who marks without saying the word is guessing from the letters. In boat and goat two letters are in color, and together they make one long o sound. Ask now and then: "Say the vowel sound alone. Is it the name of a letter?"',
       },
     },
   },

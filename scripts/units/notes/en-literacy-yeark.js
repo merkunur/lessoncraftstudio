@@ -7,6 +7,10 @@
  * kindergarten teacher-reviewer with a description of the pages (2026-11-15); every finding is in the text below.
  * The four notes of the unit Reading Stories (K-650 to K-653) were added by
  * place-ready-l.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Words and Sentences (K-654 to K-660) were added by place-ready-n.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The note of K:place-words (K-548, K-546) was added by place-ready-q.en.literacy.js; a US teacher read it
+ * (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -91,6 +95,51 @@ module.exports = {
         mistake: 'Children draw a line to the picture straight across from the sentence. They match by one thing they see (any picture with the cat) and not by what happens in the sentence.',
         words: 'This page prints the sentences of a story on the left and its pictures on the right, mixed up. Read sentence 1 aloud, have children put a finger on its dot, and ask: "Which picture shows this part? What do you see in it?" Then children draw the line. Say: "The pictures show what the words tell." On Level 1 there are three sentences (the first and the last of the story and one from the middle), on Level 2 all four. On Level 3 one picture is missing: children draw it in the empty box, then draw the line to it. Afterward, read the story again and let children point to each picture as its part is read. On screen, in Otto\'s Picture Book, children tap the picture that shows the part Otto reads.',
         watch: 'No picture stands straight across from its sentence, so a child who draws straight lines has not matched. Many pairs share an animal or a thing (the hat, Rabbit, the honey), so one picture is not enough. Ask: "Do you hear both things in this sentence?" On Level 3 the drawing is right when it shows who and what the sentence tells.',
+      },
+    },
+    'K:naming-and-action-words': {
+      title: 'Naming words and action words',
+      objective: 'Children sort pictured words into naming words (dog, cup) and action words (run, jump) and say each one in a sentence.',
+      note: {
+        mistake: 'Children sort by what they see first: the card of a girl running goes to the naming box because it shows a girl. Some name an action card with a naming word (runner, dancer) and then sort it as one.',
+        words: 'Say: "A naming word names a person, an animal, or a thing: doctor, dog, cup. An action word tells what someone does: run, jump." Hold up a ball and act out jumping; ask which one you can do. Day 1, Naming Words and Action Words: children cut out twelve cards and glue six in the naming box and six in the action box. On Level 1 the cards are pictures only, so name each card; the words to say are printed in small grey type at the foot of the Level 1 page, row by row. Level 2 prints the word under each picture; Level 3 is for children who read: the cards are words only, and children finish "The ___ can ___." Day 2, Find the Action Word: each row has one action and two naming words. On Level 1 name the three pictures in each row (one is a person standing still, such as a doctor or a farmer); the words to say are printed at the foot of the Level 1 page, row by row; children circle the action word. On Level 2 children read three short words and circle the action word. On Level 3 they read six sentences, circle the naming word, and underline the action word, as in the example at the top.',
+        watch: 'For a card a child is unsure of, try it in "I can ___." "I can dog" makes no sense; "I can swim" does. Name each action picture with the action word: dance, not dancer; read, not book. A person is a naming word too: doctor and baby name who someone is, not what someone does. In the sentences, fast, big, little, and red are neither kind; only the naming word and the action word are marked.',
+      },
+    },
+    'K:capital-letter': {
+      title: 'A sentence starts with a capital letter',
+      objective: 'Children find the capital letter at the start of a sentence and in the word I, and fix sentences that start with a small letter.',
+      note: {
+        mistake: 'Children copy a sentence as it is printed and keep the small letter. Some write a capital at the start of every word, and many write the word I as a small i.',
+        words: 'Write "the cat ran." on the board. Ask: "How does a sentence start?" Change the t to a T. Say: "A sentence starts with a capital letter. The word I is always a capital letter." Day 1, Fix the First Letter: each sentence is printed two ways, once with a capital and once with a small first letter. On Level 1 (three-word sentences) children circle the one written right; on Level 2 they circle it and write its capital letter in the box; on Level 3 every sentence starts with a small letter and children write its first word with a capital on the line. Day 2, A Sentence Starts with a Capital Letter: children circle the first letter of six sentences and each word I. Three sentences start with a small letter; for those, children write the capital in the box in front of the sentence. Level 1 has three-word sentences, Level 2 four- and five-word sentences, and Level 3 adds a sentence to copy on a line.',
+        watch: 'The sentences have no names, so the only capitals are the first letters and I. On Day 1 the two ways differ in one letter only: have the child point to it. On Day 2 a child who writes a capital in every box has not looked; ask, "Does this letter look like the capital on our alphabet chart?" Check that the word I is circled inside a sentence too ("here I am").',
+      },
+    },
+    'K:period-or-question-mark': {
+      title: 'A period or a question mark?',
+      objective: 'Children name the period and the question mark, tell which one ends a telling sentence and which one ends an asking sentence, and add the right mark.',
+      note: {
+        mistake: 'Children choose by the picture or by how long the sentence is, not by what it says. Some put a question mark only after a question that starts with what or where, and miss questions such as "Can a bee fly".',
+        words: 'Draw a period and a question mark and name them. Say: "A telling sentence tells something and ends with a period. An asking sentence asks something and ends with a question mark." Read a pair aloud: "The dog can run. Can the dog run?" Ask which one asks. Day 1, Telling or Asking? Sort the Sentences: numbered strips, half telling and half asking, to cut out and glue under the period or the question mark. On Level 1 read each strip aloud the way you would say it; on Level 2 children read eight strips; on Level 3 they read six strips and write the mark at the end of each before gluing. Day 2, A Period or a Question Mark?: on Level 1 children circle the mark for six sentences you read; on Level 2 they read eight short sentences and write the mark in the box; on Level 3 they write the mark for four sentences, then one telling and one asking sentence about a picture.',
+        watch: 'Every asking sentence on these pages starts with who, what, where, when, why, how, can, is, do, or does; point to the first word when a child is unsure. Half the sentences on a page tell and half ask. On Day 2, Level 3, a child may tell the two sentences while you write them; check the end marks.',
+      },
+    },
+    'K:make-the-sentence-longer': {
+      title: 'Say more: make the sentence longer',
+      objective: 'Children say a complete sentence about a picture, make it longer with words that tell where or when (The dog plays in the rain.), and write the words they added.',
+      note: {
+        mistake: 'Children add words that do not fit the picture, or add a whole new sentence (The dog plays. It is raining.). When they write, some copy the short sentence again instead of the new words.',
+        words: 'Show a picture and say a short sentence: "The cat sits." Ask: "Where? When?" Point to the sun, the moon, the rain, or the snow in the corner of the picture: "The cat sits in the sun." Say: "We can make a sentence longer. We add words that tell where or when." Each page has four pictures, and each shows one of these signs. On Level 1 read the sentence and its three choices; children circle the words that fit the picture. On Level 2 they circle the words and write them on the line. On Level 3 they write their own words on the line. Have each child read the whole long sentence aloud. On screen, Sunny-Side Diner has children say a whole order in one long sentence.',
+        watch: 'The picture decides: a dog with snowflakes stands in the snow, not in the sun. On Level 3 accept any words that tell where or when and fit the picture (in the snow, outside, at night); the key gives one answer. Listen for one whole sentence when the child reads it back.',
+      },
+    },
+    'K:place-words': {
+      title: 'In, on top of, under, next to',
+      objective: 'Children use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is in a picture.',
+      note: {
+        mistake: 'Children mix up above and on top of: a thing that is on top of another touches it, a thing that is above floats over it. Many point and say "there" and never say the place word.',
+        words: 'Start with a real box and a toy: "Where is the bear? In the box. On top of the box. Under the box. Next to the box." Then hold the toy over the box without touching it: "Above. It does not touch." On the page Choose the Position Word each row shows a picture and a shape beside a sentence, and the child circles the one word of three that fits. Level 1 has in, on top of, under, and next to; Level 2 adds above and between; Level 3 adds behind and in front of. On a flat page, behind means the shape hides part of the picture, and in front of means the picture covers part of the shape; show this first with two paper cutouts. On day 2, on the page Read and Draw, read each sentence with the child ("The fish is under the square."); the child draws the fish where the sentence says, in the box with the shape. On screen, Bramble\'s Parking Tower gives more practice with above, below, next to, and between (below means the same as under).',
+        watch: 'Ask the child to say the finished sentence aloud and to show it with a hand: "Show me under." On Read and Draw, look at where the drawing sits, not at how well it is drawn: on top of touches the shape, above floats over it.',
       },
     },
   },

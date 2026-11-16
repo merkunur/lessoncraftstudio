@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 27,
-    "near": 2,
-    "open": 36,
-    "lessons": 37
+    "taught": 32,
+    "near": 0,
+    "open": 33,
+    "lessons": 39
    },
    "groups": [
     {
@@ -2879,23 +2879,15 @@
       },
       {
        "code": "L.K.1.b",
-       "state": "near",
-       "text": "Children sort words into nouns and verbs, and into nouns and adjectives.",
-       "rel": "extends",
+       "state": "taught",
+       "text": "Children sort pictured words into naming words (dog, cup) and action words (run, jump) and say each one in a sentence.",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
-         "unitGrade": "1",
-         "n": 2,
-         "title": "Nouns, verbs, and adjectives"
-        },
-        {
-         "unit": "sentences-and-grammar-grade-2-unit",
-         "unitTitle": "Sentences and Grammar",
-         "unitGrade": "2",
-         "n": 2,
-         "title": "Nouns, verbs, and adjectives: three bins"
+         "unit": "words-and-sentences-kindergarten-unit",
+         "unitTitle": "Words and Sentences",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "Naming words and action words"
         }
        ]
       },
@@ -2935,17 +2927,58 @@
        ]
       },
       {
-       "code": "L.K.2.a",
-       "state": "near",
-       "text": "Children rewrite a sentence with its capital letter and its end mark, and split two sentences that ran together.",
-       "rel": "extends",
+       "code": "L.K.1.e",
+       "state": "taught",
+       "text": "Children use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is in a picture.",
        "lessons": [
         {
-         "unit": "sentences-and-grammar-grade-2-unit",
-         "unitTitle": "Sentences and Grammar",
-         "unitGrade": "2",
-         "n": 1,
-         "title": "Capital letters and end marks"
+         "unit": "words-and-sentences-kindergarten-unit",
+         "unitTitle": "Words and Sentences",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "In, on top of, under, next to"
+        }
+       ]
+      },
+      {
+       "code": "L.K.1.f",
+       "state": "taught",
+       "text": "Children say a complete sentence about a picture, make it longer with words that tell where or when (The dog plays in the rain.), and write the words they added.",
+       "lessons": [
+        {
+         "unit": "words-and-sentences-kindergarten-unit",
+         "unitTitle": "Words and Sentences",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Say more: make the sentence longer"
+        }
+       ]
+      },
+      {
+       "code": "L.K.2.a",
+       "state": "taught",
+       "text": "Children find the capital letter at the start of a sentence and in the word I, and fix sentences that start with a small letter.",
+       "lessons": [
+        {
+         "unit": "words-and-sentences-kindergarten-unit",
+         "unitTitle": "Words and Sentences",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "A sentence starts with a capital letter"
+        }
+       ]
+      },
+      {
+       "code": "L.K.2.b",
+       "state": "taught",
+       "text": "Children name the period and the question mark, tell which one ends a telling sentence and which one ends an asking sentence, and add the right mark.",
+       "lessons": [
+        {
+         "unit": "words-and-sentences-kindergarten-unit",
+         "unitTitle": "Words and Sentences",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "A period or a question mark?"
         }
        ]
       },
@@ -3021,9 +3054,6 @@
       }
      ],
      "open": [
-      "L.K.1.e",
-      "L.K.1.f",
-      "L.K.2.b",
       "L.K.4.a",
       "L.K.4.b",
       "L.K.5.c",
@@ -3051,10 +3081,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 31,
+    "taught": 32,
     "near": 2,
-    "open": 40,
-    "lessons": 41
+    "open": 39,
+    "lessons": 42
    },
    "groups": [
     {
@@ -3225,6 +3255,20 @@
      "title": "Reading: Foundational Skills",
      "items": [
       {
+       "code": "RF.1.2.a",
+       "state": "taught",
+       "text": "Children say a one-syllable word, hear whether its vowel sound is long or short, and mark it.",
+       "lessons": [
+        {
+         "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
+         "unitTitle": "Long Vowels: Silent e and Vowel Teams",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Long or short vowel?"
+        }
+       ]
+      },
+      {
        "code": "RF.1.2.b",
        "state": "taught",
        "text": "Children say a word slowly, write one sound in each box, and blend the sounds in the boxes back into a word.",
@@ -3338,21 +3382,21 @@
          "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
          "unitTitle": "Long Vowels: Silent e and Vowel Teams",
          "unitGrade": "1",
-         "n": 2,
+         "n": 3,
          "title": "Long a: ai and ay"
         },
         {
          "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
          "unitTitle": "Long Vowels: Silent e and Vowel Teams",
          "unitGrade": "1",
-         "n": 3,
+         "n": 4,
          "title": "Long e: ee and ea"
         },
         {
          "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
          "unitTitle": "Long Vowels: Silent e and Vowel Teams",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Long o: oa and ow"
         }
        ]
@@ -3416,7 +3460,6 @@
      ],
      "open": [
       "RF.1.1.a",
-      "RF.1.2.a",
       "RF.1.2.c",
       "RF.1.3.f",
       "RF.1.3.g",
@@ -6506,10 +6549,10 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 28,
+    "taught": 29,
     "near": 7,
-    "open": 49,
-    "lessons": 37
+    "open": 48,
+    "lessons": 38
    },
    "groups": [
     {
@@ -6557,6 +6600,20 @@
          "unitGrade": "1",
          "n": 1,
          "title": "Rhyming words"
+        }
+       ]
+      },
+      {
+       "code": "1.2.A.iii",
+       "state": "taught",
+       "text": "Children say a one-syllable word, hear whether its vowel sound is long or short, and mark it.",
+       "lessons": [
+        {
+         "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
+         "unitTitle": "Long Vowels: Silent e and Vowel Teams",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Long or short vowel?"
         }
        ]
       },
@@ -6646,14 +6703,14 @@
          "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
          "unitTitle": "Long Vowels: Silent e and Vowel Teams",
          "unitGrade": "1",
-         "n": 2,
+         "n": 3,
          "title": "Long a: ai and ay"
         },
         {
          "unit": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
          "unitTitle": "Long Vowels: Silent e and Vowel Teams",
          "unitGrade": "1",
-         "n": 3,
+         "n": 4,
          "title": "Long e: ee and ea"
         }
        ]
@@ -6782,7 +6839,6 @@
      ],
      "open": [
       "1.2.A.ii",
-      "1.2.A.iii",
       "1.2.A.iv",
       "1.2.A.vi",
       "1.2.B.i",

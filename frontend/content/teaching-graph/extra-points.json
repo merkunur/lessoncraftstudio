@@ -416,6 +416,64 @@
    "activities": [
     "cvc-builder.build-blend-word.rf-1-3"
    ]
+  },
+  {
+   "tp": "K:naming-and-action-words",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.1.b",
+   "skill": "Tell naming words (nouns) from action words (verbs) and find the action word in a sentence"
+  },
+  {
+   "tp": "K:capital-letter",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.2.a",
+   "skill": "Find the capital letter at the start of a sentence and in the word I, and fix a sentence that starts with a small letter"
+  },
+  {
+   "tp": "K:period-or-question-mark",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.2.b",
+   "skill": "Tell a telling sentence from an asking sentence and end it with a period or a question mark"
+  },
+  {
+   "tp": "K:make-the-sentence-longer",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.1.f",
+   "skill": "Say a complete sentence about a picture and make it longer with words that tell where or when",
+   "activities": [
+    "sunny-side-diner.compound-order.l-k-1-f"
+   ]
+  },
+  {
+   "tp": "3:maps-diagrams-photos",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.7",
+   "skill": "Use a map or a diagram together with the words of a text to answer where, when, why, and how questions, and tell which source gave the answer"
+  },
+  {
+   "tp": "K:place-words",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.1.e",
+   "skill": "Use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is",
+   "activities": [
+    "parking-tower.place-by-relation.k-g-a-1"
+   ]
+  },
+  {
+   "tp": "1:long-or-short-vowel",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.2.a",
+   "skill": "Hear whether the vowel sound of a one-syllable word is long or short",
+   "activities": [
+    "stretch-giraffe.long-short-vowel.rf-1-2-a"
+   ]
   }
  ]
 }

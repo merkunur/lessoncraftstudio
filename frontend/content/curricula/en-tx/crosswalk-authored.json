@@ -4903,6 +4903,84 @@
    ],
    "why": "Reading words that end in a blend (hand, lamp, nest, sink) is «decoding words with initial and final consonant blends, digraphs, and trigraphs»; writing them is «spelling words with initial and final consonant blends, digraphs, and trigraphs».",
    "review": "year-design 2026-11-17"
+  },
+  "K:naming-and-action-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.D.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas states grammar and conventions inside the editing expectation of kindergarten; telling an action word from a naming word and finding it in a sentence is the convention «verbs», and knowing a naming word prepares «singular and plural nouns».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:capital-letter": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states grammar and conventions inside the editing expectation of kindergarten; finding and writing the capital at the start of a sentence is «capitalization of the first letter in a sentence and name» (the pages use no names).",
+   "review": "year-design 2026-11-17"
+  },
+  "K:period-or-question-mark": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.viii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states grammar and conventions inside the editing expectation of kindergarten; ending a telling sentence with a period is «punctuation marks at the end of declarative sentences»; the question mark of an asking sentence goes one step further than the Texas kindergarten wording.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:make-the-sentence-longer": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states grammar and conventions inside the editing expectation of kindergarten; saying a whole sentence about a picture and making it longer is the convention «complete sentences».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:maps-diagrams-photos": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.10.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a map or a diagram together with the words of an informational text, and saying which of the two gave an answer, uses «features such as sections, tables, graphs, timelines, bullets, numbers, and bold and italicized font to support understanding»; it prepares «explain the author's use of print and graphic features to achieve specific purposes».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:place-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.D.v",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas states grammar and conventions inside the editing expectation of kindergarten; choosing and using in, on top of, under, next to and the other place words in a sentence is the convention «prepositions».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-or-short-vowel": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.A.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying a one-syllable word and marking its vowel sound long or short is «distinguishing between long and short vowel sounds in one-syllable words».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

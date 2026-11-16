@@ -13,9 +13,7 @@
     "K-065",
     "K-066",
     "K-067",
-    "K-546",
     "K-547",
-    "K-548",
     "K-549"
    ],
    "families": [
@@ -4997,6 +4995,114 @@
    "prerequisites": []
   },
   {
+   "id": "K:naming-and-action-words",
+   "grade": "K",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Tell naming words (nouns) from action words (verbs) and find the action word in a sentence",
+   "code": "L.K.1.b",
+   "types": [
+    "K-654",
+    "K-658"
+   ],
+   "families": [
+    "word-classes"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 18,
+   "prerequisites": []
+  },
+  {
+   "id": "K:place-words",
+   "grade": "K",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is",
+   "code": "L.K.1.e",
+   "types": [
+    "K-546",
+    "K-548"
+   ],
+   "families": [
+    "position-words"
+   ],
+   "activities": [
+    "parking-tower.place-by-relation.k-g-a-1"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 19,
+   "prerequisites": []
+  },
+  {
+   "id": "K:capital-letter",
+   "grade": "K",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Find the capital letter at the start of a sentence and in the word I, and fix a sentence that starts with a small letter",
+   "code": "L.K.2.a",
+   "types": [
+    "K-655",
+    "K-660"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 20,
+   "prerequisites": []
+  },
+  {
+   "id": "K:period-or-question-mark",
+   "grade": "K",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Tell a telling sentence from an asking sentence and end it with a period or a question mark",
+   "code": "L.K.2.b",
+   "types": [
+    "K-656",
+    "K-659"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 21,
+   "prerequisites": []
+  },
+  {
+   "id": "K:make-the-sentence-longer",
+   "grade": "K",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Say a complete sentence about a picture and make it longer with words that tell where or when",
+   "code": "L.K.1.f",
+   "types": [
+    "K-657"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [
+    "sunny-side-diner.compound-order.l-k-1-f"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 22,
+   "prerequisites": []
+  },
+  {
    "id": "K:sound-position",
    "grade": "K",
    "subject": "literacy",
@@ -5004,7 +5110,6 @@
    "skill": "Hear a sound at the beginning, middle or end; ending sounds; the middle vowel",
    "code": "RF.K.2.d",
    "types": [
-    "G1-495",
     "K-226",
     "K-227",
     "K-325",
@@ -5019,7 +5124,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 18,
+   "order": 23,
    "prerequisites": [
     "K:beginning-sounds"
    ]
@@ -5044,7 +5149,7 @@
     216
    ],
    "verdict": "gap",
-   "order": 19,
+   "order": 24,
    "prerequisites": [
     "K:letter-identification"
    ]
@@ -5070,7 +5175,7 @@
    "activities": [],
    "planned": [],
    "verdict": "out-of-scope",
-   "order": 20,
+   "order": 25,
    "prerequisites": []
   },
   {
@@ -5096,7 +5201,7 @@
     214
    ],
    "verdict": "partial",
-   "order": 21,
+   "order": 26,
    "prerequisites": [
     "K:sound-position"
    ]
@@ -5122,7 +5227,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 22,
+   "order": 27,
    "prerequisites": [
     "K:segment-phonemes"
    ]
@@ -5162,7 +5267,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 23,
+   "order": 28,
    "prerequisites": [
     "K:cvc-build"
    ]
@@ -5194,7 +5299,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 24,
+   "order": 29,
    "prerequisites": []
   },
   {
@@ -5216,7 +5321,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 25,
+   "order": 30,
    "prerequisites": [
     "K:beginning-sounds"
    ]
@@ -5256,7 +5361,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 26,
+   "order": 31,
    "prerequisites": [
     "K:letter-identification"
    ]
@@ -5281,7 +5386,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 27,
+   "order": 32,
    "prerequisites": []
   },
   {
@@ -5302,7 +5407,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 28,
+   "order": 33,
    "prerequisites": []
   },
   {
@@ -5324,7 +5429,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 29,
+   "order": 34,
    "prerequisites": []
   },
   {
@@ -5346,7 +5451,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 30,
+   "order": 35,
    "prerequisites": []
   },
   {
@@ -5368,7 +5473,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 31,
+   "order": 36,
    "prerequisites": []
   },
   {
@@ -5390,7 +5495,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 32,
+   "order": 37,
    "prerequisites": []
   },
   {
@@ -5412,7 +5517,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 33,
+   "order": 38,
    "prerequisites": []
   },
   {
@@ -5458,7 +5563,7 @@
     218
    ],
    "verdict": "partial",
-   "order": 34,
+   "order": 39,
    "prerequisites": [
     "K:letter-formation"
    ]
@@ -5485,7 +5590,7 @@
     217
    ],
    "verdict": "gap",
-   "order": 35,
+   "order": 40,
    "prerequisites": []
   },
   {
@@ -5510,7 +5615,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 36,
+   "order": 41,
    "prerequisites": [
     "K:rhyme"
    ]
@@ -5538,7 +5643,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 37,
+   "order": 42,
    "prerequisites": [
     "K:segment-phonemes"
    ]
@@ -5556,7 +5661,6 @@
     "G1-392",
     "G1-393",
     "G1-394",
-    "G1-493",
     "G1-588"
    ],
    "families": [
@@ -5570,7 +5674,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 38,
+   "order": 43,
    "prerequisites": [
     "K:digraphs-k"
    ]
@@ -5595,7 +5699,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 39,
+   "order": 44,
    "prerequisites": []
   },
   {
@@ -5607,6 +5711,7 @@
    "skill": "Read and spell one-syllable words that start with a consonant blend (s-blends, l-blends, r-blends)",
    "code": "RF.1.3.b",
    "types": [
+    "G1-493",
     "G1-590"
    ],
    "families": [
@@ -5618,7 +5723,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 40,
+   "order": 45,
    "prerequisites": []
   },
   {
@@ -5641,7 +5746,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 41,
+   "order": 46,
    "prerequisites": []
   },
   {
@@ -5691,7 +5796,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 42,
+   "order": 47,
    "prerequisites": [
     "1:phoneme-boxes",
     "K:cvc-build"
@@ -5727,7 +5832,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 43,
+   "order": 48,
    "prerequisites": [
     "K:count-syllables"
    ]
@@ -5750,7 +5855,7 @@
     255
    ],
    "verdict": "gap",
-   "order": 44,
+   "order": 49,
    "prerequisites": [
     "1:syllables-split",
     "K:vowels-consonants"
@@ -5783,7 +5888,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 45,
+   "order": 50,
    "prerequisites": [
     "1:syllables-split",
     "K:cvc-build"
@@ -5812,7 +5917,7 @@
     213
    ],
    "verdict": "gap",
-   "order": 46,
+   "order": 51,
    "prerequisites": [
     "K:alphabet-order"
    ]
@@ -5838,7 +5943,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 47,
+   "order": 52,
    "prerequisites": [
     "K:opposites"
    ]
@@ -5863,7 +5968,7 @@
     217
    ],
    "verdict": "gap",
-   "order": 48,
+   "order": 53,
    "prerequisites": [
     "K:articles"
    ]
@@ -5901,7 +6006,7 @@
     256
    ],
    "verdict": "partial",
-   "order": 49,
+   "order": 54,
    "prerequisites": [
     "1:word-families-syllable-reading",
     "K:sight-words-reading"
@@ -5931,7 +6036,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 50,
+   "order": 55,
    "prerequisites": [
     "1:word-families-syllable-reading",
     "K:sight-words-reading"
@@ -5956,7 +6061,7 @@
     258
    ],
    "verdict": "gap",
-   "order": 51,
+   "order": 56,
    "prerequisites": [
     "K:word-picture-match"
    ]
@@ -5987,7 +6092,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 52,
+   "order": 57,
    "prerequisites": [
     "1:cloze",
     "K:word-sentence-tracing"
@@ -6014,7 +6119,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 53,
+   "order": 58,
    "prerequisites": [
     "1:read-and-follow"
    ]
@@ -6041,7 +6146,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 54,
+   "order": 59,
    "prerequisites": [
     "K:story-sequencing",
     "1:read-and-follow"
@@ -6066,7 +6171,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 55,
+   "order": 60,
    "prerequisites": []
   },
   {
@@ -6088,7 +6193,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 56,
+   "order": 61,
    "prerequisites": []
   },
   {
@@ -6110,7 +6215,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 57,
+   "order": 62,
    "prerequisites": []
   },
   {
@@ -6130,7 +6235,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 58,
+   "order": 63,
    "prerequisites": []
   },
   {
@@ -6152,7 +6257,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 59,
+   "order": 64,
    "prerequisites": []
   },
   {
@@ -6175,7 +6280,30 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 60,
+   "order": 65,
+   "prerequisites": []
+  },
+  {
+   "id": "1:long-or-short-vowel",
+   "grade": "1",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Hear whether the vowel sound of a one-syllable word is long or short",
+   "code": "RF.1.2.a",
+   "types": [
+    "G1-495"
+   ],
+   "families": [
+    "phonological-awareness"
+   ],
+   "activities": [
+    "stretch-giraffe.long-short-vowel.rf-1-2-a"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 66,
    "prerequisites": []
   },
   {
@@ -6198,7 +6326,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 61,
+   "order": 67,
    "prerequisites": []
   },
   {
@@ -6221,7 +6349,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 62,
+   "order": 68,
    "prerequisites": []
   },
   {
@@ -6244,7 +6372,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 63,
+   "order": 69,
    "prerequisites": []
   },
   {
@@ -6269,7 +6397,7 @@
     257
    ],
    "verdict": "partial",
-   "order": 64,
+   "order": 70,
    "prerequisites": [
     "1:cloze"
    ]
@@ -6294,7 +6422,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 65,
+   "order": 71,
    "prerequisites": [
     "1:cloze"
    ]
@@ -6319,7 +6447,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 66,
+   "order": 72,
    "prerequisites": [
     "1:synonyms"
    ]
@@ -6345,7 +6473,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 67,
+   "order": 73,
    "prerequisites": [
     "1:word-families-syllable-reading"
    ]
@@ -6371,7 +6499,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 68,
+   "order": 74,
    "prerequisites": [
     "1:story-sequencing",
     "1:unscramble-sentence",
@@ -6397,7 +6525,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 69,
+   "order": 75,
    "prerequisites": []
   },
   {
@@ -6420,7 +6548,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 70,
+   "order": 76,
    "prerequisites": []
   },
   {
@@ -6441,7 +6569,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 71,
+   "order": 77,
    "prerequisites": []
   },
   {
@@ -6462,7 +6590,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 72,
+   "order": 78,
    "prerequisites": [
     "1:digraphs"
    ]
@@ -6493,7 +6621,7 @@
     278
    ],
    "verdict": "partial",
-   "order": 73,
+   "order": 79,
    "prerequisites": [
     "1:unscramble-sentence"
    ]
@@ -6524,7 +6652,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 74,
+   "order": 80,
    "prerequisites": [
     "K:letter-formation"
    ]
@@ -6548,7 +6676,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 75,
+   "order": 81,
    "prerequisites": [
     "1:cloze"
    ]
@@ -6572,7 +6700,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 76,
+   "order": 82,
    "prerequisites": [
     "1:question-words"
    ]
@@ -6608,7 +6736,7 @@
     276
    ],
    "verdict": "partial",
-   "order": 77,
+   "order": 83,
    "prerequisites": [
     "2:question-words",
     "2:cloze-context"
@@ -6639,7 +6767,7 @@
     280
    ],
    "verdict": "partial",
-   "order": 78,
+   "order": 84,
    "prerequisites": [
     "2:sentence-boundaries"
    ]
@@ -6669,7 +6797,7 @@
     257
    ],
    "verdict": "partial",
-   "order": 79,
+   "order": 85,
    "prerequisites": [
     "1:word-classes"
    ]
@@ -6693,7 +6821,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 80,
+   "order": 86,
    "prerequisites": [
     "K:singular-plural",
     "1:spell-picture-words"
@@ -6726,7 +6854,7 @@
     279
    ],
    "verdict": "partial",
-   "order": 81,
+   "order": 87,
    "prerequisites": [
     "1:spell-picture-words",
     "1:digraphs"
@@ -6754,7 +6882,7 @@
     258
    ],
    "verdict": "partial",
-   "order": 82,
+   "order": 88,
    "prerequisites": [
     "1:synonyms"
    ]
@@ -6777,7 +6905,7 @@
     311
    ],
    "verdict": "gap",
-   "order": 83,
+   "order": 89,
    "prerequisites": [
     "1:synonyms"
    ]
@@ -6808,7 +6936,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 84,
+   "order": 90,
    "prerequisites": [
     "2:word-classes"
    ]
@@ -6834,7 +6962,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 85,
+   "order": 91,
    "prerequisites": [
     "1:pronouns"
    ]
@@ -6858,7 +6986,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 86,
+   "order": 92,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -6887,7 +7015,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 87,
+   "order": 93,
    "prerequisites": [
     "1:word-families-syllable-reading"
    ]
@@ -6911,7 +7039,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 88,
+   "order": 94,
    "prerequisites": [
     "1:root-words"
    ]
@@ -6937,7 +7065,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 89,
+   "order": 95,
    "prerequisites": [
     "2:root-words"
    ]
@@ -6963,7 +7091,7 @@
     281
    ],
    "verdict": "partial",
-   "order": 90,
+   "order": 96,
    "prerequisites": [
     "1:story-writing",
     "2:sentence-boundaries"
@@ -6987,7 +7115,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 91,
+   "order": 97,
    "prerequisites": []
   },
   {
@@ -7008,7 +7136,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 92,
+   "order": 98,
    "prerequisites": []
   },
   {
@@ -7029,7 +7157,7 @@
     277
    ],
    "verdict": "gap",
-   "order": 93,
+   "order": 99,
    "prerequisites": [
     "1:read-and-follow"
    ]
@@ -7053,7 +7181,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 94,
+   "order": 100,
    "prerequisites": []
   },
   {
@@ -7074,7 +7202,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 95,
+   "order": 101,
    "prerequisites": []
   },
   {
@@ -7095,7 +7223,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 96,
+   "order": 102,
    "prerequisites": []
   },
   {
@@ -7116,7 +7244,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 97,
+   "order": 103,
    "prerequisites": []
   },
   {
@@ -7142,7 +7270,7 @@
     282
    ],
    "verdict": "partial",
-   "order": 98,
+   "order": 104,
    "prerequisites": [
     "2:read-and-answer"
    ]
@@ -7167,7 +7295,7 @@
     282
    ],
    "verdict": "gap",
-   "order": 99,
+   "order": 105,
    "prerequisites": [
     "2:animal-fact-file"
    ]
@@ -7191,7 +7319,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 100,
+   "order": 106,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -7218,7 +7346,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 101,
+   "order": 107,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -7245,7 +7373,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 102,
+   "order": 108,
    "prerequisites": [
     "2:root-words"
    ]
@@ -7270,7 +7398,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 103,
+   "order": 109,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"
@@ -7294,7 +7422,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 104,
+   "order": 110,
    "prerequisites": []
   },
   {
@@ -7315,7 +7443,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 105,
+   "order": 111,
    "prerequisites": []
   },
   {
@@ -7336,7 +7464,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 106,
+   "order": 112,
    "prerequisites": []
   },
   {
@@ -7357,7 +7485,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 107,
+   "order": 113,
    "prerequisites": []
   },
   {
@@ -7378,7 +7506,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 108,
+   "order": 114,
    "prerequisites": []
   },
   {
@@ -7399,7 +7527,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 109,
+   "order": 115,
    "prerequisites": []
   },
   {
@@ -7420,7 +7548,28 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 110,
+   "order": 116,
+   "prerequisites": []
+  },
+  {
+   "id": "3:maps-diagrams-photos",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Use a map or a diagram together with the words of a text to answer where, when, why, and how questions, and tell which source gave the answer",
+   "code": "RI.3.7",
+   "types": [
+    "G3-510",
+    "G3-511"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 117,
    "prerequisites": []
   },
   {
@@ -7441,7 +7590,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 111,
+   "order": 118,
    "prerequisites": []
   },
   {

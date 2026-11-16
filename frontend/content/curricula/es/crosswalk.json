@@ -2422,6 +2422,26 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:naming-and-action-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:place-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:capital-letter": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:period-or-question-mark": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-the-sentence-longer": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:sound-position": {
    "rows": [
     {
@@ -2836,6 +2856,10 @@
    "by": "authored"
   },
   "1:silent-e": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:long-or-short-vowel": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
@@ -3300,6 +3324,10 @@
    "by": "authored"
   },
   "3:text-features-search-tools": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:maps-diagrams-photos": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

@@ -1,0 +1,3766 @@
+{
+ "_note": "Grade 2 vowels, round 3 (English literacy year, Part 12.3; types/_shared/vowels-g2b.js; written by s-g2vow/round3/bank-b.js). `read`: the reading pages of the lessons oo/ou/ow/oi/oy (G2-543), ar and or (G2-544), er, ir, and ur (G2-545): per lesson the spellings (the frozen word lists of G2-532..534), the spellings each level reads, the examples of the page instruction, words never printed in a text (`avoid`), yes-or-no sentences, riddles (an answer and the list words that answer it too), the words that fill a riddle box (they answer no riddle), and read-and-draw sentences. `syll`: two-syllable words with a long vowel by level (compound words with a vowel team, a silent e, an open first syllable): the two parts and the syllables with a long vowel; sentences to choose a word from three (G2-546); yes-or-no sentences (G2-547); `joins`: every first part and second part of a level that make a real word. `heart`: the heart words could, would, should and their companions with their sound boxes and hearts (from the Heart Words tool), and sentences whose missing word is named by its first letter (G2-548).",
+ "read": {
+  "diph": {
+   "spell": {
+    "oo": [
+     "moon",
+     "spoon",
+     "food",
+     "pool",
+     "cool",
+     "boot",
+     "hoop",
+     "loop",
+     "zoo",
+     "noon",
+     "soon",
+     "tooth",
+     "goose",
+     "shoot",
+     "scoop",
+     "stool",
+     "tool",
+     "zoom",
+     "bloom",
+     "moose",
+     "hoot",
+     "mood",
+     "fool",
+     "drool",
+     "swoop",
+     "smooth",
+     "book",
+     "look",
+     "cook",
+     "took",
+     "good",
+     "hood",
+     "wood",
+     "foot",
+     "hook",
+     "shook",
+     "stood",
+     "wool",
+     "crook"
+    ],
+    "ou": [
+     "cloud",
+     "loud",
+     "proud",
+     "house",
+     "mouse",
+     "mouth",
+     "south",
+     "shout",
+     "scout",
+     "trout",
+     "snout",
+     "spout",
+     "sprout",
+     "couch",
+     "pouch",
+     "found",
+     "round",
+     "sound",
+     "pound",
+     "ground",
+     "count",
+     "grouch",
+     "crouch"
+    ],
+    "ow": [
+     "cow",
+     "how",
+     "now",
+     "wow",
+     "down",
+     "town",
+     "brown",
+     "clown",
+     "crown",
+     "frown",
+     "gown",
+     "owl",
+     "howl",
+     "growl"
+    ],
+    "oi": [
+     "coin",
+     "boil",
+     "soil",
+     "foil",
+     "join",
+     "point",
+     "spoil",
+     "coil"
+    ],
+    "oy": [
+     "boy",
+     "toy",
+     "joy",
+     "soy"
+    ]
+   },
+   "levels": {
+    "1": [
+     "oo"
+    ],
+    "2": [
+     "ou",
+     "ow",
+     "oi",
+     "oy"
+    ],
+    "3": [
+     "oo",
+     "ou",
+     "ow",
+     "oi",
+     "oy"
+    ]
+   },
+   "say": {
+    "1": [
+     "moon",
+     "book",
+     "sound"
+    ],
+    "2": [
+     "cow",
+     "boy",
+     "sound"
+    ],
+    "3": [
+     "moon",
+     "book",
+     "cow",
+     "boy",
+     "sound"
+    ]
+   },
+   "avoid": [
+    "snow",
+    "grow",
+    "show",
+    "know",
+    "slow",
+    "low",
+    "own",
+    "bowl",
+    "blow",
+    "throw",
+    "yellow",
+    "window",
+    "below",
+    "flow",
+    "crow",
+    "mow",
+    "tow",
+    "glow",
+    "row",
+    "bow",
+    "sow",
+    "soup",
+    "group",
+    "touch",
+    "young",
+    "country",
+    "four",
+    "pour",
+    "tour",
+    "could",
+    "would",
+    "should",
+    "door",
+    "floor",
+    "blood",
+    "flood",
+    "shoulder"
+   ],
+   "yesno": [
+    {
+     "text": "You can eat food with a spoon.",
+     "a": "yes"
+    },
+    {
+     "text": "A goose can read a book.",
+     "a": "no"
+    },
+    {
+     "text": "You can swim in a pool.",
+     "a": "yes"
+    },
+    {
+     "text": "A foot has five toes.",
+     "a": "yes"
+    },
+    {
+     "text": "A moose is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "A spoon can hop.",
+     "a": "no"
+    },
+    {
+     "text": "You wear a boot on a foot.",
+     "a": "yes"
+    },
+    {
+     "text": "A hook can sing a song.",
+     "a": "no"
+    },
+    {
+     "text": "A zoo has animals in it.",
+     "a": "yes"
+    },
+    {
+     "text": "Some birds hoot at night.",
+     "a": "yes"
+    },
+    {
+     "text": "Ice is cool.",
+     "a": "yes"
+    },
+    {
+     "text": "A book has pages.",
+     "a": "yes"
+    },
+    {
+     "text": "You can stand on one foot.",
+     "a": "yes"
+    },
+    {
+     "text": "A goose can fly.",
+     "a": "yes"
+    },
+    {
+     "text": "Wood comes from trees.",
+     "a": "yes"
+    },
+    {
+     "text": "A stool is a kind of food.",
+     "a": "no"
+    },
+    {
+     "text": "Noon is in the middle of the day.",
+     "a": "yes"
+    },
+    {
+     "text": "A good cook can bake a cake.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat a boot.",
+     "a": "no"
+    },
+    {
+     "text": "Eyes help kids look.",
+     "a": "yes"
+    },
+    {
+     "text": "A tool can help you fix a bike.",
+     "a": "yes"
+    },
+    {
+     "text": "A moose can fit in a cup.",
+     "a": "no"
+    },
+    {
+     "text": "A hood goes on a foot.",
+     "a": "no"
+    },
+    {
+     "text": "Wool comes from sheep.",
+     "a": "yes"
+    },
+    {
+     "text": "A pool is full of sand.",
+     "a": "no"
+    },
+    {
+     "text": "A cow can bark.",
+     "a": "no"
+    },
+    {
+     "text": "A mouse is bigger than a house.",
+     "a": "no"
+    },
+    {
+     "text": "A clown can make you laugh.",
+     "a": "yes"
+    },
+    {
+     "text": "You can count to ten.",
+     "a": "yes"
+    },
+    {
+     "text": "A coin is a kind of money.",
+     "a": "yes"
+    },
+    {
+     "text": "A toy can boil water.",
+     "a": "no"
+    },
+    {
+     "text": "An owl can fly.",
+     "a": "yes"
+    },
+    {
+     "text": "Rain comes from a cloud.",
+     "a": "yes"
+    },
+    {
+     "text": "A crown goes on a dog's foot.",
+     "a": "no"
+    },
+    {
+     "text": "A mouth is on a face.",
+     "a": "yes"
+    },
+    {
+     "text": "A dog can growl.",
+     "a": "yes"
+    },
+    {
+     "text": "A brown cow can talk.",
+     "a": "no"
+    },
+    {
+     "text": "You can sit on a couch.",
+     "a": "yes"
+    },
+    {
+     "text": "A loud sound can hurt ears.",
+     "a": "yes"
+    },
+    {
+     "text": "Joy is a sad feeling.",
+     "a": "no"
+    },
+    {
+     "text": "You can join a team.",
+     "a": "yes"
+    },
+    {
+     "text": "A frown is a happy face.",
+     "a": "no"
+    },
+    {
+     "text": "A mouse can roar like a lion.",
+     "a": "no"
+    },
+    {
+     "text": "Water can boil in a pot.",
+     "a": "yes"
+    },
+    {
+     "text": "We stand on the ground.",
+     "a": "yes"
+    },
+    {
+     "text": "A round ball can roll.",
+     "a": "yes"
+    },
+    {
+     "text": "A cloud is made of rocks.",
+     "a": "no"
+    },
+    {
+     "text": "A cow gives us milk.",
+     "a": "yes"
+    },
+    {
+     "text": "A boy can be a brother.",
+     "a": "yes"
+    },
+    {
+     "text": "You shout when you whisper.",
+     "a": "no"
+    },
+    {
+     "text": "A pencil can have a sharp point.",
+     "a": "yes"
+    },
+    {
+     "text": "A shout is a quiet sound.",
+     "a": "no"
+    },
+    {
+     "text": "A boy can play with a toy.",
+     "a": "yes"
+    },
+    {
+     "text": "A town has streets and houses.",
+     "a": "yes"
+    },
+    {
+     "text": "A brown cow can read a book.",
+     "a": "no"
+    },
+    {
+     "text": "An owl can hoot at night.",
+     "a": "yes"
+    },
+    {
+     "text": "A clown can wear a crown.",
+     "a": "yes"
+    },
+    {
+     "text": "You can cook food in a house.",
+     "a": "yes"
+    },
+    {
+     "text": "A mouse can eat a moose.",
+     "a": "no"
+    },
+    {
+     "text": "A boy can put a coin in a boot.",
+     "a": "yes"
+    },
+    {
+     "text": "A goose can count to ten.",
+     "a": "no"
+    },
+    {
+     "text": "A cloud can sit on a stool.",
+     "a": "no"
+    }
+   ],
+   "riddles": [
+    {
+     "a": "moon",
+     "text": "I am in the sky at night. I am not a star. What am I?",
+     "fits": [
+      "cloud"
+     ]
+    },
+    {
+     "a": "spoon",
+     "text": "You use me to eat. I am not a fork. What am I?",
+     "fits": []
+    },
+    {
+     "a": "pool",
+     "text": "You swim in me. I am full of water. What am I?",
+     "fits": []
+    },
+    {
+     "a": "zoo",
+     "text": "Lions and bears live here. You can visit them. What am I?",
+     "fits": []
+    },
+    {
+     "a": "tooth",
+     "text": "You brush me. I am white. I can be loose. What am I?",
+     "fits": []
+    },
+    {
+     "a": "goose",
+     "text": "I am a bird. I can honk. What am I?",
+     "fits": []
+    },
+    {
+     "a": "hook",
+     "text": "You hang a coat on me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "wood",
+     "text": "I come from trees. You can burn me in a fire. What am I?",
+     "fits": []
+    },
+    {
+     "a": "boot",
+     "text": "You wear me on a foot when it rains. What am I?",
+     "fits": []
+    },
+    {
+     "a": "stool",
+     "text": "You sit on me. I have no back. What am I?",
+     "fits": []
+    },
+    {
+     "a": "cow",
+     "text": "I am a farm animal. I say moo. I give you milk. What am I?",
+     "fits": []
+    },
+    {
+     "a": "owl",
+     "text": "I am a bird. I fly at night. I have big eyes. What am I?",
+     "fits": [
+      "goose"
+     ]
+    },
+    {
+     "a": "clown",
+     "text": "I have a red nose and big shoes. I make you laugh. What am I?",
+     "fits": []
+    },
+    {
+     "a": "crown",
+     "text": "A king wears me on his head. What am I?",
+     "fits": []
+    },
+    {
+     "a": "house",
+     "text": "You live in me with a family. I have a kitchen and a bed. What am I?",
+     "fits": []
+    },
+    {
+     "a": "mouse",
+     "text": "I am small and gray. I like cheese. What am I?",
+     "fits": []
+    },
+    {
+     "a": "cloud",
+     "text": "I float in the sky. Rain falls from me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "coin",
+     "text": "I am round and flat. You put me in a piggy bank. What am I?",
+     "fits": []
+    },
+    {
+     "a": "toy",
+     "text": "You play with me. I can be a doll or a ball. What am I?",
+     "fits": []
+    },
+    {
+     "a": "couch",
+     "text": "You sit on me to watch TV. I am soft. What am I?",
+     "fits": []
+    },
+    {
+     "a": "mouth",
+     "text": "You eat and talk with me. I am on a face. What am I?",
+     "fits": []
+    }
+   ],
+   "ok": [
+    "houses",
+    "loose",
+    "moo",
+    "you",
+    "sounds",
+    "vowel",
+    "oo",
+    "ou",
+    "ow",
+    "oi",
+    "oy"
+   ],
+   "fillers": {
+    "oo": [
+     "noon",
+     "mood",
+     "scoop",
+     "shook",
+     "stood",
+     "wool"
+    ],
+    "ou": [
+     "loud",
+     "proud",
+     "south",
+     "shout",
+     "found"
+    ],
+    "ow": [
+     "frown",
+     "down",
+     "how",
+     "now"
+    ],
+    "oi": [
+     "join",
+     "spoil",
+     "boil"
+    ],
+    "oy": [
+     "joy"
+    ]
+   },
+   "draw": [
+    "Draw a moon over a pool.",
+    "Draw a book on a stool.",
+    "Draw a spoon next to a cup.",
+    "Draw a goose by a pool.",
+    "Draw a moose next to a tree.",
+    "Draw a boot and a book.",
+    "Draw a brown cow under a cloud.",
+    "Draw a mouse in a house.",
+    "Draw a clown with a crown.",
+    "Draw a boy with a toy.",
+    "Draw an owl on a round rock.",
+    "Draw a coin on a couch.",
+    "Draw a cow reading a book.",
+    "Draw an owl and a moon.",
+    "Draw a boy in a pool.",
+    "Draw a mouse on a stool."
+   ]
+  },
+  "aror": {
+   "spell": {
+    "ar": [
+     "car",
+     "star",
+     "jar",
+     "far",
+     "bar",
+     "scar",
+     "park",
+     "dark",
+     "bark",
+     "mark",
+     "shark",
+     "spark",
+     "farm",
+     "harm",
+     "arm",
+     "art",
+     "cart",
+     "part",
+     "start",
+     "smart",
+     "chart",
+     "barn",
+     "yarn",
+     "hard",
+     "card",
+     "yard",
+     "harp",
+     "sharp",
+     "march",
+     "charm",
+     "scarf",
+     "dart",
+     "tar"
+    ],
+    "or": [
+     "fork",
+     "corn",
+     "horn",
+     "born",
+     "torn",
+     "cord",
+     "for",
+     "storm",
+     "form",
+     "sport",
+     "short",
+     "fort",
+     "sort",
+     "north",
+     "horse",
+     "porch",
+     "torch",
+     "snort",
+     "stork",
+     "cork",
+     "pork",
+     "thorn"
+    ]
+   },
+   "levels": {
+    "1": [
+     "ar"
+    ],
+    "2": [
+     "ar",
+     "or"
+    ],
+    "3": [
+     "ar",
+     "or"
+    ]
+   },
+   "say": {
+    "1": [
+     "park"
+    ],
+    "2": [
+     "park",
+     "storm"
+    ],
+    "3": [
+     "park",
+     "storm"
+    ]
+   },
+   "avoid": [
+    "word",
+    "work",
+    "world",
+    "worm",
+    "warm",
+    "war",
+    "ward",
+    "carrot",
+    "parent",
+    "doctor",
+    "color",
+    "favorite",
+    "dollar",
+    "more",
+    "store",
+    "sore",
+    "score",
+    "wore"
+   ],
+   "yesno": [
+    {
+     "text": "A shark can swim.",
+     "a": "yes"
+    },
+    {
+     "text": "A car can fly over a barn.",
+     "a": "no"
+    },
+    {
+     "text": "A star shines at night.",
+     "a": "yes"
+    },
+    {
+     "text": "Pigs and cows can live on a farm.",
+     "a": "yes"
+    },
+    {
+     "text": "It is dark at night.",
+     "a": "yes"
+    },
+    {
+     "text": "A dog can bark.",
+     "a": "yes"
+    },
+    {
+     "text": "A jar can talk.",
+     "a": "no"
+    },
+    {
+     "text": "A rock is hard.",
+     "a": "yes"
+    },
+    {
+     "text": "A cart has wheels.",
+     "a": "yes"
+    },
+    {
+     "text": "A shark lives in a barn.",
+     "a": "no"
+    },
+    {
+     "text": "A knife is sharp.",
+     "a": "yes"
+    },
+    {
+     "text": "A cat can bark.",
+     "a": "no"
+    },
+    {
+     "text": "Kids can play in a yard.",
+     "a": "yes"
+    },
+    {
+     "text": "You can send a card to a friend.",
+     "a": "yes"
+    },
+    {
+     "text": "A park has trees and grass.",
+     "a": "yes"
+    },
+    {
+     "text": "A scarf goes on your neck.",
+     "a": "yes"
+    },
+    {
+     "text": "Your arm is part of your leg.",
+     "a": "no"
+    },
+    {
+     "text": "A car can swim in a jar.",
+     "a": "no"
+    },
+    {
+     "text": "A horse can say moo.",
+     "a": "no"
+    },
+    {
+     "text": "You eat with a fork.",
+     "a": "yes"
+    },
+    {
+     "text": "Corn is a plant.",
+     "a": "yes"
+    },
+    {
+     "text": "A storm can bring rain and wind.",
+     "a": "yes"
+    },
+    {
+     "text": "A car can honk its horn.",
+     "a": "yes"
+    },
+    {
+     "text": "A rose can have a thorn.",
+     "a": "yes"
+    },
+    {
+     "text": "A shark can live on a farm.",
+     "a": "no"
+    },
+    {
+     "text": "A torch can give light.",
+     "a": "yes"
+    },
+    {
+     "text": "A porch is part of a house.",
+     "a": "yes"
+    },
+    {
+     "text": "A horse can run fast.",
+     "a": "yes"
+    },
+    {
+     "text": "Pork comes from a pig.",
+     "a": "yes"
+    },
+    {
+     "text": "A fork can bark.",
+     "a": "no"
+    },
+    {
+     "text": "A horse can sleep in a barn.",
+     "a": "yes"
+    },
+    {
+     "text": "Soccer is a sport.",
+     "a": "yes"
+    },
+    {
+     "text": "A short pencil is very long.",
+     "a": "no"
+    },
+    {
+     "text": "Corn can sing.",
+     "a": "no"
+    }
+   ],
+   "riddles": [
+    {
+     "a": "star",
+     "text": "I shine in the sky at night. I am far away. What am I?",
+     "fits": []
+    },
+    {
+     "a": "shark",
+     "text": "I swim in the sea. I have sharp teeth. What am I?",
+     "fits": []
+    },
+    {
+     "a": "car",
+     "text": "I have wheels. A grown-up drives me on the road. What am I?",
+     "fits": []
+    },
+    {
+     "a": "barn",
+     "text": "I am red. I am on a farm. Cows sleep in me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "jar",
+     "text": "I am made of glass. You can keep jam in me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "scarf",
+     "text": "You tie me on a neck when it is cold. What am I?",
+     "fits": []
+    },
+    {
+     "a": "yarn",
+     "text": "You can make a hat with me. Cats like to play with me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "park",
+     "text": "I have swings and slides. Kids play in me. What am I?",
+     "fits": [
+      "yard"
+     ]
+    },
+    {
+     "a": "arm",
+     "text": "I am part of your body. I have an elbow and a hand. What am I?",
+     "fits": []
+    },
+    {
+     "a": "cart",
+     "text": "You push me in a shop. You fill me with food. What am I?",
+     "fits": []
+    },
+    {
+     "a": "card",
+     "text": "You write on me. You send me to a friend on a birthday. What am I?",
+     "fits": []
+    },
+    {
+     "a": "fork",
+     "text": "You eat with me. I am not a spoon. What am I?",
+     "fits": []
+    },
+    {
+     "a": "corn",
+     "text": "I am yellow. You eat me on the cob. What am I?",
+     "fits": []
+    },
+    {
+     "a": "horse",
+     "text": "I am a big animal. You can ride on my back. I say neigh. What am I?",
+     "fits": []
+    },
+    {
+     "a": "horn",
+     "text": "A car has me. I go beep, beep. What am I?",
+     "fits": []
+    },
+    {
+     "a": "storm",
+     "text": "I have wind, rain, and thunder. What am I?",
+     "fits": []
+    },
+    {
+     "a": "thorn",
+     "text": "I am on a rose. I am sharp. Do not touch me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "porch",
+     "text": "I am at the front of a house. You can sit on me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "pork",
+     "text": "I am meat from a pig. What am I?",
+     "fits": []
+    }
+   ],
+   "ok": [
+    "are",
+    "ar",
+    "or"
+   ],
+   "fillers": {
+    "ar": [
+     "dark",
+     "hard",
+     "smart",
+     "part",
+     "mark",
+     "start"
+    ],
+    "or": [
+     "short",
+     "sort",
+     "north",
+     "form",
+     "born",
+     "torn"
+    ]
+   },
+   "draw": [
+    "Draw a star over a red barn.",
+    "Draw a car in a dark park.",
+    "Draw a shark with sharp teeth.",
+    "Draw a jar of jam.",
+    "Draw yarn in a jar.",
+    "Draw a scarf on a snowman.",
+    "Draw a horse next to a barn.",
+    "Draw corn on a farm.",
+    "Draw a fork and a jar.",
+    "Draw a storm over a park.",
+    "Draw a rose with a thorn.",
+    "Draw a star on a red car."
+   ]
+  },
+  "erirur": {
+   "spell": {
+    "er": [
+     "her",
+     "herd",
+     "fern",
+     "germ",
+     "verb",
+     "serve",
+     "perch",
+     "term",
+     "nerve",
+     "sister",
+     "letter",
+     "winter",
+     "summer",
+     "dinner",
+     "butter",
+     "ladder",
+     "hammer",
+     "zipper",
+     "helper",
+     "under",
+     "after",
+     "never",
+     "better",
+     "number",
+     "silver",
+     "monster",
+     "river",
+     "slipper",
+     "supper",
+     "pepper",
+     "hamster",
+     "blender",
+     "mixer",
+     "winner",
+     "locker",
+     "sticker",
+     "flipper",
+     "thunder",
+     "blister",
+     "spinner",
+     "swimmer"
+    ],
+    "ir": [
+     "bird",
+     "girl",
+     "first",
+     "third",
+     "shirt",
+     "skirt",
+     "dirt",
+     "stir",
+     "firm",
+     "chirp",
+     "birth",
+     "twirl",
+     "swirl",
+     "whirl",
+     "squirt"
+    ],
+    "ur": [
+     "fur",
+     "turn",
+     "burn",
+     "hurt",
+     "curl",
+     "church",
+     "nurse",
+     "purse",
+     "burst",
+     "curb",
+     "surf",
+     "blur",
+     "slurp",
+     "purr",
+     "curve"
+    ]
+   },
+   "levels": {
+    "1": [
+     "er"
+    ],
+    "2": [
+     "er",
+     "ir",
+     "ur"
+    ],
+    "3": [
+     "er",
+     "ir",
+     "ur"
+    ]
+   },
+   "say": {
+    "1": [
+     "her"
+    ],
+    "2": [
+     "her",
+     "first",
+     "turn"
+    ],
+    "3": [
+     "her",
+     "first",
+     "turn"
+    ]
+   },
+   "avoid": [
+    "here",
+    "there",
+    "where",
+    "very",
+    "every",
+    "berry",
+    "cherry",
+    "fire",
+    "tire",
+    "wire",
+    "sure",
+    "pure",
+    "iron",
+    "word",
+    "work",
+    "world",
+    "worm"
+   ],
+   "yesno": [
+    {
+     "text": "It is hot in summer.",
+     "a": "yes"
+    },
+    {
+     "text": "A hammer can sing.",
+     "a": "no"
+    },
+    {
+     "text": "A ladder can help you climb up.",
+     "a": "yes"
+    },
+    {
+     "text": "You can put butter on toast.",
+     "a": "yes"
+    },
+    {
+     "text": "A river has water in it.",
+     "a": "yes"
+    },
+    {
+     "text": "Ten is a number.",
+     "a": "yes"
+    },
+    {
+     "text": "Dinner is a meal.",
+     "a": "yes"
+    },
+    {
+     "text": "A sister is part of a family.",
+     "a": "yes"
+    },
+    {
+     "text": "A zipper can close a coat.",
+     "a": "yes"
+    },
+    {
+     "text": "A hamster is a big farm animal.",
+     "a": "no"
+    },
+    {
+     "text": "You eat supper in the morning.",
+     "a": "no"
+    },
+    {
+     "text": "A letter can come in the mail.",
+     "a": "yes"
+    },
+    {
+     "text": "Snow can fall in winter.",
+     "a": "yes"
+    },
+    {
+     "text": "A herd of cows can fly.",
+     "a": "no"
+    },
+    {
+     "text": "Pepper is a kind of rock.",
+     "a": "no"
+    },
+    {
+     "text": "A swimmer can swim fast.",
+     "a": "yes"
+    },
+    {
+     "text": "Thunder is a loud sound.",
+     "a": "yes"
+    },
+    {
+     "text": "You can sit under a table.",
+     "a": "yes"
+    },
+    {
+     "text": "Silver is a kind of fruit.",
+     "a": "no"
+    },
+    {
+     "text": "A germ can make you sick.",
+     "a": "yes"
+    },
+    {
+     "text": "A bird has wings.",
+     "a": "yes"
+    },
+    {
+     "text": "A girl can be a sister.",
+     "a": "yes"
+    },
+    {
+     "text": "A shirt goes on a foot.",
+     "a": "no"
+    },
+    {
+     "text": "A cat has fur.",
+     "a": "yes"
+    },
+    {
+     "text": "A nurse can help sick kids.",
+     "a": "yes"
+    },
+    {
+     "text": "Dirt is good to eat.",
+     "a": "no"
+    },
+    {
+     "text": "A hot pan can burn you.",
+     "a": "yes"
+    },
+    {
+     "text": "A purse can hold money.",
+     "a": "yes"
+    },
+    {
+     "text": "A bird can bark.",
+     "a": "no"
+    },
+    {
+     "text": "A cat can purr.",
+     "a": "yes"
+    },
+    {
+     "text": "A skirt goes on a head.",
+     "a": "no"
+    },
+    {
+     "text": "You can hurt a knee when you fall.",
+     "a": "yes"
+    },
+    {
+     "text": "A turtle has fur.",
+     "a": "no"
+    },
+    {
+     "text": "A girl can twirl.",
+     "a": "yes"
+    },
+    {
+     "text": "A dog has a tail and fur.",
+     "a": "yes"
+    }
+   ],
+   "riddles": [
+    {
+     "a": "hammer",
+     "text": "You hit a nail with me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "ladder",
+     "text": "You climb up me to get on the roof. What am I?",
+     "fits": []
+    },
+    {
+     "a": "letter",
+     "text": "You write me. You mail me to a friend. What am I?",
+     "fits": []
+    },
+    {
+     "a": "winter",
+     "text": "I am the cold time of the year. Snow falls in me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "summer",
+     "text": "I am the hot time of the year. School is out. What am I?",
+     "fits": []
+    },
+    {
+     "a": "river",
+     "text": "I am long and full of water. Boats go on me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "butter",
+     "text": "I am yellow. You put me on toast. What am I?",
+     "fits": []
+    },
+    {
+     "a": "zipper",
+     "text": "I am on a coat. I go up and down to close it. What am I?",
+     "fits": []
+    },
+    {
+     "a": "sister",
+     "text": "I have the same mom and dad as you. I am not a boy. What am I?",
+     "fits": []
+    },
+    {
+     "a": "hamster",
+     "text": "I am a small pet. I am soft. I run on a wheel. What am I?",
+     "fits": []
+    },
+    {
+     "a": "thunder",
+     "text": "I am a loud boom in a storm. What am I?",
+     "fits": []
+    },
+    {
+     "a": "bird",
+     "text": "I have wings and a beak. I can sing. I live in a nest. What am I?",
+     "fits": []
+    },
+    {
+     "a": "nurse",
+     "text": "I help sick people get well. What am I?",
+     "fits": [
+      "helper"
+     ]
+    },
+    {
+     "a": "shirt",
+     "text": "I have a collar and buttons. You tuck me into pants. What am I?",
+     "fits": []
+    },
+    {
+     "a": "purse",
+     "text": "Mom keeps her keys and money in me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "fur",
+     "text": "A cat has me. I am soft. What am I?",
+     "fits": []
+    },
+    {
+     "a": "dirt",
+     "text": "Plants grow in me. Kids dig in me. What am I?",
+     "fits": []
+    },
+    {
+     "a": "girl",
+     "text": "I am a kid. I am not a boy. What am I?",
+     "fits": [
+      "sister"
+     ]
+    }
+   ],
+   "ok": [
+    "turtle",
+    "water",
+    "answer",
+    "letter",
+    "er",
+    "ir",
+    "ur",
+    "circle"
+   ],
+   "fillers": {
+    "er": [
+     "after",
+     "never",
+     "under",
+     "better",
+     "verb",
+     "perch"
+    ],
+    "ir": [
+     "stir",
+     "firm",
+     "third"
+    ],
+    "ur": [
+     "blur",
+     "curb",
+     "burst",
+     "slurp"
+    ]
+   },
+   "draw": [
+    "Draw a hamster under a ladder.",
+    "Draw a river in winter.",
+    "Draw a hammer and a sticker.",
+    "Draw a monster with a zipper.",
+    "Draw a letter with a sticker on it.",
+    "Draw a river with a boat on it.",
+    "Draw a bird with a hamster.",
+    "Draw a girl in a red skirt.",
+    "Draw a nurse with a purse.",
+    "Draw a cat with soft fur.",
+    "Draw a bird in the dirt.",
+    "Draw a girl in a shirt with stars."
+   ]
+  }
+ },
+ "syll": {
+  "levels": {
+   "1": [
+    {
+     "w": "mailbox",
+     "parts": [
+      "mail",
+      "box"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "mailman",
+     "parts": [
+      "mail",
+      "man"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "paintbrush",
+     "parts": [
+      "paint",
+      "brush"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "haystack",
+     "parts": [
+      "hay",
+      "stack"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "subway",
+     "parts": [
+      "sub",
+      "way"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "runway",
+     "parts": [
+      "run",
+      "way"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "weekend",
+     "parts": [
+      "week",
+      "end"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "treetop",
+     "parts": [
+      "tree",
+      "top"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "sheepdog",
+     "parts": [
+      "sheep",
+      "dog"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "peanut",
+     "parts": [
+      "pea",
+      "nut"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "seashell",
+     "parts": [
+      "sea",
+      "shell"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "teapot",
+     "parts": [
+      "tea",
+      "pot"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "teacup",
+     "parts": [
+      "tea",
+      "cup"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "sunbeam",
+     "parts": [
+      "sun",
+      "beam"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "seagull",
+     "parts": [
+      "sea",
+      "gull"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "seasick",
+     "parts": [
+      "sea",
+      "sick"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "snowman",
+     "parts": [
+      "snow",
+      "man"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "playground",
+     "parts": [
+      "play",
+      "ground"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "rainbow",
+     "parts": [
+      "rain",
+      "bow"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "raincoat",
+     "parts": [
+      "rain",
+      "coat"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "sailboat",
+     "parts": [
+      "sail",
+      "boat"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "seaweed",
+     "parts": [
+      "sea",
+      "weed"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "daydream",
+     "parts": [
+      "day",
+      "dream"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "oatmeal",
+     "parts": [
+      "oat",
+      "meal"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    }
+   ],
+   "2": [
+    {
+     "w": "cupcake",
+     "parts": [
+      "cup",
+      "cake"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "pancake",
+     "parts": [
+      "pan",
+      "cake"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "invite",
+     "parts": [
+      "in",
+      "vite"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "inside",
+     "parts": [
+      "in",
+      "side"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "sunshine",
+     "parts": [
+      "sun",
+      "shine"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "sunrise",
+     "parts": [
+      "sun",
+      "rise"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "bedtime",
+     "parts": [
+      "bed",
+      "time"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "lunchtime",
+     "parts": [
+      "lunch",
+      "time"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "milkshake",
+     "parts": [
+      "milk",
+      "shake"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "nickname",
+     "parts": [
+      "nick",
+      "name"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "mistake",
+     "parts": [
+      "mis",
+      "take"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "dislike",
+     "parts": [
+      "dis",
+      "like"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "homesick",
+     "parts": [
+      "home",
+      "sick"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "hillside",
+     "parts": [
+      "hill",
+      "side"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "wishbone",
+     "parts": [
+      "wish",
+      "bone"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "backbone",
+     "parts": [
+      "back",
+      "bone"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "rosebud",
+     "parts": [
+      "rose",
+      "bud"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "trombone",
+     "parts": [
+      "trom",
+      "bone"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "escape",
+     "parts": [
+      "es",
+      "cape"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "explode",
+     "parts": [
+      "ex",
+      "plode"
+     ],
+     "long": [
+      1
+     ]
+    },
+    {
+     "w": "pinecone",
+     "parts": [
+      "pine",
+      "cone"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "homemade",
+     "parts": [
+      "home",
+      "made"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "lifetime",
+     "parts": [
+      "life",
+      "time"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    }
+   ],
+   "3": [
+    {
+     "w": "paper",
+     "parts": [
+      "pa",
+      "per"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "tiger",
+     "parts": [
+      "ti",
+      "ger"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "spider",
+     "parts": [
+      "spi",
+      "der"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "music",
+     "parts": [
+      "mu",
+      "sic"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "robot",
+     "parts": [
+      "ro",
+      "bot"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "open",
+     "parts": [
+      "o",
+      "pen"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "bacon",
+     "parts": [
+      "ba",
+      "con"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "hotel",
+     "parts": [
+      "ho",
+      "tel"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "pilot",
+     "parts": [
+      "pi",
+      "lot"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "label",
+     "parts": [
+      "la",
+      "bel"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "even",
+     "parts": [
+      "e",
+      "ven"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "human",
+     "parts": [
+      "hu",
+      "man"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "unit",
+     "parts": [
+      "u",
+      "nit"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "secret",
+     "parts": [
+      "se",
+      "cret"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "silent",
+     "parts": [
+      "si",
+      "lent"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "minus",
+     "parts": [
+      "mi",
+      "nus"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "photo",
+     "parts": [
+      "pho",
+      "to"
+     ],
+     "long": [
+      0,
+      1
+     ]
+    },
+    {
+     "w": "baker",
+     "parts": [
+      "ba",
+      "ker"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "later",
+     "parts": [
+      "la",
+      "ter"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "over",
+     "parts": [
+      "o",
+      "ver"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "motor",
+     "parts": [
+      "mo",
+      "tor"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "donut",
+     "parts": [
+      "do",
+      "nut"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "acorn",
+     "parts": [
+      "a",
+      "corn"
+     ],
+     "long": [
+      0
+     ]
+    },
+    {
+     "w": "apron",
+     "parts": [
+      "a",
+      "pron"
+     ],
+     "long": [
+      0
+     ]
+    }
+   ]
+  },
+  "say": {
+   "1": [
+    "rainbow"
+   ],
+   "2": [
+    "cupcake"
+   ],
+   "3": [
+    "paper"
+   ]
+  },
+  "ok": {
+   "1": [
+    "beach",
+    "boat",
+    "eat",
+    "feel",
+    "hay",
+    "keeps",
+    "mail",
+    "paint",
+    "play",
+    "raining",
+    "sail",
+    "sheep",
+    "snow",
+    "tea",
+    "toast",
+    "read",
+    "each",
+    "between",
+    "rain",
+    "bow"
+   ],
+   "2": [
+    "ate",
+    "like",
+    "made",
+    "make",
+    "name",
+    "page",
+    "pine",
+    "time",
+    "line",
+    "makes",
+    "whole",
+    "write",
+    "cake"
+   ],
+   "3": [
+    "cakes",
+    "hides",
+    "makes",
+    "stripes"
+   ]
+  },
+  "sentences": {
+   "1": [
+    {
+     "text": "I put a letter in the ___.",
+     "right": "mailbox",
+     "fits": []
+    },
+    {
+     "text": "Put on your ___. It is raining.",
+     "right": "raincoat",
+     "fits": []
+    },
+    {
+     "text": "We made a ___ in the snow.",
+     "right": "snowman",
+     "fits": []
+    },
+    {
+     "text": "The kids play on the ___ at school.",
+     "right": "playground",
+     "fits": []
+    },
+    {
+     "text": "I eat hot ___ with a spoon.",
+     "right": "oatmeal",
+     "fits": []
+    },
+    {
+     "text": "We can sail on the lake in a ___.",
+     "right": "sailboat",
+     "fits": []
+    },
+    {
+     "text": "A ___ flew over the beach.",
+     "right": "seagull",
+     "fits": []
+    },
+    {
+     "text": "I found a pink ___ on the sand.",
+     "right": "seashell",
+     "fits": [
+      "teacup",
+      "teapot"
+     ]
+    },
+    {
+     "text": "Mom made tea in the ___.",
+     "right": "teapot",
+     "fits": [
+      "teacup"
+     ]
+    },
+    {
+     "text": "We have no school on the ___.",
+     "right": "weekend",
+     "fits": []
+    },
+    {
+     "text": "The ___ brought us a letter.",
+     "right": "mailman",
+     "fits": [
+      "sheepdog"
+     ]
+    },
+    {
+     "text": "I paint with a ___.",
+     "right": "paintbrush",
+     "fits": []
+    },
+    {
+     "text": "A ___ helps the farmer with the sheep.",
+     "right": "sheepdog",
+     "fits": []
+    },
+    {
+     "text": "I like ___ butter on toast.",
+     "right": "peanut",
+     "fits": []
+    },
+    {
+     "text": "We rode the ___ under the city.",
+     "right": "subway",
+     "fits": []
+    },
+    {
+     "text": "The plane landed on the ___.",
+     "right": "runway",
+     "fits": []
+    },
+    {
+     "text": "The sun sent a ___ into my room.",
+     "right": "sunbeam",
+     "fits": []
+    },
+    {
+     "text": "I feel ___ on a rocking boat.",
+     "right": "seasick",
+     "fits": []
+    },
+    {
+     "text": "I had a ___ about a castle.",
+     "right": "daydream",
+     "fits": []
+    }
+   ],
+   "2": [
+    {
+     "text": "I ate a ___ with pink frosting.",
+     "right": "cupcake",
+     "fits": []
+    },
+    {
+     "text": "I put syrup on my ___.",
+     "right": "pancake",
+     "fits": [
+      "milkshake"
+     ]
+    },
+    {
+     "text": "Can I ___ my friend to my party?",
+     "right": "invite",
+     "fits": []
+    },
+    {
+     "text": "Stay ___. It is cold out.",
+     "right": "inside",
+     "fits": []
+    },
+    {
+     "text": "At ___, the sun peeks over the hills.",
+     "right": "sunrise",
+     "fits": []
+    },
+    {
+     "text": "I go to bed at ___.",
+     "right": "bedtime",
+     "fits": []
+    },
+    {
+     "text": "We eat at ___.",
+     "right": "lunchtime",
+     "fits": [
+      "bedtime",
+      "sunrise"
+     ]
+    },
+    {
+     "text": "I drank a ___ with a straw.",
+     "right": "milkshake",
+     "fits": []
+    },
+    {
+     "text": "Oops! I made a ___ on my math page.",
+     "right": "mistake",
+     "fits": []
+    },
+    {
+     "text": "I ___ rainy days. I like sunny days.",
+     "right": "dislike",
+     "fits": []
+    },
+    {
+     "text": "I was ___ at camp. I missed my mom.",
+     "right": "homesick",
+     "fits": []
+    },
+    {
+     "text": "Kids play in the ___ on a hot day.",
+     "right": "sunshine",
+     "fits": []
+    },
+    {
+     "text": "This bread is ___. Dad baked it.",
+     "right": "homemade",
+     "fits": []
+    },
+    {
+     "text": "A ___ fell from the pine tree.",
+     "right": "pinecone",
+     "fits": []
+    },
+    {
+     "text": "Bob is my ___. My name is Robert.",
+     "right": "nickname",
+     "fits": []
+    },
+    {
+     "text": "The fish swam fast to ___ the net.",
+     "right": "escape",
+     "fits": []
+    },
+    {
+     "text": "Your ___ is in your back.",
+     "right": "backbone",
+     "fits": []
+    }
+   ],
+   "3": [
+    {
+     "text": "I draw on a sheet of ___.",
+     "right": "paper",
+     "fits": []
+    },
+    {
+     "text": "A ___ is a big cat with black stripes.",
+     "right": "tiger",
+     "fits": []
+    },
+    {
+     "text": "A ___ has eight legs.",
+     "right": "spider",
+     "fits": []
+    },
+    {
+     "text": "We sing and play ___.",
+     "right": "music",
+     "fits": []
+    },
+    {
+     "text": "We had ___ and eggs.",
+     "right": "bacon",
+     "fits": []
+    },
+    {
+     "text": "We slept in a ___ on our trip.",
+     "right": "hotel",
+     "fits": []
+    },
+    {
+     "text": "The ___ flies the plane.",
+     "right": "pilot",
+     "fits": []
+    },
+    {
+     "text": "Ten is an ___ number.",
+     "right": "even",
+     "fits": []
+    },
+    {
+     "text": "Five ___ two is three.",
+     "right": "minus",
+     "fits": []
+    },
+    {
+     "text": "Shh! I will tell you a ___.",
+     "right": "secret",
+     "fits": []
+    },
+    {
+     "text": "The ___ makes bread and cakes.",
+     "right": "baker",
+     "fits": []
+    },
+    {
+     "text": "See you ___!",
+     "right": "later",
+     "fits": []
+    },
+    {
+     "text": "Jump ___ the puddle.",
+     "right": "over",
+     "fits": []
+    },
+    {
+     "text": "I ate a ___ with sprinkles.",
+     "right": "donut",
+     "fits": []
+    },
+    {
+     "text": "A squirrel hides an ___.",
+     "right": "acorn",
+     "fits": []
+    },
+    {
+     "text": "Smile for the ___!",
+     "right": "photo",
+     "fits": []
+    },
+    {
+     "text": "The room was quiet and ___.",
+     "right": "silent",
+     "fits": [
+      "open"
+     ]
+    },
+    {
+     "text": "It is hot. Please ___ the window.",
+     "right": "open",
+     "fits": []
+    }
+   ]
+  },
+  "yesno": {
+   "1": [
+    {
+     "text": "A snowman can melt in the sun.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat a seashell.",
+     "a": "no"
+    },
+    {
+     "text": "A seagull can fly.",
+     "a": "yes"
+    },
+    {
+     "text": "A rainbow has many colors.",
+     "a": "yes"
+    },
+    {
+     "text": "A sailboat can sail on a lake.",
+     "a": "yes"
+    },
+    {
+     "text": "You can mail a letter in a mailbox.",
+     "a": "yes"
+    },
+    {
+     "text": "A sheepdog can bake a cake.",
+     "a": "no"
+    },
+    {
+     "text": "A teapot can hold tea.",
+     "a": "yes"
+    },
+    {
+     "text": "A peanut is bigger than a car.",
+     "a": "no"
+    },
+    {
+     "text": "You can paint with a paintbrush.",
+     "a": "yes"
+    },
+    {
+     "text": "A raincoat keeps you dry.",
+     "a": "yes"
+    },
+    {
+     "text": "Oatmeal is a kind of rock.",
+     "a": "no"
+    },
+    {
+     "text": "A haystack is made of hay.",
+     "a": "yes"
+    },
+    {
+     "text": "Kids can play on a playground.",
+     "a": "yes"
+    },
+    {
+     "text": "A subway can fly.",
+     "a": "no"
+    },
+    {
+     "text": "A treetop is under the ground.",
+     "a": "no"
+    }
+   ],
+   "2": [
+    {
+     "text": "A cupcake is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "You can eat a pancake.",
+     "a": "yes"
+    },
+    {
+     "text": "Bedtime is in the morning.",
+     "a": "no"
+    },
+    {
+     "text": "You can drink a milkshake.",
+     "a": "yes"
+    },
+    {
+     "text": "Sunshine is bright.",
+     "a": "yes"
+    },
+    {
+     "text": "You can make a mistake.",
+     "a": "yes"
+    },
+    {
+     "text": "A pinecone grows on a pine tree.",
+     "a": "yes"
+    },
+    {
+     "text": "A trombone can swim.",
+     "a": "no"
+    },
+    {
+     "text": "Sunrise is at night.",
+     "a": "no"
+    },
+    {
+     "text": "You can invite a friend to play.",
+     "a": "yes"
+    },
+    {
+     "text": "It is cold inside a hot oven.",
+     "a": "no"
+    },
+    {
+     "text": "A dog has a backbone.",
+     "a": "yes"
+    },
+    {
+     "text": "Lunchtime is a time to eat.",
+     "a": "yes"
+    },
+    {
+     "text": "A trombone can make music.",
+     "a": "yes"
+    },
+    {
+     "text": "A milkshake is a kind of hat.",
+     "a": "no"
+    },
+    {
+     "text": "A pancake is flat.",
+     "a": "yes"
+    },
+    {
+     "text": "A nickname is a kind of food.",
+     "a": "no"
+    },
+    {
+     "text": "A chicken has a wishbone.",
+     "a": "yes"
+    }
+   ],
+   "3": [
+    {
+     "text": "A tiger has stripes.",
+     "a": "yes"
+    },
+    {
+     "text": "A spider has two legs.",
+     "a": "no"
+    },
+    {
+     "text": "A robot can be made of steel.",
+     "a": "yes"
+    },
+    {
+     "text": "You can write on paper.",
+     "a": "yes"
+    },
+    {
+     "text": "A pilot flies a plane.",
+     "a": "yes"
+    },
+    {
+     "text": "A baker makes bread.",
+     "a": "yes"
+    },
+    {
+     "text": "A donut is a kind of bug.",
+     "a": "no"
+    },
+    {
+     "text": "Nine is an even number.",
+     "a": "no"
+    },
+    {
+     "text": "A hotel has beds.",
+     "a": "yes"
+    },
+    {
+     "text": "You can hear music.",
+     "a": "yes"
+    },
+    {
+     "text": "An acorn grows on a tree.",
+     "a": "yes"
+    },
+    {
+     "text": "Bacon is made from a cow.",
+     "a": "no"
+    },
+    {
+     "text": "A human has four legs.",
+     "a": "no"
+    },
+    {
+     "text": "You can whisper a secret.",
+     "a": "yes"
+    }
+   ]
+  },
+  "joins": {
+   "1": [
+    [
+     "mail",
+     "box"
+    ],
+    [
+     "mail",
+     "man"
+    ],
+    [
+     "paint",
+     "box"
+    ],
+    [
+     "paint",
+     "brush"
+    ],
+    [
+     "paint",
+     "pot"
+    ],
+    [
+     "hay",
+     "box"
+    ],
+    [
+     "hay",
+     "stack"
+    ],
+    [
+     "hay",
+     "weed"
+    ],
+    [
+     "sub",
+     "man"
+    ],
+    [
+     "sub",
+     "way"
+    ],
+    [
+     "sub",
+     "shell"
+    ],
+    [
+     "sub",
+     "coat"
+    ],
+    [
+     "run",
+     "man"
+    ],
+    [
+     "run",
+     "way"
+    ],
+    [
+     "week",
+     "end"
+    ],
+    [
+     "tree",
+     "man"
+    ],
+    [
+     "tree",
+     "top"
+    ],
+    [
+     "sheep",
+     "man"
+    ],
+    [
+     "sheep",
+     "dog"
+    ],
+    [
+     "sheep",
+     "nut"
+    ],
+    [
+     "sheep",
+     "weed"
+    ],
+    [
+     "pea",
+     "nut"
+    ],
+    [
+     "pea",
+     "coat"
+    ],
+    [
+     "sea",
+     "man"
+    ],
+    [
+     "sea",
+     "way"
+    ],
+    [
+     "sea",
+     "dog"
+    ],
+    [
+     "sea",
+     "shell"
+    ],
+    [
+     "sea",
+     "gull"
+    ],
+    [
+     "sea",
+     "sick"
+    ],
+    [
+     "sea",
+     "weed"
+    ],
+    [
+     "tea",
+     "box"
+    ],
+    [
+     "tea",
+     "man"
+    ],
+    [
+     "tea",
+     "pot"
+    ],
+    [
+     "tea",
+     "cup"
+    ],
+    [
+     "sun",
+     "way"
+    ],
+    [
+     "sun",
+     "dog"
+    ],
+    [
+     "sun",
+     "cup"
+    ],
+    [
+     "sun",
+     "beam"
+    ],
+    [
+     "sun",
+     "bow"
+    ],
+    [
+     "sun",
+     "weed"
+    ],
+    [
+     "snow",
+     "man"
+    ],
+    [
+     "snow",
+     "brush"
+    ],
+    [
+     "play",
+     "box"
+    ],
+    [
+     "play",
+     "man"
+    ],
+    [
+     "play",
+     "ground"
+    ],
+    [
+     "rain",
+     "bow"
+    ],
+    [
+     "rain",
+     "coat"
+    ],
+    [
+     "sail",
+     "boat"
+    ],
+    [
+     "day",
+     "man"
+    ],
+    [
+     "day",
+     "beam"
+    ],
+    [
+     "day",
+     "dream"
+    ],
+    [
+     "oat",
+     "meal"
+    ]
+   ],
+   "2": [
+    [
+     "cup",
+     "cake"
+    ],
+    [
+     "cup",
+     "like"
+    ],
+    [
+     "pan",
+     "cake"
+    ],
+    [
+     "pan",
+     "side"
+    ],
+    [
+     "in",
+     "vite"
+    ],
+    [
+     "in",
+     "side"
+    ],
+    [
+     "in",
+     "time"
+    ],
+    [
+     "in",
+     "take"
+    ],
+    [
+     "in",
+     "like"
+    ],
+    [
+     "sun",
+     "shine"
+    ],
+    [
+     "sun",
+     "rise"
+    ],
+    [
+     "sun",
+     "like"
+    ],
+    [
+     "bed",
+     "side"
+    ],
+    [
+     "bed",
+     "time"
+    ],
+    [
+     "bed",
+     "like"
+    ],
+    [
+     "bed",
+     "sick"
+    ],
+    [
+     "lunch",
+     "time"
+    ],
+    [
+     "milk",
+     "shake"
+    ],
+    [
+     "milk",
+     "like"
+    ],
+    [
+     "milk",
+     "sick"
+    ],
+    [
+     "nick",
+     "name"
+    ],
+    [
+     "mis",
+     "time"
+    ],
+    [
+     "mis",
+     "name"
+    ],
+    [
+     "mis",
+     "take"
+    ],
+    [
+     "mis",
+     "like"
+    ],
+    [
+     "mis",
+     "made"
+    ],
+    [
+     "dis",
+     "like"
+    ],
+    [
+     "dis",
+     "bud"
+    ],
+    [
+     "dis",
+     "plode"
+    ],
+    [
+     "home",
+     "like"
+    ],
+    [
+     "home",
+     "sick"
+    ],
+    [
+     "home",
+     "made"
+    ],
+    [
+     "hill",
+     "side"
+    ],
+    [
+     "wish",
+     "bone"
+    ],
+    [
+     "back",
+     "side"
+    ],
+    [
+     "back",
+     "bone"
+    ],
+    [
+     "rose",
+     "time"
+    ],
+    [
+     "rose",
+     "like"
+    ],
+    [
+     "rose",
+     "bud"
+    ],
+    [
+     "trom",
+     "bone"
+    ],
+    [
+     "es",
+     "cape"
+    ],
+    [
+     "ex",
+     "time"
+    ],
+    [
+     "ex",
+     "plode"
+    ],
+    [
+     "pine",
+     "like"
+    ],
+    [
+     "pine",
+     "cone"
+    ],
+    [
+     "life",
+     "time"
+    ],
+    [
+     "life",
+     "like"
+    ]
+   ],
+   "3": [
+    [
+     "pa",
+     "per"
+    ],
+    [
+     "pa",
+     "ger"
+    ],
+    [
+     "pa",
+     "tel"
+    ],
+    [
+     "pa",
+     "ven"
+    ],
+    [
+     "pa",
+     "nus"
+    ],
+    [
+     "pa",
+     "to"
+    ],
+    [
+     "pa",
+     "ter"
+    ],
+    [
+     "pa",
+     "ver"
+    ],
+    [
+     "ti",
+     "ger"
+    ],
+    [
+     "ti",
+     "sic"
+    ],
+    [
+     "ti",
+     "to"
+    ],
+    [
+     "ti",
+     "ter"
+    ],
+    [
+     "ti",
+     "ver"
+    ],
+    [
+     "spi",
+     "der"
+    ],
+    [
+     "spi",
+     "ker"
+    ],
+    [
+     "mu",
+     "sic"
+    ],
+    [
+     "mu",
+     "to"
+    ],
+    [
+     "mu",
+     "ter"
+    ],
+    [
+     "ro",
+     "per"
+    ],
+    [
+     "ro",
+     "ger"
+    ],
+    [
+     "ro",
+     "bot"
+    ],
+    [
+     "ro",
+     "ven"
+    ],
+    [
+     "ro",
+     "man"
+    ],
+    [
+     "ro",
+     "to"
+    ],
+    [
+     "ro",
+     "ker"
+    ],
+    [
+     "ro",
+     "ter"
+    ],
+    [
+     "ro",
+     "ver"
+    ],
+    [
+     "ro",
+     "tor"
+    ],
+    [
+     "o",
+     "der"
+    ],
+    [
+     "o",
+     "pen"
+    ],
+    [
+     "o",
+     "ven"
+    ],
+    [
+     "o",
+     "man"
+    ],
+    [
+     "o",
+     "lent"
+    ],
+    [
+     "o",
+     "nus"
+    ],
+    [
+     "o",
+     "to"
+    ],
+    [
+     "o",
+     "ker"
+    ],
+    [
+     "o",
+     "ver"
+    ],
+    [
+     "ba",
+     "der"
+    ],
+    [
+     "ba",
+     "sic"
+    ],
+    [
+     "ba",
+     "con"
+    ],
+    [
+     "ba",
+     "tel"
+    ],
+    [
+     "ba",
+     "bel"
+    ],
+    [
+     "ba",
+     "nus"
+    ],
+    [
+     "ba",
+     "ker"
+    ],
+    [
+     "ba",
+     "ter"
+    ],
+    [
+     "ho",
+     "per"
+    ],
+    [
+     "ho",
+     "tel"
+    ],
+    [
+     "ho",
+     "ven"
+    ],
+    [
+     "ho",
+     "ker"
+    ],
+    [
+     "ho",
+     "ver"
+    ],
+    [
+     "pi",
+     "per"
+    ],
+    [
+     "pi",
+     "lot"
+    ],
+    [
+     "pi",
+     "man"
+    ],
+    [
+     "pi",
+     "nus"
+    ],
+    [
+     "pi",
+     "ker"
+    ],
+    [
+     "la",
+     "ger"
+    ],
+    [
+     "la",
+     "der"
+    ],
+    [
+     "la",
+     "bel"
+    ],
+    [
+     "la",
+     "ker"
+    ],
+    [
+     "la",
+     "ter"
+    ],
+    [
+     "la",
+     "ver"
+    ],
+    [
+     "e",
+     "ger"
+    ],
+    [
+     "e",
+     "con"
+    ],
+    [
+     "e",
+     "ven"
+    ],
+    [
+     "e",
+     "to"
+    ],
+    [
+     "e",
+     "ker"
+    ],
+    [
+     "e",
+     "ver"
+    ],
+    [
+     "hu",
+     "ger"
+    ],
+    [
+     "hu",
+     "bot"
+    ],
+    [
+     "hu",
+     "man"
+    ],
+    [
+     "u",
+     "nit"
+    ],
+    [
+     "se",
+     "ger"
+    ],
+    [
+     "se",
+     "der"
+    ],
+    [
+     "se",
+     "ven"
+    ],
+    [
+     "se",
+     "nit"
+    ],
+    [
+     "se",
+     "cret"
+    ],
+    [
+     "se",
+     "ker"
+    ],
+    [
+     "se",
+     "ver"
+    ],
+    [
+     "si",
+     "per"
+    ],
+    [
+     "si",
+     "der"
+    ],
+    [
+     "si",
+     "lent"
+    ],
+    [
+     "si",
+     "nus"
+    ],
+    [
+     "si",
+     "ker"
+    ],
+    [
+     "si",
+     "ver"
+    ],
+    [
+     "mi",
+     "der"
+    ],
+    [
+     "mi",
+     "nus"
+    ],
+    [
+     "mi",
+     "to"
+    ],
+    [
+     "mi",
+     "ter"
+    ],
+    [
+     "pho",
+     "to"
+    ],
+    [
+     "mo",
+     "per"
+    ],
+    [
+     "mo",
+     "der"
+    ],
+    [
+     "mo",
+     "tel"
+    ],
+    [
+     "mo",
+     "to"
+    ],
+    [
+     "mo",
+     "ter"
+    ],
+    [
+     "mo",
+     "ver"
+    ],
+    [
+     "mo",
+     "tor"
+    ],
+    [
+     "do",
+     "per"
+    ],
+    [
+     "do",
+     "ven"
+    ],
+    [
+     "do",
+     "lent"
+    ],
+    [
+     "do",
+     "to"
+    ],
+    [
+     "do",
+     "ter"
+    ],
+    [
+     "do",
+     "ver"
+    ],
+    [
+     "do",
+     "nut"
+    ],
+    [
+     "a",
+     "per"
+    ],
+    [
+     "a",
+     "ger"
+    ],
+    [
+     "a",
+     "lot"
+    ],
+    [
+     "a",
+     "bel"
+    ],
+    [
+     "a",
+     "man"
+    ],
+    [
+     "a",
+     "nus"
+    ],
+    [
+     "a",
+     "ker"
+    ],
+    [
+     "a",
+     "ver"
+    ],
+    [
+     "a",
+     "corn"
+    ],
+    [
+     "a",
+     "pron"
+    ]
+   ]
+  }
+ },
+ "heart": {
+  "words": [
+   {
+    "w": "could",
+    "boxes": [
+     "c",
+     "oul",
+     "d"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "oul says /oo/, like in would"
+   },
+   {
+    "w": "would",
+    "boxes": [
+     "w",
+     "oul",
+     "d"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "oul says /oo/ and the l is silent"
+   },
+   {
+    "w": "should",
+    "boxes": [
+     "sh",
+     "oul",
+     "d"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "the would, could, should family all share oul"
+   },
+   {
+    "w": "because",
+    "boxes": [
+     "b",
+     "e",
+     "c",
+     "au",
+     "se"
+    ],
+    "heart": [
+     3
+    ],
+    "note": "au says /u/ here, not /or/ — the s saying /z/ is an ordinary rule"
+   },
+   {
+    "w": "friend",
+    "boxes": [
+     "f",
+     "r",
+     "ie",
+     "n",
+     "d"
+    ],
+    "heart": [
+     2
+    ],
+    "note": "ie says /e/ — there is an i hiding in friend"
+   },
+   {
+    "w": "again",
+    "boxes": [
+     "a",
+     "g",
+     "ai",
+     "n"
+    ],
+    "heart": [
+     2
+    ],
+    "note": "ai says /e/, like in said"
+   },
+   {
+    "w": "any",
+    "boxes": [
+     "a",
+     "n",
+     "y"
+    ],
+    "heart": [
+     0
+    ],
+    "note": "the a says /e/, like in many"
+   },
+   {
+    "w": "many",
+    "boxes": [
+     "m",
+     "a",
+     "n",
+     "y"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "the a says /e/ — many does not rhyme with canny"
+   },
+   {
+    "w": "people",
+    "boxes": [
+     "p",
+     "eo",
+     "p",
+     "le"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "eo says /ee/ — the o is along for the ride"
+   },
+   {
+    "w": "does",
+    "boxes": [
+     "d",
+     "oe",
+     "s"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "oe says /u/ — the s saying /z/ is an ordinary rule, not the heart"
+   },
+   {
+    "w": "other",
+    "boxes": [
+     "o",
+     "th",
+     "er"
+    ],
+    "heart": [
+     0
+    ],
+    "note": "the o says /u/ right at the start"
+   }
+  ],
+  "always": [
+   "could",
+   "would",
+   "should"
+  ],
+  "core": [
+   "because",
+   "friend"
+  ],
+  "sentences": {
+   "could": [
+    "When I was little, I ___ not swim.",
+    "I ___ not find my red shoe.",
+    "___ you help me with this box?",
+    "Last night I ___ see the moon.",
+    "I ___ hear the birds sing.",
+    "The baby ___ not reach the cup."
+   ],
+   "would": [
+    "___ you like some milk?",
+    "I ___ like a red apple, please.",
+    "___ you like to play with me?",
+    "Which hat ___ you like?",
+    "That ___ be fun!",
+    "My dog ___ not stop barking."
+   ],
+   "should": [
+    "It is cold. You ___ wear a coat.",
+    "We ___ wash our hands before lunch.",
+    "You ___ say thank you for a gift.",
+    "You ___ look both ways first.",
+    "What ___ we do now?",
+    "We ___ be kind to everyone."
+   ],
+   "because": [
+    "I wore a hat ___ it was cold.",
+    "We stayed inside ___ it was raining.",
+    "I am happy ___ it is my birthday.",
+    "The dog barked ___ it was hungry.",
+    "I ran ___ I was late.",
+    "We put on boots ___ it was snowing."
+   ],
+   "friend": [
+    "My best ___ sits next to me.",
+    "I like to play tag with my ___.",
+    "My ___ and I ride bikes.",
+    "A good ___ helps you.",
+    "My ___ gave me a card.",
+    "I sat with my ___ at lunch."
+   ],
+   "again": [
+    "Can you read that page ___?",
+    "I want to play that game ___.",
+    "Please say it ___.",
+    "The sun came out ___."
+   ],
+   "any": [
+    "Do you have ___ pets?",
+    "I do not have ___ money.",
+    "Is there ___ milk left?",
+    "Are there ___ cookies left?"
+   ],
+   "many": [
+    "How ___ apples do you have?",
+    "There are ___ fish in the pond.",
+    "I have ___ toys in my room.",
+    "We saw ___ ducks at the lake."
+   ],
+   "people": [
+    "Lots of ___ came to the party.",
+    "Five ___ can sit in the car.",
+    "The bus was full of ___.",
+    "Ten ___ sat at the long table."
+   ],
+   "does": [
+    "___ your dog like to play?",
+    "What ___ a frog eat?",
+    "Where ___ the bus stop?",
+    "___ the cat like milk?"
+   ],
+   "other": [
+    "I lost my ___ sock.",
+    "Put your hat on the ___ hook.",
+    "One cat is black. The ___ cat is white.",
+    "Hold the cup in your ___ hand."
+   ]
+  }
+ }
+}

@@ -5345,5 +5345,73 @@
   "G2-534": {
     "title": "er, ir, and ur: One Sound, Three Spellings",
     "instruction": "er, ir, and ur say the same sound: her, first, turn."
+  },
+  "G2-535": {
+    "title": "Prefixes un- and re-",
+    "instruction": "un- means not or the opposite of, and re- means again."
+  },
+  "G2-536": {
+    "title": "Suffixes -ful, -less, and -ly",
+    "instruction": "-ful means full of, and -less means without."
+  },
+  "G2-537": {
+    "title": "Apostrophes",
+    "instruction": "An apostrophe takes the place of the letters that are left out, or it shows who owns something."
+  },
+  "K-661": {
+    "title": "Short a and Short i",
+    "instruction": "Short a says /⁠ă⁠/, as in apple. Short i says /⁠ĭ⁠/, as in igloo."
+  },
+  "K-662": {
+    "title": "Short o, Short u, and Short e",
+    "instruction": "Short o says /⁠ŏ⁠/, as in octopus. Short u says /⁠ŭ⁠/, as in umbrella. Short e says /⁠ĕ⁠/, as in elephant."
+  },
+  "K-663": {
+    "title": "Change One Sound to Make a New Word",
+    "instruction": "Change the first or the last sound of a word, and you make a new word."
+  },
+  "K-664": {
+    "title": "Which Word Matches? One Letter Is Different",
+    "instruction": "Two words can look almost the same: one letter makes them different words."
+  },
+  "G2-543": {
+    "title": "Reading Words with oo, ou, ow, oi, and oy",
+    "instruction": "ou and ow can say the sound in cow. oi and oy say the sound in boy."
+  },
+  "G2-544": {
+    "title": "Reading Words with ar and or",
+    "instruction": "Bossy r: ar says the sound in park, and or says the sound in storm."
+  },
+  "G2-545": {
+    "title": "Reading Words with er, ir, and ur",
+    "instruction": "er, ir, and ur say the same sound: her, first, turn."
+  },
+  "G2-546": {
+    "title": "Long Vowels in Two-Syllable Words",
+    "instruction": "A silent e at the end makes the vowel long: cup | cake."
+  },
+  "G2-547": {
+    "title": "Build and Read Two-Syllable Words",
+    "instruction": "Read each syllable, then the whole word: cup + cake = cupcake."
+  },
+  "G2-548": {
+    "title": "Heart Words: could, would, should",
+    "instruction": "Some words have a part that does not follow the rules. We learn that part by heart."
+  },
+  "G1-592": {
+    "title": "Names, Days, and Months Get Capitals",
+    "instruction": "Names and the days of the week start with a capital letter. Circle each one and write it again. Then write the date and your name."
+  },
+  "G1-593": {
+    "title": "Capital Letter or Small Letter?",
+    "instruction": "Names and the days of the week start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way."
+  },
+  "G1-594": {
+    "title": "Joining Words: and, but, so, because",
+    "instruction": "A joining word puts two sentences together. Circle and, but, or so in each sentence. Then join two sentences and write them as one."
+  },
+  "G1-595": {
+    "title": "Yesterday, Today, and Tomorrow",
+    "instruction": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits."
   }
 }

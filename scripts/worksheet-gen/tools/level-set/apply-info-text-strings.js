@@ -386,6 +386,108 @@ const TEXT = {
     2: "er, ir, and ur say the same sound: her, first, turn.",
     3: "er, ir, and ur say the same sound: her, first, turn.",
   },
+  'G2-535': {
+    title: "Prefixes un- and re-",
+    1: "The prefix un- means not or the opposite of.",
+    2: "un- means not or the opposite of, and re- means again.",
+    3: "un- means not or the opposite of, re- means again, and pre- means before.",
+  },
+  'G2-536': {
+    title: "Suffixes -ful, -less, and -ly",
+    1: "The suffix -ful means full of.",
+    2: "-ful means full of, and -less means without.",
+    3: "-ful means full of, -less means without, and -ly tells how.",
+  },
+  'G2-537': {
+    title: "Apostrophes",
+    1: "An apostrophe takes the place of the letters that are left out.",
+    2: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
+    3: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
+  },
+  'G1-592': {
+    title: "Names, Days, and Months Get Capitals",
+    1: "Names of people and pets start with a capital letter. Circle each name and write it again. Then write the date and your name.",
+    2: "Names and the days of the week start with a capital letter. Circle each one and write it again. Then write the date and your name.",
+    3: "Names, days, and months start with a capital letter. Circle each one and write it again. Then write the date, your name, and your birthday month.",
+  },
+  'G1-593': {
+    title: "Capital Letter or Small Letter?",
+    1: "A name starts with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
+    2: "Names and the days of the week start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
+    3: "Names, days, and months start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
+  },
+  'G1-594': {
+    title: "Joining Words: and, but, so, because",
+    1: "A joining word puts two sentences together. Circle and or but in each sentence. Then join two sentences and write them as one.",
+    2: "A joining word puts two sentences together. Circle and, but, or so in each sentence. Then join two sentences and write them as one.",
+    3: "A joining word puts two sentences together. Circle and, but, so, or because in each sentence. Then write a sentence of your own with because.",
+  },
+  'G1-595': {
+    title: "Yesterday, Today, and Tomorrow",
+    1: "Add ed to tell about yesterday: walk, walked. Write the yesterday form of each verb. Then circle the verb that fits each sentence.",
+    2: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
+    3: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways.",
+  },
+  'K-661': {
+    title: "Short a and Short i",
+    1: "Short a says /⁠ă⁠/, as in apple. Short i says /⁠ĭ⁠/, as in igloo.",
+    2: "Short a says /⁠ă⁠/, as in apple. Short i says /⁠ĭ⁠/, as in igloo.",
+    3: "Short a says /⁠ă⁠/, as in apple. Short i says /⁠ĭ⁠/, as in igloo.",
+  },
+  'K-662': {
+    title: "Short o, Short u, and Short e",
+    1: "Short o says /⁠ŏ⁠/, as in octopus. Short u says /⁠ŭ⁠/, as in umbrella. Short e says /⁠ĕ⁠/, as in elephant.",
+    2: "Short o says /⁠ŏ⁠/, as in octopus. Short u says /⁠ŭ⁠/, as in umbrella. Short e says /⁠ĕ⁠/, as in elephant.",
+    3: "Short o says /⁠ŏ⁠/, as in octopus. Short u says /⁠ŭ⁠/, as in umbrella. Short e says /⁠ĕ⁠/, as in elephant.",
+  },
+  'K-663': {
+    title: "Change One Sound to Make a New Word",
+    1: "Change the first sound of a word, and you make a new word.",
+    2: "Change the first or the last sound of a word, and you make a new word.",
+    3: "Change the first, middle, or last sound of a word, and you make a new word.",
+  },
+  'K-664': {
+    title: "Which Word Matches? One Letter Is Different",
+    1: "Two words can look almost the same: one letter makes them different words.",
+    2: "Two words can look almost the same: one letter makes them different words.",
+    3: "Two words can look almost the same: one letter makes them different words.",
+  },
+  'G2-543': {
+    title: "Reading Words with oo, ou, ow, oi, and oy",
+    1: "oo can say two sounds: the sound in moon and the sound in book.",
+    2: "ou and ow can say the sound in cow. oi and oy say the sound in boy.",
+    3: "Vowel teams can say the sounds in moon, book, cow, and boy.",
+  },
+  'G2-544': {
+    title: "Reading Words with ar and or",
+    1: "Bossy r changes the vowel sound: ar says the sound in park.",
+    2: "Bossy r: ar says the sound in park, and or says the sound in storm.",
+    3: "Bossy r changes the vowel sound: ar says the sound in park, and or says the sound in storm.",
+  },
+  'G2-545': {
+    title: "Reading Words with er, ir, and ur",
+    1: "er says the sound you hear in her.",
+    2: "er, ir, and ur say the same sound: her, first, turn.",
+    3: "er, ir, and ur say the same sound: her, first, turn.",
+  },
+  'G2-546': {
+    title: "Long Vowels in Two-Syllable Words",
+    1: "A compound word splits between its two small words: rain | bow.",
+    2: "A silent e at the end makes the vowel long: cup | cake.",
+    3: "When a syllable ends with a, e, i, o, or u, the letter says its name: pa | per.",
+  },
+  'G2-547': {
+    title: "Build and Read Two-Syllable Words",
+    1: "Two small words make one long word: mail + box = mailbox.",
+    2: "Read each syllable, then the whole word: cup + cake = cupcake.",
+    3: "Read each syllable, then the whole word: ro + bot = robot.",
+  },
+  'G2-548': {
+    title: "Heart Words: could, would, should",
+    1: "Some words have a part that does not follow the rules. We learn that part by heart.",
+    2: "Some words have a part that does not follow the rules. We learn that part by heart.",
+    3: "Some words have a part that does not follow the rules. We learn that part by heart.",
+  },
 };
 
 function edit(file, fn) {

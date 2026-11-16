@@ -7353,5 +7353,107 @@
     "1": {
       "en": "er says the sound you hear in her."
     }
+  },
+  "G2-535": {
+    "1": {
+      "en": "The prefix un- means not or the opposite of."
+    },
+    "3": {
+      "en": "un- means not or the opposite of, re- means again, and pre- means before."
+    }
+  },
+  "G2-536": {
+    "1": {
+      "en": "The suffix -ful means full of."
+    },
+    "3": {
+      "en": "-ful means full of, -less means without, and -ly tells how."
+    }
+  },
+  "G2-537": {
+    "1": {
+      "en": "An apostrophe takes the place of the letters that are left out."
+    }
+  },
+  "K-661": {},
+  "K-662": {},
+  "K-663": {
+    "1": {
+      "en": "Change the first sound of a word, and you make a new word."
+    },
+    "3": {
+      "en": "Change the first, middle, or last sound of a word, and you make a new word."
+    }
+  },
+  "K-664": {},
+  "G2-543": {
+    "1": {
+      "en": "oo can say two sounds: the sound in moon and the sound in book."
+    },
+    "3": {
+      "en": "Vowel teams can say the sounds in moon, book, cow, and boy."
+    }
+  },
+  "G2-544": {
+    "1": {
+      "en": "Bossy r changes the vowel sound: ar says the sound in park."
+    },
+    "3": {
+      "en": "Bossy r changes the vowel sound: ar says the sound in park, and or says the sound in storm."
+    }
+  },
+  "G2-545": {
+    "1": {
+      "en": "er says the sound you hear in her."
+    }
+  },
+  "G2-546": {
+    "1": {
+      "en": "A compound word splits between its two small words: rain | bow."
+    },
+    "3": {
+      "en": "When a syllable ends with a, e, i, o, or u, the letter says its name: pa | per."
+    }
+  },
+  "G2-547": {
+    "1": {
+      "en": "Two small words make one long word: mail + box = mailbox."
+    },
+    "3": {
+      "en": "Read each syllable, then the whole word: ro + bot = robot."
+    }
+  },
+  "G2-548": {},
+  "G1-592": {
+    "1": {
+      "en": "Names of people and pets start with a capital letter. Circle each name and write it again. Then write the date and your name."
+    },
+    "3": {
+      "en": "Names, days, and months start with a capital letter. Circle each one and write it again. Then write the date, your name, and your birthday month."
+    }
+  },
+  "G1-593": {
+    "1": {
+      "en": "A name starts with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way."
+    },
+    "3": {
+      "en": "Names, days, and months start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way."
+    }
+  },
+  "G1-594": {
+    "1": {
+      "en": "A joining word puts two sentences together. Circle and or but in each sentence. Then join two sentences and write them as one."
+    },
+    "3": {
+      "en": "A joining word puts two sentences together. Circle and, but, so, or because in each sentence. Then write a sentence of your own with because."
+    }
+  },
+  "G1-595": {
+    "1": {
+      "en": "Add ed to tell about yesterday: walk, walked. Write the yesterday form of each verb. Then circle the verb that fits each sentence."
+    },
+    "3": {
+      "en": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways."
+    }
   }
 }

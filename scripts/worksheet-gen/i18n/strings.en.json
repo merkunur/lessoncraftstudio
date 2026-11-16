@@ -5205,5 +5205,21 @@
   "G3-509": {
     "title": "Talk About the Story",
     "instruction": "Read the story. Think about each question before your group talks. Write your idea and the number of the paragraph that supports it."
+  },
+  "G2-526": {
+    "title": "How a Character Meets a Challenge",
+    "instruction": "Read the story. Then write the answer to each question."
+  },
+  "G2-527": {
+    "title": "What Happens and Why",
+    "instruction": "Read the story. A cause makes something happen. An effect is what happens. Write the effect of each cause."
+  },
+  "G2-528": {
+    "title": "What Is the Lesson?",
+    "instruction": "Read the story. Write its lesson. Then write what a character does that shows the lesson."
+  },
+  "G2-529": {
+    "title": "Beginning, Middle, and End",
+    "instruction": "Read the story. Then retell it: write what happens at the beginning, in the middle, and at the end."
   }
 }

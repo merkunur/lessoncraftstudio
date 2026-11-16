@@ -1,5 +1,5 @@
 {
- "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk.",
+ "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk. Key `g2` (2026-11-16, DRAFT, read by no reviewer): five fables retold in about 140 words and THREE paragraphs (beginning, middle, end); `challenge` three questions with a right answer and two wrong ones (the problem, what the character does, a feeling); `links` three causes with their effects; `lesson` with the lesson of another story and a literal sentence; `shows` two events that show the lesson, `notInStory` one that the story does not tell; `retell` the beginning, the middle and the end in one sentence each; `how` a sample sentence for the key.",
  "g3": [
   {
    "id": "lion-and-mouse",
@@ -996,6 +996,485 @@
     "Do you think the fox will play tricks again? Why?",
     "What did the stork mean by \"Now we both know how it feels\"?"
    ]
+  }
+ ],
+ "g2": [
+  {
+   "id": "tortoise-and-hare",
+   "you": "the tortoise",
+   "title": "The Tortoise and the Hare",
+   "picture": {
+    "theme": "pets",
+    "noun": "tortoise"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A hare liked to boast about how fast he could run.",
+      "One day he laughed at a tortoise for being so slow.",
+      "The tortoise was tired of his teasing.",
+      "\"Let's have a race,\" she said.",
+      "The hare thought this was the funniest thing he had ever heard."
+     ]
+    },
+    {
+     "sentences": [
+      "The race began, and the hare shot ahead.",
+      "Soon the tortoise was far behind him.",
+      "The hare felt sure that he would win.",
+      "\"I have time for a nap,\" he said.",
+      "He lay down under a tree and fell asleep.",
+      "The tortoise did not stop to rest.",
+      "Step by step, she kept walking."
+     ]
+    },
+    {
+     "sentences": [
+      "When the hare woke up, the sun was low in the sky.",
+      "He ran as fast as he could.",
+      "But the tortoise was already crossing the finish line.",
+      "All the animals cheered for her.",
+      "The hare hung his head.",
+      "He never laughed at the tortoise again."
+     ]
+    }
+   ],
+   "challenge": [
+    {
+     "q": "What problem does the tortoise have?",
+     "answer": "The hare laughs at her for being slow.",
+     "wrong": [
+      "She has lost her way in the forest.",
+      "She is too tired to walk."
+     ]
+    },
+    {
+     "q": "What does the tortoise do about it?",
+     "answer": "She asks the hare to race and never stops walking.",
+     "wrong": [
+      "She hides inside her shell.",
+      "She asks the other animals for help."
+     ]
+    },
+    {
+     "q": "How does the hare feel at the end?",
+     "answer": "ashamed",
+     "wrong": [
+      "proud",
+      "happy"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "cause": "The hare felt sure that he would win.",
+     "effect": "He lay down for a nap."
+    },
+    {
+     "cause": "The tortoise never stopped walking.",
+     "effect": "She crossed the finish line first."
+    },
+    {
+     "cause": "The hare woke up late.",
+     "effect": "He ran as fast as he could."
+    }
+   ],
+   "lesson": {
+    "right": "If you keep going and do not give up, you can win.",
+    "lure": "People do not believe someone who tells lies.",
+    "literal": "A hare should never take a nap."
+   },
+   "shows": [
+    "The hare stops for a nap, but the tortoise keeps going.",
+    "The tortoise keeps walking and wins the race."
+   ],
+   "notInStory": "The tortoise gets a ride on the back of a bird.",
+   "retell": [
+    "A hare laughs at a slow tortoise, and she asks him to race.",
+    "The hare takes a nap, but the tortoise keeps walking.",
+    "The tortoise wins the race."
+   ],
+   "how": "The tortoise is slow, but she never stops, so she wins."
+  },
+  {
+   "id": "boy-who-cried-wolf",
+   "you": "the boy",
+   "title": "The Boy Who Cried Wolf",
+   "picture": {
+    "theme": "animals",
+    "noun": "wolf"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A boy looked after the sheep on a hill above his village.",
+      "Day after day he sat alone, and he was bored.",
+      "One morning he had an idea.",
+      "\"Wolf! Wolf!\" he shouted.",
+      "The villagers ran up the hill to help him.",
+      "There was no wolf, and the boy laughed at them."
+     ]
+    },
+    {
+     "sentences": [
+      "The next day the boy played the same trick.",
+      "Again the villagers came running.",
+      "Again there was no wolf.",
+      "\"Don't call us when nothing is wrong,\" they said angrily.",
+      "They walked back down the hill."
+     ]
+    },
+    {
+     "sentences": [
+      "That evening a real wolf crept out of the forest.",
+      "The boy was terrified.",
+      "\"Wolf! Wolf! Please help!\" he cried.",
+      "The villagers heard him, but nobody came.",
+      "They thought it was another trick.",
+      "The wolf chased the sheep far away.",
+      "The boy wished he had told the truth."
+     ]
+    }
+   ],
+   "challenge": [
+    {
+     "q": "What problem does the boy have at the end?",
+     "answer": "A real wolf comes, and nobody believes him.",
+     "wrong": [
+      "He has lost his way on the hill.",
+      "The sheep will not eat the grass."
+     ]
+    },
+    {
+     "q": "What does the boy do when the real wolf comes?",
+     "answer": "He cries for help.",
+     "wrong": [
+      "He chases the wolf away himself.",
+      "He hides behind a tree."
+     ]
+    },
+    {
+     "q": "How does the boy feel when the real wolf comes?",
+     "answer": "afraid",
+     "wrong": [
+      "proud",
+      "sleepy"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "cause": "The boy was bored on the hill.",
+     "effect": "He shouted \"Wolf!\" as a trick."
+    },
+    {
+     "cause": "The boy tricked the villagers two times.",
+     "effect": "They did not believe him the third time."
+    },
+    {
+     "cause": "Nobody came to help the boy.",
+     "effect": "The wolf chased the sheep far away."
+    }
+   ],
+   "lesson": {
+    "right": "People do not believe someone who tells lies.",
+    "lure": "Being greedy can make you lose what you have.",
+    "literal": "Sheep should stay away from the forest."
+   },
+   "shows": [
+    "The boy shouts \"Wolf!\" two times when there is no wolf.",
+    "When a real wolf comes, nobody believes the boy."
+   ],
+   "notInStory": "The villagers give the boy a dog to guard the sheep.",
+   "retell": [
+    "A bored boy shouts \"Wolf!\" and laughs when the villagers come.",
+    "He plays the trick again, and the villagers get angry.",
+    "A real wolf comes, but nobody believes the boy."
+   ],
+   "how": "The boy lies two times, so nobody believes him when he tells the truth."
+  },
+  {
+   "id": "dog-and-reflection",
+   "you": "the dog",
+   "title": "The Dog and His Reflection",
+   "picture": {
+    "theme": "animals",
+    "noun": "dog"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A dog found a big piece of meat.",
+      "It was the best meat he had ever found.",
+      "He held it tightly in his mouth and trotted home to eat it in peace.",
+      "On the way he had to cross a stream on a narrow bridge."
+     ]
+    },
+    {
+     "sentences": [
+      "In the middle of the bridge he looked down.",
+      "In the water he saw another dog.",
+      "That dog also had a piece of meat in his mouth.",
+      "It looked even bigger than his own.",
+      "\"I want that one too,\" thought the dog."
+     ]
+    },
+    {
+     "sentences": [
+      "He snapped at the dog in the water.",
+      "But as he opened his mouth, his own meat fell out.",
+      "It dropped into the stream with a splash and floated away.",
+      "The other dog was gone, too.",
+      "It had only been his own reflection.",
+      "The greedy dog went home hungry."
+     ]
+    }
+   ],
+   "challenge": [
+    {
+     "q": "What does the dog see from the bridge?",
+     "answer": "a dog in the water with a bigger piece of meat",
+     "wrong": [
+      "a fish that jumps out of the stream",
+      "a hole in the narrow bridge"
+     ]
+    },
+    {
+     "q": "What does the dog do about it?",
+     "answer": "He snaps at the dog in the water.",
+     "wrong": [
+      "He shares his meat with the other dog.",
+      "He lies down on the bridge."
+     ]
+    },
+    {
+     "q": "How does the dog feel when he sees the other meat?",
+     "answer": "greedy",
+     "wrong": [
+      "afraid",
+      "sleepy"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "cause": "The dog wanted the other meat too.",
+     "effect": "He snapped at the dog in the water."
+    },
+    {
+     "cause": "The dog opened his mouth.",
+     "effect": "His own meat fell into the stream."
+    },
+    {
+     "cause": "The dog had no meat left.",
+     "effect": "The dog went home hungry."
+    }
+   ],
+   "lesson": {
+    "right": "Being greedy can make you lose what you have.",
+    "lure": "If you keep going and do not give up, you can win.",
+    "literal": "Dogs should not walk over bridges."
+   },
+   "shows": [
+    "The dog wants the other meat even though he has his own.",
+    "The dog loses his meat when he snaps at the water."
+   ],
+   "notInStory": "The dog shares his meat with a hungry cat.",
+   "retell": [
+    "A dog carries a big piece of meat over a bridge.",
+    "He sees a dog with more meat in the water and wants it.",
+    "He snaps at it, loses his own meat, and goes home hungry."
+   ],
+   "how": "The dog wants more, and in the end he has nothing."
+  },
+  {
+   "id": "wind-and-sun",
+   "you": "the wind",
+   "title": "The Wind and the Sun",
+   "picture": {
+    "theme": "weather",
+    "noun": "sun"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "The wind and the sun argued about who was stronger.",
+      "Just then a traveler came down the road in a warm coat.",
+      "\"Let's have a contest,\" said the sun.",
+      "\"Whoever can make him take off his coat is the stronger one.\"",
+      "The wind agreed and went first."
+     ]
+    },
+    {
+     "sentences": [
+      "The wind blew as hard as he could.",
+      "Leaves flew, and the trees bent low.",
+      "But the harder the wind blew, the tighter the traveler held his coat.",
+      "At last the wind was out of breath and gave up."
+     ]
+    },
+    {
+     "sentences": [
+      "Then it was the sun's turn.",
+      "She came out from behind a cloud and shone gently.",
+      "The air grew warm, and then hot.",
+      "The traveler wiped his face.",
+      "Soon he took off his coat and sat down in the shade.",
+      "The sun had won without any force at all."
+     ]
+    }
+   ],
+   "challenge": [
+    {
+     "q": "What do the wind and the sun want to find out?",
+     "answer": "who is stronger",
+     "wrong": [
+      "who is older",
+      "where the traveler is going"
+     ]
+    },
+    {
+     "q": "What does the sun do to win the contest?",
+     "answer": "She shines gently until the traveler is hot.",
+     "wrong": [
+      "She blows as hard as she can.",
+      "She hides behind a cloud all day."
+     ]
+    },
+    {
+     "q": "How does the wind feel at the end of his turn?",
+     "answer": "tired",
+     "wrong": [
+      "proud",
+      "happy"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "cause": "The wind blew very hard.",
+     "effect": "The traveler held his coat tighter."
+    },
+    {
+     "cause": "The wind was out of breath.",
+     "effect": "The wind gave up."
+    },
+    {
+     "cause": "The sun made the air hot.",
+     "effect": "The traveler took off his coat."
+    }
+   ],
+   "lesson": {
+    "right": "Being gentle can work better than using force.",
+    "lure": "People do not believe someone who tells lies.",
+    "literal": "You should wear a coat on windy days."
+   },
+   "shows": [
+    "The wind blows hard, but the traveler holds his coat tighter.",
+    "The sun shines gently, and the traveler takes off his coat."
+   ],
+   "notInStory": "The wind blows the coat up into a tree.",
+   "retell": [
+    "The wind and the sun argue and start a contest.",
+    "The wind blows hard, but the traveler holds on to his coat.",
+    "The sun shines gently, and the traveler takes off his coat."
+   ],
+   "how": "The wind uses force and fails, but the gentle sun wins."
+  },
+  {
+   "id": "belling-the-cat",
+   "you": "the young mouse",
+   "title": "Belling the Cat",
+   "picture": {
+    "theme": "pets",
+    "noun": "cat"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "The mice in the old barn had a problem.",
+      "A cat lived there, and she was quick and quiet.",
+      "They never heard her coming.",
+      "One night the mice held a meeting.",
+      "\"We must do something,\" said the oldest mouse."
+     ]
+    },
+    {
+     "sentences": [
+      "A young mouse jumped up.",
+      "\"I have a plan!\" he said.",
+      "\"Let's tie a bell around the cat's neck. Then we will hear her and run away in time.\"",
+      "All the mice cheered.",
+      "They thought it was a wonderful idea."
+     ]
+    },
+    {
+     "sentences": [
+      "Then the oldest mouse spoke again.",
+      "\"It is a clever plan,\" she said.",
+      "\"But who will put the bell on the cat?\"",
+      "The barn grew very quiet.",
+      "Nobody wanted to go near the cat.",
+      "One by one, the mice slipped back into their holes."
+     ]
+    }
+   ],
+   "challenge": [
+    {
+     "q": "What problem do the mice have?",
+     "answer": "They never hear the cat coming.",
+     "wrong": [
+      "They have no food in the barn.",
+      "The barn is too cold for them."
+     ]
+    },
+    {
+     "q": "What do the mice do about it?",
+     "answer": "They hold a meeting and make a plan.",
+     "wrong": [
+      "They move to another barn.",
+      "They make friends with the cat."
+     ]
+    },
+    {
+     "q": "How do the mice feel when the young mouse tells his plan?",
+     "answer": "excited",
+     "wrong": [
+      "angry",
+      "sad"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "cause": "The mice never heard the cat coming.",
+     "effect": "They held a meeting."
+    },
+    {
+     "cause": "A young mouse told his plan.",
+     "effect": "All the mice cheered."
+    },
+    {
+     "cause": "The oldest mouse asked who would put the bell on the cat.",
+     "effect": "The barn grew very quiet."
+    }
+   ],
+   "lesson": {
+    "right": "A plan is only good if someone can really do it.",
+    "lure": "Being gentle can work better than using force.",
+    "literal": "Cats should always wear bells."
+   },
+   "shows": [
+    "All the mice cheer for the plan with the bell.",
+    "Nobody wants to put the bell on the cat."
+   ],
+   "notInStory": "The young mouse ties the bell on the cat while she sleeps.",
+   "retell": [
+    "The mice meet because a quiet cat lives in their barn.",
+    "A young mouse wants to tie a bell on the cat, and all the mice cheer.",
+    "Nobody dares to put the bell on the cat."
+   ],
+   "how": "The plan sounds good, but no mouse is brave enough to do it."
   }
  ]
 }

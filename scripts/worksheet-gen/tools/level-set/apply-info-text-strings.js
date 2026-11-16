@@ -176,6 +176,30 @@ const TEXT = {
     2: "Read the story. Think about each question before your group talks. Write your idea and the number of the paragraph that supports it.",
     3: "Read the story. Write your idea for each question and the number of the paragraph that supports it. Then write a question of your own for the group.",
   },
+  'G2-526': {
+    title: "How a Character Meets a Challenge",
+    1: "Read the story. Then circle the answer to each question.",
+    2: "Read the story. Then write the answer to each question.",
+    3: "Read the story. Write the answer to each question. Then tell what you would have done and why.",
+  },
+  'G2-527': {
+    title: "What Happens and Why",
+    1: "Read the story. A cause makes something happen. An effect is what happens. Next to each cause, write the letter of its effect.",
+    2: "Read the story. A cause makes something happen. An effect is what happens. Write the effect of each cause.",
+    3: "Read the story. Write the missing cause or effect. Then write one cause and its effect as one sentence.",
+  },
+  'G2-528': {
+    title: "What Is the Lesson?",
+    1: "Read the story. Circle its lesson. Then put a check mark next to the two sentences that show the lesson.",
+    2: "Read the story. Write its lesson. Then write what a character does that shows the lesson.",
+    3: "Read the story. Write its lesson and what a character does that shows it. Then tell how the ending teaches the lesson.",
+  },
+  'G2-529': {
+    title: "Beginning, Middle, and End",
+    1: "Read the story. Put the three sentences in order. Then circle what happens in the middle.",
+    2: "Read the story. Then retell it: write what happens at the beginning, in the middle, and at the end.",
+    3: "Read the story. Retell it: write the beginning, the middle, and the end. Then write the lesson of the story.",
+  },
 };
 
 function edit(file, fn) {

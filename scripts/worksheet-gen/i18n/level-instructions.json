@@ -7124,5 +7124,37 @@
     "3": {
       "en": "Read the story. Write your idea for each question and the number of the paragraph that supports it. Then write a question of your own for the group."
     }
+  },
+  "G2-526": {
+    "1": {
+      "en": "Read the story. Then circle the answer to each question."
+    },
+    "3": {
+      "en": "Read the story. Write the answer to each question. Then tell what you would have done and why."
+    }
+  },
+  "G2-527": {
+    "1": {
+      "en": "Read the story. A cause makes something happen. An effect is what happens. Next to each cause, write the letter of its effect."
+    },
+    "3": {
+      "en": "Read the story. Write the missing cause or effect. Then write one cause and its effect as one sentence."
+    }
+  },
+  "G2-528": {
+    "1": {
+      "en": "Read the story. Circle its lesson. Then put a check mark next to the two sentences that show the lesson."
+    },
+    "3": {
+      "en": "Read the story. Write its lesson and what a character does that shows it. Then tell how the ending teaches the lesson."
+    }
+  },
+  "G2-529": {
+    "1": {
+      "en": "Read the story. Put the three sentences in order. Then circle what happens in the middle."
+    },
+    "3": {
+      "en": "Read the story. Retell it: write the beginning, the middle, and the end. Then write the lesson of the story."
+    }
   }
 }

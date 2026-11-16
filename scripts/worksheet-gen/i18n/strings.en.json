@@ -5416,11 +5416,11 @@
   },
   "G1-600": {
     "title": "Every Syllable Has a Vowel",
-    "instruction": "Every syllable has a vowel, so count the vowels: nap | kin has two."
+    "instruction": "Every syllable has a vowel sound: nap | kin has two."
   },
   "G1-601": {
     "title": "One Syllable or Two?",
-    "instruction": "One vowel, one syllable: fish. Two vowels, two syllables: nap | kin."
+    "instruction": "One vowel sound, one syllable: fish. Two vowel sounds, two syllables: nap | kin."
   },
   "G1-602": {
     "title": "Compound Words and Two-Part Words",
@@ -5429,5 +5429,77 @@
   "G1-603": {
     "title": "Heart Words: said, was, of, could",
     "instruction": "Some words have a tricky part. We learn that part by heart."
+  },
+  "G3-512": {
+    "title": "Closed and Open Syllables",
+    "instruction": "An open syllable ends with a vowel, and the vowel says its name: ro | bot."
+  },
+  "G3-513": {
+    "title": "Closed or Open? Sort Long Words",
+    "instruction": "A closed syllable has a short vowel; an open syllable has a long vowel."
+  },
+  "G3-514": {
+    "title": "Silent-e, Vowel-Team, and Consonant-le Syllables",
+    "instruction": "A silent e makes the vowel before it long: cup | cake."
+  },
+  "G3-515": {
+    "title": "Build Long Words from Syllables",
+    "instruction": "Put the syllables together and read the whole word: cup + cake = cupcake."
+  },
+  "G3-516": {
+    "title": "Base Words and Suffixes",
+    "instruction": "A suffix at the end changes the word: kind + ness = kindness."
+  },
+  "G3-517": {
+    "title": "Which Word Fits? Suffixes in Sentences",
+    "instruction": "-ness and -ment make nouns: soft, softness; move, movement."
+  },
+  "G3-518": {
+    "title": "Heart Words: enough, though, ocean",
+    "instruction": "A heart word has a tricky part. We learn that part by heart."
+  },
+  "G3-519": {
+    "title": "The Sounds of ough: Sort the Words",
+    "instruction": "The letters ough can spell different sounds: uff, o, and aw."
+  },
+  "G3-520": {
+    "title": "Join Sentences with Joining Words",
+    "instruction": "A joining word shows how two ideas go together."
+  },
+  "G3-521": {
+    "title": "Choose the Joining Word",
+    "instruction": "Pick the joining word that makes sense with both ideas."
+  },
+  "G3-522": {
+    "title": "Simple, Compound, and Complex Sentences",
+    "instruction": "Sentences can be simple, compound, or complex."
+  },
+  "G3-523": {
+    "title": "Build Compound and Complex Sentences",
+    "instruction": "Two short sentences can make a compound or a complex sentence."
+  },
+  "G3-524": {
+    "title": "Better, Best: Comparing with Adjectives and Adverbs",
+    "instruction": "Long words use more and most: more careful."
+  },
+  "G3-525": {
+    "title": "Comparing Words: Choose the Right Form",
+    "instruction": "Short words take -er and -est. Long words take more and most."
+  },
+  "G3-526": {
+    "title": "Possessive Nouns: One Owner or More",
+    "instruction": "One owner: the bee's hive. More than one owner: the bees' hives."
+  },
+  "G3-527": {
+    "title": "Add the Apostrophe: Fix the Possessives",
+    "instruction": "Look at how many owners there are before you write the apostrophe."
+  },
+  "G3-528": {
+    "title": "Capitals in Titles",
+    "instruction": "Small words like a, the, of, and in stay small in the middle of a title."
+  },
+  "G3-529": {
+    "title": "Find the Capitals in Titles",
+    "instruction": "Small words like a, the, of, and in stay small in the middle of a title."
   }
 }

@@ -7458,15 +7458,15 @@
   },
   "G1-600": {
     "1": {
-      "en": "Every syllable has a vowel, so count the vowels: sun | set has two."
+      "en": "Every syllable has a vowel sound: sun | set has two."
     },
     "3": {
-      "en": "Every syllable has a vowel. Split a two-syllable word between its two consonants: bas | ket."
+      "en": "Every syllable has a vowel sound. Split a two-syllable word between its two consonants: bas | ket."
     }
   },
   "G1-601": {
     "1": {
-      "en": "One vowel, one syllable: fish. Two vowels, two syllables: sun | set."
+      "en": "One vowel sound, one syllable: fish. Two vowel sounds, two syllables: sun | set."
     },
     "3": {
       "en": "Count the vowel sounds, not the vowel letters: cake has one, cup | cake has two."
@@ -7477,8 +7477,142 @@
       "en": "A compound word is two small words put together: sun + set = sunset."
     },
     "3": {
-      "en": "Read a long word in two parts. A compound word is two small words: sun | set."
+      "en": "Read a long word in two parts: sun | set, bas | ket. A compound word is two small words."
     }
   },
-  "G1-603": {}
+  "G1-603": {},
+  "G3-512": {
+    "1": {
+      "en": "A closed syllable ends with a consonant, and its vowel is short: nap | kin."
+    },
+    "3": {
+      "en": "Try the long vowel first: ro | bot. Not a word? Try the short: cam | el."
+    }
+  },
+  "G3-513": {
+    "1": {
+      "en": "Two consonants in the middle? The first syllable is closed: rab | bit."
+    },
+    "3": {
+      "en": "One consonant? Try the long vowel, then the short: pi | lot, lem | on."
+    }
+  },
+  "G3-514": {
+    "1": {
+      "en": "A consonant-le syllable is the last three letters of a word: ta | ble."
+    },
+    "3": {
+      "en": "A long word can mix the syllable types: bum | ble | bee."
+    }
+  },
+  "G3-515": {
+    "1": {
+      "en": "A consonant-le syllable is the last part of a word: can + dle = candle."
+    },
+    "3": {
+      "en": "A long word can be two smaller words: bumble + bee = bumblebee."
+    }
+  },
+  "G3-516": {
+    "1": {
+      "en": "A suffix changes a word: -ful means full of, and -less means without."
+    },
+    "3": {
+      "en": "Before -able, drop a silent e: lovable. Change y to i before a suffix: happiness."
+    }
+  },
+  "G3-517": {
+    "1": {
+      "en": "-ful means full of, and -less means without: careful, careless."
+    },
+    "3": {
+      "en": "-able means can be: washable means can be washed."
+    }
+  },
+  "G3-518": {},
+  "G3-519": {
+    "3": {
+      "en": "The letters ough can spell many sounds. Read each word and listen."
+    }
+  },
+  "G3-520": {
+    "1": {
+      "en": "A joining word can join two sentences into one sentence."
+    },
+    "3": {
+      "en": "Some joining words tell why, when, or what has to happen first."
+    }
+  },
+  "G3-521": {
+    "1": {
+      "en": "A joining word shows how two ideas go together."
+    },
+    "3": {
+      "en": "Words like because, when, if, after, and before join ideas too."
+    }
+  },
+  "G3-522": {
+    "1": {
+      "en": "A compound sentence is two sentences joined with a comma and a joining word."
+    },
+    "3": {
+      "en": "A simple sentence can have two subjects or two verbs and still be simple."
+    }
+  },
+  "G3-523": {
+    "1": {
+      "en": "Two short sentences can make one compound sentence."
+    },
+    "3": {
+      "en": "Joining short sentences makes your writing smoother."
+    }
+  },
+  "G3-524": {
+    "1": {
+      "en": "Add -er to compare two things and -est to compare three or more."
+    },
+    "3": {
+      "en": "Some words change their form to compare. Learn them by heart."
+    }
+  },
+  "G3-525": {
+    "1": {
+      "en": "Use -er with than. Use -est to compare three or more."
+    },
+    "3": {
+      "en": "Some words change their form to compare. Learn them by heart."
+    }
+  },
+  "G3-526": {
+    "1": {
+      "en": "Add 's to show that one owner has something: the bee's hive."
+    },
+    "3": {
+      "en": "Plurals that do not end in s take 's: the people's kites."
+    }
+  },
+  "G3-527": {
+    "1": {
+      "en": "An apostrophe shows who owns something. A plural needs no apostrophe."
+    },
+    "3": {
+      "en": "Count the owners: the bee's hive, the bees' hives, the people's kites."
+    }
+  },
+  "G3-528": {
+    "1": {
+      "en": "In a title, the first word, the last word, and every important word get a capital."
+    },
+    "3": {
+      "en": "A name always gets a capital. So does the first word after a colon."
+    }
+  },
+  "G3-529": {
+    "1": {
+      "en": "In a title, the first word, the last word, and every important word get a capital."
+    },
+    "3": {
+      "en": "A name always gets a capital. So does the first word after a colon."
+    }
+  }
 }

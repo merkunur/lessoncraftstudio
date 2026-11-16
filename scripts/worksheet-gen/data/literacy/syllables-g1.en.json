@@ -1,0 +1,2429 @@
+{
+ "_note": "Grade 1 Two-Syllable Words (English literacy year, Part 12.3; types/_shared/syllables-g1.js). General American. Pages assume what the units before this one taught: short vowels, sh ch th ck ng wh, blends, silent e, the vowel teams ai ay ee ea oa ow (long o), and -s -ed -ing. `two`: two-syllable words with their parts (see the bank script for the flags). `one`: one-syllable words with one short vowel (closed). `oneLong`: one-syllable words with silent e or a vowel team (two vowel letters, one vowel sound); none ends in a long vowel or vowel team before l (wheel, smile, tail: many first graders clap them as two beats). `pics`/`printOnly`/`kinds`/`decoys`/`decoys2`/`match`: the pictures of G1-600. `sentences`: G1-601 (exactly one two-syllable word each). `sight1`/`sightL`/`names`: other words the sentences may use. `heart`: G1-603. `bad`: words no page may print or let a child make.",
+ "two": {
+  "sunset": {
+   "parts": [
+    "sun",
+    "set"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "hilltop": {
+   "parts": [
+    "hill",
+    "top"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sandbox": {
+   "parts": [
+    "sand",
+    "box"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "bathtub": {
+   "parts": [
+    "bath",
+    "tub"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "backpack": {
+   "parts": [
+    "back",
+    "pack"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "lunchbox": {
+   "parts": [
+    "lunch",
+    "box"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "dustpan": {
+   "parts": [
+    "dust",
+    "pan"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "handbag": {
+   "parts": [
+    "hand",
+    "bag"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "catfish": {
+   "parts": [
+    "cat",
+    "fish"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "eggshell": {
+   "parts": [
+    "egg",
+    "shell"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "laptop": {
+   "parts": [
+    "lap",
+    "top"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "desktop": {
+   "parts": [
+    "desk",
+    "top"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "cannot": {
+   "parts": [
+    "can",
+    "not"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "gumdrop": {
+   "parts": [
+    "gum",
+    "drop"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "lipstick": {
+   "parts": [
+    "lip",
+    "stick"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "padlock": {
+   "parts": [
+    "pad",
+    "lock"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "chopstick": {
+   "parts": [
+    "chop",
+    "stick"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "handstand": {
+   "parts": [
+    "hand",
+    "stand"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "bobcat": {
+   "parts": [
+    "bob",
+    "cat"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": true,
+   "quiet": false
+  },
+  "cobweb": {
+   "parts": [
+    "cob",
+    "web"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": true,
+   "quiet": false
+  },
+  "nutshell": {
+   "parts": [
+    "nut",
+    "shell"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "pigpen": {
+   "parts": [
+    "pig",
+    "pen"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "upset": {
+   "parts": [
+    "up",
+    "set"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "within": {
+   "parts": [
+    "with",
+    "in"
+   ],
+   "kind": "compound",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "cupcake": {
+   "parts": [
+    "cup",
+    "cake"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "pancake": {
+   "parts": [
+    "pan",
+    "cake"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "snowman": {
+   "parts": [
+    "snow",
+    "man"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "mailbox": {
+   "parts": [
+    "mail",
+    "box"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sailboat": {
+   "parts": [
+    "sail",
+    "boat"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "raincoat": {
+   "parts": [
+    "rain",
+    "coat"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "seashell": {
+   "parts": [
+    "sea",
+    "shell"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "beehive": {
+   "parts": [
+    "bee",
+    "hive"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "weekend": {
+   "parts": [
+    "week",
+    "end"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "inside": {
+   "parts": [
+    "in",
+    "side"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sunrise": {
+   "parts": [
+    "sun",
+    "rise"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "oatmeal": {
+   "parts": [
+    "oat",
+    "meal"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "bedtime": {
+   "parts": [
+    "bed",
+    "time"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sunshine": {
+   "parts": [
+    "sun",
+    "shine"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "haystack": {
+   "parts": [
+    "hay",
+    "stack"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "treetop": {
+   "parts": [
+    "tree",
+    "top"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "beanbag": {
+   "parts": [
+    "bean",
+    "bag"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": true,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "daytime": {
+   "parts": [
+    "day",
+    "time"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "snowflake": {
+   "parts": [
+    "snow",
+    "flake"
+   ],
+   "kind": "compound",
+   "long": true,
+   "meaning": true,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "rabbit": {
+   "parts": [
+    "rab",
+    "bit"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "kitten": {
+   "parts": [
+    "kit",
+    "ten"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": true
+  },
+  "mitten": {
+   "parts": [
+    "mit",
+    "ten"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "muffin": {
+   "parts": [
+    "muf",
+    "fin"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "tennis": {
+   "parts": [
+    "ten",
+    "nis"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "happen": {
+   "parts": [
+    "hap",
+    "pen"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sudden": {
+   "parts": [
+    "sud",
+    "den"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "lesson": {
+   "parts": [
+    "les",
+    "son"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "cotton": {
+   "parts": [
+    "cot",
+    "ton"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": true
+  },
+  "tunnel": {
+   "parts": [
+    "tun",
+    "nel"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "kennel": {
+   "parts": [
+    "ken",
+    "nel"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "fossil": {
+   "parts": [
+    "fos",
+    "sil"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "attic": {
+   "parts": [
+    "at",
+    "tic"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "traffic": {
+   "parts": [
+    "traf",
+    "fic"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "hammock": {
+   "parts": [
+    "ham",
+    "mock"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "puppet": {
+   "parts": [
+    "pup",
+    "pet"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "hiccup": {
+   "parts": [
+    "hic",
+    "cup"
+   ],
+   "kind": "double",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "napkin": {
+   "parts": [
+    "nap",
+    "kin"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "basket": {
+   "parts": [
+    "bas",
+    "ket"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "picnic": {
+   "parts": [
+    "pic",
+    "nic"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "helmet": {
+   "parts": [
+    "hel",
+    "met"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "magnet": {
+   "parts": [
+    "mag",
+    "net"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "insect": {
+   "parts": [
+    "in",
+    "sect"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "dentist": {
+   "parts": [
+    "den",
+    "tist"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "trumpet": {
+   "parts": [
+    "trum",
+    "pet"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "pretzel": {
+   "parts": [
+    "pret",
+    "zel"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "cactus": {
+   "parts": [
+    "cac",
+    "tus"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "contest": {
+   "parts": [
+    "con",
+    "test"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "velvet": {
+   "parts": [
+    "vel",
+    "vet"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "mascot": {
+   "parts": [
+    "mas",
+    "cot"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "absent": {
+   "parts": [
+    "ab",
+    "sent"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "invent": {
+   "parts": [
+    "in",
+    "vent"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "until": {
+   "parts": [
+    "un",
+    "til"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "unless": {
+   "parts": [
+    "un",
+    "less"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "plastic": {
+   "parts": [
+    "plas",
+    "tic"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "sandals": {
+   "parts": [
+    "san",
+    "dals"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": true
+  },
+  "zigzag": {
+   "parts": [
+    "zig",
+    "zag"
+   ],
+   "kind": "vccv",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": true,
+   "oddParts": false,
+   "quiet": false
+  },
+  "rocket": {
+   "parts": [
+    "rock",
+    "et"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "bucket": {
+   "parts": [
+    "buck",
+    "et"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "jacket": {
+   "parts": [
+    "jack",
+    "et"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "chicken": {
+   "parts": [
+    "chick",
+    "en"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "pocket": {
+   "parts": [
+    "pock",
+    "et"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "ticket": {
+   "parts": [
+    "tick",
+    "et"
+   ],
+   "kind": "ck",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  },
+  "pumpkin": {
+   "parts": [
+    "pump",
+    "kin"
+   ],
+   "kind": "three",
+   "long": false,
+   "meaning": false,
+   "draw": false,
+   "twoWords": false,
+   "oddParts": false,
+   "quiet": false
+  }
+ },
+ "one": [
+  "cat",
+  "dog",
+  "fish",
+  "ship",
+  "frog",
+  "nest",
+  "jump",
+  "duck",
+  "sock",
+  "bed",
+  "hat",
+  "pig",
+  "sun",
+  "tent",
+  "milk",
+  "crab",
+  "drum",
+  "chin",
+  "map",
+  "cup",
+  "bus",
+  "bag",
+  "box",
+  "fox",
+  "hen",
+  "net",
+  "pen",
+  "pot",
+  "rug",
+  "van",
+  "web",
+  "wig",
+  "zip",
+  "bell",
+  "doll",
+  "egg",
+  "flag",
+  "glass",
+  "hill",
+  "lamp",
+  "lock",
+  "mug",
+  "plum",
+  "slug",
+  "step",
+  "stick",
+  "swim",
+  "trip",
+  "truck",
+  "twig",
+  "desk",
+  "gift",
+  "list",
+  "mop",
+  "bat",
+  "log",
+  "lid",
+  "red",
+  "big",
+  "hot",
+  "wet",
+  "fun",
+  "run",
+  "sit",
+  "hop",
+  "dig",
+  "clap",
+  "spot",
+  "nut",
+  "bug",
+  "jet",
+  "jam",
+  "dish",
+  "moth",
+  "path",
+  "chest",
+  "shelf",
+  "bench",
+  "belt",
+  "help",
+  "mask",
+  "plant",
+  "pond",
+  "stamp",
+  "tub",
+  "vest",
+  "lip",
+  "fan",
+  "cap",
+  "tag",
+  "rat",
+  "pan",
+  "cub",
+  "hug",
+  "dot",
+  "bib",
+  "sled",
+  "shop",
+  "grass",
+  "got",
+  "set",
+  "hid",
+  "lift",
+  "pin",
+  "stop",
+  "had",
+  "lot",
+  "get",
+  "naps",
+  "nap",
+  "fast",
+  "mud",
+  "six",
+  "plants",
+  "stamps",
+  "trucks",
+  "sticks",
+  "chests",
+  "branch",
+  "crunch",
+  "blocks",
+  "clocks",
+  "snacks",
+  "drums",
+  "crabs",
+  "frogs",
+  "nests",
+  "lamps",
+  "gifts"
+ ],
+ "oneLong": [
+  "cake",
+  "bike",
+  "rope",
+  "kite",
+  "bone",
+  "home",
+  "lake",
+  "game",
+  "five",
+  "nine",
+  "gate",
+  "rain",
+  "seed",
+  "boat",
+  "team",
+  "leaf",
+  "tree",
+  "road",
+  "coat",
+  "sheep",
+  "meat",
+  "goat",
+  "soap",
+  "feet",
+  "green",
+  "train",
+  "paint",
+  "bee",
+  "bean",
+  "beach",
+  "toast",
+  "wait",
+  "sweep",
+  "cube",
+  "plane",
+  "slide",
+  "stone",
+  "note",
+  "sleeps",
+  "trains",
+  "skates",
+  "planes",
+  "stones",
+  "grapes",
+  "plates",
+  "snakes",
+  "floats"
+ ],
+ "sight1": [
+  "the",
+  "a",
+  "an",
+  "and",
+  "i",
+  "to",
+  "do",
+  "of",
+  "is",
+  "it",
+  "in",
+  "on",
+  "at",
+  "up",
+  "as",
+  "has",
+  "his",
+  "was",
+  "he",
+  "she",
+  "we",
+  "me",
+  "be",
+  "go",
+  "no",
+  "so",
+  "hi"
+ ],
+ "sightL": [
+  "like",
+  "are",
+  "you",
+  "my"
+ ],
+ "names": {
+  "short": [
+   "Sam",
+   "Jin",
+   "Max",
+   "Kim",
+   "Ben",
+   "Dev",
+   "Gus",
+   "Ken",
+   "Pam",
+   "Tess",
+   "Lin",
+   "Min",
+   "Nick",
+   "Ted",
+   "Beth",
+   "Meg",
+   "Jen",
+   "Tom"
+  ],
+  "long": [
+   "Kate",
+   "Jake",
+   "Pete",
+   "Mike",
+   "Zeke",
+   "Jade"
+  ],
+  "two": [
+   "Hassan",
+   "Imran",
+   "Ana"
+  ]
+ },
+ "pics": {
+  "sandbox": [
+   "toys",
+   "sandbox"
+  ],
+  "backpack": [
+   "accessories",
+   "backpack"
+  ],
+  "lunchbox": [
+   "classroom",
+   "lunchbox"
+  ],
+  "dustpan": [
+   "around the house",
+   "dustpan"
+  ],
+  "bathtub": [
+   "around the house",
+   "bathtub"
+  ],
+  "handbag": [
+   "accessories",
+   "handbag"
+  ],
+  "basket": [
+   "At the Supermarket",
+   "basket"
+  ],
+  "muffin": [
+   "bakery",
+   "muffin"
+  ],
+  "mitten": [
+   "clothing",
+   "mitten"
+  ],
+  "trumpet": [
+   "music",
+   "trumpet"
+  ],
+  "pretzel": [
+   "bakery",
+   "pretzel"
+  ],
+  "sandals": [
+   "summer",
+   "sandals"
+  ],
+  "pumpkin": [
+   "vegetables",
+   "pumpkin"
+  ],
+  "rocket": [
+   "toys",
+   "rocket"
+  ],
+  "rabbit": [
+   "pets",
+   "rabbit"
+  ],
+  "tennis": [
+   "activities",
+   "tennis"
+  ],
+  "hammock": [
+   "camping",
+   "hammock"
+  ]
+ },
+ "printOnly": [
+  "bathtub",
+  "handbag",
+  "muffin",
+  "rabbit",
+  "tennis",
+  "hammock",
+  "dustpan"
+ ],
+ "kinds": {
+  "sandbox": "play",
+  "backpack": "bag",
+  "handbag": "bag",
+  "lunchbox": "container",
+  "basket": "container",
+  "dustpan": "tool",
+  "bathtub": "bath",
+  "muffin": "food",
+  "pretzel": "food",
+  "pumpkin": "food",
+  "mitten": "clothes",
+  "sandals": "clothes",
+  "trumpet": "music",
+  "rocket": "toy",
+  "rabbit": "animal",
+  "tennis": "sport",
+  "hammock": "rest"
+ },
+ "decoys": {
+  "backpack": [
+   "back"
+  ],
+  "dustpan": [
+   "dust"
+  ],
+  "handbag": [
+   "hand"
+  ],
+  "sandals": [
+   "sand"
+  ],
+  "pumpkin": [
+   "pump"
+  ],
+  "rocket": [
+   "rock"
+  ],
+  "tennis": [
+   "ten"
+  ],
+  "hammock": [
+   "ham"
+  ]
+ },
+ "decoys2": {
+  "sandbox": [
+   "sandals",
+   "sunset"
+  ],
+  "backpack": [
+   "bathtub",
+   "basket",
+   "bobcat"
+  ],
+  "lunchbox": [
+   "lipstick",
+   "laptop"
+  ],
+  "dustpan": [
+   "desktop",
+   "dentist"
+  ],
+  "bathtub": [
+   "backpack",
+   "basket",
+   "bobcat"
+  ],
+  "handbag": [
+   "handstand",
+   "hammock",
+   "happen"
+  ],
+  "basket": [
+   "backpack",
+   "bathtub",
+   "bobcat"
+  ],
+  "muffin": [
+   "mitten",
+   "magnet",
+   "mascot"
+  ],
+  "mitten": [
+   "muffin",
+   "magnet",
+   "mascot"
+  ],
+  "trumpet": [
+   "traffic",
+   "tennis",
+   "tunnel"
+  ],
+  "pretzel": [
+   "picnic",
+   "plastic",
+   "puppet"
+  ],
+  "sandals": [
+   "sandbox",
+   "sunset"
+  ],
+  "pumpkin": [
+   "puppet",
+   "picnic"
+  ],
+  "rocket": [
+   "rabbit"
+  ],
+  "rabbit": [
+   "rocket"
+  ],
+  "tennis": [
+   "trumpet",
+   "traffic",
+   "tunnel"
+  ],
+  "hammock": [
+   "happen",
+   "helmet",
+   "handstand"
+  ]
+ },
+ "match": {
+  "1": [
+   "sandbox",
+   "backpack",
+   "lunchbox",
+   "dustpan",
+   "bathtub",
+   "handbag"
+  ],
+  "2": [
+   "basket",
+   "muffin",
+   "mitten",
+   "trumpet",
+   "pretzel",
+   "sandals",
+   "rocket",
+   "rabbit",
+   "tennis",
+   "hammock"
+  ],
+  "3": [
+   "sandbox",
+   "backpack",
+   "lunchbox",
+   "dustpan",
+   "bathtub",
+   "handbag",
+   "basket",
+   "muffin",
+   "mitten",
+   "trumpet",
+   "pretzel",
+   "sandals",
+   "pumpkin",
+   "rocket",
+   "rabbit",
+   "tennis",
+   "hammock"
+  ]
+ },
+ "sentences": {
+  "1": [
+   {
+    "text": "Kim set the stamps on the laptop.",
+    "two": "laptop"
+   },
+   {
+    "text": "Ben cannot lift the trucks.",
+    "two": "cannot"
+   },
+   {
+    "text": "Pam was upset when the trucks left.",
+    "two": "upset"
+   },
+   {
+    "text": "A bobcat hid in the plants.",
+    "two": "bobcat"
+   },
+   {
+    "text": "The cobweb is on the sticks.",
+    "two": "cobweb"
+   },
+   {
+    "text": "The pigpen is next to the plants.",
+    "two": "pigpen"
+   },
+   {
+    "text": "Gus was upset when his blocks fell.",
+    "two": "upset"
+   },
+   {
+    "text": "Lin hid within the plants.",
+    "two": "within"
+   },
+   {
+    "text": "Dad cannot fix the clocks.",
+    "two": "cannot"
+   },
+   {
+    "text": "The bobcat ran up the branch.",
+    "two": "bobcat"
+   },
+   {
+    "text": "A cobweb is on the clocks.",
+    "two": "cobweb"
+   },
+   {
+    "text": "I cannot crunch the nuts.",
+    "two": "cannot"
+   },
+   {
+    "text": "Max had snacks on his laptop.",
+    "two": "laptop"
+   },
+   {
+    "text": "Meg got upset when the trucks got stuck.",
+    "two": "upset"
+   },
+   {
+    "text": "The pigs in the pigpen had snacks.",
+    "two": "pigpen"
+   },
+   {
+    "text": "Jin sat in the sandbox.",
+    "two": "sandbox"
+   },
+   {
+    "text": "We sat on the hilltop.",
+    "two": "hilltop"
+   },
+   {
+    "text": "Max set his lunchbox on the desk.",
+    "two": "lunchbox"
+   },
+   {
+    "text": "Ben is in the bathtub.",
+    "two": "bathtub"
+   },
+   {
+    "text": "A catfish swims in the pond.",
+    "two": "catfish"
+   },
+   {
+    "text": "The dustpan is red.",
+    "two": "dustpan"
+   },
+   {
+    "text": "Dev can do a handstand.",
+    "two": "handstand"
+   },
+   {
+    "text": "Tess cannot run fast.",
+    "two": "cannot"
+   },
+   {
+    "text": "A bobcat ran up the hill.",
+    "two": "bobcat"
+   },
+   {
+    "text": "Kim has a padlock on the box.",
+    "two": "padlock"
+   },
+   {
+    "text": "The cobweb is in the shed.",
+    "two": "cobweb"
+   },
+   {
+    "text": "Dad has a laptop on his lap.",
+    "two": "laptop"
+   },
+   {
+    "text": "The eggshell is wet.",
+    "two": "eggshell"
+   },
+   {
+    "text": "Lin has a backpack.",
+    "two": "backpack"
+   },
+   {
+    "text": "Mom has a red handbag.",
+    "two": "handbag"
+   },
+   {
+    "text": "Sam got a gumdrop.",
+    "two": "gumdrop"
+   },
+   {
+    "text": "Laptops can get hot.",
+    "two": "laptops"
+   },
+   {
+    "text": "Catfish swim in the mud.",
+    "two": "catfish"
+   }
+  ],
+  "2": [
+   {
+    "text": "Pam hid a stamp in the attic.",
+    "two": "attic"
+   },
+   {
+    "text": "An insect is on the plants.",
+    "two": "insect"
+   },
+   {
+    "text": "The rabbit hid in the plants.",
+    "two": "rabbit"
+   },
+   {
+    "text": "Kim got snacks and a muffin.",
+    "two": "muffin"
+   },
+   {
+    "text": "The kitten naps on the blocks.",
+    "two": "kitten"
+   },
+   {
+    "text": "The magnet sticks to the desk.",
+    "two": "magnet"
+   },
+   {
+    "text": "We had a picnic with snacks.",
+    "two": "picnic"
+   },
+   {
+    "text": "Kim has a basket of plants.",
+    "two": "basket"
+   },
+   {
+    "text": "Sam sat on the bench until six.",
+    "two": "until"
+   },
+   {
+    "text": "The cactus is next to the plants.",
+    "two": "cactus"
+   },
+   {
+    "text": "Lin hid the stamps in a basket.",
+    "two": "basket"
+   },
+   {
+    "text": "The puppet is on the blocks.",
+    "two": "puppet"
+   },
+   {
+    "text": "The trucks go in the tunnel.",
+    "two": "tunnel"
+   },
+   {
+    "text": "Lin dug up a fossil with sticks.",
+    "two": "fossil"
+   },
+   {
+    "text": "Jin hung a mitten on the branch.",
+    "two": "mitten"
+   },
+   {
+    "text": "Kim hid the snacks in the attic.",
+    "two": "attic"
+   },
+   {
+    "text": "Dev hung his helmet on a branch.",
+    "two": "helmet"
+   },
+   {
+    "text": "The rabbit hid in the grass.",
+    "two": "rabbit"
+   },
+   {
+    "text": "Jin has a red mitten.",
+    "two": "mitten"
+   },
+   {
+    "text": "We had a picnic in the sun.",
+    "two": "picnic"
+   },
+   {
+    "text": "The muffin is hot.",
+    "two": "muffin"
+   },
+   {
+    "text": "Dad set a basket on his lap.",
+    "two": "basket"
+   },
+   {
+    "text": "Kim has a big helmet.",
+    "two": "helmet"
+   },
+   {
+    "text": "The kitten naps in the sun.",
+    "two": "kitten"
+   },
+   {
+    "text": "Tennis is fun.",
+    "two": "tennis"
+   },
+   {
+    "text": "Dev has a velvet hat.",
+    "two": "velvet"
+   },
+   {
+    "text": "The magnet can lift a pin.",
+    "two": "magnet"
+   },
+   {
+    "text": "The dentist has a mask on.",
+    "two": "dentist"
+   },
+   {
+    "text": "Gus has a trumpet.",
+    "two": "trumpet"
+   },
+   {
+    "text": "A cactus is in the pot.",
+    "two": "cactus"
+   },
+   {
+    "text": "Pam hid in the attic.",
+    "two": "attic"
+   },
+   {
+    "text": "The dog is in the kennel.",
+    "two": "kennel"
+   },
+   {
+    "text": "We ran in the tunnel.",
+    "two": "tunnel"
+   },
+   {
+    "text": "Lin dug up a fossil.",
+    "two": "fossil"
+   },
+   {
+    "text": "The bus had to stop in traffic.",
+    "two": "traffic"
+   },
+   {
+    "text": "Ken has a pretzel.",
+    "two": "pretzel"
+   },
+   {
+    "text": "Nick is in a contest.",
+    "two": "contest"
+   },
+   {
+    "text": "Sam has a swim lesson.",
+    "two": "lesson"
+   },
+   {
+    "text": "The bus had a sudden stop.",
+    "two": "sudden"
+   },
+   {
+    "text": "Magnets can lift pins.",
+    "two": "magnets"
+   },
+   {
+    "text": "Kittens nap a lot.",
+    "two": "kittens"
+   },
+   {
+    "text": "Mittens can get wet.",
+    "two": "mittens"
+   },
+   {
+    "text": "The puppet has a red hat.",
+    "two": "puppet"
+   },
+   {
+    "text": "Ben has the hiccups.",
+    "two": "hiccups"
+   }
+  ],
+  "3": [
+   {
+    "text": "Pete sleeps inside the tent.",
+    "two": "inside"
+   },
+   {
+    "text": "The rabbit sleeps in the shade.",
+    "two": "rabbit"
+   },
+   {
+    "text": "The trains go to the picnic.",
+    "two": "picnic"
+   },
+   {
+    "text": "The snowman has stripes.",
+    "two": "snowman"
+   },
+   {
+    "text": "We see the streams at sunrise.",
+    "two": "sunrise"
+   },
+   {
+    "text": "Jin skates and plays tennis.",
+    "two": "tennis"
+   },
+   {
+    "text": "Zeke eats a muffin and grapes.",
+    "two": "muffin"
+   },
+   {
+    "text": "The insect sleeps on a leaf.",
+    "two": "insect"
+   },
+   {
+    "text": "Jade paints a zigzag on the stones.",
+    "two": "zigzag"
+   },
+   {
+    "text": "Mike paints a cactus green.",
+    "two": "cactus"
+   },
+   {
+    "text": "We eat snacks at the picnic.",
+    "two": "picnic"
+   },
+   {
+    "text": "Jake has a basket of grapes.",
+    "two": "basket"
+   },
+   {
+    "text": "Pete paints planes in the attic.",
+    "two": "attic"
+   },
+   {
+    "text": "The snowman has a red hat.",
+    "two": "snowman"
+   },
+   {
+    "text": "Jake has a green raincoat.",
+    "two": "raincoat"
+   },
+   {
+    "text": "A seashell is on the beach.",
+    "two": "seashell"
+   },
+   {
+    "text": "Dad made pancakes.",
+    "two": "pancakes"
+   },
+   {
+    "text": "The bees go to the beehive.",
+    "two": "beehive"
+   },
+   {
+    "text": "We play on the weekend.",
+    "two": "weekend"
+   },
+   {
+    "text": "Mom reads on the beanbag.",
+    "two": "beanbag"
+   },
+   {
+    "text": "The rabbit ate a green leaf.",
+    "two": "rabbit"
+   },
+   {
+    "text": "We woke at sunrise.",
+    "two": "sunrise"
+   },
+   {
+    "text": "A goat sleeps in the haystack.",
+    "two": "haystack"
+   },
+   {
+    "text": "Mike had a muffin at home.",
+    "two": "muffin"
+   },
+   {
+    "text": "Jade rode a bike to the picnic.",
+    "two": "picnic"
+   },
+   {
+    "text": "The sunshine is hot.",
+    "two": "sunshine"
+   },
+   {
+    "text": "Snowflakes fell on Pete.",
+    "two": "snowflakes"
+   },
+   {
+    "text": "Kate ate a pancake.",
+    "two": "pancake"
+   },
+   {
+    "text": "Kim sleeps at bedtime.",
+    "two": "bedtime"
+   },
+   {
+    "text": "The rabbit likes to play.",
+    "two": "rabbit"
+   }
+  ]
+ },
+ "heart": {
+  "always": [
+   "said",
+   "was",
+   "of",
+   "could"
+  ],
+  "words": [
+   {
+    "w": "said",
+    "boxes": [
+     "s",
+     "ai",
+     "d"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "ai says /ĕ/ here"
+   },
+   {
+    "w": "was",
+    "boxes": [
+     "w",
+     "a",
+     "s"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "the a says /ŭ/; the s says /z/, as in is and has"
+   },
+   {
+    "w": "of",
+    "boxes": [
+     "o",
+     "f"
+    ],
+    "heart": [
+     0,
+     1
+    ],
+    "note": "the o says /ŭ/ and the f says /v/"
+   },
+   {
+    "w": "could",
+    "boxes": [
+     "c",
+     "oul",
+     "d"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "oul says /ŏŏ/, as in book; the l is silent"
+   },
+   {
+    "w": "they",
+    "boxes": [
+     "th",
+     "ey"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "ey says /ā/"
+   },
+   {
+    "w": "does",
+    "boxes": [
+     "d",
+     "oe",
+     "s"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "oe says /ŭ/; the s says /z/"
+   },
+   {
+    "w": "friend",
+    "boxes": [
+     "f",
+     "r",
+     "ie",
+     "n",
+     "d"
+    ],
+    "heart": [
+     2
+    ],
+    "note": "ie says /ĕ/"
+   },
+   {
+    "w": "put",
+    "boxes": [
+     "p",
+     "u",
+     "t"
+    ],
+    "heart": [
+     1
+    ],
+    "note": "the u says /ŏŏ/, as in book"
+   },
+   {
+    "w": "give",
+    "boxes": [
+     "g",
+     "i",
+     "ve"
+    ],
+    "heart": [
+     2
+    ],
+    "note": "the e is silent and does not make the i long"
+   },
+   {
+    "w": "come",
+    "boxes": [
+     "c",
+     "o",
+     "me"
+    ],
+    "heart": [
+     1,
+     2
+    ],
+    "note": "the o says /ŭ/, and the e at the end is silent but does not make the o long"
+   }
+  ],
+  "sentences": {
+   "said": [
+    "“I am hot,” ___ Sam.",
+    "“Get in the van,” Dad ___.",
+    "“Yes!” ___ Jin.",
+    "“Let’s swim!” ___ Max.",
+    "Kim ___ hi to the class.",
+    "The vet ___ the dog is fine.",
+    "Dad ___ we can go to the lake.",
+    "“I can hop,” ___ Ana."
+   ],
+   "was": [
+    "The cake ___ hot.",
+    "Last week, Sam ___ sick.",
+    "The dog ___ in the mud.",
+    "It ___ a big red bus.",
+    "The bus ___ late.",
+    "The pond ___ deep.",
+    "My hat ___ wet."
+   ],
+   "of": [
+    "I had a cup ___ milk.",
+    "Kim ate a lot ___ grapes.",
+    "Max had a bag ___ chips.",
+    "The top ___ the hill is flat.",
+    "Jin ate a bit ___ cake.",
+    "We got a box ___ pens.",
+    "Ana has a bag ___ shells."
+   ],
+   "could": [
+    "I ___ not lift the big box.",
+    "At camp, we ___ not sleep.",
+    "We ___ not get the lid off.",
+    "I ___ not swim in the deep end.",
+    "We ___ smell the hot buns.",
+    "I ___ not reach the top shelf."
+   ],
+   "they": [
+    "The kids got wet. ___ ran home.",
+    "Mom and Dad are home. ___ made a cake.",
+    "The ducks swim. ___ like the pond.",
+    "Sam and Ben are pals. ___ like to play tag.",
+    "The pigs are hot. ___ sat in the mud.",
+    "The cats ate. Then ___ had a nap."
+   ],
+   "does": [
+    "Ana ___ a flip on the mat.",
+    "Ben ___ his best.",
+    "Kim ___ a trick with a cup.",
+    "Dev ___ a hop and a skip.",
+    "Max ___ ten sit-ups.",
+    "Hassan ___ a hop on his left leg."
+   ],
+   "friend": [
+    "Jin is my best ___.",
+    "I sat with my ___ at lunch.",
+    "My ___ Sam has a dog.",
+    "Max and his ___ swim in the lake.",
+    "Ken met a ___ at camp.",
+    "A ___ helps you."
+   ],
+   "put": [
+    "Sam ___ his hat on the bed.",
+    "Jin ___ the eggs in the box.",
+    "Mom ___ a pin in the map.",
+    "Dad ___ the cups on the shelf.",
+    "Kim ___ the bag on the desk.",
+    "___ the pen in the cup, Max."
+   ],
+   "give": [
+    "Dad will ___ the dog a bone.",
+    "I will ___ Mom a hug.",
+    "Can you ___ me a pen?",
+    "Imran will ___ us a ride.",
+    "We ___ the plants a drink.",
+    "Jin will ___ Ben a gift."
+   ],
+   "come": [
+    "___ and see my cat!",
+    "Can you ___ with me?",
+    "Will you ___ to the lake with us?",
+    "The bus will ___ at six.",
+    "The ducks ___ to the pond.",
+    "When will the bus ___?"
+   ]
+  },
+  "fits": {
+   "said": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "was": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "of": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "could": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "they": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "does": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "friend": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "put": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "give": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "come": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  }
+ },
+ "bad": [
+  "butt",
+  "butts",
+  "poo",
+  "pee",
+  "pis",
+  "fart",
+  "dumb",
+  "gun",
+  "guns",
+  "kill",
+  "hell",
+  "damn",
+  "crap",
+  "suck",
+  "sex",
+  "ass",
+  "tit",
+  "tits"
+ ],
+ "say": {
+  "vowel": {
+   "1": [
+    "sunset"
+   ],
+   "2": [
+    "napkin"
+   ],
+   "3": [
+    "basket"
+   ]
+  },
+  "sort": {
+   "1": [
+    "fish",
+    "sunset"
+   ],
+   "2": [
+    "fish",
+    "napkin"
+   ],
+   "3": [
+    "cake",
+    "cupcake"
+   ]
+  },
+  "parts": {
+   "1": [
+    "sunset"
+   ],
+   "2": [
+    "sunset",
+    "rabbit"
+   ],
+   "3": [
+    "sunset",
+    "basket"
+   ]
+  }
+ }
+}

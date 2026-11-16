@@ -6999,5 +6999,37 @@
     "3": {
       "en": "Listen to the two texts and read along. In each box, draw one thing: something only the first text tells about, something both texts tell about, and something only the second text tells about. Write its name on the line."
     }
+  },
+  "G3-494": {
+    "1": {
+      "en": "Read the text. Circle each answer. The number after each question tells which paragraph has the answer."
+    },
+    "3": {
+      "en": "Read the text. Write each answer and the number of the paragraph that proves it. Then copy the sentence from the text that proves your answer."
+    }
+  },
+  "G3-495": {
+    "1": {
+      "en": "Read the text. Each sentence in a box is from the text. Circle the question that the sentence answers."
+    },
+    "3": {
+      "en": "Read the text. Write three questions about it. Begin each one with the word given. Then write each answer and the number of the paragraph that tells it."
+    }
+  },
+  "G3-496": {
+    "1": {
+      "en": "Read the text. Circle the main idea of the whole text. Then check the three key details."
+    },
+    "3": {
+      "en": "Read the text. Write the main idea and three key details that support it. Then write a summary."
+    }
+  },
+  "G3-497": {
+    "1": {
+      "en": "Read the text. Write the number of each paragraph next to what it is mostly about. Then circle the best heading for two of the paragraphs."
+    },
+    "3": {
+      "en": "Read the text. Write a heading for each paragraph and what the paragraph is mostly about."
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After. KINDERGARTEN PAIRS (`k2`), written 2026-11-16: two fact texts of four short sentences on one topic; two library pictures of things BOTH texts tell about, two of the first text only, two of the second only (each with the `word` that stands in the text and a `label` a child can write).",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After. KINDERGARTEN PAIRS (`k2`), written 2026-11-16: two fact texts of four short sentences on one topic; two library pictures of things BOTH texts tell about, two of the first text only, two of the second only (each with the `word` that stands in the text and a `label` a child can write). GRADE 3 TEXTS (`g3`), 2026-11-16: about 230 words in FOUR paragraphs, each with a heading and a `focus` (what it is mostly about; `focusLure` fits none), one library picture; the main idea as a sentence with one that is too narrow and one that is too wide, three key details and one sentence that is not in the text, a summary; five questions, each with the paragraph that proves the answer and the proving sentence word for word; four sentences of the text with the question each answers and a wrong question about the same paragraph (`lure`). READ 2026-11-16 by a US Grade 3 reviewer with the rendered pages; every finding applied.",
  "g1": [
   {
    "id": "frogs",
@@ -4998,6 +4998,731 @@
      "noun": "mail_truck",
      "word": "mail truck",
      "label": "mail truck"
+    }
+   ]
+  }
+ ],
+ "g3": [
+  {
+   "id": "lighthouses",
+   "title": "Lighthouses",
+   "picture": {
+    "theme": "beach",
+    "noun": "lighthouse"
+   },
+   "parts": [
+    {
+     "heading": "Keeping Ships Safe",
+     "focus": "why lighthouses were built",
+     "sentences": [
+      "For hundreds of years, sailing at night was dangerous.",
+      "Ships could hit rocks or run onto sand that the sailors could not see.",
+      "To keep ships safe, people built tall towers with a bright light on top.",
+      "These towers are called lighthouses.",
+      "They stand on coasts and islands, where the water is most dangerous."
+     ]
+    },
+    {
+     "heading": "How the Light Works",
+     "focus": "how the light of a lighthouse works",
+     "sentences": [
+      "The light of a lighthouse has to be seen from far away.",
+      "Long ago, keepers burned wood or coal on top of the tower.",
+      "Later they used oil lamps.",
+      "In the 1820s, a French scientist named Augustin Fresnel invented a special lens.",
+      "Its rings of glass bend the light of one lamp into a strong beam.",
+      "Sailors can see the beam from about 20 miles away."
+     ]
+    },
+    {
+     "heading": "The Lighthouse Keeper",
+     "focus": "the work of a lighthouse keeper",
+     "sentences": [
+      "Most lighthouses once had a keeper who lived there, often with a family.",
+      "The keeper lit the lamp at sunset and put it out at sunrise.",
+      "During the night, the keeper made sure the light never went out.",
+      "The lens had to be cleaned every day.",
+      "In fog, the keeper also sounded a loud horn or bell, because ships could not see the light."
+     ]
+    },
+    {
+     "heading": "Lighthouses Today",
+     "focus": "what lighthouses are like today",
+     "sentences": [
+      "Today, electric lamps turn on and off by themselves, so lighthouses no longer need keepers.",
+      "Ships also find their way with the help of satellites.",
+      "Still, many lighthouses keep shining as a backup.",
+      "Each one flashes in its own pattern, so sailors can tell which lighthouse they see.",
+      "Some old lighthouses have become museums that people can visit."
+     ]
+    }
+   ],
+   "focusLure": "which lighthouse is the oldest in the world",
+   "mainIdea": {
+    "right": "Lighthouses guide ships safely past dangerous places with a bright light.",
+    "narrow": "A special lens bends the light of a lamp into a strong beam.",
+    "wide": "Sailing on the sea can be dangerous."
+   },
+   "details": [
+    "Lighthouses stand where the water is dangerous and show ships the way.",
+    "A special lens makes the light strong enough to be seen from far away.",
+    "Keepers once kept the light burning all night, but today the lamps work by themselves."
+   ],
+   "notInText": "Keepers painted the lighthouse tower every year.",
+   "summary": "Lighthouses guide ships past dangerous places with a strong light. A special lens makes the light reach far. Keepers once looked after the light, but today it works by itself.",
+   "questions": [
+    {
+     "q": "Why did people build lighthouses?",
+     "answer": "to keep ships safe",
+     "wrong": [
+      "to watch the weather",
+      "to give sailors a home"
+     ],
+     "part": 1,
+     "proof": "To keep ships safe, people built tall towers with a bright light on top."
+    },
+    {
+     "q": "What did Augustin Fresnel invent?",
+     "answer": "a special lens",
+     "wrong": [
+      "the oil lamp",
+      "the electric lamp"
+     ],
+     "part": 2,
+     "proof": "In the 1820s, a French scientist named Augustin Fresnel invented a special lens."
+    },
+    {
+     "q": "When did the keeper light the lamp?",
+     "answer": "at sunset",
+     "wrong": [
+      "at sunrise",
+      "at noon"
+     ],
+     "part": 3,
+     "proof": "The keeper lit the lamp at sunset and put it out at sunrise."
+    },
+    {
+     "q": "Why do lighthouses no longer need keepers?",
+     "answer": "The lamps turn on and off by themselves.",
+     "wrong": [
+      "Ships no longer sail at night.",
+      "The lamps burn wood again."
+     ],
+     "part": 4,
+     "proof": "Today, electric lamps turn on and off by themselves, so lighthouses no longer need keepers."
+    },
+    {
+     "q": "How can sailors tell which lighthouse they see?",
+     "answer": "by the pattern of its flashes",
+     "wrong": [
+      "by its color",
+      "by its height"
+     ],
+     "part": 4,
+     "proof": "Each one flashes in its own pattern, so sailors can tell which lighthouse they see."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where do lighthouses stand?",
+     "answer": "They stand on coasts and islands, where the water is most dangerous.",
+     "lure": "What could ships hit at night?"
+    },
+    {
+     "word": "How",
+     "q": "How does the special lens make the light strong?",
+     "answer": "Its rings of glass bend the light of one lamp into a strong beam.",
+     "lure": "Who invented the special lens?"
+    },
+    {
+     "word": "When",
+     "q": "When did the keeper put out the lamp?",
+     "answer": "The keeper lit the lamp at sunset and put it out at sunrise.",
+     "lure": "How often did the keeper clean the lens?"
+    },
+    {
+     "word": "Why",
+     "q": "Why did the keeper sound a horn or bell in fog?",
+     "answer": "In fog, the keeper also sounded a loud horn or bell, because ships could not see the light.",
+     "lure": "When did the keeper light the lamp?"
+    }
+   ]
+  },
+  {
+   "id": "space-station",
+   "title": "Living on the Space Station",
+   "picture": {
+    "theme": "space",
+    "noun": "astronaut"
+   },
+   "parts": [
+    {
+     "heading": "A Laboratory Above Earth",
+     "focus": "what the space station is and who lives there",
+     "sentences": [
+      "The International Space Station is a laboratory that circles Earth about 250 miles above the ground.",
+      "It travels very fast and goes around Earth about 16 times every day.",
+      "Astronauts from many countries live and work there, usually for about six months at a time.",
+      "The first crew arrived in the year 2000, and people have lived on the station ever since."
+     ]
+    },
+    {
+     "heading": "Floating All Day",
+     "focus": "how everything floats on the station",
+     "sentences": [
+      "On the station, everything floats, and so do the astronauts.",
+      "They do not walk.",
+      "They push off a wall and glide to where they want to go.",
+      "Tools, pencils, and even drops of water float away if nobody holds them.",
+      "That is why the walls are covered with straps and strips of Velcro that keep things in place."
+     ]
+    },
+    {
+     "heading": "Eating and Sleeping",
+     "focus": "how astronauts eat and sleep",
+     "sentences": [
+      "Meals come in sealed bags and cans, so crumbs and drops cannot drift into the machines.",
+      "Astronauts drink through straws from closed pouches.",
+      "At night, each astronaut zips into a sleeping bag that is tied to the wall of a small cabin.",
+      "Without the ties, a sleeping astronaut would slowly float around the station."
+     ]
+    },
+    {
+     "heading": "Work and Exercise",
+     "focus": "what astronauts do during the day",
+     "sentences": [
+      "Astronauts spend most of the day on science experiments and on repairs.",
+      "They also exercise about two hours every day.",
+      "In space, muscles and bones do not have to carry the weight of the body, so they get weak.",
+      "Running on a treadmill and pulling against machines keeps the astronauts strong for their return to Earth."
+     ]
+    }
+   ],
+   "focusLure": "how astronauts travel to the station",
+   "mainIdea": {
+    "right": "Life on the space station is different from life on Earth because everything floats.",
+    "narrow": "Astronauts sleep in sleeping bags that are tied to the wall.",
+    "wide": "People have explored space for many years."
+   },
+   "details": [
+    "Astronauts glide through the station instead of walking.",
+    "Food and sleeping bags are made so that nothing floats away.",
+    "Astronauts exercise every day because muscles and bones get weak in space."
+   ],
+   "notInText": "Astronauts grow all their food in a garden on the station.",
+   "summary": "Astronauts live and work on a space station high above Earth. Everything floats there, so they glide, eat from sealed bags, and sleep tied to a wall. They exercise every day to stay strong.",
+   "questions": [
+    {
+     "q": "How high above the ground does the space station circle Earth?",
+     "answer": "about 250 miles",
+     "wrong": [
+      "about 16 miles",
+      "about 2,000 miles"
+     ],
+     "part": 1,
+     "proof": "The International Space Station is a laboratory that circles Earth about 250 miles above the ground."
+    },
+    {
+     "q": "How do astronauts move through the station?",
+     "answer": "They push off a wall and glide.",
+     "wrong": [
+      "They walk in heavy boots.",
+      "They swim with their arms."
+     ],
+     "part": 2,
+     "proof": "They push off a wall and glide to where they want to go."
+    },
+    {
+     "q": "Why do meals come in sealed bags and cans?",
+     "answer": "so crumbs and drops cannot drift into the machines",
+     "wrong": [
+      "so the food stays warm",
+      "so the food weighs less"
+     ],
+     "part": 3,
+     "proof": "Meals come in sealed bags and cans, so crumbs and drops cannot drift into the machines."
+    },
+    {
+     "q": "How long do astronauts exercise every day?",
+     "answer": "about two hours",
+     "wrong": [
+      "about ten minutes",
+      "about six hours"
+     ],
+     "part": 4,
+     "proof": "They also exercise about two hours every day."
+    },
+    {
+     "q": "Why do muscles and bones get weak in space?",
+     "answer": "They do not have to carry the weight of the body.",
+     "wrong": [
+      "The astronauts eat too little.",
+      "The station is too cold."
+     ],
+     "part": 4,
+     "proof": "In space, muscles and bones do not have to carry the weight of the body, so they get weak."
+    }
+   ],
+   "ask": [
+    {
+     "word": "When",
+     "q": "When did the first crew arrive on the station?",
+     "answer": "The first crew arrived in the year 2000, and people have lived on the station ever since.",
+     "lure": "How long do astronauts stay on the station?"
+    },
+    {
+     "word": "What",
+     "q": "What keeps things in place on the station?",
+     "answer": "That is why the walls are covered with straps and strips of Velcro that keep things in place.",
+     "lure": "What floats away if nobody holds it?"
+    },
+    {
+     "word": "Where",
+     "q": "Where does an astronaut sleep?",
+     "answer": "At night, each astronaut zips into a sleeping bag that is tied to the wall of a small cabin.",
+     "lure": "Why do meals come in sealed bags?"
+    },
+    {
+     "word": "Why",
+     "q": "Why do muscles and bones get weak in space?",
+     "answer": "In space, muscles and bones do not have to carry the weight of the body, so they get weak.",
+     "lure": "How do astronauts keep their muscles strong?"
+    }
+   ]
+  },
+  {
+   "id": "emperor-penguins",
+   "title": "Emperor Penguins",
+   "picture": {
+    "theme": "animals",
+    "noun": "penguin"
+   },
+   "parts": [
+    {
+     "heading": "The Coldest Home on Earth",
+     "focus": "how cold the home of the emperor penguins is",
+     "sentences": [
+      "Emperor penguins live in Antarctica, the coldest place on Earth.",
+      "In winter the temperature can drop to 40 degrees below zero, and icy winds blow across the ice.",
+      "Emperor penguins are the largest penguins.",
+      "A grown one stands almost four feet tall.",
+      "Thick fat and tightly packed feathers keep its body warm."
+     ]
+    },
+    {
+     "heading": "One Egg in Winter",
+     "focus": "how the father takes care of the egg",
+     "sentences": [
+      "Most birds lay their eggs in spring, but emperor penguins lay theirs at the start of winter.",
+      "The mother lays one egg and passes it to the father.",
+      "Then she walks many miles to the sea to hunt for fish.",
+      "The father balances the egg on his feet and covers it with a warm fold of skin.",
+      "For about two months, while he keeps the egg, he eats nothing at all."
+     ]
+    },
+    {
+     "heading": "Huddling Together",
+     "focus": "how the fathers stay warm together",
+     "sentences": [
+      "To get through the storms, the fathers stand close together in a big group called a huddle.",
+      "Thousands of penguins press against each other.",
+      "The birds in the middle are warm, and the birds on the outside are cold.",
+      "So the penguins keep changing places.",
+      "Every bird gets a turn in the warm middle."
+     ]
+    },
+    {
+     "heading": "The Chick Arrives",
+     "focus": "how the parents raise the chick",
+     "sentences": [
+      "When the chick hatches, the mother comes back with food in her stomach.",
+      "Now the hungry father can go to the sea.",
+      "For the next months, the parents take turns feeding the chick.",
+      "By summer, the young penguin has grown waterproof feathers.",
+      "Then it is ready to swim and to catch its own fish."
+     ]
+    }
+   ],
+   "focusLure": "which animals hunt emperor penguins",
+   "mainIdea": {
+    "right": "Emperor penguin parents work together to raise a chick in the coldest place on Earth.",
+    "narrow": "The father balances the egg on his feet.",
+    "wide": "Many kinds of birds live in cold places."
+   },
+   "details": [
+    "The father keeps the egg warm on his feet while the mother hunts in the sea.",
+    "The fathers huddle together and change places to stay warm.",
+    "After the chick hatches, both parents take turns feeding it."
+   ],
+   "notInText": "Emperor penguins build nests of stones for their eggs.",
+   "summary": "Emperor penguins raise their chicks in icy Antarctica. The father keeps the egg warm on his feet and huddles with other fathers while the mother hunts. After the chick hatches, both parents feed it.",
+   "questions": [
+    {
+     "q": "Where do emperor penguins live?",
+     "answer": "in Antarctica",
+     "wrong": [
+      "in the Arctic",
+      "in Africa"
+     ],
+     "part": 1,
+     "proof": "Emperor penguins live in Antarctica, the coldest place on Earth."
+    },
+    {
+     "q": "Where does the mother go after she gives the egg to the father?",
+     "answer": "to the sea, to hunt for fish",
+     "wrong": [
+      "to the middle of the huddle",
+      "to a nest on the rocks"
+     ],
+     "part": 2,
+     "proof": "Then she walks many miles to the sea to hunt for fish."
+    },
+    {
+     "q": "How long does the father go without food while he keeps the egg?",
+     "answer": "for about two months",
+     "wrong": [
+      "for about two days",
+      "for about two years"
+     ],
+     "part": 2,
+     "proof": "For about two months, while he keeps the egg, he eats nothing at all."
+    },
+    {
+     "q": "Why do the penguins in a huddle keep changing places?",
+     "answer": "so every bird gets a turn in the warm middle",
+     "wrong": [
+      "so they can look for food",
+      "so the chicks can play"
+     ],
+     "part": 3,
+     "proof": "Every bird gets a turn in the warm middle."
+    },
+    {
+     "q": "Who feeds the chick?",
+     "answer": "the mother and the father, in turns",
+     "wrong": [
+      "only the mother",
+      "only the father"
+     ],
+     "part": 4,
+     "proof": "For the next months, the parents take turns feeding the chick."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where do emperor penguins live?",
+     "answer": "Emperor penguins live in Antarctica, the coldest place on Earth.",
+     "lure": "How cold does Antarctica get in winter?"
+    },
+    {
+     "word": "What",
+     "q": "What keeps the body of an emperor penguin warm?",
+     "answer": "Thick fat and tightly packed feathers keep its body warm.",
+     "lure": "How tall is a grown emperor penguin?"
+    },
+    {
+     "word": "How",
+     "q": "How does the father keep the egg warm?",
+     "answer": "The father balances the egg on his feet and covers it with a warm fold of skin.",
+     "lure": "Who lays the egg?"
+    },
+    {
+     "word": "When",
+     "q": "When does the young penguin grow waterproof feathers?",
+     "answer": "By summer, the young penguin has grown waterproof feathers.",
+     "lure": "Who feeds the young penguin?"
+    }
+   ]
+  },
+  {
+   "id": "pony-express",
+   "title": "The Pony Express",
+   "picture": {
+    "theme": "animals",
+    "noun": "horse"
+   },
+   "parts": [
+    {
+     "heading": "Mail for the West",
+     "focus": "why the Pony Express was started",
+     "sentences": [
+      "In 1860, sending a letter across the United States took a long time.",
+      "Mail to California traveled by stagecoach or by ship, and it could take three weeks or more to arrive.",
+      "Three businessmen had a new idea.",
+      "Fast riders on fast horses would carry the mail.",
+      "They called their new mail service the Pony Express."
+     ]
+    },
+    {
+     "heading": "From Station to Station",
+     "focus": "how the mail moved along the route",
+     "sentences": [
+      "The route ran almost 2,000 miles, from St. Joseph, Missouri, to Sacramento, California.",
+      "A rider galloped about ten miles to the next station.",
+      "There he jumped onto a fresh horse and raced on.",
+      "After about 75 miles, a new rider took over the bag of mail.",
+      "Day and night, the mail kept moving."
+     ]
+    },
+    {
+     "heading": "Brave Young Riders",
+     "focus": "what the riders and their work were like",
+     "sentences": [
+      "The riders were young and light, so the horses could run fast.",
+      "Many were teenagers.",
+      "They rode through deserts, over mountains, and across rivers, in summer heat and in winter snow.",
+      "The work was hard and dangerous, but the mail almost always got through.",
+      "A letter now crossed the country in about ten days."
+     ]
+    },
+    {
+     "heading": "The End of the Pony Express",
+     "focus": "why the Pony Express ended",
+     "sentences": [
+      "The Pony Express lasted only about 18 months.",
+      "In October 1861, workers finished a telegraph line that reached all the way to California.",
+      "Now a message could be sent across the country in minutes over a wire.",
+      "Nobody needed the fast riders anymore.",
+      "The Pony Express closed, but people still tell its story today."
+     ]
+    }
+   ],
+   "focusLure": "how the horses were trained",
+   "mainIdea": {
+    "right": "For a short time, the Pony Express carried mail across the country faster than anything before it.",
+    "narrow": "Many Pony Express riders were teenagers.",
+    "wide": "People have always sent letters to each other."
+   },
+   "details": [
+    "Riders changed horses about every ten miles, so the mail kept moving day and night.",
+    "A letter crossed the country in about ten days instead of three weeks or more.",
+    "The telegraph ended the Pony Express after only about 18 months."
+   ],
+   "notInText": "The riders carried the mail in wagons pulled by oxen.",
+   "summary": "The Pony Express carried mail across the country in about ten days. Young riders raced from station to station on fresh horses. The telegraph ended it after only about 18 months.",
+   "questions": [
+    {
+     "q": "How did mail travel to California before the Pony Express?",
+     "answer": "by stagecoach or by ship",
+     "wrong": [
+      "by train or by airplane",
+      "by telegraph"
+     ],
+     "part": 1,
+     "proof": "Mail to California traveled by stagecoach or by ship, and it could take three weeks or more to arrive."
+    },
+    {
+     "q": "How far did a rider gallop before he got a fresh horse?",
+     "answer": "about ten miles",
+     "wrong": [
+      "about 75 miles",
+      "about 2,000 miles"
+     ],
+     "part": 2,
+     "proof": "A rider galloped about ten miles to the next station."
+    },
+    {
+     "q": "Why were the riders young and light?",
+     "answer": "so the horses could run fast",
+     "wrong": [
+      "so they needed less food",
+      "so they could hide easily"
+     ],
+     "part": 3,
+     "proof": "The riders were young and light, so the horses could run fast."
+    },
+    {
+     "q": "How long did a letter take to cross the country with the Pony Express?",
+     "answer": "about ten days",
+     "wrong": [
+      "about three weeks",
+      "about 18 months"
+     ],
+     "part": 3,
+     "proof": "A letter now crossed the country in about ten days."
+    },
+    {
+     "q": "What ended the Pony Express?",
+     "answer": "the telegraph line to California",
+     "wrong": [
+      "a winter storm",
+      "a faster horse"
+     ],
+     "part": 4,
+     "proof": "In October 1861, workers finished a telegraph line that reached all the way to California."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where did the route of the Pony Express run?",
+     "answer": "The route ran almost 2,000 miles, from St. Joseph, Missouri, to Sacramento, California.",
+     "lure": "How far was it to the next station?"
+    },
+    {
+     "word": "Who",
+     "q": "Who had the idea for the Pony Express?",
+     "answer": "Three businessmen had a new idea.",
+     "lure": "What was the new idea?"
+    },
+    {
+     "word": "Why",
+     "q": "Why were the riders young and light?",
+     "answer": "The riders were young and light, so the horses could run fast.",
+     "lure": "What places did the riders ride through?"
+    },
+    {
+     "word": "When",
+     "q": "When was the telegraph line to California finished?",
+     "answer": "In October 1861, workers finished a telegraph line that reached all the way to California.",
+     "lure": "How long did the Pony Express last?"
+    }
+   ]
+  },
+  {
+   "id": "blue-whales",
+   "title": "Blue Whales",
+   "picture": {
+    "theme": "ocean life",
+    "noun": "whale"
+   },
+   "parts": [
+    {
+     "heading": "The Biggest Animal",
+     "focus": "how big a blue whale is",
+     "sentences": [
+      "The blue whale is the largest animal that has ever lived.",
+      "It can grow up to 100 feet long, about as long as three school buses.",
+      "Its tongue alone can weigh as much as an elephant.",
+      "A blue whale is heavier than any dinosaur we know.",
+      "Blue whales swim in oceans all around the world."
+     ]
+    },
+    {
+     "heading": "Tiny Food for a Giant",
+     "focus": "what a blue whale eats and how it catches its food",
+     "sentences": [
+      "This giant eats some of the smallest animals in the sea.",
+      "Its food is krill, which look like shrimp and are about as long as your finger.",
+      "A blue whale has no teeth.",
+      "Instead, long plates called baleen hang from its upper jaw like a comb.",
+      "The whale takes a huge mouthful of water, pushes the water out, and the krill stay behind."
+     ]
+    },
+    {
+     "heading": "Breathing Air",
+     "focus": "how a blue whale breathes",
+     "sentences": [
+      "A blue whale lives in the water, but it is not a fish.",
+      "It is a mammal, and it breathes air just as you do.",
+      "It has to come to the surface to breathe.",
+      "There it blows out through two blowholes on top of its head, and the spray can shoot 30 feet into the air.",
+      "Then the whale breathes in and dives again."
+     ]
+    },
+    {
+     "heading": "Mothers and Calves",
+     "focus": "how a calf grows up",
+     "sentences": [
+      "A baby whale is called a calf.",
+      "At birth it is already about 25 feet long.",
+      "The calf drinks milk from its mother and gains about 200 pounds every day.",
+      "Mother and calf stay together for about half a year.",
+      "After that, the young whale finds its own krill."
+     ]
+    }
+   ],
+   "focusLure": "why blue whales are in danger",
+   "mainIdea": {
+    "right": "The blue whale is an enormous mammal that eats, breathes, and raises its young in the ocean.",
+    "narrow": "A blue whale has baleen instead of teeth.",
+    "wide": "Many animals live in the ocean."
+   },
+   "details": [
+    "A blue whale strains tiny krill out of the water with its baleen.",
+    "A blue whale is a mammal, so it comes to the surface to breathe air.",
+    "A calf drinks milk from its mother and grows very fast."
+   ],
+   "notInText": "Blue whales hunt seals and big fish with sharp teeth.",
+   "summary": "The blue whale is the largest animal that has ever lived. It strains tiny krill from the water and comes to the surface to breathe air. Its calf drinks milk and grows fast.",
+   "questions": [
+    {
+     "q": "How long can a blue whale grow?",
+     "answer": "up to 100 feet",
+     "wrong": [
+      "up to 30 feet",
+      "up to 25 feet"
+     ],
+     "part": 1,
+     "proof": "It can grow up to 100 feet long, about as long as three school buses."
+    },
+    {
+     "q": "What does a blue whale eat?",
+     "answer": "krill",
+     "wrong": [
+      "seals",
+      "seaweed"
+     ],
+     "part": 2,
+     "proof": "Its food is krill, which look like shrimp and are about as long as your finger."
+    },
+    {
+     "q": "Why does a blue whale come to the surface?",
+     "answer": "to breathe air",
+     "wrong": [
+      "to warm up in the sun",
+      "to look for krill"
+     ],
+     "part": 3,
+     "proof": "It has to come to the surface to breathe."
+    },
+    {
+     "q": "How long is a calf at birth?",
+     "answer": "about 25 feet",
+     "wrong": [
+      "about 100 feet",
+      "about 3 feet"
+     ],
+     "part": 4,
+     "proof": "At birth it is already about 25 feet long."
+    },
+    {
+     "q": "How long do a mother and her calf stay together?",
+     "answer": "for about half a year",
+     "wrong": [
+      "for about a week",
+      "for about ten years"
+     ],
+     "part": 4,
+     "proof": "Mother and calf stay together for about half a year."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where do blue whales swim?",
+     "answer": "Blue whales swim in oceans all around the world.",
+     "lure": "How long can a blue whale grow?"
+    },
+    {
+     "word": "What",
+     "q": "What does a blue whale eat?",
+     "answer": "Its food is krill, which look like shrimp and are about as long as your finger.",
+     "lure": "What does a blue whale have instead of teeth?"
+    },
+    {
+     "word": "How",
+     "q": "How does a blue whale catch its food?",
+     "answer": "The whale takes a huge mouthful of water, pushes the water out, and the krill stay behind.",
+     "lure": "What do krill look like?"
+    },
+    {
+     "word": "Why",
+     "q": "Why is a blue whale not a fish?",
+     "answer": "It is a mammal, and it breathes air just as you do.",
+     "lure": "Where are the blowholes of a blue whale?"
     }
    ]
   }

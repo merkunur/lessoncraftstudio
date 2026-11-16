@@ -5141,5 +5141,21 @@
   "K-649": {
     "title": "Two Texts, One Topic",
     "instruction": "Listen to the two texts and read along. In each box, draw one thing: something only the first text tells about, something both texts tell about, and something only the second text tells about."
+  },
+  "G3-494": {
+    "title": "Answer with Evidence",
+    "instruction": "Read the text. Write each answer. In the box, write the number of the paragraph that proves your answer."
+  },
+  "G3-495": {
+    "title": "Ask and Answer",
+    "instruction": "Read the text. Each sentence in a box is from the text. Write the question that the sentence answers. The first word is given."
+  },
+  "G3-496": {
+    "title": "Main Idea and Key Details",
+    "instruction": "Read the text. Write the main idea of the whole text and three key details that support it."
+  },
+  "G3-497": {
+    "title": "The Main Idea of Each Paragraph",
+    "instruction": "Read the text. Write what each paragraph is mostly about."
   }
 }

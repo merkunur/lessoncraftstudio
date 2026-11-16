@@ -94,7 +94,7 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'arrays-multiplication': ['k639', 'g2515'],   // g2515 Year pages W: Rows and Columns of Squares (lines drawn with a ruler; PDF only)
   fractions: ['g3492'],   // Year pages W: Whole Numbers as Fractions (boxes to write in; PDF only)
   'column-arithmetic': ['g2502', 'g2514'],   // g2514 Year pages V: three and four numbers in columns (boxes to write in; PDF only)
-  'reading-comprehension': ['g1575', 'g1576', 'g1577', 'g1578', 'k645', 'k646', 'k647', 'k648', 'g2519', 'g2520', 'g2521', 'g2522', 'g2523', 'g2524', 'g2525', 'k649'],   // Year pages, literacy A (Part 12.3, 2026-11-15): one information text with questions to circle and to write, key details, text features (PDF only)
+  'reading-comprehension': ['g1575', 'g1576', 'g1577', 'g1578', 'k645', 'k646', 'k647', 'k648', 'g2519', 'g2520', 'g2521', 'g2522', 'g2523', 'g2524', 'g2525', 'k649', 'g3494', 'g3495', 'g3496', 'g3497'],   // Year pages, literacy A (Part 12.3, 2026-11-15): one information text with questions to circle and to write, key details, text features (PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484', 'g2516'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only); g2516 Year pages X: a line plot the child makes (PDF only)
   geometry: ['g3488', 'g3489', 'g3490', 'k644'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only); k644 Year pages AA: lines to draw and solids to color by a code (PDF only)

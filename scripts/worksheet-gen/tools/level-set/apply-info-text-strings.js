@@ -80,6 +80,30 @@ const TEXT = {
     2: "Read the text. Answer questions 1 and 2 with a whole sentence. Then write before or after.",
     3: "Read the text. Finish each sentence. Then write a sentence of your own.",
   },
+  'G3-494': {
+    title: "Answer with Evidence",
+    1: "Read the text. Circle each answer. The number after each question tells which paragraph has the answer.",
+    2: "Read the text. Write each answer. In the box, write the number of the paragraph that proves your answer.",
+    3: "Read the text. Write each answer and the number of the paragraph that proves it. Then copy the sentence from the text that proves your answer.",
+  },
+  'G3-495': {
+    title: "Ask and Answer",
+    1: "Read the text. Each sentence in a box is from the text. Circle the question that the sentence answers.",
+    2: "Read the text. Each sentence in a box is from the text. Write the question that the sentence answers. The first word is given.",
+    3: "Read the text. Write three questions about it. Begin each one with the word given. Then write each answer and the number of the paragraph that tells it.",
+  },
+  'G3-496': {
+    title: "Main Idea and Key Details",
+    1: "Read the text. Circle the main idea of the whole text. Then check the three key details.",
+    2: "Read the text. Write the main idea of the whole text and three key details that support it.",
+    3: "Read the text. Write the main idea and three key details that support it. Then write a summary.",
+  },
+  'G3-497': {
+    title: "The Main Idea of Each Paragraph",
+    1: "Read the text. Write the number of each paragraph next to what it is mostly about. Then circle the best heading for two of the paragraphs.",
+    2: "Read the text. Write what each paragraph is mostly about.",
+    3: "Read the text. Write a heading for each paragraph and what the paragraph is mostly about.",
+  },
 };
 
 function edit(file, fn) {

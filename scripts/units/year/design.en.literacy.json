@@ -202,7 +202,8 @@
             "days": 3,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: ten pairs of picture words, one short and one with silent e (cap and cape, pin and pine); the child reads both and draws a line to each picture. Bottom: the child adds an e to six words and reads the new word. Level 1: a_e only; level 2: a_e and i_e; level 3: a_e, i_e, o_e, u_e, with the whole word written under each picture."
+            "page": "Phonics pattern page: ten pairs of picture words, one short and one with silent e (cap and cape, pin and pine); the child reads both and draws a line to each picture. Bottom: the child adds an e to six words and reads the new word. Level 1: a_e only; level 2: a_e and i_e; level 3: a_e, i_e, o_e, u_e, with the whole word written under each picture.",
+            "placed": "1:silent-e"
           },
           {
             "new": true,
@@ -221,7 +222,8 @@
             "days": 2,
             "tool": "Dictation Desk",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (r__n, pl__). Level 1: one pattern per page (ai); level 2: two patterns mixed (ai and ay), sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (r__n, pl__). Level 1: one pattern per page (ai); level 2: two patterns mixed (ai and ay), sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "1:long-a-ai-ay"
           },
           {
             "new": true,
@@ -230,7 +232,8 @@
             "standard": "RF.1.3.c",
             "days": 2,
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (f__t, s__t). Level 1: one pattern per page (ee); level 2: two patterns mixed (ee and ea), sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (f__t, s__t). Level 1: one pattern per page (ee); level 2: two patterns mixed (ee and ea), sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "1:long-e-ee-ea"
           },
           {
             "new": true,
@@ -239,7 +242,8 @@
             "standard": "RF.1.3.c",
             "days": 2,
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__t, sn__). Level 1: one pattern per page (oa); level 2: two patterns mixed (oa and ow), sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__t, sn__). Level 1: one pattern per page (oa); level 2: two patterns mixed (oa and ow), sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "1:long-o-oa-ow"
           }
         ]
       },

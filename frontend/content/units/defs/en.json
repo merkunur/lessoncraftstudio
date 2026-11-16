@@ -2891,6 +2891,43 @@
    ]
   },
   {
+   "id": "g1-long-vowels-silent-e-and-vowel-teams",
+   "slug": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Long Vowels: Silent e and Vowel Teams",
+   "metaTitle": "Grade 1 Lesson Plans: Long Vowels, Silent e, Vowel Teams",
+   "metaDescription": "A Grade 1 phonics unit on long vowels: 4 lessons on silent e and the vowel teams ai and ay, ee and ea, oa and ow, with word sorts, gap words, and sentences.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:silent-e",
+     "types": [
+      "G1-584"
+     ]
+    },
+    {
+     "point": "1:long-a-ai-ay",
+     "types": [
+      "G1-585"
+     ]
+    },
+    {
+     "point": "1:long-e-ee-ea",
+     "types": [
+      "G1-586"
+     ]
+    },
+    {
+     "point": "1:long-o-oa-ow",
+     "types": [
+      "G1-587"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-words-and-how-they-work",
    "slug": "words-and-how-they-work-grade-1-unit",
    "status": "live",
@@ -3487,6 +3524,7 @@
     "g1-sounds-spelling-syllables",
     "g1-reading-sentences-and-stories",
     "g1-reading-stories-characters-and-lessons",
+    "g1-long-vowels-silent-e-and-vowel-teams",
     "g1-words-and-how-they-work",
     "g1-reading-to-learn-informational-texts"
    ]

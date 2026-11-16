@@ -2646,6 +2646,46 @@
    ],
    "by": "code"
   },
+  "1:silent-e": {
+   "rows": [
+    {
+     "id": "RF.1.3.c",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:long-a-ai-ay": {
+   "rows": [
+    {
+     "id": "RF.1.3.c",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:long-e-ee-ea": {
+   "rows": [
+    {
+     "id": "RF.1.3.c",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:long-o-oa-ow": {
+   "rows": [
+    {
+     "id": "RF.1.3.c",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:word-classes": {
    "rows": [
     {

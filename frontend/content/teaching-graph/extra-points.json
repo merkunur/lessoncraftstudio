@@ -346,6 +346,46 @@
    "activities": [
     "otto-picture-book.which-picture.rl-k-7"
    ]
+  },
+  {
+   "tp": "1:silent-e",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.c",
+   "skill": "Read and spell one-syllable words with a silent e, and tell how the e changes the vowel sound",
+   "activities": [
+    "cvc-builder.build-magic-e.rf-1-3-silent-e"
+   ]
+  },
+  {
+   "tp": "1:long-a-ai-ay",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.c",
+   "skill": "Read and spell one-syllable words in which ai or ay spells long a",
+   "activities": [
+    "syllable-builder.build-vowel-teams.rf-1-3"
+   ]
+  },
+  {
+   "tp": "1:long-e-ee-ea",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.c",
+   "skill": "Read and spell one-syllable words in which ee or ea spells long e",
+   "activities": [
+    "syllable-builder.build-vowel-teams.rf-1-3"
+   ]
+  },
+  {
+   "tp": "1:long-o-oa-ow",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.c",
+   "skill": "Read and spell one-syllable words in which oa or ow spells long o",
+   "activities": [
+    "syllable-builder.build-vowel-teams.rf-1-3"
+   ]
   }
  ]
 }

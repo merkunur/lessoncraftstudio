@@ -4192,6 +4192,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the English read-aloud stories of Kindergarten (Part 12.3); a language gets its own stories, and no unit of this language teaches the point yet. Read it against the wording when the first stories of this language are written.",
    "review": "year-design 2026-11-17"
+  },
+  "1:silent-e": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English long-vowel spellings of Grade 1 (Part 12.3: silent e, ai and ay, ee and ea, oa and ow); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-a-ai-ay": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English long-vowel spellings of Grade 1 (Part 12.3: silent e, ai and ay, ee and ea, oa and ow); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-e-ee-ea": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English long-vowel spellings of Grade 1 (Part 12.3: silent e, ai and ay, ee and ea, oa and ow); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-o-oa-ow": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English long-vowel spellings of Grade 1 (Part 12.3: silent e, ai and ay, ee and ea, oa and ow); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

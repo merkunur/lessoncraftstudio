@@ -4821,6 +4821,46 @@
    ],
    "why": "Drawing a line from each part of a story to its picture, and drawing the picture that is missing, is «interact with sources in meaningful ways such as illustrating or writing»; seeing that each picture shows what its words tell leads toward «discuss with adult assistance the author's use of print and graphic features».",
    "review": "year-design 2026-11-17"
+  },
+  "1:silent-e": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and spelling one-syllable words with a silent e (cap, cape) is «decoding words with closed syllables; open syllables; VCe syllables; vowel teams, including vowel digraphs and diphthongs; and r-controlled syllables».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-a-ai-ay": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and spelling one-syllable words with the vowel teams ai and ay is «decoding words with closed syllables; open syllables; VCe syllables; vowel teams, including vowel digraphs and diphthongs; and r-controlled syllables».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-e-ee-ea": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and spelling one-syllable words with the vowel teams ee and ea is «decoding words with closed syllables; open syllables; VCe syllables; vowel teams, including vowel digraphs and diphthongs; and r-controlled syllables».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:long-o-oa-ow": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and spelling one-syllable words with the vowel teams oa and ow is «decoding words with closed syllables; open syllables; VCe syllables; vowel teams, including vowel digraphs and diphthongs; and r-controlled syllables».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

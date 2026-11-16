@@ -3046,6 +3046,46 @@
    ],
    "by": "authored"
   },
+  "1:silent-e": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:long-a-ai-ay": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:long-e-ee-ea": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:long-o-oa-ow": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:word-classes": {
    "rows": [
     {

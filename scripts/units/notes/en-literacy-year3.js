@@ -11,6 +11,8 @@
  * place-ready-i.en.literacy.js; the reviewer of the story pages read them (2026-11-16, every finding applied).
  * The note of the lesson Maps, Diagrams, and Photos (G3-510, G3-511) was added by place-ready-p.en.literacy.js; the
  * reviewer of the pages read it (2026-11-17, every finding applied).
+ * The four notes of the unit Reading Long Words (G3-512 to G3-519) were added by place-ready-x.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -95,6 +97,42 @@ module.exports = {
         mistake: 'Children answer from the words alone and skip the graphic, or look only at the pictures. They mark "text" because a place name is also in the text, even when only the map shows its square, or they mark "both" for every question. Some name a square the wrong way round (2B for B2) or give the direction from the wrong place.',
         words: 'Show a map or a diagram from a science or social studies book. Ask: "What does the text tell us that the picture does not? What does the picture tell us that the text does not?" Model one question of each kind: a square or a direction read off the map, a date or a reason read in the text, and one that needs both, such as "In which square did the Union Pacific Railroad start?" The text names the city; the map shows its square. Day 1 is the map page, day 2 the diagram page. On Level 1 children circle each answer and circle where they found it. On Level 2 they write each answer and put a check mark next to the source. On Level 3 they answer four questions; then they name the two places on the map that show only a number, or write what happens in the diagram step that shows a question mark.',
         watch: 'A question is "both" only when one fact comes from each source: the text tells which place or step, and the graphic gives its square, direction, or name, or the other way round. Ask: "Could you answer it with your finger on the map alone?" On the diagram page most step names, such as evaporation or mail carrier, are printed only in the diagram; the text tells in plain words what happens. Children may already know an answer (the president lives in the White House; lions eat zebras); ask where it is printed on this page.',
+      },
+    },
+    '3:closed-open-syllables': {
+      title: 'Closed and open syllables',
+      objective: 'Children divide two-syllable words into closed and open syllables (rab | bit, ro | bot, cam | el) and read each syllable with the right vowel sound.',
+      note: {
+        mistake: 'Children split every word after the first vowel and read camel as ca | mel ("KAY-mel"), or split after the consonant and read robot as rob | ot with a short o.',
+        words: 'Say: "A closed syllable ends with a consonant, and its vowel is short: nap | kin. An open syllable ends with a vowel, and the vowel says its name: ro | bot." Day 1, Closed and Open Syllables: children split sixteen words, write C or O in a box for each syllable, and circle the word that fits each of six sentences. Level 1 words have two consonants between the vowels (rab | bit, hip | po); Level 2 words start with an open syllable (ro | bot, so | lo), plus three or four Level 1 words; on Level 3 one consonant stands between the vowels, so children try the long vowel first and then the short one. Day 2, Closed or Open?: children write each word under its head with a line between the syllables, then circle yes or no. Level 2 adds words like cam | el; on Level 3 one word fits neither head (oven, many) and is crossed out.',
+        watch: 'The boxes under a word do not show where the line goes. Digraphs stay together (dol | phin, ech | o), and a blend after a long vowel goes with the next syllable (pro | gram). Ask, "Is ca | mel a word? Is cam | el?" In a second syllable the vowel is often said quickly (ba | con, lem | on, kit | ten); it is still a closed syllable.',
+      },
+    },
+    '3:syllable-types-e-team-le': {
+      title: 'Silent-e, vowel-team, and consonant-le syllables',
+      objective: 'Children find silent-e, vowel-team, and consonant-le syllables in longer words (cupcake, rainbow, table, puzzle) and read the words part by part.',
+      note: {
+        mistake: 'Children split before the l of a consonant-le word (tab | le) and read a short a, or read the silent e of cupcake as a sound.',
+        words: 'Say: "A consonant-le syllable is a consonant plus le. Count back three letters: ta | ble, bum | ble | bee. A silent e makes the vowel before it long: cup | cake. A vowel team is two or more letters that spell one vowel sound: rain | bow." Day 1: children split twelve words (nine on Level 3) and write each syllable\'s type in its box: C closed, O open, E silent e, V vowel team, L consonant-le (printed on the page); then they write ten words (twelve on Level 3) under their heads. Level 1 has consonant-le words, sorted by a short or long first vowel; Level 2 adds silent-e words and sorts by the type of the last syllable; Level 3 splits three-syllable words (bum | ble | bee) and sorts into three types. Day 2, Build Long Words: children find the box part that makes a word with each first part, write the part and the whole word, then circle yes or no for eight sentences.',
+        watch: 'Words with ck before le (pickle) split after the ck; none is on these pages. The Level 1 sort leaves out oo words (noodle): oo does not say the name of o. Each first part makes a word with one box part only.',
+      },
+    },
+    '3:suffixes-able-ment-ness-ful-less': {
+      title: 'Suffixes -able, -ment, -ness, -ful, -less',
+      objective: 'Children decode words with common suffixes (washable, payment, kindness, careful, endless) and tell how the suffix changes the base word.',
+      note: {
+        mistake: 'Children read the base and drop the suffix, mix up -ful and -less, or keep the y and the e when they spell (happyness).',
+        words: 'Say: "-ful means full of, and -less means without. -ness and -ment turn a word into a noun: soft, softness. -able means can be." Day 1, Base Words and Suffixes: children circle the base and underline the suffix in twelve words, match four words to their meanings (two words of one base, such as careful and careless, so the suffix decides), and add a suffix to a base word to finish five sentences. Level 1 has -ful and -less, Level 2 adds -ness and -ment, and Level 3 has all five, with bases that change: after a consonant, y changes to i (happiness), and a silent e is dropped before -able (lovable). Day 2, Which Word Fits?: children circle the word that fits each of seven sentences (two words of one base), then build three words and write what each means.',
+        watch: 'A silent e stays before a suffix that starts with a consonant (hopeful, movement), and a y after a vowel stays: playful, payment, enjoyable. The key\'s meanings are samples: accept "not careful" for careless.',
+      },
+    },
+    '3:tricky-words-enough-though-ocean': {
+      title: 'Tricky words: enough, though, ocean',
+      objective: 'Children read and spell grade-level words with irregular spellings (enough, though, ocean, laugh, through) by mapping the regular parts and remembering the tricky part.',
+      note: {
+        mistake: 'Children sound out ough letter by letter, or spell by sound alone (enuf, tho, oshun).',
+        words: 'Say: "Most of a heart word follows the rules. We learn the tricky part by heart." Map enough on the board: e | n | ou | gh, and draw a heart over ou and gh. Day 1, Heart Words: children write the letters for each sound in a box and draw a heart over the tricky part; a silent letter shares a box with the letter beside it (sl in island, sw in answer), and ough gets one box where it spells one sound (though, through). Then they fold the words back and write the heart word for each sentence; on Level 1 its first letter is on the line. Level 1 has four words and six sentences, Level 2 eight words and six sentences, Level 3 six words, four sentences, and a sentence of the child\'s own. Enough, though, and ocean are on every page. Day 2, The Sounds of ough: read the words together, then children write each one under the sound its ough makes (uff, o, or aw) and circle yes or no for five or six sentences.',
+        watch: 'Don\'t sound out o-u-g-h letter by letter; teach ough as one unit and try its sounds (uff, o, aw). The e of enough says a quick /i/. On Level 3 one word (through or drought) has another ough sound and is crossed out.',
       },
     },
   },

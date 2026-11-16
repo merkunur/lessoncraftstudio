@@ -17050,6 +17050,180 @@
    ]
   },
   {
+   "id": "g3-reading-long-words",
+   "slug": "reading-long-words-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Reading Long Words",
+   "metaTitle": "Grade 3 Phonics Lesson Plans: Reading Long Words",
+   "metaDescription": "A Grade 3 phonics unit: 4 lessons on closed and open syllables, silent-e, vowel-team, and consonant-le syllables, suffixes, and heart words such as enough.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:closed-open-syllables",
+     "title": "Closed and open syllables",
+     "objective": "Children divide two-syllable words into closed and open syllables (rab | bit, ro | bot, cam | el) and read each syllable with the right vowel sound.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.3.3.c",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-512",
+       "title": "Closed and Open Syllables",
+       "core": "syllable-split-g3512",
+       "easy": "syllable-split-easy-g3512-6",
+       "hard": "syllable-split-hard-g3512-11"
+      },
+      {
+       "type": "G3-513",
+       "title": "Closed or Open? Sort Long Words",
+       "core": "syllable-split-g3513",
+       "easy": "syllable-split-easy-g3513-6",
+       "hard": "syllable-split-hard-g3513-11"
+      }
+     ],
+     "exit": {
+      "slug": "syllable-split-g3512-2",
+      "title": "Closed and Open Syllables"
+     },
+     "note": {
+      "mistake": "Children split every word after the first vowel and read camel as ca | mel (\"KAY-mel\"), or split after the consonant and read robot as rob | ot with a short o.",
+      "words": "Say: \"A closed syllable ends with a consonant, and its vowel is short: nap | kin. An open syllable ends with a vowel, and the vowel says its name: ro | bot.\" Day 1, Closed and Open Syllables: children split sixteen words, write C or O in a box for each syllable, and circle the word that fits each of six sentences. Level 1 words have two consonants between the vowels (rab | bit, hip | po); Level 2 words start with an open syllable (ro | bot, so | lo), plus three or four Level 1 words; on Level 3 one consonant stands between the vowels, so children try the long vowel first and then the short one. Day 2, Closed or Open?: children write each word under its head with a line between the syllables, then circle yes or no. Level 2 adds words like cam | el; on Level 3 one word fits neither head (oven, many) and is crossed out.",
+      "watch": "The boxes under a word do not show where the line goes. Digraphs stay together (dol | phin, ech | o), and a blend after a long vowel goes with the next syllable (pro | gram). Ask, \"Is ca | mel a word? Is cam | el?\" In a second syllable the vowel is often said quickly (ba | con, lem | on, kit | ten); it is still a closed syllable."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:syllable-types-e-team-le",
+     "title": "Silent-e, vowel-team, and consonant-le syllables",
+     "objective": "Children find silent-e, vowel-team, and consonant-le syllables in longer words (cupcake, rainbow, table, puzzle) and read the words part by part.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.3.3.c",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-514",
+       "title": "Silent-e, Vowel-Team, and Consonant-le Syllables",
+       "core": "syllable-split-g3514",
+       "easy": "syllable-split-easy-g3514-6",
+       "hard": "syllable-split-hard-g3514-11"
+      },
+      {
+       "type": "G3-515",
+       "title": "Build Long Words from Syllables",
+       "core": "syllable-reading-g3515",
+       "easy": "syllable-reading-easy-g3515-6",
+       "hard": "syllable-reading-hard-g3515-11"
+      }
+     ],
+     "exit": {
+      "slug": "syllable-split-g3514-2",
+      "title": "Silent-e, Vowel-Team, and Consonant-le Syllables"
+     },
+     "note": {
+      "mistake": "Children split before the l of a consonant-le word (tab | le) and read a short a, or read the silent e of cupcake as a sound.",
+      "words": "Say: \"A consonant-le syllable is a consonant plus le. Count back three letters: ta | ble, bum | ble | bee. A silent e makes the vowel before it long: cup | cake. A vowel team is two or more letters that spell one vowel sound: rain | bow.\" Day 1: children split twelve words (nine on Level 3) and write each syllable's type in its box: C closed, O open, E silent e, V vowel team, L consonant-le (printed on the page); then they write ten words (twelve on Level 3) under their heads. Level 1 has consonant-le words, sorted by a short or long first vowel; Level 2 adds silent-e words and sorts by the type of the last syllable; Level 3 splits three-syllable words (bum | ble | bee) and sorts into three types. Day 2, Build Long Words: children find the box part that makes a word with each first part, write the part and the whole word, then circle yes or no for eight sentences.",
+      "watch": "Words with ck before le (pickle) split after the ck; none is on these pages. The Level 1 sort leaves out oo words (noodle): oo does not say the name of o. Each first part makes a word with one box part only."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "title": "Suffixes -able, -ment, -ness, -ful, -less",
+     "objective": "Children decode words with common suffixes (washable, payment, kindness, careful, endless) and tell how the suffix changes the base word.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.3.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-516",
+       "title": "Base Words and Suffixes",
+       "core": "word-parts-g3516",
+       "easy": "word-parts-easy-g3516-6",
+       "hard": "word-parts-hard-g3516-11"
+      },
+      {
+       "type": "G3-517",
+       "title": "Which Word Fits? Suffixes in Sentences",
+       "core": "word-parts-g3517",
+       "easy": "word-parts-easy-g3517-6",
+       "hard": "word-parts-hard-g3517-11"
+      }
+     ],
+     "exit": {
+      "slug": "word-parts-g3516-2",
+      "title": "Base Words and Suffixes"
+     },
+     "note": {
+      "mistake": "Children read the base and drop the suffix, mix up -ful and -less, or keep the y and the e when they spell (happyness).",
+      "words": "Say: \"-ful means full of, and -less means without. -ness and -ment turn a word into a noun: soft, softness. -able means can be.\" Day 1, Base Words and Suffixes: children circle the base and underline the suffix in twelve words, match four words to their meanings (two words of one base, such as careful and careless, so the suffix decides), and add a suffix to a base word to finish five sentences. Level 1 has -ful and -less, Level 2 adds -ness and -ment, and Level 3 has all five, with bases that change: after a consonant, y changes to i (happiness), and a silent e is dropped before -able (lovable). Day 2, Which Word Fits?: children circle the word that fits each of seven sentences (two words of one base), then build three words and write what each means.",
+      "watch": "A silent e stays before a suffix that starts with a consonant (hopeful, movement), and a y after a vowel stays: playful, payment, enjoyable. The key's meanings are samples: accept \"not careful\" for careless."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:tricky-words-enough-though-ocean",
+     "title": "Tricky words: enough, though, ocean",
+     "objective": "Children read and spell grade-level words with irregular spellings (enough, though, ocean, laugh, through) by mapping the regular parts and remembering the tricky part.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.3.3.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-518",
+       "title": "Heart Words: enough, though, ocean",
+       "core": "sight-words-g3518",
+       "easy": "sight-words-easy-g3518-6",
+       "hard": "sight-words-hard-g3518-11"
+      },
+      {
+       "type": "G3-519",
+       "title": "The Sounds of ough: Sort the Words",
+       "core": "spelling-rules-g3519",
+       "easy": "spelling-rules-easy-g3519-6",
+       "hard": "spelling-rules-hard-g3519-11"
+      }
+     ],
+     "exit": {
+      "slug": "sight-words-g3518-2",
+      "title": "Heart Words: enough, though, ocean"
+     },
+     "note": {
+      "mistake": "Children sound out ough letter by letter, or spell by sound alone (enuf, tho, oshun).",
+      "words": "Say: \"Most of a heart word follows the rules. We learn the tricky part by heart.\" Map enough on the board: e | n | ou | gh, and draw a heart over ou and gh. Day 1, Heart Words: children write the letters for each sound in a box and draw a heart over the tricky part; a silent letter shares a box with the letter beside it (sl in island, sw in answer), and ough gets one box where it spells one sound (though, through). Then they fold the words back and write the heart word for each sentence; on Level 1 its first letter is on the line. Level 1 has four words and six sentences, Level 2 eight words and six sentences, Level 3 six words, four sentences, and a sentence of the child's own. Enough, though, and ocean are on every page. Day 2, The Sounds of ough: read the words together, then children write each one under the sound its ough makes (uff, o, or aw) and circle yes or no for five or six sentences.",
+      "watch": "Don't sound out o-u-g-h letter by letter; teach ough as one unit and try its sounds (uff, o, aw). The e of enough says a quick /i/. On Level 3 one word (through or drought) has another ough sound and is crossed out."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
    "status": "live",
@@ -19009,18 +19183,37 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (7 Weeks)",
-   "metaDescription": "3 Grade 3 reading and language units in teaching order, about 7 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 7,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (9 Weeks)",
+   "metaDescription": "4 Grade 3 reading and language units in teaching order, about 9 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 9,
    "framework": "Common Core",
    "units": [
+    {
+     "id": "g3-reading-long-words",
+     "slug": "reading-long-words-grade-3-unit",
+     "title": "Reading Long Words",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Closed and open syllables",
+      "Silent-e, vowel-team, and consonant-le syllables",
+      "Suffixes -able, -ment, -ness, -ful, -less",
+      "Tricky words: enough, though, ocean"
+     ],
+     "standards": [
+      "RF.3.3.a",
+      "RF.3.3.c",
+      "RF.3.3.d"
+     ]
+    },
     {
      "id": "g3-words-and-their-meanings",
      "slug": "words-and-their-meanings-grade-3-unit",
      "title": "Words and Their Meanings",
      "weeks": 2,
-     "from": 1,
-     "to": 2,
+     "from": 3,
+     "to": 4,
      "lessons": [
       "Prefixes change the meaning",
       "Words for go and words for look",
@@ -19040,8 +19233,8 @@
      "slug": "stories-evidence-lessons-and-characters-grade-3-unit",
      "title": "Stories: Evidence, Lessons, and Characters",
      "weeks": 2,
-     "from": 3,
-     "to": 4,
+     "from": 5,
+     "to": 6,
      "lessons": [
       "Show Where the Story Says It",
       "Retell a Story and Find Its Central Message",
@@ -19060,8 +19253,8 @@
      "slug": "reading-to-learn-informational-texts-grade-3-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 5,
-     "to": 7,
+     "from": 7,
+     "to": 9,
      "lessons": [
       "Answer with Evidence",
       "Main Idea and Key Details",

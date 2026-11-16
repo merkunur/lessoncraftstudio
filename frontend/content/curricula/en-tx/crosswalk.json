@@ -4071,6 +4071,66 @@
    ],
    "by": "authored"
   },
+  "3:closed-open-syllables": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.2.A.iv",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:syllable-types-e-team-le": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.2.B.i",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:suffixes-able-ment-ness-ful-less": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.vi",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.3.C",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:tricky-words-enough-though-ocean": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.vii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.2.A.i",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:cursive-sentences": {
    "rows": [
     {

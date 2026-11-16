@@ -643,6 +643,34 @@
    "strand": "Foundational Skills",
    "code": "RF.1.3.g",
    "skill": "Read and spell common irregular words (said, was, of, could) by mapping the regular sounds and remembering the tricky part"
+  },
+  {
+   "tp": "3:closed-open-syllables",
+   "grade": "3",
+   "strand": "Foundational Skills",
+   "code": "RF.3.3.c",
+   "skill": "Split a two-syllable word, tell whether each syllable is closed or open, and read it with the short or the long vowel"
+  },
+  {
+   "tp": "3:syllable-types-e-team-le",
+   "grade": "3",
+   "strand": "Foundational Skills",
+   "code": "RF.3.3.c",
+   "skill": "Name silent-e, vowel-team, and consonant-le syllables in longer words and build long words from their syllables"
+  },
+  {
+   "tp": "3:suffixes-able-ment-ness-ful-less",
+   "grade": "3",
+   "strand": "Foundational Skills",
+   "code": "RF.3.3.a",
+   "skill": "Find the base word and the suffix of words with -able, -ment, -ness, -ful, and -less, say what the word means, and choose the word a sentence needs"
+  },
+  {
+   "tp": "3:tricky-words-enough-though-ocean",
+   "grade": "3",
+   "strand": "Foundational Skills",
+   "code": "RF.3.3.d",
+   "skill": "Read and spell Grade 3 irregular words (enough, though, ocean, island, answer) and sort ough words by the sound ough makes"
   }
  ]
 }

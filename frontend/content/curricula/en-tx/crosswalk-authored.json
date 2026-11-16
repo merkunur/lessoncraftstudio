@@ -5247,6 +5247,62 @@
    ],
    "why": "Reading said, was, of and could is «identifying and reading at least 100 high-frequency words from a research-based list»; writing them with their tricky part is «spelling high-frequency words from a research-based list».",
    "review": "year-design 2026-11-18"
+  },
+  "3:closed-open-syllables": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.A.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Marking each syllable closed or open and reading it is «decoding multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables»; splitting rab | bit, ro | bot and cam | el is «decoding words using knowledge of syllable division patterns such as VCCV, VCV, and VCCCV».",
+   "review": "year-design 2026-11-18"
+  },
+  "3:syllable-types-e-team-le": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.B.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Typing each syllable of a long word (closed, open, silent e, vowel team, consonant-le) and reading the word is «decoding multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables» (consonant-le is the final stable syllable); building the words prepares their spelling.",
+   "review": "year-design 2026-11-18"
+  },
+  "3:suffixes-able-ment-ness-ful-less": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words with -able, -ment, -ness, -ful and -less, with a dropped e or a y changed to i, is «decoding words using knowledge of suffixes, including how they can change base words such as dropping e, changing y to i»; saying what the word means is «identify the meaning of and use words with affixes such as ... -ness, -y, and -ful».",
+   "review": "year-design 2026-11-18"
+  },
+  "3:tricky-words-enough-though-ocean": {
+   "rows": [
+    {
+     "id": "ELAR.3.2.A.vii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.A.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and writing enough, though and ocean with their tricky part is «identifying and reading high-frequency words from a research-based list»; sorting ough words by sound is «decoding multisyllabic words with multiple sound-spelling patterns such as eigh, ough, and en».",
+   "review": "year-design 2026-11-18"
   }
  }
 }

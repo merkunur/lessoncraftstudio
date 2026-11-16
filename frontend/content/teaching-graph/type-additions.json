@@ -350,6 +350,14 @@
   "G1-600": "1:syllable-vowel",
   "G1-601": "1:syllable-vowel",
   "G1-602": "1:compound-and-two-part-words",
-  "G1-603": "1:tricky-words-said-was-of-could"
+  "G1-603": "1:tricky-words-said-was-of-could",
+  "G3-512": "3:closed-open-syllables",
+  "G3-513": "3:closed-open-syllables",
+  "G3-514": "3:syllable-types-e-team-le",
+  "G3-515": "3:syllable-types-e-team-le",
+  "G3-516": "3:suffixes-able-ment-ness-ful-less",
+  "G3-517": "3:suffixes-able-ment-ness-ful-less",
+  "G3-518": "3:tricky-words-enough-though-ocean",
+  "G3-519": "3:tricky-words-enough-though-ocean"
  }
 }

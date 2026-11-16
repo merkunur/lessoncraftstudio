@@ -3419,6 +3419,46 @@
    ],
    "by": "review"
   },
+  "3:closed-open-syllables": {
+   "rows": [
+    {
+     "id": "RF.3.3.c",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:syllable-types-e-team-le": {
+   "rows": [
+    {
+     "id": "RF.3.3.c",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:suffixes-able-ment-ness-ful-less": {
+   "rows": [
+    {
+     "id": "RF.3.3.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:tricky-words-enough-though-ocean": {
+   "rows": [
+    {
+     "id": "RF.3.3.d",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:cursive-sentences": {
    "none": "A Grade 2 cursive lesson does not address a standard about printing letters, and Common Core has no cursive standard to go beyond.",
    "by": "review"

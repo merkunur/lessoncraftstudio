@@ -7730,6 +7730,96 @@
    ]
   },
   {
+   "id": "3:closed-open-syllables",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Split a two-syllable word, tell whether each syllable is closed or open, and read it with the short or the long vowel",
+   "code": "RF.3.3.c",
+   "types": [
+    "G3-512",
+    "G3-513"
+   ],
+   "families": [
+    "syllable-split"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 125,
+   "prerequisites": []
+  },
+  {
+   "id": "3:syllable-types-e-team-le",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Name silent-e, vowel-team, and consonant-le syllables in longer words and build long words from their syllables",
+   "code": "RF.3.3.c",
+   "types": [
+    "G3-514",
+    "G3-515"
+   ],
+   "families": [
+    "syllable-reading",
+    "syllable-split"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 126,
+   "prerequisites": []
+  },
+  {
+   "id": "3:suffixes-able-ment-ness-ful-less",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Find the base word and the suffix of words with -able, -ment, -ness, -ful, and -less, say what the word means, and choose the word a sentence needs",
+   "code": "RF.3.3.a",
+   "types": [
+    "G3-516",
+    "G3-517"
+   ],
+   "families": [
+    "word-parts"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 127,
+   "prerequisites": []
+  },
+  {
+   "id": "3:tricky-words-enough-though-ocean",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Read and spell Grade 3 irregular words (enough, though, ocean, island, answer) and sort ough words by the sound ough makes",
+   "code": "RF.3.3.d",
+   "types": [
+    "G3-518",
+    "G3-519"
+   ],
+   "families": [
+    "sight-words",
+    "spelling-rules"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 128,
+   "prerequisites": []
+  },
+  {
    "id": "3:cursive-sentences",
    "grade": "3",
    "subject": "literacy",
@@ -7748,7 +7838,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 125,
+   "order": 129,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -7775,7 +7865,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 126,
+   "order": 130,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -7802,7 +7892,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 127,
+   "order": 131,
    "prerequisites": [
     "2:root-words"
    ]
@@ -7827,7 +7917,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 128,
+   "order": 132,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"
@@ -7851,7 +7941,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 129,
+   "order": 133,
    "prerequisites": []
   },
   {
@@ -7872,7 +7962,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 130,
+   "order": 134,
    "prerequisites": []
   },
   {
@@ -7893,7 +7983,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 131,
+   "order": 135,
    "prerequisites": []
   },
   {
@@ -7914,7 +8004,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 132,
+   "order": 136,
    "prerequisites": []
   },
   {
@@ -7935,7 +8025,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 133,
+   "order": 137,
    "prerequisites": []
   },
   {
@@ -7956,7 +8046,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 134,
+   "order": 138,
    "prerequisites": []
   },
   {
@@ -7977,7 +8067,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 135,
+   "order": 139,
    "prerequisites": []
   },
   {
@@ -7998,7 +8088,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 136,
+   "order": 140,
    "prerequisites": []
   },
   {
@@ -8019,7 +8109,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 137,
+   "order": 141,
    "prerequisites": []
   },
   {

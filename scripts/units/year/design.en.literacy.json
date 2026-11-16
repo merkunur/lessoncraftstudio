@@ -1158,7 +1158,8 @@
             "days": 3,
             "tool": "Syllable Splitter",
             "source": "new",
-            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks each syllable C for closed or O for open, and reads the word. Bottom: six sentences with a missing long word to choose from three. Level 1: words that split between two consonants (rabbit, napkin); level 2: words that split after a long vowel (robot, tiger); level 3: words that split after the consonant (camel, lemon), where the child tries both splits."
+            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks each syllable C for closed or O for open, and reads the word. Bottom: six sentences with a missing long word to choose from three. Level 1: words that split between two consonants (rabbit, napkin); level 2: words that split after a long vowel (robot, tiger); level 3: words that split after the consonant (camel, lemon), where the child tries both splits.",
+            "placed": "3:closed-open-syllables"
           },
           {
             "new": true,
@@ -1168,7 +1169,8 @@
             "days": 2,
             "tool": "Syllable Splitter",
             "source": "new",
-            "page": "Syllable page: sixteen words with two or three syllables; the child draws the split lines, names each syllable type, and reads the word. Bottom: a sort of twelve words by the type of their last syllable. Level 1: consonant-le words only; level 2: consonant-le and silent-e syllables; level 3: all three types in three-syllable words (pineapple, bumblebee)."
+            "page": "Syllable page: sixteen words with two or three syllables; the child draws the split lines, names each syllable type, and reads the word. Bottom: a sort of twelve words by the type of their last syllable. Level 1: consonant-le words only; level 2: consonant-le and silent-e syllables; level 3: all three types in three-syllable words (pineapple, bumblebee).",
+            "placed": "3:syllable-types-e-team-le"
           },
           {
             "new": true,
@@ -1177,7 +1179,8 @@
             "standard": "RF.3.3.a",
             "days": 2,
             "source": "new",
-            "page": "Word part page: sixteen words with a suffix; the child circles the base word, underlines the suffix, reads the word, and matches it to its meaning. Bottom: six sentences with a missing word to build from a base and a suffix. Level 1: -ful and -less; level 2: -ful, -less, -ness, -ment; level 3: all five, including words where the base changes (happiness)."
+            "page": "Word part page: sixteen words with a suffix; the child circles the base word, underlines the suffix, reads the word, and matches it to its meaning. Bottom: six sentences with a missing word to build from a base and a suffix. Level 1: -ful and -less; level 2: -ful, -less, -ness, -ment; level 3: all five, including words where the base changes (happiness).",
+            "placed": "3:suffixes-able-ment-ness-ful-less"
           },
           {
             "new": true,
@@ -1187,7 +1190,8 @@
             "days": 2,
             "tool": "Heart Words",
             "source": "new",
-            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words.",
+            "placed": "3:tricky-words-enough-though-ocean"
           }
         ]
       },

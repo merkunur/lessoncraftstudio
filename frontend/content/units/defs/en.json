@@ -3564,6 +3564,47 @@
    ]
   },
   {
+   "id": "g3-reading-long-words",
+   "slug": "reading-long-words-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Reading Long Words",
+   "metaTitle": "Grade 3 Phonics Lesson Plans: Reading Long Words",
+   "metaDescription": "A Grade 3 phonics unit: 4 lessons on closed and open syllables, silent-e, vowel-team, and consonant-le syllables, suffixes, and heart words such as enough.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:closed-open-syllables",
+     "types": [
+      "G3-512",
+      "G3-513"
+     ]
+    },
+    {
+     "point": "3:syllable-types-e-team-le",
+     "types": [
+      "G3-514",
+      "G3-515"
+     ]
+    },
+    {
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "types": [
+      "G3-516",
+      "G3-517"
+     ]
+    },
+    {
+     "point": "3:tricky-words-enough-though-ocean",
+     "types": [
+      "G3-518",
+      "G3-519"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
    "status": "live",
@@ -3846,6 +3887,7 @@
    "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language ({weeks} Weeks)",
    "metaDescription": "{units} Grade 3 reading and language units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
+    "g3-reading-long-words",
     "g3-words-and-their-meanings",
     "g3-stories-evidence-lessons-characters",
     "g3-reading-to-learn-informational-texts"

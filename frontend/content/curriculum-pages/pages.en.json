@@ -3330,8 +3330,8 @@
          "title": "ck, ng, and wh"
         },
         {
-         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
-         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
          "unitGrade": "2",
          "n": 1,
          "title": "Review: find sh in sentences"
@@ -6724,7 +6724,7 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 3,
+         "n": 2,
          "title": "Compound words"
         }
        ]
@@ -7324,10 +7324,10 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 30,
-    "near": 8,
-    "open": 50,
-    "lessons": 29
+    "taught": 34,
+    "near": 7,
+    "open": 47,
+    "lessons": 35
    },
    "groups": [
     {
@@ -7345,17 +7345,58 @@
      "title": "Knowledge and skills (2)",
      "items": [
       {
-       "code": "2.2.B.iii",
-       "state": "near",
-       "text": "Children read the words of a word family, find the one that names a picture, and write its beginning before the ending.",
-       "rel": "prepares",
+       "code": "2.2.A.ii",
+       "state": "taught",
+       "text": "Children tell short from long vowels when they read regularly spelled one-syllable words (hop and hope, step and steep, ran and rain) and sort printed words by the vowel sound.",
        "lessons": [
         {
-         "unit": "sounds-spelling-and-syllables-grade-1-unit",
-         "unitTitle": "Sounds, Spelling, and Syllables",
-         "unitGrade": "1",
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
          "n": 2,
-         "title": "Word families"
+         "title": "Short or Long Vowel?"
+        }
+       ]
+      },
+      {
+       "code": "2.2.B.i",
+       "state": "taught",
+       "text": "Children read and spell one-syllable words with the vowel teams ai, ay, ee, ea, oa, and ow, and choose the team for a word: first by its vowel sound, then by its place in the word.",
+       "lessons": [
+        {
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Short or Long Vowel?"
+        },
+        {
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Vowel Teams for Long a, e, and o"
+        },
+        {
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Vowel Sounds: oo, ou, ow, oi, and oy"
+        }
+       ]
+      },
+      {
+       "code": "2.2.B.iii",
+       "state": "taught",
+       "text": "Children split two-syllable words that have a long vowel in one syllable (rainbow, cupcake, paper), read each syllable, and read the words in sentences.",
+       "lessons": [
+        {
+         "unit": "bossy-r-and-longer-words-grade-2-unit",
+         "unitTitle": "Bossy R and Longer Words",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Long vowels in two-syllable words"
         }
        ]
       },
@@ -7368,7 +7409,7 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 3,
+         "n": 2,
          "title": "Compound words"
         }
        ]
@@ -7385,6 +7426,13 @@
          "unitGrade": "1",
          "n": 5,
          "title": "Syllables"
+        },
+        {
+         "unit": "bossy-r-and-longer-words-grade-2-unit",
+         "unitTitle": "Bossy R and Longer Words",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Long vowels in two-syllable words"
         }
        ]
       },
@@ -7403,16 +7451,51 @@
        ]
       },
       {
+       "code": "2.2.B.vii",
+       "state": "taught",
+       "text": "Children read and spell could, would, should, because, and friend by mapping the sounds they know and learning the tricky part by heart.",
+       "lessons": [
+        {
+         "unit": "bossy-r-and-longer-words-grade-2-unit",
+         "unitTitle": "Bossy R and Longer Words",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Tricky words: could, would, should"
+        }
+       ]
+      },
+      {
        "code": "2.2.C.i",
        "state": "taught",
-       "text": "Children read a spelling rule and choose the right letters for a sound by where it is in the word, for example ck after a short vowel.",
+       "text": "Children read and spell words with oo (moon, book), ou and ow (cloud, cow), and oi and oy (coin, boy), and read them in sentences and riddles for meaning.",
        "lessons": [
+        {
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Vowel Teams for Long a, e, and o"
+        },
+        {
+         "unit": "long-vowels-and-vowel-teams-grade-2-unit",
+         "unitTitle": "Long Vowels and Vowel Teams",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Vowel Sounds: oo, ou, ow, oi, and oy"
+        },
         {
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 2,
+         "n": 1,
          "title": "Spelling rules: which letters go here?"
+        },
+        {
+         "unit": "bossy-r-and-longer-words-grade-2-unit",
+         "unitTitle": "Bossy R and Longer Words",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "Bossy r: ar and or"
         }
        ]
       },
@@ -7425,7 +7508,7 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 3,
+         "n": 2,
          "title": "Compound words"
         }
        ]
@@ -7446,7 +7529,7 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 2,
+         "n": 1,
          "title": "Spelling rules: which letters go here?"
         }
        ]
@@ -7482,12 +7565,9 @@
      ],
      "open": [
       "2.2.A.i",
-      "2.2.A.ii",
       "2.2.A.iii",
       "2.2.A.iv",
-      "2.2.B.i",
       "2.2.B.ii",
-      "2.2.B.vii",
       "2.2.C.ii",
       "2.2.C.iv",
       "2.2.C.v"
@@ -7540,14 +7620,14 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 5,
+         "n": 4,
          "title": "Synonyms"
         },
         {
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 6,
+         "n": 5,
          "title": "More exact words for \"said\""
         }
        ]
@@ -7955,7 +8035,7 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 2,
+         "n": 1,
          "title": "Spelling rules: which letters go here?"
         }
        ]

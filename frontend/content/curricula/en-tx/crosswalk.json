@@ -3326,6 +3326,51 @@
    ],
    "by": "authored"
   },
+  "2:short-or-long-vowel": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.A.ii",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:vowel-teams-long-a-e-o": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:vowel-sounds-oo-ou-ow-oi-oy": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:sentence-boundaries": {
    "rows": [
     {
@@ -3545,6 +3590,61 @@
    "rows": [
     {
      "id": "ELAR.2.11.D.vii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:bossy-r-ar-or": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:er-ir-ur": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:long-vowels-two-syllable-words": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.v",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:tricky-words-could-would-should": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.vii",
      "rel": "teaches",
      "grade": "2"
     }

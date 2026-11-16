@@ -8,6 +8,8 @@
  * Two notes of the unit Reading Stories and Writing (how characters meet a challenge, G2-526 and G2-527; fables and
  * their lesson, G2-529 and G2-528) were added by place-ready-j.en.literacy.js; the reviewer of the story pages read
  * them (2026-11-16, every finding applied).
+ * The seven notes of the units Long Vowels and Vowel Teams and Bossy R and Longer Words (G2-530 to G2-534, G2-543 to
+ * G2-548) were added by place-ready-s.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -74,6 +76,69 @@ module.exports = {
         mistake: 'Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens ("The tortoise won") or give a rule about the animals ("Hares should not nap") instead of a lesson for people.',
         words: 'Tell children: "A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people." Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: "First ... then ... in the end ..." Then turn to the What Is the Lesson? page: "What did the character learn? What can we learn from it?" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.',
         watch: 'A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. "The tortoise won the race" is a retelling: ask "So what does the story teach us?" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story.',
+      },
+    },
+    '2:short-or-long-vowel': {
+      title: 'Short or Long Vowel?',
+      objective: 'Children tell short from long vowels when they read regularly spelled one-syllable words (hop and hope, step and steep, ran and rain) and sort printed words by the vowel sound.',
+      note: {
+        mistake: 'Children read every vowel as short (hop for hope) and skip the silent e or the second letter of a vowel team (ran for rain). Some sort by looking for an e anywhere in the word instead of reading it, and put bed or step under long.',
+        words: 'Write hop and hope. Say: "A short vowel says its sound: hop. A long vowel says its name: hope." Mark the vowels the US way: a breve over the o of hop, a macron over the o of hope, and cross out the silent e. Do the same with ran and rain, step and steep: the second vowel of a team is silent too. On Level 1 children circle the word for four pictures from two words such as cap and cape, sort six words under short vowel and long vowel, and circle the word that fits in two sentences. On Level 2 they sort eight words, half of them with blends and digraphs, and circle the word in four sentences. On Level 3 they sort six harder words and cross out the one word that is neither short nor long (car, star, park, cow, now, or boy), write the word for three pictures (the first letter is printed), and write the word that fits a sentence, choosing from the two words beside it. On screen, Add the Magic e builds the same short and long pairs.',
+        watch: 'A child who sorts by sight alone puts bed under long because it has an e: have the child read the word aloud and listen for the vowel. In the sentences both words are real (cub and cube), so only the meaning tells which one fits; ask the child to read the sentence with the word chosen. On Level 3 a child may write bote for boat: both say long o, so point to the vowel team on the word wall.',
+      },
+    },
+    '2:vowel-teams-long-a-e-o': {
+      title: 'Vowel Teams for Long a, e, and o',
+      objective: 'Children read and spell one-syllable words with the vowel teams ai, ay, ee, ea, oa, and ow, and choose the team for a word: first by its vowel sound, then by its place in the word.',
+      note: {
+        mistake: 'Children pick a team of the right sound in the wrong place (trayn, snoa), mix the two teams of long e (sleap, beech for beach), or hear the long vowel and write one letter (tran).',
+        words: 'Review the three long vowels and their teams: "ai and ay spell long a. ee and ea spell long e. oa and ow spell long o." Then the places: "ai and oa come in the middle of a word: chain, float. ay and ow come at the end: spray, throw." On Level 1 each copy works on one long vowel: children write its two teams into six words (the rule is printed for long a and long o; for long e the line says that ee and ea say the same sound), write the word for two pictures (the first letter is printed), and finish two sentences from a box of four words. On Level 2 they sort six words of two long vowels by their sound, then write the team that makes a word in nine words, choosing among four teams. On Level 3 they choose among all six teams for six words, write the word for a long a, a long e, and a long o picture, and finish two sentences from a box. On screen, Build Vowel-Team Words and the vowel-team level of Word Doctor\'s Clinic give more practice.',
+        watch: 'Both teams of a sound read the same, so reading aloud cannot show which is right. The rule decides between ai and ay, oa and ow. For ee and ea the child must know how the word looks: have them write it both ways and pick the one that looks right. On Level 2 the sound decides the column: rain and play both go under long a. Every ow on these pages says long o (snow, grow); cow and now come in the next lesson. The word box always holds two words that fit neither sentence.',
+      },
+    },
+    '2:vowel-sounds-oo-ou-ow-oi-oy': {
+      title: 'Vowel Sounds: oo, ou, ow, oi, and oy',
+      objective: 'Children read and spell words with oo (moon, book), ou and ow (cloud, cow), and oi and oy (coin, boy), and read them in sentences and riddles for meaning.',
+      note: {
+        mistake: 'Children give every oo the sound of moon, even in book; read ow as long o in down and town; and put ou or oi at the end of a word (cou, boi).',
+        words: 'Day 1, G2-532: say "oo can say two sounds: the sound in moon and the sound in book." Then: "ou comes in the middle of a word: shout. ow comes at the end: how. ow comes before a last n or l: town, howl. oi comes in the middle: soil. oy comes at the end: boy." Children sort words and write the team into words. Day 2, G2-543: the same spellings in sentences. Children circle yes or no ("A cow can bark."), write the answers to riddles (from a box; on Level 3 the first letter is on the line), and draw what a sentence says. On both pages Level 1 reads oo, Level 2 ou, ow, oi, and oy, and Level 3 all five.',
+        watch: 'A child who answers yes to "A cow can bark." may have guessed from one word: have them read the whole sentence aloud. ow can also say long o (snow); these pages never use it that way. The word hoop is never sorted on Day 1: many say it with the oo of book. you is a heart word; its ou is not the ou of cloud.',
+      },
+    },
+    '2:bossy-r-ar-or': {
+      title: 'Bossy r: ar and or',
+      objective: 'Children read and spell words in which r changes the vowel, ar as in park and or as in storm, and read them in sentences and riddles for meaning.',
+      note: {
+        mistake: 'Children read the vowel as short and add the r as a separate sound, drop the r in spelling (cat for cart), or write ar where or belongs (barn for born).',
+        words: 'Day 1, G2-533: write cat and cart. Say: "Bossy r changes the vowel sound: ar says the sound in park." Then or: storm, fork, corn. Children match words to pictures, write ar or or into words, sort, and circle the word that fits a sentence. Day 2, G2-544: children circle yes or no ("A shark can swim."), write the answers to riddles (from a box; on Level 3 the first letter is on the line), and draw what a sentence says. On both pages Level 1 reads ar only, and Levels 2 and 3 read ar and or.',
+        watch: 'Words like war, warm, word, and work look like these but say other sounds; they are not on these pages. A child who writes barn for born hears the r but not the vowel: read both words aloud and ask which one fits.',
+      },
+    },
+    '2:er-ir-ur': {
+      title: 'er, ir, and ur: One Sound, Three Spellings',
+      objective: 'Children read words with er, ir, and ur, which say the same sound (her, first, turn), check which spelling a word uses, and read the words in sentences and riddles.',
+      note: {
+        mistake: 'Children spell the sound with the one spelling they know best (berd, shurt) or with r alone (brd), and stop checking because the word sounds right.',
+        words: 'Day 1, G2-534: say "er, ir, and ur say the same sound: her, first, turn." Children write er into words, sort words under er, ir, and ur, circle the spelling that looks right, and write words for pictures. Day 2, G2-545: children circle yes or no ("A cat has fur."), write the answers to riddles (from a box; on Level 3 only the first letter is on the line, so the child chooses er, ir, or ur), and draw what a sentence says. On both pages Level 1 reads er only, and Levels 2 and 3 read er, ir, and ur.',
+        watch: 'Praise checking, not hearing: when a child is unsure, have them write the word two ways and pick the one that looks right. here, there, and where have the letters but not the sound; they are crossed out on Day 1 and are not on the Day 2 page.',
+      },
+    },
+    '2:long-vowels-two-syllable-words': {
+      title: 'Long vowels in two-syllable words',
+      objective: 'Children split two-syllable words that have a long vowel in one syllable (rainbow, cupcake, paper), read each syllable, and read the words in sentences.',
+      note: {
+        mistake: 'Children read the first vowel as short (pap-er for paper), split a compound word in the wrong place, or guess a long word from its first letters.',
+        words: 'Write rain | bow and say "A compound word splits between its two small words." Then cup | cake: "A silent e at the end makes the vowel long." Then pa | per: "When a syllable ends with a, e, i, o, or u, the letter says its name." On G2-546 children draw a line between the two syllables of twelve words, circle each syllable with a long a, e, i, o, or u, and circle the word that fits in six sentences. On G2-547 they finish six words from a first part and a part from a box (rain + bow), then circle yes or no for sentences. Level 1 has compound words with a vowel team, Level 2 words with a silent e, Level 3 words whose first syllable ends with its long vowel.',
+        watch: 'Some words have two long syllables (oatmeal, pinecone, photo): circle both. Do not circle a second syllable with a quick weak sound (paper, tiger, open, bacon). In playground only play is long: ground\'s ou is not a long vowel. Have the child read each part aloud, then the whole word.',
+      },
+    },
+    '2:tricky-words-could-would-should': {
+      title: 'Tricky words: could, would, should',
+      objective: 'Children read and spell could, would, should, because, and friend by mapping the sounds they know and learning the tricky part by heart.',
+      note: {
+        mistake: 'Children spell the words the way they sound (cud, wud, becuz, frend), or leave out the silent l of could, would, and should.',
+        words: 'Say: "Some words have a part that does not follow the rules. We learn that part by heart." Write could in sound boxes: c, oul, d. The c and the d say the sounds children know; oul says the oo of book, and the l makes no sound, so it gets a heart. would and should work the same way: one heart over oul. In because the heart goes over au, in friend over ie. On the page children write the letters for each sound in a box and draw a heart over the tricky part; then they write the heart word that fits a sentence, with its first letter on the line. Levels 2 and 3 add again, any, many, people, does, or other: the heart goes over ai, a, a, eo, oe, o. Level 1 has four words (could, would, should, and because or friend) and four sentences; Level 2 six words and three sentences; Level 3 six words, one sentence, and a sentence of their own with two heart words from the page. On screen, Heart Words runs the same routine of sound boxes, a heart, and writing. Its first shelf (the, of, to, do, was, said, you, have, come, some) is open to everyone, with the whole routine and the printable word cards, and a teacher can type any word and show it to the class (the list is not kept). The Teacher plan adds the other eleven shelves, among them could, would, should, friend, and because; a saved list of her own words; and the wall and take-home sheets.',
+        watch: 'A dashed line marked "Fold back" runs under the words: on Levels 2 and 3 the child folds the top back and writes the sentences from memory, then unfolds it to check. The heart goes over the tricky letters only: the c and d of could keep their usual sounds.',
       },
     },
   },

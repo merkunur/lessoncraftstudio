@@ -2876,6 +2876,36 @@
    ],
    "by": "code"
   },
+  "2:short-or-long-vowel": {
+   "rows": [
+    {
+     "id": "RF.2.3.a",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:vowel-teams-long-a-e-o": {
+   "rows": [
+    {
+     "id": "RF.2.3.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:vowel-sounds-oo-ou-ow-oi-oy": {
+   "rows": [
+    {
+     "id": "RF.2.3.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:sentence-boundaries": {
    "rows": [
     {
@@ -3071,6 +3101,46 @@
      "id": "L.1.1.d",
      "rel": "teaches",
      "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "2:bossy-r-ar-or": {
+   "rows": [
+    {
+     "id": "RF.2.3.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:er-ir-ur": {
+   "rows": [
+    {
+     "id": "RF.2.3.e",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:long-vowels-two-syllable-words": {
+   "rows": [
+    {
+     "id": "RF.2.3.c",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:tricky-words-could-would-should": {
+   "rows": [
+    {
+     "id": "RF.2.3.f",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "code"

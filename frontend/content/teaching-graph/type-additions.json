@@ -324,6 +324,17 @@
   "K-656": "K:period-or-question-mark",
   "K-657": "K:make-the-sentence-longer",
   "G3-510": "3:maps-diagrams-photos",
-  "G3-511": "3:maps-diagrams-photos"
+  "G3-511": "3:maps-diagrams-photos",
+  "G2-530": "2:short-or-long-vowel",
+  "G2-531": "2:vowel-teams-long-a-e-o",
+  "G2-532": "2:vowel-sounds-oo-ou-ow-oi-oy",
+  "G2-543": "2:vowel-sounds-oo-ou-ow-oi-oy",
+  "G2-533": "2:bossy-r-ar-or",
+  "G2-544": "2:bossy-r-ar-or",
+  "G2-534": "2:er-ir-ur",
+  "G2-545": "2:er-ir-ur",
+  "G2-546": "2:long-vowels-two-syllable-words",
+  "G2-547": "2:long-vowels-two-syllable-words",
+  "G2-548": "2:tricky-words-could-would-should"
  }
 }

@@ -605,7 +605,8 @@
             "standard": "RF.2.3.a",
             "days": 2,
             "source": "new",
-            "page": "Phonics pattern page: sixteen one-syllable words to read and sort into two columns, short vowel and long vowel; then four sentences where the child picks the word that fits (hop or hope). Level 1: words with pictures; level 2: words only; level 3: the child also writes two words of each kind and uses one in a sentence."
+            "page": "Phonics pattern page: sixteen one-syllable words to read and sort into two columns, short vowel and long vowel; then four sentences where the child picks the word that fits (hop or hope). Level 1: words with pictures; level 2: words only; level 3: the child also writes two words of each kind and uses one in a sentence.",
+            "placed": "2:short-or-long-vowel"
           },
           {
             "new": true,
@@ -615,7 +616,8 @@
             "days": 3,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (tr__n, d__p, c__t). Level 1: one pattern per page (long a); level 2: two patterns mixed, sorted into two columns; level 3: all six teams, the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (tr__n, d__p, c__t). Level 1: one pattern per page (long a); level 2: two patterns mixed, sorted into two columns; level 3: all six teams, the whole word written under each picture.",
+            "placed": "2:vowel-teams-long-a-e-o"
           },
           {
             "new": true,
@@ -625,7 +627,8 @@
             "days": 2,
             "tool": "Dictation Desk",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (cl__d, c__n, b__). Level 1: one pattern per page (oo); level 2: two patterns mixed (ou and ow, or oi and oy), sorted into two columns; level 3: all five, the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (cl__d, c__n, b__). Level 1: one pattern per page (oo); level 2: two patterns mixed (ou and ow, or oi and oy), sorted into two columns; level 3: all five, the whole word written under each picture.",
+            "placed": "2:vowel-sounds-oo-ou-ow-oi-oy"
           }
         ]
       },
@@ -734,7 +737,8 @@
             "days": 2,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c__, f__k). Level 1: one pattern per page (ar); level 2: two patterns mixed (ar and or), sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c__, f__k). Level 1: one pattern per page (ar); level 2: two patterns mixed (ar and or), sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "2:bossy-r-ar-or"
           },
           {
             "new": true,
@@ -744,7 +748,8 @@
             "days": 2,
             "tool": "Dictation Desk",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__d, t__n, h__). Level 1: one pattern per page (er); level 2: two patterns mixed, sorted into two columns; level 3: all three, the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (b__d, t__n, h__). Level 1: one pattern per page (er); level 2: two patterns mixed, sorted into two columns; level 3: all three, the whole word written under each picture.",
+            "placed": "2:er-ir-ur"
           },
           {
             "new": true,
@@ -754,7 +759,8 @@
             "days": 3,
             "tool": "Syllable Splitter",
             "source": "new",
-            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks the long vowel, and reads the word. Bottom: six sentences with a missing two-syllable word to choose from three. Level 1: compound words with a vowel team (rainbow); level 2: words with silent e (cupcake, invite); level 3: words that split after a long vowel (paper, music)."
+            "page": "Syllable page: sixteen two-syllable words; the child draws the split line, marks the long vowel, and reads the word. Bottom: six sentences with a missing two-syllable word to choose from three. Level 1: compound words with a vowel team (rainbow); level 2: words with silent e (cupcake, invite); level 3: words that split after a long vowel (paper, music).",
+            "placed": "2:long-vowels-two-syllable-words"
           },
           {
             "new": true,
@@ -764,7 +770,8 @@
             "days": 2,
             "tool": "Heart Words",
             "source": "new",
-            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words.",
+            "placed": "2:tricky-words-could-would-should"
           }
         ]
       },

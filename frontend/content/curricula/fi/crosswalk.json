@@ -2870,6 +2870,18 @@
    ],
    "by": "authored"
   },
+  "2:short-or-long-vowel": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:vowel-teams-long-a-e-o": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:vowel-sounds-oo-ou-ow-oi-oy": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "2:sentence-boundaries": {
    "rows": [
     {
@@ -3047,6 +3059,22 @@
      "grade": "3-6"
     }
    ],
+   "by": "authored"
+  },
+  "2:bossy-r-ar-or": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:er-ir-ur": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:long-vowels-two-syllable-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:tricky-words-could-would-should": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:read-cursive": {

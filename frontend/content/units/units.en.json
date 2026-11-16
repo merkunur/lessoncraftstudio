@@ -14895,6 +14895,183 @@
    ]
   },
   {
+   "id": "g2-long-vowels-and-vowel-teams",
+   "slug": "long-vowels-and-vowel-teams-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Long Vowels and Vowel Teams",
+   "metaTitle": "Grade 2 Lesson Plans: Long Vowels and Vowel Teams",
+   "metaDescription": "A Grade 2 phonics unit: 4 lessons that review the digraph sh, then teach short and long vowels, the vowel teams ai, ay, ee, ea, oa, ow, and oo, ou, ow, oi, oy.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "2:digraphs",
+     "title": "Review: find sh in sentences",
+     "objective": "Children read sentences, circle every sh, including the ones in the middle and at the end of a word, and count them.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "RF.1.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-372",
+       "title": "Digraphs in Sentences: Circle and Count sh",
+       "core": "digraphs-g2372",
+       "easy": "digraphs-easy-g2372-9",
+       "landing": "digraphs-in-sentences-count-sh"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-blend-word.rf-1-3",
+      "slug": "build-blend-and-digraph-words",
+      "title": "Build Blend and Digraph Words"
+     },
+     "exit": {
+      "slug": "digraphs-g2372-2",
+      "title": "Digraphs in Sentences: Circle and Count sh"
+     },
+     "maker": {
+      "id": "phonics",
+      "name": "Phonics & Sounds",
+      "slug": "phonics-worksheet-maker",
+      "template": "G2-372"
+     },
+     "note": {
+      "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
+      "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
+      "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "2:short-or-long-vowel",
+     "title": "Short or Long Vowel?",
+     "objective": "Children tell short from long vowels when they read regularly spelled one-syllable words (hop and hope, step and steep, ran and rain) and sort printed words by the vowel sound.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-530",
+       "title": "Short or Long Vowel?",
+       "core": "spelling-rules-g2530",
+       "easy": "spelling-rules-easy-g2530-6",
+       "hard": "spelling-rules-hard-g2530-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "cvc-builder.build-magic-e.rf-1-3-silent-e",
+      "slug": "add-the-magic-e",
+      "title": "Add the Magic e — Long Vowel Words"
+     },
+     "exit": {
+      "slug": "spelling-rules-g2530-2",
+      "title": "Short or Long Vowel?"
+     },
+     "note": {
+      "mistake": "Children read every vowel as short (hop for hope) and skip the silent e or the second letter of a vowel team (ran for rain). Some sort by looking for an e anywhere in the word instead of reading it, and put bed or step under long.",
+      "words": "Write hop and hope. Say: \"A short vowel says its sound: hop. A long vowel says its name: hope.\" Mark the vowels the US way: a breve over the o of hop, a macron over the o of hope, and cross out the silent e. Do the same with ran and rain, step and steep: the second vowel of a team is silent too. On Level 1 children circle the word for four pictures from two words such as cap and cape, sort six words under short vowel and long vowel, and circle the word that fits in two sentences. On Level 2 they sort eight words, half of them with blends and digraphs, and circle the word in four sentences. On Level 3 they sort six harder words and cross out the one word that is neither short nor long (car, star, park, cow, now, or boy), write the word for three pictures (the first letter is printed), and write the word that fits a sentence, choosing from the two words beside it. On screen, Add the Magic e builds the same short and long pairs.",
+      "watch": "A child who sorts by sight alone puts bed under long because it has an e: have the child read the word aloud and listen for the vowel. In the sentences both words are real (cub and cube), so only the meaning tells which one fits; ask the child to read the sentence with the word chosen. On Level 3 a child may write bote for boat: both say long o, so point to the vowel team on the word wall."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:vowel-teams-long-a-e-o",
+     "title": "Vowel Teams for Long a, e, and o",
+     "objective": "Children read and spell one-syllable words with the vowel teams ai, ay, ee, ea, oa, and ow, and choose the team for a word: first by its vowel sound, then by its place in the word.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-531",
+       "title": "Vowel Teams for Long a, e, and o",
+       "core": "spelling-rules-g2531",
+       "easy": "spelling-rules-easy-g2531-6",
+       "hard": "spelling-rules-hard-g2531-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "syllable-builder.build-vowel-teams.rf-1-3",
+      "slug": "build-vowel-team-words",
+      "title": "Build Vowel-Team Words — Long Vowel Sounds"
+     },
+     "exit": {
+      "slug": "spelling-rules-g2531-2",
+      "title": "Vowel Teams for Long a, e, and o"
+     },
+     "note": {
+      "mistake": "Children pick a team of the right sound in the wrong place (trayn, snoa), mix the two teams of long e (sleap, beech for beach), or hear the long vowel and write one letter (tran).",
+      "words": "Review the three long vowels and their teams: \"ai and ay spell long a. ee and ea spell long e. oa and ow spell long o.\" Then the places: \"ai and oa come in the middle of a word: chain, float. ay and ow come at the end: spray, throw.\" On Level 1 each copy works on one long vowel: children write its two teams into six words (the rule is printed for long a and long o; for long e the line says that ee and ea say the same sound), write the word for two pictures (the first letter is printed), and finish two sentences from a box of four words. On Level 2 they sort six words of two long vowels by their sound, then write the team that makes a word in nine words, choosing among four teams. On Level 3 they choose among all six teams for six words, write the word for a long a, a long e, and a long o picture, and finish two sentences from a box. On screen, Build Vowel-Team Words and the vowel-team level of Word Doctor's Clinic give more practice.",
+      "watch": "Both teams of a sound read the same, so reading aloud cannot show which is right. The rule decides between ai and ay, oa and ow. For ee and ea the child must know how the word looks: have them write it both ways and pick the one that looks right. On Level 2 the sound decides the column: rain and play both go under long a. Every ow on these pages says long o (snow, grow); cow and now come in the next lesson. The word box always holds two words that fit neither sentence."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:vowel-sounds-oo-ou-ow-oi-oy",
+     "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+     "objective": "Children read and spell words with oo (moon, book), ou and ow (cloud, cow), and oi and oy (coin, boy), and read them in sentences and riddles for meaning.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-532",
+       "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+       "core": "spelling-rules-g2532",
+       "easy": "spelling-rules-easy-g2532-6",
+       "hard": "spelling-rules-hard-g2532-11"
+      },
+      {
+       "type": "G2-543",
+       "title": "Reading Words with oo, ou, ow, oi, and oy",
+       "core": "reading-comprehension-g2543",
+       "easy": "reading-comprehension-easy-g2543-6",
+       "hard": "reading-comprehension-hard-g2543-11"
+      }
+     ],
+     "exit": {
+      "slug": "spelling-rules-g2532-2",
+      "title": "Vowel Sounds: oo, ou, ow, oi, and oy"
+     },
+     "note": {
+      "mistake": "Children give every oo the sound of moon, even in book; read ow as long o in down and town; and put ou or oi at the end of a word (cou, boi).",
+      "words": "Day 1, G2-532: say \"oo can say two sounds: the sound in moon and the sound in book.\" Then: \"ou comes in the middle of a word: shout. ow comes at the end: how. ow comes before a last n or l: town, howl. oi comes in the middle: soil. oy comes at the end: boy.\" Children sort words and write the team into words. Day 2, G2-543: the same spellings in sentences. Children circle yes or no (\"A cow can bark.\"), write the answers to riddles (from a box; on Level 3 the first letter is on the line), and draw what a sentence says. On both pages Level 1 reads oo, Level 2 ou, ow, oi, and oy, and Level 3 all five.",
+      "watch": "A child who answers yes to \"A cow can bark.\" may have guessed from one word: have them read the whole sentence aloud. ow can also say long o (snow); these pages never use it that way. The word hoop is never sorted on Day 1: many say it with the oo of book. you is a heart word; its ou is not the ou of cloud."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "g2-sentences-and-grammar",
    "slug": "sentences-and-grammar-grade-2-unit",
    "status": "live",
@@ -15257,6 +15434,178 @@
    ]
   },
   {
+   "id": "g2-bossy-r-and-longer-words",
+   "slug": "bossy-r-and-longer-words-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Bossy R and Longer Words",
+   "metaTitle": "Grade 2 Lesson Plans: Bossy R and Longer Words",
+   "metaDescription": "A Grade 2 phonics unit: 4 lessons on bossy r (ar, or, er, ir, ur), long vowels in two-syllable words, and the heart words could, would, and should.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "2:bossy-r-ar-or",
+     "title": "Bossy r: ar and or",
+     "objective": "Children read and spell words in which r changes the vowel, ar as in park and or as in storm, and read them in sentences and riddles for meaning.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-533",
+       "title": "Bossy r: ar and or",
+       "core": "spelling-rules-g2533",
+       "easy": "spelling-rules-easy-g2533-6",
+       "hard": "spelling-rules-hard-g2533-11"
+      },
+      {
+       "type": "G2-544",
+       "title": "Reading Words with ar and or",
+       "core": "reading-comprehension-g2544",
+       "easy": "reading-comprehension-easy-g2544-6",
+       "hard": "reading-comprehension-hard-g2544-11"
+      }
+     ],
+     "exit": {
+      "slug": "spelling-rules-g2533-2",
+      "title": "Bossy r: ar and or"
+     },
+     "note": {
+      "mistake": "Children read the vowel as short and add the r as a separate sound, drop the r in spelling (cat for cart), or write ar where or belongs (barn for born).",
+      "words": "Day 1, G2-533: write cat and cart. Say: \"Bossy r changes the vowel sound: ar says the sound in park.\" Then or: storm, fork, corn. Children match words to pictures, write ar or or into words, sort, and circle the word that fits a sentence. Day 2, G2-544: children circle yes or no (\"A shark can swim.\"), write the answers to riddles (from a box; on Level 3 the first letter is on the line), and draw what a sentence says. On both pages Level 1 reads ar only, and Levels 2 and 3 read ar and or.",
+      "watch": "Words like war, warm, word, and work look like these but say other sounds; they are not on these pages. A child who writes barn for born hears the r but not the vowel: read both words aloud and ask which one fits."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "2:er-ir-ur",
+     "title": "er, ir, and ur: One Sound, Three Spellings",
+     "objective": "Children read words with er, ir, and ur, which say the same sound (her, first, turn), check which spelling a word uses, and read the words in sentences and riddles.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.e",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-534",
+       "title": "er, ir, and ur: One Sound, Three Spellings",
+       "core": "spelling-rules-g2534",
+       "easy": "spelling-rules-easy-g2534-6",
+       "hard": "spelling-rules-hard-g2534-11"
+      },
+      {
+       "type": "G2-545",
+       "title": "Reading Words with er, ir, and ur",
+       "core": "reading-comprehension-g2545",
+       "easy": "reading-comprehension-easy-g2545-6",
+       "hard": "reading-comprehension-hard-g2545-11"
+      }
+     ],
+     "exit": {
+      "slug": "spelling-rules-g2534-2",
+      "title": "er, ir, and ur: One Sound, Three Spellings"
+     },
+     "note": {
+      "mistake": "Children spell the sound with the one spelling they know best (berd, shurt) or with r alone (brd), and stop checking because the word sounds right.",
+      "words": "Day 1, G2-534: say \"er, ir, and ur say the same sound: her, first, turn.\" Children write er into words, sort words under er, ir, and ur, circle the spelling that looks right, and write words for pictures. Day 2, G2-545: children circle yes or no (\"A cat has fur.\"), write the answers to riddles (from a box; on Level 3 only the first letter is on the line, so the child chooses er, ir, or ur), and draw what a sentence says. On both pages Level 1 reads er only, and Levels 2 and 3 read er, ir, and ur.",
+      "watch": "Praise checking, not hearing: when a child is unsure, have them write the word two ways and pick the one that looks right. here, there, and where have the letters but not the sound; they are crossed out on Day 1 and are not on the Day 2 page."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:long-vowels-two-syllable-words",
+     "title": "Long vowels in two-syllable words",
+     "objective": "Children split two-syllable words that have a long vowel in one syllable (rainbow, cupcake, paper), read each syllable, and read the words in sentences.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.c",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-546",
+       "title": "Long Vowels in Two-Syllable Words",
+       "core": "syllable-split-g2546",
+       "easy": "syllable-split-easy-g2546-6",
+       "hard": "syllable-split-hard-g2546-11"
+      },
+      {
+       "type": "G2-547",
+       "title": "Build and Read Two-Syllable Words",
+       "core": "syllable-reading-g2547",
+       "easy": "syllable-reading-easy-g2547-6",
+       "hard": "syllable-reading-hard-g2547-11"
+      }
+     ],
+     "exit": {
+      "slug": "syllable-split-g2546-2",
+      "title": "Long Vowels in Two-Syllable Words"
+     },
+     "note": {
+      "mistake": "Children read the first vowel as short (pap-er for paper), split a compound word in the wrong place, or guess a long word from its first letters.",
+      "words": "Write rain | bow and say \"A compound word splits between its two small words.\" Then cup | cake: \"A silent e at the end makes the vowel long.\" Then pa | per: \"When a syllable ends with a, e, i, o, or u, the letter says its name.\" On G2-546 children draw a line between the two syllables of twelve words, circle each syllable with a long a, e, i, o, or u, and circle the word that fits in six sentences. On G2-547 they finish six words from a first part and a part from a box (rain + bow), then circle yes or no for sentences. Level 1 has compound words with a vowel team, Level 2 words with a silent e, Level 3 words whose first syllable ends with its long vowel.",
+      "watch": "Some words have two long syllables (oatmeal, pinecone, photo): circle both. Do not circle a second syllable with a quick weak sound (paper, tiger, open, bacon). In playground only play is long: ground's ou is not a long vowel. Have the child read each part aloud, then the whole word."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:tricky-words-could-would-should",
+     "title": "Tricky words: could, would, should",
+     "objective": "Children read and spell could, would, should, because, and friend by mapping the sounds they know and learning the tricky part by heart.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.f",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-548",
+       "title": "Heart Words: could, would, should",
+       "core": "sight-words-g2548",
+       "easy": "sight-words-easy-g2548-6",
+       "hard": "sight-words-hard-g2548-11"
+      }
+     ],
+     "tool": {
+      "key": "heart-words",
+      "slug": "heart-words",
+      "name": "Heart Words"
+     },
+     "exit": {
+      "slug": "sight-words-g2548-2",
+      "title": "Heart Words: could, would, should"
+     },
+     "note": {
+      "mistake": "Children spell the words the way they sound (cud, wud, becuz, frend), or leave out the silent l of could, would, and should.",
+      "words": "Say: \"Some words have a part that does not follow the rules. We learn that part by heart.\" Write could in sound boxes: c, oul, d. The c and the d say the sounds children know; oul says the oo of book, and the l makes no sound, so it gets a heart. would and should work the same way: one heart over oul. In because the heart goes over au, in friend over ie. On the page children write the letters for each sound in a box and draw a heart over the tricky part; then they write the heart word that fits a sentence, with its first letter on the line. Levels 2 and 3 add again, any, many, people, does, or other: the heart goes over ai, a, a, eo, oe, o. Level 1 has four words (could, would, should, and because or friend) and four sentences; Level 2 six words and three sentences; Level 3 six words, one sentence, and a sentence of their own with two heart words from the page. On screen, Heart Words runs the same routine of sound boxes, a heart, and writing. Its first shelf (the, of, to, do, was, said, you, have, come, some) is open to everyone, with the whole routine and the printable word cards, and a teacher can type any word and show it to the class (the list is not kept). The Teacher plan adds the other eleven shelves, among them could, would, should, friend, and because; a saved list of her own words; and the wall and take-home sheets.",
+      "watch": "A dashed line marked \"Fold back\" runs under the words: on Levels 2 and 3 the child folds the top back and writes the sentences from memory, then unfolds it to check. The heart goes over the tricky letters only: the c and d of could keep their usual sounds."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "g2-spelling-and-word-building",
    "slug": "spelling-word-building-and-word-choice-grade-2-unit",
    "status": "live",
@@ -15264,57 +15613,12 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A three-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
-   "days": 15,
+   "metaDescription": "A Grade 2 unit: 5 lessons on spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
+   "days": 13,
    "weeks": 3,
    "lessons": [
     {
      "n": 1,
-     "point": "2:digraphs",
-     "title": "Review: find sh in sentences",
-     "objective": "Children read sentences, circle every sh, including the ones in the middle and at the end of a word, and count them.",
-     "standards": [
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "RF.1.3.a",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G2-372",
-       "title": "Digraphs in Sentences: Circle and Count sh",
-       "core": "digraphs-g2372",
-       "easy": "digraphs-easy-g2372-9",
-       "landing": "digraphs-in-sentences-count-sh"
-      }
-     ],
-     "screen": {
-      "kind": "activity",
-      "id": "cvc-builder.build-blend-word.rf-1-3",
-      "slug": "build-blend-and-digraph-words",
-      "title": "Build Blend and Digraph Words"
-     },
-     "exit": {
-      "slug": "digraphs-g2372-2",
-      "title": "Digraphs in Sentences: Circle and Count sh"
-     },
-     "maker": {
-      "id": "phonics",
-      "name": "Phonics & Sounds",
-      "slug": "phonics-worksheet-maker",
-      "template": "G2-372"
-     },
-     "note": {
-      "mistake": "Children find sh at the start of words and miss it in the middle and at the end (fishing, brush). Some circle every s and every h they see, even when the two letters are not side by side.",
-      "words": "Say: \"sh is a team: the two letters are side by side and make one sound.\" Read each sentence aloud slowly and have children raise a hand when they HEAR /sh/. Then: \"Now find it with your eyes. Beginning, middle, or end?\" Add: \"If you hear /sh/ and cannot find sh, as in 'sure,' tell me: that word spells the sound another way.\"",
-      "watch": "Compare the number in the box with the number of circles. A child who reads silently misses more; have that child whisper the sentence. Check words like \"fish\" and \"washing,\" where the team is not at the start."
-     },
-     "days": 2
-    },
-    {
-     "n": 2,
      "point": "2:spelling-rules",
      "title": "Spelling rules: which letters go here?",
      "objective": "Children read a spelling rule and choose the right letters for a sound by where it is in the word, for example ck after a short vowel.",
@@ -15374,7 +15678,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 2,
      "point": "2:compound-words",
      "title": "Compound words",
      "objective": "Children join two words to make a compound word and find where a compound word splits into its two words.",
@@ -15427,7 +15731,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 3,
      "point": "2:root-words",
      "title": "Root words and word families",
      "objective": "Children find the root that three words share and sort words by their root.",
@@ -15481,7 +15785,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 4,
      "point": "2:synonyms",
      "title": "Synonyms",
      "objective": "Children choose and match words that mean the same, such as glad and happy.",
@@ -15540,7 +15844,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 5,
      "point": "2:synonyms~doing-stage",
      "title": "More exact words for \"said\"",
      "objective": "Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.",
@@ -17953,18 +18257,36 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (13 Weeks)",
-   "metaDescription": "4 Grade 2 reading and writing units in teaching order, about 13 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 13,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (17 Weeks)",
+   "metaDescription": "6 Grade 2 reading and writing units in teaching order, about 17 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 17,
    "framework": "Common Core",
    "units": [
+    {
+     "id": "g2-long-vowels-and-vowel-teams",
+     "slug": "long-vowels-and-vowel-teams-grade-2-unit",
+     "title": "Long Vowels and Vowel Teams",
+     "weeks": 2,
+     "from": 1,
+     "to": 2,
+     "lessons": [
+      "Review: find sh in sentences",
+      "Short or Long Vowel?",
+      "Vowel Teams for Long a, e, and o",
+      "Vowel Sounds: oo, ou, ow, oi, and oy"
+     ],
+     "standards": [
+      "RF.2.3.a",
+      "RF.2.3.b"
+     ]
+    },
     {
      "id": "g2-sentences-and-grammar",
      "slug": "sentences-and-grammar-grade-2-unit",
      "title": "Sentences and Grammar",
      "weeks": 3,
-     "from": 1,
-     "to": 3,
+     "from": 3,
+     "to": 5,
      "lessons": [
       "Capital letters and end marks",
       "Nouns, verbs, and adjectives: three bins",
@@ -17980,14 +18302,33 @@
      ]
     },
     {
+     "id": "g2-bossy-r-and-longer-words",
+     "slug": "bossy-r-and-longer-words-grade-2-unit",
+     "title": "Bossy R and Longer Words",
+     "weeks": 2,
+     "from": 6,
+     "to": 7,
+     "lessons": [
+      "Bossy r: ar and or",
+      "er, ir, and ur: One Sound, Three Spellings",
+      "Long vowels in two-syllable words",
+      "Tricky words: could, would, should"
+     ],
+     "standards": [
+      "RF.2.3.b",
+      "RF.2.3.c",
+      "RF.2.3.e",
+      "RF.2.3.f"
+     ]
+    },
+    {
      "id": "g2-spelling-and-word-building",
      "slug": "spelling-word-building-and-word-choice-grade-2-unit",
      "title": "Spelling, Word Building, and Word Choice",
      "weeks": 3,
-     "from": 4,
-     "to": 6,
+     "from": 8,
+     "to": 10,
      "lessons": [
-      "Review: find sh in sentences",
       "Spelling rules: which letters go here?",
       "Compound words",
       "Root words and word families",
@@ -18007,8 +18348,8 @@
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
      "weeks": 4,
-     "from": 7,
-     "to": 10,
+     "from": 11,
+     "to": 14,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",
@@ -18035,8 +18376,8 @@
      "slug": "reading-to-learn-informational-texts-grade-2-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 11,
-     "to": 13,
+     "from": 15,
+     "to": 17,
      "lessons": [
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",

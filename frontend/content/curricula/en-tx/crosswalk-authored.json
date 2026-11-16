@@ -4981,6 +4981,100 @@
    ],
    "why": "Saying a one-syllable word and marking its vowel sound long or short is «distinguishing between long and short vowel sounds in one-syllable words».",
    "review": "year-design 2026-11-17"
+  },
+  "2:short-or-long-vowel": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.A.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting one-syllable words by a short or a long vowel is «distinguishing between long and short vowel sounds in one-syllable and multi-syllable words»; reading them is «decoding words with short, long, or variant vowels, trigraphs, and blends».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:vowel-teams-long-a-e-o": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words with ai, ay, ee, ea, oa, and ow is «decoding words with short, long, or variant vowels, trigraphs, and blends»; choosing and writing the team is «spelling one-syllable and multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:vowel-sounds-oo-ou-ow-oi-oy": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading words with oo, ou, ow, oi, and oy is «decoding words with short, long, or variant vowels, trigraphs, and blends» (the variant vowels); writing them is «spelling one-syllable and multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables» (the diphthongs).",
+   "review": "year-design 2026-11-18"
+  },
+  "2:bossy-r-ar-or": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading and writing one-syllable words with ar and or is «spelling one-syllable and multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables» (the r-controlled syllables); it prepares «decoding multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:er-ir-ur": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.C.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading words with er, ir, and ur and checking their spelling is «spelling one-syllable and multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables» (the r-controlled syllables); it prepares «decoding multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:long-vowels-two-syllable-words": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Splitting and reading two-syllable words with a vowel team, a silent e, or an open syllable is «decoding multisyllabic words with closed syllables; open syllables; VCe syllables; vowel teams, including digraphs and diphthongs; r-controlled syllables; and final stable syllables»; it prepares «decoding words using knowledge of syllable division patterns such as VCCV, VCV, and VCCCV».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:tricky-words-could-would-should": {
+   "rows": [
+    {
+     "id": "ELAR.2.2.B.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading and writing could, would, should, because, and friend by mapping their sounds and learning the tricky part is «identifying and reading high-frequency words from a research-based list».",
+   "review": "year-design 2026-11-18"
   }
  }
 }

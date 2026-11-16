@@ -3126,6 +3126,44 @@
    ]
   },
   {
+   "id": "g2-long-vowels-and-vowel-teams",
+   "slug": "long-vowels-and-vowel-teams-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Long Vowels and Vowel Teams",
+   "metaTitle": "Grade 2 Lesson Plans: Long Vowels and Vowel Teams",
+   "metaDescription": "A Grade 2 phonics unit: 4 lessons that review the digraph sh, then teach short and long vowels, the vowel teams ai, ay, ee, ea, oa, ow, and oo, ou, ow, oi, oy.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:digraphs",
+     "types": [
+      "G2-372"
+     ]
+    },
+    {
+     "point": "2:short-or-long-vowel",
+     "types": [
+      "G2-530"
+     ]
+    },
+    {
+     "point": "2:vowel-teams-long-a-e-o",
+     "types": [
+      "G2-531"
+     ]
+    },
+    {
+     "point": "2:vowel-sounds-oo-ou-ow-oi-oy",
+     "types": [
+      "G2-532",
+      "G2-543"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g2-sentences-and-grammar",
    "slug": "sentences-and-grammar-grade-2-unit",
    "status": "live",
@@ -3186,6 +3224,46 @@
    ]
   },
   {
+   "id": "g2-bossy-r-and-longer-words",
+   "slug": "bossy-r-and-longer-words-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Bossy R and Longer Words",
+   "metaTitle": "Grade 2 Lesson Plans: Bossy R and Longer Words",
+   "metaDescription": "A Grade 2 phonics unit: 4 lessons on bossy r (ar, or, er, ir, ur), long vowels in two-syllable words, and the heart words could, would, and should.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:bossy-r-ar-or",
+     "types": [
+      "G2-533",
+      "G2-544"
+     ]
+    },
+    {
+     "point": "2:er-ir-ur",
+     "types": [
+      "G2-534",
+      "G2-545"
+     ]
+    },
+    {
+     "point": "2:long-vowels-two-syllable-words",
+     "types": [
+      "G2-546",
+      "G2-547"
+     ]
+    },
+    {
+     "point": "2:tricky-words-could-would-should",
+     "types": [
+      "G2-548"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g2-spelling-and-word-building",
    "slug": "spelling-word-building-and-word-choice-grade-2-unit",
    "status": "live",
@@ -3193,15 +3271,9 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A three-week Grade 2 unit: 6 lessons that review the digraph sh, then teach spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
+   "metaDescription": "A Grade 2 unit: 5 lessons on spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
    "weeks": 3,
    "lessons": [
-    {
-     "point": "2:digraphs",
-     "types": [
-      "G2-372"
-     ]
-    },
     {
      "point": "2:spelling-rules",
      "types": [
@@ -3634,7 +3706,9 @@
    "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing ({weeks} Weeks)",
    "metaDescription": "{units} Grade 2 reading and writing units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
+    "g2-long-vowels-and-vowel-teams",
     "g2-sentences-and-grammar",
+    "g2-bossy-r-and-longer-words",
     "g2-spelling-and-word-building",
     "g2-stories-facts-and-writing",
     "g2-reading-to-learn-informational-texts"

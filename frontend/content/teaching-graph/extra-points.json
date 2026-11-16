@@ -474,6 +474,61 @@
    "activities": [
     "stretch-giraffe.long-short-vowel.rf-1-2-a"
    ]
+  },
+  {
+   "tp": "2:short-or-long-vowel",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.a",
+   "skill": "Tell short from long vowels in regularly spelled one-syllable words and sort the words by vowel sound",
+   "activities": [
+    "cvc-builder.build-magic-e.rf-1-3-silent-e"
+   ]
+  },
+  {
+   "tp": "2:vowel-teams-long-a-e-o",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.b",
+   "skill": "Read and spell words with the vowel teams ai, ay, ee, ea, oa, and ow and choose the team a word takes",
+   "activities": [
+    "syllable-builder.build-vowel-teams.rf-1-3"
+   ]
+  },
+  {
+   "tp": "2:vowel-sounds-oo-ou-ow-oi-oy",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.b",
+   "skill": "Read and spell words with oo (moon, book), ou and ow (cloud, cow), and oi and oy (coin, boy)"
+  },
+  {
+   "tp": "2:bossy-r-ar-or",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.b",
+   "skill": "Read and spell words where r changes the vowel: ar as in car and or as in fork"
+  },
+  {
+   "tp": "2:er-ir-ur",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.e",
+   "skill": "Read words with er, ir, and ur, which say the same sound, and check which spelling a word takes"
+  },
+  {
+   "tp": "2:long-vowels-two-syllable-words",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.c",
+   "skill": "Split and read two-syllable words that have a long vowel in one syllable (rainbow, cupcake, paper)"
+  },
+  {
+   "tp": "2:tricky-words-could-would-should",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.f",
+   "skill": "Read and spell common words with a part that does not follow the rules (could, would, should, because, friend)"
   }
  ]
 }

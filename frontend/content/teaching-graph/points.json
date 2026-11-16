@@ -6642,7 +6642,8 @@
    "skill": "Use headings, bold print, captions, a glossary, and an index to find facts in an informational text",
    "code": "RI.2.5",
    "types": [
-    "G2-520"
+    "G2-520",
+    "G2-523"
    ],
    "families": [
     "reading-comprehension"
@@ -6652,6 +6653,48 @@
    "verdict": "gap",
    "extra": true,
    "order": 76,
+   "prerequisites": []
+  },
+  {
+   "id": "2:diagram-and-text",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Read a diagram with labels and arrows together with a text and tell what the diagram adds to the text",
+   "code": "RI.2.7",
+   "types": [
+    "G2-521",
+    "G2-524"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 77,
+   "prerequisites": []
+  },
+  {
+   "id": "2:steps-in-order",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Describe the steps of a how-it-is-made text in order and tell why one step comes before another",
+   "code": "RI.2.3",
+   "types": [
+    "G2-522",
+    "G2-525"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 78,
    "prerequisites": []
   },
   {
@@ -6677,7 +6720,7 @@
     282
    ],
    "verdict": "partial",
-   "order": 77,
+   "order": 79,
    "prerequisites": [
     "2:read-and-answer"
    ]
@@ -6702,7 +6745,7 @@
     282
    ],
    "verdict": "gap",
-   "order": 78,
+   "order": 80,
    "prerequisites": [
     "2:animal-fact-file"
    ]
@@ -6726,7 +6769,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 79,
+   "order": 81,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -6753,7 +6796,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 80,
+   "order": 82,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -6780,7 +6823,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 81,
+   "order": 83,
    "prerequisites": [
     "2:root-words"
    ]
@@ -6805,7 +6848,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 82,
+   "order": 84,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"

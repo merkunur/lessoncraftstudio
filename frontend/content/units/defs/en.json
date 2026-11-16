@@ -3079,6 +3079,58 @@
    ]
   },
   {
+   "id": "g2-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Reading to Learn: Informational Texts",
+   "metaTitle": "Grade 2 Lesson Plans: Reading to Learn from Informational Texts",
+   "metaDescription": "A Grade 2 reading unit on informational texts: 5 lessons on the main topic, text features, diagrams, steps in order, and comparing two animal fact files.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "2:main-topic-paragraphs",
+     "types": [
+      "G2-519"
+     ]
+    },
+    {
+     "point": "2:text-features",
+     "types": [
+      "G2-523",
+      "G2-520"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:diagram-and-text",
+     "types": [
+      "G2-521",
+      "G2-524"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:steps-in-order",
+     "types": [
+      "G2-522",
+      "G2-525"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:compare-two-animals",
+     "types": [
+      "G2-342"
+     ],
+     "standards": [
+      "RI.2.9"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
    "status": "live",
@@ -3240,7 +3292,8 @@
    "units": [
     "g2-sentences-and-grammar",
     "g2-spelling-and-word-building",
-    "g2-stories-facts-and-writing"
+    "g2-stories-facts-and-writing",
+    "g2-reading-to-learn-informational-texts"
    ]
   }
  ]

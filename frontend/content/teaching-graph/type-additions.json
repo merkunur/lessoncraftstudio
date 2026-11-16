@@ -272,6 +272,11 @@
   "K-647": "K:pictures-and-text",
   "K-648": "K:first-then",
   "G2-519": "2:main-topic-paragraphs",
-  "G2-520": "2:text-features"
+  "G2-520": "2:text-features",
+  "G2-521": "2:diagram-and-text",
+  "G2-524": "2:diagram-and-text",
+  "G2-522": "2:steps-in-order",
+  "G2-525": "2:steps-in-order",
+  "G2-523": "2:text-features"
  }
 }

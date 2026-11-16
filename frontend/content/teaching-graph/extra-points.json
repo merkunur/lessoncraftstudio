@@ -165,6 +165,20 @@
    "strand": "Reading: Informational Text",
    "code": "RI.2.5",
    "skill": "Use headings, bold print, captions, a glossary, and an index to find facts in an informational text"
+  },
+  {
+   "tp": "2:diagram-and-text",
+   "grade": "2",
+   "strand": "Reading: Informational Text",
+   "code": "RI.2.7",
+   "skill": "Read a diagram with labels and arrows together with a text and tell what the diagram adds to the text"
+  },
+  {
+   "tp": "2:steps-in-order",
+   "grade": "2",
+   "strand": "Reading: Informational Text",
+   "code": "RI.2.3",
+   "skill": "Describe the steps of a how-it-is-made text in order and tell why one step comes before another"
   }
  ]
 }

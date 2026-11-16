@@ -6992,10 +6992,10 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 21,
+    "taught": 27,
     "near": 9,
-    "open": 58,
-    "lessons": 22
+    "open": 52,
+    "lessons": 27
    },
    "groups": [
     {
@@ -7120,6 +7120,20 @@
        ]
       },
       {
+       "code": "2.2.D",
+       "state": "taught",
+       "text": "Children name the features of an informational text (title, headings, bold words, captions, glossary, index) and use them to find facts quickly.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Text Features: Glossary and Index"
+        }
+       ]
+      },
+      {
        "code": "2.2.E",
        "state": "taught",
        "text": "Children trace and write rows of four connected cursive letters (i, t, u, and w) and join two letters without lifting the pencil.",
@@ -7144,8 +7158,7 @@
       "2.2.B.vii",
       "2.2.C.ii",
       "2.2.C.iv",
-      "2.2.C.v",
-      "2.2.D"
+      "2.2.C.v"
      ]
     },
     {
@@ -7240,6 +7253,20 @@
          "core": "animal-fact-file-forest-creatures-g2343"
         }
        ]
+      },
+      {
+       "code": "2.6.G",
+       "state": "taught",
+       "text": "Children name the main topic of an informational text of three paragraphs and tell what each paragraph is mostly about.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "The Main Topic and Each Paragraph"
+        }
+       ]
       }
      ],
      "open": [
@@ -7247,7 +7274,6 @@
       "2.6.C",
       "2.6.D",
       "2.6.E",
-      "2.6.G",
       "2.6.H",
       "2.6.I"
      ]
@@ -7318,14 +7344,61 @@
     },
     {
      "title": "Knowledge and skills (9)",
-     "items": [],
+     "items": [
+      {
+       "code": "2.9.D.i",
+       "state": "taught",
+       "text": "Children name the main topic of an informational text of three paragraphs and tell what each paragraph is mostly about.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "The Main Topic and Each Paragraph"
+        }
+       ]
+      },
+      {
+       "code": "2.9.D.ii",
+       "state": "taught",
+       "text": "Children read a diagram with labels and arrows together with a text, answer questions from the diagram, and tell what the diagram adds to the text.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Text Features: Glossary and Index"
+        },
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "What the Diagram Shows"
+        }
+       ]
+      },
+      {
+       "code": "2.9.D.iii",
+       "state": "taught",
+       "text": "Children describe the steps of a how-it-is-made text in order with the words first, next, then, and finally, and tell why one step has to come before another.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Steps in Order: How It Is Made"
+        }
+       ]
+      }
+     ],
      "open": [
       "2.9.A",
       "2.9.B",
       "2.9.C",
-      "2.9.D.i",
-      "2.9.D.ii",
-      "2.9.D.iii",
       "2.9.E.i",
       "2.9.E.ii",
       "2.9.F"
@@ -7333,11 +7406,25 @@
     },
     {
      "title": "Knowledge and skills (10)",
-     "items": [],
+     "items": [
+      {
+       "code": "2.10.C",
+       "state": "taught",
+       "text": "Children read a diagram with labels and arrows together with a text, answer questions from the diagram, and tell what the diagram adds to the text.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "What the Diagram Shows"
+        }
+       ]
+      }
+     ],
      "open": [
       "2.10.A",
       "2.10.B",
-      "2.10.C",
       "2.10.D",
       "2.10.E",
       "2.10.F"
@@ -7600,6 +7687,13 @@
          "unitGrade": "1",
          "n": 4,
          "title": "Two animal fact files: same and different"
+        },
+        {
+         "unit": "reading-to-learn-informational-texts-grade-2-unit",
+         "unitTitle": "Reading to Learn: Informational Texts",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Two Animals: Same and Different"
         }
        ]
       }

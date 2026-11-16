@@ -2929,6 +2929,26 @@
    ],
    "by": "code"
   },
+  "2:diagram-and-text": {
+   "rows": [
+    {
+     "id": "RI.2.7",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:steps-in-order": {
+   "rows": [
+    {
+     "id": "RI.2.3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:animal-fact-file": {
    "rows": [
     {

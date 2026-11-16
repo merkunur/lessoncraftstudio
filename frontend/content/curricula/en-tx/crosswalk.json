@@ -3401,6 +3401,31 @@
    ],
    "by": "authored"
   },
+  "2:diagram-and-text": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.ii",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.10.C",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:steps-in-order": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.iii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {

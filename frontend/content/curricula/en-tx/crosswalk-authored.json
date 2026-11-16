@@ -4529,6 +4529,30 @@
    ],
    "why": "Finding a fact from a heading, a bold word, a caption, the glossary or the index is «features and graphics to locate and gain information» in informational text; looking a word up in the glossary of the text is «use a dictionary or glossary to find words».",
    "review": "year-design 2026-11-15"
+  },
+  "2:diagram-and-text": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.10.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Answering questions from a labeled diagram and telling which facts only the diagram gives is «features and graphics to locate and gain information» in informational text; saying what the diagram adds to the words is «discuss the author's use of print and graphic features to achieve specific purposes».",
+   "review": "year-design 2026-11-16"
+  },
+  "2:steps-in-order": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Putting the steps of a how-it-is-made text in order with first, next, then and finally, and telling why one step has to come before another, is «organizational patterns such as chronological order and cause and effect stated explicitly» in informational text.",
+   "review": "year-design 2026-11-16"
   }
  }
 }

@@ -2928,6 +2928,14 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "2:diagram-and-text": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:steps-in-order": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {

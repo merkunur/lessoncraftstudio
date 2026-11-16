@@ -773,7 +773,8 @@
             "standard": "RI.2.2",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 150 words in three paragraphs with a heading and a picture. Below: a topic box and one box per paragraph for its focus. Level 1: the child matches each paragraph to its focus from a list; level 2: the child writes the topic and one focus per paragraph; level 3: the child also adds a heading to each paragraph."
+            "page": "Fact text and questions page: an information text of about 150 words in three paragraphs with a heading and a picture. Below: a topic box and one box per paragraph for its focus. Level 1: the child matches each paragraph to its focus from a list; level 2: the child writes the topic and one focus per paragraph; level 3: the child also adds a heading to each paragraph.",
+            "placed": "2:main-topic-paragraphs"
           },
           {
             "new": true,
@@ -782,7 +783,8 @@
             "standard": "RI.2.5",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 150 words in three sections with subheadings, bold words, two captioned pictures, a glossary, and a short index. Below: six find-it questions (On which page can you read about teeth? What does molar mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer and the feature used; level 3: the child adds an index entry and a glossary entry."
+            "page": "Fact text and questions page: an information text of about 150 words in three sections with subheadings, bold words, two captioned pictures, a glossary, and a short index. Below: six find-it questions (On which page can you read about teeth? What does molar mean?). Level 1: the child circles the feature that answers; level 2: the child writes the answer and the feature used; level 3: the child adds an index entry and a glossary entry.",
+            "placed": "2:text-features"
           },
           {
             "new": true,
@@ -791,7 +793,8 @@
             "standard": "RI.2.7",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 120 words about the life cycle of a butterfly with a labeled cycle diagram. Below: four questions answered only from the diagram and one that needs both the text and the diagram. Level 1: multiple choice; level 2: short written answers; level 3: the child adds a missing label and an arrow."
+            "page": "Fact text and questions page: an information text of about 120 words about the life cycle of a butterfly with a labeled cycle diagram. Below: four questions answered only from the diagram and one that needs both the text and the diagram. Level 1: multiple choice; level 2: short written answers; level 3: the child adds a missing label and an arrow.",
+            "placed": "2:diagram-and-text"
           },
           {
             "new": true,
@@ -800,7 +803,8 @@
             "standard": "RI.2.3",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 150 words that tells how something is made (bread, paper, honey) with three pictures. Below: a flow chart of four boxes for the steps. Level 1: the child orders four step strips; level 2: the child writes each step with a signal word; level 3: the child writes the steps and explains why one step must come before another."
+            "page": "Fact text and questions page: an information text of about 150 words that tells how something is made (bread, paper, honey) with three pictures. Below: a flow chart of four boxes for the steps. Level 1: the child orders four step strips; level 2: the child writes each step with a signal word; level 3: the child writes the steps and explains why one step must come before another.",
+            "placed": "2:steps-in-order"
           },
           {
             "new": true,
@@ -808,7 +812,8 @@
             "objective": "Children compare two animals from two short texts and sort the facts that are the same and the facts that are different.",
             "standard": "RI.2.9",
             "days": 2,
-            "source": "reuse:Compare Two Animals: Same and Different"
+            "source": "reuse:Compare Two Animals: Same and Different",
+            "placed": "2:compare-two-animals"
           }
         ]
       },

@@ -5480,11 +5480,11 @@
   },
   "G3-524": {
     "title": "Better, Best: Comparing with Adjectives and Adverbs",
-    "instruction": "Long words use more and most: more careful."
+    "instruction": "Most longer words use more and most: more careful."
   },
   "G3-525": {
     "title": "Comparing Words: Choose the Right Form",
-    "instruction": "Short words take -er and -est. Long words take more and most."
+    "instruction": "Short words take -er and -est. Most longer words take more and most."
   },
   "G3-526": {
     "title": "Possessive Nouns: One Owner or More",
@@ -5501,5 +5501,37 @@
   "G3-529": {
     "title": "Find the Capitals in Titles",
     "instruction": "Small words like a, the, of, and in stay small in the middle of a title."
+  },
+  "G3-530": {
+    "title": "Label the Parts of Speech",
+    "instruction": "Every word has a job. Label each word by the job it does in its sentence."
+  },
+  "G3-531": {
+    "title": "Sort the Parts of Speech",
+    "instruction": "A word's job makes it a noun, pronoun, verb, adjective, or adverb."
+  },
+  "G3-532": {
+    "title": "Plural Nouns: Spelling Rules",
+    "instruction": "Plural nouns name more than one. Each one follows a spelling rule."
+  },
+  "G3-533": {
+    "title": "Which Plural Is Right?",
+    "instruction": "A plural noun names more than one. Its spelling follows a rule."
+  },
+  "G3-534": {
+    "title": "Past Tense: Regular and Irregular Verbs",
+    "instruction": "Regular verbs add -ed in the past. Irregular verbs change: go, went."
+  },
+  "G3-535": {
+    "title": "Rewrite the Story in the Past Tense",
+    "instruction": "To tell a story about the past, change every verb to the past tense."
+  },
+  "G3-536": {
+    "title": "Subjects and Verbs Agree",
+    "instruction": "The verb agrees with its subject, even with other words in between."
+  },
+  "G3-537": {
+    "title": "Fix the Words That Do Not Agree",
+    "instruction": "A verb agrees with its subject, not with the words in between."
   }
 }

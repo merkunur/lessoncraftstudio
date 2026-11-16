@@ -7499,7 +7499,7 @@
   },
   "G3-514": {
     "1": {
-      "en": "A consonant-le syllable is the last three letters of a word: ta | ble."
+      "en": "A consonant-le syllable is a consonant plus le. Count back three letters from le: ta | ble."
     },
     "3": {
       "en": "A long word can mix the syllable types: bum | ble | bee."
@@ -7507,7 +7507,7 @@
   },
   "G3-515": {
     "1": {
-      "en": "A consonant-le syllable is the last part of a word: can + dle = candle."
+      "en": "A consonant-le syllable is a consonant plus le: can + dle = candle."
     },
     "3": {
       "en": "A long word can be two smaller words: bumble + bee = bumblebee."
@@ -7518,7 +7518,7 @@
       "en": "A suffix changes a word: -ful means full of, and -less means without."
     },
     "3": {
-      "en": "Before -able, drop a silent e: lovable. Change y to i before a suffix: happiness."
+      "en": "Before -able, drop a silent e: lovable. After a consonant, change y to i: happy, happiness."
     }
   },
   "G3-517": {
@@ -7526,7 +7526,7 @@
       "en": "-ful means full of, and -less means without: careful, careless."
     },
     "3": {
-      "en": "-able means can be: washable means can be washed."
+      "en": "After a consonant, change y to i: happy, happiness. -able means can be: washable."
     }
   },
   "G3-518": {},
@@ -7593,7 +7593,7 @@
   },
   "G3-527": {
     "1": {
-      "en": "An apostrophe shows who owns something. A plural needs no apostrophe."
+      "en": "An apostrophe shows who owns something. A plural that owns nothing needs no apostrophe."
     },
     "3": {
       "en": "Count the owners: the bee's hive, the bees' hives, the people's kites."
@@ -7613,6 +7613,82 @@
     },
     "3": {
       "en": "A name always gets a capital. So does the first word after a colon."
+    }
+  },
+  "G3-530": {
+    "1": {
+      "en": "A noun names a person, place, or thing. A verb shows an action or a state of being. An adjective describes a noun."
+    },
+    "3": {
+      "en": "Every word has a job. Label each word by the job it does, then write and label a sentence of your own."
+    }
+  },
+  "G3-531": {
+    "1": {
+      "en": "Nouns, verbs, and adjectives do different jobs. Sort each word by its job."
+    },
+    "3": {
+      "en": "A word's job makes it a noun, pronoun, verb, adjective, or adverb. Not every word that ends in -ly is an adverb."
+    }
+  },
+  "G3-532": {
+    "1": {
+      "en": {
+        "title": "Plural Nouns: Add -s or -es",
+        "instruction": "To name more than one, add -s to most nouns. Add -es after s, x, z, ch, or sh."
+      }
+    },
+    "3": {
+      "en": {
+        "title": "Plural Nouns: Regular and Irregular",
+        "instruction": "Most plural nouns follow a spelling rule. Irregular nouns change in their own way: one man, two men."
+      }
+    }
+  },
+  "G3-533": {
+    "1": {
+      "en": "Add -s to most nouns. Add -es to nouns that end in s, x, z, ch, or sh."
+    },
+    "3": {
+      "en": "A plural noun names more than one. Most follow a rule, and irregular nouns change in their own way."
+    }
+  },
+  "G3-534": {
+    "1": {
+      "en": {
+        "title": "Past Tense: Regular Verbs",
+        "instruction": "A regular verb adds -ed to tell about the past. Some verbs change their spelling first."
+      }
+    },
+    "3": {
+      "en": "Regular verbs add -ed in the past. Irregular verbs change in their own way: go, went."
+    }
+  },
+  "G3-535": {
+    "1": {
+      "en": "To tell a story about the past, every verb must be in the past tense."
+    },
+    "3": {
+      "en": "To tell a story about the past, change every verb to the past tense. Find each verb yourself."
+    }
+  },
+  "G3-536": {
+    "1": {
+      "en": "A verb must agree with its subject: one dog runs, two dogs run."
+    },
+    "3": {
+      "en": {
+        "title": "Verbs and Pronouns Agree",
+        "instruction": "A verb agrees with its subject. A pronoun agrees with its noun."
+      }
+    }
+  },
+  "G3-537": {
+    "1": {
+      "en": "A verb must agree with its subject: one dog runs, two dogs run."
+    },
+    "3": {
+      "en": "A verb agrees with its subject. A pronoun agrees with its noun."
     }
   }
 }

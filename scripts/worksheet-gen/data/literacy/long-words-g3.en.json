@@ -1,0 +1,12361 @@
+{
+ "_note": "Grade 3, the unit \"Reading Long Words\" (English literacy year, Part 12.3; types/_shared/long-words-g3.js; written by the scratch script x-g3long/bank.js from data-a.js and data-b.js). `co`: two-syllable words by level, each split into syllables with its syllable types (C closed, O open): level 1 two consonants between the vowels, level 2 an open first syllable, level 3 one consonant between the vowels (ro|bot or cam|el); `review`: level-1 words split again on level 2 (three or four a page, never offered in a sentence); sentences to choose a word from three, each naming the other words of its level that fit too (G3-512). `cosort`: the words each level of G3-513 sorts by the first syllable (closed or open), the words that fit neither (level 3), and yes-or-no sentences. `ty`: words by level with their syllables and types (C closed, O open, E silent e, V vowel team, L consonant-le): level 1 consonant-le words, level 2 consonant-le and silent-e words, level 3 three syllables; the pools of the sorts; the parts a word is built from (G3-515) and every pair of parts that makes a real word (`joins`); yes-or-no sentences. `suffix`: words with -ful, -less, -ness, -ment, -able: the base, the part of the word to circle (the base as it stands: happi, lov), the change (y to i, silent e dropped), the meaning, a sentence (G3-516); pairs of one base (G3-516 task 2); sentences with two words of one base (G3-517); `two`: the base carries a suffix of its own (friendly), never a word whose base is circled; `odd`: the meaning is not the meaning of the suffix (wonderful), never in a meaning task. `heart`: heart words with their sound boxes and the boxes learned by heart; sentences, each naming the other heart words that fit it too (G3-518). `ough`: words by the sound of ough, words of another ough sound (`other`: crossed out on level 3; `extra`: only in the sentences), yes-or-no sentences (G3-519).",
+ "co": {
+  "levels": {
+   "1": [
+    {
+     "w": "rabbit",
+     "parts": [
+      "rab",
+      "bit"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "napkin",
+     "parts": [
+      "nap",
+      "kin"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "kitten",
+     "parts": [
+      "kit",
+      "ten"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "mitten",
+     "parts": [
+      "mit",
+      "ten"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "muffin",
+     "parts": [
+      "muf",
+      "fin"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "sunset",
+     "parts": [
+      "sun",
+      "set"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "basket",
+     "parts": [
+      "bas",
+      "ket"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "picnic",
+     "parts": [
+      "pic",
+      "nic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "cactus",
+     "parts": [
+      "cac",
+      "tus"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "dentist",
+     "parts": [
+      "den",
+      "tist"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "helmet",
+     "parts": [
+      "hel",
+      "met"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "insect",
+     "parts": [
+      "in",
+      "sect"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "puppet",
+     "parts": [
+      "pup",
+      "pet"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "ribbon",
+     "parts": [
+      "rib",
+      "bon"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "button",
+     "parts": [
+      "but",
+      "ton"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "lesson",
+     "parts": [
+      "les",
+      "son"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "magnet",
+     "parts": [
+      "mag",
+      "net"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "traffic",
+     "parts": [
+      "traf",
+      "fic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "plastic",
+     "parts": [
+      "plas",
+      "tic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "tennis",
+     "parts": [
+      "ten",
+      "nis"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "happen",
+     "parts": [
+      "hap",
+      "pen"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "attic",
+     "parts": [
+      "at",
+      "tic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "dolphin",
+     "parts": [
+      "dol",
+      "phin"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "fossil",
+     "parts": [
+      "fos",
+      "sil"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "tunnel",
+     "parts": [
+      "tun",
+      "nel"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "kennel",
+     "parts": [
+      "ken",
+      "nel"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "selfish",
+     "parts": [
+      "sel",
+      "fish"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "mascot",
+     "parts": [
+      "mas",
+      "cot"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "hiccup",
+     "parts": [
+      "hic",
+      "cup"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "pencil",
+     "parts": [
+      "pen",
+      "cil"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "problem",
+     "parts": [
+      "prob",
+      "lem"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "signal",
+     "parts": [
+      "sig",
+      "nal"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "mammal",
+     "parts": [
+      "mam",
+      "mal"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "velvet",
+     "parts": [
+      "vel",
+      "vet"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "public",
+     "parts": [
+      "pub",
+      "lic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "absent",
+     "parts": [
+      "ab",
+      "sent"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "invent",
+     "parts": [
+      "in",
+      "vent"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "cotton",
+     "parts": [
+      "cot",
+      "ton"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "sandal",
+     "parts": [
+      "san",
+      "dal"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "zigzag",
+     "parts": [
+      "zig",
+      "zag"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "laptop",
+     "parts": [
+      "lap",
+      "top"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "catnip",
+     "parts": [
+      "cat",
+      "nip"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "trumpet",
+     "parts": [
+      "trum",
+      "pet"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "upset",
+     "parts": [
+      "up",
+      "set"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "hippo",
+     "parts": [
+      "hip",
+      "po"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "banjo",
+     "parts": [
+      "ban",
+      "jo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "jumbo",
+     "parts": [
+      "jum",
+      "bo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "tempo",
+     "parts": [
+      "tem",
+      "po"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "combo",
+     "parts": [
+      "com",
+      "bo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "limbo",
+     "parts": [
+      "lim",
+      "bo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "disco",
+     "parts": [
+      "dis",
+      "co"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "pesto",
+     "parts": [
+      "pes",
+      "to"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "motto",
+     "parts": [
+      "mot",
+      "to"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    }
+   ],
+   "2": [
+    {
+     "w": "robot",
+     "parts": [
+      "ro",
+      "bot"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "music",
+     "parts": [
+      "mu",
+      "sic"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "pilot",
+     "parts": [
+      "pi",
+      "lot"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "silent",
+     "parts": [
+      "si",
+      "lent"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bacon",
+     "parts": [
+      "ba",
+      "con"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "open",
+     "parts": [
+      "o",
+      "pen"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "even",
+     "parts": [
+      "e",
+      "ven"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "hotel",
+     "parts": [
+      "ho",
+      "tel"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "motel",
+     "parts": [
+      "mo",
+      "tel"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "frozen",
+     "parts": [
+      "fro",
+      "zen"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "broken",
+     "parts": [
+      "bro",
+      "ken"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "token",
+     "parts": [
+      "to",
+      "ken"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "humid",
+     "parts": [
+      "hu",
+      "mid"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "pupil",
+     "parts": [
+      "pu",
+      "pil"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "focus",
+     "parts": [
+      "fo",
+      "cus"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bonus",
+     "parts": [
+      "bo",
+      "nus"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "minus",
+     "parts": [
+      "mi",
+      "nus"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "moment",
+     "parts": [
+      "mo",
+      "ment"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "rodent",
+     "parts": [
+      "ro",
+      "dent"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "raven",
+     "parts": [
+      "ra",
+      "ven"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "total",
+     "parts": [
+      "to",
+      "tal"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "final",
+     "parts": [
+      "fi",
+      "nal"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "oval",
+     "parts": [
+      "o",
+      "val"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "program",
+     "parts": [
+      "pro",
+      "gram"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bison",
+     "parts": [
+      "bi",
+      "son"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "item",
+     "parts": [
+      "i",
+      "tem"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "lilac",
+     "parts": [
+      "li",
+      "lac"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "siren",
+     "parts": [
+      "si",
+      "ren"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "spiral",
+     "parts": [
+      "spi",
+      "ral"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "unit",
+     "parts": [
+      "u",
+      "nit"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "human",
+     "parts": [
+      "hu",
+      "man"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "label",
+     "parts": [
+      "la",
+      "bel"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "solo",
+     "parts": [
+      "so",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "halo",
+     "parts": [
+      "ha",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "logo",
+     "parts": [
+      "lo",
+      "go"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "photo",
+     "parts": [
+      "pho",
+      "to"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "polo",
+     "parts": [
+      "po",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "silo",
+     "parts": [
+      "si",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "emu",
+     "parts": [
+      "e",
+      "mu"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    }
+   ],
+   "3": [
+    {
+     "w": "camel",
+     "parts": [
+      "cam",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "lemon",
+     "parts": [
+      "lem",
+      "on"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "robin",
+     "parts": [
+      "rob",
+      "in"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "cabin",
+     "parts": [
+      "cab",
+      "in"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "limit",
+     "parts": [
+      "lim",
+      "it"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "melon",
+     "parts": [
+      "mel",
+      "on"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "planet",
+     "parts": [
+      "plan",
+      "et"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "visit",
+     "parts": [
+      "vis",
+      "it"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "seven",
+     "parts": [
+      "sev",
+      "en"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "comet",
+     "parts": [
+      "com",
+      "et"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "habit",
+     "parts": [
+      "hab",
+      "it"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "model",
+     "parts": [
+      "mod",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "petal",
+     "parts": [
+      "pet",
+      "al"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "salad",
+     "parts": [
+      "sal",
+      "ad"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "talent",
+     "parts": [
+      "tal",
+      "ent"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "finish",
+     "parts": [
+      "fin",
+      "ish"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "vanish",
+     "parts": [
+      "van",
+      "ish"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "radish",
+     "parts": [
+      "rad",
+      "ish"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "solid",
+     "parts": [
+      "sol",
+      "id"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "timid",
+     "parts": [
+      "tim",
+      "id"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "rapid",
+     "parts": [
+      "rap",
+      "id"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "level",
+     "parts": [
+      "lev",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "novel",
+     "parts": [
+      "nov",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "travel",
+     "parts": [
+      "trav",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "gravel",
+     "parts": [
+      "grav",
+      "el"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "closet",
+     "parts": [
+      "clos",
+      "et"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "magic",
+     "parts": [
+      "mag",
+      "ic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "panic",
+     "parts": [
+      "pan",
+      "ic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "topic",
+     "parts": [
+      "top",
+      "ic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "comic",
+     "parts": [
+      "com",
+      "ic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "edit",
+     "parts": [
+      "ed",
+      "it"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "denim",
+     "parts": [
+      "den",
+      "im"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "echo",
+     "parts": [
+      "ech",
+      "o"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "memo",
+     "parts": [
+      "mem",
+      "o"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "menu",
+     "parts": [
+      "men",
+      "u"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "robot",
+     "parts": [
+      "ro",
+      "bot"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "music",
+     "parts": [
+      "mu",
+      "sic"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "pilot",
+     "parts": [
+      "pi",
+      "lot"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "silent",
+     "parts": [
+      "si",
+      "lent"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bacon",
+     "parts": [
+      "ba",
+      "con"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "open",
+     "parts": [
+      "o",
+      "pen"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "hotel",
+     "parts": [
+      "ho",
+      "tel"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "frozen",
+     "parts": [
+      "fro",
+      "zen"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "broken",
+     "parts": [
+      "bro",
+      "ken"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "humid",
+     "parts": [
+      "hu",
+      "mid"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bonus",
+     "parts": [
+      "bo",
+      "nus"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "moment",
+     "parts": [
+      "mo",
+      "ment"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "rodent",
+     "parts": [
+      "ro",
+      "dent"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "raven",
+     "parts": [
+      "ra",
+      "ven"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "total",
+     "parts": [
+      "to",
+      "tal"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "final",
+     "parts": [
+      "fi",
+      "nal"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "bison",
+     "parts": [
+      "bi",
+      "son"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "item",
+     "parts": [
+      "i",
+      "tem"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "lilac",
+     "parts": [
+      "li",
+      "lac"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "siren",
+     "parts": [
+      "si",
+      "ren"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "unit",
+     "parts": [
+      "u",
+      "nit"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "human",
+     "parts": [
+      "hu",
+      "man"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "label",
+     "parts": [
+      "la",
+      "bel"
+     ],
+     "marks": [
+      "O",
+      "C"
+     ]
+    },
+    {
+     "w": "solo",
+     "parts": [
+      "so",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "halo",
+     "parts": [
+      "ha",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "logo",
+     "parts": [
+      "lo",
+      "go"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "photo",
+     "parts": [
+      "pho",
+      "to"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "polo",
+     "parts": [
+      "po",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "silo",
+     "parts": [
+      "si",
+      "lo"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    },
+    {
+     "w": "emu",
+     "parts": [
+      "e",
+      "mu"
+     ],
+     "marks": [
+      "O",
+      "O"
+     ]
+    }
+   ]
+  },
+  "review": {
+   "2": [
+    {
+     "w": "muffin",
+     "parts": [
+      "muf",
+      "fin"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "basket",
+     "parts": [
+      "bas",
+      "ket"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "picnic",
+     "parts": [
+      "pic",
+      "nic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "helmet",
+     "parts": [
+      "hel",
+      "met"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "puppet",
+     "parts": [
+      "pup",
+      "pet"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "magnet",
+     "parts": [
+      "mag",
+      "net"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "plastic",
+     "parts": [
+      "plas",
+      "tic"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "tennis",
+     "parts": [
+      "ten",
+      "nis"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "dolphin",
+     "parts": [
+      "dol",
+      "phin"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "pencil",
+     "parts": [
+      "pen",
+      "cil"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "cactus",
+     "parts": [
+      "cac",
+      "tus"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "kitten",
+     "parts": [
+      "kit",
+      "ten"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "tunnel",
+     "parts": [
+      "tun",
+      "nel"
+     ],
+     "marks": [
+      "C",
+      "C"
+     ]
+    },
+    {
+     "w": "hippo",
+     "parts": [
+      "hip",
+      "po"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "banjo",
+     "parts": [
+      "ban",
+      "jo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    },
+    {
+     "w": "jumbo",
+     "parts": [
+      "jum",
+      "bo"
+     ],
+     "marks": [
+      "C",
+      "O"
+     ]
+    }
+   ]
+  },
+  "say": {
+   "1": [
+    "napkin"
+   ],
+   "2": [
+    "robot"
+   ],
+   "3": [
+    "robot",
+    "camel"
+   ]
+  },
+  "sentences": {
+   "1": [
+    {
+     "text": "A ___ has long ears and a fluffy tail.",
+     "right": "rabbit",
+     "fits": []
+    },
+    {
+     "text": "The mother cat fed her newborn ___.",
+     "right": "kitten",
+     "fits": []
+    },
+    {
+     "text": "I lost one ___, so one hand got cold.",
+     "right": "mitten",
+     "fits": []
+    },
+    {
+     "text": "I ate a blueberry ___ for breakfast.",
+     "right": "muffin",
+     "fits": []
+    },
+    {
+     "text": "The sky turns orange and pink at ___.",
+     "right": "sunset",
+     "fits": []
+    },
+    {
+     "text": "We carried the apples home in a ___.",
+     "right": "basket",
+     "fits": []
+    },
+    {
+     "text": "We ate lunch on a blanket in the park. It was a ___.",
+     "right": "picnic",
+     "fits": []
+    },
+    {
+     "text": "A ___ has sharp spines and grows in the desert.",
+     "right": "cactus",
+     "fits": []
+    },
+    {
+     "text": "The ___ cleaned my teeth.",
+     "right": "dentist",
+     "fits": []
+    },
+    {
+     "text": "Wear a ___ when you ride your bike.",
+     "right": "helmet",
+     "fits": [
+      "mitten"
+     ]
+    },
+    {
+     "text": "An ant is a kind of ___.",
+     "right": "insect",
+     "fits": []
+    },
+    {
+     "text": "I made a sock ___ that can talk.",
+     "right": "puppet",
+     "fits": []
+    },
+    {
+     "text": "She tied a red ___ in her hair.",
+     "right": "ribbon",
+     "fits": []
+    },
+    {
+     "text": "Push the ___ to start the game.",
+     "right": "button",
+     "fits": []
+    },
+    {
+     "text": "My piano ___ is on Monday.",
+     "right": "lesson",
+     "fits": []
+    },
+    {
+     "text": "The ___ picked up the paper clips.",
+     "right": "magnet",
+     "fits": []
+    },
+    {
+     "text": "Cars and trucks filled the road. There was so much ___!",
+     "right": "traffic",
+     "fits": []
+    },
+    {
+     "text": "This toy boat is made of ___.",
+     "right": "plastic",
+     "fits": []
+    },
+    {
+     "text": "We hit a ball over the net when we play ___.",
+     "right": "tennis",
+     "fits": []
+    },
+    {
+     "text": "What will ___ next in the story?",
+     "right": "happen",
+     "fits": []
+    },
+    {
+     "text": "We keep old boxes up in the ___.",
+     "right": "attic",
+     "fits": []
+    },
+    {
+     "text": "A ___ swam next to our boat and jumped out of the water.",
+     "right": "dolphin",
+     "fits": []
+    },
+    {
+     "text": "We found a ___ of a fish in the rock.",
+     "right": "fossil",
+     "fits": []
+    },
+    {
+     "text": "The train went into a dark ___.",
+     "right": "tunnel",
+     "fits": []
+    },
+    {
+     "text": "The dogs stay in a ___ while we are away.",
+     "right": "kennel",
+     "fits": []
+    },
+    {
+     "text": "Do not be ___. Share your snack with your friends.",
+     "right": "selfish",
+     "fits": []
+    },
+    {
+     "text": "A tiger is the ___ of our school team.",
+     "right": "mascot",
+     "fits": []
+    },
+    {
+     "text": "Hold your breath to stop a ___.",
+     "right": "hiccup",
+     "fits": []
+    },
+    {
+     "text": "Sharpen your ___ before you write.",
+     "right": "pencil",
+     "fits": []
+    },
+    {
+     "text": "Can you solve this math ___?",
+     "right": "problem",
+     "fits": []
+    },
+    {
+     "text": "A whale is a ___, not a fish.",
+     "right": "mammal",
+     "fits": []
+    },
+    {
+     "text": "A green light is a ___ to go.",
+     "right": "signal",
+     "fits": []
+    },
+    {
+     "text": "Ben stayed home sick, so he was ___ from school.",
+     "right": "absent",
+     "fits": []
+    },
+    {
+     "text": "The ___ library lends books to everyone.",
+     "right": "public",
+     "fits": []
+    },
+    {
+     "text": "I want to ___ a new game for my friends.",
+     "right": "invent",
+     "fits": []
+    },
+    {
+     "text": "My shirt is made of soft ___.",
+     "right": "cotton",
+     "fits": [
+      "velvet"
+     ]
+    },
+    {
+     "text": "I lost a ___ at the beach, so I had one bare foot.",
+     "right": "sandal",
+     "fits": []
+    },
+    {
+     "text": "The path went back and forth in a ___ up the hill.",
+     "right": "zigzag",
+     "fits": []
+    },
+    {
+     "text": "Dad typed a letter on his ___.",
+     "right": "laptop",
+     "fits": []
+    },
+    {
+     "text": "My cat loves to roll in ___.",
+     "right": "catnip",
+     "fits": []
+    },
+    {
+     "text": "He played a loud song on his ___.",
+     "right": "trumpet",
+     "fits": [
+      "banjo"
+     ]
+    },
+    {
+     "text": "I felt ___ when my team lost.",
+     "right": "upset",
+     "fits": []
+    },
+    {
+     "text": "A ___ opened its huge mouth in the river.",
+     "right": "hippo",
+     "fits": []
+    },
+    {
+     "text": "Grandpa strummed his ___ and sang.",
+     "right": "banjo",
+     "fits": []
+    },
+    {
+     "text": "A ___ jet is a very big plane.",
+     "right": "jumbo",
+     "fits": []
+    },
+    {
+     "text": "Play the song at a slow ___.",
+     "right": "tempo",
+     "fits": []
+    },
+    {
+     "text": "I ordered a meal ___ with a burger and fries.",
+     "right": "combo",
+     "fits": []
+    },
+    {
+     "text": "Bend back and go under the stick when you play ___.",
+     "right": "limbo",
+     "fits": []
+    },
+    {
+     "text": "The pasta had green ___ sauce on it.",
+     "right": "pesto",
+     "fits": []
+    },
+    {
+     "text": "Our class ___ is \"Be kind.\"",
+     "right": "motto",
+     "fits": []
+    },
+    {
+     "text": "We danced to ___ music under a shiny ball.",
+     "right": "disco",
+     "fits": [
+      "banjo",
+      "trumpet"
+     ]
+    },
+    {
+     "text": "This coat is made of soft, smooth ___.",
+     "right": "velvet",
+     "fits": [
+      "cotton"
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "Our ___ teacher plays the piano.",
+     "right": "music",
+     "fits": []
+    },
+    {
+     "text": "The ___ flew the plane over the ocean.",
+     "right": "pilot",
+     "fits": []
+    },
+    {
+     "text": "Please be ___ in the library.",
+     "right": "silent",
+     "fits": []
+    },
+    {
+     "text": "We had ___ and eggs this morning.",
+     "right": "bacon",
+     "fits": []
+    },
+    {
+     "text": "The store is ___ from nine to five.",
+     "right": "open",
+     "fits": []
+    },
+    {
+     "text": "Two, four, and six are ___ numbers.",
+     "right": "even",
+     "fits": []
+    },
+    {
+     "text": "We stayed at a ___ near the beach.",
+     "right": "hotel",
+     "fits": [
+      "motel"
+     ]
+    },
+    {
+     "text": "The pond was ___, so we could skate on it.",
+     "right": "frozen",
+     "fits": []
+    },
+    {
+     "text": "My toy is ___. Can you fix it?",
+     "right": "broken",
+     "fits": []
+    },
+    {
+     "text": "It was hot and ___, and my shirt felt damp.",
+     "right": "humid",
+     "fits": []
+    },
+    {
+     "text": "The teacher said hello to each new ___.",
+     "right": "pupil",
+     "fits": []
+    },
+    {
+     "text": "We got a ___ point for helping.",
+     "right": "bonus",
+     "fits": []
+    },
+    {
+     "text": "Nine ___ four is five.",
+     "right": "minus",
+     "fits": []
+    },
+    {
+     "text": "Wait a ___. I am almost ready.",
+     "right": "moment",
+     "fits": []
+    },
+    {
+     "text": "A mouse is a small ___.",
+     "right": "rodent",
+     "fits": []
+    },
+    {
+     "text": "A big black ___ sat on the fence.",
+     "right": "raven",
+     "fits": []
+    },
+    {
+     "text": "Add up the numbers to find the ___.",
+     "right": "total",
+     "fits": []
+    },
+    {
+     "text": "This is the ___ game. After it, the season is over.",
+     "right": "final",
+     "fits": []
+    },
+    {
+     "text": "An egg is shaped like an ___.",
+     "right": "oval",
+     "fits": []
+    },
+    {
+     "text": "Our class put on a spring ___ for the whole school.",
+     "right": "program",
+     "fits": []
+    },
+    {
+     "text": "A ___ has a big hump and lives on the plains.",
+     "right": "bison",
+     "fits": []
+    },
+    {
+     "text": "We picked a sweet, purple ___ flower.",
+     "right": "lilac",
+     "fits": []
+    },
+    {
+     "text": "The fire truck turned on its loud ___.",
+     "right": "siren",
+     "fits": []
+    },
+    {
+     "text": "A snail shell has a ___ shape.",
+     "right": "spiral",
+     "fits": []
+    },
+    {
+     "text": "We are learning how plants grow in our science ___.",
+     "right": "unit",
+     "fits": [
+      "program"
+     ]
+    },
+    {
+     "text": "You and I are each a ___ being.",
+     "right": "human",
+     "fits": []
+    },
+    {
+     "text": "Read the ___ on the can to see what is inside.",
+     "right": "label",
+     "fits": [
+      "logo"
+     ]
+    },
+    {
+     "text": "She sang a ___ in the show.",
+     "right": "solo",
+     "fits": []
+    },
+    {
+     "text": "The moon had a ring of light called a ___.",
+     "right": "halo",
+     "fits": []
+    },
+    {
+     "text": "Our team ___ is a red star.",
+     "right": "logo",
+     "fits": []
+    },
+    {
+     "text": "A big bird that cannot fly is an ___.",
+     "right": "emu",
+     "fits": []
+    },
+    {
+     "text": "The farmer keeps corn in a tall ___.",
+     "right": "silo",
+     "fits": []
+    },
+    {
+     "text": "We watched riders play ___ on horses.",
+     "right": "polo",
+     "fits": []
+    },
+    {
+     "text": "Smile for the ___!",
+     "right": "photo",
+     "fits": []
+    },
+    {
+     "text": "Put each ___ in the cart, and then pay.",
+     "right": "item",
+     "fits": []
+    }
+   ],
+   "3": [
+    {
+     "text": "A ___ is a sour yellow fruit.",
+     "right": "lemon",
+     "fits": []
+    },
+    {
+     "text": "A ___ has a red chest and sings in spring.",
+     "right": "robin",
+     "fits": []
+    },
+    {
+     "text": "We slept in a log ___ in the woods.",
+     "right": "cabin",
+     "fits": []
+    },
+    {
+     "text": "The speed ___ on this road is 25.",
+     "right": "limit",
+     "fits": []
+    },
+    {
+     "text": "We ate slices of sweet, juicy ___.",
+     "right": "melon",
+     "fits": []
+    },
+    {
+     "text": "Mars is a red ___.",
+     "right": "planet",
+     "fits": []
+    },
+    {
+     "text": "We will ___ Grandma on Sunday.",
+     "right": "visit",
+     "fits": []
+    },
+    {
+     "text": "Five, six, ___, eight.",
+     "right": "seven",
+     "fits": []
+    },
+    {
+     "text": "A ___ has a long, bright tail in the night sky.",
+     "right": "comet",
+     "fits": []
+    },
+    {
+     "text": "Brushing your teeth every day is a good ___.",
+     "right": "habit",
+     "fits": []
+    },
+    {
+     "text": "We built a ___ plane out of wood.",
+     "right": "model",
+     "fits": []
+    },
+    {
+     "text": "A bee landed on a pink ___ of the rose.",
+     "right": "petal",
+     "fits": []
+    },
+    {
+     "text": "I ate a ___ of lettuce and carrots with my lunch.",
+     "right": "salad",
+     "fits": []
+    },
+    {
+     "text": "Ana has a ___ for drawing.",
+     "right": "talent",
+     "fits": []
+    },
+    {
+     "text": "Please ___ your work before recess.",
+     "right": "finish",
+     "fits": [
+      "edit"
+     ]
+    },
+    {
+     "text": "The magician made the coin ___.",
+     "right": "vanish",
+     "fits": []
+    },
+    {
+     "text": "A ___ is a small red root that you can eat.",
+     "right": "radish",
+     "fits": []
+    },
+    {
+     "text": "Ice is water in a ___ form.",
+     "right": "solid",
+     "fits": [
+      "frozen"
+     ]
+    },
+    {
+     "text": "The shy, ___ kitten hid under the bed.",
+     "right": "timid",
+     "fits": [
+      "silent"
+     ]
+    },
+    {
+     "text": "The river ran fast. It was ___.",
+     "right": "rapid",
+     "fits": []
+    },
+    {
+     "text": "I made it to the next ___ of the game.",
+     "right": "level",
+     "fits": []
+    },
+    {
+     "text": "I read a long ___ about a talking horse.",
+     "right": "novel",
+     "fits": [
+      "comic"
+     ]
+    },
+    {
+     "text": "We like to ___ to new places in the summer.",
+     "right": "travel",
+     "fits": []
+    },
+    {
+     "text": "The dump truck dropped a pile of ___.",
+     "right": "gravel",
+     "fits": []
+    },
+    {
+     "text": "Hang your coat in the ___.",
+     "right": "closet",
+     "fits": [
+      "cabin",
+      "hotel"
+     ]
+    },
+    {
+     "text": "The wizard waved his wand and did ___.",
+     "right": "magic",
+     "fits": []
+    },
+    {
+     "text": "Stay calm and do not ___.",
+     "right": "panic",
+     "fits": []
+    },
+    {
+     "text": "What is the ___ of your report?",
+     "right": "topic",
+     "fits": []
+    },
+    {
+     "text": "I laughed at the ___ strip in the paper.",
+     "right": "comic",
+     "fits": []
+    },
+    {
+     "text": "I shouted in the cave and heard an ___.",
+     "right": "echo",
+     "fits": []
+    },
+    {
+     "text": "Look at the ___ and choose a meal.",
+     "right": "menu",
+     "fits": []
+    },
+    {
+     "text": "Mom left a ___ on the desk that said \"Call me.\"",
+     "right": "memo",
+     "fits": []
+    },
+    {
+     "text": "My jeans are made of blue ___.",
+     "right": "denim",
+     "fits": []
+    },
+    {
+     "text": "The ___ flew the jet.",
+     "right": "pilot",
+     "fits": []
+    },
+    {
+     "text": "We listened to soft ___ at bedtime.",
+     "right": "music",
+     "fits": []
+    },
+    {
+     "text": "The baby was asleep, so we were ___.",
+     "right": "silent",
+     "fits": []
+    },
+    {
+     "text": "My bike is ___. The chain came off.",
+     "right": "broken",
+     "fits": []
+    },
+    {
+     "text": "We had ___ and pancakes this morning.",
+     "right": "bacon",
+     "fits": []
+    },
+    {
+     "text": "The lake was ___ all winter, and we skated on it.",
+     "right": "frozen",
+     "fits": [
+      "solid"
+     ]
+    },
+    {
+     "text": "Please ___ the window. It is hot in here.",
+     "right": "open",
+     "fits": []
+    },
+    {
+     "text": "It was hot and ___ in the jungle.",
+     "right": "humid",
+     "fits": []
+    },
+    {
+     "text": "I got a ___ prize for reading ten books.",
+     "right": "bonus",
+     "fits": []
+    },
+    {
+     "text": "Hold on for a ___.",
+     "right": "moment",
+     "fits": []
+    },
+    {
+     "text": "A rat is a kind of ___.",
+     "right": "rodent",
+     "fits": []
+    },
+    {
+     "text": "The ___ of the ambulance was loud.",
+     "right": "siren",
+     "fits": []
+    },
+    {
+     "text": "She sang a ___ at the concert.",
+     "right": "solo",
+     "fits": []
+    },
+    {
+     "text": "The moon had a ___ of light around it.",
+     "right": "halo",
+     "fits": []
+    },
+    {
+     "text": "Our team ___ is a red star on our shirts.",
+     "right": "logo",
+     "fits": []
+    },
+    {
+     "text": "The farmer keeps corn in a tall ___.",
+     "right": "silo",
+     "fits": []
+    },
+    {
+     "text": "We watched riders play ___ on horses.",
+     "right": "polo",
+     "fits": []
+    },
+    {
+     "text": "I took a ___ of my dog.",
+     "right": "photo",
+     "fits": []
+    },
+    {
+     "text": "The last ___ on my shopping list is milk.",
+     "right": "item",
+     "fits": []
+    },
+    {
+     "text": "We are reading a math ___ about fractions.",
+     "right": "unit",
+     "fits": [
+      "topic",
+      "comic"
+     ]
+    }
+   ]
+  }
+ },
+ "cosort": {
+  "levels": {
+   "1": [
+    "rabbit",
+    "napkin",
+    "kitten",
+    "mitten",
+    "muffin",
+    "sunset",
+    "basket",
+    "picnic",
+    "cactus",
+    "dentist",
+    "helmet",
+    "insect",
+    "puppet",
+    "ribbon",
+    "button",
+    "lesson",
+    "magnet",
+    "traffic",
+    "plastic",
+    "tennis",
+    "happen",
+    "attic",
+    "dolphin",
+    "fossil",
+    "tunnel",
+    "kennel",
+    "selfish",
+    "mascot",
+    "hiccup",
+    "pencil",
+    "problem",
+    "signal",
+    "mammal",
+    "velvet",
+    "public",
+    "absent",
+    "invent",
+    "cotton",
+    "sandal",
+    "zigzag",
+    "laptop",
+    "catnip",
+    "trumpet",
+    "upset",
+    "hippo",
+    "banjo",
+    "jumbo",
+    "tempo",
+    "combo",
+    "limbo",
+    "disco",
+    "pesto",
+    "motto",
+    "robot",
+    "music",
+    "pilot",
+    "silent",
+    "bacon",
+    "open",
+    "even",
+    "hotel",
+    "motel",
+    "frozen",
+    "broken",
+    "token",
+    "humid",
+    "pupil",
+    "focus",
+    "bonus",
+    "minus",
+    "moment",
+    "rodent",
+    "raven",
+    "total",
+    "final",
+    "oval",
+    "bison",
+    "item",
+    "lilac",
+    "siren",
+    "spiral",
+    "unit",
+    "human",
+    "label",
+    "solo",
+    "halo",
+    "logo",
+    "photo",
+    "polo",
+    "silo",
+    "emu"
+   ],
+   "2": [
+    "rabbit",
+    "napkin",
+    "kitten",
+    "mitten",
+    "muffin",
+    "sunset",
+    "basket",
+    "picnic",
+    "cactus",
+    "dentist",
+    "helmet",
+    "insect",
+    "puppet",
+    "ribbon",
+    "button",
+    "lesson",
+    "magnet",
+    "traffic",
+    "plastic",
+    "tennis",
+    "happen",
+    "attic",
+    "dolphin",
+    "fossil",
+    "tunnel",
+    "kennel",
+    "selfish",
+    "mascot",
+    "hiccup",
+    "pencil",
+    "problem",
+    "signal",
+    "mammal",
+    "velvet",
+    "public",
+    "absent",
+    "invent",
+    "cotton",
+    "sandal",
+    "zigzag",
+    "laptop",
+    "catnip",
+    "trumpet",
+    "upset",
+    "hippo",
+    "banjo",
+    "jumbo",
+    "tempo",
+    "combo",
+    "limbo",
+    "disco",
+    "pesto",
+    "motto",
+    "robot",
+    "music",
+    "pilot",
+    "silent",
+    "bacon",
+    "open",
+    "even",
+    "hotel",
+    "motel",
+    "frozen",
+    "broken",
+    "token",
+    "humid",
+    "pupil",
+    "focus",
+    "bonus",
+    "minus",
+    "moment",
+    "rodent",
+    "raven",
+    "total",
+    "final",
+    "oval",
+    "bison",
+    "item",
+    "lilac",
+    "siren",
+    "spiral",
+    "unit",
+    "human",
+    "label",
+    "solo",
+    "halo",
+    "logo",
+    "photo",
+    "polo",
+    "silo",
+    "emu",
+    "camel",
+    "lemon",
+    "robin",
+    "cabin",
+    "limit",
+    "melon",
+    "planet",
+    "visit",
+    "seven",
+    "comet",
+    "habit",
+    "model",
+    "petal",
+    "salad",
+    "talent",
+    "finish",
+    "vanish",
+    "radish",
+    "solid",
+    "timid",
+    "rapid",
+    "level",
+    "novel",
+    "travel",
+    "gravel",
+    "closet",
+    "magic",
+    "panic",
+    "topic",
+    "comic",
+    "edit",
+    "denim",
+    "echo",
+    "memo",
+    "menu"
+   ],
+   "3": [
+    "camel",
+    "lemon",
+    "robin",
+    "cabin",
+    "limit",
+    "melon",
+    "planet",
+    "visit",
+    "seven",
+    "comet",
+    "habit",
+    "model",
+    "petal",
+    "salad",
+    "talent",
+    "finish",
+    "vanish",
+    "radish",
+    "solid",
+    "timid",
+    "rapid",
+    "level",
+    "novel",
+    "travel",
+    "gravel",
+    "closet",
+    "magic",
+    "panic",
+    "topic",
+    "comic",
+    "edit",
+    "denim",
+    "echo",
+    "memo",
+    "menu",
+    "robot",
+    "music",
+    "pilot",
+    "silent",
+    "bacon",
+    "open",
+    "hotel",
+    "frozen",
+    "broken",
+    "humid",
+    "bonus",
+    "moment",
+    "rodent",
+    "raven",
+    "total",
+    "final",
+    "bison",
+    "item",
+    "lilac",
+    "siren",
+    "unit",
+    "human",
+    "label",
+    "solo",
+    "halo",
+    "logo",
+    "photo",
+    "polo",
+    "silo",
+    "emu"
+   ]
+  },
+  "say": {
+   "1": [
+    "rabbit"
+   ],
+   "2": [],
+   "3": [
+    "pilot",
+    "lemon"
+   ]
+  },
+  "neither": [
+   {
+    "w": "oven",
+    "why": "the o says the sound in up"
+   },
+   {
+    "w": "dozen",
+    "why": "the o says the sound in up"
+   },
+   {
+    "w": "shovel",
+    "why": "the o says the sound in up"
+   },
+   {
+    "w": "woman",
+    "why": "the o says the sound in put"
+   },
+   {
+    "w": "many",
+    "why": "the a says the sound in egg"
+   },
+   {
+    "w": "busy",
+    "why": "the u says the sound in it"
+   }
+  ],
+  "yesno": {
+   "1": [
+    {
+     "text": "A kitten is a baby cat.",
+     "a": "yes"
+    },
+    {
+     "text": "A hippo can fly.",
+     "a": "no"
+    },
+    {
+     "text": "A pilot flies a plane.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat a muffin.",
+     "a": "yes"
+    },
+    {
+     "text": "A cactus grows in the ocean.",
+     "a": "no"
+    },
+    {
+     "text": "A dentist looks at your teeth.",
+     "a": "yes"
+    },
+    {
+     "text": "An insect has six legs.",
+     "a": "yes"
+    },
+    {
+     "text": "A magnet can pick up a paper clip.",
+     "a": "yes"
+    },
+    {
+     "text": "A dolphin lives in a tree.",
+     "a": "no"
+    },
+    {
+     "text": "A fossil can be found in a rock.",
+     "a": "yes"
+    },
+    {
+     "text": "You wear a mitten on your foot.",
+     "a": "no"
+    },
+    {
+     "text": "You can write with a pencil.",
+     "a": "yes"
+    },
+    {
+     "text": "A rodent is a kind of bird.",
+     "a": "no"
+    },
+    {
+     "text": "A raven is a black bird.",
+     "a": "yes"
+    },
+    {
+     "text": "Bacon is a kind of fruit.",
+     "a": "no"
+    },
+    {
+     "text": "Nine minus four is five.",
+     "a": "yes"
+    },
+    {
+     "text": "A bison is a tiny bug.",
+     "a": "no"
+    },
+    {
+     "text": "A frozen pond is cold.",
+     "a": "yes"
+    },
+    {
+     "text": "A sunset is in the morning.",
+     "a": "no"
+    },
+    {
+     "text": "You can play music on a trumpet.",
+     "a": "yes"
+    },
+    {
+     "text": "A helmet goes on your head.",
+     "a": "yes"
+    },
+    {
+     "text": "A rabbit has long ears.",
+     "a": "yes"
+    },
+    {
+     "text": "A button can talk.",
+     "a": "no"
+    },
+    {
+     "text": "A siren is quiet.",
+     "a": "no"
+    },
+    {
+     "text": "A hotel has rooms with beds.",
+     "a": "yes"
+    },
+    {
+     "text": "Ten is an even number.",
+     "a": "yes"
+    },
+    {
+     "text": "A train can go in a tunnel.",
+     "a": "yes"
+    },
+    {
+     "text": "A basket can hold apples.",
+     "a": "yes"
+    },
+    {
+     "text": "A logo is a kind of food.",
+     "a": "no"
+    },
+    {
+     "text": "A puppet can be made from a sock.",
+     "a": "yes"
+    },
+    {
+     "text": "A ribbon is made of stone.",
+     "a": "no"
+    },
+    {
+     "text": "You can wipe your hands with a napkin.",
+     "a": "yes"
+    }
+   ],
+   "2": [
+    {
+     "text": "A kitten is a baby cat.",
+     "a": "yes"
+    },
+    {
+     "text": "A hippo can fly.",
+     "a": "no"
+    },
+    {
+     "text": "A pilot flies a plane.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat a muffin.",
+     "a": "yes"
+    },
+    {
+     "text": "A cactus grows in the ocean.",
+     "a": "no"
+    },
+    {
+     "text": "A dentist looks at your teeth.",
+     "a": "yes"
+    },
+    {
+     "text": "An insect has six legs.",
+     "a": "yes"
+    },
+    {
+     "text": "A magnet can pick up a paper clip.",
+     "a": "yes"
+    },
+    {
+     "text": "A dolphin lives in a tree.",
+     "a": "no"
+    },
+    {
+     "text": "A fossil can be found in a rock.",
+     "a": "yes"
+    },
+    {
+     "text": "You wear a mitten on your foot.",
+     "a": "no"
+    },
+    {
+     "text": "You can write with a pencil.",
+     "a": "yes"
+    },
+    {
+     "text": "A rodent is a kind of bird.",
+     "a": "no"
+    },
+    {
+     "text": "A raven is a black bird.",
+     "a": "yes"
+    },
+    {
+     "text": "Bacon is a kind of fruit.",
+     "a": "no"
+    },
+    {
+     "text": "Nine minus four is five.",
+     "a": "yes"
+    },
+    {
+     "text": "A bison is a tiny bug.",
+     "a": "no"
+    },
+    {
+     "text": "A frozen pond is cold.",
+     "a": "yes"
+    },
+    {
+     "text": "A sunset is in the morning.",
+     "a": "no"
+    },
+    {
+     "text": "You can play music on a trumpet.",
+     "a": "yes"
+    },
+    {
+     "text": "A helmet goes on your head.",
+     "a": "yes"
+    },
+    {
+     "text": "A rabbit has long ears.",
+     "a": "yes"
+    },
+    {
+     "text": "A button can talk.",
+     "a": "no"
+    },
+    {
+     "text": "A siren is quiet.",
+     "a": "no"
+    },
+    {
+     "text": "A hotel has rooms with beds.",
+     "a": "yes"
+    },
+    {
+     "text": "Ten is an even number.",
+     "a": "yes"
+    },
+    {
+     "text": "A train can go in a tunnel.",
+     "a": "yes"
+    },
+    {
+     "text": "A basket can hold apples.",
+     "a": "yes"
+    },
+    {
+     "text": "A logo is a kind of food.",
+     "a": "no"
+    },
+    {
+     "text": "A puppet can be made from a sock.",
+     "a": "yes"
+    },
+    {
+     "text": "A ribbon is made of stone.",
+     "a": "no"
+    },
+    {
+     "text": "You can wipe your hands with a napkin.",
+     "a": "yes"
+    }
+   ],
+   "3": [
+    {
+     "text": "A lemon tastes sweet.",
+     "a": "no"
+    },
+    {
+     "text": "A robin is a kind of bird.",
+     "a": "yes"
+    },
+    {
+     "text": "Seven is more than ten.",
+     "a": "no"
+    },
+    {
+     "text": "A comet has a long, bright tail.",
+     "a": "yes"
+    },
+    {
+     "text": "A dragon in a comic can breathe fire.",
+     "a": "yes"
+    },
+    {
+     "text": "A melon is a kind of fruit.",
+     "a": "yes"
+    },
+    {
+     "text": "Mars is a planet.",
+     "a": "yes"
+    },
+    {
+     "text": "A salad is made of rocks.",
+     "a": "no"
+    },
+    {
+     "text": "You can eat a radish.",
+     "a": "yes"
+    },
+    {
+     "text": "You can keep coats in a closet.",
+     "a": "yes"
+    },
+    {
+     "text": "A petal is part of a flower.",
+     "a": "yes"
+    },
+    {
+     "text": "Ice is a solid.",
+     "a": "yes"
+    },
+    {
+     "text": "A menu tells you what you can eat.",
+     "a": "yes"
+    },
+    {
+     "text": "An echo is a sound that comes back.",
+     "a": "yes"
+    },
+    {
+     "text": "A comic book has pictures.",
+     "a": "yes"
+    },
+    {
+     "text": "A pilot flies a plane.",
+     "a": "yes"
+    },
+    {
+     "text": "A robot can eat lunch.",
+     "a": "no"
+    },
+    {
+     "text": "You can cook bacon in a pan.",
+     "a": "yes"
+    },
+    {
+     "text": "A raven can fly.",
+     "a": "yes"
+    },
+    {
+     "text": "A cabin is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "Gravel is made of small rocks.",
+     "a": "yes"
+    },
+    {
+     "text": "A frozen lake is warm.",
+     "a": "no"
+    },
+    {
+     "text": "A human is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "A habit is something you do again and again.",
+     "a": "yes"
+    },
+    {
+     "text": "A planet is a kind of insect.",
+     "a": "no"
+    },
+    {
+     "text": "Magic tricks can fool your eyes.",
+     "a": "yes"
+    }
+   ]
+  }
+ },
+ "ty": {
+  "levels": {
+   "1": [
+    {
+     "w": "bubble",
+     "parts": [
+      "bub",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puddle",
+     "parts": [
+      "pud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "middle",
+     "parts": [
+      "mid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "paddle",
+     "parts": [
+      "pad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "saddle",
+     "parts": [
+      "sad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "apple",
+     "parts": [
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "kettle",
+     "parts": [
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bottle",
+     "parts": [
+      "bot",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "little",
+     "parts": [
+      "lit",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "battle",
+     "parts": [
+      "bat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cattle",
+     "parts": [
+      "cat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "settle",
+     "parts": [
+      "set",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "rattle",
+     "parts": [
+      "rat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puzzle",
+     "parts": [
+      "puz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "drizzle",
+     "parts": [
+      "driz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sizzle",
+     "parts": [
+      "siz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "nibble",
+     "parts": [
+      "nib",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "pebble",
+     "parts": [
+      "peb",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "giggle",
+     "parts": [
+      "gig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wiggle",
+     "parts": [
+      "wig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wobble",
+     "parts": [
+      "wob",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candle",
+     "parts": [
+      "can",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "handle",
+     "parts": [
+      "han",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bundle",
+     "parts": [
+      "bun",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "simple",
+     "parts": [
+      "sim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sample",
+     "parts": [
+      "sam",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "dimple",
+     "parts": [
+      "dim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "tumble",
+     "parts": [
+      "tum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "humble",
+     "parts": [
+      "hum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crumble",
+     "parts": [
+      "crum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "grumble",
+     "parts": [
+      "grum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "stumble",
+     "parts": [
+      "stum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "mumble",
+     "parts": [
+      "mum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "jumble",
+     "parts": [
+      "jum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "thimble",
+     "parts": [
+      "thim",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "gentle",
+     "parts": [
+      "gen",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "ruffle",
+     "parts": [
+      "ruf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuffle",
+     "parts": [
+      "shuf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sniffle",
+     "parts": [
+      "snif",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "fiddle",
+     "parts": [
+      "fid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "riddle",
+     "parts": [
+      "rid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cuddle",
+     "parts": [
+      "cud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "huddle",
+     "parts": [
+      "hud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuttle",
+     "parts": [
+      "shut",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "trample",
+     "parts": [
+      "tram",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "table",
+     "parts": [
+      "ta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cable",
+     "parts": [
+      "ca",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "fable",
+     "parts": [
+      "fa",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "stable",
+     "parts": [
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "maple",
+     "parts": [
+      "ma",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "staple",
+     "parts": [
+      "sta",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "ladle",
+     "parts": [
+      "la",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cradle",
+     "parts": [
+      "cra",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "title",
+     "parts": [
+      "ti",
+      "tle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "bugle",
+     "parts": [
+      "bu",
+      "gle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "noble",
+     "parts": [
+      "no",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "able",
+     "parts": [
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "needle",
+     "parts": [
+      "nee",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "beetle",
+     "parts": [
+      "bee",
+      "tle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "eagle",
+     "parts": [
+      "ea",
+      "gle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "noodle",
+     "parts": [
+      "noo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "poodle",
+     "parts": [
+      "poo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "doodle",
+     "parts": [
+      "doo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    }
+   ],
+   "2": [
+    {
+     "w": "bubble",
+     "parts": [
+      "bub",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puddle",
+     "parts": [
+      "pud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "middle",
+     "parts": [
+      "mid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "paddle",
+     "parts": [
+      "pad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "saddle",
+     "parts": [
+      "sad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "apple",
+     "parts": [
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "kettle",
+     "parts": [
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bottle",
+     "parts": [
+      "bot",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "little",
+     "parts": [
+      "lit",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "battle",
+     "parts": [
+      "bat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cattle",
+     "parts": [
+      "cat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "settle",
+     "parts": [
+      "set",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "rattle",
+     "parts": [
+      "rat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puzzle",
+     "parts": [
+      "puz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "drizzle",
+     "parts": [
+      "driz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sizzle",
+     "parts": [
+      "siz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "nibble",
+     "parts": [
+      "nib",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "pebble",
+     "parts": [
+      "peb",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "giggle",
+     "parts": [
+      "gig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wiggle",
+     "parts": [
+      "wig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wobble",
+     "parts": [
+      "wob",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candle",
+     "parts": [
+      "can",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "handle",
+     "parts": [
+      "han",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bundle",
+     "parts": [
+      "bun",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "simple",
+     "parts": [
+      "sim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sample",
+     "parts": [
+      "sam",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "dimple",
+     "parts": [
+      "dim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "tumble",
+     "parts": [
+      "tum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "humble",
+     "parts": [
+      "hum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crumble",
+     "parts": [
+      "crum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "grumble",
+     "parts": [
+      "grum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "stumble",
+     "parts": [
+      "stum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "mumble",
+     "parts": [
+      "mum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "jumble",
+     "parts": [
+      "jum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "thimble",
+     "parts": [
+      "thim",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "gentle",
+     "parts": [
+      "gen",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "ruffle",
+     "parts": [
+      "ruf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuffle",
+     "parts": [
+      "shuf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sniffle",
+     "parts": [
+      "snif",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "fiddle",
+     "parts": [
+      "fid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "riddle",
+     "parts": [
+      "rid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cuddle",
+     "parts": [
+      "cud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "huddle",
+     "parts": [
+      "hud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuttle",
+     "parts": [
+      "shut",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "trample",
+     "parts": [
+      "tram",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "table",
+     "parts": [
+      "ta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cable",
+     "parts": [
+      "ca",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "fable",
+     "parts": [
+      "fa",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "stable",
+     "parts": [
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "maple",
+     "parts": [
+      "ma",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "staple",
+     "parts": [
+      "sta",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "ladle",
+     "parts": [
+      "la",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cradle",
+     "parts": [
+      "cra",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "title",
+     "parts": [
+      "ti",
+      "tle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "bugle",
+     "parts": [
+      "bu",
+      "gle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "noble",
+     "parts": [
+      "no",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "able",
+     "parts": [
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cupcake",
+     "parts": [
+      "cup",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "pancake",
+     "parts": [
+      "pan",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inside",
+     "parts": [
+      "in",
+      "side"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunshine",
+     "parts": [
+      "sun",
+      "shine"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "bedtime",
+     "parts": [
+      "bed",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "mistake",
+     "parts": [
+      "mis",
+      "take"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "invite",
+     "parts": [
+      "in",
+      "vite"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "trombone",
+     "parts": [
+      "trom",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunrise",
+     "parts": [
+      "sun",
+      "rise"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "athlete",
+     "parts": [
+      "ath",
+      "lete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "costume",
+     "parts": [
+      "cos",
+      "tume"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "concrete",
+     "parts": [
+      "con",
+      "crete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "tadpole",
+     "parts": [
+      "tad",
+      "pole"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "handshake",
+     "parts": [
+      "hand",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "milkshake",
+     "parts": [
+      "milk",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "lunchtime",
+     "parts": [
+      "lunch",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "wishbone",
+     "parts": [
+      "wish",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "backbone",
+     "parts": [
+      "back",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "dislike",
+     "parts": [
+      "dis",
+      "like"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "unsafe",
+     "parts": [
+      "un",
+      "safe"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inflate",
+     "parts": [
+      "in",
+      "flate"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "homesick",
+     "parts": [
+      "home",
+      "sick"
+     ],
+     "marks": [
+      "E",
+      "C"
+     ]
+    },
+    {
+     "w": "rosebud",
+     "parts": [
+      "rose",
+      "bud"
+     ],
+     "marks": [
+      "E",
+      "C"
+     ]
+    },
+    {
+     "w": "pinecone",
+     "parts": [
+      "pine",
+      "cone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "homemade",
+     "parts": [
+      "home",
+      "made"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "lifetime",
+     "parts": [
+      "life",
+      "time"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "sideline",
+     "parts": [
+      "side",
+      "line"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "milestone",
+     "parts": [
+      "mile",
+      "stone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    }
+   ],
+   "3": [
+    {
+     "w": "pineapple",
+     "parts": [
+      "pine",
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "E",
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crabapple",
+     "parts": [
+      "crab",
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "unable",
+     "parts": [
+      "un",
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "unstable",
+     "parts": [
+      "un",
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "rattlesnake",
+     "parts": [
+      "rat",
+      "tle",
+      "snake"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "E"
+     ]
+    },
+    {
+     "w": "lemonade",
+     "parts": [
+      "lem",
+      "on",
+      "ade"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "satellite",
+     "parts": [
+      "sat",
+      "el",
+      "lite"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "bumblebee",
+     "parts": [
+      "bum",
+      "ble",
+      "bee"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "tumbleweed",
+     "parts": [
+      "tum",
+      "ble",
+      "weed"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "candlelight",
+     "parts": [
+      "can",
+      "dle",
+      "light"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "tablespoon",
+     "parts": [
+      "ta",
+      "ble",
+      "spoon"
+     ],
+     "marks": [
+      "O",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "chimpanzee",
+     "parts": [
+      "chim",
+      "pan",
+      "zee"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "seventeen",
+     "parts": [
+      "sev",
+      "en",
+      "teen"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "paddleboat",
+     "parts": [
+      "pad",
+      "dle",
+      "boat"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "teakettle",
+     "parts": [
+      "tea",
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "V",
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candlestick",
+     "parts": [
+      "can",
+      "dle",
+      "stick"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "C"
+     ]
+    },
+    {
+     "w": "tabletop",
+     "parts": [
+      "ta",
+      "ble",
+      "top"
+     ],
+     "marks": [
+      "O",
+      "L",
+      "C"
+     ]
+    },
+    {
+     "w": "tablecloth",
+     "parts": [
+      "ta",
+      "ble",
+      "cloth"
+     ],
+     "marks": [
+      "O",
+      "L",
+      "C"
+     ]
+    },
+    {
+     "w": "saddlebag",
+     "parts": [
+      "sad",
+      "dle",
+      "bag"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "C"
+     ]
+    }
+   ]
+  },
+  "sortPool": {
+   "1": [
+    {
+     "w": "bubble",
+     "parts": [
+      "bub",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puddle",
+     "parts": [
+      "pud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "middle",
+     "parts": [
+      "mid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "paddle",
+     "parts": [
+      "pad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "saddle",
+     "parts": [
+      "sad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "apple",
+     "parts": [
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "kettle",
+     "parts": [
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bottle",
+     "parts": [
+      "bot",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "little",
+     "parts": [
+      "lit",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "battle",
+     "parts": [
+      "bat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cattle",
+     "parts": [
+      "cat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "settle",
+     "parts": [
+      "set",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "rattle",
+     "parts": [
+      "rat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puzzle",
+     "parts": [
+      "puz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "drizzle",
+     "parts": [
+      "driz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sizzle",
+     "parts": [
+      "siz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "nibble",
+     "parts": [
+      "nib",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "pebble",
+     "parts": [
+      "peb",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "giggle",
+     "parts": [
+      "gig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wiggle",
+     "parts": [
+      "wig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wobble",
+     "parts": [
+      "wob",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candle",
+     "parts": [
+      "can",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "handle",
+     "parts": [
+      "han",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bundle",
+     "parts": [
+      "bun",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "simple",
+     "parts": [
+      "sim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sample",
+     "parts": [
+      "sam",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "dimple",
+     "parts": [
+      "dim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "tumble",
+     "parts": [
+      "tum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "humble",
+     "parts": [
+      "hum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crumble",
+     "parts": [
+      "crum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "grumble",
+     "parts": [
+      "grum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "stumble",
+     "parts": [
+      "stum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "mumble",
+     "parts": [
+      "mum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "jumble",
+     "parts": [
+      "jum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "thimble",
+     "parts": [
+      "thim",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "gentle",
+     "parts": [
+      "gen",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "ruffle",
+     "parts": [
+      "ruf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuffle",
+     "parts": [
+      "shuf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sniffle",
+     "parts": [
+      "snif",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "fiddle",
+     "parts": [
+      "fid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "riddle",
+     "parts": [
+      "rid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cuddle",
+     "parts": [
+      "cud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "huddle",
+     "parts": [
+      "hud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuttle",
+     "parts": [
+      "shut",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "trample",
+     "parts": [
+      "tram",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "table",
+     "parts": [
+      "ta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cable",
+     "parts": [
+      "ca",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "fable",
+     "parts": [
+      "fa",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "stable",
+     "parts": [
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "maple",
+     "parts": [
+      "ma",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "staple",
+     "parts": [
+      "sta",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "ladle",
+     "parts": [
+      "la",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cradle",
+     "parts": [
+      "cra",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "title",
+     "parts": [
+      "ti",
+      "tle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "bugle",
+     "parts": [
+      "bu",
+      "gle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "noble",
+     "parts": [
+      "no",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "able",
+     "parts": [
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "needle",
+     "parts": [
+      "nee",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "beetle",
+     "parts": [
+      "bee",
+      "tle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "eagle",
+     "parts": [
+      "ea",
+      "gle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    }
+   ],
+   "2": [
+    {
+     "w": "bubble",
+     "parts": [
+      "bub",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puddle",
+     "parts": [
+      "pud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "middle",
+     "parts": [
+      "mid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "paddle",
+     "parts": [
+      "pad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "saddle",
+     "parts": [
+      "sad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "apple",
+     "parts": [
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "kettle",
+     "parts": [
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bottle",
+     "parts": [
+      "bot",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "little",
+     "parts": [
+      "lit",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "battle",
+     "parts": [
+      "bat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cattle",
+     "parts": [
+      "cat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "settle",
+     "parts": [
+      "set",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "rattle",
+     "parts": [
+      "rat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puzzle",
+     "parts": [
+      "puz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "drizzle",
+     "parts": [
+      "driz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sizzle",
+     "parts": [
+      "siz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "nibble",
+     "parts": [
+      "nib",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "pebble",
+     "parts": [
+      "peb",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "giggle",
+     "parts": [
+      "gig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wiggle",
+     "parts": [
+      "wig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wobble",
+     "parts": [
+      "wob",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candle",
+     "parts": [
+      "can",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "handle",
+     "parts": [
+      "han",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bundle",
+     "parts": [
+      "bun",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "simple",
+     "parts": [
+      "sim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sample",
+     "parts": [
+      "sam",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "dimple",
+     "parts": [
+      "dim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "tumble",
+     "parts": [
+      "tum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "humble",
+     "parts": [
+      "hum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crumble",
+     "parts": [
+      "crum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "grumble",
+     "parts": [
+      "grum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "stumble",
+     "parts": [
+      "stum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "mumble",
+     "parts": [
+      "mum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "jumble",
+     "parts": [
+      "jum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "thimble",
+     "parts": [
+      "thim",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "gentle",
+     "parts": [
+      "gen",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "ruffle",
+     "parts": [
+      "ruf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuffle",
+     "parts": [
+      "shuf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sniffle",
+     "parts": [
+      "snif",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "fiddle",
+     "parts": [
+      "fid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "riddle",
+     "parts": [
+      "rid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cuddle",
+     "parts": [
+      "cud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "huddle",
+     "parts": [
+      "hud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuttle",
+     "parts": [
+      "shut",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "trample",
+     "parts": [
+      "tram",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "table",
+     "parts": [
+      "ta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cable",
+     "parts": [
+      "ca",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "fable",
+     "parts": [
+      "fa",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "stable",
+     "parts": [
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "maple",
+     "parts": [
+      "ma",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "staple",
+     "parts": [
+      "sta",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "ladle",
+     "parts": [
+      "la",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cradle",
+     "parts": [
+      "cra",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "title",
+     "parts": [
+      "ti",
+      "tle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "bugle",
+     "parts": [
+      "bu",
+      "gle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "noble",
+     "parts": [
+      "no",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "able",
+     "parts": [
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cupcake",
+     "parts": [
+      "cup",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "pancake",
+     "parts": [
+      "pan",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inside",
+     "parts": [
+      "in",
+      "side"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunshine",
+     "parts": [
+      "sun",
+      "shine"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "bedtime",
+     "parts": [
+      "bed",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "mistake",
+     "parts": [
+      "mis",
+      "take"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "invite",
+     "parts": [
+      "in",
+      "vite"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "trombone",
+     "parts": [
+      "trom",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunrise",
+     "parts": [
+      "sun",
+      "rise"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "athlete",
+     "parts": [
+      "ath",
+      "lete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "costume",
+     "parts": [
+      "cos",
+      "tume"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "concrete",
+     "parts": [
+      "con",
+      "crete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "tadpole",
+     "parts": [
+      "tad",
+      "pole"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "handshake",
+     "parts": [
+      "hand",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "milkshake",
+     "parts": [
+      "milk",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "lunchtime",
+     "parts": [
+      "lunch",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "wishbone",
+     "parts": [
+      "wish",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "backbone",
+     "parts": [
+      "back",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "dislike",
+     "parts": [
+      "dis",
+      "like"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "unsafe",
+     "parts": [
+      "un",
+      "safe"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inflate",
+     "parts": [
+      "in",
+      "flate"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "pinecone",
+     "parts": [
+      "pine",
+      "cone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "homemade",
+     "parts": [
+      "home",
+      "made"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "lifetime",
+     "parts": [
+      "life",
+      "time"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "sideline",
+     "parts": [
+      "side",
+      "line"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "milestone",
+     "parts": [
+      "mile",
+      "stone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    }
+   ],
+   "3": [
+    {
+     "w": "bubble",
+     "parts": [
+      "bub",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puddle",
+     "parts": [
+      "pud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "middle",
+     "parts": [
+      "mid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "paddle",
+     "parts": [
+      "pad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "saddle",
+     "parts": [
+      "sad",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "apple",
+     "parts": [
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "kettle",
+     "parts": [
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bottle",
+     "parts": [
+      "bot",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "little",
+     "parts": [
+      "lit",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "battle",
+     "parts": [
+      "bat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cattle",
+     "parts": [
+      "cat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "settle",
+     "parts": [
+      "set",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "rattle",
+     "parts": [
+      "rat",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "puzzle",
+     "parts": [
+      "puz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "drizzle",
+     "parts": [
+      "driz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sizzle",
+     "parts": [
+      "siz",
+      "zle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "nibble",
+     "parts": [
+      "nib",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "pebble",
+     "parts": [
+      "peb",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "giggle",
+     "parts": [
+      "gig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wiggle",
+     "parts": [
+      "wig",
+      "gle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "wobble",
+     "parts": [
+      "wob",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "candle",
+     "parts": [
+      "can",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "handle",
+     "parts": [
+      "han",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "bundle",
+     "parts": [
+      "bun",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "simple",
+     "parts": [
+      "sim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sample",
+     "parts": [
+      "sam",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "dimple",
+     "parts": [
+      "dim",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "tumble",
+     "parts": [
+      "tum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "humble",
+     "parts": [
+      "hum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crumble",
+     "parts": [
+      "crum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "grumble",
+     "parts": [
+      "grum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "stumble",
+     "parts": [
+      "stum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "mumble",
+     "parts": [
+      "mum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "jumble",
+     "parts": [
+      "jum",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "thimble",
+     "parts": [
+      "thim",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "gentle",
+     "parts": [
+      "gen",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "ruffle",
+     "parts": [
+      "ruf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuffle",
+     "parts": [
+      "shuf",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "sniffle",
+     "parts": [
+      "snif",
+      "fle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "fiddle",
+     "parts": [
+      "fid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "riddle",
+     "parts": [
+      "rid",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "cuddle",
+     "parts": [
+      "cud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "huddle",
+     "parts": [
+      "hud",
+      "dle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "shuttle",
+     "parts": [
+      "shut",
+      "tle"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "trample",
+     "parts": [
+      "tram",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "table",
+     "parts": [
+      "ta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cable",
+     "parts": [
+      "ca",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "fable",
+     "parts": [
+      "fa",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "stable",
+     "parts": [
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "maple",
+     "parts": [
+      "ma",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "staple",
+     "parts": [
+      "sta",
+      "ple"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "ladle",
+     "parts": [
+      "la",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "cradle",
+     "parts": [
+      "cra",
+      "dle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "title",
+     "parts": [
+      "ti",
+      "tle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "bugle",
+     "parts": [
+      "bu",
+      "gle"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "noble",
+     "parts": [
+      "no",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "able",
+     "parts": [
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "needle",
+     "parts": [
+      "nee",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "beetle",
+     "parts": [
+      "bee",
+      "tle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "eagle",
+     "parts": [
+      "ea",
+      "gle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "noodle",
+     "parts": [
+      "noo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "poodle",
+     "parts": [
+      "poo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "doodle",
+     "parts": [
+      "doo",
+      "dle"
+     ],
+     "marks": [
+      "V",
+      "L"
+     ]
+    },
+    {
+     "w": "cupcake",
+     "parts": [
+      "cup",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "pancake",
+     "parts": [
+      "pan",
+      "cake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inside",
+     "parts": [
+      "in",
+      "side"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunshine",
+     "parts": [
+      "sun",
+      "shine"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "bedtime",
+     "parts": [
+      "bed",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "mistake",
+     "parts": [
+      "mis",
+      "take"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "invite",
+     "parts": [
+      "in",
+      "vite"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "trombone",
+     "parts": [
+      "trom",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "sunrise",
+     "parts": [
+      "sun",
+      "rise"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "athlete",
+     "parts": [
+      "ath",
+      "lete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "costume",
+     "parts": [
+      "cos",
+      "tume"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "concrete",
+     "parts": [
+      "con",
+      "crete"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "tadpole",
+     "parts": [
+      "tad",
+      "pole"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "handshake",
+     "parts": [
+      "hand",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "milkshake",
+     "parts": [
+      "milk",
+      "shake"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "lunchtime",
+     "parts": [
+      "lunch",
+      "time"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "wishbone",
+     "parts": [
+      "wish",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "backbone",
+     "parts": [
+      "back",
+      "bone"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "dislike",
+     "parts": [
+      "dis",
+      "like"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "unsafe",
+     "parts": [
+      "un",
+      "safe"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "inflate",
+     "parts": [
+      "in",
+      "flate"
+     ],
+     "marks": [
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "pinecone",
+     "parts": [
+      "pine",
+      "cone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "homemade",
+     "parts": [
+      "home",
+      "made"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "lifetime",
+     "parts": [
+      "life",
+      "time"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "sideline",
+     "parts": [
+      "side",
+      "line"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "milestone",
+     "parts": [
+      "mile",
+      "stone"
+     ],
+     "marks": [
+      "E",
+      "E"
+     ]
+    },
+    {
+     "w": "rainbow",
+     "parts": [
+      "rain",
+      "bow"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "seaweed",
+     "parts": [
+      "sea",
+      "weed"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "daydream",
+     "parts": [
+      "day",
+      "dream"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "oatmeal",
+     "parts": [
+      "oat",
+      "meal"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "raincoat",
+     "parts": [
+      "rain",
+      "coat"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "railway",
+     "parts": [
+      "rail",
+      "way"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "highway",
+     "parts": [
+      "high",
+      "way"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "sunbeam",
+     "parts": [
+      "sun",
+      "beam"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "subway",
+     "parts": [
+      "sub",
+      "way"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "runway",
+     "parts": [
+      "run",
+      "way"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "weekday",
+     "parts": [
+      "week",
+      "day"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "display",
+     "parts": [
+      "dis",
+      "play"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "pigtail",
+     "parts": [
+      "pig",
+      "tail"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "mushroom",
+     "parts": [
+      "mush",
+      "room"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "bedroom",
+     "parts": [
+      "bed",
+      "room"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "classroom",
+     "parts": [
+      "class",
+      "room"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "shampoo",
+     "parts": [
+      "sham",
+      "poo"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "bamboo",
+     "parts": [
+      "bam",
+      "boo"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "igloo",
+     "parts": [
+      "ig",
+      "loo"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "jigsaw",
+     "parts": [
+      "jig",
+      "saw"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "seesaw",
+     "parts": [
+      "see",
+      "saw"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "elbow",
+     "parts": [
+      "el",
+      "bow"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "window",
+     "parts": [
+      "win",
+      "dow"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "shadow",
+     "parts": [
+      "shad",
+      "ow"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "yellow",
+     "parts": [
+      "yel",
+      "low"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "pillow",
+     "parts": [
+      "pil",
+      "low"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "follow",
+     "parts": [
+      "fol",
+      "low"
+     ],
+     "marks": [
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "pineapple",
+     "parts": [
+      "pine",
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "E",
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "crabapple",
+     "parts": [
+      "crab",
+      "ap",
+      "ple"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "L"
+     ]
+    },
+    {
+     "w": "unable",
+     "parts": [
+      "un",
+      "a",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "unstable",
+     "parts": [
+      "un",
+      "sta",
+      "ble"
+     ],
+     "marks": [
+      "C",
+      "O",
+      "L"
+     ]
+    },
+    {
+     "w": "rattlesnake",
+     "parts": [
+      "rat",
+      "tle",
+      "snake"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "E"
+     ]
+    },
+    {
+     "w": "lemonade",
+     "parts": [
+      "lem",
+      "on",
+      "ade"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "satellite",
+     "parts": [
+      "sat",
+      "el",
+      "lite"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "w": "bumblebee",
+     "parts": [
+      "bum",
+      "ble",
+      "bee"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "tumbleweed",
+     "parts": [
+      "tum",
+      "ble",
+      "weed"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "candlelight",
+     "parts": [
+      "can",
+      "dle",
+      "light"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "tablespoon",
+     "parts": [
+      "ta",
+      "ble",
+      "spoon"
+     ],
+     "marks": [
+      "O",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "chimpanzee",
+     "parts": [
+      "chim",
+      "pan",
+      "zee"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "seventeen",
+     "parts": [
+      "sev",
+      "en",
+      "teen"
+     ],
+     "marks": [
+      "C",
+      "C",
+      "V"
+     ]
+    },
+    {
+     "w": "paddleboat",
+     "parts": [
+      "pad",
+      "dle",
+      "boat"
+     ],
+     "marks": [
+      "C",
+      "L",
+      "V"
+     ]
+    },
+    {
+     "w": "teakettle",
+     "parts": [
+      "tea",
+      "ket",
+      "tle"
+     ],
+     "marks": [
+      "V",
+      "C",
+      "L"
+     ]
+    }
+   ]
+  },
+  "say": {
+   "1": [
+    "table"
+   ],
+   "2": [
+    "cupcake"
+   ],
+   "3": [
+    "bumblebee"
+   ]
+  },
+  "build": {
+   "1": [
+    [
+     "bub",
+     "ble",
+     "bubble"
+    ],
+    [
+     "pud",
+     "dle",
+     "puddle"
+    ],
+    [
+     "mid",
+     "dle",
+     "middle"
+    ],
+    [
+     "pad",
+     "dle",
+     "paddle"
+    ],
+    [
+     "sad",
+     "dle",
+     "saddle"
+    ],
+    [
+     "ap",
+     "ple",
+     "apple"
+    ],
+    [
+     "ket",
+     "tle",
+     "kettle"
+    ],
+    [
+     "bot",
+     "tle",
+     "bottle"
+    ],
+    [
+     "lit",
+     "tle",
+     "little"
+    ],
+    [
+     "bat",
+     "tle",
+     "battle"
+    ],
+    [
+     "cat",
+     "tle",
+     "cattle"
+    ],
+    [
+     "set",
+     "tle",
+     "settle"
+    ],
+    [
+     "rat",
+     "tle",
+     "rattle"
+    ],
+    [
+     "puz",
+     "zle",
+     "puzzle"
+    ],
+    [
+     "driz",
+     "zle",
+     "drizzle"
+    ],
+    [
+     "siz",
+     "zle",
+     "sizzle"
+    ],
+    [
+     "nib",
+     "ble",
+     "nibble"
+    ],
+    [
+     "peb",
+     "ble",
+     "pebble"
+    ],
+    [
+     "gig",
+     "gle",
+     "giggle"
+    ],
+    [
+     "wig",
+     "gle",
+     "wiggle"
+    ],
+    [
+     "wob",
+     "ble",
+     "wobble"
+    ],
+    [
+     "can",
+     "dle",
+     "candle"
+    ],
+    [
+     "han",
+     "dle",
+     "handle"
+    ],
+    [
+     "bun",
+     "dle",
+     "bundle"
+    ],
+    [
+     "sim",
+     "ple",
+     "simple"
+    ],
+    [
+     "sam",
+     "ple",
+     "sample"
+    ],
+    [
+     "dim",
+     "ple",
+     "dimple"
+    ],
+    [
+     "tum",
+     "ble",
+     "tumble"
+    ],
+    [
+     "hum",
+     "ble",
+     "humble"
+    ],
+    [
+     "crum",
+     "ble",
+     "crumble"
+    ],
+    [
+     "grum",
+     "ble",
+     "grumble"
+    ],
+    [
+     "stum",
+     "ble",
+     "stumble"
+    ],
+    [
+     "mum",
+     "ble",
+     "mumble"
+    ],
+    [
+     "jum",
+     "ble",
+     "jumble"
+    ],
+    [
+     "thim",
+     "ble",
+     "thimble"
+    ],
+    [
+     "gen",
+     "tle",
+     "gentle"
+    ],
+    [
+     "ruf",
+     "fle",
+     "ruffle"
+    ],
+    [
+     "shuf",
+     "fle",
+     "shuffle"
+    ],
+    [
+     "snif",
+     "fle",
+     "sniffle"
+    ],
+    [
+     "fid",
+     "dle",
+     "fiddle"
+    ],
+    [
+     "rid",
+     "dle",
+     "riddle"
+    ],
+    [
+     "cud",
+     "dle",
+     "cuddle"
+    ],
+    [
+     "hud",
+     "dle",
+     "huddle"
+    ],
+    [
+     "shut",
+     "tle",
+     "shuttle"
+    ],
+    [
+     "tram",
+     "ple",
+     "trample"
+    ],
+    [
+     "ta",
+     "ble",
+     "table"
+    ],
+    [
+     "ca",
+     "ble",
+     "cable"
+    ],
+    [
+     "fa",
+     "ble",
+     "fable"
+    ],
+    [
+     "sta",
+     "ble",
+     "stable"
+    ],
+    [
+     "ma",
+     "ple",
+     "maple"
+    ],
+    [
+     "sta",
+     "ple",
+     "staple"
+    ],
+    [
+     "la",
+     "dle",
+     "ladle"
+    ],
+    [
+     "cra",
+     "dle",
+     "cradle"
+    ],
+    [
+     "ti",
+     "tle",
+     "title"
+    ],
+    [
+     "bu",
+     "gle",
+     "bugle"
+    ],
+    [
+     "no",
+     "ble",
+     "noble"
+    ],
+    [
+     "a",
+     "ble",
+     "able"
+    ],
+    [
+     "nee",
+     "dle",
+     "needle"
+    ],
+    [
+     "bee",
+     "tle",
+     "beetle"
+    ],
+    [
+     "ea",
+     "gle",
+     "eagle"
+    ],
+    [
+     "noo",
+     "dle",
+     "noodle"
+    ],
+    [
+     "poo",
+     "dle",
+     "poodle"
+    ],
+    [
+     "doo",
+     "dle",
+     "doodle"
+    ]
+   ],
+   "2": [
+    [
+     "bub",
+     "ble",
+     "bubble"
+    ],
+    [
+     "pud",
+     "dle",
+     "puddle"
+    ],
+    [
+     "mid",
+     "dle",
+     "middle"
+    ],
+    [
+     "pad",
+     "dle",
+     "paddle"
+    ],
+    [
+     "sad",
+     "dle",
+     "saddle"
+    ],
+    [
+     "ap",
+     "ple",
+     "apple"
+    ],
+    [
+     "ket",
+     "tle",
+     "kettle"
+    ],
+    [
+     "bot",
+     "tle",
+     "bottle"
+    ],
+    [
+     "lit",
+     "tle",
+     "little"
+    ],
+    [
+     "bat",
+     "tle",
+     "battle"
+    ],
+    [
+     "cat",
+     "tle",
+     "cattle"
+    ],
+    [
+     "set",
+     "tle",
+     "settle"
+    ],
+    [
+     "rat",
+     "tle",
+     "rattle"
+    ],
+    [
+     "puz",
+     "zle",
+     "puzzle"
+    ],
+    [
+     "driz",
+     "zle",
+     "drizzle"
+    ],
+    [
+     "siz",
+     "zle",
+     "sizzle"
+    ],
+    [
+     "nib",
+     "ble",
+     "nibble"
+    ],
+    [
+     "peb",
+     "ble",
+     "pebble"
+    ],
+    [
+     "gig",
+     "gle",
+     "giggle"
+    ],
+    [
+     "wig",
+     "gle",
+     "wiggle"
+    ],
+    [
+     "wob",
+     "ble",
+     "wobble"
+    ],
+    [
+     "can",
+     "dle",
+     "candle"
+    ],
+    [
+     "han",
+     "dle",
+     "handle"
+    ],
+    [
+     "bun",
+     "dle",
+     "bundle"
+    ],
+    [
+     "sim",
+     "ple",
+     "simple"
+    ],
+    [
+     "sam",
+     "ple",
+     "sample"
+    ],
+    [
+     "dim",
+     "ple",
+     "dimple"
+    ],
+    [
+     "tum",
+     "ble",
+     "tumble"
+    ],
+    [
+     "hum",
+     "ble",
+     "humble"
+    ],
+    [
+     "crum",
+     "ble",
+     "crumble"
+    ],
+    [
+     "grum",
+     "ble",
+     "grumble"
+    ],
+    [
+     "stum",
+     "ble",
+     "stumble"
+    ],
+    [
+     "mum",
+     "ble",
+     "mumble"
+    ],
+    [
+     "jum",
+     "ble",
+     "jumble"
+    ],
+    [
+     "thim",
+     "ble",
+     "thimble"
+    ],
+    [
+     "gen",
+     "tle",
+     "gentle"
+    ],
+    [
+     "ruf",
+     "fle",
+     "ruffle"
+    ],
+    [
+     "shuf",
+     "fle",
+     "shuffle"
+    ],
+    [
+     "snif",
+     "fle",
+     "sniffle"
+    ],
+    [
+     "fid",
+     "dle",
+     "fiddle"
+    ],
+    [
+     "rid",
+     "dle",
+     "riddle"
+    ],
+    [
+     "cud",
+     "dle",
+     "cuddle"
+    ],
+    [
+     "hud",
+     "dle",
+     "huddle"
+    ],
+    [
+     "shut",
+     "tle",
+     "shuttle"
+    ],
+    [
+     "tram",
+     "ple",
+     "trample"
+    ],
+    [
+     "ta",
+     "ble",
+     "table"
+    ],
+    [
+     "ca",
+     "ble",
+     "cable"
+    ],
+    [
+     "fa",
+     "ble",
+     "fable"
+    ],
+    [
+     "sta",
+     "ble",
+     "stable"
+    ],
+    [
+     "ma",
+     "ple",
+     "maple"
+    ],
+    [
+     "sta",
+     "ple",
+     "staple"
+    ],
+    [
+     "la",
+     "dle",
+     "ladle"
+    ],
+    [
+     "cra",
+     "dle",
+     "cradle"
+    ],
+    [
+     "ti",
+     "tle",
+     "title"
+    ],
+    [
+     "bu",
+     "gle",
+     "bugle"
+    ],
+    [
+     "no",
+     "ble",
+     "noble"
+    ],
+    [
+     "a",
+     "ble",
+     "able"
+    ],
+    [
+     "cup",
+     "cake",
+     "cupcake"
+    ],
+    [
+     "pan",
+     "cake",
+     "pancake"
+    ],
+    [
+     "in",
+     "side",
+     "inside"
+    ],
+    [
+     "sun",
+     "shine",
+     "sunshine"
+    ],
+    [
+     "bed",
+     "time",
+     "bedtime"
+    ],
+    [
+     "mis",
+     "take",
+     "mistake"
+    ],
+    [
+     "in",
+     "vite",
+     "invite"
+    ],
+    [
+     "trom",
+     "bone",
+     "trombone"
+    ],
+    [
+     "sun",
+     "rise",
+     "sunrise"
+    ],
+    [
+     "ath",
+     "lete",
+     "athlete"
+    ],
+    [
+     "cos",
+     "tume",
+     "costume"
+    ],
+    [
+     "con",
+     "crete",
+     "concrete"
+    ],
+    [
+     "tad",
+     "pole",
+     "tadpole"
+    ],
+    [
+     "hand",
+     "shake",
+     "handshake"
+    ],
+    [
+     "milk",
+     "shake",
+     "milkshake"
+    ],
+    [
+     "lunch",
+     "time",
+     "lunchtime"
+    ],
+    [
+     "wish",
+     "bone",
+     "wishbone"
+    ],
+    [
+     "back",
+     "bone",
+     "backbone"
+    ],
+    [
+     "dis",
+     "like",
+     "dislike"
+    ],
+    [
+     "un",
+     "safe",
+     "unsafe"
+    ],
+    [
+     "in",
+     "flate",
+     "inflate"
+    ],
+    [
+     "home",
+     "sick",
+     "homesick"
+    ],
+    [
+     "rose",
+     "bud",
+     "rosebud"
+    ],
+    [
+     "pine",
+     "cone",
+     "pinecone"
+    ],
+    [
+     "home",
+     "made",
+     "homemade"
+    ],
+    [
+     "life",
+     "time",
+     "lifetime"
+    ],
+    [
+     "side",
+     "line",
+     "sideline"
+    ],
+    [
+     "mile",
+     "stone",
+     "milestone"
+    ]
+   ],
+   "3": [
+    [
+     "pine",
+     "apple",
+     "pineapple"
+    ],
+    [
+     "crab",
+     "apple",
+     "crabapple"
+    ],
+    [
+     "rattle",
+     "snake",
+     "rattlesnake"
+    ],
+    [
+     "bumble",
+     "bee",
+     "bumblebee"
+    ],
+    [
+     "tumble",
+     "weed",
+     "tumbleweed"
+    ],
+    [
+     "candle",
+     "light",
+     "candlelight"
+    ],
+    [
+     "table",
+     "spoon",
+     "tablespoon"
+    ],
+    [
+     "paddle",
+     "boat",
+     "paddleboat"
+    ],
+    [
+     "apple",
+     "sauce",
+     "applesauce"
+    ],
+    [
+     "tea",
+     "kettle",
+     "teakettle"
+    ],
+    [
+     "candle",
+     "stick",
+     "candlestick"
+    ],
+    [
+     "table",
+     "top",
+     "tabletop"
+    ],
+    [
+     "table",
+     "cloth",
+     "tablecloth"
+    ],
+    [
+     "saddle",
+     "bag",
+     "saddlebag"
+    ],
+    [
+     "seven",
+     "teen",
+     "seventeen"
+    ]
+   ]
+  },
+  "joins": {
+   "1": [
+    [
+     "bub",
+     "ble"
+    ],
+    [
+     "pud",
+     "dle"
+    ],
+    [
+     "mid",
+     "dle"
+    ],
+    [
+     "pad",
+     "dle"
+    ],
+    [
+     "sad",
+     "dle"
+    ],
+    [
+     "ap",
+     "ple"
+    ],
+    [
+     "ket",
+     "tle"
+    ],
+    [
+     "bot",
+     "tle"
+    ],
+    [
+     "lit",
+     "tle"
+    ],
+    [
+     "bat",
+     "tle"
+    ],
+    [
+     "cat",
+     "tle"
+    ],
+    [
+     "set",
+     "tle"
+    ],
+    [
+     "rat",
+     "tle"
+    ],
+    [
+     "puz",
+     "zle"
+    ],
+    [
+     "driz",
+     "zle"
+    ],
+    [
+     "siz",
+     "zle"
+    ],
+    [
+     "nib",
+     "ble"
+    ],
+    [
+     "peb",
+     "ble"
+    ],
+    [
+     "gig",
+     "gle"
+    ],
+    [
+     "wig",
+     "gle"
+    ],
+    [
+     "wob",
+     "ble"
+    ],
+    [
+     "can",
+     "dle"
+    ],
+    [
+     "can",
+     "tle"
+    ],
+    [
+     "can",
+     "gle"
+    ],
+    [
+     "han",
+     "dle"
+    ],
+    [
+     "han",
+     "tle"
+    ],
+    [
+     "han",
+     "gle"
+    ],
+    [
+     "bun",
+     "dle"
+    ],
+    [
+     "bun",
+     "gle"
+    ],
+    [
+     "sim",
+     "ple"
+    ],
+    [
+     "sam",
+     "ple"
+    ],
+    [
+     "dim",
+     "ble"
+    ],
+    [
+     "dim",
+     "ple"
+    ],
+    [
+     "tum",
+     "ble"
+    ],
+    [
+     "hum",
+     "ble"
+    ],
+    [
+     "crum",
+     "ble"
+    ],
+    [
+     "crum",
+     "ple"
+    ],
+    [
+     "grum",
+     "ble"
+    ],
+    [
+     "stum",
+     "ble"
+    ],
+    [
+     "mum",
+     "ble"
+    ],
+    [
+     "jum",
+     "ble"
+    ],
+    [
+     "thim",
+     "ble"
+    ],
+    [
+     "gen",
+     "tle"
+    ],
+    [
+     "ruf",
+     "fle"
+    ],
+    [
+     "shuf",
+     "fle"
+    ],
+    [
+     "snif",
+     "fle"
+    ],
+    [
+     "fid",
+     "dle"
+    ],
+    [
+     "rid",
+     "dle"
+    ],
+    [
+     "cud",
+     "dle"
+    ],
+    [
+     "hud",
+     "dle"
+    ],
+    [
+     "shut",
+     "tle"
+    ],
+    [
+     "tram",
+     "ple"
+    ],
+    [
+     "ta",
+     "ble"
+    ],
+    [
+     "ca",
+     "ble"
+    ],
+    [
+     "fa",
+     "ble"
+    ],
+    [
+     "sta",
+     "ble"
+    ],
+    [
+     "sta",
+     "dle"
+    ],
+    [
+     "sta",
+     "ple"
+    ],
+    [
+     "ma",
+     "ple"
+    ],
+    [
+     "la",
+     "dle"
+    ],
+    [
+     "cra",
+     "dle"
+    ],
+    [
+     "ti",
+     "ple"
+    ],
+    [
+     "ti",
+     "tle"
+    ],
+    [
+     "bu",
+     "tle"
+    ],
+    [
+     "bu",
+     "gle"
+    ],
+    [
+     "no",
+     "ble"
+    ],
+    [
+     "a",
+     "ble"
+    ],
+    [
+     "a",
+     "tle"
+    ],
+    [
+     "nee",
+     "dle"
+    ],
+    [
+     "bee",
+     "tle"
+    ],
+    [
+     "ea",
+     "gle"
+    ],
+    [
+     "noo",
+     "dle"
+    ],
+    [
+     "poo",
+     "dle"
+    ],
+    [
+     "doo",
+     "dle"
+    ]
+   ],
+   "2": [
+    [
+     "bub",
+     "ble"
+    ],
+    [
+     "pud",
+     "dle"
+    ],
+    [
+     "mid",
+     "dle"
+    ],
+    [
+     "mid",
+     "line"
+    ],
+    [
+     "pad",
+     "dle"
+    ],
+    [
+     "pad",
+     "like"
+    ],
+    [
+     "pad",
+     "stone"
+    ],
+    [
+     "sad",
+     "dle"
+    ],
+    [
+     "ap",
+     "ple"
+    ],
+    [
+     "ket",
+     "tle"
+    ],
+    [
+     "bot",
+     "tle"
+    ],
+    [
+     "lit",
+     "tle"
+    ],
+    [
+     "bat",
+     "tle"
+    ],
+    [
+     "bat",
+     "like"
+    ],
+    [
+     "cat",
+     "tle"
+    ],
+    [
+     "cat",
+     "like"
+    ],
+    [
+     "cat",
+     "line"
+    ],
+    [
+     "cat",
+     "stone"
+    ],
+    [
+     "set",
+     "tle"
+    ],
+    [
+     "set",
+     "line"
+    ],
+    [
+     "rat",
+     "tle"
+    ],
+    [
+     "rat",
+     "like"
+    ],
+    [
+     "rat",
+     "line"
+    ],
+    [
+     "puz",
+     "zle"
+    ],
+    [
+     "driz",
+     "zle"
+    ],
+    [
+     "siz",
+     "zle"
+    ],
+    [
+     "nib",
+     "ble"
+    ],
+    [
+     "nib",
+     "like"
+    ],
+    [
+     "peb",
+     "ble"
+    ],
+    [
+     "gig",
+     "gle"
+    ],
+    [
+     "wig",
+     "gle"
+    ],
+    [
+     "wig",
+     "like"
+    ],
+    [
+     "wob",
+     "ble"
+    ],
+    [
+     "can",
+     "dle"
+    ],
+    [
+     "can",
+     "tle"
+    ],
+    [
+     "can",
+     "gle"
+    ],
+    [
+     "han",
+     "dle"
+    ],
+    [
+     "han",
+     "tle"
+    ],
+    [
+     "han",
+     "gle"
+    ],
+    [
+     "bun",
+     "dle"
+    ],
+    [
+     "bun",
+     "gle"
+    ],
+    [
+     "sim",
+     "ple"
+    ],
+    [
+     "sam",
+     "ple"
+    ],
+    [
+     "dim",
+     "ble"
+    ],
+    [
+     "dim",
+     "ple"
+    ],
+    [
+     "tum",
+     "ble"
+    ],
+    [
+     "hum",
+     "ble"
+    ],
+    [
+     "crum",
+     "ble"
+    ],
+    [
+     "crum",
+     "ple"
+    ],
+    [
+     "grum",
+     "ble"
+    ],
+    [
+     "stum",
+     "ble"
+    ],
+    [
+     "mum",
+     "ble"
+    ],
+    [
+     "jum",
+     "ble"
+    ],
+    [
+     "thim",
+     "ble"
+    ],
+    [
+     "gen",
+     "tle"
+    ],
+    [
+     "ruf",
+     "fle"
+    ],
+    [
+     "shuf",
+     "fle"
+    ],
+    [
+     "snif",
+     "fle"
+    ],
+    [
+     "fid",
+     "dle"
+    ],
+    [
+     "rid",
+     "dle"
+    ],
+    [
+     "cud",
+     "dle"
+    ],
+    [
+     "hud",
+     "dle"
+    ],
+    [
+     "shut",
+     "tle"
+    ],
+    [
+     "tram",
+     "ple"
+    ],
+    [
+     "tram",
+     "line"
+    ],
+    [
+     "ta",
+     "ble"
+    ],
+    [
+     "ca",
+     "ble"
+    ],
+    [
+     "ca",
+     "line"
+    ],
+    [
+     "fa",
+     "ble"
+    ],
+    [
+     "sta",
+     "ble"
+    ],
+    [
+     "sta",
+     "dle"
+    ],
+    [
+     "sta",
+     "ple"
+    ],
+    [
+     "ma",
+     "ple"
+    ],
+    [
+     "ma",
+     "line"
+    ],
+    [
+     "la",
+     "dle"
+    ],
+    [
+     "cra",
+     "dle"
+    ],
+    [
+     "ti",
+     "ple"
+    ],
+    [
+     "ti",
+     "tle"
+    ],
+    [
+     "bu",
+     "tle"
+    ],
+    [
+     "bu",
+     "gle"
+    ],
+    [
+     "no",
+     "ble"
+    ],
+    [
+     "no",
+     "cake"
+    ],
+    [
+     "no",
+     "made"
+    ],
+    [
+     "a",
+     "ble"
+    ],
+    [
+     "a",
+     "tle"
+    ],
+    [
+     "a",
+     "side"
+    ],
+    [
+     "a",
+     "shine"
+    ],
+    [
+     "a",
+     "take"
+    ],
+    [
+     "a",
+     "rise"
+    ],
+    [
+     "a",
+     "shake"
+    ],
+    [
+     "a",
+     "like"
+    ],
+    [
+     "a",
+     "cone"
+    ],
+    [
+     "a",
+     "line"
+    ],
+    [
+     "a",
+     "stone"
+    ],
+    [
+     "cup",
+     "cake"
+    ],
+    [
+     "cup",
+     "like"
+    ],
+    [
+     "cup",
+     "stone"
+    ],
+    [
+     "pan",
+     "dle"
+    ],
+    [
+     "pan",
+     "tle"
+    ],
+    [
+     "pan",
+     "cake"
+    ],
+    [
+     "pan",
+     "side"
+    ],
+    [
+     "in",
+     "gle"
+    ],
+    [
+     "in",
+     "side"
+    ],
+    [
+     "in",
+     "time"
+    ],
+    [
+     "in",
+     "take"
+    ],
+    [
+     "in",
+     "vite"
+    ],
+    [
+     "in",
+     "like"
+    ],
+    [
+     "in",
+     "flate"
+    ],
+    [
+     "in",
+     "line"
+    ],
+    [
+     "sun",
+     "shine"
+    ],
+    [
+     "sun",
+     "rise"
+    ],
+    [
+     "sun",
+     "like"
+    ],
+    [
+     "sun",
+     "stone"
+    ],
+    [
+     "bed",
+     "side"
+    ],
+    [
+     "bed",
+     "time"
+    ],
+    [
+     "bed",
+     "like"
+    ],
+    [
+     "bed",
+     "sick"
+    ],
+    [
+     "mis",
+     "tle"
+    ],
+    [
+     "mis",
+     "time"
+    ],
+    [
+     "mis",
+     "take"
+    ],
+    [
+     "mis",
+     "like"
+    ],
+    [
+     "mis",
+     "made"
+    ],
+    [
+     "trom",
+     "ple"
+    ],
+    [
+     "trom",
+     "bone"
+    ],
+    [
+     "ath",
+     "lete"
+    ],
+    [
+     "cos",
+     "tume"
+    ],
+    [
+     "con",
+     "vite"
+    ],
+    [
+     "con",
+     "crete"
+    ],
+    [
+     "con",
+     "flate"
+    ],
+    [
+     "tad",
+     "pole"
+    ],
+    [
+     "hand",
+     "shake"
+    ],
+    [
+     "hand",
+     "like"
+    ],
+    [
+     "hand",
+     "made"
+    ],
+    [
+     "hand",
+     "line"
+    ],
+    [
+     "hand",
+     "stone"
+    ],
+    [
+     "milk",
+     "shake"
+    ],
+    [
+     "milk",
+     "like"
+    ],
+    [
+     "milk",
+     "sick"
+    ],
+    [
+     "milk",
+     "stone"
+    ],
+    [
+     "lunch",
+     "time"
+    ],
+    [
+     "wish",
+     "bone"
+    ],
+    [
+     "back",
+     "side"
+    ],
+    [
+     "back",
+     "bone"
+    ],
+    [
+     "back",
+     "stone"
+    ],
+    [
+     "dis",
+     "ple"
+    ],
+    [
+     "dis",
+     "crete"
+    ],
+    [
+     "dis",
+     "like"
+    ],
+    [
+     "dis",
+     "bud"
+    ],
+    [
+     "un",
+     "cake"
+    ],
+    [
+     "un",
+     "time"
+    ],
+    [
+     "un",
+     "bone"
+    ],
+    [
+     "un",
+     "like"
+    ],
+    [
+     "un",
+     "safe"
+    ],
+    [
+     "un",
+     "sick"
+    ],
+    [
+     "un",
+     "bud"
+    ],
+    [
+     "un",
+     "made"
+    ],
+    [
+     "un",
+     "line"
+    ],
+    [
+     "un",
+     "stone"
+    ],
+    [
+     "home",
+     "like"
+    ],
+    [
+     "home",
+     "sick"
+    ],
+    [
+     "home",
+     "made"
+    ],
+    [
+     "rose",
+     "time"
+    ],
+    [
+     "rose",
+     "like"
+    ],
+    [
+     "rose",
+     "bud"
+    ],
+    [
+     "pine",
+     "like"
+    ],
+    [
+     "pine",
+     "cone"
+    ],
+    [
+     "life",
+     "time"
+    ],
+    [
+     "life",
+     "like"
+    ],
+    [
+     "life",
+     "line"
+    ],
+    [
+     "side",
+     "bone"
+    ],
+    [
+     "side",
+     "shake"
+    ],
+    [
+     "side",
+     "line"
+    ],
+    [
+     "mile",
+     "stone"
+    ]
+   ],
+   "3": [
+    [
+     "pine",
+     "apple"
+    ],
+    [
+     "pine",
+     "weed"
+    ],
+    [
+     "crab",
+     "apple"
+    ],
+    [
+     "crab",
+     "weed"
+    ],
+    [
+     "crab",
+     "stick"
+    ],
+    [
+     "rattle",
+     "snake"
+    ],
+    [
+     "rattle",
+     "weed"
+    ],
+    [
+     "rattle",
+     "bag"
+    ],
+    [
+     "bumble",
+     "bee"
+    ],
+    [
+     "tumble",
+     "weed"
+    ],
+    [
+     "candle",
+     "light"
+    ],
+    [
+     "candle",
+     "stick"
+    ],
+    [
+     "table",
+     "spoon"
+    ],
+    [
+     "table",
+     "top"
+    ],
+    [
+     "table",
+     "cloth"
+    ],
+    [
+     "paddle",
+     "boat"
+    ],
+    [
+     "apple",
+     "bee"
+    ],
+    [
+     "apple",
+     "sauce"
+    ],
+    [
+     "tea",
+     "light"
+    ],
+    [
+     "tea",
+     "spoon"
+    ],
+    [
+     "tea",
+     "kettle"
+    ],
+    [
+     "tea",
+     "bag"
+    ],
+    [
+     "saddle",
+     "cloth"
+    ],
+    [
+     "saddle",
+     "bag"
+    ],
+    [
+     "seven",
+     "teen"
+    ]
+   ]
+  },
+  "yesno": {
+   "1": [
+    {
+     "text": "A candle can make light.",
+     "a": "yes"
+    },
+    {
+     "text": "You can drink from a bottle.",
+     "a": "yes"
+    },
+    {
+     "text": "A puddle is made of sand.",
+     "a": "no"
+    },
+    {
+     "text": "A pebble is a small stone.",
+     "a": "yes"
+    },
+    {
+     "text": "An apple grows on a tree.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat lunch at a table.",
+     "a": "yes"
+    },
+    {
+     "text": "You can pop a bubble.",
+     "a": "yes"
+    },
+    {
+     "text": "You can heat water in a kettle.",
+     "a": "yes"
+    },
+    {
+     "text": "A puzzle is made of pieces.",
+     "a": "yes"
+    },
+    {
+     "text": "A beetle is a kind of bug.",
+     "a": "yes"
+    },
+    {
+     "text": "A needle is soft and fluffy.",
+     "a": "no"
+    },
+    {
+     "text": "An eagle can swim like a fish.",
+     "a": "no"
+    },
+    {
+     "text": "You can eat a noodle.",
+     "a": "yes"
+    },
+    {
+     "text": "A poodle is a kind of dog.",
+     "a": "yes"
+    },
+    {
+     "text": "A cradle is a bed for a baby.",
+     "a": "yes"
+    },
+    {
+     "text": "A maple is a kind of tree.",
+     "a": "yes"
+    },
+    {
+     "text": "A saddle goes on a horse.",
+     "a": "yes"
+    },
+    {
+     "text": "A paddle helps you row a boat.",
+     "a": "yes"
+    },
+    {
+     "text": "A rattle is a toy for a baby.",
+     "a": "yes"
+    },
+    {
+     "text": "A thimble goes on your nose.",
+     "a": "no"
+    },
+    {
+     "text": "A riddle is a kind of fruit.",
+     "a": "no"
+    },
+    {
+     "text": "A fable is a short story.",
+     "a": "yes"
+    },
+    {
+     "text": "A title is the name of a book.",
+     "a": "yes"
+    },
+    {
+     "text": "A ladle is a big spoon.",
+     "a": "yes"
+    },
+    {
+     "text": "A kettle is a kind of hat.",
+     "a": "no"
+    },
+    {
+     "text": "A bottle is made of paper.",
+     "a": "no"
+    },
+    {
+     "text": "A candle is cold and wet.",
+     "a": "no"
+    }
+   ],
+   "2": [
+    {
+     "text": "A cupcake is a kind of dog.",
+     "a": "no"
+    },
+    {
+     "text": "You can eat a pancake.",
+     "a": "yes"
+    },
+    {
+     "text": "Bedtime is in the morning.",
+     "a": "no"
+    },
+    {
+     "text": "A tadpole can grow into a frog.",
+     "a": "yes"
+    },
+    {
+     "text": "A trombone is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "Sunshine can make you warm.",
+     "a": "yes"
+    },
+    {
+     "text": "A sunrise is at night.",
+     "a": "no"
+    },
+    {
+     "text": "A milkshake is cold.",
+     "a": "yes"
+    },
+    {
+     "text": "You can make a mistake.",
+     "a": "yes"
+    },
+    {
+     "text": "A pinecone grows on a pine tree.",
+     "a": "yes"
+    },
+    {
+     "text": "An athlete plays sports.",
+     "a": "yes"
+    },
+    {
+     "text": "You can wear a costume in a play.",
+     "a": "yes"
+    },
+    {
+     "text": "Homemade bread is made at home.",
+     "a": "yes"
+    },
+    {
+     "text": "A lifetime is just a day.",
+     "a": "no"
+    },
+    {
+     "text": "A wishbone is a kind of hat.",
+     "a": "no"
+    },
+    {
+     "text": "A candle can melt.",
+     "a": "yes"
+    },
+    {
+     "text": "A handshake uses your feet.",
+     "a": "no"
+    },
+    {
+     "text": "A backbone is in your back.",
+     "a": "yes"
+    },
+    {
+     "text": "Dry concrete is very hard.",
+     "a": "yes"
+    },
+    {
+     "text": "A bottle can hold milk.",
+     "a": "yes"
+    },
+    {
+     "text": "A pebble is a big tree.",
+     "a": "no"
+    },
+    {
+     "text": "You can invite a friend to play.",
+     "a": "yes"
+    },
+    {
+     "text": "Lunchtime is a time to eat.",
+     "a": "yes"
+    },
+    {
+     "text": "A puddle is dry.",
+     "a": "no"
+    }
+   ],
+   "3": [
+    {
+     "text": "A bumblebee can buzz.",
+     "a": "yes"
+    },
+    {
+     "text": "A rattlesnake has a rattle on its tail.",
+     "a": "yes"
+    },
+    {
+     "text": "A pineapple grows under the sea.",
+     "a": "no"
+    },
+    {
+     "text": "Lemonade is made with lemons.",
+     "a": "yes"
+    },
+    {
+     "text": "A satellite is up in space.",
+     "a": "yes"
+    },
+    {
+     "text": "A chimpanzee can climb trees.",
+     "a": "yes"
+    },
+    {
+     "text": "Seventeen is more than ten.",
+     "a": "yes"
+    },
+    {
+     "text": "A tumbleweed rolls in the wind.",
+     "a": "yes"
+    },
+    {
+     "text": "You can eat soup with a tablespoon.",
+     "a": "yes"
+    },
+    {
+     "text": "A candlestick holds a candle.",
+     "a": "yes"
+    },
+    {
+     "text": "A teakettle gets hot on the stove.",
+     "a": "yes"
+    },
+    {
+     "text": "Applesauce is made from apples.",
+     "a": "yes"
+    },
+    {
+     "text": "You can ride in a paddleboat on a lake.",
+     "a": "yes"
+    },
+    {
+     "text": "A tablecloth goes on a table.",
+     "a": "yes"
+    },
+    {
+     "text": "A saddlebag can hang on a horse.",
+     "a": "yes"
+    },
+    {
+     "text": "A crabapple is a kind of crab.",
+     "a": "no"
+    },
+    {
+     "text": "A bumblebee is a kind of fish.",
+     "a": "no"
+    },
+    {
+     "text": "A chimpanzee can fly.",
+     "a": "no"
+    },
+    {
+     "text": "Candlelight is very loud.",
+     "a": "no"
+    },
+    {
+     "text": "A rattlesnake has legs.",
+     "a": "no"
+    }
+   ]
+  }
+ },
+ "suffix": {
+  "words": [
+   {
+    "w": "careful",
+    "base": "care",
+    "suf": "ful",
+    "shown": "care",
+    "change": null,
+    "meaning": "full of care",
+    "sentence": "Be ___ with the glass bowl."
+   },
+   {
+    "w": "careless",
+    "base": "care",
+    "suf": "less",
+    "shown": "care",
+    "change": null,
+    "meaning": "without care",
+    "sentence": "I was ___ and spilled my milk."
+   },
+   {
+    "w": "helpful",
+    "base": "help",
+    "suf": "ful",
+    "shown": "help",
+    "change": null,
+    "meaning": "full of help",
+    "sentence": "Thank you for being so ___."
+   },
+   {
+    "w": "helpless",
+    "base": "help",
+    "suf": "less",
+    "shown": "help",
+    "change": null,
+    "meaning": "without help",
+    "sentence": "The baby bird was ___ without its mother."
+   },
+   {
+    "w": "hopeful",
+    "base": "hope",
+    "suf": "ful",
+    "shown": "hope",
+    "change": null,
+    "meaning": "full of hope",
+    "sentence": "We are ___ that it will be sunny tomorrow."
+   },
+   {
+    "w": "hopeless",
+    "base": "hope",
+    "suf": "less",
+    "shown": "hope",
+    "change": null,
+    "meaning": "without hope",
+    "sentence": "Without a map, finding the cabin felt ___."
+   },
+   {
+    "w": "useful",
+    "base": "use",
+    "suf": "ful",
+    "shown": "use",
+    "change": null,
+    "meaning": "full of use",
+    "sentence": "A ruler is ___ for drawing straight lines."
+   },
+   {
+    "w": "useless",
+    "base": "use",
+    "suf": "less",
+    "shown": "use",
+    "change": null,
+    "meaning": "without use",
+    "sentence": "A pen with no ink is ___."
+   },
+   {
+    "w": "painful",
+    "base": "pain",
+    "suf": "ful",
+    "shown": "pain",
+    "change": null,
+    "meaning": "full of pain",
+    "sentence": "A bee sting can be ___."
+   },
+   {
+    "w": "painless",
+    "base": "pain",
+    "suf": "less",
+    "shown": "pain",
+    "change": null,
+    "meaning": "without pain",
+    "sentence": "The shot was quick and ___."
+   },
+   {
+    "w": "harmful",
+    "base": "harm",
+    "suf": "ful",
+    "shown": "harm",
+    "change": null,
+    "meaning": "full of harm",
+    "sentence": "Too much sun can be ___ to your skin."
+   },
+   {
+    "w": "harmless",
+    "base": "harm",
+    "suf": "less",
+    "shown": "harm",
+    "change": null,
+    "meaning": "without harm",
+    "sentence": "This little green snake is ___."
+   },
+   {
+    "w": "fearful",
+    "base": "fear",
+    "suf": "ful",
+    "shown": "fear",
+    "change": null,
+    "meaning": "full of fear",
+    "sentence": "The ___ puppy hid under the bed."
+   },
+   {
+    "w": "fearless",
+    "base": "fear",
+    "suf": "less",
+    "shown": "fear",
+    "change": null,
+    "meaning": "without fear",
+    "sentence": "The ___ climber went up the tall rock."
+   },
+   {
+    "w": "restful",
+    "base": "rest",
+    "suf": "ful",
+    "shown": "rest",
+    "change": null,
+    "meaning": "full of rest",
+    "sentence": "We had a quiet, ___ weekend."
+   },
+   {
+    "w": "restless",
+    "base": "rest",
+    "suf": "less",
+    "shown": "rest",
+    "change": null,
+    "meaning": "without rest",
+    "sentence": "I was ___ and could not sit still."
+   },
+   {
+    "w": "colorful",
+    "base": "color",
+    "suf": "ful",
+    "shown": "color",
+    "change": null,
+    "meaning": "full of color",
+    "sentence": "We saw ___ flowers in the garden."
+   },
+   {
+    "w": "colorless",
+    "base": "color",
+    "suf": "less",
+    "shown": "color",
+    "change": null,
+    "meaning": "without color",
+    "sentence": "Clean water is clear and ___."
+   },
+   {
+    "w": "thankful",
+    "base": "thank",
+    "suf": "ful",
+    "shown": "thank",
+    "change": null,
+    "meaning": "full of thanks",
+    "sentence": "I am ___ for my family."
+   },
+   {
+    "w": "playful",
+    "base": "play",
+    "suf": "ful",
+    "shown": "play",
+    "change": null,
+    "meaning": "full of play",
+    "sentence": "Our ___ puppy chases its tail."
+   },
+   {
+    "w": "cheerful",
+    "base": "cheer",
+    "suf": "ful",
+    "shown": "cheer",
+    "change": null,
+    "meaning": "full of cheer",
+    "sentence": "Her ___ smile made me smile too."
+   },
+   {
+    "w": "joyful",
+    "base": "joy",
+    "suf": "ful",
+    "shown": "joy",
+    "change": null,
+    "meaning": "full of joy",
+    "sentence": "The ___ crowd cheered for the team."
+   },
+   {
+    "w": "peaceful",
+    "base": "peace",
+    "suf": "ful",
+    "shown": "peace",
+    "change": null,
+    "meaning": "full of peace",
+    "sentence": "The lake is calm and ___."
+   },
+   {
+    "w": "truthful",
+    "base": "truth",
+    "suf": "ful",
+    "shown": "truth",
+    "change": null,
+    "meaning": "full of truth",
+    "sentence": "Always be ___ and tell what really happened."
+   },
+   {
+    "w": "wonderful",
+    "base": "wonder",
+    "suf": "ful",
+    "shown": "wonder",
+    "change": null,
+    "meaning": "very good",
+    "sentence": "We had a ___ day at the beach.",
+    "odd": true
+   },
+   {
+    "w": "powerful",
+    "base": "power",
+    "suf": "ful",
+    "shown": "power",
+    "change": null,
+    "meaning": "full of power",
+    "sentence": "The ___ wind knocked over a tree."
+   },
+   {
+    "w": "powerless",
+    "base": "power",
+    "suf": "less",
+    "shown": "power",
+    "change": null,
+    "meaning": "without power",
+    "sentence": "The tiny boat was ___ against the big waves."
+   },
+   {
+    "w": "skillful",
+    "base": "skill",
+    "suf": "ful",
+    "shown": "skill",
+    "change": null,
+    "meaning": "full of skill",
+    "sentence": "The ___ painter made a fine picture."
+   },
+   {
+    "w": "spotless",
+    "base": "spot",
+    "suf": "less",
+    "shown": "spot",
+    "change": null,
+    "meaning": "without a spot",
+    "sentence": "Mom cleaned the kitchen until it was ___."
+   },
+   {
+    "w": "endless",
+    "base": "end",
+    "suf": "less",
+    "shown": "end",
+    "change": null,
+    "meaning": "without an end",
+    "sentence": "The line for the ride seemed ___."
+   },
+   {
+    "w": "sleepless",
+    "base": "sleep",
+    "suf": "less",
+    "shown": "sleep",
+    "change": null,
+    "meaning": "without sleep",
+    "sentence": "The storm kept us up. It was a ___ night."
+   },
+   {
+    "w": "speechless",
+    "base": "speech",
+    "suf": "less",
+    "shown": "speech",
+    "change": null,
+    "meaning": "without speech",
+    "sentence": "The surprise left me ___."
+   },
+   {
+    "w": "cordless",
+    "base": "cord",
+    "suf": "less",
+    "shown": "cord",
+    "change": null,
+    "meaning": "without a cord",
+    "sentence": "Our ___ vacuum runs on a battery."
+   },
+   {
+    "w": "seedless",
+    "base": "seed",
+    "suf": "less",
+    "shown": "seed",
+    "change": null,
+    "meaning": "without seeds",
+    "sentence": "I like ___ grapes."
+   },
+   {
+    "w": "toothless",
+    "base": "tooth",
+    "suf": "less",
+    "shown": "tooth",
+    "change": null,
+    "meaning": "without teeth",
+    "sentence": "The baby gave a big ___ grin."
+   },
+   {
+    "w": "cloudless",
+    "base": "cloud",
+    "suf": "less",
+    "shown": "cloud",
+    "change": null,
+    "meaning": "without clouds",
+    "sentence": "The sky was blue and ___."
+   },
+   {
+    "w": "breathless",
+    "base": "breath",
+    "suf": "less",
+    "shown": "breath",
+    "change": null,
+    "meaning": "without breath",
+    "sentence": "After the race, I was ___."
+   },
+   {
+    "w": "sleeveless",
+    "base": "sleeve",
+    "suf": "less",
+    "shown": "sleeve",
+    "change": null,
+    "meaning": "without sleeves",
+    "sentence": "I wore a ___ shirt on the hot day."
+   },
+   {
+    "w": "kindness",
+    "base": "kind",
+    "suf": "ness",
+    "shown": "kind",
+    "change": null,
+    "meaning": "being kind",
+    "sentence": "Thank you for your ___."
+   },
+   {
+    "w": "darkness",
+    "base": "dark",
+    "suf": "ness",
+    "shown": "dark",
+    "change": null,
+    "meaning": "being dark",
+    "sentence": "The owl hunts in the ___."
+   },
+   {
+    "w": "sadness",
+    "base": "sad",
+    "suf": "ness",
+    "shown": "sad",
+    "change": null,
+    "meaning": "being sad",
+    "sentence": "I felt ___ when my friend moved away."
+   },
+   {
+    "w": "softness",
+    "base": "soft",
+    "suf": "ness",
+    "shown": "soft",
+    "change": null,
+    "meaning": "being soft",
+    "sentence": "I love the ___ of my blanket."
+   },
+   {
+    "w": "illness",
+    "base": "ill",
+    "suf": "ness",
+    "shown": "ill",
+    "change": null,
+    "meaning": "being ill",
+    "sentence": "Grandpa got better after his ___."
+   },
+   {
+    "w": "fitness",
+    "base": "fit",
+    "suf": "ness",
+    "shown": "fit",
+    "change": null,
+    "meaning": "being fit",
+    "sentence": "Running every day is good for your ___."
+   },
+   {
+    "w": "sickness",
+    "base": "sick",
+    "suf": "ness",
+    "shown": "sick",
+    "change": null,
+    "meaning": "being sick",
+    "sentence": "A cold is a common ___."
+   },
+   {
+    "w": "weakness",
+    "base": "weak",
+    "suf": "ness",
+    "shown": "weak",
+    "change": null,
+    "meaning": "being weak",
+    "sentence": "After the flu, I felt ___ in my legs."
+   },
+   {
+    "w": "sweetness",
+    "base": "sweet",
+    "suf": "ness",
+    "shown": "sweet",
+    "change": null,
+    "meaning": "being sweet",
+    "sentence": "I like the ___ of ripe peaches."
+   },
+   {
+    "w": "brightness",
+    "base": "bright",
+    "suf": "ness",
+    "shown": "bright",
+    "change": null,
+    "meaning": "being bright",
+    "sentence": "The ___ of the sun hurt my eyes."
+   },
+   {
+    "w": "fairness",
+    "base": "fair",
+    "suf": "ness",
+    "shown": "fair",
+    "change": null,
+    "meaning": "being fair",
+    "sentence": "The coach cares about ___ in every game."
+   },
+   {
+    "w": "coldness",
+    "base": "cold",
+    "suf": "ness",
+    "shown": "cold",
+    "change": null,
+    "meaning": "being cold",
+    "sentence": "I felt the ___ of the snow on my hands."
+   },
+   {
+    "w": "neatness",
+    "base": "neat",
+    "suf": "ness",
+    "shown": "neat",
+    "change": null,
+    "meaning": "being neat",
+    "sentence": "Our teacher likes the ___ of my work."
+   },
+   {
+    "w": "wetness",
+    "base": "wet",
+    "suf": "ness",
+    "shown": "wet",
+    "change": null,
+    "meaning": "being wet",
+    "sentence": "The ___ of the grass soaked my socks."
+   },
+   {
+    "w": "stillness",
+    "base": "still",
+    "suf": "ness",
+    "shown": "still",
+    "change": null,
+    "meaning": "being still",
+    "sentence": "I love the ___ of the lake at night."
+   },
+   {
+    "w": "loudness",
+    "base": "loud",
+    "suf": "ness",
+    "shown": "loud",
+    "change": null,
+    "meaning": "being loud",
+    "sentence": "The ___ of the thunder scared the dog."
+   },
+   {
+    "w": "freshness",
+    "base": "fresh",
+    "suf": "ness",
+    "shown": "fresh",
+    "change": null,
+    "meaning": "being fresh",
+    "sentence": "Smell the ___ of the bread."
+   },
+   {
+    "w": "payment",
+    "base": "pay",
+    "suf": "ment",
+    "shown": "pay",
+    "change": null,
+    "meaning": "money that you pay",
+    "sentence": "Dad made a ___ for the new bike."
+   },
+   {
+    "w": "enjoyment",
+    "base": "enjoy",
+    "suf": "ment",
+    "shown": "enjoy",
+    "change": null,
+    "meaning": "the feeling of enjoying something",
+    "sentence": "I read books for ___."
+   },
+   {
+    "w": "movement",
+    "base": "move",
+    "suf": "ment",
+    "shown": "move",
+    "change": null,
+    "meaning": "the act of moving",
+    "sentence": "The cat watched every ___ of the mouse."
+   },
+   {
+    "w": "agreement",
+    "base": "agree",
+    "suf": "ment",
+    "shown": "agree",
+    "change": null,
+    "meaning": "the act of agreeing",
+    "sentence": "We came to an ___ about whose turn it was."
+   },
+   {
+    "w": "amazement",
+    "base": "amaze",
+    "suf": "ment",
+    "shown": "amaze",
+    "change": null,
+    "meaning": "the feeling of being amazed",
+    "sentence": "We stared at the magic trick in ___."
+   },
+   {
+    "w": "excitement",
+    "base": "excite",
+    "suf": "ment",
+    "shown": "excite",
+    "change": null,
+    "meaning": "the feeling of being excited",
+    "sentence": "The kids shouted with ___ at the game."
+   },
+   {
+    "w": "improvement",
+    "base": "improve",
+    "suf": "ment",
+    "shown": "improve",
+    "change": null,
+    "meaning": "the act of improving",
+    "sentence": "My reading shows a lot of ___."
+   },
+   {
+    "w": "announcement",
+    "base": "announce",
+    "suf": "ment",
+    "shown": "announce",
+    "change": null,
+    "meaning": "the act of announcing",
+    "sentence": "The principal made an ___ about the trip."
+   },
+   {
+    "w": "washable",
+    "base": "wash",
+    "suf": "able",
+    "shown": "wash",
+    "change": null,
+    "meaning": "can be washed",
+    "sentence": "These markers are ___, so they wash out."
+   },
+   {
+    "w": "breakable",
+    "base": "break",
+    "suf": "able",
+    "shown": "break",
+    "change": null,
+    "meaning": "can be broken",
+    "sentence": "The glass vase is ___, so hold it with care."
+   },
+   {
+    "w": "bendable",
+    "base": "bend",
+    "suf": "able",
+    "shown": "bend",
+    "change": null,
+    "meaning": "can be bent",
+    "sentence": "The straw is ___, so it can turn a corner."
+   },
+   {
+    "w": "fixable",
+    "base": "fix",
+    "suf": "able",
+    "shown": "fix",
+    "change": null,
+    "meaning": "can be fixed",
+    "sentence": "The flat tire is ___."
+   },
+   {
+    "w": "foldable",
+    "base": "fold",
+    "suf": "able",
+    "shown": "fold",
+    "change": null,
+    "meaning": "can be folded",
+    "sentence": "This map is ___, so it fits in my pocket."
+   },
+   {
+    "w": "reachable",
+    "base": "reach",
+    "suf": "able",
+    "shown": "reach",
+    "change": null,
+    "meaning": "can be reached",
+    "sentence": "The top shelf is ___ with a step stool."
+   },
+   {
+    "w": "enjoyable",
+    "base": "enjoy",
+    "suf": "able",
+    "shown": "enjoy",
+    "change": null,
+    "meaning": "can be enjoyed",
+    "sentence": "The trip to the zoo was very ___."
+   },
+   {
+    "w": "chewable",
+    "base": "chew",
+    "suf": "able",
+    "shown": "chew",
+    "change": null,
+    "meaning": "can be chewed",
+    "sentence": "The vitamins are ___."
+   },
+   {
+    "w": "predictable",
+    "base": "predict",
+    "suf": "able",
+    "shown": "predict",
+    "change": null,
+    "meaning": "can be predicted",
+    "sentence": "The ending of the story was ___."
+   },
+   {
+    "w": "lovable",
+    "base": "love",
+    "suf": "able",
+    "shown": "lov",
+    "change": "e",
+    "meaning": "easy to love",
+    "sentence": "Our new puppy is so ___."
+   },
+   {
+    "w": "usable",
+    "base": "use",
+    "suf": "able",
+    "shown": "us",
+    "change": "e",
+    "meaning": "can be used",
+    "sentence": "The old pencil is still ___."
+   },
+   {
+    "w": "movable",
+    "base": "move",
+    "suf": "able",
+    "shown": "mov",
+    "change": "e",
+    "meaning": "can be moved",
+    "sentence": "The desks are ___, so we can make groups."
+   },
+   {
+    "w": "believable",
+    "base": "believe",
+    "suf": "able",
+    "shown": "believ",
+    "change": "e",
+    "meaning": "can be believed",
+    "sentence": "His story about the dragon was not ___."
+   },
+   {
+    "w": "forgivable",
+    "base": "forgive",
+    "suf": "able",
+    "shown": "forgiv",
+    "change": "e",
+    "meaning": "can be forgiven",
+    "sentence": "A small mistake is ___."
+   },
+   {
+    "w": "reliable",
+    "base": "rely",
+    "suf": "able",
+    "shown": "reli",
+    "change": "y",
+    "meaning": "can be relied on",
+    "sentence": "Our old car is ___ and always starts."
+   },
+   {
+    "w": "happiness",
+    "base": "happy",
+    "suf": "ness",
+    "shown": "happi",
+    "change": "y",
+    "meaning": "being happy",
+    "sentence": "The puppy wagged its tail with ___."
+   },
+   {
+    "w": "laziness",
+    "base": "lazy",
+    "suf": "ness",
+    "shown": "lazi",
+    "change": "y",
+    "meaning": "being lazy",
+    "sentence": "His ___ made him late with his chores."
+   },
+   {
+    "w": "emptiness",
+    "base": "empty",
+    "suf": "ness",
+    "shown": "empti",
+    "change": "y",
+    "meaning": "being empty",
+    "sentence": "I noticed the ___ of the cookie jar."
+   },
+   {
+    "w": "silliness",
+    "base": "silly",
+    "suf": "ness",
+    "shown": "silli",
+    "change": "y",
+    "meaning": "being silly",
+    "sentence": "The clown's ___ made us laugh."
+   },
+   {
+    "w": "messiness",
+    "base": "messy",
+    "suf": "ness",
+    "shown": "messi",
+    "change": "y",
+    "meaning": "being messy",
+    "sentence": "Mom sighed at the ___ of my room.",
+    "two": true
+   },
+   {
+    "w": "sleepiness",
+    "base": "sleepy",
+    "suf": "ness",
+    "shown": "sleepi",
+    "change": "y",
+    "meaning": "being sleepy",
+    "sentence": "Warm milk can bring on ___.",
+    "two": true
+   },
+   {
+    "w": "dizziness",
+    "base": "dizzy",
+    "suf": "ness",
+    "shown": "dizzi",
+    "change": "y",
+    "meaning": "being dizzy",
+    "sentence": "Spinning around gave me ___."
+   },
+   {
+    "w": "coziness",
+    "base": "cozy",
+    "suf": "ness",
+    "shown": "cozi",
+    "change": "y",
+    "meaning": "being cozy",
+    "sentence": "I love the ___ of my warm bed."
+   },
+   {
+    "w": "tidiness",
+    "base": "tidy",
+    "suf": "ness",
+    "shown": "tidi",
+    "change": "y",
+    "meaning": "being tidy",
+    "sentence": "Our teacher praised the ___ of our desks."
+   },
+   {
+    "w": "friendliness",
+    "base": "friendly",
+    "suf": "ness",
+    "shown": "friendli",
+    "change": "y",
+    "meaning": "being friendly",
+    "sentence": "The new girl thanked us for our ___.",
+    "two": true
+   },
+   {
+    "w": "beautiful",
+    "base": "beauty",
+    "suf": "ful",
+    "shown": "beauti",
+    "change": "y",
+    "meaning": "full of beauty",
+    "sentence": "The ___ butterfly landed on my hand."
+   }
+  ],
+  "levels": {
+   "1": [
+    "ful",
+    "less"
+   ],
+   "2": [
+    "ful",
+    "less",
+    "ness",
+    "ment"
+   ],
+   "3": [
+    "ful",
+    "less",
+    "ness",
+    "ment",
+    "able"
+   ]
+  },
+  "pairs": {
+   "1": [
+    [
+     "careful",
+     "careless"
+    ],
+    [
+     "helpful",
+     "helpless"
+    ],
+    [
+     "hopeful",
+     "hopeless"
+    ],
+    [
+     "useful",
+     "useless"
+    ],
+    [
+     "painful",
+     "painless"
+    ],
+    [
+     "harmful",
+     "harmless"
+    ],
+    [
+     "fearful",
+     "fearless"
+    ],
+    [
+     "restful",
+     "restless"
+    ],
+    [
+     "colorful",
+     "colorless"
+    ],
+    [
+     "powerful",
+     "powerless"
+    ]
+   ],
+   "3": [
+    [
+     "enjoyment",
+     "enjoyable"
+    ],
+    [
+     "movement",
+     "movable"
+    ]
+   ]
+  },
+  "say": {
+   "516": {
+    "1": [],
+    "2": [
+     "kindness"
+    ],
+    "3": [
+     "lovable",
+     "happiness"
+    ]
+   },
+   "517": {
+    "1": [
+     "careful",
+     "careless"
+    ],
+    "2": [
+     "softness",
+     "movement"
+    ],
+    "3": [
+     "washable"
+    ]
+   }
+  },
+  "pick": {
+   "1": [
+    [
+     "Be ___ when you carry the eggs.",
+     "careful",
+     "careless"
+    ],
+    [
+     "I was ___ and dropped the eggs.",
+     "careless",
+     "careful"
+    ],
+    [
+     "A map is ___ when you are lost.",
+     "useful",
+     "useless"
+    ],
+    [
+     "A key that does not fit the lock is ___.",
+     "useless",
+     "useful"
+    ],
+    [
+     "Thank you! You are so ___.",
+     "helpful",
+     "helpless"
+    ],
+    [
+     "The tiny kitten was ___ in the rain until we found it.",
+     "helpless",
+     "helpful"
+    ],
+    [
+     "The sun came out, and we felt ___ about the game.",
+     "hopeful",
+     "hopeless"
+    ],
+    [
+     "The kite was torn to bits. Fixing it was ___.",
+     "hopeless",
+     "hopeful"
+    ],
+    [
+     "A bee sting is ___.",
+     "painful",
+     "painless"
+    ],
+    [
+     "The checkup was quick and ___. It did not hurt at all.",
+     "painless",
+     "painful"
+    ],
+    [
+     "This garden snake is ___. It will not bite you.",
+     "harmless",
+     "harmful"
+    ],
+    [
+     "Smoke is ___ to your lungs.",
+     "harmful",
+     "harmless"
+    ],
+    [
+     "The ___ kitten hid from the loud dog.",
+     "fearful",
+     "fearless"
+    ],
+    [
+     "The ___ girl was not afraid to climb the tall tree.",
+     "fearless",
+     "fearful"
+    ],
+    [
+     "I could not sleep. I was ___ all night.",
+     "restless",
+     "restful"
+    ],
+    [
+     "A nap on a rainy day is ___.",
+     "restful",
+     "restless"
+    ],
+    [
+     "The rainbow is bright and ___.",
+     "colorful",
+     "colorless"
+    ],
+    [
+     "Clean water is clear and ___.",
+     "colorless",
+     "colorful"
+    ],
+    [
+     "The ___ engine pulled the long train up the hill.",
+     "powerful",
+     "powerless"
+    ],
+    [
+     "The tiny boat was ___ against the big waves.",
+     "powerless",
+     "powerful"
+    ]
+   ],
+   "2": [
+    [
+     "Thank you for your ___.",
+     "kindness",
+     "kind"
+    ],
+    [
+     "My teacher is ___ to everyone.",
+     "kind",
+     "kindness"
+    ],
+    [
+     "It is very ___ in the cave.",
+     "dark",
+     "darkness"
+    ],
+    [
+     "I like the ___ of my new pillow.",
+     "softness",
+     "soft"
+    ],
+    [
+     "My pillow is ___.",
+     "soft",
+     "softness"
+    ],
+    [
+     "Grandpa got better after his ___.",
+     "illness",
+     "ill"
+    ],
+    [
+     "Running every day is good for your ___.",
+     "fitness",
+     "fit"
+    ],
+    [
+     "The ___ of the sun hurt my eyes.",
+     "brightness",
+     "bright"
+    ],
+    [
+     "The sun is so ___ today.",
+     "bright",
+     "brightness"
+    ],
+    [
+     "I love the ___ of ripe peaches.",
+     "sweetness",
+     "sweet"
+    ],
+    [
+     "I made a ___ for the new bike.",
+     "payment",
+     "pay"
+    ],
+    [
+     "I will ___ for my snack with a dollar.",
+     "pay",
+     "payment"
+    ],
+    [
+     "The ___ of the waves rocked the boat.",
+     "movement",
+     "move"
+    ],
+    [
+     "Please ___ your chair closer.",
+     "move",
+     "movement"
+    ],
+    [
+     "I read for ___.",
+     "enjoyment",
+     "enjoy"
+    ],
+    [
+     "I ___ reading.",
+     "enjoy",
+     "enjoyment"
+    ],
+    [
+     "We came to an ___ about the rules.",
+     "agreement",
+     "agree"
+    ],
+    [
+     "Do you ___ with me?",
+     "agree",
+     "agreement"
+    ],
+    [
+     "We gasped in ___.",
+     "amazement",
+     "amaze"
+    ],
+    [
+     "The kids shouted with ___.",
+     "excitement",
+     "excite"
+    ]
+   ],
+   "3": [
+    [
+     "The trip was very ___.",
+     "enjoyable",
+     "enjoyment"
+    ],
+    [
+     "We had lots of ___ on the trip.",
+     "enjoyment",
+     "enjoyable"
+    ],
+    [
+     "This vase is ___, so hold it with two hands.",
+     "breakable",
+     "break"
+    ],
+    [
+     "The desks are ___, so we can push them together.",
+     "movable",
+     "movement"
+    ],
+    [
+     "Our new puppy is so ___.",
+     "lovable",
+     "love"
+    ],
+    [
+     "A talking dog? That story is not ___.",
+     "believable",
+     "believe"
+    ],
+    [
+     "The puppy wagged its tail with ___.",
+     "happiness",
+     "happy"
+    ],
+    [
+     "I feel ___ today.",
+     "happy",
+     "happiness"
+    ],
+    [
+     "Spinning made me feel ___.",
+     "dizzy",
+     "dizziness"
+    ],
+    [
+     "Spinning gave me ___.",
+     "dizziness",
+     "dizzy"
+    ],
+    [
+     "The ___ butterfly landed on a flower.",
+     "beautiful",
+     "beauty"
+    ],
+    [
+     "I love the ___ of my warm bed.",
+     "coziness",
+     "cozy"
+    ],
+    [
+     "The clown's ___ made us laugh.",
+     "silliness",
+     "silly"
+    ],
+    [
+     "Our old car is ___. It always starts.",
+     "reliable",
+     "rely"
+    ],
+    [
+     "The crayon is short, but it is still ___.",
+     "usable",
+     "use"
+    ],
+    [
+     "These markers are ___, so they come out of your shirt.",
+     "washable",
+     "wash"
+    ]
+   ]
+  }
+ },
+ "heart": {
+  "words": [
+   {
+    "w": "enough",
+    "boxes": [
+     "e",
+     "n",
+     "ou",
+     "gh"
+    ],
+    "heart": [
+     2,
+     3
+    ]
+   },
+   {
+    "w": "though",
+    "boxes": [
+     "th",
+     "ough"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "ocean",
+    "boxes": [
+     "o",
+     "c",
+     "ea",
+     "n"
+    ],
+    "heart": [
+     1,
+     2
+    ]
+   },
+   {
+    "w": "through",
+    "boxes": [
+     "th",
+     "r",
+     "ough"
+    ],
+    "heart": [
+     2
+    ]
+   },
+   {
+    "w": "thought",
+    "boxes": [
+     "th",
+     "ough",
+     "t"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "laugh",
+    "boxes": [
+     "l",
+     "au",
+     "gh"
+    ],
+    "heart": [
+     1,
+     2
+    ]
+   },
+   {
+    "w": "cough",
+    "boxes": [
+     "c",
+     "ou",
+     "gh"
+    ],
+    "heart": [
+     1,
+     2
+    ]
+   },
+   {
+    "w": "rough",
+    "boxes": [
+     "r",
+     "ou",
+     "gh"
+    ],
+    "heart": [
+     1,
+     2
+    ]
+   },
+   {
+    "w": "tough",
+    "boxes": [
+     "t",
+     "ou",
+     "gh"
+    ],
+    "heart": [
+     1,
+     2
+    ]
+   },
+   {
+    "w": "island",
+    "boxes": [
+     "i",
+     "sl",
+     "a",
+     "n",
+     "d"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "special",
+    "boxes": [
+     "s",
+     "p",
+     "e",
+     "ci",
+     "a",
+     "l"
+    ],
+    "heart": [
+     3
+    ]
+   },
+   {
+    "w": "answer",
+    "boxes": [
+     "a",
+     "n",
+     "sw",
+     "er"
+    ],
+    "heart": [
+     2
+    ]
+   },
+   {
+    "w": "busy",
+    "boxes": [
+     "b",
+     "u",
+     "s",
+     "y"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "build",
+    "boxes": [
+     "b",
+     "ui",
+     "l",
+     "d"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "touch",
+    "boxes": [
+     "t",
+     "ou",
+     "ch"
+    ],
+    "heart": [
+     1
+    ]
+   },
+   {
+    "w": "young",
+    "boxes": [
+     "y",
+     "ou",
+     "ng"
+    ],
+    "heart": [
+     1
+    ]
+   }
+  ],
+  "always": [
+   "enough",
+   "though",
+   "ocean"
+  ],
+  "sentences": {
+   "enough": [
+    [
+     "I am full. I have had ___ to eat."
+    ],
+    [
+     "Is the water warm ___ to swim in?"
+    ],
+    [
+     "There are not ___ seats for all of us.",
+     [
+      "special"
+     ]
+    ],
+    [
+     "Do we have ___ cups for everyone?",
+     [
+      "special"
+     ]
+    ],
+    [
+     "You are old ___ to ride a bike."
+    ]
+   ],
+   "though": [
+    [
+     "I went outside, even ___ it was raining."
+    ],
+    [
+     "It looks as ___ it will snow."
+    ],
+    [
+     "Even ___ I was tired, I finished my book."
+    ],
+    [
+     "The dog acted as ___ it was hungry."
+    ]
+   ],
+   "ocean": [
+    [
+     "Whales swim in the ___."
+    ],
+    [
+     "We swam in the salty ___ at the beach."
+    ],
+    [
+     "Big waves rolled in from the ___.",
+     [
+      "island"
+     ]
+    ],
+    [
+     "Most of Earth is covered by the ___."
+    ]
+   ],
+   "through": [
+    [
+     "The train went ___ a long tunnel."
+    ],
+    [
+     "I looked ___ the window at the rain."
+    ],
+    [
+     "We walked ___ the woods to the lake."
+    ],
+    [
+     "The ball flew ___ the open door."
+    ]
+   ],
+   "thought": [
+    [
+     "I ___ it would rain, but the sun came out."
+    ],
+    [
+     "She ___ hard about the puzzle."
+    ],
+    [
+     "We ___ the movie was funny."
+    ],
+    [
+     "Dad ___ of a good plan."
+    ]
+   ],
+   "laugh": [
+    [
+     "The funny joke made us ___."
+    ],
+    [
+     "Babies ___ when you tickle them."
+    ],
+    [
+     "The clown made the whole class ___."
+    ]
+   ],
+   "cough": [
+    [
+     "I have a cold and a bad ___."
+    ],
+    [
+     "The smoke made me ___."
+    ],
+    [
+     "Cover your mouth when you ___ or sneeze.",
+     [
+      "laugh"
+     ]
+    ],
+    [
+     "Dusty air can make you ___."
+    ]
+   ],
+   "rough": [
+    [
+     "Sandpaper feels ___.",
+     [
+      "tough"
+     ]
+    ],
+    [
+     "The sea was ___, and our boat rocked."
+    ],
+    [
+     "Tree bark is ___, not smooth.",
+     [
+      "tough"
+     ]
+    ],
+    [
+     "A cat's tongue feels ___.",
+     [
+      "tough"
+     ]
+    ]
+   ],
+   "tough": [
+    [
+     "This meat is too ___ to chew."
+    ],
+    [
+     "The puzzle was ___, but we solved it.",
+     [
+      "rough"
+     ]
+    ],
+    [
+     "Turtles have ___ shells.",
+     [
+      "rough",
+      "special"
+     ]
+    ]
+   ],
+   "island": [
+    [
+     "An ___ has water all around it.",
+     [
+      "ocean"
+     ]
+    ],
+    [
+     "A palm tree grew on the small ___."
+    ],
+    [
+     "Sea turtles lay eggs on a sandy ___."
+    ]
+   ],
+   "special": [
+    [
+     "This old coin is ___ to me. It was Grandpa's."
+    ],
+    [
+     "You need a ___ key to open this box."
+    ],
+    [
+     "Today is a ___ day. It is my birthday!",
+     [
+      "busy",
+      "rough",
+      "tough"
+     ]
+    ]
+   ],
+   "answer": [
+    [
+     "Raise your hand to ___ the question."
+    ],
+    [
+     "What is the ___ to five plus five?"
+    ],
+    [
+     "I knocked, but no one came to ___ the door."
+    ],
+    [
+     "Write the ___ to the math problem."
+    ]
+   ],
+   "busy": [
+    [
+     "Mom is ___ cooking dinner."
+    ],
+    [
+     "The store was ___ with shoppers."
+    ],
+    [
+     "Bees are ___ making honey."
+    ],
+    [
+     "I am too ___ to play right now.",
+     [
+      "young"
+     ]
+    ]
+   ],
+   "build": [
+    [
+     "Let's ___ a fort with blankets."
+    ],
+    [
+     "Birds ___ nests in the spring."
+    ],
+    [
+     "Beavers ___ dams with sticks."
+    ],
+    [
+     "We will ___ a sandcastle at the beach."
+    ]
+   ],
+   "touch": [
+    [
+     "Do not ___ the hot stove."
+    ],
+    [
+     "Gently ___ the baby chick."
+    ],
+    [
+     "Can you ___ your toes?"
+    ]
+   ],
+   "young": [
+    [
+     "A puppy is a ___ dog.",
+     [
+      "special"
+     ]
+    ],
+    [
+     "A cub is a ___ bear.",
+     [
+      "special"
+     ]
+    ],
+    [
+     "My sister is too ___ to read.",
+     [
+      "busy"
+     ]
+    ]
+   ]
+  }
+ },
+ "ough": {
+  "groups": {
+   "uff": [
+    "enough",
+    "rough",
+    "tough"
+   ],
+   "o": [
+    "though",
+    "dough",
+    "although",
+    "doughnut"
+   ],
+   "aw": [
+    "thought",
+    "bought",
+    "brought",
+    "ought",
+    "thoughtful"
+   ]
+  },
+  "heads": {
+   "uff": {
+    "sound": "uff",
+    "as": "puff"
+   },
+   "o": {
+    "sound": "o",
+    "as": "go"
+   },
+   "aw": {
+    "sound": "aw",
+    "as": "saw"
+   }
+  },
+  "other": [
+   {
+    "w": "through",
+    "sound": "oo, as in zoo"
+   },
+   {
+    "w": "drought",
+    "sound": "ow, as in cow"
+   }
+  ],
+  "extra": [
+   "cough"
+  ],
+  "yesno": [
+   {
+    "text": "Sandpaper feels rough.",
+    "a": "yes"
+   },
+   {
+    "text": "A soft blanket feels rough.",
+    "a": "no"
+   },
+   {
+    "text": "A rock is tough to bite.",
+    "a": "yes"
+   },
+   {
+    "text": "Soup is tough to chew.",
+    "a": "no"
+   },
+   {
+    "text": "Ten pennies are enough to make a dime.",
+    "a": "yes"
+   },
+   {
+    "text": "One sock is enough for two feet.",
+    "a": "no"
+   },
+   {
+    "text": "You bake dough to make bread.",
+    "a": "yes"
+   },
+   {
+    "text": "Dough is a kind of bird.",
+    "a": "no"
+   },
+   {
+    "text": "A thought is an idea in your head.",
+    "a": "yes"
+   },
+   {
+    "text": "You can see a thought with your eyes.",
+    "a": "no"
+   },
+   {
+    "text": "If you bought a toy, you paid for it.",
+    "a": "yes"
+   },
+   {
+    "text": "If you bought a hat, you gave it away for free.",
+    "a": "no"
+   },
+   {
+    "text": "If you brought your lunch, you carried it with you.",
+    "a": "yes"
+   },
+   {
+    "text": "You ought to look both ways before you cross the street.",
+    "a": "yes"
+   },
+   {
+    "text": "You ought to touch a hot stove.",
+    "a": "no"
+   },
+   {
+    "text": "A train can go through a tunnel.",
+    "a": "yes"
+   },
+   {
+    "text": "You can walk through a brick wall.",
+    "a": "no"
+   },
+   {
+    "text": "A cold can make you cough.",
+    "a": "yes"
+   },
+   {
+    "text": "A cough is a kind of shoe.",
+    "a": "no"
+   },
+   {
+    "text": "In a drought, it rains every day.",
+    "a": "no"
+   },
+   {
+    "text": "Plants need rain, so a drought is hard on them.",
+    "a": "yes"
+   },
+   {
+    "text": "You can shape dough with your hands.",
+    "a": "yes"
+   },
+   {
+    "text": "You can see through a clean window.",
+    "a": "yes"
+   },
+   {
+    "text": "A drought is a time with very little rain.",
+    "a": "yes"
+   },
+   {
+    "text": "A tough rope is hard to break.",
+    "a": "yes"
+   },
+   {
+    "text": "One cookie is enough for the whole class.",
+    "a": "no"
+   },
+   {
+    "text": "A thought is something you can hold in your hand.",
+    "a": "no"
+   },
+   {
+    "text": "If you brought a snack, you left it at home.",
+    "a": "no"
+   },
+   {
+    "text": "A doughnut is a sweet treat.",
+    "a": "yes"
+   },
+   {
+    "text": "A doughnut is a kind of vegetable.",
+    "a": "no"
+   },
+   {
+    "text": "A thoughtful friend thinks about how you feel.",
+    "a": "yes"
+   },
+   {
+    "text": "A thoughtful friend never thinks about others.",
+    "a": "no"
+   }
+  ]
+ }
+}

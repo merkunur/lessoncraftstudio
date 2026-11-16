@@ -45,6 +45,7 @@ module.exports = (FACTORY, BANK) => [
   ['an answer that is not in the word box', FACTORY, 'const boxWords = shuffle([...answers, ...fill], rng);', 'const boxWords = shuffle([answers[0], ...fill], rng);', 'G1-587', 3],
   ['a stop set apart from its blank (word box)', FACTORY, 'const end = endsAtBlank(b);', 'const end = false;', 'G1-587', 3],
   ['rows of 70 px on vowel-team level 3', FACTORY, '3: { pic: 66, rowH: 80, pad: 7, write: 3 }', '3: { pic: 66, rowH: 70, pad: 7, write: 3 }', 'G1-586', 3],
+  ['fi printed as one joined letter (the page rule against ligatures is gone)', FACTORY, '<style>[data-lcs-noliga] *{font-variant-ligatures:none !important;', '<style>[data-lcs-noliga-off] *{font-variant-ligatures:none !important;', 'G1-584', 2],
   // the bank's own check (it runs when the factory loads)
   ['bank: a pair that does not add an e', BANK, '"can",\n     "cane"', '"can",\n     "cans"', 'G1-584', 1],
   ['bank: level 1 cannot show two long-word pictures', BANK, '"hat",\n    "plane",\n    "cane"', '"hat"', 'G1-584', 1],

@@ -329,7 +329,7 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
       }
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-vowelpage="${mode}|${lv}|${pair || ''}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + blocks.join('') + `</div>`,
+        bodyHtml: `<style>[data-lcs-noliga] *{font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style><div data-ws-content data-lcs-vowelpage="${mode}|${lv}|${pair || ''}"${key ? ' data-lcs-iskey="1"' : ''} data-lcs-noliga="1" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0;font-variant-ligatures:none;font-feature-settings:'liga' 0,'clig' 0">` + blocks.join('') + `</div>`,
         meta: { text: (pair || 'silent-e') + ':' + items.slice(0, 3).join(','), items },
       };
     },
@@ -339,6 +339,8 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
         const fails = [];
         const root = document.querySelector('[data-lcs-vowelpage]');
         if (!root) return ['no page'];
+        // letters are the content of a phonics page: no joined fi or ff (review 2026-11-17: the i lost its dot in fin, fish)
+        { const joined = [...root.querySelectorAll('span, div')].filter((e) => e.children.length === 0 && /f[fil]/.test(e.textContent) && getComputedStyle(e).fontVariantLigatures !== 'none'); if (joined.length) fails.push('ligatures are on in ' + joined.length + ' places: fi and ff print as one joined letter (the font shorthand resets them: the page needs its rule)'); }
         const [mode, lvS, pair] = root.dataset.lcsVowelpage.split('|'), lv = +lvS, d = SIZES[mode][lv];
         const isKey = root.dataset.lcsIskey === '1';
         const R = (e) => e.getBoundingClientRect();

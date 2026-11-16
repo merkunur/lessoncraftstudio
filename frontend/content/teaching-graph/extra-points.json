@@ -245,6 +245,20 @@
    "strand": "Speaking and Listening",
    "code": "SL.3.1.a",
    "skill": "Come to a group talk about a story prepared, and use notes and the story itself to explain ideas"
+  },
+  {
+   "tp": "2:character-challenge",
+   "grade": "2",
+   "strand": "Reading: Literature",
+   "code": "RL.2.3",
+   "skill": "Describe how a character in a story responds to a problem: what the character does and feels, and what happens because of it"
+  },
+  {
+   "tp": "2:fable-lesson",
+   "grade": "2",
+   "strand": "Reading: Literature",
+   "code": "RL.2.2",
+   "skill": "Retell a fable by its beginning, middle, and end and tell the lesson it teaches"
   }
  ]
 }

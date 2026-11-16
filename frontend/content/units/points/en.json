@@ -2767,6 +2767,24 @@
     "words": "Day 1: children read the story and fill in the Get Ready to Talk About a Story page: a part that surprised them with its paragraph, a question for the group, and (Levels 2 and 3) the words they will read aloud. Day 2: groups of four with the same story meet with the Talk About the Story page; give about ten minutes to write an idea for each question first, and start with the questions everyone has. Draw a name stick for the first speaker, who reads a question and gives an idea with its paragraph; each next child adds on, agrees, or disagrees. Practice the sentence starters printed on the page: \"I think ... because the story says ...,\" \"I agree with ... because ...,\" \"I see it differently because ...,\" \"Can you show where the story says that?\"",
     "watch": "These pages have no answer key: every answer that the story supports is right. Look at the notes before the talk: a child with an empty page is not prepared, so pair the child with a partner to mark one part. During the talk, listen for the paragraph: a child who says \"in paragraph 3 it says ...\" is using the story. Listen also for links to what others said (\"I agree with Maya because ...\"). For a question about what might happen next, any paragraph that gives a reason counts."
    }
+  },
+  "2:character-challenge": {
+   "title": "How Characters Meet a Challenge",
+   "objective": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+   "note": {
+    "mistake": "Children retell the whole story instead of naming the problem. They say what the character should have done, not what the character did, or they give their own feeling (\"I would be sad\") for the character's. In cause and effect they write two things that happen one after the other without one making the other happen.",
+    "words": "Read the story aloud once, then read it together. Ask three questions in the same order every time: \"What happens to the character? What does the character do about it? How does the character feel?\" Have children point to the sentence that tells them. On Level 1 of the How a Character Meets a Challenge page children circle answers; on Level 2 they write them; on Level 3 they also tell what they would have done in the character's place. On the What Happens and Why page say: \"A cause makes something happen. The effect is what happens.\" Try each pair aloud with \"so\" between the two: \"The hare felt sure that he would win, so he lay down for a nap.\" On Level 3 children write one pair as a sentence with because or so.",
+    "watch": "An answer is right when the story supports it, in the child's own words. For the feeling, accept a word that fits the story even if it is not the word on the key: \"embarrassed\" for ashamed, \"scared\" for afraid. Ask \"How do you know?\" and have the child show the sentence. On Level 3, any choice is fine if the reason fits the story. In the one-sentence task, check the direction: the cause comes after \"because\" or before \"so.\""
+   }
+  },
+  "2:fable-lesson": {
+   "title": "Fables: What Is the Lesson?",
+   "objective": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
+   "note": {
+    "mistake": "Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens (\"The tortoise won\") or give a rule about the animals (\"Hares should not nap\") instead of a lesson for people.",
+    "words": "Tell children: \"A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people.\" Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: \"First ... then ... in the end ...\" Then turn to the What Is the Lesson? page: \"What did the character learn? What can we learn from it?\" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.",
+    "watch": "A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. \"The tortoise won the race\" is a retelling: ask \"So what does the story teach us?\" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story."
+   }
   }
  }
 }

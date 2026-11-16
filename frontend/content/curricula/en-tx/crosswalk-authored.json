@@ -4675,6 +4675,34 @@
    ],
    "why": "Bringing notes and a question to a group talk and answering with a reason from the story is «listen actively, ask relevant questions to clarify information, and make pertinent comments»; taking turns in a group of four with sentence starters for adding on, agreeing and disagreeing is «work collaboratively with others by following agreed-upon rules, norms, and protocols».",
    "review": "year-design 2026-11-16"
+  },
+  "2:character-challenge": {
+   "rows": [
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the problem of a story, what the character does about it and what happens because of it is «describe and understand plot elements, including the main events, the conflict, and the resolution»; telling how the character feels, with the sentence that shows it, is «describe the main character's internal and external traits».",
+   "review": "year-design 2026-11-16"
+  },
+  "2:fable-lesson": {
+   "rows": [
+    {
+     "id": "ELAR.2.7.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Retelling a fable by its beginning, middle and end is «retell and paraphrase texts in ways that maintain meaning and logical order»; choosing or writing its lesson with the events that show it is «discuss topics and determine theme using text evidence with adult assistance».",
+   "review": "year-design 2026-11-16"
   }
  }
 }

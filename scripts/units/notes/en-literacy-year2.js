@@ -5,6 +5,9 @@
  * features (G2-523, G2-520), a text with a diagram (G2-521, G2-524), steps in order (G2-522, G2-525) and two animals
  * compared (G2-342). Each note was written from the pages the lesson hands out, in American English, and read by
  * one American Grade 2 teacher-reviewer with the pages (2026-11-16); every finding is in the text below.
+ * Two notes of the unit Reading Stories and Writing (how characters meet a challenge, G2-526 and G2-527; fables and
+ * their lesson, G2-529 and G2-528) were added by place-ready-j.en.literacy.js; the reviewer of the story pages read
+ * them (2026-11-16, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -53,6 +56,24 @@ module.exports = {
         mistake: 'Children write a fact about one animal ("The eagle has feathers.") where the page asks for a comparison. Some decide by what they picture, not by the fact files: "A ladybug is small and an eagle is big," which neither fact file says.',
         words: 'Before anyone writes, draw a chart with three columns on the board: the fact, the first animal, the second animal. Fill it in together from the two fact files and mark each row S or D. Then turn rows into sentences with the comparing words of Grade 2: both, and, too for what is the same; but, while, unlike for what is different. Model one of each: "Both animals eat meat." "The ladybug is an insect, but the eagle is a bird." The Grade 2 standard asks children to compare the most important points of two texts on the SAME topic. This page compares two animals, so end the lesson with two short texts about one animal and ask, "Which point do both texts make? What does only one of them tell?"',
         watch: 'Read the four sentences each child wrote. A sentence about a difference has to name both animals and both facts; "They are different" is not enough. A sentence about what is the same should use both or too. If a child circled every row the same way, cover all rows but one and compare just that row. The on-screen activity compares two stories; the steps are the same: one point at a time, across both.',
+      },
+    },
+    '2:character-challenge': {
+      title: 'How Characters Meet a Challenge',
+      objective: 'Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.',
+      note: {
+        mistake: 'Children retell the whole story instead of naming the problem. They say what the character should have done, not what the character did, or they give their own feeling ("I would be sad") for the character\'s. In cause and effect they write two things that happen one after the other without one making the other happen.',
+        words: 'Read the story aloud once, then read it together. Ask three questions in the same order every time: "What happens to the character? What does the character do about it? How does the character feel?" Have children point to the sentence that tells them. On Level 1 of the How a Character Meets a Challenge page children circle answers; on Level 2 they write them; on Level 3 they also tell what they would have done in the character\'s place. On the What Happens and Why page say: "A cause makes something happen. The effect is what happens." Try each pair aloud with "so" between the two: "The hare felt sure that he would win, so he lay down for a nap." On Level 3 children write one pair as a sentence with because or so.',
+        watch: 'An answer is right when the story supports it, in the child\'s own words. For the feeling, accept a word that fits the story even if it is not the word on the key: "embarrassed" for ashamed, "scared" for afraid. Ask "How do you know?" and have the child show the sentence. On Level 3, any choice is fine if the reason fits the story. In the one-sentence task, check the direction: the cause comes after "because" or before "so."',
+      },
+    },
+    '2:fable-lesson': {
+      title: 'Fables: What Is the Lesson?',
+      objective: 'Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.',
+      note: {
+        mistake: 'Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens ("The tortoise won") or give a rule about the animals ("Hares should not nap") instead of a lesson for people.',
+        words: 'Tell children: "A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people." Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: "First ... then ... in the end ..." Then turn to the What Is the Lesson? page: "What did the character learn? What can we learn from it?" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.',
+        watch: 'A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. "The tortoise won the race" is a retelling: ask "So what does the story teach us?" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story.',
       },
     },
   },

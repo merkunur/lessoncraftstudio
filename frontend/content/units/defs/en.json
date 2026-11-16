@@ -3045,8 +3045,8 @@
    "subject": "literacy",
    "title": "Reading Stories and Writing",
    "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A three-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
-   "weeks": 3,
+   "metaDescription": "A Grade 2 unit: 8 lessons on story questions, context clues, describing a picture, retelling, characters, fables, an animal fact sheet, and cursive.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "2:read-and-answer",
@@ -3075,6 +3075,22 @@
      "point": "2:retell-with-starters",
      "types": [
       "G2-378"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:character-challenge",
+     "types": [
+      "G2-526",
+      "G2-527"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:fable-lesson",
+     "types": [
+      "G2-529",
+      "G2-528"
      ],
      "activity": null
     },

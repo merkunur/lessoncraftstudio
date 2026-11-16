@@ -7018,10 +7018,10 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 27,
-    "near": 9,
-    "open": 52,
-    "lessons": 27
+    "taught": 30,
+    "near": 8,
+    "open": 50,
+    "lessons": 29
    },
    "groups": [
     {
@@ -7168,7 +7168,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 6,
+         "n": 8,
          "title": "Cursive letters and connections"
         }
        ]
@@ -7332,6 +7332,13 @@
          "unitGrade": "2",
          "n": 4,
          "title": "Retell a story: first, next, then, at the end"
+        },
+        {
+         "unit": "reading-stories-and-writing-grade-2-unit",
+         "unitTitle": "Reading Stories and Writing",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Fables: What Is the Lesson?"
         }
        ]
       }
@@ -7347,24 +7354,49 @@
      "title": "Knowledge and skills (8)",
      "items": [
       {
-       "code": "2.8.C",
-       "state": "near",
-       "text": "Children read a short story and answer who, what, where, when, and why questions with details from the text.",
-       "rel": "prepares",
+       "code": "2.8.A",
+       "state": "taught",
+       "text": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
        "lessons": [
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 1,
-         "title": "Read a story and answer questions"
+         "n": 6,
+         "title": "Fables: What Is the Lesson?"
+        }
+       ]
+      },
+      {
+       "code": "2.8.B",
+       "state": "taught",
+       "text": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+       "lessons": [
+        {
+         "unit": "reading-stories-and-writing-grade-2-unit",
+         "unitTitle": "Reading Stories and Writing",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "How Characters Meet a Challenge"
+        }
+       ]
+      },
+      {
+       "code": "2.8.C",
+       "state": "taught",
+       "text": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+       "lessons": [
+        {
+         "unit": "reading-stories-and-writing-grade-2-unit",
+         "unitTitle": "Reading Stories and Writing",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "How Characters Meet a Challenge"
         }
        ]
       }
      ],
      "open": [
-      "2.8.A",
-      "2.8.B",
       "2.8.D"
      ]
     },
@@ -7667,7 +7699,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 5,
+         "n": 7,
          "title": "An animal fact sheet"
         }
        ]
@@ -7690,7 +7722,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 5,
+         "n": 7,
          "title": "An animal fact sheet"
         }
        ]
@@ -7704,7 +7736,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 5,
+         "n": 7,
          "title": "An animal fact sheet"
         },
         {

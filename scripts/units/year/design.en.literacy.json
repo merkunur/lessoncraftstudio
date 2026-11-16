@@ -634,7 +634,8 @@
             "standard": "RL.2.3",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 150 words with two pictures in which a character meets a problem. Below: a three-box organizer (the challenge, what the character did, how the character felt) and two questions. Level 1: the child chooses from three answers per box; level 2: the child writes a sentence per box; level 3: the child writes the sentences and quotes a phrase from the story as proof."
+            "page": "Story and questions page: a story of about 150 words with two pictures in which a character meets a problem. Below: a three-box organizer (the challenge, what the character did, how the character felt) and two questions. Level 1: the child chooses from three answers per box; level 2: the child writes a sentence per box; level 3: the child writes the sentences and quotes a phrase from the story as proof.",
+            "placed": "2:character-challenge"
           },
           {
             "new": true,
@@ -644,7 +645,8 @@
             "days": 3,
             "tool": "Story Line",
             "source": "new",
-            "page": "Story and questions page: a fable of about 150 words with one picture (The Ant and the Grasshopper, The Lion and the Mouse). Below: three retell boxes (beginning, middle, end) and a lesson line. Level 1: the child orders three sentence strips and circles the lesson from three; level 2: the child writes the retell with a word bank and the lesson; level 3: the child writes the retell and the lesson and tells a time the lesson would help them."
+            "page": "Story and questions page: a fable of about 150 words with one picture (The Ant and the Grasshopper, The Lion and the Mouse). Below: three retell boxes (beginning, middle, end) and a lesson line. Level 1: the child orders three sentence strips and circles the lesson from three; level 2: the child writes the retell with a word bank and the lesson; level 3: the child writes the retell and the lesson and tells a time the lesson would help them.",
+            "placed": "2:fable-lesson"
           }
         ]
       },

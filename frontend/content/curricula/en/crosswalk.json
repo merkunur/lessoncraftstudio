@@ -2909,6 +2909,26 @@
    ],
    "by": "code"
   },
+  "2:character-challenge": {
+   "rows": [
+    {
+     "id": "RL.2.3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:fable-lesson": {
+   "rows": [
+    {
+     "id": "RL.2.2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:mystery-animal": {
    "rows": [
     {

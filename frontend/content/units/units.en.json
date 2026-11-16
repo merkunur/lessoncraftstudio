@@ -14638,9 +14638,9 @@
    "subject": "literacy",
    "title": "Reading Stories and Writing",
    "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A three-week Grade 2 unit: 6 lessons on answering story questions, missing words, writing about a picture, retelling, an animal fact sheet, and a first look at cursive.",
-   "days": 16,
-   "weeks": 3,
+   "metaDescription": "A Grade 2 unit: 8 lessons on story questions, context clues, describing a picture, retelling, characters, fables, an animal fact sheet, and cursive.",
+   "days": 20,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -14854,6 +14854,86 @@
     },
     {
      "n": 5,
+     "point": "2:character-challenge",
+     "title": "How Characters Meet a Challenge",
+     "objective": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.2.3",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-526",
+       "title": "How a Character Meets a Challenge",
+       "core": "reading-comprehension-g2526",
+       "easy": "reading-comprehension-easy-g2526-6",
+       "hard": "reading-comprehension-hard-g2526-11"
+      },
+      {
+       "type": "G2-527",
+       "title": "What Happens and Why",
+       "core": "reading-comprehension-g2527",
+       "easy": "reading-comprehension-easy-g2527-6",
+       "hard": "reading-comprehension-hard-g2527-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2526-2",
+      "title": "How a Character Meets a Challenge"
+     },
+     "note": {
+      "mistake": "Children retell the whole story instead of naming the problem. They say what the character should have done, not what the character did, or they give their own feeling (\"I would be sad\") for the character's. In cause and effect they write two things that happen one after the other without one making the other happen.",
+      "words": "Read the story aloud once, then read it together. Ask three questions in the same order every time: \"What happens to the character? What does the character do about it? How does the character feel?\" Have children point to the sentence that tells them. On Level 1 of the How a Character Meets a Challenge page children circle answers; on Level 2 they write them; on Level 3 they also tell what they would have done in the character's place. On the What Happens and Why page say: \"A cause makes something happen. The effect is what happens.\" Try each pair aloud with \"so\" between the two: \"The hare felt sure that he would win, so he lay down for a nap.\" On Level 3 children write one pair as a sentence with because or so.",
+      "watch": "An answer is right when the story supports it, in the child's own words. For the feeling, accept a word that fits the story even if it is not the word on the key: \"embarrassed\" for ashamed, \"scared\" for afraid. Ask \"How do you know?\" and have the child show the sentence. On Level 3, any choice is fine if the reason fits the story. In the one-sentence task, check the direction: the cause comes after \"because\" or before \"so.\""
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "2:fable-lesson",
+     "title": "Fables: What Is the Lesson?",
+     "objective": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.2.2",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-529",
+       "title": "Beginning, Middle, and End",
+       "core": "reading-comprehension-g2529",
+       "easy": "reading-comprehension-easy-g2529-6",
+       "hard": "reading-comprehension-hard-g2529-11"
+      },
+      {
+       "type": "G2-528",
+       "title": "What Is the Lesson?",
+       "core": "reading-comprehension-g2528",
+       "easy": "reading-comprehension-easy-g2528-6",
+       "hard": "reading-comprehension-hard-g2528-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2529-2",
+      "title": "Beginning, Middle, and End"
+     },
+     "note": {
+      "mistake": "Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens (\"The tortoise won\") or give a rule about the animals (\"Hares should not nap\") instead of a lesson for people.",
+      "words": "Tell children: \"A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people.\" Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: \"First ... then ... in the end ...\" Then turn to the What Is the Lesson? page: \"What did the character learn? What can we learn from it?\" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.",
+      "watch": "A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. \"The tortoise won the race\" is a retelling: ask \"So what does the story teach us?\" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story."
+     },
+     "days": 2
+    },
+    {
+     "n": 7,
      "point": "2:animal-fact-file",
      "title": "An animal fact sheet",
      "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
@@ -14899,7 +14979,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 8,
      "point": "2:cursive-writing",
      "title": "Cursive letters and connections",
      "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
@@ -16772,9 +16852,9 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (12 Weeks)",
-   "metaDescription": "4 Grade 2 reading and writing units in teaching order, about 12 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 12,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (13 Weeks)",
+   "metaDescription": "4 Grade 2 reading and writing units in teaching order, about 13 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 13,
    "framework": "Common Core",
    "units": [
     {
@@ -16825,14 +16905,16 @@
      "id": "g2-stories-facts-and-writing",
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
-     "weeks": 3,
+     "weeks": 4,
      "from": 7,
-     "to": 9,
+     "to": 10,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",
       "Write about a picture",
       "Retell a story: first, next, then, at the end",
+      "How Characters Meet a Challenge",
+      "Fables: What Is the Lesson?",
       "An animal fact sheet",
       "Cursive letters and connections"
      ],
@@ -16841,6 +16923,8 @@
       "L.2.4.a",
       "RF.2.4.c",
       "RL.2.1",
+      "RL.2.2",
+      "RL.2.3",
       "W.2.3",
       "W.2.8"
      ]
@@ -16850,8 +16934,8 @@
      "slug": "reading-to-learn-informational-texts-grade-2-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 10,
-     "to": 12,
+     "from": 11,
+     "to": 13,
      "lessons": [
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",

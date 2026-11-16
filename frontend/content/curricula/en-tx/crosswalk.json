@@ -3371,6 +3371,36 @@
    ],
    "by": "authored"
   },
+  "2:character-challenge": {
+   "rows": [
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.8.B",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:fable-lesson": {
+   "rows": [
+    {
+     "id": "ELAR.2.7.D",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.8.A",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:mystery-animal": {
    "rows": [
     {

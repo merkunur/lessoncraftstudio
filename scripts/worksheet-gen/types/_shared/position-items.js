@@ -16,13 +16,17 @@ const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')
 // es encima de / it sopra / pt em cima de also mean "above": a page there never asks for "above" (two right answers, or a
 // right word marked wrong; review 2026-11-02)
 const NO_PREP = { es: ['above'], it: ['above'], pt: ['above'] };
+// pictures that show SEVERAL of their noun: every sentence here is singular ("The balloon is …", "Der Ballon ist …"), so
+// a bunch of three balloons is never the picture (contact sheet of the whole pool, review 2026-11-16) — the key takes the
+// next colour picture of that noun (Things That Fly/balloon: one balloon). Only a page that drew the balloon changes.
+const SEVERAL = new Set(['4th of July/balloon']);
 let PIC = null;
 function picOf(key) {
   if (!PIC) {
     PIC = new Map();
     for (const theme of Object.keys(manifest().themes).filter((t) => !/\sbw(\s+\d+)?$/i.test(t)).sort()) for (const n of labelSafeNouns(theme)) {
       const k = n.vocabKey || n.noun;
-      if (!PIC.has(k) && !nameRefused(theme, n.noun) && !REFUSED_NOUNS.has(n.noun)) PIC.set(k, { theme, noun: n.noun });
+      if (!PIC.has(k) && !nameRefused(theme, n.noun) && !REFUSED_NOUNS.has(n.noun) && !SEVERAL.has(theme + '/' + n.noun)) PIC.set(k, { theme, noun: n.noun });
     }
   }
   return PIC.get(key) || null;
@@ -51,7 +55,7 @@ function positionItems({ locale, level, rows, rng, preps, accept, ctx }) {
     }
     if (!got) throw new Error(`position-items: ${L} has no sentence for "${prep}"`);
     const key = objs[i].key, p = objs[i];
-    out.push({ prep, shape: got.shape, sent: got.sent, key, src: fileUri(p.theme, p.noun) });
+    out.push({ prep, shape: got.shape, sent: got.sent, key, src: fileUri(p.theme, p.noun), theme: p.theme, noun: p.noun });
   }
   return out;
 }
@@ -63,4 +67,4 @@ function sentenceHtml(item, gapHtml, px = 40) {
   return `${pre}${gapHtml}${item.sent.suffix}`;
 }
 
-module.exports = { positionItems, sentenceHtml, NO_PREP };
+module.exports = { positionItems, sentenceHtml, NO_PREP, SEVERAL };

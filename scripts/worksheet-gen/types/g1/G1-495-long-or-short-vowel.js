@@ -3,6 +3,10 @@
  * from short vowel sounds; fi OPS "pitkä ja lyhyt vokaali", de Dehnung / Schärfung, nl lange en korte klank, sv/no lång
  * och kort vokal): a picture and its word with the vowel in colour; the child says the word and circles the long line
  * when the vowel is long, the dot when it is short (the German school marks: Strich for long, Punkt for short).
+ * en uses the US phonics marks instead (review 2026-11-16): the MACRON (a straight bar, long) and the BREVE (a small
+ * curve, short) — US first grade never marks a short vowel with a dot. Level 3 is offered only where its word pool is not
+ * level 2's (ruled 2026-11-16): en, nl, sv, no judge one-syllable words at every level and fi two-syllable words at every
+ * level, so their level 3 was level 2 again under a harder name — they offer levels 1 and 2; de keeps level 3.
  * A word is asked only where its SPELLING shows the length, so the answer is never a matter of accent:
  *   fi  a doubled vowel (tuuli) is long, a single vowel before a consonant (tuli) is short; a diphthong is never asked
  *   de  ie, a vowel + h, a doubled vowel → long; a vowel before a doubled consonant (ll mm nn pp tt ss ff ck tz) → short
@@ -12,7 +16,7 @@
  *       short (not a + ll / l / r / w, o + r / w, w / qu before the vowel, bull / put / push)
  * es pt it fr da refused (no long / short vowel taught, or not marked in the spelling).
  * Every chip is a tap target; the right one is ringed on the key.
- * Levels: 1 six words · 2 eight words · 3 eight words, two-syllable words too (fi, de: the first vowel).
+ * Levels: 1 six words · 2 eight words · 3 eight words, two-syllable words too (de only: the first vowel; see above).
  */
 'use strict';
 const slot = require('../../lib/slot.js');
@@ -31,6 +35,11 @@ const D = {
 const LOCALES = new Set(['fi', 'de', 'nl', 'sv', 'no', 'en']);
 // words whose vowel length speakers do not agree on (review 2026-11-02: US sloth /slɑθ/ or /sloʊθ/)
 const REJECT = { en: ['sloth'] };
+// en words left out AFTER the draw, so a page that never drew one prints exactly as before (native review 2026-11-16): a
+// vowel before ng / nk is not a clean short vowel — the nasal glues to it (ring, sink, king, wing, pink, bank) — and "bun"
+// (its picture is a loaf of bread). verify() refuses them on an English page.
+const GLUED = { en: (w) => /n[gk]$/.test(w) || w === 'bun' };
+const keepFor = (L) => (x) => !(GLUED[L] && GLUED[L](x.word.toLocaleLowerCase(L)));
 const REFUSED_NOUNS = new Set([...REFUSED, ...NAME_ONLY].map((x) => x.split('/')[1]));
 let PIC = null;
 function picOf(key) {
@@ -120,6 +129,9 @@ function poolFor(L, d) {
 
 const bar = (w) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="20" viewBox="0 0 ${w} 20" aria-hidden="true"><rect x="2" y="7" width="${w - 4}" height="6" rx="3" fill="${T.teal}"/></svg>`;
 const dot = () => `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="6" fill="${T.teal}"/></svg>`;
+// en (US phonics): the macron — the same 6 px bar, marked — and the breve, a curve 30 px wide and 11 px deep in a 6 px stroke
+const macron = (w) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="20" viewBox="0 0 ${w} 20" aria-hidden="true" data-lcs-mark="macron"><rect x="2" y="7" width="${w - 4}" height="6" rx="3" fill="${T.teal}"/></svg>`;
+const breve = () => `<svg xmlns="http://www.w3.org/2000/svg" width="46" height="24" viewBox="0 0 46 24" aria-hidden="true" data-lcs-mark="breve"><path d="M8 5 Q23 27 38 5" fill="none" stroke="${T.teal}" stroke-width="6" stroke-linecap="round"/></svg>`;
 
 module.exports = {
   id: 'G1-495',
@@ -129,14 +141,23 @@ module.exports = {
   exerciseType: 'phonological-awareness',
   themeAxis: { applicable: false },
   difficulty: D,
-  i18n: { en: { title: 'Long or Short Vowel?', instruction: 'Say each word. Is the colored vowel long or short? Circle the line if it is long and the dot if it is short.' } },
+  // the marks are drawn as a line (the macron) and a curve (the breve); the printed words name only their shapes
+  i18n: { en: { title: 'Long or Short Vowel?', instruction: 'Say each word. Is the colored vowel sound long or short? Circle the line if it is long. Circle the curve if it is short.' } },
 
   build({ difficulty, locale }, ctx) {
     const d = D[difficulty] || D[2], rng = ctx.rng, L = A.loc2(locale);
     if (!LOCALES.has(L)) throw new Error(`G1-495: ${L} refused (no long / short vowel shown by its spelling)`);
     // fi has few one-syllable nouns: its pages always judge the first vowel of longer words
-    const pool = poolFor(L, L === 'fi' ? { ...d, twoSyl: true } : d);
-    const long = rng.shuffle(pool.filter((x) => x.long)), short = rng.shuffle(pool.filter((x) => !x.long));
+    const poolOf = (dd) => poolFor(L, L === 'fi' ? { ...dd, twoSyl: true } : dd);
+    const pool = poolOf(d);
+    // level 3 is offered only where it asks more than level 2: a language whose level-3 word pool IS its level-2 pool
+    // (measured 2026-11-16: en, nl, sv, no, fi — one-syllable words only, or fi's two-syllable words at every level)
+    // would print level 2 again under a harder name; de adds its two-syllable words and keeps level 3
+    if (difficulty === 3) {
+      const words = (p) => p.map((x) => x.word).sort().join('|');
+      if (words(pool) === words(poolOf(D[2]))) throw new Error(`G1-495: ${L} level 3 refused (its word pool is level 2's: level 3 would be level 2 again)`);
+    }
+    const long = rng.shuffle(pool.filter((x) => x.long)).filter(keepFor(L)), short = rng.shuffle(pool.filter((x) => !x.long)).filter(keepFor(L));
     const nl = Math.floor(d.cards / 2);
     if (long.length < nl || short.length < d.cards - nl) throw new Error(`G1-495: ${L} has ${long.length} long + ${short.length} short words`);
     let cards = rng.shuffle([...long.slice(0, nl), ...short.slice(0, d.cards - nl)]);
@@ -152,7 +173,7 @@ module.exports = {
       return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:6px" data-ws-content${KS.tap(ci)} data-lcs-vowel-length="${it.long ? 'long' : 'short'}" data-lcs-word="${it.word}">` +
         `<img class="ws-icon" src="${fileUri(it.theme, it.noun)}" alt="" style="width:${d.px}px;height:${d.px}px">` +
         `<span style="font:700 30px/1 'Baloo 2',cursive;color:${T.ink}">${before}<span style="color:${T.coral}">${vow}</span>${rest}</span>` +
-        `<div class="ws-choices" style="gap:16px">${chip('long', it.long, bar(46))}${chip('short', !it.long, dot())}</div></div>`;
+        `<div class="ws-choices" style="gap:16px">${chip('long', it.long, L === 'en' ? macron(46) : bar(46))}${chip('short', !it.long, L === 'en' ? breve() : dot())}</div></div>`;
     });
     return {
       bodyHtml: cardGrid({ cards: html, cols: 2, rows: Math.ceil(html.length / 2), numbered: true }),
@@ -169,9 +190,22 @@ module.exports = {
       if (new Set(words).size !== words.length) fails.push('a word twice');
       const long = cards.filter((c) => c.dataset.lcsVowelLength === 'long').length;
       if (!long || long === cards.length) fails.push(`${long} of ${cards.length} long`);
+      const en = (document.documentElement.lang || 'en').slice(0, 2) === 'en';
       cards.forEach((c, i) => {
         if (c.querySelectorAll('[data-lcs-length]').length !== 2) fails.push(`card ${i + 1}: not two chips`);
         const im = c.querySelector('img'); if (!im.complete || !im.naturalWidth) fails.push(`card ${i + 1}: the picture did not load`);
+        if (en) {
+          // the US marks: the macron on the long chip, the breve on the short one, never the dot; drawn big enough to print
+          const lg = c.querySelector('[data-lcs-length="long"]'), sh = c.querySelector('[data-lcs-length="short"]');
+          if (!lg || !lg.querySelector('[data-lcs-mark="macron"]')) fails.push(`card ${i + 1}: the long chip is not the macron`);
+          const br = sh && sh.querySelector('[data-lcs-mark="breve"]');
+          if (!br) fails.push(`card ${i + 1}: the short chip is not the breve`);
+          else { const b = br.querySelector('path').getBoundingClientRect(); if (b.width < 24 || b.height < 8) fails.push(`card ${i + 1}: the breve is ${Math.round(b.width)} × ${Math.round(b.height)} px (too small to print)`); }
+          if (c.querySelector('[data-lcs-length] circle')) fails.push(`card ${i + 1}: a dot mark on an English page`);
+          // never a vowel glued to ng / nk, never the bread-loaf "bun"
+          const w = (c.dataset.lcsWord || '').toLowerCase();
+          if (/n[gk]$/.test(w) || w === 'bun') fails.push(`card ${i + 1}: "${w}" is not a clean vowel to judge`);
+        }
       });
       return fails;
     });

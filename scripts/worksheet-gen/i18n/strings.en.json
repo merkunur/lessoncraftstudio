@@ -5280,7 +5280,7 @@
   },
   "K-655": {
     "title": "A Sentence Starts with a Capital Letter",
-    "instruction": "Circle the first letter of each sentence and every word I. If a sentence starts with a small letter, write its capital letter in the box above it."
+    "instruction": "Circle the first letter of each sentence. Circle each word I, too. If a sentence starts with a small letter, write its capital letter in the box."
   },
   "K-656": {
     "title": "A Period or a Question Mark?",
@@ -5288,23 +5288,23 @@
   },
   "K-657": {
     "title": "Say More: Make the Sentence Longer",
-    "instruction": "Read each sentence and look at the picture. Circle the words that tell where or when. Write them on the line."
+    "instruction": "Read each sentence and look at the picture. Circle the words that fit the picture. Write them on the line."
   },
   "G1-588": {
-    "title": "Letter Teams: sh, ch, and th",
-    "instruction": "Read each word and draw a line to its picture. Then write each word under its letter team."
+    "title": "Digraphs: sh, ch, and th",
+    "instruction": "Read each word and draw a line to its picture. Two words have no picture. Then write each word under sh or ch, and cross it out."
   },
   "G1-589": {
-    "title": "Letter Teams: ck, ng, and wh",
-    "instruction": "Read each word and draw a line to its picture. Then write each word under its letter team."
+    "title": "Digraphs: ck, ng, and wh",
+    "instruction": "Read each word and draw a line to its picture. Two words have no picture. Then write each word under ck or ng, and cross it out."
   },
   "G1-590": {
     "title": "Blends at the Start",
-    "instruction": "Read each word and draw a line to its picture. Then write each word under its kind of blend."
+    "instruction": "Read each word and draw a line to its picture. Two words have no picture. Then write each word under its kind of blend, and cross it out."
   },
   "G1-591": {
     "title": "Blends at the End",
-    "instruction": "Read each word and draw a line to its picture. Then write each word under its ending."
+    "instruction": "Read each word and draw a line to its picture. Two words have no picture. Then write each word under its ending, and cross it out."
   },
   "G3-510": {
     "title": "Read the Text and the Map",

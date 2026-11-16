@@ -1,0 +1,2152 @@
+{
+ "_note": "Grade 1 digraphs and blends (English literacy year, Part 12.3; types/_shared/blends-g1.js). General American. Every word is one syllable with ONE short vowel letter (the unit comes before long vowels): no silent letters, no r after the vowel, no tch, ch always as in chin, th always without voice (thin, not this), wh as /w/, ng and the final blends only at the end. `pics`: the library picture of a word. `printOnly`: pictures that are shown only beside their printed word (they may be named another way), never in a list of words to write. `bad`: words no gap may let a child make; `badFragments`: letters that may never stand printed beside a gap. Per mode (digraphs = G1-588, teams = G1-589, start = G1-590, end = G1-591): `spellings`, `levels` (the spellings a level draws), `noStartBlend` (levels whose words never start with a blend), `words` by spelling (gap words and sort words), `match` the pictured words of the level-2 matching, `decoys` for each of them: printed words with no picture that differ from it only in the taught spelling, `write` the pictures a child names unprompted (one name each), `newWords` [old word, new word] (the new word holds the spelling; the old word has the spelling written as one other letter, or, for blends at the start, has no s), `choose` a sentence with a blank and the two words of such a pair (one fits), `fill` a sentence whose word is printed with a gap where its spelling stands, and `rivals`: every real word another offered spelling would make in that gap (none of them fits the sentence).",
+ "pics": {
+  "fish": [
+   "animals",
+   "fish"
+  ],
+  "ship": [
+   "vehicles",
+   "ship"
+  ],
+  "shelf": [
+   "furniture",
+   "shelf"
+  ],
+  "chick": [
+   "farm animals",
+   "chick"
+  ],
+  "bench": [
+   "furniture",
+   "bench"
+  ],
+  "chips": [
+   "At the Supermarket",
+   "potato_chips"
+  ],
+  "duck": [
+   "farm animals",
+   "duck"
+  ],
+  "sock": [
+   "accessories",
+   "sock"
+  ],
+  "lock": [
+   "around the house",
+   "lock"
+  ],
+  "rock": [
+   "camping",
+   "rock"
+  ],
+  "clock": [
+   "around the house",
+   "clock"
+  ],
+  "truck": [
+   "toys",
+   "truck"
+  ],
+  "blocks": [
+   "toys",
+   "blocks"
+  ],
+  "ring": [
+   "accessories",
+   "ring"
+  ],
+  "swing": [
+   "toys",
+   "swing"
+  ],
+  "stamp": [
+   "post office",
+   "stamp"
+  ],
+  "flag": [
+   "4th of July",
+   "flag"
+  ],
+  "glass": [
+   "kitchen tools",
+   "glass"
+  ],
+  "crab": [
+   "beach",
+   "crab"
+  ],
+  "drum": [
+   "music",
+   "drum"
+  ],
+  "frog": [
+   "spring",
+   "frog"
+  ],
+  "hand": [
+   "body parts",
+   "hand"
+  ],
+  "lamp": [
+   "furniture",
+   "lamp"
+  ],
+  "sink": [
+   "around the house",
+   "sink"
+  ],
+  "shrimp": [
+   "ocean life",
+   "shrimp"
+  ]
+ },
+ "printOnly": [
+  "ship",
+  "stamp",
+  "shelf",
+  "chick",
+  "grass",
+  "crib",
+  "vest",
+  "glass",
+  "grill",
+  "whisk",
+  "blocks",
+  "shrimp",
+  "nest",
+  "chin"
+ ],
+ "bad": [
+  "shit",
+  "shat",
+  "chink",
+  "fuck",
+  "dick",
+  "cock",
+  "prick",
+  "suck",
+  "pimp",
+  "simp",
+  "gimp",
+  "wimp",
+  "fag",
+  "shag",
+  "crap",
+  "drug",
+  "drunk",
+  "skank",
+  "slut",
+  "smut",
+  "twat",
+  "cunt",
+  "spic",
+  "dung",
+  "hump",
+  "dyke",
+  "wank",
+  "spunk",
+  "damn",
+  "hell"
+ ],
+ "badFragments": [
+  "ag",
+  "ass",
+  "ho",
+  "hoe",
+  "tit",
+  "tits",
+  "cum",
+  "poo",
+  "pee",
+  "butt",
+  "dic",
+  "dik",
+  "fuk",
+  "nig",
+  "sex",
+  "pis",
+  "fart"
+ ],
+ "modes": {
+  "digraphs": {
+   "title": "sh, ch, and th",
+   "place": "any",
+   "spellings": [
+    "sh",
+    "ch",
+    "th"
+   ],
+   "noStartBlend": [
+    1,
+    2
+   ],
+   "levels": {
+    "1": [
+     [
+      "sh"
+     ],
+     [
+      "ch"
+     ],
+     [
+      "th"
+     ]
+    ],
+    "2": [
+     [
+      "sh",
+      "ch"
+     ]
+    ],
+    "3": [
+     [
+      "sh",
+      "ch",
+      "th"
+     ]
+    ]
+   },
+   "words": {
+    "sh": [
+     "ship",
+     "shop",
+     "shed",
+     "shell",
+     "shut",
+     "shelf",
+     "fish",
+     "dish",
+     "wish",
+     "cash",
+     "mash",
+     "dash",
+     "rush",
+     "hush",
+     "shock",
+     "brush",
+     "crash",
+     "flash",
+     "trash",
+     "fresh",
+     "smash"
+    ],
+    "ch": [
+     "chin",
+     "chip",
+     "chop",
+     "chick",
+     "chill",
+     "chest",
+     "chess",
+     "much",
+     "such",
+     "rich",
+     "lunch",
+     "bunch",
+     "munch",
+     "bench",
+     "inch",
+     "pinch"
+    ],
+    "th": [
+     "thin",
+     "thick",
+     "thud",
+     "thump",
+     "thank",
+     "thing",
+     "think",
+     "math",
+     "bath",
+     "path",
+     "moth",
+     "cloth"
+    ]
+   },
+   "match": {
+    "sh": [
+     "fish",
+     "ship",
+     "shelf"
+    ],
+    "ch": [
+     "chick",
+     "bench",
+     "chips"
+    ]
+   },
+   "decoys": {
+    "fish": [
+     "fit",
+     "fin"
+    ],
+    "ship": [
+     "sip",
+     "hip"
+    ],
+    "shelf": [
+     "elf"
+    ],
+    "chick": [
+     "kick"
+    ],
+    "bench": [
+     "bend"
+    ],
+    "chips": [
+     "hips",
+     "lips"
+    ]
+   },
+   "write": [
+    "fish",
+    "bench",
+    "chips"
+   ],
+   "newWords": {
+    "sh": [
+     [
+      "sip",
+      "ship"
+     ],
+     [
+      "sell",
+      "shell"
+     ],
+     [
+      "sock",
+      "shock"
+     ],
+     [
+      "top",
+      "shop"
+     ],
+     [
+      "bed",
+      "shed"
+     ],
+     [
+      "cut",
+      "shut"
+     ],
+     [
+      "fit",
+      "fish"
+     ],
+     [
+      "dig",
+      "dish"
+     ],
+     [
+      "win",
+      "wish"
+     ],
+     [
+      "cat",
+      "cash"
+     ],
+     [
+      "rug",
+      "rush"
+     ]
+    ],
+    "ch": [
+     [
+      "hip",
+      "chip"
+     ],
+     [
+      "hop",
+      "chop"
+     ],
+     [
+      "hill",
+      "chill"
+     ],
+     [
+      "pin",
+      "chin"
+     ],
+     [
+      "kick",
+      "chick"
+     ],
+     [
+      "best",
+      "chest"
+     ],
+     [
+      "mud",
+      "much"
+     ],
+     [
+      "bend",
+      "bench"
+     ],
+     [
+      "ink",
+      "inch"
+     ],
+     [
+      "pink",
+      "pinch"
+     ]
+    ],
+    "th": [
+     [
+      "tin",
+      "thin"
+     ],
+     [
+      "tick",
+      "thick"
+     ],
+     [
+      "bat",
+      "bath"
+     ],
+     [
+      "mat",
+      "math"
+     ],
+     [
+      "pat",
+      "path"
+     ],
+     [
+      "tank",
+      "thank"
+     ],
+     [
+      "mop",
+      "moth"
+     ],
+     [
+      "sing",
+      "thing"
+     ],
+     [
+      "bud",
+      "thud"
+     ],
+     [
+      "bump",
+      "thump"
+     ]
+    ]
+   },
+   "choose": {
+    "sh": [
+     {
+      "text": "The ___ sails on the sea.",
+      "right": "ship",
+      "wrong": "sip"
+     },
+     {
+      "text": "Take a ___ of your milk.",
+      "right": "sip",
+      "wrong": "ship"
+     },
+     {
+      "text": "I found a ___ on the beach.",
+      "right": "shell",
+      "wrong": "sell"
+     },
+     {
+      "text": "We ___ lemonade at our stand.",
+      "right": "sell",
+      "wrong": "shell"
+     },
+     {
+      "text": "Put a ___ on each foot.",
+      "right": "sock",
+      "wrong": "shock"
+     },
+     {
+      "text": "We ___ for food at the store.",
+      "right": "shop",
+      "wrong": "top"
+     },
+     {
+      "text": "The ball is on ___ of the box.",
+      "right": "top",
+      "wrong": "shop"
+     },
+     {
+      "text": "Please ___ the door.",
+      "right": "shut",
+      "wrong": "cut"
+     },
+     {
+      "text": "I can ___ the paper.",
+      "right": "cut",
+      "wrong": "shut"
+     }
+    ],
+    "ch": [
+     {
+      "text": "Dad will ___ the wood.",
+      "right": "chop",
+      "wrong": "hop"
+     },
+     {
+      "text": "A frog can ___ and swim.",
+      "right": "hop",
+      "wrong": "chop"
+     },
+     {
+      "text": "I eat a ___ with my dip.",
+      "right": "chip",
+      "wrong": "hip"
+     },
+     {
+      "text": "Put a hand on your ___.",
+      "right": "hip",
+      "wrong": "chip"
+     },
+     {
+      "text": "We ran up the big ___.",
+      "right": "hill",
+      "wrong": "chill"
+     },
+     {
+      "text": "A baby hen is a ___.",
+      "right": "chick",
+      "wrong": "kick"
+     },
+     {
+      "text": "I can ___ the ball far.",
+      "right": "kick",
+      "wrong": "chick"
+     },
+     {
+      "text": "I have so ___ fun!",
+      "right": "much",
+      "wrong": "mud"
+     },
+     {
+      "text": "The pig rolls in the ___.",
+      "right": "mud",
+      "wrong": "much"
+     }
+    ],
+    "th": [
+     {
+      "text": "The pin is long and ___.",
+      "right": "thin",
+      "wrong": "tin"
+     },
+     {
+      "text": "My book is big and ___.",
+      "right": "thick",
+      "wrong": "tick"
+     },
+     {
+      "text": "The clock goes ___ tock.",
+      "right": "tick",
+      "wrong": "thick"
+     },
+     {
+      "text": "I take a ___ in the tub.",
+      "right": "bath",
+      "wrong": "bat"
+     },
+     {
+      "text": "Hit the ball with a ___.",
+      "right": "bat",
+      "wrong": "bath"
+     },
+     {
+      "text": "We do ___ at school.",
+      "right": "math",
+      "wrong": "mat"
+     },
+     {
+      "text": "Wipe your feet on the ___.",
+      "right": "mat",
+      "wrong": "math"
+     },
+     {
+      "text": "Walk on the ___ to the lake.",
+      "right": "path",
+      "wrong": "pat"
+     },
+     {
+      "text": "Say ___ you for the gift.",
+      "right": "thank",
+      "wrong": "tank"
+     },
+     {
+      "text": "The fish swim in a ___.",
+      "right": "tank",
+      "wrong": "thank"
+     },
+     {
+      "text": "A ___ flies to the light.",
+      "right": "moth",
+      "wrong": "mop"
+     },
+     {
+      "text": "Clean the floor with a ___.",
+      "right": "mop",
+      "wrong": "moth"
+     }
+    ]
+   },
+   "fill": {
+    "sh": [
+     {
+      "text": "A ___ can swim.",
+      "word": "fish",
+      "rivals": []
+     },
+     {
+      "text": "Put the books on the ___.",
+      "word": "shelf",
+      "rivals": []
+     },
+     {
+      "text": "I ___ my teeth at night.",
+      "word": "brush",
+      "rivals": []
+     },
+     {
+      "text": "Please ___ the door.",
+      "word": "shut",
+      "rivals": []
+     },
+     {
+      "text": "Mom will wash the ___.",
+      "word": "dish",
+      "rivals": []
+     },
+     {
+      "text": "Close your eyes and make a ___.",
+      "word": "wish",
+      "rivals": [
+       "with"
+      ]
+     },
+     {
+      "text": "Put the ___ in the can.",
+      "word": "trash",
+      "rivals": []
+     }
+    ],
+    "ch": [
+     {
+      "text": "We eat ___ at noon.",
+      "word": "lunch",
+      "rivals": []
+     },
+     {
+      "text": "Sit on the ___ in the park.",
+      "word": "bench",
+      "rivals": []
+     },
+     {
+      "text": "A ___ is a baby hen.",
+      "word": "chick",
+      "rivals": [
+       "thick"
+      ]
+     },
+     {
+      "text": "I have so ___ fun!",
+      "word": "much",
+      "rivals": [
+       "mush"
+      ]
+     },
+     {
+      "text": "Can I have a ___ of grapes?",
+      "word": "bunch",
+      "rivals": []
+     },
+     {
+      "text": "The bug is one ___ long.",
+      "word": "inch",
+      "rivals": []
+     },
+     {
+      "text": "I eat a ___ with my dip.",
+      "word": "chip",
+      "rivals": [
+       "ship"
+      ]
+     }
+    ],
+    "th": [
+     {
+      "text": "We take a ___ at night.",
+      "word": "bath",
+      "rivals": [
+       "bash"
+      ]
+     },
+     {
+      "text": "We do ___ at school.",
+      "word": "math",
+      "rivals": [
+       "mash"
+      ]
+     },
+     {
+      "text": "Walk on the ___ to the lake.",
+      "word": "path",
+      "rivals": []
+     },
+     {
+      "text": "A ___ flies to the light.",
+      "word": "moth",
+      "rivals": [
+       "mosh"
+      ]
+     },
+     {
+      "text": "The book is big and ___.",
+      "word": "thick",
+      "rivals": [
+       "chick"
+      ]
+     },
+     {
+      "text": "Say ___ you for the gift.",
+      "word": "thank",
+      "rivals": [
+       "shank"
+      ]
+     },
+     {
+      "text": "Wipe the table with a ___.",
+      "word": "cloth",
+      "rivals": []
+     }
+    ]
+   },
+   "knownWords": [
+    "mush",
+    "with",
+    "bash",
+    "mosh",
+    "shank",
+    "elf",
+    "fit",
+    "fin",
+    "sip",
+    "hip",
+    "kick",
+    "bend",
+    "hips",
+    "lips"
+   ]
+  },
+  "teams": {
+   "title": "ck, ng, and wh",
+   "place": "any",
+   "spellings": [
+    "ck",
+    "ng",
+    "wh"
+   ],
+   "noStartBlend": [
+    1,
+    2
+   ],
+   "levels": {
+    "1": [
+     [
+      "ck"
+     ],
+     [
+      "ng"
+     ]
+    ],
+    "2": [
+     [
+      "ck",
+      "ng"
+     ]
+    ],
+    "3": [
+     [
+      "ck",
+      "ng",
+      "wh"
+     ]
+    ]
+   },
+   "words": {
+    "ck": [
+     "duck",
+     "sock",
+     "lock",
+     "rock",
+     "back",
+     "kick",
+     "pick",
+     "sick",
+     "lick",
+     "neck",
+     "sack",
+     "pack",
+     "luck",
+     "tuck",
+     "peck",
+     "stick",
+     "truck",
+     "clock",
+     "black",
+     "block",
+     "snack",
+     "track",
+     "brick",
+     "trick"
+    ],
+    "ng": [
+     "ring",
+     "sing",
+     "king",
+     "wing",
+     "sang",
+     "rang",
+     "hang",
+     "bang",
+     "long",
+     "song",
+     "hung",
+     "thing",
+     "swing",
+     "sting",
+     "bring"
+    ],
+    "wh": [
+     "when",
+     "which",
+     "whip",
+     "whisk"
+    ]
+   },
+   "match": {
+    "ck": [
+     "duck",
+     "sock",
+     "lock",
+     "rock"
+    ],
+    "ng": [
+     "ring"
+    ]
+   },
+   "decoys": {
+    "duck": [
+     "dug"
+    ],
+    "sock": [
+     "song"
+    ],
+    "lock": [
+     "long",
+     "log"
+    ],
+    "rock": [
+     "rod",
+     "rot"
+    ],
+    "ring": [
+     "rig"
+    ]
+   },
+   "write": [
+    "duck",
+    "sock",
+    "lock",
+    "rock",
+    "ring"
+   ],
+   "newWords": {
+    "ck": [
+     [
+      "dug",
+      "duck"
+     ],
+     [
+      "log",
+      "lock"
+     ],
+     [
+      "rod",
+      "rock"
+     ],
+     [
+      "bag",
+      "back"
+     ],
+     [
+      "kid",
+      "kick"
+     ],
+     [
+      "pig",
+      "pick"
+     ],
+     [
+      "sit",
+      "sick"
+     ],
+     [
+      "lip",
+      "lick"
+     ],
+     [
+      "net",
+      "neck"
+     ],
+     [
+      "sad",
+      "sack"
+     ],
+     [
+      "pan",
+      "pack"
+     ],
+     [
+      "tug",
+      "tuck"
+     ],
+     [
+      "peg",
+      "peck"
+     ]
+    ],
+    "ng": [
+     [
+      "wig",
+      "wing"
+     ],
+     [
+      "bag",
+      "bang"
+     ],
+     [
+      "log",
+      "long"
+     ],
+     [
+      "hug",
+      "hung"
+     ],
+     [
+      "rag",
+      "rang"
+     ],
+     [
+      "sat",
+      "sang"
+     ],
+     [
+      "sit",
+      "sing"
+     ],
+     [
+      "rib",
+      "ring"
+     ],
+     [
+      "kit",
+      "king"
+     ],
+     [
+      "hat",
+      "hang"
+     ]
+    ]
+   },
+   "choose": {
+    "ck": [
+     {
+      "text": "A ___ can swim in a pond.",
+      "right": "duck",
+      "wrong": "dug"
+     },
+     {
+      "text": "The dog ___ a big hole.",
+      "right": "dug",
+      "wrong": "duck"
+     },
+     {
+      "text": "Use a key to ___ the door.",
+      "right": "lock",
+      "wrong": "log"
+     },
+     {
+      "text": "We sat on a ___ by the fire.",
+      "right": "log",
+      "wrong": "lock"
+     },
+     {
+      "text": "Pat the dog on its ___.",
+      "right": "back",
+      "wrong": "bag"
+     },
+     {
+      "text": "I carry my books in a ___.",
+      "right": "bag",
+      "wrong": "back"
+     },
+     {
+      "text": "A ___ says oink.",
+      "right": "pig",
+      "wrong": "pick"
+     },
+     {
+      "text": "Can you ___ an apple for me?",
+      "right": "pick",
+      "wrong": "pig"
+     },
+     {
+      "text": "We play ___ of war.",
+      "right": "tug",
+      "wrong": "tuck"
+     },
+     {
+      "text": "A hen can ___ at the corn.",
+      "right": "peck",
+      "wrong": "peg"
+     }
+    ],
+    "ng": [
+     {
+      "text": "A bird flaps its ___.",
+      "right": "wing",
+      "wrong": "wig"
+     },
+     {
+      "text": "He has a ___ on his head.",
+      "right": "wig",
+      "wrong": "wing"
+     },
+     {
+      "text": "The door went ___!",
+      "right": "bang",
+      "wrong": "bag"
+     },
+     {
+      "text": "Put the apples in a ___.",
+      "right": "bag",
+      "wrong": "bang"
+     },
+     {
+      "text": "My dog has a ___ tail.",
+      "right": "long",
+      "wrong": "log"
+     },
+     {
+      "text": "We sat on a ___ by the fire.",
+      "right": "log",
+      "wrong": "long"
+     },
+     {
+      "text": "I ___ my coat on a hook.",
+      "right": "hung",
+      "wrong": "hug"
+     },
+     {
+      "text": "Give Mom a big ___.",
+      "right": "hug",
+      "wrong": "hung"
+     },
+     {
+      "text": "The bell ___ at noon.",
+      "right": "rang",
+      "wrong": "rag"
+     },
+     {
+      "text": "Wipe the table with a ___.",
+      "right": "rag",
+      "wrong": "rang"
+     },
+     {
+      "text": "The ___ wears a crown.",
+      "right": "king",
+      "wrong": "kit"
+     }
+    ]
+   },
+   "fill": {
+    "ck": [
+     {
+      "text": "Put a ___ on each foot.",
+      "word": "sock",
+      "rivals": [
+       "song"
+      ]
+     },
+     {
+      "text": "Use a key to open the ___.",
+      "word": "lock",
+      "rivals": [
+       "long"
+      ]
+     },
+     {
+      "text": "The ___ has big wheels.",
+      "word": "truck",
+      "rivals": []
+     },
+     {
+      "text": "Look at the ___ to tell the time.",
+      "word": "clock",
+      "rivals": []
+     },
+     {
+      "text": "We had a ___ after school.",
+      "word": "snack",
+      "rivals": []
+     },
+     {
+      "text": "I ___ the ball to Sam.",
+      "word": "kick",
+      "rivals": [
+       "king"
+      ]
+     }
+    ],
+    "ng": [
+     {
+      "text": "A bird has a ___.",
+      "word": "wing",
+      "rivals": [
+       "wick"
+      ]
+     },
+     {
+      "text": "We ___ songs at school.",
+      "word": "sing",
+      "rivals": [
+       "sick"
+      ]
+     },
+     {
+      "text": "The ___ wears a crown.",
+      "word": "king",
+      "rivals": [
+       "kick"
+      ]
+     },
+     {
+      "text": "I ride on the ___ at the park.",
+      "word": "swing",
+      "rivals": []
+     },
+     {
+      "text": "My dog has a ___ tail.",
+      "word": "long",
+      "rivals": [
+       "lock"
+      ]
+     },
+     {
+      "text": "Please ___ your lunch to school.",
+      "word": "bring",
+      "rivals": [
+       "brick"
+      ]
+     },
+     {
+      "text": "We ___ a song for Mom.",
+      "word": "sang",
+      "rivals": [
+       "sack"
+      ]
+     }
+    ],
+    "wh": [
+     {
+      "text": "Dad can ___ the eggs.",
+      "word": "whisk",
+      "rivals": []
+     },
+     {
+      "text": "The cook will ___ the cream.",
+      "word": "whip",
+      "rivals": []
+     },
+     {
+      "text": "Tell me ___ you are done.",
+      "word": "when",
+      "rivals": []
+     },
+     {
+      "text": "I do not know ___ hat is mine.",
+      "word": "which",
+      "rivals": []
+     }
+    ]
+   },
+   "knownWords": [
+    "wick",
+    "dug",
+    "song",
+    "long",
+    "log",
+    "rod",
+    "rot",
+    "rig"
+   ]
+  },
+  "start": {
+   "title": "Blends at the start",
+   "place": "start",
+   "spellings": [
+    "s",
+    "l",
+    "r"
+   ],
+   "families": {
+    "s": [
+     "st",
+     "sp",
+     "sn",
+     "sk",
+     "sw",
+     "sm",
+     "sc"
+    ],
+    "l": [
+     "bl",
+     "cl",
+     "fl",
+     "gl",
+     "pl"
+    ],
+    "r": [
+     "br",
+     "cr",
+     "dr",
+     "fr",
+     "gr",
+     "pr",
+     "tr"
+    ]
+   },
+   "familyName": {
+    "s": "s-blends",
+    "l": "l-blends",
+    "r": "r-blends"
+   },
+   "levels": {
+    "1": [
+     [
+      "s"
+     ]
+    ],
+    "2": [
+     [
+      "s",
+      "l"
+     ]
+    ],
+    "3": [
+     [
+      "s",
+      "l",
+      "r"
+     ]
+    ]
+   },
+   "words": {
+    "s": [
+     "stop",
+     "step",
+     "stem",
+     "stack",
+     "stick",
+     "stiff",
+     "stuck",
+     "still",
+     "stuff",
+     "spot",
+     "spin",
+     "spill",
+     "spun",
+     "spell",
+     "snap",
+     "snip",
+     "snug",
+     "snack",
+     "sniff",
+     "skip",
+     "skin",
+     "skill",
+     "skunk",
+     "swim",
+     "swing",
+     "smell",
+     "smash",
+     "scab"
+    ],
+    "l": [
+     "black",
+     "block",
+     "blend",
+     "blink",
+     "clap",
+     "clam",
+     "clip",
+     "clock",
+     "club",
+     "cliff",
+     "class",
+     "flag",
+     "flap",
+     "flat",
+     "flip",
+     "flop",
+     "fluff",
+     "glad",
+     "glass",
+     "plum",
+     "plan",
+     "plant",
+     "plop",
+     "plus",
+     "plug"
+    ],
+    "r": [
+     "brick",
+     "brush",
+     "bring",
+     "crab",
+     "crib",
+     "crack",
+     "crop",
+     "cross",
+     "crush",
+     "drum",
+     "drop",
+     "drip",
+     "dress",
+     "drag",
+     "drill",
+     "frog",
+     "fresh",
+     "grab",
+     "grin",
+     "grass",
+     "grill",
+     "grip",
+     "press",
+     "trap",
+     "trip",
+     "trim",
+     "truck",
+     "track",
+     "trick",
+     "trunk"
+    ]
+   },
+   "match": {
+    "s": [
+     "stamp",
+     "swing"
+    ],
+    "l": [
+     "flag",
+     "clock",
+     "glass",
+     "blocks"
+    ]
+   },
+   "decoys": {
+    "stamp": [
+     "damp"
+    ],
+    "swing": [
+     "wing",
+     "sting"
+    ],
+    "flag": [
+     "lag",
+     "snag"
+    ],
+    "clock": [
+     "lock"
+    ],
+    "glass": [
+     "class"
+    ],
+    "blocks": [
+     "locks"
+    ]
+   },
+   "write": [
+    "swing",
+    "flag",
+    "clock",
+    "crab",
+    "drum",
+    "frog",
+    "truck"
+   ],
+   "newWords": {
+    "s": [
+     [
+      "top",
+      "stop"
+     ],
+     [
+      "pin",
+      "spin"
+     ],
+     [
+      "nap",
+      "snap"
+     ],
+     [
+      "pot",
+      "spot"
+     ],
+     [
+      "tick",
+      "stick"
+     ],
+     [
+      "pill",
+      "spill"
+     ],
+     [
+      "wing",
+      "swing"
+     ],
+     [
+      "tuck",
+      "stuck"
+     ],
+     [
+      "tack",
+      "stack"
+     ],
+     [
+      "mash",
+      "smash"
+     ]
+    ]
+   },
+   "choose": {
+    "s": [
+     {
+      "text": "Cars ___ at a red light.",
+      "right": "stop",
+      "wrong": "top"
+     },
+     {
+      "text": "My ___ spins on the floor.",
+      "right": "top",
+      "wrong": "stop"
+     },
+     {
+      "text": "I can ___ around and around.",
+      "right": "spin",
+      "wrong": "pin"
+     },
+     {
+      "text": "Mom will ___ the note to the wall.",
+      "right": "pin",
+      "wrong": "spin"
+     },
+     {
+      "text": "Take a ___ after lunch.",
+      "right": "nap",
+      "wrong": "snap"
+     },
+     {
+      "text": "I can ___ my fingers.",
+      "right": "snap",
+      "wrong": "nap"
+     },
+     {
+      "text": "My dog has a black ___ on his back.",
+      "right": "spot",
+      "wrong": "pot"
+     },
+     {
+      "text": "Cook the soup in a ___.",
+      "right": "pot",
+      "wrong": "spot"
+     },
+     {
+      "text": "Do not ___ your juice.",
+      "right": "spill",
+      "wrong": "pill"
+     },
+     {
+      "text": "I ride on the ___ at the park.",
+      "right": "swing",
+      "wrong": "wing"
+     },
+     {
+      "text": "My boot is ___ in the mud.",
+      "right": "stuck",
+      "wrong": "tuck"
+     },
+     {
+      "text": "I threw a ___ for my dog.",
+      "right": "stick",
+      "wrong": "tick"
+     }
+    ]
+   },
+   "fill": {
+    "s": [
+     {
+      "text": "I like to ___ in the pool.",
+      "word": "swim",
+      "rivals": [
+       "trim",
+       "brim",
+       "grim",
+       "skim",
+       "slim",
+       "prim",
+       "whim",
+       "shim"
+      ]
+     },
+     {
+      "text": "A top can ___ fast.",
+      "word": "spin",
+      "rivals": [
+       "skin",
+       "grin",
+       "chin",
+       "shin",
+       "thin",
+       "twin"
+      ]
+     },
+     {
+      "text": "A rose has a long ___.",
+      "word": "stem",
+      "rivals": [
+       "them"
+      ]
+     },
+     {
+      "text": "My boot is ___ in the mud.",
+      "word": "stuck",
+      "rivals": [
+       "truck",
+       "cluck",
+       "pluck",
+       "snuck",
+       "chuck",
+       "shuck"
+      ]
+     },
+     {
+      "text": "Watch your ___ on the ice.",
+      "word": "step",
+      "rivals": [
+       "prep"
+      ]
+     },
+     {
+      "text": "I can ___ my name.",
+      "word": "spell",
+      "rivals": [
+       "smell",
+       "swell",
+       "shell",
+       "dwell"
+      ]
+     }
+    ],
+    "l": [
+     {
+      "text": "A ___ grows in a pot.",
+      "word": "plant",
+      "rivals": [
+       "grant",
+       "slant",
+       "scant",
+       "chant"
+      ]
+     },
+     {
+      "text": "I am ___ to see you.",
+      "word": "glad",
+      "rivals": [
+       "chad",
+       "shad"
+      ]
+     },
+     {
+      "text": "We made a ___ for the trip.",
+      "word": "plan",
+      "rivals": [
+       "clan",
+       "scan",
+       "span",
+       "bran",
+       "than"
+      ]
+     },
+     {
+      "text": "Look at the ___ to tell the time.",
+      "word": "clock",
+      "rivals": [
+       "block",
+       "flock",
+       "frock",
+       "smock",
+       "stock",
+       "shock",
+       "crock"
+      ]
+     },
+     {
+      "text": "A ___ is a purple fruit.",
+      "word": "plum",
+      "rivals": [
+       "drum",
+       "glum",
+       "slum",
+       "chum",
+       "scum"
+      ]
+     }
+    ],
+    "r": [
+     {
+      "text": "A ___ walks on the sand.",
+      "word": "crab",
+      "rivals": [
+       "grab",
+       "drab",
+       "scab",
+       "stab",
+       "slab",
+       "flab",
+       "blab"
+      ]
+     },
+     {
+      "text": "The ___ hops in the pond.",
+      "word": "frog",
+      "rivals": [
+       "clog",
+       "blog",
+       "smog",
+       "slog",
+       "grog"
+      ]
+     },
+     {
+      "text": "The ___ has big wheels.",
+      "word": "truck",
+      "rivals": [
+       "stuck",
+       "cluck",
+       "pluck",
+       "snuck",
+       "chuck",
+       "shuck"
+      ]
+     },
+     {
+      "text": "Put on your new ___.",
+      "word": "dress",
+      "rivals": [
+       "press",
+       "chess",
+       "bless"
+      ]
+     },
+     {
+      "text": "I play the ___ in the band.",
+      "word": "drum",
+      "rivals": [
+       "plum",
+       "glum",
+       "slum",
+       "chum",
+       "scum"
+      ]
+     },
+     {
+      "text": "The baby sleeps in a ___.",
+      "word": "crib",
+      "rivals": []
+     }
+    ]
+   },
+   "knownWords": [
+    "trim",
+    "brim",
+    "grim",
+    "skim",
+    "slim",
+    "prim",
+    "whim",
+    "shim",
+    "twin",
+    "chuck",
+    "shuck",
+    "cluck",
+    "pluck",
+    "snuck",
+    "prep",
+    "smell",
+    "swell",
+    "shell",
+    "dwell",
+    "grant",
+    "slant",
+    "scant",
+    "chant",
+    "chad",
+    "shad",
+    "clan",
+    "span",
+    "bran",
+    "than",
+    "flock",
+    "frock",
+    "smock",
+    "stock",
+    "shock",
+    "crock",
+    "grab",
+    "drab",
+    "stab",
+    "slab",
+    "flab",
+    "blab",
+    "clog",
+    "blog",
+    "smog",
+    "slog",
+    "grog",
+    "bless",
+    "glum",
+    "slum",
+    "chum",
+    "scum",
+    "damp",
+    "wing",
+    "sting",
+    "lag",
+    "snag",
+    "lock",
+    "class",
+    "locks"
+   ]
+  },
+  "end": {
+   "title": "Blends at the end",
+   "place": "end",
+   "spellings": [
+    "nd",
+    "mp",
+    "st",
+    "nk"
+   ],
+   "levels": {
+    "1": [
+     [
+      "nd"
+     ]
+    ],
+    "2": [
+     [
+      "nd",
+      "mp"
+     ]
+    ],
+    "3": [
+     [
+      "nd",
+      "mp",
+      "st",
+      "nk"
+     ]
+    ]
+   },
+   "words": {
+    "nd": [
+     "hand",
+     "sand",
+     "band",
+     "land",
+     "bend",
+     "mend",
+     "send",
+     "lend",
+     "end",
+     "pond",
+     "blend",
+     "spend"
+    ],
+    "mp": [
+     "lamp",
+     "camp",
+     "damp",
+     "ramp",
+     "jump",
+     "bump",
+     "dump",
+     "lump",
+     "pump",
+     "limp",
+     "blimp"
+    ],
+    "st": [
+     "nest",
+     "vest",
+     "best",
+     "rest",
+     "test",
+     "west",
+     "fast",
+     "last",
+     "past",
+     "list",
+     "fist",
+     "just",
+     "must",
+     "rust",
+     "dust",
+     "lost",
+     "chest"
+    ],
+    "nk": [
+     "pink",
+     "sink",
+     "wink",
+     "link",
+     "think",
+     "drink",
+     "bank",
+     "tank",
+     "sank",
+     "thank",
+     "junk",
+     "bunk",
+     "skunk",
+     "trunk",
+     "honk"
+    ]
+   },
+   "match": {
+    "nd": [
+     "hand"
+    ],
+    "mp": [
+     "lamp",
+     "stamp",
+     "shrimp"
+    ]
+   },
+   "decoys": {
+    "hand": [
+     "had",
+     "ham"
+    ],
+    "lamp": [
+     "lap",
+     "land"
+    ],
+    "stamp": [
+     "stand",
+     "stack"
+    ]
+   },
+   "write": [
+    "hand",
+    "lamp",
+    "sink"
+   ],
+   "newWords": {
+    "nd": [
+     [
+      "had",
+      "hand"
+     ],
+     [
+      "sad",
+      "sand"
+     ],
+     [
+      "bad",
+      "band"
+     ],
+     [
+      "lap",
+      "land"
+     ],
+     [
+      "bed",
+      "bend"
+     ],
+     [
+      "men",
+      "mend"
+     ],
+     [
+      "set",
+      "send"
+     ],
+     [
+      "let",
+      "lend"
+     ],
+     [
+      "pod",
+      "pond"
+     ]
+    ]
+   },
+   "choose": {
+    "nd": [
+     {
+      "text": "Raise your ___ to talk.",
+      "right": "hand",
+      "wrong": "had"
+     },
+     {
+      "text": "We ___ fun at the zoo.",
+      "right": "had",
+      "wrong": "hand"
+     },
+     {
+      "text": "We dig in the ___.",
+      "right": "sand",
+      "wrong": "sad"
+     },
+     {
+      "text": "I am ___ when it rains.",
+      "right": "sad",
+      "wrong": "sand"
+     },
+     {
+      "text": "The ___ plays a song.",
+      "right": "band",
+      "wrong": "bad"
+     },
+     {
+      "text": "The milk smells ___.",
+      "right": "bad",
+      "wrong": "band"
+     },
+     {
+      "text": "Can you ___ down?",
+      "right": "bend",
+      "wrong": "bed"
+     },
+     {
+      "text": "I go to ___ at eight.",
+      "right": "bed",
+      "wrong": "bend"
+     },
+     {
+      "text": "Ducks swim in the ___.",
+      "right": "pond",
+      "wrong": "pod"
+     },
+     {
+      "text": "Peas grow in a ___.",
+      "right": "pod",
+      "wrong": "pond"
+     },
+     {
+      "text": "Two ___ came to fix the sink.",
+      "right": "men",
+      "wrong": "mend"
+     }
+    ]
+   },
+   "fill": {
+    "nd": [
+     {
+      "text": "Hold the cup in your ___.",
+      "word": "hand",
+      "rivals": [
+       "hank"
+      ]
+     },
+     {
+      "text": "The ___ plays a song.",
+      "word": "band",
+      "rivals": [
+       "bank"
+      ]
+     },
+     {
+      "text": "We dig in the ___.",
+      "word": "sand",
+      "rivals": [
+       "sank"
+      ]
+     },
+     {
+      "text": "Ducks swim in the ___.",
+      "word": "pond",
+      "rivals": [
+       "post",
+       "pomp"
+      ]
+     },
+     {
+      "text": "Can you ___ down?",
+      "word": "bend",
+      "rivals": [
+       "best"
+      ]
+     }
+    ],
+    "mp": [
+     {
+      "text": "Turn on the ___ by my bed.",
+      "word": "lamp",
+      "rivals": [
+       "land",
+       "last",
+       "lank"
+      ]
+     },
+     {
+      "text": "I can ___ over the box.",
+      "word": "jump",
+      "rivals": [
+       "just",
+       "junk"
+      ]
+     },
+     {
+      "text": "We go to ___ in the woods.",
+      "word": "camp",
+      "rivals": [
+       "cast"
+      ]
+     },
+     {
+      "text": "The car hit a ___ in the road.",
+      "word": "bump",
+      "rivals": [
+       "bust",
+       "bunk"
+      ]
+     },
+     {
+      "text": "Use the ___ to fill the tire.",
+      "word": "pump",
+      "rivals": [
+       "punk"
+      ]
+     }
+    ],
+    "st": [
+     {
+      "text": "A bird sits on its ___.",
+      "word": "nest",
+      "rivals": []
+     },
+     {
+      "text": "Put on your ___.",
+      "word": "vest",
+      "rivals": [
+       "vend"
+      ]
+     },
+     {
+      "text": "My dog can run ___.",
+      "word": "fast",
+      "rivals": []
+     },
+     {
+      "text": "I am the ___ one in line.",
+      "word": "last",
+      "rivals": [
+       "land",
+       "lamp",
+       "lank"
+      ]
+     },
+     {
+      "text": "Write a ___ of names.",
+      "word": "list",
+      "rivals": [
+       "link",
+       "limp"
+      ]
+     },
+     {
+      "text": "Wipe the ___ off the shelf.",
+      "word": "dust",
+      "rivals": [
+       "dump",
+       "dunk"
+      ]
+     }
+    ],
+    "nk": [
+     {
+      "text": "I ___ milk at lunch.",
+      "word": "drink",
+      "rivals": []
+     },
+     {
+      "text": "I put my coins in the ___.",
+      "word": "bank",
+      "rivals": [
+       "band"
+      ]
+     },
+     {
+      "text": "The box is full of ___.",
+      "word": "junk",
+      "rivals": [
+       "jump",
+       "just"
+      ]
+     },
+     {
+      "text": "A ___ has a white stripe.",
+      "word": "skunk",
+      "rivals": []
+     },
+     {
+      "text": "I ___ it will rain.",
+      "word": "think",
+      "rivals": []
+     },
+     {
+      "text": "Say ___ you to Grandma.",
+      "word": "thank",
+      "rivals": []
+     }
+    ]
+   },
+   "knownWords": [
+    "hank",
+    "lank",
+    "post",
+    "pomp",
+    "vend",
+    "dunk",
+    "punk",
+    "bust",
+    "cast",
+    "had",
+    "ham",
+    "lap",
+    "land",
+    "stand",
+    "stack"
+   ]
+  }
+ }
+}

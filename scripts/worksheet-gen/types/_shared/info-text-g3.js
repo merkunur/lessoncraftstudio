@@ -135,8 +135,11 @@ const stack = (cells, gap = 4) => `<div data-lcs-qgrid style="flex:1 1 auto;min-
 const labeled = (text, lineHtml, px = 15) => `<div style="display:flex;align-items:flex-end;gap:8px"><span data-lcs-label style="flex:0 0 auto;white-space:nowrap;padding-bottom:3px;font:700 ${px}px/1 'Nunito',sans-serif;color:${T.ink}">${text}</span><div style="flex:1 1 auto;min-width:0">${lineHtml}</div></div>`;
 const CHECK = `<svg width="18" height="18" viewBox="0 0 20 20"><path d="M3.5 10.5 L8.5 15.5 L16.5 4.5" fill="none" stroke="${T.teal}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
-function makeInfoText3Type({ id, slug, mode, i18n }) {
-  const D = LEVELS[mode];
+/** `texts` + `story: true`: the page prints a STORY of another bank (story-g3.js): four paragraphs, no headings */
+function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
+  const POOL = texts || TEXTS;
+  const SAYS = story ? 'The story says:' : 'The text says:';
+  const D = LEVELS[mode] && { ...LEVELS[mode], ...(levels || {}) };   // levels: sizes of its own for a shorter text (a story)
   if (!D) throw new Error('info-text-g3: unknown mode ' + mode);
   return {
     id, slug, gradeBand: 'G3', assetClass: 'none', exerciseType: 'reading-comprehension',
@@ -146,10 +149,10 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
-      if (!TEXTS.length) throw new Error(`${id}: the bank holds no Grade 3 text`);
+      if (!POOL.length) throw new Error(`${id}: the bank holds no Grade 3 text`);
       const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng;
       const key = !!(ctx && ctx.answerKey);
-      const t = rng.sample(TEXTS, 1)[0];
+      const t = rng.sample(POOL, 1)[0];
       const inner = W - 24, cellW = (inner - 14) / 2 - 24;   // eslint-disable-line no-unused-vars
       let below = '', items = [];
 
@@ -168,7 +171,7 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
           for (let n = 0; n < 200; n++) { three = shuffle(t.questions, rng).slice(0, 3).sort((a, b) => t.questions.indexOf(a) - t.questions.indexOf(b)); if (new Set(three.map((x) => x.part)).size === 3) break; }
           const cells = three.map((x, k) => cream(`data-lcs-question="${k + 1}" data-lcs-para="${x.part}"`, label(num(k + 1) + esc(x.q)) +
             `<div style="display:flex;align-items:flex-end;gap:10px"><div style="flex:1 1 auto;min-width:0">${rule({ w: inner - 118, h: d.rowH, answer: key ? x.answer : null })}</div>${paraBox(x.part, key)}</div>` +
-            (() => { const two = key ? spread(x.proof, [inner - 130, inner]) : [null, null]; return `<div data-lcs-proofline>${rule({ w: inner, h: d.proofH, starter: 'The text says:', answer: two[0] ? 'The text says: ' + two[0] : null, sample: true })}${rule({ w: inner, h: d.proofH, answer: two[1] || null, sample: true })}</div>`; })(), 4));
+            (() => { const two = key ? spread(x.proof, [inner - 130, inner]) : [null, null]; return `<div data-lcs-proofline>${rule({ w: inner, h: d.proofH, starter: SAYS, answer: two[0] ? SAYS + ' ' + two[0] : null, sample: true })}${rule({ w: inner, h: d.proofH, answer: two[1] || null, sample: true })}</div>`; })(), 4));
           below = stack(cells, 5);
           items = three.map((x) => t.id + ': ' + x.q);
         }
@@ -187,7 +190,7 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
         } else {
           // three questions of the child's own: three different first words; the key shows three of the text's own
           const three = shuffle(t.ask, rng).slice(0, 3);
-          const cells = three.map((a, k) => cream(`data-lcs-ownq="${k + 1}" data-lcs-askword="${a.word}"`, label(num(k + 1) + `Ask a question about the text. Begin with <b>${a.word}</b>. Then answer it.`) +
+          const cells = three.map((a, k) => cream(`data-lcs-ownq="${k + 1}" data-lcs-askword="${a.word}"`, label(num(k + 1) + `Ask a question about the ${story ? 'story' : 'text'}. Begin with <b>${a.word}</b>. Then answer it.`) +
             rule({ w: inner, h: d.rowH, starter: a.word, answer: key ? a.q : null, sample: true }) +
             `<div style="display:flex;align-items:flex-end;gap:10px"><div style="flex:1 1 auto;min-width:0">${rule({ w: inner - 118, h: d.rowH, starter: 'Answer:', answer: key ? 'Answer: ' + a.answer : null, sample: true })}</div>${paraBox(t.parts.findIndex((p) => p.sentences.includes(a.answer)) + 1, key)}</div>`, 6));
           below = stack(cells, 6);
@@ -238,8 +241,8 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
       }
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-info3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` +
-          textBox(t, { font: d.font, lh: d.lh, headings: mode === 'evidence' || mode === 'ask' }) + below + `</div>`,
+        bodyHtml: `<div data-ws-content data-lcs-info3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}${story ? ' data-lcs-story="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` +
+          textBox(t, { font: d.font, lh: d.lh, headings: !story && (mode === 'evidence' || mode === 'ask') }) + below + `</div>`,
         meta: { text: t.id, items },
       };
     },
@@ -262,7 +265,7 @@ function makeInfoText3Type({ id, slug, mode, i18n }) {
         document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); });
         if (!box.querySelector('[data-lcs-title]') || !box.querySelector('[data-lcs-pic]')) fails.push('no title or no picture');
         const heads = box.querySelectorAll('[data-lcs-heading]').length;
-        if (mode === 'evidence' || mode === 'ask' ? heads !== 4 : heads !== 0) fails.push(`${heads} headings on the page ${mode}`);
+        if ((mode === 'evidence' || mode === 'ask') && root.dataset.lcsStory !== '1' ? heads !== 4 : heads !== 0) fails.push(`${heads} headings on the page ${mode}`);
         const blocks = [...root.children];
         blocks.forEach((b, i) => { const r = R(b); if (r.left < rb.left - 1 || r.right > rb.right + 1 || r.bottom > rb.bottom + 1) fails.push(`block ${i + 1} leaves the page`); if (i && r.top < R(blocks[i - 1]).bottom - 0.5) fails.push(`block ${i + 1} overlaps the one above`); });
         box.querySelectorAll('*').forEach((e) => { const r = R(e), b = R(box); if (r.width && (r.right > b.right + 0.5 || r.bottom > b.bottom + 0.5)) fails.push('something leaves the text box'); });

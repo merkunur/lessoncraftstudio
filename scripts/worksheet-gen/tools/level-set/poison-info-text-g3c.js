@@ -21,7 +21,7 @@ const FAULTS = [
   ['a box keyed to another place', FACTORY, "${numBox(i + 1, key)}<span style=\"font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}\">${esc(c.chain[i])}</span>", "${numBox(((i + 1) % 4) + 1, key)}<span style=\"font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}\">${esc(c.chain[i])}</span>", 'G3-500', 1],
   ['the question about the first event keyed to the third', FACTORY, "c.chain[1], [c.chain[2], c.chain[3]], 0)", "c.chain[2], [c.chain[1], c.chain[3]], 0)", 'G3-500', 1],
   ['both right answers in the same place', FACTORY, "at[1] = (at[0] + 1 + rng.int(0, 1)) % 3;", "at[1] = at[0];", 'G3-500', 1],
-  ['the task does not say what the chain tells', FACTORY, "label(`Write in order the four events or steps that tell <b data-lcs-topic>${esc(c.topic)}</b>, one on each line.`, 15)", "label('Write the four most important events in order, one on each line.', 15)", 'G3-500', 2],
+  ['the task does not say what the chain tells', FACTORY, "label(story ? 'Write the <b data-lcs-topic>four main events of the story</b> in order.' : `Write in order the four events or steps that tell <b data-lcs-topic>${esc(c.topic)}</b>, one on each line.`, 15)", "label('Write the four most important events in order, one on each line.', 15)", 'G3-500', 2],
   ['the lines do not begin with the order words', FACTORY, "const STARTS = ['First,', 'Next,', 'Then,', 'Finally,'];", "const STARTS = ['Then,', 'Then,', 'Then,', 'Then,'];", 'G3-500', 2],
   ['no arrows between the lines', FACTORY, "${i ? ARROW : ''}", "", 'G3-500', 2],
   ['no lines to explain on the hardest level', FACTORY, "const why = lv === 3 ? cream(", "const why = lv === 9 ? cream(", 'G3-500', 3],

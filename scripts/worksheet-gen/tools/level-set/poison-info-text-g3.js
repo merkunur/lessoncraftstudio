@@ -25,14 +25,14 @@ const FAULTS = [
   ['one line only for the proving words', FACTORY, "${rule({ w: inner, h: d.proofH, answer: two[1] || null, sample: true })}</div>`; })(), 4));", "</div>`; })(), 4));", 'G3-494', 3],
   ['small print', FACTORY, "evidence: { 1: { font: 14.5, lh: 1.3 }", "evidence: { 1: { font: 12.5, lh: 1.3 }", 'G3-494', 1],
   ['a text too big for the page', FACTORY, "evidence: { 1: { font: 14.5, lh: 1.3 }", "evidence: { 1: { font: 18, lh: 1.3 }", 'G3-494', 1],
-  ['no headings on the evidence page', FACTORY, "headings: mode === 'evidence' || mode === 'ask' }", "headings: false }", 'G3-494', 2],
+  ['no headings on the evidence page', FACTORY, "headings: !story && (mode === 'evidence' || mode === 'ask') }", "headings: false }", 'G3-494', 2],
   // Ask and Answer (G3-495)
   ['a sentence in a box that is no sentence of the text', FACTORY, "\"${esc(a.answer)}\"</div>`;", "\"${esc(a.q)}\"</div>`;", 'G3-495', 1],
   ['all right questions in one place', FACTORY, "const at = placesFor(4, rng);", "const at = [1, 1, 1, 1];", 'G3-495', 1],
   ['the line begins with another question word', FACTORY, "w: inner, h: d.rowH, starter: a.word, answer: key ? a.q : null, sample: true }), 6));", "w: inner, h: d.rowH, starter: 'Which', answer: key ? a.q : null, sample: true }), 6));", 'G3-495', 2],
   ['two own questions with the same first word', FACTORY, "const three = shuffle(t.ask, rng).slice(0, 3);", "const three = [t.ask[0], t.ask[0], t.ask[1]];", 'G3-495', 3],
   // Main Idea and Key Details (G3-496)
-  ['the headings are printed on the main-idea page', FACTORY, "headings: mode === 'evidence' || mode === 'ask' }", "headings: true }", 'G3-496', 2],
+  ['the headings are printed on the main-idea page', FACTORY, "headings: !story && (mode === 'evidence' || mode === 'ask') }", "headings: true }", 'G3-496', 2],
   ['the sentence that is not in the text stands last', FACTORY, "if (rows[3].ok) break;", "rows = [...t.details.map((s) => ({ s, ok: 1 })), { s: t.notInText, ok: 0 }]; break;", 'G3-496', 1],
   ['the check boxes keyed the wrong way round', FACTORY, "${tick(!!r.ok)}", "${tick(!r.ok)}", 'G3-496', 1],
   ['a summary on level 2', FACTORY, "const sum = lv === 3 ? cream(", "const sum = lv >= 2 ? cream(", 'G3-496', 2],

@@ -1,0 +1,1001 @@
+{
+ "_note": "STORIES for the reading pages of the English literacy year (Daily Teaching System Part 12.3). Key `g3` (2026-11-16, read by a US Grade 3 reviewer with the rendered pages, every finding applied): five fables and folktales retold in about 210 words and FOUR numbered paragraphs (`parts[].sentences`, written one by one), one library picture; `message` the central message with the message of another story (`lure`) and a sentence that takes the story too literally (`literal`); `shows` three events that show the message, `notInStory` one that the story does not tell, `how` a sample sentence for the key; five `questions` with the paragraph and the proving sentence; four `ask` sentences with their question and a wrong question about the same paragraph; two `traits` (who, the trait, two wrong traits, the sentence that shows it); `connect` as in info-texts.en.json (the story in four events, four actions with what they lead to, a sample because-sentence); `plain` a sentence that shows no trait, `end` how a character feels at the end; `talk` four open questions for a group talk.",
+ "g3": [
+  {
+   "id": "lion-and-mouse",
+   "title": "The Lion and the Mouse",
+   "kind": "a fable",
+   "picture": {
+    "theme": "zoo animals",
+    "noun": "lion"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A lion lay asleep in the shade of a tall tree.",
+      "A little mouse ran across the grass and did not look where she was going.",
+      "She ran right over the lion's nose.",
+      "The lion woke up with a roar and caught her under his huge paw."
+     ]
+    },
+    {
+     "sentences": [
+      "\"Please let me go,\" cried the mouse.",
+      "\"If you spare me, I will help you one day.\"",
+      "The lion laughed.",
+      "He asked, \"How could a tiny mouse ever help the king of the animals?\"",
+      "But he was not very hungry, and her promise amused him.",
+      "He lifted his paw and let her go."
+     ]
+    },
+    {
+     "sentences": [
+      "A few weeks later, the lion walked into a hunter's trap.",
+      "A net of thick ropes fell over him.",
+      "He pulled and twisted, but the ropes only grew tighter.",
+      "He roared so loudly that the whole forest heard him.",
+      "Far away, the little mouse knew that voice at once."
+     ]
+    },
+    {
+     "sentences": [
+      "She ran to the lion as fast as she could.",
+      "Then she began to gnaw at the ropes with her sharp teeth.",
+      "One rope after another snapped.",
+      "At last the lion shook off the net and stood up.",
+      "\"You laughed at me once,\" said the mouse.",
+      "\"Now you know that even a little friend can be a great help.\""
+     ]
+    }
+   ],
+   "message": {
+    "right": "Even a small friend can be a great help.",
+    "lure": "It is wise to work and save today for the days to come.",
+    "literal": "A lion should watch out for hunters."
+   },
+   "shows": [
+    "The lion laughs at the idea that a mouse could help him.",
+    "The mouse hears the lion roar and runs to him.",
+    "The mouse gnaws through the ropes and sets the lion free."
+   ],
+   "notInStory": "The mouse brings the other animals to pull the net away.",
+   "how": "The lion laughs at the little mouse, but in the end she is the one who saves him.",
+   "questions": [
+    {
+     "q": "Why did the lion wake up?",
+     "answer": "The mouse ran over his nose.",
+     "wrong": [
+      "A hunter made a noise.",
+      "He was hungry."
+     ],
+     "part": 1,
+     "proof": "She ran right over the lion's nose."
+    },
+    {
+     "q": "What did the mouse promise the lion?",
+     "answer": "to help him one day",
+     "wrong": [
+      "to bring him food",
+      "to stay away from his tree"
+     ],
+     "part": 2,
+     "proof": "\"If you spare me, I will help you one day.\""
+    },
+    {
+     "q": "What happened when the lion pulled at the ropes?",
+     "answer": "They grew tighter.",
+     "wrong": [
+      "They snapped.",
+      "They fell off."
+     ],
+     "part": 3,
+     "proof": "He pulled and twisted, but the ropes only grew tighter."
+    },
+    {
+     "q": "How did the mouse know that the lion was in trouble?",
+     "answer": "She heard his roar.",
+     "wrong": [
+      "She saw the hunter.",
+      "A bird told her."
+     ],
+     "part": 3,
+     "proof": "Far away, the little mouse knew that voice at once."
+    },
+    {
+     "q": "How did the mouse set the lion free?",
+     "answer": "She gnawed through the ropes.",
+     "wrong": [
+      "She untied the knots.",
+      "She called the other animals."
+     ],
+     "part": 4,
+     "proof": "Then she began to gnaw at the ropes with her sharp teeth."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where was the lion sleeping?",
+     "answer": "A lion lay asleep in the shade of a tall tree.",
+     "lure": "Who ran across the grass?"
+    },
+    {
+     "word": "Why",
+     "q": "Why did the lion let the mouse go?",
+     "answer": "But he was not very hungry, and her promise amused him.",
+     "lure": "What did the mouse promise?"
+    },
+    {
+     "word": "What",
+     "q": "What fell over the lion?",
+     "answer": "A net of thick ropes fell over him.",
+     "lure": "Who heard the lion roar?"
+    },
+    {
+     "word": "How",
+     "q": "How did the mouse cut the ropes?",
+     "answer": "Then she began to gnaw at the ropes with her sharp teeth.",
+     "lure": "What did the mouse say to the lion?"
+    }
+   ],
+   "traits": [
+    {
+     "who": "the lion",
+     "trait": "proud",
+     "wrong": [
+      "shy",
+      "greedy"
+     ],
+     "proof": "He asked, \"How could a tiny mouse ever help the king of the animals?\""
+    },
+    {
+     "who": "the mouse",
+     "trait": "loyal",
+     "wrong": [
+      "forgetful",
+      "selfish"
+     ],
+     "proof": "She ran to the lion as fast as she could."
+    }
+   ],
+   "connect": {
+    "topic": "what happens in the story",
+    "chain": [
+     "A mouse runs over a sleeping lion, and he catches her.",
+     "The mouse promises to help him, and the lion lets her go.",
+     "The lion is caught in a hunter's net.",
+     "The mouse gnaws through the ropes and sets the lion free."
+    ],
+    "links": [
+     {
+      "cause": "The mouse ran over the lion's nose.",
+      "effect": "The lion woke up and caught her."
+     },
+     {
+      "cause": "Her promise amused the lion.",
+      "effect": "He lifted his paw and let her go."
+     },
+     {
+      "cause": "The lion roared loudly in the net.",
+      "effect": "The mouse heard him far away."
+     },
+     {
+      "cause": "The mouse gnawed through the ropes.",
+      "effect": "The lion could shake off the net."
+     }
+    ],
+    "explain": "The lion gets free because the mouse gnaws through the ropes."
+   },
+   "plain": "A few weeks later, the lion walked into a hunter's trap.",
+   "end": {
+    "who": "the lion",
+    "feeling": "thankful",
+    "why": "the mouse set him free"
+   },
+   "talk": [
+    "Why do you think the mouse's promise amused the lion?",
+    "Was the lion right to laugh at the mouse? Why or why not?",
+    "Why did the mouse come back to help the lion?",
+    "Who was stronger in the end, the lion or the mouse? Explain."
+   ]
+  },
+  {
+   "id": "ant-and-grasshopper",
+   "title": "The Ant and the Grasshopper",
+   "kind": "a fable",
+   "picture": {
+    "theme": "forest creatures",
+    "noun": "grasshopper"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "All summer long, a grasshopper sat in the sun and played his fiddle.",
+      "He sang and danced from morning to night.",
+      "Near him, an ant walked back and forth in the heat.",
+      "She carried one grain of wheat after another to her nest.",
+      "\"Come and sing with me,\" called the grasshopper."
+     ]
+    },
+    {
+     "sentences": [
+      "\"I cannot,\" said the ant.",
+      "\"I am storing food for the winter, and you should do the same.\"",
+      "The grasshopper laughed at her.",
+      "\"Winter is far away, and there is plenty to eat today,\" he said.",
+      "So he played on, and the ant went back to her work."
+     ]
+    },
+    {
+     "sentences": [
+      "Then the days grew short and cold.",
+      "Snow covered the fields, and nothing green was left to eat.",
+      "The grasshopper had no food and no warm place to stay.",
+      "Hungry and shivering, he dragged himself to the ant's nest.",
+      "Inside, the ants were sharing the wheat they had stored."
+     ]
+    },
+    {
+     "sentences": [
+      "\"Please give me something to eat,\" begged the grasshopper.",
+      "The ant looked at him for a long moment.",
+      "She asked, \"What did you do all summer?\"",
+      "The grasshopper answered quietly, \"I sang.\"",
+      "The ant gave him a few grains and said, \"Next summer, sing a little less and gather a little more.\"",
+      "The grasshopper never forgot that winter."
+     ]
+    }
+   ],
+   "message": {
+    "right": "It is wise to work and save today for the days to come.",
+    "lure": "Treat others the way you want to be treated.",
+    "literal": "Grasshoppers should not play the fiddle."
+   },
+   "shows": [
+    "The ant stores wheat all summer while the grasshopper sings.",
+    "The grasshopper says that winter is far away.",
+    "In winter the ants have food, and the grasshopper has none."
+   ],
+   "notInStory": "The ant loses her wheat in a summer storm.",
+   "how": "The ant works in summer and has food in winter, but the grasshopper only plays and goes hungry.",
+   "questions": [
+    {
+     "q": "What did the ant carry to her nest?",
+     "answer": "grains of wheat",
+     "wrong": [
+      "green leaves",
+      "a fiddle"
+     ],
+     "part": 1,
+     "proof": "She carried one grain of wheat after another to her nest."
+    },
+    {
+     "q": "Why didn't the ant sing with the grasshopper?",
+     "answer": "She was storing food for the winter.",
+     "wrong": [
+      "She did not like music.",
+      "She was too tired."
+     ],
+     "part": 2,
+     "proof": "\"I am storing food for the winter, and you should do the same.\""
+    },
+    {
+     "q": "Why didn't the grasshopper store food?",
+     "answer": "He thought winter was far away.",
+     "wrong": [
+      "He could not find any food.",
+      "The ant would not let him."
+     ],
+     "part": 2,
+     "proof": "\"Winter is far away, and there is plenty to eat today,\" he said."
+    },
+    {
+     "q": "Where did the grasshopper go when he was hungry?",
+     "answer": "to the ant's nest",
+     "wrong": [
+      "to the snowy fields",
+      "to a warm barn"
+     ],
+     "part": 3,
+     "proof": "Hungry and shivering, he dragged himself to the ant's nest."
+    },
+    {
+     "q": "What did the grasshopper answer when the ant asked about his summer?",
+     "answer": "that he sang",
+     "wrong": [
+      "that he gathered wheat",
+      "that he slept"
+     ],
+     "part": 4,
+     "proof": "The grasshopper answered quietly, \"I sang.\""
+    }
+   ],
+   "ask": [
+    {
+     "word": "When",
+     "q": "When did the grasshopper play his fiddle?",
+     "answer": "All summer long, a grasshopper sat in the sun and played his fiddle.",
+     "lure": "What did the ant carry to her nest?"
+    },
+    {
+     "word": "What",
+     "q": "What covered the fields?",
+     "answer": "Snow covered the fields, and nothing green was left to eat.",
+     "lure": "What were the ants sharing?"
+    },
+    {
+     "word": "Where",
+     "q": "Where did the grasshopper drag himself?",
+     "answer": "Hungry and shivering, he dragged himself to the ant's nest.",
+     "lure": "When did the days grow short?"
+    },
+    {
+     "word": "Who",
+     "q": "Who never forgot that winter?",
+     "answer": "The grasshopper never forgot that winter.",
+     "lure": "What did the ant give the grasshopper?"
+    }
+   ],
+   "traits": [
+    {
+     "who": "the grasshopper",
+     "trait": "carefree",
+     "wrong": [
+      "shy",
+      "grumpy"
+     ],
+     "proof": "He sang and danced from morning to night."
+    },
+    {
+     "who": "the ant",
+     "trait": "hard-working",
+     "wrong": [
+      "clumsy",
+      "brave"
+     ],
+     "proof": "She carried one grain of wheat after another to her nest."
+    }
+   ],
+   "connect": {
+    "topic": "what happens in the story",
+    "chain": [
+     "The grasshopper plays all summer while the ant stores food.",
+     "The ant tells him to store food too, but he laughs.",
+     "Winter comes, and the grasshopper has nothing to eat.",
+     "The ant gives him a few grains and some advice."
+    ],
+    "links": [
+     {
+      "cause": "The ant stored wheat all summer.",
+      "effect": "The ants had wheat to share in winter."
+     },
+     {
+      "cause": "The grasshopper only sang and danced.",
+      "effect": "He had nothing saved for the winter."
+     },
+     {
+      "cause": "Snow covered the fields.",
+      "effect": "Nothing green was left to eat."
+     },
+     {
+      "cause": "The grasshopper begged at the nest.",
+      "effect": "The ant gave him a few grains."
+     }
+    ],
+    "explain": "The grasshopper is hungry in winter because he stored no food in summer."
+   },
+   "plain": "Then the days grew short and cold.",
+   "end": {
+    "who": "the grasshopper",
+    "feeling": "sorry",
+    "why": "he stored no food and had to beg"
+   },
+   "talk": [
+    "Was the grasshopper wrong to sing all summer? Why or why not?",
+    "Was the ant kind or unkind to the grasshopper? Explain.",
+    "What do you think the grasshopper will do next summer? Why?",
+    "Why did the ant ask what the grasshopper did all summer?"
+   ]
+  },
+  {
+   "id": "crow-and-pitcher",
+   "title": "The Crow and the Pitcher",
+   "kind": "a fable",
+   "picture": {
+    "theme": "kitchen tools",
+    "noun": "pitcher"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "It had not rained for many weeks.",
+      "The streams were dry, and the fields were brown.",
+      "A thirsty crow flew from place to place and looked for water.",
+      "Her throat was as dry as dust.",
+      "At last she saw a tall pitcher on a garden table.",
+      "She flew down to it at once."
+     ]
+    },
+    {
+     "sentences": [
+      "There was water in the pitcher, but only a little at the bottom.",
+      "The crow pushed her beak in as far as it would go.",
+      "She could not reach the water.",
+      "She tried to tip the pitcher over, but it was too heavy for her.",
+      "The crow was close to giving up."
+     ]
+    },
+    {
+     "sentences": [
+      "Then she noticed some pebbles on the garden path.",
+      "That gave her an idea.",
+      "She picked up a pebble in her beak and dropped it into the pitcher.",
+      "The water rose a tiny bit.",
+      "She dropped in another pebble, and then another.",
+      "Each pebble took up some room at the bottom."
+     ]
+    },
+    {
+     "sentences": [
+      "It was slow work, and the sun was hot.",
+      "But the crow did not stop.",
+      "Pebble by pebble, the water climbed higher and higher.",
+      "At last it reached the top of the pitcher.",
+      "The crow dipped her beak in and drank until she was no longer thirsty.",
+      "Then she flew away, pleased with her clever plan."
+     ]
+    }
+   ],
+   "message": {
+    "right": "A hard problem can be solved with good thinking and patience.",
+    "lure": "Treat others the way you want to be treated.",
+    "literal": "Crows like to drink from pitchers."
+   },
+   "shows": [
+    "The crow cannot reach the water or tip the pitcher over.",
+    "The crow gets an idea when she notices the pebbles.",
+    "The crow keeps dropping pebbles until the water reaches the top."
+   ],
+   "notInStory": "The crow asks a gardener to pour the water into a bowl.",
+   "how": "The crow cannot reach the water, but she thinks of a plan and keeps working until it succeeds.",
+   "questions": [
+    {
+     "q": "Why was the crow looking for water?",
+     "answer": "She was thirsty.",
+     "wrong": [
+      "She wanted to take a bath.",
+      "She wanted to water the garden."
+     ],
+     "part": 1,
+     "proof": "A thirsty crow flew from place to place and looked for water."
+    },
+    {
+     "q": "How much water was in the pitcher?",
+     "answer": "only a little at the bottom",
+     "wrong": [
+      "none at all",
+      "water up to the top"
+     ],
+     "part": 2,
+     "proof": "There was water in the pitcher, but only a little at the bottom."
+    },
+    {
+     "q": "Why couldn't the crow tip the pitcher over?",
+     "answer": "It was too heavy for her.",
+     "wrong": [
+      "It was tied to the table.",
+      "It was too hot to touch."
+     ],
+     "part": 2,
+     "proof": "She tried to tip the pitcher over, but it was too heavy for her."
+    },
+    {
+     "q": "What did the crow drop into the pitcher?",
+     "answer": "pebbles",
+     "wrong": [
+      "leaves",
+      "seeds"
+     ],
+     "part": 3,
+     "proof": "She picked up a pebble in her beak and dropped it into the pitcher."
+    },
+    {
+     "q": "How high did the water climb in the end?",
+     "answer": "to the top of the pitcher",
+     "wrong": [
+      "halfway up",
+      "over the top and onto the table"
+     ],
+     "part": 4,
+     "proof": "At last it reached the top of the pitcher."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where did the crow see the pitcher?",
+     "answer": "At last she saw a tall pitcher on a garden table.",
+     "lure": "Why were the fields brown?"
+    },
+    {
+     "word": "Why",
+     "q": "Why couldn't the crow tip the pitcher over?",
+     "answer": "She tried to tip the pitcher over, but it was too heavy for her.",
+     "lure": "How far did the crow push her beak in?"
+    },
+    {
+     "word": "What",
+     "q": "What did the crow notice on the path?",
+     "answer": "Then she noticed some pebbles on the garden path.",
+     "lure": "What happened to the water?"
+    },
+    {
+     "word": "How",
+     "q": "How long did the crow drink?",
+     "answer": "The crow dipped her beak in and drank until she was no longer thirsty.",
+     "lure": "What was the weather like?"
+    }
+   ],
+   "traits": [
+    {
+     "who": "the crow",
+     "trait": "clever",
+     "wrong": [
+      "careless",
+      "bossy"
+     ],
+     "proof": "She picked up a pebble in her beak and dropped it into the pitcher."
+    },
+    {
+     "who": "the crow",
+     "trait": "patient",
+     "wrong": [
+      "lazy",
+      "shy"
+     ],
+     "proof": "But the crow did not stop."
+    }
+   ],
+   "connect": {
+    "topic": "what happens in the story",
+    "chain": [
+     "A thirsty crow finds a pitcher with a little water.",
+     "She cannot reach the water or tip the pitcher over.",
+     "She drops pebbles into the pitcher one by one.",
+     "The water rises to the top, and the crow drinks."
+    ],
+    "links": [
+     {
+      "cause": "It had not rained for many weeks.",
+      "effect": "The streams were dry."
+     },
+     {
+      "cause": "The pitcher was too heavy for the crow.",
+      "effect": "She could not tip it over."
+     },
+     {
+      "cause": "The crow dropped pebbles into the pitcher.",
+      "effect": "The water rose higher."
+     },
+     {
+      "cause": "The water reached the top of the pitcher.",
+      "effect": "The crow could drink."
+     }
+    ],
+    "explain": "The water rises because the pebbles take up room at the bottom of the pitcher."
+   },
+   "plain": "It had not rained for many weeks.",
+   "end": {
+    "who": "the crow",
+    "feeling": "pleased",
+    "why": "her plan worked and she could drink"
+   },
+   "talk": [
+    "Why didn't the crow give up?",
+    "Which helped the crow more, her idea or not giving up? Why?",
+    "What does the story show about the crow?",
+    "Which part of the crow's plan was the hardest? Why?"
+   ]
+  },
+  {
+   "id": "stone-soup",
+   "title": "Stone Soup",
+   "kind": "a folktale",
+   "picture": {
+    "theme": "kitchen tools",
+    "noun": "pot"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A hungry traveler walked into a small village.",
+      "He knocked on every door and asked for a little food.",
+      "\"We have nothing to spare,\" the villagers said, and they closed their doors.",
+      "The traveler smiled.",
+      "He filled a big pot with water, set it over a fire in the square, and dropped in a smooth stone."
+     ]
+    },
+    {
+     "sentences": [
+      "A woman came out to see what he was doing.",
+      "\"I am making stone soup,\" said the traveler.",
+      "\"It is delicious, but it would be even better with a carrot.\"",
+      "The woman was curious.",
+      "She ran home and came back with three carrots.",
+      "Soon a small crowd stood around the pot."
+     ]
+    },
+    {
+     "sentences": [
+      "\"A few potatoes would make it perfect,\" said the traveler.",
+      "A farmer brought potatoes.",
+      "Then a boy brought an onion, and a baker brought salt and herbs.",
+      "One after another, the villagers added what they had hidden away.",
+      "The pot bubbled, and a wonderful smell filled the square."
+     ]
+    },
+    {
+     "sentences": [
+      "When the soup was ready, the traveler took out the stone.",
+      "There was enough soup for everyone in the village.",
+      "They carried out tables and ate together, laughing and talking late into the night.",
+      "\"What a fine soup, and all from a stone!\" said the woman.",
+      "The traveler smiled again, put the stone in his pocket, and went on his way."
+     ]
+    }
+   ],
+   "message": {
+    "right": "When everyone shares a little, there is enough for all.",
+    "lure": "It is wise to work and save today for the days to come.",
+    "literal": "A stone makes soup taste better."
+   },
+   "shows": [
+    "At first the villagers say they have nothing to spare.",
+    "One after another, the villagers add what they had hidden away.",
+    "There is enough soup for everyone in the village."
+   ],
+   "notInStory": "The traveler buys vegetables at the village market.",
+   "how": "Each villager gives only a little, and together they make a soup that feeds the whole village.",
+   "questions": [
+    {
+     "q": "What did the villagers do when the traveler asked for food?",
+     "answer": "They closed their doors.",
+     "wrong": [
+      "They invited him in.",
+      "They gave him bread."
+     ],
+     "part": 1,
+     "proof": "\"We have nothing to spare,\" the villagers said, and they closed their doors."
+    },
+    {
+     "q": "What did the traveler drop into the pot of water?",
+     "answer": "a smooth stone",
+     "wrong": [
+      "a carrot",
+      "a handful of salt"
+     ],
+     "part": 1,
+     "proof": "He filled a big pot with water, set it over a fire in the square, and dropped in a smooth stone."
+    },
+    {
+     "q": "What did the woman bring from home?",
+     "answer": "three carrots",
+     "wrong": [
+      "an onion",
+      "potatoes"
+     ],
+     "part": 2,
+     "proof": "She ran home and came back with three carrots."
+    },
+    {
+     "q": "Who brought salt and herbs?",
+     "answer": "a baker",
+     "wrong": [
+      "a farmer",
+      "a boy"
+     ],
+     "part": 3,
+     "proof": "Then a boy brought an onion, and a baker brought salt and herbs."
+    },
+    {
+     "q": "What did the traveler do with the stone at the end?",
+     "answer": "He put it in his pocket.",
+     "wrong": [
+      "He gave it to the woman.",
+      "He left it in the pot."
+     ],
+     "part": 4,
+     "proof": "The traveler smiled again, put the stone in his pocket, and went on his way."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Where",
+     "q": "Where did the traveler set the pot?",
+     "answer": "He filled a big pot with water, set it over a fire in the square, and dropped in a smooth stone.",
+     "lure": "What did the villagers say?"
+    },
+    {
+     "word": "What",
+     "q": "What did the woman bring back?",
+     "answer": "She ran home and came back with three carrots.",
+     "lure": "Who stood around the pot?"
+    },
+    {
+     "word": "Who",
+     "q": "Who brought potatoes?",
+     "answer": "A farmer brought potatoes.",
+     "lure": "What filled the square?"
+    },
+    {
+     "word": "When",
+     "q": "When did the traveler take out the stone?",
+     "answer": "When the soup was ready, the traveler took out the stone.",
+     "lure": "What did the woman say about the soup?"
+    }
+   ],
+   "traits": [
+    {
+     "who": "the traveler",
+     "trait": "clever",
+     "wrong": [
+      "shy",
+      "clumsy"
+     ],
+     "proof": "\"It is delicious, but it would be even better with a carrot.\""
+    },
+    {
+     "who": "the villagers",
+     "trait": "selfish",
+     "wrong": [
+      "generous",
+      "brave"
+     ],
+     "proof": "\"We have nothing to spare,\" the villagers said, and they closed their doors.",
+     "first": true
+    }
+   ],
+   "connect": {
+    "topic": "what happens in the story",
+    "chain": [
+     "The villagers give the hungry traveler no food.",
+     "The traveler starts a pot of stone soup in the square.",
+     "One after another, the villagers add vegetables, salt, and herbs.",
+     "The whole village eats the soup together."
+    ],
+    "links": [
+     {
+      "cause": "The traveler set a pot over a fire in the square.",
+      "effect": "A woman came out to see what he was doing."
+     },
+     {
+      "cause": "The traveler said a carrot would make the soup even better.",
+      "effect": "The woman ran home for carrots."
+     },
+     {
+      "cause": "The traveler said a few potatoes would make the soup perfect.",
+      "effect": "A farmer brought potatoes."
+     },
+     {
+      "cause": "Everyone gave a little food.",
+      "effect": "There was enough soup for the whole village."
+     }
+    ],
+    "explain": "There is enough soup for everyone because each villager adds a little food."
+   },
+   "plain": "A hungry traveler walked into a small village.",
+   "end": {
+    "who": "the villagers",
+    "feeling": "happy",
+    "why": "they eat a good soup together"
+   },
+   "pluralWho": [
+    "the villagers"
+   ],
+   "talk": [
+    "Did the traveler trick the villagers? Explain.",
+    "Why did the villagers share in the end but not at the start?",
+    "Why did the traveler take out the stone before they ate?",
+    "Was the soup really made from a stone? Explain."
+   ]
+  },
+  {
+   "id": "fox-and-stork",
+   "title": "The Fox and the Stork",
+   "kind": "a fable",
+   "picture": {
+    "theme": "birds 2",
+    "noun": "stork"
+   },
+   "parts": [
+    {
+     "sentences": [
+      "A fox invited a stork to dinner.",
+      "The stork put on her best feathers and came with a big appetite.",
+      "The fox had cooked a thin soup, and he served it in two shallow dishes.",
+      "He lapped up his soup in no time.",
+      "With a grin he asked, \"Isn't it delicious?\""
+     ]
+    },
+    {
+     "sentences": [
+      "The stork could only dip the tip of her long bill into the dish.",
+      "She did not get a single drop.",
+      "The fox laughed behind his paw.",
+      "The stork stayed polite and thanked him for the evening.",
+      "\"You must come to dinner at my house next week,\" she said."
+     ]
+    },
+    {
+     "sentences": [
+      "A week later, the fox knocked on the stork's door.",
+      "A wonderful smell of fish stew came from the kitchen.",
+      "The stork served the stew in two tall jars with narrow necks.",
+      "She put her long bill into her jar and ate with pleasure.",
+      "\"Please help yourself,\" she said."
+     ]
+    },
+    {
+     "sentences": [
+      "The fox could not get his nose into the jar.",
+      "He could only lick a little stew from the rim.",
+      "His stomach growled all evening.",
+      "At the door he hung his head.",
+      "\"I am sorry I played a trick on you,\" he said.",
+      "The stork smiled and answered, \"Now we both know how it feels.\""
+     ]
+    }
+   ],
+   "message": {
+    "right": "Treat others the way you want to be treated.",
+    "lure": "When everyone shares a little, there is enough for all.",
+    "literal": "Soup should be served in tall jars."
+   },
+   "shows": [
+    "The fox serves soup in shallow dishes and laughs when the stork cannot eat.",
+    "The stork serves stew in tall jars, and the fox cannot eat.",
+    "The fox says he is sorry for his trick."
+   ],
+   "notInStory": "The stork breaks the fox's dishes in anger.",
+   "how": "The fox learns how his trick felt when the stork does the same thing to him.",
+   "questions": [
+    {
+     "q": "What did the fox serve the soup in?",
+     "answer": "in two shallow dishes",
+     "wrong": [
+      "in two tall jars",
+      "in one big pot"
+     ],
+     "part": 1,
+     "proof": "The fox had cooked a thin soup, and he served it in two shallow dishes."
+    },
+    {
+     "q": "What happened when the stork tried to eat the soup?",
+     "answer": "She could dip in only the tip of her bill.",
+     "wrong": [
+      "She spilled it on the table.",
+      "She drank it all."
+     ],
+     "part": 2,
+     "proof": "The stork could only dip the tip of her long bill into the dish."
+    },
+    {
+     "q": "How did the stork act at the end of the evening?",
+     "answer": "She stayed polite and thanked the fox.",
+     "wrong": [
+      "She shouted at the fox.",
+      "She cried and ran home."
+     ],
+     "part": 2,
+     "proof": "The stork stayed polite and thanked him for the evening."
+    },
+    {
+     "q": "What did the stork serve the stew in?",
+     "answer": "in two tall jars with narrow necks",
+     "wrong": [
+      "in two shallow dishes",
+      "in a wide bowl"
+     ],
+     "part": 3,
+     "proof": "The stork served the stew in two tall jars with narrow necks."
+    },
+    {
+     "q": "What did the fox say at the door?",
+     "answer": "that he was sorry for his trick",
+     "wrong": [
+      "that the stew was too salty",
+      "that he would never come back"
+     ],
+     "part": 4,
+     "proof": "\"I am sorry I played a trick on you,\" he said."
+    }
+   ],
+   "ask": [
+    {
+     "word": "Who",
+     "q": "Who invited the stork to dinner?",
+     "answer": "A fox invited a stork to dinner.",
+     "lure": "What had the fox cooked?"
+    },
+    {
+     "word": "When",
+     "q": "When did the fox knock on the stork's door?",
+     "answer": "A week later, the fox knocked on the stork's door.",
+     "lure": "What smell came from the kitchen?"
+    },
+    {
+     "word": "How",
+     "q": "How did the stork eat her stew?",
+     "answer": "She put her long bill into her jar and ate with pleasure.",
+     "lure": "What did the stork say to the fox?"
+    },
+    {
+     "word": "What",
+     "q": "What growled all evening?",
+     "answer": "His stomach growled all evening.",
+     "lure": "What did the fox lick from the rim?"
+    }
+   ],
+   "traits": [
+    {
+     "who": "the fox",
+     "trait": "rude",
+     "wrong": [
+      "shy",
+      "brave"
+     ],
+     "proof": "The fox laughed behind his paw."
+    },
+    {
+     "who": "the stork",
+     "trait": "polite",
+     "wrong": [
+      "lazy",
+      "clumsy"
+     ],
+     "proof": "The stork stayed polite and thanked him for the evening."
+    }
+   ],
+   "connect": {
+    "topic": "what happens in the story",
+    "chain": [
+     "The fox serves soup in shallow dishes, and the stork cannot eat.",
+     "The stork invites the fox to dinner at her house.",
+     "The stork serves stew in tall jars, and the fox cannot eat.",
+     "The fox says he is sorry for his trick."
+    ],
+    "links": [
+     {
+      "cause": "The fox served the soup in shallow dishes.",
+      "effect": "The stork did not get a single drop."
+     },
+     {
+      "cause": "The stork invited the fox to dinner.",
+      "effect": "A week later, the fox came to her house."
+     },
+     {
+      "cause": "The stork served the stew in jars with narrow necks.",
+      "effect": "The fox could not get his nose in."
+     },
+     {
+      "cause": "The fox went hungry all evening.",
+      "effect": "He understood how the stork had felt."
+     }
+    ],
+    "explain": "The fox cannot eat the stew because the jars have narrow necks."
+   },
+   "plain": "A week later, the fox knocked on the stork's door.",
+   "end": {
+    "who": "the fox",
+    "feeling": "sorry",
+    "why": "he learned how his trick felt"
+   },
+   "talk": [
+    "Was the stork right to serve the stew in tall jars? Why or why not?",
+    "Why did the stork stay polite at the fox's house?",
+    "Do you think the fox will play tricks again? Why?",
+    "What did the stork mean by \"Now we both know how it feels\"?"
+   ]
+  }
+ ]
+}

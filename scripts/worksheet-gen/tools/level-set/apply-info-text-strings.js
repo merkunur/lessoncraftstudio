@@ -128,6 +128,54 @@ const TEXT = {
     2: "This text is printed as a small book. Read it. Write the letter of the text feature you would use. Then use it and write what you find.",
     3: "This text is printed as a small book. Read it. For each text feature, write a question that it answers. Then write the answer.",
   },
+  'G3-502': {
+    title: "Show Where the Story Says It",
+    1: "Read the story. Circle each answer. The number after each question tells which paragraph has the answer.",
+    2: "Read the story. Write each answer. In the box, write the number of the paragraph that proves your answer.",
+    3: "Read the story. Write each answer and the number of the paragraph that proves it. Then copy the sentence from the story that proves your answer.",
+  },
+  'G3-503': {
+    title: "Ask and Answer About a Story",
+    1: "Read the story. Each sentence in a box is from the story. Circle the question that the sentence answers.",
+    2: "Read the story. Each sentence in a box is from the story. Write the question that the sentence answers. The first word is given.",
+    3: "Read the story. Write three questions about it. Begin each one with the word given. Then write each answer and the number of the paragraph that tells it.",
+  },
+  'G3-504': {
+    title: "The Central Message",
+    1: "Read the story. Circle its central message. Then check the three sentences that show the message.",
+    2: "Read the story. Write its central message and three things in the story that show it.",
+    3: "Read the story. Write its central message and three things that show it. Then tell how the ending teaches the message.",
+  },
+  'G3-505': {
+    title: "Retell the Story",
+    1: "Read the story. Put the four events in order. Then circle the answer to each question.",
+    2: "Read the story. Then retell it: write the four main events in order.",
+    3: "Read the story. Retell it: write the four main events in order. Then explain why one of them happens or what it leads to.",
+  },
+  'G3-506': {
+    title: "Character Traits",
+    1: "Read the story. Circle the word that tells what each character is like. Then write the letter of the sentence that shows it.",
+    2: "Read the story. Choose a word from the list for each character and write it. Then copy the sentence from the story that shows it.",
+    3: "Read the story. Tell what each character is like in a word of your own, and copy the sentence that shows it. Then tell how a character feels at the end.",
+  },
+  'G3-507': {
+    title: "Cause and Effect in a Story",
+    1: "Read the story. In a story, one thing can make another thing happen. Next to each cause, write the letter of its effect.",
+    2: "Read the story. In a story, one thing can make another thing happen. Write the missing cause or effect.",
+    3: "Read the story. Write the missing cause or effect. Then write the cause and the effect as one sentence with because or so.",
+  },
+  'G3-508': {
+    title: "Get Ready to Talk About a Story",
+    1: "Read the story. Get ready to talk about it with your group. Write your notes.",
+    2: "Read the story. Get ready to talk about it with your group. Write your notes and copy the words you will read aloud.",
+    3: "Read the story. Get ready to talk about it with your group. Write your notes. Be ready to show the part of the story that supports each note.",
+  },
+  'G3-509': {
+    title: "Talk About the Story",
+    1: "Read the story. Think about each question before your group talks. Write your idea and the number of the paragraph that supports it.",
+    2: "Read the story. Think about each question before your group talks. Write your idea and the number of the paragraph that supports it.",
+    3: "Read the story. Write your idea for each question and the number of the paragraph that supports it. Then write a question of your own for the group.",
+  },
 };
 
 function edit(file, fn) {

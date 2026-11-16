@@ -60,8 +60,10 @@ const LEVELS = {
 const ARROW = `<svg data-lcs-arrow width="18" height="12" viewBox="0 0 18 12" style="display:block;margin:0 auto"><path d="M9 0 V7 M3.5 4.5 L9 11 L14.5 4.5" fill="none" stroke="${T.teal}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const given = (kind, text) => `<div data-lcs-given="${kind}" style="font:700 14.5px/1.25 'Nunito',sans-serif;color:${T.ink}"><b style="font-weight:800;color:${T.teal}">${kind === 'cause' ? 'Cause:' : 'Effect:'}</b> ${esc(text)}</div>`;
 
-function makeInfoText3cType({ id, slug, mode, i18n }) {
-  const D = LEVELS[mode];
+/** `texts` + `story: true`: the page prints a STORY of another bank (story-g3.js): four paragraphs, no headings */
+function makeInfoText3cType({ id, slug, mode, i18n, texts, story, levels }) {
+  const POOL = texts || TEXTS;
+  const D = LEVELS[mode] && { ...LEVELS[mode], ...(levels || {}) };   // levels: sizes of its own for a shorter text (a story)
   if (!D) throw new Error('info-text-g3c: unknown mode ' + mode);
   return {
     id, slug, gradeBand: 'G3', assetClass: 'none', exerciseType: 'reading-comprehension',
@@ -73,7 +75,7 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
       const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng;
       const key = !!(ctx && ctx.answerKey);
-      const t = rng.sample(TEXTS, 1)[0], c = t.connect;
+      const t = rng.sample(POOL, 1)[0], c = t.connect;
       const inner = W - 24;
       let below = '', items = [];
 
@@ -85,11 +87,11 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
           const at = [rng.int(0, 2), 0]; at[1] = (at[0] + 1 + rng.int(0, 1)) % 3;
           const q = (n, text, right, wrong, k) => cream(`data-lcs-question="${n}"`, label(num(n) + text, 14) + choices(placed(right, shuffle(wrong, rng), at[k]), at[k], key, { column: true, font: 13.5 }), 5);
           below = strips + `<div data-lcs-qgrid style="flex:0 0 auto;display:grid;grid-template-columns:1fr 1fr;gap:6px 14px">` +
-            q(1, 'Which event or step comes right <b>after</b> the first one?', c.chain[1], [c.chain[2], c.chain[3]], 0) + q(2, 'Which event or step comes right <b>before</b> the last one?', c.chain[2], [c.chain[0], c.chain[1]], 1) + `</div>`;
+            q(1, `Which ${story ? 'event' : 'event or step'} comes right <b>after</b> the first one?`, c.chain[1], [c.chain[2], c.chain[3]], 0) + q(2, `Which ${story ? 'event' : 'event or step'} comes right <b>before</b> the last one?`, c.chain[2], [c.chain[0], c.chain[1]], 1) + `</div>`;
         } else {
-          const lines = c.chain.map((s, i) => `<div data-lcs-link="${i + 1}">${i ? ARROW : ''}${rule({ w: inner, h: d.rowH, starter: STARTS[i], answer: key ? STARTS[i] + ' ' + lowerFirst(s) : null, sample: true })}</div>`).join('');
-          const chain = cream('data-lcs-chain="1"', label(`Write in order the four events or steps that tell <b data-lcs-topic>${esc(c.topic)}</b>, one on each line.`, 15) + lines, 6);
-          const why = lv === 3 ? cream('data-lcs-explain="1"', label('Choose one event or step in your chain. Tell why it happens or what it leads to. Use <b>because</b> or <b>so</b>.', 14.5) +
+          const lines = c.chain.map((s, i) => `<div data-lcs-link="${i + 1}">${i ? ARROW : ''}${rule({ w: inner, h: d.rowH, starter: STARTS[i], answer: key ? STARTS[i] + ' ' + lowerFirst(s) : null, sample: true })}${d.lines2 ? rule({ w: inner, h: d.rowH }) : ''}</div>`).join('');
+          const chain = cream('data-lcs-chain="1"', label(story ? 'Write the <b data-lcs-topic>four main events of the story</b> in order.' : `Write in order the four events or steps that tell <b data-lcs-topic>${esc(c.topic)}</b>, one on each line.`, 15) + lines, 6);
+          const why = lv === 3 ? cream('data-lcs-explain="1"', label((story ? 'Choose one event in your retelling.' : 'Choose one event or step in your chain.') + ' Tell why it happens or what it leads to. Use <b>because</b> or <b>so</b>.', 14.5) +
             rule({ w: inner, h: d.rowH, answer: key ? c.explain : null, sample: true }) + rule({ w: inner, h: d.rowH }), 6) : '';
           below = chain + why;
         }
@@ -121,7 +123,7 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
       void grid;
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-info3c="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + textBox(t, { font: d.font, lh: d.lh, headings: true, numbers: !(mode === 'chain' && lv === 1) }) + below + `</div>`,
+        bodyHtml: `<div data-ws-content data-lcs-info3c="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}${story ? ' data-lcs-story="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + textBox(t, { font: d.font, lh: d.lh, headings: !story, numbers: !(mode === 'chain' && lv === 1) }) + below + `</div>`,
         meta: { text: t.id, items },
       };
     },
@@ -136,7 +138,7 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
         const R = (e) => e.getBoundingClientRect();
         const rb = R(root), box = document.querySelector('[data-lcs-info3text]');
         const parts = [...box.querySelectorAll('[data-lcs-part]')];
-        if (parts.length !== 4 || box.querySelectorAll('[data-lcs-heading]').length !== 4) fails.push('the text is not four paragraphs with their headings');
+        if (parts.length !== 4 || box.querySelectorAll('[data-lcs-heading]').length !== (root.dataset.lcsStory === '1' ? 0 : 4)) fails.push('the text is not four paragraphs with their headings (a story: without)');
         parts.forEach((p, i) => { if (parseFloat(getComputedStyle(p.querySelector('[data-lcs-partbody]')).fontSize) < 14.5) fails.push('paragraph ' + (i + 1) + ' is printed too small'); });
         document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); });
         const blocks = [...root.children];
@@ -176,7 +178,8 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
             const links = [...document.querySelectorAll('[data-lcs-link]')];
             if (links.length !== 4 || document.querySelectorAll('[data-lcs-arrow]').length !== 3 || sets.length || boxes.length) fails.push('not a chain of four lines with three arrows');
             if (!isKey && links.map((l) => (l.querySelector('[data-lcs-line]').dataset.lcsStartertext || '')).join(' ') !== 'First, Next, Then, Finally,') fails.push('the lines do not begin First, Next, Then, Finally');
-            if (lv === 2 ? lines.length !== 4 || document.querySelector('[data-lcs-explain]') : lines.length !== 6 || !document.querySelector('[data-lcs-explain]')) fails.push(`level ${lv}: ${lines.length} writing lines`);
+            const per = links.map((l) => l.querySelectorAll('[data-lcs-line]').length);
+            if (new Set(per).size !== 1 || (per[0] !== 1 && per[0] !== 2) || lines.length !== 4 * per[0] + (lv === 3 ? 2 : 0) || (lv === 3) !== !!document.querySelector('[data-lcs-explain]')) fails.push(`level ${lv}: ${lines.length} writing lines (${per.join('+')} for the events)`);
           }
         }
         if (mode === 'cause') {
@@ -202,4 +205,4 @@ function makeInfoText3cType({ id, slug, mode, i18n }) {
   };
 }
 
-module.exports = { makeInfoText3cType, connectFaultsOf, LEVELS };
+module.exports = { makeInfoText3cType, connectFaultsOf, LEVELS, joined };

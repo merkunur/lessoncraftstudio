@@ -5173,5 +5173,37 @@
   "G3-501": {
     "title": "Cause and Effect",
     "instruction": "Read the text. A cause makes something happen. An effect is what happens. Write the missing cause or effect."
+  },
+  "G3-502": {
+    "title": "Show Where the Story Says It",
+    "instruction": "Read the story. Write each answer. In the box, write the number of the paragraph that proves your answer."
+  },
+  "G3-503": {
+    "title": "Ask and Answer About a Story",
+    "instruction": "Read the story. Each sentence in a box is from the story. Write the question that the sentence answers. The first word is given."
+  },
+  "G3-504": {
+    "title": "The Central Message",
+    "instruction": "Read the story. Write its central message and three things in the story that show it."
+  },
+  "G3-505": {
+    "title": "Retell the Story",
+    "instruction": "Read the story. Then retell it: write the four main events in order."
+  },
+  "G3-506": {
+    "title": "Character Traits",
+    "instruction": "Read the story. Choose a word from the list for each character and write it. Then copy the sentence from the story that shows it."
+  },
+  "G3-507": {
+    "title": "Cause and Effect in a Story",
+    "instruction": "Read the story. In a story, one thing can make another thing happen. Write the missing cause or effect."
+  },
+  "G3-508": {
+    "title": "Get Ready to Talk About a Story",
+    "instruction": "Read the story. Get ready to talk about it with your group. Write your notes and copy the words you will read aloud."
+  },
+  "G3-509": {
+    "title": "Talk About the Story",
+    "instruction": "Read the story. Think about each question before your group talks. Write your idea and the number of the paragraph that supports it."
   }
 }

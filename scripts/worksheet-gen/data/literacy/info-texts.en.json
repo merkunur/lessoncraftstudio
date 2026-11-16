@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After.",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After. KINDERGARTEN PAIRS (`k2`), written 2026-11-16: two fact texts of four short sentences on one topic; two library pictures of things BOTH texts tell about, two of the first text only, two of the second only (each with the `word` that stands in the text and a `label` a child can write).",
  "g1": [
   {
    "id": "frogs",
@@ -4638,6 +4638,368 @@
     "the juice is poured into cartons"
    ],
    "ownSample": "The oranges are washed before machines squeeze them."
+  }
+ ],
+ "k2": [
+  {
+   "id": "two-trees",
+   "topic": "trees",
+   "a": {
+    "title": "Apple Trees",
+    "picture": {
+     "theme": "tree",
+     "noun": "apple"
+    },
+    "sentences": [
+     "An apple tree has green leaves.",
+     "It has flowers in spring.",
+     "Birds build nests in it.",
+     "Apples grow on it."
+    ]
+   },
+   "b": {
+    "title": "Oak Trees",
+    "picture": {
+     "theme": "tree",
+     "noun": "oak"
+    },
+    "sentences": [
+     "An oak tree has green leaves.",
+     "Acorns grow on it.",
+     "Birds build nests in it.",
+     "Squirrels eat the acorns."
+    ]
+   },
+   "both": [
+    {
+     "theme": "spring",
+     "noun": "leaf",
+     "word": "leaves",
+     "label": "leaf"
+    },
+    {
+     "theme": "spring",
+     "noun": "nest",
+     "word": "nests",
+     "label": "nest"
+    }
+   ],
+   "onlyA": [
+    {
+     "theme": "spring",
+     "noun": "flower",
+     "word": "flowers",
+     "label": "flower"
+    },
+    {
+     "theme": "fruits",
+     "noun": "apple",
+     "word": "apples",
+     "label": "apple"
+    }
+   ],
+   "onlyB": [
+    {
+     "theme": "miscellaneous",
+     "noun": "acorn",
+     "word": "acorns",
+     "label": "acorn"
+    },
+    {
+     "theme": "forest creatures",
+     "noun": "squirrel",
+     "word": "squirrels",
+     "label": "squirrel"
+    }
+   ]
+  },
+  {
+   "id": "two-days",
+   "topic": "weather",
+   "a": {
+    "title": "A Rainy Day",
+    "picture": {
+     "theme": "weather",
+     "noun": "raindrop"
+    },
+    "sentences": [
+     "Clouds fill the sky.",
+     "You put on a coat.",
+     "You take an umbrella.",
+     "You wear rain boots."
+    ]
+   },
+   "b": {
+    "title": "A Snowy Day",
+    "picture": {
+     "theme": "weather",
+     "noun": "snowflake"
+    },
+    "sentences": [
+     "Clouds fill the sky.",
+     "You wear mittens.",
+     "You put on a coat.",
+     "You can build a snowman."
+    ]
+   },
+   "both": [
+    {
+     "theme": "weather",
+     "noun": "cloudy",
+     "word": "clouds",
+     "label": "cloud"
+    },
+    {
+     "theme": "clothing",
+     "noun": "coat",
+     "word": "coat",
+     "label": "coat"
+    }
+   ],
+   "onlyA": [
+    {
+     "theme": "weather",
+     "noun": "umbrella",
+     "word": "umbrella",
+     "label": "umbrella"
+    },
+    {
+     "theme": "weather",
+     "noun": "rain_boots",
+     "word": "rain boots",
+     "label": "boots"
+    }
+   ],
+   "onlyB": [
+    {
+     "theme": "weather",
+     "noun": "mittens",
+     "word": "mittens",
+     "label": "mittens"
+    },
+    {
+     "theme": "winter",
+     "noun": "snowman",
+     "word": "snowman",
+     "label": "snowman"
+    }
+   ]
+  },
+  {
+   "id": "two-skies",
+   "topic": "the sky",
+   "a": {
+    "title": "The Daytime Sky",
+    "picture": {
+     "theme": "weather",
+     "noun": "sun"
+    },
+    "sentences": [
+     "The sun shines in the daytime.",
+     "Clouds move across the sky.",
+     "You may see a rainbow.",
+     "A butterfly or an airplane flies by."
+    ]
+   },
+   "b": {
+    "title": "The Sky at Night",
+    "picture": {
+     "theme": "shapes",
+     "noun": "moon"
+    },
+    "sentences": [
+     "The moon shines at night.",
+     "Stars shine too.",
+     "Clouds move across the sky.",
+     "An owl or an airplane flies by."
+    ]
+   },
+   "both": [
+    {
+     "theme": "weather",
+     "noun": "cloudy",
+     "word": "clouds",
+     "label": "cloud"
+    },
+    {
+     "theme": "vehicles",
+     "noun": "airplane",
+     "word": "airplane",
+     "label": "airplane"
+    }
+   ],
+   "onlyA": [
+    {
+     "theme": "weather",
+     "noun": "rainbow",
+     "word": "rainbow",
+     "label": "rainbow"
+    },
+    {
+     "theme": "insects and bugs",
+     "noun": "butterfly",
+     "word": "butterfly",
+     "label": "butterfly"
+    }
+   ],
+   "onlyB": [
+    {
+     "theme": "christmas",
+     "noun": "star",
+     "word": "stars",
+     "label": "star"
+    },
+    {
+     "theme": "forest creatures",
+     "noun": "owl",
+     "word": "owl",
+     "label": "owl"
+    }
+   ]
+  },
+  {
+   "id": "two-farm-animals",
+   "topic": "farm animals",
+   "a": {
+    "title": "Cows",
+    "picture": {
+     "theme": "farm animals",
+     "noun": "cow"
+    },
+    "sentences": [
+     "A cow eats grass.",
+     "A farmer takes care of it.",
+     "A cow gives us milk.",
+     "We make cheese from milk."
+    ]
+   },
+   "b": {
+    "title": "Sheep",
+    "picture": {
+     "theme": "farm animals",
+     "noun": "sheep"
+    },
+    "sentences": [
+     "A sheep eats grass.",
+     "We make yarn from its wool.",
+     "A farmer takes care of it.",
+     "We knit sweaters from yarn."
+    ]
+   },
+   "both": [
+    {
+     "theme": "spring",
+     "noun": "grass",
+     "word": "grass",
+     "label": "grass"
+    },
+    {
+     "theme": "occupations",
+     "noun": "farmer",
+     "word": "farmer",
+     "label": "farmer"
+    }
+   ],
+   "onlyA": [
+    {
+     "theme": "At the Supermarket",
+     "noun": "milk",
+     "word": "milk",
+     "label": "milk"
+    },
+    {
+     "theme": "breakfast",
+     "noun": "cheese",
+     "word": "cheese",
+     "label": "cheese"
+    }
+   ],
+   "onlyB": [
+    {
+     "theme": "activities",
+     "noun": "knitting",
+     "word": "yarn",
+     "label": "yarn"
+    },
+    {
+     "theme": "winter",
+     "noun": "sweater",
+     "word": "sweaters",
+     "label": "sweater"
+    }
+   ]
+  },
+  {
+   "id": "two-pets",
+   "topic": "pets",
+   "a": {
+    "title": "Cats",
+    "picture": {
+     "theme": "pets",
+     "noun": "cat"
+    },
+    "sentences": [
+     "A cat sleeps in a soft bed.",
+     "It eats from a bowl.",
+     "It can climb a tree.",
+     "It may catch a mouse."
+    ]
+   },
+   "b": {
+    "title": "Dogs",
+    "picture": {
+     "theme": "pets",
+     "noun": "dog"
+    },
+    "sentences": [
+     "A dog eats from a bowl.",
+     "It can bring back a ball.",
+     "It sleeps in a soft bed.",
+     "It may bark at the mail truck."
+    ]
+   },
+   "both": [
+    {
+     "theme": "around the house",
+     "noun": "bed",
+     "word": "bed",
+     "label": "bed"
+    },
+    {
+     "theme": "around the house",
+     "noun": "bowl",
+     "word": "bowl",
+     "label": "bowl"
+    }
+   ],
+   "onlyA": [
+    {
+     "theme": "tree",
+     "noun": "elm",
+     "word": "tree",
+     "label": "tree"
+    },
+    {
+     "theme": "forest creatures",
+     "noun": "mouse",
+     "word": "mouse",
+     "label": "mouse"
+    }
+   ],
+   "onlyB": [
+    {
+     "theme": "toys",
+     "noun": "ball",
+     "word": "ball",
+     "label": "ball"
+    },
+    {
+     "theme": "vehicles",
+     "noun": "mail_truck",
+     "word": "mail truck",
+     "label": "mail truck"
+    }
+   ]
   }
  ]
 }

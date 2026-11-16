@@ -5137,5 +5137,9 @@
   "G2-525": {
     "title": "Before and After",
     "instruction": "Read the text. Answer questions 1 and 2 with a whole sentence. Then write before or after."
+  },
+  "K-649": {
+    "title": "Two Texts, One Topic",
+    "instruction": "Listen to the two texts and read along. In each box, draw one thing: something only the first text tells about, something both texts tell about, and something only the second text tells about."
   }
 }

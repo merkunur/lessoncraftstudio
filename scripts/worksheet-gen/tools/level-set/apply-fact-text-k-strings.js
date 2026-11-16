@@ -37,6 +37,12 @@ const TEXT = {
     2: 'Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box.',
     3: 'Listen to the text and read along. Answer the question. Draw the first thing in the First box and the next thing in the Then box. Write a word under each drawing.',
   },
+  'K-649': {
+    title: "Two Texts, One Topic",
+    1: "Listen to the two texts and read along. Cut out the six pictures. Glue each one in the right box: only the first text tells about it, both texts tell about it, or only the second text tells about it. Two pictures go in each box.",
+    2: "Listen to the two texts and read along. In each box, draw one thing: something only the first text tells about, something both texts tell about, and something only the second text tells about.",
+    3: "Listen to the two texts and read along. In each box, draw one thing: something only the first text tells about, something both texts tell about, and something only the second text tells about. Write its name on the line.",
+  },
 };
 
 function edit(file, fn) {

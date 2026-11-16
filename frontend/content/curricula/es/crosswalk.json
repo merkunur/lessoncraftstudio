@@ -3239,6 +3239,18 @@
    "none": "Familias de palabras are not named anywhere in Fases 2-4.",
    "by": "authored"
   },
+  "2:prefixes-un-re": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:suffixes-ful-less-ly": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:apostrophes": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "2:prefixes": {
    "none": "Prefijos (des-, in-, re-) are not named anywhere in Fases 2-4.",
    "by": "authored"

@@ -3239,6 +3239,36 @@
    ],
    "by": "code"
   },
+  "2:prefixes-un-re": {
+   "rows": [
+    {
+     "id": "L.2.4.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:suffixes-ful-less-ly": {
+   "rows": [
+    {
+     "id": "RF.2.3.d",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:apostrophes": {
+   "rows": [
+    {
+     "id": "L.2.2.c",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:prefixes": {
    "rows": [
     {

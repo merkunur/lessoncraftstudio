@@ -15915,9 +15915,9 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A Grade 2 unit: 5 lessons on spelling rules, compound words, root words, synonyms, and more exact words for \"said.\"",
-   "days": 13,
-   "weeks": 3,
+   "metaDescription": "A Grade 2 unit: 8 lessons on spelling rules, compound words, root words, prefixes, suffixes, apostrophes, synonyms, and more exact words for \"said.\"",
+   "days": 19,
+   "weeks": 4,
    "lessons": [
     {
      "n": 1,
@@ -16088,6 +16088,123 @@
     },
     {
      "n": 4,
+     "point": "2:prefixes-un-re",
+     "title": "Prefixes un- and re-",
+     "objective": "Children tell the meaning of a word formed when un- or re- is added to a known word (happy and unhappy, tell and retell).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.2.4.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-535",
+       "title": "Prefixes un- and re-",
+       "core": "word-parts-g2535",
+       "easy": "word-parts-easy-g2535-6",
+       "hard": "word-parts-hard-g2535-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "affix.apply.l-2-4-b",
+      "slug": "prefixes-and-suffixes-word-meaning",
+      "title": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning"
+     },
+     "exit": {
+      "slug": "word-parts-g2535-2",
+      "title": "Prefixes un- and re-"
+     },
+     "note": {
+      "mistake": "Children read the base word and skip the prefix: they circle fair for \"not fair\" or write fold for \"fold again.\" Some mix the two prefixes up and write retie for \"the opposite of tie.\"",
+      "words": "Say: \"A prefix is a word part at the start of a word. It changes what the word means. un- means not or the opposite of: unhappy means not happy, and unlock is the opposite of lock. re- means again: retell means tell again.\" Write happy on the board, add un-, and read both words. Day 1, the page. Level 1 (un- only): children add un- to words and write each new word (a done example in grey, then 3 more), circle the word that means \"not fair\" or \"the opposite of fold\" among three words in five rows, and circle the word that fits in three sentences; sometimes the word without un- is the one that fits. Level 2 (un- and re-): children read two meanings (not safe, fold again) and write the new word, draw lines from four words of two base words (untie, retie, unload, reload) to their meanings, and write un or re in the gap of three sentences. Level 3 adds pre-, which means before: two meanings to write, three sentences with un, re, or pre, and one sentence of their own that uses both words from part 1. Day 2, Marigold's Knowing Machine on screen: children read a built word and tap what it means. pre- is on the page only.",
+      "watch": "Have children read a sentence with each word before they choose: \"Hold my hand so you stay unsafe\" sounds wrong. The base word never changes its spelling: un + tie, re + fill. Every gap on Levels 2 and 3 takes a prefix, so the child reads the whole sentence to know which one fits. Some words only look as if they start with un- or re- (uncle, under, ready): take the letters away and no word is left."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "2:suffixes-ful-less-ly",
+     "title": "Suffixes -ful, -less, and -ly",
+     "objective": "Children read words with the suffixes -ful, -less, and -ly (helpful, careless, slowly) and say what the suffix adds.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.2.3.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-536",
+       "title": "Suffixes -ful, -less, and -ly",
+       "core": "word-parts-g2536",
+       "easy": "word-parts-easy-g2536-6",
+       "hard": "word-parts-hard-g2536-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "affix.apply.l-2-4-b",
+      "slug": "prefixes-and-suffixes-word-meaning",
+      "title": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning"
+     },
+     "exit": {
+      "slug": "word-parts-g2536-2",
+      "title": "Suffixes -ful, -less, and -ly"
+     },
+     "note": {
+      "mistake": "Children read the suffix as a word of its own (care full) and spell -ful with two l's (carefull). In a sentence some write careful where the sentence needs careless, because they read only the base word.",
+      "words": "Say: \"A suffix is a word part at the end of a word. -ful means full of: helpful means full of help. -less means without: careless means without care. -ly tells how: slowly means in a slow way.\" Write help on the board, add -ful and then -less, and read the three words. Day 1, the page. Level 1 (-ful only): children circle the base word and underline -ful in six words (a done example in grey, then 5 more) and read each word to a partner, read meanings (full of skill) and write the -ful word (a done example in grey, then 3 more), and circle the word that fits in four sentences: the base word or its -ful word. Level 2 (-ful and -less): children mark six words, draw lines from four words of two base words (careful, careless, painful, painless) to their meanings, and write ful or less in the gap of three sentences. Level 3 adds -ly: children mark six words and cross out the one word that has no suffix, match four words, and write ful, less, or ly in three sentences. Every gap takes a suffix. Day 2, Marigold's Knowing Machine on screen: children read a word with -ful or -less and tap what it means; -ly is on the page only.",
+      "watch": "The suffix -ful has one l: careful. On these pages the base word keeps its spelling: care + ful, safe + ly. Some words only look as if they had a suffix (jelly, belly, silly, fly, bless): take away -ly or -less and no word is left (jel, bel, sil, f, b). Ask \"How?\" for an -ly word: How did the turtle crawl? Slowly."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "2:apostrophes",
+     "title": "Apostrophes: can't and the dog's bowl",
+     "objective": "Children use an apostrophe to write contractions (can't, it's, we're) and common possessives (the dog's bowl).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.2.2.c",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-537",
+       "title": "Apostrophes",
+       "core": "capitals-punctuation-g2537",
+       "easy": "capitals-punctuation-easy-g2537-6",
+       "hard": "capitals-punctuation-hard-g2537-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "contraction.apostrophe.l-2-2-c",
+      "slug": "contractions-with-apostrophes",
+      "title": "Nib's Apostrophe Seat — Contractions"
+     },
+     "exit": {
+      "slug": "capitals-punctuation-g2537-2",
+      "title": "Apostrophes"
+     },
+     "note": {
+      "mistake": "Children put the apostrophe where the two words meet instead of where the letters are left out (do'nt), or leave it out (dont). For an owner some write dogs with no apostrophe, or put an apostrophe in every word that ends in s.",
+      "words": "Say: \"An apostrophe takes the place of letters that are left out: do not becomes don't, and the apostrophe stands where the o was. An apostrophe and s also show who owns something: the dog's bowl is the bowl that belongs to the dog.\" Day 1, the page. Level 1 (contractions only): children write contractions from their words (a done example in grey, it is → it's, then 5 more), draw lines from four contractions to the two words they stand for (two first words, such as we and they, so both parts must be read), and write the two words for three contractions. Level 2 adds owners: three contractions to write, three to write the two words for, and owners with a thing, each a picture or a child's name printed with its word, to write as dog's bowl or Mia's kite (a done example in grey, then 3 more). Level 3: six contractions, three to write and three to write the two words for, two sentences (The kite belongs to Mia.) to write as Mia's kite, and four sentences with one missing apostrophe: children write that word with its apostrophe. Day 2, Nib's Apostrophe Seat on screen: children read two words and choose the contraction with the apostrophe in the right place. Owners with 's are on the page only.",
+      "watch": "The contraction can't is short for cannot. The contraction won't (will not) changes its spelling; it is not on the pages. Every owner on these pages is one owner. The word its, with no apostrophe, stands only on Level 3: \"Its time for bed\" needs it's. When the word to fix starts a sentence, accept a lowercase first letter."
+     },
+     "days": 2
+    },
+    {
+     "n": 7,
      "point": "2:synonyms",
      "title": "Synonyms",
      "objective": "Children choose and match words that mean the same, such as glad and happy.",
@@ -16146,7 +16263,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 8,
      "point": "2:synonyms~doing-stage",
      "title": "More exact words for \"said\"",
      "objective": "Children read a sentence and choose a more exact word than said, such as whispered, shouted, or asked.",
@@ -18596,9 +18713,9 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (17 Weeks)",
-   "metaDescription": "6 Grade 2 reading and writing units in teaching order, about 17 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 17,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (18 Weeks)",
+   "metaDescription": "6 Grade 2 reading and writing units in teaching order, about 18 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 18,
    "framework": "Common Core",
    "units": [
     {
@@ -18664,22 +18781,28 @@
      "id": "g2-spelling-and-word-building",
      "slug": "spelling-word-building-and-word-choice-grade-2-unit",
      "title": "Spelling, Word Building, and Word Choice",
-     "weeks": 3,
+     "weeks": 4,
      "from": 8,
-     "to": 10,
+     "to": 11,
      "lessons": [
       "Spelling rules: which letters go here?",
       "Compound words",
       "Root words and word families",
+      "Prefixes un- and re-",
+      "Suffixes -ful, -less, and -ly",
+      "Apostrophes: can't and the dog's bowl",
       "Synonyms",
       "More exact words for \"said\""
      ],
      "standards": [
+      "L.2.2.c",
       "L.2.2.d",
+      "L.2.4.b",
       "L.2.4.c",
       "L.2.4.d",
       "L.2.5",
-      "L.2.5.b"
+      "L.2.5.b",
+      "RF.2.3.d"
      ]
     },
     {
@@ -18687,8 +18810,8 @@
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
      "weeks": 4,
-     "from": 11,
-     "to": 14,
+     "from": 12,
+     "to": 15,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",
@@ -18715,8 +18838,8 @@
      "slug": "reading-to-learn-informational-texts-grade-2-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 15,
-     "to": 17,
+     "from": 16,
+     "to": 18,
      "lessons": [
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",

@@ -7361,6 +7361,73 @@
    ]
   },
   {
+   "id": "2:prefixes-un-re",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Add un- or re- to a known word, say what the new word means, and choose the prefix a sentence needs",
+   "code": "L.2.4.b",
+   "types": [
+    "G2-535"
+   ],
+   "families": [
+    "word-parts"
+   ],
+   "activities": [
+    "affix.apply.l-2-4-b"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 109,
+   "prerequisites": []
+  },
+  {
+   "id": "2:suffixes-ful-less-ly",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Foundational Skills",
+   "sourceStrand": "Foundational Skills",
+   "skill": "Read words with the suffixes -ful, -less, and -ly, say what the suffix adds, and choose the suffix a sentence needs",
+   "code": "RF.2.3.d",
+   "types": [
+    "G2-536"
+   ],
+   "families": [
+    "word-parts"
+   ],
+   "activities": [
+    "affix.apply.l-2-4-b"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 110,
+   "prerequisites": []
+  },
+  {
+   "id": "2:apostrophes",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Write a contraction and the two words it stands for, and show one owner with an apostrophe and s",
+   "code": "L.2.2.c",
+   "types": [
+    "G2-537"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [
+    "contraction.apostrophe.l-2-2-c"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 111,
+   "prerequisites": []
+  },
+  {
    "id": "2:prefixes",
    "grade": "2",
    "subject": "literacy",
@@ -7381,7 +7448,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 109,
+   "order": 112,
    "prerequisites": [
     "2:root-words"
    ]
@@ -7407,7 +7474,7 @@
     281
    ],
    "verdict": "partial",
-   "order": 110,
+   "order": 113,
    "prerequisites": [
     "1:story-writing",
     "2:sentence-boundaries"
@@ -7431,7 +7498,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 111,
+   "order": 114,
    "prerequisites": []
   },
   {
@@ -7452,7 +7519,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 112,
+   "order": 115,
    "prerequisites": []
   },
   {
@@ -7473,7 +7540,7 @@
     277
    ],
    "verdict": "gap",
-   "order": 113,
+   "order": 116,
    "prerequisites": [
     "1:read-and-follow"
    ]
@@ -7497,7 +7564,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 114,
+   "order": 117,
    "prerequisites": []
   },
   {
@@ -7518,7 +7585,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 115,
+   "order": 118,
    "prerequisites": []
   },
   {
@@ -7539,7 +7606,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 116,
+   "order": 119,
    "prerequisites": []
   },
   {
@@ -7560,7 +7627,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 117,
+   "order": 120,
    "prerequisites": []
   },
   {
@@ -7586,7 +7653,7 @@
     282
    ],
    "verdict": "partial",
-   "order": 118,
+   "order": 121,
    "prerequisites": [
     "2:read-and-answer"
    ]
@@ -7611,7 +7678,7 @@
     282
    ],
    "verdict": "gap",
-   "order": 119,
+   "order": 122,
    "prerequisites": [
     "2:animal-fact-file"
    ]
@@ -7635,7 +7702,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 120,
+   "order": 123,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -7662,7 +7729,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 121,
+   "order": 124,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -7689,7 +7756,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 122,
+   "order": 125,
    "prerequisites": [
     "2:root-words"
    ]
@@ -7714,7 +7781,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 123,
+   "order": 126,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"
@@ -7738,7 +7805,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 124,
+   "order": 127,
    "prerequisites": []
   },
   {
@@ -7759,7 +7826,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 125,
+   "order": 128,
    "prerequisites": []
   },
   {
@@ -7780,7 +7847,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 126,
+   "order": 129,
    "prerequisites": []
   },
   {
@@ -7801,7 +7868,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 127,
+   "order": 130,
    "prerequisites": []
   },
   {
@@ -7822,7 +7889,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 128,
+   "order": 131,
    "prerequisites": []
   },
   {
@@ -7843,7 +7910,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 129,
+   "order": 132,
    "prerequisites": []
   },
   {
@@ -7864,7 +7931,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 130,
+   "order": 133,
    "prerequisites": []
   },
   {
@@ -7885,7 +7952,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 131,
+   "order": 134,
    "prerequisites": []
   },
   {
@@ -7906,7 +7973,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 132,
+   "order": 135,
    "prerequisites": []
   },
   {

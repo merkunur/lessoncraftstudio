@@ -3806,6 +3806,51 @@
    ],
    "by": "authored"
   },
+  "2:prefixes-un-re": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.vi",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:suffixes-ful-less-ly": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:apostrophes": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.B.iv",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.2.C.iii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:prefixes": {
    "rows": [
     {

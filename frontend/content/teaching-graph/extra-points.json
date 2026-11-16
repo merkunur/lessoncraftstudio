@@ -596,6 +596,36 @@
    "activities": [
     "tense.past-present-future.l-1-1-e"
    ]
+  },
+  {
+   "tp": "2:prefixes-un-re",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.4.b",
+   "skill": "Add un- or re- to a known word, say what the new word means, and choose the prefix a sentence needs",
+   "activities": [
+    "affix.apply.l-2-4-b"
+   ]
+  },
+  {
+   "tp": "2:suffixes-ful-less-ly",
+   "grade": "2",
+   "strand": "Foundational Skills",
+   "code": "RF.2.3.d",
+   "skill": "Read words with the suffixes -ful, -less, and -ly, say what the suffix adds, and choose the suffix a sentence needs",
+   "activities": [
+    "affix.apply.l-2-4-b"
+   ]
+  },
+  {
+   "tp": "2:apostrophes",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.2.c",
+   "skill": "Write a contraction and the two words it stands for, and show one owner with an apostrophe and s",
+   "activities": [
+    "contraction.apostrophe.l-2-2-c"
+   ]
   }
  ]
 }

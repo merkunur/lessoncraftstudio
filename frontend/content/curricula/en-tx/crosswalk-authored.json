@@ -5177,6 +5177,48 @@
    ],
    "why": "Writing the past and the present form of a verb is «past and present verb tense» (the future with will goes one step further); yesterday, today and tomorrow are «adverbs that convey time».",
    "review": "year-design 2026-11-18"
+  },
+  "2:prefixes-un-re": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.vi",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Building and explaining words with un- and re- is «identify the meaning of and use words with affixes un-, re-, -ly, -er, and -est»; reading them is «decoding words with prefixes, including un-, re-, and dis-».",
+   "review": "year-design 2026-11-18"
+  },
+  "2:suffixes-ful-less-ly": {
+   "rows": [
+    {
+     "id": "ELAR.2.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas names -ly among the affixes of Grade 2: «identify the meaning of and use words with affixes un-, re-, -ly, -er, and -est»; -ful and -less are taught the same way and go one step further.",
+   "review": "year-design 2026-11-18"
+  },
+  "2:apostrophes": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.B.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.2.C.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing contractions with their apostrophe is «end punctuation, apostrophes in contractions»; reading and spelling them is «decoding compound words, contractions» and «spelling compound words, contractions». The owner with an apostrophe and s is not named in the Texas wording of Grade 2.",
+   "review": "year-design 2026-11-18"
   }
  }
 }

@@ -7434,7 +7434,7 @@
     "taught": 34,
     "near": 7,
     "open": 47,
-    "lessons": 35
+    "lessons": 38
    },
    "groups": [
     {
@@ -7518,6 +7518,13 @@
          "unitGrade": "2",
          "n": 2,
          "title": "Compound words"
+        },
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Apostrophes: can't and the dog's bowl"
         }
        ]
       },
@@ -7546,8 +7553,15 @@
       {
        "code": "2.2.B.vi",
        "state": "taught",
-       "text": "Children add a prefix such as un-, dis-, re-, or mis- to a word and tell what the new word means.",
+       "text": "Children tell the meaning of a word formed when un- or re- is added to a known word (happy and unhappy, tell and retell).",
        "lessons": [
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Prefixes un- and re-"
+        },
         {
          "unit": "words-and-their-meanings-grade-3-unit",
          "unitTitle": "Words and Their Meanings",
@@ -7609,7 +7623,7 @@
       {
        "code": "2.2.C.iii",
        "state": "taught",
-       "text": "Children join two words to make a compound word and find where a compound word splits into its two words.",
+       "text": "Children use an apostrophe to write contractions (can't, it's, we're) and common possessives (the dog's bowl).",
        "lessons": [
         {
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
@@ -7617,6 +7631,13 @@
          "unitGrade": "2",
          "n": 2,
          "title": "Compound words"
+        },
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Apostrophes: can't and the dog's bowl"
         }
        ]
       },
@@ -7700,8 +7721,22 @@
       {
        "code": "2.3.C",
        "state": "taught",
-       "text": "Children add a prefix such as un-, dis-, re-, or mis- to a word and tell what the new word means.",
+       "text": "Children read words with the suffixes -ful, -less, and -ly (helpful, careless, slowly) and say what the suffix adds.",
        "lessons": [
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Prefixes un- and re-"
+        },
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 5,
+         "title": "Suffixes -ful, -less, and -ly"
+        },
         {
          "unit": "words-and-their-meanings-grade-3-unit",
          "unitTitle": "Words and Their Meanings",
@@ -7727,14 +7762,14 @@
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 4,
+         "n": 7,
          "title": "Synonyms"
         },
         {
          "unit": "spelling-word-building-and-word-choice-grade-2-unit",
          "unitTitle": "Spelling, Word Building, and Word Choice",
          "unitGrade": "2",
-         "n": 5,
+         "n": 8,
          "title": "More exact words for \"said\""
         }
        ]
@@ -8130,6 +8165,13 @@
          "unitGrade": "2",
          "n": 1,
          "title": "Capital letters and end marks"
+        },
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 6,
+         "title": "Apostrophes: can't and the dog's bowl"
         }
        ]
       },

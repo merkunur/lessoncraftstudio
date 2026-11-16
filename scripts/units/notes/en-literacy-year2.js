@@ -10,6 +10,8 @@
  * them (2026-11-16, every finding applied).
  * The seven notes of the units Long Vowels and Vowel Teams and Bossy R and Longer Words (G2-530 to G2-534, G2-543 to
  * G2-548) were added by place-ready-s.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
+ * The three word-building notes (G2-535 to G2-537: prefixes, suffixes, apostrophes) were added by
+ * place-ready-v.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -139,6 +141,33 @@ module.exports = {
         mistake: 'Children spell the words the way they sound (cud, wud, becuz, frend), or leave out the silent l of could, would, and should.',
         words: 'Say: "Some words have a part that does not follow the rules. We learn that part by heart." Write could in sound boxes: c, oul, d. The c and the d say the sounds children know; oul says the oo of book, and the l makes no sound, so it gets a heart. would and should work the same way: one heart over oul. In because the heart goes over au, in friend over ie. On the page children write the letters for each sound in a box and draw a heart over the tricky part; then they write the heart word that fits a sentence, with its first letter on the line. Levels 2 and 3 add again, any, many, people, does, or other: the heart goes over ai, a, a, eo, oe, o. Level 1 has four words (could, would, should, and because or friend) and four sentences; Level 2 six words and three sentences; Level 3 six words, one sentence, and a sentence of their own with two heart words from the page. On screen, Heart Words runs the same routine of sound boxes, a heart, and writing. Its first shelf (the, of, to, do, was, said, you, have, come, some) is open to everyone, with the whole routine and the printable word cards, and a teacher can type any word and show it to the class (the list is not kept). The Teacher plan adds the other eleven shelves, among them could, would, should, friend, and because; a saved list of her own words; and the wall and take-home sheets.',
         watch: 'A dashed line marked "Fold back" runs under the words: on Levels 2 and 3 the child folds the top back and writes the sentences from memory, then unfolds it to check. The heart goes over the tricky letters only: the c and d of could keep their usual sounds.',
+      },
+    },
+    '2:prefixes-un-re': {
+      title: 'Prefixes un- and re-',
+      objective: 'Children tell the meaning of a word formed when un- or re- is added to a known word (happy and unhappy, tell and retell).',
+      note: {
+        mistake: 'Children read the base word and skip the prefix: they circle fair for "not fair" or write fold for "fold again." Some mix the two prefixes up and write retie for "the opposite of tie."',
+        words: 'Say: "A prefix is a word part at the start of a word. It changes what the word means. un- means not or the opposite of: unhappy means not happy, and unlock is the opposite of lock. re- means again: retell means tell again." Write happy on the board, add un-, and read both words. Day 1, the page. Level 1 (un- only): children add un- to words and write each new word (a done example in grey, then 3 more), circle the word that means "not fair" or "the opposite of fold" among three words in five rows, and circle the word that fits in three sentences; sometimes the word without un- is the one that fits. Level 2 (un- and re-): children read two meanings (not safe, fold again) and write the new word, draw lines from four words of two base words (untie, retie, unload, reload) to their meanings, and write un or re in the gap of three sentences. Level 3 adds pre-, which means before: two meanings to write, three sentences with un, re, or pre, and one sentence of their own that uses both words from part 1. Day 2, Marigold\'s Knowing Machine on screen: children read a built word and tap what it means. pre- is on the page only.',
+        watch: 'Have children read a sentence with each word before they choose: "Hold my hand so you stay unsafe" sounds wrong. The base word never changes its spelling: un + tie, re + fill. Every gap on Levels 2 and 3 takes a prefix, so the child reads the whole sentence to know which one fits. Some words only look as if they start with un- or re- (uncle, under, ready): take the letters away and no word is left.',
+      },
+    },
+    '2:suffixes-ful-less-ly': {
+      title: 'Suffixes -ful, -less, and -ly',
+      objective: 'Children read words with the suffixes -ful, -less, and -ly (helpful, careless, slowly) and say what the suffix adds.',
+      note: {
+        mistake: 'Children read the suffix as a word of its own (care full) and spell -ful with two l\'s (carefull). In a sentence some write careful where the sentence needs careless, because they read only the base word.',
+        words: 'Say: "A suffix is a word part at the end of a word. -ful means full of: helpful means full of help. -less means without: careless means without care. -ly tells how: slowly means in a slow way." Write help on the board, add -ful and then -less, and read the three words. Day 1, the page. Level 1 (-ful only): children circle the base word and underline -ful in six words (a done example in grey, then 5 more) and read each word to a partner, read meanings (full of skill) and write the -ful word (a done example in grey, then 3 more), and circle the word that fits in four sentences: the base word or its -ful word. Level 2 (-ful and -less): children mark six words, draw lines from four words of two base words (careful, careless, painful, painless) to their meanings, and write ful or less in the gap of three sentences. Level 3 adds -ly: children mark six words and cross out the one word that has no suffix, match four words, and write ful, less, or ly in three sentences. Every gap takes a suffix. Day 2, Marigold\'s Knowing Machine on screen: children read a word with -ful or -less and tap what it means; -ly is on the page only.',
+        watch: 'The suffix -ful has one l: careful. On these pages the base word keeps its spelling: care + ful, safe + ly. Some words only look as if they had a suffix (jelly, belly, silly, fly, bless): take away -ly or -less and no word is left (jel, bel, sil, f, b). Ask "How?" for an -ly word: How did the turtle crawl? Slowly.',
+      },
+    },
+    '2:apostrophes': {
+      title: 'Apostrophes: can\'t and the dog\'s bowl',
+      objective: 'Children use an apostrophe to write contractions (can\'t, it\'s, we\'re) and common possessives (the dog\'s bowl).',
+      note: {
+        mistake: 'Children put the apostrophe where the two words meet instead of where the letters are left out (do\'nt), or leave it out (dont). For an owner some write dogs with no apostrophe, or put an apostrophe in every word that ends in s.',
+        words: 'Say: "An apostrophe takes the place of letters that are left out: do not becomes don\'t, and the apostrophe stands where the o was. An apostrophe and s also show who owns something: the dog\'s bowl is the bowl that belongs to the dog." Day 1, the page. Level 1 (contractions only): children write contractions from their words (a done example in grey, it is → it\'s, then 5 more), draw lines from four contractions to the two words they stand for (two first words, such as we and they, so both parts must be read), and write the two words for three contractions. Level 2 adds owners: three contractions to write, three to write the two words for, and owners with a thing, each a picture or a child\'s name printed with its word, to write as dog\'s bowl or Mia\'s kite (a done example in grey, then 3 more). Level 3: six contractions, three to write and three to write the two words for, two sentences (The kite belongs to Mia.) to write as Mia\'s kite, and four sentences with one missing apostrophe: children write that word with its apostrophe. Day 2, Nib\'s Apostrophe Seat on screen: children read two words and choose the contraction with the apostrophe in the right place. Owners with \'s are on the page only.',
+        watch: 'The contraction can\'t is short for cannot. The contraction won\'t (will not) changes its spelling; it is not on the pages. Every owner on these pages is one owner. The word its, with no apostrophe, stands only on Level 3: "Its time for bed" needs it\'s. When the word to fix starts a sentence, accept a lowercase first letter.',
       },
     },
   },

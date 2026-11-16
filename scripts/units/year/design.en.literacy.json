@@ -901,7 +901,8 @@
             "standard": "L.2.4.b",
             "days": 2,
             "source": "new",
-            "page": "Word part page: twelve base words; the child adds un- or re-, writes the new word, and matches it to its meaning (not happy, tell again). Bottom: six sentences with a missing prefixed word. Level 1: un- only; level 2: un- and re-; level 3: un-, re-, and pre-, and the child writes a sentence with two of the words."
+            "page": "Word part page: twelve base words; the child adds un- or re-, writes the new word, and matches it to its meaning (not happy, tell again). Bottom: six sentences with a missing prefixed word. Level 1: un- only; level 2: un- and re-; level 3: un-, re-, and pre-, and the child writes a sentence with two of the words.",
+            "placed": "2:prefixes-un-re"
           },
           {
             "new": true,
@@ -910,7 +911,8 @@
             "standard": "RF.2.3.d",
             "days": 2,
             "source": "new",
-            "page": "Word part page: twelve words with a suffix; the child circles the base word, underlines the suffix, and matches the word to its meaning (full of help, without care). Bottom: six sentences with a missing word to build. Level 1: -ful only; level 2: -ful and -less; level 3: -ful, -less, and -ly."
+            "page": "Word part page: twelve words with a suffix; the child circles the base word, underlines the suffix, and matches the word to its meaning (full of help, without care). Bottom: six sentences with a missing word to build. Level 1: -ful only; level 2: -ful and -less; level 3: -ful, -less, and -ly.",
+            "placed": "2:suffixes-ful-less-ly"
           },
           {
             "new": true,
@@ -919,7 +921,8 @@
             "standard": "L.2.2.c",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: top half, ten word pairs to join into a contraction (can not, it is); bottom half, six pictures with an owner and a thing (a dog and a bone) to write as a possessive. Level 1: contractions only; level 2: contractions and possessives; level 3: the child also fixes four sentences with a missing apostrophe."
+            "page": "Grammar page: top half, ten word pairs to join into a contraction (can not, it is); bottom half, six pictures with an owner and a thing (a dog and a bone) to write as a possessive. Level 1: contractions only; level 2: contractions and possessives; level 3: the child also fixes four sentences with a missing apostrophe.",
+            "placed": "2:apostrophes"
           }
         ]
       },

@@ -343,6 +343,9 @@
   "G1-593": "1:capitals-names-days-months",
   "G1-592": "1:capitals-names-days-months",
   "G1-594": "1:joining-words",
-  "G1-595": "1:verb-tense"
+  "G1-595": "1:verb-tense",
+  "G2-535": "2:prefixes-un-re",
+  "G2-536": "2:suffixes-ful-less-ly",
+  "G2-537": "2:apostrophes"
  }
 }

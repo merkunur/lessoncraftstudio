@@ -2811,6 +2811,49 @@
    ]
   },
   {
+   "id": "g1-reading-stories-characters-and-lessons",
+   "slug": "reading-stories-characters-and-lessons-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Reading Stories: Characters and Lessons",
+   "metaTitle": "Grade 1 Lesson Plans: Stories, Characters, and Lessons",
+   "metaDescription": "A Grade 1 reading unit on short stories: 5 lessons on key details, characters and setting, retelling and the lesson, feeling words, and who tells the story.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "1:story-key-details",
+     "types": [
+      "G1-579"
+     ]
+    },
+    {
+     "point": "1:characters-setting-events",
+     "types": [
+      "G1-580"
+     ]
+    },
+    {
+     "point": "1:retell-and-lesson",
+     "types": [
+      "G1-581"
+     ]
+    },
+    {
+     "point": "1:feeling-and-sense-words",
+     "types": [
+      "G1-582"
+     ]
+    },
+    {
+     "point": "1:who-tells-the-story",
+     "types": [
+      "G1-583"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-words-and-how-they-work",
    "slug": "words-and-how-they-work-grade-1-unit",
    "status": "live",
@@ -3405,6 +3448,7 @@
    "units": [
     "g1-sounds-spelling-syllables",
     "g1-reading-sentences-and-stories",
+    "g1-reading-stories-characters-and-lessons",
     "g1-words-and-how-they-work",
     "g1-reading-to-learn-informational-texts"
    ]

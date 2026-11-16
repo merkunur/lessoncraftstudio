@@ -259,6 +259,53 @@
    "strand": "Reading: Literature",
    "code": "RL.2.2",
    "skill": "Retell a fable by its beginning, middle, and end and tell the lesson it teaches"
+  },
+  {
+   "tp": "1:story-key-details",
+   "grade": "1",
+   "strand": "Reading: Literature",
+   "code": "RL.1.1",
+   "skill": "Ask and answer questions about key details in a short story and find the sentence that tells the answer",
+   "activities": [
+    "picture-story.read.rl-k-1"
+   ]
+  },
+  {
+   "tp": "1:characters-setting-events",
+   "grade": "1",
+   "strand": "Reading: Literature",
+   "code": "RL.1.3",
+   "skill": "Describe the characters, the setting, and the big event of a story with key details",
+   "activities": [
+    "marlo-magnifier.trait-evidence.rl-1-3"
+   ]
+  },
+  {
+   "tp": "1:retell-and-lesson",
+   "grade": "1",
+   "strand": "Reading: Literature",
+   "code": "RL.1.2",
+   "skill": "Retell a story by its beginning, middle, and end and tell the lesson it teaches",
+   "activities": [
+    "juniper-story-lantern.central-message.rl-1-2"
+   ]
+  },
+  {
+   "tp": "1:feeling-and-sense-words",
+   "grade": "1",
+   "strand": "Reading: Literature",
+   "code": "RL.1.4",
+   "skill": "Find words in a story that tell how a character feels and words that appeal to the senses"
+  },
+  {
+   "tp": "1:who-tells-the-story",
+   "grade": "1",
+   "strand": "Reading: Literature",
+   "code": "RL.1.6",
+   "skill": "Identify who is telling the story at different points: the narrator or one of the characters",
+   "activities": [
+    "point-of-view.who-told.rl-1-6"
+   ]
   }
  ]
 }

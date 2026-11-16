@@ -176,7 +176,8 @@
     },
     "feelings-check-in": {
       "points": [
-        "K:feelings"
+        "K:feelings",
+        "1:feeling-and-sense-words"
       ]
     },
     "letter-studio": {

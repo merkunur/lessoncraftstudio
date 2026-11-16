@@ -2921,6 +2921,71 @@
    ],
    "by": "authored"
   },
+  "1:story-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.1.7.C",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:characters-setting-events": {
+   "rows": [
+    {
+     "id": "ELAR.1.8.D",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.8.C",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.8.B",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:retell-and-lesson": {
+   "rows": [
+    {
+     "id": "ELAR.1.7.D",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.8.A",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:feeling-and-sense-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.10.D",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:who-tells-the-story": {
+   "rows": [
+    {
+     "id": "ELAR.1.10.E",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:word-classes": {
    "rows": [
     {

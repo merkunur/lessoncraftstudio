@@ -7,6 +7,8 @@
  * the feature pages, a glossary), and one FURTHER lesson on a point that Grade 2 teaches again ("<point>#<name>").
  * Each note was written from the pages the lesson hands out, in American English, and read by one American Grade 1
  * teacher-reviewer with a description of the pages (2026-11-15); every finding is in the text below.
+ * The five notes of the unit Reading Stories: Characters and Lessons (G1-579 to G1-583) were added by
+ * place-ready-k.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -46,6 +48,51 @@ module.exports = {
         mistake: 'Children compare what they see in the pictures instead of the facts in the table: "They are different because this one is bigger." Size is not one of the four facts. Others stop at the first difference and call the animals different in every way, or write a fact about one animal only when asked what is different.',
         words: 'Read both fact files aloud, one fact at a time, across the two cards: "What group is the first animal in? And the second? Same or different?" Have children put one finger on each card and move down together. Teach two sentence shapes, and change the verb to fit the fact (are, live, eat, have): "Both ___ and ___ live in ___." for same, and "A ___ eats ___, but a ___ eats ___." for different. Say: "A difference needs BOTH animals in the sentence." This page gets children ready for RI.1.9. The standard itself compares two texts on the SAME topic: to teach it fully, read two short texts about one animal and ask, "What does this text tell that the other one does not?"',
         watch: 'Check the circles first: a child who circles the same word for every fact, all "same" or all "different," has not read across the two cards. In the written part, look for both animals in each sentence about a difference. In Grade 1, accept short answers and invented spelling; what counts is that the fact comes from the fact files and not from what the child already knows about the animal. The on-screen activity compares two stories, not fact files. Tell children they compare stories the same way: one thing at a time, across both.',
+      },
+    },
+    '1:story-key-details': {
+      title: 'Find the Answer in the Story',
+      objective: 'Children answer questions about key details in a short story and show the sentence that tells the answer.',
+      note: {
+        mistake: 'Children answer from what they already know about the animals ("Owls fly at night"), not from what the story says. Some copy the first sentence that holds a word of the question. On Level 2 they write the missing words but forget the period.',
+        words: 'Read the story aloud once while children follow with a finger, then read it together. Say: "The answer is in the story. Put your finger on the sentence that tells you." Model the first question: read it, find the sentence, read that sentence aloud, then answer. On Level 1 children circle one of three answers. On Level 2 the answer starts on the line and children finish it. On Level 3 they answer three of the questions in a whole sentence and underline the sentence in the story that tells each answer. Children who finish early ask a partner one more question that the story answers: "Who ...?" "Where ...?" "What ...?" On screen, Fable\'s Picture Stories gives more practice with questions about three-picture stories.',
+        watch: 'An answer is right when the story says it. On Levels 2 and 3 accept the child\'s own words and any spelling you can read; on Level 3 look for a capital letter at the start, on Levels 2 and 3 for a period at the end. Accept every answer the story supports: "home" or "up the hill" for where Sam wants to take the apple. If a child answers without looking back, ask: "Where does the story say that?" On Level 3 the underlined sentence matters as much as the answer.',
+      },
+    },
+    '1:characters-setting-events': {
+      title: 'Characters, Setting, and Big Events',
+      objective: 'Children tell who is in a story, where it takes place, and the big thing that happens, with details from the story.',
+      note: {
+        mistake: 'Children name only one character, or they add an animal that is not in the story. For the setting they tell when ("at night") but not where. For the big event they pick the first thing that happens or a small detail.',
+        words: 'Teach three words with a gesture each: characters (point to a person), setting (spread your arms for the place), event (clap once: something happens). Say: "Characters are who the story is about. The setting is where and when it happens. A big event is an important thing that happens." Read the story, then ask: "Who? Where? What is the big thing that happens?" On Level 1 the story is printed without pictures: children read who is in it and circle the two characters among four animals, then the setting and the big event. On Level 2 they write a word or a few words in each box. On Level 3 they write one sentence in each box; ask for one detail, such as what kind of animal a character is. On screen, Marlo\'s Magnifier asks for the detail that proves something about a character.',
+        watch: 'On Level 1 exactly two animals are circled. On Levels 2 and 3 accept names or animals ("Ben and Fay" or "a bear and a fox") and any true wording of the place and of the big event. The big event is right when the story would not work without it: Ben sharing his plums, not Fay sitting in the park. Ask: "Could we tell the story without this?" If a child says that owls eat mice, say: "In this story Ola is a friend. In stories, animals can act like people."',
+      },
+    },
+    '1:retell-and-lesson': {
+      title: 'Retell the Story and Tell Its Lesson',
+      objective: 'Children retell a story by its beginning, middle, and end and tell the lesson it teaches.',
+      note: {
+        mistake: 'Children retell only the end, or they tell every sentence instead of the three big parts. For the lesson they say what happened ("Ben gave Fay plums") instead of what we can learn from it.',
+        words: 'Hold up three fingers: "First ... Then ... In the end ..." Retell a story the class knows in three sentences before children try. On Level 1 children put three sentences in order and circle the lesson. On Level 2 they write one sentence for the beginning, the middle, and the end with the help of a word bank, then circle the lesson. On Level 3 they retell in their own words, on two rows for each part, and write the lesson. For the lesson ask: "What did the characters learn? What can we learn?" Say it as something for people: "Share what you have." Day 1: retell aloud with a partner, then Level 1. Day 2: Level 2, and Level 3 for children who are ready. On screen, Juniper\'s Story Lantern tells a tiny fable and asks for its lesson.',
+        watch: 'A retelling is right when the three parts are in order and the end is there. It does not have to match the key, and the word bank is a help, not a rule. On Level 3 accept any lesson that fits the whole story and tells people how to act. "Ben gave Fay plums" is a retelling: ask "So what does the story teach us?"',
+      },
+    },
+    '1:feeling-and-sense-words': {
+      title: 'Words That Show Feelings and Senses',
+      objective: 'Children find words in a story that tell how a character feels and words that tell how something looks, sounds, tastes, smells, or feels.',
+      note: {
+        mistake: 'Children mix up how a character feels with what a thing feels like ("soft" is not a feeling). They give their own feeling instead of the character\'s. Some think only "happy" and "sad" are feeling words.',
+        words: 'Open the Feelings Check-In tool and name the feelings and their faces together. Say: "A feeling word tells how someone feels inside: glad, mad, scared." Then: "A sense word tells what you see, hear, taste, smell, or touch: loud, sweet, soft." Touch your eyes, ears, mouth, nose, and hands as you name the senses. Read the story and stop at each of the four words: "Is this a feeling, or one of our senses? Which one?" On Level 1 the four words stand in a box: children underline them in the story and circle the face or the part of the body. On Level 2 they find the two feeling words themselves and answer a question about each sense word. On Level 3 they also tell how the other character feels and why.',
+        watch: 'On Level 1 a feeling word gets a face and a sense word gets a part of the body. "Warm" and "soft" are felt with the skin: the hands stand for touch. On Level 3 any feeling word is right when the reason fits the story: "Ben feels sorry because Fay is hungry." Ask: "How do you know?"',
+      },
+    },
+    '1:who-tells-the-story': {
+      title: 'Who Is Telling the Story?',
+      objective: 'Children tell who is speaking at different points of a story: the narrator or one of the characters.',
+      note: {
+        mistake: 'Children think the character named in a sentence is the one who says it: "Now Finn was glad" is told by the narrator, not said by Finn. Some skip the quotation marks, or think the words "said Fay" are spoken by Fay.',
+        words: 'Say: "The narrator tells the story. The characters talk. Quotation marks show the words a character says out loud." Read one story as a play: one child plays each character and reads only the words inside the quotation marks, and you read the rest as the narrator. Then ask about single sentences: "Who says this? How do you know?" On Level 1 children circle the narrator or a character for six sentences. On Level 2 they write a letter in a box: N for the narrator or the first letter of the character\'s name. On Level 3 they also write one thing a character could say next. On screen, Lumen\'s Lighthouse Windows asks who is telling what was seen.',
+        watch: 'Words inside quotation marks belong to a character, and the words "said Fay" belong to the narrator. On the page the spoken sentences are printed without "said ...", so each has one right answer. On Level 3 accept any words that fit the character and the end of the story; quotation marks around them are a bonus in Grade 1.',
       },
     },
   },

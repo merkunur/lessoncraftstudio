@@ -3020,27 +3020,82 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 25,
-    "near": 3,
-    "open": 45,
-    "lessons": 29
+    "taught": 30,
+    "near": 2,
+    "open": 41,
+    "lessons": 34
    },
    "groups": [
     {
      "title": "Reading: Literature",
      "items": [
       {
-       "code": "RL.1.2",
-       "state": "near",
-       "text": "Children look at the pictures of a story, choose what happens next, and put the sentences of a story in order.",
-       "rel": "prepares",
+       "code": "RL.1.1",
+       "state": "taught",
+       "text": "Children answer questions about key details in a short story and show the sentence that tells the answer.",
        "lessons": [
         {
-         "unit": "reading-sentences-and-stories-grade-1-unit",
-         "unitTitle": "Reading Sentences and Stories",
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Find the Answer in the Story"
+        }
+       ]
+      },
+      {
+       "code": "RL.1.2",
+       "state": "taught",
+       "text": "Children retell a story by its beginning, middle, and end and tell the lesson it teaches.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Retell the Story and Tell Its Lesson"
+        }
+       ]
+      },
+      {
+       "code": "RL.1.3",
+       "state": "taught",
+       "text": "Children tell who is in a story, where it takes place, and the big thing that happens, with details from the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Characters, Setting, and Big Events"
+        }
+       ]
+      },
+      {
+       "code": "RL.1.4",
+       "state": "taught",
+       "text": "Children find words in a story that tell how a character feels and words that tell how something looks, sounds, tastes, smells, or feels.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "Words That Show Feelings and Senses"
+        }
+       ]
+      },
+      {
+       "code": "RL.1.6",
+       "state": "taught",
+       "text": "Children tell who is speaking at different points of a story: the narrator or one of the characters.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
          "unitGrade": "1",
          "n": 5,
-         "title": "What happens next?"
+         "title": "Who Is Telling the Story?"
         }
        ]
       },
@@ -3060,11 +3115,7 @@
       }
      ],
      "open": [
-      "RL.1.1",
-      "RL.1.3",
-      "RL.1.4",
       "RL.1.5",
-      "RL.1.6",
       "RL.1.9",
       "RL.1.10"
      ]
@@ -6369,10 +6420,10 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 23,
+    "taught": 28,
     "near": 7,
-    "open": 54,
-    "lessons": 25
+    "open": 49,
+    "lessons": 30
    },
    "groups": [
     {
@@ -6753,8 +6804,15 @@
       {
        "code": "1.7.C",
        "state": "taught",
-       "text": "Children ask and answer questions about key details in a short informational text and point to the sentence that tells the answer.",
+       "text": "Children answer questions about key details in a short story and show the sentence that tells the answer.",
        "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 1,
+         "title": "Find the Answer in the Story"
+        },
         {
          "unit": "reading-to-learn-informational-texts-grade-1-unit",
          "unitTitle": "Reading to Learn: Informational Texts",
@@ -6766,16 +6824,15 @@
       },
       {
        "code": "1.7.D",
-       "state": "near",
-       "text": "Children look at the pictures of a story, choose what happens next, and put the sentences of a story in order.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children retell a story by its beginning, middle, and end and tell the lesson it teaches.",
        "lessons": [
         {
-         "unit": "reading-sentences-and-stories-grade-1-unit",
-         "unitTitle": "Reading Sentences and Stories",
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
          "unitGrade": "1",
-         "n": 5,
-         "title": "What happens next?"
+         "n": 3,
+         "title": "Retell the Story and Tell Its Lesson"
         }
        ]
       }
@@ -6791,25 +6848,62 @@
      "title": "Knowledge and skills (8)",
      "items": [
       {
-       "code": "1.8.C",
+       "code": "1.8.A",
+       "state": "taught",
+       "text": "Children retell a story by its beginning, middle, and end and tell the lesson it teaches.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 3,
+         "title": "Retell the Story and Tell Its Lesson"
+        }
+       ]
+      },
+      {
+       "code": "1.8.B",
        "state": "near",
-       "text": "Children look at the pictures of a story, choose what happens next, and put the sentences of a story in order.",
+       "text": "Children tell who is in a story, where it takes place, and the big thing that happens, with details from the story.",
        "rel": "prepares",
        "lessons": [
         {
-         "unit": "reading-sentences-and-stories-grade-1-unit",
-         "unitTitle": "Reading Sentences and Stories",
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
          "unitGrade": "1",
-         "n": 5,
-         "title": "What happens next?"
+         "n": 2,
+         "title": "Characters, Setting, and Big Events"
+        }
+       ]
+      },
+      {
+       "code": "1.8.C",
+       "state": "taught",
+       "text": "Children tell who is in a story, where it takes place, and the big thing that happens, with details from the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Characters, Setting, and Big Events"
+        }
+       ]
+      },
+      {
+       "code": "1.8.D",
+       "state": "taught",
+       "text": "Children tell who is in a story, where it takes place, and the big thing that happens, with details from the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 2,
+         "title": "Characters, Setting, and Big Events"
         }
        ]
       }
-     ],
-     "open": [
-      "1.8.A",
-      "1.8.B",
-      "1.8.D"
      ]
     },
     {
@@ -6855,13 +6949,41 @@
     },
     {
      "title": "Knowledge and skills (10)",
-     "items": [],
+     "items": [
+      {
+       "code": "1.10.D",
+       "state": "taught",
+       "text": "Children find words in a story that tell how a character feels and words that tell how something looks, sounds, tastes, smells, or feels.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "Words That Show Feelings and Senses"
+        }
+       ]
+      },
+      {
+       "code": "1.10.E",
+       "state": "near",
+       "text": "Children tell who is speaking at different points of a story: the narrator or one of the characters.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 5,
+         "title": "Who Is Telling the Story?"
+        }
+       ]
+      }
+     ],
      "open": [
       "1.10.A",
       "1.10.B",
-      "1.10.C",
-      "1.10.D",
-      "1.10.E"
+      "1.10.C"
      ]
     },
     {

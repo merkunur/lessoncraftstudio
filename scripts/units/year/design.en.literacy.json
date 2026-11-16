@@ -132,7 +132,8 @@
             "standard": "RL.1.1",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a decodable story of about 60 words in 8 to 10 sentences with two pictures. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the story that tells it."
+            "page": "Story and questions page: a decodable story of about 60 words in 8 to 10 sentences with two pictures. Below: four questions about key details. Level 1: multiple choice, three answers each; level 2: the child writes a short answer with a sentence starter; level 3: the child writes the answer and underlines the sentence in the story that tells it.",
+            "placed": "1:story-key-details"
           },
           {
             "new": true,
@@ -141,7 +142,8 @@
             "standard": "RL.1.3",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 70 words with two pictures. Below: a story map with three boxes (characters, setting, big events). Level 1: the child circles answers from word-and-picture choices; level 2: the child writes a word or phrase in each box; level 3: the child writes a sentence for each box with a detail from the story."
+            "page": "Story and questions page: a story of about 70 words with two pictures. Below: a story map with three boxes (characters, setting, big events). Level 1: the child circles answers from word-and-picture choices; level 2: the child writes a word or phrase in each box; level 3: the child writes a sentence for each box with a detail from the story.",
+            "placed": "1:characters-setting-events"
           },
           {
             "new": true,
@@ -151,7 +153,8 @@
             "days": 3,
             "tool": "Story Line",
             "source": "new",
-            "page": "Story and questions page: a fable-like story of about 80 words with three pictures. Below: three retell boxes (beginning, middle, end) and a lesson line (The lesson is ___.). Level 1: the child cuts and glues three sentence strips in order and circles the lesson from two choices; level 2: the child writes a sentence per box with a word bank; level 3: the child writes the retell and the lesson in their own words."
+            "page": "Story and questions page: a fable-like story of about 80 words with three pictures. Below: three retell boxes (beginning, middle, end) and a lesson line (The lesson is ___.). Level 1: the child cuts and glues three sentence strips in order and circles the lesson from two choices; level 2: the child writes a sentence per box with a word bank; level 3: the child writes the retell and the lesson in their own words.",
+            "placed": "1:retell-and-lesson"
           },
           {
             "new": true,
@@ -161,7 +164,8 @@
             "days": 2,
             "tool": "Feelings Check-In",
             "source": "new",
-            "page": "Story and questions page: a story or poem of about 60 words; the child underlines feeling words (glad, scared, grumpy) and sense words (crunchy, loud) and matches four of them to face or sense pictures. Level 1: the words to find stand in a box; level 2: the child finds them without the box; level 3: the child writes a new feeling word for the character and tells why."
+            "page": "Story and questions page: a story or poem of about 60 words; the child underlines feeling words (glad, scared, grumpy) and sense words (crunchy, loud) and matches four of them to face or sense pictures. Level 1: the words to find stand in a box; level 2: the child finds them without the box; level 3: the child writes a new feeling word for the character and tells why.",
+            "placed": "1:feeling-and-sense-words"
           },
           {
             "new": true,
@@ -170,7 +174,8 @@
             "standard": "RL.1.6",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 70 words with three lines of dialogue in quotation marks. Below: six sentences from the story; the child writes N for the narrator or the first letter of the character who speaks. Level 1: the dialogue also stands in speech bubbles; level 2: quotation marks only; level 3: the child writes one line a character could say next."
+            "page": "Story and questions page: a story of about 70 words with three lines of dialogue in quotation marks. Below: six sentences from the story; the child writes N for the narrator or the first letter of the character who speaks. Level 1: the dialogue also stands in speech bubbles; level 2: quotation marks only; level 3: the child writes one line a character could say next.",
+            "placed": "1:who-tells-the-story"
           },
           {
             "new": true,

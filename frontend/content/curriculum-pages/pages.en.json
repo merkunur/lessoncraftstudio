@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 32,
+    "taught": 34,
     "near": 0,
-    "open": 33,
-    "lessons": 39
+    "open": 31,
+    "lessons": 43
    },
    "groups": [
     {
@@ -2698,11 +2698,25 @@
          "title": "Say it slowly: one sound, one box"
         },
         {
-         "unit": "first-words-to-read-kindergarten-unit",
-         "unitTitle": "First Words to Read",
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 5,
          "title": "sh and ch"
+        }
+       ]
+      },
+      {
+       "code": "RF.K.2.e",
+       "state": "taught",
+       "text": "Children change the first, last, or middle sound of a spoken CVC word to make a new word (cat to hat, hat to ham, ham to him) and spell each new word.",
+       "lessons": [
+        {
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Change one sound to make a new word"
         }
        ]
       },
@@ -2766,6 +2780,20 @@
          "unitGrade": "K",
          "n": 6,
          "title": "Build the word"
+        },
+        {
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "Short a and short i"
+        },
+        {
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Short o, short u, and short e"
         }
        ]
       },
@@ -2791,6 +2819,20 @@
        ]
       },
       {
+       "code": "RF.K.3.d",
+       "state": "taught",
+       "text": "Children tell apart two words that differ by one letter (hat and hot, bag and big) by saying the sound of the letter that differs and choosing the word for the picture.",
+       "lessons": [
+        {
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Which word matches: cat or cot?"
+        }
+       ]
+      },
+      {
        "code": "RF.K.4",
        "state": "taught",
        "text": "Children read a little book with one repeated sentence pattern, pointing under each word, and tell what the book is about.",
@@ -2808,9 +2850,7 @@
      "open": [
       "RF.K.1.a",
       "RF.K.1.b",
-      "RF.K.2.c",
-      "RF.K.2.e",
-      "RF.K.3.d"
+      "RF.K.2.c"
      ]
     },
     {
@@ -3309,10 +3349,10 @@
        "text": "Children say a picture's name and decide whether it begins with the sound of sh or the sound of ch.",
        "lessons": [
         {
-         "unit": "first-words-to-read-kindergarten-unit",
-         "unitTitle": "First Words to Read",
+         "unit": "short-vowels-and-cvc-words-kindergarten-unit",
+         "unitTitle": "Short Vowels and CVC Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 5,
          "title": "sh and ch"
         },
         {

@@ -5075,6 +5075,70 @@
    ],
    "why": "Reading and writing could, would, should, because, and friend by mapping their sounds and learning the tricky part is «identifying and reading high-frequency words from a research-based list».",
    "review": "year-design 2026-11-18"
+  },
+  "K:short-a-i": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying the short sounds of a and i is «identifying and matching the common sounds that letters represent»; reading the words is «using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words»; writing the vowel and the word is «spelling words with VC, CVC, and CCVC».",
+   "review": "year-design 2026-11-18"
+  },
+  "K:short-o-u-e": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying the short sounds of o, u, and e is «identifying and matching the common sounds that letters represent»; reading the words is «using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words»; writing the vowel and the word is «spelling words with VC, CVC, and CCVC».",
+   "review": "year-design 2026-11-18"
+  },
+  "K:change-one-sound": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A ladder on which each step changes one sound of the word above is «recognizing that new words are created when letters are changed, added, or deleted such as it - pit - tip - tap»; the child writes each new word: «spelling words with VC, CVC, and CCVC».",
+   "review": "year-design 2026-11-18"
+  },
+  "K:words-one-letter-apart": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.B.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading two words that differ in one letter and choosing the one for the picture is «using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words»; it prepares «recognizing that new words are created when letters are changed, added, or deleted».",
+   "review": "year-design 2026-11-18"
   }
  }
 }

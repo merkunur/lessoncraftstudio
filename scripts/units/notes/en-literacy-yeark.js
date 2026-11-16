@@ -11,6 +11,8 @@
  * the reviewer of the pages read them (2026-11-17, every finding applied).
  * The note of K:place-words (K-548, K-546) was added by place-ready-q.en.literacy.js; a US teacher read it
  * (2026-11-17, every finding applied).
+ * The four notes of the unit Short Vowels and CVC Words (K-661 to K-664) were added by place-ready-t.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -140,6 +142,42 @@ module.exports = {
         mistake: 'Children mix up above and on top of: a thing that is on top of another touches it, a thing that is above floats over it. Many point and say "there" and never say the place word.',
         words: 'Start with a real box and a toy: "Where is the bear? In the box. On top of the box. Under the box. Next to the box." Then hold the toy over the box without touching it: "Above. It does not touch." On the page Choose the Position Word each row shows a picture and a shape beside a sentence, and the child circles the one word of three that fits. Level 1 has in, on top of, under, and next to; Level 2 adds above and between; Level 3 adds behind and in front of. On a flat page, behind means the shape hides part of the picture, and in front of means the picture covers part of the shape; show this first with two paper cutouts. On day 2, on the page Read and Draw, read each sentence with the child ("The fish is under the square."); the child draws the fish where the sentence says, in the box with the shape. On screen, Bramble\'s Parking Tower gives more practice with above, below, next to, and between (below means the same as under).',
         watch: 'Ask the child to say the finished sentence aloud and to show it with a hand: "Show me under." On Read and Draw, look at where the drawing sits, not at how well it is drawn: on top of touches the shape, above floats over it.',
+      },
+    },
+    'K:short-a-i': {
+      title: 'Short a and short i',
+      objective: 'Children say the short sounds of a and i and read and spell CVC words with them, such as cat, map, pig, and sit.',
+      note: {
+        mistake: 'Children say the letter\'s name, not its sound ("ay" for a). Others read the first letter and guess the rest, so "ham" becomes "hat," or they read "him" as "ham" because they skip the vowel. When they spell, a and i get mixed up.',
+        words: 'Say: "Short a says /ă/, as in apple. Short i says /ĭ/, as in igloo." Model blending: touch each letter, say its sound, then say the sounds fast: /k/ /ă/ /t/, cat. Day 1, Short a and Short i: on every level children read six words and draw a line from each word to its picture. Two words have no picture; each differs from a pictured word only in the vowel (hat and hit), so children must read the middle letter. If a child does not know a picture, look at the six words together: the picture\'s word is one of them. Level 1 practices short a: the four pictures are short-a words, and children write a in six words, starting from the grey example, and read the new words to a partner. Level 2 mixes a and i: after the match, children read four words aloud and write each one under a or i, crossing out each word as they write it. Level 3: after the match, children write the word for three pictures; the first letter is printed on the line, and one picture is the pig. Day 2, Build the CVC Word: children build CVC words from letters on screen and read each word they build.',
+        watch: 'Listen for the vowel. A child who reads "him" as "ham" is reading the first and last letters only: cover the word, uncover one letter at a time, and have the child say each sound. When a child writes "bg" for bag, stretch the word together (/b/ /ă/ /g/) and ask, "What do you hear in the middle?" Before n and m, the a in can, fan, and ham sounds a little different; it is still short a, spelled a.',
+      },
+    },
+    'K:short-o-u-e': {
+      title: 'Short o, short u, and short e',
+      objective: 'Children say the short sounds of o, u, and e and read and spell CVC words with them, such as hot, bug, and bed.',
+      note: {
+        mistake: 'Children mix up short o and short u (hot and hut) and short e and short i. They often spell short e with an i, especially before n or m: in many US homes pen and pin sound the same.',
+        words: 'Say: "Short o says /ŏ/, as in octopus. Short u says /ŭ/, as in umbrella. Short e says /ĕ/, as in elephant." Have children say each sound with you: /ŏ/: drop your jaw, as for the doctor\'s "ahh." /ŭ/: a short, relaxed "uh." /ĕ/: open your mouth a little less than for /ă/. Day 1, Short o, Short u, and Short e: on every level children read six words and draw a line from each word to its picture; two words have no picture and differ from a pictured word only in the vowel (pot and pit). If a child does not know a picture, look at the six words together: the picture\'s word is one of them. Level 1 practices one vowel; each copy uses o or u. Children write the vowel in six words, starting from the grey example, and read the new words to a partner. Level 2 uses two of the three vowels: after the match, children read four words aloud and write each under its vowel. Level 3 uses all three: children write the word for three pictures, one with each vowel; the first letter is printed on the line. Day 2, Build the CVC Word: children build CVC words on screen and read each word they build.',
+        watch: 'The pages keep e and i apart: no task asks a child to hear the difference between e and i before n or m, and no sort puts e against i. When a child spells pen with an i, show the printed word and say, "This word uses e." In some homes dog and log sound a little like "dawg"; accept the child\'s way of saying them and keep the spelling o.',
+      },
+    },
+    'K:change-one-sound': {
+      title: 'Change one sound to make a new word',
+      objective: 'Children change the first, last, or middle sound of a spoken CVC word to make a new word (cat to hat, hat to ham, ham to him) and spell each new word.',
+      note: {
+        mistake: 'Children change the wrong sound: asked to change /t/ in cat to /p/, they say "pat." Others say a rhyming word instead of making the change. When they spell, some write a new word from scratch and change two letters. The middle sound is the hardest to hear.',
+        words: 'Model with letter tiles: "Say cat. Change /k/ to /h/. What is the new word? Hat." Swap the tile so children see that one letter changes and the rest stay. Day 1, Change One Sound: each page is a ladder of six words. Read the top word together; it is printed with its picture. Then read the steps printed at the foot of the page, one at a time ("2 change /k/ to /h/"). Children write the new word on the next step and read it; say the new word together before the next change. When the new sound is /k/, the step line names the letter, c or k. Level 1: only the first sound changes; the last two letters are printed in grey to trace, and children write the first letter. Level 2: the first or the last sound changes, and children write the whole word in the three boxes. Level 3: the first, middle, or last sound changes. Day 2, Pepper\'s Sound Swap: children change one sound on screen to make a new word.',
+        watch: 'Before each change, have the child point to the box of the sound you named. A child who writes two new letters has started over: read the word on the step above and ask, "Which sound changed?" Every word on the ladder is a real word, and no step changes e and i before n or m (pen, pin), which sound alike in many homes.',
+      },
+    },
+    'K:words-one-letter-apart': {
+      title: 'Which word matches: cat or cot?',
+      objective: 'Children tell apart two words that differ by one letter (hat and hot, bag and big) by saying the sound of the letter that differs and choosing the word for the picture.',
+      note: {
+        mistake: 'Children circle the word that starts like the picture\'s name without reading the rest. Others look at the picture, say its name, and circle any word of the right length without reading the letter that differs.',
+        words: 'Write hat and hot on the board. Say: "These words look almost the same. One letter is different." Read both words with the children, point to the a and the o, and say their sounds: /ă/, /ŏ/. Day 1, Which Word Matches?: each page has ten pictures (eight on Levels 2 and 3), each with two words that differ in one letter. Children read both words, circle the word for the picture, and underline the letter that is different in the word they circled. Level 1: the first letter differs (cat and bat). Level 2: the last letter differs (cat and can). Level 3: the middle letter, the vowel, differs (hat and hot). Day 2, Bingo\'s Word Hunt: children read look-alike words on screen and tap the one that names the picture.',
+        watch: 'Ask the child to say the sound of the letter that differs in each word; a child who can circle the word but not say the sounds is guessing from the picture. Level 3 never pairs e and i before n or m (pen and pin), which sound alike in many US homes. Every picture is one most kindergartners name with its word; if a child calls a picture something else, have the child read both words: only one of them names the picture.',
       },
     },
   },

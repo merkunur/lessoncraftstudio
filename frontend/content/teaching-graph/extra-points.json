@@ -529,6 +529,46 @@
    "strand": "Foundational Skills",
    "code": "RF.2.3.f",
    "skill": "Read and spell common words with a part that does not follow the rules (could, would, should, because, friend)"
+  },
+  {
+   "tp": "K:short-a-i",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.3.b",
+   "skill": "Say the short sounds of a and i and read and spell consonant-vowel-consonant words with them (cat, map, pig, sit)",
+   "activities": [
+    "cvc-builder.build-cvc-word.rf-k-3"
+   ]
+  },
+  {
+   "tp": "K:short-o-u-e",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.3.b",
+   "skill": "Say the short sounds of o, u, and e and read and spell consonant-vowel-consonant words with them (hot, bug, bed)",
+   "activities": [
+    "cvc-builder.build-cvc-word.rf-k-3"
+   ]
+  },
+  {
+   "tp": "K:change-one-sound",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.2.e",
+   "skill": "Change the first, last, or middle sound of a spoken consonant-vowel-consonant word to make a new word and spell it",
+   "activities": [
+    "pepper-sound-swap.substitute.rf-k-2-e"
+   ]
+  },
+  {
+   "tp": "K:words-one-letter-apart",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.3.d",
+   "skill": "Tell apart two words that differ in one letter (hat and hot, bag and big) and choose the word for a picture",
+   "activities": [
+    "bingo-word-hunt.read-match.rf-k-3-d"
+   ]
   }
  ]
 }

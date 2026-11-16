@@ -2563,7 +2563,7 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
-   "metaDescription": "A Kindergarten unit: 6 lessons on matching words to pictures, sight words, a first little book, one and many, a or an, and sh and ch, each with a teacher note.",
+   "metaDescription": "A Kindergarten unit: 5 lessons on matching words to pictures, sight words, a first little book, one and many, and a or an, each with a teacher note.",
    "weeks": 3,
    "lessons": [
     {
@@ -2608,6 +2608,43 @@
      "types": [
       "K-288",
       "K-306"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k-short-vowels-and-cvc-words",
+   "slug": "short-vowels-and-cvc-words-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Short Vowels and CVC Words",
+   "metaTitle": "Kindergarten Lesson Plans: Short Vowels and CVC Words",
+   "metaDescription": "A Kindergarten phonics unit: 5 lessons on short a and i, short o, u, and e, changing one sound to make a new word, look-alike words, and sh and ch.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "K:short-a-i",
+     "types": [
+      "K-661"
+     ]
+    },
+    {
+     "point": "K:short-o-u-e",
+     "types": [
+      "K-662"
+     ]
+    },
+    {
+     "point": "K:change-one-sound",
+     "types": [
+      "K-663"
+     ]
+    },
+    {
+     "point": "K:words-one-letter-apart",
+     "types": [
+      "K-664"
      ]
     },
     {
@@ -3673,6 +3710,7 @@
     "k-letters-and-handwriting",
     "k-hearing-sounds-in-words",
     "k-first-words-to-read",
+    "k-short-vowels-and-cvc-words",
     "k-sorting-words-telling-stories",
     "k-reading-stories",
     "k-words-and-sentences",

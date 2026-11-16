@@ -335,6 +335,10 @@
   "G2-545": "2:er-ir-ur",
   "G2-546": "2:long-vowels-two-syllable-words",
   "G2-547": "2:long-vowels-two-syllable-words",
-  "G2-548": "2:tricky-words-could-would-should"
+  "G2-548": "2:tricky-words-could-would-should",
+  "K-661": "K:short-a-i",
+  "K-662": "K:short-o-u-e",
+  "K-663": "K:change-one-sound",
+  "K-664": "K:words-one-letter-apart"
  }
 }

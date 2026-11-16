@@ -1896,7 +1896,8 @@
             "days": 2,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c_t, p_g). Level 1: one pattern per page (short a); level 2: two patterns mixed (short a and short i), sorted into two columns; level 3: the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (c_t, p_g). Level 1: one pattern per page (short a); level 2: two patterns mixed (short a and short i), sorted into two columns; level 3: the whole word written under each picture.",
+            "placed": "K:short-a-i"
           },
           {
             "new": true,
@@ -1906,7 +1907,8 @@
             "days": 2,
             "tool": "Blending Board",
             "source": "new",
-            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (h_t, b_g, b_d). Level 1: one pattern per page (short o); level 2: two patterns mixed, sorted into two columns; level 3: all three vowels, with the whole word written under each picture."
+            "page": "Phonics pattern page: twelve picture words with the target spelling. Top: the child reads each word and draws a line to its picture. Bottom: the child writes the missing letters (h_t, b_g, b_d). Level 1: one pattern per page (short o); level 2: two patterns mixed, sorted into two columns; level 3: all three vowels, with the whole word written under each picture.",
+            "placed": "K:short-o-u-e"
           },
           {
             "new": true,
@@ -1916,7 +1918,8 @@
             "days": 2,
             "tool": "Letter Tiles",
             "source": "new",
-            "page": "Phonics chain page: a word ladder of six CVC words with pictures; each rung changes one letter. The child reads the top word, listens to the change the teacher says, and writes the new word on the next rung. Level 1: only the first sound changes; level 2: the first or the last sound; level 3: the first, last, or middle sound."
+            "page": "Phonics chain page: a word ladder of six CVC words with pictures; each rung changes one letter. The child reads the top word, listens to the change the teacher says, and writes the new word on the next rung. Level 1: only the first sound changes; level 2: the first or the last sound; level 3: the first, last, or middle sound.",
+            "placed": "K:change-one-sound"
           },
           {
             "new": true,
@@ -1925,7 +1928,8 @@
             "standard": "RF.K.3.d",
             "days": 2,
             "source": "new",
-            "page": "Phonics pattern page: ten pictures, each with two words that differ by one letter (bag and big, hen and pen). The child reads both words, circles the word for the picture, and underlines the letter that differs. Level 1: the different letter is the first one; level 2: the last one; level 3: the middle vowel."
+            "page": "Phonics pattern page: ten pictures, each with two words that differ by one letter (bag and big, hen and pen). The child reads both words, circles the word for the picture, and underlines the letter that differs. Level 1: the different letter is the first one; level 2: the last one; level 3: the middle vowel.",
+            "placed": "K:words-one-letter-apart"
           },
           {
             "existing": "K:digraphs-k",

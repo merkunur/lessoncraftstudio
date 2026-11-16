@@ -2291,6 +2291,46 @@
    ],
    "by": "code"
   },
+  "K:short-a-i": {
+   "rows": [
+    {
+     "id": "RF.K.3.b",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:short-o-u-e": {
+   "rows": [
+    {
+     "id": "RF.K.3.b",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:change-one-sound": {
+   "rows": [
+    {
+     "id": "RF.K.2.e",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:words-one-letter-apart": {
+   "rows": [
+    {
+     "id": "RF.K.3.d",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:digraphs-k": {
    "rows": [
     {

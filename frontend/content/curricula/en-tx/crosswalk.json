@@ -2661,6 +2661,76 @@
    ],
    "by": "authored"
   },
+  "K:short-a-i": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:short-o-u-e": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.i",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:change-one-sound": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.iii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.C.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:words-one-letter-apart": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.B.ii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.B.iii",
+     "rel": "prepares",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:digraphs-k": {
    "rows": [
     {

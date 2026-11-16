@@ -1,0 +1,627 @@
+{
+ "_note": "Grade 1 long vowels (English literacy year, Part 12.3; types/_shared/vowels-g1.js). General American pronunciation. `pics`: the library picture of a word (only pictures a first grader names with that word; looked at on a contact sheet: the boat is the small toys/boat, never the ship of beach/boat; tub is the bathtub, rod the fishing rod, plane the airplane, cane the candy cane, bike the bicycle, plate the white plate, globe the classroom globe). `silentE`: `pairs` by vowel (a short-vowel word and the word it becomes with a silent e, both real words a first grader knows; hug/huge is left out because the g changes too), `pictured` the words of those pairs that have a picture (the picture shows that word; cape is left out: its picture is a buttoned coat), `write` silent-e words with a picture that a child writes under it on Level 3 (none for u_e), `sentences` a sentence with a blank that only ONE word of a pair fits. `noWrite`: words a child is never asked to write under a picture, because the picture can be named another way (jeep: car; seal: sea lion; rose: flower; cube: box or block; dice: die; cape: coat; rope, cone, hose: the pictures read as other things; peach: the library peaches look like apples, so no peach is in this bank). `teams`: for each pair of spellings of one long vowel, `a` and `b` (the letters `g` and one-syllable words in which they spell the long vowel; read is left out because it has two pronunciations), `rule` where the place in the word tells the spelling (null where it does not; the words of its examples are never printed again on a page that shows the rule), `odd` a word that has one of the two spellings but does NOT say the long vowel (the word to cross out on Level 3), `write` the pictured words a child writes under their pictures on Level 3 (the first letter is printed at the start of the row; that is why rain, whose picture is a rain cloud, and toast, which a child might call bread, may stand here), `box` words that fit NONE of the sentences (they fill the word box), `sentences` with a blank and the one word that fits, and `apart` pairs of sentence answers that never stand in one word box (each would make the other sentence half true: \"Wash your hands with snow.\").",
+ "pics": {
+  "cap": [
+   "accessories",
+   "cap"
+  ],
+  "tape": [
+   "classroom",
+   "tape"
+  ],
+  "can": [
+   "At the Supermarket",
+   "can"
+  ],
+  "hat": [
+   "accessories",
+   "hat"
+  ],
+  "plane": [
+   "vehicles",
+   "airplane"
+  ],
+  "cane": [
+   "christmas",
+   "candy_cane"
+  ],
+  "kite": [
+   "beach",
+   "kite"
+  ],
+  "slide": [
+   "toys",
+   "slide"
+  ],
+  "note": [
+   "music",
+   "note"
+  ],
+  "rod": [
+   "camping",
+   "fishing_rod"
+  ],
+  "cube": [
+   "shapes",
+   "cube"
+  ],
+  "tub": [
+   "around the house",
+   "bathtub"
+  ],
+  "cake": [
+   "bakery",
+   "cake"
+  ],
+  "gate": [
+   "around the house",
+   "gate"
+  ],
+  "rake": [
+   "around the house",
+   "rake"
+  ],
+  "plate": [
+   "around the house",
+   "plate"
+  ],
+  "bike": [
+   "vehicles",
+   "bicycle"
+  ],
+  "nose": [
+   "body parts",
+   "nose"
+  ],
+  "globe": [
+   "classroom",
+   "globe"
+  ],
+  "rain": [
+   "weather",
+   "rainy"
+  ],
+  "train": [
+   "toys",
+   "train"
+  ],
+  "snail": [
+   "forest creatures",
+   "snail"
+  ],
+  "nail": [
+   "tools",
+   "nail"
+  ],
+  "bee": [
+   "farm animals",
+   "bee"
+  ],
+  "tree": [
+   "tree",
+   "oak"
+  ],
+  "sheep": [
+   "animals",
+   "sheep"
+  ],
+  "jeep": [
+   "vehicles",
+   "jeep"
+  ],
+  "leaf": [
+   "miscellaneous",
+   "leaf"
+  ],
+  "seal": [
+   "ocean life",
+   "seal"
+  ],
+  "beach": [
+   "summer",
+   "beach"
+  ],
+  "boat": [
+   "toys",
+   "boat"
+  ],
+  "coat": [
+   "clothing",
+   "coat"
+  ],
+  "goat": [
+   "farm animals",
+   "goat"
+  ],
+  "toast": [
+   "bakery",
+   "toast"
+  ],
+  "crow": [
+   "birds 2",
+   "crow"
+  ]
+ },
+ "noWrite": [
+  "jeep",
+  "seal",
+  "rose",
+  "cube",
+  "dice",
+  "cape",
+  "rope",
+  "cone",
+  "hose",
+  "peach"
+ ],
+ "silentE": {
+  "pairs": {
+   "a": [
+    [
+     "cap",
+     "cape"
+    ],
+    [
+     "tap",
+     "tape"
+    ],
+    [
+     "can",
+     "cane"
+    ],
+    [
+     "man",
+     "mane"
+    ],
+    [
+     "mad",
+     "made"
+    ],
+    [
+     "hat",
+     "hate"
+    ],
+    [
+     "at",
+     "ate"
+    ],
+    [
+     "plan",
+     "plane"
+    ]
+   ],
+   "i": [
+    [
+     "kit",
+     "kite"
+    ],
+    [
+     "pin",
+     "pine"
+    ],
+    [
+     "rid",
+     "ride"
+    ],
+    [
+     "hid",
+     "hide"
+    ],
+    [
+     "bit",
+     "bite"
+    ],
+    [
+     "fin",
+     "fine"
+    ],
+    [
+     "dim",
+     "dime"
+    ],
+    [
+     "slid",
+     "slide"
+    ]
+   ],
+   "o": [
+    [
+     "not",
+     "note"
+    ],
+    [
+     "hop",
+     "hope"
+    ],
+    [
+     "rob",
+     "robe"
+    ],
+    [
+     "rod",
+     "rode"
+    ]
+   ],
+   "u": [
+    [
+     "cub",
+     "cube"
+    ],
+    [
+     "tub",
+     "tube"
+    ],
+    [
+     "cut",
+     "cute"
+    ]
+   ]
+  },
+  "pictured": {
+   "a": [
+    "cap",
+    "tape",
+    "can",
+    "hat",
+    "plane",
+    "cane"
+   ],
+   "i": [
+    "kite",
+    "slide"
+   ],
+   "o": [
+    "note",
+    "rod"
+   ],
+   "u": [
+    "cube",
+    "tub"
+   ]
+  },
+  "write": {
+   "a": [
+    "cake",
+    "gate",
+    "rake",
+    "plate"
+   ],
+   "i": [
+    "kite",
+    "bike"
+   ],
+   "o": [
+    "nose",
+    "globe"
+   ],
+   "u": []
+  },
+  "sentences": {
+   "a": [
+    {
+     "text": "Dad ___ a cake for us.",
+     "right": "made",
+     "wrong": "mad"
+    },
+    {
+     "text": "A horse has a long ___.",
+     "right": "mane",
+     "wrong": "man"
+    },
+    {
+     "text": "Sam is ___ at his dog.",
+     "right": "mad",
+     "wrong": "made"
+    },
+    {
+     "text": "I can ___ the box shut.",
+     "right": "tape",
+     "wrong": "tap"
+    },
+    {
+     "text": "Put the ___ on your head.",
+     "right": "cap",
+     "wrong": "cape"
+    }
+   ],
+   "i": [
+    {
+     "text": "I like to ___ my bike.",
+     "right": "ride",
+     "wrong": "rid"
+    },
+    {
+     "text": "A fish has a ___.",
+     "right": "fin",
+     "wrong": "fine"
+    },
+    {
+     "text": "My dog will not ___ you.",
+     "right": "bite",
+     "wrong": "bit"
+    },
+    {
+     "text": "A ___ is ten cents.",
+     "right": "dime",
+     "wrong": "dim"
+    },
+    {
+     "text": "I will ___ under the bed.",
+     "right": "hide",
+     "wrong": "hid"
+    },
+    {
+     "text": "The ___ is up in the sky.",
+     "right": "kite",
+     "wrong": "kit"
+    }
+   ],
+   "o": [
+    {
+     "text": "I ___ you can come to my party.",
+     "right": "hope",
+     "wrong": "hop"
+    },
+    {
+     "text": "Can you ___ on one foot?",
+     "right": "hop",
+     "wrong": "hope"
+    },
+    {
+     "text": "Mom left a ___ on the table.",
+     "right": "note",
+     "wrong": "not"
+    },
+    {
+     "text": "It is ___ hot today.",
+     "right": "not",
+     "wrong": "note"
+    }
+   ],
+   "u": [
+    {
+     "text": "Take a bath in the ___.",
+     "right": "tub",
+     "wrong": "tube"
+    },
+    {
+     "text": "A baby bear is a ___.",
+     "right": "cub",
+     "wrong": "cube"
+    },
+    {
+     "text": "An ice ___ is cold.",
+     "right": "cube",
+     "wrong": "cub"
+    },
+    {
+     "text": "The puppy is so ___.",
+     "right": "cute",
+     "wrong": "cut"
+    }
+   ]
+  }
+ },
+ "teams": {
+  "ai-ay": {
+   "sound": "long a",
+   "a": {
+    "g": "ai",
+    "words": [
+     "rain",
+     "mail",
+     "tail",
+     "sail",
+     "nail",
+     "wait",
+     "paint",
+     "train",
+     "snail",
+     "chain"
+    ]
+   },
+   "b": {
+    "g": "ay",
+    "words": [
+     "day",
+     "play",
+     "say",
+     "hay",
+     "may",
+     "way",
+     "stay",
+     "tray",
+     "clay",
+     "gray"
+    ]
+   },
+   "rule": "ai comes in the middle of a word: rain. ay comes at the end: play.",
+   "odd": "said",
+   "write": [
+    "rain",
+    "train",
+    "snail",
+    "nail"
+   ],
+   "box": [
+    "hay",
+    "clay",
+    "nail",
+    "chain",
+    "tray",
+    "snail",
+    "gray",
+    "paint"
+   ],
+   "apart": [],
+   "sentences": [
+    {
+     "text": "We ___ tag at recess.",
+     "right": "play"
+    },
+    {
+     "text": "A dog wags its ___.",
+     "right": "tail"
+    },
+    {
+     "text": "Take a coat. It will ___ today.",
+     "right": "rain"
+    },
+    {
+     "text": "What ___ is your party?",
+     "right": "day"
+    }
+   ]
+  },
+  "ee-ea": {
+   "sound": "long e",
+   "a": {
+    "g": "ee",
+    "words": [
+     "see",
+     "bee",
+     "tree",
+     "feet",
+     "seed",
+     "green",
+     "sleep",
+     "sheep",
+     "week",
+     "jeep"
+    ]
+   },
+   "b": {
+    "g": "ea",
+    "words": [
+     "eat",
+     "sea",
+     "tea",
+     "seat",
+     "leaf",
+     "bean",
+     "seal",
+     "meat",
+     "team",
+     "beach"
+    ]
+   },
+   "rule": null,
+   "odd": "head",
+   "write": [
+    "bee",
+    "tree",
+    "sheep",
+    "leaf"
+   ],
+   "box": [
+    "green",
+    "feet",
+    "sleep",
+    "sea",
+    "tea",
+    "team",
+    "jeep",
+    "seal"
+   ],
+   "apart": [
+    [
+     "bee",
+     "leaf"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "A ___ can sting you.",
+     "right": "bee"
+    },
+    {
+     "text": "We ___ lunch at noon.",
+     "right": "eat"
+    },
+    {
+     "text": "There are seven days in a ___.",
+     "right": "week"
+    },
+    {
+     "text": "A ___ turns red in the fall.",
+     "right": "leaf"
+    }
+   ]
+  },
+  "oa-ow": {
+   "sound": "long o",
+   "a": {
+    "g": "oa",
+    "words": [
+     "boat",
+     "coat",
+     "goat",
+     "road",
+     "soap",
+     "toad",
+     "toast",
+     "loaf",
+     "float",
+     "coach"
+    ]
+   },
+   "b": {
+    "g": "ow",
+    "words": [
+     "snow",
+     "grow",
+     "show",
+     "low",
+     "blow",
+     "slow",
+     "row",
+     "mow",
+     "crow",
+     "glow"
+    ]
+   },
+   "rule": "oa comes in the middle of a word: boat. ow comes at the end: snow.",
+   "odd": "cow",
+   "write": [
+    "boat",
+    "coat",
+    "goat",
+    "toast"
+   ],
+   "box": [
+    "toad",
+    "loaf",
+    "coach",
+    "low",
+    "slow",
+    "mow",
+    "road",
+    "goat"
+   ],
+   "apart": [
+    [
+     "soap",
+     "snow"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "The ___ falls in winter.",
+     "right": "snow"
+    },
+    {
+     "text": "We sail in a ___.",
+     "right": "boat"
+    },
+    {
+     "text": "Plants ___ in the sun.",
+     "right": "grow"
+    },
+    {
+     "text": "Wash your hands with ___.",
+     "right": "soap"
+    }
+   ]
+  }
+ }
+}

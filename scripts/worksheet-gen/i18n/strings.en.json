@@ -5257,5 +5257,73 @@
   "K-653": {
     "title": "The Pictures and the Words",
     "instruction": "Listen to each sentence of the story. Draw a line from each sentence to its picture."
+  },
+  "G1-584": {
+    "title": "Silent e Changes the Vowel",
+    "instruction": "The e at the end is silent. It makes the vowel say its name."
+  },
+  "G1-585": {
+    "title": "Long a: ai and ay",
+    "instruction": "ai and ay both spell long a."
+  },
+  "G1-586": {
+    "title": "Long e: ee and ea",
+    "instruction": "ee and ea both spell long e."
+  },
+  "G1-587": {
+    "title": "Long o: oa and ow",
+    "instruction": "oa and ow both spell long o."
+  },
+  "K-654": {
+    "title": "Naming Words and Action Words",
+    "instruction": "Read the word on each card. Cut out the cards. Glue each card in the naming box or the action box."
+  },
+  "K-655": {
+    "title": "A Sentence Starts with a Capital Letter",
+    "instruction": "Circle the first letter of each sentence and every word I. If a sentence starts with a small letter, write its capital letter in the box above it."
+  },
+  "K-656": {
+    "title": "A Period or a Question Mark?",
+    "instruction": "Read each sentence. Does it tell or ask? Write a period or a question mark in the box."
+  },
+  "K-657": {
+    "title": "Say More: Make the Sentence Longer",
+    "instruction": "Read each sentence and look at the picture. Circle the words that tell where or when. Write them on the line."
+  },
+  "G1-588": {
+    "title": "Letter Teams: sh, ch, and th",
+    "instruction": "Read each word and draw a line to its picture. Then write each word under its letter team."
+  },
+  "G1-589": {
+    "title": "Letter Teams: ck, ng, and wh",
+    "instruction": "Read each word and draw a line to its picture. Then write each word under its letter team."
+  },
+  "G1-590": {
+    "title": "Blends at the Start",
+    "instruction": "Read each word and draw a line to its picture. Then write each word under its kind of blend."
+  },
+  "G1-591": {
+    "title": "Blends at the End",
+    "instruction": "Read each word and draw a line to its picture. Then write each word under its ending."
+  },
+  "G3-510": {
+    "title": "Read the Text and the Map",
+    "instruction": "Read the text and look at the map. Write each answer. Then put a check mark next to where you found it."
+  },
+  "G3-511": {
+    "title": "Read the Text and Diagram",
+    "instruction": "Read the text and look at the diagram. Write each answer. Then put a check mark next to where you found it."
+  },
+  "K-658": {
+    "title": "Find the Action Word",
+    "instruction": "Read the three words in each row. Circle the action word."
+  },
+  "K-659": {
+    "title": "Telling or Asking? Sort the Sentences",
+    "instruction": "Read each strip. Cut out the strips. Glue each one in the period box or the question mark box."
+  },
+  "K-660": {
+    "title": "Fix the First Letter",
+    "instruction": "Circle the sentence that starts with a capital letter. Then write that capital letter in the box."
   }
 }

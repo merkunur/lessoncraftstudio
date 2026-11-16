@@ -254,6 +254,108 @@ const TEXT = {
     2: "Listen to each sentence of the story. Draw a line from each sentence to its picture.",
     3: "Listen to each sentence. Draw a line to its picture. One picture is missing. Draw it in the empty box, then draw a line to it.",
   },
+  'G1-584': {
+    title: "Silent e Changes the Vowel",
+    1: "The e at the end is silent. It makes the vowel say its name.",
+    2: "The e at the end is silent. It makes the vowel say its name.",
+    3: "The e at the end is silent. It makes the vowel say its name.",
+  },
+  'G1-585': {
+    title: "Long a: ai and ay",
+    1: "ai and ay both spell long a.",
+    2: "ai and ay both spell long a.",
+    3: "ai and ay both spell long a.",
+  },
+  'G1-586': {
+    title: "Long e: ee and ea",
+    1: "ee and ea both spell long e.",
+    2: "ee and ea both spell long e.",
+    3: "ee and ea both spell long e.",
+  },
+  'G1-587': {
+    title: "Long o: oa and ow",
+    1: "oa and ow both spell long o.",
+    2: "oa and ow both spell long o.",
+    3: "oa and ow both spell long o.",
+  },
+  'G1-588': {
+    title: "Letter Teams: sh, ch, and th",
+    1: "Write the letter team to make new words and to finish the words. Read every word. Then circle the word that fits each sentence.",
+    2: "Read each word and draw a line to its picture. Then write each word under its letter team.",
+    3: "Write the word for each picture. Write each word under its letter team. Then finish the words in the sentences.",
+  },
+  'G1-589': {
+    title: "Letter Teams: ck, ng, and wh",
+    1: "Write the letter team to make new words and to finish the words. Read every word. Then circle the word that fits each sentence.",
+    2: "Read each word and draw a line to its picture. Then write each word under its letter team.",
+    3: "Write the word for each picture. Write each word under its letter team. Then finish the words in the sentences.",
+  },
+  'G1-590': {
+    title: "Blends at the Start",
+    1: "Add s to make new words, and write the blend in each word. Read every word. Then circle the word that fits each sentence.",
+    2: "Read each word and draw a line to its picture. Then write each word under its kind of blend.",
+    3: "Write the word for each picture. Write each word under its kind of blend. Then write the two letters that start the words in the sentences.",
+  },
+  'G1-591': {
+    title: "Blends at the End",
+    1: "Write nd to make new words and to finish the words. Read every word. Then circle the word that fits each sentence.",
+    2: "Read each word and draw a line to its picture. Then write each word under its ending.",
+    3: "Write the word for each picture. Write each word under its ending. Then finish the words in the sentences.",
+  },
+  'G3-510': {
+    title: "Read the Text and the Map",
+    1: "Read the text and look at the map. Circle the answer to each question. Then circle where you found it.",
+    2: "Read the text and look at the map. Write each answer. Then put a check mark next to where you found it.",
+    3: "Read the text and look at the map. Write each answer and put a check mark next to where you found it. Then name the two numbered places.",
+  },
+  'G3-511': {
+    title: "Read the Text and Diagram",
+    1: "Read the text and look at the diagram. Circle the answer to each question. Then circle where you found it.",
+    2: "Read the text and look at the diagram. Write each answer. Then put a check mark next to where you found it.",
+    3: "Read the text and look at the diagram. Write each answer and put a check mark next to where you found it. Then write the missing step.",
+  },
+  'K-654': {
+    title: "Naming Words and Action Words",
+    1: "Listen as your teacher names each picture. Cut out the cards. Glue each card in the naming box or the action box.",
+    2: "Read the word on each card. Cut out the cards. Glue each card in the naming box or the action box.",
+    3: "Cut out the cards and glue each one in its box. Then finish the sentence with a naming word and an action word.",
+  },
+  'K-655': {
+    title: "A Sentence Starts with a Capital Letter",
+    1: "Circle the first letter of each sentence and every word I. If a sentence starts with a small letter, write its capital letter in the box above it.",
+    2: "Circle the first letter of each sentence and every word I. If a sentence starts with a small letter, write its capital letter in the box above it.",
+    3: "Circle the first letter of each sentence and every word I. Write a capital letter in the box above each small first letter. Then copy the sentence at the bottom.",
+  },
+  'K-656': {
+    title: "A Period or a Question Mark?",
+    1: "Listen as your teacher reads each sentence. Does it tell or ask? Circle the period or the question mark.",
+    2: "Read each sentence. Does it tell or ask? Write a period or a question mark in the box.",
+    3: "Write a period or a question mark in each box. Then write one telling sentence and one asking sentence about the picture.",
+  },
+  'K-657': {
+    title: "Say More: Make the Sentence Longer",
+    1: "Listen as your teacher reads each sentence. Look at the picture. Circle the words that tell where or when.",
+    2: "Read each sentence and look at the picture. Circle the words that tell where or when. Write them on the line.",
+    3: "Read each sentence and look at the picture. Write your own words on the line to tell where or when.",
+  },
+  'K-658': {
+    title: "Find the Action Word",
+    1: "Listen as your teacher names the pictures in each row. Circle the picture that shows an action.",
+    2: "Read the three words in each row. Circle the action word.",
+    3: "Read each sentence. Circle the naming word. Draw a line under the action word.",
+  },
+  'K-659': {
+    title: "Telling or Asking? Sort the Sentences",
+    1: "Listen as your teacher reads each strip. Cut out the strips. Glue each one in the period box or the question mark box.",
+    2: "Read each strip. Cut out the strips. Glue each one in the period box or the question mark box.",
+    3: "Read each strip and write a period or a question mark in its box. Then cut out the strips and glue each one in the box for its mark.",
+  },
+  'K-660': {
+    title: "Fix the First Letter",
+    1: "Each sentence is written two ways. Circle the one that starts with a capital letter.",
+    2: "Circle the sentence that starts with a capital letter. Then write that capital letter in the box.",
+    3: "Each sentence starts with a small letter. Write its first word with a capital letter on the line.",
+  },
 };
 
 function edit(file, fn) {

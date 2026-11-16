@@ -6832,21 +6832,22 @@
     },
     {
      "part": 3,
-     "lesson": 3,
+     "lesson": 4,
      "title": "One and many",
      "type": "K-302",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "A or an?",
      "type": "K-288",
      "tasks": 2
     }
    ],
    "notCovered": [
-    5
+    3,
+    6
    ],
    "forms": {
     "A": {

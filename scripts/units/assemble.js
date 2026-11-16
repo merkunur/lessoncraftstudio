@@ -166,7 +166,8 @@ function assemble(loc, opt = {}) {
         const xr = (L.exitType && paper.find((r) => r.type === L.exitType)) || paper[0];
         const pg = pages.get(xr.type);
         // one more page of the SAME level as the lesson's core page
-        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[xr.level || 2]].find((y) => !usedPages.has(y.slug));
+        // a page the lesson avoids is no exit ticket either (2026-11-16: a Level B little book after a Level A lesson)
+        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[xr.level || 2]].find((y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug));
         if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: xr.title }; }
       }
       // the tool on the projector: the unit's choice, else the first tool that models this point

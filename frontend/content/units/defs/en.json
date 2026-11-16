@@ -2563,7 +2563,7 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
-   "metaDescription": "A three-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
+   "metaDescription": "A Kindergarten unit: 6 lessons on matching words to pictures, sight words, a first little book, one and many, a or an, and sh and ch, each with a teacher note.",
    "weeks": 3,
    "lessons": [
     {
@@ -2578,6 +2578,22 @@
      "types": [
       "K-389",
       "K-392"
+     ]
+    },
+    {
+     "point": "K:read-picture-book",
+     "types": [
+      "K-629",
+      "K-631"
+     ],
+     "titles": {
+      "K-629": "A Little Book to Fold and Read",
+      "K-631": "Read and Talk"
+     },
+     "avoid": [
+      "readers-k629-bigandlittle",
+      "readers-k629-thebigcloud",
+      "readers-k629-thefrog"
      ]
     },
     {

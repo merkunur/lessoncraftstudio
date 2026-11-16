@@ -11897,8 +11897,8 @@
    "subject": "literacy",
    "title": "First Words to Read",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: First Words to Read",
-   "metaDescription": "A three-week Kindergarten unit: 5 lessons on matching words to pictures, sight words, one and many, a or an, and sh and ch, each with a teacher note.",
-   "days": 13,
+   "metaDescription": "A Kindergarten unit: 6 lessons on matching words to pictures, sight words, a first little book, one and many, a or an, and sh and ch, each with a teacher note.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -12016,6 +12016,42 @@
     },
     {
      "n": 3,
+     "point": "K:read-picture-book",
+     "title": "Read a little book",
+     "objective": "Children read a little book with one repeated sentence pattern, pointing under each word, and tell what the book is about.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.K.4",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-629",
+       "title": "A Little Book to Fold and Read",
+       "core": "readers-k629-atthefarm"
+      },
+      {
+       "type": "K-631",
+       "title": "Read and Talk",
+       "core": "readers-k631-atthefarm"
+      }
+     ],
+     "exit": {
+      "slug": "readers-k629-iseepets",
+      "title": "A Little Book to Fold and Read"
+     },
+     "note": {
+      "mistake": "Children say the sentence from memory and from the picture without looking at the words: they point three times for four words, or say \"lamb\" where the book says \"sheep.\" Others stop pointing after the first page.",
+      "words": "Fold the page into a little book together: top half back, then left half back. Name the pictures first, so that every child has the words. Read the title and page 2 aloud, pointing under each word; then children read pages 3 and 4 themselves. Say: \"One touch for each word. Does your finger stop when your voice stops?\" If a child says a word that fits the picture but not the print, point to the first letter: \"Could this be lamb? What letter would lamb start with?\" If the word can be sounded out, like pig, have the child say each sound and blend it: /p/ /i/ /g/, pig. Then use the Read and Talk page: read the new words and the picture words together, read the book again, and talk about the three questions.",
+      "watch": "Watch the pointing finger, not just the voice: one touch for each word shows that the child matches spoken words to printed words. A child who reads the pattern on every page but cannot point to a word you name (\"Show me the word the.\") is reciting: go back to the sight-word lesson. Each book is marked with a level. (A Level A book has one short line on each page and repeats one sentence pattern; only the picture word changes.) Each time children reread the book, they check one box next to \"I read it\" on the Read and Talk page. A child who reads the book easily is ready for another book of the same level."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
      "point": "K:singular-plural",
      "title": "One and many",
      "objective": "Children tell the word for one from the word for more than one and write the plural with s.",
@@ -12069,7 +12105,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "K:articles",
      "title": "A or an?",
      "objective": "Children say a picture word aloud and choose a or an to go in front of it.",
@@ -12120,7 +12156,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "K:digraphs-k",
      "title": "sh and ch",
      "objective": "Children say a picture's name and decide whether it begins with the sound of sh or the sound of ch.",
@@ -16218,6 +16254,7 @@
      "lessons": [
       "Match words to pictures",
       "Sight words",
+      "Read a little book",
       "One and many",
       "A or an?",
       "sh and ch"
@@ -16226,7 +16263,8 @@
       "L.K.1.c",
       "RF.K.2.d",
       "RF.K.3",
-      "RF.K.3.c"
+      "RF.K.3.c",
+      "RF.K.4"
      ]
     },
     {

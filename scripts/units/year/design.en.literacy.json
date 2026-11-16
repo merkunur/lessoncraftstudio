@@ -1835,7 +1835,8 @@
             "standard": "RF.K.4",
             "days": 2,
             "tool": "Heart Words",
-            "source": "point:K:read-picture-book"
+            "source": "point:K:read-picture-book",
+            "placed": "K:read-picture-book"
           },
           {
             "existing": "K:singular-plural"

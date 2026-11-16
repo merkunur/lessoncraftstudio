@@ -1351,7 +1351,8 @@
             "standard": "RI.3.1",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 250 words with headings, a photo, and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer."
+            "page": "Fact text and questions page: an information text of about 250 words with headings, a photo, and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer.",
+            "placed": "3:answer-with-evidence"
           },
           {
             "new": true,
@@ -1360,7 +1361,8 @@
             "standard": "RI.3.2",
             "days": 3,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 250 words in four paragraphs with a heading and a picture. Below: a table organizer (the main idea on the tabletop, three key details as legs) and a short summary of three lines. Level 1: the child chooses the main idea from three and matches details; level 2: the child writes the main idea and details; level 3: the child also writes the summary in their own words."
+            "page": "Fact text and questions page: an information text of about 250 words in four paragraphs with a heading and a picture. Below: a table organizer (the main idea on the tabletop, three key details as legs) and a short summary of three lines. Level 1: the child chooses the main idea from three and matches details; level 2: the child writes the main idea and details; level 3: the child also writes the summary in their own words.",
+            "placed": "3:main-idea-key-details"
           },
           {
             "new": true,
@@ -1369,7 +1371,8 @@
             "standard": "RI.3.5",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: a four-page information text of about 300 words with a table of contents, headings, bold key words, a sidebar, and an index. Below: eight find-it questions that the child answers and marks with the feature used. Level 1: four questions naming the feature to use; level 2: eight questions; level 3: the child also writes the index entries for one page."
+            "page": "Fact text and questions page: a four-page information text of about 300 words with a table of contents, headings, bold key words, a sidebar, and an index. Below: eight find-it questions that the child answers and marks with the feature used. Level 1: four questions naming the feature to use; level 2: eight questions; level 3: the child also writes the index entries for one page.",
+            "placed": "3:text-features-search-tools"
           },
           {
             "new": true,
@@ -1387,7 +1390,8 @@
             "standard": "RI.3.3",
             "days": 2,
             "source": "new",
-            "page": "Fact text and questions page: an information text of about 250 words on a historical event or a science process with a timeline. Below: a cause-and-effect chain of four boxes and a list of signal words (because, as a result, then, after). Level 1: the child orders event strips on the chain; level 2: the child writes the chain with signal words; level 3: the child also explains one cause and its effect in two sentences."
+            "page": "Fact text and questions page: an information text of about 250 words on a historical event or a science process with a timeline. Below: a cause-and-effect chain of four boxes and a list of signal words (because, as a result, then, after). Level 1: the child orders event strips on the chain; level 2: the child writes the chain with signal words; level 3: the child also explains one cause and its effect in two sentences.",
+            "placed": "3:events-cause-effect"
           }
         ]
       },

@@ -203,6 +203,20 @@
    "strand": "Reading: Informational Text",
    "code": "RI.3.2",
    "skill": "Determine the main idea of an informational text of four paragraphs, recount the key details that support it, and tell what each paragraph is mostly about"
+  },
+  {
+   "tp": "3:text-features-search-tools",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.5",
+   "skill": "Use the table of contents, headings, key words in bold, a sidebar, the glossary, and the index of a text to find information quickly"
+  },
+  {
+   "tp": "3:events-cause-effect",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.3",
+   "skill": "Describe how the events, steps, and ideas of an informational text connect, with words of time and sequence and of cause and effect"
   }
  ]
 }

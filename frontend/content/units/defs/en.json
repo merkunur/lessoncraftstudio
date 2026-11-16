@@ -3192,6 +3192,51 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g3-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Reading to Learn: Informational Texts",
+   "metaTitle": "Grade 3 Lesson Plans: Reading to Learn from Informational Texts",
+   "metaDescription": "A Grade 3 reading unit on informational texts: 4 lessons on answering with evidence, main idea and key details, search tools, and cause and effect.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:answer-with-evidence",
+     "types": [
+      "G3-494",
+      "G3-495"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:main-idea-key-details",
+     "types": [
+      "G3-497",
+      "G3-496"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:text-features-search-tools",
+     "types": [
+      "G3-498",
+      "G3-499"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:events-cause-effect",
+     "types": [
+      "G3-500",
+      "G3-501"
+     ],
+     "activity": null
+    }
+   ]
   }
  ],
  "plans": [

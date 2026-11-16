@@ -6919,6 +6919,48 @@
    "prerequisites": []
   },
   {
+   "id": "3:text-features-search-tools",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Use the table of contents, headings, key words in bold, a sidebar, the glossary, and the index of a text to find information quickly",
+   "code": "RI.3.5",
+   "types": [
+    "G3-498",
+    "G3-499"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 88,
+   "prerequisites": []
+  },
+  {
+   "id": "3:events-cause-effect",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Describe how the events, steps, and ideas of an informational text connect, with words of time and sequence and of cause and effect",
+   "code": "RI.3.3",
+   "types": [
+    "G3-500",
+    "G3-501"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 89,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",

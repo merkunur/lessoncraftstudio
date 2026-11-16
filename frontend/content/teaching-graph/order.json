@@ -236,7 +236,9 @@
     "3:person-words",
     "3:root-words-in-context",
     "3:answer-with-evidence",
-    "3:main-idea-key-details"
+    "3:main-idea-key-details",
+    "3:text-features-search-tools",
+    "3:events-cause-effect"
    ],
    "K": [
     "K:pre-writing-strokes",

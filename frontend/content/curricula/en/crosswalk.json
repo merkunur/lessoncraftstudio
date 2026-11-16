@@ -3063,6 +3063,26 @@
    ],
    "by": "code"
   },
+  "3:text-features-search-tools": {
+   "rows": [
+    {
+     "id": "RI.3.5",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:events-cause-effect": {
+   "rows": [
+    {
+     "id": "RI.3.3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "K:human-body": {
    "rows": [
     {

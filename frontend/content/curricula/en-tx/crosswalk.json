@@ -3586,6 +3586,31 @@
    ],
    "by": "authored"
   },
+  "3:text-features-search-tools": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.ii",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:events-cause-effect": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.iii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.7.D",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

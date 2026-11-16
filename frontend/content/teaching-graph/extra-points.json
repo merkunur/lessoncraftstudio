@@ -626,6 +626,23 @@
    "activities": [
     "contraction.apostrophe.l-2-2-c"
    ]
+  },
+  {
+   "tp": "1:compound-and-two-part-words",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.e",
+   "skill": "Read compound words and other two-part words by splitting them into two parts a first grader can read",
+   "activities": [
+    "domino-two-part.two-syllable.rf-1-3-e"
+   ]
+  },
+  {
+   "tp": "1:tricky-words-said-was-of-could",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.g",
+   "skill": "Read and spell common irregular words (said, was, of, could) by mapping the regular sounds and remembering the tricky part"
   }
  ]
 }

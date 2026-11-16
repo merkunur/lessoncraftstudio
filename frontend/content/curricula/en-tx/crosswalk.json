@@ -3011,6 +3011,36 @@
    ],
    "by": "authored"
   },
+  "1:compound-and-two-part-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iv",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:tricky-words-said-was-of-could": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.vi",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.C.iv",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:word-families-syllable-reading": {
    "rows": [
     {

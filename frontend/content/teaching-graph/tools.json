@@ -161,7 +161,8 @@
     "heart-words": {
       "points": [
         "K:sight-words-reading",
-        "2:tricky-words-could-would-should"
+        "2:tricky-words-could-would-should",
+        "1:tricky-words-said-was-of-could"
       ]
     },
     "syllable-splitter": {

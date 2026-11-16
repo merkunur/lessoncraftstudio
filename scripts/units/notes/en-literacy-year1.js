@@ -17,6 +17,8 @@
  * (2026-11-17, every finding applied).
  * The three grammar notes (G1-592 to G1-595: capitals, joining words, verb tense) were added by
  * place-ready-u.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
+ * The three notes of the unit Two-Syllable Words (G1-600 to G1-603) were added by place-ready-z.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -200,6 +202,33 @@ module.exports = {
         mistake: 'Children add ed to every verb, even after tomorrow ("Tomorrow I will walked"), or leave out will. Some copy the form from the next column without reading the time word.',
         words: 'Say: "A verb tells when. Yesterday I walked. Today I walk. Tomorrow I will walk." Write the three forms of one verb under Yesterday, Today, and Tomorrow. The table on the page has the same three columns, and one form of each verb is missing. On Level 1 a worked row in grey comes first, and children add ed to write the yesterday form of three verbs. On Levels 2 and 3 the missing form can be in any column. Below the table on Levels 1 and 2, children read four sentences and circle the verb that fits the time word: yesterday, last night, or last week; tomorrow or tomorrow night. On Level 3 children choose one of three verbs and write about it after Yesterday I, Today I, and Tomorrow I. Start with the page; on day 2, The Clock Tower has children read the time word in each sentence on screen and tap the verb that fits.',
         watch: 'Every verb on these pages adds ed with no change in spelling. The ed says /t/ in walked, /d/ in played, and /id/ in painted. The sentences tell about yesterday or tomorrow, so the plain verb never fits them; ask, "When did it happen?" and point to the time word first. On Level 3, "Today I am calling my friend" is right too.',
+      },
+    },
+    '1:syllable-vowel': {
+      title: 'Every syllable has a vowel',
+      objective: 'Children count the vowel sounds in a printed word to find how many syllables it has, and mark the vowel in each syllable.',
+      note: {
+        mistake: 'Children count letters instead of vowel sounds, or guess by length. On Level 3 of day 2 they count vowel letters, not sounds: cake and rain get two.',
+        words: 'Say: "Every syllable has a vowel sound. Find the vowels and listen for them: fish has one; nap | kin has two." Day 1: children underline each vowel in twelve words, write 1 or 2, and match four of six words to pictures. Two words have no picture (rock beside rocket, picnic beside pretzel). Level 1 uses short words and compound words (sandbox); Level 2 two-syllable words like napkin; Level 3 adds a line between the two syllables, between the two consonants: bas | ket. Day 2: children sort six words under 1 syllable or 2 syllables and circle the two-syllable word in each of five sentences. On Levels 1 and 2 every word has one vowel letter for each vowel sound. Level 3 has eight words and four sentences and adds silent e and vowel teams: "Count the vowel sounds, not the vowel letters: cake has one, cup | cake has two."',
+        watch: 'Have children read each word aloud after counting: the vowels and the beats must agree. A long word can have one syllable (plants). In many two-part words the second vowel is quiet (kit | ten); it still makes a beat. These pages use no y on its own as a vowel (baby, my), no r after a vowel (carpet), and no word like wheel or smile, which many children clap as two beats.',
+      },
+    },
+    '1:compound-and-two-part-words': {
+      title: 'Compound words and two-part words',
+      objective: 'Children read two-syllable words by breaking them into parts, starting with compound words (sunset, cupcake) and then words like rabbit and picnic.',
+      note: {
+        mistake: 'Children read the first part and guess the rest (sand for sandbox), or split in the wrong place: rabb | it, s | andbox. Some think every long word is two small words and call kitten kit + ten.',
+        words: 'Say: "A compound word is two small words put together: sun + set = sunset. Read each part, then the whole word." Write sandbox, cover box, read sand, then uncover it. Day 1, the page: on Level 1 children draw a line between the two small words of ten short-vowel compound words, then write the two small words of two compounds (such as egg and shell) and draw a picture of each. Level 2 adds compounds with a long vowel (snowman, beehive) and words with a double consonant, split between the two letters (rab | bit), with the same writing and drawing task. On Level 3 children split eight words, now also words like bas | ket, and sort six words under compound word or not a compound word, crossing out each word as they write it. Day 2, on screen: the screen activity Domino\'s Two-Part Words shows a word in two parts (rab · bit); the child reads each part, blends them, and pushes the word to its picture. The next lesson splits more words into syllables.',
+        watch: 'In many compound words both parts keep their meaning: a sandbox is a box of sand, a lunchbox is a box for lunch. Some take a new meaning (catfish, laptop). The Level 3 sort uses only the first kind. Kitten and napkin look like two small words but are not compounds, so the Level 3 sort never uses them. When a child splits a word wrong, have them find the two vowel sounds first: each part has one.',
+      },
+    },
+    '1:tricky-words-said-was-of-could': {
+      title: 'Tricky words: said, was, of, could',
+      objective: 'Children read and spell common irregular words (said, was, of, could, and review words such as they and put) by mapping the regular sounds and remembering the tricky part.',
+      note: {
+        mistake: 'Children sound out the tricky part and spell what they hear: sed, wuz, uv, cud. Others write the regular letters wrong because they try to remember the whole word as a picture.',
+        words: 'Say: "Most of said follows the rules: s says /s/, d says /d/. The ai is the tricky part; here it says /ĕ/. We learn that part by heart." Say each word, tap its sounds, write the letters for each sound, and put a heart over the part the rules do not give. On screen, the tool Heart Words runs the same routine of sound boxes and a heart; said, was, and of are on its first shelf, and a teacher can type could, fix where its sounds break, and mark its heart. Then the page: children say each sound, write its letters in a box, draw the hearts, fold the top of the page back, and write the heart word that fits each sentence. Level 1 has said, was, of, and could and four sentences, with the first letter of each answer on its line; Level 2 adds two words from they, does, friend, put, and give and has three sentences; Level 3 mixes six words in three columns, has one sentence with no first letter, and asks the child to open the page again and write a sentence of their own with two heart words. they, does, friend, put, give, and come are review words: model where their hearts go before Level 2 or 3.',
+        watch: 'The tricky parts: ai in said, the a of was, oul in could (the l is silent), ey in they, oe in does, ie in friend, the u of put, the ve of give, the o and the final e of come. In of both letters are tricky: the tool puts its heart on the f only; on the page both letters get one, because the o says /ŭ/. The s of was and does says /z/ as in is and has; that is a rule, not a heart. Never ask a child to sound out the tricky part: say it.',
       },
     },
   },

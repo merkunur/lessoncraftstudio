@@ -5219,6 +5219,34 @@
    ],
    "why": "Writing contractions with their apostrophe is «end punctuation, apostrophes in contractions»; reading and spelling them is «decoding compound words, contractions» and «spelling compound words, contractions». The owner with an apostrophe and s is not named in the Texas wording of Grade 2.",
    "review": "year-design 2026-11-18"
+  },
+  "1:compound-and-two-part-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.B.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a compound word as two small words is «using knowledge of base words to decode common compound words and contractions»; splitting rab | bit and nap | kin into two closed syllables is «decoding words with closed syllables».",
+   "review": "year-design 2026-11-18"
+  },
+  "1:tricky-words-said-was-of-could": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.vi",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.C.iv",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading said, was, of and could is «identifying and reading at least 100 high-frequency words from a research-based list»; writing them with their tricky part is «spelling high-frequency words from a research-based list».",
+   "review": "year-design 2026-11-18"
   }
  }
 }

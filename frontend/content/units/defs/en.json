@@ -2828,9 +2828,9 @@
    "status": "live",
    "grade": "1",
    "subject": "literacy",
-   "title": "Sounds, Spelling, and Syllables",
-   "metaTitle": "Grade 1 Lesson Plans: Sounds, Spelling, and Syllables",
-   "metaDescription": "A Grade 1 unit on short-vowel words and syllables: 5 lessons on rhymes, word families, sound boxes, spelling picture words, and splitting words into syllables.",
+   "title": "Sounds and Short-Vowel Words",
+   "metaTitle": "Grade 1 Lesson Plans: Sounds and Short-Vowel Words",
+   "metaDescription": "A Grade 1 unit on short-vowel words: 4 lessons on rhymes, word families, sound boxes, and spelling picture words, each with a teacher note and pages to print.",
    "weeks": 3,
    "lessons": [
     {
@@ -2862,13 +2862,6 @@
      "types": [
       "G1-258",
       "G1-260"
-     ]
-    },
-    {
-     "point": "1:syllables-split",
-     "types": [
-      "G1-305",
-      "G1-325"
      ]
     }
    ]
@@ -3191,6 +3184,46 @@
      "standardsRel": {
       "RI.1.9": "prepares"
      }
+    }
+   ]
+  },
+  {
+   "id": "g1-two-syllable-words",
+   "slug": "two-syllable-words-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Two-Syllable Words",
+   "metaTitle": "Grade 1 Phonics Lesson Plans: Two-Syllable Words",
+   "metaDescription": "A Grade 1 phonics unit: 4 lessons on the vowel in every syllable, compound words, splitting words into syllables, and the heart words said, was, of, and could.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:syllable-vowel",
+     "types": [
+      "G1-600",
+      "G1-601"
+     ]
+    },
+    {
+     "point": "1:compound-and-two-part-words",
+     "types": [
+      "G1-602"
+     ]
+    },
+    {
+     "point": "1:syllables-split",
+     "types": [
+      "G1-305",
+      "G1-325"
+     ],
+     "activity": null
+    },
+    {
+     "point": "1:tricky-words-said-was-of-could",
+     "types": [
+      "G1-603"
+     ]
     }
    ]
   },
@@ -3783,7 +3816,8 @@
     "g1-long-vowels-silent-e-and-vowel-teams",
     "g1-words-and-how-they-work",
     "g1-word-meanings-and-word-parts",
-    "g1-reading-to-learn-informational-texts"
+    "g1-reading-to-learn-informational-texts",
+    "g1-two-syllable-words"
    ]
   },
   {

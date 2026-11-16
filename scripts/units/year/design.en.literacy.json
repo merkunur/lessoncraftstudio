@@ -451,7 +451,8 @@
             "days": 2,
             "tool": "Syllable Splitter",
             "source": "new",
-            "page": "Syllable page: sixteen one- and two-syllable words; the child underlines each vowel, writes the number of syllables, and reads the word. Bottom: six pictures to match to their two-syllable words. Level 1: one-syllable and compound words; level 2: two-syllable words with two consonants in the middle (napkin, basket); level 3: the child splits each word and reads it part by part."
+            "page": "Syllable page: sixteen one- and two-syllable words; the child underlines each vowel, writes the number of syllables, and reads the word. Bottom: six pictures to match to their two-syllable words. Level 1: one-syllable and compound words; level 2: two-syllable words with two consonants in the middle (napkin, basket); level 3: the child splits each word and reads it part by part.",
+            "placed": "1:syllable-vowel"
           },
           {
             "new": true,
@@ -460,7 +461,8 @@
             "standard": "RF.1.3.e",
             "days": 2,
             "source": "new",
-            "page": "Syllable page: twelve two-syllable words to split and read; for compound words the child draws a line between the two small words and draws a picture of each. Level 1: compound words only; level 2: compound words and words with a double consonant (rabbit); level 3: all kinds mixed, and the child sorts them into compound and not compound."
+            "page": "Syllable page: twelve two-syllable words to split and read; for compound words the child draws a line between the two small words and draws a picture of each. Level 1: compound words only; level 2: compound words and words with a double consonant (rabbit); level 3: all kinds mixed, and the child sorts them into compound and not compound.",
+            "placed": "1:compound-and-two-part-words"
           },
           {
             "new": true,
@@ -470,7 +472,8 @@
             "days": 2,
             "tool": "Heart Words",
             "source": "new",
-            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words."
+            "page": "Heart-word page: eight irregular words, each in a row of sound boxes where the child writes the letters and draws a heart over the tricky part; then six sentences with a missing heart word to write. Level 1: four words; level 2: eight words; level 3: the child writes a sentence of their own with two of the words.",
+            "placed": "1:tricky-words-said-was-of-could"
           }
         ]
       }

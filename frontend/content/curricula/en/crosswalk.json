@@ -2571,6 +2571,26 @@
    ],
    "by": "code"
   },
+  "1:compound-and-two-part-words": {
+   "rows": [
+    {
+     "id": "RF.1.3.e",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:tricky-words-said-was-of-could": {
+   "rows": [
+    {
+     "id": "RF.1.3.g",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:word-families-syllable-reading": {
    "rows": [
     {

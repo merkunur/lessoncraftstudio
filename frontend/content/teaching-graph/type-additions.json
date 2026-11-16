@@ -346,6 +346,10 @@
   "G1-595": "1:verb-tense",
   "G2-535": "2:prefixes-un-re",
   "G2-536": "2:suffixes-ful-less-ly",
-  "G2-537": "2:apostrophes"
+  "G2-537": "2:apostrophes",
+  "G1-600": "1:syllable-vowel",
+  "G1-601": "1:syllable-vowel",
+  "G1-602": "1:compound-and-two-part-words",
+  "G1-603": "1:tricky-words-said-was-of-could"
  }
 }

@@ -50,11 +50,11 @@ const DAYS = {
     ],
     middle: [
       [['morning', 15, '1:number-of-the-day', 'G1-255'], ['reading', 20, '1:read-and-follow', 'G1-251'], ['phonics', 20, '1:rhyming', 'G1-309'], ['writing', 25, '1:unscramble-sentence', 'G1-249'], ['math', 20, '1:fluency-within-20', 'G1-214'], ['problems', 20, '1:word-problems', 'G1-240'], ['logic', 15, '1:mazes', 'G1-420'], ['closing', 10, '1:find-the-differences', 'G1-412']],
-      [['morning', 15, '1:skip-counting', 'G1-124'], ['reading', 20, '1:cloze', 'G1-368'], ['phonics', 15, '1:syllables-split', 'G1-305'], ['writing', 20, '1:spell-picture-words', 'G1-259'], ['math', 20, '1:number-walls', 'G1-266'], ['numbers', 20, '1:hundreds-chart', 'G1-129'], ['logic', 15, '1:picture-sudoku', 'G1-158'], ['closing', 10, '1:days-months-seasons~season-wheel', 'G1-323']],
+      [['morning', 15, '1:skip-counting', 'G1-124'], ['reading', 20, '1:cloze', 'G1-368'], ['phonics', 20, '1:word-classes', 'G1-293'], ['writing', 20, '1:spell-picture-words', 'G1-259'], ['math', 20, '1:number-walls', 'G1-266'], ['numbers', 20, '1:hundreds-chart', 'G1-129'], ['logic', 15, '1:picture-sudoku', 'G1-158'], ['closing', 10, '1:days-months-seasons~season-wheel', 'G1-323']],
     ],
     late: [
       [['morning', 15, '1:alphabetical-order', 'G1-245'], ['reading', 20, '1:read-and-follow', 'G1-308'], ['phonics', 20, '1:opposites', 'G1-336'], ['writing', 25, '1:unscramble-sentence', 'G1-302'], ['math', 20, '1:time-read', 'G1-149'], ['problems', 20, '1:word-problems', 'G1-241'], ['logic', 15, '1:picture-analogies', 'G1-157'], ['closing', 15, '1:find-the-differences', 'G1-414']],
-      [['morning', 15, '1:days-months-seasons', 'G1-320'], ['reading', 20, '1:story-sequencing', 'G1-402'], ['phonics', 20, '1:word-classes', 'G1-293'], ['writing', 20, '1:pronouns', 'G1-371'], ['math', 20, '1:coins', 'G1-228'], ['numbers', 15, '1:bar-graphs', 'G1-143'], ['logic', 15, '1:mazes', 'G1-422'], ['closing', 15, '1:find-the-differences', 'G1-415']],
+      [['morning', 15, '1:days-months-seasons', 'G1-320'], ['reading', 20, '1:story-sequencing', 'G1-402'], ['phonics', 15, '1:syllables-split', 'G1-305'], ['writing', 20, '1:pronouns', 'G1-371'], ['math', 20, '1:coins', 'G1-228'], ['numbers', 15, '1:bar-graphs', 'G1-143'], ['logic', 15, '1:mazes', 'G1-422'], ['closing', 15, '1:find-the-differences', 'G1-415']],
     ],
   },
   2: {

@@ -559,9 +559,9 @@
     },
     {
      "key": "phonics",
-     "minutes": 15,
-     "point": "1:syllables-split",
-     "type": "G1-305"
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293"
     },
     {
      "key": "writing",
@@ -679,9 +679,9 @@
     },
     {
      "key": "phonics",
-     "minutes": 20,
-     "point": "1:word-classes",
-     "type": "G1-293"
+     "minutes": 15,
+     "point": "1:syllables-split",
+     "type": "G1-305"
     },
     {
      "key": "writing",

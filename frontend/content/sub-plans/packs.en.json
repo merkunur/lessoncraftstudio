@@ -49,7 +49,7 @@
      "point": "K:letter-formation",
      "type": "K-238",
      "title": "Trace the Capital Letters",
-     "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
      "core": "letter-tracing-k238",
      "hard": "letter-tracing-hard-k238-54-a",
      "easy": "letter-tracing-easy-k238-28-a",
@@ -194,7 +194,7 @@
      "point": "K:letter-formation",
      "type": "K-257",
      "title": "Trace the Vowels",
-     "instruction": "Trace each letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
      "core": "letter-tracing-k257",
      "hard": "letter-tracing-hard-k257-3",
      "easy": "letter-tracing-easy-k257-2",
@@ -210,7 +210,7 @@
      "point": "K:position-words",
      "type": "K-064",
      "title": "On, Under, Beside",
-     "instruction": "Circle the picture that is ON the box.",
+     "instruction": "Each card names a place: ON, UNDER, or BESIDE the box. Circle the picture that is there.",
      "core": "position-words-animals-k064",
      "script": {
       "say": "\"Look at where each animal is: on the box, under the box, or beside the box. In every picture, circle the animal that is ON the box.\"",
@@ -309,7 +309,7 @@
      "point": "K:letter-formation",
      "type": "K-278",
      "title": "Trace the Lowercase Letters",
-     "instruction": "Trace each small letter, then try one on your own on the empty line. Start at the orange dot and follow the arrows.",
+     "instruction": "Trace each small letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
      "core": "lowercase-letter-tracing-k278",
      "script": {
       "say": "\"Now we practice writing small letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
@@ -1172,7 +1172,7 @@
      "point": "1:find-the-differences",
      "type": "G1-412",
      "title": "Find 7 Differences at the Pond",
-     "instruction": "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each.",
+     "instruction": "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and check a box for each.",
      "core": "find-the-differences-g1412",
      "hard": "find-the-differences-hard-g1412-18",
      "easy": "find-the-differences-easy-g1412-2",
@@ -1193,7 +1193,7 @@
    "title": "First Grade Sub Plans: Middle of the Year, Day 2",
    "metaTitle": "First Grade Emergency Sub Plans: Middle of the Year, Day 2",
    "metaDescription": "No-prep emergency sub plans for the middle of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
-   "minutes": 135,
+   "minutes": 140,
    "blocks": [
     {
      "key": "morning",
@@ -1229,18 +1229,18 @@
     },
     {
      "key": "phonics",
-     "minutes": 15,
-     "point": "1:syllables-split",
-     "type": "G1-305",
-     "title": "Syllable Division",
-     "instruction": "Say each picture word and clap its parts. Draw one scoop under every syllable you hear.",
-     "core": "syllable-split-animals-g1305",
-     "hard": "syllable-split-hard-at-the-supermarket-g1305",
-     "easy": "syllable-split-easy-winter-g1305",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293",
+     "title": "Nouns and Verbs: Two Bins",
+     "instruction": "Ten words and two bins. Is each word a noun or a verb?",
+     "core": "word-classes-toys-g1293",
+     "hard": "word-classes-hard-kitchen-tools-g1293-3",
+     "easy": "word-classes-easy-vegetables-g1293",
      "script": {
-      "say": "\"Words have parts called syllables. Say each picture word and clap its parts. Then draw one scoop under the word for every syllable you hear.\"",
-      "first": "Name all the pictures together. Clap the first word together and count the claps. Show on the board how to draw a scoop, a little curved line, under each part of the word.",
-      "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. The number of drops is the number of scoops."
+      "say": "\"A noun names a person, an animal, a place, or a thing, like dog or school. A verb is something you can do, like run or sing. Read each word and write it in the right bin: noun or verb.\"",
+      "first": "Read the ten words aloud together. Take the first word and try two test sentences: \"I can see a ___\" for a noun, and \"I can ___\" for a verb. Decide together and write the word in its bin. Cross it out in the list.",
+      "stuck": "Read the word to the child and have the child try both test sentences aloud: \"I can see a jump. I can jump.\" The one that sounds right tells the bin. A word that can be both, such as \"paint,\" is right in either bin if the child can use it in a sentence."
      }
     },
     {
@@ -1448,7 +1448,7 @@
      "point": "1:find-the-differences",
      "type": "G1-414",
      "title": "What Changed? Tick the Words",
-     "instruction": "Circle the 3 differences in the bottom picture, then tick the words of the things that changed.",
+     "instruction": "Circle the 3 differences in the bottom picture, then check the words of the things that changed.",
      "core": "find-the-differences-g1414",
      "hard": "find-the-differences-hard-g1414-16",
      "easy": "find-the-differences-easy-g1414-2",
@@ -1469,7 +1469,7 @@
    "title": "First Grade Sub Plans: End of the Year, Day 2",
    "metaTitle": "First Grade Emergency Sub Plans: End of the Year, Day 2",
    "metaDescription": "No-prep emergency sub plans for the end of the year in first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
-   "minutes": 140,
+   "minutes": 135,
    "blocks": [
     {
      "key": "morning",
@@ -1505,18 +1505,18 @@
     },
     {
      "key": "phonics",
-     "minutes": 20,
-     "point": "1:word-classes",
-     "type": "G1-293",
-     "title": "Nouns and Verbs: Two Bins",
-     "instruction": "Ten words and two bins. Is each word a noun or a verb?",
-     "core": "word-classes-toys-g1293",
-     "hard": "word-classes-hard-kitchen-tools-g1293-3",
-     "easy": "word-classes-easy-vegetables-g1293",
+     "minutes": 15,
+     "point": "1:syllables-split",
+     "type": "G1-305",
+     "title": "Syllable Division",
+     "instruction": "Say each picture word and clap its parts. Draw one scoop under every syllable you hear.",
+     "core": "syllable-split-animals-g1305",
+     "hard": "syllable-split-hard-at-the-supermarket-g1305",
+     "easy": "syllable-split-easy-winter-g1305",
      "script": {
-      "say": "\"A noun names a person, an animal, a place, or a thing, like dog or school. A verb is something you can do, like run or sing. Read each word and write it in the right bin: noun or verb.\"",
-      "first": "Read the ten words aloud together. Take the first word and try two test sentences: \"I can see a ___\" for a noun, and \"I can ___\" for a verb. Decide together and write the word in its bin. Cross it out in the list.",
-      "stuck": "Read the word to the child and have the child try both test sentences aloud: \"I can see a jump. I can jump.\" The one that sounds right tells the bin. A word that can be both, such as \"paint,\" is right in either bin if the child can use it in a sentence."
+      "say": "\"Words have parts called syllables. Say each picture word and clap its parts. Then draw one scoop under the word for every syllable you hear.\"",
+      "first": "Name all the pictures together. Clap the first word together and count the claps. Show on the board how to draw a scoop, a little curved line, under each part of the word.",
+      "stuck": "Have the child put a hand under the chin and say the word at normal speed: the chin drops once for each syllable. The number of drops is the number of scoops."
      }
     },
     {
@@ -1589,7 +1589,7 @@
      "point": "1:find-the-differences",
      "type": "G1-415",
      "title": "Mirror Pictures: Fold and Check",
-     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check.",
+     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, check a box for each, then fold on the line to check.",
      "core": "find-the-differences-g1415",
      "hard": "find-the-differences-hard-g1415-20",
      "easy": "find-the-differences-easy-g1415-2",
@@ -1712,7 +1712,7 @@
      "point": "2:find-differences",
      "type": "G2-388",
      "title": "Find 10 Differences in the Garden",
-     "instruction": "Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find.",
+     "instruction": "Circle the 10 differences, 5 in each pair of pictures, and check a box under the pair for every one you find.",
      "core": "find-the-differences-g2388",
      "hard": "find-the-differences-hard-g2388-7",
      "easy": "find-the-differences-easy-g2388-2",
@@ -2007,7 +2007,7 @@
      "point": "1:mazes",
      "type": "G1-424",
      "title": "Help the Rabbit Pick Up Every Carrot",
-     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot.",
+     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
      "core": "maze-puzzles-g1424",
      "hard": "maze-puzzles-hard-g1424-10",
      "easy": "maze-puzzles-easy-g1424-2",

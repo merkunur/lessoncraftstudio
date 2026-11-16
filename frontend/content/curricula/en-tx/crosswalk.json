@@ -3301,6 +3301,46 @@
    ],
    "by": "authored"
   },
+  "1:capitals-names-days-months": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "extends",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.D.iii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:joining-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.i",
+     "rel": "extends",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:verb-tense": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.ii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.D.v",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:shades-of-meaning": {
    "rows": [
     {

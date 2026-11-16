@@ -7478,40 +7478,16 @@
      "title": "A or an: sort the words",
      "type": "G1-292",
      "tasks": 2
-    },
-    {
-     "part": 5,
-     "lesson": 5,
-     "title": "Write the opposite",
-     "type": "G1-337",
-     "tasks": 2
-    },
-    {
-     "part": 6,
-     "lesson": 6,
-     "title": "Two words that mean the same thing",
-     "type": "G1-395",
-     "tasks": 2
-    },
-    {
-     "part": 7,
-     "lesson": 7,
-     "title": "From a little to a lot",
-     "type": "G1-396",
-     "tasks": 1
-    },
-    {
-     "part": 8,
-     "lesson": 8,
-     "title": "Find the root word",
-     "type": "G1-397",
-     "tasks": 1
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    5,
+    6,
+    7
+   ],
    "forms": {
     "A": {
-     "pages": 4,
+     "pages": 2,
      "cards": [
       [
        "6e2590a7344c1a03"
@@ -7525,20 +7501,6 @@
       [
        "8ceb4a27c1d4051e",
        "49d5126ea911766b"
-      ],
-      [
-       "7db226e4062cb030",
-       "8d670d476e1e141a"
-      ],
-      [
-       "aa9116bfaee908f0",
-       "4fcca3bcdfe11e62"
-      ],
-      [
-       "8fafe077969f374d"
-      ],
-      [
-       "7c23e8cba9a11932"
       ]
      ],
      "pos": [
@@ -7554,20 +7516,6 @@
       [
        null,
        null
-      ],
-      [
-       1,
-       2
-      ],
-      [
-       0,
-       1
-      ],
-      [
-       null
-      ],
-      [
-       0
       ]
      ],
      "kinds": [
@@ -7583,7 +7531,160 @@
       [
        "write 2",
        "write 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0
       ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "34f26d4e77beee98"
+      ],
+      [
+       "605bde08797e6063"
+      ],
+      [
+       "9fdf1661c738eec3"
+      ],
+      [
+       "5915200a5cdea8a6",
+       "6873cc3c5119bd79"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
+      ],
+      [
+       "write 4"
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "write 2",
+       "write 2"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-word-meanings-and-word-parts",
+   "slug": "word-meanings-and-word-parts-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Write the opposite",
+     "type": "G1-337",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Two words that mean the same thing",
+     "type": "G1-395",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "From a little to a lot",
+     "type": "G1-396",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Find the root word",
+     "type": "G1-397",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "5369316636c0d5f1",
+       "1c7a7bb2f70ca7b1"
+      ],
+      [
+       "656ab2cda11521a7",
+       "d635d6e3b19c9499"
+      ],
+      [
+       "5891d36710514cb1"
+      ],
+      [
+       "7547524f15b1187e"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       2
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
       [
        "choose 1",
        "choose 1"
@@ -7600,19 +7701,6 @@
       ]
      ],
      "sizes": [
-      [
-       0
-      ],
-      [
-       0
-      ],
-      [
-       0
-      ],
-      [
-       0,
-       0
-      ],
       [
        0,
        0
@@ -7630,53 +7718,27 @@
      ]
     },
     "B": {
-     "pages": 4,
+     "pages": 2,
      "cards": [
       [
-       "34f26d4e77beee98"
+       "90972c253e431391",
+       "b033d1aebdf0d8ce"
       ],
       [
-       "605bde08797e6063"
+       "a8d898e46cdbf7ab",
+       "277eb263cb6abf0a"
       ],
       [
-       "9fdf1661c738eec3"
+       "e9813127e8154bc9"
       ],
       [
-       "5915200a5cdea8a6",
-       "6873cc3c5119bd79"
-      ],
-      [
-       "9c82a31aff5778ae",
-       "2fd82acc04b0f90e"
-      ],
-      [
-       "7e89d1749418b9c7",
-       "0d3d65242fab2aae"
-      ],
-      [
-       "20b2ce3599b151cc"
-      ],
-      [
-       "3883e3ee53bc9322"
+       "3e89e56cf6de30cf"
       ]
      ],
      "pos": [
       [
-       null
-      ],
-      [
-       null
-      ],
-      [
-       0
-      ],
-      [
-       null,
-       null
-      ],
-      [
-       1,
-       0
+       0,
+       1
       ],
       [
        0,
@@ -7690,19 +7752,6 @@
       ]
      ],
      "kinds": [
-      [
-       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? w ? w ? w ?"
-      ],
-      [
-       "write 4"
-      ],
-      [
-       "choose 3"
-      ],
-      [
-       "write 2",
-       "write 2"
-      ],
       [
        "choose 1",
        "choose 1"
@@ -7719,19 +7768,6 @@
       ]
      ],
      "sizes": [
-      [
-       0
-      ],
-      [
-       0
-      ],
-      [
-       0
-      ],
-      [
-       0,
-       0
-      ],
       [
        0,
        0

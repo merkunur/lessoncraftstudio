@@ -4317,6 +4317,21 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-18 for the English phonics of Kindergarten (Part 12.3: short vowels and consonant-vowel-consonant words); they are spellings of English, and another language teaches its own. Read it against the wording when the phonics units of this language are designed.",
    "review": "year-design 2026-11-18"
+  },
+  "1:capitals-names-days-months": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-18 for the English grammar of Grade 1 (Part 12.3: capitals for names, days and months; the joining words and, but, so, because; verb tense with -ed and will); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-18"
+  },
+  "1:joining-words": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-18 for the English grammar of Grade 1 (Part 12.3: capitals for names, days and months; the joining words and, but, so, because; verb tense with -ed and will); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-18"
+  },
+  "1:verb-tense": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-18 for the English grammar of Grade 1 (Part 12.3: capitals for names, days and months; the joining words and, but, so, because; verb tense with -ed and will); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-18"
   }
  }
 }

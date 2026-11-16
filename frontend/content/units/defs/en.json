@@ -3056,10 +3056,10 @@
    "status": "live",
    "grade": "1",
    "subject": "literacy",
-   "title": "Words and How They Work",
-   "metaTitle": "Grade 1 Reading and Writing Lesson Plans: Words and How They Work",
-   "metaDescription": "A four-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
-   "weeks": 4,
+   "title": "Words in Sentences: Grammar",
+   "metaTitle": "Grade 1 Grammar Lesson Plans: Words in Sentences",
+   "metaDescription": "A Grade 1 grammar unit: 7 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, capitals for names and dates, joining words, and verb tense.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:alphabetical-order",
@@ -3089,6 +3089,38 @@
       "G1-292"
      ]
     },
+    {
+     "point": "1:capitals-names-days-months",
+     "types": [
+      "G1-593",
+      "G1-592"
+     ]
+    },
+    {
+     "point": "1:joining-words",
+     "types": [
+      "G1-594"
+     ]
+    },
+    {
+     "point": "1:verb-tense",
+     "types": [
+      "G1-595"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g1-word-meanings-and-word-parts",
+   "slug": "word-meanings-and-word-parts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Word Meanings and Word Parts",
+   "metaTitle": "Grade 1 Vocabulary Lessons: Word Meanings and Word Parts",
+   "metaDescription": "A Grade 1 vocabulary unit: 4 lessons on opposites, synonyms, shades of meaning (look, peek, stare), and root words, each with a teacher note and pages to print.",
+   "weeks": 2,
+   "lessons": [
     {
      "point": "1:opposites",
      "types": [
@@ -3732,6 +3764,7 @@
     "g1-reading-stories-characters-and-lessons",
     "g1-long-vowels-silent-e-and-vowel-teams",
     "g1-words-and-how-they-work",
+    "g1-word-meanings-and-word-parts",
     "g1-reading-to-learn-informational-texts"
    ]
   },

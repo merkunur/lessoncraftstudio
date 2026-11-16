@@ -569,6 +569,33 @@
    "activities": [
     "bingo-word-hunt.read-match.rf-k-3-d"
    ]
+  },
+  {
+   "tp": "1:capitals-names-days-months",
+   "grade": "1",
+   "strand": "Language",
+   "code": "L.1.2.a",
+   "skill": "Write the names of people and pets, the days of the week, and the months with a capital letter, and write a date"
+  },
+  {
+   "tp": "1:joining-words",
+   "grade": "1",
+   "strand": "Language",
+   "code": "L.1.1.g",
+   "skill": "Choose the joining word (and, but, so, because) that fits two ideas and join two sentences into one",
+   "activities": [
+    "hazel-word-bridge.joining-words.l-1-1-g"
+   ]
+  },
+  {
+   "tp": "1:verb-tense",
+   "grade": "1",
+   "strand": "Language",
+   "code": "L.1.1.e",
+   "skill": "Use a verb to tell about yesterday, today, and tomorrow (I walked, I walk, I will walk)",
+   "activities": [
+    "tense.past-present-future.l-1-1-e"
+   ]
   }
  ]
 }

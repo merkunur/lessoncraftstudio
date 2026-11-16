@@ -15,6 +15,8 @@
  * the reviewer of the pages read them (2026-11-17, every finding applied).
  * The note of 1:long-or-short-vowel (G1-495) was added by place-ready-q.en.literacy.js; a US teacher read it
  * (2026-11-17, every finding applied).
+ * The three grammar notes (G1-592 to G1-595: capitals, joining words, verb tense) were added by
+ * place-ready-u.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -171,6 +173,33 @@ module.exports = {
         mistake: 'Children go by the letter and not by the sound: every word with an a is "short a" to them. Others think a long vowel means a long word, or that a word with two vowel letters has two vowel sounds.',
         words: 'Say: "A long vowel says its name: a as in cake. A short vowel says its sound: a as in cat." Stretch the word, "caaake," and ask: "Do you hear the name of the letter?" On the page Long or Short Vowel? each card shows a picture and its word with the vowel in color. The child says the word and circles the line if the vowel sound is long and the curve if it is short. These are the marks teachers write over a vowel, a line for long and a curve for short; show them on the board over the a of cake and the a of cat. In cake, kite, and globe the e at the end is silent and not in color; it makes the first vowel say its name. Level 1 has six words, Level 2 has eight. On screen, Stretch the Giraffe has the child listen for long and short vowel sounds.',
         watch: 'Have the child SAY the word before marking it; a child who marks without saying the word is guessing from the letters. In boat and goat two letters are in color, and together they make one long o sound. Ask now and then: "Say the vowel sound alone. Is it the name of a letter?"',
+      },
+    },
+    '1:capitals-names-days-months': {
+      title: 'Names, days, and months get capitals',
+      objective: 'Children capitalize the names of people and pets, the days of the week, and the months in sentences and in dates.',
+      note: {
+        mistake: 'Children give a capital to every word about a person or a time: my Mom, my Dog, Day, Summer. Others leave a name small in the middle of a sentence.',
+        words: 'Say: "A name starts with a capital letter: Mia, Rex. The days of the week and the months do too: Monday, June. Words like mom, dog, day, and summer do not." Point to the calendar. Day 1, Capital Letter or Small Letter?: each sentence prints one word two ways; children circle the right one. Level 1 has names, Level 2 adds the days, Level 3 the months. Day 2, Names, Days, and Months Get Capitals: names, days, and months are printed small; children circle each one and write each one again on the row below. Then they write the date and their first and last name; Level 3 adds "My birthday is in ___."',
+        watch: 'Mom gets a capital when it is used as her name: Thank you, Mom! After my it stays small. Seasons stay small. On Levels 1 and 2 children copy the date from the board.',
+      },
+    },
+    '1:joining-words': {
+      title: 'Joining words: and, but, so, because',
+      objective: 'Children join two short sentences with and, but, so, or because and choose the joining word that makes sense.',
+      note: {
+        mistake: 'Children choose and for every pair, because and can join any two sentences. Others mix up so and because and write "It snowed because we made a snowman."',
+        words: 'Say: "A joining word puts two sentences together. And adds one more thing. But tells something you did not expect. So tells what happened because of it. Because tells why." Read a pair with each word and ask which fits best: "The sun is out but it is cold." The box at the top of the page says what each word does. Level 1 uses and and but: children circle the word in five sentences, then join two sentences and write them as one. Level 2 adds so. Level 3 uses all four words, and children write a sentence of their own with because. When children join two sentences, the first period goes and the second sentence starts with a small letter: The bird can sing and it can fly. Or joins two choices (Do you want milk or juice?): practice it aloud. On day 2, Hazel\'s Word Bridge has children tap the joining word that fills the blank.',
+        watch: 'And can join almost any two sentences; it fits best only when the second sentence adds one more thing of the same kind. So comes before what happened because of it; because comes before the reason. A sentence with because needs both parts: not "Because it is cold." Grown-up writing usually puts a comma before and, but, or so when it joins two sentences; children learn that comma in Grade 4, so accept either.',
+      },
+    },
+    '1:verb-tense': {
+      title: 'Yesterday, today, tomorrow: verb tense',
+      objective: 'Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).',
+      note: {
+        mistake: 'Children add ed to every verb, even after tomorrow ("Tomorrow I will walked"), or leave out will. Some copy the form from the next column without reading the time word.',
+        words: 'Say: "A verb tells when. Yesterday I walked. Today I walk. Tomorrow I will walk." Write the three forms of one verb under Yesterday, Today, and Tomorrow. The table on the page has the same three columns, and one form of each verb is missing. On Level 1 a worked row in grey comes first, and children add ed to write the yesterday form of three verbs. On Levels 2 and 3 the missing form can be in any column. Below the table on Levels 1 and 2, children read four sentences and circle the verb that fits the time word: yesterday, last night, or last week; tomorrow or tomorrow night. On Level 3 children choose one of three verbs and write about it after Yesterday I, Today I, and Tomorrow I. Start with the page; on day 2, The Clock Tower has children read the time word in each sentence on screen and tap the verb that fits.',
+        watch: 'Every verb on these pages adds ed with no change in spelling. The ed says /t/ in walked, /d/ in played, and /id/ in painted. The sentences tell about yesterday or tomorrow, so the plain verb never fits them; ask, "When did it happen?" and point to the time word first. On Level 3, "Today I am calling my friend" is right too.',
       },
     },
   },

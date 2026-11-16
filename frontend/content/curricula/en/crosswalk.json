@@ -2846,6 +2846,36 @@
    ],
    "by": "code"
   },
+  "1:capitals-names-days-months": {
+   "rows": [
+    {
+     "id": "L.1.2.a",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:joining-words": {
+   "rows": [
+    {
+     "id": "L.1.1.g",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:verb-tense": {
+   "rows": [
+    {
+     "id": "L.1.1.e",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:shades-of-meaning": {
    "rows": [
     {

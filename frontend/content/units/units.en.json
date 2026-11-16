@@ -14470,11 +14470,11 @@
    "status": "live",
    "grade": "1",
    "subject": "literacy",
-   "title": "Words and How They Work",
-   "metaTitle": "Grade 1 Reading and Writing Lesson Plans: Words and How They Work",
-   "metaDescription": "A four-week Grade 1 unit: 8 lessons on ABC order, parts of speech (nouns, verbs, adjectives), pronouns, a and an, opposites, synonyms, shades of meaning, and root words.",
-   "days": 19,
-   "weeks": 4,
+   "title": "Words in Sentences: Grammar",
+   "metaTitle": "Grade 1 Grammar Lesson Plans: Words in Sentences",
+   "metaDescription": "A Grade 1 grammar unit: 7 lessons on ABC order, nouns, verbs, and adjectives, pronouns, a and an, capitals for names and dates, joining words, and verb tense.",
+   "days": 17,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -14694,6 +14694,138 @@
     },
     {
      "n": 5,
+     "point": "1:capitals-names-days-months",
+     "title": "Names, days, and months get capitals",
+     "objective": "Children capitalize the names of people and pets, the days of the week, and the months in sentences and in dates.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.1.2.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-593",
+       "title": "Capital Letter or Small Letter?",
+       "core": "capitals-punctuation-g1593",
+       "easy": "capitals-punctuation-easy-g1593-6",
+       "hard": "capitals-punctuation-hard-g1593-11"
+      },
+      {
+       "type": "G1-592",
+       "title": "Names, Days, and Months Get Capitals",
+       "core": "capitals-punctuation-g1592",
+       "easy": "capitals-punctuation-easy-g1592-6",
+       "hard": "capitals-punctuation-hard-g1592-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-g1593-2",
+      "title": "Capital Letter or Small Letter?"
+     },
+     "note": {
+      "mistake": "Children give a capital to every word about a person or a time: my Mom, my Dog, Day, Summer. Others leave a name small in the middle of a sentence.",
+      "words": "Say: \"A name starts with a capital letter: Mia, Rex. The days of the week and the months do too: Monday, June. Words like mom, dog, day, and summer do not.\" Point to the calendar. Day 1, Capital Letter or Small Letter?: each sentence prints one word two ways; children circle the right one. Level 1 has names, Level 2 adds the days, Level 3 the months. Day 2, Names, Days, and Months Get Capitals: names, days, and months are printed small; children circle each one and write each one again on the row below. Then they write the date and their first and last name; Level 3 adds \"My birthday is in ___.\"",
+      "watch": "Mom gets a capital when it is used as her name: Thank you, Mom! After my it stays small. Seasons stay small. On Levels 1 and 2 children copy the date from the board."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "1:joining-words",
+     "title": "Joining words: and, but, so, because",
+     "objective": "Children join two short sentences with and, but, so, or because and choose the joining word that makes sense.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.1.1.g",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-594",
+       "title": "Joining Words: and, but, so, because",
+       "core": "sentence-building-g1594",
+       "easy": "sentence-building-easy-g1594-6",
+       "hard": "sentence-building-hard-g1594-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "hazel-word-bridge.joining-words.l-1-1-g",
+      "slug": "hazel-word-bridge",
+      "title": "Hazel's Word Bridge — Joining Words"
+     },
+     "exit": {
+      "slug": "sentence-building-g1594-2",
+      "title": "Joining Words: and, but, so, because"
+     },
+     "note": {
+      "mistake": "Children choose and for every pair, because and can join any two sentences. Others mix up so and because and write \"It snowed because we made a snowman.\"",
+      "words": "Say: \"A joining word puts two sentences together. And adds one more thing. But tells something you did not expect. So tells what happened because of it. Because tells why.\" Read a pair with each word and ask which fits best: \"The sun is out but it is cold.\" The box at the top of the page says what each word does. Level 1 uses and and but: children circle the word in five sentences, then join two sentences and write them as one. Level 2 adds so. Level 3 uses all four words, and children write a sentence of their own with because. When children join two sentences, the first period goes and the second sentence starts with a small letter: The bird can sing and it can fly. Or joins two choices (Do you want milk or juice?): practice it aloud. On day 2, Hazel's Word Bridge has children tap the joining word that fills the blank.",
+      "watch": "And can join almost any two sentences; it fits best only when the second sentence adds one more thing of the same kind. So comes before what happened because of it; because comes before the reason. A sentence with because needs both parts: not \"Because it is cold.\" Grown-up writing usually puts a comma before and, but, or so when it joins two sentences; children learn that comma in Grade 4, so accept either."
+     },
+     "days": 2
+    },
+    {
+     "n": 7,
+     "point": "1:verb-tense",
+     "title": "Yesterday, today, tomorrow: verb tense",
+     "objective": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.1.1.e",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-595",
+       "title": "Yesterday, Today, and Tomorrow",
+       "core": "verb-forms-g1595",
+       "easy": "verb-forms-easy-g1595-6",
+       "hard": "verb-forms-hard-g1595-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "tense.past-present-future.l-1-1-e",
+      "slug": "verb-tense-past-present-future",
+      "title": "The Clock Tower — Verb Tense: Past, Present & Future"
+     },
+     "exit": {
+      "slug": "verb-forms-g1595-2",
+      "title": "Yesterday, Today, and Tomorrow"
+     },
+     "note": {
+      "mistake": "Children add ed to every verb, even after tomorrow (\"Tomorrow I will walked\"), or leave out will. Some copy the form from the next column without reading the time word.",
+      "words": "Say: \"A verb tells when. Yesterday I walked. Today I walk. Tomorrow I will walk.\" Write the three forms of one verb under Yesterday, Today, and Tomorrow. The table on the page has the same three columns, and one form of each verb is missing. On Level 1 a worked row in grey comes first, and children add ed to write the yesterday form of three verbs. On Levels 2 and 3 the missing form can be in any column. Below the table on Levels 1 and 2, children read four sentences and circle the verb that fits the time word: yesterday, last night, or last week; tomorrow or tomorrow night. On Level 3 children choose one of three verbs and write about it after Yesterday I, Today I, and Tomorrow I. Start with the page; on day 2, The Clock Tower has children read the time word in each sentence on screen and tap the verb that fits.",
+      "watch": "Every verb on these pages adds ed with no change in spelling. The ed says /t/ in walked, /d/ in played, and /id/ in painted. The sentences tell about yesterday or tomorrow, so the plain verb never fits them; ask, \"When did it happen?\" and point to the time word first. On Level 3, \"Today I am calling my friend\" is right too."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "g1-word-meanings-and-word-parts",
+   "slug": "word-meanings-and-word-parts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Word Meanings and Word Parts",
+   "metaTitle": "Grade 1 Vocabulary Lessons: Word Meanings and Word Parts",
+   "metaDescription": "A Grade 1 vocabulary unit: 4 lessons on opposites, synonyms, shades of meaning (look, peek, stare), and root words, each with a teacher note and pages to print.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
      "point": "1:opposites",
      "title": "Write the opposite",
      "objective": "Children find the opposite of a word in a word bank and tell an opposite from a word that means the same.",
@@ -14753,7 +14885,7 @@
      "days": 2
     },
     {
-     "n": 6,
+     "n": 2,
      "point": "1:synonyms",
      "title": "Two words that mean the same thing",
      "objective": "Children look at a picture and circle the two words under it that mean the same and tell about the picture.",
@@ -14798,7 +14930,7 @@
      "days": 2
     },
     {
-     "n": 7,
+     "n": 3,
      "point": "1:shades-of-meaning",
      "title": "From a little to a lot",
      "objective": "Children put three words with nearly the same meaning in order from the weakest to the strongest.",
@@ -14844,7 +14976,7 @@
      "days": 2
     },
     {
-     "n": 8,
+     "n": 4,
      "point": "1:root-words",
      "title": "Find the root word",
      "objective": "Children name a picture and find the longer word that is built from that word, such as rain in rainy.",
@@ -18281,9 +18413,9 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (20 Weeks)",
-   "metaDescription": "7 Grade 1 reading and language units in teaching order, about 20 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 20,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (21 Weeks)",
+   "metaDescription": "8 Grade 1 reading and language units in teaching order, about 21 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 21,
    "framework": "Common Core",
    "units": [
     {
@@ -18395,24 +18527,42 @@
     {
      "id": "g1-words-and-how-they-work",
      "slug": "words-and-how-they-work-grade-1-unit",
-     "title": "Words and How They Work",
-     "weeks": 4,
+     "title": "Words in Sentences: Grammar",
+     "weeks": 3,
      "from": 15,
-     "to": 18,
+     "to": 17,
      "lessons": [
       "ABC order",
       "Nouns, verbs, and adjectives",
       "He, she, it, they",
       "A or an: sort the words",
+      "Names, days, and months get capitals",
+      "Joining words: and, but, so, because",
+      "Yesterday, today, tomorrow: verb tense"
+     ],
+     "standards": [
+      "L.1.1.d",
+      "L.1.1.e",
+      "L.1.1.f",
+      "L.1.1.g",
+      "L.1.1.h",
+      "L.1.2.a"
+     ]
+    },
+    {
+     "id": "g1-word-meanings-and-word-parts",
+     "slug": "word-meanings-and-word-parts-grade-1-unit",
+     "title": "Word Meanings and Word Parts",
+     "weeks": 2,
+     "from": 18,
+     "to": 19,
+     "lessons": [
       "Write the opposite",
       "Two words that mean the same thing",
       "From a little to a lot",
       "Find the root word"
      ],
      "standards": [
-      "L.1.1.d",
-      "L.1.1.f",
-      "L.1.1.h",
       "L.1.4.c",
       "L.1.5",
       "L.1.5.d"
@@ -18423,8 +18573,8 @@
      "slug": "reading-to-learn-informational-texts-grade-1-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 2,
-     "from": 19,
-     "to": 20,
+     "from": 20,
+     "to": 21,
      "lessons": [
       "Facts in the text",
       "The main topic and key details",

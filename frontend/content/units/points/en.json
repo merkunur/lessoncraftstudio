@@ -3091,6 +3091,33 @@
     "words": "Write hat and hot on the board. Say: \"These words look almost the same. One letter is different.\" Read both words with the children, point to the a and the o, and say their sounds: /ă/, /ŏ/. Day 1, Which Word Matches?: each page has ten pictures (eight on Levels 2 and 3), each with two words that differ in one letter. Children read both words, circle the word for the picture, and underline the letter that is different in the word they circled. Level 1: the first letter differs (cat and bat). Level 2: the last letter differs (cat and can). Level 3: the middle letter, the vowel, differs (hat and hot). Day 2, Bingo's Word Hunt: children read look-alike words on screen and tap the one that names the picture.",
     "watch": "Ask the child to say the sound of the letter that differs in each word; a child who can circle the word but not say the sounds is guessing from the picture. Level 3 never pairs e and i before n or m (pen and pin), which sound alike in many US homes. Every picture is one most kindergartners name with its word; if a child calls a picture something else, have the child read both words: only one of them names the picture."
    }
+  },
+  "1:capitals-names-days-months": {
+   "title": "Names, days, and months get capitals",
+   "objective": "Children capitalize the names of people and pets, the days of the week, and the months in sentences and in dates.",
+   "note": {
+    "mistake": "Children give a capital to every word about a person or a time: my Mom, my Dog, Day, Summer. Others leave a name small in the middle of a sentence.",
+    "words": "Say: \"A name starts with a capital letter: Mia, Rex. The days of the week and the months do too: Monday, June. Words like mom, dog, day, and summer do not.\" Point to the calendar. Day 1, Capital Letter or Small Letter?: each sentence prints one word two ways; children circle the right one. Level 1 has names, Level 2 adds the days, Level 3 the months. Day 2, Names, Days, and Months Get Capitals: names, days, and months are printed small; children circle each one and write each one again on the row below. Then they write the date and their first and last name; Level 3 adds \"My birthday is in ___.\"",
+    "watch": "Mom gets a capital when it is used as her name: Thank you, Mom! After my it stays small. Seasons stay small. On Levels 1 and 2 children copy the date from the board."
+   }
+  },
+  "1:joining-words": {
+   "title": "Joining words: and, but, so, because",
+   "objective": "Children join two short sentences with and, but, so, or because and choose the joining word that makes sense.",
+   "note": {
+    "mistake": "Children choose and for every pair, because and can join any two sentences. Others mix up so and because and write \"It snowed because we made a snowman.\"",
+    "words": "Say: \"A joining word puts two sentences together. And adds one more thing. But tells something you did not expect. So tells what happened because of it. Because tells why.\" Read a pair with each word and ask which fits best: \"The sun is out but it is cold.\" The box at the top of the page says what each word does. Level 1 uses and and but: children circle the word in five sentences, then join two sentences and write them as one. Level 2 adds so. Level 3 uses all four words, and children write a sentence of their own with because. When children join two sentences, the first period goes and the second sentence starts with a small letter: The bird can sing and it can fly. Or joins two choices (Do you want milk or juice?): practice it aloud. On day 2, Hazel's Word Bridge has children tap the joining word that fills the blank.",
+    "watch": "And can join almost any two sentences; it fits best only when the second sentence adds one more thing of the same kind. So comes before what happened because of it; because comes before the reason. A sentence with because needs both parts: not \"Because it is cold.\" Grown-up writing usually puts a comma before and, but, or so when it joins two sentences; children learn that comma in Grade 4, so accept either."
+   }
+  },
+  "1:verb-tense": {
+   "title": "Yesterday, today, tomorrow: verb tense",
+   "objective": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
+   "note": {
+    "mistake": "Children add ed to every verb, even after tomorrow (\"Tomorrow I will walked\"), or leave out will. Some copy the form from the next column without reading the time word.",
+    "words": "Say: \"A verb tells when. Yesterday I walked. Today I walk. Tomorrow I will walk.\" Write the three forms of one verb under Yesterday, Today, and Tomorrow. The table on the page has the same three columns, and one form of each verb is missing. On Level 1 a worked row in grey comes first, and children add ed to write the yesterday form of three verbs. On Levels 2 and 3 the missing form can be in any column. Below the table on Levels 1 and 2, children read four sentences and circle the verb that fits the time word: yesterday, last night, or last week; tomorrow or tomorrow night. On Level 3 children choose one of three verbs and write about it after Yesterday I, Today I, and Tomorrow I. Start with the page; on day 2, The Clock Tower has children read the time word in each sentence on screen and tap the verb that fits.",
+    "watch": "Every verb on these pages adds ed with no change in spelling. The ed says /t/ in walked, /d/ in played, and /id/ in painted. The sentences tell about yesterday or tomorrow, so the plain verb never fits them; ask, \"When did it happen?\" and point to the time word first. On Level 3, \"Today I am calling my friend\" is right too."
+   }
   }
  }
 }

@@ -275,7 +275,8 @@
             "standard": "L.1.2.a",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: eight sentences with names, days, and months written in small letters; the child circles each word that needs a capital and writes it again correctly. Bottom: the child writes today's date and their own full name. Level 1: names only; level 2: names and days; level 3: names, days, and months, and one sentence about their birthday."
+            "page": "Grammar page: eight sentences with names, days, and months written in small letters; the child circles each word that needs a capital and writes it again correctly. Bottom: the child writes today's date and their own full name. Level 1: names only; level 2: names and days; level 3: names, days, and months, and one sentence about their birthday.",
+            "placed": "1:capitals-names-days-months"
           },
           {
             "new": true,
@@ -284,7 +285,8 @@
             "standard": "L.1.1.g",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: eight pairs of short sentences with a picture (It rained. We stayed in.); the child picks a joining word from a box and writes one sentence. Level 1: and, but; level 2: and, but, so; level 3: and, but, so, because, and the child writes one joined sentence of their own."
+            "page": "Grammar page: eight pairs of short sentences with a picture (It rained. We stayed in.); the child picks a joining word from a box and writes one sentence. Level 1: and, but; level 2: and, but, so; level 3: and, but, so, because, and the child writes one joined sentence of their own.",
+            "placed": "1:joining-words"
           },
           {
             "new": true,
@@ -293,7 +295,8 @@
             "standard": "L.1.1.e",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: a table with three columns (yesterday, today, tomorrow) and eight regular verbs; the child fills the missing form in each row. Bottom: four sentences with a time word, and the child circles the verb that fits. Level 1: four verbs with -ed; level 2: eight verbs; level 3: the child writes three sentences about one activity, one per column."
+            "page": "Grammar page: a table with three columns (yesterday, today, tomorrow) and eight regular verbs; the child fills the missing form in each row. Bottom: four sentences with a time word, and the child circles the verb that fits. Level 1: four verbs with -ed; level 2: eight verbs; level 3: the child writes three sentences about one activity, one per column.",
+            "placed": "1:verb-tense"
           }
         ]
       },

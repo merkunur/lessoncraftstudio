@@ -3084,10 +3084,10 @@
          "title": "Opposites"
         },
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 5,
+         "n": 1,
          "title": "Write the opposite"
         }
        ]
@@ -3121,10 +3121,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 32,
+    "taught": 34,
     "near": 2,
-    "open": 39,
-    "lessons": 42
+    "open": 37,
+    "lessons": 45
    },
    "groups": [
     {
@@ -3543,7 +3543,7 @@
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 3,
          "title": "He, she, it, they"
@@ -3560,8 +3560,15 @@
       {
        "code": "L.1.1.e",
        "state": "taught",
-       "text": "Children write the present and the past form of a verb, including be, have, do, and go, and use the right form in a sentence.",
+       "text": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
        "lessons": [
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 7,
+         "title": "Yesterday, today, tomorrow: verb tense"
+        },
         {
          "unit": "sentences-and-grammar-grade-2-unit",
          "unitTitle": "Sentences and Grammar",
@@ -3578,7 +3585,7 @@
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 2,
          "title": "Nouns, verbs, and adjectives"
@@ -3589,6 +3596,20 @@
          "unitGrade": "2",
          "n": 2,
          "title": "Nouns, verbs, and adjectives: three bins"
+        }
+       ]
+      },
+      {
+       "code": "L.1.1.g",
+       "state": "taught",
+       "text": "Children join two short sentences with and, but, so, or because and choose the joining word that makes sense.",
+       "lessons": [
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 6,
+         "title": "Joining words: and, but, so, because"
         }
        ]
       },
@@ -3606,7 +3627,7 @@
         },
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 4,
          "title": "A or an: sort the words"
@@ -3631,6 +3652,20 @@
          "unitGrade": "2",
          "n": 6,
          "title": "Write the question"
+        }
+       ]
+      },
+      {
+       "code": "L.1.2.a",
+       "state": "taught",
+       "text": "Children capitalize the names of people and pets, the days of the week, and the months in sentences and in dates.",
+       "lessons": [
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 5,
+         "title": "Names, days, and months get capitals"
         }
        ]
       },
@@ -3703,10 +3738,10 @@
        "text": "Children name a picture and find the longer word that is built from that word, such as rain in rainy.",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 8,
+         "n": 4,
          "title": "Find the root word"
         }
        ]
@@ -3717,17 +3752,17 @@
        "text": "Children find the opposite of a word in a word bank and tell an opposite from a word that means the same.",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 5,
+         "n": 1,
          "title": "Write the opposite"
         },
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 6,
+         "n": 2,
          "title": "Two words that mean the same thing"
         }
        ]
@@ -3761,10 +3796,10 @@
        "text": "Children put three words with nearly the same meaning in order from the weakest to the strongest.",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 7,
+         "n": 3,
          "title": "From a little to a lot"
         }
        ]
@@ -3774,9 +3809,7 @@
       "L.1.1.a",
       "L.1.1.b",
       "L.1.1.c",
-      "L.1.1.g",
       "L.1.1.i",
-      "L.1.2.a",
       "L.1.2.c",
       "L.1.4.b",
       "L.1.5.c",
@@ -6589,10 +6622,10 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 29,
-    "near": 7,
-    "open": 48,
-    "lessons": 38
+    "taught": 30,
+    "near": 8,
+    "open": 46,
+    "lessons": 40
    },
    "groups": [
     {
@@ -6776,10 +6809,10 @@
        "rel": "prepares",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 8,
+         "n": 4,
          "title": "Find the root word"
         }
        ]
@@ -6854,7 +6887,7 @@
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 1,
          "title": "ABC order"
@@ -6903,10 +6936,10 @@
          "title": "Fill in the missing word"
         },
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 6,
+         "n": 2,
          "title": "Two words that mean the same thing"
         }
        ]
@@ -6918,10 +6951,10 @@
        "rel": "extends",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 8,
+         "n": 4,
          "title": "Find the root word"
         },
         {
@@ -6954,7 +6987,7 @@
         },
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 2,
          "title": "Nouns, verbs, and adjectives"
@@ -7228,16 +7261,37 @@
        ]
       },
       {
+       "code": "1.11.D.ii",
+       "state": "taught",
+       "text": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
+       "lessons": [
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 7,
+         "title": "Yesterday, today, tomorrow: verb tense"
+        }
+       ]
+      },
+      {
        "code": "1.11.D.iii",
        "state": "taught",
        "text": "Children sort words into nouns and verbs, and into nouns and adjectives.",
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 2,
          "title": "Nouns, verbs, and adjectives"
+        },
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 5,
+         "title": "Names, days, and months get capitals"
         }
        ]
       },
@@ -7248,17 +7302,32 @@
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 2,
          "title": "Nouns, verbs, and adjectives"
         },
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 4,
          "title": "A or an: sort the words"
+        }
+       ]
+      },
+      {
+       "code": "1.11.D.v",
+       "state": "near",
+       "text": "Children use verbs to tell about the past, the present, and the future (Yesterday I walked. Today I walk. Tomorrow I will walk.).",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "words-and-how-they-work-grade-1-unit",
+         "unitTitle": "Words in Sentences: Grammar",
+         "unitGrade": "1",
+         "n": 7,
+         "title": "Yesterday, today, tomorrow: verb tense"
         }
        ]
       },
@@ -7269,7 +7338,7 @@
        "lessons": [
         {
          "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unitTitle": "Words in Sentences: Grammar",
          "unitGrade": "1",
          "n": 3,
          "title": "He, she, it, they"
@@ -7317,8 +7386,6 @@
       "1.11.B.i",
       "1.11.B.ii",
       "1.11.C",
-      "1.11.D.ii",
-      "1.11.D.v",
       "1.11.D.vi",
       "1.11.D.x",
       "1.11.E"
@@ -7650,10 +7717,10 @@
        "text": "Children find the opposite of a word in a word bank and tell an opposite from a word that means the same.",
        "lessons": [
         {
-         "unit": "words-and-how-they-work-grade-1-unit",
-         "unitTitle": "Words and How They Work",
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 5,
+         "n": 1,
          "title": "Write the opposite"
         },
         {

@@ -5139,6 +5139,44 @@
    ],
    "why": "Reading two words that differ in one letter and choosing the one for the picture is «using letter-sound relationships to decode, including VC, CVC, CCVC, and CVCC words»; it prepares «recognizing that new words are created when letters are changed, added, or deleted».",
    "review": "year-design 2026-11-18"
+  },
+  "1:capitals-names-days-months": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "extends"
+    },
+    {
+     "id": "ELAR.1.11.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas asks first graders for «capitalization for the beginning of sentences and the pronoun \"I\"»; capitals for names, days and months go one step further, and a name with its capital is a proper noun: «singular, plural, common, and proper nouns».",
+   "review": "year-design 2026-11-18"
+  },
+  "1:joining-words": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.i",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas names no joining words in Grade 1; joining two complete sentences with and, but, so or because builds on «complete sentences with subject-verb agreement».",
+   "review": "year-design 2026-11-18"
+  },
+  "1:verb-tense": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the past and the present form of a verb is «past and present verb tense» (the future with will goes one step further); yesterday, today and tomorrow are «adverbs that convey time».",
+   "review": "year-design 2026-11-18"
   }
  }
 }

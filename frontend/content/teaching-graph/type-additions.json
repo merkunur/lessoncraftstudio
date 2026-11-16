@@ -339,6 +339,10 @@
   "K-661": "K:short-a-i",
   "K-662": "K:short-o-u-e",
   "K-663": "K:change-one-sound",
-  "K-664": "K:words-one-letter-apart"
+  "K-664": "K:words-one-letter-apart",
+  "G1-593": "1:capitals-names-days-months",
+  "G1-592": "1:capitals-names-days-months",
+  "G1-594": "1:joining-words",
+  "G1-595": "1:verb-tense"
  }
 }

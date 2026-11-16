@@ -4553,6 +4553,16 @@
    ],
    "why": "Putting the steps of a how-it-is-made text in order with first, next, then and finally, and telling why one step has to come before another, is «organizational patterns such as chronological order and cause and effect stated explicitly» in informational text.",
    "review": "year-design 2026-11-16"
+  },
+  "K:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting what two fact texts on one topic both tell and what only one of them tells is «make connections to personal experiences, ideas in other texts, and society with adult assistance».",
+   "review": "year-design 2026-11-16"
   }
  }
 }

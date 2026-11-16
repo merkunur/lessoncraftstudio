@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 21,
+    "taught": 22,
     "near": 3,
-    "open": 41,
-    "lessons": 33
+    "open": 40,
+    "lessons": 34
    },
    "groups": [
     {
@@ -2524,6 +2524,20 @@
          "title": "Pictures That Teach"
         }
        ]
+      },
+      {
+       "code": "RI.K.9",
+       "state": "taught",
+       "text": "With help, children tell what two short fact texts on one topic both say and what only one of them says.",
+       "lessons": [
+        {
+         "unit": "reading-to-learn-fact-texts-kindergarten-unit",
+         "unitTitle": "Reading to Learn: Fact Texts",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Two Texts, One Topic"
+        }
+       ]
       }
      ],
      "open": [
@@ -2531,7 +2545,6 @@
       "RI.K.5",
       "RI.K.6",
       "RI.K.8",
-      "RI.K.9",
       "RI.K.10"
      ]
     },

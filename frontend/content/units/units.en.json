@@ -12396,9 +12396,9 @@
    "subject": "literacy",
    "title": "Reading to Learn: Fact Texts",
    "metaTitle": "Kindergarten Lesson Plans: Reading to Learn from Fact Texts",
-   "metaDescription": "A two-week Kindergarten reading unit on short nonfiction texts in big print: 4 lessons on key details, the main topic, matching pictures to words, and first and next.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A Kindergarten reading unit on short nonfiction texts in big print: 5 lessons on key details, the main topic, pictures and words, first and next, and two texts.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -12553,6 +12553,45 @@
       "mistake": "Children put the two things in the order they like or in the order of the pictures on the strip, not in the order of the text. On the drawing pages they draw the first two things the text names and not the two the question asks about.",
       "words": "Read the text aloud, then the question in the box: it tells which change the page is about. Say: \"What was there FIRST? What did it turn into, or what came NEXT?\" Have children answer in one sentence with both words: \"First it is a caterpillar, then it is a butterfly.\" On the cut-and-glue page say: \"Three pictures, two boxes. One picture is not part of the answer; it is left over.\"",
       "watch": "Before the glue comes out, have each child lay the two pictures in the boxes and tell you the sentence with first and then. A child who reverses them should hear the text once more and listen for the words that tell the change, like \"turns into,\" \"grows into,\" or \"then.\" On the hardest page, children may copy the two words from the text or sound them out; accept invented spelling. The on-screen activity shows one fact and asks which fact comes next or happens because of it: use it after the page, and ask, \"How do these two facts go together?\""
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "K:two-texts-one-topic",
+     "title": "Two Texts, One Topic",
+     "objective": "With help, children tell what two short fact texts on one topic both say and what only one of them says.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RI.K.9",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-649",
+       "title": "Two Texts, One Topic",
+       "core": "reading-comprehension-k649",
+       "easy": "reading-comprehension-easy-k649-6",
+       "hard": "reading-comprehension-hard-k649-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "willow-story-corner.compare-tales.rl-k-9",
+      "slug": "willows-story-corner",
+      "title": "Willow's Story Corner — Two Tales, Alike or Different?"
+     },
+     "exit": {
+      "slug": "reading-comprehension-k649-2",
+      "title": "Two Texts, One Topic"
+     },
+     "note": {
+      "mistake": "Children sort by what they know, not by what the texts say: a cat may play with a ball too, so the ball goes in the middle, although only the text about dogs tells about a ball. Many children wear boots in the snow, but only the rainy-day text tells about boots. Others glue a card under the first text that names it and never check the second text. Most cards can be placed from what children already know, so a correct page does not prove they compared the texts. The proof is pointing to the sentence in each text.",
+      "words": "Read the first text aloud, then the second, while children point under the words. Say: \"Both texts are about pets\" (or trees, the weather, the sky, farm animals). \"Some things are in both texts. Some are in only one.\" Hold up one picture card and name it with the word of the text (\"leaves,\" \"rain boots,\" \"yarn,\" \"a mail truck\"): \"Listen for it.\" Read both texts again, and children raise a hand each time they hear the word. \"Did you hear it in the first text? In the second? In both?\" Only then do they glue the card. The picture of each text is at the top of its box, and the middle box shows both pictures.",
+      "watch": "Ask about one card in the middle: \"Show me where each text says it.\" A child who can point to both sentences has compared the texts. On the cut-and-glue page, two pictures go in each box. On the drawing pages, anything a text tells about counts, and a quick sketch is fine; on the draw-and-write page invented spelling is fine too. A drawing of the cat or the dog only copies the picture at the top: ask for something the text says about it. The on-screen activity compares two stories, not fact texts: use it as a warm-up or at a center, and tell children they do the same thing here with facts."
      },
      "days": 2
     }
@@ -16116,9 +16155,9 @@
    "grade": "K",
    "subject": "literacy",
    "title": "Kindergarten Reading and Writing Scope and Sequence",
-   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (13 Weeks)",
-   "metaDescription": "5 Kindergarten reading and writing units in teaching order, about 13 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 13,
+   "metaTitle": "Kindergarten ELA Scope and Sequence: Reading and Writing (14 Weeks)",
+   "metaDescription": "5 Kindergarten reading and writing units in teaching order, about 14 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 14,
    "framework": "Common Core",
    "units": [
     {
@@ -16212,20 +16251,22 @@
      "id": "k-reading-to-learn-fact-texts",
      "slug": "reading-to-learn-fact-texts-kindergarten-unit",
      "title": "Reading to Learn: Fact Texts",
-     "weeks": 2,
+     "weeks": 3,
      "from": 12,
-     "to": 13,
+     "to": 14,
      "lessons": [
       "Find the Facts",
       "What Is It All About?",
       "Pictures That Teach",
-      "First, Then"
+      "First, Then",
+      "Two Texts, One Topic"
      ],
      "standards": [
       "RI.K.1",
       "RI.K.2",
       "RI.K.3",
-      "RI.K.7"
+      "RI.K.7",
+      "RI.K.9"
      ]
     }
    ]

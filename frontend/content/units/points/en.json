@@ -2677,6 +2677,15 @@
     "words": "Before anyone writes, draw a chart with three columns on the board: the fact, the first animal, the second animal. Fill it in together from the two fact files and mark each row S or D. Then turn rows into sentences with the comparing words of Grade 2: both, and, too for what is the same; but, while, unlike for what is different. Model one of each: \"Both animals eat meat.\" \"The ladybug is an insect, but the eagle is a bird.\" The Grade 2 standard asks children to compare the most important points of two texts on the SAME topic. This page compares two animals, so end the lesson with two short texts about one animal and ask, \"Which point do both texts make? What does only one of them tell?\"",
     "watch": "Read the four sentences each child wrote. A sentence about a difference has to name both animals and both facts; \"They are different\" is not enough. A sentence about what is the same should use both or too. If a child circled every row the same way, cover all rows but one and compare just that row. The on-screen activity compares two stories; the steps are the same: one point at a time, across both."
    }
+  },
+  "K:two-texts-one-topic": {
+   "title": "Two Texts, One Topic",
+   "objective": "With help, children tell what two short fact texts on one topic both say and what only one of them says.",
+   "note": {
+    "mistake": "Children sort by what they know, not by what the texts say: a cat may play with a ball too, so the ball goes in the middle, although only the text about dogs tells about a ball. Many children wear boots in the snow, but only the rainy-day text tells about boots. Others glue a card under the first text that names it and never check the second text. Most cards can be placed from what children already know, so a correct page does not prove they compared the texts. The proof is pointing to the sentence in each text.",
+    "words": "Read the first text aloud, then the second, while children point under the words. Say: \"Both texts are about pets\" (or trees, the weather, the sky, farm animals). \"Some things are in both texts. Some are in only one.\" Hold up one picture card and name it with the word of the text (\"leaves,\" \"rain boots,\" \"yarn,\" \"a mail truck\"): \"Listen for it.\" Read both texts again, and children raise a hand each time they hear the word. \"Did you hear it in the first text? In the second? In both?\" Only then do they glue the card. The picture of each text is at the top of its box, and the middle box shows both pictures.",
+    "watch": "Ask about one card in the middle: \"Show me where each text says it.\" A child who can point to both sentences has compared the texts. On the cut-and-glue page, two pictures go in each box. On the drawing pages, anything a text tells about counts, and a quick sketch is fine; on the draw-and-write page invented spelling is fine too. A drawing of the cat or the dog only copies the picture at the top: ask for something the text says about it. The on-screen activity compares two stories, not fact texts: use it as a warm-up or at a center, and tell children they do the same thing here with facts."
+   }
   }
  }
 }

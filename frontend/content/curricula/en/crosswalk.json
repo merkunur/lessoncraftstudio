@@ -2291,6 +2291,16 @@
    ],
    "by": "code"
   },
+  "K:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "RI.K.9",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

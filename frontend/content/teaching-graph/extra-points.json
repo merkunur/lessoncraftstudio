@@ -179,6 +179,16 @@
    "strand": "Reading: Informational Text",
    "code": "RI.2.3",
    "skill": "Describe the steps of a how-it-is-made text in order and tell why one step comes before another"
+  },
+  {
+   "tp": "K:two-texts-one-topic",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.9",
+   "skill": "Tell what two short fact texts on one topic both say and what only one of them says",
+   "activities": [
+    "willow-story-corner.compare-tales.rl-k-9"
+   ]
   }
  ]
 }

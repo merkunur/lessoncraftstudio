@@ -2656,6 +2656,16 @@
    ],
    "by": "authored"
   },
+  "K:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.E",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

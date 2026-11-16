@@ -1,7 +1,7 @@
 'use strict';
 /**
  * Teacher notes, English, literacy: the Kindergarten unit Reading to Learn: Fact Texts (Daily Teaching System,
- * Part 12.3, third run, 2026-11-15). Four NEW teaching points on the four pages of types/_shared/fact-text-k.js: a
+ * Part 12.3, third run, 2026-11-15). Five NEW teaching points: four on the pages of types/_shared/fact-text-k.js and (2026-11-16) one on types/_shared/two-texts-k.js: a
  * fact text of four short sentences in big print that the teacher reads aloud, with answers that are pictures.
  * Each note was written from the pages the lesson hands out, in American English, and read by one American
  * kindergarten teacher-reviewer with a description of the pages (2026-11-15); every finding is in the text below.
@@ -44,6 +44,15 @@ module.exports = {
         mistake: 'Children put the two things in the order they like or in the order of the pictures on the strip, not in the order of the text. On the drawing pages they draw the first two things the text names and not the two the question asks about.',
         words: 'Read the text aloud, then the question in the box: it tells which change the page is about. Say: "What was there FIRST? What did it turn into, or what came NEXT?" Have children answer in one sentence with both words: "First it is a caterpillar, then it is a butterfly." On the cut-and-glue page say: "Three pictures, two boxes. One picture is not part of the answer; it is left over."',
         watch: 'Before the glue comes out, have each child lay the two pictures in the boxes and tell you the sentence with first and then. A child who reverses them should hear the text once more and listen for the words that tell the change, like "turns into," "grows into," or "then." On the hardest page, children may copy the two words from the text or sound them out; accept invented spelling. The on-screen activity shows one fact and asks which fact comes next or happens because of it: use it after the page, and ask, "How do these two facts go together?"',
+      },
+    },
+    'K:two-texts-one-topic': {
+      title: 'Two Texts, One Topic',
+      objective: 'With help, children tell what two short fact texts on one topic both say and what only one of them says.',
+      note: {
+        mistake: 'Children sort by what they know, not by what the texts say: a cat may play with a ball too, so the ball goes in the middle, although only the text about dogs tells about a ball. Many children wear boots in the snow, but only the rainy-day text tells about boots. Others glue a card under the first text that names it and never check the second text. Most cards can be placed from what children already know, so a correct page does not prove they compared the texts. The proof is pointing to the sentence in each text.',
+        words: 'Read the first text aloud, then the second, while children point under the words. Say: "Both texts are about pets" (or trees, the weather, the sky, farm animals). "Some things are in both texts. Some are in only one." Hold up one picture card and name it with the word of the text ("leaves," "rain boots," "yarn," "a mail truck"): "Listen for it." Read both texts again, and children raise a hand each time they hear the word. "Did you hear it in the first text? In the second? In both?" Only then do they glue the card. The picture of each text is at the top of its box, and the middle box shows both pictures.',
+        watch: 'Ask about one card in the middle: "Show me where each text says it." A child who can point to both sentences has compared the texts. On the cut-and-glue page, two pictures go in each box. On the drawing pages, anything a text tells about counts, and a quick sketch is fine; on the draw-and-write page invented spelling is fine too. A drawing of the cat or the dog only copies the picture at the top: ask for something the text says about it. The on-screen activity compares two stories, not fact texts: use it as a warm-up or at a center, and tell children they do the same thing here with facts.',
       },
     },
   },

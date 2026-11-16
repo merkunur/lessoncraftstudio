@@ -2650,8 +2650,8 @@
    "subject": "literacy",
    "title": "Reading to Learn: Fact Texts",
    "metaTitle": "Kindergarten Lesson Plans: Reading to Learn from Fact Texts",
-   "metaDescription": "A two-week Kindergarten reading unit on short nonfiction texts in big print: 4 lessons on key details, the main topic, matching pictures to words, and first and next.",
-   "weeks": 2,
+   "metaDescription": "A Kindergarten reading unit on short nonfiction texts in big print: 5 lessons on key details, the main topic, pictures and words, first and next, and two texts.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:fact-text-key-details",
@@ -2675,6 +2675,12 @@
      "point": "K:first-then",
      "types": [
       "K-648"
+     ]
+    },
+    {
+     "point": "K:two-texts-one-topic",
+     "types": [
+      "K-649"
      ]
     }
    ]

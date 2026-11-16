@@ -2108,7 +2108,8 @@
             "standard": "RI.K.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two short read-aloud texts side by side on one topic (two kinds of bears, three sentences each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them."
+            "page": "Two-text comparison page: two short read-aloud texts side by side on one topic (two kinds of bears, three sentences each, each with a picture). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them.",
+            "placed": "K:two-texts-one-topic"
           }
         ]
       },

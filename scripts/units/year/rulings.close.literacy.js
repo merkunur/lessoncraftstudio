@@ -41,7 +41,7 @@ module.exports = {
     'K-025': N('K-646', 'built: What Is It All About?, the same texts; circle the picture of the whole text, then circle or draw its key details'),
     'K-026': N('K-647', 'built: Pictures That Teach, a line from each sentence of a fact text to the picture that goes with it (three sentences, four, four with one picture to draw); the labeled plant picture of the design gave way to the pictures of each text'),
     'K-027': N('K-648', 'built: First, Then, a fact text that tells a change, a question that names it, and two boxes joined by an arrow (cut and glue, draw, draw and write a word)'),
-    'K-028': B('two read-aloud texts on one topic + a picture-card Venn sort'),
+    'K-028': N('K-649', 'built: Two Texts, One Topic, two fact texts of four sentences on one topic and six pictures to sort into first text only, both texts, second text only (cut and glue, draw, draw and name)'),
     'K-029': C('an opinion frame with the writing-frames.js starter blanks'),
     'K-030': C('writing-frames.js'),
     'K-031': C('writing-frames.js'),

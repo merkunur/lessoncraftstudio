@@ -286,6 +286,14 @@
   "G3-498": "3:text-features-search-tools",
   "G3-499": "3:text-features-search-tools",
   "G3-500": "3:events-cause-effect",
-  "G3-501": "3:events-cause-effect"
+  "G3-501": "3:events-cause-effect",
+  "G3-502": "3:story-evidence",
+  "G3-503": "3:story-evidence",
+  "G3-504": "3:central-message",
+  "G3-505": "3:central-message",
+  "G3-506": "3:characters-actions",
+  "G3-507": "3:characters-actions",
+  "G3-508": "3:story-discussion",
+  "G3-509": "3:story-discussion"
  }
 }

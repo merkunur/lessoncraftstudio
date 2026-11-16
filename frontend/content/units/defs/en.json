@@ -3194,6 +3194,51 @@
    ]
   },
   {
+   "id": "g3-stories-evidence-lessons-characters",
+   "slug": "stories-evidence-lessons-and-characters-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Stories: Evidence, Lessons, and Characters",
+   "metaTitle": "Grade 3 Lesson Plans: Stories, Their Lessons, and Characters",
+   "metaDescription": "A Grade 3 reading unit on fables and folktales: 4 lessons on answering with evidence, the central message, character traits, and talking about a story.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:story-evidence",
+     "types": [
+      "G3-502",
+      "G3-503"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:central-message",
+     "types": [
+      "G3-505",
+      "G3-504"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:characters-actions",
+     "types": [
+      "G3-506",
+      "G3-507"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:story-discussion",
+     "types": [
+      "G3-508",
+      "G3-509"
+     ],
+     "activity": null
+    }
+   ]
+  },
+  {
    "id": "g3-reading-to-learn-informational-texts",
    "slug": "reading-to-learn-informational-texts-grade-3-unit",
    "status": "live",
@@ -3361,6 +3406,20 @@
     "g2-spelling-and-word-building",
     "g2-stories-facts-and-writing",
     "g2-reading-to-learn-informational-texts"
+   ]
+  },
+  {
+   "id": "plan-3-literacy",
+   "slug": "grade-3-reading-and-language-scope-and-sequence",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Grade 3 Reading and Language Scope and Sequence",
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 3 reading and language units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "units": [
+    "g3-words-and-their-meanings",
+    "g3-stories-evidence-lessons-characters",
+    "g3-reading-to-learn-informational-texts"
    ]
   }
  ]

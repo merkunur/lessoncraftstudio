@@ -278,6 +278,25 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Lesing: fortellinger', // nt5-F panel (tools/apply-b6-locale.js)
     fi: 'Kertomusten lukeminen ja tulkitseminen', // nt5-F panel (tools/apply-b6-locale.js)
   },
+  // Speaking and Listening (SL — a prepared group talk about a text). Added 2026-11-16 with the first English
+  // SL teaching point (3:story-discussion, Grade 3 unit Stories: Evidence, Lessons, and Characters). Each locale
+  // carries the name of its own curriculum domain for oral language (KMK „Sprechen und Zuhören", cycle 2
+  // « Langage oral », SEP «Oralidad», BNCC «Oralidade», Indicazioni «Ascolto e parlato», Lgr22 «Tala, lyssna
+  // och samtala», Fælles Mål «Kommunikation», LK20 «Muntlige ferdigheter», OPS 2014 «Vuorovaikutustilanteissa
+  // toimiminen»). No unit outside English teaches a point of this strand yet: sv/da/no/fi are [NSR-FLAG].
+  'Speaking and Listening': {
+    en: 'Speaking and Listening',
+    de: 'Sprechen und Zuhören',
+    fr: 'Langage oral',
+    es: 'Oralidad',
+    pt: 'Oralidade',
+    it: 'Ascolto e parlato',
+    nl: 'Mondelinge taalvaardigheid',
+    sv: 'Tala, lyssna och samtala',
+    da: 'Kommunikation',
+    no: 'Muntlige ferdigheter',
+    fi: 'Vuorovaikutustilanteissa toimiminen',
+  },
   // Writing (composing texts). KMK Bereich „Texte verfassen"; opens the Writing
   // strand — the platform's first W activity (wobble-museum, beim Thema bleiben).
   'Writing': {

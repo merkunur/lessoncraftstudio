@@ -3043,6 +3043,46 @@
    ],
    "by": "review"
   },
+  "3:story-evidence": {
+   "rows": [
+    {
+     "id": "RL.3.1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:central-message": {
+   "rows": [
+    {
+     "id": "RL.3.2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:characters-actions": {
+   "rows": [
+    {
+     "id": "RL.3.3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:story-discussion": {
+   "rows": [
+    {
+     "id": "SL.3.1.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:answer-with-evidence": {
    "rows": [
     {

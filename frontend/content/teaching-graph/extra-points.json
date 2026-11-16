@@ -217,6 +217,34 @@
    "strand": "Reading: Informational Text",
    "code": "RI.3.3",
    "skill": "Describe how the events, steps, and ideas of an informational text connect, with words of time and sequence and of cause and effect"
+  },
+  {
+   "tp": "3:story-evidence",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.1",
+   "skill": "Ask and answer questions about a story and show the paragraph and the sentence that prove each answer"
+  },
+  {
+   "tp": "3:central-message",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.2",
+   "skill": "Retell a fable or folktale in order, determine its central message, and explain how the events of the story show it"
+  },
+  {
+   "tp": "3:characters-actions",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.3",
+   "skill": "Describe the characters of a story by their traits and feelings and explain how what they do leads to what happens next"
+  },
+  {
+   "tp": "3:story-discussion",
+   "grade": "3",
+   "strand": "Speaking and Listening",
+   "code": "SL.3.1.a",
+   "skill": "Come to a group talk about a story prepared, and use notes and the story itself to explain ideas"
   }
  ]
 }

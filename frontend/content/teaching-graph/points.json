@@ -6877,6 +6877,90 @@
    ]
   },
   {
+   "id": "3:story-evidence",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Ask and answer questions about a story and show the paragraph and the sentence that prove each answer",
+   "code": "RL.3.1",
+   "types": [
+    "G3-502",
+    "G3-503"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 86,
+   "prerequisites": []
+  },
+  {
+   "id": "3:central-message",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Retell a fable or folktale in order, determine its central message, and explain how the events of the story show it",
+   "code": "RL.3.2",
+   "types": [
+    "G3-504",
+    "G3-505"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 87,
+   "prerequisites": []
+  },
+  {
+   "id": "3:characters-actions",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Describe the characters of a story by their traits and feelings and explain how what they do leads to what happens next",
+   "code": "RL.3.3",
+   "types": [
+    "G3-506",
+    "G3-507"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 88,
+   "prerequisites": []
+  },
+  {
+   "id": "3:story-discussion",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Speaking and Listening",
+   "skill": "Come to a group talk about a story prepared, and use notes and the story itself to explain ideas",
+   "code": "SL.3.1.a",
+   "types": [
+    "G3-508",
+    "G3-509"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 89,
+   "prerequisites": []
+  },
+  {
    "id": "3:answer-with-evidence",
    "grade": "3",
    "subject": "literacy",
@@ -6894,7 +6978,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 86,
+   "order": 90,
    "prerequisites": []
   },
   {
@@ -6915,7 +6999,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 87,
+   "order": 91,
    "prerequisites": []
   },
   {
@@ -6936,7 +7020,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 88,
+   "order": 92,
    "prerequisites": []
   },
   {
@@ -6957,7 +7041,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 89,
+   "order": 93,
    "prerequisites": []
   },
   {

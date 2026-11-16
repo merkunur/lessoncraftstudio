@@ -3551,6 +3551,66 @@
    ],
    "by": "authored"
   },
+  "3:story-evidence": {
+   "rows": [
+    {
+     "id": "ELAR.3.7.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.6.B",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:central-message": {
+   "rows": [
+    {
+     "id": "ELAR.3.8.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.7.D",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:characters-actions": {
+   "rows": [
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.6.F",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:story-discussion": {
+   "rows": [
+    {
+     "id": "ELAR.3.1.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.1.D",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:answer-with-evidence": {
    "rows": [
     {

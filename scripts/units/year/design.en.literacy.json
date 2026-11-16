@@ -1172,7 +1172,8 @@
             "standard": "RL.3.1",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 250 words with one picture and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer."
+            "page": "Story and questions page: a story of about 250 words with one picture and numbered paragraphs. Below: five questions, each with a line for the answer and a box for the paragraph number that proves it. Level 1: multiple choice with the paragraph given; level 2: written answers, the child finds the paragraph; level 3: the child also copies the exact words that prove the answer.",
+            "placed": "3:story-evidence"
           },
           {
             "new": true,
@@ -1182,7 +1183,8 @@
             "days": 3,
             "tool": "Story Line",
             "source": "new",
-            "page": "Story and questions page: a fable or folktale of about 250 words from another culture with one picture. Below: a recount organizer (beginning, middle, end), a message line, and two lines for the details that show the message. Level 1: the child orders sentence strips and picks the message from three; level 2: the child writes the recount and the message; level 3: the child also explains which detail shows the message best."
+            "page": "Story and questions page: a fable or folktale of about 250 words from another culture with one picture. Below: a recount organizer (beginning, middle, end), a message line, and two lines for the details that show the message. Level 1: the child orders sentence strips and picks the message from three; level 2: the child writes the recount and the message; level 3: the child also explains which detail shows the message best.",
+            "placed": "3:central-message"
           },
           {
             "new": true,
@@ -1191,7 +1193,8 @@
             "standard": "RL.3.3",
             "days": 3,
             "source": "new",
-            "page": "Story and questions page: a story of about 250 words with one picture and a character who changes. Below: a character web (a trait, a feeling, what the character wants) with a proof line each, and a cause-and-effect chain of three boxes (the action and what it led to). Level 1: the child chooses traits from a word bank; level 2: the child writes the traits with proof; level 3: the child also explains how the character changed."
+            "page": "Story and questions page: a story of about 250 words with one picture and a character who changes. Below: a character web (a trait, a feeling, what the character wants) with a proof line each, and a cause-and-effect chain of three boxes (the action and what it led to). Level 1: the child chooses traits from a word bank; level 2: the child writes the traits with proof; level 3: the child also explains how the character changed.",
+            "placed": "3:characters-actions"
           },
           {
             "new": true,
@@ -1201,7 +1204,8 @@
             "days": 2,
             "tool": "Name Sticks",
             "source": "teacher-led",
-            "page": "Routine: each child reads a story from this unit and marks two places with sticky notes (a surprise, a question). Groups of four meet; a name stick picks the first speaker, who reads one marked place aloud and says why it matters. The others respond with I agree because or I see it differently because. Listen for: page or paragraph references and comments that build on each other."
+            "page": "Routine: each child reads a story from this unit and marks two places with sticky notes (a surprise, a question). Groups of four meet; a name stick picks the first speaker, who reads one marked place aloud and says why it matters. The others respond with I agree because or I see it differently because. Listen for: page or paragraph references and comments that build on each other.",
+            "placed": "3:story-discussion"
           }
         ]
       },

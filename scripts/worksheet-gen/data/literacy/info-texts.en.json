@@ -1,5 +1,5 @@
 {
- "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text).",
+ "_note": "INFORMATION TEXTS for the English literacy year (Daily Teaching System, Part 12.3; read by a US Grade 1 reading reviewer 2026-11-15 and corrected by every finding; read a second time after the corrections (four small wording points, applied)). The reading banks held stories only; the Common Core RI standards need texts that inform. Grade 1: about 60 to 75 words in two sections, each with a heading; two words in bold; a three-word glossary; one library picture with a caption. Every fact must be one a teacher can confirm; every question has one right answer that a sentence of the text gives (its 1-based number is `sentence`). `topic` = the main topic and two wrong choices (a detail of the text; a thing the text only mentions). `full` = the whole answer sentence of a question (it starts with `starter`); `lure` = a word of the text that is not in bold (a wrong choice of the bold-word question); `capChoices` = two wrong answers of the caption question; `picture2` = a second picture of something the text tells about, with a sample caption. `features` = find-it questions answered from a text feature, not from the running text. `headLure` = a heading the text does not have (the third choice of a heading question: a child may call the title the main heading). KINDERGARTEN (`k`; read by a US kindergarten reviewer 2026-11-15 and corrected by every finding, then read a second time and corrected again): four sentences in big print; every question is read aloud by the teacher and answered by circling one of three library pictures (`right`, `wrong`; `draw` = the question as it stands on the levels where the child draws); `topic` = the picture of the main topic and the pictures of the two key details; `details` = the numbers of the two sentences that are key details. Added 2026-11-15 for two more pages and read by a US kindergarten reviewer (every finding applied): the texts `oak-trees` and `rain` (`since`: the two first pages do not draw them, so their published pages stay what they are); `match` = the matching page of a text: the picture of each sentence, its own wording of a sentence where needed, and which pictures may be the missing one on the hard level; `change` = what comes first and what comes then in a text that tells a change, a picture that is no part of it, the two words, and its own wording of the text where needed. GRADE 2 (`g2`; read twice by a US Grade 2 reviewer 2026-11-15 and corrected by every finding): about 150 words in three parts (the pages 1-3 of a small book), each with a heading and one bold word; two pictures with captions; a four-word glossary; an index (word → page); `focus` = what each part is mostly about, `focusLure` = a focus no part has; `topic` = the main topic, a detail and a too-wide choice; `features` = six find-it questions (a caption question names its two wrong answers; the others take them from the text). GRADE 2 DIAGRAM TEXTS (`g2d`) and HOW-IT-IS-MADE TEXTS (`g2s`), written 2026-11-16, read by a US Grade 2 reviewer and corrected by every finding: a `g2d` text has two paragraphs (about 115 words; it never says how many stages there are) and a cycle diagram of four or five drawn stages with labels and arrows (the text names only the labels in `textNames`; the hardest level leaves out the label of the stage `blank` and the arrow that starts from the stage `gap`, which is next to it and never the arrow back to the first stage); a `g2s` text has an opening paragraph and four steps that begin with First, Next, Then and Finally (about 135 words), three library pictures, the four steps as short statements, three questions to circle (the signal word of a step named by what it tells, a detail, and why one step comes before another) and the same why-question to write. (2026-11-16: three captions of the `g2` texts elephants and spiders were rewritten to tell about their picture, a finding of the reviewer who read the renders.) A `g2d` text also holds `facts` for the page Text or Diagram?: three facts only the text tells and three only the diagram tells (a name or an order, or, marked `picture`, something the drawing shows). A `g2s` text also holds `clauses`: its four steps as short clauses for the sentences of the page Before and After.",
  "g1": [
   {
    "id": "frogs",
@@ -3246,7 +3246,7 @@
     {
      "theme": "insects and bugs",
      "noun": "bee",
-     "caption": "A crab spider can catch a bee that comes to its flower."
+     "caption": "Some crab spiders catch bees like this one."
     }
    ],
    "parts": [
@@ -3377,12 +3377,12 @@
     {
      "theme": "animals",
      "noun": "elephant",
-     "caption": "An elephant picks things up with its trunk."
+     "caption": "This elephant has big ears and a long trunk."
     },
     {
      "theme": "camping",
      "noun": "log",
-     "caption": "An elephant's trunk can lift a log."
+     "caption": "An elephant's trunk can lift a heavy log like this one."
     }
    ],
    "parts": [
@@ -3502,6 +3502,1142 @@
      "answer": "1"
     }
    ]
+  }
+ ],
+ "g2d": [
+  {
+   "id": "butterfly-cycle",
+   "title": "How a Butterfly Grows",
+   "paras": [
+    [
+     "A butterfly does not look the same all its life.",
+     "It changes as it grows.",
+     "The diagram shows its stages in order.",
+     "Follow the arrows to see what comes next."
+    ],
+    [
+     "A butterfly begins its life inside a tiny egg.",
+     "The young animal that comes out of it is very hungry.",
+     "It eats leaves day after day and grows fast.",
+     "Then it hangs from a stem or a leaf.",
+     "It sheds its skin one last time, and a hard case forms around its body.",
+     "Inside the case, its body slowly changes.",
+     "At last the case splits open, and a butterfly climbs out.",
+     "Its wings are wet and soft at first.",
+     "When they are dry, the butterfly flies away.",
+     "Later, a grown female butterfly lays tiny eggs on a leaf."
+    ]
+   ],
+   "diagram": {
+    "title": "The Life Cycle of a Butterfly",
+    "blank": 3,
+    "gap": 2,
+    "stages": [
+     {
+      "label": "egg",
+      "art": {
+       "kind": "life",
+       "animal": "butterfly",
+       "stage": "egg"
+      }
+     },
+     {
+      "label": "caterpillar",
+      "art": {
+       "kind": "life",
+       "animal": "butterfly",
+       "stage": "larva"
+      }
+     },
+     {
+      "label": "chrysalis",
+      "art": {
+       "kind": "life",
+       "animal": "butterfly",
+       "stage": "pupa"
+      }
+     },
+     {
+      "label": "butterfly",
+      "art": {
+       "kind": "life",
+       "animal": "butterfly",
+       "stage": "adult"
+      }
+     }
+    ]
+   },
+   "textNames": [
+    "egg",
+    "butterfly"
+   ],
+   "questions": [
+    {
+     "from": "diagram",
+     "q": "Which stage comes right after the chrysalis?",
+     "answer": "the butterfly",
+     "wrong": [
+      "the egg",
+      "the caterpillar"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "What does the long arrow from the butterfly point to?",
+     "answer": "the egg",
+     "wrong": [
+      "the caterpillar",
+      "the chrysalis"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "How many stages does the diagram show?",
+     "answer": "four",
+     "wrong": [
+      "three",
+      "five"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "Which stage comes just before the chrysalis?",
+     "answer": "the caterpillar",
+     "wrong": [
+      "the egg",
+      "the butterfly"
+     ]
+    },
+    {
+     "from": "both",
+     "q": "Find the sentence in the text that tells about a hard case. What does the diagram call this stage?",
+     "answer": "the chrysalis",
+     "wrong": [
+      "the caterpillar",
+      "the butterfly"
+     ]
+    }
+   ],
+   "adds": {
+    "q": "What does the diagram show that the text does not tell you?",
+    "sample": "The names of the stages, like caterpillar and chrysalis."
+   },
+   "explain": {
+    "q": "Why does the long arrow at the bottom lead back to the first stage?",
+    "sample": "A butterfly lays eggs, so the life cycle starts again."
+   },
+   "facts": {
+    "text": [
+     "The butterfly's wings are wet and soft at first.",
+     "A young butterfly sheds its skin.",
+     "A young butterfly is very hungry."
+    ],
+    "diagram": [
+     "The caterpillar comes after the egg.",
+     "The chrysalis comes before the butterfly.",
+     "The stage after the caterpillar is called the chrysalis."
+    ]
+   },
+   "helps": "It shows what each stage looks like and what it is called."
+  },
+  {
+   "id": "frog-cycle",
+   "title": "From Egg to Frog",
+   "paras": [
+    [
+     "A frog changes a lot as it grows.",
+     "The diagram shows the stages of its life in order.",
+     "Follow the arrows to see what comes next."
+    ],
+    [
+     "Most frogs start their lives in the water.",
+     "At first, the young animal has no legs at all.",
+     "It swims with its tail and breathes under water, the way a fish does.",
+     "After some weeks or months, its back legs grow, and then its front legs.",
+     "It also grows lungs, so it can breathe air.",
+     "Its tail gets shorter and shorter.",
+     "At last it hops out of the pond.",
+     "Many grown frogs live both on land and in the water.",
+     "In spring, many frogs lay their eggs in a pond."
+    ]
+   ],
+   "diagram": {
+    "title": "The Life Cycle of a Frog",
+    "blank": 4,
+    "gap": 3,
+    "stages": [
+     {
+      "label": "eggs",
+      "art": {
+       "kind": "life",
+       "animal": "frog",
+       "stage": "spawn"
+      }
+     },
+     {
+      "label": "tadpole",
+      "art": {
+       "kind": "life",
+       "animal": "frog",
+       "stage": "tadpole"
+      }
+     },
+     {
+      "label": "tadpole with legs",
+      "art": {
+       "kind": "life",
+       "animal": "frog",
+       "stage": "legged"
+      }
+     },
+     {
+      "label": "froglet",
+      "art": {
+       "kind": "life",
+       "animal": "frog",
+       "stage": "froglet"
+      }
+     },
+     {
+      "label": "frog",
+      "art": {
+       "kind": "life",
+       "animal": "frog",
+       "stage": "adult"
+      }
+     }
+    ]
+   },
+   "textNames": [
+    "eggs",
+    "frog"
+   ],
+   "questions": [
+    {
+     "from": "diagram",
+     "q": "Which stage comes right after the tadpole?",
+     "answer": "the tadpole with legs",
+     "wrong": [
+      "the froglet",
+      "the frog"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "Which stage comes just before the frog?",
+     "answer": "the froglet",
+     "wrong": [
+      "the tadpole",
+      "the eggs"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "How many stages does the diagram show?",
+     "answer": "five",
+     "wrong": [
+      "four",
+      "six"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "What does the long arrow from the frog point to?",
+     "answer": "the eggs",
+     "wrong": [
+      "the tadpole",
+      "the froglet"
+     ]
+    },
+    {
+     "from": "both",
+     "q": "Find the sentence in the text that tells about a young animal with no legs. What does the diagram call this stage?",
+     "answer": "the tadpole",
+     "wrong": [
+      "the froglet",
+      "the frog"
+     ]
+    }
+   ],
+   "adds": {
+    "q": "What does the diagram show that the text does not tell you?",
+    "sample": "The names of the stages, like tadpole and froglet."
+   },
+   "explain": {
+    "q": "Why does the long arrow at the bottom lead back to the first stage?",
+    "sample": "Frogs lay eggs, so the life cycle starts again."
+   },
+   "facts": {
+    "text": [
+     "A young frog breathes under water.",
+     "A young frog grows lungs.",
+     "Many frogs lay their eggs in spring."
+    ],
+    "diagram": [
+     "The tadpole comes after the eggs.",
+     "The froglet comes before the frog.",
+     "The tadpole with legs comes before the froglet."
+    ]
+   },
+   "helps": "It shows what each stage looks like and what it is called."
+  },
+  {
+   "id": "ladybug-cycle",
+   "title": "A Ladybug Grows Up",
+   "paras": [
+    [
+     "A young ladybug does not look like a ladybug at all.",
+     "It has to change its shape before it gets its hard, round back.",
+     "The diagram shows its stages in order.",
+     "Follow the arrows to see what comes next."
+    ],
+    [
+     "A ladybug lays her tiny eggs on a leaf.",
+     "The young animal that comes out is long and dark.",
+     "It looks a little like a tiny alligator.",
+     "It eats many small bugs and grows fast.",
+     "Then it sticks itself to a leaf and stops moving.",
+     "It stays there for about a week while its body changes.",
+     "When the change is done, a ladybug crawls out.",
+     "Its wing covers are soft and pale at first.",
+     "Soon they get hard, and their bright color shows."
+    ]
+   ],
+   "diagram": {
+    "title": "The Life Cycle of a Ladybug",
+    "blank": 3,
+    "gap": 2,
+    "stages": [
+     {
+      "label": "eggs",
+      "art": {
+       "kind": "life",
+       "animal": "ladybird",
+       "stage": "egg"
+      }
+     },
+     {
+      "label": "larva",
+      "art": {
+       "kind": "life",
+       "animal": "ladybird",
+       "stage": "larva"
+      }
+     },
+     {
+      "label": "pupa",
+      "art": {
+       "kind": "life",
+       "animal": "ladybird",
+       "stage": "pupa"
+      }
+     },
+     {
+      "label": "ladybug",
+      "art": {
+       "kind": "life",
+       "animal": "ladybird",
+       "stage": "adult"
+      }
+     }
+    ]
+   },
+   "textNames": [
+    "eggs",
+    "ladybug"
+   ],
+   "questions": [
+    {
+     "from": "diagram",
+     "q": "Which stage comes right after the larva?",
+     "answer": "the pupa",
+     "wrong": [
+      "the eggs",
+      "the ladybug"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "Which stage comes right after the pupa?",
+     "answer": "the ladybug",
+     "wrong": [
+      "the eggs",
+      "the larva"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "How many stages does the diagram show?",
+     "answer": "four",
+     "wrong": [
+      "three",
+      "five"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "What does the long arrow from the ladybug point to?",
+     "answer": "the eggs",
+     "wrong": [
+      "the larva",
+      "the pupa"
+     ]
+    },
+    {
+     "from": "both",
+     "q": "Find the sentence in the text that tells what the young animal looks like. What does the diagram call this stage?",
+     "answer": "the larva",
+     "wrong": [
+      "the pupa",
+      "the ladybug"
+     ]
+    }
+   ],
+   "adds": {
+    "q": "What does the diagram show that the text does not tell you?",
+    "sample": "The names of the stages, like larva and pupa."
+   },
+   "explain": {
+    "q": "Why does the long arrow at the bottom lead back to the first stage?",
+    "sample": "A ladybug lays eggs, so the life cycle starts again."
+   },
+   "facts": {
+    "text": [
+     "A young ladybug eats many small bugs.",
+     "The change takes about a week.",
+     "A ladybug's wing covers are soft and pale at first."
+    ],
+    "diagram": [
+     "The larva comes after the eggs.",
+     "The pupa comes before the ladybug.",
+     "The stage after the larva is called the pupa."
+    ]
+   },
+   "helps": "It shows what each stage looks like and what it is called."
+  },
+  {
+   "id": "bean-cycle",
+   "title": "How a Bean Plant Grows",
+   "paras": [
+    [
+     "Every bean plant starts as a seed.",
+     "The diagram shows the stages in the life of a bean plant.",
+     "Follow the arrows to see what comes next."
+    ],
+    [
+     "A bean seed needs water and warmth to start growing.",
+     "It is planted in soil.",
+     "A root pushes down into the soil.",
+     "A shoot pushes up toward the light, and the first leaves open.",
+     "The plant uses sunlight, air, and water to make its own food.",
+     "It grows taller and gets more leaves.",
+     "After some weeks, flowers bloom.",
+     "Where each flower was, a long green pod grows.",
+     "Inside the pod are new beans.",
+     "Each bean is a seed that can grow into a new plant."
+    ]
+   ],
+   "diagram": {
+    "title": "The Life Cycle of a Bean Plant",
+    "blank": 0,
+    "gap": 0,
+    "stages": [
+     {
+      "label": "seed",
+      "art": {
+       "kind": "plant",
+       "stage": "seed"
+      }
+     },
+     {
+      "label": "sprout",
+      "art": {
+       "kind": "plant",
+       "stage": "sprout"
+      }
+     },
+     {
+      "label": "seedling",
+      "art": {
+       "kind": "plant",
+       "stage": "seedling"
+      }
+     },
+     {
+      "label": "plant with a flower",
+      "art": {
+       "kind": "plant",
+       "stage": "flowering"
+      }
+     },
+     {
+      "label": "plant with a pod",
+      "art": {
+       "kind": "plant",
+       "stage": "fruiting"
+      }
+     }
+    ]
+   },
+   "textNames": [
+    "seed"
+   ],
+   "questions": [
+    {
+     "from": "diagram",
+     "q": "Which stage comes right after the seed?",
+     "answer": "the sprout",
+     "wrong": [
+      "the seedling",
+      "the plant with a flower"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "Which stage comes just before the plant with a flower?",
+     "answer": "the seedling",
+     "wrong": [
+      "the sprout",
+      "the seed"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "How many stages does the diagram show?",
+     "answer": "five",
+     "wrong": [
+      "four",
+      "six"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "What does the long arrow from the plant with a pod point to?",
+     "answer": "the seed",
+     "wrong": [
+      "the sprout",
+      "the seedling"
+     ]
+    },
+    {
+     "from": "both",
+     "q": "Find the sentence in the text that tells where new beans grow. Which stage of the diagram shows this?",
+     "answer": "the plant with a pod",
+     "wrong": [
+      "the plant with a flower",
+      "the seedling"
+     ]
+    }
+   ],
+   "adds": {
+    "q": "What does the diagram show that the text does not tell you?",
+    "sample": "The names of the stages, like sprout and seedling."
+   },
+   "explain": {
+    "q": "Why does the long arrow at the bottom lead back to the first stage?",
+    "sample": "The new beans are seeds, so a new plant can grow."
+   },
+   "facts": {
+    "text": [
+     "A bean seed needs water to start growing.",
+     "The plant makes its own food.",
+     "Flowers bloom after some weeks."
+    ],
+    "diagram": [
+     "The sprout comes after the seed.",
+     "The seedling comes after the sprout.",
+     {
+      "s": "The seedling has two leaves.",
+      "picture": true
+     }
+    ]
+   },
+   "helps": "It shows what each stage looks like and what it is called."
+  },
+  {
+   "id": "moon-phases",
+   "title": "The Changing Moon",
+   "paras": [
+    [
+     "The moon seems to change its shape from night to night.",
+     "These shapes are called phases.",
+     "The diagram shows some of the phases in order.",
+     "Follow the arrows to see what comes next."
+    ],
+    [
+     "The moon does not make its own light.",
+     "It shines because the sun lights it up.",
+     "One half of the moon is always lit by the sun.",
+     "As the moon travels around Earth, we see more or less of that bright half.",
+     "Sometimes we see all of it.",
+     "The moon looks like a bright circle, and we call it the full moon.",
+     "Sometimes the bright half faces away from us, and we can hardly see the moon at all.",
+     "The phases repeat about once a month."
+    ]
+   ],
+   "diagram": {
+    "title": "Phases of the Moon",
+    "blank": 2,
+    "gap": 1,
+    "stages": [
+     {
+      "label": "new moon",
+      "art": {
+       "kind": "moon",
+       "phase": 0
+      }
+     },
+     {
+      "label": "first quarter",
+      "art": {
+       "kind": "moon",
+       "phase": 2
+      }
+     },
+     {
+      "label": "full moon",
+      "art": {
+       "kind": "moon",
+       "phase": 4
+      }
+     },
+     {
+      "label": "last quarter",
+      "art": {
+       "kind": "moon",
+       "phase": 6
+      }
+     }
+    ]
+   },
+   "textNames": [
+    "full moon"
+   ],
+   "questions": [
+    {
+     "from": "diagram",
+     "q": "Which phase comes right after the new moon?",
+     "answer": "the first quarter",
+     "wrong": [
+      "the full moon",
+      "the last quarter"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "What does the arrow from the full moon point to?",
+     "answer": "the last quarter",
+     "wrong": [
+      "the new moon",
+      "the first quarter"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "How many phases does the diagram show?",
+     "answer": "four",
+     "wrong": [
+      "three",
+      "five"
+     ]
+    },
+    {
+     "from": "diagram",
+     "q": "Which phase comes right after the first quarter?",
+     "answer": "the full moon",
+     "wrong": [
+      "the new moon",
+      "the last quarter"
+     ]
+    },
+    {
+     "from": "both",
+     "q": "Find the sentence in the text that tells when we can hardly see the moon. What does the diagram call this phase?",
+     "answer": "the new moon",
+     "wrong": [
+      "the first quarter",
+      "the last quarter"
+     ]
+    }
+   ],
+   "adds": {
+    "q": "What does the diagram show that the text does not tell you?",
+    "sample": "The names of the phases, like new moon and first quarter."
+   },
+   "explain": {
+    "q": "Why does the long arrow at the bottom lead back to the first phase?",
+    "sample": "The phases repeat about once a month, so the first phase comes again."
+   },
+   "facts": {
+    "text": [
+     "The moon does not make its own light.",
+     "The phases repeat about once a month.",
+     "The moon travels around Earth."
+    ],
+    "diagram": [
+     "The first quarter comes after the new moon.",
+     "The last quarter comes after the full moon.",
+     {
+      "s": "At the first quarter, the right half of the moon looks bright.",
+      "picture": true
+     }
+    ]
+   },
+   "helps": "It shows what each phase looks like and what it is called."
+  }
+ ],
+ "g2s": [
+  {
+   "id": "honey",
+   "title": "From Flower to Honey Jar",
+   "paras": [
+    [
+     "Honey is made by honeybees.",
+     "It takes many bees and many days to fill one jar."
+    ],
+    [
+     "First, bees fly from flower to flower.",
+     "They suck up a sweet juice called nectar and carry it back to the hive."
+    ],
+    [
+     "Next, the bees pass the nectar from mouth to mouth, and it starts to change.",
+     "They put it into the small wax cells of the honeycomb and fan it with their wings.",
+     "The moving air dries the nectar until it is thick and sticky.",
+     "Now it is honey, and the bees close each full cell with a lid of wax."
+    ],
+    [
+     "Then, a beekeeper lifts the honeycomb out of the hive.",
+     "The beekeeper cuts off the wax lids and spins the honeycomb in a machine, so the honey flows out.",
+     "Enough honey stays in the hive for the bees to eat in winter."
+    ],
+    [
+     "Finally, the honey is poured into jars.",
+     "It is ready to eat."
+    ]
+   ],
+   "pictures": [
+    {
+     "theme": "insects and bugs",
+     "noun": "bee"
+    },
+    {
+     "theme": "spring",
+     "noun": "flower"
+    },
+    {
+     "theme": "breakfast",
+     "noun": "honey"
+    }
+   ],
+   "steps": [
+    "Bees carry nectar from the flowers to the hive.",
+    "The bees dry the nectar in the honeycomb until it is honey.",
+    "A beekeeper spins the honey out of the honeycomb.",
+    "The honey is poured into jars."
+   ],
+   "mc": [
+    {
+     "kind": "signal",
+     "step": 3,
+     "q": "Which word starts the step about the beekeeper?",
+     "answer": "Then",
+     "wrong": [
+      "Next",
+      "Finally"
+     ]
+    },
+    {
+     "kind": "detail",
+     "q": "What does the beekeeper spin in a machine?",
+     "answer": "the honeycomb",
+     "wrong": [
+      "the jars",
+      "the flowers"
+     ]
+    },
+    {
+     "kind": "before",
+     "q": "Why must the bees dry the nectar before the beekeeper takes the honeycomb?",
+     "answer": "It is not honey until it is dry and thick.",
+     "wrong": [
+      "The beekeeper must wait for winter.",
+      "The flowers need it back."
+     ]
+    }
+   ],
+   "why": {
+    "q": "Why must the bees dry the nectar before the beekeeper takes the honeycomb?",
+    "sample": "The nectar is not honey until it is dry, thick, and sticky."
+   },
+   "clauses": [
+    "bees carry nectar to the hive",
+    "the bees turn the nectar into honey",
+    "a beekeeper takes the honey out of the honeycomb",
+    "the honey is poured into jars"
+   ],
+   "ownSample": "Bees carry nectar to the hive before they dry it in the honeycomb."
+  },
+  {
+   "id": "bread",
+   "title": "How Bread Is Made",
+   "paras": [
+    [
+     "This bread is made from flour, water, salt, and yeast.",
+     "Yeast is a tiny living thing that makes bread soft and light.",
+     "A baker makes it in four main steps."
+    ],
+    [
+     "First, the baker mixes everything in a big bowl and kneads it.",
+     "Kneading means pressing and folding the dough again and again until it is smooth."
+    ],
+    [
+     "Next, the dough rests in a warm place.",
+     "The yeast makes tiny bubbles of gas, so the dough slowly rises.",
+     "After an hour or more, it is about twice as big."
+    ],
+    [
+     "Then, the baker shapes the dough into a loaf, lets it rise a little more, and puts it into a hot oven.",
+     "The heat bakes the dough and turns the crust brown."
+    ],
+    [
+     "Finally, the baker takes the bread out of the oven and lets it cool.",
+     "Now it can be sliced and eaten."
+    ]
+   ],
+   "pictures": [
+    {
+     "theme": "occupations",
+     "noun": "baker"
+    },
+    {
+     "theme": "around the house",
+     "noun": "oven"
+    },
+    {
+     "theme": "At the Supermarket",
+     "noun": "bread"
+    }
+   ],
+   "steps": [
+    "The baker mixes and kneads the dough.",
+    "The dough rests and rises.",
+    "The baker shapes a loaf and bakes it in the oven.",
+    "The bread cools."
+   ],
+   "mc": [
+    {
+     "kind": "signal",
+     "step": 2,
+     "q": "Which word starts the step where the dough rests in a warm place?",
+     "answer": "Next",
+     "wrong": [
+      "First",
+      "Then"
+     ]
+    },
+    {
+     "kind": "detail",
+     "q": "Why does the baker knead the dough?",
+     "answer": "to make it smooth",
+     "wrong": [
+      "to make it cool",
+      "to dry it out"
+     ]
+    },
+    {
+     "kind": "before",
+     "q": "Why must the dough rest before it is baked?",
+     "answer": "The yeast needs time to make bubbles.",
+     "wrong": [
+      "The oven needs to cool down.",
+      "The salt needs time to melt."
+     ]
+    }
+   ],
+   "why": {
+    "q": "Why must the dough rest before it is baked?",
+    "sample": "The yeast needs time to make gas bubbles so the dough rises. That makes the bread soft and light."
+   },
+   "clauses": [
+    "the baker mixes and kneads the dough",
+    "the dough rests and rises",
+    "the baker shapes and bakes a loaf",
+    "the bread comes out of the oven and cools"
+   ],
+   "ownSample": "The dough rises before the baker shapes a loaf."
+  },
+  {
+   "id": "paper",
+   "title": "From Tree to Paper",
+   "paras": [
+    [
+     "Most paper is made from wood.",
+     "A paper mill turns logs into paper in four big steps."
+    ],
+    [
+     "First, trees are cut down, and trucks bring the logs to the mill.",
+     "Many of the trees are pines.",
+     "A machine takes off the bark and cuts the logs into small chips."
+    ],
+    [
+     "Next, the chips are cooked in a big tank.",
+     "They fall apart into a soft, wet mush called pulp."
+    ],
+    [
+     "Then, the pulp is sprayed onto a wide moving screen.",
+     "Water drips out through the screen, and the tiny bits of wood stick together in a thin sheet."
+    ],
+    [
+     "Finally, heavy rollers press the sheet, and hot rollers dry it.",
+     "The dry paper is wound into giant rolls.",
+     "Later it is cut into sheets for books and notebooks."
+    ],
+    [
+     "Used paper can be turned into pulp again.",
+     "That is why it is good to recycle paper."
+    ]
+   ],
+   "pictures": [
+    {
+     "theme": "camping",
+     "noun": "pine_tree"
+    },
+    {
+     "theme": "camping",
+     "noun": "log"
+    },
+    {
+     "theme": "classroom",
+     "noun": "paper"
+    }
+   ],
+   "steps": [
+    "Logs are cut into small chips.",
+    "The chips are cooked into pulp.",
+    "The pulp is spread into a thin sheet on a moving screen.",
+    "Rollers press and dry the sheet."
+   ],
+   "mc": [
+    {
+     "kind": "signal",
+     "step": 3,
+     "q": "Which word starts the step about the moving screen?",
+     "answer": "Then",
+     "wrong": [
+      "Next",
+      "Finally"
+     ]
+    },
+    {
+     "kind": "detail",
+     "q": "What are the rollers for?",
+     "answer": "to press and dry the sheet",
+     "wrong": [
+      "to cut the logs",
+      "to cook the chips"
+     ]
+    },
+    {
+     "kind": "before",
+     "q": "Why must the chips be cooked before the sheet of paper can be made?",
+     "answer": "The sheet is made from pulp.",
+     "wrong": [
+      "The chips are too cold.",
+      "The rollers are too hot."
+     ]
+    }
+   ],
+   "why": {
+    "q": "Why must the chips be cooked before the sheet of paper can be made?",
+    "sample": "Cooking turns the chips into pulp, and the sheet is made from pulp."
+   },
+   "clauses": [
+    "the logs are cut into chips",
+    "the chips are cooked into pulp",
+    "the pulp is spread into a thin sheet",
+    "rollers press and dry the sheet"
+   ],
+   "ownSample": "The chips are cooked after the logs are cut up."
+  },
+  {
+   "id": "wool",
+   "title": "From Sheep to Sweater",
+   "paras": [
+    [
+     "A wool sweater begins on a sheep.",
+     "It takes four steps to turn the wool into a sweater."
+    ],
+    [
+     "First, a farmer cuts off the sheep's thick wool in spring.",
+     "This is called shearing.",
+     "It does not hurt the sheep.",
+     "The wool grows back, the way your hair does after a haircut."
+    ],
+    [
+     "Next, the wool is washed, because it is full of dirt and grease.",
+     "The clean wool is combed until it is soft and smooth."
+    ],
+    [
+     "Then, the wool is spun.",
+     "That means pulling and twisting it into a long, strong thread called yarn.",
+     "The yarn can be dyed red, blue, or any other color."
+    ],
+    [
+     "Finally, the yarn is knitted into a sweater.",
+     "Wool holds in heat, so the sweater keeps you warm on cold days."
+    ]
+   ],
+   "pictures": [
+    {
+     "theme": "farm animals",
+     "noun": "sheep"
+    },
+    {
+     "theme": "activities",
+     "noun": "knitting"
+    },
+    {
+     "theme": "clothing",
+     "noun": "sweater"
+    }
+   ],
+   "steps": [
+    "A farmer cuts the wool off the sheep.",
+    "The wool is washed and combed.",
+    "The wool is spun into yarn.",
+    "The yarn is knitted into a sweater."
+   ],
+   "mc": [
+    {
+     "kind": "signal",
+     "step": 2,
+     "q": "Which word starts the step about washing the wool?",
+     "answer": "Next",
+     "wrong": [
+      "First",
+      "Then"
+     ]
+    },
+    {
+     "kind": "detail",
+     "q": "Why is the wool washed?",
+     "answer": "It is full of dirt and grease.",
+     "wrong": [
+      "It is too warm.",
+      "It has the wrong color."
+     ]
+    },
+    {
+     "kind": "before",
+     "q": "Why must the wool be spun before it is knitted?",
+     "answer": "A sweater is knitted from yarn.",
+     "wrong": [
+      "Spinning makes the wool clean.",
+      "Spinning makes the wool warm."
+     ]
+    }
+   ],
+   "why": {
+    "q": "Why must the wool be spun before it is knitted?",
+    "sample": "Spinning turns the wool into yarn, and a sweater is knitted from yarn."
+   },
+   "clauses": [
+    "the farmer cuts off the wool",
+    "the wool is washed and combed",
+    "the wool is spun into yarn",
+    "the yarn is knitted into a sweater"
+   ],
+   "ownSample": "The wool is washed before it is spun into yarn."
+  },
+  {
+   "id": "orange-juice",
+   "title": "From Orange Tree to Juice Glass",
+   "paras": [
+    [
+     "Orange juice starts in a grove of orange trees.",
+     "It takes four steps to get the juice from the tree to your glass."
+    ],
+    [
+     "First, workers pick the oranges when they are ripe.",
+     "Trucks carry the fruit to a juice plant.",
+     "There a machine scrubs every orange clean, so no dirt from the peels gets into the juice."
+    ],
+    [
+     "Next, machines squeeze the juice out of the oranges.",
+     "The peels and the seeds are taken away.",
+     "One glass of juice takes about three oranges."
+    ],
+    [
+     "Then, the juice is heated for a short time.",
+     "The heat kills germs that could make people sick.",
+     "Right after that, the juice is cooled again."
+    ],
+    [
+     "Finally, the juice is poured into cartons and bottles.",
+     "Cold trucks take them to stores, and the juice stays cold until someone buys it."
+    ]
+   ],
+   "pictures": [
+    {
+     "theme": "tree",
+     "noun": "orange"
+    },
+    {
+     "theme": "fruits",
+     "noun": "orange"
+    },
+    {
+     "theme": "breakfast",
+     "noun": "juice"
+    }
+   ],
+   "steps": [
+    "Ripe oranges are picked and washed.",
+    "Machines squeeze the juice out of the oranges.",
+    "The juice is heated to kill germs and cooled again.",
+    "The juice is poured into cartons and bottles."
+   ],
+   "mc": [
+    {
+     "kind": "signal",
+     "step": 3,
+     "q": "Which word starts the step about heating the juice?",
+     "answer": "Then",
+     "wrong": [
+      "Next",
+      "Finally"
+     ]
+    },
+    {
+     "kind": "detail",
+     "q": "Why is the juice heated?",
+     "answer": "to kill germs",
+     "wrong": [
+      "to make it sweeter",
+      "to change its color"
+     ]
+    },
+    {
+     "kind": "before",
+     "q": "Why must the oranges be washed before they are squeezed?",
+     "answer": "So no dirt gets into the juice.",
+     "wrong": [
+      "So the oranges get sweeter.",
+      "So the peels come off."
+     ]
+    }
+   ],
+   "why": {
+    "q": "Why must the oranges be washed before they are squeezed?",
+    "sample": "So no dirt from the peels gets into the juice."
+   },
+   "clauses": [
+    "the oranges are picked and washed",
+    "machines squeeze out the juice",
+    "the juice is heated and cooled again",
+    "the juice is poured into cartons"
+   ],
+   "ownSample": "The oranges are washed before machines squeeze them."
   }
  ]
 }

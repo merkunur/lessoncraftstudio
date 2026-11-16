@@ -6957,5 +6957,39 @@
     "3": {
       "en": "Read the text. Use the text features to write each answer. Then add a word to the index and a word to the glossary."
     }
+  },
+  "G2-521": {
+    "1": {
+      "en": "Read the text and study the diagram. Circle each answer. Questions 1 to 4 ask about the diagram. Question 5 asks about the text and the diagram."
+    },
+    "3": {
+      "en": "Read the text and study the diagram. One label and one arrow are missing. Add them. Then write each answer."
+    }
+  },
+  "G2-522": {
+    "1": {
+      "en": "Read the text. Put the four steps in order. Then circle each answer."
+    },
+    "3": {
+      "en": "Read the text. Write the four steps in order. Use the words first, next, then, and finally. Then answer the question."
+    }
+  },
+  "G2-523": {
+    "3": {
+      "en": "Each dot with a letter is on one part of the text. Write the letter of the dot next to the name of the part. Then write the name of the part that does each job."
+    }
+  },
+  "G2-524": {
+    "3": {
+      "en": "Read the text and study the diagram. Make a check mark under \"in the text\" or under \"in the diagram.\" Then write your answers."
+    }
+  },
+  "G2-525": {
+    "1": {
+      "en": "Read the text. Then read each sentence about two steps. Circle before or after."
+    },
+    "3": {
+      "en": "Read the text. Finish each sentence. Then write a sentence of your own."
+    }
   }
 }

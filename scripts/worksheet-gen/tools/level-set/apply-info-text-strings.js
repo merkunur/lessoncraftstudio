@@ -50,6 +50,36 @@ const TEXT = {
     2: "Read the text. Use the headings, the bold words, the captions, the glossary, and the index to write each answer.",
     3: "Read the text. Use the text features to write each answer. Then add a word to the index and a word to the glossary.",
   },
+  'G2-521': {
+    title: "What the Diagram Shows",
+    1: "Read the text and study the diagram. Circle each answer. Questions 1 to 4 ask about the diagram. Question 5 asks about the text and the diagram.",
+    2: "Read the text and study the diagram. Write each answer. Questions 1 to 3 ask about the diagram. Questions 4 and 5 ask about the text and the diagram.",
+    3: "Read the text and study the diagram. One label and one arrow are missing. Add them. Then write each answer.",
+  },
+  'G2-522': {
+    title: "Steps in Order",
+    1: "Read the text. Put the four steps in order. Then circle each answer.",
+    2: "Read the text. Write the four steps in order. The first word of each step is given.",
+    3: "Read the text. Write the four steps in order. Use the words first, next, then, and finally. Then answer the question.",
+  },
+  'G2-523': {
+    title: "Name the Text Features",
+    1: "Each dot with a letter is on one part of the text. Write the letter of the dot next to the name of the part. Then write the letter of the part that does each job.",
+    2: "Each dot with a letter is on one part of the text. Write the letter of the dot next to the name of the part. Then write the letter of the part that does each job.",
+    3: "Each dot with a letter is on one part of the text. Write the letter of the dot next to the name of the part. Then write the name of the part that does each job.",
+  },
+  'G2-524': {
+    title: "Text or Diagram?",
+    1: "Read the text and study the diagram. Where do you learn each fact? Make a check mark under \"in the text\" or under \"in the diagram.\"",
+    2: "Read the text and study the diagram. Where do you learn each fact? Make a check mark under \"in the text\" or under \"in the diagram.\"",
+    3: "Read the text and study the diagram. Make a check mark under \"in the text\" or under \"in the diagram.\" Then write your answers.",
+  },
+  'G2-525': {
+    title: "Before and After",
+    1: "Read the text. Then read each sentence about two steps. Circle before or after.",
+    2: "Read the text. Answer questions 1 and 2 with a whole sentence. Then write before or after.",
+    3: "Read the text. Finish each sentence. Then write a sentence of your own.",
+  },
 };
 
 function edit(file, fn) {

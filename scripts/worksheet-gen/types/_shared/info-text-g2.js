@@ -16,6 +16,12 @@
  *               level 1  six find-it questions, three answers under each, circle one
  *               level 2  six find-it questions, write each answer
  *               level 3  four questions to write, one more entry for the index and one for the glossary
+ *   label     Name the Text Features (RI.2.5, the step before "use": know the features). The text is printed with
+ *             everything and six dots with the letters A to F (the parts of the text carry the numbers 1 to 3 already):
+ *             at the title, a heading, a bold word, a caption, the glossary, the index.
+ *               level 1  write each dot's letter next to the name of the part; three jobs: which part does it?
+ *               level 2  the six names and five jobs
+ *               level 3  the six names; for four jobs the child WRITES the name of the part that does it
  *
  * English only. Themeless: a copy is another text (meta.items names the text). PDF only.
  */
@@ -92,31 +98,34 @@ const TEXTS = BANK.g2 || [];
 const LEVELS = {
   focus: { 1: { font: 19.5 }, 2: { font: 17.5, rowH: 48 }, 3: { font: 15, rowH: 38 } },
   features: { 1: { font: 14.5, n: 6, lh: 1.33, tight: true }, 2: { font: 15, n: 6, rowH: 33 }, 3: { font: 15, n: 4, rowH: 33 } },
+  label: { 1: { font: 14.5, lh: 1.33, jobs: 3, cols: 3, box: 36, nameFont: 19, jobGap: 8 }, 2: { font: 14.5, lh: 1.33, jobs: 5, cols: 3, box: 31, nameFont: 17.5, jobGap: 2, jobFont: 15.5 }, 3: { font: 14.5, lh: 1.33, jobs: 4, cols: 3, box: 34, nameFont: 18, write: true, rowH: 33, jobGap: 3 } },
 };
 
 const tab = (n) => `<span data-lcs-pagetab="${n}" style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;margin-top:2px;border-radius:50%;background:${T.teal};color:#FFFFFF;font:800 14px/1 'Nunito',sans-serif">${n}</span>`;
 
 /** the text in its box. `full` = with headings, bold words, both pictures with captions, the glossary and the index */
-function textBox(t, { font, full, lh = 1.4 }) {
+function textBox(t, { font, full, lh = 1.4, badges = null }) {
+  // a dot with a letter at a part of the text (the naming page); `badges`: Map part -> letter
+  const bd = (f) => (badges && badges.get(f) ? `<span data-lcs-badge="${f}|${badges.get(f)}" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:${T.coral};color:#FFFFFF;font:800 14px/1 'Nunito',sans-serif;font-style:normal;vertical-align:middle;margin:0 5px;-webkit-text-stroke:0">${badges.get(f)}</span>` : '');
   const parts = t.parts.map((p, i) => {
     let body = esc(partText(p));
-    if (full) { const b = t.bold[i]; body = body.replace(new RegExp('(^|[^A-Za-z])(' + b + ')(?=[^A-Za-z]|$)'), (m0, a, w) => `${a}<b data-lcs-bold="${esc(b)}" style="font-weight:800;-webkit-text-stroke:0.7px ${T.ink}">${w}</b>`); }
+    if (full) { const b = t.bold[i]; body = body.replace(new RegExp('(^|[^A-Za-z])(' + b + ')(?=[^A-Za-z]|$)'), (m0, a, w) => `${a}${i === 1 ? bd('bold') : ''}<b data-lcs-bold="${esc(b)}" style="font-weight:800;-webkit-text-stroke:0.7px ${T.ink}">${w}</b>`); }
     return `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px;margin-top:${i ? 5 : 0}px">${tab(i + 1)}<div style="flex:1 1 auto;min-width:0">` +
-      (full ? `<div data-lcs-heading style="font:700 ${font + 2}px/1.2 'Baloo 2',cursive;color:${T.teal}">${esc(p.heading)}</div>` : '') +
+      (full ? `<div data-lcs-heading style="font:700 ${font + 2}px/1.2 'Baloo 2',cursive;color:${T.teal}">${esc(p.heading)}${i === 2 ? bd('heading') : ''}</div>` : '') +
       `<div data-lcs-partbody style="font:700 ${font}px/${lh} 'Nunito',sans-serif;color:${T.ink}">${body}</div></div></div>`;
   }).join('');
   const fig = (p, n, cap) => `<figure data-lcs-fig="${n}" style="margin:0;display:flex;flex-direction:column;align-items:center;gap:2px">` +
     `<img class="ws-icon" data-lcs-pic="${esc(pk(p))}" src="${fileUri(p.theme, p.noun)}" alt="" style="width:${cap ? 104 : 124}px;height:${cap ? 104 : 124}px;display:block;object-fit:contain">` +
-    (cap ? `<figcaption data-lcs-caption style="font:700 12.5px/1.25 'Nunito',sans-serif;font-style:italic;color:${T.ink};text-align:center">${esc(p.caption)}</figcaption>` : '') + `</figure>`;
+    (cap ? `<figcaption data-lcs-caption style="font:700 12.5px/1.25 'Nunito',sans-serif;font-style:italic;color:${T.ink};text-align:center">${n === 1 ? bd('caption') : ''}${esc(p.caption)}</figcaption>` : '') + `</figure>`;
   const side = `<div style="flex:0 0 ${full ? 138 : 128}px;display:flex;flex-direction:column;justify-content:space-around;gap:6px">${fig(t.pictures[0], 1, full)}${full ? fig(t.pictures[1], 2, true) : ''}</div>`;
   const extras = full ? `<div style="margin-top:6px;padding-top:5px;border-top:2px dashed ${T.teal};display:flex;gap:14px;align-items:flex-start">` +
-    `<div data-lcs-glossary style="flex:1 1 auto;min-width:0"><div style="font:700 15px/1.2 'Baloo 2',cursive;color:${T.teal}">Glossary</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:2px 14px">` +
+    `<div data-lcs-glossary style="flex:1 1 auto;min-width:0"><div style="font:700 15px/1.2 'Baloo 2',cursive;color:${T.teal}">Glossary${bd('glossary')}</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:2px 14px">` +
     t.glossary.map((g) => `<div data-lcs-gloss="${esc(g.word)}" style="font:700 12.5px/1.25 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;-webkit-text-stroke:0.5px ${T.ink}">${esc(g.word)}</span> ${esc(g.meaning)}</div>`).join('') + `</div></div>` +
-    `<div data-lcs-index style="flex:0 0 150px"><div style="font:700 15px/1.2 'Baloo 2',cursive;color:${T.teal}">Index</div>` +
+    `<div data-lcs-index style="flex:0 0 150px"><div style="font:700 15px/1.2 'Baloo 2',cursive;color:${T.teal}">Index${bd('index')}</div>` +
     t.index.map((e) => `<div data-lcs-indexword="${esc(e.word)}|${e.page}" style="display:flex;align-items:baseline;gap:4px;font:700 12.5px/1.3 'Nunito',sans-serif;color:${T.ink}"><span>${esc(e.word)}</span><span style="flex:1 1 auto;border-bottom:1.5px dotted ${T.ink};transform:translateY(-3px)"></span><span>${e.page}</span></div>`).join('') + `</div></div>` : '';
   return `<div data-lcs-info2text="${t.id}" data-lcs-words="${wordsIn(t.parts.map(partText).join(' '))}" style="flex:0 0 auto;padding:8px 14px 9px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
     // the paragraph page prints no title: the title IS the main topic the page asks for
-    (full ? `<div data-lcs-title style="font:700 23px/1.1 'Baloo 2',cursive;color:${T.ink};margin-bottom:3px">${esc(t.title)}</div>` : '') +
+    (full ? `<div data-lcs-title style="font:700 23px/1.1 'Baloo 2',cursive;color:${T.ink};margin-bottom:3px">${esc(t.title)}${bd('title')}</div>` : '') +
     `<div style="display:flex;gap:12px;align-items:stretch"><div style="flex:1 1 auto;min-width:0">${parts}</div>${side}</div>${extras}</div>`;
 }
 const cream = (attrs, inner, pad = 6, more = '') => `<div ${attrs} style="display:flex;flex-direction:column;gap:3px;padding:${pad}px 12px;border-radius:14px;background:${T.cream};min-width:0;${more}">${inner}</div>`;
@@ -189,9 +198,41 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
         items = fs.map((x) => t.id + ': ' + x.q);
       }
 
+      let badges = null;
+      if (mode === 'label') {
+        const NAME = { title: 'title', heading: 'heading', bold: 'bold word', caption: 'caption', glossary: 'glossary', index: 'index' };
+        const JOB = { title: 'It names the whole text.', heading: 'It tells what one part of the text is about.', bold: 'It marks an important word.', caption: 'It tells about a picture.', glossary: 'It tells what a word means.', index: 'It tells where in the text you can read about something.' };
+        const parts = Object.keys(NAME);
+        // the numbers stand at the parts in no order, and the names below follow neither the page nor the numbers
+        const rising = (a) => a.every((x, i) => !i || x > a[i - 1]), falling = (a) => a.every((x, i) => !i || x < a[i - 1]);
+        let nums, order;
+        for (let n = 0; n < 200; n++) {
+          nums = shuffle(parts.map((_, i) => i + 1), rng); order = shuffle(parts, rng);
+          const want = order.map((f) => nums[parts.indexOf(f)]);
+          if (!rising(nums) && !falling(nums) && !rising(want) && !falling(want) && order.join() !== parts.join()) break;
+        }
+        // letters, not numbers: the parts of the text are numbered 1 to 3 already (the pages of the index)
+        badges = new Map(parts.map((f, i) => [f, 'ABCDEF'[nums[i] - 1]]));
+        const box = (f, extra = '') => `<span data-lcs-box="${f}" data-lcs-want="${badges.get(f)}"${extra} style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:${d.box}px;height:${d.box}px;border:2.5px solid ${T.ink};border-radius:9px;background:#FFFFFF;font:800 ${Math.round(d.box * 0.56)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? badges.get(f) : ''}</span>`;
+        const names = `<div data-lcs-names style="display:flex;flex-direction:column;gap:4px;padding:7px 14px 8px;border-radius:14px;background:${T.cream}">` + label('Write the letter of each dot next to the name of the part.', 15.5) +
+          `<div style="display:grid;grid-template-columns:repeat(${d.cols},1fr);gap:6px 16px">` + order.map((f) => `<div data-lcs-name="${f}" style="display:flex;align-items:center;gap:10px">${box(f)}<span style="font:700 ${d.nameFont}px/1.2 'Nunito',sans-serif;color:${T.ink}">${NAME[f]}</span></div>`).join('') + `</div></div>`;
+        // the jobs: never the title (its job is plain), and in an order of their own
+        const pool = d.jobs === 3 ? ['heading', 'caption', 'glossary'] : d.jobs === 5 ? ['heading', 'bold', 'caption', 'glossary', 'index'] : ['heading', 'caption', 'glossary', 'index'];
+        let jobs;
+        for (let n = 0; n < 200; n++) { jobs = shuffle(pool, rng); const w = jobs.map((f) => badges.get(f).charCodeAt(0)); if (!rising(w) && !falling(w) && jobs.join() !== order.filter((f) => pool.includes(f)).join()) break; }
+        const rowW = inner - 8;
+        const jobCard = `<div data-lcs-jobs style="display:flex;flex-direction:column;gap:${d.jobGap}px;padding:7px 14px 8px;border:2.5px solid ${T.teal};border-radius:14px;background:#FFFFFF">` +
+          label(d.write ? 'Which part does this job? Write its name.' : 'Which part does this job? Write its letter.', 15.5, T.teal) +
+          jobs.map((f) => (d.write
+            ? `<div data-lcs-job="${f}" style="display:flex;align-items:flex-end;gap:10px"><span style="flex:0 0 auto;font:700 15.5px/1.25 'Nunito',sans-serif;color:${T.ink};padding-bottom:4px">${JOB[f]}</span><div style="flex:1 1 auto;min-width:0">${line({ w: Math.max(150, Math.round(rowW - 12 - JOB[f].length * 8.1)), h: d.rowH, answer: key ? NAME[f] : null })}</div></div>`
+            : `<div data-lcs-job="${f}" style="display:flex;align-items:center;gap:10px">${box(f, ' data-lcs-jobbox="1"')}<span style="font:700 ${d.jobFont || 16.5}px/1.25 'Nunito',sans-serif;color:${T.ink}">${JOB[f]}</span></div>`)).join('') + `</div>`;
+        below = names + jobCard;
+        items = [...parts.map((f) => t.id + ': ' + f), ...jobs.map((f) => t.id + ': job ' + f)];
+      }
+
       return {
         bodyHtml: `<div data-ws-content data-lcs-info2="${mode}|${lv}" style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` +
-          textBox(t, { font: d.font, full: mode === 'features', lh: d.lh }) + below + `</div>`,
+          textBox(t, { font: d.font, full: mode !== 'focus', lh: d.lh, badges }) + below + `</div>`,
         meta: { text: t.id, items },
       };
     },
@@ -214,7 +255,7 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
         document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); });
         const heads = box.querySelectorAll('[data-lcs-heading]').length, bolds = box.querySelectorAll('[data-lcs-bold]').length;
         const caps = box.querySelectorAll('[data-lcs-caption]').length, gl = box.querySelectorAll('[data-lcs-gloss]').length, ix = box.querySelectorAll('[data-lcs-indexword]').length;
-        if (mode === 'features') {
+        if (mode === 'features' || mode === 'label') {
           if (heads !== 3 || bolds !== 3 || caps !== 2 || gl !== 4 || ix !== 4) fails.push(`the text has ${heads} headings, ${bolds} bold words, ${caps} captions, ${gl} glossary words, ${ix} index words`);
           parts.forEach((p, i) => { if (p.querySelectorAll('[data-lcs-bold]').length !== 1) fails.push('part ' + (i + 1) + ' has not one bold word'); });
           box.querySelectorAll('[data-lcs-bold]').forEach((b) => { if (parseFloat(getComputedStyle(b).webkitTextStrokeWidth) < 0.5) fails.push('a bold word is not printed bolder than the text'); });
@@ -233,7 +274,7 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
           all.forEach((e) => { if (R(e).right > R(c.parentElement).right + 0.5) fails.push(`answers ${i + 1}: an answer leaves its card`); });
         });
         const lines = [...document.querySelectorAll('[data-lcs-line]')];
-        lines.forEach((l) => { const s = l.querySelector('svg'); if (!s || R(s).right > R(l.closest('[data-lcs-question], [data-lcs-para], [data-lcs-topic], [data-lcs-addindex], [data-lcs-addgloss]')).right + 0.5) fails.push('a writing line leaves its card'); });
+        lines.forEach((l) => { const s = l.querySelector('svg'); if (!s || R(s).right > R(l.closest('[data-lcs-question], [data-lcs-para], [data-lcs-topic], [data-lcs-addindex], [data-lcs-addgloss], [data-lcs-jobs]')).right + 0.5) fails.push('a writing line leaves its card'); });
         document.querySelectorAll('[data-lcs-question], [data-lcs-para], [data-lcs-topic], [data-lcs-focusmatch], [data-lcs-addindex], [data-lcs-addgloss]').forEach((c) => { const cb = R(c); c.querySelectorAll('[data-lcs-label], [data-lcs-choice], svg').forEach((e) => { const r = R(e); if (r.width && (r.bottom > cb.bottom + 0.5 || r.right > cb.right + 0.5)) fails.push('something leaves its card'); }); });
         if (mode === 'focus') {
           if (!document.querySelector('[data-lcs-topic]')) fails.push('no main topic');
@@ -252,6 +293,31 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
             if (lines.length !== (lv === 2 ? 4 : 7)) fails.push(lines.length + ' writing lines on level ' + lv);
             if (sets.length) fails.push('levels 2 and 3 have nothing to circle');
           }
+        }
+        if (mode === 'label') {
+          const isKey = !!document.querySelector('[data-lcs-answer]') || [...document.querySelectorAll('[data-lcs-box]')].some((b) => b.textContent.trim());
+          const PARTS = ['title', 'heading', 'bold', 'caption', 'glossary', 'index'];
+          const badge = [...box.querySelectorAll('[data-lcs-badge]')].map((b) => b.dataset.lcsBadge.split('|'));
+          if (badge.map((b) => b[0]).sort().join() !== PARTS.slice().sort().join()) fails.push('the dots stand at ' + badge.map((b) => b[0]).join(', '));
+          const numOf = Object.fromEntries(badge), nums = badge.map((b) => b[1]);
+          if (nums.slice().sort().join('') !== 'ABCDEF') fails.push('the dots do not carry the letters A to F');
+          // each dot stands where its part is
+          const near = { title: '[data-lcs-title]', heading: '[data-lcs-heading]', caption: '[data-lcs-caption]', glossary: '[data-lcs-glossary]', index: '[data-lcs-index]' };
+          box.querySelectorAll('[data-lcs-badge]').forEach((b) => { const f = b.dataset.lcsBadge.split('|')[0]; if (f === 'bold') { const nx = b.nextElementSibling; if (!nx || !nx.matches('[data-lcs-bold]')) fails.push('the dot of the bold word does not stand before a bold word'); } else if (!b.closest(near[f])) fails.push('the dot of the ' + f + ' does not stand in it'); if (R(b).width < 20) fails.push('a dot smaller than 20 px'); });
+          const names = [...document.querySelectorAll('[data-lcs-name]')];
+          if (names.map((x) => x.dataset.lcsName).sort().join() !== PARTS.slice().sort().join()) fails.push('not the six names');
+          const order = names.map((x) => x.dataset.lcsName), want = order.map((f) => String(numOf[f]).charCodeAt(0));
+          const rising = (a) => a.every((x, i) => !i || x > a[i - 1]), falling = (a) => a.every((x, i) => !i || x < a[i - 1]);
+          if (order.join() === PARTS.join()) fails.push('the names stand in the order of the page');
+          if (rising(want) || falling(want)) fails.push('the letters to write run in order: ' + order.map((f) => numOf[f]).join(''));
+          document.querySelectorAll('[data-lcs-box]').forEach((b) => { if (b.dataset.lcsWant !== numOf[b.dataset.lcsBox]) fails.push('a box is keyed to another dot'); if (R(b).width < 30) fails.push('a box too small for a letter'); if (!isKey && b.textContent.trim()) fails.push('a box is filled'); });
+          const jobs = [...document.querySelectorAll('[data-lcs-job]')].map((j) => j.dataset.lcsJob);
+          const wantJobs = lv === 1 ? 3 : lv === 2 ? 5 : 4;
+          if (jobs.length !== wantJobs || new Set(jobs).size !== jobs.length || jobs.includes('title')) fails.push(jobs.length + ' jobs on level ' + lv + ' (' + jobs.join(', ') + ')');
+          if (lv < 3 && (lines.length || document.querySelectorAll('[data-lcs-jobbox]').length !== wantJobs)) fails.push('the jobs of level ' + lv + ' are not answered with a letter in a box');
+          if (lv === 3 && (lines.length !== 4 || document.querySelector('[data-lcs-jobbox]'))) fails.push('the jobs of level 3 are not answered in writing');
+          if (sets.length) fails.push('the naming page has nothing to circle');
+          document.querySelectorAll('[data-lcs-names], [data-lcs-jobs]').forEach((c) => { const cb = R(c); c.querySelectorAll('span, svg').forEach((e) => { const r = R(e); if (r.width && (r.right > cb.right + 0.5 || r.bottom > cb.bottom + 0.5)) fails.push('something leaves the names or the jobs card'); }); });
         }
         if (mode === 'features') {
           const qs = [...document.querySelectorAll('[data-lcs-question]')];

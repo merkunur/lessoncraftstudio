@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Proves that the page checks of types/_shared/info-text-g2.js (G2-519 Main Topic and Paragraphs, G2-520 Glossary and
- * Index) can fail: each planted fault changes the factory (or the text bank), renders the page it concerns, and
+ * Index, G2-523 Name the Text Features) can fail: each planted fault changes the factory (or the text bank), renders the page it concerns, and
  * expects the page's own check or the bank's check to report it. The file is restored after every fault (and on any
  * error). A dev tool: never run it while pages are generated.
  *
@@ -30,6 +30,14 @@ const FAULTS = [
   ['two heading questions side by side on the circle level', FACTORY, 'fs = [h[0], o[0], o[1], h[1], o[2], o[3]]; }', 'fs = [h[0], h[1], o[0], o[1], o[2], o[3]]; }', 'G2-520', 1],
   ['six questions on the hardest features page', FACTORY, "if (d.n === 4) fs = [rng.pick(", "if (d.n === 44) fs = [rng.pick(", 'G2-520', 3],
   ['no entry to add on the hardest features page', FACTORY, "        if (lv === 3) {\n          cells.push(", "        if (lv === 9) {\n          cells.push(", 'G2-520', 3],
+  // the naming page (G2-523)
+  ["the names stand in the order of the page", FACTORY, "if (!rising(nums) && !falling(nums) && !rising(want) && !falling(want) && order.join() !== parts.join()) break;", "nums = [3, 1, 4, 6, 2, 5]; order = parts.slice(); break;", "G2-523", 1],
+  ["a box keyed to another dot", FACTORY, "data-lcs-want=\"${badges.get(f)}\"${extra}", "data-lcs-want=\"${badges.get(parts[(parts.indexOf(f) + 1) % 6])}\"${extra}", "G2-523", 1],
+  ["no dot at the index", FACTORY, "Index${bd('index')}", "Index", "G2-523", 2],
+  ["dots with numbers beside the page numbers", FACTORY, "[f, 'ABCDEF'[nums[i] - 1]]", "[f, nums[i]]", "G2-523", 2],
+  ["the jobs of the hardest level answered with a letter", FACTORY, "jobs.map((f) => (d.write\n", "jobs.map((f) => (false\n", "G2-523", 3],
+  ["the job of the title is asked", FACTORY, "const pool = d.jobs === 3 ? ['heading', 'caption', 'glossary']", "const pool = d.jobs === 3 ? ['title', 'caption', 'glossary']", "G2-523", 1],
+  ["the naming page too big for the paper", FACTORY, "label: { 1: { font: 14.5, lh: 1.33, jobs: 3,", "label: { 1: { font: 18, lh: 1.33, jobs: 3,", "G2-523", 1],
   // the bank's own check (it runs when the factory loads)
   ['bank: an index word on two pages', BANK, '"They chew through small trees to cut them down."', '"They chew through small trees with their teeth."', 'G2-520', 2],
   ['bank: an index word in a caption', BANK, '"caption": "A beaver can cut through a log like this one."', '"caption": "A beaver can cut a log with its teeth."', 'G2-520', 2],

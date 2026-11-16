@@ -1,0 +1,1278 @@
+{
+ "_about": "Grade 1 grammar pages (G1-592 to G1-595, types/_shared/grammar-g1.js): capitals for names, days and months; joining words; verb tense. Written by the scratch bank.js of the batch; checked by the factory when it loads.",
+ "pics": {
+  "cat": [
+   "pets",
+   "cat"
+  ],
+  "duck": [
+   "farm animals",
+   "duck"
+  ],
+  "frog": [
+   "pets",
+   "frog"
+  ],
+  "ball": [
+   "toys",
+   "ball"
+  ],
+  "dog": [
+   "pets",
+   "dog"
+  ],
+  "milk": [
+   "At the Supermarket",
+   "milk"
+  ],
+  "bear": [
+   "camping",
+   "bear"
+  ],
+  "bee": [
+   "farm animals",
+   "bee"
+  ],
+  "apple": [
+   "fruits",
+   "apple"
+  ],
+  "bus": [
+   "vehicles",
+   "school_bus"
+  ],
+  "hat": [
+   "winter",
+   "hat"
+  ],
+  "strawhat": [
+   "clothing",
+   "hat"
+  ],
+  "bird": [
+   "spring",
+   "bird"
+  ],
+  "fish": [
+   "pets",
+   "fish"
+  ],
+  "pig": [
+   "farm animals",
+   "pig"
+  ],
+  "turtle": [
+   "pets",
+   "turtle"
+  ],
+  "sun": [
+   "weather",
+   "sun"
+  ],
+  "cake": [
+   "bakery",
+   "cake"
+  ],
+  "bag": [
+   "At the Supermarket",
+   "bag"
+  ],
+  "kite": [
+   "toys",
+   "kite"
+  ],
+  "rain": [
+   "weather",
+   "rainy"
+  ],
+  "bike": [
+   "vehicles",
+   "bicycle"
+  ],
+  "snowman": [
+   "winter",
+   "snowman"
+  ],
+  "beach": [
+   "summer",
+   "beach"
+  ]
+ },
+ "picKinds": {
+  "cat": "cat",
+  "duck": "duck",
+  "frog": "frog",
+  "ball": "ball",
+  "dog": "dog",
+  "milk": "milk",
+  "bear": "bear",
+  "bee": "bee",
+  "apple": "apple",
+  "bus": "bus",
+  "hat": "hat",
+  "strawhat": "hat",
+  "bird": "bird",
+  "fish": "fish",
+  "pig": "pig",
+  "turtle": "turtle",
+  "sun": "sun",
+  "cake": "cake",
+  "bag": "bag",
+  "kite": "kite",
+  "rain": "rain",
+  "bike": "bike",
+  "snowman": "snowman",
+  "beach": "beach"
+ },
+ "capitals": {
+  "people": [
+   "Sam",
+   "Ana",
+   "Mia",
+   "Leo",
+   "Kim",
+   "Omar",
+   "Ben",
+   "Zoe",
+   "Eva",
+   "Raj",
+   "Ali",
+   "Luis",
+   "Min",
+   "Nia",
+   "Jin",
+   "Amir",
+   "Lena",
+   "Noah",
+   "Kai",
+   "Hana"
+  ],
+  "pets": [
+   "Rex",
+   "Coco",
+   "Milo",
+   "Luna",
+   "Bella",
+   "Ziggy",
+   "Toby"
+  ],
+  "days": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "months": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+  ],
+  "notNames": [
+   "will",
+   "may",
+   "rose",
+   "bill",
+   "mark",
+   "jack",
+   "art",
+   "pat",
+   "sky",
+   "hope",
+   "grace",
+   "june",
+   "april",
+   "august",
+   "max",
+   "ray",
+   "rich",
+   "sue",
+   "sunny",
+   "lucky",
+   "spot",
+   "daisy",
+   "ginger",
+   "pepper",
+   "bear",
+   "duke",
+   "bingo",
+   "rocky",
+   "bob",
+   "dot",
+   "gus",
+   "ted",
+   "tom",
+   "chip",
+   "buddy",
+   "cookie",
+   "honey",
+   "star",
+   "summer",
+   "autumn",
+   "dawn",
+   "faith",
+   "joy",
+   "eve",
+   "hunter",
+   "piper",
+   "olive",
+   "ruby",
+   "jade",
+   "pearl",
+   "iris",
+   "lily",
+   "violet",
+   "holly",
+   "ivy",
+   "robin",
+   "wren",
+   "mei",
+   "me",
+   "my"
+  ],
+  "write": [
+   "My friend {Omar} has a red bike.",
+   "Our cat {Luna} sleeps on my bed.",
+   "I sit next to {Mia} and {Leo}.",
+   "My dog {Rex} can catch a ball.",
+   "The new boy in our class is {Raj}.",
+   "My mom and {Kim} made a cake.",
+   "Our fish is named {Coco}.",
+   "Can {Ben} come to my house?",
+   "My big sister {Eva} can swim.",
+   "The dog {Milo} likes to dig.",
+   "I read a book with {Zoe} and {Ali}.",
+   "Our teacher gave {Luis} a sticker.",
+   "My baby brother {Noah} is two.",
+   "We saw {Min} at the park.",
+   "I like to run with {Nia} and {Jin}.",
+   "The hamster {Ziggy} runs on a wheel.",
+   "I like to play ball with {Sam}.",
+   "My cousin {Amir} has a puppy.",
+   "Our rabbit {Bella} eats carrots.",
+   "We take our dog {Toby} for a walk.",
+   "My best friend is {Lena}.",
+   "I sit with {Hana} and {Kai} at lunch.",
+   "We go to the library on {Monday}.",
+   "My party is on {Saturday}.",
+   "I play ball with {Mia} on {Tuesday}.",
+   "We have art class on {Friday}.",
+   "My friend {Omar} comes over on {Sunday}.",
+   "We have pizza on {Wednesday}.",
+   "My grandma visits every {Sunday}.",
+   "We go to the zoo on {Thursday}.",
+   "My brother {Leo} swims on {Monday}.",
+   "We clean our room on {Saturday}.",
+   "Is {Wednesday} a school day?",
+   "We wash our dog {Coco} on {Sunday}.",
+   "We have a test on {Thursday}.",
+   "On {Friday} we will see a movie.",
+   "My dad makes pancakes on {Sunday}.",
+   "My favorite day is {Saturday}.",
+   "I play with {Kim} on {Monday}.",
+   "On {Tuesday} we go to the pool.",
+   "Our class has gym on {Wednesday}.",
+   "I visit {Ana} on {Thursday}.",
+   "Summer starts in {June}.",
+   "My friend {Mia} was born in {March}.",
+   "We go camping in {July}.",
+   "The shortest month is {February}.",
+   "We rake leaves in {October}.",
+   "Our winter break is in {December}.",
+   "My mom's birthday is in {May}.",
+   "We plant seeds in {April}.",
+   "There are 30 days in {September}.",
+   "My dog {Rex} turns one in {November}.",
+   "We had a snow day in {January}.",
+   "My party is on a {Saturday} in {May}.",
+   "I was born on a {Tuesday} in {April}.",
+   "My cousin {Omar} visits in {August}.",
+   "My sister was born in {January}.",
+   "There are 31 days in {July}.",
+   "Our school ends in {June}.",
+   "We pick apples in {October}."
+  ],
+  "choose": [
+   "I like to swing with [Ana].",
+   "My best friend is [Leo].",
+   "Our cat [Luna] is soft.",
+   "We sat next to [Omar] at lunch.",
+   "My dog is named [Milo].",
+   "I gave a card to [Kim].",
+   "Our fish [Coco] is orange.",
+   "My sister [Eva] can read.",
+   "We played tag with [Ben].",
+   "The new girl is [Zoe].",
+   "I helped [Raj] find his hat.",
+   "My rabbit [Bella] likes carrots.",
+   "Can [Sam] come and play?",
+   "The puppy [Rex] has big feet.",
+   "My [dog] can run fast.",
+   "We went to the [park] after school.",
+   "My [mom] reads to me.",
+   "The [teacher] reads us a book.",
+   "I love my little [brother].",
+   "Our [cat] sleeps all day.",
+   "My [friend] has a red hat.",
+   "We walk to [school] with my dad.",
+   "The [baby] is taking a nap.",
+   "I see a [bird] in the tree.",
+   "My [sister] likes to sing.",
+   "Our [class] has a pet fish.",
+   "Is your [puppy] soft?",
+   "My [grandma] makes soup.",
+   "We have gym on [Monday].",
+   "My party is on [Saturday].",
+   "We go to the pool on [Tuesday].",
+   "We have pizza on [Friday].",
+   "Art class is on [Wednesday].",
+   "We go to the park on [Sunday].",
+   "My grandma comes on [Thursday].",
+   "On [Monday] we have a test.",
+   "Is [Friday] a school day?",
+   "It was a rainy [day].",
+   "My favorite day is [Saturday].",
+   "There are seven days in a [week].",
+   "We have a test next [week].",
+   "We swim two times a [week].",
+   "We had a fun [day] at the zoo.",
+   "I read a book every [week].",
+   "My birthday is in [June].",
+   "We go camping in [July].",
+   "Our school starts in [August].",
+   "We pick apples in [October].",
+   "The shortest month is [February].",
+   "My sister was born in [March].",
+   "We plant seeds in [April].",
+   "We built a snowman in [January].",
+   "There are 30 days in [November].",
+   "Our winter break is in [December].",
+   "My mom's birthday is in [May].",
+   "Our town has a fair in [September].",
+   "My birthday is next [month].",
+   "What [month] is it now?",
+   "I got a bike for my [birthday].",
+   "We swim a lot in the [summer].",
+   "I like to sled in the [winter].",
+   "The flowers grow in the [spring].",
+   "My [birthday] party is at my house."
+  ]
+ },
+ "join": {
+  "pairs": [
+   {
+    "rel": "and",
+    "a": "Mia has a cat.",
+    "b": "She has a dog.",
+    "also": "Mia has a cat and a dog.",
+    "pic": "cat",
+    "topic": "mia-pets",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The duck can swim.",
+    "b": "It can fly.",
+    "also": "The duck can swim and fly.",
+    "pic": "duck",
+    "topic": "duck",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The frog is green.",
+    "b": "It can jump.",
+    "also": "The frog is green and can jump.",
+    "pic": "frog",
+    "topic": "frog",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "Ben has a ball.",
+    "b": "He has a kite.",
+    "also": "Ben has a ball and a kite.",
+    "pic": "ball",
+    "topic": "ben-toys",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The dog can run.",
+    "b": "It can jump.",
+    "also": "The dog can run and jump.",
+    "pic": "dog",
+    "topic": "dog-run",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "We have milk.",
+    "b": "We have bread.",
+    "also": "We have milk and bread.",
+    "pic": "milk",
+    "topic": "milk",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The bear can climb.",
+    "b": "It can swim.",
+    "also": "The bear can climb and swim.",
+    "pic": "bear",
+    "topic": "bear",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The bee can fly.",
+    "b": "It can buzz.",
+    "also": "The bee can fly and buzz.",
+    "pic": "bee",
+    "topic": "bee",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The apple is red.",
+    "b": "It is round.",
+    "also": "The apple is red and round.",
+    "pic": "apple",
+    "topic": "apple",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being red does not make an apple round",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The bus is big.",
+    "b": "It is yellow.",
+    "also": "The bus is big and yellow.",
+    "pic": "bus",
+    "topic": "bus",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "Jin has a hat.",
+    "b": "He has a scarf.",
+    "also": "Jin has a hat and a scarf.",
+    "pic": "hat",
+    "topic": "jin-hat",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The bird can sing.",
+    "b": "It can fly.",
+    "also": "The bird can sing and fly.",
+    "pic": "bird",
+    "topic": "bird",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The fish is orange.",
+    "b": "It can swim.",
+    "also": "The fish is orange and can swim.",
+    "pic": "fish",
+    "topic": "fish",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The pig is pink.",
+    "b": "It has a curly tail.",
+    "also": "The pig is pink and has a curly tail.",
+    "pic": "pig",
+    "topic": "pig",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "and",
+    "a": "The turtle has a shell.",
+    "b": "It has four legs.",
+    "also": "The turtle has a shell and four legs.",
+    "pic": "turtle",
+    "topic": "turtle-shell",
+    "why": {
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "the second sentence did not happen because of the first",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The sun is out.",
+    "b": "It is cold.",
+    "pic": "sun",
+    "topic": "sun-cold",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "sunshine does not make it cold",
+     "because": "the cold does not make the sun come out"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The cake looks good.",
+    "b": "It tastes bad.",
+    "pic": "cake",
+    "topic": "cake-bad",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "looking good does not make a cake taste bad",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The bag is big.",
+    "b": "It is not heavy.",
+    "pic": "bag",
+    "topic": "bag",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "being big does not make a bag light",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "I looked for my hat.",
+    "b": "I did not find it.",
+    "pic": "strawhat",
+    "topic": "lost-hat",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "looking for a hat does not make you miss it",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "Leo wanted to fly his kite.",
+    "b": "There was no wind.",
+    "pic": "kite",
+    "topic": "kite-wind",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "wanting to fly a kite does not stop the wind",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The dog is small.",
+    "b": "It has a loud bark.",
+    "pic": "dog",
+    "topic": "dog-bark",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "being small does not make a bark loud",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The turtle is slow.",
+    "b": "It won the race.",
+    "pic": "turtle",
+    "topic": "turtle-race",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "being slow does not make you win",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The car is old.",
+    "b": "It is still fast.",
+    "pic": null,
+    "topic": "car",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "being old does not make a car fast",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "It is raining.",
+    "b": "Sam is not wet.",
+    "pic": "rain",
+    "topic": "rain-wet",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "rain does not keep you dry",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The cat is little.",
+    "b": "It eats a lot.",
+    "pic": "cat",
+    "topic": "cat-eats",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "being little does not make a cat eat a lot",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "Kim has a new bike.",
+    "b": "She can't ride it yet.",
+    "pic": "bike",
+    "topic": "bike",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "having a bike does not stop you from riding it",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "but",
+    "a": "The apple looks good.",
+    "b": "It has a worm.",
+    "pic": "apple",
+    "topic": "apple-worm",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "so": "looking good does not put a worm in an apple",
+     "because": "the second sentence does not tell why the first one happened"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "It snowed.",
+    "b": "We made a snowman.",
+    "pic": "snowman",
+    "topic": "snow",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "making a snowman does not make it snow"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "It was windy.",
+    "b": "We flew a kite.",
+    "pic": "kite",
+    "topic": "wind",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "flying a kite does not make wind"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "It was hot.",
+    "b": "We went to the beach.",
+    "pic": "beach",
+    "topic": "beach",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "going to the beach does not make it hot"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The dog was sleepy.",
+    "b": "It took a nap.",
+    "pic": "dog",
+    "topic": "dog-nap",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "a nap does not make a dog sleepy"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "It was Ana's birthday.",
+    "b": "We had cake.",
+    "pic": "cake",
+    "topic": "birthday",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "having cake does not make it a birthday"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The dog was happy.",
+    "b": "It wagged its tail.",
+    "pic": "dog",
+    "topic": "dog-tail",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "wagging its tail does not make the dog happy"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The sun came out.",
+    "b": "The snowman melted.",
+    "pic": "snowman",
+    "topic": "melt",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "a snowman that melts does not make the sun come out"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The cat was sleepy.",
+    "b": "It curled up on the bed.",
+    "pic": "cat",
+    "topic": "cat-curl",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "curling up does not make a cat sleepy"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The bird was thirsty.",
+    "b": "It drank some water.",
+    "pic": "bird",
+    "topic": "bird-drink",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "drinking water does not make a bird thirsty"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The duck was hungry.",
+    "b": "It ate some bread.",
+    "pic": "duck",
+    "topic": "duck-bread",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "eating bread does not make a duck hungry"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "It was sunny.",
+    "b": "We played outside.",
+    "pic": "sun",
+    "topic": "sunny-play",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "playing outside does not make it sunny"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The baby was tired.",
+    "b": "She went to sleep.",
+    "pic": null,
+    "topic": "baby",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "going to sleep does not make a baby tired"
+    }
+   },
+   {
+    "rel": "so",
+    "a": "The water was warm.",
+    "b": "We went for a swim.",
+    "pic": null,
+    "topic": "swim",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "because": "a swim does not make the water warm"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Ana is happy.",
+    "b": "She got a new puppy.",
+    "pic": null,
+    "topic": "puppy",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being happy does not get you a puppy"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Mia is sad.",
+    "b": "Her kite broke.",
+    "pic": null,
+    "topic": "kite-broke",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being sad does not break a kite"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "The dog barked.",
+    "b": "It wanted to go out.",
+    "pic": null,
+    "topic": "dog-barked",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "barking does not make a dog want to go out"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "My tummy hurts.",
+    "b": "I ate too much cake.",
+    "pic": null,
+    "topic": "tummy",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "a tummy ache does not make you eat cake"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "The car stopped.",
+    "b": "The light was red.",
+    "pic": null,
+    "topic": "red-light",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "a car that stops does not turn the light red"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Zoe is cold.",
+    "b": "She lost her hat.",
+    "pic": null,
+    "topic": "zoe-cold",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being cold does not make you lose a hat"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "We stayed inside.",
+    "b": "It was raining.",
+    "pic": null,
+    "topic": "inside",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "staying inside does not make it rain"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Omar fell down.",
+    "b": "He slipped on the ice.",
+    "pic": null,
+    "topic": "omar-fell",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "falling down does not make you slip"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Raj is laughing.",
+    "b": "His dog did a funny trick.",
+    "pic": null,
+    "topic": "raj-dog",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "laughing does not make a dog do a trick"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "Eva is tired.",
+    "b": "She ran all day.",
+    "pic": null,
+    "topic": "eva-tired",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being tired does not make you run all day"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "The baby is crying.",
+    "b": "She dropped her toy.",
+    "pic": null,
+    "topic": "baby-toy",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "crying does not make a baby drop her toy"
+    }
+   },
+   {
+    "rel": "because",
+    "a": "The puppy is wet.",
+    "b": "It played in the rain.",
+    "pic": null,
+    "topic": "puppy-wet",
+    "why": {
+     "and": "the second sentence is not one more thing of the same kind",
+     "but": "nothing in the second sentence is a surprise after the first",
+     "so": "being wet does not make a puppy play in the rain"
+    }
+   }
+  ],
+  "ownBecause": [
+   "I like the park because it has swings.",
+   "I am happy because I have a new book.",
+   "My dog barks because it wants to play.",
+   "I wear a coat because it is cold."
+  ]
+ },
+ "tense": {
+  "verbs": [
+   {
+    "base": "play",
+    "frame": "I {V} with my dog.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "jump",
+    "frame": "I {V} over a big puddle.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "help",
+    "frame": "I {V} my dad in the yard.",
+    "past": [
+     "Yesterday",
+     "Last week"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "look",
+    "frame": "I {V} at the moon.",
+    "past": [
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow night"
+    ]
+   },
+   {
+    "base": "paint",
+    "frame": "I {V} a picture of my cat.",
+    "past": [
+     "Yesterday",
+     "Last week"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "clean",
+    "frame": "I {V} my room.",
+    "past": [
+     "Yesterday",
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "kick",
+    "frame": "I {V} the ball to Sam.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "pull",
+    "frame": "We {V} the wagon up the hill.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": []
+   },
+   {
+    "base": "call",
+    "frame": "I {V} my grandma.",
+    "past": [
+     "Yesterday",
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "cook",
+    "frame": "My dad and I {V} eggs.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": []
+   },
+   {
+    "base": "wash",
+    "frame": "I {V} the dishes.",
+    "past": [
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "brush",
+    "frame": "I {V} my dog.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "pick",
+    "frame": "We {V} apples at the farm.",
+    "past": [
+     "Last week"
+    ],
+    "future": []
+   },
+   {
+    "base": "push",
+    "frame": "I {V} my sister on the swing.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "fill",
+    "frame": "I {V} the bird feeder.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "plant",
+    "frame": "We {V} seeds in the garden.",
+    "past": [
+     "Last week"
+    ],
+    "future": []
+   },
+   {
+    "base": "rest",
+    "frame": "I {V} on the couch.",
+    "past": [
+     "Yesterday",
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "fold",
+    "frame": "I {V} my clothes.",
+    "past": [
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "mix",
+    "frame": "We {V} red and blue paint.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": []
+   },
+   {
+    "base": "fix",
+    "frame": "We {V} my bike.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": []
+   },
+   {
+    "base": "lift",
+    "frame": "I {V} the big box.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "pack",
+    "frame": "I {V} my lunch.",
+    "past": [
+     "Last night"
+    ],
+    "future": [
+     "Tomorrow"
+    ]
+   },
+   {
+    "base": "lock",
+    "frame": "We {V} the door.",
+    "past": [
+     "Last night"
+    ],
+    "future": []
+   },
+   {
+    "base": "count",
+    "frame": "We {V} to one hundred.",
+    "past": [
+     "Yesterday"
+    ],
+    "future": []
+   }
+  ],
+  "timeWords": {
+   "past": [
+    "Yesterday",
+    "Last night",
+    "Last week"
+   ],
+   "future": [
+    "Tomorrow",
+    "Tomorrow night"
+   ]
+  },
+  "own": {
+   "play": "ball",
+   "paint": "a picture",
+   "kick": "the ball",
+   "clean": "my room",
+   "help": "my mom",
+   "cook": "eggs",
+   "jump": "rope",
+   "wash": "my hands",
+   "call": "my friend",
+   "brush": "my dog",
+   "pack": "my bag"
+  }
+ }
+}

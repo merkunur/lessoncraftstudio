@@ -386,30 +386,6 @@ const TEXT = {
     2: "er, ir, and ur say the same sound: her, first, turn.",
     3: "er, ir, and ur say the same sound: her, first, turn.",
   },
-  'G1-592': {
-    title: "Names, Days, and Months Get Capitals",
-    1: "Names of people and pets start with a capital letter. Circle each name and write it again. Then write the date and your name.",
-    2: "Names and the days of the week start with a capital letter. Circle each one and write it again. Then write the date and your name.",
-    3: "Names, days, and months start with a capital letter. Circle each one and write it again. Then write the date, your name, and your birthday month.",
-  },
-  'G1-593': {
-    title: "Capital Letter or Small Letter?",
-    1: "A name starts with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
-    2: "Names and the days of the week start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
-    3: "Names, days, and months start with a capital letter. Other words do not. Read each sentence and circle the word that is written the right way.",
-  },
-  'G1-594': {
-    title: "Joining Words: and, but, so, because",
-    1: "A joining word puts two sentences together. Circle and or but in each sentence. Then join two sentences and write them as one.",
-    2: "A joining word puts two sentences together. Circle and, but, or so in each sentence. Then join two sentences and write them as one.",
-    3: "A joining word puts two sentences together. Circle and, but, so, or because in each sentence. Then write a sentence of your own with because.",
-  },
-  'G1-595': {
-    title: "Yesterday, Today, and Tomorrow",
-    1: "Add ed to tell about yesterday: walk, walked. Write the yesterday form of each verb. Then circle the verb that fits each sentence.",
-    2: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
-    3: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways.",
-  },
   'K-661': {
     title: "Short a and Short i",
     1: "Short a says /⁠ă⁠/, as in apple. Short i says /⁠ĭ⁠/, as in igloo.",
@@ -487,6 +463,30 @@ const TEXT = {
     1: "An apostrophe takes the place of the letters that are left out.",
     2: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
     3: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
+  },
+  'G1-592': {
+    title: "Names, Days, and Months Get Capitals",
+    1: "Names of people and pets start with a capital letter. Circle each one and write each one again. Then write the date and your name.",
+    2: "Names and the days of the week start with a capital letter. Circle each one and write each one again. Then write the date and your name.",
+    3: "Names, days, and months start with a capital letter. Circle each one and write each one again. Then write the date, your name, and your birthday month.",
+  },
+  'G1-593': {
+    title: "Capital Letter or Small Letter?",
+    1: "A name starts with a capital letter. Other words do not, unless they start the sentence.",
+    2: "Names and the days of the week start with a capital letter. Other words do not, unless they start the sentence.",
+    3: "Names, days, and months start with a capital letter. Other words do not, unless they start the sentence.",
+  },
+  'G1-594': {
+    title: "Joining Words: and, but, so, because",
+    1: "A joining word puts two sentences together. Circle the one that fits best in each sentence. Then join two sentences and write them as one.",
+    2: "A joining word puts two sentences together. Circle the one that fits best in each sentence. Then join two sentences and write them as one.",
+    3: "A joining word puts two sentences together. Circle the one that fits best in each sentence. Then write a sentence of your own that tells why.",
+  },
+  'G1-595': {
+    title: "Yesterday, Today, and Tomorrow",
+    1: "Add ed to tell about yesterday: walk, walked. Write the yesterday form of each verb. Then circle the verb that fits each sentence.",
+    2: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
+    3: "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then write about one verb three ways.",
   },
 };
 

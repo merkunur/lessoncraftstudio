@@ -1,0 +1,389 @@
+{
+ "_note": "Kindergarten \"Short Vowels and CVC Words\" (English literacy year, Part 12.3; types/_shared/cvc-k.js). `words`: the regular consonant-vowel-consonant words a kindergartner knows, by their short vowel (no blend, no digraph, no silent letter, no vowel that is not the short sound in General American: no put, son, was, has, his; no name, no word a parent would object to; words few kindergartners know or use, yam, ram, tan, cab, rod, peg, sub, cot, hog, fog, gas, left out after the teacher's review). Every printed word, every word of a chain and every second word of a pair comes from these lists; x words (box, fox, fix, mix) never stand in a chain (x is two sounds). `banned`: the never list, words that are never printed and never buildable in a gap (names, rude or unkind words). `noGap`: the words of the lists that make a word of the never list with one of the five vowels in their middle (h_g: hag; f_t: fat; r_n: ron): never a word with a gap for its vowel (written by bank.js, checked by the factory). `worked`: the grey example of the gaps of each vowel (no risky fill, never a before n or m). `noPrint`: words never printed (pet names any pictured animal: a cat is a pet). `animals`: the pictured animals. `pics`: the library picture of a word (colour themes only), each looked at. `write`: the pictures a kindergartner names with exactly that word (a word written under a picture, a word chosen for a picture); the others are print-only (they stand next to their printed word in a match, one at most on a page, or beside the top word of a ladder). `apart`: two pictures never on one page (a cap is a kind of hat; a cup, a mug and a jug all hold a drink).",
+ "words": {
+  "a": [
+   "bad",
+   "bag",
+   "bat",
+   "can",
+   "cap",
+   "cat",
+   "dad",
+   "fan",
+   "had",
+   "ham",
+   "hat",
+   "jam",
+   "lap",
+   "mad",
+   "man",
+   "map",
+   "mat",
+   "nap",
+   "pan",
+   "pat",
+   "rag",
+   "ran",
+   "rat",
+   "sad",
+   "sat",
+   "tag",
+   "tap",
+   "van",
+   "wag"
+  ],
+  "i": [
+   "big",
+   "bib",
+   "bin",
+   "bit",
+   "did",
+   "dig",
+   "dip",
+   "fin",
+   "fit",
+   "fix",
+   "hid",
+   "him",
+   "hip",
+   "hit",
+   "kid",
+   "kit",
+   "lid",
+   "lip",
+   "mix",
+   "pig",
+   "pin",
+   "pit",
+   "rib",
+   "rip",
+   "sip",
+   "sit",
+   "tip",
+   "wig",
+   "win",
+   "zip"
+  ],
+  "o": [
+   "box",
+   "dog",
+   "dot",
+   "fox",
+   "got",
+   "hop",
+   "hot",
+   "job",
+   "jog",
+   "log",
+   "lot",
+   "mom",
+   "mop",
+   "nod",
+   "not",
+   "pop",
+   "pot",
+   "top"
+  ],
+  "u": [
+   "bug",
+   "bun",
+   "bus",
+   "but",
+   "cub",
+   "cup",
+   "cut",
+   "dug",
+   "fun",
+   "gum",
+   "hug",
+   "hum",
+   "hut",
+   "jug",
+   "mud",
+   "mug",
+   "nut",
+   "pup",
+   "rub",
+   "rug",
+   "run",
+   "sun",
+   "tub",
+   "tug"
+  ],
+  "e": [
+   "bed",
+   "beg",
+   "den",
+   "fed",
+   "get",
+   "hen",
+   "jet",
+   "leg",
+   "let",
+   "men",
+   "met",
+   "net",
+   "pen",
+   "pet",
+   "red",
+   "set",
+   "ten",
+   "vet",
+   "web",
+   "wet",
+   "yes"
+  ]
+ },
+ "banned": [
+  "fag",
+  "gyp",
+  "sex",
+  "tit",
+  "bum",
+  "cum",
+  "dam",
+  "god",
+  "gun",
+  "fat",
+  "hag",
+  "pee",
+  "poo",
+  "pub",
+  "rum",
+  "nun",
+  "gut",
+  "sin",
+  "sod",
+  "tat",
+  "sam",
+  "pam",
+  "dan",
+  "jan",
+  "ann",
+  "tim",
+  "kim",
+  "jim",
+  "ben",
+  "ted",
+  "tom",
+  "don",
+  "ron",
+  "bob",
+  "meg",
+  "ned",
+  "kat",
+  "jen",
+  "liz",
+  "deb",
+  "tod",
+  "jon",
+  "ken",
+  "pip",
+  "nan",
+  "lin"
+ ],
+ "worked": {
+  "a": "sat",
+  "i": "sit",
+  "o": "top",
+  "u": "cut",
+  "e": "wet"
+ },
+ "noPrint": [
+  "pet"
+ ],
+ "animals": [
+  "bat",
+  "cat",
+  "pig",
+  "fox",
+  "dog",
+  "hen"
+ ],
+ "pics": {
+  "bag": [
+   "At the Supermarket",
+   "bag"
+  ],
+  "bat": [
+   "animals",
+   "bat"
+  ],
+  "can": [
+   "At the Supermarket",
+   "can"
+  ],
+  "cap": [
+   "accessories",
+   "cap"
+  ],
+  "cat": [
+   "animals",
+   "cat"
+  ],
+  "fan": [
+   "around the house",
+   "fan"
+  ],
+  "ham": [
+   "At the Supermarket",
+   "ham"
+  ],
+  "hat": [
+   "accessories",
+   "hat"
+  ],
+  "jam": [
+   "At the Supermarket",
+   "jam"
+  ],
+  "map": [
+   "camping",
+   "map"
+  ],
+  "pan": [
+   "around the house",
+   "pan"
+  ],
+  "van": [
+   "vehicles",
+   "van"
+  ],
+  "pig": [
+   "animals",
+   "pig"
+  ],
+  "lip": [
+   "body parts",
+   "lip"
+  ],
+  "mop": [
+   "around the house",
+   "mop"
+  ],
+  "pot": [
+   "around the house",
+   "pot"
+  ],
+  "fox": [
+   "animals",
+   "fox"
+  ],
+  "dog": [
+   "animals",
+   "dog"
+  ],
+  "log": [
+   "camping",
+   "log"
+  ],
+  "bus": [
+   "vehicles",
+   "bus"
+  ],
+  "cup": [
+   "around the house",
+   "cup"
+  ],
+  "sun": [
+   "weather",
+   "sun"
+  ],
+  "bun": [
+   "bakery",
+   "bun"
+  ],
+  "jug": [
+   "kitchen tools",
+   "jug"
+  ],
+  "mug": [
+   "kitchen tools",
+   "mug"
+  ],
+  "rug": [
+   "furniture",
+   "rug"
+  ],
+  "bed": [
+   "around the house",
+   "bed"
+  ],
+  "hen": [
+   "farm animals",
+   "hen"
+  ],
+  "jet": [
+   "vehicles",
+   "jet"
+  ],
+  "leg": [
+   "body parts",
+   "leg"
+  ],
+  "net": [
+   "beach",
+   "net"
+  ],
+  "pen": [
+   "classroom",
+   "pen"
+  ]
+ },
+ "write": [
+  "bag",
+  "bat",
+  "cat",
+  "fan",
+  "hat",
+  "map",
+  "pan",
+  "pig",
+  "pot",
+  "fox",
+  "dog",
+  "bus",
+  "cup",
+  "sun",
+  "bed",
+  "leg"
+ ],
+ "apart": [
+  [
+   "cap",
+   "hat"
+  ],
+  [
+   "cup",
+   "mug"
+  ],
+  [
+   "mug",
+   "jug"
+  ],
+  [
+   "cup",
+   "jug"
+  ]
+ ],
+ "noGap": [
+  "jam",
+  "ran",
+  "sad",
+  "bib",
+  "bin",
+  "fit",
+  "kit",
+  "got",
+  "nod",
+  "pop",
+  "bun",
+  "hug",
+  "mug",
+  "pup",
+  "run",
+  "sun",
+  "den",
+  "get"
+ ]
+}

@@ -386,24 +386,6 @@ const TEXT = {
     2: "er, ir, and ur say the same sound: her, first, turn.",
     3: "er, ir, and ur say the same sound: her, first, turn.",
   },
-  'G2-535': {
-    title: "Prefixes un- and re-",
-    1: "The prefix un- means not or the opposite of.",
-    2: "un- means not or the opposite of, and re- means again.",
-    3: "un- means not or the opposite of, re- means again, and pre- means before.",
-  },
-  'G2-536': {
-    title: "Suffixes -ful, -less, and -ly",
-    1: "The suffix -ful means full of.",
-    2: "-ful means full of, and -less means without.",
-    3: "-ful means full of, -less means without, and -ly tells how.",
-  },
-  'G2-537': {
-    title: "Apostrophes",
-    1: "An apostrophe takes the place of the letters that are left out.",
-    2: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
-    3: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
-  },
   'G1-592': {
     title: "Names, Days, and Months Get Capitals",
     1: "Names of people and pets start with a capital letter. Circle each name and write it again. Then write the date and your name.",
@@ -487,6 +469,24 @@ const TEXT = {
     1: "Some words have a part that does not follow the rules. We learn that part by heart.",
     2: "Some words have a part that does not follow the rules. We learn that part by heart.",
     3: "Some words have a part that does not follow the rules. We learn that part by heart.",
+  },
+  'G2-535': {
+    title: "Prefixes un- and re-",
+    1: "The prefix un- means not or the opposite of.",
+    2: "un- means not or the opposite of, and re- means again.",
+    3: {"title":"Prefixes un-, re-, and pre-","instruction":"un- means not or the opposite of, re- means again, and pre- means before."},
+  },
+  'G2-536': {
+    title: "Suffixes -ful, -less, and -ly",
+    1: "The suffix -ful means full of.",
+    2: "-ful means full of, and -less means without.",
+    3: "-ful means full of, -less means without, and -ly tells how.",
+  },
+  'G2-537': {
+    title: "Apostrophes",
+    1: "An apostrophe takes the place of the letters that are left out.",
+    2: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
+    3: "An apostrophe takes the place of the letters that are left out, or it shows who owns something.",
   },
 };
 

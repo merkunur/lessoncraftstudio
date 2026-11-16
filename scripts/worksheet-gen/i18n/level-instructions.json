@@ -7359,7 +7359,10 @@
       "en": "The prefix un- means not or the opposite of."
     },
     "3": {
-      "en": "un- means not or the opposite of, re- means again, and pre- means before."
+      "en": {
+        "title": "Prefixes un-, re-, and pre-",
+        "instruction": "un- means not or the opposite of, re- means again, and pre- means before."
+      }
     }
   },
   "G2-536": {

@@ -101,7 +101,7 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'capitals-punctuation': ['k655', 'k656', 'k659', 'k660'],
   'sentence-building': ['k657'],
   'syllable-split': ['g2546'],   // Year pages, literacy W: Grade 2 reading pages for the vowel patterns, two-syllable words (words to split, write and draw; PDF only)
-  'syllable-reading': ['g2547'],
+  'syllable-reading': ['g2547', 'k664'],   // k664 Year pages, literacy T: two words one letter apart (a word to circle, a letter to underline; PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
   'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484', 'g2516'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only); g2516 Year pages X: a line plot the child makes (PDF only)
   geometry: ['g3488', 'g3489', 'g3490', 'k644'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only); k644 Year pages AA: lines to draw and solids to color by a code (PDF only)

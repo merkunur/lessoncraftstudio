@@ -4563,6 +4563,38 @@
    ],
    "why": "Sorting what two fact texts on one topic both tell and what only one of them tells is «make connections to personal experiences, ideas in other texts, and society with adult assistance».",
    "review": "year-design 2026-11-16"
+  },
+  "3:answer-with-evidence": {
+   "rows": [
+    {
+     "id": "ELAR.3.7.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.6.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing an answer, naming the paragraph that proves it and copying the proving sentence is «use text evidence to support an appropriate response»; finding and writing the question a sentence answers, and asking questions of one's own about the text, is «generate questions about text before, during, and after reading to deepen understanding and gain information».",
+   "review": "year-design 2026-11-16"
+  },
+  "3:main-idea-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.6.G",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.7.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing or writing the main idea of the whole text with the three key details that support it is «the central idea with supporting evidence» of informational text; telling what each paragraph is mostly about and setting a key detail apart from a small fact is «evaluate details read to determine key ideas»; the summary of the hardest page is «retell and paraphrase texts in ways that maintain meaning and logical order».",
+   "review": "year-design 2026-11-16"
   }
  }
 }

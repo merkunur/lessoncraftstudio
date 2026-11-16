@@ -3043,6 +3043,26 @@
    ],
    "by": "review"
   },
+  "3:answer-with-evidence": {
+   "rows": [
+    {
+     "id": "RI.3.1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:main-idea-key-details": {
+   "rows": [
+    {
+     "id": "RI.3.2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "K:human-body": {
    "rows": [
     {

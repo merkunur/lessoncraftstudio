@@ -3551,6 +3551,41 @@
    ],
    "by": "authored"
   },
+  "3:answer-with-evidence": {
+   "rows": [
+    {
+     "id": "ELAR.3.7.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.6.B",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:main-idea-key-details": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.D.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.6.G",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.7.D",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

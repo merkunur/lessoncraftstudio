@@ -6877,6 +6877,48 @@
    ]
   },
   {
+   "id": "3:answer-with-evidence",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Ask and answer questions about an informational text and show the paragraph and the sentence that prove each answer",
+   "code": "RI.3.1",
+   "types": [
+    "G3-494",
+    "G3-495"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 86,
+   "prerequisites": []
+  },
+  {
+   "id": "3:main-idea-key-details",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Determine the main idea of an informational text of four paragraphs, recount the key details that support it, and tell what each paragraph is mostly about",
+   "code": "RI.3.2",
+   "types": [
+    "G3-496",
+    "G3-497"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 87,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",

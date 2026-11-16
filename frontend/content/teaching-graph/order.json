@@ -234,7 +234,9 @@
     "3:cursive-sentences",
     "3:word-fields",
     "3:person-words",
-    "3:root-words-in-context"
+    "3:root-words-in-context",
+    "3:answer-with-evidence",
+    "3:main-idea-key-details"
    ],
    "K": [
     "K:pre-writing-strokes",

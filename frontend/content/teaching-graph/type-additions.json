@@ -278,6 +278,10 @@
   "G2-522": "2:steps-in-order",
   "G2-525": "2:steps-in-order",
   "G2-523": "2:text-features",
-  "K-649": "K:two-texts-one-topic"
+  "K-649": "K:two-texts-one-topic",
+  "G3-494": "3:answer-with-evidence",
+  "G3-495": "3:answer-with-evidence",
+  "G3-496": "3:main-idea-key-details",
+  "G3-497": "3:main-idea-key-details"
  }
 }

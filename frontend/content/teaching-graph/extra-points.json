@@ -189,6 +189,20 @@
    "activities": [
     "willow-story-corner.compare-tales.rl-k-9"
    ]
+  },
+  {
+   "tp": "3:answer-with-evidence",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.1",
+   "skill": "Ask and answer questions about an informational text and show the paragraph and the sentence that prove each answer"
+  },
+  {
+   "tp": "3:main-idea-key-details",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.2",
+   "skill": "Determine the main idea of an informational text of four paragraphs, recount the key details that support it, and tell what each paragraph is mostly about"
   }
  ]
 }

@@ -2659,6 +2659,43 @@
    ]
   },
   {
+   "id": "k-reading-stories",
+   "slug": "reading-stories-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Reading Stories",
+   "metaTitle": "Kindergarten Lesson Plans: Reading Stories",
+   "metaDescription": "A Kindergarten unit on read-aloud picture stories: 4 lessons on who and where, retelling in order, asking and answering questions, and pictures and words.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:story-who-where",
+     "types": [
+      "K-650"
+     ]
+    },
+    {
+     "point": "K:retell-beginning-middle-end",
+     "types": [
+      "K-651"
+     ]
+    },
+    {
+     "point": "K:story-questions",
+     "types": [
+      "K-652"
+     ]
+    },
+    {
+     "point": "K:pictures-and-words",
+     "types": [
+      "K-653"
+     ]
+    }
+   ]
+  },
+  {
    "id": "k-reading-to-learn-fact-texts",
    "slug": "reading-to-learn-fact-texts-kindergarten-unit",
    "status": "live",
@@ -3434,6 +3471,7 @@
     "k-hearing-sounds-in-words",
     "k-first-words-to-read",
     "k-sorting-words-telling-stories",
+    "k-reading-stories",
     "k-reading-to-learn-fact-texts"
    ]
   },

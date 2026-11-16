@@ -306,6 +306,46 @@
    "activities": [
     "point-of-view.who-told.rl-1-6"
    ]
+  },
+  {
+   "tp": "K:story-who-where",
+   "grade": "K",
+   "strand": "Reading: Literature",
+   "code": "RL.K.3",
+   "skill": "Tell who a story is about, where it happens, and one big thing that happens in it",
+   "activities": [
+    "story-spine.role.rl-k-3"
+   ]
+  },
+  {
+   "tp": "K:retell-beginning-middle-end",
+   "grade": "K",
+   "strand": "Reading: Literature",
+   "code": "RL.K.2",
+   "skill": "Retell a story heard aloud in order: the beginning, the middle, and the end",
+   "activities": [
+    "wake-up-pip.retell-story.rl-k-2"
+   ]
+  },
+  {
+   "tp": "K:story-questions",
+   "grade": "K",
+   "strand": "Reading: Literature",
+   "code": "RL.K.1",
+   "skill": "Answer who, where, what, and how questions about a story heard aloud, and ask a question about it",
+   "activities": [
+    "picture-story.read.rl-k-1"
+   ]
+  },
+  {
+   "tp": "K:pictures-and-words",
+   "grade": "K",
+   "strand": "Reading: Literature",
+   "code": "RL.K.7",
+   "skill": "Match each part of a story heard aloud to the picture that shows it",
+   "activities": [
+    "otto-picture-book.which-picture.rl-k-7"
+   ]
   }
  ]
 }

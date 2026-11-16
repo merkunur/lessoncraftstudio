@@ -2451,6 +2451,66 @@
    ],
    "by": "authored"
   },
+  "K:story-who-where": {
+   "rows": [
+    {
+     "id": "ELAR.K.7.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.7.D",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.7.C",
+     "rel": "prepares",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:retell-beginning-middle-end": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.D",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:story-questions": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.5.B",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:pictures-and-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.E",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.9.C",
+     "rel": "prepares",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:sound-position": {
    "rows": [
     {

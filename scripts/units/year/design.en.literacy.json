@@ -1942,7 +1942,8 @@
             "standard": "RL.K.3",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes, Who? Where? What happened?, where the child answers. Level 1: the child circles the character and the place from three pictures each; level 2: the child draws them; level 3: the child draws and writes a label for each box."
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes, Who? Where? What happened?, where the child answers. Level 1: the child circles the character and the place from three pictures each; level 2: the child draws them; level 3: the child draws and writes a label for each box.",
+            "placed": "K:story-who-where"
           },
           {
             "new": true,
@@ -1952,7 +1953,8 @@
             "days": 2,
             "tool": "Story Line",
             "source": "new",
-            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes labeled beginning, middle, end. Level 1: the child cuts out three pictures and glues them in order; level 2: the child draws each part; level 3: the child draws each part and finishes a frame (First ___. Then ___. At the end ___.)."
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words that the teacher reads. Below: three boxes labeled beginning, middle, end. Level 1: the child cuts out three pictures and glues them in order; level 2: the child draws each part; level 3: the child draws each part and finishes a frame (First ___. Then ___. At the end ___.).",
+            "placed": "K:retell-beginning-middle-end"
           },
           {
             "new": true,
@@ -1962,7 +1964,8 @@
             "days": 2,
             "tool": "Name Sticks",
             "source": "new",
-            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words and four questions the teacher reads (Who lost the hat? Where did it go?); the child circles the picture answer from three. Level 1: who and where questions; level 2: what and why questions; level 3: the child also draws or dictates a question of their own in a question-mark box."
+            "page": "Story and questions page: a read-aloud story of 4 to 6 picture panels with about 60 words and four questions the teacher reads (Who lost the hat? Where did it go?); the child circles the picture answer from three. Level 1: who and where questions; level 2: what and why questions; level 3: the child also draws or dictates a question of their own in a question-mark box.",
+            "placed": "K:story-questions"
           },
           {
             "new": true,
@@ -1971,7 +1974,8 @@
             "standard": "RL.K.7",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: six sentences and six pictures from one short story in mixed order; the teacher reads each sentence and the child draws a line to its picture. Level 1: three sentences; level 2: six sentences; level 3: one sentence has no picture, and the child draws it."
+            "page": "Story and questions page: six sentences and six pictures from one short story in mixed order; the teacher reads each sentence and the child draws a line to its picture. Level 1: three sentences; level 2: six sentences; level 3: one sentence has no picture, and the child draws it.",
+            "placed": "K:pictures-and-words"
           },
           {
             "new": true,

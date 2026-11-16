@@ -2423,45 +2423,76 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 23,
-    "near": 3,
-    "open": 39,
-    "lessons": 35
+    "taught": 27,
+    "near": 2,
+    "open": 36,
+    "lessons": 37
    },
    "groups": [
     {
      "title": "Reading: Literature",
      "items": [
       {
-       "code": "RL.K.2",
-       "state": "near",
-       "text": "Children look at the pictures of a short story and put them in the order in which things happen.",
-       "rel": "prepares",
+       "code": "RL.K.1",
+       "state": "taught",
+       "text": "Children answer who, where, what, and how questions about a story they have heard, and ask a question of their own.",
        "lessons": [
         {
-         "unit": "sorting-opposites-and-story-order-kindergarten-unit",
-         "unitTitle": "Sorting, Opposites, and Story Order",
+         "unit": "reading-stories-kindergarten-unit",
+         "unitTitle": "Reading Stories",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Ask and Answer Questions About a Story"
+        }
+       ]
+      },
+      {
+       "code": "RL.K.2",
+       "state": "taught",
+       "text": "Children retell a story they have heard in order: what happens at the beginning, in the middle, and at the end.",
+       "lessons": [
+        {
+         "unit": "reading-stories-kindergarten-unit",
+         "unitTitle": "Reading Stories",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Retell the Story: Beginning, Middle, End"
+        }
+       ]
+      },
+      {
+       "code": "RL.K.3",
+       "state": "taught",
+       "text": "Children tell who a story is about, where it happens, and one big thing that happens in it.",
+       "lessons": [
+        {
+         "unit": "reading-stories-kindergarten-unit",
+         "unitTitle": "Reading Stories",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "Who Is in the Story, and Where?"
+        }
+       ]
+      },
+      {
+       "code": "RL.K.7",
+       "state": "taught",
+       "text": "Children match each part of a story they hear to the picture that shows it.",
+       "lessons": [
+        {
+         "unit": "reading-stories-kindergarten-unit",
+         "unitTitle": "Reading Stories",
          "unitGrade": "K",
          "n": 4,
-         "title": "First, next, last"
-        },
-        {
-         "unit": "reading-sentences-and-stories-grade-1-unit",
-         "unitTitle": "Reading Sentences and Stories",
-         "unitGrade": "1",
-         "n": 5,
-         "title": "What happens next?"
+         "title": "The Pictures and the Words"
         }
        ]
       }
      ],
      "open": [
-      "RL.K.1",
-      "RL.K.3",
       "RL.K.4",
       "RL.K.5",
       "RL.K.6",
-      "RL.K.7",
       "RL.K.9",
       "RL.K.10"
      ]

@@ -5,6 +5,8 @@
  * fact text of four short sentences in big print that the teacher reads aloud, with answers that are pictures.
  * Each note was written from the pages the lesson hands out, in American English, and read by one American
  * kindergarten teacher-reviewer with a description of the pages (2026-11-15); every finding is in the text below.
+ * The four notes of the unit Reading Stories (K-650 to K-653) were added by
+ * place-ready-l.en.literacy.js; the reviewer of the story pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -53,6 +55,42 @@ module.exports = {
         mistake: 'Children sort by what they know, not by what the texts say: a cat may play with a ball too, so the ball goes in the middle, although only the text about dogs tells about a ball. Many children wear boots in the snow, but only the rainy-day text tells about boots. Others glue a card under the first text that names it and never check the second text. Most cards can be placed from what children already know, so a correct page does not prove they compared the texts. The proof is pointing to the sentence in each text.',
         words: 'Read the first text aloud, then the second, while children point under the words. Say: "Both texts are about pets" (or trees, the weather, the sky, farm animals). "Some things are in both texts. Some are in only one." Hold up one picture card and name it with the word of the text ("leaves," "rain boots," "yarn," "a mail truck"): "Listen for it." Read both texts again, and children raise a hand each time they hear the word. "Did you hear it in the first text? In the second? In both?" Only then do they glue the card. The picture of each text is at the top of its box, and the middle box shows both pictures.',
         watch: 'Ask about one card in the middle: "Show me where each text says it." A child who can point to both sentences has compared the texts. On the cut-and-glue page, two pictures go in each box. On the drawing pages, anything a text tells about counts, and a quick sketch is fine; on the draw-and-write page invented spelling is fine too. A drawing of the cat or the dog only copies the picture at the top: ask for something the text says about it. The on-screen activity compares two stories, not fact texts: use it as a warm-up or at a center, and tell children they do the same thing here with facts.',
+      },
+    },
+    'K:story-who-where': {
+      title: 'Who Is in the Story, and Where?',
+      objective: 'Children tell who a story is about, where it happens, and one big thing that happens in it.',
+      note: {
+        mistake: 'Children name every animal in the pictures instead of the one the story is about. For "where" they point to a thing ("the hat") and not to a place. For "what happened" they tell only the ending.',
+        words: 'Read the story aloud twice: first straight through, then panel by panel while children touch each number. Teach three words with a gesture each: characters (point to yourself: who), setting (spread your arms: where), events (clap once: what happens). Ask: "Who is the story about? Where does it happen? What is one big thing that happens?" On Level 1 children circle a picture for each question. On Level 2 they draw the character, the place, and one thing that happens in three boxes. On Level 3 they draw in smaller boxes and write a word on the big row next to each drawing; writing the sounds they hear is fine ("lak" for lake). On screen, Dot\'s Story Spine asks for the start, the trouble, and the fix of a little story.',
+        watch: 'A drawing is right when you can tell what it shows, or the child can tell you. Ask: "Who is this? Where is she?" If a child draws a helper (Frog for Duck), ask: "Whose hat is it? Who is the story about?" When the title names two animals (Bear and the Bee), or two animals do the work together (Rabbit and Hen), either one or both is right. On Level 1 the third row shows one pair of pictures from this story and two pairs from other stories.',
+      },
+    },
+    'K:retell-beginning-middle-end': {
+      title: 'Retell the Story: Beginning, Middle, End',
+      objective: 'Children retell a story they have heard in order: what happens at the beginning, in the middle, and at the end.',
+      note: {
+        mistake: 'Children start with the part they liked best, or they tell only the end. Some name things ("a duck, a hat") instead of telling what happened.',
+        words: 'Read the story aloud twice. Hold up three fingers and retell a story the class knows: "First ... Then ... At the end ..." On Level 1 children look at three pairs of pictures from the story and write 1, 2, and 3 to put them in order; then they tell the story to a partner with the pictures. On Level 2 they draw the beginning, the middle, and the end. On Level 3 they tell the story and finish three sentences that begin First, Then, and At the end, on big rows; a child may tell you the words to write, or write the sounds he or she hears. The telling matters more than the drawing: every child tells the story aloud once. On screen, Wake Up, Pip! lets children retell a story in order to a sleepy friend.',
+        watch: 'A retelling is right when the three parts are in order and the end is there. Small details may be left out. The story has four panels and the page asks for three parts, so two panels may go together; on Levels 2 and 3 a beginning drawn from the first or second panel is right. This page prints the panels without numbers. If a child skips the middle, point to the second or third panel and ask: "What happened here?"',
+      },
+    },
+    'K:story-questions': {
+      title: 'Ask and Answer Questions About a Story',
+      objective: 'Children answer who, where, what, and how questions about a story they have heard, and ask a question of their own.',
+      note: {
+        mistake: 'Children answer with something they know about the animal, not with what the story says. They mix up who and where. When asked for a question, they tell something instead ("The duck has a hat").',
+        words: 'Read the story aloud twice. Read each question aloud and have children point to the panel that tells the answer before they circle a picture. On Level 1 the questions begin with Who and Where. On Level 2 they begin with What and How; a How question asks for a feeling, and children circle a face. On Level 3 children answer two questions and ask one of their own: they draw what they want to know, or they tell you the question and you write it in the box. Say: "A question asks something we want to know. It often starts with who, what, where, when, why, or how." On screen, Fable\'s Picture Stories gives more questions about three-picture stories.',
+        watch: 'An answer is right when the story says it. Ask: "Which picture of the story shows that?" For a child\'s own question, accept any real question about the story, even one the story does not answer ("Why did Frog help?"). If the child tells a fact, say: "Turn it into a question. Start with who or what."',
+      },
+    },
+    'K:pictures-and-words': {
+      title: 'The Pictures and the Words',
+      objective: 'Children match each part of a story they hear to the picture that shows it.',
+      note: {
+        mistake: 'Children draw a line to the picture straight across from the sentence. They match by one thing they see (any picture with the cat) and not by what happens in the sentence.',
+        words: 'This page prints the sentences of a story on the left and its pictures on the right, mixed up. Read sentence 1 aloud, have children put a finger on its dot, and ask: "Which picture shows this part? What do you see in it?" Then children draw the line. Say: "The pictures show what the words tell." On Level 1 there are three sentences (the first and the last of the story and one from the middle), on Level 2 all four. On Level 3 one picture is missing: children draw it in the empty box, then draw the line to it. Afterward, read the story again and let children point to each picture as its part is read. On screen, in Otto\'s Picture Book, children tap the picture that shows the part Otto reads.',
+        watch: 'No picture stands straight across from its sentence, so a child who draws straight lines has not matched. Many pairs share an animal or a thing (the hat, Rabbit, the honey), so one picture is not enough. Ask: "Do you hear both things in this sentence?" On Level 3 the drawing is right when it shows who and what the sentence tells.',
       },
     },
   },

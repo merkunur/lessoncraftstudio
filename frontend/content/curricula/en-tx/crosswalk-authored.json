@@ -4765,6 +4765,62 @@
    ],
    "why": "Telling the narrator's sentences from the words a character speaks is a first step toward «listen to and experience first- and third-person texts»: the stories are told in the third person, and the children hear who tells and who speaks.",
    "review": "year-design 2026-11-17"
+  },
+  "K:story-who-where": {
+   "rows": [
+    {
+     "id": "ELAR.K.7.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.7.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.7.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Circling, drawing and naming the animal a story is about is «identify and describe the main characters»; circling, drawing and naming the place is «describe the setting»; choosing and drawing one big thing that happens is a first step toward «describe the elements of plot development, including the main events, the problem, and the resolution».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:retell-beginning-middle-end": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Putting three pictures of a story in order, drawing its beginning, middle and end and telling it with First, Then, At the end is «retell texts in ways that maintain meaning».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:story-questions": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.5.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling the picture that answers a question about a story is «provide an oral, pictorial, or written response to a text»; drawing or telling a question of the child's own is «generate questions about text before, during, and after reading».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:pictures-and-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.6.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.9.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drawing a line from each part of a story to its picture, and drawing the picture that is missing, is «interact with sources in meaningful ways such as illustrating or writing»; seeing that each picture shows what its words tell leads toward «discuss with adult assistance the author's use of print and graphic features».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

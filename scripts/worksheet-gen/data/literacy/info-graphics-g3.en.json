@@ -1,0 +1,2544 @@
+{
+ "_note": "Grade 3 texts read WITH a map or a diagram (RI.3.7; types/_shared/info-text-g3d.js). `maps`: three numbered paragraphs (no compass word, no grid square), a map of real places at their real latitude and longitude (bbox = [west, east, south, north] degrees; gw x gh = the map area in px; cols x rows = the grid; layout \"tall\" = the map stands beside the text), its key, questions answered from the TEXT only, and questions that need BOTH (`where`: the text tells which place, the map tells its square; `what`: the map tells which place by its square, the text tells the answer; `name`: the text tells which thing, only the map prints its name). Questions answered from the MAP only are made by the page from the map itself (a square, the place of a kind in a square, a direction, a key symbol). `blanks`: two places whose names the page hides on level 3. `diagrams`: three paragraphs, a diagram of four steps with library pictures (a chain or a cycle), and questions answered from the DIAGRAM only, the TEXT only, or BOTH; `says` = what happens in a step (the sample answer of the level 3 task \"write the missing step\"). `find`: the words of the text that prove an answer given in other words; `cue`: the words of a BOTH question that only the text explains; `group`: two questions of one group never stand on one page (one would give the other away); `via: \"diagram\"`: a both question that points at a step by its place in the diagram.",
+ "maps": [
+  {
+   "id": "railroad",
+   "title": "The Railroad Across America",
+   "parts": [
+    [
+     "In the 1860s, a trip across the United States by wagon took many months.",
+     "People wanted a railroad that would join the two sides of the country.",
+     "In 1863, two railroad companies began to build it."
+    ],
+    [
+     "The Central Pacific Railroad started in Sacramento, California.",
+     "Its workers dug tunnels through the tall, rocky Sierra Nevada mountains.",
+     "The Union Pacific Railroad started in Omaha, Nebraska.",
+     "Its workers laid track across wide, flat grassland and then over the Rocky Mountains.",
+     "The work was hard and often dangerous."
+    ],
+    [
+     "On May 10, 1869, the two railroads met at Promontory Summit, Utah.",
+     "A golden spike was tapped into the last tie to mark the finish.",
+     "News of it was sent across the country by telegraph.",
+     "After that, a trip across the country took only about a week."
+    ]
+   ],
+   "map": {
+    "bbox": [
+     -124.941176,
+     -93.410491,
+     33.398623,
+     44.781301
+    ],
+    "gw": 430,
+    "gh": 200,
+    "cols": 4,
+    "rows": 2,
+    "places": [
+     {
+      "name": "Sacramento",
+      "at": [
+       38.58,
+       -121.49
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Sierra Nevada",
+      "the": true,
+      "at": [
+       40.1,
+       -120.9
+      ],
+      "sym": "pic",
+      "pic": [
+       "camping",
+       "mountain"
+      ],
+      "kind": "mountains",
+      "noLabel": true
+     },
+     {
+      "name": "Promontory Summit",
+      "labels": [
+       [
+        "Promontory",
+        "Summit"
+       ]
+      ],
+      "at": [
+       41.62,
+       -112.55
+      ],
+      "sym": "star"
+     },
+     {
+      "name": "Rocky Mountains",
+      "the": true,
+      "plural": true,
+      "at": [
+       41.13,
+       -105.4
+      ],
+      "sym": "pic",
+      "pic": [
+       "camping",
+       "mountain"
+      ],
+      "kind": "mountains",
+      "noLabel": true
+     },
+     {
+      "name": "Omaha",
+      "at": [
+       41.26,
+       -95.94
+      ],
+      "sym": "dot"
+     }
+    ],
+    "lines": [
+     {
+      "style": "rail",
+      "pts": [
+       [
+        38.58,
+        -121.49
+       ],
+       [
+        38.9,
+        -121.07
+       ],
+       [
+        39.32,
+        -120.33
+       ],
+       [
+        39.53,
+        -119.81
+       ],
+       [
+        40.97,
+        -117.73
+       ],
+       [
+        40.83,
+        -115.76
+       ],
+       [
+        41.5,
+        -113.9
+       ],
+       [
+        41.62,
+        -112.55
+       ]
+      ]
+     },
+     {
+      "style": "rail2",
+      "pts": [
+       [
+        41.26,
+        -95.94
+       ],
+       [
+        40.92,
+        -98.34
+       ],
+       [
+        41.13,
+        -100.77
+       ],
+       [
+        41.14,
+        -104.82
+       ],
+       [
+        41.13,
+        -105.4
+       ],
+       [
+        41.31,
+        -105.59
+       ],
+       [
+        41.59,
+        -109.2
+       ],
+       [
+        41.26,
+        -110.96
+       ],
+       [
+        41.22,
+        -111.97
+       ],
+       [
+        41.62,
+        -112.55
+       ]
+      ]
+     }
+    ],
+    "key": [
+     {
+      "sym": "line:rail",
+      "text": "Central Pacific Railroad"
+     },
+     {
+      "sym": "line:rail2",
+      "text": "Union Pacific Railroad"
+     },
+     {
+      "sym": "star",
+      "text": "where the railroads met",
+      "ask": true
+     },
+     {
+      "sym": "dot",
+      "text": "city"
+     },
+     {
+      "sym": "pic",
+      "pic": [
+       "camping",
+       "mountain"
+      ],
+      "text": "mountains"
+     }
+    ]
+   },
+   "text": [
+    {
+     "q": "In what year did the two railroads meet?",
+     "answer": "1869",
+     "wrong": [
+      "1863",
+      "1860"
+     ]
+    },
+    {
+     "q": "What was tapped into the last tie to mark the finish?",
+     "answer": "a golden spike",
+     "wrong": [
+      "a silver bell",
+      "an iron wheel"
+     ],
+     "group": "spike"
+    },
+    {
+     "q": "How long did a trip across the country take after the railroad was done?",
+     "answer": "about a week",
+     "wrong": [
+      "many months",
+      "about a year"
+     ]
+    },
+    {
+     "q": "How was the news sent across the country?",
+     "answer": "by telegraph",
+     "wrong": [
+      "by wagon",
+      "by letter"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "kind": "where",
+     "q": "In which square did the Union Pacific Railroad start?",
+     "place": "Omaha",
+     "lure": "Promontory Summit",
+     "cue": "Union Pacific Railroad started",
+     "group": "omaha"
+    },
+    {
+     "kind": "where",
+     "q": "In which square are the mountains where the text says workers dug tunnels?",
+     "place": "Sierra Nevada",
+     "lure": "Rocky Mountains",
+     "cue": "tunnels",
+     "group": "mountains"
+    },
+    {
+     "kind": "what",
+     "q": "What did workers do in the mountains in square {SQ}?",
+     "place": "Rocky Mountains",
+     "answer": "They laid track over them.",
+     "find": "then over the Rocky Mountains",
+     "wrong": [
+      "They dug tunnels through them.",
+      "They tapped in a golden spike."
+     ],
+     "group": "mountains"
+    },
+    {
+     "kind": "where",
+     "q": "In which square was the golden spike tapped in?",
+     "place": "Promontory Summit",
+     "cue": "golden spike",
+     "group": "spike"
+    },
+    {
+     "kind": "what",
+     "q": "What did the workers who started in square {SQ} lay track across first?",
+     "place": "Omaha",
+     "answer": "wide, flat grassland",
+     "find": "across wide, flat grassland",
+     "wrong": [
+      "tall, rocky mountains",
+      "a frozen river"
+     ],
+     "group": "omaha"
+    }
+   ],
+   "blanks": [
+    "Promontory Summit",
+    "Sacramento"
+   ],
+   "blankWhy": "Promontory Summit: the key says the star is where the railroads met, and the text names the place. Sacramento: the key says the solid line is the Central Pacific, and the text says the Central Pacific started in Sacramento (the other end of that line is the star)."
+  },
+  {
+   "id": "mississippi",
+   "title": "The Mighty Mississippi",
+   "parts": [
+    [
+     "The Mississippi River is one of the longest rivers in North America.",
+     "It begins as a small, clear stream that flows out of Lake Itasca in Minnesota.",
+     "There, the river is so narrow that people can walk across it on stepping stones."
+    ],
+    [
+     "The river winds along for about 2,350 miles.",
+     "In Minneapolis, it tumbles over a waterfall called St. Anthony Falls.",
+     "Other big rivers pour into it on the way.",
+     "The Missouri River joins it near the city of St. Louis.",
+     "Farther down, the Ohio River joins it at the town of Cairo, Illinois.",
+     "With all this water, the Mississippi grows wide and deep."
+    ],
+    [
+     "Today, long, flat boats called barges travel on the river.",
+     "They carry corn, coal, and other goods.",
+     "The river ends where it empties into the sea, past the city of New Orleans."
+    ]
+   ],
+   "map": {
+    "layout": "tall",
+    "bbox": [
+     -102.68417,
+     -85.103975,
+     26.992485,
+     49.138141
+    ],
+    "gw": 250,
+    "gh": 400,
+    "cols": 2,
+    "rows": 4,
+    "places": [
+     {
+      "name": "Lake Itasca",
+      "labels": [
+       [
+        "Lake Itasca"
+       ],
+       [
+        "Lake",
+        "Itasca"
+       ]
+      ],
+      "at": [
+       47.24,
+       -95.21
+      ],
+      "sym": "diamond"
+     },
+     {
+      "name": "Minneapolis",
+      "at": [
+       44.98,
+       -93.27
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "St. Louis",
+      "at": [
+       38.63,
+       -90.2
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Cairo",
+      "at": [
+       37,
+       -89.18
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "New Orleans",
+      "labels": [
+       [
+        "New Orleans"
+       ],
+       [
+        "New",
+        "Orleans"
+       ]
+      ],
+      "at": [
+       29.95,
+       -90.07
+      ],
+      "sym": "dot"
+     }
+    ],
+    "areas": [
+     {
+      "shape": "poly",
+      "fill": "water",
+      "pts": [
+       [
+        29.75,
+        -110
+       ],
+       [
+        29.75,
+        -94.5
+       ],
+       [
+        29.55,
+        -92
+       ],
+       [
+        29.25,
+        -90.6
+       ],
+       [
+        28.95,
+        -89.4
+       ],
+       [
+        29.6,
+        -89
+       ],
+       [
+        30,
+        -88.6
+       ],
+       [
+        30.3,
+        -88
+       ],
+       [
+        30.3,
+        -80
+       ],
+       [
+        20,
+        -80
+       ],
+       [
+        20,
+        -110
+       ]
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "style": "river2",
+      "offMap": true,
+      "pts": [
+       [
+        47.9,
+        -104.6
+       ],
+       [
+        46.81,
+        -100.78
+       ],
+       [
+        44.37,
+        -100.35
+       ],
+       [
+        42.49,
+        -96.4
+       ],
+       [
+        41.26,
+        -95.93
+       ],
+       [
+        39.1,
+        -94.58
+       ],
+       [
+        38.58,
+        -92.17
+       ],
+       [
+        38.81,
+        -90.12
+       ]
+      ]
+     },
+     {
+      "style": "river2",
+      "offMap": true,
+      "pts": [
+       [
+        39.1,
+        -84.51
+       ],
+       [
+        38.25,
+        -85.76
+       ],
+       [
+        37.97,
+        -87.57
+       ],
+       [
+        37,
+        -89.13
+       ]
+      ]
+     },
+     {
+      "style": "river",
+      "arrows": [
+       0.3,
+       0.7
+      ],
+      "pts": [
+       [
+        47.24,
+        -95.21
+       ],
+       [
+        47.47,
+        -94.88
+       ],
+       [
+        46.36,
+        -94.2
+       ],
+       [
+        44.98,
+        -93.27
+       ],
+       [
+        43.8,
+        -91.25
+       ],
+       [
+        41.52,
+        -90.58
+       ],
+       [
+        40.4,
+        -91.38
+       ],
+       [
+        38.81,
+        -90.12
+       ],
+       [
+        38.63,
+        -90.2
+       ],
+       [
+        37,
+        -89.18
+       ],
+       [
+        35.15,
+        -90.05
+       ],
+       [
+        32.35,
+        -90.88
+       ],
+       [
+        31,
+        -91.6
+       ],
+       [
+        30.45,
+        -91.19
+       ],
+       [
+        29.95,
+        -90.07
+       ],
+       [
+        29.3,
+        -89.4
+       ]
+      ]
+     }
+    ],
+    "key": [
+     {
+      "sym": "line:river",
+      "text": "Mississippi River"
+     },
+     {
+      "sym": "line:river2",
+      "text": "another river"
+     },
+     {
+      "sym": "arrow",
+      "text": "the way water flows",
+      "ask": true
+     },
+     {
+      "sym": "diamond",
+      "text": "start of the river",
+      "ask": true
+     },
+     {
+      "sym": "dot",
+      "text": "city or town"
+     },
+     {
+      "sym": "area:water",
+      "text": "sea"
+     }
+    ]
+   },
+   "text": [
+    {
+     "q": "About how long is the Mississippi River?",
+     "answer": "about 2,350 miles",
+     "wrong": [
+      "about 235 miles",
+      "about 23,500 miles"
+     ]
+    },
+    {
+     "q": "Which goods does the text say barges carry?",
+     "answer": "corn and coal",
+     "find": "corn, coal",
+     "wrong": [
+      "wheat and oil",
+      "cars and trucks"
+     ]
+    },
+    {
+     "q": "How can people cross the river at Lake Itasca?",
+     "answer": "on stepping stones",
+     "wrong": [
+      "on a big bridge",
+      "on a barge"
+     ]
+    },
+    {
+     "q": "What happens to the river when other rivers pour into it?",
+     "answer": "It grows wide and deep.",
+     "find": "grows wide and deep",
+     "wrong": [
+      "It dries up.",
+      "It turns into a lake."
+     ],
+     "group": "wide"
+    }
+   ],
+   "both": [
+    {
+     "kind": "where",
+     "q": "In which square can people walk across the river on stepping stones?",
+     "place": "Lake Itasca",
+     "cue": "stepping stones",
+     "group": "itasca"
+    },
+    {
+     "kind": "what",
+     "q": "What can people do at the place in square {SQ}?",
+     "place": "Lake Itasca",
+     "answer": "walk across the river on stepping stones",
+     "find": "walk across it on stepping stones",
+     "wrong": [
+      "ride a big boat",
+      "see a waterfall"
+     ],
+     "group": "itasca"
+    },
+    {
+     "kind": "where",
+     "q": "In which square does the Missouri River join the Mississippi?",
+     "place": "St. Louis",
+     "cue": "Missouri River",
+     "group": "joins"
+    },
+    {
+     "kind": "what",
+     "q": "Which river joins the Mississippi near the city in square {SQ}?",
+     "place": "St. Louis",
+     "answer": "the Missouri River",
+     "find": "Missouri River joins it near",
+     "wrong": [
+      "the Ohio River",
+      "the Hudson River"
+     ],
+     "group": "joins"
+    },
+    {
+     "kind": "what",
+     "q": "Which river joins the Mississippi at the town in square {SQ}?",
+     "place": "Cairo",
+     "answer": "the Ohio River",
+     "find": "Ohio River joins it at the town of Cairo",
+     "wrong": [
+      "the Missouri River",
+      "the Hudson River"
+     ],
+     "group": "joins"
+    },
+    {
+     "kind": "where",
+     "q": "In which square does the river tumble over a waterfall?",
+     "place": "Minneapolis",
+     "cue": "waterfall"
+    },
+    {
+     "kind": "what",
+     "q": "Why is the river wide and deep at the city in square {SQ}?",
+     "place": "New Orleans",
+     "answer": "Big rivers have poured into it.",
+     "find": "Other big rivers pour into it",
+     "wrong": [
+      "It is close to where it begins.",
+      "Barges carry coal there."
+     ],
+     "group": "wide"
+    }
+   ],
+   "blanks": [
+    "Lake Itasca",
+    "New Orleans"
+   ],
+   "blankWhy": "Lake Itasca: the key says the diamond is the start of the river, and the text says the river begins at Lake Itasca. New Orleans: the text says the river empties into the sea past New Orleans, and on the map it is the last city before the sea."
+  },
+  {
+   "id": "national-mall",
+   "title": "The National Mall",
+   "parts": [
+    [
+     "The National Mall is a long, grassy park in Washington, D.C.",
+     "Famous buildings and memorials stand along it.",
+     "A memorial is built to help people remember a person or an event.",
+     "Millions of people visit the Mall every year."
+    ],
+    [
+     "At one end of the Mall is the U.S. Capitol, where Congress meets to make the country's laws.",
+     "At the other end is the Lincoln Memorial.",
+     "Inside it, a giant statue of Abraham Lincoln sits in a chair and looks out over a long pool of water."
+    ],
+    [
+     "Between them rises the Washington Monument, a tall stone tower that honors George Washington, the first president.",
+     "It is about 555 feet tall.",
+     "The White House, where the president lives, is not far away.",
+     "So is the Jefferson Memorial, which stands beside a small lake called the Tidal Basin."
+    ]
+   ],
+   "map": {
+    "bbox": [
+     -77.054811,
+     -77.000732,
+     38.874815,
+     38.893992
+    ],
+    "gw": 450,
+    "gh": 205,
+    "cols": 4,
+    "rows": 2,
+    "places": [
+     {
+      "name": "U.S. Capitol",
+      "the": true,
+      "labels": [
+       [
+        "U.S. Capitol"
+       ],
+       [
+        "U.S.",
+        "Capitol"
+       ]
+      ],
+      "at": [
+       38.8899,
+       -77.0091
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Washington Monument",
+      "the": true,
+      "labels": [
+       [
+        "Washington",
+        "Monument"
+       ]
+      ],
+      "at": [
+       38.8895,
+       -77.0353
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Lincoln Memorial",
+      "the": true,
+      "labels": [
+       [
+        "Lincoln",
+        "Memorial"
+       ]
+      ],
+      "at": [
+       38.8893,
+       -77.0502
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Jefferson Memorial",
+      "the": true,
+      "labels": [
+       [
+        "Jefferson",
+        "Memorial"
+       ]
+      ],
+      "at": [
+       38.8814,
+       -77.0365
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Smithsonian Castle",
+      "the": true,
+      "labels": [
+       [
+        "Smithsonian",
+        "Castle"
+       ]
+      ],
+      "at": [
+       38.8888,
+       -77.026
+      ],
+      "sym": "dot",
+      "sides": [
+       "b",
+       "br",
+       "bl"
+      ]
+     }
+    ],
+    "areas": [
+     {
+      "shape": "rect",
+      "from": [
+       38.8916,
+       -77.0502
+      ],
+      "to": [
+       38.8876,
+       -77.0091
+      ],
+      "fill": "park"
+     },
+     {
+      "shape": "rect",
+      "from": [
+       38.8898,
+       -77.0475
+      ],
+      "to": [
+       38.8889,
+       -77.0397
+      ],
+      "fill": "water",
+      "name": "Reflecting Pool",
+      "label": [
+       "Reflecting",
+       "Pool"
+      ]
+     },
+     {
+      "shape": "ellipse",
+      "at": [
+       38.8845,
+       -77.039
+      ],
+      "r": [
+       0.004,
+       0.0019
+      ],
+      "fill": "water"
+     }
+    ],
+    "lines": [],
+    "key": [
+     {
+      "sym": "dot",
+      "text": "building or memorial"
+     },
+     {
+      "sym": "area:park",
+      "text": "grassy park"
+     },
+     {
+      "sym": "area:water",
+      "text": "water"
+     }
+    ]
+   },
+   "text": [
+    {
+     "q": "Who meets in the U.S. Capitol?",
+     "answer": "Congress",
+     "wrong": [
+      "the president",
+      "George Washington"
+     ],
+     "group": "who"
+    },
+    {
+     "q": "Who lives in the White House?",
+     "answer": "the president",
+     "wrong": [
+      "Congress",
+      "George Washington"
+     ],
+     "group": "who"
+    },
+    {
+     "q": "About how tall is the Washington Monument?",
+     "answer": "about 555 feet",
+     "wrong": [
+      "about 55 feet",
+      "about 5,000 feet"
+     ],
+     "group": "tall"
+    },
+    {
+     "q": "What is a memorial built to do?",
+     "answer": "help people remember a person or an event",
+     "wrong": [
+      "give the president a home",
+      "hold water for a park"
+     ]
+    },
+    {
+     "q": "What sits inside the Lincoln Memorial?",
+     "answer": "a statue of Abraham Lincoln",
+     "find": "statue of Abraham Lincoln",
+     "wrong": [
+      "a long pool of water",
+      "a stone tower"
+     ],
+     "group": "statue"
+    }
+   ],
+   "both": [
+    {
+     "kind": "name",
+     "q": "What is the name of the water that the giant statue looks out over?",
+     "answer": "Reflecting Pool",
+     "uses": [
+      "Lincoln Memorial"
+     ],
+     "cue": "giant statue",
+     "wrong": [
+      "Tidal Basin",
+      "the Mall"
+     ],
+     "group": "statue"
+    },
+    {
+     "kind": "where",
+     "q": "In which square is the memorial that stands beside a small lake?",
+     "place": "Jefferson Memorial",
+     "cue": "small lake"
+    },
+    {
+     "kind": "what",
+     "q": "What sits inside the memorial in square {SQ}?",
+     "place": "Lincoln Memorial",
+     "answer": "a giant statue of Abraham Lincoln",
+     "find": "giant statue of Abraham Lincoln",
+     "wrong": [
+      "a long pool of water",
+      "a tall stone tower"
+     ],
+     "group": "statue"
+    },
+    {
+     "kind": "what",
+     "q": "About how tall is the tower in square {SQ}?",
+     "place": "Washington Monument",
+     "answer": "about 555 feet",
+     "find": "about 555 feet tall",
+     "wrong": [
+      "about 55 feet",
+      "about 5,000 feet"
+     ],
+     "group": "tall"
+    }
+   ],
+   "blanks": [
+    "Lincoln Memorial",
+    "Jefferson Memorial"
+   ],
+   "blankWhy": "Lincoln Memorial: the text says it is at the other end of the Mall from the U.S. Capitol, and it looks out over a long pool. Jefferson Memorial: the text says it stands beside a small lake, and the map shows one memorial beside a small lake."
+  },
+  {
+   "id": "iditarod",
+   "title": "The Iditarod Sled Dog Race",
+   "parts": [
+    [
+     "Every March, teams of sled dogs race across Alaska in the Iditarod.",
+     "Each team has a driver, called a musher, and a group of strong, fast dogs.",
+     "The musher stands on the back of the sled.",
+     "The trail is about 1,000 miles long."
+    ],
+    [
+     "The race starts in the city of Anchorage.",
+     "The teams cross frozen rivers, thick forests, and tall mountains.",
+     "Along the trail, they stop at places called checkpoints.",
+     "Most are in small villages.",
+     "There the mushers rest, and the dogs eat and get checked by animal doctors.",
+     "One checkpoint is Unalakleet, a village near the sea."
+    ],
+    [
+     "The race ends in the town of Nome.",
+     "It honors a famous trip in 1925, when sled dog teams carried medicine to Nome to help sick children.",
+     "The fastest teams finish in about nine days."
+    ]
+   ],
+   "map": {
+    "bbox": [
+     -167.22716,
+     -145.157744,
+     60.33342,
+     65.165733
+    ],
+    "gw": 456,
+    "gh": 205,
+    "cols": 4,
+    "rows": 2,
+    "places": [
+     {
+      "name": "Anchorage",
+      "at": [
+       61.22,
+       -149.9
+      ],
+      "sym": "triangle"
+     },
+     {
+      "name": "Alaska Range",
+      "the": true,
+      "at": [
+       62.3,
+       -152.4
+      ],
+      "sym": "pic",
+      "pic": [
+       "camping",
+       "mountain"
+      ],
+      "kind": "mountains",
+      "noLabel": true
+     },
+     {
+      "name": "McGrath",
+      "at": [
+       62.95,
+       -155.6
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Unalakleet",
+      "at": [
+       63.87,
+       -160.79
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Nome",
+      "at": [
+       64.5,
+       -165.41
+      ],
+      "sym": "star"
+     }
+    ],
+    "areas": [
+     {
+      "shape": "poly",
+      "fill": "water",
+      "pts": [
+       [
+        66,
+        -175
+       ],
+       [
+        66,
+        -166.3
+       ],
+       [
+        64.48,
+        -165.5
+       ],
+       [
+        64.42,
+        -164.7
+       ],
+       [
+        64.46,
+        -164
+       ],
+       [
+        64.5,
+        -163.1
+       ],
+       [
+        64.56,
+        -162.4
+       ],
+       [
+        64.85,
+        -161.4
+       ],
+       [
+        64.9,
+        -161.2
+       ],
+       [
+        64.3,
+        -161.25
+       ],
+       [
+        63.85,
+        -160.85
+       ],
+       [
+        63.47,
+        -162.05
+       ],
+       [
+        63.03,
+        -163.55
+       ],
+       [
+        61.53,
+        -166.1
+       ],
+       [
+        60.3,
+        -165.2
+       ],
+       [
+        59,
+        -165.2
+       ],
+       [
+        59,
+        -175
+       ]
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "style": "trail",
+      "pts": [
+       [
+        61.22,
+        -149.9
+       ],
+       [
+        61.75,
+        -150.04
+       ],
+       [
+        61.96,
+        -151.17
+       ],
+       [
+        62.08,
+        -152.72
+       ],
+       [
+        62.58,
+        -153.39
+       ],
+       [
+        63.01,
+        -154.38
+       ],
+       [
+        62.95,
+        -155.6
+       ],
+       [
+        62.99,
+        -156.06
+       ],
+       [
+        63.14,
+        -156.52
+       ],
+       [
+        63.6,
+        -156.9
+       ],
+       [
+        64.74,
+        -155.49
+       ],
+       [
+        64.74,
+        -156.93
+       ],
+       [
+        64.72,
+        -158.1
+       ],
+       [
+        64.33,
+        -158.72
+       ],
+       [
+        63.87,
+        -160.79
+       ],
+       [
+        64.35,
+        -161.18
+       ],
+       [
+        64.93,
+        -161.16
+       ],
+       [
+        64.62,
+        -162.26
+       ],
+       [
+        64.54,
+        -163.03
+       ],
+       [
+        64.68,
+        -163.41
+       ],
+       [
+        64.47,
+        -164.73
+       ],
+       [
+        64.5,
+        -165.41
+       ]
+      ]
+     }
+    ],
+    "key": [
+     {
+      "sym": "triangle",
+      "text": "start",
+      "ask": true
+     },
+     {
+      "sym": "star",
+      "text": "finish",
+      "ask": true
+     },
+     {
+      "sym": "dot",
+      "text": "checkpoint"
+     },
+     {
+      "sym": "line:trail",
+      "text": "the trail"
+     },
+     {
+      "sym": "pic",
+      "pic": [
+       "camping",
+       "mountain"
+      ],
+      "text": "mountains"
+     },
+     {
+      "sym": "area:water",
+      "text": "sea"
+     }
+    ]
+   },
+   "text": [
+    {
+     "q": "About how long is the trail?",
+     "answer": "about 1,000 miles",
+     "wrong": [
+      "about 100 miles",
+      "about 10,000 miles"
+     ]
+    },
+    {
+     "q": "What is the driver of a dog team called?",
+     "answer": "a musher",
+     "wrong": [
+      "a checkpoint",
+      "a sled"
+     ]
+    },
+    {
+     "q": "Why did sled dog teams carry medicine to Nome in 1925?",
+     "answer": "to help sick children",
+     "wrong": [
+      "to win a race",
+      "to feed the dogs"
+     ],
+     "group": "medicine"
+    },
+    {
+     "q": "About how long do the fastest teams take to finish?",
+     "answer": "about nine days",
+     "wrong": [
+      "about one day",
+      "about nine weeks"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "kind": "where",
+     "q": "In which square is the checkpoint that the text names?",
+     "place": "Unalakleet",
+     "cue": "One checkpoint is Unalakleet"
+    },
+    {
+     "kind": "what",
+     "q": "What happens to the dogs at the place in square {SQ}?",
+     "place": "McGrath",
+     "answer": "They eat and get checked by animal doctors.",
+     "find": "the dogs eat and get checked by animal doctors",
+     "wrong": [
+      "They get new sleds.",
+      "They finish the race."
+     ],
+     "group": "checkpoint",
+     "via": "checkpoint"
+    },
+    {
+     "kind": "what",
+     "q": "Why do the mushers stop at the place in square {SQ}?",
+     "place": "McGrath",
+     "answer": "to rest",
+     "find": "There the mushers rest",
+     "wrong": [
+      "to finish the race",
+      "to start the race"
+     ],
+     "group": "checkpoint",
+     "via": "checkpoint"
+    },
+    {
+     "kind": "where",
+     "q": "In which square did sled dog teams bring medicine to sick children in 1925?",
+     "place": "Nome",
+     "cue": "medicine",
+     "group": "medicine"
+    },
+    {
+     "kind": "what",
+     "q": "What happened in the town in square {SQ} in 1925?",
+     "place": "Nome",
+     "answer": "Dog teams brought medicine.",
+     "find": "carried medicine to Nome",
+     "wrong": [
+      "The race started there.",
+      "Mushers bought new sleds."
+     ],
+     "group": "medicine"
+    }
+   ],
+   "blanks": [
+    "Anchorage",
+    "Nome"
+   ],
+   "blankWhy": "Anchorage: the key says the triangle is the start, and the text says the race starts in Anchorage. Nome: the key says the star is the finish, and the text says the race ends in Nome."
+  },
+  {
+   "id": "yellowstone",
+   "title": "Yellowstone National Park",
+   "parts": [
+    [
+     "Yellowstone became the first national park in the world in 1872.",
+     "Most of the park is in Wyoming, and small parts are in Montana and Idaho.",
+     "It has more than 10,000 hot springs, mud pots, and geysers."
+    ],
+    [
+     "A geyser is a hot spring that shoots water and steam high into the air.",
+     "The most famous geyser in the park is Old Faithful.",
+     "It erupts about every hour and a half, many times every day.",
+     "Norris Geyser Basin is the hottest place in the park."
+    ],
+    [
+     "At Mammoth Hot Springs, hot water has built steps of white stone.",
+     "Near Canyon, a waterfall called the Lower Falls drops more than 300 feet.",
+     "Yellowstone Lake is the biggest lake in North America that sits more than 7,000 feet up in the mountains.",
+     "Herds of bison roam across the wide, grassy valleys."
+    ]
+   ],
+   "map": {
+    "bbox": [
+     -111.073658,
+     -110.153878,
+     44.287005,
+     45.041829
+    ],
+    "gw": 260,
+    "gh": 300,
+    "cols": 2,
+    "rows": 3,
+    "layout": "tall",
+    "places": [
+     {
+      "name": "Mammoth Hot Springs",
+      "labels": [
+       [
+        "Mammoth",
+        "Hot Springs"
+       ]
+      ],
+      "at": [
+       44.977,
+       -110.702
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Norris Geyser Basin",
+      "labels": [
+       [
+        "Norris",
+        "Geyser Basin"
+       ],
+       [
+        "Norris Geyser",
+        "Basin"
+       ]
+      ],
+      "at": [
+       44.726,
+       -110.704
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Canyon",
+      "at": [
+       44.718,
+       -110.496
+      ],
+      "sym": "dot"
+     },
+     {
+      "name": "Old Faithful",
+      "labels": [
+       [
+        "Old Faithful"
+       ],
+       [
+        "Old",
+        "Faithful"
+       ]
+      ],
+      "at": [
+       44.46,
+       -110.828
+      ],
+      "sym": "triangle"
+     },
+     {
+      "name": "Lamar Valley",
+      "at": [
+       44.9,
+       -110.22
+      ],
+      "sym": "pic",
+      "pic": [
+       "zoo animals",
+       "bison"
+      ],
+      "kind": "valley",
+      "noLabel": true
+     }
+    ],
+    "areas": [
+     {
+      "shape": "ellipse",
+      "at": [
+       44.42,
+       -110.35
+      ],
+      "r": [
+       0.17,
+       0.15
+      ],
+      "fill": "water",
+      "label": [
+       "Yellowstone",
+       "Lake"
+      ],
+      "name": "Yellowstone Lake"
+     }
+    ],
+    "lines": [],
+    "key": [
+     {
+      "sym": "triangle",
+      "text": "geyser",
+      "ask": true
+     },
+     {
+      "sym": "dot",
+      "text": "place to visit"
+     },
+     {
+      "sym": "area:water",
+      "text": "lake"
+     },
+     {
+      "sym": "pic",
+      "pic": [
+       "zoo animals",
+       "bison"
+      ],
+      "text": "bison"
+     }
+    ]
+   },
+   "text": [
+    {
+     "q": "In what year did Yellowstone become a national park?",
+     "answer": "1872",
+     "wrong": [
+      "1972",
+      "1782"
+     ]
+    },
+    {
+     "q": "What is a geyser?",
+     "answer": "a hot spring that shoots water and steam into the air",
+     "find": "hot spring that shoots water and steam",
+     "wrong": [
+      "a big lake high up in the mountains",
+      "a waterfall that drops 300 feet"
+     ]
+    },
+    {
+     "q": "In which state is most of the park?",
+     "answer": "Wyoming",
+     "wrong": [
+      "Montana",
+      "Idaho"
+     ]
+    },
+    {
+     "q": "How many hot springs, mud pots, and geysers does the park have?",
+     "answer": "more than 10,000",
+     "wrong": [
+      "about 100",
+      "fewer than 50"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "kind": "where",
+     "q": "In which square has hot water built steps of white stone?",
+     "place": "Mammoth Hot Springs",
+     "cue": "steps of white stone"
+    },
+    {
+     "kind": "where",
+     "q": "In which square can you see a waterfall that drops more than 300 feet?",
+     "place": "Canyon",
+     "cue": "waterfall"
+    },
+    {
+     "kind": "where",
+     "q": "In which square is the hottest place in the park?",
+     "place": "Norris Geyser Basin",
+     "cue": "hottest",
+     "group": "hot"
+    },
+    {
+     "kind": "what",
+     "q": "What does the text say about the place in square {SQ}?",
+     "place": "Norris Geyser Basin",
+     "answer": "It is the hottest place in the park.",
+     "find": "hottest place in the park",
+     "wrong": [
+      "Hot water has built steps of white stone there.",
+      "A waterfall near it drops more than 300 feet."
+     ],
+     "group": "hot"
+    },
+    {
+     "kind": "what",
+     "q": "How often does the geyser in square {SQ} erupt?",
+     "place": "Old Faithful",
+     "answer": "about every hour and a half",
+     "find": "about every hour and a half",
+     "wrong": [
+      "about once a year",
+      "about every minute"
+     ]
+    }
+   ],
+   "blanks": [
+    "Old Faithful",
+    "Yellowstone Lake"
+   ],
+   "blankWhy": "Old Faithful: the key says the triangle is a geyser, and the text names Old Faithful as the most famous geyser. Yellowstone Lake: the key says the shape is a lake, and the text names the only lake, Yellowstone Lake."
+  }
+ ],
+ "diagrams": [
+  {
+   "id": "water-cycle",
+   "title": "Water on the Move",
+   "parts": [
+    [
+     "The water on Earth is always on the move.",
+     "It goes up into the sky and comes back down, over and over again.",
+     "The water you drink today may have fallen as rain long, long ago."
+    ],
+    [
+     "Heat from the sun warms the water in oceans, lakes, and rivers.",
+     "Some of the water turns into a gas called water vapor, which you cannot see.",
+     "The vapor rises high into the sky, where the air is cold.",
+     "There it cools and turns back into tiny drops of water.",
+     "Many tiny drops together make a cloud."
+    ],
+    [
+     "When the drops in a cloud bump together, they grow big and heavy.",
+     "Then they fall to the ground as rain, or as snow when the air is very cold.",
+     "The water runs into rivers, lakes, and oceans, and the trip begins again."
+    ]
+   ],
+   "diagram": {
+    "shape": "cycle",
+    "name": "The Water Cycle",
+    "stages": [
+     {
+      "name": "Evaporation",
+      "pic": [
+       "weather",
+       "sun"
+      ],
+      "says": "The sun warms the water, and some of it turns into a gas called water vapor."
+     },
+     {
+      "name": "Condensation",
+      "pic": [
+       "weather",
+       "cloudy"
+      ],
+      "says": "The vapor cools high in the sky and turns into tiny drops that make a cloud."
+     },
+     {
+      "name": "Precipitation",
+      "pic": [
+       "weather",
+       "rainy"
+      ],
+      "says": "The drops grow big and heavy and fall as rain or snow."
+     },
+     {
+      "name": "Collection",
+      "pic": [
+       "camping",
+       "lake"
+      ],
+      "says": "The water runs into rivers, lakes, and oceans."
+     }
+    ]
+   },
+   "graphic": [
+    {
+     "q": "In the diagram, which step comes right after evaporation?",
+     "answer": "condensation",
+     "wrong": [
+      "precipitation",
+      "collection"
+     ]
+    },
+    {
+     "q": "In the diagram, which step comes right before evaporation?",
+     "answer": "collection",
+     "wrong": [
+      "condensation",
+      "precipitation"
+     ]
+    },
+    {
+     "q": "In the diagram, which step comes right after condensation?",
+     "answer": "precipitation",
+     "wrong": [
+      "evaporation",
+      "collection"
+     ]
+    }
+   ],
+   "text": [
+    {
+     "q": "What is water vapor?",
+     "answer": "a gas",
+     "find": "a gas called water vapor",
+     "wrong": [
+      "a cloud",
+      "a raindrop"
+     ],
+     "group": "evap"
+    },
+    {
+     "q": "What makes the drops in a cloud grow big and heavy?",
+     "answer": "bumping together",
+     "find": "bump together",
+     "wrong": [
+      "the sun",
+      "the wind"
+     ],
+     "group": "heavy"
+    },
+    {
+     "q": "When does water fall as snow?",
+     "answer": "when the air is very cold",
+     "wrong": [
+      "when the sun is hot",
+      "when the drops are tiny"
+     ]
+    },
+    {
+     "q": "Can you see water vapor?",
+     "answer": "no",
+     "find": "which you cannot see",
+     "wrong": [
+      "yes",
+      "only at night"
+     ]
+    },
+    {
+     "q": "Where does the water vapor cool?",
+     "answer": "high in the sky",
+     "find": "high into the sky, where the air is cold",
+     "wrong": [
+      "near the ground",
+      "in the ocean"
+     ],
+     "group": "cond"
+    }
+   ],
+   "both": [
+    {
+     "q": "What happens to the water during evaporation?",
+     "answer": "It becomes a gas.",
+     "find": "turns into a gas",
+     "wrong": [
+      "It freezes.",
+      "It falls."
+     ],
+     "group": "evap"
+    },
+    {
+     "q": "What happens to the water vapor during condensation?",
+     "answer": "It cools into drops.",
+     "find": "cools and turns back into tiny drops",
+     "wrong": [
+      "It gets hot.",
+      "It falls."
+     ],
+     "group": "cond"
+    },
+    {
+     "q": "Why does precipitation happen?",
+     "answer": "The drops grow big and heavy.",
+     "find": "grow big and heavy",
+     "wrong": [
+      "The drops get hot.",
+      "The drops dry up."
+     ],
+     "group": "heavy"
+    },
+    {
+     "q": "What is the name of the step in which water turns into a gas?",
+     "answer": "evaporation",
+     "cue": "turns into a gas",
+     "wrong": [
+      "condensation",
+      "collection"
+     ],
+     "group": "evap"
+    },
+    {
+     "q": "What is the name of the step in which the vapor cools high in the sky?",
+     "answer": "condensation",
+     "cue": "cools",
+     "wrong": [
+      "evaporation",
+      "collection"
+     ],
+     "group": "cond"
+    }
+   ]
+  },
+  {
+   "id": "grassland-food-chain",
+   "title": "Energy in a Food Chain",
+   "parts": [
+    [
+     "Every living thing needs energy to grow, move, and stay alive.",
+     "A food chain shows how energy passes from one living thing to another.",
+     "Almost every food chain on Earth starts with energy from the sun."
+    ],
+    [
+     "Plants can make their own food.",
+     "They use sunlight, water, and air to make it.",
+     "A plant stores this energy in its leaves, stems, and roots.",
+     "Animals cannot make food, so they must eat.",
+     "Animals that eat only plants are called herbivores."
+    ],
+    [
+     "Some animals hunt and eat other animals.",
+     "Animals that hunt are called predators.",
+     "The animals they hunt are called their prey.",
+     "When an animal eats, it gets the energy that was stored in its food.",
+     "In this way, energy moves along the chain."
+    ]
+   ],
+   "diagram": {
+    "shape": "chain",
+    "name": "A Food Chain on the Grassland",
+    "note": "Each arrow shows where the energy goes.",
+    "stages": [
+     {
+      "name": "Sun",
+      "pic": [
+       "weather",
+       "sun"
+      ],
+      "says": "The sun gives energy to the plant."
+     },
+     {
+      "name": "Grass",
+      "pic": [
+       "spring",
+       "grass"
+      ],
+      "says": "A plant uses sunlight, water, and air to make its own food."
+     },
+     {
+      "name": "Zebra",
+      "pic": [
+       "zoo animals",
+       "zebra"
+      ],
+      "says": "A herbivore eats the plant."
+     },
+     {
+      "name": "Lion",
+      "pic": [
+       "zoo animals",
+       "lion"
+      ],
+      "says": "A predator hunts and eats the herbivore."
+     }
+    ]
+   },
+   "graphic": [
+    {
+     "q": "In the diagram, where does the energy go right after the sun?",
+     "answer": "to the grass",
+     "wrong": [
+      "to the zebra",
+      "to the lion"
+     ]
+    },
+    {
+     "q": "In the diagram, where does the energy go after the zebra?",
+     "answer": "to the lion",
+     "wrong": [
+      "to the grass",
+      "to the sun"
+     ]
+    },
+    {
+     "q": "In the diagram, which living thing passes energy straight to the zebra?",
+     "answer": "the grass",
+     "wrong": [
+      "the lion",
+      "the sun"
+     ]
+    },
+    {
+     "q": "In this food chain, where does the energy go last?",
+     "answer": "to the lion",
+     "wrong": [
+      "to the grass",
+      "to the zebra"
+     ]
+    }
+   ],
+   "text": [
+    {
+     "q": "What do plants use to make their own food?",
+     "answer": "sunlight, water, and air",
+     "wrong": [
+      "only meat",
+      "only sand"
+     ]
+    },
+    {
+     "q": "What are animals that eat only plants called?",
+     "answer": "herbivores",
+     "wrong": [
+      "predators",
+      "food chains"
+     ],
+     "group": "herb"
+    },
+    {
+     "q": "What are the animals that predators hunt called?",
+     "answer": "their prey",
+     "find": "called their prey",
+     "wrong": [
+      "hunters",
+      "plants"
+     ],
+     "group": "pred"
+    },
+    {
+     "q": "Where does a plant store its energy?",
+     "answer": "in its leaves, stems, and roots",
+     "wrong": [
+      "in the air",
+      "in the sun"
+     ],
+     "group": "store"
+    },
+    {
+     "q": "What must animals do to get energy?",
+     "answer": "eat",
+     "find": "so they must eat",
+     "wrong": [
+      "sleep",
+      "swim"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "q": "Which living thing in this food chain makes its own food?",
+     "answer": "the grass",
+     "cue": "own food",
+     "wrong": [
+      "the zebra",
+      "the lion"
+     ]
+    },
+    {
+     "q": "Which animal in this food chain is a herbivore?",
+     "answer": "the zebra",
+     "cue": "herbivore",
+     "wrong": [
+      "the lion",
+      "the grass"
+     ],
+     "group": "herb"
+    },
+    {
+     "q": "Which animal in this food chain is a predator?",
+     "answer": "the lion",
+     "cue": "predator",
+     "wrong": [
+      "the zebra",
+      "the grass"
+     ],
+     "group": "pred"
+    },
+    {
+     "q": "What kind of animal is the zebra in this food chain?",
+     "answer": "a herbivore",
+     "find": "herbivores",
+     "wrong": [
+      "a predator",
+      "a plant"
+     ],
+     "group": [
+      "herb",
+      "kind"
+     ]
+    },
+    {
+     "q": "What kind of animal is the lion in this food chain?",
+     "answer": "a predator",
+     "find": "predators",
+     "wrong": [
+      "a herbivore",
+      "a plant"
+     ],
+     "group": [
+      "pred",
+      "kind"
+     ]
+    },
+    {
+     "q": "Where does the grass in this food chain store its energy?",
+     "answer": "in its leaves, stems, and roots",
+     "wrong": [
+      "in the zebra",
+      "in the sun"
+     ],
+     "group": "store"
+    }
+   ]
+  },
+  {
+   "id": "ocean-food-chain",
+   "title": "Food Chains in the Ocean",
+   "parts": [
+    [
+     "The ocean is full of food chains, just like the land.",
+     "Many ocean food chains begin with living things that use sunlight to make their own food.",
+     "Sunlight reaches only the top part of the ocean, so these food makers grow near the surface."
+    ],
+    [
+     "Some ocean animals eat only these food makers.",
+     "They graze on them slowly, the way cows graze on grass.",
+     "They give energy to the animals that eat them.",
+     "Other ocean animals are hunters with sharp teeth or strong jaws."
+    ],
+    [
+     "At the top of many ocean food chains are big hunters.",
+     "Few other animals can catch and eat them.",
+     "When ocean animals die, tiny living things called decomposers break down their bodies.",
+     "This puts nutrients back into the water, and the food makers use them to grow."
+    ]
+   ],
+   "diagram": {
+    "shape": "chain",
+    "name": "A Food Chain in the Ocean",
+    "note": "Each arrow shows where the energy goes.",
+    "stages": [
+     {
+      "name": "Sun",
+      "pic": [
+       "weather",
+       "sun"
+      ],
+      "says": "Sunlight shines on the top part of the ocean."
+     },
+     {
+      "name": "Seaweed",
+      "pic": [
+       "ocean life",
+       "seaweed"
+      ],
+      "says": "A food maker uses sunlight to make its own food."
+     },
+     {
+      "name": "Green sea turtle",
+      "label": [
+       "Green sea",
+       "turtle"
+      ],
+      "pic": [
+       "ocean life",
+       "sea_turtle"
+      ],
+      "says": "An animal grazes slowly on the food maker."
+     },
+     {
+      "name": "Shark",
+      "pic": [
+       "ocean life",
+       "shark"
+      ],
+      "says": "A big hunter catches and eats the grazing animal."
+     }
+    ]
+   },
+   "graphic": [
+    {
+     "q": "In the diagram, where does the energy go right after the sun?",
+     "answer": "to the seaweed",
+     "wrong": [
+      "to the shark",
+      "to the green sea turtle"
+     ]
+    },
+    {
+     "q": "In the diagram, where does the energy go after the green sea turtle?",
+     "answer": "to the shark",
+     "wrong": [
+      "to the seaweed",
+      "to the sun"
+     ]
+    },
+    {
+     "q": "In the diagram, which living thing passes energy straight to the green sea turtle?",
+     "answer": "the seaweed",
+     "wrong": [
+      "the shark",
+      "the sun"
+     ]
+    },
+    {
+     "q": "In this food chain, where does the energy go last?",
+     "answer": "to the shark",
+     "wrong": [
+      "to the seaweed",
+      "to the green sea turtle"
+     ]
+    }
+   ],
+   "text": [
+    {
+     "q": "Why do the food makers grow near the top of the ocean?",
+     "answer": "Sunlight reaches only the top part.",
+     "find": "Sunlight reaches only the top part",
+     "wrong": [
+      "Sharks cannot swim there.",
+      "Turtles carry them there."
+     ],
+     "group": "surface"
+    },
+    {
+     "q": "Where in the ocean does sunlight reach?",
+     "answer": "only the top part",
+     "find": "reaches only the top part",
+     "wrong": [
+      "only the bottom",
+      "every part"
+     ],
+     "group": "surface"
+    },
+    {
+     "q": "What do decomposers break down?",
+     "answer": "bodies of dead animals",
+     "find": "break down their bodies",
+     "wrong": [
+      "sunlight",
+      "big rocks"
+     ]
+    },
+    {
+     "q": "How do some ocean animals eat the food makers?",
+     "answer": "by grazing",
+     "find": "graze on them slowly",
+     "wrong": [
+      "by hunting",
+      "by chasing"
+     ],
+     "group": "graze"
+    },
+    {
+     "q": "What do the food makers use to grow?",
+     "answer": "nutrients",
+     "find": "nutrients back into the water, and the food makers use them",
+     "wrong": [
+      "sharks",
+      "sand"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "q": "Which living thing in this food chain makes its own food?",
+     "answer": "seaweed",
+     "cue": "own food",
+     "wrong": [
+      "the green sea turtle",
+      "the shark"
+     ]
+    },
+    {
+     "q": "Which animal in this food chain eats the way cows graze on grass?",
+     "answer": "the green sea turtle",
+     "cue": "cows graze on grass",
+     "wrong": [
+      "the shark",
+      "the seaweed"
+     ],
+     "group": "graze"
+    },
+    {
+     "q": "How does the green sea turtle in this food chain eat its food?",
+     "answer": "It grazes slowly.",
+     "find": "graze on them slowly",
+     "wrong": [
+      "It hunts fish.",
+      "It eats sharks."
+     ],
+     "group": "graze"
+    },
+    {
+     "q": "What kind of animal is the shark in this food chain?",
+     "answer": "a big hunter",
+     "find": "big hunters",
+     "wrong": [
+      "a food maker",
+      "a decomposer"
+     ],
+     "group": "top"
+    }
+   ]
+  },
+  {
+   "id": "letter",
+   "title": "How a Letter Travels",
+   "parts": [
+    [
+     "When you mail a letter, it goes on a trip.",
+     "First, you write the address and the ZIP code on the envelope.",
+     "A ZIP code is a number that tells which town or part of a city the letter is going to.",
+     "A stamp in the corner pays for the trip."
+    ],
+    [
+     "Next, you drop the letter into a mailbox.",
+     "Later, it is picked up and taken to a big sorting center full of machines.",
+     "The machines read the ZIP code and sort the letters by where they are going.",
+     "A machine can sort thousands of letters in an hour."
+    ],
+    [
+     "Then the letters travel to a building near each address.",
+     "Last, a worker brings each letter to the right home.",
+     "Many letters get there in just a few days."
+    ]
+   ],
+   "diagram": {
+    "shape": "chain",
+    "name": "The Trip of a Letter",
+    "stages": [
+     {
+      "name": "Mailbox",
+      "pic": [
+       "post office",
+       "mailbox"
+      ],
+      "says": "You drop the letter into a mailbox."
+     },
+     {
+      "name": "Sorting center",
+      "label": [
+       "Sorting",
+       "center"
+      ],
+      "noPic": "the library has no sorting center; its only building, post office/post_office, has \"post office\" written on it",
+      "says": "Machines read the ZIP code and sort the letters."
+     },
+     {
+      "name": "Mail truck",
+      "pic": [
+       "vehicles",
+       "mail_truck"
+      ],
+      "says": "The letters travel to a building near each address."
+     },
+     {
+      "name": "Mail carrier",
+      "pic": [
+       "occupations",
+       "mail_carrier"
+      ],
+      "says": "A worker brings each letter to the right home."
+     }
+    ]
+   },
+   "graphic": [
+    {
+     "q": "In the diagram, what comes right after the sorting center?",
+     "answer": "the mail truck",
+     "wrong": [
+      "the mailbox",
+      "the mail carrier"
+     ]
+    },
+    {
+     "q": "In the diagram, what comes right before the mail carrier?",
+     "answer": "the mail truck",
+     "wrong": [
+      "the mailbox",
+      "the sorting center"
+     ]
+    },
+    {
+     "q": "In the diagram, what is the last step?",
+     "answer": "the mail carrier",
+     "wrong": [
+      "the mailbox",
+      "the mail truck"
+     ]
+    }
+   ],
+   "text": [
+    {
+     "q": "What does a stamp do?",
+     "answer": "It pays for the trip.",
+     "find": "pays for the trip",
+     "wrong": [
+      "It tells where the letter is going.",
+      "It keeps the envelope closed."
+     ]
+    },
+    {
+     "q": "What is a ZIP code?",
+     "answer": "a number that tells where the letter is going",
+     "find": "a number that tells which town",
+     "wrong": [
+      "a picture in the corner",
+      "the name of a worker"
+     ]
+    },
+    {
+     "q": "About how long do many letters take to get there?",
+     "answer": "just a few days",
+     "wrong": [
+      "about a year",
+      "just a few minutes"
+     ]
+    },
+    {
+     "q": "How many letters can a machine sort in an hour?",
+     "answer": "thousands",
+     "wrong": [
+      "about ten",
+      "just one"
+     ]
+    }
+   ],
+   "both": [
+    {
+     "q": "Who in the diagram brings each letter to the right home?",
+     "answer": "the mail carrier",
+     "cue": "right home",
+     "wrong": [
+      "the sorting center",
+      "the mailbox"
+     ],
+     "group": "carrier"
+    },
+    {
+     "q": "What does the mail carrier do?",
+     "answer": "brings letters home",
+     "find": "brings each letter to the right home",
+     "wrong": [
+      "sorts letters",
+      "reads letters"
+     ],
+     "group": "carrier"
+    },
+    {
+     "q": "What does the mail truck carry the letters to?",
+     "answer": "a nearby building",
+     "find": "a building near each address",
+     "wrong": [
+      "the sender",
+      "the machines"
+     ],
+     "group": "truck"
+    },
+    {
+     "q": "Which step in the diagram comes right before a worker brings the letter home?",
+     "answer": "the mail truck",
+     "cue": "worker",
+     "wrong": [
+      "the mailbox",
+      "the sorting center"
+     ],
+     "group": "truck"
+    }
+   ]
+  },
+  {
+   "id": "oak-and-squirrel",
+   "title": "How Animals Plant Trees",
+   "parts": [
+    [
+     "Trees cannot walk, but many trees need to send their seeds to new places.",
+     "A seed that lands right under its parent tree gets little sunlight and water.",
+     "Wind and water carry some seeds away.",
+     "Animals carry others."
+    ],
+    [
+     "In the fall, some trees drop nuts, which are seeds with a hard shell.",
+     "Some animals gather the nuts and bury them in the ground, one here and one there.",
+     "In the winter, when food is hard to find, they dig up the nuts and eat them."
+    ],
+    [
+     "But the animals do not find every nut they hide.",
+     "In the spring, some of the forgotten nuts sprout.",
+     "Over many years, they can grow into big new trees, far from the parent tree.",
+     "In this way, a hungry animal helps a forest grow."
+    ]
+   ],
+   "diagram": {
+    "shape": "chain",
+    "name": "How a Squirrel Plants an Oak",
+    "stages": [
+     {
+      "name": "Oak tree",
+      "pic": [
+       "tree",
+       "oak"
+      ],
+      "says": "A big tree grows nuts with a hard shell."
+     },
+     {
+      "name": "Acorn",
+      "pic": [
+       "miscellaneous",
+       "acorn"
+      ],
+      "says": "In the fall, a nut falls to the ground."
+     },
+     {
+      "name": "Squirrel",
+      "pic": [
+       "forest creatures",
+       "squirrel"
+      ],
+      "says": "An animal buries the nut in the ground and forgets it."
+     },
+     {
+      "name": "Young oak tree",
+      "label": [
+       "Young",
+       "oak tree"
+      ],
+      "pic": [
+       "tree",
+       "oak"
+      ],
+      "small": true,
+      "says": "The forgotten nut sprouts and grows into a new tree."
+     }
+    ]
+   },
+   "graphic": [
+    {
+     "q": "In the diagram, what kind of tree drops the acorn?",
+     "answer": "an oak tree",
+     "wrong": [
+      "an apple tree",
+      "a pine tree"
+     ]
+    },
+    {
+     "q": "In the diagram, which animal comes after the acorn?",
+     "answer": "a squirrel",
+     "wrong": [
+      "a bird",
+      "a deer"
+     ]
+    },
+    {
+     "q": "In the diagram, what grows at the end?",
+     "answer": "a young oak tree",
+     "wrong": [
+      "an acorn",
+      "a squirrel"
+     ]
+    }
+   ],
+   "text": [
+    {
+     "q": "Why is it bad for a seed to land right under its parent tree?",
+     "answer": "It gets little sunlight and water.",
+     "find": "gets little sunlight and water",
+     "wrong": [
+      "Animals eat it right away.",
+      "It is too cold there."
+     ]
+    },
+    {
+     "q": "When do the animals dig up the nuts and eat them?",
+     "answer": "in the winter",
+     "wrong": [
+      "in the summer",
+      "in the fall"
+     ],
+     "group": "winter"
+    },
+    {
+     "q": "What carries seeds away besides animals?",
+     "answer": "wind and water",
+     "wrong": [
+      "cars",
+      "the moon"
+     ]
+    },
+    {
+     "q": "What is a nut?",
+     "answer": "a seed with a hard shell",
+     "find": "seeds with a hard shell",
+     "wrong": [
+      "a leaf",
+      "a flower"
+     ],
+     "group": "nut"
+    }
+   ],
+   "both": [
+    {
+     "q": "In which season does the last step in the diagram begin?",
+     "answer": "in the spring",
+     "find": "In the spring",
+     "wrong": [
+      "in the fall",
+      "in the winter"
+     ],
+     "group": "season",
+     "via": "diagram"
+    },
+    {
+     "q": "In which season does the step right after the oak tree happen?",
+     "answer": "in the fall",
+     "find": "In the fall",
+     "wrong": [
+      "in the winter",
+      "in the spring"
+     ],
+     "group": "season",
+     "via": "diagram"
+    },
+    {
+     "q": "What kind of seed is the acorn in the diagram?",
+     "answer": "a nut",
+     "find": "nuts, which are seeds with a hard shell",
+     "wrong": [
+      "a bean",
+      "a pit"
+     ],
+     "group": "nut"
+    }
+   ]
+  }
+ ]
+}

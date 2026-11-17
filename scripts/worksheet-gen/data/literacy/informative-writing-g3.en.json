@@ -1,0 +1,5668 @@
+{
+ "topics": [
+  {
+   "id": "beavers",
+   "name": "beavers",
+   "title": "Beavers",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Home"
+   ],
+   "extra": "Babies",
+   "A": {
+    "title": "Busy Beavers",
+    "s": [
+     {
+      "h": null,
+      "t": "Beavers are large rodents that live in and near water."
+     },
+     {
+      "h": 0,
+      "t": "A beaver has big orange front teeth that never stop growing.",
+      "note": "teeth keep growing",
+      "key": "big orange front teeth",
+      "wrong": "small white teeth"
+     },
+     {
+      "h": 0,
+      "t": "Its wide, flat tail helps it steer when it swims.",
+      "note": "flat tail to steer",
+      "key": "wide, flat tail",
+      "wrong": "tail helps it climb"
+     },
+     {
+      "h": 1,
+      "t": "Beavers eat tree bark and twigs.",
+      "note": "eat bark and twigs",
+      "key": "tree bark and twigs",
+      "wrong": "eat fish and frogs"
+     },
+     {
+      "h": 1,
+      "t": "In summer, they also eat water plants, such as water lilies.",
+      "note": "eat water lilies",
+      "key": "water plants",
+      "wrong": "eat water snails"
+     },
+     {
+      "h": 2,
+      "t": "Beavers build a home called a lodge out of sticks and mud.",
+      "note": "mud and stick lodge",
+      "key": "a lodge",
+      "wrong": "lodge of rocks"
+     },
+     {
+      "h": 2,
+      "t": "The lodge has an underwater door that keeps enemies out.",
+      "note": "underwater door",
+      "key": "an underwater door",
+      "wrong": "door on the roof"
+     }
+    ]
+   },
+   "B": {
+    "title": "Beavers at Work",
+    "s": [
+     {
+      "h": null,
+      "t": "Beavers change the land where they live."
+     },
+     {
+      "h": 2,
+      "t": "They build dams of sticks, mud, and rocks across streams.",
+      "note": "dams across streams",
+      "wrong": "dams made of ice"
+     },
+     {
+      "h": 2,
+      "t": "A dam holds back the water and makes a deep pond.",
+      "note": "dam makes a pond",
+      "wrong": "dam drains a pond"
+     },
+     {
+      "h": 0,
+      "t": "Their back feet are webbed like a duck's feet, so beavers swim well.",
+      "note": "webbed back feet",
+      "wrong": "webbed front feet"
+     },
+     {
+      "h": 1,
+      "t": "In the fall, beavers store branches under the water to eat in winter.",
+      "note": "save winter food",
+      "wrong": "eat snow in winter"
+     },
+     {
+      "h": 3,
+      "t": "Baby beavers are called kits.",
+      "note": "babies are kits"
+     },
+     {
+      "h": 3,
+      "t": "Kits live with their parents for about two years.",
+      "note": "kits stay two years"
+     }
+    ]
+   },
+   "intro": "Beavers are busy builders that live by water.",
+   "rIntro": "Beavers are big rodents that build in water.",
+   "ask": "What sounds do beavers make?",
+   "close": "These busy builders change the land and water.",
+   "q": "How do beavers live, eat, and build?",
+   "say": [
+    [
+     "Beavers have teeth that keep growing.",
+     "They also have flat tails and webbed feet."
+    ],
+    [
+     "Beavers eat bark and twigs.",
+     "They also eat water lilies."
+    ],
+    [
+     "Beavers build lodges of sticks and mud.",
+     "They also build dams across streams."
+    ]
+   ],
+   "cap": "A beaver lodge in a pond",
+   "dev": {
+    "head": "Homes and Dams",
+    "g": [
+     [
+      [
+       "F",
+       "Beavers live in lodges."
+      ],
+      [
+       "Def",
+       "A lodge is a home made of sticks and mud.",
+       "lodge"
+      ],
+      [
+       "D",
+       "It has a door under the water."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Beavers also build dams."
+      ],
+      [
+       "D",
+       "They pile up sticks, mud, and rocks in a stream."
+      ],
+      [
+       "Def",
+       "A dam is a wall that holds back water.",
+       "dam"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Beavers keep their dams in good repair."
+      ],
+      [
+       "D",
+       "They patch holes with fresh mud."
+      ],
+      [
+       "D",
+       "They also add new sticks to the dam."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 2,
+    "g": 0,
+    "defNote": "lodge: a home made of sticks and mud",
+    "detNote": "door under the water"
+   },
+   "hk": [
+    [
+     "teeth",
+     "tail",
+     "feet",
+     "webbed"
+    ],
+    [
+     "eat",
+     "food",
+     "bark",
+     "twigs",
+     "plants",
+     "lilies"
+    ],
+    [
+     "lodge",
+     "door",
+     "dam",
+     "dams",
+     "pond"
+    ],
+    [
+     "kits",
+     "babies"
+    ]
+   ],
+   "rep": [
+    [
+     "Beavers have front teeth that keep growing.",
+     "They also have webbed back feet for swimming."
+    ],
+    [
+     "Beavers eat tree bark and twigs.",
+     "They also store branches to eat in winter."
+    ],
+    [
+     "Beavers build lodges out of sticks and mud.",
+     "They also build dams across streams."
+    ]
+   ],
+   "q3": "How do beavers live, eat, and build?"
+  },
+  {
+   "id": "honeybees",
+   "name": "honeybees",
+   "title": "Honeybees",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Home"
+   ],
+   "extra": "The Queen",
+   "A": {
+    "title": "Busy Honeybees",
+    "s": [
+     {
+      "h": null,
+      "t": "Honeybees are insects that live together in large groups."
+     },
+     {
+      "h": 0,
+      "t": "A honeybee has six legs and four wings.",
+      "note": "six legs, four wings",
+      "key": "six legs and four wings",
+      "wrong": "eight legs, two wings"
+     },
+     {
+      "h": 0,
+      "t": "It has five eyes: two big ones and three tiny ones.",
+      "note": "five eyes",
+      "key": "five eyes",
+      "wrong": "just two eyes"
+     },
+     {
+      "h": 1,
+      "t": "Honeybees drink nectar, a sweet juice made by flowers.",
+      "note": "drink nectar",
+      "key": "nectar",
+      "wrong": "eat tree bark"
+     },
+     {
+      "h": 1,
+      "t": "They also eat pollen, a fine dust made by flowers.",
+      "note": "eat pollen too",
+      "key": "pollen",
+      "wrong": "eat leaves too"
+     },
+     {
+      "h": 2,
+      "t": "Honeybees live in a home called a hive.",
+      "note": "live in a hive",
+      "key": "a hive",
+      "wrong": "live under rocks"
+     },
+     {
+      "h": 2,
+      "t": "Inside the hive, they build wax cells with six sides.",
+      "note": "six-sided wax cells",
+      "key": "wax cells with six sides",
+      "wrong": "round paper cells"
+     }
+    ]
+   },
+   "B": {
+    "title": "Making Honey",
+    "s": [
+     {
+      "h": null,
+      "t": "Honey is a food that bees make themselves."
+     },
+     {
+      "h": 1,
+      "t": "Bees turn nectar into honey and store it in the hive.",
+      "note": "nectar becomes honey",
+      "wrong": "pollen becomes honey"
+     },
+     {
+      "h": 1,
+      "t": "In winter, the bees eat the honey they saved.",
+      "note": "eat honey in winter",
+      "wrong": "eat honey in spring"
+     },
+     {
+      "h": 0,
+      "t": "Their bodies are covered with tiny hairs.",
+      "note": "hairy bodies",
+      "wrong": "smooth bodies"
+     },
+     {
+      "h": 0,
+      "t": "A worker bee has a stinger at the end of its body.",
+      "note": "stinger on its body",
+      "wrong": "stinger on its head"
+     },
+     {
+      "h": 2,
+      "t": "A big hive can hold thousands of bees.",
+      "note": "thousands in a hive",
+      "wrong": "ten bees in a hive"
+     },
+     {
+      "h": 3,
+      "t": "A hive usually has one queen bee.",
+      "note": "one queen bee"
+     },
+     {
+      "h": 3,
+      "t": "The queen lays the eggs for the whole hive.",
+      "note": "queen lays the eggs"
+     }
+    ]
+   },
+   "intro": "Honeybees are insects that live in groups.",
+   "rIntro": "Honeybees are insects that make honey.",
+   "ask": "How far can a honeybee fly in one day?",
+   "close": "Honeybees work together to stay alive.",
+   "q": "How do honeybees live and make honey?",
+   "say": [
+    [
+     "Honeybees have six legs and four wings.",
+     "They also have five eyes."
+    ],
+    [
+     "Honeybees drink nectar from flowers.",
+     "They also eat pollen and honey."
+    ],
+    [
+     "Honeybees live in hives.",
+     "They also build wax cells with six sides."
+    ]
+   ],
+   "cap": "A honeybee on a flower",
+   "dev": {
+    "head": "Making Honey",
+    "g": [
+     [
+      [
+       "F",
+       "Honeybees make honey from nectar."
+      ],
+      [
+       "Def",
+       "Nectar is a sweet juice inside flowers.",
+       "nectar"
+      ],
+      [
+       "D",
+       "They sip it with a long, thin tongue."
+      ],
+      [
+       "D",
+       "Then they carry it back to the hive."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Honeybees store honey in wax cells."
+      ],
+      [
+       "D",
+       "They seal each full cell with a cap of wax."
+      ],
+      [
+       "Def",
+       "Wax is a soft material that bees make.",
+       "wax"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Honeybees eat the stored honey in winter."
+      ],
+      [
+       "D",
+       "It feeds them when no flowers bloom."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "nectar: a sweet juice inside flowers",
+    "detNote": "sip it with a long, thin tongue"
+   },
+   "hk": [
+    [
+     "legs",
+     "wings",
+     "eyes",
+     "hairy",
+     "stinger"
+    ],
+    [
+     "nectar",
+     "pollen",
+     "honey"
+    ],
+    [
+     "hive",
+     "cells",
+     "wax"
+    ],
+    [
+     "queen"
+    ]
+   ],
+   "rep": [
+    [
+     "A honeybee has six legs and four wings.",
+     "Their bodies are also covered with tiny hairs."
+    ],
+    [
+     "Honeybees drink nectar from flowers.",
+     "They also turn nectar into honey."
+    ],
+    [
+     "Honeybees live in a home called a hive.",
+     "A big hive can also hold thousands of bees."
+    ]
+   ],
+   "q3": "How do honeybees live and make honey?"
+  },
+  {
+   "id": "sea-otters",
+   "name": "sea otters",
+   "title": "Sea Otters",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Home"
+   ],
+   "extra": "Babies",
+   "A": {
+    "title": "Sea Otters",
+    "s": [
+     {
+      "h": null,
+      "t": "Sea otters live in the ocean, close to the shore."
+     },
+     {
+      "h": 0,
+      "t": "A sea otter has the thickest fur of any animal.",
+      "note": "thickest fur",
+      "key": "the thickest fur",
+      "wrong": "thin, short fur"
+     },
+     {
+      "h": 0,
+      "t": "Its fur keeps it warm in the cold water.",
+      "note": "fur keeps it warm",
+      "key": "fur keeps it warm",
+      "wrong": "fat keeps it warm"
+     },
+     {
+      "h": 1,
+      "t": "Sea otters eat crabs, clams, and sea urchins.",
+      "note": "eat crabs, urchins",
+      "key": "crabs, clams, and sea urchins",
+      "wrong": "eat kelp leaves"
+     },
+     {
+      "h": 1,
+      "t": "They crack open hard shells with rocks.",
+      "note": "use rocks on shells",
+      "key": "crack open hard shells",
+      "wrong": "use sticks on shells"
+     },
+     {
+      "h": 2,
+      "t": "Many sea otters rest in kelp forests.",
+      "note": "rest in kelp forests",
+      "key": "kelp forests",
+      "wrong": "rest in caves"
+     },
+     {
+      "h": 2,
+      "t": "They wrap kelp around their bodies so they do not drift away while they sleep.",
+      "note": "wrap up in kelp",
+      "key": "wrap kelp around their bodies",
+      "wrong": "sleep on the beach"
+     }
+    ]
+   },
+   "B": {
+    "title": "Life on the Water",
+    "s": [
+     {
+      "h": null,
+      "t": "Most sea otters spend almost their whole lives in the water."
+     },
+     {
+      "h": 0,
+      "t": "Their back feet are webbed and shaped like flippers.",
+      "note": "flipper-like feet",
+      "wrong": "feet like hooves"
+     },
+     {
+      "h": 0,
+      "t": "Unlike whales, sea otters have no thick layer of fat.",
+      "note": "no thick fat layer",
+      "wrong": "thick fat layer"
+     },
+     {
+      "h": 1,
+      "t": "An otter often eats while it floats on its back.",
+      "note": "eat while floating",
+      "wrong": "eat on the shore"
+     },
+     {
+      "h": 2,
+      "t": "Sea otters live along the coast of the Pacific Ocean.",
+      "note": "Pacific Ocean coast",
+      "wrong": "Atlantic Ocean coast"
+     },
+     {
+      "h": 3,
+      "t": "A baby sea otter is called a pup.",
+      "note": "babies are pups"
+     },
+     {
+      "h": 3,
+      "t": "A mother carries her pup on her belly.",
+      "note": "pup rides on mom"
+     }
+    ]
+   },
+   "intro": "Sea otters are animals that live in the sea.",
+   "rIntro": "Sea otters are ocean animals with thick fur.",
+   "ask": "How long can a sea otter hold its breath?",
+   "close": "Sea otters are well made for life at sea.",
+   "q": "How do sea otters live in the ocean?",
+   "say": [
+    [
+     "Sea otters have the thickest fur of any animal.",
+     "Their fur also keeps them warm."
+    ],
+    [
+     "Sea otters eat crabs, clams, and sea urchins.",
+     "They also crack shells open with rocks."
+    ],
+    [
+     "Sea otters live near the Pacific coast.",
+     "They also rest in kelp forests."
+    ]
+   ],
+   "cap": "A sea otter floating on its back",
+   "dev": {
+    "head": "Finding Food",
+    "g": [
+     [
+      [
+       "F",
+       "Sea otters eat sea urchins."
+      ],
+      [
+       "Def",
+       "A sea urchin is a sea animal with spines.",
+       "sea urchin"
+      ],
+      [
+       "D",
+       "They pick urchins off the ocean floor."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Sea otters use tools."
+      ],
+      [
+       "D",
+       "They crack shells open with rocks."
+      ],
+      [
+       "D",
+       "Some keep a favorite rock under one arm."
+      ],
+      [
+       "Def",
+       "A tool is something used to do a job.",
+       "tool"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Sea otters eat a lot of food every day."
+      ],
+      [
+       "D",
+       "They eat about a fourth of their weight daily."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "sea urchin: a sea animal with spines",
+    "detNote": "pick them off the ocean floor"
+   },
+   "hk": [
+    [
+     "fur",
+     "feet",
+     "fat"
+    ],
+    [
+     "eat",
+     "crabs",
+     "urchins",
+     "rocks",
+     "shells"
+    ],
+    [
+     "kelp",
+     "coast"
+    ],
+    [
+     "pups",
+     "pup",
+     "babies"
+    ]
+   ],
+   "rep": [
+    [
+     "Sea otters have the thickest fur of any animal.",
+     "They also have feet like flippers."
+    ],
+    [
+     "Sea otters eat crabs, clams, and sea urchins.",
+     "They also eat while floating on their backs."
+    ],
+    [
+     "Sea otters rest in kelp forests.",
+     "They also live along the Pacific coast."
+    ]
+   ],
+   "q3": "How do sea otters live in the ocean?"
+  },
+  {
+   "id": "emperor-penguins",
+   "name": "emperor penguins",
+   "title": "Emperor Penguins",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Home"
+   ],
+   "extra": "Chicks",
+   "A": {
+    "title": "Emperor Penguins",
+    "s": [
+     {
+      "h": null,
+      "t": "Emperor penguins are the largest penguins in the world."
+     },
+     {
+      "h": 0,
+      "t": "They have a thick layer of fat under their skin.",
+      "note": "thick layer of fat",
+      "key": "a thick layer of fat",
+      "wrong": "no fat at all"
+     },
+     {
+      "h": 0,
+      "t": "Their wings are stiff flippers that help them swim.",
+      "note": "wings are flippers",
+      "key": "stiff flippers",
+      "wrong": "wings help them fly"
+     },
+     {
+      "h": 1,
+      "t": "Emperor penguins catch fish, squid, and krill in the sea.",
+      "note": "fish, squid, krill",
+      "key": "fish, squid, and krill",
+      "wrong": "eat grass and seeds"
+     },
+     {
+      "h": 1,
+      "t": "They can dive deeper than any other bird to find food.",
+      "note": "dive deep for food",
+      "key": "dive deeper",
+      "wrong": "hunt on the ice"
+     },
+     {
+      "h": 2,
+      "t": "Emperor penguins live in Antarctica, the coldest place on Earth.",
+      "note": "live in Antarctica",
+      "key": "Antarctica",
+      "wrong": "live in the Arctic"
+     },
+     {
+      "h": 2,
+      "t": "They live on the thick ice that covers the sea.",
+      "note": "live on sea ice",
+      "key": "the thick ice",
+      "wrong": "live in forests"
+     }
+    ]
+   },
+   "B": {
+    "title": "A Cold Home",
+    "s": [
+     {
+      "h": null,
+      "t": "Few animals can live where emperor penguins do."
+     },
+     {
+      "h": 2,
+      "t": "Winters in Antarctica are dark and very windy.",
+      "note": "dark, windy winters",
+      "wrong": "warm, sunny winters"
+     },
+     {
+      "h": 0,
+      "t": "Their feathers are packed tightly to keep out wind and water.",
+      "note": "packed feathers",
+      "wrong": "loose, fluffy feathers"
+     },
+     {
+      "h": 1,
+      "t": "Emperor penguins swallow fish whole.",
+      "note": "swallow fish whole",
+      "wrong": "chew fish slowly"
+     },
+     {
+      "h": 2,
+      "t": "Emperor penguins stay in Antarctica all year.",
+      "note": "stay all year",
+      "wrong": "leave every winter"
+     },
+     {
+      "h": null,
+      "t": "It can be colder there than inside a freezer."
+     },
+     {
+      "h": 3,
+      "t": "The father keeps the egg warm on top of his feet.",
+      "note": "dad holds the egg"
+     },
+     {
+      "h": 3,
+      "t": "A chick has soft gray feathers.",
+      "note": "chicks are gray"
+     }
+    ]
+   },
+   "intro": "Emperor penguins are birds made for the cold.",
+   "rIntro": "Emperor penguins live in the coldest place.",
+   "ask": "How many emperor penguins live in zoos?",
+   "close": "Emperor penguins are made to survive the cold.",
+   "q": "How do emperor penguins live in the cold?",
+   "say": [
+    [
+     "Emperor penguins have a lot of blubber.",
+     "They also have stiff flippers for wings."
+    ],
+    [
+     "Emperor penguins catch fish and squid.",
+     "They also dive deep to find food."
+    ],
+    [
+     "Emperor penguins live in Antarctica.",
+     "They also live on thick sea ice."
+    ]
+   ],
+   "cap": "A penguin dad with an egg",
+   "dev": {
+    "head": "Staying Warm",
+    "g": [
+     [
+      [
+       "F",
+       "Emperor penguins have a lot of blubber."
+      ],
+      [
+       "Def",
+       "Blubber is a thick layer of fat.",
+       "blubber"
+      ],
+      [
+       "D",
+       "It keeps their bodies warm in icy water."
+      ],
+      [
+       "D",
+       "It also helps them float."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Emperor penguins huddle together in storms."
+      ],
+      [
+       "D",
+       "Some huddles hold thousands of penguins."
+      ],
+      [
+       "Def",
+       "A huddle is a group packed close together.",
+       "huddle"
+      ],
+      [
+       "D",
+       "They take turns on the windy edge."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Emperor penguins have tightly packed feathers."
+      ],
+      [
+       "D",
+       "They keep out the wind and the water."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 0,
+    "g": 0,
+    "defNote": "blubber: a thick layer of fat",
+    "detNote": "keeps them warm in icy water"
+   },
+   "hk": [
+    [
+     "fat",
+     "flippers",
+     "feathers"
+    ],
+    [
+     "fish",
+     "squid",
+     "krill",
+     "dive",
+     "swallow"
+    ],
+    [
+     "antarctica",
+     "ice",
+     "winters",
+     "year"
+    ],
+    [
+     "egg",
+     "chicks",
+     "dad"
+    ]
+   ],
+   "rep": [
+    [
+     "Emperor penguins have a thick layer of fat.",
+     "Their feathers are also packed tightly."
+    ],
+    [
+     "Emperor penguins catch fish, squid, and krill.",
+     "They also swallow fish whole."
+    ],
+    [
+     "Emperor penguins live in Antarctica.",
+     "Its winters are also dark and very windy."
+    ]
+   ],
+   "q3": "How do emperor penguins live in the cold?"
+  },
+  {
+   "id": "polar-bears",
+   "name": "polar bears",
+   "title": "Polar Bears",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Home"
+   ],
+   "extra": "Cubs",
+   "A": {
+    "title": "Polar Bears",
+    "s": [
+     {
+      "h": null,
+      "t": "Polar bears are big white bears of the far north."
+     },
+     {
+      "h": 0,
+      "t": "Their fur looks white, but their skin is black.",
+      "note": "black skin",
+      "key": "their skin is black",
+      "wrong": "pink skin"
+     },
+     {
+      "h": 0,
+      "t": "Big, wide paws help them walk on ice and snow.",
+      "note": "big, wide paws",
+      "key": "wide paws",
+      "wrong": "small, thin paws"
+     },
+     {
+      "h": 1,
+      "t": "Polar bears mostly eat seals.",
+      "note": "eat mostly seals",
+      "key": "mostly eat seals",
+      "wrong": "eat mostly berries"
+     },
+     {
+      "h": 1,
+      "t": "A bear waits by a hole in the ice for a seal to come up for air.",
+      "note": "wait for seals",
+      "key": "waits by a hole in the ice",
+      "wrong": "dig seals from snow"
+     },
+     {
+      "h": 2,
+      "t": "Polar bears live in the Arctic, the icy land and sea around the North Pole.",
+      "note": "live in the Arctic",
+      "key": "the Arctic",
+      "wrong": "live in Antarctica"
+     },
+     {
+      "h": 2,
+      "t": "They spend much of the year on sea ice.",
+      "note": "often on sea ice",
+      "key": "sea ice",
+      "wrong": "often in forests"
+     }
+    ]
+   },
+   "B": {
+    "title": "Life in the Arctic",
+    "s": [
+     {
+      "h": null,
+      "t": "The Arctic is cold and icy for much of the year."
+     },
+     {
+      "h": 0,
+      "t": "A thick layer of fat keeps a polar bear warm.",
+      "note": "thick fat for warmth",
+      "wrong": "thin fur for warmth"
+     },
+     {
+      "h": 1,
+      "t": "Polar bears sometimes eat birds and eggs, too.",
+      "note": "sometimes eat eggs",
+      "wrong": "sometimes eat bamboo"
+     },
+     {
+      "h": 2,
+      "t": "Their Arctic home has long, dark winters.",
+      "note": "long, dark winters",
+      "wrong": "short, warm winters"
+     },
+     {
+      "h": 2,
+      "t": "When summer comes, some of the sea ice melts.",
+      "note": "summer ice melts",
+      "wrong": "summer ice grows"
+     },
+     {
+      "h": null,
+      "t": "Polar bears are strong swimmers."
+     },
+     {
+      "h": 3,
+      "t": "Polar bear cubs are born in winter.",
+      "note": "cubs born in winter"
+     },
+     {
+      "h": 3,
+      "t": "Cubs stay with their mother for about two years.",
+      "note": "cubs stay two years"
+     }
+    ]
+   },
+   "intro": "Polar bears are big bears built for the cold.",
+   "rIntro": "Polar bears are big bears of the Arctic.",
+   "ask": "How fast can a polar bear run?",
+   "close": "Polar bears are at home on the Arctic ice.",
+   "q": "How do polar bears live in the Arctic?",
+   "say": [
+    [
+     "Polar bears have black skin under their fur.",
+     "They also have wide paws for the ice."
+    ],
+    [
+     "Polar bears are predators that hunt seals.",
+     "They also wait by holes in the ice."
+    ],
+    [
+     "Polar bears live in the Arctic.",
+     "They also spend a lot of time on sea ice."
+    ]
+   ],
+   "cap": "A polar bear on the sea ice",
+   "dev": {
+    "head": "Hunting Seals",
+    "g": [
+     [
+      [
+       "F",
+       "Polar bears are predators."
+      ],
+      [
+       "Def",
+       "A predator is an animal that hunts animals.",
+       "predator"
+      ],
+      [
+       "D",
+       "Their main food is seals."
+      ],
+      [
+       "D",
+       "They also hunt walruses sometimes."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Polar bears hunt on the sea ice."
+      ],
+      [
+       "D",
+       "They wait beside holes where seals breathe."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Polar bears have a strong sense of smell."
+      ],
+      [
+       "D",
+       "They can smell a seal from far away."
+      ],
+      [
+       "D",
+       "Some can smell seals under the snow."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "predator: an animal that hunts animals",
+    "detNote": "main food is seals"
+   },
+   "hk": [
+    [
+     "skin",
+     "paws",
+     "fat"
+    ],
+    [
+     "seals",
+     "eat",
+     "eggs",
+     "waits"
+    ],
+    [
+     "arctic",
+     "sea",
+     "summer",
+     "dark"
+    ],
+    [
+     "cubs"
+    ]
+   ],
+   "rep": [
+    [
+     "Polar bears have black skin under white fur.",
+     "A thick layer of fat also keeps them warm."
+    ],
+    [
+     "Polar bears mostly eat seals.",
+     "They also eat birds and eggs sometimes."
+    ],
+    [
+     "Polar bears live in the Arctic.",
+     "Their home also has long, dark winters."
+    ]
+   ],
+   "q3": "How do polar bears live in the Arctic?"
+  },
+  {
+   "id": "hummingbirds",
+   "name": "hummingbirds",
+   "title": "Hummingbirds",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Nests"
+   ],
+   "extra": "Travel",
+   "A": {
+    "title": "Tiny Hummingbirds",
+    "s": [
+     {
+      "h": null,
+      "t": "Hummingbirds are some of the smallest birds in the world."
+     },
+     {
+      "h": 0,
+      "t": "A hummingbird can hover in one place.",
+      "note": "can hover",
+      "key": "hover in one place",
+      "wrong": "can only walk"
+     },
+     {
+      "h": 0,
+      "t": "Their wings beat so fast that they make a humming sound.",
+      "note": "humming wings",
+      "key": "a humming sound",
+      "wrong": "silent wings"
+     },
+     {
+      "h": 0,
+      "t": "A hummingbird has a long, thin bill.",
+      "note": "long, thin bill",
+      "key": "a long, thin bill",
+      "wrong": "short, hooked bill"
+     },
+     {
+      "h": 1,
+      "t": "Hummingbirds drink nectar from flowers.",
+      "note": "sip flower nectar",
+      "key": "nectar from flowers",
+      "wrong": "eat seeds"
+     },
+     {
+      "h": 1,
+      "t": "They also eat tiny insects and spiders.",
+      "note": "tiny bugs too",
+      "key": "tiny insects and spiders",
+      "wrong": "eat fish too"
+     },
+     {
+      "h": 2,
+      "t": "Many hummingbird nests are about as big as a walnut shell.",
+      "note": "walnut-size nest",
+      "key": "as big as a walnut shell",
+      "wrong": "nest as big as a hat"
+     },
+     {
+      "h": 2,
+      "t": "They are made of soft plant fluff and spider silk.",
+      "note": "plant fluff and silk",
+      "key": "plant fluff and spider silk",
+      "wrong": "mud and rocks"
+     }
+    ]
+   },
+   "B": {
+    "title": "Ruby-throated Birds",
+    "s": [
+     {
+      "h": null,
+      "t": "Ruby-throated hummingbirds spend the summer in the eastern United States and Canada."
+     },
+     {
+      "h": 0,
+      "t": "The male has a bright red patch on its throat.",
+      "note": "red throat on males",
+      "wrong": "red tail on males"
+     },
+     {
+      "h": 1,
+      "t": "They need to eat many times a day.",
+      "note": "eat often all day",
+      "wrong": "eat once a week"
+     },
+     {
+      "h": 1,
+      "t": "They often visit red and orange flowers.",
+      "note": "visit red flowers",
+      "wrong": "visit blue rocks"
+     },
+     {
+      "h": 2,
+      "t": "The mother builds the nest on a tree branch.",
+      "note": "nest on a branch",
+      "wrong": "nest in the ground"
+     },
+     {
+      "h": 3,
+      "t": "In the fall, they fly south to Mexico and Central America.",
+      "note": "fly south in fall"
+     },
+     {
+      "h": 3,
+      "t": "Many fly across the Gulf of Mexico without stopping.",
+      "note": "cross Gulf nonstop"
+     }
+    ]
+   },
+   "intro": "Hummingbirds are tiny birds full of energy.",
+   "rIntro": "Hummingbirds are small birds with fast wings.",
+   "ask": "What is the biggest kind of hummingbird?",
+   "close": "These tiny birds stay busy eating and nesting.",
+   "q": "How do hummingbirds live, eat, and nest?",
+   "say": [
+    [
+     "Hummingbirds hover on wings that hum.",
+     "They also have long, thin bills."
+    ],
+    [
+     "Hummingbirds drink nectar from flowers.",
+     "They also eat tiny insects."
+    ],
+    [
+     "Hummingbirds build tiny nests.",
+     "They also use plant fluff and spider silk."
+    ]
+   ],
+   "cap": "A hummingbird at a flower",
+   "dev": {
+    "head": "Flying",
+    "g": [
+     [
+      [
+       "F",
+       "Hummingbirds can hover."
+      ],
+      [
+       "Def",
+       "To hover means to stay still in the air.",
+       "hover"
+      ],
+      [
+       "D",
+       "They hover in front of flowers to drink."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Hummingbirds can fly backward."
+      ],
+      [
+       "D",
+       "They back away from a flower when they finish."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Hummingbirds beat their wings very fast."
+      ],
+      [
+       "D",
+       "Some beat them about fifty times a second."
+      ],
+      [
+       "D",
+       "This fast beating makes a humming sound."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 0,
+    "g": 0,
+    "defNote": "hover: stay still in the air",
+    "detNote": "hover by flowers to drink"
+   },
+   "hk": [
+    [
+     "wings",
+     "bill",
+     "throat",
+     "hover",
+     "humming"
+    ],
+    [
+     "nectar",
+     "bugs",
+     "eat",
+     "flowers",
+     "insects"
+    ],
+    [
+     "nest",
+     "fluff",
+     "branch",
+     "walnut"
+    ],
+    [
+     "south",
+     "gulf"
+    ]
+   ],
+   "rep": [
+    [
+     "Hummingbirds can hover in one place.",
+     "Males also have a bright red throat."
+    ],
+    [
+     "Hummingbirds sip nectar from flowers.",
+     "They also eat often during the day."
+    ],
+    [
+     "Many hummingbird nests are as big as a walnut.",
+     "The mother also builds her nest on a branch."
+    ]
+   ],
+   "q3": "How do hummingbirds live, eat, and nest?"
+  },
+  {
+   "id": "bald-eagles",
+   "name": "bald eagles",
+   "title": "Bald Eagles",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Nests"
+   ],
+   "extra": "Young Eagles",
+   "A": {
+    "title": "Bald Eagles",
+    "s": [
+     {
+      "h": null,
+      "t": "Bald eagles are large birds that live in North America."
+     },
+     {
+      "h": 0,
+      "t": "An adult bald eagle has a white head and a white tail.",
+      "note": "white head and tail",
+      "key": "a white head",
+      "wrong": "black head and tail"
+     },
+     {
+      "h": 0,
+      "t": "Its sharp, curved claws are called talons.",
+      "note": "sharp talons",
+      "key": "sharp, curved claws",
+      "wrong": "flat, dull claws"
+     },
+     {
+      "h": 1,
+      "t": "Bald eagles eat mostly fish.",
+      "note": "eat mostly fish",
+      "key": "mostly fish",
+      "wrong": "eat mostly berries"
+     },
+     {
+      "h": 1,
+      "t": "An eagle grabs a fish from the water with its feet.",
+      "note": "grab fish with feet",
+      "key": "grabs a fish",
+      "wrong": "grab fish with beak"
+     },
+     {
+      "h": 2,
+      "t": "Bald eagles build their nests near lakes, rivers, and the sea.",
+      "note": "nests near water",
+      "key": "nests near lakes, rivers, and the sea",
+      "wrong": "nests in deserts"
+     },
+     {
+      "h": 2,
+      "t": "They make their nests of sticks, high up in tall trees.",
+      "note": "stick nests in trees",
+      "key": "nests of sticks",
+      "wrong": "nests made of mud"
+     }
+    ]
+   },
+   "B": {
+    "title": "Eagle Nests",
+    "s": [
+     {
+      "h": null,
+      "t": "A pair of bald eagles may use one nest for many years."
+     },
+     {
+      "h": 2,
+      "t": "Each year, they add more sticks, so the nest gets bigger.",
+      "note": "nest grows each year",
+      "wrong": "new nest each day"
+     },
+     {
+      "h": 0,
+      "t": "Bald eagles can see much better than people can.",
+      "note": "sharp eyesight",
+      "wrong": "poor eyesight"
+     },
+     {
+      "h": 1,
+      "t": "Eagles also eat ducks, rabbits, and dead animals.",
+      "note": "ducks, rabbits too",
+      "wrong": "grass and leaves too"
+     },
+     {
+      "h": 1,
+      "t": "Sometimes eagles steal fish from other birds.",
+      "note": "steal fish",
+      "wrong": "share fish"
+     },
+     {
+      "h": 3,
+      "t": "Young bald eagles are mostly brown.",
+      "note": "young ones are brown"
+     },
+     {
+      "h": 3,
+      "t": "Their heads turn white when they are about five years old.",
+      "note": "white at age five"
+     }
+    ]
+   },
+   "intro": "Bald eagles are large birds of North America.",
+   "rIntro": "Bald eagles are large birds that hunt fish.",
+   "ask": "How many bald eagles live in Alaska?",
+   "close": "Bald eagles are strong, sharp-eyed hunters.",
+   "q": "How do bald eagles live, hunt, and nest?",
+   "say": [
+    [
+     "Bald eagles have white heads and tails.",
+     "They also have sharp talons."
+    ],
+    [
+     "Bald eagles are raptors that eat mostly fish.",
+     "They also grab fish with their feet."
+    ],
+    [
+     "Bald eagles build nests near water.",
+     "They also make big nests of sticks."
+    ]
+   ],
+   "cap": "A bald eagle in its nest",
+   "dev": {
+    "head": "Hunting",
+    "g": [
+     [
+      [
+       "F",
+       "Bald eagles are raptors."
+      ],
+      [
+       "Def",
+       "A raptor is a bird that hunts with its feet.",
+       "raptor"
+      ],
+      [
+       "D",
+       "For example, hawks and owls are raptors too."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Bald eagles have sharp talons."
+      ],
+      [
+       "D",
+       "They use them to grab fish."
+      ],
+      [
+       "Def",
+       "Talons are long, sharp claws.",
+       "talons"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Bald eagles have very good eyesight."
+      ],
+      [
+       "D",
+       "They can spot a fish from high in the sky."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "raptor: a bird that hunts with its feet",
+    "detNote": "hawks and owls are raptors too"
+   },
+   "hk": [
+    [
+     "head",
+     "tail",
+     "talons",
+     "eyesight",
+     "claws"
+    ],
+    [
+     "fish",
+     "eat",
+     "ducks",
+     "steal"
+    ],
+    [
+     "nest",
+     "nests",
+     "sticks"
+    ],
+    [
+     "young",
+     "brown",
+     "five"
+    ]
+   ],
+   "rep": [
+    [
+     "Adult bald eagles have white heads and tails.",
+     "Their eyesight is also much sharper than ours."
+    ],
+    [
+     "Bald eagles eat mostly fish.",
+     "They also eat ducks and rabbits."
+    ],
+    [
+     "Bald eagles build nests near water.",
+     "They also add sticks to the nest each year."
+    ]
+   ],
+   "q3": "How do bald eagles live, hunt, and nest?"
+  },
+  {
+   "id": "thunderstorms",
+   "name": "thunderstorms",
+   "title": "Thunderstorms",
+   "group": "weather",
+   "heads": [
+    "Lightning",
+    "Thunder",
+    "Staying Safe"
+   ],
+   "extra": "Storm Clouds",
+   "A": {
+    "title": "Thunderstorms",
+    "s": [
+     {
+      "h": null,
+      "t": "A thunderstorm is a storm with lightning and thunder."
+     },
+     {
+      "h": 0,
+      "t": "Lightning is a giant spark of electricity in the sky.",
+      "note": "giant electric spark",
+      "key": "a giant spark",
+      "wrong": "a ray of sunlight"
+     },
+     {
+      "h": 0,
+      "t": "Lightning often strikes tall things, such as trees.",
+      "note": "hits tall things",
+      "key": "strikes tall things",
+      "wrong": "hits only water"
+     },
+     {
+      "h": 1,
+      "t": "Thunder is the loud sound that lightning makes.",
+      "note": "lightning's sound",
+      "key": "the loud sound",
+      "wrong": "sound of the rain"
+     },
+     {
+      "h": 1,
+      "t": "Thunder can be heard up to ten miles away.",
+      "note": "heard ten miles away",
+      "key": "heard up to ten miles away",
+      "wrong": "heard 100 miles away"
+     },
+     {
+      "h": 2,
+      "t": "When you hear thunder, go inside a building or a car with a hard top.",
+      "note": "go indoors",
+      "key": "go inside",
+      "wrong": "stand under a tree"
+     },
+     {
+      "h": 2,
+      "t": "Stay away from tall trees and water.",
+      "note": "avoid trees, water",
+      "key": "Stay away from tall trees and water",
+      "wrong": "go swimming"
+     }
+    ]
+   },
+   "B": {
+    "title": "Watching a Storm",
+    "s": [
+     {
+      "h": null,
+      "t": "Thunderstorms happen most often on warm summer days."
+     },
+     {
+      "h": 0,
+      "t": "Lightning can flash inside a cloud or reach down to the ground.",
+      "note": "can reach the ground",
+      "wrong": "stays in the cloud"
+     },
+     {
+      "h": 0,
+      "t": "A flash of lightning usually lasts less than one second.",
+      "note": "very short flash",
+      "wrong": "very long flash"
+     },
+     {
+      "h": 1,
+      "t": "Thunder can sound like a sharp crack or a long rumble.",
+      "note": "crack or rumble",
+      "wrong": "a soft whistle"
+     },
+     {
+      "h": 2,
+      "t": "Wait 30 minutes after the last thunder before going outside.",
+      "note": "wait 30 minutes",
+      "wrong": "wait 3 minutes"
+     },
+     {
+      "h": 3,
+      "t": "Thunderstorms come from tall, dark clouds.",
+      "note": "tall, dark clouds"
+     },
+     {
+      "h": 3,
+      "t": "These clouds can stretch miles up into the sky.",
+      "note": "clouds miles high"
+     }
+    ]
+   },
+   "intro": "Thunderstorms bring lightning and thunder.",
+   "rIntro": "A thunderstorm brings lightning and thunder.",
+   "ask": "What was the biggest storm ever?",
+   "close": "Stay safe when a thunderstorm comes!",
+   "q": "What happens in a thunderstorm, and how can we stay safe?",
+   "say": [
+    [
+     "Lightning is a giant spark of electricity.",
+     "It also often hits tall things, like trees."
+    ],
+    [
+     "Thunder is the loud sound lightning makes.",
+     "It can also be heard up to ten miles away."
+    ],
+    [
+     "When you hear thunder, go indoors.",
+     "Also, stay away from trees and water."
+    ]
+   ],
+   "cap": "Lightning flashing from a cloud",
+   "dev": {
+    "head": "Lightning and Thunder",
+    "g": [
+     [
+      [
+       "F",
+       "Lightning is a giant spark of electricity."
+      ],
+      [
+       "Def",
+       "Electricity is a kind of energy.",
+       "electricity"
+      ],
+      [
+       "D",
+       "One flash can light up the whole sky."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Lightning can strike the ground."
+      ],
+      [
+       "D",
+       "It often hits tall things, such as trees."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Lightning causes thunder."
+      ],
+      [
+       "Def",
+       "Thunder is the loud sound made by lightning.",
+       "thunder"
+      ],
+      [
+       "D",
+       "It can be heard up to ten miles away."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 0,
+    "g": 0,
+    "defNote": "electricity: a kind of energy",
+    "detNote": "one flash lights up the sky"
+   },
+   "hk": [
+    [
+     "spark",
+     "electric",
+     "hits",
+     "ground",
+     "flash",
+     "strikes"
+    ],
+    [
+     "sound",
+     "heard",
+     "rumble",
+     "crack"
+    ],
+    [
+     "indoors",
+     "avoid",
+     "wait",
+     "inside",
+     "stay"
+    ],
+    [
+     "clouds"
+    ]
+   ],
+   "rep": [
+    [
+     "Lightning is a giant spark of electricity.",
+     "It can also reach down to the ground."
+    ],
+    [
+     "Thunder is the loud sound lightning makes.",
+     "It can also sound like a crack or a rumble."
+    ],
+    [
+     "When you hear thunder, go indoors.",
+     "Also, wait 30 minutes after the last thunder."
+    ]
+   ],
+   "q3": "How do people stay safe in a thunderstorm?"
+  },
+  {
+   "id": "tornadoes",
+   "name": "tornadoes",
+   "title": "Tornadoes",
+   "group": "weather",
+   "heads": [
+    "What They Are",
+    "Where and When",
+    "Staying Safe"
+   ],
+   "extra": "Measuring",
+   "A": {
+    "title": "Tornadoes",
+    "s": [
+     {
+      "h": null,
+      "t": "Tornadoes are powerful storms."
+     },
+     {
+      "h": 0,
+      "t": "A tornado is a spinning column of air that reaches from a cloud to the ground.",
+      "note": "spinning air column",
+      "key": "a spinning column of air",
+      "wrong": "a big wave of water"
+     },
+     {
+      "h": 0,
+      "t": "Some tornadoes have winds over 200 miles per hour.",
+      "note": "very fast winds",
+      "key": "over 200 miles per hour",
+      "wrong": "very gentle winds"
+     },
+     {
+      "h": 1,
+      "t": "The United States has more tornadoes than any other country.",
+      "note": "U.S. has the most",
+      "key": "The United States has more tornadoes",
+      "wrong": "Canada has the most"
+     },
+     {
+      "h": 1,
+      "t": "Many tornadoes happen in Tornado Alley, in the middle of the country.",
+      "note": "Tornado Alley",
+      "key": "Tornado Alley",
+      "wrong": "only near oceans"
+     },
+     {
+      "h": 2,
+      "t": "In a tornado, go to a basement or a room with no windows.",
+      "note": "go to a basement",
+      "key": "a basement",
+      "wrong": "stand by a window"
+     },
+     {
+      "h": 2,
+      "t": "Crouch low and cover your head.",
+      "note": "cover your head",
+      "key": "cover your head",
+      "wrong": "stand up tall"
+     }
+    ]
+   },
+   "B": {
+    "title": "Tornado Season",
+    "s": [
+     {
+      "h": null,
+      "t": "Tornadoes can form quickly, so it helps to have a plan."
+     },
+     {
+      "h": 0,
+      "t": "A tornado can look like a giant funnel.",
+      "note": "funnel shape",
+      "wrong": "flat, round shape"
+     },
+     {
+      "h": 1,
+      "t": "Most tornadoes happen in spring and early summer.",
+      "note": "spring, early summer",
+      "wrong": "mostly in winter"
+     },
+     {
+      "h": 2,
+      "t": "Listen for tornado warnings on the radio or TV.",
+      "note": "listen for warnings",
+      "wrong": "ignore warnings"
+     },
+     {
+      "h": 2,
+      "t": "Many towns sound loud sirens when a tornado is coming.",
+      "note": "listen for sirens",
+      "wrong": "sirens mean rain"
+     },
+     {
+      "h": 3,
+      "t": "Scientists rate each tornado by the damage it causes.",
+      "note": "rated by damage"
+     },
+     {
+      "h": 3,
+      "t": "The weakest tornadoes are rated EF0, and the strongest are rated EF5.",
+      "note": "EF0 to EF5"
+     }
+    ]
+   },
+   "intro": "Tornadoes are some of the strongest storms.",
+   "rIntro": "Tornadoes are strong, spinning storms.",
+   "ask": "Who saw the first tornado?",
+   "close": "Tornadoes are powerful, so stay safe.",
+   "q": "What are tornadoes, and how can we stay safe?",
+   "say": [
+    [
+     "A tornado is a spinning column of air.",
+     "Its winds can also be very fast."
+    ],
+    [
+     "The U.S. gets the most tornadoes in the world.",
+     "They also come most often in spring."
+    ],
+    [
+     "Many towns sound sirens when a tornado nears.",
+     "Also, go to a basement and cover your head."
+    ]
+   ],
+   "cap": "A tornado touching the ground",
+   "dev": {
+    "head": "Staying Safe",
+    "g": [
+     [
+      [
+       "F",
+       "Weather experts give tornado warnings."
+      ],
+      [
+       "Def",
+       "A warning is a message that danger is near.",
+       "warning"
+      ],
+      [
+       "D",
+       "It tells people to take cover now."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Towns use sirens to warn people."
+      ],
+      [
+       "D",
+       "They sound when a tornado is near."
+      ],
+      [
+       "Def",
+       "A siren is a loud horn that warns people.",
+       "siren"
+      ]
+     ],
+     [
+      [
+       "F",
+       "People go to a safe place during a tornado."
+      ],
+      [
+       "D",
+       "For example, a basement is a safe place."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 2,
+    "g": 1,
+    "defNote": "siren: a loud horn that warns people",
+    "detNote": "sound when a tornado is near"
+   },
+   "hk": [
+    [
+     "spinning",
+     "winds",
+     "funnel",
+     "miles"
+    ],
+    [
+     "most",
+     "alley",
+     "spring",
+     "states"
+    ],
+    [
+     "basement",
+     "head",
+     "warnings",
+     "sirens"
+    ],
+    [
+     "rated",
+     "ef"
+    ]
+   ],
+   "rep": [
+    [
+     "A tornado is a spinning column of air.",
+     "It can also look like a giant funnel."
+    ],
+    [
+     "The U.S. gets the most tornadoes in the world.",
+     "They also come most often in spring."
+    ],
+    [
+     "In a tornado, go to a basement.",
+     "Also, listen for warnings on the radio or TV."
+    ]
+   ],
+   "q3": "How do people stay safe in a tornado?"
+  },
+  {
+   "id": "saguaros",
+   "name": "saguaros",
+   "title": "Saguaro Cactuses",
+   "group": "plant",
+   "heads": [
+    "How It Looks",
+    "Water",
+    "Animal Homes"
+   ],
+   "extra": "Flowers",
+   "A": {
+    "title": "The Saguaro Cactus",
+    "s": [
+     {
+      "h": null,
+      "t": "The saguaro is a giant cactus that grows in the desert."
+     },
+     {
+      "h": 0,
+      "t": "A saguaro can grow taller than a house.",
+      "note": "taller than a house",
+      "key": "taller than a house",
+      "wrong": "shorter than a dog"
+     },
+     {
+      "h": 0,
+      "t": "Sharp spines cover its thick green stem.",
+      "note": "spiny green stem",
+      "key": "thick green stem",
+      "wrong": "soft leaves on it"
+     },
+     {
+      "h": 1,
+      "t": "Its roots spread out wide, just under the ground, to catch rain.",
+      "note": "roots catch rain",
+      "key": "to catch rain",
+      "wrong": "roots catch bugs"
+     },
+     {
+      "h": 1,
+      "t": "After a big rain, the stem swells up as it fills with water.",
+      "note": "stem stores water",
+      "key": "fills with water",
+      "wrong": "stem dries out"
+     },
+     {
+      "h": 2,
+      "t": "Woodpeckers peck holes in the saguaro for their nests.",
+      "note": "woodpecker nests",
+      "key": "Woodpeckers peck holes",
+      "wrong": "ducks build nests"
+     },
+     {
+      "h": 2,
+      "t": "Later, other birds, such as tiny owls, move into the old holes.",
+      "note": "owls use old holes",
+      "key": "tiny owls",
+      "wrong": "rabbits use old holes"
+     }
+    ]
+   },
+   "B": {
+    "title": "Life in the Desert",
+    "s": [
+     {
+      "h": null,
+      "t": "Saguaros grow in the Sonoran Desert in Arizona and Mexico."
+     },
+     {
+      "h": null,
+      "t": "Saguaros grow very slowly."
+     },
+     {
+      "h": 0,
+      "t": "Many saguaros grow arms that point up.",
+      "note": "arms point up",
+      "wrong": "arms point down"
+     },
+     {
+      "h": 0,
+      "t": "Some saguaros have no arms at all.",
+      "note": "some have no arms",
+      "wrong": "all have ten arms"
+     },
+     {
+      "h": 1,
+      "t": "Folds called pleats let the stem stretch.",
+      "note": "pleats stretch",
+      "wrong": "pleats shrink"
+     },
+     {
+      "h": 1,
+      "t": "A saguaro can go a long time without rain.",
+      "note": "lasts without rain",
+      "wrong": "needs rain daily"
+     },
+     {
+      "h": 2,
+      "t": "Hawks sometimes build nests in the saguaro's arms.",
+      "note": "hawks nest there",
+      "wrong": "ducks nest there"
+     },
+     {
+      "h": 3,
+      "t": "White flowers bloom on its top in late spring.",
+      "note": "white spring flowers"
+     },
+     {
+      "h": 3,
+      "t": "The saguaro blossom is the state flower of Arizona.",
+      "note": "Arizona state flower"
+     }
+    ]
+   },
+   "intro": "The saguaro is a giant cactus of the desert.",
+   "rIntro": "The saguaro is a giant cactus of the desert.",
+   "ask": "How old is the oldest saguaro?",
+   "close": "Saguaros store water and shelter animals.",
+   "q": "How does the saguaro live in the desert?",
+   "say": [
+    [
+     "A saguaro can grow taller than a house.",
+     "Sharp spines also cover its green stem."
+    ],
+    [
+     "A saguaro stem has pleats that stretch.",
+     "Its roots also spread out to catch rain."
+    ],
+    [
+     "Woodpeckers make nests in saguaros.",
+     "Later, owls also move into the old holes."
+    ]
+   ],
+   "cap": "A tall saguaro with its arms up",
+   "dev": {
+    "head": "Storing Water",
+    "g": [
+     [
+      [
+       "F",
+       "A saguaro stores water in its stem."
+      ],
+      [
+       "D",
+       "After a big rain, the stem swells up."
+      ],
+      [
+       "Def",
+       "A stem is the part of a plant that holds it up.",
+       "stem"
+      ]
+     ],
+     [
+      [
+       "F",
+       "A saguaro has pleats on its stem."
+      ],
+      [
+       "Def",
+       "A pleat is a fold, like the fold of a fan.",
+       "pleat"
+      ],
+      [
+       "D",
+       "They open wide when the stem fills up."
+      ]
+     ],
+     [
+      [
+       "F",
+       "A saguaro has wide, shallow roots."
+      ],
+      [
+       "D",
+       "They catch rain before it soaks away."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 1,
+    "defNote": "pleat: a fold, like the fold of a fan",
+    "detNote": "open wide when the stem fills"
+   },
+   "hk": [
+    [
+     "taller",
+     "spiny",
+     "arms",
+     "green"
+    ],
+    [
+     "roots",
+     "rain",
+     "water",
+     "pleats"
+    ],
+    [
+     "woodpecker",
+     "owls",
+     "hawks",
+     "holes"
+    ],
+    [
+     "flowers",
+     "flower"
+    ]
+   ],
+   "rep": [
+    [
+     "A saguaro can grow taller than a house.",
+     "Many also grow arms that point up."
+    ],
+    [
+     "Saguaro roots spread out to catch rain.",
+     "Pleats also let the stem stretch."
+    ],
+    [
+     "Woodpeckers make nests in saguaros.",
+     "Hawks also nest in their arms sometimes."
+    ]
+   ],
+   "q3": "How do saguaros live in the desert?"
+  },
+  {
+   "id": "sunflowers",
+   "name": "sunflowers",
+   "title": "Sunflowers",
+   "group": "plant",
+   "heads": [
+    "Parts",
+    "Growing",
+    "Food"
+   ],
+   "extra": "Long Ago",
+   "A": {
+    "title": "Sunflowers",
+    "s": [
+     {
+      "h": null,
+      "t": "Sunflowers are tall plants with big, bright flowers."
+     },
+     {
+      "h": 0,
+      "t": "The big flower head is really made of many tiny flowers.",
+      "note": "many tiny flowers",
+      "key": "many tiny flowers",
+      "wrong": "one giant flower"
+     },
+     {
+      "h": 0,
+      "t": "Bright yellow petals grow around the edge of the head.",
+      "note": "yellow petals",
+      "key": "yellow petals",
+      "wrong": "blue petals"
+     },
+     {
+      "h": 1,
+      "t": "A seed sends up a tiny sprout.",
+      "note": "sends up a sprout",
+      "key": "a tiny sprout",
+      "wrong": "sends up a bulb"
+     },
+     {
+      "h": 1,
+      "t": "A sunflower grows from a small seed planted in the spring.",
+      "note": "starts as a seed",
+      "key": "grows from a small seed",
+      "wrong": "starts as a bulb"
+     },
+     {
+      "h": 1,
+      "t": "Young sunflowers turn to follow the sun across the sky.",
+      "note": "turn toward the sun",
+      "key": "follow the sun",
+      "wrong": "turn from the sun"
+     },
+     {
+      "h": 2,
+      "t": "Birds and people eat sunflower seeds.",
+      "note": "seeds are food",
+      "key": "eat sunflower seeds",
+      "wrong": "birds eat the stems"
+     },
+     {
+      "h": 2,
+      "t": "People make cooking oil from sunflower seeds.",
+      "note": "seeds make oil",
+      "key": "cooking oil",
+      "wrong": "oil from the stems"
+     }
+    ]
+   },
+   "B": {
+    "title": "Growing Sunflowers",
+    "s": [
+     {
+      "h": 3,
+      "t": "Sunflowers first grew in North America.",
+      "note": "from North America"
+     },
+     {
+      "h": 1,
+      "t": "They need lots of sun and water to grow.",
+      "note": "need sun and water",
+      "wrong": "grow in the dark"
+     },
+     {
+      "h": 1,
+      "t": "Some kinds grow taller than a grown-up in one summer.",
+      "note": "grow tall fast",
+      "wrong": "grow very slowly"
+     },
+     {
+      "h": 0,
+      "t": "A thick stem holds up the heavy flower head.",
+      "note": "thick, strong stem",
+      "wrong": "thin, weak stem"
+     },
+     {
+      "h": 0,
+      "t": "Its big leaves are rough and shaped like hearts.",
+      "note": "rough, heart leaves",
+      "wrong": "smooth, round leaves"
+     },
+     {
+      "h": 2,
+      "t": "Squirrels like to eat the seeds.",
+      "note": "squirrels eat seeds",
+      "wrong": "squirrels eat petals"
+     },
+     {
+      "h": 2,
+      "t": "Some people roast the seeds as a snack.",
+      "note": "roasted seed snack",
+      "wrong": "boiled leaf snack"
+     },
+     {
+      "h": 3,
+      "t": "Native Americans have grown sunflowers for thousands of years.",
+      "note": "thousands of years"
+     }
+    ]
+   },
+   "intro": "Sunflowers are tall plants with big flowers.",
+   "rIntro": "Sunflowers are tall plants with useful seeds.",
+   "ask": "Why are sunflowers yellow?",
+   "close": "Sunflowers are bright and useful plants.",
+   "q": "How do sunflowers grow and feed us?",
+   "say": [
+    [
+     "A sunflower head is many tiny flowers.",
+     "Yellow petals also grow around the edge."
+    ],
+    [
+     "A sunflower seed sends up a sprout.",
+     "It also needs lots of sun and water."
+    ],
+    [
+     "People and birds eat sunflower seeds.",
+     "The seeds also make cooking oil."
+    ]
+   ],
+   "cap": "A tall sunflower in the sun",
+   "dev": {
+    "head": "How They Grow",
+    "g": [
+     [
+      [
+       "F",
+       "Sunflowers grow from seeds."
+      ],
+      [
+       "D",
+       "Many seeds have striped shells."
+      ]
+     ],
+     [
+      [
+       "F",
+       "A sunflower seed sends up a sprout."
+      ],
+      [
+       "Def",
+       "A sprout is a tiny new plant.",
+       "sprout"
+      ],
+      [
+       "D",
+       "It has two small leaves at first."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Young sunflowers follow the sun."
+      ],
+      [
+       "D",
+       "They face east in the morning."
+      ],
+      [
+       "D",
+       "By evening, they face west."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 1,
+    "defNote": "sprout: a tiny new plant",
+    "detNote": "two small leaves at first"
+   },
+   "hk": [
+    [
+     "flowers",
+     "petals",
+     "stem",
+     "leaves"
+    ],
+    [
+     "sun",
+     "starts",
+     "tall",
+     "sprout",
+     "grows"
+    ],
+    [
+     "oil",
+     "snack",
+     "food",
+     "squirrels",
+     "eat"
+    ],
+    [
+     "america",
+     "years"
+    ]
+   ],
+   "rep": [
+    [
+     "A sunflower head is many tiny flowers.",
+     "A thick stem also holds up the head."
+    ],
+    [
+     "A sunflower seed sends up a tiny sprout.",
+     "It also needs lots of sun and water."
+    ],
+    [
+     "Birds and people eat sunflower seeds.",
+     "Squirrels also like to eat the seeds."
+    ]
+   ],
+   "q3": "How do sunflowers grow and feed us?"
+  },
+  {
+   "id": "maple-trees",
+   "name": "maple trees",
+   "title": "Maple Trees",
+   "group": "plant",
+   "heads": [
+    "Leaves",
+    "Seeds",
+    "Syrup"
+   ],
+   "extra": "Wood",
+   "A": {
+    "title": "Maple Trees",
+    "s": [
+     {
+      "h": null,
+      "t": "Maple trees grow in many parts of North America."
+     },
+     {
+      "h": 0,
+      "t": "A maple leaf has several pointed parts, like the fingers of a hand.",
+      "note": "leaves have points",
+      "key": "several pointed parts",
+      "wrong": "round, smooth leaves"
+     },
+     {
+      "h": 0,
+      "t": "In fall, many maple leaves turn red, orange, or yellow.",
+      "note": "red, orange in fall",
+      "key": "red, orange, or yellow",
+      "wrong": "turn blue in fall"
+     },
+     {
+      "h": 1,
+      "t": "Maple seeds grow in pairs, and each seed has a wing.",
+      "note": "winged seeds",
+      "key": "each seed has a wing",
+      "wrong": "seeds have no wings"
+     },
+     {
+      "h": 1,
+      "t": "The seeds spin like little helicopters as they fall.",
+      "note": "seeds spin down",
+      "key": "spin like little helicopters",
+      "wrong": "seeds drop straight"
+     },
+     {
+      "h": 2,
+      "t": "Maple syrup is made from the sap of maple trees.",
+      "note": "syrup from sap",
+      "key": "made from the sap",
+      "wrong": "syrup from leaves"
+     },
+     {
+      "h": 2,
+      "t": "People collect the sap in late winter or early spring.",
+      "note": "sap in late winter",
+      "key": "collect the sap in late winter",
+      "wrong": "collect sap in fall"
+     }
+    ]
+   },
+   "B": {
+    "title": "From Tree to Syrup",
+    "s": [
+     {
+      "h": null,
+      "t": "Sugar maples give the sweetest sap."
+     },
+     {
+      "h": 2,
+      "t": "The sap is boiled for hours until it turns into thick syrup.",
+      "note": "boil sap into syrup",
+      "wrong": "freeze sap to syrup"
+     },
+     {
+      "h": 2,
+      "t": "It takes about 40 gallons of sap to make one gallon of syrup.",
+      "note": "lots of sap needed",
+      "wrong": "a cup of sap needed"
+     },
+     {
+      "h": 0,
+      "t": "Maple trees lose their leaves in the fall.",
+      "note": "leaves drop in fall",
+      "wrong": "leaves drop in spring"
+     },
+     {
+      "h": 1,
+      "t": "The wind can carry maple seeds far from the tree.",
+      "note": "wind carries seeds",
+      "wrong": "water carries seeds"
+     },
+     {
+      "h": 3,
+      "t": "Maple wood is hard and strong.",
+      "note": "hard, strong wood"
+     },
+     {
+      "h": 3,
+      "t": "People use maple wood to make floors and furniture.",
+      "note": "floors, furniture"
+     }
+    ]
+   },
+   "intro": "Maples are known for leaves, seeds, and syrup.",
+   "rIntro": "Maple trees give us leaves, seeds, and syrup.",
+   "ask": "How old is the oldest maple tree?",
+   "close": "Maple trees surprise us, from leaves to syrup.",
+   "q": "What are maple trees like?",
+   "say": [
+    [
+     "Maple leaves have pointed parts.",
+     "Many also turn red or orange in fall."
+    ],
+    [
+     "Maple seeds have wings.",
+     "They also spin as they fall."
+    ],
+    [
+     "First, people collect sap from maple trees.",
+     "Next, it is boiled, and it turns to syrup."
+    ]
+   ],
+   "cap": "A maple seed spinning down",
+   "dev": {
+    "head": "Maple Syrup",
+    "g": [
+     [
+      [
+       "F",
+       "Maple syrup is made from sap."
+      ],
+      [
+       "Def",
+       "Sap is a watery liquid inside a tree.",
+       "sap"
+      ],
+      [
+       "D",
+       "In late winter, it starts to flow."
+      ],
+      [
+       "D",
+       "It tastes only a little sweet."
+      ]
+     ],
+     [
+      [
+       "F",
+       "People tap maple trees to get the sap."
+      ],
+      [
+       "D",
+       "The sap drips into buckets or tubes."
+      ],
+      [
+       "Def",
+       "To tap a tree means to drill a small hole in it.",
+       "tap"
+      ]
+     ],
+     [
+      [
+       "F",
+       "The sap is boiled to make syrup."
+      ],
+      [
+       "D",
+       "Most of the water turns into steam."
+      ],
+      [
+       "D",
+       "What is left is thick, sweet syrup."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 2,
+    "g": 0,
+    "defNote": "sap: a watery liquid inside a tree",
+    "detNote": "starts to flow in late winter"
+   },
+   "hk": [
+    [
+     "leaves",
+     "points",
+     "pointed",
+     "red"
+    ],
+    [
+     "seeds",
+     "wing",
+     "winged",
+     "spin",
+     "wind"
+    ],
+    [
+     "syrup",
+     "sap"
+    ],
+    [
+     "wood",
+     "floors"
+    ]
+   ],
+   "rep": [
+    [
+     "Maple leaves have pointed parts.",
+     "The leaves also drop off in the fall."
+    ],
+    [
+     "Each maple seed has a wing.",
+     "The wind can also carry seeds far away."
+    ],
+    [
+     "Maple syrup is made from sap.",
+     "The sap is boiled, and it turns into syrup."
+    ]
+   ],
+   "q3": "How do people use maple trees?"
+  },
+  {
+   "id": "glass",
+   "name": "glass",
+   "title": "Glass",
+   "group": "made",
+   "heads": [
+    "Made From",
+    "Making Glass",
+    "Uses"
+   ],
+   "extra": "Recycling",
+   "A": {
+    "title": "How Glass Is Made",
+    "s": [
+     {
+      "h": null,
+      "t": "Glass is all around us, but it starts out as something very different."
+     },
+     {
+      "h": 0,
+      "t": "Glass is made mostly from sand.",
+      "note": "mostly sand",
+      "key": "mostly from sand",
+      "wrong": "mostly salt"
+     },
+     {
+      "h": 0,
+      "t": "Two other things, soda ash and limestone, are added to the sand.",
+      "note": "soda ash, limestone",
+      "key": "soda ash and limestone",
+      "wrong": "sugar and flour"
+     },
+     {
+      "h": 1,
+      "t": "The mix is heated in a furnace until it melts.",
+      "note": "melted in a furnace",
+      "key": "heated in a furnace",
+      "wrong": "frozen in a freezer"
+     },
+     {
+      "h": 1,
+      "t": "As it cools, the glass gets hard.",
+      "note": "hardens as it cools",
+      "key": "the glass gets hard",
+      "wrong": "gets soft as it cools"
+     },
+     {
+      "h": 2,
+      "t": "People use glass to make windows, jars, and bottles.",
+      "note": "windows and jars",
+      "key": "windows, jars, and bottles",
+      "wrong": "coats and hats"
+     },
+     {
+      "h": 2,
+      "t": "Glass is also used to make mirrors and light bulbs.",
+      "note": "mirrors, light bulbs",
+      "key": "mirrors and light bulbs",
+      "wrong": "pillows, blankets"
+     }
+    ]
+   },
+   "B": {
+    "title": "Glassblowers",
+    "s": [
+     {
+      "h": null,
+      "t": "A glassblower is an artist who shapes hot glass."
+     },
+     {
+      "h": 0,
+      "t": "The sand used for glass is very fine and clean.",
+      "note": "fine, clean sand",
+      "wrong": "muddy, wet sand"
+     },
+     {
+      "h": 1,
+      "t": "The glassblower puts a blob of hot glass on the end of a long pipe.",
+      "note": "hot glass on a pipe",
+      "wrong": "cold glass in a cup"
+     },
+     {
+      "h": 1,
+      "t": "Then the glassblower blows air into the pipe to make a bubble.",
+      "note": "blow air into pipe",
+      "wrong": "pour water in pipe"
+     },
+     {
+      "h": 2,
+      "t": "Glassblowers make vases, bowls, and cups.",
+      "note": "vases and bowls",
+      "wrong": "shoes and socks"
+     },
+     {
+      "h": 3,
+      "t": "Glass can be melted and made into new glass again and again.",
+      "note": "can be recycled"
+     },
+     {
+      "h": 3,
+      "t": "Recycling glass saves sand and energy.",
+      "note": "saves energy"
+     }
+    ]
+   },
+   "intro": "Glass is something people make and use.",
+   "rIntro": "Glass is made mostly from sand.",
+   "ask": "Who made the very first window?",
+   "close": "Sand, heat, and skill make the glass we use.",
+   "q": "What is glass made from, how is it made, and how do we use it?",
+   "say": [
+    [
+     "Glass is made mostly from sand.",
+     "Soda ash and limestone are also added."
+    ],
+    [
+     "First, the mix is melted in a furnace.",
+     "Next, the glass cools, and it gets hard."
+    ],
+    [
+     "People use glass for windows and jars.",
+     "It is also used for mirrors."
+    ]
+   ],
+   "cap": "A glassblower blowing a bubble",
+   "dev": {
+    "head": "Shaping Glass",
+    "g": [
+     [
+      [
+       "F",
+       "Glass is melted in a furnace."
+      ],
+      [
+       "Def",
+       "A furnace is a very hot oven.",
+       "furnace"
+      ],
+      [
+       "D",
+       "It is much hotter than a kitchen oven."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Glassblowers shape the hot glass."
+      ],
+      [
+       "D",
+       "They blow air through a long pipe."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Glass cools and gets hard."
+      ],
+      [
+       "D",
+       "Then it keeps its new shape."
+      ],
+      [
+       "D",
+       "Some glass is cooled slowly so it will not crack."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "furnace: a very hot oven",
+    "detNote": "much hotter than a kitchen oven"
+   },
+   "hk": [
+    [
+     "sand",
+     "soda",
+     "limestone"
+    ],
+    [
+     "furnace",
+     "hardens",
+     "hard",
+     "pipe",
+     "blow",
+     "melted"
+    ],
+    [
+     "windows",
+     "mirrors",
+     "vases"
+    ],
+    [
+     "recycled",
+     "energy"
+    ]
+   ],
+   "rep": [
+    [
+     "Sand is the main thing in glass.",
+     "The sand is also very fine and clean."
+    ],
+    [
+     "The mix is melted in a furnace.",
+     "A glassblower also shapes it on a long pipe."
+    ],
+    [
+     "People use glass to make windows and jars.",
+     "Glassblowers also make vases and bowls."
+    ]
+   ],
+   "close1": "Glass is made from sand, heat, and skill.",
+   "q3": "How do people make glass?"
+  },
+  {
+   "id": "paper",
+   "name": "paper",
+   "title": "Paper",
+   "group": "made",
+   "heads": [
+    "Comes From",
+    "Making Paper",
+    "Recycling"
+   ],
+   "extra": "Uses",
+   "A": {
+    "title": "From Tree to Paper",
+    "s": [
+     {
+      "h": null,
+      "t": "Most of the paper we use every day starts as a tree."
+     },
+     {
+      "h": 0,
+      "t": "Most paper is made from wood.",
+      "note": "made from wood",
+      "key": "made from wood",
+      "wrong": "made from sand"
+     },
+     {
+      "h": 0,
+      "t": "Paper money in the United States is made from cotton and linen.",
+      "note": "money: cotton, linen",
+      "key": "cotton and linen",
+      "wrong": "money: plastic"
+     },
+     {
+      "h": 1,
+      "t": "Logs are cut into small wood chips.",
+      "note": "logs cut into chips",
+      "key": "Logs are cut",
+      "wrong": "logs melted down"
+     },
+     {
+      "h": 1,
+      "t": "The chips are cooked with water and chemicals into a soft mush called pulp.",
+      "note": "chips cooked to pulp",
+      "key": "a soft mush called pulp",
+      "wrong": "chips baked to bricks"
+     },
+     {
+      "h": 2,
+      "t": "Used paper can be recycled into new paper.",
+      "note": "recycle used paper",
+      "key": "Used paper can be recycled",
+      "wrong": "burn used paper"
+     },
+     {
+      "h": 2,
+      "t": "Recycling paper means fewer trees are cut down.",
+      "note": "saves trees",
+      "key": "Recycling paper",
+      "wrong": "more trees cut"
+     }
+    ]
+   },
+   "B": {
+    "title": "At the Paper Mill",
+    "s": [
+     {
+      "h": null,
+      "t": "A paper mill is a factory where paper is made."
+     },
+     {
+      "h": 1,
+      "t": "The pulp is spread thin on a screen so the water drains out.",
+      "note": "pulp spread thin",
+      "wrong": "pulp piled high"
+     },
+     {
+      "h": 1,
+      "t": "Big rollers press the pulp flat, and then it dries.",
+      "note": "rollers press it",
+      "wrong": "hammers press it"
+     },
+     {
+      "h": 0,
+      "t": "Some fine paper is made from cotton.",
+      "note": "some from cotton",
+      "wrong": "some from glass"
+     },
+     {
+      "h": 2,
+      "t": "Many towns have bins for paper that can be recycled.",
+      "note": "recycling bins",
+      "wrong": "bins for trash only"
+     },
+     {
+      "h": 3,
+      "t": "We use paper for books, boxes, and tissues.",
+      "note": "books, boxes"
+     },
+     {
+      "h": 3,
+      "t": "Paper bags can carry groceries home.",
+      "note": "paper bags"
+     }
+    ]
+   },
+   "intro": "Paper is something we use every day.",
+   "rIntro": "Most paper comes from trees.",
+   "ask": "Who wrote the first book on paper?",
+   "close": "Paper can be made, used, and made again.",
+   "q": "What is paper made from, how is it made, and how is it recycled?",
+   "say": [
+    [
+     "Most paper is made from wood.",
+     "But U.S. paper money is cotton and linen."
+    ],
+    [
+     "First, logs are cut into small wood chips.",
+     "Next, they are cooked and turned into pulp."
+    ],
+    [
+     "Paper can be recycled.",
+     "Recycling also saves trees."
+    ]
+   ],
+   "cap": "Paper rolling out of a machine",
+   "dev": {
+    "head": "Recycling Paper",
+    "g": [
+     [
+      [
+       "F",
+       "Paper can be recycled."
+      ],
+      [
+       "Def",
+       "To recycle means to turn used things into new things.",
+       "recycle"
+      ],
+      [
+       "D",
+       "For example, old boxes can become new boxes."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Recycling paper saves trees."
+      ],
+      [
+       "D",
+       "For example, one stack of old newspapers can save a tree."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Recycled paper is mashed into pulp."
+      ],
+      [
+       "D",
+       "It is pressed flat and dried again."
+      ],
+      [
+       "Def",
+       "Pulp is a soft, wet mush of tiny wood bits.",
+       "pulp"
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 2,
+    "g": 0,
+    "defNote": "recycle: turn used things into new things",
+    "detNote": "old boxes become new boxes"
+   },
+   "hk": [
+    [
+     "made",
+     "cotton",
+     "linen",
+     "money"
+    ],
+    [
+     "logs",
+     "chips",
+     "pulp",
+     "rollers",
+     "spread"
+    ],
+    [
+     "recycle",
+     "recycled",
+     "recycling",
+     "saves",
+     "bins"
+    ],
+    [
+     "books",
+     "bags",
+     "boxes"
+    ]
+   ],
+   "rep": [
+    [
+     "Most paper is made from wood.",
+     "But some fine paper is made from cotton."
+    ],
+    [
+     "First, logs are cut into small wood chips.",
+     "Next, the pulp is spread thin and dried."
+    ],
+    [
+     "Used paper can be recycled into new paper.",
+     "Many towns also have bins for paper."
+    ]
+   ],
+   "q3": "How do people make and recycle paper?"
+  },
+  {
+   "id": "pulleys",
+   "name": "pulleys",
+   "title": "Pulleys",
+   "group": "machine",
+   "heads": [
+    "Parts",
+    "How It Works",
+    "Uses"
+   ],
+   "extra": "History",
+   "A": {
+    "title": "Pulleys",
+    "s": [
+     {
+      "h": null,
+      "t": "A pulley is a simple machine that helps us lift things."
+     },
+     {
+      "h": 0,
+      "t": "A pulley has a wheel with a groove around its edge.",
+      "note": "grooved wheel",
+      "key": "a wheel with a groove",
+      "wrong": "wheel with spikes"
+     },
+     {
+      "h": 0,
+      "t": "A strong rope fits into the groove of the wheel.",
+      "note": "rope in the groove",
+      "key": "strong rope",
+      "wrong": "rope tied to wheel"
+     },
+     {
+      "h": 1,
+      "t": "When you pull down on the rope, the load goes up.",
+      "note": "pull down, load up",
+      "key": "the load goes up",
+      "wrong": "pull down, load down"
+     },
+     {
+      "h": 1,
+      "t": "Using two or more pulleys together can make a heavy load easier to lift.",
+      "note": "more pulleys, easier",
+      "key": "easier to lift",
+      "wrong": "more pulleys, harder"
+     },
+     {
+      "h": 2,
+      "t": "A flagpole uses a pulley to raise the flag.",
+      "note": "flagpoles",
+      "key": "flagpole",
+      "wrong": "scissors"
+     },
+     {
+      "h": 2,
+      "t": "Big cranes use pulleys to lift heavy loads.",
+      "note": "big cranes",
+      "key": "cranes",
+      "wrong": "big bikes"
+     }
+    ]
+   },
+   "B": {
+    "title": "Pulleys at Work",
+    "s": [
+     {
+      "h": null,
+      "t": "Pulleys are all around us if you know where to look."
+     },
+     {
+      "h": 2,
+      "t": "Elevators in tall buildings use pulleys and strong cables.",
+      "note": "elevators",
+      "wrong": "stairs"
+     },
+     {
+      "h": 0,
+      "t": "The wheel of a pulley turns on a rod called an axle.",
+      "note": "wheel turns on axle",
+      "wrong": "wheel turns on a nail"
+     },
+     {
+      "h": 1,
+      "t": "A pulley can change the direction of a pull.",
+      "note": "can change direction",
+      "wrong": "keeps direction"
+     },
+     {
+      "h": 2,
+      "t": "Sailboats use pulleys to raise their sails.",
+      "note": "sailboats",
+      "wrong": "skateboards"
+     },
+     {
+      "h": 3,
+      "t": "People have used pulleys for thousands of years.",
+      "note": "used for ages"
+     },
+     {
+      "h": 3,
+      "t": "No one knows who made the very first pulley.",
+      "note": "first maker unknown"
+     }
+    ]
+   },
+   "intro": "Pulleys are simple machines that lift things.",
+   "rIntro": "Pulleys are simple machines that help us lift.",
+   "ask": "Who made the biggest pulley?",
+   "close": "Pulleys make hard jobs much easier.",
+   "q": "How do pulleys work, and where are they used?",
+   "say": [
+    [
+     "A pulley has a wheel with a groove.",
+     "It also has a rope that fits the groove."
+    ],
+    [
+     "When you pull down, the load goes up.",
+     "More pulleys also make lifting easier."
+    ],
+    [
+     "Flagpoles use pulleys to raise flags.",
+     "Cranes also use them to lift heavy loads."
+    ]
+   ],
+   "cap": "A pulley lifting a bucket",
+   "dev": {
+    "head": "Lifting with Pulleys",
+    "g": [
+     [
+      [
+       "F",
+       "A pulley helps lift a load."
+      ],
+      [
+       "Def",
+       "A load is the thing being lifted.",
+       "load"
+      ],
+      [
+       "D",
+       "For example, a load could be a bucket."
+      ]
+     ],
+     [
+      [
+       "F",
+       "A pulley can change the direction of a pull."
+      ],
+      [
+       "D",
+       "You pull down, and the load goes up."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Some machines use a block and tackle."
+      ],
+      [
+       "Def",
+       "A block and tackle is a set of pulleys.",
+       "block and tackle"
+      ],
+      [
+       "D",
+       "It makes heavy loads easier to lift."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 1,
+    "g": 0,
+    "defNote": "load: the thing being lifted",
+    "detNote": "a bucket could be a load"
+   },
+   "hk": [
+    [
+     "wheel",
+     "groove",
+     "rope",
+     "axle"
+    ],
+    [
+     "pull",
+     "load",
+     "easier",
+     "direction"
+    ],
+    [
+     "flagpoles",
+     "cranes",
+     "elevators",
+     "sailboats"
+    ],
+    [
+     "ages",
+     "maker"
+    ]
+   ],
+   "rep": [
+    [
+     "A pulley has a wheel with a groove.",
+     "The wheel also turns on a rod called an axle."
+    ],
+    [
+     "When you pull down, the load goes up.",
+     "It can also change the way you pull."
+    ],
+    [
+     "A flagpole uses a pulley to raise the flag.",
+     "Elevators also use pulleys and cables."
+    ]
+   ],
+   "q3": "How do pulleys work, and where are they used?"
+  },
+  {
+   "id": "moon",
+   "name": "the Moon",
+   "title": "The Moon",
+   "group": "space",
+   "heads": [
+    "Surface",
+    "In Our Sky",
+    "Astronauts"
+   ],
+   "extra": "Tides",
+   "A": {
+    "title": "Our Moon",
+    "s": [
+     {
+      "h": null,
+      "t": "The Moon is the brightest object in our night sky."
+     },
+     {
+      "h": 0,
+      "t": "The Moon has no air and no rain.",
+      "note": "no air, no rain",
+      "key": "no air and no rain",
+      "wrong": "thick clouds, rain"
+     },
+     {
+      "h": 0,
+      "t": "Its gray ground is covered with craters.",
+      "note": "many craters",
+      "key": "covered with craters",
+      "wrong": "covered with grass"
+     },
+     {
+      "h": 1,
+      "t": "The Moon travels around Earth about once a month.",
+      "note": "circles Earth",
+      "key": "travels around Earth",
+      "wrong": "circles Mars"
+     },
+     {
+      "h": 1,
+      "t": "The Moon seems to change shape during the month.",
+      "note": "changing shapes",
+      "key": "change shape",
+      "wrong": "stays one shape"
+     },
+     {
+      "h": 2,
+      "t": "In 1969, astronauts walked on the Moon for the first time.",
+      "note": "first walk in 1969",
+      "key": "astronauts walked on the Moon",
+      "wrong": "first walk in 1999"
+     },
+     {
+      "h": 2,
+      "t": "Twelve astronauts walked on the Moon between 1969 and 1972.",
+      "note": "twelve moonwalkers",
+      "key": "Twelve astronauts walked",
+      "wrong": "two moonwalkers"
+     }
+    ]
+   },
+   "B": {
+    "title": "Moon Facts",
+    "s": [
+     {
+      "h": null,
+      "t": "The Moon is Earth's closest neighbor in space."
+     },
+     {
+      "h": 0,
+      "t": "Fine dust covers the Moon's ground.",
+      "note": "fine dust on ground",
+      "wrong": "deep water on ground"
+     },
+     {
+      "h": 1,
+      "t": "Sometimes you can see the Moon during the day.",
+      "note": "seen in the daytime",
+      "wrong": "seen only at night"
+     },
+     {
+      "h": 2,
+      "t": "Astronauts brought Moon rocks back to Earth.",
+      "note": "brought back rocks",
+      "wrong": "brought back water"
+     },
+     {
+      "h": 2,
+      "t": "Their footprints are still on the Moon, since no wind blows them away.",
+      "note": "footprints remain",
+      "wrong": "footprints blew away"
+     },
+     {
+      "h": 3,
+      "t": "The Moon's pull helps make the ocean tides.",
+      "note": "pull makes tides"
+     },
+     {
+      "h": 3,
+      "t": "The ocean rises and falls twice a day.",
+      "note": "sea rises and falls"
+     },
+     {
+      "h": null,
+      "t": "These changes are called tides."
+     }
+    ]
+   },
+   "intro": "The Moon is our closest neighbor in space.",
+   "rIntro": "The Moon circles Earth and has no air or rain.",
+   "ask": "Will people live on the Moon one day?",
+   "close": "The Moon is close but very unlike Earth.",
+   "q": "What do we know about the Moon?",
+   "say": [
+    [
+     "The Moon is covered with craters.",
+     "It also has no air and no rain."
+    ],
+    [
+     "The Moon travels around Earth.",
+     "Its shape also seems to change."
+    ],
+    [
+     "Astronauts first walked there in 1969.",
+     "They also brought Moon rocks back."
+    ]
+   ],
+   "cap": "An astronaut on the Moon",
+   "dev": {
+    "head": "Craters",
+    "g": [
+     [
+      [
+       "F",
+       "The Moon is covered with craters."
+      ],
+      [
+       "D",
+       "Some are wider than a city."
+      ],
+      [
+       "Def",
+       "A crater is a bowl-shaped hole in the ground.",
+       "crater"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Meteorites made many of the craters."
+      ],
+      [
+       "Def",
+       "A meteorite is a space rock that hits the ground.",
+       "meteorite"
+      ],
+      [
+       "D",
+       "Most of them hit the Moon long ago."
+      ]
+     ],
+     [
+      [
+       "F",
+       "The craters last for a very long time."
+      ],
+      [
+       "D",
+       "No wind or rain wears them away."
+      ],
+      [
+       "D",
+       "Some are billions of years old."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 0,
+    "g": 0,
+    "defNote": "crater: a bowl-shaped hole in the ground",
+    "detNote": "some wider than a city"
+   },
+   "hk": [
+    [
+     "air",
+     "craters",
+     "dust",
+     "ground"
+    ],
+    [
+     "circles",
+     "shape",
+     "daytime",
+     "around"
+    ],
+    [
+     "walk",
+     "walked",
+     "moonwalkers",
+     "rocks",
+     "footprints"
+    ],
+    [
+     "tides",
+     "ocean",
+     "sea"
+    ]
+   ],
+   "rep": [
+    [
+     "The Moon has no air and no rain.",
+     "Fine dust also covers its ground."
+    ],
+    [
+     "The Moon travels around Earth.",
+     "It can also be seen in the daytime."
+    ],
+    [
+     "Astronauts first walked on the Moon in 1969.",
+     "They also brought Moon rocks back to Earth."
+    ]
+   ],
+   "q3": "How do the Moon and Earth differ?"
+  },
+  {
+   "id": "firefighters",
+   "name": "firefighters",
+   "title": "Firefighters",
+   "group": "people",
+   "heads": [
+    "Gear",
+    "Trucks",
+    "Jobs"
+   ],
+   "extra": "Training",
+   "A": {
+    "title": "Firefighters",
+    "s": [
+     {
+      "h": null,
+      "t": "Firefighters help keep people safe."
+     },
+     {
+      "h": 0,
+      "t": "Firefighters wear heavy coats and boots that block heat.",
+      "note": "gear blocks heat",
+      "key": "heavy coats and boots",
+      "wrong": "gear is light, thin"
+     },
+     {
+      "h": 0,
+      "t": "They carry tanks of clean air so they can breathe inside a smoky building.",
+      "note": "air tanks",
+      "key": "tanks of clean air",
+      "wrong": "water tanks"
+     },
+     {
+      "h": 1,
+      "t": "A fire engine carries hoses and pumps water.",
+      "note": "hoses, water pumps",
+      "key": "hoses",
+      "wrong": "carries only sand"
+     },
+     {
+      "h": 1,
+      "t": "A ladder truck has a long ladder that reaches high windows.",
+      "note": "long ladder",
+      "key": "a long ladder",
+      "wrong": "short ladder"
+     },
+     {
+      "h": 2,
+      "t": "Firefighters put out fires in homes, forests, and other places.",
+      "note": "put out fires",
+      "key": "put out fires",
+      "wrong": "start fires"
+     },
+     {
+      "h": 2,
+      "t": "They also help people who are hurt in car crashes.",
+      "note": "help in car crashes",
+      "key": "car crashes",
+      "wrong": "fix crashed cars"
+     }
+    ]
+   },
+   "B": {
+    "title": "At the Fire Station",
+    "s": [
+     {
+      "h": null,
+      "t": "A fire station is where firefighters wait for calls."
+     },
+     {
+      "h": 0,
+      "t": "Each firefighter keeps a helmet and other gear ready to go.",
+      "note": "gear ready to go",
+      "wrong": "gear left at home"
+     },
+     {
+      "h": 1,
+      "t": "Fire trucks have bright lights and loud sirens.",
+      "note": "lights and sirens",
+      "wrong": "quiet and dark"
+     },
+     {
+      "h": 1,
+      "t": "Some fire trucks carry their own tanks of water.",
+      "note": "trucks carry water",
+      "wrong": "trucks carry sand"
+     },
+     {
+      "h": 2,
+      "t": "Firefighters visit schools to teach fire safety.",
+      "note": "teach fire safety",
+      "wrong": "teach math"
+     },
+     {
+      "h": 2,
+      "t": "They also rescue people from high places.",
+      "note": "rescue people",
+      "wrong": "build houses"
+     },
+     {
+      "h": 3,
+      "t": "New firefighters learn at a training school.",
+      "note": "training school"
+     },
+     {
+      "h": 3,
+      "t": "Firefighters exercise to stay strong and fit.",
+      "note": "exercise to stay fit"
+     }
+    ]
+   },
+   "intro": "Firefighters are brave helpers in our town.",
+   "rIntro": "Firefighters are helpers who keep us safe.",
+   "ask": "What is the oldest fire station in America?",
+   "close": "Firefighters are ready to help in any danger.",
+   "q": "How do firefighters do their jobs?",
+   "say": [
+    [
+     "Firefighters wear gear that blocks heat.",
+     "They also carry tanks of clean air."
+    ],
+    [
+     "Fire engines carry hoses and pump water.",
+     "Another truck has a long ladder."
+    ],
+    [
+     "Firefighters put out fires.",
+     "They also help people after car crashes."
+    ]
+   ],
+   "cap": "A firefighter in a helmet and coat",
+   "dev": {
+    "head": "Fire Trucks",
+    "g": [
+     [
+      [
+       "F",
+       "Firefighters wear special gear."
+      ],
+      [
+       "Def",
+       "Gear is the clothes and tools for a job.",
+       "gear"
+      ],
+      [
+       "D",
+       "Their coats and boots block heat."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Some fires need a ladder truck."
+      ],
+      [
+       "D",
+       "Its long ladder can reach high windows."
+      ],
+      [
+       "D",
+       "Firefighters can spray water from the top."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Fire trucks have sirens."
+      ],
+      [
+       "Def",
+       "A siren is a horn that makes a loud warning sound.",
+       "siren"
+      ],
+      [
+       "D",
+       "Cars move aside when they hear it."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "h": 0,
+    "g": 0,
+    "defNote": "gear: the clothes and tools for a job",
+    "detNote": "coats and boots block heat"
+   },
+   "hk": [
+    [
+     "gear",
+     "tanks",
+     "coats"
+    ],
+    [
+     "engine",
+     "hoses",
+     "ladder",
+     "sirens",
+     "trucks"
+    ],
+    [
+     "fires",
+     "crashes",
+     "safety",
+     "rescue"
+    ],
+    [
+     "training",
+     "exercise"
+    ]
+   ],
+   "rep": [
+    [
+     "Firefighters wear gear that blocks heat.",
+     "They also keep their gear ready to go."
+    ],
+    [
+     "A fire engine carries hoses and pumps water.",
+     "Fire trucks also have lights and sirens."
+    ],
+    [
+     "Firefighters put out fires in many places.",
+     "They also teach fire safety at schools."
+    ]
+   ],
+   "q3": "How do firefighters do their jobs?"
+  }
+ ],
+ "models": [
+  {
+   "id": "ladybugs",
+   "name": "ladybugs",
+   "title": "Ladybugs",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Growing Up"
+   ],
+   "extra": "Staying Safe",
+   "hk": [
+    [
+     "legs",
+     "antennae",
+     "spots",
+     "covers",
+     "ball"
+    ],
+    [
+     "aphids",
+     "pollen",
+     "plants"
+    ],
+    [
+     "eggs",
+     "larva",
+     "pupa",
+     "adult"
+    ],
+    [
+     "dead",
+     "warn",
+     "ooze",
+     "tuck"
+    ]
+   ],
+   "none": [
+    "plays dead"
+   ],
+   "A": {
+    "title": "Ladybugs",
+    "s": [
+     {
+      "h": null,
+      "t": "Ladybugs are small beetles found in many parts of the world."
+     },
+     {
+      "h": 0,
+      "t": "A ladybug has six legs and two antennae.",
+      "note": "six legs, antennae",
+      "wrong": "eight legs, antennae"
+     },
+     {
+      "h": 0,
+      "t": "Many ladybugs are red with black spots.",
+      "note": "red with black spots",
+      "wrong": "blue with white spots"
+     },
+     {
+      "h": 1,
+      "t": "Many ladybugs eat tiny insects called aphids.",
+      "note": "eat aphids",
+      "wrong": "eat leaves"
+     },
+     {
+      "h": 1,
+      "t": "One ladybug can eat thousands of aphids in its life.",
+      "note": "thousands of aphids",
+      "wrong": "only a few aphids"
+     },
+     {
+      "h": 2,
+      "t": "A ladybug lays its eggs on leaves near aphids.",
+      "note": "eggs on leaves",
+      "wrong": "eggs in the water"
+     },
+     {
+      "h": 2,
+      "t": "A ladybug egg is smaller than a grain of rice.",
+      "note": "eggs smaller than rice"
+     },
+     {
+      "h": 3,
+      "t": "Bright colors warn birds that ladybugs taste bad.",
+      "note": "colors warn birds"
+     }
+    ]
+   },
+   "B": {
+    "title": "Garden Ladybugs",
+    "s": [
+     {
+      "h": null,
+      "t": "Gardeners are glad to have ladybugs around."
+     },
+     {
+      "h": 0,
+      "t": "Hard wing covers protect the thin wings under them.",
+      "note": "hard wing covers",
+      "wrong": "soft wing covers"
+     },
+     {
+      "h": 0,
+      "t": "A ladybug is shaped like half of a ball.",
+      "note": "like half a ball"
+     },
+     {
+      "h": 1,
+      "t": "Ladybugs keep garden plants safe by eating aphids.",
+      "note": "eat aphids on plants",
+      "wrong": "eat garden plants"
+     },
+     {
+      "h": 1,
+      "t": "Some ladybugs also eat pollen.",
+      "note": "some eat pollen"
+     },
+     {
+      "h": 2,
+      "t": "A young ladybug, called a larva, has no wings.",
+      "note": "larva has no wings",
+      "wrong": "larva has big wings"
+     },
+     {
+      "h": 2,
+      "t": "The larva changes into a pupa and then an adult.",
+      "note": "larva, pupa, adult",
+      "wrong": "pupa, then a larva"
+     },
+     {
+      "h": 3,
+      "t": "A ladybug may play dead when it is in danger.",
+      "note": "plays dead"
+     },
+     {
+      "h": 3,
+      "t": "A scared ladybug can ooze a yellow liquid that smells bad.",
+      "note": "oozes yellow liquid"
+     },
+     {
+      "h": 3,
+      "t": "A ladybug can tuck its legs under its shell.",
+      "note": "tucks under shell"
+     }
+    ]
+   },
+   "intro": "Ladybugs are small beetles that eat aphids and grow in stages.",
+   "ask": "How long does a ladybug live?",
+   "say": [
+    [
+     "Many ladybugs have black spots."
+    ],
+    [
+     "Ladybugs eat aphids."
+    ],
+    [
+     "A ladybug starts life as a tiny yellow egg."
+    ]
+   ],
+   "dev": {
+    "head": "Garden Helpers",
+    "g": [
+     [
+      [
+       "F",
+       "Ladybugs eat aphids."
+      ],
+      [
+       "Def",
+       "Aphids are tiny insects that suck plant juice.",
+       "aphids"
+      ],
+      [
+       "D",
+       "A ladybug can eat dozens of aphids in a day."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Ladybug eggs hatch into larvae."
+      ],
+      [
+       "Def",
+       "A larva is the young form of an insect.",
+       "larva"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Ladybugs have bright colors."
+      ],
+      [
+       "D",
+       "Most are red, orange, or yellow."
+      ],
+      [
+       "D",
+       "Many have black spots."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Many ladybugs hibernate in winter."
+      ],
+      [
+       "D",
+       "Hundreds may rest together under logs."
+      ],
+      [
+       "Def",
+       "To hibernate means to rest through winter.",
+       "hibernate"
+      ],
+      [
+       "D",
+       "They wake up when spring comes."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 3,
+    "defNote": "hibernate: rest through winter",
+    "detNote": "hundreds rest under logs"
+   }
+  },
+  {
+   "id": "volcanoes",
+   "name": "volcanoes",
+   "title": "Volcanoes",
+   "group": "land",
+   "heads": [
+    "What They Are",
+    "Lava and Ash",
+    "Where They Are"
+   ],
+   "extra": "Scientists",
+   "hk": [
+    [
+     "opening",
+     "mountains",
+     "active",
+     "cone"
+    ],
+    [
+     "magma",
+     "lava",
+     "hotter",
+     "ash"
+    ],
+    [
+     "ocean",
+     "pacific",
+     "hawaii",
+     "continent"
+    ],
+    [
+     "volcanologists",
+     "suits",
+     "space",
+     "measure"
+    ]
+   ],
+   "none": [
+    "volcanologists",
+    "wear special suits"
+   ],
+   "A": {
+    "title": "Volcanoes",
+    "s": [
+     {
+      "h": null,
+      "t": "Volcanoes can change the land around them."
+     },
+     {
+      "h": 0,
+      "t": "A volcano is an opening in the ground where melted rock comes out.",
+      "note": "opening in the ground"
+     },
+     {
+      "h": 0,
+      "t": "Many volcanoes are tall mountains.",
+      "note": "often tall mountains",
+      "wrong": "always small hills"
+     },
+     {
+      "h": 1,
+      "t": "Melted rock under the ground is called magma.",
+      "note": "magma: melted rock",
+      "wrong": "magma: frozen water"
+     },
+     {
+      "h": 1,
+      "t": "When magma comes out of a volcano, it is called lava.",
+      "note": "lava: magma outside",
+      "wrong": "lava: cold water"
+     },
+     {
+      "h": 1,
+      "t": "Lava is much hotter than a kitchen oven.",
+      "note": "hotter than an oven",
+      "wrong": "cooler than snow"
+     },
+     {
+      "h": 2,
+      "t": "Some volcanoes are under the ocean.",
+      "note": "some under the ocean",
+      "wrong": "all in the desert"
+     },
+     {
+      "h": 2,
+      "t": "Many volcanoes form a ring around the Pacific Ocean.",
+      "note": "ring around Pacific"
+     },
+     {
+      "h": 3,
+      "t": "Scientists who study volcanoes are called volcanologists.",
+      "note": "volcanologists"
+     }
+    ]
+   },
+   "B": {
+    "title": "Lava Land",
+    "s": [
+     {
+      "h": null,
+      "t": "People have watched volcanoes for thousands of years."
+     },
+     {
+      "h": 0,
+      "t": "A volcano that is erupting now, or that erupted not long ago, is called active.",
+      "note": "active: just erupted",
+      "wrong": "active: is asleep"
+     },
+     {
+      "h": 0,
+      "t": "Many volcanoes are shaped like a cone.",
+      "note": "cone shape",
+      "wrong": "ball shape"
+     },
+     {
+      "h": 1,
+      "t": "Lava cools and hardens into rock.",
+      "note": "lava cools to rock",
+      "wrong": "lava turns to ice"
+     },
+     {
+      "h": 1,
+      "t": "Volcanoes can also blow out clouds of ash.",
+      "note": "clouds of ash",
+      "wrong": "clouds of snow"
+     },
+     {
+      "h": 2,
+      "t": "The islands of Hawaii were made by volcanoes.",
+      "note": "made islands of Hawaii",
+      "wrong": "volcanoes in Florida"
+     },
+     {
+      "h": 2,
+      "t": "There are volcanoes on every continent.",
+      "note": "on every continent",
+      "wrong": "only in Europe"
+     },
+     {
+      "h": 3,
+      "t": "Scientists measure how the ground shakes near a volcano.",
+      "note": "measure shaking"
+     },
+     {
+      "h": 3,
+      "t": "Some scientists wear special suits near the heat.",
+      "note": "wear special suits"
+     },
+     {
+      "h": 3,
+      "t": "Scientists use satellites to watch volcanoes from space.",
+      "note": "watch from space"
+     }
+    ]
+   },
+   "intro": "Volcanoes are openings that pour out lava and ash in many places.",
+   "ask": "Which volcano is the tallest?",
+   "say": [
+    [
+     "Many volcanoes are shaped like a cone."
+    ],
+    [
+     "Lava cools into rock."
+    ],
+    [
+     "The islands of Hawaii were made by volcanoes."
+    ]
+   ],
+   "dev": {
+    "head": "Eruptions",
+    "g": [
+     [
+      [
+       "F",
+       "Volcanoes can erupt."
+      ],
+      [
+       "Def",
+       "To erupt means to burst out.",
+       "erupt"
+      ],
+      [
+       "D",
+       "Lava and ash can burst out of the top."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Some eruptions are gentle."
+      ],
+      [
+       "D",
+       "Lava slowly flows down the sides."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Other eruptions blow out ash."
+      ],
+      [
+       "D",
+       "The ash can fly high into the sky."
+      ],
+      [
+       "Def",
+       "Ash is tiny bits of rock and glass.",
+       "ash"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Most volcanoes have a crater."
+      ],
+      [
+       "Def",
+       "A crater is a bowl-shaped hole at the top.",
+       "crater"
+      ],
+      [
+       "D",
+       "Lava and ash come out of the crater."
+      ],
+      [
+       "D",
+       "Some craters fill with water and become lakes."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 0,
+    "defNote": "erupt: burst out",
+    "detNote": "lava and ash burst out"
+   }
+  },
+  {
+   "id": "rainbows",
+   "name": "rainbows",
+   "title": "Rainbows",
+   "group": "weather",
+   "heads": [
+    "How They Form",
+    "Colors",
+    "When and Where"
+   ],
+   "extra": "Double Rainbows",
+   "hk": [
+    [
+     "raindrops",
+     "drops",
+     "water"
+    ],
+    [
+     "colors",
+     "red",
+     "bands",
+     "sunlight"
+    ],
+    [
+     "behind",
+     "waterfalls",
+     "morning",
+     "afternoon",
+     "look",
+     "spray"
+    ],
+    [
+     "second",
+     "opposite",
+     "darker",
+     "bows"
+    ]
+   ],
+   "none": [
+    "two bows"
+   ],
+   "A": {
+    "title": "Rainbows",
+    "s": [
+     {
+      "h": null,
+      "t": "A rainbow is a curve of colors in the sky."
+     },
+     {
+      "h": 0,
+      "t": "A rainbow forms when sunlight shines through raindrops.",
+      "note": "light hits raindrops",
+      "wrong": "light hits snowflakes"
+     },
+     {
+      "h": 0,
+      "t": "Each raindrop bends the light and splits it into colors.",
+      "note": "drops split light",
+      "wrong": "drops hide light"
+     },
+     {
+      "h": 1,
+      "t": "The main rainbow has red on the outside and violet on the inside.",
+      "note": "red outside"
+     },
+     {
+      "h": 1,
+      "t": "A rainbow has many colors that blend into each other.",
+      "note": "colors blend",
+      "wrong": "colors never touch"
+     },
+     {
+      "h": 2,
+      "t": "To see a rainbow, stand with the sun behind you.",
+      "note": "sun behind you",
+      "wrong": "face the sun"
+     },
+     {
+      "h": 2,
+      "t": "You might see a rainbow in the spray of a waterfall.",
+      "note": "in waterfall spray"
+     },
+     {
+      "h": 3,
+      "t": "Sometimes a second, fainter rainbow appears above the first.",
+      "note": "second rainbow above"
+     }
+    ]
+   },
+   "B": {
+    "title": "After the Rain",
+    "s": [
+     {
+      "h": null,
+      "t": "Rainbows often appear after a rain shower."
+     },
+     {
+      "h": 0,
+      "t": "A rainbow needs both sunlight and drops of water.",
+      "note": "needs sun and water",
+      "wrong": "needs wind and snow"
+     },
+     {
+      "h": 0,
+      "t": "Light bends as it goes into a raindrop.",
+      "note": "light bends in drops",
+      "wrong": "light stops in drops"
+     },
+     {
+      "h": 1,
+      "t": "Sunlight is really a mix of all the colors.",
+      "note": "sunlight: all colors",
+      "wrong": "sunlight: one color"
+     },
+     {
+      "h": 1,
+      "t": "The colors of the main rainbow are always in the same order.",
+      "note": "colors in same order"
+     },
+     {
+      "h": 1,
+      "t": "A rainbow shows its colors in curved bands.",
+      "note": "curved bands",
+      "wrong": "straight bands"
+     },
+     {
+      "h": 2,
+      "t": "Rainbows are often seen in the early morning or late afternoon.",
+      "note": "morning or afternoon"
+     },
+     {
+      "h": 2,
+      "t": "Look for a rainbow in the spray of a hose on a sunny day.",
+      "note": "look in hose spray",
+      "wrong": "look in the snow"
+     },
+     {
+      "h": 3,
+      "t": "In the second rainbow, the colors are in the opposite order.",
+      "note": "opposite order"
+     },
+     {
+      "h": 3,
+      "t": "The sky between the two bows looks darker.",
+      "note": "darker sky between"
+     },
+     {
+      "h": 3,
+      "t": "A double rainbow has two bows, one above the other.",
+      "note": "two bows"
+     }
+    ]
+   },
+   "intro": "Rainbows are bands of color that appear when sun shines on rain.",
+   "ask": "How long does a rainbow last?",
+   "say": [
+    [
+     "A rainbow needs drops of water in the air."
+    ],
+    [
+     "Red is on the outside of the main rainbow."
+    ],
+    [
+     "Stand with the sun behind you."
+    ]
+   ],
+   "dev": {
+    "head": "Light and Color",
+    "g": [
+     [
+      [
+       "F",
+       "Sunlight is made of many colors."
+      ],
+      [
+       "D",
+       "Together, the colors look white."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Raindrops can bend light."
+      ],
+      [
+       "D",
+       "Each color bends a different amount."
+      ],
+      [
+       "D",
+       "Red bends the least, and violet bends the most."
+      ]
+     ],
+     [
+      [
+       "F",
+       "From a plane, a rainbow can be a whole circle."
+      ],
+      [
+       "D",
+       "From the ground, we see only an arc."
+      ],
+      [
+       "Def",
+       "An arc is a part of a circle.",
+       "arc"
+      ]
+     ],
+     [
+      [
+       "F",
+       "A prism can make a rainbow."
+      ],
+      [
+       "Def",
+       "A prism is clear glass with flat sides.",
+       "prism"
+      ],
+      [
+       "D",
+       "Light shining through it splits into colors."
+      ],
+      [
+       "D",
+       "The colors come out in rainbow order."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 3,
+    "defNote": "prism: clear glass with flat sides",
+    "detNote": "light splits into colors"
+   }
+  },
+  {
+   "id": "bridges",
+   "name": "bridges",
+   "title": "Bridges",
+   "group": "made",
+   "heads": [
+    "Kinds",
+    "Materials",
+    "Uses"
+   ],
+   "extra": "Building Them",
+   "hk": [
+    [
+     "beam",
+     "arch",
+     "suspension",
+     "covered"
+    ],
+    [
+     "steel",
+     "concrete",
+     "wood",
+     "stone",
+     "rope",
+     "brick"
+    ],
+    [
+     "cars",
+     "trains",
+     "walkers",
+     "roads",
+     "animals"
+    ],
+    [
+     "cranes",
+     "years",
+     "divers",
+     "hats"
+    ]
+   ],
+   "none": [
+    "can take years",
+    "divers help underwater"
+   ],
+   "A": {
+    "title": "Bridges",
+    "s": [
+     {
+      "h": null,
+      "t": "Bridges help people cross places that are hard to cross."
+     },
+     {
+      "h": 0,
+      "t": "A beam bridge is a flat road resting on posts.",
+      "note": "beam: flat on posts",
+      "wrong": "beam: hangs on ropes"
+     },
+     {
+      "h": 0,
+      "t": "An arch bridge stands on a curved arch.",
+      "note": "arch: on a curve",
+      "wrong": "arch: on a log"
+     },
+     {
+      "h": 1,
+      "t": "Many bridges are made of steel and concrete.",
+      "note": "steel and concrete",
+      "wrong": "paper and glue"
+     },
+     {
+      "h": 1,
+      "t": "Long ago, people built bridges of wood and stone.",
+      "note": "long ago: wood and stone",
+      "wrong": "once ice and snow"
+     },
+     {
+      "h": 2,
+      "t": "Some bridges carry cars and trucks over rivers.",
+      "note": "cars over rivers",
+      "wrong": "boats over hills"
+     },
+     {
+      "h": 2,
+      "t": "Some bridges are built just for wild animals to cross.",
+      "note": "for wild animals"
+     },
+     {
+      "h": 3,
+      "t": "Builders use giant cranes to lift heavy parts.",
+      "note": "giant cranes lift parts"
+     }
+    ]
+   },
+   "B": {
+    "title": "Over the River",
+    "s": [
+     {
+      "h": null,
+      "t": "Bridges come in many shapes and sizes."
+     },
+     {
+      "h": 0,
+      "t": "A suspension bridge hangs from strong cables.",
+      "note": "suspension: cables",
+      "wrong": "suspension: logs"
+     },
+     {
+      "h": 0,
+      "t": "A covered bridge has a roof and walls.",
+      "note": "covered: roof, walls"
+     },
+     {
+      "h": 1,
+      "t": "Rope bridges can still be found in some mountains.",
+      "note": "some made of rope",
+      "wrong": "all made of rope"
+     },
+     {
+      "h": 1,
+      "t": "Some old bridges were built of bricks.",
+      "note": "old ones of brick"
+     },
+     {
+      "h": 2,
+      "t": "Other bridges carry trains or people on foot.",
+      "note": "trains, people on foot",
+      "wrong": "only for planes"
+     },
+     {
+      "h": 2,
+      "t": "A bridge can cross a road, a river, or a valley.",
+      "note": "roads, rivers, valleys",
+      "wrong": "only over oceans"
+     },
+     {
+      "h": 3,
+      "t": "Building a large bridge can take several years.",
+      "note": "can take years"
+     },
+     {
+      "h": 3,
+      "t": "Divers sometimes help build the parts under water.",
+      "note": "divers help underwater"
+     },
+     {
+      "h": 3,
+      "t": "Workers wear hard hats to stay safe.",
+      "note": "wear hard hats"
+     }
+    ]
+   },
+   "intro": "Bridges come in many kinds, and they help us cross rivers, roads, and valleys.",
+   "ask": "What is the longest bridge?",
+   "say": [
+    [
+     "A suspension bridge hangs from strong cables."
+    ],
+    [
+     "Many bridges are made of steel."
+    ],
+    [
+     "Some bridges carry trains."
+    ]
+   ],
+   "dev": {
+    "head": "Strong Shapes",
+    "g": [
+     [
+      [
+       "F",
+       "Many bridges are held up by trusses."
+      ],
+      [
+       "Def",
+       "A truss is a frame made of triangles.",
+       "truss"
+      ],
+      [
+       "D",
+       "Triangles do not bend out of shape easily."
+      ],
+      [
+       "D",
+       "Steel bars are joined in triangle shapes."
+      ]
+     ],
+     [
+      [
+       "F",
+       "A suspension bridge has tall towers."
+      ],
+      [
+       "D",
+       "Cables hang from the tops of the towers."
+      ],
+      [
+       "Def",
+       "A cable is a thick rope made of wire.",
+       "cable"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Engineers plan big bridges."
+      ],
+      [
+       "Def",
+       "An engineer is a person who designs things.",
+       "engineer"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Some bridges can open."
+      ],
+      [
+       "D",
+       "Part of the road lifts up so tall boats can pass."
+      ],
+      [
+       "D",
+       "Then it comes back down for cars."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 0,
+    "defNote": "truss: a frame made of triangles",
+    "detNote": "triangles keep their shape"
+   }
+  },
+  {
+   "id": "bamboo",
+   "name": "bamboo",
+   "title": "Bamboo",
+   "group": "plant",
+   "heads": [
+    "Stems",
+    "Uses",
+    "Animals"
+   ],
+   "extra": "Flowers",
+   "hk": [
+    [
+     "stems",
+     "stem",
+     "hollow",
+     "grows",
+     "taller",
+     "joints"
+    ],
+    [
+     "bridges",
+     "baskets",
+     "people",
+     "cloth"
+    ],
+    [
+     "pandas",
+     "gorillas",
+     "lemurs"
+    ],
+    [
+     "flowers",
+     "flowering",
+     "seeds"
+    ]
+   ],
+   "none": [
+    "small, plain flowers",
+    "rarely flowers"
+   ],
+   "A": {
+    "title": "Bamboo",
+    "s": [
+     {
+      "h": null,
+      "t": "Bamboo grows in many warm, wet places."
+     },
+     {
+      "h": null,
+      "t": "Bamboo is a kind of very tall grass."
+     },
+     {
+      "h": 0,
+      "t": "Some bamboo can grow more than two feet in one day.",
+      "note": "grows two feet a day",
+      "wrong": "grows two feet a year"
+     },
+     {
+      "h": 1,
+      "t": "People build houses and bridges with bamboo.",
+      "note": "houses and bridges",
+      "wrong": "only for toys"
+     },
+     {
+      "h": 1,
+      "t": "Baskets and chairs can be made from bamboo.",
+      "note": "baskets and chairs",
+      "wrong": "glass and plates"
+     },
+     {
+      "h": 2,
+      "t": "Giant pandas eat mostly bamboo.",
+      "note": "pandas eat it",
+      "wrong": "pandas avoid it"
+     },
+     {
+      "h": 2,
+      "t": "Some lemurs eat bamboo too.",
+      "note": "lemurs eat it"
+     },
+     {
+      "h": 3,
+      "t": "Some bamboo flowers only once in many years.",
+      "note": "rarely flowers"
+     }
+    ]
+   },
+   "B": {
+    "title": "A Giant Grass",
+    "s": [
+     {
+      "h": null,
+      "t": "Bamboo is light, but it is very strong."
+     },
+     {
+      "h": 0,
+      "t": "Most bamboo stems are hollow inside.",
+      "note": "most stems hollow",
+      "wrong": "stems are solid"
+     },
+     {
+      "h": 0,
+      "t": "Bamboo can grow taller than a house.",
+      "note": "taller than a house"
+     },
+     {
+      "h": 0,
+      "t": "Bamboo stems have rings called joints.",
+      "note": "stems have joints",
+      "wrong": "stems have no rings"
+     },
+     {
+      "h": 1,
+      "t": "People eat young bamboo shoots as a vegetable.",
+      "note": "people eat shoots",
+      "wrong": "people burn shoots"
+     },
+     {
+      "h": 1,
+      "t": "Bamboo can be made into cloth.",
+      "note": "made into cloth"
+     },
+     {
+      "h": 2,
+      "t": "Red pandas also eat bamboo leaves.",
+      "note": "red pandas: leaves",
+      "wrong": "red pandas: roots"
+     },
+     {
+      "h": 2,
+      "t": "Some gorillas eat bamboo shoots.",
+      "note": "gorillas eat shoots",
+      "wrong": "snakes eat shoots"
+     },
+     {
+      "h": 3,
+      "t": "After it flowers, a bamboo plant often dies.",
+      "note": "dies after flowering"
+     },
+     {
+      "h": 3,
+      "t": "Bamboo flowers are small and plain.",
+      "note": "small, plain flowers"
+     },
+     {
+      "h": 3,
+      "t": "When bamboo flowers, it makes many seeds.",
+      "note": "makes many seeds"
+     }
+    ]
+   },
+   "intro": "Bamboo has tall stems that people use and some animals eat.",
+   "ask": "What is the tallest kind of bamboo?",
+   "say": [
+    [
+     "Some bamboo grows more than two feet a day."
+    ],
+    [
+     "People build houses with bamboo."
+    ],
+    [
+     "Giant pandas eat bamboo."
+    ]
+   ],
+   "dev": {
+    "head": "A Useful Plant",
+    "g": [
+     [
+      [
+       "F",
+       "Most bamboo stems are hollow."
+      ],
+      [
+       "D",
+       "A solid wall at each joint makes them strong."
+      ],
+      [
+       "D",
+       "The joints look like rings on the stem."
+      ],
+      [
+       "Def",
+       "A joint is a place where two parts meet.",
+       "joint"
+      ]
+     ],
+     [
+      [
+       "F",
+       "People use bamboo in many ways."
+      ],
+      [
+       "D",
+       "They make fences, floors, and bikes."
+      ],
+      [
+       "D",
+       "Some even make paper from it."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Bamboo shoots grow fast."
+      ],
+      [
+       "Def",
+       "A shoot is a young stem that comes up.",
+       "shoot"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Bamboo grows from rhizomes."
+      ],
+      [
+       "D",
+       "New shoots pop up from them."
+      ],
+      [
+       "Def",
+       "Rhizomes are stems that grow underground.",
+       "rhizomes"
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 3,
+    "defNote": "rhizomes: stems that grow underground",
+    "detNote": "new shoots pop up from them"
+   }
+  },
+  {
+   "id": "spiders",
+   "name": "spiders",
+   "title": "Spiders",
+   "group": "animal",
+   "heads": [
+    "Body",
+    "Food",
+    "Webs"
+   ],
+   "extra": "Babies",
+   "hk": [
+    [
+     "legs",
+     "parts",
+     "eyes",
+     "fangs"
+    ],
+    [
+     "insects",
+     "prey",
+     "food",
+     "pests"
+    ],
+    [
+     "web",
+     "webs",
+     "silk"
+    ],
+    [
+     "spiderlings",
+     "eggs",
+     "babies",
+     "threads"
+    ]
+   ],
+   "none": [
+    "spiderlings",
+    "eggs in a sac"
+   ],
+   "A": {
+    "title": "Spiders",
+    "s": [
+     {
+      "h": null,
+      "t": "Spiders live in almost every kind of place on land."
+     },
+     {
+      "h": 0,
+      "t": "A spider has eight legs.",
+      "note": "eight legs",
+      "wrong": "six legs"
+     },
+     {
+      "h": 0,
+      "t": "Its body has two main parts.",
+      "note": "two body parts",
+      "wrong": "three body parts"
+     },
+     {
+      "h": 1,
+      "t": "Spiders eat insects, such as flies and crickets.",
+      "note": "eat insects",
+      "wrong": "eat leaves"
+     },
+     {
+      "h": 1,
+      "t": "Some spiders hunt and jump on their prey.",
+      "note": "some jump on prey",
+      "wrong": "some eat grass"
+     },
+     {
+      "h": 2,
+      "t": "Many spiders spin webs from silk.",
+      "note": "webs of silk",
+      "wrong": "webs of mud"
+     },
+     {
+      "h": 2,
+      "t": "Spider silk is thin but very strong.",
+      "note": "strong, thin silk",
+      "wrong": "weak, thick silk"
+     },
+     {
+      "h": 3,
+      "t": "A mother spider lays her eggs in a sac.",
+      "note": "eggs in a sac"
+     },
+     {
+      "h": 3,
+      "t": "Baby spiders are called spiderlings.",
+      "note": "spiderlings"
+     }
+    ]
+   },
+   "B": {
+    "title": "Web Builders",
+    "s": [
+     {
+      "h": null,
+      "t": "Not every spider spins a web."
+     },
+     {
+      "h": 0,
+      "t": "Most spiders have eight eyes.",
+      "note": "most have 8 eyes",
+      "wrong": "most have 2 eyes"
+     },
+     {
+      "h": 0,
+      "t": "A spider has fangs to bite its food.",
+      "note": "has fangs",
+      "wrong": "has a beak"
+     },
+     {
+      "h": 1,
+      "t": "Many spiders wrap their food in silk.",
+      "note": "wraps up its food",
+      "wrong": "buries its food"
+     },
+     {
+      "h": 1,
+      "t": "Spiders help gardens by eating pests.",
+      "note": "eat garden pests",
+      "wrong": "eat garden plants"
+     },
+     {
+      "h": 2,
+      "t": "A web can be round, flat, or shaped like a funnel.",
+      "note": "webs of many shapes",
+      "wrong": "all webs are square"
+     },
+     {
+      "h": 2,
+      "t": "Some spiders build a new web every night.",
+      "note": "new web each night",
+      "wrong": "new web each year"
+     },
+     {
+      "h": 3,
+      "t": "Some spiderlings float away on silk threads.",
+      "note": "float on threads"
+     },
+     {
+      "h": 3,
+      "t": "A mother wolf spider carries her babies on her back.",
+      "note": "babies on mom's back"
+     }
+    ]
+   },
+   "intro": "Spiders are eight-legged hunters that make silk.",
+   "ask": "How long can a spider live?",
+   "say": [
+    [
+     "A spider has eight legs and two body parts."
+    ],
+    [
+     "Spiders eat insects."
+    ],
+    [
+     "Many spiders spin webs of strong silk."
+    ]
+   ],
+   "dev": {
+    "head": "Silk Spinners",
+    "g": [
+     [
+      [
+       "F",
+       "Spiders catch prey."
+      ],
+      [
+       "Def",
+       "Prey is an animal that is hunted for food.",
+       "prey"
+      ],
+      [
+       "D",
+       "For example, flies are prey for many spiders."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Many spiders spin webs."
+      ],
+      [
+       "D",
+       "A sticky web traps flying insects."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Spiders make silk in their bodies."
+      ],
+      [
+       "Def",
+       "Silk is a thin, strong thread.",
+       "silk"
+      ],
+      [
+       "D",
+       "It comes out of tiny tubes on the body."
+      ],
+      [
+       "D",
+       "Spiders use silk for webs and egg sacs."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Some spiders do not spin webs."
+      ],
+      [
+       "D",
+       "Wolf spiders chase their prey on the ground."
+      ],
+      [
+       "D",
+       "Jumping spiders pounce on insects."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 0,
+    "defNote": "prey: an animal hunted for food",
+    "detNote": "flies are prey for many spiders"
+   }
+  },
+  {
+   "id": "clouds",
+   "name": "clouds",
+   "title": "Clouds",
+   "group": "weather",
+   "heads": [
+    "Kinds",
+    "Made Of",
+    "Rain and Snow"
+   ],
+   "extra": "Fog",
+   "hk": [
+    [
+     "cumulus",
+     "cirrus",
+     "stratus",
+     "tall"
+    ],
+    [
+     "ice",
+     "water",
+     "small"
+    ],
+    [
+     "rain",
+     "snow",
+     "heavy"
+    ],
+    [
+     "fog",
+     "far",
+     "mornings",
+     "buildings"
+    ]
+   ],
+   "none": [
+    "cool mornings",
+    "hides building tops"
+   ],
+   "A": {
+    "title": "Clouds",
+    "s": [
+     {
+      "h": null,
+      "t": "Clouds float in the sky above us."
+     },
+     {
+      "h": 0,
+      "t": "Puffy white clouds are called cumulus clouds.",
+      "note": "puffy: cumulus",
+      "wrong": "puffy: cirrus"
+     },
+     {
+      "h": 0,
+      "t": "Thin, wispy clouds high in the sky are cirrus clouds.",
+      "note": "wispy: cirrus",
+      "wrong": "wispy: cumulus"
+     },
+     {
+      "h": 1,
+      "t": "Clouds are made of tiny drops of water or bits of ice.",
+      "note": "tiny drops or ice",
+      "wrong": "made of smoke"
+     },
+     {
+      "h": 1,
+      "t": "High, thin clouds are made of ice.",
+      "note": "high ones: ice",
+      "wrong": "high ones: dust"
+     },
+     {
+      "h": 2,
+      "t": "Tiny drops join together and grow heavy.",
+      "note": "drops grow heavy",
+      "wrong": "drops get lighter"
+     },
+     {
+      "h": 2,
+      "t": "When the drops are heavy enough, they fall as rain.",
+      "note": "heavy drops: rain",
+      "wrong": "heavy drops: sand"
+     },
+     {
+      "h": 3,
+      "t": "Fog is a cloud that forms near the ground.",
+      "note": "fog: a low cloud"
+     },
+     {
+      "h": 3,
+      "t": "Fog makes it hard to see far.",
+      "note": "hard to see far"
+     }
+    ]
+   },
+   "B": {
+    "title": "Watching the Sky",
+    "s": [
+     {
+      "h": null,
+      "t": "Clouds change shape as the wind moves them."
+     },
+     {
+      "h": 0,
+      "t": "Flat, gray clouds that cover the sky are stratus clouds.",
+      "note": "flat: stratus",
+      "wrong": "flat: cumulus"
+     },
+     {
+      "h": 0,
+      "t": "Some clouds are very tall and dark.",
+      "note": "some tall and dark",
+      "wrong": "all short and white"
+     },
+     {
+      "h": 1,
+      "t": "Low clouds are made of tiny water drops.",
+      "note": "low ones: water",
+      "wrong": "low ones: smoke"
+     },
+     {
+      "h": 1,
+      "t": "The drops in a cloud are too small to see one by one.",
+      "note": "drops too small to see"
+     },
+     {
+      "h": 2,
+      "t": "If the air is very cold, snow falls instead of rain.",
+      "note": "cold air: snow",
+      "wrong": "warm air: snow"
+     },
+     {
+      "h": 2,
+      "t": "Dark gray clouds often bring rain.",
+      "note": "dark clouds, rain",
+      "wrong": "white clouds, rain"
+     },
+     {
+      "h": 3,
+      "t": "Fog often forms on cool mornings.",
+      "note": "cool mornings"
+     },
+     {
+      "h": 3,
+      "t": "Fog can hide the tops of tall buildings.",
+      "note": "hides building tops"
+     }
+    ]
+   },
+   "intro": "Clouds come in many kinds, and their drops bring rain and snow.",
+   "ask": "How heavy is a big cloud?",
+   "say": [
+    [
+     "Puffy white clouds are called cumulus clouds."
+    ],
+    [
+     "Low clouds are made of tiny water drops."
+    ],
+    [
+     "Dark gray clouds often bring rain."
+    ]
+   ],
+   "dev": {
+    "head": "From Cloud to Rain",
+    "g": [
+     [
+      [
+       "F",
+       "Clouds are made of water."
+      ],
+      [
+       "D",
+       "Each cloud holds many tiny drops."
+      ],
+      [
+       "Def",
+       "A drop is a tiny bit of water.",
+       "drop"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Water evaporates from lakes and oceans."
+      ],
+      [
+       "Def",
+       "To evaporate means to turn into a gas.",
+       "evaporate"
+      ],
+      [
+       "D",
+       "The heat of the sun helps it evaporate."
+      ],
+      [
+       "D",
+       "The gas rises high into the sky."
+      ]
+     ],
+     [
+      [
+       "F",
+       "High in the sky, water vapor condenses."
+      ],
+      [
+       "Def",
+       "To condense means to turn back into a liquid.",
+       "condense"
+      ]
+     ],
+     [
+      [
+       "F",
+       "Clouds give us rain and snow."
+      ],
+      [
+       "D",
+       "Tiny drops join and grow heavy."
+      ],
+      [
+       "D",
+       "Then they fall to the ground."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 1,
+    "defNote": "evaporate: turn into a gas",
+    "detNote": "the heat of the sun helps"
+   }
+  },
+  {
+   "id": "magnets",
+   "name": "magnets",
+   "title": "Magnets",
+   "group": "force",
+   "heads": [
+    "Materials",
+    "Poles",
+    "Uses"
+   ],
+   "extra": "Earth",
+   "hk": [
+    [
+     "iron",
+     "steel",
+     "wood",
+     "glass",
+     "paper",
+     "through",
+     "plastic"
+    ],
+    [
+     "poles",
+     "opposites",
+     "same",
+     "strongest"
+    ],
+    [
+     "notes",
+     "compass",
+     "cranes",
+     "trains"
+    ],
+    [
+     "earth",
+     "north"
+    ]
+   ],
+   "none": [
+    "Earth like magnet"
+   ],
+   "A": {
+    "title": "Magnets",
+    "s": [
+     {
+      "h": null,
+      "t": "Magnets can push and pull without touching."
+     },
+     {
+      "h": 0,
+      "t": "A magnet pulls on things made of iron or steel.",
+      "note": "pulls iron and steel",
+      "wrong": "pulls wood and glass"
+     },
+     {
+      "h": 0,
+      "t": "Magnets do not pull on wood, plastic, or paper.",
+      "note": "not wood or plastic",
+      "wrong": "pulls wood, plastic"
+     },
+     {
+      "h": 1,
+      "t": "Every magnet has a north pole and a south pole.",
+      "note": "two poles, N and S",
+      "wrong": "only one pole"
+     },
+     {
+      "h": 1,
+      "t": "The pull of a magnet is strongest at its poles.",
+      "note": "strongest at poles",
+      "wrong": "weakest at poles"
+     },
+     {
+      "h": 2,
+      "t": "Magnets hold notes on many refrigerator doors.",
+      "note": "hold notes on fridges",
+      "wrong": "hold food in fridges"
+     },
+     {
+      "h": 2,
+      "t": "A compass needle is a tiny magnet.",
+      "note": "compass needle",
+      "wrong": "compass is wood"
+     },
+     {
+      "h": 3,
+      "t": "Earth acts like a giant magnet.",
+      "note": "Earth like magnet"
+     }
+    ]
+   },
+   "B": {
+    "title": "Push and Pull",
+    "s": [
+     {
+      "h": null,
+      "t": "People have used magnets for a very long time."
+     },
+     {
+      "h": 0,
+      "t": "A magnet can pull through paper and water.",
+      "note": "pulls through paper",
+      "wrong": "stopped by paper"
+     },
+     {
+      "h": 0,
+      "t": "A magnet does not pull on glass.",
+      "note": "no pull on glass",
+      "wrong": "pulls on glass"
+     },
+     {
+      "h": 1,
+      "t": "A north pole and a south pole pull toward each other.",
+      "note": "opposites pull in",
+      "wrong": "opposites push away"
+     },
+     {
+      "h": 1,
+      "t": "Two north poles push each other away.",
+      "note": "same poles push",
+      "wrong": "same poles pull"
+     },
+     {
+      "h": 2,
+      "t": "Big cranes use magnets to lift scrap metal.",
+      "note": "cranes lift scrap metal",
+      "wrong": "cranes lift scrap wood"
+     },
+     {
+      "h": 2,
+      "t": "Some trains float above the track on magnets.",
+      "note": "floating trains"
+     },
+     {
+      "h": 3,
+      "t": "A compass needle points north because of Earth.",
+      "note": "needle points north"
+     }
+    ]
+   },
+   "intro": "Magnets have two poles, pull on iron, and have many uses.",
+   "ask": "Who found the first magnet?",
+   "say": [
+    [
+     "A magnet pulls on iron and steel."
+    ],
+    [
+     "Every magnet has two poles."
+    ],
+    [
+     "Magnets hold notes on refrigerator doors."
+    ]
+   ],
+   "dev": {
+    "head": "Poles",
+    "g": [
+     [
+      [
+       "F",
+       "Every magnet has two poles."
+      ],
+      [
+       "Def",
+       "A pole is an end where the pull is strongest.",
+       "pole"
+      ],
+      [
+       "D",
+       "One is called north, and one is called south."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Opposite poles attract."
+      ],
+      [
+       "Def",
+       "To attract means to pull something closer.",
+       "attract"
+      ],
+      [
+       "D",
+       "A north pole pulls on a south pole."
+      ],
+      [
+       "D",
+       "They snap together with a click."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Like poles repel."
+      ],
+      [
+       "D",
+       "Two north poles push each other away."
+      ]
+     ],
+     [
+      [
+       "F",
+       "Magnets can work through things."
+      ],
+      [
+       "D",
+       "For example, a magnet can pull a clip through paper."
+      ],
+      [
+       "D",
+       "It can even pull through water."
+      ]
+     ]
+    ]
+   },
+   "hard": {
+    "g": 0,
+    "defNote": "pole: an end where the pull is strongest",
+    "detNote": "one north, one south"
+   }
+  }
+ ],
+ "examples": [
+  {
+   "about": "bats",
+   "t": "Most bats sleep during the day and hunt at night.",
+   "note": "sleep by day, hunt at night"
+  },
+  {
+   "about": "owls",
+   "t": "An owl can turn its head to look behind it.",
+   "note": "head turns to look back"
+  },
+  {
+   "about": "snails",
+   "t": "A snail carries its shell on its back.",
+   "note": "shell on its back"
+  },
+  {
+   "about": "frogs",
+   "t": "Many frogs lay their eggs in water.",
+   "note": "eggs laid in water"
+  }
+ ],
+ "linking": [
+  "also",
+  "another",
+  "more",
+  "but",
+  "for example",
+  "and"
+ ]
+}

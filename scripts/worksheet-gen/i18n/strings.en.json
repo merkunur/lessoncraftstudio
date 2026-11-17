@@ -5744,19 +5744,19 @@
   },
   "G2-557": {
     "title": "Parts of an Opinion Piece",
-    "instruction": "An opinion tells what a writer thinks. Reasons tell why. A closing says it again."
+    "instruction": "An opinion tells what a writer thinks. Reasons tell why."
   },
   "G2-558": {
     "title": "Plan Your Opinion Piece",
-    "instruction": "A plan has an opinion, reasons, and a closing."
+    "instruction": "A plan has an opinion, reasons, and a closing sentence."
   },
   "G2-559": {
     "title": "Write Your Opinion Piece",
-    "instruction": "Tell your opinion, give your reasons, and end with a closing."
+    "instruction": "Tell your opinion, give your reasons, and end with a closing sentence."
   },
   "G2-560": {
     "title": "Revise Your Opinion Piece",
-    "instruction": "A reason tells why. A closing says the opinion again in new words."
+    "instruction": "A reason tells why. A closing sentence says the opinion again in new words."
   },
   "G2-561": {
     "title": "Parts of a Friendly Letter",
@@ -5768,11 +5768,11 @@
   },
   "G2-563": {
     "title": "Special Names: Find the Capital Letters",
-    "instruction": "Names of holidays, places, and products start with capital letters."
+    "instruction": "Each big word in a holiday or place name gets a capital letter."
   },
   "G2-564": {
     "title": "Special Names: Write the Capital Letters",
-    "instruction": "Names of holidays, places, and products start with capital letters."
+    "instruction": "Each big word in a holiday or place name gets a capital letter."
   },
   "G1-616": {
     "title": "Plan a True Story",

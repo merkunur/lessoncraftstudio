@@ -1,0 +1,38 @@
+[
+ {
+  "at": "750b323b74cd",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "K-221",
+   "K-318",
+   "K-329",
+   "K-330",
+   "G1-312",
+   "G1-313",
+   "G1-314"
+  ],
+  "kind": "content-fix",
+  "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
+  "date": "2026-11-15"
+ },
+ {
+  "at": "42ad13962341",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-493"
+  ],
+  "kind": "content-fix",
+  "note": "Level 3 shows only pictures a child names with the word (all languages); Portuguese level 3 has six cards; pictures whose word was wrong are gone (nl, sv, es, fr)",
+  "date": "2026-11-16"
+ },
+ {
+  "at": "42ad13962341",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-495"
+  ],
+  "kind": "content-fix",
+  "note": "English: US vowel marks (a line and a curve), no ng/nk words; level 3 only where it asks more than level 2 (German)",
+  "date": "2026-11-16"
+ }
+]

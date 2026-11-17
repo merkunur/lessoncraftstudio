@@ -1,0 +1,27 @@
+[
+ {
+  "at": "9cfc40a64df7",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "K-224",
+   "K-231"
+  ],
+  "kind": "content-fix",
+  "note": "The word list now holds short-vowel words only (cat, bed, pig).",
+  "date": "2026-11-15"
+ },
+ {
+  "at": "9cfc40a64df7",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G2-315",
+   "G2-324",
+   "G2-325",
+   "G2-326",
+   "G2-327"
+  ],
+  "kind": "content-fix",
+  "note": "Words whose letters do not make the sound of the page left the word list.",
+  "date": "2026-11-15"
+ }
+]

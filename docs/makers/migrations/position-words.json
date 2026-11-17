@@ -1,0 +1,34 @@
+[
+ {
+  "at": "3d2f6d01823c",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "K-064"
+  ],
+  "kind": "content-fix",
+  "note": "Each card now asks ON, UNDER or BESIDE; the words under the card name the place.",
+  "date": "2026-11-15"
+ },
+ {
+  "at": "1c2f46819d1a",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "K-548"
+  ],
+  "kind": "content-fix",
+  "note": "One right word per row in every language; 'above' floats clear of the shape and 'on top of' touches it; 'behind' peeks out at the side; one balloon; a row's three words always on one line",
+  "date": "2026-11-16"
+ },
+ {
+  "at": "1c2f46819d1a",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "K-546",
+   "K-547",
+   "K-549"
+  ],
+  "kind": "content-fix",
+  "note": "One balloon in a singular sentence",
+  "date": "2026-11-16"
+ }
+]

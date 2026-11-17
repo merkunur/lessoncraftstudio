@@ -1,0 +1,34 @@
+[
+ {
+  "at": "dd50ae5fb5fc",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-249",
+   "G1-282",
+   "G1-283",
+   "G1-302"
+  ],
+  "kind": "content-fix",
+  "note": "A sentence about more than one thing now shows more than one picture.",
+  "date": "2026-11-15"
+ },
+ {
+  "at": "dd50ae5fb5fc",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-350",
+   "G1-353",
+   "G1-373",
+   "G1-374",
+   "G2-274",
+   "G2-281",
+   "G2-282",
+   "G2-307",
+   "G2-311",
+   "G2-356"
+  ],
+  "kind": "content-fix",
+  "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
+  "date": "2026-11-15"
+ }
+]

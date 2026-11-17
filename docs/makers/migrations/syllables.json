@@ -1,0 +1,16 @@
+[
+ {
+  "at": "8a51184e0125",
+  "atData": "ba2bb8cd6208",
+  "templates": [
+   "G1-306",
+   "G1-330",
+   "G1-331",
+   "G1-332",
+   "G1-334"
+  ],
+  "kind": "content-fix",
+  "note": "Words that were split at the wrong place left the word list.",
+  "date": "2026-11-15"
+ }
+]

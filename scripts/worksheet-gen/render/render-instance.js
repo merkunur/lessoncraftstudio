@@ -85,7 +85,11 @@ async function renderInstance(o) {
     if (!o.interactiveInstruction) throw new Error('render-instance: ' + type.id + ' is interactive but no interactiveInstruction was given for ' + locale);
     const screenBuilt = await again({ interactive: true });
     sameAs(screenBuilt, 'screen');
-    await load(buildPage({ title: head, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
+    // a copy that asks another end brings its own screen line (type.copyInstruction; K-038: tap the LIGHTER one): it is
+    // printed on the screen page and handed back in r.strings.screenInstruction for the deck (cli.js)
+    const screenLine = (type.copyInstruction && screenBuilt.strings && screenBuilt.strings.screenInstruction) || o.interactiveInstruction;
+    if (screenLine !== o.interactiveInstruction) strings = { ...strings, screenInstruction: screenLine };
+    await load(buildPage({ title: head, instruction: screenLine, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
     const screenLints = await runLints(page, { gradeBand: type.gradeBand });
     // LANES mode (tap-edit): the lanes are drawn LIVE by the runtime; the page image is only the
     // header (title, instruction, checklist), cropped just below it. Items travel as DATA.

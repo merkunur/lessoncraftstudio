@@ -45,7 +45,9 @@ const LEVELS = {
   },
   rainbow: {
     1: { rows: [6, 8, 10], example: true },     // in order; the outer pair is joined for you
-    2: { rows: [7, 9, 10], shuffled: true },    // the order mixed
+    // the order mixed. totals (2026-11-17): New version gave the rainbows of 7, 9 and 10 on every copy; every copy but
+    // the published one now draws its three totals from 6 to 10 (seeded by the copy; 10 different sets, in rising order)
+    2: { rows: [7, 9, 10], shuffled: true, totals: [6, 7, 8, 9, 10] },
     3: { rows: [12, 14, 16] },                  // the long rainbows, in order (review: 1-19 on one row crowded its two-digit numbers; capped at 16)
   },
   triangles: {
@@ -232,7 +234,9 @@ function makeBondMoreType(cfg) {
       }
 
       if (mode === 'rainbow') {
-        const rows = d.rows.map((N) => {
+        const published = Number(args.difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+        const totals = d.totals && !published ? shuffle(d.totals, rng).slice(0, d.rows.length).sort((a, b) => a - b) : d.rows;
+        const rows = totals.map((N) => {
           const nums = Array.from({ length: N - 1 }, (_, k) => k + 1);
           let order = nums;
           if (d.shuffled) {
@@ -246,7 +250,7 @@ function makeBondMoreType(cfg) {
           return `<div class="ws-card-stage" style="justify-content:center;align-items:center">` +
             rainbowSvg({ N, order, given, arcs: key ? rest : [], rings: key ? self : [], pairs: ctx.screen ? rest : null }) + `</div>`;
         });
-        return { bodyHtml: content(cardGrid({ cards: rows, cols: 1, rows: rows.length })), meta: { items: d.rows.map(String) } };
+        return { bodyHtml: content(cardGrid({ cards: rows, cols: 1, rows: rows.length })), meta: { items: totals.map(String) } };
       }
 
       // triangles: fact triangle cards to cut out (material)

@@ -14,6 +14,12 @@
  *
  * Maker (2026-11-02): a picture slot per row (lib/slot.js) and, in screen / key builds only, data-lcs-correct on the
  * right picture's wrapper (circle mode: the screen is a choice among the row's pictures; the key rings it).
+ *
+ * Which end a copy asks (2026-11-17, the Position Words model: "Big and Small" asked BIGGEST on every new version, so
+ * the other half of each title was never practised): a circle-mode template with an entry in data/ask-lines.json asks
+ * its two ends in turn, copy 1 the published end (cfg.target) with its registered line, copy 2 the other end with its
+ * own line (lib/copy-asks.js; copyInstruction). A copy that asks the other end says so on every row stage
+ * (data-lcs-ask); the draw is the same either way, only the marked picture and the line change.
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
@@ -21,6 +27,7 @@ const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { artExtentSync } = require('../../image-cache/silhouette.js');
 const { answerBox } = require('../../templates/components.js');
 const slot = require('../../lib/slot.js');
+const { askFor, otherLines } = require('../../lib/copy-asks.js');
 
 /** Distinct visual scales, ratio >= 1.3 between neighbors so K eyes rank them. */
 const SCALE_LADDER = [0.42, 0.58, 0.76, 1.0, 1.3];
@@ -49,14 +56,20 @@ function makeSizeCompareType(cfg) {
       3: { rows, items: itemsPerRow[2] || itemsPerRow[1] || itemsPerRow[0] + 2 },
     },
     i18n,
+    // a copy that asks the other end prints its own line (render-instance.js; the maker reads built.strings)
+    ...(mode === 'circle' && askFor(id, 'en', { variant: 1 }) ? { copyInstruction: true } : {}),
     // the unit checks (Part 7.6), ordering: the page with no row that already stands in order (see the draw); ctx.check
     // reaches the key build only through this hook
     ...(mode === 'order' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
 
-    build({ theme, difficulty }, ctx) {
+    build({ theme, difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
       const marks = !!(ctx && (ctx.answerKey || ctx.screen));
+      // the end this copy asks: copy 1 the published one (cfg.target), then in turn (data/ask-lines.json)
+      const asked = mode === 'circle' ? askFor(id, locale, ctx) : null;
+      if (asked && asked.published !== target) throw new Error(`${id}: the first end of data/ask-lines.json (${asked.published}) is not the type's own (${target})`);
+      const want = asked ? asked.ask : target;
       let nouns, slots;
       if (shape) {
         const pool = shapedPool(theme, shape);
@@ -83,7 +96,7 @@ function makeSizeCompareType(cfg) {
         // sv f1115, 2026-11-15: form B was a staircase 3, 2, 1); the worksheet keeps its draw
         const sorted = (a) => a.every((v, k) => !k || v > a[k - 1]) || a.every((v, k) => !k || v < a[k - 1]);
         for (let t = 0; mode === 'order' && ctx && ctx.check && sorted(scales) && t < 20; t++) scales = rng.shuffle(scales);
-        const targetIdx = target === 'largest'
+        const targetIdx = want === 'largest'
           ? scales.indexOf(Math.max(...scales))
           : scales.indexOf(Math.min(...scales));
         const rank = scales.map((s) => [...scales].sort((a, b) => a - b).indexOf(s) + 1);
@@ -120,19 +133,26 @@ function makeSizeCompareType(cfg) {
 
         cards.push(
           `<div class="ws-card-stage" style="justify-content:space-evenly;align-items:flex-end;padding:10px" ` +
-          `data-lcs-mode="${mode}" data-lcs-targetscale="${target === 'largest' ? Math.max(...scales) : Math.min(...scales)}"${shape ? ` data-lcs-shape="${shape}"` : ''}${i < slots ? slot.attr(ctx, 'pic', i) : ''}>` +
+          `data-lcs-mode="${mode}" data-lcs-targetscale="${want === 'largest' ? Math.max(...scales) : Math.min(...scales)}"${asked ? asked.attr : ''}${shape ? ` data-lcs-shape="${shape}"` : ''}${i < slots ? slot.attr(ctx, 'pic', i) : ''}>` +
           items.join('') + `</div>`
         );
         truth.push({ row: i + 1, scales, targetIdx, rank });
       }
-      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }), meta: { rows: truth } };
+      return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }), meta: { rows: truth, ...(asked && asked.other ? { ask: want } : {}) }, ...(asked && asked.strings ? { strings: asked.strings } : {}) };
     },
 
     async verify(page) {
       const m = mode, tgt = target;
-      return page.evaluate(({ mode, target }) => {
+      // the lines of the end a page does NOT ask, in every language: a page must never print one of them
+      const others = { largest: otherLines(id, 'largest'), smallest: otherLines(id, 'smallest') };
+      return page.evaluate(({ mode, target, others }) => {
         const fails = [];
+        const norm = (t) => String(t || '').replace(/[\u00A0\u202F]/g, ' ').replace(/\s+/g, ' ').trim();
+        const printed = norm((document.querySelector('[data-lcs-instruction]') || {}).textContent);
+        const asks = new Set();
         document.querySelectorAll('[data-lcs-mode]').forEach((stage, i) => {
+          const want = stage.dataset.lcsAsk || target;
+          asks.add(want);
           const icons = [...stage.querySelectorAll('.ws-icon')];
           const scales = icons.map((el) => parseFloat(el.dataset.lcsScale));
           if (new Set(scales).size !== scales.length) fails.push(`row ${i + 1}: duplicate scales`);
@@ -154,7 +174,7 @@ function makeSizeCompareType(cfg) {
             const t = icons.find((el) => el.dataset.lcsTarget);
             if (!t) { fails.push(`row ${i + 1}: no target`); return; }
             const ts = parseFloat(t.dataset.lcsScale);
-            const expected = target === 'largest' ? Math.max(...scales) : Math.min(...scales);
+            const expected = want === 'largest' ? Math.max(...scales) : Math.min(...scales);
             if (ts !== expected) fails.push(`row ${i + 1}: target scale ${ts} != ${expected}`);
             const right = stage.querySelector('[data-lcs-correct]');
             if (right && !right.contains(t)) fails.push(`row ${i + 1}: the key marks another picture`);
@@ -164,8 +184,13 @@ function makeSizeCompareType(cfg) {
             if (boxes.join() !== sorted.join()) fails.push(`row ${i + 1}: rank labels wrong`);
           }
         });
+        if (mode === 'circle') {
+          if (asks.size > 1) fails.push('the rows ask different ends');
+          const want = [...asks][0];
+          if (want && (others[want] || []).map(norm).includes(printed)) fails.push(`the page asks ${want} but its instruction names the other end`);
+        }
         return fails;
-      }, { mode: m, target: tgt });
+      }, { mode: m, target: tgt, others });
     },
   };
 }

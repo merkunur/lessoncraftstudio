@@ -16,6 +16,11 @@
  *   place   T5 · G2-399 — which place decides? Two numbers in place columns; circle the first digits from the left
  *           that differ, then write the symbol. L1 two digits (half share the tens) · L2 three digits, same hundreds ·
  *           L3 three digits, same hundreds and half the same tens. 2.NBT.A.4.
+ *           2026-11-17: on level 2 the deciding place was the TENS on every card of every copy (and never the hundreds
+ *           on level 3), so the place answered the question. Every copy but a level's first now draws the
+ *           deciding place of each card from the level's `decide` list in a seeded order: level 2 two cards each of
+ *           hundreds, tens and ones; level 3 one hundreds, two tens, three ones (the deeper places, still never one place
+ *           on more than half the cards). Level 1 (two digits, half and half) is as it was.
  *
  * No number a child counts or writes is 0 (the operator's rule); a 0 DIGIT inside 105 is fine.
  */
@@ -63,8 +68,8 @@ const LEVELS = {
   },
   place: {
     1: { cards: 6, n: 2, sameLead: 'half' },
-    2: { cards: 6, n: 3, sameLead: 'always' },
-    3: { cards: 6, n: 3, sameLead: 'always', sameSecond: 'half' },
+    2: { cards: 6, n: 3, sameLead: 'always', decide: [0, 0, 1, 1, 2, 2] },
+    3: { cards: 6, n: 3, sameLead: 'always', sameSecond: 'half', decide: [0, 1, 1, 2, 2, 2] },
   },
 };
 
@@ -266,13 +271,17 @@ function makeCompareMoreType(cfg) {
       const sameLead = shuffle(Array.from({ length: d.cards }, (_, k) => (d.sameLead === 'always' ? true : k < d.cards / 2)), rng);
       const sameSecond = shuffle(Array.from({ length: d.cards }, (_, k) => (d.sameSecond === 'half' ? k < d.cards / 2 : false)), rng);
       const dirs = shuffle(Array.from({ length: d.cards }, (_, k) => (k % 2 ? '<' : '>')), rng);
+      // the deciding place of each card, drawn from the level's list on every copy but a level's first (copy 1 of level 2 is
+      // the published page; copy 1 of level 3 is the first Level Set page, and no place decides more than half its cards)
+      const firstCopy = ((ctx && ctx.variant) || 1) === 1;
+      const decide = d.decide && !firstCopy ? shuffle(d.decide, rng) : null;
       for (let t = 0; ps.length < d.cards && t < 4000; t++) {
         const lo = Math.pow(10, d.n - 1), hi = Math.pow(10, d.n) - 1;
         const a = rng.int(lo, hi);
         const da = String(a).split('').map(Number);
         const db = da.slice();
         // the deciding place: 0 = the leading digit, 1 = the next, 2 = the ones
-        const dec = !sameLead[ps.length] ? 0 : sameSecond[ps.length] ? 2 : 1;
+        const dec = decide ? decide[ps.length] : !sameLead[ps.length] ? 0 : sameSecond[ps.length] ? 2 : 1;
         for (let k = dec + 1; k < d.n; k++) db[k] = rng.int(0, 9);
         let nd = rng.int(dec === 0 ? 1 : 0, 9);
         if (nd === da[dec]) continue;

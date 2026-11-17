@@ -3,7 +3,7 @@
  * The strip holds MORE pictures of the named noun than the sentence asks for — "Color 3 cats red." under 6 cats —
  * so the child must read the number and STOP there (reading + cardinality): colouring every cat is the mistake.
  * Any n of them is right, so no picture is marked as "the" target (data-lcs-pool on all of the noun's pictures).
- * Levels: 1 four cards, n 1-2 of 4 · 2 six cards, n 2-4 of 6 · 3 six cards, n 3-5 of 8, plus one picture of
+ * Levels: 1 four cards, n 2-3 of 4 · 2 six cards, n 2-4 of 6 · 3 six cards, n 3-5 of 8, plus one picture of
  * another noun (smaller pictures).
  */
 'use strict';
@@ -19,7 +19,9 @@ module.exports = {
   exerciseType: 'read-and-color',
   themeAxis: { applicable: true, minNouns: 8, bwOnly: true },
   difficulty: {
-    1: { cards: 4, cols: 2, rows: 2, nMin: 2, nMax: 2, pool: 4, extra: 0, icon: 84, font: 18 },
+    // level 1 asked 2 on every card of every copy (2026-11-17: the number did not have to be read); now 2 or 3 — the
+    // frames are plural-only (lib/read-and-color.js refuses 1), and 3 still leaves one picture of the 4 uncoloured
+    1: { cards: 4, cols: 2, rows: 2, nMin: 2, nMax: 3, pool: 4, extra: 0, icon: 84, font: 18 },
     2: { cards: 6, cols: 2, rows: 3, nMin: 2, nMax: 4, pool: 6, extra: 0, icon: 58, font: 17 },
     3: { cards: 6, cols: 2, rows: 3, nMin: 3, nMax: 5, pool: 8, extra: 1, icon: 46, font: 16 },
   },

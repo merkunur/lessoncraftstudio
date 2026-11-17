@@ -24,27 +24,38 @@ const { textWidthEm } = require('../../primitives/bankword-width.js');
  * level's quotas (needQ questions, needCaps name frames, no names at all when needCaps is 0). Only
  * when the unused frames of a class run out does a copy reuse one. Deterministic; null if the quotas
  * cannot be met from the pool.
+ * A copy whose frames would ALL be reused opens the next CYCLE instead: a new seeded order of the pool, every frame
+ * unused again (2026-11-17: past the first cycle every copy took the FRONT of the order again — the maker's copies,
+ * numbered 1, then jumps of 1 to 97, printed the same sentence frames on 11 or 12 of 12 copies). The copies of the
+ * first cycle are what they were.
  */
 function allocateFrames(pool, d, typeId, difficulty, loc, variant) {
   const need = d.joinPairs ? d.lanes * 2 : d.lanes;
-  const order = makeRng(`alloc|${typeId}|${difficulty}|${loc}`).shuffle(pool.slice().sort((a, b) => (a.id < b.id ? -1 : 1)));
+  const sorted = pool.slice().sort((a, b) => (a.id < b.id ? -1 : 1));
+  const orderOf = (cycle) => makeRng(`alloc|${typeId}|${difficulty}|${loc}` + (cycle ? `|cycle${cycle}` : '')).shuffle(sorted);
+  let order = orderOf(0), cycle = 0, inCycle = 0;
   const isQ = (f) => SB.endMark(f.text) === '?';
   const hasName = (f) => /\{name\}/.test(f.text);
   const allowed = (f) => (d.needCaps === 0 ? !hasName(f) : true);
-  const used = new Set();
+  let used = new Set();
   let pick = null;
   for (let c = 1; c <= variant; c++) {
     const take = [];
+    let stale = 0;
     const prefer = (pred, n) => {
       const cands = order.filter((f) => pred(f) && allowed(f) && !take.includes(f));
       const fresh = cands.filter((f) => !used.has(f.id)), old = cands.filter((f) => used.has(f.id));
-      for (const f of fresh.concat(old)) { if (n <= 0) break; take.push(f); n--; }
+      for (const f of fresh.concat(old)) { if (n <= 0) break; take.push(f); if (used.has(f.id)) stale++; n--; }
     };
     prefer(isQ, d.needQ || 0);
     prefer((f) => hasName(f) && !isQ(f), Math.max(0, (d.needCaps || 0) - take.filter(hasName).length));
     prefer(() => true, need - take.length);
+    // every frame this copy would take was used before (the copy would repeat the front of the order): it opens the
+    // next cycle instead (a new order, nothing used). A copy with some unused frames keeps its draw, as it always did.
+    if (take.length && stale === take.length && inCycle > 0) { cycle++; order = orderOf(cycle); used = new Set(); inCycle = 0; c--; continue; }
     if (take.length < need) return null;
     take.forEach((f) => used.add(f.id));
+    inCycle++;
     pick = take;
   }
   return pick;

@@ -92,11 +92,21 @@ function tracedGlyphH(text, { w, h, glyphH, padLeft = 10 }) {
 }
 
 /**
- * Pick `n` distinct sentences of `word` in a level's order: level 1 shortest first, level 3 longest first, level 2
- * the middle of the length order. `accept(s)` filters (e.g. traceable at a readable size); `rng` breaks ties so
- * the pick is seeded. Throws when fewer than n qualify (the page refuses rather than shrinking).
+ * Pick `n` distinct sentences of `word`. `accept(s)` filters (e.g. traceable at a readable size). Throws when fewer
+ * than n qualify (the page refuses rather than shrinking).
+ *
+ * Copy 1 (the published pages, and every level's first Level Set page) keeps the level's length order: level 1
+ * shortest first, level 3 longest first, level 2 the middle; the copy's `rng` only breaks ties.
+ * Every other copy (2026-11-17: New version gave the same one or two pages, because the length order took the same
+ * sentences every time and the rng only broke ties) DRAWS its sentences with the copy's rng from the level's band of the
+ * length order — level 1 the shorter two thirds, level 3 the longer two thirds, level 2 all — in a drawn order: with a
+ * word's six sentences a level then gives C(band, n) × n! different picks (level 1, n 2: 12; level 2, n 3: 120).
+ * Which copy a page is: the copy number the seed carries (lib/rng.js instanceSeed appends |v<k> for every copy past the
+ * first), so the callers are unchanged; `copy` may be passed explicitly.
  */
-function pickSentences(word, loc, { n, level, rng, accept = () => true, initial = 'any' }) {
+const copyOfRng = (rng) => { const m = rng && /\|v(\d+)(?:\||$)/.exec(String(rng.seed || '')); return m ? Number(m[1]) : 1; };
+function pickSentences(word, loc, { n, level, rng, accept = () => true, initial = 'any', copy = null }) {
+  if ((copy != null ? Number(copy) : copyOfRng(rng)) > 1 && rng) return drawSentences(word, loc, { n, level, rng, accept, initial });
   let pool = sentencesOf(word, loc).filter(accept);
   if (initial === 'never') pool = pool.filter((s) => !startsSentence(s, word));
   // 'prefer': sentence-initial blanks only when the non-initial sentences run out (the page then shows the capital reminder)
@@ -111,6 +121,22 @@ function pickSentences(word, loc, { n, level, rng, accept = () => true, initial 
   order = order.concat(late.sort((a, b) => a.length - b.length));
   if (order.length < n) throw new Error(`sight-words: "${word}" (${loc}) has ${order.length} usable sentences < ${n}`);
   return order.slice(0, n);
+}
+
+/** A copy past the first: n sentences drawn from the level's length band in a drawn order (see pickSentences). */
+function drawSentences(word, loc, { n, level, rng, accept, initial }) {
+  let pool = sentencesOf(word, loc).filter(accept);
+  if (initial === 'never') pool = pool.filter((s) => !startsSentence(s, word));
+  // 'prefer': sentence-initial blanks only when the non-initial sentences run out (the page then shows the capital reminder)
+  const late = initial === 'prefer' ? pool.filter((s) => startsSentence(s, word)) : [];
+  if (initial === 'prefer') pool = pool.filter((s) => !startsSentence(s, word));
+  const byLen = [...pool].sort((a, b) => a.length - b.length || (a < b ? -1 : a > b ? 1 : 0));
+  const k = Math.max(n, Math.ceil(byLen.length * 2 / 3));
+  const band = level === 1 ? byLen.slice(0, k) : level === 3 ? byLen.slice(byLen.length - k) : byLen;
+  let pick = rng.shuffle(band).slice(0, n);
+  if (pick.length < n) pick = pick.concat(rng.shuffle(late).slice(0, n - pick.length));
+  if (pick.length < n) throw new Error(`sight-words: "${word}" (${loc}) has ${pick.length} usable sentences < ${n}`);
+  return pick;
 }
 
 function levenshtein(a, b) {

@@ -5,7 +5,10 @@
  *  - 'compare-length': two measured objects → how many units longer? (G2-236)
  *  - 'thermometer':    read the thermometer → write the value (G3-345)
  *  - 'volume-cubes':   iso cube stack → count the cubes (G3-346)
- *  - 'heavier':        two real things → circle the heavier (K-038, MASS_RANK)
+ *  - 'heavier':        two real things → circle the heavier (K-038, MASS_RANK); since 2026-11-17 the copies ask the
+ *                      heavier and the lighter in turn (data/ask-lines.json, lib/copy-asks.js: copy 1 the heavier, as
+ *                      published; a copy asking the lighter prints its own line, tap line included, and says so on
+ *                      every row stage: data-lcs-ask="lighter"; its screen questions are "light:" ones)
  * Length modes reuse the artExtent zero-registration from the ruler exemplar.
  */
 'use strict';
@@ -21,6 +24,22 @@ const { MASS_RANK, NEW_PAGE_EXCLUDE } = require('../../lib/mass-rank.js');
 const { svgRoot, roundedRect } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
 const slot = require('../../lib/slot.js');
+const { askFor, otherLines } = require('../../lib/copy-asks.js');
+const MEASURE_SCREEN = require('../../lib/measurement-screen.js');
+/** the measurement screen, plus the lighter-of-two question of the heavier/lighter copies ("light:<theme>:<a>:<b>"):
+ *  the answer is the one of the pair that is not the heavier (lib/measurement-screen.js answers the "heavy:" ones) */
+function withLighter(inter) {
+  return { ...inter, oracle: (items) => items.map((it) => {
+    const q = String((it.meta || {})['data-lcs-q'] || '');
+    if (!q.startsWith('light:')) return inter.oracle([it])[0];
+    const p = q.split(':');
+    const heavy = inter.oracle([{ ...it, meta: { ...it.meta, 'data-lcs-q': 'heavy:' + p.slice(1).join(':') } }])[0];
+    const labels = it.options.map((o) => String(typeof o === 'object' ? o.label : o));
+    const want = labels.findIndex((l, i) => i !== heavy && (l === p[2] || l === p[3]));
+    if (want < 0) throw new Error('measurement oracle: cannot answer ' + q);
+    return want;
+  }) };
+}
 
 const U = 44, BAND = 110;
 // 2026-10-09: the drawings were small in big cards. Order and compare keep their June FACTS (the noun pick and the
@@ -144,7 +163,9 @@ function makeMeasurementType(cfg) {
     assetClass: 'measurement',
     exerciseType: 'measurement',
     themeAxis: { applicable: ['cubes-measure', 'order-units', 'compare-length', 'heavier'].includes(mode), minNouns: 4 },
-    interactive: require('../../lib/measurement-screen.js').interactiveFor({ 'cubes-measure': 'cubes', 'order-units': 'order', 'compare-length': 'compare', thermometer: 'thermometer', 'volume-cubes': 'towers', heavier: 'heavier' }[mode]),
+    interactive: (mode === 'heavier' ? withLighter : (x) => x)(MEASURE_SCREEN.interactiveFor({ 'cubes-measure': 'cubes', 'order-units': 'order', 'compare-length': 'compare', thermometer: 'thermometer', 'volume-cubes': 'towers', heavier: 'heavier' }[mode])),
+    // a copy that asks the lighter prints its own line (render-instance.js; the maker reads built.strings)
+    ...(mode === 'heavier' && askFor(id, 'en', { variant: 1 }) ? { copyInstruction: true } : {}),
     difficulty: cfg.difficulty || DEFAULT_LEVELS[mode] || { 1: { rows: 3 }, 2: { rows: 3 }, 3: { rows: 4 } },
     i18n,
 
@@ -157,7 +178,8 @@ function makeMeasurementType(cfg) {
       if (published) return b;
       b.meta = { ...b.meta, mode, asks: S.map((x) => String(x.ask)) };
       if (ctx && (ctx.interactive || ctx.answerKey)) {
-        return require('../../lib/measurement-screen.js').screenOrKey(b, S, { ...ctx, locale: (args.locale || 'en').slice(0, 2), theme: args.theme });
+        const sk = MEASURE_SCREEN.screenOrKey(b, S, { ...ctx, locale: (args.locale || 'en').slice(0, 2), theme: args.theme });
+        return b.strings ? { ...sk, strings: b.strings } : sk;
       }
       return b;
     },
@@ -166,7 +188,7 @@ function makeMeasurementType(cfg) {
     // reaches the key build only through this hook)
     ...(mode === 'cubes-measure' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
 
-    _build({ theme, difficulty }, ctx, S) {
+    _build({ theme, difficulty, locale }, ctx, S) {
       const d = this.difficulty[difficulty];
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
       const rng = ctx.rng;
@@ -321,6 +343,10 @@ function makeMeasurementType(cfg) {
       }
 
       if (mode === 'heavier') {
+        // the end this copy asks: copy 1 the heavier (the published end), then in turn (data/ask-lines.json)
+        const asked = askFor(id, locale, ctx);
+        if (asked && asked.published !== 'heavier') throw new Error(`${id}: the first end of data/ask-lines.json is not "heavier"`);
+        const lighter = !!(asked && asked.ask === 'lighter');
         const rank = MASS_RANK[theme];
         if (!rank) throw new Error(`heavier: no MASS_RANK for theme ${theme}`);
         const have = labelSafeNouns(theme).map((n) => n.noun);
@@ -351,15 +377,15 @@ function makeMeasurementType(cfg) {
             while ((Math.abs(i1 - i2) < gMin || Math.abs(i1 - i2) > gMax) && g < 60);   // ≥3 ranks apart = obvious (the published page)
           }
           const heavy = Math.min(i1, i2), light = Math.max(i1, i2);
-          const sides = rng.shuffle([{ n: ranked[heavy], ok: true }, { n: ranked[light], ok: false }]);
-          S.push({ kind: 'pick', q: `heavy:${theme}:${sides[0].n}:${sides[1].n}`, ask: ranked[heavy],
+          const sides = rng.shuffle([{ n: ranked[heavy], ok: !lighter }, { n: ranked[light], ok: lighter }]);
+          S.push({ kind: 'pick', q: `${lighter ? 'light' : 'heavy'}:${theme}:${sides[0].n}:${sides[1].n}`, ask: ranked[lighter ? light : heavy],
             options: sides.map((x) => ({ label: x.n, ok: x.ok, html: `<img src="${fileUri(theme, x.n)}" alt="" style="width:150px;height:150px;object-fit:contain">` })) });
           const chips = sides.map((s) =>
             `<span class="ws-pattern-chip" style="width:${chip}px;height:${chip}px"${s.ok ? ' data-lcs-correct="1"' : ''} data-lcs-noun="${s.n}">` +
             `<img class="ws-icon" src="${fileUri(theme, s.n)}" alt="" style="width:${Math.round(chip * 0.78)}px;height:${Math.round(chip * 0.78)}px"></span>`).join('');
-          cards.push(`<div class="ws-card-stage" style="justify-content:space-evenly" data-lcs-heavy="${ranked[heavy]}" data-lcs-gap="${light - heavy}"${d.gapMin ? ` data-lcs-gapmin="${d.gapMin}" data-lcs-gapmax="${d.gapMax || 99}"` : ''}>${chips}</div>`);
+          cards.push(`<div class="ws-card-stage" style="justify-content:space-evenly" data-lcs-heavy="${ranked[heavy]}" data-lcs-gap="${light - heavy}"${d.gapMin ? ` data-lcs-gapmin="${d.gapMin}" data-lcs-gapmax="${d.gapMax || 99}"` : ''}${asked ? asked.attr : ''}>${chips}</div>`);
         }
-        return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: {} };
+        return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: lighter ? { ask: 'lighter' } : {}, ...(asked && asked.strings ? { strings: asked.strings } : {}) };
       }
 
       throw new Error('measurement-tasks: unknown mode ' + mode);
@@ -367,8 +393,11 @@ function makeMeasurementType(cfg) {
 
     async verify(page) {
       const m = mode;
-      const fails0 = await page.evaluate((mode) => {
+      // the heavier/lighter copies: the lines of the end a page does NOT ask (every language) must never be printed
+      const others = mode === 'heavier' ? { heavier: otherLines(id, 'heavier'), lighter: otherLines(id, 'lighter') } : {};
+      const fails0 = await page.evaluate(({ mode, others }) => {
         const fails = [];
+        const asks = new Set();
         const rowOk = (wrap) => {
           const row = wrap.querySelector('[data-lcs-cuberow]');
           const n = +row.dataset.lcsCuberow;
@@ -417,9 +446,11 @@ function makeMeasurementType(cfg) {
             if (+card.querySelector('[data-lcs-answer]').dataset.lcsAnswer !== want) fails.push(`card ${i + 1}: volume mismatch`);
           } else if (mode === 'heavier') {
             const correct = [...card.querySelectorAll('.ws-pattern-chip')].filter((c) => c.dataset.lcsCorrect);
-            if (correct.length !== 1) fails.push(`row ${i + 1}: ${correct.length} correct`);
-            else if (correct[0].dataset.lcsNoun !== card.querySelector('[data-lcs-heavy]').dataset.lcsHeavy) fails.push(`row ${i + 1}: heavy mark wrong`);
             const hv = card.querySelector('[data-lcs-heavy]');
+            const lighter = hv.dataset.lcsAsk === 'lighter';
+            asks.add(lighter ? 'lighter' : 'heavier');
+            if (correct.length !== 1) fails.push(`row ${i + 1}: ${correct.length} correct`);
+            else if ((correct[0].dataset.lcsNoun === hv.dataset.lcsHeavy) === lighter) fails.push(`row ${i + 1}: ${lighter ? 'light' : 'heavy'} mark wrong`);
             if (hv.dataset.lcsGapmin && (+hv.dataset.lcsGap < +hv.dataset.lcsGapmin || +hv.dataset.lcsGap > +hv.dataset.lcsGapmax)) fails.push(`row ${i + 1}: ${hv.dataset.lcsGap} ranks apart, this level wants ${hv.dataset.lcsGapmin}-${hv.dataset.lcsGapmax}`);
           }
         });
@@ -433,8 +464,15 @@ function makeMeasurementType(cfg) {
           const lens = [...document.querySelectorAll('[data-lcs-card] [data-lcs-objlen]')].map((w) => +w.dataset.lcsObjlen);
           if (new Set(lens).size !== lens.length) fails.push(`two rows ask the same length (${lens.join(',')})`);
         }
+        if (mode === 'heavier') {
+          const norm = (t) => String(t || '').replace(/[\u00A0\u202F]/g, ' ').replace(/\s+/g, ' ').trim();
+          const printed = norm((document.querySelector('[data-lcs-instruction]') || {}).textContent);
+          if (asks.size > 1) fails.push('the rows ask different ends');
+          const want = [...asks][0];
+          if (want && (others[want] || []).map(norm).includes(printed)) fails.push(`the page asks ${want} but its instruction names the other end`);
+        }
         return fails;
-      }, m);
+      }, { mode: m, others });
       // 2026-10-09: the page and every card must USE their space (the drawings were small in big cards)
       const pf = await page.evaluate(pageFill), cf = await page.evaluate(cardFill, CARD_FLOOR);
       return [...fails0, ...pf.fails, ...cf.fails];

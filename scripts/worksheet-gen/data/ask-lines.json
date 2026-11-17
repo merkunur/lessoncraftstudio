@@ -1,0 +1,349 @@
+{
+ "$comment": "The instruction line of each end a copy can ask, for the comparison templates whose copies ask the two ends in turn (types/_shared/size-compare.js K-032 K-035 K-037 K-079, measurement-tasks.js K-038, compare-groups.js K-008; 2026-11-17, the Position Words model). order[0] is the end the published pages ask: its line is the registered instruction (i18n/strings.<loc>.json) word for word, and copy 1 of every level asks it; a copy that asks order[1] prints that line (copyInstruction). K-038 \"screen\": the tap line of each end (order[0] = i18n/interactive-instructions.json measurement.heavier). K-008 fewer = the registered lines of K-009. The other ends are DRAFTS awaiting the native review (qa/verify-ask-lines.js checks the published ends).",
+ "K-032": {
+  "order": [
+   "largest",
+   "smallest"
+  ],
+  "en": {
+   "largest": "Circle the BIGGEST one in each row.",
+   "smallest": "Circle the SMALLEST one in each row."
+  },
+  "de": {
+   "largest": "Kreise in jeder Reihe das GRÖSSTE Bild ein.",
+   "smallest": "Kreise in jeder Reihe das KLEINSTE Bild ein."
+  },
+  "sv": {
+   "largest": "Ringa in den STÖRSTA i varje rad.",
+   "smallest": "Ringa in den MINSTA i varje rad."
+  },
+  "fr": {
+   "largest": "Entoure le PLUS GRAND dans chaque rangée.",
+   "smallest": "Entoure le PLUS PETIT dans chaque rangée."
+  },
+  "no": {
+   "largest": "Sett ring rundt den STØRSTE i hver rad.",
+   "smallest": "Sett ring rundt den MINSTE i hver rad."
+  },
+  "nl": {
+   "largest": "Omcirkel het GROOTSTE in elke rij.",
+   "smallest": "Omcirkel het KLEINSTE in elke rij."
+  },
+  "fi": {
+   "largest": "Ympyröi joka rivin SUURIN.",
+   "smallest": "Ympyröi joka rivin PIENIN."
+  },
+  "da": {
+   "largest": "Indkreds den STØRSTE i hver række.",
+   "smallest": "Indkreds den MINDSTE i hver række."
+  },
+  "it": {
+   "largest": "Cerchia quello PIÙ GRANDE in ogni fila.",
+   "smallest": "Cerchia quello PIÙ PICCOLO in ogni fila."
+  },
+  "es": {
+   "largest": "Rodea el MÁS GRANDE de cada fila.",
+   "smallest": "Rodea el MÁS PEQUEÑO de cada fila."
+  },
+  "pt": {
+   "largest": "Circule o MAIOR de cada fileira.",
+   "smallest": "Circule o MENOR de cada fileira."
+  }
+ },
+ "K-035": {
+  "order": [
+   "largest",
+   "smallest"
+  ],
+  "en": {
+   "largest": "Circle the TALLEST one in each row.",
+   "smallest": "Circle the SHORTEST one in each row."
+  },
+  "de": {
+   "largest": "Kreise in jeder Reihe das HÖCHSTE Bild ein.",
+   "smallest": "Kreise in jeder Reihe das NIEDRIGSTE Bild ein."
+  },
+  "sv": {
+   "largest": "Ringa in den HÖGSTA i varje rad.",
+   "smallest": "Ringa in den LÄGSTA i varje rad."
+  },
+  "fr": {
+   "largest": "Entoure le PLUS HAUT dans chaque rangée.",
+   "smallest": "Entoure le PLUS BAS dans chaque rangée."
+  },
+  "no": {
+   "largest": "Sett ring rundt den HØYESTE i hver rad.",
+   "smallest": "Sett ring rundt den LAVESTE i hver rad."
+  },
+  "nl": {
+   "largest": "Omcirkel het HOOGSTE in elke rij.",
+   "smallest": "Omcirkel het LAAGSTE in elke rij."
+  },
+  "fi": {
+   "largest": "Ympyröi joka rivin KORKEIN.",
+   "smallest": "Ympyröi joka rivin MATALIN."
+  },
+  "da": {
+   "largest": "Indkreds den HØJESTE i hver række.",
+   "smallest": "Indkreds den LAVESTE i hver række."
+  },
+  "it": {
+   "largest": "Cerchia quello PIÙ ALTO in ogni fila.",
+   "smallest": "Cerchia quello PIÙ BASSO in ogni fila."
+  },
+  "es": {
+   "largest": "Rodea el MÁS ALTO de cada fila.",
+   "smallest": "Rodea el MÁS BAJO de cada fila."
+  },
+  "pt": {
+   "largest": "Circule o mais ALTO de cada fileira.",
+   "smallest": "Circule o mais BAIXO de cada fileira."
+  }
+ },
+ "K-037": {
+  "order": [
+   "largest",
+   "smallest"
+  ],
+  "en": {
+   "largest": "Circle the LONGEST one in each row.",
+   "smallest": "Circle the SHORTEST one in each row."
+  },
+  "de": {
+   "largest": "Kreise in jeder Reihe das LÄNGSTE Bild ein.",
+   "smallest": "Kreise in jeder Reihe das KÜRZESTE Bild ein."
+  },
+  "sv": {
+   "largest": "Ringa in den LÄNGSTA i varje rad.",
+   "smallest": "Ringa in den KORTASTE i varje rad."
+  },
+  "fr": {
+   "largest": "Entoure le PLUS LONG dans chaque rangée.",
+   "smallest": "Entoure le PLUS COURT dans chaque rangée."
+  },
+  "no": {
+   "largest": "Sett ring rundt den LENGSTE i hver rad.",
+   "smallest": "Sett ring rundt den KORTESTE i hver rad."
+  },
+  "nl": {
+   "largest": "Omcirkel het LANGSTE in elke rij.",
+   "smallest": "Omcirkel het KORTSTE in elke rij."
+  },
+  "fi": {
+   "largest": "Ympyröi joka rivin PISIN.",
+   "smallest": "Ympyröi joka rivin LYHYIN."
+  },
+  "da": {
+   "largest": "Indkreds den LÆNGSTE i hver række.",
+   "smallest": "Indkreds den KORTESTE i hver række."
+  },
+  "it": {
+   "largest": "Cerchia quello PIÙ LUNGO in ogni fila.",
+   "smallest": "Cerchia quello PIÙ CORTO in ogni fila."
+  },
+  "es": {
+   "largest": "Rodea el MÁS LARGO de cada fila.",
+   "smallest": "Rodea el MÁS CORTO de cada fila."
+  },
+  "pt": {
+   "largest": "Circule o mais COMPRIDO de cada fileira.",
+   "smallest": "Circule o mais CURTO de cada fileira."
+  }
+ },
+ "K-079": {
+  "order": [
+   "largest",
+   "smallest"
+  ],
+  "en": {
+   "largest": "Circle the BIGGEST shape in each row.",
+   "smallest": "Circle the SMALLEST shape in each row."
+  },
+  "de": {
+   "largest": "Kreise in jeder Reihe die GRÖSSTE Form ein.",
+   "smallest": "Kreise in jeder Reihe die KLEINSTE Form ein."
+  },
+  "sv": {
+   "largest": "Ringa in den STÖRSTA figuren i varje rad.",
+   "smallest": "Ringa in den MINSTA figuren i varje rad."
+  },
+  "fr": {
+   "largest": "Entoure la PLUS GRANDE forme dans chaque rangée.",
+   "smallest": "Entoure la PLUS PETITE forme dans chaque rangée."
+  },
+  "no": {
+   "largest": "Sett ring rundt den STØRSTE figuren i hver rad.",
+   "smallest": "Sett ring rundt den MINSTE figuren i hver rad."
+  },
+  "nl": {
+   "largest": "Omcirkel de GROOTSTE vorm in elke rij.",
+   "smallest": "Omcirkel de KLEINSTE vorm in elke rij."
+  },
+  "fi": {
+   "largest": "Ympyröi joka rivin SUURIN muoto.",
+   "smallest": "Ympyröi joka rivin PIENIN muoto."
+  },
+  "da": {
+   "largest": "Indkreds den STØRSTE figur i hver række.",
+   "smallest": "Indkreds den MINDSTE figur i hver række."
+  },
+  "it": {
+   "largest": "Cerchia la forma PIÙ GRANDE in ogni fila.",
+   "smallest": "Cerchia la forma PIÙ PICCOLA in ogni fila."
+  },
+  "es": {
+   "largest": "Rodea la figura MÁS GRANDE de cada fila.",
+   "smallest": "Rodea la figura MÁS PEQUEÑA de cada fila."
+  },
+  "pt": {
+   "largest": "Circule a MAIOR forma de cada fileira.",
+   "smallest": "Circule a MENOR forma de cada fileira."
+  }
+ },
+ "K-038": {
+  "order": [
+   "heavier",
+   "lighter"
+  ],
+  "en": {
+   "heavier": "Think about real life! Circle the HEAVIER one.",
+   "lighter": "Think about real life! Circle the LIGHTER one."
+  },
+  "de": {
+   "heavier": "Denk an die echten Dinge! Kreise das SCHWERERE ein.",
+   "lighter": "Denk an die echten Dinge! Kreise das LEICHTERE ein."
+  },
+  "sv": {
+   "heavier": "Tänk på verkligheten! Ringa in den TYNGRE.",
+   "lighter": "Tänk på verkligheten! Ringa in den LÄTTARE."
+  },
+  "fr": {
+   "heavier": "Pense à la vraie vie ! Entoure le PLUS LOURD.",
+   "lighter": "Pense à la vraie vie ! Entoure le PLUS LÉGER."
+  },
+  "no": {
+   "heavier": "Tenk på det virkelige livet! Sett ring rundt den TYNGSTE.",
+   "lighter": "Tenk på det virkelige livet! Sett ring rundt den LETTESTE."
+  },
+  "nl": {
+   "heavier": "Denk aan het echte leven! Omcirkel het ZWAARSTE.",
+   "lighter": "Denk aan het echte leven! Omcirkel het LICHTSTE."
+  },
+  "fi": {
+   "heavier": "Mieti oikeaa elämää! Ympyröi PAINAVAMPI.",
+   "lighter": "Mieti oikeaa elämää! Ympyröi KEVYEMPI."
+  },
+  "da": {
+   "heavier": "Tænk på det virkelige liv! Indkreds den TUNGESTE.",
+   "lighter": "Tænk på det virkelige liv! Indkreds den LETTESTE."
+  },
+  "it": {
+   "heavier": "Pensa alla vita reale! Cerchia quello PIÙ PESANTE.",
+   "lighter": "Pensa alla vita reale! Cerchia quello PIÙ LEGGERO."
+  },
+  "es": {
+   "heavier": "¡Piensa en la vida real! Rodea el MÁS PESADO.",
+   "lighter": "¡Piensa en la vida real! Rodea el MÁS LIVIANO."
+  },
+  "pt": {
+   "heavier": "Pense na vida real! Circule o MAIS PESADO.",
+   "lighter": "Pense na vida real! Circule o MAIS LEVE."
+  },
+  "screen": {
+   "en": {
+    "heavier": "Think about real life! Tap the HEAVIER one.",
+    "lighter": "Think about real life! Tap the LIGHTER one."
+   },
+   "de": {
+    "heavier": "Denk an die echten Dinge! Tippe das SCHWERERE an.",
+    "lighter": "Denk an die echten Dinge! Tippe das LEICHTERE an."
+   },
+   "sv": {
+    "heavier": "Tänk på verkligheten! Tryck på den TYNGRE.",
+    "lighter": "Tänk på verkligheten! Tryck på den LÄTTARE."
+   },
+   "fr": {
+    "heavier": "Pense à la vraie vie ! Touche le PLUS LOURD.",
+    "lighter": "Pense à la vraie vie ! Touche le PLUS LÉGER."
+   },
+   "no": {
+    "heavier": "Tenk på det virkelige livet! Trykk på den TYNGSTE.",
+    "lighter": "Tenk på det virkelige livet! Trykk på den LETTESTE."
+   },
+   "nl": {
+    "heavier": "Denk aan het echte leven! Tik op het ZWAARSTE.",
+    "lighter": "Denk aan het echte leven! Tik op het LICHTSTE."
+   },
+   "fi": {
+    "heavier": "Mieti oikeaa elämää! Napauta PAINAVAMPAA.",
+    "lighter": "Mieti oikeaa elämää! Napauta KEVYEMPÄÄ."
+   },
+   "da": {
+    "heavier": "Tænk på det virkelige liv! Tryk på den TUNGESTE.",
+    "lighter": "Tænk på det virkelige liv! Tryk på den LETTESTE."
+   },
+   "it": {
+    "heavier": "Pensa alla vita reale! Tocca quello PIÙ PESANTE.",
+    "lighter": "Pensa alla vita reale! Tocca quello PIÙ LEGGERO."
+   },
+   "es": {
+    "heavier": "¡Piensa en la vida real! Toca el MÁS PESADO.",
+    "lighter": "¡Piensa en la vida real! Toca el MÁS LIVIANO."
+   },
+   "pt": {
+    "heavier": "Pense na vida real! Toque no MAIS PESADO.",
+    "lighter": "Pense na vida real! Toque no MAIS LEVE."
+   }
+  }
+ },
+ "K-008": {
+  "order": [
+   "more",
+   "fewer"
+  ],
+  "en": {
+   "more": "Look at both groups. Circle the group that has MORE.",
+   "fewer": "Look at both groups. Circle the group that has FEWER."
+  },
+  "de": {
+   "more": "Schau dir beide Gruppen an. Kreise die Gruppe mit MEHR ein.",
+   "fewer": "Schau dir beide Gruppen an. Kreise die Gruppe mit WENIGER ein."
+  },
+  "sv": {
+   "more": "Titta på båda grupperna. Ringa in gruppen som har FLER.",
+   "fewer": "Titta på båda grupperna. Ringa in gruppen som har FÄRRE."
+  },
+  "fr": {
+   "more": "Regarde les deux groupes. Entoure le groupe qui en a le PLUS.",
+   "fewer": "Regarde les deux groupes. Entoure le groupe qui en a le MOINS."
+  },
+  "no": {
+   "more": "Se på begge gruppene. Sett ring rundt gruppen med FLEST.",
+   "fewer": "Se på begge gruppene. Sett ring rundt gruppen med FÆRREST."
+  },
+  "nl": {
+   "more": "Kijk naar beide groepen. Omcirkel de groep met MEER.",
+   "fewer": "Kijk naar beide groepen. Omcirkel de groep met MINDER."
+  },
+  "fi": {
+   "more": "Katso molempia ryhmiä. Ympyröi ryhmä, jossa on ENEMMÄN.",
+   "fewer": "Katso molempia ryhmiä. Ympyröi ryhmä, jossa on VÄHEMMÄN."
+  },
+  "da": {
+   "more": "Se på begge grupper. Indkreds den gruppe, der har FLEST.",
+   "fewer": "Se på begge grupper. Indkreds den gruppe, der har FÆRREST."
+  },
+  "it": {
+   "more": "Guarda i due gruppi. Cerchia il gruppo che ne ha DI PIÙ.",
+   "fewer": "Guarda i due gruppi. Cerchia il gruppo che ne ha DI MENO."
+  },
+  "es": {
+   "more": "Mira los dos grupos. Rodea el grupo que tiene MÁS.",
+   "fewer": "Mira los dos grupos. Rodea el grupo que tiene MENOS."
+  },
+  "pt": {
+   "more": "Olhe os dois grupos. Circule o grupo que tem MAIS.",
+   "fewer": "Olhe os dois grupos. Circule o grupo que tem MENOS."
+  }
+ }
+}

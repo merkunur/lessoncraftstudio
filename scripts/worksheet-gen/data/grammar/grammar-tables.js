@@ -71,4 +71,32 @@ const AGREEMENT = {
   no: { before: { liten: true, stor: true, fin: true }, size: { liten: 'small', stor: 'big' }, adj: { liten: { m: 'liten', n: 'lite' }, stor: { m: 'stor', n: 'stort' }, fin: { m: 'fin', n: 'fint' } } },
 };
 
-module.exports = { COMPARISON, SENTENCES, CAPITAL_RULE, CONJUGATION, AGREEMENT };
+// More tagged sentences for the word classes in context (G1-497 only; G1-498 and the sentence makers read SENTENCES):
+// the verb and the adjective in other places of the sentence (2026-11-17: in SENTENCES every verb is the 4th word and
+// most adjectives the 2nd, so a child could circle by position). American English, Grade 1, action verbs only (a linking
+// verb such as "is" is not what a Grade 1 page calls a verb); the other languages'
+// sentences await a native author (the list of what each bank needs: maker-audit sentences-needed).
+const WORD_CLASS_SENTENCES = {
+  en: [
+    'Max/M runs/V to/X the/D big/A tree/N ./.',
+    'Mia/M flies/V a/D red/A kite/N ./.',
+    'We/X see/V a/D tall/A giraffe/N ./.',
+    'Dad/N cuts/V the/D sweet/A cake/N ./.',
+    'We/X play/V in/X the/D hot/A sun/N ./.',
+    'My/D dog/N sleeps/V on/X a/D soft/A rug/N ./.',
+    'Ben/M kicks/V the/D red/A ball/N ./.',
+    'A/D duck/N swims/V in/X the/D cold/A lake/N ./.',
+    'Look/V at/X the/D funny/A clown/N ./.',
+    'The/D cat/N drinks/V warm/A milk/N ./.',
+    'Emma/M reads/V a/D long/A book/N ./.',
+    'The/D baby/N hugs/V a/D fluffy/A bear/N ./.',
+    'Leo/M eats/V a/D green/A apple/N at/X lunch/N ./.',
+    'Birds/N fly/V high/X in/X the/D blue/A sky/N ./.',
+    'Mom/N bakes/V yummy/A bread/N ./.',
+    'Small/A fish/N swim/V fast/X ./.',
+    'Tom/M paints/V a/D big/A yellow/A sun/N ./.',
+    'My/D sister/N sings/V a/D happy/A song/N ./.',
+  ],
+};
+
+module.exports = { COMPARISON, SENTENCES, CAPITAL_RULE, CONJUGATION, AGREEMENT, WORD_CLASS_SENTENCES };

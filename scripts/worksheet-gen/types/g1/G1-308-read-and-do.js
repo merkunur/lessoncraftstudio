@@ -91,6 +91,7 @@ const TILE_VERBS = ['circle', 'cross', 'underline', 'mark'];   // one object slo
 const OBJ_SLOTS = { obj: 'unique', all: 'unique', allDef: 'def', def: 'def', dat: 'dat', gen: 'gen' };   // slot → objForms key under the `unique` cue
 const SECOND_SLOTS = { obj2: 'unique', dat2: 'dat', def2: 'def', a2: 'a2' };   // the `line` frame's second noun
 const COUNT_SLOTS = { pl: 'pl', part: 'part' };   // the `write` frame's noun
+const { makeRng } = require('../../lib/rng.js');
 const MAX_TRIES = 200;
 const MAX_STRIPS = 40;
 const STATEMENT_CAP = 80;      // F4 statements (design §3: 648 <= 2 x 363)
@@ -237,7 +238,7 @@ function candidates(bankLoc, strip, d) {
       // ...weighted so a group (2-4) is as likely to be asked as all the single pictures together: the answer is no
       // more often 1 than not (measured: unweighted, 1 was the answer on 57 % of level-1 pages)
       const ones = nouns.filter((x) => occ.get(x).length === 1).length;
-      for (const a of nouns) { const c = occ.get(a).length; if (c >= (d.countMin || 2) && c <= 4 && nouns.length >= 2) for (let w = 0; w < (d.countMin === 1 && c >= 2 ? Math.max(1, ones) : 1); w++) push(verb, 'count', null, a, null, [], c); }
+      for (const a of nouns) { const c = occ.get(a).length; if (d.want && c !== d.want) continue; if (c >= (d.countMin || 2) && c <= 4 && nouns.length >= 2) for (let w = 0; w < (d.countMin === 1 && c >= 2 ? Math.max(1, ones) : 1); w++) push(verb, 'count', null, a, null, [], c); }
       continue;
     }
     if (verb.id === 'line') {
@@ -305,17 +306,19 @@ function select(rng, cands, d) {
   return null;
 }
 
-/** A strip: nounsMin..nounsMax distinct nouns (no lookalike pair), multiplicities >= 1 and <= maxCount summing to pics, shuffled. */
+/** A strip: nounsMin..nounsMax distinct nouns (no lookalike pair), multiplicities >= 1 and <= maxCount summing to pics, shuffled.
+ *  d.want (the base page's "write how many" answer, 2026-11-17): the first noun is shown exactly that many times. */
 function sampleStrip(rng, pool, d) {
-  const nNouns = rng.int(d.nounsMin, d.nounsMax);
+  const nNouns = rng.int(d.nounsMin, d.want ? Math.min(d.nounsMax, d.pics - d.want + 1) : d.nounsMax);
   if (nNouns > d.pics) throw new Error(`G1-308: ${nNouns} nouns > ${d.pics} pictures`);
   for (let t = 0; t < 100; t++) {
     const picked = rng.sample(pool, nNouns);
     if (picked.some((a, i) => picked.some((b, j) => j > i && lookalike(a.vocabKey, b.vocabKey)))) continue;
     const counts = picked.map(() => 1);
-    let rest = d.pics - nNouns;
+    if (d.want) counts[0] = d.want;
+    let rest = d.pics - counts.reduce((a, b) => a + b, 0);
     let guard = 0;
-    while (rest > 0 && guard++ < 1000) { const i = rng.int(0, nNouns - 1); if (counts[i] < d.maxCount) { counts[i]++; rest--; } }
+    while (rest > 0 && guard++ < 1000) { const i = rng.int(d.want ? 1 : 0, nNouns - 1); if (counts[i] < d.maxCount) { counts[i]++; rest--; } }
     if (rest > 0) continue;
     const items = [];
     picked.forEach((e, i) => { for (let c = 0; c < counts[i]; c++) items.push(e); });
@@ -713,8 +716,11 @@ module.exports = {
     // the rest once, so every "write how many" (a plural frame, 2-4 pictures) answered 2 — a child could write 2 unread;
     // countMin 1: the counted picture may be a single one (the reviewed frames read "how many X" for one as for many)
     1: { pics: 6, tile: 92, pic: 76, gap: 8, rows: 6, rowMin: 82, rowGap: 8, fontPx: 19, verbs: ['circle', 'cross', 'mark', 'write'], minVerbs: 3, maxPerVerb: 2, maxPerCue: 3, cues: ['unique', 'all', 'first', 'last'], ordMax: 0, ordWindow: 6, nounsMin: 4, nounsMax: 4, maxCount: 3, countMin: 1 },
-    2: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 6, rowMin: 85, rowGap: 8, fontPx: 18, verbs: VERB_IDS.slice(), minVerbs: 4, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 6, maxCount: 4 },
-    3: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 7, rowMin: 73, rowGap: 6, fontPx: 17, verbs: VERB_IDS.slice(), minVerbs: 5, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last', 'between', 'rightof', 'leftof'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 7, maxCount: 4 },
+    // countWant (2026-11-17): on levels 2 and 3 five to seven nouns share eight pictures, so the noun a "write how many"
+    // row could ask was nearly always shown twice and the answer was 2 on about nine rows in ten. Every copy but a level's
+    // first now draws its answer from countWant (seeded by the copy) and shows one noun that many times.
+    2: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 6, rowMin: 85, rowGap: 8, fontPx: 18, verbs: VERB_IDS.slice(), minVerbs: 4, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 6, maxCount: 4, countWant: [1, 2, 3, 4] },
+    3: { pics: 8, tile: 76, pic: 64, gap: 5, rows: 7, rowMin: 73, rowGap: 6, fontPx: 17, verbs: VERB_IDS.slice(), minVerbs: 5, maxPerVerb: 2, maxPerCue: 2, cues: ['unique', 'all', 'ordinal', 'first', 'last', 'between', 'rightof', 'leftof'], ordMax: 4, ordWindow: 6, nounsMin: 5, nounsMax: 7, maxCount: 4, countWant: [1, 2, 3, 4] },
   },
   i18n: {
     en: {
@@ -739,7 +745,9 @@ module.exports = {
   _levelConfig(difficulty, ctx) {
     const d = this.difficulty[difficulty];
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    return d && d.countPartNew && !d.countPart && !published ? { ...d, countPart: true } : d;
+    // a level's first copy (the published level-2 page, the first Level Set pages) draws its count as it always did
+    const e = d && d.countWant && ((ctx && ctx.variant) || 1) === 1 ? { ...d, countWant: null } : d;
+    return e && e.countPartNew && !e.countPart && !published ? { ...e, countPart: true } : e;
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -770,11 +778,15 @@ module.exports = {
     });
     if (pool.length < 8) throw new Error(`G1-308: theme "${theme}"/${loc} has ${pool.length} usable nouns < 8 (refused — the ${loc} bank lacks reviewed forms)`);
 
+    // the "write how many" answer of this copy (countWant): drawn from the copy's own seed, so the rest of the draw keeps
+    // its stream; one noun of the strip is shown exactly that many times, and only it may be counted
+    const want = d.countWant && d.verbs.includes('write') ? d.countWant[Math.floor(makeRng(String(rng.seed) + '|count').next() * d.countWant.length)] : null;
+    const dw = want ? { ...d, want, countMin: 1 } : d;
     let rows = null, strip = null, lastCands = null;
     for (let s = 0; s < MAX_STRIPS && !rows; s++) {
-      const items = sampleStrip(rng, pool, d);
+      const items = sampleStrip(rng, pool, dw);
       strip = items.map((e) => e.vocabKey);
-      const cands = candidates(bankLoc, strip, d);
+      const cands = candidates(bankLoc, strip, dw);
       lastCands = cands;
       const verbsSeen = new Set(cands.map((c) => c.action));
       const missing = d.verbs.filter((v) => !verbsSeen.has(v));

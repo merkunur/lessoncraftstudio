@@ -13,11 +13,38 @@ const { READING_PASSAGES } = require('../../data/literacy/reading-passages.js');
 const { poolOf, levelData } = require('../../data/literacy/reading-passages-levels.js');
 const RC_SCREEN = require('../../lib/reading-comprehension-screen.js');
 const { writingRow } = require('../../primitives/trace-path.js');
+const { makeRng } = require('../../lib/rng.js');
 // the MEASURED size tier of each (locale, story, level): tools/level-set/rc-fit-tiers.js renders every page at each tier
 // and keeps the largest that fits the page box (the estimate below is only the fallback for an unmeasured page)
 const RC_FIT = (() => { try { return require('../../data/literacy/rc-levels/fit.json'); } catch (e) { return {}; } })();
 
 const LETTERS = ['A', 'B', 'C'];
+
+/**
+ * The letters of a pool page's answers (2026-11-17: the choices printed in the authored order, and the authored order
+ * put the right answer under the same letter on most stories — "Story 5" level 1 answered B, C, A on 12 of 12 new
+ * versions; C was right on a fifth of the questions). Each copy now places the right answers itself: the page's
+ * multiple-choice questions take DIFFERENT letters (a seeded order of A, B, C, repeated past three; a level's first copy
+ * keeps the authored order), and the wrong
+ * choices fill the other places in a seeded order — seeded by the story, the level and the copy, so a copy rebuilds the
+ * same page and another copy of the same story asks under other letters. The screen and its oracle never read the
+ * printed order (lib/reading-comprehension-screen.js: own seeded order, answers re-derived by their words).
+ */
+function placeAnswers(questions, storyId, level, copyKey) {
+  const rng = makeRng(`rc-letters|${storyId}|${level}|${copyKey}`);
+  const mc = questions.filter((q) => q.kind !== 'write' && q.choices);
+  const slots = [];
+  while (slots.length < mc.length) slots.push(...rng.shuffle([0, 1, 2]));
+  return questions.map((q) => {
+    const i = mc.indexOf(q);
+    if (i < 0) return q;
+    const k = q.choices.length, at = slots[i] % k;
+    const right = q.choices[q.correct];
+    const wrong = rng.shuffle(q.choices.filter((_, j) => j !== q.correct));
+    const choices = [...wrong.slice(0, at), right, ...wrong.slice(at)];
+    return { ...q, choices, correct: at };
+  });
+}
 
 module.exports = {
   id: 'G2-254',
@@ -50,16 +77,18 @@ module.exports = {
     return s;
   },
 
-  _buildLevel(difficulty, loc, sv, forceTier) {
+  _buildLevel(difficulty, loc, sv, forceTier, copyKey) {
     const L = levelData(loc);
     const p = this._storyFor(difficulty, loc, sv);
     const numbered = difficulty !== 2;
-    const questions = difficulty === 1
+    const authored = difficulty === 1
       ? p.l1.map((q) => ({ kind: 'literal', q: q.q, choices: q.choices, correct: q.correct, hint: q.sentence }))
       : difficulty === 3
         ? [...p.l3.mc.map((q) => ({ kind: 'inference', q: q.q, choices: q.choices, correct: q.correct })),
           { kind: 'write', q: p.l3.write.q, model: p.l3.write.model, evidence: p.l3.write.evidence }]
         : p.core.map((q) => ({ kind: 'core', q: q.q, choices: q.choices, correct: q.correct }));
+    // a copy's own answer letters (placeAnswers); a build without a copy key (the unit checks) keeps the authored order
+    const questions = copyKey != null ? placeAnswers(authored, p.id, difficulty, copyKey) : authored;
     // size tiers by story length (the level-3 page carries two writing rows, so it counts ~110 characters longer);
     // measured by the probe's overflow/footer lints, never guessed per story
     const eff = p.text.length + (difficulty === 3 ? 110 : difficulty === 1 ? 30 : 0);
@@ -174,7 +203,11 @@ module.exports = {
     const pos = this._listPosition(difficulty, (locale || 'en').slice(0, 2), ctx);
     if (pos) {
       const lloc = (locale || 'en').slice(0, 2);
-      const built = this._buildLevel(difficulty, lloc, pos, ctx.forceTier);
+      // the copy that places the answers: the maker's copy number, else the publishing tools' list position; a level's
+      // first copy keeps the authored order (a single page shows three different letters already)
+      const copyNo = ctx.maker ? Number(ctx.variant || 1) : Number(pos);
+      const copyKey = copyNo === 1 ? null : (ctx.maker ? 'm' : 's') + copyNo;
+      const built = this._buildLevel(difficulty, lloc, pos, ctx.forceTier, copyKey);
       // a new story on a face prints its own title (copyStrings, for the maker: makePage reads built.strings)
       const own = this._storyFor(difficulty, lloc, pos).pageTitle;
       const r = this.interactive && (ctx.interactive || ctx.answerKey) ? RC_SCREEN.screenOrKey(built, ctx, lloc, levelData(lloc)) : built;

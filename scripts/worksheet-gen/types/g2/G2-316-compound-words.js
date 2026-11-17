@@ -200,12 +200,16 @@ function textItem(t) {
  * locale; G2-330 walks it from the FRONT, G2-332 from the BACK, so the two faces share as few words
  * as the list allows. Copy c re-derives what copies 1..c-1 took and takes UNUSED items first; no
  * part (a or b, suffixes included) twice on one page.
+ * When no unused item fits a copy, the list's CYCLE is over and that copy starts the next one: a new seeded
+ * order of the whole list, every item unused again (2026-11-17: past the first cycle every copy took the FRONT of the
+ * order again, so the maker's copies — numbered 1, then jumps of 1 to 97 — printed one page: G2-330 level 3 was 12 of
+ * 12 copies the same). The copies of the first cycle are what they were.
  */
 function allocateText(list, n, loc, variant, fromEnd, accept) {
   const lower = (x) => String(x).toLocaleLowerCase(loc);
-  let order = makeRng('cmp-text|' + loc).shuffle(list.slice().sort((x, y) => (lower(x.word) < lower(y.word) ? -1 : 1)));
-  if (fromEnd) order = order.reverse();
-  const used = new Set();
+  const sorted = list.slice().sort((x, y) => (lower(x.word) < lower(y.word) ? -1 : 1));
+  const orderOf = (cycle) => { const o = makeRng('cmp-text|' + loc + (cycle ? '|cycle' + cycle : '')).shuffle(sorted); return fromEnd ? o.reverse() : o; };
+  let cycle = 0, order = orderOf(0), used = new Set(), inCycle = 0;
   let pick = null;
   for (let c = 1; c <= variant; c++) {
     const take = [], parts = new Set();
@@ -215,9 +219,13 @@ function allocateText(list, n, loc, variant, fromEnd, accept) {
       ks.forEach((k) => parts.add(k)); take.push(t);
     };
     for (const t of order) { if (take.length === n) break; if (!used.has(lower(t.word))) tryAdd(t); }
+    // no unused item fits this copy (it would repeat the front of the order): it opens the next cycle (a new order,
+    // nothing used). A copy that seats some unused items keeps its draw, as it always did.
+    if (take.length === 0 && inCycle > 0) { cycle++; order = orderOf(cycle); used = new Set(); inCycle = 0; c--; continue; }
     for (const t of order) { if (take.length === n) break; if (used.has(lower(t.word)) && !take.includes(t)) tryAdd(t); }
     if (take.length < n) throw new Error(`${ID}: ${loc} text list cannot seat ${n} words with distinct parts (refuse)`);
     take.forEach((t) => used.add(lower(t.word)));
+    inCycle++;
     pick = take;
   }
   return pick;

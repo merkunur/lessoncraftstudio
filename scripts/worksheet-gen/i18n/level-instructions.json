@@ -8105,7 +8105,7 @@
       "en": "An informative piece tells facts about one topic."
     },
     "3": {
-      "en": "Every sentence of an informative piece tells about its topic."
+      "en": "An informative piece tells only facts, and every sentence is about its topic."
     }
   },
   "G2-566": {
@@ -8134,7 +8134,7 @@
   },
   "G2-569": {
     "1": {
-      "en": "Researchers read two books and copy key words as notes."
+      "en": "Researchers read two books and write a few key words as notes."
     },
     "3": {
       "en": "Take notes in your own words. Write which book each note is from."
@@ -8161,7 +8161,7 @@
       "en": "Plan a true story about one small moment."
     },
     "3": {
-      "en": "Plan the beginning, the middle, and the ending of your true story."
+      "en": "Plan who, where, when, what happened, and how you felt."
     }
   },
   "G2-573": {
@@ -8187,5 +8187,104 @@
     "3": {
       "en": "A partner helps a writer add details and fix mistakes."
     }
-  }
+  },
+  "K-673": {
+    "1": {
+      "en": "An opinion tells what you like best."
+    },
+    "3": {
+      "en": "A writer tells the topic, an opinion, and a reason why."
+    }
+  },
+  "K-674": {},
+  "K-675": {
+    "1": {
+      "en": "A fact tells something true."
+    }
+  },
+  "K-676": {},
+  "K-677": {
+    "1": {
+      "en": "A small moment tells what happened, in order."
+    }
+  },
+  "K-678": {},
+  "K-679": {},
+  "K-680": {},
+  "G2-576": {
+    "1": {
+      "en": "The beginning of a story tells the problem. The ending tells how it is solved."
+    },
+    "3": {
+      "en": "The middle tells what the characters try. The ending tells how it is solved."
+    }
+  },
+  "G2-577": {
+    "1": {
+      "en": "Tell how the beginning starts the story and how the ending solves the problem."
+    },
+    "3": {
+      "en": "A beginning tells who, where, and the problem. An ending tells how it is solved."
+    }
+  },
+  "G2-578": {
+    "1": {
+      "en": "Quotation marks show a character’s words. A said-word and a name tell who said them."
+    },
+    "3": {
+      "en": "Characters can think different things. Their words show what each one thinks."
+    }
+  },
+  "G2-579": {
+    "1": {
+      "en": "In a play, read each part in a voice that fits the character."
+    },
+    "3": {
+      "en": "Read each part in a voice that fits what the character wants and feels."
+    }
+  },
+  "G2-580": {
+    "1": {
+      "en": "Two versions of one tale tell the same story in different ways."
+    },
+    "3": {
+      "en": "Compare two versions of a tale: what is the same, and what is different?"
+    }
+  },
+  "G2-581": {
+    "1": {
+      "en": "Tell how two versions of a tale are alike and how they are different."
+    },
+    "3": {
+      "en": "Compare two versions of a tale. Then tell which one you like better and why."
+    }
+  },
+  "G2-582": {
+    "1": {
+      "en": "In a book talk, build on what others say: link your words to theirs."
+    },
+    "3": {
+      "en": "A reply that builds on a comment stays on the same idea and adds to it."
+    }
+  },
+  "G2-583": {
+    "1": {
+      "en": "Get ready for book club, then tell how you built on what someone said."
+    },
+    "3": {
+      "en": "Plan for book club. After the talk, tell how you built on what someone said."
+    }
+  },
+  "K-681": {},
+  "K-682": {},
+  "K-683": {},
+  "K-684": {},
+  "K-685": {},
+  "K-686": {},
+  "G1-624": {
+    "1": {
+      "en": "A sound can come first or last in a word."
+    }
+  },
+  "G1-625": {}
 }

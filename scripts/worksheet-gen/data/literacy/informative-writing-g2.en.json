@@ -1,0 +1,4317 @@
+{
+ "mentor": [
+  {
+   "key": "owls",
+   "name": "owls",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "Many owls hunt at night."
+    },
+    {
+     "role": "fact",
+     "t": "They have big eyes that help them see in the dark."
+    },
+    {
+     "role": "fact",
+     "t": "They can also fly very quietly."
+    },
+    {
+     "role": "fact",
+     "t": "Owls grab mice with their talons."
+    },
+    {
+     "role": "def",
+     "t": "Talons are the sharp, curved claws on an owl's feet."
+    },
+    {
+     "role": "close",
+     "t": "That is how owls find and catch food at night."
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food"
+   ],
+   "hk": [
+    [
+     "feather",
+     "head",
+     "eye",
+     "face",
+     "wing",
+     "beak",
+     "leg",
+     "feet",
+     "foot",
+     "claw",
+     "ear",
+     "tail"
+    ],
+    [
+     "eat",
+     "food",
+     "catch",
+     "mice",
+     "mouse",
+     "fish",
+     "swallow",
+     "hunt",
+     "animal"
+    ]
+   ],
+   "sort": [
+    [
+     "Owls have soft feathers.",
+     "An owl can turn its head far around.",
+     "Owls have big eyes on the front of their face."
+    ],
+    [
+     "Owls eat mice and other small animals.",
+     "Some owls catch fish.",
+     "An owl can swallow a mouse whole."
+    ]
+   ],
+   "op": "Owls are the most beautiful birds.",
+   "hook": "Have you ever seen an owl?",
+   "ex": [
+    0,
+    "soft feathers",
+    "Owls have soft feathers."
+   ]
+  },
+  {
+   "key": "whales",
+   "name": "whales",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "Whales are huge animals that live in the ocean."
+    },
+    {
+     "role": "fact",
+     "t": "They breathe air, so they swim up to the top of the water."
+    },
+    {
+     "role": "fact",
+     "t": "A whale breathes through a blowhole."
+    },
+    {
+     "role": "def",
+     "t": "A blowhole is a nose hole on top of a whale's head."
+    },
+    {
+     "role": "fact",
+     "t": "Some whales also sing long songs."
+    },
+    {
+     "role": "close",
+     "t": "Now you know more about these big ocean animals."
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food"
+   ],
+   "hk": [
+    [
+     "flipper",
+     "fat",
+     "skin",
+     "tail",
+     "fin",
+     "body"
+    ],
+    [
+     "eat",
+     "food",
+     "krill",
+     "fish",
+     "squid",
+     "hunt"
+    ]
+   ],
+   "sort": [
+    [
+     "Whales have flippers.",
+     "Whales have a thick layer of fat under their skin.",
+     "A whale moves its tail up and down to swim."
+    ],
+    [
+     "Some whales eat tiny animals called krill.",
+     "Some whales hunt fish and squid.",
+     "A blue whale can eat a lot of krill in one day."
+    ]
+   ],
+   "op": "Whales are the best animals in the sea.",
+   "hook": "Have you ever seen a whale?",
+   "ex": [
+    1,
+    "some eat krill",
+    "Some whales eat tiny animals called krill."
+   ]
+  },
+  {
+   "key": "robins",
+   "name": "robins",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "You can see robins in many yards and parks."
+    },
+    {
+     "role": "fact",
+     "t": "A robin has a gray back and an orange chest."
+    },
+    {
+     "role": "fact",
+     "t": "Robins also pull worms out of the ground."
+    },
+    {
+     "role": "fact",
+     "t": "They build nests out of grass, twigs, and mud."
+    },
+    {
+     "role": "def",
+     "t": "A nest is a home a bird makes for its eggs."
+    },
+    {
+     "role": "close",
+     "t": "Now you know how to spot a robin."
+    }
+   ],
+   "heads": [
+    "Food",
+    "Nests and Eggs"
+   ],
+   "hk": [
+    [
+     "eat",
+     "worm",
+     "berry",
+     "berries",
+     "earthworm",
+     "food"
+    ],
+    [
+     "nest",
+     "egg",
+     "build",
+     "twig",
+     "mud",
+     "sit"
+    ]
+   ],
+   "sort": [
+    [
+     "Robins eat earthworms.",
+     "Robins eat berries in the fall and winter.",
+     "A robin tilts its head to look for worms."
+    ],
+    [
+     "Robins often build nests in trees.",
+     "A robin's eggs are light blue.",
+     "Mother robins sit on the eggs to keep them warm."
+    ]
+   ],
+   "op": "Robins sing the prettiest songs.",
+   "hook": "Have you ever seen a robin?",
+   "ex": [
+    0,
+    "eat earthworms",
+    "Robins eat earthworms."
+   ]
+  },
+  {
+   "key": "carrots",
+   "name": "carrots",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "Carrots are vegetables that grow under the ground."
+    },
+    {
+     "role": "fact",
+     "t": "We eat the root of the carrot plant."
+    },
+    {
+     "role": "def",
+     "t": "A root is the part of a plant that grows down into the soil."
+    },
+    {
+     "role": "fact",
+     "t": "Carrots also have green, leafy tops."
+    },
+    {
+     "role": "fact",
+     "t": "Most carrots are orange, but some are purple, white, or yellow."
+    },
+    {
+     "role": "close",
+     "t": "Now you know about carrots and where they grow."
+    }
+   ],
+   "heads": [
+    "How It Grows",
+    "How People Eat It"
+   ],
+   "hk": [
+    [
+     "grow",
+     "seed",
+     "sun",
+     "water",
+     "soil",
+     "month"
+    ],
+    [
+     "eat",
+     "raw",
+     "cook",
+     "cooked",
+     "soup",
+     "snack",
+     "cut"
+    ]
+   ],
+   "sort": [
+    [
+     "A carrot grows from a tiny seed.",
+     "Carrots need sun and water to grow.",
+     "A carrot takes a few months to grow."
+    ],
+    [
+     "People eat carrots raw or cooked.",
+     "Carrots can be cut into sticks for a snack.",
+     "Carrots can be cooked in soup."
+    ]
+   ],
+   "op": "Carrots are the tastiest vegetables.",
+   "hook": "Have you ever eaten a carrot?",
+   "ex": [
+    0,
+    "grows from a seed",
+    "A carrot grows from a tiny seed."
+   ]
+  },
+  {
+   "key": "chickens",
+   "name": "chickens",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "Chickens are birds that live on many farms."
+    },
+    {
+     "role": "fact",
+     "t": "Hens lay eggs in a nest."
+    },
+    {
+     "role": "def",
+     "t": "A hen is a female chicken."
+    },
+    {
+     "role": "fact",
+     "t": "Chickens also scratch the dirt with their feet to find seeds and bugs."
+    },
+    {
+     "role": "fact",
+     "t": "They cannot fly very far."
+    },
+    {
+     "role": "close",
+     "t": "Now you know some facts about these farm birds."
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food"
+   ],
+   "hk": [
+    [
+     "comb",
+     "head",
+     "feather",
+     "wing",
+     "feet",
+     "foot",
+     "beak",
+     "leg"
+    ],
+    [
+     "eat",
+     "seed",
+     "grain",
+     "bug",
+     "worm",
+     "feed",
+     "corn",
+     "food"
+    ]
+   ],
+   "sort": [
+    [
+     "Many chickens have a red comb on their head.",
+     "Chickens have feathers and two wings.",
+     "Chickens have scaly feet."
+    ],
+    [
+     "Chickens eat seeds and grain.",
+     "Chickens eat bugs and worms.",
+     "Farmers often feed chickens corn."
+    ]
+   ],
+   "op": "Chickens are the funniest farm animals.",
+   "hook": "Have you ever seen a chicken?",
+   "ex": [
+    1,
+    "eat seeds and grain",
+    "Chickens eat seeds and grain."
+   ]
+  },
+  {
+   "key": "wind",
+   "name": "the wind",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "The wind can be gentle or very strong."
+    },
+    {
+     "role": "fact",
+     "t": "You cannot see the wind, but you can feel it."
+    },
+    {
+     "role": "fact",
+     "t": "It also makes leaves rustle and flags flap."
+    },
+    {
+     "role": "def",
+     "t": "A breeze is a soft, gentle wind."
+    },
+    {
+     "role": "fact",
+     "t": "A strong wind can knock down trees."
+    },
+    {
+     "role": "close",
+     "t": "Now you know what the wind can do."
+    }
+   ],
+   "heads": [
+    "Wind in Nature",
+    "How People Use Wind"
+   ],
+   "hk": [
+    [
+     "cloud",
+     "seed",
+     "sand",
+     "dune",
+     "sky"
+    ],
+    [
+     "people",
+     "sailboat",
+     "boat",
+     "kite",
+     "turbine",
+     "power"
+    ]
+   ],
+   "sort": [
+    [
+     "Wind moves clouds across the sky.",
+     "Wind can carry seeds far away.",
+     "Wind blows sand into hills called dunes."
+    ],
+    [
+     "Sailboats use wind to move.",
+     "People fly kites on windy days.",
+     "Wind turbines use wind to make power."
+    ]
+   ],
+   "op": "Windy days are the most fun.",
+   "hook": "Have you ever felt the wind?",
+   "ex": [
+    0,
+    "can carry seeds far",
+    "Wind can carry seeds far away."
+   ]
+  },
+  {
+   "key": "busdrivers",
+   "name": "school bus drivers",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "School bus drivers help children get to school."
+    },
+    {
+     "role": "fact",
+     "t": "They drive big yellow buses."
+    },
+    {
+     "role": "fact",
+     "t": "A bus driver stops at each bus stop."
+    },
+    {
+     "role": "def",
+     "t": "A bus stop is a place where people wait to get on a bus."
+    },
+    {
+     "role": "fact",
+     "t": "Drivers also check that everyone is sitting down before they go."
+    },
+    {
+     "role": "close",
+     "t": "Now you know how bus drivers help children get to school safely."
+    }
+   ],
+   "heads": [
+    "The Bus",
+    "The Driver's Job"
+   ],
+   "hk": [
+    [
+     "sign",
+     "light",
+     "seat",
+     "door",
+     "wheel",
+     "window"
+    ],
+    [
+     "pick",
+     "take",
+     "home",
+     "watch",
+     "road",
+     "morning"
+    ]
+   ],
+   "sort": [
+    [
+     "A school bus has a stop sign on its side.",
+     "A school bus has flashing red lights.",
+     "A school bus has many seats."
+    ],
+    [
+     "Bus drivers pick up children in the morning.",
+     "Bus drivers take children home after school.",
+     "Bus drivers watch the road carefully."
+    ]
+   ],
+   "op": "Riding the bus is the best part of the day.",
+   "hook": "Have you ever seen a school bus?",
+   "ex": [
+    0,
+    "flashing red lights",
+    "A school bus has flashing red lights."
+   ]
+  },
+  {
+   "key": "seals",
+   "name": "seals",
+   "piece": [
+    {
+     "role": "ts",
+     "t": "Seals spend time in the water and on land."
+    },
+    {
+     "role": "fact",
+     "t": "They have flippers for swimming."
+    },
+    {
+     "role": "fact",
+     "t": "A thick layer of blubber keeps them warm."
+    },
+    {
+     "role": "def",
+     "t": "Blubber is the fat under a seal's skin."
+    },
+    {
+     "role": "fact",
+     "t": "Many seals also eat fish."
+    },
+    {
+     "role": "close",
+     "t": "That is how seals live in the sea and on the shore."
+    }
+   ],
+   "heads": [
+    "Body",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "whisker",
+     "fur",
+     "flipper",
+     "eye",
+     "skin",
+     "nose"
+    ],
+    [
+     "baby",
+     "pup",
+     "mother",
+     "milk",
+     "born"
+    ]
+   ],
+   "sort": [
+    [
+     "Seals have whiskers.",
+     "Seals have short fur.",
+     "Seals have strong flippers."
+    ],
+    [
+     "A baby seal is called a pup.",
+     "Seal pups drink milk from their mothers.",
+     "A mother seal can find her pup by its smell."
+    ]
+   ],
+   "op": "Seals are the cutest animals in the sea.",
+   "hook": "Have you ever seen a seal?",
+   "ex": [
+    0,
+    "short fur",
+    "Seals have short fur."
+   ]
+  }
+ ],
+ "off": [
+  {
+   "t": "A violin has four strings.",
+   "avoid": []
+  },
+  {
+   "t": "Cows give us milk.",
+   "avoid": [
+    "chickens",
+    "seals"
+   ]
+  },
+  {
+   "t": "Trucks have big tires.",
+   "avoid": [
+    "busdrivers"
+   ]
+  },
+  {
+   "t": "A clock tells the time.",
+   "avoid": []
+  },
+  {
+   "t": "Crayons come in many colors.",
+   "avoid": []
+  },
+  {
+   "t": "A piano has black and white keys.",
+   "avoid": []
+  },
+  {
+   "t": "A bicycle has two wheels.",
+   "avoid": [
+    "busdrivers"
+   ]
+  },
+  {
+   "t": "Lemons taste sour.",
+   "avoid": [
+    "carrots"
+   ]
+  }
+ ],
+ "ends": [
+  {
+   "key": "ducks",
+   "name": "ducks",
+   "piece": [
+    "Ducks are birds that spend a lot of time in the water.",
+    "They have webbed feet that help them swim.",
+    "Oil on their feathers keeps them dry.",
+    "Ducks eat plants, seeds, and small water bugs."
+   ],
+   "close": "Ducks have bodies that are made for life on the water.",
+   "fact": "Ducks can sleep with one eye open.",
+   "l1": "Ducks can sleep with one eye open to watch for danger.",
+   "now": "Now you know that ducks can sleep with one eye open."
+  },
+  {
+   "key": "raccoons",
+   "name": "raccoons",
+   "piece": [
+    "Raccoons are animals with a black mask of fur around their eyes.",
+    "They have bushy tails with rings.",
+    "Raccoons use their front paws like hands.",
+    "Many raccoons look for food at night."
+   ],
+   "close": "Now you know a lot about these masked animals.",
+   "fact": "Raccoons can climb trees.",
+   "l1": "Now you know that raccoons can climb tall trees.",
+   "now": "Now you know that raccoons can climb trees."
+  },
+  {
+   "key": "tigers",
+   "name": "tigers",
+   "piece": [
+    "Tigers are the biggest cats in the world.",
+    "Most tigers have orange fur with black stripes.",
+    "Tigers are good swimmers, and they like to cool off in water.",
+    "They hunt deer and wild pigs."
+   ],
+   "close": "These striped cats are the biggest of them all.",
+   "fact": "A tiger's roar can be heard far away.",
+   "l1": "A tiger's loud roar can be heard from very far away.",
+   "now": "Now you know that a tiger's roar can be heard far away."
+  },
+  {
+   "key": "clouds",
+   "name": "clouds",
+   "piece": [
+    "Clouds float high in the sky.",
+    "They are made of tiny drops of water or bits of ice.",
+    "Some clouds are white and puffy.",
+    "Dark gray clouds can bring rain."
+   ],
+   "close": "Next time you look up, you will know what clouds are.",
+   "fact": "Some thin clouds look like feathers.",
+   "l1": "Some very thin clouds look like long, white bird feathers.",
+   "now": "Now you know that some thin clouds look like feathers."
+  },
+  {
+   "key": "seastars",
+   "name": "sea stars",
+   "piece": [
+    "Sea stars are ocean animals shaped like stars.",
+    "Most sea stars have five arms.",
+    "A sea star can grow a new arm if it loses one.",
+    "They have tiny tube feet under each arm."
+   ],
+   "close": "These star-shaped animals are at home in the sea.",
+   "fact": "Sea stars eat clams and mussels.",
+   "l1": "Sea stars eat clams and mussels by pulling their shells open.",
+   "now": "Now you know that sea stars eat clams and mussels."
+  },
+  {
+   "key": "farmers",
+   "name": "farmers",
+   "piece": [
+    "Farmers grow plants and raise animals.",
+    "Many farmers plant seeds in the spring when the ground warms up.",
+    "They water their crops and pull weeds.",
+    "Some farmers raise cows, pigs, or chickens."
+   ],
+   "close": "Farmers take care of plants and animals.",
+   "fact": "Some farms have a big red barn.",
+   "l1": "Some farms have a big red barn for the animals.",
+   "now": "Now you know that some farms have a big red barn."
+  },
+  {
+   "key": "pines",
+   "name": "pine trees",
+   "piece": [
+    "Pine trees stay green all year.",
+    "They have long, thin needles instead of flat leaves.",
+    "Pine trees grow cones that hold their seeds.",
+    "Many birds build nests in pine trees."
+   ],
+   "close": "Pine trees are green in every season.",
+   "fact": "Some pine trees live for thousands of years.",
+   "l1": "Some pine trees live for thousands of years.",
+   "now": "Now you know that some pine trees live for thousands of years."
+  },
+  {
+   "key": "horses",
+   "name": "horses",
+   "piece": [
+    "Horses are big animals that can run fast.",
+    "They have long legs and hard hooves.",
+    "Horses eat grass and hay.",
+    "A horse can even sleep while it is standing up."
+   ],
+   "close": "Now you know about these big, fast animals.",
+   "fact": "A horse's long tail helps it swat away flies.",
+   "l1": "Now you know that a horse's long tail helps it swat away flies.",
+   "now": "Now you know that a horse's long tail helps it swat away flies."
+  }
+ ],
+ "offop": [
+  "Soccer is the most fun sport.",
+  "Summer is the best season of the year.",
+  "Red is the prettiest color.",
+  "Painting is more fun than drawing.",
+  "Music class is the best class.",
+  "Jump rope is the coolest game."
+ ],
+ "frames": [
+  {
+   "key": "ducks",
+   "word": "drake",
+   "context": "A male duck is called a drake.",
+   "meaning": "a male duck"
+  },
+  {
+   "key": "tigers",
+   "word": "cub",
+   "context": "A young tiger, lion, or bear is called a cub.",
+   "meaning": "a young tiger, lion, or bear"
+  },
+  {
+   "key": "horses",
+   "word": "foal",
+   "context": "A baby horse is called a foal.",
+   "meaning": "a baby horse"
+  },
+  {
+   "key": "farmers",
+   "word": "tractor",
+   "context": "A farm machine that pulls tools is called a tractor.",
+   "meaning": "a farm machine that pulls tools"
+  },
+  {
+   "key": "farmers",
+   "word": "crop",
+   "context": "A plant a farmer grows is called a crop.",
+   "meaning": "a plant a farmer grows"
+  },
+  {
+   "key": "clouds",
+   "word": "droplet",
+   "context": "A tiny drop of water is called a droplet.",
+   "meaning": "a tiny drop of water"
+  },
+  {
+   "key": "raccoons",
+   "word": "den",
+   "context": "The home of a wild animal such as a fox or a bear is called a den.",
+   "meaning": "the home of a wild animal such as a fox or a bear"
+  }
+ ],
+ "links": [
+  {
+   "key": "ducks",
+   "t": "Ducks can swim. They ___ fly.",
+   "want": "also"
+  },
+  {
+   "key": "ducks",
+   "t": "A mallard is a duck. A wood duck is ___ kind of duck.",
+   "want": "another"
+  },
+  {
+   "key": "ducks",
+   "t": "Ducks eat seeds ___ small bugs.",
+   "want": "and"
+  },
+  {
+   "key": "raccoons",
+   "t": "Raccoons climb trees. They ___ swim well.",
+   "want": "also"
+  },
+  {
+   "key": "raccoons",
+   "t": "Raccoons can sleep in a tree. A barn is ___ place they can sleep.",
+   "want": "another"
+  },
+  {
+   "key": "raccoons",
+   "t": "Raccoons eat fruit ___ nuts.",
+   "want": "and"
+  },
+  {
+   "key": "tigers",
+   "t": "Tigers can run fast. They ___ like to swim.",
+   "want": "also"
+  },
+  {
+   "key": "tigers",
+   "t": "Tigers hunt deer. A wild pig is ___ animal they hunt.",
+   "want": "another"
+  },
+  {
+   "key": "tigers",
+   "t": "Tigers have orange fur ___ black stripes.",
+   "want": "and"
+  },
+  {
+   "key": "clouds",
+   "t": "Clouds can be white. They can ___ be gray.",
+   "want": "also"
+  },
+  {
+   "key": "clouds",
+   "t": "Puffy white clouds are one kind of cloud. Fog is ___ kind of cloud.",
+   "want": "another"
+  },
+  {
+   "key": "clouds",
+   "t": "Clouds are made of water ___ ice.",
+   "want": "and"
+  },
+  {
+   "key": "seastars",
+   "t": "Sea stars live in tide pools. They ___ live deep in the ocean.",
+   "want": "also"
+  },
+  {
+   "key": "seastars",
+   "t": "If a sea star loses an arm, it can grow ___ one.",
+   "want": "another"
+  },
+  {
+   "key": "seastars",
+   "t": "Sea stars eat clams ___ mussels.",
+   "want": "and"
+  },
+  {
+   "key": "farmers",
+   "t": "Many farmers grow corn. Some ___ raise cows.",
+   "want": "also"
+  },
+  {
+   "key": "farmers",
+   "t": "Wheat is one crop. Corn is ___ crop.",
+   "want": "another"
+  },
+  {
+   "key": "farmers",
+   "t": "Farmers plant seeds ___ pull weeds.",
+   "want": "and"
+  },
+  {
+   "key": "pines",
+   "t": "Pine trees have needles. They ___ have cones.",
+   "want": "also"
+  },
+  {
+   "key": "pines",
+   "t": "Pine trees stay green in winter. Holly is ___ plant that stays green.",
+   "want": "another"
+  },
+  {
+   "key": "pines",
+   "t": "Pine trees grow on hills ___ mountains.",
+   "want": "and"
+  },
+  {
+   "key": "horses",
+   "t": "Horses eat grass. They ___ eat hay.",
+   "want": "also"
+  },
+  {
+   "key": "horses",
+   "t": "A horse can walk. Galloping is ___ way a horse can move.",
+   "want": "another"
+  },
+  {
+   "key": "horses",
+   "t": "Horses have long legs ___ hard hooves.",
+   "want": "and"
+  }
+ ],
+ "topics": [
+  {
+   "key": "foxes",
+   "Name": "Foxes",
+   "name": "foxes",
+   "pro": "they",
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "fox"
+   },
+   "heads": [
+    "Body",
+    "Food",
+    "Homes"
+   ],
+   "hk": [
+    [
+     "tail",
+     "ear",
+     "hear",
+     "leg",
+     "nose",
+     "eye",
+     "fur"
+    ],
+    [
+     "eat",
+     "hunt",
+     "mice",
+     "rabbit",
+     "berries",
+     "food"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Foxes have bushy tails.",
+      "note": "bushy tails"
+     },
+     {
+      "t": "Foxes have pointed ears.",
+      "note": "pointed ears"
+     },
+     {
+      "t": "Foxes can hear very well.",
+      "note": "can hear very well"
+     }
+    ],
+    [
+     {
+      "t": "Foxes eat mice and rabbits.",
+      "note": "eat mice and rabbits"
+     },
+     {
+      "t": "Foxes eat berries.",
+      "note": "eat berries"
+     },
+     {
+      "t": "Foxes often hunt at night.",
+      "note": "often hunt at night"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A baby fox is called a kit.",
+    "word": "kit",
+    "meaning": "a baby fox"
+   },
+   "near": []
+  },
+  {
+   "key": "pumpkins",
+   "Name": "Pumpkins",
+   "name": "pumpkins",
+   "pro": "they",
+   "pic": {
+    "theme": "vegetables",
+    "noun": "pumpkin"
+   },
+   "heads": [
+    "How They Grow",
+    "How People Use Them",
+    "Colors"
+   ],
+   "hk": [
+    [
+     "grow",
+     "vine",
+     "flower",
+     "sun",
+     "seed"
+    ],
+    [
+     "cook",
+     "baked",
+     "soup",
+     "roast",
+     "feed",
+     "eat"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Pumpkins grow on long vines.",
+      "note": "grow on long vines"
+     },
+     {
+      "t": "Pumpkins start as flowers.",
+      "note": "start as flowers"
+     },
+     {
+      "t": "Pumpkins need lots of sun.",
+      "note": "need lots of sun"
+     }
+    ],
+    [
+     {
+      "t": "Pumpkins can be baked.",
+      "note": "can be baked"
+     },
+     {
+      "t": "Pumpkins can be cooked in soup.",
+      "note": "can be cooked in soup"
+     },
+     {
+      "t": "Pumpkins can feed farm animals.",
+      "note": "can feed farm animals"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A long stem that creeps along the ground is called a vine.",
+    "word": "vine",
+    "meaning": "a long, creeping stem"
+   },
+   "near": [
+    "carrots"
+   ]
+  },
+  {
+   "key": "penguins",
+   "Name": "Penguins",
+   "name": "penguins",
+   "pro": "they",
+   "pic": {
+    "theme": "animals",
+    "noun": "penguin"
+   },
+   "heads": [
+    "Body",
+    "Food",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "black",
+     "white",
+     "fly",
+     "leg",
+     "wing",
+     "feather",
+     "body"
+    ],
+    [
+     "eat",
+     "fish",
+     "catch",
+     "food",
+     "krill",
+     "squid",
+     "sea"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Penguins are black and white.",
+      "note": "black and white"
+     },
+     {
+      "t": "Penguins have short legs.",
+      "note": "short legs"
+     },
+     {
+      "t": "Penguins cannot fly.",
+      "note": "cannot fly"
+     }
+    ],
+    [
+     {
+      "t": "Penguins eat fish.",
+      "note": "eat fish"
+     },
+     {
+      "t": "Penguins catch food in the sea.",
+      "note": "catch food in the sea"
+     },
+     {
+      "t": "Penguins eat krill and squid.",
+      "note": "eat krill and squid"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A penguin's wings are called flippers.",
+    "word": "flipper",
+    "meaning": "a penguin's wing"
+   },
+   "near": [
+    "seals",
+    "ducks"
+   ]
+  },
+  {
+   "key": "firefighters",
+   "Name": "Firefighters",
+   "name": "firefighters",
+   "pro": "they",
+   "pic": {
+    "theme": "occupations",
+    "noun": "firefighter"
+   },
+   "heads": [
+    "What They Wear",
+    "What They Do",
+    "Food"
+   ],
+   "hk": [
+    [
+     "wear",
+     "helmet",
+     "coat",
+     "boot"
+    ],
+    [
+     "put",
+     "fire",
+     "rescue",
+     "teach",
+     "safety",
+     "people"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Firefighters wear helmets.",
+      "note": "wear helmets"
+     },
+     {
+      "t": "Firefighters wear heavy coats.",
+      "note": "wear heavy coats"
+     },
+     {
+      "t": "Firefighters wear tall boots.",
+      "note": "wear tall boots"
+     }
+    ],
+    [
+     {
+      "t": "Firefighters put out fires.",
+      "note": "put out fires"
+     },
+     {
+      "t": "Firefighters rescue people.",
+      "note": "rescue people"
+     },
+     {
+      "t": "Firefighters teach fire safety.",
+      "note": "teach fire safety"
+     }
+    ]
+   ],
+   "def": {
+    "t": "Water flows through a long tube called a hose.",
+    "word": "hose",
+    "meaning": "a long tube for water"
+   },
+   "near": [
+    "busdrivers",
+    "farmers"
+   ]
+  },
+  {
+   "key": "sunflowers",
+   "Name": "Sunflowers",
+   "name": "sunflowers",
+   "pro": "they",
+   "pic": {
+    "theme": "flowers",
+    "noun": "sunflower"
+   },
+   "heads": [
+    "The Plant",
+    "Seeds",
+    "Weather"
+   ],
+   "hk": [
+    [
+     "petal",
+     "stem",
+     "leaves",
+     "tall"
+    ],
+    [
+     "seed"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Sunflowers have yellow petals.",
+      "note": "yellow petals"
+     },
+     {
+      "t": "Sunflowers have thick stems.",
+      "note": "thick stems"
+     },
+     {
+      "t": "Sunflowers have big leaves.",
+      "note": "big leaves"
+     }
+    ],
+    [
+     {
+      "t": "Sunflowers make many seeds.",
+      "note": "make many seeds"
+     },
+     {
+      "t": "Sunflowers hold seeds in the middle.",
+      "note": "seeds in the middle"
+     },
+     {
+      "t": "Sunflowers give birds seeds to eat.",
+      "note": "seeds for birds"
+     }
+    ]
+   ],
+   "def": {
+    "t": "The bright, flat parts around the middle of a flower are called petals.",
+    "word": "petal",
+    "meaning": "a bright, flat part around the middle of a flower"
+   },
+   "near": [
+    "carrots",
+    "pines"
+   ]
+  },
+  {
+   "key": "squirrels",
+   "Name": "Squirrels",
+   "name": "squirrels",
+   "pro": "they",
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "squirrel"
+   },
+   "heads": [
+    "Body",
+    "Food",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "tail",
+     "claw",
+     "leg",
+     "fur",
+     "teeth"
+    ],
+    [
+     "eat",
+     "nut",
+     "seed",
+     "bury",
+     "fruit",
+     "bug"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Squirrels have bushy tails.",
+      "note": "bushy tails"
+     },
+     {
+      "t": "Squirrels have sharp claws.",
+      "note": "sharp claws"
+     },
+     {
+      "t": "Squirrels have strong back legs.",
+      "note": "strong back legs"
+     }
+    ],
+    [
+     {
+      "t": "Squirrels eat nuts and seeds.",
+      "note": "eat nuts and seeds"
+     },
+     {
+      "t": "Squirrels bury nuts to eat later.",
+      "note": "bury nuts"
+     },
+     {
+      "t": "Squirrels eat fruit and bugs.",
+      "note": "eat fruit and bugs"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A squirrel's nest is called a drey.",
+    "word": "drey",
+    "meaning": "a squirrel's nest"
+   },
+   "near": [
+    "pines"
+   ]
+  },
+  {
+   "key": "octopuses",
+   "Name": "Octopuses",
+   "name": "octopuses",
+   "pro": "they",
+   "pic": {
+    "theme": "ocean life",
+    "noun": "octopus"
+   },
+   "heads": [
+    "Body",
+    "Food",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "arm",
+     "bone",
+     "color",
+     "body",
+     "eye"
+    ],
+    [
+     "eat",
+     "crab",
+     "clam",
+     "shrimp",
+     "fish",
+     "hunt"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Octopuses have eight arms.",
+      "note": "eight arms"
+     },
+     {
+      "t": "Octopuses have no bones.",
+      "note": "no bones"
+     },
+     {
+      "t": "Octopuses can change color.",
+      "note": "can change color"
+     }
+    ],
+    [
+     {
+      "t": "Octopuses eat crabs and clams.",
+      "note": "eat crabs and clams"
+     },
+     {
+      "t": "Octopuses eat shrimp and fish.",
+      "note": "eat shrimp and fish"
+     },
+     {
+      "t": "Octopuses often hunt at night.",
+      "note": "often hunt at night"
+     }
+    ]
+   ],
+   "def": {
+    "t": "The hard, sharp part of an octopus's mouth is called a beak.",
+    "word": "beak",
+    "meaning": "the hard part of an octopus's mouth"
+   },
+   "near": [
+    "seastars",
+    "whales",
+    "seals"
+   ]
+  },
+  {
+   "key": "appletrees",
+   "Name": "Apple trees",
+   "name": "apple trees",
+   "pro": "they",
+   "pic": {
+    "theme": "tree",
+    "noun": "apple"
+   },
+   "heads": [
+    "The Tree",
+    "The Fruit",
+    "Animals"
+   ],
+   "hk": [
+    [
+     "bloom",
+     "branch",
+     "seed",
+     "trunk",
+     "bark",
+     "spring"
+    ],
+    [
+     "fall",
+     "red",
+     "green",
+     "yellow",
+     "hundred",
+     "ripe"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Apple trees bloom in spring.",
+      "note": "bloom in spring"
+     },
+     {
+      "t": "Apple trees have rough bark.",
+      "note": "rough bark"
+     },
+     {
+      "t": "Apple trees grow from seeds.",
+      "note": "grow from seeds"
+     }
+    ],
+    [
+     {
+      "t": "Apple trees have apples in fall.",
+      "note": "apples in fall"
+     },
+     {
+      "t": "Apple trees have red, green, or yellow apples.",
+      "note": "red, green, or yellow"
+     },
+     {
+      "t": "Apple trees can give hundreds of apples.",
+      "note": "can give hundreds of apples"
+     }
+    ]
+   ],
+   "def": {
+    "t": "Each flower on an apple tree is called a blossom.",
+    "word": "blossom",
+    "meaning": "a flower on a tree"
+   },
+   "near": [
+    "pines",
+    "carrots"
+   ]
+  },
+  {
+   "key": "ants",
+   "Name": "Ants",
+   "name": "ants",
+   "pro": "they",
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "ant"
+   },
+   "heads": [
+    "Body",
+    "How They Live",
+    "Weather"
+   ],
+   "hk": [
+    [
+     "leg",
+     "feeler",
+     "head",
+     "strong",
+     "body"
+    ],
+    [
+     "live",
+     "group",
+     "tunnel",
+     "nest",
+     "ground",
+     "dig",
+     "build"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Ants have six legs.",
+      "note": "six legs"
+     },
+     {
+      "t": "Ants have two feelers.",
+      "note": "two feelers"
+     },
+     {
+      "t": "Ants are very strong for their size.",
+      "note": "very strong"
+     }
+    ],
+    [
+     {
+      "t": "Ants live in big groups.",
+      "note": "live in big groups"
+     },
+     {
+      "t": "Ants dig tunnels under the ground.",
+      "note": "dig tunnels"
+     },
+     {
+      "t": "Ants build nests in dirt or wood.",
+      "note": "nests in dirt or wood"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A big group of ants is called a colony.",
+    "word": "colony",
+    "meaning": "a big group of ants"
+   },
+   "near": []
+  },
+  {
+   "key": "kangaroos",
+   "Name": "Kangaroos",
+   "name": "kangaroos",
+   "pro": "they",
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "kangaroo"
+   },
+   "heads": [
+    "Body",
+    "Babies",
+    "Food"
+   ],
+   "hk": [
+    [
+     "leg",
+     "hop",
+     "tail",
+     "body",
+     "fur"
+    ],
+    [
+     "pouch",
+     "born",
+     "baby",
+     "babies",
+     "tiny"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Kangaroos have strong back legs.",
+      "note": "strong back legs"
+     },
+     {
+      "t": "Kangaroos hop to move fast.",
+      "note": "hop to move fast"
+     },
+     {
+      "t": "Kangaroos have long, thick tails.",
+      "note": "long, thick tails"
+     }
+    ],
+    [
+     {
+      "t": "Kangaroos are tiny when they are born.",
+      "note": "tiny when born"
+     },
+     {
+      "t": "Baby kangaroos grow in their mother's pouch.",
+      "note": "grow in mother's pouch"
+     },
+     {
+      "t": "Kangaroos are usually born one at a time.",
+      "note": "usually born one at a time"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A baby kangaroo is called a joey.",
+    "word": "joey",
+    "meaning": "a baby kangaroo"
+   },
+   "near": []
+  },
+  {
+   "key": "mailcarriers",
+   "Name": "Mail carriers",
+   "name": "mail carriers",
+   "pro": "they",
+   "pic": null,
+   "heads": [
+    "Their Work",
+    "Things They Use",
+    "Animals"
+   ],
+   "hk": [
+    [
+     "bring",
+     "letter",
+     "home",
+     "pick",
+     "weather"
+    ],
+    [
+     "use",
+     "bag",
+     "mailbag",
+     "truck",
+     "scanner",
+     "package"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Mail carriers bring mail to homes.",
+      "note": "bring mail to homes"
+     },
+     {
+      "t": "Mail carriers pick up mail.",
+      "note": "pick up mail"
+     },
+     {
+      "t": "Mail carriers work in all weather.",
+      "note": "work in all weather"
+     }
+    ],
+    [
+     {
+      "t": "Mail carriers use big mailbags.",
+      "note": "use big mailbags"
+     },
+     {
+      "t": "Many mail carriers use mail trucks.",
+      "note": "many use mail trucks"
+     },
+     {
+      "t": "Mail carriers use scanners for packages.",
+      "note": "use scanners for packages"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A sticker to pay for mail is called a stamp.",
+    "word": "stamp",
+    "meaning": "a sticker to pay for mail"
+   },
+   "near": [
+    "busdrivers",
+    "farmers"
+   ]
+  },
+  {
+   "key": "giraffes",
+   "Name": "Giraffes",
+   "name": "giraffes",
+   "pro": "they",
+   "pic": {
+    "theme": "animals",
+    "noun": "giraffe"
+   },
+   "heads": [
+    "Body",
+    "Food and Water",
+    "Homes"
+   ],
+   "hk": [
+    [
+     "neck",
+     "spot",
+     "tallest",
+     "leg",
+     "tongue",
+     "body"
+    ],
+    [
+     "eat",
+     "leaves",
+     "drink",
+     "water",
+     "food",
+     "hour"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Giraffes have very long necks.",
+      "note": "very long necks"
+     },
+     {
+      "t": "Giraffes have spots.",
+      "note": "spots"
+     },
+     {
+      "t": "Giraffes are the tallest land animals.",
+      "note": "tallest land animals"
+     }
+    ],
+    [
+     {
+      "t": "Giraffes eat tree leaves.",
+      "note": "eat tree leaves"
+     },
+     {
+      "t": "Giraffes do not need to drink every day.",
+      "note": "not need to drink every day"
+     },
+     {
+      "t": "Giraffes eat for many hours each day.",
+      "note": "eat for many hours"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A baby giraffe is called a calf.",
+    "word": "calf",
+    "meaning": "a baby giraffe"
+   },
+   "near": [
+    "horses"
+   ]
+  },
+  {
+   "key": "snow",
+   "Name": "Snow",
+   "name": "snow",
+   "pro": "it",
+   "pic": {
+    "theme": "weather",
+    "noun": "snowflake"
+   },
+   "heads": [
+    "How Snow Forms",
+    "Snow on the Ground",
+    "Animals"
+   ],
+   "hk": [
+    [
+     "fall",
+     "falls",
+     "cloud",
+     "cold",
+     "ice",
+     "crystal",
+     "form",
+     "forms"
+    ],
+    [
+     "ground",
+     "melt",
+     "melts",
+     "pack",
+     "packed",
+     "cover",
+     "blanket",
+     "ball"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Snow falls from clouds.",
+      "note": "falls from clouds"
+     },
+     {
+      "t": "Snow forms in very cold air.",
+      "note": "forms in very cold air"
+     },
+     {
+      "t": "Snow is made of tiny ice crystals.",
+      "note": "tiny ice crystals"
+     }
+    ],
+    [
+     {
+      "t": "Snow melts when it gets warm.",
+      "note": "melts when warm"
+     },
+     {
+      "t": "Snow can cover the ground like a blanket.",
+      "note": "can cover the ground"
+     },
+     {
+      "t": "Snow can be packed into balls.",
+      "note": "can be packed into balls"
+     }
+    ]
+   ],
+   "def": {
+    "t": "One small piece of snow is called a snowflake.",
+    "word": "snowflake",
+    "meaning": "one small piece of snow"
+   },
+   "near": [
+    "clouds",
+    "wind"
+   ]
+  },
+  {
+   "key": "zebras",
+   "Name": "Zebras",
+   "name": "zebras",
+   "pro": "they",
+   "pic": {
+    "theme": "animals",
+    "noun": "zebra"
+   },
+   "heads": [
+    "Body",
+    "Food and Water",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "stripe",
+     "mane",
+     "run",
+     "leg",
+     "body"
+    ],
+    [
+     "eat",
+     "grass",
+     "water",
+     "graze",
+     "food",
+     "hour"
+    ]
+   ],
+   "facts": [
+    [
+     {
+      "t": "Zebras can run fast.",
+      "note": "can run fast"
+     },
+     {
+      "t": "Zebras have short, stiff manes.",
+      "note": "short, stiff manes"
+     },
+     {
+      "t": "Zebras have black and white stripes.",
+      "note": "black and white stripes"
+     }
+    ],
+    [
+     {
+      "t": "Zebras eat grass.",
+      "note": "eat grass"
+     },
+     {
+      "t": "Zebras eat for many hours a day.",
+      "note": "eat for many hours"
+     },
+     {
+      "t": "Zebras walk far to find water.",
+      "note": "walk far to find water"
+     }
+    ]
+   ],
+   "def": {
+    "t": "A group of zebras is called a herd.",
+    "word": "herd",
+    "meaning": "a group of zebras"
+   },
+   "near": [
+    "horses",
+    "tigers"
+   ]
+  }
+ ],
+ "research": [
+  {
+   "key": "dolphins",
+   "Name": "Dolphins",
+   "q": "How do dolphins live?",
+   "pic": {
+    "theme": "ocean life",
+    "noun": "dolphin"
+   },
+   "books": [
+    {
+     "title": "Dolphins in the Ocean",
+     "s": [
+      "Most dolphins live in the ocean.",
+      "They eat fish.",
+      "They eat squid, too.",
+      "Dolphins swim to the top of the water to breathe air.",
+      "They have a blowhole on top of their head.",
+      "Dolphins swim in groups called pods, and they help each other."
+     ]
+    },
+    {
+     "title": "A Dolphin's Day",
+     "s": [
+      "A dolphin catches fish and swallows them whole.",
+      "It has smooth, rubbery skin.",
+      "A dolphin needs air, so it comes up to breathe.",
+      "A pod is a group of dolphins.",
+      "A mother dolphin takes care of her calf for a few years."
+     ]
+    }
+   ],
+   "heads": [
+    "Food",
+    "Body",
+    "Family"
+   ],
+   "hk": [
+    [
+     "eat",
+     "fish",
+     "squid",
+     "swallow",
+     "food"
+    ],
+    [
+     "breathe",
+     "air",
+     "blowhole",
+     "skin",
+     "head"
+    ],
+    [
+     "pod",
+     "group",
+     "help",
+     "mother",
+     "calf",
+     "calves"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "eat fish",
+     "in1": "eat fish",
+     "in2": "catches fish",
+     "s": "Dolphins eat fish.",
+     "ok": [],
+     "p1": "They eat fish.",
+     "p2": "A dolphin catches fish and swallows them whole."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "eat squid",
+     "in1": "eat squid",
+     "in2": null,
+     "s": "Dolphins eat squid, too.",
+     "ok": [],
+     "p1": "They eat squid, too.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "swallow food whole",
+     "in1": null,
+     "in2": "swallows them whole",
+     "s": "Dolphins swallow their food whole.",
+     "ok": [],
+     "p1": null,
+     "p2": "A dolphin catches fish and swallows them whole."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "breathe air",
+     "in1": "breathe air",
+     "in2": "needs air",
+     "s": "Dolphins breathe air.",
+     "ok": [],
+     "p1": "Dolphins swim to the top of the water to breathe air.",
+     "p2": "A dolphin needs air, so it comes up to breathe."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "blowhole on top of head",
+     "in1": "a blowhole on top of their head",
+     "in2": null,
+     "s": "Dolphins have a blowhole on their head.",
+     "ok": [],
+     "p1": "They have a blowhole on top of their head.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "smooth, rubbery skin",
+     "in1": null,
+     "in2": "smooth, rubbery skin",
+     "s": "Dolphins have smooth, rubbery skin.",
+     "ok": [],
+     "p1": null,
+     "p2": "It has smooth, rubbery skin."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "live in pods",
+     "in1": "groups called pods",
+     "in2": "A pod is a group of dolphins",
+     "s": "Dolphins live in groups called pods.",
+     "ok": [],
+     "p1": "Dolphins swim in groups called pods, and they help each other.",
+     "p2": "A pod is a group of dolphins."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "help each other",
+     "in1": "help each other",
+     "in2": null,
+     "s": "Dolphins help each other.",
+     "ok": [],
+     "p1": "Dolphins swim in groups called pods, and they help each other.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "mothers care for calves",
+     "in1": null,
+     "in2": "takes care of her calf",
+     "s": "A mother dolphin cares for her calf.",
+     "ok": [],
+     "p1": null,
+     "p2": "A mother dolphin takes care of her calf for a few years."
+    }
+   ],
+   "near": [
+    "whales",
+    "seals"
+   ],
+   "one": "dolphin"
+  },
+  {
+   "key": "sharks",
+   "Name": "Sharks",
+   "q": "How do sharks live?",
+   "pic": {
+    "theme": "ocean life",
+    "noun": "shark"
+   },
+   "books": [
+    {
+     "title": "All About Sharks",
+     "s": [
+      "Sharks live in oceans all over the world.",
+      "Sharks have many rows of teeth.",
+      "Sharks breathe with gills.",
+      "Many sharks eat fish, and some eat seals.",
+      "Some sharks lay eggs inside tough cases.",
+      "A baby shark is called a pup."
+     ]
+    },
+    {
+     "title": "Sharks in the Sea",
+     "s": [
+      "Many sharks hunt fish and other sea animals.",
+      "A shark can smell food from far away.",
+      "Shark skin feels rough, like sandpaper.",
+      "Gills let a shark breathe under water.",
+      "A baby shark is a pup.",
+      "A newborn shark can take care of itself."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "gill",
+     "teeth",
+     "skin",
+     "breathe"
+    ],
+    [
+     "eat",
+     "fish",
+     "seal",
+     "smell",
+     "food"
+    ],
+    [
+     "pup",
+     "baby",
+     "egg",
+     "newborn"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "breathe with gills",
+     "in1": "breathe with gills",
+     "in2": "Gills let a shark breathe",
+     "s": "Sharks breathe with gills.",
+     "ok": [],
+     "p1": "Sharks breathe with gills.",
+     "p2": "Gills let a shark breathe under water."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "many rows of teeth",
+     "in1": "many rows of teeth",
+     "in2": null,
+     "s": "Sharks have many rows of teeth.",
+     "ok": [],
+     "p1": "Sharks have many rows of teeth.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "rough skin",
+     "in1": null,
+     "in2": "skin feels rough",
+     "s": "Shark skin feels rough, like sandpaper.",
+     "ok": [],
+     "p1": null,
+     "p2": "Shark skin feels rough, like sandpaper."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "many eat fish",
+     "in1": "Many sharks eat fish",
+     "in2": "Many sharks hunt fish",
+     "s": "Many sharks eat fish.",
+     "ok": [],
+     "p1": "Many sharks eat fish, and some eat seals.",
+     "p2": "Many sharks hunt fish and other sea animals."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "some eat seals",
+     "in1": "some eat seals",
+     "in2": null,
+     "s": "Some sharks eat seals.",
+     "ok": [],
+     "p1": "Many sharks eat fish, and some eat seals.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "can smell food far away",
+     "in1": null,
+     "in2": "can smell food from far away",
+     "s": "Sharks can smell food from far away.",
+     "ok": [],
+     "p1": null,
+     "p2": "A shark can smell food from far away."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "a baby is a pup",
+     "in1": "called a pup",
+     "in2": "is a pup",
+     "s": "A baby shark is called a pup.",
+     "ok": [],
+     "p1": "A baby shark is called a pup.",
+     "p2": "A baby shark is a pup."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "some lay eggs",
+     "in1": "Some sharks lay eggs",
+     "in2": null,
+     "s": "Some sharks lay eggs.",
+     "ok": [],
+     "p1": "Some sharks lay eggs inside tough cases.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "newborns can care for themselves",
+     "in1": null,
+     "in2": "can take care of itself",
+     "s": "Newborn sharks can care for themselves.",
+     "ok": [],
+     "p1": null,
+     "p2": "A newborn shark can take care of itself."
+    }
+   ],
+   "near": [
+    "whales",
+    "seals"
+   ],
+   "one": "shark"
+  },
+  {
+   "key": "pandas",
+   "Name": "Giant Pandas",
+   "q": "How do giant pandas live?",
+   "pic": {
+    "theme": "animals",
+    "noun": "panda"
+   },
+   "books": [
+    {
+     "title": "Pandas of China",
+     "s": [
+      "Giant pandas live in China.",
+      "They live in forests high in the mountains.",
+      "Bamboo is a tall, woody grass.",
+      "Pandas eat bamboo for many hours each day.",
+      "They have black and white fur.",
+      "Pandas have strong jaws for chewing tough stems."
+     ]
+    },
+    {
+     "title": "A Panda's Life",
+     "s": [
+      "A giant panda's coat is black and white.",
+      "It has a short tail.",
+      "Pandas eat bamboo leaves and stems.",
+      "They also drink water from streams.",
+      "Pandas are good at climbing tall trees.",
+      "Wild giant pandas live only in China.",
+      "A mother panda has her cub in a hollow tree or a cave.",
+      "A grown panda usually stays by itself."
+     ]
+    }
+   ],
+   "heads": [
+    "Food",
+    "Body",
+    "Home"
+   ],
+   "hk": [
+    [
+     "eat",
+     "bamboo",
+     "drink",
+     "water",
+     "stream"
+    ],
+    [
+     "fur",
+     "jaw",
+     "tail",
+     "coat"
+    ],
+    [
+     "live",
+     "china",
+     "forest",
+     "mountain",
+     "tree",
+     "cave"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "eat bamboo",
+     "in1": "eat bamboo",
+     "in2": "eat bamboo",
+     "s": "Pandas eat bamboo.",
+     "ok": [],
+     "p1": "Pandas eat bamboo for many hours each day.",
+     "p2": "Pandas eat bamboo leaves and stems."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "eat for many hours",
+     "in1": "for many hours each day",
+     "in2": null,
+     "s": "Pandas eat for many hours each day.",
+     "ok": [],
+     "p1": "Pandas eat bamboo for many hours each day.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "drink from streams",
+     "in1": null,
+     "in2": "drink water from streams",
+     "s": "Pandas drink water from streams.",
+     "ok": [],
+     "p1": null,
+     "p2": "They also drink water from streams."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "black and white fur",
+     "in1": "black and white fur",
+     "in2": "coat is black and white",
+     "s": "Pandas have black and white fur.",
+     "ok": [],
+     "p1": "They have black and white fur.",
+     "p2": "A giant panda's coat is black and white."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "strong jaws",
+     "in1": "strong jaws",
+     "in2": null,
+     "s": "Pandas have strong jaws for chewing.",
+     "ok": [],
+     "p1": "Pandas have strong jaws for chewing tough stems.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "short tail",
+     "in1": null,
+     "in2": "a short tail",
+     "s": "Pandas have short tails.",
+     "ok": [],
+     "p1": null,
+     "p2": "It has a short tail."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "live in China",
+     "in1": "live in China",
+     "in2": "live only in China",
+     "s": "Wild pandas live in China.",
+     "ok": [],
+     "p1": "Giant pandas live in China.",
+     "p2": "Wild giant pandas live only in China."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "forests in the mountains",
+     "in1": "forests high in the mountains",
+     "in2": null,
+     "s": "Pandas live in mountain forests.",
+     "ok": [],
+     "p1": "They live in forests high in the mountains.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "cubs born in hollow trees or caves",
+     "in1": null,
+     "in2": "has her cub in a hollow tree or a cave",
+     "s": "A mother panda has her cub in a hollow tree or a cave.",
+     "ok": [],
+     "p1": null,
+     "p2": "A mother panda has her cub in a hollow tree or a cave."
+    }
+   ],
+   "near": [],
+   "one": "giant panda"
+  },
+  {
+   "key": "koalas",
+   "Name": "Koalas",
+   "q": "How do koalas live?",
+   "pic": {
+    "theme": "animals",
+    "noun": "koala"
+   },
+   "books": [
+    {
+     "title": "Koalas in the Trees",
+     "s": [
+      "Koalas live high in eucalyptus trees in Australia.",
+      "They eat eucalyptus leaves.",
+      "Koalas rarely drink water.",
+      "They have sharp claws for climbing.",
+      "Thick fur keeps them warm and dry.",
+      "A baby koala lives in its mother's pouch.",
+      "At birth, it is the size of a jelly bean."
+     ]
+    },
+    {
+     "title": "A Koala's Life",
+     "s": [
+      "Koalas eat the leaves of eucalyptus trees.",
+      "They eat mostly at night.",
+      "A koala has thick, gray fur and big, round ears.",
+      "A koala baby grows in its mother's pouch.",
+      "When it is older, it rides on its mother's back."
+     ]
+    }
+   ],
+   "heads": [
+    "Food",
+    "Body",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "eat",
+     "leaves",
+     "leaf",
+     "drink",
+     "water",
+     "eucalyptus"
+    ],
+    [
+     "fur",
+     "claw",
+     "ear"
+    ],
+    [
+     "baby",
+     "pouch",
+     "newborn",
+     "jelly",
+     "mother"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "eat eucalyptus leaves",
+     "in1": "eat eucalyptus leaves",
+     "in2": "eat the leaves of eucalyptus trees",
+     "s": "Koalas eat eucalyptus leaves.",
+     "ok": [],
+     "p1": "They eat eucalyptus leaves.",
+     "p2": "Koalas eat the leaves of eucalyptus trees."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "rarely drink water",
+     "in1": "rarely drink water",
+     "in2": null,
+     "s": "Koalas rarely drink water.",
+     "ok": [],
+     "p1": "Koalas rarely drink water.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "eat mostly at night",
+     "in1": null,
+     "in2": "eat mostly at night",
+     "s": "Koalas eat mostly at night.",
+     "ok": [],
+     "p1": null,
+     "p2": "They eat mostly at night."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "thick fur",
+     "in1": "Thick fur",
+     "in2": "thick, gray fur",
+     "s": "Koalas have thick fur.",
+     "ok": [],
+     "p1": "Thick fur keeps them warm and dry.",
+     "p2": "A koala has thick, gray fur and big, round ears."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "sharp claws",
+     "in1": "sharp claws",
+     "in2": null,
+     "s": "Koalas have sharp claws for climbing.",
+     "ok": [],
+     "p1": "They have sharp claws for climbing.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "big, round ears",
+     "in1": null,
+     "in2": "big, round ears",
+     "s": "Koalas have big, round ears.",
+     "ok": [],
+     "p1": null,
+     "p2": "A koala has thick, gray fur and big, round ears."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "baby grows in a pouch",
+     "in1": "its mother's pouch",
+     "in2": "its mother's pouch",
+     "s": "A baby koala grows in its mother's pouch.",
+     "ok": [],
+     "p1": "A baby koala lives in its mother's pouch.",
+     "p2": "A koala baby grows in its mother's pouch."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "newborn as small as a jelly bean",
+     "in1": "the size of a jelly bean",
+     "in2": null,
+     "s": "Koalas are born as small as jelly beans.",
+     "ok": [
+      "newborn"
+     ],
+     "p1": "At birth, it is the size of a jelly bean.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "rides on its mother's back",
+     "in1": null,
+     "in2": "rides on its mother's back",
+     "s": "Young koalas ride on their mother's back.",
+     "ok": [
+      "mother"
+     ],
+     "p1": null,
+     "p2": "When it is older, it rides on its mother's back."
+    }
+   ],
+   "near": [],
+   "one": "koala"
+  },
+  {
+   "key": "hedgehogs",
+   "Name": "Hedgehogs",
+   "q": "How do hedgehogs live?",
+   "pic": {
+    "theme": "forest creatures",
+    "noun": "hedgehog"
+   },
+   "books": [
+    {
+     "title": "Hedgehogs",
+     "s": [
+      "Hedgehogs are small animals that live in gardens and fields.",
+      "Sharp spines cover a hedgehog's back.",
+      "It has a long, pointed snout.",
+      "Hedgehogs eat insects and worms.",
+      "To stay safe, a hedgehog rolls into a ball.",
+      "Hedgehogs also hide in piles of leaves."
+     ]
+    },
+    {
+     "title": "Night Walkers",
+     "s": [
+      "A hedgehog has thousands of spines.",
+      "It has short legs, but it can walk far.",
+      "Hedgehogs look for food at night.",
+      "They eat insects, such as beetles.",
+      "They sleep in nests during the day.",
+      "A scared hedgehog hisses and rolls into a ball."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Staying Safe"
+   ],
+   "hk": [
+    [
+     "spine",
+     "snout",
+     "leg"
+    ],
+    [
+     "eat",
+     "insect",
+     "worm",
+     "food"
+    ],
+    [
+     "ball",
+     "roll",
+     "hide",
+     "hiss",
+     "leaves",
+     "scared",
+     "safe"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "have spines",
+     "in1": "Sharp spines",
+     "in2": "thousands of spines",
+     "s": "Hedgehogs have spines.",
+     "ok": [],
+     "p1": "Sharp spines cover a hedgehog's back.",
+     "p2": "A hedgehog has thousands of spines."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "long, pointed snout",
+     "in1": "a long, pointed snout",
+     "in2": null,
+     "s": "Hedgehogs have a long, pointed snout.",
+     "ok": [],
+     "p1": "It has a long, pointed snout.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "short legs",
+     "in1": null,
+     "in2": "short legs",
+     "s": "Hedgehogs have short legs.",
+     "ok": [],
+     "p1": null,
+     "p2": "It has short legs, but it can walk far."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat insects",
+     "in1": "eat insects",
+     "in2": "eat insects",
+     "s": "Hedgehogs eat insects.",
+     "ok": [],
+     "p1": "Hedgehogs eat insects and worms.",
+     "p2": "They eat insects, such as beetles."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat worms",
+     "in1": "insects and worms",
+     "in2": null,
+     "s": "Hedgehogs eat worms, too.",
+     "ok": [],
+     "p1": "Hedgehogs eat insects and worms.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "look for food at night",
+     "in1": null,
+     "in2": "look for food at night",
+     "s": "Hedgehogs look for food at night.",
+     "ok": [],
+     "p1": null,
+     "p2": "Hedgehogs look for food at night."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "roll into a ball",
+     "in1": "rolls into a ball",
+     "in2": "rolls into a ball",
+     "s": "Hedgehogs roll into a ball to stay safe.",
+     "ok": [],
+     "p1": "To stay safe, a hedgehog rolls into a ball.",
+     "p2": "A scared hedgehog hisses and rolls into a ball."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "hide in piles of leaves",
+     "in1": "hide in piles of leaves",
+     "in2": null,
+     "s": "Hedgehogs hide in piles of leaves.",
+     "ok": [],
+     "p1": "Hedgehogs also hide in piles of leaves.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "hiss when scared",
+     "in1": null,
+     "in2": "hisses",
+     "s": "A scared hedgehog hisses.",
+     "ok": [],
+     "p1": null,
+     "p2": "A scared hedgehog hisses and rolls into a ball."
+    }
+   ],
+   "near": [],
+   "one": "hedgehog"
+  },
+  {
+   "key": "crabs",
+   "Name": "Crabs",
+   "q": "How do crabs live?",
+   "pic": {
+    "theme": "summer",
+    "noun": "crab"
+   },
+   "books": [
+    {
+     "title": "Crabs at the Beach",
+     "s": [
+      "Crabs live in the ocean and on beaches.",
+      "A crab has ten legs and a hard shell.",
+      "It picks up food with its claws.",
+      "Crabs eat bits of seaweed.",
+      "Many crabs walk sideways across the sand.",
+      "Some crabs can swim, too."
+     ]
+    },
+    {
+     "title": "A Crab's Life",
+     "s": [
+      "A crab's hard shell keeps its body safe.",
+      "Its eyes are on stalks.",
+      "A crab tears its food with its claws.",
+      "Crabs eat clams and snails.",
+      "Many crabs walk sideways.",
+      "Some crabs can run fast.",
+      "They hide under rocks when they are scared."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "How They Move"
+   ],
+   "hk": [
+    [
+     "shell",
+     "leg",
+     "eye",
+     "stalk"
+    ],
+    [
+     "eat",
+     "food",
+     "claw",
+     "seaweed",
+     "clam",
+     "snail"
+    ],
+    [
+     "walk",
+     "sideways",
+     "swim",
+     "run"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "hard shell",
+     "in1": "a hard shell",
+     "in2": "hard shell",
+     "s": "Crabs have a hard shell.",
+     "ok": [],
+     "p1": "A crab has ten legs and a hard shell.",
+     "p2": "A crab's hard shell keeps its body safe."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "ten legs",
+     "in1": "ten legs",
+     "in2": null,
+     "s": "Crabs have ten legs.",
+     "ok": [],
+     "p1": "A crab has ten legs and a hard shell.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "eyes on stalks",
+     "in1": null,
+     "in2": "eyes are on stalks",
+     "s": "Crabs have eyes on stalks.",
+     "ok": [],
+     "p1": null,
+     "p2": "Its eyes are on stalks."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "use claws for food",
+     "in1": "food with its claws",
+     "in2": "food with its claws",
+     "s": "Crabs use their claws to eat.",
+     "ok": [],
+     "p1": "It picks up food with its claws.",
+     "p2": "A crab tears its food with its claws."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat bits of seaweed",
+     "in1": "eat bits of seaweed",
+     "in2": null,
+     "s": "Crabs eat bits of seaweed.",
+     "ok": [],
+     "p1": "Crabs eat bits of seaweed.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "eat clams and snails",
+     "in1": null,
+     "in2": "eat clams and snails",
+     "s": "Crabs eat clams and snails.",
+     "ok": [],
+     "p1": null,
+     "p2": "Crabs eat clams and snails."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "many walk sideways",
+     "in1": "Many crabs walk sideways",
+     "in2": "Many crabs walk sideways",
+     "s": "Many crabs walk sideways.",
+     "ok": [],
+     "p1": "Many crabs walk sideways across the sand.",
+     "p2": "Many crabs walk sideways."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "some can swim",
+     "in1": "Some crabs can swim",
+     "in2": null,
+     "s": "Some crabs can swim.",
+     "ok": [],
+     "p1": "Some crabs can swim, too.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "some can run fast",
+     "in1": null,
+     "in2": "Some crabs can run fast",
+     "s": "Some crabs can run fast.",
+     "ok": [],
+     "p1": null,
+     "p2": "Some crabs can run fast."
+    }
+   ],
+   "near": [],
+   "one": "crab"
+  },
+  {
+   "key": "woodpeckers",
+   "Name": "Woodpeckers",
+   "q": "How do woodpeckers live?",
+   "pic": {
+    "theme": "birds 2",
+    "noun": "woodpecker"
+   },
+   "books": [
+    {
+     "title": "The Tree Tapper",
+     "s": [
+      "Woodpeckers are birds that live in forests and parks.",
+      "A woodpecker pecks holes in trees with its strong beak.",
+      "It looks for insects to eat under the bark.",
+      "Stiff tail feathers help it lean on the tree.",
+      "Woodpeckers make their nests in tree holes.",
+      "They lay white eggs."
+     ]
+    },
+    {
+     "title": "Woodpeckers at Work",
+     "s": [
+      "A woodpecker has a strong beak for pecking wood.",
+      "Its long, sticky tongue grabs insects to eat.",
+      "Woodpeckers eat nuts and berries, too.",
+      "Woodpeckers drum on trees to send messages.",
+      "They nest in holes in trees.",
+      "The mother and father feed the chicks."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Nests"
+   ],
+   "hk": [
+    [
+     "beak",
+     "feather",
+     "tongue",
+     "tail"
+    ],
+    [
+     "eat",
+     "insect",
+     "nut",
+     "berry",
+     "berries",
+     "bark"
+    ],
+    [
+     "nest",
+     "hole",
+     "egg",
+     "chick"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "strong beak",
+     "in1": "strong beak",
+     "in2": "strong beak",
+     "s": "Woodpeckers have strong beaks.",
+     "ok": [],
+     "p1": "A woodpecker pecks holes in trees with its strong beak.",
+     "p2": "A woodpecker has a strong beak for pecking wood."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "stiff tail feathers",
+     "in1": "Stiff tail feathers",
+     "in2": null,
+     "s": "Woodpeckers have stiff tail feathers.",
+     "ok": [],
+     "p1": "Stiff tail feathers help it lean on the tree.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "long, sticky tongue",
+     "in1": null,
+     "in2": "long, sticky tongue",
+     "s": "Woodpeckers have long, sticky tongues.",
+     "ok": [],
+     "p1": null,
+     "p2": "Its long, sticky tongue grabs insects to eat."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat insects",
+     "in1": "insects to eat",
+     "in2": "insects to eat",
+     "s": "Woodpeckers eat insects.",
+     "ok": [],
+     "p1": "It looks for insects to eat under the bark.",
+     "p2": "Its long, sticky tongue grabs insects to eat."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "look under the bark",
+     "in1": "under the bark",
+     "in2": null,
+     "s": "Woodpeckers find insects under bark.",
+     "ok": [],
+     "p1": "It looks for insects to eat under the bark.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "eat nuts and berries",
+     "in1": null,
+     "in2": "eat nuts and berries",
+     "s": "Woodpeckers eat nuts and berries.",
+     "ok": [],
+     "p1": null,
+     "p2": "Woodpeckers eat nuts and berries, too."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "nest in tree holes",
+     "in1": "nests in tree holes",
+     "in2": "nest in holes in trees",
+     "s": "Woodpeckers nest in holes in trees.",
+     "ok": [],
+     "p1": "Woodpeckers make their nests in tree holes.",
+     "p2": "They nest in holes in trees."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "lay white eggs",
+     "in1": "lay white eggs",
+     "in2": null,
+     "s": "Woodpeckers lay white eggs.",
+     "ok": [],
+     "p1": "They lay white eggs.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "parents feed chicks",
+     "in1": null,
+     "in2": "feed the chicks",
+     "s": "The mother and father feed the chicks.",
+     "ok": [],
+     "p1": null,
+     "p2": "The mother and father feed the chicks."
+    }
+   ],
+   "near": [
+    "owls",
+    "robins",
+    "chickens"
+   ],
+   "one": "woodpecker"
+  },
+  {
+   "key": "tortoises",
+   "Name": "Tortoises",
+   "q": "How do tortoises live?",
+   "pic": {
+    "theme": "reptiles and Amphibians",
+    "noun": "tortoise"
+   },
+   "books": [
+    {
+     "title": "Tortoises",
+     "s": [
+      "Tortoises are reptiles that live on land.",
+      "A tortoise has a hard shell and thick, scaly legs.",
+      "It eats plants, such as grass and flowers.",
+      "Tortoises lay eggs in holes in the ground.",
+      "Tortoises can live for a very long time."
+     ]
+    },
+    {
+     "title": "Slow and Steady",
+     "s": [
+      "A tortoise lives on land and moves slowly.",
+      "Its hard shell keeps it safe.",
+      "Tortoises eat plants.",
+      "They have no teeth, so they bite with a hard beak.",
+      "Tortoises get water from the plants they eat.",
+      "Some tortoises dig burrows to stay cool."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Life on Land"
+   ],
+   "hk": [
+    [
+     "shell",
+     "leg",
+     "teeth",
+     "beak"
+    ],
+    [
+     "eat",
+     "plant",
+     "grass",
+     "flower",
+     "water"
+    ],
+    [
+     "land",
+     "egg",
+     "hole",
+     "ground",
+     "slowly",
+     "move"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "hard shell",
+     "in1": "a hard shell",
+     "in2": "hard shell",
+     "s": "Tortoises have a hard shell.",
+     "ok": [],
+     "p1": "A tortoise has a hard shell and thick, scaly legs.",
+     "p2": "Its hard shell keeps it safe."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "thick, scaly legs",
+     "in1": "thick, scaly legs",
+     "in2": null,
+     "s": "Tortoises have thick, scaly legs.",
+     "ok": [],
+     "p1": "A tortoise has a hard shell and thick, scaly legs.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "no teeth",
+     "in1": null,
+     "in2": "no teeth",
+     "s": "Tortoises have no teeth.",
+     "ok": [],
+     "p1": null,
+     "p2": "They have no teeth, so they bite with a hard beak."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat plants",
+     "in1": "eats plants",
+     "in2": "eat plants",
+     "s": "Tortoises eat plants.",
+     "ok": [],
+     "p1": "It eats plants, such as grass and flowers.",
+     "p2": "Tortoises eat plants."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat grass and flowers",
+     "in1": "grass and flowers",
+     "in2": null,
+     "s": "Tortoises eat grass and flowers.",
+     "ok": [],
+     "p1": "It eats plants, such as grass and flowers.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "get water from plants",
+     "in1": null,
+     "in2": "water from the plants",
+     "s": "Tortoises get water from plants.",
+     "ok": [
+      "plant"
+     ],
+     "p1": null,
+     "p2": "Tortoises get water from the plants they eat."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "live on land",
+     "in1": "live on land",
+     "in2": "lives on land",
+     "s": "Tortoises live on land.",
+     "ok": [],
+     "p1": "Tortoises are reptiles that live on land.",
+     "p2": "A tortoise lives on land and moves slowly."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "lay eggs in holes in the ground",
+     "in1": "lay eggs in holes in the ground",
+     "in2": null,
+     "s": "Tortoises lay eggs in holes in the ground.",
+     "ok": [],
+     "p1": "Tortoises lay eggs in holes in the ground.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "move slowly",
+     "in1": null,
+     "in2": "moves slowly",
+     "s": "Tortoises move slowly.",
+     "ok": [],
+     "p1": null,
+     "p2": "A tortoise lives on land and moves slowly."
+    }
+   ],
+   "near": [],
+   "one": "tortoise"
+  },
+  {
+   "key": "cheetahs",
+   "Name": "Cheetahs",
+   "q": "How do cheetahs live?",
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "cheetah"
+   },
+   "books": [
+    {
+     "title": "Fast Cats",
+     "s": [
+      "Most cheetahs live in Africa.",
+      "Cheetahs are the fastest animals on land.",
+      "They have spots and black lines on their faces.",
+      "Cheetahs usually hunt in the daytime.",
+      "A baby cheetah is called a cub.",
+      "Young cubs drink their mother's milk."
+     ]
+    },
+    {
+     "title": "Built for Speed",
+     "s": [
+      "No land animal runs faster than a cheetah.",
+      "A cheetah has spots all over its body.",
+      "Its long tail helps it turn quickly.",
+      "It can run fast for only a short time.",
+      "Baby cheetahs are called cubs.",
+      "A mother cheetah keeps her cubs safe in tall grass."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Running and Hunting",
+    "Cubs"
+   ],
+   "hk": [
+    [
+     "spot",
+     "line",
+     "face",
+     "tail"
+    ],
+    [
+     "fast",
+     "fastest",
+     "run",
+     "hunt"
+    ],
+    [
+     "cub",
+     "baby",
+     "babies",
+     "mother",
+     "milk"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "spots",
+     "in1": "spots",
+     "in2": "spots all over its body",
+     "s": "Cheetahs have spots.",
+     "ok": [],
+     "p1": "They have spots and black lines on their faces.",
+     "p2": "A cheetah has spots all over its body."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "black lines on faces",
+     "in1": "black lines on their faces",
+     "in2": null,
+     "s": "Cheetahs have black lines on their faces.",
+     "ok": [],
+     "p1": "They have spots and black lines on their faces.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "long tail for turning",
+     "in1": null,
+     "in2": "long tail helps it turn",
+     "s": "A cheetah's long tail helps it turn.",
+     "ok": [],
+     "p1": null,
+     "p2": "Its long tail helps it turn quickly."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "fastest land animal",
+     "in1": "fastest animals on land",
+     "in2": "No land animal runs faster",
+     "s": "Cheetahs are the fastest land animals.",
+     "ok": [],
+     "p1": "Cheetahs are the fastest animals on land.",
+     "p2": "No land animal runs faster than a cheetah."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "usually hunt by day",
+     "in1": "usually hunt in the daytime",
+     "in2": null,
+     "s": "Cheetahs usually hunt in the daytime.",
+     "ok": [
+      "hunt"
+     ],
+     "p1": "Cheetahs usually hunt in the daytime.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "can run fast for a short time",
+     "in1": null,
+     "in2": "can run fast for only a short time",
+     "s": "Cheetahs can run fast for a short time.",
+     "ok": [
+      "fast"
+     ],
+     "p1": null,
+     "p2": "It can run fast for only a short time."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "babies are cubs",
+     "in1": "called a cub",
+     "in2": "called cubs",
+     "s": "A baby cheetah is called a cub.",
+     "ok": [],
+     "p1": "A baby cheetah is called a cub.",
+     "p2": "Baby cheetahs are called cubs."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "cubs drink mother's milk",
+     "in1": "Young cubs drink their mother's milk",
+     "in2": null,
+     "s": "Cheetah cubs drink their mother's milk.",
+     "ok": [
+      "cub",
+      "mother"
+     ],
+     "p1": "Young cubs drink their mother's milk.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "mothers keep cubs safe in grass",
+     "in1": null,
+     "in2": "keeps her cubs safe in tall grass",
+     "s": "Mother cheetahs keep cubs safe in grass.",
+     "ok": [
+      "cub",
+      "mother"
+     ],
+     "p1": null,
+     "p2": "A mother cheetah keeps her cubs safe in tall grass."
+    }
+   ],
+   "near": [
+    "tigers"
+   ],
+   "one": "cheetah"
+  },
+  {
+   "key": "flamingos",
+   "Name": "Flamingos",
+   "q": "How do flamingos live?",
+   "pic": {
+    "theme": "birds",
+    "noun": "flamingo"
+   },
+   "books": [
+    {
+     "title": "Flamingos",
+     "s": [
+      "Flamingos are tall birds with very long legs.",
+      "They often stand on one leg.",
+      "Flamingos wade in shallow water to find food.",
+      "They eat tiny shrimp.",
+      "Flamingos eat with their heads upside down.",
+      "They live in big groups called flocks."
+     ]
+    },
+    {
+     "title": "Tall Birds in the Water",
+     "s": [
+      "A flamingo has long legs and a bent beak.",
+      "Flamingos eat tiny shrimp and other small animals.",
+      "The food they eat turns their feathers pink.",
+      "Flamingos live in big groups.",
+      "They honk to talk to each other.",
+      "Flamingo chicks are gray or white."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Groups"
+   ],
+   "hk": [
+    [
+     "leg",
+     "beak"
+    ],
+    [
+     "eat",
+     "shrimp",
+     "food",
+     "upside",
+     "animal"
+    ],
+    [
+     "group",
+     "flock",
+     "honk",
+     "talk"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "long legs",
+     "in1": "very long legs",
+     "in2": "long legs",
+     "s": "Flamingos have long legs.",
+     "ok": [],
+     "p1": "Flamingos are tall birds with very long legs.",
+     "p2": "A flamingo has long legs and a bent beak."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "often stand on one leg",
+     "in1": "often stand on one leg",
+     "in2": null,
+     "s": "Flamingos often stand on one leg.",
+     "ok": [
+      "leg"
+     ],
+     "p1": "They often stand on one leg.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "bent beak",
+     "in1": null,
+     "in2": "a bent beak",
+     "s": "Flamingos have a bent beak.",
+     "ok": [],
+     "p1": null,
+     "p2": "A flamingo has long legs and a bent beak."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat tiny shrimp",
+     "in1": "eat tiny shrimp",
+     "in2": "eat tiny shrimp",
+     "s": "Flamingos eat tiny shrimp.",
+     "ok": [],
+     "p1": "They eat tiny shrimp.",
+     "p2": "Flamingos eat tiny shrimp and other small animals."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "heads upside down to eat",
+     "in1": "heads upside down",
+     "in2": null,
+     "s": "Flamingos eat with their heads upside down.",
+     "ok": [],
+     "p1": "Flamingos eat with their heads upside down.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "eat other small animals",
+     "in1": null,
+     "in2": "other small animals",
+     "s": "Flamingos eat other small animals, too.",
+     "ok": [],
+     "p1": null,
+     "p2": "Flamingos eat tiny shrimp and other small animals."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "live in big groups",
+     "in1": "big groups",
+     "in2": "big groups",
+     "s": "Flamingos live in big groups.",
+     "ok": [],
+     "p1": "They live in big groups called flocks.",
+     "p2": "Flamingos live in big groups."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "a group is a flock",
+     "in1": "called flocks",
+     "in2": null,
+     "s": "A group of flamingos is called a flock.",
+     "ok": [
+      "group"
+     ],
+     "p1": "They live in big groups called flocks.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "honk to talk",
+     "in1": null,
+     "in2": "honk to talk to each other",
+     "s": "Flamingos honk to talk to each other.",
+     "ok": [],
+     "p1": null,
+     "p2": "They honk to talk to each other."
+    }
+   ],
+   "near": [
+    "robins",
+    "chickens"
+   ],
+   "one": "flamingo"
+  },
+  {
+   "key": "eagles",
+   "Name": "Bald Eagles",
+   "q": "How do bald eagles live?",
+   "pic": {
+    "theme": "birds 2",
+    "noun": "eagle"
+   },
+   "books": [
+    {
+     "title": "Bald Eagles",
+     "s": [
+      "Bald eagles live near lakes, rivers, and the sea.",
+      "Grown bald eagles have white heads and white tails.",
+      "They have sharp, hooked beaks.",
+      "Bald eagles eat fish.",
+      "They also eat ducks and rabbits.",
+      "Eagles build huge nests.",
+      "They often use the same nest year after year."
+     ]
+    },
+    {
+     "title": "Eagles of the Sky",
+     "s": [
+      "A grown bald eagle's head and tail are white.",
+      "Eagles can see very far, so they spot fish to eat from high above.",
+      "Bald eagles sometimes steal food from other birds.",
+      "Their nests are very big.",
+      "They build them out of sticks and grass."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Nests"
+   ],
+   "hk": [
+    [
+     "head",
+     "tail",
+     "beak",
+     "see"
+    ],
+    [
+     "eat",
+     "fish",
+     "duck",
+     "rabbit",
+     "food",
+     "steal"
+    ],
+    [
+     "nest",
+     "stick",
+     "grass"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "white head and tail when grown",
+     "in1": "white heads and white tails",
+     "in2": "head and tail are white",
+     "s": "Grown bald eagles have white heads and tails.",
+     "ok": [],
+     "p1": "Grown bald eagles have white heads and white tails.",
+     "p2": "A grown bald eagle's head and tail are white."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "sharp, hooked beak",
+     "in1": "sharp, hooked beaks",
+     "in2": null,
+     "s": "Bald eagles have sharp, hooked beaks.",
+     "ok": [],
+     "p1": "They have sharp, hooked beaks.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "can see very far",
+     "in1": null,
+     "in2": "can see very far",
+     "s": "Bald eagles can see very far.",
+     "ok": [],
+     "p1": null,
+     "p2": "Eagles can see very far, so they spot fish to eat from high above."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat fish",
+     "in1": "eat fish",
+     "in2": "spot fish to eat",
+     "s": "Bald eagles eat fish.",
+     "ok": [],
+     "p1": "Bald eagles eat fish.",
+     "p2": "Eagles can see very far, so they spot fish to eat from high above."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat ducks and rabbits",
+     "in1": "eat ducks and rabbits",
+     "in2": null,
+     "s": "Bald eagles eat ducks and rabbits.",
+     "ok": [],
+     "p1": "They also eat ducks and rabbits.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "sometimes steal food",
+     "in1": null,
+     "in2": "sometimes steal food",
+     "s": "Bald eagles sometimes steal food.",
+     "ok": [],
+     "p1": null,
+     "p2": "Bald eagles sometimes steal food from other birds."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "build huge nests",
+     "in1": "build huge nests",
+     "in2": "nests are very big",
+     "s": "Bald eagles build huge nests.",
+     "ok": [],
+     "p1": "Eagles build huge nests.",
+     "p2": "Their nests are very big."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "often use the same nest",
+     "in1": "often use the same nest",
+     "in2": null,
+     "s": "Eagles often use the same nest.",
+     "ok": [
+      "nest"
+     ],
+     "p1": "They often use the same nest year after year.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "nests of sticks and grass",
+     "in1": null,
+     "in2": "out of sticks and grass",
+     "s": "Eagles build nests of sticks and grass.",
+     "ok": [
+      "nest"
+     ],
+     "p1": null,
+     "p2": "They build them out of sticks and grass."
+    }
+   ],
+   "near": [
+    "owls",
+    "robins",
+    "chickens"
+   ],
+   "one": "bald eagle"
+  },
+  {
+   "key": "vets",
+   "Name": "Veterinarians",
+   "q": "What do veterinarians do?",
+   "pic": {
+    "theme": "occupations",
+    "noun": "veterinarian"
+   },
+   "books": [
+    {
+     "title": "A Visit to the Vet",
+     "s": [
+      "A veterinarian, or vet, is a doctor for animals.",
+      "Vets take care of pets like dogs and cats.",
+      "Some vets care for zoo animals.",
+      "A vet uses a stethoscope to listen to an animal's heart.",
+      "Vets weigh animals on a scale.",
+      "They give shots to keep animals healthy.",
+      "Vets help sick animals get better."
+     ]
+    },
+    {
+     "title": "Vets at Work",
+     "s": [
+      "Veterinarians help sick animals get well.",
+      "They care for dogs, cats, and other pets.",
+      "Some vets visit farm animals, like cows and horses.",
+      "A vet listens to an animal's heart with a stethoscope.",
+      "An X-ray machine lets a vet see inside an animal.",
+      "Vets also clean animals' teeth."
+     ]
+    }
+   ],
+   "heads": [
+    "Kinds of Animals",
+    "Tools",
+    "Their Work"
+   ],
+   "hk": [
+    [
+     "pet",
+     "dog",
+     "cat",
+     "zoo",
+     "farm",
+     "cow",
+     "horse"
+    ],
+    [
+     "stethoscope",
+     "scale",
+     "ray",
+     "machine"
+    ],
+    [
+     "help",
+     "sick",
+     "shot",
+     "clean",
+     "teeth"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "pets like dogs and cats",
+     "in1": "pets like dogs and cats",
+     "in2": "dogs, cats, and other pets",
+     "s": "Vets care for pets like dogs and cats.",
+     "ok": [],
+     "p1": "Vets take care of pets like dogs and cats.",
+     "p2": "They care for dogs, cats, and other pets."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "some care for zoo animals",
+     "in1": "Some vets care for zoo animals",
+     "in2": null,
+     "s": "Some vets care for zoo animals.",
+     "ok": [
+      "animal",
+      "care"
+     ],
+     "p1": "Some vets care for zoo animals.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "some visit farm animals",
+     "in1": null,
+     "in2": "Some vets visit farm animals",
+     "s": "Some vets visit farm animals.",
+     "ok": [
+      "animal"
+     ],
+     "p1": null,
+     "p2": "Some vets visit farm animals, like cows and horses."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "a stethoscope",
+     "in1": "a stethoscope",
+     "in2": "a stethoscope",
+     "s": "A stethoscope helps vets hear a heart.",
+     "ok": [],
+     "p1": "A vet uses a stethoscope to listen to an animal's heart.",
+     "p2": "A vet listens to an animal's heart with a stethoscope."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "weigh on a scale",
+     "in1": "weigh animals on a scale",
+     "in2": null,
+     "s": "Vets weigh animals on a scale.",
+     "ok": [],
+     "p1": "Vets weigh animals on a scale.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "X-rays to see inside",
+     "in1": null,
+     "in2": "An X-ray machine",
+     "s": "Vets use X-rays to see inside animals.",
+     "ok": [],
+     "p1": null,
+     "p2": "An X-ray machine lets a vet see inside an animal."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "help sick animals",
+     "in1": "help sick animals",
+     "in2": "help sick animals",
+     "s": "Vets help sick animals get well.",
+     "ok": [],
+     "p1": "Vets help sick animals get better.",
+     "p2": "Veterinarians help sick animals get well."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "give shots",
+     "in1": "give shots",
+     "in2": null,
+     "s": "Vets give shots to keep animals healthy.",
+     "ok": [],
+     "p1": "They give shots to keep animals healthy.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "clean teeth",
+     "in1": null,
+     "in2": "clean animals' teeth",
+     "s": "Vets clean animals' teeth.",
+     "ok": [],
+     "p1": null,
+     "p2": "Vets also clean animals' teeth."
+    }
+   ],
+   "near": [
+    "horses"
+   ],
+   "one": "vet"
+  },
+  {
+   "key": "seahorses",
+   "Name": "Seahorses",
+   "q": "How do seahorses live?",
+   "pic": {
+    "theme": "ocean life",
+    "noun": "sea_horse"
+   },
+   "books": [
+    {
+     "title": "Seahorses",
+     "s": [
+      "A seahorse is a fish that swims standing up.",
+      "Many seahorses live in shallow water near the coast.",
+      "A seahorse holds on to sea grass with its curly tail.",
+      "Seahorses eat tiny shrimp.",
+      "They eat almost all day long.",
+      "The father seahorse carries the eggs in a pouch."
+     ]
+    },
+    {
+     "title": "Small Swimmers",
+     "s": [
+      "Seahorses swim upright.",
+      "They have a long snout shaped like a tube.",
+      "Seahorses use their snout to suck up tiny shrimp.",
+      "A seahorse has no stomach at all.",
+      "The father carries the eggs until they hatch.",
+      "Baby seahorses are called fry."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Babies"
+   ],
+   "hk": [
+    [
+     "upright",
+     "standing",
+     "swim",
+     "tail",
+     "snout",
+     "stomach"
+    ],
+    [
+     "eat",
+     "shrimp",
+     "food",
+     "suck"
+    ],
+    [
+     "egg",
+     "pouch",
+     "father",
+     "fry",
+     "baby",
+     "babies"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "swim upright",
+     "in1": "swims standing up",
+     "in2": "swim upright",
+     "s": "Seahorses swim upright.",
+     "ok": [],
+     "p1": "A seahorse is a fish that swims standing up.",
+     "p2": "Seahorses swim upright."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "curly tail holds on",
+     "in1": "curly tail",
+     "in2": null,
+     "s": "Seahorses hold on with their curly tails.",
+     "ok": [],
+     "p1": "A seahorse holds on to sea grass with its curly tail.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "snout like a tube",
+     "in1": null,
+     "in2": "snout shaped like a tube",
+     "s": "Seahorses have a snout like a tube.",
+     "ok": [],
+     "p1": null,
+     "p2": "They have a long snout shaped like a tube."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat tiny shrimp",
+     "in1": "eat tiny shrimp",
+     "in2": "suck up tiny shrimp",
+     "s": "Seahorses eat tiny shrimp.",
+     "ok": [],
+     "p1": "Seahorses eat tiny shrimp.",
+     "p2": "Seahorses use their snout to suck up tiny shrimp."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat almost all day",
+     "in1": "eat almost all day long",
+     "in2": null,
+     "s": "Seahorses eat almost all day long.",
+     "ok": [],
+     "p1": "They eat almost all day long.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "suck up food",
+     "in1": null,
+     "in2": "suck up tiny shrimp",
+     "s": "Seahorses suck up their food.",
+     "ok": [],
+     "p1": null,
+     "p2": "Seahorses use their snout to suck up tiny shrimp."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "father carries eggs",
+     "in1": "father seahorse carries the eggs",
+     "in2": "father carries the eggs",
+     "s": "The father seahorse carries the eggs.",
+     "ok": [],
+     "p1": "The father seahorse carries the eggs in a pouch.",
+     "p2": "The father carries the eggs until they hatch."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "eggs in a pouch",
+     "in1": "in a pouch",
+     "in2": null,
+     "s": "The father carries the eggs in a pouch.",
+     "ok": [
+      "egg"
+     ],
+     "p1": "The father seahorse carries the eggs in a pouch.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "babies are fry",
+     "in1": null,
+     "in2": "called fry",
+     "s": "Baby seahorses are called fry.",
+     "ok": [],
+     "p1": null,
+     "p2": "Baby seahorses are called fry."
+    }
+   ],
+   "near": [
+    "whales",
+    "seals"
+   ],
+   "one": "seahorse"
+  },
+  {
+   "key": "gorillas",
+   "Name": "Gorillas",
+   "q": "How do gorillas live?",
+   "pic": {
+    "theme": "zoo animals",
+    "noun": "gorilla"
+   },
+   "books": [
+    {
+     "title": "Gorillas",
+     "s": [
+      "Gorillas live in the forests of Africa.",
+      "They are the largest apes.",
+      "Gorillas are very strong.",
+      "A grown male has gray hair on his back.",
+      "He is called a silverback.",
+      "Gorillas eat plants and fruit.",
+      "They live in groups called troops."
+     ]
+    },
+    {
+     "title": "Gentle Giants",
+     "s": [
+      "Gorillas are strong animals.",
+      "They walk on their knuckles.",
+      "Gorillas eat mostly plants.",
+      "Sometimes they eat ants and termites, too.",
+      "Gorillas live together in groups.",
+      "Each night, they build nests to sleep in.",
+      "A baby gorilla rides on its mother's back."
+     ]
+    }
+   ],
+   "heads": [
+    "Body",
+    "Food",
+    "Family"
+   ],
+   "hk": [
+    [
+     "strong",
+     "hair",
+     "knuckle",
+     "silverback"
+    ],
+    [
+     "eat",
+     "plant",
+     "fruit",
+     "ant"
+    ],
+    [
+     "group",
+     "troop",
+     "baby",
+     "babies",
+     "mother"
+    ]
+   ],
+   "facts": [
+    {
+     "h": 0,
+     "src": 0,
+     "note": "strong",
+     "in1": "very strong",
+     "in2": "strong animals",
+     "s": "Gorillas are strong.",
+     "ok": [],
+     "p1": "Gorillas are very strong.",
+     "p2": "Gorillas are strong animals."
+    },
+    {
+     "h": 0,
+     "src": 1,
+     "note": "silverback has gray hair",
+     "in1": "gray hair on his back",
+     "in2": null,
+     "s": "A silverback has gray hair on his back.",
+     "ok": [],
+     "p1": "A grown male has gray hair on his back.",
+     "p2": null
+    },
+    {
+     "h": 0,
+     "src": 2,
+     "note": "walk on knuckles",
+     "in1": null,
+     "in2": "walk on their knuckles",
+     "s": "Gorillas walk on their knuckles.",
+     "ok": [],
+     "p1": null,
+     "p2": "They walk on their knuckles."
+    },
+    {
+     "h": 1,
+     "src": 0,
+     "note": "eat plants",
+     "in1": "eat plants",
+     "in2": "eat mostly plants",
+     "s": "Gorillas eat plants.",
+     "ok": [],
+     "p1": "Gorillas eat plants and fruit.",
+     "p2": "Gorillas eat mostly plants."
+    },
+    {
+     "h": 1,
+     "src": 1,
+     "note": "eat fruit",
+     "in1": "plants and fruit",
+     "in2": null,
+     "s": "Gorillas eat fruit, too.",
+     "ok": [],
+     "p1": "Gorillas eat plants and fruit.",
+     "p2": null
+    },
+    {
+     "h": 1,
+     "src": 2,
+     "note": "sometimes eat ants",
+     "in1": null,
+     "in2": "Sometimes they eat ants",
+     "s": "Gorillas sometimes eat ants.",
+     "ok": [],
+     "p1": null,
+     "p2": "Sometimes they eat ants and termites, too."
+    },
+    {
+     "h": 2,
+     "src": 0,
+     "note": "live in groups",
+     "in1": "groups called troops",
+     "in2": "live together in groups",
+     "s": "Gorillas live in groups.",
+     "ok": [],
+     "p1": "They live in groups called troops.",
+     "p2": "Gorillas live together in groups."
+    },
+    {
+     "h": 2,
+     "src": 1,
+     "note": "a group is a troop",
+     "in1": "called troops",
+     "in2": null,
+     "s": "A group of gorillas is called a troop.",
+     "ok": [
+      "group"
+     ],
+     "p1": "They live in groups called troops.",
+     "p2": null
+    },
+    {
+     "h": 2,
+     "src": 2,
+     "note": "babies ride on mother's back",
+     "in1": null,
+     "in2": "rides on its mother's back",
+     "s": "A baby gorilla rides on its mother's back.",
+     "ok": [
+      "back"
+     ],
+     "p1": null,
+     "p2": "A baby gorilla rides on its mother's back."
+    }
+   ],
+   "near": [],
+   "one": "gorilla"
+  }
+ ],
+ "worked": [
+  {
+   "key": "owls",
+   "from": "Owls can turn their heads far around.",
+   "copy": "can turn their heads far around",
+   "own": "heads can turn far around"
+  },
+  {
+   "key": "whales",
+   "from": "Some whales sing long songs.",
+   "copy": "Some whales sing long songs",
+   "own": "some sing songs"
+  },
+  {
+   "key": "robins",
+   "from": "Robins pull worms out of the ground.",
+   "copy": "pull worms out of the ground",
+   "own": "pull up worms"
+  },
+  {
+   "key": "carrots",
+   "from": "We eat the root of the carrot plant.",
+   "copy": "eat the root",
+   "own": "root is the part we eat"
+  },
+  {
+   "key": "chickens",
+   "from": "Hens lay eggs in a nest.",
+   "copy": "lay eggs in a nest",
+   "own": "hens lay eggs"
+  },
+  {
+   "key": "wind",
+   "from": "A strong wind can knock down trees.",
+   "copy": "can knock down trees",
+   "own": "can knock trees down"
+  },
+  {
+   "key": "seals",
+   "from": "A thick layer of blubber keeps seals warm.",
+   "copy": "blubber keeps seals warm",
+   "own": "fat layer keeps warm"
+  },
+  {
+   "key": "horses",
+   "from": "A horse can even sleep while it is standing up.",
+   "copy": "can even sleep while it is standing up",
+   "own": "can sleep standing up"
+  },
+  {
+   "key": "pines",
+   "from": "Pine trees grow cones that hold their seeds.",
+   "copy": "cones that hold their seeds",
+   "own": "cones hold seeds"
+  },
+  {
+   "key": "tigers",
+   "from": "Tigers are good swimmers.",
+   "copy": "good swimmers",
+   "own": "swim well"
+  }
+ ],
+ "modelOnly": [
+  "sloth",
+  "moose",
+  "garbage truck"
+ ]
+}

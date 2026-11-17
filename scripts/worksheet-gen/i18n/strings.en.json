@@ -5816,7 +5816,7 @@
   },
   "G2-567": {
     "title": "Closing Sentences and Linking Words",
-    "instruction": "A closing sentence tells about a topic again in new words."
+    "instruction": "A closing sentence tells about the topic again in new words."
   },
   "G2-568": {
     "title": "Draft Your Informative Piece",
@@ -5828,7 +5828,7 @@
   },
   "G2-570": {
     "title": "Write Your Part of the Class Report",
-    "instruction": "Use your notes to write your part of the class report."
+    "instruction": "Use the notes to write your part of the class report."
   },
   "G2-571": {
     "title": "Parts of a True Story",
@@ -5848,6 +5848,102 @@
   },
   "G2-575": {
     "title": "Revise with a Partner",
-    "instruction": "Writers add details and fix mistakes when they revise."
+    "instruction": "Writers revise to add details and edit to fix mistakes."
+  },
+  "K-673": {
+    "title": "What I Like Best and Why",
+    "instruction": "An opinion tells what you like best. A reason tells why."
+  },
+  "K-674": {
+    "title": "My Favorite and Why",
+    "instruction": "Write your opinion: tell what you like best and why."
+  },
+  "K-675": {
+    "title": "Facts and Labels",
+    "instruction": "A fact tells something true. A label names a part."
+  },
+  "K-676": {
+    "title": "I Can Teach You a Fact",
+    "instruction": "Teach a reader: name your topic, label it, and tell facts."
+  },
+  "K-677": {
+    "title": "Put a Small Moment in Order",
+    "instruction": "A small moment tells what happened, in order, and how the writer felt."
+  },
+  "K-678": {
+    "title": "My Small Moment",
+    "instruction": "Draw and write what happened to you. Tell how you felt."
+  },
+  "K-679": {
+    "title": "A Friend Asks, I Add",
+    "instruction": "A friend’s question helps a writer add a detail."
+  },
+  "K-680": {
+    "title": "Author’s Chair",
+    "instruction": "In the author’s chair, a writer shares, listens, and adds a detail."
+  },
+  "G2-576": {
+    "title": "How a Story Begins and Ends",
+    "instruction": "A beginning tells who, where, and the problem. An ending solves the problem."
+  },
+  "G2-577": {
+    "title": "Write How a Story Begins and Ends",
+    "instruction": "Tell how the beginning starts the story and how the ending solves it."
+  },
+  "G2-578": {
+    "title": "Who Is Talking? Points of View",
+    "instruction": "Characters can think different things about the same thing."
+  },
+  "G2-579": {
+    "title": "Reader’s Theater: Different Voices",
+    "instruction": "Characters want different things, so they sound different when read aloud."
+  },
+  "G2-580": {
+    "title": "Two Versions of One Tale: Sort the Facts",
+    "instruction": "Two versions of a tale can have different characters and settings."
+  },
+  "G2-581": {
+    "title": "Two Versions of One Tale: Compare Them",
+    "instruction": "Two versions of a tale are alike in some ways and different in others."
+  },
+  "G2-582": {
+    "title": "Book Club Talk: Build on What Others Say",
+    "instruction": "To build on a comment, agree, add to it, or see it another way."
+  },
+  "G2-583": {
+    "title": "Book Club Talk Card",
+    "instruction": "Plan what to say about our book. After the talk, tell how you built on an idea."
+  },
+  "K-681": {
+    "title": "Blend the First Sound and the Rest",
+    "instruction": "Blend the first sound and the rest to make a word."
+  },
+  "K-682": {
+    "title": "Say the First Sound and the Rest",
+    "instruction": "You can break a word into its first sound and the rest."
+  },
+  "K-683": {
+    "title": "Words with Two Meanings",
+    "instruction": "Some words have two meanings. The sentence tells which one."
+  },
+  "K-684": {
+    "title": "Two Pictures, One Word",
+    "instruction": "One word can name two different things."
+  },
+  "K-685": {
+    "title": "Compare Two Stories",
+    "instruction": "Two stories can tell about adventures that are alike and different."
+  },
+  "K-686": {
+    "title": "Draw Same and Different",
+    "instruction": "We compare two stories: what is the same and what is different."
+  },
+  "G1-624": {
+    "title": "First, Middle, or Last?",
+    "instruction": "A sound can come first, in the middle, or last in a word."
+  },
+  "G1-625": {
+    "title": "Two Words, One Sound",
+    "instruction": "Two words can share a sound in the same place."
   }
 }

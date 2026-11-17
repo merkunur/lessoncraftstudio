@@ -227,7 +227,8 @@
   },
   "K-066": {
     "title": "Ylä, keski, ala",
-    "instruction": "Ympyröi jokainen kuva KESKIMMÄISELLÄ rivillä."
+    "instruction": "Ympyröi jokainen kuva KESKIMMÄISELLÄ rivillä.",
+    "printTitle": "Ylhäällä, keskellä, alhaalla"
   },
   "K-067": {
     "title": "Sisällä ja ulkona",

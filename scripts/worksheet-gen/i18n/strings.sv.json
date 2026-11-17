@@ -227,7 +227,8 @@
   },
   "K-066": {
     "title": "Topp, mitt, botten",
-    "instruction": "Ringa in varje bild i MITTRADEN."
+    "instruction": "Ringa in varje bild i MITTRADEN.",
+    "printTitle": "Överst, i mitten, nederst"
   },
   "K-067": {
     "title": "Inuti och utanför",

@@ -16,6 +16,9 @@ const slot = require('../../lib/slot.js');
 const { makeRng } = require('../../lib/rng.js');
 // the words under each card of the on / under / beside page (native per language)
 const CAPTIONS = require('../../data/position-captions.json');
+// the instruction line of the single-picture pages for each place a copy can ask (native per language); order[0] is
+// the place the published pages ask, and its sentence is the type's registered instruction (qa/verify-position-asks.js)
+const ASKS = require('../../data/position-asks.json');
 
 const CRATE = (w, h) =>
   `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">` +
@@ -33,6 +36,8 @@ function makePositionType(cfg) {
     assetClass: 'icon-placement',
     exerciseType: 'position-words',
     themeAxis: { applicable: true, minNouns: 5 },
+    // a copy of a single-picture page names the place it asks in its own instruction (render-instance.js reads this)
+    copyInstruction: mode !== 'on-under',
     difficulty: {
       1: { cards: mode === 'on-under' ? 4 : 1, icons: 6 },
       2: { cards: mode === 'on-under' ? 4 : 1, icons: 8 },
@@ -103,6 +108,15 @@ function makePositionType(cfg) {
       }
 
       // single-stage modes
+      // WHICH PLACE a copy asks (2026-11-17, operator: in the maker "Left and Right" asked LEFT on every new version,
+      // "Top, Middle, Bottom" always the MIDDLE row, "Inside and Outside" always INSIDE: the place was the type's one
+      // relation, so half of each title was never practised). Now the copies ask the places in turn: copy 1 keeps the
+      // published place and its registered instruction, word for word; another copy brings its own instruction line.
+      const asks = ASKS[mode], order = asks.order;
+      if (order[0] !== relation) throw new Error(`${id}: the first place of data/position-asks.json (${order[0]}) is not the type's own (${relation})`);
+      const rel = order[(Math.max(1, Math.floor(Number(ctx.variant) || 1)) - 1) % order.length];
+      const askLine = (asks[String(locale || 'en').slice(0, 2)] || {})[rel];
+      if (!askLine) throw new Error(`${id}: no instruction for ${rel} in ${locale}`);
       const W = 620, H = 560;
       const ns = rng.sample(pool, Math.min(pool.length, 6));
       const placed = [];
@@ -149,15 +163,24 @@ function makePositionType(cfg) {
           spots = [...spots.filter((p) => p.side === 'outside'), ...rng.shuffle(inner).map((p) => ({ ...p, side: clearSide(p.x, p.y) })).filter((p) => p.side === 'inside')];
           spots = rng.shuffle(spots);
         }
-        const hit = spots.filter((p) => p.side === relation), miss = spots.filter((p) => p.side !== relation);
-        if (hit.length < 2 || miss.length < 2) throw new Error(`${id}: only ${hit.length} clear spots ${relation} / ${miss.length} elsewhere — refuse`);
+        const hit = spots.filter((p) => p.side === rel), miss = spots.filter((p) => p.side !== rel);
+        if (hit.length < 2 || miss.length < 2) throw new Error(`${id}: only ${hit.length} clear spots ${rel} / ${miss.length} elsewhere — refuse`);
         // how many pictures stand at the asked place: 2 … icons − 2, evenly (taking the first spots of the shuffle left
         // "exactly two" on most pages — a count the child could guess)
         const k = Math.min(hit.length, rng.int(2, d.icons - 2));
         const take = [...hit.slice(0, k), ...miss.slice(0, d.icons - k)];
         for (const p of take) placed.push({ ...p, noun: rng.pick(ns) });
       } else {
-      const chosen = rng.shuffle(cells).slice(0, d.icons);
+      const shuffled = rng.shuffle(cells), chosen = shuffled.slice(0, d.icons);
+      // the side that is NOT asked holds at least two pictures (2026-11-17): a draw with nearly all its pictures on the
+      // asked side was refused by verify() and drawn again from another seed; with the asked side changing from copy to
+      // copy it is repaired here instead, from the cells the shuffle left over. Every other draw is untouched (too few
+      // on the ASKED side is still the nudge below, as it always was).
+      { const isLeft = ([c]) => c < cols / 2, rest = shuffled.slice(d.icons);
+        for (const want of [rel !== 'left']) while (chosen.filter((c) => isLeft(c) === want).length < 2) {
+          const from = rest.findIndex((c) => isLeft(c) === want), at = chosen.map((c, i) => [c, i]).filter(([c]) => isLeft(c) !== want).pop()[1];
+          chosen[at] = rest.splice(from, 1)[0];
+        } }
       chosen.forEach(([c, r]) => {
         const x = c * (W / cols) + (W / cols - 64) / 2 + (rng.next() * 2 - 1) * 8;
         const y = r * (H / rows) + (H / rows - 64) / 2 + (rng.next() * 2 - 1) * 6;
@@ -165,18 +188,18 @@ function makePositionType(cfg) {
       });
       }
       // guarantee at least 2 targets and 2 non-targets (left-right only: the other modes chose them above)
-      const targets = placed.filter((p) => p.side === relation).length;
+      const targets = placed.filter((p) => p.side === rel).length;
       if (targets < 2 || placed.length - targets < 2) {
         // deterministic nudge: flip the first few into/out of the target zone
         // (simple, rare; verify() guards the final truth)
         let need = Math.max(0, 2 - targets);
         for (const p of placed) {
           if (need <= 0) break;
-          if (p.side !== relation) {
-            if (mode === 'left-right') { p.x = relation === 'left' ? 40 : W - 100; }
-            else if (mode === 'rows') { p.y = relation === 'top' ? 20 : (relation === 'middle' ? H / 2 - 30 : H - 90); }
-            else { const cx = W / 2, cy = H / 2 + 10; p.x = cx - 32 + (relation === 'inside' ? 0 : 220); p.y = cy - 32; }
-            p.side = relation; need--;
+          if (p.side !== rel) {
+            if (mode === 'left-right') { p.x = rel === 'left' ? 40 : W - 100; }
+            else if (mode === 'rows') { p.y = rel === 'top' ? 20 : (rel === 'middle' ? H / 2 - 30 : H - 90); }
+            else { const cx = W / 2, cy = H / 2 + 10; p.x = cx - 32 + (rel === 'inside' ? 0 : 220); p.y = cy - 32; }
+            p.side = rel; need--;
           }
         }
       }
@@ -200,15 +223,16 @@ function makePositionType(cfg) {
       const imgs = placed.map((p) =>
         // generic marks (2026-11-03): every picture a candidate, the ones at the asked place ringed (key + tap-select screen)
         `<img class="ws-icon" src="${fileUri(theme, p.noun.noun)}" alt="" data-lcs-side="${p.side}"${slot.attr(ctx, 'pic', chosenKinds.indexOf(p.noun))} data-lcs-pick` +
-        `${p.side === relation ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
+        `${p.side === rel ? ' data-lcs-target="1" data-lcs-key-ring' : ''} ` +
         `style="position:absolute;left:${p.x.toFixed(1)}px;top:${p.y.toFixed(1)}px;width:64px;height:64px">`).join('');
 
       return {
         bodyHtml:
           `<div class="ws-scene" style="padding:0;justify-content:center;align-items:center">` +
-          `<div style="position:relative;width:${W}px;height:${H}px" data-ws-content data-lcs-relation="${relation}">${decor}${imgs}</div>` +
+          `<div style="position:relative;width:${W}px;height:${H}px" data-ws-content data-lcs-relation="${rel}"${rel !== relation ? ` data-lcs-other-asks="${order.filter((o) => o !== rel).map((o) => encodeURIComponent((asks[String(locale || 'en').slice(0, 2)] || {})[o] || '')).join('|')}"` : ''}>${decor}${imgs}</div>` +
           `</div>`,
-        meta: { relation, targets: placed.filter((p) => p.side === relation).length },
+        ...(rel !== relation ? { strings: { instruction: askLine } } : {}),
+        meta: { relation: rel, targets: placed.filter((p) => p.side === rel).length },
       };
     },
 
@@ -218,6 +242,11 @@ function makePositionType(cfg) {
         const fails = [];
         document.querySelectorAll('[data-lcs-relation]').forEach((stage, i) => {
           const relation = stage.dataset.lcsRelation;
+          if (stage.dataset.lcsOtherAsks) {
+            const norm = (t) => String(t || '').replace(/[\u00A0\u202F]/g, ' ').replace(/\s+/g, ' ').trim();
+            const line = norm((document.querySelector('[data-lcs-instruction]') || {}).textContent);
+            if (stage.dataset.lcsOtherAsks.split('|').map((x) => norm(decodeURIComponent(x))).includes(line)) fails.push(`stage ${i + 1}: the page asks ${relation} but its instruction names another place`);
+          }
           const icons = [...stage.querySelectorAll('.ws-icon')];
           const attr = mode === 'on-under' ? 'lcsRel' : 'lcsSide';
           const targets = icons.filter((el) => el.dataset[attr] === relation);

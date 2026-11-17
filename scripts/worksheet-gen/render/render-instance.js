@@ -30,6 +30,10 @@ async function renderInstance(o) {
   // An unfilled token is refused: a child must never read '{LAST}'.
   if (built.tokens) strings = { ...strings, instruction: String(strings.instruction).replace(/{([A-Z]+)}/g, (m0, k) => (built.tokens[k] != null ? built.tokens[k] : m0)) };
   if (/{[A-Z]+}/.test(strings.instruction || '')) throw new Error('render-instance: ' + type.id + ' instruction keeps an unfilled token: ' + strings.instruction);
+  // a copy may bring its own instruction line (position words, 2026-11-17: the place a copy asks changes from copy to
+  // copy, and the line names it), on every page (print, screen, key) and in the deck (r.strings). Only a type that
+  // says so (type.copyInstruction): the own words of other types' copies reach the maker alone, as before.
+  if (type.copyInstruction && built.strings && built.strings.instruction) strings = { ...strings, instruction: built.strings.instruction };
   // the heading PRINTED on every page (a corrected printTitle when the face has one; the search title stays strings.title)
   const head = strings.printTitle || strings.title;
   const html = buildPage({

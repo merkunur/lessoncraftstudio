@@ -225,7 +225,8 @@
   },
   "K-066": {
     "title": "Topo, meio, base",
-    "instruction": "Circule cada figura da fileira do MEIO."
+    "instruction": "Circule cada figura da fileira do MEIO.",
+    "printTitle": "Em cima, no meio, embaixo"
   },
   "K-067": {
     "title": "Dentro e fora",

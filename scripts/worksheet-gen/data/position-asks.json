@@ -1,0 +1,45 @@
+{
+  "$comment": "The instruction line of K-065 Left and Right, K-066 Top, Middle, Bottom and K-067 Inside and Outside for each place a copy can ask (types/_shared/position-words.js). The FIRST place of a mode is the one the published pages ask; its sentence is the type's registered instruction (i18n/strings.<loc>.json), word for word: the factory refuses to load when they differ. Native per language (2026-11-17).",
+  "left-right": {
+    "order": ["left", "right"],
+    "en": { "left": "Circle every picture on the LEFT side of the line.", "right": "Circle every picture on the RIGHT side of the line." },
+    "de": { "left": "Kreise jedes Bild auf der LINKEN Seite der Linie ein.", "right": "Kreise jedes Bild auf der RECHTEN Seite der Linie ein." },
+    "sv": { "left": "Ringa in varje bild på VÄNSTER sida om linjen.", "right": "Ringa in varje bild på HÖGER sida om linjen." },
+    "fr": { "left": "Entoure chaque image à GAUCHE de la ligne.", "right": "Entoure chaque image à DROITE de la ligne." },
+    "no": { "left": "Sett ring rundt hvert bilde på VENSTRE side av streken.", "right": "Sett ring rundt hvert bilde på HØYRE side av streken." },
+    "nl": { "left": "Omcirkel elk plaatje aan de LINKERkant van de lijn.", "right": "Omcirkel elk plaatje aan de RECHTERkant van de lijn." },
+    "fi": { "left": "Ympyröi jokainen kuva viivan VASEMMALLA puolella.", "right": "Ympyröi jokainen kuva viivan OIKEALLA puolella." },
+    "da": { "left": "Indkreds hvert billede på VENSTRE side af stregen.", "right": "Indkreds hvert billede på HØJRE side af stregen." },
+    "it": { "left": "Cerchia ogni immagine a SINISTRA della linea.", "right": "Cerchia ogni immagine a DESTRA della linea." },
+    "es": { "left": "Rodea cada dibujo del lado IZQUIERDO de la línea.", "right": "Rodea cada dibujo del lado DERECHO de la línea." },
+    "pt": { "left": "Circule cada figura do lado ESQUERDO da linha.", "right": "Circule cada figura do lado DIREITO da linha." }
+  },
+  "rows": {
+    "order": ["middle", "top", "bottom"],
+    "en": { "top": "Circle every picture in the TOP row.", "middle": "Circle every picture in the MIDDLE row.", "bottom": "Circle every picture in the BOTTOM row." },
+    "de": { "top": "Kreise jedes Bild in der OBERSTEN Reihe ein.", "middle": "Kreise jedes Bild in der MITTLEREN Reihe ein.", "bottom": "Kreise jedes Bild in der UNTERSTEN Reihe ein." },
+    "sv": { "top": "Ringa in varje bild i ÖVERSTA raden.", "middle": "Ringa in varje bild i MITTRADEN.", "bottom": "Ringa in varje bild i NEDERSTA raden." },
+    "fr": { "top": "Entoure chaque image dans la rangée du HAUT.", "middle": "Entoure chaque image dans la rangée du MILIEU.", "bottom": "Entoure chaque image dans la rangée du BAS." },
+    "no": { "top": "Sett ring rundt hvert bilde i ØVERSTE rad.", "middle": "Sett ring rundt hvert bilde i MIDTERSTE rad.", "bottom": "Sett ring rundt hvert bilde i NEDERSTE rad." },
+    "nl": { "top": "Omcirkel elk plaatje in de BOVENSTE rij.", "middle": "Omcirkel elk plaatje in de MIDDELSTE rij.", "bottom": "Omcirkel elk plaatje in de ONDERSTE rij." },
+    "fi": { "top": "Ympyröi jokainen kuva YLIMMÄLLÄ rivillä.", "middle": "Ympyröi jokainen kuva KESKIMMÄISELLÄ rivillä.", "bottom": "Ympyröi jokainen kuva ALIMMALLA rivillä." },
+    "da": { "top": "Indkreds hvert billede i den ØVERSTE række.", "middle": "Indkreds hvert billede i den MIDTERSTE række.", "bottom": "Indkreds hvert billede i den NEDERSTE række." },
+    "it": { "top": "Cerchia ogni immagine nella fila IN ALTO.", "middle": "Cerchia ogni immagine nella fila DI MEZZO.", "bottom": "Cerchia ogni immagine nella fila IN BASSO." },
+    "es": { "top": "Rodea cada dibujo de la fila DE ARRIBA.", "middle": "Rodea cada dibujo de la fila DEL MEDIO.", "bottom": "Rodea cada dibujo de la fila DE ABAJO." },
+    "pt": { "top": "Circule cada figura da fileira de CIMA.", "middle": "Circule cada figura da fileira do MEIO.", "bottom": "Circule cada figura da fileira de BAIXO." }
+  },
+  "inside-outside": {
+    "order": ["inside", "outside"],
+    "en": { "inside": "Circle every picture INSIDE the big shape.", "outside": "Circle every picture OUTSIDE the big shape." },
+    "de": { "inside": "Kreise jedes Bild ein, das IN der großen Form ist.", "outside": "Kreise jedes Bild ein, das AUSSERHALB der großen Form ist." },
+    "sv": { "inside": "Ringa in varje bild INUTI den stora figuren.", "outside": "Ringa in varje bild UTANFÖR den stora figuren." },
+    "fr": { "inside": "Entoure chaque image qui est DANS la grande forme.", "outside": "Entoure chaque image qui est EN DEHORS de la grande forme." },
+    "no": { "inside": "Sett ring rundt hvert bilde INNI den store figuren.", "outside": "Sett ring rundt hvert bilde UTENFOR den store figuren." },
+    "nl": { "inside": "Omcirkel elk plaatje BINNEN de grote vorm.", "outside": "Omcirkel elk plaatje BUITEN de grote vorm." },
+    "fi": { "inside": "Ympyröi jokainen kuva ison kuvion SISÄLLÄ.", "outside": "Ympyröi jokainen kuva ison kuvion ULKOPUOLELLA." },
+    "da": { "inside": "Indkreds hvert billede INDEN I den store figur.", "outside": "Indkreds hvert billede UDEN FOR den store figur." },
+    "it": { "inside": "Cerchia ogni immagine DENTRO la forma grande.", "outside": "Cerchia ogni immagine FUORI dalla forma grande." },
+    "es": { "inside": "Rodea cada dibujo que está DENTRO de la figura grande.", "outside": "Rodea cada dibujo que está FUERA de la figura grande." },
+    "pt": { "inside": "Circule cada figura que está DENTRO da forma grande.", "outside": "Circule cada figura que está FORA da forma grande." }
+  }
+}

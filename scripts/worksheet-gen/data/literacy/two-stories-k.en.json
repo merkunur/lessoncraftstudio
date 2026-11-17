@@ -1,0 +1,881 @@
+{
+ "about": "Ten original read-aloud stories for the Kindergarten lesson Two stories, two adventures (RL.K.9), five of each adventure. Each story states a value of every slot of its adventure in its own sentence (the proof); a card of a pair is Both when the two stories state one value, Story 1 or Story 2 when they state different values. The slots in \"happened\" tell what happened to the characters (at least two thirds of the cards of a page). The end feeling is stated in the last sentence; \"earlier\" holds a feeling stated before the end (a wrong face of its row); the faces in \"never\" fit no moment of the story.",
+ "kinds": {
+  "lost": {
+   "name": "lost and found",
+   "happened": [
+    "item",
+    "helper",
+    "found"
+   ],
+   "slots": {
+    "item": {
+     "kite": [
+      "lost a kite",
+      "toys",
+      "kite",
+      "kite",
+      "kit"
+     ],
+     "ball": [
+      "lost a ball",
+      "toys",
+      "ball",
+      "ball",
+      "bol"
+     ],
+     "hat": [
+      "lost a hat",
+      "clothing",
+      "hat",
+      "hat",
+      "hat"
+     ]
+    },
+    "place": {
+     "playground": [
+      "at the playground",
+      "activities",
+      "playground"
+     ],
+     "garden": [
+      "in the garden",
+      "spring",
+      "garden"
+     ]
+    },
+    "helper": {
+     "owl": [
+      "Owl helped",
+      "birds",
+      "owl",
+      "owl",
+      "oul"
+     ],
+     "frog": [
+      "Frog helped",
+      "camping",
+      "frog",
+      "frog",
+      "frog"
+     ],
+     "duck": [
+      "Duck helped",
+      "animals",
+      "duck",
+      "duck",
+      "duk"
+     ]
+    },
+    "found": {
+     "tree": [
+      "stuck in a tree",
+      "tree",
+      "oak",
+      "tree",
+      "tre"
+     ],
+     "rock": [
+      "behind a rock",
+      "beach",
+      "rock",
+      "rock",
+      "rok"
+     ],
+     "bench": [
+      "under a bench",
+      "furniture",
+      "bench",
+      "bench",
+      "bensh"
+     ]
+    },
+    "weather": {
+     "cloudy": [
+      "a cloudy day",
+      "weather",
+      "cloudy"
+     ],
+     "sunny": [
+      "a sunny day",
+      "weather",
+      "sunny"
+     ]
+    }
+   },
+   "tell": {
+    "item": "In both stories someone {card}.",
+    "place": "Both stories happen {card}.",
+    "helper": "In both stories {card}.",
+    "found": "In both stories the lost thing was {card}.",
+    "weather": "It was {card} in both stories."
+   }
+  },
+  "help": {
+   "name": "helping a friend",
+   "happened": [
+    "friend",
+    "problem",
+    "gift"
+   ],
+   "slots": {
+    "friend": {
+     "duck": [
+      "helped Duck",
+      "animals",
+      "duck",
+      "duck",
+      "duk"
+     ],
+     "turtle": [
+      "helped Turtle",
+      "animals",
+      "turtle",
+      "turtle",
+      "trtl"
+     ],
+     "bird": [
+      "helped Bird",
+      "spring",
+      "bird",
+      "bird",
+      "brd"
+     ]
+    },
+    "problem": {
+     "hungry": [
+      "a hungry friend",
+      "kitchen tools",
+      "bowl",
+      "hungry",
+      "hungre"
+     ],
+     "cold": [
+      "a cold friend",
+      "weather",
+      "mittens",
+      "cold",
+      "kold"
+     ],
+     "hot": [
+      "too hot in the sun",
+      "weather",
+      "thermometer",
+      "hot",
+      "hot"
+     ]
+    },
+    "gift": {
+     "apple": [
+      "gave an apple",
+      "fruits",
+      "apple",
+      "apple",
+      "apl"
+     ],
+     "berries": [
+      "gave berries",
+      "fruits",
+      "raspberry",
+      "berries",
+      "bareez"
+     ],
+     "scarf": [
+      "gave a scarf",
+      "accessories",
+      "scarf",
+      "scarf",
+      "skarf"
+     ],
+     "umbrella": [
+      "gave an umbrella",
+      "accessories",
+      "umbrella",
+      "umbrella",
+      "umbrela"
+     ]
+    },
+    "place": {
+     "garden": [
+      "in the garden",
+      "spring",
+      "garden"
+     ],
+     "forest": [
+      "in the forest",
+      "camping",
+      "forest"
+     ]
+    },
+    "weather": {
+     "rainy": [
+      "a rainy day",
+      "weather",
+      "rainy"
+     ],
+     "sunny": [
+      "a sunny day",
+      "weather",
+      "sunny"
+     ],
+     "snowy": [
+      "a snowy day",
+      "weather",
+      "snowflake"
+     ]
+    }
+   },
+   "tell": {
+    "friend": "In both stories someone {card}.",
+    "problem": "In both stories a friend was {word}.",
+    "gift": "In both stories someone {card}.",
+    "place": "Both stories happen {card}.",
+    "weather": "It was {card} in both stories."
+   }
+  }
+ },
+ "stories": [
+  {
+   "id": "fox",
+   "kind": "lost",
+   "name": "Fox",
+   "title": "Fox and the Kite",
+   "pic": [
+    "animals",
+    "fox"
+   ],
+   "text": [
+    "Fox went to the playground with his kite.",
+    "It was a cloudy day.",
+    "The wind pulled hard, and Fox lost his kite.",
+    "Fox looked by the swings.",
+    "Fox felt sad.",
+    "Owl flew over to help.",
+    "“I can look from up high,” said Owl.",
+    "Owl found the kite.",
+    "It was stuck in a tree!",
+    "Owl pulled it down.",
+    "Fox gave Owl a big hug.",
+    "Fox was happy."
+   ],
+   "slots": {
+    "item": [
+     "kite",
+     "The wind pulled hard, and Fox lost his kite."
+    ],
+    "place": [
+     "playground",
+     "Fox went to the playground with his kite."
+    ],
+    "helper": [
+     "owl",
+     "Owl flew over to help."
+    ],
+    "found": [
+     "tree",
+     "It was stuck in a tree!"
+    ],
+    "weather": [
+     "cloudy",
+     "It was a cloudy day."
+    ]
+   },
+   "end": [
+    "happy",
+    "Fox was happy."
+   ],
+   "earlier": [
+    [
+     "sad",
+     "Fox felt sad."
+    ]
+   ],
+   "never": [
+    "angry",
+    "scared"
+   ]
+  },
+  {
+   "id": "pig",
+   "kind": "lost",
+   "name": "Pig",
+   "title": "Pig and the Ball",
+   "pic": [
+    "farm animals",
+    "pig"
+   ],
+   "text": [
+    "Pig played ball at the playground.",
+    "It was a cloudy day.",
+    "Pig kicked the ball very hard.",
+    "Pig lost her ball!",
+    "Pig felt sad.",
+    "Frog hopped over to help.",
+    "Frog hopped this way and that way.",
+    "The ball was behind a rock.",
+    "“Thank you, Frog!” said Pig.",
+    "Pig and Frog played ball all morning.",
+    "Then Pig was so tired that she took a nap."
+   ],
+   "slots": {
+    "item": [
+     "ball",
+     "Pig lost her ball!"
+    ],
+    "place": [
+     "playground",
+     "Pig played ball at the playground."
+    ],
+    "helper": [
+     "frog",
+     "Frog hopped over to help."
+    ],
+    "found": [
+     "rock",
+     "The ball was behind a rock."
+    ],
+    "weather": [
+     "cloudy",
+     "It was a cloudy day."
+    ]
+   },
+   "end": [
+    "tired",
+    "Then Pig was so tired that she took a nap."
+   ],
+   "earlier": [
+    [
+     "sad",
+     "Pig felt sad."
+    ]
+   ],
+   "never": [
+    "angry",
+    "surprised"
+   ]
+  },
+  {
+   "id": "mouse",
+   "kind": "lost",
+   "name": "Mouse",
+   "title": "Mouse in the Garden",
+   "pic": [
+    "forest creatures",
+    "mouse"
+   ],
+   "text": [
+    "Mouse was in the garden.",
+    "It was a cloudy day.",
+    "She smelled the flowers.",
+    "Then a gust of wind came.",
+    "Mouse lost her hat!",
+    "She looked by the flowers and by the fence.",
+    "Frog saw Mouse looking.",
+    "Frog hopped over to help.",
+    "Frog looked all around the garden.",
+    "Mouse’s hat was behind a rock.",
+    "Mouse put her hat back on and smiled.",
+    "Mouse was happy."
+   ],
+   "slots": {
+    "item": [
+     "hat",
+     "Mouse lost her hat!"
+    ],
+    "place": [
+     "garden",
+     "Mouse was in the garden."
+    ],
+    "helper": [
+     "frog",
+     "Frog hopped over to help."
+    ],
+    "found": [
+     "rock",
+     "Mouse’s hat was behind a rock."
+    ],
+    "weather": [
+     "cloudy",
+     "It was a cloudy day."
+    ]
+   },
+   "end": [
+    "happy",
+    "Mouse was happy."
+   ],
+   "earlier": [],
+   "never": [
+    "angry",
+    "scared"
+   ]
+  },
+  {
+   "id": "raccoon",
+   "kind": "lost",
+   "name": "Raccoon",
+   "title": "Raccoon on the Slide",
+   "pic": [
+    "forest creatures",
+    "raccoon"
+   ],
+   "text": [
+    "Raccoon went down the slide at the playground.",
+    "It was a cloudy day.",
+    "Whoosh!",
+    "Raccoon lost his hat!",
+    "He felt sad.",
+    "Duck waddled over to help.",
+    "“Let’s look together,” said Duck.",
+    "They looked by the swings and by the sandbox.",
+    "Then Duck quacked.",
+    "The hat was under the bench next to the slide!",
+    "Raccoon put on his hat.",
+    "He was happy."
+   ],
+   "slots": {
+    "item": [
+     "hat",
+     "Raccoon lost his hat!"
+    ],
+    "place": [
+     "playground",
+     "Raccoon went down the slide at the playground."
+    ],
+    "helper": [
+     "duck",
+     "Duck waddled over to help."
+    ],
+    "found": [
+     "bench",
+     "The hat was under the bench next to the slide!"
+    ],
+    "weather": [
+     "cloudy",
+     "It was a cloudy day."
+    ]
+   },
+   "end": [
+    "happy",
+    "He was happy."
+   ],
+   "earlier": [
+    [
+     "sad",
+     "He felt sad."
+    ]
+   ],
+   "never": [
+    "angry",
+    "scared"
+   ]
+  },
+  {
+   "id": "squirrel",
+   "kind": "lost",
+   "name": "Squirrel",
+   "title": "Squirrel Runs Fast",
+   "pic": [
+    "forest creatures",
+    "squirrel"
+   ],
+   "text": [
+    "Squirrel ran around the playground.",
+    "It was a sunny day.",
+    "Squirrel ran so fast that he lost his hat.",
+    "He felt sad.",
+    "Owl was sitting on a branch.",
+    "Owl came down to help.",
+    "They looked high and low.",
+    "At last, Owl spotted the hat.",
+    "The hat was behind a rock.",
+    "Squirrel put it on and ran all the way home.",
+    "Squirrel was so tired that he took a nap."
+   ],
+   "slots": {
+    "item": [
+     "hat",
+     "Squirrel ran so fast that he lost his hat."
+    ],
+    "place": [
+     "playground",
+     "Squirrel ran around the playground."
+    ],
+    "helper": [
+     "owl",
+     "Owl came down to help."
+    ],
+    "found": [
+     "rock",
+     "The hat was behind a rock."
+    ],
+    "weather": [
+     "sunny",
+     "It was a sunny day."
+    ]
+   },
+   "end": [
+    "tired",
+    "Squirrel was so tired that he took a nap."
+   ],
+   "earlier": [
+    [
+     "sad",
+     "He felt sad."
+    ]
+   ],
+   "never": [
+    "angry",
+    "surprised"
+   ]
+  },
+  {
+   "id": "cow",
+   "kind": "help",
+   "name": "Cow",
+   "title": "Cow Helps Duck",
+   "pic": [
+    "farm animals",
+    "cow"
+   ],
+   "text": [
+    "It was a rainy day.",
+    "Cow was in the garden.",
+    "She saw Duck there.",
+    "Duck looked hungry.",
+    "Cow put an apple in her bag.",
+    "She took the bag to Duck.",
+    "Cow wanted to help Duck.",
+    "She gave Duck the apple.",
+    "Duck ate it all up.",
+    "“Yum! Thank you, Cow,” said Duck.",
+    "Cow and Duck splashed in the puddles.",
+    "Cow felt happy that she helped a friend."
+   ],
+   "slots": {
+    "friend": [
+     "duck",
+     "Cow wanted to help Duck."
+    ],
+    "problem": [
+     "hungry",
+     "Duck looked hungry."
+    ],
+    "gift": [
+     "apple",
+     "She gave Duck the apple."
+    ],
+    "place": [
+     "garden",
+     "Cow was in the garden."
+    ],
+    "weather": [
+     "rainy",
+     "It was a rainy day."
+    ]
+   },
+   "end": [
+    "happy",
+    "Cow felt happy that she helped a friend."
+   ],
+   "earlier": [],
+   "never": [
+    "angry",
+    "scared",
+    "sad"
+   ]
+  },
+  {
+   "id": "goat",
+   "kind": "help",
+   "name": "Goat",
+   "title": "A Snack for Turtle",
+   "pic": [
+    "farm animals",
+    "goat"
+   ],
+   "text": [
+    "It was a sunny day in the forest.",
+    "Goat heard Turtle say, “I am so hungry!”",
+    "Goat had a red apple.",
+    "She put the apple in her bag.",
+    "Goat took the bag up the hill.",
+    "Goat wanted to help her friend Turtle.",
+    "She gave Turtle the apple.",
+    "Turtle ate it.",
+    "“Thank you, Goat!” said Turtle.",
+    "Goat walked all the way home.",
+    "She was so tired that she went to bed early."
+   ],
+   "slots": {
+    "friend": [
+     "turtle",
+     "Goat wanted to help her friend Turtle."
+    ],
+    "problem": [
+     "hungry",
+     "Goat heard Turtle say, “I am so hungry!”"
+    ],
+    "gift": [
+     "apple",
+     "She gave Turtle the apple."
+    ],
+    "place": [
+     "forest",
+     "It was a sunny day in the forest."
+    ],
+    "weather": [
+     "sunny",
+     "It was a sunny day in the forest."
+    ]
+   },
+   "end": [
+    "tired",
+    "She was so tired that she went to bed early."
+   ],
+   "earlier": [],
+   "never": [
+    "angry",
+    "surprised",
+    "sad"
+   ]
+  },
+  {
+   "id": "beaver",
+   "kind": "help",
+   "name": "Beaver",
+   "title": "Beaver Shares",
+   "pic": [
+    "forest creatures",
+    "beaver"
+   ],
+   "text": [
+    "It was a sunny day.",
+    "Beaver was in the garden.",
+    "Bird sat on the fence.",
+    "“My tummy is rumbling. I am hungry,” said Bird.",
+    "Beaver had a bucket.",
+    "Inside were red berries.",
+    "Beaver took the bucket to Bird.",
+    "Beaver wanted to help Bird.",
+    "She gave Bird the berries.",
+    "Bird ate them up.",
+    "“Thank you, Beaver,” said Bird.",
+    "The next day, Bird brought Beaver a pinecone.",
+    "Beaver was so surprised!"
+   ],
+   "slots": {
+    "friend": [
+     "bird",
+     "Beaver wanted to help Bird."
+    ],
+    "problem": [
+     "hungry",
+     "“My tummy is rumbling. I am hungry,” said Bird."
+    ],
+    "gift": [
+     "berries",
+     "She gave Bird the berries."
+    ],
+    "place": [
+     "garden",
+     "Beaver was in the garden."
+    ],
+    "weather": [
+     "sunny",
+     "It was a sunny day."
+    ]
+   },
+   "end": [
+    "surprised",
+    "Beaver was so surprised!"
+   ],
+   "earlier": [],
+   "never": [
+    "tired",
+    "angry",
+    "sad"
+   ]
+  },
+  {
+   "id": "deer",
+   "kind": "help",
+   "name": "Deer",
+   "title": "A Scarf for Bird",
+   "pic": [
+    "forest creatures",
+    "deer"
+   ],
+   "text": [
+    "It was a snowy day.",
+    "Deer went out in the garden.",
+    "Bird was shaking on a branch.",
+    "“I am so cold,” said Bird.",
+    "Deer put her long scarf in her bag.",
+    "She took the bag to Bird.",
+    "Deer wanted to help her friend Bird.",
+    "She gave Bird the scarf.",
+    "Bird wrapped it around her neck.",
+    "Soon Bird was warm.",
+    "Deer walked home in the snow.",
+    "She was so tired that she took a nap."
+   ],
+   "slots": {
+    "friend": [
+     "bird",
+     "Deer wanted to help her friend Bird."
+    ],
+    "problem": [
+     "cold",
+     "“I am so cold,” said Bird."
+    ],
+    "gift": [
+     "scarf",
+     "She gave Bird the scarf."
+    ],
+    "place": [
+     "garden",
+     "Deer went out in the garden."
+    ],
+    "weather": [
+     "snowy",
+     "It was a snowy day."
+    ]
+   },
+   "end": [
+    "tired",
+    "She was so tired that she took a nap."
+   ],
+   "earlier": [],
+   "never": [
+    "angry",
+    "surprised",
+    "sad"
+   ]
+  },
+  {
+   "id": "lamb",
+   "kind": "help",
+   "name": "Lamb",
+   "title": "Shade for Turtle",
+   "pic": [
+    "farm animals",
+    "lamb"
+   ],
+   "text": [
+    "It was a hot, sunny day.",
+    "Lamb was in the garden.",
+    "Turtle was there too.",
+    "“The sun is too hot for me,” said Turtle.",
+    "Lamb had an idea.",
+    "She put her umbrella in her bag.",
+    "Lamb took the bag to Turtle.",
+    "Lamb wanted to help her friend Turtle.",
+    "She gave Turtle the umbrella.",
+    "Turtle sat in the shade.",
+    "“Thank you, Lamb!” said Turtle.",
+    "Lamb sat in the shade too.",
+    "She was happy."
+   ],
+   "slots": {
+    "friend": [
+     "turtle",
+     "Lamb wanted to help her friend Turtle."
+    ],
+    "problem": [
+     "hot",
+     "“The sun is too hot for me,” said Turtle."
+    ],
+    "gift": [
+     "umbrella",
+     "She gave Turtle the umbrella."
+    ],
+    "place": [
+     "garden",
+     "Lamb was in the garden."
+    ],
+    "weather": [
+     "sunny",
+     "It was a hot, sunny day."
+    ]
+   },
+   "end": [
+    "happy",
+    "She was happy."
+   ],
+   "earlier": [],
+   "never": [
+    "angry",
+    "scared",
+    "sad"
+   ]
+  }
+ ],
+ "faces": {
+  "happy": [
+   "emotions",
+   "happy"
+  ],
+  "sad": [
+   "emotions",
+   "sad"
+  ],
+  "angry": [
+   "emotions",
+   "angry"
+  ],
+  "scared": [
+   "emotions",
+   "scared"
+  ],
+  "surprised": [
+   "emotions",
+   "surprised"
+  ],
+  "tired": [
+   "emotions",
+   "tired"
+  ]
+ },
+ "famous": [
+  "Kitten’s First Full Moon",
+  "Owl Moon",
+  "Owl Babies",
+  "Little Owl Lost",
+  "Frog and Toad",
+  "Duck and Goose",
+  "Little Blue Truck",
+  "Pig the Pug",
+  "Peter Rabbit",
+  "The Very Hungry Caterpillar",
+  "If You Give a Mouse a Cookie",
+  "The Kissing Hand",
+  "Knuffle Bunny",
+  "Corduroy",
+  "Harold and the Purple Crayon",
+  "Where the Wild Things Are",
+  "The Mitten",
+  "The Hat",
+  "Jan Brett",
+  "Elephant and Piggie",
+  "Mouse Paint",
+  "The Gruffalo",
+  "Hedgehug",
+  "Little Red Hen"
+ ],
+ "banned": [
+  "kill",
+  "dead",
+  "die",
+  "gun",
+  "hate",
+  "stupid",
+  "dumb",
+  "fat",
+  "ugly",
+  "poop",
+  "butt",
+  "sex",
+  "hell",
+  "damn"
+ ]
+}

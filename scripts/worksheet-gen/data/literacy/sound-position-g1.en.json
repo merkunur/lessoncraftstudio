@@ -1,0 +1,603 @@
+{
+ "about": "Picture words with a short vowel for the Grade 1 lesson First, middle, or last sound? (RF.1.2.c): CVC words (three sounds: first, middle = the vowel, last) and CCVC words (four sounds; only the first and the last are ever asked). \"sounds\" as a teacher writes them, \"letters\" the letters that spell each sound. Every picture looked at.",
+ "words": {
+  "cat": {
+   "pic": [
+    "pets",
+    "cat"
+   ],
+   "kind": "cat",
+   "cls": "animal",
+   "sounds": [
+    "k",
+    "ă",
+    "t"
+   ],
+   "letters": [
+    "c",
+    "a",
+    "t"
+   ]
+  },
+  "hat": {
+   "pic": [
+    "clothing",
+    "hat"
+   ],
+   "kind": "hat",
+   "cls": "clothing",
+   "sounds": [
+    "h",
+    "ă",
+    "t"
+   ],
+   "letters": [
+    "h",
+    "a",
+    "t"
+   ]
+  },
+  "bat": {
+   "pic": [
+    "animals",
+    "bat"
+   ],
+   "kind": "bat",
+   "cls": "animal",
+   "sounds": [
+    "b",
+    "ă",
+    "t"
+   ],
+   "letters": [
+    "b",
+    "a",
+    "t"
+   ]
+  },
+  "fan": {
+   "pic": [
+    "around the house",
+    "fan"
+   ],
+   "kind": "fan",
+   "cls": "thing",
+   "sounds": [
+    "f",
+    "ă",
+    "n"
+   ],
+   "letters": [
+    "f",
+    "a",
+    "n"
+   ],
+   "alt": [
+    "ĕ"
+   ]
+  },
+  "map": {
+   "pic": [
+    "classroom",
+    "map"
+   ],
+   "kind": "map",
+   "cls": "thing",
+   "sounds": [
+    "m",
+    "ă",
+    "p"
+   ],
+   "letters": [
+    "m",
+    "a",
+    "p"
+   ]
+  },
+  "bag": {
+   "pic": [
+    "At the Supermarket",
+    "bag"
+   ],
+   "kind": "bag",
+   "cls": "thing",
+   "sounds": [
+    "b",
+    "ă",
+    "g"
+   ],
+   "letters": [
+    "b",
+    "a",
+    "g"
+   ],
+   "alt": [
+    "ā",
+    "ĕ"
+   ]
+  },
+  "bed": {
+   "pic": [
+    "furniture",
+    "bed"
+   ],
+   "kind": "bed",
+   "cls": "thing",
+   "sounds": [
+    "b",
+    "ĕ",
+    "d"
+   ],
+   "letters": [
+    "b",
+    "e",
+    "d"
+   ]
+  },
+  "leg": {
+   "pic": [
+    "body parts",
+    "leg"
+   ],
+   "kind": "leg",
+   "cls": "body",
+   "sounds": [
+    "l",
+    "ĕ",
+    "g"
+   ],
+   "letters": [
+    "l",
+    "e",
+    "g"
+   ],
+   "alt": [
+    "ā"
+   ]
+  },
+  "pen": {
+   "pic": [
+    "classroom",
+    "pen"
+   ],
+   "kind": "pen",
+   "cls": "thing",
+   "sounds": [
+    "p",
+    "ĕ",
+    "n"
+   ],
+   "letters": [
+    "p",
+    "e",
+    "n"
+   ],
+   "alt": [
+    "ĭ"
+   ]
+  },
+  "bell": {
+   "pic": [
+    "christmas",
+    "bell"
+   ],
+   "kind": "bell",
+   "cls": "thing",
+   "sounds": [
+    "b",
+    "ĕ",
+    "l"
+   ],
+   "letters": [
+    "b",
+    "e",
+    "ll"
+   ]
+  },
+  "pig": {
+   "pic": [
+    "farm animals",
+    "pig"
+   ],
+   "kind": "pig",
+   "cls": "animal",
+   "sounds": [
+    "p",
+    "ĭ",
+    "g"
+   ],
+   "letters": [
+    "p",
+    "i",
+    "g"
+   ]
+  },
+  "fish": {
+   "pic": [
+    "animals",
+    "fish"
+   ],
+   "kind": "fish",
+   "cls": "animal",
+   "sounds": [
+    "f",
+    "ĭ",
+    "sh"
+   ],
+   "letters": [
+    "f",
+    "i",
+    "sh"
+   ]
+  },
+  "dog": {
+   "pic": [
+    "pets",
+    "dog"
+   ],
+   "kind": "dog",
+   "cls": "animal",
+   "sounds": [
+    "d",
+    "ŏ",
+    "g"
+   ],
+   "letters": [
+    "d",
+    "o",
+    "g"
+   ],
+   "alt": [
+    "ô"
+   ]
+  },
+  "log": {
+   "pic": [
+    "camping",
+    "log"
+   ],
+   "kind": "log",
+   "cls": "nature",
+   "sounds": [
+    "l",
+    "ŏ",
+    "g"
+   ],
+   "letters": [
+    "l",
+    "o",
+    "g"
+   ],
+   "alt": [
+    "ô"
+   ]
+  },
+  "sock": {
+   "pic": [
+    "accessories",
+    "sock"
+   ],
+   "kind": "sock",
+   "cls": "clothing",
+   "sounds": [
+    "s",
+    "ŏ",
+    "k"
+   ],
+   "letters": [
+    "s",
+    "o",
+    "ck"
+   ]
+  },
+  "lock": {
+   "pic": [
+    "around the house",
+    "lock"
+   ],
+   "kind": "lock",
+   "cls": "thing",
+   "sounds": [
+    "l",
+    "ŏ",
+    "k"
+   ],
+   "letters": [
+    "l",
+    "o",
+    "ck"
+   ]
+  },
+  "rock": {
+   "pic": [
+    "beach",
+    "rock"
+   ],
+   "kind": "rock",
+   "cls": "nature",
+   "sounds": [
+    "r",
+    "ŏ",
+    "k"
+   ],
+   "letters": [
+    "r",
+    "o",
+    "ck"
+   ]
+  },
+  "pot": {
+   "pic": [
+    "kitchen tools",
+    "pot"
+   ],
+   "kind": "pot",
+   "cls": "thing",
+   "sounds": [
+    "p",
+    "ŏ",
+    "t"
+   ],
+   "letters": [
+    "p",
+    "o",
+    "t"
+   ]
+  },
+  "sun": {
+   "pic": [
+    "beach",
+    "sun"
+   ],
+   "kind": "sun",
+   "cls": "nature",
+   "sounds": [
+    "s",
+    "ŭ",
+    "n"
+   ],
+   "letters": [
+    "s",
+    "u",
+    "n"
+   ]
+  },
+  "bus": {
+   "pic": [
+    "vehicles",
+    "bus"
+   ],
+   "kind": "bus",
+   "cls": "vehicle",
+   "sounds": [
+    "b",
+    "ŭ",
+    "s"
+   ],
+   "letters": [
+    "b",
+    "u",
+    "s"
+   ]
+  },
+  "cup": {
+   "pic": [
+    "kitchen tools",
+    "cup"
+   ],
+   "kind": "cup",
+   "cls": "thing",
+   "sounds": [
+    "k",
+    "ŭ",
+    "p"
+   ],
+   "letters": [
+    "c",
+    "u",
+    "p"
+   ]
+  },
+  "frog": {
+   "pic": [
+    "camping",
+    "frog"
+   ],
+   "kind": "frog",
+   "cls": "animal",
+   "sounds": [
+    "f",
+    "r",
+    "ŏ",
+    "g"
+   ],
+   "letters": [
+    "f",
+    "r",
+    "o",
+    "g"
+   ],
+   "alt": [
+    "ô"
+   ]
+  },
+  "crab": {
+   "pic": [
+    "beach",
+    "crab"
+   ],
+   "kind": "crab",
+   "cls": "animal",
+   "sounds": [
+    "k",
+    "r",
+    "ă",
+    "b"
+   ],
+   "letters": [
+    "c",
+    "r",
+    "a",
+    "b"
+   ]
+  },
+  "flag": {
+   "pic": [
+    "4th of July",
+    "flag"
+   ],
+   "kind": "flag",
+   "cls": "thing",
+   "sounds": [
+    "f",
+    "l",
+    "ă",
+    "g"
+   ],
+   "letters": [
+    "f",
+    "l",
+    "a",
+    "g"
+   ],
+   "alt": [
+    "ā",
+    "ĕ"
+   ]
+  },
+  "drum": {
+   "noFirst": true,
+   "pic": [
+    "music",
+    "drum"
+   ],
+   "kind": "drum",
+   "cls": "toy",
+   "sounds": [
+    "d",
+    "r",
+    "ŭ",
+    "m"
+   ],
+   "letters": [
+    "d",
+    "r",
+    "u",
+    "m"
+   ]
+  },
+  "truck": {
+   "noFirst": true,
+   "pic": [
+    "vehicles",
+    "truck"
+   ],
+   "kind": "truck",
+   "cls": "vehicle",
+   "sounds": [
+    "t",
+    "r",
+    "ŭ",
+    "k"
+   ],
+   "letters": [
+    "t",
+    "r",
+    "u",
+    "ck"
+   ]
+  },
+  "sled": {
+   "pic": [
+    "winter",
+    "sled"
+   ],
+   "kind": "sled",
+   "cls": "toy",
+   "sounds": [
+    "s",
+    "l",
+    "ĕ",
+    "d"
+   ],
+   "letters": [
+    "s",
+    "l",
+    "e",
+    "d"
+   ]
+  },
+  "dress": {
+   "noFirst": true,
+   "pic": [
+    "clothing",
+    "dress"
+   ],
+   "kind": "dress",
+   "cls": "clothing",
+   "sounds": [
+    "d",
+    "r",
+    "ĕ",
+    "s"
+   ],
+   "letters": [
+    "d",
+    "r",
+    "e",
+    "ss"
+   ]
+  }
+ },
+ "refused": {
+  "clock": "clock starts and ends with /k/: no sound of it can be asked by position (first, middle, last) except the two of the blend",
+  "mop": "reads as broom",
+  "hen": "reads as chicken",
+  "net": "reads as a racket",
+  "cap": "reads as hat",
+  "van": "reads as car or bus",
+  "can": "reads as soup",
+  "jam": "reads as jelly",
+  "lip": "two lips",
+  "ship": "reads as boat",
+  "chick": "reads as bird",
+  "vest": "reads as jacket",
+  "crib": "reads as bed",
+  "rug": "reads as carpet",
+  "bun": "reads as bread",
+  "jug": "reads as pitcher",
+  "mug": "children say cup",
+  "fox": "x spells two sounds, /k/ /s/",
+  "nest": "the nest holds two chicks: read as birds",
+  "desk": "reads as table",
+  "plum": "reads as an apple",
+  "web": "no picture",
+  "box": "no picture",
+  "doll": "the library doll is a girl with pigtails, overalls and red shoes: children say girl",
+  "duck": "every library duck is a yellow duckling: some children say chick; the library has no grown duck"
+ },
+ "modelOnly": [
+  "mop",
+  "sit",
+  "top",
+  "man",
+  "web",
+  "step"
+ ],
+ "banned": [
+  "kill",
+  "dead",
+  "die",
+  "gun",
+  "hate",
+  "stupid",
+  "dumb",
+  "fat",
+  "ugly",
+  "poop",
+  "butt",
+  "sex",
+  "hell",
+  "damn"
+ ]
+}

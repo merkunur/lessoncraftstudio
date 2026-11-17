@@ -1,0 +1,464 @@
+{
+ "about": "Words with two meanings for the Kindergarten lesson Words with two meanings (L.K.4.a): each meaning has a library picture that shows it (looked at), a short name for the key (draw), and, for the words chosen by a sentence, three sentences that prove it (with the words that decide). The other picture of a level-2 row (a filler) is a thing named one way that is no meaning of any word; on level 3 it is a meaning of another word of the page. \"familiar\" is the meaning a kindergartner already knows (null: both are everyday); \"accept\" and \"say\" are for the key of the drawing task.",
+ "words": {
+  "bat": {
+   "choose": true,
+   "familiar": null,
+   "m": [
+    {
+     "id": "animal",
+     "pic": [
+      "animals",
+      "bat"
+     ],
+     "cls": "animal",
+     "draw": "a bat that flies",
+     "accept": "Accept any bat with wings.",
+     "say": "The bat flies at night.",
+     "sents": [
+      [
+       "The bat sleeps upside down all day.",
+       "sleeps upside down"
+      ],
+      [
+       "A bat flies out of the cave at night.",
+       "flies out of the cave"
+      ],
+      [
+       "The bat hangs from a branch by its feet.",
+       "hangs from a branch by its feet"
+      ]
+     ]
+    },
+    {
+     "id": "baseball",
+     "pic": [
+      "4th of July",
+      "baseball"
+     ],
+     "cls": "game",
+     "draw": "a baseball bat",
+     "accept": "Accept any bat for hitting a ball.",
+     "say": "I hit the ball with my bat.",
+     "sents": [
+      [
+       "Sam hits the ball with a bat.",
+       "hits the ball with"
+      ],
+      [
+       "Grandpa swings the bat and hits the ball.",
+       "swings the bat and hits the ball"
+      ],
+      [
+       "Mia holds the bat and waits for the ball.",
+       "waits for the ball"
+      ]
+     ]
+    }
+   ]
+  },
+  "nail": {
+   "choose": true,
+   "familiar": null,
+   "m": [
+    {
+     "id": "tool",
+     "pic": [
+      "tools",
+      "nail"
+     ],
+     "cls": "tool",
+     "draw": "a nail for wood",
+     "accept": "Accept any nail, or a nail in a board.",
+     "say": "The nail is in the wood.",
+     "sents": [
+      [
+       "Dad hits the nail with a hammer.",
+       "with a hammer"
+      ],
+      [
+       "The picture hangs on a nail in the wall.",
+       "hangs on a nail in the wall"
+      ],
+      [
+       "Hammer the nail into the wood.",
+       "Hammer the nail into the wood"
+      ]
+     ]
+    },
+    {
+     "id": "finger",
+     "pic": [
+      "body parts",
+      "nail"
+     ],
+     "cls": "body",
+     "draw": "a nail on a finger",
+     "accept": "Accept any finger or hand with a nail.",
+     "say": "I painted my nail red.",
+     "sents": [
+      [
+       "There is a nail at the tip of each finger.",
+       "at the tip of each finger"
+      ],
+      [
+       "Wash the dirt out from under your nail.",
+       "out from under your nail"
+      ],
+      [
+       "My nail grew long, so Mom trimmed it.",
+       "grew long, so Mom trimmed it"
+      ]
+     ]
+    }
+   ]
+  },
+  "palm": {
+   "choose": true,
+   "familiar": "tree",
+   "m": [
+    {
+     "id": "hand",
+     "pic": [
+      "body parts",
+      "hand"
+     ],
+     "cls": "body",
+     "draw": "the palm of a hand",
+     "accept": "Accept any open hand.",
+     "say": "I hold a bean in my palm.",
+     "sents": [
+      [
+       "Hold the seed in the palm of your hand.",
+       "of your hand"
+      ],
+      [
+       "Put the bean in your palm and close your fingers.",
+       "close your fingers"
+      ],
+      [
+       "The ladybug walks across my palm and up my finger.",
+       "and up my finger"
+      ]
+     ]
+    },
+    {
+     "id": "tree",
+     "pic": [
+      "tree",
+      "palm"
+     ],
+     "cls": "plant",
+     "draw": "a palm tree",
+     "accept": "Accept any palm tree.",
+     "say": "A palm tree grows by the sea.",
+     "sents": [
+      [
+       "Coconuts grow at the top of a palm tree.",
+       "palm tree"
+      ],
+      [
+       "We sat in the shade of a palm tree at the beach.",
+       "palm tree"
+      ],
+      [
+       "The palm tree has a tall trunk.",
+       "palm tree has a tall trunk"
+      ]
+     ]
+    }
+   ]
+  },
+  "ear": {
+   "choose": true,
+   "familiar": "body",
+   "m": [
+    {
+     "id": "body",
+     "pic": [
+      "body parts",
+      "ear"
+     ],
+     "cls": "body",
+     "draw": "an ear to hear with",
+     "accept": "Accept any ear, or a face with ears.",
+     "say": "I hear the bell with my ear.",
+     "sents": [
+      [
+       "I hear with my ear.",
+       "hear with"
+      ],
+      [
+       "Mia whispers in my ear.",
+       "whispers in my ear"
+      ],
+      [
+       "The doctor looks in my ear.",
+       "looks in my ear"
+      ]
+     ]
+    },
+    {
+     "id": "corn",
+     "pic": [
+      "vegetables",
+      "corn"
+     ],
+     "cls": "food",
+     "draw": "an ear of corn",
+     "accept": "Accept any ear of corn.",
+     "say": "I eat an ear of corn.",
+     "sents": [
+      [
+       "Dad cooked an ear of corn for dinner.",
+       "ear of corn"
+      ],
+      [
+       "I ate a whole ear of corn.",
+       "ear of corn"
+      ],
+      [
+       "Grandma bought an ear of corn at the store.",
+       "ear of corn"
+      ]
+     ]
+    }
+   ]
+  },
+  "heart": {
+   "choose": true,
+   "familiar": "shape",
+   "m": [
+    {
+     "id": "body",
+     "pic": [
+      "body parts",
+      "heart"
+     ],
+     "cls": "body",
+     "draw": "the heart inside you",
+     "accept": "Accept a heart inside a body, or a heart that beats.",
+     "say": "My heart beats fast when I run.",
+     "sents": [
+      [
+       "My heart beats fast when I run.",
+       "beats fast"
+      ],
+      [
+       "Your heart is inside your chest.",
+       "inside your chest"
+      ],
+      [
+       "The doctor listens to my heart.",
+       "listens to my heart"
+      ]
+     ]
+    },
+    {
+     "id": "shape",
+     "pic": [
+      "shapes",
+      "heart"
+     ],
+     "cls": "shape",
+     "draw": "a heart shape",
+     "accept": "Accept any heart shape.",
+     "say": "I drew a heart on my card.",
+     "sents": [
+      [
+       "Draw a heart on the card for your friend.",
+       "Draw a heart"
+      ],
+      [
+       "I cut a heart out of pink paper.",
+       "cut a heart out of pink paper"
+      ],
+      [
+       "Trace the heart with your finger.",
+       "Trace the heart"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "fillers": {
+  "cat": [
+   "pets",
+   "cat",
+   "animal"
+  ],
+  "cup": [
+   "kitchen tools",
+   "cup",
+   "thing"
+  ],
+  "bus": [
+   "vehicles",
+   "bus",
+   "vehicle"
+  ],
+  "sun": [
+   "beach",
+   "sun",
+   "nature"
+  ],
+  "key": [
+   "around the house",
+   "key",
+   "thing"
+  ],
+  "bell": [
+   "christmas",
+   "bell",
+   "thing"
+  ],
+  "dog": [
+   "pets",
+   "dog",
+   "animal"
+  ],
+  "kite": [
+   "toys",
+   "kite",
+   "toy"
+  ],
+  "sock": [
+   "accessories",
+   "sock",
+   "clothing"
+  ],
+  "cake": [
+   "bakery",
+   "cake",
+   "food"
+  ],
+  "pig": [
+   "farm animals",
+   "pig",
+   "animal"
+  ],
+  "hat": [
+   "clothing",
+   "hat",
+   "clothing"
+  ],
+  "leaf": [
+   "spring",
+   "leaf",
+   "plant"
+  ],
+  "drum": [
+   "music",
+   "drum",
+   "thing"
+  ],
+  "fox": [
+   "animals",
+   "fox",
+   "animal"
+  ],
+  "goat": [
+   "farm animals",
+   "goat",
+   "animal"
+  ],
+  "car": [
+   "toys",
+   "car",
+   "vehicle"
+  ],
+  "apple": [
+   "fruits",
+   "apple",
+   "food"
+  ],
+  "cheese": [
+   "At the Supermarket",
+   "cheese",
+   "food"
+  ],
+  "spoon": [
+   "kitchen tools",
+   "spoon",
+   "thing"
+  ],
+  "star": [
+   "christmas",
+   "star",
+   "shape"
+  ],
+  "book": [
+   "classroom",
+   "book",
+   "thing"
+  ],
+  "ball": [
+   "toys",
+   "ball",
+   "toy"
+  ]
+ },
+ "refused": {
+  "crane": "the bird is a white bird that reads as a stork; only the machine is clear",
+  "fish": "to fish: the library shows a rod, not a child fishing",
+  "keyboard": "the two keyboards are one meaning (keys to press), and the music one reads as piano",
+  "lime": "the colour drop reads as green",
+  "violet": "the colour drop reads as purple",
+  "mask": "two masks are one meaning",
+  "glass": "one glass is a wine glass",
+  "skate": "the skate and to skate are one meaning",
+  "sled": "the sled and to sled are one meaning",
+  "ring": "no picture of a bell ringing",
+  "duck": "no picture of a child ducking",
+  "can": "no picture of \"can\" (be able)",
+  "bark": "no bark and no dog barking",
+  "top": "no spinning top",
+  "turkey": "the bird and the meat are one meaning",
+  "bolt": "not a word kindergartners know",
+  "star": "a star in the sky and a star shape are one meaning",
+  "wave": "no picture of a hand waving",
+  "orange": "the fruit is orange too, and any orange picture (a bell, a fox, the corn) is a second right partner; the colour is a drop that reads as juice or paint; both meanings are known from preschool",
+  "mouse": "the library has the animal (pets/mouse reads as a hamster; forest creatures/mouse is clear) but no computer mouse alone: around the house/computer and classroom/computer show a whole computer",
+  "letter": "post office/letter and post office/envelope show mail; the library has no letter of the alphabet (toys/blocks are blank blocks)",
+  "glasses": "no eyeglasses: the only eyewear is sunglasses (accessories, beach, summer, weather), which children call sunglasses; kitchen tools/glass is one drinking glass",
+  "fly": "no housefly and no picture of flying: camping/firefly and Things That Fly/dragonfly are other insects",
+  "nut": "tools/nut is a metal nut, but the library has no nut to eat (tree/walnut is a whole tree)",
+  "pepper": "both pictures (At the Supermarket/pepper, vegetables/bell_pepper) are a bell pepper; no pepper shaker"
+ },
+ "assoc": {
+  "bat": [
+   "ball"
+  ],
+  "palm": [
+   "leaf"
+  ],
+  "heart": [
+   "star"
+  ],
+  "ear": [],
+  "nail": []
+ },
+ "modelOnly": [
+  "duck",
+  "can",
+  "ring",
+  "bark"
+ ],
+ "banned": [
+  "kill",
+  "dead",
+  "die",
+  "gun",
+  "hate",
+  "stupid",
+  "dumb",
+  "fat",
+  "ugly",
+  "poop",
+  "butt",
+  "sex",
+  "hell",
+  "damn"
+ ]
+}

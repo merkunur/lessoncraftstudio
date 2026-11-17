@@ -1,0 +1,557 @@
+{
+ "about": "Picture words of one syllable for the Kindergarten lesson Blend the first sound and the rest (RF.K.2.c). \"on\" is the first sound, \"rest\" the rest of the word as a teacher writes it between slashes (ă ĕ ĭ ŏ ŭ short vowels, ā ē ī ō long vowels; c and k are both /k/). Every picture was looked at: a kindergartner names it with exactly this word.",
+ "pics": {
+  "cat": {
+   "pic": [
+    "pets",
+    "cat"
+   ],
+   "kind": "cat",
+   "cls": "animal",
+   "on": "k",
+   "rest": "ăt",
+   "v": "ă"
+  },
+  "hat": {
+   "pic": [
+    "clothing",
+    "hat"
+   ],
+   "kind": "hat",
+   "cls": "clothing",
+   "on": "h",
+   "rest": "ăt",
+   "v": "ă"
+  },
+  "bat": {
+   "pic": [
+    "animals",
+    "bat"
+   ],
+   "kind": "bat",
+   "cls": "animal",
+   "on": "b",
+   "rest": "ăt",
+   "v": "ă"
+  },
+  "fan": {
+   "pic": [
+    "around the house",
+    "fan"
+   ],
+   "kind": "fan",
+   "cls": "thing",
+   "on": "f",
+   "rest": "ăn",
+   "v": "ă",
+   "alt": [
+    "ĕ"
+   ]
+  },
+  "map": {
+   "pic": [
+    "classroom",
+    "map"
+   ],
+   "kind": "map",
+   "cls": "thing",
+   "on": "m",
+   "rest": "ăp",
+   "v": "ă"
+  },
+  "bag": {
+   "pic": [
+    "At the Supermarket",
+    "bag"
+   ],
+   "kind": "bag",
+   "cls": "thing",
+   "on": "b",
+   "rest": "ăg",
+   "v": "ă",
+   "alt": [
+    "ā",
+    "ĕ"
+   ]
+  },
+  "hand": {
+   "pic": [
+    "body parts",
+    "hand"
+   ],
+   "kind": "hand",
+   "cls": "body",
+   "on": "h",
+   "rest": "ănd",
+   "v": "ă",
+   "alt": [
+    "ĕ"
+   ]
+  },
+  "bed": {
+   "pic": [
+    "furniture",
+    "bed"
+   ],
+   "kind": "bed",
+   "cls": "thing",
+   "on": "b",
+   "rest": "ĕd",
+   "v": "ĕ"
+  },
+  "leg": {
+   "pic": [
+    "body parts",
+    "leg"
+   ],
+   "kind": "leg",
+   "cls": "body",
+   "on": "l",
+   "rest": "ĕg",
+   "v": "ĕ",
+   "alt": [
+    "ā"
+   ]
+  },
+  "pen": {
+   "pic": [
+    "classroom",
+    "pen"
+   ],
+   "kind": "pen",
+   "cls": "thing",
+   "on": "p",
+   "rest": "ĕn",
+   "v": "ĕ",
+   "alt": [
+    "ĭ"
+   ]
+  },
+  "bell": {
+   "pic": [
+    "christmas",
+    "bell"
+   ],
+   "kind": "bell",
+   "cls": "thing",
+   "on": "b",
+   "rest": "ĕl",
+   "v": "ĕ"
+  },
+  "tent": {
+   "pic": [
+    "camping",
+    "tent"
+   ],
+   "kind": "tent",
+   "cls": "thing",
+   "on": "t",
+   "rest": "ĕnt",
+   "v": "ĕ",
+   "alt": [
+    "ĭ"
+   ]
+  },
+  "bench": {
+   "pic": [
+    "furniture",
+    "bench"
+   ],
+   "kind": "bench",
+   "cls": "thing",
+   "on": "b",
+   "rest": "ĕnch",
+   "v": "ĕ",
+   "alt": [
+    "ĭ"
+   ]
+  },
+  "pig": {
+   "pic": [
+    "farm animals",
+    "pig"
+   ],
+   "kind": "pig",
+   "cls": "animal",
+   "on": "p",
+   "rest": "ĭg",
+   "v": "ĭ"
+  },
+  "fish": {
+   "pic": [
+    "animals",
+    "fish"
+   ],
+   "kind": "fish",
+   "cls": "animal",
+   "on": "f",
+   "rest": "ĭsh",
+   "v": "ĭ"
+  },
+  "milk": {
+   "pic": [
+    "At the Supermarket",
+    "milk"
+   ],
+   "kind": "milk",
+   "cls": "food",
+   "on": "m",
+   "rest": "ĭlk",
+   "v": "ĭ",
+   "alt": [
+    "ĕ"
+   ]
+  },
+  "dog": {
+   "pic": [
+    "pets",
+    "dog"
+   ],
+   "kind": "dog",
+   "cls": "animal",
+   "on": "d",
+   "rest": "ŏg",
+   "v": "ŏ",
+   "alt": [
+    "ô"
+   ]
+  },
+  "fox": {
+   "pic": [
+    "animals",
+    "fox"
+   ],
+   "kind": "fox",
+   "cls": "animal",
+   "on": "f",
+   "rest": "ŏks",
+   "v": "ŏ"
+  },
+  "log": {
+   "pic": [
+    "camping",
+    "log"
+   ],
+   "kind": "log",
+   "cls": "nature",
+   "on": "l",
+   "rest": "ŏg",
+   "v": "ŏ",
+   "alt": [
+    "ô"
+   ],
+   "noTarget": true
+  },
+  "sock": {
+   "pic": [
+    "accessories",
+    "sock"
+   ],
+   "kind": "sock",
+   "cls": "clothing",
+   "on": "s",
+   "rest": "ŏk",
+   "v": "ŏ"
+  },
+  "lock": {
+   "pic": [
+    "around the house",
+    "lock"
+   ],
+   "kind": "lock",
+   "cls": "thing",
+   "on": "l",
+   "rest": "ŏk",
+   "v": "ŏ"
+  },
+  "rock": {
+   "pic": [
+    "beach",
+    "rock"
+   ],
+   "kind": "rock",
+   "cls": "nature",
+   "on": "r",
+   "rest": "ŏk",
+   "v": "ŏ"
+  },
+  "pot": {
+   "pic": [
+    "kitchen tools",
+    "pot"
+   ],
+   "kind": "pot",
+   "cls": "thing",
+   "on": "p",
+   "rest": "ŏt",
+   "v": "ŏ"
+  },
+  "sun": {
+   "pic": [
+    "beach",
+    "sun"
+   ],
+   "kind": "sun",
+   "cls": "nature",
+   "on": "s",
+   "rest": "ŭn",
+   "v": "ŭ"
+  },
+  "bus": {
+   "pic": [
+    "vehicles",
+    "bus"
+   ],
+   "kind": "bus",
+   "cls": "vehicle",
+   "on": "b",
+   "rest": "ŭs",
+   "v": "ŭ"
+  },
+  "cup": {
+   "pic": [
+    "kitchen tools",
+    "cup"
+   ],
+   "kind": "cup",
+   "cls": "thing",
+   "on": "k",
+   "rest": "ŭp",
+   "v": "ŭ"
+  },
+  "cake": {
+   "pic": [
+    "bakery",
+    "cake"
+   ],
+   "kind": "cake",
+   "cls": "food",
+   "on": "k",
+   "rest": "āk",
+   "v": "ā"
+  },
+  "rake": {
+   "pic": [
+    "around the house",
+    "rake"
+   ],
+   "kind": "rake",
+   "cls": "thing",
+   "on": "r",
+   "rest": "āk",
+   "v": "ā"
+  },
+  "tape": {
+   "pic": [
+    "classroom",
+    "tape"
+   ],
+   "kind": "tape",
+   "cls": "thing",
+   "on": "t",
+   "rest": "āp",
+   "v": "ā"
+  },
+  "bee": {
+   "pic": [
+    "insects and bugs",
+    "bee"
+   ],
+   "kind": "bee",
+   "cls": "animal",
+   "on": "b",
+   "rest": "ē",
+   "v": "ē"
+  },
+  "key": {
+   "pic": [
+    "around the house",
+    "key"
+   ],
+   "kind": "key",
+   "cls": "thing",
+   "on": "k",
+   "rest": "ē",
+   "v": "ē"
+  },
+  "leaf": {
+   "pic": [
+    "spring",
+    "leaf"
+   ],
+   "kind": "leaf",
+   "cls": "nature",
+   "on": "l",
+   "rest": "ēf",
+   "v": "ē"
+  },
+  "cheese": {
+   "pic": [
+    "At the Supermarket",
+    "cheese"
+   ],
+   "kind": "cheese",
+   "cls": "food",
+   "on": "ch",
+   "rest": "ēz",
+   "v": "ē"
+  },
+  "kite": {
+   "pic": [
+    "toys",
+    "kite"
+   ],
+   "kind": "kite",
+   "cls": "toy",
+   "on": "k",
+   "rest": "īt",
+   "v": "ī"
+  },
+  "pie": {
+   "pic": [
+    "desserts and sweets",
+    "pie"
+   ],
+   "kind": "pie",
+   "cls": "food",
+   "on": "p",
+   "rest": "ī",
+   "v": "ī"
+  },
+  "tie": {
+   "pic": [
+    "accessories",
+    "tie"
+   ],
+   "kind": "tie",
+   "cls": "clothing",
+   "on": "t",
+   "rest": "ī",
+   "v": "ī"
+  },
+  "coat": {
+   "pic": [
+    "winter",
+    "coat"
+   ],
+   "kind": "coat",
+   "cls": "clothing",
+   "on": "k",
+   "rest": "ōt",
+   "v": "ō"
+  },
+  "goat": {
+   "pic": [
+    "farm animals",
+    "goat"
+   ],
+   "kind": "goat",
+   "cls": "animal",
+   "on": "g",
+   "rest": "ōt",
+   "v": "ō"
+  },
+  "rose": {
+   "pic": [
+    "flowers",
+    "rose"
+   ],
+   "kind": "rose",
+   "cls": "nature",
+   "on": "r",
+   "rest": "ōz",
+   "v": "ō"
+  },
+  "nose": {
+   "pic": [
+    "body parts",
+    "nose"
+   ],
+   "kind": "nose",
+   "cls": "body",
+   "on": "n",
+   "rest": "ōz",
+   "v": "ō"
+  }
+ },
+ "continuous": [
+  "f",
+  "l",
+  "m",
+  "n",
+  "r",
+  "s",
+  "sh",
+  "v",
+  "z"
+ ],
+ "refused": {
+  "ship": "reads as boat",
+  "boat": "every library boat reads as a ship",
+  "chick": "reads as bird or duck",
+  "hen": "reads as chicken",
+  "net": "reads as a racket",
+  "mop": "reads as broom",
+  "cap": "reads as hat",
+  "van": "reads as car or bus",
+  "can": "reads as soup or a jar",
+  "jam": "reads as jelly or a jar",
+  "ham": "reads as meat",
+  "lip": "the picture shows two lips",
+  "vest": "reads as jacket",
+  "jeep": "reads as car",
+  "stove": "reads as oven",
+  "crib": "reads as bed",
+  "sheep": "reads as lamb",
+  "seashell": "children say seashell (two beats) or shell",
+  "toe": "the picture shows a whole foot",
+  "knee": "the picture shows a whole leg",
+  "hose": "reads as rope",
+  "cone": "reads as a lamp shade",
+  "dice": "one die: die or dice",
+  "cape": "reads as a jacket",
+  "gate": "reads as a door",
+  "pan": "reads as pot (kitchen pan) or frying pan",
+  "nest": "the nest holds two chicks: read as birds",
+  "desk": "reads as table",
+  "rug": "reads as carpet",
+  "bun": "reads as bread",
+  "jug": "reads as pitcher",
+  "mug": "children say cup",
+  "knife": "a sharp kitchen knife",
+  "rope": "reads as a broom",
+  "lake": "reads as mountains or water",
+  "bear": "every library bear reads as a teddy bear",
+  "sand": "a heap: sand or dirt",
+  "red": "a drop of paint: paint or red",
+  "face": "reads as boy",
+  "wave": "reads as water",
+  "bowl": "long o before l: two beats for many children",
+  "moon": "its rest /oon/ needs a sign of its own: left out so that every rest is written with ă ĕ ĭ ŏ ŭ or ā ē ī ō",
+  "doll": "the library doll is a girl with pigtails, overalls and red shoes: children say girl",
+  "comb": "the only library comb has an orange handle and reads as a brush",
+  "duck": "every library duck is a yellow duckling: some children say chick; the library has no grown duck"
+ },
+ "modelOnly": [
+  "mop",
+  "man",
+  "sit",
+  "top"
+ ],
+ "banned": [
+  "kill",
+  "dead",
+  "die",
+  "gun",
+  "hate",
+  "stupid",
+  "dumb",
+  "fat",
+  "ugly",
+  "poop",
+  "butt",
+  "sex",
+  "hell",
+  "damn"
+ ]
+}

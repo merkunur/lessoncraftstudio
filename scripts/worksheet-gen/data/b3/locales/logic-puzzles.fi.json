@@ -90,7 +90,7 @@
   "strings": {
     "G2-319": {
       "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
-      "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+      "instruction": "Lue vihjeet. Rastita ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
     },
     "F1": {
       "title": "Päättelypulmat: kyllä, ei tai jompikumpi",
@@ -98,11 +98,11 @@
     },
     "F2": {
       "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
-      "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+      "instruction": "Neljä lasta ja neljä kuvaa. Käytä kaikkia vihjeitä: rastita se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
     },
     "F3": {
       "title": "Kuvavihjeet: yliviivaa ja etsi",
-      "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+      "instruction": "Rastitettu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Rastita ruudukosta ja ympyröi sitten vastaukset."
     },
     "F4": {
       "title": "Kaksi kuvaa lasta kohti: päättele molemmat",

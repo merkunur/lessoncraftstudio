@@ -104,7 +104,7 @@
     },
     "compass-rose": {
       "title": "Väderstreck: norr, öster, söder och väster",
-      "instruction": "Varje ros visar en bokstav och den orange spetsen pekar mot norr, så skriv de tre som saknas i de tomma rutorna."
+      "instruction": "Den orange spetsen på varje kompassros pekar mot norr. Skriv de tre bokstäver som saknas i de tomma rutorna."
     },
     "continents": {
       "title": "Världsdelar: skriv namnen",

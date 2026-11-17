@@ -12,7 +12,7 @@
     "G1-245": {"title": "Ordine alfabetico", "instruction": "Usa la striscia dell'alfabeto. Numera le parole da 1 a 6 in ordine alfabetico, poi scrivile in ordine sulle righe."},
     "G1-246": {"title": "Piramidi di numeri", "instruction": "Ogni mattone è la somma dei due mattoni sottostanti. Scrivi i numeri che mancano."},
     "G1-247": {"title": "Doppio e metà", "instruction": "Trova il doppio dei gruppi con la scritta «doppio» e la metà dei gruppi con la scritta «metà». Scrivi i numeri nei riquadri."},
-    "G1-248": {"title": "La linea dei numeri", "instruction": "Ogni freccia indica una tacca. Parti dal numero scritto più vicino, conta in avanti e scrivi il numero nel riquadro."},
+    "G1-248": {"title": "La linea dei numeri", "instruction": "Ogni freccia indica una tacca. Parti dal numero scritto che viene prima della freccia, conta in avanti e scrivi il numero nel riquadro."},
     "G1-249": {"title": "Riordina la frase", "instruction": "Le parole sono in disordine. Riordinale e scrivi la frase sulla riga, con la maiuscola all'inizio e il segno giusto alla fine."},
     "G2-274": {"title": "Maiuscole e punteggiatura", "instruction": "Ogni frase ha perso la lettera maiuscola e il segno di punteggiatura finale. Riscrivila correttamente sulla riga."},
     "G2-275": {"title": "Nome, verbo o aggettivo?", "instruction": "Leggi ogni parola. È un nome, un verbo o un aggettivo? Scrivila nella scatola giusta."},

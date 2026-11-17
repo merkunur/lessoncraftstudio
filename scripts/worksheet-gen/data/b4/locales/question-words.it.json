@@ -401,11 +401,11 @@
     },
     "match": {
       "title": "Collega la domanda alla risposta",
-      "instruction": "Leggi ogni domanda a sinistra. Unisci con una linea la risposta giusta a destra."
+      "instruction": "Leggi ogni domanda a sinistra. Uniscila con una linea alla risposta giusta a destra."
     },
     "fill": {
       "title": "Completa la domanda",
-      "instruction": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro.",
+      "instruction": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro che serve per chiederle.",
       "bankWord": "riquadro",
       "boxWord": "casella"
     },

@@ -4688,11 +4688,11 @@
   "strings": {
     "G1-306": {
       "title": "Sílabas directas: {UNIT}",
-      "instruction": "Lee el tapete y escribe la primera sílaba."
+      "instruction": "Lee el tapete. Di el nombre de cada dibujo y escribe su primera sílaba en la línea."
     },
     "G1-330": {
       "title": "Rodea la sílaba que oyes: {UNIT}",
-      "instruction": "Rodea la sílaba con la que empieza."
+      "instruction": "Di el nombre de cada dibujo y encierra la sílaba con la que empieza."
     },
     "G1-331": {
       "title": "Une las sílabas y escribe la palabra",
@@ -4704,11 +4704,11 @@
     },
     "G1-333": {
       "title": "Sílabas trabadas: {UNIT}",
-      "instruction": "Lee las sílabas trabadas y escribe la primera."
+      "instruction": "Lee las sílabas trabadas del tapete. Di el nombre de cada dibujo y escribe en la línea la sílaba trabada con la que empieza."
     },
     "G1-334": {
       "title": "Lee las palabras en sílabas y busca el dibujo",
-      "instruction": "Lee y anota el número del dibujo."
+      "instruction": "Lee cada palabra sílaba por sílaba. Busca su dibujo arriba y escribe el número del dibujo en el recuadro."
     }
   }
 }

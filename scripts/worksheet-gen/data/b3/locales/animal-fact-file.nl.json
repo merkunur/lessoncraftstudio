@@ -578,7 +578,7 @@
   "strings": {
     "G2-318": {
       "title": "Dierenpaspoort: {U}",
-      "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+      "instruction": "Zoek informatie op over dit dier. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
     },
     "G2-339": {
       "title": "Dierenpaspoort {U}: kies de juiste weetjes",
@@ -586,7 +586,7 @@
     },
     "G2-340": {
       "title": "Dierenpaspoort {U} met woordenbank",
-      "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+      "instruction": "Zoek elk juist weetje in de woordenlijst en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
     },
     "G2-341": {
       "title": "Dierenpaspoort {U}: schrijf drie zinnen",
@@ -598,7 +598,7 @@
     },
     "G2-343": {
       "title": "Wie ben ik? Raad het dier",
-      "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+      "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier tussen de plaatjes bovenaan, schrijf zijn naam op de lijn en teken het in het vak."
     }
   }
 }

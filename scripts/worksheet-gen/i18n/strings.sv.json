@@ -9,7 +9,7 @@
   },
   "K-005": {
     "title": "Fyll i rutan",
-    "instruction": "Rita en prick i rutan för varje en som talet visar."
+    "instruction": "Rita lika många prickar i tiorutan som talet visar, en prick i varje ruta."
   },
   "K-006": {
     "title": "Räkna och skriv",
@@ -85,7 +85,8 @@
   },
   "K-024": {
     "title": "Para ihop tioruta",
-    "instruction": "Dra ett streck från varje tal till dess tioruta."
+    "instruction": "Dra ett streck från varje tal till dess tioruta.",
+    "printTitle": "Para ihop tal och tioruta"
   },
   "K-025": {
     "title": "Para ihop streck",
@@ -137,7 +138,8 @@
   },
   "K-038": {
     "title": "Vad väger mest?",
-    "instruction": "Tänk på verkligheten! Ringa in den TYNGRE."
+    "instruction": "Tänk på verkligheten! Ringa in den TYNGRE.",
+    "printTitle": "Tung eller lätt?"
   },
   "K-039": {
     "title": "Lika och olika",
@@ -175,7 +177,7 @@
   },
   "K-049": {
     "title": "Gör klart mönstret",
-    "instruction": "En bild saknas. Ringa in vad som hör hemma i tomma rutan."
+    "instruction": "En bild saknas. Ringa in det som hör hemma i den tomma rutan."
   },
   "K-050": {
     "title": "Stora och små mönster",
@@ -191,7 +193,8 @@
   },
   "K-057": {
     "title": "Para ihop skuggan",
-    "instruction": "Dra ett streck från varje bild till dess skugga."
+    "instruction": "Dra ett streck från varje bild till dess skugga.",
+    "printTitle": "Para ihop bild och skugga"
   },
   "K-058": {
     "title": "Hitta paren",
@@ -227,7 +230,7 @@
   },
   "K-066": {
     "title": "Topp, mitt, botten",
-    "instruction": "Ringa in varje bild i MITTRADEN.",
+    "instruction": "Ringa in varje bild i MITTERSTA raden.",
     "printTitle": "Överst, i mitten, nederst"
   },
   "K-067": {
@@ -236,7 +239,7 @@
   },
   "K-068": {
     "title": "Vad passar i luckan?",
-    "instruction": "Varje rad visar en sorts bild. Ringa in biten som passar i tomma rutan."
+    "instruction": "Varje rad visar en sorts bild. Ringa in biten som passar i den tomma rutan."
   },
   "K-069": {
     "title": "Vad är det?",
@@ -297,7 +300,7 @@
   },
   "G1-110": {
     "title": "Dominoräkning",
-    "instruction": "Räkna båda sidor av dominobrickan. Skriv summan."
+    "instruction": "Räkna prickarna på båda sidorna av dominobrickan. Skriv summan."
   },
   "G1-111": {
     "title": "Slå och addera",
@@ -381,7 +384,8 @@
   },
   "G1-133": {
     "title": "Dra ut talet",
-    "instruction": "Titta på blocken. Ringa in den utvecklade formen som passar."
+    "instruction": "Titta på blocken. Ringa in den utvecklade formen som passar.",
+    "printTitle": "Dela upp talet"
   },
   "G1-135": {
     "title": "Minst först",
@@ -449,11 +453,11 @@
   },
   "G1-157": {
     "title": "Bildgåtor",
-    "instruction": "Titta på första paret. Ringa in vad som gör klart andra paret likadant."
+    "instruction": "Titta på det första paret. Ringa in det som gör det andra paret klart på samma sätt."
   },
   "G1-158": {
     "title": "Bildsudoku",
-    "instruction": "Varje rad, kolumn och ruta behöver alla fyra bilder — rita eller skriv vad som saknas."
+    "instruction": "I varje rad, varje kolumn och varje ruta ska alla fyra bilderna finnas. Rita eller skriv det som saknas."
   },
   "G1-160": {
     "title": "Tre grupper",
@@ -521,7 +525,7 @@
   },
   "G2-221": {
     "title": "Avrunda talet",
-    "instruction": "Titta på pricken. Ringa in tiotalet det är närmast."
+    "instruction": "Titta på pricken. Ringa in det tiotal som pricken ligger närmast."
   },
   "G2-222": {
     "title": "Läs blocken",
@@ -533,7 +537,8 @@
   },
   "G2-224": {
     "title": "Sortera platserna",
-    "instruction": "Räkna blocken. Fyll i platsvärdestabellen."
+    "instruction": "Räkna blocken. Fyll i platsvärdestabellen.",
+    "printTitle": "Sortera efter talsort"
   },
   "G2-225": {
     "title": "Sifferdetektiv",
@@ -599,7 +604,7 @@
   },
   "G2-240": {
     "title": "Läs punktdiagrammet",
-    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många."
+    "instruction": "Räkna kryssen ovanför varje tal. Skriv hur många."
   },
   "G2-241": {
     "title": "Figursorteraren",
@@ -719,7 +724,7 @@
   },
   "G3-323": {
     "title": "Avrunda till hundratal",
-    "instruction": "Titta på pricken. Ringa in hundratalet det är närmast."
+    "instruction": "Titta på pricken. Ringa in det hundratal som pricken ligger närmast."
   },
   "G3-325": {
     "title": "Tusentalsduell",
@@ -756,7 +761,7 @@
   },
   "G3-335": {
     "title": "Halvvägsmärken",
-    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många.",
+    "instruction": "Räkna kryssen ovanför varje tal. Skriv hur många.",
     "printTitle": "Halvor"
   },
   "G3-337": {
@@ -806,7 +811,8 @@
   },
   "G3-355": {
     "title": "12-timmars och 24-timmars",
-    "instruction": "Skriv om varje tid till rätt form. Ringa in den som passar."
+    "instruction": "Titta på varje tid. Ringa in samma tid skriven på det andra sättet.",
+    "printTitle": "12-timmarsklocka och 24-timmarsklocka"
   },
   "G3-356": {
     "title": "Lägg till och dra ifrån tid",
@@ -814,19 +820,19 @@
   },
   "G3-348": {
     "title": "Stor bildsudoku",
-    "instruction": "Varje rad, kolumn och ruta behöver alla sex bilder — fyll i tomma rutor."
+    "instruction": "I varje rad, varje kolumn och varje ruta ska alla sex bilderna finnas. Fyll i de tomma rutorna."
   },
   "G3-349": {
     "title": "Magiska kvadrater",
-    "instruction": "Varje rad och kolumn blir det magiska talet. Fyll i tomma rutor."
+    "instruction": "Talen i varje rad och varje kolumn blir tillsammans det magiska talet. Fyll i de tomma rutorna."
   },
   "G3-350": {
     "title": "Få det att väga lika",
-    "instruction": "Båda sidor måste väga lika. Skriv talet som saknas."
+    "instruction": "Båda sidorna måste väga lika mycket. Skriv talet som saknas."
   },
   "G3-351": {
     "title": "Vad gör pusslet klart?",
-    "instruction": "Rader delar en bild. Kolumner delar en storlek. Ringa in vad som passar."
+    "instruction": "I varje rad är bilden densamma. I varje kolumn är storleken densamma. Ringa in det som passar i den tomma rutan."
   },
   "G3-353": {
     "title": "Sortera i två cirklar",
@@ -1093,11 +1099,11 @@
   },
   "K-252": {
     "title": "Spåra talen 1 till 10",
-    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+    "instruction": "Spåra varje tal. Börja vid den orangea pricken och följ pilarna."
   },
   "K-253": {
     "title": "Spåra talen 11 till 20",
-    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+    "instruction": "Spåra varje tal. Börja vid den orangea pricken och följ pilarna."
   },
   "K-254": {
     "title": "Spåra bokstäverna G till L",
@@ -1177,7 +1183,7 @@
   },
   "K-273": {
     "title": "Femkompisar med prickar",
-    "instruction": "Vilken femkompis saknas? Räkna prickarna till hjälp och skriv talet i den streckade cirkeln."
+    "instruction": "Vilken femkompis saknas? Ta hjälp av prickarna och skriv talet i den streckade cirkeln."
   },
   "K-274": {
     "title": "Talkamrater upp till 10",
@@ -1553,7 +1559,7 @@
   },
   "K-296": {
     "title": "Prick till prick: 11 till 30",
-    "instruction": "Räkna vidare från 11 till 30 så kommer bilden fram."
+    "instruction": "Börja vid den orangea pricken. Räkna vidare från 11 till 30 och dra streck från prick till prick, så kommer bilden fram."
   },
   "K-298": {
     "title": "Rita av i rutnätet: första stegen",
@@ -1589,7 +1595,7 @@
   },
   "G1-252": {
     "title": "Läs och måla: sex meningar",
-    "instruction": "Sex meningar och sex färger. Läs varje mening noga."
+    "instruction": "Sex meningar och sex färger. Läs varje mening noga och måla precis det som meningen säger."
   },
   "G1-255": {
     "title": "Dagens tal: 11 till 20",
@@ -1617,11 +1623,12 @@
   },
   "G1-262": {
     "title": "Alfabetisk ordning: numrera korten",
-    "instruction": "Ta hjälp av alfabetet och numrera korten."
+    "instruction": "Ta hjälp av alfabetet och numrera korten så att orden kommer i bokstavsordning."
   },
   "G1-263": {
     "title": "Alfabetisk ordning: skriv om orden",
-    "instruction": "Numrera korten och skriv orden på raderna."
+    "instruction": "Numrera korten och skriv sedan av orden i rätt ordning på raderna.",
+    "printTitle": "Alfabetisk ordning: numrera och skriv av orden"
   },
   "G1-264": {
     "title": "Alfabetisk ordning: andra bokstaven",
@@ -1629,7 +1636,7 @@
   },
   "G1-266": {
     "title": "Talpyramider till 10",
-    "instruction": "Varje sten är summan av de två stenarna under den."
+    "instruction": "Varje sten är summan av de två stenarna under den. Bygg varje pyramid ända upp till toppen."
   },
   "G1-267": {
     "title": "Talpyramider med fyra rader",
@@ -1641,7 +1648,7 @@
   },
   "G1-270": {
     "title": "Dubbelt och hälften med bilder",
-    "instruction": "Bilderna hjälper dig med dubbelt och hälften."
+    "instruction": "På några kort ska du räkna ut dubbelt, på andra hälften. Bilderna hjälper dig."
   },
   "G1-271": {
     "title": "Dubbelt och hälften upp till 20",
@@ -1649,51 +1656,51 @@
   },
   "G1-274": {
     "title": "Läs av tallinjen 0 till 10",
-    "instruction": "En pil pekar på ett streck. Skriv talet mellan 0 och 10."
+    "instruction": "Varje pil pekar på ett streck. Skriv talet som pilen pekar på."
   },
   "G1-275": {
     "title": "Tallinjen till 20 med få tal",
-    "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån."
+    "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån fram till varje pil och skriv talet."
   },
   "G1-276": {
     "title": "Läs av tallinjen 0 till 30",
-    "instruction": "Varje streck är ett steg. Räkna vidare ända till 30."
+    "instruction": "Varje streck är ett steg. Räkna vidare fram till varje pil och skriv talet."
   },
   "G1-277": {
     "title": "Läs av tallinjen 0 till 50",
-    "instruction": "Vart tionde tal är utsatt. Räkna vidare till varje pil."
+    "instruction": "Vart tionde tal är utsatt. Räkna vidare fram till varje pil och skriv talet."
   },
   "G1-278": {
     "title": "Tallinjen till 50 med steg om 5",
-    "instruction": "Varje streck är 5. Räkna med femmor fram till varje pil."
+    "instruction": "Från streck till streck ökar det med 5. Räkna med femmor fram till varje pil och skriv talet."
   },
   "G1-279": {
     "title": "Tallinjen till 100 med steg om 5",
-    "instruction": "Varje streck är 5 och vartannat tal står utsatt."
+    "instruction": "Från streck till streck ökar det med 5, och vartannat tal står utsatt. Skriv talet som varje pil pekar på."
   },
   "G1-280": {
     "title": "Tallinjen till 100 med steg om 10",
-    "instruction": "Varje streck är 10. Räkna med tiotal till varje pil."
+    "instruction": "Från streck till streck ökar det med 10. Räkna med tiotal fram till varje pil och skriv talet."
   },
   "G1-281": {
     "title": "Tallinjen förbi 100 till 120",
-    "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal."
+    "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal fram till varje pil och skriv talet."
   },
   "G1-282": {
     "title": "Ordna orden med ledtrådar",
-    "instruction": "Stor bokstav visar början, skiljetecknet visar slutet."
+    "instruction": "Stor bokstav visar början, skiljetecknet visar slutet. Ordna orden och skriv meningen på raden."
   },
   "G1-283": {
     "title": "Ordna orden utan ledtrådar",
-    "instruction": "Inga ledtrådar. Hitta en ordföljd som fungerar."
+    "instruction": "Ingen stor bokstav och ingen punkt. Hitta den enda ordföljd som fungerar och skriv meningen på raden."
   },
   "G2-281": {
     "title": "Punkt eller frågetecken?",
-    "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
+    "instruction": "Skriv varje mening rätt med stor bokstav och rätt skiljetecken."
   },
   "G2-282": {
     "title": "Stor bokstav, namn och skiljetecken",
-    "instruction": "Välj själv rätt skiljetecken i slutet."
+    "instruction": "Skriv meningen rätt med stor bokstav i början och i namnen, och välj själv rätt skiljetecken i slutet."
   },
   "G2-285": {
     "title": "Ordklasser: sortera nio ord",
@@ -1705,15 +1712,15 @@
   },
   "G2-287": {
     "title": "Ordklasser: sortera femton ord",
-    "instruction": "Femton ord och inga bilder. Läs varje ord noga."
+    "instruction": "Femton ord och inga bilder. Läs varje ord noga och skriv det i rätt låda."
   },
   "G2-289": {
     "title": "Pengar: två räknehändelser",
-    "instruction": "Läs de två räknehändelserna och priserna på hyllan."
+    "instruction": "Läs de två räknehändelserna och svara med hjälp av priserna på hyllan."
   },
   "G2-290": {
     "title": "Pengar: fyra olika frågor",
-    "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan."
+    "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan och svara på frågorna."
   },
   "G2-291": {
     "title": "Pengar: räkna ihop priset",
@@ -1729,7 +1736,7 @@
   },
   "G2-294": {
     "title": "Pengar: räcker de till?",
-    "instruction": "Jämför pengarna med priset. Ringa in ja eller nej."
+    "instruction": "Jämför pengarna med priset. Ringa in ja eller nej och skriv sedan summan."
   },
   "G2-295": {
     "title": "Pengar: hur mycket dyrare?",
@@ -1741,7 +1748,7 @@
   },
   "G2-297": {
     "title": "Läs kalendern: en vecka senare",
-    "instruction": "Fem frågor. Räkna också hur många dagar det är från en bild till en annan."
+    "instruction": "Svara på de fem frågorna. Räkna också hur många dagar det är från en bild till en annan."
   },
   "G2-298": {
     "title": "Läs kalendern: veckans dagar",
@@ -1749,7 +1756,7 @@
   },
   "G2-299": {
     "title": "Skriv till bilden: meningsstarter",
-    "instruction": "Meningsstarterna hjälper dig igång med skrivandet."
+    "instruction": "Titta på bilden och skriv vad du ser. Meningsstarterna hjälper dig igång och ordbanken har ord för allt på bilden."
   },
   "G2-300": {
     "title": "Skriv till bilden med egna ord",
@@ -1761,7 +1768,7 @@
   },
   "G2-303": {
     "title": "Koordinater i rutnät: 10 x 10",
-    "instruction": "Rutnätet är större. Arbeta dig igenom hela listan."
+    "instruction": "Rutnätet är större. Hitta varje ruta med hjälp av bokstav och siffra och måla den, så kommer bilden fram."
   },
   "G3-371": {
     "title": "Multiplikation i räknehändelser",
@@ -1777,11 +1784,11 @@
   },
   "G3-374": {
     "title": "Division på två sätt",
-    "instruction": "En uppgift delar lika, den andra bildar grupper."
+    "instruction": "En uppgift delar lika, den andra bildar grupper. Båda är division. Lös båda och skriv svaren."
   },
   "G3-375": {
     "title": "Gånger och delat blandat",
-    "instruction": "En uppgift bygger lika grupper, den andra delar upp dem."
+    "instruction": "En uppgift bildar lika stora grupper, den andra delar upp dem. Lös båda och skriv svaren."
   },
   "G3-376": {
     "title": "Tre blandade räknehändelser",
@@ -1793,7 +1800,7 @@
   },
   "G1-285": {
     "title": "Prick till prick med tvåhopp",
-    "instruction": "Börja vid den orangea pricken och räkna med tvåhopp."
+    "instruction": "Börja vid den orangea pricken. Räkna med tvåhopp från 2 till 20 och dra streck mellan prickarna."
   },
   "G1-294": {
     "title": "Prick till prick: räkna baklänges från 20",
@@ -1813,7 +1820,7 @@
   },
   "G1-286": {
     "title": "Dubbelt och hälften med bilder till 20",
-    "instruction": "Några kort visar dubbelt, andra hälften."
+    "instruction": "På några kort ska du räkna ut dubbelt, på andra hälften."
   },
   "G2-305": {
     "title": "Läs av tallinjen 40 till 60",
@@ -1829,15 +1836,15 @@
   },
   "G1-287": {
     "title": "Dubbelt upp till 14",
-    "instruction": "Alla kort på sidan visar dubbelt av en bildgrupp."
+    "instruction": "Räkna ut dubbelt så många som i bildgruppen på varje kort."
   },
   "G1-288": {
     "title": "Hälften upp till 12",
-    "instruction": "Alla kort delar en bildgrupp i två lika delar."
+    "instruction": "Varje kort delar en bildgrupp i två lika delar. Skriv hur många det blir i varje del."
   },
   "G1-296": {
     "title": "Dubbelt upp till 20 med bilder",
-    "instruction": "Större bildgrupper att dubbla, ända upp till 20."
+    "instruction": "Räkna ut dubbelt så många i varje bildgrupp, ända upp till 20."
   },
   "G1-297": {
     "title": "Hälften upp till 20 med bilder",
@@ -1881,11 +1888,11 @@
   },
   "G1-298": {
     "title": "Dubbelt upp till 20 utan bilder",
-    "instruction": "Skriv dubbelt av varje tal. Räkna i prickrutan."
+    "instruction": "Skriv dubbelt av varje tal. Det finns inga bilder att räkna."
   },
   "G1-299": {
     "title": "Hälften upp till 20 utan bilder",
-    "instruction": "Dela varje tal i två lika delar. Räkna i prickrutan."
+    "instruction": "Dela varje tal i två lika delar. Det finns inga bilder att räkna."
   },
   "G1-300": {
     "title": "Substantiv och adjektiv",
@@ -1897,7 +1904,7 @@
   },
   "G2-311": {
     "title": "Två meningar: punkt eller frågetecken",
-    "instruction": "Ibland är en av meningarna också en fråga."
+    "instruction": "Dela upp de två meningarna och avsluta var och en med rätt tecken. Ibland är en av meningarna en fråga."
   },
   "G2-312": {
     "title": "Läs kalendern: datum och dagar emellan",
@@ -1921,7 +1928,7 @@
   },
   "G1-302": {
     "title": "Ordna orden: hitta början",
-    "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar."
+    "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar meningen."
   },
   "G1-303": {
     "title": "Skriv ordet: rutor och startbokstav",
@@ -2009,7 +2016,8 @@
   },
   "G3-377": {
     "title": "Division med rest: ringa in högarna",
-    "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+    "instruction": "Ringa in grupper med lika många som det andra talet i varje samling. Skriv hur många grupper du fick och hur många bilder som blev över.",
+    "printTitle": "Division med rest: ringa in grupper"
   },
   "K-325": {
     "title": "Ord med {U}: hör du {L} inne i ordet?",
@@ -2137,7 +2145,7 @@
   },
   "K-343": {
     "title": "Min familj: rita och räkna",
-    "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv siffran."
+    "instruction": "Rita din familj. Visa sedan i tiorutorna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv talet."
   },
   "K-344": {
     "title": "Mitt ansikte: skriv orden på rätt plats",
@@ -2189,7 +2197,7 @@
   },
   "G1-329": {
     "title": "Vokalen är kungen: en vokal i varje stavelse",
-    "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick under vokalen i varje stavelse: en vokalkung i varje båge."
+    "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick på vokalen i varje stavelse: en vokalkung i varje båge."
   },
   "G1-330": {
     "title": "Ljuda ihop ord: läs och ringa in",
@@ -2350,15 +2358,15 @@
   },
   "G2-340": {
     "title": "Faktablad om {L} med ordbank",
-    "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
+    "instruction": "Hitta varje faktauppgift i ordbanken som stämmer och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
   },
   "G2-341": {
     "title": "Faktablad om {L}: skriv tre meningar",
-    "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
+    "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen faktauppgift på sista raden."
   },
   "G2-342": {
     "title": "Jämför två djur: lika och olika",
-    "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje fakta. Skriv sedan två saker som är lika och två som är olika."
+    "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje faktauppgift. Skriv sedan två saker som är lika och två som är olika."
   },
   "G2-343": {
     "title": "Vem är jag? Gåtor om djur",
@@ -2366,7 +2374,8 @@
   },
   "G2-344": {
     "title": "Logikpussel med ja-, nej- och antingen-ledtrådar",
-    "instruction": "Ja ger en bock, nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar."
+    "instruction": "Ja ger en bock, nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar.",
+    "printTitle": "Logikpussel med ja-, nej- och antingen-eller-ledtrådar"
   },
   "G3-378": {
     "title": "Logikpussel 4 gånger 4: sex ledtrådar",
@@ -2390,7 +2399,7 @@
   },
   "G3-381": {
     "title": "Division med rest: räknerader",
-    "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+    "instruction": "I varje division blir det något över. Skriv svaret och resten på varje rad."
   },
   "G3-382": {
     "title": "Går det jämnt ut? Division med och utan rest",
@@ -2803,7 +2812,7 @@
   },
   "G2-369": {
     "title": "Väderstreck: norr, öster, söder och väster",
-    "instruction": "Varje ros visar en bokstav och den orange spetsen pekar mot norr, så skriv de tre som saknas i de tomma rutorna."
+    "instruction": "Den orange spetsen på varje kompassros pekar mot norr. Skriv de tre bokstäver som saknas i de tomma rutorna."
   },
   "G2-370": {
     "title": "Världsdelar: skriv namnen",
@@ -3519,7 +3528,8 @@
   },
   "G1-450": {
     "title": "Är talet dubbelt så stort som ett tal?",
-    "instruction": "Ringa in varje tal som är dubbelt så stort som ett annat tal: det går att dela i två lika stora grupper."
+    "instruction": "Ringa in varje tal som är dubbelt så stort som ett annat tal: det går att dela i två lika stora grupper.",
+    "printTitle": "Är talet dubbelt så stort som ett annat tal?"
   },
   "G1-451": {
     "title": "Maskiner för dubbelt och hälften",
@@ -4644,11 +4654,11 @@
   },
   "K-611": {
     "title": "Min talaffisch: {U}",
-    "instruction": "Måla talet och ordet. Måla sedan lika många rutor i ramen."
+    "instruction": "Måla talet och talordet. Måla sedan lika många rutor i tiorutan."
   },
   "K-612": {
     "title": "Måla talet och fyll rutorna",
-    "instruction": "Måla varje tal. Måla sedan lika många rutor i ramen."
+    "instruction": "Måla varje tal. Måla sedan lika många rutor i tiorutan."
   },
   "K-613": {
     "title": "Måla dagarna",

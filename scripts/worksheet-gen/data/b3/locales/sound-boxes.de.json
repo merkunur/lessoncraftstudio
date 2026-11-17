@@ -7886,7 +7886,7 @@
   "strings": {
     "K-318": {
       "title": "Laute hören: Ein Laut, ein Kästchen",
-      "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. Ein breites Kästchen mit Bogen hält zwei Buchstaben, die einen Laut bilden."
+      "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. In ein breites Kästchen mit Bogen gehören zwei Buchstaben für einen Laut."
     },
     "K-329": {
       "title": "Laute zählen: Wie viele Laute hörst du?",
@@ -7894,7 +7894,7 @@
     },
     "K-330": {
       "title": "Anlaut vorgegeben: Schreibe die Laute weiter",
-      "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut. Ein breites Kästchen hält zwei Buchstaben."
+      "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam. Schreibe in jedes leere Kästchen einen Laut, in ein breites Kästchen zwei Buchstaben."
     },
     "G1-312": {
       "title": "Lautstreifen: Wie viele Laute hat das Wort?",

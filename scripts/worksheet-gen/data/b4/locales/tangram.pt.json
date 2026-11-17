@@ -22,7 +22,7 @@
     },
     "count": {
       "title": "Tangram: conte os triângulos e quadrados",
-      "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados para a segunda."
+      "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados e escreva o número na segunda caixa."
     }
   }
 }

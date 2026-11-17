@@ -1167,15 +1167,15 @@
   "strings": {
     "G1-309": {
       "title": "Rijmwoorden: rijm en schrijf",
-      "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+      "instruction": "Zeg wat je op het eerste plaatje ziet. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
     },
     "K-352": {
       "title": "Rijmt het of niet?",
-      "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+      "instruction": "Zeg wat je op beide plaatjes ziet. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
     },
     "G1-343": {
       "title": "Sorteer de rijmwoorden",
-      "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+      "instruction": "Zeg wat je op elk plaatje in het kader ziet. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
     },
     "G1-344": {
       "title": "Maak het rijmpje af",
@@ -1183,7 +1183,7 @@
     },
     "G1-345": {
       "title": "Rijmrijen: twee rijmwoorden per plaatje",
-      "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+      "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
     },
     "G1-346": {
       "title": "Verzin je eigen rijmwoorden",

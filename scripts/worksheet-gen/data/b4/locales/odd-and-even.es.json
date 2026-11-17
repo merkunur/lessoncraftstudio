@@ -22,7 +22,7 @@
     },
     "proof": {
       "title": "¿Par o impar? Escribe dos sumandos iguales",
-      "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
+      "instruction": "Encierra los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
     },
     "share": {
       "title": "¿Se puede repartir entre dos? Par o impar",
@@ -34,7 +34,7 @@
     },
     "sums": {
       "title": "¿Suma par o impar? Decide sin sumar",
-      "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+      "instruction": "No sumes. Mira la cifra de las unidades de cada número (está subrayada), usa la tabla y marca si la suma es par o impar."
     },
     "count": {
       "title": "¿Par o impar? Cuenta los dibujos en parejas",

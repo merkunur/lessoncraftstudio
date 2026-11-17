@@ -11,7 +11,7 @@
     },
     "K-398": {
       "title": "Find fejlene i farvebilledet",
-      "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+      "instruction": "Kig godt på farverne: Sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
     },
     "G1-412": {
       "title": "Find syv fejl ved dammen",
@@ -31,7 +31,7 @@
     },
     "G1-415": {
       "title": "Spejlvendt billede: find fejlene",
-      "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+      "instruction": "Billede 2 er spejlvendt: Sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
     },
     "K-399": {
       "title": "Hvad mangler i billedet?",
@@ -39,7 +39,7 @@
     },
     "K-400": {
       "title": "Billedpar: find fejlen",
-      "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+      "instruction": "Hver række viser det samme udsnit to gange: Sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
     },
     "G2-389": {
       "title": "Skriv, hvad der er anderledes",
@@ -75,7 +75,7 @@
     },
     "G1-418": {
       "title": "Sæt trinnene i rækkefølge: tegn {L}",
-      "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
+      "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
     },
     "G1-419": {
       "title": "Trin for trin: tegn {L}",
@@ -144,7 +144,7 @@
         },
         "colour": {
           "title": "Find fejlene i farvebilledet",
-          "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+          "instruction": "Kig godt på farverne: Sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
         },
         "seven": {
           "title": "Find syv fejl ved dammen",
@@ -164,7 +164,7 @@
         },
         "mirror-pair": {
           "title": "Spejlvendt billede: find fejlene",
-          "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+          "instruction": "Billede 2 er spejlvendt: Sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
         },
         "missing": {
           "title": "Hvad mangler i billedet?",
@@ -172,7 +172,7 @@
         },
         "pairs": {
           "title": "Billedpar: find fejlen",
-          "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+          "instruction": "Hver række viser det samme udsnit to gange: Sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
         },
         "write": {
           "title": "Skriv, hvad der er anderledes",
@@ -308,7 +308,7 @@
         },
         "order": {
           "title": "Sæt trinnene i rækkefølge: tegn {L}",
-          "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
+          "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
         },
         "copy-steps": {
           "title": "Trin for trin: tegn {L}",

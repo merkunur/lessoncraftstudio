@@ -32,7 +32,7 @@
   "strings": {
     "K-321": {
       "title": "Wochentage in die richtige Reihenfolge bringen",
-      "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+      "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, in der sie kommen."
     },
     "K-337": {
       "title": "Fehlende Wochentage eintragen",

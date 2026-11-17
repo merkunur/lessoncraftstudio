@@ -837,7 +837,7 @@
     },
     "replace": {
       "title": "Vervang de naam door een voornaamwoord",
-      "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje.",
+      "instruction": "Lees de zin. Schrijf in het vakje het woord uit het kader dat in de tweede zin de naam vervangt.",
       "bankWord": "kader"
     },
     "possessive": {

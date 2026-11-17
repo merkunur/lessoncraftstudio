@@ -25,7 +25,8 @@
   },
   "K-009": {
     "title": "Hvem har færrest?",
-    "instruction": "Se på begge gruppene. Sett ring rundt gruppen med FÆRREST."
+    "instruction": "Se på begge gruppene. Sett ring rundt gruppen med FÆRREST.",
+    "printTitle": "Hvilken gruppe har færrest?"
   },
   "K-010": {
     "title": "Finn like grupper",
@@ -37,7 +38,7 @@
   },
   "K-012": {
     "title": "En til hver",
-    "instruction": "Gi hver enhet en partner. Tegn en strek for å koble dem en og en."
+    "instruction": "Finn en makker til hver av dem. Tegn en strek mellom dem, én og én."
   },
   "K-013": {
     "title": "Tell hver sort",
@@ -77,7 +78,8 @@
   },
   "K-022": {
     "title": "Fast i midten",
-    "instruction": "Skriv tallet som kommer imellom."
+    "instruction": "Skriv tallet som kommer imellom.",
+    "printTitle": "Tallet imellom"
   },
   "K-023": {
     "title": "Klar for start! 10, 9, 8",
@@ -101,7 +103,8 @@
   },
   "K-029": {
     "title": "Ta en god gjetning!",
-    "instruction": "Ikke tell! Anslå først og sett ring rundt det beste tallet, sjekk så ved å telle."
+    "instruction": "Ikke tell! Anslå først og sett ring rundt det beste tallet, sjekk så ved å telle.",
+    "printTitle": "Gjett godt!"
   },
   "K-030": {
     "title": "Første, andre, tredje",
@@ -137,7 +140,8 @@
   },
   "K-038": {
     "title": "Hva veier mest?",
-    "instruction": "Tenk på det virkelige livet! Sett ring rundt den TYNGSTE."
+    "instruction": "Tenk på det virkelige livet! Sett ring rundt den TYNGSTE.",
+    "printTitle": "Tung eller lett?"
   },
   "K-039": {
     "title": "Likt og ulikt",
@@ -184,7 +188,8 @@
   },
   "K-052": {
     "title": "Opp og ned-mønstre",
-    "instruction": "Se på mønsteret. Sett ring rundt det som kommer etter."
+    "instruction": "Se på mønsteret. Sett ring rundt det som kommer etter.",
+    "printTitle": "Opp-og-ned-mønstre"
   },
   "K-053": {
     "title": "Voksende mønstre",
@@ -228,7 +233,8 @@
   },
   "K-066": {
     "title": "Øverst, midten, nederst",
-    "instruction": "Sett ring rundt hvert bilde i MIDTERSTE rad."
+    "instruction": "Sett ring rundt hvert bilde i MIDTERSTE rad.",
+    "printTitle": "Øverst, i midten, nederst"
   },
   "K-067": {
     "title": "Inni og utenfor",
@@ -456,7 +462,7 @@
   },
   "G1-158": {
     "title": "Bildesudoku",
-    "instruction": "Hver rad, kolonne og rute trenger alle fire bildene — tegn eller skriv det som mangler."
+    "instruction": "I hver rad, hver kolonne og hver boks skal alle fire bildene være med. Tegn eller skriv det som mangler."
   },
   "G1-160": {
     "title": "Tre grupper",
@@ -540,7 +546,7 @@
   },
   "G2-225": {
     "title": "Sifferdetektiv",
-    "instruction": "Se på det understrekede sifferet. Sett ring rundt verdien sin."
+    "instruction": "Se på det understrekede sifferet. Sett ring rundt verdien til sifferet."
   },
   "G2-226": {
     "title": "100 mer, 100 mindre",
@@ -613,7 +619,7 @@
   },
   "G2-243": {
     "title": "Romfigurer rundt oss",
-    "instruction": "Tegn en strek fra hvert romlegeme til tingen med samme form."
+    "instruction": "Tegn en strek fra hver romfigur til tingen med samme form."
   },
   "G2-244": {
     "title": "Flat eller romlig?",
@@ -655,7 +661,7 @@
   },
   "G3-308": {
     "title": "Gangehopp",
-    "instruction": "Følg de like hoppene fra null. Skriv hvert landingstall."
+    "instruction": "Følg de like hoppene fra null. Skriv tallet du lander på etter hvert hopp."
   },
   "G3-309": {
     "title": "Del det opp",
@@ -754,7 +760,7 @@
   "G3-335": {
     "title": "Halvveismerker",
     "instruction": "Tell kryssene over hvert tall. Skriv hvor mange.",
-    "printTitle": "Halve"
+    "printTitle": "Halvveismerker"
   },
   "G3-337": {
     "title": "Gå rundt kanten",
@@ -803,7 +809,8 @@
   },
   "G3-355": {
     "title": "12-timer og 24-timer",
-    "instruction": "Gjør om mellom 12-timers og 24-timers tid. Sett ring rundt det som er riktig."
+    "instruction": "Gjør om mellom 12-timers og 24-timers tid. Sett ring rundt det som er riktig.",
+    "printTitle": "12-timers og 24-timers klokke"
   },
   "G3-356": {
     "title": "Legg til og trekk fra tid",
@@ -811,11 +818,11 @@
   },
   "G3-348": {
     "title": "Stor bildesudoku",
-    "instruction": "Hver rad, kolonne og rute trenger alle seks bildene — fyll de tomme rutene."
+    "instruction": "I hver rad, hver kolonne og hver boks skal alle seks bildene være med. Fyll ut de tomme rutene."
   },
   "G3-349": {
     "title": "Magiske kvadrater",
-    "instruction": "Hver rad og kolonne blir det magiske tallet. Fyll de tomme rutene."
+    "instruction": "Tallene i hver rad og hver kolonne blir til sammen det magiske tallet. Fyll ut de tomme rutene."
   },
   "G3-350": {
     "title": "Få det i balanse",
@@ -823,7 +830,7 @@
   },
   "G3-351": {
     "title": "Hva fullfører gåten?",
-    "instruction": "Rader deler et bilde. Kolonner deler en størrelse. Sett ring rundt det som passer."
+    "instruction": "I hver rad er bildet det samme. I hver kolonne er størrelsen den samme. Sett ring rundt det som passer i den tomme ruten."
   },
   "G3-353": {
     "title": "Sorter i to sirkler",
@@ -1186,7 +1193,7 @@
   },
   "K-276": {
     "title": "Tallvenner: finn det hele",
-    "instruction": "Legg sammen de to delene. Skriv det hele tallet i den stiplede sirkelen."
+    "instruction": "Legg sammen de to delene. Skriv tallet for det hele i den stiplede sirkelen."
   },
   "K-277": {
     "title": "Tiervenner med telleprikker",
@@ -1522,7 +1529,7 @@
   },
   "G2-279": {
     "title": "Koordinater i rutenett",
-    "instruction": "Finn hver rute ved hjelp av bokstav og tall, for eksempel B2. Fargelegg den med fargen til gruppen til bildet kommer fram."
+    "instruction": "Finn hver rute ved hjelp av bokstav og tall, for eksempel B2. Fargelegg den med fargen til gruppen den hører til, så kommer bildet fram."
   },
   "G3-370": {
     "title": "Regnefortellinger: gange og dele",
@@ -1550,7 +1557,7 @@
   },
   "K-296": {
     "title": "Prikk til prikk: tell videre til 30",
-    "instruction": "Tell videre fra 11 til 30, og se hvilket bilde som kommer fram."
+    "instruction": "Start på den oransje prikken. Tell videre fra 11 til 30, og trekk strek fra prikk til prikk til bildet kommer fram."
   },
   "K-298": {
     "title": "Tegn etter i rutenett uten bokstaver og tall",
@@ -1622,7 +1629,7 @@
   },
   "G1-264": {
     "title": "Alfabetisk rekkefølge: samme førstebokstav",
-    "instruction": "To par ord begynner likt. Bruk den andre bokstaven."
+    "instruction": "To par ord begynner med samme bokstav. Bruk den andre bokstaven til å sette dem i riktig rekkefølge."
   },
   "G1-266": {
     "title": "Tallpyramider opp til 10",
@@ -1634,7 +1641,7 @@
   },
   "G1-268": {
     "title": "Tallpyramider: finn steinen som mangler",
-    "instruction": "En stein nederst mangler. Bruk steinen over til å finne den."
+    "instruction": "En stein nederst mangler. Bruk steinen over til å finne den, og bygg så hele pyramiden."
   },
   "G1-270": {
     "title": "Det dobbelte og halvparten: små tall",
@@ -1678,7 +1685,7 @@
   },
   "G1-282": {
     "title": "Sett ordene i rekkefølge: med hjelp",
-    "instruction": "Stor bokstav og punktum viser start og slutt på setningen."
+    "instruction": "Sett ordene i riktig rekkefølge, og skriv setningen på linjen. Stor bokstav og punktum viser hvor setningen starter og slutter."
   },
   "G1-283": {
     "title": "Sett ordene i rekkefølge: uten hjelp",
@@ -1726,7 +1733,7 @@
   },
   "G2-294": {
     "title": "Regne med penger: er det nok?",
-    "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei."
+    "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei, og skriv så hvor mye pengene er til sammen."
   },
   "G2-295": {
     "title": "Regne med penger: hvor mye mer?",
@@ -1758,7 +1765,7 @@
   },
   "G2-303": {
     "title": "Koordinater i rutenett: 10 x 10",
-    "instruction": "Et større rutenett med flere ruter. Jobb deg nøye gjennom lista."
+    "instruction": "Finn hver rute i det store rutenettet ved hjelp av bokstav og tall. Fargelegg den, så kommer bildet fram."
   },
   "G3-371": {
     "title": "Regnefortellinger: gange",
@@ -1774,11 +1781,11 @@
   },
   "G3-374": {
     "title": "Regnefortellinger: dele på to måter",
-    "instruction": "Én fortelling deler likt, den andre lager grupper."
+    "instruction": "Løs begge fortellingene. Den ene deler likt, den andre lager grupper. Begge er deling."
   },
   "G3-375": {
     "title": "Regnefortellinger: gange og lage grupper",
-    "instruction": "Én fortelling bygger grupper, den andre deler dem opp."
+    "instruction": "Løs begge fortellingene. Den ene lager grupper, den andre deler dem opp."
   },
   "G3-376": {
     "title": "Regnefortellinger: gange og dele blandet",
@@ -1786,7 +1793,7 @@
   },
   "K-308": {
     "title": "Prikk til prikk: tell baklengs fra 10",
-    "instruction": "Start på den oransje prikken, og tell baklengs fra 10 til 1."
+    "instruction": "Start på den oransje prikken, og trekk strek fra prikk til prikk mens du teller baklengs fra 10 til 1."
   },
   "G1-285": {
     "title": "Prikk til prikk: tell med toere",
@@ -1794,7 +1801,7 @@
   },
   "G1-294": {
     "title": "Prikk til prikk: tell baklengs fra 20",
-    "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1."
+    "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1, og trekk strek fra prikk til prikk."
   },
   "G2-304": {
     "title": "Prikk til prikk: tell med femmere",
@@ -1810,7 +1817,7 @@
   },
   "G1-286": {
     "title": "Det dobbelte og halvparten med bilder",
-    "instruction": "Noen kort spør om det dobbelte, andre om halvparten."
+    "instruction": "Noen kort spør om det dobbelte, andre om halvparten. Regn ut, og skriv svaret i rutene."
   },
   "G2-305": {
     "title": "Les av tallinjen fra 40 til 60",
@@ -1818,7 +1825,7 @@
   },
   "G2-310": {
     "title": "Les av tallinjen fra 60 til 100",
-    "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp."
+    "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp. Tell videre fra nærmeste tall, og skriv tallet hver pil peker på."
   },
   "G1-295": {
     "title": "Les av tallinjen fra 20 til 40",
@@ -1838,7 +1845,7 @@
   },
   "G1-297": {
     "title": "Halvparten opp til 20 med bilder",
-    "instruction": "Større grupper av bilder å halvere, helt opp til tjue."
+    "instruction": "Nå skal du halvere større grupper av bilder, helt opp til tjue."
   },
   "K-314": {
     "title": "Entall og flertall: skriv selv",
@@ -1846,7 +1853,7 @@
   },
   "G1-293": {
     "title": "Substantiv og verb",
-    "instruction": "To bokser denne gangen. Er ordet et substantiv eller et verb?"
+    "instruction": "Er hvert ord et substantiv eller et verb? Skriv ordet i riktig boks."
   },
   "K-310": {
     "title": "Spor og skriv med store bokstaver",
@@ -1862,7 +1869,7 @@
   },
   "G2-308": {
     "title": "Koordinater i rutenett: skriv koden",
-    "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista."
+    "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista for fargen den har."
   },
   "K-309": {
     "title": "Prikk til prikk med bokstaver",
@@ -1886,7 +1893,7 @@
   },
   "G1-300": {
     "title": "Substantiv og adjektiv",
-    "instruction": "Er ordet et substantiv, eller beskriver det hvordan noe er?"
+    "instruction": "Er hvert ord et substantiv eller et adjektiv? Skriv ordet i riktig boks."
   },
   "G1-301": {
     "title": "Skriv ordet: ordbank og bokstavruter",
@@ -1898,7 +1905,7 @@
   },
   "G2-312": {
     "title": "Les kalenderen: datoer og antall dager",
-    "instruction": "Svaret er noen ganger en dato, andre ganger et antall dager."
+    "instruction": "Bruk kalenderen til å svare på hvert spørsmål. Svaret er noen ganger en dato, andre ganger et antall dager."
   },
   "G2-314": {
     "title": "Prikk til prikk: tell med tiere",
@@ -1934,7 +1941,8 @@
   },
   "K-318": {
     "title": "Lydbokser: Én lyd i hver rute",
-    "instruction": "Si ordet til bildet sakte, lyd for lyd. Skriv én lyd i hver rute. En bred rute med bue under holder to bokstaver som lager én lyd."
+    "instruction": "Si ordet til bildet sakte, lyd for lyd. Skriv én lyd i hver rute. En bred rute med bue under holder to bokstaver som lager én lyd.",
+    "printTitle": "Lydbokser: én lyd i hver rute"
   },
   "K-319": {
     "title": "Følelser: Koble ansiktet til ordet",
@@ -1978,7 +1986,7 @@
   },
   "G1-309": {
     "title": "Rimord: Finn rimet og skriv ordet",
-    "instruction": "Si det første bildet. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
+    "instruction": "Si hva det første bildet heter. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
   },
   "G1-310": {
     "title": "Puslebiter fra hundrerruta: Fyll inn tallene",
@@ -1990,11 +1998,13 @@
   },
   "G2-316": {
     "title": "Sammensatte ord: Bilde + bilde",
-    "instruction": "Si navnet på de to bildene, sett de to ordene sammen og skriv det nye ordet på linja."
+    "instruction": "Si navnet på de to bildene, sett de to ordene sammen og skriv det nye ordet på linja.",
+    "printTitle": "Sammensatte ord: bilde + bilde"
   },
   "G2-317": {
     "title": "Verb: Presens og preteritum",
-    "instruction": "Se på bildet og les verbet. Skriv formen for nå og formen for i går i de stiplede rutene, og fullfør så setningene."
+    "instruction": "Se på bildet og les verbet. Skriv formen for nå og formen for i går i de stiplede rutene, og fullfør så setningene.",
+    "printTitle": "Verb: presens og preteritum"
   },
   "G2-318": {
     "title": "Faktaark om dyr: {U}",
@@ -2002,7 +2012,8 @@
   },
   "G2-319": {
     "title": "Logikkoppgaver: Tre ledetråder, én løsning",
-    "instruction": "Les ledetrådene. Sett strek over det som ikke kan stemme i tabellen, sett hake ved det som må stemme, og sett så ring rundt bildet til hvert barn."
+    "instruction": "Les ledetrådene. Sett strek over det som ikke kan stemme i tabellen, sett hake ved det som må stemme, og sett så ring rundt bildet til hvert barn.",
+    "printTitle": "Logikkoppgaver: tre ledetråder, én løsning"
   },
   "G3-377": {
     "title": "Divisjon med rest: Sett ring rundt gruppene",
@@ -2034,7 +2045,7 @@
   },
   "K-330": {
     "title": "Første lyd er gitt: Skriv lydene videre",
-    "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
+    "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute. I en bred rute skriver du to bokstaver som er én lyd."
   },
   "G1-312": {
     "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -2082,7 +2093,7 @@
   },
   "K-336": {
     "title": "Ordenstall fra begge sider: Start ved flagget",
-    "instruction": "Se etter flagget først: Det kan stå på begge sider. Start der, tell til tallet på hver brikke og lag merket."
+    "instruction": "Se etter flagget først: Det kan stå i den ene eller den andre enden. Start der, tell til tallet på hver brikke og lag merket."
   },
   "G1-318": {
     "title": "Hvem vinner løpet? Skriv plassen",
@@ -2130,7 +2141,8 @@
   },
   "K-342": {
     "title": "Favorittene mine: Sett ring og skriv ordet",
-    "instruction": "Sett ring rundt favorittbildet ditt i hver rad og skriv ordet på linja."
+    "instruction": "Sett ring rundt favorittbildet ditt i hver rad og skriv ordet på linja.",
+    "printTitle": "Favorittene mine: Sett ring rundt og skriv ordet"
   },
   "K-343": {
     "title": "Familien min: Tegn og tell",
@@ -2158,7 +2170,8 @@
   },
   "K-349": {
     "title": "Én og flere: Kort i entall og flertall",
-    "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen."
+    "instruction": "Klipp ut kortene. Si ordet for én og ordet for flere, og legg så parene sammen.",
+    "printTitle": "Én og flere: kort i entall og flertall"
   },
   "K-350": {
     "title": "Tospråklige bildekort: norsk og {U}",
@@ -2250,11 +2263,11 @@
   },
   "K-352": {
     "title": "Rimer det?",
-    "instruction": "Si begge bildene høyt. Hvis de to ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
+    "instruction": "Si høyt hva de to bildene heter. Hvis ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
   },
   "G1-343": {
     "title": "Sorter rimordene",
-    "instruction": "Si hvert bilde i ordbanken. Finn det store bildet det rimer på, og skriv ordet på en linje under."
+    "instruction": "Si hva hvert bilde i bildebanken heter. Finn det store bildet det rimer på, og skriv ordet på en linje under."
   },
   "G1-344": {
     "title": "Fullfør rimet",
@@ -2262,7 +2275,7 @@
   },
   "G1-345": {
     "title": "Rimrekker",
-    "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
+    "instruction": "Si hva hvert bilde heter. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
   },
   "G1-346": {
     "title": "Skriv dine egne rimord",
@@ -2278,7 +2291,8 @@
   },
   "G2-322": {
     "title": "Hemmelig tall: To piler, én rute",
-    "instruction": "Følg begge pilene. De peker på den samme ruta i hundrerruta. Skriv det hemmelige tallet."
+    "instruction": "Følg begge pilene. De peker på den samme ruta i hundrerruta. Skriv det hemmelige tallet.",
+    "printTitle": "Hemmelig tall: to piler, én rute"
   },
   "G1-348": {
     "title": "Finn feilen på puslebiten",
@@ -2314,7 +2328,8 @@
   },
   "G2-331": {
     "title": "Koble orddelene: To bilder, ett ord",
-    "instruction": "Tegn en strek fra hvert første bilde til bildet som fullfører ordet. Skriv så det nye ordet på linja ved det første bildet."
+    "instruction": "Tegn en strek fra hvert første bilde til bildet som fullfører ordet. Skriv så det nye ordet på linja ved det første bildet.",
+    "printTitle": "Koble orddelene: to bilder, ett ord"
   },
   "G2-332": {
     "title": "Orddetektiv: Sammensatt eller ikke?",
@@ -2322,7 +2337,8 @@
   },
   "G2-333": {
     "title": "Ordstjerne: Ett ord, mange ord",
-    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nytt ord på linjen sin."
+    "instruction": "Ett ord står i midten. Hvert bilde rundt danner et nytt ord sammen med det. Skriv hvert nytt ord på linjen sin.",
+    "printTitle": "Ordstjerne: ett ord, mange ord"
   },
   "G2-334": {
     "title": "Koble verbet til preteritumsformen",
@@ -2358,7 +2374,8 @@
   },
   "G2-342": {
     "title": "Sammenlign to dyr: Likt og ulikt",
-    "instruction": "Les begge faktaarkene. Sett ring rundt likt eller ulikt for hvert faktum. Skriv så to ting som er like, og to som er ulike."
+    "instruction": "Les begge faktaarkene. Sett ring rundt likt eller ulikt for hvert faktum. Skriv så to ting som er like, og to som er ulike.",
+    "printTitle": "Sammenlign to dyr: likt og ulikt"
   },
   "G2-343": {
     "title": "Hvem er jeg? Mystisk dyr",
@@ -2366,15 +2383,16 @@
   },
   "G2-344": {
     "title": "Logikkoppgaver med enten-eller-ledetråder",
-    "instruction": "En ja-ledetråd får en hake, en nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring."
+    "instruction": "En ja-ledetråd får en hake, en nei-ledetråd et kryss, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen og sett ring om svaret."
   },
   "G3-378": {
     "title": "Logikkoppgaver 4 x 4: Seks ledetråder",
-    "instruction": "Fire barn og fire bilder. Bruk hver ledetråd: Stryk det som ikke kan stemme, og sett hake ved det som må stemme, til hver rad har én løsning."
+    "instruction": "Fire barn og fire bilder. Bruk hver ledetråd: Stryk det som ikke kan stemme, og sett hake ved det som må stemme, til hver rad har én løsning.",
+    "printTitle": "Logikkoppgaver 4 x 4: seks ledetråder"
   },
   "G1-349": {
     "title": "Logikkoppgaver med bildeledetråder",
-    "instruction": "Et bilde med strek over betyr: Barnet har det ikke. Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring."
+    "instruction": "Strek over et bilde betyr: Barnet har det ikke. Ring rundt et bilde betyr: Barnet har det. Stryk ut i tabellen, og sett så ring rundt hvert svar."
   },
   "G3-379": {
     "title": "Logikkoppgaver med to kjennetegn",
@@ -2390,7 +2408,8 @@
   },
   "G3-381": {
     "title": "Divisjon med rest: Øvingsrekker",
-    "instruction": "I hvert stykke blir det noe til overs. Skriv svaret og resten i hver rad."
+    "instruction": "I hvert stykke blir det noe til overs. Skriv svaret og resten i hver rad.",
+    "printTitle": "Divisjon med rest: øvingsrekker"
   },
   "G3-382": {
     "title": "Går det opp? Divisjon med og uten rest",
@@ -2442,7 +2461,7 @@
   },
   "G2-346": {
     "title": "Avrunding til nærmeste tier",
-    "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er einersifferet 5 eller mer, runder du opp."
+    "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er enersifferet 5 eller mer, runder du opp."
   },
   "K-358": {
     "title": "Lett tangram: tegn strekene for 2 og 3 brikker",
@@ -2450,7 +2469,7 @@
   },
   "G1-354": {
     "title": "Tangram: fire skygger å bygge",
-    "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+    "instruction": "Bygg hver mørk figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
   },
   "G1-355": {
     "title": "Tangram: hvilken brikke mangler?",
@@ -2462,7 +2481,8 @@
   },
   "K-359": {
     "title": "Tangram: tell trekanter og firkanter",
-    "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+    "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så kvadratene, og skriv tallet i den andre ruta.",
+    "printTitle": "Tangram: tell trekanter og kvadrater"
   },
   "K-360": {
     "title": "Kroppen vår: hvor mange?",
@@ -2570,7 +2590,7 @@
   },
   "G1-369": {
     "title": "Kan to venner dele likt?",
-    "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Er antallet bilder partall eller oddetall?"
+    "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir igjen. Partall eller oddetall? Sett ring rundt riktig ord."
   },
   "G2-352": {
     "title": "Partall og oddetall opp til 100: se på enerplassen",
@@ -2638,7 +2658,7 @@
   },
   "G3-390": {
     "title": "Hvilke tall blir 50?",
-    "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på einersifferet i hvert tall.",
+    "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på enersifferet i hvert tall.",
     "printTitle": "Hvilke tall rundes av til 50?"
   },
   "G3-391": {
@@ -2891,7 +2911,8 @@
   },
   "G1-401": {
     "title": "Bildefortelling: begynnelse, midt og slutt",
-    "instruction": "Se på begynnelsen og slutten av hver historie, og tegn i den tomme rammen hva som skjer i midten."
+    "instruction": "Se på begynnelsen og slutten av hver historie, og tegn i den tomme rammen hva som skjer i midten.",
+    "printTitle": "Bildefortelling: begynnelse, midte og slutt"
   },
   "G1-402": {
     "title": "Bildeserie: sett setningene i rekkefølge og koble dem til bildene",
@@ -2911,7 +2932,7 @@
   },
   "G1-404": {
     "title": "Stopp bakteriene: hva hindrer at de sprer seg?",
-    "instruction": "Sett ring rundt bildet i hver rad som stopper bakterier fra å spre seg."
+    "instruction": "Sett ring rundt bildet i hver rad som hindrer at bakterier sprer seg."
   },
   "G2-379": {
     "title": "Gode vaner: hvorfor gjør vi det?",
@@ -3539,7 +3560,7 @@
   },
   "G1-449": {
     "title": "Nesten dobbelt",
-    "instruction": "Bruk en dobbel du kan. Skriv dobbelen, og legg så til én for å finne summen."
+    "instruction": "Bruk en dobling du kan. Skriv doblingen, og legg så til én for å finne summen."
   },
   "K-459": {
     "title": "Tegn det dobbelte",
@@ -4040,7 +4061,7 @@
   },
   "K-522": {
     "title": "Koble figuren til navnet",
-    "instruction": "Se på hver mørke tangramfigur. Trekk en strek fra figuren til navnet."
+    "instruction": "Se på hver mørk tangramfigur. Trekk en strek fra figuren til navnet."
   },
   "K-523": {
     "title": "Spor navnet ditt",
@@ -4140,7 +4161,8 @@
   },
   "K-538": {
     "title": "Hvilken rimer ikke?",
-    "instruction": "Si hva de tre bildene heter. To av dem rimer. Sett ring rundt det som ikke rimer."
+    "instruction": "Si hva de tre bildene heter. To av dem rimer. Sett ring rundt det som ikke rimer.",
+    "printTitle": "Hvilket rimer ikke?"
   },
   "K-539": {
     "title": "Rimdomino",

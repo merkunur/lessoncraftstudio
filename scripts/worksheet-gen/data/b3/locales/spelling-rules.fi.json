@@ -5519,7 +5519,7 @@
     },
     "G2-328": {
       "title": "Astevaihtelu: {UNIT}",
-      "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+      "instruction": "Lue sana yksikössä. Kirjoita se monikossa viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
     }
   }
 }

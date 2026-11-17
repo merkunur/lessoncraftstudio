@@ -7,7 +7,7 @@
   },
   "K-358": {
    "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
-   "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+   "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, missä palojen reunat kohtaavat."
   },
   "G1-354": {
    "title": "Tangram: neljä varjokuviota rakennettavaksi",
@@ -135,7 +135,7 @@
   },
   "G2-350": {
    "title": "Täydennä tarina",
-   "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+   "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana sanapankista omaan laatikkoonsa."
   },
   "G1-368": {
    "title": "Yhdistä lause kuvaan",
@@ -143,7 +143,7 @@
   },
   "G1-351": {
    "title": "Parilliset ja parittomat luvut 20:een asti",
-   "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+   "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
   },
   "G2-351": {
    "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",
@@ -339,7 +339,7 @@
     },
     "compose": {
      "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
-     "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+     "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, missä palojen reunat kohtaavat."
     },
     "silhouette": {
      "title": "Tangram: neljä varjokuviota rakennettavaksi",
@@ -1544,7 +1544,7 @@
     },
     "story": {
      "title": "Täydennä tarina",
-     "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+     "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana sanapankista omaan laatikkoonsa."
     },
     "match": {
      "title": "Yhdistä lause kuvaan",
@@ -1575,7 +1575,7 @@
    "strings": {
     "base": {
      "title": "Parilliset ja parittomat luvut 20:een asti",
-     "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+     "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
     },
     "proof": {
      "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",

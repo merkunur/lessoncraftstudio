@@ -816,7 +816,7 @@
     },
     "story": {
       "title": "Täydennä tarina",
-      "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+      "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana sanapankista omaan laatikkoonsa."
     },
     "match": {
       "title": "Yhdistä lause kuvaan",

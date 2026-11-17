@@ -103,7 +103,7 @@
   },
   "K-337": {
    "title": "Ontbrekende dagen: schrijf de week op volgorde",
-   "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit de woordenbank op de goede plek."
+   "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit het kader op de goede plek."
   },
   "G1-319": {
    "title": "Gisteren, vandaag, morgen",
@@ -211,7 +211,7 @@
   },
   "G1-328": {
    "title": "Twee of drie lettergrepen? Verdeel en sorteer",
-   "instruction": "Klap elk woord uit de woordenbank. Schrijf het met streepjes tussen de lettergrepen in de kolom 2 of de kolom 3."
+   "instruction": "Klap elk woord uit het kader. Schrijf het met streepjes tussen de lettergrepen in de kolom met 2 of de kolom met 3."
   },
   "G1-329": {
    "title": "Elke lettergreep heeft een klinker",
@@ -239,11 +239,11 @@
   },
   "G1-334": {
    "title": "Lees de lettergrepen en zoek het plaatje",
-   "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in de bank bovenaan en schrijf het nummer van het plaatje in het vakje."
+   "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in het kader bovenaan en schrijf het nummer van het plaatje in het vakje."
   },
   "G1-307": {
    "title": "Tegenstellingen: schrijf het tegenovergestelde woord",
-   "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenbank en schrijf het op de lijn."
+   "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenlijst en schrijf het op de lijn."
   },
   "K-351": {
    "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
@@ -251,7 +251,7 @@
   },
   "G1-335": {
    "title": "Tegenstellingen in een zin",
-   "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenbank helpt je."
+   "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenlijst helpt je."
   },
   "G1-336": {
    "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
@@ -291,15 +291,15 @@
   },
   "G1-309": {
    "title": "Rijmwoorden: rijm en schrijf",
-   "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+   "instruction": "Zeg wat je op het eerste plaatje ziet. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
   },
   "K-352": {
    "title": "Rijmt het of niet?",
-   "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+   "instruction": "Zeg wat je op beide plaatjes ziet. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
   },
   "G1-343": {
    "title": "Sorteer de rijmwoorden",
-   "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+   "instruction": "Zeg wat je op elk plaatje in het kader ziet. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
   },
   "G1-344": {
    "title": "Maak het rijmpje af",
@@ -307,7 +307,7 @@
   },
   "G1-345": {
    "title": "Rijmrijen: twee rijmwoorden per plaatje",
-   "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+   "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
   },
   "G1-346": {
    "title": "Verzin je eigen rijmwoorden",
@@ -359,7 +359,7 @@
   },
   "G2-316": {
    "title": "Samenstellingen: plaatje + plaatje",
-   "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
+   "instruction": "Zeg wat je op de twee plaatjes ziet, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
   },
   "G2-330": {
    "title": "Verdeel de samenstelling: zoek de twee woorden",
@@ -399,7 +399,7 @@
   },
   "G2-318": {
    "title": "Dierenpaspoort: {U}",
-   "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+   "instruction": "Zoek informatie op over dit dier. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
   },
   "G2-339": {
    "title": "Dierenpaspoort {U}: kies de juiste weetjes",
@@ -407,7 +407,7 @@
   },
   "G2-340": {
    "title": "Dierenpaspoort {U} met woordenbank",
-   "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+   "instruction": "Zoek elk juist weetje in de woordenlijst en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
   },
   "G2-341": {
    "title": "Dierenpaspoort {U}: schrijf drie zinnen",
@@ -419,7 +419,7 @@
   },
   "G2-343": {
    "title": "Wie ben ik? Raad het dier",
-   "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+   "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier tussen de plaatjes bovenaan, schrijf zijn naam op de lijn en teken het in het vak."
   },
   "G2-319": {
    "title": "Logigram: drie aanwijzingen, één antwoord",
@@ -15064,7 +15064,7 @@
     },
     "G1-334": {
      "title": "Lees de lettergrepen en zoek het plaatje",
-     "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in de bank bovenaan en schrijf het nummer van het plaatje in het vakje."
+     "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in het kader bovenaan en schrijf het nummer van het plaatje in het vakje."
     }
    }
   },
@@ -15945,7 +15945,7 @@
     },
     "K-337": {
      "title": "Ontbrekende dagen: schrijf de week op volgorde",
-     "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit de woordenbank op de goede plek."
+     "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit het kader op de goede plek."
     },
     "G1-319": {
      "title": "Gisteren, vandaag, morgen",
@@ -17026,7 +17026,7 @@
    "strings": {
     "G1-307": {
      "title": "Tegenstellingen: schrijf het tegenovergestelde woord",
-     "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenbank en schrijf het op de lijn."
+     "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenlijst en schrijf het op de lijn."
     },
     "K-351": {
      "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
@@ -17034,7 +17034,7 @@
     },
     "G1-335": {
      "title": "Tegenstellingen in een zin",
-     "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenbank helpt je."
+     "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenlijst helpt je."
     },
     "G1-336": {
      "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
@@ -20254,15 +20254,15 @@
    "strings": {
     "G1-309": {
      "title": "Rijmwoorden: rijm en schrijf",
-     "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+     "instruction": "Zeg wat je op het eerste plaatje ziet. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
     },
     "K-352": {
      "title": "Rijmt het of niet?",
-     "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+     "instruction": "Zeg wat je op beide plaatjes ziet. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
     },
     "G1-343": {
      "title": "Sorteer de rijmwoorden",
-     "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+     "instruction": "Zeg wat je op elk plaatje in het kader ziet. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
     },
     "G1-344": {
      "title": "Maak het rijmpje af",
@@ -20270,7 +20270,7 @@
     },
     "G1-345": {
      "title": "Rijmrijen: twee rijmwoorden per plaatje",
-     "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+     "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
     },
     "G1-346": {
      "title": "Verzin je eigen rijmwoorden",
@@ -22575,7 +22575,7 @@
    "strings": {
     "G2-316": {
      "title": "Samenstellingen: plaatje + plaatje",
-     "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
+     "instruction": "Zeg wat je op de twee plaatjes ziet, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
     },
     "G2-329": {
      "title": "Samenstellingen: wat komt er in het midden?",
@@ -24350,7 +24350,7 @@
    "strings": {
     "G2-318": {
      "title": "Dierenpaspoort: {U}",
-     "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+     "instruction": "Zoek informatie op over dit dier. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
     },
     "G2-339": {
      "title": "Dierenpaspoort {U}: kies de juiste weetjes",
@@ -24358,7 +24358,7 @@
     },
     "G2-340": {
      "title": "Dierenpaspoort {U} met woordenbank",
-     "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+     "instruction": "Zoek elk juist weetje in de woordenlijst en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
     },
     "G2-341": {
      "title": "Dierenpaspoort {U}: schrijf drie zinnen",
@@ -24370,7 +24370,7 @@
     },
     "G2-343": {
      "title": "Wie ben ik? Raad het dier",
-     "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+     "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier tussen de plaatjes bovenaan, schrijf zijn naam op de lijn en teken het in het vak."
     }
    }
   },

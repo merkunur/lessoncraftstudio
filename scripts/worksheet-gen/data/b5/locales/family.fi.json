@@ -243,7 +243,7 @@
   "strings": {
     "base": {
       "title": "Perhe ja sukulaiset: kuka on kuka?",
-      "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+      "instruction": "Etsi jokainen henkilö sukupuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
     },
     "generations": {
       "title": "Sukupolvet: vanhimmasta nuorimpaan",
@@ -255,7 +255,7 @@
     },
     "tree-clues": {
       "title": "Perhepuu: lue vihjeet",
-      "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+      "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun sukupuussa."
     },
     "relation-riddles": {
       "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",

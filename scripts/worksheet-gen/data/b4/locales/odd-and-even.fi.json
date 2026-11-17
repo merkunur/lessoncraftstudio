@@ -18,7 +18,7 @@
   "strings": {
     "base": {
       "title": "Parilliset ja parittomat luvut 20:een asti",
-      "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+      "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
     },
     "proof": {
       "title": "Parillinen vai pariton? Kaksi yhtä suurta lukua",

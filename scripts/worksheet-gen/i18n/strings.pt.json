@@ -93,7 +93,8 @@
   },
   "K-027": {
     "title": "Conte as fileiras",
-    "instruction": "Conte todas as figuras. Escreva quantas há no total."
+    "instruction": "Conte todas as figuras. Escreva quantas há no total.",
+    "printTitle": "Conte as figuras das fileiras"
   },
   "K-028": {
     "title": "Quantos no total?",
@@ -177,11 +178,13 @@
   },
   "K-050": {
     "title": "Padrões grande e pequeno",
-    "instruction": "Olhe o padrão. Circule o que vem depois."
+    "instruction": "Olhe o padrão. Circule o que vem depois.",
+    "printTitle": "Padrões de grande e pequeno"
   },
   "K-052": {
     "title": "Padrões para cima e baixo",
-    "instruction": "Olhe o padrão. Circule o que vem depois."
+    "instruction": "Olhe o padrão. Circule o que vem depois.",
+    "printTitle": "Padrões para cima e para baixo"
   },
   "K-053": {
     "title": "Padrões que crescem",
@@ -359,7 +362,7 @@
   },
   "G1-126": {
     "title": "Conte em grupos",
-    "instruction": "Cada caixa tem a mesma quantidade. Conte saltando e escreva o total."
+    "instruction": "Cada caixa tem a mesma quantidade. Conte pulando e escreva, embaixo de cada caixa, quantos são até ali."
   },
   "G1-129": {
     "title": "O quadro de cem",
@@ -470,7 +473,7 @@
   },
   "G2-206": {
     "title": "Forme uma dezena",
-    "instruction": "Circule 10 unidades para formar uma dezena. Escreva quantas dezenas e unidades."
+    "instruction": "Circule 10 unidades para formar uma dezena. Escreva quantas dezenas e quantas unidades há."
   },
   "G2-207": {
     "title": "Conte de 3 em 3",
@@ -494,7 +497,8 @@
   },
   "G2-212": {
     "title": "Escolha a matriz",
-    "instruction": "Circule a matriz que combina com a multiplicação."
+    "instruction": "Circule a disposição retangular que combina com a multiplicação.",
+    "printTitle": "Escolha a disposição retangular"
   },
   "G2-213": {
     "title": "Grupos fáceis",
@@ -546,7 +550,8 @@
   },
   "G2-227": {
     "title": "Ligue aos blocos",
-    "instruction": "Circule os blocos que mostram o número."
+    "instruction": "Circule os blocos que mostram o número.",
+    "printTitle": "Encontre os blocos certos"
   },
   "G2-228": {
     "title": "Metade e metade",
@@ -566,7 +571,8 @@
   },
   "G2-232": {
     "title": "Partes justas?",
-    "instruction": "Circule cada forma dividida em partes IGUAIS."
+    "instruction": "Circule cada forma dividida em partes IGUAIS.",
+    "printTitle": "Partes iguais?"
   },
   "G2-233": {
     "title": "Reparta o conjunto",
@@ -626,7 +632,7 @@
   },
   "G2-247": {
     "title": "Linha de espelho?",
-    "instruction": "A linha tracejada é um eixo de simetria? Circule o certo ou o errado.",
+    "instruction": "A linha tracejada é um eixo de simetria? Circule o sinal de certo para sim ou o X para não.",
     "printTitle": "Eixo de simetria?"
   },
   "G2-248": {
@@ -643,7 +649,8 @@
   },
   "G3-301": {
     "title": "Matrizes grandes",
-    "instruction": "Conte todas as figuras. Escreva quantas há no total."
+    "instruction": "Conte todas as figuras. Escreva quantas há no total.",
+    "printTitle": "Disposições retangulares grandes"
   },
   "G3-302": {
     "title": "Grupos difíceis",
@@ -663,11 +670,12 @@
   },
   "G3-311": {
     "title": "Famílias de vezes",
-    "instruction": "Use a matriz para completar as quatro sentenças."
+    "instruction": "Use a disposição retangular para completar as quatro sentenças.",
+    "printTitle": "Família de fatos da multiplicação e da divisão"
   },
   "G3-312": {
     "title": "O fator que falta",
-    "instruction": "Olhe a matriz. Escreva o fator que falta."
+    "instruction": "Olhe a disposição retangular. Escreva o fator que falta."
   },
   "G3-313": {
     "title": "Conte os quadradinhos",
@@ -675,7 +683,7 @@
   },
   "G3-314": {
     "title": "Inverta a ordem",
-    "instruction": "As duas matrizes têm o mesmo total. Complete as duas sentenças."
+    "instruction": "As duas disposições retangulares têm o mesmo total. Complete as duas sentenças."
   },
   "G3-315": {
     "title": "Nomeie a fração",
@@ -712,7 +720,8 @@
   },
   "G3-323": {
     "title": "Arredonde à centena",
-    "instruction": "Olhe o ponto. Circule a centena mais próxima dele."
+    "instruction": "Olhe o ponto. Circule a centena mais próxima dele.",
+    "printTitle": "Arredonde para a centena"
   },
   "G3-325": {
     "title": "Duelo dos milhares",
@@ -819,7 +828,7 @@
   },
   "G3-351": {
     "title": "O que completa o enigma?",
-    "instruction": "As linhas têm uma figura. As colunas têm um tamanho. Circule o que cabe na célula vazia."
+    "instruction": "Em cada linha, a figura é a mesma. Em cada coluna, o tamanho é o mesmo. Circule o que cabe na célula vazia."
   },
   "G3-353": {
     "title": "Separe em dois círculos",
@@ -953,7 +962,7 @@
   },
   "K-230": {
     "title": "Vogais e consoantes",
-    "instruction": "Separe cada letra entre as vogais ou as consoantes."
+    "instruction": "Separe as letras em vogais e consoantes."
   },
   "K-231": {
     "title": "Monte a palavra",
@@ -1029,11 +1038,12 @@
   },
   "G1-213": {
     "title": "Situações problema com figuras",
-    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho.",
+    "printTitle": "Situações-problema com figuras"
   },
   "G2-251": {
     "title": "Continhas armadas",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-252": {
     "title": "Medidas de capacidade e massa",
@@ -1057,7 +1067,8 @@
   },
   "K-244": {
     "title": "Grafismo de retas e ziguezagues",
-    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta.",
+    "printTitle": "Grafismo de retas e zigue-zagues"
   },
   "K-245": {
     "title": "Grafismo de ondas e curvas",
@@ -1289,39 +1300,43 @@
   },
   "G1-238": {
     "title": "Situações problema de adição",
-    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho.",
+    "printTitle": "Situações-problema de adição"
   },
   "G1-239": {
     "title": "Situações problema de subtração",
-    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho.",
+    "printTitle": "Situações-problema de subtração"
   },
   "G1-240": {
     "title": "Situações problema até 10",
-    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho.",
+    "printTitle": "Situações-problema até 10"
   },
   "G1-241": {
     "title": "Três situações problema",
-    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho.",
+    "printTitle": "Três situações-problema"
   },
   "G2-255": {
     "title": "Adição armada com 2 algarismos",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-256": {
     "title": "Subtração armada com 2 algarismos",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-257": {
     "title": "Continhas armadas com 3 algarismos",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-258": {
     "title": "Adição armada com 3 algarismos",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-259": {
     "title": "Revisão de continhas armadas",
-    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
   },
   "G2-260": {
     "title": "Medindo com jarras em ml",
@@ -1381,19 +1396,19 @@
   },
   "G3-359": {
     "title": "Adição com vai um",
-    "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+    "instruction": "Some uma ordem de cada vez. Quando a soma passar de 9, não se esqueça do vai um."
   },
   "G3-360": {
     "title": "Subtração com empréstimo",
-    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, troque uma dezena da ordem vizinha por 10 unidades."
   },
   "G3-361": {
     "title": "Adição com vai um: 3 algarismos",
-    "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+    "instruction": "Some uma ordem de cada vez. Quando a soma passar de 9, não se esqueça do vai um."
   },
   "G3-362": {
     "title": "Subtração emprestando do zero",
-    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, troque uma dezena da ordem vizinha por 10 unidades."
   },
   "G3-363": {
     "title": "Revisão de reagrupamento",
@@ -1421,7 +1436,7 @@
   },
   "G3-369": {
     "title": "Casinhas de multiplicar e dividir",
-    "instruction": "Use os três números do telhado e complete os quatro fatos de vezes e de dividir."
+    "instruction": "Use os três números do telhado e complete as quatro continhas de multiplicação e de divisão."
   },
   "K-278": {
     "title": "Letras minúsculas pontilhadas",
@@ -1489,11 +1504,11 @@
   },
   "G1-247": {
     "title": "Dobro e metade",
-    "instruction": "Dobre o grupo da esquerda. Divida o grupo da direita ao meio. Escreva os números nos quadradinhos."
+    "instruction": "Descubra o dobro do grupo da esquerda e a metade do grupo da direita. Escreva os números nos quadradinhos."
   },
   "G1-248": {
     "title": "Onde está na reta numérica?",
-    "instruction": "Cada seta aponta para um tracinho. Conte a partir do número mais próximo e escreva o número no quadradinho."
+    "instruction": "Cada seta aponta para um tracinho. Conte a partir do número escrito antes dele e escreva o número no quadradinho."
   },
   "G1-249": {
     "title": "Ordene a frase embaralhada",
@@ -1521,7 +1536,7 @@
   },
   "G2-279": {
     "title": "Coordenadas na malha quadriculada",
-    "instruction": "Encontre cada quadradinho pela letra e pelo número, como B2. Pinte com a cor do seu grupo e descubra a figura."
+    "instruction": "Encontre cada quadradinho pela letra e pelo número, como B2. Pinte-o com a cor do grupo dele e descubra a figura."
   },
   "G3-370": {
     "title": "Problemas de multiplicação e divisão",
@@ -1565,11 +1580,13 @@
   },
   "K-302": {
     "title": "Singular e plural: uma e duas",
-    "instruction": "Cubra o plural: são sempre duas figuras."
+    "instruction": "Cubra o plural: são sempre duas figuras.",
+    "printTitle": "Singular e plural: primeiras palavras"
   },
   "K-303": {
     "title": "Singular e plural: duas e três",
-    "instruction": "Cubra o plural das palavras compridas."
+    "instruction": "Cubra o plural das palavras compridas.",
+    "printTitle": "Singular e plural: palavras mais compridas"
   },
   "K-306": {
     "title": "O ou a? Quatro figuras",
@@ -1577,19 +1594,19 @@
   },
   "K-307": {
     "title": "O ou a? Oito figuras",
-    "instruction": "Agora são oito figuras: circule sempre o artigo."
+    "instruction": "São oito figuras. Fale o nome de cada uma e circule o artigo certo."
   },
   "G1-251": {
     "title": "Leia e pinte: as quatro frases",
-    "instruction": "Leia as quatro frases: cada uma diz a cor e o número."
+    "instruction": "Leia as quatro frases e pinte exatamente o que cada uma pede: a cor e a quantidade."
   },
   "G1-252": {
     "title": "Leia e pinte: página cheia",
-    "instruction": "São seis frases e seis cores: leia com atenção."
+    "instruction": "São seis frases e seis cores. Leia cada frase com atenção e pinte o que ela pede."
   },
   "G1-255": {
     "title": "O número do dia: de 11 a 19",
-    "instruction": "O número fica entre 11 e 19: use os dois quadros de dez."
+    "instruction": "Observe o número grande, que fica entre 11 e 19. Preencha todos os quadros para esse número, usando os dois quadros de dez."
   },
   "G1-256": {
     "title": "O número do dia: mais 10, menos 10",
@@ -1597,7 +1614,7 @@
   },
   "G1-257": {
     "title": "O número do dia: de 21 a 99",
-    "instruction": "Agora o número vai até 99: separe em dezenas e unidades."
+    "instruction": "O número fica entre 21 e 99. Separe-o em dezenas e unidades e preencha todos os quadros."
   },
   "G1-258": {
     "title": "Escreva o nome: use o banco",
@@ -1613,15 +1630,15 @@
   },
   "G1-262": {
     "title": "Ordem alfabética: só numere",
-    "instruction": "Aqui você numera de 1 a 4 e não precisa copiar."
+    "instruction": "Numere os quatro cartões de 1 a 4 para colocar as palavras em ordem alfabética."
   },
   "G1-263": {
     "title": "Ordem alfabética: numere e copie",
-    "instruction": "Numere as quatro palavras, depois copie."
+    "instruction": "Numere as quatro palavras em ordem alfabética e depois copie-as nessa ordem nas linhas."
   },
   "G1-264": {
     "title": "Ordem alfabética: mesma inicial",
-    "instruction": "Veja a segunda letra das duplas iguais."
+    "instruction": "Duas duplas de palavras começam com a mesma letra. Olhe a segunda letra para colocá-las em ordem."
   },
   "G1-266": {
     "title": "Pirâmide de números até 10",
@@ -1633,39 +1650,39 @@
   },
   "G1-268": {
     "title": "Pirâmide com tijolo escondido",
-    "instruction": "Um tijolo da base sumiu: descubra com o andar de cima."
+    "instruction": "Um tijolo da base sumiu. Descubra qual é com a ajuda do andar de cima e depois complete a pirâmide toda."
   },
   "G1-270": {
     "title": "Dobro e metade com figuras",
-    "instruction": "Conte as figuras: o dobro e a metade vão até 8."
+    "instruction": "Conte as figuras. Alguns cartões pedem o dobro; outros, a metade. Escreva a resposta de cada cartão."
   },
   "G1-271": {
     "title": "Dobro e metade sem figuras",
-    "instruction": "Sem figuras: são oito dobros e metades até 20."
+    "instruction": "Só com números: escreva cada dobro e cada metade até 20."
   },
   "G1-274": {
     "title": "Reta numérica de 0 a 10",
-    "instruction": "Só o 0, o 5 e o 10 estão escritos: descubra onde a seta cai."
+    "instruction": "Só o 0, o 5 e o 10 estão escritos. Escreva o número para o qual cada seta aponta."
   },
   "G1-275": {
     "title": "Reta numérica até 20: menos números",
-    "instruction": "Só o 0, o 10 e o 20 aparecem: conte de um em um."
+    "instruction": "Só o 0, o 10 e o 20 aparecem. Conte de um em um até cada seta e escreva o número."
   },
   "G1-276": {
     "title": "Reta numérica do 0 ao 30",
-    "instruction": "Cada tracinho vale 1 e um número aparece de cinco em cinco."
+    "instruction": "Cada tracinho vale 1. Conte até o 30 e escreva o número para o qual cada seta aponta."
   },
   "G1-277": {
     "title": "Reta numérica de 0 até 50",
-    "instruction": "Cada tracinho vale 1 e apenas as dezenas trazem um número."
+    "instruction": "Cada tracinho vale 1 e só as dezenas estão escritas. Conte até cada seta e escreva o número."
   },
   "G1-278": {
     "title": "Reta numérica até 50, de 5 em 5",
-    "instruction": "Agora cada tracinho vale 5: conte de cinco em cinco."
+    "instruction": "Cada tracinho vale 5. Conte de cinco em cinco a partir do 0, do 25 ou do 50 até chegar a cada seta."
   },
   "G1-279": {
     "title": "Reta numérica até 100 de 5 em 5",
-    "instruction": "Cada tracinho vale 5; um sim, outro não, tem número."
+    "instruction": "Cada tracinho vale 5, até o 100. Escreva o número em que está cada seta."
   },
   "G1-280": {
     "title": "Reta numérica até 100, de 10 em 10",
@@ -1673,11 +1690,11 @@
   },
   "G1-281": {
     "title": "Reta numérica de 0 a 120",
-    "instruction": "A reta passa do 100: conte de dez em dez até chegar ao 120."
+    "instruction": "A reta passa do 100. Conte de dez em dez até cada seta."
   },
   "G1-282": {
     "title": "Ordene a frase com pistas",
-    "instruction": "A maiúscula e o sinal final mostram começo e fim."
+    "instruction": "Coloque as palavras em ordem e escreva a frase. A letra maiúscula mostra onde ela começa e o sinal final mostra onde termina."
   },
   "G1-283": {
     "title": "Ordene a frase, sem pistas",
@@ -1689,7 +1706,7 @@
   },
   "G2-282": {
     "title": "Escolha o sinal de pontuação",
-    "instruction": "Escolha o sinal do fim de cada uma das frases."
+    "instruction": "Corrija as letras maiúsculas e os nomes e escolha o sinal do fim de cada frase."
   },
   "G2-285": {
     "title": "Classes de palavras com figuras",
@@ -1697,19 +1714,19 @@
   },
   "G2-286": {
     "title": "Classes de palavras sem figuras",
-    "instruction": "Agora são doze palavras sem figura nenhuma."
+    "instruction": "São doze palavras, sem figuras. Leia cada palavra e escreva-a na coluna certa."
   },
   "G2-287": {
     "title": "Classes de palavras difíceis",
-    "instruction": "Quinze palavras, sem figura: leia com calma."
+    "instruction": "São quinze palavras, sem figuras. Leia cada uma com calma e escreva-a na coluna certa."
   },
   "G2-289": {
     "title": "Vamos às compras: duas perguntas",
-    "instruction": "Uma pede o total, a outra pergunta se dá."
+    "instruction": "Leia as duas perguntas e use os preços da prateleira para responder."
   },
   "G2-290": {
     "title": "Vamos às compras: quatro cartões",
-    "instruction": "Cada cartão traz uma pergunta diferente."
+    "instruction": "Cada cartão traz uma pergunta diferente sobre compras. Responda às quatro perguntas."
   },
   "G2-291": {
     "title": "Vamos às compras: some a cesta",
@@ -1725,7 +1742,7 @@
   },
   "G2-294": {
     "title": "Vamos às compras: o dinheiro dá?",
-    "instruction": "Compare o dinheiro com o preço dos dois."
+    "instruction": "Compare o dinheiro com o preço dos dois produtos. Circule sim ou não e depois escreva o total."
   },
   "G2-295": {
     "title": "Vamos às compras: a diferença",
@@ -1733,19 +1750,19 @@
   },
   "G2-296": {
     "title": "Leitura de calendário com quatro perguntas",
-    "instruction": "Leia o mês e responda a quatro perguntas."
+    "instruction": "Observe o mês no calendário e responda às quatro perguntas."
   },
   "G2-297": {
     "title": "Leitura de calendário: um mês cheio",
-    "instruction": "Cinco perguntas e três marcações: conte os dias."
+    "instruction": "Encontre a data uma semana depois e conte os dias de uma marcação até a outra. Responda às cinco perguntas."
   },
   "G2-298": {
     "title": "Leitura de calendário: dias da semana",
-    "instruction": "As quatro perguntas tratam dos dias da semana."
+    "instruction": "As quatro perguntas são sobre os dias da semana. Leia as colunas do calendário de cima para baixo e responda."
   },
   "G2-299": {
     "title": "Produção de texto: o que se vê",
-    "instruction": "Os começos de frase já estão ali: continue."
+    "instruction": "Observe a imagem. Continue as frases que já estão começadas e use o banco de palavras para escrever sobre o que você vê."
   },
   "G2-300": {
     "title": "Produção de texto: suas palavras",
@@ -1757,7 +1774,7 @@
   },
   "G2-303": {
     "title": "Coordenadas: malha 10 por 10",
-    "instruction": "Esta malha vai de A até J e de 1 até 10: siga a lista."
+    "instruction": "Esta malha vai de A até J e de 1 até 10. Encontre cada quadradinho da lista pela letra e pelo número e pinte-o para descobrir a figura."
   },
   "G3-371": {
     "title": "Problemas de multiplicação até 20",
@@ -1773,23 +1790,23 @@
   },
   "G3-374": {
     "title": "Problemas de divisão: 2 jeitos",
-    "instruction": "Uma reparte, a outra agrupa: tudo é divisão."
+    "instruction": "Leia as duas historinhas: uma reparte e a outra forma grupos, mas as duas são divisão. Resolva e escreva as respostas."
   },
   "G3-375": {
     "title": "Problemas de multiplicar e agrupar",
-    "instruction": "Uma junta os grupos; a outra os separa."
+    "instruction": "Leia as duas historinhas: uma junta os grupos e a outra os separa. Resolva e escreva as respostas."
   },
   "G3-376": {
     "title": "Problemas de vezes e divisão",
-    "instruction": "Três historinhas: multiplicar ou dividir?"
+    "instruction": "Leia as três historinhas. Decida se cada uma pede multiplicação ou divisão e depois responda."
   },
   "K-308": {
     "title": "Ligue os pontos contando para trás",
-    "instruction": "Comece no 10 e vá contando para trás até o 1."
+    "instruction": "Comece no 10 e ligue os pontos contando para trás até o 1."
   },
   "G1-285": {
     "title": "Ligue os pontos de 2 em 2",
-    "instruction": "Conte de 2 em 2 e ligue; parte do contorno já vem pronta."
+    "instruction": "Comece no ponto laranja. Conte de 2 em 2, do 2 ao 20, e ligue os pontos. Parte do contorno já está desenhada."
   },
   "G1-294": {
     "title": "Ligue os pontos: contagem regressiva do 20",
@@ -1797,7 +1814,7 @@
   },
   "G2-304": {
     "title": "Ligue os pontos de 5 em 5",
-    "instruction": "Conte de 5 em 5; o resto do contorno já vem desenhado."
+    "instruction": "Comece no ponto laranja. Conte de 5 em 5, do 5 ao 50, e ligue os pontos. Parte do contorno já está desenhada."
   },
   "K-311": {
     "title": "Copie a palavra sem cobrir",
@@ -1809,7 +1826,7 @@
   },
   "G1-286": {
     "title": "Dobro e metade, até 20",
-    "instruction": "Uns cartões pedem o dobro; outros, a metade."
+    "instruction": "Alguns cartões pedem o dobro; outros, a metade. Escreva a resposta de cada cartão."
   },
   "G2-305": {
     "title": "Reta numérica de 40 a 60",
@@ -1817,7 +1834,7 @@
   },
   "G2-310": {
     "title": "Reta numérica de 60 a 100",
-    "instruction": "A reta começa no 60 e cada tracinho vale 1: vá contando."
+    "instruction": "A reta começa no 60 e cada tracinho vale 1. Conte a partir do número escrito mais perto até cada seta."
   },
   "G1-295": {
     "title": "Reta numérica de 20 a 40",
@@ -1829,15 +1846,15 @@
   },
   "G1-288": {
     "title": "Metade até 12, com figuras",
-    "instruction": "Cada cartão corta um grupo bem ao meio."
+    "instruction": "Cada cartão divide um grupo bem ao meio. Escreva as duas partes iguais."
   },
   "G1-296": {
     "title": "Dobro até 20, com figuras",
-    "instruction": "Grupos maiores de figuras para dobrar."
+    "instruction": "Conte as figuras e escreva o dobro de cada grupo, até 20."
   },
   "G1-297": {
     "title": "Metade até 20, com figuras",
-    "instruction": "Grupos maiores para repartir ao meio."
+    "instruction": "Conte as figuras, reparta cada grupo ao meio e escreva as duas metades, até 20."
   },
   "K-314": {
     "title": "Singular e plural: escreva o plural",
@@ -1845,7 +1862,7 @@
   },
   "G1-293": {
     "title": "Substantivo ou verbo?",
-    "instruction": "Escreva a palavra em Substantivos ou Verbos."
+    "instruction": "Escreva cada palavra em Substantivos ou em Verbos."
   },
   "K-310": {
     "title": "Palavras pontilhadas em maiúsculas",
@@ -1857,7 +1874,7 @@
   },
   "K-313": {
     "title": "Singular e plural: cubra o singular",
-    "instruction": "O plural já vem escrito ao lado."
+    "instruction": "O plural já está escrito ao lado. Cubra a palavra no singular."
   },
   "G2-308": {
     "title": "Coordenadas: escreva os códigos",
@@ -1873,7 +1890,7 @@
   },
   "G1-292": {
     "title": "O ou a? Classifique as palavras",
-    "instruction": "Escreva cada palavra na coluna o ou a."
+    "instruction": "Leia cada palavra e escreva-a na coluna do “o” ou na coluna do “a”."
   },
   "G1-298": {
     "title": "Dobro até 20, só com números",
@@ -1885,7 +1902,7 @@
   },
   "G1-300": {
     "title": "Substantivo ou adjetivo?",
-    "instruction": "Escreva a palavra em Substantivos ou Adjetivos."
+    "instruction": "Escreva cada palavra em Substantivos ou em Adjetivos."
   },
   "G1-301": {
     "title": "Escreva o nome: banco e quadradinhos",
@@ -1893,7 +1910,7 @@
   },
   "G2-311": {
     "title": "Ponto final ou ponto de interrogação?",
-    "instruction": "Duas frases grudaram; uma é pergunta."
+    "instruction": "Duas frases grudaram e uma delas é pergunta. Separe as duas e termine cada uma com o sinal certo."
   },
   "G2-312": {
     "title": "Leitura de calendário: conte os dias",
@@ -1901,7 +1918,7 @@
   },
   "G2-314": {
     "title": "Ligue os pontos de 10 em 10",
-    "instruction": "Conte de 10 em 10; o resto do contorno já vem impresso."
+    "instruction": "Comece no ponto laranja. Conte de 10 em 10, do 10 ao 100, e ligue os pontos. Parte do contorno já está desenhada."
   },
   "K-315": {
     "title": "Copie as palavras em maiúsculas",
@@ -1917,7 +1934,7 @@
   },
   "G1-302": {
     "title": "Ordene a frase: qual palavra começa?",
-    "instruction": "O sinal fecha a frase: ordene."
+    "instruction": "Ache a primeira palavra: uma das peças tem o sinal do fim da frase. Coloque as palavras em ordem e escreva a frase."
   },
   "G1-303": {
     "title": "Escreva o nome com os quadradinhos",
@@ -1961,7 +1978,7 @@
   },
   "G1-305": {
     "title": "Separação de sílabas: bata palmas e marque",
-    "instruction": "Fale o nome de cada figura e bata palmas para as partes. Faça um tracinho entre cada sílaba que você ouvir."
+    "instruction": "Fale o nome de cada figura e bata palmas para as partes. Faça um tracinho entre as sílabas que você ouvir."
   },
   "G1-306": {
     "title": "Família silábica: {UNIT}",
@@ -2021,7 +2038,7 @@
   },
   "G1-311": {
     "title": "Duas letras, um som só: {U}",
-    "instruction": "Cubra {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha."
+    "instruction": "Cubra o {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha de {L}."
   },
   "K-328": {
     "title": "A ou E? Escute a diferença",
@@ -2029,7 +2046,7 @@
   },
   "K-329": {
     "title": "Conte os sons da palavra",
-    "instruction": "Fale o nome da figura devagar. Desenhe uma bolinha na caixa comprida para cada som que você ouvir. Depois escreva quantos sons no quadradinho."
+    "instruction": "Fale o nome da figura devagar. Desenhe uma bolinha na caixa comprida para cada som que você ouvir. Depois escreva no quadradinho quantos sons ouviu."
   },
   "K-330": {
     "title": "O primeiro som já está escrito",
@@ -2249,7 +2266,7 @@
   },
   "K-352": {
     "title": "Rima ou não rima?",
-    "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimam, circule o certo. Se não rimam, circule o xis."
+    "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimarem, circule o sinal de certo. Se não rimarem, circule o X."
   },
   "G1-343": {
     "title": "Separe as rimas",
@@ -2373,7 +2390,7 @@
   },
   "G2-345": {
     "title": "Leia a tabela de lógica: verdadeiro ou falso?",
-    "instruction": "A tabela já está resolvida. Leia a tabela e circule o certo se a frase é verdadeira ou o xis se ela é falsa."
+    "instruction": "A tabela já está resolvida. Leia a tabela e circule o sinal de certo se a frase for verdadeira ou o X se ela for falsa."
   },
   "G3-380": {
     "title": "Reparta e descubra quanto sobra",
@@ -2433,7 +2450,8 @@
   },
   "G2-346": {
     "title": "Arredondamento de números à dezena",
-    "instruction": "Arredonde cada número à dezena mais próxima e escreva-o no quadrinho. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
+    "instruction": "Arredonde cada número para a dezena mais próxima e escreva-o no quadrinho. Se o algarismo das unidades for 5 ou mais, arredonde para cima.",
+    "printTitle": "Arredondamento para a dezena mais próxima"
   },
   "K-358": {
     "title": "Tangram fácil de 2 e 3 peças: desenhe as linhas",
@@ -2453,7 +2471,7 @@
   },
   "K-359": {
     "title": "Tangram: conte os triângulos e quadrados",
-    "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados para a segunda."
+    "instruction": "Conte os triângulos de cada figura e escreva o número na primeira caixa. Depois conte os quadrados e escreva o número na segunda caixa."
   },
   "K-360": {
     "title": "O corpo humano e suas partes: quantos você tem?",
@@ -2541,11 +2559,11 @@
   },
   "G1-367": {
     "title": "Complete a frase: circule a palavra certa",
-    "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa e escreva na caixa."
+    "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa a frase e escreva-a na caixa."
   },
   "G2-349": {
     "title": "Complete as frases no plural",
-    "instruction": "Olhe as figuras. Há mais de um. Escreva na caixa a palavra que indica mais de um."
+    "instruction": "Olhe as figuras. Escreva na caixa a palavra no plural."
   },
   "G2-350": {
     "title": "Complete a historinha com as palavras que faltam",
@@ -2553,7 +2571,7 @@
   },
   "G1-368": {
     "title": "Ligue cada frase à sua figura",
-    "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase até essa figura."
+    "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase a essa figura."
   },
   "G2-351": {
     "title": "Par ou ímpar? Escreva duas parcelas iguais",
@@ -2621,11 +2639,12 @@
   },
   "G3-388": {
     "title": "Arredondamento de números à centena",
-    "instruction": "Arredonde cada número à centena mais próxima e escreva-o no quadrinho. Olhe o algarismo das dezenas."
+    "instruction": "Arredonde cada número para a centena mais próxima e escreva-o no quadrinho. Olhe o algarismo das dezenas.",
+    "printTitle": "Arredondamento para a centena mais próxima"
   },
   "G3-389": {
     "title": "Arredonde e estime a soma",
-    "instruction": "Arredonde os dois números à dezena mais próxima e escreva-os nos quadrinhos. Depois some os números arredondados."
+    "instruction": "Arredonde os dois números para a dezena mais próxima e escreva-os nos quadrinhos. Depois some os números arredondados."
   },
   "G3-390": {
     "title": "Quais números arredondam para 50?",
@@ -2634,7 +2653,8 @@
   },
   "G3-391": {
     "title": "Arredondamento à dezena e à centena",
-    "instruction": "Arredonde cada número duas vezes: à dezena no primeiro quadrinho e à centena no segundo."
+    "instruction": "Arredonde cada número duas vezes: para a dezena mais próxima no primeiro quadrinho e para a centena mais próxima no segundo.",
+    "printTitle": "Arredondamento para a dezena e para a centena"
   },
   "K-368": {
     "title": "Figuras geométricas planas",
@@ -2846,7 +2866,8 @@
   },
   "G2-374": {
     "title": "Sinônimos de disse: verbos de elocução",
-    "instruction": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de disse."
+    "instruction": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de “disse”.",
+    "printTitle": "Sinônimos de “disse”: verbos de elocução"
   },
   "G3-397": {
     "title": "Campo semântico: palavras para ir e para olhar",
@@ -2890,7 +2911,8 @@
   },
   "G2-377": {
     "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
-    "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
+    "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo.",
+    "printTitle": "Letra cursiva: as letras a, e, i, o"
   },
   "K-381": {
     "title": "Sequência de fatos para recortar: primeiro, depois, por fim",
@@ -2982,7 +3004,8 @@
   },
   "G2-386": {
     "title": "Palavras em letra cursiva para o 1º ano",
-    "instruction": "Cubra cada palavra cinza ligando primeiro as letras e pondo por último os pingos, os cortes e os acentos; depois escreva-a igual na linha de baixo."
+    "instruction": "Cubra cada palavra cinza ligando primeiro as letras e pondo por último os pingos, os cortes e os acentos; depois escreva-a igual na linha de baixo.",
+    "printTitle": "Palavras em letra cursiva"
   },
   "G2-387": {
     "title": "Leitura em letra cursiva: ligue a palavra à figura",
@@ -3026,7 +3049,7 @@
   },
   "K-390": {
     "title": "Uma frase com {UNIT}",
-    "instruction": "Trabalhe uma frase, passo a passo."
+    "instruction": "Leia a frase e faça cada passo, um de cada vez."
   },
   "K-391": {
     "title": "Cubra as frases: {UNIT}",
@@ -3174,12 +3197,12 @@
   },
   "G1-424": {
     "title": "Labirinto: pegue todas as cenouras",
-    "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura sem passar duas vezes pelo mesmo caminho. Marque um círculo para cada cenoura.",
+    "instruction": "Ajude o coelho a chegar ao balde e a pegar todas as cenouras, sem passar duas vezes pelo mesmo caminho. Pinte um círculo para cada cenoura.",
     "printTitle": "Ajude o coelho a pegar todas as cenouras"
   },
   "G1-425": {
     "title": "Labirinto: desvie das morsas",
-    "instruction": "Ajude o urso-polar a chegar ao iglu. Não passe por nenhuma morsa nem por nenhum buraco no gelo.",
+    "instruction": "Ajude o urso-polar a chegar ao iglu. Não pegue nenhum caminho que tenha uma morsa ou um buraco no gelo.",
     "printTitle": "Leve o urso-polar para casa em segurança"
   },
   "K-409": {
@@ -3458,7 +3481,8 @@
   },
   "G1-435": {
     "title": "Desenho escondido no quadro de cem",
-    "instruction": "Procure no quadro cada número da lista e pinte o quadradinho dele. Aparece um desenho!"
+    "instruction": "Procure no quadro cada número da lista e pinte o quadradinho dele. Aparece um desenho!",
+    "printTitle": "Desenho escondido no quadro numérico"
   },
   "G1-436": {
     "title": "Complete o quadro numérico",

@@ -35,11 +35,11 @@
     },
     "K-252": {
       "title": "Spåra talen 1 till 10",
-      "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+      "instruction": "Spåra varje tal. Börja vid den orangea pricken och följ pilarna."
     },
     "K-253": {
       "title": "Spåra talen 11 till 20",
-      "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+      "instruction": "Spåra varje tal. Börja vid den orangea pricken och följ pilarna."
     },
     "K-254": {
       "title": "Spåra bokstäverna G till L",
@@ -119,7 +119,7 @@
     },
     "K-273": {
       "title": "Femkompisar med prickar",
-      "instruction": "Vilken femkompis saknas? Räkna prickarna till hjälp och skriv talet i den streckade cirkeln."
+      "instruction": "Vilken femkompis saknas? Ta hjälp av prickarna och skriv talet i den streckade cirkeln."
     },
     "K-274": {
       "title": "Talkamrater upp till 10",

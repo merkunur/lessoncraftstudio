@@ -120,8 +120,8 @@
       "de": "Schau dir die Bilder an. Es sind mehrere. Suche das Wort für mehrere im Kasten und schreibe es in das Kästchen.",
       "es": "Mira los dibujos. Hay más de uno. Busca en el banco de palabras la palabra para más de uno y escríbela en el recuadro.",
       "fr": "Regarde les images : il y en a plusieurs. Cherche dans la liste le mot au pluriel et écris-le dans la case.",
-      "it": "Guarda i disegni. Ce n'è più di uno. Cerca nel riquadro la parola per più di uno e scrivila nella casella.",
-      "pt": "Olhe as figuras. Há mais de um. Procure no quadro a palavra que indica mais de um e escreva na caixa.",
+      "it": "Guarda i disegni: ce n'è più di uno. Cerca nel riquadro la parola al plurale e scrivila nella casella.",
+      "pt": "Olhe as figuras. Procure no quadro a palavra no plural e escreva-a na caixa.",
       "nl": "Kijk naar de plaatjes. Er is meer dan één. Zoek het woord voor meer dan één in het kader en schrijf het in het vakje.",
       "sv": "Titta på bilderna. Det är fler än en. Hitta ordet för fler än en i ordlistan och skriv det i rutan.",
       "no": "Se på bildene. Det er flere enn én. Finn ordet for flere i ordbanken, og skriv det i ruta.",
@@ -140,14 +140,14 @@
       "sv": "Läs hela berättelsen. De tre bilderna visar orden som saknas. Skriv varje ord från ordlistan i sin ruta. Två ord i ordlistan blir över.",
       "da": "Læs hele historien. De tre billeder viser de ord, der mangler. Skriv hvert ord fra ordkassen i sit felt. To af ordene i ordkassen skal ikke bruges.",
       "no": "Les hele fortellingen. De tre bildene viser ordene som mangler. Skriv hvert ord fra ordbanken. To ord i ordbanken blir ikke brukt.",
-      "fi": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa. Kaksi pankin sanaa jää yli."
+      "fi": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana sanapankista omaan laatikkoonsa. Kaksi sanapankin sanaa jää yli."
     }
   },
   "K-317": {
     "1": {
-      "en": "Trace the big and small letter, circle the three pictures whose name begins with {U}, then write a row of each.",
+      "en": "Trace the uppercase and lowercase letters, circle the three pictures whose names begin with {U}, then write a row of each.",
       "de": "Spure das große und das kleine {U} nach. Kreise die drei Bilder ein, die mit {U} beginnen, und schreibe dann jede Form eine Reihe lang.",
-      "es": "Repasa la letra mayúscula y la minúscula, rodea los tres dibujos que empiezan con {U} y escribe una fila de cada una.",
+      "es": "Repasa la letra mayúscula y la minúscula, encierra los tres dibujos que empiezan con {U} y escribe una fila de cada una.",
       "fr": "Repasse le grand {U} et le petit {L}. Entoure les trois images dont le nom commence par {L}, puis écris une ligne de chaque lettre.",
       "it": "Ripassa la lettera grande e quella piccola, cerchia i tre disegni che iniziano con {U} e scrivi una riga di ognuna.",
       "pt": "Cubra a letra maiúscula e a minúscula, circule as três figuras cujo nome começa com {U} e escreva uma linha de cada.",
@@ -162,7 +162,7 @@
     "1": {
       "en": "Trace the letter, then circle the three pictures whose name ends with the letter {U}.",
       "de": "Spure den Buchstaben nach. Kreise dann die drei Bilder ein, bei denen du {U} am Ende des Wortes hörst.",
-      "es": "Repasa la letra y rodea los tres dibujos que terminan con el sonido {U}.",
+      "es": "Repasa la letra y encierra los tres dibujos que terminan con el sonido {U}.",
       "fr": "Repasse la lettre, puis entoure les trois images dont le nom se termine par {L}.",
       "it": "Ripassa la lettera, poi cerchia i tre disegni che finiscono con il suono {U}.",
       "pt": "Cubra a letra e circule as três figuras cujo nome termina com o som de {U}.",
@@ -323,7 +323,7 @@
       "fr": "Lis le mot de chaque carte. Écris son contraire sur la ligne. Il n'y a pas de banque de mots : cherche-le dans ta tête.",
       "it": "Leggi la parola su ogni cartellino. Pensa al suo contrario e scrivilo sulla riga. Questa volta non c'è la scatola delle parole.",
       "pt": "Leia a palavra de cada cartão. Pense no antônimo dela e escreva na linha. Desta vez não há banco de palavras.",
-      "nl": "Lees het woord op elke kaart. Schrijf het tegenovergestelde op de lijn. Er is geen woordenbank: je weet het zelf!",
+      "nl": "Lees het woord op elke kaart. Schrijf het tegenovergestelde op de lijn. Er is geen woordenlijst: je weet het zelf!",
       "sv": "Läs ordet på varje kort. Skriv motsatsordet på raden. Den här gången finns ingen ordbank.",
       "da": "Læs ordet på hvert kort. Skriv det modsatte ord på linjen. Denne gang er der ingen ordbank.",
       "no": "Les ordet på hvert kort. Skriv det motsatte ordet på linja. Her er det ingen ordbank – du må huske det selv!",
@@ -334,7 +334,7 @@
     "1": {
       "en": "Read each sentence. Circle the word at the end that is the opposite of the word after \"not\".",
       "de": "Lies jeden Satz. Am Ende stehen zwei Wörter. Kreise das Wort ein, das das Gegenteil des Wortes nach „nicht“ ist.",
-      "es": "Lee cada oración. Al final hay dos palabras: rodea la que es el antónimo de la palabra que va después de \"no\".",
+      "es": "Lee cada oración. Al final hay dos palabras: encierra la que es el antónimo de la palabra que va después de \"no\".",
       "fr": "Lis chaque phrase. À la fin, entoure le mot qui veut dire le contraire du mot qui vient après « pas ».",
       "it": "Leggi ogni frase. Alla fine ci sono due parole: cerchia quella che vuol dire il contrario della parola che viene dopo \"non\".",
       "pt": "Leia cada frase. No fim dela há duas palavras. Circule a que quer dizer o contrário da palavra que vem depois de \"não\".",
@@ -342,7 +342,7 @@
       "sv": "Läs varje mening. Två ord står i slutet. Ringa in motsatsen till ordet efter \"inte\".",
       "da": "Læs hver sætning. Sæt ring om det af de to ord, der er det modsatte af ordet efter \"ikke\".",
       "no": "Les hver setning. Sett ring rundt det av de to ordene som er det motsatte av ordet etter «ikke».",
-      "fi": "Lue lause. Lauseen lopussa on kaksi sanaa. Ympyröi se, joka on sanan \"ei\" jälkeen tulevan sanan vastakohta."
+      "fi": "Lue lause. Lauseen lopussa on kaksi sanaa. Ympyröi se, joka on ei-sanan kieltämän sanan vastakohta."
     },
     "3": {
       "en": "Read each sentence. Write the opposite of the word after \"not\" on the line.",
@@ -351,11 +351,11 @@
       "fr": "Lis chaque phrase. Écris sur la ligne le contraire du mot qui vient après « pas ». Il n'y a pas de banque de mots.",
       "it": "Leggi ogni frase. Sulla riga scrivi il contrario della parola che viene dopo \"non\". Questa volta non c'è la scatola delle parole.",
       "pt": "Leia cada frase. Escreva na linha o antônimo da palavra que vem depois de \"não\". Desta vez não há banco de palavras.",
-      "nl": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. Er is geen woordenbank.",
+      "nl": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. Er is geen woordenlijst.",
       "sv": "Läs varje mening. Skriv motsatsen till ordet efter \"inte\" på raden. Den här gången finns ingen ordbank.",
       "da": "Læs hver sætning. Skriv det modsatte af ordet efter \"ikke\" på linjen. Denne gang er der ingen ordbank.",
       "no": "Les hver setning. Skriv det motsatte av ordet etter «ikke» på linja. Her er det ingen ordbank.",
-      "fi": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Tällä kertaa sanapankkia ei ole."
+      "fi": "Lue lause. Kirjoita viivalle sen sanan vastakohta, jota ei-sana kieltää. Tällä kertaa sanapankkia ei ole."
     }
   },
   "G1-336": {
@@ -377,7 +377,7 @@
     "1": {
       "en": "Read the word. One of the two words under it means the opposite. Circle it.",
       "de": "Lies das Wort. Eines der zwei Wörter darunter bedeutet das Gegenteil. Kreise es ein.",
-      "es": "Lee la palabra. De las dos palabras de abajo, una significa lo contrario. Rodéala.",
+      "es": "Lee la palabra. De las dos palabras de abajo, una significa lo contrario. Enciérrala.",
       "fr": "Lis le mot. Un des deux mots en dessous veut dire le contraire. Entoure-le.",
       "it": "Leggi la parola. Sotto ci sono due parole: una vuol dire il contrario. Cerchia il contrario.",
       "pt": "Leia a palavra. Das duas palavras de baixo, uma quer dizer o contrário. Circule essa.",
@@ -390,7 +390,7 @@
     "3": {
       "en": "Read the word. One of the four words under it means the opposite. Circle it, not the one that means the same.",
       "de": "Lies das Wort. Eines der vier Wörter darunter bedeutet das Gegenteil. Kreise es ein, nicht das Wort mit der gleichen Bedeutung.",
-      "es": "Lee la palabra. De las cuatro palabras de abajo, solo una significa lo contrario. Rodéala, no la que significa lo mismo.",
+      "es": "Lee la palabra. De las cuatro palabras de abajo, solo una significa lo contrario. Enciérrala, no la que significa lo mismo.",
       "fr": "Lis le mot. Un seul des quatre mots en dessous veut dire le contraire. Entoure-le, pas celui qui veut dire la même chose.",
       "it": "Leggi la parola. Fra le quattro parole sotto, una vuol dire il contrario. Cerchia quella, non quella che vuol dire la stessa cosa.",
       "pt": "Leia a palavra. Das quatro palavras de baixo, só uma quer dizer o contrário. Circule essa, não a que quer dizer a mesma coisa.",
@@ -433,7 +433,7 @@
     "3": {
       "en": "Read the name. Circle the word we use instead of the name.",
       "de": "Lies den Namen. Kreise das Wort ein, das wir statt des Namens sagen können.",
-      "es": "Lee el nombre. Rodea el pronombre que usamos en lugar del nombre.",
+      "es": "Lee el nombre. Encierra el pronombre que usamos en lugar del nombre.",
       "fr": "Lis le prénom. Entoure le mot que l'on emploie à la place du prénom.",
       "it": "Leggi il nome. Cerchia la parola che usiamo al posto del nome.",
       "pt": "Leia o nome. Circule a palavra que usamos no lugar do nome.",
@@ -496,7 +496,7 @@
       "it": "Ritaglia lungo le linee tratteggiate per fare le carte. Leggi ogni parola, poi controllala con il disegno.",
       "pt": "Recorte pelas linhas pontilhadas para fazer os cartões. Leia cada palavra e depois confira com a figura.",
       "nl": "Knip de kaartjes langs de stippellijnen uit. Lees elk woord en kijk dan op het plaatje of je het goed hebt gelezen.",
-      "sv": "Klipp längs de streckade linjerna så att du får kort. Läs varje ord och titta sedan på bilden om du läste rätt.",
+      "sv": "Klipp längs de streckade linjerna så att du får kort. Läs varje ord och titta sedan på bilden för att se om du läste rätt.",
       "da": "Klip langs de stiplede linjer, så du får kortene. Læs hvert ord, og se så på billedet, om du læste rigtigt.",
       "no": "Klipp langs klippelinjene så du får kortene. Les hvert ord, og se så på bildet om du leste riktig.",
       "fi": "Leikkaa kortit irti katkoviivoja pitkin. Lue jokainen sana ja tarkista se sitten kuvasta."
@@ -534,7 +534,7 @@
       "de": "Schneide die Karten aus. Schreibe das Wort für viele in das Kästchen und lege dann jedes Paar zusammen.",
       "es": "Recorta las tarjetas. Escribe la palabra de muchos en el recuadro y después junta cada pareja.",
       "fr": "Découpe les cartes. Écris le mot pour plusieurs dans la case, puis associe les deux cartes.",
-      "it": "Ritaglia le carte. Scrivi la parola per tanti nel riquadro, poi unisci ogni coppia.",
+      "it": "Ritaglia le carte. Scrivi il plurale nel riquadro, poi unisci ogni coppia.",
       "pt": "Recorte os cartões. Escreva a palavra de muitos no quadrinho e depois junte cada par.",
       "nl": "Knip de kaartjes uit. Schrijf het woord voor meer in het vakje en leg dan de paren bij elkaar.",
       "sv": "Klipp ut korten. Skriv ordet för flera i rutan och lägg sedan ihop paren.",
@@ -589,29 +589,29 @@
   "K-350": {
     "1": {
       "en": "Cut out the cards. Say the word in English, then in {U}, and keep the cards for your word wall.",
-      "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf.",
-      "es": "Recorta las tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras.",
+      "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf.",
+      "es": "Recorta las tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras.",
       "fr": "Découpe les cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots.",
-      "it": "Ritaglia le carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole.",
-      "pt": "Recorte os cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras.",
+      "it": "Ritaglia le carte. Di' la parola in italiano e poi in {U}, e conserva le carte per il tuo muro delle parole.",
+      "pt": "Recorte os cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras.",
       "nl": "Knip de kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur.",
-      "sv": "Klipp ut korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg.",
-      "da": "Klip kortene ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg.",
-      "no": "Klipp ut kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din.",
-      "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+      "sv": "Klipp ut korten. Säg ordet på svenska och sedan på {U} och spara korten till din ordvägg.",
+      "da": "Klip kortene ud. Sig ordet på dansk og så på {U}, og gem kortene til din ordvæg.",
+      "no": "Klipp ut kortene. Si ordet på norsk og så på {U}, og ta vare på kortene til ordveggen din.",
+      "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
     },
     "3": {
       "en": "Cut out the cards. Say the word in English, then in {U}, and keep the cards for your word wall.",
-      "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf.",
-      "es": "Recorta las tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras.",
+      "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf {U} und bewahre die Karten für deine Wörterwand auf.",
+      "es": "Recorta las tarjetas. Di la palabra en español y luego en {U}, y guarda las tarjetas para tu muro de palabras.",
       "fr": "Découpe les cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots.",
-      "it": "Ritaglia le carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole.",
-      "pt": "Recorte os cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras.",
+      "it": "Ritaglia le carte. Di' la parola in italiano e poi in {U}, e conserva le carte per il tuo muro delle parole.",
+      "pt": "Recorte os cartões. Fale a palavra em português e depois em {U} e guarde os cartões para o seu mural de palavras.",
       "nl": "Knip de kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur.",
-      "sv": "Klipp ut korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg.",
-      "da": "Klip kortene ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg.",
-      "no": "Klipp ut kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din.",
-      "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+      "sv": "Klipp ut korten. Säg ordet på svenska och sedan på {U} och spara korten till din ordvägg.",
+      "da": "Klip kortene ud. Sig ordet på dansk og så på {U}, og gem kortene til din ordvæg.",
+      "no": "Klipp ut kortene. Si ordet på norsk og så på {U}, og ta vare på kortene til ordveggen din.",
+      "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten {INU} ja säilytä kortit sanaseinää varten."
     }
   },
   "G2-278": {
@@ -633,7 +633,7 @@
     "1": {
       "en": "The first sentence is started for you. Finish it, then use the word bank to write your own story.",
       "de": "Der erste Satzanfang steht schon da. Schreibe mit Hilfe des Wortkastens deine eigene Geschichte.",
-      "es": "La primera frase ya está empezada. Usa el banco de palabras y escribe tu propio cuento.",
+      "es": "La primera oración ya está empezada. Usa el banco de palabras y escribe tu propio cuento.",
       "fr": "La première phrase est déjà commencée. Aide-toi de la boîte à mots pour écrire ta petite histoire.",
       "it": "La prima frase è già iniziata. Aiutati con le parole della scatola e racconta la tua storia.",
       "pt": "O começo da primeira frase já está pronto. Use o banco de palavras e escreva sua historinha.",
@@ -767,7 +767,7 @@
       "en": "Trace the dashed shapes. Then draw the same shapes on your own from the other orange dots.",
       "de": "Spure die gestrichelten Formen nach. Zeichne sie dann ab jedem weiteren orangen Punkt selbst.",
       "es": "Repasa las figuras punteadas y después traza tú la misma figura desde cada uno de los otros puntos naranjas.",
-      "fr": "Repasse les formes en pointillés, puis trace la même forme sans aide à partir des autres points orange.",
+      "fr": "Repasse les formes en pointillés, puis trace les mêmes formes sans aide à partir des autres points orange.",
       "it": "Ripassa le forme tratteggiate, poi disegna tu la stessa forma partendo dagli altri punti arancioni.",
       "pt": "Cubra as figuras pontilhadas e depois desenhe a mesma figura sem ajuda, a partir dos outros pontos laranja.",
       "nl": "Trek de gestippelde vormen na. Teken ze daarna zelf, vanaf elke volgende oranje stip.",
@@ -804,8 +804,8 @@
         "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
       },
       "nl": {
-        "title": "Voorvoegsels her- en mee-: kies op betekenis",
-        "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+        "title": "Woorden met her- en mee-: kies op betekenis",
+        "instruction": "Lees wat elk nieuw woord betekent, zoek het goede woorddeel in het kader en schrijf het in het lege stukje."
       },
       "sv": {
         "title": "Prefixen åter- och miss-: välj efter betydelse",
@@ -838,7 +838,7 @@
         "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
       },
       "it": {
-        "title": "Prefissi ri-, pre-, sotto- e stra-: scegli dal significato",
+        "title": "I prefissi ri-, pre-, sotto- e stra-: scegli dal significato",
         "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
       },
       "pt": {
@@ -846,8 +846,8 @@
         "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
       },
       "nl": {
-        "title": "Voorvoegsels her-, mee-, uit- en terug-: kies op betekenis",
-        "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+        "title": "Woorden met her-, mee-, uit- en terug-: kies op betekenis",
+        "instruction": "Lees wat elk nieuw woord betekent, zoek het goede woorddeel in het kader en schrijf het in het lege stukje."
       },
       "sv": {
         "title": "Prefixen åter-, miss-, över- och sam-: välj efter betydelse",
@@ -865,7 +865,7 @@
   },
   "G3-399": {
     "1": {
-      "en": "Write the four words above the stone into the sentences below it, one word in each gap.",
+      "en": "Write the four words above the stone into the sentences below it, one word in each blank.",
       "es": "Escribe cada palabra de la fila de arriba en el hueco de la oración donde va.",
       "fr": "Écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient.",
       "nl": "Lees de vier woordkaartjes boven het stamwoordbordje en schrijf elk woord in het stippelvak van de zin waar het past.",
@@ -893,8 +893,8 @@
   },
   "G3-398": {
     "1": {
-      "de": "ok (no L1 render exists for de — too few portraits; the published '-er oder -erin' is exactly right for a regular-endings page)",
-      "nl": "ok (no L1 render exists for nl — too few portraits; the published instruction names no endings and stays true)",
+      "de": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort mit -er oder -erin in das gestrichelte Kästchen.",
+      "nl": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet.",
       "en": "Look at each person, read the word beside them and write the person word in the empty brick.",
       "it": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere.",
       "pt": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo.",
@@ -905,11 +905,11 @@
     },
     "3": {
       "de": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort in das gestrichelte Kästchen. Pass auf: Oft ändert sich dabei das Wort.",
-      "it": "not rendered (no G3-398-L3-it-v6.png) — cannot check; the published instruction names no ending, so it stays true if the layout is kept",
-      "pt": "not rendered (no G3-398-L3-pt-v6.png) — cannot check; the published instruction names no ending, so it stays true if the layout is kept",
-      "sv": "ok (no render produced for L3 — not checkable against a page)",
-      "da": "ok (no render produced for L3 — not checkable against a page)",
-      "no": "ok (no render produced for L3 — not checkable against a page)",
+      "it": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere.",
+      "pt": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo.",
+      "sv": "Titta på varje person, läs ordet bredvid och skriv ordet för personen i den streckade rutan.",
+      "da": "Se på hver person, læs ordet på kortet, og skriv personordet i det stiplede felt.",
+      "no": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten.",
       "en": "Look at each person, read the word beside them and write the person word in the empty brick.",
       "nl": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet.",
       "fi": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
@@ -989,7 +989,7 @@
       "en": "Read the answer and find the highlighted words. Write the question word from the bank in the box.",
       "de": "Lies die Antwort und suche die markierten Wörter. Schreibe das Fragewort aus dem Kasten in das Kästchen.",
       "fr": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui correspond à ces mots.",
-      "it": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro.",
+      "it": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro che serve per chiederle.",
       "nl": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje.",
       "sv": "Läs svaret och leta upp de markerade orden. Skriv frågeordet från ordlistan i rutan.",
       "da": "Læs svaret, og find de markerede ord. Skriv hv-ordet fra ordkassen i feltet.",
@@ -1032,7 +1032,7 @@
         "instruction": "Lis chaque étiquette. Écris-la dans la boîte de la question à laquelle elle répond."
       },
       "it": {
-        "title": "Chi, che cosa, dove o quando? Ordina le risposte",
+        "title": "Chi, che cosa, dove o quando? Classifica le risposte",
         "instruction": "Leggi ogni cartellino. Scrivilo sotto la domanda a cui risponde: Chi, Che cosa, Dove o Quando."
       },
       "pt": {
@@ -1210,7 +1210,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1245,7 +1245,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1282,7 +1282,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1317,7 +1317,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1354,7 +1354,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1389,7 +1389,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1426,7 +1426,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1461,7 +1461,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1498,7 +1498,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1533,7 +1533,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1570,7 +1570,7 @@
         "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
       },
       "es": {
-        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+        "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Encierra la respuesta correcta."
       },
       "pt": {
         "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
@@ -1605,7 +1605,7 @@
         "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
       },
       "es": {
-        "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+        "instruction": "Lee el cuento con atención. Encierra la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
       },
       "pt": {
         "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
@@ -1651,19 +1651,19 @@
         "instruction": "Fale o nome de cada figura do banco. Ache a figura grande com que ela rima e escreva a palavra em uma linha embaixo dessa figura. Duas figuras não rimam com nenhuma figura grande: risque essas duas."
       },
       "nl": {
-        "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat grote plaatje. Twee plaatjes rijmen op geen enkel groot plaatje: streep ze door."
+        "instruction": "Zeg wat je op elk plaatje in het kader ziet. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat grote plaatje. Twee plaatjes rijmen op geen enkel groot plaatje: streep ze door."
       },
       "sv": {
         "instruction": "Säg varje bild i banken. Hitta den stora bilden som den rimmar på och skriv bildens ord på en rad under den stora bilden. Två bilder rimmar inte på någon stor bild – stryk över dem."
       },
       "no": {
-        "instruction": "Si hvert bilde i ordbanken. Finn det store bildet det rimer på, og skriv ordet på en linje under det store bildet. To av bildene rimer ikke på noen av de store bildene. Kryss dem ut."
+        "instruction": "Si hva hvert bilde i bildebanken heter. Finn det store bildet det rimer på, og skriv ordet på en linje under det store bildet. To av bildene rimer ikke på noen av de store bildene. Kryss dem ut."
       },
       "da": {
-        "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det store billede. To billeder rimer ikke på noget af de store billeder – streg dem ud."
+        "instruction": "Sig, hvad hvert billede i banken hedder. Find det store billede, det rimer på, og skriv ordet på en linje under det store billede. To billeder rimer ikke på nogen af de store billeder – streg dem ud."
       },
       "fi": {
-        "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen ison kuvan alle. Kaksi kuvaa ei rimmaa minkään ison kuvan kanssa – vedä ne yli."
+        "instruction": "Sano jokaisen sanapankin kuvan nimi. Etsi iso kuva, jonka nimen kanssa se rimmaa, ja kirjoita sana viivalle sen ison kuvan alle. Kaksi kuvaa ei rimmaa minkään ison kuvan kanssa – yliviivaa ne."
       }
     }
   },
@@ -1760,19 +1760,19 @@
         "instruction": "Fale o nome de cada figura. Ache no banco as duas palavras que rimam com ela e escreva nas linhas dessa figura."
       },
       "nl": {
-        "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje."
+        "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje."
       },
       "sv": {
         "instruction": "Säg varje bild. Hitta de två orden i banken som rimmar på den och skriv dem på raderna."
       },
       "no": {
-        "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene."
+        "instruction": "Si hva hvert bilde heter. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene."
       },
       "da": {
-        "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne."
+        "instruction": "Sig, hvad hvert billede hedder. Find de to ord i banken, der rimer på det, og skriv dem på linjerne."
       },
       "fi": {
-        "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille."
+        "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille."
       }
     },
     "3": {
@@ -1797,11 +1797,11 @@
         "title": "Cadeia de rimas: três palavras para cada figura"
       },
       "nl": {
-        "instruction": "Zeg elk plaatje. Zoek in het kader de drie woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje. Sommige woorden passen nergens.",
+        "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de drie woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje. Sommige woorden passen nergens.",
         "title": "Rijmrijen: drie rijmwoorden per plaatje"
       },
       "fi": {
-        "instruction": "Sano jokainen kuva. Etsi sanapankista kolme sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille. Osa sanoista ei sovi mihinkään."
+        "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kolme sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille. Osa sanoista ei sovi mihinkään."
       },
       "sv": {
         "instruction": "Säg varje bild. Hitta de två orden i banken som rimmar på den och skriv dem på raderna. Några ord passar ingenstans."
@@ -2127,7 +2127,7 @@
       "es": "Lee cada oración y escribe en el cuadro la palabra de la burbuja que va mejor en lugar de dice. Dos palabras de la burbuja no van en ninguna oración.",
       "fr": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit ». Deux mots de la bulle ne vont dans aucune phrase.",
       "it": "Leggi ogni frase e scrivi nel riquadro la parola del fumetto che sta meglio al posto di «dice». Due parole del fumetto non vanno in nessuna frase.",
-      "pt": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de disse. Duas palavras do balão não combinam com nenhuma frase.",
+      "pt": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de “disse”. Duas palavras do balão não combinam com nenhuma frase.",
       "nl": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’. Twee woorden uit het wolkje passen in geen enkele zin.",
       "sv": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa. Två ord i pratbubblan passar inte i någon mening.",
       "da": "Læs hver sætning, og skriv det ord fra taleboblen, der passer bedst, i feltet i stedet for »siger«. To ord i taleboblen passer ikke i nogen sætning.",
@@ -2137,13 +2137,13 @@
   },
   "G2-334": {
     "1": {
-      "de": "Lies jedes Fürwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann den Satz.",
+      "de": "Lies jedes Pronomen links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann den Satz.",
       "es": "Lee cada pronombre. Traza una línea hasta la forma del verbo que le corresponde. Luego completa la oración.",
       "fr": "Lis le verbe du tableau. Relie chaque pronom à la forme du verbe qui va avec lui. Puis complète la phrase.",
       "it": "Leggi il verbo della tabella. Collega con una linea ogni pronome alla forma giusta del verbo. Poi completa la frase.",
       "pt": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome. Depois complete a frase.",
       "fi": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille. Täydennä sitten lause.",
-      "en": "Read each verb on the left. Draw a line to its yesterday form on the right — one line for each verb.",
+      "en": "Read each verb on the left. Draw a line to its past tense (the yesterday form) on the right — one line for each verb.",
       "nl": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort.",
       "sv": "Läs varje verb till vänster. Dra ett streck till dess dåtidsform, den som säger vad som hände i går, ett streck för varje verb.",
       "da": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord.",
@@ -2182,73 +2182,73 @@
   },
   "G1-293": {
     "1": {
-      "en": "Six words and two bins. Is each word a noun or a verb?",
+      "en": "Read each word. Is it a noun or a verb? Write it in the right bin.",
       "de": "Nomen oder Verben? Schreibe jedes Wort in den richtigen Kasten.",
       "es": "Pon cada palabra en Sustantivos o en Verbos.",
       "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Verbes.",
-      "it": "Leggi ogni parola: scrivila in Nomi o in Verbi.",
+      "it": "Leggi ogni parola e scrivila nella scatola dei Nomi o in quella dei Verbi.",
       "pt": "Escreva cada palavra em Substantivos ou em Verbos.",
       "nl": "Schrijf elk woord in de goede bak: zelfstandig naamwoord of werkwoord.",
       "sv": "Skriv varje ord i rätt låda: substantiv eller verb.",
-      "da": "Seks ord og to kasser: sortér dem som navneord eller udsagnsord.",
-      "no": "To bokser denne gangen. Er ordet et substantiv eller et verb?",
+      "da": "Seks ord og to kasser: Sortér dem som navneord eller udsagnsord.",
+      "no": "Er hvert ord et substantiv eller et verb? Skriv ordet i riktig boks.",
       "fi": "Onko sana substantiivi vai verbi? Kirjoita se oikeaan laatikkoon."
     },
     "3": {
-      "en": "Twelve words and two bins. Is each word a noun or a verb?",
+      "en": "Read each word. Is it a noun or a verb? Write it in the right bin.",
       "de": "Nomen oder Verben? Schreibe jedes Wort in den richtigen Kasten.",
       "es": "Pon cada palabra en Sustantivos o en Verbos.",
       "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Verbes.",
-      "it": "Leggi ogni parola: scrivila in Nomi o in Verbi.",
+      "it": "Leggi ogni parola e scrivila nella scatola dei Nomi o in quella dei Verbi.",
       "pt": "Escreva cada palavra em Substantivos ou em Verbos.",
       "nl": "Schrijf elk woord in de goede bak: zelfstandig naamwoord of werkwoord.",
       "sv": "Skriv varje ord i rätt låda: substantiv eller verb.",
-      "da": "Tolv ord og to kasser: sortér dem som navneord eller udsagnsord.",
-      "no": "To bokser denne gangen. Er ordet et substantiv eller et verb?",
+      "da": "Tolv ord og to kasser: Sortér dem som navneord eller udsagnsord.",
+      "no": "Er hvert ord et substantiv eller et verb? Skriv ordet i riktig boks.",
       "fi": "Onko sana substantiivi vai verbi? Kirjoita se oikeaan laatikkoon."
     }
   },
   "G1-300": {
     "1": {
-      "en": "Six words and two bins. Is each word a noun or an adjective?",
+      "en": "Read each word. Is it a noun or an adjective? Write it in the right bin.",
       "de": "Nomen oder Adjektive? Schreibe jedes Wort in den richtigen Kasten.",
       "es": "Pon cada palabra en Sustantivos o en Adjetivos.",
       "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Adjectifs.",
-      "it": "Leggi ogni parola: scrivila in Nomi o in Aggettivi.",
+      "it": "Leggi ogni parola e scrivila nella scatola dei Nomi o in quella degli Aggettivi.",
       "pt": "Escreva cada palavra em Substantivos ou em Adjetivos.",
       "nl": "Schrijf elk woord in de goede bak: zelfstandig of bijvoeglijk naamwoord.",
       "sv": "Skriv varje ord i rätt låda: substantiv eller adjektiv.",
       "da": "Navneord eller tillægsord? Sortér de seks ord i to kasser.",
-      "no": "Er ordet et substantiv eller et adjektiv?",
+      "no": "Er hvert ord et substantiv eller et adjektiv? Skriv ordet i riktig boks.",
       "fi": "Substantiivi vai adjektiivi? Kirjoita sana oikeaan laatikkoon."
     },
     "3": {
-      "en": "Twelve words and two bins. Is each word a noun or an adjective?",
+      "en": "Read each word. Is it a noun or an adjective? Write it in the right bin.",
       "de": "Nomen oder Adjektive? Schreibe jedes Wort in den richtigen Kasten.",
       "es": "Pon cada palabra en Sustantivos o en Adjetivos.",
       "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Adjectifs.",
-      "it": "Leggi ogni parola: scrivila in Nomi o in Aggettivi.",
+      "it": "Leggi ogni parola e scrivila nella scatola dei Nomi o in quella degli Aggettivi.",
       "pt": "Escreva cada palavra em Substantivos ou em Adjetivos.",
       "nl": "Schrijf elk woord in de goede bak: zelfstandig of bijvoeglijk naamwoord.",
       "sv": "Skriv varje ord i rätt låda: substantiv eller adjektiv.",
       "da": "Navneord eller tillægsord? Sortér de tolv ord i to kasser.",
-      "no": "Er ordet et substantiv eller et adjektiv?",
+      "no": "Er hvert ord et substantiv eller et adjektiv? Skriv ordet i riktig boks.",
       "fi": "Substantiivi vai adjektiivi? Kirjoita sana oikeaan laatikkoon."
     }
   },
   "G2-287": {
     "1": {
       "en": "Fifteen words and no pictures. Sort each one into its bin.",
-      "de": "Fünfzehn Wörter und keine Bilder mehr.",
-      "es": "Quince palabras, sin dibujos.",
-      "fr": "Quinze mots : la page la plus longue.",
-      "it": "Quindici parole e nessuna immagine.",
+      "de": "Fünfzehn Wörter und keine Bilder mehr: Sortiere jedes Wort in den richtigen Kasten.",
+      "es": "Quince palabras, sin dibujos. Escribe cada una en la caja que le toca.",
+      "fr": "Écris chacun des quinze mots dans la bonne boîte. Il n'y a pas d'image pour t'aider.",
+      "it": "Quindici parole e nessuna immagine: scrivi ogni parola nella scatola giusta.",
       "pt": {
         "title": "Classes de palavras: quinze palavras",
-        "instruction": "Quinze palavras, sem figura: leia com calma."
+        "instruction": "São quinze palavras, sem figuras. Leia cada uma com calma e escreva-a na coluna certa."
       },
-      "nl": "Vijftien woorden en geen plaatjes. Lees elk woord extra goed.",
-      "sv": "Femton ord och inga bilder. Läs varje ord noga.",
+      "nl": "Vijftien woorden en geen plaatjes. Lees elk woord goed en schrijf het in de goede bak.",
+      "sv": "Femton ord och inga bilder. Läs varje ord noga och skriv det i rätt låda.",
       "da": "Femten ord og ingen billeder. Sortér hvert ord i den rigtige kasse.",
       "no": "Femten ord uten bilder. Sorter hvert ord i riktig boks.",
       "fi": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin."
@@ -2260,7 +2260,7 @@
       "de": "Spure die kurzen Wörter nach und schreibe sie auf.",
       "es": "Palabras cortas: repasa y escribe.",
       "fr": "Mots courts : repasse et écris.",
-      "it": "Ripassa le lettere tratteggiate e riscrivi.",
+      "it": "Ripassa la parola tratteggiata, poi scrivila sulla riga vuota.",
       "pt": "Cubra e escreva estas palavras curtas.",
       "nl": "Zeg het woord hardop, trek het na en schrijf het zelf op.",
       "sv": "Spåra det streckade ordet och skriv det själv.",
@@ -2273,7 +2273,7 @@
     "1": {
       "en": "Look at each shape, even the turned ones, and circle its name.",
       "de": "Schau dir jede Form an, auch die gedrehten, und kreise ihren Namen ein.",
-      "es": "Mira cada figura, aunque esté girada, y rodea su nombre.",
+      "es": "Mira cada figura, aunque esté girada, y encierra su nombre.",
       "fr": "Regarde chaque figure, même tournée, et entoure son nom.",
       "it": "Guarda ogni figura, anche quelle girate, e cerchia il suo nome.",
       "pt": "Observe cada figura, até as viradas, e circule o nome dela.",
@@ -2420,7 +2420,7 @@
   },
   "K-294": {
     "3": {
-      "en": "Start at the orange dot. Join the dots from 1 to 10 to finish the picture.",
+      "en": "Start at the orange dot. Connect the dots from 1 to 10 to finish the picture.",
       "de": "Verbinde die Punkte von 1 bis 10, bis das Bild erscheint.",
       "es": "Une los diez puntos en orden, del 1 al 10, y descubre el dibujo.",
       "fr": "Pars du point orange et relie les points jusqu'à 10 pour découvrir le dessin.",
@@ -2435,7 +2435,7 @@
   },
   "K-295": {
     "3": {
-      "en": "Start at the orange dot. Join the dots from 11 to 20 to finish the picture.",
+      "en": "Start at the orange dot. Connect the dots from 11 to 20 to finish the picture.",
       "de": "Zähle von 11 bis 20 weiter und verbinde die Punkte, bis das Bild erscheint.",
       "es": "No empiezas en el 1: une los puntos del 11 al 20 y descubre el dibujo.",
       "fr": "Pars du point orange et relie les points de 11 à 20 pour découvrir le dessin.",
@@ -2450,22 +2450,22 @@
   },
   "K-308": {
     "3": {
-      "en": "Join the numbered dots backwards from 10 to 1 to finish the picture.",
+      "en": "Count back from 10 to 1 and connect the dots to finish the picture.",
       "de": "Verbinde die Punkte rückwärts von 10 bis 1, bis das Bild erscheint.",
       "es": "Cuenta hacia atrás del 10 al 1, une los puntos y descubre el dibujo.",
       "fr": "Compte à l'envers de 10 à 1 et relie les points pour découvrir le dessin.",
       "it": "Unisci i puntini dal 10 all'1 per scoprire il disegno.",
-      "pt": "Comece no 10 e vá contando para trás até o 1 para descobrir a figura.",
+      "pt": "Comece no 10 e ligue os pontos contando para trás até o 1 para descobrir a figura.",
       "nl": "Tel terug van 10 naar 1 en verbind de stippen. Welk plaatje zie je?",
-      "sv": "Börja vid den orangea tian och räkna nedåt till 1, så kommer bilden fram.",
+      "sv": "Börja vid den orangea tian, räkna nedåt till 1 och dra streck från prick till prick, så kommer bilden fram.",
       "da": "Start ved den orange prik, og forbind prikkerne baglæns fra 10 til 1, så kommer billedet frem.",
-      "no": "Start på den oransje prikken, og tell baklengs fra 10 til 1, så kommer bildet fram.",
-      "fi": "Aloita oranssista pisteestä ja laske takaperin 10:stä 1:een, niin kuva tulee näkyviin."
+      "no": "Start på den oransje prikken, og trekk strek fra prikk til prikk mens du teller baklengs fra 10 til 1, så kommer bildet fram.",
+      "fi": "Aloita oranssista pisteestä ja yhdistä pisteet takaperin 10:stä 1:een, niin kuva tulee näkyviin."
     }
   },
   "G1-285": {
     "3": {
-      "en": "Count by twos from 2 to 40 and join the dots to finish the picture.",
+      "en": "Count by twos from 2 to 40 and connect the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Zweierschritten, von 2 bis 40.",
       "es": "Cuenta de 2 en 2 hasta el 40 y une todos los puntos.",
       "fr": "Compte de deux en deux, de 2 à 40, et relie tous les points.",
@@ -2486,7 +2486,7 @@
   },
   "G2-304": {
     "3": {
-      "en": "Count by fives from 5 to 100 and join the dots to finish the picture.",
+      "en": "Count by fives from 5 to 100 and connect the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Fünferschritten, von 5 bis 100.",
       "es": "Cuenta de 5 en 5 hasta el 100 y une todos los puntos.",
       "fr": "Compte de cinq en cinq, de 5 à 100, et relie tous les points.",
@@ -2507,7 +2507,7 @@
   },
   "G2-314": {
     "3": {
-      "en": "Count by tens from 10 to 200 and join the dots to finish the picture.",
+      "en": "Count by tens from 10 to 200 and connect the dots to finish the picture.",
       "de": "Verbinde alle Punkte in Zehnerschritten, von 10 bis 200.",
       "es": "Cuenta de 10 en 10 hasta el 200 y une todos los puntos.",
       "fr": "Compte de dix en dix, de 10 à 200, et relie tous les points.",
@@ -2528,14 +2528,14 @@
   },
   "K-309": {
     "1": {
-      "en": "Join the dots in alphabet order, from a to j, to finish the picture.",
+      "en": "Connect the dots in ABC order, from a to j, to finish the picture.",
       "de": "Statt Zahlen stehen Buchstaben da: Verbinde die Punkte von a bis j.",
       "es": "Aquí no hay números: une los puntos de la a a la j.",
       "fr": {
         "title": "Points à relier de a à j",
         "instruction": "Suis les lettres, de a à j, pas les nombres."
       },
-      "it": "Qui i puntini si uniscono dalla a alla l.",
+      "it": "Unisci i puntini in ordine alfabetico, dalla a alla l, e completa il disegno.",
       "pt": "Aqui os pontos têm letras: siga o alfabeto do a ao j.",
       "nl": "Verbind de letters op volgorde van het alfabet, van a tot en met j.",
       "sv": "Följ bokstäverna i ordning, från a till j.",
@@ -2550,14 +2550,14 @@
       }
     },
     "3": {
-      "en": "Join the dots in alphabet order, from a to z, to finish the picture.",
+      "en": "Connect the dots in ABC order, from a to z, to finish the picture.",
       "de": "Statt Zahlen stehen Buchstaben da: Verbinde die Punkte von a bis z.",
       "es": "Aquí no hay números: une los puntos de la a a la z.",
       "fr": {
         "title": "Points à relier de a à z",
         "instruction": "Suis les lettres, de a à z, pas les nombres."
       },
-      "it": "Qui i puntini si uniscono dalla a alla z.",
+      "it": "Unisci i puntini in ordine alfabetico, dalla a alla z, e completa il disegno.",
       "pt": "Aqui os pontos têm letras: siga o alfabeto do a ao z.",
       "nl": "Verbind de letters op volgorde van het alfabet, van a tot en met z.",
       "sv": "Följ bokstäverna i ordning, från a till ö.",
@@ -2574,30 +2574,30 @@
   },
   "G1-270": {
     "1": {
-      "en": "Some cards ask you to double a group. Others ask you to halve one.",
-      "de": "Zähle die Bilder, verdopple und halbiere.",
-      "es": "Con dibujos para ver el doble y la mitad.",
+      "en": "Some cards ask you to double a group. Others ask you to halve one. Write each answer in the box.",
+      "de": "Zähle die Bilder. Verdopple oder halbiere, so wie es auf der Karte steht.",
+      "es": "Algunas tarjetas te piden el doble de un grupo y otras, la mitad. Resuélvelas con ayuda de los dibujos.",
       "fr": "Double ou partage les groupes d'images.",
-      "it": "Leggi l'etichetta: doppio o metà.",
-      "pt": "Conte as figuras: o dobro e a metade vão até 6.",
-      "nl": "Kijk naar het label: verdubbel de groep of halveer hem. Kleine getallen.",
-      "sv": "Bilderna hjälper dig med dubbelt och hälften.",
+      "it": "Leggi l'etichetta di ogni riquadro: trova il doppio o la metà del gruppo e scrivi il numero.",
+      "pt": "Conte as figuras. Alguns cartões pedem o dobro; outros, a metade. Escreva a resposta de cada cartão.",
+      "nl": "Kijk naar het label: verdubbel de groep of halveer hem.",
+      "sv": "På några kort ska du räkna ut dubbelt, på andra hälften. Bilderna hjälper dig.",
       "da": "Se mærkaten over hver gruppe, og find det dobbelte eller det halve.",
       "no": "Se på lappen. Doble gruppen, eller del den i to like deler.",
       "fi": "Kortit näyttävät ryhmät. Tuplaa tai puolita ne."
     },
     "3": {
-      "en": "Some cards ask you to double a group. Others ask you to halve one.",
-      "de": "Zähle die Bilder, verdopple und halbiere.",
-      "es": "Con dibujos para ver el doble y la mitad.",
+      "en": "Some cards ask you to double a group. Others ask you to halve one. Write each answer in the box.",
+      "de": "Zähle die Bilder. Verdopple oder halbiere, so wie es auf der Karte steht.",
+      "es": "Algunas tarjetas te piden el doble de un grupo y otras, la mitad. Resuélvelas con ayuda de los dibujos.",
       "fr": {
         "title": "Doubles et moitiés jusqu'à 10",
         "instruction": "Double ou partage les groupes d'images."
       },
-      "it": "Leggi l'etichetta: doppio o metà.",
-      "pt": "Conte as figuras: o dobro e a metade vão até 10.",
-      "nl": "Kijk naar het label: verdubbel de groep of halveer hem. Kleine getallen.",
-      "sv": "Bilderna hjälper dig med dubbelt och hälften.",
+      "it": "Leggi l'etichetta di ogni riquadro: trova il doppio o la metà del gruppo e scrivi il numero.",
+      "pt": "Conte as figuras. Alguns cartões pedem o dobro; outros, a metade. Escreva a resposta de cada cartão.",
+      "nl": "Kijk naar het label: verdubbel de groep of halveer hem.",
+      "sv": "På några kort ska du räkna ut dubbelt, på andra hälften. Bilderna hjälper dig.",
       "da": "Se mærkaten over hver gruppe, og find det dobbelte eller det halve.",
       "no": "Se på lappen. Doble gruppen, eller del den i to like deler.",
       "fi": "Kortit näyttävät ryhmät. Tuplaa tai puolita ne."
@@ -2606,11 +2606,11 @@
   "G1-271": {
     "1": {
       "en": "Numbers only this time. Work out each double and half up to 10.",
-      "de": "Ohne Bilder: verdopple und halbiere bis 10.",
-      "es": "Sin dibujos: calcula solo con los números.",
-      "fr": "Sans image cette fois : calcule les nombres.",
+      "de": "Ohne Bilder: Verdopple und halbiere bis 10.",
+      "es": "Sin dibujos: calcula cada doble y cada mitad hasta 10.",
+      "fr": "Sans image cette fois : calcule chaque double et chaque moitié.",
       "it": "Senza immagini: calcola i doppi e le metà.",
-      "pt": "Sem figuras: dobros e metades até 10.",
+      "pt": "Só com números: escreva cada dobro e cada metade até 10.",
       "nl": "Nu zonder plaatjes: verdubbel en halveer de getallen tot 10.",
       "sv": "Inga bilder nu. Räkna ut dubbelt och hälften.",
       "da": "Nu er der kun tal. Find det dobbelte og det halve op til 10.",
@@ -2633,17 +2633,17 @@
   },
   "G1-286": {
     "1": {
-      "en": "Some cards ask for the double, others for the half.",
-      "de": "Zähle die Bilder: verdopple oder halbiere bis 12.",
+      "en": "Some cards ask for the double, others for the half. Write each answer in the box.",
+      "de": "Zähle die Bilder: Verdopple oder halbiere bis 12.",
       "es": "Algunas tarjetas piden el doble y otras, la mitad.",
-      "fr": "Doubler ou partager de grands groupes.",
-      "it": "Qui trovi sia il doppio sia la metà.",
-      "pt": "Uns cartões pedem o dobro; outros, a metade.",
-      "nl": "Tel de grotere groepen, verdubbel en halveer ze.",
-      "sv": "Några kort visar dubbelt, andra hälften.",
-      "da": "Fire kort med billeder: fordobl eller halvér gruppen.",
-      "no": "Noen kort spør om det dobbelte, andre om halvparten.",
-      "fi": "Osassa kortteja tuplataan, osassa puolitetaan."
+      "fr": "Trouve le double ou la moitié de chaque grand groupe d'images.",
+      "it": "Leggi ogni riquadro: trova il doppio o la metà del gruppo e scrivi il numero.",
+      "pt": "Alguns cartões pedem o dobro; outros, a metade. Escreva a resposta de cada cartão.",
+      "nl": "Tel elke groep en kijk naar het label: verdubbel de groep of halveer hem.",
+      "sv": "På några kort ska du räkna ut dubbelt, på andra hälften.",
+      "da": "Fire kort med billeder: Fordobl eller halvér gruppen.",
+      "no": "Noen kort spør om det dobbelte, andre om halvparten. Regn ut, og skriv svaret i rutene.",
+      "fi": "Osassa korteista ryhmä tuplataan, osassa puolitetaan. Tuplaa tai puolita jokainen ryhmä ja kirjoita vastaus."
     },
     "3": {
       "en": "Think backwards: find the number that was doubled, or the whole group the two halves came from.",
@@ -2691,14 +2691,14 @@
   },
   "G1-296": {
     "1": {
-      "en": "Groups of pictures to double, up to 12.",
-      "de": "Mengen zum Verdoppeln bis 12.",
-      "es": "Se doblan grupos de tres a seis.",
-      "fr": "De plus grands groupes d'images à doubler.",
-      "it": "Gruppi da raddoppiare: fino a 12.",
-      "pt": "Grupos maiores de figuras para dobrar.",
-      "nl": "Groepen plaatjes om te verdubbelen, tot 12.",
-      "sv": "Bildgrupper att dubbla, upp till 12.",
+      "en": "Double each group of pictures and write the number. The doubles go up to 12.",
+      "de": "Zähle die Bilder und schreibe das Doppelte auf (bis 12).",
+      "es": "Escribe el doble de cada grupo de dibujos; los grupos van de tres a seis.",
+      "fr": "Trouve le double de chaque groupe d'images.",
+      "it": "Raddoppia ogni gruppo di figure e scrivi il doppio: si arriva fino a 12.",
+      "pt": "Conte as figuras e escreva o dobro de cada grupo, até 12.",
+      "nl": "Tel de plaatjes in elke groep en schrijf het dubbele op.",
+      "sv": "Räkna ut dubbelt så många i varje bildgrupp, upp till 12.",
       "da": "Fordobl grupperne, op til 12.",
       "no": "Nå skal du doble grupper, opp til tolv.",
       "fi": "Isompia ryhmiä. Tuplaa jokainen ja kirjoita summa."
@@ -2719,16 +2719,16 @@
   },
   "G1-297": {
     "1": {
-      "en": "Groups of pictures to halve, up to twelve.",
-      "de": "Mengen zum Halbieren bis 12.",
-      "es": "Se parten grupos de seis a doce.",
-      "fr": "De plus grands groupes d'images à partager.",
-      "it": "Gruppi più grandi da dividere a metà.",
-      "pt": "Grupos maiores para repartir ao meio.",
-      "nl": "Groepen plaatjes om te halveren, tot 12.",
+      "en": "Split each group of pictures in half and write the two equal parts. The groups go up to 12.",
+      "de": "Zähle die Bilder und schreibe die beiden Hälften auf (bis 12).",
+      "es": "Parte a la mitad cada grupo de dibujos y escribe las dos mitades; los grupos van de seis a doce.",
+      "fr": "Partage chaque groupe d'images en deux parts égales.",
+      "it": "Dividi a metà ogni gruppo di figure, fino a 12, e scrivi la metà.",
+      "pt": "Conte as figuras, reparta cada grupo ao meio e escreva as duas metades, até 12.",
+      "nl": "Tel de plaatjes in elke groep, halveer ze en schrijf de twee gelijke delen op.",
       "sv": "Halvera bildgrupper, upp till 12.",
       "da": "Halvér grupperne, op til 12.",
-      "no": "Grupper av bilder å halvere, opp til tolv.",
+      "no": "Nå skal du halvere grupper av bilder, opp til tolv.",
       "fi": "Isompia ryhmiä. Puolita jokainen ja kirjoita osat."
     },
     "3": {
@@ -2748,27 +2748,27 @@
   "G1-298": {
     "1": {
       "en": "Write the double of each number. No pictures to count.",
-      "de": "Ohne Bilder: schreibe zu jeder Zahl das Doppelte.",
-      "es": "Sin dibujos que contar: solo dobles hasta 12.",
-      "fr": "Sans image : calcule le double de tête.",
+      "de": "Ohne Bilder: Schreibe zu jeder Zahl das Doppelte.",
+      "es": "Sin dibujos que contar: escribe el doble de cada número, hasta 12.",
+      "fr": "Sans image : calcule de tête le double de chaque nombre.",
       "it": "Solo numeri: leggi e scrivi il doppio.",
       "pt": "Escreva o dobro: não há figuras para contar.",
       "nl": "Geen plaatjes om te tellen: schrijf het dubbele van elk getal.",
-      "sv": "Skriv dubbelt av varje tal. Räkna i prickrutan.",
+      "sv": "Skriv dubbelt av varje tal. Det finns inga bilder att räkna.",
       "da": "Ingen billeder at tælle. Regn i det hvide felt, og skriv det dobbelte.",
       "no": "Ingen bilder å telle. Skriv det dobbelte av hvert tall i ruten.",
       "fi": "Kirjoita jokaisen luvun tupla. Kuvia ei lasketa."
     },
     "3": {
       "en": "No pictures. The double is already written. Write the number that was doubled in both boxes.",
-      "de": "Ohne Bilder: das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.",
-      "es": "Sin dibujos: ya está el doble: escribe en los dos recuadros el número que se dobló.",
-      "fr": "Sans image : le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.",
-      "it": "Solo numeri: il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.",
-      "pt": "Sem figuras: o dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.",
+      "de": "Ohne Bilder: Das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.",
+      "es": "Sin dibujos. Ya está el doble: escribe en los dos recuadros el número que se dobló.",
+      "fr": "Sans image. Le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.",
+      "it": "Solo numeri. Il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.",
+      "pt": "Sem figuras. O dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.",
       "nl": "Geen plaatjes: het dubbele staat er al. Schrijf het getal dat verdubbeld is in allebei de vakjes.",
       "sv": "Inga bilder: dubbelt står redan där. Skriv talet som dubblades i båda rutorna.",
-      "da": "Ingen billeder: det dobbelte står der allerede. Skriv det tal, der blev fordoblet, i begge felter.",
+      "da": "Ingen billeder: Det dobbelte står der allerede. Skriv det tal, der blev fordoblet, i begge felter.",
       "no": "Ingen bilder: det dobbelte står der allerede. Skriv tallet som ble doblet, i begge rutene.",
       "fi": "Ei kuvia. Tupla on jo valmiina. Kirjoita kumpaankin laatikkoon luku, joka tuplattiin."
     }
@@ -2776,14 +2776,14 @@
   "G1-299": {
     "3": {
       "en": "No pictures. The two halves are already written. Write the number they came from.",
-      "de": "Ohne Bilder: die zwei Hälften stehen schon da. Schreibe die Zahl, aus der sie entstanden sind, ins Kästchen.",
-      "es": "Sin dibujos: ya están las dos mitades: escribe el número del que salen.",
-      "fr": "Sans image : les deux moitiés sont déjà écrites : écris le nombre de départ.",
-      "it": "Solo numeri: le due metà sono già scritte: scrivi il numero di partenza.",
-      "pt": "Sem figuras: as duas metades já estão escritas: escreva o número de onde vieram.",
+      "de": "Ohne Bilder: Die zwei Hälften stehen schon da. Schreibe die Zahl, aus der sie entstanden sind, ins Kästchen.",
+      "es": "Sin dibujos. Ya están las dos mitades: escribe el número del que salen.",
+      "fr": "Sans image. Les deux moitiés sont déjà écrites : écris le nombre de départ.",
+      "it": "Solo numeri. Le due metà sono già scritte: scrivi il numero di partenza.",
+      "pt": "Sem figuras. As duas metades já estão escritas: escreva o número de onde vieram.",
       "nl": "Geen plaatjes: de twee gelijke helften staan er al. Schrijf in het vakje hoeveel het samen is.",
       "sv": "Inga bilder: de två lika delarna står redan där. Skriv talet de kommer från i rutan.",
-      "da": "Ingen billeder: de to lige store halvdele står der allerede. Skriv det tal, de kommer fra, i feltet.",
+      "da": "Ingen billeder: De to lige store halvdele står der allerede. Skriv det tal, de kommer fra, i feltet.",
       "no": "Ingen bilder: de to like halvpartene står der allerede. Skriv tallet de kommer fra, i ruten.",
       "fi": "Ei kuvia. Kaksi yhtä suurta puolikasta on jo valmiina. Kirjoita koko luku laatikkoon."
     }
@@ -2792,7 +2792,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -2807,7 +2807,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -2822,7 +2822,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -2837,7 +2837,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -2852,7 +2852,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -2867,7 +2867,7 @@
     "3": {
       "en": "Use the three numbers on the roof. Write the missing number in each fact.",
       "de": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl.",
-      "es": "Usa los tres números del tejado. Escribe el número que falta en cada operación.",
+      "es": "Usa los tres números del techo. Escribe el número que falta en cada operación.",
       "fr": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération.",
       "it": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione.",
       "pt": "Use os três números do telhado e escreva o número que falta em cada continha.",
@@ -3217,13 +3217,13 @@
   "G1-274": {
     "3": {
       "en": "Write the number each arrow points to, from 0 to 10.",
-      "de": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt.",
-      "es": "La recta llega al 10 y solo marca el 0 y el 10.",
+      "de": "Schreibe die Zahl auf, auf die jeder Pfeil zeigt.",
+      "es": "Escribe el número que señala cada flecha. La recta va del 0 al 10 y solo tiene marcados el 0 y el 10.",
       "fr": "Écris le nombre montré par chaque flèche, de 0 à 10.",
       "it": "Ogni tacca vale 1: scrivi il numero della freccia.",
-      "pt": "Só o 0 e o 10 estão escritos: descubra onde a seta cai.",
+      "pt": "Só o 0 e o 10 estão escritos. Escreva o número para o qual cada seta aponta.",
       "nl": "Elke pijl wijst naar een streepje op de lijn van 0 tot 10. Schrijf het getal.",
-      "sv": "En pil pekar på ett streck. Skriv talet mellan 0 och 10.",
+      "sv": "Varje pil pekar på ett streck. Skriv talet som pilen pekar på.",
       "da": "Skriv det tal, hver pil peger på, på tallinjen fra 0 til 10.",
       "no": "Skriv tallet hver pil peker på, fra 0 til 10.",
       "fi": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10."
@@ -3235,9 +3235,9 @@
       "de": "Zeichne die Zahl des Tages mit Zehnern und Einern und fülle jedes Kästchen aus.",
       "es": "El número de hoy está entre el 11 y el 19. Llena todos los recuadros.",
       "fr": "Le nombre du jour est entre 11 et 19 : remplis tout.",
-      "it": "Il numero va da 11 a 19: riempi ogni riquadro.",
+      "it": "Il numero del giorno è tra 11 e 19. Guarda il numero grande e completa tutti i riquadri.",
       "pt": "O número fica entre 11 e 19: desenhe com blocos e preencha todos os quadros.",
-      "nl": "Vul alle vakken in bij het tienergetal: in woord, tientallen en tellen.",
+      "nl": "Kijk naar het grote getal. Vul alle vakken op het blad in bij dat getal.",
       "sv": "Dagens tal ligger mellan 11 och 20. Fyll i alla rutor på sidan.",
       "da": "Dagens tal er mellem 11 og 20. Udfyld alle felterne på siden.",
       "no": "Se på dagens tall mellom 11 og 20. Fyll ut hver rute på arket.",
@@ -3247,10 +3247,10 @@
   "G1-256": {
     "1": {
       "en": "Find ten more and ten less than the number of the day.",
-      "de": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab.",
-      "es": "Calcula 10 más y 10 menos del número de hoy.",
-      "fr": "Calcule 10 de plus et 10 de moins.",
-      "it": "Trova dieci in più e dieci in meno.",
+      "de": "Schreibe auf, welche Zahl 10 mehr und welche Zahl 10 weniger ist als die Zahl des Tages.",
+      "es": "Calcula el número que es 10 más y el que es 10 menos que el número de hoy.",
+      "fr": "Écris le nombre qui a 10 de plus et celui qui a 10 de moins que le nombre du jour.",
+      "it": "Trova il numero con 10 in più e quello con 10 in meno del numero del giorno.",
       "pt": "Calcule 10 a mais e 10 a menos e mostre o número nos quadros de dez.",
       "nl": "Vul alle vakken in en zoek tien meer en tien minder dan het getal.",
       "sv": "Räkna ut tio mer och tio mindre än dagens tal.",
@@ -3378,7 +3378,7 @@
       "no": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine.",
       "fi": {
         "title": "Parilliset ja parittomat luvut 10:een asti",
-        "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+        "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
       }
     },
     "3": {
@@ -3409,14 +3409,14 @@
       "no": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine.",
       "fi": {
         "title": "Parilliset ja parittomat luvut 30:een asti",
-        "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+        "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
       }
     }
   },
   "G2-352": {
     "3": {
       "en": "Look only at the ones box of each number and fill in the circle under even or odd.",
-      "de": "Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab.",
+      "de": "Schau nur auf das Einer-Kästchen jeder Zahl und male den Kreis unter gerade oder ungerade aus.",
       "es": "Fíjate solo en la cifra de las unidades de cada número y marca el círculo debajo de par o impar.",
       "fr": "Regarde seulement la case des unités de chaque nombre et coche le rond sous pair ou impair.",
       "it": "Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari.",
@@ -3432,7 +3432,7 @@
     "3": {
       "en": "Do not add. Look at the underlined ones digit of each number and mark whether the sum is even or odd.",
       "de": "Rechne nicht. Schau auf die unterstrichenen Einer und hake ab, ob die Summe gerade oder ungerade ist.",
-      "es": "No sumes. Mira la unidad subrayada de cada número y marca si la suma es par o impar.",
+      "es": "No sumes. Mira la cifra de las unidades de cada número (está subrayada) y marca si la suma es par o impar.",
       "fr": "N'additionne pas. Regarde le chiffre des unités souligné de chaque nombre et coche si la somme est paire ou impaire.",
       "it": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero e segna se la somma è pari o dispari.",
       "pt": "Não some. Olhe o algarismo sublinhado de cada número e marque se a soma é par ou ímpar.",
@@ -3600,20 +3600,20 @@
       "nl": "Ja: zet een vinkje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord.",
       "sv": "Ja ger en bock och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar.",
       "da": "Et ja-spor får et flueben, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar.",
-      "no": "En ja-ledetråd får en hake, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring.",
+      "no": "En ja-ledetråd får en hake, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen, og sett så ring rundt hvert svar.",
       "fi": "Kyllä-vihje saa väkäsen ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
     },
     "3": {
       "en": "A no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.",
       "de": "Ein Nein-Hinweis bekommt ein Kreuz, ein Entweder-oder-Hinweis streicht das dritte Bild. Löse die Tabelle und kreise ein.",
-      "es": "Una pista de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta.",
+      "es": "Una pista de no lleva tache y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta.",
       "fr": "Un indice non donne une croix, un indice « ou » barre la troisième image. Termine la grille, puis entoure chaque réponse.",
       "it": "Un indizio no vuole una crocetta e un indizio con \"o\" barra il terzo disegno. Completa la griglia e cerchia le risposte.",
       "pt": "Uma pista de não ganha um xis e uma pista com \"ou\" risca a terceira figura. Complete a tabela e circule as respostas.",
       "nl": "Nee: zet een kruisje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord.",
       "sv": "Nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar.",
       "da": "Et nej-spor får et kryds, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar.",
-      "no": "En nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring.",
+      "no": "En nei-ledetråd får et kryss, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen, og sett så ring rundt hvert svar.",
       "fi": "Ei-vihje saa ruksin ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
     }
   },
@@ -3628,8 +3628,8 @@
       "nl": "Een omcirkeld plaatje betekent dat het kind het heeft. Streep door in het rooster en omcirkel dan elk antwoord.",
       "sv": "En inringad bild betyder att barnet har den. Kryssa över i rutnätet och ringa sedan in varje svar.",
       "da": "Et indringet billede betyder, at barnet har det. Sæt kryds i skemaet, og sæt ring om hvert svar.",
-      "no": "Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring.",
-      "fi": "Ympyröity kuva tarkoittaa, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+      "no": "Et bilde med ring rundt betyr: Barnet har det. Stryk ut i tabellen, og sett så ring rundt hvert svar.",
+      "fi": "Ympyröity kuva tarkoittaa, että lapsella on se. Rastita ruudukosta ja ympyröi sitten vastaukset."
     },
     "3": {
       "en": "A crossed-out picture means the child does not have it. Cross out on the grid, then circle each answer.",
@@ -3641,8 +3641,8 @@
       "nl": "Een doorgestreept plaatje heeft het kind niet. Streep door in het rooster en omcirkel dan elk antwoord.",
       "sv": "En överstruken bild betyder att barnet inte har den. Kryssa över i rutnätet och ringa sedan in varje svar.",
       "da": "Et overstreget billede betyder, at barnet ikke har det. Sæt kryds i skemaet, og sæt ring om hvert svar.",
-      "no": "Et bilde med strek over betyr: Barnet har det ikke. Løs tabellen og sett ring.",
-      "fi": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+      "no": "Et bilde med strek over betyr: Barnet har det ikke. Stryk ut i tabellen, og sett så ring rundt hvert svar.",
+      "fi": "Rastitettu kuva tarkoittaa, että lapsella ei ole sitä. Rastita ruudukosta ja ympyröi sitten vastaukset."
     }
   },
   "G2-319": {
@@ -3664,19 +3664,19 @@
         "instruction": "Lis les indices. Sur la grille, barre ce qui est impossible, coche ce qui est sûr, puis entoure l'image de chaque enfant."
       },
       "it": {
-        "title": "Logica a griglia: due indizi, una risposta",
+        "title": "Giochi di logica con la griglia: due indizi",
         "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
       },
       "pt": {
-        "title": "Desafios de lógica: duas pistas, uma resposta",
+        "title": "Desafios de raciocínio lógico: duas pistas",
         "instruction": "Leia as pistas. Risque na tabela o que não pode ser, marque o que tem de ser e depois circule a figura de cada criança."
       },
       "nl": {
-        "title": "Logicapuzzels: twee aanwijzingen, één antwoord",
+        "title": "Logigram: twee aanwijzingen, één antwoord",
         "instruction": "Lees de aanwijzingen. Streep in het rooster door wat niet kan, zet een vinkje bij wat zeker is en omcirkel dan het plaatje dat elk kind heeft."
       },
       "sv": {
-        "title": "Logikrutnät: två ledtrådar, ett svar",
+        "title": "Logikpussel: två ledtrådar, ett svar",
         "instruction": "Läs ledtrådarna. Kryssa över det som inte kan stämma i rutnätet, bocka av det som måste stämma och ringa sedan in bilden varje barn har."
       },
       "da": {
@@ -3689,7 +3689,7 @@
       },
       "fi": {
         "title": "Päättelypulmat: kaksi vihjettä, yksi vastaus",
-        "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+        "instruction": "Lue vihjeet. Rastita ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
       }
     }
   },
@@ -3712,7 +3712,7 @@
     "1": {
       "en": "Count the pictures. Draw one more in the empty box. Write how many there are now.",
       "de": "Zähle die Bilder. Male eins dazu in das leere Kästchen. Schreibe auf, wie viele es jetzt sind.",
-      "fr": "Compte les images. Dessine-en une de plus dans la case vide. Écris combien il y en a maintenant.",
+      "fr": "Compte les images. Dessines-en une de plus dans la case vide. Écris combien il y en a maintenant.",
       "es": "Cuenta los dibujos. Dibuja uno más en el cuadro vacío. Escribe cuántos hay ahora.",
       "pt": "Conte as figuras. Desenhe mais uma no quadro vazio. Escreva quantas são agora.",
       "it": "Conta le immagini. Disegnane una in più nel riquadro vuoto. Scrivi quante sono adesso.",
@@ -3725,7 +3725,7 @@
     "2": {
       "en": "Count the pictures. Draw one more in the empty box. Write how many there are now.",
       "de": "Zähle die Bilder. Male eins dazu in das leere Kästchen. Schreibe auf, wie viele es jetzt sind.",
-      "fr": "Compte les images. Dessine-en une de plus dans la case vide. Écris combien il y en a maintenant.",
+      "fr": "Compte les images. Dessines-en une de plus dans la case vide. Écris combien il y en a maintenant.",
       "es": "Cuenta los dibujos. Dibuja uno más en el cuadro vacío. Escribe cuántos hay ahora.",
       "pt": "Conte as figuras. Desenhe mais uma no quadro vazio. Escreva quantas são agora.",
       "it": "Conta le immagini. Disegnane una in più nel riquadro vuoto. Scrivi quante sono adesso.",
@@ -3785,7 +3785,7 @@
     "3": {
       "en": "Don’t count one by one! Look quickly and circle how many dots are on the domino.",
       "de": "Zähle nicht einzeln! Schau schnell hin und kreise ein, wie viele Punkte der Dominostein hat.",
-      "fr": "Ne compte pas un à un ! Regarde vite et entoure combien il y a de points sur le domino.",
+      "fr": "Ne compte pas un à un ! Regarde vite et entoure le nombre qui dit combien il y a de points sur le domino.",
       "es": "¡No cuentes de uno en uno! Mira rápido y encierra cuántos puntos tiene el dominó.",
       "pt": "Não conte um por um! Olhe rápido e circule quantos pontos tem o dominó.",
       "it": "Non contare uno a uno! Guarda al volo e cerchia quanti puntini ha il domino.",
@@ -3919,7 +3919,7 @@
       "en": "Compare the two bars. How much more is the long bar than the short bar? Write it in the box.",
       "de": "Vergleiche die beiden Streifen. Um wie viel ist der lange Streifen größer als der kurze? Schreibe es in das Kästchen.",
       "fr": "Compare les deux barres. De combien la longue barre est-elle plus grande que la courte ? Écris-le dans la case.",
-      "es": "Compara las dos barras. ¿Cuánto más es la barra larga que la corta? Escríbelo en el recuadro.",
+      "es": "Compara las dos barras. ¿Cuánto más mide la barra larga que la corta? Escríbelo en el recuadro.",
       "pt": "Compare as duas barras. Quanto a barra comprida tem a mais que a curta? Escreva no quadradinho.",
       "it": "Confronta le due barre. Di quanto la barra lunga è più grande di quella corta? Scrivilo nel riquadro.",
       "nl": "Vergelijk de twee stroken. Hoeveel meer is de lange strook dan de korte? Schrijf het in het vakje.",
@@ -3940,7 +3940,7 @@
       "nl": "Gebruik een dubbelsom die je kent. De dubbelsom staat er al: schrijf op wat je erbij telt en dan de uitkomst.",
       "sv": "Använd en dubbel du kan. Dubbeln står redan där: skriv det du lägger till och sedan summan.",
       "da": "Brug en dobbelt-opgave, du kender. Den står der allerede: Skriv det, du lægger til, og så summen.",
-      "no": "Bruk en dobbel du kan. Dobbelen står der allerede: Skriv det du legger til, og så summen.",
+      "no": "Bruk en dobling du kan. Doblingen står der allerede: Skriv det du legger til, og så summen.",
       "fi": "Käytä tuplaa, jonka osaat. Tupla on jo valmiina: kirjoita, paljonko lisäät, ja sitten summa."
     },
     "3": {
@@ -3953,7 +3953,7 @@
       "nl": "Gebruik een dubbelsom die je kent. Soms tel je er één bij, soms haal je er één af. Schrijf de dubbelsom op en dan de uitkomst.",
       "sv": "Använd en dubbel du kan. Ibland lägger du till ett, ibland tar du bort ett. Skriv dubbeln och sedan summan.",
       "da": "Brug en dobbelt-opgave, du kender. Nogle gange lægger du én til, andre gange trækker du én fra. Skriv den, og så summen.",
-      "no": "Bruk en dobbel du kan. Noen ganger legger du til én, andre ganger trekker du fra én. Skriv dobbelen, og så summen.",
+      "no": "Bruk en dobling du kan. Noen ganger legger du til én, andre ganger trekker du fra én. Skriv doblingen, og så summen.",
       "fi": "Käytä tuplaa, jonka osaat. Joskus lisäät yhden, joskus otat yhden pois. Kirjoita tupla ja sitten summa."
     }
   },
@@ -4012,7 +4012,7 @@
       "sv": "Maskinen ”dubbelt” dubblar varje tal. Maskinen ”hälften” halverar det. Fyll i de tomma rutorna. Ibland saknas talet som går in: tänk baklänges.",
       "da": "Maskinen ”det dobbelte” fordobler hvert tal. Maskinen ”det halve” halverer det. Udfyld de tomme felter. Nogle gange mangler tallet, der går ind: Tænk baglæns.",
       "no": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene. Noen ganger mangler tallet som går inn: Tenk baklengs.",
-      "fi": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
+      "fi": "Tuplakone tuplaa jokaisen luvun. Puolituskone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
     },
     "3": {
       "en": "The double machine doubles every number. The half machine halves it. Fill in the empty boxes. Some numbers going in are missing too: think backwards.",
@@ -4025,7 +4025,7 @@
       "sv": "Maskinen ”dubbelt” dubblar varje tal. Maskinen ”hälften” halverar det. Fyll i de tomma rutorna. Ibland saknas talet som går in: tänk baklänges.",
       "da": "Maskinen ”det dobbelte” fordobler hvert tal. Maskinen ”det halve” halverer det. Udfyld de tomme felter. Nogle gange mangler tallet, der går ind: Tænk baglæns.",
       "no": "Maskinen «det dobbelte» dobler hvert tall. Maskinen «halvparten» halverer det. Fyll inn de tomme rutene. Noen ganger mangler tallet som går inn: Tenk baklengs.",
-      "fi": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
+      "fi": "Tuplakone tuplaa jokaisen luvun. Puolituskone puolittaa sen. Täytä tyhjät laatikot. Joskus puuttuu luku, joka menee sisään: ajattele takaperin."
     }
   },
   "K-460": {
@@ -4082,13 +4082,13 @@
       "nl": "Kleur elk oneven getal in het honderdveld. Schrijf dan de cijfers van de eenheden op waarop de gekleurde getallen eindigen.",
       "sv": "Färglägg varje udda tal i hundrarutan. Skriv sedan entalssiffrorna som de färglagda talen slutar på.",
       "da": "Farvelæg hvert ulige tal på tavlen. Skriv så de enercifre, som hvert farvelagt tal ender på.",
-      "no": "Fargelegg hvert oddetall på tavla. Skriv så enersifrene som hvert fargelagte tall slutter på.",
+      "no": "Fargelegg hvert oddetall på tavla. Skriv så de fem enersifrene som de fargelagte tallene slutter på.",
       "fi": "Väritä satataulusta jokainen pariton luku. Kirjoita sitten ykkösten numerot, joihin jokainen väritetty luku päättyy."
     }
   },
   "G2-400": {
     "1": {
-      "en": "Add each pair and circle odd or even. Then circle the rule that is always true. The first sum in each box is done for you.",
+      "en": "Add each pair and circle odd or even. Then circle the rule that is always true. The first one in each box is done for you.",
       "de": "Rechne jede Aufgabe und kreise gerade oder ungerade ein. Kreise dann die Regel ein, die immer stimmt. Die erste Aufgabe in jedem Kasten ist schon gelöst.",
       "fr": "Calcule chaque somme et entoure pair ou impair. Puis entoure la règle qui est toujours vraie. Le premier calcul de chaque cadre est déjà fait.",
       "es": "Suma cada pareja y encierra par o impar. Luego encierra la regla que siempre se cumple. La primera suma de cada recuadro ya está resuelta.",
@@ -4197,7 +4197,7 @@
       "it": "Accanto al quadratino colorato scrivi la frazione colorata, accanto a quello bianco la frazione non colorata. Poi sommale: l'intero è 1.",
       "nl": "Schrijf naast het gekleurde vierkantje het gekleurde breukdeel en naast het witte vierkantje het niet gekleurde. Tel ze dan bij elkaar op: het geheel is 1.",
       "sv": "Skriv bråket som är färglagt bredvid den färgade rutan och bråket som inte är färglagt bredvid den vita. Lägg sedan ihop dem: tillsammans blir det 1 hel.",
-      "da": "Skriv brøken, der er farvet, ved det farvede felt, og brøken, der ikke er farvet, ved det hvide. Læg dem så sammen: tilsammen giver det 1 hel.",
+      "da": "Skriv brøken, der er farvet, ved det farvede felt, og brøken, der ikke er farvet, ved det hvide. Læg dem så sammen: Tilsammen giver det 1 hel.",
       "no": "Skriv brøken som er fargelagt, ved den fargede ruten, og brøken som ikke er fargelagt, ved den hvite. Legg dem så sammen: til sammen blir det 1 hel.",
       "fi": "Kirjoita väritetyn ruudun viereen väritetyn osan murtoluku ja valkoisen ruudun viereen värittämättömän osan murtoluku. Laske ne sitten yhteen: saat yhden kokonaisen."
     }
@@ -4227,7 +4227,7 @@
       "it": "Per ogni moltiplicazione colora un rettangolo di punti: il primo numero sono le righe, il secondo i punti in ogni riga. Poi scrivi quanti punti hai colorato.",
       "nl": "Kleur bij elke keersom een rechthoek van stippen: het eerste getal is het aantal rijen, het tweede het aantal stippen in elke rij. Schrijf dan op hoeveel stippen je hebt gekleurd.",
       "sv": "Färglägg en rektangel av prickar för varje multiplikation: det första talet är raderna, det andra är prickarna i varje rad. Skriv sedan hur många prickar du färglade.",
-      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
+      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: Det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
       "no": "Fargelegg et rektangel av prikker for hvert gangestykke: det første tallet er radene, det andre er prikkene i hver rad. Skriv så hvor mange prikker du fargela.",
       "fi": "Väritä jokaista kertolaskua varten pisteistä suorakulmio: ensimmäinen luku kertoo rivien määrän, toinen pisteiden määrän kullakin rivillä. Kirjoita sitten, montako pistettä väritit."
     },
@@ -4240,7 +4240,7 @@
       "it": "Per ogni moltiplicazione colora un rettangolo di punti: il primo numero sono le righe, il secondo i punti in ogni riga. Poi scrivi quanti punti hai colorato.",
       "nl": "Kleur bij elke keersom een rechthoek van stippen: het eerste getal is het aantal rijen, het tweede het aantal stippen in elke rij. Schrijf dan op hoeveel stippen je hebt gekleurd.",
       "sv": "Färglägg en rektangel av prickar för varje multiplikation: det första talet är raderna, det andra är prickarna i varje rad. Skriv sedan hur många prickar du färglade.",
-      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
+      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: Det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
       "no": "Fargelegg et rektangel av prikker for hvert gangestykke: det første tallet er radene, det andre er prikkene i hver rad. Skriv så hvor mange prikker du fargela.",
       "fi": "Väritä jokaista kertolaskua varten pisteistä suorakulmio: ensimmäinen luku kertoo rivien määrän, toinen pisteiden määrän kullakin rivillä. Kirjoita sitten, montako pistettä väritit."
     }
@@ -4255,7 +4255,7 @@
       "it": "Ritaglia i cartoncini e fai un buco in ogni cerchio. Infilali in un anello ed esercitati con le tabelline. I risultati mancano: dilli, scrivili e poi controllali.",
       "nl": "Knip de kaartjes uit en pons een gaatje in elk rondje. Doe ze aan een ring en oefen je tafels. De uitkomsten zijn leeg: zeg ze, schrijf ze op en controleer ze.",
       "sv": "Klipp ut korten och gör ett hål i varje cirkel. Sätt dem på en ring och öva tabellerna. Svaren saknas: säg dem, skriv dem och kontrollera dem sedan.",
-      "da": "Klip kortene ud, og lav et hul i hver cirkel. Sæt dem på en ring, og øv tabellerne. Resultaterne mangler: sig dem, skriv dem, og tjek dem så.",
+      "da": "Klip kortene ud, og lav et hul i hver cirkel. Sæt dem på en ring, og øv tabellerne. Resultaterne mangler: Sig dem, skriv dem, og tjek dem så.",
       "no": "Klipp ut kortene og lag et hull i hver sirkel. Sett dem på en ring og øv på gangetabellen. Svarene mangler: si dem, skriv dem og sjekk dem så.",
       "fi": "Leikkaa kortit irti ja tee reikä jokaiseen ympyrään. Pujota ne renkaaseen ja harjoittele kertotauluja. Vastaukset puuttuvat: sano ne, kirjoita ne ja tarkista ne sitten."
     }
@@ -4323,7 +4323,7 @@
       "en": "Draw a line from each coin to its name.",
       "de": "Verbinde jede Münze mit ihrem Wert.",
       "fr": "Relie chaque pièce à sa valeur.",
-      "es": "Une cada moneda con su valor.",
+      "es": "Une cada moneda con su nombre.",
       "pt": "Ligue cada moeda ao seu valor.",
       "it": "Collega ogni moneta al suo valore.",
       "nl": "Verbind elke munt met zijn waarde.",
@@ -4336,7 +4336,7 @@
       "en": "Draw a line from each coin to its name.",
       "de": "Verbinde jede Münze mit ihrem Wert.",
       "fr": "Relie chaque pièce à sa valeur.",
-      "es": "Une cada moneda con su valor.",
+      "es": "Une cada moneda con su nombre.",
       "pt": "Ligue cada moeda ao seu valor.",
       "it": "Collega ogni moneta al suo valore.",
       "nl": "Verbind elke munt met zijn waarde.",
@@ -4512,7 +4512,7 @@
   "K-464": {
     "3": {
       "en": "Color the shapes to match the color key. Then count each kind of shape and write how many in its box. A turned shape is still the same shape.",
-      "de": "Male jede Form in der Farbe an, die sie unten hat. Zähle dann, wie viele es von jeder Form gibt, und schreibe die Zahl ins Kästchen. Eine gedrehte Form bleibt dieselbe Form.",
+      "de": "Male jede Form in der Farbe an, die unten im Farbcode steht. Zähle dann, wie viele es von jeder Form gibt, und schreibe die Zahl ins Kästchen. Eine gedrehte Form bleibt dieselbe Form.",
       "fr": "Colorie chaque forme de la couleur indiquée en bas. Compte ensuite chaque sorte de forme et écris combien il y en a dans sa case. Une forme tournée reste la même forme.",
       "es": "Colorea cada figura del color que indica la clave. Después cuenta cada tipo de figura y escribe cuántas hay en su cuadro. Una figura girada sigue siendo la misma figura.",
       "pt": "Pinte cada forma com a cor indicada na legenda. Depois conte cada tipo de forma e escreva quantas são no quadrinho. Uma forma girada continua sendo a mesma forma.",
@@ -4680,7 +4680,7 @@
   },
   "K-473": {
     "2": {
-      "en": "Start at the orange dot. Join the dots in alphabet order, from A to T, to find the picture.",
+      "en": "Start at the orange dot. Connect the dots in ABC order, from A to T, to find the picture.",
       "de": "Beginne am orangen Punkt. Verbinde die Punkte nach dem ABC, von A bis T.",
       "fr": "Pars du point orange. Relie les points dans l'ordre de l'alphabet, de A à T.",
       "es": "Empieza en el punto naranja. Une los puntos en orden alfabético, de la A a la S.",
@@ -4693,7 +4693,7 @@
       "fi": "Aloita oranssista pisteestä ja yhdistä pisteet aakkosjärjestyksessä A:sta T:hen."
     },
     "3": {
-      "en": "Start at the orange dot. Join the dots in alphabet order, from A to Z, to find the picture.",
+      "en": "Start at the orange dot. Connect the dots in ABC order, from A to Z, to find the picture.",
       "de": "Beginne am orangen Punkt. Verbinde die Punkte nach dem ABC, von A bis Z.",
       "fr": "Pars du point orange. Relie les points dans l'ordre de l'alphabet, de A à Z.",
       "es": "Empieza en el punto naranja. Une los puntos en orden alfabético, de la A a la Z.",
@@ -4845,7 +4845,7 @@
       "it": "Guarda i passaggi. A ogni passaggio si aggiungono forme nuove in arancione. Prima ripassa le forme tratteggiate nel riquadro grande, poi disegna il resto un passaggio alla volta.",
       "nl": "Kijk naar de stappen. Bij elke stap komen er nieuwe vormen in het oranje bij. Trek eerst de gestippelde vormen in het grote vak over en teken daarna stap voor stap verder.",
       "sv": "Titta på stegen. I varje steg kommer nya former till i orange. Spåra först de streckade formerna i den stora rutan och rita sedan resten, ett steg i taget.",
-      "da": "Se på trinene. I hvert trin kommer der nye figurer til i orange. Tegn først efter de stiplede figurer i den store ramme, og tegn så resten ét trin ad gangen.",
+      "da": "Se på trinnene. I hvert trin kommer der nye figurer til i orange. Tegn først efter de stiplede figurer i den store ramme, og tegn så resten ét trin ad gangen.",
       "no": "Se på trinnene. I hvert trinn kommer det nye former til i oransje. Tegn først over de stiplede formene i den store rammen, og tegn så resten ett trinn om gangen.",
       "fi": "Katso vaiheita. Jokaisen vaiheen uudet muodot ovat oransseja. Jäljennä ensin ison ruudun katkoviivat ja piirrä sitten loput vaihe kerrallaan."
     }
@@ -4888,7 +4888,7 @@
       "it": "Segui i passaggi di ogni disegno. Poi disegnali tutti insieme nel riquadro grande e disegna anche il posto dove si trovano.",
       "nl": "Volg de stappen van elke tekening. Teken ze daarna allemaal samen in het grote vak, en teken ook de plek waar ze zijn.",
       "sv": "Följ stegen för varje teckning. Rita sedan alla tillsammans i den stora bilden, och rita också platsen där de är.",
-      "da": "Følg trinene for hver tegning. Tegn dem så alle sammen på det store billede, og tegn også stedet, hvor de er.",
+      "da": "Følg trinnene for hver tegning. Tegn dem så alle sammen på det store billede, og tegn også stedet, hvor de er.",
       "no": "Følg trinnene for hver tegning. Tegn dem så alle sammen på det store bildet, og tegn også stedet der de er.",
       "fi": "Seuraa jokaisen piirroksen vaiheita. Piirrä sitten ne kaikki yhdessä isoon kuvaan ja piirrä myös paikka, jossa ne ovat."
     }
@@ -4903,7 +4903,7 @@
       "it": "Guarda il disegno sulla quadrettatura piccola. Sulla quadrettatura grande ogni quadretto del disegno diventa un blocco di quattro quadretti (due accanto, due sotto): colora i blocchi.",
       "nl": "Kijk naar de tekening in het kleine rooster. In het grote rooster wordt elk hokje van de tekening een blok van vier hokjes (twee naast elkaar, twee onder elkaar): kleur de blokken.",
       "sv": "Titta på bilden i det lilla rutnätet. I det stora rutnätet blir varje ruta i bilden ett block med fyra rutor (två bredvid varandra, två under varandra): färglägg blocken.",
-      "da": "Se på billedet i det lille kvadratnet. I det store kvadratnet bliver hvert tern i billedet til en blok på fire tern (to ved siden af hinanden, to under hinanden): farvelæg blokkene.",
+      "da": "Se på billedet i det lille kvadratnet. I det store kvadratnet bliver hvert tern i billedet til en blok på fire tern (to ved siden af hinanden, to under hinanden): Farvelæg blokkene.",
       "no": "Se på bildet i det lille rutenettet. I det store rutenettet blir hver rute i bildet en blokk med fire ruter (to ved siden av hverandre, to under hverandre): fargelegg blokkene.",
       "fi": "Katso pienen ruudukon kuvaa. Isossa ruudukossa kuvan jokaisesta ruudusta tulee neljän ruudun neliö (kaksi vierekkäin, kaksi allekkain): väritä neliöt."
     }
@@ -4931,7 +4931,7 @@
       "it": "Copia ogni disegno sulla quadrettatura vuota, rovesciato come allo specchio: quello che è a sinistra va a destra.",
       "nl": "Teken elke tekening na in het lege rooster, gespiegeld zoals in een spiegel: wat links is, komt rechts.",
       "sv": "Rita av varje bild i det tomma rutnätet spegelvänd, som i en spegel: det som är till vänster hamnar till höger.",
-      "da": "Tegn hvert billede af spejlvendt i det tomme kvadratnet, som i et spejl: det, der er til venstre, kommer til højre.",
+      "da": "Tegn hvert billede af spejlvendt i det tomme kvadratnet, som i et spejl: Det, der er til venstre, kommer til højre.",
       "no": "Tegn av hvert bilde i det tomme rutenettet speilvendt, som i et speil: det som er til venstre, kommer til høyre.",
       "fi": "Piirrä jokainen kuva tyhjään ruudukkoon peilikuvana: mikä on vasemmalla, tulee oikealle."
     }
@@ -4953,7 +4953,7 @@
   },
   "K-506": {
     "2": {
-      "en": "Start at the orange dot. Join only the odd numbers in order: 1, 3, 5 and so on. Skip the even numbers.",
+      "en": "Start at the orange dot. Connect only the odd numbers in order: 1, 3, 5 and so on. Skip the even numbers.",
       "de": "Fang beim orangen Punkt an. Verbinde nur die ungeraden Zahlen der Reihe nach: 1, 3, 5 und so weiter. Lass die geraden Zahlen aus.",
       "fr": "Commence au point orange. Relie seulement les nombres impairs dans l’ordre : 1, 3, 5 et ainsi de suite. Saute les nombres pairs.",
       "es": "Empieza en el punto naranja. Une solo los números impares en orden: 1, 3, 5 y así sucesivamente. Sáltate los números pares.",
@@ -4966,7 +4966,7 @@
       "fi": "Aloita oranssista pisteestä. Yhdistä vain parittomat luvut järjestyksessä: 1, 3, 5 ja niin edelleen. Hyppää parillisten lukujen yli."
     },
     "3": {
-      "en": "Start at the orange dot. Join only the even numbers in order: 22, 24, 26 and so on. Skip the odd numbers.",
+      "en": "Start at the orange dot. Connect only the even numbers in order: 22, 24, 26 and so on. Skip the odd numbers.",
       "de": "Fang beim orangen Punkt an. Verbinde nur die geraden Zahlen der Reihe nach: 22, 24, 26 und so weiter. Lass die ungeraden Zahlen aus.",
       "fr": "Commence au point orange. Relie seulement les nombres pairs dans l’ordre : 22, 24, 26 et ainsi de suite. Saute les nombres impairs.",
       "es": "Empieza en el punto naranja. Une solo los números pares en orden: 22, 24, 26 y así sucesivamente. Sáltate los números impares.",
@@ -5006,7 +5006,7 @@
         "instruction": "Cubra os números pontilhados. Em cada quadradinho vazio, escreva o número que vai ali."
       },
       "nl": {
-        "title": "Getallen 1 tot 30 overtrekken",
+        "title": "Getallen 1 tot en met 30 overtrekken",
         "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
       },
       "sv": {
@@ -5014,8 +5014,8 @@
         "instruction": "Spåra de streckade talen. Skriv det tal som ska stå där i varje tom ruta."
       },
       "da": {
-        "title": "Spor tallene fra 1 til 30",
-        "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+        "title": "Skriv tallene fra 1 til 30",
+        "instruction": "Skriv oven i de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
       },
       "no": {
         "title": "Spor tallene fra 1 til 30",
@@ -5052,7 +5052,7 @@
         "instruction": "Ripassa ogni numero da 1 a 50. Comincia ogni numero dall’alto."
       },
       "nl": {
-        "title": "Getallen 1 tot 50 overtrekken",
+        "title": "Getallen 1 tot en met 50 overtrekken",
         "instruction": "Trek elk getal van 1 tot en met 50 over. Begin elk cijfer bovenaan."
       },
       "sv": {
@@ -5060,8 +5060,8 @@
         "instruction": "Spåra varje tal från 1 till 50. Börja varje siffra uppifrån."
       },
       "da": {
-        "title": "Spor tallene fra 1 til 50",
-        "instruction": "Spor hvert tal fra 1 til 50. Begynd øverst på hvert tal."
+        "title": "Skriv tallene fra 1 til 50",
+        "instruction": "Skriv oven i hvert tal fra 1 til 50. Begynd øverst på hvert tal."
       },
       "no": {
         "title": "Spor tallene fra 1 til 50",
@@ -5098,7 +5098,7 @@
         "instruction": "Cubra os números pontilhados. Em cada quadradinho vazio, escreva o número que vai ali."
       },
       "nl": {
-        "title": "Getallen 51 tot 100 overtrekken",
+        "title": "Getallen 51 tot en met 100 overtrekken",
         "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
       },
       "sv": {
@@ -5106,8 +5106,8 @@
         "instruction": "Spåra de streckade talen. Skriv det tal som ska stå där i varje tom ruta."
       },
       "da": {
-        "title": "Spor tallene fra 51 til 100",
-        "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+        "title": "Skriv tallene fra 51 til 100",
+        "instruction": "Skriv oven i de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
       },
       "no": {
         "title": "Spor tallene fra 51 til 100",
@@ -5308,7 +5308,7 @@
       "it": "Di' il nome di ogni figura. Scrivi sui vagoni le lettere che mancano: è la prima lettera del nome della figura.",
       "nl": "Zeg wat je op elk plaatje ziet. Schrijf de letters die ontbreken op de wagons: het is de eerste letter van het plaatje.",
       "sv": "Säg vad varje bild heter. Skriv bokstäverna som fattas på vagnarna: det är första bokstaven i bildens namn.",
-      "da": "Sig, hvad hvert billede hedder. Skriv de bogstaver, der mangler, på vognene: det er det første bogstav i billedets navn.",
+      "da": "Sig, hvad hvert billede hedder. Skriv de bogstaver, der mangler, på vognene: Det er det første bogstav i billedets navn.",
       "no": "Si hva hvert bilde heter. Skriv bokstavene som mangler, på vognene: det er den første bokstaven i navnet på bildet.",
       "fi": "Sano, mitä jokaisessa kuvassa on. Kirjoita puuttuvat kirjaimet vaunuihin: se on kuvan nimen ensimmäinen kirjain."
     },
@@ -5530,7 +5530,7 @@
   },
   "K-551": {
     "3": {
-      "en": "Cut out the dominoes. Lay them in a ring: the word on the right of each domino is the opposite of the word on the left of the next one.",
+      "en": "Cut out the dominoes. Lay them in a circle: the word on the right of each domino is the opposite of the word on the left of the next one.",
       "de": "Schneide die Dominosteine aus. Lege sie im Kreis: Das Wort rechts auf jedem Stein ist das Gegenteil vom Wort links auf dem nächsten Stein.",
       "fr": "Découpe les dominos. Pose-les en rond : le mot à droite de chaque domino est le contraire du mot à gauche du domino suivant.",
       "es": "Recorta las fichas de dominó. Ponlas en círculo: la palabra de la derecha de cada ficha es lo opuesto de la palabra de la izquierda de la siguiente.",
@@ -5618,7 +5618,7 @@
   },
   "G1-501": {
     "3": {
-      "en": "Read each group of words. Circle the check mark if it is a whole sentence. Circle the X if it is not. If it is not, make it a whole sentence on the line.",
+      "en": "Read each group of words. Circle the check mark if it is a complete sentence. Circle the X if it is not. If it is not, rewrite it as a complete sentence on the line.",
       "de": "Lies jede Wortgruppe. Kreise den Haken ein, wenn sie ein ganzer Satz ist. Kreise das Kreuz ein, wenn nicht. Ist es kein Satz, ergänze die Wortgruppe auf der Linie zu einem ganzen Satz.",
       "fr": "Lis chaque groupe de mots. Entoure la coche si c'est une phrase complète. Entoure la croix si ce n'en est pas une. Si ce n'est pas une phrase, complète le groupe de mots sur la ligne pour en faire une phrase.",
       "es": "Lee cada grupo de palabras. Encierra la palomita si es una oración completa. Encierra la X si no lo es. Si no lo es, complétalo en la línea para formar una oración.",
@@ -5696,7 +5696,7 @@
       "en": "Write a letter to someone you love. Write their name after the greeting and your name at the end.",
       "de": "Schreibe einem lieben Menschen einen Brief. Schreibe seinen Namen hinter die Anrede und deinen Namen ans Ende.",
       "fr": "Écris une lettre à quelqu'un que tu aimes. Écris son prénom après la salutation et ton prénom à la fin.",
-      "es": "Escríbele una carta a alguien que quieres. Escribe su nombre después del saludo y tu nombre al final.",
+      "es": "Escríbele una carta a alguien a quien quieras. Escribe su nombre después del saludo y tu nombre al final.",
       "pt": "Escreva uma carta para alguém de quem você gosta. Escreva o nome da pessoa depois da saudação e o seu nome no final.",
       "it": "Scrivi una lettera a una persona a cui vuoi bene. Scrivi il suo nome dopo il saluto e il tuo nome alla fine.",
       "nl": "Schrijf een brief aan iemand van wie je houdt. Schrijf zijn of haar naam na de begroeting en je eigen naam aan het eind.",
@@ -5900,7 +5900,7 @@
       "en": "Listen to each word. If the word is on your card, mark it. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
       "de": "Hör dir jedes Wort an. Steht das Wort auf deiner Karte, markiere es. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“",
       "fr": "Écoute chaque mot. Si le mot est sur ta carte, marque-le. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »",
-      "es": "Escucha cada palabra. Si la palabra está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”",
+      "es": "Escucha cada palabra. Si la palabra está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”.",
       "pt": "Ouça cada palavra. Se a palavra estiver na sua cartela, marque-a. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”",
       "it": "Ascolta ogni parola. Se la parola è sulla tua cartella, fai una crocetta. Quando hai completato una riga intera, in orizzontale, in verticale o in diagonale, grida «Bingo!»",
       "nl": "Luister naar elk woord. Staat het woord op je kaart, zet er dan een kruisje op. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’",
@@ -5915,7 +5915,7 @@
       "en": "Listen to each sum and work it out. If the answer is on your card, mark it. The star in the middle counts as marked. Mark a whole line across, down or corner to corner, then shout \"Bingo!\"",
       "de": "Hör dir jede Aufgabe an und rechne sie aus. Steht das Ergebnis auf deiner Karte, markiere es. Der Stern in der Mitte zählt schon als markiert. Hast du eine ganze Reihe markiert – waagerecht, senkrecht oder schräg –, dann ruf „Bingo!“",
       "fr": "Écoute chaque calcul et trouve le résultat. S'il est sur ta carte, marque-le. L'étoile du milieu compte déjà comme marquée. Quand tu as marqué une ligne entière, horizontale, verticale ou en diagonale, crie « Loto ! »",
-      "es": "Escucha cada operación y resuélvela. Si el resultado está en tu tabla, márcalo. La estrella del centro ya cuenta como marcada. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”",
+      "es": "Escucha cada operación y resuélvela. Si el resultado está en tu tabla, márcalo. La estrella del centro ya cuenta como marcada. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”.",
       "pt": "Ouça cada conta e resolva. Se o resultado estiver na sua cartela, marque-o. A estrela do meio já conta como marcada. Quando marcar uma linha inteira, na horizontal, na vertical ou na diagonal, grite “Bingo!”",
       "it": "Ascolta ogni operazione e calcola il risultato. Se è sulla tua cartella, fai una crocetta. La stella al centro è già segnata. Quando hai completato una riga intera, in orizzontale, in verticale o in diagonale, grida «Bingo!»",
       "nl": "Luister naar elke som en reken hem uit. Staat het antwoord op je kaart, zet er dan een kruisje op. De ster in het midden telt al als aangekruist. Heb je een hele rij, horizontaal, verticaal of schuin? Roep dan ‘Bingo!’",
@@ -5929,7 +5929,7 @@
     "3": {
       "en": "Cut out the cards and mix them up. Take one card at a time and say the word, read the sentence, then say the word again. Keep the cards you have called to check each Bingo.",
       "de": "Schneide die Karten aus und mische sie. Nimm immer eine Karte und sag das Wort, lies den Satz vor und sag das Wort noch einmal. Leg die gezogenen Karten beiseite: Mit ihnen prüfst du jedes Bingo.",
-      "fr": "Découpe les cartes et mélange-les. Prends une carte à la fois et dis le mot, lis la phrase, puis redis le mot. Garde les cartes déjà appelées pour vérifier chaque « Loto ! ».",
+      "fr": "Découpe les cartes et mélange-les. Prends une carte à la fois et dis le mot, lis la phrase, puis redis le mot. Garde les cartes déjà appelées pour vérifier chaque « Loto ! »",
       "es": "Recorta las cartas y revuélvelas. Toma una carta a la vez y di la palabra, lee la oración y vuelve a decir la palabra. Guarda las cartas que ya cantaste para revisar cada “¡Lotería!”.",
       "pt": "Recorte as cartas e embaralhe. Pegue uma carta de cada vez e diga a palavra, leia a frase e diga a palavra de novo. Guarde as cartas já sorteadas para conferir cada bingo.",
       "it": "Ritaglia le carte e mescolale. Prendi una carta alla volta e di' la parola, leggi la frase e ripeti la parola. Tieni da parte le carte già estratte per controllare ogni bingo.",
@@ -5945,7 +5945,7 @@
       "en": "Cut out the cards. Match each face with its word, or turn the cards over and play a memory game.",
       "de": "Schneide die Karten aus. Lege jedes Gesicht zu seinem Wort oder spiele mit einem anderen Kind Memory.",
       "fr": "Découpe les cartes. Associe chaque visage à son mot, ou joue au memory.",
-      "es": "Recorta las tarjetas. Une cada cara con su palabra o jueguen memorama.",
+      "es": "Recorta las tarjetas. Une cada cara con su palabra o juega memorama.",
       "pt": "Recorte as cartas. Junte cada rosto com a sua palavra ou jogue o jogo da memória.",
       "it": "Ritaglia le carte. Abbina ogni faccia alla sua parola oppure gioca a memory.",
       "nl": "Knip de kaartjes uit. Leg elk gezicht bij het goede woord of speel er memory mee.",

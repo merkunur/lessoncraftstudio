@@ -1,7 +1,8 @@
 {
   "K-002": {
     "title": "Cuenta y rodea",
-    "instruction": "Cuenta los dibujos de cada cuadro. Rodea el número correcto."
+    "instruction": "Cuenta los dibujos de cada cuadro. Encierra el número correcto.",
+    "printTitle": "Cuenta y encierra"
   },
   "K-004": {
     "title": "Cuenta el marco de diez",
@@ -21,15 +22,15 @@
   },
   "K-008": {
     "title": "¿Más o menos?",
-    "instruction": "Mira los dos grupos. Rodea el grupo que tiene MÁS."
+    "instruction": "Mira los dos grupos. Encierra el grupo que tiene MÁS."
   },
   "K-009": {
     "title": "¿Cuál tiene menos?",
-    "instruction": "Mira los dos grupos. Rodea el grupo que tiene MENOS."
+    "instruction": "Mira los dos grupos. Encierra el grupo que tiene MENOS."
   },
   "K-010": {
     "title": "Halla los grupos iguales",
-    "instruction": "Dos grupos tienen el mismo número. Rodea los dos."
+    "instruction": "Dos grupos tienen el mismo número. Encierra los dos."
   },
   "K-011": {
     "title": "Cuenta y colorea",
@@ -57,11 +58,11 @@
   },
   "K-017": {
     "title": "Mirada rápida",
-    "instruction": "¡No cuentes de uno en uno! Mira rápido y rodea cuántos hay."
+    "instruction": "¡No cuentes de uno en uno! Mira rápido y encierra cuántos hay."
   },
   "K-018": {
     "title": "Cuenta de un vistazo",
-    "instruction": "Mira rápido y rodea cuántos ves."
+    "instruction": "Mira rápido y encierra cuántos ves."
   },
   "K-019": {
     "title": "Números que faltan al 10",
@@ -104,11 +105,11 @@
   },
   "K-029": {
     "title": "Haz una buena estimación",
-    "instruction": "Estima primero, ¡no cuentes! Rodea la mejor estimación y comprueba contando."
+    "instruction": "Estima primero, ¡no cuentes! Encierra la mejor estimación y comprueba contando."
   },
   "K-030": {
     "title": "Primero, segundo, tercero",
-    "instruction": "Empieza en la flecha. Rodea el dibujo en la posición indicada."
+    "instruction": "Empieza en la flecha. Encierra el dibujo en la posición indicada."
   },
   "K-031": {
     "title": "¿Qué posición?",
@@ -116,7 +117,7 @@
   },
   "K-032": {
     "title": "Grande y pequeño",
-    "instruction": "Rodea el MÁS GRANDE de cada fila."
+    "instruction": "Encierra el MÁS GRANDE de cada fila."
   },
   "K-033": {
     "title": "Pequeño, mediano, grande",
@@ -124,11 +125,12 @@
   },
   "K-034": {
     "title": "Del más pequeño al grande",
-    "instruction": "Numera los dibujos del 1 (más pequeño) al 5 (más grande)."
+    "instruction": "Numera los dibujos del 1 (más pequeño) al 5 (más grande).",
+    "printTitle": "Del más pequeño al más grande"
   },
   "K-035": {
     "title": "Alto y bajo",
-    "instruction": "Rodea el MÁS ALTO de cada fila."
+    "instruction": "Encierra el MÁS ALTO de cada fila."
   },
   "K-036": {
     "title": "De bajo a alto",
@@ -136,11 +138,12 @@
   },
   "K-037": {
     "title": "Largo y corto",
-    "instruction": "Rodea el MÁS LARGO de cada fila."
+    "instruction": "Encierra el MÁS LARGO de cada fila."
   },
   "K-038": {
     "title": "¿Pesado o liviano?",
-    "instruction": "¡Piensa en la vida real! Rodea el MÁS PESADO."
+    "instruction": "¡Piensa en la vida real! Encierra el MÁS PESADO.",
+    "printTitle": "¿Pesado o ligero?"
   },
   "K-039": {
     "title": "Igual y diferente",
@@ -148,7 +151,7 @@
   },
   "K-040": {
     "title": "Solo los grandes",
-    "instruction": "Rodea cada dibujo GRANDE. No rodees los pequeños."
+    "instruction": "Encierra cada dibujo GRANDE. No encierres los pequeños."
   },
   "K-042": {
     "title": "A clasificar",
@@ -166,31 +169,31 @@
   },
   "K-046": {
     "title": "¿Qué sigue?",
-    "instruction": "Mira el patrón. Rodea lo que sigue."
+    "instruction": "Mira el patrón. Encierra lo que sigue."
   },
   "K-047": {
     "title": "Patrones ABC",
-    "instruction": "Mira el patrón. Rodea lo que sigue."
+    "instruction": "Mira el patrón. Encierra lo que sigue."
   },
   "K-048": {
     "title": "Patrones AABB",
-    "instruction": "Mira el patrón. Rodea lo que sigue."
+    "instruction": "Mira el patrón. Encierra lo que sigue."
   },
   "K-049": {
     "title": "Completa el patrón",
-    "instruction": "Falta un dibujo. Rodea lo que va en el cuadro vacío."
+    "instruction": "Falta un dibujo. Encierra lo que va en el cuadro vacío."
   },
   "K-050": {
     "title": "Patrones de grande y pequeño",
-    "instruction": "Mira el patrón. Rodea lo que sigue."
+    "instruction": "Mira el patrón. Encierra lo que sigue."
   },
   "K-052": {
     "title": "Patrones de arriba y abajo",
-    "instruction": "Mira el patrón. Rodea lo que sigue."
+    "instruction": "Mira el patrón. Encierra lo que sigue."
   },
   "K-053": {
     "title": "Patrones que crecen",
-    "instruction": "El patrón crece. Rodea el grupo que sigue."
+    "instruction": "El patrón crece. Encierra el grupo que sigue."
   },
   "K-057": {
     "title": "Une con la sombra",
@@ -203,7 +206,8 @@
   },
   "K-059": {
     "title": "Halla y rodea",
-    "instruction": "Halla cada dibujo igual al del cuadro. Rodéalos todos."
+    "instruction": "Halla cada dibujo igual al del cuadro. Enciérralos todos.",
+    "printTitle": "Halla y encierra"
   },
   "K-060": {
     "title": "Veo, veo",
@@ -229,19 +233,19 @@
   },
   "K-065": {
     "title": "Izquierda y derecha",
-    "instruction": "Rodea cada dibujo del lado IZQUIERDO de la línea."
+    "instruction": "Encierra cada dibujo del lado IZQUIERDO de la línea."
   },
   "K-066": {
     "title": "Arriba, en medio, abajo",
-    "instruction": "Rodea cada dibujo de la fila DEL MEDIO."
+    "instruction": "Encierra cada dibujo de la fila DEL MEDIO."
   },
   "K-067": {
     "title": "Dentro y fuera",
-    "instruction": "Rodea cada dibujo que está DENTRO de la figura grande."
+    "instruction": "Encierra en un círculo cada dibujo que está DENTRO de la figura grande."
   },
   "K-068": {
     "title": "¿Qué llena el hueco?",
-    "instruction": "Cada fila muestra una clase de dibujo. Rodea la pieza que llena el cuadro vacío."
+    "instruction": "Cada fila muestra una clase de dibujo. Encierra la pieza que llena el cuadro vacío."
   },
   "K-069": {
     "title": "¿Qué es?",
@@ -249,7 +253,7 @@
   },
   "K-070": {
     "title": "Caza de figuras",
-    "instruction": "Halla cada figura igual a la del cuadro. Rodéalas todas."
+    "instruction": "Halla cada figura igual a la del cuadro. Enciérralas todas."
   },
   "K-075": {
     "title": "Cuenta los lados",
@@ -261,7 +265,7 @@
   },
   "K-077": {
     "title": "Patrones de figuras",
-    "instruction": "Mira el patrón. Rodea la figura que sigue."
+    "instruction": "Mira el patrón. Encierra la figura que sigue."
   },
   "K-078": {
     "title": "Figuras gemelas",
@@ -269,7 +273,7 @@
   },
   "K-079": {
     "title": "Figuras grandes y pequeñas",
-    "instruction": "Rodea la figura MÁS GRANDE de cada fila."
+    "instruction": "Encierra la figura MÁS GRANDE de cada fila."
   },
   "K-080": {
     "title": "¿Qué figura es diferente?",
@@ -317,7 +321,7 @@
   },
   "G1-114": {
     "title": "¿Mayor, menor o igual?",
-    "instruction": "Compara los dos grupos. Rodea el símbolo correcto."
+    "instruction": "Compara los dos grupos. Encierra el símbolo correcto."
   },
   "G1-115": {
     "title": "¿Qué falta?",
@@ -345,7 +349,7 @@
   },
   "G1-121": {
     "title": "Constrúyelo bien",
-    "instruction": "Rodea los bloques que muestran el número."
+    "instruction": "Encierra los bloques que muestran el número."
   },
   "G1-122": {
     "title": "¿Cuántas decenas?",
@@ -386,7 +390,8 @@
   },
   "G1-133": {
     "title": "Estira el número",
-    "instruction": "Mira los bloques. Rodea la forma desarrollada correcta."
+    "instruction": "Mira los bloques. Encierra la forma desarrollada correcta.",
+    "printTitle": "Descompón el número"
   },
   "G1-135": {
     "title": "El más pequeño primero",
@@ -398,7 +403,7 @@
   },
   "G1-137": {
     "title": "¿Mayor o menor?",
-    "instruction": "Compara los números. Rodea el símbolo correcto."
+    "instruction": "Compara los números. Encierra el símbolo correcto."
   },
   "G1-138": {
     "title": "¿Dónde vive?",
@@ -456,11 +461,11 @@
   },
   "G1-157": {
     "title": "Acertijos con dibujos",
-    "instruction": "Mira la primera pareja. Rodea lo que completa igual la segunda pareja."
+    "instruction": "Mira la primera pareja. Encierra lo que completa igual la segunda pareja."
   },
   "G1-158": {
     "title": "Sudoku de dibujos",
-    "instruction": "Cada fila, columna y caja lleva los cuatro dibujos. Completa cada celda vacía."
+    "instruction": "Cada fila, cada columna y cada cuadro llevan los cuatro dibujos. Completa cada celda vacía."
   },
   "G1-160": {
     "title": "Tres grupos",
@@ -476,7 +481,7 @@
   },
   "G2-206": {
     "title": "Forma una decena",
-    "instruction": "Rodea 10 unidades para agrupar una decena. Escribe cuántas decenas y unidades."
+    "instruction": "Encierra 10 unidades para agrupar una decena. Escribe cuántas decenas y unidades."
   },
   "G2-207": {
     "title": "Cuenta de tres en tres",
@@ -488,7 +493,7 @@
   },
   "G2-209": {
     "title": "Súmalo otra vez",
-    "instruction": "Cada anillo tiene la misma cantidad. Completa la suma."
+    "instruction": "Cada círculo tiene la misma cantidad. Completa la suma."
   },
   "G2-210": {
     "title": "De sumar a multiplicar",
@@ -500,7 +505,7 @@
   },
   "G2-212": {
     "title": "Elige el arreglo",
-    "instruction": "Rodea el arreglo que coincide con la multiplicación."
+    "instruction": "Encierra el arreglo que coincide con la multiplicación."
   },
   "G2-213": {
     "title": "Grupos fáciles",
@@ -512,7 +517,7 @@
   },
   "G2-217": {
     "title": "¿Cuántos grupos?",
-    "instruction": "Los anillos forman grupos iguales. Escribe cuántos grupos hay."
+    "instruction": "Los círculos forman grupos iguales. Escribe cuántos grupos hay."
   },
   "G2-218": {
     "title": "Caza de números impares",
@@ -520,7 +525,7 @@
   },
   "G2-219": {
     "title": "Duelo de números grandes",
-    "instruction": "Compara los números. Rodea el símbolo correcto."
+    "instruction": "Compara los números. Encierra el símbolo correcto."
   },
   "G2-220": {
     "title": "Ponlos en orden",
@@ -536,15 +541,16 @@
   },
   "G2-223": {
     "title": "Centenas, decenas, unidades",
-    "instruction": "Mira los bloques. Rodea la forma desarrollada correcta."
+    "instruction": "Mira los bloques. Encierra la forma desarrollada correcta."
   },
   "G2-224": {
     "title": "Ordena los lugares",
-    "instruction": "Cuenta los bloques. Completa la tabla de valor posicional."
+    "instruction": "Cuenta los bloques. Completa la tabla de valor posicional.",
+    "printTitle": "Cada cifra en su lugar"
   },
   "G2-225": {
     "title": "Detective de dígitos",
-    "instruction": "Mira el dígito subrayado. Rodea su valor."
+    "instruction": "Mira el dígito subrayado. Encierra su valor."
   },
   "G2-226": {
     "title": "100 más, 100 menos",
@@ -552,7 +558,8 @@
   },
   "G2-227": {
     "title": "Une con los bloques",
-    "instruction": "Rodea los bloques que muestran el número."
+    "instruction": "Encierra los bloques que muestran el número.",
+    "printTitle": "Encuentra los bloques del número"
   },
   "G2-228": {
     "title": "Mitad y mitad",
@@ -602,7 +609,8 @@
   },
   "G2-239": {
     "title": "De marcas a gráfico",
-    "instruction": "Lee la tabla de conteo. Colorea una barra por cada conteo."
+    "instruction": "Lee la tabla de conteo. Colorea una barra por cada conteo.",
+    "printTitle": "De las marcas a la gráfica"
   },
   "G2-240": {
     "title": "Lee el diagrama de puntos",
@@ -622,7 +630,8 @@
   },
   "G2-244": {
     "title": "¿Plano o cuerpo?",
-    "instruction": "Une cada figura a su cesto: figuras planas a la izquierda, cuerpos a la derecha."
+    "instruction": "Une cada figura a su cesto: figuras planas a la izquierda, cuerpos a la derecha.",
+    "printTitle": "¿Figura plana o cuerpo geométrico?"
   },
   "G2-245": {
     "title": "Cuenta las aristas",
@@ -638,7 +647,7 @@
   },
   "G2-248": {
     "title": "Halla el dibujo simétrico",
-    "instruction": "Rodea el dibujo que es igual de los dos lados."
+    "instruction": "Encierra el dibujo que es igual de los dos lados."
   },
   "G2-249": {
     "title": "¿Qué hora es?",
@@ -724,7 +733,7 @@
   },
   "G3-325": {
     "title": "Duelo de miles",
-    "instruction": "Compara los números. Rodea el símbolo correcto."
+    "instruction": "Compara los números. Encierra el símbolo correcto."
   },
   "G3-326": {
     "title": "Descifra el patrón",
@@ -732,7 +741,8 @@
   },
   "G3-327": {
     "title": "Hacia abajo",
-    "instruction": "Los números bajan la misma cantidad. Escribe los que faltan."
+    "instruction": "Los números bajan la misma cantidad. Escribe los que faltan.",
+    "printTitle": "Cada vez menos"
   },
   "G3-328": {
     "title": "Máquinas de números",
@@ -771,7 +781,7 @@
   },
   "G3-339": {
     "title": "Misma cerca, nuevo patio",
-    "instruction": "Rodea el rectángulo con la MISMA distancia alrededor."
+    "instruction": "Encierra el rectángulo con la MISMA distancia alrededor."
   },
   "G3-340": {
     "title": "El equipo de cuatro lados",
@@ -815,7 +825,7 @@
   },
   "G3-348": {
     "title": "Sudoku de dibujos grande",
-    "instruction": "Cada fila, columna y caja necesita los seis dibujos: llena las celdas vacías."
+    "instruction": "Cada fila, cada columna y cada cuadro necesitan los seis dibujos: llena las celdas vacías."
   },
   "G3-349": {
     "title": "Cuadrados mágicos",
@@ -827,11 +837,11 @@
   },
   "G3-351": {
     "title": "¿Qué completa el acertijo?",
-    "instruction": "Las filas comparten un dibujo. Las columnas, un tamaño. Rodea lo que va en la celda vacía."
+    "instruction": "Las filas comparten un dibujo. Las columnas, un tamaño. Encierra lo que va en la celda vacía."
   },
   "G3-353": {
     "title": "Clasifica en dos círculos",
-    "instruction": "Escribe cada número en su lugar: en el círculo de la izquierda, lo que está arriba; en el de la derecha, los dibujos grandes; en el centro, los que van en los dos; y en el recuadro, fuera de los círculos, los que no van en ninguno."
+    "instruction": "Escribe el número de cada dibujo en su lugar: en el círculo de la izquierda, las cosas que se muestran arriba de él; en el de la derecha, los dibujos grandes; en el centro, los que van en los dos; y en el recuadro, fuera de los círculos, los que no van en ninguno."
   },
   "K-201": {
     "title": "Seres vivos y no vivos",
@@ -953,7 +963,7 @@
   },
   "K-229": {
     "title": "Encuentra la letra",
-    "instruction": "Rodea con un círculo cada letra igual a la del recuadro."
+    "instruction": "Encierra en un círculo cada letra igual a la del recuadro."
   },
   "K-230": {
     "title": "Vocales y consonantes",
@@ -1017,7 +1027,7 @@
   },
   "G1-209": {
     "title": "Casitas de sumas y restas",
-    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+    "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
   },
   "G1-210": {
     "title": "Números en letras",
@@ -1050,11 +1060,12 @@
   },
   "G2-254": {
     "title": "Comprensión lectora",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G3-357": {
     "title": "Sumas y restas con llevadas",
-    "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Resuelve cada operación en columnas. Si hace falta, lleva a la siguiente columna o pide prestado a la de al lado.",
+    "printTitle": "Sumas y restas con transformación"
   },
   "G3-358": {
     "title": "Las tablas de multiplicar",
@@ -1218,19 +1229,19 @@
   },
   "G1-219": {
     "title": "Casitas de operaciones hasta 10",
-    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+    "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
   },
   "G1-220": {
     "title": "Casitas de operaciones hasta 20",
-    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+    "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
   },
   "G1-221": {
     "title": "Más casitas de sumas y restas",
-    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+    "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
   },
   "G1-222": {
     "title": "Casitas: el número escondido",
-    "instruction": "Usa los tres números del tejado. Escribe el número que falta en cada operación."
+    "instruction": "Usa los tres números del techo. Escribe el número que falta en cada operación."
   },
   "G1-223": {
     "title": "Números en letras hasta 20",
@@ -1270,7 +1281,7 @@
   },
   "G1-232": {
     "title": "¿Qué monedero tiene más dinero?",
-    "instruction": "Cuenta el dinero de los dos monederos. Rodea el monedero que tiene más."
+    "instruction": "Cuenta el dinero de los dos monederos. Encierra el monedero que tiene más."
   },
   "G1-233": {
     "title": "Dibuja las agujas: la hora en punto",
@@ -1371,43 +1382,48 @@
   },
   "G2-269": {
     "title": "Comprensión lectora: La caracola",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G2-270": {
     "title": "Comprensión lectora: El huerto",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G2-271": {
     "title": "Comprensión lectora: La tormenta",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G2-272": {
     "title": "Comprensión lectora: El tren",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G2-273": {
     "title": "Comprensión lectora: El teatro",
-    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+    "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
   },
   "G3-359": {
     "title": "Sumas con llevadas de dos cifras",
-    "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Suma en columnas. Si hace falta, lleva a la siguiente columna.",
+    "printTitle": "Sumas de dos cifras con transformación"
   },
   "G3-360": {
     "title": "Restas con llevadas",
-    "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Resta en columnas. Si hace falta, pide prestado a la columna de al lado.",
+    "printTitle": "Restas con transformación"
   },
   "G3-361": {
     "title": "Sumas con llevadas de tres cifras",
-    "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Suma en columnas. Si hace falta, lleva a la siguiente columna.",
+    "printTitle": "Sumas de tres cifras con transformación"
   },
   "G3-362": {
     "title": "Restas con llevadas y ceros",
-    "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Resta en columnas. Si hace falta, pide prestado a la columna de al lado.",
+    "printTitle": "Restas con transformación y ceros"
   },
   "G3-363": {
     "title": "Repaso de llevadas",
-    "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."
+    "instruction": "Resuelve cada operación en columnas. Si hace falta, lleva a la siguiente columna o pide prestado a la de al lado.",
+    "printTitle": "Repaso de sumas y restas con transformación"
   },
   "G3-364": {
     "title": "La tabla del 2",
@@ -1431,7 +1447,7 @@
   },
   "G3-369": {
     "title": "Familias de multiplicar y dividir",
-    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+    "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
   },
   "K-278": {
     "title": "Letras minúsculas punteadas",
@@ -1459,7 +1475,7 @@
   },
   "K-284": {
     "title": "Repasa y escribe la palabra",
-    "instruction": "Di el nombre del dibujo. Repasa las letras punteadas y después escríbela tú en las líneas vacías."
+    "instruction": "Di el nombre del dibujo. Repasa las letras punteadas y después escribe tú la palabra en las líneas vacías."
   },
   "K-285": {
     "title": "Une los puntos del 1 al 20",
@@ -1475,15 +1491,16 @@
   },
   "K-288": {
     "title": "¿El o la? Rodea el artículo",
-    "instruction": "Di en voz alta el nombre del dibujo. Rodea el artículo que va delante: el o la."
+    "instruction": "Di en voz alta el nombre del dibujo. Encierra el artículo que va delante: el o la.",
+    "printTitle": "¿El o la? Encierra el artículo"
   },
   "G1-242": {
     "title": "Lee y colorea",
-    "instruction": "Lee cada frase con atención. Después colorea solo los dibujos que dice la frase, del color que indica."
+    "instruction": "Lee cada oración con atención. Después colorea solo los dibujos que dice la oración, del color que indica."
   },
   "G1-243": {
     "title": "El número del día",
-    "instruction": "Mira el número grande. Llena todos los recuadros con ese número."
+    "instruction": "Mira el número grande. Completa todos los recuadros de la página a partir de ese número."
   },
   "G1-244": {
     "title": "Dictado mudo: escribe la palabra",
@@ -1507,11 +1524,13 @@
   },
   "G1-249": {
     "title": "Ordena la frase",
-    "instruction": "Las palabras están desordenadas. Ordénalas y escribe la frase en la línea, con mayúscula al principio y su signo al final."
+    "instruction": "Las palabras están desordenadas. Ordénalas y escribe la oración en la línea, con mayúscula al principio y su signo al final.",
+    "printTitle": "Ordena la oración"
   },
   "G2-274": {
     "title": "Mayúsculas y puntuación: corrige la frase",
-    "instruction": "Cada frase ha perdido la mayúscula y el signo del final. Escríbela otra vez correctamente en la línea."
+    "instruction": "Cada oración perdió la mayúscula y el signo del final. Escríbela otra vez correctamente en la línea.",
+    "printTitle": "Mayúsculas y puntuación: corrige la oración"
   },
   "G2-275": {
     "title": "Sustantivo, verbo y adjetivo",
@@ -1535,7 +1554,7 @@
   },
   "G3-370": {
     "title": "Problemas de multiplicación y división",
-    "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en el recuadro y completa la frase de respuesta."
+    "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en el recuadro y completa la oración de respuesta."
   },
   "K-289": {
     "title": "Repasa y escribe: primeras palabras",
@@ -1559,7 +1578,7 @@
   },
   "K-296": {
     "title": "Une los puntos del 11 al 30",
-    "instruction": "Cuenta desde el 11 hasta el 30 sin saltarte ninguno."
+    "instruction": "Empieza en el punto naranja. Cuenta desde el 11 hasta el 30 y une los puntos sin saltarte ninguno."
   },
   "K-298": {
     "title": "Copia el dibujo en una cuadrícula de 6x6",
@@ -1579,23 +1598,25 @@
   },
   "K-303": {
     "title": "Singular y plural: palabras largas",
-    "instruction": "Fíjate en el final de cada plural."
+    "instruction": "Palabras más largas: repasa el plural y fíjate en cómo termina."
   },
   "K-306": {
     "title": "¿El o la? Cuatro dibujos",
-    "instruction": "Cuatro dibujos: di el nombre y rodea el o la."
+    "instruction": "Cuatro dibujos: di el nombre y encierra el o la."
   },
   "K-307": {
     "title": "¿El o la? Ocho dibujos",
-    "instruction": "Ocho dibujos: rodea el artículo de cada uno."
+    "instruction": "Ocho dibujos: encierra el artículo de cada uno."
   },
   "G1-251": {
     "title": "Lee y colorea: cuatro frases",
-    "instruction": "Cuatro frases y cuatro colores en la clave."
+    "instruction": "Lee cada oración y colorea exactamente lo que pide, con los colores de la clave.",
+    "printTitle": "Lee y colorea: cuatro oraciones"
   },
   "G1-252": {
     "title": "Lee y colorea: seis frases",
-    "instruction": "Seis frases y seis colores: lee con atención."
+    "instruction": "Seis oraciones y seis colores: lee cada oración con atención y colorea lo que pide.",
+    "printTitle": "Lee y colorea: seis oraciones"
   },
   "G1-255": {
     "title": "El número del día: números del 11 al 19",
@@ -1603,7 +1624,7 @@
   },
   "G1-256": {
     "title": "El número del día: 10 más y 10 menos",
-    "instruction": "Calcula 10 más y 10 menos del número de hoy."
+    "instruction": "Calcula el número que es 10 más y el que es 10 menos que el número de hoy."
   },
   "G1-257": {
     "title": "El número del día: hasta el 99",
@@ -1623,19 +1644,19 @@
   },
   "G1-262": {
     "title": "Orden alfabético: numera las tarjetas",
-    "instruction": "Aquí solo numeras las tarjetas."
+    "instruction": "Numera las cuatro tarjetas para poner las palabras en orden alfabético."
   },
   "G1-263": {
     "title": "Orden alfabético: numera y copia",
-    "instruction": "Numera y después copia las palabras."
+    "instruction": "Numera las tarjetas y después copia las palabras en orden en las líneas."
   },
   "G1-264": {
     "title": "Orden alfabético: misma letra inicial",
-    "instruction": "Mira la segunda letra para decidir."
+    "instruction": "Dos parejas de palabras empiezan con la misma letra. Fíjate en la segunda letra para ordenarlas."
   },
   "G1-266": {
     "title": "Pirámides numéricas hasta 10",
-    "instruction": "Pirámides de tres pisos: ningún resultado pasa de 10."
+    "instruction": "Cada ladrillo es la suma de los dos ladrillos de abajo. Completa cada pirámide de tres pisos hasta arriba; ningún resultado pasa de 10."
   },
   "G1-267": {
     "title": "Pirámides numéricas de cuatro pisos",
@@ -1643,31 +1664,31 @@
   },
   "G1-268": {
     "title": "Pirámides numéricas: falta un ladrillo",
-    "instruction": "Falta un ladrillo abajo: resta para averiguarlo."
+    "instruction": "Falta un ladrillo de abajo: resta para averiguarlo y luego completa toda la pirámide."
   },
   "G1-270": {
     "title": "Dobles y mitades con dibujos",
-    "instruction": "Con dibujos para ver el doble y la mitad."
+    "instruction": "Algunas tarjetas te piden el doble de un grupo y otras, la mitad. Resuélvelas con ayuda de los dibujos."
   },
   "G1-271": {
     "title": "Dobles y mitades hasta 20",
-    "instruction": "Sin dibujos: calcula solo con los números."
+    "instruction": "Sin dibujos: calcula cada doble y cada mitad hasta 20."
   },
   "G1-274": {
     "title": "La recta numérica del 0 al 10",
-    "instruction": "La recta llega al 10 y marca el 0, el 5 y el 10."
+    "instruction": "Escribe el número que señala cada flecha. La recta va del 0 al 10 y tiene marcados el 0, el 5 y el 10."
   },
   "G1-275": {
     "title": "La recta numérica del 0 al 20",
-    "instruction": "Solo están escritos el 0, el 10 y el 20: cuenta."
+    "instruction": "Solo están escritos el 0, el 10 y el 20. Cuenta hasta cada flecha y escribe el número que señala."
   },
   "G1-276": {
     "title": "La recta numérica del 0 al 30",
-    "instruction": "Cada marca vale 1 y la recta llega hasta el 30."
+    "instruction": "Cada marca vale 1 y la recta llega hasta el 30. Escribe el número que señala cada flecha."
   },
   "G1-277": {
     "title": "La recta numérica del 0 al 50",
-    "instruction": "Llega hasta el 50 y solo se escriben las decenas."
+    "instruction": "La recta llega hasta el 50 y solo están escritas las decenas. Escribe el número que señala cada flecha."
   },
   "G1-278": {
     "title": "La recta numérica de 5 en 5 hasta 50",
@@ -1675,7 +1696,7 @@
   },
   "G1-279": {
     "title": "La recta numérica de 5 en 5 hasta 100",
-    "instruction": "Cada marca vale 5 y la recta llega hasta el 100."
+    "instruction": "Cada marca vale 5 y la recta llega hasta el 100. Escribe el número que señala cada flecha."
   },
   "G1-280": {
     "title": "La recta numérica de 10 en 10 hasta 100",
@@ -1683,59 +1704,63 @@
   },
   "G1-281": {
     "title": "La recta numérica del 0 al 120",
-    "instruction": "Esta recta pasa del 100 y llega hasta el 120."
+    "instruction": "Esta recta pasa del 100 y llega hasta el 120. Cuenta de 10 en 10 y escribe el número que señala cada flecha."
   },
   "G1-282": {
     "title": "Ordena la frase con pistas",
-    "instruction": "La mayúscula y el signo final son las pistas."
+    "instruction": "Ordena las palabras y escribe la oración en la línea. La mayúscula y el signo final son las pistas.",
+    "printTitle": "Ordena la oración con pistas"
   },
   "G1-283": {
     "title": "Ordena la frase sin pistas",
-    "instruction": "Aquí no hay mayúscula ni signo final de ayuda."
+    "instruction": "Aquí no hay mayúscula ni punto que te ayuden. Busca el único orden que tiene sentido y escribe la oración.",
+    "printTitle": "Ordena la oración sin pistas"
   },
   "G2-281": {
     "title": "Corrige la frase: mayúscula y puntuación",
-    "instruction": "Tres frases: pon mayúscula y signo."
+    "instruction": "Vuelve a escribir cada oración con mayúscula y con el signo final correcto.",
+    "printTitle": "Corrige la oración: mayúscula y puntuación"
   },
   "G2-282": {
     "title": "Corrige la frase: ¿punto o interrogación?",
-    "instruction": "Si pregunta algo, usa interrogación."
+    "instruction": "Corrige las mayúsculas, también las de los nombres, y elige el signo final correcto: punto o signos de interrogación.",
+    "printTitle": "Corrige la oración: ¿punto o signos de interrogación?"
   },
   "G2-285": {
     "title": "Sustantivo, verbo y adjetivo: nueve palabras",
-    "instruction": "Nueve palabras y tres cajas."
+    "instruction": "Nueve palabras y tres cajas. Escribe cada palabra en la caja que le toca. Los sustantivos tienen un dibujo que te ayuda."
   },
   "G2-286": {
     "title": "Sustantivo, verbo y adjetivo: sin dibujos",
-    "instruction": "Ninguna palabra lleva dibujo."
+    "instruction": "Ninguna palabra lleva dibujo. Lee cada palabra y escríbela en la caja que le toca."
   },
   "G2-287": {
     "title": "Sustantivo, verbo y adjetivo: quince palabras",
-    "instruction": "Quince palabras, sin dibujos."
+    "instruction": "Quince palabras, sin dibujos. Escribe cada una en la caja que le toca."
   },
   "G2-289": {
     "title": "Problemas con dinero: dos problemas",
-    "instruction": "Solo dos problemas: total y un sí o no."
+    "instruction": "Lee cada problema y usa los precios del estante para resolverlo."
   },
   "G2-290": {
     "title": "Problemas con dinero: cuatro preguntas",
-    "instruction": "Cada tarjeta pregunta algo distinto."
+    "instruction": "Cada tarjeta hace una pregunta distinta sobre las compras. Responde las cuatro."
   },
   "G2-291": {
     "title": "Problemas con dinero: el total de la canasta",
-    "instruction": "Todas piden el total de la canasta."
+    "instruction": "Todas las tarjetas piden el total de la canasta. Suma los precios."
   },
   "G2-292": {
     "title": "Problemas con dinero: suma varios precios",
-    "instruction": "Canastas de hasta tres productos."
+    "instruction": "Cada canasta tiene hasta tres productos. Suma todos los precios."
   },
   "G2-293": {
     "title": "Problemas con dinero: ¿cuánto devuelven?",
-    "instruction": "Paga con monedas y halla el cambio."
+    "instruction": "Cuenta las monedas con las que se paga y calcula el cambio."
   },
   "G2-294": {
     "title": "Problemas con dinero: ¿te alcanza el dinero?",
-    "instruction": "Compara el dinero con el precio."
+    "instruction": "Compara el dinero con el precio. Encierra sí o no y escribe el total."
   },
   "G2-295": {
     "title": "Problemas con dinero: ¿cuánto más cuesta?",
@@ -1743,27 +1768,27 @@
   },
   "G2-296": {
     "title": "Lee el calendario: cuatro preguntas",
-    "instruction": "Cuatro preguntas sobre fechas y días."
+    "instruction": "Mira el mes. Lee el calendario y responde cada pregunta."
   },
   "G2-297": {
     "title": "Lee el calendario: un mes muy ocupado",
-    "instruction": "Suma 7 días. Cuenta de un dibujo a otro."
+    "instruction": "Busca la fecha que cae una semana después y cuenta los días que hay de un dibujo a otro."
   },
   "G2-298": {
     "title": "Lee el calendario: los días de la semana",
-    "instruction": "Lee las columnas de arriba abajo."
+    "instruction": "Todas las preguntas son sobre los días de la semana. Lee las columnas de arriba abajo y responde."
   },
   "G2-299": {
     "title": "Escribe sobre la imagen: lo que ves",
-    "instruction": "Las frases ya están empezadas."
+    "instruction": "Mira la imagen y escribe lo que ves. Las oraciones ya están empezadas y el banco de palabras te ayuda."
   },
   "G2-300": {
     "title": "Escribe sobre la imagen con tus palabras",
-    "instruction": "Sin frases empezadas: escribe tú."
+    "instruction": "Esta vez no hay oraciones empezadas. Usa el banco de palabras y escribe tu propio cuento."
   },
   "G2-302": {
     "title": "Coordenadas en una cuadrícula de 6x6",
-    "instruction": "Cuadrícula de 6x6: colorea recuadro por recuadro."
+    "instruction": "Cuadrícula de 6x6: busca cada recuadro por su letra y su número y coloréalo para descubrir el dibujo."
   },
   "G2-303": {
     "title": "Coordenadas en una cuadrícula de 10x10",
@@ -1779,19 +1804,19 @@
   },
   "G3-373": {
     "title": "Problemas de división: hacer grupos",
-    "instruction": "No se reparte: se forman grupos iguales."
+    "instruction": "Aquí no se reparte: se forman grupos iguales. Encierra los grupos iguales en el dibujo y escribe la respuesta."
   },
   "G3-374": {
     "title": "Problemas de división: repartir y agrupar",
-    "instruction": "Uno reparte y el otro forma grupos."
+    "instruction": "Un problema reparte y el otro forma grupos: los dos son divisiones. Resuélvelos y escribe las respuestas."
   },
   "G3-375": {
     "title": "Problemas de multiplicar y agrupar",
-    "instruction": "Uno se multiplica; el otro forma grupos."
+    "instruction": "En un problema se juntan grupos iguales y en el otro se separan en grupos. Resuélvelos y escribe las respuestas."
   },
   "G3-376": {
     "title": "Problemas mixtos de multiplicar y dividir",
-    "instruction": "Decide si multiplicas o divides."
+    "instruction": "Lee los tres problemas. Decide si tienes que multiplicar o dividir y escribe la respuesta."
   },
   "K-308": {
     "title": "Une los puntos del 10 al 1",
@@ -1799,19 +1824,19 @@
   },
   "G1-285": {
     "title": "Une los puntos contando de 2 en 2",
-    "instruction": "Cuenta de 2 en 2 hasta el 20."
+    "instruction": "Empieza en el punto naranja. Cuenta de 2 en 2 hasta el 20 y une los puntos. Una parte del dibujo ya está hecha."
   },
   "G1-294": {
     "title": "Une los puntos del 20 al 1 hacia atrás",
-    "instruction": "Empieza en el 20 y baja hasta el 1."
+    "instruction": "Empieza en el 20 y une los puntos hacia atrás hasta el 1 para terminar el dibujo."
   },
   "G2-304": {
     "title": "Une los puntos contando de 5 en 5",
-    "instruction": "Cuenta de 5 en 5 hasta el 50."
+    "instruction": "Empieza en el punto naranja. Cuenta de 5 en 5 hasta el 50 y une los puntos. Una parte del dibujo ya está hecha."
   },
   "K-311": {
     "title": "Copia la palabra de la tarjeta",
-    "instruction": "Sin letras punteadas: cópiala dos veces."
+    "instruction": "Aquí no hay letras punteadas. Mira la palabra de la tarjeta y cópiala dos veces."
   },
   "G1-291": {
     "title": "Dictado mudo sin banco: la inicial",
@@ -1819,35 +1844,35 @@
   },
   "G1-286": {
     "title": "Dobles y mitades con grupos grandes",
-    "instruction": "Los grupos son mucho mayores."
+    "instruction": "Esta vez los grupos son más grandes. Calcula el doble o la mitad que pide cada tarjeta."
   },
   "G2-305": {
     "title": "La recta numérica del 40 al 60",
-    "instruction": "Esta recta no empieza en cero, empieza en el 40."
+    "instruction": "Esta recta no empieza en cero, empieza en el 40. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G2-310": {
     "title": "La recta numérica del 60 al 100",
-    "instruction": "Esta recta empieza en 60 y cada marca vale 1."
+    "instruction": "Esta recta empieza en el 60 y cada marca vale 1. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G1-295": {
     "title": "La recta numérica del 20 al 40",
-    "instruction": "Esta recta no empieza en cero, empieza en el 20."
+    "instruction": "Esta recta no empieza en cero, empieza en el 20. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G1-287": {
     "title": "Solo dobles hasta 14",
-    "instruction": "No hay mitades: todas piden el doble del grupo."
+    "instruction": "Aquí no hay mitades: escribe el doble del grupo de cada tarjeta."
   },
   "G1-288": {
     "title": "Solo mitades hasta 12",
-    "instruction": "Ninguna tarjeta pide el doble: solo la mitad."
+    "instruction": "Cada tarjeta parte un grupo a la mitad. Escribe las dos partes iguales."
   },
   "G1-296": {
     "title": "Solo dobles hasta 20 con dibujos",
-    "instruction": "Se doblan grupos de cinco a diez."
+    "instruction": "Escribe el doble de cada grupo de dibujos; los grupos van de cinco a diez."
   },
   "G1-297": {
     "title": "Solo mitades hasta 20 con dibujos",
-    "instruction": "Se parten grupos de diez a veinte."
+    "instruction": "Parte a la mitad cada grupo de dibujos y escribe las dos mitades; los grupos van de diez a veinte."
   },
   "K-314": {
     "title": "Singular y plural sin punteado",
@@ -1867,7 +1892,7 @@
   },
   "K-313": {
     "title": "Singular y plural: de muchos a uno",
-    "instruction": "Ahora al revés: repasa y escribe la de uno."
+    "instruction": "Ahora al revés: ya está la palabra de muchos. Repasa y escribe la palabra de uno."
   },
   "G2-308": {
     "title": "Coordenadas: escribe tú los códigos",
@@ -1879,7 +1904,8 @@
   },
   "G2-307": {
     "title": "Corrige la frase: ¿dónde acaba?",
-    "instruction": "Van dos frases seguidas, sin puntos."
+    "instruction": "Hay dos oraciones juntas, sin punto. Escríbelas como dos oraciones.",
+    "printTitle": "Corrige la oración: ¿dónde termina?"
   },
   "G1-292": {
     "title": "¿El o la? Clasifica las palabras",
@@ -1887,11 +1913,11 @@
   },
   "G1-298": {
     "title": "Solo dobles, sin dibujos",
-    "instruction": "Sin dibujos que contar: solo dobles hasta 20."
+    "instruction": "Sin dibujos que contar: escribe el doble de cada número, hasta 20."
   },
   "G1-299": {
     "title": "Solo mitades, sin dibujos",
-    "instruction": "Sin dibujos: parte cada número en dos."
+    "instruction": "Sin dibujos: parte cada número en dos partes iguales."
   },
   "G1-300": {
     "title": "Sustantivo o adjetivo",
@@ -1903,7 +1929,8 @@
   },
   "G2-311": {
     "title": "Dos frases: ¿punto o interrogación?",
-    "instruction": "Dos frases juntas y una pregunta."
+    "instruction": "Separa las dos oraciones y termina cada una con el signo correcto: punto o signos de interrogación.",
+    "printTitle": "Dos oraciones: ¿punto o signos de interrogación?"
   },
   "G2-312": {
     "title": "Lee el calendario: cuenta los días",
@@ -1911,7 +1938,7 @@
   },
   "G2-314": {
     "title": "Une los puntos contando de 10 en 10",
-    "instruction": "Cuenta de 10 en 10 hasta el 100."
+    "instruction": "Empieza en el punto naranja. Cuenta de 10 en 10 hasta el 100 y une los puntos. Una parte del dibujo ya está hecha."
   },
   "K-315": {
     "title": "Copia las mayúsculas de la tarjeta",
@@ -1923,11 +1950,12 @@
   },
   "G2-313": {
     "title": "Pirámides numéricas de dos cifras",
-    "instruction": "Las sumas suben hasta números de dos cifras."
+    "instruction": "Cada ladrillo es la suma de los dos de abajo. Los resultados pasan de 20: haz cada suma por escrito mientras subes."
   },
   "G1-302": {
     "title": "Ordena la frase: ¿cuál va primero?",
-    "instruction": "El signo cierra la frase: ordena."
+    "instruction": "Busca la primera palabra: una de las tarjetas tiene el signo final. Ordena las palabras y escribe la oración.",
+    "printTitle": "Ordena la oración: ¿cuál va primero?"
   },
   "G1-303": {
     "title": "Dictado mudo: recuadros e inicial",
@@ -1939,11 +1967,11 @@
   },
   "K-317": {
     "title": "La letra {U}{L}: repasa, busca y escribe",
-    "instruction": "Repasa la letra mayúscula y la minúscula, rodea los cuatro dibujos que empiezan con {U} y escribe una fila de cada una."
+    "instruction": "Repasa la letra mayúscula y la minúscula, encierra los cuatro dibujos que empiezan con {U} y escribe una fila de cada una."
   },
   "K-318": {
     "title": "Cajas de sonidos: un sonido en cada caja",
-    "instruction": "Di despacio el nombre del dibujo, sonido por sonido. Escribe un sonido en cada caja. La caja ancha con la curva es para dos letras que suenan juntas."
+    "instruction": "Di despacio el nombre del dibujo, sonido por sonido. Escribe un sonido en cada caja. En la caja ancha con curva van dos letras con un solo sonido."
   },
   "K-319": {
     "title": "Las emociones: une cada cara con su palabra",
@@ -1975,7 +2003,7 @@
   },
   "G1-306": {
     "title": "Sílabas directas: {UNIT}",
-    "instruction": "Lee el tapete y escribe la primera sílaba."
+    "instruction": "Lee el tapete. Di el nombre de cada dibujo y escribe su primera sílaba en la línea."
   },
   "G1-307": {
     "title": "Antónimos: escribe la palabra contraria",
@@ -1987,7 +2015,7 @@
   },
   "G1-309": {
     "title": "Palabras que riman: escribe la rima",
-    "instruction": "Encierra el dibujo que rima y escribe su nombre."
+    "instruction": "Di el nombre del primer dibujo. Encierra el dibujo que rima con él y escribe su nombre en la línea."
   },
   "G1-310": {
     "title": "Tabla del 100: completa las piezas del rompecabezas",
@@ -1995,7 +2023,7 @@
   },
   "G2-315": {
     "title": "Reglas de ortografía: {UNIT}",
-    "instruction": "Escribe en la caja las letras que faltan."
+    "instruction": "Lee la regla del recuadro. Di el nombre de cada dibujo y escribe en los recuadros punteados las letras que faltan."
   },
   "G2-316": {
     "title": "Familias de palabras: raíz y sufijo",
@@ -2015,11 +2043,11 @@
   },
   "G3-377": {
     "title": "Divisiones con residuo: encierra los grupos",
-    "instruction": "Encierra grupos del segundo número en cada montón. Escribe cuántos grupos formaste y cuántos dibujos sobran."
+    "instruction": "En cada montón, encierra grupos con tantos dibujos como dice el segundo número. Escribe cuántos grupos formaste y cuántos dibujos sobran."
   },
   "K-325": {
     "title": "Palabras con {U}: el sonido en cualquier lugar",
-    "instruction": "Repasa la letra y rodea los cuatro dibujos que tienen el sonido {U} dentro de la palabra, no al principio."
+    "instruction": "Repasa la letra y encierra los cuatro dibujos que tienen el sonido {U} dentro de la palabra, no al principio."
   },
   "K-326": {
     "title": "¿Al principio, en medio o al final? La letra {U}",
@@ -2027,15 +2055,16 @@
   },
   "K-327": {
     "title": "Rodea la {U} en las palabras y cuenta",
-    "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
+    "instruction": "Busca todas las {U} y {L} de cada palabra y enciérralas. Después escribe en el recuadro cuántas encontraste.",
+    "printTitle": "Encierra la {U} en las palabras y cuenta"
   },
   "G1-311": {
     "title": "Dos letras, un solo sonido: {U}",
-    "instruction": "Repasa {L}, rodea los cuatro dibujos que tienen el sonido {L} y escribe una fila."
+    "instruction": "Repasa la {L}, encierra los cuatro dibujos que tienen el sonido {L} y escribe una fila de {L}."
   },
   "K-328": {
     "title": "¿L o R? Escucha la diferencia",
-    "instruction": "Di el nombre de cada dibujo. Rodea la letra con la que empieza: l o r."
+    "instruction": "Di el nombre de cada dibujo. Encierra la letra con la que empieza: l o r."
   },
   "K-329": {
     "title": "Cuenta los sonidos de cada palabra",
@@ -2055,11 +2084,12 @@
   },
   "G1-314": {
     "title": "Une los sonidos y encuentra el dibujo",
-    "instruction": "Lee los sonidos de las cajas y únelos para formar una palabra. Rodea el dibujo que corresponde."
+    "instruction": "Lee los sonidos de las cajas y únelos para formar una palabra. Encierra el dibujo que corresponde."
   },
   "K-331": {
     "title": "¿Cómo te sientes? Rodea la cara",
-    "instruction": "Mira el dibujo, piensa cómo te sentirías tú y rodea la cara que corresponde."
+    "instruction": "Mira el dibujo, piensa cómo te sentirías tú y encierra la cara que corresponde.",
+    "printTitle": "¿Cómo te sientes? Encierra la cara"
   },
   "K-332": {
     "title": "Dibuja la cara de la emoción",
@@ -2071,11 +2101,11 @@
   },
   "K-334": {
     "title": "¿Qué cara muestra la emoción?",
-    "instruction": "Lee la palabra y rodea la única cara de la fila que muestra esa emoción."
+    "instruction": "Lee la palabra y encierra la única cara de la fila que muestra esa emoción."
   },
   "K-335": {
     "title": "¿Cómo me siento hoy?",
-    "instruction": "Rodea la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
+    "instruction": "Encierra la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
   },
   "G1-315": {
     "title": "Escribe los ordinales que faltan",
@@ -2119,7 +2149,7 @@
   },
   "K-338": {
     "title": "¿Qué estación del año es?",
-    "instruction": "Mira los tres dibujos de cada tarjeta y rodea el símbolo de la estación a la que pertenecen."
+    "instruction": "Mira los tres dibujos de cada tarjeta y encierra el símbolo de la estación a la que pertenecen."
   },
   "K-339": {
     "title": "La rueda de las estaciones del año en orden",
@@ -2139,7 +2169,8 @@
   },
   "K-342": {
     "title": "Mis cosas favoritas: rodea y escribe",
-    "instruction": "En cada fila, rodea tu dibujo favorito y copia su palabra en la línea."
+    "instruction": "En cada fila, encierra tu dibujo favorito y copia su palabra en la línea.",
+    "printTitle": "Mis cosas favoritas: encierra y escribe"
   },
   "K-343": {
     "title": "Mi familia: dibuja y cuenta",
@@ -2155,7 +2186,7 @@
   },
   "K-346": {
     "title": "Mi nombre: escribe, cuenta y compara",
-    "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
+    "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y encierra quién tiene más."
   },
   "K-347": {
     "title": "Tarjetas de dibujos y de palabras: parejas",
@@ -2187,11 +2218,11 @@
   },
   "G1-327": {
     "title": "Ordena las sílabas y escribe la palabra",
-    "instruction": "Pon las sílabas en orden y escríbela."
+    "instruction": "Pon las sílabas en orden y escribe la palabra en la línea."
   },
   "G1-328": {
     "title": "¿Bisílabas o trisílabas? Separa y clasifica",
-    "instruction": "Copia cada palabra en su columna."
+    "instruction": "Aplaude cada palabra del banco y cópiala en la columna de 2 o de 3 sílabas, con un guion entre sus sílabas."
   },
   "G1-329": {
     "title": "La vocal de cada sílaba",
@@ -2199,7 +2230,8 @@
   },
   "G1-330": {
     "title": "Rodea la sílaba que oyes: {UNIT}",
-    "instruction": "Rodea la sílaba con la que empieza."
+    "instruction": "Di el nombre de cada dibujo y encierra la sílaba con la que empieza.",
+    "printTitle": "Encierra la sílaba que oyes: {UNIT}"
   },
   "G1-331": {
     "title": "Une las sílabas y escribe la palabra",
@@ -2211,11 +2243,11 @@
   },
   "G1-333": {
     "title": "Sílabas trabadas: {UNIT}",
-    "instruction": "Lee las sílabas trabadas y escribe la primera."
+    "instruction": "Lee las sílabas trabadas del tapete. Di el nombre de cada dibujo y escribe en la línea la sílaba trabada con la que empieza."
   },
   "G1-334": {
     "title": "Lee las palabras en sílabas y busca el dibujo",
-    "instruction": "Lee y anota el número del dibujo."
+    "instruction": "Lee cada palabra sílaba por sílaba. Busca su dibujo arriba y escribe el número del dibujo en el recuadro."
   },
   "K-351": {
     "title": "Antónimos con dibujos: une los contrarios",
@@ -2231,7 +2263,8 @@
   },
   "G1-337": {
     "title": "¿Sinónimo o antónimo? Rodea el antónimo",
-    "instruction": "Lee la palabra. De las tres palabras de abajo, una significa lo contrario. Rodéala, no la que significa lo mismo."
+    "instruction": "Lee la palabra. De las tres palabras de abajo, una significa lo contrario. Enciérrala, no la que significa lo mismo.",
+    "printTitle": "¿Sinónimo o antónimo? Encierra el antónimo"
   },
   "G2-320": {
     "title": "Antónimos con prefijos: in-, im- y des-",
@@ -2251,7 +2284,7 @@
   },
   "G1-341": {
     "title": "Lee y marca: ¿verdadero o falso?",
-    "instruction": "Lee cada oración y mira la fila de dibujos. ¿Es verdadera o falsa? Rodea la palabra correcta."
+    "instruction": "Lee cada oración y mira la fila de dibujos. ¿Es verdadera o falsa? Encierra la palabra correcta."
   },
   "G1-342": {
     "title": "Lee y dibuja",
@@ -2263,7 +2296,7 @@
   },
   "G1-343": {
     "title": "Familias de rimas: clasifica",
-    "instruction": "Escribe cada palabra junto al dibujo que rima."
+    "instruction": "Di el nombre de cada dibujo del banco. Busca el dibujo grande con el que rima y escribe la palabra en una línea debajo de él."
   },
   "G1-344": {
     "title": "Completa la rima",
@@ -2271,7 +2304,7 @@
   },
   "G1-345": {
     "title": "Cadenas de rimas",
-    "instruction": "Busca en el banco las dos palabras que riman con cada dibujo."
+    "instruction": "Di el nombre de cada dibujo. Busca en el banco las dos palabras que riman con él y escríbelas en sus líneas. Algunas palabras sobran."
   },
   "G1-346": {
     "title": "Inventa tus propias rimas",
@@ -2291,7 +2324,7 @@
   },
   "G1-348": {
     "title": "Encuentra el error en la pieza",
-    "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en el recuadro."
+    "instruction": "En cada pieza hay un número equivocado. Enciérralo y escribe el número correcto en el recuadro."
   },
   "G2-323": {
     "title": "¿Cuántos saltos hay? Cuenta en la tabla del 100",
@@ -2299,19 +2332,19 @@
   },
   "G2-324": {
     "title": "¿Cuál es? Elige la letra correcta: {UNIT}",
-    "instruction": "Rodea la letra correcta y escríbela."
+    "instruction": "Encierra la letra correcta y escríbela."
   },
   "G2-325": {
     "title": "Detective de ortografía: {UNIT}",
-    "instruction": "Rodea las letras de la regla y cópialas."
+    "instruction": "Encierra las letras de la regla y cópialas."
   },
   "G2-326": {
     "title": "Clasifica según la ortografía: {UNIT}",
-    "instruction": "Escribe cada palabra en su caja."
+    "instruction": "Di el nombre de cada dibujo y escríbelo en la caja de su ortografía, una palabra en cada línea."
   },
   "G2-327": {
     "title": "Escribe la palabra completa: {UNIT}",
-    "instruction": "Completa las demás letras de la palabra."
+    "instruction": "Las letras de la regla están en naranja. Di el nombre del dibujo y escribe las demás letras en los recuadros."
   },
   "G2-328": {
     "title": "Plurales: {UNIT}",
@@ -2323,7 +2356,7 @@
   },
   "G2-332": {
     "title": "Detective de familias de palabras",
-    "instruction": "Rodea las palabras que pertenecen a una familia de palabras y escribe su raíz y su sufijo. Cuidado con las que solo lo parecen."
+    "instruction": "Encierra las palabras que pertenecen a una familia de palabras y escribe su raíz y su sufijo. Cuidado con las que solo lo parecen."
   },
   "G2-333": {
     "title": "Diminutivos y aumentativos: -ito y -ote",
@@ -2343,7 +2376,7 @@
   },
   "G2-337": {
     "title": "Elige la forma correcta del verbo",
-    "instruction": "Lee la oración. Debajo hay tres formas del mismo verbo. Rodea la que completa la oración."
+    "instruction": "Lee la oración. Debajo hay tres formas del mismo verbo. Encierra la que completa la oración."
   },
   "G2-338": {
     "title": "Encuentra el verbo y escribe su infinitivo",
@@ -2351,7 +2384,7 @@
   },
   "G2-339": {
     "title": "{U}: marca los datos correctos",
-    "instruction": "Lee las opciones de cada fila y rodea la que es verdadera para este animal. Luego dibuja dónde vive y completa la oración."
+    "instruction": "Lee las opciones de cada fila y encierra la que es verdadera para este animal. Luego dibuja dónde vive y completa la oración."
   },
   "G2-340": {
     "title": "{U}: datos con banco de palabras",
@@ -2363,7 +2396,7 @@
   },
   "G2-342": {
     "title": "Compara dos animales: igual y diferente",
-    "instruction": "Lee los datos de los dos animales. En cada fila rodea igual o diferente. Luego escribe dos cosas iguales y dos diferentes."
+    "instruction": "Lee los datos de los dos animales. En cada fila encierra igual o diferente. Luego escribe dos cosas iguales y dos diferentes."
   },
   "G2-343": {
     "title": "¿Quién soy? El animal misterioso",
@@ -2371,7 +2404,7 @@
   },
   "G2-344": {
     "title": "Acertijos de lógica con pistas de sí, no y o",
-    "instruction": "Una pista de sí lleva palomita, una de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta."
+    "instruction": "Una pista de sí lleva palomita, una de no lleva tache y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta."
   },
   "G3-378": {
     "title": "Acertijos de lógica de 4 por 4: seis pistas",
@@ -2379,7 +2412,7 @@
   },
   "G1-349": {
     "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-    "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+    "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí. Tacha en la cuadrícula y encierra cada respuesta."
   },
   "G3-379": {
     "title": "Acertijos de dos atributos: dos dibujos por niño",
@@ -2387,7 +2420,7 @@
   },
   "G2-345": {
     "title": "Lee la cuadrícula: ¿verdadero o falso?",
-    "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
+    "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o el tache si es falsa."
   },
   "G3-380": {
     "title": "Reparte y escribe cuánto sobra",
@@ -2399,7 +2432,7 @@
   },
   "G3-382": {
     "title": "¿Exacta o con residuo?",
-    "instruction": "Decide si cada división es exacta o no. Rodea tu respuesta y escribe el residuo; escribe 0 si no sobra nada."
+    "instruction": "Decide si cada división es exacta o no. Encierra tu respuesta y escribe el residuo; escribe 0 si no sobra nada."
   },
   "G3-383": {
     "title": "Encuentra el error: el residuo es muy grande",
@@ -2439,7 +2472,7 @@
   },
   "G1-352": {
     "title": "Pronombres personales: él, ella, ellos o ellas",
-    "instruction": "Mira a la persona y lee su nombre. Rodea el pronombre que usamos en lugar del nombre."
+    "instruction": "Mira a la persona y lee su nombre. Encierra el pronombre que usamos en lugar del nombre."
   },
   "G1-353": {
     "title": "Preguntas con quién, qué y dónde",
@@ -2459,11 +2492,11 @@
   },
   "G1-355": {
     "title": "Tangram: ¿qué pieza falta?",
-    "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+    "instruction": "A cada figura le falta una pieza. Encierra la pieza que cabe exactamente en el hueco."
   },
   "G2-347": {
     "title": "Tangram: ¿qué solución es igual a la sombra?",
-    "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+    "instruction": "Mira cada sombra. Encierra la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
   },
   "K-359": {
     "title": "Tangram: cuenta triángulos y cuadrados",
@@ -2483,11 +2516,11 @@
   },
   "K-362": {
     "title": "El cuerpo humano: ¿qué falta?",
-    "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+    "instruction": "A cada cuerpo le falta una parte. Encierra el dibujo de la parte que falta y luego dibújala en su lugar."
   },
   "K-363": {
     "title": "El cuerpo humano: ¿cuáles tienes dos?",
-    "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+    "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
   },
   "G1-357": {
     "title": "Los cinco sentidos: clasifica por sentido",
@@ -2495,7 +2528,7 @@
   },
   "G1-358": {
     "title": "Los cinco sentidos: ¿qué sentido usas?",
-    "instruction": "¿Con qué sentido percibes cada dibujo? Rodea la parte del cuerpo que usas."
+    "instruction": "¿Con qué sentido percibes cada dibujo? Encierra la parte del cuerpo que usas."
   },
   "G1-359": {
     "title": "Los cinco sentidos: ¿cuál no pertenece?",
@@ -2519,7 +2552,7 @@
   },
   "K-365": {
     "title": "El termómetro: ¿frío, templado o calor?",
-    "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+    "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y encierra la prenda que va bien."
   },
   "G3-385": {
     "title": "Ciclo del agua: escribe cada etapa en su lugar",
@@ -2527,11 +2560,11 @@
   },
   "G1-363": {
     "title": "El estado del tiempo: lee el pronóstico de la semana",
-    "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+    "instruction": "Mira el tiempo de la semana, lee cada pregunta y encierra el día correcto."
   },
   "K-366": {
     "title": "Separación de basura: ¿en qué bote va?",
-    "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+    "instruction": "Mira cada cosa y encierra el bote donde se tira cuando ya está vacía o gastada."
   },
   "G1-364": {
     "title": "Separación de basura: ¿reciclable u orgánico?",
@@ -2539,7 +2572,7 @@
   },
   "G2-348": {
     "title": "Separación de basura: ¿cuál es de otro material?",
-    "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+    "instruction": "En cada fila hay tres cosas del mismo material. Encierra la que es de otro material."
   },
   "K-367": {
     "title": "Separación de basura: colorea los botes",
@@ -2555,7 +2588,8 @@
   },
   "G1-367": {
     "title": "Completa la oración: rodea la palabra correcta",
-    "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
+    "instruction": "Mira el dibujo y lee la oración. Encierra la palabra que va bien y escríbela en el recuadro.",
+    "printTitle": "Completa la oración: encierra la palabra correcta"
   },
   "G2-349": {
     "title": "Completa las oraciones en plural",
@@ -2571,7 +2605,7 @@
   },
   "G2-351": {
     "title": "¿Par o impar? Escribe dos sumandos iguales",
-    "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
+    "instruction": "Encierra los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
   },
   "G1-369": {
     "title": "¿Se puede repartir entre dos? Par o impar",
@@ -2583,7 +2617,7 @@
   },
   "G3-386": {
     "title": "¿Suma par o impar? Decide sin sumar",
-    "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+    "instruction": "No sumes. Mira la cifra de las unidades de cada número (está subrayada), usa la tabla y marca si la suma es par o impar."
   },
   "G1-370": {
     "title": "¿Par o impar? Cuenta los dibujos en parejas",
@@ -2647,11 +2681,11 @@
   },
   "K-368": {
     "title": "Figuras geométricas planas y sus nombres",
-    "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+    "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y encierra su nombre."
   },
   "K-369": {
     "title": "Educación vial: el semáforo, ¿qué hago?",
-    "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+    "instruction": "Mira la luz encendida de cada semáforo y encierra lo que debes hacer."
   },
   "K-370": {
     "title": "Miembros de la familia: ¿quién es quién?",
@@ -2675,7 +2709,8 @@
   },
   "G2-358": {
     "title": "Sinónimos: rodea la palabra que significa lo mismo",
-    "instruction": "Lee la palabra grande de cada tarjeta y rodea la palabra de abajo que significa lo mismo."
+    "instruction": "Lee la palabra grande de cada tarjeta y encierra la palabra de abajo que significa lo mismo.",
+    "printTitle": "Sinónimos: encierra la palabra que significa lo mismo"
   },
   "G2-359": {
     "title": "Palabras primitivas y derivadas: acomoda cada palabra",
@@ -2683,7 +2718,7 @@
   },
   "G1-381": {
     "title": "Figuras planas: ¿es o no es?",
-    "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+    "instruction": "Lee el nombre de cada fila y encierra todas las figuras que de verdad son esa figura."
   },
   "K-371": {
     "title": "Figuras planas en los objetos de todos los días",
@@ -2695,7 +2730,7 @@
   },
   "G1-383": {
     "title": "Adivinanzas de figuras geométricas",
-    "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+    "instruction": "Lee cada adivinanza y encierra el nombre de la figura."
   },
   "K-372": {
     "title": "Dibuja figuras planas uniendo puntos",
@@ -2719,7 +2754,7 @@
   },
   "G2-361": {
     "title": "Educación vial: ¿qué señal de tránsito es?",
-    "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+    "instruction": "Lee cada oración y encierra la única señal que le corresponde."
   },
   "G1-385": {
     "title": "Generaciones de la familia: de la mayor a la menor",
@@ -2743,7 +2778,7 @@
   },
   "K-376": {
     "title": "¿Qué necesitan las plantas para crecer?",
-    "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
+    "instruction": "En cada fila, encierra la planta que recibe las dos cosas que necesita para crecer."
   },
   "G1-388": {
     "title": "Ciclo de vida de las plantas: de la semilla a la planta",
@@ -2751,7 +2786,7 @@
   },
   "G2-363": {
     "title": "Partes de la planta que comemos",
-    "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+    "instruction": "Mira cada alimento y encierra la parte de la planta que nos comemos."
   },
   "G2-364": {
     "title": "Partes de la planta y sus funciones",
@@ -2779,7 +2814,7 @@
   },
   "G1-390": {
     "title": "¿Qué sigue? Mariposa, rana y catarina",
-    "instruction": "Mira el primer dibujo de cada fila y rodea el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
+    "instruction": "Mira el primer dibujo de cada fila y encierra el que sigue justo después; después del adulto, el ciclo vuelve a empezar."
   },
   "G1-391": {
     "title": "Fases de la luna en orden",
@@ -2791,7 +2826,7 @@
   },
   "G2-368": {
     "title": "¿Por qué hay día y noche?",
-    "instruction": "Mira dónde está el Sol y, en cada marca con número, rodea en la tabla si es de día o de noche."
+    "instruction": "Mira dónde está el Sol y, en cada marca con número, encierra en la tabla si es de día o de noche."
   },
   "G3-394": {
     "title": "El sistema solar: los planetas en orden",
@@ -2823,7 +2858,7 @@
   },
   "G1-395": {
     "title": "Sinónimos con imágenes: dos palabras para un dibujo",
-    "instruction": "Mira cada dibujo y rodea las dos palabras de abajo que significan lo mismo y describen el dibujo."
+    "instruction": "Mira cada dibujo y encierra las dos palabras de abajo que significan lo mismo y describen el dibujo."
   },
   "G2-373": {
     "title": "Sinónimos: une las parejas de palabras",
@@ -2843,11 +2878,12 @@
   },
   "G1-397": {
     "title": "Palabras derivadas con dibujos: rodea la palabra",
-    "instruction": "Di el nombre de cada dibujo y rodea la única palabra de arriba que se forma con esa palabra."
+    "instruction": "Di el nombre de cada dibujo y encierra la única palabra de arriba que se forma con esa palabra.",
+    "printTitle": "Palabras derivadas con dibujos: encierra la palabra"
   },
   "G2-375": {
     "title": "Encuentra la palabra primitiva",
-    "instruction": "Rodea la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
+    "instruction": "Encierra la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
   },
   "G2-376": {
     "title": "Prefijos re-, pre- y sobre-: elige por el significado",
@@ -2991,15 +3027,16 @@
   },
   "G1-409": {
     "title": "Lee y colorea: dos frases",
-    "instruction": "Cada recuadro tiene dos frases. Lee las dos y colorea solo los dibujos que dice cada frase, del color que indica."
+    "instruction": "Cada recuadro tiene dos oraciones. Lee las dos y colorea solo los dibujos que dice cada oración, del color que indica.",
+    "printTitle": "Lee y colorea: dos oraciones"
   },
   "G1-410": {
     "title": "Lee y colorea: busca en el recuadro grande",
-    "instruction": "Lee cada frase. Busca sus dibujos en el recuadro grande y colorea solo los que dice la frase, del color que indica."
+    "instruction": "Lee cada oración. Busca sus dibujos en el recuadro grande y colorea solo los que dice la oración, del color que indica."
   },
   "G1-411": {
     "title": "Lee y colorea: fíjate en el número",
-    "instruction": "Hay más dibujos de los que pide la frase. Lee el número y colorea solo esa cantidad."
+    "instruction": "Hay más dibujos de los que pide la oración. Lee el número y colorea solo esa cantidad."
   },
   "K-388": {
     "title": "Palabra del día: {UNIT}",
@@ -3035,7 +3072,7 @@
   },
   "K-396": {
     "title": "Cómo dibujar {L} paso a paso",
-    "instruction": "Mira los cuatro pasos numerados y dibuja el gato en el papel grande: primero el contorno y luego las líneas naranjas de los pasos 2 y 3."
+    "instruction": "Mira los cuatro pasos numerados y dibuja el gato en el papel grande: primero el contorno y luego las líneas nuevas que ves en cada paso."
   },
   "K-397": {
     "title": "Encuentra las 3 diferencias: {UNIT}",
@@ -3411,7 +3448,8 @@
   },
   "K-448": {
     "title": "Números hasta 20 en dos marcos de diez",
-    "instruction": "Cuenta lo que hay en los dos marcos de diez. Escribe el número y completa la suma."
+    "instruction": "Cuenta lo que hay en los dos marcos de diez. Escribe el número y completa la suma.",
+    "printTitle": "Números del 11 al 20 en dos marcos de diez"
   },
   "K-449": {
     "title": "Ábaco: ¿cuántas cuentas?",
@@ -3551,7 +3589,8 @@
   },
   "G1-452": {
     "title": "Memoria de dobles",
-    "instruction": "Recorta las tarjetas. Encuentra las parejas: un número y su doble."
+    "instruction": "Recorta las tarjetas. Encuentra las parejas: un número y su doble.",
+    "printTitle": "Memorama de dobles"
   },
   "K-460": {
     "title": "El cocodrilo hambriento",
@@ -3707,7 +3746,7 @@
   },
   "G1-473": {
     "title": "La tiendita: etiquetas de precio y dinero de juguete",
-    "instruction": "Recorta las etiquetas de precio y el dinero de juguete. ¡Jueguen a la tiendita!"
+    "instruction": "Recorta las etiquetas de precio y el dinero de juguete. ¡Juega a la tiendita!"
   },
   "G1-474": {
     "title": "Sumas con palabra secreta",
@@ -3735,7 +3774,7 @@
   },
   "G2-474": {
     "title": "¿Cuál es la hora correcta?",
-    "instruction": "Mira el dibujo: ¿a qué hora pasa? Encierra la hora correcta."
+    "instruction": "Mira el dibujo. Encierra la hora con a. m. si pasa antes del mediodía, o con p. m. si pasa después."
   },
   "G3-475": {
     "title": "Tiempo transcurrido en una recta",
@@ -4280,7 +4319,7 @@
   },
   "G1-510": {
     "title": "Escribe una postal",
-    "instruction": "Escríbele una postal a alguien que quieres. Escribe su nombre después del saludo y tu nombre al final."
+    "instruction": "Escríbele una postal a alguien a quien quieras. Escribe su nombre después del saludo y tu nombre al final."
   },
   "K-555": {
     "title": "Escribe sobre el dibujo",
@@ -4412,7 +4451,7 @@
   },
   "G2-493": {
     "title": "Batalla naval con coordenadas",
-    "instruction": "Colorea tus barcos en tu cuadrícula. Por turnos, digan una casilla, como B3. Marca la cuadrícula de tu compañero: un punto si fallas, una cruz si das en el blanco."
+    "instruction": "Colorea tus barcos en tu cuadrícula. Por turnos con tu compañero, di una casilla, como B3. Marca la cuadrícula de tu compañero: un punto si fallas, una cruz si das en el blanco."
   },
   "K-564": {
     "title": "Mis emociones de la semana",
@@ -4496,7 +4535,7 @@
   },
   "K-569": {
     "title": "Lotería de dibujos",
-    "instruction": "Escucha cada palabra. Si su dibujo está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada palabra. Si su dibujo está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "K-574": {
     "title": "Lotería de dibujos: cartas para cantar",
@@ -4504,7 +4543,7 @@
   },
   "K-570": {
     "title": "Lotería de palabras frecuentes",
-    "instruction": "Escucha cada palabra. Si la palabra está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada palabra. Si la palabra está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "K-575": {
     "title": "Lotería de palabras frecuentes: cartas para cantar",
@@ -4512,7 +4551,7 @@
   },
   "G1-543": {
     "title": "Lotería de operaciones",
-    "instruction": "Escucha cada operación y resuélvela. Si el resultado está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada operación y resuélvela. Si el resultado está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "G1-545": {
     "title": "Lotería de operaciones: cartas para cantar",
@@ -4520,7 +4559,7 @@
   },
   "G1-544": {
     "title": "Lotería del reloj",
-    "instruction": "Escucha cada hora. Si un reloj de tu tabla muestra esa hora, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada hora. Si un reloj de tu tabla muestra esa hora, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "G1-546": {
     "title": "Lotería del reloj: cartas para cantar",
@@ -4528,7 +4567,7 @@
   },
   "K-571": {
     "title": "Lotería de sonidos iniciales",
-    "instruction": "Escucha cada palabra y su primer sonido. Si la letra de ese sonido está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada palabra y su primer sonido. Si la letra de ese sonido está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "K-576": {
     "title": "Lotería de sonidos iniciales: cartas para cantar",
@@ -4536,7 +4575,7 @@
   },
   "K-572": {
     "title": "Lotería de números con letra",
-    "instruction": "Escucha cada número. Si está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada número. Si está en tu tabla, márcalo. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "K-577": {
     "title": "Lotería de números con letra: cartas para cantar",
@@ -4544,7 +4583,7 @@
   },
   "K-573": {
     "title": "Lotería de figuras y colores",
-    "instruction": "Escucha cada figura y su color. Si está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”"
+    "instruction": "Escucha cada figura y su color. Si está en tu tabla, márcala. Cuando marques una línea completa, horizontal, vertical o en diagonal, grita “¡Lotería!”."
   },
   "K-578": {
     "title": "Lotería de figuras y colores: cartas para cantar",

@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Peut-on partager entre deux enfants ?",
-      "instruction": "Donne les images aux deux enfants, une chacun. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Entoure-le."
+      "instruction": "Donne les images aux deux enfants, une à chacun. Écris combien chacun reçoit et ce qui reste. Le nombre est-il pair ou impair ? Entoure le bon mot."
     },
     "ones": {
       "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",

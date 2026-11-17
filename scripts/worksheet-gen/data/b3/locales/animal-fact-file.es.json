@@ -582,7 +582,7 @@
     },
     "G2-339": {
       "title": "{U}: marca los datos correctos",
-      "instruction": "Lee las opciones de cada fila y rodea la que es verdadera para este animal. Luego dibuja dónde vive y completa la oración."
+      "instruction": "Lee las opciones de cada fila y encierra la que es verdadera para este animal. Luego dibuja dónde vive y completa la oración."
     },
     "G2-340": {
       "title": "{U}: datos con banco de palabras",
@@ -594,7 +594,7 @@
     },
     "G2-342": {
       "title": "Compara dos animales: igual y diferente",
-      "instruction": "Lee los datos de los dos animales. En cada fila rodea igual o diferente. Luego escribe dos cosas iguales y dos diferentes."
+      "instruction": "Lee los datos de los dos animales. En cada fila encierra igual o diferente. Luego escribe dos cosas iguales y dos diferentes."
     },
     "G2-343": {
       "title": "¿Quién soy? El animal misterioso",

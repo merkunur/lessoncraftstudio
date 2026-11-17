@@ -50,7 +50,7 @@
     },
     "K-365": {
       "title": "El termómetro: ¿frío, templado o calor?",
-      "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+      "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y encierra la prenda que va bien."
     },
     "G3-385": {
       "title": "Ciclo del agua: escribe cada etapa en su lugar",
@@ -58,7 +58,7 @@
     },
     "G1-363": {
       "title": "El estado del tiempo: lee el pronóstico de la semana",
-      "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+      "instruction": "Mira el tiempo de la semana, lee cada pregunta y encierra el día correcto."
     }
   },
   "strand": "Exploración de la Naturaleza y la Sociedad"

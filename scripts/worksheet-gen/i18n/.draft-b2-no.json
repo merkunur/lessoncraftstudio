@@ -19,7 +19,7 @@
     "G2-276": {"title": "Regne med penger", "instruction": "Finn hver vare i hylla og les prisen. Svar så på spørsmålene om pengene."},
     "G2-277": {"title": "Les kalenderen", "instruction": "Se på kalenderen. Bruk den til å svare på alle spørsmålene."},
     "G2-278": {"title": "Skriv til bildet", "instruction": "Se nøye på bildet. Bruk ordbanken, og skriv hva du ser og hva som skjer."},
-    "G2-279": {"title": "Koordinater i rutenett", "instruction": "Finn hver rute ved hjelp av bokstav og tall, for eksempel B2. Fargelegg den med fargen til gruppen til bildet kommer fram."},
+    "G2-279": {"title": "Koordinater i rutenett", "instruction": "Finn hver rute ved hjelp av bokstav og tall, for eksempel B2. Fargelegg den med fargen til gruppen den hører til, så kommer bildet fram."},
     "G3-370": {"title": "Regnefortellinger: gange og dele", "instruction": "Les hver regnefortelling. Bruk bildet til hjelp. Skriv svaret i ruten, og skriv så svarsetningen ferdig."}
   },
   "families": {

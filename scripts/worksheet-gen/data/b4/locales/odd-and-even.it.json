@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Si può dividere in due? Pari o dispari",
-      "instruction": "Dividi i disegni tra i due amici, uno a testa. Scrivi quanti ne riceve ognuno e quanti ne restano. Il numero dei disegni è pari o dispari? Cerchia."
+      "instruction": "Dividi i disegni tra i due amici, uno a testa. Scrivi quanti ne riceve ognuno e quanti ne restano. Il numero è pari o dispari? Cerchia la risposta."
     },
     "ones": {
       "title": "Numeri pari e dispari fino a 100: guarda le unità",

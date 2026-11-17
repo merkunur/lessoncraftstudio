@@ -137,7 +137,8 @@
   },
   "K-038": {
     "title": "Was wiegt mehr?",
-    "instruction": "Denk an die echten Dinge! Kreise das SCHWERERE ein."
+    "instruction": "Denk an die echten Dinge! Kreise das SCHWERERE ein.",
+    "printTitle": "Schwer oder leicht?"
   },
   "K-039": {
     "title": "Gleich und anders",
@@ -145,7 +146,7 @@
   },
   "K-040": {
     "title": "Nur die Großen",
-    "instruction": "Kreise jedes GROSSE Bild ein. Lass die Kleinen in Ruhe."
+    "instruction": "Kreise jedes GROSSE Bild ein. Lass die kleinen in Ruhe."
   },
   "K-042": {
     "title": "Gut sortiert",
@@ -639,7 +640,8 @@
   },
   "G3-301": {
     "title": "Große Punktefelder",
-    "instruction": "Zähle alle Bilder. Schreibe auf, wie viele es zusammen sind."
+    "instruction": "Zähle alle Bilder. Schreibe auf, wie viele es zusammen sind.",
+    "printTitle": "Große Bilderfelder"
   },
   "G3-302": {
     "title": "Knifflige Gruppen",
@@ -691,7 +693,8 @@
   },
   "G3-319": {
     "title": "Welcher ist größer?",
-    "instruction": "Schau dir beide Streifen an. Kreise den größeren Bruch ein."
+    "instruction": "Schau dir beide Streifen an. Kreise den größeren Bruch ein.",
+    "printTitle": "Welcher Bruch ist größer?"
   },
   "G3-320": {
     "title": "Bruchteil einer Gruppe",
@@ -1517,7 +1520,7 @@
   },
   "K-289": {
     "title": "Kurze Wörter nachspuren",
-    "instruction": "Spure drei kurze Wörter nach und schreibe sie auf."
+    "instruction": "Spure jedes kurze Wort nach und schreibe es auf die leere Linie."
   },
   "K-290": {
     "title": "Zweimal selbst schreiben",
@@ -1525,7 +1528,7 @@
   },
   "K-291": {
     "title": "Lange Wörter nachspuren",
-    "instruction": "Diese Wörter sind lang: spure sie langsam nach."
+    "instruction": "Diese Wörter sind lang: Spure sie langsam nach und schreibe sie dann selbst."
   },
   "K-294": {
     "title": "Von Punkt zu Punkt: 1 bis 10",
@@ -1553,11 +1556,11 @@
   },
   "K-302": {
     "title": "Einzahl und Mehrzahl: kurze Wörter",
-    "instruction": "Bei zwei Bildern heißt das Wort anders."
+    "instruction": "Bei mehreren Bildern heißt das Wort anders. Spure das Wort für viele nach."
   },
   "K-303": {
     "title": "Einzahl und Mehrzahl: lange Wörter",
-    "instruction": "Drei Bilder: spure die Mehrzahl nach."
+    "instruction": "Drei Bilder: Spure die Mehrzahl nach."
   },
   "K-306": {
     "title": "Der, die oder das? Vier Bilder",
@@ -1573,19 +1576,19 @@
   },
   "G1-252": {
     "title": "Lesen und Malen: sechs Sätze",
-    "instruction": "Sechs Sätze und sechs Farben: lies jeden Satz ganz genau."
+    "instruction": "Sechs Sätze und sechs Farben: Lies jeden Satz ganz genau und male an, was er sagt."
   },
   "G1-255": {
     "title": "Zahl des Tages: 11 bis 19",
-    "instruction": "Zeige eine Zahl von 11 bis 19 als Zehnerfeld und Strichliste."
+    "instruction": "Schau dir die große Zahl an. Fülle jedes Kästchen zu dieser Zahl aus."
   },
   "G1-256": {
     "title": "Zahl des Tages: 10 mehr, 10 weniger",
-    "instruction": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab."
+    "instruction": "Schreibe auf, welche Zahl 10 mehr und welche Zahl 10 weniger ist als die Zahl des Tages."
   },
   "G1-257": {
     "title": "Zahl des Tages: Zahlen bis 99",
-    "instruction": "Zerlege eine Zahl bis 99 in Zehner und Einer, dann rechne."
+    "instruction": "Zerlege die Zahl in Zehner und Einer. Fülle dann jedes Kästchen aus."
   },
   "G1-258": {
     "title": "Bilder beschriften mit Wortspeicher",
@@ -1601,11 +1604,11 @@
   },
   "G1-262": {
     "title": "Alphabetisch ordnen: nummerieren",
-    "instruction": "Nur nummerieren: vier Karten von 1 bis 4."
+    "instruction": "Nummeriere die vier Karten von 1 bis 4 nach dem ABC."
   },
   "G1-263": {
     "title": "Alphabetisch ordnen und abschreiben",
-    "instruction": "Nummeriere, dann schreibe geordnet ab."
+    "instruction": "Nummeriere die Karten nach dem ABC. Schreibe die Wörter dann geordnet auf die Linien."
   },
   "G1-264": {
     "title": "Alphabetisch ordnen: zweiter Buchstabe",
@@ -1613,11 +1616,11 @@
   },
   "G1-266": {
     "title": "Zahlenmauern bis 10",
-    "instruction": "Addiere immer zwei Steine; der oberste ist höchstens 10."
+    "instruction": "Rechne immer zwei Steine nebeneinander zusammen und schreibe das Ergebnis in den Stein darüber. Der oberste Stein ist höchstens 10."
   },
   "G1-267": {
     "title": "Zahlenmauern mit vier Reihen",
-    "instruction": "Vier Reihen hoch: rechne dich bis zum Deckstein hinauf."
+    "instruction": "Vier Reihen hoch: Rechne dich bis zum Deckstein hinauf."
   },
   "G1-268": {
     "title": "Zahlenmauern: fehlender Grundstein",
@@ -1625,59 +1628,59 @@
   },
   "G1-270": {
     "title": "Verdoppeln und Halbieren mit Bildern",
-    "instruction": "Zähle die Bilder, verdopple und halbiere."
+    "instruction": "Zähle die Bilder. Verdopple oder halbiere, so wie es auf der Karte steht."
   },
   "G1-271": {
     "title": "Verdoppeln und Halbieren bis 20",
-    "instruction": "Ohne Bilder: verdopple und halbiere bis 20."
+    "instruction": "Ohne Bilder: Verdopple und halbiere bis 20."
   },
   "G1-274": {
     "title": "Zahlenstrahl ablesen bis 10",
-    "instruction": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt."
+    "instruction": "Schreibe die Zahl auf, auf die jeder Pfeil zeigt."
   },
   "G1-275": {
     "title": "Zahlenstrahl bis 20 mit wenigen Zahlen",
-    "instruction": "Nur 0, 10 und 20 stehen da: zähle in Einern."
+    "instruction": "Nur 0, 10 und 20 sind beschriftet. Zähle von dort in Einerschritten bis zum Pfeil weiter und schreibe die Zahl auf."
   },
   "G1-276": {
     "title": "Zahlenstrahl ablesen bis 30",
-    "instruction": "Jeder Strich ist eine Eins: zähle bis 30 zum Pfeil weiter."
+    "instruction": "Von Strich zu Strich geht es um 1 weiter. Zähle bis zu jedem Pfeil weiter und schreibe die Zahl auf."
   },
   "G1-277": {
     "title": "Zahlenstrahl ablesen bis 50",
-    "instruction": "Jeder Strich ist eine Eins, jeder zehnte trägt eine Zahl."
+    "instruction": "Von Strich zu Strich geht es um 1 weiter, jeder zehnte Strich ist beschriftet. Zähle bis zu jedem Pfeil weiter und schreibe die Zahl auf."
   },
   "G1-278": {
     "title": "Zahlenstrahl bis 50 in Fünferschritten",
-    "instruction": "Jeder Strich ist eine Fünf bis hinauf zur 50."
+    "instruction": "Von Strich zu Strich geht es um 5 weiter. Zähle in Fünferschritten bis zu jedem Pfeil und schreibe die Zahl auf."
   },
   "G1-279": {
     "title": "Zahlenstrahl bis 100 in Fünferschritten",
-    "instruction": "Jeder Strich ist fünf, jede Zehnerzahl steht da."
+    "instruction": "Von Strich zu Strich geht es um 5 weiter, bis 100. Schreibe auf, bei welcher Zahl jeder Pfeil steht."
   },
   "G1-280": {
     "title": "Zahlenstrahl bis 100 in Zehnerschritten",
-    "instruction": "Jeder Strich ist ein Zehner bis zur 100."
+    "instruction": "Von Strich zu Strich geht es um 10 weiter. Zähle in Zehnerschritten bis zu jedem Pfeil und schreibe die Zahl auf."
   },
   "G1-281": {
     "title": "Zahlenstrahl ablesen bis 120",
-    "instruction": "Dieser Strahl geht über 100 hinaus: zähle in Zehnern."
+    "instruction": "Dieser Zahlenstrahl geht über 100 hinaus. Zähle in Zehnerschritten bis zu jedem Pfeil und schreibe die Zahl auf."
   },
   "G1-282": {
     "title": "Schüttelsätze mit Hilfen",
-    "instruction": "Großbuchstabe und Satzzeichen zeigen Anfang und Ende."
+    "instruction": "Ordne die Wörter und schreibe den Satz auf die Linie. Großbuchstabe und Satzzeichen zeigen dir Anfang und Ende."
   },
   "G1-283": {
     "title": "Schüttelsätze ohne Hilfen",
-    "instruction": "Ohne Hilfen: ordne die Wörter und schreibe den Satz."
+    "instruction": "Ohne Hilfen: Ordne die Wörter und schreibe den Satz auf die Linie."
   },
   "G2-281": {
     "title": "Drei Sätze berichtigen",
-    "instruction": "Schreibe jeden Satz groß und mit Satzzeichen neu."
+    "instruction": "Schreibe jeden Satz richtig ab: mit großem Satzanfang und mit Satzzeichen."
   },
   "G2-282": {
     "title": "Punkt oder Fragezeichen setzen",
-    "instruction": "Manche Sätze sind Fragen – wähle das Zeichen."
+    "instruction": "Schreibe jeden Satz richtig auf: Achte auf große Anfangsbuchstaben und auf Namen. Manche Sätze sind Fragen – setze das passende Satzzeichen."
   },
   "G2-285": {
     "title": "Wortarten sortieren: neun Wörter",
@@ -1685,11 +1688,11 @@
   },
   "G2-286": {
     "title": "Wortarten sortieren ohne Bilder",
-    "instruction": "Zwölf Wörter, keine Bilder: sortiere sie."
+    "instruction": "Zwölf Wörter, keine Bilder: Sortiere sie in die richtigen Kästen."
   },
   "G2-287": {
     "title": "Wortarten sortieren: fünfzehn Wörter",
-    "instruction": "Fünfzehn Wörter und keine Bilder mehr."
+    "instruction": "Fünfzehn Wörter und keine Bilder mehr: Sortiere jedes Wort in den richtigen Kasten."
   },
   "G2-289": {
     "title": "Einkaufen: zwei Aufgaben",
@@ -1697,15 +1700,15 @@
   },
   "G2-290": {
     "title": "Einkaufen: vier verschiedene Fragen",
-    "instruction": "Jede der vier Karten fragt anders."
+    "instruction": "Lies die vier Karten und beantworte jede Frage mit den Preisen am Regal."
   },
   "G2-291": {
     "title": "Einkaufen: Preise addieren",
-    "instruction": "Jede Karte fragt nach dem Gesamtpreis im Korb."
+    "instruction": "Rechne auf jeder Karte die Preise zusammen und schreibe auf, was der Korb kostet."
   },
   "G2-292": {
     "title": "Einkaufen: mehrere Waren im Korb",
-    "instruction": "Meistens liegen drei Waren im Einkaufskorb."
+    "instruction": "In jedem Korb liegen drei Waren. Rechne alle drei Preise zusammen."
   },
   "G2-293": {
     "title": "Einkaufen: Wie viel Rückgeld?",
@@ -1713,7 +1716,7 @@
   },
   "G2-294": {
     "title": "Einkaufen: Reicht das Geld?",
-    "instruction": "Reicht das Geld? Kreise dann ja oder nein ein."
+    "instruction": "Vergleiche das Geld mit dem Preis. Reicht das Geld? Kreise ja oder nein ein und schreibe dann den Betrag auf."
   },
   "G2-295": {
     "title": "Einkaufen: Wie viel teurer?",
@@ -1729,15 +1732,15 @@
   },
   "G2-298": {
     "title": "Kalender lesen: die Wochentage",
-    "instruction": "Alle Fragen drehen sich um die Wochentage im Monat."
+    "instruction": "Beantworte die Fragen zu den Wochentagen. Lies dazu die Spalten im Kalender von oben nach unten."
   },
   "G2-299": {
     "title": "Schreiben zum Bild: Was siehst du?",
-    "instruction": "Satzanfänge und Wortkasten helfen dir."
+    "instruction": "Schreibe auf, was du auf dem Bild siehst. Die Satzanfänge und der Wortkasten helfen dir."
   },
   "G2-300": {
     "title": "Schreiben zum Bild: eigene Worte",
-    "instruction": "Ohne Satzanfänge: sechs Linien nur für dich."
+    "instruction": "Diesmal gibt es keine Satzanfänge. Schreibe mit Hilfe des Wortkastens deine eigene Geschichte."
   },
   "G2-302": {
     "title": "Koordinaten im 6x6-Gitter",
@@ -1757,19 +1760,19 @@
   },
   "G3-373": {
     "title": "Sachaufgaben: Gruppen bilden",
-    "instruction": "Kreise gleich große Gruppen ein und zähle sie."
+    "instruction": "Kreise im Bild gleich große Gruppen ein und schreibe die Antwort auf."
   },
   "G3-374": {
     "title": "Sachaufgaben: Teilen auf zwei Wegen",
-    "instruction": "Einmal verteilen, einmal Gruppen bilden."
+    "instruction": "Lies beide Geschichten. In einer wird verteilt, in der anderen werden Gruppen gebildet. Schreibe die Antworten auf."
   },
   "G3-375": {
     "title": "Sachaufgaben: Mal und Gruppen",
-    "instruction": "Erst Gruppen aufbauen, dann eine Menge teilen."
+    "instruction": "Lies beide Geschichten. In einer werden Gruppen gebildet, in der anderen wird eine Menge aufgeteilt. Schreibe die Antworten auf."
   },
   "G3-376": {
     "title": "Sachaufgaben: drei gemischte Aufgaben",
-    "instruction": "Drei Geschichten: mal oder geteilt?"
+    "instruction": "Lies die drei Geschichten. Überlege, ob du mal oder geteilt rechnen musst, und schreibe die Antworten auf."
   },
   "K-308": {
     "title": "Von Punkt zu Punkt: rückwärts von 10",
@@ -1789,7 +1792,7 @@
   },
   "K-311": {
     "title": "Wörter abschreiben",
-    "instruction": "Nichts ist gestrichelt: schreibe das Wort zweimal ab."
+    "instruction": "Nichts ist gestrichelt: Schreibe das Wort zweimal ab."
   },
   "G1-291": {
     "title": "Bilder beschriften: erster Buchstabe",
@@ -1797,39 +1800,39 @@
   },
   "G1-286": {
     "title": "Bilder verdoppeln und halbieren",
-    "instruction": "Größere Mengen: die Bilder reichen bis 20."
+    "instruction": "Zähle die Bilder (bis 20). Verdopple oder halbiere, so wie es auf der Karte steht."
   },
   "G2-305": {
     "title": "Zahlenstrahl von 40 bis 60",
-    "instruction": "Zählen ab null hilft nicht: der Strahl startet bei 40."
+    "instruction": "Dieser Zahlenstrahl beginnt nicht bei 0, sondern bei 40. Zähle von der nächsten Zahl aus weiter und schreibe auf, wohin jeder Pfeil zeigt."
   },
   "G2-310": {
     "title": "Zahlenstrahl von 60 bis 100",
-    "instruction": "Der Strahl beginnt bei 60; nur jede fünfte Zahl steht da."
+    "instruction": "Dieser Zahlenstrahl beginnt bei 60, nur jede fünfte Zahl ist beschriftet. Zähle von der nächsten Zahl aus weiter und schreibe auf, wohin jeder Pfeil zeigt."
   },
   "G1-295": {
     "title": "Zahlenstrahl von 20 bis 40",
-    "instruction": "Dieser Strahl beginnt bei 20: jeder Strich ist eine Eins."
+    "instruction": "Dieser Zahlenstrahl beginnt bei 20. Zähle von der nächsten Zahl aus weiter und schreibe auf, wohin jeder Pfeil zeigt."
   },
   "G1-287": {
     "title": "Nur Verdoppeln bis 14",
-    "instruction": "Nur Verdoppeln: zähle und schreibe das Doppelte."
+    "instruction": "Nur Verdoppeln: Zähle und schreibe das Doppelte auf."
   },
   "G1-288": {
     "title": "Nur Halbieren bis 12",
-    "instruction": "Nur Halbieren: schreibe die beiden Hälften."
+    "instruction": "Nur Halbieren: Schreibe die beiden Hälften auf."
   },
   "G1-296": {
     "title": "Nur Verdoppeln bis 20 mit Bildern",
-    "instruction": "Größere Mengen zum Verdoppeln bis 20."
+    "instruction": "Zähle die Bilder und schreibe das Doppelte auf (bis 20)."
   },
   "G1-297": {
     "title": "Nur Halbieren bis 20 mit Bildern",
-    "instruction": "Größere Mengen zum Halbieren bis 20."
+    "instruction": "Zähle die Bilder und schreibe die beiden Hälften auf (bis 20)."
   },
   "K-314": {
     "title": "Mehrzahl ohne Vorlage",
-    "instruction": "Ohne Vorlage: schreibe das Wort für viele selbst."
+    "instruction": "Ohne Vorlage: Schreibe das Wort für viele selbst."
   },
   "G1-293": {
     "title": "Nomen und Verben sortieren",
@@ -1837,19 +1840,19 @@
   },
   "K-310": {
     "title": "Wörter nachspuren: Großbuchstaben",
-    "instruction": "Jedes Wort steht hier in Großbuchstaben."
+    "instruction": "Jedes Wort steht hier in Großbuchstaben. Spure es nach und schreibe es dann selbst."
   },
   "G1-289": {
     "title": "Zahlenmauern von oben nach unten",
-    "instruction": "Der Deckstein steht da: rechne nach unten."
+    "instruction": "Der Deckstein steht schon da: Rechne nach unten."
   },
   "K-313": {
     "title": "Von der Mehrzahl zur Einzahl",
-    "instruction": "Diesmal ist das Wort für viele schon gedruckt."
+    "instruction": "Diesmal ist das Wort für viele schon gedruckt. Spure das Wort für eins nach."
   },
   "G2-308": {
     "title": "Koordinaten im Gitter aufschreiben",
-    "instruction": "Das Bild ist schon bunt: Schreibe die Felder auf."
+    "instruction": "Das Bild ist schon bunt. Schreibe jedes Feld (zum Beispiel B2) in die Liste seiner Farbe."
   },
   "K-309": {
     "title": "Von Punkt zu Punkt nach dem ABC",
@@ -1857,19 +1860,19 @@
   },
   "G2-307": {
     "title": "Wo endet der erste Satz?",
-    "instruction": "In jedem Kasten stecken zwei Sätze ohne Punkt."
+    "instruction": "In jedem Kasten stecken zwei Sätze ohne Punkt. Schreibe sie als zwei Sätze richtig auf."
   },
   "G1-292": {
     "title": "Der, die oder das? Wörter sortieren",
-    "instruction": "Ohne Bilder: lies jedes Wort genau."
+    "instruction": "Ohne Bilder: Lies jedes Wort genau und schreibe es unter den passenden Artikel."
   },
   "G1-298": {
     "title": "Verdoppeln bis 20 ohne Bilder",
-    "instruction": "Ohne Bilder: schreibe zu jeder Zahl das Doppelte."
+    "instruction": "Ohne Bilder: Schreibe zu jeder Zahl das Doppelte."
   },
   "G1-299": {
     "title": "Halbieren bis 20 ohne Bilder",
-    "instruction": "Ohne Bilder: teile jede Zahl in zwei Hälften."
+    "instruction": "Ohne Bilder: Teile jede Zahl in zwei Hälften."
   },
   "G1-300": {
     "title": "Nomen und Adjektive sortieren",
@@ -1881,11 +1884,11 @@
   },
   "G2-311": {
     "title": "Zwei Sätze: Punkt oder Fragezeichen?",
-    "instruction": "Einer der beiden Sätze ist eine Frage."
+    "instruction": "Trenne die beiden Sätze und setze am Ende das richtige Zeichen. Einer der beiden Sätze ist eine Frage."
   },
   "G2-312": {
     "title": "Kalender lesen: Wie viele Tage später?",
-    "instruction": "Bei jeder Frage geht es um ein Datum oder um eine Anzahl von Tagen."
+    "instruction": "Beantworte jede Frage mit dem Kalender."
   },
   "G2-314": {
     "title": "Von Punkt zu Punkt in Zehnerschritten",
@@ -1893,19 +1896,19 @@
   },
   "K-315": {
     "title": "Wörter abschreiben: Großbuchstaben",
-    "instruction": "Kein Nachspuren: schreibe zweimal ab."
+    "instruction": "Kein Nachspuren: Schreibe jedes Wort zweimal ab."
   },
   "K-316": {
     "title": "Einzahl ohne Vorlage",
-    "instruction": "Ohne Vorlage: schreibe das Wort für eins selbst."
+    "instruction": "Ohne Vorlage: Schreibe das Wort für eins selbst."
   },
   "G2-313": {
     "title": "Zahlenmauern bis 100",
-    "instruction": "Vier Reihen, und der Deckstein geht bis 100."
+    "instruction": "Rechne Reihe für Reihe bis zum Deckstein hinauf. Die Zahlen gehen bis 100."
   },
   "G1-302": {
     "title": "Schüttelsätze: Wo beginnt der Satz?",
-    "instruction": "Das Satzzeichen steht auf einem Kärtchen."
+    "instruction": "Das Satzzeichen steht auf einem Kärtchen. Finde den Satzanfang, ordne die Wörter und schreibe den Satz auf."
   },
   "G1-303": {
     "title": "Kästchen und Anfangsbuchstabe",
@@ -1921,7 +1924,7 @@
   },
   "K-318": {
     "title": "Laute hören: Ein Laut, ein Kästchen",
-    "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. Ein breites Kästchen mit Bogen hält zwei Buchstaben, die einen Laut bilden."
+    "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. In ein breites Kästchen mit Bogen gehören zwei Buchstaben für einen Laut."
   },
   "K-319": {
     "title": "Gefühle erkennen: Gesicht und Wort verbinden",
@@ -1933,7 +1936,7 @@
   },
   "K-321": {
     "title": "Wochentage in die richtige Reihenfolge bringen",
-    "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+    "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, in der sie kommen."
   },
   "K-322": {
     "title": "Die vier Jahreszeiten: Bilder zuordnen",
@@ -1965,7 +1968,7 @@
   },
   "G1-309": {
     "title": "Reimwörter: Reimen und schreiben",
-    "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+    "instruction": "Sag, wie das erste Bild heißt. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
   },
   "G1-310": {
     "title": "Hundertertafel-Puzzle: Zahlen ergänzen",
@@ -1985,11 +1988,12 @@
   },
   "G2-318": {
     "title": "Tiersteckbrief: {U}",
-    "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+    "instruction": "Finde etwas über dieses Tier heraus. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit einem Bild oder mit Wörtern."
   },
   "G2-319": {
     "title": "Logicals: Drei Hinweise, eine Lösung",
-    "instruction": "Lies die Hinweise. Streiche in der Tabelle durch, was nicht stimmen kann, hake ab, was stimmen muss, und kreise dann das Bild jedes Kindes ein."
+    "instruction": "Lies die Hinweise. Streiche in der Tabelle durch, was nicht stimmen kann, hake ab, was stimmen muss, und kreise dann das Bild jedes Kindes ein.",
+    "printTitle": "Logicals: drei Hinweise, eine Lösung"
   },
   "G3-377": {
     "title": "Teilen mit Rest: Gruppen einkreisen",
@@ -2021,7 +2025,7 @@
   },
   "K-330": {
     "title": "Anlaut vorgegeben: Schreibe die Laute weiter",
-    "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut. Ein breites Kästchen hält zwei Buchstaben."
+    "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam. Schreibe in jedes leere Kästchen einen Laut, in ein breites Kästchen zwei Buchstaben."
   },
   "G1-312": {
     "title": "Lautstreifen: Wie viele Laute hat das Wort?",
@@ -2237,7 +2241,7 @@
   },
   "K-352": {
     "title": "Reimt sich das?",
-    "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+    "instruction": "Sag laut, wie die beiden Bilder heißen. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
   },
   "G1-343": {
     "title": "Reimwörter sortieren",
@@ -2313,7 +2317,7 @@
   },
   "G2-334": {
     "title": "Verbformen zuordnen: Wer macht was?",
-    "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
+    "instruction": "Lies jedes Pronomen links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
   },
   "G2-335": {
     "title": "Verbformen im Satz mit Bildern",
@@ -2381,7 +2385,7 @@
   },
   "G3-382": {
     "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
-    "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+    "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf (0, wenn es keinen gibt)."
   },
   "G3-383": {
     "title": "Fehler finden: Der Rest ist zu groß",
@@ -2561,7 +2565,7 @@
   },
   "G2-352": {
     "title": "Gerade und ungerade Zahlen bis 100",
-    "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab."
+    "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und male den Kreis unter gerade oder ungerade aus."
   },
   "G3-386": {
     "title": "Summe gerade oder ungerade? Ohne zu rechnen",
@@ -2846,7 +2850,7 @@
   },
   "G2-374": {
     "title": "Wortfeld „sagen“: das passende Verb einsetzen",
-    "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+    "instruction": "Lies jeden Satz. Schreibe das Wort aus der Sprechblase, das statt „sagt“ am besten passt, in das Kästchen."
   },
   "G3-397": {
     "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
@@ -3630,7 +3634,8 @@
   },
   "G2-407": {
     "title": "Teile in gleich große Stücke",
-    "instruction": "Zeichne Linien, sodass jede Form in gleich große Teile geteilt wird. Unter der Form steht, wie viele."
+    "instruction": "Zeichne Linien, sodass jede Form in gleich große Teile geteilt wird. Unter der Form steht, wie viele.",
+    "printTitle": "In gleich große Teile teilen"
   },
   "G2-408": {
     "title": "Male einen Bruchteil der Menge an",
@@ -3786,7 +3791,7 @@
   },
   "K-464": {
     "title": "Bilder aus Formen",
-    "instruction": "Male jede Form in der Farbe an, die sie unten hat. Zähle dann, wie viele es von jeder Form gibt, und schreibe die Zahl ins Kästchen."
+    "instruction": "Male jede Form in der Farbe an, die unten im Farbcode steht. Zähle dann, wie viele es von jeder Form gibt, und schreibe die Zahl ins Kästchen."
   },
   "G3-477": {
     "title": "Rechtecke nach Flächeninhalt zeichnen",
@@ -4151,7 +4156,8 @@
   },
   "K-538": {
     "title": "Welches reimt sich nicht?",
-    "instruction": "Sag, wie die drei Bilder heißen. Zwei davon reimen sich. Kreise das Bild ein, das sich nicht reimt."
+    "instruction": "Sag, wie die drei Bilder heißen. Zwei davon reimen sich. Kreise das Bild ein, das sich nicht reimt.",
+    "printTitle": "Welches Wort reimt sich nicht?"
   },
   "K-539": {
     "title": "Reim-Domino",

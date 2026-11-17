@@ -1828,7 +1828,7 @@
     },
     "F4": {
       "title": "Lee y marca: ¿verdadero o falso?",
-      "instruction": "Lee cada oración y mira la fila de dibujos. ¿Es verdadera o falsa? Rodea la palabra correcta."
+      "instruction": "Lee cada oración y mira la fila de dibujos. ¿Es verdadera o falsa? Encierra la palabra correcta."
     },
     "F5": {
       "title": "Lee y dibuja",

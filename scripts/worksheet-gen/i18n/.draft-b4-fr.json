@@ -3,7 +3,7 @@
   "types": {
     "K-353": {
       "title": "Tangram à découper : 7 pièces et deux modèles",
-      "instruction": "Colorie chaque pièce comme la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
+      "instruction": "Colorie chaque pièce comme sur la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
     },
     "K-358": {
       "title": "Tangram facile : trace les traits pour 2 et 3 pièces",
@@ -135,7 +135,7 @@
     },
     "G2-349": {
       "title": "Complète les phrases au pluriel",
-      "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot qui va avec plusieurs."
+      "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot au pluriel."
     },
     "G2-350": {
       "title": "Texte à trous : complète l'histoire",
@@ -155,7 +155,7 @@
     },
     "G1-369": {
       "title": "Peut-on partager entre deux enfants ?",
-      "instruction": "Donne les images aux deux enfants, une chacun. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Entoure-le."
+      "instruction": "Donne les images aux deux enfants, une à chacun. Écris combien chacun reçoit et ce qui reste. Le nombre est-il pair ou impair ? Entoure le bon mot."
     },
     "G2-352": {
       "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
@@ -343,7 +343,7 @@
       "strings": {
         "K-353": {
           "title": "Tangram à découper : 7 pièces et deux modèles",
-          "instruction": "Colorie chaque pièce comme la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
+          "instruction": "Colorie chaque pièce comme sur la légende, découpe les sept pièces en suivant les traits, puis pose-les sur les deux modèles du bas."
         },
         "compose": {
           "title": "Tangram facile : trace les traits pour 2 et 3 pièces",
@@ -1552,7 +1552,7 @@
         },
         "plural": {
           "title": "Complète les phrases au pluriel",
-          "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot qui va avec plusieurs."
+          "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot au pluriel."
         },
         "story": {
           "title": "Texte à trous : complète l'histoire",
@@ -1595,7 +1595,7 @@
         },
         "share": {
           "title": "Peut-on partager entre deux enfants ?",
-          "instruction": "Donne les images aux deux enfants, une chacun. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Entoure-le."
+          "instruction": "Donne les images aux deux enfants, une à chacun. Écris combien chacun reçoit et ce qui reste. Le nombre est-il pair ou impair ? Entoure le bon mot."
         },
         "ones": {
           "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",

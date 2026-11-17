@@ -27,7 +27,7 @@
     },
     "K-318": {
       "title": "Laute hören: Ein Laut, ein Kästchen",
-      "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. Ein breites Kästchen mit Bogen hält zwei Buchstaben, die einen Laut bilden."
+      "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. In ein breites Kästchen mit Bogen gehören zwei Buchstaben für einen Laut."
     },
     "K-329": {
       "title": "Laute zählen: Wie viele Laute hörst du?",
@@ -35,7 +35,7 @@
     },
     "K-330": {
       "title": "Anlaut vorgegeben: Schreibe die Laute weiter",
-      "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut. Ein breites Kästchen hält zwei Buchstaben."
+      "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam. Schreibe in jedes leere Kästchen einen Laut, in ein breites Kästchen zwei Buchstaben."
     },
     "G1-312": {
       "title": "Lautstreifen: Wie viele Laute hat das Wort?",
@@ -99,7 +99,7 @@
     },
     "K-321": {
       "title": "Wochentage in die richtige Reihenfolge bringen",
-      "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+      "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, in der sie kommen."
     },
     "K-337": {
       "title": "Fehlende Wochentage eintragen",
@@ -291,11 +291,11 @@
     },
     "G1-309": {
       "title": "Reimwörter: Reimen und schreiben",
-      "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+      "instruction": "Sag, wie das erste Bild heißt. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
     },
     "K-352": {
       "title": "Reimt sich das?",
-      "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+      "instruction": "Sag laut, wie die beiden Bilder heißen. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
     },
     "G1-343": {
       "title": "Reimwörter sortieren",
@@ -387,7 +387,7 @@
     },
     "G2-334": {
       "title": "Verbformen zuordnen: Wer macht was?",
-      "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
+      "instruction": "Lies jedes Pronomen links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
     },
     "G2-335": {
       "title": "Verbformen im Satz mit Bildern",
@@ -407,7 +407,7 @@
     },
     "G2-318": {
       "title": "Tiersteckbrief: {U}",
-      "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+      "instruction": "Finde etwas über dieses Tier heraus. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit einem Bild oder mit Wörtern."
     },
     "G2-339": {
       "title": "Steckbrief {U}: Kreise ein, was stimmt",
@@ -467,7 +467,7 @@
     },
     "G3-382": {
       "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
-      "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+      "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf (0, wenn es keinen gibt)."
     },
     "G3-383": {
       "title": "Fehler finden: Der Rest ist zu groß",
@@ -13732,7 +13732,7 @@
       "strings": {
         "K-318": {
           "title": "Laute hören: Ein Laut, ein Kästchen",
-          "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. Ein breites Kästchen mit Bogen hält zwei Buchstaben, die einen Laut bilden."
+          "instruction": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut. In ein breites Kästchen mit Bogen gehören zwei Buchstaben für einen Laut."
         },
         "K-329": {
           "title": "Laute zählen: Wie viele Laute hörst du?",
@@ -13740,7 +13740,7 @@
         },
         "K-330": {
           "title": "Anlaut vorgegeben: Schreibe die Laute weiter",
-          "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut. Ein breites Kästchen hält zwei Buchstaben."
+          "instruction": "Der erste Laut steht schon da. Sprich das Bildwort langsam. Schreibe in jedes leere Kästchen einen Laut, in ein breites Kästchen zwei Buchstaben."
         },
         "G1-312": {
           "title": "Lautstreifen: Wie viele Laute hat das Wort?",
@@ -14628,7 +14628,7 @@
       "strings": {
         "K-321": {
           "title": "Wochentage in die richtige Reihenfolge bringen",
-          "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, wie sie kommen."
+          "instruction": "Der erste Tag der Woche hat schon die 1. Nummeriere die anderen Tage von 2 bis 7 in der Reihenfolge, in der sie kommen."
         },
         "K-337": {
           "title": "Fehlende Wochentage eintragen",
@@ -27152,7 +27152,7 @@
         },
         "F2": {
           "title": "Verbformen zuordnen: Wer macht was?",
-          "instruction": "Lies jedes Personalwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
+          "instruction": "Lies jedes Pronomen links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann die zwei Sätze."
         },
         "F3": {
           "title": "Verbformen im Satz mit Bildern",
@@ -27752,7 +27752,7 @@
       "strings": {
         "G2-318": {
           "title": "Tiersteckbrief: {U}",
-          "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+          "instruction": "Finde etwas über dieses Tier heraus. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit einem Bild oder mit Wörtern."
         },
         "G2-339": {
           "title": "Steckbrief {U}: Kreise ein, was stimmt",
@@ -27913,7 +27913,7 @@
         },
         "F3": {
           "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
-          "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+          "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf (0, wenn es keinen gibt)."
         },
         "F4": {
           "title": "Fehler finden: Der Rest ist zu groß",
@@ -30545,11 +30545,11 @@
       "strings": {
         "G1-309": {
           "title": "Reimwörter: Reimen und schreiben",
-          "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+          "instruction": "Sag, wie das erste Bild heißt. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
         },
         "K-352": {
           "title": "Reimt sich das?",
-          "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+          "instruction": "Sag laut, wie die beiden Bilder heißen. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
         },
         "G1-343": {
           "title": "Reimwörter sortieren",

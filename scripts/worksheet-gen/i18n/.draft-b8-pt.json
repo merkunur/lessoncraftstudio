@@ -44,12 +44,12 @@
     "G1-424": {
       "title": "Labirinto: pegue todas as cenouras",
       "printTitle": "Ajude o coelho a pegar todas as cenouras",
-      "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura sem passar duas vezes pelo mesmo caminho. Marque um círculo para cada cenoura."
+      "instruction": "Ajude o coelho a chegar ao balde e a pegar todas as cenouras, sem passar duas vezes pelo mesmo caminho. Pinte um círculo para cada cenoura."
     },
     "G1-425": {
       "title": "Labirinto: desvie das morsas",
       "printTitle": "Leve o urso-polar para casa em segurança",
-      "instruction": "Ajude o urso-polar a chegar ao iglu. Não passe por nenhuma morsa nem por nenhum buraco no gelo."
+      "instruction": "Ajude o urso-polar a chegar ao iglu. Não pegue nenhum caminho que tenha uma morsa ou um buraco no gelo."
     },
     "K-409": {
       "title": "Labirinto do alfabeto: o foguete até a lua",
@@ -171,13 +171,13 @@
         "collect": {
           "title": "Labirinto: pegue todas as cenouras",
           "printTitle": "Ajude o coelho a pegar todas as cenouras",
-          "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura sem passar duas vezes pelo mesmo caminho. Marque um círculo para cada cenoura.",
+          "instruction": "Ajude o coelho a chegar ao balde e a pegar todas as cenouras, sem passar duas vezes pelo mesmo caminho. Pinte um círculo para cada cenoura.",
           "tap": "Arraste do círculo verde até o balde. Passe por todas as cenouras."
         },
         "avoid": {
           "title": "Labirinto: desvie das morsas",
           "printTitle": "Leve o urso-polar para casa em segurança",
-          "instruction": "Ajude o urso-polar a chegar ao iglu. Não passe por nenhuma morsa nem por nenhum buraco no gelo.",
+          "instruction": "Ajude o urso-polar a chegar ao iglu. Não pegue nenhum caminho que tenha uma morsa ou um buraco no gelo.",
           "tap": "Arraste do círculo verde até o iglu sem passar por uma morsa ou um buraco."
         },
         "abc-capitals": {

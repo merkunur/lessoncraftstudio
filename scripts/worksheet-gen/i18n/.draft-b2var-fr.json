@@ -43,7 +43,7 @@
     },
     "K-303": {
       "title": "Singulier et pluriel : mots longs",
-      "instruction": "Le pluriel est plus long ici."
+      "instruction": "Ces mots sont plus longs. Repasse le mot au pluriel."
     },
     "K-306": {
       "title": "Le ou la : entoure le bon article",
@@ -59,7 +59,7 @@
     },
     "K-311": {
       "title": "Copier le mot sans pointillés",
-      "instruction": "Copie le mot écrit sur la carte."
+      "instruction": "Copie deux fois le mot écrit sur la carte."
     },
     "G1-251": {
       "title": "Lis et colorie : quatre phrases",
@@ -67,7 +67,7 @@
     },
     "G1-252": {
       "title": "Lis et colorie : la page bien remplie",
-      "instruction": "Six couleurs ici : lis chaque phrase en entier."
+      "instruction": "Six phrases et six couleurs : lis chaque phrase en entier, puis colorie exactement ce qu'elle demande."
     },
     "G1-255": {
       "title": "Le nombre du jour : de 11 à 19",
@@ -75,11 +75,11 @@
     },
     "G1-256": {
       "title": "Le nombre du jour : 10 de plus, 10 de moins",
-      "instruction": "Calcule 10 de plus et 10 de moins."
+      "instruction": "Écris le nombre qui a 10 de plus et celui qui a 10 de moins que le nombre du jour."
     },
     "G1-257": {
       "title": "Le nombre du jour : jusqu'à 99",
-      "instruction": "Décompose en dizaines et unités, jusqu'à 99."
+      "instruction": "Décompose le nombre du jour en dizaines et en unités, puis remplis toutes les cases."
     },
     "G1-258": {
       "title": "Dictée muette avec lettre de départ",
@@ -95,7 +95,7 @@
     },
     "G1-262": {
       "title": "Ordre alphabétique : numéroter",
-      "instruction": "Numérote les étiquettes, sans recopier."
+      "instruction": "Numérote les quatre étiquettes pour ranger les mots dans l'ordre alphabétique."
     },
     "G1-263": {
       "title": "Ordre alphabétique : quatre mots",
@@ -103,7 +103,7 @@
     },
     "G1-264": {
       "title": "Ordre alphabétique : même initiale",
-      "instruction": "Des mots commencent par la même lettre."
+      "instruction": "Deux paires de mots commencent par la même lettre : regarde la deuxième lettre pour les ranger dans l'ordre alphabétique."
     },
     "G1-266": {
       "title": "Pyramides de nombres jusqu'à 10",
@@ -115,7 +115,7 @@
     },
     "G1-268": {
       "title": "Pyramides de nombres : la brique manquante",
-      "instruction": "Une brique du bas est restée vide : retrouve-la grâce à la brique du dessus."
+      "instruction": "Une brique du bas est restée vide : retrouve-la grâce à la brique du dessus, puis complète toute la pyramide."
     },
     "G1-270": {
       "title": "Doubles et moitiés jusqu'à 8",
@@ -123,7 +123,7 @@
     },
     "G1-271": {
       "title": "Doubles et moitiés jusqu'à 20",
-      "instruction": "Sans image cette fois : calcule les nombres."
+      "instruction": "Sans image cette fois : calcule chaque double et chaque moitié."
     },
     "G1-274": {
       "title": "Droite graduée de 0 à 10",
@@ -131,7 +131,7 @@
     },
     "G1-275": {
       "title": "Droite graduée jusqu'à 20 : peu de repères",
-      "instruction": "Seuls 0, 10 et 20 sont écrits sur la droite."
+      "instruction": "Seuls 0, 10 et 20 sont écrits sur la droite. Compte jusqu'à chaque flèche et écris son nombre."
     },
     "G1-276": {
       "title": "Droite graduée de 0 à 30",
@@ -139,7 +139,7 @@
     },
     "G1-277": {
       "title": "Droite graduée de 0 à 50",
-      "instruction": "Quatre droites de 0 à 50 : seules les dizaines sont écrites."
+      "instruction": "Compte jusqu'à chaque flèche et écris son nombre. Seules les dizaines sont écrites pour t'aider."
     },
     "G1-278": {
       "title": "Droite graduée de 5 en 5 jusqu'à 50",
@@ -147,7 +147,7 @@
     },
     "G1-279": {
       "title": "Droite graduée de 5 en 5 jusqu'à 100",
-      "instruction": "Chaque trait vaut 5 et la droite va jusqu'à 100."
+      "instruction": "Chaque trait vaut 5 et la droite va jusqu'à 100. Écris le nombre montré par chaque flèche."
     },
     "G1-280": {
       "title": "Droite graduée de 10 en 10",
@@ -155,15 +155,15 @@
     },
     "G1-281": {
       "title": "Droite graduée de 0 à 120",
-      "instruction": "Cette droite ne s'arrête pas à 100 : elle va à 120."
+      "instruction": "Cette droite ne s'arrête pas à 100 : elle va jusqu'à 120. Compte de 10 en 10 jusqu'à chaque flèche et écris son nombre."
     },
     "G1-282": {
       "title": "Phrases mélangées avec indices",
-      "instruction": "Deux indices : la majuscule et le signe final."
+      "instruction": "Remets les mots dans l'ordre et écris la phrase. Deux indices t'aident : la majuscule et le point final."
     },
     "G1-283": {
       "title": "Phrases mélangées sans majuscule ni point",
-      "instruction": "Ni majuscule ni point pour t'aider."
+      "instruction": "Remets les mots dans l'ordre et écris la phrase. Il n'y a ni majuscule ni point pour t'aider."
     },
     "G1-285": {
       "title": "Points à relier de 2 en 2",
@@ -171,7 +171,7 @@
     },
     "G1-286": {
       "title": "Doubles et moitiés : images jusqu'à 20",
-      "instruction": "Doubler ou partager de grands groupes."
+      "instruction": "Trouve le double ou la moitié de chaque grand groupe d'images."
     },
     "G1-291": {
       "title": "Dictée muette : la première lettre",
@@ -187,31 +187,31 @@
     },
     "G2-281": {
       "title": "Corrige la phrase : majuscule et signe final",
-      "instruction": "Choisis le bon signe final."
+      "instruction": "Récris chaque phrase avec une majuscule et le bon signe de ponctuation à la fin."
     },
     "G2-282": {
       "title": "Corrige la phrase : quel signe à la fin ?",
-      "instruction": "Pense aux majuscules des prénoms."
+      "instruction": "Récris chaque phrase avec les majuscules, sans oublier celles des prénoms, et choisis le bon signe à la fin."
     },
     "G2-285": {
       "title": "Nature des mots : neuf étiquettes",
-      "instruction": "Neuf mots, avec des images pour t'aider."
+      "instruction": "Écris chacun des neuf mots dans la bonne boîte. Les images t'aident pour les noms."
     },
     "G2-286": {
       "title": "Nature des mots : douze étiquettes",
-      "instruction": "Douze mots à classer, sans aucune image."
+      "instruction": "Écris chacun des douze mots dans la bonne boîte. Il n'y a pas d'image pour t'aider."
     },
     "G2-287": {
       "title": "Nature des mots : quinze étiquettes",
-      "instruction": "Quinze mots : la page la plus longue."
+      "instruction": "Écris chacun des quinze mots dans la bonne boîte. Il n'y a pas d'image pour t'aider."
     },
     "G2-289": {
       "title": "Problèmes de monnaie : deux histoires",
-      "instruction": "Deux histoires : lis les prix d'abord."
+      "instruction": "Lis chaque histoire et aide-toi des prix de l'étagère pour y répondre."
     },
     "G2-290": {
       "title": "Problèmes de monnaie : quatre questions",
-      "instruction": "Ici, chaque carte est différente."
+      "instruction": "Lis chaque carte et réponds à sa question sur les achats."
     },
     "G2-291": {
       "title": "Problèmes de monnaie : le total",
@@ -223,11 +223,11 @@
     },
     "G2-293": {
       "title": "Problèmes de monnaie : rendre la monnaie",
-      "instruction": "Compte les pièces, puis la monnaie."
+      "instruction": "Compte les pièces données, puis calcule la monnaie à rendre."
     },
     "G2-294": {
       "title": "Problèmes de monnaie : est-ce assez ?",
-      "instruction": "Entoure oui ou non, puis le total."
+      "instruction": "Compare l'argent et le prix. Entoure oui ou non, puis écris le total."
     },
     "G2-295": {
       "title": "Problèmes de monnaie : la différence",
@@ -243,7 +243,7 @@
     },
     "G2-298": {
       "title": "Lire le calendrier : les jours",
-      "instruction": "Quatre questions sur les jours de la semaine."
+      "instruction": "Lis le calendrier colonne par colonne et réponds aux quatre questions sur les jours de la semaine."
     },
     "G2-299": {
       "title": "Production d'écrit : débuts de phrase",
@@ -251,7 +251,7 @@
     },
     "G2-300": {
       "title": "Production d'écrit : à toi d'écrire",
-      "instruction": "Aucun début de phrase : à toi d'écrire."
+      "instruction": "Aucun début de phrase cette fois : aide-toi de la boîte à mots pour écrire ta propre histoire sur l'image."
     },
     "G2-302": {
       "title": "Pixel art : quadrillage 6 x 6",
@@ -263,7 +263,7 @@
     },
     "G2-304": {
       "title": "Points à relier de 5 en 5",
-      "instruction": "Compte de cinq en cinq ; le reste du dessin est déjà tracé."
+      "instruction": "Relie les points de 5 en 5, de 5 à 50 ; le reste du dessin est déjà tracé."
     },
     "G2-305": {
       "title": "Droite graduée de 40 à 60",
@@ -271,7 +271,7 @@
     },
     "G2-310": {
       "title": "Droite graduée de 60 à 100",
-      "instruction": "Le premier repère est 60, et chaque graduation vaut 1."
+      "instruction": "Le premier repère est 60 et chaque graduation vaut 1. Pars du repère le plus proche et écris le nombre montré par chaque flèche."
     },
     "G3-371": {
       "title": "Problèmes de multiplication en images",
@@ -283,7 +283,7 @@
     },
     "G3-373": {
       "title": "Problèmes de division : grouper",
-      "instruction": "Entoure des paquets de la même taille."
+      "instruction": "Entoure des paquets de la même taille sur l'image, puis écris la réponse."
     },
     "G3-374": {
       "title": "Problèmes de division : partager ou grouper",
@@ -323,11 +323,11 @@
     },
     "G1-287": {
       "title": "Doubles jusqu'à 14",
-      "instruction": "Chaque carte demande le double d'un groupe d'images."
+      "instruction": "Sur chaque carte, trouve le double du groupe d'images."
     },
     "G1-288": {
       "title": "Moitiés jusqu'à 12",
-      "instruction": "Partage chaque groupe et écris les deux parts."
+      "instruction": "Partage chaque groupe en deux parts égales et écris le nombre de chaque part."
     },
     "G1-289": {
       "title": "Pyramides de nombres : partir du sommet",
@@ -343,15 +343,15 @@
     },
     "G1-296": {
       "title": "Doubles en images jusqu'à 20",
-      "instruction": "De plus grands groupes d'images à doubler."
+      "instruction": "Trouve le double de chaque groupe d'images."
     },
     "G1-297": {
       "title": "Moitiés en images jusqu'à 20",
-      "instruction": "De plus grands groupes d'images à partager."
+      "instruction": "Partage chaque groupe d'images en deux parts égales."
     },
     "G1-298": {
       "title": "Doubles sans images jusqu'à 20",
-      "instruction": "Sans image : calcule le double de tête."
+      "instruction": "Sans image : calcule de tête le double de chaque nombre."
     },
     "G1-299": {
       "title": "Moitiés sans images jusqu'à 20",
@@ -387,7 +387,7 @@
     },
     "G2-311": {
       "title": "Phrases collées : point ou question",
-      "instruction": "Ici, l'une des deux est une question."
+      "instruction": "Sépare les deux phrases et termine chacune par le bon signe : l'une des deux est une question."
     },
     "G2-312": {
       "title": "Lire le calendrier : compter les jours",
@@ -395,7 +395,7 @@
     },
     "G2-313": {
       "title": "Pyramides de nombres jusqu'à 100",
-      "instruction": "Quatre étages, et le sommet peut grimper jusqu'à 100."
+      "instruction": "Additionne deux par deux jusqu'au sommet, en posant les calculs si besoin. Il y a quatre étages et le sommet peut aller jusqu'à 100."
     },
     "G2-314": {
       "title": "Points à relier de 10 en 10",

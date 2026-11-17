@@ -23,7 +23,7 @@
   "strings": {
     "G3-377": {
       "title": "Divisiones con residuo: encierra los grupos",
-      "instruction": "Encierra grupos del segundo número en cada montón. Escribe cuántos grupos formaste y cuántos dibujos sobran."
+      "instruction": "En cada montón, encierra grupos con tantos dibujos como dice el segundo número. Escribe cuántos grupos formaste y cuántos dibujos sobran."
     },
     "F1": {
       "title": "Reparte y escribe cuánto sobra",
@@ -35,7 +35,7 @@
     },
     "F3": {
       "title": "¿Exacta o con residuo?",
-      "instruction": "Decide si cada división es exacta o no. Rodea tu respuesta y escribe el residuo; escribe 0 si no sobra nada."
+      "instruction": "Decide si cada división es exacta o no. Encierra tu respuesta y escribe el residuo; escribe 0 si no sobra nada."
     },
     "F4": {
       "title": "Encuentra el error: el residuo es muy grande",

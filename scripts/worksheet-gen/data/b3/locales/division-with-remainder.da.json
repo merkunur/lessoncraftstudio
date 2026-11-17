@@ -23,7 +23,7 @@
   "strings": {
     "G3-377": {
       "title": "Division med rest: sæt ring om grupperne",
-      "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+      "instruction": "Sæt ring om grupper med lige så mange billeder, som det andet tal viser. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er tilovers."
     },
     "F1": {
       "title": "Del ud: hvad bliver der til overs?",

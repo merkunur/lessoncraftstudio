@@ -159,19 +159,19 @@
     },
     "G1-219": {
       "title": "Casitas de operaciones hasta 10",
-      "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+      "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
     },
     "G1-220": {
       "title": "Casitas de operaciones hasta 20",
-      "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+      "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
     },
     "G1-221": {
       "title": "Más casitas de sumas y restas",
-      "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+      "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
     },
     "G1-222": {
       "title": "Casitas: el número escondido",
-      "instruction": "Usa los tres números del tejado. Escribe el número que falta en cada operación."
+      "instruction": "Usa los tres números del techo. Escribe el número que falta en cada operación."
     },
     "G1-223": {
       "title": "Números en letras hasta 20",
@@ -211,7 +211,7 @@
     },
     "G1-232": {
       "title": "¿Qué monedero tiene más dinero?",
-      "instruction": "Cuenta el dinero de los dos monederos. Rodea el monedero que tiene más."
+      "instruction": "Cuenta el dinero de los dos monederos. Encierra el monedero que tiene más."
     },
     "G1-233": {
       "title": "Dibuja las agujas: la hora en punto",
@@ -307,43 +307,43 @@
     },
     "G2-269": {
       "title": "Comprensión lectora: La caracola",
-      "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+      "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
     },
     "G2-270": {
       "title": "Comprensión lectora: El huerto",
-      "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+      "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
     },
     "G2-271": {
       "title": "Comprensión lectora: La tormenta",
-      "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+      "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
     },
     "G2-272": {
       "title": "Comprensión lectora: El tren",
-      "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+      "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
     },
     "G2-273": {
       "title": "Comprensión lectora: El teatro",
-      "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+      "instruction": "Lee el cuento con atención. Después, encierra la respuesta correcta de cada pregunta."
     },
     "G3-359": {
       "title": "Sumas con llevadas de dos cifras",
-      "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+      "instruction": "Suma en columnas. Si hace falta, lleva a la siguiente columna."
     },
     "G3-360": {
       "title": "Restas con llevadas",
-      "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+      "instruction": "Resta en columnas. Si hace falta, pide prestado a la columna de al lado."
     },
     "G3-361": {
       "title": "Sumas con llevadas de tres cifras",
-      "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+      "instruction": "Suma en columnas. Si hace falta, lleva a la siguiente columna."
     },
     "G3-362": {
       "title": "Restas con llevadas y ceros",
-      "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+      "instruction": "Resta en columnas. Si hace falta, pide prestado a la columna de al lado."
     },
     "G3-363": {
       "title": "Repaso de llevadas",
-      "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."
+      "instruction": "Resuelve cada operación en columnas. Si hace falta, lleva a la siguiente columna o pide prestado a la de al lado."
     },
     "G3-364": {
       "title": "La tabla del 2",
@@ -367,7 +367,7 @@
     },
     "G3-369": {
       "title": "Familias de multiplicar y dividir",
-      "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+      "instruction": "Usa los tres números del techo. Completa las cuatro operaciones de la familia."
     }
   },
   "sightWordsAppend": [

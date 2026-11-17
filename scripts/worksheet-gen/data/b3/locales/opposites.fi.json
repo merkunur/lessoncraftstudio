@@ -619,7 +619,7 @@
     },
     "G1-335": {
       "title": "Vastakohdat lauseessa",
-      "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+      "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, jota ei-sana kieltää. Sanapankki auttaa."
     },
     "G1-336": {
       "title": "Etsi vastakohtaparit",

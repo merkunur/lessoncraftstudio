@@ -35,7 +35,7 @@
   },
   "K-330": {
    "title": "Første lyd er gitt: Skriv lydene videre",
-   "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
+   "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute. I en bred rute skriver du to bokstaver som er én lyd."
   },
   "G1-312": {
    "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -91,7 +91,7 @@
   },
   "K-336": {
    "title": "Ordenstall fra begge sider: Start ved flagget",
-   "instruction": "Se etter flagget først: Det kan stå på begge sider. Start der, tell til tallet på hver brikke og lag merket."
+   "instruction": "Se etter flagget først: Det kan stå i den ene eller den andre enden. Start der, tell til tallet på hver brikke og lag merket."
   },
   "G1-318": {
    "title": "Hvem vinner løpet? Skriv plassen",
@@ -291,15 +291,15 @@
   },
   "G1-309": {
    "title": "Rimord: Finn rimet og skriv ordet",
-   "instruction": "Si det første bildet. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
+   "instruction": "Si hva det første bildet heter. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
   },
   "K-352": {
    "title": "Rimer det?",
-   "instruction": "Si begge bildene høyt. Hvis de to ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
+   "instruction": "Si høyt hva de to bildene heter. Hvis ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
   },
   "G1-343": {
    "title": "Sorter rimordene",
-   "instruction": "Si hvert bilde i ordbanken. Finn det store bildet det rimer på, og skriv ordet på en linje under."
+   "instruction": "Si hva hvert bilde i bildebanken heter. Finn det store bildet det rimer på, og skriv ordet på en linje under."
   },
   "G1-344": {
    "title": "Fullfør rimet",
@@ -307,7 +307,7 @@
   },
   "G1-345": {
    "title": "Rimrekker",
-   "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
+   "instruction": "Si hva hvert bilde heter. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
   },
   "G1-346": {
    "title": "Skriv dine egne rimord",
@@ -435,7 +435,7 @@
   },
   "G2-344": {
    "title": "Logikkoppgaver med enten-eller-ledetråder",
-   "instruction": "En ja-ledetråd får en hake, en nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring."
+   "instruction": "En ja-ledetråd får en hake, en nei-ledetråd et kryss, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen og sett ring om svaret."
   },
   "G3-378": {
    "title": "Logikkoppgaver 4 x 4: Seks ledetråder",
@@ -443,7 +443,7 @@
   },
   "G1-349": {
    "title": "Logikkoppgaver med bildeledetråder",
-   "instruction": "Et bilde med strek over betyr: Barnet har det ikke. Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring."
+   "instruction": "Strek over et bilde betyr: Barnet har det ikke. Ring rundt et bilde betyr: Barnet har det. Stryk ut i tabellen, og sett så ring rundt hvert svar."
   },
   "G3-379": {
    "title": "Logikkoppgaver med to kjennetegn",
@@ -19283,7 +19283,7 @@
     },
     "K-330": {
      "title": "Første lyd er gitt: Skriv lydene videre",
-     "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute."
+     "instruction": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tom rute. I en bred rute skriver du to bokstaver som er én lyd."
     },
     "G1-312": {
      "title": "Lydstripe: Hvor mange lyder har ordet?",
@@ -20142,7 +20142,7 @@
     },
     "F4": {
      "title": "Ordenstall fra begge sider: Start ved flagget",
-     "instruction": "Se etter flagget først: Det kan stå på begge sider. Start der, tell til tallet på hver brikke og lag merket."
+     "instruction": "Se etter flagget først: Det kan stå i den ene eller den andre enden. Start der, tell til tallet på hver brikke og lag merket."
     },
     "F5": {
      "title": "Hvem vinner løpet? Skriv plassen",
@@ -28798,15 +28798,15 @@
    "strings": {
     "G1-309": {
      "title": "Rimord: Finn rimet og skriv ordet",
-     "instruction": "Si det første bildet. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
+     "instruction": "Si hva det første bildet heter. Sett ring rundt bildet som rimer på det, og skriv ordet på linja."
     },
     "K-352": {
      "title": "Rimer det?",
-     "instruction": "Si begge bildene høyt. Hvis de to ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
+     "instruction": "Si høyt hva de to bildene heter. Hvis ordene rimer, setter du ring rundt haken. Hvis ikke, setter du ring rundt krysset."
     },
     "G1-343": {
      "title": "Sorter rimordene",
-     "instruction": "Si hvert bilde i ordbanken. Finn det store bildet det rimer på, og skriv ordet på en linje under."
+     "instruction": "Si hva hvert bilde i bildebanken heter. Finn det store bildet det rimer på, og skriv ordet på en linje under."
     },
     "G1-344": {
      "title": "Fullfør rimet",
@@ -28814,7 +28814,7 @@
     },
     "G1-345": {
      "title": "Rimrekker",
-     "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
+     "instruction": "Si hva hvert bilde heter. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
     },
     "G1-346": {
      "title": "Skriv dine egne rimord",
@@ -34751,7 +34751,7 @@
     },
     "F1": {
      "title": "Logikkoppgaver med enten-eller-ledetråder",
-     "instruction": "En ja-ledetråd får en hake, en nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring."
+     "instruction": "En ja-ledetråd får en hake, en nei-ledetråd et kryss, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen og sett ring om svaret."
     },
     "F2": {
      "title": "Logikkoppgaver 4 x 4: Seks ledetråder",
@@ -34759,7 +34759,7 @@
     },
     "F3": {
      "title": "Logikkoppgaver med bildeledetråder",
-     "instruction": "Et bilde med strek over betyr: Barnet har det ikke. Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring."
+     "instruction": "Strek over et bilde betyr: Barnet har det ikke. Ring rundt et bilde betyr: Barnet har det. Stryk ut i tabellen, og sett så ring rundt hvert svar."
     },
     "F4": {
      "title": "Logikkoppgaver med to kjennetegn",

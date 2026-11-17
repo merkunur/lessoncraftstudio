@@ -3,7 +3,10 @@
  * Answers a child could find without the skill (2026-11-17 audit of the makers' new versions):
  *   rc      G2-254, G2-269 … G2-273 Reading Comprehension — the right letter sat under the same place on most stories
  *           ("Story 5" level 1: B, C, A on every new version); now each copy places its answers (placeAnswers)
- *   wc      G1-497 Parts of Speech in Sentences — the verb was the 4th word of every sentence, the adjective mostly the 2nd
+ *   wc      G1-497 Parts of Speech in Sentences — the verb was the 4th word of every sentence, the adjective mostly the 2nd;
+ *           now levels 2 and 3 hold at most half of a page's answers in one place, in every language (FAIL, not a warning),
+ *           the published page (level 2, copy 1) included, and the extra sentences (WORD_CLASS_SENTENCES) are checked one
+ *           by one
  *   place   G2-399 Which Place Decides? — level 2 was decided by the tens on every card of every copy
  *   count   G1-308 Read and Do — "write how many" answered 2 on nine rows in ten at levels 2 and 3
  *   number  G1-411 Stop at the Number — level 1 asked 2 on every card
@@ -67,26 +70,61 @@ function run(fault) {
     }
   } finally { faces.forEach((t, i) => { t._buildLevel = keepBL[i]; }); }
 
-  // ---- wc: where the asked words stand (G1-497 levels 2 and 3; every copy but the published level-2 one)
+  // ---- wc: where the asked words stand (G1-497 levels 2 and 3, every copy, the published level-2 one included), every language
   const GT = require(path.join(WG, 'data', 'grammar', 'grammar-tables.js'));
-  const keepWC = GT.WORD_CLASS_SENTENCES.en;
-  if (fault === 'wc-no-extra') GT.WORD_CLASS_SENTENCES.en = [];
+  const keepWC = { ...GT.WORD_CLASS_SENTENCES };
+  const keepBuild = typeOf('G1-497').build;
+  if (fault === 'wc-no-extra') for (const loc of LOCALES) GT.WORD_CLASS_SENTENCES[loc] = [];
+  if (fault === 'wc-bank-old') GT.WORD_CLASS_SENTENCES.de = keepWC.de.concat([GT.SENTENCES.de[0]]);
+  if (fault === 'wc-bank-two-verbs') GT.WORD_CLASS_SENTENCES.fi = keepWC.fi.slice(0, -1).concat(['Pieni/A kissa/N syö/V ja/X nukkuu/V sohvalla/N ./.']);
   try {
-    const wc = typeOf('G1-497');
-    for (const loc of LOCALES) for (const level of [2, 3]) {
-      const shares = [];
-      for (let v = 2; v <= 41; v++) {
-        const b = cat(wc, level, loc, fault === 'wc-published' && level === 2 ? 1 : v);
-        const places = [];
-        for (const s of b.meta.sentences) s.split(' ').filter((w) => w !== '.').forEach((w, i) => { if (/^\[.*\]$/.test(w)) places.push(i + 1); });
-        shares.push(share(places).share);
+    // the extra sentences themselves: 18 per language, the file's tags only, one verb and an adjective each, a full stop
+    // at the end and nowhere else, none twice, none an old sentence (SENTENCES)
+    const TAGS = new Set(['D', 'A', 'N', 'V', 'X', 'M', '.']);
+    for (const loc of LOCALES) {
+      const extra = GT.WORD_CLASS_SENTENCES[loc] || [];
+      if (extra.length < 18) fails.push(`wc G1-497 ${loc}: ${extra.length} extra sentences (18 wanted)`);
+      const seen = new Set(), old = new Set(GT.SENTENCES[loc]);
+      const words = (s) => s.split(' ').map((t) => t.slice(0, t.lastIndexOf('/'))).filter((w) => w !== '.').join(' ').toLowerCase();
+      const oldWords = new Set(GT.SENTENCES[loc].map(words));
+      for (const s of extra) {
+        const tags = s.split(' ').map((t) => t.slice(t.lastIndexOf('/') + 1));
+        if (tags.some((t) => !TAGS.has(t)) || s.split(' ').some((t) => t.lastIndexOf('/') < 1)) fails.push(`wc G1-497 ${loc}: "${s}" carries a tag outside the file's tags`);
+        if (tags.filter((t) => t === 'V').length !== 1) fails.push(`wc G1-497 ${loc}: "${s}" has ${tags.filter((t) => t === 'V').length} verbs, one wanted`);
+        if (!tags.includes('A')) fails.push(`wc G1-497 ${loc}: "${s}" has no adjective`);
+        if (!s.endsWith(' ./.') || tags.filter((t) => t === '.').length !== 1) fails.push(`wc G1-497 ${loc}: "${s}" does not end with one full stop`);
+        if (seen.has(words(s))) fails.push(`wc G1-497 ${loc}: "${s}" twice`);
+        if (old.has(s) || oldWords.has(words(s))) fails.push(`wc G1-497 ${loc}: "${s}" is one of the old sentences`);
+        seen.add(words(s));
       }
-      const over = shares.filter((x) => x > 0.5).length;
-      const msg = `wc G1-497 ${loc} L${level}: ${over} of 40 pages hold more than half their answers in one place (mean top share ${(shares.reduce((a, b) => a + b, 0) / shares.length).toFixed(2)})`;
-      // English has the sentences for it (WORD_CLASS_SENTENCES); the other banks await theirs (sentences-needed list)
-      if (loc === 'en') { if (over) fails.push(msg); } else if (over) WARN.push(msg);
     }
-  } finally { GT.WORD_CLASS_SENTENCES.en = keepWC; }
+    const wc = typeOf('G1-497');
+    // planted: the published page drawn from the old bank alone again (the exemption it had until 2026-11-17)
+    if (fault === 'wc-published-old') wc.build = function (a, c) {
+      if (!(Number(a.difficulty) === 2 && ((c && c.variant) || 1) === 1)) return keepBuild.call(this, a, c);
+      const hold = { ...GT.WORD_CLASS_SENTENCES };
+      for (const k of Object.keys(hold)) delete GT.WORD_CLASS_SENTENCES[k];
+      try { return keepBuild.call(this, a, c); } finally { Object.assign(GT.WORD_CLASS_SENTENCES, hold); }
+    };
+    const placesOf = (b) => { const p = []; for (const s of b.meta.sentences) s.split(' ').filter((w) => w !== '.').forEach((w, i) => { if (/^\[.*\]$/.test(w)) p.push(i + 1); }); return p; };
+    for (const loc of LOCALES) {
+      // the published page (copy 1 of level 2) too holds at most half of its answers in one place
+      const pub = share(placesOf(cat(wc, 2, loc, 1)));
+      if (pub.share > 0.5) fails.push(`wc G1-497 ${loc}: copy 1 of level 2 (the published page) holds ${pub.top} of its ${Math.round(pub.top / pub.share)} verbs in one place`);
+      // copies 1..121 and 40 of the maker's copy numbers (shell nextVariant), levels 2 and 3: never more than half of a
+      // page's answers in one place
+      const copies = []; for (let v = 1; v <= 121; v++) copies.push(v);
+      const mr = makeRng('wc-maker-copies|' + loc); let mv = 121; for (let k = 0; k < 40; k++) { mv += 1 + Math.floor(mr.next() * 97); copies.push(mv); }
+      for (const level of [2, 3]) {
+        const shares = [];
+        for (const v of copies) {
+          shares.push(share(placesOf(cat(wc, level, loc, v))).share);
+        }
+        const over = shares.filter((x) => x > 0.5).length;
+        if (over) fails.push(`wc G1-497 ${loc} L${level}: ${over} of ${copies.length} pages hold more than half their answers in one place (mean top share ${(shares.reduce((a, b) => a + b, 0) / shares.length).toFixed(2)})`);
+      }
+    }
+  } finally { for (const loc of Object.keys(GT.WORD_CLASS_SENTENCES)) delete GT.WORD_CLASS_SENTENCES[loc]; Object.assign(GT.WORD_CLASS_SENTENCES, keepWC); typeOf('G1-497').build = keepBuild; }
 
   // ---- place: G2-399 the deciding place
   const g399 = typeOf('G2-399');
@@ -150,7 +188,7 @@ if (!POISON) {
   process.exit(fails.length ? 1 : 0);
 } else {
   let bad = 0;
-  const faults = ['rc-authored', 'rc-same-letter', 'wc-no-extra', 'wc-published', 'place-fixed', 'count-fixed', 'number-fixed'];
+  const faults = ['rc-authored', 'rc-same-letter', 'wc-no-extra', 'wc-published-old', 'wc-bank-old', 'wc-bank-two-verbs', 'place-fixed', 'count-fixed', 'number-fixed'];
   for (const f of faults) {
     const n = run(f).length;
     console.log((n ? 'caught   ' : 'MISSED   ') + f + (n ? ` (${n} reports)` : ''));

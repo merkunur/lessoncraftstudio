@@ -1300,11 +1300,11 @@
   "strings": {
     "G1-309": {
       "title": "Reimwörter: Reimen und schreiben",
-      "instruction": "Sprich das erste Bild. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
+      "instruction": "Sag, wie das erste Bild heißt. Kreise das Bild ein, das sich darauf reimt, und schreibe sein Wort auf die Linie."
     },
     "K-352": {
       "title": "Reimt sich das?",
-      "instruction": "Sprich beide Bilder laut. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
+      "instruction": "Sag laut, wie die beiden Bilder heißen. Wenn sich die zwei Wörter reimen, kreise den Haken ein. Wenn nicht, kreise das Kreuz ein."
     },
     "G1-343": {
       "title": "Reimwörter sortieren",

@@ -5,11 +5,13 @@
   },
   "K-004": {
     "title": "Laske kymppiruudusta",
-    "instruction": "Laske ruudun kuvat. Kirjoita luku."
+    "instruction": "Laske kymppiruudukon kuvat. Kirjoita luku.",
+    "printTitle": "Laske kymppiruudukosta"
   },
   "K-005": {
     "title": "Täytä kymppiruutu",
-    "instruction": "Piirrä ruutuun yksi piste jokaista luvun osoittamaa kohti."
+    "instruction": "Piirrä kymppiruudukkoon yhtä monta pistettä kuin luku osoittaa.",
+    "printTitle": "Täytä kymppiruudukko"
   },
   "K-006": {
     "title": "Laske ja kirjoita",
@@ -41,15 +43,17 @@
   },
   "K-013": {
     "title": "Laske lajeittain",
-    "instruction": "Laske jokainen kuvalaji. Kirjoita, montako löydät."
+    "instruction": "Laske kunkin lajin kuvat. Kirjoita, montako löydät."
   },
   "K-014": {
     "title": "Piirrä tukkimiehet",
-    "instruction": "Laske kuvat. Piirrä tukkimerkit ruutuun."
+    "instruction": "Laske kuvat. Piirrä tukkimiehen merkit ruutuun.",
+    "printTitle": "Piirrä tukkimiehen merkit"
   },
   "K-015": {
     "title": "Lue tukkimiehet",
-    "instruction": "Laske tukkimerkit. Kirjoita luku."
+    "instruction": "Laske tukkimiehen merkit. Kirjoita luku.",
+    "printTitle": "Lue tukkimiehen kirjanpito"
   },
   "K-016": {
     "title": "Pariton vai parillinen?",
@@ -57,11 +61,11 @@
   },
   "K-017": {
     "title": "Vilkaise nopeasti!",
-    "instruction": "Älä laske yksitellen! Vilkaise nopeasti ja ympyröi montako."
+    "instruction": "Älä laske yksitellen! Vilkaise nopeasti ja ympyröi, montako niitä on."
   },
   "K-018": {
     "title": "Montako? Nopeasti!",
-    "instruction": "Vilkaise nopeasti ja ympyröi montako näet."
+    "instruction": "Vilkaise nopeasti ja ympyröi, montako näet."
   },
   "K-019": {
     "title": "Puuttuvat luvut 10:een",
@@ -86,11 +90,13 @@
   },
   "K-024": {
     "title": "Yhdistä kymppiruutuun",
-    "instruction": "Piirrä viiva jokaisesta luvusta sen kymppiruutuun."
+    "instruction": "Piirrä viiva jokaisesta luvusta sen kymppiruudukkoon.",
+    "printTitle": "Yhdistä kymppiruudukkoon"
   },
   "K-025": {
     "title": "Yhdistä tukkimiehiin",
-    "instruction": "Piirrä viiva jokaisesta luvusta sen tukkimerkkeihin."
+    "instruction": "Piirrä viiva jokaisesta luvusta sen tukkimiehen merkkeihin.",
+    "printTitle": "Yhdistä tukkimiehen merkkeihin"
   },
   "K-027": {
     "title": "Laske ruudukko",
@@ -118,7 +124,8 @@
   },
   "K-033": {
     "title": "Pieni, keski, iso",
-    "instruction": "Numeroi kuvat 1 (pienin) – 3 (suurin)."
+    "instruction": "Numeroi kuvat 1 (pienin) – 3 (suurin).",
+    "printTitle": "Pieni, keskikokoinen, iso"
   },
   "K-034": {
     "title": "Pienimmästä suurimpaan",
@@ -126,11 +133,13 @@
   },
   "K-035": {
     "title": "Pitkä ja lyhyt",
-    "instruction": "Ympyröi joka rivin KORKEIN."
+    "instruction": "Ympyröi joka rivin KORKEIN.",
+    "printTitle": "Korkea ja matala"
   },
   "K-036": {
     "title": "Lyhyestä pitkään",
-    "instruction": "Numeroi kuvat 1 (matalin) – 4 (korkein)."
+    "instruction": "Numeroi kuvat 1 (matalin) – 4 (korkein).",
+    "printTitle": "Matalimmasta korkeimpaan"
   },
   "K-037": {
     "title": "Pitkä ja lyhyt esine",
@@ -203,7 +212,8 @@
   },
   "K-060": {
     "title": "Etsin silmälläni…",
-    "instruction": "Katso tarkkaan! Laske jokainen laji ja kirjoita luku."
+    "instruction": "Katso tarkkaan! Laske kunkin lajin kuvat ja kirjoita luku.",
+    "printTitle": "Näen jotain…"
   },
   "K-061": {
     "title": "Etsi erot",
@@ -232,11 +242,12 @@
   },
   "K-067": {
     "title": "Sisällä ja ulkona",
-    "instruction": "Ympyröi jokainen kuva ison kuvion SISÄLLÄ."
+    "instruction": "Ympyröi jokainen kuva ison kuvion SISÄLLÄ.",
+    "printTitle": "Sisällä ja ulkopuolella"
   },
   "K-068": {
     "title": "Mikä sopii aukkoon?",
-    "instruction": "Joka rivillä on yhtä kuvalajia. Ympyröi pala, joka sopii tyhjään ruutuun."
+    "instruction": "Joka rivillä on vain yhdenlaisia kuvia. Ympyröi pala, joka sopii tyhjään ruutuun."
   },
   "K-069": {
     "title": "Mikä se on?",
@@ -289,7 +300,8 @@
   },
   "G1-105": {
     "title": "Kymppiruudun yhteenlasku",
-    "instruction": "Laske kaksi väriä. Kirjoita yhteenlaskun vastaus."
+    "instruction": "Laske kaksi väriä. Kirjoita yhteenlaskun vastaus.",
+    "printTitle": "Kymppiruudukon yhteenlasku"
   },
   "G1-106": {
     "title": "Tee 10!",
@@ -337,7 +349,8 @@
   },
   "G1-120": {
     "title": "Kympit ja ykköset",
-    "instruction": "Laske kympit ja ykköset. Kirjoita luku."
+    "instruction": "Laske kymmenet ja ykköset. Kirjoita luku.",
+    "printTitle": "Kymmenet ja ykköset"
   },
   "G1-121": {
     "title": "Rakenna oikein",
@@ -381,7 +394,8 @@
   },
   "G1-133": {
     "title": "Venytä luku",
-    "instruction": "Katso palikoita. Ympyröi sopiva hajotettu muoto."
+    "instruction": "Katso palikoita. Ympyröi sopiva hajotelma.",
+    "printTitle": "Hajota luku"
   },
   "G1-135": {
     "title": "Pienin ensin",
@@ -425,11 +439,12 @@
   },
   "G1-146": {
     "title": "Lajittele ja laske",
-    "instruction": "Laske jokainen laji rivistä. Kirjoita summat taulukkoon."
+    "instruction": "Laske rivistä kunkin lajin kuvat. Kirjoita määrät taulukkoon."
   },
   "G1-147": {
     "title": "Laske ja kuvaa",
-    "instruction": "Lue luvut. Väritä kuvaajaan yksi ruutu jokaista kohti."
+    "instruction": "Lue luvut. Väritä kuvaajaan yksi ruutu jokaista kohti.",
+    "printTitle": "Laske ja tee kaavio"
   },
   "G1-148": {
     "title": "Tasatunnit",
@@ -453,7 +468,7 @@
   },
   "G1-158": {
     "title": "Kuvasudoku",
-    "instruction": "Joka riviin, sarakkeeseen ja ruutuun tulee kaikki neljä kuvaa — piirrä tyhjiin ruutuihin."
+    "instruction": "Jokaiseen riviin, sarakkeeseen ja laatikkoon tulee kaikki neljä kuvaa. Piirrä puuttuvat kuvat tyhjiin ruutuihin tai kirjoita niiden nimet."
   },
   "G1-160": {
     "title": "Kolme ryhmää",
@@ -521,19 +536,21 @@
   },
   "G2-221": {
     "title": "Pyöristä!",
-    "instruction": "Katso pistettä. Ympyröi kymmenluku, jota se on lähempänä."
+    "instruction": "Katso pistettä. Ympyröi tasakymmen, jota se on lähempänä."
   },
   "G2-222": {
     "title": "Lue palikat",
-    "instruction": "Laske sadat, kympit ja ykköset. Kirjoita luku, jonka ne näyttävät."
+    "instruction": "Laske sadat, kymmenet ja ykköset. Kirjoita luku, jonka ne näyttävät."
   },
   "G2-223": {
     "title": "Sadat, kympit, ykköset",
-    "instruction": "Katso palikoita. Ympyröi sopiva hajotettu muoto."
+    "instruction": "Katso palikoita. Ympyröi sopiva hajotelma.",
+    "printTitle": "Sadat, kymmenet, ykköset"
   },
   "G2-224": {
     "title": "Lajittele paikat",
-    "instruction": "Laske palikat. Täytä paikka-arvotaulukko."
+    "instruction": "Laske palikat. Täytä paikka-arvotaulukko.",
+    "printTitle": "Täytä paikka-arvotaulukko"
   },
   "G2-225": {
     "title": "Numeroetsivä",
@@ -573,7 +590,8 @@
   },
   "G2-234": {
     "title": "Leikkaa oikein",
-    "instruction": "Ympyröi kuvio, joka näyttää murtoluvun."
+    "instruction": "Ympyröi kuvio, joka näyttää murtoluvun.",
+    "printTitle": "Oikein jaettu"
   },
   "G2-235": {
     "title": "Mittaa!",
@@ -615,7 +633,8 @@
   },
   "G2-244": {
     "title": "Taso vai kappale?",
-    "instruction": "Piirrä viiva muodosta laatikkoon: tasokuviot vasemmalle, kappaleet oikealle."
+    "instruction": "Piirrä viiva muodosta laatikkoon: tasokuviot vasemmalle, kappaleet oikealle.",
+    "printTitle": "Tasokuvio vai kappale?"
   },
   "G2-245": {
     "title": "Laske särmät",
@@ -652,7 +671,7 @@
   },
   "G3-308": {
     "title": "Kertolaskuhypyt",
-    "instruction": "Seuraa yhtä suuria hyppyjä nollasta. Kirjoita jokainen osumaluku."
+    "instruction": "Seuraa yhtä suuria hyppyjä nollasta. Kirjoita jokainen luku, johon hyppy päättyy."
   },
   "G3-309": {
     "title": "Jaa osiin",
@@ -712,7 +731,8 @@
   },
   "G3-323": {
     "title": "Pyöristä sataan",
-    "instruction": "Katso pistettä. Ympyröi sataluku, jota se on lähempänä."
+    "instruction": "Katso pistettä. Ympyröi tasasata, jota se on lähempänä.",
+    "printTitle": "Pyöristä satojen tarkkuudella"
   },
   "G3-325": {
     "title": "Tuhansien kamppailu",
@@ -733,11 +753,12 @@
   },
   "G3-329": {
     "title": "Iso harppauslasku",
-    "instruction": "Etsi laskusääntö. Kirjoita jokainen puuttuva luku."
+    "instruction": "Etsi laskusääntö. Kirjoita jokainen puuttuva luku.",
+    "printTitle": "Lukujonot isoin hypyin"
   },
   "G3-332": {
     "title": "Isojen pylväiden asteikko",
-    "instruction": "Varo — asteikko etenee viiden välein! Kirjoita jokaisen pylvään arvo.",
+    "instruction": "Varo – asteikko etenee viiden välein! Kirjoita jokaisen pylvään arvo.",
     "printTitle": "Pylväät viiden välein"
   },
   "G3-333": {
@@ -808,7 +829,7 @@
   },
   "G3-348": {
     "title": "Iso kuvasudoku",
-    "instruction": "Joka riviin, sarakkeeseen ja ruutuun tarvitaan kaikki kuusi kuvaa — täytä tyhjät."
+    "instruction": "Jokaiseen riviin, sarakkeeseen ja laatikkoon tarvitaan kaikki kuusi kuvaa. Täytä tyhjät ruudut."
   },
   "G3-349": {
     "title": "Taikaneliöt",
@@ -820,7 +841,7 @@
   },
   "G3-351": {
     "title": "Mikä täydentää pulman?",
-    "instruction": "Rivit jakavat kuvan, sarakkeet koon. Ympyröi, mikä sopii tyhjään ruutuun."
+    "instruction": "Joka rivillä on sama kuva, joka sarakkeessa sama koko. Ympyröi, mikä sopii tyhjään ruutuun."
   },
   "G3-353": {
     "title": "Lajittele kahteen ympyrään",
@@ -1577,15 +1598,15 @@
   },
   "G1-251": {
     "title": "Lue ja väritä: neljä lausetta",
-    "instruction": "Neljä lausetta ja neljä väriä. Väritä tarkasti."
+    "instruction": "Neljä lausetta ja neljä väriä. Lue jokainen lause ja väritä tarkasti se, mitä lause pyytää."
   },
   "G1-252": {
     "title": "Lue ja väritä: täysi sivu",
-    "instruction": "Kuusi lausetta ja kuusi väriä. Lue ne tarkasti."
+    "instruction": "Kuusi lausetta ja kuusi väriä. Lue jokainen lause tarkasti ja väritä se, mitä lause pyytää."
   },
   "G1-255": {
     "title": "Päivän luku 11–19",
-    "instruction": "Täytä kymppiruudut, tukkimiehen kirjanpito ja muut ruudut päivän luvun mukaan."
+    "instruction": "Täytä kymppiruudukot, tukkimiehen kirjanpito ja muut ruudut päivän luvun mukaan."
   },
   "G1-256": {
     "title": "Päivän luku: 10 enemmän, 10 vähemmän",
@@ -1593,7 +1614,7 @@
   },
   "G1-257": {
     "title": "Päivän luku: kaksinumeroiset luvut",
-    "instruction": "Päivän luku on 21–99. Näytä se kymppeinä ja ykkösinä."
+    "instruction": "Päivän luku on 21–99. Näytä se kymmeninä ja ykkösinä ja täytä kaikki ruudut."
   },
   "G1-258": {
     "title": "Kirjoita sana: alkukirjain valmiina",
@@ -1621,7 +1642,7 @@
   },
   "G1-266": {
     "title": "Lukupyramidi 10:een",
-    "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Mikään luku ei ylitä 10:tä."
+    "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Täytä pyramidit huipulle asti. Mikään luku ei ylitä 10:tä."
   },
   "G1-267": {
     "title": "Lukupyramidi: neljä kerrosta",
@@ -1629,7 +1650,7 @@
   },
   "G1-268": {
     "title": "Lukupyramidi: puuttuva tiili",
-    "instruction": "Yksi alin tiili puuttuu. Käytä yläpuolen tiiliä apuna."
+    "instruction": "Yksi alimman rivin tiilistä puuttuu. Selvitä se yläpuolen tiilien avulla ja täytä koko pyramidi."
   },
   "G1-270": {
     "title": "Tuplaa ja puolita kuvien avulla",
@@ -1673,7 +1694,7 @@
   },
   "G1-282": {
     "title": "Järjestä lause: vihjeet mukana",
-    "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat."
+    "instruction": "Järjestä sanat lauseeksi ja kirjoita lause viivalle. Iso alkukirjain ja piste näyttävät, mistä lause alkaa ja mihin se loppuu."
   },
   "G1-283": {
     "title": "Järjestä lause ilman vihjeitä",
@@ -1701,15 +1722,15 @@
   },
   "G2-289": {
     "title": "Rahalaskut: kaksi kysymystä",
-    "instruction": "Lue molemmat tarinat. Käytä hyllyn hintoja apuna."
+    "instruction": "Lue molemmat tarinat ja vastaa niihin. Käytä hyllyn hintoja apuna."
   },
   "G2-290": {
     "title": "Rahalaskut: neljä eri kysymystä",
-    "instruction": "Neljä korttia ja neljä erilaista kysymystä."
+    "instruction": "Vastaa jokaisen neljän kortin kysymykseen."
   },
   "G2-291": {
     "title": "Rahalaskut: laske ostokset yhteen",
-    "instruction": "Jokaisessa kortissa lasketaan kahden tavaran hinta."
+    "instruction": "Jokaisessa kortissa kysytään yhteishintaa. Laske hinnat yhteen."
   },
   "G2-292": {
     "title": "Rahalaskut: kolme tavaraa korissa",
@@ -1721,7 +1742,7 @@
   },
   "G2-294": {
     "title": "Rahalaskut: riittääkö raha?",
-    "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei."
+    "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei ja kirjoita sitten summa."
   },
   "G2-295": {
     "title": "Rahalaskut: paljonko enemmän?",
@@ -1733,15 +1754,15 @@
   },
   "G2-297": {
     "title": "Kalenterin lukeminen: kiireinen kuukausi",
-    "instruction": "Kuukausi on täynnä. Lue kalenteria tarkasti."
+    "instruction": "Lue kalenteria tarkasti. Etsi päivämäärä, joka on viikkoa myöhemmin, ja laske, montako päivää on tarrasta toiseen."
   },
   "G2-298": {
     "title": "Kalenteri ja viikonpäivät",
-    "instruction": "Kaikki kysymykset koskevat viikonpäiviä."
+    "instruction": "Kaikki kysymykset koskevat viikonpäiviä. Lue kalenteria sarakkeittain ylhäältä alas ja vastaa kysymyksiin."
   },
   "G2-299": {
     "title": "Kirjoita kuvasta aloitusten avulla",
-    "instruction": "Aloituslauseet auttavat. Sanapankissa ovat sanat."
+    "instruction": "Kirjoita kuvasta, mitä näet. Aloituslauseet auttavat sinua alkuun, ja sanapankista löydät kuvan sanat."
   },
   "G2-300": {
     "title": "Kirjoita kuvasta omin sanoin",
@@ -1753,7 +1774,7 @@
   },
   "G2-303": {
     "title": "Koordinaatit 10×10-ruudukossa",
-    "instruction": "Isompi ruudukko. Käy värilista huolellisesti läpi."
+    "instruction": "Isompi ruudukko: etsi jokainen ruutu kirjaimen ja numeron avulla ja väritä se, niin kuva paljastuu."
   },
   "G3-371": {
     "title": "Sanalliset kertolaskut",
@@ -1761,19 +1782,19 @@
   },
   "G3-372": {
     "title": "Sanalliset jakolaskut: jaa tasan",
-    "instruction": "Jokaisessa tarinassa jaetaan tasan laatikoihin."
+    "instruction": "Jokaisessa tarinassa jaetaan tasan. Jaa tavarat laatikoihin ja kirjoita vastaus."
   },
   "G3-373": {
     "title": "Sanalliset jakolaskut: tee ryhmiä",
-    "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja laske ne."
+    "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja kirjoita vastaus."
   },
   "G3-374": {
     "title": "Jakolaskut kahdella tavalla",
-    "instruction": "Toisessa jaetaan tasan, toisessa tehdään ryhmiä."
+    "instruction": "Toisessa tarinassa jaetaan tasan, toisessa tehdään ryhmiä. Ratkaise molemmat jakolaskulla."
   },
   "G3-375": {
     "title": "Kertolasku ja ryhmiin jako",
-    "instruction": "Toisessa kootaan ryhmiä, toisessa puretaan niitä."
+    "instruction": "Toisessa tarinassa kootaan ryhmiä, toisessa puretaan niitä. Ratkaise molemmat tarinat."
   },
   "G3-376": {
     "title": "Sekalaiset kerto- ja jakolaskut",
@@ -1781,7 +1802,7 @@
   },
   "K-308": {
     "title": "Yhdistä pisteet takaperin 10–1",
-    "instruction": "Aloita oranssista pisteestä ja laske takaperin 10:stä 1:een."
+    "instruction": "Aloita oranssista pisteestä ja yhdistä pisteet takaperin 10:stä 1:een."
   },
   "G1-285": {
     "title": "Yhdistä pisteet kahden välein 2–20",
@@ -1805,7 +1826,7 @@
   },
   "G1-286": {
     "title": "Tuplaa ja puolita kuvilla 20:een asti",
-    "instruction": "Osassa kortteja tuplataan, osassa puolitetaan."
+    "instruction": "Osassa korteista ryhmä tuplataan, osassa puolitetaan. Tuplaa tai puolita jokainen ryhmä ja kirjoita vastaus."
   },
   "G2-305": {
     "title": "Lukusuora 40–60",
@@ -1957,7 +1978,7 @@
   },
   "G1-305": {
     "title": "Tavuta sanat: taputa ja merkitse tavut",
-    "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva jokaisen tavun väliin."
+    "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva tavujen väliin."
   },
   "G1-306": {
     "title": "Tavutaulukko: lue tavut ja kirjoita",
@@ -1973,7 +1994,7 @@
   },
   "G1-309": {
     "title": "Riimisanat: rimmaa ja kirjoita",
-    "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+    "instruction": "Sano ensimmäisen kuvan nimi ääneen. Ympyröi kuva, jonka nimi rimmaa sen kanssa, ja kirjoita sitten sen nimi viivalle."
   },
   "G1-310": {
     "title": "Satataulun palat: täydennä luvut",
@@ -1997,7 +2018,7 @@
   },
   "G2-319": {
     "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
-    "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+    "instruction": "Lue vihjeet. Rastita ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
   },
   "G3-377": {
     "title": "Jakojäännös: ympyröi ryhmät",
@@ -2009,7 +2030,7 @@
   },
   "K-326": {
     "title": "Missä tavussa {U} kuuluu?",
-    "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa {U} kuuluu: alussa, keskellä vai lopussa."
+    "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä kohtaa sanaa {U} kuuluu: alussa, keskellä vai lopussa."
   },
   "K-327": {
     "title": "Ympyröi {U} sanoista ja laske",
@@ -2129,7 +2150,7 @@
   },
   "K-343": {
     "title": "Minun perheeni: piirrä ja laske",
-    "instruction": "Piirrä perheesi. Näytä sitten kymppiruuduissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
+    "instruction": "Piirrä perheesi. Näytä sitten kymppiruudukoissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
   },
   "K-344": {
     "title": "Tässä olen minä: nimeä kasvojen osat",
@@ -2149,7 +2170,7 @@
   },
   "K-349": {
     "title": "Yksi ja monta: yksikkö- ja monikkokortit",
-    "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
+    "instruction": "Leikkaa kortit irti. Sano sana yksikössä ja monikossa ja yhdistä sitten jokainen pari."
   },
   "K-350": {
     "title": "Kaksikieliset kuvakortit: suomi ja {U}",
@@ -2177,7 +2198,8 @@
   },
   "G1-329": {
     "title": "Tavun vokaali: jokaisessa tavussa yksi",
-    "instruction": "Jokaisessa tavussa on yksi vokaaliäänne. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
+    "instruction": "Jokaisessa tavussa on ainakin yksi vokaali. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään.",
+    "printTitle": "Tavun vokaali: jokaisessa tavussa on vokaali"
   },
   "G1-330": {
     "title": "Tavutaulukko: lue ja ympyröi tavu",
@@ -2205,7 +2227,7 @@
   },
   "G1-335": {
     "title": "Vastakohdat lauseessa",
-    "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+    "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, jota ei-sana kieltää. Sanapankki auttaa."
   },
   "G1-336": {
     "title": "Etsi vastakohtaparit",
@@ -2241,11 +2263,11 @@
   },
   "K-352": {
     "title": "Rimmaako vai ei?",
-    "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+    "instruction": "Sano molempien kuvien nimet ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
   },
   "G1-343": {
     "title": "Lajittele riimisanat",
-    "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+    "instruction": "Sano jokaisen sanapankin kuvan nimi. Etsi iso kuva, jonka nimen kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
   },
   "G1-344": {
     "title": "Täydennä loru: puuttuva riimisana",
@@ -2253,7 +2275,7 @@
   },
   "G1-345": {
     "title": "Riimiketjut",
-    "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+    "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
   },
   "G1-346": {
     "title": "Keksi omat riimisanat",
@@ -2297,7 +2319,7 @@
   },
   "G2-328": {
     "title": "Astevaihtelu: {UNIT}",
-    "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+    "instruction": "Lue sana yksikössä. Kirjoita se monikossa viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
   },
   "G2-330": {
     "title": "Jaa yhdyssana osiin",
@@ -2361,11 +2383,12 @@
   },
   "G3-378": {
     "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
-    "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+    "instruction": "Neljä lasta ja neljä kuvaa. Käytä kaikkia vihjeitä: rastita se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
   },
   "G1-349": {
     "title": "Kuvavihjeet: yliviivaa ja etsi",
-    "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+    "instruction": "Rastitettu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Rastita ruudukosta ja ympyröi sitten vastaukset.",
+    "printTitle": "Kuvavihjeet: rastita ja etsi"
   },
   "G3-379": {
     "title": "Kaksi kuvaa lasta kohti: päättele molemmat",
@@ -2421,7 +2444,7 @@
   },
   "G1-351": {
     "title": "Parilliset ja parittomat luvut 20:een asti",
-    "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+    "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut taloihin ja näyttää parinsa."
   },
   "G1-352": {
     "title": "Hän vai he?",
@@ -2437,7 +2460,7 @@
   },
   "K-358": {
     "title": "Helpot tangram-kuviot 2 ja 3 palasta: piirrä viivat",
-    "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, mihin palat osuvat."
+    "instruction": "Katso kuvion yläpuolella olevia paloja. Piirrä kuvion sisään viivat, jotka näyttävät, missä palojen reunat kohtaavat."
   },
   "G1-354": {
     "title": "Tangram: neljä varjokuviota rakennettavaksi",
@@ -2545,7 +2568,7 @@
   },
   "G2-350": {
     "title": "Täydennä tarina",
-    "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana pankista omaan laatikkoonsa."
+    "instruction": "Lue koko tarina. Kolme kuvaa näyttää puuttuvat sanat. Kirjoita jokainen sana sanapankista omaan laatikkoonsa."
   },
   "G1-368": {
     "title": "Yhdistä lause kuvaan",
@@ -2637,7 +2660,7 @@
   },
   "K-370": {
     "title": "Perhe ja sukulaiset: kuka on kuka?",
-    "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+    "instruction": "Etsi jokainen henkilö sukupuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
   },
   "G1-376": {
     "title": "Kasvin osat",
@@ -2665,7 +2688,8 @@
   },
   "G2-359": {
     "title": "Kantasana: lajittele sanat vartalon mukaan",
-    "instruction": "Lue jokainen ylhäällä oleva sana ja kirjoita se sen muurin riville, jonka kivessä on sanan kantasana."
+    "instruction": "Lue jokainen ylhäällä oleva sana ja kirjoita se sen muurin riville, jonka kivessä on sanan kantasana.",
+    "printTitle": "Kantasana: lajittele sanat kantasanan mukaan"
   },
   "G1-381": {
     "title": "Tasokuviot: onko se oikea kuvio?",
@@ -2717,7 +2741,8 @@
   },
   "G1-386": {
     "title": "Perhepuu: lue vihjeet",
-    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
+    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun sukupuussa.",
+    "printTitle": "Sukupuu: lue vihjeet"
   },
   "G2-362": {
     "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
@@ -2725,7 +2750,8 @@
   },
   "G1-387": {
     "title": "Perhepuun pohja: täytä itse",
-    "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
+    "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille.",
+    "printTitle": "Sukupuun pohja: täytä itse"
   },
   "K-376": {
     "title": "Mitä kasvi tarvitsee kasvaakseen?",
@@ -2793,7 +2819,7 @@
   },
   "G2-369": {
     "title": "Ilmansuunnat: pohjoinen, itä, etelä ja länsi",
-    "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
+    "instruction": "Oranssi kärki osoittaa aina pohjoiseen, joten kirjoita jokaisen ilmansuuntaruusun kolme puuttuvaa kirjainta tyhjiin ruutuihin."
   },
   "G2-370": {
     "title": "Maanosat: kirjoita nimet",
@@ -2981,7 +3007,7 @@
   },
   "G1-411": {
     "title": "Lue ja väritä: vain oikea määrä",
-    "instruction": "Kuvia on enemmän kuin lause pyytää. Lue luku ja väritä vain niin monta kuvaa."
+    "instruction": "Kuvia on enemmän kuin lause pyytää. Lue luku ja väritä vain niin monta kuvaa kuin luku kertoo."
   },
   "K-388": {
     "title": "Päivän sana: {UNIT}",
@@ -3146,7 +3172,7 @@
   },
   "G1-425": {
     "title": "Labyrintti: väistä mursut",
-    "instruction": "Auta jääkarhua pääsemään igluun. Älä kulje yhdenkään mursun tai jäässä olevan reiän ohi.",
+    "instruction": "Auta jääkarhua pääsemään igluun. Älä valitse tietä, jolla on mursu tai reikä jäässä.",
     "printTitle": "Vie jääkarhu turvallisesti kotiin"
   },
   "K-409": {
@@ -3253,7 +3279,7 @@
   },
   "K-422": {
     "title": "Jäljennä kuvat suorin viivoin: alas, sivulle ja vinoon",
-    "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä rivi kerrallaan: alas, sivulle ja vinoon.",
+    "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä pystyrivi kerrallaan: alas, sivulle ja vinoon.",
     "printTitle": "Alas, sivulle, vinoon"
   },
   "K-423": {
@@ -3409,11 +3435,12 @@
   },
   "K-452": {
     "title": "Luku kolmella tavalla",
-    "instruction": "Jokainen rivi näyttää luvun yhdellä tavalla. Näytä se kahdella muulla tavalla: kirjoita luku, piirrä pisteet kymppiruudukkoon ja piirrä tukkimiehet."
+    "instruction": "Jokainen rivi näyttää luvun yhdellä tavalla. Näytä se kahdella muulla tavalla: kirjoita luku, piirrä pisteet kymppiruudukkoon ja piirrä tukkimiehen merkit."
   },
   "K-453": {
     "title": "Kymppiruudukon salamakortit",
-    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Näytä kortti: montako pistettä?"
+    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Näytä kortti: montako pistettä?",
+    "printTitle": "Kymppiruudukon vilautuskortit"
   },
   "K-454": {
     "title": "Väritä osat",
@@ -3529,7 +3556,8 @@
   },
   "G1-451": {
     "title": "Tupla-kone ja puolet-kone",
-    "instruction": "Tupla-kone tuplaa jokaisen luvun. Puolet-kone puolittaa sen. Täytä tyhjät laatikot."
+    "instruction": "Tuplakone tuplaa jokaisen luvun. Puolituskone puolittaa sen. Täytä tyhjät laatikot.",
+    "printTitle": "Tuplakone ja puolituskone"
   },
   "G1-452": {
     "title": "Tuplamuistipeli",
@@ -3725,7 +3753,7 @@
   },
   "K-462": {
     "title": "Tee oma kello",
-    "instruction": "Leikkaa kello ja molemmat viisarit irti. Kiinnitä viisarit keskelle jalkakiinnikkeellä."
+    "instruction": "Leikkaa kello ja molemmat viisarit irti. Kiinnitä viisarit keskelle haaraniitillä."
   },
   "K-463": {
     "title": "Järjestä koon mukaan",
@@ -3741,7 +3769,7 @@
   },
   "G2-477": {
     "title": "Mikä yksikkö?",
-    "instruction": "Millä yksiköllä mittaisit sen? Ympyröi se."
+    "instruction": "Millä yksiköllä mittaisit kunkin asian? Ympyröi se yksikkö."
   },
   "G1-481": {
     "title": "Luokkamme kaavio",
@@ -3890,7 +3918,7 @@
   },
   "K-492": {
     "title": "Mitkä kaksi kuvaa ovat samanlaiset?",
-    "instruction": "Kaksi kuvaa ovat täsmälleen samanlaiset. Etsi ne ja ympyröi molemmat."
+    "instruction": "Kaksi kuvista on täsmälleen samanlaisia. Etsi ne ja ympyröi molemmat."
   },
   "K-493": {
     "title": "Piirrä muodoista",
@@ -4338,7 +4366,8 @@
   },
   "G1-525": {
     "title": "Syntymäpäivä­pylväikkömme",
-    "instruction": "Kysy luokkatovereiltasi heidän syntymäkuukautensa. Väritä jokaiselle lapselle yksi ruutu hänen kuukautensa yläpuolelle. Laske kunkin kuukauden väritetyt ruudut."
+    "instruction": "Kysy luokkatovereiltasi heidän syntymäkuukautensa. Väritä jokaiselle lapselle yksi ruutu hänen kuukautensa yläpuolelle. Laske kunkin kuukauden väritetyt ruudut.",
+    "printTitle": "Syntymäpäiväkaaviomme"
   },
   "G1-526": {
     "title": "Tämän päivän päivämäärä",
@@ -4642,11 +4671,11 @@
   },
   "K-611": {
     "title": "Oma lukujulisteeni: {U}",
-    "instruction": "Väritä luku ja sen nimi. Väritä sitten ruudukkoon yhtä monta ruutua."
+    "instruction": "Väritä luku ja sen lukusana. Väritä sitten ruudukosta yhtä monta ruutua kuin luku kertoo."
   },
   "K-612": {
     "title": "Väritä luku ja täytä ruudukko",
-    "instruction": "Väritä jokainen luku. Väritä sitten sen ruudukkoon yhtä monta ruutua."
+    "instruction": "Väritä jokainen luku. Väritä sitten sen ruudukosta yhtä monta ruutua kuin luku kertoo."
   },
   "K-613": {
     "title": "Väritä päivät",

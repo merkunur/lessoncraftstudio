@@ -11,21 +11,21 @@
     "fi": { "left": "Ympyröi jokainen kuva viivan VASEMMALLA puolella.", "right": "Ympyröi jokainen kuva viivan OIKEALLA puolella." },
     "da": { "left": "Indkreds hvert billede på VENSTRE side af stregen.", "right": "Indkreds hvert billede på HØJRE side af stregen." },
     "it": { "left": "Cerchia ogni immagine a SINISTRA della linea.", "right": "Cerchia ogni immagine a DESTRA della linea." },
-    "es": { "left": "Rodea cada dibujo del lado IZQUIERDO de la línea.", "right": "Rodea cada dibujo del lado DERECHO de la línea." },
+    "es": { "left": "Encierra cada dibujo del lado IZQUIERDO de la línea.", "right": "Encierra cada dibujo del lado DERECHO de la línea." },
     "pt": { "left": "Circule cada figura do lado ESQUERDO da linha.", "right": "Circule cada figura do lado DIREITO da linha." }
   },
   "rows": {
     "order": ["middle", "top", "bottom"],
     "en": { "top": "Circle every picture in the TOP row.", "middle": "Circle every picture in the MIDDLE row.", "bottom": "Circle every picture in the BOTTOM row." },
     "de": { "top": "Kreise jedes Bild in der OBERSTEN Reihe ein.", "middle": "Kreise jedes Bild in der MITTLEREN Reihe ein.", "bottom": "Kreise jedes Bild in der UNTERSTEN Reihe ein." },
-    "sv": { "top": "Ringa in varje bild i ÖVERSTA raden.", "middle": "Ringa in varje bild i MITTRADEN.", "bottom": "Ringa in varje bild i NEDERSTA raden." },
+    "sv": { "top": "Ringa in varje bild i ÖVERSTA raden.", "middle": "Ringa in varje bild i MITTERSTA raden.", "bottom": "Ringa in varje bild i NEDERSTA raden." },
     "fr": { "top": "Entoure chaque image dans la rangée du HAUT.", "middle": "Entoure chaque image dans la rangée du MILIEU.", "bottom": "Entoure chaque image dans la rangée du BAS." },
     "no": { "top": "Sett ring rundt hvert bilde i ØVERSTE rad.", "middle": "Sett ring rundt hvert bilde i MIDTERSTE rad.", "bottom": "Sett ring rundt hvert bilde i NEDERSTE rad." },
     "nl": { "top": "Omcirkel elk plaatje in de BOVENSTE rij.", "middle": "Omcirkel elk plaatje in de MIDDELSTE rij.", "bottom": "Omcirkel elk plaatje in de ONDERSTE rij." },
     "fi": { "top": "Ympyröi jokainen kuva YLIMMÄLLÄ rivillä.", "middle": "Ympyröi jokainen kuva KESKIMMÄISELLÄ rivillä.", "bottom": "Ympyröi jokainen kuva ALIMMALLA rivillä." },
     "da": { "top": "Indkreds hvert billede i den ØVERSTE række.", "middle": "Indkreds hvert billede i den MIDTERSTE række.", "bottom": "Indkreds hvert billede i den NEDERSTE række." },
     "it": { "top": "Cerchia ogni immagine nella fila IN ALTO.", "middle": "Cerchia ogni immagine nella fila DI MEZZO.", "bottom": "Cerchia ogni immagine nella fila IN BASSO." },
-    "es": { "top": "Rodea cada dibujo de la fila DE ARRIBA.", "middle": "Rodea cada dibujo de la fila DEL MEDIO.", "bottom": "Rodea cada dibujo de la fila DE ABAJO." },
+    "es": { "top": "Encierra cada dibujo de la fila DE ARRIBA.", "middle": "Encierra cada dibujo de la fila DEL MEDIO.", "bottom": "Encierra cada dibujo de la fila DE ABAJO." },
     "pt": { "top": "Circule cada figura da fileira de CIMA.", "middle": "Circule cada figura da fileira do MEIO.", "bottom": "Circule cada figura da fileira de BAIXO." }
   },
   "inside-outside": {
@@ -39,7 +39,7 @@
     "fi": { "inside": "Ympyröi jokainen kuva ison kuvion SISÄLLÄ.", "outside": "Ympyröi jokainen kuva ison kuvion ULKOPUOLELLA." },
     "da": { "inside": "Indkreds hvert billede INDEN I den store figur.", "outside": "Indkreds hvert billede UDEN FOR den store figur." },
     "it": { "inside": "Cerchia ogni immagine DENTRO la forma grande.", "outside": "Cerchia ogni immagine FUORI dalla forma grande." },
-    "es": { "inside": "Rodea cada dibujo que está DENTRO de la figura grande.", "outside": "Rodea cada dibujo que está FUERA de la figura grande." },
+    "es": { "inside": "Encierra en un círculo cada dibujo que está DENTRO de la figura grande.", "outside": "Encierra en un círculo cada dibujo que está FUERA de la figura grande." },
     "pt": { "inside": "Circule cada figura que está DENTRO da forma grande.", "outside": "Circule cada figura que está FORA da forma grande." }
   }
 }

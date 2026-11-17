@@ -78,7 +78,7 @@
     },
     "F1": {
       "title": "Logikkoppgaver med enten-eller-ledetråder",
-      "instruction": "En ja-ledetråd får en hake, en nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring."
+      "instruction": "En ja-ledetråd får en hake, en nei-ledetråd et kryss, og en enten-eller-ledetråd stryker det tredje bildet. Fyll ut tabellen og sett ring om svaret."
     },
     "F2": {
       "title": "Logikkoppgaver 4 x 4: Seks ledetråder",
@@ -86,7 +86,7 @@
     },
     "F3": {
       "title": "Logikkoppgaver med bildeledetråder",
-      "instruction": "Et bilde med strek over betyr: Barnet har det ikke. Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring."
+      "instruction": "Strek over et bilde betyr: Barnet har det ikke. Ring rundt et bilde betyr: Barnet har det. Stryk ut i tabellen, og sett så ring rundt hvert svar."
     },
     "F4": {
       "title": "Logikkoppgaver med to kjennetegn",

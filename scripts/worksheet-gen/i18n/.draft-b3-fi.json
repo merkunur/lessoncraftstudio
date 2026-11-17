@@ -11,7 +11,7 @@
   },
   "K-326": {
    "title": "Missä tavussa {U} kuuluu?",
-   "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa {U} kuuluu: alussa, keskellä vai lopussa."
+   "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä kohtaa sanaa {U} kuuluu: alussa, keskellä vai lopussa."
   },
   "K-327": {
    "title": "Ympyröi {U} sanoista ja laske",
@@ -155,7 +155,7 @@
   },
   "K-343": {
    "title": "Minun perheeni: piirrä ja laske",
-   "instruction": "Piirrä perheesi. Näytä sitten kymppiruuduissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
+   "instruction": "Piirrä perheesi. Näytä sitten kymppiruudukoissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
   },
   "K-344": {
    "title": "Tässä olen minä: nimeä kasvojen osat",
@@ -179,7 +179,7 @@
   },
   "K-349": {
    "title": "Yksi ja monta: yksikkö- ja monikkokortit",
-   "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
+   "instruction": "Leikkaa kortit irti. Sano sana yksikössä ja monikossa ja yhdistä sitten jokainen pari."
   },
   "K-350": {
    "title": "Kaksikieliset kuvakortit: suomi ja {U}",
@@ -191,7 +191,7 @@
   },
   "G1-305": {
    "title": "Tavuta sanat: taputa ja merkitse tavut",
-   "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva jokaisen tavun väliin."
+   "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva tavujen väliin."
   },
   "G1-325": {
    "title": "Tavuta ja kirjoita sana",
@@ -211,7 +211,7 @@
   },
   "G1-329": {
    "title": "Tavun vokaali: jokaisessa tavussa yksi",
-   "instruction": "Jokaisessa tavussa on yksi vokaaliäänne. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
+   "instruction": "Jokaisessa tavussa on ainakin yksi vokaali. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
   },
   "G1-306": {
    "title": "Tavutaulukko: lue tavut ja kirjoita",
@@ -247,7 +247,7 @@
   },
   "G1-335": {
    "title": "Vastakohdat lauseessa",
-   "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+   "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, jota ei-sana kieltää. Sanapankki auttaa."
   },
   "G1-336": {
    "title": "Etsi vastakohtaparit",
@@ -287,15 +287,15 @@
   },
   "G1-309": {
    "title": "Riimisanat: rimmaa ja kirjoita",
-   "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+   "instruction": "Sano ensimmäisen kuvan nimi ääneen. Ympyröi kuva, jonka nimi rimmaa sen kanssa, ja kirjoita sitten sen nimi viivalle."
   },
   "K-352": {
    "title": "Rimmaako vai ei?",
-   "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+   "instruction": "Sano molempien kuvien nimet ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
   },
   "G1-343": {
    "title": "Lajittele riimisanat",
-   "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+   "instruction": "Sano jokaisen sanapankin kuvan nimi. Etsi iso kuva, jonka nimen kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
   },
   "G1-344": {
    "title": "Täydennä loru: puuttuva riimisana",
@@ -303,7 +303,7 @@
   },
   "G1-345": {
    "title": "Riimiketjut",
-   "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+   "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
   },
   "G1-346": {
    "title": "Keksi omat riimisanat",
@@ -355,7 +355,7 @@
   },
   "G2-328": {
    "title": "Astevaihtelu: {UNIT}",
-   "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+   "instruction": "Lue sana yksikössä. Kirjoita se monikossa viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
   },
   "G2-316": {
    "title": "Yhdyssanat: kuva + kuva = sana",
@@ -427,7 +427,7 @@
   },
   "G2-319": {
    "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
-   "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+   "instruction": "Lue vihjeet. Rastita ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
   },
   "G2-344": {
    "title": "Päättelypulmat: kyllä, ei tai jompikumpi",
@@ -435,11 +435,11 @@
   },
   "G3-378": {
    "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
-   "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+   "instruction": "Neljä lasta ja neljä kuvaa. Käytä kaikkia vihjeitä: rastita se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
   },
   "G1-349": {
    "title": "Kuvavihjeet: yliviivaa ja etsi",
-   "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+   "instruction": "Rastitettu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Rastita ruudukosta ja ympyröi sitten vastaukset."
   },
   "G3-379": {
    "title": "Kaksi kuvaa lasta kohti: päättele molemmat",
@@ -928,7 +928,7 @@
     },
     "K-343": {
      "title": "Minun perheeni: piirrä ja laske",
-     "instruction": "Piirrä perheesi. Näytä sitten kymppiruuduissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
+     "instruction": "Piirrä perheesi. Näytä sitten kymppiruudukoissa, montako ihmistä, veljeä, siskoa ja lemmikkiä perheessäsi on, ja kirjoita luku."
     },
     "K-344": {
      "title": "Tässä olen minä: nimeä kasvojen osat",
@@ -18851,7 +18851,7 @@
     },
     "K-326": {
      "title": "Missä tavussa {U} kuuluu?",
-     "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa {U} kuuluu: alussa, keskellä vai lopussa."
+     "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä kohtaa sanaa {U} kuuluu: alussa, keskellä vai lopussa."
     },
     "K-327": {
      "title": "Ympyröi {U} sanoista ja laske",
@@ -18959,7 +18959,7 @@
    "strings": {
     "G2-319": {
      "title": "Päättelypulmat: kolme vihjettä, yksi vastaus",
-     "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+     "instruction": "Lue vihjeet. Rastita ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
     },
     "F1": {
      "title": "Päättelypulmat: kyllä, ei tai jompikumpi",
@@ -18967,11 +18967,11 @@
     },
     "F2": {
      "title": "Neljä lasta, neljä kuvaa: kuusi vihjettä",
-     "instruction": "Neljä lasta ja neljä kuvaa. Käytä jokainen vihje: ruksi se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
+     "instruction": "Neljä lasta ja neljä kuvaa. Käytä kaikkia vihjeitä: rastita se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta."
     },
     "F3": {
      "title": "Kuvavihjeet: yliviivaa ja etsi",
-     "instruction": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+     "instruction": "Rastitettu kuva tarkoittaa, että lapsella ei ole sitä, ympyröity kuva, että lapsella on se. Rastita ruudukosta ja ympyröi sitten vastaukset."
     },
     "F4": {
      "title": "Kaksi kuvaa lasta kohti: päättele molemmat",
@@ -19604,7 +19604,7 @@
     },
     "G1-335": {
      "title": "Vastakohdat lauseessa",
-     "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Sanapankki auttaa."
+     "instruction": "Lue lause. Kirjoita viivalle sen sanan vastakohta, jota ei-sana kieltää. Sanapankki auttaa."
     },
     "G1-336": {
      "title": "Etsi vastakohtaparit",
@@ -20452,7 +20452,7 @@
     },
     "plural": {
      "title": "Yksi ja monta: yksikkö- ja monikkokortit",
-     "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
+     "instruction": "Leikkaa kortit irti. Sano sana yksikössä ja monikossa ja yhdistä sitten jokainen pari."
     },
     "bilingual": {
      "title": "Kaksikieliset kuvakortit: suomi ja {U}",
@@ -21969,15 +21969,15 @@
    "strings": {
     "G1-309": {
      "title": "Riimisanat: rimmaa ja kirjoita",
-     "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+     "instruction": "Sano ensimmäisen kuvan nimi ääneen. Ympyröi kuva, jonka nimi rimmaa sen kanssa, ja kirjoita sitten sen nimi viivalle."
     },
     "K-352": {
      "title": "Rimmaako vai ei?",
-     "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+     "instruction": "Sano molempien kuvien nimet ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
     },
     "G1-343": {
      "title": "Lajittele riimisanat",
-     "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+     "instruction": "Sano jokaisen sanapankin kuvan nimi. Etsi iso kuva, jonka nimen kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
     },
     "G1-344": {
      "title": "Täydennä loru: puuttuva riimisana",
@@ -21985,7 +21985,7 @@
     },
     "G1-345": {
      "title": "Riimiketjut",
-     "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+     "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
     },
     "G1-346": {
      "title": "Keksi omat riimisanat",
@@ -32186,7 +32186,7 @@
     },
     "G2-328": {
      "title": "Astevaihtelu: {UNIT}",
-     "instruction": "Lue yhden sana. Kirjoita monen sana viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
+     "instruction": "Lue sana yksikössä. Kirjoita se monikossa viivalle: kaksoiskonsonantista jää monikossa vain yksi kirjain."
     }
    }
   },
@@ -37002,7 +37002,7 @@
    "strings": {
     "G1-305": {
      "title": "Tavuta sanat: taputa ja merkitse tavut",
-     "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva jokaisen tavun väliin."
+     "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva tavujen väliin."
     },
     "G1-325": {
      "title": "Tavuta ja kirjoita sana",
@@ -37022,7 +37022,7 @@
     },
     "G1-329": {
      "title": "Tavun vokaali: jokaisessa tavussa yksi",
-     "instruction": "Jokaisessa tavussa on yksi vokaaliäänne. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
+     "instruction": "Jokaisessa tavussa on ainakin yksi vokaali. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
     }
    }
   },

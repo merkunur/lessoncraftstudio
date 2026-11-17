@@ -15,11 +15,11 @@
     },
     "G1-355": {
       "title": "Tangram: ¿qué pieza falta?",
-      "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+      "instruction": "A cada figura le falta una pieza. Encierra la pieza que cabe exactamente en el hueco."
     },
     "G2-347": {
       "title": "Tangram: ¿qué solución es igual a la sombra?",
-      "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+      "instruction": "Mira cada sombra. Encierra la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
     },
     "K-359": {
       "title": "Tangram: cuenta triángulos y cuadrados",
@@ -43,11 +43,11 @@
     },
     "K-362": {
       "title": "El cuerpo humano: ¿qué falta?",
-      "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+      "instruction": "A cada cuerpo le falta una parte. Encierra el dibujo de la parte que falta y luego dibújala en su lugar."
     },
     "K-363": {
       "title": "El cuerpo humano: ¿cuáles tienes dos?",
-      "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+      "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
     },
     "K-355": {
       "title": "Los cinco sentidos",
@@ -59,7 +59,7 @@
     },
     "G1-358": {
       "title": "Los cinco sentidos: ¿qué sentido usas?",
-      "instruction": "¿Con qué sentido percibes cada dibujo? Rodea la parte del cuerpo que usas."
+      "instruction": "¿Con qué sentido percibes cada dibujo? Encierra la parte del cuerpo que usas."
     },
     "G1-359": {
       "title": "Los cinco sentidos: ¿cuál no pertenece?",
@@ -87,7 +87,7 @@
     },
     "K-365": {
       "title": "El termómetro: ¿frío, templado o calor?",
-      "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+      "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y encierra la prenda que va bien."
     },
     "G3-385": {
       "title": "Ciclo del agua: escribe cada etapa en su lugar",
@@ -95,7 +95,7 @@
     },
     "G1-363": {
       "title": "El estado del tiempo: lee el pronóstico de la semana",
-      "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+      "instruction": "Mira el tiempo de la semana, lee cada pregunta y encierra el día correcto."
     },
     "K-357": {
       "title": "Separación de basura: orgánica e inorgánica",
@@ -103,7 +103,7 @@
     },
     "K-366": {
       "title": "Separación de basura: ¿en qué bote va?",
-      "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+      "instruction": "Mira cada cosa y encierra el bote donde se tira cuando ya está vacía o gastada."
     },
     "G1-364": {
       "title": "Separación de basura: ¿reciclable u orgánico?",
@@ -111,7 +111,7 @@
     },
     "G2-348": {
       "title": "Separación de basura: ¿cuál es de otro material?",
-      "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+      "instruction": "En cada fila hay tres cosas del mismo material. Encierra la que es de otro material."
     },
     "K-367": {
       "title": "Separación de basura: colorea los botes",
@@ -131,7 +131,7 @@
     },
     "G1-367": {
       "title": "Completa la oración: rodea la palabra correcta",
-      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
+      "instruction": "Mira el dibujo y lee la oración. Encierra la palabra que va bien y escríbela en el recuadro."
     },
     "G2-349": {
       "title": "Completa las oraciones en plural",
@@ -151,7 +151,7 @@
     },
     "G2-351": {
       "title": "¿Par o impar? Escribe dos sumandos iguales",
-      "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
+      "instruction": "Encierra los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
     },
     "G1-369": {
       "title": "¿Se puede repartir entre dos? Par o impar",
@@ -163,7 +163,7 @@
     },
     "G3-386": {
       "title": "¿Suma par o impar? Decide sin sumar",
-      "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+      "instruction": "No sumes. Mira la cifra de las unidades de cada número (está subrayada), usa la tabla y marca si la suma es par o impar."
     },
     "G1-370": {
       "title": "¿Par o impar? Cuenta los dibujos en parejas",
@@ -171,7 +171,7 @@
     },
     "G1-352": {
       "title": "Pronombres personales: él, ella, ellos o ellas",
-      "instruction": "Mira a la persona y lee su nombre. Rodea el pronombre que usamos en lugar del nombre."
+      "instruction": "Mira a la persona y lee su nombre. Encierra el pronombre que usamos en lugar del nombre."
     },
     "G1-371": {
       "title": "Sustituye el nombre por un pronombre",
@@ -351,11 +351,11 @@
         },
         "missing": {
           "title": "Tangram: ¿qué pieza falta?",
-          "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+          "instruction": "A cada figura le falta una pieza. Encierra la pieza que cabe exactamente en el hueco."
         },
         "match": {
           "title": "Tangram: ¿qué solución es igual a la sombra?",
-          "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+          "instruction": "Mira cada sombra. Encierra la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
         },
         "count": {
           "title": "Tangram: cuenta triángulos y cuadrados",
@@ -482,11 +482,11 @@
         },
         "K-362": {
           "title": "El cuerpo humano: ¿qué falta?",
-          "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+          "instruction": "A cada cuerpo le falta una parte. Encierra el dibujo de la parte que falta y luego dibújala en su lugar."
         },
         "K-363": {
           "title": "El cuerpo humano: ¿cuáles tienes dos?",
-          "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+          "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
         }
       }
     },
@@ -526,7 +526,7 @@
         },
         "G1-358": {
           "title": "Los cinco sentidos: ¿qué sentido usas?",
-          "instruction": "¿Con qué sentido percibes cada dibujo? Rodea la parte del cuerpo que usas."
+          "instruction": "¿Con qué sentido percibes cada dibujo? Encierra la parte del cuerpo que usas."
         },
         "G1-359": {
           "title": "Los cinco sentidos: ¿cuál no pertenece?",
@@ -595,7 +595,7 @@
         },
         "K-365": {
           "title": "El termómetro: ¿frío, templado o calor?",
-          "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y rodea la prenda que va bien."
+          "instruction": "Mira cada termómetro, usa la clave para saber si hace frío, si está templado o si hace calor, y encierra la prenda que va bien."
         },
         "G3-385": {
           "title": "Ciclo del agua: escribe cada etapa en su lugar",
@@ -603,7 +603,7 @@
         },
         "G1-363": {
           "title": "El estado del tiempo: lee el pronóstico de la semana",
-          "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
+          "instruction": "Mira el tiempo de la semana, lee cada pregunta y encierra el día correcto."
         }
       },
       "strand": "Exploración de la Naturaleza y la Sociedad"
@@ -659,7 +659,7 @@
         },
         "K-366": {
           "title": "Separación de basura: ¿en qué bote va?",
-          "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+          "instruction": "Mira cada cosa y encierra el bote donde se tira cuando ya está vacía o gastada."
         },
         "G1-364": {
           "title": "Separación de basura: ¿reciclable u orgánico?",
@@ -667,7 +667,7 @@
         },
         "G2-348": {
           "title": "Separación de basura: ¿cuál es de otro material?",
-          "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+          "instruction": "En cada fila hay tres cosas del mismo material. Encierra la que es de otro material."
         },
         "K-367": {
           "title": "Separación de basura: colorea los botes",
@@ -1514,7 +1514,7 @@
         },
         "choice": {
           "title": "Completa la oración: rodea la palabra correcta",
-          "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
+          "instruction": "Mira el dibujo y lee la oración. Encierra la palabra que va bien y escríbela en el recuadro."
         },
         "plural": {
           "title": "Completa las oraciones en plural",
@@ -1557,7 +1557,7 @@
         },
         "proof": {
           "title": "¿Par o impar? Escribe dos sumandos iguales",
-          "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
+          "instruction": "Encierra los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
         },
         "share": {
           "title": "¿Se puede repartir entre dos? Par o impar",
@@ -1569,7 +1569,7 @@
         },
         "sums": {
           "title": "¿Suma par o impar? Decide sin sumar",
-          "instruction": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y marca si la suma es par o impar."
+          "instruction": "No sumes. Mira la cifra de las unidades de cada número (está subrayada), usa la tabla y marca si la suma es par o impar."
         },
         "count": {
           "title": "¿Par o impar? Cuenta los dibujos en parejas",
@@ -2203,7 +2203,7 @@
       "strings": {
         "base": {
           "title": "Pronombres personales: él, ella, ellos o ellas",
-          "instruction": "Mira a la persona y lee su nombre. Rodea el pronombre que usamos en lugar del nombre."
+          "instruction": "Mira a la persona y lee su nombre. Encierra el pronombre que usamos en lugar del nombre."
         },
         "replace": {
           "title": "Sustituye el nombre por un pronombre",

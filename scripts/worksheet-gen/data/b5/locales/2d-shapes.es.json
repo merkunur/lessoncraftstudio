@@ -82,11 +82,11 @@
   "strings": {
     "base": {
       "title": "Figuras geométricas planas y sus nombres",
-      "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y rodea su nombre."
+      "instruction": "Mira cada figura, aunque esté girada o sea muy delgada, y encierra su nombre."
     },
     "real-or-not": {
       "title": "Figuras planas: ¿es o no es?",
-      "instruction": "Lee el nombre de cada fila y rodea todas las figuras que de verdad son esa figura."
+      "instruction": "Lee el nombre de cada fila y encierra todas las figuras que de verdad son esa figura."
     },
     "around-us": {
       "title": "Figuras planas en los objetos de todos los días",
@@ -98,7 +98,7 @@
     },
     "riddles": {
       "title": "Adivinanzas de figuras geométricas",
-      "instruction": "Lee cada adivinanza y rodea el nombre de la figura."
+      "instruction": "Lee cada adivinanza y encierra el nombre de la figura."
     },
     "dot-draw": {
       "title": "Dibuja figuras planas uniendo puntos",

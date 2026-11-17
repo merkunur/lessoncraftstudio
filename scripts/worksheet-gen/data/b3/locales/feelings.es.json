@@ -395,7 +395,7 @@
     },
     "K-331": {
       "title": "¿Cómo te sientes? Rodea la cara",
-      "instruction": "Mira el dibujo, piensa cómo te sentirías tú y rodea la cara que corresponde."
+      "instruction": "Mira el dibujo, piensa cómo te sentirías tú y encierra la cara que corresponde."
     },
     "K-332": {
       "title": "Dibuja la cara de la emoción",
@@ -407,11 +407,11 @@
     },
     "K-334": {
       "title": "¿Qué cara muestra la emoción?",
-      "instruction": "Lee la palabra y rodea la única cara de la fila que muestra esa emoción."
+      "instruction": "Lee la palabra y encierra la única cara de la fila que muestra esa emoción."
     },
     "K-335": {
       "title": "¿Cómo me siento hoy?",
-      "instruction": "Rodea la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
+      "instruction": "Encierra la cara que muestra cómo te sientes hoy y después dibuja tu propia cara."
     }
   }
 }

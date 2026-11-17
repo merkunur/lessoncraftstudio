@@ -6,6 +6,9 @@
  *
  *   node qa/verify-position-asks.js            every language, both paths (generator and maker), no browser
  *   node qa/verify-position-asks.js --poison   the same checks must FAIL on four planted faults
+ *   --pending=<file.json>                      registered lines still to be set, { "<id>": { "<lang>": { "instruction"? } } }
+ *                                              (other ids and fields of the file are ignored here): read as if
+ *                                              i18n/strings.<loc>.json already said them
  *
  * What it proves, per type and language, over copies 1 to 60 and levels 1 to 3:
  *   A  the first place of data/position-asks.json is the type's own, and its sentence is the registered instruction
@@ -25,6 +28,15 @@ const POISON = process.argv.includes('--poison');
 const LOCALES = ['en', 'de', 'sv', 'fr', 'no', 'nl', 'fi', 'da', 'it', 'es', 'pt'];
 const TYPES = [['K-065', 'k/K-065-left-and-right.js', 'left-right'], ['K-066', 'k/K-066-top-middle-bottom.js', 'rows'], ['K-067', 'k/K-067-inside-and-outside.js', 'inside-outside']];
 const { makeRng, instanceSeed } = require(path.join(WG, 'lib', 'rng.js'));
+// --pending=<file>: registered instructions still to be set (read as if the i18n files already said them)
+const PENDING_ARG = process.argv.find((a) => a.startsWith('--pending='));
+const PENDING = PENDING_ARG ? JSON.parse(require('fs').readFileSync(path.resolve(PENDING_ARG.slice('--pending='.length)), 'utf8')) : {};
+const registered = (id, loc) => {
+  const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+  const p = ((PENDING[id] || {})[loc] || {}).instruction;
+  return reg && p ? { ...reg, instruction: p } : reg;
+};
+if (PENDING_ARG) console.log(`(reading pending registered lines for ${TYPES.map(([id]) => id).filter((id) => PENDING[id]).map((id) => id + ' ' + Object.keys(PENDING[id]).filter((l) => PENDING[id][l].instruction).join('/')).join(', ') || 'none of these types'})`);
 
 function run(fault) {
   const fails = [];
@@ -34,7 +46,7 @@ function run(fault) {
     const type = require(path.join(WG, 'types', file));
     const order = ASKS[mode].order;
     for (const loc of LOCALES) {
-      const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+      const reg = registered(id, loc);
       const lines = { ...ASKS[mode][loc] };
       if (fault === 'same-line') lines[order[1]] = lines[order[0]];
       // A
@@ -74,7 +86,7 @@ function run(fault) {
       const type = require(path.join(WG, 'types', file));
       const order = ASKS[mode].order;
       for (const loc of ['en', 'de', 'fi']) {
-        const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+        const reg = registered(id, loc);
         const strings = { title: reg.title, instruction: reg.instruction };
         const seen = new Set();
         let v = 1; const r = makeRng('maker-copies-' + id + loc);

@@ -23,7 +23,7 @@
   },
   "K-296": {
    "title": "Une los puntos del 11 al 30",
-   "instruction": "Cuenta desde el 11 hasta el 30 sin saltarte ninguno."
+   "instruction": "Empieza en el punto naranja. Cuenta desde el 11 hasta el 30 y une los puntos sin saltarte ninguno."
   },
   "K-298": {
    "title": "Copia el dibujo en una cuadrícula de 6x6",
@@ -43,23 +43,23 @@
   },
   "K-303": {
    "title": "Singular y plural: palabras largas",
-   "instruction": "Fíjate en el final de cada plural."
+   "instruction": "Palabras más largas: repasa el plural y fíjate en cómo termina."
   },
   "K-306": {
    "title": "¿El o la? Cuatro dibujos",
-   "instruction": "Cuatro dibujos: di el nombre y rodea el o la."
+   "instruction": "Cuatro dibujos: di el nombre y encierra el o la."
   },
   "K-307": {
    "title": "¿El o la? Ocho dibujos",
-   "instruction": "Ocho dibujos: rodea el artículo de cada uno."
+   "instruction": "Ocho dibujos: encierra el artículo de cada uno."
   },
   "G1-251": {
    "title": "Lee y colorea: cuatro frases",
-   "instruction": "Cuatro frases y cuatro colores en la clave."
+   "instruction": "Lee cada oración y colorea exactamente lo que pide, con los colores de la clave."
   },
   "G1-252": {
    "title": "Lee y colorea: seis frases",
-   "instruction": "Seis frases y seis colores: lee con atención."
+   "instruction": "Seis oraciones y seis colores: lee cada oración con atención y colorea lo que pide."
   },
   "G1-255": {
    "title": "El número del día: números del 11 al 19",
@@ -67,7 +67,7 @@
   },
   "G1-256": {
    "title": "El número del día: 10 más y 10 menos",
-   "instruction": "Calcula 10 más y 10 menos del número de hoy."
+   "instruction": "Calcula el número que es 10 más y el que es 10 menos que el número de hoy."
   },
   "G1-257": {
    "title": "El número del día: hasta el 99",
@@ -87,19 +87,19 @@
   },
   "G1-262": {
    "title": "Orden alfabético: numera las tarjetas",
-   "instruction": "Aquí solo numeras las tarjetas."
+   "instruction": "Numera las cuatro tarjetas para poner las palabras en orden alfabético."
   },
   "G1-263": {
    "title": "Orden alfabético: numera y copia",
-   "instruction": "Numera y después copia las palabras."
+   "instruction": "Numera las tarjetas y después copia las palabras en orden en las líneas."
   },
   "G1-264": {
    "title": "Orden alfabético: misma letra inicial",
-   "instruction": "Mira la segunda letra para decidir."
+   "instruction": "Dos parejas de palabras empiezan con la misma letra. Fíjate en la segunda letra para ordenarlas."
   },
   "G1-266": {
    "title": "Pirámides numéricas hasta 10",
-   "instruction": "Pirámides de tres pisos: ningún resultado pasa de 10."
+   "instruction": "Cada ladrillo es la suma de los dos ladrillos de abajo. Completa cada pirámide de tres pisos hasta arriba; ningún resultado pasa de 10."
   },
   "G1-267": {
    "title": "Pirámides numéricas de cuatro pisos",
@@ -107,31 +107,31 @@
   },
   "G1-268": {
    "title": "Pirámides numéricas: falta un ladrillo",
-   "instruction": "Falta un ladrillo abajo: resta para averiguarlo."
+   "instruction": "Falta un ladrillo de abajo: resta para averiguarlo y luego completa toda la pirámide."
   },
   "G1-270": {
    "title": "Dobles y mitades con dibujos",
-   "instruction": "Con dibujos para ver el doble y la mitad."
+   "instruction": "Algunas tarjetas te piden el doble de un grupo y otras, la mitad. Resuélvelas con ayuda de los dibujos."
   },
   "G1-271": {
    "title": "Dobles y mitades hasta 20",
-   "instruction": "Sin dibujos: calcula solo con los números."
+   "instruction": "Sin dibujos: calcula cada doble y cada mitad hasta 20."
   },
   "G1-274": {
    "title": "La recta numérica del 0 al 10",
-   "instruction": "La recta llega al 10 y marca el 0, el 5 y el 10."
+   "instruction": "Escribe el número que señala cada flecha. La recta va del 0 al 10 y tiene marcados el 0, el 5 y el 10."
   },
   "G1-275": {
    "title": "La recta numérica del 0 al 20",
-   "instruction": "Solo están escritos el 0, el 10 y el 20: cuenta."
+   "instruction": "Solo están escritos el 0, el 10 y el 20. Cuenta hasta cada flecha y escribe el número que señala."
   },
   "G1-276": {
    "title": "La recta numérica del 0 al 30",
-   "instruction": "Cada marca vale 1 y la recta llega hasta el 30."
+   "instruction": "Cada marca vale 1 y la recta llega hasta el 30. Escribe el número que señala cada flecha."
   },
   "G1-277": {
    "title": "La recta numérica del 0 al 50",
-   "instruction": "Llega hasta el 50 y solo se escriben las decenas."
+   "instruction": "La recta llega hasta el 50 y solo están escritas las decenas. Escribe el número que señala cada flecha."
   },
   "G1-278": {
    "title": "La recta numérica de 5 en 5 hasta 50",
@@ -139,7 +139,7 @@
   },
   "G1-279": {
    "title": "La recta numérica de 5 en 5 hasta 100",
-   "instruction": "Cada marca vale 5 y la recta llega hasta el 100."
+   "instruction": "Cada marca vale 5 y la recta llega hasta el 100. Escribe el número que señala cada flecha."
   },
   "G1-280": {
    "title": "La recta numérica de 10 en 10 hasta 100",
@@ -147,59 +147,59 @@
   },
   "G1-281": {
    "title": "La recta numérica del 0 al 120",
-   "instruction": "Esta recta pasa del 100 y llega hasta el 120."
+   "instruction": "Esta recta pasa del 100 y llega hasta el 120. Cuenta de 10 en 10 y escribe el número que señala cada flecha."
   },
   "G1-282": {
    "title": "Ordena la frase con pistas",
-   "instruction": "La mayúscula y el signo final son las pistas."
+   "instruction": "Ordena las palabras y escribe la oración en la línea. La mayúscula y el signo final son las pistas."
   },
   "G1-283": {
    "title": "Ordena la frase sin pistas",
-   "instruction": "Aquí no hay mayúscula ni signo final de ayuda."
+   "instruction": "Aquí no hay mayúscula ni punto que te ayuden. Busca el único orden que tiene sentido y escribe la oración."
   },
   "G2-281": {
    "title": "Corrige la frase: mayúscula y puntuación",
-   "instruction": "Tres frases: pon mayúscula y signo."
+   "instruction": "Vuelve a escribir cada oración con mayúscula y con el signo final correcto."
   },
   "G2-282": {
    "title": "Corrige la frase: ¿punto o interrogación?",
-   "instruction": "Si pregunta algo, usa interrogación."
+   "instruction": "Corrige las mayúsculas, también las de los nombres, y elige el signo final correcto: punto o signos de interrogación."
   },
   "G2-285": {
    "title": "Sustantivo, verbo y adjetivo: nueve palabras",
-   "instruction": "Nueve palabras y tres cajas."
+   "instruction": "Nueve palabras y tres cajas. Escribe cada palabra en la caja que le toca. Los sustantivos tienen un dibujo que te ayuda."
   },
   "G2-286": {
    "title": "Sustantivo, verbo y adjetivo: sin dibujos",
-   "instruction": "Ninguna palabra lleva dibujo."
+   "instruction": "Ninguna palabra lleva dibujo. Lee cada palabra y escríbela en la caja que le toca."
   },
   "G2-287": {
    "title": "Sustantivo, verbo y adjetivo: quince palabras",
-   "instruction": "Quince palabras, sin dibujos."
+   "instruction": "Quince palabras, sin dibujos. Escribe cada una en la caja que le toca."
   },
   "G2-289": {
    "title": "Problemas con dinero: dos problemas",
-   "instruction": "Solo dos problemas: total y un sí o no."
+   "instruction": "Lee cada problema y usa los precios del estante para resolverlo."
   },
   "G2-290": {
    "title": "Problemas con dinero: cuatro preguntas",
-   "instruction": "Cada tarjeta pregunta algo distinto."
+   "instruction": "Cada tarjeta hace una pregunta distinta sobre las compras. Responde las cuatro."
   },
   "G2-291": {
    "title": "Problemas con dinero: el total de la canasta",
-   "instruction": "Todas piden el total de la canasta."
+   "instruction": "Todas las tarjetas piden el total de la canasta. Suma los precios."
   },
   "G2-292": {
    "title": "Problemas con dinero: suma varios precios",
-   "instruction": "Canastas de hasta tres productos."
+   "instruction": "Cada canasta tiene hasta tres productos. Suma todos los precios."
   },
   "G2-293": {
    "title": "Problemas con dinero: ¿cuánto devuelven?",
-   "instruction": "Paga con monedas y halla el cambio."
+   "instruction": "Cuenta las monedas con las que se paga y calcula el cambio."
   },
   "G2-294": {
    "title": "Problemas con dinero: ¿te alcanza el dinero?",
-   "instruction": "Compara el dinero con el precio."
+   "instruction": "Compara el dinero con el precio. Encierra sí o no y escribe el total."
   },
   "G2-295": {
    "title": "Problemas con dinero: ¿cuánto más cuesta?",
@@ -207,27 +207,27 @@
   },
   "G2-296": {
    "title": "Lee el calendario: cuatro preguntas",
-   "instruction": "Cuatro preguntas sobre fechas y días."
+   "instruction": "Mira el mes. Lee el calendario y responde cada pregunta."
   },
   "G2-297": {
    "title": "Lee el calendario: un mes muy ocupado",
-   "instruction": "Suma 7 días. Cuenta de un dibujo a otro."
+   "instruction": "Busca la fecha que cae una semana después y cuenta los días que hay de un dibujo a otro."
   },
   "G2-298": {
    "title": "Lee el calendario: los días de la semana",
-   "instruction": "Lee las columnas de arriba abajo."
+   "instruction": "Todas las preguntas son sobre los días de la semana. Lee las columnas de arriba abajo y responde."
   },
   "G2-299": {
    "title": "Escribe sobre la imagen: lo que ves",
-   "instruction": "Las frases ya están empezadas."
+   "instruction": "Mira la imagen y escribe lo que ves. Las oraciones ya están empezadas y el banco de palabras te ayuda."
   },
   "G2-300": {
    "title": "Escribe sobre la imagen con tus palabras",
-   "instruction": "Sin frases empezadas: escribe tú."
+   "instruction": "Esta vez no hay oraciones empezadas. Usa el banco de palabras y escribe tu propio cuento."
   },
   "G2-302": {
    "title": "Coordenadas en una cuadrícula de 6x6",
-   "instruction": "Cuadrícula de 6x6: colorea recuadro por recuadro."
+   "instruction": "Cuadrícula de 6x6: busca cada recuadro por su letra y su número y coloréalo para descubrir el dibujo."
   },
   "G2-303": {
    "title": "Coordenadas en una cuadrícula de 10x10",
@@ -243,19 +243,19 @@
   },
   "G3-373": {
    "title": "Problemas de división: hacer grupos",
-   "instruction": "No se reparte: se forman grupos iguales."
+   "instruction": "Aquí no se reparte: se forman grupos iguales. Encierra los grupos iguales en el dibujo y escribe la respuesta."
   },
   "G3-374": {
    "title": "Problemas de división: repartir y agrupar",
-   "instruction": "Uno reparte y el otro forma grupos."
+   "instruction": "Un problema reparte y el otro forma grupos: los dos son divisiones. Resuélvelos y escribe las respuestas."
   },
   "G3-375": {
    "title": "Problemas de multiplicar y agrupar",
-   "instruction": "Uno se multiplica; el otro forma grupos."
+   "instruction": "En un problema se juntan grupos iguales y en el otro se separan en grupos. Resuélvelos y escribe las respuestas."
   },
   "G3-376": {
    "title": "Problemas mixtos de multiplicar y dividir",
-   "instruction": "Decide si multiplicas o divides."
+   "instruction": "Lee los tres problemas. Decide si tienes que multiplicar o dividir y escribe la respuesta."
   },
   "K-308": {
    "title": "Une los puntos del 10 al 1",
@@ -263,7 +263,7 @@
   },
   "K-311": {
    "title": "Copia la palabra de la tarjeta",
-   "instruction": "Sin letras punteadas: cópiala dos veces."
+   "instruction": "Aquí no hay letras punteadas. Mira la palabra de la tarjeta y cópiala dos veces."
   },
   "G1-285": {
    "title": "Une los puntos contando de 2 en 2",
@@ -271,7 +271,7 @@
   },
   "G1-286": {
    "title": "Dobles y mitades con grupos grandes",
-   "instruction": "Los grupos son mucho mayores."
+   "instruction": "Esta vez los grupos son más grandes. Calcula el doble o la mitad que pide cada tarjeta."
   },
   "G1-291": {
    "title": "Dictado mudo sin banco: la inicial",
@@ -295,7 +295,7 @@
   },
   "K-313": {
    "title": "Singular y plural: de muchos a uno",
-   "instruction": "Ahora al revés: repasa y escribe la de uno."
+   "instruction": "Ahora al revés: ya está la palabra de muchos. Repasa y escribe la palabra de uno."
   },
   "K-314": {
    "title": "Singular y plural sin punteado",
@@ -311,11 +311,11 @@
   },
   "G1-287": {
    "title": "Solo dobles hasta 14",
-   "instruction": "No hay mitades: todas piden el doble del grupo."
+   "instruction": "Aquí no hay mitades: escribe el doble del grupo de cada tarjeta."
   },
   "G1-288": {
    "title": "Solo mitades hasta 12",
-   "instruction": "Ninguna tarjeta pide el doble: solo la mitad."
+   "instruction": "Cada tarjeta parte un grupo a la mitad. Escribe las dos partes iguales."
   },
   "G1-289": {
    "title": "Pirámides numéricas de arriba abajo",
@@ -331,23 +331,23 @@
   },
   "G1-295": {
    "title": "La recta numérica del 20 al 40",
-   "instruction": "Esta recta no empieza en cero, empieza en el 20."
+   "instruction": "Esta recta no empieza en cero, empieza en el 20. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G1-296": {
    "title": "Solo dobles hasta 20 con dibujos",
-   "instruction": "Se doblan grupos de cinco a diez."
+   "instruction": "Escribe el doble de cada grupo de dibujos; los grupos van de cinco a diez."
   },
   "G1-297": {
    "title": "Solo mitades hasta 20 con dibujos",
-   "instruction": "Se parten grupos de diez a veinte."
+   "instruction": "Parte a la mitad cada grupo de dibujos y escribe las dos mitades; los grupos van de diez a veinte."
   },
   "G1-298": {
    "title": "Solo dobles, sin dibujos",
-   "instruction": "Sin dibujos que contar: solo dobles hasta 20."
+   "instruction": "Sin dibujos que contar: escribe el doble de cada número, hasta 20."
   },
   "G1-299": {
    "title": "Solo mitades, sin dibujos",
-   "instruction": "Sin dibujos: parte cada número en dos."
+   "instruction": "Sin dibujos: parte cada número en dos partes iguales."
   },
   "G1-300": {
    "title": "Sustantivos y adjetivos: dos cajas",
@@ -371,11 +371,11 @@
   },
   "G2-305": {
    "title": "La recta numérica del 40 al 60",
-   "instruction": "Esta recta no empieza en cero, empieza en el 40."
+   "instruction": "Esta recta no empieza en cero, empieza en el 40. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G2-307": {
    "title": "Corrige la frase: ¿dónde acaba?",
-   "instruction": "Van dos frases seguidas, sin puntos."
+   "instruction": "Hay dos oraciones juntas, sin punto. Escríbelas como dos oraciones."
   },
   "G2-308": {
    "title": "Coordenadas: escribe tú los códigos",
@@ -383,11 +383,11 @@
   },
   "G2-310": {
    "title": "La recta numérica del 60 al 100",
-   "instruction": "Esta recta empieza en 60 y cada marca vale 1."
+   "instruction": "Esta recta empieza en el 60 y cada marca vale 1. Cuenta desde el número escrito más cercano y escribe el número que señala cada flecha."
   },
   "G2-311": {
    "title": "Dos frases: ¿punto o interrogación?",
-   "instruction": "Dos frases juntas y una pregunta."
+   "instruction": "Separa las dos oraciones y termina cada una con el signo correcto: punto o signos de interrogación."
   },
   "G2-312": {
    "title": "Lee el calendario: cuenta los días",
@@ -395,7 +395,7 @@
   },
   "G2-313": {
    "title": "Pirámides numéricas de dos cifras",
-   "instruction": "Las sumas suben hasta números de dos cifras."
+   "instruction": "Cada ladrillo es la suma de los dos de abajo. Los resultados pasan de 20: haz cada suma por escrito mientras subes."
   },
   "G2-314": {
    "title": "Une los puntos contando de 10 en 10",

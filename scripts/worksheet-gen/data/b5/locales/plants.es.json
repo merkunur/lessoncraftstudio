@@ -58,7 +58,7 @@
     },
     "needs": {
       "title": "¿Qué necesitan las plantas para crecer?",
-      "instruction": "En cada fila, rodea la planta que recibe las dos cosas que necesita para crecer."
+      "instruction": "En cada fila, encierra la planta que recibe las dos cosas que necesita para crecer."
     },
     "cycle": {
       "title": "Ciclo de vida de las plantas: de la semilla a la planta",
@@ -66,7 +66,7 @@
     },
     "eat": {
       "title": "Partes de la planta que comemos",
-      "instruction": "Mira cada alimento y rodea la parte de la planta que nos comemos."
+      "instruction": "Mira cada alimento y encierra la parte de la planta que nos comemos."
     },
     "jobs": {
       "title": "Partes de la planta y sus funciones",

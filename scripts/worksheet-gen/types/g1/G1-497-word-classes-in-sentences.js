@@ -7,11 +7,19 @@
  * two classes is tagged by the sentence it stands in. The right words are ringed on the key.
  * Levels: 1 five sentences, nouns · 2 six sentences, verbs · 3 six sentences, adjectives.
  *
- * Where the asked words stand (2026-11-17): in the shared bank every verb is the 4th word and most adjectives the 2nd,
- * so a page could be solved by position. The verb and adjective pages (levels 2 and 3, every copy but the published
- * level-2 copy 1) now also draw from WORD_CLASS_SENTENCES (the verb and the adjective elsewhere) and take the draw
- * whose most common answer place holds at most half of the page's answers (the best of up to 400 seeded draws where
- * a bank cannot give that). Level 1 (nouns: no place holds more than about half) and the published page are as they were.
+ * Where the asked words stand (2026-11-17): in the shared bank every verb is the 4th word (fi the 3rd) and most
+ * adjectives the 2nd, so a page could be solved by position. The pools, per level:
+ *   level 1 (nouns)            SENTENCES (18 per language), every copy, as before (no place holds more than about half
+ *                              of the nouns)
+ *   levels 2 and 3, every copy SENTENCES + WORD_CLASS_SENTENCES (18 + 18 per language, the verb and the adjective in
+ *                              other places; written by native teachers), and the first of up to 400 seeded draws whose
+ *                              most common answer place holds at most half of the page's answers. One random draw already
+ *                              does in 54-66 % (level 2) and 75-94 % (level 3) of cases in every language, so 400 never
+ *                              all miss in practice; the best draw is the fallback all the same. This includes the
+ *                              published page (level 2, copy 1): drawn from SENTENCES alone it put all six verbs at one
+ *                              place in every language (the 4th word; fi the 3rd), the very tell this fixes, so it was
+ *                              corrected too (2026-11-17). qa/verify-answer-places.js fails a language whose page, the
+ *                              published one included, holds more than half in one place.
  */
 'use strict';
 const slot = require('../../lib/slot.js');
@@ -57,8 +65,9 @@ module.exports = {
     const bank = SENTENCES[L];
     if (!bank) throw new Error(`G1-497: no sentences for ${L}`);
     const textOf = (toks) => toks.map((t) => t.w).join(' ');   // a sentence's key: its words
-    // the verb and adjective pages past the published one: the extra sentences too, and a draw that is not solved by place
-    const balance = d.find.some((c) => c === 'V' || c === 'A') && !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+    // the verb and adjective pages, the published one included: the extra sentences too, and a draw that is not solved
+    // by place
+    const balance = d.find.some((c) => c === 'V' || c === 'A');
     const all = balance ? bank.concat((WORD_CLASS_SENTENCES[L] || []).filter((s) => !bank.includes(s))) : bank;
     const fit = all.map(parse).filter((toks) => toks.some((t) => d.find.includes(t.tag)));
     fit.forEach((t) => { t.word = textOf(t); });

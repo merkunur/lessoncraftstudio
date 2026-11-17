@@ -27,7 +27,7 @@
     },
     "K-298": {
       "title": "Tegn efter i kvadratnet: nem start",
-      "instruction": "Et lille kvadratnet til at starte med: farvelæg de samme felter."
+      "instruction": "Et lille kvadratnet til at starte med: Farvelæg de samme felter."
     },
     "K-299": {
       "title": "Tegn efter i kvadratnet med bogstav og tal",
@@ -59,7 +59,7 @@
     },
     "G1-252": {
       "title": "Læs og farvelæg: seks sætninger",
-      "instruction": "Seks sætninger og seks farver: læs grundigt, før du farvelægger."
+      "instruction": "Seks sætninger og seks farver: Læs grundigt, før du farvelægger."
     },
     "G1-255": {
       "title": "Dagens tal: tallene fra 11 til 20",
@@ -95,11 +95,11 @@
     },
     "G1-264": {
       "title": "Alfabetisk rækkefølge: samme første bogstav",
-      "instruction": "Nogle ord begynder ens. Se på det andet bogstav."
+      "instruction": "Nogle ord begynder med det samme bogstav. Se på det andet bogstav, og nummerér ordene i alfabetisk rækkefølge."
     },
     "G1-266": {
       "title": "Talpyramider op til 10",
-      "instruction": "Hver sten er summen af de to under den. Intet tal er over 10."
+      "instruction": "Hver sten er summen af de to under den. Byg hver pyramide helt op til toppen. Intet tal er over 10."
     },
     "G1-267": {
       "title": "Talpyramider med fire rækker",
@@ -107,7 +107,7 @@
     },
     "G1-268": {
       "title": "Talpyramider: find den manglende sten",
-      "instruction": "En sten i bunden mangler. Brug stenen ovenover til at finde den."
+      "instruction": "En sten i bunden mangler. Brug stenen ovenover til at finde den, og byg så hele pyramiden færdig."
     },
     "G1-270": {
       "title": "Det dobbelte og det halve: nem start",
@@ -151,7 +151,7 @@
     },
     "G1-282": {
       "title": "Sæt ordene i rækkefølge: med hjælp",
-      "instruction": "Brug det store bogstav og tegnet til at finde sætningen."
+      "instruction": "Brug det store bogstav og tegnet til sidst til at sætte ordene i rækkefølge. Skriv sætningen på linjen."
     },
     "G1-283": {
       "title": "Sæt ordene i rækkefølge: uden hjælp",
@@ -159,7 +159,7 @@
     },
     "G2-281": {
       "title": "Stort bogstav og tegn til sidst",
-      "instruction": "Skriv de tre sætninger om, og vælg punktum eller spørgsmålstegn."
+      "instruction": "Skriv hver sætning om med stort bogstav, og vælg punktum eller spørgsmålstegn."
     },
     "G2-282": {
       "title": "Stort bogstav, navne og tegn til sidst",
@@ -183,7 +183,7 @@
     },
     "G2-290": {
       "title": "Købmandsregning: fire slags spørgsmål",
-      "instruction": "Fire kort med fire forskellige spørgsmål om priser og penge."
+      "instruction": "Læs spørgsmålet på hvert af de fire kort, og svar med priserne på hylden."
     },
     "G2-291": {
       "title": "Købmandsregning: hvad koster det i alt?",
@@ -195,11 +195,11 @@
     },
     "G2-293": {
       "title": "Købmandsregning: hvor meget får du tilbage?",
-      "instruction": "Tæl de mønter, der betales med, og find pengene tilbage."
+      "instruction": "Tæl de mønter, der betales med, og regn ud, hvor mange penge der skal gives tilbage."
     },
     "G2-294": {
       "title": "Købmandsregning: er der penge nok?",
-      "instruction": "Sammenlign pengene med prisen. Sæt ring om ja eller nej."
+      "instruction": "Sammenlign pengene med prisen. Sæt ring om ja eller nej, og skriv beløbet i alt."
     },
     "G2-295": {
       "title": "Købmandsregning: hvor meget dyrere?",
@@ -219,7 +219,7 @@
     },
     "G2-299": {
       "title": "Skriv til billedet med sætningsstartere",
-      "instruction": "Sætningsstarterne og ordbanken hjælper dig i gang."
+      "instruction": "Skriv om billedet. Sætningsstarterne og ordbanken hjælper dig i gang."
     },
     "G2-300": {
       "title": "Skriv til billedet med dine egne ord",
@@ -231,7 +231,7 @@
     },
     "G2-303": {
       "title": "Koordinater i et 10x10-kvadratnet",
-      "instruction": "Et større net med flere felter. Arbejd omhyggeligt hele listen igennem."
+      "instruction": "Find hvert felt i det store kvadratnet ud fra bogstav og tal, og farvelæg det, til billedet kommer frem."
     },
     "G3-371": {
       "title": "Regnehistorier med gange",
@@ -239,7 +239,7 @@
     },
     "G3-372": {
       "title": "Regnehistorier med division: del ligeligt",
-      "instruction": "Hver historie deler ud. Fordel tingene i kasserne."
+      "instruction": "I hver historie bliver tingene delt ligeligt. Fordel dem i kasserne."
     },
     "G3-373": {
       "title": "Regnehistorier med division: lav grupper",
@@ -247,15 +247,15 @@
     },
     "G3-374": {
       "title": "Regnehistorier med division på to måder",
-      "instruction": "Den ene historie deler ud, den anden laver grupper."
+      "instruction": "Læs begge regnehistorier, og regn dem ud. I den ene bliver der delt ud, i den anden bliver der lavet grupper. Begge er division."
     },
     "G3-375": {
       "title": "Regnehistorier med gange og grupper",
-      "instruction": "Den ene historie bygger grupper, den anden deler dem op igen."
+      "instruction": "Læs begge regnehistorier, og regn dem ud. I den ene bliver der lavet grupper, i den anden bliver grupperne delt op igen."
     },
     "G3-376": {
       "title": "Regnehistorier: tre blandede opgaver",
-      "instruction": "Tre historier. Find ud af, hvad hver enkelt spørger om."
+      "instruction": "Læs de tre regnehistorier. Find ud af, hvad hver enkelt spørger om, før du svarer."
     },
     "K-308": {
       "title": "Prik til prik: tæl baglæns fra 10",
@@ -275,15 +275,15 @@
     },
     "K-311": {
       "title": "Skriv ordet af to gange",
-      "instruction": "Ingen stiplede bogstaver: se ordet på kortet, og skriv det af to gange."
+      "instruction": "Ingen stiplede bogstaver: Se ordet på kortet, og skriv det af to gange."
     },
     "G1-291": {
       "title": "Skriv ordet: kun det første bogstav er givet",
-      "instruction": "Ingen ordbank: skriv ordet videre fra det første bogstav."
+      "instruction": "Ingen ordbank: Skriv ordet videre fra det første bogstav."
     },
     "G1-286": {
       "title": "Det dobbelte og det halve med billeder til 20",
-      "instruction": "Fire kort med billeder: fordobl eller halvér gruppen."
+      "instruction": "Fire kort med billeder: Fordobl eller halvér gruppen."
     },
     "G2-305": {
       "title": "Aflæs tallinjen fra 40 til 60",
@@ -315,11 +315,11 @@
     },
     "K-314": {
       "title": "Ental og flertal: fra én til flere",
-      "instruction": "Ingen stiplede bogstaver: skriv selv flertalsformen."
+      "instruction": "Ingen stiplede bogstaver: Skriv selv flertalsformen."
     },
     "G1-293": {
       "title": "Navneord og udsagnsord: to kasser",
-      "instruction": "Ti ord og to kasser: sortér dem som navneord eller udsagnsord."
+      "instruction": "Ti ord og to kasser: Sortér dem som navneord eller udsagnsord."
     },
     "K-310": {
       "title": "Store bogstaver: skriv ordet efter",
@@ -359,7 +359,7 @@
     },
     "G1-300": {
       "title": "Navneord og tillægsord: hvordan er det?",
-      "instruction": "Beskrivende ord eller navneord? Sortér de ti ord i to kasser."
+      "instruction": "Navneord eller tillægsord? Sortér de ti ord i to kasser."
     },
     "G1-301": {
       "title": "Skriv ordet: ordbank og bogstavfelter",
@@ -371,7 +371,7 @@
     },
     "G2-312": {
       "title": "Læs kalenderen: find datoen og tæl dagene",
-      "instruction": "Fire spørgsmål: find datoen, tæl dagene fra det ene billede til det andet, og find ugedagen."
+      "instruction": "Fire spørgsmål: Find datoen, tæl dagene fra det ene billede til det andet, og find ugedagen."
     },
     "G2-314": {
       "title": "Prik til prik: tæl med tiere til 100",
@@ -379,11 +379,11 @@
     },
     "K-315": {
       "title": "Skriv de store bogstaver af",
-      "instruction": "Ingen stiplede bogstaver: skriv ordet af med store bogstaver."
+      "instruction": "Ingen stiplede bogstaver: Skriv ordet af med store bogstaver."
     },
     "K-316": {
       "title": "Ental og flertal: skriv ordet for én",
-      "instruction": "Ingen stiplede bogstaver: skriv selv ordet for én."
+      "instruction": "Ingen stiplede bogstaver: Skriv selv ordet for én."
     },
     "G2-313": {
       "title": "Talpyramider med tocifrede tal",
@@ -395,7 +395,7 @@
     },
     "G1-303": {
       "title": "Skriv ordet: bogstavfelter og første bogstav",
-      "instruction": "Skriv ét bogstav i hvert felt. Det første bogstav står allerede der."
+      "instruction": "Skriv ét bogstav i hvert felt. Det første bogstav står der allerede."
     },
     "G1-304": {
       "title": "Skriv ordet med hjælp hele vejen",

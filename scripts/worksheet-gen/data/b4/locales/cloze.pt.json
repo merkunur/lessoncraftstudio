@@ -839,11 +839,11 @@
     },
     "choice": {
       "title": "Complete a frase: circule a palavra certa",
-      "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa e escreva na caixa."
+      "instruction": "Olhe a figura e leia a frase. Circule a palavra que completa a frase e escreva-a na caixa."
     },
     "plural": {
       "title": "Complete as frases no plural",
-      "instruction": "Olhe as figuras. Há mais de um. Escreva na caixa a palavra que indica mais de um."
+      "instruction": "Olhe as figuras. Escreva na caixa a palavra no plural."
     },
     "story": {
       "title": "Complete a historinha com as palavras que faltam",
@@ -851,7 +851,7 @@
     },
     "match": {
       "title": "Ligue cada frase à sua figura",
-      "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase até essa figura."
+      "instruction": "Leia cada frase. Qual figura completa a lacuna? Ligue a frase a essa figura."
     }
   },
   "refuse": {

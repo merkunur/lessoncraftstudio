@@ -261,7 +261,7 @@
     },
     "K-342": {
       "title": "Mis cosas favoritas: rodea y escribe",
-      "instruction": "En cada fila, rodea tu dibujo favorito y copia su palabra en la línea."
+      "instruction": "En cada fila, encierra tu dibujo favorito y copia su palabra en la línea."
     },
     "K-343": {
       "title": "Mi familia: dibuja y cuenta",
@@ -277,7 +277,7 @@
     },
     "K-346": {
       "title": "Mi nombre: escribe, cuenta y compara",
-      "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
+      "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y encierra quién tiene más."
     }
   },
   "excludeOptions": []

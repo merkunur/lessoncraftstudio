@@ -11,7 +11,7 @@
     },
     "G1-354": {
       "title": "Tangram: fire skygger å bygge",
-      "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+      "instruction": "Bygg hver mørk figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
     },
     "G1-355": {
       "title": "Tangram: hvilken brikke mangler?",
@@ -23,7 +23,7 @@
     },
     "K-359": {
       "title": "Tangram: tell trekanter og firkanter",
-      "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+      "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så kvadratene, og skriv tallet i den andre ruta."
     },
     "K-354": {
       "title": "Kroppen vår",
@@ -155,7 +155,7 @@
     },
     "G1-369": {
       "title": "Kan to venner dele likt?",
-      "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Er antallet bilder partall eller oddetall?"
+      "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir igjen. Partall eller oddetall? Sett ring rundt riktig ord."
     },
     "G2-352": {
       "title": "Partall og oddetall opp til 100: se på enerplassen",
@@ -219,7 +219,7 @@
     },
     "G2-346": {
       "title": "Avrunding til nærmeste tier",
-      "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er einersifferet 5 eller mer, runder du opp."
+      "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er enersifferet 5 eller mer, runder du opp."
     },
     "G3-387": {
       "title": "Rund opp eller ned? Sorter tallene",
@@ -235,7 +235,7 @@
     },
     "G3-390": {
       "title": "Hvilke tall blir 50?",
-      "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på einersifferet i hvert tall."
+      "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på enersifferet i hvert tall."
     },
     "G3-391": {
       "title": "Avrunding til tier og hundrer",
@@ -352,7 +352,7 @@
         },
         "silhouette": {
           "title": "Tangram: fire skygger å bygge",
-          "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+          "instruction": "Bygg hver mørk figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
         },
         "missing": {
           "title": "Tangram: hvilken brikke mangler?",
@@ -364,7 +364,7 @@
         },
         "count": {
           "title": "Tangram: tell trekanter og firkanter",
-          "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+          "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så kvadratene, og skriv tallet i den andre ruta."
         }
       }
     },
@@ -1642,7 +1642,7 @@
         },
         "share": {
           "title": "Kan to venner dele likt?",
-          "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Er antallet bilder partall eller oddetall?"
+          "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir igjen. Partall eller oddetall? Sett ring rundt riktig ord."
         },
         "ones": {
           "title": "Partall og oddetall opp til 100: se på enerplassen",
@@ -2887,7 +2887,7 @@
       "strings": {
         "base": {
           "title": "Avrunding til nærmeste tier",
-          "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er einersifferet 5 eller mer, runder du opp."
+          "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er enersifferet 5 eller mer, runder du opp."
         },
         "sort": {
           "title": "Rund opp eller ned? Sorter tallene",
@@ -2903,7 +2903,7 @@
         },
         "inverse": {
           "title": "Hvilke tall blir 50?",
-          "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på einersifferet i hvert tall."
+          "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på enersifferet i hvert tall."
         },
         "both": {
           "title": "Avrunding til tier og hundrer",

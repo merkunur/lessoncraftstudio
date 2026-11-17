@@ -2116,11 +2116,11 @@
   "strings": {
     "K-317": {
       "title": "La letra {U}{L}: repasa, busca y escribe",
-      "instruction": "Repasa la letra mayúscula y la minúscula, rodea los cuatro dibujos que empiezan con {U} y escribe una fila de cada una."
+      "instruction": "Repasa la letra mayúscula y la minúscula, encierra los cuatro dibujos que empiezan con {U} y escribe una fila de cada una."
     },
     "K-325": {
       "title": "Palabras con {U}: el sonido en cualquier lugar",
-      "instruction": "Repasa la letra y rodea los cuatro dibujos que tienen el sonido {U} dentro de la palabra, no al principio."
+      "instruction": "Repasa la letra y encierra los cuatro dibujos que tienen el sonido {U} dentro de la palabra, no al principio."
     },
     "K-326": {
       "title": "¿Al principio, en medio o al final? La letra {U}",
@@ -2128,15 +2128,15 @@
     },
     "K-327": {
       "title": "Rodea la {U} en las palabras y cuenta",
-      "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
+      "instruction": "Busca todas las {U} y {L} de cada palabra y enciérralas. Después escribe en el recuadro cuántas encontraste."
     },
     "G1-311": {
       "title": "Dos letras, un solo sonido: {U}",
-      "instruction": "Repasa {L}, rodea los cuatro dibujos que tienen el sonido {L} y escribe una fila."
+      "instruction": "Repasa la {L}, encierra los cuatro dibujos que tienen el sonido {L} y escribe una fila de {L}."
     },
     "K-328": {
       "title": "¿L o R? Escucha la diferencia",
-      "instruction": "Di el nombre de cada dibujo. Rodea la letra con la que empieza: l o r."
+      "instruction": "Di el nombre de cada dibujo. Encierra la letra con la que empieza: l o r."
     }
   }
 }

@@ -355,7 +355,7 @@
   "strings": {
     "G1-305": {
       "title": "Tavuta sanat: taputa ja merkitse tavut",
-      "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva jokaisen tavun väliin."
+      "instruction": "Sano kuvan sana ja taputa tavut. Piirrä sanaan tavuviiva tavujen väliin."
     },
     "G1-325": {
       "title": "Tavuta ja kirjoita sana",
@@ -375,7 +375,7 @@
     },
     "G1-329": {
       "title": "Tavun vokaali: jokaisessa tavussa yksi",
-      "instruction": "Jokaisessa tavussa on yksi vokaaliäänne. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
+      "instruction": "Jokaisessa tavussa on ainakin yksi vokaali. Katso malli ja piirrä piste vokaalin kohdalle jokaisen tavukaaren sisään."
     }
   }
 }

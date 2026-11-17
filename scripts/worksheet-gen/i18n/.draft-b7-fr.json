@@ -75,7 +75,7 @@
     },
     "G1-418": {
       "title": "Remets les étapes dans l'ordre : dessiner {L}",
-      "instruction": "Les étapes sont mélangées : écris 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine le hibou."
+      "instruction": "Les étapes sont mélangées : écris les nombres de 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine le hibou."
     },
     "G1-419": {
       "title": "Recopie chaque étape : dessine {L}",
@@ -308,7 +308,7 @@
         },
         "order": {
           "title": "Remets les étapes dans l'ordre : dessiner {L}",
-          "instruction": "Les étapes sont mélangées : écris 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine le hibou."
+          "instruction": "Les étapes sont mélangées : écris les nombres de 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine le hibou."
         },
         "copy-steps": {
           "title": "Recopie chaque étape : dessine {L}",

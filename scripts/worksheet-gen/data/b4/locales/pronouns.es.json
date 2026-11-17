@@ -622,7 +622,7 @@
   "strings": {
     "base": {
       "title": "Pronombres personales: él, ella, ellos o ellas",
-      "instruction": "Mira a la persona y lee su nombre. Rodea el pronombre que usamos en lugar del nombre."
+      "instruction": "Mira a la persona y lee su nombre. Encierra el pronombre que usamos en lugar del nombre."
     },
     "replace": {
       "title": "Sustituye el nombre por un pronombre",

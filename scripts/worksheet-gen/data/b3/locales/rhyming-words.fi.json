@@ -1503,15 +1503,15 @@
   "strings": {
     "G1-309": {
       "title": "Riimisanat: rimmaa ja kirjoita",
-      "instruction": "Sano ensimmäinen kuva ääneen. Ympyröi kuva, joka rimmaa sen kanssa, ja kirjoita sitten sen sana viivalle."
+      "instruction": "Sano ensimmäisen kuvan nimi ääneen. Ympyröi kuva, jonka nimi rimmaa sen kanssa, ja kirjoita sitten sen nimi viivalle."
     },
     "K-352": {
       "title": "Rimmaako vai ei?",
-      "instruction": "Sano molemmat kuvat ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
+      "instruction": "Sano molempien kuvien nimet ääneen. Jos sanat rimmaavat, ympyröi väkänen. Jos ne eivät rimmaa, ympyröi ruksi."
     },
     "G1-343": {
       "title": "Lajittele riimisanat",
-      "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
+      "instruction": "Sano jokaisen sanapankin kuvan nimi. Etsi iso kuva, jonka nimen kanssa se rimmaa, ja kirjoita sana viivalle sen kuvan alle."
     },
     "G1-344": {
       "title": "Täydennä loru: puuttuva riimisana",
@@ -1519,7 +1519,7 @@
     },
     "G1-345": {
       "title": "Riimiketjut",
-      "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
+      "instruction": "Sano jokaisen kuvan nimi. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne viivoille. Osa sanoista ei sovi mihinkään."
     },
     "G1-346": {
       "title": "Keksi omat riimisanat",

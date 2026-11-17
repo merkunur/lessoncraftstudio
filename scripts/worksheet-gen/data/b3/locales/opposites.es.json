@@ -661,7 +661,7 @@
     },
     "G1-337": {
       "title": "¿Sinónimo o antónimo? Rodea el antónimo",
-      "instruction": "Lee la palabra. De las tres palabras de abajo, una significa lo contrario. Rodéala, no la que significa lo mismo."
+      "instruction": "Lee la palabra. De las tres palabras de abajo, una significa lo contrario. Enciérrala, no la que significa lo mismo."
     },
     "G2-320": {
       "title": "Antónimos con prefijos: in-, im- y des-",

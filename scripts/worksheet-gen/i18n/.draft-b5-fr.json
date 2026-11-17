@@ -191,7 +191,7 @@
     },
     "G2-372": {
       "title": "Le son ou dans des phrases : entoure et compte",
-      "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+      "instruction": "Lis les phrases, entoure chaque « ou » et écris dans la case combien tu en as trouvé dans chaque phrase."
     },
     "G2-358": {
       "title": "Les synonymes : entoure le mot qui veut dire la même chose",
@@ -3445,7 +3445,7 @@
         },
         "text": {
           "title": "Le son ou dans des phrases : entoure et compte",
-          "instruction": "Lis les phrases, entoure chaque ou et écris dans la case combien tu en as trouvé dans chaque phrase."
+          "instruction": "Lis les phrases, entoure chaque « ou » et écris dans la case combien tu en as trouvé dans chaque phrase."
         }
       }
     },

@@ -1,5 +1,5 @@
 {
- "$comment": "The instruction line of each end a copy can ask, for the comparison templates whose copies ask the two ends in turn (types/_shared/size-compare.js K-032 K-035 K-037 K-079, measurement-tasks.js K-038, compare-groups.js K-008; 2026-11-17, the Position Words model). order[0] is the end the published pages ask: its line is the registered instruction (i18n/strings.<loc>.json) word for word, and copy 1 of every level asks it; a copy that asks order[1] prints that line (copyInstruction). K-038 \"screen\": the tap line of each end (order[0] = i18n/interactive-instructions.json measurement.heavier). K-008 fewer = the registered lines of K-009. The other ends are DRAFTS awaiting the native review (qa/verify-ask-lines.js checks the published ends).",
+ "$comment": "The instruction line of each end a copy can ask, for the comparison templates whose copies ask the two ends in turn (types/_shared/size-compare.js K-032 K-035 K-037 K-079, measurement-tasks.js K-038, compare-groups.js K-008; 2026-11-17, the Position Words model). order[0] is the end the published pages ask: its line is the registered instruction (i18n/strings.<loc>.json) word for word, and copy 1 of every level asks it; a copy that asks order[1] prints that line (copyInstruction). K-038 \"screen\": the tap line of each end (order[0] = i18n/interactive-instructions.json measurement.heavier). K-008 fewer = the registered line of K-009. \"printTitles\": the heading the sheet must print (registered printTitle, else title) where the native panel corrected it. Every line and title was read by the native panel (2026-11-17; es in its Mexican form, \"Encierra\"); qa/verify-ask-lines.js checks them against the registered ones (--pending=<file> for lines whose registered form is still to be set).",
  "K-032": {
   "order": [
    "largest",
@@ -42,8 +42,8 @@
    "smallest": "Cerchia quello PIÙ PICCOLO in ogni fila."
   },
   "es": {
-   "largest": "Rodea el MÁS GRANDE de cada fila.",
-   "smallest": "Rodea el MÁS PEQUEÑO de cada fila."
+   "largest": "Encierra el MÁS GRANDE de cada fila.",
+   "smallest": "Encierra el MÁS PEQUEÑO de cada fila."
   },
   "pt": {
    "largest": "Circule o MAIOR de cada fileira.",
@@ -69,7 +69,7 @@
   },
   "fr": {
    "largest": "Entoure le PLUS HAUT dans chaque rangée.",
-   "smallest": "Entoure le PLUS BAS dans chaque rangée."
+   "smallest": "Entoure le MOINS HAUT dans chaque rangée."
   },
   "no": {
    "largest": "Sett ring rundt den HØYESTE i hver rad.",
@@ -92,8 +92,8 @@
    "smallest": "Cerchia quello PIÙ BASSO in ogni fila."
   },
   "es": {
-   "largest": "Rodea el MÁS ALTO de cada fila.",
-   "smallest": "Rodea el MÁS BAJO de cada fila."
+   "largest": "Encierra el MÁS ALTO de cada fila.",
+   "smallest": "Encierra el MÁS BAJO de cada fila."
   },
   "pt": {
    "largest": "Circule o mais ALTO de cada fileira.",
@@ -142,8 +142,8 @@
    "smallest": "Cerchia quello PIÙ CORTO in ogni fila."
   },
   "es": {
-   "largest": "Rodea el MÁS LARGO de cada fila.",
-   "smallest": "Rodea el MÁS CORTO de cada fila."
+   "largest": "Encierra el MÁS LARGO de cada fila.",
+   "smallest": "Encierra el MÁS CORTO de cada fila."
   },
   "pt": {
    "largest": "Circule o mais COMPRIDO de cada fileira.",
@@ -192,8 +192,8 @@
    "smallest": "Cerchia la forma PIÙ PICCOLA in ogni fila."
   },
   "es": {
-   "largest": "Rodea la figura MÁS GRANDE de cada fila.",
-   "smallest": "Rodea la figura MÁS PEQUEÑA de cada fila."
+   "largest": "Encierra la figura MÁS GRANDE de cada fila.",
+   "smallest": "Encierra la figura MÁS PEQUEÑA de cada fila."
   },
   "pt": {
    "largest": "Circule a MAIOR forma de cada fileira.",
@@ -242,8 +242,8 @@
    "lighter": "Pensa alla vita reale! Cerchia quello PIÙ LEGGERO."
   },
   "es": {
-   "heavier": "¡Piensa en la vida real! Rodea el MÁS PESADO.",
-   "lighter": "¡Piensa en la vida real! Rodea el MÁS LIVIANO."
+   "heavier": "¡Piensa en la vida real! Encierra el MÁS PESADO.",
+   "lighter": "¡Piensa en la vida real! Encierra el MÁS LIGERO."
   },
   "pt": {
    "heavier": "Pense na vida real! Circule o MAIS PESADO.",
@@ -288,7 +288,7 @@
    },
    "es": {
     "heavier": "¡Piensa en la vida real! Toca el MÁS PESADO.",
-    "lighter": "¡Piensa en la vida real! Toca el MÁS LIVIANO."
+    "lighter": "¡Piensa en la vida real! Toca el MÁS LIGERO."
    },
    "pt": {
     "heavier": "Pense na vida real! Toque no MAIS PESADO.",
@@ -338,12 +338,27 @@
    "fewer": "Guarda i due gruppi. Cerchia il gruppo che ne ha DI MENO."
   },
   "es": {
-   "more": "Mira los dos grupos. Rodea el grupo que tiene MÁS.",
-   "fewer": "Mira los dos grupos. Rodea el grupo que tiene MENOS."
+   "more": "Mira los dos grupos. Encierra el grupo que tiene MÁS.",
+   "fewer": "Mira los dos grupos. Encierra el grupo que tiene MENOS."
   },
   "pt": {
    "more": "Olhe os dois grupos. Circule o grupo que tem MAIS.",
    "fewer": "Olhe os dois grupos. Circule o grupo que tem MENOS."
+  }
+ },
+ "printTitles": {
+  "K-035": {
+   "fi": "Korkea ja matala"
+  },
+  "K-038": {
+   "de": "Schwer oder leicht?",
+   "sv": "Tung eller lätt?",
+   "no": "Tung eller lett?",
+   "da": "Tung eller let?",
+   "es": "¿Pesado o ligero?"
+  },
+  "K-067": {
+   "fi": "Sisällä ja ulkopuolella"
   }
  }
 }

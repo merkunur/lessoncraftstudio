@@ -23,7 +23,7 @@
   },
   "K-296": {
    "title": "Prikk til prikk: tell videre til 30",
-   "instruction": "Tell videre fra 11 til 30, og se hvilket bilde som kommer fram."
+   "instruction": "Start på den oransje prikken. Tell videre fra 11 til 30, og trekk strek fra prikk til prikk til bildet kommer fram."
   },
   "K-298": {
    "title": "Tegn etter i rutenett uten bokstaver og tall",
@@ -95,7 +95,7 @@
   },
   "G1-264": {
    "title": "Alfabetisk rekkefølge: samme førstebokstav",
-   "instruction": "To par ord begynner likt. Bruk den andre bokstaven."
+   "instruction": "To par ord begynner med samme bokstav. Bruk den andre bokstaven til å sette dem i riktig rekkefølge."
   },
   "G1-266": {
    "title": "Tallpyramider opp til 10",
@@ -107,7 +107,7 @@
   },
   "G1-268": {
    "title": "Tallpyramider: finn steinen som mangler",
-   "instruction": "En stein nederst mangler. Bruk steinen over til å finne den."
+   "instruction": "En stein nederst mangler. Bruk steinen over til å finne den, og bygg så hele pyramiden."
   },
   "G1-270": {
    "title": "Det dobbelte og halvparten: små tall",
@@ -151,7 +151,7 @@
   },
   "G1-282": {
    "title": "Sett ordene i rekkefølge: med hjelp",
-   "instruction": "Stor bokstav og punktum viser start og slutt på setningen."
+   "instruction": "Sett ordene i riktig rekkefølge, og skriv setningen på linjen. Stor bokstav og punktum viser hvor setningen starter og slutter."
   },
   "G1-283": {
    "title": "Sett ordene i rekkefølge: uten hjelp",
@@ -199,7 +199,7 @@
   },
   "G2-294": {
    "title": "Regne med penger: er det nok?",
-   "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei."
+   "instruction": "Sammenlign pengene med prisen. Sett ring rundt ja eller nei, og skriv så hvor mye pengene er til sammen."
   },
   "G2-295": {
    "title": "Regne med penger: hvor mye mer?",
@@ -231,7 +231,7 @@
   },
   "G2-303": {
    "title": "Koordinater i rutenett: 10 x 10",
-   "instruction": "Et større rutenett med flere ruter. Jobb deg nøye gjennom lista."
+   "instruction": "Finn hver rute i det store rutenettet ved hjelp av bokstav og tall. Fargelegg den, så kommer bildet fram."
   },
   "G3-371": {
    "title": "Regnefortellinger: gange",
@@ -247,11 +247,11 @@
   },
   "G3-374": {
    "title": "Regnefortellinger: dele på to måter",
-   "instruction": "Én fortelling deler likt, den andre lager grupper."
+   "instruction": "Løs begge fortellingene. Den ene deler likt, den andre lager grupper. Begge er deling."
   },
   "G3-375": {
    "title": "Regnefortellinger: gange og lage grupper",
-   "instruction": "Én fortelling bygger grupper, den andre deler dem opp."
+   "instruction": "Løs begge fortellingene. Den ene lager grupper, den andre deler dem opp."
   },
   "G3-376": {
    "title": "Regnefortellinger: gange og dele blandet",
@@ -259,7 +259,7 @@
   },
   "K-308": {
    "title": "Prikk til prikk: tell baklengs fra 10",
-   "instruction": "Start på den oransje prikken, og tell baklengs fra 10 til 1."
+   "instruction": "Start på den oransje prikken, og trekk strek fra prikk til prikk mens du teller baklengs fra 10 til 1."
   },
   "G1-285": {
    "title": "Prikk til prikk: tell med toere",
@@ -267,7 +267,7 @@
   },
   "G1-294": {
    "title": "Prikk til prikk: tell baklengs fra 20",
-   "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1."
+   "instruction": "Alle prikkene er nummererte. Tell baklengs fra 20 helt ned til 1, og trekk strek fra prikk til prikk."
   },
   "G2-304": {
    "title": "Prikk til prikk: tell med femmere",
@@ -283,7 +283,7 @@
   },
   "G1-286": {
    "title": "Det dobbelte og halvparten med bilder",
-   "instruction": "Noen kort spør om det dobbelte, andre om halvparten."
+   "instruction": "Noen kort spør om det dobbelte, andre om halvparten. Regn ut, og skriv svaret i rutene."
   },
   "G2-305": {
    "title": "Les av tallinjen fra 40 til 60",
@@ -291,7 +291,7 @@
   },
   "G2-310": {
    "title": "Les av tallinjen fra 60 til 100",
-   "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp."
+   "instruction": "Tallinjen starter på 60. Hvert femte tall står der til hjelp. Tell videre fra nærmeste tall, og skriv tallet hver pil peker på."
   },
   "G1-295": {
    "title": "Les av tallinjen fra 20 til 40",
@@ -311,7 +311,7 @@
   },
   "G1-297": {
    "title": "Halvparten opp til 20 med bilder",
-   "instruction": "Større grupper av bilder å halvere, helt opp til tjue."
+   "instruction": "Nå skal du halvere større grupper av bilder, helt opp til tjue."
   },
   "K-314": {
    "title": "Entall og flertall: skriv selv",
@@ -319,7 +319,7 @@
   },
   "G1-293": {
    "title": "Substantiv og verb",
-   "instruction": "To bokser denne gangen. Er ordet et substantiv eller et verb?"
+   "instruction": "Er hvert ord et substantiv eller et verb? Skriv ordet i riktig boks."
   },
   "K-310": {
    "title": "Spor og skriv med store bokstaver",
@@ -335,7 +335,7 @@
   },
   "G2-308": {
    "title": "Koordinater i rutenett: skriv koden",
-   "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista."
+   "instruction": "Bildet er ferdig fargelagt. Skriv koden til hver rute i lista for fargen den har."
   },
   "K-309": {
    "title": "Prikk til prikk med bokstaver",
@@ -359,7 +359,7 @@
   },
   "G1-300": {
    "title": "Substantiv og adjektiv",
-   "instruction": "Er ordet et substantiv, eller beskriver det hvordan noe er?"
+   "instruction": "Er hvert ord et substantiv eller et adjektiv? Skriv ordet i riktig boks."
   },
   "G1-301": {
    "title": "Skriv ordet: ordbank og bokstavruter",
@@ -371,7 +371,7 @@
   },
   "G2-312": {
    "title": "Les kalenderen: datoer og antall dager",
-   "instruction": "Svaret er noen ganger en dato, andre ganger et antall dager."
+   "instruction": "Bruk kalenderen til å svare på hvert spørsmål. Svaret er noen ganger en dato, andre ganger et antall dager."
   },
   "G2-314": {
    "title": "Prikk til prikk: tell med tiere",

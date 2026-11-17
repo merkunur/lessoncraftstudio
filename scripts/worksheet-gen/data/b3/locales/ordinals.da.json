@@ -423,7 +423,7 @@
     },
     "F4": {
       "title": "Ordenstal fra begge sider: start ved flaget",
-      "instruction": "Find først flaget: det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
+      "instruction": "Find først flaget: Det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
     },
     "F5": {
       "title": "Hvem vinder løbet? Skriv pladsen",

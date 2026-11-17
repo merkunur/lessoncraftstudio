@@ -9,7 +9,7 @@
   },
   "K-005": {
     "title": "Fyld rammen",
-    "instruction": "Tegn en prik i rammen for hver, som tallet viser."
+    "instruction": "Tegn lige så mange prikker i rammen, som tallet viser."
   },
   "K-006": {
     "title": "Tæl og skriv",
@@ -93,7 +93,8 @@
   },
   "K-027": {
     "title": "Tæl i tabellen",
-    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt."
+    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt.",
+    "printTitle": "Tæl billederne i rækker og søjler"
   },
   "K-028": {
     "title": "Hvor mange i alt?",
@@ -137,7 +138,8 @@
   },
   "K-038": {
     "title": "Hvad vejer mest?",
-    "instruction": "Tænk på det virkelige liv! Indkreds den TUNGESTE."
+    "instruction": "Tænk på det virkelige liv! Indkreds den TUNGESTE.",
+    "printTitle": "Tung eller let?"
   },
   "K-039": {
     "title": "Ens og forskellig",
@@ -174,7 +176,7 @@
   },
   "K-049": {
     "title": "Færdiggør mønstret",
-    "instruction": "Et billede mangler. Indkreds, hvad der hører i den tomme rude."
+    "instruction": "Et billede mangler. Indkreds det billede, der skal stå i det tomme felt."
   },
   "K-050": {
     "title": "Store og små mønstre",
@@ -182,7 +184,8 @@
   },
   "K-052": {
     "title": "Op og ned-mønstre",
-    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu.",
+    "printTitle": "Op-og-ned-mønstre"
   },
   "K-053": {
     "title": "Voksende mønstre",
@@ -226,7 +229,8 @@
   },
   "K-066": {
     "title": "Øverst, midt, nederst",
-    "instruction": "Indkreds hvert billede i den MIDTERSTE række."
+    "instruction": "Indkreds hvert billede i den MIDTERSTE række.",
+    "printTitle": "Øverst, midterst, nederst"
   },
   "K-067": {
     "title": "Inden i og uden for",
@@ -310,7 +314,8 @@
   },
   "G1-114": {
     "title": "Større, mindre eller lig?",
-    "instruction": "Sammenlign de to grupper. Indkreds det rigtige tegn."
+    "instruction": "Sammenlign de to grupper. Indkreds det rigtige tegn.",
+    "printTitle": "Større, mindre eller lig med?"
   },
   "G1-115": {
     "title": "Hvad mangler?",
@@ -379,7 +384,7 @@
   },
   "G1-133": {
     "title": "Stræk tallet ud",
-    "instruction": "Se på klodserne. Indkreds den matchende udvidede form."
+    "instruction": "Se på klodserne. Indkreds den udvidede form, der passer."
   },
   "G1-135": {
     "title": "Mindst først",
@@ -491,7 +496,8 @@
   },
   "G2-212": {
     "title": "Vælg tabellen",
-    "instruction": "Indkreds den opstilling, der passer til multiplikationen."
+    "instruction": "Indkreds den opstilling, der passer til multiplikationen.",
+    "printTitle": "Vælg den rigtige opstilling"
   },
   "G2-213": {
     "title": "Nemme grupper",
@@ -507,11 +513,13 @@
   },
   "G2-218": {
     "title": "Ulige tal-jagt",
-    "instruction": "Indkreds hvert ULIGE tal. Se på sidste ciffer for at afgøre det."
+    "instruction": "Indkreds hvert ULIGE tal. Se på sidste ciffer for at afgøre det.",
+    "printTitle": "Jagt på ulige tal"
   },
   "G2-219": {
     "title": "Store tal-dyst",
-    "instruction": "Sammenlign tallene. Indkreds det rigtige tegn."
+    "instruction": "Sammenlign tallene. Indkreds det rigtige tegn.",
+    "printTitle": "Dyst med store tal"
   },
   "G2-220": {
     "title": "Stil dem på række",
@@ -527,7 +535,7 @@
   },
   "G2-223": {
     "title": "Hundreder, tiere, enere",
-    "instruction": "Se på klodserne. Indkreds den matchende udvidede form."
+    "instruction": "Se på klodserne. Indkreds den udvidede form, der passer."
   },
   "G2-224": {
     "title": "Sortér pladserne",
@@ -641,7 +649,8 @@
   },
   "G3-301": {
     "title": "Store tabeller",
-    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt."
+    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt.",
+    "printTitle": "Store opstillinger"
   },
   "G3-302": {
     "title": "Drilske grupper",
@@ -750,7 +759,7 @@
   "G3-335": {
     "title": "Halvvejsmærker",
     "instruction": "Tæl X-mærkerne over hvert tal. Skriv hvor mange.",
-    "printTitle": "Halve"
+    "printTitle": "Prikdiagram med halve"
   },
   "G3-337": {
     "title": "Gå langs kanten",
@@ -770,7 +779,8 @@
   },
   "G3-341": {
     "title": "Ret vinkel-jagt",
-    "instruction": "Sæt ring om hver ret vinkel (et hjørne som i et kvadrat)."
+    "instruction": "Sæt ring om hver ret vinkel (et hjørne som i et kvadrat).",
+    "printTitle": "Jagt på rette vinkler"
   },
   "G3-342": {
     "title": "Hvor mange spejllinjer?",
@@ -799,7 +809,8 @@
   },
   "G3-355": {
     "title": "12-timer og 24-timer",
-    "instruction": "Lav om mellem 12-timer og 24-timer. Indkreds den rigtige form."
+    "instruction": "Skift mellem 12-timers og 24-timers ur. Indkreds det rigtige klokkeslæt.",
+    "printTitle": "12-timers og 24-timers ur"
   },
   "G3-356": {
     "title": "Læg til og træk fra",
@@ -819,7 +830,7 @@
   },
   "G3-351": {
     "title": "Hvad fuldender gåden?",
-    "instruction": "Rækker deler et billede, søjler en størrelse. Indkreds, hvad der passer i den tomme celle."
+    "instruction": "I hver række er billedet det samme, og i hver søjle er størrelsen den samme. Indkreds, hvad der passer i den tomme celle."
   },
   "G3-353": {
     "title": "Sortér i to cirkler",
@@ -1183,7 +1194,8 @@
   },
   "K-276": {
     "title": "Find det hele tal",
-    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal.",
+    "printTitle": "Find det store tal"
   },
   "K-277": {
     "title": "Tiervenner med tælleprikker",
@@ -1355,7 +1367,7 @@
   },
   "G2-268": {
     "title": "Spejling under stregen",
-    "instruction": "Billederne ligger på siden. Hvert billede er kun halvt færdigt: farvelæg felterne under linjen, så billedet bliver symmetrisk."
+    "instruction": "Billederne ligger på siden. Hvert billede er kun halvt færdigt: Farvelæg felterne under linjen, så billedet bliver symmetrisk."
   },
   "G2-269": {
     "title": "Læseforståelse: Elias på stranden",
@@ -1551,7 +1563,7 @@
   },
   "K-298": {
     "title": "Tegn efter i kvadratnet: nem start",
-    "instruction": "Et lille kvadratnet til at starte med: farvelæg de samme felter."
+    "instruction": "Et lille kvadratnet til at starte med: Farvelæg de samme felter."
   },
   "K-299": {
     "title": "Tegn efter i kvadratnet med bogstav og tal",
@@ -1559,7 +1571,7 @@
   },
   "K-300": {
     "title": "Tegn efter i et 8x8-kvadratnet",
-    "instruction": "Et større kvadratnet: find hvert felt med bogstav og tal, og farvelæg det samme felt til højre."
+    "instruction": "Et større kvadratnet: Find hvert felt med bogstav og tal, og farvelæg det samme felt til højre."
   },
   "K-302": {
     "title": "Ental og flertal: de første ord",
@@ -1583,7 +1595,7 @@
   },
   "G1-252": {
     "title": "Læs og farvelæg: seks sætninger",
-    "instruction": "Seks sætninger og seks farver: læs grundigt, før du farvelægger."
+    "instruction": "Seks sætninger og seks farver: Læs grundigt, før du farvelægger."
   },
   "G1-255": {
     "title": "Dagens tal: tallene fra 11 til 20",
@@ -1619,11 +1631,11 @@
   },
   "G1-264": {
     "title": "Alfabetisk rækkefølge: samme første bogstav",
-    "instruction": "Nogle ord begynder ens. Se på det andet bogstav."
+    "instruction": "Nogle ord begynder med det samme bogstav. Se på det andet bogstav, og nummerér ordene i alfabetisk rækkefølge."
   },
   "G1-266": {
     "title": "Talpyramider op til 10",
-    "instruction": "Hver sten er summen af de to under den. Intet tal er over 10."
+    "instruction": "Hver sten er summen af de to under den. Byg hver pyramide helt op til toppen. Intet tal er over 10."
   },
   "G1-267": {
     "title": "Talpyramider med fire rækker",
@@ -1631,7 +1643,7 @@
   },
   "G1-268": {
     "title": "Talpyramider: find den manglende sten",
-    "instruction": "En sten i bunden mangler. Brug stenen ovenover til at finde den."
+    "instruction": "En sten i bunden mangler. Brug stenen ovenover til at finde den, og byg så hele pyramiden færdig."
   },
   "G1-270": {
     "title": "Det dobbelte og det halve: nem start",
@@ -1675,7 +1687,7 @@
   },
   "G1-282": {
     "title": "Sæt ordene i rækkefølge: med hjælp",
-    "instruction": "Brug det store bogstav og tegnet til at finde sætningen."
+    "instruction": "Brug det store bogstav og tegnet til sidst til at sætte ordene i rækkefølge. Skriv sætningen på linjen."
   },
   "G1-283": {
     "title": "Sæt ordene i rækkefølge: uden hjælp",
@@ -1683,7 +1695,7 @@
   },
   "G2-281": {
     "title": "Stort bogstav og tegn til sidst",
-    "instruction": "Skriv de tre sætninger om, og vælg punktum eller spørgsmålstegn."
+    "instruction": "Skriv hver sætning om med stort bogstav, og vælg punktum eller spørgsmålstegn."
   },
   "G2-282": {
     "title": "Stort bogstav, navne og tegn til sidst",
@@ -1707,7 +1719,7 @@
   },
   "G2-290": {
     "title": "Købmandsregning: fire slags spørgsmål",
-    "instruction": "Fire kort med fire forskellige spørgsmål om priser og penge."
+    "instruction": "Læs spørgsmålet på hvert af de fire kort, og svar med priserne på hylden."
   },
   "G2-291": {
     "title": "Købmandsregning: hvad koster det i alt?",
@@ -1719,11 +1731,11 @@
   },
   "G2-293": {
     "title": "Købmandsregning: hvor meget får du tilbage?",
-    "instruction": "Tæl de mønter, der betales med, og find pengene tilbage."
+    "instruction": "Tæl de mønter, der betales med, og regn ud, hvor mange penge der skal gives tilbage."
   },
   "G2-294": {
     "title": "Købmandsregning: er der penge nok?",
-    "instruction": "Sammenlign pengene med prisen. Sæt ring om ja eller nej."
+    "instruction": "Sammenlign pengene med prisen. Sæt ring om ja eller nej, og skriv beløbet i alt."
   },
   "G2-295": {
     "title": "Købmandsregning: hvor meget dyrere?",
@@ -1743,7 +1755,7 @@
   },
   "G2-299": {
     "title": "Skriv til billedet med sætningsstartere",
-    "instruction": "Sætningsstarterne og ordbanken hjælper dig i gang."
+    "instruction": "Skriv om billedet. Sætningsstarterne og ordbanken hjælper dig i gang."
   },
   "G2-300": {
     "title": "Skriv til billedet med dine egne ord",
@@ -1755,7 +1767,7 @@
   },
   "G2-303": {
     "title": "Koordinater i et 10x10-kvadratnet",
-    "instruction": "Et større net med flere felter. Arbejd omhyggeligt hele listen igennem."
+    "instruction": "Find hvert felt i det store kvadratnet ud fra bogstav og tal, og farvelæg det, til billedet kommer frem."
   },
   "G3-371": {
     "title": "Regnehistorier med gange",
@@ -1763,7 +1775,7 @@
   },
   "G3-372": {
     "title": "Regnehistorier med division: del ligeligt",
-    "instruction": "Hver historie deler ud. Fordel tingene i kasserne."
+    "instruction": "I hver historie bliver tingene delt ligeligt. Fordel dem i kasserne."
   },
   "G3-373": {
     "title": "Regnehistorier med division: lav grupper",
@@ -1771,15 +1783,15 @@
   },
   "G3-374": {
     "title": "Regnehistorier med division på to måder",
-    "instruction": "Den ene historie deler ud, den anden laver grupper."
+    "instruction": "Læs begge regnehistorier, og regn dem ud. I den ene bliver der delt ud, i den anden bliver der lavet grupper. Begge er division."
   },
   "G3-375": {
     "title": "Regnehistorier med gange og grupper",
-    "instruction": "Den ene historie bygger grupper, den anden deler dem op igen."
+    "instruction": "Læs begge regnehistorier, og regn dem ud. I den ene bliver der lavet grupper, i den anden bliver grupperne delt op igen."
   },
   "G3-376": {
     "title": "Regnehistorier: tre blandede opgaver",
-    "instruction": "Tre historier. Find ud af, hvad hver enkelt spørger om."
+    "instruction": "Læs de tre regnehistorier. Find ud af, hvad hver enkelt spørger om, før du svarer."
   },
   "K-308": {
     "title": "Prik til prik: tæl baglæns fra 10",
@@ -1799,15 +1811,15 @@
   },
   "K-311": {
     "title": "Skriv ordet af to gange",
-    "instruction": "Ingen stiplede bogstaver: se ordet på kortet, og skriv det af to gange."
+    "instruction": "Ingen stiplede bogstaver: Se ordet på kortet, og skriv det af to gange."
   },
   "G1-291": {
     "title": "Skriv ordet: kun det første bogstav er givet",
-    "instruction": "Ingen ordbank: skriv ordet videre fra det første bogstav."
+    "instruction": "Ingen ordbank: Skriv ordet videre fra det første bogstav."
   },
   "G1-286": {
     "title": "Det dobbelte og det halve med billeder til 20",
-    "instruction": "Fire kort med billeder: fordobl eller halvér gruppen."
+    "instruction": "Fire kort med billeder: Fordobl eller halvér gruppen."
   },
   "G2-305": {
     "title": "Aflæs tallinjen fra 40 til 60",
@@ -1839,11 +1851,11 @@
   },
   "K-314": {
     "title": "Ental og flertal: fra én til flere",
-    "instruction": "Ingen stiplede bogstaver: skriv selv flertalsformen."
+    "instruction": "Ingen stiplede bogstaver: Skriv selv flertalsformen."
   },
   "G1-293": {
     "title": "Navneord og udsagnsord: to kasser",
-    "instruction": "Ti ord og to kasser: sortér dem som navneord eller udsagnsord."
+    "instruction": "Ti ord og to kasser: Sortér dem som navneord eller udsagnsord."
   },
   "K-310": {
     "title": "Store bogstaver: skriv ordet efter",
@@ -1883,7 +1895,7 @@
   },
   "G1-300": {
     "title": "Navneord og tillægsord: hvordan er det?",
-    "instruction": "Beskrivende ord eller navneord? Sortér de ti ord i to kasser."
+    "instruction": "Navneord eller tillægsord? Sortér de ti ord i to kasser."
   },
   "G1-301": {
     "title": "Skriv ordet: ordbank og bogstavfelter",
@@ -1895,7 +1907,7 @@
   },
   "G2-312": {
     "title": "Læs kalenderen: find datoen og tæl dagene",
-    "instruction": "Fire spørgsmål: find datoen, tæl dagene fra det ene billede til det andet, og find ugedagen."
+    "instruction": "Fire spørgsmål: Find datoen, tæl dagene fra det ene billede til det andet, og find ugedagen."
   },
   "G2-314": {
     "title": "Prik til prik: tæl med tiere til 100",
@@ -1903,11 +1915,11 @@
   },
   "K-315": {
     "title": "Skriv de store bogstaver af",
-    "instruction": "Ingen stiplede bogstaver: skriv ordet af med store bogstaver."
+    "instruction": "Ingen stiplede bogstaver: Skriv ordet af med store bogstaver."
   },
   "K-316": {
     "title": "Ental og flertal: skriv ordet for én",
-    "instruction": "Ingen stiplede bogstaver: skriv selv ordet for én."
+    "instruction": "Ingen stiplede bogstaver: Skriv selv ordet for én."
   },
   "G2-313": {
     "title": "Talpyramider med tocifrede tal",
@@ -1919,7 +1931,7 @@
   },
   "G1-303": {
     "title": "Skriv ordet: bogstavfelter og første bogstav",
-    "instruction": "Skriv ét bogstav i hvert felt. Det første bogstav står allerede der."
+    "instruction": "Skriv ét bogstav i hvert felt. Det første bogstav står der allerede."
   },
   "G1-304": {
     "title": "Skriv ordet med hjælp hele vejen",
@@ -1975,7 +1987,7 @@
   },
   "G1-309": {
     "title": "Rimord: find rimet, og skriv det",
-    "instruction": "Sig det første billede. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
+    "instruction": "Sig, hvad det første billede hedder. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
   },
   "G1-310": {
     "title": "Hundredtavlen: udfyld brikkerne",
@@ -2003,7 +2015,7 @@
   },
   "G3-377": {
     "title": "Division med rest: sæt ring om grupperne",
-    "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+    "instruction": "Sæt ring om grupper med lige så mange billeder, som det andet tal viser. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er tilovers."
   },
   "K-325": {
     "title": "Ord med {U}: hør lyden inde i ordet",
@@ -2075,7 +2087,7 @@
   },
   "K-336": {
     "title": "Ordenstal fra begge sider: start ved flaget",
-    "instruction": "Find først flaget: det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
+    "instruction": "Find først flaget: Det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
   },
   "G1-318": {
     "title": "Hvem vinder løbet? Skriv pladsen",
@@ -2127,7 +2139,7 @@
   },
   "K-343": {
     "title": "Min familie: tegn og tæl",
-    "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
+    "instruction": "Tegn din familie. Vis så på tierrammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
   },
   "K-344": {
     "title": "Det er mig: sæt ord på ansigtet",
@@ -2243,11 +2255,11 @@
   },
   "K-352": {
     "title": "Rimord eller ej? Rimer de to ord?",
-    "instruction": "Sig begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
+    "instruction": "Sig navnene på begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
   },
   "G1-343": {
     "title": "Sortér rimordene",
-    "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det."
+    "instruction": "Sig, hvad hvert billede i banken hedder. Find det store billede, det rimer på, og skriv ordet på en linje under det."
   },
   "G1-344": {
     "title": "Rimord: gør rimet færdigt",
@@ -2255,7 +2267,7 @@
   },
   "G1-345": {
     "title": "Rimord i kæder",
-    "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+    "instruction": "Sig, hvad hvert billede hedder. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
   },
   "G1-346": {
     "title": "Skriv dine egne rimord",
@@ -2267,7 +2279,7 @@
   },
   "G2-321": {
     "title": "Hop på hundredtavlen: følg pilene",
-    "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
+    "instruction": "Start ved tallet, og følg pilene: Op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
   },
   "G2-322": {
     "title": "Det hemmelige tal: to pile, ét felt",
@@ -2319,7 +2331,8 @@
   },
   "G2-333": {
     "title": "Ordnet: ét ord, mange sammensatte ord",
-    "instruction": "Ét ord står i midten. Hvert billede rundt om det danner et nyt ord sammen med det. Skriv de fire nye ord på linjerne."
+    "instruction": "Ét ord står i midten. Hvert billede rundt om det danner et nyt ord sammen med det. Skriv de fire nye ord på linjerne.",
+    "printTitle": "Ordsol: ét ord, mange sammensatte ord"
   },
   "G2-334": {
     "title": "Forbind udsagnsordet med dets datid",
@@ -2367,7 +2380,7 @@
   },
   "G3-378": {
     "title": "Logikopgaver 4 gange 4: seks spor",
-    "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
+    "instruction": "Fire børn og fire billeder. Brug alle sporene: Sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
   },
   "G1-349": {
     "title": "Logikopgaver med billedspor: streg ud, og find",
@@ -2559,7 +2572,7 @@
   },
   "G1-369": {
     "title": "Kan to venner dele ligeligt?",
-    "instruction": "Del billederne mellem vennerne, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Er antallet af billeder lige eller ulige? Sæt ring."
+    "instruction": "Del billederne mellem vennerne, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Lige eller ulige? Sæt ring om det rigtige ord."
   },
   "G2-352": {
     "title": "Lige og ulige tal op til 100: se på enerfeltet",
@@ -2595,7 +2608,8 @@
   },
   "G1-373": {
     "title": "Match spørgsmålet med svaret",
-    "instruction": "Læs hvert spørgsmål til venstre. Tegn en streg til det svar til højre, der passer til det."
+    "instruction": "Læs hvert spørgsmål til venstre. Tegn en streg til det svar til højre, der passer til det.",
+    "printTitle": "Forbind spørgsmålet med svaret"
   },
   "G1-374": {
     "title": "Skriv hv-ordet i sætningen",
@@ -2792,7 +2806,7 @@
   },
   "K-377": {
     "title": "Set fra siden og set oppefra",
-    "instruction": "Hver ting er tegnet fra siden: tegn en streg til den samme ting, set oppefra."
+    "instruction": "Hver ting er tegnet fra siden: Tegn en streg til den samme ting, set oppefra."
   },
   "G2-369": {
     "title": "Verdenshjørner: udfyld kompasrosen",
@@ -2960,7 +2974,7 @@
   },
   "G2-386": {
     "title": "Skriv ord med sammenhængende skrift til billederne",
-    "instruction": "Skriv oven i hvert gråt ord ved først at binde bogstaverne sammen og til sidst sætte prikker og streger, og skriv ordet ens på linjen nedenfor."
+    "instruction": "Skriv oven i hvert gråt ord: bind først bogstaverne sammen, og sæt til sidst prikker og streger. Skriv ordet på samme måde på linjen nedenfor."
   },
   "G2-387": {
     "title": "Læs sammenhængende skrift: find billedet til ordet",
@@ -3004,7 +3018,7 @@
   },
   "K-390": {
     "title": "En sætning med {UNIT}",
-    "instruction": "Arbejd med én sætning, trin for trin."
+    "instruction": "Læs sætningen, og gør hvert trin på siden, ét ad gangen."
   },
   "K-391": {
     "title": "Skriv sætningerne efter: {UNIT}",
@@ -3036,7 +3050,7 @@
   },
   "K-398": {
     "title": "Find fejlene i farvebilledet",
-    "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+    "instruction": "Kig godt på farverne: Sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
   },
   "G1-412": {
     "title": "Find syv fejl ved dammen",
@@ -3056,7 +3070,7 @@
   },
   "G1-415": {
     "title": "Spejlvendt billede: find fejlene",
-    "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+    "instruction": "Billede 2 er spejlvendt: Sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
   },
   "K-399": {
     "title": "Hvad mangler i billedet?",
@@ -3064,7 +3078,7 @@
   },
   "K-400": {
     "title": "Billedpar: find fejlen",
-    "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+    "instruction": "Hver række viser det samme udsnit to gange: Sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
   },
   "G2-389": {
     "title": "Skriv, hvad der er anderledes",
@@ -3096,7 +3110,7 @@
   },
   "G1-418": {
     "title": "Sæt trinnene i rækkefølge: tegn {L}",
-    "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
+    "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
   },
   "G1-419": {
     "title": "Trin for trin: tegn {L}",
@@ -3384,7 +3398,7 @@
   },
   "K-443": {
     "title": "En mere, en færre",
-    "instruction": "Tæl billederne. Se på mærket: Ved „1 mere“ tegner du en i det tomme felt, ved „1 færre“ streger du en ud. Skriv, hvor mange der er nu."
+    "instruction": "Tæl billederne. Se på mærket: Ved »1 mere« tegner du en i det tomme felt, ved »1 færre« streger du en ud. Skriv, hvor mange der er nu."
   },
   "K-444": {
     "title": "Tæl videre fra kassen",
@@ -3436,7 +3450,8 @@
   },
   "G1-435": {
     "title": "Det skjulte billede i hundredtabellen",
-    "instruction": "Find hvert tal fra listen i tabellen, og farv feltet. Et billede kommer frem!"
+    "instruction": "Find hvert tal fra listen på tavlen, og farv feltet. Et billede kommer frem!",
+    "printTitle": "Det skjulte billede på hundredtavlen"
   },
   "G1-436": {
     "title": "Udfyld taltavlen",
@@ -3456,7 +3471,8 @@
   },
   "G1-439": {
     "title": "Først til hel tier",
-    "instruction": "Hop først til hel tier og derefter resten. Udfyld felterne."
+    "instruction": "Hop først til nærmeste tier og derefter resten. Udfyld felterne.",
+    "printTitle": "Hop først til nærmeste tier"
   },
   "G2-395": {
     "title": "Udfyld tallinjen",
@@ -3492,7 +3508,7 @@
   },
   "G1-441": {
     "title": "Regnetrekanter til at klippe ud",
-    "instruction": "Klip kortene ud langs de stiplede linjer. Dæk et hjørne: hvilket tal gemmer sig?"
+    "instruction": "Klip kortene ud langs de stiplede linjer. Dæk et hjørne: Hvilket tal gemmer sig?"
   },
   "G1-442": {
     "title": "Hurtigregning",
@@ -3632,11 +3648,11 @@
   },
   "G3-409": {
     "title": "Dagens gangestykke",
-    "instruction": "Se på stykket øverst. Udfyld hvert felt: tæl i spring, gang begge veje og divider begge veje."
+    "instruction": "Se på stykket øverst. Udfyld hvert felt: Tæl i spring, gang begge veje og divider begge veje."
   },
   "G2-411": {
     "title": "Tegn gangestykket",
-    "instruction": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række."
+    "instruction": "Farvelæg et rektangel af prikker for hvert gangestykke: Det første tal er rækkerne, det andet er prikkerne i hver række."
   },
   "G3-410": {
     "title": "Smarte tricks i tabellerne",
@@ -3728,7 +3744,7 @@
   },
   "G2-474": {
     "title": "Hvilket klokkeslæt passer?",
-    "instruction": "Se på billedet: hvornår sker det? Sæt ring om det rigtige klokkeslæt."
+    "instruction": "Se på billedet: Hvornår sker det? Sæt ring om det rigtige klokkeslæt."
   },
   "G3-475": {
     "title": "Tidsforskel på en tidslinje",
@@ -3824,7 +3840,7 @@
   },
   "G1-486": {
     "title": "Prik til prik med regnestykker",
-    "instruction": "Regn hvert stykke ud, og skriv resultatet. Start ved den orange prik: det er resultatet af stykke 1. Tegn en streg til resultatet af stykke 2, så stykke 3 og så videre."
+    "instruction": "Regn hvert stykke ud, og skriv resultatet. Start ved den orange prik: Det er resultatet af stykke 1. Tegn en streg til resultatet af stykke 2, så stykke 3 og så videre."
   },
   "K-474": {
     "title": "Farvelæg efter ord",
@@ -3905,7 +3921,7 @@
   },
   "K-493": {
     "title": "Tegn med figurer",
-    "instruction": "Se på trinene. I hvert trin kommer der nye figurer til i orange. Tegn billedet i den store ramme, ét trin ad gangen."
+    "instruction": "Se på trinnene. I hvert trin kommer der nye figurer til i orange. Tegn billedet i den store ramme, ét trin ad gangen."
   },
   "K-494": {
     "title": "Tegn det større i ternene",
@@ -3917,11 +3933,11 @@
   },
   "K-496": {
     "title": "Alle sammen på ét billede",
-    "instruction": "Følg trinene for hver tegning. Tegn dem så alle sammen på det store billede."
+    "instruction": "Følg trinnene for hver tegning. Tegn dem så alle sammen på det store billede."
   },
   "K-497": {
     "title": "Trinkort: klip, læg i rækkefølge og tegn",
-    "instruction": "Klip kortene ud. Læg trinene i rækkefølge på den nummererede række, og lim dem fast. Tegn så billedet i rammen."
+    "instruction": "Klip kortene ud. Læg trinnene i rækkefølge på den nummererede række, og lim dem fast. Tegn så billedet i rammen."
   },
   "K-498": {
     "title": "Tegn efter billedets streger",
@@ -3949,7 +3965,7 @@
   },
   "K-504": {
     "title": "Tegn tegningen af i kvadratnettet",
-    "instruction": "Tegn tegningen af i det tomme kvadratnet, ét tern ad gangen: se, hvad der er i hvert tern, og tegn det samme i det tern, der passer til det."
+    "instruction": "Tegn tegningen af i det tomme kvadratnet, ét tern ad gangen: Se, hvad der er i hvert tern, og tegn det samme i det tern, der passer til det."
   },
   "K-505": {
     "title": "Prik til prik med talord",
@@ -3997,7 +4013,7 @@
   },
   "K-515": {
     "title": "Farvelæg stor og lille",
-    "instruction": "Se på koden: hver størrelse har sin egen farve. Farvelæg hver tegning med farven for dens størrelse."
+    "instruction": "Se på koden: Hver størrelse har sin egen farve. Farvelæg hver tegning med farven for dens størrelse."
   },
   "K-516": {
     "title": "Et lille malehæfte",
@@ -4009,7 +4025,8 @@
   },
   "K-517": {
     "title": "Spor tallene fra 1 til 100",
-    "instruction": "Spor de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt."
+    "instruction": "Skriv oven i de stiplede tal. Skriv det tal, der skal stå der, i hvert tomt felt.",
+    "printTitle": "Skriv tallene fra 1 til 100"
   },
   "K-518": {
     "title": "Sådan skriver vi tallene",
@@ -4125,7 +4142,7 @@
   },
   "K-539": {
     "title": "Rimedomino",
-    "instruction": "Klip dominobrikkerne ud. Læg dem i en ring: billedet til højre på hver brik rimer på billedet til venstre på den næste brik."
+    "instruction": "Klip dominobrikkerne ud. Læg dem i en ring: Billedet til højre på hver brik rimer på billedet til venstre på den næste brik."
   },
   "G1-496": {
     "title": "Stavelsespuslespil",
@@ -4377,7 +4394,8 @@
   },
   "G1-528": {
     "title": "Skattejagt: følg trinene",
-    "instruction": "Start ved flaget. Følg trinene. Sæt ring om det billede, hvor du ender."
+    "instruction": "Start ved flaget. Følg trinnene. Sæt ring om det billede, hvor du ender.",
+    "printTitle": "Skattejagt: følg trinnene"
   },
   "G1-529": {
     "title": "Beskriv vejen",
@@ -4609,11 +4627,11 @@
   },
   "K-598": {
     "title": "Tegneplakat",
-    "instruction": "Se på trinene i rækkefølge. Farvelæg navnet og den færdige tegning."
+    "instruction": "Se på trinnene i rækkefølge. Farvelæg navnet og den færdige tegning."
   },
   "G1-549": {
     "title": "Tegn det tre gange",
-    "instruction": "Følg trinene. Tegn billedet stort, så mindre og så helt lille."
+    "instruction": "Følg trinnene. Tegn billedet stort, så mindre og så helt lille."
   },
   "K-599": {
     "title": "To billeder at tegne efter",

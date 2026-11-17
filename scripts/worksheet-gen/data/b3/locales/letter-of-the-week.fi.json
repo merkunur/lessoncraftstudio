@@ -4564,7 +4564,7 @@
     },
     "K-326": {
       "title": "Missä tavussa {U} kuuluu?",
-      "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä tavussa {U} kuuluu: alussa, keskellä vai lopussa."
+      "instruction": "Sano kuvan sana ja taputa tavut. Väritä ruutu, joka näyttää, missä kohtaa sanaa {U} kuuluu: alussa, keskellä vai lopussa."
     },
     "K-327": {
       "title": "Ympyröi {U} sanoista ja laske",

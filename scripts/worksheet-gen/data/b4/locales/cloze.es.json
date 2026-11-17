@@ -832,7 +832,7 @@
     },
     "choice": {
       "title": "Completa la oración: rodea la palabra correcta",
-      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
+      "instruction": "Mira el dibujo y lee la oración. Encierra la palabra que va bien y escríbela en el recuadro."
     },
     "plural": {
       "title": "Completa las oraciones en plural",

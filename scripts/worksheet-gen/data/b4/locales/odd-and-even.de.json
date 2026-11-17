@@ -30,7 +30,7 @@
     },
     "ones": {
       "title": "Gerade und ungerade Zahlen bis 100",
-      "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab."
+      "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und male den Kreis unter gerade oder ungerade aus."
     },
     "sums": {
       "title": "Summe gerade oder ungerade? Ohne zu rechnen",

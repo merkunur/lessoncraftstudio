@@ -71,7 +71,7 @@
   },
   "G1-329": {
    "title": "Vokalen är kungen: en vokal i varje stavelse",
-   "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick under vokalen i varje stavelse: en vokalkung i varje båge."
+   "instruction": "Titta på exemplet. Bågarna visar stavelserna. Sätt en prick på vokalen i varje stavelse: en vokalkung i varje båge."
   },
   "G1-306": {
    "title": "Ljuda ihop ord: läs och skriv",
@@ -267,15 +267,15 @@
   },
   "G2-340": {
    "title": "Faktablad om {L} med ordbank",
-   "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
+   "instruction": "Hitta varje faktauppgift i ordbanken som stämmer och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
   },
   "G2-341": {
    "title": "Faktablad om {L}: skriv tre meningar",
-   "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
+   "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen faktauppgift på sista raden."
   },
   "G2-342": {
    "title": "Jämför två djur: lika och olika",
-   "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje fakta. Skriv sedan två saker som är lika och två som är olika."
+   "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje faktauppgift. Skriv sedan två saker som är lika och två som är olika."
   },
   "G2-343": {
    "title": "Vem är jag? Gåtor om djur",
@@ -307,7 +307,7 @@
   },
   "G3-377": {
    "title": "Division med rest: ringa in högarna",
-   "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+   "instruction": "Ringa in grupper med lika många som det andra talet i varje samling. Skriv hur många grupper du fick och hur många bilder som blev över."
   },
   "G3-380": {
    "title": "Dela lika med rest: vad blir över?",
@@ -315,7 +315,7 @@
   },
   "G3-381": {
    "title": "Division med rest: räknerader",
-   "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+   "instruction": "I varje division blir det något över. Skriv svaret och resten på varje rad."
   },
   "G3-382": {
    "title": "Går det jämnt ut? Division med och utan rest",
@@ -387,7 +387,7 @@
   },
   "K-343": {
    "title": "Min familj: rita och räkna",
-   "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv siffran."
+   "instruction": "Rita din familj. Visa sedan i tiorutorna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv talet."
   },
   "K-344": {
    "title": "Mitt ansikte: skriv orden på rätt plats",
@@ -20479,7 +20479,7 @@
    "strings": {
     "G3-377": {
      "title": "Division med rest: ringa in högarna",
-     "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+     "instruction": "Ringa in grupper med lika många som det andra talet i varje samling. Skriv hur många grupper du fick och hur många bilder som blev över."
     },
     "F1": {
      "title": "Dela lika med rest: vad blir över?",
@@ -20487,7 +20487,7 @@
     },
     "F2": {
      "title": "Division med rest: räknerader",
-     "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+     "instruction": "I varje division blir det något över. Skriv svaret och resten på varje rad."
     },
     "F3": {
      "title": "Går det jämnt ut? Division med och utan rest",
@@ -21332,7 +21332,7 @@
     },
     "K-343": {
      "title": "Min familj: rita och räkna",
-     "instruction": "Rita din familj. Visa sedan i tioramarna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv siffran."
+     "instruction": "Rita din familj. Visa sedan i tiorutorna hur många personer, bröder, systrar och husdjur det finns i din familj och skriv talet."
     },
     "K-344": {
      "title": "Mitt ansikte: skriv orden på rätt plats",
@@ -26421,15 +26421,15 @@
     },
     "G2-340": {
      "title": "Faktablad om {L} med ordbank",
-     "instruction": "Hitta varje fakta som stämmer i ordbanken och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
+     "instruction": "Hitta varje faktauppgift i ordbanken som stämmer och skriv den på rätt rad i faktabladet. Gör sedan meningen längst ner färdig."
     },
     "G2-341": {
      "title": "Faktablad om {L}: skriv tre meningar",
-     "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen fakta på sista raden."
+     "instruction": "Läs faktabladet. Gör de tre meningarna färdiga med fakta ur bladet och skriv sedan en egen faktauppgift på sista raden."
     },
     "G2-342": {
      "title": "Jämför två djur: lika och olika",
-     "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje fakta. Skriv sedan två saker som är lika och två som är olika."
+     "instruction": "Läs båda faktabladen. Ringa in lika eller olika för varje faktauppgift. Skriv sedan två saker som är lika och två som är olika."
     },
     "G2-343": {
      "title": "Vem är jag? Gåtor om djur",

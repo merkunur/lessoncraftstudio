@@ -19,7 +19,7 @@
     },
     "G1-311": {
       "title": "Duas letras, um som só: {U}",
-      "instruction": "Cubra {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha."
+      "instruction": "Cubra o {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha de {L}."
     },
     "K-328": {
       "title": "A ou E? Escute a diferença",
@@ -31,7 +31,7 @@
     },
     "K-329": {
       "title": "Conte os sons da palavra",
-      "instruction": "Fale o nome da figura devagar. Desenhe uma bolinha na caixa comprida para cada som que você ouvir. Depois escreva quantos sons no quadradinho."
+      "instruction": "Fale o nome da figura devagar. Desenhe uma bolinha na caixa comprida para cada som que você ouvir. Depois escreva no quadradinho quantos sons ouviu."
     },
     "K-330": {
       "title": "O primeiro som já está escrito",
@@ -195,7 +195,7 @@
     },
     "G1-305": {
       "title": "Separação de sílabas: bata palmas e marque",
-      "instruction": "Fale o nome de cada figura e bata palmas para as partes. Faça um tracinho entre cada sílaba que você ouvir."
+      "instruction": "Fale o nome de cada figura e bata palmas para as partes. Faça um tracinho entre as sílabas que você ouvir."
     },
     "G1-325": {
       "title": "Escreva a palavra separada em sílabas",
@@ -295,7 +295,7 @@
     },
     "K-352": {
       "title": "Rima ou não rima?",
-      "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimam, circule o certo. Se não rimam, circule o xis."
+      "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimarem, circule o sinal de certo. Se não rimarem, circule o X."
     },
     "G1-343": {
       "title": "Separe as rimas",
@@ -443,7 +443,7 @@
     },
     "G2-345": {
       "title": "Leia a tabela de lógica: verdadeiro ou falso?",
-      "instruction": "A tabela já está resolvida. Leia a tabela e circule o certo se a frase é verdadeira ou o xis se ela é falsa."
+      "instruction": "A tabela já está resolvida. Leia a tabela e circule o sinal de certo se a frase for verdadeira ou o X se ela for falsa."
     },
     "G3-377": {
       "title": "Divisão com resto: circule os grupos",
@@ -2384,7 +2384,7 @@
         },
         "F5": {
           "title": "Leia a tabela de lógica: verdadeiro ou falso?",
-          "instruction": "A tabela já está resolvida. Leia a tabela e circule o certo se a frase é verdadeira ou o xis se ela é falsa."
+          "instruction": "A tabela já está resolvida. Leia a tabela e circule o sinal de certo se a frase for verdadeira ou o X se ela for falsa."
         }
       }
     },
@@ -5314,7 +5314,7 @@
         },
         "G1-311": {
           "title": "Duas letras, um som só: {U}",
-          "instruction": "Cubra {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha."
+          "instruction": "Cubra o {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha de {L}."
         },
         "K-328": {
           "title": "A ou E? Escute a diferença",
@@ -21012,7 +21012,7 @@
         },
         "K-352": {
           "title": "Rima ou não rima?",
-          "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimam, circule o certo. Se não rimam, circule o xis."
+          "instruction": "Fale o nome das duas figuras em voz alta. Se as duas palavras rimarem, circule o sinal de certo. Se não rimarem, circule o X."
         },
         "G1-343": {
           "title": "Separe as rimas",

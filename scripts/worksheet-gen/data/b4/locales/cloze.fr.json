@@ -823,7 +823,7 @@
     },
     "plural": {
       "title": "Complète les phrases au pluriel",
-      "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot qui va avec plusieurs."
+      "instruction": "Regarde les images : il y en a plusieurs. Écris dans la case le mot au pluriel."
     },
     "story": {
       "title": "Texte à trous : complète l'histoire",

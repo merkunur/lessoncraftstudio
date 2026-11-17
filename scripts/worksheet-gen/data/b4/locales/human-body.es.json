@@ -117,11 +117,11 @@
     },
     "K-362": {
       "title": "El cuerpo humano: ¿qué falta?",
-      "instruction": "A cada cuerpo le falta una parte. Rodea el dibujo de la parte que falta y luego dibújala en su lugar."
+      "instruction": "A cada cuerpo le falta una parte. Encierra el dibujo de la parte que falta y luego dibújala en su lugar."
     },
     "K-363": {
       "title": "El cuerpo humano: ¿cuáles tienes dos?",
-      "instruction": "Rodea cada parte del cuerpo de la que tienes dos."
+      "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
     }
   }
 }

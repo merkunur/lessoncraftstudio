@@ -35,11 +35,11 @@
     },
     "K-252": {
       "title": "Getallen schrijven 1 tot 10",
-      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+      "instruction": "Trek elk getal na. Begin bij de oranje stip en volg de pijltjes."
     },
     "K-253": {
       "title": "Getallen schrijven 11 tot 20",
-      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+      "instruction": "Trek elk getal na. Begin bij de oranje stip en volg de pijltjes."
     },
     "K-254": {
       "title": "Letters overtrekken: G tot L",
@@ -259,15 +259,15 @@
     },
     "G2-257": {
       "title": "Sommen onder elkaar tot 1000",
-      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
     },
     "G2-258": {
       "title": "Optellen onder elkaar tot 1000",
-      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
     },
     "G2-259": {
       "title": "Onder elkaar rekenen: herhaling",
-      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
     },
     "G2-260": {
       "title": "Maatbekers aflezen",
@@ -327,19 +327,19 @@
     },
     "G3-359": {
       "title": "Optellen met onthouden",
-      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud als dat nodig is."
     },
     "G3-360": {
       "title": "Aftrekken met lenen",
-      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+      "instruction": "Reken elke som kolom voor kolom uit. Leen als dat nodig is."
     },
     "G3-361": {
       "title": "Optellen met onthouden tot 1000",
-      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud als dat nodig is."
     },
     "G3-362": {
       "title": "Lenen over de nul",
-      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+      "instruction": "Reken elke som kolom voor kolom uit. Leen als dat nodig is."
     },
     "G3-363": {
       "title": "Onthouden en lenen: herhaling",

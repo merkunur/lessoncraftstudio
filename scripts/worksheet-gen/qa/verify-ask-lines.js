@@ -6,20 +6,27 @@
  * K-038 Heavy or Light? (measurement-tasks.js), K-008 More or Less? (compare-groups.js); data/ask-lines.json.
  *
  *   node qa/verify-ask-lines.js            every language, the catalogue build and the maker page, no browser
- *   node qa/verify-ask-lines.js --poison   the same checks must FAIL on five planted faults
+ *   node qa/verify-ask-lines.js --poison   the same checks must FAIL on seven planted faults (a fault counts as caught
+ *                                          when it adds a report the clean run does not have)
+ *   --pending=<file.json>                  registered lines still to be set, { "<id>": { "<lang>": { "instruction"?,
+ *                                          "printTitle"?, "screen"? } } }: read as if i18n/strings.<loc>.json (and, for
+ *                                          "screen", interactive-instructions.json measurement.heavier) already said
+ *                                          them. Without it, every entry of that file fails check A once, and nothing else
  *
  * Per template and language, over copies 1 to 60 at level 2 and 1 to 12 at levels 1 and 3:
  *   A  the first end's sentence is the registered instruction (i18n/strings.<loc>.json) word for word, the other end has
- *      its own, different sentence (K-038: its screen lines too, the first = i18n/interactive-instructions.json)
+ *      its own, different sentence (K-038: its screen lines too, the first = i18n/interactive-instructions.json);
+ *      K-008's FEWER sentence is K-009's registered instruction; the printed title (printTitle, else title) is the one
+ *      the native panel set in data/ask-lines.json "printTitles"
  *   B  copy 1 of every level asks the published end, brings no words of its own and no data-lcs-ask
  *   C  both ends are asked, each on about half the copies, never one end more than twice in a row
  *   D  the marks follow the asked end: the circled picture is the biggest / smallest (size), the heavier / lighter of the
  *      pair (K-038, its answer key and its screen questions, answered by the type's own oracle), the group with more /
  *      fewer (K-008); a page asking the other end says so on every row (data-lcs-ask)
  *   E  a copy asking the other end brings that end's sentence (K-038: and its tap line); a copy asking the published end
- *      brings none
- *   F  the maker's page (makers/runtime.js makePage, the shell's copy numbers) prints the line of the end it asks, in
- *      every language, and over 16 new versions both ends are asked
+ *      brings none (it prints the registered line, which A ties to the published end's sentence)
+ *   F  the maker's page (makers/runtime.js makePage, the shell's copy numbers) prints the line of the end it asks (the
+ *      registered line for the published end), in every language, and over 16 new versions both ends are asked
  */
 'use strict';
 const path = require('path');
@@ -38,6 +45,25 @@ const { makeRng, instanceSeed } = require(path.join(WG, 'lib', 'rng.js'));
 const ASK = require(path.join(WG, 'data', 'ask-lines.json'));   // the same object the factories read (lib/copy-asks.js)
 const ORIGINAL = JSON.parse(JSON.stringify(ASK));
 const II = require(path.join(WG, 'i18n', 'interactive-instructions.json'));
+
+// --pending=<file>: registered lines still to be set (read as if the i18n files already said them)
+const PENDING_ARG = process.argv.find((a) => a.startsWith('--pending='));
+const PENDING = PENDING_ARG ? JSON.parse(require('fs').readFileSync(path.resolve(PENDING_ARG.slice('--pending='.length)), 'utf8')) : {};
+for (const [id, byLoc] of Object.entries(PENDING)) for (const [loc, f] of Object.entries(byLoc)) {
+  if (!LOCALES.includes(loc)) throw new Error(`--pending: unknown language ${loc} (${id})`);
+  for (const k of Object.keys(f)) if (!['instruction', 'printTitle', 'screen'].includes(k)) throw new Error(`--pending: unknown field ${k} (${id} ${loc})`);
+  if (f.screen && id !== 'K-038') throw new Error(`--pending: a screen line only for K-038 (${id} ${loc})`);
+}
+/** the registered strings of a type, with the pending lines read in; `planted` (poison runs) may change them */
+function registered(id, loc, planted) {
+  const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+  const p = (PENDING[id] || {})[loc] || {};
+  const out = reg ? { ...reg, ...(p.instruction ? { instruction: p.instruction } : {}), ...(p.printTitle ? { printTitle: p.printTitle } : {}) } : reg;
+  if (out && planted) Object.assign(out, planted(id, loc, out) || {});
+  return out;
+}
+/** K-038's registered tap line of the heavier end */
+const heavierTap = (loc) => (((PENDING['K-038'] || {})[loc] || {}).screen) || II.measurement.heavier[loc];
 const norm = (t) => String(t || '').replace(/&nbsp;|[  ]/g, ' ').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 
 /** which end a built page asks, read from the PAGE (the marks), never from the data */
@@ -77,19 +103,31 @@ function run(fault) {
   Object.assign(ASK, JSON.parse(JSON.stringify(ORIGINAL)));
   if (fault === 'always-first') for (const [id] of TYPES) ASK[id].order = [ASK[id].order[0]];
   if (fault === 'same-line') for (const [id] of TYPES) for (const loc of LOCALES) ASK[id][loc][ORIGINAL[id].order[1]] = ASK[id][loc][ORIGINAL[id].order[0]];
+  // planted faults in the registered strings: a corrected title not printed, K-009 not K-008's FEWER sentence
+  const planted = fault === 'old-title' ? (id) => ((ORIGINAL.printTitles || {})[id] ? { printTitle: null } : null)
+    : fault === 'k009' ? (id, loc) => (id === 'K-009' ? { instruction: ORIGINAL['K-008'][loc].more } : null) : null;
   try {
+    // A (once per run): K-008's FEWER sentence is K-009's registered line; the printed titles the panel corrected
+    for (const loc of LOCALES) {
+      const r9 = registered('K-009', loc, planted);
+      if (!r9 || r9.instruction !== (ASK['K-008'][loc] || {}).fewer) fails.push(`K-009 ${loc} [instruction]: the registered line is not K-008's FEWER sentence ("${r9 && r9.instruction}" / "${(ASK['K-008'][loc] || {}).fewer}")`);
+    }
+    for (const [id, byLoc] of Object.entries(ORIGINAL.printTitles || {})) for (const [loc, t] of Object.entries(byLoc)) {
+      const r = registered(id, loc, planted);
+      if (!r || (r.printTitle || r.title) !== t) fails.push(`${id} ${loc} [printTitle]: the sheet prints "${r && (r.printTitle || r.title)}", the corrected title is "${t}"`);
+    }
     for (const [id, file, kind, theme] of TYPES) {
       const type = require(path.join(WG, 'types', file));
       const order = ORIGINAL[id].order;
       for (const loc of LOCALES) {
-        const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+        const reg = registered(id, loc, planted);
         const lines = ASK[id][loc] || {};
         // A
-        if (!reg || lines[order[0]] !== reg.instruction) fails.push(`${id} ${loc}: the line of ${order[0]} is not the registered instruction`);
+        if (!reg || lines[order[0]] !== reg.instruction) fails.push(`${id} ${loc} [instruction]: the line of ${order[0]} is not the registered instruction ("${reg && reg.instruction}" / "${lines[order[0]]}")`);
         if (!lines[order[1]] || lines[order[1]] === lines[order[0]]) fails.push(`${id} ${loc}: ${order[1]} has no sentence of its own`);
         if (kind === 'heavy') {
           const sc = (ASK[id].screen || {})[loc] || {};
-          if (sc.heavier !== II.measurement.heavier[loc]) fails.push(`${id} ${loc}: the heavier tap line is not the registered one`);
+          if (sc.heavier !== heavierTap(loc)) fails.push(`${id} ${loc} [screen]: the heavier tap line is not the registered one ("${heavierTap(loc)}" / "${sc.heavier}")`);
           if (!sc.lighter || sc.lighter === sc.heavier) fails.push(`${id} ${loc}: the lighter tap line is missing`);
         }
         const seen = {}; let last = null, runLen = 0, longest = 0;
@@ -109,10 +147,15 @@ function run(fault) {
           const said = [...b.bodyHtml.matchAll(/data-lcs-ask="([a-z]+)"/g)].map((m) => m[1]);
           if (end === order[0] ? said.length : (said.length !== ends.length || said.some((s) => s !== end))) fails.push(`${id} ${loc} L${level} copy ${v}: the page does not say which end it asks`);
           if (v === 1 && (end !== order[0] || b.strings)) fails.push(`${id} ${loc} L${level}: copy 1 does not keep the published end and line`);
-          // E
-          let own = b.strings ? b.strings.instruction : reg.instruction;
-          if (fault === 'old-line') own = reg.instruction;
-          if (own !== ASK[id][loc][end]) fails.push(`${id} ${loc} L${level} copy ${v}: asks ${end} but its instruction is "${own}"`);
+          // E: a copy asking the published end prints the registered line (A ties it to that end's sentence) and brings
+          // none of its own; a copy asking the other end brings that end's sentence
+          if (end === order[0]) {
+            if (b.strings) fails.push(`${id} ${loc} L${level} copy ${v}: asks the published end but brings words of its own`);
+          } else {
+            let own = b.strings ? b.strings.instruction : reg.instruction;
+            if (fault === 'old-line') own = reg.instruction;
+            if (own !== ASK[id][loc][end]) fails.push(`${id} ${loc} L${level} copy ${v}: asks ${end} but its instruction is "${own}"`);
+          }
           if (kind === 'heavy' && end !== order[0] && !(b.strings && b.strings.screenInstruction === (ASK[id].screen[loc] || {})[end])) fails.push(`${id} ${loc} L${level} copy ${v}: asks ${end} but brings no tap line of it`);
           // D: K-038's answer key and screen follow the asked end (a level's copies past the published one carry a screen)
           if (kind === 'heavy' && !(level === 2 && v === 1)) {
@@ -149,7 +192,7 @@ function run(fault) {
         const type = require(path.join(WG, 'types', file));
         const order = ORIGINAL[id].order;
         for (const loc of LOCALES) {
-          const reg = require(path.join(WG, 'i18n', `strings.${loc}.json`))[id];
+          const reg = registered(id, loc);
           const strings = { title: reg.title, instruction: reg.instruction };
           const seen = new Set();
           let v = 1; const r = makeRng('maker-copies-' + id + loc);
@@ -162,7 +205,8 @@ function run(fault) {
             let line = norm((/<p data-lcs-instruction>([\s\S]*?)<\/p>/.exec(made.html) || [])[1]);
             if (fault === 'old-line') line = reg.instruction;
             seen.add(end);
-            if (line !== norm(ORIGINAL[id][loc][end])) fails.push(`maker ${id} ${loc} L${level} copy ${v}: asks ${end} but prints "${line}"`);
+            // the published end prints the registered line (A ties it to that end's sentence), another end its own
+            if (line !== norm(end === order[0] ? reg.instruction : ORIGINAL[id][loc][end])) fails.push(`maker ${id} ${loc} L${level} copy ${v}: asks ${end} but prints "${line}"`);
           }
           if (seen.size !== order.length) fails.push(`maker ${id} ${loc}: only ${[...seen].join(', ')} asked over 16 new versions`);
         }
@@ -175,17 +219,22 @@ function run(fault) {
   return fails;
 }
 
+const nPending = Object.values(PENDING).reduce((n, b) => n + Object.values(b).reduce((m, f) => m + Object.keys(f).length, 0), 0);
+if (PENDING_ARG) console.log(`(reading ${nPending} pending registered line(s) from ${PENDING_ARG.slice('--pending='.length)})`);
 if (!POISON) {
   const fails = run(null);
-  fails.slice(0, 30).forEach((f) => console.log('FAIL  ' + f));
-  console.log(fails.length ? `ask lines: ${fails.length} problem(s)` : `ask lines: ${TYPES.length} templates, 11 languages, 84 copies each, the maker path in 11 languages; all checks pass`);
+  fails.slice(0, 60).forEach((f) => console.log('FAIL  ' + f));
+  console.log(fails.length ? `ask lines: ${fails.length} problem(s)` : `ask lines: ${TYPES.length} templates, 11 languages, 84 copies each, the maker path in 11 languages, K-009, ${Object.values(ORIGINAL.printTitles || {}).reduce((n, b) => n + Object.keys(b).length, 0)} printed titles; all checks pass`);
   process.exit(fails.length ? 1 : 0);
 } else {
+  // a planted fault is caught when it adds a report the clean run does not have (so a run with pending lines still
+  // waiting proves the faults too)
+  const clean = new Set(run(null));
   let bad = 0;
-  const faults = ['always-first', 'same-line', 'wrong-marks', 'old-line', 'oracle'];
+  const faults = ['always-first', 'same-line', 'wrong-marks', 'old-line', 'oracle', 'old-title', 'k009'];
   for (const f of faults) {
-    const n = run(f).length;
-    console.log((n ? 'caught   ' : 'MISSED   ') + f + (n ? ` (${n} reports)` : ''));
+    const n = run(f).filter((x) => !clean.has(x)).length;
+    console.log((n ? 'caught   ' : 'MISSED   ') + f + (n ? ` (${n} new reports)` : ''));
     if (!n) bad++;
   }
   console.log(bad ? `${bad} planted fault(s) not caught` : `${faults.length} of ${faults.length} planted faults caught`);

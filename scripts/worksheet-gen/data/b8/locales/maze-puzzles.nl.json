@@ -27,7 +27,7 @@
     "burrow": {
       "title": "Doolhof onder de grond: de mierengangen",
       "printTitle": "Help de mier naar haar framboos",
-      "instruction": "Help de mier door de gangen naar beneden en naar boven, tot bij de framboos. Teken een lijn langs de weg.",
+      "instruction": "Help de mier door de gangen naar beneden en naar boven, naar de framboos. Teken een lijn langs de weg.",
       "tap": "Begin bij de groene cirkel. Sleep door de gangen naar de framboos."
     },
     "shortest-way": {
@@ -105,7 +105,7 @@
     "first-sound": {
       "title": "Doolhof met beginklanken: zoals leeuw",
       "printTitle": "Plaatjes die beginnen zoals leeuw",
-      "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als leeuw.",
+      "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als ‘leeuw’.",
       "tap": "Begin bij de groene cirkel. Sleep alleen over plaatjes die beginnen zoals leeuw."
     },
     "running-total": {

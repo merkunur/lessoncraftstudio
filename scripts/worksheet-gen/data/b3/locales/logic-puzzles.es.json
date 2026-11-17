@@ -78,7 +78,7 @@
     },
     "F1": {
       "title": "Acertijos de lógica con pistas de sí, no y o",
-      "instruction": "Una pista de sí lleva palomita, una de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta."
+      "instruction": "Una pista de sí lleva palomita, una de no lleva tache y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta."
     },
     "F2": {
       "title": "Acertijos de lógica de 4 por 4: seis pistas",
@@ -86,7 +86,7 @@
     },
     "F3": {
       "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-      "instruction": "Un dibujo tachado quiere decir que no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
+      "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí. Tacha en la cuadrícula y encierra cada respuesta."
     },
     "F4": {
       "title": "Acertijos de dos atributos: dos dibujos por niño",
@@ -94,7 +94,7 @@
     },
     "F5": {
       "title": "Lee la cuadrícula: ¿verdadero o falso?",
-      "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
+      "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o el tache si es falsa."
     }
   }
 }

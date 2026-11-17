@@ -49,7 +49,7 @@
     "G1-425": {
       "title": "Labyrintti: väistä mursut",
       "printTitle": "Vie jääkarhu turvallisesti kotiin",
-      "instruction": "Auta jääkarhua pääsemään igluun. Älä kulje yhdenkään mursun tai jäässä olevan reiän ohi."
+      "instruction": "Auta jääkarhua pääsemään igluun. Älä valitse tietä, jolla on mursu tai reikä jäässä."
     },
     "K-409": {
       "title": "Labyrintti A:sta Ö:hön: raketti kuuhun",
@@ -177,7 +177,7 @@
         "avoid": {
           "title": "Labyrintti: väistä mursut",
           "printTitle": "Vie jääkarhu turvallisesti kotiin",
-          "instruction": "Auta jääkarhua pääsemään igluun. Älä kulje yhdenkään mursun tai jäässä olevan reiän ohi.",
+          "instruction": "Auta jääkarhua pääsemään igluun. Älä valitse tietä, jolla on mursu tai reikä jäässä.",
           "tap": "Vedä vihreästä ympyrästä igluun kulkematta mursun tai reiän ohi."
         },
         "abc-capitals": {

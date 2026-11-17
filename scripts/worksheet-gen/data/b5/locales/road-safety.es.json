@@ -206,7 +206,7 @@
   "strings": {
     "base": {
       "title": "Educación vial: el semáforo, ¿qué hago?",
-      "instruction": "Mira la luz encendida de cada semáforo y rodea lo que debes hacer."
+      "instruction": "Mira la luz encendida de cada semáforo y encierra lo que debes hacer."
     },
     "colour-lights": {
       "title": "Educación vial: colorea el semáforo",
@@ -226,7 +226,7 @@
     },
     "sign-quiz": {
       "title": "Educación vial: ¿qué señal de tránsito es?",
-      "instruction": "Lee cada oración y rodea la única señal que le corresponde."
+      "instruction": "Lee cada oración y encierra la única señal que le corresponde."
     }
   }
 }

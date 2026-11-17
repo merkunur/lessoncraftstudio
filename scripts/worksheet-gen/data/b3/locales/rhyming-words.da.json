@@ -1338,15 +1338,15 @@
   "strings": {
     "G1-309": {
       "title": "Rimord: find rimet, og skriv det",
-      "instruction": "Sig det første billede. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
+      "instruction": "Sig, hvad det første billede hedder. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
     },
     "K-352": {
       "title": "Rimord eller ej? Rimer de to ord?",
-      "instruction": "Sig begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
+      "instruction": "Sig navnene på begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
     },
     "G1-343": {
       "title": "Sortér rimordene",
-      "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det."
+      "instruction": "Sig, hvad hvert billede i banken hedder. Find det store billede, det rimer på, og skriv ordet på en linje under det."
     },
     "G1-344": {
       "title": "Rimord: gør rimet færdigt",
@@ -1354,7 +1354,7 @@
     },
     "G1-345": {
       "title": "Rimord i kæder",
-      "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+      "instruction": "Sig, hvad hvert billede hedder. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
     },
     "G1-346": {
       "title": "Skriv dine egne rimord",

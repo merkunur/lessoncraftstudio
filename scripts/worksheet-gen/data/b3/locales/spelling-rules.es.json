@@ -3493,23 +3493,23 @@
   "strings": {
     "G2-315": {
       "title": "Reglas de ortografía: {UNIT}",
-      "instruction": "Escribe en la caja las letras que faltan."
+      "instruction": "Lee la regla del recuadro. Di el nombre de cada dibujo y escribe en los recuadros punteados las letras que faltan."
     },
     "G2-324": {
       "title": "¿Cuál es? Elige la letra correcta: {UNIT}",
-      "instruction": "Rodea la letra correcta y escríbela."
+      "instruction": "Encierra la letra correcta y escríbela."
     },
     "G2-325": {
       "title": "Detective de ortografía: {UNIT}",
-      "instruction": "Rodea las letras de la regla y cópialas."
+      "instruction": "Encierra las letras de la regla y cópialas."
     },
     "G2-326": {
       "title": "Clasifica según la ortografía: {UNIT}",
-      "instruction": "Escribe cada palabra en su caja."
+      "instruction": "Di el nombre de cada dibujo y escríbelo en la caja de su ortografía, una palabra en cada línea."
     },
     "G2-327": {
       "title": "Escribe la palabra completa: {UNIT}",
-      "instruction": "Completa las demás letras de la palabra."
+      "instruction": "Las letras de la regla están en naranja. Di el nombre del dibujo y escribe las demás letras en los recuadros."
     },
     "G2-328": {
       "title": "Plurales: {UNIT}",

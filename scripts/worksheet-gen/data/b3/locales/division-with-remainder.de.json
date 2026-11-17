@@ -35,7 +35,7 @@
     },
     "F3": {
       "title": "Geht die Aufgabe auf? Teilen mit und ohne Rest",
-      "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf, 0 wenn es keinen gibt."
+      "instruction": "Entscheide, ob jede Aufgabe aufgeht. Kreise deine Antwort ein und schreibe den Rest auf (0, wenn es keinen gibt)."
     },
     "F4": {
       "title": "Fehler finden: Der Rest ist zu groß",

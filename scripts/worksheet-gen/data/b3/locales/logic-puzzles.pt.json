@@ -94,7 +94,7 @@
     },
     "F5": {
       "title": "Leia a tabela de lógica: verdadeiro ou falso?",
-      "instruction": "A tabela já está resolvida. Leia a tabela e circule o certo se a frase é verdadeira ou o xis se ela é falsa."
+      "instruction": "A tabela já está resolvida. Leia a tabela e circule o sinal de certo se a frase for verdadeira ou o X se ela for falsa."
     }
   }
 }

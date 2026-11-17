@@ -15,7 +15,7 @@
     "G1-211": {"title": "Contando moedas", "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."},
     "G1-212": {"title": "Desenhe os ponteiros", "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."},
     "G1-213": {"title": "Situações problema com figuras", "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."},
-    "G2-251": {"title": "Continhas armadas", "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."},
+    "G2-251": {"title": "Continhas armadas", "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."},
     "G2-252": {"title": "Medidas de capacidade e massa", "instruction": "Leia cada jarra e cada balança. Escreva a quantidade com a unidade certa."},
     "G2-253": {"title": "Complete a figura simétrica", "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."},
     "G2-254": {"title": "Interpretação de texto", "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."},

@@ -23,7 +23,7 @@
     },
     "K-296": {
       "title": "Prick till prick: 11 till 30",
-      "instruction": "Räkna vidare från 11 till 30 så kommer bilden fram."
+      "instruction": "Börja vid den orangea pricken. Räkna vidare från 11 till 30 och dra streck från prick till prick, så kommer bilden fram."
     },
     "K-298": {
       "title": "Rita av i rutnätet: första stegen",
@@ -87,11 +87,11 @@
     },
     "G1-262": {
       "title": "Alfabetisk ordning: numrera korten",
-      "instruction": "Ta hjälp av alfabetet och numrera korten."
+      "instruction": "Ta hjälp av alfabetet och numrera korten så att orden kommer i bokstavsordning."
     },
     "G1-263": {
       "title": "Alfabetisk ordning: skriv om orden",
-      "instruction": "Numrera korten och skriv orden på raderna."
+      "instruction": "Numrera korten och skriv sedan av orden i rätt ordning på raderna."
     },
     "G1-264": {
       "title": "Alfabetisk ordning: andra bokstaven",
@@ -99,7 +99,7 @@
     },
     "G1-266": {
       "title": "Talpyramider till 10",
-      "instruction": "Varje sten är summan av de två stenarna under den."
+      "instruction": "Varje sten är summan av de två stenarna under den. Bygg varje pyramid ända upp till toppen."
     },
     "G1-267": {
       "title": "Talpyramider med fyra rader",
@@ -111,7 +111,7 @@
     },
     "G1-270": {
       "title": "Dubbelt och hälften med bilder",
-      "instruction": "Bilderna hjälper dig med dubbelt och hälften."
+      "instruction": "På några kort ska du räkna ut dubbelt, på andra hälften. Bilderna hjälper dig."
     },
     "G1-271": {
       "title": "Dubbelt och hälften upp till 20",
@@ -119,51 +119,51 @@
     },
     "G1-274": {
       "title": "Läs av tallinjen 0 till 10",
-      "instruction": "En pil pekar på ett streck. Skriv talet mellan 0 och 10."
+      "instruction": "Varje pil pekar på ett streck. Skriv talet som pilen pekar på."
     },
     "G1-275": {
       "title": "Tallinjen till 20 med få tal",
-      "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån."
+      "instruction": "Bara 0, 10 och 20 står utsatta. Räkna vidare därifrån fram till varje pil och skriv talet."
     },
     "G1-276": {
       "title": "Läs av tallinjen 0 till 30",
-      "instruction": "Varje streck är ett steg. Räkna vidare ända till 30."
+      "instruction": "Varje streck är ett steg. Räkna vidare fram till varje pil och skriv talet."
     },
     "G1-277": {
       "title": "Läs av tallinjen 0 till 50",
-      "instruction": "Vart tionde tal är utsatt. Räkna vidare till varje pil."
+      "instruction": "Vart tionde tal är utsatt. Räkna vidare fram till varje pil och skriv talet."
     },
     "G1-278": {
       "title": "Tallinjen till 50 med steg om 5",
-      "instruction": "Varje streck är 5. Räkna med femmor fram till varje pil."
+      "instruction": "Från streck till streck ökar det med 5. Räkna med femmor fram till varje pil och skriv talet."
     },
     "G1-279": {
       "title": "Tallinjen till 100 med steg om 5",
-      "instruction": "Varje streck är 5 och vartannat tal står utsatt."
+      "instruction": "Från streck till streck ökar det med 5, och vartannat tal står utsatt. Skriv talet som varje pil pekar på."
     },
     "G1-280": {
       "title": "Tallinjen till 100 med steg om 10",
-      "instruction": "Varje streck är 10. Räkna med tiotal till varje pil."
+      "instruction": "Från streck till streck ökar det med 10. Räkna med tiotal fram till varje pil och skriv talet."
     },
     "G1-281": {
       "title": "Tallinjen förbi 100 till 120",
-      "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal."
+      "instruction": "Linjen fortsätter förbi 100. Räkna med tiotal fram till varje pil och skriv talet."
     },
     "G1-282": {
       "title": "Ordna orden med ledtrådar",
-      "instruction": "Stor bokstav visar början, skiljetecknet visar slutet."
+      "instruction": "Stor bokstav visar början, skiljetecknet visar slutet. Ordna orden och skriv meningen på raden."
     },
     "G1-283": {
       "title": "Ordna orden utan ledtrådar",
-      "instruction": "Inga ledtrådar. Hitta en ordföljd som fungerar."
+      "instruction": "Ingen stor bokstav och ingen punkt. Hitta den enda ordföljd som fungerar och skriv meningen på raden."
     },
     "G2-281": {
       "title": "Punkt eller frågetecken?",
-      "instruction": "Varje mening ska ha stor bokstav och rätt skiljetecken."
+      "instruction": "Skriv varje mening rätt med stor bokstav och rätt skiljetecken."
     },
     "G2-282": {
       "title": "Stor bokstav, namn och skiljetecken",
-      "instruction": "Välj själv rätt skiljetecken i slutet."
+      "instruction": "Skriv meningen rätt med stor bokstav i början och i namnen, och välj själv rätt skiljetecken i slutet."
     },
     "G2-285": {
       "title": "Ordklasser: sortera nio ord",
@@ -175,15 +175,15 @@
     },
     "G2-287": {
       "title": "Ordklasser: sortera femton ord",
-      "instruction": "Femton ord och inga bilder. Läs varje ord noga."
+      "instruction": "Femton ord och inga bilder. Läs varje ord noga och skriv det i rätt låda."
     },
     "G2-289": {
       "title": "Pengar: två räknehändelser",
-      "instruction": "Läs de två räknehändelserna och priserna på hyllan."
+      "instruction": "Läs de två räknehändelserna och svara med hjälp av priserna på hyllan."
     },
     "G2-290": {
       "title": "Pengar: fyra olika frågor",
-      "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan."
+      "instruction": "Fyra kort med fyra olika frågor. Läs priserna på hyllan och svara på frågorna."
     },
     "G2-291": {
       "title": "Pengar: räkna ihop priset",
@@ -199,7 +199,7 @@
     },
     "G2-294": {
       "title": "Pengar: räcker de till?",
-      "instruction": "Jämför pengarna med priset. Ringa in ja eller nej."
+      "instruction": "Jämför pengarna med priset. Ringa in ja eller nej och skriv sedan summan."
     },
     "G2-295": {
       "title": "Pengar: hur mycket dyrare?",
@@ -211,7 +211,7 @@
     },
     "G2-297": {
       "title": "Läs kalendern: en vecka senare",
-      "instruction": "Fem frågor. Räkna också hur många dagar det är från en bild till en annan."
+      "instruction": "Svara på de fem frågorna. Räkna också hur många dagar det är från en bild till en annan."
     },
     "G2-298": {
       "title": "Läs kalendern: veckans dagar",
@@ -219,7 +219,7 @@
     },
     "G2-299": {
       "title": "Skriv till bilden: meningsstarter",
-      "instruction": "Meningsstarterna hjälper dig igång med skrivandet."
+      "instruction": "Titta på bilden och skriv vad du ser. Meningsstarterna hjälper dig igång och ordbanken har ord för allt på bilden."
     },
     "G2-300": {
       "title": "Skriv till bilden med egna ord",
@@ -231,7 +231,7 @@
     },
     "G2-303": {
       "title": "Koordinater i rutnät: 10 x 10",
-      "instruction": "Rutnätet är större. Arbeta dig igenom hela listan."
+      "instruction": "Rutnätet är större. Hitta varje ruta med hjälp av bokstav och siffra och måla den, så kommer bilden fram."
     },
     "G3-371": {
       "title": "Multiplikation i räknehändelser",
@@ -247,11 +247,11 @@
     },
     "G3-374": {
       "title": "Division på två sätt",
-      "instruction": "En uppgift delar lika, den andra bildar grupper."
+      "instruction": "En uppgift delar lika, den andra bildar grupper. Båda är division. Lös båda och skriv svaren."
     },
     "G3-375": {
       "title": "Gånger och delat blandat",
-      "instruction": "En uppgift bygger lika grupper, den andra delar upp dem."
+      "instruction": "En uppgift bildar lika stora grupper, den andra delar upp dem. Lös båda och skriv svaren."
     },
     "G3-376": {
       "title": "Tre blandade räknehändelser",
@@ -291,19 +291,19 @@
     },
     "G1-285": {
       "title": "Prick till prick med tvåhopp",
-      "instruction": "Börja vid den orangea pricken och räkna med tvåhopp."
+      "instruction": "Börja vid den orangea pricken. Räkna med tvåhopp från 2 till 20 och dra streck mellan prickarna."
     },
     "G1-286": {
       "title": "Dubbelt och hälften med bilder till 20",
-      "instruction": "Några kort visar dubbelt, andra hälften."
+      "instruction": "På några kort ska du räkna ut dubbelt, på andra hälften."
     },
     "G1-287": {
       "title": "Dubbelt upp till 14",
-      "instruction": "Alla kort på sidan visar dubbelt av en bildgrupp."
+      "instruction": "Räkna ut dubbelt så många som i bildgruppen på varje kort."
     },
     "G1-288": {
       "title": "Hälften upp till 12",
-      "instruction": "Alla kort delar en bildgrupp i två lika delar."
+      "instruction": "Varje kort delar en bildgrupp i två lika delar. Skriv hur många det blir i varje del."
     },
     "G1-289": {
       "title": "Talpyramider uppifrån och ner",
@@ -331,7 +331,7 @@
     },
     "G1-296": {
       "title": "Dubbelt upp till 20 med bilder",
-      "instruction": "Större bildgrupper att dubbla, ända upp till 20."
+      "instruction": "Räkna ut dubbelt så många i varje bildgrupp, ända upp till 20."
     },
     "G1-297": {
       "title": "Hälften upp till 20 med bilder",
@@ -339,11 +339,11 @@
     },
     "G1-298": {
       "title": "Dubbelt upp till 20 utan bilder",
-      "instruction": "Skriv dubbelt av varje tal. Räkna i prickrutan."
+      "instruction": "Skriv dubbelt av varje tal. Det finns inga bilder att räkna."
     },
     "G1-299": {
       "title": "Hälften upp till 20 utan bilder",
-      "instruction": "Dela varje tal i två lika delar. Räkna i prickrutan."
+      "instruction": "Dela varje tal i två lika delar. Det finns inga bilder att räkna."
     },
     "G1-300": {
       "title": "Substantiv och adjektiv",
@@ -355,7 +355,7 @@
     },
     "G1-302": {
       "title": "Ordna orden: hitta början",
-      "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar."
+      "instruction": "Skiljetecknet visar slutet. Hitta ordet som börjar meningen."
     },
     "G1-303": {
       "title": "Skriv ordet: rutor och startbokstav",
@@ -387,7 +387,7 @@
     },
     "G2-311": {
       "title": "Två meningar: punkt eller frågetecken",
-      "instruction": "Ibland är en av meningarna också en fråga."
+      "instruction": "Dela upp de två meningarna och avsluta var och en med rätt tecken. Ibland är en av meningarna en fråga."
     },
     "G2-312": {
       "title": "Läs kalendern: datum och dagar emellan",

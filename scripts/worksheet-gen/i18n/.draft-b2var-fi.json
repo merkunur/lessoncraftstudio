@@ -55,15 +55,15 @@
     },
     "G1-251": {
       "title": "Lue ja väritä: neljä lausetta",
-      "instruction": "Neljä lausetta ja neljä väriä. Väritä tarkasti."
+      "instruction": "Neljä lausetta ja neljä väriä. Lue jokainen lause ja väritä tarkasti se, mitä lause pyytää."
     },
     "G1-252": {
       "title": "Lue ja väritä: kiireinen sivu",
-      "instruction": "Kuusi lausetta ja kuusi väriä. Lue ne tarkasti."
+      "instruction": "Kuusi lausetta ja kuusi väriä. Lue jokainen lause tarkasti ja väritä se, mitä lause pyytää."
     },
     "G1-255": {
       "title": "Päivän luku 11–19",
-      "instruction": "Täytä kymppiruudut, tukkimiehen kirjanpito ja muut ruudut päivän luvun mukaan."
+      "instruction": "Täytä kymppiruudukot, tukkimiehen kirjanpito ja muut ruudut päivän luvun mukaan."
     },
     "G1-256": {
       "title": "Päivän luku: 10 enemmän, 10 vähemmän",
@@ -71,7 +71,7 @@
     },
     "G1-257": {
       "title": "Päivän luku: kaksinumeroiset luvut",
-      "instruction": "Päivän luku on 21–99. Näytä se kymppeinä ja ykkösinä."
+      "instruction": "Päivän luku on 21–99. Näytä se kymmeninä ja ykkösinä ja täytä kaikki ruudut."
     },
     "G1-258": {
       "title": "Kirjoita sana: alkukirjain valmiina",
@@ -99,7 +99,7 @@
     },
     "G1-266": {
       "title": "Lukupyramidi 10:een",
-      "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Mikään luku ei ylitä 10:tä."
+      "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Täytä pyramidit huipulle asti. Mikään luku ei ylitä 10:tä."
     },
     "G1-267": {
       "title": "Lukupyramidi: neljä kerrosta",
@@ -107,7 +107,7 @@
     },
     "G1-268": {
       "title": "Lukupyramidi: puuttuva tiili",
-      "instruction": "Yksi alin tiili puuttuu. Käytä yläpuolen tiiliä apuna."
+      "instruction": "Yksi alimman rivin tiilistä puuttuu. Selvitä se yläpuolen tiilien avulla ja täytä koko pyramidi."
     },
     "G1-270": {
       "title": "Tuplaa ja puolita kuvien avulla",
@@ -151,7 +151,7 @@
     },
     "G1-282": {
       "title": "Järjestä lause: vihjeet mukana",
-      "instruction": "Iso alkukirjain ja piste näyttävät lauseen rajat."
+      "instruction": "Järjestä sanat lauseeksi ja kirjoita lause viivalle. Iso alkukirjain ja piste näyttävät, mistä lause alkaa ja mihin se loppuu."
     },
     "G1-283": {
       "title": "Järjestä lause ilman vihjeitä",
@@ -179,15 +179,15 @@
     },
     "G2-289": {
       "title": "Rahalaskut: kaksi kysymystä",
-      "instruction": "Lue molemmat tarinat. Käytä hyllyn hintoja apuna."
+      "instruction": "Lue molemmat tarinat ja vastaa niihin. Käytä hyllyn hintoja apuna."
     },
     "G2-290": {
       "title": "Rahalaskut: neljä eri kysymystä",
-      "instruction": "Neljä korttia ja neljä erilaista kysymystä."
+      "instruction": "Vastaa jokaisen neljän kortin kysymykseen."
     },
     "G2-291": {
       "title": "Rahalaskut: laske ostokset yhteen",
-      "instruction": "Jokaisessa kortissa lasketaan kahden tavaran hinta."
+      "instruction": "Jokaisessa kortissa kysytään yhteishintaa. Laske hinnat yhteen."
     },
     "G2-292": {
       "title": "Rahalaskut: kolme tavaraa korissa",
@@ -199,7 +199,7 @@
     },
     "G2-294": {
       "title": "Rahalaskut: riittääkö raha?",
-      "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei."
+      "instruction": "Vertaa rahaa ja hintaa. Ympyröi kyllä tai ei ja kirjoita sitten summa."
     },
     "G2-295": {
       "title": "Rahalaskut: paljonko enemmän?",
@@ -211,15 +211,15 @@
     },
     "G2-297": {
       "title": "Kalenterin lukeminen: kiireinen kuukausi",
-      "instruction": "Kuukausi on täynnä. Lue kalenteria tarkasti."
+      "instruction": "Lue kalenteria tarkasti. Etsi päivämäärä, joka on viikkoa myöhemmin, ja laske, montako päivää on tarrasta toiseen."
     },
     "G2-298": {
       "title": "Kalenteri ja viikonpäivät",
-      "instruction": "Kaikki kysymykset koskevat viikonpäiviä."
+      "instruction": "Kaikki kysymykset koskevat viikonpäiviä. Lue kalenteria sarakkeittain ylhäältä alas ja vastaa kysymyksiin."
     },
     "G2-299": {
       "title": "Kirjoita kuvasta aloitusten avulla",
-      "instruction": "Aloituslauseet auttavat. Sanapankissa ovat sanat."
+      "instruction": "Kirjoita kuvasta, mitä näet. Aloituslauseet auttavat sinua alkuun, ja sanapankista löydät kuvan sanat."
     },
     "G2-300": {
       "title": "Kirjoita kuvasta omin sanoin",
@@ -231,7 +231,7 @@
     },
     "G2-303": {
       "title": "Koordinaatit 10×10-ruudukossa",
-      "instruction": "Isompi ruudukko. Käy värilista huolellisesti läpi."
+      "instruction": "Isompi ruudukko: etsi jokainen ruutu kirjaimen ja numeron avulla ja väritä se, niin kuva paljastuu."
     },
     "G3-371": {
       "title": "Sanalliset kertolaskut",
@@ -239,19 +239,19 @@
     },
     "G3-372": {
       "title": "Sanalliset jakolaskut: jaa tasan",
-      "instruction": "Jokaisessa tarinassa jaetaan tasan laatikoihin."
+      "instruction": "Jokaisessa tarinassa jaetaan tasan. Jaa tavarat laatikoihin ja kirjoita vastaus."
     },
     "G3-373": {
       "title": "Sanalliset jakolaskut: tee ryhmiä",
-      "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja laske ne."
+      "instruction": "Ympyröi kuvasta yhtä suuret ryhmät ja kirjoita vastaus."
     },
     "G3-374": {
       "title": "Jakolaskut kahdella tavalla",
-      "instruction": "Toisessa jaetaan tasan, toisessa tehdään ryhmiä."
+      "instruction": "Toisessa tarinassa jaetaan tasan, toisessa tehdään ryhmiä. Ratkaise molemmat jakolaskulla."
     },
     "G3-375": {
       "title": "Kertolasku ja ryhmiin jako",
-      "instruction": "Toisessa kootaan ryhmiä, toisessa puretaan niitä."
+      "instruction": "Toisessa tarinassa kootaan ryhmiä, toisessa puretaan niitä. Ratkaise molemmat tarinat."
     },
     "G3-376": {
       "title": "Sekalaiset kerto- ja jakolaskut",
@@ -259,7 +259,7 @@
     },
     "K-308": {
       "title": "Yhdistä pisteet takaperin 10–1",
-      "instruction": "Aloita oranssista pisteestä ja laske takaperin 10:stä 1:een."
+      "instruction": "Aloita oranssista pisteestä ja yhdistä pisteet takaperin 10:stä 1:een."
     },
     "G1-285": {
       "title": "Yhdistä pisteet kahden välein 2–20",
@@ -283,7 +283,7 @@
     },
     "G1-286": {
       "title": "Tuplaa ja puolita kuvilla 20:een asti",
-      "instruction": "Osassa kortteja tuplataan, osassa puolitetaan."
+      "instruction": "Osassa korteista ryhmä tuplataan, osassa puolitetaan. Tuplaa tai puolita jokainen ryhmä ja kirjoita vastaus."
     },
     "G2-305": {
       "title": "Lukusuora 40–60",

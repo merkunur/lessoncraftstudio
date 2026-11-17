@@ -578,7 +578,7 @@
   "strings": {
     "G2-318": {
       "title": "Tiersteckbrief: {U}",
-      "instruction": "Finde heraus, was du über dieses Tier weißt. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit Bild oder Wörtern."
+      "instruction": "Finde etwas über dieses Tier heraus. Schreibe in jede Zeile des Steckbriefs eine Angabe und fülle den Rest der Seite mit einem Bild oder mit Wörtern."
     },
     "G2-339": {
       "title": "Steckbrief {U}: Kreise ein, was stimmt",

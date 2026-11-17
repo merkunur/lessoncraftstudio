@@ -19,7 +19,7 @@
     },
     "F4": {
       "title": "Encuentra el error en la pieza",
-      "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en el recuadro."
+      "instruction": "En cada pieza hay un número equivocado. Enciérralo y escribe el número correcto en el recuadro."
     },
     "F5": {
       "title": "¿Cuántos saltos hay? Cuenta en la tabla del 100",

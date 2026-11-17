@@ -844,11 +844,11 @@
   "strings": {
     "base": {
       "title": "Sinónimos: rodea la palabra que significa lo mismo",
-      "instruction": "Lee la palabra grande de cada tarjeta y rodea la palabra de abajo que significa lo mismo."
+      "instruction": "Lee la palabra grande de cada tarjeta y encierra la palabra de abajo que significa lo mismo."
     },
     "pictures": {
       "title": "Sinónimos con imágenes: dos palabras para un dibujo",
-      "instruction": "Mira cada dibujo y rodea las dos palabras de abajo que significan lo mismo y describen el dibujo."
+      "instruction": "Mira cada dibujo y encierra las dos palabras de abajo que significan lo mismo y describen el dibujo."
     },
     "pairs": {
       "title": "Sinónimos: une las parejas de palabras",

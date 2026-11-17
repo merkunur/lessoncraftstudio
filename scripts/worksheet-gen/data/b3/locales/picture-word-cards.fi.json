@@ -397,7 +397,7 @@
     },
     "plural": {
       "title": "Yksi ja monta: yksikkö- ja monikkokortit",
-      "instruction": "Leikkaa kortit irti. Sano yhden sana ja monen sana ja yhdistä sitten jokainen pari."
+      "instruction": "Leikkaa kortit irti. Sano sana yksikössä ja monikossa ja yhdistä sitten jokainen pari."
     },
     "bilingual": {
       "title": "Kaksikieliset kuvakortit: suomi ja {U}",

@@ -251,23 +251,23 @@
     },
     "G2-255": {
       "title": "Adição armada com 2 algarismos",
-      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+      "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
     },
     "G2-256": {
       "title": "Subtração armada com 2 algarismos",
-      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+      "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
     },
     "G2-257": {
       "title": "Continhas armadas com 3 algarismos",
-      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+      "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
     },
     "G2-258": {
       "title": "Adição armada com 3 algarismos",
-      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+      "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
     },
     "G2-259": {
       "title": "Revisão de continhas armadas",
-      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+      "instruction": "Efetue: resolva uma ordem de cada vez, começando pelas unidades."
     },
     "G2-260": {
       "title": "Medindo com jarras em ml",
@@ -327,19 +327,19 @@
     },
     "G3-359": {
       "title": "Adição com vai um",
-      "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+      "instruction": "Some uma ordem de cada vez. Quando a soma passar de 9, não se esqueça do vai um."
     },
     "G3-360": {
       "title": "Subtração com empréstimo",
-      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, troque uma dezena da ordem vizinha por 10 unidades."
     },
     "G3-361": {
       "title": "Adição com vai um: 3 algarismos",
-      "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+      "instruction": "Some uma ordem de cada vez. Quando a soma passar de 9, não se esqueça do vai um."
     },
     "G3-362": {
       "title": "Subtração emprestando do zero",
-      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, troque uma dezena da ordem vizinha por 10 unidades."
     },
     "G3-363": {
       "title": "Revisão de reagrupamento",
@@ -367,7 +367,7 @@
     },
     "G3-369": {
       "title": "Casinhas de multiplicar e dividir",
-      "instruction": "Use os três números do telhado e complete os quatro fatos de vezes e de dividir."
+      "instruction": "Use os três números do telhado e complete as quatro continhas de multiplicação e de divisão."
     }
   },
   "sightWordsAppend": [

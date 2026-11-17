@@ -9,7 +9,7 @@
   },
   "K-005": {
     "title": "Vul het tienraam",
-    "instruction": "Teken een stip in het raam voor elk getal dat wordt aangegeven."
+    "instruction": "Teken in het tienraam evenveel stippen als het getal aangeeft."
   },
   "K-006": {
     "title": "Tellen en schrijven",
@@ -37,7 +37,8 @@
   },
   "K-012": {
     "title": "Eén voor elk",
-    "instruction": "Geef elk een maatje. Trek een lijn om ze één voor één te verbinden."
+    "instruction": "Geef elk plaatje een maatje. Verbind ze één voor één met een lijn.",
+    "printTitle": "Elk een maatje"
   },
   "K-013": {
     "title": "Tel elke soort",
@@ -117,11 +118,13 @@
   },
   "K-033": {
     "title": "Klein, midden, groot",
-    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 3 (grootste)."
+    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 3 (grootste).",
+    "printTitle": "Klein, middel, groot"
   },
   "K-034": {
     "title": "Kleinste tot grootste",
-    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 5 (grootste)."
+    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 5 (grootste).",
+    "printTitle": "Van klein naar groot"
   },
   "K-035": {
     "title": "Hoog en laag",
@@ -129,7 +132,8 @@
   },
   "K-036": {
     "title": "Laag tot hoog",
-    "instruction": "Nummer de plaatjes van 1 (laagste) tot 4 (hoogste)."
+    "instruction": "Nummer de plaatjes van 1 (laagste) tot 4 (hoogste).",
+    "printTitle": "Van laag naar hoog"
   },
   "K-037": {
     "title": "Lang en kort",
@@ -145,7 +149,7 @@
   },
   "K-040": {
     "title": "Alleen de grote",
-    "instruction": "Omcirkel elk GROOT plaatje. Laat de kleine met rust."
+    "instruction": "Omcirkel elk GROOT plaatje. De kleine plaatjes omcirkel je niet."
   },
   "K-042": {
     "title": "Goed sorteren",
@@ -296,11 +300,11 @@
   },
   "G1-110": {
     "title": "Dominorekenen",
-    "instruction": "Tel beide kanten van de domino. Schrijf de som op."
+    "instruction": "Tel beide kanten van de domino. Schrijf op hoeveel stippen het samen zijn."
   },
   "G1-111": {
     "title": "Gooien en optellen",
-    "instruction": "Tel de stippen op beide dobbelstenen. Schrijf de som op."
+    "instruction": "Tel de stippen op beide dobbelstenen. Schrijf op hoeveel het er samen zijn."
   },
   "G1-112": {
     "title": "Drie groepen optellen",
@@ -360,7 +364,7 @@
   },
   "G1-126": {
     "title": "Tel in groepen",
-    "instruction": "Elk vak heeft evenveel. Tel met sprongen en schrijf het lopende totaal op."
+    "instruction": "In elk vak zitten er evenveel. Tel met sprongen en schrijf steeds op hoeveel het er tot nu toe zijn."
   },
   "G1-129": {
     "title": "Het honderdveld",
@@ -392,7 +396,8 @@
   },
   "G1-137": {
     "title": "Meer of minder?",
-    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken.",
+    "printTitle": "Groter of kleiner?"
   },
   "G1-138": {
     "title": "Waar woont het?",
@@ -404,7 +409,8 @@
   },
   "G1-140": {
     "title": "Kort tot lang",
-    "instruction": "Meet elk voorwerp met zijn hokjes. Nummer ze 1 (kortste) tot 3 (langste)."
+    "instruction": "Meet elk voorwerp met zijn hokjes. Nummer ze 1 (kortste) tot 3 (langste).",
+    "printTitle": "Van kort naar lang"
   },
   "G1-141": {
     "title": "Lees de plaatjesgrafiek",
@@ -428,7 +434,7 @@
   },
   "G1-147": {
     "title": "Tellen en grafiek maken",
-    "instruction": "Lees de aantallen. Kleur voor elk een vakje in de grafiek."
+    "instruction": "Lees de aantallen. Kleur in de grafiek evenveel vakjes als het aantal."
   },
   "G1-148": {
     "title": "Op het hele uur",
@@ -452,7 +458,7 @@
   },
   "G1-158": {
     "title": "Plaatjessudoku",
-    "instruction": "Elke rij, kolom en blok heeft alle vier de plaatjes nodig. Vul elk leeg vakje in."
+    "instruction": "In elke rij, elke kolom en elk blok staan alle vier de plaatjes één keer. Vul elk leeg vakje in."
   },
   "G1-160": {
     "title": "Drie groepen",
@@ -468,7 +474,7 @@
   },
   "G2-206": {
     "title": "Maak een tiental",
-    "instruction": "Omcirkel 10 eenheden om een tiental te bundelen. Schrijf hoeveel tientallen en eenheden."
+    "instruction": "Omcirkel 10 eenheden om een tiental te bundelen. Schrijf op hoeveel tientallen en eenheden het zijn."
   },
   "G2-207": {
     "title": "Tel met drietallen",
@@ -512,7 +518,8 @@
   },
   "G2-219": {
     "title": "Grote getallen strijd",
-    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken.",
+    "printTitle": "De strijd van de grote getallen"
   },
   "G2-220": {
     "title": "Op een rij zetten",
@@ -528,11 +535,13 @@
   },
   "G2-223": {
     "title": "Honderd, tien, één",
-    "instruction": "Kijk naar de blokken. Omcirkel de bijbehorende splitsvorm."
+    "instruction": "Kijk naar de blokken. Omcirkel de bijbehorende splitsvorm.",
+    "printTitle": "Honderdtallen, tientallen en eenheden"
   },
   "G2-224": {
     "title": "Sorteer de plaatsen",
-    "instruction": "Tel de blokken. Vul de plaatswaardetabel in."
+    "instruction": "Tel de blokken. Vul de plaatswaardetabel in.",
+    "printTitle": "Blokken in de plaatswaardetabel"
   },
   "G2-225": {
     "title": "Cijferdetective",
@@ -650,7 +659,7 @@
   },
   "G3-308": {
     "title": "Keersprongen",
-    "instruction": "Volg de gelijke sprongen vanaf nul. Schrijf elk landingsgetal op."
+    "instruction": "Volg de gelijke sprongen vanaf nul. Schrijf bij elke sprong het getal op waar je landt."
   },
   "G3-309": {
     "title": "Verdeel het",
@@ -715,7 +724,8 @@
   },
   "G3-325": {
     "title": "Duizendtallen strijd",
-    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken.",
+    "printTitle": "De strijd van de duizendtallen"
   },
   "G3-326": {
     "title": "Kraak het patroon",
@@ -806,19 +816,20 @@
   },
   "G3-348": {
     "title": "Grote plaatjessudoku",
-    "instruction": "Elke rij, kolom en blok heeft alle zes de plaatjes nodig — vul de lege vakjes in."
+    "instruction": "In elke rij, elke kolom en elk blok staan alle zes de plaatjes één keer. Vul de lege vakjes in."
   },
   "G3-349": {
     "title": "Magische vierkanten",
-    "instruction": "Elke rij en kolom telt op tot het magische getal. Vul de lege vakjes in."
+    "instruction": "De getallen in elke rij en elke kolom zijn samen het magische getal. Vul de lege vakjes in."
   },
   "G3-350": {
     "title": "Maak het in evenwicht",
-    "instruction": "Beide kanten moeten even zwaar zijn. Schrijf het ontbrekende getal op."
+    "instruction": "Beide kanten moeten even zwaar zijn. Schrijf het ontbrekende getal op.",
+    "printTitle": "Breng het in evenwicht"
   },
   "G3-351": {
     "title": "Wat maakt de puzzel af?",
-    "instruction": "Rijen delen een plaatje. Kolommen delen een formaat. Omcirkel wat in het lege vakje past."
+    "instruction": "In elke rij staat hetzelfde plaatje. In elke kolom zijn de plaatjes even groot. Omcirkel wat in het lege vakje past."
   },
   "G3-353": {
     "title": "Sorteren met twee cirkels",
@@ -1084,11 +1095,11 @@
   },
   "K-252": {
     "title": "Getallen schrijven 1 tot 10",
-    "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    "instruction": "Trek elk getal na. Begin bij de oranje stip en volg de pijltjes."
   },
   "K-253": {
     "title": "Getallen schrijven 11 tot 20",
-    "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    "instruction": "Trek elk getal na. Begin bij de oranje stip en volg de pijltjes."
   },
   "K-254": {
     "title": "Letters overtrekken: G tot L",
@@ -1308,15 +1319,15 @@
   },
   "G2-257": {
     "title": "Sommen onder elkaar tot 1000",
-    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
   },
   "G2-258": {
     "title": "Optellen onder elkaar tot 1000",
-    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
   },
   "G2-259": {
     "title": "Onder elkaar rekenen: herhaling",
-    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen en dan de honderdtallen."
   },
   "G2-260": {
     "title": "Maatbekers aflezen",
@@ -1376,19 +1387,19 @@
   },
   "G3-359": {
     "title": "Optellen met onthouden",
-    "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    "instruction": "Reken elke som kolom voor kolom uit. Onthoud als dat nodig is."
   },
   "G3-360": {
     "title": "Aftrekken met lenen",
-    "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    "instruction": "Reken elke som kolom voor kolom uit. Leen als dat nodig is."
   },
   "G3-361": {
     "title": "Optellen met onthouden tot 1000",
-    "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    "instruction": "Reken elke som kolom voor kolom uit. Onthoud als dat nodig is."
   },
   "G3-362": {
     "title": "Lenen over de nul",
-    "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    "instruction": "Reken elke som kolom voor kolom uit. Leen als dat nodig is."
   },
   "G3-363": {
     "title": "Onthouden en lenen: herhaling",
@@ -1532,19 +1543,22 @@
   },
   "K-291": {
     "title": "Woorden overtrekken: lange woorden",
-    "instruction": "Deze woorden zijn lang. Trek na en schrijf ze daarna zelf."
+    "instruction": "Deze woorden zijn lang. Trek elk woord na en schrijf het daarna zelf op."
   },
   "K-294": {
     "title": "Van stip naar stip: 1 tot 10",
-    "instruction": "Begin bij de oranje stip en verbind de stippen 1 tot en met 10 op volgorde."
+    "instruction": "Begin bij de oranje stip en verbind de stippen 1 tot en met 10 op volgorde.",
+    "printTitle": "Van stip naar stip: 1 tot en met 10"
   },
   "K-295": {
     "title": "Van stip naar stip: 11 tot 20",
-    "instruction": "Begin bij de oranje stip. Verbind de stippen 11 tot en met 20 op volgorde."
+    "instruction": "Begin bij de oranje stip. Verbind de stippen 11 tot en met 20 op volgorde.",
+    "printTitle": "Van stip naar stip: 11 tot en met 20"
   },
   "K-296": {
     "title": "Van stip naar stip: 11 tot 30",
-    "instruction": "Begin bij de oranje stip. Tel verder van 11 tot en met 30 en verbind ze."
+    "instruction": "Begin bij de oranje stip. Tel verder van 11 tot en met 30 en verbind de stippen.",
+    "printTitle": "Van stip naar stip: 11 tot en met 30"
   },
   "K-298": {
     "title": "Natekenen op ruitjes: eerste stapjes",
@@ -1584,7 +1598,8 @@
   },
   "G1-255": {
     "title": "Getal van de dag: tienergetallen",
-    "instruction": "Vul alle vakken in bij het tienergetal: in woord, tientallen en tellen."
+    "instruction": "Kijk naar het grote getal. Vul alle vakken op het blad in bij dat getal.",
+    "printTitle": "Getal van de dag: getallen tussen 10 en 20"
   },
   "G1-256": {
     "title": "Getal van de dag: 10 meer, 10 minder",
@@ -1592,23 +1607,25 @@
   },
   "G1-257": {
     "title": "Getal van de dag: tot 99",
-    "instruction": "Vul alle vakken in bij een getal tot 99: tientallen, eenheden, tellen en meer."
+    "instruction": "Kijk naar het grote getal. Laat het zien in tientallen en eenheden en vul alle vakken op het blad in."
   },
   "G1-258": {
     "title": "Schrijf het woord met de beginletter",
-    "instruction": "Zeg de naam van elk plaatje. Zoek het woord in de woordbank en schrijf het af na de beginletter."
+    "instruction": "Zeg de naam van elk plaatje. Zoek het woord in de woordenlijst en schrijf het af na de beginletter."
   },
   "G1-259": {
     "title": "Schrijf het woord: kies uit de woordbank",
-    "instruction": "Zoek bij elk plaatje het woord in de woordbank en schrijf het op de lijn."
+    "instruction": "Zoek bij elk plaatje het woord in de woordenlijst en schrijf het op de lijn.",
+    "printTitle": "Schrijf het woord: kies uit de woordenlijst"
   },
   "G1-260": {
     "title": "Schrijf het woord: zonder woordbank",
-    "instruction": "Geen woordbank: zeg elk plaatje en schrijf het woord op."
+    "instruction": "Er is geen woordenlijst. Zeg wat je op elk plaatje ziet en schrijf het woord op.",
+    "printTitle": "Schrijf het woord: zonder woordenlijst"
   },
   "G1-262": {
     "title": "Alfabetische volgorde: nummeren",
-    "instruction": "Gebruik de letterstrook en nummer de vier kaartjes op volgorde."
+    "instruction": "Gebruik de letterstrook en nummer de vier kaartjes op alfabetische volgorde."
   },
   "G1-263": {
     "title": "Alfabetische volgorde: schrijf ze op",
@@ -1616,7 +1633,7 @@
   },
   "G1-264": {
     "title": "Alfabetische volgorde: tweede letter",
-    "instruction": "Beginnen twee woorden gelijk? Kijk naar de tweede letter."
+    "instruction": "Nummer de kaartjes op alfabetische volgorde. Beginnen twee woorden met dezelfde letter? Kijk dan naar de tweede letter."
   },
   "G1-266": {
     "title": "Rekenpiramide tot 10",
@@ -1628,11 +1645,11 @@
   },
   "G1-268": {
     "title": "Rekenpiramide: welke steen ontbreekt?",
-    "instruction": "Er ontbreekt een steen onderin. Zoek hem met de steen erboven."
+    "instruction": "Er ontbreekt een steen onderin. Zoek hem met de steen erboven en vul daarna de hele piramide in."
   },
   "G1-270": {
     "title": "Verdubbelen en halveren met plaatjes",
-    "instruction": "Kijk naar het label: verdubbel de groep of halveer hem. Kleine getallen."
+    "instruction": "Kijk naar het label: verdubbel de groep of halveer hem."
   },
   "G1-271": {
     "title": "Verdubbelen en halveren tot 20",
@@ -1652,7 +1669,7 @@
   },
   "G1-277": {
     "title": "Getallenlijn tot 50",
-    "instruction": "Elk tiende getal staat erbij. Tel verder tot 50 en schrijf elk getal op."
+    "instruction": "Elk tiende getal staat erbij. Tel verder tot 50 en schrijf bij elke pijl het getal op."
   },
   "G1-278": {
     "title": "Getallenlijn tot 50: met vijftallen",
@@ -1660,7 +1677,7 @@
   },
   "G1-279": {
     "title": "Getallenlijn tot 100: met vijftallen",
-    "instruction": "Elk streepje is vijf, en elk tweede getal staat er al bij."
+    "instruction": "Elk streepje is vijf en elk tweede getal staat er al bij. Schrijf bij elke pijl het getal op."
   },
   "G1-280": {
     "title": "Getallenlijn tot 100: met tientallen",
@@ -1672,7 +1689,7 @@
   },
   "G1-282": {
     "title": "Husselzinnen met hulp",
-    "instruction": "De hoofdletter en het leesteken laten zien waar de zin begint en eindigt."
+    "instruction": "Zet de woorden in de goede volgorde en schrijf de zin op de regel. De hoofdletter en het leesteken laten zien waar de zin begint en eindigt."
   },
   "G1-283": {
     "title": "Husselzinnen zonder hulp",
@@ -1684,7 +1701,7 @@
   },
   "G2-282": {
     "title": "Hoofdletters, namen en leestekens",
-    "instruction": "Let op de hoofdletters en de namen. Kies het juiste leesteken."
+    "instruction": "Schrijf elke zin goed over: let op de hoofdletters en de namen en kies het juiste leesteken."
   },
   "G2-285": {
     "title": "Woordsoorten: negen woorden",
@@ -1696,15 +1713,15 @@
   },
   "G2-287": {
     "title": "Woordsoorten: vijftien woorden",
-    "instruction": "Vijftien woorden en geen plaatjes. Lees elk woord extra goed."
+    "instruction": "Vijftien woorden en geen plaatjes. Lees elk woord goed en schrijf het in de goede bak."
   },
   "G2-289": {
     "title": "Boodschappen doen: twee verhaaltjes",
-    "instruction": "Lees de twee verhaaltjes en gebruik de prijzen uit het rek."
+    "instruction": "Lees de twee verhaaltjes en beantwoord de vragen met de prijzen uit het rek."
   },
   "G2-290": {
     "title": "Boodschappen doen: vier vragen",
-    "instruction": "Vier kaarten met vier verschillende vragen over de prijzen."
+    "instruction": "Lees de vraag op elke kaart en beantwoord hem met de prijzen."
   },
   "G2-291": {
     "title": "Boodschappen doen: samen betalen",
@@ -1716,11 +1733,11 @@
   },
   "G2-293": {
     "title": "Boodschappen doen: hoeveel geld terug?",
-    "instruction": "Tel de munten die betaald zijn en zoek het wisselgeld."
+    "instruction": "Tel de munten die betaald zijn en reken uit hoeveel geld je terugkrijgt."
   },
   "G2-294": {
     "title": "Boodschappen doen: genoeg geld?",
-    "instruction": "Vergelijk het geld met de prijs en omcirkel ja of nee."
+    "instruction": "Vergelijk het geld met de prijs en omcirkel ja of nee. Schrijf daarna op hoeveel geld het samen is."
   },
   "G2-295": {
     "title": "Boodschappen doen: hoeveel duurder?",
@@ -1732,7 +1749,8 @@
   },
   "G2-297": {
     "title": "Kalender lezen: een volle maand",
-    "instruction": "Deze maand is vol. Lees de kalender goed en beantwoord elke vraag."
+    "instruction": "Deze maand gebeurt er veel. Lees de kalender goed en beantwoord elke vraag.",
+    "printTitle": "Kalender lezen: een drukke maand"
   },
   "G2-298": {
     "title": "Kalender lezen: dagen van de week",
@@ -1740,11 +1758,11 @@
   },
   "G2-299": {
     "title": "Schrijven bij een plaatje: startzinnen",
-    "instruction": "De startzinnen helpen je op weg. Het woordvak noemt alles."
+    "instruction": "Kijk goed naar het plaatje en schrijf op wat je ziet. De startzinnen helpen je op weg en in het woordvak staan de woorden die je nodig hebt."
   },
   "G2-300": {
     "title": "Schrijven bij een plaatje: eigen woorden",
-    "instruction": "Geen startzinnen: bedenk zelf een verhaal erbij."
+    "instruction": "Geen startzinnen deze keer. Gebruik het woordvak en schrijf zelf een verhaal bij het plaatje."
   },
   "G2-302": {
     "title": "Coördinaten in het rooster: 6 bij 6",
@@ -1752,7 +1770,7 @@
   },
   "G2-303": {
     "title": "Coördinaten in het rooster: 10 bij 10",
-    "instruction": "Dit rooster is groter. Werk de lijst met hokjes rustig af."
+    "instruction": "Dit rooster is groter. Zoek elk hokje met de letter en het cijfer en kleur het in. Welk plaatje verschijnt er?"
   },
   "G3-371": {
     "title": "Verhaaltjessommen: keersommen",
@@ -1768,19 +1786,19 @@
   },
   "G3-374": {
     "title": "Verhaaltjessommen: twee soorten delen",
-    "instruction": "Het ene verhaaltje verdeelt, het andere maakt groepjes."
+    "instruction": "Lees beide verhaaltjes: in het ene verdeel je eerlijk, in het andere maak je groepjes. Schrijf bij elk verhaaltje het antwoord op."
   },
   "G3-375": {
     "title": "Verhaaltjessommen: keer en groepjes",
-    "instruction": "Het ene verhaaltje maakt groepen, het andere splitst ze."
+    "instruction": "Lees beide verhaaltjes: in het ene maak je groepjes, in het andere verdeel je ze. Schrijf bij elk verhaaltje het antwoord op."
   },
   "G3-376": {
     "title": "Verhaaltjessommen: alles door elkaar",
-    "instruction": "Drie verhaaltjes: bedenk eerst wat elk verhaaltje vraagt."
+    "instruction": "Lees de drie verhaaltjes. Bedenk eerst wat elk verhaaltje vraagt en schrijf dan het antwoord op."
   },
   "K-308": {
     "title": "Van stip naar stip: terugtellen vanaf 10",
-    "instruction": "Tel terug van 10 naar 1; de rest van de tekening staat er al."
+    "instruction": "Tel terug van 10 naar 1 en verbind de stippen. De rest van de tekening staat er al."
   },
   "G1-285": {
     "title": "Van stip naar stip: tellen met tweetallen",
@@ -1793,7 +1811,7 @@
   },
   "G2-304": {
     "title": "Van stip naar stip: tellen met vijftallen",
-    "instruction": "Spring van vijf naar vijf langs de genummerde stippen.",
+    "instruction": "Begin bij de oranje stip. Tel met sprongen van 5, van 5 tot en met 50, en verbind de stippen. Een deel van de tekening staat er al.",
     "printTitle": "Van stip naar stip: tellen met sprongen van 5"
   },
   "K-311": {
@@ -1806,7 +1824,7 @@
   },
   "G1-286": {
     "title": "Verdubbelen en halveren met plaatjes tot 20",
-    "instruction": "Tel de grotere groepen, verdubbel en halveer ze."
+    "instruction": "Tel elke groep en kijk naar het label: verdubbel de groep of halveer hem."
   },
   "G2-305": {
     "title": "Getallenlijn van 40 tot 60",
@@ -1830,11 +1848,11 @@
   },
   "G1-296": {
     "title": "Verdubbelen tot 20 met plaatjes",
-    "instruction": "Grotere groepen plaatjes om te verdubbelen, tot 20."
+    "instruction": "Tel de plaatjes in elke groep en schrijf het dubbele op."
   },
   "G1-297": {
     "title": "Halveren tot 20 met plaatjes",
-    "instruction": "Grotere groepen plaatjes om te halveren, tot 20."
+    "instruction": "Tel de plaatjes in elke groep, halveer ze en schrijf de twee gelijke delen op."
   },
   "K-314": {
     "title": "Enkelvoud en meervoud: het meervoud zelf schrijven",
@@ -1858,7 +1876,7 @@
   },
   "G2-308": {
     "title": "Coördinaten in het rooster: schrijf de codes",
-    "instruction": "De tekening is al gekleurd: schrijf zelf de codes erbij."
+    "instruction": "De tekening is al gekleurd. Schrijf de code van elk hokje in de lijst van zijn kleur."
   },
   "K-309": {
     "title": "Van stip naar stip: op alfabetische volgorde",
@@ -1866,7 +1884,7 @@
   },
   "G2-307": {
     "title": "Hoofdletters: waar stopt de eerste zin?",
-    "instruction": "Twee zinnen aan elkaar: schrijf ze los met een punt."
+    "instruction": "Hier staan twee zinnen aan elkaar. Schrijf ze over als twee zinnen, met een punt en een hoofdletter."
   },
   "G1-292": {
     "title": "De of het? Sorteer de woorden",
@@ -1886,11 +1904,12 @@
   },
   "G1-301": {
     "title": "Schrijf het woord: woordbank en hokjes",
-    "instruction": "Zoek het woord in de woordbank; één letter per hokje."
+    "instruction": "Zoek het woord in de woordenlijst. Schrijf in elk hokje één letter.",
+    "printTitle": "Schrijf het woord: woordenlijst en hokjes"
   },
   "G2-311": {
     "title": "Hoofdletters: twee zinnen, punt of vraagteken?",
-    "instruction": "Splits de twee zinnen; er zit ook een vraag tussen."
+    "instruction": "Splits de twee zinnen en zet achter elke zin het goede leesteken: een punt of een vraagteken."
   },
   "G2-312": {
     "title": "Kalender lezen: hoeveel dagen ertussen?",
@@ -1898,7 +1917,7 @@
   },
   "G2-314": {
     "title": "Van stip naar stip: tellen met tientallen",
-    "instruction": "Spring met tientallen van stip naar stip; de rest staat er al."
+    "instruction": "Begin bij de oranje stip. Tel met sprongen van 10, van 10 tot en met 100, en verbind de stippen. De rest van de tekening staat er al."
   },
   "K-315": {
     "title": "Woorden overschrijven: hoofdletters",
@@ -1910,7 +1929,7 @@
   },
   "G2-313": {
     "title": "Rekenpiramide tot 100",
-    "instruction": "Vier lagen: de onderste rij is gegeven, tel naar boven op."
+    "instruction": "De onderste rij is gegeven. Tel steeds twee stenen bij elkaar op en vul de piramide tot de top in."
   },
   "G1-302": {
     "title": "Husselzinnen: welk woord staat vooraan?",
@@ -1922,7 +1941,7 @@
   },
   "G1-304": {
     "title": "Schrijf het woord: alle hulp erbij",
-    "instruction": "Zoek het woord in de woordbank. Schrijf na de beginletter één letter in elk hokje."
+    "instruction": "Zoek het woord in de woordenlijst. Schrijf na de beginletter één letter in elk hokje."
   },
   "K-317": {
     "title": "Letter van de week: {U}{L}",
@@ -1966,7 +1985,7 @@
   },
   "G1-307": {
     "title": "Tegenstellingen: schrijf het tegenovergestelde woord",
-    "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenbank en schrijf het op de lijn."
+    "instruction": "Lees het woord op elke kaart. Zoek het tegenovergestelde in de woordenlijst en schrijf het op de lijn."
   },
   "G1-308": {
     "title": "Lees en doe: volg de opdrachten",
@@ -1974,7 +1993,7 @@
   },
   "G1-309": {
     "title": "Rijmwoorden: rijm en schrijf",
-    "instruction": "Zeg het eerste plaatje. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
+    "instruction": "Zeg wat je op het eerste plaatje ziet. Omcirkel het plaatje dat erop rijmt en schrijf dat woord op de lijn."
   },
   "G1-310": {
     "title": "Honderdveld puzzelstukken: vul de getallen in",
@@ -1987,7 +2006,7 @@
   },
   "G2-316": {
     "title": "Samenstellingen: plaatje + plaatje",
-    "instruction": "Zeg de twee plaatjes, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
+    "instruction": "Zeg wat je op de twee plaatjes ziet, maak er samen één nieuw woord van en schrijf dat woord op de lijn."
   },
   "G2-317": {
     "title": "Werkwoorden in de tegenwoordige tijd: ik, jij, hij, wij",
@@ -1995,7 +2014,7 @@
   },
   "G2-318": {
     "title": "Dierenpaspoort: {U}",
-    "instruction": "Zoek uit wat je over dit dier weet. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
+    "instruction": "Zoek informatie op over dit dier. Schrijf in elke rij van het paspoort één weetje en vul de rest van het blad met je eigen tekening of woorden."
   },
   "G2-319": {
     "title": "Logigram: drie aanwijzingen, één antwoord",
@@ -2087,7 +2106,7 @@
   },
   "K-337": {
     "title": "Ontbrekende dagen: schrijf de week op volgorde",
-    "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit de woordenbank op de goede plek."
+    "instruction": "Op de ladder staan al een paar dagen. Schrijf de ontbrekende dagen uit het kader op de goede plek."
   },
   "G1-319": {
     "title": "Gisteren, vandaag, morgen",
@@ -2179,7 +2198,7 @@
   },
   "G1-328": {
     "title": "Twee of drie lettergrepen? Verdeel en sorteer",
-    "instruction": "Klap elk woord uit de woordenbank. Schrijf het met streepjes tussen de lettergrepen in de kolom 2 of de kolom 3."
+    "instruction": "Klap elk woord uit het kader. Schrijf het met streepjes tussen de lettergrepen in de kolom met 2 of de kolom met 3."
   },
   "G1-329": {
     "title": "Elke lettergreep heeft een klinker",
@@ -2203,7 +2222,7 @@
   },
   "G1-334": {
     "title": "Lees de lettergrepen en zoek het plaatje",
-    "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in de bank bovenaan en schrijf het nummer van het plaatje in het vakje."
+    "instruction": "Lees elk woord lettergreep voor lettergreep. Zoek het plaatje in het kader bovenaan en schrijf het nummer van het plaatje in het vakje."
   },
   "K-351": {
     "title": "Tegenstellingen met plaatjes: verbind de tegenpolen",
@@ -2211,7 +2230,7 @@
   },
   "G1-335": {
     "title": "Tegenstellingen in een zin",
-    "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenbank helpt je."
+    "instruction": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. De woordenlijst helpt je."
   },
   "G1-336": {
     "title": "Zoek de paren: welke woorden zijn tegenstellingen?",
@@ -2247,11 +2266,11 @@
   },
   "K-352": {
     "title": "Rijmt het of niet?",
-    "instruction": "Zeg beide plaatjes hardop. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
+    "instruction": "Zeg wat je op beide plaatjes ziet. Rijmen de twee woorden? Omcirkel dan het vinkje. Rijmen ze niet? Omcirkel dan het kruisje."
   },
   "G1-343": {
     "title": "Sorteer de rijmwoorden",
-    "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+    "instruction": "Zeg wat je op elk plaatje in het kader ziet. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
   },
   "G1-344": {
     "title": "Maak het rijmpje af",
@@ -2259,7 +2278,7 @@
   },
   "G1-345": {
     "title": "Rijmrijen: twee rijmwoorden per plaatje",
-    "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+    "instruction": "Zeg wat je op elk plaatje ziet. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
   },
   "G1-346": {
     "title": "Verzin je eigen rijmwoorden",
@@ -2339,7 +2358,8 @@
   },
   "G2-340": {
     "title": "Dierenpaspoort {U} met woordenbank",
-    "instruction": "Zoek elk juist weetje in de woordenbank en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af."
+    "instruction": "Zoek elk juist weetje in de woordenlijst en schrijf het over in de goede rij van het paspoort. Maak daarna de zin onderaan af.",
+    "printTitle": "Dierenpaspoort {U} met woordenlijst"
   },
   "G2-341": {
     "title": "Dierenpaspoort {U}: schrijf drie zinnen",
@@ -2351,7 +2371,7 @@
   },
   "G2-343": {
     "title": "Wie ben ik? Raad het dier",
-    "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier in de plaatjesbank, schrijf zijn naam op de lijn en teken het in het vak."
+    "instruction": "Lees de vijf aanwijzingen op elke kaart. Zoek het dier tussen de plaatjes bovenaan, schrijf zijn naam op de lijn en teken het in het vak."
   },
   "G2-344": {
     "title": "Logigram met ja-, nee- en of-aanwijzingen",
@@ -2539,7 +2559,8 @@
   },
   "G2-349": {
     "title": "Zinnen aanvullen met meer dan één",
-    "instruction": "Kijk naar de plaatjes. Er is meer dan één. Schrijf het woord voor meer dan één in het vakje."
+    "instruction": "Kijk naar de plaatjes. Er is meer dan één. Schrijf het woord voor meer dan één in het vakje.",
+    "printTitle": "Zinnen aanvullen met het meervoud"
   },
   "G2-350": {
     "title": "Een verhaaltje aanvullen",
@@ -2555,7 +2576,7 @@
   },
   "G1-369": {
     "title": "Kunnen twee vrienden eerlijk delen?",
-    "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er over is. Is het aantal plaatjes even of oneven?"
+    "instruction": "Verdeel de plaatjes om de beurt tussen de vrienden. Schrijf op hoeveel elk kind krijgt en hoeveel er over zijn. Even of oneven? Omcirkel het woord."
   },
   "G2-352": {
     "title": "Even en oneven getallen tot 100: kijk naar de eenheden",
@@ -2571,7 +2592,7 @@
   },
   "G1-371": {
     "title": "Vervang de naam door een voornaamwoord",
-    "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje."
+    "instruction": "Lees de zin. Schrijf in het vakje het woord uit het kader dat in de tweede zin de naam vervangt."
   },
   "G2-353": {
     "title": "Wie wordt bedoeld? Voornaamwoorden in de zin",
@@ -2816,7 +2837,7 @@
   },
   "G1-392": {
     "title": "Tweetekenklanken invullen: oe, ui of oo",
-    "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+    "instruction": "Zeg wat je op elk plaatje ziet. Kies de klank die mist uit de klanken bovenaan en schrijf hem op de stippellijn."
   },
   "G1-393": {
     "title": "Woorden met tweetekenklanken lezen en koppelen",
@@ -2856,7 +2877,8 @@
   },
   "G2-376": {
     "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
-    "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+    "instruction": "Lees wat elk nieuw woord betekent, zoek het goede woorddeel in het kader en schrijf het in het lege stukje.",
+    "printTitle": "Woorden met her-, mee- en uit-: kies op betekenis"
   },
   "G3-398": {
     "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",
@@ -3096,7 +3118,8 @@
   },
   "K-403": {
     "title": "Maak de tekening van het {N} af",
-    "instruction": "Kijk goed naar het hele paard, teken bij het tweede paard de lijnen die ontbreken en teken daarna onderaan zelf een paard."
+    "instruction": "Kijk goed naar het hele paard, teken bij het tweede paard de lijnen die ontbreken en teken daarna onderaan zelf een paard.",
+    "printTitle": "Maak de tekening af: {N}"
   },
   "G1-416": {
     "title": "{U} tekenen met een raster",
@@ -3108,7 +3131,7 @@
   },
   "G1-417": {
     "title": "{U} bij de vijver tekenen",
-    "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege plek in de vijver."
+    "instruction": "Oefen eerst met de stappen en teken het dan zelf in het plaatje, op de lege plek in de vijver."
   },
   "G1-418": {
     "title": "Zet de stappen op volgorde: {L} tekenen",
@@ -3148,7 +3171,7 @@
   },
   "G1-421": {
     "title": "Doolhof onder de grond: de mierengangen",
-    "instruction": "Help de mier door de gangen naar beneden en naar boven, tot bij de framboos. Teken een lijn langs de weg.",
+    "instruction": "Help de mier door de gangen naar beneden en naar boven, naar de framboos. Teken een lijn langs de weg.",
     "printTitle": "Help de mier naar haar framboos"
   },
   "G1-422": {
@@ -3213,8 +3236,8 @@
   },
   "K-412": {
     "title": "Doolhof met beginklanken: zoals leeuw",
-    "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als leeuw.",
-    "printTitle": "Plaatjes die beginnen zoals leeuw"
+    "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als ‘leeuw’.",
+    "printTitle": "Plaatjes die beginnen zoals ‘leeuw’"
   },
   "G2-393": {
     "title": "Rekendoolhof groep 4: plus en min tot 100",
@@ -3544,7 +3567,7 @@
   },
   "G1-449": {
     "title": "Bijna-dubbelsommen",
-    "instruction": "Gebruik een dubbelsom die je kent. Schrijf de dubbelsom op en tel er dan één bij."
+    "instruction": "Gebruik een dubbelsom die je kent. Schrijf de dubbelsom op, tel er één bij en schrijf de uitkomst op."
   },
   "K-459": {
     "title": "Teken het dubbele",
@@ -4025,7 +4048,8 @@
   },
   "K-517": {
     "title": "Getallen 1 tot 100 overtrekken",
-    "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort."
+    "instruction": "Trek de gestippelde getallen over. Schrijf in elk leeg vakje het getal dat daar hoort.",
+    "printTitle": "Getallen 1 tot en met 100 overtrekken"
   },
   "K-518": {
     "title": "Zo schrijven we de getallen",
@@ -4685,7 +4709,8 @@
   },
   "G1-551": {
     "title": "Kleur het tiental",
-    "instruction": "Kleur in elk getal het cijfer op de plaats van de tientallen."
+    "instruction": "Kleur in elk getal het cijfer op de plaats van de tientallen.",
+    "printTitle": "Kleur het cijfer van de tientallen"
   },
   "K-610": {
     "title": "Kleur en trek over: {U}",
@@ -4693,11 +4718,12 @@
   },
   "K-611": {
     "title": "Mijn getalposter: {U}",
-    "instruction": "Kleur het getal en het woord. Kleur daarna evenveel hokjes in het veld."
+    "instruction": "Kleur het getal en het woord. Kleur daarna evenveel hokjes in het tienraam."
   },
   "K-612": {
     "title": "Kleur het getal en vul het veld",
-    "instruction": "Kleur elk getal. Kleur daarna evenveel hokjes in het veld."
+    "instruction": "Kleur elk getal. Kleur daarna evenveel hokjes in het tienraam.",
+    "printTitle": "Kleur het getal en vul het tienraam"
   },
   "K-613": {
     "title": "Kleur de dagen",

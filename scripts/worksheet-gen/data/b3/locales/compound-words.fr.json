@@ -743,7 +743,7 @@
   "strings": {
     "G2-316": {
       "title": "Mots de la même famille : image + terminaison",
-      "instruction": "Dis le nom de l'image, c'est le radical. Ajoute la terminaison et écris le nouveau mot sur la ligne."
+      "instruction": "Dis le nom de l'image, c'est le radical. Ajoute le suffixe et écris le nouveau mot sur la ligne."
     },
     "G2-329": {
       "title": "La lettre de liaison entre le radical et la terminaison",
@@ -759,7 +759,7 @@
     },
     "G2-332": {
       "title": "Mot simple ou mot construit ?",
-      "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris le radical et la terminaison sur les lignes."
+      "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris sur les lignes le radical et ce qu'on lui a ajouté."
     },
     "G2-333": {
       "title": "Une famille de mots autour d'un même radical",

@@ -2924,7 +2924,7 @@
     },
     "G1-311": {
       "title": "Duas letras, um som só: {U}",
-      "instruction": "Cubra {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha."
+      "instruction": "Cubra o {L}, circule as quatro figuras que têm o som de {L} e escreva uma linha de {L}."
     },
     "K-328": {
       "title": "A ou E? Escute a diferença",

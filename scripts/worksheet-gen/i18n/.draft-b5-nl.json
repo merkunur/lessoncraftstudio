@@ -179,7 +179,7 @@
   },
   "G1-392": {
    "title": "Tweetekenklanken invullen: oe, ui of oo",
-   "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+   "instruction": "Zeg wat je op elk plaatje ziet. Kies de klank die mist uit de klanken bovenaan en schrijf hem op de stippellijn."
   },
   "G1-393": {
    "title": "Woorden met tweetekenklanken lezen en koppelen",
@@ -227,7 +227,7 @@
   },
   "G2-376": {
    "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
-   "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+   "instruction": "Lees wat elk nieuw woord betekent, zoek het goede woorddeel in het kader en schrijf het in het lege stukje."
   },
   "G3-398": {
    "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",
@@ -3411,7 +3411,7 @@
     },
     "gap": {
      "title": "Tweetekenklanken invullen: oe, ui of oo",
-     "instruction": "Zeg wat je op elk plaatje ziet en schrijf de klank die mist van bovenaan in de open plek met de stippellijn."
+     "instruction": "Zeg wat je op elk plaatje ziet. Kies de klank die mist uit de klanken bovenaan en schrijf hem op de stippellijn."
     },
     "match": {
      "title": "Woorden met tweetekenklanken lezen en koppelen",
@@ -5586,7 +5586,7 @@
     },
     "prefix-key": {
      "title": "Voorvoegsels her-, mee- en uit-: kies op betekenis",
-     "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+     "instruction": "Lees wat elk nieuw woord betekent, zoek het goede woorddeel in het kader en schrijf het in het lege stukje."
     },
     "who-does-it": {
      "title": "Wie doet het? Persoonswoorden op -er, -ster en -es",

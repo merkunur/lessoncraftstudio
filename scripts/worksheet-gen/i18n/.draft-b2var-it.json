@@ -3,7 +3,7 @@
   "types": {
     "K-289": {
       "title": "Ricalca e scrivi: le prime parole",
-      "instruction": "Ripassa le lettere tratteggiate e riscrivi."
+      "instruction": "Ripassa la parola tratteggiata, poi scrivila sulla riga vuota."
     },
     "K-290": {
       "title": "Ricalca e scrivi due volte",
@@ -23,7 +23,7 @@
     },
     "K-296": {
       "title": "Unisci i puntini contando da 11 a 30",
-      "instruction": "Conta in avanti da 11 a 30 e scopri il disegno."
+      "instruction": "Parti dal punto arancione. Conta in avanti da 11 a 30, unisci i puntini e scopri il disegno."
     },
     "K-298": {
       "title": "Copia sui quadretti: primi passi",
@@ -39,7 +39,7 @@
     },
     "K-302": {
       "title": "Singolare e plurale: le prime parole",
-      "instruction": "Uno o tanti? Ricalca la parola giusta."
+      "instruction": "Uno o tanti? Ripassa la parola al plurale."
     },
     "K-303": {
       "title": "Singolare e plurale: parole lunghe",
@@ -63,11 +63,11 @@
     },
     "G1-255": {
       "title": "Il numero del giorno: da 11 a 19",
-      "instruction": "Il numero va da 11 a 19: riempi ogni riquadro."
+      "instruction": "Il numero del giorno è tra 11 e 19. Guarda il numero grande e completa tutti i riquadri."
     },
     "G1-256": {
       "title": "Il numero del giorno: 10 in più, 10 in meno",
-      "instruction": "Trova dieci in più e dieci in meno."
+      "instruction": "Trova il numero con 10 in più e quello con 10 in meno del numero del giorno."
     },
     "G1-257": {
       "title": "Il numero del giorno: fino a 99",
@@ -87,19 +87,19 @@
     },
     "G1-262": {
       "title": "Numera in ordine alfabetico",
-      "instruction": "Numera le quattro parole: non riscriverle."
+      "instruction": "Numera le quattro parole in ordine alfabetico. Non serve riscriverle."
     },
     "G1-263": {
       "title": "Ordine alfabetico: numera e scrivi",
-      "instruction": "Numera le parole, poi riscrivile."
+      "instruction": "Numera le parole in ordine alfabetico, poi riscrivile in ordine sulle righe."
     },
     "G1-264": {
       "title": "Ordine alfabetico: stesse iniziali",
-      "instruction": "Guarda anche la seconda lettera."
+      "instruction": "Metti le parole in ordine alfabetico. Se due parole cominciano con la stessa lettera, guarda la seconda."
     },
     "G1-266": {
       "title": "Piramidi di numeri fino a 10",
-      "instruction": "Ogni mattone è la somma dei due che stanno sotto."
+      "instruction": "Ogni mattone è la somma dei due che stanno sotto. Completa ogni piramide fino in cima."
     },
     "G1-267": {
       "title": "Piramidi di numeri a quattro piani",
@@ -107,11 +107,11 @@
     },
     "G1-268": {
       "title": "Piramidi di numeri: il mattone mancante",
-      "instruction": "Manca un mattone in basso: guarda sopra."
+      "instruction": "Manca un mattone in basso: trovalo guardando i mattoni sopra, poi completa tutta la piramide."
     },
     "G1-270": {
       "title": "Doppio e metà con le immagini",
-      "instruction": "Leggi l'etichetta: doppio o metà."
+      "instruction": "Leggi l'etichetta di ogni riquadro: trova il doppio o la metà del gruppo e scrivi il numero."
     },
     "G1-271": {
       "title": "Doppio e metà fino a 20",
@@ -127,7 +127,7 @@
     },
     "G1-276": {
       "title": "La linea dei numeri fino a 30",
-      "instruction": "Ogni tacca vale 1: conta in avanti fino a 30."
+      "instruction": "Ogni tacca vale 1: conta in avanti e scrivi il numero indicato da ogni freccia."
     },
     "G1-277": {
       "title": "La linea dei numeri fino a 50",
@@ -139,7 +139,7 @@
     },
     "G1-279": {
       "title": "La linea dei numeri: salti di 5 fino a 100",
-      "instruction": "Ogni tacca vale 5 e si arriva a 100."
+      "instruction": "Ogni tacca vale 5, fino a 100. Scrivi il numero indicato da ogni freccia."
     },
     "G1-280": {
       "title": "La linea dei numeri: salti di 10 fino a 100",
@@ -151,7 +151,7 @@
     },
     "G1-282": {
       "title": "Riordina la frase: con gli indizi",
-      "instruction": "La maiuscola e il segno ti aiutano."
+      "instruction": "Riordina le parole e scrivi la frase: la maiuscola e il segno finale ti dicono dove comincia e dove finisce."
     },
     "G1-283": {
       "title": "Riordina la frase: senza indizi",
@@ -159,31 +159,31 @@
     },
     "G2-281": {
       "title": "Maiuscola e segno finale",
-      "instruction": "Riscrivi mettendo maiuscola e segno giusto."
+      "instruction": "Riscrivi ogni frase con la lettera maiuscola e il segno finale giusto."
     },
     "G2-282": {
       "title": "Maiuscole nei nomi e segno finale",
-      "instruction": "Correggi maiuscole e segno finale."
+      "instruction": "Correggi le maiuscole, anche quelle dei nomi, e scegli il segno finale giusto."
     },
     "G2-285": {
       "title": "Analisi grammaticale: 9 parole",
-      "instruction": "Alcune parole hanno l'immagine."
+      "instruction": "Alcune parole hanno un'immagine che ti aiuta. Scrivi ogni parola nella scatola giusta."
     },
     "G2-286": {
       "title": "Analisi grammaticale senza immagini",
-      "instruction": "Senza immagini: leggi e ordina."
+      "instruction": "Senza immagini: leggi ogni parola e scrivila nella scatola giusta."
     },
     "G2-287": {
       "title": "Analisi grammaticale: 15 parole",
-      "instruction": "Quindici parole e nessuna immagine."
+      "instruction": "Quindici parole e nessuna immagine: scrivi ogni parola nella scatola giusta."
     },
     "G2-289": {
       "title": "Fare la spesa: due problemi",
-      "instruction": "Leggi le storie e usa i prezzi esposti."
+      "instruction": "Leggi ogni problema e usa i prezzi dello scaffale per rispondere."
     },
     "G2-290": {
       "title": "Fare la spesa: quattro domande",
-      "instruction": "Quattro domande diverse sulla spesa."
+      "instruction": "Rispondi alle quattro domande sulla spesa."
     },
     "G2-291": {
       "title": "Fare la spesa: quanto in tutto?",
@@ -191,7 +191,7 @@
     },
     "G2-292": {
       "title": "Fare la spesa: tre prodotti",
-      "instruction": "Ogni cesto ha tre prodotti da sommare."
+      "instruction": "In ogni cesto ci sono tre prodotti: somma i tre prezzi."
     },
     "G2-293": {
       "title": "Fare la spesa: quanto resto?",
@@ -199,11 +199,11 @@
     },
     "G2-294": {
       "title": "Fare la spesa: bastano i soldi?",
-      "instruction": "Bastano i soldi? Cerchia sì o no."
+      "instruction": "Confronta i soldi con il prezzo: bastano? Cerchia sì o no, poi scrivi il totale."
     },
     "G2-295": {
       "title": "Fare la spesa: quanto in più?",
-      "instruction": "Quanta differenza c'è tra i prezzi?"
+      "instruction": "Confronta i due prezzi e calcola la differenza."
     },
     "G2-296": {
       "title": "Leggere il calendario: quattro domande",
@@ -215,11 +215,11 @@
     },
     "G2-298": {
       "title": "Leggere il calendario: i giorni",
-      "instruction": "Le domande sono sui giorni della settimana."
+      "instruction": "Leggi il calendario colonna per colonna e rispondi alle domande sui giorni della settimana."
     },
     "G2-299": {
       "title": "Guarda e scrivi: inizi di frase",
-      "instruction": "Usa gli inizi di frase e le parole."
+      "instruction": "Guarda l'immagine e scrivi che cosa vedi: usa gli inizi di frase e le parole della scatola."
     },
     "G2-300": {
       "title": "Guarda e scrivi: con parole tue",
@@ -231,7 +231,7 @@
     },
     "G2-303": {
       "title": "Coordinate sulla griglia 10x10",
-      "instruction": "Griglia più grande: segui l'elenco con ordine."
+      "instruction": "Griglia più grande: trova ogni casella con la sua lettera e il suo numero e colorala per scoprire il disegno."
     },
     "G3-371": {
       "title": "Problemi di moltiplicazione",
@@ -243,19 +243,19 @@
     },
     "G3-373": {
       "title": "Problemi di divisione: contenenza",
-      "instruction": "Cerchia i gruppi nel disegno."
+      "instruction": "Cerchia i gruppi uguali nel disegno, poi scrivi la risposta."
     },
     "G3-374": {
       "title": "Problemi di divisione: i due modi",
-      "instruction": "Una distribuisce, l'altra raggruppa."
+      "instruction": "Risolvi i due problemi: in uno si distribuisce, nell'altro si formano gruppi. Tutti e due si risolvono con una divisione."
     },
     "G3-375": {
       "title": "Problemi: moltiplicare e raggruppare",
-      "instruction": "Prima moltiplichi, poi dividi."
+      "instruction": "Risolvi i due problemi: in uno formi gruppi uguali, nell'altro li dividi."
     },
     "G3-376": {
       "title": "Tre problemi misti: per e diviso",
-      "instruction": "Tre storie: cosa chiede ognuna?"
+      "instruction": "Leggi i tre problemi: prima di rispondere, capisci che cosa chiede ognuno."
     },
     "K-308": {
       "title": "Unisci i puntini all'indietro da 10",
@@ -263,7 +263,7 @@
     },
     "K-311": {
       "title": "Copia la parola dal cartellino",
-      "instruction": "Nessun tratteggio: guarda il modello e copia."
+      "instruction": "Qui non ci sono lettere tratteggiate: guarda la parola sul cartellino e copiala due volte."
     },
     "G1-285": {
       "title": "Unisci i puntini contando di 2 in 2",
@@ -271,7 +271,7 @@
     },
     "G1-286": {
       "title": "Doppio o metà? Fino a 20",
-      "instruction": "Qui trovi sia il doppio sia la metà."
+      "instruction": "Leggi ogni riquadro: trova il doppio o la metà del gruppo e scrivi il numero."
     },
     "G1-291": {
       "title": "Dettato muto: l'iniziale",
@@ -279,7 +279,7 @@
     },
     "G1-294": {
       "title": "Unisci i puntini da 20 a 1",
-      "instruction": "Qui ogni puntino è numerato, dal 20 all'1."
+      "instruction": "Unisci i puntini all'indietro, dal 20 all'1, e completa il disegno."
     },
     "G2-304": {
       "title": "Unisci i puntini contando di 5 in 5",
@@ -287,7 +287,7 @@
     },
     "K-309": {
       "title": "Unisci i puntini in ordine alfabetico",
-      "instruction": "Qui i puntini si uniscono dalla a alla v."
+      "instruction": "Unisci i puntini in ordine alfabetico, dalla a alla v, e completa il disegno."
     },
     "K-310": {
       "title": "Ricalca in stampato maiuscolo",
@@ -311,7 +311,7 @@
     },
     "G1-287": {
       "title": "Solo il doppio fino a 14",
-      "instruction": "Ogni riquadro raddoppia un gruppo di figure."
+      "instruction": "In ogni riquadro raddoppia il gruppo di figure e scrivi il doppio."
     },
     "G1-288": {
       "title": "Solo la metà fino a 12",
@@ -323,7 +323,7 @@
     },
     "G1-292": {
       "title": "Ordina le parole per articolo",
-      "instruction": "Ogni parola sotto il suo articolo."
+      "instruction": "Leggi ogni parola e scrivila sotto il suo articolo."
     },
     "G1-293": {
       "title": "Nomi e verbi",
@@ -335,11 +335,11 @@
     },
     "G1-296": {
       "title": "Solo il doppio fino a 20",
-      "instruction": "Gruppi più grandi da raddoppiare: fino a 20."
+      "instruction": "Raddoppia ogni gruppo di figure e scrivi il doppio: si arriva fino a 20."
     },
     "G1-297": {
       "title": "Solo la metà fino a 20",
-      "instruction": "Gruppi più grandi da dividere a metà."
+      "instruction": "Dividi a metà ogni gruppo di figure, fino a 20, e scrivi la metà."
     },
     "G1-298": {
       "title": "Solo il doppio, senza figure",
@@ -371,7 +371,7 @@
     },
     "G2-305": {
       "title": "La linea dei numeri da 40 a 60",
-      "instruction": "La linea comincia da quaranta, non da zero."
+      "instruction": "La linea comincia da 40, non da zero. Conta in avanti dal numero scritto che viene prima di ogni freccia e scrivi il numero indicato."
     },
     "G2-307": {
       "title": "Dove finisce la frase?",
@@ -379,15 +379,15 @@
     },
     "G2-308": {
       "title": "Coordinate: scrivi tu i codici",
-      "instruction": "Il disegno è già colorato: scrivi tu i codici."
+      "instruction": "Il disegno è già colorato: scrivi il codice di ogni casella nell'elenco del suo colore."
     },
     "G2-310": {
       "title": "La linea dei numeri da 60 a 100",
-      "instruction": "Tacche di uno dal sessanta fino al cento."
+      "instruction": "La linea comincia da 60 e ogni tacca vale 1. Conta in avanti dal numero scritto che viene prima di ogni freccia e scrivi il numero indicato."
     },
     "G2-311": {
       "title": "Punto o punto interrogativo?",
-      "instruction": "Separa le frasi: qual è il segno finale?"
+      "instruction": "Separa le due frasi e metti alla fine di ognuna il segno giusto."
     },
     "G2-312": {
       "title": "Leggere il calendario: quanti giorni?",

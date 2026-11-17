@@ -10,7 +10,7 @@
     },
     "silhouette": {
       "title": "Tangram: fire skygger å bygge",
-      "instruction": "Bygg hver mørke figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
+      "instruction": "Bygg hver mørk figur med de sju brikkene i tangrammet ditt. Bruk alle sju brikkene hver gang."
     },
     "missing": {
       "title": "Tangram: hvilken brikke mangler?",
@@ -22,7 +22,7 @@
     },
     "count": {
       "title": "Tangram: tell trekanter og firkanter",
-      "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så firkantene til den andre ruta."
+      "instruction": "Tell trekantene i hvert bilde og skriv tallet i den første ruta. Tell så kvadratene, og skriv tallet i den andre ruta."
     }
   }
 }

@@ -14,11 +14,11 @@
     },
     "missing": {
       "title": "Tangram: ¿qué pieza falta?",
-      "instruction": "A cada figura le falta una pieza. Rodea la pieza que cabe exactamente en el hueco."
+      "instruction": "A cada figura le falta una pieza. Encierra la pieza que cabe exactamente en el hueco."
     },
     "match": {
       "title": "Tangram: ¿qué solución es igual a la sombra?",
-      "instruction": "Mira cada sombra. Rodea la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
+      "instruction": "Mira cada sombra. Encierra la solución que está colocada igual que la sombra. Las giradas o volteadas no valen."
     },
     "count": {
       "title": "Tangram: cuenta triángulos y cuadrados",

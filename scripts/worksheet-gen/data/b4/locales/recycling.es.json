@@ -49,7 +49,7 @@
     },
     "K-366": {
       "title": "Separación de basura: ¿en qué bote va?",
-      "instruction": "Mira cada cosa y rodea el bote donde se tira cuando ya está vacía o gastada."
+      "instruction": "Mira cada cosa y encierra el bote donde se tira cuando ya está vacía o gastada."
     },
     "G1-364": {
       "title": "Separación de basura: ¿reciclable u orgánico?",
@@ -57,7 +57,7 @@
     },
     "G2-348": {
       "title": "Separación de basura: ¿cuál es de otro material?",
-      "instruction": "En cada fila hay tres cosas del mismo material. Rodea la que es de otro material."
+      "instruction": "En cada fila hay tres cosas del mismo material. Encierra la que es de otro material."
     },
     "K-367": {
       "title": "Separación de basura: colorea los botes",

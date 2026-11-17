@@ -718,7 +718,7 @@
   "strings": {
     "G1-309": {
       "title": "Palabras que riman: escribe la rima",
-      "instruction": "Encierra el dibujo que rima y escribe su nombre."
+      "instruction": "Di el nombre del primer dibujo. Encierra el dibujo que rima con él y escribe su nombre en la línea."
     },
     "K-352": {
       "title": "¿Riman o no riman?",
@@ -726,7 +726,7 @@
     },
     "G1-343": {
       "title": "Familias de rimas: clasifica",
-      "instruction": "Escribe cada palabra junto al dibujo que rima."
+      "instruction": "Di el nombre de cada dibujo del banco. Busca el dibujo grande con el que rima y escribe la palabra en una línea debajo de él."
     },
     "G1-344": {
       "title": "Completa la rima",
@@ -734,7 +734,7 @@
     },
     "G1-345": {
       "title": "Cadenas de rimas",
-      "instruction": "Busca en el banco las dos palabras que riman con cada dibujo."
+      "instruction": "Di el nombre de cada dibujo. Busca en el banco las dos palabras que riman con él y escríbelas en sus líneas. Algunas palabras sobran."
     },
     "G1-346": {
       "title": "Inventa tus propias rimas",

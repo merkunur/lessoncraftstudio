@@ -15,7 +15,7 @@
   "strings": {
     "base": {
       "title": "Arredondamento de números à dezena",
-      "instruction": "Arredonde cada número à dezena mais próxima e escreva-o no quadrinho. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
+      "instruction": "Arredonde cada número para a dezena mais próxima e escreva-o no quadrinho. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
     },
     "sort": {
       "title": "Arredondar para cima ou para baixo: separe os números",
@@ -23,11 +23,11 @@
     },
     "hundred": {
       "title": "Arredondamento de números à centena",
-      "instruction": "Arredonde cada número à centena mais próxima e escreva-o no quadrinho. Olhe o algarismo das dezenas."
+      "instruction": "Arredonde cada número para a centena mais próxima e escreva-o no quadrinho. Olhe o algarismo das dezenas."
     },
     "estimate": {
       "title": "Arredonde e estime a soma",
-      "instruction": "Arredonde os dois números à dezena mais próxima e escreva-os nos quadrinhos. Depois some os números arredondados."
+      "instruction": "Arredonde os dois números para a dezena mais próxima e escreva-os nos quadrinhos. Depois some os números arredondados."
     },
     "inverse": {
       "title": "Quais números arredondam para 50?",
@@ -35,7 +35,7 @@
     },
     "both": {
       "title": "Arredondamento à dezena e à centena",
-      "instruction": "Arredonde cada número duas vezes: à dezena no primeiro quadrinho e à centena no segundo."
+      "instruction": "Arredonde cada número duas vezes: para a dezena mais próxima no primeiro quadrinho e para a centena mais próxima no segundo."
     }
   },
   "refuse": [],

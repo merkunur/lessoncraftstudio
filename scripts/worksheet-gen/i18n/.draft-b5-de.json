@@ -211,7 +211,7 @@
     },
     "G2-374": {
       "title": "Wortfeld „sagen“: das passende Verb einsetzen",
-      "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+      "instruction": "Lies jeden Satz. Schreibe das Wort aus der Sprechblase, das statt „sagt“ am besten passt, in das Kästchen."
     },
     "G3-397": {
       "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",
@@ -4241,7 +4241,7 @@
         },
         "say": {
           "title": "Wortfeld „sagen“: das passende Verb einsetzen",
-          "instruction": "Lies jeden Satz und schreibe statt „sagt“ das Wort aus der Sprechblase in das Kästchen, das am besten passt."
+          "instruction": "Lies jeden Satz. Schreibe das Wort aus der Sprechblase, das statt „sagt“ am besten passt, in das Kästchen."
         },
         "fields": {
           "title": "Wortfelder „gehen“ und „sehen“: Verben sortieren",

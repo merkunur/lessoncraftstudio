@@ -57,7 +57,7 @@
     "avoid": {
       "title": "Labyrinthe : évite les morses",
       "printTitle": "Ramène l'ours polaire chez lui",
-      "instruction": "Aide l'ours polaire à rejoindre l'igloo. Ne passe par aucun morse ni aucun trou dans la glace.",
+      "instruction": "Aide l'ours polaire à rejoindre l'igloo. Ne prends aucun chemin où il y a un morse ou un trou dans la glace.",
       "tap": "Glisse du rond vert jusqu'à l'igloo, sans passer par un morse ou un trou."
     },
     "abc-capitals": {

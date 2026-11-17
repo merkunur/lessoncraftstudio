@@ -63,7 +63,7 @@
   },
   "G2-316": {
    "title": "Mots de la même famille : image + terminaison",
-   "instruction": "Dis le nom de l'image, c'est le radical. Ajoute la terminaison et écris le nouveau mot sur la ligne."
+   "instruction": "Dis le nom de l'image, c'est le radical. Ajoute le suffixe et écris le nouveau mot sur la ligne."
   },
   "G2-317": {
    "title": "Conjugaison au présent : verbes en -er",
@@ -95,7 +95,7 @@
   },
   "G1-311": {
    "title": "Le son de la semaine : [{L}]",
-   "instruction": "Repasse le son {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
+   "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
   },
   "K-328": {
    "title": "L ou R ? Écoute la différence",
@@ -207,7 +207,7 @@
   },
   "K-343": {
    "title": "Ma famille : dessine et compte",
-   "instruction": "Dessine ta famille. Montre sur les cartes à dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris-le."
+   "instruction": "Dessine ta famille. Montre sur les grilles de dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris chaque nombre."
   },
   "K-344": {
    "title": "C'est moi : les parties du visage",
@@ -383,7 +383,7 @@
   },
   "G2-332": {
    "title": "Mot simple ou mot construit ?",
-   "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris le radical et la terminaison sur les lignes."
+   "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris sur les lignes le radical et ce qu'on lui a ajouté."
   },
   "G2-334": {
    "title": "Relie le pronom à la bonne forme du verbe",
@@ -7028,7 +7028,7 @@
     },
     "G1-311": {
      "title": "Le son de la semaine : [{L}]",
-     "instruction": "Repasse le son {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
+     "instruction": "Repasse {L}, entoure les quatre images dont le nom contient le son [{L}], puis écris toute une ligne de {L} sur les lignes d'écriture."
     },
     "K-328": {
      "title": "L ou R ? Écoute la différence",
@@ -10274,7 +10274,7 @@
     },
     "K-343": {
      "title": "Ma famille : dessine et compte",
-     "instruction": "Dessine ta famille. Montre sur les cartes à dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris-le."
+     "instruction": "Dessine ta famille. Montre sur les grilles de dix le nombre de personnes, de frères, de sœurs et d'animaux, puis écris chaque nombre."
     },
     "K-344": {
      "title": "C'est moi : les parties du visage",
@@ -19900,7 +19900,7 @@
    "strings": {
     "G2-316": {
      "title": "Mots de la même famille : image + terminaison",
-     "instruction": "Dis le nom de l'image, c'est le radical. Ajoute la terminaison et écris le nouveau mot sur la ligne."
+     "instruction": "Dis le nom de l'image, c'est le radical. Ajoute le suffixe et écris le nouveau mot sur la ligne."
     },
     "G2-329": {
      "title": "La lettre de liaison entre le radical et la terminaison",
@@ -19916,7 +19916,7 @@
     },
     "G2-332": {
      "title": "Mot simple ou mot construit ?",
-     "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris le radical et la terminaison sur les lignes."
+     "instruction": "Douze mots : six sont construits à partir d'un radical. Entoure-les et écris sur les lignes le radical et ce qu'on lui a ajouté."
     },
     "G2-333": {
      "title": "Une famille de mots autour d'un même radical",

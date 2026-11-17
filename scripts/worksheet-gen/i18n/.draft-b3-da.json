@@ -87,7 +87,7 @@
   },
   "K-336": {
    "title": "Ordenstal fra begge sider: start ved flaget",
-   "instruction": "Find først flaget: det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
+   "instruction": "Find først flaget: Det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
   },
   "G1-318": {
    "title": "Hvem vinder løbet? Skriv pladsen",
@@ -151,7 +151,7 @@
   },
   "K-343": {
    "title": "Min familie: tegn og tæl",
-   "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
+   "instruction": "Tegn din familie. Vis så på tierrammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
   },
   "K-344": {
    "title": "Det er mig: sæt ord på ansigtet",
@@ -287,15 +287,15 @@
   },
   "G1-309": {
    "title": "Rimord: find rimet, og skriv det",
-   "instruction": "Sig det første billede. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
+   "instruction": "Sig, hvad det første billede hedder. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
   },
   "K-352": {
    "title": "Rimord eller ej? Rimer de to ord?",
-   "instruction": "Sig begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
+   "instruction": "Sig navnene på begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
   },
   "G1-343": {
    "title": "Sortér rimordene",
-   "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det."
+   "instruction": "Sig, hvad hvert billede i banken hedder. Find det store billede, det rimer på, og skriv ordet på en linje under det."
   },
   "G1-344": {
    "title": "Rimord: gør rimet færdigt",
@@ -303,7 +303,7 @@
   },
   "G1-345": {
    "title": "Rimord i kæder",
-   "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+   "instruction": "Sig, hvad hvert billede hedder. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
   },
   "G1-346": {
    "title": "Skriv dine egne rimord",
@@ -319,7 +319,7 @@
   },
   "G2-321": {
    "title": "Hop på hundredtavlen: følg pilene",
-   "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
+   "instruction": "Start ved tallet, og følg pilene: Op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
   },
   "G2-322": {
    "title": "Det hemmelige tal: to pile, ét felt",
@@ -439,7 +439,7 @@
   },
   "G3-378": {
    "title": "Logikopgaver 4 gange 4: seks spor",
-   "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
+   "instruction": "Fire børn og fire billeder. Brug alle sporene: Sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
   },
   "G1-349": {
    "title": "Logikopgaver med billedspor: streg ud, og find",
@@ -455,7 +455,7 @@
   },
   "G3-377": {
    "title": "Division med rest: sæt ring om grupperne",
-   "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+   "instruction": "Sæt ring om grupper med lige så mange billeder, som det andet tal viser. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er tilovers."
   },
   "G3-380": {
    "title": "Del ud: hvad bliver der til overs?",
@@ -8508,7 +8508,7 @@
     },
     "F4": {
      "title": "Ordenstal fra begge sider: start ved flaget",
-     "instruction": "Find først flaget: det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
+     "instruction": "Find først flaget: Det kan stå i begge ender. Start dér, tæl hen til tallet på hver brik, og lav det mærke, den viser."
     },
     "F5": {
      "title": "Hvem vinder løbet? Skriv pladsen",
@@ -8904,7 +8904,7 @@
     },
     "K-343": {
      "title": "Min familie: tegn og tæl",
-     "instruction": "Tegn din familie. Vis så på tierammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
+     "instruction": "Tegn din familie. Vis så på tierrammerne, hvor mange personer, brødre, søstre og kæledyr der er i din familie, og skriv tallet."
     },
     "K-344": {
      "title": "Det er mig: sæt ord på ansigtet",
@@ -13425,15 +13425,15 @@
    "strings": {
     "G1-309": {
      "title": "Rimord: find rimet, og skriv det",
-     "instruction": "Sig det første billede. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
+     "instruction": "Sig, hvad det første billede hedder. Sæt en ring om det billede, der rimer på det, og skriv ordet på linjen."
     },
     "K-352": {
      "title": "Rimord eller ej? Rimer de to ord?",
-     "instruction": "Sig begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
+     "instruction": "Sig navnene på begge billeder højt. Rimer de to ord, så sæt ring om fluebenet. Rimer de ikke, så sæt ring om krydset."
     },
     "G1-343": {
      "title": "Sortér rimordene",
-     "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det."
+     "instruction": "Sig, hvad hvert billede i banken hedder. Find det store billede, det rimer på, og skriv ordet på en linje under det."
     },
     "G1-344": {
      "title": "Rimord: gør rimet færdigt",
@@ -13441,7 +13441,7 @@
     },
     "G1-345": {
      "title": "Rimord i kæder",
-     "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+     "instruction": "Sig, hvad hvert billede hedder. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
     },
     "G1-346": {
      "title": "Skriv dine egne rimord",
@@ -13462,7 +13462,7 @@
     },
     "F2": {
      "title": "Hop på hundredtavlen: følg pilene",
-     "instruction": "Start ved tallet, og følg pilene: op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
+     "instruction": "Start ved tallet, og følg pilene: Op er 10 mindre, ned er 10 mere, til venstre er 1 mindre, til højre er 1 mere. Skriv, hvor du lander."
     },
     "F3": {
      "title": "Det hemmelige tal: to pile, ét felt",
@@ -18335,7 +18335,7 @@
     },
     "F2": {
      "title": "Logikopgaver 4 gange 4: seks spor",
-     "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
+     "instruction": "Fire børn og fire billeder. Brug alle sporene: Sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
     },
     "F3": {
      "title": "Logikopgaver med billedspor: streg ud, og find",
@@ -18376,7 +18376,7 @@
    "strings": {
     "G3-377": {
      "title": "Division med rest: sæt ring om grupperne",
-     "instruction": "Sæt ring om grupper på det andet tal i hver bunke. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er til overs."
+     "instruction": "Sæt ring om grupper med lige så mange billeder, som det andet tal viser. Skriv, hvor mange grupper du lavede, og hvor mange billeder der er tilovers."
     },
     "F1": {
      "title": "Del ud: hvad bliver der til overs?",

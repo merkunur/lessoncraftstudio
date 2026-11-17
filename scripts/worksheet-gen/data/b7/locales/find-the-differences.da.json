@@ -27,7 +27,7 @@
     },
     "colour": {
       "title": "Find fejlene i farvebilledet",
-      "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+      "instruction": "Kig godt på farverne: Sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
     },
     "seven": {
       "title": "Find syv fejl ved dammen",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Spejlvendt billede: find fejlene",
-      "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+      "instruction": "Billede 2 er spejlvendt: Sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
     },
     "missing": {
       "title": "Hvad mangler i billedet?",
@@ -55,7 +55,7 @@
     },
     "pairs": {
       "title": "Billedpar: find fejlen",
-      "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+      "instruction": "Hver række viser det samme udsnit to gange: Sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
     },
     "write": {
       "title": "Skriv, hvad der er anderledes",

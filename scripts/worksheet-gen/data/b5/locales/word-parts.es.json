@@ -1246,11 +1246,11 @@
     },
     "picture-family": {
       "title": "Palabras derivadas con dibujos: rodea la palabra",
-      "instruction": "Di el nombre de cada dibujo y rodea la única palabra de arriba que se forma con esa palabra."
+      "instruction": "Di el nombre de cada dibujo y encierra la única palabra de arriba que se forma con esa palabra."
     },
     "root-word": {
       "title": "Encuentra la palabra primitiva",
-      "instruction": "Rodea la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
+      "instruction": "Encierra la parte que tienen en común las tres palabras y escribe la palabra primitiva en la piedra vacía."
     },
     "prefix-key": {
       "title": "Prefijos re-, pre- y sobre-: elige por el significado",

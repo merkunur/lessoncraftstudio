@@ -427,7 +427,7 @@
     },
     "F4": {
       "title": "Ordenstall fra begge sider: Start ved flagget",
-      "instruction": "Se etter flagget først: Det kan stå på begge sider. Start der, tell til tallet på hver brikke og lag merket."
+      "instruction": "Se etter flagget først: Det kan stå i den ene eller den andre enden. Start der, tell til tallet på hver brikke og lag merket."
     },
     "F5": {
       "title": "Hvem vinner løpet? Skriv plassen",

@@ -23,7 +23,7 @@
   "strings": {
     "G3-377": {
       "title": "Division med rest: ringa in högarna",
-      "instruction": "Ringa in högar med lika många som det andra talet i varje samling. Skriv hur många högar du fick och hur många bilder som blev över."
+      "instruction": "Ringa in grupper med lika många som det andra talet i varje samling. Skriv hur många grupper du fick och hur många bilder som blev över."
     },
     "F1": {
       "title": "Dela lika med rest: vad blir över?",
@@ -31,7 +31,7 @@
     },
     "F2": {
       "title": "Division med rest: räknerader",
-      "instruction": "Varje division får något över. Skriv svaret och resten på varje rad."
+      "instruction": "I varje division blir det något över. Skriv svaret och resten på varje rad."
     },
     "F3": {
       "title": "Går det jämnt ut? Division med och utan rest",

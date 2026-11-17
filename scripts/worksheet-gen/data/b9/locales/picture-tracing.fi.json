@@ -23,7 +23,7 @@
     "straight-lines": {
       "title": "Jäljennä kuvat suorin viivoin: alas, sivulle ja vinoon",
       "printTitle": "Alas, sivulle, vinoon",
-      "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä rivi kerrallaan: alas, sivulle ja vinoon."
+      "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä pystyrivi kerrallaan: alas, sivulle ja vinoon."
     },
     "zigzags": {
       "title": "Jäljennä siksakit: vuoret ja ukkonen teltan yllä",

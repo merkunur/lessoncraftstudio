@@ -1461,7 +1461,8 @@
             "standard": "W.3.8",
             "days": 2,
             "source": "new",
-            "page": "Writing page (research): two short information texts on one animal (about 150 words each) and a note-taking organizer with three category boxes (body, food, home) and a source line for each note. Level 1: the child copies key phrases into the boxes; level 2: notes in the child's own words; level 3: the child adds a fourth category of their own."
+            "page": "Writing page (research): two short information texts on one animal (about 150 words each) and a note-taking organizer with three category boxes (body, food, home) and a source line for each note. Level 1: the child copies key phrases into the boxes; level 2: notes in the child's own words; level 3: the child adds a fourth category of their own.",
+            "placed": "3:take-notes-and-sort"
           },
           {
             "new": true,
@@ -1470,7 +1471,8 @@
             "standard": "W.3.2.a",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a planner with an introduction box, three group boxes with a heading line each, and a picture box with a caption line. A checklist at the bottom: I introduced my topic. I grouped facts under headings. I added a picture with a caption. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+            "page": "Writing page (informative): a planner with an introduction box, three group boxes with a heading line each, and a picture box with a caption line. A checklist at the bottom: I introduced my topic. I grouped facts under headings. I added a picture with a caption. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank.",
+            "placed": "3:introduce-and-group"
           },
           {
             "new": true,
@@ -1479,7 +1481,8 @@
             "standard": "W.3.2.b",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a draft page with sixteen writing lines under three heading lines, with linking words in the margin (also, another, more, but) and a definition frame (A ___ is a ___ that ___.). A checklist at the bottom: Each part has facts. I defined a hard word. I used linking words. I wrote a concluding section. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (informative): a draft page with sixteen writing lines under three heading lines, with linking words in the margin (also, another, more, but) and a definition frame (A ___ is a ___ that ___.). A checklist at the bottom: Each part has facts. I defined a hard word. I used linking words. I wrote a concluding section. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "3:facts-definitions-details"
           },
           {
             "new": true,
@@ -1488,7 +1491,8 @@
             "standard": "W.3.7",
             "days": 3,
             "source": "new",
-            "page": "Writing page (research): a project sheet with a question box, notes from two given texts in three categories, a one-page report frame with a title, three headings and a diagram box, and a source list of two lines. Level 1: the texts are given and the categories named; level 2: the child names the categories; level 3: the child adds a third source from the class library."
+            "page": "Writing page (research): a project sheet with a question box, notes from two given texts in three categories, a one-page report frame with a title, three headings and a diagram box, and a source list of two lines. Level 1: the texts are given and the categories named; level 2: the child names the categories; level 3: the child adds a third source from the class library.",
+            "placed": "3:short-research-report"
           }
         ]
       },

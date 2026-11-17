@@ -3451,6 +3451,42 @@
     "words": "Model first: read The dog went to its bowl aloud, try raced, crept, and wandered in its place, and say which one paints the picture you mean. Children need the story draft they wrote in the time-words lesson. Say: \"Said, went, looked, nice, big, and good are tired words. A more exact word paints a clearer picture.\" Day 1, Choose a More Exact Word: four sentences with an underlined tired word and three words to circle; exactly one fits. On Level 1 the wrong words are of another kind; on Level 2 one wrong word is of the same group, but a clue in the sentence rules it out; on Level 3 both are. Then children circle the sentence that paints a clearer picture and write why. Day 2, Revise for Words That Work: a story with eight tired words and a box of more exact words for each. Level 1 underlines four and offers two words for each; Level 2 underlines all eight; on Level 3 children find them. Last, they circle three tired words in their own draft and write the sentences again.",
     "watch": "Ask: \"Which words in the sentence help you choose?\" On Day 2 more than one word of the box can fit; the key names them all. Only the six words in the box count as tired words. A new word must keep the meaning of the sentence."
    }
+  },
+  "3:take-notes-and-sort": {
+   "title": "Take notes and sort them",
+   "objective": "Children take brief notes from short print sources, keeping the key words, and sort the notes under headings.",
+   "note": {
+    "mistake": "Children copy whole sentences, or write a note that changes the fact. When they sort, some put a note under the first heading it reminds them of.",
+    "words": "Children need: finding the main facts of a short text. Model first: turn one sentence into a three-word note that keeps its key words, and sort three notes under two headings. Say: \"A note is a few words about one fact. We do not copy whole sentences. We keep the key words.\" Day 1, Choose and Sort Notes: for each sentence children circle the best note; one choice copies the sentence and one changes a fact. Then they write the number of each note about another topic under its heading: six notes and two headings on Level 1, nine and three on Level 2. On Level 3 they write their own note for one sentence, and one of ten notes fits no heading and is crossed out. Day 2, Take Notes and Sort Them: on Level 1 children copy the words in bold from Source A under their headings; on Level 2 they take notes from Sources A and B with the letter of each; Level 3 adds a heading of their own.",
+    "watch": "Ask, \"What is this note about?\" before a child sorts it. A good note keeps the fact true: check it against the sentence. On Day 2 the notes in the key are samples; accept any short, true note with its source letter. If both sources give a fact, either letter is right. On Level 3 accept any heading that names the leftover facts."
+   }
+  },
+  "3:introduce-and-group": {
+   "title": "Introduce a topic and group the facts",
+   "objective": "Children write an introduction that names the topic and group related information together, with a picture that helps the reader.",
+   "note": {
+    "mistake": "Children start with one fact, or with a question the piece never answers. When they group, some put a note under a heading because of one shared word.",
+    "words": "Children need: sorting notes under headings (Take notes and sort them). Model first: write two openings for a few notes (one fact, one about the whole topic), ask which tells what the piece is about, and name a group of notes. Say: \"An introduction tells what the whole piece is about. A heading names a group of facts that go together.\" Day 1, Introductions and Groups: for two model topics children circle the best introduction; the others are a detail, a sentence about another topic, and on Levels 2 and 3 a question the notes do not answer. Then they head each group of notes from the box; on Levels 2 and 3 one heading is left over, and on Level 3 one note in the wrong group is crossed out. Day 2, Plan Informative Writing: children write an introduction and each note under its heading, draw a picture with a caption, and tick the check list. Level 1 prints the headings and starts the introduction and the caption; Level 2 gives three heading words; Level 3 four.",
+    "watch": "Ask: does it name the topic and tell about all of it, or only one part? The detail is a true fact, so a child may like it best; point to the headings it leaves out. On Day 2 the key is a sample; accept others that fit the notes."
+   }
+  },
+  "3:facts-definitions-details": {
+   "title": "Facts, definitions, and details",
+   "objective": "Children develop each part of an informative piece with facts, definitions, and details, joined by linking words.",
+   "note": {
+    "mistake": "Children call every true sentence a fact, or call a sentence a definition because it has a hard word. When they write, many list facts and never tell what a hard word means.",
+    "words": "Children need: headings (Introduce a topic and group the facts). Model first: read a short paragraph aloud and label one fact, one definition, and one detail. Say: \"Each part starts with a fact. A definition tells what a word means. A detail tells more about the fact in its part.\" Day 1, Fact, Definition, or Detail?: children check the job of each sentence of a paragraph about a model topic, in parts: two parts in a table on Level 1, defined words in bold; three parts in a table on Level 2; numbered running text on Level 3. Then they add a definition and a detail to a fact. Day 2, Develop Your Topic: children write each part from its notes, define the word in one part, use linking words, and write a concluding sentence. Day 2 prints three definition frames (four on Level 3); Day 1 practices one definition and one detail. Level 1 prints the headings and starts every sentence; Level 2 starts each part;",
+    "watch": "Ask, \"Does this sentence tell what a word means? Does it tell more about the fact of its part?\" A detail can be a number, an example, or what something looks like. On Day 2 the key is a sample; accept any sentence that tells what the word means, with or without a frame."
+   }
+  },
+  "3:short-research-report": {
+   "title": "A short research report",
+   "objective": "Children answer a research question from two short sources: notes by category, then a short report with headings, a diagram, and sources.",
+   "note": {
+    "mistake": "Children take all their notes from one source, or copy sentences. In the report they list notes or leave out the concluding sentence or the sources.",
+    "words": "Children need the introduction, headings, and definitions of the last three lessons. Say: \"A research report answers a question with facts from two sources.\" Read the question and both texts aloud. Model first on another topic: one short note with its source letter. Before Day 2, model turning one note from A and one from B into two sentences under a heading, and copying a source title. Day 1, Notes from Two Sources: children note facts from A and B in the row of each category. Level 1 prints the categories; on Level 2 children name them; on Level 3 they also write the question. Days 2 and 3, Write a Research Report (same copy, same topic as Day 1): children write an introduction, three parts with headings, a concluding sentence, and the source titles, and draw a diagram with a caption. Levels 1 and 2 print one note from each source in each part; Level 3 uses the child's own notes.",
+    "watch": "Check each child's research question before they read: the sources must answer it. Each row needs a note from both sources; if both sources give a fact, either letter is right. If you can, add a third source: a class library book on the topic; children list it as C. The key is a sample."
+   }
   }
  }
 }

@@ -3908,6 +3908,47 @@
    ]
   },
   {
+   "id": "g3-informative-writing-and-research",
+   "slug": "informative-writing-and-research-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Informative Writing and Research",
+   "metaTitle": "Informative Writing and Research: Grade 3 Lessons",
+   "metaDescription": "Grade 3 lessons on informative writing and research: take notes from two sources, sort them under headings, introduce a topic, define words, and write a short report.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:take-notes-and-sort",
+     "types": [
+      "G3-556",
+      "G3-557"
+     ]
+    },
+    {
+     "point": "3:introduce-and-group",
+     "types": [
+      "G3-558",
+      "G3-559"
+     ]
+    },
+    {
+     "point": "3:facts-definitions-details",
+     "types": [
+      "G3-560",
+      "G3-561"
+     ]
+    },
+    {
+     "point": "3:short-research-report",
+     "types": [
+      "G3-562",
+      "G3-563"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g3-sentences-and-conventions",
    "slug": "sentences-and-conventions-grade-3-unit",
    "status": "live",
@@ -4147,6 +4188,7 @@
     "g3-reading-to-learn-informational-texts",
     "g3-opinion-writing",
     "g3-parts-of-speech",
+    "g3-informative-writing-and-research",
     "g3-sentences-and-conventions",
     "g3-narrative-writing"
    ]

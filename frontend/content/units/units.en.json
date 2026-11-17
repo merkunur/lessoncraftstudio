@@ -18627,6 +18627,180 @@
    ]
   },
   {
+   "id": "g3-informative-writing-and-research",
+   "slug": "informative-writing-and-research-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Informative Writing and Research",
+   "metaTitle": "Informative Writing and Research: Grade 3 Lessons",
+   "metaDescription": "Grade 3 lessons on informative writing and research: take notes from two sources, sort them under headings, introduce a topic, define words, and write a short report.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:take-notes-and-sort",
+     "title": "Take notes and sort them",
+     "objective": "Children take brief notes from short print sources, keeping the key words, and sort the notes under headings.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.3.8",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-556",
+       "title": "Choose and Sort Notes",
+       "core": "reading-comprehension-g3556",
+       "easy": "reading-comprehension-easy-g3556-6",
+       "hard": "reading-comprehension-hard-g3556-11"
+      },
+      {
+       "type": "G3-557",
+       "title": "Take Notes and Sort Them",
+       "core": "sentence-building-g3557",
+       "easy": "sentence-building-easy-g3557-6",
+       "hard": "sentence-building-hard-g3557-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3556-2",
+      "title": "Choose and Sort Notes"
+     },
+     "note": {
+      "mistake": "Children copy whole sentences, or write a note that changes the fact. When they sort, some put a note under the first heading it reminds them of.",
+      "words": "Children need: finding the main facts of a short text. Model first: turn one sentence into a three-word note that keeps its key words, and sort three notes under two headings. Say: \"A note is a few words about one fact. We do not copy whole sentences. We keep the key words.\" Day 1, Choose and Sort Notes: for each sentence children circle the best note; one choice copies the sentence and one changes a fact. Then they write the number of each note about another topic under its heading: six notes and two headings on Level 1, nine and three on Level 2. On Level 3 they write their own note for one sentence, and one of ten notes fits no heading and is crossed out. Day 2, Take Notes and Sort Them: on Level 1 children copy the words in bold from Source A under their headings; on Level 2 they take notes from Sources A and B with the letter of each; Level 3 adds a heading of their own.",
+      "watch": "Ask, \"What is this note about?\" before a child sorts it. A good note keeps the fact true: check it against the sentence. On Day 2 the notes in the key are samples; accept any short, true note with its source letter. If both sources give a fact, either letter is right. On Level 3 accept any heading that names the leftover facts."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:introduce-and-group",
+     "title": "Introduce a topic and group the facts",
+     "objective": "Children write an introduction that names the topic and group related information together, with a picture that helps the reader.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.3.2.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-558",
+       "title": "Introductions and Groups",
+       "core": "reading-comprehension-g3558",
+       "easy": "reading-comprehension-easy-g3558-6",
+       "hard": "reading-comprehension-hard-g3558-11"
+      },
+      {
+       "type": "G3-559",
+       "title": "Plan Informative Writing",
+       "core": "sentence-building-g3559",
+       "easy": "sentence-building-easy-g3559-6",
+       "hard": "sentence-building-hard-g3559-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3558-2",
+      "title": "Introductions and Groups"
+     },
+     "note": {
+      "mistake": "Children start with one fact, or with a question the piece never answers. When they group, some put a note under a heading because of one shared word.",
+      "words": "Children need: sorting notes under headings (Take notes and sort them). Model first: write two openings for a few notes (one fact, one about the whole topic), ask which tells what the piece is about, and name a group of notes. Say: \"An introduction tells what the whole piece is about. A heading names a group of facts that go together.\" Day 1, Introductions and Groups: for two model topics children circle the best introduction; the others are a detail, a sentence about another topic, and on Levels 2 and 3 a question the notes do not answer. Then they head each group of notes from the box; on Levels 2 and 3 one heading is left over, and on Level 3 one note in the wrong group is crossed out. Day 2, Plan Informative Writing: children write an introduction and each note under its heading, draw a picture with a caption, and tick the check list. Level 1 prints the headings and starts the introduction and the caption; Level 2 gives three heading words; Level 3 four.",
+      "watch": "Ask: does it name the topic and tell about all of it, or only one part? The detail is a true fact, so a child may like it best; point to the headings it leaves out. On Day 2 the key is a sample; accept others that fit the notes."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "3:facts-definitions-details",
+     "title": "Facts, definitions, and details",
+     "objective": "Children develop each part of an informative piece with facts, definitions, and details, joined by linking words.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.3.2.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-560",
+       "title": "Fact, Definition, or Detail?",
+       "core": "reading-comprehension-g3560",
+       "easy": "reading-comprehension-easy-g3560-6",
+       "hard": "reading-comprehension-hard-g3560-11"
+      },
+      {
+       "type": "G3-561",
+       "title": "Develop Your Topic",
+       "core": "sentence-building-g3561",
+       "easy": "sentence-building-easy-g3561-6",
+       "hard": "sentence-building-hard-g3561-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3560-2",
+      "title": "Fact, Definition, or Detail?"
+     },
+     "note": {
+      "mistake": "Children call every true sentence a fact, or call a sentence a definition because it has a hard word. When they write, many list facts and never tell what a hard word means.",
+      "words": "Children need: headings (Introduce a topic and group the facts). Model first: read a short paragraph aloud and label one fact, one definition, and one detail. Say: \"Each part starts with a fact. A definition tells what a word means. A detail tells more about the fact in its part.\" Day 1, Fact, Definition, or Detail?: children check the job of each sentence of a paragraph about a model topic, in parts: two parts in a table on Level 1, defined words in bold; three parts in a table on Level 2; numbered running text on Level 3. Then they add a definition and a detail to a fact. Day 2, Develop Your Topic: children write each part from its notes, define the word in one part, use linking words, and write a concluding sentence. Day 2 prints three definition frames (four on Level 3); Day 1 practices one definition and one detail. Level 1 prints the headings and starts every sentence; Level 2 starts each part;",
+      "watch": "Ask, \"Does this sentence tell what a word means? Does it tell more about the fact of its part?\" A detail can be a number, an example, or what something looks like. On Day 2 the key is a sample; accept any sentence that tells what the word means, with or without a frame."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:short-research-report",
+     "title": "A short research report",
+     "objective": "Children answer a research question from two short sources: notes by category, then a short report with headings, a diagram, and sources.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.3.7",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-562",
+       "title": "Notes from Two Sources",
+       "core": "reading-comprehension-g3562",
+       "easy": "reading-comprehension-easy-g3562-6",
+       "hard": "reading-comprehension-hard-g3562-11"
+      },
+      {
+       "type": "G3-563",
+       "title": "Write a Research Report",
+       "core": "sentence-building-g3563",
+       "easy": "sentence-building-easy-g3563-6",
+       "hard": "sentence-building-hard-g3563-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3562-2",
+      "title": "Notes from Two Sources"
+     },
+     "note": {
+      "mistake": "Children take all their notes from one source, or copy sentences. In the report they list notes or leave out the concluding sentence or the sources.",
+      "words": "Children need the introduction, headings, and definitions of the last three lessons. Say: \"A research report answers a question with facts from two sources.\" Read the question and both texts aloud. Model first on another topic: one short note with its source letter. Before Day 2, model turning one note from A and one from B into two sentences under a heading, and copying a source title. Day 1, Notes from Two Sources: children note facts from A and B in the row of each category. Level 1 prints the categories; on Level 2 children name them; on Level 3 they also write the question. Days 2 and 3, Write a Research Report (same copy, same topic as Day 1): children write an introduction, three parts with headings, a concluding sentence, and the source titles, and draw a diagram with a caption. Levels 1 and 2 print one note from each source in each part; Level 3 uses the child's own notes.",
+      "watch": "Check each child's research question before they read: the sources must answer it. Each row needs a note from both sources; if both sources give a fact, either letter is right. If you can, add a third source: a class library book on the topic; children list it as C. The key is a sample."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "g3-sentences-and-conventions",
    "slug": "sentences-and-conventions-grade-3-unit",
    "status": "live",
@@ -20372,9 +20546,9 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (19 Weeks)",
-   "metaDescription": "8 Grade 3 reading and language units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 19,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (21 Weeks)",
+   "metaDescription": "9 Grade 3 reading and language units in teaching order, about 21 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 21,
    "framework": "Common Core",
    "units": [
     {
@@ -20504,12 +20678,32 @@
      ]
     },
     {
+     "id": "g3-informative-writing-and-research",
+     "slug": "informative-writing-and-research-grade-3-unit",
+     "title": "Informative Writing and Research",
+     "weeks": 2,
+     "from": 15,
+     "to": 16,
+     "lessons": [
+      "Take notes and sort them",
+      "Introduce a topic and group the facts",
+      "Facts, definitions, and details",
+      "A short research report"
+     ],
+     "standards": [
+      "W.3.2.a",
+      "W.3.2.b",
+      "W.3.7",
+      "W.3.8"
+     ]
+    },
+    {
      "id": "g3-sentences-and-conventions",
      "slug": "sentences-and-conventions-grade-3-unit",
      "title": "Sentences and Conventions",
      "weeks": 3,
-     "from": 15,
-     "to": 17,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "Joining words: and, but, so, because, when",
       "Simple, compound, and complex sentences",
@@ -20530,8 +20724,8 @@
      "slug": "narrative-writing-grade-3-unit",
      "title": "Narrative Writing",
      "weeks": 2,
-     "from": 18,
-     "to": 19,
+     "from": 20,
+     "to": 21,
      "lessons": [
       "Plan a story: characters, setting, problem",
       "Dialogue and description",

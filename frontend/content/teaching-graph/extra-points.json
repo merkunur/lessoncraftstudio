@@ -869,6 +869,34 @@
    "strand": "Language",
    "code": "L.3.3.a",
    "skill": "Choose a more exact word for a tired word (said, went, nice, big, good, looked) by what the sentence tells, and revise a paragraph and sentences of one's own for word choice"
+  },
+  {
+   "tp": "3:take-notes-and-sort",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.8",
+   "skill": "Take brief notes on a source in one's own words and sort the notes under headings"
+  },
+  {
+   "tp": "3:introduce-and-group",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.2.a",
+   "skill": "Introduce a topic with a sentence that fits all the notes, group related facts under headings, and plan an informative piece"
+  },
+  {
+   "tp": "3:facts-definitions-details",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.2.b",
+   "skill": "Develop a topic with facts, a definition of a hard word, and details, joined by linking words, and end with a concluding sentence"
+  },
+  {
+   "tp": "3:short-research-report",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.7",
+   "skill": "Carry out a short research project: answer a research question with notes from two sources and write a short report with an introduction, three parts, a diagram, a concluding sentence and its sources"
   }
  ]
 }

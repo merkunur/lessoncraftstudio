@@ -3783,6 +3783,46 @@
    ],
    "by": "code"
   },
+  "3:take-notes-and-sort": {
+   "rows": [
+    {
+     "id": "W.3.8",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:introduce-and-group": {
+   "rows": [
+    {
+     "id": "W.3.2.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:facts-definitions-details": {
+   "rows": [
+    {
+     "id": "W.3.2.b",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:short-research-report": {
+   "rows": [
+    {
+     "id": "W.3.7",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:joining-words": {
    "rows": [
     {

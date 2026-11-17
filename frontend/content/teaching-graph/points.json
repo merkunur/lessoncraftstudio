@@ -8506,6 +8506,94 @@
    "prerequisites": []
   },
   {
+   "id": "3:take-notes-and-sort",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Take brief notes on a source in one's own words and sort the notes under headings",
+   "code": "W.3.8",
+   "types": [
+    "G3-556",
+    "G3-557"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 160,
+   "prerequisites": []
+  },
+  {
+   "id": "3:introduce-and-group",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Introduce a topic with a sentence that fits all the notes, group related facts under headings, and plan an informative piece",
+   "code": "W.3.2.a",
+   "types": [
+    "G3-558",
+    "G3-559"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 161,
+   "prerequisites": []
+  },
+  {
+   "id": "3:facts-definitions-details",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Develop a topic with facts, a definition of a hard word, and details, joined by linking words, and end with a concluding sentence",
+   "code": "W.3.2.b",
+   "types": [
+    "G3-560",
+    "G3-561"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 162,
+   "prerequisites": []
+  },
+  {
+   "id": "3:short-research-report",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Carry out a short research project: answer a research question with notes from two sources and write a short report with an introduction, three parts, a diagram, a concluding sentence and its sources",
+   "code": "W.3.7",
+   "types": [
+    "G3-562",
+    "G3-563"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 163,
+   "prerequisites": []
+  },
+  {
    "id": "3:joining-words",
    "grade": "3",
    "subject": "literacy",
@@ -8523,7 +8611,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 160,
+   "order": 164,
    "prerequisites": []
   },
   {
@@ -8544,7 +8632,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 161,
+   "order": 165,
    "prerequisites": []
   },
   {
@@ -8565,7 +8653,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 162,
+   "order": 166,
    "prerequisites": []
   },
   {
@@ -8586,7 +8674,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 163,
+   "order": 167,
    "prerequisites": []
   },
   {
@@ -8607,7 +8695,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 164,
+   "order": 168,
    "prerequisites": []
   },
   {
@@ -8629,7 +8717,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 165,
+   "order": 169,
    "prerequisites": []
   },
   {
@@ -8651,7 +8739,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 166,
+   "order": 170,
    "prerequisites": []
   },
   {
@@ -8672,7 +8760,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 167,
+   "order": 171,
    "prerequisites": []
   },
   {
@@ -8693,7 +8781,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 168,
+   "order": 172,
    "prerequisites": []
   },
   {

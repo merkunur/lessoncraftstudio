@@ -411,6 +411,14 @@
   "G3-568": "3:time-words-in-stories",
   "G3-569": "3:time-words-in-stories",
   "G3-570": "3:words-for-effect",
-  "G3-571": "3:words-for-effect"
+  "G3-571": "3:words-for-effect",
+  "G3-556": "3:take-notes-and-sort",
+  "G3-557": "3:take-notes-and-sort",
+  "G3-558": "3:introduce-and-group",
+  "G3-559": "3:introduce-and-group",
+  "G3-560": "3:facts-definitions-details",
+  "G3-561": "3:facts-definitions-details",
+  "G3-562": "3:short-research-report",
+  "G3-563": "3:short-research-report"
  }
 }

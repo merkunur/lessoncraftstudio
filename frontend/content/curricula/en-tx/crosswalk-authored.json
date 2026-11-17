@@ -5669,6 +5669,82 @@
    ],
    "why": "Replacing tired words with exact ones in a paragraph and in the child's own sentences is «revise drafts to improve sentence structure and word choice».",
    "review": "year-design 2026-11-17"
+  },
+  "3:take-notes-and-sort": {
+   "rows": [
+    {
+     "id": "ELAR.3.7.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.13.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing and writing a note of a few words for a sentence of a source and sorting notes under headings is «interact with sources in meaningful ways such as notetaking»; taking the notes a heading needs from one and from two printed sources is «identify and gather relevant information from a variety of sources».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:introduce-and-group": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling the planner (an introduction, three headings with their notes, a concluding sentence) is «plan a first draft ... using a range of strategies such as ... mapping»; choosing and writing the introduction that covers every group of notes is the introduction part of «organizing with purposeful structure, including an introduction and a conclusion»; the plan prepares «compose informational texts ... using a clear central idea».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:facts-definitions-details": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drafting the planned piece in three parts is «compose informational texts, including brief compositions that convey information about a topic»; adding a definition and details to each fact is «developing an engaging idea with relevant details»; the concluding sentence is the conclusion part of «organizing with purposeful structure, including an introduction and a conclusion».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:short-research-report": {
+   "rows": [
+    {
+     "id": "ELAR.3.13.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.13.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.13.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.3.13.G",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling the note chart from Source A and Source B for a research question is «identify and gather relevant information from a variety of sources»; writing the report from those notes is «demonstrate understanding of information gathered» and «compose informational texts»; writing the research question on Level 3 prepares «generate questions on a topic for formal and informal inquiry», and the line that names both sources prepares «create a works cited page».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

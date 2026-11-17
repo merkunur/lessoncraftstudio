@@ -4586,6 +4586,91 @@
    ],
    "by": "authored"
   },
+  "3:take-notes-and-sort": {
+   "rows": [
+    {
+     "id": "ELAR.3.7.E",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.13.C",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:introduce-and-group": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:facts-definitions-details": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:short-research-report": {
+   "rows": [
+    {
+     "id": "ELAR.3.13.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.13.E",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.12.B",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.13.A",
+     "rel": "prepares",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.13.G",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:joining-words": {
    "rows": [
     {

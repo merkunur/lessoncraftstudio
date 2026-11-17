@@ -1992,6 +1992,46 @@
    ],
    "by": "code"
   },
+  "K:book-parts": {
+   "rows": [
+    {
+     "id": "RI.K.5",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:left-to-right": {
+   "rows": [
+    {
+     "id": "RF.K.1.a",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:spoken-written-words": {
+   "rows": [
+    {
+     "id": "RF.K.1.b",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:spaces-between-words": {
+   "rows": [
+    {
+     "id": "RF.K.1.c",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:rhyme": {
    "rows": [
     {

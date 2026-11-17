@@ -387,6 +387,14 @@
   "G3-537": "3:subject-verb-agreement",
   "G2-549": "2:words-in-real-life",
   "G2-550": "2:words-in-real-life",
-  "G2-551": "2:adjective-or-adverb"
+  "G2-551": "2:adjective-or-adverb",
+  "K-665": "K:book-parts",
+  "K-666": "K:book-parts",
+  "K-667": "K:left-to-right",
+  "K-668": "K:left-to-right",
+  "K-669": "K:spoken-written-words",
+  "K-670": "K:spoken-written-words",
+  "K-671": "K:spaces-between-words",
+  "K-672": "K:spaces-between-words"
  }
 }

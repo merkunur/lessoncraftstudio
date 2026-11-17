@@ -2311,6 +2311,51 @@
    ],
    "by": "authored"
   },
+  "K:book-parts": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:left-to-right": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.ii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:spoken-written-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.iv",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.D.iii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:spaces-between-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.iii",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:rhyme": {
    "rows": [
     {

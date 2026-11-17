@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 34,
+    "taught": 37,
     "near": 0,
-    "open": 31,
-    "lessons": 43
+    "open": 28,
+    "lessons": 47
    },
    "groups": [
     {
@@ -2543,6 +2543,20 @@
        ]
       },
       {
+       "code": "RI.K.5",
+       "state": "taught",
+       "text": "Children find and name the front cover, the back cover, and the title page of a book and show where the story starts.",
+       "lessons": [
+        {
+         "unit": "how-books-and-print-work-kindergarten-unit",
+         "unitTitle": "How Books and Print Work",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "Front cover, back cover, and title page"
+        }
+       ]
+      },
+      {
        "code": "RI.K.7",
        "state": "taught",
        "text": "Children match each sentence of a fact text to the picture that goes with it and tell what the picture shows.",
@@ -2573,7 +2587,6 @@
      ],
      "open": [
       "RI.K.4",
-      "RI.K.5",
       "RI.K.6",
       "RI.K.8",
       "RI.K.10"
@@ -2583,21 +2596,44 @@
      "title": "Reading: Foundational Skills",
      "items": [
       {
+       "code": "RF.K.1.a",
+       "state": "taught",
+       "text": "Children follow printed words from left to right, top to bottom, and page by page while the teacher reads, pointing to each word.",
+       "lessons": [
+        {
+         "unit": "how-books-and-print-work-kindergarten-unit",
+         "unitTitle": "How Books and Print Work",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Read left to right, top to bottom"
+        }
+       ]
+      },
+      {
+       "code": "RF.K.1.b",
+       "state": "taught",
+       "text": "Children match each word they say in a short sentence to one written word on the page, pointing word by word.",
+       "lessons": [
+        {
+         "unit": "how-books-and-print-work-kindergarten-unit",
+         "unitTitle": "How Books and Print Work",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "One spoken word, one written word"
+        }
+       ]
+      },
+      {
        "code": "RF.K.1.c",
        "state": "taught",
        "text": "Children trace and copy words and short sentences from left to right, leaving a space between one word and the next.",
-       "papers": [
+       "lessons": [
         {
-         "title": "Picture Words",
-         "core": "picture-tracing-g1430"
-        },
-        {
-         "title": "Sight Words: Read, Trace, Write",
-         "core": "sight-words-k239"
-        },
-        {
-         "title": "Sight Words Practice Set 2",
-         "core": "sight-words-k259"
+         "unit": "how-books-and-print-work-kindergarten-unit",
+         "unitTitle": "How Books and Print Work",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Spaces between words: count the words"
         }
        ]
       },
@@ -2848,8 +2884,6 @@
       }
      ],
      "open": [
-      "RF.K.1.a",
-      "RF.K.1.b",
       "RF.K.2.c"
      ]
     },

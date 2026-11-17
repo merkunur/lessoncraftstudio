@@ -785,6 +785,34 @@
    "activities": [
     "wordclass.adjective-adverb.l-2-1-e"
    ]
+  },
+  {
+   "tp": "K:book-parts",
+   "grade": "K",
+   "strand": "Reading: Informational Text",
+   "code": "RI.K.5",
+   "skill": "Identify the front cover, the back cover, and the title page of a book, and find the title and the author on them"
+  },
+  {
+   "tp": "K:left-to-right",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.1.a",
+   "skill": "Follow print from left to right and from top to bottom, with the return sweep to the next line, and page by page"
+  },
+  {
+   "tp": "K:spoken-written-words",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.1.b",
+   "skill": "Match each spoken word to one written word, and tell a written word from a single letter and from a scribble"
+  },
+  {
+   "tp": "K:spaces-between-words",
+   "grade": "K",
+   "strand": "Foundational Skills",
+   "code": "RF.K.1.c",
+   "skill": "See that words are separated by spaces in print: count the words of a sentence and leave a finger space between words"
   }
  ]
 }

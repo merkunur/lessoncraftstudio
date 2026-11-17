@@ -5501,6 +5501,50 @@
    ],
    "why": "Choosing the adjective that tells about a noun is «adjectives, including articles». Texas names «adverbs that convey time and adverbs that convey place» in Grade 2; the adverbs of this lesson tell HOW something is done (quickly, bravely), which Texas names in Grade 3 (adverbs that convey manner).",
    "review": "year-design 2026-11-17"
+  },
+  "K:book-parts": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling the front cover, the title page and the back cover apart and making a cover and a title page of one's own is «identifying the front cover, back cover, and title page of a book».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:left-to-right": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Marking where reading starts and stops, drawing the arrow under each line and back to the next line, and numbering lines and pages is «knowing that reading moves from top to bottom and left to right with return sweep»; holding a book and turning its pages is done with a real book, as the note says.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:spoken-written-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling the word among a letter, a digit and a scribble is «recognizing the difference between a letter and a printed word»; putting one dot under each word of a sentence the teacher says is «recognizing word boundaries».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:spaces-between-words": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a line in each space, counting the words of a sentence, and gluing or copying words with finger spaces is «recognizing that sentences are comprised of words separated by spaces and recognizing word boundaries».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -4452,6 +4452,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the English vocabulary and grammar of Grade 2 (Part 12.3: describing words and the real things they describe, adjective or adverb); the adjective and adverb forms are English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "K:book-parts": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the print concepts of Kindergarten (Part 12.3: the parts of a book, reading left to right and top to bottom, one written word for each spoken word, the spaces between words); the direction of print and the pages are those of English books. Read it against the wording when the first literacy units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:left-to-right": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the print concepts of Kindergarten (Part 12.3: the parts of a book, reading left to right and top to bottom, one written word for each spoken word, the spaces between words); the direction of print and the pages are those of English books. Read it against the wording when the first literacy units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:spoken-written-words": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the print concepts of Kindergarten (Part 12.3: the parts of a book, reading left to right and top to bottom, one written word for each spoken word, the spaces between words); the direction of print and the pages are those of English books. Read it against the wording when the first literacy units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:spaces-between-words": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the print concepts of Kindergarten (Part 12.3: the parts of a book, reading left to right and top to bottom, one written word for each spoken word, the spaces between words); the direction of print and the pages are those of English books. Read it against the wording when the first literacy units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

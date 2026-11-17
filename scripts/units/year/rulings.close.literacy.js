@@ -22,10 +22,10 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
-    'K-001': B('a print-concepts mode of types/_shared/reader-book.js with an 8-page fold, title page, back cover and the three task levels'),
-    'K-002': C('New layout (print-concepts page), not a small change'),
-    'K-003': C('a box row under each K-552 sentence'),
-    'K-004': C('a count-the-words mode over the K-552/K-527 sentence bank'),
+    'K-001': N('K-665', 'built: Front Cover, Title Page, and Back Cover (the three parts of a drawn book to circle, to label by cut and glue, and the page where the story starts); with K-666 Make a Front Cover and a Title Page'),
+    'K-002': N('K-667', 'built: Read Left to Right, Top to Bottom (a green dot where reading starts, a red dot where it stops, an arrow under each line and back to the next line); with K-668 Number the Lines and the Pages'),
+    'K-003': N('K-669', 'built: One Spoken Word, One Written Word (the word among a letter, a digit and a scribble; one dot under each word of a sentence the teacher says); with K-670 Match the Word You Hear'),
+    'K-004': N('K-671', 'built: Spaces Between Words, Count the Words (a line in each space, the number of words); with K-672 Finger Spaces (the sentence that is easy to read, word cards to cut and glue with spaces)'),
     'K-005': C('change: an oral \'teacher says it\' mode with no letters and rime-controlled picture triples'),
     'K-008': N('K-661', 'built: Short a and Short i: words to read and match to pictures, the vowel to write, words to sort under a or i, the word to write for a picture'),
     'K-009': N('K-662', 'built: Short o, Short u, and Short e: words to read and match to pictures, the vowel to write, words to sort by vowel, the word to write for a picture'),

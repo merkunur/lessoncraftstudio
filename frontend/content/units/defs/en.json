@@ -2556,6 +2556,47 @@
    ]
   },
   {
+   "id": "k-how-books-and-print-work",
+   "slug": "how-books-and-print-work-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "How Books and Print Work",
+   "metaTitle": "How Books and Print Work: Kindergarten Print Concepts",
+   "metaDescription": "Kindergarten print concepts: the parts of a book, reading left to right and top to bottom, one written word for each spoken word, and the spaces between words.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:book-parts",
+     "types": [
+      "K-665",
+      "K-666"
+     ]
+    },
+    {
+     "point": "K:left-to-right",
+     "types": [
+      "K-667",
+      "K-668"
+     ]
+    },
+    {
+     "point": "K:spoken-written-words",
+     "types": [
+      "K-669",
+      "K-670"
+     ]
+    },
+    {
+     "point": "K:spaces-between-words",
+     "types": [
+      "K-671",
+      "K-672"
+     ]
+    }
+   ]
+  },
+  {
    "id": "k-first-words-to-read",
    "slug": "first-words-to-read-kindergarten-unit",
    "status": "live",
@@ -3962,6 +4003,7 @@
    "metaDescription": "{units} Kindergarten reading and writing units in teaching order, about {weeks} weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
    "units": [
     "k-letters-and-handwriting",
+    "k-how-books-and-print-work",
     "k-hearing-sounds-in-words",
     "k-first-words-to-read",
     "k-short-vowels-and-cvc-words",

@@ -2029,6 +2029,22 @@
    ],
    "by": "authored"
   },
+  "K:book-parts": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:left-to-right": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:spoken-written-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:spaces-between-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:rhyme": {
    "rows": [
     {

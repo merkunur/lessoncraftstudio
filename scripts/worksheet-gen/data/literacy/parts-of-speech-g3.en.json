@@ -1,0 +1,2479 @@
+{
+ "$comment": "Grade 3 unit Parts of Speech (G3-530..G3-537), English. Written by the scratch script bank.js; checked by types/_shared/parts-of-speech-g3.js when it loads.",
+ "names": [
+  "Leo",
+  "Mia",
+  "Omar",
+  "Priya",
+  "Ava",
+  "Diego",
+  "Kenji",
+  "Zoe",
+  "Malik",
+  "Lucy",
+  "Nora",
+  "Ben",
+  "Sam",
+  "Ella",
+  "Carlos",
+  "Rosa",
+  "Aisha",
+  "Jin",
+  "Amara",
+  "Hugo",
+  "Kai",
+  "Jada",
+  "Theo",
+  "Hana",
+  "Raj",
+  "Kim",
+  "Lily",
+  "Max",
+  "Ana",
+  "Amir"
+ ],
+ "pos": {
+  "label": [
+   "The tiny:A kitten:N drank:V warm:A milk:N.",
+   "Leo:N painted:V a green:A boat:N.",
+   "The tall:A giraffe:N ate:V fresh:A leaves:N.",
+   "Mia:N found:V a shiny:A shell:N.",
+   "The soup:N was:V hot:A.",
+   "Hungry:A bears:N caught:V big:A fish:N.",
+   "The old:A dog:N chased:V a red:A ball:N.",
+   "Omar:N built:V a huge:A castle:N.",
+   "The baby:N was:V sleepy:A.",
+   "Brave:A firefighters:N climbed:V the tall:A ladder:N.",
+   "The happy:A children:N planted:V tulips:N.",
+   "Priya:N wore:V a purple:A coat:N.",
+   "The lemons:N were:V sour:A.",
+   "A noisy:A parrot:N repeated:V funny:A words:N.",
+   "Diego:N carried:V a heavy:A box:N.",
+   "The clever:A fox:N tricked:V the hen:N.",
+   "Ava:N baked:V delicious:A muffins:N.",
+   "The ocean:N was:V calm:A.",
+   "Gray:A clouds:N covered:V the sun:N.",
+   "The new:A puppy:N chewed:V a sock:N.",
+   "Kenji:N drew:V a scary:A dragon:N.",
+   "The stars:N were:V bright:A.",
+   "A curious:A monkey:N grabbed:V the banana:N.",
+   "Zoe:N fixed:V the old:A kite:N.",
+   "The library:N was:V quiet:A.",
+   "Malik:N won:V a shiny:A medal:N.",
+   "Thirsty:A horses:N drank:V cool:A water:N.",
+   "The cookies:N were:V crunchy:A.",
+   "Lucy:N wrote:V a long:A letter:N.",
+   "The fluffy:A sheep:N munched:V green:A grass:N.",
+   "The pond:N was:V cold:A.",
+   "Nora:N picked:V ripe:A strawberries:N.",
+   "The sleepy:A owl:N blinked:V.",
+   "A small:A turtle:N crossed:V the road:N.",
+   "Sam:N kicked:V the muddy:A ball:N.",
+   "Ella:N hugged:V the fuzzy:A puppy:N.",
+   "She:P smiled:V happily:D.",
+   "They:P walked:V slowly:D.",
+   "We:P quietly:D opened:V the gift:N.",
+   "The puppy:N barked:V loudly:D.",
+   "He:P carefully:D carried:V the tall:A cake:N.",
+   "Mia:N gently:D held:V the tiny:A bird:N.",
+   "They:P never:D eat:V spicy:A food:N.",
+   "The kind:A nurse:N helped:V us:P.",
+   "Leo:N played:V the drums:N loudly:D.",
+   "She:P sang:V a sweet:A song:N softly:D.",
+   "The busy:A bees:N buzzed:V happily:D.",
+   "He:P quickly:D finished:V the tricky:A puzzle:N.",
+   "The friendly:A clown:N waved:V.",
+   "They:P cheered:V proudly:D.",
+   "Omar:N jumped:V bravely:D.",
+   "The silly:A monkey:N copied:V him:P.",
+   "We:P soon:D saw:V a bright:A rainbow:N.",
+   "They:P neatly:D folded:V the clean:A towels:N.",
+   "Priya:N thanked:V them:P politely:D.",
+   "The wind:N blew:V wildly:D.",
+   "He:P was:V lonely:A.",
+   "The lovely:A garden:N grew:V quickly:D.",
+   "Ava:N whispered:V softly:D.",
+   "I:P cleaned:V the messy:A room:N.",
+   "The bumpy:A toad:N hopped:V slowly:D.",
+   "She:P waved:V sadly:D.",
+   "They:P hugged:V me:P.",
+   "You:P laugh:V often:D.",
+   "We:P happily:D shared:V the warm:A bread:N.",
+   "Kenji:N calmly:D answered:V the tricky:A question:N.",
+   "The playful:A kittens:N chased:V it:P.",
+   "He:P found:V them:P quickly:D.",
+   "Carlos:N proudly:D showed:V us:P the shiny:A trophy:N.",
+   "The rain:N stopped:V suddenly:D.",
+   "She:P never:D forgets:V.",
+   "Rosa:N carefully:D painted:V the tiny:A shell:N.",
+   "They:P were:V hungry:A.",
+   "The curly:A puppy:N rolled:V happily:D.",
+   "We:P slowly:D climbed:V the steep:A hill:N.",
+   "The kind:A man:N helped:V him:P.",
+   "Ella:N quietly:D closed:V the door:N.",
+   "You:P sang:V beautifully:D.",
+   "The smelly:A socks:N were:V wet:A.",
+   "He:P gladly:D shared:V the juicy:A apples:N.",
+   "I:P always:D wash:V the dishes:N.",
+   "The chilly:A wind:N blew:V again:D.",
+   "Amir:N proudly:D showed:V them:P the huge:A pumpkin:N.",
+   "We:P always:D feed:V the hungry:A ducks:N.",
+   "The friendly:A nurse:N often:D helped:V us:P.",
+   "The lonely:A puppy:N sadly:D watched:V the busy:A street:N.",
+   "The silly:A clown:N juggled:V the red:A balls:N.",
+   "The curly:A poodle:N happily:D chased:V the ball:N.",
+   "The smelly:A skunk:N slowly:D crossed:V the road:N.",
+   "The chilly:A wind:N gently:D shook:V the trees:N.",
+   "He:P often:D tells:V silly:A jokes:N.",
+   "We:P quietly:D watched:V the lovely:A swans:N.",
+   "Mia:N gladly:D helped:V the lonely:A boy:N.",
+   "The friendly:A baker:N gave:V us:P warm:A bread:N.",
+   "They:P always:D eat:V crunchy:A apples:N."
+  ],
+  "own": [
+   "She:P quickly:D ate:V the red:A apple:N.",
+   "They:P happily:D painted:V the old:A fence:N.",
+   "He:P slowly:D opened:V the heavy:A door:N.",
+   "We:P loudly:D cheered:V the brave:A runners:N.",
+   "She:P gently:D brushed:V the shy:A pony:N.",
+   "They:P quietly:D watched:V the tiny:A fish:N.",
+   "I:P carefully:D carried:V the hot:A soup:N.",
+   "He:P proudly:D showed:V the shiny:A rock:N."
+  ],
+  "sort": {
+   "N": [
+    "teacher",
+    "kitten",
+    "apple",
+    "library",
+    "elephant",
+    "sister",
+    "giraffe",
+    "uncle",
+    "girl",
+    "boy",
+    "tiger",
+    "rabbit",
+    "spider",
+    "kitchen",
+    "window",
+    "pillow",
+    "carrot",
+    "turtle",
+    "puppy",
+    "cousin",
+    "pumpkin",
+    "planet",
+    "ocean",
+    "island",
+    "jacket",
+    "robot",
+    "piano",
+    "zoo",
+    "banana",
+    "zebra",
+    "owl",
+    "lion",
+    "aunt"
+   ],
+   "P": [
+    "I",
+    "you",
+    "he",
+    "she",
+    "it",
+    "we",
+    "they",
+    "me",
+    "him",
+    "us",
+    "them"
+   ],
+   "V": [
+    "ran",
+    "ate",
+    "sat",
+    "dug",
+    "hid",
+    "won",
+    "sang",
+    "swam",
+    "wrote",
+    "threw",
+    "laughed",
+    "shouted",
+    "climbed",
+    "jumped",
+    "giggled",
+    "sneezed",
+    "smiled",
+    "cried",
+    "slept",
+    "drank",
+    "chased",
+    "hopped",
+    "splashed",
+    "grabbed"
+   ],
+   "A": [
+    "tall",
+    "happy",
+    "tiny",
+    "huge",
+    "sleepy",
+    "hungry",
+    "funny",
+    "shiny",
+    "noisy",
+    "fluffy",
+    "sticky",
+    "bumpy",
+    "big",
+    "sad",
+    "new",
+    "old",
+    "cozy",
+    "silly",
+    "friendly",
+    "lovely",
+    "ugly",
+    "tasty",
+    "sunny",
+    "helpful",
+    "thirsty",
+    "angry",
+    "polite",
+    "proud",
+    "cute",
+    "curly",
+    "smelly",
+    "lonely",
+    "chilly"
+   ],
+   "D": [
+    "quickly",
+    "slowly",
+    "loudly",
+    "softly",
+    "gently",
+    "quietly",
+    "happily",
+    "sadly",
+    "neatly",
+    "bravely",
+    "proudly",
+    "politely",
+    "calmly",
+    "often",
+    "never",
+    "always",
+    "soon",
+    "again",
+    "now"
+   ]
+  },
+  "ownWords": {
+   "N": [
+    "pencil",
+    "farmer",
+    "garden",
+    "bridge",
+    "cupcake"
+   ],
+   "P": [
+    "you",
+    "we",
+    "they",
+    "she",
+    "he"
+   ],
+   "V": [
+    "danced",
+    "yelled",
+    "kicked",
+    "spoke",
+    "flew"
+   ],
+   "A": [
+    "gentle",
+    "messy",
+    "muddy",
+    "bright",
+    "fuzzy"
+   ],
+   "D": [
+    "wildly",
+    "warmly",
+    "firmly",
+    "gladly",
+    "deeply"
+   ]
+  }
+ },
+ "plural": {
+  "legend": [
+   [
+    "cat",
+    "cats"
+   ],
+   [
+    "box",
+    "boxes"
+   ],
+   [
+    "baby",
+    "babies"
+   ],
+   [
+    "leaf",
+    "leaves"
+   ],
+   [
+    "mouse",
+    "mice"
+   ]
+  ],
+  "nouns": [
+   {
+    "s": "bird",
+    "rule": 1,
+    "wrong": [
+     "birdes"
+    ],
+    "sent": "Three ___ sat on the fence.",
+    "p": "birds"
+   },
+   {
+    "s": "frog",
+    "rule": 1,
+    "wrong": [
+     "froges"
+    ],
+    "sent": "Five ___ jumped into the pond.",
+    "p": "frogs"
+   },
+   {
+    "s": "book",
+    "rule": 1,
+    "wrong": [
+     "bookes"
+    ],
+    "sent": "Ms. Diaz read us two ___ today.",
+    "p": "books"
+   },
+   {
+    "s": "kite",
+    "rule": 1,
+    "wrong": [],
+    "sent": "Many ___ flew over the beach.",
+    "p": "kites"
+   },
+   {
+    "s": "star",
+    "rule": 1,
+    "wrong": [],
+    "sent": "We counted ten ___ in the sky.",
+    "p": "stars"
+   },
+   {
+    "s": "sock",
+    "rule": 1,
+    "wrong": [
+     "sockes"
+    ],
+    "sent": "I found two ___ under my bed.",
+    "p": "socks"
+   },
+   {
+    "s": "plant",
+    "rule": 1,
+    "wrong": [
+     "plantes"
+    ],
+    "sent": "Our class has six ___ by the window.",
+    "p": "plants"
+   },
+   {
+    "s": "cake",
+    "rule": 1,
+    "wrong": [],
+    "sent": "Grandma baked two ___ for the party.",
+    "p": "cakes"
+   },
+   {
+    "s": "tree",
+    "rule": 1,
+    "wrong": [],
+    "sent": "Five tall ___ grow along our street.",
+    "p": "trees"
+   },
+   {
+    "s": "cup",
+    "rule": 1,
+    "wrong": [
+     "cupes"
+    ],
+    "sent": "Please put four ___ on the table.",
+    "p": "cups"
+   },
+   {
+    "s": "desk",
+    "rule": 1,
+    "wrong": [
+     "deskes"
+    ],
+    "sent": "Our room has twenty ___.",
+    "p": "desks"
+   },
+   {
+    "s": "lamp",
+    "rule": 1,
+    "wrong": [
+     "lampes"
+    ],
+    "sent": "Two ___ light up the hall.",
+    "p": "lamps"
+   },
+   {
+    "s": "rock",
+    "rule": 1,
+    "wrong": [
+     "rockes"
+    ],
+    "sent": "Jin found three smooth ___ at the lake.",
+    "p": "rocks"
+   },
+   {
+    "s": "flag",
+    "rule": 1,
+    "wrong": [
+     "flages"
+    ],
+    "sent": "Ten ___ hung over the street.",
+    "p": "flags"
+   },
+   {
+    "s": "hat",
+    "rule": 1,
+    "wrong": [],
+    "sent": "The two clowns wore funny ___.",
+    "p": "hats"
+   },
+   {
+    "s": "key",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "keies",
+     "keyes"
+    ],
+    "sent": "Dad lost both of his ___.",
+    "p": "keys"
+   },
+   {
+    "s": "toy",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "toies",
+     "toyes"
+    ],
+    "sent": "The twins put away all of their ___.",
+    "p": "toys"
+   },
+   {
+    "s": "day",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "daies",
+     "dayes"
+    ],
+    "sent": "Snow fell for three ___.",
+    "p": "days"
+   },
+   {
+    "s": "monkey",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "monkies",
+     "monkeyes"
+    ],
+    "sent": "Four ___ swung from the trees.",
+    "p": "monkeys"
+   },
+   {
+    "s": "donkey",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "donkies",
+     "donkeyes"
+    ],
+    "sent": "Two ___ pulled the cart.",
+    "p": "donkeys"
+   },
+   {
+    "s": "tray",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "traies",
+     "trayes"
+    ],
+    "sent": "The cooks carried three ___ of food.",
+    "p": "trays"
+   },
+   {
+    "s": "boy",
+    "rule": 1,
+    "ay": true,
+    "wrong": [
+     "boies",
+     "boyes"
+    ],
+    "sent": "Six ___ played catch in the yard.",
+    "p": "boys"
+   },
+   {
+    "s": "fox",
+    "rule": 2,
+    "wrong": [
+     "foxs"
+    ],
+    "sent": "Two ___ ran across the road.",
+    "p": "foxes"
+   },
+   {
+    "s": "lunch",
+    "rule": 2,
+    "wrong": [
+     "lunchs"
+    ],
+    "sent": "The cooks made fifty ___ today.",
+    "p": "lunches"
+   },
+   {
+    "s": "bench",
+    "rule": 2,
+    "wrong": [
+     "benchs"
+    ],
+    "sent": "The park has five ___ near the pond.",
+    "p": "benches"
+   },
+   {
+    "s": "peach",
+    "rule": 2,
+    "wrong": [
+     "peachs"
+    ],
+    "sent": "We picked six ___ from the tree.",
+    "p": "peaches"
+   },
+   {
+    "s": "beach",
+    "rule": 2,
+    "wrong": [
+     "beachs"
+    ],
+    "sent": "Florida has many sandy ___.",
+    "p": "beaches"
+   },
+   {
+    "s": "watch",
+    "rule": 2,
+    "wrong": [
+     "watchs"
+    ],
+    "sent": "The store had ten ___ in the window.",
+    "p": "watches"
+   },
+   {
+    "s": "brush",
+    "rule": 2,
+    "wrong": [
+     "brushs"
+    ],
+    "sent": "The art room needs twenty new ___.",
+    "p": "brushes"
+   },
+   {
+    "s": "dish",
+    "rule": 2,
+    "wrong": [
+     "dishs"
+    ],
+    "sent": "I washed eight ___ after dinner.",
+    "p": "dishes"
+   },
+   {
+    "s": "bush",
+    "rule": 2,
+    "wrong": [
+     "bushs"
+    ],
+    "sent": "Three ___ grow by the gate.",
+    "p": "bushes"
+   },
+   {
+    "s": "branch",
+    "rule": 2,
+    "wrong": [
+     "branchs"
+    ],
+    "sent": "The storm broke two ___ off the tree.",
+    "p": "branches"
+   },
+   {
+    "s": "sandwich",
+    "rule": 2,
+    "wrong": [
+     "sandwichs"
+    ],
+    "sent": "Dad packed three ___ for the trip.",
+    "p": "sandwiches"
+   },
+   {
+    "s": "inch",
+    "rule": 2,
+    "wrong": [
+     "inchs"
+    ],
+    "sent": "The worm was four ___ long.",
+    "p": "inches"
+   },
+   {
+    "s": "dress",
+    "rule": 2,
+    "wrong": [],
+    "sent": "My aunt sewed three ___.",
+    "p": "dresses"
+   },
+   {
+    "s": "glass",
+    "rule": 2,
+    "wrong": [],
+    "sent": "Mom filled four ___ with milk.",
+    "p": "glasses"
+   },
+   {
+    "s": "class",
+    "rule": 2,
+    "wrong": [],
+    "sent": "Two ___ went to the science museum.",
+    "p": "classes"
+   },
+   {
+    "s": "wish",
+    "rule": 2,
+    "wrong": [
+     "wishs"
+    ],
+    "sent": "Ana made three ___ on a star.",
+    "p": "wishes"
+   },
+   {
+    "s": "puppy",
+    "rule": 3,
+    "wrong": [
+     "puppys",
+     "puppyes"
+    ],
+    "sent": "Our dog had five ___.",
+    "p": "puppies"
+   },
+   {
+    "s": "pony",
+    "rule": 3,
+    "wrong": [
+     "ponys",
+     "ponyes"
+    ],
+    "sent": "Two ___ ate hay in the barn.",
+    "p": "ponies"
+   },
+   {
+    "s": "berry",
+    "rule": 3,
+    "wrong": [
+     "berrys",
+     "berryes"
+    ],
+    "sent": "Mia ate ten ___ for a snack.",
+    "p": "berries"
+   },
+   {
+    "s": "cherry",
+    "rule": 3,
+    "wrong": [
+     "cherrys",
+     "cherryes"
+    ],
+    "sent": "Three ___ sat on top of the cake.",
+    "p": "cherries"
+   },
+   {
+    "s": "city",
+    "rule": 3,
+    "wrong": [
+     "citys",
+     "cityes"
+    ],
+    "sent": "We visited two big ___ last summer.",
+    "p": "cities"
+   },
+   {
+    "s": "story",
+    "rule": 3,
+    "wrong": [
+     "storys",
+     "storyes"
+    ],
+    "sent": "Grandpa told us three ___.",
+    "p": "stories"
+   },
+   {
+    "s": "bunny",
+    "rule": 3,
+    "wrong": [
+     "bunnys",
+     "bunnyes"
+    ],
+    "sent": "Four ___ hopped across the yard.",
+    "p": "bunnies"
+   },
+   {
+    "s": "lady",
+    "rule": 3,
+    "wrong": [
+     "ladys",
+     "ladyes"
+    ],
+    "sent": "Two ___ waited at the bus stop.",
+    "p": "ladies"
+   },
+   {
+    "s": "party",
+    "rule": 3,
+    "wrong": [
+     "partys",
+     "partyes"
+    ],
+    "sent": "I went to two birthday ___ this month.",
+    "p": "parties"
+   },
+   {
+    "s": "fly",
+    "rule": 3,
+    "wrong": [
+     "flys",
+     "flyes"
+    ],
+    "sent": "Three ___ buzzed around the trash can.",
+    "p": "flies"
+   },
+   {
+    "s": "daisy",
+    "rule": 3,
+    "wrong": [
+     "daisys",
+     "daisyes"
+    ],
+    "sent": "Kim picked five ___ for her mom.",
+    "p": "daisies"
+   },
+   {
+    "s": "penny",
+    "rule": 3,
+    "wrong": [
+     "pennys",
+     "pennyes"
+    ],
+    "sent": "I saved fifty ___ in my jar.",
+    "p": "pennies"
+   },
+   {
+    "s": "family",
+    "rule": 3,
+    "wrong": [
+     "familys",
+     "familyes"
+    ],
+    "sent": "Six ___ came to the picnic.",
+    "p": "families"
+   },
+   {
+    "s": "wolf",
+    "rule": 4,
+    "wrong": [
+     "wolfs",
+     "wolfes"
+    ],
+    "sent": "We heard three ___ howl at night.",
+    "p": "wolves"
+   },
+   {
+    "s": "knife",
+    "rule": 4,
+    "wrong": [
+     "knifes",
+     "knifs"
+    ],
+    "sent": "Please set four ___ on the table.",
+    "p": "knives"
+   },
+   {
+    "s": "life",
+    "rule": 4,
+    "wrong": [
+     "lifes",
+     "lifs"
+    ],
+    "sent": "My game gives each player three ___.",
+    "p": "lives"
+   },
+   {
+    "s": "shelf",
+    "rule": 4,
+    "wrong": [
+     "shelfs",
+     "shelfes"
+    ],
+    "sent": "Our classroom has five tall ___.",
+    "p": "shelves"
+   },
+   {
+    "s": "half",
+    "rule": 4,
+    "wrong": [
+     "halfs",
+     "halfes"
+    ],
+    "sent": "Mom cut the apple into two ___.",
+    "p": "halves"
+   },
+   {
+    "s": "calf",
+    "rule": 4,
+    "wrong": [
+     "calfes",
+     "calvs"
+    ],
+    "sent": "Two little ___ drank milk on the farm.",
+    "p": "calves"
+   },
+   {
+    "s": "loaf",
+    "rule": 4,
+    "wrong": [
+     "loafs",
+     "loafes"
+    ],
+    "sent": "The baker made six ___ of bread.",
+    "p": "loaves"
+   },
+   {
+    "s": "woman",
+    "rule": 5,
+    "wrong": [
+     "womans",
+     "womens"
+    ],
+    "sent": "Three ___ ran in the race.",
+    "p": "women"
+   },
+   {
+    "s": "child",
+    "rule": 5,
+    "wrong": [
+     "childs",
+     "childrens"
+    ],
+    "sent": "Twenty ___ rode the bus.",
+    "p": "children"
+   },
+   {
+    "s": "foot",
+    "rule": 5,
+    "wrong": [
+     "foots",
+     "feets"
+    ],
+    "sent": "My dog has four ___.",
+    "p": "feet"
+   },
+   {
+    "s": "tooth",
+    "rule": 5,
+    "wrong": [
+     "tooths",
+     "teeths"
+    ],
+    "sent": "My little sister has two new ___.",
+    "p": "teeth"
+   },
+   {
+    "s": "goose",
+    "rule": 5,
+    "wrong": [],
+    "sent": "Five ___ swam across the lake.",
+    "p": "geese"
+   },
+   {
+    "s": "sheep",
+    "rule": 5,
+    "wrong": [
+     "sheeps",
+     "sheepes"
+    ],
+    "sent": "The farmer has ten ___.",
+    "p": "sheep"
+   },
+   {
+    "s": "deer",
+    "rule": 5,
+    "wrong": [],
+    "sent": "We saw three ___ in the woods.",
+    "p": "deer"
+   }
+  ]
+ },
+ "past": {
+  "legend": [
+   [
+    "jump",
+    "jumped"
+   ],
+   [
+    "like",
+    "liked"
+   ],
+   [
+    "stop",
+    "stopped"
+   ],
+   [
+    "cry",
+    "cried"
+   ],
+   [
+    "go",
+    "went"
+   ]
+  ],
+  "verbs": [
+   {
+    "b": "help",
+    "p": "helped",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, Ana ___ her grandpa."
+   },
+   {
+    "b": "kick",
+    "p": "kicked",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, Omar ___ the ball into the net."
+   },
+   {
+    "b": "paint",
+    "p": "painted",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last summer, we ___ the fence white."
+   },
+   {
+    "b": "wash",
+    "p": "washed",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last night, I ___ the dishes."
+   },
+   {
+    "b": "cook",
+    "p": "cooked",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, Dad ___ rice and beans."
+   },
+   {
+    "b": "climb",
+    "p": "climbed",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last week, the cat ___ a tall tree."
+   },
+   {
+    "b": "stay",
+    "p": "stayed",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last night, we ___ at Grandma's house."
+   },
+   {
+    "b": "enjoy",
+    "p": "enjoyed",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last summer, the kids ___ the pool."
+   },
+   {
+    "b": "melt",
+    "p": "melted",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, the snowman ___ in the sun."
+   },
+   {
+    "b": "plant",
+    "p": "planted",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last spring, our class ___ sunflowers."
+   },
+   {
+    "b": "fill",
+    "p": "filled",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, Kai ___ the bird feeder."
+   },
+   {
+    "b": "rest",
+    "p": "rested",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, the runners ___ in the shade."
+   },
+   {
+    "b": "pull",
+    "p": "pulled",
+    "kind": "R",
+    "move": 1,
+    "sent": "Last week, the horses ___ a heavy wagon."
+   },
+   {
+    "b": "push",
+    "p": "pushed",
+    "kind": "R",
+    "move": 1,
+    "sent": "Yesterday, I ___ my sister on the swing."
+   },
+   {
+    "b": "bake",
+    "p": "baked",
+    "kind": "R",
+    "move": 2,
+    "sent": "Yesterday, Mia ___ a cake."
+   },
+   {
+    "b": "smile",
+    "p": "smiled",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last week, the baby ___ for the first time."
+   },
+   {
+    "b": "dance",
+    "p": "danced",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last night, everyone ___ at the party."
+   },
+   {
+    "b": "skate",
+    "p": "skated",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last winter, we ___ on the frozen pond."
+   },
+   {
+    "b": "wave",
+    "p": "waved",
+    "kind": "R",
+    "move": 2,
+    "sent": "Yesterday, Ben ___ to the bus driver."
+   },
+   {
+    "b": "close",
+    "p": "closed",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last night, Mom ___ all the windows."
+   },
+   {
+    "b": "share",
+    "p": "shared",
+    "kind": "R",
+    "move": 2,
+    "sent": "Yesterday, Ava ___ her crayons with me."
+   },
+   {
+    "b": "chase",
+    "p": "chased",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last week, our dog ___ a squirrel."
+   },
+   {
+    "b": "race",
+    "p": "raced",
+    "kind": "R",
+    "move": 2,
+    "sent": "Yesterday, the boys ___ to the swings."
+   },
+   {
+    "b": "rake",
+    "p": "raked",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last fall, we ___ the leaves."
+   },
+   {
+    "b": "invite",
+    "p": "invited",
+    "kind": "R",
+    "move": 2,
+    "sent": "Last month, Priya ___ ten friends."
+   },
+   {
+    "b": "tape",
+    "p": "taped",
+    "kind": "R",
+    "move": 2,
+    "sent": "Yesterday, Raj ___ a sign to the door."
+   },
+   {
+    "b": "hop",
+    "p": "hopped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, the bunny ___ across the yard."
+   },
+   {
+    "b": "clap",
+    "p": "clapped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, the audience ___ for the singers."
+   },
+   {
+    "b": "drop",
+    "p": "dropped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last week, I ___ my lunch tray."
+   },
+   {
+    "b": "grab",
+    "p": "grabbed",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, Leo ___ his coat from the hook."
+   },
+   {
+    "b": "hug",
+    "p": "hugged",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last night, Dad ___ me at the door."
+   },
+   {
+    "b": "nod",
+    "p": "nodded",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, the teacher ___ at my answer."
+   },
+   {
+    "b": "skip",
+    "p": "skipped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last week, we ___ rocks on the lake."
+   },
+   {
+    "b": "step",
+    "p": "stepped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, I ___ in a big puddle."
+   },
+   {
+    "b": "trip",
+    "p": "tripped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last week, Sam ___ on his shoelace."
+   },
+   {
+    "b": "chop",
+    "p": "chopped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last night, Grandpa ___ carrots."
+   },
+   {
+    "b": "jog",
+    "p": "jogged",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, my mom ___ around the park."
+   },
+   {
+    "b": "plan",
+    "p": "planned",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last month, our class ___ a bake sale."
+   },
+   {
+    "b": "wag",
+    "p": "wagged",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, the puppy ___ its tail."
+   },
+   {
+    "b": "shop",
+    "p": "shopped",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last weekend, we ___ for new shoes."
+   },
+   {
+    "b": "tug",
+    "p": "tugged",
+    "kind": "R",
+    "move": 3,
+    "sent": "Yesterday, the kitten ___ on the yarn."
+   },
+   {
+    "b": "scrub",
+    "p": "scrubbed",
+    "kind": "R",
+    "move": 3,
+    "sent": "Last Saturday, we ___ the kitchen floor."
+   },
+   {
+    "b": "carry",
+    "p": "carried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Yesterday, Diego ___ the heavy box."
+   },
+   {
+    "b": "try",
+    "p": "tried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Last week, I ___ sushi for the first time."
+   },
+   {
+    "b": "dry",
+    "p": "dried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Yesterday, the sun ___ our wet towels."
+   },
+   {
+    "b": "fry",
+    "p": "fried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Last night, Dad ___ some eggs."
+   },
+   {
+    "b": "hurry",
+    "p": "hurried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Yesterday, we ___ to the bus."
+   },
+   {
+    "b": "worry",
+    "p": "worried",
+    "kind": "R",
+    "move": 4,
+    "sent": "Last week, Mom ___ about the storm."
+   },
+   {
+    "b": "copy",
+    "p": "copied",
+    "kind": "R",
+    "move": 4,
+    "sent": "Yesterday, we ___ our spelling words."
+   },
+   {
+    "b": "study",
+    "p": "studied",
+    "kind": "R",
+    "move": 4,
+    "sent": "Last night, Jin ___ for his spelling test."
+   },
+   {
+    "b": "empty",
+    "p": "emptied",
+    "kind": "R",
+    "move": 4,
+    "sent": "Yesterday, I ___ the trash can."
+   },
+   {
+    "b": "tidy",
+    "p": "tidied",
+    "kind": "R",
+    "move": 4,
+    "sent": "Last night, Nora ___ her room."
+   },
+   {
+    "b": "see",
+    "p": "saw",
+    "kind": "I",
+    "sent": "Yesterday, I ___ a rainbow."
+   },
+   {
+    "b": "eat",
+    "p": "ate",
+    "kind": "I",
+    "sent": "Last night, we ___ tacos for dinner."
+   },
+   {
+    "b": "run",
+    "p": "ran",
+    "kind": "I",
+    "sent": "Yesterday, Aisha ___ in a race."
+   },
+   {
+    "b": "come",
+    "p": "came",
+    "kind": "I",
+    "sent": "Last week, my cousin ___ to visit."
+   },
+   {
+    "b": "say",
+    "p": "said",
+    "kind": "I",
+    "sent": "Yesterday, the teacher ___ hello to us."
+   },
+   {
+    "b": "take",
+    "p": "took",
+    "kind": "I",
+    "sent": "Last week, Dad ___ us to the zoo."
+   },
+   {
+    "b": "give",
+    "p": "gave",
+    "kind": "I",
+    "sent": "Yesterday, Grandma ___ me a new book."
+   },
+   {
+    "b": "make",
+    "p": "made",
+    "kind": "I",
+    "sent": "Last night, Mom ___ soup."
+   },
+   {
+    "b": "find",
+    "p": "found",
+    "kind": "I",
+    "sent": "Yesterday, Leo ___ a coin on the sidewalk."
+   },
+   {
+    "b": "tell",
+    "p": "told",
+    "kind": "I",
+    "sent": "Last night, Grandpa ___ us a funny story."
+   },
+   {
+    "b": "write",
+    "p": "wrote",
+    "kind": "I",
+    "sent": "Last week, I ___ a letter to my aunt."
+   },
+   {
+    "b": "know",
+    "p": "knew",
+    "kind": "I",
+    "sent": "Last year, I ___ every word of that song."
+   },
+   {
+    "b": "throw",
+    "p": "threw",
+    "kind": "I",
+    "sent": "Yesterday, Kai ___ the ball to me."
+   },
+   {
+    "b": "grow",
+    "p": "grew",
+    "kind": "I",
+    "sent": "Last summer, my sunflower ___ tall."
+   },
+   {
+    "b": "draw",
+    "p": "drew",
+    "kind": "I",
+    "sent": "Yesterday, Rosa ___ a picture of her cat."
+   },
+   {
+    "b": "fly",
+    "p": "flew",
+    "kind": "I",
+    "sent": "Last night, a bat ___ over our yard."
+   },
+   {
+    "b": "sing",
+    "p": "sang",
+    "kind": "I",
+    "sent": "Yesterday, our class ___ a funny song."
+   },
+   {
+    "b": "ring",
+    "p": "rang",
+    "kind": "I",
+    "sent": "Yesterday, the bell ___ at three o'clock."
+   },
+   {
+    "b": "swim",
+    "p": "swam",
+    "kind": "I",
+    "sent": "Last summer, I ___ in the lake."
+   },
+   {
+    "b": "begin",
+    "p": "began",
+    "kind": "I",
+    "sent": "Yesterday, the show ___ at noon."
+   },
+   {
+    "b": "drink",
+    "p": "drank",
+    "kind": "I",
+    "sent": "Last night, the baby ___ all of her milk."
+   },
+   {
+    "b": "bring",
+    "p": "brought",
+    "kind": "I",
+    "sent": "Yesterday, Amara ___ cookies to school."
+   },
+   {
+    "b": "buy",
+    "p": "bought",
+    "kind": "I",
+    "sent": "Last week, Mom ___ a new rug."
+   },
+   {
+    "b": "catch",
+    "p": "caught",
+    "kind": "I",
+    "sent": "Yesterday, Omar ___ a big fish."
+   },
+   {
+    "b": "teach",
+    "p": "taught",
+    "kind": "I",
+    "sent": "Last year, Ms. Lee ___ us a new song."
+   },
+   {
+    "b": "think",
+    "p": "thought",
+    "kind": "I",
+    "sent": "Yesterday, I ___ about my old friend."
+   },
+   {
+    "b": "keep",
+    "p": "kept",
+    "kind": "I",
+    "sent": "Last winter, the blanket ___ me warm."
+   },
+   {
+    "b": "sleep",
+    "p": "slept",
+    "kind": "I",
+    "sent": "Last night, the puppy ___ on my bed."
+   },
+   {
+    "b": "feel",
+    "p": "felt",
+    "kind": "I",
+    "sent": "Yesterday, I ___ sick."
+   },
+   {
+    "b": "leave",
+    "p": "left",
+    "kind": "I",
+    "sent": "Last night, we ___ the party at eight."
+   },
+   {
+    "b": "sit",
+    "p": "sat",
+    "kind": "I",
+    "sent": "Yesterday, Ella ___ next to me at lunch."
+   },
+   {
+    "b": "stand",
+    "p": "stood",
+    "kind": "I",
+    "sent": "Last week, we ___ in line for the slide."
+   },
+   {
+    "b": "fall",
+    "p": "fell",
+    "kind": "I",
+    "sent": "Last night, snow ___ on the town."
+   },
+   {
+    "b": "hear",
+    "p": "heard",
+    "kind": "I",
+    "sent": "Last night, we ___ an owl."
+   },
+   {
+    "b": "hold",
+    "p": "held",
+    "kind": "I",
+    "sent": "Yesterday, I ___ a baby chick."
+   },
+   {
+    "b": "build",
+    "p": "built",
+    "kind": "I",
+    "sent": "Last weekend, we ___ a fort."
+   },
+   {
+    "b": "ride",
+    "p": "rode",
+    "kind": "I",
+    "sent": "Yesterday, Ben ___ his bike to the park."
+   },
+   {
+    "b": "drive",
+    "p": "drove",
+    "kind": "I",
+    "sent": "Last summer, Dad ___ us to the lake."
+   },
+   {
+    "b": "speak",
+    "p": "spoke",
+    "kind": "I",
+    "sent": "Yesterday, the mayor ___ to our class."
+   },
+   {
+    "b": "break",
+    "p": "broke",
+    "kind": "I",
+    "sent": "Last week, I ___ my pencil."
+   },
+   {
+    "b": "choose",
+    "p": "chose",
+    "kind": "I",
+    "sent": "Yesterday, Nora ___ a red balloon."
+   },
+   {
+    "b": "wear",
+    "p": "wore",
+    "kind": "I",
+    "sent": "Last night, Jada ___ her new pajamas."
+   },
+   {
+    "b": "forget",
+    "p": "forgot",
+    "kind": "I",
+    "sent": "Yesterday, I ___ my lunch at home."
+   }
+  ],
+  "stories": [
+   {
+    "id": "pet-day",
+    "level": 1,
+    "title": "Pet Day",
+    "text": "Leo {walks|walked} his dog to school for Pet Day. The dog {wags|wagged} its tail at every child. Leo {shows|showed} the class a trick. He {claps|clapped} two times, and the dog {hops|hopped} into the air. The children {laugh|laughed} and {cheer|cheered}. Then the dog {rolls|rolled} over. Leo {hugs|hugged} his dog. The teacher {smiles|smiled} and {thanks|thanked} Leo. After school, the dog {pulls|pulled} Leo all the way home."
+   },
+   {
+    "id": "garden",
+    "level": 1,
+    "title": "The Garden",
+    "text": "Every spring, Ana {plants|planted} seeds with her grandpa. They {rake|raked} the dirt and {water|watered} the rows. Ana {drops|dropped} three seeds in each hole. Grandpa {covers|covered} them with soil. Every morning, Ana {checks|checked} the garden. One day, she {spots|spotted} a tiny green sprout. She {shouts|shouted} for Grandpa. He {hurries|hurried} outside, and they both {smile|smiled}. Soon the sprout {turns|turned} into a tall plant. In July, Ana {picks|picked} her first bean."
+   },
+   {
+    "id": "snow-fort",
+    "level": 1,
+    "title": "The Snow Fort",
+    "text": "After the storm, Omar and his sister {race|raced} outside. They {pile|piled} snow into a tall wall. Omar {pats|patted} the sides flat. His sister {adds|added} a little window. Cold air {nips|nipped} their noses. They {stomp|stomped} their boots and {laugh|laughed}. Then Dad {calls|called} them in. They {rush|rushed} to the door and {warm|warmed} their hands. Mom {hands|handed} them two mugs of cocoa, and they {watch|watched} the snow from the window."
+   },
+   {
+    "id": "mitten",
+    "level": 1,
+    "title": "The Lost Mitten",
+    "text": "Kim {drops|dropped} a red mitten on the way to school. She {looks|looked} under the bench. She {searches|searched} near the slide. Her friend Raj {helps|helped} her. They {check|checked} the box by the office door. Then Raj {points|pointed} at the fence. The mitten {rests|rested} on a post. Kim {grabs|grabbed} it and {thanks|thanked} Raj. They {skip|skipped} back to class. Kim {pulls|pulled} the mitten onto her hand. Her fingers {warm|warmed} up right away."
+   },
+   {
+    "id": "rainy-day",
+    "level": 1,
+    "title": "A Rainy Day",
+    "text": "Rain {pours|poured} down all morning. Jada and her brother {stay|stayed} inside. They {color|colored} pictures and {work|worked} on a puzzle. Jada {bakes|baked} cookies with Mom. Her brother {mixes|mixed} the dough. The cookies {cool|cooled} on a rack. Later the sun {peeks|peeked} out. The children {hurry|hurried} outside and {splash|splashed} in the puddles. Their boots {squish|squished} in the mud. At six, Mom {calls|called} them in for dinner."
+   },
+   {
+    "id": "science-fair",
+    "level": 1,
+    "title": "The Science Fair",
+    "text": "Diego {plans|planned} a project for the science fair. He {fills|filled} three cups with water. He {adds|added} salt to one cup. Then he {drops|dropped} an egg into each cup. The egg in the salty water {floats|floated}. The other eggs {rest|rested} on the bottom. Diego {records|recorded} each result. The judges {study|studied} his chart and {nod|nodded}. Diego {explains|explained} his idea to the judges. They {listen|listened} closely. At the end of the day, he {receives|received} a blue ribbon."
+   },
+   {
+    "id": "moving-day",
+    "level": 1,
+    "title": "Moving Day",
+    "text": "The Lee family {moves|moved} to a new house. Mom and Dad {carry|carried} big boxes. Ben {packs|packed} his toys in a bag. He {tapes|taped} the bag shut. The truck {arrives|arrived} at noon. Two workers {load|loaded} the couch. Ben {waves|waved} goodbye to his old room. At the new house, he {unpacks|unpacked} his bag and {smiles|smiled}. That night, he {arranges|arranged} his books on a shelf. Then he {yawns|yawned} and {crawls|crawled} into bed."
+   },
+   {
+    "id": "kite",
+    "level": 1,
+    "title": "The Kite",
+    "text": "On a windy day, Zoe and her dad {walk|walked} to the hill. Zoe {unrolls|unrolled} the string. Dad {lifts|lifted} the kite high. Zoe {pulls|pulled} the string, and the kite {climbs|climbed} into the sky. It {dips|dipped} and {twirls|twirled}. Zoe {giggles|giggled}. Then the wind {fades|faded}, and the kite {drifts|drifted} down. Zoe {races|raced} after it and {asks|asked} for one more try."
+   },
+   {
+    "id": "bake-sale",
+    "level": 1,
+    "title": "The Bake Sale",
+    "text": "Our class {plans|planned} a bake sale. Lily {decorates|decorated} a big sign. Sam {arranges|arranged} the muffins on a tray. Parents {visit|visited} the table. They {pick|picked} treats and {drop|dropped} coins in a jar. At the end of the day, we {count|counted} the money. We {raise|raised} enough for new books. Everyone {cheers|cheered}. Our teacher {thanks|thanked} the parents. Then we {clean|cleaned} up the table."
+   },
+   {
+    "id": "puppy",
+    "level": 1,
+    "title": "A New Puppy",
+    "text": "Max {spots|spotted} a puppy at the shelter. It {licks|licked} his hand. Max {asks|asked} his mom about it. She {agrees|agreed}. They {fill|filled} out a form. The puppy {wiggles|wiggled} in his arms. At home, Max {names|named} it Biscuit. Biscuit {sniffs|sniffed} every corner and {yawns|yawned}. Then Biscuit {curls|curled} up on the rug. Max {smiles|smiled} and {pats|patted} his new friend."
+   },
+   {
+    "id": "field-day",
+    "level": 1,
+    "title": "Field Day",
+    "text": "On Field Day, the students {line|lined} up on the grass. Coach Green {waves|waved} a flag. The runners {dash|dashed} across the field. Aisha {passes|passed} two other runners. She {crosses|crossed} the finish line first. Her friends {clap|clapped} and {cheer|cheered}. Later, everyone {tugs|tugged} on a long rope and {rests|rested} in the shade. Coach Green {hands|handed} out ribbons. Aisha {pins|pinned} hers to her shirt."
+   },
+   {
+    "id": "bike",
+    "level": 1,
+    "title": "Fixing the Bike",
+    "text": "Carlos {notices|noticed} a flat tire on his bike. He {asks|asked} his uncle for help. They {remove|removed} the wheel. His uncle {patches|patched} the hole. Carlos {pumps|pumped} air into the tire. They {attach|attached} the wheel again. Carlos {tests|tested} the bike on the street. It {rolls|rolled} along. He {thanks|thanked} his uncle. The next day, Carlos {zooms|zoomed} down the hill. The wind {whistles|whistled} past his ears."
+   },
+   {
+    "id": "beach",
+    "level": 1,
+    "title": "A Day at the Beach",
+    "text": "The Patels {arrive|arrived} at the beach in the morning. Priya {fills|filled} a bucket with sand. Her brother {shapes|shaped} a tower. Waves {splash|splashed} near their feet. They {collect|collected} shells and {stack|stacked} them on the tower. A crab {crawls|crawled} past. Priya {screams|screamed}, and then she {laughs|laughed}. At noon, Dad {unpacks|unpacked} the cooler. They {munch|munched} on grapes and {relax|relaxed} under an umbrella."
+   },
+   {
+    "id": "class-plant",
+    "level": 1,
+    "title": "The Class Plant",
+    "text": "Our class {cares|cared} for a bean plant. Each day, a helper {waters|watered} it. Hana {measures|measured} it with a ruler. The plant {stretches|stretched} toward the window. We {mark|marked} its height on a chart. One morning, we {notice|noticed} a small flower. Everyone {gasps|gasped}. Our teacher {snaps|snapped} a photo. We {name|named} the plant Sprout. Every day, we {check|checked} on Sprout first."
+   },
+   {
+    "id": "garage",
+    "level": 1,
+    "title": "Cleaning Day",
+    "text": "On Saturday, Mia and her dad {clean|cleaned} the garage. They {sort|sorted} old toys into boxes. Mia {dusts|dusted} the shelves. Dad {scrubs|scrubbed} the floor. They {stack|stacked} the boxes by the door. Mia {discovers|discovered} her old teddy bear. She {hugs|hugged} it tightly. Dad {grins|grinned}. Then they {carry|carried} the boxes to the curb. Mia {waves|waved} goodbye to the old toys."
+   },
+   {
+    "id": "talent-show",
+    "level": 1,
+    "title": "The Talent Show",
+    "text": "Ella {practices|practiced} her song every night. On the day of the show, she {waits|waited} backstage. Her heart {pounds|pounded}. The music {starts|started}. Ella {steps|stepped} onto the stage. She {performs|performed} her song. The crowd {listens|listened}. At the end, everyone {claps|clapped}. Ella {smiles|smiled} at her family. Her family {waits|waited} for her by the door. Her little brother {hands|handed} her a flower."
+   },
+   {
+    "id": "camping",
+    "level": 2,
+    "title": "The Camping Trip",
+    "text": "Leo and his family {camp|camped} by a lake. Dad {builds|built} a fire. Leo {finds|found} long sticks for marshmallows. His sister {holds|held} the flashlight. They {sit|sat} by the fire and {tell|told} stories. An owl {hoots|hooted} in a tree. Leo {gasps|gasped}, and everyone {laughs|laughed}. Later they {sleep|slept} in a big tent. In the morning, they {catch|caught} a fish in the lake. Dad {cooks|cooked} it for breakfast."
+   },
+   {
+    "id": "spelling-bee",
+    "level": 2,
+    "title": "The Spelling Bee",
+    "text": "Nora {studies|studied} her word list every night. On the big day, she {stands|stood} on the stage. The judge {says|said} the first word. Nora {thinks|thought} for a moment. She {writes|wrote} the word in the air with her finger. Then she {answers|answered}. The judge {nods|nodded}. Nora {feels|felt} proud. She {wins|won} a blue ribbon. Her parents {hug|hugged} her. That night, she {tapes|taped} the ribbon to her wall."
+   },
+   {
+    "id": "breakfast",
+    "level": 2,
+    "title": "Breakfast Surprise",
+    "text": "On Sunday, Jin {gets|got} up before his parents. He {makes|made} toast and {pours|poured} two glasses of juice. He {places|placed} the food on a tray. Then he {carries|carried} it upstairs. His parents {open|opened} their eyes. They {see|saw} the tray and {smile|smiled}. Mom {gives|gave} Jin a big hug. Then they all {eat|ate} breakfast together. Jin {drops|dropped} a little jam on the blanket, and everyone {laughs|laughed}."
+   },
+   {
+    "id": "soccer",
+    "level": 2,
+    "title": "The Soccer Game",
+    "text": "Aisha {runs|ran} onto the field. The other team {kicks|kicked} the ball first. Aisha {takes|took} the ball and {dribbles|dribbled} down the field. She {sees|saw} an open space. She {shoots|shot}, and the ball {flies|flew} into the net. Her teammates {cheer|cheered}. The coach {throws|threw} his hat in the air. Aisha's team {wins|won} the game. After the game, the players {drink|drank} cold water. Aisha {sleeps|slept} well that night."
+   },
+   {
+    "id": "zoo",
+    "level": 2,
+    "title": "A Trip to the Zoo",
+    "text": "Our class {rides|rode} a bus to the zoo. First we {visit|visited} the lions. A big lion {sleeps|slept} on a rock. Next we {watch|watched} the monkeys. One monkey {swings|swung} from a rope. Then a zookeeper {feeds|fed} the seals. The seals {catch|caught} fish in the air. We {eat|ate} lunch near the pond. On the bus, everyone {talks|talked} about the seals. Our teacher {takes|took} a photo of the whole class by the gate."
+   },
+   {
+    "id": "storm",
+    "level": 2,
+    "title": "The Big Storm",
+    "text": "Dark clouds {fill|filled} the sky. Thunder {booms|boomed}. Kenji and his grandma {close|closed} the windows. The lights {turn|turned} off. Grandma {finds|found} a flashlight. They {sit|sat} on the couch and {listen|listened} to the rain. Kenji {draws|drew} pictures by the light. After an hour, the storm {ends|ended}. The lights {come|came} back on. Kenji {shows|showed} his pictures to Grandma. She {loves|loved} the one of the lightning."
+   },
+   {
+    "id": "lemonade",
+    "level": 2,
+    "title": "The Lemonade Stand",
+    "text": "On a hot day, Rosa and Malik {make|made} lemonade. They {squeeze|squeezed} ten lemons. Malik {mixes|mixed} in sugar. Rosa {draws|drew} a sign and {tapes|taped} it to the table. They {sell|sold} cups to their neighbors. A mail carrier {buys|bought} two cups. By evening, they {have|had} twenty dollars. They {give|gave} half of the money to the animal shelter. The next day, they {make|made} more lemonade."
+   },
+   {
+    "id": "new-student",
+    "level": 2,
+    "title": "The New Student",
+    "text": "A new girl {comes|came} to our class on Monday. Her name {is|was} Amara. She {sits|sat} next to me. I {lend|lent} her my blue pencil, and she {thanks|thanked} me. At recess, I {show|showed} her the swings. We {race|raced} to the slide with my friends. At lunch, she {tells|told} us about her old school. By the end of the day, we {are|were} good friends. After school, we {ride|rode} the same bus home."
+   },
+   {
+    "id": "birdhouse",
+    "level": 2,
+    "title": "The Birdhouse",
+    "text": "Grandpa and Theo {build|built} a birdhouse. Grandpa {measures|measured} the wood. Theo {holds|held} each board still. They {nail|nailed} the boards together. Theo {paints|painted} the roof red. They {place|placed} the birdhouse on a post. The next week, two birds {fly|flew} in. They {bring|brought} twigs for a nest. Theo {feels|felt} happy. Every morning, Theo {watches|watched} the birds from his window."
+   },
+   {
+    "id": "lost-store",
+    "level": 2,
+    "title": "Lost in the Store",
+    "text": "Ben and his mom {shop|shopped} for shoes. Ben {wanders|wandered} to the toy aisle. When he {turns|turned} around, Mom {is|was} gone. Ben {feels|felt} afraid. He {remembers|remembered} his mom's rule. He {finds|found} a worker and {tells|told} her his name. The worker {speaks|spoke} into a microphone. Soon Mom {rushes|rushed} over and {hugs|hugged} him. Ben {holds|held} her hand for the rest of the trip."
+   },
+   {
+    "id": "museum",
+    "level": 2,
+    "title": "The Science Museum",
+    "text": "Our class {takes|took} a trip to the science museum. We {see|saw} a huge dinosaur. A guide {teaches|taught} us about fossils. Then we {try|tried} a machine with a metal ball. Jada {touches|touched} the ball, and her hair {sticks|stuck} straight up. We all {laugh|laughed}. After lunch, we {build|built} a tiny car with a rubber band. It {zooms|zoomed} across the floor. On the bus ride home, we {talk|talked} about the machine."
+   },
+   {
+    "id": "snowman",
+    "level": 2,
+    "title": "The Snowman",
+    "text": "Snow {falls|fell} all night. In the morning, Lucy and Sam {run|ran} outside. They {roll|rolled} three big snowballs. Sam {lifts|lifted} the middle one onto the bottom one. Lucy {brings|brought} a carrot for the nose. They {use|used} buttons for eyes. Then Sam {gives|gave} the snowman his old hat. They {name|named} him Snowy. Mom {takes|took} a picture of the three of them. Later, the sun {comes|came} out, and Snowy {drips|dripped} all afternoon."
+   },
+   {
+    "id": "pancakes",
+    "level": 2,
+    "title": "Pancake Morning",
+    "text": "Dad and I {make|made} pancakes on Saturday. I {crack|cracked} two eggs into a bowl. Dad {measures|measured} the flour. I {mix|mixed} the batter. Dad {heats|heated} the pan. He {flips|flipped} each pancake high in the air. One pancake {lands|landed} on the floor! Our dog {sees|saw} it and {eats|ate} it in one bite. We {sit|sat} at the table and {laugh|laughed}."
+   },
+   {
+    "id": "library-book",
+    "level": 2,
+    "title": "The Library Book",
+    "text": "Hugo {chooses|chose} a book about sharks at the library. He {carries|carried} it home in his backpack. That night, he {finds|found} a picture of a whale shark. He {shows|showed} it to his sister. Hugo {tells|told} her about the gentle whale shark. Soon she {wants|wanted} her own book. Hugo {keeps|kept} the book under his pillow. The next day, they both {walk|walked} to the library."
+   },
+   {
+    "id": "bus-ride",
+    "level": 2,
+    "title": "The Bus Ride",
+    "text": "Every morning, Priya {waits|waited} at the corner. The yellow bus {pulls|pulled} up in front of her. She {climbs|climbed} the steps and {says|said} hello to the driver. She {sits|sat} with her friend Kai. They {share|shared} a snack and {talk|talked} about their weekend. Kai {draws|drew} a funny face on his hand. The bus {drives|drove} past the park. When the bus {reaches|reached} the school, they {hop|hopped} off."
+   },
+   {
+    "id": "lost-tooth",
+    "level": 2,
+    "title": "The Loose Tooth",
+    "text": "Amir's tooth {feels|felt} loose all week. At lunch, he {bites|bit} into an apple. The tooth {comes|came} out. Amir {holds|held} it up and {grins|grinned}. His friends {crowd|crowded} around. At home, he {wraps|wrapped} the tooth in a tissue. That night, he {sleeps|slept} with it under his pillow. In the morning, he {finds|found} a shiny coin. He {runs|ran} into the kitchen with the coin."
+   }
+  ]
+ },
+ "agree": {
+  "legend": [
+   "run",
+   "runs"
+  ],
+  "items": [
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [baby] {sleeps|sleep} in her crib."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "My [brothers] {play|plays} soccer on Saturday."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[She] {rides|ride} her bike to school."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[They] {have|has} a new puppy."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [bird] {sings|sing} every morning."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [cookies] {are|is} on the table."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[Leo] {washes|wash} the dishes after dinner."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [bees] {buzz|buzzes} around the flowers."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[He] {does|do} his homework at the kitchen table."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [students] {were|was} quiet in the library."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [sun] {shines|shine} on the pond."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[We] {walk|walks} to school together."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "Our [teacher] {smiles|smile} at us."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [horses] {eat|eats} hay in the barn."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [lizard] {has|have} a long tail."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [girls] {jump|jumps} rope at recess."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[Mia] {is|are} my best friend."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [frogs] {croak|croaks} by the pond."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "My [mom] {drives|drive} a blue van."
+   },
+   {
+    "level": 1,
+    "num": "iy",
+    "kind": "verb",
+    "text": "[You] {are|is} a good helper."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [kitten] {chases|chase} the yarn."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [boys] {were|was} at the park."
+   },
+   {
+    "level": 1,
+    "num": "iy",
+    "kind": "verb",
+    "text": "[I] {have|has} a red backpack."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [farmer] {feeds|feed} the pigs."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [leaves] {fall|falls} from the trees."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[Grandpa] {tells|tell} funny jokes."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [twins] {share|shares} a room."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [store] {opens|open} at nine."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "My [friends] {like|likes} pizza."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [rabbit] {hops|hop} into the garden."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[They] {do|does} their chores on Sunday."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [clock] {ticks|tick} on the wall."
+   },
+   {
+    "level": 1,
+    "num": "sg",
+    "kind": "verb",
+    "text": "[Omar] {was|were} sick on Monday."
+   },
+   {
+    "level": 1,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [ducks] {swim|swims} in the pond."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [box] of crayons {is|are} on the desk."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [girls] in the red boat {wave|waves} to us."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [bird] with blue wings {sings|sing} in the tree."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [cookies] on the plate {smell|smells} good."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [boy] with two dogs {walks|walk} past our house."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [flowers] in the pot {need|needs} water."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [bag] of apples {was|were} heavy."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [players] with green shirts {kick|kicks} the ball."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [lady] with the twins {has|have} a big stroller."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [books] on the top shelf {belong|belongs} to Ms. Kim."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [cat] in the window {watches|watch} the birds."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [kids] at the pool {splash|splashes} their friends."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [jar] of cookies {sits|sit} on the counter."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [shoes] by the door {are|is} muddy."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [plate] of tacos {smells|smell} delicious."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [students] in Room 12 {do|does} a dance every Friday."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [house] with the green doors {belongs|belong} to my aunt."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [pencils] in my desk {are|is} dull."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [puppy] with the spots {chases|chase} the ball."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [ducks] near the bridge {quack|quacks} loudly."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [pile] of leaves {was|were} huge."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [trees] in our yard {grow|grows} apples."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [man] with the balloons {sells|sell} them at the fair."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [boxes] in the hall {have|has} our art supplies."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [basket] of eggs {sits|sit} by the door."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [windows] in our classroom {face|faces} the park."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [girl] with the red boots {jumps|jump} in the puddles."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [boys] on the bus {sing|sings} a song."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [kite] with the long tail {flies|fly} high."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [horses] near the barn {drink|drinks} cold water."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [baby] in the stroller {cries|cry} for milk."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [frogs] by the pond {hop|hops} away."
+   },
+   {
+    "level": 2,
+    "num": "sg",
+    "kind": "verb",
+    "text": "The [bell] on the door {rings|ring} loudly."
+   },
+   {
+    "level": 2,
+    "num": "pl",
+    "kind": "verb",
+    "text": "The [kids] in the yard {build|builds} a fort."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Mia and Leo] {walk|walks} to school."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[The cat and the puppy] {sleep|sleeps} by the fire."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[My sister and I] {are|is} in third grade."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Omar and his dad] {fish|fishes} at the lake."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Ava and Jin] {were|was} late for school."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[The teacher and the students] {line|lines} up for lunch."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[My cousins and I] {have|has} a tree house."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Rain and wind] {shake|shakes} the windows."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Leo and Mia] {bake|bakes} cookies on Sunday."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[The pigs and the sheep] {eat|eats} corn."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Grandma and Grandpa] {visit|visits} us every summer."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Zoe and her brother] {ride|rides} the bus to school."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[My mom and my aunt] {sing|sings} in the car."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[The cups and the plates] {go|goes} on the top shelf."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "[Ben and Kai] {play|plays} chess after school."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "There {are|is} three [ducks] in the pond."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "verb",
+    "text": "There {is|are} a [frog] on the log."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "There {were|was} many [kids] at the park."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "verb",
+    "text": "There {was|were} a [spider] in the bathtub."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "There {are|is} two [cookies] in the jar."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "verb",
+    "text": "There {is|are} a [rainbow] over the hill."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "verb",
+    "text": "There {were|was} five [birds] on the wire."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "verb",
+    "text": "There {is|are} a new [student] in our room."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [kittens] were hungry. {They|It} cried for milk."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "The [kite] flew up high. {It|They} looked like a bird."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "My [grandparents] came for dinner. Dad cooked for {them|him}."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [girls] found a ladybug. {They|She} watched it crawl."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "Leo dropped his [crayons]. He picked {them|it} up."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "The [bus] was late. {It|They} came at nine."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [ducks] swam to us. We fed {them|it} bread."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "My [shoe] was muddy. I washed {it|them}."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [boys] built a snowman. {They|He} gave it a hat."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "The [cake] smelled sweet. Mom cut {it|them} into pieces."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [puppies] played outside. {They|It} rolled in the grass."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "Ana lost her [mittens]. She found {them|it} under the bed."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "The [tree] was very old. {It|They} had huge roots."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [students] finished early. {They|He} read books."
+   },
+   {
+    "level": 3,
+    "num": "sg",
+    "kind": "pron",
+    "text": "My [bike] was squeaky. Dad fixed {it|them}."
+   },
+   {
+    "level": 3,
+    "num": "pl",
+    "kind": "pron",
+    "text": "The [seeds] were tiny. We planted {them|it} in rows."
+   }
+  ],
+  "own": [
+   {
+    "one": "cow",
+    "two": "cows",
+    "s1": "The cow eats grass in the field.",
+    "s2": "The cows eat grass in the field."
+   },
+   {
+    "one": "goat",
+    "two": "goats",
+    "s1": "The goat climbs the big rock.",
+    "s2": "The goats climb the big rock."
+   },
+   {
+    "one": "pilot",
+    "two": "pilots",
+    "s1": "The pilot flies the plane.",
+    "s2": "The pilots fly the plane."
+   },
+   {
+    "one": "baker",
+    "two": "bakers",
+    "s1": "The baker makes bread every morning.",
+    "s2": "The bakers make bread every morning."
+   },
+   {
+    "one": "robot",
+    "two": "robots",
+    "s1": "The robot cleans the floor.",
+    "s2": "The robots clean the floor."
+   },
+   {
+    "one": "parrot",
+    "two": "parrots",
+    "s1": "The parrot talks all day.",
+    "s2": "The parrots talk all day."
+   }
+  ],
+  "ownPron": [
+   "The kites flew high. They looked like birds.",
+   "My aunt has a garden. She grows beans in it.",
+   "The bell rang. It was very loud.",
+   "The twins found a shell. They gave it to me."
+  ]
+ }
+}

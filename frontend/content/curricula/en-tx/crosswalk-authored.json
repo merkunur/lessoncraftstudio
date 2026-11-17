@@ -6169,6 +6169,74 @@
    ],
    "why": "Adding the detail a friend asked for is «revise drafts by adding details in pictures or words»; reading the piece from the author’s chair is «share writing»; the friend’s question and the author’s answer are «listen actively and ask questions to understand information and answer questions using multi-word responses».",
    "review": "year-design 2026-11-17"
+  },
+  "K:onset-rime-blend": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.vii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.2.A.x",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.K.2.A.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hearing the first sound, then the rest, and circling the picture of the word is «blending spoken onsets and rimes to form simple words». Saying a picture word in its two parts is the step before «segmenting spoken one-syllable words into individual phonemes»; circling the two pictures with the same rest is the identifying half of «identifying and producing rhyming words».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:two-meanings": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.3.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Hearing a sentence and choosing the picture of the meaning it uses (a bat that flies, a bat for baseball) is «use illustrations and texts the student is able to read or hear to learn or clarify word meanings». Texas first names words with more than one meaning in Grade 3: «use context within and beyond a sentence to determine the meaning of unfamiliar words and multiple-meaning words».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:compare-two-stories": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.7.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.7.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.6.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting what happened into Story 1, Story 2, or Both, and telling one more thing both stories tell, is «make connections to personal experiences, ideas in other texts, and society with adult assistance». The cards are the problem, the help, and where the lost thing was found: «describe the elements of plot development, including the main events, the problem, and the resolution for texts read aloud with adult assistance». Circling how each animal felt at the end is «identify and describe the main characters», and drawing what is the same and what is different is «interact with sources in meaningful ways such as illustrating or writing».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:first-middle-last-sound": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.A.vii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.2.A.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas Grade 1 has no separate expectation for isolating the first, middle, or last sound. Saying each sound of a picture word and touching a box for it is «segmenting spoken one-syllable words of three to five phonemes into individual phonemes, including words with initial and/or final consonant blends»; finding two words that begin with the same sound is «recognizing spoken alliteration or groups of words that begin with the same spoken onset or initial sound». The middle and the last place go one step further than the Texas wording.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

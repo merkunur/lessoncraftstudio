@@ -2082,6 +2082,16 @@
    ],
    "by": "code"
   },
+  "K:onset-rime-blend": {
+   "rows": [
+    {
+     "id": "RF.K.2.c",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:letter-case": {
    "rows": [
     {
@@ -2121,6 +2131,16 @@
    "rows": [
     {
      "id": "L.K.5.b",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:two-meanings": {
+   "rows": [
+    {
+     "id": "L.K.4.a",
      "rel": "teaches",
      "grade": "K"
     }
@@ -2181,6 +2201,16 @@
    "rows": [
     {
      "id": "RL.K.7",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:compare-two-stories": {
+   "rows": [
+    {
+     "id": "RL.K.9",
      "rel": "teaches",
      "grade": "K"
     }
@@ -2560,6 +2590,16 @@
     },
     {
      "id": "RF.1.2.d",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:first-middle-last-sound": {
+   "rows": [
+    {
+     "id": "RF.1.2.c",
      "rel": "teaches",
      "grade": "1"
     }

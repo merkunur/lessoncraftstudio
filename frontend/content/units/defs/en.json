@@ -78,7 +78,7 @@
    "subject": "literacy",
    "title": "Hearing Sounds in Words",
    "metaTitle": "Kindergarten Reading and Writing Lesson Plans: Hearing Sounds in Words",
-   "metaDescription": "A three-week Kindergarten unit: 6 lessons from rhyme and syllables to sound boxes and first CVC words. The last two are for children who know most letter sounds.",
+   "metaDescription": "A three-week Kindergarten unit: 7 lessons from rhyme, syllables, and onset-rime to sound boxes and CVC words. The last two are for children who know most letter sounds.",
    "weeks": 3,
    "lessons": [
     {
@@ -95,6 +95,13 @@
       "K-234"
      ],
      "tool": "syllable-splitter"
+    },
+    {
+     "point": "K:onset-rime-blend",
+     "types": [
+      "K-681",
+      "K-682"
+     ]
     },
     {
      "point": "K:beginning-sounds",
@@ -2705,8 +2712,8 @@
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
    "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
-   "metaDescription": "A two-week Kindergarten unit: 4 lessons on sorting pictures into groups, which one does not belong, opposites, and putting a story in order.",
-   "weeks": 2,
+   "metaDescription": "A three-week Kindergarten unit: 5 lessons on sorting pictures into groups, which one does not belong, opposites, words with two meanings, and putting a story in order.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:category-sort",
@@ -2728,6 +2735,13 @@
      ]
     },
     {
+     "point": "K:two-meanings",
+     "types": [
+      "K-683",
+      "K-684"
+     ]
+    },
+    {
      "point": "K:story-sequencing",
      "types": [
       "K-379",
@@ -2744,8 +2758,8 @@
    "subject": "literacy",
    "title": "Reading Stories",
    "metaTitle": "Kindergarten Lesson Plans: Reading Stories",
-   "metaDescription": "A Kindergarten unit on read-aloud picture stories: 4 lessons on who and where, retelling in order, asking and answering questions, and pictures and words.",
-   "weeks": 2,
+   "metaDescription": "A Kindergarten unit on read-aloud picture stories: 5 lessons on who and where, retelling in order, questions and answers, pictures and words, and comparing two stories.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "K:story-who-where",
@@ -2769,6 +2783,13 @@
      "point": "K:pictures-and-words",
      "types": [
       "K-653"
+     ]
+    },
+    {
+     "point": "K:compare-two-stories",
+     "types": [
+      "K-685",
+      "K-686"
      ]
     }
    ]
@@ -2912,7 +2933,7 @@
    "subject": "literacy",
    "title": "Sounds and Short-Vowel Words",
    "metaTitle": "Grade 1 Lesson Plans: Sounds and Short-Vowel Words",
-   "metaDescription": "A Grade 1 unit on short-vowel words: 4 lessons on rhymes, word families, sound boxes, and spelling picture words, each with a teacher note and pages to print.",
+   "metaDescription": "A Grade 1 unit on short-vowel words: 5 lessons on rhymes, word families, sound boxes, first, middle, and last sounds, and spelling picture words, with pages to print.",
    "weeks": 3,
    "lessons": [
     {
@@ -2937,6 +2958,13 @@
      "types": [
       "G1-312",
       "G1-314"
+     ]
+    },
+    {
+     "point": "1:first-middle-last-sound",
+     "types": [
+      "G1-624",
+      "G1-625"
      ]
     },
     {

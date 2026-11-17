@@ -47,7 +47,8 @@
             "days": 2,
             "tool": "Sound Boxes",
             "source": "new",
-            "page": "Sound-position page: twelve pictures of CVC and CCVC words, each with three boxes in a row. The teacher names a sound; the child colors the box where it is heard (first, middle, last). Level 1: first and last sounds only; level 2: the middle vowel too; level 3: the child writes the letter for the sound in its box."
+            "page": "Sound-position page: twelve pictures of CVC and CCVC words, each with three boxes in a row. The teacher names a sound; the child colors the box where it is heard (first, middle, last). Level 1: first and last sounds only; level 2: the middle vowel too; level 3: the child writes the letter for the sound in its box.",
+            "placed": "1:first-middle-last-sound"
           },
           {
             "existing": "1:word-families-syllable-reading"
@@ -1898,7 +1899,8 @@
             "days": 2,
             "tool": "Picture Word Wall",
             "source": "new",
-            "page": "Sound-play picture page: eight rows of three pictures; the teacher says a word in two parts (/s/ ... /un/) and the child circles the picture of the whole word. Bottom: the child splits two picture words aloud into first sound and rest for a partner. Level 1: the three pictures start with different sounds; level 2: same first sound, different rest (sun, sock, sad); level 3: same rest, different first sound (cat, hat, bat)."
+            "page": "Sound-play picture page: eight rows of three pictures; the teacher says a word in two parts (/s/ ... /un/) and the child circles the picture of the whole word. Bottom: the child splits two picture words aloud into first sound and rest for a partner. Level 1: the three pictures start with different sounds; level 2: same first sound, different rest (sun, sock, sad); level 3: same rest, different first sound (cat, hat, bat).",
+            "placed": "K:onset-rime-blend"
           },
           {
             "existing": "K:beginning-sounds"
@@ -2070,7 +2072,8 @@
             "standard": "RL.K.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two short read-aloud texts with picture panels side by side (a lost puppy, a lost kitten). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them."
+            "page": "Two-text comparison page: two short read-aloud texts with picture panels side by side (a lost puppy, a lost kitten). Below: a two-circle diagram with a shared middle. Level 1: the child sorts six picture cards into the two circles and the middle; level 2: the child draws one thing that is the same and one that is different; level 3: the child draws and labels them.",
+            "placed": "K:compare-two-stories"
           }
         ]
       },
@@ -2153,7 +2156,8 @@
             "standard": "L.K.4.a",
             "days": 2,
             "source": "new",
-            "page": "Word meaning page: six words with two meanings (bat, duck, ring, bark, top, can), each shown with two pictures. The teacher reads a sentence with the word and the child circles the picture that fits it. Level 1: three words; level 2: six words; level 3: the child draws the other meaning and says a sentence for it."
+            "page": "Word meaning page: six words with two meanings (bat, duck, ring, bark, top, can), each shown with two pictures. The teacher reads a sentence with the word and the child circles the picture that fits it. Level 1: three words; level 2: six words; level 3: the child draws the other meaning and says a sentence for it.",
+            "placed": "K:two-meanings"
           },
           {
             "new": true,

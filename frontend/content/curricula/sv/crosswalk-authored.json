@@ -4673,6 +4673,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the drawing and writing of Kindergarten (Part 12.3: an opinion with a reason, facts and labels, a small moment in order, a detail added in the author chair); the sentence frames and the word banks are English. Read it against the wording when the first writing units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "K:onset-rime-blend": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English phonological awareness of Kindergarten (Part 12.3: blending a spoken first sound and the rest of a word, and saying a word in those two parts); the skill is not bound to English, but the words and their parts are. Read it against the wording when the sound units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:two-meanings": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary of Kindergarten (Part 12.3: words with two meanings, and the sentence that tells which meaning is meant); the words are English, and another language has its own. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:compare-two-stories": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English reading of Kindergarten (Part 12.3: comparing the adventures of the characters in two read-aloud stories); the skill is not bound to English, but the stories are. Read it against the wording when the story units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:first-middle-last-sound": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English phonological awareness of Grade 1 (Part 12.3: the first, middle, and last sound of a spoken one-syllable word); the skill is not bound to English, but the words are. Read it against the wording when the sound units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

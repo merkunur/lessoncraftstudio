@@ -1082,6 +1082,40 @@
    "strand": "Writing",
    "code": "W.K.5",
    "skill": "Read your writing to the class, answer a classmate’s question, and add one detail to the picture or the words"
+  },
+  {
+   "tp": "K:onset-rime-blend",
+   "grade": "K",
+   "strand": "Phonological Awareness",
+   "code": "RF.K.2.c",
+   "skill": "Blend a spoken first sound and the rest into a one-syllable word (/s/ … /ŭn/, sun), and say a word in those two parts",
+   "activities": [
+    "choice-board.onset-rime-blend.rf-k-2-c"
+   ]
+  },
+  {
+   "tp": "K:two-meanings",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.4.a",
+   "skill": "Find the two meanings of a known word (a bat that flies, a bat for baseball) and choose the meaning a sentence uses"
+  },
+  {
+   "tp": "K:compare-two-stories",
+   "grade": "K",
+   "strand": "Reading: Literature",
+   "code": "RL.K.9",
+   "skill": "Compare the adventures of the characters in two stories: tell what happened in both and what happened in only one",
+   "activities": [
+    "willow-story-corner.compare-tales.rl-k-9"
+   ]
+  },
+  {
+   "tp": "1:first-middle-last-sound",
+   "grade": "1",
+   "strand": "Phonological Awareness",
+   "code": "RF.1.2.c",
+   "skill": "Say the first, middle, and last sound of a spoken one-syllable word and mark where a given sound is heard"
   }
  ]
 }

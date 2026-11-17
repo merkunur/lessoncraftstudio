@@ -2411,6 +2411,26 @@
    ],
    "by": "authored"
   },
+  "K:onset-rime-blend": {
+   "rows": [
+    {
+     "id": "ELAR.K.2.A.vii",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.A.x",
+     "rel": "prepares",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.2.A.i",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:letter-case": {
    "rows": [
     {
@@ -2457,6 +2477,21 @@
      "id": "ELAR.2.3.D",
      "rel": "prepares",
      "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:two-meanings": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.3.3.B",
+     "rel": "prepares",
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -2551,6 +2586,31 @@
     {
      "id": "ELAR.K.9.C",
      "rel": "prepares",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:compare-two-stories": {
+   "rows": [
+    {
+     "id": "ELAR.K.5.E",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.7.C",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.7.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.6.E",
+     "rel": "teaches",
      "grade": "K"
     }
    ],
@@ -3010,6 +3070,21 @@
     },
     {
      "id": "ELAR.1.2.A.v",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:first-middle-last-sound": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.A.vii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.2.A.ii",
      "rel": "teaches",
      "grade": "1"
     }

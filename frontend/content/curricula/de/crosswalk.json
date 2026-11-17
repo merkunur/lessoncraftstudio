@@ -2203,6 +2203,10 @@
    ],
    "by": "authored"
   },
+  "K:onset-rime-blend": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:letter-case": {
    "rows": [
     {
@@ -2248,6 +2252,10 @@
    ],
    "by": "authored"
   },
+  "K:two-meanings": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:alphabet-order": {
    "rows": [
     {
@@ -2286,6 +2294,10 @@
    "by": "authored"
   },
   "K:pictures-and-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-two-stories": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
@@ -2522,6 +2534,10 @@
      "grade": "1-4"
     }
    ],
+   "by": "authored"
+  },
+  "1:first-middle-last-sound": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:digraphs": {

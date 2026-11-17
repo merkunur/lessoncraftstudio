@@ -23,6 +23,8 @@
  * place-ready-bb.en.literacy.js; the reviewer of the pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Writing: Stories, Opinions, and Facts (G1-616 to G1-623) were added by place-ready-kk.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The note on the first, middle, or last sound (G1-624, G1-625) was added by place-ready-ppd.en.literacy.js;
+ * the reviewer of the pages read it (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -287,6 +289,15 @@ module.exports = {
         mistake: 'Children fix only the first mistake they see, or add a detail that does not answer the question. Some copy the whole piece again instead of fixing it.',
         words: 'Model first: write we went on a walk, fix it aloud, then ask a child a question about your sentence and add the answer. Say: "Writers read their work again. They fix capitals and end marks, and they add details." Day 1, Edit and Add a Detail: the box says how many mistakes the story has (Level 1: two, a small letter at the start and a missing end mark; Level 2: three, with a small i; Level 3: four, with a name that starts with a small letter). Children fix them on the story, read the question the writer\'s partner asked about the starred sentence, and write it again with a detail. Day 2, Revise with a Checklist: each child needs a draft from this unit (the true story, the opinion, or the All About page). The partner asks one question; the child circles it (or writes it after Other), adds the detail to the draft with a caret (^), and writes it on the page. Then the child checks the draft in the Me boxes and the partner checks it too; Level 3 also writes what the partner liked.',
         watch: 'The day 1 story has no other mistake; where a missing end mark could also be !, the key says so. Accept any detail that answers the question. The partner asks one question, not a list.',
+      },
+    },
+    '1:first-middle-last-sound': {
+      title: 'First, middle, or last sound?',
+      objective: 'Children isolate and say the first, middle, and last sound of a spoken one-syllable word and mark where they hear a given sound.',
+      note: {
+        mistake: 'Children say a letter name instead of the sound, or hear the two sounds at the start of a word like step as one.',
+        words: 'Children can blend and segment three-sound words. Model with mop and step, which are on no page. Say: “Mop: /m/ /ŏ/ /p/. /m/ is first, /ŏ/ is in the middle, /p/ is last.” Each box is one sound: mop has three boxes, step has four. Day 1, G1-624: read the teacher lines at the foot of the answer key: the picture word, then the sound. Level 1: the first or last sound; children color its box. Level 2: first, middle, or last; the middle sound is the vowel of a word with three sounds. Level 3: children write the letter in its box. Day 2, G1-625: read the picture words from the answer key first; children say the sounds of each picture, touching a box for each, and circle where the two words share a sound (level 1: first or last; level 2: any place). Level 3: rows of three pictures; children circle the two that share a sound, then its place.',
+        watch: 'In a word with four sounds (step) only the first and last sounds are asked, never the first of dr or tr (many children hear /j/ or /ch/). Some children say the vowel of pen, dog, bag, or leg another way, so these are never asked for their middle sound. If a child colors the wrong box, say the word slowly and touch one box a sound.',
       },
     },
   },

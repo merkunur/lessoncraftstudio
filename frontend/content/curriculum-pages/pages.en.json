@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 40,
+    "taught": 43,
     "near": 0,
-    "open": 25,
-    "lessons": 51
+    "open": 22,
+    "lessons": 54
    },
    "groups": [
     {
@@ -2487,13 +2487,26 @@
          "title": "The Pictures and the Words"
         }
        ]
+      },
+      {
+       "code": "RL.K.9",
+       "state": "taught",
+       "text": "Children compare what happens to the characters of two stories and tell one thing that is the same and one that is different.",
+       "lessons": [
+        {
+         "unit": "reading-stories-kindergarten-unit",
+         "unitTitle": "Reading Stories",
+         "unitGrade": "K",
+         "n": 5,
+         "title": "Two stories, two adventures"
+        }
+       ]
       }
      ],
      "open": [
       "RL.K.4",
       "RL.K.5",
       "RL.K.6",
-      "RL.K.9",
       "RL.K.10"
      ]
     },
@@ -2708,6 +2721,20 @@
        ]
       },
       {
+       "code": "RF.K.2.c",
+       "state": "taught",
+       "text": "Children blend a spoken first sound and the rest of a one-syllable word (/m/ … /ŏp/) into the word and find its picture, and they split a word into its first sound and the rest.",
+       "lessons": [
+        {
+         "unit": "hearing-sounds-in-words-kindergarten-unit",
+         "unitTitle": "Hearing Sounds in Words",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Blend the first sound and the rest"
+        }
+       ]
+      },
+      {
        "code": "RF.K.2.d",
        "state": "taught",
        "text": "Children say a three-sound picture word and listen for its first sound, its last sound, and the vowel sound in the middle.",
@@ -2716,21 +2743,21 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Beginning sounds"
         },
         {
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Ending sounds and middle sounds"
         },
         {
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Say it slowly: one sound, one box"
         },
         {
@@ -2779,21 +2806,21 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 3,
+         "n": 4,
          "title": "Beginning sounds"
         },
         {
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Ending sounds and middle sounds"
         },
         {
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Build the word"
         }
        ]
@@ -2807,14 +2834,14 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 4,
+         "n": 5,
          "title": "Ending sounds and middle sounds"
         },
         {
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Build the word"
         },
         {
@@ -2882,9 +2909,6 @@
         }
        ]
       }
-     ],
-     "open": [
-      "RF.K.2.c"
      ]
     },
     {
@@ -3111,7 +3135,7 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Build the word"
         }
        ]
@@ -3125,8 +3149,22 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 6,
+         "n": 7,
          "title": "Build the word"
+        }
+       ]
+      },
+      {
+       "code": "L.K.4.a",
+       "state": "taught",
+       "text": "Children find the two meanings of a familiar word (a bat that flies, a bat for baseball) and choose the meaning that fits a sentence.",
+       "lessons": [
+        {
+         "unit": "sorting-opposites-and-story-order-kindergarten-unit",
+         "unitTitle": "Sorting, Opposites, and Story Order",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Words with two meanings"
         }
        ]
       },
@@ -3174,7 +3212,6 @@
       }
      ],
      "open": [
-      "L.K.4.a",
       "L.K.4.b",
       "L.K.5.c",
       "L.K.5.d",
@@ -3201,10 +3238,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 41,
+    "taught": 42,
     "near": 1,
-    "open": 31,
-    "lessons": 54
+    "open": 30,
+    "lessons": 55
    },
    "groups": [
     {
@@ -3403,6 +3440,20 @@
        ]
       },
       {
+       "code": "RF.1.2.c",
+       "state": "taught",
+       "text": "Children isolate and say the first, middle, and last sound of a spoken one-syllable word and mark where they hear a given sound.",
+       "lessons": [
+        {
+         "unit": "sounds-spelling-and-syllables-grade-1-unit",
+         "unitTitle": "Sounds and Short-Vowel Words",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "First, middle, or last sound?"
+        }
+       ]
+      },
+      {
        "code": "RF.1.2.d",
        "state": "taught",
        "text": "Children say a word slowly, count its sounds, and put one sound in each box.",
@@ -3411,7 +3462,7 @@
          "unit": "hearing-sounds-in-words-kindergarten-unit",
          "unitTitle": "Hearing Sounds in Words",
          "unitGrade": "K",
-         "n": 5,
+         "n": 6,
          "title": "Say it slowly: one sound, one box"
         },
         {
@@ -3622,7 +3673,6 @@
      ],
      "open": [
       "RF.1.1.a",
-      "RF.1.2.c",
       "RF.1.4.b"
      ]
     },
@@ -3872,7 +3922,7 @@
          "unit": "sounds-spelling-and-syllables-grade-1-unit",
          "unitTitle": "Sounds and Short-Vowel Words",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Spell the picture word"
         }
        ]
@@ -3886,7 +3936,7 @@
          "unit": "sounds-spelling-and-syllables-grade-1-unit",
          "unitTitle": "Sounds and Short-Vowel Words",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Spell the picture word"
         }
        ]
@@ -6797,10 +6847,10 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 40,
+    "taught": 41,
     "near": 6,
-    "open": 38,
-    "lessons": 46
+    "open": 37,
+    "lessons": 47
    },
    "groups": [
     {
@@ -6852,6 +6902,20 @@
        ]
       },
       {
+       "code": "1.2.A.ii",
+       "state": "taught",
+       "text": "Children isolate and say the first, middle, and last sound of a spoken one-syllable word and mark where they hear a given sound.",
+       "lessons": [
+        {
+         "unit": "sounds-spelling-and-syllables-grade-1-unit",
+         "unitTitle": "Sounds and Short-Vowel Words",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "First, middle, or last sound?"
+        }
+       ]
+      },
+      {
        "code": "1.2.A.iii",
        "state": "taught",
        "text": "Children say a one-syllable word, hear whether its vowel sound is long or short, and mark it.",
@@ -6890,6 +6954,13 @@
          "unitGrade": "1",
          "n": 3,
          "title": "Sound boxes"
+        },
+        {
+         "unit": "sounds-spelling-and-syllables-grade-1-unit",
+         "unitTitle": "Sounds and Short-Vowel Words",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "First, middle, or last sound?"
         }
        ]
       },
@@ -7021,7 +7092,7 @@
          "unit": "sounds-spelling-and-syllables-grade-1-unit",
          "unitTitle": "Sounds and Short-Vowel Words",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Spell the picture word"
         }
        ]
@@ -7070,7 +7141,7 @@
          "unit": "sounds-spelling-and-syllables-grade-1-unit",
          "unitTitle": "Sounds and Short-Vowel Words",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Spell the picture word"
         }
        ]
@@ -7120,7 +7191,6 @@
       }
      ],
      "open": [
-      "1.2.A.ii",
       "1.2.A.iv",
       "1.2.A.vi",
       "1.2.B.i",

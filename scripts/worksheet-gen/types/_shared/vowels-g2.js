@@ -622,6 +622,19 @@ function matchLayout(pics4, dec, d, rng) {
 
 /* ---------------------------------------------------------------- the parts of a page ---------------------------------------------------------------- */
 const LIGS = "font-variant-ligatures:none;font-feature-settings:'liga' 0,'clig' 0;";
+/** A child reads typographic apostrophes and quotation marks: every straight ' and " in the TEXT of a page or a key
+ *  (never in a tag or an attribute) is turned here, once, for all types of this factory (2026-11-17: published pages
+ *  printed straight ones). The bank and the data attributes keep straight ones; verify() straightens what it reads. */
+function typo(html) {
+  let out = '', i = 0;
+  while (i < html.length) {
+    if (html[i] === '<') { const j = html.indexOf('>', i); out += html.slice(i, j + 1); i = j + 1; continue; }
+    const j = html.indexOf('<', i), text = html.slice(i, j < 0 ? html.length : j);
+    out += text.replace(/'/g, '\u2019').replace(/"/g, (m, k, s) => (k === 0 || /[\s([]/.test(s[k - 1]) ? '\u201C' : '\u201D'));
+    i = j < 0 ? html.length : j;
+  }
+  return out;
+}
 const STYLE = '<style>[data-lcs-noliga],[data-lcs-noliga] *{font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style>';   // before the root: verify counts the root's children as blocks
 /** In this font an f before i, f, l, or t and a t before t touch the next letter even with ligatures off (fi, fl, ff, ft in
  *  after, tt in letter): every such printed f or t gets a little room of its own. Text inside tags, <svg> and <style> is
@@ -782,7 +795,7 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
       const inner = W - 24;
       const blocks = plan.tasks.map((t, i) => renderTask(t, i + 1, mode, lv, d, key, inner));
       return {
-        bodyHtml: STYLE + `<div data-ws-content data-lcs-g2v="${mode}|${lv}|${plan.variant}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:${d.gap || 8}px;min-height:0">` + fRoom(blocks.join('')) + `</div>`,
+        bodyHtml: STYLE + `<div data-ws-content data-lcs-g2v="${mode}|${lv}|${plan.variant}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:${d.gap || 8}px;min-height:0">` + fRoom(typo(blocks.join(''))) + `</div>`,
         meta: { text: mode + ':' + lv + ':' + plan.variant + ':' + plan.items.slice(0, 3).join(','), items: plan.items },
       };
     },
@@ -797,7 +810,7 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
         const R = (e) => e.getBoundingClientRect();
         const cs = (e) => getComputedStyle(e);
         const fs = (e) => parseFloat(cs(e).fontSize);
-        const txt = (e) => e.textContent.trim();
+        const txt = (e) => e.textContent.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').trim();
         const stem = (w) => w.replace(/s$/, '');
         const UNION = new Set(INFO.union), REAL = new Set(INFO.real), BAD = new Set(INFO.bad);
         const rb = R(root);
@@ -805,6 +818,7 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
         if (cs(root).fontVariantLigatures !== 'none' || !/"liga" 0/.test(cs(root).fontFeatureSettings) || root.dataset.lcsNoliga !== '1') fails.push('the page does not turn ligatures off');
         if ([...root.querySelectorAll('*')].some((e) => !e.children.length && /f[iflt]|tt/.test(e.textContent) && cs(e).fontVariantLigatures !== 'none')) fails.push('a word with fi, fl, ff, ft, or tt joins its letters (ligatures on)');
         { const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let n; while ((n = tw.nextNode())) if (!n.parentElement.closest('svg') && /f[iflt]|tt/.test(n.textContent)) { fails.push('an f before i, f, l, or t or a t before t has no room of its own: "' + n.textContent.trim().slice(0, 20) + '"'); break; } }
+        { const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let n; while ((n = tw.nextNode())) if (!n.parentElement.closest('style') && /['"]/.test(n.textContent)) { fails.push('a straight apostrophe or quotation mark on the page: "' + n.textContent.trim().slice(0, 24) + '"'); break; } }
         // pictures: loaded, 60 px or more, never twice, never a print-only picture
         const imgs = [...root.querySelectorAll('img')];
         imgs.forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); if (R(im).width < 60) fails.push('a picture smaller than 60 px'); if (INFO.printOnly.includes(im.dataset.lcsPic)) fails.push('a print-only picture stands on the page'); });
@@ -844,7 +858,7 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
         // the sentences of the page and the words that fit them
         const sentEls = [...root.querySelectorAll('[data-lcs-sentence], [data-lcs-cloze]')];
         // a sentence is found in the bank by the text it carries, and the page must print exactly that text
-        const shownText = (e) => { const copy = e.cloneNode(true); copy.querySelectorAll('[data-lcs-pills], [data-lcs-blankgroup] [data-lcs-line]').forEach((x) => x.replaceWith('___')); copy.querySelectorAll('[data-lcs-choices]').forEach((x) => x.remove()); return copy.textContent.replace(/\s+/g, ''); };
+        const shownText = (e) => { const copy = e.cloneNode(true); copy.querySelectorAll('[data-lcs-pills], [data-lcs-blankgroup] [data-lcs-line]').forEach((x) => x.replaceWith('___')); copy.querySelectorAll('[data-lcs-choices]').forEach((x) => x.remove()); return copy.textContent.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\s+/g, ''); };
         const sentRec = (e) => { const rec = INFO.sents[e.dataset.lcsText || '']; return rec && shownText(e) === e.dataset.lcsText.replace(/\s+/g, '') ? rec : null; };
         const fitsOnPage = [];
         sentEls.forEach((e) => {

@@ -20,10 +20,11 @@ module.exports = (FACTORY, BANK) => {
     // ---------------------------------------------------------------------------------------------- every page
     ['the root without its mark for no joined letters', FACTORY, 'data-lcs-noliga="1" data-lcs-g1gram=', 'data-lcs-noliga="0" data-lcs-g1gram=', 'G1-593', 1],
     ['no rule before the root and no room after an f (joined fi)', FACTORY,
-      "bodyHtml: STYLE + `<div data-ws-content data-lcs-noliga=\"1\" data-lcs-g1gram=\"${mode}|${lv}\"${key ? ' data-lcs-iskey=\"1\"' : ''} style=\"${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0\">` + fRoom(blocks.join(''))",
-      "bodyHtml: `<div data-ws-content data-lcs-noliga=\"1\" data-lcs-g1gram=\"${mode}|${lv}\"${key ? ' data-lcs-iskey=\"1\"' : ''} style=\"${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0\">` + blocks.join('')",
+      "bodyHtml: STYLE + `<div data-ws-content data-lcs-noliga=\"1\" data-lcs-g1gram=\"${mode}|${lv}\"${key ? ' data-lcs-iskey=\"1\"' : ''} style=\"${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0\">` + fRoom(typo(blocks.join('')))",
+      "bodyHtml: `<div data-ws-content data-lcs-noliga=\"1\" data-lcs-g1gram=\"${mode}|${lv}\"${key ? ' data-lcs-iskey=\"1\"' : ''} style=\"${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0\">` + typo(blocks.join(''))",
       'G1-595', 2],
-    ['no room after an f before i, f or l', FACTORY, "` + fRoom(blocks.join('')) + `</div>`,", "` + blocks.join('') + `</div>`,", 'G1-594', 2],
+    ['no room after an f before i, f or l', FACTORY, "` + fRoom(typo(blocks.join(''))) + `</div>`,", "` + typo(blocks.join('')) + `</div>`,", 'G1-594', 2],
+    ['straight apostrophes on the page (the typographic pass left out)', FACTORY, "` + fRoom(typo(blocks.join(''))) + `</div>`,", "` + fRoom(blocks.join('')) + `</div>`,", 'G1-592', 2],
     // no blank band of more than 40 px on a page (80 in the review's renders)
     ['the room of the page left under the last task', FACTORY, 'flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0', 'flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start;gap:4px;min-height:0', 'G1-593', 1],
     ['the room of level 3 left out of the table', FACTORY, 'own: true, font: 21, cellH: 98 }', 'own: true, font: 21, cellH: 76 }', 'G1-595', 3],

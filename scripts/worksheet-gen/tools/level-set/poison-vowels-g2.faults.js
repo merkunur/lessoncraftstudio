@@ -10,6 +10,7 @@
 module.exports = (FACTORY, BANK) => [
   // the whole page
   ['the page root without its no-ligature mark', FACTORY, 'data-lcs-noliga="1"${key ?', 'data-lcs-noliga-x="1"${key ?', 'G2-530', 2],
+  ['straight apostrophes on the page (the typographic pass left out)', FACTORY, "fRoom(typo(blocks.join('')))", "fRoom(blocks.join(''))", 'G2-533', 2],
   ['an f before i or l with no room of its own', FACTORY, 'out += inSvg ? text : text.replace(/f(?=[iflt])|t(?=t)/g', 'out += inSvg ? text : text.replace(/f(?=[x])|t(?=t)/g', 'G2-530', 2],
   ['a t before t with no room of its own (letters)', FACTORY, 'out += inSvg ? text : text.replace(/f(?=[iflt])|t(?=t)/g', 'out += inSvg ? text : text.replace(/f(?=[ifl])/g', 'G2-532', 2],
   ['pictures of 50 px', FACTORY, "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 2]], pic: 72,", "tasks: [['picpair', 4], ['sort', 3], ['pillsent', 2]], pic: 50,", 'G2-530', 1],

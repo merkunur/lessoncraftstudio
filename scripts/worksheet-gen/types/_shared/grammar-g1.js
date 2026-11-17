@@ -94,6 +94,19 @@ const NUNITO700 = { a: 0.547, b: 0.6, c: 0.4625, d: 0.6, e: 0.542, f: 0.3422, g:
   Q: 0.785, R: 0.686, S: 0.631, T: 0.6334, U: 0.738, V: 0.713, W: 1.113, X: 0.672, Y: 0.6228, Z: 0.605, ' ': 0.271, '.': 0.27, '?': 0.47, "'": 0.22, ',': 0.27, ':': 0.27 };
 const emOf = (t) => [...String(t)].reduce((a, c) => a + (NUNITO700[c] || (/[0-9]/.test(c) ? 0.56 : 0.9)), 0);
 const LIGS = "font-variant-ligatures:none;font-feature-settings:'liga' 0,'clig' 0;";
+/** A child reads typographic apostrophes and quotation marks: every straight ' and " in the TEXT of a page or a key
+ *  (never in a tag or an attribute) is turned here, once, for all types of this factory (2026-11-17: published pages
+ *  printed straight ones). The bank and the data attributes keep straight ones; verify() straightens what it reads. */
+function typo(html) {
+  let out = '', i = 0;
+  while (i < html.length) {
+    if (html[i] === '<') { const j = html.indexOf('>', i); out += html.slice(i, j + 1); i = j + 1; continue; }
+    const j = html.indexOf('<', i), text = html.slice(i, j < 0 ? html.length : j);
+    out += text.replace(/'/g, '\u2019').replace(/"/g, (m, k, s) => (k === 0 || /[\s([]/.test(s[k - 1]) ? '\u201C' : '\u201D'));
+    i = j < 0 ? html.length : j;
+  }
+  return out;
+}
 const STYLE = '<style>[data-lcs-noliga],[data-lcs-noliga] *{font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style>';   // before the root: verify counts the root's children as blocks
 
 /** In this font an f before i, f, or l touches the next letter even with ligatures off (the i of "fish" loses its dot):
@@ -602,7 +615,7 @@ function makeGrammarG1Type({ id, slug, mode, exerciseType, i18n }) {
       }
 
       return {
-        bodyHtml: STYLE + `<div data-ws-content data-lcs-noliga="1" data-lcs-g1gram="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0">` + fRoom(blocks.join('')) + `</div>`,
+        bodyHtml: STYLE + `<div data-ws-content data-lcs-noliga="1" data-lcs-g1gram="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:4px;min-height:0">` + fRoom(typo(blocks.join(''))) + `</div>`,
         meta: { text: mode + ':' + items.slice(0, 3).join(','), items },
       };
     },
@@ -617,7 +630,7 @@ function makeGrammarG1Type({ id, slug, mode, exerciseType, i18n }) {
         const R = (e) => e.getBoundingClientRect();
         const cs = (e) => getComputedStyle(e);
         const fs = (e) => parseFloat(cs(e).fontSize);
-        const txt = (e) => e.textContent.replace(/\s+/g, ' ').trim();
+        const txt = (e) => e.textContent.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\s+/g, ' ').trim();
         const rb = R(root);
         const kindOf = (w) => (A.DAYS.includes(w) ? 'day' : A.MONTHS.includes(w) ? 'month' : A.NAMES.includes(w) ? 'name' : null);
         const sameWord = (a, b) => a === b || a === b + 's' || b === a + 's';
@@ -636,6 +649,7 @@ function makeGrammarG1Type({ id, slug, mode, exerciseType, i18n }) {
         if (cs(root).fontVariantLigatures !== 'none' || root.dataset.lcsNoliga !== '1') fails.push('the page does not turn ligatures off');
         if ([...root.querySelectorAll('*')].some((e) => !e.children.length && /f[ifl]/.test(e.textContent) && cs(e).fontVariantLigatures !== 'none')) fails.push('a word with fi, fl, or ff joins its letters (ligatures on)');
         { const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let n; while ((n = tw.nextNode())) if (!n.parentElement.closest('svg') && /f[ifl]/.test(n.textContent)) { fails.push('an f before i, f, or l has no room of its own: "' + n.textContent.trim().slice(0, 20) + '"'); break; } }
+        { const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let n; while ((n = tw.nextNode())) if (!n.parentElement.closest('style') && /['"]/.test(n.textContent)) { fails.push('a straight apostrophe or quotation mark on the page: "' + n.textContent.trim().slice(0, 24) + '"'); break; } }
         // the sheet
         document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); if (R(im).width < 56) fails.push('a picture smaller than 56 px'); });
         const blocks = [...root.children];

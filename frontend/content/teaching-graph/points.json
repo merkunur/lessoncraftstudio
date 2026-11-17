@@ -8335,6 +8335,93 @@
    "prerequisites": []
   },
   {
+   "id": "3:opinion-and-reasons",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Tell an opinion from a fact, find the opinion, the reasons and the conclusion of an opinion piece, and plan an opinion piece with reasons",
+   "code": "W.3.1.a",
+   "types": [
+    "G3-548",
+    "G3-549"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 152,
+   "prerequisites": []
+  },
+  {
+   "id": "3:linking-words",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Connect an opinion and its reasons with linking words (because, since, therefore, for example) and draft a whole opinion piece",
+   "code": "W.3.1.c",
+   "types": [
+    "G3-550",
+    "G3-551"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 153,
+   "prerequisites": []
+  },
+  {
+   "id": "3:concluding-statement",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "End an opinion piece with a concluding statement that says the opinion again in new words",
+   "code": "W.3.1.d",
+   "types": [
+    "G3-552",
+    "G3-553"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 154,
+   "prerequisites": []
+  },
+  {
+   "id": "3:revise-and-edit",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "With a checklist and a partner, revise an opinion piece (add a reason or an example, take out what does not belong) and edit it for capitals, end marks and commas",
+   "code": "W.3.5",
+   "types": [
+    "G3-554",
+    "G3-555"
+   ],
+   "families": [
+    "capitals-punctuation",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 155,
+   "prerequisites": []
+  },
+  {
    "id": "3:parts-of-speech",
    "grade": "3",
    "subject": "literacy",
@@ -8352,7 +8439,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 152,
+   "order": 156,
    "prerequisites": []
   },
   {
@@ -8373,7 +8460,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 153,
+   "order": 157,
    "prerequisites": []
   },
   {
@@ -8394,7 +8481,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 154,
+   "order": 158,
    "prerequisites": []
   },
   {
@@ -8415,7 +8502,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 155,
+   "order": 159,
    "prerequisites": []
   },
   {
@@ -8436,7 +8523,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 156,
+   "order": 160,
    "prerequisites": []
   },
   {
@@ -8457,7 +8544,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 157,
+   "order": 161,
    "prerequisites": []
   },
   {
@@ -8478,7 +8565,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 158,
+   "order": 162,
    "prerequisites": []
   },
   {
@@ -8499,7 +8586,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 159,
+   "order": 163,
    "prerequisites": []
   },
   {
@@ -8520,7 +8607,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 160,
+   "order": 164,
    "prerequisites": []
   },
   {

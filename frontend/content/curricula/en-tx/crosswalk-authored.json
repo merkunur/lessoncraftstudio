@@ -5545,6 +5545,66 @@
    ],
    "why": "Drawing a line in each space, counting the words of a sentence, and gluing or copying words with finger spaces is «recognizing that sentences are comprised of words separated by spaces and recognizing word boundaries».",
    "review": "year-design 2026-11-17"
+  },
+  "3:opinion-and-reasons": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.E.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.9.E.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.12.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Checking fact or opinion for each sentence is «distinguishing facts from opinion»; underlining the opinion of a piece is «identifying the claim»; filling the planner (opinion, reasons with examples, conclusion) is «plan a first draft ... using a range of strategies such as ... mapping»; the plan prepares the opinion essay of «compose argumentative texts, including opinion essays».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:linking-words": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drafting the piece from introduction to conclusion is «compose argumentative texts, including opinion essays, using genre characteristics and craft»; giving each reason an example and joining them with because, since, therefore and for example is «developing an engaging idea with relevant details»; the introduction and the conclusion boxes of the draft prepare «organizing with purposeful structure, including an introduction and a conclusion».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:concluding-statement": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the conclusion of a piece (not a new reason, not the opinion copied word for word) and writing conclusions of one's own is the conclusion part of «organizing with purposeful structure, including an introduction and a conclusion».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:revise-and-edit": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Crossing out the sentence that does not belong, adding a sentence with a linking word after a partner's comment and fixing capitals, end marks and commas is «revise drafts ... by adding, deleting, combining, and rearranging ideas for coherence and clarity»; the edit rows of 3.11.D name other conventions (verb tense, nouns, adjectives) and are not claimed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

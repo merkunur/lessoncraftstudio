@@ -813,6 +813,34 @@
    "strand": "Foundational Skills",
    "code": "RF.K.1.c",
    "skill": "See that words are separated by spaces in print: count the words of a sentence and leave a finger space between words"
+  },
+  {
+   "tp": "3:opinion-and-reasons",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.1.a",
+   "skill": "Tell an opinion from a fact, find the opinion, the reasons and the conclusion of an opinion piece, and plan an opinion piece with reasons"
+  },
+  {
+   "tp": "3:linking-words",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.1.c",
+   "skill": "Connect an opinion and its reasons with linking words (because, since, therefore, for example) and draft a whole opinion piece"
+  },
+  {
+   "tp": "3:concluding-statement",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.1.d",
+   "skill": "End an opinion piece with a concluding statement that says the opinion again in new words"
+  },
+  {
+   "tp": "3:revise-and-edit",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.5",
+   "skill": "With a checklist and a partner, revise an opinion piece (add a reason or an example, take out what does not belong) and edit it for capitals, end marks and commas"
   }
  ]
 }

@@ -3826,6 +3826,47 @@
    ]
   },
   {
+   "id": "g3-opinion-writing",
+   "slug": "opinion-writing-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Opinion Writing",
+   "metaTitle": "Opinion Writing: Grade 3 Writing Lesson Plans",
+   "metaDescription": "A Grade 3 opinion writing unit: state an opinion, plan reasons with examples, join them with linking words, end with a conclusion, then revise and edit.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:opinion-and-reasons",
+     "types": [
+      "G3-548",
+      "G3-549"
+     ]
+    },
+    {
+     "point": "3:linking-words",
+     "types": [
+      "G3-550",
+      "G3-551"
+     ]
+    },
+    {
+     "point": "3:concluding-statement",
+     "types": [
+      "G3-552",
+      "G3-553"
+     ]
+    },
+    {
+     "point": "3:revise-and-edit",
+     "types": [
+      "G3-554",
+      "G3-555"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g3-parts-of-speech",
    "slug": "parts-of-speech-grade-3-unit",
    "status": "live",
@@ -4063,6 +4104,7 @@
     "g3-words-and-their-meanings",
     "g3-stories-evidence-lessons-characters",
     "g3-reading-to-learn-informational-texts",
+    "g3-opinion-writing",
     "g3-parts-of-speech",
     "g3-sentences-and-conventions"
    ]

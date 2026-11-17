@@ -1306,7 +1306,8 @@
             "days": 2,
             "tool": "Class Graph",
             "source": "new",
-            "page": "Writing page (opinion): a planner with an introduction box, an opinion box, three reason boxes with a line for a fact or example each, and a conclusion box. A checklist at the bottom: I introduced the topic. I stated my opinion. I organized my reasons. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+            "page": "Writing page (opinion): a planner with an introduction box, an opinion box, three reason boxes with a line for a fact or example each, and a conclusion box. A checklist at the bottom: I introduced the topic. I stated my opinion. I organized my reasons. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank.",
+            "placed": "3:opinion-and-reasons"
           },
           {
             "new": true,
@@ -1315,7 +1316,8 @@
             "standard": "W.3.1.c",
             "days": 3,
             "source": "new",
-            "page": "Writing page (opinion): a draft page with sixteen writing lines under the planner's headings, with linking words in the margin (because, therefore, since, for example, another reason). A checklist at the bottom: Each reason has a fact or example. I used linking words. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (opinion): a draft page with sixteen writing lines under the planner's headings, with linking words in the margin (because, therefore, since, for example, another reason). A checklist at the bottom: Each reason has a fact or example. I used linking words. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "3:linking-words"
           },
           {
             "new": true,
@@ -1324,7 +1326,8 @@
             "standard": "W.3.1.d",
             "days": 2,
             "source": "new",
-            "page": "Writing page (opinion): three short opinion pieces with weak or missing endings; the child picks the best of three conclusions for the first, rewrites the second, and writes one for the third. Then four lines for the conclusion of the child's own draft. Level 1: frames (That is why ___.); level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (opinion): three short opinion pieces with weak or missing endings; the child picks the best of three conclusions for the first, rewrites the second, and writes one for the third. Then four lines for the conclusion of the child's own draft. Level 1: frames (That is why ___.); level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "3:concluding-statement"
           },
           {
             "new": true,
@@ -1333,7 +1336,8 @@
             "standard": "W.3.5",
             "days": 2,
             "source": "new",
-            "page": "Revise-and-edit page: a sample opinion paragraph of eight sentences with six mistakes that the class fixes together, then a checklist (Is every reason supported? Did I use linking words? Capitals? Commas? Spelling of the word-wall words?) and a peer-comment box for the child's own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line where the child records one change they made."
+            "page": "Revise-and-edit page: a sample opinion paragraph of eight sentences with six mistakes that the class fixes together, then a checklist (Is every reason supported? Did I use linking words? Capitals? Commas? Spelling of the word-wall words?) and a peer-comment box for the child's own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line where the child records one change they made.",
+            "placed": "3:revise-and-edit"
           }
         ]
       },

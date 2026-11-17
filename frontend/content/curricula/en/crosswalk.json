@@ -3703,6 +3703,46 @@
    ],
    "by": "code"
   },
+  "3:opinion-and-reasons": {
+   "rows": [
+    {
+     "id": "W.3.1.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:linking-words": {
+   "rows": [
+    {
+     "id": "W.3.1.c",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:concluding-statement": {
+   "rows": [
+    {
+     "id": "W.3.1.d",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:revise-and-edit": {
+   "rows": [
+    {
+     "id": "W.3.5",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:parts-of-speech": {
    "rows": [
     {

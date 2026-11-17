@@ -4451,6 +4451,71 @@
    ],
    "by": "authored"
   },
+  "3:opinion-and-reasons": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.E.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.9.E.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.12.C",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:linking-words": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:concluding-statement": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:revise-and-edit": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:parts-of-speech": {
    "rows": [
     {

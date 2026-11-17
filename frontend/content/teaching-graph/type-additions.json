@@ -395,6 +395,14 @@
   "K-669": "K:spoken-written-words",
   "K-670": "K:spoken-written-words",
   "K-671": "K:spaces-between-words",
-  "K-672": "K:spaces-between-words"
+  "K-672": "K:spaces-between-words",
+  "G3-548": "3:opinion-and-reasons",
+  "G3-549": "3:opinion-and-reasons",
+  "G3-550": "3:linking-words",
+  "G3-551": "3:linking-words",
+  "G3-552": "3:concluding-statement",
+  "G3-553": "3:concluding-statement",
+  "G3-554": "3:revise-and-edit",
+  "G3-555": "3:revise-and-edit"
  }
 }

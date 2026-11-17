@@ -19,6 +19,8 @@
  * place-ready-dd.en.literacy.js; the reviewer of the pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Parts of Speech (G3-530 to G3-537) were added by place-ready-aa.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Opinion Writing (G3-548 to G3-555) were added by place-ready-ff.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -238,6 +240,42 @@ module.exports = {
         mistake: 'Children make the verb agree with the nearest noun (The box of crayons are) and use is after two subjects joined by and. A pronoun may not match its noun (The puppies played. It rolled.).',
         words: 'Say: "When the subject is one, the verb usually ends in s: runs, is, was, has. When the subject is more than one, it does not: run, are, were, have." Day 1, Subjects and Verbs Agree: children circle the verb that agrees and draw an arrow from it to its subject. Level 1 puts the subject next to the verb, and its box says that I and you take the verb without s: I have, you are; Level 2 puts words between them; Level 3 has two subjects joined by and, There is and There are, and pronouns that agree with a noun in the sentence before. Day 2, Fix the Words That Do Not Agree: children cross out the verb or pronoun that does not agree and write the right word on the line; on Levels 2 and 3 two sentences are already right and get a check mark. Then children write two sentences of their own.',
         watch: 'Have children find the subject first and put a finger on it. In a There sentence, the subject comes after the verb. When two things do the action, the arrow points to both: the key underlines the whole subject.',
+      },
+    },
+    '3:opinion-and-reasons': {
+      title: 'State an opinion and plan the reasons',
+      objective: 'Children tell an opinion from a fact, find the opinion, the reasons, and the conclusion in a short opinion piece, and plan their own piece: an introduction, an opinion, three reasons with a fact or an example each, and a conclusion.',
+      note: {
+        mistake: 'Children give a fact as their opinion, or a reason about something else. Some call an example a reason. I like summer is a fact about the speaker, not an opinion.',
+        words: 'Model first: read one piece aloud, underline the opinion, and ask of each sentence: Does it tell why? Say: "An opinion tells what you think. People can disagree with it. A fact can be checked. A reason tells why, and an example shows that the reason is true." Day 1, Opinions and Reasons: fact or opinion for six sentences; then the child marks the opinion, the reasons, and the conclusion of a short piece and writes one more reason. Levels 2 and 3 plant a sentence about something else, which the child crosses out; on Level 3 the reasons have no signal words and part 1 asks: Can it be checked? Day 2, Plan Your Opinion Piece: the child circles one of two questions and fills the planner (a frame, a starter, or a label word on each line, by level), then checks the plan, conclusion included. The small plan on the page is on another question.',
+        watch: 'A true fact about something else is still no reason. A fact can use a word like tallest (The giraffe is the tallest animal.): it can be checked, so it is a fact. Keep each child\'s plan: the draft in the next lesson starts from it.',
+      },
+    },
+    '3:linking-words': {
+      title: 'Reasons with linking words',
+      objective: 'Children connect an opinion and its reasons with linking words (because, since, therefore, for example) and draft an opinion piece that uses them.',
+      note: {
+        mistake: 'Children use because where therefore belongs, or put For example before a new reason instead of an example. Many leave out the comma after Therefore or For example.',
+        words: 'Model first: join "Tag is fun. Everyone can play." two ways on the board (Tag is fun because everyone can play. Since everyone can play, tag is fun.). Say: "Because and since tell why. Therefore tells what happens as a result. For example gives an example." Day 1, Choose the Linking Word: six blanks; the child circles the word that fits, then joins two opinions with their reasons. Because and since are never offered together. Days 2 and 3, Draft: children need their plan from the lesson before. Day 2: the introduction and reasons 1 and 2; day 3: the rest, then a rereading with the checklist in the margin. On Levels 1 and 2 the draft has no conclusion yet: it is written in Write a Conclusion (part 3). Level 3 drafts the whole piece, conclusion included.',
+        watch: 'Since it was cold, we stayed in: a sentence that starts with since or because needs both parts and a comma between them. Therefore and For example start a sentence and take a comma after them.',
+      },
+    },
+    '3:concluding-statement': {
+      title: 'End with a concluding statement',
+      objective: 'Children tell a concluding statement from a new reason and from a sentence that changes the subject, and write conclusions that say the opinion again in new words.',
+      note: {
+        mistake: 'Children end with a new reason, with The end., or with the opinion copied word for word.',
+        words: 'Model first: read a piece and its opinion aloud, then say the opinion again in new words on the board. Say: "A concluding statement comes at the end. It says your opinion again in new words. It does not give a new reason, and it does not change the subject." Day 1, Find the Conclusion: three short pieces, each with three endings; the child circles the concluding statement (Level 1) or writes C, R, or X next to each ending (Levels 2 and 3). Day 2, Write a Conclusion: a better ending for a piece with a weak one, an ending for a piece with none, and the conclusion of the child\'s own draft. Level 1 prints the frame That is why, Level 2 a starter, Level 3 open lines and a word bank. Part 3 needs the child\'s draft from the lesson before.',
+        watch: 'Read the ending with the opinion: it should say the same idea in other words. It may start with That is why, but it does not have to.',
+      },
+    },
+    '3:revise-and-edit': {
+      title: 'Revise and edit an opinion piece',
+      objective: 'Children edit a paragraph for capitals, end marks, commas, a missing linking word, and a sentence that does not belong, then revise their own piece with a checklist and a partner.',
+      note: {
+        mistake: 'Children cross out a sentence they do not like instead of the one that does not belong, or change words that are right.',
+        words: 'Model first: "Revise: add a reason, an example, a conclusion. Edit: capitals, end marks, commas, spelling." Say: "Writers read their work again. They fix what is wrong and make it better." Day 1, Edit an Opinion Paragraph: the box names each kind of mistake, how to fix it, and how many there are (four on Level 1; Level 2 adds a missing comma after For example; Level 3 a word-wall word spelled wrong). Then children write each sentence they fixed. Day 2, Revise Your Opinion Piece: two worked examples (one content change, one mark fix), a checklist for the child and a partner, a partner\'s comment, and one sentence to add (Level 3: one change the child made). Children need their draft and its conclusion from the lessons before.',
+        watch: 'Each mistake has one fix. Where the blank takes since, accept because too (and the other way round). With no word wall, use the class spelling list. The sentence that does not belong is about something else (My pencil is green.).',
       },
     },
   },

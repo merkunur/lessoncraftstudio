@@ -8147,5 +8147,45 @@
     "3": {
       "en": "Choose a heading and write your part of the class report."
     }
+  },
+  "G2-571": {
+    "1": {
+      "en": "A true story tells what happened to me, in order."
+    },
+    "3": {
+      "en": "A true story has a beginning, a middle, and an ending."
+    }
+  },
+  "G2-572": {
+    "1": {
+      "en": "Plan a true story about one small moment."
+    },
+    "3": {
+      "en": "Plan the beginning, the middle, and the ending of your true story."
+    }
+  },
+  "G2-573": {
+    "1": {
+      "en": "Write your true story from your plan."
+    },
+    "3": {
+      "en": "Tell what happened in order, then end your true story."
+    }
+  },
+  "G2-574": {
+    "1": {
+      "en": "Writers fix capital letters and end marks."
+    },
+    "3": {
+      "en": "Writers fix mistakes and take out a sentence that does not belong."
+    }
+  },
+  "G2-575": {
+    "1": {
+      "en": "Read your story with a partner and make it better."
+    },
+    "3": {
+      "en": "A partner helps a writer add details and fix mistakes."
+    }
   }
 }

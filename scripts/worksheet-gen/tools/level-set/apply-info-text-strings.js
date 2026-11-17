@@ -1112,6 +1112,36 @@ const TEXT = {
     2: "Answer your partner with a detail. Then check your writing together.",
     3: "Answer your partner, add a detail, and check your writing.",
   },
+  'G2-571': {
+    title: "Parts of a True Story",
+    1: "A true story tells what happened to me, in order.",
+    2: "Time words tell the order of what happened in a true story.",
+    3: "A true story has a beginning, a middle, and an ending.",
+  },
+  'G2-572': {
+    title: "Plan Your True Story",
+    1: "Plan a true story about one small moment.",
+    2: "A plan tells who, where, when, and what happened.",
+    3: "Plan the beginning, the middle, and the ending of your true story.",
+  },
+  'G2-573': {
+    title: "Draft Your True Story",
+    1: "Write your true story from your plan.",
+    2: "Tell what happened in order, with time words.",
+    3: "Tell what happened in order, then end your true story.",
+  },
+  'G2-574': {
+    title: "Edit a Story",
+    1: "Writers fix capital letters and end marks.",
+    2: "Writers fix capital letters, end marks, and the order of sentences.",
+    3: "Writers fix mistakes and take out a sentence that does not belong.",
+  },
+  'G2-575': {
+    title: "Revise with a Partner",
+    1: "Read your story with a partner and make it better.",
+    2: "Writers add details and fix mistakes when they revise.",
+    3: "A partner helps a writer add details and fix mistakes.",
+  },
 };
 
 function edit(file, fn) {

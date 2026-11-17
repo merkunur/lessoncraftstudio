@@ -5829,5 +5829,25 @@
   "G2-570": {
     "title": "Write Your Part of the Class Report",
     "instruction": "Use your notes to write your part of the class report."
+  },
+  "G2-571": {
+    "title": "Parts of a True Story",
+    "instruction": "Time words tell the order of what happened in a true story."
+  },
+  "G2-572": {
+    "title": "Plan Your True Story",
+    "instruction": "A plan tells who, where, when, and what happened."
+  },
+  "G2-573": {
+    "title": "Draft Your True Story",
+    "instruction": "Tell what happened in order, with time words."
+  },
+  "G2-574": {
+    "title": "Edit a Story",
+    "instruction": "Writers fix capital letters, end marks, and the order of sentences."
+  },
+  "G2-575": {
+    "title": "Revise with a Partner",
+    "instruction": "Writers add details and fix mistakes when they revise."
   }
 }

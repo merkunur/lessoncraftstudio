@@ -1,0 +1,2492 @@
+{
+ "_": "Grade 1 unit Writing: Stories, Opinions, and Facts (types/_shared/writing-g1.js; written by scratch kk-g1write/bank.js)",
+ "story": {
+  "prompts": [
+   {
+    "key": "help",
+    "text": "A time I helped",
+    "notes": [
+     "crayons",
+     "picked up",
+     "gave back"
+    ],
+    "felt": "proud",
+    "e": [
+     "saw Kim drop crayons",
+     "picked them up",
+     "gave them back"
+    ]
+   },
+   {
+    "key": "lost",
+    "text": "Something I lost",
+    "notes": [
+     "lost coat",
+     "my cubby",
+     "the slide"
+    ],
+    "felt": "glad",
+    "e": [
+     "lost my coat",
+     "looked in my cubby",
+     "found it by the slide"
+    ]
+   },
+   {
+    "key": "rain",
+    "text": "A rainy day",
+    "notes": [
+     "rain boots",
+     "a puddle",
+     "wet socks"
+    ],
+    "felt": "silly",
+    "e": [
+     "put on my boots",
+     "jumped in a puddle",
+     "got my socks wet"
+    ]
+   },
+   {
+    "key": "firstday",
+    "text": "My first day of school",
+    "notes": [
+     "my teacher",
+     "my desk",
+     "recess"
+    ],
+    "felt": "excited",
+    "e": [
+     "met my teacher",
+     "found my desk",
+     "played at recess"
+    ]
+   },
+   {
+    "key": "learn",
+    "text": "A new thing I learned",
+    "notes": [
+     "traced name",
+     "slowly",
+     "by myself"
+    ],
+    "felt": "proud",
+    "e": [
+     "traced my name",
+     "wrote it slowly",
+     "wrote it by myself"
+    ]
+   },
+   {
+    "key": "friend",
+    "text": "A new friend",
+    "notes": [
+     "a new girl",
+     "asked her",
+     "played tag"
+    ],
+    "felt": "happy",
+    "e": [
+     "saw a new girl",
+     "asked her to play",
+     "played tag with her"
+    ]
+   },
+   {
+    "key": "wind",
+    "text": "A windy day",
+    "notes": [
+     "my hat",
+     "ran fast",
+     "caught it"
+    ],
+    "felt": "silly",
+    "e": [
+     "saw my hat blow off",
+     "chased it",
+     "caught it by a tree"
+    ]
+   },
+   {
+    "key": "brave",
+    "text": "A time I felt brave",
+    "notes": [
+     "a ladder",
+     "at the top",
+     "zoomed"
+    ],
+    "felt": "brave",
+    "e": [
+     "climbed the ladder",
+     "sat at the top",
+     "zoomed down the slide"
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "key": "picday",
+    "title": "Picture Day",
+    "e": [
+     "I combed my hair at my desk",
+     "I sat on a tall stool and smiled",
+     "The man took my picture"
+    ],
+    "end": "I was happy with my picture.",
+    "extra": "I wore a red hat to school.",
+    "alt": "Then"
+   },
+   {
+    "key": "drill",
+    "title": "The Fire Drill",
+    "e": [
+     "A loud bell rang in our class",
+     "We walked out in a line",
+     "We stood on the grass and waited"
+    ],
+    "end": "I was glad to go back in.",
+    "extra": "We ran outside to the big bus.",
+    "alt": "After that"
+   },
+   {
+    "key": "seeds",
+    "title": "Our Seeds",
+    "e": [
+     "I put dirt in a cup",
+     "I pushed two seeds into the dirt",
+     "I gave them a little water"
+    ],
+    "end": "I can't wait to see them grow.",
+    "extra": "I picked a red flower."
+   },
+   {
+    "key": "tower",
+    "title": "The Tall Tower",
+    "e": [
+     "Sam and I got the big blocks",
+     "We stacked them up as tall as me",
+     "The tower fell with a crash"
+    ],
+    "end": "We laughed so hard!",
+    "extra": "We painted all the blocks red.",
+    "alt": "Then"
+   },
+   {
+    "key": "library",
+    "title": "Library Day",
+    "e": [
+     "Our class walked to the library",
+     "I picked a book about sharks",
+     "I read it on a big pillow"
+    ],
+    "end": "It was the best part of my day.",
+    "extra": "I picked a book about bears.",
+    "alt": "After that"
+   },
+   {
+    "key": "bubble",
+    "title": "The Big Bubble",
+    "e": [
+     "I dipped the wand in the soap",
+     "I blew very slowly",
+     "A big bubble floated up"
+    ],
+    "end": "It popped on my nose and made me laugh.",
+    "extra": "I blew a tiny bubble."
+   },
+   {
+    "key": "leaves",
+    "title": "The Leaf Hunt",
+    "e": [
+     "We walked out to the big tree",
+     "I found a red leaf and a yellow leaf",
+     "We glued our leaves on paper"
+    ],
+    "end": "Our class wall looked so pretty.",
+    "extra": "I found a green frog by the tree.",
+    "alt": "Then"
+   },
+   {
+    "key": "music",
+    "title": "Music Time",
+    "e": [
+     "I got a drum from the bin",
+     "I tapped it with a stick",
+     "We played a song for our class"
+    ],
+    "end": "Everyone clapped, and I smiled.",
+    "extra": "I played the bells very loud."
+   },
+   {
+    "key": "salad",
+    "title": "Fruit Salad",
+    "e": [
+     "We washed the grapes",
+     "I cut a banana with a plastic knife",
+     "We mixed it all in a bowl"
+    ],
+    "end": "It was so good to eat!",
+    "extra": "We baked a big chocolate cake.",
+    "alt": "After that"
+   },
+   {
+    "key": "dance",
+    "title": "Freeze Dance",
+    "e": [
+     "Our teacher played a fast song",
+     "We hopped and spun around",
+     "The music stopped, and we froze like statues"
+    ],
+    "end": "We all fell down and giggled.",
+    "extra": "We sang a slow song together."
+   },
+   {
+    "key": "course",
+    "title": "The Obstacle Course",
+    "e": [
+     "I crawled under a long table",
+     "I jumped over three cones",
+     "I ran fast to the wall"
+    ],
+    "end": "My teacher gave me a high five!",
+    "extra": "I climbed up a long rope.",
+    "alt": "Then"
+   },
+   {
+    "key": "paint",
+    "title": "Paint Day",
+    "e": [
+     "I put on an old shirt",
+     "I painted a big yellow sun",
+     "I hung it up to dry"
+    ],
+    "end": "I was proud of my sun.",
+    "extra": "I painted a blue moon."
+   },
+   {
+    "key": "chalk",
+    "title": "Sidewalk Chalk",
+    "e": [
+     "I got a fat piece of blue chalk",
+     "I drew a long road on the sidewalk",
+     "I drew a car on my road"
+    ],
+    "end": "My road went all the way to the gate!",
+    "extra": "I drew a pink fish with chalk.",
+    "alt": "After that"
+   },
+   {
+    "key": "sand",
+    "title": "The Sand Castle",
+    "e": [
+     "I filled a cup with wet sand",
+     "I patted it down hard",
+     "I flipped it over to make a castle"
+    ],
+    "end": "My castle stood up tall!",
+    "extra": "I dug a deep hole in the sand."
+   },
+   {
+    "key": "hop",
+    "title": "Hopscotch",
+    "e": [
+     "I tossed a stone onto square one",
+     "I hopped on one foot to the top",
+     "I hopped back and picked up my stone"
+    ],
+    "end": "I did not fall down at all!",
+    "extra": "I tossed a red ball over the fence."
+   },
+   {
+    "key": "plane",
+    "title": "The Paper Plane",
+    "e": [
+     "I folded my paper in half",
+     "I folded two wings",
+     "I threw my plane across the room"
+    ],
+    "end": "It flew all the way to the door!",
+    "extra": "I colored my plane red."
+   }
+  ],
+  "models": [
+   {
+    "key": "snail",
+    "e": [
+     "found a snail on a rock",
+     "let it crawl on a leaf",
+     "put it back by the rock"
+    ],
+    "felt": "happy"
+   },
+   {
+    "key": "clay",
+    "e": [
+     "rolled the clay flat",
+     "cut out a star",
+     "let it dry"
+    ],
+    "felt": "proud"
+   },
+   {
+    "key": "puzzle",
+    "e": [
+     "dumped out the puzzle",
+     "found the edge pieces",
+     "put in every piece"
+    ],
+    "felt": "proud"
+   },
+   {
+    "key": "ladybug",
+    "e": [
+     "found a ladybug",
+     "let it walk on my hand",
+     "set it on a leaf"
+    ],
+    "felt": "calm"
+   },
+   {
+    "key": "card",
+    "e": [
+     "folded the paper",
+     "drew a big heart",
+     "wrote my name inside"
+    ],
+    "felt": "happy"
+   },
+   {
+    "key": "cups",
+    "e": [
+     "stacked ten cups",
+     "made a tall tower",
+     "knocked it down"
+    ],
+    "felt": "silly"
+   },
+   {
+    "key": "rope",
+    "e": [
+     "got the long rope",
+     "jumped in the middle",
+     "jumped ten times"
+    ],
+    "felt": "proud"
+   },
+   {
+    "key": "birds",
+    "e": [
+     "put seeds on a plate",
+     "sat very still",
+     "saw a red bird"
+    ],
+    "felt": "excited"
+   },
+   {
+    "key": "fort",
+    "e": [
+     "got two chairs",
+     "put a sheet on top",
+     "crawled inside"
+    ],
+    "felt": "cozy"
+   },
+   {
+    "key": "catch",
+    "e": [
+     "threw the ball up",
+     "caught it with two hands",
+     "threw it to Ben"
+    ],
+    "felt": "glad"
+   },
+   {
+    "key": "mask",
+    "e": [
+     "cut out a paper mask",
+     "colored it green",
+     "put it on"
+    ],
+    "felt": "silly"
+   },
+   {
+    "key": "bean",
+    "e": [
+     "dug a little hole",
+     "dropped in a bean",
+     "covered it with dirt"
+    ],
+    "felt": "happy"
+   },
+   {
+    "key": "beads",
+    "e": [
+     "got a long string",
+     "put on ten beads",
+     "tied the ends"
+    ],
+    "felt": "proud"
+   },
+   {
+    "key": "swing",
+    "e": [
+     "sat on the swing",
+     "pumped my legs",
+     "went up high"
+    ],
+    "felt": "happy"
+   },
+   {
+    "key": "boat",
+    "e": [
+     "folded a paper boat",
+     "set it in the water",
+     "watched it float"
+    ],
+    "felt": "excited"
+   },
+   {
+    "key": "puppet",
+    "e": [
+     "found an old sock",
+     "glued on two eyes",
+     "made it talk"
+    ],
+    "felt": "silly"
+   }
+  ],
+  "feelings": [
+   "happy",
+   "proud",
+   "glad",
+   "sad",
+   "scared",
+   "silly",
+   "excited",
+   "tired"
+  ],
+  "wordBank": [
+   "First",
+   "Next",
+   "Then",
+   "Last",
+   "At the end",
+   "I felt"
+  ]
+ },
+ "opinion": {
+  "topics": [
+   {
+    "key": "apples",
+    "x": "apples",
+    "y": "snack",
+    "op3": "Apples are the best snack.",
+    "rs": [
+     "They crunch when you bite them.",
+     "They are sweet and juicy."
+    ],
+    "also": {
+     "0": [
+      "carrots"
+     ],
+     "1": [
+      "carrots"
+     ]
+    },
+    "judge": [
+     1
+    ],
+    "ys": "snack",
+    "xs": "an apple",
+    "ms": "it crunches"
+   },
+   {
+    "key": "ladybugs",
+    "x": "ladybugs",
+    "y": "bugs",
+    "op3": "Ladybugs are the best bugs.",
+    "rs": [
+     "They have red wings with black spots.",
+     "They eat tiny bugs that hurt plants."
+    ],
+    "also": {
+     "0": [
+      "butterflies"
+     ],
+     "1": [
+      "frogs"
+     ]
+    },
+    "ys": "bug",
+    "xs": "the ladybug",
+    "ms": "it has black spots"
+   },
+   {
+    "key": "dolphins",
+    "x": "dolphins",
+    "y": "sea animals",
+    "op3": "Dolphins are the most fun sea animals.",
+    "rs": [
+     "They can jump high out of the water.",
+     "They are very smart."
+    ],
+    "also": {
+     "0": [
+      "frogs",
+      "penguins"
+     ]
+    },
+    "carry": [
+     "jump high",
+     "very smart"
+    ],
+    "ys": "sea animal",
+    "xs": "the dolphin",
+    "ms": "it can jump high"
+   },
+   {
+    "key": "giraffes",
+    "x": "giraffes",
+    "y": "zoo animals",
+    "op3": "Giraffes are the coolest zoo animals.",
+    "rs": [
+     "They can eat leaves from tall trees.",
+     "Their necks are very long."
+    ],
+    "also": {},
+    "carry": [
+     "tall trees",
+     "very long"
+    ],
+    "ys": "zoo animal",
+    "xs": "the giraffe",
+    "ms": "it has a long neck"
+   },
+   {
+    "key": "firetrucks",
+    "x": "fire trucks",
+    "y": "trucks",
+    "op3": "Fire trucks are the best trucks.",
+    "rs": [
+     "They help put out fires.",
+     "They have tall ladders."
+    ],
+    "also": {},
+    "ys": "truck",
+    "xs": "the fire truck",
+    "ms": "it puts out fires"
+   },
+   {
+    "key": "sunflowers",
+    "x": "sunflowers",
+    "y": "flowers",
+    "op3": "Sunflowers are the prettiest flowers.",
+    "rs": [
+     "They have big yellow petals.",
+     "They look like the sun."
+    ],
+    "also": {},
+    "judge": [
+     1
+    ],
+    "carry": [
+     "yellow petals",
+     "like the sun"
+    ],
+    "ys": "flower",
+    "xs": "the sunflower",
+    "ms": "it has big petals"
+   },
+   {
+    "key": "penguins",
+    "x": "penguins",
+    "y": "birds",
+    "op3": "Penguins are the funniest birds.",
+    "rs": [
+     "They can slide on their bellies.",
+     "They waddle when they walk."
+    ],
+    "also": {},
+    "carry": [
+     "slide",
+     "waddle"
+    ],
+    "ys": "bird",
+    "xs": "the penguin",
+    "ms": "it can slide on its belly"
+   },
+   {
+    "key": "drums",
+    "x": "drums",
+    "y": "instruments",
+    "op3": "Drums are the best instruments.",
+    "rs": [
+     "You can play them very loud.",
+     "You can play a fast beat on them."
+    ],
+    "also": {},
+    "ys": "instrument",
+    "xs": "the drum",
+    "ms": "you can play it loud"
+   },
+   {
+    "key": "carrots",
+    "x": "carrots",
+    "y": "vegetable",
+    "op3": "Carrots are the best vegetable.",
+    "rs": [
+     "You can eat them as a snack.",
+     "They help your eyes stay healthy."
+    ],
+    "also": {
+     "0": [
+      "apples"
+     ],
+     "1": [
+      "apples"
+     ]
+    },
+    "ys": "vegetable",
+    "xs": "the carrot",
+    "ms": "it is crunchy"
+   },
+   {
+    "key": "trains",
+    "x": "trains",
+    "y": "way to travel",
+    "op3": "Trains are the best way to travel.",
+    "rs": [
+     "They can carry lots of people.",
+     "You can look out the big windows."
+    ],
+    "also": {},
+    "ys": "way to travel",
+    "xs": "the train",
+    "ms": "it carries lots of people"
+   },
+   {
+    "key": "kites",
+    "x": "kites",
+    "y": "toys",
+    "op3": "Kites are the most fun toys.",
+    "rs": [
+     "They fly high in the wind.",
+     "You can fly them on windy days."
+    ],
+    "also": {},
+    "carry": [
+     "fly high",
+     "fly them"
+    ],
+    "ys": "toy",
+    "xs": "the kite",
+    "ms": "it flies high"
+   },
+   {
+    "key": "frogs",
+    "x": "frogs",
+    "y": "pond animals",
+    "op3": "Frogs are the coolest pond animals.",
+    "rs": [
+     "They can jump very far.",
+     "They catch bugs with their long tongues."
+    ],
+    "also": {
+     "0": [
+      "dolphins"
+     ]
+    },
+    "carry": [
+     "jump very far",
+     "long tongues"
+    ],
+    "ys": "pond animal",
+    "xs": "the frog",
+    "ms": "it can jump far"
+   },
+   {
+    "key": "crayons",
+    "x": "crayons",
+    "y": "art tools",
+    "op3": "Crayons are the best art tools.",
+    "rs": [
+     "They come in a big box of colors.",
+     "They do not spill like paint."
+    ],
+    "also": {
+     "0": [
+      "blocks"
+     ]
+    },
+    "ys": "art tool",
+    "xs": "the crayon",
+    "ms": "it does not spill"
+   },
+   {
+    "key": "rockets",
+    "x": "rockets",
+    "y": "machines",
+    "op3": "Rockets are the coolest machines.",
+    "rs": [
+     "They can fly into space.",
+     "They blast off with fire and smoke."
+    ],
+    "also": {},
+    "carry": [
+     "into space",
+     "fire and smoke"
+    ],
+    "ys": "machine",
+    "xs": "the rocket",
+    "ms": "it can fly into space"
+   },
+   {
+    "key": "pandas",
+    "x": "pandas",
+    "y": "bears",
+    "op3": "Pandas are the cutest bears.",
+    "rs": [
+     "They have round, fuzzy ears.",
+     "They have black and white fur."
+    ],
+    "also": {
+     "1": [
+      "zebras",
+      "penguins"
+     ]
+    },
+    "carry": [
+     "fuzzy ears",
+     "black and white fur"
+    ],
+    "ys": "bear",
+    "xs": "the panda",
+    "ms": "it has fuzzy ears"
+   },
+   {
+    "key": "butterflies",
+    "x": "butterflies",
+    "y": "insects",
+    "op3": "Butterflies are the prettiest insects.",
+    "rs": [
+     "Their wings have bright colors.",
+     "They flutter from flower to flower."
+    ],
+    "also": {
+     "0": [
+      "ladybugs"
+     ]
+    },
+    "carry": [
+     "bright colors",
+     "flower to flower"
+    ],
+    "ys": "insect",
+    "xs": "the butterfly",
+    "ms": "its wings are bright"
+   },
+   {
+    "key": "blocks",
+    "x": "blocks",
+    "y": "toys",
+    "op3": "Blocks are the best toys.",
+    "rs": [
+     "You can build tall towers with them.",
+     "They come in many shapes."
+    ],
+    "also": {
+     "1": [
+      "kites"
+     ]
+    },
+    "ys": "toy",
+    "xs": "the block set",
+    "ms": "you can build towers with it"
+   },
+   {
+    "key": "zebras",
+    "x": "zebras",
+    "y": "zoo animals",
+    "op3": "Zebras are the best zoo animals.",
+    "rs": [
+     "They have black and white stripes.",
+     "They can run very fast."
+    ],
+    "also": {
+     "1": [
+      "giraffes",
+      "trains"
+     ]
+    },
+    "ys": "zoo animal",
+    "xs": "the zebra",
+    "ms": "it has stripes"
+   }
+  ],
+  "example": {
+   "op": "I think owls are the best night birds.",
+   "r": "They can see in the dark."
+  },
+  "prompts": [
+   {
+    "key": "season",
+    "q": "What is the best season?",
+    "y": "season",
+    "x": "fall",
+    "why": "leaves turn red"
+   },
+   {
+    "key": "game",
+    "q": "What is the best recess game?",
+    "y": "recess game",
+    "x": "tag",
+    "why": "you run fast"
+   },
+   {
+    "key": "place",
+    "q": "What is the best spot to read?",
+    "y": "spot to read",
+    "x": "the rug",
+    "why": "it is soft",
+    "open": false
+   },
+   {
+    "key": "book",
+    "q": "What is the best book we read?",
+    "y": "book",
+    "x": "Frog Fun",
+    "why": "it is funny",
+    "also": "Any book the class read is right.",
+    "open": false
+   },
+   {
+    "key": "shape",
+    "q": "What is the best shape?",
+    "y": "shape",
+    "x": "a circle",
+    "why": "it can roll"
+   },
+   {
+    "key": "color",
+    "q": "What is the best color?",
+    "y": "color",
+    "x": "blue",
+    "why": "the sky is blue"
+   },
+   {
+    "key": "time",
+    "q": "What is the best time of day?",
+    "y": "time of day",
+    "x": "morning",
+    "why": "the sun comes up",
+    "open": false
+   },
+   {
+    "key": "fruit",
+    "q": "What is the best fruit?",
+    "y": "fruit",
+    "x": "a banana",
+    "why": "it is sweet"
+   },
+   {
+    "key": "weather",
+    "q": "What is the best weather?",
+    "y": "weather",
+    "x": "rain",
+    "why": "I can splash"
+   }
+  ],
+  "wordBank": [
+   "This is about",
+   "I think",
+   "is the best",
+   "because",
+   "That is why"
+  ]
+ },
+ "facts": {
+  "day1": [
+   {
+    "key": "ducks",
+    "noun": "Ducks",
+    "one": "duck",
+    "pic": [
+     "farm animals",
+     "duck"
+    ],
+    "file": [
+     "Ducks have feathers.",
+     "Ducks can swim.",
+     "Ducks lay eggs."
+    ],
+    "about": [
+     "Ducks have webbed feet.",
+     "Ducks have bills.",
+     "Ducks are birds.",
+     "Many ducks can fly."
+    ],
+    "bang": "Ducks have webbed feet.",
+    "near": "A pond can freeze in winter.",
+    "closing": "Now you know about ducks!"
+   },
+   {
+    "key": "frogs",
+    "noun": "Frogs",
+    "one": "frog",
+    "pic": [
+     "forest creatures",
+     "frog"
+    ],
+    "file": [
+     "Frogs can jump.",
+     "Frogs lay eggs.",
+     "Frogs eat bugs."
+    ],
+    "about": [
+     "Frogs have long back legs.",
+     "Frogs can live on land and in water.",
+     "Frogs catch bugs with their tongues.",
+     "Baby frogs are called tadpoles."
+    ],
+    "bang": "Baby frogs are called tadpoles.",
+    "near": "Lily pads float on ponds.",
+    "closing": "That is all about frogs."
+   },
+   {
+    "key": "bees",
+    "noun": "Bees",
+    "one": "bee",
+    "pic": [
+     "insects and bugs",
+     "bee"
+    ],
+    "file": [
+     "Bees can fly.",
+     "Bees visit flowers.",
+     "Bees are insects."
+    ],
+    "about": [
+     "Bees drink nectar from flowers.",
+     "Bees have feelers.",
+     "Bees can buzz.",
+     "Bees have wings."
+    ],
+    "bang": "Bees drink nectar from flowers.",
+    "near": "Flowers grow in gardens.",
+    "closing": "Now you know about bees!"
+   },
+   {
+    "key": "penguins",
+    "noun": "Penguins",
+    "one": "penguin",
+    "pic": [
+     "birds",
+     "penguin"
+    ],
+    "file": [
+     "Penguins are birds.",
+     "Penguins can swim.",
+     "Penguins cannot fly."
+    ],
+    "about": [
+     "Penguins lay eggs.",
+     "Penguins eat fish.",
+     "Penguins have feathers.",
+     "Penguins have flippers."
+    ],
+    "bang": "Penguins have flippers.",
+    "near": "Ice floats on cold water.",
+    "closing": "That is all about penguins."
+   },
+   {
+    "key": "turtles",
+    "noun": "Turtles",
+    "one": "turtle",
+    "pic": [
+     "forest creatures",
+     "turtle"
+    ],
+    "file": [
+     "Turtles have shells.",
+     "Turtles lay eggs.",
+     "Turtles have tails."
+    ],
+    "about": [
+     "Turtles have no teeth.",
+     "Turtles breathe air.",
+     "Turtles can live a long time.",
+     "Baby turtles hatch from eggs."
+    ],
+    "bang": "Turtles can live a long time.",
+    "near": "A log can float in a pond.",
+    "closing": "Now you know about turtles!"
+   },
+   {
+    "key": "ants",
+    "noun": "Ants",
+    "one": "ant",
+    "pic": [
+     "insects and bugs",
+     "ant"
+    ],
+    "file": [
+     "Ants are insects.",
+     "Ants live in big groups.",
+     "Ants can carry food."
+    ],
+    "about": [
+     "Ants have two feelers.",
+     "Ants can dig tunnels.",
+     "Ants are very small.",
+     "Ants can lift things heavier than they are."
+    ],
+    "bang": "Ants can lift things heavier than they are.",
+    "near": "Dirt can hold water.",
+    "closing": "I hope you learned a lot about ants."
+   },
+   {
+    "key": "sheep",
+    "noun": "Sheep",
+    "one": "sheep",
+    "pic": [
+     "farm animals",
+     "sheep"
+    ],
+    "file": [
+     "Sheep eat grass.",
+     "Sheep have four legs.",
+     "Baby sheep are called lambs."
+    ],
+    "about": [
+     "Sheep have hooves.",
+     "Sheep can live in big groups.",
+     "Sheep say baa.",
+     "Sheep chew their food for a long time."
+    ],
+    "bang": "Sheep say baa.",
+    "near": "Grass grows in fields.",
+    "closing": "That is all about sheep."
+   },
+   {
+    "key": "pigs",
+    "noun": "Pigs",
+    "one": "pig",
+    "pic": [
+     "farm animals",
+     "pig"
+    ],
+    "file": [
+     "Pigs have four legs.",
+     "Pigs have flat noses called snouts.",
+     "Pigs can roll in mud."
+    ],
+    "about": [
+     "Baby pigs are called piglets.",
+     "Pigs say oink.",
+     "Pigs have hooves.",
+     "Many pigs have curly tails."
+    ],
+    "bang": "Baby pigs are called piglets.",
+    "near": "Mud is wet dirt.",
+    "closing": "Now you know about pigs!"
+   },
+   {
+    "key": "butterflies",
+    "noun": "Butterflies",
+    "one": "butterfly",
+    "pic": [
+     "insects and bugs",
+     "butterfly"
+    ],
+    "file": [
+     "Butterflies have four wings.",
+     "Butterflies drink from flowers.",
+     "Butterflies can fly."
+    ],
+    "about": [
+     "Butterflies start out as caterpillars.",
+     "Butterflies are insects.",
+     "Butterflies taste with their feet.",
+     "Butterflies have feelers."
+    ],
+    "bang": "Butterflies taste with their feet.",
+    "near": "Many flowers have bright colors.",
+    "closing": "I hope you learned a lot about butterflies."
+   },
+   {
+    "key": "whales",
+    "noun": "Whales",
+    "one": "whale",
+    "pic": [
+     "ocean life",
+     "whale"
+    ],
+    "file": [
+     "Whales live in the ocean.",
+     "Whales breathe air.",
+     "Whales are very big."
+    ],
+    "about": [
+     "Whales have blowholes.",
+     "Whales are not fish.",
+     "Whales can swim a long way.",
+     "Baby whales are called calves."
+    ],
+    "bang": "Whales have blowholes.",
+    "near": "Ocean water is salty.",
+    "closing": "That is all about whales."
+   },
+   {
+    "key": "giraffes",
+    "noun": "Giraffes",
+    "one": "giraffe",
+    "pic": [
+     "zoo animals",
+     "giraffe"
+    ],
+    "file": [
+     "Giraffes have long necks.",
+     "Giraffes eat leaves.",
+     "Giraffes have spots."
+    ],
+    "about": [
+     "Giraffes are very tall.",
+     "Giraffes have long legs.",
+     "Giraffes have long tongues.",
+     "Baby giraffes are called calves."
+    ],
+    "bang": "Baby giraffes are called calves.",
+    "near": "Some leaves are very big.",
+    "closing": "Now you know about giraffes!"
+   },
+   {
+    "key": "zebras",
+    "noun": "Zebras",
+    "one": "zebra",
+    "pic": [
+     "zoo animals",
+     "zebra"
+    ],
+    "file": [
+     "Zebras have stripes.",
+     "Zebras eat grass.",
+     "Zebras live in groups."
+    ],
+    "about": [
+     "Zebras can run fast.",
+     "Zebras have hooves.",
+     "Zebras have four legs.",
+     "Baby zebras are called foals."
+    ],
+    "bang": "Zebras can run fast.",
+    "near": "Grass can grow very tall.",
+    "closing": "I hope you learned a lot about zebras."
+   },
+   {
+    "key": "owls",
+    "noun": "Owls",
+    "one": "owl",
+    "pic": [
+     "forest creatures",
+     "owl"
+    ],
+    "file": [
+     "Owls are birds.",
+     "Owls have big eyes.",
+     "Owls have feathers."
+    ],
+    "about": [
+     "Owls can turn their heads a long way.",
+     "Owls have sharp claws.",
+     "Owls lay eggs.",
+     "Many owls hunt at night."
+    ],
+    "bang": "Owls can turn their heads a long way.",
+    "near": "Stars shine at night.",
+    "closing": "That is all about owls."
+   },
+   {
+    "key": "snails",
+    "noun": "Snails",
+    "one": "snail",
+    "pic": [
+     "insects and bugs",
+     "snail"
+    ],
+    "file": [
+     "Snails have shells.",
+     "Snails move slowly.",
+     "Snails leave a slimy trail."
+    ],
+    "about": [
+     "Snails have feelers.",
+     "Snails can hide in their shells.",
+     "Snails have no legs.",
+     "Many snails eat plants."
+    ],
+    "bang": "Snails can hide in their shells.",
+    "near": "Grass can be wet in the morning.",
+    "closing": "Now you know about snails!"
+   },
+   {
+    "key": "crabs",
+    "noun": "Crabs",
+    "one": "crab",
+    "pic": [
+     "ocean life",
+     "crab"
+    ],
+    "file": [
+     "Crabs have hard shells.",
+     "Crabs have two claws.",
+     "Crabs can walk sideways."
+    ],
+    "about": [
+     "Crabs breathe with gills.",
+     "Crabs lay eggs.",
+     "Many crabs live in the ocean.",
+     "Crabs can dig in the sand."
+    ],
+    "bang": "Crabs can dig in the sand.",
+    "near": "Many beaches have sand.",
+    "closing": "I hope you learned a lot about crabs."
+   },
+   {
+    "key": "bats",
+    "noun": "Bats",
+    "one": "bat",
+    "pic": [
+     "forest creatures",
+     "bat"
+    ],
+    "file": [
+     "Bats can fly.",
+     "Bats have wings.",
+     "Bats have fur."
+    ],
+    "about": [
+     "Bats are not birds.",
+     "Many bats sleep in the day.",
+     "Bats can hang upside down.",
+     "Baby bats are called pups."
+    ],
+    "bang": "Bats can hang upside down.",
+    "near": "Caves are dark inside.",
+    "closing": "That is all about bats."
+   },
+   {
+    "key": "ladybugs",
+    "noun": "Ladybugs",
+    "one": "ladybug",
+    "pic": [
+     "insects and bugs",
+     "ladybug"
+    ],
+    "file": [
+     "Ladybugs are insects.",
+     "Ladybugs can fly.",
+     "Many ladybugs have spots."
+    ],
+    "about": [
+     "Ladybugs have two feelers.",
+     "Many ladybugs eat tiny bugs.",
+     "Ladybugs have wings.",
+     "Many ladybugs are red."
+    ],
+    "bang": "Many ladybugs eat tiny bugs.",
+    "near": "Leaves can have holes in them.",
+    "closing": "Now you know about ladybugs!"
+   }
+  ],
+  "day2": [
+   {
+    "key": "cows",
+    "noun": "Cows",
+    "pic": [
+     "farm animals",
+     "cow"
+    ],
+    "notes": [
+     [
+      "eat",
+      "grass"
+     ],
+     [
+      "have",
+      "four legs"
+     ],
+     [
+      "can",
+      "moo"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "legs"
+    ]
+   },
+   {
+    "key": "horses",
+    "noun": "Horses",
+    "pic": [
+     "farm animals",
+     "horse"
+    ],
+    "notes": [
+     [
+      "eat",
+      "hay"
+     ],
+     [
+      "have",
+      "long tails"
+     ],
+     [
+      "can",
+      "run fast"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "legs"
+    ]
+   },
+   {
+    "key": "rabbits",
+    "noun": "Rabbits",
+    "pic": [
+     "farm animals",
+     "rabbit"
+    ],
+    "notes": [
+     [
+      "have",
+      "long ears"
+     ],
+     [
+      "eat",
+      "plants"
+     ],
+     [
+      "can",
+      "hop"
+     ]
+    ],
+    "labels": [
+     "ears",
+     "tail"
+    ]
+   },
+   {
+    "key": "squirrels",
+    "noun": "Squirrels",
+    "pic": [
+     "forest creatures",
+     "squirrel"
+    ],
+    "notes": [
+     [
+      "have",
+      "big tails"
+     ],
+     [
+      "eat",
+      "nuts"
+     ],
+     [
+      "can",
+      "climb trees"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "ears"
+    ]
+   },
+   {
+    "key": "elephants",
+    "noun": "Elephants",
+    "pic": [
+     "zoo animals",
+     "elephant"
+    ],
+    "notes": [
+     [
+      "have",
+      "trunks"
+     ],
+     [
+      "eat",
+      "plants"
+     ],
+     [
+      "are",
+      "very big"
+     ]
+    ],
+    "labels": [
+     "ears",
+     "legs"
+    ]
+   },
+   {
+    "key": "sharks",
+    "noun": "Sharks",
+    "pic": [
+     "ocean life",
+     "shark"
+    ],
+    "notes": [
+     [
+      "live",
+      "in the sea"
+     ],
+     [
+      "have",
+      "fins"
+     ],
+     [
+      "can",
+      "swim fast"
+     ]
+    ],
+    "labels": [
+     "fins",
+     "tail"
+    ]
+   },
+   {
+    "key": "octopuses",
+    "noun": "Octopuses",
+    "pic": [
+     "ocean life",
+     "octopus"
+    ],
+    "notes": [
+     [
+      "have",
+      "eight arms"
+     ],
+     [
+      "live",
+      "in the sea"
+     ],
+     [
+      "can",
+      "squirt ink"
+     ]
+    ],
+    "labels": [
+     "arms",
+     "eyes"
+    ]
+   },
+   {
+    "key": "lions",
+    "noun": "Lions",
+    "pic": [
+     "zoo animals",
+     "lion"
+    ],
+    "notes": [
+     [
+      "eat",
+      "meat"
+     ],
+     [
+      "have",
+      "sharp teeth"
+     ],
+     [
+      "live",
+      "in groups"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "nose"
+    ]
+   },
+   {
+    "key": "dolphins",
+    "noun": "Dolphins",
+    "pic": [
+     "ocean life",
+     "dolphin"
+    ],
+    "notes": [
+     [
+      "have",
+      "blowholes"
+     ],
+     [
+      "can",
+      "swim fast"
+     ],
+     [
+      "live",
+      "in the sea"
+     ]
+    ],
+    "labels": [
+     "fins",
+     "tail"
+    ]
+   },
+   {
+    "key": "goats",
+    "noun": "Goats",
+    "pic": [
+     "farm animals",
+     "goat"
+    ],
+    "notes": [
+     [
+      "eat",
+      "plants"
+     ],
+     [
+      "have",
+      "hooves"
+     ],
+     [
+      "can",
+      "climb rocks"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "legs"
+    ]
+   },
+   {
+    "key": "hens",
+    "noun": "Hens",
+    "pic": [
+     "farm animals",
+     "hen"
+    ],
+    "notes": [
+     [
+      "have",
+      "feathers"
+     ],
+     [
+      "eat",
+      "seeds"
+     ],
+     [
+      "can",
+      "lay eggs"
+     ]
+    ],
+    "labels": [
+     "beak",
+     "legs"
+    ]
+   },
+   {
+    "key": "camels",
+    "noun": "Camels",
+    "pic": [
+     "zoo animals",
+     "camel"
+    ],
+    "notes": [
+     [
+      "have",
+      "humps"
+     ],
+     [
+      "eat",
+      "plants"
+     ],
+     [
+      "can",
+      "walk far"
+     ]
+    ],
+    "labels": [
+     "legs",
+     "head"
+    ]
+   },
+   {
+    "key": "kangaroos",
+    "noun": "Kangaroos",
+    "pic": [
+     "zoo animals",
+     "kangaroo"
+    ],
+    "notes": [
+     [
+      "can",
+      "hop"
+     ],
+     [
+      "have",
+      "long tails"
+     ],
+     [
+      "eat",
+      "grass"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "ears"
+    ]
+   },
+   {
+    "key": "beavers",
+    "noun": "Beavers",
+    "pic": [
+     "forest creatures",
+     "beaver"
+    ],
+    "notes": [
+     [
+      "have",
+      "flat tails"
+     ],
+     [
+      "can",
+      "chew wood"
+     ],
+     [
+      "live",
+      "near water"
+     ]
+    ],
+    "labels": [
+     "tail",
+     "feet"
+    ]
+   },
+   {
+    "key": "pandas",
+    "noun": "Pandas",
+    "pic": [
+     "zoo animals",
+     "panda"
+    ],
+    "notes": [
+     [
+      "eat",
+      "bamboo"
+     ],
+     [
+      "are",
+      "bears"
+     ],
+     [
+      "have",
+      "round ears"
+     ]
+    ],
+    "labels": [
+     "ears",
+     "legs"
+    ]
+   }
+  ],
+  "own": [
+   {
+    "key": "rain",
+    "noun": "Rain",
+    "facts": [
+     "Rain is water.",
+     "Rain helps plants.",
+     "Rain makes puddles."
+    ],
+    "labels": [
+     "drop",
+     "sky"
+    ]
+   },
+   {
+    "key": "trees",
+    "noun": "Trees",
+    "facts": [
+     "Trees have roots.",
+     "Trees can grow tall.",
+     "Trees have bark."
+    ],
+    "labels": [
+     "leaf",
+     "root"
+    ]
+   },
+   {
+    "key": "leaves",
+    "noun": "Leaves",
+    "facts": [
+     "Leaves can be green.",
+     "Leaves have stems.",
+     "Leaves can fall."
+    ],
+    "labels": [
+     "stem",
+     "tip"
+    ]
+   },
+   {
+    "key": "puddles",
+    "noun": "Puddles",
+    "facts": [
+     "Puddles are wet.",
+     "Puddles can be deep.",
+     "Puddles dry up."
+    ],
+    "labels": [
+     "mud",
+     "boot"
+    ]
+   },
+   {
+    "key": "clouds",
+    "noun": "Clouds",
+    "facts": [
+     "Clouds hold water.",
+     "Clouds can move.",
+     "Clouds can be gray."
+    ],
+    "labels": [
+     "sky",
+     "rain"
+    ]
+   },
+   {
+    "key": "seeds",
+    "noun": "Seeds",
+    "facts": [
+     "Seeds can grow.",
+     "Seeds need water.",
+     "Seeds can be small."
+    ],
+    "labels": [
+     "seed",
+     "root"
+    ]
+   },
+   {
+    "key": "school",
+    "noun": "My school",
+    "facts": [
+     "My school has a gym.",
+     "My school has desks.",
+     "My school has books."
+    ],
+    "labels": [
+     "door",
+     "flag"
+    ]
+   }
+  ],
+  "verbs": [
+   "can",
+   "have",
+   "are",
+   "eat",
+   "live"
+  ],
+  "ownVerbs": [
+   "is",
+   "are",
+   "can",
+   "have",
+   "has",
+   "need",
+   "grow"
+  ]
+ },
+ "edit": {
+  "pieces": [
+   {
+    "key": "outside",
+    "title": "Fun Outside",
+    "s": [
+     {
+      "t": "We went out to play after lunch.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I found a bug by the fence.",
+      "detail": 1,
+      "q": "What color was the bug?",
+      "a": "I found a green bug by the fence.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "Leo and I looked at it.",
+      "i": 1
+     },
+     {
+      "t": "The bug crawled under a leaf.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, we showed the leaf to Omar.",
+      "name": "Omar"
+     }
+    ]
+   },
+   {
+    "key": "beans",
+    "title": "Our Beans",
+    "s": [
+     {
+      "t": "Our class planted seeds in cups.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Each day, I gave my bean water.",
+      "i": 1
+     },
+     {
+      "t": "I checked on it with Max.",
+      "name": "Max"
+     },
+     {
+      "t": "Then, my bean got a leaf.",
+      "detail": 1,
+      "q": "How big was the leaf?",
+      "a": "Then, my bean got a tiny leaf.",
+      "also": "Any size word is right."
+     },
+     {
+      "t": "It is as tall as my hand now.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "paint",
+    "title": "Paint Time",
+    "s": [
+     {
+      "t": "We painted pictures at the art table.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I sat next to Lily.",
+      "name": "Lily"
+     },
+     {
+      "t": "Our teacher gave us big brushes.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, I mixed red and yellow.",
+      "i": 1
+     },
+     {
+      "t": "I painted a big sun.",
+      "detail": 1,
+      "q": "What color was the sun?",
+      "a": "I painted a big orange sun.",
+      "also": "Any color word is right."
+     }
+    ]
+   },
+   {
+    "key": "snack",
+    "title": "Snack Break",
+    "s": [
+     {
+      "t": "I ate my apple.",
+      "detail": 1,
+      "q": "What color was the apple?",
+      "a": "I ate my red apple.",
+      "also": "Red, green, or yellow is right."
+     },
+     {
+      "t": "We sat and ate at our desks.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, I put my cup away.",
+      "i": 1
+     },
+     {
+      "t": "I sat next to my friend Zoe.",
+      "name": "Zoe"
+     },
+     {
+      "t": "Our teacher read us a book about a bear.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "drill",
+    "title": "The Fire Drill",
+    "s": [
+     {
+      "t": "A loud bell rang in our class.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, I walked to the door.",
+      "i": 1
+     },
+     {
+      "t": "Our class walked out in a line.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "We stood outside.",
+      "detail": 1,
+      "q": "Where did the class stand?",
+      "a": "We stood outside on the grass.",
+      "also": "Any place outside is right."
+     },
+     {
+      "t": "I held hands with Omar.",
+      "name": "Omar"
+     }
+    ]
+   },
+   {
+    "key": "drawing",
+    "title": "My Drawing",
+    "s": [
+     {
+      "t": "Ana and I got out the crayons.",
+      "i": 1
+     },
+     {
+      "t": "We drew at our desks.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "The dog I drew had a long tail.",
+      "detail": 1,
+      "q": "What color was the dog?",
+      "a": "The brown dog I drew had a long tail.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "It had big floppy ears.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I gave it to Ben after lunch.",
+      "name": "Ben"
+     }
+    ]
+   },
+   {
+    "key": "library",
+    "title": "Reading Time",
+    "s": [
+     {
+      "t": "Our class went to the library.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I sat on the rug with Kim.",
+      "name": "Kim"
+     },
+     {
+      "t": "I picked a book about bugs.",
+      "detail": 1,
+      "q": "What color was the book?",
+      "a": "I picked a red book about bugs.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "Then, I read it two times.",
+      "i": 1
+     },
+     {
+      "t": "We put the books back on the shelf.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "gym",
+    "title": "Gym Class",
+    "s": [
+     {
+      "t": "We played a ball game.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I kicked the ball hard.",
+      "detail": 1,
+      "q": "What color was the ball?",
+      "a": "I kicked the red ball hard.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "It flew past Ben.",
+      "name": "Ben"
+     },
+     {
+      "t": "Everyone had a turn to kick.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "After that, I sat down on the bench to rest.",
+      "i": 1
+     }
+    ]
+   },
+   {
+    "key": "rock",
+    "title": "Show and Tell",
+    "s": [
+     {
+      "t": "We each brought something to class.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "First, our teacher called on Maya.",
+      "name": "Maya"
+     },
+     {
+      "t": "Then, I showed my rock.",
+      "i": 1
+     },
+     {
+      "t": "My rock is smooth.",
+      "detail": 1,
+      "q": "What color is the rock?",
+      "a": "My gray rock is smooth.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "Everyone wanted to touch it.",
+      "cap": 1,
+      "end": 1,
+      "bang": 1
+     }
+    ]
+   },
+   {
+    "key": "sandbox",
+    "title": "Digging Day",
+    "s": [
+     {
+      "t": "We dug in the sand at recess.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "The sand was wet and cold.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Noah and I made a big hill.",
+      "i": 1
+     },
+     {
+      "t": "Then, we gave a shovel to Rosa.",
+      "name": "Rosa"
+     },
+     {
+      "t": "We found a shell.",
+      "detail": 1,
+      "q": "How big was the shell?",
+      "a": "We found a tiny shell.",
+      "also": "Any size word is right."
+     }
+    ]
+   },
+   {
+    "key": "music",
+    "title": "Music Class",
+    "s": [
+     {
+      "t": "We sang three songs together.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, I got a stick from the bin.",
+      "i": 1
+     },
+     {
+      "t": "I played a drum.",
+      "detail": 1,
+      "q": "What color was the drum?",
+      "a": "I played a red drum.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "I gave the stick to Rosa.",
+      "name": "Rosa"
+     },
+     {
+      "t": "Our teacher clapped for all of us.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "spider",
+    "title": "Eight Legs",
+    "s": [
+     {
+      "t": "We saw a spider.",
+      "detail": 1,
+      "q": "How big was the spider?",
+      "a": "We saw a tiny spider.",
+      "also": "Any size word is right."
+     },
+     {
+      "t": "It crawled near Max.",
+      "name": "Max"
+     },
+     {
+      "t": "Our teacher got a paper cup.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "Then, I held the door open.",
+      "i": 1
+     },
+     {
+      "t": "The spider went out into the tall grass.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "picture",
+    "title": "Picture Day",
+    "s": [
+     {
+      "t": "We had our pictures taken at school.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I waited in line with Jada.",
+      "name": "Jada"
+     },
+     {
+      "t": "Then, I combed my hair.",
+      "i": 1
+     },
+     {
+      "t": "The man with the camera said to smile.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I wore my shirt.",
+      "detail": 1,
+      "q": "What color was the shirt?",
+      "a": "I wore my green shirt.",
+      "also": "Any color word is right."
+     }
+    ]
+   },
+   {
+    "key": "bus",
+    "title": "Going Home",
+    "s": [
+     {
+      "t": "Kim and I sat in the back.",
+      "i": 1
+     },
+     {
+      "t": "The bus went over a big bump.",
+      "cap": 1,
+      "end": 1,
+      "bang": 1
+     },
+     {
+      "t": "We waved to Leo.",
+      "name": "Leo"
+     },
+     {
+      "t": "We saw a truck.",
+      "detail": 1,
+      "q": "What color was the truck?",
+      "a": "We saw a yellow truck.",
+      "also": "Any color word is right."
+     },
+     {
+      "t": "The bus stopped at the corner near my street.",
+      "cap": 1,
+      "end": 1
+     }
+    ]
+   },
+   {
+    "key": "clay",
+    "title": "Art Class",
+    "s": [
+     {
+      "t": "We got clay at our tables.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "I made a bowl.",
+      "detail": 1,
+      "q": "How big was the bowl?",
+      "a": "I made a little bowl.",
+      "also": "Any size word is right."
+     },
+     {
+      "t": "My friend Leo made a cup.",
+      "name": "Leo"
+     },
+     {
+      "t": "We let them dry on a shelf.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "After that, I washed my hands.",
+      "i": 1
+     }
+    ]
+   },
+   {
+    "key": "buddies",
+    "title": "Reading Buddies",
+    "s": [
+     {
+      "t": "We met a big kid named Nora.",
+      "name": "Nora"
+     },
+     {
+      "t": "Then, I picked a book.",
+      "i": 1
+     },
+     {
+      "t": "She read it to me slowly.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "The book was about a funny hen.",
+      "cap": 1,
+      "end": 1
+     },
+     {
+      "t": "We laughed a lot.",
+      "detail": 1,
+      "q": "What made them laugh?",
+      "a": "We laughed a lot at the hen.",
+      "also": "Any part of the book is right."
+     }
+    ]
+   }
+  ]
+ },
+ "revise": {
+  "examples": [
+   {
+    "kind": "detail",
+    "b": "I saw a dog.",
+    "a": "I saw a big brown dog.",
+    "how": "I added how it looked."
+   },
+   {
+    "kind": "detail",
+    "b": "We ate lunch.",
+    "a": "We ate lunch under a tree.",
+    "how": "I added where."
+   },
+   {
+    "kind": "detail",
+    "b": "I got a book.",
+    "a": "I got a book about frogs.",
+    "how": "I added what kind."
+   },
+   {
+    "kind": "detail",
+    "b": "We played a game.",
+    "a": "We played tag at recess.",
+    "how": "I added which game and when."
+   },
+   {
+    "kind": "detail",
+    "b": "I made a card.",
+    "a": "I made a red card for Mia.",
+    "how": "I added a color and who."
+   },
+   {
+    "kind": "detail",
+    "b": "The cat ran.",
+    "a": "The cat ran up a tree.",
+    "how": "I added where."
+   },
+   {
+    "kind": "detail",
+    "b": "I built a tower.",
+    "a": "I built a tower as tall as me.",
+    "how": "I added how tall."
+   },
+   {
+    "kind": "detail",
+    "b": "We went outside.",
+    "a": "We went outside to look for bugs.",
+    "how": "I added why."
+   },
+   {
+    "kind": "detail",
+    "b": "I found a shell.",
+    "a": "I found a pink shell.",
+    "how": "I added a color."
+   },
+   {
+    "kind": "detail",
+    "b": "My friend laughed.",
+    "a": "My friend laughed at my joke.",
+    "how": "I added why."
+   },
+   {
+    "kind": "mark",
+    "b": "we read a book",
+    "a": "We read a book.",
+    "how": "I added a capital and a period."
+   },
+   {
+    "kind": "mark",
+    "b": "i can hop.",
+    "a": "I can hop.",
+    "how": "I wrote I as a capital."
+   },
+   {
+    "kind": "mark",
+    "b": "My friend sam came.",
+    "a": "My friend Sam came.",
+    "how": "I gave the name a capital."
+   },
+   {
+    "kind": "mark",
+    "b": "the bus was late.",
+    "a": "The bus was late.",
+    "how": "I gave the first word a capital."
+   },
+   {
+    "kind": "mark",
+    "b": "We sang a song",
+    "a": "We sang a song.",
+    "how": "I added a period."
+   },
+   {
+    "kind": "mark",
+    "b": "can you help me",
+    "a": "Can you help me?",
+    "how": "I added a capital and a question mark."
+   }
+  ],
+  "questions": [
+   "What color?",
+   "How big?",
+   "Where was it?",
+   "Who was there?"
+  ],
+  "samples": [
+   {
+    "for": "A rainy day",
+    "qi": 0,
+    "added": "My boots were red."
+   },
+   {
+    "for": "A windy day",
+    "qi": 2,
+    "added": "We were on the playground."
+   },
+   {
+    "for": "A time I helped",
+    "qi": 3,
+    "added": "Max helped me too."
+   },
+   {
+    "for": "My first day of school",
+    "qi": 0,
+    "added": "My desk was blue."
+   },
+   {
+    "for": "A time I felt brave",
+    "qi": 1,
+    "added": "The slide was tall."
+   },
+   {
+    "for": "A new friend",
+    "qi": 3,
+    "added": "Her name was Ana."
+   },
+   {
+    "for": "Something I lost",
+    "qi": 0,
+    "added": "My coat was green."
+   },
+   {
+    "for": "A new thing I learned",
+    "qi": 2,
+    "added": "I was at my desk."
+   }
+  ]
+ },
+ "modelOnly": {
+  "story": "feeding the class fish",
+  "opinion": "I think pancakes are the best breakfast because they are warm and sweet.",
+  "facts": "Pumpkins grow on vines. Pumpkins have seeds. Pumpkins can be orange. Now you know about pumpkins!",
+  "edit": "we went on a walk",
+  "phrases": [
+   "class fish",
+   "pancake",
+   "breakfast",
+   "pumpkin",
+   "went on a walk"
+  ]
+ },
+ "banned": [
+  "dog",
+  "dogs",
+  "cat",
+  "cats",
+  "pet",
+  "pets",
+  "puppy",
+  "kitten",
+  "brother",
+  "sister",
+  "mom",
+  "dad",
+  "birthday",
+  "party",
+  "trip",
+  "vacation",
+  "christmas",
+  "halloween",
+  "easter",
+  "church",
+  "money",
+  "video",
+  "phone",
+  "tablet"
+ ]
+}

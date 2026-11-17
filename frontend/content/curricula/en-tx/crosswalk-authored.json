@@ -5805,6 +5805,80 @@
    ],
    "why": "Telling a name (Lake Erie, Labor Day) from the common word beside it (a lake, a snow day) and writing the name with its capitals is the proper-noun part of «singular, plural, common, and proper nouns»; the Grade 2 capitalization row (2.11.D.ix) names months, days and letters, not holidays and places, so it is not claimed.",
    "review": "year-design 2026-11-17"
+  },
+  "3:chapters-scenes-stanzas": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.9.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding in which stanza something happens and how a stanza builds on the one before is «structural elements such as stanzas in a variety of poems»; reading a play with a cast, scenes and stage directions and writing a next scene is «elements of drama such as characters, dialogue, setting, and acts»; telling how one chapter builds on the one before prepares «analyze plot elements, including the sequence of events».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:point-of-view": {
+   "rows": [
+    {
+     "id": "ELAR.3.10.E",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a story is told by a character who says I or by a narrator outside the story, and retelling a part with I and my as another character, is «identify the use of literary devices, including first- or third-person point of view».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:literal-nonliteral": {
+   "rows": [
+    {
+     "id": "ELAR.3.10.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Deciding whether a phrase means just what its words say in this sentence or is a saying with another meaning, and writing that meaning, is the «literal and figurative language» part of «describe how the author's use of imagery, literal and figurative language such as simile, and sound devices ... achieves specific purposes».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:two-books-one-author": {
+   "rows": [
+    {
+     "id": "ELAR.3.6.H",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.8.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.3.8.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting what is true of Story 1, of Story 2 and of both and writing how two stories by one author are alike and different is «synthesize information to create new understanding»; naming each story's lesson, problem, ending and setting in a chart prepares «infer the theme of a work», «analyze plot elements» and «explain the influence of the setting on the plot».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "ELAR.3.6.H",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.9.D.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting facts as given by Text 1, by Text 2 or by both and writing how the two texts are alike and different is «synthesize information to create new understanding»; choosing each text's most important point apart from its key details is «the central idea with supporting evidence».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

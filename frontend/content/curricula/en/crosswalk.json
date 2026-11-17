@@ -3953,6 +3953,56 @@
    ],
    "by": "code"
   },
+  "3:chapters-scenes-stanzas": {
+   "rows": [
+    {
+     "id": "RL.3.5",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:point-of-view": {
+   "rows": [
+    {
+     "id": "RL.3.6",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:literal-nonliteral": {
+   "rows": [
+    {
+     "id": "L.3.5.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:two-books-one-author": {
+   "rows": [
+    {
+     "id": "RL.3.9",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "RI.3.9",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "K:human-body": {
    "rows": [
     {

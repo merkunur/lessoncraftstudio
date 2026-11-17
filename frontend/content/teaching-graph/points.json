@@ -8870,6 +8870,112 @@
    "prerequisites": []
   },
   {
+   "id": "3:chapters-scenes-stanzas",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Name the parts of a play, a poem and a chapter book (scene, stanza, chapter) and tell how each part builds on the one before",
+   "code": "RL.3.5",
+   "types": [
+    "G3-572",
+    "G3-573"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 177,
+   "prerequisites": []
+  },
+  {
+   "id": "3:point-of-view",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Tell who is telling a story, what the narrator or a character thinks, and how one's own point of view differs",
+   "code": "RL.3.6",
+   "types": [
+    "G3-574",
+    "G3-575"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 178,
+   "prerequisites": []
+  },
+  {
+   "id": "3:literal-nonliteral",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Tell the literal from the nonliteral meaning of words and phrases in a sentence (sayings such as lend a hand, spill the beans)",
+   "code": "L.3.5.a",
+   "types": [
+    "G3-576"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [
+    "gabby-sayings.idioms.l-3-5-a"
+   ],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 179,
+   "prerequisites": []
+  },
+  {
+   "id": "3:two-books-one-author",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Compare and contrast the lessons, settings and plots of two stories by one author about the same characters",
+   "code": "RL.3.9",
+   "types": [
+    "G3-577",
+    "G3-578"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 180,
+   "prerequisites": []
+  },
+  {
+   "id": "3:two-texts-one-topic",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Compare and contrast the most important points and key details of two texts on the same topic",
+   "code": "RI.3.9",
+   "types": [
+    "G3-579",
+    "G3-580"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 181,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",

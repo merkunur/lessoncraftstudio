@@ -25,6 +25,8 @@
  * the reviewer of the pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Informative Writing and Research (G3-556 to G3-563) were added by place-ready-gg.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The five notes of the unit Point of View and Comparing Texts (G3-572 to G3-580) were added by place-ready-ii.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -352,6 +354,51 @@ module.exports = {
         mistake: 'Children take all their notes from one source, or copy sentences. In the report they list notes or leave out the concluding sentence or the sources.',
         words: 'Children need the introduction, headings, and definitions of the last three lessons. Say: "A research report answers a question with facts from two sources." Read the question and both texts aloud. Model first on another topic: one short note with its source letter. Before Day 2, model turning one note from A and one from B into two sentences under a heading, and copying a source title. Day 1, Notes from Two Sources: children note facts from A and B in the row of each category. Level 1 prints the categories; on Level 2 children name them; on Level 3 they also write the question. Days 2 and 3, Write a Research Report (same copy, same topic as Day 1): children write an introduction, three parts with headings, a concluding sentence, and the source titles, and draw a diagram with a caption. Levels 1 and 2 print one note from each source in each part; Level 3 uses the child\'s own notes.',
         watch: 'Check each child\'s research question before they read: the sources must answer it. Each row needs a note from both sources; if both sources give a fact, either letter is right. If you can, add a third source: a class library book on the topic; children list it as C. The key is a sample.',
+      },
+    },
+    '3:chapters-scenes-stanzas': {
+      title: 'Chapters, scenes, and stanzas',
+      objective: 'Children refer to the parts of stories, plays, and poems (chapter, scene, stanza) and describe how each part builds on the one before.',
+      note: {
+        mistake: 'Children call every part a chapter, or count the lines of a poem as stanzas. Asked how a part builds, they retell it instead of naming what it needs from the part before.',
+        words: 'Say: "A long story is divided into chapters. A play is divided into scenes. A poem is divided into stanzas: groups of lines with a space between them." Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Scenes and Stanzas, model with the play of that copy: point to the cast list, a scene heading, and a stage direction, then answer its build question aloud with "In Scene 2, ___ because in Scene 1, ___." Level 1 circles; Level 2 writes on that frame and on "In Stanza 3, ___."; Level 3 writes what Stanza 3 adds and a Scene 3. Before Chapters: How Parts Build (scene and stanza from day 1), model one answer of a second copy with "In Chapter 2, ___ because in Chapter 1, ___." Level 1 circles, Level 2 writes on the frames, Level 3 fills a chart of what happens in each chapter, circles one chapter, and writes how one chapter builds on the one before.',
+        watch: 'The stanzas are not numbered: children count them from left to right. The chapter titles do not give the answers: send children back into the chapter.',
+      },
+    },
+    '3:point-of-view': {
+      title: 'Whose point of view?',
+      objective: 'Children tell their own point of view apart from that of the narrator or a character, and explain where they agree or disagree.',
+      note: {
+        mistake: 'Children think the narrator is always the main character, or they write their own opinion when asked what a character thinks.',
+        words: 'Say: "A point of view is what someone thinks about something. The narrator tells the story. A narrator who says I and my is a character in the story. Words in quotation marks are what a character says." Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Who Is Telling the Story?, model with the story of a second copy: look for I or my outside the quotation marks, then answer its "What do YOU think?" aloud with "I think ___ because ___." Level 1 circles the teller and who thinks each sentence; Level 2 also circles how they know; Level 3 writes the teller and how they know. Before Their View and My View (the words narrator and quotation marks from day 1), model on a second copy what a character thinks and what you think. Level 1 circles the view and its proof and writes on the frame; Level 2 fills a chart and copies a proof; Level 3 also retells a paragraph with I and my.',
+        watch: 'In a story told by an outside narrator, characters can still say I inside quotation marks. Each "What I think" box prints its question.',
+      },
+    },
+    '3:literal-nonliteral': {
+      title: 'Literal and nonliteral language',
+      objective: 'Children tell literal from nonliteral meanings of words and phrases in context (take steps, a piece of cake, raining cats and dogs).',
+      note: {
+        mistake: 'Children read a saying word by word (a piece of cake means cake), or they call every saying nonliteral, even in a sentence that uses its words in their plain meaning (Our puppy sleeps in the doghouse).',
+        words: 'Say: "Literal words mean just what they say. Nonliteral words mean something else. The rest of the sentence tells you which." Before the page, model with a saying that is on no copy of the page: "Our puppy sleeps in the doghouse." (literal) and "I\'m in the doghouse for being late." (nonliteral: in trouble), and read each sentence again with the meaning in place of the bold words. Day 1, Literal or Nonliteral?: every sentence has one bold phrase, and every page has at least two literal and two nonliteral sentences. Level 1: six sentences; children circle literal or nonliteral, then circle what the words mean here: what the words say, what the saying means, or a meaning that fits neither. Level 2: eight sentences; children write L or N in the box and write the meaning. Level 3: six sentences, then two sentences of their own with sayings from a box, each printed with its meaning. Day 2, on screen, Gabby\'s Funny Sayings — What Does It Really Mean? (Grade 3): every round there is nonliteral, so day 2 practices meanings: children read a saying in a sentence and tap what it really means (eight sayings, such as raining cats and dogs, hit the hay, and let the cat out of the bag).',
+        watch: 'Some sayings have no literal sentence on the page (raining cats and dogs, under the weather): they are always nonliteral. The key\'s written meanings and sentences are samples.',
+      },
+    },
+    '3:two-books-one-author': {
+      title: 'Two books by one author',
+      objective: 'Children compare and contrast the themes, settings, and plots of two stories by the same author about the same or similar characters.',
+      note: {
+        mistake: 'Children compare only the characters, who are the same in both stories, or they retell one story instead of telling what is alike and what is different.',
+        words: 'Say: "These two stories have one author and the same characters. We compare the setting (where and when), the problem, how it is solved, and the lesson." Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Two Stories by One Author, model one sentence of a second copy: find it in each story before you circle Both. Level 1: seven sentences to circle Story 1, Story 2, or Both; Level 2: eight, and one sentence on "In both stories, ___."; Level 3: five, then "In both stories, ___." and "In Story 1, ___, but in Story 2, ___." Before Compare Two Stories (the words setting, problem, and lesson; any pair works, it need not be the day-1 pair), model one row of the chart of a second copy aloud. Level 1: gray examples, a strip letter in each box, two strips crossed out; Level 2: the examples and six boxes to write; Level 3: all eight boxes.',
+        watch: 'A sentence is Both only if each story says it. The authors and stories were written for these pages. The key\'s chart notes and sentences are samples.',
+      },
+    },
+    '3:two-texts-one-topic': {
+      title: 'Two texts on one topic',
+      objective: 'Children compare and contrast the most important points and key details in two information texts on the same topic.',
+      note: {
+        mistake: 'Children mark a fact Both because it fits the topic, without finding it in each text, or they name a detail as the most important point.',
+        words: 'Say: "The most important point is what the whole text is mostly about. Key details tell more about it." Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Two Texts on One Topic, model one fact of a second copy: underline it in each text where you find it. Level 1 writes the letters of eight facts in the two-circle diagram; Levels 2 and 3 have ten, two of them in neither text, to cross out; Level 3 also writes how the texts are different. Before Compare Two Texts (underlining a fact in each text, as on day 1), model with one text of a second copy how a detail tells about one part and the point covers it all. Level 1 circles each text\'s point among its own details and the detail both texts give; Level 2 fills a chart and writes something both tell; Level 3 writes how the texts are alike and how they are different.',
+        watch: 'Have children underline each fact where they find it. A fact in neither text is true, but it is not in these texts. A title can hint at the point; check the point against the whole text.',
       },
     },
   },

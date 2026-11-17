@@ -3499,6 +3499,26 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "3:chapters-scenes-stanzas": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:point-of-view": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:literal-nonliteral": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:two-books-one-author": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:two-texts-one-topic": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

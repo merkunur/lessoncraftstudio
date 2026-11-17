@@ -427,6 +427,15 @@
   "G2-561": "2:friendly-letter",
   "G2-562": "2:friendly-letter",
   "G2-563": "2:capitals-special-names",
-  "G2-564": "2:capitals-special-names"
+  "G2-564": "2:capitals-special-names",
+  "G3-572": "3:chapters-scenes-stanzas",
+  "G3-573": "3:chapters-scenes-stanzas",
+  "G3-574": "3:point-of-view",
+  "G3-575": "3:point-of-view",
+  "G3-576": "3:literal-nonliteral",
+  "G3-577": "3:two-books-one-author",
+  "G3-578": "3:two-books-one-author",
+  "G3-579": "3:two-texts-one-topic",
+  "G3-580": "3:two-texts-one-topic"
  }
 }

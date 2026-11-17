@@ -1616,7 +1616,8 @@
             "standard": "RL.3.5",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a short play of two scenes (about 200 words) and a poem of three stanzas. Below: questions that name the part (What changes in scene 2? What does stanza 3 add?) and a box for how each part builds on the one before. Level 1: multiple choice; level 2: written answers; level 3: the child writes a third scene of four lines."
+            "page": "Story and questions page: a short play of two scenes (about 200 words) and a poem of three stanzas. Below: questions that name the part (What changes in scene 2? What does stanza 3 add?) and a box for how each part builds on the one before. Level 1: multiple choice; level 2: written answers; level 3: the child writes a third scene of four lines.",
+            "placed": "3:chapters-scenes-stanzas"
           },
           {
             "new": true,
@@ -1625,7 +1626,8 @@
             "standard": "RL.3.6",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 250 words told in the first person by a character with a strong opinion. Below: a two-column chart (what the narrator thinks, what I think) with a proof line from the text for the narrator's view. Level 1: the child chooses the narrator's view from three; level 2: the child writes both views; level 3: the child also rewrites one paragraph from another character's point of view."
+            "page": "Story and questions page: a story of about 250 words told in the first person by a character with a strong opinion. Below: a two-column chart (what the narrator thinks, what I think) with a proof line from the text for the narrator's view. Level 1: the child chooses the narrator's view from three; level 2: the child writes both views; level 3: the child also rewrites one paragraph from another character's point of view.",
+            "placed": "3:point-of-view"
           },
           {
             "new": true,
@@ -1634,7 +1636,8 @@
             "standard": "L.3.5.a",
             "days": 2,
             "source": "new",
-            "page": "Word meaning page: ten sentences with a phrase in bold; the child marks it literal or nonliteral and writes what it means in the sentence. Bottom: four idioms, each with a picture of the literal meaning to label with the real meaning. Level 1: five sentences with meaning choices; level 2: ten sentences; level 3: the child writes a sentence using two of the idioms."
+            "page": "Word meaning page: ten sentences with a phrase in bold; the child marks it literal or nonliteral and writes what it means in the sentence. Bottom: four idioms, each with a picture of the literal meaning to label with the real meaning. Level 1: five sentences with meaning choices; level 2: ten sentences; level 3: the child writes a sentence using two of the idioms.",
+            "placed": "3:literal-nonliteral"
           },
           {
             "new": true,
@@ -1643,7 +1646,8 @@
             "standard": "RL.3.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two stories by one author about the same characters side by side (about 200 words each, each with a picture). Below: a comparison chart with rows for setting, problem, plot, and theme, and lines for two sentences that compare. Level 1: the child sorts fact strips into the chart; level 2: the child writes one entry per row for each story; level 3: the child also writes the two sentences."
+            "page": "Two-text comparison page: two stories by one author about the same characters side by side (about 200 words each, each with a picture). Below: a comparison chart with rows for setting, problem, plot, and theme, and lines for two sentences that compare. Level 1: the child sorts fact strips into the chart; level 2: the child writes one entry per row for each story; level 3: the child also writes the two sentences.",
+            "placed": "3:two-books-one-author"
           },
           {
             "new": true,
@@ -1652,7 +1656,8 @@
             "standard": "RI.3.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two information texts on one topic side by side (about 200 words each, with headings and a picture). Below: a two-circle diagram with a shared middle and lines for two sentences that compare. Level 1: the child sorts eight fact strips into the circles and the middle; level 2: the child writes three facts in each part; level 3: the child also writes the two sentences."
+            "page": "Two-text comparison page: two information texts on one topic side by side (about 200 words each, with headings and a picture). Below: a two-circle diagram with a shared middle and lines for two sentences that compare. Level 1: the child sorts eight fact strips into the circles and the middle; level 2: the child writes three facts in each part; level 3: the child also writes the two sentences.",
+            "placed": "3:two-texts-one-topic"
           }
         ]
       }

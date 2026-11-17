@@ -19361,6 +19361,219 @@
      "days": 2
     }
    ]
+  },
+  {
+   "id": "g3-point-of-view-and-comparing-texts",
+   "slug": "point-of-view-and-comparing-texts-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Point of View and Comparing Texts",
+   "metaTitle": "Point of View and Comparing Texts: Grade 3 Reading",
+   "metaDescription": "Grade 3 reading lessons: chapters, scenes and stanzas, point of view, literal and nonliteral language, two stories by one author, and two texts on one topic.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:chapters-scenes-stanzas",
+     "title": "Chapters, scenes, and stanzas",
+     "objective": "Children refer to the parts of stories, plays, and poems (chapter, scene, stanza) and describe how each part builds on the one before.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.3.5",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-572",
+       "title": "Scenes and Stanzas",
+       "core": "reading-comprehension-g3572",
+       "easy": "reading-comprehension-easy-g3572-6",
+       "hard": "reading-comprehension-hard-g3572-11"
+      },
+      {
+       "type": "G3-573",
+       "title": "Chapters: How Parts Build",
+       "core": "reading-comprehension-g3573",
+       "easy": "reading-comprehension-easy-g3573-6",
+       "hard": "reading-comprehension-hard-g3573-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3572-2",
+      "title": "Scenes and Stanzas"
+     },
+     "note": {
+      "mistake": "Children call every part a chapter, or count the lines of a poem as stanzas. Asked how a part builds, they retell it instead of naming what it needs from the part before.",
+      "words": "Say: \"A long story is divided into chapters. A play is divided into scenes. A poem is divided into stanzas: groups of lines with a space between them.\" Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Scenes and Stanzas, model with the play of that copy: point to the cast list, a scene heading, and a stage direction, then answer its build question aloud with \"In Scene 2, ___ because in Scene 1, ___.\" Level 1 circles; Level 2 writes on that frame and on \"In Stanza 3, ___.\"; Level 3 writes what Stanza 3 adds and a Scene 3. Before Chapters: How Parts Build (scene and stanza from day 1), model one answer of a second copy with \"In Chapter 2, ___ because in Chapter 1, ___.\" Level 1 circles, Level 2 writes on the frames, Level 3 fills a chart of what happens in each chapter, circles one chapter, and writes how one chapter builds on the one before.",
+      "watch": "The stanzas are not numbered: children count them from left to right. The chapter titles do not give the answers: send children back into the chapter."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:point-of-view",
+     "title": "Whose point of view?",
+     "objective": "Children tell their own point of view apart from that of the narrator or a character, and explain where they agree or disagree.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.3.6",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-574",
+       "title": "Who Is Telling the Story?",
+       "core": "reading-comprehension-g3574",
+       "easy": "reading-comprehension-easy-g3574-6",
+       "hard": "reading-comprehension-hard-g3574-11"
+      },
+      {
+       "type": "G3-575",
+       "title": "Their View and My View",
+       "core": "reading-comprehension-g3575",
+       "easy": "reading-comprehension-easy-g3575-6",
+       "hard": "reading-comprehension-hard-g3575-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3574-2",
+      "title": "Who Is Telling the Story?"
+     },
+     "note": {
+      "mistake": "Children think the narrator is always the main character, or they write their own opinion when asked what a character thinks.",
+      "words": "Say: \"A point of view is what someone thinks about something. The narrator tells the story. A narrator who says I and my is a character in the story. Words in quotation marks are what a character says.\" Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Who Is Telling the Story?, model with the story of a second copy: look for I or my outside the quotation marks, then answer its \"What do YOU think?\" aloud with \"I think ___ because ___.\" Level 1 circles the teller and who thinks each sentence; Level 2 also circles how they know; Level 3 writes the teller and how they know. Before Their View and My View (the words narrator and quotation marks from day 1), model on a second copy what a character thinks and what you think. Level 1 circles the view and its proof and writes on the frame; Level 2 fills a chart and copies a proof; Level 3 also retells a paragraph with I and my.",
+      "watch": "In a story told by an outside narrator, characters can still say I inside quotation marks. Each \"What I think\" box prints its question."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "3:literal-nonliteral",
+     "title": "Literal and nonliteral language",
+     "objective": "Children tell literal from nonliteral meanings of words and phrases in context (take steps, a piece of cake, raining cats and dogs).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.5.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-576",
+       "title": "Literal or Nonliteral?",
+       "core": "reading-comprehension-g3576",
+       "easy": "reading-comprehension-easy-g3576-6",
+       "hard": "reading-comprehension-hard-g3576-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "gabby-sayings.idioms.l-3-5-a",
+      "slug": "gabby-sayings",
+      "title": "Gabby's Funny Sayings — What Does It Really Mean?"
+     },
+     "exit": {
+      "slug": "reading-comprehension-g3576-2",
+      "title": "Literal or Nonliteral?"
+     },
+     "note": {
+      "mistake": "Children read a saying word by word (a piece of cake means cake), or they call every saying nonliteral, even in a sentence that uses its words in their plain meaning (Our puppy sleeps in the doghouse).",
+      "words": "Say: \"Literal words mean just what they say. Nonliteral words mean something else. The rest of the sentence tells you which.\" Before the page, model with a saying that is on no copy of the page: \"Our puppy sleeps in the doghouse.\" (literal) and \"I'm in the doghouse for being late.\" (nonliteral: in trouble), and read each sentence again with the meaning in place of the bold words. Day 1, Literal or Nonliteral?: every sentence has one bold phrase, and every page has at least two literal and two nonliteral sentences. Level 1: six sentences; children circle literal or nonliteral, then circle what the words mean here: what the words say, what the saying means, or a meaning that fits neither. Level 2: eight sentences; children write L or N in the box and write the meaning. Level 3: six sentences, then two sentences of their own with sayings from a box, each printed with its meaning. Day 2, on screen, Gabby's Funny Sayings — What Does It Really Mean? (Grade 3): every round there is nonliteral, so day 2 practices meanings: children read a saying in a sentence and tap what it really means (eight sayings, such as raining cats and dogs, hit the hay, and let the cat out of the bag).",
+      "watch": "Some sayings have no literal sentence on the page (raining cats and dogs, under the weather): they are always nonliteral. The key's written meanings and sentences are samples."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:two-books-one-author",
+     "title": "Two books by one author",
+     "objective": "Children compare and contrast the themes, settings, and plots of two stories by the same author about the same or similar characters.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.3.9",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-577",
+       "title": "Two Stories by One Author",
+       "core": "reading-comprehension-g3577",
+       "easy": "reading-comprehension-easy-g3577-6",
+       "hard": "reading-comprehension-hard-g3577-11"
+      },
+      {
+       "type": "G3-578",
+       "title": "Compare Two Stories",
+       "core": "reading-comprehension-g3578",
+       "easy": "reading-comprehension-easy-g3578-6",
+       "hard": "reading-comprehension-hard-g3578-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3577-2",
+      "title": "Two Stories by One Author"
+     },
+     "note": {
+      "mistake": "Children compare only the characters, who are the same in both stories, or they retell one story instead of telling what is alike and what is different.",
+      "words": "Say: \"These two stories have one author and the same characters. We compare the setting (where and when), the problem, how it is solved, and the lesson.\" Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Two Stories by One Author, model one sentence of a second copy: find it in each story before you circle Both. Level 1: seven sentences to circle Story 1, Story 2, or Both; Level 2: eight, and one sentence on \"In both stories, ___.\"; Level 3: five, then \"In both stories, ___.\" and \"In Story 1, ___, but in Story 2, ___.\" Before Compare Two Stories (the words setting, problem, and lesson; any pair works, it need not be the day-1 pair), model one row of the chart of a second copy aloud. Level 1: gray examples, a strip letter in each box, two strips crossed out; Level 2: the examples and six boxes to write; Level 3: all eight boxes.",
+      "watch": "A sentence is Both only if each story says it. The authors and stories were written for these pages. The key's chart notes and sentences are samples."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "3:two-texts-one-topic",
+     "title": "Two texts on one topic",
+     "objective": "Children compare and contrast the most important points and key details in two information texts on the same topic.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RI.3.9",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-579",
+       "title": "Two Texts on One Topic",
+       "core": "reading-comprehension-g3579",
+       "easy": "reading-comprehension-easy-g3579-6",
+       "hard": "reading-comprehension-hard-g3579-11"
+      },
+      {
+       "type": "G3-580",
+       "title": "Compare Two Texts",
+       "core": "reading-comprehension-g3580",
+       "easy": "reading-comprehension-easy-g3580-6",
+       "hard": "reading-comprehension-hard-g3580-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3579-2",
+      "title": "Two Texts on One Topic"
+     },
+     "note": {
+      "mistake": "Children mark a fact Both because it fits the topic, without finding it in each text, or they name a detail as the most important point.",
+      "words": "Say: \"The most important point is what the whole text is mostly about. Key details tell more about it.\" Model with a second copy of the page (every copy has other texts), not the copy the children get. Before Two Texts on One Topic, model one fact of a second copy: underline it in each text where you find it. Level 1 writes the letters of eight facts in the two-circle diagram; Levels 2 and 3 have ten, two of them in neither text, to cross out; Level 3 also writes how the texts are different. Before Compare Two Texts (underlining a fact in each text, as on day 1), model with one text of a second copy how a detail tells about one part and the point covers it all. Level 1 circles each text's point among its own details and the detail both texts give; Level 2 fills a chart and writes something both tell; Level 3 writes how the texts are alike and how they are different.",
+      "watch": "Have children underline each fact where they find it. A fact in neither text is true, but it is not in these texts. A title can hint at the point; check the point against the whole text."
+     },
+     "days": 2
+    }
+   ]
   }
  ],
  "plans": [
@@ -20739,9 +20952,9 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (21 Weeks)",
-   "metaDescription": "9 Grade 3 reading and language units in teaching order, about 21 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 21,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (24 Weeks)",
+   "metaDescription": "10 Grade 3 reading and language units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 24,
    "framework": "Common Core",
    "units": [
     {
@@ -20930,6 +21143,28 @@
       "W.3.3.a",
       "W.3.3.b",
       "W.3.3.c"
+     ]
+    },
+    {
+     "id": "g3-point-of-view-and-comparing-texts",
+     "slug": "point-of-view-and-comparing-texts-grade-3-unit",
+     "title": "Point of View and Comparing Texts",
+     "weeks": 3,
+     "from": 22,
+     "to": 24,
+     "lessons": [
+      "Chapters, scenes, and stanzas",
+      "Whose point of view?",
+      "Literal and nonliteral language",
+      "Two books by one author",
+      "Two texts on one topic"
+     ],
+     "standards": [
+      "L.3.5.a",
+      "RI.3.9",
+      "RL.3.5",
+      "RL.3.6",
+      "RL.3.9"
      ]
     }
    ]

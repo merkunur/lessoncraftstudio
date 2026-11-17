@@ -4077,6 +4077,53 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g3-point-of-view-and-comparing-texts",
+   "slug": "point-of-view-and-comparing-texts-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Point of View and Comparing Texts",
+   "metaTitle": "Point of View and Comparing Texts: Grade 3 Reading",
+   "metaDescription": "Grade 3 reading lessons: chapters, scenes and stanzas, point of view, literal and nonliteral language, two stories by one author, and two texts on one topic.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "3:chapters-scenes-stanzas",
+     "types": [
+      "G3-572",
+      "G3-573"
+     ]
+    },
+    {
+     "point": "3:point-of-view",
+     "types": [
+      "G3-574",
+      "G3-575"
+     ]
+    },
+    {
+     "point": "3:literal-nonliteral",
+     "types": [
+      "G3-576"
+     ]
+    },
+    {
+     "point": "3:two-books-one-author",
+     "types": [
+      "G3-577",
+      "G3-578"
+     ]
+    },
+    {
+     "point": "3:two-texts-one-topic",
+     "types": [
+      "G3-579",
+      "G3-580"
+     ]
+    }
+   ]
   }
  ],
  "plans": [
@@ -4232,7 +4279,8 @@
     "g3-parts-of-speech",
     "g3-informative-writing-and-research",
     "g3-sentences-and-conventions",
-    "g3-narrative-writing"
+    "g3-narrative-writing",
+    "g3-point-of-view-and-comparing-texts"
    ]
   }
  ]

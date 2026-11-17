@@ -4876,6 +4876,86 @@
    ],
    "by": "authored"
   },
+  "3:chapters-scenes-stanzas": {
+   "rows": [
+    {
+     "id": "ELAR.3.9.B",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.9.C",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:point-of-view": {
+   "rows": [
+    {
+     "id": "ELAR.3.10.E",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:literal-nonliteral": {
+   "rows": [
+    {
+     "id": "ELAR.3.10.D",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:two-books-one-author": {
+   "rows": [
+    {
+     "id": "ELAR.3.6.H",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.8.A",
+     "rel": "prepares",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.8.D",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:two-texts-one-topic": {
+   "rows": [
+    {
+     "id": "ELAR.3.6.H",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.9.D.i",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

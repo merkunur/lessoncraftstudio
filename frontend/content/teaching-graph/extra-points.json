@@ -925,6 +925,44 @@
    "strand": "Language",
    "code": "L.2.2.a",
    "skill": "Capitalize the names of holidays, places and products: every important word of a holiday or place name, and the brand of a product"
+  },
+  {
+   "tp": "3:chapters-scenes-stanzas",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.5",
+   "skill": "Name the parts of a play, a poem and a chapter book (scene, stanza, chapter) and tell how each part builds on the one before"
+  },
+  {
+   "tp": "3:point-of-view",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.6",
+   "skill": "Tell who is telling a story, what the narrator or a character thinks, and how one's own point of view differs"
+  },
+  {
+   "tp": "3:literal-nonliteral",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.5.a",
+   "skill": "Tell the literal from the nonliteral meaning of words and phrases in a sentence (sayings such as lend a hand, spill the beans)",
+   "activities": [
+    "gabby-sayings.idioms.l-3-5-a"
+   ]
+  },
+  {
+   "tp": "3:two-books-one-author",
+   "grade": "3",
+   "strand": "Reading: Literature",
+   "code": "RL.3.9",
+   "skill": "Compare and contrast the lessons, settings and plots of two stories by one author about the same characters"
+  },
+  {
+   "tp": "3:two-texts-one-topic",
+   "grade": "3",
+   "strand": "Reading: Informational Text",
+   "code": "RI.3.9",
+   "skill": "Compare and contrast the most important points and key details of two texts on the same topic"
   }
  ]
 }

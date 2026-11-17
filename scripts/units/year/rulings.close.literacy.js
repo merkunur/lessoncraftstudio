@@ -131,7 +131,11 @@ module.exports = {
     '3-127': N('G3-566', 'built: Quotation Marks in Dialogue (the sentence written the right way for a speech bubble; lines to punctuate); with G3-567 Show Feelings in a Story (showing instead of telling, dialogue with said-words)'),
     '3-128': N('G3-568', 'built: Time Words in a Story (events to number by their time words; the time word that fits a tiny story); with G3-569 Write with Time Words (the draft under Beginning, Middle and Ending)'),
     '3-129': N('G3-570', 'built: Choose a More Exact Word (the one word that fits the sentence; the clearer sentence and why); with G3-571 Revise for Words That Work (a paragraph with tired words, sentences of the own)'),
-    '3-134': C('No two 200-word information texts on one topic, no two-circle diagram to fill, no comparing sentences'),
+    '3-130': N('G3-572', 'built: Scenes and Stanzas (a play with scenes and a poem with stanzas: where something happens, how a part builds on the one before, a next scene to write); with G3-573 Chapters: How Parts Build'),
+    '3-131': N('G3-574', 'built: Who Is Telling the Story? (a character who says I or a narrator outside the story; what the teller thinks); with G3-575 Their View and My View (a view chart, a part retold as another character)'),
+    '3-132': N('G3-576', 'built: Literal or Nonliteral? (a phrase that means just what it says or a saying with another meaning; the meaning to write); with the screen activity of the point'),
+    '3-133': N('G3-577', 'built: Two Stories by One Author (sentences sorted as Story 1, Story 2, both or neither); with G3-578 Compare Two Stories (a chart of lesson, setting, problem and ending)'),
+    '3-134': N('G3-579', 'built: Two Texts on One Topic (two information texts side by side; facts sorted into a two-part diagram: only Text 1, only Text 2, both); with G3-580 Compare Two Texts (the most important point and the key details of each text, how the texts are alike and different)'),
   },
 };
 void N;

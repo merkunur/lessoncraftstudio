@@ -73,6 +73,8 @@
  */
 'use strict';
 const { fileUri } = require('../../image-cache/resolve.js');
+// The picture cache is on the PC only (the server has none): nothing that runs while this file LOADS may draw a page.
+const HAS_PICTURE_CACHE = require('fs').existsSync(require('path').join(__dirname, '../../cache/manifest.json'));
 const T = require('../../primitives/_tokens.js').color;
 const { makeRng } = require('../../lib/rng.js');
 const { seatOnRow, rulesOf } = require('../../lib/key-on-row.js');
@@ -625,7 +627,7 @@ function faultsOf(b) {
       for (const [n, fn] of Object.entries(feats)) { const k = ps.filter(fn).length; if (k > (ps.length * 2) / 3) f.push(`factread level ${lv}: the closing is ${n} on ${k} of ${ps.length} copies (found without reading it)`); } }
     if (mode === 'opread') { const d = LEVELS.opread[lv], lf = ps.filter((p) => p.right[0] && p.right[0].of === p.left.length - 1).length; if (lf > (ps.length * 2) / 3) f.push(`opread level ${lv}: the last opinion goes to the first reason on ${lf} of ${ps.length} copies`); if (new Set(ps.map((p) => p.right.map((r) => r.of).join())).size < Math.min(3, matchCands(d.match, d.match + d.odd).length)) f.push(`opread level ${lv}: the lines of the matching follow fewer than three patterns`); }
     // the PAGE of the child (not only its items) differs over 14 copies
-    { const pg = ps.slice(0, 14).map((p) => render(p, false).join('')); if (new Set(pg).size < 14) f.push(`${mode} level ${lv}: fewer than 14 different pages for the child`); }
+    if (HAS_PICTURE_CACHE) { const pg = ps.slice(0, 14).map((p) => render(p, false).join('')); if (new Set(pg).size < 14) f.push(`${mode} level ${lv}: fewer than 14 different pages for the child`); }
     if (mode === 'edit') { if (new Set(ps.map((p) => p.faults.cap + ',' + p.faults.end)).size < 2) f.push(`edit level ${lv}: the mistakes stand in one place over 20 copies`); }
   }
   return f;

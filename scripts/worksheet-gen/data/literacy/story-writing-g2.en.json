@@ -1,0 +1,1141 @@
+{
+ "stories": [
+  {
+   "id": "garden",
+   "title": "A Job in the Garden",
+   "topic": "watering the school garden",
+   "l1": [
+    "My friend Ana and I went to the school garden on Monday.",
+    "First, we pulled the weeds by the fence.",
+    "I felt happy to be outside.",
+    "Next, we filled two cans with water.",
+    "Then, we gave water to every bean plant."
+   ],
+   "l2": [
+    "My friend Ana and I went to the school garden on Monday.",
+    "By the fence, the ground was dry and hard.",
+    "First, we pulled the weeds by the fence.",
+    "After that, we filled two cans with water.",
+    "I wondered if the beans were thirsty.",
+    "Later, we gave water to every bean plant."
+   ],
+   "end": {
+    "right": "Soon, the bell rang, and we put the cans in the shed.",
+    "newEvent": "At the end, a big dog ran into the garden.",
+    "again": "On Monday, Ana and I went out to the school garden."
+   }
+  },
+  {
+   "id": "chalk",
+   "title": "A Sun and a House",
+   "topic": "drawing with chalk",
+   "l1": [
+    "My friend Omar and I took a box of chalk outside at recess.",
+    "First, we drew a big sun on the blacktop.",
+    "I was happy to see the bright colors.",
+    "Next, we drew a house under the sun.",
+    "Then, we wrote our names in blue."
+   ],
+   "l2": [
+    "My friend Omar and I took a box of chalk outside at recess.",
+    "First, we drew a big sun on the blacktop.",
+    "I wondered if we had enough chalk.",
+    "Next, we drew a house under the sun.",
+    "In the box, every piece was a new color.",
+    "Finally, we wrote our names in blue."
+   ],
+   "end": {
+    "right": "Before the whistle blew, we put the chalk away.",
+    "newEvent": "After that, a girl asked us to jump rope on the blacktop.",
+    "again": "Omar and I went out to the blacktop with chalk at recess."
+   }
+  },
+  {
+   "id": "castle",
+   "title": "Four Tall Towers",
+   "topic": "a block castle",
+   "l1": [
+    "Mei and I built a castle with blocks in class on Friday.",
+    "First, we made four tall towers.",
+    "I was so excited to see it grow.",
+    "Next, we put a long block on top for a bridge.",
+    "Then, we set a paper flag on the highest tower."
+   ],
+   "l2": [
+    "Mei and I built a castle with blocks in class on Friday.",
+    "On the rug, we used every block in the box.",
+    "First, we made four tall towers.",
+    "After that, we put a long block on top for a bridge.",
+    "I hoped the bridge would not fall.",
+    "Later, we set a paper flag on the highest tower."
+   ],
+   "end": {
+    "right": "At cleanup time, we put every block back on the shelf.",
+    "newEvent": "At cleanup time, we started to build a second castle.",
+    "again": "On Friday, Mei and I made a block castle in our class."
+   }
+  },
+  {
+   "id": "clay",
+   "title": "Thumbs in the Middle",
+   "topic": "a clay bowl in art",
+   "l1": [
+    "My class made clay bowls in art on Tuesday.",
+    "I was so excited to make my own bowl.",
+    "First, I rolled my clay into a ball.",
+    "Next, I pushed my thumbs into the middle.",
+    "Then, I pinched the sides to make them thin."
+   ],
+   "l2": [
+    "My class made clay bowls in art on Tuesday.",
+    "On my table, there was a lump of gray clay.",
+    "First, I rolled my clay into a ball.",
+    "I wondered what color I would paint it.",
+    "Next, I pushed my thumbs into the middle.",
+    "Later, I pinched the sides to make them thin."
+   ],
+   "end": {
+    "right": "At the end of art, I set my bowl on the shelf to dry.",
+    "newEvent": "At the end of art, I started to make a clay snake.",
+    "again": "On Tuesday, my class made bowls out of clay in art."
+   }
+  },
+  {
+   "id": "drums",
+   "title": "A Slow Beat and a Fast Beat",
+   "topic": "drums in music class",
+   "l1": [
+    "My class played drums in music class on Wednesday.",
+    "First, our teacher gave each of us a small drum.",
+    "Next, we tapped a slow beat with our hands.",
+    "I felt calm and happy.",
+    "Then, we played a fast beat with sticks."
+   ],
+   "l2": [
+    "My class played drums in music class on Wednesday.",
+    "First, our teacher gave each of us a small drum.",
+    "On top, my drum was red.",
+    "Next, we tapped a slow beat with our hands.",
+    "I wondered how loud we could get.",
+    "After that, we played a fast beat with sticks."
+   ],
+   "end": {
+    "right": "When music was over, we put the drums away.",
+    "newEvent": "When the fast beat ended, we started to learn a new song.",
+    "again": "My class played drums on Wednesday."
+   }
+  },
+  {
+   "id": "relay",
+   "title": "Pass the Baton",
+   "topic": "a relay race in gym",
+   "l1": [
+    "My class ran a relay race in the gym on Thursday.",
+    "First, our teacher put us in two teams.",
+    "I was nervous about my turn.",
+    "Next, I ran fast to the cone and back.",
+    "Then, I passed the baton to my friend Leila."
+   ],
+   "l2": [
+    "My class ran a relay race in the gym on Thursday.",
+    "First, our teacher put us in two teams.",
+    "On each team, one runner held a red baton.",
+    "I hoped our team would be fast.",
+    "Next, I ran fast to the cone and back.",
+    "After that, I passed the baton to my friend Leila."
+   ],
+   "end": {
+    "right": "After the race, both teams sat down to rest.",
+    "newEvent": "Before we went back to class, we started a game of tag.",
+    "again": "My class had a race in the gym on Thursday."
+   }
+  },
+  {
+   "id": "library",
+   "title": "A Green Cover",
+   "topic": "a library visit",
+   "l1": [
+    "My class went to the school library on Monday.",
+    "I was so glad it was library day.",
+    "First, I looked at the books about frogs.",
+    "Next, I picked one with a green cover.",
+    "Then, I sat on a beanbag to read it."
+   ],
+   "l2": [
+    "My class went to the school library on Monday.",
+    "First, I looked at the books about frogs.",
+    "Next, I picked one with a green cover.",
+    "I thought the frog on the front looked silly.",
+    "Later, I sat on a beanbag to read it.",
+    "Up close, the beanbag was soft and squishy."
+   ],
+   "end": {
+    "right": "When library time was over, I checked out my frog book.",
+    "newEvent": "At the end, a big box of new books came to the library.",
+    "again": "On Monday, my class went to the library."
+   }
+  },
+  {
+   "id": "bubbles",
+   "title": "Dip and Blow",
+   "topic": "blowing bubbles at recess",
+   "l1": [
+    "My friend Theo and I blew bubbles at recess on Friday.",
+    "First, we dipped our wands in the soap.",
+    "I was happy and silly.",
+    "Next, we blew a long line of tiny bubbles.",
+    "Then, we ran to catch them in the air."
+   ],
+   "l2": [
+    "My friend Theo and I blew bubbles at recess on Friday.",
+    "Outside, the wind was soft and warm.",
+    "First, we dipped our wands in the soap.",
+    "I wondered how many bubbles I could make.",
+    "After that, we blew a long line of tiny bubbles.",
+    "Later, we ran to catch them in the air."
+   ],
+   "end": {
+    "right": "By the end of recess, we put the wands back in the jar.",
+    "newEvent": "After that, Theo and I started a game of catch.",
+    "again": "On Friday, Theo and I went out to blow bubbles at recess."
+   }
+  },
+  {
+   "id": "kite",
+   "title": "Up, Up, Up",
+   "topic": "a kite at the park",
+   "l1": [
+    "My grandma and I went to the park on Sunday.",
+    "I was so excited to fly a kite.",
+    "First, we unrolled the kite string.",
+    "Next, Grandma held the kite up high.",
+    "Then, I ran across the grass, and the kite went up."
+   ],
+   "l2": [
+    "My grandma and I went to the park on Sunday.",
+    "First, we unrolled the kite string.",
+    "Next, Grandma held the kite up high.",
+    "I wondered if it would fly.",
+    "Finally, I ran across the grass, and the kite went up.",
+    "Up in the sky, its long yellow tail waved."
+   ],
+   "end": {
+    "right": "When the wind stopped, we rolled up the string.",
+    "newEvent": "When the kite came down, a boy asked us to play ball.",
+    "again": "On Sunday, I went to the park with my grandma."
+   }
+  },
+  {
+   "id": "puppets",
+   "title": "Faces on Bags",
+   "topic": "a puppet show",
+   "l1": [
+    "My friend Nadia and I made a puppet show in class on Monday.",
+    "First, we drew two faces on paper bags.",
+    "Next, we hid behind a table and held up the puppets.",
+    "I was a little shy.",
+    "Then, our puppets told a joke to the class."
+   ],
+   "l2": [
+    "My friend Nadia and I made a puppet show in class on Monday.",
+    "First, we drew two faces on paper bags.",
+    "On my puppet, the nose was big and orange.",
+    "After that, we hid behind a table and held up the puppets.",
+    "I hoped everyone would get the joke.",
+    "Later, our puppets told a joke to the class."
+   ],
+   "end": {
+    "right": "After everyone clapped, we took a bow and sat down.",
+    "newEvent": "At the end, Nadia started to draw a third puppet.",
+    "again": "On Monday, Nadia and I made puppets in our class."
+   }
+  },
+  {
+   "id": "map",
+   "title": "A Star Where I Sit",
+   "topic": "a map of the classroom",
+   "l1": [
+    "My class drew maps of our classroom on Wednesday.",
+    "I was excited to use a ruler.",
+    "First, I drew a big square for the room.",
+    "Next, I added small boxes for the desks.",
+    "Then, I drew a star by my seat."
+   ],
+   "l2": [
+    "My class drew maps of our classroom on Wednesday.",
+    "For the lines, I used a ruler and a sharp pencil.",
+    "First, I drew a big square for the room.",
+    "I thought it looked like a box from the top.",
+    "After that, I added small boxes for the desks.",
+    "Finally, I drew a star by my seat."
+   ],
+   "end": {
+    "right": "At the end of the day, I hung my map by the door.",
+    "newEvent": "After that, my friend and I started a new map of the gym.",
+    "again": "On Wednesday, my class made maps of the classroom."
+   }
+  },
+  {
+   "id": "beanbags",
+   "title": "Red and Blue",
+   "topic": "a beanbag game in gym",
+   "l1": [
+    "My class played a beanbag game in the gym on Friday.",
+    "First, we set three hoops on the floor.",
+    "Next, I tossed a beanbag into the red hoop.",
+    "I felt excited to see it land.",
+    "Then, I tossed one into the blue hoop."
+   ],
+   "l2": [
+    "My class played a beanbag game in the gym on Friday.",
+    "On each beanbag, there was a frog face.",
+    "First, we set three hoops on the floor.",
+    "I thought the green hoop looked too far away.",
+    "Next, I tossed a beanbag into the red hoop.",
+    "After that, I tossed one into the blue hoop."
+   ],
+   "end": {
+    "right": "Once the game was over, we put the beanbags away.",
+    "newEvent": "When we were done, our teacher showed us a game with balls.",
+    "again": "On Friday, my class played a game with beanbags in the gym."
+   }
+  },
+  {
+   "id": "sandbox",
+   "title": "Under the Sand",
+   "topic": "a tunnel in the sandbox",
+   "l1": [
+    "My friend Kai and I played in the sandbox at the park on Saturday.",
+    "I was so excited to dig.",
+    "First, we dug a deep hole with a cup.",
+    "Next, we made a tunnel under the sand.",
+    "Then, we poured water down the tunnel."
+   ],
+   "l2": [
+    "My friend Kai and I played in the sandbox at the park on Saturday.",
+    "First, we dug a deep hole with a cup.",
+    "Down in the hole, the sand was wet and cold.",
+    "Next, we made a tunnel under the sand.",
+    "I wondered if water would go through it.",
+    "After that, we poured water down the tunnel."
+   ],
+   "end": {
+    "right": "Before we went home, we filled the hole back up.",
+    "newEvent": "After that, a little boy brought a red truck to the sandbox.",
+    "again": "On Saturday, Kai and I went to the sandbox at the park."
+   }
+  },
+  {
+   "id": "leaves",
+   "title": "Every Color",
+   "topic": "a leaf walk",
+   "l1": [
+    "My class took a walk around the school yard on Tuesday.",
+    "First, we looked for leaves of every color.",
+    "Next, I picked up a red leaf and a yellow leaf.",
+    "I was glad I found a big one.",
+    "Then, we put our leaves in a paper bag."
+   ],
+   "l2": [
+    "My class took a walk around the school yard on Tuesday.",
+    "First, we looked for leaves of every color.",
+    "I wondered how many leaves we would find.",
+    "Next, I picked up a red leaf and a yellow leaf.",
+    "Later, we put our leaves in a paper bag.",
+    "In my hands, the bag got heavy and full."
+   ],
+   "end": {
+    "right": "At the end of the walk, we carried our full bag inside.",
+    "newEvent": "When we got back to class, we saw a bird building a nest.",
+    "again": "On Tuesday, my class walked around the school yard."
+   }
+  },
+  {
+   "id": "easel",
+   "title": "Wavy Blue Lines",
+   "topic": "painting the sea at the easel",
+   "l1": [
+    "I painted a picture of the sea at the easel on Thursday.",
+    "I was excited to paint.",
+    "First, I painted wavy blue lines.",
+    "Next, I added a yellow boat on the waves.",
+    "Then, I made white dots for the splash."
+   ],
+   "l2": [
+    "I painted a picture of the sea at the easel on Thursday.",
+    "First, I painted wavy blue lines.",
+    "Next, I added a yellow boat on the waves.",
+    "I wondered if the boat needed a sail.",
+    "After that, I made white dots for the splash.",
+    "On the paper, the paint was wet and shiny."
+   ],
+   "end": {
+    "right": "When the paint was dry, I took it home to show my family.",
+    "newEvent": "Before I washed my brush, I started to paint a red fish.",
+    "again": "On Thursday, I made a sea picture at the easel."
+   }
+  },
+  {
+   "id": "hopscotch",
+   "title": "One Foot",
+   "topic": "hopscotch at recess",
+   "l1": [
+    "My friend Rosa and I played hopscotch at recess on Monday.",
+    "First, I tossed a small stone onto square one.",
+    "Next, I hopped on one foot to the end.",
+    "I felt so happy that I did not fall.",
+    "Then, I hopped back and picked up my stone."
+   ],
+   "l2": [
+    "My friend Rosa and I played hopscotch at recess on Monday.",
+    "With pink chalk, Rosa drew the squares.",
+    "First, I tossed a small stone onto square one.",
+    "Next, I hopped on one foot to the end.",
+    "I thought I might tip over.",
+    "Later, I hopped back and picked up my stone."
+   ],
+   "end": {
+    "right": "As the bell rang, I put my stone by the wall.",
+    "newEvent": "When I was done, Rosa started a new game of tag.",
+    "again": "On Monday, Rosa and I went to play hopscotch at recess."
+   }
+  }
+ ],
+ "timeWords": [
+  "first",
+  "second",
+  "third",
+  "next",
+  "then",
+  "after",
+  "after that",
+  "afterward",
+  "afterwards",
+  "later",
+  "finally",
+  "last",
+  "at last",
+  "at the end",
+  "in the end",
+  "at first",
+  "before",
+  "when",
+  "while",
+  "until",
+  "soon",
+  "now",
+  "once",
+  "today",
+  "tonight",
+  "yesterday",
+  "tomorrow",
+  "one day",
+  "suddenly",
+  "just then",
+  "meanwhile",
+  "during",
+  "still"
+ ],
+ "feelingWords": [
+  "felt",
+  "feel",
+  "feeling",
+  "happy",
+  "glad",
+  "proud",
+  "excited",
+  "nervous",
+  "worried",
+  "scared",
+  "afraid",
+  "sad",
+  "calm",
+  "cozy",
+  "surprised",
+  "thought",
+  "think",
+  "wondered",
+  "wonder",
+  "hoped",
+  "hope",
+  "wished",
+  "wish",
+  "loved",
+  "love",
+  "liked",
+  "like",
+  "enjoyed",
+  "smiled",
+  "laughed",
+  "grinned",
+  "giggled",
+  "cheered",
+  "cried",
+  "yelled",
+  "shouted",
+  "screamed",
+  "hugged",
+  "frowned",
+  "upset",
+  "mad",
+  "angry",
+  "grumpy",
+  "silly",
+  "brave",
+  "shy",
+  "lonely",
+  "bored",
+  "tired",
+  "thankful",
+  "curious",
+  "sorry",
+  "embarrassed",
+  "fun",
+  "great",
+  "best",
+  "favorite",
+  "kind",
+  "welcome",
+  "nice"
+ ],
+ "tasteCaps": [
+  "field day",
+  "show and tell",
+  "fun run",
+  "picture day",
+  "spirit week",
+  "earth day",
+  "mom",
+  "dad",
+  "grandma",
+  "grandpa"
+ ],
+ "ideas": [
+  {
+   "id": "helped",
+   "idea": "A time I helped a friend",
+   "topic": "helping a friend",
+   "theme": [
+    "help",
+    "helped",
+    "helping"
+   ],
+   "plan": {
+    "who": "my friend Dev",
+    "where": "in class on Monday",
+    "first": "picked up his crayons",
+    "next": "helped him sort them",
+    "last": "put them in his box",
+    "felt": "happy that I helped"
+   },
+   "draft1": {
+    "beginning": "I helped Dev in class."
+   },
+   "draft2": {
+    "beginning": "On Monday, Dev's crayons fell all over the rug.",
+    "middle": "First, I picked them up. Next, we sorted the colors. Last, he put them in his box.",
+    "ending": "At the end, Dev said thanks, and I felt glad I helped.",
+    "detail": "all over the rug"
+   }
+  },
+  {
+   "id": "newthing",
+   "idea": "A time I tried something new",
+   "topic": "trying something new",
+   "theme": [
+    "tried",
+    "try",
+    "something new"
+   ],
+   "plan": {
+    "who": "my friend Zoe",
+    "where": "playground, at recess",
+    "first": "climbed the ladder",
+    "next": "grabbed the bars",
+    "last": "swung across the bars",
+    "felt": "brave and proud"
+   },
+   "draft1": {
+    "beginning": "I tried the monkey bars."
+   },
+   "draft2": {
+    "beginning": "On Monday, I tried the monkey bars with my friend Zoe.",
+    "middle": "First, I climbed the ladder. Next, I grabbed the cold bars. Last, I swung across.",
+    "ending": "At the end, Zoe clapped, and I felt so brave.",
+    "detail": "cold bars"
+   }
+  },
+  {
+   "id": "surprised",
+   "idea": "A time I was surprised at school",
+   "topic": "a surprise at school",
+   "theme": [
+    "surprise",
+    "surprised"
+   ],
+   "plan": {
+    "who": "my class and a firefighter",
+    "where": "school yard, Friday",
+    "first": "saw a big red truck",
+    "next": "tried on a real helmet",
+    "last": "waved goodbye to him",
+    "felt": "happy and excited"
+   },
+   "draft1": {
+    "beginning": "a firefighter came to our school as a surprise."
+   },
+   "draft2": {
+    "beginning": "On Friday, a firefighter came to our school as a surprise.",
+    "middle": "First, we saw his red truck. Next, I tried on his helmet. Last, we waved goodbye.",
+    "ending": "At the end, I felt happy and excited.",
+    "detail": "red truck"
+   }
+  },
+  {
+   "id": "fixedit",
+   "idea": "A time something went wrong and I fixed it",
+   "topic": "fixing something that went wrong",
+   "theme": [
+    "fix",
+    "fixed",
+    "wrong",
+    "rip",
+    "torn",
+    "broke",
+    "broken"
+   ],
+   "plan": {
+    "who": "my teacher and I",
+    "where": "art class, Tuesday",
+    "first": "saw a rip in my art",
+    "next": "got some clear tape",
+    "last": "taped the back of it",
+    "felt": "glad and proud"
+   },
+   "draft1": {
+    "beginning": "I was in art class."
+   },
+   "draft2": {
+    "beginning": "On Tuesday, my drawing of a cat ripped in art class.",
+    "middle": "First, I got some clear tape. Next, I turned it over. Last, I taped the rip shut.",
+    "ending": "At the end, my drawing was fixed, and I felt proud.",
+    "detail": "of a cat"
+   }
+  },
+  {
+   "id": "rainy",
+   "idea": "A rainy recess",
+   "topic": "a rainy recess",
+   "theme": [
+    "rain",
+    "rainy",
+    "rained"
+   ],
+   "plan": {
+    "who": "my friends Ben and Lin",
+    "where": "in class at recess",
+    "first": "found a puzzle box",
+    "next": "sorted the edge pieces",
+    "last": "put in the final piece",
+    "felt": "happy and proud"
+   },
+   "draft1": {
+    "beginning": "it rained at recess."
+   },
+   "draft2": {
+    "beginning": "On a rainy Wednesday, Ben, Lin, and I had recess inside.",
+    "middle": "First, we found a puzzle of a ship. Next, we sorted the edges. Last, we finished it.",
+    "ending": "At the end, we put the puzzle away, and I felt happy.",
+    "detail": "of a ship"
+   }
+  },
+  {
+   "id": "firstday",
+   "idea": "My first day of second grade",
+   "topic": "the first day of second grade",
+   "theme": [
+    "first day",
+    "second grade"
+   ],
+   "plan": {
+    "who": "a girl named Ava",
+    "where": "new class, first morning",
+    "first": "found my desk",
+    "next": "played a name game",
+    "last": "sat with Ava on the rug",
+    "felt": "happy and welcome"
+   },
+   "draft1": {
+    "beginning": "it was my first day of second grade."
+   },
+   "draft2": {
+    "beginning": "On Monday, I walked into my second grade class.",
+    "middle": "First, I found my desk. Next, we played a name game. Last, I sat with Ava on the rug.",
+    "ending": "At the end, I was not nervous anymore.",
+    "detail": "on the rug"
+   }
+  }
+ ],
+ "exampleIdeas": [
+  {
+   "id": "chain",
+   "idea": "Making a paper chain for our door",
+   "topic": "a paper chain",
+   "plan": {
+    "who": "my friend Lena",
+    "where": "in class on Friday",
+    "first": "cut paper strips",
+    "next": "glued them into rings",
+    "last": "hung it on the door",
+    "felt": "proud"
+   },
+   "model": "On Friday, my friend Lena and I made a paper chain. First, we cut red and gold strips. Next, we glued them into rings. Last, we hung it on our door. At the end, I felt so proud of it.",
+   "revise": {
+    "asked": "How long was it?",
+    "added": "It went across the whole door.",
+    "fixed": "We hung it on the door.",
+    "liked": "the part about the glue"
+   }
+  },
+  {
+   "id": "planes",
+   "idea": "Paper airplanes in the gym",
+   "topic": "paper airplanes",
+   "plan": {
+    "who": "my friend Jonah",
+    "where": "the gym, Thursday",
+    "first": "folded our planes",
+    "next": "drew stripes on them",
+    "last": "tossed them in the gym",
+    "felt": "excited"
+   },
+   "model": "On Thursday, Jonah and I made paper airplanes in the gym. First, we folded our planes. Next, we drew stripes on them. Last, we tossed them across the gym. At the end, I felt excited.",
+   "revise": {
+    "asked": "How far did they go?",
+    "added": "Mine flew past the hoop.",
+    "fixed": "Next, we drew stripes.",
+    "liked": "the stripes on the planes"
+   }
+  },
+  {
+   "id": "butterflies",
+   "idea": "Letting our class butterflies go",
+   "topic": "class butterflies",
+   "plan": {
+    "who": "my class",
+    "where": "school yard, Monday",
+    "first": "carried the net outside",
+    "next": "opened the top",
+    "last": "watched them fly away",
+    "felt": "a little sad"
+   },
+   "model": "On Monday, my class let our butterflies go in the school yard. First, we carried the net outside. Next, we opened the top. Last, we watched them fly away. At the end, I felt a little sad.",
+   "revise": {
+    "asked": "What did they look like?",
+    "added": "They were orange and black.",
+    "fixed": "First, we went outside.",
+    "liked": "the part about the net"
+   }
+  },
+  {
+   "id": "rocks",
+   "idea": "Painting rocks for the school garden",
+   "topic": "painted rocks",
+   "plan": {
+    "who": "my friend Iris",
+    "where": "art room, Wednesday",
+    "first": "washed two rocks",
+    "next": "painted them blue",
+    "last": "set them by the plants",
+    "felt": "happy"
+   },
+   "model": "On Wednesday, Iris and I painted rocks in the art room. First, we washed two rocks. Next, we painted them blue. Last, we set them by the plants. At the end, I felt happy.",
+   "revise": {
+    "asked": "What did you paint on them?",
+    "added": "I painted a yellow star.",
+    "fixed": "Next, we painted them.",
+    "liked": "the yellow star"
+   }
+  }
+ ],
+ "details": [
+  {
+   "id": "mask",
+   "topic": "a paper mask",
+   "plain": "I made a mask in art.",
+   "asked": "What did it look like?",
+   "added": "It was a lion with a yellow mane."
+  },
+  {
+   "id": "song",
+   "topic": "a song in music",
+   "plain": "Our class sang a song.",
+   "asked": "How did you feel?",
+   "added": "I felt shy, but I sang anyway."
+  },
+  {
+   "id": "dance",
+   "topic": "a dance in music",
+   "plain": "We did a dance in music.",
+   "asked": "What did you do?",
+   "added": "We clapped and spun in a circle."
+  },
+  {
+   "id": "sharks",
+   "topic": "a book about sharks",
+   "plain": "I read a book about sharks.",
+   "asked": "What did you learn?",
+   "added": "Sharks have many rows of teeth."
+  },
+  {
+   "id": "ant",
+   "topic": "an ant on the sidewalk",
+   "plain": "I saw an ant on the sidewalk.",
+   "asked": "What was it doing?",
+   "added": "It was carrying a crumb."
+  },
+  {
+   "id": "dragon",
+   "topic": "a dragon drawing",
+   "plain": "I drew a dragon.",
+   "asked": "What did it look like?",
+   "added": "It was purple with tiny wings."
+  },
+  {
+   "id": "windows",
+   "topic": "counting windows",
+   "plain": "We counted the windows in our school.",
+   "asked": "How many were there?",
+   "added": "There were forty-two windows."
+  },
+  {
+   "id": "poster",
+   "topic": "a handprint poster",
+   "plain": "My class made a big poster.",
+   "asked": "What was on it?",
+   "added": "It had all our handprints."
+  },
+  {
+   "id": "noise",
+   "topic": "a noise in the hall",
+   "plain": "I heard a loud noise in the hall.",
+   "asked": "What did it sound like?",
+   "added": "It sounded like a drum."
+  },
+  {
+   "id": "freezetag",
+   "topic": "freeze tag in gym",
+   "plain": "We played a game in gym.",
+   "asked": "What game did you play?",
+   "added": "We played freeze tag."
+  },
+  {
+   "id": "letter",
+   "topic": "a letter to grandpa",
+   "plain": "I wrote a letter to my grandpa.",
+   "asked": "What did you tell him?",
+   "added": "I told him about my soccer goal."
+  },
+  {
+   "id": "magnifier",
+   "topic": "bugs under a magnifying glass",
+   "plain": "We looked at bugs with a magnifying glass.",
+   "asked": "What did you see?",
+   "added": "I saw tiny hairs on a fly."
+  },
+  {
+   "id": "cups",
+   "topic": "music with cups",
+   "plain": "We made music with cups.",
+   "asked": "What did it sound like?",
+   "added": "It sounded like a train."
+  },
+  {
+   "id": "card",
+   "topic": "a card for my teacher",
+   "plain": "I made a card for my teacher.",
+   "asked": "What was on it?",
+   "added": "It had a big purple flower."
+  },
+  {
+   "id": "cuptower",
+   "topic": "a cup tower in math",
+   "plain": "I built a cup tower in math.",
+   "asked": "How tall was it?",
+   "added": "It was as tall as my desk."
+  },
+  {
+   "id": "stretches",
+   "topic": "stretches in gym",
+   "plain": "We did stretches in gym.",
+   "asked": "What did you do?",
+   "added": "We stood like trees on one foot."
+  },
+  {
+   "id": "rabbit",
+   "topic": "a rabbit by the fence",
+   "plain": "I saw a rabbit by the fence.",
+   "asked": "What was it doing?",
+   "added": "It was eating the grass."
+  }
+ ],
+ "editStories": [
+  {
+   "id": "soccer",
+   "title": "Soccer at Recess",
+   "topic": "soccer at recess",
+   "name": "Kofi",
+   "sents": [
+    "My friend Kofi and I played soccer at recess.",
+    "First, we picked teams on the grass.",
+    "Next, I kicked the ball down the field.",
+    "Then, the ball rolled into the net.",
+    "Everyone on my team gave a big cheer.",
+    "At the end of recess, we lined up by the door."
+   ],
+   "off": "Many bears sleep all winter."
+  },
+  {
+   "id": "tug",
+   "title": "Tug-of-War",
+   "topic": "tug-of-war in gym",
+   "name": "Malik",
+   "sents": [
+    "My class played tug-of-war in gym.",
+    "First, our teacher tied a red flag on the rope.",
+    "Next, we held the rope with both hands.",
+    "Then, we pulled as hard as we could.",
+    "My friend Malik pulled the flag over the line.",
+    "At the end, we all sat down to rest."
+   ],
+   "off": "The moon is very far away."
+  },
+  {
+   "id": "robot",
+   "title": "Our Box Robot",
+   "topic": "a robot made of boxes",
+   "name": "Nia",
+   "sents": [
+    "My friend and I made a robot out of boxes.",
+    "First, we taped two boxes together.",
+    "Next, we cut holes for the arms.",
+    "Then, we glued on bottle caps for eyes.",
+    "My friend Nia said it was taller than my desk.",
+    "At the end of the day, we showed it to the class."
+   ],
+   "off": "Apples grow on trees."
+  },
+  {
+   "id": "mural",
+   "title": "The Fish Mural",
+   "topic": "a fish mural",
+   "name": "Sami",
+   "sents": [
+    "My class painted a big mural for the hall.",
+    "First, we drew fish with a pencil.",
+    "Next, we painted them orange and blue.",
+    "Then, my friend Sami added green plants.",
+    "Our teacher hung the mural in the hall.",
+    "At the end, the whole class looked at it."
+   ],
+   "off": "Frogs can jump very far."
+  },
+  {
+   "id": "play",
+   "title": "Our Class Play",
+   "topic": "practicing a class play",
+   "name": "Ari",
+   "sents": [
+    "My friend Ari and I practiced our class play.",
+    "First, we put on our animal hats.",
+    "Next, we said our lines on the stage.",
+    "Then, we sang our song together.",
+    "Our teacher said we did a good job.",
+    "At the end, we took off our hats."
+   ],
+   "off": "Snow is cold and white."
+  },
+  {
+   "id": "race",
+   "title": "The Three-Legged Race",
+   "topic": "a three-legged race",
+   "name": "Gabe",
+   "sents": [
+    "I ran a three-legged race in gym.",
+    "First, our teacher tied my leg to a friend's leg.",
+    "Next, my friend Gabe and I walked to the start.",
+    "Then, we hopped and ran to the cone.",
+    "We fell one time, but we got right up.",
+    "At the end, we crossed the finish line."
+   ],
+   "off": "Fish live in the water."
+  },
+  {
+   "id": "pinwheel",
+   "title": "Pinwheels",
+   "topic": "pinwheels in art",
+   "name": "Hana",
+   "sents": [
+    "My friend Hana and I made pinwheels in art.",
+    "First, we cut a square of paper.",
+    "Next, we folded the corners to the middle.",
+    "Then, our teacher put a pin in the center.",
+    "We blew on them to make them spin.",
+    "At the end of art, we took them home."
+   ],
+   "off": "Dogs have four legs."
+  },
+  {
+   "id": "catch",
+   "title": "Playing Catch",
+   "topic": "playing catch at the park",
+   "name": "Wes",
+   "sents": [
+    "My friend and I played catch at the park.",
+    "First, we stood far apart on the grass.",
+    "Next, I threw the ball high in the air.",
+    "Then, my friend Wes caught it with one hand.",
+    "We threw it back and forth ten times.",
+    "At the end, we sat on a bench to rest."
+   ],
+   "off": "The sun is a big star."
+  },
+  {
+   "id": "tent",
+   "title": "The Reading Tent",
+   "topic": "reading in a class tent",
+   "name": "Lila",
+   "sents": [
+    "My friend and I read in the class tent.",
+    "First, we picked two books about space.",
+    "Next, we crawled inside the tent.",
+    "Then, Lila and I took turns reading out loud.",
+    "We used a flashlight to see the pages.",
+    "At the end, we put the books back."
+   ],
+   "off": "Cows give us milk."
+  },
+  {
+   "id": "snowflakes",
+   "title": "Paper Snowflakes",
+   "topic": "paper snowflakes",
+   "name": "Tariq",
+   "sents": [
+    "My class made paper snowflakes.",
+    "First, we folded white paper into a triangle.",
+    "Next, we cut small shapes on the sides.",
+    "Then, we opened the paper very slowly.",
+    "My friend Tariq held his up to the window.",
+    "At the end, we hung them on the wall."
+   ],
+   "off": "Ducks like to swim in ponds."
+  },
+  {
+   "id": "hoops",
+   "title": "Two Points",
+   "topic": "basketball in gym",
+   "name": "Ravi",
+   "sents": [
+    "My friend Ravi and I played basketball in gym.",
+    "First, we bounced the ball to warm up.",
+    "Next, I took a shot at the hoop.",
+    "Then, the ball went right in.",
+    "Our team got two points.",
+    "At the end of gym, we put the balls away."
+   ],
+   "off": "Bees make honey."
+  },
+  {
+   "id": "sparkle",
+   "title": "The Sparkly Rock",
+   "topic": "a rock hunt at recess",
+   "name": "Ayla",
+   "sents": [
+    "I hunted for rocks at recess.",
+    "First, I looked by the big tree.",
+    "Next, my friend Ayla found a rock with sparkles.",
+    "Then, we washed it in a cup of water.",
+    "We put it in our class rock box.",
+    "At the end of recess, we went back inside."
+   ],
+   "off": "Many owls sleep during the day."
+  },
+  {
+   "id": "buttons",
+   "title": "Sorting Buttons",
+   "topic": "sorting buttons in math",
+   "name": "Noah",
+   "sents": [
+    "My friend Noah and I sorted buttons in math.",
+    "First, we dumped the buttons on the table.",
+    "Next, we made a pile for each color.",
+    "Then, we counted the buttons in each pile.",
+    "The red pile had the most buttons.",
+    "At the end, we put them back in the jar."
+   ],
+   "off": "Pigs roll in the mud."
+  },
+  {
+   "id": "moves",
+   "title": "Three Dance Moves",
+   "topic": "making up a dance",
+   "name": "Ines",
+   "sents": [
+    "My class made up dances in music.",
+    "First, we picked a fast song.",
+    "Next, we made up three moves.",
+    "Then, we showed our dance to the class.",
+    "My friend Ines clapped along with us.",
+    "At the end, we took a bow."
+   ],
+   "off": "Turtles have hard shells."
+  },
+  {
+   "id": "faces",
+   "title": "Our Faces",
+   "topic": "drawing our faces",
+   "name": "Mateo",
+   "sents": [
+    "My friend and I drew our faces in art.",
+    "First, we looked in a small mirror.",
+    "Next, we drew the shape of our heads.",
+    "Then, my friend Mateo drew a big smile.",
+    "I made my hair curly and brown.",
+    "At the end, we hung the pictures on the wall."
+   ],
+   "off": "Horses can run fast."
+  },
+  {
+   "id": "bridge",
+   "title": "The Straw Bridge",
+   "topic": "a straw bridge in science",
+   "name": "Lucia",
+   "sents": [
+    "I built a bridge in science.",
+    "First, I taped straws into triangles.",
+    "Next, my friend Lucia joined them in a row.",
+    "Then, we set our bridge across two books.",
+    "It held ten pennies before it bent.",
+    "At the end, we wrote how many it held."
+   ],
+   "off": "Penguins cannot fly."
+  }
+ ],
+ "modelOnly": [
+  {
+   "lesson": "plan-draft",
+   "topic": "a ladybug on the slide",
+   "words": [
+    "ladybug"
+   ]
+  },
+  {
+   "lesson": "revise-edit",
+   "topic": "a walk to school",
+   "words": [
+    "walk to school",
+    "crossing guard"
+   ]
+  }
+ ]
+}

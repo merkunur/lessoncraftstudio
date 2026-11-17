@@ -1,0 +1,90 @@
+/**
+ * The planted faults of poison-word-meanings-g1.js (types/_shared/word-meanings-g1.js and
+ * data/literacy/word-meanings-g1.en.json): [name, file, text to find, its replacement, type, level, 'key' when the fault
+ * shows on the answer key only, and (for the checks of the second round) the pattern the NEW report must match]. Every
+ * text must stand in its file exactly once (bank: at least once; the first one is changed); the poison script refuses to
+ * run otherwise, so a changed factory cannot pass with a stale list. A fault counts as caught only when the pages report
+ * something their clean run does not (the clean run of each type and level is the baseline).
+ */
+'use strict';
+module.exports = (FACTORY, BANK) => [
+  // ---------------------------------------------------------------- the page: letters, instruction, rows, bands, numbers
+  ['the page does not mark its letters as unjoined', FACTORY, 'data-lcs-wmg1="${mode}|${lv}" data-lcs-noliga="1"', 'data-lcs-wmg1="${mode}|${lv}"', 'G1-609', 2],
+  ['an f before i has no room of its own', FACTORY, 'text.replace(/f(?=[iflt])|t(?=t)/g,', 'text.replace(/zq(?=x)/g,', 'G1-611', 1],
+  ['the instruction of level 1 changed in the factory only', FACTORY, "define: { 1: 'Say what kind", "define: { 1: 'Tell what kind", 'G1-609', 1, null, /instruction is not the one/],
+  ['writing rows lower than half an inch', FACTORY, 'const ROW = 89; ', 'const ROW = 70; ', 'G1-611', 1],
+  ['a blank band under the first task', FACTORY, "${t.items.map((x) => wordCell(x, d.wfont, key)).join('')}</div>`, d.pad));", "${t.items.map((x) => wordCell(x, d.wfont, key)).join('')}</div>`, d.pad, 6, 'margin-bottom:70px;'));", 'G1-610', 2],
+  ['a blank band a reader sees inside a block (rows of 89 px on level 3 of G1-609)', FACTORY, 'rowH: 104,', 'rowH: 89,', 'G1-609', 3, null, /that a reader sees/],
+  ['the rule box takes a task number', FACTORY, "if (t.kind !== 'cues') k++;", 'k++;', 'G1-611', 1, null, /tasks are numbered/],
+  // ---------------------------------------------------------------- G1-608 Words by Category: Cut and Sort
+  ['the cards in the order of their categories', FACTORY, 'if (cardGridOk(o.map((x) => x.cat), d.gridCols)) order = o;', 'order = all.slice();', 'G1-608', 2],
+  ['a card draws its own left cut line', FACTORY, 'border-right:2px dashed ${T.ink};border-bottom:2px dashed ${T.ink};background:#FFFFFF">', 'border-left:2px dashed ${T.ink};border-right:2px dashed ${T.ink};border-bottom:2px dashed ${T.ink};background:#FFFFFF">', 'G1-608', 1],
+  ['the glue boxes hold the words on the page of the child', FACTORY, 'const keyWords = (c) => (key ? ', 'const keyWords = (c) => (true ? ', 'G1-608', 2],
+  ['the X over a card that fits no box on the page of the child', FACTORY, "(key && x.cat === 'odd' ?", "(x.cat === 'odd' ?", 'G1-608', 3],
+  ['two cards that fit no box, both like insects', FACTORY, "const looks = shuffle(['bird', 'fish', 'insect'], rng).slice(0, 2);", "const looks = ['insect', 'insect'];", 'G1-608', 3],
+  ['a card word smaller than 20 px', FACTORY, "<span data-lcs-cardword data-lcs-read style=\"font:800 ${d.word}px/1.1", "<span data-lcs-cardword data-lcs-read style=\"font:800 15px/1.1", 'G1-608', 1],
+  ['the key attribute under the heads missing on level 3', FACTORY, '${d.lines ? `<span data-lcs-headline', '${false ? `<span data-lcs-headline', 'G1-608', 3],
+  ['more than two print-only pictures', FACTORY, 'const kinds = new Set(), po = { n: 0, max: 2 };', 'const kinds = new Set(), po = { n: 0, max: 9 };', 'G1-608', 2],
+  ['pictures smaller than 60 px on level 2', FACTORY, 'odd: 0, cardW: 122, cardH: 86, pic: 60,', 'odd: 0, cardW: 122, cardH: 86, pic: 50,', 'G1-608', 2],
+  ['cards taller than the glue boxes were made for (less than 30 px of glue room)', FACTORY, 'height:${d.cardH}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;', 'height:${d.cardH + 30}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;', 'G1-608', 2, null, /cannot hold its \d+ cards with 30 px/],
+  ['level 3 shows an insect with no legs in view', FACTORY, "(x.legs || 0) >= d.legs);", '(x.legs || 0) >= 0);', 'G1-608', 3, null, /fewer than 4 legs/],
+  ['three -fish names and no shark or tuna among the fish cards', FACTORY, "if (fish && (fish.filter((w) => /fish$/.test(w)).length > 2 || !fish.some((w) => w === 'shark' || w === 'tuna'))) throw new Error('fish cards');", "if (fish && fish.some((w) => w === 'shark' || w === 'tuna') && rng.int(0, 19) > 0) throw new Error('fish cards');", 'G1-608', 2, null, /-fish names/],
+  ['the key does not say "any order"', FACTORY, ">(any order)</span>` : '');", "></span>` : '');", 'G1-608', 1, 'key', /any order/],
+  // ---------------------------------------------------------------- G1-609 Define Words
+  ['the right attribute always first', FACTORY, 'opts.splice(at[i], 0, x.main);', 'opts.splice(0, 0, x.main);', 'G1-609', 2],
+  ['the frames in the order of the word box', FACTORY, "box = shuffle(cs, rng);\n      if (!kindsOk(cats.map((c) => 'abcdefg'[Object.keys(b.cats).indexOf(c)]).join(''))) throw new Error('categories in a pattern');\n      if (cs.length === 3 && fr.length === 3 && (cats.join() === box.join() || cats.join() === box.slice().reverse().join())) throw new Error('frames in the order of the box');", "box = cats.slice();", 'G1-609', 2],
+  ['the sentence to finish does not name its category', FACTORY, 'is ${esc(C[x.cat].a)} that …', 'is a thing that …', 'G1-609', 1],
+  ['wrong attributes of the same category', FACTORY, 'y.cat !== x.cat && wrongFor(b, w, y.main) && !used.has(y.main)', 'y.cat === x.cat && wrongFor(b, w, y.main) && !used.has(y.main)', 'G1-609', 2, null, /is not an attribute of a thing of another category/],
+  ['a wrong choice that holds a true part (the draw ignores the parts)', FACTORY, " && (f.parts || []).every((p) => !((b.traits || {})[p] || []).includes(w)); };", ' && true; };', 'G1-609', 2, null, /is true of ".+", or might be argued/],
+  ['the page checks no attribute against what is true', FACTORY, '    facts: BANK.facts,', '    facts: {},', 'G1-609', 1],
+  ['the key of a frame writes another category', FACTORY, 'C[x.cat].a : null })', 'C.toy.a : null })', 'G1-609', 1, 'key'],
+  ['the key of a written definition is no sample', FACTORY, 'answer: key ? x.sample : null, sample: true', 'answer: key ? x.sample : null', 'G1-609', 3, 'key'],
+  ['the box over the written definitions misses a category', FACTORY, "box: shuffle(Object.keys(b.cats), rng) });", "box: shuffle(Object.keys(b.cats), rng).slice(0, 6) });", 'G1-609', 3, null, /seven categories/],
+  ['a written definition with one row for what is special', FACTORY, '<div data-lcs-row3 style="flex:0 0 auto">${row({ w: defRow2W(), h: d.rowH })}</div>', '<div data-lcs-row3 style="flex:0 0 auto"></div>', 'G1-609', 3, null, /has not three rows/],
+  // ---------------------------------------------------------------- G1-610 Add -s, -ed, and -ing
+  ['the base ring on the page of the child', FACTORY, "border:3px solid ${key ? T.teal : 'transparent'};border-radius:12px", 'border:3px solid ${T.teal};border-radius:12px', 'G1-610', 1],
+  ['the line through a word with no ending on the page of the child', FACTORY, 'letters(w, 0, w) + (key ? `<span data-lcs-strike', 'letters(w, 0, w) + (true ? `<span data-lcs-strike', 'G1-610', 2],
+  ['the worked row printed black', FACTORY, '{ fill: T.inkSoft,', '{ fill: T.ink,', 'G1-610', 1],
+  ['the words with no ending the shortest on the page', FACTORY, "const cross = shuffle(b.noEnding.filter((w) => !say.has(w)), rng).slice(0, d.cross).map((w) => ({ w, base: null, end: null }));\n      // no word with no ending shorter than every word with an ending (never found by length)\n      const minEnd = Math.min(...got.map((x) => x.w.length));\n      if (cross.some((x) => x.w.length < minEnd)) continue;", "const cross = b.noEnding.filter((w) => !say.has(w) && w.length === 3).slice(0, d.cross).map((w) => ({ w, base: null, end: null }));", 'G1-610', 3],
+  ['level 3 without a word that doubles its last letter', FACTORY, 'else table = shuffle([dbl[0], dre[0],', 'else table = shuffle([plain[5], dre[0],', 'G1-610', 3],
+  ['the key of the table writes another form', FACTORY, 'row({ w: COLS[c], h: ROW, answer: key ? formOf(w, fm) : null })', "row({ w: COLS[c], h: ROW, answer: key ? formOf(w, 'ing') : null })", 'G1-610', 2, 'key'],
+  ['the ring of the key ends before the last letter of the base word', FACTORY, 'left:-8px;right:-1px;top:-7px', 'left:-8px;right:14px;top:-7px', 'G1-610', 1, 'key', /to its last letter/],
+  ['the worked example of the line has no ring around help', FACTORY, 'border:2.5px solid ${T.inkSoft};border-radius:10px;line-height:1.15;margin-right:3px', 'border:0 solid ${T.inkSoft};border-radius:10px;line-height:1.15;margin-right:3px', 'G1-610', 2, null, /worked example/],
+  // ---------------------------------------------------------------- G1-611 Which Ending Fits?
+  ['the right form always first', FACTORY, 'o.splice(at[i], 0, s.form);', 'o.splice(0, 0, s.form);', 'G1-611', 1],
+  ['the right form the longest in most sentences', FACTORY, 'if (longest > Math.floor(d.circle / 2)) continue;', 'if (longest <= Math.floor(d.circle / 2)) continue;', 'G1-611', 2],
+  ['every sentence asks for -ed', FACTORY, "if (FORMS.some((x) => !fc.includes(x)) || !kindsOk(fc.map((x) => x[0]).join(''))) continue;", "if (fc.join() !== 'ed,ed,ed,ed') continue;", 'G1-611', 1],
+  ['the form marked right is not the one that fits', FACTORY, 'pill(o, o === formOf(s.base, s.form), d.font, key,', "pill(o, o === formOf(s.base, 'ing'), d.font, key,", 'G1-611', 1],
+  ['the key of a sentence to write writes the base word', FACTORY, 'answer: key ? formOf(s.base, s.form) : null', 'answer: key ? s.base : null', 'G1-611', 1, 'key'],
+  ['no rule box of clue words', FACTORY, "    tasks.push({ kind: 'cues', text: CUES[lv] });\n", '', 'G1-611', 2, null, /the parts are|rule box/],
+  ['the rule box of level 1 shows the clue words of level 3', FACTORY, "kind: 'cues', text: CUES[lv] }", "kind: 'cues', text: CUES[3] }", 'G1-611', 1, null, /rule box does not hold/],
+  ['level 2 writes no -es word', FACTORY, "(s, i) => s.writeOk && (i !== esAt || B[s.base].kind === 'es')", "(s) => s.writeOk && B[s.base].kind !== 'es'", 'G1-611', 2, null, /writes with -es/],
+  ['five action words in the box', FACTORY, 'verbs = shuffle(Object.keys(O.verbs), rng).slice(0, 6);', 'verbs = shuffle(Object.keys(O.verbs), rng).slice(0, 5);', 'G1-611', 3, null, /box of action words/],
+  ['no naming word with -es in the box', FACTORY, 'if (n6.some((n) => /(s|x|sh|ch)$/.test(n)) && ', 'if (!n6.some((n) => /(s|x|sh|ch)$/.test(n)) && ', 'G1-611', 3, null, /box of naming words/],
+  ['the box of action words under its first starter', FACTORY, "chips(t.verbs, 'verbs', '(Sample. Any word from the box with -ed or -ing is right.)') + one(st('ed')) +", "one(st('ed')) + chips(t.verbs, 'verbs', '(Sample. Any word from the box with -ed or -ing is right.)') +", 'G1-611', 3, null, /stand over their starters/],
+  ['a starter with one row', FACTORY, '<div data-lcs-row2 style="line-height:0">${row({ w: INNER, h: ROW })}</div>', '<div data-lcs-row2 style="line-height:0"></div>', 'G1-611', 3, null, /has not two rows/],
+  ['the key does not say which words of the box are right', FACTORY, '(key ? `<span data-lcs-boxnote', '(false ? `<span data-lcs-boxnote', 'G1-611', 3, 'key', /which words of the box/],
+  ['the key of the own sentences is no sample', FACTORY, 'answer: key ? t.sample[o.form] : null, sample: true', 'answer: key ? t.sample[o.form] : null', 'G1-611', 3, 'key', /no sample made/],
+  ['the key writes a sample from a word that is not in the box', FACTORY, 'const sample = { ed: O.verbs[verbs[0]][0],', 'const sample = { ed: O.verbs[Object.keys(O.verbs).find((v) => !verbs.includes(v))][0],', 'G1-611', 3, 'key', /no sample made from a word of its box/],
+  // ---------------------------------------------------------------- the bank
+  ['a black-and-white picture', BANK, '"birds 2",', '"birds bw",', 'G1-608', 1],
+  ['the attribute of the owl recorded as true of the robin', BANK, '"hoots at night": {\n   "yes": [\n    "owl"', '"hoots at night": {\n   "yes": [\n    "robin"', 'G1-609', 1],
+  ['a print-only picture in a frame', BANK, '"printOnly": false,', '"printOnly": true,', 'G1-609', 1],
+  ['a card that fits no box looks like no box', BANK, '"looks": "bird",', '"looks": "toy",', 'G1-608', 3],
+  ['a category with the wrong article', BANK, '"a": "an insect",', '"a": "a insect",', 'G1-609', 2],
+  ['a form against its rule (jumpped)', BANK, '"ed": "jumped"', '"ed": "jumpped"', 'G1-610', 1],
+  ['a base word that doubles marked as one that changes nothing', BANK, '"kind": "double"', '"kind": "plain"', 'G1-610', 3],
+  ['a word with no ending that is a form', BANK, '"king",', '"jumps",', 'G1-610', 2],
+  ['a sentence word off the reading list', BANK, '"text": "Max made three big ___."', '"text": "Max made three huge ___."', 'G1-611', 1],
+  ['a sentence without its clue', BANK, '"text": "Yesterday Max ___ in the pond."', '"text": "Max ___ in the pond."', 'G1-611', 1],
+  ['a sentence that prints a form of its own base word', BANK, '"text": "Now Kim is ___ her bag."', '"text": "Now Kim is ___ her packs."', 'G1-611', 1],
+  ['a sentence too long for one line', BANK, '"text": "The bus gave two ___."', '"text": "The big red bus at the gate gave two loud ___."', 'G1-611', 1],
+  ['a sample of a naming word too long for its row', BANK, '"dishes in the sink."', '"dishes in the big sink at the back of the shop."', 'G1-611', 3, null, /its sample does not start with it or fit the row/],
+  ['a sample of an action word without its form', BANK, '"looking up."', '"lookin up."', 'G1-611', 3, null, /samples do not start with its forms/],
+  ['a word never to print in a sentence', BANK, '"text": "Ben gave the ball two good ___."', '"text": "Ben gave the ball two dumb ___."', 'G1-611', 1],
+  ['a word never to print in an attribute of G1-609 (hits nails)', BANK, '"main": "pounds in nails",', '"main": "hits nails",', 'G1-609', 1, null, /"hits" in "hits nails" is a word never to print/],
+  ['an attribute that joins two facts with no parts', BANK, '"parts": [\n    "is long",\n    "is yellow"\n   ]', '"partz": [\n    "is long",\n    "is yellow"\n   ]', 'G1-609', 1, null, /joins two facts but lists no parts/],
+  ['a part not recorded as true of a thing its whole is true of', BANK, '"runs fast": [\n   "ostrich",', '"runs fast": [\n   "hen",', 'G1-609', 1, null, /its part "runs fast" is not true of a thing the whole is true of/],
+  ['an insect picture with no count of its legs', BANK, '"legs": 6,', '"legs": "six",', 'G1-608', 3, null, /no count of the legs/],
+  ['the tuna is no fish', BANK, '"tuna": {\n   "cat": "fish",', '"tuna": {\n   "cat": "toy",', 'G1-608', 2, null, /no shark and tuna among the fish/],
+];

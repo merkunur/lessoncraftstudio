@@ -1,0 +1,3657 @@
+{
+ "_note": "Grade 1 Word Meanings and Word Parts (English literacy year, Part 12.3; types/_shared/word-meanings-g1.js). General American. `cats`, `pairs`, `triples`, `things`, `odd`: the sort page G1-608 (cards with a picture and its word; every card belongs to exactly ONE category of the page; `odd` = cards of level 3 that fit no box, with the reason). `facts` + things[].main/sample/also: the definition page G1-609 (every attribute phrase with the things it is TRUE of and those a teacher might argue about). `bases`, `noEnding`, `sentences`, `read`, `names`, `own`: the endings pages G1-610 and G1-611 (each sentence judged against every form of its base). `say`: examples of the instructions. `bad`: words no page may print.",
+ "cats": {
+  "bird": {
+   "head": "Birds",
+   "a": "a bird",
+   "also": "an animal",
+   "line": "Birds have feathers."
+  },
+  "fish": {
+   "head": "Fish",
+   "a": "a fish",
+   "also": "an animal",
+   "line": "Fish have fins."
+  },
+  "insect": {
+   "head": "Insects",
+   "a": "an insect",
+   "also": "an animal",
+   "line": "Insects have six legs."
+  },
+  "fruit": {
+   "head": "Fruits",
+   "a": "a fruit",
+   "also": "a food"
+  },
+  "vegetable": {
+   "head": "Vegetables",
+   "a": "a vegetable",
+   "also": "a food"
+  },
+  "toy": {
+   "head": "Toys",
+   "a": "a toy"
+  },
+  "tool": {
+   "head": "Tools",
+   "a": "a tool"
+  }
+ },
+ "pairs": [
+  [
+   "bird",
+   "fish"
+  ],
+  [
+   "bird",
+   "insect"
+  ],
+  [
+   "fish",
+   "insect"
+  ],
+  [
+   "fruit",
+   "vegetable"
+  ],
+  [
+   "toy",
+   "tool"
+  ]
+ ],
+ "triples": [
+  [
+   "bird",
+   "fish",
+   "insect"
+  ]
+ ],
+ "things": {
+  "owl": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "owl"
+   ],
+   "kind": "owl",
+   "printOnly": false,
+   "main": "hoots at night",
+   "sample": "hoots at night",
+   "also": "has big eyes, hunts at night, flies"
+  },
+  "eagle": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "eagle"
+   ],
+   "kind": "eagle",
+   "printOnly": false
+  },
+  "parrot": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "parrot"
+   ],
+   "kind": "parrot",
+   "printOnly": false,
+   "main": "can copy words people say",
+   "sample": "can say words",
+   "also": "has bright feathers, flies"
+  },
+  "penguin": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "penguin"
+   ],
+   "kind": "penguin",
+   "printOnly": false,
+   "main": "swims but cannot fly",
+   "sample": "swims",
+   "also": "cannot fly, has black and white feathers"
+  },
+  "flamingo": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "flamingo"
+   ],
+   "kind": "flamingo",
+   "printOnly": false,
+   "main": "is pink and stands on one leg",
+   "sample": "is pink",
+   "also": "stands on one leg, has long legs"
+  },
+  "peacock": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "peacock"
+   ],
+   "kind": "peacock",
+   "printOnly": false,
+   "main": "has a big, bright tail",
+   "sample": "has a big tail",
+   "also": "has bright feathers"
+  },
+  "ostrich": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "ostrich"
+   ],
+   "kind": "ostrich",
+   "printOnly": false,
+   "main": "runs fast but cannot fly",
+   "sample": "runs fast",
+   "also": "cannot fly, has a long neck"
+  },
+  "swan": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "swan"
+   ],
+   "kind": "swan",
+   "printOnly": false,
+   "main": "has a long, curvy neck",
+   "sample": "has a long neck",
+   "also": "is white, swims, flies"
+  },
+  "robin": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "robin"
+   ],
+   "kind": "robin",
+   "printOnly": true
+  },
+  "hen": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "hen"
+   ],
+   "kind": "chicken",
+   "printOnly": false,
+   "main": "says cluck, cluck",
+   "sample": "clucks",
+   "also": "lays eggs we eat, lives on a farm"
+  },
+  "rooster": {
+   "cat": "bird",
+   "pic": [
+    "farm animals",
+    "rooster"
+   ],
+   "kind": "chicken",
+   "printOnly": false,
+   "main": "crows in the morning",
+   "sample": "crows",
+   "also": "wakes up the farm, has feathers"
+  },
+  "toucan": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "toucan"
+   ],
+   "kind": "toucan",
+   "printOnly": false,
+   "main": "has a big, bright bill",
+   "sample": "has a big bill",
+   "also": "flies, has a bright bill"
+  },
+  "pelican": {
+   "cat": "bird",
+   "pic": [
+    "birds",
+    "pelican"
+   ],
+   "kind": "pelican",
+   "printOnly": true
+  },
+  "goose": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "goose"
+   ],
+   "kind": "swan",
+   "printOnly": true
+  },
+  "woodpecker": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "woodpecker"
+   ],
+   "kind": "woodpecker",
+   "printOnly": false,
+   "main": "pecks holes in trees",
+   "sample": "pecks trees",
+   "also": "makes holes in wood, flies"
+  },
+  "duck": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "duck"
+   ],
+   "kind": "duck",
+   "printOnly": false
+  },
+  "pigeon": {
+   "cat": "bird",
+   "pic": [
+    "birds 2",
+    "pigeon"
+   ],
+   "kind": "pigeon",
+   "printOnly": true
+  },
+  "goldfish": {
+   "cat": "fish",
+   "pic": [
+    "pets",
+    "goldfish"
+   ],
+   "kind": "goldfish",
+   "printOnly": false,
+   "main": "people keep as a pet",
+   "sample": "is orange",
+   "also": "swims, is a pet"
+  },
+  "clownfish": {
+   "cat": "fish",
+   "pic": [
+    "ocean life",
+    "clownfish"
+   ],
+   "kind": "clownfish",
+   "printOnly": false,
+   "main": "has orange and white stripes",
+   "sample": "has stripes",
+   "also": "swims, lives in the sea"
+  },
+  "angelfish": {
+   "cat": "fish",
+   "pic": [
+    "ocean life",
+    "angelfish"
+   ],
+   "kind": "angelfish",
+   "printOnly": true
+  },
+  "pufferfish": {
+   "cat": "fish",
+   "pic": [
+    "ocean life",
+    "pufferfish"
+   ],
+   "kind": "pufferfish",
+   "printOnly": false,
+   "main": "puffs up like a ball",
+   "sample": "puffs up",
+   "also": "swims, lives in the sea"
+  },
+  "shark": {
+   "cat": "fish",
+   "pic": [
+    "ocean life",
+    "shark"
+   ],
+   "kind": "shark",
+   "printOnly": false,
+   "main": "has rows of sharp teeth",
+   "sample": "has sharp teeth",
+   "also": "swims, has fins, lives in the sea"
+  },
+  "tuna": {
+   "cat": "fish",
+   "pic": [
+    "ocean life",
+    "tuna"
+   ],
+   "kind": "tuna",
+   "printOnly": true
+  },
+  "ant": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "ant"
+   ],
+   "kind": "ant",
+   "printOnly": false,
+   "legs": 6,
+   "main": "lives in an anthill",
+   "sample": "is tiny",
+   "also": "lives in an anthill, carries food"
+  },
+  "bee": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "bee"
+   ],
+   "kind": "bee",
+   "printOnly": false,
+   "legs": 4,
+   "main": "makes honey",
+   "sample": "makes honey",
+   "also": "buzzes, flies, can sting"
+  },
+  "butterfly": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "butterfly"
+   ],
+   "kind": "butterfly",
+   "printOnly": false,
+   "legs": 0,
+   "main": "was a caterpillar first",
+   "sample": "has big wings",
+   "also": "flies, was a caterpillar first"
+  },
+  "ladybug": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "ladybug"
+   ],
+   "kind": "beetle",
+   "printOnly": false,
+   "legs": 4,
+   "main": "is red with black spots",
+   "sample": "has spots",
+   "also": "is red, flies"
+  },
+  "dragonfly": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "dragonfly"
+   ],
+   "kind": "dragonfly",
+   "printOnly": false,
+   "legs": 0
+  },
+  "mosquito": {
+   "cat": "insect",
+   "pic": [
+    "insects and bugs",
+    "mosquito"
+   ],
+   "kind": "mosquito",
+   "printOnly": true,
+   "legs": 6
+  },
+  "grasshopper": {
+   "cat": "insect",
+   "pic": [
+    "forest creatures",
+    "grasshopper"
+   ],
+   "kind": "grasshopper",
+   "printOnly": false,
+   "legs": 4,
+   "main": "jumps far on long back legs",
+   "sample": "jumps",
+   "also": "is green, has long back legs"
+  },
+  "beetle": {
+   "cat": "insect",
+   "pic": [
+    "Things That Fly",
+    "beetle"
+   ],
+   "kind": "beetle",
+   "printOnly": true,
+   "legs": 6
+  },
+  "apple": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "apple"
+   ],
+   "kind": "apple",
+   "printOnly": false,
+   "main": "grows on a tree",
+   "sample": "grows on a tree",
+   "also": "is crunchy, is sweet"
+  },
+  "banana": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "banana"
+   ],
+   "kind": "banana",
+   "printOnly": false,
+   "main": "is long and yellow",
+   "sample": "is yellow",
+   "also": "is long, is sweet"
+  },
+  "orange": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "orange"
+   ],
+   "kind": "orange",
+   "printOnly": false
+  },
+  "pear": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "pear"
+   ],
+   "kind": "pear",
+   "printOnly": false
+  },
+  "strawberry": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "strawberry"
+   ],
+   "kind": "strawberry",
+   "printOnly": false,
+   "main": "has seeds on the outside",
+   "sample": "is red",
+   "also": "is sweet, has seeds on the outside"
+  },
+  "lemon": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "lemon"
+   ],
+   "kind": "lemon",
+   "printOnly": false,
+   "main": "tastes sour",
+   "sample": "is sour",
+   "also": "is yellow, grows on a tree"
+  },
+  "pineapple": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "pineapple"
+   ],
+   "kind": "pineapple",
+   "printOnly": false,
+   "main": "has a spiky top",
+   "sample": "is spiky",
+   "also": "is sweet, is yellow inside"
+  },
+  "watermelon": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "watermelon"
+   ],
+   "kind": "watermelon",
+   "printOnly": false,
+   "main": "is green outside and red inside",
+   "sample": "is juicy",
+   "also": "is big, is red inside"
+  },
+  "grapes": {
+   "cat": "fruit",
+   "pic": [
+    "At the Supermarket",
+    "grapes"
+   ],
+   "kind": "grapes",
+   "printOnly": false
+  },
+  "kiwi": {
+   "cat": "fruit",
+   "pic": [
+    "fruits",
+    "kiwi"
+   ],
+   "kind": "kiwi",
+   "printOnly": false,
+   "main": "is brown and fuzzy outside",
+   "sample": "is fuzzy",
+   "also": "is green inside"
+  },
+  "carrot": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "carrot"
+   ],
+   "kind": "carrot",
+   "printOnly": false,
+   "main": "is long and orange",
+   "sample": "is orange",
+   "also": "grows under the ground, is crunchy"
+  },
+  "potato": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "potato"
+   ],
+   "kind": "potato",
+   "printOnly": false,
+   "main": "grows under the ground",
+   "sample": "grows in dirt",
+   "also": "grows under the ground"
+  },
+  "broccoli": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "broccoli"
+   ],
+   "kind": "broccoli",
+   "printOnly": false,
+   "main": "looks like a little tree",
+   "sample": "is green",
+   "also": "looks like a little tree",
+   "mass": true
+  },
+  "lettuce": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "lettuce"
+   ],
+   "kind": "leafy",
+   "printOnly": false,
+   "main": "has big green leaves",
+   "sample": "is green",
+   "also": "goes in a salad",
+   "mass": true
+  },
+  "onion": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "onion"
+   ],
+   "kind": "onion",
+   "printOnly": false,
+   "main": "can make your eyes water",
+   "sample": "makes you cry",
+   "also": "grows under the ground"
+  },
+  "celery": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "celery"
+   ],
+   "kind": "celery",
+   "printOnly": false,
+   "main": "has long green stalks",
+   "sample": "is crunchy",
+   "also": "is green",
+   "mass": true
+  },
+  "cabbage": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "cabbage"
+   ],
+   "kind": "leafy",
+   "printOnly": false
+  },
+  "radish": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "radish"
+   ],
+   "kind": "radish",
+   "printOnly": false,
+   "main": "is small, round, and red",
+   "sample": "is red",
+   "also": "grows under the ground"
+  },
+  "cauliflower": {
+   "cat": "vegetable",
+   "pic": [
+    "vegetables",
+    "cauliflower"
+   ],
+   "kind": "cauliflower",
+   "printOnly": false,
+   "mass": true
+  },
+  "ball": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "ball"
+   ],
+   "kind": "ball",
+   "printOnly": false,
+   "main": "bounces",
+   "sample": "bounces",
+   "also": "rolls, is round"
+  },
+  "kite": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "kite"
+   ],
+   "kind": "kite",
+   "printOnly": false,
+   "main": "flies in the wind",
+   "sample": "flies",
+   "also": "has a long string"
+  },
+  "blocks": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "blocks"
+   ],
+   "kind": "blocks",
+   "printOnly": false
+  },
+  "doll": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "doll"
+   ],
+   "kind": "doll",
+   "printOnly": false,
+   "main": "looks like a little person",
+   "sample": "looks like a person",
+   "also": "has hair and clothes"
+  },
+  "teddy bear": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "teddy_bear"
+   ],
+   "kind": "teddy",
+   "printOnly": false,
+   "main": "is soft and looks like a bear",
+   "sample": "is soft",
+   "also": "looks like a bear, is fun to hug"
+  },
+  "robot": {
+   "cat": "toy",
+   "pic": [
+    "toys",
+    "robot"
+   ],
+   "kind": "robot",
+   "printOnly": false
+  },
+  "hammer": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "hammer"
+   ],
+   "kind": "hammer",
+   "printOnly": false,
+   "main": "pounds in nails",
+   "sample": "pounds in nails",
+   "also": "is heavy"
+  },
+  "saw": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "handsaw"
+   ],
+   "kind": "saw",
+   "printOnly": false,
+   "main": "cuts wood",
+   "sample": "cuts wood",
+   "also": "has sharp teeth"
+  },
+  "screwdriver": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "screwdriver"
+   ],
+   "kind": "screwdriver",
+   "printOnly": false,
+   "main": "turns screws",
+   "sample": "turns screws",
+   "also": "has a long tip"
+  },
+  "pliers": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "pliers"
+   ],
+   "kind": "pliers",
+   "printOnly": false
+  },
+  "wrench": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "spanner"
+   ],
+   "kind": "wrench",
+   "printOnly": false,
+   "main": "turns bolts",
+   "sample": "turns bolts",
+   "also": "turns nuts"
+  },
+  "drill": {
+   "cat": "tool",
+   "pic": [
+    "tools",
+    "electric_drill"
+   ],
+   "kind": "drill",
+   "printOnly": false,
+   "main": "makes holes in wood",
+   "sample": "makes holes",
+   "also": "spins"
+  },
+  "shovel": {
+   "cat": "tool",
+   "pic": [
+    "spring",
+    "shovel"
+   ],
+   "kind": "shovel",
+   "printOnly": false,
+   "main": "digs in the dirt",
+   "sample": "digs",
+   "also": "digs holes, scoops dirt"
+  }
+ },
+ "odd": {
+  "bat": {
+   "pic": [
+    "animals",
+    "bat"
+   ],
+   "kind": "bat",
+   "looks": "bird",
+   "why": "A bat flies, but it has no feathers."
+  },
+  "spider": {
+   "pic": [
+    "insects and bugs",
+    "spider"
+   ],
+   "kind": "spider",
+   "looks": "insect",
+   "why": "A spider has eight legs."
+  },
+  "snail": {
+   "pic": [
+    "insects and bugs",
+    "snail"
+   ],
+   "kind": "snail",
+   "looks": "insect",
+   "why": "A snail has no legs."
+  },
+  "worm": {
+   "pic": [
+    "insects and bugs",
+    "worm"
+   ],
+   "kind": "worm",
+   "looks": "insect",
+   "why": "A worm has no legs."
+  },
+  "frog": {
+   "pic": [
+    "forest creatures",
+    "frog"
+   ],
+   "kind": "frog",
+   "looks": "fish",
+   "why": "A frog lives in water, but it has no fins."
+  },
+  "starfish": {
+   "pic": [
+    "ocean life",
+    "starfish"
+   ],
+   "kind": "starfish",
+   "looks": "fish",
+   "why": "A starfish lives in the sea, but it has no fins."
+  }
+ },
+ "traits": {
+  "swims": [
+   "penguin",
+   "swan",
+   "goose",
+   "duck",
+   "pelican",
+   "flamingo",
+   "ostrich",
+   "frog",
+   "goldfish",
+   "clownfish",
+   "angelfish",
+   "pufferfish",
+   "shark",
+   "tuna"
+  ],
+  "cannot fly": [
+   "penguin",
+   "peacock",
+   "ostrich",
+   "hen",
+   "rooster",
+   "goldfish",
+   "clownfish",
+   "angelfish",
+   "pufferfish",
+   "shark",
+   "tuna",
+   "ant",
+   "apple",
+   "banana",
+   "orange",
+   "pear",
+   "strawberry",
+   "lemon",
+   "pineapple",
+   "watermelon",
+   "grapes",
+   "kiwi",
+   "carrot",
+   "potato",
+   "broccoli",
+   "lettuce",
+   "onion",
+   "celery",
+   "cabbage",
+   "radish",
+   "cauliflower",
+   "ball",
+   "kite",
+   "blocks",
+   "doll",
+   "teddy bear",
+   "robot",
+   "hammer",
+   "saw",
+   "screwdriver",
+   "pliers",
+   "wrench",
+   "drill",
+   "shovel",
+   "bat",
+   "spider",
+   "snail",
+   "worm",
+   "frog",
+   "starfish"
+  ],
+  "runs fast": [
+   "ostrich",
+   "hen",
+   "rooster",
+   "ant",
+   "peacock",
+   "flamingo"
+  ],
+  "is pink": [
+   "flamingo",
+   "radish",
+   "onion",
+   "pear",
+   "watermelon",
+   "ostrich",
+   "strawberry",
+   "bat"
+  ],
+  "stands on one leg": [
+   "owl",
+   "eagle",
+   "parrot",
+   "penguin",
+   "flamingo",
+   "peacock",
+   "ostrich",
+   "swan",
+   "robin",
+   "hen",
+   "rooster",
+   "toucan",
+   "pelican",
+   "goose",
+   "woodpecker",
+   "duck",
+   "pigeon"
+  ],
+  "is orange": [
+   "carrot",
+   "orange",
+   "goldfish",
+   "clownfish",
+   "ant",
+   "butterfly",
+   "teddy bear",
+   "robot",
+   "toucan",
+   "pelican",
+   "swan",
+   "goose",
+   "duck",
+   "dragonfly",
+   "saw",
+   "pufferfish",
+   "robin",
+   "hen",
+   "rooster",
+   "penguin",
+   "owl",
+   "eagle",
+   "peacock",
+   "pear",
+   "beetle",
+   "blocks",
+   "angelfish",
+   "onion",
+   "potato",
+   "kite"
+  ],
+  "has stripes": [
+   "clownfish",
+   "bee",
+   "ant",
+   "mosquito",
+   "woodpecker",
+   "pigeon",
+   "watermelon",
+   "dragonfly",
+   "kite",
+   "goldfish",
+   "spider",
+   "worm",
+   "beetle",
+   "shark",
+   "tuna"
+  ],
+  "is long": [
+   "banana",
+   "carrot",
+   "celery",
+   "shark",
+   "tuna",
+   "dragonfly",
+   "grasshopper",
+   "screwdriver",
+   "saw",
+   "shovel",
+   "hammer",
+   "wrench",
+   "pliers",
+   "drill",
+   "kite",
+   "flamingo",
+   "ostrich",
+   "swan",
+   "goose",
+   "pelican",
+   "toucan",
+   "peacock",
+   "pineapple",
+   "lemon",
+   "robot",
+   "ant",
+   "mosquito",
+   "woodpecker",
+   "worm"
+  ],
+  "is yellow": [
+   "banana",
+   "lemon",
+   "pineapple",
+   "duck",
+   "parrot",
+   "bee",
+   "pear",
+   "angelfish",
+   "pufferfish",
+   "toucan",
+   "eagle",
+   "pliers",
+   "screwdriver",
+   "robot",
+   "kite",
+   "blocks",
+   "potato",
+   "goldfish",
+   "grasshopper",
+   "onion"
+  ],
+  "is green outside": [
+   "watermelon",
+   "lettuce",
+   "cabbage",
+   "broccoli",
+   "celery",
+   "grasshopper",
+   "pear",
+   "parrot",
+   "pineapple",
+   "strawberry",
+   "carrot",
+   "radish",
+   "onion",
+   "cauliflower",
+   "peacock",
+   "frog"
+  ],
+  "is red inside": [
+   "watermelon",
+   "strawberry",
+   "radish",
+   "onion"
+  ],
+  "is brown outside": [
+   "kiwi",
+   "potato",
+   "owl",
+   "eagle",
+   "robin",
+   "rooster",
+   "hen",
+   "hammer",
+   "onion",
+   "pear",
+   "teddy bear"
+  ],
+  "is fuzzy outside": [
+   "kiwi",
+   "bee",
+   "owl",
+   "duck",
+   "hen",
+   "goose",
+   "swan",
+   "bat",
+   "teddy bear"
+  ],
+  "is soft": [
+   "owl",
+   "eagle",
+   "parrot",
+   "penguin",
+   "flamingo",
+   "peacock",
+   "ostrich",
+   "swan",
+   "robin",
+   "hen",
+   "rooster",
+   "toucan",
+   "pelican",
+   "goose",
+   "woodpecker",
+   "duck",
+   "pigeon",
+   "bee",
+   "butterfly",
+   "banana",
+   "kiwi",
+   "strawberry",
+   "grapes",
+   "pear",
+   "watermelon",
+   "lettuce",
+   "cabbage",
+   "doll",
+   "ball",
+   "bat",
+   "worm",
+   "snail",
+   "teddy bear"
+  ],
+  "looks like a bear": [
+   "teddy bear"
+  ],
+  "is small": [
+   "owl",
+   "parrot",
+   "penguin",
+   "robin",
+   "hen",
+   "rooster",
+   "toucan",
+   "woodpecker",
+   "duck",
+   "pigeon",
+   "goldfish",
+   "clownfish",
+   "angelfish",
+   "pufferfish",
+   "ant",
+   "bee",
+   "butterfly",
+   "ladybug",
+   "dragonfly",
+   "mosquito",
+   "grasshopper",
+   "beetle",
+   "apple",
+   "banana",
+   "orange",
+   "pear",
+   "strawberry",
+   "lemon",
+   "grapes",
+   "kiwi",
+   "carrot",
+   "potato",
+   "broccoli",
+   "lettuce",
+   "onion",
+   "celery",
+   "cabbage",
+   "radish",
+   "cauliflower",
+   "ball",
+   "blocks",
+   "doll",
+   "teddy bear",
+   "robot",
+   "hammer",
+   "saw",
+   "screwdriver",
+   "pliers",
+   "wrench",
+   "drill",
+   "bat",
+   "spider",
+   "snail",
+   "worm",
+   "frog",
+   "starfish"
+  ],
+  "is round": [
+   "apple",
+   "orange",
+   "ball",
+   "kiwi",
+   "onion",
+   "potato",
+   "cabbage",
+   "grapes",
+   "ladybug",
+   "pufferfish",
+   "radish",
+   "lemon",
+   "owl",
+   "penguin",
+   "hen",
+   "duck",
+   "watermelon",
+   "pear",
+   "strawberry",
+   "cauliflower",
+   "broccoli",
+   "beetle",
+   "bee",
+   "lettuce",
+   "snail",
+   "teddy bear"
+  ],
+  "is red": [
+   "apple",
+   "strawberry",
+   "radish",
+   "ladybug",
+   "onion",
+   "beetle",
+   "watermelon",
+   "rooster",
+   "hen",
+   "hammer",
+   "kite",
+   "shovel",
+   "screwdriver",
+   "pliers",
+   "woodpecker",
+   "angelfish",
+   "robot",
+   "blocks",
+   "parrot",
+   "pufferfish",
+   "robin",
+   "ant",
+   "mosquito",
+   "saw",
+   "pear",
+   "flamingo",
+   "spider"
+  ]
+ },
+ "facts": {
+  "hoots at night": {
+   "yes": [
+    "owl"
+   ]
+  },
+  "swims but cannot fly": {
+   "yes": [
+    "penguin",
+    "goldfish",
+    "clownfish",
+    "angelfish",
+    "pufferfish",
+    "shark",
+    "tuna"
+   ],
+   "unsure": [
+    "ostrich",
+    "swan",
+    "goose",
+    "duck"
+   ],
+   "parts": [
+    "swims",
+    "cannot fly"
+   ]
+  },
+  "runs fast but cannot fly": {
+   "yes": [
+    "ostrich"
+   ],
+   "unsure": [
+    "hen",
+    "rooster",
+    "ant",
+    "penguin",
+    "peacock",
+    "flamingo"
+   ],
+   "parts": [
+    "runs fast",
+    "cannot fly"
+   ]
+  },
+  "can copy words people say": {
+   "yes": [
+    "parrot"
+   ],
+   "unsure": [
+    "robot",
+    "doll"
+   ]
+  },
+  "is pink and stands on one leg": {
+   "yes": [
+    "flamingo"
+   ],
+   "parts": [
+    "is pink",
+    "stands on one leg"
+   ]
+  },
+  "has a big, bright tail": {
+   "yes": [
+    "peacock"
+   ],
+   "unsure": [
+    "rooster",
+    "hen",
+    "parrot",
+    "toucan",
+    "kite",
+    "goldfish",
+    "clownfish",
+    "angelfish",
+    "pufferfish",
+    "shark",
+    "tuna"
+   ]
+  },
+  "says cluck, cluck": {
+   "yes": [
+    "hen"
+   ],
+   "unsure": [
+    "rooster"
+   ]
+  },
+  "crows in the morning": {
+   "yes": [
+    "rooster"
+   ],
+   "unsure": [
+    "hen"
+   ]
+  },
+  "has a big, bright bill": {
+   "yes": [
+    "toucan"
+   ],
+   "unsure": [
+    "pelican",
+    "flamingo",
+    "parrot",
+    "duck",
+    "swan",
+    "goose",
+    "eagle"
+   ]
+  },
+  "pecks holes in trees": {
+   "yes": [
+    "woodpecker"
+   ]
+  },
+  "has a long, curvy neck": {
+   "yes": [
+    "swan",
+    "flamingo"
+   ],
+   "unsure": [
+    "goose",
+    "ostrich",
+    "pelican"
+   ]
+  },
+  "has rows of sharp teeth": {
+   "yes": [
+    "shark"
+   ],
+   "unsure": [
+    "tuna",
+    "pufferfish",
+    "angelfish",
+    "clownfish",
+    "goldfish",
+    "saw"
+   ]
+  },
+  "people keep as a pet": {
+   "yes": [
+    "goldfish"
+   ],
+   "unsure": [
+    "clownfish",
+    "angelfish",
+    "pufferfish",
+    "parrot",
+    "hen",
+    "rooster",
+    "duck",
+    "ant",
+    "pigeon",
+    "snail",
+    "spider",
+    "frog"
+   ]
+  },
+  "has orange and white stripes": {
+   "yes": [
+    "clownfish"
+   ],
+   "unsure": [
+    "goldfish"
+   ],
+   "parts": [
+    "is orange",
+    "has stripes"
+   ]
+  },
+  "puffs up like a ball": {
+   "yes": [
+    "pufferfish"
+   ],
+   "unsure": [
+    "ball"
+   ]
+  },
+  "makes honey": {
+   "yes": [
+    "bee"
+   ]
+  },
+  "lives in an anthill": {
+   "yes": [
+    "ant"
+   ]
+  },
+  "was a caterpillar first": {
+   "yes": [
+    "butterfly"
+   ]
+  },
+  "is red with black spots": {
+   "yes": [
+    "ladybug"
+   ],
+   "unsure": [
+    "watermelon",
+    "strawberry",
+    "ant",
+    "butterfly",
+    "beetle",
+    "mosquito"
+   ]
+  },
+  "jumps far on long back legs": {
+   "yes": [
+    "grasshopper"
+   ],
+   "unsure": [
+    "frog"
+   ]
+  },
+  "is long and yellow": {
+   "yes": [
+    "banana"
+   ],
+   "unsure": [
+    "lemon",
+    "pineapple",
+    "parrot"
+   ],
+   "parts": [
+    "is long",
+    "is yellow"
+   ]
+  },
+  "tastes sour": {
+   "yes": [
+    "lemon"
+   ],
+   "unsure": [
+    "kiwi",
+    "pineapple",
+    "strawberry",
+    "grapes",
+    "apple",
+    "orange"
+   ]
+  },
+  "has seeds on the outside": {
+   "yes": [
+    "strawberry"
+   ]
+  },
+  "is green outside and red inside": {
+   "yes": [
+    "watermelon"
+   ],
+   "parts": [
+    "is green outside",
+    "is red inside"
+   ]
+  },
+  "has a spiky top": {
+   "yes": [
+    "pineapple"
+   ],
+   "unsure": [
+    "strawberry",
+    "pufferfish",
+    "rooster",
+    "hen",
+    "woodpecker",
+    "carrot",
+    "onion",
+    "celery",
+    "radish",
+    "peacock",
+    "robot",
+    "owl"
+   ]
+  },
+  "is brown and fuzzy outside": {
+   "yes": [
+    "kiwi"
+   ],
+   "unsure": [
+    "teddy bear",
+    "potato",
+    "owl"
+   ],
+   "parts": [
+    "is brown outside",
+    "is fuzzy outside"
+   ]
+  },
+  "grows on a tree": {
+   "yes": [
+    "apple",
+    "orange",
+    "pear",
+    "lemon"
+   ],
+   "unsure": [
+    "banana",
+    "kiwi",
+    "pineapple"
+   ]
+  },
+  "is long and orange": {
+   "yes": [
+    "carrot"
+   ],
+   "unsure": [
+    "goldfish",
+    "clownfish"
+   ],
+   "parts": [
+    "is long",
+    "is orange"
+   ]
+  },
+  "grows under the ground": {
+   "yes": [
+    "potato",
+    "carrot",
+    "radish",
+    "onion"
+   ]
+  },
+  "looks like a little tree": {
+   "yes": [
+    "broccoli",
+    "cauliflower"
+   ],
+   "unsure": [
+    "celery"
+   ]
+  },
+  "has big green leaves": {
+   "yes": [
+    "lettuce",
+    "cabbage"
+   ],
+   "unsure": [
+    "radish",
+    "carrot",
+    "celery",
+    "broccoli",
+    "pineapple",
+    "strawberry",
+    "potato",
+    "onion",
+    "cauliflower"
+   ]
+  },
+  "can make your eyes water": {
+   "yes": [
+    "onion"
+   ]
+  },
+  "has long green stalks": {
+   "yes": [
+    "celery"
+   ],
+   "unsure": [
+    "broccoli",
+    "onion",
+    "carrot",
+    "radish",
+    "lettuce",
+    "cauliflower"
+   ]
+  },
+  "is small, round, and red": {
+   "yes": [
+    "radish"
+   ],
+   "unsure": [
+    "ladybug",
+    "strawberry",
+    "apple",
+    "onion",
+    "potato",
+    "ball"
+   ],
+   "parts": [
+    "is small",
+    "is round",
+    "is red"
+   ]
+  },
+  "bounces": {
+   "yes": [
+    "ball"
+   ]
+  },
+  "flies in the wind": {
+   "yes": [
+    "kite"
+   ],
+   "unsure": [
+    "owl",
+    "eagle",
+    "parrot",
+    "flamingo",
+    "peacock",
+    "swan",
+    "robin",
+    "toucan",
+    "pelican",
+    "goose",
+    "woodpecker",
+    "duck",
+    "pigeon",
+    "hen",
+    "rooster",
+    "bee",
+    "butterfly",
+    "ladybug",
+    "dragonfly",
+    "mosquito",
+    "grasshopper",
+    "beetle"
+   ]
+  },
+  "looks like a little person": {
+   "yes": [
+    "doll"
+   ],
+   "unsure": [
+    "robot"
+   ]
+  },
+  "is soft and looks like a bear": {
+   "yes": [
+    "teddy bear"
+   ],
+   "parts": [
+    "is soft",
+    "looks like a bear"
+   ]
+  },
+  "pounds in nails": {
+   "yes": [
+    "hammer"
+   ]
+  },
+  "cuts wood": {
+   "yes": [
+    "saw"
+   ],
+   "unsure": [
+    "drill"
+   ]
+  },
+  "turns screws": {
+   "yes": [
+    "screwdriver"
+   ],
+   "unsure": [
+    "drill",
+    "wrench",
+    "pliers"
+   ]
+  },
+  "turns bolts": {
+   "yes": [
+    "wrench"
+   ],
+   "unsure": [
+    "pliers",
+    "drill",
+    "screwdriver"
+   ]
+  },
+  "makes holes in wood": {
+   "yes": [
+    "drill",
+    "woodpecker"
+   ],
+   "unsure": [
+    "hammer",
+    "saw",
+    "screwdriver",
+    "ant"
+   ]
+  },
+  "digs in the dirt": {
+   "yes": [
+    "shovel"
+   ],
+   "unsure": [
+    "ant",
+    "hen",
+    "rooster",
+    "robin",
+    "worm"
+   ]
+  }
+ },
+ "bases": {
+  "jump": {
+   "kind": "plain",
+   "s": "jumps",
+   "ed": "jumped",
+   "ing": "jumping"
+  },
+  "help": {
+   "kind": "plain",
+   "s": "helps",
+   "ed": "helped",
+   "ing": "helping"
+  },
+  "play": {
+   "kind": "plain",
+   "s": "plays",
+   "ed": "played",
+   "ing": "playing"
+  },
+  "look": {
+   "kind": "plain",
+   "s": "looks",
+   "ed": "looked",
+   "ing": "looking"
+  },
+  "walk": {
+   "kind": "plain",
+   "s": "walks",
+   "ed": "walked",
+   "ing": "walking"
+  },
+  "kick": {
+   "kind": "plain",
+   "s": "kicks",
+   "ed": "kicked",
+   "ing": "kicking"
+  },
+  "pack": {
+   "kind": "plain",
+   "s": "packs",
+   "ed": "packed",
+   "ing": "packing"
+  },
+  "fill": {
+   "kind": "plain",
+   "s": "fills",
+   "ed": "filled",
+   "ing": "filling"
+  },
+  "pull": {
+   "kind": "plain",
+   "s": "pulls",
+   "ed": "pulled",
+   "ing": "pulling"
+  },
+  "pick": {
+   "kind": "plain",
+   "s": "picks",
+   "ed": "picked",
+   "ing": "picking"
+  },
+  "rest": {
+   "kind": "plain",
+   "s": "rests",
+   "ed": "rested",
+   "ing": "resting"
+  },
+  "paint": {
+   "kind": "plain",
+   "s": "paints",
+   "ed": "painted",
+   "ing": "painting"
+  },
+  "clean": {
+   "kind": "plain",
+   "s": "cleans",
+   "ed": "cleaned",
+   "ing": "cleaning"
+  },
+  "rain": {
+   "kind": "plain",
+   "s": "rains",
+   "ed": "rained",
+   "ing": "raining"
+  },
+  "snow": {
+   "kind": "plain",
+   "s": "snows",
+   "ed": "snowed",
+   "ing": "snowing"
+  },
+  "camp": {
+   "kind": "plain",
+   "s": "camps",
+   "ed": "camped",
+   "ing": "camping"
+  },
+  "ask": {
+   "kind": "plain",
+   "s": "asks",
+   "ed": "asked",
+   "ing": "asking"
+  },
+  "yell": {
+   "kind": "plain",
+   "s": "yells",
+   "ed": "yelled",
+   "ing": "yelling"
+  },
+  "lift": {
+   "kind": "plain",
+   "s": "lifts",
+   "ed": "lifted",
+   "ing": "lifting"
+  },
+  "melt": {
+   "kind": "plain",
+   "s": "melts",
+   "ed": "melted",
+   "ing": "melting"
+  },
+  "dust": {
+   "kind": "plain",
+   "s": "dusts",
+   "ed": "dusted",
+   "ing": "dusting"
+  },
+  "land": {
+   "kind": "plain",
+   "s": "lands",
+   "ed": "landed",
+   "ing": "landing"
+  },
+  "lick": {
+   "kind": "plain",
+   "s": "licks",
+   "ed": "licked",
+   "ing": "licking"
+  },
+  "peek": {
+   "kind": "plain",
+   "s": "peeks",
+   "ed": "peeked",
+   "ing": "peeking"
+  },
+  "float": {
+   "kind": "plain",
+   "s": "floats",
+   "ed": "floated",
+   "ing": "floating"
+  },
+  "wait": {
+   "kind": "plain",
+   "s": "waits",
+   "ed": "waited",
+   "ing": "waiting"
+  },
+  "sail": {
+   "kind": "plain",
+   "s": "sails",
+   "ed": "sailed",
+   "ing": "sailing"
+  },
+  "beep": {
+   "kind": "plain",
+   "s": "beeps",
+   "ed": "beeped",
+   "ing": "beeping"
+  },
+  "honk": {
+   "kind": "plain",
+   "s": "honks",
+   "ed": "honked",
+   "ing": "honking"
+  },
+  "wink": {
+   "kind": "plain",
+   "s": "winks",
+   "ed": "winked",
+   "ing": "winking"
+  },
+  "show": {
+   "kind": "plain",
+   "s": "shows",
+   "ed": "showed",
+   "ing": "showing"
+  },
+  "peck": {
+   "kind": "plain",
+   "s": "pecks",
+   "ed": "pecked",
+   "ing": "pecking"
+  },
+  "wish": {
+   "kind": "es",
+   "s": "wishes",
+   "ed": "wished",
+   "ing": "wishing"
+  },
+  "toss": {
+   "kind": "es",
+   "s": "tosses",
+   "ed": "tossed",
+   "ing": "tossing"
+  },
+  "rush": {
+   "kind": "es",
+   "s": "rushes",
+   "ed": "rushed",
+   "ing": "rushing"
+  },
+  "fix": {
+   "kind": "es",
+   "s": "fixes",
+   "ed": "fixed",
+   "ing": "fixing"
+  },
+  "mix": {
+   "kind": "es",
+   "s": "mixes",
+   "ed": "mixed",
+   "ing": "mixing"
+  },
+  "brush": {
+   "kind": "es",
+   "s": "brushes",
+   "ed": "brushed",
+   "ing": "brushing"
+  },
+  "miss": {
+   "kind": "es",
+   "s": "misses",
+   "ed": "missed",
+   "ing": "missing"
+  },
+  "pass": {
+   "kind": "es",
+   "s": "passes",
+   "ed": "passed",
+   "ing": "passing"
+  },
+  "press": {
+   "kind": "es",
+   "s": "presses",
+   "ed": "pressed",
+   "ing": "pressing"
+  },
+  "nap": {
+   "kind": "double",
+   "s": "naps",
+   "ed": "napped",
+   "ing": "napping"
+  },
+  "pat": {
+   "kind": "double",
+   "s": "pats",
+   "ed": "patted",
+   "ing": "patting"
+  },
+  "tag": {
+   "kind": "double",
+   "s": "tags",
+   "ed": "tagged",
+   "ing": "tagging"
+  },
+  "rub": {
+   "kind": "double",
+   "s": "rubs",
+   "ed": "rubbed",
+   "ing": "rubbing"
+  },
+  "jog": {
+   "kind": "double",
+   "s": "jogs",
+   "ed": "jogged",
+   "ing": "jogging"
+  },
+  "nod": {
+   "kind": "double",
+   "s": "nods",
+   "ed": "nodded",
+   "ing": "nodding"
+  },
+  "dip": {
+   "kind": "double",
+   "s": "dips",
+   "ed": "dipped",
+   "ing": "dipping"
+  },
+  "zip": {
+   "kind": "double",
+   "s": "zips",
+   "ed": "zipped",
+   "ing": "zipping"
+  },
+  "sip": {
+   "kind": "double",
+   "s": "sips",
+   "ed": "sipped",
+   "ing": "sipping"
+  },
+  "beg": {
+   "kind": "double",
+   "s": "begs",
+   "ed": "begged",
+   "ing": "begging"
+  },
+  "pet": {
+   "kind": "double",
+   "s": "pets",
+   "ed": "petted",
+   "ing": "petting"
+  },
+  "hug": {
+   "kind": "double",
+   "s": "hugs",
+   "ed": "hugged",
+   "ing": "hugging"
+  },
+  "stop": {
+   "kind": "double",
+   "s": "stops",
+   "ed": "stopped",
+   "ing": "stopping"
+  },
+  "clap": {
+   "kind": "double",
+   "s": "claps",
+   "ed": "clapped",
+   "ing": "clapping"
+  },
+  "skip": {
+   "kind": "double",
+   "s": "skips",
+   "ed": "skipped",
+   "ing": "skipping"
+  },
+  "drop": {
+   "kind": "double",
+   "s": "drops",
+   "ed": "dropped",
+   "ing": "dropping"
+  },
+  "trip": {
+   "kind": "double",
+   "s": "trips",
+   "ed": "tripped",
+   "ing": "tripping"
+  },
+  "hop": {
+   "kind": "double",
+   "s": "hops",
+   "ed": "hopped",
+   "ing": "hopping"
+  },
+  "chop": {
+   "kind": "double",
+   "s": "chops",
+   "ed": "chopped",
+   "ing": "chopping"
+  },
+  "wave": {
+   "kind": "dropE",
+   "s": "waves",
+   "ed": "waved",
+   "ing": "waving"
+  },
+  "joke": {
+   "kind": "dropE",
+   "s": "jokes",
+   "ed": "joked",
+   "ing": "joking"
+  },
+  "smile": {
+   "kind": "dropE",
+   "s": "smiles",
+   "ed": "smiled",
+   "ing": "smiling"
+  },
+  "bike": {
+   "kind": "dropE",
+   "s": "bikes",
+   "ed": "biked",
+   "ing": "biking"
+  },
+  "hike": {
+   "kind": "dropE",
+   "s": "hikes",
+   "ed": "hiked",
+   "ing": "hiking"
+  },
+  "skate": {
+   "kind": "dropE",
+   "s": "skates",
+   "ed": "skated",
+   "ing": "skating"
+  },
+  "poke": {
+   "kind": "dropE",
+   "s": "pokes",
+   "ed": "poked",
+   "ing": "poking"
+  },
+  "hope": {
+   "kind": "dropE",
+   "s": "hopes",
+   "ed": "hoped",
+   "ing": "hoping"
+  },
+  "tape": {
+   "kind": "dropE",
+   "s": "tapes",
+   "ed": "taped",
+   "ing": "taping"
+  },
+  "name": {
+   "kind": "dropE",
+   "s": "names",
+   "ed": "named",
+   "ing": "naming"
+  },
+  "wipe": {
+   "kind": "dropE",
+   "s": "wipes",
+   "ed": "wiped",
+   "ing": "wiping"
+  },
+  "save": {
+   "kind": "dropE",
+   "s": "saves",
+   "ed": "saved",
+   "ing": "saving"
+  },
+  "rake": {
+   "kind": "dropE",
+   "s": "rakes",
+   "ed": "raked",
+   "ing": "raking"
+  },
+  "chase": {
+   "kind": "dropE",
+   "s": "chases",
+   "ed": "chased",
+   "ing": "chasing"
+  },
+  "taste": {
+   "kind": "dropE",
+   "s": "tastes",
+   "ed": "tasted",
+   "ing": "tasting"
+  },
+  "bake": {
+   "kind": "dropE",
+   "s": "bakes",
+   "ed": "baked",
+   "ing": "baking"
+  }
+ },
+ "noEnding": [
+  "king",
+  "ring",
+  "wing",
+  "thing",
+  "string",
+  "spring",
+  "swing",
+  "sled",
+  "shed",
+  "bed",
+  "red",
+  "bus",
+  "yes",
+  "dress",
+  "glass",
+  "grass",
+  "class"
+ ],
+ "sentences": [
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "jump",
+   "text": "Max made three big ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "kick",
+   "text": "Ben gave the ball two good ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "pack",
+   "text": "Mom got two ___ of gum."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "walk",
+   "text": "We took two ___ with the dog."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "paint",
+   "text": "Pam has six ___ in a box."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "play",
+   "text": "Kim and Sam put on two ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "yell",
+   "text": "Dad gave two loud ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "wink",
+   "text": "Ana gave me two ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "peck",
+   "text": "The hen took three ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "peek",
+   "text": "Sam took two ___ at the gift."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "beep",
+   "text": "The truck gave three ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "s",
+   "base": "honk",
+   "text": "The bus gave two ___."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "s",
+   "base": "wish",
+   "text": "Kate made three ___."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "s",
+   "base": "brush",
+   "text": "I have two ___ in my bag."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "s",
+   "base": "toss",
+   "text": "Jen made two good ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "nap",
+   "text": "The baby took two ___ today."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "hug",
+   "text": "Mom gave me three ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "joke",
+   "text": "Dad told two ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "hike",
+   "text": "We went on three ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "wave",
+   "text": "Kim saw two big ___ at the lake."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "bike",
+   "text": "The kids have three ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "pat",
+   "text": "The dog got three ___ on its back."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "stop",
+   "text": "The bus made two ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "clap",
+   "text": "Pam gave three loud ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "trip",
+   "text": "We took two ___ to the lake."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "smile",
+   "text": "The baby gave me two big ___."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "s",
+   "base": "taste",
+   "text": "Gus took two ___ of the cake."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "jump",
+   "text": "Yesterday Max ___ in the pond."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "kick",
+   "text": "Yesterday Ben ___ the ball to me."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "pack",
+   "text": "Yesterday Kim ___ her bag."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "rain",
+   "text": "Yesterday it ___ a lot."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "paint",
+   "text": "Last week Pam ___ a red box."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "ask",
+   "text": "Yesterday Dev ___ Mom for a snack."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "fill",
+   "text": "Yesterday Jin ___ the cup with milk."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "camp",
+   "text": "Last week we ___ in a tent."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "clean",
+   "text": "Yesterday Sam ___ his desk."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "snow",
+   "text": "Last week it ___ on the hill."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "yell",
+   "text": "Yesterday Ken ___ for his dog."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "pick",
+   "text": "Yesterday Tess ___ a pink rose."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "rest",
+   "text": "Yesterday Dad ___ on the bed."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "lift",
+   "text": "Yesterday Gus ___ a big box."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "walk",
+   "text": "Yesterday Nick ___ his dog."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "melt",
+   "text": "Yesterday the snow ___."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "wait",
+   "text": "Yesterday Jen ___ for the bus."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "sail",
+   "text": "Last week Dad ___ his boat."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "lick",
+   "text": "Yesterday the cat ___ its leg."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "show",
+   "text": "Yesterday Ana ___ me a shell."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "pull",
+   "text": "Yesterday Raj ___ the rope."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "land",
+   "text": "Yesterday a bug ___ on me."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "peek",
+   "text": "Yesterday Hassan ___ at his gift."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "float",
+   "text": "Yesterday the boat ___ away."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "play",
+   "text": "Yesterday Meg ___ tag with Lin."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "look",
+   "text": "Yesterday Jake ___ at the map."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ed",
+   "base": "help",
+   "text": "Yesterday Kate ___ her dad."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "fix",
+   "text": "Yesterday Ted ___ his bike."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "mix",
+   "text": "Yesterday Lin ___ the eggs."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "wish",
+   "text": "Yesterday Kate ___ for a cat."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "toss",
+   "text": "Yesterday Kim ___ the ball."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "brush",
+   "text": "Yesterday Ben ___ his teeth."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ed",
+   "base": "rush",
+   "text": "Yesterday we ___ to the bus."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "nap",
+   "text": "Yesterday the baby ___ a lot."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "rub",
+   "text": "Yesterday Dad ___ my back."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "pat",
+   "text": "Yesterday Max ___ the dog."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "jog",
+   "text": "Last week Mom ___ on the path."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "nod",
+   "text": "Yesterday Jin ___ at me."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "zip",
+   "text": "Yesterday Ken ___ his coat."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "sip",
+   "text": "Yesterday Tess ___ her milk."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "beg",
+   "text": "Yesterday the dog ___ for food."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "wave",
+   "text": "Yesterday Dev ___ at us."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "joke",
+   "text": "Yesterday Dad ___ about his hat."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "smile",
+   "text": "Yesterday Meg ___ at the baby."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "hike",
+   "text": "Last week we ___ up a big hill."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "skate",
+   "text": "Yesterday Ana ___ on the pond."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "bike",
+   "text": "Yesterday Nick ___ to the lake."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "tape",
+   "text": "Yesterday Jen ___ the box shut."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "rake",
+   "text": "Yesterday Gus ___ the leaves."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "wipe",
+   "text": "Yesterday Ted ___ the sink."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "chase",
+   "text": "Yesterday the cat ___ a bug."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "hug",
+   "text": "Yesterday Pam ___ her mom."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "stop",
+   "text": "Yesterday the bus ___ here."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ed",
+   "base": "chop",
+   "text": "Yesterday Dad ___ the logs."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "pack",
+   "text": "Now Kim is ___ her bag."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "kick",
+   "text": "Now Ben is ___ the ball."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "paint",
+   "text": "Now Pam is ___ a red box."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "jump",
+   "text": "Now the kids are ___ rope."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "ask",
+   "text": "Now Dev is ___ Mom for a snack."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "fill",
+   "text": "Now Jin is ___ the cup with milk."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "clean",
+   "text": "Now Sam is ___ his desk."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "yell",
+   "text": "Now Ken is ___ for his dog."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "pick",
+   "text": "Now Tess is ___ a pink rose."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "lift",
+   "text": "Now Gus is ___ a big box."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "wait",
+   "text": "Now Jen is ___ for the bus."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "sail",
+   "text": "Now Dad is ___ his boat."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "lick",
+   "text": "Now the cat is ___ its leg."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "show",
+   "text": "Now Ana is ___ me her shell."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "pull",
+   "text": "Now Raj is ___ the rope."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "walk",
+   "text": "Now Nick is ___ his dog."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "peek",
+   "text": "Now Hassan is ___ at his gift."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "look",
+   "text": "Now Meg is ___ at the cat."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "play",
+   "text": "Now the kids are ___ tag."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "help",
+   "text": "Now Kate is ___ her dad."
+  },
+  {
+   "lv": [
+    1,
+    2
+   ],
+   "form": "ing",
+   "base": "rain",
+   "text": "Now it is ___ on the lake."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "fix",
+   "text": "Now Ted is ___ his bike."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "mix",
+   "text": "Now Lin is ___ the eggs."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "toss",
+   "text": "Now Kim is ___ the ball up."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "brush",
+   "text": "Now Ben is ___ his teeth."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "wish",
+   "text": "Now Kate is ___ for a cat."
+  },
+  {
+   "lv": [
+    2
+   ],
+   "form": "ing",
+   "base": "press",
+   "text": "Now Jin is ___ the red button."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "nap",
+   "text": "Now the baby is ___ in her crib."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "rub",
+   "text": "Now Dad is ___ my back."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "pat",
+   "text": "Now Max is ___ the dog."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "jog",
+   "text": "Now Mom is ___ on the path."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "beg",
+   "text": "Now the dog is ___ for a treat."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "zip",
+   "text": "Now Ken is ___ his coat."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "sip",
+   "text": "Now Tess is ___ her milk."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "wave",
+   "text": "Now Dev is ___ at us."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "smile",
+   "text": "Now Meg is ___ at the baby."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "hike",
+   "text": "Now we are ___ up a big hill."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "skate",
+   "text": "Now Ana is ___ on the pond."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "tape",
+   "text": "Now Jen is ___ the box shut."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "rake",
+   "text": "Now Gus is ___ the leaves."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "wipe",
+   "text": "Now Ted is ___ the sink."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "chase",
+   "text": "Now the cat is ___ a bug."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "bike",
+   "text": "Now Nick is ___ to the lake."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "joke",
+   "text": "Now Dad is ___ about his hat."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "hug",
+   "text": "Now Pam is ___ her mom."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "chop",
+   "text": "Now Dad is ___ the logs."
+  },
+  {
+   "lv": [
+    3
+   ],
+   "form": "ing",
+   "base": "clap",
+   "text": "Now the kids are ___ for Pam."
+  }
+ ],
+ "read": [
+  "a",
+  "an",
+  "the",
+  "and",
+  "for",
+  "to",
+  "of",
+  "on",
+  "in",
+  "at",
+  "up",
+  "with",
+  "is",
+  "are",
+  "am",
+  "it",
+  "its",
+  "his",
+  "her",
+  "my",
+  "me",
+  "we",
+  "us",
+  "i",
+  "you",
+  "he",
+  "she",
+  "they",
+  "yesterday",
+  "last",
+  "week",
+  "now",
+  "today",
+  "two",
+  "three",
+  "six",
+  "big",
+  "good",
+  "loud",
+  "red",
+  "pink",
+  "new",
+  "max",
+  "ben",
+  "mom",
+  "dad",
+  "kim",
+  "sam",
+  "pam",
+  "kate",
+  "jen",
+  "dev",
+  "jin",
+  "ken",
+  "tess",
+  "gus",
+  "nick",
+  "ana",
+  "raj",
+  "hassan",
+  "meg",
+  "lin",
+  "jake",
+  "ted",
+  "made",
+  "got",
+  "gave",
+  "took",
+  "put",
+  "told",
+  "went",
+  "saw",
+  "have",
+  "has",
+  "had",
+  "gum",
+  "dog",
+  "cat",
+  "hen",
+  "bus",
+  "truck",
+  "seeds",
+  "gift",
+  "box",
+  "bag",
+  "ball",
+  "snack",
+  "cup",
+  "milk",
+  "tent",
+  "desk",
+  "hill",
+  "rose",
+  "bed",
+  "pool",
+  "rope",
+  "duck",
+  "pond",
+  "boat",
+  "lake",
+  "leg",
+  "shell",
+  "map",
+  "bike",
+  "eggs",
+  "teeth",
+  "path",
+  "logs",
+  "sink",
+  "tag",
+  "game",
+  "baby",
+  "kids",
+  "class",
+  "cake",
+  "back",
+  "coat",
+  "treat",
+  "hat",
+  "crib",
+  "leaves",
+  "bug",
+  "gate",
+  "button",
+  "sun",
+  "snow",
+  "lot",
+  "shut",
+  "about",
+  "away",
+  "here",
+  "food",
+  "fast",
+  "me"
+ ],
+ "names": [
+  "Max",
+  "Ben",
+  "Kim",
+  "Sam",
+  "Pam",
+  "Kate",
+  "Jen",
+  "Dev",
+  "Jin",
+  "Ken",
+  "Tess",
+  "Gus",
+  "Nick",
+  "Ana",
+  "Raj",
+  "Hassan",
+  "Meg",
+  "Lin",
+  "Jake",
+  "Ted"
+ ],
+ "own": {
+  "starters": [
+   {
+    "form": "ed",
+    "lead": "Yesterday I",
+    "box": "verbs"
+   },
+   {
+    "form": "ing",
+    "lead": "Now I am",
+    "box": "verbs"
+   },
+   {
+    "form": "s",
+    "lead": "I can see two",
+    "box": "nouns"
+   }
+  ],
+  "verbs": {
+   "play": [
+    "played tag.",
+    "playing tag."
+   ],
+   "jump": [
+    "jumped rope.",
+    "jumping rope."
+   ],
+   "kick": [
+    "kicked a ball.",
+    "kicking a ball."
+   ],
+   "look": [
+    "looked up.",
+    "looking up."
+   ],
+   "help": [
+    "helped Mom.",
+    "helping Mom."
+   ],
+   "walk": [
+    "walked home.",
+    "walking home."
+   ],
+   "pull": [
+    "pulled a sled.",
+    "pulling a sled."
+   ],
+   "fill": [
+    "filled a cup.",
+    "filling a cup."
+   ],
+   "yell": [
+    "yelled for Dad.",
+    "yelling for Dad."
+   ],
+   "pick": [
+    "picked a rose.",
+    "picking a rose."
+   ],
+   "paint": [
+    "painted a box.",
+    "painting a box."
+   ],
+   "rest": [
+    "rested in bed.",
+    "resting in bed."
+   ],
+   "ask": [
+    "asked for help.",
+    "asking for help."
+   ],
+   "wait": [
+    "waited a bit.",
+    "waiting a bit."
+   ]
+  },
+  "nouns": {
+   "cat": [
+    "cats",
+    "cats on a bed."
+   ],
+   "dog": [
+    "dogs",
+    "dogs at the pond."
+   ],
+   "duck": [
+    "ducks",
+    "ducks in a pond."
+   ],
+   "hat": [
+    "hats",
+    "hats on a desk."
+   ],
+   "bus": [
+    "buses",
+    "buses at the stop."
+   ],
+   "box": [
+    "boxes",
+    "boxes on a shelf."
+   ],
+   "cup": [
+    "cups",
+    "cups on a desk."
+   ],
+   "bed": [
+    "beds",
+    "beds in a tent."
+   ],
+   "pig": [
+    "pigs",
+    "pigs in the mud."
+   ],
+   "hen": [
+    "hens",
+    "hens in a pen."
+   ],
+   "fox": [
+    "foxes",
+    "foxes in a den."
+   ],
+   "dish": [
+    "dishes",
+    "dishes in the sink."
+   ],
+   "bag": [
+    "bags",
+    "bags on a desk."
+   ],
+   "egg": [
+    "eggs",
+    "eggs in a nest."
+   ]
+  }
+ },
+ "say": {
+  "sort": [
+   "dog",
+   "cat",
+   "pets"
+  ],
+  "define": [
+   "duck"
+  ],
+  "add": {
+   "1": [
+    "help"
+   ],
+   "2": [
+    "dress"
+   ],
+   "3": [
+    "hop",
+    "bake",
+    "drop"
+   ]
+  }
+ },
+ "bad": [
+  "kill",
+  "kills",
+  "killed",
+  "killing",
+  "hit",
+  "hits",
+  "punch",
+  "punched",
+  "kick-butt",
+  "butt",
+  "butts",
+  "pee",
+  "poo",
+  "poop",
+  "fart",
+  "farts",
+  "die",
+  "dies",
+  "died",
+  "dead",
+  "shoot",
+  "shot",
+  "gun",
+  "guns",
+  "hate",
+  "hated",
+  "stupid",
+  "dumb",
+  "idiot",
+  "sexy",
+  "kiss",
+  "kissed",
+  "kissing",
+  "kisses"
+ ]
+}

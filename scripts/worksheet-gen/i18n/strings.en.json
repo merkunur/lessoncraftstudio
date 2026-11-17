@@ -5508,7 +5508,7 @@
   },
   "G3-531": {
     "title": "Sort the Parts of Speech",
-    "instruction": "A word's job makes it a noun, pronoun, verb, adjective, or adverb."
+    "instruction": "A word’s job makes it a noun, pronoun, verb, adjective, or adverb."
   },
   "G3-532": {
     "title": "Plural Nouns: Spelling Rules",
@@ -5533,5 +5533,49 @@
   "G3-537": {
     "title": "Fix the Words That Do Not Agree",
     "instruction": "A verb agrees with its subject, not with the words in between."
+  },
+  "G1-608": {
+    "title": "Words by Category: Cut and Sort",
+    "instruction": "A category is a group of things that are alike. Dogs and cats are pets."
+  },
+  "G1-609": {
+    "title": "A Duck Is a Bird That Swims: Define Words",
+    "instruction": "Say what kind of thing it is and what makes it special."
+  },
+  "G1-610": {
+    "title": "Add -s, -ed, and -ing",
+    "instruction": "Most words add -s. After s, x, sh, or ch, add -es: dress, dresses."
+  },
+  "G1-611": {
+    "title": "Which Ending Fits? -s, -ed, or -ing",
+    "instruction": "The clue words tell which ending fits."
+  },
+  "G3-540": {
+    "title": "Context Clues: What Kind of Clue?",
+    "instruction": "Four kinds of context clues: definition, synonym, antonym, and example."
+  },
+  "G3-541": {
+    "title": "Context Clues in a Passage",
+    "instruction": "Examples and opposites near a new word are clues to what it means."
+  },
+  "G3-542": {
+    "title": "Use a Dictionary: Guide Words and Meanings",
+    "instruction": "Guide words show the first and last words on a dictionary page."
+  },
+  "G3-543": {
+    "title": "Use a Glossary: Find the Meaning",
+    "instruction": "A glossary gives the meaning a word has in that book, in ABC order."
+  },
+  "G2-549": {
+    "title": "Describing Words in Real Life",
+    "instruction": "Describing words tell what real things are like: a warm hat, a cold drink."
+  },
+  "G2-550": {
+    "title": "Draw and Write with Describing Words",
+    "instruction": "Describing words tell what real things are like: a fuzzy, warm hat."
+  },
+  "G2-551": {
+    "title": "Adjective or Adverb?",
+    "instruction": "An adjective tells about a noun. An adverb tells about a verb: how it is done."
   }
 }

@@ -100,8 +100,8 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'word-classes': ['k654', 'k658', 'g3524', 'g3525'],   // Year pages, literacy N: Kindergarten words and sentences (cards to cut and glue, words to circle, rows to write on; PDF only)
   'capitals-punctuation': ['k655', 'k656', 'k659', 'k660', 'g1592', 'g1593', 'g2537', 'g3526', 'g3527', 'g3528', 'g3529'],   // g1592, g1593 Year pages, literacy U: Grade 1 grammar (words to circle and write again, rows to write on; PDF only)
   'sentence-building': ['k657', 'g1594', 'g3520', 'g3521', 'g3522', 'g3523'],   // g3520 to g3529 Year pages, literacy Y: Grade 3 sentences and conventions (words and sentences to write, boxes to check; PDF only)
-  'verb-forms': ['g1595'],
-  'word-parts': ['g2535', 'g2536', 'g3516', 'g3517'],   // Year pages, literacy V: Grade 2 prefixes and suffixes (letters to write in gaps, lines to draw; PDF only)
+  'verb-forms': ['g1595', 'g1611'],   // g1611 Year pages, literacy BB: Which Ending Fits? (words to circle and to write; PDF only)
+  'word-parts': ['g2535', 'g2536', 'g3516', 'g3517', 'g1610'],   // Year pages, literacy V: Grade 2 prefixes and suffixes (letters to write in gaps, lines to draw; PDF only)
   'compound-words': ['g1602'],   // Year pages, literacy Z: Grade 1 two-syllable words (lines to draw, numbers and words to write; PDF only)
   'syllable-split': ['g2546', 'g1600', 'g1601', 'g3512', 'g3513', 'g3514'],   // g3512 to g3519 Year pages, literacy X: Grade 3 long words (boxes for a letter, words to sort and to build; PDF only)   // Year pages, literacy W: Grade 2 reading pages for the vowel patterns, two-syllable words (words to split, write and draw; PDF only)
   'syllable-reading': ['g2547', 'k664', 'g3515'],   // k664 Year pages, literacy T: two words one letter apart (a word to circle, a letter to underline; PDF only)

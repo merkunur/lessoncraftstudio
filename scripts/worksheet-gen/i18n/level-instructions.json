@@ -7617,7 +7617,7 @@
   },
   "G3-530": {
     "1": {
-      "en": "A noun names a person, place, or thing. A verb shows an action or a state of being. An adjective describes a noun."
+      "en": "Every word has a job."
     },
     "3": {
       "en": "Every word has a job. Label each word by the job it does, then write and label a sentence of your own."
@@ -7628,7 +7628,7 @@
       "en": "Nouns, verbs, and adjectives do different jobs. Sort each word by its job."
     },
     "3": {
-      "en": "A word's job makes it a noun, pronoun, verb, adjective, or adverb. Not every word that ends in -ly is an adverb."
+      "en": "A word’s job makes it a noun, pronoun, verb, adjective, or adverb. Not every word that ends in -ly is an adverb."
     }
   },
   "G3-532": {
@@ -7641,7 +7641,7 @@
     "3": {
       "en": {
         "title": "Plural Nouns: Regular and Irregular",
-        "instruction": "Most plural nouns follow a spelling rule. Irregular nouns change in their own way: one man, two men."
+        "instruction": "Most plural nouns follow a spelling rule. Irregular nouns change in their own way or stay the same."
       }
     }
   },
@@ -7650,7 +7650,7 @@
       "en": "Add -s to most nouns. Add -es to nouns that end in s, x, z, ch, or sh."
     },
     "3": {
-      "en": "A plural noun names more than one. Most follow a rule, and irregular nouns change in their own way."
+      "en": "A plural noun names more than one. Most follow a rule. Irregular nouns change in their own way or stay the same."
     }
   },
   "G3-534": {
@@ -7661,7 +7661,7 @@
       }
     },
     "3": {
-      "en": "Regular verbs add -ed in the past. Irregular verbs change in their own way: go, went."
+      "en": "Regular verbs add -ed. Each irregular verb has its own past: go, went."
     }
   },
   "G3-535": {
@@ -7690,5 +7690,55 @@
     "3": {
       "en": "A verb agrees with its subject. A pronoun agrees with its noun."
     }
-  }
+  },
+  "G1-608": {
+    "3": {
+      "en": "A category is a group of things that are alike. Read what the things in each box have."
+    }
+  },
+  "G1-609": {},
+  "G1-610": {
+    "1": {
+      "en": "An ending changes a word: help, helps, helped, helping."
+    },
+    "3": {
+      "en": "Before -ed or -ing, a word with one short vowel and one consonant at the end doubles that consonant (hop, hopping), and a word with silent e drops the e (bake, baking)."
+    }
+  },
+  "G1-611": {},
+  "G3-540": {
+    "1": {
+      "en": "Some clues tell what a new word means. Some clues tell its opposite."
+    },
+    "3": {
+      "en": "Find the clue near each new word. Name its kind and write the meaning."
+    }
+  },
+  "G3-541": {
+    "1": {
+      "en": "A definition clue tells what a new word means: a den, a hidden home."
+    },
+    "3": {
+      "en": "Sometimes the clue to a new word is in the next sentence."
+    }
+  },
+  "G3-542": {
+    "1": {
+      "en": "Guide words at the top of a dictionary page show its first and last words."
+    },
+    "3": {
+      "en": "A dictionary entry tells the part of speech and the meanings of a word."
+    }
+  },
+  "G3-543": {
+    "1": {
+      "en": "A glossary is a book’s own small dictionary, in alphabetical (ABC) order."
+    },
+    "3": {
+      "en": "A glossary lists the important words of a book in alphabetical (ABC) order."
+    }
+  },
+  "G2-549": {},
+  "G2-550": {},
+  "G2-551": {}
 }

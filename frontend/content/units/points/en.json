@@ -3487,6 +3487,42 @@
     "words": "Children need the introduction, headings, and definitions of the last three lessons. Say: \"A research report answers a question with facts from two sources.\" Read the question and both texts aloud. Model first on another topic: one short note with its source letter. Before Day 2, model turning one note from A and one from B into two sentences under a heading, and copying a source title. Day 1, Notes from Two Sources: children note facts from A and B in the row of each category. Level 1 prints the categories; on Level 2 children name them; on Level 3 they also write the question. Days 2 and 3, Write a Research Report (same copy, same topic as Day 1): children write an introduction, three parts with headings, a concluding sentence, and the source titles, and draw a diagram with a caption. Levels 1 and 2 print one note from each source in each part; Level 3 uses the child's own notes.",
     "watch": "Check each child's research question before they read: the sources must answer it. Each row needs a note from both sources; if both sources give a fact, either letter is right. If you can, add a third source: a class library book on the topic; children list it as C. The key is a sample."
    }
+  },
+  "2:plan-an-opinion": {
+   "title": "Plan an opinion: reasons and linking words",
+   "objective": "Children state an opinion about a topic and plan two or three reasons with linking words (because, and, also) and a closing sentence.",
+   "note": {
+    "mistake": "Children write a fact about themselves (I like pandas) instead of a view others can disagree with (Pandas are the best animals at the zoo), give a reason that does not tell why, or end with the opinion word for word.",
+    "words": "Children need no page from an earlier lesson. Model first on a topic that is on no page: plan one piece about pandas on the board. Say: \"An opinion tells what you think. A reason tells why. A closing sentence says the opinion again in new words, often with That is why.\" Day 1, Parts of an Opinion Piece: children write the letter of each mixed-up sentence of a short piece in the plan, then circle because, also, or and in gaps. On Level 3 one reason has no opener, and one sentence does not belong. Day 2, Plan Your Opinion Piece: children circle question A or B and plan: Level 1 frames, Level 2 starters (I think, because, also, That is why), Level 3 open rows, three reasons, and a word bank. Grey examples are on another topic: Level 1 fills the frames for another question; Levels 2 and 3 give notes on an animal or something in nature.",
+    "watch": "Read each gap aloud with both words: because joins two sentences; in these gaps, also comes right before a doing word (They also hide nuts), and joins two words (black and white). The key's plan is a sample; accept any opinion whose reasons tell why."
+   }
+  },
+  "2:draft-an-opinion": {
+   "title": "Draft an opinion piece",
+   "objective": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+   "note": {
+    "mistake": "Children copy their notes without making sentences, join every reason with and into one long sentence, or end with a new idea instead of their opinion again.",
+    "words": "Children need their plan from Plan Your Opinion Piece: the draft of a copy number offers the two questions of the plan of that number; a child without a plan circles one. Model first on a topic that is on no page: \"because they eat bamboo all day\" becomes \"One reason is that they eat bamboo all day.\" Day 1, Write Your Opinion Piece: rows under Opinion, Reasons, and Closing sentence. Level 1 frames (the second reason: It is also great because ___.), Level 2 starters, Level 3 open rows, three reasons, and a word bank. Day 2: reread with the checklist and add the spare-row sentence (Levels 1 and 2) or the third reason (Level 3). Day 3, Revise Your Opinion Piece: children circle what fits each gap of a short piece: the closing sentence (Level 1), a reason (Level 2), or both (Level 3); a partner listens and both check the parts; then the child writes one more reason (Level 1) or a reason or a closing sentence (Levels 2 and 3) and adds it with a caret (^).",
+    "watch": "The opinion copied after That is why is never the closing sentence. The keys are samples; accept any reason that tells why."
+   }
+  },
+  "2:friendly-letter": {
+   "title": "A friendly letter",
+   "objective": "Children write a friendly letter with a date, a greeting, a body, a closing, and a signature, and use commas after the greeting and the closing.",
+   "note": {
+    "mistake": "Children leave out the commas, put the comma after Dear (Dear, Sam), or write the closing and the signature on one line. Some forget the date.",
+    "words": "Model first: write a short letter on the board and name the five parts: date (some programs call it the heading), greeting, body, closing, signature. Say: \"A comma goes right after the greeting and right after the closing: Dear Sam, ... Your friend,\" Day 1, Parts of a Friendly Letter: children write the name of each part on the line beside it, using the word bank. Level 1 tells them where the two commas go; on Level 2 they find the two missing commas; on Level 3 one comma is in the wrong place, so they cross it out and add the two that belong. Levels 2 and 3 say that the date keeps its comma. Levels 1 and 2 end with greetings and closings to circle; Level 3 asks for a greeting and a closing to another reader. Day 2, Write a Friendly Letter: children need the five parts from day 1. They circle who they will write to and write about the topic on the page. Level 1 gives a frame on the first three rows of the body, Level 2 starters, Level 3 open rows. Grey examples come from a letter of another kind (Level 1: none under Body; Level 3: none).",
+    "watch": "The bodies hold no other comma. The day-2 topic is never the kind of the day-1 letter of the same copy. The keys are samples."
+   }
+  },
+  "2:capitals-special-names": {
+   "title": "Capitals for holidays, places, and brand names",
+   "objective": "Children capitalize holidays, product names, and geographic names in sentences: each big word of a holiday or a place, and the brand of a product.",
+   "note": {
+    "mistake": "Children capitalize every noun (River, Park), or only the first word of a name (Hudson river), or the thing after a brand (Pemmo Paper). Some capitalize seasons (Winter) because holidays have capitals.",
+    "words": "Model first: write \"the river\" and \"Hudson River\" on the board. Say: \"In the name of a holiday or a place, each big word starts with a capital letter: Groundhog Day, Hudson River. Small words such as of stay small: Statue of Liberty. In a product name, only the brand gets a capital, not the thing: Pemmo paper.\" The product names on the pages are made up, so no real brand is on them. Day 1, Find the Capital Letters: children circle each word that is missing its capital letter in six sentences, then sort words in a table. Level 1 has holidays only; Level 2 holidays and places with pairs (a lake and the name of a lake), each word written again; Level 3 sorts names: holiday, place, or product name. Day 2, Write the Capital Letters: children need the rules from day 1; they write each sentence again with its capitals. Level 3 ends with a sentence about their own town, city, or state.",
+    "watch": "Seasons and words such as holiday, river, and street stay small unless they are part of a name. No sentence starts with a name: the first word already has its capital, so every capital to add belongs to a name."
+   }
   }
  }
 }

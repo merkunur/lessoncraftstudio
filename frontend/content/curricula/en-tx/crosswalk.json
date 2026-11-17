@@ -4166,6 +4166,71 @@
    ],
    "by": "authored"
   },
+  "2:plan-an-opinion": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:draft-an-opinion": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.C",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:friendly-letter": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.ix",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:capitals-special-names": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "3:closed-open-syllables": {
    "rows": [
     {

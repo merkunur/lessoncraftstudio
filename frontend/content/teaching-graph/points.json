@@ -7909,6 +7909,91 @@
    ]
   },
   {
+   "id": "2:plan-an-opinion",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Name the parts of an opinion piece (opinion, reasons, closing sentence), join them with because, and, also, and plan an opinion piece of one's own",
+   "code": "W.2.1",
+   "types": [
+    "G2-557",
+    "G2-558"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 133,
+   "prerequisites": []
+  },
+  {
+   "id": "2:draft-an-opinion",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Write an opinion piece with an opinion, reasons joined by linking words and a closing sentence, and revise it with a partner by adding a reason or a closing sentence",
+   "code": "W.2.1",
+   "types": [
+    "G2-559",
+    "G2-560"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 134,
+   "prerequisites": []
+  },
+  {
+   "id": "2:friendly-letter",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Name the five parts of a friendly letter, put a comma after the greeting and after the closing, and write a friendly letter",
+   "code": "L.2.2.b",
+   "types": [
+    "G2-561",
+    "G2-562"
+   ],
+   "families": [
+    "capitals-punctuation",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 135,
+   "prerequisites": []
+  },
+  {
+   "id": "2:capitals-special-names",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Capitalize the names of holidays, places and products: every important word of a holiday or place name, and the brand of a product",
+   "code": "L.2.2.a",
+   "types": [
+    "G2-563",
+    "G2-564"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 136,
+   "prerequisites": []
+  },
+  {
    "id": "3:closed-open-syllables",
    "grade": "3",
    "subject": "literacy",
@@ -7927,7 +8012,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 133,
+   "order": 137,
    "prerequisites": []
   },
   {
@@ -7950,7 +8035,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 134,
+   "order": 138,
    "prerequisites": []
   },
   {
@@ -7972,7 +8057,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 135,
+   "order": 139,
    "prerequisites": []
   },
   {
@@ -7995,7 +8080,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 136,
+   "order": 140,
    "prerequisites": []
   },
   {
@@ -8017,7 +8102,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 137,
+   "order": 141,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -8044,7 +8129,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 138,
+   "order": 142,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -8071,7 +8156,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 139,
+   "order": 143,
    "prerequisites": [
     "2:root-words"
    ]
@@ -8096,7 +8181,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 140,
+   "order": 144,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"
@@ -8120,7 +8205,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 141,
+   "order": 145,
    "prerequisites": []
   },
   {
@@ -8142,7 +8227,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 142,
+   "order": 146,
    "prerequisites": []
   },
   {
@@ -8163,7 +8248,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 143,
+   "order": 147,
    "prerequisites": []
   },
   {
@@ -8184,7 +8269,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 144,
+   "order": 148,
    "prerequisites": []
   },
   {
@@ -8205,7 +8290,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 145,
+   "order": 149,
    "prerequisites": []
   },
   {
@@ -8226,7 +8311,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 146,
+   "order": 150,
    "prerequisites": []
   },
   {
@@ -8247,7 +8332,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 147,
+   "order": 151,
    "prerequisites": []
   },
   {
@@ -8268,7 +8353,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 148,
+   "order": 152,
    "prerequisites": []
   },
   {
@@ -8289,7 +8374,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 149,
+   "order": 153,
    "prerequisites": []
   },
   {
@@ -8310,7 +8395,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 150,
+   "order": 154,
    "prerequisites": []
   },
   {
@@ -8331,7 +8416,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 151,
+   "order": 155,
    "prerequisites": []
   },
   {
@@ -8353,7 +8438,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 152,
+   "order": 156,
    "prerequisites": []
   },
   {
@@ -8374,7 +8459,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 153,
+   "order": 157,
    "prerequisites": []
   },
   {
@@ -8396,7 +8481,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 154,
+   "order": 158,
    "prerequisites": []
   },
   {
@@ -8418,7 +8503,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 155,
+   "order": 159,
    "prerequisites": []
   },
   {
@@ -8439,7 +8524,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 156,
+   "order": 160,
    "prerequisites": []
   },
   {
@@ -8460,7 +8545,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 157,
+   "order": 161,
    "prerequisites": []
   },
   {
@@ -8481,7 +8566,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 158,
+   "order": 162,
    "prerequisites": []
   },
   {
@@ -8502,7 +8587,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 159,
+   "order": 163,
    "prerequisites": []
   },
   {
@@ -8524,7 +8609,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 160,
+   "order": 164,
    "prerequisites": []
   },
   {
@@ -8546,7 +8631,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 161,
+   "order": 165,
    "prerequisites": []
   },
   {
@@ -8568,7 +8653,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 162,
+   "order": 166,
    "prerequisites": []
   },
   {
@@ -8590,7 +8675,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 163,
+   "order": 167,
    "prerequisites": []
   },
   {
@@ -8611,7 +8696,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 164,
+   "order": 168,
    "prerequisites": []
   },
   {
@@ -8632,7 +8717,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 165,
+   "order": 169,
    "prerequisites": []
   },
   {
@@ -8653,7 +8738,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 166,
+   "order": 170,
    "prerequisites": []
   },
   {
@@ -8674,7 +8759,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 167,
+   "order": 171,
    "prerequisites": []
   },
   {
@@ -8695,7 +8780,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 168,
+   "order": 172,
    "prerequisites": []
   },
   {
@@ -8717,7 +8802,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 169,
+   "order": 173,
    "prerequisites": []
   },
   {
@@ -8739,7 +8824,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 170,
+   "order": 174,
    "prerequisites": []
   },
   {
@@ -8760,7 +8845,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 171,
+   "order": 175,
    "prerequisites": []
   },
   {
@@ -8781,7 +8866,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 172,
+   "order": 176,
    "prerequisites": []
   },
   {

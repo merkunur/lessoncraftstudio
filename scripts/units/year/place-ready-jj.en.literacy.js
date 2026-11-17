@@ -1,0 +1,119 @@
+#!/usr/bin/env node
+/**
+ * Part 12.3, English literacy, thirty-third run (2026-11-17): the Grade 2 unit Opinion Writing and Letters on the eight
+ * page types of "Year pages, literacy JJ" (types/_shared/opinion-letters-g2.js). Every lesson has two page types.
+ *
+ *   Opinion Writing and Letters (NEW unit, the last of the Grade 2 literacy plan, as the year design has it)
+ *     Plan an opinion: reasons and linking words        G2-557, G2-558   NEW 2:plan-an-opinion           W.2.1
+ *     Draft an opinion piece                            G2-559, G2-560   NEW 2:draft-an-opinion          W.2.1
+ *     A friendly letter                                 G2-561, G2-562   NEW 2:friendly-letter           L.2.2.b
+ *     Capitals for holidays, places, and brand names    G2-563, G2-564   NEW 2:capitals-special-names    L.2.2.a
+ *
+ * Texas rows for the four new points; every other curriculum: not yet read.
+ *
+ *   node scripts/units/year/place-ready-jj.en.literacy.js <notes.json>     (refuses to run twice; checks before it writes)
+ * Then: build-points · build-assets · every curricula/build-<x>.js · notes/apply.js · assemble --loc=en · pacing ·
+ *       assemble · build-guide --unit · build-year-plan --plan=plan-2-literacy · build-looks
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const REPO = path.join(__dirname, '..', '..', '..');
+const file = (f) => path.join(REPO, f);
+const read = (f) => fs.readFileSync(file(f), 'utf8');
+const jsonLike = (raw, obj) => {   // keeps the file's indent and line ends
+  const indent = (/^\{\r?\n(\s+)"/.exec(raw) || [, ' '])[1];
+  let out = JSON.stringify(obj, null, indent); if (raw.includes('\r\n')) out = out.replace(/\n/g, '\r\n');
+  return out + (/\r?\n$/.test(raw) ? (raw.includes('\r\n') ? '\r\n' : '\n') : '');
+};
+const NF = process.argv[2];
+if (!NF || !fs.existsSync(NF)) throw new Error('usage: place-ready-jj.en.literacy.js <notes.json>');
+const straight = (s) => String(s).split('’').join("'").split('‘').join("'");
+const NOTES = JSON.parse(fs.readFileSync(NF, 'utf8'));
+const POINTS = [
+  {"tp":"2:plan-an-opinion","code":"W.2.1","strand":"Writing","types":["G2-557","G2-558"],"max":1480,"design":"Plan an opinion: reasons and linking words","skill":"Name the parts of an opinion piece (opinion, reasons, closing sentence), join them with because, and, also, and plan an opinion piece of one's own","tx":[["ELAR.2.11.A","teaches"],["ELAR.2.11.B.i","prepares"]],"txWhy":"Filling the planner (an opinion, two or three reasons, a closing sentence) is «plan a first draft by generating ideas for writing»; sorting the mixed-up sentences of a piece into opinion, reasons and closing sentence prepares «organizing with structure». The Grade 2 TEKS name no opinion piece of its own (2.12 names literary texts, informational texts and correspondence)."},
+  {"tp":"2:draft-an-opinion","code":"W.2.1","strand":"Writing","types":["G2-559","G2-560"],"max":1480,"design":"Draft an opinion piece","skill":"Write an opinion piece with an opinion, reasons joined by linking words and a closing sentence, and revise it with a partner by adding a reason or a closing sentence","tx":[["ELAR.2.11.B.i","teaches"],["ELAR.2.11.B.ii","teaches"],["ELAR.2.11.C","teaches"]],"txWhy":"Writing the piece under Opinion, Reasons and Closing sentence is «organizing with structure»; giving reasons that tell why is «developing an idea with specific and relevant details»; adding a reason or a closing sentence to the draft with a caret after the partner check is «revise drafts by adding, deleting, or rearranging words, phrases, or sentences»."},
+  {"tp":"2:friendly-letter","code":"L.2.2.b","strand":"Language","types":["G2-561","G2-562"],"max":1480,"design":"A friendly letter","skill":"Name the five parts of a friendly letter, put a comma after the greeting and after the closing, and write a friendly letter","tx":[["ELAR.2.12.C","teaches"],["ELAR.2.11.D.ix","teaches"],["ELAR.2.11.D.x","prepares"]],"txWhy":"Writing a letter with a date, a greeting, a body, a closing and a signature is «compose correspondence such as thank you notes or letters»; choosing \"Dear Sam,\" and \"Your friend,\" among forms with wrong capitals is the «capitalization of ... the salutation and conclusion of a letter»; the printed date with its comma prepares «commas ... in dates»."},
+  {"tp":"2:capitals-special-names","code":"L.2.2.a","strand":"Language","types":["G2-563","G2-564"],"max":1480,"design":"Capitals for holidays, places, and brand names","skill":"Capitalize the names of holidays, places and products: every important word of a holiday or place name, and the brand of a product","tx":[["ELAR.2.11.D.iii","teaches"]],"txWhy":"Telling a name (Lake Erie, Labor Day) from the common word beside it (a lake, a snow day) and writing the name with its capitals is the proper-noun part of «singular, plural, common, and proper nouns»; the Grade 2 capitalization row (2.11.D.ix) names months, days and letters, not holidays and places, so it is not claimed."},
+];
+const GRADE = "2";
+const UNIT = {"id":"g2-opinion-writing-and-letters","slug":"opinion-writing-and-letters-grade-2-unit","status":"live","grade":"2","subject":"literacy","title":"Opinion Writing and Letters","metaTitle":"Opinion Writing and Letters: Grade 2 Writing Lessons","metaDescription":"Grade 2 lessons on opinion writing and friendly letters: plan and draft an opinion with reasons and linking words, write a letter with commas, and capitalize names.","weeks":2};
+const PLAN_ID = "plan-2-literacy";
+const DESIGN_UNIT = "new:opinion-and-letters-g2";
+const AFTER_UNIT = "g2-reading-to-learn-informational-texts", ORDER_AFTER = "2:compare-two-animals";   // the unit it follows in the plan; the point its points follow in the order
+const NOTES_FILE = "scripts/units/notes/en-literacy-year2.js";
+
+// ---- everything is read and checked first
+if (UNIT.metaDescription.length < 110 || UNIT.metaDescription.length > 170) throw new Error('description: ' + UNIT.metaDescription.length + ' characters');
+if (UNIT.metaTitle.length > 60) throw new Error('meta title: ' + UNIT.metaTitle.length);
+for (const p of POINTS) {
+  const n = NOTES[p.tp]; if (!n || !n.title || !n.objective || !n.mistake || !n.words || !n.watch) throw new Error('no whole teacher note of ' + p.tp);
+  for (const k of ['title', 'objective', 'mistake', 'words', 'watch']) n[k] = straight(n[k]);
+  if (/\bfree\b|Premium/i.test(n.title + n.objective + n.mistake + n.words + n.watch)) throw new Error('the note of ' + p.tp + ' says free or Premium');
+  const len = n.objective.length + n.mistake.length + n.words.length + n.watch.length; if (len > p.max) throw new Error('the note of ' + p.tp + ' has ' + len + ' letters (its sheet holds about ' + p.max + ')');
+}
+const out = [];   // [file, text]
+{
+  const f = 'frontend/content/teaching-graph/extra-points.json', raw = read(f), j = JSON.parse(raw);
+  const all = JSON.parse(read('frontend/content/teaching-graph/points.json')); const allPts = Array.isArray(all.points || all) ? (all.points || all) : Object.values(all.points || all);
+  for (const p of POINTS) { if (j.points.some((x) => x.tp === p.tp) || allPts.some((x) => (x.tp || x.id) === p.tp)) throw new Error(p.tp + ' exists: this script ran before');
+    j.points.push(Object.assign({ tp: p.tp, grade: GRADE, strand: p.strand, code: p.code, skill: p.skill }, p.activities ? { activities: p.activities } : {})); }
+  out.push([f, jsonLike(raw, j)]);
+}
+{
+  const f = 'frontend/content/teaching-graph/order.json', raw = read(f), j = JSON.parse(raw);
+  const list = j.subjects.literacy[GRADE], at = list.indexOf(ORDER_AFTER); if (at < 0) throw new Error('no point ' + ORDER_AFTER + ' in the order');
+  list.splice(at + 1, 0, ...POINTS.map((p) => p.tp));
+  out.push([f, jsonLike(raw, j)]);
+}
+{
+  const f = 'frontend/content/teaching-graph/type-additions.json', raw = read(f), j = JSON.parse(raw);
+  for (const p of POINTS) for (const type of p.types) { if (j.types[type]) throw new Error(type + ' is listed already'); j.types[type] = p.tp; }
+  out.push([f, jsonLike(raw, j)]);
+}
+for (const loc of fs.readdirSync(file('frontend/content/curricula')).filter((d) => fs.existsSync(file(`frontend/content/curricula/${d}/crosswalk-authored.json`)))) {
+  const f = `frontend/content/curricula/${loc}/crosswalk-authored.json`, raw = read(f), j = JSON.parse(raw);
+  const holder = j.points || j;
+  for (const p of POINTS) {
+    if (holder[p.tp]) throw new Error(loc + ': ' + p.tp + ' is authored already');
+    holder[p.tp] = loc === 'en-tx'
+      ? { rows: p.tx.map(([id, rel]) => ({ id, rel })), why: p.txWhy, review: 'year-design 2026-11-17' }
+      : { none: 'not yet read against this curriculum', why: "The point was added on 2026-11-17 for the opinion writing and letters of Grade 2 (Part 12.3: planning and drafting an opinion piece, a friendly letter with its commas, capitals for holidays, places and product names); the linking words, the letter commas and the capital rules are those of American English. Read it against the wording when the first writing units of this language are designed.", review: 'year-design 2026-11-17' };
+  }
+  out.push([f, jsonLike(raw, j)]);
+}
+{
+  const f = 'frontend/content/units/defs/en.json', raw = read(f), defs = JSON.parse(raw);
+  if (defs.units.some((x) => x.id === UNIT.id || x.slug === UNIT.slug)) throw new Error('the unit exists already');
+  const plan = defs.plans.find((x) => x.id === PLAN_ID); if (!plan) throw new Error('no plan ' + PLAN_ID);
+  const unit = Object.assign({}, UNIT, { lessons: POINTS.map((p) => ({ point: p.tp, types: p.types })) });   // a point's screen activity comes from the point itself
+  const a = defs.units.findIndex((x) => x.id === AFTER_UNIT), b = plan.units.indexOf(AFTER_UNIT); if (a < 0 || b < 0) throw new Error('no unit ' + AFTER_UNIT + ' in ' + PLAN_ID);
+  defs.units.splice(a + 1, 0, unit);
+  plan.units.splice(b + 1, 0, UNIT.id);
+  out.push([f, jsonLike(raw, defs)]);
+  console.log(UNIT.id + ': ' + unit.lessons.map((l) => l.point + ' [' + l.types.join('+') + ']').join(' · '));
+  console.log(PLAN_ID + ': ' + plan.units.join(' > '));
+}
+{
+  const f = 'scripts/units/year/design.en.literacy.json', raw = read(f), design = JSON.parse(raw);
+  let marked = 0;
+  (function walk(o) { if (Array.isArray(o)) return o.forEach(walk); if (o && typeof o === 'object') { if (o.id === DESIGN_UNIT && o.lessons) { for (const l of o.lessons) { const p = POINTS.find((x) => x.design === l.title); if (p) { if (l.placed) throw new Error('the design lesson ' + l.title + ' is placed already'); l.placed = p.tp; marked++; } } return; } Object.values(o).forEach(walk); } })(design);
+  if (marked !== POINTS.length) throw new Error('the design names ' + marked + ' of the ' + POINTS.length + ' lessons');
+  out.push([f, jsonLike(raw, design)]);
+}
+{
+  const raw = read(NOTES_FILE); let s = raw.replace(/\r\n/g, '\n');
+  if (POINTS.some((p) => s.includes("'" + p.tp + "'"))) throw new Error('a note of the lessons is in ' + NOTES_FILE + ' already');
+  const BS = String.fromCharCode(92);
+  const q = (x) => "'" + String(x).split(BS).join(BS + BS).split("'").join(BS + "'") + "'";
+  const block = POINTS.map((p) => { const n = NOTES[p.tp]; return `    ${q(p.tp)}: {\n      title: ${q(n.title)},\n      objective: ${q(n.objective)},\n      note: {\n        mistake: ${q(n.mistake)},\n        words: ${q(n.words)},\n        watch: ${q(n.watch)},\n      },\n    },\n`; }).join('');
+  const end = '  },\n};\n'; if (!s.endsWith(end)) throw new Error(NOTES_FILE + ' does not end as expected');
+  const head = ' * `node scripts/units/notes/apply.js` merges every file'; if (s.split(head).length !== 2) throw new Error(NOTES_FILE + ': no place for the head line');
+  s = s.replace(head, () => ' * The four notes of the unit Opinion Writing and Letters (G2-557 to G2-564) were added by place-ready-jj.en.literacy.js;\n * the reviewer of the pages read them (2026-11-17, every finding applied).\n' + head);
+  s = s.slice(0, -end.length) + block + end;
+  out.push([NOTES_FILE, raw.includes('\r\n') ? s.replace(/\n/g, '\r\n') : s]);
+}
+
+// ---- then everything is written
+for (const [f, text] of out) fs.writeFileSync(file(f), text);
+console.log('points added: ' + POINTS.map((p) => p.tp).join(', ') + '; unit placed after ' + AFTER_UNIT + ' in ' + PLAN_ID + '; notes written; design marked');

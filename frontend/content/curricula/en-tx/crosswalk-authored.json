@@ -5745,6 +5745,66 @@
    ],
    "why": "Filling the note chart from Source A and Source B for a research question is «identify and gather relevant information from a variety of sources»; writing the report from those notes is «demonstrate understanding of information gathered» and «compose informational texts»; writing the research question on Level 3 prepares «generate questions on a topic for formal and informal inquiry», and the line that names both sources prepares «create a works cited page».",
    "review": "year-design 2026-11-17"
+  },
+  "2:plan-an-opinion": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling the planner (an opinion, two or three reasons, a closing sentence) is «plan a first draft by generating ideas for writing»; sorting the mixed-up sentences of a piece into opinion, reasons and closing sentence prepares «organizing with structure». The Grade 2 TEKS name no opinion piece of its own (2.12 names literary texts, informational texts and correspondence).",
+   "review": "year-design 2026-11-17"
+  },
+  "2:draft-an-opinion": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the piece under Opinion, Reasons and Closing sentence is «organizing with structure»; giving reasons that tell why is «developing an idea with specific and relevant details»; adding a reason or a closing sentence to the draft with a caret after the partner check is «revise drafts by adding, deleting, or rearranging words, phrases, or sentences».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:friendly-letter": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.ix",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing a letter with a date, a greeting, a body, a closing and a signature is «compose correspondence such as thank you notes or letters»; choosing \"Dear Sam,\" and \"Your friend,\" among forms with wrong capitals is the «capitalization of ... the salutation and conclusion of a letter»; the printed date with its comma prepares «commas ... in dates».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:capitals-special-names": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a name (Lake Erie, Labor Day) from the common word beside it (a lake, a snow day) and writing the name with its capitals is the proper-noun part of «singular, plural, common, and proper nouns»; the Grade 2 capitalization row (2.11.D.ix) names months, days and letters, not holidays and places, so it is not claimed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

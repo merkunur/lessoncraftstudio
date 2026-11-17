@@ -897,6 +897,34 @@
    "strand": "Writing",
    "code": "W.3.7",
    "skill": "Carry out a short research project: answer a research question with notes from two sources and write a short report with an introduction, three parts, a diagram, a concluding sentence and its sources"
+  },
+  {
+   "tp": "2:plan-an-opinion",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.1",
+   "skill": "Name the parts of an opinion piece (opinion, reasons, closing sentence), join them with because, and, also, and plan an opinion piece of one's own"
+  },
+  {
+   "tp": "2:draft-an-opinion",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.1",
+   "skill": "Write an opinion piece with an opinion, reasons joined by linking words and a closing sentence, and revise it with a partner by adding a reason or a closing sentence"
+  },
+  {
+   "tp": "2:friendly-letter",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.2.b",
+   "skill": "Name the five parts of a friendly letter, put a comma after the greeting and after the closing, and write a friendly letter"
+  },
+  {
+   "tp": "2:capitals-special-names",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.2.a",
+   "skill": "Capitalize the names of holidays, places and products: every important word of a holiday or place name, and the brand of a product"
   }
  ]
 }

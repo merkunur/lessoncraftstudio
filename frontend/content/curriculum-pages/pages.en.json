@@ -7538,10 +7538,10 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 34,
-    "near": 7,
-    "open": 47,
-    "lessons": 40
+    "taught": 39,
+    "near": 6,
+    "open": 43,
+    "lessons": 43
    },
    "groups": [
     {
@@ -8134,9 +8134,23 @@
      "title": "Knowledge and skills (11)",
      "items": [
       {
+       "code": "2.11.A",
+       "state": "taught",
+       "text": "Children state an opinion about a topic and plan two or three reasons with linking words (because, and, also) and a closing sentence.",
+       "lessons": [
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "Plan an opinion: reasons and linking words"
+        }
+       ]
+      },
+      {
        "code": "2.11.B.i",
        "state": "taught",
-       "text": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
+       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
        "lessons": [
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
@@ -8144,6 +8158,41 @@
          "unitGrade": "2",
          "n": 4,
          "title": "Retell a story: first, next, then, at the end"
+        },
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Draft an opinion piece"
+        }
+       ]
+      },
+      {
+       "code": "2.11.B.ii",
+       "state": "taught",
+       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+       "lessons": [
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Draft an opinion piece"
+        }
+       ]
+      },
+      {
+       "code": "2.11.C",
+       "state": "taught",
+       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+       "lessons": [
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Draft an opinion piece"
         }
        ]
       },
@@ -8207,6 +8256,13 @@
          "unitGrade": "2",
          "n": 3,
          "title": "More than one: plural nouns"
+        },
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Capitals for holidays, places, and brand names"
         }
        ]
       },
@@ -8269,16 +8325,15 @@
       },
       {
        "code": "2.11.D.ix",
-       "state": "near",
-       "text": "Children write the day that was yesterday and the day that will be tomorrow, and put the twelve months in order.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children write a friendly letter with a date, a greeting, a body, a closing, and a signature, and use commas after the greeting and the closing.",
        "lessons": [
         {
-         "unit": "time-calendar-and-coins-grade-1-unit",
-         "unitTitle": "Time, Calendar, and Coins",
-         "unitGrade": "1",
-         "n": 4,
-         "title": "Yesterday, today, tomorrow, and the months"
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "A friendly letter"
         }
        ]
       },
@@ -8319,9 +8374,6 @@
       }
      ],
      "open": [
-      "2.11.A",
-      "2.11.B.ii",
-      "2.11.C",
       "2.11.D.vi",
       "2.11.D.viii",
       "2.11.E"
@@ -8366,10 +8418,21 @@
          "title": "An animal fact sheet"
         }
        ]
+      },
+      {
+       "code": "2.12.C",
+       "state": "taught",
+       "text": "Children write a friendly letter with a date, a greeting, a body, a closing, and a signature, and use commas after the greeting and the closing.",
+       "lessons": [
+        {
+         "unit": "opinion-writing-and-letters-grade-2-unit",
+         "unitTitle": "Opinion Writing and Letters",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "A friendly letter"
+        }
+       ]
       }
-     ],
-     "open": [
-      "2.12.C"
      ]
     },
     {

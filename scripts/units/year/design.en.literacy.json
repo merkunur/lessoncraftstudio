@@ -1024,7 +1024,8 @@
             "days": 2,
             "tool": "Class Graph",
             "source": "new",
-            "page": "Writing page (opinion): a planner with an opinion box, three reason boxes, and a closing box, with linking words in the margin (because, also, another reason). A checklist at the bottom: I told my opinion. I gave reasons. I used linking words. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+            "page": "Writing page (opinion): a planner with an opinion box, three reason boxes, and a closing box, with linking words in the margin (because, also, another reason). A checklist at the bottom: I told my opinion. I gave reasons. I used linking words. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank.",
+            "placed": "2:plan-an-opinion"
           },
           {
             "new": true,
@@ -1033,7 +1034,8 @@
             "standard": "W.2.1",
             "days": 3,
             "source": "new",
-            "page": "Writing page (opinion): a draft page with twelve writing lines under the headings opinion, reasons, closing, with linking words in the margin. A checklist at the bottom: I introduced my opinion. I gave reasons. I used linking words. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (opinion): a draft page with twelve writing lines under the headings opinion, reasons, closing, with linking words in the margin. A checklist at the bottom: I introduced my opinion. I gave reasons. I used linking words. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "2:draft-an-opinion"
           },
           {
             "new": true,
@@ -1042,7 +1044,8 @@
             "standard": "L.2.2.b",
             "days": 2,
             "source": "new",
-            "page": "Writing page (letter): a letter frame with labeled places for the date, the greeting, the body, the closing, and the signature, and a sample letter with three missing commas to fix first. Level 1: frames for every line of the body; level 2: starters only; level 3: open lines and a second short letter to a different reader."
+            "page": "Writing page (letter): a letter frame with labeled places for the date, the greeting, the body, the closing, and the signature, and a sample letter with three missing commas to fix first. Level 1: frames for every line of the body; level 2: starters only; level 3: open lines and a second short letter to a different reader.",
+            "placed": "2:friendly-letter"
           },
           {
             "new": true,
@@ -1051,7 +1054,8 @@
             "standard": "L.2.2.a",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: ten sentences with holidays, places, and product names in small letters; the child circles each word that needs a capital and writes it correctly. Bottom: a sort of twelve words into needs a capital and does not (river and Mississippi River). Level 1: holidays only; level 2: holidays and places; level 3: all three kinds and a sentence about a place the child has been."
+            "page": "Grammar page: ten sentences with holidays, places, and product names in small letters; the child circles each word that needs a capital and writes it correctly. Bottom: a sort of twelve words into needs a capital and does not (river and Mississippi River). Level 1: holidays only; level 2: holidays and places; level 3: all three kinds and a sentence about a place the child has been.",
+            "placed": "2:capitals-special-names"
           }
         ]
       }

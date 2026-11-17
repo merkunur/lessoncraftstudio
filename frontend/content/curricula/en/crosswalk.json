@@ -3499,6 +3499,46 @@
    ],
    "by": "review"
   },
+  "2:plan-an-opinion": {
+   "rows": [
+    {
+     "id": "W.2.1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:draft-an-opinion": {
+   "rows": [
+    {
+     "id": "W.2.1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:friendly-letter": {
+   "rows": [
+    {
+     "id": "L.2.2.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:capitals-special-names": {
+   "rows": [
+    {
+     "id": "L.2.2.a",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "3:closed-open-syllables": {
    "rows": [
     {

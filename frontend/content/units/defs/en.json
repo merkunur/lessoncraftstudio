@@ -3632,6 +3632,47 @@
    ]
   },
   {
+   "id": "g2-opinion-writing-and-letters",
+   "slug": "opinion-writing-and-letters-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Opinion Writing and Letters",
+   "metaTitle": "Opinion Writing and Letters: Grade 2 Writing Lessons",
+   "metaDescription": "Grade 2 lessons on opinion writing and friendly letters: plan and draft an opinion with reasons and linking words, write a letter with commas, and capitalize names.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:plan-an-opinion",
+     "types": [
+      "G2-557",
+      "G2-558"
+     ]
+    },
+    {
+     "point": "2:draft-an-opinion",
+     "types": [
+      "G2-559",
+      "G2-560"
+     ]
+    },
+    {
+     "point": "2:friendly-letter",
+     "types": [
+      "G2-561",
+      "G2-562"
+     ]
+    },
+    {
+     "point": "2:capitals-special-names",
+     "types": [
+      "G2-563",
+      "G2-564"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g3-reading-long-words",
    "slug": "reading-long-words-grade-3-unit",
    "status": "live",
@@ -4170,7 +4211,8 @@
     "g2-bossy-r-and-longer-words",
     "g2-spelling-and-word-building",
     "g2-stories-facts-and-writing",
-    "g2-reading-to-learn-informational-texts"
+    "g2-reading-to-learn-informational-texts",
+    "g2-opinion-writing-and-letters"
    ]
   },
   {

@@ -3731,6 +3731,31 @@
    ],
    "by": "authored"
   },
+  "2:words-in-real-life": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iv",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:adjective-or-adverb": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iv",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.v",
+     "rel": "extends",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:verb-forms": {
    "rows": [
     {

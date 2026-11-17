@@ -5477,6 +5477,30 @@
    ],
    "why": "Choosing the verb that agrees with one subject, with two subjects joined by and, and after There is «complete simple and compound sentences with subject-verb agreement». A pronoun that agrees in number with its noun prepares «pronouns, including subjective, objective, and possessive cases», which asks for the case of the pronoun.",
    "review": "year-design 2026-11-17"
+  },
+  "2:words-in-real-life": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iv",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Texas has no Grade 2 row for the real-life connections between words and their use. Naming real things that are spicy, juicy or noisy builds the describing words a second grader then uses and edits for: «adjectives, including articles».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:adjective-or-adverb": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.v",
+     "rel": "extends"
+    }
+   ],
+   "why": "Choosing the adjective that tells about a noun is «adjectives, including articles». Texas names «adverbs that convey time and adverbs that convey place» in Grade 2; the adverbs of this lesson tell HOW something is done (quickly, bravely), which Texas names in Grade 3 (adverbs that convey manner).",
+   "review": "year-design 2026-11-17"
   }
  }
 }

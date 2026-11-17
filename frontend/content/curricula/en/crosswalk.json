@@ -3190,6 +3190,26 @@
    ],
    "by": "code"
   },
+  "2:words-in-real-life": {
+   "rows": [
+    {
+     "id": "L.2.5.a",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:adjective-or-adverb": {
+   "rows": [
+    {
+     "id": "L.2.1.e",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:verb-forms": {
    "rows": [
     {

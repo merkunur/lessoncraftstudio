@@ -4622,6 +4622,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the English grammar of Grade 3 (Part 12.3: the parts of speech, regular and irregular plurals, the past tense of regular and irregular verbs, subject-verb agreement); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "2:words-in-real-life": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary and grammar of Grade 2 (Part 12.3: describing words and the real things they describe, adjective or adverb); the adjective and adverb forms are English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "2:adjective-or-adverb": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary and grammar of Grade 2 (Part 12.3: describing words and the real things they describe, adjective or adverb); the adjective and adverb forms are English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -768,6 +768,23 @@
    "strand": "Language",
    "code": "L.3.1.f",
    "skill": "Make the verb agree with its subject and the pronoun agree with the noun it stands for"
+  },
+  {
+   "tp": "2:words-in-real-life",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.5.a",
+   "skill": "Connect describing words (spicy, juicy, crunchy, noisy, calm) to real things and places, and use them in sentences"
+  },
+  {
+   "tp": "2:adjective-or-adverb",
+   "grade": "2",
+   "strand": "Language",
+   "code": "L.2.1.e",
+   "skill": "Tell an adjective from an adverb and choose between them by the word it tells about (a quick dog, the dog ran quickly)",
+   "activities": [
+    "wordclass.adjective-adverb.l-2-1-e"
+   ]
   }
  ]
 }

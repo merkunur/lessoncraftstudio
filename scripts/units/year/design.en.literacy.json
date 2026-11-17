@@ -951,7 +951,8 @@
             "standard": "L.2.5.a",
             "days": 2,
             "source": "new",
-            "page": "Word meaning page: eight describing words (spicy, juicy, crunchy, noisy, calm, sticky, smooth, gloomy), each with two picture boxes where the child draws or names a real thing it describes; then three sentences to write. Level 1: four words with picture choices; level 2: eight words; level 3: the child also writes a riddle using two of the words."
+            "page": "Word meaning page: eight describing words (spicy, juicy, crunchy, noisy, calm, sticky, smooth, gloomy), each with two picture boxes where the child draws or names a real thing it describes; then three sentences to write. Level 1: four words with picture choices; level 2: eight words; level 3: the child also writes a riddle using two of the words.",
+            "placed": "2:words-in-real-life"
           },
           {
             "new": true,
@@ -960,7 +961,8 @@
             "standard": "L.2.1.e",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: ten sentences with a choice of two words (quick or quickly, soft or softly); the child circles the one that fits and draws an arrow to the word it describes. Bottom: four words to sort into two columns. Level 1: five sentences with pictures; level 2: ten sentences; level 3: the child writes two sentences, one with each form of the same word."
+            "page": "Grammar page: ten sentences with a choice of two words (quick or quickly, soft or softly); the child circles the one that fits and draws an arrow to the word it describes. Bottom: four words to sort into two columns. Level 1: five sentences with pictures; level 2: ten sentences; level 3: the child writes two sentences, one with each form of the same word.",
+            "placed": "2:adjective-or-adverb"
           }
         ]
       },

@@ -16137,9 +16137,9 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A Grade 2 unit: 8 lessons on spelling rules, compound words, root words, prefixes, suffixes, apostrophes, synonyms, and more exact words for \"said.\"",
-   "days": 19,
-   "weeks": 4,
+   "metaDescription": "A Grade 2 unit: 10 lessons on spelling rules, compound words, root words, prefixes, suffixes, apostrophes, synonyms, describing words, and adjective or adverb.",
+   "days": 23,
+   "weeks": 5,
    "lessons": [
     {
      "n": 1,
@@ -16532,6 +16532,85 @@
       "mistake": "Children take the words in the order they are printed in the bubble, or use one favorite (\"shouted\") everywhere. They do not look for the clue in the sentence that tells how something was said.",
       "words": "Ask: \"HOW did the person say it? Look for a clue: a question mark, an exclamation point, a word like 'quietly.'\" Act it out: \"Say it in a whisper. Now shout it. Which word fits what happened?\"",
       "watch": "Have the child read the finished sentence in the voice the new word calls for. If \"whispered\" comes before a sentence with an exclamation point, the child will hear the clash."
+     },
+     "days": 2
+    },
+    {
+     "n": 9,
+     "point": "2:words-in-real-life",
+     "title": "Spicy, juicy, crunchy: words in real life",
+     "objective": "Children connect describing words to real things and places they know (foods that are spicy or juicy, places that are noisy) and use them in sentences.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.2.5.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-549",
+       "title": "Describing Words in Real Life",
+       "core": "word-classes-g2549",
+       "easy": "word-classes-easy-g2549-6",
+       "hard": "word-classes-hard-g2549-11"
+      },
+      {
+       "type": "G2-550",
+       "title": "Draw and Write with Describing Words",
+       "core": "word-classes-g2550",
+       "easy": "word-classes-easy-g2550-6",
+       "hard": "word-classes-hard-g2550-11"
+      }
+     ],
+     "exit": {
+      "slug": "word-classes-g2549-2",
+      "title": "Describing Words in Real Life"
+     },
+     "note": {
+      "mistake": "Children pick a thing they like instead of one the word describes (spicy: ice cream), or a word that goes with another word of the sentence: for \"The lunchroom is ___ when we all talk,\" some circle crunchy because of lunch.",
+      "words": "Say: \"A describing word tells what a real thing is like: how it tastes, feels, looks, or sounds. An orange is juicy.\" Teach calm (quiet and still: a still pond) and gloomy (dark and sad-looking: a rainy day) first. Day 1, G2-549. Level 1: circle the picture each word describes; three sentences. Level 2: match six words to pictures (one picture is left over); two sentences. Level 3: circle the two things each word describes; three sentences. Day 2, G2-550. Level 1: draw or write two real things for four words; finish two sentences (A juicy fruit is ...). Level 2: four words, then a sentence of their own. Level 3: four words, then a riddle with two of them (I am prickly and juicy. What am I?).",
+      "watch": "Tastes differ, so on day 2 accept any food a child calls spicy. The key's things and sentences are samples: accept any real thing the word describes, not one it does not (a juicy rock); ask the child why. On day 1 no picture, thing, or sentence goes with two words of its page; some go with none (the picture left over on level 2)."
+     },
+     "days": 2
+    },
+    {
+     "n": 10,
+     "point": "2:adjective-or-adverb",
+     "title": "Adjective or adverb?",
+     "objective": "Children tell adjectives from adverbs and choose between them to describe a noun or a verb (a quick dog, the dog ran quickly).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.2.1.e",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-551",
+       "title": "Adjective or Adverb?",
+       "core": "word-classes-g2551",
+       "easy": "word-classes-easy-g2551-6",
+       "hard": "word-classes-hard-g2551-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "wordclass.adjective-adverb.l-2-1-e",
+      "slug": "adjectives-and-adverbs",
+      "title": "Glim's Describing Words — Adjectives & Adverbs"
+     },
+     "exit": {
+      "slug": "word-classes-g2551-2",
+      "title": "Adjective or Adverb?"
+     },
+     "note": {
+      "mistake": "Children choose the -ly word because it looks longer and harder, or the shorter word every time. Some draw the arrow to the next word, even when the word it tells about stands before it (The lion is loud: loud tells about lion).",
+      "words": "Say: \"An adjective tells about a noun: a slow turtle. An adverb tells about a verb, how it is done: the turtle walked slowly. Many adverbs end in -ly.\" Ask: \"Does the word tell about a person or thing, or about how someone did something?\" Day 1, the page: the child circles the word that fits and draws an arrow from it to the word it tells about. Level 1: five sentences with pictures, then four words to sort. Level 2: six sentences, then short frames (a ___ boy, asked ___). Level 3: four sentences with good and well, then two of their own. Day 2, Glim's Describing Words — Adjectives & Adverbs on screen: children tap the word that fits; after a wrong tap, Glim says whether the blank tells about a thing or an action.",
+      "watch": "On the page an adjective stands before its noun (a soft pillow) or after is, are, was, or were; on screen it also comes after looks or felt (The kitten looks sleepy) and still tells about the noun. An adverb stands before its verb or at the end (smiled kindly). The level-1 sort can be done by the -ly ending alone; the sentences show who chooses by meaning. happy changes y to i before -ly (happily); the page that holds it prints the rule. good tells about a noun and well tells how something is done: \"sings good\" needs well. Words with no -ly form (fast, hard, late) are not on the pages, and loud, slow, and quick never stand where \"talk loud\" could be said. The key's own sentences are samples: accept any where the adjective tells about a noun and the adverb about a verb."
      },
      "days": 2
     }
@@ -19597,9 +19676,9 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (18 Weeks)",
-   "metaDescription": "6 Grade 2 reading and writing units in teaching order, about 18 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 18,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (19 Weeks)",
+   "metaDescription": "6 Grade 2 reading and writing units in teaching order, about 19 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 19,
    "framework": "Common Core",
    "units": [
     {
@@ -19665,9 +19744,9 @@
      "id": "g2-spelling-and-word-building",
      "slug": "spelling-word-building-and-word-choice-grade-2-unit",
      "title": "Spelling, Word Building, and Word Choice",
-     "weeks": 4,
+     "weeks": 5,
      "from": 8,
-     "to": 11,
+     "to": 12,
      "lessons": [
       "Spelling rules: which letters go here?",
       "Compound words",
@@ -19676,15 +19755,19 @@
       "Suffixes -ful, -less, and -ly",
       "Apostrophes: can't and the dog's bowl",
       "Synonyms",
-      "More exact words for \"said\""
+      "More exact words for \"said\"",
+      "Spicy, juicy, crunchy: words in real life",
+      "Adjective or adverb?"
      ],
      "standards": [
+      "L.2.1.e",
       "L.2.2.c",
       "L.2.2.d",
       "L.2.4.b",
       "L.2.4.c",
       "L.2.4.d",
       "L.2.5",
+      "L.2.5.a",
       "L.2.5.b",
       "RF.2.3.d"
      ]
@@ -19694,8 +19777,8 @@
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
      "weeks": 4,
-     "from": 12,
-     "to": 15,
+     "from": 13,
+     "to": 16,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",
@@ -19722,8 +19805,8 @@
      "slug": "reading-to-learn-informational-texts-grade-2-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 16,
-     "to": 18,
+     "from": 17,
+     "to": 19,
      "lessons": [
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",

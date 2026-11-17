@@ -90,6 +90,8 @@ module.exports = {
     '2-082': N('G2-535', 'built: Prefixes un- and re-: the new word to write for a meaning, words to match with meanings, un or re to write in a sentence'),
     '2-083': N('G2-536', 'built: Suffixes -ful, -less, and -ly: the base word to circle and the suffix to underline, words to match with meanings, the suffix to write in a sentence'),
     '2-084': N('G2-537', 'built: Apostrophes: contractions to write and to expand, the owner with an apostrophe and s, the word of a sentence that needs its apostrophe'),
+    '2-085': N('G2-549', 'built: Describing Words in Real Life (the picture or the two things a word describes, six words to match with pictures, the word a sentence needs); with G2-550 Draw and Write with Describing Words'),
+    '2-086': N('G2-551', 'built: Adjective or Adverb? (the form that fits to circle, an arrow to the word it tells about; a sort, two frames to fill, sentences of the own by level)'),
     '2-087': C('a story bank with the arc questions'),
     '2-092': C('a letter-parts level'),
     '2-093': C('a sentence set tagged for holidays / places / brands'),

@@ -7507,7 +7507,7 @@
     "taught": 34,
     "near": 7,
     "open": 47,
-    "lessons": 39
+    "lessons": 40
    },
    "groups": [
     {
@@ -8179,7 +8179,7 @@
       {
        "code": "2.11.D.iv",
        "state": "taught",
-       "text": "Children sort words into nouns, verbs, and adjectives and write each word in its bin.",
+       "text": "Children tell adjectives from adverbs and choose between them to describe a noun or a verb (a quick dog, the dog ran quickly).",
        "lessons": [
         {
          "unit": "sentences-and-grammar-grade-2-unit",
@@ -8187,15 +8187,29 @@
          "unitGrade": "2",
          "n": 2,
          "title": "Nouns, verbs, and adjectives: three bins"
+        },
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 10,
+         "title": "Adjective or adverb?"
         }
        ]
       },
       {
        "code": "2.11.D.v",
        "state": "near",
-       "text": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
+       "text": "Children tell adjectives from adverbs and choose between them to describe a noun or a verb (a quick dog, the dog ran quickly).",
        "rel": "prepares",
        "lessons": [
+        {
+         "unit": "spelling-word-building-and-word-choice-grade-2-unit",
+         "unitTitle": "Spelling, Word Building, and Word Choice",
+         "unitGrade": "2",
+         "n": 10,
+         "title": "Adjective or adverb?"
+        },
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",

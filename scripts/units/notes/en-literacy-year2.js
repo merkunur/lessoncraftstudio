@@ -12,6 +12,8 @@
  * G2-548) were added by place-ready-s.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
  * The three word-building notes (G2-535 to G2-537: prefixes, suffixes, apostrophes) were added by
  * place-ready-v.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
+ * The two notes on words in real life and on adjective or adverb (G2-549 to G2-551) were added by place-ready-cc.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -168,6 +170,24 @@ module.exports = {
         mistake: 'Children put the apostrophe where the two words meet instead of where the letters are left out (do\'nt), or leave it out (dont). For an owner some write dogs with no apostrophe, or put an apostrophe in every word that ends in s.',
         words: 'Say: "An apostrophe takes the place of letters that are left out: do not becomes don\'t, and the apostrophe stands where the o was. An apostrophe and s also show who owns something: the dog\'s bowl is the bowl that belongs to the dog." Day 1, the page. Level 1 (contractions only): children write contractions from their words (a done example in grey, it is → it\'s, then 5 more), draw lines from four contractions to the two words they stand for (two first words, such as we and they, so both parts must be read), and write the two words for three contractions. Level 2 adds owners: three contractions to write, three to write the two words for, and owners with a thing, each a picture or a child\'s name printed with its word, to write as dog\'s bowl or Mia\'s kite (a done example in grey, then 3 more). Level 3: six contractions, three to write and three to write the two words for, two sentences (The kite belongs to Mia.) to write as Mia\'s kite, and four sentences with one missing apostrophe: children write that word with its apostrophe. Day 2, Nib\'s Apostrophe Seat on screen: children read two words and choose the contraction with the apostrophe in the right place. Owners with \'s are on the page only.',
         watch: 'The contraction can\'t is short for cannot. The contraction won\'t (will not) changes its spelling; it is not on the pages. Every owner on these pages is one owner. The word its, with no apostrophe, stands only on Level 3: "Its time for bed" needs it\'s. When the word to fix starts a sentence, accept a lowercase first letter.',
+      },
+    },
+    '2:words-in-real-life': {
+      title: 'Spicy, juicy, crunchy: words in real life',
+      objective: 'Children connect describing words to real things and places they know (foods that are spicy or juicy, places that are noisy) and use them in sentences.',
+      note: {
+        mistake: 'Children pick a thing they like instead of one the word describes (spicy: ice cream), or a word that goes with another word of the sentence: for "The lunchroom is ___ when we all talk," some circle crunchy because of lunch.',
+        words: 'Say: "A describing word tells what a real thing is like: how it tastes, feels, looks, or sounds. An orange is juicy." Teach calm (quiet and still: a still pond) and gloomy (dark and sad-looking: a rainy day) first. Day 1, G2-549. Level 1: circle the picture each word describes; three sentences. Level 2: match six words to pictures (one picture is left over); two sentences. Level 3: circle the two things each word describes; three sentences. Day 2, G2-550. Level 1: draw or write two real things for four words; finish two sentences (A juicy fruit is ...). Level 2: four words, then a sentence of their own. Level 3: four words, then a riddle with two of them (I am prickly and juicy. What am I?).',
+        watch: 'Tastes differ, so on day 2 accept any food a child calls spicy. The key\'s things and sentences are samples: accept any real thing the word describes, not one it does not (a juicy rock); ask the child why. On day 1 no picture, thing, or sentence goes with two words of its page; some go with none (the picture left over on level 2).',
+      },
+    },
+    '2:adjective-or-adverb': {
+      title: 'Adjective or adverb?',
+      objective: 'Children tell adjectives from adverbs and choose between them to describe a noun or a verb (a quick dog, the dog ran quickly).',
+      note: {
+        mistake: 'Children choose the -ly word because it looks longer and harder, or the shorter word every time. Some draw the arrow to the next word, even when the word it tells about stands before it (The lion is loud: loud tells about lion).',
+        words: 'Say: "An adjective tells about a noun: a slow turtle. An adverb tells about a verb, how it is done: the turtle walked slowly. Many adverbs end in -ly." Ask: "Does the word tell about a person or thing, or about how someone did something?" Day 1, the page: the child circles the word that fits and draws an arrow from it to the word it tells about. Level 1: five sentences with pictures, then four words to sort. Level 2: six sentences, then short frames (a ___ boy, asked ___). Level 3: four sentences with good and well, then two of their own. Day 2, Glim\'s Describing Words — Adjectives & Adverbs on screen: children tap the word that fits; after a wrong tap, Glim says whether the blank tells about a thing or an action.',
+        watch: 'On the page an adjective stands before its noun (a soft pillow) or after is, are, was, or were; on screen it also comes after looks or felt (The kitten looks sleepy) and still tells about the noun. An adverb stands before its verb or at the end (smiled kindly). The level-1 sort can be done by the -ly ending alone; the sentences show who chooses by meaning. happy changes y to i before -ly (happily); the page that holds it prints the rule. good tells about a noun and well tells how something is done: "sings good" needs well. Words with no -ly form (fast, hard, late) are not on the pages, and loud, slow, and quick never stand where "talk loud" could be said. The key\'s own sentences are samples: accept any where the adjective tells about a noun and the adverb about a verb.',
       },
     },
   },

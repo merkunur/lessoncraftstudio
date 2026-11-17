@@ -3387,8 +3387,8 @@
    "subject": "literacy",
    "title": "Spelling, Word Building, and Word Choice",
    "metaTitle": "Grade 2 Lesson Plans: Spelling, Word Building, and Word Choice",
-   "metaDescription": "A Grade 2 unit: 8 lessons on spelling rules, compound words, root words, prefixes, suffixes, apostrophes, synonyms, and more exact words for \"said.\"",
-   "weeks": 4,
+   "metaDescription": "A Grade 2 unit: 10 lessons on spelling rules, compound words, root words, prefixes, suffixes, apostrophes, synonyms, describing words, and adjective or adverb.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:spelling-rules",
@@ -3442,6 +3442,19 @@
      "point": "2:synonyms~doing-stage",
      "types": [
       "G2-374"
+     ]
+    },
+    {
+     "point": "2:words-in-real-life",
+     "types": [
+      "G2-549",
+      "G2-550"
+     ]
+    },
+    {
+     "point": "2:adjective-or-adverb",
+     "types": [
+      "G2-551"
      ]
     }
    ]

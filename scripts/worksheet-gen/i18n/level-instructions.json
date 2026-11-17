@@ -8070,7 +8070,7 @@
   },
   "G1-620": {
     "1": {
-      "en": "A fact tells something true about the topic."
+      "en": "A fact is something true. Every fact in a piece tells about its topic."
     },
     "3": {
       "en": "Keep to the topic. A closing sentence ends the piece."
@@ -8094,10 +8094,10 @@
   },
   "G1-623": {
     "1": {
-      "en": "Check your writing. Then a partner checks it."
+      "en": "Add the detail your partner asked for. Then check your writing."
     },
     "3": {
-      "en": "Check your writing, answer your partner, and add a detail."
+      "en": "Answer your partner, add a detail, and check your writing."
     }
   },
   "G2-565": {

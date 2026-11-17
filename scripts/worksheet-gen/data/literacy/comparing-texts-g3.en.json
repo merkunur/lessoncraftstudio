@@ -1,0 +1,7207 @@
+{
+ "plays": [
+  {
+   "id": "library-book",
+   "title": "The Missing Library Book",
+   "cast": [
+    {
+     "tag": "AMARA",
+     "about": "a third grader"
+    },
+    {
+     "tag": "IRIS",
+     "about": "her friend"
+    },
+    {
+     "tag": "MR. OKAFOR",
+     "about": "the librarian"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "Amara's front porch, after school.",
+     "lines": [
+      {
+       "who": "AMARA",
+       "dir": "looking in her backpack",
+       "say": "My library book is gone! It's due tomorrow."
+      },
+      {
+       "who": "IRIS",
+       "dir": "",
+       "say": "When did you have it last?"
+      },
+      {
+       "who": "AMARA",
+       "dir": "",
+       "say": "At lunch. I read it at the picnic table."
+      },
+      {
+       "who": "IRIS",
+       "dir": "",
+       "say": "Then let's ask at the library first thing tomorrow."
+      }
+     ]
+    },
+    {
+     "set": "The school library, the next morning.",
+     "lines": [
+      {
+       "who": "MR. OKAFOR",
+       "dir": "",
+       "say": "Good morning! Are you looking for something?"
+      },
+      {
+       "who": "AMARA",
+       "dir": "",
+       "say": "Yes. I lost a book about sharks."
+      },
+      {
+       "who": "MR. OKAFOR",
+       "dir": "holding up a book",
+       "say": "Someone found this on a picnic table."
+      },
+      {
+       "who": "AMARA",
+       "dir": "smiling",
+       "say": "That's it! Thank you!"
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does Amara get her book back?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Amara say where she read the book?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Mr. Okafor hold up a book?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Iris say they should ask at the library?",
+     "a": 1
+    }
+   ],
+   "build": {
+    "right": "Mr. Okafor gives back the book Amara lost.",
+    "wrong": [
+     "Iris finds the book under the kitchen table.",
+     "Amara buys a new book about whales."
+    ],
+    "sample": "Mr. Okafor gives back the lost book.",
+    "frame": [
+     "Amara gets her book back",
+     "her book went missing"
+    ]
+   },
+   "scene3": {
+    "set": "The classroom, later that day.",
+    "lines": [
+     {
+      "who": "IRIS",
+      "say": "Did you get to keep the book?"
+     },
+     {
+      "who": "AMARA",
+      "say": "Yes! Mr. Okafor let me check it out again."
+     },
+     {
+      "who": "IRIS",
+      "say": "Can we read it together at recess?"
+     },
+     {
+      "who": "AMARA",
+      "say": "Yes! I love the shark part."
+     }
+    ]
+   }
+  },
+  {
+   "id": "class-garden",
+   "title": "The Bean Plants",
+   "cast": [
+    {
+     "tag": "DIEGO",
+     "about": "a third grader"
+    },
+    {
+     "tag": "RAVI",
+     "about": "his classmate"
+    },
+    {
+     "tag": "MS. HALE",
+     "about": "their teacher"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "The classroom. Seed packets are on a table.",
+     "lines": [
+      {
+       "who": "MS. HALE",
+       "dir": "",
+       "say": "Today each of you will plant one bean seed."
+      },
+      {
+       "who": "DIEGO",
+       "dir": "",
+       "say": "Where should I put mine?"
+      },
+      {
+       "who": "MS. HALE",
+       "dir": "",
+       "say": "Put it in a cup of soil by the window."
+      },
+      {
+       "who": "RAVI",
+       "dir": "pouring water",
+       "say": "And give it a little water."
+      }
+     ]
+    },
+    {
+     "set": "The same classroom, two weeks later.",
+     "lines": [
+      {
+       "who": "DIEGO",
+       "dir": "pointing",
+       "say": "Look! My bean plant has two green leaves!"
+      },
+      {
+       "who": "RAVI",
+       "dir": "",
+       "say": "Mine is taller than my pencil."
+      },
+      {
+       "who": "DIEGO",
+       "dir": "",
+       "say": "Can we plant them outside now?"
+      },
+      {
+       "who": "MS. HALE",
+       "dir": "",
+       "say": "Yes, let's take them to the school garden."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene do the children plant the seeds?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Diego see two green leaves?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Ravi pour water?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Ms. Hale say they can go outside?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "The seeds they planted have grown into plants.",
+    "wrong": [
+     "Ms. Hale buys three bean plants at a garden store.",
+     "Diego's seed is lost in the garden."
+    ],
+    "sample": "The seeds they planted have grown.",
+    "frame": [
+     "the bean plants have leaves",
+     "the class planted seeds"
+    ]
+   },
+   "scene3": {
+    "set": "The school garden, that afternoon.",
+    "lines": [
+     {
+      "who": "DIEGO",
+      "say": "I'll dig a hole for my plant."
+     },
+     {
+      "who": "RAVI",
+      "say": "Let's plant ours side by side."
+     },
+     {
+      "who": "MS. HALE",
+      "say": "Press the soil down gently."
+     },
+     {
+      "who": "DIEGO",
+      "say": "Now they can grow in the sun!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lost-mitten",
+   "title": "Cold Hands",
+   "cast": [
+    {
+     "tag": "MEI",
+     "about": "a girl who loves snow"
+    },
+    {
+     "tag": "OWEN",
+     "about": "her neighbor"
+    },
+    {
+     "tag": "MRS. GRAY",
+     "about": "Owen's grandmother"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "A snowy yard, in the morning.",
+     "lines": [
+      {
+       "who": "MEI",
+       "dir": "",
+       "say": "Let's build the biggest snowman ever!"
+      },
+      {
+       "who": "OWEN",
+       "dir": "",
+       "say": "I'll roll the bottom ball."
+      },
+      {
+       "who": "MEI",
+       "dir": "rubbing her hand",
+       "say": "Oh no, I lost a mitten in the snow."
+      },
+      {
+       "who": "OWEN",
+       "dir": "",
+       "say": "My hands are cold too. Let's go inside."
+      }
+     ]
+    },
+    {
+     "set": "Mrs. Gray's kitchen, a little later.",
+     "lines": [
+      {
+       "who": "MRS. GRAY",
+       "dir": "",
+       "say": "Warm your hands with this hot cocoa."
+      },
+      {
+       "who": "MEI",
+       "dir": "",
+       "say": "Thank you. But my red mitten is still outside."
+      },
+      {
+       "who": "MRS. GRAY",
+       "dir": "opening a drawer",
+       "say": "Here is an extra pair you can wear."
+      },
+      {
+       "who": "MEI",
+       "dir": "",
+       "say": "They fit! Now I can finish the snowman."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does Mei lose a mitten?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Mrs. Gray open a drawer?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Owen say he will roll the bottom ball?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Mei say the mittens fit?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "Mei gets mittens to wear after losing one.",
+    "wrong": [
+     "Owen finds the red mitten in his boot.",
+     "Mei and Owen build a snowman in the kitchen."
+    ],
+    "sample": "Mei gets mittens for her cold hands.",
+    "frame": [
+     "Mrs. Gray gives Mei mittens",
+     "Mei lost a mitten"
+    ]
+   },
+   "scene3": {
+    "set": "The snowy yard, after lunch.",
+    "lines": [
+     {
+      "who": "MEI",
+      "say": "Now let's finish our snowman!"
+     },
+     {
+      "who": "OWEN",
+      "say": "I'll put on his stick arms."
+     },
+     {
+      "who": "MEI",
+      "say": "Look, there is my red mitten!"
+     },
+     {
+      "who": "OWEN",
+      "say": "Let's give it to the snowman."
+     }
+    ]
+   }
+  },
+  {
+   "id": "goalie",
+   "title": "The New Goalie",
+   "cast": [
+    {
+     "tag": "ZOE",
+     "about": "a soccer player"
+    },
+    {
+     "tag": "MALIK",
+     "about": "her teammate"
+    },
+    {
+     "tag": "COACH PRICE",
+     "about": "their coach"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "A soccer field. The team is practicing.",
+     "lines": [
+      {
+       "who": "COACH PRICE",
+       "dir": "",
+       "say": "Zoe, you will be our goalie on Saturday."
+      },
+      {
+       "who": "ZOE",
+       "dir": "frowning",
+       "say": "But I have never been the goalie."
+      },
+      {
+       "who": "MALIK",
+       "dir": "",
+       "say": "I'll kick balls to you every day after school."
+      },
+      {
+       "who": "ZOE",
+       "dir": "",
+       "say": "Okay. Let's start right now."
+      }
+     ]
+    },
+    {
+     "set": "The same field on Saturday. A crowd cheers.",
+     "lines": [
+      {
+       "who": "MALIK",
+       "dir": "",
+       "say": "Here comes a hard kick!"
+      },
+      {
+       "who": "ZOE",
+       "dir": "diving",
+       "say": "Got it!"
+      },
+      {
+       "who": "COACH PRICE",
+       "dir": "",
+       "say": "Great stop, Zoe! All that practice helped."
+      },
+      {
+       "who": "ZOE",
+       "dir": "",
+       "say": "Thanks, Malik. I couldn't have done it without you."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does the coach say Zoe will be the goalie?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Zoe dive for the ball?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Malik offer to help Zoe?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does a crowd cheer?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "Zoe stops a kick because Malik helped her practice.",
+    "wrong": [
+     "Malik is the goalie, and Zoe watches.",
+     "The coach sends Zoe home before the big game starts."
+    ],
+    "sample": "Zoe practiced, so she stops the ball.",
+    "frame": [
+     "Zoe stops a hard kick",
+     "Malik helped her practice"
+    ]
+   },
+   "scene3": {
+    "set": "After the game, by the bench.",
+    "lines": [
+     {
+      "who": "ZOE",
+      "say": "Can we practice again on Monday?"
+     },
+     {
+      "who": "MALIK",
+      "say": "Sure! You can kick to me next."
+     },
+     {
+      "who": "COACH PRICE",
+      "say": "You make a great team."
+     },
+     {
+      "who": "ZOE",
+      "say": "We'll be ready for the next game!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bird-feeder",
+   "title": "The Bird Feeder",
+   "cast": [
+    {
+     "tag": "NIA",
+     "about": "a girl who likes birds"
+    },
+    {
+     "tag": "OMAR",
+     "about": "her little brother"
+    },
+    {
+     "tag": "DAD",
+     "about": "their father"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "A backyard on a sunny morning.",
+     "lines": [
+      {
+       "who": "NIA",
+       "dir": "",
+       "say": "No birds ever come to our yard."
+      },
+      {
+       "who": "DAD",
+       "dir": "",
+       "say": "Maybe they need something to eat."
+      },
+      {
+       "who": "OMAR",
+       "dir": "",
+       "say": "We could make a bird feeder!"
+      },
+      {
+       "who": "DAD",
+       "dir": "",
+       "say": "Let's fill an old milk carton with seeds."
+      }
+     ]
+    },
+    {
+     "set": "The backyard, three days later.",
+     "lines": [
+      {
+       "who": "OMAR",
+       "dir": "whispering",
+       "say": "Nia, look at the feeder!"
+      },
+      {
+       "who": "NIA",
+       "dir": "",
+       "say": "Three little birds are eating the seeds."
+      },
+      {
+       "who": "DAD",
+       "dir": "",
+       "say": "Our feeder worked."
+      },
+      {
+       "who": "NIA",
+       "dir": "",
+       "say": "Now I can draw a bird every day."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does Omar think of a bird feeder?",
+     "a": 1
+    },
+    {
+     "q": "In which scene are birds eating the seeds?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Nia say no birds come to the yard?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Omar whisper?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "Birds eat at the feeder the family made.",
+    "wrong": [
+     "Dad buys a pet bird at a store downtown.",
+     "Omar scares every bird away."
+    ],
+    "sample": "Birds eat from the feeder they made.",
+    "frame": [
+     "birds eat at the feeder",
+     "the family made a feeder"
+    ]
+   },
+   "scene3": {
+    "set": "The kitchen, that evening.",
+    "lines": [
+     {
+      "who": "NIA",
+      "say": "Here is my drawing of a bird."
+     },
+     {
+      "who": "OMAR",
+      "say": "The feeder is almost empty."
+     },
+     {
+      "who": "DAD",
+      "say": "We can fill it again tomorrow."
+     },
+     {
+      "who": "NIA",
+      "say": "Then more birds will come!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "paper-boats",
+   "title": "The Paper Boat Race",
+   "cast": [
+    {
+     "tag": "SAMI",
+     "about": "a boy who builds things"
+    },
+    {
+     "tag": "RINA",
+     "about": "his cousin"
+    },
+    {
+     "tag": "GRANDMA LIN",
+     "about": "their grandmother"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "Grandma Lin's porch. It is raining.",
+     "lines": [
+      {
+       "who": "SAMI",
+       "dir": "",
+       "say": "Let's make paper boats for a puddle race."
+      },
+      {
+       "who": "RINA",
+       "dir": "folding paper",
+       "say": "But paper gets soggy in water."
+      },
+      {
+       "who": "GRANDMA LIN",
+       "dir": "",
+       "say": "Color the paper all over with crayon first."
+      },
+      {
+       "who": "SAMI",
+       "dir": "",
+       "say": "The wax will help keep the water out!"
+      }
+     ]
+    },
+    {
+     "set": "The sidewalk after the rain.",
+     "lines": [
+      {
+       "who": "RINA",
+       "dir": "",
+       "say": "Ready, set, go! Push them into the water!"
+      },
+      {
+       "who": "SAMI",
+       "dir": "cheering",
+       "say": "Our boats are floating!"
+      },
+      {
+       "who": "RINA",
+       "dir": "",
+       "say": "Look, mine went the farthest!"
+      },
+      {
+       "who": "GRANDMA LIN",
+       "dir": "",
+       "say": "The crayon trick kept the water out."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does Grandma Lin say to use crayon?",
+     "a": 1
+    },
+    {
+     "q": "In which scene do the boats float?",
+     "a": 2
+    },
+    {
+     "q": "In which scene is it raining?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Rina say her boat went the farthest?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "The boats float because of the crayon trick.",
+    "wrong": [
+     "Rina's boat sinks to the bottom of the puddle.",
+     "Grandma Lin buys a toy boat for the race."
+    ],
+    "sample": "The crayon helps the boats float.",
+    "frame": [
+     "the boats float",
+     "Grandma Lin had an idea"
+    ]
+   },
+   "scene3": {
+    "set": "Grandma Lin's porch, later.",
+    "lines": [
+     {
+      "who": "RINA",
+      "say": "Let's make two more boats."
+     },
+     {
+      "who": "SAMI",
+      "say": "I'll color mine blue this time."
+     },
+     {
+      "who": "GRANDMA LIN",
+      "say": "Use lots of crayon again."
+     },
+     {
+      "who": "RINA",
+      "say": "Then we can race them tomorrow!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-student",
+   "title": "The New Student",
+   "cast": [
+    {
+     "tag": "ELENA",
+     "about": "a new student"
+    },
+    {
+     "tag": "TARIQ",
+     "about": "a boy in her class"
+    },
+    {
+     "tag": "MR. BROOKS",
+     "about": "their teacher"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "A classroom on the first day of school.",
+     "lines": [
+      {
+       "who": "MR. BROOKS",
+       "dir": "",
+       "say": "Class, this is Elena. She just moved here."
+      },
+      {
+       "who": "ELENA",
+       "dir": "quietly",
+       "say": "Hi."
+      },
+      {
+       "who": "TARIQ",
+       "dir": "",
+       "say": "You can sit next to me, Elena."
+      },
+      {
+       "who": "ELENA",
+       "dir": "",
+       "say": "Thank you. I don't know anyone yet."
+      }
+     ]
+    },
+    {
+     "set": "The playground at recess, the same day.",
+     "lines": [
+      {
+       "who": "TARIQ",
+       "dir": "",
+       "say": "Do you want to play tag with us?"
+      },
+      {
+       "who": "ELENA",
+       "dir": "smiling",
+       "say": "Yes! I love tag."
+      },
+      {
+       "who": "TARIQ",
+       "dir": "",
+       "say": "You're it!"
+      },
+      {
+       "who": "ELENA",
+       "dir": "running",
+       "say": "I'm so glad I sit next to you."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does Mr. Brooks say Elena just moved here?",
+     "a": 1
+    },
+    {
+     "q": "In which scene do the children play tag?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Elena say she doesn't know anyone yet?",
+     "a": 1
+    },
+    {
+     "q": "In which scene is Elena running?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "Tariq, who sat with Elena, asks her to play.",
+    "wrong": [
+     "Elena moves away to a new town.",
+     "Mr. Brooks plays tag with the whole class at lunch."
+    ],
+    "sample": "Elena plays with the boy she sits by.",
+    "frame": [
+     "Elena plays tag with Tariq",
+     "Tariq sat next to her"
+    ]
+   },
+   "scene3": {
+    "set": "The classroom, after recess.",
+    "lines": [
+     {
+      "who": "ELENA",
+      "say": "That was so much fun!"
+     },
+     {
+      "who": "TARIQ",
+      "say": "Will you play again tomorrow?"
+     },
+     {
+      "who": "ELENA",
+      "say": "Yes! I'll bring my jump rope."
+     },
+     {
+      "who": "MR. BROOKS",
+      "say": "Now let's open our books."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kite",
+   "title": "The Torn Kite",
+   "cast": [
+    {
+     "tag": "KAI",
+     "about": "a boy with a kite"
+    },
+    {
+     "tag": "PRIYA",
+     "about": "his sister"
+    },
+    {
+     "tag": "UNCLE RAY",
+     "about": "their uncle"
+    }
+   ],
+   "scenes": [
+    {
+     "set": "A windy hill in the park.",
+     "lines": [
+      {
+       "who": "KAI",
+       "dir": "",
+       "say": "Up, up, kite! Fly high!"
+      },
+      {
+       "who": "PRIYA",
+       "dir": "pointing",
+       "say": "Watch out for that tree!"
+      },
+      {
+       "who": "KAI",
+       "dir": "",
+       "say": "Oh no! My kite hit the tree, and the tail is torn."
+      },
+      {
+       "who": "UNCLE RAY",
+       "dir": "",
+       "say": "Don't worry. We can fix it at home."
+      }
+     ]
+    },
+    {
+     "set": "Uncle Ray's table, that evening.",
+     "lines": [
+      {
+       "who": "UNCLE RAY",
+       "dir": "",
+       "say": "Hold the tail still while I tape it."
+      },
+      {
+       "who": "PRIYA",
+       "dir": "",
+       "say": "Let's tie on a new string too."
+      },
+      {
+       "who": "KAI",
+       "dir": "",
+       "say": "It looks better than before!"
+      },
+      {
+       "who": "UNCLE RAY",
+       "dir": "",
+       "say": "Tomorrow we'll fly it far from the trees."
+      }
+     ]
+    }
+   ],
+   "where": [
+    {
+     "q": "In which scene does the kite hit a tree?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Uncle Ray tape the tail?",
+     "a": 2
+    },
+    {
+     "q": "In which scene does Priya point at the tree?",
+     "a": 1
+    },
+    {
+     "q": "In which scene does Kai say the kite looks better?",
+     "a": 2
+    }
+   ],
+   "build": {
+    "right": "They fix the kite tail that tore.",
+    "wrong": [
+     "Kai buys a new kite at the park.",
+     "Priya's kite wins a kite contest."
+    ],
+    "sample": "They fix the tail that tore.",
+    "frame": [
+     "they fix the torn kite",
+     "the kite tail tore"
+    ]
+   },
+   "scene3": {
+    "set": "The park, the next day.",
+    "lines": [
+     {
+      "who": "KAI",
+      "say": "Look how high it flies now!"
+     },
+     {
+      "who": "PRIYA",
+      "say": "And it is far from the trees."
+     },
+     {
+      "who": "UNCLE RAY",
+      "say": "The new string is strong."
+     },
+     {
+      "who": "KAI",
+      "say": "Thank you for fixing it!"
+     }
+    ]
+   }
+  }
+ ],
+ "poems": [
+  {
+   "id": "puddle",
+   "title": "Rain at Noon",
+   "stanzas": [
+    [
+     "Gray clouds came at noon.",
+     "The wind began to blow.",
+     "The rain came pouring down",
+     "And made a puddle grow."
+    ],
+    [
+     "I pulled my boots on fast",
+     "And jumped, feet and all.",
+     "The water splashed up high",
+     "And hit the garden wall."
+    ],
+    [
+     "The sun came out at three.",
+     "The puddle shrank away.",
+     "Now just a wet spot shows",
+     "Where I jumped in today."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does the puddle start to grow?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does water hit the garden wall?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the puddle shrink?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does the speaker pull on boots?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the wind begin to blow?",
+     "a": 1
+    }
+   ],
+   "adds": {
+    "right": "The sun comes out, and the puddle goes away.",
+    "wrong": [
+     "The speaker falls and loses a boot.",
+     "The rain keeps falling all night, and the puddle grows."
+    ],
+    "sample": "The sun dries up the puddle."
+   }
+  },
+  {
+   "id": "seed",
+   "title": "My Seed",
+   "stanzas": [
+    [
+     "I filled a cup with dirt",
+     "And dropped a seed inside.",
+     "I patted down the top",
+     "And gave it room to hide."
+    ],
+    [
+     "I watered it each day",
+     "And let the mornings pass.",
+     "At last a sprout poked up,",
+     "As green as summer grass."
+    ],
+    [
+     "Two tiny leaves came out.",
+     "A bud began to show.",
+     "Today it opened wide:",
+     "A flower, all aglow!"
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does the speaker plant the seed?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does a sprout poke up?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the flower open?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does the speaker water the seed?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza do two leaves come out?",
+     "a": 3
+    }
+   ],
+   "adds": {
+    "right": "The plant grows leaves and a flower.",
+    "wrong": [
+     "A hungry bird digs up the seed and flies off.",
+     "The cup tips over and breaks."
+    ],
+    "sample": "The plant grows leaves and a flower."
+   }
+  },
+  {
+   "id": "night-sounds",
+   "title": "Sounds in the Dark",
+   "stanzas": [
+    [
+     "My room is dark and still.",
+     "The moon is shining bright.",
+     "I hear a hoot, hoot, hoot:",
+     "An owl is out tonight."
+    ],
+    [
+     "A cricket chirps a song.",
+     "A dog barks on our street.",
+     "The wind taps on the glass",
+     "With soft and tiny feet."
+    ],
+    [
+     "I pull my blanket up",
+     "And name the sounds I know.",
+     "I yawn and close my eyes,",
+     "And off to sleep I go."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does an owl hoot?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does a cricket chirp?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the speaker fall asleep?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does a dog bark?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza is the moon shining?",
+     "a": 1
+    }
+   ],
+   "adds": {
+    "right": "The speaker gets sleepy and falls asleep.",
+    "wrong": [
+     "The owl flies into the room.",
+     "The speaker goes outside to play in the moonlight."
+    ],
+    "sample": "The speaker falls asleep."
+   }
+  },
+  {
+   "id": "snow-day",
+   "title": "Out in the Snow",
+   "stanzas": [
+    [
+     "The snow came down all day",
+     "And covered every tree.",
+     "Our yard was deep and still",
+     "As far as I could see."
+    ],
+    [
+     "I zipped my jacket up",
+     "And pulled my hat on tight.",
+     "I rolled a giant ball",
+     "Of snow so soft and white."
+    ],
+    [
+     "At last I tramped back in",
+     "With cold and soggy toes.",
+     "I wrapped up in a blanket",
+     "Right up to my red nose."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does the snow come down?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does the speaker roll a ball of snow?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the speaker go back inside?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does the speaker zip a jacket?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza are the speaker's toes cold?",
+     "a": 3
+    }
+   ],
+   "adds": {
+    "right": "The speaker goes back in and gets warm.",
+    "wrong": [
+     "The snow melts away.",
+     "The speaker builds a snow fort with friends."
+    ],
+    "sample": "The speaker goes in and gets warm."
+   }
+  },
+  {
+   "id": "ant",
+   "title": "The Ant",
+   "stanzas": [
+    [
+     "A tiny ant came out",
+     "To find a crumb of bread.",
+     "She found one by the step,",
+     "Much bigger than her head."
+    ],
+    [
+     "She pushed. It was stuck.",
+     "She tugged. It sat still.",
+     "Then ten more ants came out",
+     "And hurried down the hill."
+    ],
+    [
+     "They lifted it as one",
+     "And carried it with care.",
+     "They took it to their nest",
+     "For every ant to share."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does the ant find a crumb?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza do more ants come out?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza do the ants carry the crumb?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza is the crumb stuck?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza do the ants reach their nest?",
+     "a": 3
+    }
+   ],
+   "adds": {
+    "right": "The ants carry the crumb home together.",
+    "wrong": [
+     "The ant eats the whole crumb by herself.",
+     "A bird takes the crumb away."
+    ],
+    "sample": "The ants carry the crumb home together."
+   }
+  },
+  {
+   "id": "maple",
+   "title": "Our Maple Tree",
+   "stanzas": [
+    [
+     "In spring, our maple tree",
+     "Grows buds on every twig.",
+     "They open into leaves",
+     "That grow up wide and big."
+    ],
+    [
+     "In summer, it gives shade",
+     "For birds and you and me.",
+     "We sit beneath its leaves",
+     "And read below the tree."
+    ],
+    [
+     "In fall, its leaves turn red",
+     "And flutter to the ground.",
+     "We rake them in a pile",
+     "And jump in with a bound."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza do the buds open?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza do people read below the tree?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza do the leaves turn red?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does the tree give shade?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza do people rake the leaves?",
+     "a": 3
+    }
+   ],
+   "adds": {
+    "right": "It tells what happens to the tree in the fall.",
+    "wrong": [
+     "It tells how to plant a maple tree.",
+     "It tells about snow piled high on the bare branches."
+    ],
+    "sample": "The leaves turn red and fall."
+   }
+  },
+  {
+   "id": "moving",
+   "title": "A New Street",
+   "stanzas": [
+    [
+     "Our boxes filled the hall.",
+     "My room was bare and gray.",
+     "I said good-bye to friends",
+     "The day we moved away."
+    ],
+    [
+     "Our new house had a swing",
+     "Beside a tall oak tree.",
+     "Some kids rode by on bikes,",
+     "But no one waved at me."
+    ],
+    [
+     "One day a girl rode up.",
+     "\"Want to play?\" she said.",
+     "We rode around and laughed",
+     "Until the sky turned red."
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza do boxes fill the hall?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does no one wave?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does a girl ask the speaker to play?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza is there a swing?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the speaker say good-bye to friends?",
+     "a": 1
+    }
+   ],
+   "adds": {
+    "right": "The speaker makes a new friend.",
+    "wrong": [
+     "The speaker moves back home.",
+     "The speaker plants a garden by the swing."
+    ],
+    "sample": "The speaker makes a new friend."
+   }
+  },
+  {
+   "id": "tooth",
+   "title": "The Tooth at Lunch",
+   "stanzas": [
+    [
+     "My tooth was very loose.",
+     "It wobbled when I ate.",
+     "I pushed it with my tongue",
+     "From morning until late."
+    ],
+    [
+     "At lunch I bit an apple,",
+     "And then I felt a gap.",
+     "I looked, and there it was:",
+     "My tooth was in my lap!"
+    ],
+    [
+     "I put it in a box",
+     "To show my class at school.",
+     "I smiled with my new gap.",
+     "A gap is kind of cool!"
+    ]
+   ],
+   "where": [
+    {
+     "q": "In which stanza does the tooth come out?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the tooth wobble?",
+     "a": 1
+    },
+    {
+     "q": "In which stanza does the speaker put the tooth in a box?",
+     "a": 3
+    },
+    {
+     "q": "In which stanza does the speaker bite an apple?",
+     "a": 2
+    },
+    {
+     "q": "In which stanza does the speaker push the loose tooth with their tongue?",
+     "a": 1
+    }
+   ],
+   "adds": {
+    "right": "The speaker keeps the tooth to show the class.",
+    "wrong": [
+     "The speaker goes to the dentist.",
+     "The speaker loses the tooth in the grass at recess."
+    ],
+    "sample": "The speaker saves the tooth for class."
+   }
+  }
+ ],
+ "chapters": [
+  {
+   "id": "patches",
+   "title": "Leila's Lost Puppy",
+   "chapters": [
+    {
+     "title": "The Open Gate",
+     "text": "On Saturday morning, Leila went out to feed her puppy, Scout. The back gate was open, and Scout was gone. Leila called his name up and down the street, but he did not come. Her dad said, \"Let's make signs and ask our neighbors to help.\""
+    },
+    {
+     "title": "The Signs",
+     "text": "Leila drew a picture of Scout on ten sheets of paper. Under each picture she wrote, \"LOST PUPPY. Brown with one white ear.\" She and her dad taped the signs to poles all over the neighborhood. Then they went home to wait."
+    },
+    {
+     "title": "A Happy Call",
+     "text": "That evening the phone rang. Mrs. Kim from the next street had seen a sign. \"A brown puppy with one white ear is sleeping on my porch,\" she said. Leila ran all the way there. Scout wagged his tail and licked her face. From then on, Leila always checked that the gate was shut."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Leila go out to feed her puppy?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Dad say to ask the neighbors for help?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Leila draw a picture of Scout?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter do Leila and her dad go home to wait?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Leila run to the next street?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Scout lick Leila's face?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Scout is lost, so Leila makes signs to find him.",
+    "wrong": [
+     "Scout comes home all by himself in time for dinner.",
+     "Leila gets a new puppy from a friend."
+    ],
+    "sample": "Scout is lost, so they make signs.",
+    "frame": [
+     "Leila makes signs for Scout",
+     "the gate was left open"
+    ]
+   },
+   "build3": {
+    "right": "Mrs. Kim saw a sign, so she calls about Scout.",
+    "wrong": [
+     "Leila finds Scout asleep in the closet in her room.",
+     "Mrs. Kim brings Leila a new gate."
+    ],
+    "sample": "A neighbor saw a sign and called.",
+    "frame": [
+     "Mrs. Kim calls about Scout",
+     "Leila put up signs"
+    ]
+   },
+   "happens": [
+    "Scout runs away.",
+    "They put up signs.",
+    "A neighbor finds him."
+   ]
+  },
+  {
+   "id": "race",
+   "title": "Ana's Big Race",
+   "chapters": [
+    {
+     "title": "A Slow Start",
+     "text": "Ana wanted to run in the school race, but she got tired fast. At the end of the block, she had to stop and catch her breath. \"The race is in three weeks,\" said her big brother, Mateo. \"If you practice, you can get faster.\""
+    },
+    {
+     "title": "Every Day",
+     "text": "Each day after school, Ana and Mateo jogged around the park. The first week, Ana ran one lap. The next week, she ran two laps. By the third week, she ran three laps without stopping."
+    },
+    {
+     "title": "Race Day",
+     "text": "On race day, Ana lined up with the other runners. When the whistle blew, she ran at a steady pace. She did not win, but she ran the whole way and finished strong. Mateo cheered louder than anyone. \"Next year, I'll be even faster,\" Ana said with a smile."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Ana stop to catch her breath?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Ana run three laps without stopping?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does the whistle blow?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Mateo tell Ana to practice?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter do Ana and Mateo jog around the park?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Mateo cheer?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Ana practices every day, as Mateo said she should.",
+    "wrong": [
+     "Ana stops running and stays home to read books instead.",
+     "Ana wins a race in the first week."
+    ],
+    "sample": "Ana practices to get faster.",
+    "frame": [
+     "Ana jogs in the park",
+     "Mateo said to practice"
+    ]
+   },
+   "build3": {
+    "right": "Ana runs the whole race because she practiced.",
+    "wrong": [
+     "Ana falls and cannot finish the race.",
+     "Mateo runs the race in place of Ana, and he wins."
+    ],
+    "sample": "Her practice helps her finish.",
+    "frame": [
+     "Ana runs the whole race",
+     "she practiced every day"
+    ]
+   },
+   "happens": [
+    "Ana gets tired fast.",
+    "Ana practices running.",
+    "Ana finishes the race."
+   ]
+  },
+  {
+   "id": "treehouse",
+   "title": "The Reading Spot",
+   "chapters": [
+    {
+     "title": "A Big Idea",
+     "text": "Jonah wanted a quiet place to read. He looked up at the old oak tree in the yard. \"A treehouse!\" he said. He drew a plan with a door, a window, and a rope ladder. Then he showed it to his grandpa."
+    },
+    {
+     "title": "Hard Work",
+     "text": "Grandpa looked at the plan and nodded. \"Let's build it together,\" he said. All week they measured boards, sawed them, and hammered them in place. Jonah held the boards steady while Grandpa nailed. On Friday, they tied on the rope ladder."
+    },
+    {
+     "title": "The Quiet Spot",
+     "text": "On Saturday, Jonah climbed the ladder with a stack of books. He sat by the little window and read while the leaves rustled. Grandpa called up, \"How is it?\" Jonah grinned. \"It's the best reading spot in the world!\""
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Jonah draw a plan?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter do they tie on the rope ladder?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Jonah climb up with a stack of books?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Jonah show the plan to Grandpa?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter do they saw the boards?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter do the leaves rustle?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Jonah and Grandpa build the treehouse he planned.",
+    "wrong": [
+     "Grandpa says a treehouse is a bad idea and says no.",
+     "Jonah buys a treehouse at a store."
+    ],
+    "sample": "They build the treehouse he planned.",
+    "frame": [
+     "they build the treehouse",
+     "Jonah drew a plan"
+    ]
+   },
+   "build3": {
+    "right": "Jonah reads in the treehouse they built.",
+    "wrong": [
+     "Jonah and Grandpa take the treehouse down.",
+     "A storm knocks the treehouse over."
+    ],
+    "sample": "He reads in the new treehouse.",
+    "frame": [
+     "Jonah reads in the treehouse",
+     "they built it together"
+    ]
+   },
+   "happens": [
+    "Jonah draws a plan.",
+    "They build it together.",
+    "Jonah reads up there."
+   ]
+  },
+  {
+   "id": "berries",
+   "title": "Yuki's Strawberries",
+   "chapters": [
+    {
+     "title": "A Strange Morning",
+     "text": "Yuki grew strawberries in a box by her back steps. One morning, she found red berries with holes pecked in them. \"Who is eating my berries?\" she asked. She decided to watch from the kitchen window."
+    },
+    {
+     "title": "Caught!",
+     "text": "The next morning, Yuki saw two robins land on the box. They pecked at the ripest berries and flew away. \"So it's the birds!\" she said. Her mom said, \"We can cover the box with a net.\""
+    },
+    {
+     "title": "A Week Later",
+     "text": "That afternoon, they spread a net over the berries and tied down the edges. The robins came back, but they could not reach the fruit. A week later, Yuki picked a bowl of sweet strawberries for her family."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Yuki find holes in her fruit?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter do two robins land on the box?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter do Yuki and her mom spread a net?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Yuki decide to watch from the kitchen window?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Mom say they can use a net?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Yuki pick sweet strawberries?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Yuki watches and finds out who pecked the berries.",
+    "wrong": [
+     "Yuki plants a new kind of berry.",
+     "A big dog digs up the whole strawberry box at night."
+    ],
+    "sample": "She finds out birds ate the berries.",
+    "frame": [
+     "Yuki sees who eats the berries",
+     "she decided to watch"
+    ]
+   },
+   "build3": {
+    "right": "They put up the net Mom talked about.",
+    "wrong": [
+     "The robins eat every berry.",
+     "Yuki gives all the berries to the birds."
+    ],
+    "sample": "They put a net over the berries.",
+    "frame": [
+     "they cover the box with a net",
+     "Mom said a net would help"
+    ]
+   },
+   "happens": [
+    "The berries have holes.",
+    "Robins eat the berries.",
+    "A net saves the berries."
+   ]
+  },
+  {
+   "id": "swim",
+   "title": "Hana Learns to Swim",
+   "chapters": [
+    {
+     "title": "The First Day",
+     "text": "Hana's class was going to the pool for swim lessons, but Hana was scared. She did not like water on her face. On the first day, she sat on the side of the pool and only kicked her feet."
+    },
+    {
+     "title": "Little by Little",
+     "text": "Her teacher, Coach Lena, gave Hana a kickboard. \"Hold this and blow bubbles,\" she said. Hana tried it. Day after day, she put her face in the water a little more. Soon she could float on her back."
+    },
+    {
+     "title": "The Last Lesson",
+     "text": "On the last day, Coach Lena asked who wanted to swim across the pool. Hana raised her hand. She kicked and paddled all the way to the other side. Everyone clapped, and Hana laughed. \"I'm not scared anymore!\" she said."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Hana sit on the side of the pool?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Coach Lena give Hana a kickboard?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Hana swim across the pool?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does it say Hana does not like water on her face?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Hana learn to float on her back?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does everyone clap?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Hana was scared, so Coach Lena helps her practice.",
+    "wrong": [
+     "Hana jumps into the deep end of the pool on the first day.",
+     "Hana quits her swim lessons."
+    ],
+    "sample": "She practices so she is less scared.",
+    "frame": [
+     "Coach Lena helps Hana practice",
+     "Hana was scared of water"
+    ]
+   },
+   "build3": {
+    "right": "Hana swims across because she practiced.",
+    "wrong": [
+     "Hana sits on the side the whole last day.",
+     "Coach Lena carries Hana across the pool."
+    ],
+    "sample": "Her practice helps her swim across.",
+    "frame": [
+     "Hana swims across the pool",
+     "she practiced every day"
+    ]
+   },
+   "happens": [
+    "Hana is scared of water.",
+    "Hana practices.",
+    "Hana swims across."
+   ]
+  },
+  {
+   "id": "mural",
+   "title": "The Gray Wall",
+   "chapters": [
+    {
+     "title": "Plain and Gray",
+     "text": "The wall by the school garden was plain and gray. \"It looks so dull,\" said Rafael. The principal, Ms. Diaz, said the class could paint a mural on it if they made a good plan first."
+    },
+    {
+     "title": "Ideas from Everyone",
+     "text": "Each student drew one thing they loved about their town: the river, the library, the bridge, and the big oak tree. The class put all the drawings together into one big picture. Ms. Diaz looked at it and said, \"Yes!\""
+    },
+    {
+     "title": "Saturday",
+     "text": "On Saturday, the class came with brushes and old shirts. They painted for hours. When they stepped back, the gray wall was full of color. Now every child who walks by can see a picture of their town."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Rafael say how the wall looks?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does a student draw the library?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does the class bring brushes and old shirts?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Ms. Diaz ask for a good plan first?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Ms. Diaz say, \"Yes!\"?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter is the wall full of color?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "The class makes the plan Ms. Diaz asked for.",
+    "wrong": [
+     "The class paints over the school garden.",
+     "Ms. Diaz paints the whole wall by herself on Sunday."
+    ],
+    "sample": "They make the plan Ms. Diaz wanted.",
+    "frame": [
+     "the class makes a plan",
+     "Ms. Diaz asked for a plan"
+    ]
+   },
+   "build3": {
+    "right": "The class paints the mural from their plan.",
+    "wrong": [
+     "Rain washes the mural away.",
+     "The class picks a new wall to paint in the gym instead."
+    ],
+    "sample": "They paint the mural they planned.",
+    "frame": [
+     "the class paints the mural",
+     "Ms. Diaz liked their plan"
+    ]
+   },
+   "happens": [
+    "The wall looks dull.",
+    "The class makes a plan.",
+    "They paint the mural."
+   ]
+  },
+  {
+   "id": "bike",
+   "title": "Theo Rides",
+   "chapters": [
+    {
+     "title": "An Old Bike",
+     "text": "Theo got his cousin's old bike, but he did not know how to ride it. He buckled his helmet. Every time he pushed off, the bike wobbled, and he put his feet down. \"I'll never learn,\" he said with a sigh."
+    },
+    {
+     "title": "Look Ahead",
+     "text": "His aunt Rosa held the back of the seat and ran beside him. \"Look ahead, not down,\" she said. Theo pedaled faster and faster. He did not notice when Aunt Rosa let go."
+    },
+    {
+     "title": "All by Himself",
+     "text": "Theo rode all the way to the corner before he looked back. Aunt Rosa was far behind, waving. \"You did it by yourself!\" she called. Theo turned the bike around and rode back to her, grinning."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Theo put his feet down?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Aunt Rosa hold the seat?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Theo ride to the corner?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Theo say, \"I'll never learn\"?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Aunt Rosa let go?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Theo turn around and ride back?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Aunt Rosa helps Theo, who could not ride yet.",
+    "wrong": [
+     "Theo gives the bike back to his cousin the next day.",
+     "Theo falls and hurts his knee."
+    ],
+    "sample": "His aunt helps him learn to ride.",
+    "frame": [
+     "Aunt Rosa helps Theo ride",
+     "Theo could not ride yet"
+    ]
+   },
+   "build3": {
+    "right": "Theo rides alone because Aunt Rosa let go.",
+    "wrong": [
+     "Theo walks the bike all the way home and goes inside.",
+     "Aunt Rosa rides the bike in his place."
+    ],
+    "sample": "He rides alone after she lets go.",
+    "frame": [
+     "Theo rides by himself",
+     "Aunt Rosa let go"
+    ]
+   },
+   "happens": [
+    "Theo can't ride yet.",
+    "His aunt helps him.",
+    "Theo rides alone."
+   ]
+  },
+  {
+   "id": "market",
+   "title": "Mina's Market",
+   "chapters": [
+    {
+     "title": "May I Keep It?",
+     "text": "Mina's family got a new washing machine. It came in a huge cardboard box. \"May I keep the box?\" Mina asked. Her mom said yes, so Mina dragged it into the backyard."
+    },
+    {
+     "title": "Blue Paint",
+     "text": "Mom helped Mina cut a big window in the front of the box and painted it blue. Her friend Ezra made a sign that said MINA'S MARKET. Then they cut out paper apples and paper bananas to sell."
+    },
+    {
+     "title": "The Best Market Ever",
+     "text": "The next day it rained, so Mina and Ezra could not play outside. They pulled the market into the living room. Mina's mom bought a paper apple and paid with a button. \"This is the best market ever,\" said Ezra."
+    }
+   ],
+   "where": [
+    {
+     "q": "In which chapter does Mina's family get a new washing machine?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Mina cut a big window?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does it rain?",
+     "a": 3
+    },
+    {
+     "q": "In which chapter does Mina drag a box into the backyard?",
+     "a": 1
+    },
+    {
+     "q": "In which chapter does Ezra make a sign?",
+     "a": 2
+    },
+    {
+     "q": "In which chapter does Mom pay with a button?",
+     "a": 3
+    }
+   ],
+   "build2": {
+    "right": "Mina turns the box she kept into a market.",
+    "wrong": [
+     "Mina throws the big box away with the trash.",
+     "Mina's mom paints the box red."
+    ],
+    "sample": "She makes the box into a market.",
+    "frame": [
+     "Mina makes a market",
+     "she kept the big box"
+    ]
+   },
+   "build3": {
+    "right": "The friends play in the market Mina made.",
+    "wrong": [
+     "The market gets wet in the rain outside the house.",
+     "Ezra takes the market to his house."
+    ],
+    "sample": "They play market in the living room.",
+    "frame": [
+     "they play market inside",
+     "they made a market"
+    ]
+   },
+   "happens": [
+    "Mina gets a big box.",
+    "She makes a market.",
+    "They play inside."
+   ]
+  }
+ ],
+ "pov": [
+  {
+   "id": "rain",
+   "descs": [
+    "Lucia, a girl who thinks rain is the best",
+    "Lucia's dad"
+   ],
+   "title": "The Best Kind of Day",
+   "person": "first",
+   "chars": [
+    "Lucia",
+    "Dad"
+   ],
+   "paras": [
+    "Rainy days are the best days. Everyone else groans when the clouds roll in, but I cheer. Rain means puddles to stomp in and the sound of drops on the roof at night.",
+    "Last Saturday, it rained all morning. My dad looked out the window and sighed. \"I wanted to mow the lawn today, Lucia,\" he said. \"Rain spoils everything, and I like sunny days best.\" I grabbed my yellow boots. \"Rain doesn't spoil anything, Dad,\" I said. \"It makes everything better!\"",
+    "We went outside anyway. I found three worms on the sidewalk and moved them back to the grass. Dad held the umbrella and shook his head, but he smiled a little. I still think rain is the best weather of all."
+   ],
+   "thinks": [
+    {
+     "s": "Rain makes everything better.",
+     "who": 0
+    },
+    {
+     "s": "Rain is the best weather of all.",
+     "who": 0
+    },
+    {
+     "s": "Puddles are fun to stomp in.",
+     "who": 0
+    },
+    {
+     "s": "Rain spoils everything.",
+     "who": 1
+    },
+    {
+     "s": "Sunny days are the best days.",
+     "who": 1
+    },
+    {
+     "s": "Rain ruined a plan to mow the lawn.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Rain is the best weather.",
+     "wrong": [
+      "Rain spoils a good Saturday.",
+      "Snow is much better than rain."
+     ]
+    },
+    {
+     "right": "Rain spoils a good Saturday.",
+     "wrong": [
+      "Rain is the best weather.",
+      "Snow is much better than rain."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "Everyone else groans when the clouds roll in, but I cheer.",
+     "wrong": [
+      "My dad looked out the window and sighed.",
+      "I found three worms on the sidewalk and moved them back to the grass."
+     ]
+    },
+    {
+     "right": "\"Rain spoils everything, and I like sunny days best.\"",
+     "wrong": [
+      "I grabbed my yellow boots.",
+      "I found three worms on the sidewalk and moved them back to the grass."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Do you like rainy days? Why or why not?",
+    "think": "rainy days are fun",
+    "why": "I love puddles"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "It rained all morning, so I could not mow my lawn. I sighed. Rain spoils everything. Lucia said rain makes things better."
+    }
+   ],
+   "tellAlso": "Lucia, or \"the girl in the story\""
+  },
+  {
+   "id": "snail",
+   "descs": [
+    "Kofi, a boy in the story",
+    "Ines, Kofi's friend"
+   ],
+   "title": "Should Shelly Stay?",
+   "person": "first",
+   "chars": [
+    "Kofi",
+    "Ines"
+   ],
+   "paras": [
+    "I found the snail on the playground fence. Its shell was brown with a swirl, like a cinnamon roll. I named her Shelly, and I knew right away that she should live in our classroom.",
+    "I put Shelly in a jar with leaves and a bottle cap of water. My friend Ines frowned. \"A jar is too small for a snail, Kofi,\" she said. \"Shelly belongs outside, where she can find her own food.\" I told her the jar was a fine home.",
+    "All morning, Shelly stayed inside her shell. At lunch, Ines asked again, \"Can we take her back to the fence?\" I looked at the jar for a long time. I still think a classroom snail would be great, but I said we could ask our teacher."
+   ],
+   "thinks": [
+    {
+     "s": "Shelly should live in the classroom.",
+     "who": 0
+    },
+    {
+     "s": "The jar is a fine home for Shelly.",
+     "who": 0
+    },
+    {
+     "s": "A classroom snail would be great.",
+     "who": 0
+    },
+    {
+     "s": "A jar is too small for a snail.",
+     "who": 1
+    },
+    {
+     "s": "Shelly belongs outside.",
+     "who": 1
+    },
+    {
+     "s": "Shelly can find her own food outside.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Shelly should live in the classroom.",
+     "wrong": [
+      "Shelly should go back outside.",
+      "Shelly should live in a fish tank at home."
+     ]
+    },
+    {
+     "right": "Shelly should go back outside.",
+     "wrong": [
+      "Shelly should live in the classroom.",
+      "Shelly should live in a fish tank at home."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "I told her the jar was a fine home.",
+     "wrong": [
+      "My friend Ines frowned.",
+      "I found the snail on the playground fence."
+     ]
+    },
+    {
+     "right": "\"Shelly belongs outside, where she can find her own food.\"",
+     "wrong": [
+      "I told her the jar was a fine home.",
+      "I found the snail on the playground fence."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Should a class keep a snail in a jar? Why or why not?",
+    "think": "a jar is too small",
+    "why": "snails need room"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "My friend Kofi put the snail in a jar. I frowned and told him a jar is too small. Shelly belongs outside to find food."
+    }
+   ],
+   "tellAlso": "Kofi, or \"the boy in the story\""
+  },
+  {
+   "id": "bus",
+   "descs": [
+    "Mira, a girl in the story",
+    "Chidi, Mira's friend"
+   ],
+   "title": "The Back Seat",
+   "person": "first",
+   "chars": [
+    "Mira",
+    "Chidi"
+   ],
+   "paras": [
+    "The back seat is the best seat on the bus. You can see everyone from back there, and when the bus hits a bump, you bounce up high. Every morning, I hope to get it.",
+    "Today my friend Chidi sat up front, right behind the driver. \"Come sit with me, Mira,\" he called. \"The front is better because you can see the road and get off first.\" I shook my head and walked all the way to the back.",
+    "The bus hit a big bump on Elm Street, and I bounced so high that I laughed out loud. Chidi turned around and waved. I waved back, but I didn't move. The back seat is still the best seat for me."
+   ],
+   "thinks": [
+    {
+     "s": "The back seat is the best seat.",
+     "who": 0
+    },
+    {
+     "s": "Bouncing over a bump is fun.",
+     "who": 0
+    },
+    {
+     "s": "You can see everyone from the back.",
+     "who": 0
+    },
+    {
+     "s": "The front is the better place to sit.",
+     "who": 1
+    },
+    {
+     "s": "It is good to see the road.",
+     "who": 1
+    },
+    {
+     "s": "It is good to get off the bus first.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "The back seat is the best seat.",
+     "wrong": [
+      "The front is the better place to sit.",
+      "The middle seat is the best seat on the bus."
+     ]
+    },
+    {
+     "right": "The front is the better place to sit.",
+     "wrong": [
+      "The back seat is the best seat.",
+      "The middle seat is the best seat on the bus."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "Every morning, I hope to get it.",
+     "wrong": [
+      "\"The front is better because you can see the road and get off first.\"",
+      "Chidi turned around and waved."
+     ]
+    },
+    {
+     "right": "\"The front is better because you can see the road and get off first.\"",
+     "wrong": [
+      "Every morning, I hope to get it.",
+      "Chidi turned around and waved."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Is it better to sit in the front or the back of the classroom? Why?",
+    "think": "the front is better",
+    "why": "I can see the board"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "I sat up front, behind the driver. I called my friend Mira over because the front is better. She walked to the back."
+    }
+   ],
+   "tellAlso": "Mira, or \"the girl in the story\""
+  },
+  {
+   "id": "city",
+   "descs": [
+    "Yusuf, a boy who loves the city's sounds",
+    "Tess, Yusuf's friend"
+   ],
+   "title": "Sounds of My City",
+   "person": "first",
+   "chars": [
+    "Yusuf",
+    "Tess"
+   ],
+   "paras": [
+    "I love the sounds of my city. Buses hiss, horns honk, and music drifts out of open windows. To me, all that noise sounds like a big, happy song.",
+    "When my friend Tess slept over, she covered her ears. \"How do you sleep with all this noise, Yusuf?\" she asked. \"At my house, the only sound at night is the crickets. Quiet is so much better.\"",
+    "That night, I opened my window and listened. A siren wailed far away, and a dog barked on the corner. Tess put her pillow over her head. I fell asleep smiling. I think the city is the best place to fall asleep."
+   ],
+   "thinks": [
+    {
+     "s": "City noise sounds like a happy song.",
+     "who": 0
+    },
+    {
+     "s": "The city is the best place to fall asleep.",
+     "who": 0
+    },
+    {
+     "s": "The sounds of the city are great.",
+     "who": 0
+    },
+    {
+     "s": "Quiet is so much better.",
+     "who": 1
+    },
+    {
+     "s": "The city is too noisy for sleeping.",
+     "who": 1
+    },
+    {
+     "s": "All this noise is too much.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "City noise sounds like a happy song.",
+     "wrong": [
+      "Quiet is better than noise.",
+      "Crickets are too loud at night."
+     ]
+    },
+    {
+     "right": "Quiet is better than noise.",
+     "wrong": [
+      "City noise sounds like a happy song.",
+      "Crickets are too loud at night."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "I fell asleep smiling.",
+     "wrong": [
+      "Tess put her pillow over her head.",
+      "A siren wailed far away, and a dog barked on the corner."
+     ]
+    },
+    {
+     "right": "When my friend Tess slept over, she covered her ears.",
+     "wrong": [
+      "I fell asleep smiling.",
+      "A siren wailed far away, and a dog barked on the corner."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Do you like noisy places or quiet places better? Why?",
+    "think": "quiet is better",
+    "why": "I can read in peace"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 3,
+     "sample": "That night, I heard a siren and a dog. I put my pillow over my head. Yusuf fell asleep, but I wished for my quiet street."
+    }
+   ],
+   "tellAlso": "Yusuf, or \"the boy in the story\""
+  },
+  {
+   "id": "sunflowers",
+   "descs": [
+    "Aiyana, a girl who wants sunflowers",
+    "Leo, a boy in the class"
+   ],
+   "title": "What Should We Plant?",
+   "person": "first",
+   "chars": [
+    "Aiyana",
+    "Leo"
+   ],
+   "paras": [
+    "Our class got to choose what to plant in the school garden. I raised my hand first. \"Let's plant sunflowers!\" I said. Sunflowers can grow taller than a grown-up, and bees and birds love them.",
+    "Leo raised his hand next. \"I don't agree with Aiyana,\" he said. \"We should plant tomatoes. Then we can eat what we grow.\" Some kids nodded. I said, \"But flowers make the whole garden look happy!\"",
+    "Our teacher said we would vote on Friday. I made a poster with a giant sunflower on it. Leo made one with a big red tomato. I still think sunflowers are the best thing we could grow."
+   ],
+   "thinks": [
+    {
+     "s": "Sunflowers are the best thing to grow.",
+     "who": 0
+    },
+    {
+     "s": "Flowers make a garden look happy.",
+     "who": 0
+    },
+    {
+     "s": "The class should plant sunflowers.",
+     "who": 0
+    },
+    {
+     "s": "The class should plant tomatoes.",
+     "who": 1
+    },
+    {
+     "s": "It is good to eat what you grow.",
+     "who": 1
+    },
+    {
+     "s": "Aiyana's idea is not the best one.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Sunflowers are the best thing to grow.",
+     "wrong": [
+      "The class should plant tomatoes.",
+      "The garden should stay empty all year long."
+     ]
+    },
+    {
+     "right": "The class should plant tomatoes.",
+     "wrong": [
+      "Sunflowers are the best thing to grow.",
+      "The garden should stay empty all year long."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "I made a poster with a giant sunflower on it.",
+     "wrong": [
+      "Leo made one with a big red tomato.",
+      "Our teacher said we would vote on Friday."
+     ]
+    },
+    {
+     "right": "Leo made one with a big red tomato.",
+     "wrong": [
+      "I made a poster with a giant sunflower on it.",
+      "Some kids nodded."
+     ]
+    }
+   ],
+   "own": {
+    "q": "If your class could plant one thing, what would you choose? Why?",
+    "think": "peas would be great",
+    "why": "they climb up strings"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "I raised my hand. I did not agree with Aiyana. I wanted tomatoes so we could eat what we grew. She wanted flowers."
+    }
+   ],
+   "tellAlso": "Aiyana, or \"the girl in the story\""
+  },
+  {
+   "id": "old-bike",
+   "descs": [
+    "Nico, a boy in the story",
+    "Lola, Nico's cousin"
+   ],
+   "title": "My Old Red Bike",
+   "person": "first",
+   "chars": [
+    "Nico",
+    "Lola"
+   ],
+   "paras": [
+    "My bike is old, and the red paint has some scratches, but it is the best bike in the world. It has a loud bell and a basket that holds my library books. My grandpa rode it when he was my age.",
+    "When my cousin Lola came over, she rolled out her shiny new bike. \"Nico, your bike is so old,\" she said. \"You should get a new one like mine.\" I rang my bell twice. \"Old bikes have stories,\" I told her.",
+    "We rode to the park together. Lola's bike was faster on the hill, but my basket held both of our water bottles. At the end of the day, I patted my bike's seat. I wouldn't trade it for any bike."
+   ],
+   "thinks": [
+    {
+     "s": "His old bike is the best bike in the world.",
+     "who": 0
+    },
+    {
+     "s": "Old bikes have stories.",
+     "who": 0
+    },
+    {
+     "s": "He would not trade his bike.",
+     "who": 0
+    },
+    {
+     "s": "Nico should get a new bike.",
+     "who": 1
+    },
+    {
+     "s": "A new bike is better than an old one.",
+     "who": 1
+    },
+    {
+     "s": "Nico's bike is too old.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "His old bike is the best bike.",
+     "wrong": [
+      "Nico should get a new bike.",
+      "Bikes are too slow for the park."
+     ]
+    },
+    {
+     "right": "Nico should get a new bike.",
+     "wrong": [
+      "His old bike is the best bike.",
+      "Bikes are too slow for the park."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "I wouldn't trade it for any bike.",
+     "wrong": [
+      "\"You should get a new one like mine.\"",
+      "We rode to the park together."
+     ]
+    },
+    {
+     "right": "\"You should get a new one like mine.\"",
+     "wrong": [
+      "I wouldn't trade it for any bike.",
+      "We rode to the park together."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Would you rather have something old with a story or something new? Why?",
+    "think": "old things are best",
+    "why": "they have stories"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "I rolled out my new bike and told Nico his bike is so old. He should get a new one like mine. He just rang his bell."
+    }
+   ],
+   "tellAlso": "Nico, or \"the boy in the story\""
+  },
+  {
+   "id": "messy-room",
+   "descs": [
+    "Tomas, a boy in the story",
+    "Mom, Tomas's mother"
+   ],
+   "title": "My Room, My Way",
+   "person": "first",
+   "chars": [
+    "Tomas",
+    "Mom"
+   ],
+   "paras": [
+    "My room is a little messy, and I like it that way. My blocks are always ready for building, and my books are close enough to grab. A neat room is a boring room.",
+    "On Sunday, Mom stood in my doorway. \"Tomas, I can't even see the floor,\" she said. \"A clean room is safer, and you can find things faster.\" Just then, I tripped on a block. \"Ouch!\" I said.",
+    "Mom and I made a deal. I can keep one tower standing, but the other blocks go in a bin at night. I still like my room messy, but my toes like the bin."
+   ],
+   "thinks": [
+    {
+     "s": "A neat room is a boring room.",
+     "who": 0
+    },
+    {
+     "s": "His messy room is just right.",
+     "who": 0
+    },
+    {
+     "s": "He still likes his room messy.",
+     "who": 0
+    },
+    {
+     "s": "A clean room is safer.",
+     "who": 1
+    },
+    {
+     "s": "You find things faster in a clean room.",
+     "who": 1
+    },
+    {
+     "s": "The floor should be easy to see.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "A messy room is just right.",
+     "wrong": [
+      "A clean room is better.",
+      "Rooms should have no toys at all."
+     ]
+    },
+    {
+     "right": "A clean room is better.",
+     "wrong": [
+      "A messy room is just right.",
+      "Rooms should have no toys at all."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "My room is a little messy, and I like it that way.",
+     "wrong": [
+      "\"A clean room is safer, and you can find things faster.\"",
+      "On Sunday, Mom stood in my doorway."
+     ]
+    },
+    {
+     "right": "\"A clean room is safer, and you can find things faster.\"",
+     "wrong": [
+      "My room is a little messy, and I like it that way.",
+      "On Sunday, Mom stood in my doorway."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Do you like a neat desk or a messy desk? Why?",
+    "think": "a neat desk is best",
+    "why": "I find things fast"
+   },
+   "rewrite": [
+    null,
+    {
+     "para": 2,
+     "sample": "On Sunday, I stood in my son's doorway. I could not see the floor. I told Tomas a clean room is safer. Then he tripped."
+    }
+   ],
+   "tellAlso": "Tomas, or \"the boy in the story\""
+  },
+  {
+   "id": "recess",
+   "descs": [
+    "Kenji, a boy who wants to play board games",
+    "Zara, a girl in the same class as Kenji"
+   ],
+   "title": "Rainy-Day Recess",
+   "person": "third",
+   "chars": [
+    "Kenji",
+    "Zara"
+   ],
+   "paras": [
+    "It was raining, so recess was inside. Ms. Park said the class could pick one activity. Kenji wanted to play board games. \"Board games are calm, and everyone can take a turn,\" he said.",
+    "Zara jumped up. \"No way! We sit all day. We should have a dance party,\" she said. \"Moving our bodies is the best way to have fun.\" Half the class cheered. The other half groaned.",
+    "Ms. Park smiled. \"We will dance for ten minutes, and then we will play board games,\" she said. Zara danced the whole time, and Kenji rolled the dice later. Both of them still thought their own idea was the best."
+   ],
+   "thinks": [
+    {
+     "s": "Board games are calm.",
+     "who": 0
+    },
+    {
+     "s": "In board games, everyone gets a turn.",
+     "who": 0
+    },
+    {
+     "s": "Board games are the best idea.",
+     "who": 0
+    },
+    {
+     "s": "The class sits too much.",
+     "who": 1
+    },
+    {
+     "s": "Moving is the best way to have fun.",
+     "who": 1
+    },
+    {
+     "s": "A dance party is the best idea.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Board games are best on rainy days.",
+     "wrong": [
+      "A dance party is the best idea.",
+      "Recess should be skipped on rainy days."
+     ]
+    },
+    {
+     "right": "A dance party is the best idea.",
+     "wrong": [
+      "Board games are best on rainy days.",
+      "Recess should be skipped on rainy days."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "\"Board games are calm, and everyone can take a turn,\" he said.",
+     "wrong": [
+      "\"Moving our bodies is the best way to have fun.\"",
+      "It was raining, so recess was inside."
+     ]
+    },
+    {
+     "right": "\"Moving our bodies is the best way to have fun.\"",
+     "wrong": [
+      "\"Board games are calm, and everyone can take a turn,\" he said.",
+      "It was raining, so recess was inside."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Would you rather play a board game or dance at indoor recess? Why?",
+    "think": "dancing is more fun",
+    "why": "I like to move"
+   },
+   "rewrite": [
+    {
+     "para": 1,
+     "sample": "It was raining, so my class had recess inside. I wanted board games because they are calm and everyone gets a turn."
+    },
+    {
+     "para": 2,
+     "sample": "I jumped up from my seat. We sit all day, so we should dance! Moving our bodies is the best way to have fun."
+    }
+   ],
+   "tellAlso": "Any words that say the narrator is not a character."
+  },
+  {
+   "id": "dandelions",
+   "descs": [
+    "Greta, a girl who loves dandelions in the yard",
+    "Grandpa, Greta's grandfather"
+   ],
+   "title": "The Dandelions",
+   "person": "third",
+   "chars": [
+    "Greta",
+    "Grandpa"
+   ],
+   "paras": [
+    "Greta loved the yellow dandelions that popped up in Grandpa's yard. To her, they looked like tiny suns. She liked to blow the white puffs and watch the seeds float away.",
+    "Grandpa did not agree. \"Those are weeds,\" he said, pulling one out by the root. \"They crowd out my grass.\" Greta held up a bright flower. \"But they're so pretty, and bees visit them,\" she said.",
+    "Grandpa thought for a moment. Then he pointed to a corner by the fence. \"You may keep the dandelions there,\" he said. \"The rest of the yard is for grass.\""
+   ],
+   "thinks": [
+    {
+     "s": "Dandelions look like tiny suns.",
+     "who": 0
+    },
+    {
+     "s": "Dandelions are pretty.",
+     "who": 0
+    },
+    {
+     "s": "Blowing the white puffs is fun.",
+     "who": 0
+    },
+    {
+     "s": "Dandelions are weeds.",
+     "who": 1
+    },
+    {
+     "s": "Dandelions crowd out the grass.",
+     "who": 1
+    },
+    {
+     "s": "Most of the yard is for grass.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Dandelions are pretty flowers.",
+     "wrong": [
+      "Dandelions are weeds.",
+      "Dandelions taste better than grass."
+     ]
+    },
+    {
+     "right": "Dandelions are weeds.",
+     "wrong": [
+      "Dandelions are pretty flowers.",
+      "Dandelions taste better than grass."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "To her, they looked like tiny suns.",
+     "wrong": [
+      "\"Those are weeds,\" he said, pulling one out by the root.",
+      "Grandpa thought for a moment."
+     ]
+    },
+    {
+     "right": "\"Those are weeds,\" he said, pulling one out by the root.",
+     "wrong": [
+      "To her, they looked like tiny suns.",
+      "Grandpa thought for a moment."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Do you think dandelions are weeds or flowers? Why?",
+    "think": "they are flowers",
+    "why": "they have bright yellow petals"
+   },
+   "rewrite": [
+    {
+     "para": 2,
+     "sample": "My grandpa said dandelions are weeds. I held up a bright one. I told him they are pretty, and bees visit them."
+    },
+    {
+     "para": 2,
+     "sample": "I pulled a dandelion out by the root. I told Greta they are weeds that crowd out my grass. She said bees visit them."
+    }
+   ],
+   "tellAlso": "Any words that say the narrator is not a character."
+  },
+  {
+   "id": "stars",
+   "descs": [
+    "Asha, a girl on the back porch at night",
+    "Jin, Asha's brother"
+   ],
+   "title": "On the Porch",
+   "person": "third",
+   "chars": [
+    "Asha",
+    "Jin"
+   ],
+   "paras": [
+    "Asha pulled her brother Jin out to the back porch after dinner. \"Look up,\" she said. \"The stars are out, and you can see the Big Dipper.\" Asha thought the night sky was the most amazing thing in the world.",
+    "Jin shivered. \"It's too cold out here,\" he said. \"I'd rather be inside where it's warm. The stars will still be there tomorrow.\" He pulled his hood over his ears.",
+    "Asha brought out a blanket and two cups of warm milk. Jin wrapped up and looked again. He found the Big Dipper all by himself. \"Okay, it's pretty,\" he said, \"but I still think inside is better.\""
+   ],
+   "thinks": [
+    {
+     "s": "The night sky is amazing.",
+     "who": 0
+    },
+    {
+     "s": "Jin should look up at the stars.",
+     "who": 0
+    },
+    {
+     "s": "The stars are worth going outside for.",
+     "who": 0
+    },
+    {
+     "s": "It is too cold on the porch.",
+     "who": 1
+    },
+    {
+     "s": "Inside is better.",
+     "who": 1
+    },
+    {
+     "s": "The stars can wait until tomorrow.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "The night sky is amazing.",
+     "wrong": [
+      "It is better to stay inside.",
+      "Stars are only fun in summer."
+     ]
+    },
+    {
+     "right": "It is better to stay inside.",
+     "wrong": [
+      "The night sky is amazing.",
+      "Stars are only fun in summer."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "Asha thought the night sky was the most amazing thing in the world.",
+     "wrong": [
+      "He pulled his hood over his ears.",
+      "He found the Big Dipper all by himself."
+     ]
+    },
+    {
+     "right": "\"It's too cold out here,\" he said.",
+     "wrong": [
+      "Asha thought the night sky was the most amazing thing in the world.",
+      "He found the Big Dipper all by himself."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Would you rather look at stars on a cold night or stay inside? Why?",
+    "think": "stars are worth it",
+    "why": "they are so pretty"
+   },
+   "rewrite": [
+    {
+     "para": 1,
+     "sample": "After dinner, I pulled my brother Jin out to see the Big Dipper. I think the night sky is the most amazing thing."
+    },
+    {
+     "para": 2,
+     "sample": "I shivered and pulled my hood over my ears. It was too cold out there. I'd rather be inside where it's warm."
+    }
+   ],
+   "tellAlso": "Any words that say the narrator is not a character."
+  },
+  {
+   "id": "tower",
+   "descs": [
+    "Marco, a boy who wants a tall tower",
+    "Dev, a boy who builds blocks with Marco"
+   ],
+   "title": "The Tallest Tower",
+   "person": "third",
+   "chars": [
+    "Marco",
+    "Dev"
+   ],
+   "paras": [
+    "Marco and Dev had a big pile of blocks. \"Let's build the tallest tower ever,\" said Marco. To Marco, the only thing that mattered was height. He stacked one block right on top of another.",
+    "Dev shook his head. \"A tall, skinny tower will fall,\" he said. \"We should make the bottom wide so it is strong.\" He started a wide base with four blocks side by side.",
+    "Marco's skinny tower wobbled and crashed. Dev's wide tower kept growing. Marco just shrugged. \"I'll build another tall one,\" he said. \"Tall is the most fun!\""
+   ],
+   "thinks": [
+    {
+     "s": "Height is all that matters.",
+     "who": 0
+    },
+    {
+     "s": "They should build the tallest tower ever.",
+     "who": 0
+    },
+    {
+     "s": "The tower should still be tall.",
+     "who": 0
+    },
+    {
+     "s": "A tall, skinny tower will fall.",
+     "who": 1
+    },
+    {
+     "s": "A wide bottom makes a tower strong.",
+     "who": 1
+    },
+    {
+     "s": "They should make the bottom wide.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "A tower should be as tall as can be.",
+     "wrong": [
+      "A tower needs a wide, strong bottom.",
+      "Blocks are no fun to build with."
+     ]
+    },
+    {
+     "right": "A tower needs a wide, strong bottom.",
+     "wrong": [
+      "A tower should be as tall as can be.",
+      "Blocks are no fun to build with."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "\"Let's build the tallest tower ever,\" said Marco.",
+     "wrong": [
+      "He started a wide base with four blocks side by side.",
+      "Marco and Dev had a big pile of blocks."
+     ]
+    },
+    {
+     "right": "He started a wide base with four blocks side by side.",
+     "wrong": [
+      "He stacked one block right on top of another.",
+      "Marco and Dev had a big pile of blocks."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Is it better to build a tower tall or to build it strong? Why?",
+    "think": "strong is better",
+    "why": "it will not fall"
+   },
+   "rewrite": [
+    {
+     "para": 1,
+     "sample": "My friend Dev and I had a pile of blocks. All I cared about was height, so I stacked one block right on top of another."
+    },
+    {
+     "para": 2,
+     "sample": "I shook my head. I told Marco a tall, skinny tower will fall. We should make the bottom wide, so I put four blocks down."
+    }
+   ],
+   "tellAlso": "Any words that say the narrator is not a character."
+  },
+  {
+   "id": "card",
+   "descs": [
+    "Ivy, a girl who is making a birthday card",
+    "Noor, a girl who is making the card with Ivy"
+   ],
+   "title": "The Birthday Card",
+   "person": "third",
+   "chars": [
+    "Ivy",
+    "Noor"
+   ],
+   "paras": [
+    "Ivy and Noor were making a birthday card for their teacher. Ivy opened the paint box. \"Paint makes the brightest colors,\" she said. \"Our card will be beautiful.\"",
+    "Noor picked up a crayon instead. \"Paint drips and takes forever to dry,\" she said. \"Crayons are neater, and we can finish today.\" She began to color a sun in the corner.",
+    "Ivy painted a rainbow across the middle while Noor colored the words. When they were done, the card had paint and crayon on it. Ivy still liked paint best, and Noor still liked crayons best."
+   ],
+   "thinks": [
+    {
+     "s": "Paint makes the brightest colors.",
+     "who": 0
+    },
+    {
+     "s": "The card will be beautiful with paint.",
+     "who": 0
+    },
+    {
+     "s": "Paint is the best.",
+     "who": 0
+    },
+    {
+     "s": "Paint takes too long to dry.",
+     "who": 1
+    },
+    {
+     "s": "Crayons are neater.",
+     "who": 1
+    },
+    {
+     "s": "Crayons are the best.",
+     "who": 1
+    }
+   ],
+   "views": [
+    {
+     "right": "Paint is best for making a card.",
+     "wrong": [
+      "Crayons are better than paint.",
+      "Markers are better than both."
+     ]
+    },
+    {
+     "right": "Crayons are better than paint.",
+     "wrong": [
+      "Paint is best for making a card.",
+      "Markers are better than both."
+     ]
+    }
+   ],
+   "proofs": [
+    {
+     "right": "\"Paint makes the brightest colors,\" she said.",
+     "wrong": [
+      "\"Paint drips and takes forever to dry,\" she said.",
+      "Ivy and Noor were making a birthday card for their teacher."
+     ]
+    },
+    {
+     "right": "\"Paint drips and takes forever to dry,\" she said.",
+     "wrong": [
+      "\"Paint makes the brightest colors,\" she said.",
+      "Ivy and Noor were making a birthday card for their teacher."
+     ]
+    }
+   ],
+   "own": {
+    "q": "Would you use paint or crayons to make a card? Why?",
+    "think": "crayons are best",
+    "why": "they are neat"
+   },
+   "rewrite": [
+    {
+     "para": 1,
+     "sample": "My friend Noor and I made a card for our teacher. I opened the paints. Paint makes the brightest colors!"
+    },
+    {
+     "para": 2,
+     "sample": "I picked up my crayon. I told Ivy paint drips and takes forever to dry. Crayons are neater, and we can finish today."
+    }
+   ],
+   "tellAlso": "Any words that say the narrator is not a character."
+  }
+ ],
+ "phrases": [
+  {
+   "id": "cake",
+   "p": "a piece of cake",
+   "lit": "At the party, Lily ate a piece of cake with a fork.",
+   "non": "The spelling quiz was a piece of cake for Ben.",
+   "litMean": "a slice of a sweet food",
+   "nonMean": "something very easy",
+   "off": "a big surprise",
+   "own": "Riding my bike is a piece of cake."
+  },
+  {
+   "id": "books",
+   "p": "hit the books",
+   "lit": "The rolling ball hit the books on the bottom shelf.",
+   "non": "After dinner, Sara has to hit the books for her test.",
+   "litMean": "bumped into the books",
+   "nonMean": "study hard",
+   "off": "throw the books away",
+   "own": "Before a test, I hit the books."
+  },
+  {
+   "id": "beans",
+   "p": "spill the beans",
+   "lit": "Be careful not to spill the beans when you carry the pot.",
+   "non": "Please don't spill the beans about the surprise party!",
+   "litMean": "let the beans fall out",
+   "nonMean": "tell a secret",
+   "off": "cook a big dinner",
+   "own": "Don't spill the beans about the gift."
+  },
+  {
+   "id": "ice",
+   "p": "break the ice",
+   "lit": "Dad used a stick to break the ice on the frozen bird bath.",
+   "non": "On the first day, a funny game helped break the ice.",
+   "litMean": "crack the frozen water",
+   "nonMean": "get people talking",
+   "off": "make a big mess",
+   "own": "A joke can break the ice with new kids."
+  },
+  {
+   "id": "water",
+   "p": "in hot water",
+   "lit": "Grandma soaked the dirty pots in hot water.",
+   "non": "Max was in hot water for being late again.",
+   "litMean": "in water that is very hot",
+   "nonMean": "in trouble",
+   "off": "very tired",
+   "own": "I was in hot water for yelling."
+  },
+  {
+   "id": "fence",
+   "p": "on the fence",
+   "lit": "A gray cat sat on the fence and watched the birds.",
+   "non": "I'm on the fence about which book to read next.",
+   "litMean": "on top of the fence",
+   "nonMean": "not able to decide",
+   "off": "very angry",
+   "own": "I'm on the fence about what to draw."
+  },
+  {
+   "id": "road",
+   "p": "hit the road",
+   "lit": "The heavy rain hit the road and made big puddles.",
+   "non": "We packed the car and hit the road at sunrise.",
+   "litMean": "fell onto the street",
+   "nonMean": "started a trip",
+   "off": "fixed a road",
+   "own": "After lunch, we hit the road."
+  },
+  {
+   "id": "hay",
+   "p": "hit the hay",
+   "lit": "The ball rolled into the barn and hit the hay.",
+   "non": "I was so tired that I hit the hay at eight o'clock.",
+   "litMean": "bumped into the dry grass",
+   "nonMean": "went to bed",
+   "off": "ate a big meal",
+   "own": "I hit the hay early on school nights."
+  },
+  {
+   "id": "steps",
+   "p": "took steps",
+   "lit": "The baby took steps across the rug for the first time.",
+   "non": "Our school took steps to keep the hallways clean.",
+   "litMean": "walked by moving her feet",
+   "nonMean": "did things to make it happen",
+   "off": "bought new shoes",
+   "own": "Our class took steps to save paper."
+  },
+  {
+   "id": "boat",
+   "p": "in the same boat",
+   "lit": "My cousin and I sat in the same boat on the lake.",
+   "non": "We all forgot our homework, so we were in the same boat.",
+   "litMean": "inside one boat",
+   "nonMean": "in the same hard spot",
+   "off": "on a fun trip",
+   "own": "We all lost, so we were in the same boat."
+  },
+  {
+   "id": "chin",
+   "p": "keep your chin up",
+   "lit": "Keep your chin up so the photo shows your whole face.",
+   "non": "Keep your chin up; you will do better next time.",
+   "litMean": "lift your chin",
+   "nonMean": "stay hopeful",
+   "off": "stay quiet",
+   "own": "Keep your chin up after a hard day."
+  },
+  {
+   "id": "cut",
+   "p": "cut it out",
+   "lit": "Draw a big star on the paper, and then cut it out.",
+   "non": "Cut it out! Stop poking me with your pencil.",
+   "litMean": "use scissors on it",
+   "nonMean": "stop doing that",
+   "off": "draw it again",
+   "own": "Cut it out and let me read!"
+  },
+  {
+   "id": "ball",
+   "p": "get the ball rolling",
+   "lit": "Give it a little push to get the ball rolling down the hill.",
+   "non": "Let's get the ball rolling on our science project.",
+   "litMean": "make the ball move",
+   "nonMean": "get started",
+   "off": "take a long rest",
+   "own": "Let's get the ball rolling on our poster."
+  },
+  {
+   "id": "cat",
+   "p": "let the cat out of the bag",
+   "lit": "The kitten crawled into my shopping bag, so I let the cat out of the bag.",
+   "non": "Jack let the cat out of the bag about the gift.",
+   "litMean": "freed a cat from a bag",
+   "nonMean": "told the secret",
+   "off": "lost a bag",
+   "own": "Mia let the cat out of the bag."
+  },
+  {
+   "id": "feet",
+   "p": "cold feet",
+   "lit": "After walking in the snow without boots, I had cold feet.",
+   "non": "Nina got cold feet and didn't sing in the show.",
+   "litMean": "feet that feel chilly",
+   "nonMean": "too scared to do it",
+   "off": "very sleepy",
+   "own": "I got cold feet before the race."
+  },
+  {
+   "id": "nut",
+   "p": "in a nutshell",
+   "lit": "We found a tiny worm in a nutshell under the tree.",
+   "non": "In a nutshell, the story is about a lost puppy.",
+   "litMean": "inside a nut's shell",
+   "nonMean": "in a few words",
+   "off": "at the very end",
+   "own": "In a nutshell, I had a fun day."
+  },
+  {
+   "id": "tongue",
+   "p": "bite your tongue",
+   "lit": "Chew slowly so you don't bite your tongue.",
+   "non": "Bite your tongue, and don't say anything unkind.",
+   "litMean": "close your teeth on it",
+   "nonMean": "stop yourself from talking",
+   "off": "say it louder",
+   "own": "Sometimes you have to bite your tongue."
+  },
+  {
+   "id": "frog",
+   "p": "a frog in my throat",
+   "lit": null,
+   "non": "I had a frog in my throat, so I drank some water.",
+   "litMean": "a real frog inside my throat",
+   "nonMean": "a scratchy voice",
+   "off": "a sore toe",
+   "own": "I have a frog in my throat today."
+  },
+  {
+   "id": "rain",
+   "p": "raining cats and dogs",
+   "lit": null,
+   "non": "Take your umbrella; it's raining cats and dogs!",
+   "litMean": "animals falling from the sky",
+   "nonMean": "raining very hard",
+   "off": "a warm, sunny day",
+   "own": "It's raining cats and dogs out there!"
+  },
+  {
+   "id": "thumb",
+   "p": "a green thumb",
+   "lit": null,
+   "non": "Grandpa has a green thumb; his garden is full of flowers.",
+   "litMean": "a thumb that is green",
+   "nonMean": "a gift for growing plants",
+   "off": "a cut on his hand",
+   "own": "My aunt has a green thumb."
+  },
+  {
+   "id": "weather",
+   "p": "under the weather",
+   "lit": null,
+   "non": "Tom stayed home because he felt under the weather.",
+   "litMean": "below the clouds",
+   "nonMean": "a little sick",
+   "off": "very excited",
+   "own": "I felt under the weather on Monday."
+  },
+  {
+   "id": "ears",
+   "p": "all ears",
+   "lit": null,
+   "non": "Tell me about your story; I'm all ears!",
+   "litMean": "made of only ears",
+   "nonMean": "ready to listen",
+   "off": "too busy",
+   "own": "When you talk, I am all ears."
+  },
+  {
+   "id": "butterflies",
+   "p": "butterflies in my stomach",
+   "lit": null,
+   "non": "I had butterflies in my stomach before the spelling bee.",
+   "litMean": "real butterflies inside me",
+   "nonMean": "a nervous feeling",
+   "off": "a full belly",
+   "own": "I had butterflies in my stomach today."
+  },
+  {
+   "id": "time",
+   "p": "time flies",
+   "lit": null,
+   "non": "Time flies when you are having fun at the fair.",
+   "litMean": "time has wings and flies",
+   "nonMean": "time seems to go fast",
+   "off": "time stands still",
+   "own": "Time flies when I play with friends."
+  },
+  {
+   "id": "eye",
+   "p": "see eye to eye",
+   "lit": null,
+   "non": "My brother and I don't see eye to eye about which game to play.",
+   "litMean": "look into each other's eyes",
+   "nonMean": "agree",
+   "off": "look the same",
+   "own": "We see eye to eye about pizza."
+  },
+  {
+   "id": "horses",
+   "p": "hold your horses",
+   "lit": null,
+   "non": "Hold your horses! Wait until everyone is ready.",
+   "litMean": "hold on to your horses",
+   "nonMean": "wait a moment",
+   "off": "run ahead",
+   "own": "Hold your horses; it's not your turn."
+  },
+  {
+   "id": "cloud",
+   "p": "on cloud nine",
+   "lit": null,
+   "non": "Ella was on cloud nine after she won the race.",
+   "litMean": "sitting on a cloud",
+   "nonMean": "very happy",
+   "off": "very worried",
+   "own": "I was on cloud nine on my birthday."
+  },
+  {
+   "id": "hand",
+   "p": "lend a hand",
+   "lit": null,
+   "non": "Can you lend a hand with these heavy boxes?",
+   "litMean": "let someone borrow your hand",
+   "nonMean": "help",
+   "off": "carry it alone",
+   "own": "Maya lent a hand and held the door for me.",
+   "forms": [
+    "lent a hand"
+   ]
+  }
+ ],
+ "series": [
+  {
+   "id": "otter",
+   "author": "Wren Calloway",
+   "stories": [
+    {
+     "title": "The Lost Stone",
+     "paras": [
+      "Otter and Moss the turtle lived by a slow green river. One morning, Moss came to Otter in tears. \"My lucky stone is gone,\" he said. \"I left it on the sandbar, and now it's missing.\"",
+      "Otter dove into the river again and again. At last, she found the stone stuck in the mud under a log. Moss hugged it close. \"You never gave up!\" he said. \"Thank you, friend.\" Otter just smiled."
+     ]
+    },
+    {
+     "title": "The Big Storm",
+     "paras": [
+      "One night, a storm blew over the river. Rain poured down, and the water rose higher and higher. Otter's den on the riverbank filled with water. She had nowhere to sleep.",
+      "Moss the turtle called from the hill. \"Come stay in my hollow log!\" The log was small, but Moss made room. Otter curled up beside him, warm and dry. \"Thank you, friend,\" said Otter. \"This time, you helped me.\""
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the river in the morning",
+     "a stormy night"
+    ],
+    "problem": [
+     "Moss loses his lucky stone.",
+     "Otter's den floods."
+    ],
+    "solution": [
+     "Otter finds it in the mud.",
+     "Moss shares his log."
+    ],
+    "lesson": [
+     "Don't give up.",
+     "Good friends share."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a snowy mountain"
+    },
+    {
+     "row": "problem",
+     "s": "Moss is stuck in a net."
+    },
+    {
+     "row": "solution",
+     "s": "Otter calls the frogs."
+    },
+    {
+     "row": "lesson",
+     "s": "Always tell the truth."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Moss loses something.",
+     "a": 1,
+     "proof": [
+      "\"My lucky stone is gone,\" he said.",
+      null
+     ]
+    },
+    {
+     "s": "Otter dives into the river.",
+     "a": 1,
+     "proof": [
+      "Otter dove into the river again and again.",
+      null
+     ]
+    },
+    {
+     "s": "Moss is in tears.",
+     "a": 1,
+     "proof": [
+      "One morning, Moss came to Otter in tears.",
+      null
+     ]
+    },
+    {
+     "s": "Otter finds something in the mud.",
+     "a": 1,
+     "proof": [
+      "At last, she found the stone stuck in the mud under a log.",
+      null
+     ]
+    },
+    {
+     "s": "A storm blows over the river.",
+     "a": 2,
+     "proof": [
+      null,
+      "One night, a storm blew over the river."
+     ]
+    },
+    {
+     "s": "Otter's den fills with water.",
+     "a": 2,
+     "proof": [
+      null,
+      "Otter's den on the riverbank filled with water."
+     ]
+    },
+    {
+     "s": "Otter thanks Moss.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"Thank you, friend,\" said Otter."
+     ]
+    },
+    {
+     "s": "The water rises higher and higher.",
+     "a": 2,
+     "proof": [
+      null,
+      "Rain poured down, and the water rose higher and higher."
+     ]
+    },
+    {
+     "s": "Otter and Moss are friends.",
+     "a": "both",
+     "proof": [
+      "\"Thank you, friend.\"",
+      "\"Thank you, friend,\" said Otter."
+     ]
+    },
+    {
+     "s": "Otter lives by the river.",
+     "a": "both",
+     "proof": [
+      "Otter and Moss the turtle lived by a slow green river.",
+      "Otter's den on the riverbank filled with water."
+     ]
+    },
+    {
+     "s": "One friend helps the other.",
+     "a": "both",
+     "proof": [
+      "At last, she found the stone stuck in the mud under a log.",
+      "\"This time, you helped me.\""
+     ]
+    },
+    {
+     "s": "Moss is a turtle.",
+     "a": "both",
+     "proof": [
+      "Otter and Moss the turtle lived by a slow green river.",
+      "Moss the turtle called from the hill."
+     ]
+    }
+   ],
+   "alike": "one friend helps the other",
+   "differ": [
+    "Otter helps Moss",
+    "Moss helps Otter"
+   ],
+   "chartProof": {
+    "setting": [
+     "Otter and Moss the turtle lived by a slow green river. One morning, Moss came to Otter in tears.",
+     "One night, a storm blew over the river."
+    ],
+    "problem": [
+     "\"My lucky stone is gone,\" he said.",
+     "Otter's den on the riverbank filled with water."
+    ],
+    "solution": [
+     "At last, she found the stone stuck in the mud under a log.",
+     "The log was small, but Moss made room."
+    ],
+    "lesson": [
+     "\"You never gave up!\" he said.",
+     "The log was small, but Moss made room."
+    ]
+   }
+  },
+  {
+   "id": "pip",
+   "author": "Ellen Marsh",
+   "stories": [
+    {
+     "title": "The Flat Bread",
+     "paras": [
+      "Pip and Grandma Bea were baking bread in Grandma's kitchen. They mixed the flour, water, and yeast and set the bowl by the window. An hour later, the dough was still flat. Pip groaned. \"Why is it taking so long?\"",
+      "Grandma Bea felt the window. \"This spot is too cold,\" she said. They moved the bowl near the warm oven. Pip waited and waited. Soon the dough puffed up, round and soft. \"Good things take time,\" said Grandma Bea."
+     ]
+    },
+    {
+     "title": "The Bean Fence",
+     "paras": [
+      "One spring day, Pip and Grandma Bea planted beans in Grandma's backyard. A week later, tiny sprouts came up. The next morning, rabbits had nibbled every sprout. Pip stomped her foot. \"I want to give up,\" she said.",
+      "Grandma Bea handed her a roll of wire. \"Let's build a little fence,\" she said. They worked all afternoon and planted the beans again. This time, the beans grew tall. \"Don't give up,\" said Grandma Bea."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "Grandma's kitchen",
+     "the backyard"
+    ],
+    "problem": [
+     "The dough stays flat.",
+     "Rabbits eat the sprouts."
+    ],
+    "solution": [
+     "They move it by the oven.",
+     "They build a fence."
+    ],
+    "lesson": [
+     "Good things take time.",
+     "Don't give up."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a busy city park"
+    },
+    {
+     "row": "problem",
+     "s": "Pip loses her glasses."
+    },
+    {
+     "row": "solution",
+     "s": "They buy a new oven."
+    },
+    {
+     "row": "lesson",
+     "s": "Share with others."
+    }
+   ],
+   "facts": [
+    {
+     "s": "The dough stays flat.",
+     "a": 1,
+     "proof": [
+      "An hour later, the dough was still flat.",
+      null
+     ]
+    },
+    {
+     "s": "They set a bowl by the window.",
+     "a": 1,
+     "proof": [
+      "They mixed the flour, water, and yeast and set the bowl by the window.",
+      null
+     ]
+    },
+    {
+     "s": "Pip asks why it is taking so long.",
+     "a": 1,
+     "proof": [
+      "Pip groaned. \"Why is it taking so long?\"",
+      null
+     ]
+    },
+    {
+     "s": "They use flour and yeast.",
+     "a": 1,
+     "proof": [
+      "They mixed the flour, water, and yeast and set the bowl by the window.",
+      null
+     ]
+    },
+    {
+     "s": "Rabbits nibble the sprouts.",
+     "a": 2,
+     "proof": [
+      null,
+      "The next morning, rabbits had nibbled every sprout."
+     ]
+    },
+    {
+     "s": "Pip stomps her foot.",
+     "a": 2,
+     "proof": [
+      null,
+      "Pip stomped her foot."
+     ]
+    },
+    {
+     "s": "They build a fence.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"Let's build a little fence,\" she said. They worked all afternoon and planted the beans again."
+     ]
+    },
+    {
+     "s": "Pip says she wants to give up.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"I want to give up,\" she said."
+     ]
+    },
+    {
+     "s": "Pip and Grandma Bea work together.",
+     "a": "both",
+     "proof": [
+      "They mixed the flour, water, and yeast and set the bowl by the window.",
+      "They worked all afternoon and planted the beans again."
+     ]
+    },
+    {
+     "s": "Grandma Bea helps Pip.",
+     "a": "both",
+     "proof": [
+      "Grandma Bea felt the window. \"This spot is too cold,\" she said. They moved the bowl near the warm oven.",
+      "Grandma Bea handed her a roll of wire."
+     ]
+    },
+    {
+     "s": "Grandma Bea gives good advice.",
+     "a": "both",
+     "proof": [
+      "\"Good things take time,\" said Grandma Bea.",
+      "\"Don't give up,\" said Grandma Bea."
+     ]
+    },
+    {
+     "s": "Pip is upset at first.",
+     "a": "both",
+     "proof": [
+      "Pip groaned.",
+      "Pip stomped her foot."
+     ]
+    }
+   ],
+   "alike": "Grandma Bea helps Pip fix a problem",
+   "differ": [
+    "the dough will not rise",
+    "rabbits eat the sprouts"
+   ],
+   "chartProof": {
+    "setting": [
+     "Pip and Grandma Bea were baking bread in Grandma's kitchen.",
+     "One spring day, Pip and Grandma Bea planted beans in Grandma's backyard."
+    ],
+    "problem": [
+     "An hour later, the dough was still flat.",
+     "The next morning, rabbits had nibbled every sprout."
+    ],
+    "solution": [
+     "They moved the bowl near the warm oven.",
+     "\"Let's build a little fence,\" she said. They worked all afternoon and planted the beans again."
+    ],
+    "lesson": [
+     "\"Good things take time,\" said Grandma Bea.",
+     "\"Don't give up,\" said Grandma Bea."
+    ]
+   }
+  },
+  {
+   "id": "juno",
+   "author": "June Okoro",
+   "stories": [
+    {
+     "title": "Juno and the Lost Cap",
+     "paras": [
+      "Juno was a small silver robot who worked at Elm Street School. Every day, she rolled down the halls and helped the children. One morning, a boy named Sam was crying by the lockers. \"I lost my red cap,\" he said.",
+      "Juno's lights blinked as she thought. She rolled to the lunchroom, the gym, and the library. At last, she found the red cap on a bench by the playground. Sam put it on and grinned. \"Helping is what friends do,\" Juno beeped."
+     ]
+    },
+    {
+     "title": "Juno's Rainy Day",
+     "paras": [
+      "One day at Elm Street School, it rained so hard that the children could not go outside for recess. They sat at their desks in their classroom, bored and grumpy. Juno the robot rolled to the front of the room. \"I know a game,\" she beeped.",
+      "Juno played music from her speaker, and the children danced. When the music stopped, everyone froze like statues. They laughed until recess was over. \"A rainy day can still be fun,\" said Sam."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the school halls and playground",
+     "a classroom on a rainy day"
+    ],
+    "problem": [
+     "Sam loses his red cap.",
+     "The children are bored."
+    ],
+    "solution": [
+     "Juno searches the school.",
+     "Juno starts a dance game."
+    ],
+    "lesson": [
+     "Helping is what friends do.",
+     "Rainy days can be fun."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a farm in summer"
+    },
+    {
+     "row": "problem",
+     "s": "Juno's wheel breaks."
+    },
+    {
+     "row": "solution",
+     "s": "Sam fixes the robot."
+    },
+    {
+     "row": "lesson",
+     "s": "Always say please."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Juno rolls to the gym.",
+     "a": 1,
+     "proof": [
+      "She rolled to the lunchroom, the gym, and the library.",
+      null
+     ]
+    },
+    {
+     "s": "Sam is crying by the lockers.",
+     "a": 1,
+     "proof": [
+      "One morning, a boy named Sam was crying by the lockers.",
+      null
+     ]
+    },
+    {
+     "s": "Juno finds something on a bench.",
+     "a": 1,
+     "proof": [
+      "At last, she found the red cap on a bench by the playground.",
+      null
+     ]
+    },
+    {
+     "s": "Juno's lights blink.",
+     "a": 1,
+     "proof": [
+      "Juno's lights blinked as she thought.",
+      null
+     ]
+    },
+    {
+     "s": "It rains too hard to go outside.",
+     "a": 2,
+     "proof": [
+      null,
+      "One day at Elm Street School, it rained so hard that the children could not go outside for recess."
+     ]
+    },
+    {
+     "s": "Juno plays music.",
+     "a": 2,
+     "proof": [
+      null,
+      "Juno played music from her speaker, and the children danced."
+     ]
+    },
+    {
+     "s": "The children freeze like statues.",
+     "a": 2,
+     "proof": [
+      null,
+      "When the music stopped, everyone froze like statues."
+     ]
+    },
+    {
+     "s": "The children are bored and grumpy.",
+     "a": 2,
+     "proof": [
+      null,
+      "They sat at their desks in their classroom, bored and grumpy."
+     ]
+    },
+    {
+     "s": "Juno helps the children.",
+     "a": "both",
+     "proof": [
+      "Every day, she rolled down the halls and helped the children.",
+      "Juno played music from her speaker, and the children danced."
+     ]
+    },
+    {
+     "s": "Sam is in the story.",
+     "a": "both",
+     "proof": [
+      "One morning, a boy named Sam was crying by the lockers.",
+      "\"A rainy day can still be fun,\" said Sam."
+     ]
+    },
+    {
+     "s": "Juno is a robot.",
+     "a": "both",
+     "proof": [
+      "Juno was a small silver robot who worked at Elm Street School.",
+      "Juno the robot rolled to the front of the room."
+     ]
+    },
+    {
+     "s": "It happens at Elm Street School.",
+     "a": "both",
+     "proof": [
+      "Juno was a small silver robot who worked at Elm Street School.",
+      "One day at Elm Street School, it rained so hard that the children could not go outside for recess."
+     ]
+    }
+   ],
+   "alike": "Juno helps the children",
+   "differ": [
+    "Juno finds a lost cap",
+    "Juno starts a dance game"
+   ],
+   "chartProof": {
+    "setting": [
+     [
+      "Every day, she rolled down the halls and helped the children.",
+      "At last, she found the red cap on a bench by the playground."
+     ],
+     "One day at Elm Street School, it rained so hard that the children could not go outside for recess."
+    ],
+    "problem": [
+     "\"I lost my red cap,\" he said.",
+     "They sat at their desks in their classroom, bored and grumpy."
+    ],
+    "solution": [
+     "She rolled to the lunchroom, the gym, and the library.",
+     "Juno played music from her speaker, and the children danced."
+    ],
+    "lesson": [
+     "\"Helping is what friends do,\" Juno beeped.",
+     "\"A rainy day can still be fun,\" said Sam."
+    ]
+   }
+  },
+  {
+   "id": "benny",
+   "author": "Felix Amari",
+   "stories": [
+    {
+     "title": "The Apple Tree",
+     "paras": [
+      "Deep in the forest, Benny Bear found an apple tree with the reddest apples at the very top. He climbed and climbed, but the top branches were too thin for a big bear. \"I can't reach them,\" Benny groaned.",
+      "His friend Hazel the squirrel scampered up the thin branches. She was small and light, so the branches did not bend. She dropped the apples down into Benny's paws, and they shared them. \"Small friends can help,\" said Benny."
+     ]
+    },
+    {
+     "title": "Hazel's Winter Nuts",
+     "paras": [
+      "In the fall, Hazel the squirrel buried nuts all over the forest for winter. But when the first snow came, she could not remember where they were. \"I'll be hungry all winter,\" she cried.",
+      "Her friend Benny sniffed the snowy ground with his big nose. \"Dig here,\" he said. Hazel dug and found a pile of nuts. Benny sniffed out ten more spots. \"Big friends can help too,\" said Hazel."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "an apple tree in the forest",
+     "the snowy forest"
+    ],
+    "problem": [
+     "Benny can't reach apples.",
+     "Hazel can't find her nuts."
+    ],
+    "solution": [
+     "Hazel climbs up for them.",
+     "Benny sniffs them out."
+    ],
+    "lesson": [
+     "Small friends can help.",
+     "Big friends can help too."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a sunny beach"
+    },
+    {
+     "row": "problem",
+     "s": "Benny is lost in a cave."
+    },
+    {
+     "row": "solution",
+     "s": "Hazel calls the owls."
+    },
+    {
+     "row": "lesson",
+     "s": "Always be on time."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Benny climbs a tree.",
+     "a": 1,
+     "proof": [
+      "He climbed and climbed, but the top branches were too thin for a big bear.",
+      null
+     ]
+    },
+    {
+     "s": "The top branches are too thin.",
+     "a": 1,
+     "proof": [
+      "He climbed and climbed, but the top branches were too thin for a big bear.",
+      null
+     ]
+    },
+    {
+     "s": "Hazel drops apples down.",
+     "a": 1,
+     "proof": [
+      "She dropped the apples down into Benny's paws, and they shared them.",
+      null
+     ]
+    },
+    {
+     "s": "Benny and Hazel share apples.",
+     "a": 1,
+     "proof": [
+      "She dropped the apples down into Benny's paws, and they shared them.",
+      null
+     ]
+    },
+    {
+     "s": "Snow covers the ground.",
+     "a": 2,
+     "proof": [
+      null,
+      "Her friend Benny sniffed the snowy ground with his big nose."
+     ]
+    },
+    {
+     "s": "Hazel buried nuts in the fall.",
+     "a": 2,
+     "proof": [
+      null,
+      "In the fall, Hazel the squirrel buried nuts all over the forest for winter."
+     ]
+    },
+    {
+     "s": "Benny uses his nose.",
+     "a": 2,
+     "proof": [
+      null,
+      "Her friend Benny sniffed the snowy ground with his big nose."
+     ]
+    },
+    {
+     "s": "Hazel finds a pile of nuts.",
+     "a": 2,
+     "proof": [
+      null,
+      "Hazel dug and found a pile of nuts."
+     ]
+    },
+    {
+     "s": "Benny and Hazel are friends.",
+     "a": "both",
+     "proof": [
+      "His friend Hazel the squirrel scampered up the thin branches.",
+      "Her friend Benny sniffed the snowy ground with his big nose."
+     ]
+    },
+    {
+     "s": "It happens in a forest.",
+     "a": "both",
+     "proof": [
+      "Deep in the forest, Benny Bear found an apple tree with the reddest apples at the very top.",
+      "In the fall, Hazel the squirrel buried nuts all over the forest for winter."
+     ]
+    },
+    {
+     "s": "One friend can't get food alone.",
+     "a": "both",
+     "proof": [
+      "\"I can't reach them,\" Benny groaned.",
+      "But when the first snow came, she could not remember where they were."
+     ]
+    },
+    {
+     "s": "Hazel is a squirrel.",
+     "a": "both",
+     "proof": [
+      "His friend Hazel the squirrel scampered up the thin branches.",
+      "In the fall, Hazel the squirrel buried nuts all over the forest for winter."
+     ]
+    }
+   ],
+   "alike": "one friend helps the other get food",
+   "differ": [
+    "Hazel helps Benny",
+    "Benny helps Hazel"
+   ],
+   "chartProof": {
+    "setting": [
+     "Deep in the forest, Benny Bear found an apple tree with the reddest apples at the very top.",
+     [
+      "In the fall, Hazel the squirrel buried nuts all over the forest for winter.",
+      "Her friend Benny sniffed the snowy ground with his big nose."
+     ]
+    ],
+    "problem": [
+     "\"I can't reach them,\" Benny groaned.",
+     "But when the first snow came, she could not remember where they were."
+    ],
+    "solution": [
+     "His friend Hazel the squirrel scampered up the thin branches.",
+     "Her friend Benny sniffed the snowy ground with his big nose."
+    ],
+    "lesson": [
+     "\"Small friends can help,\" said Benny.",
+     "\"Big friends can help too,\" said Hazel."
+    ]
+   }
+  },
+  {
+   "id": "mabel",
+   "author": "Nadia Brooke",
+   "stories": [
+    {
+     "title": "Mabel's Missing Egg",
+     "paras": [
+      "Mabel the hen laid one brown egg every morning in the red barn on Green Hill Farm. One day, her egg was gone. Mabel looked under the hay and behind the bucket. \"Who took my egg?\" she clucked.",
+      "Then Mabel followed a trail of straw to the goat pen. Little Gus the goat had rolled the egg into his pen to play with it. Mabel flapped her wings. Gus rolled the egg back gently. \"Sorry,\" he said. \"Next time I'll ask first.\""
+     ]
+    },
+    {
+     "title": "Mabel's Muddy Day",
+     "paras": [
+      "After a big rain, the farmyard on Green Hill Farm was full of mud. Mabel the hen wanted to visit her friend Gus the goat, but the mud was too deep for a small hen. \"I'll get stuck,\" she clucked.",
+      "Gus had an idea. He pushed a long board across the mud like a bridge. Mabel walked across it, one careful step at a time, and reached the goat pen with clean feet. \"Thank you for thinking of me,\" said Mabel."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the red barn",
+     "a muddy farmyard"
+    ],
+    "problem": [
+     "Mabel's egg is gone.",
+     "The mud is too deep."
+    ],
+    "solution": [
+     "Gus rolls the egg back.",
+     "Gus makes a board bridge."
+    ],
+    "lesson": [
+     "Ask before you take.",
+     "Think of your friends."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a city rooftop"
+    },
+    {
+     "row": "problem",
+     "s": "Mabel hurts her wing."
+    },
+    {
+     "row": "solution",
+     "s": "The farmer builds a barn."
+    },
+    {
+     "row": "lesson",
+     "s": "Go to bed early."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Mabel looks under the hay.",
+     "a": 1,
+     "proof": [
+      "Mabel looked under the hay and behind the bucket.",
+      null
+     ]
+    },
+    {
+     "s": "A trail of straw leads to the pen.",
+     "a": 1,
+     "proof": [
+      "Then Mabel followed a trail of straw to the goat pen.",
+      null
+     ]
+    },
+    {
+     "s": "Gus plays with an egg.",
+     "a": 1,
+     "proof": [
+      "Little Gus the goat had rolled the egg into his pen to play with it.",
+      null
+     ]
+    },
+    {
+     "s": "Gus says he is sorry.",
+     "a": 1,
+     "proof": [
+      "\"Sorry,\" he said.",
+      null
+     ]
+    },
+    {
+     "s": "It rained a lot.",
+     "a": 2,
+     "proof": [
+      null,
+      "After a big rain, the farmyard on Green Hill Farm was full of mud."
+     ]
+    },
+    {
+     "s": "The farmyard is full of mud.",
+     "a": 2,
+     "proof": [
+      null,
+      "After a big rain, the farmyard on Green Hill Farm was full of mud."
+     ]
+    },
+    {
+     "s": "Gus pushes a board across the mud.",
+     "a": 2,
+     "proof": [
+      null,
+      "He pushed a long board across the mud like a bridge."
+     ]
+    },
+    {
+     "s": "Mabel's feet stay clean.",
+     "a": 2,
+     "proof": [
+      null,
+      "Mabel walked across it, one careful step at a time, and reached the goat pen with clean feet."
+     ]
+    },
+    {
+     "s": "Mabel is a hen.",
+     "a": "both",
+     "proof": [
+      "Mabel the hen laid one brown egg every morning in the red barn on Green Hill Farm.",
+      "Mabel the hen wanted to visit her friend Gus the goat, but the mud was too deep for a small hen."
+     ]
+    },
+    {
+     "s": "Gus is a goat.",
+     "a": "both",
+     "proof": [
+      "Little Gus the goat had rolled the egg into his pen to play with it.",
+      "Mabel the hen wanted to visit her friend Gus the goat, but the mud was too deep for a small hen."
+     ]
+    },
+    {
+     "s": "Mabel goes to the goat pen.",
+     "a": "both",
+     "proof": [
+      "Then Mabel followed a trail of straw to the goat pen.",
+      "Mabel walked across it, one careful step at a time, and reached the goat pen with clean feet."
+     ]
+    },
+    {
+     "s": "It happens on Green Hill Farm.",
+     "a": "both",
+     "proof": [
+      "Mabel the hen laid one brown egg every morning in the red barn on Green Hill Farm.",
+      "After a big rain, the farmyard on Green Hill Farm was full of mud."
+     ]
+    }
+   ],
+   "alike": "Gus fixes a problem",
+   "differ": [
+    "Gus makes the problem",
+    "Gus helps Mabel cross"
+   ],
+   "chartProof": {
+    "setting": [
+     "Mabel the hen laid one brown egg every morning in the red barn on Green Hill Farm.",
+     "After a big rain, the farmyard on Green Hill Farm was full of mud."
+    ],
+    "problem": [
+     "One day, her egg was gone.",
+     "Mabel the hen wanted to visit her friend Gus the goat, but the mud was too deep for a small hen."
+    ],
+    "solution": [
+     "Gus rolled the egg back gently.",
+     "He pushed a long board across the mud like a bridge."
+    ],
+    "lesson": [
+     "\"Next time I'll ask first.\"",
+     "\"Thank you for thinking of me,\" said Mabel."
+    ]
+   }
+  },
+  {
+   "id": "nell",
+   "author": "Ilse Varga",
+   "stories": [
+    {
+     "title": "The Sandcastle",
+     "paras": [
+      "Nell and her little brother Toby built a sandcastle at the beach. It had four towers and a moat. Then a big wave rushed up and knocked down two towers. Toby started to cry.",
+      "Nell put her arm around him. \"Let's build it again,\" she said, \"but farther from the water.\" They carried buckets of sand up the beach. Their new castle was even bigger, and the waves could not reach it. \"Next time, we'll plan ahead,\" said Nell."
+     ]
+    },
+    {
+     "title": "The Paper Plane",
+     "paras": [
+      "It was raining, so Nell and Toby stayed home and made paper airplanes. Toby's plane kept diving straight into the floor. \"Mine is no good,\" he said, and he threw it down.",
+      "Nell unfolded it and showed him how to fold the wings evenly. Toby tried again, slowly and carefully. This time his plane glided all the way across the living room. \"Taking your time helps,\" said Nell. Toby grinned and made five more."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the beach",
+     "their home on a rainy day"
+    ],
+    "problem": [
+     "A wave knocks down towers.",
+     "Toby's plane keeps diving."
+    ],
+    "solution": [
+     "They build farther away.",
+     "Nell shows him how to fold."
+    ],
+    "lesson": [
+     "Plan ahead.",
+     "Take your time."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a snowy hill"
+    },
+    {
+     "row": "problem",
+     "s": "Nell loses her kite."
+    },
+    {
+     "row": "solution",
+     "s": "Toby asks for glue."
+    },
+    {
+     "row": "lesson",
+     "s": "Always share your toys."
+    }
+   ],
+   "facts": [
+    {
+     "s": "A wave knocks down two towers.",
+     "a": 1,
+     "proof": [
+      "Then a big wave rushed up and knocked down two towers.",
+      null
+     ]
+    },
+    {
+     "s": "They carry buckets of sand.",
+     "a": 1,
+     "proof": [
+      "They carried buckets of sand up the beach.",
+      null
+     ]
+    },
+    {
+     "s": "The castle has a moat.",
+     "a": 1,
+     "proof": [
+      "It had four towers and a moat.",
+      null
+     ]
+    },
+    {
+     "s": "Toby starts to cry.",
+     "a": 1,
+     "proof": [
+      "Toby started to cry.",
+      null
+     ]
+    },
+    {
+     "s": "It is raining.",
+     "a": 2,
+     "proof": [
+      null,
+      "It was raining, so Nell and Toby stayed home and made paper airplanes."
+     ]
+    },
+    {
+     "s": "Toby throws his plane down.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"Mine is no good,\" he said, and he threw it down."
+     ]
+    },
+    {
+     "s": "Nell shows how to fold the wings.",
+     "a": 2,
+     "proof": [
+      null,
+      "Nell unfolded it and showed him how to fold the wings evenly."
+     ]
+    },
+    {
+     "s": "A plane glides across the room.",
+     "a": 2,
+     "proof": [
+      null,
+      "This time his plane glided all the way across the living room."
+     ]
+    },
+    {
+     "s": "Nell helps Toby.",
+     "a": "both",
+     "proof": [
+      "Nell put her arm around him.",
+      "Nell unfolded it and showed him how to fold the wings evenly."
+     ]
+    },
+    {
+     "s": "Toby gets upset.",
+     "a": "both",
+     "proof": [
+      "Toby started to cry.",
+      "\"Mine is no good,\" he said, and he threw it down."
+     ]
+    },
+    {
+     "s": "Nell and Toby make something.",
+     "a": "both",
+     "proof": [
+      "Nell and her little brother Toby built a sandcastle at the beach.",
+      "It was raining, so Nell and Toby stayed home and made paper airplanes."
+     ]
+    },
+    {
+     "s": "Toby tries again.",
+     "a": "both",
+     "proof": [
+      "\"Let's build it again,\" she said, \"but farther from the water.\" They carried buckets of sand up the beach.",
+      "Toby tried again, slowly and carefully."
+     ]
+    }
+   ],
+   "alike": "Nell helps Toby try again",
+   "differ": [
+    "they build a sandcastle",
+    "they make paper planes"
+   ],
+   "chartProof": {
+    "setting": [
+     "Nell and her little brother Toby built a sandcastle at the beach.",
+     "It was raining, so Nell and Toby stayed home and made paper airplanes."
+    ],
+    "problem": [
+     "Then a big wave rushed up and knocked down two towers.",
+     "Toby's plane kept diving straight into the floor."
+    ],
+    "solution": [
+     "\"Let's build it again,\" she said, \"but farther from the water.\"",
+     "Nell unfolded it and showed him how to fold the wings evenly."
+    ],
+    "lesson": [
+     "\"Next time, we'll plan ahead,\" said Nell.",
+     "\"Taking your time helps,\" said Nell."
+    ]
+   }
+  },
+  {
+   "id": "dot",
+   "author": "Ada Pennington",
+   "stories": [
+    {
+     "title": "The Case of the Missing Muffins",
+     "paras": [
+      "Dot Rivera was the best detective on Maple Street. One afternoon, Mrs. Ford, who lived next door on Maple Street, found her plate of muffins empty. \"Can you solve this case, Dot?\" she asked. Dot took out her notebook.",
+      "Dot looked closely and found tiny crumbs on the windowsill. Paw prints led across the yard to a doghouse. Inside sat Pepper the beagle, licking his lips. \"Case closed!\" said Dot. \"Look closely, and clues tell the story.\""
+     ]
+    },
+    {
+     "title": "The Case of the Ringing Bell",
+     "paras": [
+      "Every night, a bell rang outside Raj's window on Maple Street. Raj could not sleep. \"Who is ringing that bell?\" he asked Dot, the detective. Dot grabbed her flashlight and her notebook.",
+      "That night, Dot and Raj watched from Raj's window. Soon the wind blew, and a little bell on the porch swing jingled. \"It's not a person at all,\" said Dot. Raj tied the bell still with string. \"Things are not always what they seem,\" said Dot."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "Mrs. Ford's house",
+     "Raj's house at night"
+    ],
+    "problem": [
+     "The muffins are gone.",
+     "A bell keeps Raj awake."
+    ],
+    "solution": [
+     "Dot follows the clues.",
+     "Raj ties the bell still."
+    ],
+    "lesson": [
+     "Look closely at clues.",
+     "Things are not always what they seem."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a train station"
+    },
+    {
+     "row": "problem",
+     "s": "Raj's bike is missing."
+    },
+    {
+     "row": "solution",
+     "s": "Dot calls the police."
+    },
+    {
+     "row": "lesson",
+     "s": "Share your snacks."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Dot finds crumbs on a windowsill.",
+     "a": 1,
+     "proof": [
+      "Dot looked closely and found tiny crumbs on the windowsill.",
+      null
+     ]
+    },
+    {
+     "s": "Paw prints cross the yard.",
+     "a": 1,
+     "proof": [
+      "Paw prints led across the yard to a doghouse.",
+      null
+     ]
+    },
+    {
+     "s": "A beagle licks his lips.",
+     "a": 1,
+     "proof": [
+      "Inside sat Pepper the beagle, licking his lips.",
+      null
+     ]
+    },
+    {
+     "s": "A plate of muffins is empty.",
+     "a": 1,
+     "proof": [
+      "One afternoon, Mrs. Ford, who lived next door on Maple Street, found her plate of muffins empty.",
+      null
+     ]
+    },
+    {
+     "s": "A bell rings at night.",
+     "a": 2,
+     "proof": [
+      null,
+      "Every night, a bell rang outside Raj's window on Maple Street."
+     ]
+    },
+    {
+     "s": "Raj cannot sleep.",
+     "a": 2,
+     "proof": [
+      null,
+      "Raj could not sleep."
+     ]
+    },
+    {
+     "s": "Dot and Raj watch from a window.",
+     "a": 2,
+     "proof": [
+      null,
+      "That night, Dot and Raj watched from Raj's window."
+     ]
+    },
+    {
+     "s": "The wind blows.",
+     "a": 2,
+     "proof": [
+      null,
+      "Soon the wind blew, and a little bell on the porch swing jingled."
+     ]
+    },
+    {
+     "s": "Dot is a detective.",
+     "a": "both",
+     "proof": [
+      "Dot Rivera was the best detective on Maple Street.",
+      "\"Who is ringing that bell?\" he asked Dot, the detective."
+     ]
+    },
+    {
+     "s": "Dot has a notebook.",
+     "a": "both",
+     "proof": [
+      "Dot took out her notebook.",
+      "Dot grabbed her flashlight and her notebook."
+     ]
+    },
+    {
+     "s": "It happens on Maple Street.",
+     "a": "both",
+     "proof": [
+      "Dot Rivera was the best detective on Maple Street.",
+      "Every night, a bell rang outside Raj's window on Maple Street."
+     ]
+    },
+    {
+     "s": "Dot solves a case.",
+     "a": "both",
+     "proof": [
+      "\"Case closed!\" said Dot.",
+      "\"It's not a person at all,\" said Dot."
+     ]
+    }
+   ],
+   "alike": "Dot solves a case",
+   "differ": [
+    "a dog took the muffins",
+    "the wind rang the bell"
+   ],
+   "chartProof": {
+    "setting": [
+     "One afternoon, Mrs. Ford, who lived next door on Maple Street, found her plate of muffins empty.",
+     "That night, Dot and Raj watched from Raj's window."
+    ],
+    "problem": [
+     "One afternoon, Mrs. Ford, who lived next door on Maple Street, found her plate of muffins empty.",
+     "Every night, a bell rang outside Raj's window on Maple Street. Raj could not sleep."
+    ],
+    "solution": [
+     "Dot looked closely and found tiny crumbs on the windowsill.",
+     "Raj tied the bell still with string."
+    ],
+    "lesson": [
+     "\"Look closely, and clues tell the story.\"",
+     "\"Things are not always what they seem,\" said Dot."
+    ]
+   }
+  },
+  {
+   "id": "ollie",
+   "author": "Hollis Grey",
+   "stories": [
+    {
+     "title": "Ollie Can't Sleep",
+     "paras": [
+      "Ollie the owl slept in the barn on Clover Farm during the day, but today the barn was noisy. Penny the pig was singing loudly as she rolled in the hay. \"I can't sleep with all this noise,\" Ollie hooted.",
+      "Penny stopped singing. \"I didn't know you were sleeping,\" she said. \"I'm sorry.\" From then on, Penny sang her songs out by the pond during the day. Ollie slept soundly. \"Thank you for saying sorry,\" he said."
+     ]
+    },
+    {
+     "title": "Penny's Big Puddle",
+     "paras": [
+      "One hot night on Clover Farm, Penny the pig could not cool off. The mud by the barn had dried into hard dirt. \"I'm too hot to sleep,\" Penny grunted.",
+      "Ollie the owl was awake, as owls are at night. He flew over the farm and spotted a cool, muddy puddle under the willow tree. He led Penny there, and she flopped right in. \"Thank you, friend,\" said Penny. \"Friends help each other!\""
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the barn in the daytime",
+     "the farm on a hot night"
+    ],
+    "problem": [
+     "Ollie can't sleep.",
+     "Penny is too hot."
+    ],
+    "solution": [
+     "Penny sings by the pond.",
+     "Ollie finds a muddy puddle."
+    ],
+    "lesson": [
+     "Say sorry when you make a mistake.",
+     "Friends help each other."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a city street"
+    },
+    {
+     "row": "problem",
+     "s": "Ollie loses a feather."
+    },
+    {
+     "row": "solution",
+     "s": "Penny builds a nest."
+    },
+    {
+     "row": "lesson",
+     "s": "Be honest."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Penny sings in the barn.",
+     "a": 1,
+     "proof": [
+      "Ollie the owl slept in the barn on Clover Farm during the day, but today the barn was noisy. Penny the pig was singing loudly as she rolled in the hay.",
+      null
+     ]
+    },
+    {
+     "s": "Penny says she is sorry.",
+     "a": 1,
+     "proof": [
+      "\"I'm sorry.\"",
+      null
+     ]
+    },
+    {
+     "s": "Penny sings by the pond.",
+     "a": 1,
+     "proof": [
+      "From then on, Penny sang her songs out by the pond during the day.",
+      null
+     ]
+    },
+    {
+     "s": "Ollie says it is too noisy.",
+     "a": 1,
+     "proof": [
+      "\"I can't sleep with all this noise,\" Ollie hooted.",
+      null
+     ]
+    },
+    {
+     "s": "The mud has dried.",
+     "a": 2,
+     "proof": [
+      null,
+      "The mud by the barn had dried into hard dirt."
+     ]
+    },
+    {
+     "s": "Ollie flies over the farm.",
+     "a": 2,
+     "proof": [
+      null,
+      "He flew over the farm and spotted a cool, muddy puddle under the willow tree."
+     ]
+    },
+    {
+     "s": "A puddle is under a willow tree.",
+     "a": 2,
+     "proof": [
+      null,
+      "He flew over the farm and spotted a cool, muddy puddle under the willow tree."
+     ]
+    },
+    {
+     "s": "Penny flops into a puddle.",
+     "a": 2,
+     "proof": [
+      null,
+      "He led Penny there, and she flopped right in."
+     ]
+    },
+    {
+     "s": "Ollie is an owl.",
+     "a": "both",
+     "proof": [
+      "Ollie the owl slept in the barn on Clover Farm during the day, but today the barn was noisy.",
+      "Ollie the owl was awake, as owls are at night."
+     ]
+    },
+    {
+     "s": "Penny is a pig.",
+     "a": "both",
+     "proof": [
+      "Penny the pig was singing loudly as she rolled in the hay.",
+      "One hot night on Clover Farm, Penny the pig could not cool off."
+     ]
+    },
+    {
+     "s": "Someone can't sleep.",
+     "a": "both",
+     "proof": [
+      "\"I can't sleep with all this noise,\" Ollie hooted.",
+      "\"I'm too hot to sleep,\" Penny grunted."
+     ]
+    },
+    {
+     "s": "It happens on Clover Farm.",
+     "a": "both",
+     "proof": [
+      "Ollie the owl slept in the barn on Clover Farm during the day, but today the barn was noisy.",
+      "One hot night on Clover Farm, Penny the pig could not cool off."
+     ]
+    }
+   ],
+   "alike": "someone can't sleep",
+   "differ": [
+    "Penny is too noisy",
+    "Penny is too hot"
+   ],
+   "chartProof": {
+    "setting": [
+     "Ollie the owl slept in the barn on Clover Farm during the day, but today the barn was noisy.",
+     "One hot night on Clover Farm, Penny the pig could not cool off."
+    ],
+    "problem": [
+     "\"I can't sleep with all this noise,\" Ollie hooted.",
+     "\"I'm too hot to sleep,\" Penny grunted."
+    ],
+    "solution": [
+     "From then on, Penny sang her songs out by the pond during the day.",
+     "He flew over the farm and spotted a cool, muddy puddle under the willow tree."
+    ],
+    "lesson": [
+     "\"I'm sorry.\"",
+     "\"Friends help each other!\""
+    ]
+   }
+  },
+  {
+   "id": "amir",
+   "author": "Marisol Vega",
+   "stories": [
+    {
+     "title": "The Broken Vase",
+     "paras": [
+      "Amir was bouncing a ball in the living room. The ball hit a blue vase, and the vase fell to the floor and cracked. \"Oh no,\" Amir whispered. \"Maybe I can hide it under the couch.\" His big sister Dina shook her head.",
+      "\"Tell Mom what happened,\" she said. Amir took a deep breath and walked to the kitchen. \"Mom, I broke your vase,\" he said. \"I'm sorry.\" Mom hugged him. \"Thank you for telling the truth,\" she said. \"We can glue it together.\""
+     ]
+    },
+    {
+     "title": "The Heavy Box",
+     "paras": [
+      "Mom asked Amir and his sister Dina to carry a box of old books to the garage. Amir pushed it, but the box would not move. Dina pulled it, but it was too heavy for her too. \"We'll never get it there,\" Amir groaned.",
+      "\"Let's carry it together,\" said Dina. She lifted one end, and Amir lifted the other. Step by step, they carried the box across the yard and into the garage. \"We did it!\" Amir cheered. \"Working together makes it easy,\" said Dina."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the living room",
+     "the yard and the garage"
+    ],
+    "problem": [
+     "Amir breaks a vase.",
+     "The box is too heavy."
+    ],
+    "solution": [
+     "Amir tells Mom the truth.",
+     "They carry it together."
+    ],
+    "lesson": [
+     "Tell the truth.",
+     "Work together."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a snowy park"
+    },
+    {
+     "row": "problem",
+     "s": "Dina loses her shoe."
+    },
+    {
+     "row": "solution",
+     "s": "Dad buys a new vase."
+    },
+    {
+     "row": "lesson",
+     "s": "Always be on time."
+    }
+   ],
+   "facts": [
+    {
+     "s": "A ball hits a vase.",
+     "a": 1,
+     "proof": [
+      "The ball hit a blue vase, and the vase fell to the floor and cracked.",
+      null
+     ]
+    },
+    {
+     "s": "Amir wants to hide something.",
+     "a": 1,
+     "proof": [
+      "\"Maybe I can hide it under the couch.\"",
+      null
+     ]
+    },
+    {
+     "s": "Mom hugs Amir.",
+     "a": 1,
+     "proof": [
+      "Mom hugged him.",
+      null
+     ]
+    },
+    {
+     "s": "Amir says he is sorry.",
+     "a": 1,
+     "proof": [
+      "\"I'm sorry.\"",
+      null
+     ]
+    },
+    {
+     "s": "The box holds old books.",
+     "a": 2,
+     "proof": [
+      null,
+      "Mom asked Amir and his sister Dina to carry a box of old books to the garage."
+     ]
+    },
+    {
+     "s": "Dina pulls the box.",
+     "a": 2,
+     "proof": [
+      null,
+      "Dina pulled it, but it was too heavy for her too."
+     ]
+    },
+    {
+     "s": "They carry a box to the garage.",
+     "a": 2,
+     "proof": [
+      null,
+      "Step by step, they carried the box across the yard and into the garage."
+     ]
+    },
+    {
+     "s": "Amir cheers.",
+     "a": 2,
+     "proof": [
+      null,
+      "Amir cheered."
+     ]
+    },
+    {
+     "s": "Dina is Amir's sister.",
+     "a": "both",
+     "proof": [
+      "His big sister Dina shook her head.",
+      "Mom asked Amir and his sister Dina to carry a box of old books to the garage."
+     ]
+    },
+    {
+     "s": "Mom is in the story.",
+     "a": "both",
+     "proof": [
+      "\"Tell Mom what happened,\" she said.",
+      "Mom asked Amir and his sister Dina to carry a box of old books to the garage."
+     ]
+    },
+    {
+     "s": "Dina helps Amir.",
+     "a": "both",
+     "proof": [
+      "\"Tell Mom what happened,\" she said.",
+      "\"Let's carry it together,\" said Dina."
+     ]
+    },
+    {
+     "s": "Amir has a problem.",
+     "a": "both",
+     "proof": [
+      "The ball hit a blue vase, and the vase fell to the floor and cracked.",
+      "\"We'll never get it there,\" Amir groaned."
+     ]
+    }
+   ],
+   "alike": "Dina helps Amir",
+   "differ": [
+    "Amir breaks a vase",
+    "a box is too heavy"
+   ],
+   "chartProof": {
+    "setting": [
+     "Amir was bouncing a ball in the living room.",
+     "Step by step, they carried the box across the yard and into the garage."
+    ],
+    "problem": [
+     "\"Mom, I broke your vase,\" he said.",
+     "Dina pulled it, but it was too heavy for her too."
+    ],
+    "solution": [
+     "\"Mom, I broke your vase,\" he said.",
+     "\"Let's carry it together,\" said Dina."
+    ],
+    "lesson": [
+     "\"Thank you for telling the truth,\" she said.",
+     "\"Working together makes it easy,\" said Dina."
+    ]
+   }
+  },
+  {
+   "id": "rocco",
+   "author": "Grace Lindqvist",
+   "stories": [
+    {
+     "title": "The Wrong Rock",
+     "paras": [
+      "Rocco the raccoon called to his friend Dee the duck. \"Meet me at the big rock by the pond at noon!\" But Dee was splashing and did not listen. At noon, she waited at a little rock by the reeds.",
+      "Rocco waited and waited at the big rock. At last, he went looking and found Dee by the reeds. \"I said the big rock,\" he told her. Dee laughed. \"Next time, I'll listen carefully,\" she said."
+     ]
+    },
+    {
+     "title": "The Floating Ball",
+     "paras": [
+      "One windy day, Rocco the raccoon was playing with a red ball by the pond. The wind blew the ball into the water, and it floated far out. Rocco could climb tall trees, but he did not like deep water.",
+      "His friend Dee the duck paddled out and pushed the ball back to shore with her bill. \"Thank you!\" said Rocco. \"You are a great swimmer.\" Dee smiled. \"And you are a great climber. Everyone is good at something.\""
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the big rock at noon",
+     "the pond on a windy day"
+    ],
+    "problem": [
+     "Dee waits at the wrong rock.",
+     "The ball floats away."
+    ],
+    "solution": [
+     "Rocco goes to find her.",
+     "Dee pushes the ball back."
+    ],
+    "lesson": [
+     "Listen carefully.",
+     "Everyone is good at something."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a city bus"
+    },
+    {
+     "row": "problem",
+     "s": "Rocco is stuck in a tree."
+    },
+    {
+     "row": "solution",
+     "s": "Dee calls a frog."
+    },
+    {
+     "row": "lesson",
+     "s": "Share your toys."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Dee is splashing.",
+     "a": 1,
+     "proof": [
+      "But Dee was splashing and did not listen.",
+      null
+     ]
+    },
+    {
+     "s": "Dee waits by the reeds.",
+     "a": 1,
+     "proof": [
+      "At noon, she waited at a little rock by the reeds.",
+      null
+     ]
+    },
+    {
+     "s": "Rocco waits at the big rock.",
+     "a": 1,
+     "proof": [
+      "Rocco waited and waited at the big rock.",
+      null
+     ]
+    },
+    {
+     "s": "Dee says she will listen next time.",
+     "a": 1,
+     "proof": [
+      "\"Next time, I'll listen carefully,\" she said.",
+      null
+     ]
+    },
+    {
+     "s": "The wind blows a ball away.",
+     "a": 2,
+     "proof": [
+      null,
+      "The wind blew the ball into the water, and it floated far out."
+     ]
+    },
+    {
+     "s": "Rocco does not like deep water.",
+     "a": 2,
+     "proof": [
+      null,
+      "Rocco could climb tall trees, but he did not like deep water."
+     ]
+    },
+    {
+     "s": "Dee pushes a ball with her bill.",
+     "a": 2,
+     "proof": [
+      null,
+      "His friend Dee the duck paddled out and pushed the ball back to shore with her bill."
+     ]
+    },
+    {
+     "s": "Rocco can climb trees.",
+     "a": 2,
+     "proof": [
+      null,
+      "Rocco could climb tall trees, but he did not like deep water."
+     ]
+    },
+    {
+     "s": "Rocco is a raccoon.",
+     "a": "both",
+     "proof": [
+      "Rocco the raccoon called to his friend Dee the duck.",
+      "One windy day, Rocco the raccoon was playing with a red ball by the pond."
+     ]
+    },
+    {
+     "s": "Dee is a duck.",
+     "a": "both",
+     "proof": [
+      "Rocco the raccoon called to his friend Dee the duck.",
+      "His friend Dee the duck paddled out and pushed the ball back to shore with her bill."
+     ]
+    },
+    {
+     "s": "It happens by the pond.",
+     "a": "both",
+     "proof": [
+      "\"Meet me at the big rock by the pond at noon!\"",
+      "One windy day, Rocco the raccoon was playing with a red ball by the pond."
+     ]
+    },
+    {
+     "s": "Rocco and Dee are friends.",
+     "a": "both",
+     "proof": [
+      "Rocco the raccoon called to his friend Dee the duck.",
+      "His friend Dee the duck paddled out and pushed the ball back to shore with her bill."
+     ]
+    }
+   ],
+   "alike": "a problem happens by the pond",
+   "differ": [
+    "Dee does not listen",
+    "the wind takes a ball"
+   ],
+   "chartProof": {
+    "setting": [
+     "\"Meet me at the big rock by the pond at noon!\"",
+     "One windy day, Rocco the raccoon was playing with a red ball by the pond."
+    ],
+    "problem": [
+     "At noon, she waited at a little rock by the reeds.",
+     "The wind blew the ball into the water, and it floated far out."
+    ],
+    "solution": [
+     "At last, he went looking and found Dee by the reeds.",
+     "His friend Dee the duck paddled out and pushed the ball back to shore with her bill."
+    ],
+    "lesson": [
+     "\"Next time, I'll listen carefully,\" she said.",
+     "\"And you are a great climber. Everyone is good at something.\""
+    ]
+   }
+  },
+  {
+   "id": "twins",
+   "author": "Farah Haddad",
+   "stories": [
+    {
+     "title": "The New Game",
+     "paras": [
+      "One night at home, Dad brought out a new board game. \"Let's try it,\" he said. Ava crossed her arms. \"I only like our old card game,\" she said. Her twin brother, Eli, opened the box right away.",
+      "\"It has a spinner and tiny animals!\" said Eli. He showed Ava how to spin. \"Try just one round,\" he said. Ava played one round. Then she played another. \"This is fun!\" she said. Dad smiled. \"It's good to try new things,\" he said."
+     ]
+    },
+    {
+     "title": "The Sock Puppet Show",
+     "paras": [
+      "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad. In the middle of the show, Eli forgot what his puppet was going to say. He froze.",
+      "Ava leaned over and whispered his line. Eli said it, and the show went on. At the end, everyone clapped. \"I made a mistake,\" said Eli, \"but I kept going.\" Ava grinned. \"That is what the best actors do.\""
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "a game night at home",
+     "a puppet show at home"
+    ],
+    "problem": [
+     "Ava will not try the game.",
+     "Eli forgets his line."
+    ],
+    "solution": [
+     "Ava plays one round.",
+     "Ava whispers his line."
+    ],
+    "lesson": [
+     "Try new things.",
+     "Keep going after a mistake."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a soccer field"
+    },
+    {
+     "row": "problem",
+     "s": "Dad loses the spinner."
+    },
+    {
+     "row": "solution",
+     "s": "Mom buys new socks."
+    },
+    {
+     "row": "lesson",
+     "s": "Always clean your room."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Dad brings out a new game.",
+     "a": 1,
+     "proof": [
+      "One night at home, Dad brought out a new board game.",
+      null
+     ]
+    },
+    {
+     "s": "Ava crosses her arms.",
+     "a": 1,
+     "proof": [
+      "Ava crossed her arms.",
+      null
+     ]
+    },
+    {
+     "s": "Eli opens the box.",
+     "a": 1,
+     "proof": [
+      "Her twin brother, Eli, opened the box right away.",
+      null
+     ]
+    },
+    {
+     "s": "The game has a spinner.",
+     "a": 1,
+     "proof": [
+      "\"It has a spinner and tiny animals!\" said Eli.",
+      null
+     ]
+    },
+    {
+     "s": "The puppets are made of old socks.",
+     "a": 2,
+     "proof": [
+      null,
+      "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad."
+     ]
+    },
+    {
+     "s": "Eli forgets what to say.",
+     "a": 2,
+     "proof": [
+      null,
+      "In the middle of the show, Eli forgot what his puppet was going to say."
+     ]
+    },
+    {
+     "s": "Ava whispers to Eli.",
+     "a": 2,
+     "proof": [
+      null,
+      "Ava leaned over and whispered his line."
+     ]
+    },
+    {
+     "s": "Everyone claps at the end.",
+     "a": 2,
+     "proof": [
+      null,
+      "At the end, everyone clapped."
+     ]
+    },
+    {
+     "s": "Ava and Eli are twins.",
+     "a": "both",
+     "proof": [
+      "Her twin brother, Eli, opened the box right away.",
+      "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad."
+     ]
+    },
+    {
+     "s": "It happens at home.",
+     "a": "both",
+     "proof": [
+      "One night at home, Dad brought out a new board game.",
+      "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad."
+     ]
+    },
+    {
+     "s": "Dad is in the story.",
+     "a": "both",
+     "proof": [
+      "One night at home, Dad brought out a new board game.",
+      "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad."
+     ]
+    },
+    {
+     "s": "One twin helps the other.",
+     "a": "both",
+     "proof": [
+      "He showed Ava how to spin.",
+      "Ava leaned over and whispered his line."
+     ]
+    }
+   ],
+   "alike": "one twin helps the other",
+   "differ": [
+    "Ava tries a new game",
+    "Eli forgets his line"
+   ],
+   "chartProof": {
+    "setting": [
+     "One night at home, Dad brought out a new board game.",
+     "The twins, Ava and Eli, made puppets out of old socks and put on a show at home for Mom and Dad."
+    ],
+    "problem": [
+     "Ava crossed her arms. \"I only like our old card game,\" she said.",
+     "In the middle of the show, Eli forgot what his puppet was going to say."
+    ],
+    "solution": [
+     "Ava played one round.",
+     "Ava leaned over and whispered his line."
+    ],
+    "lesson": [
+     "\"It's good to try new things,\" he said.",
+     "\"I made a mistake,\" said Eli, \"but I kept going.\""
+    ]
+   }
+  },
+  {
+   "id": "wick",
+   "author": "Clara Coleman",
+   "stories": [
+    {
+     "title": "The Berry Promise",
+     "paras": [
+      "Wick the mouse promised to help his friend Juniper the hedgehog pick berries in the morning. But when the sun came up, some other mice called to him. \"Come play hide-and-seek with us!\" they said. Wick wanted to go.",
+      "Then he remembered his promise. \"Not today,\" he told the mice, and he ran to the berry bushes. Juniper smiled. \"You came!\" she said. They filled two baskets together. \"A promise is a promise,\" said Wick."
+     ]
+    },
+    {
+     "title": "The Swing",
+     "paras": [
+      "Juniper the hedgehog hung a swing from a low branch. Wick the mouse ran over. \"Let me swing first!\" he squeaked, and he jumped on. Juniper had to wait, and she waited a long time. Her friend did not get off.",
+      "At last, Juniper said, \"Wick, it is my turn now.\" Wick hopped down. \"I'm sorry,\" he said. \"I forgot about you.\" Then they took turns together, ten swings each. \"Taking turns is fair,\" said Juniper."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the berry bushes",
+     "a swing on a low branch"
+    ],
+    "problem": [
+     "Some mice ask Wick to play.",
+     "Wick will not get off."
+    ],
+    "solution": [
+     "Wick keeps his promise.",
+     "They take turns."
+    ],
+    "lesson": [
+     "Keep your promises.",
+     "Take turns."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a snowy hill"
+    },
+    {
+     "row": "problem",
+     "s": "Juniper loses her basket."
+    },
+    {
+     "row": "solution",
+     "s": "Wick builds a new swing."
+    },
+    {
+     "row": "lesson",
+     "s": "Always tell the truth."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Wick makes a promise.",
+     "a": 1,
+     "proof": [
+      "Wick the mouse promised to help his friend Juniper the hedgehog pick berries in the morning.",
+      null
+     ]
+    },
+    {
+     "s": "Some mice play hide-and-seek.",
+     "a": 1,
+     "proof": [
+      "\"Come play hide-and-seek with us!\" they said.",
+      null
+     ]
+    },
+    {
+     "s": "Wick runs to the berry bushes.",
+     "a": 1,
+     "proof": [
+      "\"Not today,\" he told the mice, and he ran to the berry bushes.",
+      null
+     ]
+    },
+    {
+     "s": "They fill two baskets.",
+     "a": 1,
+     "proof": [
+      "They filled two baskets together.",
+      null
+     ]
+    },
+    {
+     "s": "Juniper hangs a swing.",
+     "a": 2,
+     "proof": [
+      null,
+      "Juniper the hedgehog hung a swing from a low branch."
+     ]
+    },
+    {
+     "s": "Wick swings first.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"Let me swing first!\" he squeaked, and he jumped on."
+     ]
+    },
+    {
+     "s": "Juniper waits a long time.",
+     "a": 2,
+     "proof": [
+      null,
+      "Juniper had to wait, and she waited a long time."
+     ]
+    },
+    {
+     "s": "They swing ten times each.",
+     "a": 2,
+     "proof": [
+      null,
+      "Then they took turns together, ten swings each."
+     ]
+    },
+    {
+     "s": "Wick is a mouse.",
+     "a": "both",
+     "proof": [
+      "Wick the mouse promised to help his friend Juniper the hedgehog pick berries in the morning.",
+      "Wick the mouse ran over."
+     ]
+    },
+    {
+     "s": "Juniper is a hedgehog.",
+     "a": "both",
+     "proof": [
+      "Wick the mouse promised to help his friend Juniper the hedgehog pick berries in the morning.",
+      "Juniper the hedgehog hung a swing from a low branch."
+     ]
+    },
+    {
+     "s": "Juniper and Wick are friends.",
+     "a": "both",
+     "proof": [
+      "Wick the mouse promised to help his friend Juniper the hedgehog pick berries in the morning.",
+      "Her friend did not get off."
+     ]
+    },
+    {
+     "s": "Juniper and Wick do something together.",
+     "a": "both",
+     "proof": [
+      "They filled two baskets together.",
+      "Then they took turns together, ten swings each."
+     ]
+    }
+   ],
+   "alike": "Wick and Juniper are friends",
+   "differ": [
+    "Wick keeps a promise",
+    "Wick learns to take turns"
+   ],
+   "chartProof": {
+    "setting": [
+     "\"Not today,\" he told the mice, and he ran to the berry bushes.",
+     "Juniper the hedgehog hung a swing from a low branch."
+    ],
+    "problem": [
+     "But when the sun came up, some other mice called to him. \"Come play hide-and-seek with us!\" they said.",
+     "Her friend did not get off."
+    ],
+    "solution": [
+     "Then he remembered his promise. \"Not today,\" he told the mice, and he ran to the berry bushes.",
+     "Then they took turns together, ten swings each."
+    ],
+    "lesson": [
+     "\"A promise is a promise,\" said Wick.",
+     "\"Taking turns is fair,\" said Juniper."
+    ]
+   }
+  },
+  {
+   "id": "kalani",
+   "author": "Samuel Osei",
+   "stories": [
+    {
+     "title": "Paint Everywhere",
+     "paras": [
+      "Kalani and her friend Jude painted at the art table in their classroom. Soon there were drops of paint on the table, the chairs, and even the floor. Then the bell rang for recess. \"Let's go!\" said Jude.",
+      "Their teacher, Mr. Ortiz, pointed at the mess. \"Other friends will use this table next,\" he said. \"Not yet, Jude,\" said Kalani. They wiped the table and washed the brushes. \"Now it's clean,\" said Kalani. \"Always clean up your mess.\""
+     ]
+    },
+    {
+     "title": "The Tall Slide",
+     "paras": [
+      "At the park, Kalani and her friend Jude climbed up the tall slide while Kalani's mom waved from a bench. Jude looked down and gripped the rail. \"It's too high,\" he said. \"I want to go back down the ladder.\"",
+      "\"I'll go first,\" said Kalani. She slid down and cheered at the bottom. \"You can do it!\" Jude took a deep breath and let go. Whoosh! He landed with a big grin. \"Being brave was worth it!\" he said."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "the classroom art table",
+     "the tall slide at the park"
+    ],
+    "problem": [
+     "There is paint everywhere.",
+     "Jude is scared to slide."
+    ],
+    "solution": [
+     "They clean the table.",
+     "Kalani goes down first."
+    ],
+    "lesson": [
+     "Clean up your mess.",
+     "Being brave is worth it."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a city bus"
+    },
+    {
+     "row": "problem",
+     "s": "Jude breaks a brush."
+    },
+    {
+     "row": "solution",
+     "s": "Mr. Ortiz buys new paint."
+    },
+    {
+     "row": "lesson",
+     "s": "Always share your snacks."
+    }
+   ],
+   "facts": [
+    {
+     "s": "Paint gets on the floor.",
+     "a": 1,
+     "proof": [
+      "Soon there were drops of paint on the table, the chairs, and even the floor.",
+      null
+     ]
+    },
+    {
+     "s": "A bell rings for recess.",
+     "a": 1,
+     "proof": [
+      "Then the bell rang for recess.",
+      null
+     ]
+    },
+    {
+     "s": "Mr. Ortiz points at the mess.",
+     "a": 1,
+     "proof": [
+      "Their teacher, Mr. Ortiz, pointed at the mess.",
+      null
+     ]
+    },
+    {
+     "s": "They wash the brushes.",
+     "a": 1,
+     "proof": [
+      "They wiped the table and washed the brushes.",
+      null
+     ]
+    },
+    {
+     "s": "Jude grips the rail.",
+     "a": 2,
+     "proof": [
+      null,
+      "Jude looked down and gripped the rail."
+     ]
+    },
+    {
+     "s": "Kalani slides first.",
+     "a": 2,
+     "proof": [
+      null,
+      "\"I'll go first,\" said Kalani. She slid down and cheered at the bottom."
+     ]
+    },
+    {
+     "s": "Kalani cheers for Jude.",
+     "a": 2,
+     "proof": [
+      null,
+      "She slid down and cheered at the bottom. \"You can do it!\""
+     ]
+    },
+    {
+     "s": "Jude lands with a grin.",
+     "a": 2,
+     "proof": [
+      null,
+      "He landed with a big grin."
+     ]
+    },
+    {
+     "s": "Kalani and Jude are friends.",
+     "a": "both",
+     "proof": [
+      "Kalani and her friend Jude painted at the art table in their classroom.",
+      "At the park, Kalani and her friend Jude climbed up the tall slide while Kalani's mom waved from a bench."
+     ]
+    },
+    {
+     "s": "Kalani and Jude do something together.",
+     "a": "both",
+     "proof": [
+      "Kalani and her friend Jude painted at the art table in their classroom.",
+      "At the park, Kalani and her friend Jude climbed up the tall slide while Kalani's mom waved from a bench."
+     ]
+    },
+    {
+     "s": "Kalani talks to Jude.",
+     "a": "both",
+     "proof": [
+      "\"Not yet, Jude,\" said Kalani.",
+      "\"I'll go first,\" said Kalani."
+     ]
+    },
+    {
+     "s": "A grown-up is there.",
+     "a": "both",
+     "proof": [
+      "Their teacher, Mr. Ortiz, pointed at the mess.",
+      "At the park, Kalani and her friend Jude climbed up the tall slide while Kalani's mom waved from a bench."
+     ]
+    }
+   ],
+   "alike": "Kalani and Jude are friends",
+   "differ": [
+    "they clean up paint",
+    "Jude goes down a slide"
+   ],
+   "chartProof": {
+    "setting": [
+     "Kalani and her friend Jude painted at the art table in their classroom.",
+     "At the park, Kalani and her friend Jude climbed up the tall slide while Kalani's mom waved from a bench."
+    ],
+    "problem": [
+     "Soon there were drops of paint on the table, the chairs, and even the floor.",
+     "\"It's too high,\" he said. \"I want to go back down the ladder.\""
+    ],
+    "solution": [
+     "They wiped the table and washed the brushes.",
+     "\"I'll go first,\" said Kalani."
+    ],
+    "lesson": [
+     "\"Always clean up your mess.\"",
+     "\"Being brave was worth it!\" he said."
+    ]
+   }
+  },
+  {
+   "id": "rory",
+   "author": "Dana Whitfield",
+   "stories": [
+    {
+     "title": "The Bike Chain",
+     "paras": [
+      "Rory wanted to ride his bike, but the chain fell off in Grandma Fran's driveway. Grandma Fran knelt down, got her hands greasy, and fixed it in two minutes. Rory buckled his helmet and rode away down the street.",
+      "Halfway down the block, Rory stopped. He had forgotten something. He rode back and said, \"Thank you for fixing my bike, Grandma.\" Later he drew her a picture of a bike that said THANK YOU."
+     ]
+    },
+    {
+     "title": "The High Shelf",
+     "paras": [
+      "Rory wanted his kite from the high shelf in Grandma Fran's closet, so he could fly it at the park. He pulled over a rolling chair and stood on it. The chair wobbled, and Rory grabbed the door just in time.",
+      "His grandma hurried in. \"That chair could roll away!\" she said. She brought the step stool from the kitchen and held it steady while Rory climbed up and got the kite. \"Being careful keeps you safe,\" said Grandma Fran."
+     ]
+    }
+   ],
+   "chart": {
+    "setting": [
+     "Grandma Fran's driveway",
+     "Grandma Fran's closet"
+    ],
+    "problem": [
+     "Rory forgets to say thanks.",
+     "Rory stands on a wobbly chair."
+    ],
+    "solution": [
+     "He goes back and thanks her.",
+     "Grandma brings a step stool."
+    ],
+    "lesson": [
+     "Always say thank you.",
+     "Being careful keeps you safe."
+    ]
+   },
+   "neither": [
+    {
+     "row": "setting",
+     "s": "a farm in spring"
+    },
+    {
+     "row": "problem",
+     "s": "Rory loses his kite."
+    },
+    {
+     "row": "solution",
+     "s": "Rory buys a new chair."
+    },
+    {
+     "row": "lesson",
+     "s": "Share your toys."
+    }
+   ],
+   "facts": [
+    {
+     "s": "A bike chain falls off.",
+     "a": 1,
+     "proof": [
+      "Rory wanted to ride his bike, but the chain fell off in Grandma Fran's driveway.",
+      null
+     ]
+    },
+    {
+     "s": "Grandma Fran gets greasy hands.",
+     "a": 1,
+     "proof": [
+      "Grandma Fran knelt down, got her hands greasy, and fixed it in two minutes.",
+      null
+     ]
+    },
+    {
+     "s": "Rory buckles his helmet.",
+     "a": 1,
+     "proof": [
+      "Rory buckled his helmet and rode away down the street.",
+      null
+     ]
+    },
+    {
+     "s": "Rory draws a picture.",
+     "a": 1,
+     "proof": [
+      "Later he drew her a picture of a bike that said THANK YOU.",
+      null
+     ]
+    },
+    {
+     "s": "A chair wobbles.",
+     "a": 2,
+     "proof": [
+      null,
+      "The chair wobbled, and Rory grabbed the door just in time."
+     ]
+    },
+    {
+     "s": "Rory grabs the door.",
+     "a": 2,
+     "proof": [
+      null,
+      "The chair wobbled, and Rory grabbed the door just in time."
+     ]
+    },
+    {
+     "s": "Grandma Fran brings a step stool.",
+     "a": 2,
+     "proof": [
+      null,
+      "She brought the step stool from the kitchen and held it steady while Rory climbed up and got the kite."
+     ]
+    },
+    {
+     "s": "Rory gets his kite.",
+     "a": 2,
+     "proof": [
+      null,
+      "She brought the step stool from the kitchen and held it steady while Rory climbed up and got the kite."
+     ]
+    },
+    {
+     "s": "Grandma Fran helps Rory.",
+     "a": "both",
+     "proof": [
+      "Grandma Fran knelt down, got her hands greasy, and fixed it in two minutes.",
+      "She brought the step stool from the kitchen and held it steady while Rory climbed up and got the kite."
+     ]
+    },
+    {
+     "s": "It happens at Grandma Fran's.",
+     "a": "both",
+     "proof": [
+      "Rory wanted to ride his bike, but the chain fell off in Grandma Fran's driveway.",
+      "Rory wanted his kite from the high shelf in Grandma Fran's closet, so he could fly it at the park."
+     ]
+    },
+    {
+     "s": "Grandma Fran is Rory's grandma.",
+     "a": "both",
+     "proof": [
+      "He rode back and said, \"Thank you for fixing my bike, Grandma.\"",
+      "His grandma hurried in."
+     ]
+    },
+    {
+     "s": "Rory wants something.",
+     "a": "both",
+     "proof": [
+      "Rory wanted to ride his bike, but the chain fell off in Grandma Fran's driveway.",
+      "Rory wanted his kite from the high shelf in Grandma Fran's closet, so he could fly it at the park."
+     ]
+    }
+   ],
+   "alike": "Grandma Fran helps Rory",
+   "differ": [
+    "Rory forgets to say thanks",
+    "Rory stands on a chair"
+   ],
+   "chartProof": {
+    "setting": [
+     "Rory wanted to ride his bike, but the chain fell off in Grandma Fran's driveway.",
+     "Rory wanted his kite from the high shelf in Grandma Fran's closet, so he could fly it at the park."
+    ],
+    "problem": [
+     "Halfway down the block, Rory stopped. He had forgotten something.",
+     "He pulled over a rolling chair and stood on it. The chair wobbled, and Rory grabbed the door just in time."
+    ],
+    "solution": [
+     "He rode back and said, \"Thank you for fixing my bike, Grandma.\"",
+     "She brought the step stool from the kitchen and held it steady while Rory climbed up and got the kite."
+    ],
+    "lesson": [
+     "He rode back and said, \"Thank you for fixing my bike, Grandma.\"",
+     "\"Being careful keeps you safe,\" said Grandma Fran."
+    ]
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "bees",
+   "topic": "Honeybees",
+   "subject": [
+    [
+     "bee"
+    ],
+    [
+     "bee"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "A Busy Home",
+     "paras": [
+      "Honeybees live together in a home called a hive. A hive can hold thousands of bees, and each bee has a job. The queen bee lays the eggs. Worker bees clean the hive, care for the young bees, and guard the door.",
+      "Inside the hive, worker bees build rows of six-sided rooms called cells. They make the cells out of wax from their own bodies. Some cells hold eggs. Others hold honey, which the bees make from nectar they get from flowers. The bees save the honey to eat in winter."
+     ]
+    },
+    {
+     "title": "From Flower to Flower",
+     "paras": [
+      "Honeybees fly from flower to flower to drink nectar, a sweet juice inside flowers. Back at the hive where they live, they make the nectar into honey. They save some of the honey to eat in winter.",
+      "While a bee drinks nectar, a powdery dust called pollen sticks to its fuzzy body. When the bee visits the next flower, some pollen rubs off. This helps the plant make seeds. Apple and cherry trees need bees or other insects to carry their pollen."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "The queen bee lays the eggs.",
+     "a": 1,
+     "proof": [
+      "The queen bee lays the eggs.",
+      null
+     ]
+    },
+    {
+     "s": "Worker bees guard the door of the hive.",
+     "a": 1,
+     "proof": [
+      "Worker bees clean the hive, care for the young bees, and guard the door.",
+      null
+     ]
+    },
+    {
+     "s": "The cells have six sides.",
+     "a": 1,
+     "proof": [
+      "Inside the hive, worker bees build rows of six-sided rooms called cells.",
+      null
+     ]
+    },
+    {
+     "s": "Bees make wax with their bodies.",
+     "a": 1,
+     "proof": [
+      "They make the cells out of wax from their own bodies.",
+      null
+     ]
+    },
+    {
+     "s": "Pollen is a powdery dust.",
+     "a": 2,
+     "proof": [
+      null,
+      "While a bee drinks nectar, a powdery dust called pollen sticks to its fuzzy body."
+     ]
+    },
+    {
+     "s": "Pollen sticks to a bee's fuzzy body.",
+     "a": 2,
+     "proof": [
+      null,
+      "While a bee drinks nectar, a powdery dust called pollen sticks to its fuzzy body."
+     ]
+    },
+    {
+     "s": "Bees help plants make seeds.",
+     "a": 2,
+     "proof": [
+      null,
+      "When the bee visits the next flower, some pollen rubs off. This helps the plant make seeds."
+     ]
+    },
+    {
+     "s": "Nectar is a sweet juice in flowers.",
+     "a": 2,
+     "proof": [
+      null,
+      "Honeybees fly from flower to flower to drink nectar, a sweet juice inside flowers."
+     ]
+    },
+    {
+     "s": "Honeybees live in a hive.",
+     "a": "both",
+     "proof": [
+      "Honeybees live together in a home called a hive.",
+      "Back at the hive where they live, they make the nectar into honey."
+     ]
+    },
+    {
+     "s": "Bees make honey from nectar.",
+     "a": "both",
+     "proof": [
+      "Others hold honey, which the bees make from nectar they get from flowers.",
+      "Back at the hive where they live, they make the nectar into honey."
+     ]
+    },
+    {
+     "s": "Bees eat honey in winter.",
+     "a": "both",
+     "proof": [
+      "The bees save the honey to eat in winter.",
+      "They save some of the honey to eat in winter."
+     ]
+    },
+    {
+     "s": "Bees get nectar from flowers.",
+     "a": "both",
+     "proof": [
+      "Others hold honey, which the bees make from nectar they get from flowers.",
+      "Honeybees fly from flower to flower to drink nectar, a sweet juice inside flowers."
+     ]
+    }
+   ],
+   "neither": [
+    "A honeybee has five eyes.",
+    "Bees dance to show where flowers are.",
+    "Worker bees are female."
+   ],
+   "main": [
+    "In a hive, each bee has a job to do.",
+    "Bees drink nectar, and the pollen they carry helps plants."
+   ],
+   "dets": [
+    [
+     "The queen bee lays the eggs.",
+     "Worker bees guard the door.",
+     "Bees build six-sided cells.",
+     "Worker bees build cells out of wax from their own bodies.",
+     "Bees fill some cells with eggs and others with honey."
+    ],
+    [
+     "A bee's body is fuzzy.",
+     "Bees fly from flower to flower.",
+     "Bees make nectar into honey.",
+     "A bee leaves some of its pollen on the next flower it visits.",
+     "Bees and other insects carry pollen for apple and cherry trees."
+    ]
+   ],
+   "only": [
+    "The queen bee lays the eggs.",
+    "Pollen is a powdery dust."
+   ],
+   "details": [
+    [
+     "The queen bee lays the eggs.",
+     "Cells are made of wax."
+    ],
+    [
+     "Pollen sticks to a bee's body.",
+     "Apple trees need bees."
+    ]
+   ],
+   "both": "Bees make honey from nectar.",
+   "alike": "Both say bees make honey from nectar.",
+   "differ": "Only Text 2 tells how bees help plants."
+  },
+  {
+   "id": "octopus",
+   "topic": "Octopuses",
+   "subject": [
+    [
+     "octopus"
+    ],
+    [
+     "octopus"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Eight Arms and Three Hearts",
+     "paras": [
+      "An octopus is an ocean animal with a soft body and eight arms. Each arm is covered with round suckers. The suckers help the octopus hold on to rocks and grab food, such as crabs. An octopus has no bones at all. It has three hearts, and its blood is blue.",
+      "An octopus also has a large brain for its size. It can solve puzzles, such as opening a jar to get the food inside. Scientists say octopuses are very smart."
+     ]
+    },
+    {
+     "title": "Staying Safe",
+     "paras": [
+      "An octopus lives in the ocean, where many animals want to eat it. To stay safe, an octopus can change the color of its skin in less than a second. It can look like sand, rocks, or seaweed. With no bones in its body, it can squeeze into a tiny hole.",
+      "If a fish comes too close, an octopus can squirt a cloud of dark ink. Many octopuses hide in a den in the day and hunt crabs at night. Some pull shells in front of the door with their eight arms."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "Octopus arms have suckers.",
+     "a": 1,
+     "proof": [
+      "Each arm is covered with round suckers.",
+      null
+     ]
+    },
+    {
+     "s": "An octopus has three hearts.",
+     "a": 1,
+     "proof": [
+      "It has three hearts, and its blood is blue.",
+      null
+     ]
+    },
+    {
+     "s": "An octopus has blue blood.",
+     "a": 1,
+     "proof": [
+      "It has three hearts, and its blood is blue.",
+      null
+     ]
+    },
+    {
+     "s": "An octopus can open a jar.",
+     "a": 1,
+     "proof": [
+      "It can solve puzzles, such as opening a jar to get the food inside.",
+      null
+     ]
+    },
+    {
+     "s": "An octopus can change color fast.",
+     "a": 2,
+     "proof": [
+      null,
+      "To stay safe, an octopus can change the color of its skin in less than a second."
+     ]
+    },
+    {
+     "s": "An octopus can squirt ink.",
+     "a": 2,
+     "proof": [
+      null,
+      "If a fish comes too close, an octopus can squirt a cloud of dark ink."
+     ]
+    },
+    {
+     "s": "An octopus can look like seaweed.",
+     "a": 2,
+     "proof": [
+      null,
+      "It can look like sand, rocks, or seaweed."
+     ]
+    },
+    {
+     "s": "Many octopuses hide in a den.",
+     "a": 2,
+     "proof": [
+      null,
+      "Many octopuses hide in a den in the day and hunt crabs at night."
+     ]
+    },
+    {
+     "s": "An octopus has eight arms.",
+     "a": "both",
+     "proof": [
+      "An octopus is an ocean animal with a soft body and eight arms.",
+      "Some pull shells in front of the door with their eight arms."
+     ]
+    },
+    {
+     "s": "An octopus lives in the ocean.",
+     "a": "both",
+     "proof": [
+      "An octopus is an ocean animal with a soft body and eight arms.",
+      "An octopus lives in the ocean, where many animals want to eat it."
+     ]
+    },
+    {
+     "s": "An octopus eats crabs.",
+     "a": "both",
+     "proof": [
+      "The suckers help the octopus hold on to rocks and grab food, such as crabs.",
+      "Many octopuses hide in a den in the day and hunt crabs at night."
+     ]
+    },
+    {
+     "s": "An octopus has no bones.",
+     "a": "both",
+     "proof": [
+      "An octopus has no bones at all.",
+      "With no bones in its body, it can squeeze into a tiny hole."
+     ]
+    }
+   ],
+   "neither": [
+    "An octopus has a hard beak.",
+    "An octopus can grow back a lost arm.",
+    "Octopuses taste with their suckers."
+   ],
+   "main": [
+    "An octopus has a strange body and a smart brain.",
+    "An octopus has many clever ways to hide."
+   ],
+   "dets": [
+    [
+     "An octopus has three hearts.",
+     "An octopus has blue blood.",
+     "An octopus has round suckers.",
+     "An octopus uses its suckers to hold rocks and grab crabs.",
+     "An octopus can solve puzzles, such as opening a jar."
+    ],
+    [
+     "An octopus can squirt dark ink.",
+     "An octopus can look like sand.",
+     "An octopus can squeeze into a tiny hole.",
+     "An octopus can change the color of its skin in less than a second.",
+     "Many octopuses hide in a den in the day and hunt at night."
+    ]
+   ],
+   "only": [
+    "An octopus has three hearts.",
+    "An octopus can squirt ink."
+   ],
+   "details": [
+    [
+     "It has three hearts.",
+     "It can open a jar."
+    ],
+    [
+     "It can change color.",
+     "It can squirt ink."
+    ]
+   ],
+   "both": "An octopus has eight arms.",
+   "alike": "Both say an octopus has eight arms.",
+   "differ": "Only Text 2 tells how an octopus hides."
+  },
+  {
+   "id": "frogs",
+   "topic": "Frogs",
+   "subject": [
+    [
+     "tadpole",
+     "frog"
+    ],
+    [
+     "frog"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Growing Up in a Pond",
+     "paras": [
+      "Many frogs begin life as tiny eggs in a pond. A mother frog can lay hundreds of eggs at a time, in a jelly that keeps them together. A tadpole hatches from each egg. It has a tail for swimming and gills for breathing underwater.",
+      "As the tadpole grows, it sprouts back legs and then front legs. Its tail gets shorter and shorter. It grows lungs and starts to breathe air. The change takes many weeks. Then the young frog hops onto land near the pond and starts to catch and eat insects."
+     ]
+    },
+    {
+     "title": "Time for Dinner",
+     "paras": [
+      "Most frogs grow from tadpoles. Grown-up frogs are hunters. Most frogs eat insects, such as flies, crickets, and moths. A frog sits very still by the edge of a pond and waits for an insect to come close. Then its long, sticky tongue shoots out and grabs it.",
+      "A frog does not chew its food. It swallows it whole. When a frog swallows, its eyes sink down into its head, and they help push the food down its throat! Then the frog hops to a new spot to wait again."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "A tadpole has gills.",
+     "a": 1,
+     "proof": [
+      "It has a tail for swimming and gills for breathing underwater.",
+      null
+     ]
+    },
+    {
+     "s": "A tadpole's tail gets shorter.",
+     "a": 1,
+     "proof": [
+      "Its tail gets shorter and shorter.",
+      null
+     ]
+    },
+    {
+     "s": "Frog eggs are kept together in jelly.",
+     "a": 1,
+     "proof": [
+      "A mother frog can lay hundreds of eggs at a time, in a jelly that keeps them together.",
+      null
+     ]
+    },
+    {
+     "s": "Back legs grow before front legs.",
+     "a": 1,
+     "proof": [
+      "As the tadpole grows, it sprouts back legs and then front legs.",
+      null
+     ]
+    },
+    {
+     "s": "A frog swallows its food whole.",
+     "a": 2,
+     "proof": [
+      null,
+      "A frog does not chew its food. It swallows it whole."
+     ]
+    },
+    {
+     "s": "A frog's eyes help it swallow.",
+     "a": 2,
+     "proof": [
+      null,
+      "When a frog swallows, its eyes sink down into its head, and they help push the food down its throat!"
+     ]
+    },
+    {
+     "s": "A frog's tongue is sticky.",
+     "a": 2,
+     "proof": [
+      null,
+      "Then its long, sticky tongue shoots out and grabs it."
+     ]
+    },
+    {
+     "s": "A frog sits still and waits for food.",
+     "a": 2,
+     "proof": [
+      null,
+      "A frog sits very still by the edge of a pond and waits for an insect to come close."
+     ]
+    },
+    {
+     "s": "Tadpoles grow into frogs.",
+     "a": "both",
+     "proof": [
+      [
+       "As the tadpole grows, it sprouts back legs and then front legs.",
+       "Then the young frog hops onto land near the pond and starts to catch and eat insects."
+      ],
+      "Most frogs grow from tadpoles."
+     ]
+    },
+    {
+     "s": "Frogs eat insects.",
+     "a": "both",
+     "proof": [
+      "Then the young frog hops onto land near the pond and starts to catch and eat insects.",
+      "Most frogs eat insects, such as flies, crickets, and moths."
+     ]
+    },
+    {
+     "s": "A frog can hop.",
+     "a": "both",
+     "proof": [
+      "Then the young frog hops onto land near the pond and starts to catch and eat insects.",
+      "Then the frog hops to a new spot to wait again."
+     ]
+    },
+    {
+     "s": "Frogs can live near a pond.",
+     "a": "both",
+     "proof": [
+      "Then the young frog hops onto land near the pond and starts to catch and eat insects.",
+      "A frog sits very still by the edge of a pond and waits for an insect to come close."
+     ]
+    }
+   ],
+   "neither": [
+    "Some frogs can change color.",
+    "Frogs shed their skin.",
+    "Frogs take in water through their skin."
+   ],
+   "main": [
+    "A tadpole slowly changes into a frog.",
+    "A frog is a hunter that eats insects."
+   ],
+   "dets": [
+    [
+     "A tadpole has gills.",
+     "A tadpole's tail gets shorter.",
+     "Frog eggs are held in jelly.",
+     "A tadpole has a tail for swimming and gills for breathing.",
+     "A mother frog can lay hundreds of eggs at a time."
+    ],
+    [
+     "A frog's tongue is sticky.",
+     "A frog swallows food whole.",
+     "A frog does not chew.",
+     "A frog's eyes sink into its head when it swallows.",
+     "A frog's long, sticky tongue shoots out to grab an insect."
+    ]
+   ],
+   "only": [
+    "A tadpole has gills.",
+    "A frog swallows food whole."
+   ],
+   "details": [
+    [
+     "A tadpole has gills.",
+     "Its tail gets shorter."
+    ],
+    [
+     "Its tongue is sticky.",
+     "It swallows food whole."
+    ]
+   ],
+   "both": "Frogs eat insects.",
+   "alike": "Both say that frogs eat insects.",
+   "differ": "Only Text 1 tells how a tadpole grows."
+  },
+  {
+   "id": "moon",
+   "topic": "The Moon",
+   "subject": [
+    [
+     "moon"
+    ],
+    [
+     "astronaut"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Shining at Night",
+     "paras": [
+      "The Moon does not make its own light. Sunlight shines on the Moon's gray rocks and dust and bounces off, the way light bounces off a wall. The Moon has no air, so there is no wind there, and its sky is always black.",
+      "The Moon travels around Earth about once a month. As it moves, we see different amounts of its sunny side. That is why the Moon seems to change shape. These shapes are called phases. A full moon looks like a circle. A crescent moon looks like a thin curve."
+     ]
+    },
+    {
+     "title": "The First Visitors",
+     "paras": [
+      "In 1969, two astronauts became the first people to walk on the Moon. They flew there with a third astronaut in a spacecraft named Apollo 11, which traveled around Earth and then on to the Moon. The trip took about four days.",
+      "The Moon has no air to breathe, so the astronauts wore space suits. They picked up Moon rocks to bring back to Earth. The footprints they left are still there today, because the Moon has no wind or rain to wipe them away. The Moon travels around Earth, and so do the footprints!"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "The Moon does not make its own light.",
+     "a": 1,
+     "proof": [
+      "The Moon does not make its own light.",
+      null
+     ]
+    },
+    {
+     "s": "Sunlight bounces off the Moon.",
+     "a": 1,
+     "proof": [
+      "Sunlight shines on the Moon's gray rocks and dust and bounces off, the way light bounces off a wall.",
+      null
+     ]
+    },
+    {
+     "s": "The Moon seems to change shape.",
+     "a": 1,
+     "proof": [
+      "That is why the Moon seems to change shape.",
+      null
+     ]
+    },
+    {
+     "s": "A crescent moon looks like a thin curve.",
+     "a": 1,
+     "proof": [
+      "A crescent moon looks like a thin curve.",
+      null
+     ]
+    },
+    {
+     "s": "Two astronauts walked on the Moon in 1969.",
+     "a": 2,
+     "proof": [
+      null,
+      "In 1969, two astronauts became the first people to walk on the Moon."
+     ]
+    },
+    {
+     "s": "The astronauts wore space suits.",
+     "a": 2,
+     "proof": [
+      null,
+      "The Moon has no air to breathe, so the astronauts wore space suits."
+     ]
+    },
+    {
+     "s": "The trip took about four days.",
+     "a": 2,
+     "proof": [
+      null,
+      "The trip took about four days."
+     ]
+    },
+    {
+     "s": "Footprints are still on the Moon.",
+     "a": 2,
+     "proof": [
+      null,
+      "The footprints they left are still there today, because the Moon has no wind or rain to wipe them away."
+     ]
+    },
+    {
+     "s": "The Moon travels around Earth.",
+     "a": "both",
+     "proof": [
+      "The Moon travels around Earth about once a month.",
+      "The Moon travels around Earth, and so do the footprints!"
+     ]
+    },
+    {
+     "s": "The Moon has no air.",
+     "a": "both",
+     "proof": [
+      "The Moon has no air, so there is no wind there, and its sky is always black.",
+      "The Moon has no air to breathe, so the astronauts wore space suits."
+     ]
+    },
+    {
+     "s": "There are rocks on the Moon.",
+     "a": "both",
+     "proof": [
+      "Sunlight shines on the Moon's gray rocks and dust and bounces off, the way light bounces off a wall.",
+      "They picked up Moon rocks to bring back to Earth."
+     ]
+    },
+    {
+     "s": "There is no wind on the Moon.",
+     "a": "both",
+     "proof": [
+      "The Moon has no air, so there is no wind there, and its sky is always black.",
+      "The footprints they left are still there today, because the Moon has no wind or rain to wipe them away."
+     ]
+    }
+   ],
+   "neither": [
+    "The Moon is smaller than Earth.",
+    "The Moon has many craters.",
+    "You would weigh less on the Moon."
+   ],
+   "main": [
+    "The Moon gets its light from the Sun and has phases.",
+    "Astronauts flew to the Moon and explored it."
+   ],
+   "dets": [
+    [
+     "The Moon's sky is always black.",
+     "A crescent moon is a thin curve.",
+     "A full moon looks like a circle.",
+     "The Moon shows different amounts of its sunny side as it moves.",
+     "The Moon's gray rocks and dust make sunlight bounce off."
+    ],
+    [
+     "The astronauts wore space suits.",
+     "The astronauts’ trip took about four days.",
+     "The astronauts' footprints are still there.",
+     "The astronauts picked up Moon rocks to bring back to Earth.",
+     "A third astronaut flew with them in a spacecraft named Apollo 11."
+    ]
+   ],
+   "only": [
+    "Sunlight bounces off the Moon.",
+    "Astronauts wore space suits."
+   ],
+   "details": [
+    [
+     "It does not make light.",
+     "A full moon is round."
+    ],
+    [
+     "They wore space suits.",
+     "Footprints are still there."
+    ]
+   ],
+   "both": "The Moon has no air.",
+   "alike": "Both say the Moon has no air.",
+   "differ": "Only Text 2 tells about astronauts."
+  },
+  {
+   "id": "bats",
+   "topic": "Bats",
+   "subject": [
+    [
+     "bat"
+    ],
+    [
+     "bat"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Seeing with Sound",
+     "paras": [
+      "Most bats come out at night to find insects to eat. To find their way in the dark, many bats use their ears. A bat makes high squeaks as it flies. The sound bounces off things around it and comes back as an echo.",
+      "By listening to the echoes, a bat can tell where a moth is. Then it catches the moth and eats it. This way of finding things is called echolocation. Most of the squeaks are too high for people to hear."
+     ]
+    },
+    {
+     "title": "Friends in the Night Sky",
+     "paras": [
+      "Bats are mammals, and they are the only mammals that can truly fly. Their wings are made of thin skin stretched over long finger bones. Most bats come out at night and sleep during the day.",
+      "Bats help people in many ways. Many bats eat huge numbers of insects, such as mosquitoes and moths. Some bats drink nectar from flowers and carry pollen, the way bees do. Other bats eat fruit and drop the seeds, which helps new trees grow."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "Many bats make high squeaks.",
+     "a": 1,
+     "proof": [
+      "A bat makes high squeaks as it flies.",
+      null
+     ]
+    },
+    {
+     "s": "Sound comes back as an echo.",
+     "a": 1,
+     "proof": [
+      "The sound bounces off things around it and comes back as an echo.",
+      null
+     ]
+    },
+    {
+     "s": "People cannot hear most bat squeaks.",
+     "a": 1,
+     "proof": [
+      "Most of the squeaks are too high for people to hear.",
+      null
+     ]
+    },
+    {
+     "s": "Many bats use echolocation.",
+     "a": 1,
+     "proof": [
+      [
+       "To find their way in the dark, many bats use their ears.",
+       "This way of finding things is called echolocation."
+      ],
+      null
+     ]
+    },
+    {
+     "s": "Bats are mammals.",
+     "a": 2,
+     "proof": [
+      null,
+      "Bats are mammals, and they are the only mammals that can truly fly."
+     ]
+    },
+    {
+     "s": "Bat wings are made of thin skin.",
+     "a": 2,
+     "proof": [
+      null,
+      "Their wings are made of thin skin stretched over long finger bones."
+     ]
+    },
+    {
+     "s": "Some bats drink nectar.",
+     "a": 2,
+     "proof": [
+      null,
+      "Some bats drink nectar from flowers and carry pollen, the way bees do."
+     ]
+    },
+    {
+     "s": "Bats that eat fruit help trees grow.",
+     "a": 2,
+     "proof": [
+      null,
+      "Other bats eat fruit and drop the seeds, which helps new trees grow."
+     ]
+    },
+    {
+     "s": "Many bats eat insects.",
+     "a": "both",
+     "proof": [
+      "Most bats come out at night to find insects to eat.",
+      "Many bats eat huge numbers of insects, such as mosquitoes and moths."
+     ]
+    },
+    {
+     "s": "Some bats eat moths.",
+     "a": "both",
+     "proof": [
+      "Then it catches the moth and eats it.",
+      "Many bats eat huge numbers of insects, such as mosquitoes and moths."
+     ]
+    },
+    {
+     "s": "Most bats come out at night.",
+     "a": "both",
+     "proof": [
+      "Most bats come out at night to find insects to eat.",
+      "Most bats come out at night and sleep during the day."
+     ]
+    },
+    {
+     "s": "Bats can fly.",
+     "a": "both",
+     "proof": [
+      "A bat makes high squeaks as it flies.",
+      "Bats are mammals, and they are the only mammals that can truly fly."
+     ]
+    }
+   ],
+   "neither": [
+    "Many bats sleep upside down.",
+    "Some bats live in caves.",
+    "A baby bat is called a pup."
+   ],
+   "main": [
+    "Many bats use echoes to find their meals.",
+    "Bats are flying mammals that help people."
+   ],
+   "dets": [
+    [
+     "A bat makes high squeaks.",
+     "Most bats come out at night.",
+     "Most bat squeaks are too high to hear.",
+     "A bat can tell where a moth is by listening to echoes.",
+     "A bat's way of finding things is called echolocation."
+    ],
+    [
+     "Many bats eat mosquitoes.",
+     "Some bats drink nectar.",
+     "Bat wings are thin skin.",
+     "A bat's wings are made of thin skin over long finger bones.",
+     "Bats that eat fruit drop seeds, which helps new trees grow."
+    ]
+   ],
+   "only": [
+    "Many bats make high squeaks.",
+    "Some bats drink nectar."
+   ],
+   "details": [
+    [
+     "Many bats make high squeaks.",
+     "The squeaks make echoes."
+    ],
+    [
+     "Some bats carry pollen.",
+     "Some bats spread seeds."
+    ]
+   ],
+   "both": "Many bats eat insects.",
+   "alike": "Both say that many bats eat insects.",
+   "differ": "Only Text 2 tells how bats help us."
+  },
+  {
+   "id": "turtles",
+   "topic": "Sea Turtles",
+   "subject": [
+    [
+     "turtle"
+    ],
+    [
+     "turtle"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Flippers and a Shell",
+     "paras": [
+      "Sea turtles spend almost their whole lives swimming in the ocean. Instead of feet, they have flippers that work like paddles. Like all turtles, a sea turtle has a shell. Many land turtles can pull their heads into their shells, but a sea turtle cannot.",
+      "Sea turtles breathe air, just like people. A sea turtle must swim up to the top of the water to take a breath. When it is resting, it can hold its breath for a long time, sometimes for hours."
+     ]
+    },
+    {
+     "title": "Hatching Time",
+     "paras": [
+      "A mother sea turtle crawls out of the ocean onto a sandy beach at night. She digs a hole with her back flippers and lays about one hundred eggs inside. Then she covers them with sand and goes back to the water.",
+      "About two months later, the baby turtles hatch, each with a tiny shell. They dig out of the sand and hurry toward the ocean. Birds and crabs eat some of them on the way. The ones that reach the water swim out to sea, coming up now and then to breathe air."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "A sea turtle can't pull in its head.",
+     "a": 1,
+     "proof": [
+      "Many land turtles can pull their heads into their shells, but a sea turtle cannot.",
+      null
+     ]
+    },
+    {
+     "s": "Flippers work like paddles.",
+     "a": 1,
+     "proof": [
+      "Instead of feet, they have flippers that work like paddles.",
+      null
+     ]
+    },
+    {
+     "s": "Sea turtles may hold their breath for hours.",
+     "a": 1,
+     "proof": [
+      "When it is resting, it can hold its breath for a long time, sometimes for hours.",
+      null
+     ]
+    },
+    {
+     "s": "Many land turtles can pull in their heads.",
+     "a": 1,
+     "proof": [
+      "Many land turtles can pull their heads into their shells, but a sea turtle cannot.",
+      null
+     ]
+    },
+    {
+     "s": "A mother turtle lays about one hundred eggs.",
+     "a": 2,
+     "proof": [
+      null,
+      "She digs a hole with her back flippers and lays about one hundred eggs inside."
+     ]
+    },
+    {
+     "s": "The eggs hatch about two months later.",
+     "a": 2,
+     "proof": [
+      null,
+      "About two months later, the baby turtles hatch, each with a tiny shell."
+     ]
+    },
+    {
+     "s": "Birds and crabs eat some baby turtles.",
+     "a": 2,
+     "proof": [
+      null,
+      "Birds and crabs eat some of them on the way."
+     ]
+    },
+    {
+     "s": "A mother turtle digs a hole in the sand.",
+     "a": 2,
+     "proof": [
+      null,
+      "A mother sea turtle crawls out of the ocean onto a sandy beach at night. She digs a hole with her back flippers and lays about one hundred eggs inside."
+     ]
+    },
+    {
+     "s": "Sea turtles have flippers.",
+     "a": "both",
+     "proof": [
+      "Instead of feet, they have flippers that work like paddles.",
+      "She digs a hole with her back flippers and lays about one hundred eggs inside."
+     ]
+    },
+    {
+     "s": "Sea turtles swim in the ocean.",
+     "a": "both",
+     "proof": [
+      "Sea turtles spend almost their whole lives swimming in the ocean.",
+      "The ones that reach the water swim out to sea, coming up now and then to breathe air."
+     ]
+    },
+    {
+     "s": "Sea turtles have shells.",
+     "a": "both",
+     "proof": [
+      "Like all turtles, a sea turtle has a shell.",
+      "About two months later, the baby turtles hatch, each with a tiny shell."
+     ]
+    },
+    {
+     "s": "Sea turtles breathe air.",
+     "a": "both",
+     "proof": [
+      "Sea turtles breathe air, just like people.",
+      "The ones that reach the water swim out to sea, coming up now and then to breathe air."
+     ]
+    }
+   ],
+   "neither": [
+    "Sea turtles have no teeth.",
+    "Some sea turtles swim thousands of miles.",
+    "Sea turtles are reptiles."
+   ],
+   "main": [
+    "Sea turtles have bodies that help them live in water.",
+    "Sea turtles lay eggs on a beach, and the babies go to sea."
+   ],
+   "dets": [
+    [
+     "A sea turtle's flippers work like paddles.",
+     "A sea turtle cannot pull in its head.",
+     "A sea turtle can hold its breath for hours.",
+     "A sea turtle spends almost its whole life swimming in the ocean.",
+     "A sea turtle must swim up to the top of the water to breathe."
+    ],
+    [
+     "A mother sea turtle digs a hole.",
+     "A mother sea turtle lays about 100 eggs.",
+     "A baby sea turtle hatches with a tiny shell.",
+     "Baby sea turtles hatch from their eggs about two months later.",
+     "A mother sea turtle covers her eggs with sand and swims away."
+    ]
+   ],
+   "only": [
+    "It can't pull in its head.",
+    "A mother lays about 100 eggs."
+   ],
+   "details": [
+    [
+     "It has flippers, not feet.",
+     "It must come up for air."
+    ],
+    [
+     "She lays about 100 eggs.",
+     "The babies hurry to sea."
+    ]
+   ],
+   "both": "Sea turtles breathe air.",
+   "alike": "Both say that sea turtles breathe air.",
+   "differ": "Only Text 2 tells how the babies hatch."
+  },
+  {
+   "id": "spiders",
+   "topic": "Spiders",
+   "subject": [
+    [
+     "spider"
+    ],
+    [
+     "spider",
+     "insect"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Spinning Silk",
+     "paras": [
+      "Many spiders spin webs out of silk. The silk comes from body parts called spinnerets at the back of the spider. Some threads of a web are sticky, and some are not. The spider walks on its eight legs along the threads that are not sticky.",
+      "When an insect flies into the web, it gets stuck. The web shakes, and the spider feels it. The spider rushes over and wraps the insect in silk to eat later. Some spiders spin a new web every day."
+     ]
+    },
+    {
+     "title": "Count the Legs",
+     "paras": [
+      "Spiders and insects can look alike, but they are different kinds of animals. An insect has six legs, but a spider has eight legs. An insect's body has three main parts, but a spider's body has only two.",
+      "Insects have antennae, but spiders do not. All spiders make silk, and insects that fly into a spider's web can get stuck. Spiders often catch and eat insects, such as flies and moths. Most spiders have eight eyes, though some have fewer."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "Silk comes from spinnerets.",
+     "a": 1,
+     "proof": [
+      "The silk comes from body parts called spinnerets at the back of the spider.",
+      null
+     ]
+    },
+    {
+     "s": "Some threads of a web are sticky.",
+     "a": 1,
+     "proof": [
+      "Some threads of a web are sticky, and some are not.",
+      null
+     ]
+    },
+    {
+     "s": "A web shakes when an insect hits it.",
+     "a": 1,
+     "proof": [
+      "The web shakes, and the spider feels it.",
+      null
+     ]
+    },
+    {
+     "s": "A spider wraps an insect in silk.",
+     "a": 1,
+     "proof": [
+      "The spider rushes over and wraps the insect in silk to eat later.",
+      null
+     ]
+    },
+    {
+     "s": "An insect has six legs.",
+     "a": 2,
+     "proof": [
+      null,
+      "An insect has six legs, but a spider has eight legs."
+     ]
+    },
+    {
+     "s": "A spider's body has two main parts.",
+     "a": 2,
+     "proof": [
+      null,
+      "An insect's body has three main parts, but a spider's body has only two."
+     ]
+    },
+    {
+     "s": "Spiders do not have antennae.",
+     "a": 2,
+     "proof": [
+      null,
+      "Insects have antennae, but spiders do not."
+     ]
+    },
+    {
+     "s": "Most spiders have eight eyes.",
+     "a": 2,
+     "proof": [
+      null,
+      "Most spiders have eight eyes, though some have fewer."
+     ]
+    },
+    {
+     "s": "Spiders eat insects.",
+     "a": "both",
+     "proof": [
+      "The spider rushes over and wraps the insect in silk to eat later.",
+      "Spiders often catch and eat insects, such as flies and moths."
+     ]
+    },
+    {
+     "s": "Spiders make silk.",
+     "a": "both",
+     "proof": [
+      "Many spiders spin webs out of silk.",
+      "All spiders make silk, and insects that fly into a spider's web can get stuck."
+     ]
+    },
+    {
+     "s": "A spider has eight legs.",
+     "a": "both",
+     "proof": [
+      "The spider walks on its eight legs along the threads that are not sticky.",
+      "An insect has six legs, but a spider has eight legs."
+     ]
+    },
+    {
+     "s": "Insects can get stuck in a web.",
+     "a": "both",
+     "proof": [
+      "When an insect flies into the web, it gets stuck.",
+      "All spiders make silk, and insects that fly into a spider's web can get stuck."
+     ]
+    }
+   ],
+   "neither": [
+    "Baby spiders are called spiderlings.",
+    "Spiders shed their skin to grow.",
+    "Spider silk is very strong for its size."
+   ],
+   "main": [
+    "Spiders build webs to catch insects.",
+    "Spiders and insects are different animals."
+   ],
+   "dets": [
+    [
+     "A spider feels the web shake.",
+     "Spider silk comes from spinnerets.",
+     "Some spiders spin a web every day.",
+     "A spider wraps an insect in silk to eat later.",
+     "A spider walks along the threads that are not sticky."
+    ],
+    [
+     "Insects have antennae.",
+     "Spiders have no antennae.",
+     "Most spiders have eight eyes.",
+     "An insect has six legs, but a spider has eight legs.",
+     "An insect's body has three parts, but a spider's has two."
+    ]
+   ],
+   "only": [
+    "Silk comes from spinnerets.",
+    "Spiders have no antennae."
+   ],
+   "details": [
+    [
+     "Some threads are sticky.",
+     "The web shakes."
+    ],
+    [
+     "Insects have six legs.",
+     "Spiders have no antennae."
+    ]
+   ],
+   "both": "Spiders eat insects.",
+   "alike": "Both say that spiders eat insects.",
+   "differ": "Only Text 1 tells how webs work."
+  },
+  {
+   "id": "beavers",
+   "topic": "Beavers",
+   "subject": [
+    [
+     "beaver"
+    ],
+    [
+     "beaver"
+    ]
+   ],
+   "texts": [
+    {
+     "title": "Logs, Sticks, and Mud",
+     "paras": [
+      "Beavers are famous builders. They cut down small trees by chewing through the trunks with their strong front teeth. Then they use the logs, sticks, mud, and stones to build a dam across a stream.",
+      "The dam holds back the water and makes a pond. In the pond, beavers build a home called a lodge. The door of the lodge is underwater. Beavers swim in and out, but wolves and other enemies cannot get in easily."
+     ]
+    },
+    {
+     "title": "Made for Water",
+     "paras": [
+      "Beavers live in ponds and streams, and a beaver's body is made for swimming. It has webbed back feet that push it through the water. Its flat, wide tail helps it steer. A beaver can stay underwater for about fifteen minutes.",
+      "A beaver's strong front teeth are orange, and they never stop growing. Chewing on wood wears them down, so they stay the right size. Beavers also slap their tails on the water to warn other beavers of danger."
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "s": "Beavers build dams.",
+     "a": 1,
+     "proof": [
+      "Then they use the logs, sticks, mud, and stones to build a dam across a stream.",
+      null
+     ]
+    },
+    {
+     "s": "A dam makes a pond.",
+     "a": 1,
+     "proof": [
+      "The dam holds back the water and makes a pond.",
+      null
+     ]
+    },
+    {
+     "s": "A beaver's home is called a lodge.",
+     "a": 1,
+     "proof": [
+      "In the pond, beavers build a home called a lodge.",
+      null
+     ]
+    },
+    {
+     "s": "The lodge door is underwater.",
+     "a": 1,
+     "proof": [
+      "The door of the lodge is underwater.",
+      null
+     ]
+    },
+    {
+     "s": "Beavers have webbed back feet.",
+     "a": 2,
+     "proof": [
+      null,
+      "It has webbed back feet that push it through the water."
+     ]
+    },
+    {
+     "s": "A beaver's teeth are orange.",
+     "a": 2,
+     "proof": [
+      null,
+      "A beaver's strong front teeth are orange, and they never stop growing."
+     ]
+    },
+    {
+     "s": "A beaver's teeth never stop growing.",
+     "a": 2,
+     "proof": [
+      null,
+      "A beaver's strong front teeth are orange, and they never stop growing."
+     ]
+    },
+    {
+     "s": "Beavers slap their tails to warn others.",
+     "a": 2,
+     "proof": [
+      null,
+      "Beavers also slap their tails on the water to warn other beavers of danger."
+     ]
+    },
+    {
+     "s": "Beavers have strong front teeth.",
+     "a": "both",
+     "proof": [
+      "They cut down small trees by chewing through the trunks with their strong front teeth.",
+      "A beaver's strong front teeth are orange, and they never stop growing."
+     ]
+    },
+    {
+     "s": "Beavers chew wood.",
+     "a": "both",
+     "proof": [
+      "They cut down small trees by chewing through the trunks with their strong front teeth.",
+      "Chewing on wood wears them down, so they stay the right size."
+     ]
+    },
+    {
+     "s": "Beavers swim.",
+     "a": "both",
+     "proof": [
+      "Beavers swim in and out, but wolves and other enemies cannot get in easily.",
+      "Beavers live in ponds and streams, and a beaver's body is made for swimming."
+     ]
+    },
+    {
+     "s": "Beavers live near water.",
+     "a": "both",
+     "proof": [
+      "In the pond, beavers build a home called a lodge.",
+      "Beavers live in ponds and streams, and a beaver's body is made for swimming."
+     ]
+    }
+   ],
+   "neither": [
+    "Beavers can close their ears underwater.",
+    "Baby beavers are called kits.",
+    "Beavers are rodents."
+   ],
+   "main": [
+    "Beavers build dams and homes with wood.",
+    "A beaver's body helps it swim and chew."
+   ],
+   "dets": [
+    [
+     "A beaver's dam makes a pond.",
+     "A beaver's lodge door is underwater.",
+     "Beavers also use mud and stones.",
+     "A beaver's lodge keeps out wolves and other enemies.",
+     "Beavers cut down small trees by chewing through the trunks."
+    ],
+    [
+     "A beaver's teeth are orange.",
+     "A beaver's back feet are webbed.",
+     "A beaver's flat tail helps it steer.",
+     "A beaver can stay underwater for about fifteen minutes.",
+     "Beavers slap their tails on the water to warn others."
+    ]
+   ],
+   "only": [
+    "Beavers build dams.",
+    "Beavers have webbed feet."
+   ],
+   "details": [
+    [
+     "They build dams.",
+     "The lodge door is underwater."
+    ],
+    [
+     "Its back feet are webbed.",
+     "Its teeth keep growing."
+    ]
+   ],
+   "both": "Beavers chew wood.",
+   "alike": "Both say that beavers chew wood.",
+   "differ": "Only Text 1 tells about dams."
+  }
+ ],
+ "modelOnly": [
+  "Our puppy sleeps in the doghouse.",
+  "I'm in the doghouse for being late.",
+  "in the doghouse"
+ ]
+}

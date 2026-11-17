@@ -3737,6 +3737,47 @@
    ]
   },
   {
+   "id": "g2-stories-beginnings-endings-and-versions",
+   "slug": "stories-beginnings-endings-and-versions-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Stories: Beginnings, Endings, and Versions",
+   "metaTitle": "Grade 2 Stories Unit: Beginnings, Endings, Versions",
+   "metaDescription": "A Grade 2 reading unit on how stories begin and end, different voices for different characters, two versions of one tale, and book club talk.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:story-beginning-ending",
+     "types": [
+      "G2-576",
+      "G2-577"
+     ]
+    },
+    {
+     "point": "2:character-voices",
+     "types": [
+      "G2-578",
+      "G2-579"
+     ]
+    },
+    {
+     "point": "2:two-versions-of-a-tale",
+     "types": [
+      "G2-580",
+      "G2-581"
+     ]
+    },
+    {
+     "point": "2:build-on-others-talk",
+     "types": [
+      "G2-582",
+      "G2-583"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g2-opinion-writing-and-letters",
    "slug": "opinion-writing-and-letters-grade-2-unit",
    "status": "live",
@@ -4370,6 +4411,7 @@
     "g2-writing-stories",
     "g2-reading-to-learn-informational-texts",
     "g2-writing-to-inform",
+    "g2-stories-beginnings-endings-and-versions",
     "g2-opinion-writing-and-letters"
    ]
   },

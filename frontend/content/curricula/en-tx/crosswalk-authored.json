@@ -6041,6 +6041,74 @@
    ],
    "why": "Adding a detail with a caret after the partner’s question, crossing out the sentence that does not belong and putting a sentence back in its place are «revise drafts by adding, deleting, or rearranging words, phrases, or sentences»; adding the missing end marks is the «end punctuation» of 2.11.D.x; writing the capital of a name prepares «singular, plural, common, and proper nouns».",
    "review": "year-design 2026-11-17"
+  },
+  "2:story-beginning-ending": {
+   "rows": [
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.D",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming the problem the beginning sets up and how the ending solves it is «describe and understand plot elements, including the main events, the conflict, and the resolution»; telling where the beginning happens prepares «describe the importance of the setting».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:character-voices": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading a short play with a narrator and three characters is «discuss elements of drama such as characters, dialogue, and setting»; reading each part in a voice that fits is the prosody of «use appropriate fluency rate, accuracy, and prosody when reading grade-level text»; telling what each character thinks prepares «describe the main character’s internal and external traits».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:two-versions-of-a-tale": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.6.H",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Two versions of a traditional tale (The Three Little Pigs, The Lion and the Mouse) are «well-known children’s literature such as folktales, fables, and fairy tales»; sorting the facts of both by characters, setting, problem and ending uses the plot elements of 2.8.C, and writing how the versions are alike and different prepares «synthesize information to create new understanding». Texas names no comparison of versions of its own in Grade 2.",
+   "review": "year-design 2026-11-17"
+  },
+  "2:build-on-others-talk": {
+   "rows": [
+    {
+     "id": "ELAR.2.1.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.1.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.7.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing and writing the reply that builds on a classmate’s comment is «work collaboratively with others by following agreed-upon rules for discussion, including listening to others, speaking when recognized, making appropriate contributions»; staying with the idea under discussion is «share information and ideas that focus on the topic under discussion»; the one thing to say about the book on the talk card prepares «write brief comments on literary or informational texts».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

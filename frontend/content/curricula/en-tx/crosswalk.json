@@ -4346,6 +4346,81 @@
    ],
    "by": "authored"
   },
+  "2:story-beginning-ending": {
+   "rows": [
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.8.D",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:character-voices": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.4",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.8.B",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:two-versions-of-a-tale": {
+   "rows": [
+    {
+     "id": "ELAR.2.9.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.8.C",
+     "rel": "prepares",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.6.H",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:build-on-others-talk": {
+   "rows": [
+    {
+     "id": "ELAR.2.1.D",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.1.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.7.B",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:plan-an-opinion": {
    "rows": [
     {

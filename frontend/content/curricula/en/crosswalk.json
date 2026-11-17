@@ -3589,6 +3589,46 @@
    ],
    "by": "code"
   },
+  "2:story-beginning-ending": {
+   "rows": [
+    {
+     "id": "RL.2.5",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:character-voices": {
+   "rows": [
+    {
+     "id": "RL.2.6",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:two-versions-of-a-tale": {
+   "rows": [
+    {
+     "id": "RL.2.9",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:build-on-others-talk": {
+   "rows": [
+    {
+     "id": "SL.2.1.b",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:plan-an-opinion": {
    "rows": [
     {

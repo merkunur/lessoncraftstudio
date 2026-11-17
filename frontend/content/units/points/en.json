@@ -3649,6 +3649,42 @@
     "words": "Model first: read aloud a short draft of your own about your walk to school; let the class ask one question and add the answer as a detail; then fix one capital letter and one end mark. Children need the story they drafted in the last lesson. Say: \"Writers reread, add details, and fix mistakes.\" Day 1, Edit a Story, practices on a second grader's story: the box counts the mistakes; children write each capital above its small letter and add the end marks; Level 2 also numbers the sentences, Level 3 reads one paragraph and crosses out the sentence that does not belong; then they write the two sentences with two mistakes again. Day 2, Revise with a Partner, uses this on their own draft: they read it to a partner, look at it together, check it as Me and Partner (3, 5, or 6 checks by level), and write the partner's question, the detail they added, and a sentence they fixed or checked; Level 3 starts with what the partner liked. Children add the detail to their draft with a caret (^) and copy it here.",
     "watch": "The partner asks; the writer decides. In the story to edit, only the counted mistakes are wrong. A missing end mark takes a period; an exclamation mark is right too where the sentence could be said with strong feeling."
    }
+  },
+  "2:story-beginning-ending": {
+   "title": "How a story begins and ends",
+   "objective": "Children describe how the beginning of a story introduces the characters, the setting, and the problem, and how the ending solves the problem.",
+   "note": {
+    "mistake": "Children name something a character tries in the middle as the way the problem is solved, or say a character who first comes in later was met in the beginning.",
+    "words": "Model first with a story of your own: \"Sam and his dad sat on the sand. The wind took Sam's umbrella. They ran after it. At last, a lifeguard caught it.\" Say: \"The beginning tells who, where, and the problem. The middle tells what the characters try. The ending tells how the problem is solved.\" Children need to know from Grade 1 that a story has characters, a setting, and events. Day 1, How a Story Begins and Ends: children read a story in three labeled parts, circle the problem and how it is solved, and write B, M, or E beside sentences about the story. Level 2 adds a sentence about whom we first meet; Level 3 offers a smaller trouble of the middle as a wrong problem and one sentence the story does not tell (X). Day 2, Write How a Story Begins and Ends: Level 1 finishes frames, Level 2 starters; on Level 3 children answer in their own words and write a new ending, or a beginning when the story starts in the middle. Day 2 uses a new story; children need the three parts from day 1.",
+    "watch": "Ask: \"Is the problem solved yet?\" A sentence from the middle tells a try that does not work. The answers on the keys are samples, and each key says what else is right."
+   }
+  },
+  "2:character-voices": {
+   "title": "Different voices for different characters",
+   "objective": "Children notice that characters see the same thing in different ways and read each character's words in a voice that fits that character.",
+   "note": {
+    "mistake": "Children give a line to the character named last before it instead of the one named with said, or read every part in the same voice.",
+    "words": "Model first on the board: Grandpa Walt said, \"Pajamas on, please.\" \"Five more minutes!\" begged Ziggy. Then: Theo shivered. \"Brr, it is cold in here!\" Who is talking? Theo, because he does something right before the words. Read Grandpa Walt in a calm voice and Ziggy in a pleading voice. Say: \"Quotation marks show a character's words. The name and 'said' tell who is talking.\" From the lesson before, children need the characters of a story. Day 1, Who Is Talking: children write the letter of the speaker of each numbered line, from the list under the story; a box on the page shows how (Level 1 four lines named after the words, Level 2 six, some named before the words, Level 3 eight, some named only in an action sentence beside the words). Then they write who thinks each view, or X for nobody. Day 2, Reader's Theater: children circle a voice word for each character. Then groups of four read the play: give each child a part (a narrator and three characters), read it twice, and switch parts. Level 3 also writes one more line for the first character.",
+    "watch": "Listen for voices that match the words children circled. Words in ( ) tell how to read a line and are not read aloud."
+   }
+  },
+  "2:two-versions-of-a-tale": {
+   "title": "Two versions of one tale",
+   "objective": "Children compare and contrast two versions of the same story, such as two tellings of a folktale in different places or with different characters.",
+   "note": {
+    "mistake": "Children mark a fact Both because it is true of the tale they know, without finding it in each version on the page.",
+    "words": "Model first with two Cinderella stories the class knows: one with a glass slipper and one with a golden shoe. Say: \"Two versions tell the same tale. Some parts are the same, and some are different. Check each version before you say Both.\" From the lesson before, children need the characters, setting, problem, and ending of a story; the chart uses these parts. The versions were written for these pages: each tells a well-known tale with new animals or in a new place. Day 1, Sort the Facts: children read both versions and circle 1, 2, or Both for six or seven facts about the characters, setting, problem, and ending; Level 3 adds Neither. Day 2, Compare Them: On day 2, give each child the same copy number as on day 1 and hand back the day-1 page; the chart sums up the two versions they read. Children write how the versions are alike and different and which one they like better and why (Level 1 frames and a version to circle, Level 2 starters, Level 3 their own words).",
+    "watch": "Ask for the sentence in each version that tells a fact. Any reason from the tale is right for the version a child likes better."
+   }
+  },
+  "2:build-on-others-talk": {
+   "title": "Book club talk: build on what others say",
+   "objective": "Children build on what others say in a book talk by linking their comments to what others said.",
+   "note": {
+    "mistake": "Children take a turn but change the subject: they tell something about themselves instead of linking to an idea someone said.",
+    "words": "Before day 2, read one picture book aloud to the class; the card is about that book. Model first in a fishbowl with two children and one idea that is on no page: \"I think the lighthouse keeper was brave.\" Show a reply that builds on it and one that does not. Say: \"To build on what someone said, start with their idea: I agree with ___ because, I want to add that, or I see it another way.\" From the lessons before, children need to tell what characters do and why. Day 1, Build on What Others Say: children read a tiny story and circle the reply that builds on each child's comment (Level 1 two replies, Levels 2 and 3 three; Level 3 also offers a reply about the story that ignores the idea, and children write a reply). Day 2, Book Club Talk Card: before the talk children write one thing to say about the book and one question; groups of four talk, and a name stick picks the first speaker; after the talk children write whose idea they built on, that idea, and what they said, then check the list. The card works with any book: read it aloud, give each child a card, and talk in groups of four.",
+    "watch": "Listen for comments that link to what others said and for reasons from the book."
+   }
   }
  }
 }

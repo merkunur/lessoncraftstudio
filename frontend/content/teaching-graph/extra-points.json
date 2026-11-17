@@ -1026,6 +1026,34 @@
    "strand": "Writing",
    "code": "W.2.5",
    "skill": "Fix capital letters and end marks in a story, put its sentences in order, and add a detail to one’s own draft after a partner’s question"
+  },
+  {
+   "tp": "2:story-beginning-ending",
+   "grade": "2",
+   "strand": "Reading: Literature",
+   "code": "RL.2.5",
+   "skill": "Describe how the beginning of a story introduces the characters, the setting and the problem, and how the ending solves the problem"
+  },
+  {
+   "tp": "2:character-voices",
+   "grade": "2",
+   "strand": "Reading: Literature",
+   "code": "RL.2.6",
+   "skill": "Tell who is speaking in a story and what each character thinks, and read each character in a voice that fits"
+  },
+  {
+   "tp": "2:two-versions-of-a-tale",
+   "grade": "2",
+   "strand": "Reading: Literature",
+   "code": "RL.2.9",
+   "skill": "Compare and contrast two versions of the same tale: tell what is the same and what is different in the characters, the setting, the problem and the ending"
+  },
+  {
+   "tp": "2:build-on-others-talk",
+   "grade": "2",
+   "strand": "Speaking and Listening",
+   "code": "SL.2.1.b",
+   "skill": "Build on what others say in a talk about a book: agree, add, or see it another way, with a reason, linked to what a classmate said"
   }
  ]
 }

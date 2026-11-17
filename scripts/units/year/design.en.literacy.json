@@ -987,7 +987,8 @@
             "standard": "RL.2.5",
             "days": 2,
             "source": "new",
-            "page": "Story and questions page: a story of about 150 words with a clear beginning, middle, and end, and two pictures. Below: a story arc with three labeled points and four questions (What do we learn first? How is the problem solved?). Level 1: the child matches sentences to the parts of the arc; level 2: the child writes one sentence per part; level 3: the child writes a different ending that still solves the problem."
+            "page": "Story and questions page: a story of about 150 words with a clear beginning, middle, and end, and two pictures. Below: a story arc with three labeled points and four questions (What do we learn first? How is the problem solved?). Level 1: the child matches sentences to the parts of the arc; level 2: the child writes one sentence per part; level 3: the child writes a different ending that still solves the problem.",
+            "placed": "2:story-beginning-ending"
           },
           {
             "new": true,
@@ -997,7 +998,8 @@
             "days": 2,
             "tool": "Reading Easel",
             "source": "new",
-            "page": "Story and questions page: a story of about 150 words told mostly in dialogue between two characters who see a problem differently. Below: the child marks each line with the speaker's initial and writes how that character feels (worried, excited). Level 1: four lines with feeling-word choices; level 2: eight lines; level 3: the child writes what each character would say next."
+            "page": "Story and questions page: a story of about 150 words told mostly in dialogue between two characters who see a problem differently. Below: the child marks each line with the speaker's initial and writes how that character feels (worried, excited). Level 1: four lines with feeling-word choices; level 2: eight lines; level 3: the child writes what each character would say next.",
+            "placed": "2:character-voices"
           },
           {
             "new": true,
@@ -1006,7 +1008,8 @@
             "standard": "RL.2.9",
             "days": 2,
             "source": "new",
-            "page": "Two-text comparison page: two versions of one tale side by side (about 120 words each, each with a picture). Below: a comparison chart with rows for characters, setting, problem, and ending. Level 1: the child sorts eight fact strips into the chart; level 2: the child writes one entry per row for each version; level 3: the child also writes two sentences that compare."
+            "page": "Two-text comparison page: two versions of one tale side by side (about 120 words each, each with a picture). Below: a comparison chart with rows for characters, setting, problem, and ending. Level 1: the child sorts eight fact strips into the chart; level 2: the child writes one entry per row for each version; level 3: the child also writes two sentences that compare.",
+            "placed": "2:two-versions-of-a-tale"
           },
           {
             "new": true,
@@ -1016,7 +1019,8 @@
             "days": 2,
             "tool": "Name Sticks",
             "source": "teacher-led",
-            "page": "Routine: groups of four read one story from this unit and meet as a book club. A name stick picks the first speaker, who answers a question card (Which version did you like better and why?). Each next speaker starts with I agree, I disagree, or I want to add, and one child asks a clarifying question. Listen for: comments that link to the last speaker and evidence from the text."
+            "page": "Routine: groups of four read one story from this unit and meet as a book club. A name stick picks the first speaker, who answers a question card (Which version did you like better and why?). Each next speaker starts with I agree, I disagree, or I want to add, and one child asks a clarifying question. Listen for: comments that link to the last speaker and evidence from the text.",
+            "placed": "2:build-on-others-talk"
           }
         ]
       },

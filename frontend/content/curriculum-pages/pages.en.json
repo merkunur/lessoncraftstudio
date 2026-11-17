@@ -7691,20 +7691,47 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 43,
-    "near": 4,
-    "open": 41,
-    "lessons": 48
+    "taught": 47,
+    "near": 7,
+    "open": 34,
+    "lessons": 52
    },
    "groups": [
     {
      "title": "Knowledge and skills (1)",
-     "items": [],
+     "items": [
+      {
+       "code": "2.1.C",
+       "state": "taught",
+       "text": "Children build on what others say in a book talk by linking their comments to what others said.",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Book club talk: build on what others say"
+        }
+       ]
+      },
+      {
+       "code": "2.1.D",
+       "state": "taught",
+       "text": "Children build on what others say in a book talk by linking their comments to what others said.",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Book club talk: build on what others say"
+        }
+       ]
+      }
+     ],
      "open": [
       "2.1.A",
       "2.1.B",
-      "2.1.C",
-      "2.1.D",
       "2.1.E"
      ]
     },
@@ -8088,6 +8115,21 @@
          "title": "The Main Topic and Each Paragraph"
         }
        ]
+      },
+      {
+       "code": "2.6.H",
+       "state": "near",
+       "text": "Children compare and contrast two versions of the same story, such as two tellings of a folktale in different places or with different characters.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Two versions of one tale"
+        }
+       ]
       }
      ],
      "open": [
@@ -8095,13 +8137,27 @@
       "2.6.C",
       "2.6.D",
       "2.6.E",
-      "2.6.H",
       "2.6.I"
      ]
     },
     {
      "title": "Knowledge and skills (7)",
      "items": [
+      {
+       "code": "2.7.B",
+       "state": "near",
+       "text": "Children build on what others say in a book talk by linking their comments to what others said.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Book club talk: build on what others say"
+        }
+       ]
+      },
       {
        "code": "2.7.C",
        "state": "taught",
@@ -8140,7 +8196,6 @@
      ],
      "open": [
       "2.7.A",
-      "2.7.B",
       "2.7.E",
       "2.7.F"
      ]
@@ -8179,7 +8234,7 @@
       {
        "code": "2.8.C",
        "state": "taught",
-       "text": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+       "text": "Children describe how the beginning of a story introduces the characters, the setting, and the problem, and how the ending solves the problem.",
        "lessons": [
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
@@ -8187,17 +8242,64 @@
          "unitGrade": "2",
          "n": 3,
          "title": "How Characters Meet a Challenge"
+        },
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "How a story begins and ends"
+        }
+       ]
+      },
+      {
+       "code": "2.8.D",
+       "state": "near",
+       "text": "Children describe how the beginning of a story introduces the characters, the setting, and the problem, and how the ending solves the problem.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "How a story begins and ends"
         }
        ]
       }
-     ],
-     "open": [
-      "2.8.D"
      ]
     },
     {
      "title": "Knowledge and skills (9)",
      "items": [
+      {
+       "code": "2.9.A",
+       "state": "taught",
+       "text": "Children compare and contrast two versions of the same story, such as two tellings of a folktale in different places or with different characters.",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Two versions of one tale"
+        }
+       ]
+      },
+      {
+       "code": "2.9.C",
+       "state": "taught",
+       "text": "Children notice that characters see the same thing in different ways and read each character's words in a voice that fits that character.",
+       "lessons": [
+        {
+         "unit": "stories-beginnings-endings-and-versions-grade-2-unit",
+         "unitTitle": "Stories: Beginnings, Endings, and Versions",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Different voices for different characters"
+        }
+       ]
+      },
       {
        "code": "2.9.D.i",
        "state": "taught",
@@ -8249,9 +8351,7 @@
       }
      ],
      "open": [
-      "2.9.A",
       "2.9.B",
-      "2.9.C",
       "2.9.E.i",
       "2.9.E.ii",
       "2.9.F"

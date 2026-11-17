@@ -2660,7 +2660,7 @@
   },
   "K-370": {
     "title": "Perhe ja sukulaiset: kuka on kuka?",
-    "instruction": "Etsi jokainen henkilö sukupuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
+    "instruction": "Etsi jokainen henkilö perhepuusta ja kirjoita hänen numeronsa oikean sukulaissanan viereiseen ruutuun."
   },
   "G1-376": {
     "title": "Kasvin osat",
@@ -2741,7 +2741,7 @@
   },
   "G1-386": {
     "title": "Perhepuu: lue vihjeet",
-    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun sukupuussa.",
+    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa.",
     "printTitle": "Sukupuu: lue vihjeet"
   },
   "G2-362": {

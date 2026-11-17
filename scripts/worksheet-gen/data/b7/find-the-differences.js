@@ -133,7 +133,7 @@ const FIND_THE_DIFFERENCES = {
       'ten-pairs': { title: 'Find 10 Differences in the Garden', instruction: 'Circle the 10 differences, 5 in each pair of pictures, and check a box under the pair for every one you find.' },
       'how-many': { title: 'How Many Differences?', instruction: 'Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box.' },
       'what-changed': { title: 'What Changed? Tick the Words', instruction: 'Circle the 3 differences in the bottom picture, then check the words of the things that changed.' },
-      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, check a box for each, then fold on the line to check.' },
+      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.' },
       missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.' },
       pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.' },
       write: { title: 'Write What Is Different', instruction: 'Circle the 3 differences (something may be gone), then write one sentence about each one on the lines, using the words in the two strips.' },

@@ -603,15 +603,6 @@
           ]
         },
         {
-          "key": "cobra",
-          "word": "cobra",
-          "unit": "co",
-          "split": [
-            "co",
-            "bra"
-          ]
-        },
-        {
           "key": "cockatiel",
           "word": "calopsitta",
           "unit": "ca",
@@ -2684,14 +2675,6 @@
         "cap",
         "pot",
         "to"
-      ]
-    },
-    {
-      "key": "cobra",
-      "word": "cobra",
-      "split": [
-        "co",
-        "bra"
       ]
     },
     {

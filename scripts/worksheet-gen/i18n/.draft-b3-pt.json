@@ -16000,15 +16000,6 @@
               ]
             },
             {
-              "key": "cobra",
-              "word": "cobra",
-              "unit": "co",
-              "split": [
-                "co",
-                "bra"
-              ]
-            },
-            {
               "key": "comet",
               "word": "cometa",
               "unit": "co",
@@ -17652,14 +17643,6 @@
             "ca",
             "sa",
             "co"
-          ]
-        },
-        {
-          "key": "cobra",
-          "word": "cobra",
-          "split": [
-            "co",
-            "bra"
           ]
         },
         {

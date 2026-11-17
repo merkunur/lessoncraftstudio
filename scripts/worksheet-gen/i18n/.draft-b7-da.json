@@ -75,7 +75,7 @@
     },
     "G1-418": {
       "title": "Sæt trinnene i rækkefølge: tegn {L}",
-      "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
+      "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
     },
     "G1-419": {
       "title": "Trin for trin: tegn {L}",
@@ -308,7 +308,7 @@
         },
         "order": {
           "title": "Sæt trinnene i rækkefølge: tegn {L}",
-          "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
+          "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
         },
         "copy-steps": {
           "title": "Trin for trin: tegn {L}",

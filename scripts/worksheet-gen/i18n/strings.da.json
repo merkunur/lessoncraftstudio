@@ -2974,7 +2974,7 @@
   },
   "G2-386": {
     "title": "Skriv ord med sammenhængende skrift til billederne",
-    "instruction": "Skriv oven i hvert gråt ord: bind først bogstaverne sammen, og sæt til sidst prikker og streger. Skriv ordet på samme måde på linjen nedenfor."
+    "instruction": "Skriv oven i hvert gråt ord: bind først bogstaverne sammen, sæt til sidst prikker og streger, og skriv ordet på samme måde på linjen nedenfor."
   },
   "G2-387": {
     "title": "Læs sammenhængende skrift: find billedet til ordet",
@@ -3110,7 +3110,7 @@
   },
   "G1-418": {
     "title": "Sæt trinnene i rækkefølge: tegn {L}",
-    "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så billedet."
+    "instruction": "Trinnene er blandet: Skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
   },
   "G1-419": {
     "title": "Trin for trin: tegn {L}",

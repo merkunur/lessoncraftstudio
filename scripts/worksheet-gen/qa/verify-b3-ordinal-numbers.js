@@ -145,7 +145,7 @@ const RELATION_OK = {
     ['som står på den', 'K-320: the mark that stands ON it (the chip)'],
     ['står på den plassen', 'F2: the picture standing AT that place (the ordinal place)'],
     ['plass det står på', 'F3: which place it stands AT (the ordinal place)'],
-    ['stå på begge sider', 'F4 (either-end face): where the FLAG stands, never a picture\'s place'],
+    ['stå i den ene eller den andre enden', 'F4 (either-end face): where the FLAG stands, never a picture\'s place'],
   ],
 };
 const WORKSHEET_WORD = /\b(worksheet|arbeitsblatt|hoja de trabajo|folha de exerc|fiche|scheda|werkblad|arbetsblad|arbejdsark|arbeidsark|tehtäväpaperi)/i;

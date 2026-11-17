@@ -57,15 +57,6 @@
           ]
         },
         {
-          "key": "cobra",
-          "word": "Kobra",
-          "unit": "ko",
-          "split": [
-            "ko",
-            "bra"
-          ]
-        },
-        {
           "key": "coral",
           "word": "Koralle",
           "unit": "ko",
@@ -1852,14 +1843,6 @@
       "split": [
         "man",
         "tel"
-      ]
-    },
-    {
-      "key": "cobra",
-      "word": "Kobra",
-      "split": [
-        "ko",
-        "bra"
       ]
     },
     {

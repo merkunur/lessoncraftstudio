@@ -584,15 +584,6 @@
           ]
         },
         {
-          "key": "cobra",
-          "word": "cobra",
-          "unit": "co",
-          "split": [
-            "co",
-            "bra"
-          ]
-        },
-        {
           "key": "pig",
           "word": "cochon",
           "unit": "co",
@@ -1317,14 +1308,6 @@
       "split": [
         "clas",
         "seur"
-      ]
-    },
-    {
-      "key": "cobra",
-      "word": "cobra",
-      "split": [
-        "co",
-        "bra"
       ]
     },
     {

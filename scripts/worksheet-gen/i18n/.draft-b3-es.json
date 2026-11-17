@@ -15960,15 +15960,6 @@
        ]
       },
       {
-       "key": "cobra",
-       "word": "cobra",
-       "unit": "co",
-       "split": [
-        "co",
-        "bra"
-       ]
-      },
-      {
        "key": "colander",
        "word": "colador",
        "unit": "co",
@@ -17356,14 +17347,6 @@
      "split": [
       "cló",
       "set"
-     ]
-    },
-    {
-     "key": "cobra",
-     "word": "cobra",
-     "split": [
-      "co",
-      "bra"
      ]
     },
     {

@@ -8099,5 +8099,53 @@
     "3": {
       "en": "Check your writing, answer your partner, and add a detail."
     }
+  },
+  "G2-565": {
+    "1": {
+      "en": "An informative piece tells facts about one topic."
+    },
+    "3": {
+      "en": "Every sentence of an informative piece tells about its topic."
+    }
+  },
+  "G2-566": {
+    "1": {
+      "en": "Plan a topic sentence, three facts, a definition, and a closing sentence."
+    },
+    "3": {
+      "en": "Plan your informative piece in notes. Use the word bank if you need it."
+    }
+  },
+  "G2-567": {
+    "1": {
+      "en": "A closing sentence tells about the topic again at the end."
+    },
+    "3": {
+      "en": "Writers use facts, definitions, linking words, and a closing sentence."
+    }
+  },
+  "G2-568": {
+    "1": {
+      "en": "Use the frames to write your informative piece."
+    },
+    "3": {
+      "en": "Write your whole piece, from topic sentence to closing sentence."
+    }
+  },
+  "G2-569": {
+    "1": {
+      "en": "Researchers read two books and copy key words as notes."
+    },
+    "3": {
+      "en": "Take notes in your own words. Write which book each note is from."
+    }
+  },
+  "G2-570": {
+    "1": {
+      "en": "Write your part of our class report with facts from both books."
+    },
+    "3": {
+      "en": "Choose a heading and write your part of the class report."
+    }
   }
 }

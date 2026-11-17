@@ -1076,6 +1076,42 @@ const TEXT = {
     2: "Each big word in a holiday or place name gets a capital letter.",
     3: "Each big word in a holiday or place name gets a capital letter.",
   },
+  'G2-565': {
+    title: "Parts of an Informative Piece",
+    1: "An informative piece tells facts about one topic.",
+    2: "An informative piece has a topic sentence, facts, and a closing sentence.",
+    3: "Every sentence of an informative piece tells about its topic.",
+  },
+  'G2-566': {
+    title: "Plan Your Informative Piece",
+    1: "Plan a topic sentence, three facts, a definition, and a closing sentence.",
+    2: "Plan your piece. Put your facts in groups under two headings.",
+    3: "Plan your informative piece in notes. Use the word bank if you need it.",
+  },
+  'G2-567': {
+    title: "Closing Sentences, Definitions, and Linking Words",
+    1: "A closing sentence tells about the topic again at the end.",
+    2: "A closing sentence tells about a topic again in new words.",
+    3: "Writers use facts, definitions, linking words, and a closing sentence.",
+  },
+  'G2-568': {
+    title: "Draft Your Informative Piece",
+    1: "Use the frames to write your informative piece.",
+    2: "Write your piece from your plan. Use linking words.",
+    3: "Write your whole piece, from topic sentence to closing sentence.",
+  },
+  'G2-569': {
+    title: "Research with Two Books: Take Notes",
+    1: "Researchers read two books and copy key words as notes.",
+    2: "Read both books. Write short notes in your own words.",
+    3: "Take notes in your own words. Write which book each note is from.",
+  },
+  'G2-570': {
+    title: "Write Your Part of the Class Report",
+    1: "Write your part of our class report with facts from both books.",
+    2: "Use your notes to write your part of the class report.",
+    3: "Choose a heading and write your part of the class report.",
+  },
 };
 
 function edit(file, fn) {

@@ -1,0 +1,1839 @@
+{
+ "version": "2026-11-17b",
+ "pieces": [
+  {
+   "id": "ladybugs",
+   "subj": "ladybugs",
+   "o": "I think ladybugs are the best bugs to find outside.",
+   "r": [
+    "One reason is that they eat tiny bugs that hurt plants.",
+    "Ladybugs are also so bright that they are easy to spot.",
+    "Another reason is that they do not sting."
+   ],
+   "r3b": "Ladybugs do not sting.",
+   "c": "That is why ladybugs are such great bugs.",
+   "f": "A ladybug is a kind of beetle.",
+   "d": "Many spiders spin sticky webs to catch small bugs.",
+   "dsub": "spiders"
+  },
+  {
+   "id": "owls",
+   "subj": "owls",
+   "o": "I think owls are the most interesting birds.",
+   "r": [
+    "One reason is that they can see well in the dark.",
+    "Owls can also turn their heads almost all the way around.",
+    "Another reason is that they can fly almost without a sound."
+   ],
+   "r3b": "Owls can fly almost without a sound.",
+   "c": "That is why owls are so amazing.",
+   "f": "Owls hatch from eggs, like all birds.",
+   "d": "Many bats sleep in caves during the day.",
+   "dsub": "bats"
+  },
+  {
+   "id": "sunflowers",
+   "subj": "sunflowers",
+   "o": "Sunflowers are the best flowers to grow.",
+   "r": [
+    "One reason is that they grow taller than a grown-up.",
+    "Their seeds are also good food for many birds.",
+    "Another reason is that their big yellow petals look like the sun."
+   ],
+   "r3b": "Their big yellow petals look like the sun.",
+   "c": "That is why sunflowers are so great to grow.",
+   "f": "Sunflowers need water, like all plants.",
+   "d": "Many cows eat grass in big fields.",
+   "dsub": "cows"
+  },
+  {
+   "id": "penguins",
+   "subj": "penguins",
+   "o": "Penguins are the most fun birds to learn about.",
+   "r": [
+    "One reason is that they swim very fast.",
+    "They also waddle when they walk on land.",
+    "Another reason is that emperor penguin dads keep their eggs warm."
+   ],
+   "r3b": "Emperor penguin dads keep their eggs warm.",
+   "c": "That is why penguins are such great birds to read books about.",
+   "f": "Penguins hatch from eggs, like all birds.",
+   "d": "Camels can walk across the hot desert for many days.",
+   "dsub": "camels"
+  },
+  {
+   "id": "butterflies",
+   "subj": "butterflies",
+   "o": "I think butterflies are the best bugs to watch.",
+   "r": [
+    "One reason is that their wings have bright colors.",
+    "They also drink from flowers with a long tongue.",
+    "Another reason is that a caterpillar turns into a butterfly."
+   ],
+   "r3b": "A caterpillar turns into a butterfly.",
+   "c": "That is why butterflies are fun to watch.",
+   "f": "Butterflies have six legs, like all other insects.",
+   "d": "Snails move very slowly across the ground.",
+   "dsub": "snails"
+  },
+  {
+   "id": "bees",
+   "subj": "bees",
+   "o": "I think bees are the most helpful bugs.",
+   "r": [
+    "One reason is that they help flowers make new seeds.",
+    "Honeybees also make the honey that people eat.",
+    "Another reason is that bees help farmers grow food."
+   ],
+   "r3b": "Bees help farmers grow food.",
+   "c": "That is why bees are such important bugs to have around.",
+   "f": "Bees have six legs, like all insects.",
+   "d": "Wild ducks can swim in ponds and fly over trees.",
+   "dsub": "ducks"
+  },
+  {
+   "id": "elephants",
+   "subj": "elephants",
+   "o": "I think elephants are the most amazing animals on land.",
+   "r": [
+    "One reason is that they can pick things up with their trunks.",
+    "They are also the biggest animals on land.",
+    "Another reason is that a mother elephant takes good care of her baby."
+   ],
+   "r3b": "A mother elephant takes good care of her baby.",
+   "c": "That is why elephants are such wonderful animals to learn about.",
+   "f": "Elephants have gray skin.",
+   "d": "Zebras have black and white stripes on their bodies.",
+   "dsub": "zebras"
+  },
+  {
+   "id": "oaks",
+   "subj": "oak trees",
+   "o": "I think oak trees are the best trees for animals.",
+   "r": [
+    "One reason is that squirrels and deer eat their acorns.",
+    "Birds also build nests in their branches.",
+    "Another reason is that their wide branches give shade."
+   ],
+   "r3b": "Their wide branches give shade.",
+   "c": "That is why animals love oak trees so much.",
+   "f": "Oak trees have roots, like all trees.",
+   "d": "Fish use their fins to swim in the water.",
+   "dsub": "fish"
+  },
+  {
+   "id": "frogs",
+   "subj": "frogs",
+   "o": "I think frogs are the best animals to watch at a pond.",
+   "r": [
+    "One reason is that they can jump very far.",
+    "They also catch bugs with their long, sticky tongues.",
+    "Another reason is that tadpoles slowly turn into frogs."
+   ],
+   "r3b": "Tadpoles slowly turn into frogs.",
+   "c": "That is why no pond animal is more fun to watch than a frog.",
+   "f": "Frogs have four legs.",
+   "d": "Many horses eat hay in the barn.",
+   "dsub": "horses"
+  },
+  {
+   "id": "dolphins",
+   "subj": "dolphins",
+   "o": "I think dolphins are the smartest animals in the sea.",
+   "r": [
+    "One reason is that they work together to catch fish.",
+    "Dolphins also call to each other with clicks and whistles.",
+    "Another reason is that they can learn new things fast."
+   ],
+   "r3b": "Dolphins can learn new things fast.",
+   "c": "That is why dolphins are such clever animals.",
+   "f": "Dolphins live in the water.",
+   "d": "Rabbits have soft fur and long ears.",
+   "dsub": "rabbits"
+  },
+  {
+   "id": "moon",
+   "subj": "the moon",
+   "o": "The moon is the best thing to look at in the night sky.",
+   "r": [
+    "One reason is that it is big and bright.",
+    "Its shape also seems to change from night to night.",
+    "Another reason is that you can see dark spots on it."
+   ],
+   "r3b": "You can see dark spots on the moon.",
+   "c": "That is why nothing in the night sky is more fun to watch than the moon.",
+   "f": "The moon has no air, so people need space suits there.",
+   "d": "Blue whales are bigger than any other animal.",
+   "dsub": "whales"
+  },
+  {
+   "id": "rainbows",
+   "subj": "rainbows",
+   "o": "I think a rainbow is the best thing to see after it rains.",
+   "r": [
+    "One reason is that it has so many colors.",
+    "Rainbows also do not last long, so each one is special.",
+    "Another reason is that a rainbow makes a big curve across the sky."
+   ],
+   "r3b": "A rainbow makes a big curve across the sky.",
+   "c": "That is why rainbows are so great to see.",
+   "f": "A rainbow is made of light.",
+   "d": "Goats like to climb on rocks and hills.",
+   "dsub": "goats"
+  },
+  {
+   "id": "squirrels",
+   "subj": "squirrels",
+   "o": "Squirrels are the most fun animals to watch at the park.",
+   "r": [
+    "One reason is that they climb trees very fast.",
+    "They also hide nuts to eat later.",
+    "Another reason is that they jump from branch to branch."
+   ],
+   "r3b": "Squirrels jump from branch to branch.",
+   "c": "That is why no animal at the park is more fun to watch than a squirrel.",
+   "f": "Squirrels have four legs.",
+   "d": "Sheep have thick wool that farmers cut every spring.",
+   "dsub": "sheep"
+  },
+  {
+   "id": "ants",
+   "subj": "ants",
+   "o": "I think ants are the hardest-working bugs.",
+   "r": [
+    "One reason is that they can carry things heavier than they are.",
+    "Ants also work together to build their homes.",
+    "Another reason is that they keep their homes clean."
+   ],
+   "r3b": "Ants keep their homes clean.",
+   "c": "That is why no bug works harder than a tiny ant does.",
+   "f": "Ants have six legs, like all insects.",
+   "d": "Bears like to eat berries, fish, and nuts in the woods.",
+   "dsub": "bears"
+  },
+  {
+   "id": "clouds",
+   "subj": "clouds",
+   "o": "Clouds are the most fun things to look at in the sky.",
+   "r": [
+    "One reason is that they come in so many shapes.",
+    "They can also turn pink and orange at sunset.",
+    "Another reason is that they change shape as they move."
+   ],
+   "r3b": "Clouds change shape as they move.",
+   "c": "That is why looking at clouds is so much fun.",
+   "f": "Clouds are made of tiny drops of water or bits of ice.",
+   "d": "Pigs roll in the mud to stay cool.",
+   "dsub": "pigs"
+  },
+  {
+   "id": "octopuses",
+   "subj": "octopuses",
+   "o": "I think octopuses are the coolest animals in the sea.",
+   "r": [
+    "One reason is that they can taste things with their arms.",
+    "They can also change color to hide.",
+    "Another reason is that they can squeeze through tiny holes."
+   ],
+   "r3b": "Octopuses can squeeze through tiny holes.",
+   "c": "That is why octopuses are such cool animals.",
+   "f": "Octopuses live in the sea.",
+   "d": "Crabs walk sideways along the sand.",
+   "dsub": "crabs"
+  },
+  {
+   "id": "giraffes",
+   "subj": "giraffes",
+   "o": "Giraffes are the most interesting animals in the world.",
+   "r": [
+    "One reason is that they are the tallest animals.",
+    "They also eat leaves from the tops of trees.",
+    "Another reason is that a baby giraffe can stand soon after it is born."
+   ],
+   "r3b": "A baby giraffe can stand soon after it is born.",
+   "c": "That is why giraffes are such amazing animals.",
+   "f": "Giraffes have four legs.",
+   "d": "Lions sleep for many hours in the day.",
+   "dsub": "lions"
+  },
+  {
+   "id": "hummingbirds",
+   "subj": "hummingbirds",
+   "o": "I think hummingbirds are the best birds to see in a garden.",
+   "r": [
+    "One reason is that they hover in the air like a helicopter.",
+    "They can also fly backward and sideways.",
+    "Another reason is that their wings move so fast that they hum."
+   ],
+   "r3b": "Their wings move so fast that they hum.",
+   "c": "That is why hummingbirds are such great birds to watch in a garden.",
+   "f": "Hummingbirds hatch from eggs, like all birds.",
+   "d": "Ducks have webbed feet to help them swim.",
+   "dsub": "ducks"
+  }
+ ],
+ "gaps": [
+  {
+   "id": "camels",
+   "kind": "because",
+   "subj": "camels",
+   "text": "Camels can go a long time without food ___ they store fat in their humps."
+  },
+  {
+   "id": "ducks-dry",
+   "kind": "because",
+   "subj": "ducks",
+   "text": "Ducks stay dry in the water ___ their feathers are oily."
+  },
+  {
+   "id": "bears-food",
+   "kind": "because",
+   "subj": "bears",
+   "text": "Some bears sleep for months ___ there is not much food."
+  },
+  {
+   "id": "fish",
+   "kind": "because",
+   "subj": "fish",
+   "text": "Fish can breathe under water ___ they have gills."
+  },
+  {
+   "id": "zebras-groups",
+   "kind": "because",
+   "subj": "zebras",
+   "text": "Zebras stay in big groups ___ it keeps them safe."
+  },
+  {
+   "id": "bats-dark",
+   "kind": "because",
+   "subj": "bats",
+   "text": "Many bats can fly in the dark ___ they listen for echoes."
+  },
+  {
+   "id": "seals-warm",
+   "kind": "because",
+   "subj": "seals",
+   "text": "Seals stay warm in icy water ___ they have a thick layer of fat."
+  },
+  {
+   "id": "kangaroos-jump",
+   "kind": "because",
+   "subj": "kangaroos",
+   "text": "Kangaroos can jump far ___ their back legs are strong."
+  },
+  {
+   "id": "rabbits-hear",
+   "kind": "because",
+   "subj": "rabbits",
+   "text": "Rabbits can hear very well ___ they have long ears."
+  },
+  {
+   "id": "cactus-desert",
+   "kind": "because",
+   "subj": "cactus",
+   "text": "A cactus can live in the desert ___ it stores water."
+  },
+  {
+   "id": "polar-bears",
+   "kind": "because",
+   "subj": "polar bears",
+   "text": "Polar bears stay warm ___ they have thick fur."
+  },
+  {
+   "id": "beavers",
+   "kind": "because",
+   "subj": "beavers",
+   "text": "Beavers can cut down trees ___ their teeth are very sharp."
+  },
+  {
+   "id": "woodpeckers",
+   "kind": "because",
+   "subj": "woodpeckers",
+   "text": "Woodpeckers can make holes in trees ___ their beaks are strong."
+  },
+  {
+   "id": "horses-sleep",
+   "kind": "also",
+   "subj": "horses",
+   "text": "Horses can run fast. They ___ sleep standing up."
+  },
+  {
+   "id": "crabs-walk",
+   "kind": "also",
+   "subj": "crabs",
+   "text": "Crabs have hard shells. They ___ walk sideways."
+  },
+  {
+   "id": "whales-air",
+   "kind": "also",
+   "subj": "whales",
+   "text": "Whales live in the ocean. They ___ breathe air."
+  },
+  {
+   "id": "spiders-webs",
+   "kind": "also",
+   "subj": "spiders",
+   "text": "Spiders have eight legs. Many spiders ___ spin webs."
+  },
+  {
+   "id": "monkeys-swing",
+   "kind": "also",
+   "subj": "monkeys",
+   "text": "Many monkeys climb trees. They ___ swing from branch to branch."
+  },
+  {
+   "id": "lions-sleep",
+   "kind": "also",
+   "subj": "lions",
+   "text": "Lions live in groups. They ___ sleep most of the day."
+  },
+  {
+   "id": "deer-jump",
+   "kind": "also",
+   "subj": "deer",
+   "text": "Deer can run fast. They ___ jump very high."
+  },
+  {
+   "id": "foxes-hear",
+   "kind": "also",
+   "subj": "foxes",
+   "text": "Foxes have bushy tails. They ___ hear very well."
+  },
+  {
+   "id": "bats-hang",
+   "kind": "also",
+   "subj": "bats",
+   "text": "Bats can fly. Many bats ___ sleep upside down."
+  },
+  {
+   "id": "turtles-eggs",
+   "kind": "also",
+   "subj": "sea turtles",
+   "text": "Sea turtles swim far. They ___ lay eggs on the beach."
+  },
+  {
+   "id": "snakes-smell",
+   "kind": "also",
+   "subj": "snakes",
+   "text": "Snakes have no legs. They ___ smell with their tongues."
+  },
+  {
+   "id": "zebras-stripes",
+   "kind": "and",
+   "subj": "zebras",
+   "text": "Zebras have black ___ white stripes."
+  },
+  {
+   "id": "bears-eat",
+   "kind": "and",
+   "subj": "bears",
+   "text": "Bears eat berries ___ fish."
+  },
+  {
+   "id": "monkeys-hands",
+   "kind": "and",
+   "subj": "monkeys",
+   "text": "Monkeys use their hands ___ feet to climb."
+  },
+  {
+   "id": "cactus-spines",
+   "kind": "and",
+   "subj": "cactus",
+   "text": "A cactus has thick stems ___ sharp spines."
+  },
+  {
+   "id": "crabs-claws",
+   "kind": "and",
+   "subj": "crabs",
+   "text": "Crabs have claws ___ hard shells."
+  },
+  {
+   "id": "rabbits-eat",
+   "kind": "and",
+   "subj": "rabbits",
+   "text": "Rabbits eat grass ___ leaves."
+  },
+  {
+   "id": "seals-swim",
+   "kind": "and",
+   "subj": "seals",
+   "text": "Seals can swim ___ dive."
+  },
+  {
+   "id": "kangaroos-tail",
+   "kind": "and",
+   "subj": "kangaroos",
+   "text": "A kangaroo has strong legs ___ a long tail."
+  },
+  {
+   "id": "snails-slugs",
+   "kind": "and",
+   "subj": "snails",
+   "text": "Snails ___ slugs like wet places."
+  },
+  {
+   "id": "ducks-fly",
+   "kind": "and",
+   "subj": "ducks",
+   "text": "Ducks can swim ___ fly."
+  },
+  {
+   "id": "eagles",
+   "kind": "and",
+   "subj": "eagles",
+   "text": "Eagles have sharp eyes ___ strong claws."
+  },
+  {
+   "id": "deer-eat",
+   "kind": "and",
+   "subj": "deer",
+   "text": "Deer eat leaves ___ grass."
+  }
+ ],
+ "prompts": [
+  {
+   "id": "recess-game",
+   "short": "games at recess",
+   "q": "What is the best game to play at recess?",
+   "pick": "tag",
+   "r1": "you run a lot",
+   "r2": "friends can play",
+   "r3": "tag is easy to learn",
+   "no": "tag is the best game",
+   "n3": "easy to learn",
+   "nc": "tag is so much fun",
+   "claim": "tag is the best game at recess"
+  },
+  {
+   "id": "read-place",
+   "short": "places to read",
+   "q": "What is the best place in our school to read?",
+   "pick": "the library",
+   "r1": "it is quiet",
+   "r2": "it has many books",
+   "r3": "you can read alone",
+   "no": "the library is best",
+   "n3": "you can read alone",
+   "nc": "the library is great",
+   "claim": "the library is the best place to read"
+  },
+  {
+   "id": "class-job",
+   "short": "class jobs",
+   "q": "Which class job is the best?",
+   "pick": "plant helper",
+   "r1": "you care for something alive",
+   "r2": "you see plants grow",
+   "r3": "it is calm",
+   "no": "plant helper is best",
+   "n3": "a calm job",
+   "nc": "plant helper is great",
+   "claim": "plant helper is the best class job"
+  },
+  {
+   "id": "season",
+   "short": "seasons",
+   "q": "Which season is the best for the playground?",
+   "pick": "fall",
+   "r1": "it is not too hot",
+   "r2": "you can jump in the leaves",
+   "r3": "the air is cool",
+   "no": "fall is the best season",
+   "n3": "cool air",
+   "nc": "fall is the top season",
+   "claim": "fall is the best season for the playground"
+  },
+  {
+   "id": "book",
+   "short": "books",
+   "q": "Which book in our classroom is the best?",
+   "pick": "The Snowy Day",
+   "r1": "it makes snow look so fun",
+   "r2": "the pictures are so pretty",
+   "r3": "it makes me want to play in the snow",
+   "no": "The Snowy Day is best",
+   "n3": "makes me want to play in snow",
+   "nc": "The Snowy Day is great",
+   "claim": "The Snowy Day is the best book in our classroom"
+  },
+  {
+   "id": "rainy-game",
+   "short": "rainy-day games",
+   "q": "What is the best game to play inside on a rainy day?",
+   "pick": "I Spy",
+   "r1": "you need nothing",
+   "r2": "everyone can play",
+   "r3": "you notice small things",
+   "no": "I Spy is the best game",
+   "n3": "you notice things",
+   "nc": "I Spy is so much fun",
+   "claim": "I Spy is the best game for a rainy day"
+  },
+  {
+   "id": "school-time",
+   "short": "parts of the day",
+   "q": "What is the best part of the school day?",
+   "pick": "story time",
+   "r1": "the stories are exciting",
+   "r2": "we can relax on the rug",
+   "r3": "it is a calm time",
+   "no": "story time is best",
+   "n3": "a calm time",
+   "nc": "story time is so fun",
+   "claim": "story time is the best part of the day"
+  },
+  {
+   "id": "subject",
+   "short": "school subjects",
+   "q": "Which subject at school is the best?",
+   "pick": "science",
+   "r1": "we do experiments",
+   "r2": "we learn so much",
+   "r3": "we find out how things work",
+   "no": "science is the best",
+   "n3": "how things work",
+   "nc": "science is so much fun",
+   "claim": "science is the best subject"
+  },
+  {
+   "id": "choice-time",
+   "short": "choice time",
+   "q": "What is the best thing to do at choice time?",
+   "pick": "building",
+   "r1": "you build anything you want",
+   "r2": "friends can help",
+   "r3": "you can make a whole city",
+   "no": "building is the best",
+   "n3": "make a whole city",
+   "nc": "building is so fun",
+   "claim": "building is the best thing to do at choice time"
+  },
+  {
+   "id": "school-day",
+   "short": "days of the week",
+   "q": "Which day of the school week is the best?",
+   "pick": "Friday",
+   "r1": "we have art then",
+   "r2": "we share our work",
+   "r3": "we have show and tell",
+   "no": "Friday is the best day",
+   "n3": "show and tell",
+   "nc": "Friday is so great",
+   "claim": "Friday is the best day of the school week"
+  },
+  {
+   "id": "playground-spot",
+   "short": "the playground",
+   "q": "What is the best place on the playground?",
+   "pick": "the slide",
+   "r1": "it is so fast",
+   "r2": "it is very tall",
+   "r3": "it is fun to climb up",
+   "no": "the slide is the best",
+   "n3": "fun to climb up",
+   "nc": "the slide is so fun",
+   "claim": "the slide is the best place on the playground"
+  }
+ ],
+ "letters": [
+  {
+   "id": "park",
+   "kind": "thanks",
+   "date": "October 2, 2026",
+   "greet": "Dear Ms. Park",
+   "body": [
+    "Thank you for reading us a book about whales.",
+    "I liked the part about the baby whale.",
+    "Can we read another one soon?"
+   ],
+   "close": "Your student",
+   "sign": "Leo"
+  },
+  {
+   "id": "grandpa-beans",
+   "kind": "news",
+   "date": "April 14, 2026",
+   "greet": "Dear Grandpa",
+   "body": [
+    "Our class planted bean seeds in cups.",
+    "My bean plant has two leaves now.",
+    "I will show it to you when it gets big."
+   ],
+   "close": "Love",
+   "sign": "Maya"
+  },
+  {
+   "id": "sam-song",
+   "kind": "news",
+   "date": "March 9, 2026",
+   "greet": "Dear Sam",
+   "body": [
+    "I miss you at school.",
+    "We learned a new song in music class.",
+    "I hope you can come and visit soon."
+   ],
+   "close": "Your friend",
+   "sign": "Ava"
+  },
+  {
+   "id": "rosa-tooth",
+   "kind": "news",
+   "date": "January 21, 2026",
+   "greet": "Dear Aunt Rosa",
+   "body": [
+    "I lost my first tooth at school today.",
+    "The nurse gave me a little box for it.",
+    "Now I have a gap in my smile!"
+   ],
+   "close": "Love",
+   "sign": "Ben"
+  },
+  {
+   "id": "diaz-rope",
+   "kind": "thanks",
+   "date": "November 4, 2026",
+   "greet": "Dear Mr. Diaz",
+   "body": [
+    "Thank you for teaching us to jump rope.",
+    "I can jump ten times in a row now.",
+    "Gym is so much fun."
+   ],
+   "close": "Your student",
+   "sign": "Kim"
+  },
+  {
+   "id": "mia-clouds",
+   "kind": "question",
+   "date": "May 6, 2026",
+   "greet": "Dear Mia",
+   "body": [
+    "Our class went outside to look at clouds.",
+    "One cloud looked like a dragon.",
+    "What shapes did you see?"
+   ],
+   "close": "Your friend",
+   "sign": "Omar"
+  },
+  {
+   "id": "lee-frogs",
+   "kind": "thanks",
+   "date": "February 3, 2026",
+   "greet": "Dear Mrs. Lee",
+   "body": [
+    "Thank you for helping me find a book about frogs.",
+    "I read it two times.",
+    "Do you have another one?"
+   ],
+   "close": "Sincerely",
+   "sign": "Nora"
+  },
+  {
+   "id": "grandma-read",
+   "kind": "news",
+   "date": "December 1, 2026",
+   "greet": "Dear Grandma",
+   "body": [
+    "I can read chapter books now.",
+    "My teacher says I read with a lot of feeling.",
+    "I want to read one to you."
+   ],
+   "close": "Love",
+   "sign": "Eli"
+  },
+  {
+   "id": "brown-swings",
+   "kind": "thanks",
+   "date": "September 15, 2026",
+   "greet": "Dear Mr. Brown",
+   "body": [
+    "Thank you for the new swings on the playground.",
+    "We take turns on them every day.",
+    "They go so high!"
+   ],
+   "close": "Sincerely",
+   "sign": "Lily"
+  },
+  {
+   "id": "jay-garden",
+   "kind": "news",
+   "date": "June 2, 2026",
+   "greet": "Dear Jay",
+   "body": [
+    "Our class has a garden now.",
+    "We are growing peas and carrots.",
+    "I will save some peas for you."
+   ],
+   "close": "Your cousin",
+   "sign": "Zoe"
+  },
+  {
+   "id": "green-street",
+   "kind": "thanks",
+   "date": "October 20, 2026",
+   "greet": "Dear Officer Green",
+   "body": [
+    "Thank you for helping us cross the street.",
+    "You always wave and smile.",
+    "You make our mornings happy."
+   ],
+   "close": "Your friend",
+   "sign": "Max"
+  },
+  {
+   "id": "ray-rainbow",
+   "kind": "news",
+   "date": "April 28, 2026",
+   "greet": "Dear Uncle Ray",
+   "body": [
+    "I saw a big rainbow on the way to school.",
+    "It had all the colors in it.",
+    "I made a picture of it for you."
+   ],
+   "close": "Love",
+   "sign": "Ivy"
+  },
+  {
+   "id": "hana-bugs",
+   "kind": "question",
+   "date": "March 17, 2026",
+   "greet": "Dear Hana",
+   "body": [
+    "My class is learning about bugs.",
+    "Did you know that ants have six legs?",
+    "What are you learning about?"
+   ],
+   "close": "Your friend",
+   "sign": "Sofia"
+  },
+  {
+   "id": "rivera-clay",
+   "kind": "thanks",
+   "date": "January 12, 2026",
+   "greet": "Dear Ms. Rivera",
+   "body": [
+    "Thank you for the clay.",
+    "I made a little turtle with it.",
+    "It is drying on the shelf now."
+   ],
+   "close": "Your student",
+   "sign": "Theo"
+  },
+  {
+   "id": "ella-drill",
+   "kind": "news",
+   "date": "September 29, 2026",
+   "greet": "Dear Ella",
+   "body": [
+    "We had a fire drill today.",
+    "Everyone walked out in a line.",
+    "The bell was very loud!"
+   ],
+   "close": "Your pal",
+   "sign": "Noah"
+  },
+  {
+   "id": "joe-tortoise",
+   "kind": "question",
+   "date": "February 24, 2026",
+   "greet": "Dear Grandpa Joe",
+   "body": [
+    "Our class read a story about a tortoise and a hare.",
+    "The slow tortoise won the race.",
+    "Can you guess why?"
+   ],
+   "close": "Love",
+   "sign": "Amir"
+  },
+  {
+   "id": "hall-sick",
+   "kind": "news",
+   "date": "November 18, 2026",
+   "greet": "Dear Mrs. Hall",
+   "body": [
+    "I missed you when I was sick last week.",
+    "I am all better now.",
+    "I can’t wait to come back to class."
+   ],
+   "close": "Your student",
+   "sign": "Ruby"
+  },
+  {
+   "id": "fox-drum",
+   "kind": "thanks",
+   "date": "May 19, 2026",
+   "greet": "Dear Mr. Fox",
+   "body": [
+    "Thank you for teaching us the drum song.",
+    "I practice it on my desk.",
+    "Can we play it again next week?"
+   ],
+   "close": "Sincerely",
+   "sign": "Leah"
+  }
+ ],
+ "forms": {
+  "greet": [
+   "Kim",
+   "Ben",
+   "Grandma",
+   "Mr. Fox",
+   "Aunt Mia",
+   "Ms. Cruz",
+   "Ruby",
+   "Coach Lee",
+   "Uncle Ted",
+   "Mrs. Gray"
+  ],
+  "close": [
+   "Your friend",
+   "Love",
+   "Sincerely",
+   "Your pal",
+   "Your student",
+   "Best wishes"
+  ]
+ },
+ "otherReaders": [
+  {
+   "to": "your teacher",
+   "greet": "Dear Ms. Lane",
+   "close": "Your student",
+   "also": "Any teacher’s name after Dear, with a comma; any closing such as Your student, or Sincerely, with only the first word capitalized and a comma."
+  },
+  {
+   "to": "a classmate",
+   "greet": "Dear Jack",
+   "close": "Your friend",
+   "also": "Any classmate’s name after Dear, with a comma; any closing such as Your friend, or Your pal, with only the first word capitalized and a comma."
+  },
+  {
+   "to": "a grown-up in your family",
+   "greet": "Dear Grandpa",
+   "close": "Love",
+   "also": "Any family name such as Grandma or Uncle Ted after Dear, with a comma; any closing such as Love, or Your grandchild, with only the first word capitalized and a comma."
+  },
+  {
+   "to": "the school nurse",
+   "greet": "Dear Nurse Kay",
+   "close": "Sincerely",
+   "also": "The nurse’s name after Dear, with a comma; any closing such as Sincerely, or Your student, with only the first word capitalized and a comma."
+  },
+  {
+   "to": "the principal",
+   "greet": "Dear Mr. Cole",
+   "close": "Sincerely",
+   "also": "The principal’s name after Dear, with a comma; any closing such as Sincerely, or Your student, with only the first word capitalized and a comma."
+  },
+  {
+   "to": "a character in a book",
+   "greet": "Dear Peter",
+   "close": "Your friend",
+   "also": "Any character’s name after Dear, with a comma; any closing such as Your friend, or Your pal, with only the first word capitalized and a comma."
+  }
+ ],
+ "readers": [
+  "a classmate",
+  "your teacher",
+  "someone in your family",
+  "a character in a book"
+ ],
+ "topics": [
+  {
+   "id": "learned",
+   "kind": "news",
+   "ask": "Tell about something new you learned at school.",
+   "frames": [
+    [
+     "I learned about",
+     "this week."
+    ],
+    [
+     "I found out",
+     "."
+    ],
+    [
+     "I want to learn",
+     "."
+    ]
+   ],
+   "starters": [
+    "I learned",
+    "I found",
+    "I want"
+   ],
+   "sample": {
+    "to": "someone in your family",
+    "greet": "Dear Mom",
+    "body": [
+     "I learned about magnets this week.",
+     "I found out magnets pull on iron.",
+     "I want to learn how they work."
+    ],
+    "fills": [
+     "magnets",
+     "magnets pull on iron",
+     "how they work"
+    ],
+    "close": "Love",
+    "sign": "Sam",
+    "rests": [
+     "about magnets this week.",
+     "out magnets pull on iron.",
+     "to learn how they work."
+    ]
+   }
+  },
+  {
+   "id": "thanks",
+   "kind": "thanks",
+   "ask": "Thank your reader for something kind.",
+   "frames": [
+    [
+     "Thank you for",
+     "."
+    ],
+    [
+     "It made me feel",
+     "."
+    ],
+    [
+     "I hope you",
+     "."
+    ]
+   ],
+   "starters": [
+    "Thank you",
+    "It made",
+    "I hope"
+   ],
+   "sample": {
+    "to": "a classmate",
+    "greet": "Dear Ava",
+    "body": [
+     "Thank you for the markers.",
+     "It made me feel happy.",
+     "I hope you have a great day."
+    ],
+    "fills": [
+     "the markers",
+     "happy",
+     "have a great day"
+    ],
+    "close": "Your friend",
+    "sign": "Leo",
+    "rests": [
+     "for the markers.",
+     "me feel happy.",
+     "you have a great day."
+    ]
+   }
+  },
+  {
+   "id": "book",
+   "kind": "book",
+   "ask": "Tell your reader about a book you like.",
+   "frames": [
+    [
+     "The book I like is",
+     "."
+    ],
+    [
+     "It is about",
+     "."
+    ],
+    [
+     "The best part is",
+     "."
+    ]
+   ],
+   "starters": [
+    "The book",
+    "It is",
+    "The best"
+   ],
+   "sample": {
+    "to": "someone in your family",
+    "greet": "Dear Grandma",
+    "body": [
+     "The book I like is The Snowy Day.",
+     "It is about a boy in the snow.",
+     "The best part is the snow angels."
+    ],
+    "fills": [
+     "The Snowy Day",
+     "a boy in the snow",
+     "the snow angels"
+    ],
+    "close": "Love",
+    "sign": "Mia",
+    "rests": [
+     "I like is The Snowy Day.",
+     "about a boy in the snow.",
+     "part is the snow angels."
+    ]
+   }
+  },
+  {
+   "id": "recess",
+   "kind": "news",
+   "ask": "Tell about a game you played at recess.",
+   "frames": [
+    [
+     "I played",
+     "at recess."
+    ],
+    [
+     "It was fun because",
+     "."
+    ],
+    [
+     "I want to",
+     "next time."
+    ]
+   ],
+   "starters": [
+    "I played",
+    "It was",
+    "I want"
+   ],
+   "sample": {
+    "to": "someone in your family",
+    "greet": "Dear Dad",
+    "body": [
+     "I played tag at recess.",
+     "It was fun because I ran so fast.",
+     "I want to be it next time."
+    ],
+    "fills": [
+     "tag",
+     "I ran so fast",
+     "be it"
+    ],
+    "close": "Love",
+    "sign": "Kai",
+    "rests": [
+     "tag at recess.",
+     "fun because I ran so fast.",
+     "to be it next time."
+    ]
+   }
+  },
+  {
+   "id": "question",
+   "kind": "question",
+   "ask": "Ask your reader about their day.",
+   "frames": [
+    [
+     "I hope your day was",
+     "."
+    ],
+    [
+     "Did you",
+     "?"
+    ],
+    [
+     "Please write back and",
+     "."
+    ]
+   ],
+   "starters": [
+    "I hope",
+    "Did",
+    "Please"
+   ],
+   "sample": {
+    "to": "a classmate",
+    "greet": "Dear Ben",
+    "body": [
+     "I hope your day was fun.",
+     "Did you play outside today?",
+     "Please write back and tell me."
+    ],
+    "fills": [
+     "fun",
+     "play outside today",
+     "tell me"
+    ],
+    "close": "Your friend",
+    "sign": "Kai",
+    "rests": [
+     "your day was fun.",
+     "you play outside today?",
+     "write back and tell me."
+    ]
+   }
+  },
+  {
+   "id": "class-news",
+   "kind": "news",
+   "ask": "Tell your reader some news from your class.",
+   "frames": [
+    [
+     "Our class",
+     "today."
+    ],
+    [
+     "The best part was",
+     "."
+    ],
+    [
+     "We will",
+     "tomorrow."
+    ]
+   ],
+   "starters": [
+    "Our class",
+    "The best",
+    "We will"
+   ],
+   "sample": {
+    "to": "someone in your family",
+    "greet": "Dear Aunt Mia",
+    "body": [
+     "Our class planted seeds today.",
+     "The best part was digging.",
+     "We will water them tomorrow."
+    ],
+    "fills": [
+     "planted seeds",
+     "digging",
+     "water them"
+    ],
+    "close": "Love",
+    "sign": "Zoe",
+    "rests": [
+     "planted seeds today.",
+     "part was digging.",
+     "water them tomorrow."
+    ]
+   }
+  },
+  {
+   "id": "favorite",
+   "kind": "news",
+   "ask": "Tell your reader about your favorite part of the school day.",
+   "frames": [
+    [
+     "My favorite part of the day is",
+     "."
+    ],
+    [
+     "I like it because",
+     "."
+    ],
+    [
+     "What is your favorite",
+     "?"
+    ]
+   ],
+   "starters": [
+    "My favorite part",
+    "I like it",
+    "What is"
+   ],
+   "sample": {
+    "to": "your teacher",
+    "greet": "Dear Mr. Fox",
+    "body": [
+     "My favorite part of the day is music.",
+     "I like it because we sing songs.",
+     "What is your favorite subject?"
+    ],
+    "fills": [
+     "music",
+     "we sing songs",
+     "subject"
+    ],
+    "close": "Your student",
+    "sign": "Ana",
+    "rests": [
+     "of the day is music.",
+     "because we sing songs.",
+     "your favorite subject?"
+    ]
+   }
+  }
+ ],
+ "cap": {
+  "circle": [
+   {
+    "t": "We see fireworks on the [fourth] of [july].",
+    "k": "h"
+   },
+   {
+    "t": "There is no school on [labor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Many families eat turkey on [thanksgiving].",
+    "k": "h"
+   },
+   {
+    "t": "People plant trees on [arbor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Our class picks up trash on [earth] [day].",
+    "k": "h"
+   },
+   {
+    "t": "People vote on [election] [day] in the fall.",
+    "k": "h"
+   },
+   {
+    "t": "Many people watch a parade on [new] [year’s] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We thank people who served on [veterans] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Many towns have a parade on [memorial] [day] each year.",
+    "k": "h"
+   },
+   {
+    "t": "Many schools are closed on [presidents’] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We watch fireworks on [independence] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We share a big meal on [thanksgiving].",
+    "k": "h"
+   },
+   {
+    "t": "Our class plants seeds on [earth] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Some people wave flags on [veterans] [day].",
+    "k": "h"
+   },
+   {
+    "t": "The [fourth] of [july] comes in the summer.",
+    "k": "h"
+   },
+   {
+    "t": "We read about our country on [constitution] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We learn why trees matter on [arbor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We learn about freedom on [juneteenth].",
+    "k": "h"
+   },
+   {
+    "t": "We had a snow day after [thanksgiving] this year.",
+    "k": "h"
+   },
+   {
+    "t": "Our school day ends early before [thanksgiving].",
+    "k": "h"
+   },
+   {
+    "t": "It is a hot day on the [fourth] of [july].",
+    "k": "h"
+   },
+   {
+    "t": "We spend the day outside on [juneteenth].",
+    "k": "h"
+   },
+   {
+    "t": "We plant a tree on [arbor] [day] every spring.",
+    "k": "h"
+   },
+   {
+    "t": "People have picnics on [juneteenth] in the summer.",
+    "k": "h"
+   },
+   {
+    "t": "The [mississippi] [river] is very long.",
+    "k": "p"
+   },
+   {
+    "t": "Big ships sail on [lake] [michigan].",
+    "k": "p"
+   },
+   {
+    "t": "The [rocky] [mountains] are very tall.",
+    "k": "p"
+   },
+   {
+    "t": "The [grand] [canyon] is very deep.",
+    "k": "p"
+   },
+   {
+    "t": "There are many tall buildings in [chicago].",
+    "k": "p"
+   },
+   {
+    "t": "Many oranges grow in [florida].",
+    "k": "p"
+   },
+   {
+    "t": "It snows a lot in [alaska].",
+    "k": "p"
+   },
+   {
+    "t": "There are volcanoes in [hawaii].",
+    "k": "p"
+   },
+   {
+    "t": "The city of [boston] is near the ocean.",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "Whales swim in the [pacific] [ocean].",
+    "k": "p"
+   },
+   {
+    "t": "Our school is on [maple] [street].",
+    "k": "p"
+   },
+   {
+    "t": "We played tag in [oak] [park] after school.",
+    "k": "p"
+   },
+   {
+    "t": "The library on [pine] [road] is new.",
+    "k": "p"
+   },
+   {
+    "t": "It is often hot in [texas] in the summer.",
+    "k": "p"
+   },
+   {
+    "t": "Cactus plants grow in [arizona].",
+    "k": "p"
+   },
+   {
+    "t": "The city of [denver] is in [colorado].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "People swim in [lake] [erie] in the summer.",
+    "k": "p"
+   },
+   {
+    "t": "The big lake by our town is [cedar] [lake].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "The park near us is [oak] [park].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "Our street is [elm] [street].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "Our class builds towers with [nebbit] blocks.",
+    "k": "b"
+   },
+   {
+    "t": "We glued our pictures with [dabbit] glue.",
+    "k": "b"
+   },
+   {
+    "t": "We drew on the sidewalk with [sprindle] chalk.",
+    "k": "b"
+   },
+   {
+    "t": "The art room has new [squibble] markers.",
+    "k": "b"
+   },
+   {
+    "t": "Our teacher fixed the torn page with [tinzee] tape.",
+    "k": "b"
+   },
+   {
+    "t": "We colored the map with [wumble] crayons.",
+    "k": "b"
+   },
+   {
+    "t": "We painted the sign with [gloopa] paint.",
+    "k": "b"
+   },
+   {
+    "t": "We fixed our mistakes with [snerk] erasers.",
+    "k": "b"
+   },
+   {
+    "t": "We painted signs with [gloopa] paint on [earth] [day].",
+    "k": "hb"
+   },
+   {
+    "t": "We had a picnic in [oak] [park] on [labor] [day].",
+    "k": "hp"
+   },
+   {
+    "t": "We made a map of [texas] with [wumble] crayons.",
+    "k": "pb"
+   },
+   {
+    "t": "We drew stars with [squibble] markers on [flag] [day].",
+    "k": "hb"
+   }
+  ],
+  "write": [
+   {
+    "t": "People vote on [election] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We plant trees on [arbor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "School is closed on [labor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Kids sleep in on [labor] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We cleaned up on [earth] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We read about [earth] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We love the [fourth] of [july].",
+    "k": "h"
+   },
+   {
+    "t": "We eat turkey on [thanksgiving].",
+    "k": "h"
+   },
+   {
+    "t": "We wave flags on [veterans] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Bands play on [memorial] [day].",
+    "k": "h"
+   },
+   {
+    "t": "Flags are out on [memorial] [day].",
+    "k": "h"
+   },
+   {
+    "t": "We have picnics on [juneteenth].",
+    "k": "h"
+   },
+   {
+    "t": "We swim in [lake] [erie].",
+    "k": "p"
+   },
+   {
+    "t": "We played in [oak] [park].",
+    "k": "p"
+   },
+   {
+    "t": "Ships sail on [lake] [michigan].",
+    "k": "p"
+   },
+   {
+    "t": "Cactus plants grow in [arizona].",
+    "k": "p"
+   },
+   {
+    "t": "It snows a lot in [alaska].",
+    "k": "p"
+   },
+   {
+    "t": "Oranges grow in [florida].",
+    "k": "p"
+   },
+   {
+    "t": "The [rocky] [mountains] are tall.",
+    "k": "p"
+   },
+   {
+    "t": "The city of [boston] is old.",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "The city of [chicago] is big.",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "Our street is [elm] [street].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "The big lake is [cedar] [lake].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "Our park is [oak] [park].",
+    "k": "p",
+    "contrast": true
+   },
+   {
+    "t": "We walked down [pine] [road].",
+    "k": "p"
+   },
+   {
+    "t": "We used [dabbit] glue.",
+    "k": "b"
+   },
+   {
+    "t": "Our class has [nebbit] blocks.",
+    "k": "b"
+   },
+   {
+    "t": "We drew with [sprindle] chalk.",
+    "k": "b"
+   },
+   {
+    "t": "We like [squibble] markers.",
+    "k": "b"
+   },
+   {
+    "t": "Fix it with [tinzee] tape.",
+    "k": "b"
+   },
+   {
+    "t": "We used [wumble] crayons.",
+    "k": "b"
+   },
+   {
+    "t": "We like [gloopa] paint.",
+    "k": "b"
+   }
+  ],
+  "sortNames": {
+   "h": [
+    "thanksgiving",
+    "juneteenth",
+    "labor day",
+    "earth day",
+    "arbor day",
+    "memorial day",
+    "election day",
+    "veterans day",
+    "flag day"
+   ],
+   "p": [
+    "lake erie",
+    "oak park",
+    "texas",
+    "ohio",
+    "chicago",
+    "maple street",
+    "boston",
+    "alaska",
+    "cedar lake",
+    "pine road"
+   ],
+   "b": [
+    "dabbit glue",
+    "nebbit blocks",
+    "sprindle chalk",
+    "wumble crayons",
+    "gloopa paint",
+    "snerk erasers"
+   ]
+  },
+  "sortCommons": {
+   "h": [
+    "holiday",
+    "parade",
+    "summer",
+    "picnic",
+    "fireworks",
+    "vacation",
+    "flag",
+    "weekend",
+    "snow day",
+    "school day",
+    "rainy day",
+    "birthday"
+   ],
+   "p": [
+    "lake",
+    "park",
+    "street",
+    "city",
+    "mountains",
+    "playground",
+    "river",
+    "state",
+    "road",
+    "ocean",
+    "bus stop",
+    "fire station",
+    "toy store"
+   ]
+  },
+  "pairs": [
+   [
+    "lake",
+    "lake erie"
+   ],
+   [
+    "park",
+    "oak park"
+   ],
+   [
+    "street",
+    "maple street"
+   ],
+   [
+    "lake",
+    "cedar lake"
+   ],
+   [
+    "road",
+    "pine road"
+   ],
+   [
+    "city",
+    "chicago"
+   ],
+   [
+    "city",
+    "boston"
+   ],
+   [
+    "state",
+    "texas"
+   ],
+   [
+    "state",
+    "ohio"
+   ],
+   [
+    "state",
+    "alaska"
+   ],
+   [
+    "holiday",
+    "labor day"
+   ],
+   [
+    "holiday",
+    "thanksgiving"
+   ]
+  ],
+  "products": {
+   "dabbit": "glue",
+   "nebbit": "blocks",
+   "sprindle": "chalk",
+   "squibble": "markers",
+   "tinzee": "tape",
+   "wumble": "crayons",
+   "gloopa": "paint",
+   "snerk": "erasers"
+  },
+  "ownSamples": [
+   "Our school is in Denver.",
+   "We live in the state of Ohio.",
+   "Our town is near Lake Erie."
+  ]
+ },
+ "modelOnly": {
+  "words": [
+   "groundhog",
+   "hudson",
+   "statue",
+   "liberty",
+   "pemmo",
+   "winter",
+   "panda",
+   "pandas",
+   "bamboo"
+  ],
+  "bigWords": "Groundhog Day, Hudson River",
+  "smallWords": "Statue of Liberty",
+  "product": "Pemmo paper",
+  "season": "winter",
+  "board": [
+   "the river",
+   "Hudson River"
+  ],
+  "opinion": "Pandas are the best animals at the zoo.",
+  "note": "because they eat bamboo all day",
+  "sentence": "One reason is that they eat bamboo all day."
+ },
+ "properish": [
+  "i",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday",
+  "january",
+  "february",
+  "march",
+  "april",
+  "may",
+  "june",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december",
+  "earth",
+  "mom",
+  "dad",
+  "grandma",
+  "grandpa",
+  "president",
+  "america",
+  "american",
+  "english",
+  "spanish",
+  "god",
+  "north",
+  "south",
+  "east",
+  "west",
+  "mars",
+  "sun",
+  "moon"
+ ],
+ "bad": [
+  "stupid",
+  "dumb",
+  "hate",
+  "kill",
+  "gun",
+  "die",
+  "dead",
+  "ugly",
+  "idiot",
+  "shut",
+  "butt",
+  "poop",
+  "pee",
+  "gross",
+  "fight",
+  "blood",
+  "scary",
+  "weird",
+  "loser",
+  "jerk"
+ ]
+}

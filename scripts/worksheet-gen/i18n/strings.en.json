@@ -5805,5 +5805,29 @@
   "G1-623": {
     "title": "Revise with a Checklist",
     "instruction": "Check your writing with a partner. Then add a detail."
+  },
+  "G2-565": {
+    "title": "Parts of an Informative Piece",
+    "instruction": "An informative piece has a topic sentence, facts, and a closing sentence."
+  },
+  "G2-566": {
+    "title": "Plan Your Informative Piece",
+    "instruction": "Plan your piece. Put your facts in groups under two headings."
+  },
+  "G2-567": {
+    "title": "Closing Sentences, Definitions, and Linking Words",
+    "instruction": "A closing sentence tells about a topic again in new words."
+  },
+  "G2-568": {
+    "title": "Draft Your Informative Piece",
+    "instruction": "Write your piece from your plan. Use linking words."
+  },
+  "G2-569": {
+    "title": "Research with Two Books: Take Notes",
+    "instruction": "Read both books. Write short notes in your own words."
+  },
+  "G2-570": {
+    "title": "Write Your Part of the Class Report",
+    "instruction": "Use your notes to write your part of the class report."
   }
 }

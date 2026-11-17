@@ -8199,7 +8199,7 @@
   "K-674": {},
   "K-675": {
     "1": {
-      "en": "A fact tells something true."
+      "en": "Facts tell true things about one topic."
     }
   },
   "K-676": {},
@@ -8229,10 +8229,10 @@
   },
   "G2-578": {
     "1": {
-      "en": "Quotation marks show a character’s words. A said-word and a name tell who said them."
+      "en": "Quotation marks show a character’s words. The name and “said” tell who is talking."
     },
     "3": {
-      "en": "Characters can think different things. Their words show what each one thinks."
+      "en": "Characters think differently. No said-word? The character who does something just before the words is talking."
     }
   },
   "G2-579": {
@@ -8261,10 +8261,10 @@
   },
   "G2-582": {
     "1": {
-      "en": "In a book talk, build on what others say: link your words to theirs."
+      "en": "In a book club, build on what others say: link your words to theirs."
     },
     "3": {
-      "en": "A reply that builds on a comment stays on the same idea and adds to it."
+      "en": "A reply that builds on a comment talks about the same idea: agree, add, or see it another way, with a reason."
     }
   },
   "G2-583": {

@@ -5860,7 +5860,7 @@
   },
   "K-675": {
     "title": "Facts and Labels",
-    "instruction": "A fact tells something true. A label names a part."
+    "instruction": "Facts tell true things about one topic. A label names a part."
   },
   "K-676": {
     "title": "I Can Teach You a Fact",
@@ -5888,11 +5888,11 @@
   },
   "G2-577": {
     "title": "Write How a Story Begins and Ends",
-    "instruction": "Tell how the beginning starts the story and how the ending solves it."
+    "instruction": "Tell how the beginning starts the story and the ending solves the problem."
   },
   "G2-578": {
     "title": "Who Is Talking? Points of View",
-    "instruction": "Characters can think different things about the same thing."
+    "instruction": "Characters think differently. The name can come before or after the words."
   },
   "G2-579": {
     "title": "Reader’s Theater: Different Voices",

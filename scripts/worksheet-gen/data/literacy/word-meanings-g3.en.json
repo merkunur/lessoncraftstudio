@@ -1,0 +1,7724 @@
+{
+ "$comment": "Grade 3 \"Words and Their Meanings\": context clues (G3-540, G3-541) and dictionary and glossary (G3-542, G3-543). Written by the scratch script dd-g3wm/bank.js; checked by types/_shared/word-meanings-g3.js when it loads.",
+ "ctx": {
+  "passages": {
+   "1": [
+    {
+     "id": "pond",
+     "title": "A Pond in Spring",
+     "paras": [
+      "A pond is full of life in spring. Frogs lay spawn, a clump of jelly with many tiny eggs. Tall reeds, grassy plants that grow in wet places, sway at the edge. A snapping turtle lurks there, which means it waits quietly out of sight.",
+      "Under the water live dragonfly nymphs, young dragonflies that cannot fly yet. Later they emerge, which means they come out of the water, and climb up a stem. A muskrat is a furry animal that swims and eats water plants. Turtles bask, or lie in the warm sun, on a log. Early in the morning, before the wind comes up, the pond is serene, which means calm and peaceful."
+     ],
+     "targets": [
+      {
+       "w": "spawn",
+       "p": 0,
+       "at": [
+        44,
+        49
+       ],
+       "clue": "a clump of jelly with many tiny eggs",
+       "cp": 0,
+       "cat": [
+        51,
+        87
+       ],
+       "kind": "D",
+       "meaning": "a mass of frog eggs",
+       "wrong": [
+        "a pile of wet leaves",
+        "a nest of sticks"
+       ]
+      },
+      {
+       "w": "reeds",
+       "p": 0,
+       "at": [
+        94,
+        99
+       ],
+       "clue": "grassy plants that grow in wet places",
+       "cp": 0,
+       "cat": [
+        101,
+        138
+       ],
+       "kind": "D",
+       "meaning": "tall grassy plants",
+       "wrong": [
+        "small gray rocks",
+        "floating logs"
+       ]
+      },
+      {
+       "w": "lurks",
+       "p": 0,
+       "at": [
+        176,
+        181
+       ],
+       "clue": "which means it waits quietly out of sight",
+       "cp": 0,
+       "cat": [
+        189,
+        230
+       ],
+       "kind": "D",
+       "meaning": "waits out of sight",
+       "wrong": [
+        "flies far away",
+        "sings loudly"
+       ]
+      },
+      {
+       "w": "nymphs",
+       "p": 1,
+       "at": [
+        31,
+        37
+       ],
+       "clue": "young dragonflies that cannot fly yet",
+       "cp": 1,
+       "cat": [
+        39,
+        76
+       ],
+       "kind": "D",
+       "meaning": "baby dragonflies",
+       "wrong": [
+        "small green frogs",
+        "old dragonflies"
+       ]
+      },
+      {
+       "w": "emerge",
+       "p": 1,
+       "at": [
+        89,
+        95
+       ],
+       "clue": "which means they come out of the water",
+       "cp": 1,
+       "cat": [
+        97,
+        135
+       ],
+       "kind": "D",
+       "meaning": "leave the water",
+       "wrong": [
+        "fall asleep",
+        "sink to the bottom"
+       ]
+      },
+      {
+       "w": "muskrat",
+       "p": 1,
+       "at": [
+        160,
+        167
+       ],
+       "clue": "a furry animal that swims and eats water plants",
+       "cp": 1,
+       "cat": [
+        171,
+        218
+       ],
+       "kind": "D",
+       "meaning": "a furry swimming animal",
+       "wrong": [
+        "a bird with long legs",
+        "a kind of water bug"
+       ]
+      },
+      {
+       "w": "bask",
+       "p": 1,
+       "at": [
+        228,
+        232
+       ],
+       "clue": "or lie in the warm sun",
+       "cp": 1,
+       "cat": [
+        234,
+        256
+       ],
+       "kind": "D",
+       "meaning": "lie in the sun",
+       "wrong": [
+        "dig in the mud",
+        "hide in the shade"
+       ]
+      },
+      {
+       "w": "serene",
+       "p": 1,
+       "at": [
+        328,
+        334
+       ],
+       "clue": "which means calm and peaceful",
+       "cp": 1,
+       "cat": [
+        336,
+        365
+       ],
+       "kind": "D",
+       "meaning": "calm and quiet",
+       "wrong": [
+        "noisy and full of waves",
+        "cold and dark"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bats",
+     "title": "Bats at Night",
+     "paras": [
+      "Most bats are nocturnal, which means they are awake at night. In the day they sleep in a roost, a place where bats rest together. At dusk, the time just after the sun goes down, they fly out to hunt.",
+      "Many bats hunt by echolocation, finding things by listening to echoes. They devour, or eat hungrily, moths and beetles. A bat's wing is a membrane, a thin, stretchy skin, between long finger bones. A mother bat feeds her pup, a baby bat, with milk. In winter, some bats hibernate, or sleep deeply until spring."
+     ],
+     "targets": [
+      {
+       "w": "nocturnal",
+       "p": 0,
+       "at": [
+        14,
+        23
+       ],
+       "clue": "which means they are awake at night",
+       "cp": 0,
+       "cat": [
+        25,
+        60
+       ],
+       "kind": "D",
+       "meaning": "active after dark",
+       "wrong": [
+        "awake all day",
+        "afraid of the dark"
+       ]
+      },
+      {
+       "w": "roost",
+       "p": 0,
+       "at": [
+        89,
+        94
+       ],
+       "clue": "a place where bats rest together",
+       "cp": 0,
+       "cat": [
+        96,
+        128
+       ],
+       "kind": "D",
+       "meaning": "a resting place for bats",
+       "wrong": [
+        "a kind of insect",
+        "a dark rainy cloud"
+       ]
+      },
+      {
+       "w": "dusk",
+       "p": 0,
+       "at": [
+        133,
+        137
+       ],
+       "clue": "the time just after the sun goes down",
+       "cp": 0,
+       "cat": [
+        139,
+        176
+       ],
+       "kind": "D",
+       "meaning": "just after sunset",
+       "wrong": [
+        "early in the morning",
+        "in the middle of the day"
+       ]
+      },
+      {
+       "w": "echolocation",
+       "p": 1,
+       "at": [
+        18,
+        30
+       ],
+       "clue": "finding things by listening to echoes",
+       "cp": 1,
+       "cat": [
+        32,
+        69
+       ],
+       "kind": "D",
+       "meaning": "using echoes to find things",
+       "wrong": [
+        "using a flashlight",
+        "seeing colors well"
+       ]
+      },
+      {
+       "w": "devour",
+       "p": 1,
+       "at": [
+        76,
+        82
+       ],
+       "clue": "or eat hungrily",
+       "cp": 1,
+       "cat": [
+        84,
+        99
+       ],
+       "kind": "D",
+       "meaning": "gobble up",
+       "wrong": [
+        "run away from quickly",
+        "look at"
+       ]
+      },
+      {
+       "w": "membrane",
+       "p": 1,
+       "at": [
+        138,
+        146
+       ],
+       "clue": "a thin, stretchy skin",
+       "cp": 1,
+       "cat": [
+        148,
+        169
+       ],
+       "kind": "D",
+       "meaning": "skin that stretches",
+       "wrong": [
+        "a hard shell",
+        "a long, heavy wooden stick"
+       ]
+      },
+      {
+       "w": "pup",
+       "p": 1,
+       "at": [
+        221,
+        224
+       ],
+       "clue": "a baby bat",
+       "cp": 1,
+       "cat": [
+        226,
+        236
+       ],
+       "kind": "D",
+       "meaning": "a young bat",
+       "wrong": [
+        "an old bat",
+        "a kind of moth"
+       ]
+      },
+      {
+       "w": "hibernate",
+       "p": 1,
+       "at": [
+        270,
+        279
+       ],
+       "clue": "or sleep deeply until spring",
+       "cp": 1,
+       "cat": [
+        281,
+        309
+       ],
+       "kind": "D",
+       "meaning": "sleep deeply all winter",
+       "wrong": [
+        "fly away for the winter",
+        "hunt in the snow"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "weather",
+     "title": "The Weather Watcher",
+     "paras": [
+      "A meteorologist is a scientist who studies the weather. Each day she makes a forecast, a report that tells what the weather will probably be. Today she says there will be drizzle, light rain with very small drops. A gust, a sudden, strong rush of wind, may shake the trees.",
+      "In winter, cold air can bring sleet, rain that freezes into tiny bits of ice. A blizzard is a snowstorm with strong winds. In summer, humid air, air with a lot of water in it that you cannot see, feels sticky. A drought, a long time with little or no rain, can dry up streams."
+     ],
+     "targets": [
+      {
+       "w": "meteorologist",
+       "p": 0,
+       "at": [
+        2,
+        15
+       ],
+       "clue": "a scientist who studies the weather",
+       "cp": 0,
+       "cat": [
+        19,
+        54
+       ],
+       "kind": "D",
+       "meaning": "a weather scientist",
+       "wrong": [
+        "a doctor for animals",
+        "a person who fixes roofs"
+       ]
+      },
+      {
+       "w": "forecast",
+       "p": 0,
+       "at": [
+        77,
+        85
+       ],
+       "clue": "a report that tells what the weather will probably be",
+       "cp": 0,
+       "cat": [
+        87,
+        140
+       ],
+       "kind": "D",
+       "meaning": "a guess about future weather",
+       "wrong": [
+        "a map of the stars",
+        "a strong wind"
+       ]
+      },
+      {
+       "w": "drizzle",
+       "p": 0,
+       "at": [
+        171,
+        178
+       ],
+       "clue": "light rain with very small drops",
+       "cp": 0,
+       "cat": [
+        180,
+        212
+       ],
+       "kind": "D",
+       "meaning": "rain in tiny drops",
+       "wrong": [
+        "heavy snow",
+        "bright sunshine"
+       ]
+      },
+      {
+       "w": "gust",
+       "p": 0,
+       "at": [
+        216,
+        220
+       ],
+       "clue": "a sudden, strong rush of wind",
+       "cp": 0,
+       "cat": [
+        222,
+        251
+       ],
+       "kind": "D",
+       "meaning": "a quick, strong wind",
+       "wrong": [
+        "a soft, warm rain",
+        "a loud clap of thunder"
+       ]
+      },
+      {
+       "w": "sleet",
+       "p": 1,
+       "at": [
+        30,
+        35
+       ],
+       "clue": "rain that freezes into tiny bits of ice",
+       "cp": 1,
+       "cat": [
+        37,
+        76
+       ],
+       "kind": "D",
+       "meaning": "icy rain",
+       "wrong": [
+        "hot wind",
+        "dry dust that blows"
+       ]
+      },
+      {
+       "w": "blizzard",
+       "p": 1,
+       "at": [
+        80,
+        88
+       ],
+       "clue": "a snowstorm with strong winds",
+       "cp": 1,
+       "cat": [
+        92,
+        121
+       ],
+       "kind": "D",
+       "meaning": "a windy snowstorm",
+       "wrong": [
+        "a hot, dry day",
+        "a gentle spring rain"
+       ]
+      },
+      {
+       "w": "humid",
+       "p": 1,
+       "at": [
+        134,
+        139
+       ],
+       "clue": "air with a lot of water in it that you cannot see",
+       "cp": 1,
+       "cat": [
+        145,
+        194
+       ],
+       "kind": "D",
+       "meaning": "damp",
+       "wrong": [
+        "very dry and dusty",
+        "very cold"
+       ]
+      },
+      {
+       "w": "drought",
+       "p": 1,
+       "at": [
+        212,
+        219
+       ],
+       "clue": "a long time with little or no rain",
+       "cp": 1,
+       "cat": [
+        221,
+        255
+       ],
+       "kind": "D",
+       "meaning": "a long time without rain",
+       "wrong": [
+        "a sudden flood",
+        "a day of heavy snow"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bread",
+     "title": "How Bread Is Made",
+     "paras": [
+      "Bread begins on a farm. Farmers grow wheat for its kernels, the small seeds of the plant. A mill, a building with machines that grind grain, turns them into flour.",
+      "A baker mixes the flour with water and yeast, tiny living things that help bread rise. This makes dough, a soft, thick mix that will become bread. She kneads it, which means she presses and folds it. It sits in a warm place until it swells, or gets bigger. Then she shapes a loaf, one big piece of bread, and bakes it. In the oven the crust, the hard outside of the bread, turns brown."
+     ],
+     "targets": [
+      {
+       "w": "kernels",
+       "p": 0,
+       "at": [
+        51,
+        58
+       ],
+       "clue": "the small seeds of the plant",
+       "cp": 0,
+       "cat": [
+        60,
+        88
+       ],
+       "kind": "D",
+       "meaning": "the seeds of the wheat",
+       "wrong": [
+        "the roots of the wheat",
+        "bags of sugar"
+       ]
+      },
+      {
+       "w": "mill",
+       "p": 0,
+       "at": [
+        92,
+        96
+       ],
+       "clue": "a building with machines that grind grain",
+       "cp": 0,
+       "cat": [
+        98,
+        139
+       ],
+       "kind": "D",
+       "meaning": "a building that grinds grain",
+       "wrong": [
+        "a store that sells cakes",
+        "a big red tractor"
+       ]
+      },
+      {
+       "w": "yeast",
+       "p": 1,
+       "at": [
+        39,
+        44
+       ],
+       "clue": "tiny living things that help bread rise",
+       "cp": 1,
+       "cat": [
+        46,
+        85
+       ],
+       "kind": "D",
+       "meaning": "tiny living things in dough",
+       "wrong": [
+        "a kind of salt",
+        "a metal mixing spoon"
+       ]
+      },
+      {
+       "w": "dough",
+       "p": 1,
+       "at": [
+        98,
+        103
+       ],
+       "clue": "a soft, thick mix that will become bread",
+       "cp": 1,
+       "cat": [
+        105,
+        145
+       ],
+       "kind": "D",
+       "meaning": "a soft mix for bread",
+       "wrong": [
+        "a hot, crispy cookie",
+        "a glass of milk"
+       ]
+      },
+      {
+       "w": "kneads",
+       "p": 1,
+       "at": [
+        151,
+        157
+       ],
+       "clue": "which means she presses and folds it",
+       "cp": 1,
+       "cat": [
+        162,
+        198
+       ],
+       "kind": "D",
+       "meaning": "pushes and folds",
+       "wrong": [
+        "cuts into slices",
+        "pours into a cup"
+       ]
+      },
+      {
+       "w": "swells",
+       "p": 1,
+       "at": [
+        233,
+        239
+       ],
+       "clue": "or gets bigger",
+       "cp": 1,
+       "cat": [
+        241,
+        255
+       ],
+       "kind": "D",
+       "meaning": "grows larger",
+       "wrong": [
+        "gets smaller",
+        "turns cold"
+       ]
+      },
+      {
+       "w": "loaf",
+       "p": 1,
+       "at": [
+        275,
+        279
+       ],
+       "clue": "one big piece of bread",
+       "cp": 1,
+       "cat": [
+        281,
+        303
+       ],
+       "kind": "D",
+       "meaning": "a big piece of bread",
+       "wrong": [
+        "a small crumb",
+        "a baking pan"
+       ]
+      },
+      {
+       "w": "crust",
+       "p": 1,
+       "at": [
+        335,
+        340
+       ],
+       "clue": "the hard outside of the bread",
+       "cp": 1,
+       "cat": [
+        342,
+        371
+       ],
+       "kind": "D",
+       "meaning": "the outside layer",
+       "wrong": [
+        "the soft, white middle",
+        "the hot oven"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "helpers",
+     "title": "Helpers in Our Town",
+     "paras": [
+      "Many people help a town run. When someone calls 911, a dispatcher, a person who answers emergency calls, sends help. A paramedic, a worker who gives medical care on the way to the hospital, rides in the ambulance. A pharmacist is a person who prepares and gives out medicine.",
+      "At school, the custodian, a worker who cleans and cares for the building, fixes a squeaky door. If a pipe leaks, a plumber comes to fix it. A surveyor, a worker who measures land, marks where a new road will go. An electrician is a worker who fixes wires and lights. A veterinarian is an animal doctor. At a meeting, the town council, a group of leaders who make the town's rules, thanks them all."
+     ],
+     "targets": [
+      {
+       "w": "dispatcher",
+       "p": 0,
+       "at": [
+        55,
+        65
+       ],
+       "clue": "a person who answers emergency calls",
+       "cp": 0,
+       "cat": [
+        67,
+        103
+       ],
+       "kind": "D",
+       "meaning": "someone who answers 911 calls",
+       "wrong": [
+        "someone who puts out fires",
+        "someone who delivers the mail"
+       ]
+      },
+      {
+       "w": "paramedic",
+       "p": 0,
+       "at": [
+        119,
+        128
+       ],
+       "clue": "a worker who gives medical care on the way to the hospital",
+       "cp": 0,
+       "cat": [
+        130,
+        188
+       ],
+       "kind": "D",
+       "meaning": "an ambulance medical worker",
+       "wrong": [
+        "a school bus driver",
+        "a doctor for animals"
+       ]
+      },
+      {
+       "w": "pharmacist",
+       "p": 0,
+       "at": [
+        216,
+        226
+       ],
+       "clue": "a person who prepares and gives out medicine",
+       "cp": 0,
+       "cat": [
+        230,
+        274
+       ],
+       "kind": "D",
+       "meaning": "someone who gives out medicine",
+       "wrong": [
+        "a person who fixes cars",
+        "a person who paints old houses"
+       ]
+      },
+      {
+       "w": "custodian",
+       "p": 1,
+       "at": [
+        15,
+        24
+       ],
+       "clue": "a worker who cleans and cares for the building",
+       "cp": 1,
+       "cat": [
+        26,
+        72
+       ],
+       "kind": "D",
+       "meaning": "someone who cares for a building",
+       "wrong": [
+        "a music teacher",
+        "a person who builds big highways"
+       ]
+      },
+      {
+       "w": "surveyor",
+       "p": 1,
+       "at": [
+        142,
+        150
+       ],
+       "clue": "a worker who measures land",
+       "cp": 1,
+       "cat": [
+        152,
+        178
+       ],
+       "kind": "D",
+       "meaning": "someone who maps land",
+       "wrong": [
+        "someone who fixes roofs",
+        "a bus driver"
+       ]
+      },
+      {
+       "w": "electrician",
+       "p": 1,
+       "at": [
+        215,
+        226
+       ],
+       "clue": "a worker who fixes wires and lights",
+       "cp": 1,
+       "cat": [
+        230,
+        265
+       ],
+       "kind": "D",
+       "meaning": "someone who works on wires",
+       "wrong": [
+        "a worker who fixes teeth",
+        "a worker who washes windows"
+       ]
+      },
+      {
+       "w": "veterinarian",
+       "p": 1,
+       "at": [
+        269,
+        281
+       ],
+       "clue": "an animal doctor",
+       "cp": 1,
+       "cat": [
+        285,
+        301
+       ],
+       "kind": "D",
+       "meaning": "a doctor who treats animals",
+       "wrong": [
+        "a tooth doctor",
+        "a person who sells pets"
+       ]
+      },
+      {
+       "w": "council",
+       "p": 1,
+       "at": [
+        326,
+        333
+       ],
+       "clue": "a group of leaders who make the town's rules",
+       "cp": 1,
+       "cat": [
+        335,
+        379
+       ],
+       "kind": "D",
+       "meaning": "a group that runs the town",
+       "wrong": [
+        "a team of firefighters in town",
+        "a big town building"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sky",
+     "title": "The Night Sky",
+     "paras": [
+      "An astronomer is a scientist who studies stars and planets. She looks through a telescope, a tool that makes faraway things look closer. She finds a constellation, a group of stars that makes a shape. All these stars are part of our galaxy, a huge group of billions of stars.",
+      "A meteor is a streak of light made by a space rock burning up in the air. A comet, a ball of ice and dust, can grow a long, glowing tail. The Moon orbits Earth, which means it travels in a path around it. The Moon's surface has many craters, round holes made when rocks hit it."
+     ],
+     "targets": [
+      {
+       "w": "astronomer",
+       "p": 0,
+       "at": [
+        3,
+        13
+       ],
+       "clue": "a scientist who studies stars and planets",
+       "cp": 0,
+       "cat": [
+        17,
+        58
+       ],
+       "kind": "D",
+       "meaning": "a star scientist",
+       "wrong": [
+        "a weather reporter",
+        "a person who builds rockets"
+       ]
+      },
+      {
+       "w": "telescope",
+       "p": 0,
+       "at": [
+        80,
+        89
+       ],
+       "clue": "a tool that makes faraway things look closer",
+       "cp": 0,
+       "cat": [
+        91,
+        135
+       ],
+       "kind": "D",
+       "meaning": "a tool for seeing far things",
+       "wrong": [
+        "a tool for digging deep holes",
+        "a map of the night sky"
+       ]
+      },
+      {
+       "w": "constellation",
+       "p": 0,
+       "at": [
+        149,
+        162
+       ],
+       "clue": "a group of stars that makes a shape",
+       "cp": 0,
+       "cat": [
+        164,
+        199
+       ],
+       "kind": "D",
+       "meaning": "a shape made by stars",
+       "wrong": [
+        "a very bright planet",
+        "a cloud of gas"
+       ]
+      },
+      {
+       "w": "galaxy",
+       "p": 0,
+       "at": [
+        233,
+        239
+       ],
+       "clue": "a huge group of billions of stars",
+       "cp": 0,
+       "cat": [
+        241,
+        274
+       ],
+       "kind": "D",
+       "meaning": "a giant group of stars",
+       "wrong": [
+        "one small star",
+        "a moon that circles a planet"
+       ]
+      },
+      {
+       "w": "meteor",
+       "p": 1,
+       "at": [
+        2,
+        8
+       ],
+       "clue": "a streak of light made by a space rock burning up in the air",
+       "cp": 1,
+       "cat": [
+        12,
+        72
+       ],
+       "kind": "D",
+       "meaning": "light from a burning space rock",
+       "wrong": [
+        "a star that never moves",
+        "a cloud in the night sky"
+       ]
+      },
+      {
+       "w": "comet",
+       "p": 1,
+       "at": [
+        76,
+        81
+       ],
+       "clue": "a ball of ice and dust",
+       "cp": 1,
+       "cat": [
+        83,
+        105
+       ],
+       "kind": "D",
+       "meaning": "an icy, dusty ball in space",
+       "wrong": [
+        "a ball of hot, burning gas",
+        "a planet with rings"
+       ]
+      },
+      {
+       "w": "orbits",
+       "p": 1,
+       "at": [
+        147,
+        153
+       ],
+       "clue": "which means it travels in a path around it",
+       "cp": 1,
+       "cat": [
+        161,
+        203
+       ],
+       "kind": "D",
+       "meaning": "goes around",
+       "wrong": [
+        "crashes into",
+        "hides behind"
+       ]
+      },
+      {
+       "w": "craters",
+       "p": 1,
+       "at": [
+        233,
+        240
+       ],
+       "clue": "round holes made when rocks hit it",
+       "cp": 1,
+       "cat": [
+        242,
+        276
+       ],
+       "kind": "D",
+       "meaning": "holes made by rocks",
+       "wrong": [
+        "tall mountains",
+        "deep lakes of water"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "seeds",
+     "title": "Seeds and Blossoms",
+     "paras": [
+      "A bean seed lies in the soil. When it gets water, it germinates, which means it starts to grow. Soon a seedling, a very young plant, pokes up. Its roots take in nutrients, things that help living things grow. Without water, the little plant would wilt, or droop and go limp.",
+      "In spring, an apple tree is covered with blossoms, flowers on a tree or bush. Inside them is nectar, a sweet liquid that bees drink. Bees also carry pollen, a fine powder made by flowers, from flower to flower. One day, an apple seed may grow into a sapling, a young tree."
+     ],
+     "targets": [
+      {
+       "w": "germinates",
+       "p": 0,
+       "at": [
+        53,
+        63
+       ],
+       "clue": "which means it starts to grow",
+       "cp": 0,
+       "cat": [
+        65,
+        94
+       ],
+       "kind": "D",
+       "meaning": "begins to grow",
+       "wrong": [
+        "stops growing",
+        "falls apart"
+       ]
+      },
+      {
+       "w": "seedling",
+       "p": 0,
+       "at": [
+        103,
+        111
+       ],
+       "clue": "a very young plant",
+       "cp": 0,
+       "cat": [
+        113,
+        131
+       ],
+       "kind": "D",
+       "meaning": "a young plant",
+       "wrong": [
+        "an old tree",
+        "a kind of bug"
+       ]
+      },
+      {
+       "w": "nutrients",
+       "p": 0,
+       "at": [
+        161,
+        170
+       ],
+       "clue": "things that help living things grow",
+       "cp": 0,
+       "cat": [
+        172,
+        207
+       ],
+       "kind": "D",
+       "meaning": "things that help it grow",
+       "wrong": [
+        "stones that block roots",
+        "bugs that chew holes in leaves"
+       ]
+      },
+      {
+       "w": "wilt",
+       "p": 0,
+       "at": [
+        247,
+        251
+       ],
+       "clue": "or droop and go limp",
+       "cp": 0,
+       "cat": [
+        253,
+        273
+       ],
+       "kind": "D",
+       "meaning": "droop and go soft",
+       "wrong": [
+        "grow tall and strong",
+        "turn bright red"
+       ]
+      },
+      {
+       "w": "blossoms",
+       "p": 1,
+       "at": [
+        41,
+        49
+       ],
+       "clue": "flowers on a tree or bush",
+       "cp": 1,
+       "cat": [
+        51,
+        76
+       ],
+       "kind": "D",
+       "meaning": "tree flowers",
+       "wrong": [
+        "brown, dry leaves",
+        "hard green apples"
+       ]
+      },
+      {
+       "w": "nectar",
+       "p": 1,
+       "at": [
+        93,
+        99
+       ],
+       "clue": "a sweet liquid that bees drink",
+       "cp": 1,
+       "cat": [
+        101,
+        131
+       ],
+       "kind": "D",
+       "meaning": "a sweet juice in flowers",
+       "wrong": [
+        "a bitter, sour powder",
+        "a kind of leaf"
+       ]
+      },
+      {
+       "w": "pollen",
+       "p": 1,
+       "at": [
+        149,
+        155
+       ],
+       "clue": "a fine powder made by flowers",
+       "cp": 1,
+       "cat": [
+        157,
+        186
+       ],
+       "kind": "D",
+       "meaning": "a fine powder from flowers",
+       "wrong": [
+        "a sweet drink for bees",
+        "a tiny striped bug"
+       ]
+      },
+      {
+       "w": "sapling",
+       "p": 1,
+       "at": [
+        250,
+        257
+       ],
+       "clue": "a young tree",
+       "cp": 1,
+       "cat": [
+        259,
+        271
+       ],
+       "kind": "D",
+       "meaning": "a baby tree",
+       "wrong": [
+        "a tall old tree",
+        "a small flower"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "workshop",
+     "title": "In the Workshop",
+     "paras": [
+      "Grandpa Luis builds a birdhouse in his workshop. First he puts on goggles, special glasses that keep his eyes safe. He cuts the wood and rubs it with sandpaper, rough paper that makes wood smooth. A clamp, a tool that holds pieces tightly together, keeps the glued sides still.",
+      "He uses a chisel, a tool with a sharp, flat edge, to carve a star on the front. He taps it with a mallet, a hammer with a wooden head. He bends a wire hook with pliers, a tool for gripping and bending. Then he holds up a level, a tool that shows if something is straight across, not tilted, to check the floor. A wrench, a tool for turning bolts, tightens the stand."
+     ],
+     "targets": [
+      {
+       "w": "goggles",
+       "p": 0,
+       "at": [
+        66,
+        73
+       ],
+       "clue": "special glasses that keep his eyes safe",
+       "cp": 0,
+       "cat": [
+        75,
+        114
+       ],
+       "kind": "D",
+       "meaning": "safety glasses",
+       "wrong": [
+        "thick work gloves",
+        "a hard hat"
+       ]
+      },
+      {
+       "w": "sandpaper",
+       "p": 0,
+       "at": [
+        150,
+        159
+       ],
+       "clue": "rough paper that makes wood smooth",
+       "cp": 0,
+       "cat": [
+        161,
+        195
+       ],
+       "kind": "D",
+       "meaning": "rough paper that smooths wood",
+       "wrong": [
+        "paper for drawing plans",
+        "sticky tape"
+       ]
+      },
+      {
+       "w": "clamp",
+       "p": 0,
+       "at": [
+        199,
+        204
+       ],
+       "clue": "a tool that holds pieces tightly together",
+       "cp": 0,
+       "cat": [
+        206,
+        247
+       ],
+       "kind": "D",
+       "meaning": "a tool that holds things tight",
+       "wrong": [
+        "a tool that cuts wood",
+        "a jar of strong glue"
+       ]
+      },
+      {
+       "w": "chisel",
+       "p": 1,
+       "at": [
+        10,
+        16
+       ],
+       "clue": "a tool with a sharp, flat edge",
+       "cp": 1,
+       "cat": [
+        18,
+        48
+       ],
+       "kind": "D",
+       "meaning": "a sharp tool for carving",
+       "wrong": [
+        "a tool for measuring",
+        "a soft brush for painting"
+       ]
+      },
+      {
+       "w": "mallet",
+       "p": 1,
+       "at": [
+        98,
+        104
+       ],
+       "clue": "a hammer with a wooden head",
+       "cp": 1,
+       "cat": [
+        106,
+        133
+       ],
+       "kind": "D",
+       "meaning": "a wooden hammer",
+       "wrong": [
+        "a small saw",
+        "a box for nails"
+       ]
+      },
+      {
+       "w": "pliers",
+       "p": 1,
+       "at": [
+        161,
+        167
+       ],
+       "clue": "a tool for gripping and bending",
+       "cp": 1,
+       "cat": [
+        169,
+        200
+       ],
+       "kind": "D",
+       "meaning": "a tool that grips and bends",
+       "wrong": [
+        "a tool for painting",
+        "a ruler for measuring"
+       ]
+      },
+      {
+       "w": "level",
+       "p": 1,
+       "at": [
+        221,
+        226
+       ],
+       "clue": "a tool that shows if something is straight across, not tilted",
+       "cp": 1,
+       "cat": [
+        228,
+        289
+       ],
+       "kind": "D",
+       "meaning": "a tool that checks for tilt",
+       "wrong": [
+        "a long ladder for high places",
+        "a hook for hanging"
+       ]
+      },
+      {
+       "w": "wrench",
+       "p": 1,
+       "at": [
+        313,
+        319
+       ],
+       "clue": "a tool for turning bolts",
+       "cp": 1,
+       "cat": [
+        321,
+        345
+       ],
+       "kind": "D",
+       "meaning": "a bolt-turning tool",
+       "wrong": [
+        "a tool that pulls out nails",
+        "a heavy rock"
+       ]
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "id": "desert",
+     "title": "Life in the Desert",
+     "paras": [
+      "A desert is arid, not wet. Some years it gets almost no rain. During the day the sand is scorching, but at night it is cool. Water is scarce there, not easy to find. There are few rivers or ponds. Even so, many plants and animals have ways to live there.",
+      "Many desert plants are succulents, such as cactuses and aloe. Reptiles, such as lizards, snakes, and tortoises, hide in the shade at noon. A tortoise moves in a sluggish way, not quickly. Desert rodents, such as mice and kangaroo rats, dig holes under the sand. Predators, such as hawks and coyotes, live there too. Many desert animals stay in the shade or underground when the sun is high. They come out in the evening, when the air is cooler. Their bodies and habits help them live with little water."
+     ],
+     "targets": [
+      {
+       "w": "arid",
+       "p": 0,
+       "at": [
+        12,
+        16
+       ],
+       "clue": "wet",
+       "cp": 0,
+       "cat": [
+        22,
+        25
+       ],
+       "kind": "A",
+       "meaning": "very dry"
+      },
+      {
+       "w": "scorching",
+       "p": 0,
+       "at": [
+        89,
+        98
+       ],
+       "clue": "cool",
+       "cp": 0,
+       "cat": [
+        119,
+        123
+       ],
+       "kind": "A",
+       "meaning": "very hot"
+      },
+      {
+       "w": "scarce",
+       "p": 0,
+       "at": [
+        134,
+        140
+       ],
+       "clue": "easy to find",
+       "cp": 0,
+       "cat": [
+        152,
+        164
+       ],
+       "kind": "A",
+       "meaning": "hard to find"
+      },
+      {
+       "w": "succulents",
+       "p": 1,
+       "at": [
+        23,
+        33
+       ],
+       "clue": "cactuses and aloe",
+       "cp": 1,
+       "cat": [
+        43,
+        60
+       ],
+       "kind": "E",
+       "meaning": "plants like cactuses"
+      },
+      {
+       "w": "Reptiles",
+       "p": 1,
+       "at": [
+        62,
+        70
+       ],
+       "clue": "lizards, snakes, and tortoises",
+       "cp": 1,
+       "cat": [
+        80,
+        110
+       ],
+       "kind": "E",
+       "meaning": "animals like lizards"
+      },
+      {
+       "w": "sluggish",
+       "p": 1,
+       "at": [
+        161,
+        169
+       ],
+       "clue": "quickly",
+       "cp": 1,
+       "cat": [
+        179,
+        186
+       ],
+       "kind": "A",
+       "meaning": "slow"
+      },
+      {
+       "w": "rodents",
+       "p": 1,
+       "at": [
+        195,
+        202
+       ],
+       "clue": "mice and kangaroo rats",
+       "cp": 1,
+       "cat": [
+        212,
+        234
+       ],
+       "kind": "E",
+       "meaning": "small animals like mice"
+      },
+      {
+       "w": "Predators",
+       "p": 1,
+       "at": [
+        262,
+        271
+       ],
+       "clue": "hawks and coyotes",
+       "cp": 1,
+       "cat": [
+        281,
+        298
+       ],
+       "kind": "E",
+       "meaning": "animals that hunt others"
+      }
+     ]
+    },
+    {
+     "id": "market",
+     "title": "At the Farmers Market",
+     "paras": [
+      "On Saturday, Ana and her dad go to the farmers market. Unlike the quiet library next door, the market is bustling. People walk from table to table with bags and baskets. The air smells of flowers and warm bread. Farmers sell produce, such as apples, carrots, and corn. The tomatoes are plump, not thin and wrinkled.",
+      "One table sells legumes, like beans, peas, and peanuts. Another sells dairy foods, such as milk, cheese, and yogurt. Ana smells herbs, such as basil and mint. The baker says that yesterday's bread is stale, but today's loaves are soft and fresh. Dad carries the glass jars of honey with care because they are fragile, not strong. Ana and her dad buy six tomatoes, a bag of carrots, and some cheese. They pay the farmers and say thank you. At home, they cook a big pot of soup."
+     ],
+     "targets": [
+      {
+       "w": "bustling",
+       "p": 0,
+       "at": [
+        105,
+        113
+       ],
+       "clue": "quiet",
+       "cp": 0,
+       "cat": [
+        66,
+        71
+       ],
+       "kind": "A",
+       "meaning": "busy and full of people"
+      },
+      {
+       "w": "produce",
+       "p": 0,
+       "at": [
+        225,
+        232
+       ],
+       "clue": "apples, carrots, and corn",
+       "cp": 0,
+       "cat": [
+        242,
+        267
+       ],
+       "kind": "E",
+       "meaning": "fruits and vegetables"
+      },
+      {
+       "w": "plump",
+       "p": 0,
+       "at": [
+        286,
+        291
+       ],
+       "clue": "thin and wrinkled",
+       "cp": 0,
+       "cat": [
+        297,
+        314
+       ],
+       "kind": "A",
+       "meaning": "full and round"
+      },
+      {
+       "w": "legumes",
+       "p": 1,
+       "at": [
+        16,
+        23
+       ],
+       "clue": "beans, peas, and peanuts",
+       "cp": 1,
+       "cat": [
+        30,
+        54
+       ],
+       "kind": "E",
+       "meaning": "plants like beans and peas"
+      },
+      {
+       "w": "dairy",
+       "p": 1,
+       "at": [
+        70,
+        75
+       ],
+       "clue": "milk, cheese, and yogurt",
+       "cp": 1,
+       "cat": [
+        91,
+        115
+       ],
+       "kind": "E",
+       "meaning": "made from milk"
+      },
+      {
+       "w": "herbs",
+       "p": 1,
+       "at": [
+        128,
+        133
+       ],
+       "clue": "basil and mint",
+       "cp": 1,
+       "cat": [
+        143,
+        157
+       ],
+       "kind": "E",
+       "meaning": "plants that add flavor"
+      },
+      {
+       "w": "stale",
+       "p": 1,
+       "at": [
+        200,
+        205
+       ],
+       "clue": "soft and fresh",
+       "cp": 1,
+       "cat": [
+        230,
+        244
+       ],
+       "kind": "A",
+       "meaning": "old and dry"
+      },
+      {
+       "w": "fragile",
+       "p": 1,
+       "at": [
+        309,
+        316
+       ],
+       "clue": "strong",
+       "cp": 1,
+       "cat": [
+        322,
+        328
+       ],
+       "kind": "A",
+       "meaning": "easy to break"
+      }
+     ]
+    },
+    {
+     "id": "winter",
+     "title": "Animals in Winter",
+     "paras": [
+      "Winter is a hard time for animals. The days are brief, not long, and the nights are cold. Many waterfowl, such as ducks and geese, fly to warmer places. Some animals migrate too, like the humpback whales that swim to warm seas and the monarch butterflies that fly to Mexico. Animals must find ways to stay warm and find food.",
+      "Other animals stay. Mammals, such as foxes, deer, and rabbits, grow thicker coats. Birds fluff up their feathers to trap warm air. A rabbit's winter fur is dense, not thin. A chipmunk is drowsy most of the winter, not wide awake. It wakes up now and then to eat seeds it stored in the fall. Evergreens, such as pines and spruces, grow in the snowy woods. Maple trees are dormant in winter, but in spring they are busy growing again. When the snow melts, the woods fill with life."
+     ],
+     "targets": [
+      {
+       "w": "brief",
+       "p": 0,
+       "at": [
+        48,
+        53
+       ],
+       "clue": "long",
+       "cp": 0,
+       "cat": [
+        59,
+        63
+       ],
+       "kind": "A",
+       "meaning": "short"
+      },
+      {
+       "w": "waterfowl",
+       "p": 0,
+       "at": [
+        95,
+        104
+       ],
+       "clue": "ducks and geese",
+       "cp": 0,
+       "cat": [
+        114,
+        129
+       ],
+       "kind": "E",
+       "meaning": "swimming birds, like ducks"
+      },
+      {
+       "w": "migrate",
+       "p": 0,
+       "at": [
+        166,
+        173
+       ],
+       "clue": "the humpback whales that swim to warm seas and the monarch butterflies that fly to Mexico",
+       "cp": 0,
+       "cat": [
+        184,
+        273
+       ],
+       "kind": "E",
+       "meaning": "move to a warmer place"
+      },
+      {
+       "w": "Mammals",
+       "p": 1,
+       "at": [
+        20,
+        27
+       ],
+       "clue": "foxes, deer, and rabbits",
+       "cp": 1,
+       "cat": [
+        37,
+        61
+       ],
+       "kind": "E",
+       "meaning": "animals with fur or hair, like foxes"
+      },
+      {
+       "w": "dense",
+       "p": 1,
+       "at": [
+        156,
+        161
+       ],
+       "clue": "thin",
+       "cp": 1,
+       "cat": [
+        167,
+        171
+       ],
+       "kind": "A",
+       "meaning": "thick"
+      },
+      {
+       "w": "drowsy",
+       "p": 1,
+       "at": [
+        187,
+        193
+       ],
+       "clue": "wide awake",
+       "cp": 1,
+       "cat": [
+        218,
+        228
+       ],
+       "kind": "A",
+       "meaning": "sleepy"
+      },
+      {
+       "w": "Evergreens",
+       "p": 1,
+       "at": [
+        291,
+        301
+       ],
+       "clue": "pines and spruces",
+       "cp": 1,
+       "cat": [
+        311,
+        328
+       ],
+       "kind": "E",
+       "meaning": "trees that stay green"
+      },
+      {
+       "w": "dormant",
+       "p": 1,
+       "at": [
+        371,
+        378
+       ],
+       "clue": "busy growing",
+       "cp": 1,
+       "cat": [
+        413,
+        425
+       ],
+       "kind": "A",
+       "meaning": "resting, not growing"
+      }
+     ]
+    },
+    {
+     "id": "planets",
+     "title": "Our Solar System",
+     "paras": [
+      "Our solar system has eight planets. Jupiter is colossal, not small. More than a thousand Earths could fit inside it. Neptune is frigid, not warm, because it is so far from the Sun. On some clear evenings, Venus is visible, not hidden, after sunset. Mercury is the planet closest to the Sun. Saturn has bright rings made of ice and rock. It takes Earth one year to travel around the Sun.",
+      "Space is full of interesting things. Many planets have satellites, such as our Moon and the moons of Mars. Astronauts wear gear, like helmets, gloves, and air tanks. Space debris, such as bolts, paint chips, and broken rocket parts, circles Earth. Rovers on Mars send back data, like photos and temperatures. Unlike Earth, which is full of plants and animals, Mars is barren. Scientists hope people will visit Mars one day."
+     ],
+     "targets": [
+      {
+       "w": "colossal",
+       "p": 0,
+       "at": [
+        47,
+        55
+       ],
+       "clue": "small",
+       "cp": 0,
+       "cat": [
+        61,
+        66
+       ],
+       "kind": "A",
+       "meaning": "very big"
+      },
+      {
+       "w": "frigid",
+       "p": 0,
+       "at": [
+        128,
+        134
+       ],
+       "clue": "warm",
+       "cp": 0,
+       "cat": [
+        140,
+        144
+       ],
+       "kind": "A",
+       "meaning": "very cold"
+      },
+      {
+       "w": "visible",
+       "p": 0,
+       "at": [
+        214,
+        221
+       ],
+       "clue": "hidden",
+       "cp": 0,
+       "cat": [
+        227,
+        233
+       ],
+       "kind": "A",
+       "meaning": "able to be seen"
+      },
+      {
+       "w": "satellites",
+       "p": 1,
+       "at": [
+        55,
+        65
+       ],
+       "clue": "our Moon and the moons of Mars",
+       "cp": 1,
+       "cat": [
+        75,
+        105
+       ],
+       "kind": "E",
+       "meaning": "moons that circle a planet"
+      },
+      {
+       "w": "gear",
+       "p": 1,
+       "at": [
+        123,
+        127
+       ],
+       "clue": "helmets, gloves, and air tanks",
+       "cp": 1,
+       "cat": [
+        134,
+        164
+       ],
+       "kind": "E",
+       "meaning": "things you wear for a job"
+      },
+      {
+       "w": "debris",
+       "p": 1,
+       "at": [
+        172,
+        178
+       ],
+       "clue": "bolts, paint chips, and broken rocket parts",
+       "cp": 1,
+       "cat": [
+        188,
+        231
+       ],
+       "kind": "E",
+       "meaning": "bits of broken junk"
+      },
+      {
+       "w": "data",
+       "p": 1,
+       "at": [
+        273,
+        277
+       ],
+       "clue": "photos and temperatures",
+       "cp": 1,
+       "cat": [
+        284,
+        307
+       ],
+       "kind": "E",
+       "meaning": "facts and information"
+      },
+      {
+       "w": "barren",
+       "p": 1,
+       "at": [
+        368,
+        374
+       ],
+       "clue": "full of plants and animals",
+       "cp": 1,
+       "cat": [
+        332,
+        358
+       ],
+       "kind": "A",
+       "meaning": "with nothing living"
+      }
+     ]
+    },
+    {
+     "id": "house",
+     "title": "Building a House",
+     "paras": [
+      "Building a house takes many steps. It can take months of hard work. First, the land must be level, not bumpy. Machinery, like bulldozers and cranes, moves dirt and lifts heavy loads. Workers pour concrete for the floor. Wet concrete is soft, but dry concrete is rigid.",
+      "Next come the walls. Then workers add a roof to keep out rain and snow. Builders use materials, such as wood, bricks, and glass. The old shed out back was flimsy, but the new walls are strong. On the roof, workers must be cautious, not careless. Plumbers put in pipes for water. Electricians add wires for lights. Later, appliances, such as a stove, a refrigerator, and a washing machine, are put in. Last, the family brings furnishings, such as beds, sofas, and tables. Then the house is ready, and the family moves in."
+     ],
+     "targets": [
+      {
+       "w": "level",
+       "p": 0,
+       "at": [
+        92,
+        97
+       ],
+       "clue": "bumpy",
+       "cp": 0,
+       "cat": [
+        103,
+        108
+       ],
+       "kind": "A",
+       "meaning": "flat and even"
+      },
+      {
+       "w": "Machinery",
+       "p": 0,
+       "at": [
+        110,
+        119
+       ],
+       "clue": "bulldozers and cranes",
+       "cp": 0,
+       "cat": [
+        126,
+        147
+       ],
+       "kind": "E",
+       "meaning": "big machines"
+      },
+      {
+       "w": "rigid",
+       "p": 0,
+       "at": [
+        262,
+        267
+       ],
+       "clue": "soft",
+       "cp": 0,
+       "cat": [
+        236,
+        240
+       ],
+       "kind": "A",
+       "meaning": "stiff and hard"
+      },
+      {
+       "w": "materials",
+       "p": 1,
+       "at": [
+        85,
+        94
+       ],
+       "clue": "wood, bricks, and glass",
+       "cp": 1,
+       "cat": [
+        104,
+        127
+       ],
+       "kind": "E",
+       "meaning": "things used to build"
+      },
+      {
+       "w": "flimsy",
+       "p": 1,
+       "at": [
+        155,
+        161
+       ],
+       "clue": "strong",
+       "cp": 1,
+       "cat": [
+        185,
+        191
+       ],
+       "kind": "A",
+       "meaning": "weak and easy to break"
+      },
+      {
+       "w": "cautious",
+       "p": 1,
+       "at": [
+        222,
+        230
+       ],
+       "clue": "careless",
+       "cp": 1,
+       "cat": [
+        236,
+        244
+       ],
+       "kind": "A",
+       "meaning": "careful"
+      },
+      {
+       "w": "appliances",
+       "p": 1,
+       "at": [
+        321,
+        331
+       ],
+       "clue": "a stove, a refrigerator, and a washing machine",
+       "cp": 1,
+       "cat": [
+        341,
+        387
+       ],
+       "kind": "E",
+       "meaning": "machines for jobs at home"
+      },
+      {
+       "w": "furnishings",
+       "p": 1,
+       "at": [
+        425,
+        436
+       ],
+       "clue": "beds, sofas, and tables",
+       "cp": 1,
+       "cat": [
+        446,
+        469
+       ],
+       "kind": "E",
+       "meaning": "furniture"
+      }
+     ]
+    },
+    {
+     "id": "ocean",
+     "title": "Ocean Life",
+     "paras": [
+      "The ocean is home to many kinds of life. The ocean covers most of Earth's surface. Near the beach the water is shallow, but far out it is very deep. Scientists study marine animals, such as whales, sharks, and sea stars. Crustaceans, such as crabs, lobsters, and shrimp, are often caught for food. Ocean water is salty, so people cannot drink it.",
+      "Scientists also study mollusks, like clams, snails, and octopuses. Many jellyfish are transparent, unlike crabs, which you cannot see through. A sea turtle is graceful in the water but clumsy on land. Some sharks are solitary, but sardines swim in big groups. Seabirds, such as gulls and pelicans, catch fish near the shore. Whales come up to the surface to breathe air. Some animals live so deep that sunlight never reaches them. Scientists still find new kinds of ocean animals every year."
+     ],
+     "targets": [
+      {
+       "w": "shallow",
+       "p": 0,
+       "at": [
+        111,
+        118
+       ],
+       "clue": "very deep",
+       "cp": 0,
+       "cat": [
+        138,
+        147
+       ],
+       "kind": "A",
+       "meaning": "not deep"
+      },
+      {
+       "w": "marine",
+       "p": 0,
+       "at": [
+        166,
+        172
+       ],
+       "clue": "whales, sharks, and sea stars",
+       "cp": 0,
+       "cat": [
+        190,
+        219
+       ],
+       "kind": "E",
+       "meaning": "living in the sea"
+      },
+      {
+       "w": "Crustaceans",
+       "p": 0,
+       "at": [
+        221,
+        232
+       ],
+       "clue": "crabs, lobsters, and shrimp",
+       "cp": 0,
+       "cat": [
+        242,
+        269
+       ],
+       "kind": "E",
+       "meaning": "sea animals with hard shells"
+      },
+      {
+       "w": "mollusks",
+       "p": 1,
+       "at": [
+        22,
+        30
+       ],
+       "clue": "clams, snails, and octopuses",
+       "cp": 1,
+       "cat": [
+        37,
+        65
+       ],
+       "kind": "E",
+       "meaning": "soft animals like clams"
+      },
+      {
+       "w": "transparent",
+       "p": 1,
+       "at": [
+        86,
+        97
+       ],
+       "clue": "cannot see through",
+       "cp": 1,
+       "cat": [
+        123,
+        141
+       ],
+       "kind": "A",
+       "meaning": "see-through"
+      },
+      {
+       "w": "graceful",
+       "p": 1,
+       "at": [
+        159,
+        167
+       ],
+       "clue": "clumsy",
+       "cp": 1,
+       "cat": [
+        185,
+        191
+       ],
+       "kind": "A",
+       "meaning": "moving smoothly"
+      },
+      {
+       "w": "solitary",
+       "p": 1,
+       "at": [
+        217,
+        225
+       ],
+       "clue": "in big groups",
+       "cp": 1,
+       "cat": [
+        245,
+        258
+       ],
+       "kind": "A",
+       "meaning": "alone"
+      },
+      {
+       "w": "Seabirds",
+       "p": 1,
+       "at": [
+        260,
+        268
+       ],
+       "clue": "gulls and pelicans",
+       "cp": 1,
+       "cat": [
+        278,
+        296
+       ],
+       "kind": "E",
+       "meaning": "birds that live by the sea"
+      }
+     ]
+    },
+    {
+     "id": "storms",
+     "title": "Kinds of Weather",
+     "paras": [
+      "Weather changes from day to day. One day may be warm and bright, and the next may be cold and wet. Clouds can be white, gray, or almost black. Some days are overcast, not sunny. We get precipitation, such as rain, snow, and hail. A spring day is often mild, not very hot or very cold. In summer, many days are hot. In winter, many days are cold.",
+      "Some storms are severe, like tornadoes and hurricanes. In a storm, the wind can be fierce, not gentle. The thunder can be deafening, not quiet. Lightning can flash across the sky. When a storm is near, it is safest to stay indoors. People wear outerwear, such as raincoats and boots, to stay dry. Scientists use instruments, like thermometers and rain gauges. They use what they learn to tell us what the weather may be like tomorrow."
+     ],
+     "targets": [
+      {
+       "w": "overcast",
+       "p": 0,
+       "at": [
+        157,
+        165
+       ],
+       "clue": "sunny",
+       "cp": 0,
+       "cat": [
+        171,
+        176
+       ],
+       "kind": "A",
+       "meaning": "cloudy"
+      },
+      {
+       "w": "precipitation",
+       "p": 0,
+       "at": [
+        185,
+        198
+       ],
+       "clue": "rain, snow, and hail",
+       "cp": 0,
+       "cat": [
+        208,
+        228
+       ],
+       "kind": "E",
+       "meaning": "rain or snow from clouds"
+      },
+      {
+       "w": "mild",
+       "p": 0,
+       "at": [
+        252,
+        256
+       ],
+       "clue": "very hot or very cold",
+       "cp": 0,
+       "cat": [
+        262,
+        283
+       ],
+       "kind": "A",
+       "meaning": "not too hot or cold"
+      },
+      {
+       "w": "severe",
+       "p": 1,
+       "at": [
+        16,
+        22
+       ],
+       "clue": "tornadoes and hurricanes",
+       "cp": 1,
+       "cat": [
+        29,
+        53
+       ],
+       "kind": "E",
+       "meaning": "very bad and dangerous"
+      },
+      {
+       "w": "fierce",
+       "p": 1,
+       "at": [
+        83,
+        89
+       ],
+       "clue": "gentle",
+       "cp": 1,
+       "cat": [
+        95,
+        101
+       ],
+       "kind": "A",
+       "meaning": "strong and wild"
+      },
+      {
+       "w": "deafening",
+       "p": 1,
+       "at": [
+        122,
+        131
+       ],
+       "clue": "quiet",
+       "cp": 1,
+       "cat": [
+        137,
+        142
+       ],
+       "kind": "A",
+       "meaning": "very loud"
+      },
+      {
+       "w": "outerwear",
+       "p": 1,
+       "at": [
+        244,
+        253
+       ],
+       "clue": "raincoats and boots",
+       "cp": 1,
+       "cat": [
+        263,
+        282
+       ],
+       "kind": "E",
+       "meaning": "clothes worn outside"
+      },
+      {
+       "w": "instruments",
+       "p": 1,
+       "at": [
+        312,
+        323
+       ],
+       "clue": "thermometers and rain gauges",
+       "cp": 1,
+       "cat": [
+        330,
+        358
+       ],
+       "kind": "E",
+       "meaning": "tools for measuring"
+      }
+     ]
+    },
+    {
+     "id": "station",
+     "title": "At the Fire Station",
+     "paras": [
+      "Our class visited the fire station. A firefighter named Mr. Ortiz showed us around. Firefighters help in emergencies, such as fires and car crashes. They must always be alert, not sleepy, even at night. When an alarm rings, they move in a swift way, not slowly. They can get dressed and be on the truck in about a minute.",
+      "They put on protective clothes, such as helmets, boots, and thick coats. The truck holds equipment, like hoses, ladders, and axes. The truck is long and red. We even got to sit in the driver's seat. Its siren is shrill, not soft and low. Other vehicles, such as ambulances and police cars, may come too. Back at the station, the floors are spotless, not messy. Mr. Ortiz told us to have a fire plan at home. We should know two ways out of every room."
+     ],
+     "targets": [
+      {
+       "w": "emergencies",
+       "p": 0,
+       "at": [
+        105,
+        116
+       ],
+       "clue": "fires and car crashes",
+       "cp": 0,
+       "cat": [
+        126,
+        147
+       ],
+       "kind": "E",
+       "meaning": "sudden, dangerous events"
+      },
+      {
+       "w": "alert",
+       "p": 0,
+       "at": [
+        169,
+        174
+       ],
+       "clue": "sleepy",
+       "cp": 0,
+       "cat": [
+        180,
+        186
+       ],
+       "kind": "A",
+       "meaning": "awake and watchful"
+      },
+      {
+       "w": "swift",
+       "p": 0,
+       "at": [
+        239,
+        244
+       ],
+       "clue": "slowly",
+       "cp": 0,
+       "cat": [
+        254,
+        260
+       ],
+       "kind": "A",
+       "meaning": "fast"
+      },
+      {
+       "w": "protective",
+       "p": 1,
+       "at": [
+        12,
+        22
+       ],
+       "clue": "helmets, boots, and thick coats",
+       "cp": 1,
+       "cat": [
+        40,
+        71
+       ],
+       "kind": "E",
+       "meaning": "keeping you safe"
+      },
+      {
+       "w": "equipment",
+       "p": 1,
+       "at": [
+        89,
+        98
+       ],
+       "clue": "hoses, ladders, and axes",
+       "cp": 1,
+       "cat": [
+        105,
+        129
+       ],
+       "kind": "E",
+       "meaning": "tools for a job"
+      },
+      {
+       "w": "shrill",
+       "p": 1,
+       "at": [
+        212,
+        218
+       ],
+       "clue": "soft and low",
+       "cp": 1,
+       "cat": [
+        224,
+        236
+       ],
+       "kind": "A",
+       "meaning": "high and loud"
+      },
+      {
+       "w": "vehicles",
+       "p": 1,
+       "at": [
+        244,
+        252
+       ],
+       "clue": "ambulances and police cars",
+       "cp": 1,
+       "cat": [
+        262,
+        288
+       ],
+       "kind": "E",
+       "meaning": "things that carry people"
+      },
+      {
+       "w": "spotless",
+       "p": 1,
+       "at": [
+        340,
+        348
+       ],
+       "clue": "messy",
+       "cp": 1,
+       "cat": [
+        354,
+        359
+       ],
+       "kind": "A",
+       "meaning": "very clean"
+      }
+     ]
+    }
+   ],
+   "3": [
+    {
+     "id": "storm",
+     "title": "The Big Storm",
+     "paras": [
+      "Last spring, a big storm hit our town. I will never forget it. That morning, the air was tranquil. By noon, the wind was wild and loud. Dad looked at the barometer. It is a tool that helps tell when a storm is coming. We gathered provisions. We set out flashlights, batteries, and water.",
+      "Soon, rain fell in a deluge. It was a downpour that filled the streets. The thunder startled my little brother. It scared him, and he jumped. Right then, the power went out, so Mom lit a lantern. It is a light with a handle that you can carry. During the storm, I felt anxious. Later, when the sun came out, I felt calm again.",
+      "The next day, our yard was full of debris. We picked up branches, leaves, and pieces of a broken fence. It took us all morning to clean it up."
+     ],
+     "targets": [
+      {
+       "w": "tranquil",
+       "p": 0,
+       "at": [
+        89,
+        97
+       ],
+       "clue": "wild and loud",
+       "cp": 0,
+       "cat": [
+        121,
+        134
+       ],
+       "kind": "A",
+       "meaning": "calm and still"
+      },
+      {
+       "w": "barometer",
+       "p": 0,
+       "at": [
+        154,
+        163
+       ],
+       "clue": "a tool that helps tell when a storm is coming",
+       "cp": 0,
+       "cat": [
+        171,
+        216
+       ],
+       "kind": "D",
+       "meaning": "a tool to predict storms"
+      },
+      {
+       "w": "provisions",
+       "p": 0,
+       "at": [
+        230,
+        240
+       ],
+       "clue": "flashlights, batteries, and water",
+       "cp": 0,
+       "cat": [
+        253,
+        286
+       ],
+       "kind": "E",
+       "meaning": "things you need"
+      },
+      {
+       "w": "deluge",
+       "p": 1,
+       "at": [
+        21,
+        27
+       ],
+       "clue": "downpour",
+       "cp": 1,
+       "cat": [
+        38,
+        46
+       ],
+       "kind": "S",
+       "meaning": "a very heavy rain"
+      },
+      {
+       "w": "startled",
+       "p": 1,
+       "at": [
+        84,
+        92
+       ],
+       "clue": "scared",
+       "cp": 1,
+       "cat": [
+        115,
+        121
+       ],
+       "kind": "S",
+       "meaning": "scared suddenly"
+      },
+      {
+       "w": "lantern",
+       "p": 1,
+       "at": [
+        187,
+        194
+       ],
+       "clue": "a light with a handle that you can carry",
+       "cp": 1,
+       "cat": [
+        202,
+        242
+       ],
+       "kind": "D",
+       "meaning": "a light you can carry"
+      },
+      {
+       "w": "anxious",
+       "p": 1,
+       "at": [
+        269,
+        276
+       ],
+       "clue": "calm",
+       "cp": 1,
+       "cat": [
+        315,
+        319
+       ],
+       "kind": "A",
+       "meaning": "worried"
+      },
+      {
+       "w": "debris",
+       "p": 2,
+       "at": [
+        35,
+        41
+       ],
+       "clue": "branches, leaves, and pieces of a broken fence",
+       "cp": 2,
+       "cat": [
+        56,
+        102
+       ],
+       "kind": "E",
+       "meaning": "broken pieces and trash"
+      }
+     ]
+    },
+    {
+     "id": "aquarium",
+     "title": "A Trip to the Aquarium",
+     "paras": [
+      "Our class took a trip to the aquarium. It has many exhibits. There are giant tanks, touch pools, and a tunnel under the water. First we saw the shark tank. It was immense. It was so huge that a school bus could fit inside. Then a diver fed the stingrays. They are flat fish with long, thin tails.",
+      "The penguins were famished. They were so hungry that they gobbled up every fish. A moray eel stayed concealed in a rocky cave. A clownfish swam out in plain sight. The coral tank was vibrant. The tank of sand eels next to it looked dull and gray. Some of the fish were so small that we had to look closely to spot them.",
+      "At the gift shop, they sold souvenirs. We saw postcards, key chains, and stuffed sharks. Last, we saw a nautilus. It is a sea animal that lives in a spiral shell. It was the best field trip of the year."
+     ],
+     "targets": [
+      {
+       "w": "exhibits",
+       "p": 0,
+       "at": [
+        51,
+        59
+       ],
+       "clue": "giant tanks, touch pools, and a tunnel under the water",
+       "cp": 0,
+       "cat": [
+        71,
+        125
+       ],
+       "kind": "E",
+       "meaning": "things on display"
+      },
+      {
+       "w": "immense",
+       "p": 0,
+       "at": [
+        163,
+        170
+       ],
+       "clue": "huge",
+       "cp": 0,
+       "cat": [
+        182,
+        186
+       ],
+       "kind": "S",
+       "meaning": "very big"
+      },
+      {
+       "w": "stingrays",
+       "p": 0,
+       "at": [
+        244,
+        253
+       ],
+       "clue": "flat fish with long, thin tails",
+       "cp": 0,
+       "cat": [
+        264,
+        295
+       ],
+       "kind": "D",
+       "meaning": "flat fish with tails"
+      },
+      {
+       "w": "famished",
+       "p": 1,
+       "at": [
+        18,
+        26
+       ],
+       "clue": "hungry",
+       "cp": 1,
+       "cat": [
+        41,
+        47
+       ],
+       "kind": "S",
+       "meaning": "very hungry"
+      },
+      {
+       "w": "concealed",
+       "p": 1,
+       "at": [
+        100,
+        109
+       ],
+       "clue": "out in plain sight",
+       "cp": 1,
+       "cat": [
+        144,
+        162
+       ],
+       "kind": "A",
+       "meaning": "hidden"
+      },
+      {
+       "w": "vibrant",
+       "p": 1,
+       "at": [
+        183,
+        190
+       ],
+       "clue": "dull and gray",
+       "cp": 1,
+       "cat": [
+        232,
+        245
+       ],
+       "kind": "A",
+       "meaning": "bright and colorful"
+      },
+      {
+       "w": "souvenirs",
+       "p": 2,
+       "at": [
+        28,
+        37
+       ],
+       "clue": "postcards, key chains, and stuffed sharks",
+       "cp": 2,
+       "cat": [
+        46,
+        87
+       ],
+       "kind": "E",
+       "meaning": "gifts to remember a trip"
+      },
+      {
+       "w": "nautilus",
+       "p": 2,
+       "at": [
+        104,
+        112
+       ],
+       "clue": "a sea animal that lives in a spiral shell",
+       "cp": 2,
+       "cat": [
+        120,
+        161
+       ],
+       "kind": "D",
+       "meaning": "a sea animal with a shell"
+      }
+     ]
+    },
+    {
+     "id": "garden",
+     "title": "Grandma Rosa's Garden",
+     "paras": [
+      "Grandma Rosa and I planted a garden. First, we added compost to the soil. It is a mix of old leaves and food scraps that helps plants grow. Then we dug a trench for the seeds. It is a long, narrow ditch. Grandma Rosa says good soil is the secret to a good garden.",
+      "All summer, we had to irrigate the garden. We watered it every morning before breakfast. Some intruders found our garden. Slugs, snails, and beetles chewed holes in the leaves. Pollinators came too. We saw bees, butterflies, and hummingbirds. Grandma Rosa and I watched them for a long time.",
+      "The new bean leaves were tender. The old ones were tough. By August, the sunflowers were sturdy. They were strong enough to stand up in the wind. This year our beans were abundant. Last year, we picked only a few. We shared them with our neighbors."
+     ],
+     "targets": [
+      {
+       "w": "compost",
+       "p": 0,
+       "at": [
+        53,
+        60
+       ],
+       "clue": "a mix of old leaves and food scraps that helps plants grow",
+       "cp": 0,
+       "cat": [
+        80,
+        138
+       ],
+       "kind": "D",
+       "meaning": "rotted leaves and scraps"
+      },
+      {
+       "w": "trench",
+       "p": 0,
+       "at": [
+        154,
+        160
+       ],
+       "clue": "a long, narrow ditch",
+       "cp": 0,
+       "cat": [
+        182,
+        202
+       ],
+       "kind": "D",
+       "meaning": "a long, narrow ditch"
+      },
+      {
+       "w": "irrigate",
+       "p": 1,
+       "at": [
+        22,
+        30
+       ],
+       "clue": "watered",
+       "cp": 1,
+       "cat": [
+        46,
+        53
+       ],
+       "kind": "S",
+       "meaning": "water the plants"
+      },
+      {
+       "w": "intruders",
+       "p": 1,
+       "at": [
+        94,
+        103
+       ],
+       "clue": "Slugs, snails, and beetles",
+       "cp": 1,
+       "cat": [
+        122,
+        148
+       ],
+       "kind": "E",
+       "meaning": "animals that come in uninvited"
+      },
+      {
+       "w": "Pollinators",
+       "p": 1,
+       "at": [
+        177,
+        188
+       ],
+       "clue": "bees, butterflies, and hummingbirds",
+       "cp": 1,
+       "cat": [
+        206,
+        241
+       ],
+       "kind": "E",
+       "meaning": "animals that visit flowers"
+      },
+      {
+       "w": "tender",
+       "p": 2,
+       "at": [
+        25,
+        31
+       ],
+       "clue": "tough",
+       "cp": 2,
+       "cat": [
+        51,
+        56
+       ],
+       "kind": "A",
+       "meaning": "soft"
+      },
+      {
+       "w": "sturdy",
+       "p": 2,
+       "at": [
+        89,
+        95
+       ],
+       "clue": "strong",
+       "cp": 2,
+       "cat": [
+        107,
+        113
+       ],
+       "kind": "S",
+       "meaning": "strong"
+      },
+      {
+       "w": "abundant",
+       "p": 2,
+       "at": [
+        171,
+        179
+       ],
+       "clue": "only a few",
+       "cp": 2,
+       "cat": [
+        202,
+        212
+       ],
+       "kind": "A",
+       "meaning": "more than enough"
+      }
+     ]
+    },
+    {
+     "id": "hive",
+     "title": "Inside a Beehive",
+     "paras": [
+      "A beehive can hold thousands of bees. Honeybees live in a colony. It is a big group of animals that live together. The queen lays eggs in wax cells. They are tiny rooms with six sides. Worker bees are industrious. They are busy all day long. Some of them clean the hive, and others make wax.",
+      "A bee can detect flowers that are far away. It can sense them by their smell. In summer, flowers are plentiful. In winter, there are almost none. Outside, the winter air is frigid. Inside the hive, the bees huddle to stay warm. They take turns moving to the middle of the group.",
+      "Honey is made from the nectar that bees collect. It is one of many sweeteners. Others are sugar and maple syrup. Bees also have foes. Bears, skunks, and wasps attack hives. Beekeepers wear special suits and veils to keep from getting stung."
+     ],
+     "targets": [
+      {
+       "w": "colony",
+       "p": 0,
+       "at": [
+        58,
+        64
+       ],
+       "clue": "a big group of animals that live together",
+       "cp": 0,
+       "cat": [
+        72,
+        113
+       ],
+       "kind": "D",
+       "meaning": "a group living together"
+      },
+      {
+       "w": "cells",
+       "p": 0,
+       "at": [
+        142,
+        147
+       ],
+       "clue": "tiny rooms with six sides",
+       "cp": 0,
+       "cat": [
+        158,
+        183
+       ],
+       "kind": "D",
+       "meaning": "tiny rooms with six sides"
+      },
+      {
+       "w": "industrious",
+       "p": 0,
+       "at": [
+        201,
+        212
+       ],
+       "clue": "busy",
+       "cp": 0,
+       "cat": [
+        223,
+        227
+       ],
+       "kind": "S",
+       "meaning": "hard-working"
+      },
+      {
+       "w": "detect",
+       "p": 1,
+       "at": [
+        10,
+        16
+       ],
+       "clue": "sense",
+       "cp": 1,
+       "cat": [
+        51,
+        56
+       ],
+       "kind": "S",
+       "meaning": "notice or find"
+      },
+      {
+       "w": "plentiful",
+       "p": 1,
+       "at": [
+        101,
+        110
+       ],
+       "clue": "almost none",
+       "cp": 1,
+       "cat": [
+        133,
+        144
+       ],
+       "kind": "A",
+       "meaning": "many; a lot"
+      },
+      {
+       "w": "frigid",
+       "p": 1,
+       "at": [
+        173,
+        179
+       ],
+       "clue": "warm",
+       "cp": 1,
+       "cat": [
+        222,
+        226
+       ],
+       "kind": "A",
+       "meaning": "very cold"
+      },
+      {
+       "w": "sweeteners",
+       "p": 2,
+       "at": [
+        67,
+        77
+       ],
+       "clue": "sugar and maple syrup",
+       "cp": 2,
+       "cat": [
+        90,
+        111
+       ],
+       "kind": "E",
+       "meaning": "things that make food sweet"
+      },
+      {
+       "w": "foes",
+       "p": 2,
+       "at": [
+        128,
+        132
+       ],
+       "clue": "Bears, skunks, and wasps",
+       "cp": 2,
+       "cat": [
+        134,
+        158
+       ],
+       "kind": "E",
+       "meaning": "enemies"
+      }
+     ]
+    },
+    {
+     "id": "mail",
+     "title": "The Mail Carrier",
+     "paras": [
+      "Ms. Kim is a mail carrier. Each morning, she drives through her territory. It is the area where she brings the mail. She carries parcels. They are boxes wrapped up to be sent by mail. She loads them into her truck before she leaves.",
+      "People send all kinds of correspondence. Letters, cards, and postcards fill her bag. On her way, she passes many vendors. A fruit stand, a taco truck, and a pretzel cart are on Main Street. She waves to them as she goes by.",
+      "Ms. Kim is always courteous. She is polite to everyone she meets. Her bag can be hefty. It is so heavy that her shoulder gets sore. Some summer days are sweltering. In winter, some days are freezing cold. Most addresses are legible. A few are so messy that she cannot read them. In the afternoon, she brings the outgoing mail back to the post office. Ms. Kim says her job helps people stay in touch."
+     ],
+     "targets": [
+      {
+       "w": "territory",
+       "p": 0,
+       "at": [
+        64,
+        73
+       ],
+       "clue": "the area where she brings the mail",
+       "cp": 0,
+       "cat": [
+        81,
+        115
+       ],
+       "kind": "D",
+       "meaning": "the area she covers"
+      },
+      {
+       "w": "parcels",
+       "p": 0,
+       "at": [
+        129,
+        136
+       ],
+       "clue": "boxes wrapped up to be sent by mail",
+       "cp": 0,
+       "cat": [
+        147,
+        182
+       ],
+       "kind": "D",
+       "meaning": "packages"
+      },
+      {
+       "w": "correspondence",
+       "p": 1,
+       "at": [
+        25,
+        39
+       ],
+       "clue": "Letters, cards, and postcards",
+       "cp": 1,
+       "cat": [
+        41,
+        70
+       ],
+       "kind": "E",
+       "meaning": "letters and cards"
+      },
+      {
+       "w": "vendors",
+       "p": 1,
+       "at": [
+        113,
+        120
+       ],
+       "clue": "A fruit stand, a taco truck, and a pretzel cart",
+       "cp": 1,
+       "cat": [
+        122,
+        169
+       ],
+       "kind": "E",
+       "meaning": "people who sell things"
+      },
+      {
+       "w": "courteous",
+       "p": 2,
+       "at": [
+        18,
+        27
+       ],
+       "clue": "polite",
+       "cp": 2,
+       "cat": [
+        36,
+        42
+       ],
+       "kind": "S",
+       "meaning": "polite"
+      },
+      {
+       "w": "hefty",
+       "p": 2,
+       "at": [
+        81,
+        86
+       ],
+       "clue": "heavy",
+       "cp": 2,
+       "cat": [
+        97,
+        102
+       ],
+       "kind": "S",
+       "meaning": "heavy"
+      },
+      {
+       "w": "sweltering",
+       "p": 2,
+       "at": [
+        153,
+        163
+       ],
+       "clue": "freezing cold",
+       "cp": 2,
+       "cat": [
+        190,
+        203
+       ],
+       "kind": "A",
+       "meaning": "very hot"
+      },
+      {
+       "w": "legible",
+       "p": 2,
+       "at": [
+        224,
+        231
+       ],
+       "clue": "so messy that she cannot read them",
+       "cp": 2,
+       "cat": [
+        243,
+        277
+       ],
+       "kind": "A",
+       "meaning": "easy to read"
+      }
+     ]
+    },
+    {
+     "id": "mars",
+     "title": "Exploring Mars",
+     "paras": [
+      "Mars is the fourth planet from the Sun. Mars is a desolate place. It is empty and quiet, with rocks and dust everywhere. Mars has many landforms. Mountains, valleys, and craters cover its surface. Olympus Mons, a volcano on Mars, is towering. Mount Everest, the highest mountain on Earth, is much shorter. Mars also has canyons. They are deep valleys with steep sides. Its soil is full of iron, which makes it look red. Mars has two small moons.",
+      "Nobody has walked on Mars yet. Scientists sent a rover to Mars. It is a robot car that drives over the rocky ground. It collects specimens. It scoops up bits of rock, dust, and soil. It also transmits photos. It sends them all the way to Earth. Scientists study the photos to learn about Mars. During a dust storm, the sky on Mars turns hazy. On a calm day, the sky is much clearer. Someday, people may visit Mars too."
+     ],
+     "targets": [
+      {
+       "w": "desolate",
+       "p": 0,
+       "at": [
+        50,
+        58
+       ],
+       "clue": "empty",
+       "cp": 0,
+       "cat": [
+        72,
+        77
+       ],
+       "kind": "S",
+       "meaning": "empty, with nothing living"
+      },
+      {
+       "w": "landforms",
+       "p": 0,
+       "at": [
+        135,
+        144
+       ],
+       "clue": "Mountains, valleys, and craters",
+       "cp": 0,
+       "cat": [
+        146,
+        177
+       ],
+       "kind": "E",
+       "meaning": "shapes of the land"
+      },
+      {
+       "w": "towering",
+       "p": 0,
+       "at": [
+        233,
+        241
+       ],
+       "clue": "much shorter",
+       "cp": 0,
+       "cat": [
+        292,
+        304
+       ],
+       "kind": "A",
+       "meaning": "very tall"
+      },
+      {
+       "w": "canyons",
+       "p": 0,
+       "at": [
+        320,
+        327
+       ],
+       "clue": "deep valleys with steep sides",
+       "cp": 0,
+       "cat": [
+        338,
+        367
+       ],
+       "kind": "D",
+       "meaning": "deep valleys"
+      },
+      {
+       "w": "rover",
+       "p": 1,
+       "at": [
+        49,
+        54
+       ],
+       "clue": "a robot car that drives over the rocky ground",
+       "cp": 1,
+       "cat": [
+        70,
+        115
+       ],
+       "kind": "D",
+       "meaning": "a robot car"
+      },
+      {
+       "w": "specimens",
+       "p": 1,
+       "at": [
+        129,
+        138
+       ],
+       "clue": "bits of rock, dust, and soil",
+       "cp": 1,
+       "cat": [
+        153,
+        181
+       ],
+       "kind": "E",
+       "meaning": "small bits to study"
+      },
+      {
+       "w": "transmits",
+       "p": 1,
+       "at": [
+        191,
+        200
+       ],
+       "clue": "sends",
+       "cp": 1,
+       "cat": [
+        212,
+        217
+       ],
+       "kind": "S",
+       "meaning": "sends"
+      },
+      {
+       "w": "hazy",
+       "p": 1,
+       "at": [
+        337,
+        341
+       ],
+       "clue": "clearer",
+       "cp": 1,
+       "cat": [
+        374,
+        381
+       ],
+       "kind": "A",
+       "meaning": "dusty, not clear"
+      }
+     ]
+    },
+    {
+     "id": "crayons",
+     "title": "How Crayons Are Made",
+     "paras": [
+      "Crayons are made in a factory. A factory is a building where things are made by machines. First, workers melt paraffin. It is a kind of wax. They heat it until it is molten. It turns liquid, like warm syrup. Next, they stir in pigment. It is a powder that gives something its color.",
+      "Crayons come in many hues. There are reds, blues, greens, and more. The hot wax is poured into molds. At first, the wax is scalding. After a few minutes, it is cool enough to touch. Then a machine pushes the crayons out of the molds.",
+      "Workers inspect the crayons. They check for broken tips. A few crayons come out flawed. The good ones are perfect. Next, each crayon gets a paper label with the name of its color. Then the boxes go to many retailers. Some are toy stores, grocery stores, and big shops."
+     ],
+     "targets": [
+      {
+       "w": "paraffin",
+       "p": 0,
+       "at": [
+        110,
+        118
+       ],
+       "clue": "a kind of wax",
+       "cp": 0,
+       "cat": [
+        126,
+        139
+       ],
+       "kind": "D",
+       "meaning": "a kind of wax"
+      },
+      {
+       "w": "molten",
+       "p": 0,
+       "at": [
+        166,
+        172
+       ],
+       "clue": "liquid",
+       "cp": 0,
+       "cat": [
+        183,
+        189
+       ],
+       "kind": "S",
+       "meaning": "melted"
+      },
+      {
+       "w": "pigment",
+       "p": 0,
+       "at": [
+        227,
+        234
+       ],
+       "clue": "a powder that gives something its color",
+       "cp": 0,
+       "cat": [
+        242,
+        281
+       ],
+       "kind": "D",
+       "meaning": "a powder that gives color"
+      },
+      {
+       "w": "hues",
+       "p": 1,
+       "at": [
+        21,
+        25
+       ],
+       "clue": "reds, blues, greens, and more",
+       "cp": 1,
+       "cat": [
+        37,
+        66
+       ],
+       "kind": "E",
+       "meaning": "colors"
+      },
+      {
+       "w": "scalding",
+       "p": 1,
+       "at": [
+        123,
+        131
+       ],
+       "clue": "cool",
+       "cp": 1,
+       "cat": [
+        160,
+        164
+       ],
+       "kind": "A",
+       "meaning": "very hot"
+      },
+      {
+       "w": "inspect",
+       "p": 2,
+       "at": [
+        8,
+        15
+       ],
+       "clue": "check",
+       "cp": 2,
+       "cat": [
+        34,
+        39
+       ],
+       "kind": "S",
+       "meaning": "check carefully"
+      },
+      {
+       "w": "flawed",
+       "p": 2,
+       "at": [
+        80,
+        86
+       ],
+       "clue": "perfect",
+       "cp": 2,
+       "cat": [
+        106,
+        113
+       ],
+       "kind": "A",
+       "meaning": "with something wrong"
+      },
+      {
+       "w": "retailers",
+       "p": 2,
+       "at": [
+        206,
+        215
+       ],
+       "clue": "toy stores, grocery stores, and big shops",
+       "cp": 2,
+       "cat": [
+        226,
+        267
+       ],
+       "kind": "E",
+       "meaning": "stores that sell things"
+      }
+     ]
+    },
+    {
+     "id": "library",
+     "title": "A Day at the Library",
+     "paras": [
+      "On Saturday, Lily went to the library. The reading room was hushed. It was so quiet that she could hear pages turning. The library has many resources. There are books, computers, and magazines. Lily likes to read in a big, soft chair by the window.",
+      "Lily likes biographies. She reads books about Abraham Lincoln and Harriet Tubman. Today she was keen to find a book about whales. She was excited to learn about them. The librarian, Mr. Patel, showed her the catalog. It is a list of all the books in the library. She also found an atlas. It is a book of maps. She checked out three books.",
+      "Mr. Patel let her help with a job. Some old books were tattered. The new ones were neat and whole. One shelf was cluttered. The shelf next to it was tidy. Lily helped put the books in order. She can't wait to come back next week."
+     ],
+     "targets": [
+      {
+       "w": "hushed",
+       "p": 0,
+       "at": [
+        60,
+        66
+       ],
+       "clue": "quiet",
+       "cp": 0,
+       "cat": [
+        78,
+        83
+       ],
+       "kind": "S",
+       "meaning": "quiet"
+      },
+      {
+       "w": "resources",
+       "p": 0,
+       "at": [
+        140,
+        149
+       ],
+       "clue": "books, computers, and magazines",
+       "cp": 0,
+       "cat": [
+        161,
+        192
+       ],
+       "kind": "E",
+       "meaning": "things you can use"
+      },
+      {
+       "w": "biographies",
+       "p": 1,
+       "at": [
+        11,
+        22
+       ],
+       "clue": "books about Abraham Lincoln and Harriet Tubman",
+       "cp": 1,
+       "cat": [
+        34,
+        80
+       ],
+       "kind": "E",
+       "meaning": "books about real lives"
+      },
+      {
+       "w": "keen",
+       "p": 1,
+       "at": [
+        96,
+        100
+       ],
+       "clue": "excited",
+       "cp": 1,
+       "cat": [
+        138,
+        145
+       ],
+       "kind": "S",
+       "meaning": "eager"
+      },
+      {
+       "w": "catalog",
+       "p": 1,
+       "at": [
+        208,
+        215
+       ],
+       "clue": "a list of all the books in the library",
+       "cp": 1,
+       "cat": [
+        223,
+        261
+       ],
+       "kind": "D",
+       "meaning": "a list of books"
+      },
+      {
+       "w": "atlas",
+       "p": 1,
+       "at": [
+        281,
+        286
+       ],
+       "clue": "a book of maps",
+       "cp": 1,
+       "cat": [
+        294,
+        308
+       ],
+       "kind": "D",
+       "meaning": "a book of maps"
+      },
+      {
+       "w": "tattered",
+       "p": 2,
+       "at": [
+        55,
+        63
+       ],
+       "clue": "neat and whole",
+       "cp": 2,
+       "cat": [
+        83,
+        97
+       ],
+       "kind": "A",
+       "meaning": "old and torn"
+      },
+      {
+       "w": "cluttered",
+       "p": 2,
+       "at": [
+        113,
+        122
+       ],
+       "clue": "tidy",
+       "cp": 2,
+       "cat": [
+        149,
+        153
+       ],
+       "kind": "A",
+       "meaning": "messy"
+      }
+     ]
+    }
+   ]
+  },
+  "sentences": {
+   "choose": [
+    {
+     "text": "A canopy is the top layer of a forest, where the branches meet.",
+     "w": "canopy",
+     "at": [
+      2,
+      8
+     ],
+     "kind": "D",
+     "clue": "the top layer of a forest, where the branches meet",
+     "cat": [
+      12,
+      62
+     ],
+     "meaning": "the treetops",
+     "wrong": [
+      "the floor of a forest",
+      "a river in a forest"
+     ]
+    },
+    {
+     "text": "We camped in a ravine, a narrow valley with steep sides.",
+     "w": "ravine",
+     "at": [
+      15,
+      21
+     ],
+     "kind": "D",
+     "clue": "a narrow valley with steep sides",
+     "cat": [
+      23,
+      55
+     ],
+     "meaning": "a small canyon",
+     "wrong": [
+      "a tall, flat hill",
+      "a wide, sandy beach"
+     ]
+    },
+    {
+     "text": "A mammoth was a huge kind of elephant that lived long ago.",
+     "w": "mammoth",
+     "at": [
+      2,
+      9
+     ],
+     "kind": "D",
+     "clue": "a huge kind of elephant that lived long ago",
+     "cat": [
+      14,
+      57
+     ],
+     "meaning": "a very big animal of the past",
+     "wrong": [
+      "a large bird that lives today",
+      "a giant fish of today"
+     ]
+    },
+    {
+     "text": "We crossed the river on a ferry, a boat that carries people and cars.",
+     "w": "ferry",
+     "at": [
+      26,
+      31
+     ],
+     "kind": "D",
+     "clue": "a boat that carries people and cars",
+     "cat": [
+      33,
+      68
+     ],
+     "meaning": "a ship for crossing the water",
+     "wrong": [
+      "a bridge built across a river",
+      "a fast train"
+     ]
+    },
+    {
+     "text": "The architect, the person who draws plans for buildings, visited us.",
+     "w": "architect",
+     "at": [
+      4,
+      13
+     ],
+     "kind": "D",
+     "clue": "the person who draws plans for buildings",
+     "cat": [
+      15,
+      55
+     ],
+     "meaning": "a house designer",
+     "wrong": [
+      "a painter of pictures",
+      "a house seller"
+     ]
+    },
+    {
+     "text": "Our town has a reservoir, a lake that holds a town's water.",
+     "w": "reservoir",
+     "at": [
+      15,
+      24
+     ],
+     "kind": "D",
+     "clue": "a lake that holds a town's water",
+     "cat": [
+      26,
+      58
+     ],
+     "meaning": "a supply for drinking and washing",
+     "wrong": [
+      "a pool where children swim in summer",
+      "a tall water slide"
+     ]
+    },
+    {
+     "text": "A glacier is a huge mass of ice that moves very slowly.",
+     "w": "glacier",
+     "at": [
+      2,
+      9
+     ],
+     "kind": "D",
+     "clue": "a huge mass of ice that moves very slowly",
+     "cat": [
+      13,
+      54
+     ],
+     "meaning": "a big, frozen river",
+     "wrong": [
+      "a cold wind that blows",
+      "snow on a roof"
+     ]
+    },
+    {
+     "text": "The farmer stores hay in the loft, the top floor of a barn.",
+     "w": "loft",
+     "at": [
+      29,
+      33
+     ],
+     "kind": "D",
+     "clue": "the top floor of a barn",
+     "cat": [
+      35,
+      58
+     ],
+     "meaning": "an upstairs room",
+     "wrong": [
+      "a field of tall grass",
+      "a pen for pigs"
+     ]
+    },
+    {
+     "text": "On the boat, Maya felt queasy, which means sick to her stomach.",
+     "w": "queasy",
+     "at": [
+      23,
+      29
+     ],
+     "kind": "D",
+     "clue": "which means sick to her stomach",
+     "cat": [
+      31,
+      62
+     ],
+     "meaning": "unwell, with an upset belly",
+     "wrong": [
+      "very sleepy, calm, and relaxed",
+      "very happy"
+     ]
+    },
+    {
+     "text": "The summit, the very top of the mountain, was covered in snow.",
+     "w": "summit",
+     "at": [
+      4,
+      10
+     ],
+     "kind": "D",
+     "clue": "the very top of the mountain",
+     "cat": [
+      12,
+      40
+     ],
+     "meaning": "the peak",
+     "wrong": [
+      "the bottom of a valley",
+      "a path around a lake"
+     ]
+    },
+    {
+     "text": "Unlike the calm lake, the river was turbulent.",
+     "w": "turbulent",
+     "at": [
+      36,
+      45
+     ],
+     "kind": "A",
+     "clue": "calm",
+     "cat": [
+      11,
+      15
+     ],
+     "meaning": "rough and wild",
+     "wrong": [
+      "quiet and peaceful",
+      "slow and lazy"
+     ]
+    },
+    {
+     "text": "Mia is timid, but her sister is bold and brave.",
+     "w": "timid",
+     "at": [
+      7,
+      12
+     ],
+     "kind": "A",
+     "clue": "bold and brave",
+     "cat": [
+      32,
+      46
+     ],
+     "meaning": "shy and fearful",
+     "wrong": [
+      "not afraid at all",
+      "loud and daring"
+     ]
+    },
+    {
+     "text": "The puppy was sluggish in the morning, but by noon it was full of energy.",
+     "w": "sluggish",
+     "at": [
+      14,
+      22
+     ],
+     "kind": "A",
+     "clue": "full of energy",
+     "cat": [
+      58,
+      72
+     ],
+     "meaning": "slow and tired",
+     "wrong": [
+      "lively",
+      "excited and bouncy"
+     ]
+    },
+    {
+     "text": "The first path was treacherous, but the second one was safe.",
+     "w": "treacherous",
+     "at": [
+      19,
+      30
+     ],
+     "kind": "A",
+     "clue": "safe",
+     "cat": [
+      55,
+      59
+     ],
+     "meaning": "dangerous",
+     "wrong": [
+      "easy to walk on",
+      "flat and safe"
+     ]
+    },
+    {
+     "text": "Grandpa's phone is obsolete, but Mom's phone is brand-new.",
+     "w": "obsolete",
+     "at": [
+      19,
+      27
+     ],
+     "kind": "A",
+     "clue": "brand-new",
+     "cat": [
+      48,
+      57
+     ],
+     "meaning": "old and out of date",
+     "wrong": [
+      "modern and fast",
+      "the newest kind"
+     ]
+    },
+    {
+     "text": "In the cave the air was clammy, unlike the dry air outside.",
+     "w": "clammy",
+     "at": [
+      24,
+      30
+     ],
+     "kind": "A",
+     "clue": "dry",
+     "cat": [
+      43,
+      46
+     ],
+     "meaning": "cold and damp",
+     "wrong": [
+      "warm and sunny",
+      "dusty"
+     ]
+    },
+    {
+     "text": "Our cat is docile, but the neighbor's cat is wild and fierce.",
+     "w": "docile",
+     "at": [
+      11,
+      17
+     ],
+     "kind": "A",
+     "clue": "wild and fierce",
+     "cat": [
+      45,
+      60
+     ],
+     "meaning": "calm and gentle",
+     "wrong": [
+      "rough and angry",
+      "mean and scary"
+     ]
+    },
+    {
+     "text": "The cookie was brittle, but the gummy worm was soft and bendy.",
+     "w": "brittle",
+     "at": [
+      15,
+      22
+     ],
+     "kind": "A",
+     "clue": "soft and bendy",
+     "cat": [
+      47,
+      61
+     ],
+     "meaning": "hard and easy to snap",
+     "wrong": [
+      "squishy and chewy",
+      "stretchy like rubber"
+     ]
+    },
+    {
+     "text": "Instead of being frugal, Ben spent all his money at the fair.",
+     "w": "frugal",
+     "at": [
+      17,
+      23
+     ],
+     "kind": "A",
+     "clue": "spent all his money",
+     "cat": [
+      29,
+      48
+     ],
+     "meaning": "careful with cash",
+     "wrong": [
+      "quick to spend money",
+      "happy to spend a lot"
+     ]
+    },
+    {
+     "text": "The kitten's fur was sleek, unlike the puppy's rough, messy fur.",
+     "w": "sleek",
+     "at": [
+      21,
+      26
+     ],
+     "kind": "A",
+     "clue": "rough, messy",
+     "cat": [
+      47,
+      59
+     ],
+     "meaning": "smooth and shiny",
+     "wrong": [
+      "tangled and dull",
+      "bumpy and scruffy"
+     ]
+    },
+    {
+     "text": "The hikers were weary, so the tired group sat down to rest.",
+     "w": "weary",
+     "at": [
+      16,
+      21
+     ],
+     "kind": "S",
+     "clue": "tired",
+     "cat": [
+      30,
+      35
+     ],
+     "meaning": "worn out",
+     "wrong": [
+      "lively",
+      "ready to run fast"
+     ]
+    },
+    {
+     "text": "The aroma of fresh bread filled the kitchen; we loved the sweet smell.",
+     "w": "aroma",
+     "at": [
+      4,
+      9
+     ],
+     "kind": "S",
+     "clue": "smell",
+     "cat": [
+      64,
+      69
+     ],
+     "meaning": "a pleasant scent",
+     "wrong": [
+      "a loud noise",
+      "a bright light"
+     ]
+    },
+    {
+     "text": "The giraffe's neck is elongated; it is very long.",
+     "w": "elongated",
+     "at": [
+      22,
+      31
+     ],
+     "kind": "S",
+     "clue": "long",
+     "cat": [
+      44,
+      48
+     ],
+     "meaning": "stretched out",
+     "wrong": [
+      "short and thick",
+      "bent and curly"
+     ]
+    },
+    {
+     "text": "Dad was irate when the dog chewed his shoes; he was very angry.",
+     "w": "irate",
+     "at": [
+      8,
+      13
+     ],
+     "kind": "S",
+     "clue": "angry",
+     "cat": [
+      57,
+      62
+     ],
+     "meaning": "mad and upset",
+     "wrong": [
+      "very proud",
+      "very sleepy"
+     ]
+    },
+    {
+     "text": "Please assist me; I need help with this heavy box.",
+     "w": "assist",
+     "at": [
+      7,
+      13
+     ],
+     "kind": "S",
+     "clue": "help",
+     "cat": [
+      25,
+      29
+     ],
+     "meaning": "give a hand",
+     "wrong": [
+      "leave",
+      "push away"
+     ]
+    },
+    {
+     "text": "The mouse scurried under the couch; it ran so fast that the cat missed it.",
+     "w": "scurried",
+     "at": [
+      10,
+      18
+     ],
+     "kind": "S",
+     "clue": "ran",
+     "cat": [
+      39,
+      42
+     ],
+     "meaning": "hurried",
+     "wrong": [
+      "sat",
+      "slept quietly"
+     ]
+    },
+    {
+     "text": "The peculiar bug looked so strange that no one knew its name.",
+     "w": "peculiar",
+     "at": [
+      4,
+      12
+     ],
+     "kind": "S",
+     "clue": "strange",
+     "cat": [
+      27,
+      34
+     ],
+     "meaning": "odd",
+     "wrong": [
+      "normal",
+      "well known"
+     ]
+    },
+    {
+     "text": "The road was hazardous; the dangerous ice made cars slide.",
+     "w": "hazardous",
+     "at": [
+      13,
+      22
+     ],
+     "kind": "S",
+     "clue": "dangerous",
+     "cat": [
+      28,
+      37
+     ],
+     "meaning": "not safe",
+     "wrong": [
+      "safe",
+      "dry and clear"
+     ]
+    },
+    {
+     "text": "We bought citrus fruits, such as lemons, limes, and oranges.",
+     "w": "citrus",
+     "at": [
+      10,
+      16
+     ],
+     "kind": "E",
+     "clue": "lemons, limes, and oranges",
+     "cat": [
+      33,
+      59
+     ],
+     "meaning": "juicy, tangy fruits",
+     "wrong": [
+      "fruits like apples",
+      "berries on bushes"
+     ]
+    },
+    {
+     "text": "At the pond we looked for amphibians, such as frogs, toads, and salamanders.",
+     "w": "amphibians",
+     "at": [
+      26,
+      36
+     ],
+     "kind": "E",
+     "clue": "frogs, toads, and salamanders",
+     "cat": [
+      46,
+      75
+     ],
+     "meaning": "animals that live in water and on land",
+     "wrong": [
+      "animals with feathers",
+      "furry animals"
+     ]
+    },
+    {
+     "text": "Grandma keeps utensils, such as forks, spoons, and whisks, in the drawer.",
+     "w": "utensils",
+     "at": [
+      14,
+      22
+     ],
+     "kind": "E",
+     "clue": "forks, spoons, and whisks",
+     "cat": [
+      32,
+      57
+     ],
+     "meaning": "kitchen tools",
+     "wrong": [
+      "plates and bowls",
+      "jars of spices"
+     ]
+    },
+    {
+     "text": "We saw poultry, such as chickens, ducks, and turkeys, at the fair.",
+     "w": "poultry",
+     "at": [
+      7,
+      14
+     ],
+     "kind": "E",
+     "clue": "chickens, ducks, and turkeys",
+     "cat": [
+      24,
+      52
+     ],
+     "meaning": "farm birds",
+     "wrong": [
+      "four-legged animals",
+      "fish from ponds"
+     ]
+    },
+    {
+     "text": "Beverages, like juice, milk, and lemonade, were on the table.",
+     "w": "Beverages",
+     "at": [
+      0,
+      9
+     ],
+     "kind": "E",
+     "clue": "juice, milk, and lemonade",
+     "cat": [
+      16,
+      41
+     ],
+     "meaning": "drinks",
+     "wrong": [
+      "snacks",
+      "desserts"
+     ]
+    },
+    {
+     "text": "Our zoo has many primates, such as monkeys, gorillas, and chimpanzees.",
+     "w": "primates",
+     "at": [
+      17,
+      25
+     ],
+     "kind": "E",
+     "clue": "monkeys, gorillas, and chimpanzees",
+     "cat": [
+      35,
+      69
+     ],
+     "meaning": "animals like apes",
+     "wrong": [
+      "animals like snakes",
+      "birds in trees"
+     ]
+    },
+    {
+     "text": "Garments, such as shirts, skirts, and coats, hung on the rack.",
+     "w": "Garments",
+     "at": [
+      0,
+      8
+     ],
+     "kind": "E",
+     "clue": "shirts, skirts, and coats",
+     "cat": [
+      18,
+      43
+     ],
+     "meaning": "clothes",
+     "wrong": [
+      "toys",
+      "towels and rugs"
+     ]
+    },
+    {
+     "text": "Gems, like rubies, emeralds, and diamonds, were in the glass case.",
+     "w": "Gems",
+     "at": [
+      0,
+      4
+     ],
+     "kind": "E",
+     "clue": "rubies, emeralds, and diamonds",
+     "cat": [
+      11,
+      41
+     ],
+     "meaning": "shiny, costly stones",
+     "wrong": [
+      "metal coins",
+      "round candies"
+     ]
+    }
+   ],
+   "write": [
+    {
+     "text": "We rode a tandem, a bike built for two riders, around the park.",
+     "w": "tandem",
+     "at": [
+      10,
+      16
+     ],
+     "kind": "D",
+     "clue": "a bike built for two riders",
+     "cat": [
+      18,
+      45
+     ],
+     "meaning": "a bike for two people"
+    },
+    {
+     "text": "Tia wore a poncho, a blanket with a hole for her head, in the rain.",
+     "w": "poncho",
+     "at": [
+      11,
+      17
+     ],
+     "kind": "D",
+     "clue": "a blanket with a hole for her head",
+     "cat": [
+      19,
+      53
+     ],
+     "meaning": "a blanket-like raincoat"
+    },
+    {
+     "text": "The orchard, a field of fruit trees, was full of ripe apples.",
+     "w": "orchard",
+     "at": [
+      4,
+      11
+     ],
+     "kind": "D",
+     "clue": "a field of fruit trees",
+     "cat": [
+      13,
+      35
+     ],
+     "meaning": "a field of fruit trees"
+    },
+    {
+     "text": "We found a geode, a plain rock with sparkling crystals inside.",
+     "w": "geode",
+     "at": [
+      11,
+      16
+     ],
+     "kind": "D",
+     "clue": "a plain rock with sparkling crystals inside",
+     "cat": [
+      18,
+      61
+     ],
+     "meaning": "a rock with crystals"
+    },
+    {
+     "text": "A cobbler, a person who fixes shoes, sewed the torn boot.",
+     "w": "cobbler",
+     "at": [
+      2,
+      9
+     ],
+     "kind": "D",
+     "clue": "a person who fixes shoes",
+     "cat": [
+      11,
+      35
+     ],
+     "meaning": "a person who fixes shoes"
+    },
+    {
+     "text": "The trail was strenuous; it was hard work to climb.",
+     "w": "strenuous",
+     "at": [
+      14,
+      23
+     ],
+     "kind": "S",
+     "clue": "hard",
+     "cat": [
+      32,
+      36
+     ],
+     "meaning": "hard and tiring"
+    },
+    {
+     "text": "The minuscule ant was so tiny that I could hardly see it.",
+     "w": "minuscule",
+     "at": [
+      4,
+      13
+     ],
+     "kind": "S",
+     "clue": "tiny",
+     "cat": [
+      25,
+      29
+     ],
+     "meaning": "very small"
+    },
+    {
+     "text": "The jubilant fans were so happy that they danced in their seats.",
+     "w": "jubilant",
+     "at": [
+      4,
+      12
+     ],
+     "kind": "S",
+     "clue": "happy",
+     "cat": [
+      26,
+      31
+     ],
+     "meaning": "very happy"
+    },
+    {
+     "text": "Jamal was perplexed by the puzzle; it left him confused for an hour.",
+     "w": "perplexed",
+     "at": [
+      10,
+      19
+     ],
+     "kind": "S",
+     "clue": "confused",
+     "cat": [
+      47,
+      55
+     ],
+     "meaning": "confused"
+    },
+    {
+     "text": "The vacant lot was empty except for a few weeds.",
+     "w": "vacant",
+     "at": [
+      4,
+      10
+     ],
+     "kind": "S",
+     "clue": "empty",
+     "cat": [
+      19,
+      24
+     ],
+     "meaning": "empty"
+    },
+    {
+     "text": "Our new tent is spacious, while my old tent was cramped and small.",
+     "w": "spacious",
+     "at": [
+      16,
+      24
+     ],
+     "kind": "A",
+     "clue": "cramped and small",
+     "cat": [
+      48,
+      65
+     ],
+     "meaning": "roomy, with lots of space"
+    },
+    {
+     "text": "Leo's answer was accurate, while mine was full of mistakes.",
+     "w": "accurate",
+     "at": [
+      17,
+      25
+     ],
+     "kind": "A",
+     "clue": "full of mistakes",
+     "cat": [
+      42,
+      58
+     ],
+     "meaning": "correct, with no mistakes"
+    },
+    {
+     "text": "The basement was dingy, but the new playroom is bright and clean.",
+     "w": "dingy",
+     "at": [
+      17,
+      22
+     ],
+     "kind": "A",
+     "clue": "bright and clean",
+     "cat": [
+      48,
+      64
+     ],
+     "meaning": "dark and dirty"
+    },
+    {
+     "text": "Pablo descended the stairs while his sister climbed up.",
+     "w": "descended",
+     "at": [
+      6,
+      15
+     ],
+     "kind": "A",
+     "clue": "climbed up",
+     "cat": [
+      44,
+      54
+     ],
+     "meaning": "went down"
+    },
+    {
+     "text": "The rope was taut at first, but then it hung loose.",
+     "w": "taut",
+     "at": [
+      13,
+      17
+     ],
+     "kind": "A",
+     "clue": "hung loose",
+     "cat": [
+      40,
+      50
+     ],
+     "meaning": "pulled tight"
+    },
+    {
+     "text": "The zoo has many marsupials, including kangaroos, wallabies, and koalas.",
+     "w": "marsupials",
+     "at": [
+      17,
+      27
+     ],
+     "kind": "E",
+     "clue": "kangaroos, wallabies, and koalas",
+     "cat": [
+      39,
+      71
+     ],
+     "meaning": "animals like kangaroos"
+    },
+    {
+     "text": "Mom keeps condiments, including ketchup, mustard, and mayonnaise, in the door of the fridge.",
+     "w": "condiments",
+     "at": [
+      10,
+      20
+     ],
+     "kind": "E",
+     "clue": "ketchup, mustard, and mayonnaise",
+     "cat": [
+      32,
+      64
+     ],
+     "meaning": "sauces you add to food"
+    },
+    {
+     "text": "We read about carnivores, including lions, wolves, and sharks.",
+     "w": "carnivores",
+     "at": [
+      14,
+      24
+     ],
+     "kind": "E",
+     "clue": "lions, wolves, and sharks",
+     "cat": [
+      36,
+      61
+     ],
+     "meaning": "meat-eating animals"
+    },
+    {
+     "text": "We packed provisions, including sandwiches, apples, and water, for the long hike.",
+     "w": "provisions",
+     "at": [
+      10,
+      20
+     ],
+     "kind": "E",
+     "clue": "sandwiches, apples, and water",
+     "cat": [
+      32,
+      61
+     ],
+     "meaning": "food and drinks for a trip"
+    },
+    {
+     "text": "The band has percussion instruments, including drums, cymbals, and a xylophone.",
+     "w": "percussion",
+     "at": [
+      13,
+      23
+     ],
+     "kind": "E",
+     "clue": "drums, cymbals, and a xylophone",
+     "cat": [
+      47,
+      78
+     ],
+     "meaning": "drums and things you hit"
+    },
+    {
+     "text": "We waved at the caboose, the last car of the train, as it rolled by.",
+     "w": "caboose",
+     "at": [
+      16,
+      23
+     ],
+     "kind": "D",
+     "clue": "the last car of the train",
+     "cat": [
+      25,
+      50
+     ],
+     "meaning": "the last car of a train"
+    },
+    {
+     "text": "Grandpa read in the gazebo, a small building with a roof and open sides.",
+     "w": "gazebo",
+     "at": [
+      20,
+      26
+     ],
+     "kind": "D",
+     "clue": "a small building with a roof and open sides",
+     "cat": [
+      28,
+      71
+     ],
+     "meaning": "a little open shelter"
+    },
+    {
+     "text": "The ravenous puppy was so hungry that it ate its dinner in a minute.",
+     "w": "ravenous",
+     "at": [
+      4,
+      12
+     ],
+     "kind": "S",
+     "clue": "hungry",
+     "cat": [
+      26,
+      32
+     ],
+     "meaning": "very hungry"
+    },
+    {
+     "text": "After the long race, the runners were fatigued; they were so tired that they lay on the grass.",
+     "w": "fatigued",
+     "at": [
+      38,
+      46
+     ],
+     "kind": "S",
+     "clue": "tired",
+     "cat": [
+      61,
+      66
+     ],
+     "meaning": "very tired"
+    },
+    {
+     "text": "The first test was arduous, but the second one was easy.",
+     "w": "arduous",
+     "at": [
+      19,
+      26
+     ],
+     "kind": "A",
+     "clue": "easy",
+     "cat": [
+      51,
+      55
+     ],
+     "meaning": "hard to do"
+    },
+    {
+     "text": "My little brother is boisterous, while my sister is quiet and calm.",
+     "w": "boisterous",
+     "at": [
+      21,
+      31
+     ],
+     "kind": "A",
+     "clue": "quiet and calm",
+     "cat": [
+      52,
+      66
+     ],
+     "meaning": "loud and full of energy"
+    },
+    {
+     "text": "The museum shows artifacts, including old tools, pots, and coins.",
+     "w": "artifacts",
+     "at": [
+      17,
+      26
+     ],
+     "kind": "E",
+     "clue": "old tools, pots, and coins",
+     "cat": [
+      38,
+      64
+     ],
+     "meaning": "old things people made"
+    },
+    {
+     "text": "We bought pastries, including croissants, cinnamon rolls, and doughnuts.",
+     "w": "pastries",
+     "at": [
+      10,
+      18
+     ],
+     "kind": "E",
+     "clue": "croissants, cinnamon rolls, and doughnuts",
+     "cat": [
+      30,
+      71
+     ],
+     "meaning": "baked sweet treats"
+    }
+   ]
+  }
+ },
+ "dict": {
+  "pages": [
+   {
+    "id": "cabin",
+    "entries": [
+     {
+      "w": "cabin",
+      "pos": "noun",
+      "meanings": [
+       "a small house made of wood or logs",
+       "a room for passengers on a ship or an airplane"
+      ],
+      "ex": null,
+      "spell": [
+       "cabbin",
+       "caben"
+      ],
+      "uses": [
+       [
+        "We stayed in a cabin in the woods for a week.",
+        1
+       ],
+       [
+        "The pilot spoke to everyone in the cabin.",
+        2
+       ],
+       [
+        "Grandpa built the cabin out of logs.",
+        1
+       ],
+       [
+        "The airplane cabin was full of travelers.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "cactus",
+      "pos": "noun",
+      "meanings": [
+       "a plant with thick stems and sharp spines that grows in dry places"
+      ],
+      "ex": null,
+      "spell": [
+       "cactis",
+       "kactus"
+      ],
+      "uses": null
+     },
+     {
+      "w": "calendar",
+      "pos": "noun",
+      "meanings": [
+       "a chart that shows the days, weeks, and months of a year"
+      ],
+      "ex": "Mark the party on the calendar.",
+      "spell": [
+       "callendar",
+       "calandar"
+      ],
+      "uses": null
+     },
+     {
+      "w": "calf",
+      "pos": "noun",
+      "meanings": [
+       "a young cow",
+       "the back part of your leg below the knee"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "The calf drank milk from its mother.",
+        1
+       ],
+       [
+        "Lily hurt her calf when she ran the race.",
+        2
+       ],
+       [
+        "The farmer fed the new calf.",
+        1
+       ],
+       [
+        "My calf was sore after the long hike.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "calm",
+      "pos": "adjective",
+      "meanings": [
+       "quiet and still, with no wind or waves",
+       "not upset or worried"
+      ],
+      "ex": "Stay calm during a fire drill.",
+      "spell": [
+       "kalm",
+       "cahm"
+      ],
+      "uses": [
+       [
+        "The lake was calm, with no waves at all.",
+        1
+       ],
+       [
+        "Dad stayed calm when the lights went out.",
+        2
+       ],
+       [
+        "There was no wind, and the sea was calm.",
+        1
+       ],
+       [
+        "Mom spoke in a calm voice to the crying baby.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "camel",
+      "pos": "noun",
+      "meanings": [
+       "a large desert animal with one or two humps on its back"
+      ],
+      "ex": null,
+      "spell": [
+       "camle",
+       "cammel"
+      ],
+      "uses": null
+     },
+     {
+      "w": "camera",
+      "pos": "noun",
+      "meanings": [
+       "a tool for taking pictures or videos"
+      ],
+      "ex": "Dad took our picture with his camera.",
+      "spell": [
+       "camra",
+       "kamera"
+      ],
+      "uses": null
+     },
+     {
+      "w": "camp",
+      "pos": "noun",
+      "meanings": [
+       "a place where people stay in tents or cabins for a while"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "canal",
+      "pos": "noun",
+      "meanings": [
+       "a waterway dug by people for boats"
+      ],
+      "ex": null,
+      "spell": [
+       "canel",
+       "cannal"
+      ],
+      "uses": null
+     },
+     {
+      "w": "canoe",
+      "pos": "noun",
+      "meanings": [
+       "a long, narrow boat that you move with paddles"
+      ],
+      "ex": "We paddled the canoe across the lake.",
+      "spell": [
+       "canoo",
+       "kanoe"
+      ],
+      "uses": null
+     },
+     {
+      "w": "cap",
+      "pos": "noun",
+      "meanings": [
+       "a soft hat with a brim in front",
+       "a top that covers a bottle or a pen"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "Ben wore a red cap to the ball game.",
+        1
+       ],
+       [
+        "Put the cap back on the marker.",
+        2
+       ],
+       [
+        "Mia pulled her cap down to block the sun.",
+        1
+       ],
+       [
+        "Twist the cap off the water bottle.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "carry",
+      "pos": "verb",
+      "meanings": [
+       "to hold something and take it from one place to another"
+      ],
+      "ex": "Please carry the box to the car.",
+      "spell": [
+       "karry",
+       "carrey"
+      ],
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "candle",
+      "pos": "noun",
+      "meaning": "a stick of wax that gives light",
+      "sentence": "We lit a candle in the dark."
+     },
+     {
+      "w": "cage",
+      "pos": "noun",
+      "meaning": "a box with bars for an animal",
+      "sentence": "The bird sang in its cage."
+     },
+     {
+      "w": "cape",
+      "pos": "noun",
+      "meaning": "a coat with no sleeves",
+      "sentence": "The hero wore a red cape."
+     }
+    ]
+   },
+   {
+    "id": "seal",
+    "entries": [
+     {
+      "w": "seal",
+      "pos": "noun",
+      "meanings": [
+       "a sea animal with flippers that swims and rests on land",
+       "something that closes a jar or an envelope tightly"
+      ],
+      "ex": null,
+      "spell": [
+       "ceal",
+       "seale"
+      ],
+      "uses": [
+       [
+        "A seal sunned itself on the rocks.",
+        1
+       ],
+       [
+        "The seal on the jar was hard to open.",
+        2
+       ],
+       [
+        "We watched the seal dive for fish.",
+        1
+       ],
+       [
+        "Break the seal before you open the box of juice.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "season",
+      "pos": "noun",
+      "meanings": [
+       "one of the four parts of the year: spring, summer, fall, or winter",
+       "a time of year when something happens"
+      ],
+      "ex": null,
+      "spell": [
+       "seeson",
+       "seasen"
+      ],
+      "uses": [
+       [
+        "Fall is my favorite season.",
+        1
+       ],
+       [
+        "Baseball season starts in the spring.",
+        2
+       ],
+       [
+        "Winter is the coldest season.",
+        1
+       ],
+       [
+        "It is the season for picking apples.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "seed",
+      "pos": "noun",
+      "meanings": [
+       "the small part of a plant that can grow into a new plant"
+      ],
+      "ex": "Plant the seed in wet soil.",
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "seesaw",
+      "pos": "noun",
+      "meanings": [
+       "a long board that goes up and down with a child on each end"
+      ],
+      "ex": null,
+      "spell": [
+       "seasaw",
+       "seesau"
+      ],
+      "uses": null
+     },
+     {
+      "w": "select",
+      "pos": "verb",
+      "meanings": [
+       "to choose"
+      ],
+      "ex": "Select a book to read.",
+      "spell": [
+       "sellect",
+       "selekt"
+      ],
+      "uses": null
+     },
+     {
+      "w": "sense",
+      "pos": "noun",
+      "meanings": [
+       "one of the five ways the body learns about the world, such as sight or touch"
+      ],
+      "ex": null,
+      "spell": [
+       "sence",
+       "sens"
+      ],
+      "uses": null
+     },
+     {
+      "w": "serve",
+      "pos": "verb",
+      "meanings": [
+       "to give food or drink to someone",
+       "to hit the ball to start a game, as in tennis"
+      ],
+      "ex": null,
+      "spell": [
+       "surve",
+       "serv"
+      ],
+      "uses": [
+       [
+        "The waiter will serve our lunch.",
+        1
+       ],
+       [
+        "It is your turn to serve the ball.",
+        2
+       ],
+       [
+        "We serve soup to the guests.",
+        1
+       ],
+       [
+        "Ana likes to serve in volleyball.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "shadow",
+      "pos": "noun",
+      "meanings": [
+       "a dark shape made when something blocks the light"
+      ],
+      "ex": "My shadow is long in the evening.",
+      "spell": [
+       "shaddow",
+       "shadoe"
+      ],
+      "uses": null
+     },
+     {
+      "w": "shallow",
+      "pos": "adjective",
+      "meanings": [
+       "not deep"
+      ],
+      "ex": "The little kids played in the shallow water.",
+      "spell": [
+       "shalow",
+       "shallou"
+      ],
+      "uses": null
+     },
+     {
+      "w": "shark",
+      "pos": "noun",
+      "meanings": [
+       "a fish with many sharp teeth and a fin on its back"
+      ],
+      "ex": null,
+      "spell": [
+       "sharc",
+       "sharke"
+      ],
+      "uses": null
+     },
+     {
+      "w": "sharp",
+      "pos": "adjective",
+      "meanings": [
+       "having an edge or a point that cuts easily",
+       "sudden and quick"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "Be careful! The knife is sharp.",
+        1
+       ],
+       [
+        "The bus made a sharp turn at the corner.",
+        2
+       ],
+       [
+        "A cactus has sharp spines.",
+        1
+       ],
+       [
+        "The car made a sharp turn to miss the deer.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "shell",
+      "pos": "noun",
+      "meanings": [
+       "the hard outside covering of an egg, a nut, or a sea animal"
+      ],
+      "ex": "We found a pink shell on the beach.",
+      "spell": [
+       "shel",
+       "chell"
+      ],
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "seashore",
+      "pos": "noun",
+      "meaning": "the land beside the sea",
+      "sentence": "We found shells on the seashore."
+     },
+     {
+      "w": "sheep",
+      "pos": "noun",
+      "meaning": "a farm animal with a woolly coat",
+      "sentence": "The sheep ate the green grass."
+     },
+     {
+      "w": "sharpener",
+      "pos": "noun",
+      "meaning": "a tool that makes pencils sharp",
+      "sentence": "Use the sharpener on my pencil."
+     }
+    ]
+   },
+   {
+    "id": "pack",
+    "entries": [
+     {
+      "w": "pack",
+      "pos": "noun",
+      "meanings": [
+       "a bag you carry on your back",
+       "a group of wolves or dogs that hunt together"
+      ],
+      "ex": null,
+      "spell": [
+       "pak",
+       "pakk"
+      ],
+      "uses": [
+       [
+        "Put your lunch in your pack.",
+        1
+       ],
+       [
+        "A pack of wolves howled in the night.",
+        2
+       ],
+       [
+        "Ben zipped up his pack before the hike.",
+        1
+       ],
+       [
+        "The pack of dogs ran across the snow.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "pad",
+      "pos": "noun",
+      "meanings": [
+       "a soft, thick piece of material",
+       "sheets of paper glued together at one end"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "The puppy slept on a soft pad.",
+        1
+       ],
+       [
+        "Write your list on this pad.",
+        2
+       ],
+       [
+        "Use the pad to protect the table.",
+        1
+       ],
+       [
+        "The teacher handed me a pad of paper.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "paddle",
+      "pos": "noun",
+      "meanings": [
+       "a short pole with a flat end for moving a canoe",
+       "a flat bat for playing table tennis"
+      ],
+      "ex": null,
+      "spell": [
+       "padle",
+       "paddel"
+      ],
+      "uses": [
+       [
+        "Dip the paddle into the water and pull.",
+        1
+       ],
+       [
+        "Grab a paddle and hit the little ball.",
+        2
+       ],
+       [
+        "He steered the canoe with his paddle.",
+        1
+       ],
+       [
+        "Her paddle had red rubber on one side.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "pail",
+      "pos": "noun",
+      "meanings": [
+       "a bucket with a handle"
+      ],
+      "ex": "Fill the pail with sand.",
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "paint",
+      "pos": "verb",
+      "meanings": [
+       "to put color on something with a brush"
+      ],
+      "ex": "We will paint the fence blue.",
+      "spell": [
+       "paynt",
+       "peint"
+      ],
+      "uses": null
+     },
+     {
+      "w": "pale",
+      "pos": "adjective",
+      "meanings": [
+       "light in color",
+       "with less color in the face than usual"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "She painted her room a pale blue.",
+        1
+       ],
+       [
+        "Jon looked pale when he was sick.",
+        2
+       ],
+       [
+        "The sky was a pale pink at dawn.",
+        1
+       ],
+       [
+        "The scared boy turned pale.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "palm",
+      "pos": "noun",
+      "meanings": [
+       "the inside part of your hand",
+       "a tall tree with big leaves at the top"
+      ],
+      "ex": null,
+      "spell": [
+       "pam",
+       "pahm"
+      ],
+      "uses": [
+       [
+        "A coin sat in the palm of her hand.",
+        1
+       ],
+       [
+        "A coconut fell from the palm.",
+        2
+       ],
+       [
+        "The ladybug crawled across my palm.",
+        1
+       ],
+       [
+        "We sat in the shade of a palm on the beach.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "panda",
+      "pos": "noun",
+      "meanings": [
+       "a large black-and-white bear that eats bamboo"
+      ],
+      "ex": null,
+      "spell": [
+       "pandah",
+       "pandu"
+      ],
+      "uses": null
+     },
+     {
+      "w": "pants",
+      "pos": "noun",
+      "meanings": [
+       "clothes that cover each leg separately"
+      ],
+      "ex": "Mia wore blue pants to school.",
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "paper",
+      "pos": "noun",
+      "meanings": [
+       "thin material for writing, printing, or wrapping",
+       "a newspaper"
+      ],
+      "ex": null,
+      "spell": [
+       "papper",
+       "papur"
+      ],
+      "uses": [
+       [
+        "Write your name on the paper.",
+        1
+       ],
+       [
+        "Dad read the sports page of the paper.",
+        2
+       ],
+       [
+        "We folded the paper into a plane.",
+        1
+       ],
+       [
+        "The paper had a story about our school.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "parade",
+      "pos": "noun",
+      "meanings": [
+       "people marching along a street to celebrate"
+      ],
+      "ex": "The band played in the parade.",
+      "spell": [
+       "parrade",
+       "perade"
+      ],
+      "uses": null
+     },
+     {
+      "w": "parent",
+      "pos": "noun",
+      "meanings": [
+       "a mother or a father"
+      ],
+      "ex": null,
+      "spell": [
+       "parint",
+       "pairent"
+      ],
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "pajamas",
+      "pos": "noun",
+      "meaning": "clothes you wear to sleep",
+      "sentence": "I put on my pajamas at night."
+     },
+     {
+      "w": "pancake",
+      "pos": "noun",
+      "meaning": "a thin, flat cake from a pan",
+      "sentence": "Grandpa made a pancake for me."
+     },
+     {
+      "w": "panther",
+      "pos": "noun",
+      "meaning": "a large wild cat",
+      "sentence": "The panther slept in a tree."
+     }
+    ]
+   },
+   {
+    "id": "rabbit",
+    "entries": [
+     {
+      "w": "rabbit",
+      "pos": "noun",
+      "meanings": [
+       "a small animal with long ears and soft fur that hops"
+      ],
+      "ex": "The rabbit nibbled a carrot.",
+      "spell": [
+       "rabit",
+       "rabbut"
+      ],
+      "uses": null
+     },
+     {
+      "w": "raccoon",
+      "pos": "noun",
+      "meanings": [
+       "an animal with a ringed tail and a black mask of fur"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "raft",
+      "pos": "noun",
+      "meanings": [
+       "a flat boat made of logs or boards tied together"
+      ],
+      "ex": "They floated down the river on a raft.",
+      "spell": [
+       "rafft",
+       "raph"
+      ],
+      "uses": null
+     },
+     {
+      "w": "rail",
+      "pos": "noun",
+      "meanings": [
+       "a bar of wood or metal that you can hold on to, as on stairs",
+       "one of the two steel bars that a train rolls on"
+      ],
+      "ex": null,
+      "spell": [
+       "raile",
+       "rayl"
+      ],
+      "uses": [
+       [
+        "Hold the rail when you go down the stairs.",
+        1
+       ],
+       [
+        "The train wheels rolled along the rail.",
+        2
+       ],
+       [
+        "Grandma held on to the rail of the porch.",
+        1
+       ],
+       [
+        "A worker fixed a broken rail on the tracks.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "rainbow",
+      "pos": "noun",
+      "meanings": [
+       "an arch of colors in the sky after it rains"
+      ],
+      "ex": null,
+      "spell": [
+       "ranebow",
+       "rainbo"
+      ],
+      "uses": null
+     },
+     {
+      "w": "raise",
+      "pos": "verb",
+      "meanings": [
+       "to lift up",
+       "to take care of a child or an animal until it is grown"
+      ],
+      "ex": null,
+      "spell": [
+       "raize",
+       "raiz"
+      ],
+      "uses": [
+       [
+        "Raise your hand if you know the answer.",
+        1
+       ],
+       [
+        "The farmer will raise the lambs on her farm.",
+        2
+       ],
+       [
+        "Please raise the flag in the morning.",
+        1
+       ],
+       [
+        "They raise chickens in the backyard.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "rake",
+      "pos": "noun",
+      "meanings": [
+       "a garden tool with a long handle and metal teeth"
+      ],
+      "ex": "Use the rake to gather the leaves.",
+      "spell": [
+       "raik",
+       "raek"
+      ],
+      "uses": null
+     },
+     {
+      "w": "ranch",
+      "pos": "noun",
+      "meanings": [
+       "a large farm where cattle, sheep, or horses are raised"
+      ],
+      "ex": null,
+      "spell": [
+       "ranche",
+       "ransh"
+      ],
+      "uses": null
+     },
+     {
+      "w": "rapid",
+      "pos": "adjective",
+      "meanings": [
+       "very fast"
+      ],
+      "ex": "The rapid river rushed over the rocks.",
+      "spell": [
+       "rappid",
+       "rapud"
+      ],
+      "uses": null
+     },
+     {
+      "w": "rare",
+      "pos": "adjective",
+      "meanings": [
+       "not seen or found often",
+       "cooked only a little"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "It is rare to see snow in Florida.",
+        1
+       ],
+       [
+        "Dad likes his steak rare.",
+        2
+       ],
+       [
+        "That is a rare bird; few people have seen one.",
+        1
+       ],
+       [
+        "The meat was rare and pink inside.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "rash",
+      "pos": "noun",
+      "meanings": [
+       "red spots or bumps on the skin"
+      ],
+      "ex": null,
+      "spell": [
+       "rashe",
+       "rach"
+      ],
+      "uses": null
+     },
+     {
+      "w": "rattle",
+      "pos": "noun",
+      "meanings": [
+       "a baby toy that makes a noise when you shake it"
+      ],
+      "ex": "The baby shook her rattle.",
+      "spell": [
+       "ratle",
+       "rattel"
+      ],
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "railroad",
+      "pos": "noun",
+      "meaning": "a track for trains",
+      "sentence": "The railroad crosses the river."
+     },
+     {
+      "w": "ramp",
+      "pos": "noun",
+      "meaning": "a slope from low to high",
+      "sentence": "Ben rolled his bike up the ramp."
+     },
+     {
+      "w": "radish",
+      "pos": "noun",
+      "meaning": "a small red root you can eat",
+      "sentence": "I sliced a radish for a salad."
+     }
+    ]
+   },
+   {
+    "id": "table",
+    "entries": [
+     {
+      "w": "table",
+      "pos": "noun",
+      "meanings": [
+       "a piece of furniture with a flat top and legs",
+       "a chart that shows facts in rows and columns"
+      ],
+      "ex": null,
+      "spell": [
+       "tabel",
+       "tabul"
+      ],
+      "uses": [
+       [
+        "Set the plates on the table.",
+        1
+       ],
+       [
+        "The table shows how many books each class read.",
+        2
+       ],
+       [
+        "We ate dinner at the kitchen table.",
+        1
+       ],
+       [
+        "Look at the table to find the number of rainy days.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "tadpole",
+      "pos": "noun",
+      "meanings": [
+       "a young frog or toad that lives in water and has a tail"
+      ],
+      "ex": null,
+      "spell": [
+       "tadpol",
+       "tadpoal"
+      ],
+      "uses": null
+     },
+     {
+      "w": "tail",
+      "pos": "noun",
+      "meanings": [
+       "the part at the back of an animal's body",
+       "the back end of something, such as a kite or an airplane"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "The dog wagged its tail.",
+        1
+       ],
+       [
+        "The kite had a long tail made of ribbons.",
+        2
+       ],
+       [
+        "A fox curled its bushy tail around its nose.",
+        1
+       ],
+       [
+        "A red light blinked on the tail of the airplane.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "talent",
+      "pos": "noun",
+      "meanings": [
+       "a special skill that someone is good at"
+      ],
+      "ex": "Kai has a talent for drawing.",
+      "spell": [
+       "talant",
+       "tallent"
+      ],
+      "uses": null
+     },
+     {
+      "w": "tame",
+      "pos": "adjective",
+      "meanings": [
+       "not wild; gentle around people"
+      ],
+      "ex": "The tame goat ate from my hand.",
+      "spell": [
+       "taim",
+       "taym"
+      ],
+      "uses": null
+     },
+     {
+      "w": "tap",
+      "pos": "verb",
+      "meanings": [
+       "to hit something lightly"
+      ],
+      "ex": "Tap on the door before you come in.",
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "tape",
+      "pos": "noun",
+      "meanings": [
+       "a long, thin strip that is sticky on one side",
+       "a strip stretched across the finish line of a race"
+      ],
+      "ex": null,
+      "spell": [
+       "taip",
+       "taep"
+      ],
+      "uses": [
+       [
+        "Hold the paper with a piece of tape.",
+        1
+       ],
+       [
+        "The winner ran through the tape at the end.",
+        2
+       ],
+       [
+        "We fixed the torn map with tape.",
+        1
+       ],
+       [
+        "The runners raced toward the tape.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "taste",
+      "pos": "verb",
+      "meanings": [
+       "to notice the flavor of food with your tongue"
+      ],
+      "ex": "Can I taste your soup?",
+      "spell": [
+       "taist",
+       "tayste"
+      ],
+      "uses": null
+     },
+     {
+      "w": "team",
+      "pos": "noun",
+      "meanings": [
+       "a group of people who play or work together",
+       "a group of animals that pull something together"
+      ],
+      "ex": null,
+      "spell": [
+       "teme",
+       "teeme"
+      ],
+      "uses": [
+       [
+        "Our team won the soccer game.",
+        1
+       ],
+       [
+        "A team of horses pulled the wagon.",
+        2
+       ],
+       [
+        "The science team built a robot.",
+        1
+       ],
+       [
+        "A team of dogs pulled the sled over the snow.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "tease",
+      "pos": "verb",
+      "meanings": [
+       "to make fun of someone in a playful or unkind way"
+      ],
+      "ex": null,
+      "spell": [
+       "teese",
+       "teece"
+      ],
+      "uses": null
+     },
+     {
+      "w": "telephone",
+      "pos": "noun",
+      "meanings": [
+       "a machine you use to talk with someone far away"
+      ],
+      "ex": "Grandma called us on the telephone.",
+      "spell": [
+       "telefone",
+       "telaphone"
+      ],
+      "uses": null
+     },
+     {
+      "w": "tent",
+      "pos": "noun",
+      "meanings": [
+       "a shelter made of cloth held up by poles"
+      ],
+      "ex": null,
+      "spell": [
+       "tentt",
+       "tant"
+      ],
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "tank",
+      "pos": "noun",
+      "meaning": "a big container for water",
+      "sentence": "The fish swim in a glass tank."
+     },
+     {
+      "w": "tablet",
+      "pos": "noun",
+      "meaning": "a small, flat computer",
+      "sentence": "I read a book on the tablet."
+     },
+     {
+      "w": "teacher",
+      "pos": "noun",
+      "meaning": "a person who helps you learn",
+      "sentence": "Our teacher read us a story."
+     }
+    ]
+   },
+   {
+    "id": "frame",
+    "entries": [
+     {
+      "w": "frame",
+      "pos": "noun",
+      "meanings": [
+       "a border that holds a picture or a window",
+       "the bones or boards that hold something up"
+      ],
+      "ex": null,
+      "spell": [
+       "fraim",
+       "fraem"
+      ],
+      "uses": [
+       [
+        "Put the photo in a wooden frame.",
+        1
+       ],
+       [
+        "A whale has a huge frame of bones.",
+        2
+       ],
+       [
+        "The painting hung in a gold frame.",
+        1
+       ],
+       [
+        "The workers built the frame of the house first.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "freeze",
+      "pos": "verb",
+      "meanings": [
+       "to turn hard and icy because of cold",
+       "to stop and stay very still"
+      ],
+      "ex": null,
+      "spell": [
+       "freez",
+       "frease"
+      ],
+      "uses": [
+       [
+        "The pond will freeze tonight.",
+        1
+       ],
+       [
+        "When the music stops, freeze!",
+        2
+       ],
+       [
+        "Water will freeze in the cold.",
+        1
+       ],
+       [
+        "The deer will freeze when it hears a sound.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "fresh",
+      "pos": "adjective",
+      "meanings": [
+       "just made or picked; not old",
+       "clean and cool"
+      ],
+      "ex": null,
+      "spell": null,
+      "uses": [
+       [
+        "We ate fresh bread from the oven.",
+        1
+       ],
+       [
+        "Open the window to let in fresh air.",
+        2
+       ],
+       [
+        "These are fresh peaches from the farm.",
+        1
+       ],
+       [
+        "The fresh breeze felt good after the hot bus ride.",
+        2
+       ]
+      ]
+     },
+     {
+      "w": "friend",
+      "pos": "noun",
+      "meanings": [
+       "a person you like and know well"
+      ],
+      "ex": "My friend sits next to me in class.",
+      "spell": [
+       "freind",
+       "frend"
+      ],
+      "uses": null
+     },
+     {
+      "w": "fright",
+      "pos": "noun",
+      "meanings": [
+       "a sudden feeling of fear"
+      ],
+      "ex": "The loud bang gave me a fright.",
+      "spell": [
+       "frite",
+       "fryght"
+      ],
+      "uses": null
+     },
+     {
+      "w": "fringe",
+      "pos": "noun",
+      "meanings": [
+       "a border of hanging threads on a rug or a coat"
+      ],
+      "ex": null,
+      "spell": [
+       "frinje",
+       "frinj"
+      ],
+      "uses": null
+     },
+     {
+      "w": "frog",
+      "pos": "noun",
+      "meanings": [
+       "a small animal with smooth skin and long back legs for jumping"
+      ],
+      "ex": "A frog jumped into the pond.",
+      "spell": null,
+      "uses": null
+     },
+     {
+      "w": "front",
+      "pos": "noun",
+      "meanings": [
+       "the part of something that faces forward"
+      ],
+      "ex": null,
+      "spell": [
+       "frunt",
+       "frount"
+      ],
+      "uses": null
+     },
+     {
+      "w": "frost",
+      "pos": "noun",
+      "meanings": [
+       "thin ice that forms on cold things"
+      ],
+      "ex": "There was frost on the car window.",
+      "spell": [
+       "forst",
+       "froste"
+      ],
+      "uses": null
+     },
+     {
+      "w": "frown",
+      "pos": "verb",
+      "meanings": [
+       "to pull your eyebrows down when you are upset"
+      ],
+      "ex": null,
+      "spell": [
+       "froun",
+       "frowne"
+      ],
+      "uses": null
+     },
+     {
+      "w": "fruit",
+      "pos": "noun",
+      "meanings": [
+       "the part of a plant that holds its seeds"
+      ],
+      "ex": "An apple is a fruit.",
+      "spell": [
+       "froot",
+       "frute"
+      ],
+      "uses": null
+     },
+     {
+      "w": "fry",
+      "pos": "verb",
+      "meanings": [
+       "to cook in hot oil"
+      ],
+      "ex": "Dad will fry the eggs.",
+      "spell": null,
+      "uses": null
+     }
+    ],
+    "news": [
+     {
+      "w": "friendship",
+      "pos": "noun",
+      "meaning": "being friends",
+      "sentence": "Our friendship is strong."
+     },
+     {
+      "w": "fridge",
+      "pos": "noun",
+      "meaning": "a cold box that keeps food",
+      "sentence": "Put the milk in the fridge."
+     },
+     {
+      "w": "frosting",
+      "pos": "noun",
+      "meaning": "a sweet topping for a cake",
+      "sentence": "The cake had pink frosting."
+     }
+    ]
+   }
+  ],
+  "words": {
+   "b": [
+    "bag",
+    "bake",
+    "ball",
+    "banana",
+    "band",
+    "barn",
+    "basket",
+    "bath",
+    "beach",
+    "bean",
+    "bear",
+    "bed",
+    "bee",
+    "bell",
+    "belt",
+    "bench",
+    "bike",
+    "bird",
+    "blanket",
+    "block",
+    "boat",
+    "bone",
+    "book",
+    "boot",
+    "box",
+    "bread",
+    "brick",
+    "bridge",
+    "brush",
+    "bug",
+    "bus",
+    "butter",
+    "button"
+   ],
+   "c": [
+    "cake",
+    "camel",
+    "camp",
+    "candle",
+    "cap",
+    "car",
+    "card",
+    "carrot",
+    "castle",
+    "cat",
+    "cave",
+    "chair",
+    "chalk",
+    "cheese",
+    "chicken",
+    "chin",
+    "circle",
+    "city",
+    "clock",
+    "cloud",
+    "coat",
+    "coin",
+    "comb",
+    "cook",
+    "corn",
+    "couch",
+    "cow",
+    "crab",
+    "crayon",
+    "cup"
+   ],
+   "d": [
+    "dad",
+    "dance",
+    "deer",
+    "desk",
+    "dime",
+    "dinner",
+    "dish",
+    "dog",
+    "doll",
+    "door",
+    "dot",
+    "dragon",
+    "dream",
+    "dress",
+    "drink",
+    "drum",
+    "duck",
+    "dust"
+   ],
+   "f": [
+    "face",
+    "farm",
+    "feather",
+    "fence",
+    "field",
+    "fig",
+    "fish",
+    "flag",
+    "flower",
+    "fog",
+    "foot",
+    "fork",
+    "fox",
+    "frog",
+    "fruit",
+    "fun",
+    "fur"
+   ],
+   "g": [
+    "game",
+    "garden",
+    "gate",
+    "gift",
+    "girl",
+    "glass",
+    "glove",
+    "glue",
+    "goat",
+    "gold",
+    "goose",
+    "grape",
+    "grass",
+    "green",
+    "ground",
+    "guitar",
+    "gum"
+   ],
+   "h": [
+    "hair",
+    "hall",
+    "hand",
+    "hat",
+    "hay",
+    "head",
+    "heart",
+    "hen",
+    "hill",
+    "hippo",
+    "hive",
+    "hole",
+    "home",
+    "honey",
+    "horse",
+    "house",
+    "hug"
+   ],
+   "l": [
+    "lake",
+    "lamb",
+    "lamp",
+    "land",
+    "leaf",
+    "leg",
+    "lemon",
+    "letter",
+    "lid",
+    "light",
+    "lime",
+    "lion",
+    "lip",
+    "list",
+    "log",
+    "lunch"
+   ],
+   "m": [
+    "map",
+    "mask",
+    "meal",
+    "melon",
+    "milk",
+    "mitten",
+    "money",
+    "monkey",
+    "moon",
+    "mop",
+    "moth",
+    "mouse",
+    "mouth",
+    "mud",
+    "mug",
+    "music"
+   ],
+   "p": [
+    "pail",
+    "paint",
+    "pan",
+    "panda",
+    "paper",
+    "park",
+    "party",
+    "peach",
+    "pear",
+    "pen",
+    "pencil",
+    "pet",
+    "piano",
+    "pie",
+    "pig",
+    "pillow",
+    "pink",
+    "pizza",
+    "plate",
+    "pond",
+    "pony",
+    "pot",
+    "puppy",
+    "purple"
+   ],
+   "r": [
+    "rabbit",
+    "race",
+    "rain",
+    "rake",
+    "rat",
+    "red",
+    "ribbon",
+    "rice",
+    "ring",
+    "river",
+    "road",
+    "robot",
+    "rock",
+    "roof",
+    "room",
+    "rope",
+    "rose",
+    "rug",
+    "ruler",
+    "run"
+   ],
+   "s": [
+    "sack",
+    "sail",
+    "salad",
+    "salt",
+    "sand",
+    "seal",
+    "seed",
+    "shell",
+    "ship",
+    "shoe",
+    "sing",
+    "sink",
+    "sister",
+    "sky",
+    "sled",
+    "slide",
+    "snail",
+    "snow",
+    "soap",
+    "sock",
+    "sofa",
+    "soup",
+    "spoon",
+    "star",
+    "sun",
+    "swing"
+   ],
+   "t": [
+    "table",
+    "tail",
+    "tape",
+    "tea",
+    "team",
+    "tent",
+    "tiger",
+    "toad",
+    "toast",
+    "toe",
+    "tooth",
+    "top",
+    "towel",
+    "toy",
+    "train",
+    "tree",
+    "truck",
+    "tub",
+    "turtle"
+   ],
+   "w": [
+    "wagon",
+    "walk",
+    "wall",
+    "water",
+    "wave",
+    "web",
+    "whale",
+    "wheel",
+    "wind",
+    "window",
+    "wing",
+    "wolf",
+    "worm"
+   ]
+  }
+ },
+ "gloss": {
+  "texts": [
+   {
+    "id": "butterfly",
+    "title": "How a Butterfly Grows",
+    "paras": [
+     "A butterfly changes as it grows. This big change is called metamorphosis. It begins as a tiny egg on a leaf. A larva, or caterpillar, hatches from the egg. It eats and eats.",
+     "Then the caterpillar forms a chrysalis, a hard case around its body. Inside, its body changes. At last, a butterfly comes out. It uses its antennae to smell and feel. It sips nectar from flowers through its proboscis, a long tube like a straw."
+    ],
+    "bold": [
+     {
+      "w": "metamorphosis",
+      "form": "metamorphosis",
+      "meaning": "a big change in an animal's body as it grows",
+      "ctx": "a big change",
+      "p": 0,
+      "at": [
+       59,
+       72
+      ]
+     },
+     {
+      "w": "larva",
+      "form": "larva",
+      "meaning": "a young insect that looks like a worm, such as a caterpillar",
+      "ctx": "a caterpillar",
+      "p": 0,
+      "at": [
+       111,
+       116
+      ]
+     },
+     {
+      "w": "chrysalis",
+      "form": "chrysalis",
+      "meaning": "the hard case a caterpillar forms before it becomes a butterfly",
+      "ctx": "a hard case",
+      "p": 1,
+      "at": [
+       29,
+       38
+      ]
+     },
+     {
+      "w": "antennae",
+      "form": "antennae",
+      "meaning": "two long feelers on an insect's head",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       139,
+       147
+      ]
+     },
+     {
+      "w": "nectar",
+      "form": "nectar",
+      "meaning": "a sweet liquid inside flowers",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       175,
+       181
+      ]
+     },
+     {
+      "w": "proboscis",
+      "form": "proboscis",
+      "meaning": "a long tube a butterfly uses to drink",
+      "ctx": "a tube like a straw",
+      "p": 1,
+      "at": [
+       207,
+       216
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "abdomen",
+      "meaning": "the back part of an insect's body"
+     },
+     {
+      "w": "camouflage",
+      "meaning": "colors or shapes that help an animal hide"
+     }
+    ],
+    "statements": [
+     {
+      "text": "A larva is a young insect.",
+      "a": "yes",
+      "about": "larva"
+     },
+     {
+      "text": "Nectar is sweet.",
+      "a": "yes",
+      "about": "nectar"
+     },
+     {
+      "text": "A proboscis is used for drinking.",
+      "a": "yes",
+      "about": "proboscis"
+     },
+     {
+      "text": "Antennae are on an insect's head.",
+      "a": "yes",
+      "about": "antennae"
+     },
+     {
+      "text": "A chrysalis is a sweet liquid.",
+      "a": "no",
+      "about": "chrysalis"
+     },
+     {
+      "text": "Metamorphosis is a kind of flower.",
+      "a": "no",
+      "about": "metamorphosis"
+     },
+     {
+      "text": "A larva is a grown-up butterfly.",
+      "a": "no",
+      "about": "larva"
+     },
+     {
+      "text": "Antennae are on an insect's back part.",
+      "a": "no",
+      "about": "antennae"
+     },
+     {
+      "text": "The abdomen is the back part of an insect's body.",
+      "a": "yes",
+      "about": "abdomen"
+     },
+     {
+      "text": "Camouflage helps an animal hide.",
+      "a": "yes",
+      "about": "camouflage"
+     },
+     {
+      "text": "The abdomen is on an insect's head.",
+      "a": "no",
+      "about": "abdomen"
+     }
+    ],
+    "insert": [
+     "branch",
+     "egg",
+     "hatch",
+     "orange",
+     "leaf",
+     "milkweed",
+     "pollen"
+    ]
+   },
+   {
+    "id": "volcano",
+    "title": "Volcanoes",
+    "paras": [
+     "A volcano is a place where melted rock comes up through the ground. Deep inside Earth, some rock is hot enough to melt. Melted rock under the ground is called magma. It rises through a vent, an opening in the ground.",
+     "When a volcano erupts, hot rock bursts out. Once melted rock reaches the surface, it is called lava. Lava is hot enough to burn trees. A volcano can also blast out ash, tiny bits of rock that fill the sky. At the top of many volcanoes is a crater, a bowl-shaped hole."
+    ],
+    "bold": [
+     {
+      "w": "magma",
+      "form": "magma",
+      "meaning": "melted rock deep under the ground",
+      "ctx": "underground melted rock",
+      "p": 0,
+      "at": [
+       159,
+       164
+      ]
+     },
+     {
+      "w": "vent",
+      "form": "vent",
+      "meaning": "an opening where melted rock comes out",
+      "ctx": "an opening in the ground",
+      "p": 0,
+      "at": [
+       185,
+       189
+      ]
+     },
+     {
+      "w": "erupt",
+      "form": "erupts",
+      "meaning": "to burst out with force",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       15,
+       21
+      ]
+     },
+     {
+      "w": "lava",
+      "form": "lava",
+      "meaning": "melted rock that flows out on Earth's surface",
+      "ctx": "melted rock that comes out of the ground",
+      "p": 1,
+      "at": [
+       95,
+       99
+      ]
+     },
+     {
+      "w": "ash",
+      "form": "ash",
+      "meaning": "tiny bits of rock blown out of a volcano",
+      "ctx": "tiny bits of rock",
+      "p": 1,
+      "at": [
+       164,
+       167
+      ]
+     },
+     {
+      "w": "crater",
+      "form": "crater",
+      "meaning": "a bowl-shaped hole at the top of a volcano",
+      "ctx": "a bowl-shaped hole",
+      "p": 1,
+      "at": [
+       240,
+       246
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "active",
+      "meaning": "still able to erupt"
+     },
+     {
+      "w": "crust",
+      "meaning": "the hard outer layer of Earth"
+     }
+    ],
+    "statements": [
+     {
+      "text": "Magma is melted rock under the ground.",
+      "a": "yes",
+      "about": "magma"
+     },
+     {
+      "text": "Ash is made of tiny bits of rock.",
+      "a": "yes",
+      "about": "ash"
+     },
+     {
+      "text": "A vent is an opening.",
+      "a": "yes",
+      "about": "vent"
+     },
+     {
+      "text": "Lava flows on Earth's surface.",
+      "a": "yes",
+      "about": "lava"
+     },
+     {
+      "text": "Lava is deep under the ground.",
+      "a": "no",
+      "about": "lava"
+     },
+     {
+      "text": "A crater is a tall mountain peak.",
+      "a": "no",
+      "about": "crater"
+     },
+     {
+      "text": "Ash is one big rock.",
+      "a": "no",
+      "about": "ash"
+     },
+     {
+      "text": "To erupt is to cool down slowly.",
+      "a": "no",
+      "about": "erupt"
+     },
+     {
+      "text": "The crust is the outer layer of Earth.",
+      "a": "yes",
+      "about": "crust"
+     },
+     {
+      "text": "An active volcano can erupt.",
+      "a": "yes",
+      "about": "active"
+     },
+     {
+      "text": "The crust is melted rock.",
+      "a": "no",
+      "about": "crust"
+     }
+    ],
+    "insert": [
+     "boulder",
+     "bubble",
+     "dust",
+     "fire",
+     "gas",
+     "heat",
+     "island",
+     "smoke",
+     "steam",
+     "cloud",
+     "cone",
+     "mountain",
+     "lake",
+     "air"
+    ]
+   },
+   {
+    "id": "clouds",
+    "title": "Clouds and Rain",
+    "paras": [
+     "Water is always moving between the ground and the sky. The sun warms lakes and oceans, and some water starts to evaporate. It turns into vapor, a gas we cannot see. The vapor rises into the atmosphere, the air around Earth.",
+     "High up, the air is cold, so the vapor starts to condense. It turns into tiny droplets that make clouds. When the droplets join and get heavy, they fall as precipitation, such as rain. In cold air, it falls as snow."
+    ],
+    "bold": [
+     {
+      "w": "evaporate",
+      "form": "evaporate",
+      "meaning": "to change from a liquid into a gas",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       112,
+       121
+      ]
+     },
+     {
+      "w": "vapor",
+      "form": "vapor",
+      "meaning": "water in the form of a gas",
+      "ctx": "a gas we cannot see",
+      "p": 0,
+      "at": [
+       137,
+       142
+      ]
+     },
+     {
+      "w": "atmosphere",
+      "form": "atmosphere",
+      "meaning": "the layer of air around Earth",
+      "ctx": "the air around Earth",
+      "p": 0,
+      "at": [
+       190,
+       200
+      ]
+     },
+     {
+      "w": "condense",
+      "form": "condense",
+      "meaning": "to change from a gas into a liquid",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       49,
+       57
+      ]
+     },
+     {
+      "w": "droplets",
+      "form": "droplets",
+      "meaning": "very small drops of water",
+      "ctx": "tiny drops in clouds",
+      "p": 1,
+      "at": [
+       78,
+       86
+      ]
+     },
+     {
+      "w": "precipitation",
+      "form": "precipitation",
+      "meaning": "water that falls from clouds, such as rain or snow",
+      "ctx": "water that falls, like rain or snow",
+      "p": 1,
+      "at": [
+       156,
+       169
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "cumulus",
+      "meaning": "a puffy white cloud"
+     },
+     {
+      "w": "dew",
+      "meaning": "drops of water that form on grass in the night"
+     }
+    ],
+    "statements": [
+     {
+      "text": "Vapor is a gas.",
+      "a": "yes",
+      "about": "vapor"
+     },
+     {
+      "text": "Droplets are very small drops.",
+      "a": "yes",
+      "about": "droplets"
+     },
+     {
+      "text": "Rain is a kind of precipitation.",
+      "a": "yes",
+      "about": "precipitation"
+     },
+     {
+      "text": "To evaporate is to change from a liquid into a gas.",
+      "a": "yes",
+      "about": "evaporate"
+     },
+     {
+      "text": "To condense is to change from a liquid into a gas.",
+      "a": "no",
+      "about": "condense"
+     },
+     {
+      "text": "The atmosphere is the water in the ocean.",
+      "a": "no",
+      "about": "atmosphere"
+     },
+     {
+      "text": "Vapor is a liquid.",
+      "a": "no",
+      "about": "vapor"
+     },
+     {
+      "text": "Precipitation is a kind of gas.",
+      "a": "no",
+      "about": "precipitation"
+     },
+     {
+      "text": "A cumulus cloud is puffy.",
+      "a": "yes",
+      "about": "cumulus"
+     },
+     {
+      "text": "Dew forms on grass.",
+      "a": "yes",
+      "about": "dew"
+     },
+     {
+      "text": "Dew is a kind of gas.",
+      "a": "no",
+      "about": "dew"
+     }
+    ],
+    "insert": [
+     "breeze",
+     "blizzard",
+     "fog",
+     "hail",
+     "lake",
+     "ocean",
+     "mist",
+     "ice",
+     "sleet",
+     "sun",
+     "drizzle",
+     "pond",
+     "puddle",
+     "cold",
+     "evening"
+    ]
+   },
+   {
+    "id": "bones",
+    "title": "Bones and Muscles",
+    "paras": [
+     "A grown-up's body usually has 206 bones. Together they make the skeleton. It holds the body up and protects the soft parts inside. Your ribs are curved bones that protect your heart and lungs.",
+     "A joint is a place where two bones meet, like your knee or elbow. Smooth cartilage covers the ends of the bones so they can move easily. Bones cannot move on their own. A muscle pulls on a bone to move it. A muscle is joined to a bone by a strong cord called a tendon."
+    ],
+    "bold": [
+     {
+      "w": "skeleton",
+      "form": "skeleton",
+      "meaning": "all the bones of the body",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       64,
+       72
+      ]
+     },
+     {
+      "w": "ribs",
+      "form": "ribs",
+      "meaning": "curved bones that protect the heart and lungs",
+      "ctx": "bones around the lungs",
+      "p": 0,
+      "at": [
+       136,
+       140
+      ]
+     },
+     {
+      "w": "joint",
+      "form": "joint",
+      "meaning": "a place where two bones meet",
+      "ctx": "where two bones meet",
+      "p": 1,
+      "at": [
+       2,
+       7
+      ]
+     },
+     {
+      "w": "cartilage",
+      "form": "cartilage",
+      "meaning": "smooth, bendy tissue that covers the ends of bones",
+      "ctx": "smooth covering on the ends of bones",
+      "p": 1,
+      "at": [
+       73,
+       82
+      ]
+     },
+     {
+      "w": "muscle",
+      "form": "muscle",
+      "meaning": "a body part that pulls on bones to make them move",
+      "ctx": "a body part that pulls on a bone",
+      "p": 1,
+      "at": [
+       171,
+       177
+      ]
+     },
+     {
+      "w": "tendon",
+      "form": "tendon",
+      "meaning": "a strong cord that joins a muscle to a bone",
+      "ctx": "a cord from muscle to bone",
+      "p": 1,
+      "at": [
+       261,
+       267
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "marrow",
+      "meaning": "the soft part inside some bones"
+     },
+     {
+      "w": "skull",
+      "meaning": "the bones of the head"
+     }
+    ],
+    "statements": [
+     {
+      "text": "A tendon joins a muscle to a bone.",
+      "a": "yes",
+      "about": "tendon"
+     },
+     {
+      "text": "A joint is where two bones meet.",
+      "a": "yes",
+      "about": "joint"
+     },
+     {
+      "text": "Ribs protect the lungs.",
+      "a": "yes",
+      "about": "ribs"
+     },
+     {
+      "text": "The skeleton is made of bones.",
+      "a": "yes",
+      "about": "skeleton"
+     },
+     {
+      "text": "Cartilage is a hard, curved bone.",
+      "a": "no",
+      "about": "cartilage"
+     },
+     {
+      "text": "A muscle pulls on bones.",
+      "a": "yes",
+      "about": "muscle"
+     },
+     {
+      "text": "A tendon is where two bones meet.",
+      "a": "no",
+      "about": "tendon"
+     },
+     {
+      "text": "The skeleton is one small bone.",
+      "a": "no",
+      "about": "skeleton"
+     },
+     {
+      "text": "Marrow is inside some bones.",
+      "a": "yes",
+      "about": "marrow"
+     },
+     {
+      "text": "The skull is made of bones.",
+      "a": "yes",
+      "about": "skull"
+     },
+     {
+      "text": "The skull is in your foot.",
+      "a": "no",
+      "about": "skull"
+     }
+    ],
+    "insert": [
+     "elbow",
+     "finger",
+     "hip",
+     "knee",
+     "leg",
+     "neck",
+     "nose",
+     "mouth",
+     "shoulder",
+     "spine",
+     "chest"
+    ]
+   },
+   {
+    "id": "fossils",
+    "title": "Fossils",
+    "paras": [
+     "A fossil is what is left of a plant or animal that lived long ago. Many fossils form in layers of sediment, such as mud and sand. Over a very long time, the layers press together and turn into rock. Sometimes a shell leaves an imprint, a shape pressed into the rock.",
+     "Tiny insects have been found trapped in amber, hardened tree sap. A paleontologist is a scientist who studies fossils. Fossils show us animals that are now extinct, such as the woolly mammoth. None of them are alive today."
+    ],
+    "bold": [
+     {
+      "w": "fossil",
+      "form": "fossil",
+      "meaning": "what is left of a plant or animal from long ago",
+      "ctx": "what is left from long ago",
+      "p": 0,
+      "at": [
+       2,
+       8
+      ]
+     },
+     {
+      "w": "sediment",
+      "form": "sediment",
+      "meaning": "mud, sand, and bits of rock that settle in layers",
+      "ctx": "mud and sand in layers",
+      "p": 0,
+      "at": [
+       98,
+       106
+      ]
+     },
+     {
+      "w": "imprint",
+      "form": "imprint",
+      "meaning": "a shape pressed into something",
+      "ctx": "a shape pressed into rock",
+      "p": 0,
+      "at": [
+       227,
+       234
+      ]
+     },
+     {
+      "w": "amber",
+      "form": "amber",
+      "meaning": "hardened tree sap",
+      "ctx": "hardened tree sap",
+      "p": 1,
+      "at": [
+       40,
+       45
+      ]
+     },
+     {
+      "w": "paleontologist",
+      "form": "paleontologist",
+      "meaning": "a scientist who studies fossils",
+      "ctx": "a fossil scientist",
+      "p": 1,
+      "at": [
+       68,
+       82
+      ]
+     },
+     {
+      "w": "extinct",
+      "form": "extinct",
+      "meaning": "no longer living anywhere on Earth",
+      "ctx": "not alive anymore",
+      "p": 1,
+      "at": [
+       156,
+       163
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "excavate",
+      "meaning": "to dig something out of the ground with care"
+     },
+     {
+      "w": "skeleton",
+      "meaning": "all the bones of an animal's body"
+     }
+    ],
+    "statements": [
+     {
+      "text": "A paleontologist studies fossils.",
+      "a": "yes",
+      "about": "paleontologist"
+     },
+     {
+      "text": "Amber is hardened tree sap.",
+      "a": "yes",
+      "about": "amber"
+     },
+     {
+      "text": "Sediment can be mud or sand.",
+      "a": "yes",
+      "about": "sediment"
+     },
+     {
+      "text": "An extinct animal is not alive anywhere.",
+      "a": "yes",
+      "about": "extinct"
+     },
+     {
+      "text": "An imprint is a scientist.",
+      "a": "no",
+      "about": "imprint"
+     },
+     {
+      "text": "Amber is a kind of mud.",
+      "a": "no",
+      "about": "amber"
+     },
+     {
+      "text": "A fossil is a plant that is alive today.",
+      "a": "no",
+      "about": "fossil"
+     },
+     {
+      "text": "Extinct animals live in zoos.",
+      "a": "no",
+      "about": "extinct"
+     },
+     {
+      "text": "To excavate is to dig with care.",
+      "a": "yes",
+      "about": "excavate"
+     },
+     {
+      "text": "A skeleton is made of bones.",
+      "a": "yes",
+      "about": "skeleton"
+     },
+     {
+      "text": "To excavate is to bury something.",
+      "a": "no",
+      "about": "excavate"
+     }
+    ],
+    "insert": [
+     "clay",
+     "dinosaur",
+     "hammer",
+     "giant",
+     "museum",
+     "jaw",
+     "leaf",
+     "nest",
+     "egg",
+     "shell",
+     "insect",
+     "pond"
+    ]
+   },
+   {
+    "id": "paper",
+    "title": "From Tree to Paper",
+    "paras": [
+     "The paper in your notebook began as a tree. A logger cuts down trees and sends the logs to a paper factory. There, machines peel off the bark. Then they cut the wood into small chips.",
+     "The chips are cooked with water until they become pulp, a wet, mushy mix. The pulp is spread out, pressed flat, and dried to make paper. When you recycle paper, it can be made into new paper again."
+    ],
+    "bold": [
+     {
+      "w": "logger",
+      "form": "logger",
+      "meaning": "a person whose job is cutting down trees",
+      "ctx": "a tree cutter",
+      "p": 0,
+      "at": [
+       46,
+       52
+      ]
+     },
+     {
+      "w": "factory",
+      "form": "factory",
+      "meaning": "a building where things are made by machines",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       99,
+       106
+      ]
+     },
+     {
+      "w": "bark",
+      "form": "bark",
+      "meaning": "the hard outside layer of a tree",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       137,
+       141
+      ]
+     },
+     {
+      "w": "chips",
+      "form": "chips",
+      "meaning": "small, thin pieces of wood",
+      "ctx": "small pieces of wood",
+      "p": 0,
+      "at": [
+       177,
+       182
+      ]
+     },
+     {
+      "w": "pulp",
+      "form": "pulp",
+      "meaning": "a wet, mushy mix of wood and water",
+      "ctx": "a wet, mushy mix",
+      "p": 1,
+      "at": [
+       50,
+       54
+      ]
+     },
+     {
+      "w": "recycle",
+      "form": "recycle",
+      "meaning": "to make used things into new things",
+      "ctx": "to make into new things",
+      "p": 1,
+      "at": [
+       146,
+       153
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "lumber",
+      "meaning": "boards cut from logs"
+     },
+     {
+      "w": "sawmill",
+      "meaning": "a place where logs are cut into boards"
+     }
+    ],
+    "statements": [
+     {
+      "text": "Pulp is wet and mushy.",
+      "a": "yes",
+      "about": "pulp"
+     },
+     {
+      "text": "A logger cuts down trees.",
+      "a": "yes",
+      "about": "logger"
+     },
+     {
+      "text": "Bark is the outside layer of a tree.",
+      "a": "yes",
+      "about": "bark"
+     },
+     {
+      "text": "Chips are small pieces of wood.",
+      "a": "yes",
+      "about": "chips"
+     },
+     {
+      "text": "Bark is a wet, mushy mix.",
+      "a": "no",
+      "about": "bark"
+     },
+     {
+      "text": "A factory is a kind of tree.",
+      "a": "no",
+      "about": "factory"
+     },
+     {
+      "text": "Chips are big, heavy logs.",
+      "a": "no",
+      "about": "chips"
+     },
+     {
+      "text": "To recycle is to throw something away forever.",
+      "a": "no",
+      "about": "recycle"
+     },
+     {
+      "text": "Lumber is boards cut from logs.",
+      "a": "yes",
+      "about": "lumber"
+     },
+     {
+      "text": "A sawmill cuts logs into boards.",
+      "a": "yes",
+      "about": "sawmill"
+     },
+     {
+      "text": "Lumber is a kind of glue.",
+      "a": "no",
+      "about": "lumber"
+     }
+    ],
+    "insert": [
+     "dry",
+     "eraser",
+     "glue",
+     "ink",
+     "knife",
+     "notebook",
+     "oak",
+     "napkin",
+     "box",
+     "leaf",
+     "paper",
+     "pine"
+    ]
+   },
+   {
+    "id": "moon",
+    "title": "Our Moon",
+    "paras": [
+     "The Moon is about one-fourth as wide as Earth. It travels in an orbit around Earth, a path it follows about once a month. As it moves, we see different shapes of its lit part. These shapes are called phases.",
+     "The Moon's gravity is weaker than Earth's, so things weigh less there. Its surface is covered with dust and round craters. In 1969, an astronaut named Neil Armstrong became the first person to walk there. His trip was the first lunar landing with people."
+    ],
+    "bold": [
+     {
+      "w": "orbit",
+      "form": "orbit",
+      "meaning": "the path one object follows around another",
+      "ctx": "a path around Earth",
+      "p": 0,
+      "at": [
+       64,
+       69
+      ]
+     },
+     {
+      "w": "phase",
+      "form": "phases",
+      "meaning": "the shape of the lit part of the Moon that we see",
+      "ctx": "shapes of the lit Moon",
+      "p": 0,
+      "at": [
+       200,
+       206
+      ]
+     },
+     {
+      "w": "gravity",
+      "form": "gravity",
+      "meaning": "a pull that draws things toward each other",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       11,
+       18
+      ]
+     },
+     {
+      "w": "crater",
+      "form": "craters",
+      "meaning": "a round hole made by a space rock that hit the ground",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       114,
+       121
+      ]
+     },
+     {
+      "w": "astronaut",
+      "form": "astronaut",
+      "meaning": "a person trained to travel in space",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       135,
+       144
+      ]
+     },
+     {
+      "w": "lunar",
+      "form": "lunar",
+      "meaning": "having to do with the Moon",
+      "ctx": null,
+      "p": 1,
+      "at": [
+       228,
+       233
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "atmosphere",
+      "meaning": "the air around a planet or a moon"
+     },
+     {
+      "w": "planet",
+      "meaning": "a large, round object that travels around a star"
+     }
+    ],
+    "statements": [
+     {
+      "text": "An astronaut travels in space.",
+      "a": "yes",
+      "about": "astronaut"
+     },
+     {
+      "text": "The word lunar has to do with the Moon.",
+      "a": "yes",
+      "about": "lunar"
+     },
+     {
+      "text": "An orbit is a path.",
+      "a": "yes",
+      "about": "orbit"
+     },
+     {
+      "text": "Gravity is a pull.",
+      "a": "yes",
+      "about": "gravity"
+     },
+     {
+      "text": "A crater is a path around Earth.",
+      "a": "no",
+      "about": "crater"
+     },
+     {
+      "text": "Gravity is a person trained to go to space.",
+      "a": "no",
+      "about": "gravity"
+     },
+     {
+      "text": "A phase is a hole in the ground.",
+      "a": "no",
+      "about": "phase"
+     },
+     {
+      "text": "The word lunar has to do with the Sun.",
+      "a": "no",
+      "about": "lunar"
+     },
+     {
+      "text": "A planet travels around a star.",
+      "a": "yes",
+      "about": "planet"
+     },
+     {
+      "text": "An atmosphere is the air around a planet or a moon.",
+      "a": "yes",
+      "about": "atmosphere"
+     },
+     {
+      "text": "A planet is tiny and flat.",
+      "a": "no",
+      "about": "planet"
+     }
+    ],
+    "insert": [
+     "bright",
+     "dust",
+     "footprint",
+     "eclipse",
+     "half",
+     "journey",
+     "heavy",
+     "kite",
+     "night",
+     "light",
+     "crust",
+     "oxygen"
+    ]
+   },
+   {
+    "id": "recycling",
+    "title": "Less Waste in Our Town",
+    "paras": [
+     "Our town wants to make less waste. Each home gets a blue bin for paper, cans, and bottles. When we recycle these things, they are made into new things. Some plastic can be recycled too.",
+     "Food scraps and leaves go in a compost pile, where they break down into rich soil. Everything else goes to the landfill, a place where trash is buried in the ground."
+    ],
+    "bold": [
+     {
+      "w": "waste",
+      "form": "waste",
+      "meaning": "things people throw away",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       28,
+       33
+      ]
+     },
+     {
+      "w": "bin",
+      "form": "bin",
+      "meaning": "a large container for holding things",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       57,
+       60
+      ]
+     },
+     {
+      "w": "recycle",
+      "form": "recycle",
+      "meaning": "to make used things into new things",
+      "ctx": "to make into new things",
+      "p": 0,
+      "at": [
+       99,
+       106
+      ]
+     },
+     {
+      "w": "plastic",
+      "form": "plastic",
+      "meaning": "a light, strong material made in factories",
+      "ctx": null,
+      "p": 0,
+      "at": [
+       157,
+       164
+      ]
+     },
+     {
+      "w": "compost",
+      "form": "compost",
+      "meaning": "a mix of rotting food and leaves that makes rich soil",
+      "ctx": "scraps that become soil",
+      "p": 1,
+      "at": [
+       31,
+       38
+      ]
+     },
+     {
+      "w": "landfill",
+      "form": "landfill",
+      "meaning": "a place where trash is buried",
+      "ctx": "where trash is buried",
+      "p": 1,
+      "at": [
+       111,
+       119
+      ]
+     }
+    ],
+    "extra": [
+     {
+      "w": "cardboard",
+      "meaning": "thick, stiff paper used to make boxes"
+     },
+     {
+      "w": "reuse",
+      "meaning": "to use something again"
+     }
+    ],
+    "statements": [
+     {
+      "text": "A landfill is where trash is buried.",
+      "a": "yes",
+      "about": "landfill"
+     },
+     {
+      "text": "Compost makes rich soil.",
+      "a": "yes",
+      "about": "compost"
+     },
+     {
+      "text": "A bin holds things.",
+      "a": "yes",
+      "about": "bin"
+     },
+     {
+      "text": "Waste is what people throw away.",
+      "a": "yes",
+      "about": "waste"
+     },
+     {
+      "text": "Compost is a place where trash is buried.",
+      "a": "no",
+      "about": "compost"
+     },
+     {
+      "text": "Plastic is heavy and weak.",
+      "a": "no",
+      "about": "plastic"
+     },
+     {
+      "text": "To recycle is to bury trash.",
+      "a": "no",
+      "about": "recycle"
+     },
+     {
+      "text": "A landfill is a blue bin.",
+      "a": "no",
+      "about": "landfill"
+     },
+     {
+      "text": "Cardboard is used to make boxes.",
+      "a": "yes",
+      "about": "cardboard"
+     },
+     {
+      "text": "To reuse is to use something again.",
+      "a": "yes",
+      "about": "reuse"
+     },
+     {
+      "text": "Cardboard is a kind of soil.",
+      "a": "no",
+      "about": "cardboard"
+     }
+    ],
+    "insert": [
+     "glass",
+     "garden",
+     "jar",
+     "metal",
+     "newspaper",
+     "napkin",
+     "truck",
+     "tin",
+     "can",
+     "rubber",
+     "lid"
+    ]
+   }
+  ]
+ }
+}

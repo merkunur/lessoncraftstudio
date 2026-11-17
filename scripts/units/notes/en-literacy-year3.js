@@ -21,6 +21,8 @@
  * the reviewer of the pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Opinion Writing (G3-548 to G3-555) were added by place-ready-ff.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Narrative Writing (G3-564 to G3-571) were added by place-ready-hh.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -276,6 +278,42 @@ module.exports = {
         mistake: 'Children cross out a sentence they do not like instead of the one that does not belong, or change words that are right.',
         words: 'Model first: "Revise: add a reason, an example, a conclusion. Edit: capitals, end marks, commas, spelling." Say: "Writers read their work again. They fix what is wrong and make it better." Day 1, Edit an Opinion Paragraph: the box names each kind of mistake, how to fix it, and how many there are (four on Level 1; Level 2 adds a missing comma after For example; Level 3 a word-wall word spelled wrong). Then children write each sentence they fixed. Day 2, Revise Your Opinion Piece: two worked examples (one content change, one mark fix), a checklist for the child and a partner, a partner\'s comment, and one sentence to add (Level 3: one change the child made). Children need their draft and its conclusion from the lessons before.',
         watch: 'Each mistake has one fix. Where the blank takes since, accept because too (and the other way round). With no word wall, use the class spelling list. The sentence that does not belong is about something else (My pencil is green.).',
+      },
+    },
+    '3:plan-a-story': {
+      title: 'Plan a story: characters, setting, problem',
+      objective: 'Children establish a situation and introduce a narrator or characters, and plan an event sequence that unfolds naturally to an ending.',
+      note: {
+        mistake: 'Children plan events that have nothing to do with the problem, or an ending that does not solve it. In a story told by "I" they leave the narrator out of the characters.',
+        words: 'Model first: read a story beginning aloud, then plan one idea aloud on the board. Say: "The beginning of a story tells who is in it, where and when it happens, and what goes wrong." Day 1, The Parts of a Story: children read a story beginning and answer who, where and when, and what goes wrong. Level 1 has three questions with three answers to circle; Level 2 adds "Who tells the story?", and some stories are told by a character who says I; on Level 3 children write all four answers. Day 2, Plan Your Story: children circle one story idea and write short notes for the characters, setting, problem, three events, and ending, with an example from another idea beside each part. Level 1 gives a starter for every part, Level 2 for the events and the ending, Level 3 a word bank. Children keep the plan for the time-words lesson.',
+        watch: 'Each wrong answer names a person, a place, a time, or a trouble that is not in the story: send a child back to the text. Words inside quotation marks are a character talking: an I there does not make that character the narrator. In a plan, check that each event leads to the next one and that the ending solves the problem.',
+      },
+    },
+    '3:dialogue-and-description': {
+      title: 'Dialogue and description',
+      objective: 'Children use dialogue with quotation marks and descriptions of actions, thoughts, and feelings to show how characters respond to events.',
+      note: {
+        mistake: 'Children put quotation marks around the whole sentence or the comma outside the closing mark. Many tell a feeling instead of showing it.',
+        words: 'Model first: write "We won," said Kim. on the board and circle the exact words; then turn Nell was cold into what Nell does. Children need their story plan. Say: "Quotation marks go around the exact words a character says. The comma, question mark, or exclamation point goes inside the closing mark." Day 1, Quotation Marks in Dialogue: three speech bubbles, each with three sentences to circle, then two lines to write with their marks. On Level 1 the choices say the bubble\'s words in different ways; on Levels 2 and 3 only the marks differ, and Level 3 puts the speaker first in some lines. Day 2, Show Feelings in a Story: Level 1 circles the sentence that shows a feeling and writes dialogue on frames; Level 2 rewrites two telling sentences with an action and uses a said-word from a box; Level 3 rewrites one with an action and a thought. Said is fine in dialogue; in revising we change it when a more exact word fits.',
+        watch: 'Ask: "Which words did the character say out loud?" The marks go around just those words. A question keeps its question mark, and then there is no comma. A thought may also go in quotation marks: He thought, "What is that?" When a child writes "she felt sad," ask what she did.',
+      },
+    },
+    '3:time-words-in-stories': {
+      title: 'Time words that order the events',
+      objective: 'Children use temporal words and phrases (later that day, after a while, finally) to signal the order of events and write a sense of closure.',
+      note: {
+        mistake: 'Children start every sentence with then or and then. Some use finally for an event in the middle, or jump back in time (the night before) in a story told in order.',
+        words: 'Model first: read a short story aloud, underline its time words, and tell its events again in order; then write one event of your own plan with a time word. Children need their story plan and their lines of dialogue. Say: "Time words tell when things happen and help a reader follow the order." Day 1, Time Words in a Story: children number the events of a short story from their time words (Level 1 four, Level 2 five, Level 3 six); the time words give one order. Then they circle the time word that fits a blank in tiny stories. Day 2, Write with Time Words: children read an example story and write their own under the headings beginning, middle, and ending, with two lines for each event, one line of dialogue, and one sentence that shows a feeling. Level 1 starts the story with One day, and each event with a time word; Level 2 gives a row of time words; Level 3 a word bank.',
+        watch: 'To number events, have children find the first and the last event first. Read a draft aloud and listen for and then in every sentence. An ending tells how the problem is solved, not just The end.',
+      },
+    },
+    '3:words-for-effect': {
+      title: 'Revise for words that work',
+      objective: 'Children revise their story by choosing words and phrases for effect, replacing weak words (went, said, nice) with exact ones.',
+      note: {
+        mistake: 'Children pick the fanciest word, not the one that fits (stared at the clock for just a second). Some change the meaning when they change a word.',
+        words: 'Model first: read The dog went to its bowl aloud, try raced, crept, and wandered in its place, and say which one paints the picture you mean. Children need the story draft they wrote in the time-words lesson. Say: "Said, went, looked, nice, big, and good are tired words. A more exact word paints a clearer picture." Day 1, Choose a More Exact Word: four sentences with an underlined tired word and three words to circle; exactly one fits. On Level 1 the wrong words are of another kind; on Level 2 one wrong word is of the same group, but a clue in the sentence rules it out; on Level 3 both are. Then children circle the sentence that paints a clearer picture and write why. Day 2, Revise for Words That Work: a story with eight tired words and a box of more exact words for each. Level 1 underlines four and offers two words for each; Level 2 underlines all eight; on Level 3 children find them. Last, they circle three tired words in their own draft and write the sentences again.',
+        watch: 'Ask: "Which words in the sentence help you choose?" On Day 2 more than one word of the box can fit; the key names them all. Only the six words in the box count as tired words. A new word must keep the meaning of the sentence.',
       },
     },
   },

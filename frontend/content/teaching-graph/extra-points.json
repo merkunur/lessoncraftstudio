@@ -841,6 +841,34 @@
    "strand": "Writing",
    "code": "W.3.5",
    "skill": "With a checklist and a partner, revise an opinion piece (add a reason or an example, take out what does not belong) and edit it for capitals, end marks and commas"
+  },
+  {
+   "tp": "3:plan-a-story",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.3.a",
+   "skill": "Find the characters, the setting, the problem and the narrator of a story beginning, and plan a story of one's own with characters, a setting, a problem, three events and an ending"
+  },
+  {
+   "tp": "3:dialogue-and-description",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.3.b",
+   "skill": "Write dialogue with quotation marks, commas and end marks, and show what a character feels with an action, a thought or the way the character speaks"
+  },
+  {
+   "tp": "3:time-words-in-stories",
+   "grade": "3",
+   "strand": "Writing",
+   "code": "W.3.3.c",
+   "skill": "Use time words and phrases (first, next, after that, later that day, finally) to put the events of a story in order, and draft a story with a beginning, three events and an ending"
+  },
+  {
+   "tp": "3:words-for-effect",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.3.a",
+   "skill": "Choose a more exact word for a tired word (said, went, nice, big, good, looked) by what the sentence tells, and revise a paragraph and sentences of one's own for word choice"
   }
  ]
 }

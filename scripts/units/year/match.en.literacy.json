@@ -1172,7 +1172,7 @@
     },
     {
       "key": "en-3-126",
-      "fit": "exact",
+      "fit": "close",
       "types": [
         "G1-506"
       ],

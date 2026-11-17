@@ -3954,6 +3954,47 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g3-narrative-writing",
+   "slug": "narrative-writing-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Narrative Writing",
+   "metaTitle": "Narrative Writing: Grade 3 Writing Lesson Plans",
+   "metaDescription": "A Grade 3 narrative writing unit: plan a story, write dialogue with quotation marks, show feelings, order events with time words, and revise tired words.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:plan-a-story",
+     "types": [
+      "G3-564",
+      "G3-565"
+     ]
+    },
+    {
+     "point": "3:dialogue-and-description",
+     "types": [
+      "G3-566",
+      "G3-567"
+     ]
+    },
+    {
+     "point": "3:time-words-in-stories",
+     "types": [
+      "G3-568",
+      "G3-569"
+     ]
+    },
+    {
+     "point": "3:words-for-effect",
+     "types": [
+      "G3-570",
+      "G3-571"
+     ]
+    }
+   ]
   }
  ],
  "plans": [
@@ -4106,7 +4147,8 @@
     "g3-reading-to-learn-informational-texts",
     "g3-opinion-writing",
     "g3-parts-of-speech",
-    "g3-sentences-and-conventions"
+    "g3-sentences-and-conventions",
+    "g3-narrative-writing"
    ]
   }
  ]

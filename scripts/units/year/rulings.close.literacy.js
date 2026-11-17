@@ -125,9 +125,10 @@ module.exports = {
     '3-123': N('G3-525', 'built: Comparing Words, Choose the Right Form (-er or -est, more or most, the irregular forms, by the sentence); with G3-524 Better, Best: three animals to compare and a table of forms'),
     '3-124': N('G3-526', 'built: Possessive Nouns, One Owner or More (the possessive to write and to choose); with G3-527 Add the Apostrophe: Fix the Possessives'),
     '3-125': N('G3-529', 'built: Find the Capitals in Titles (the words of a title that need a capital to circle); with G3-528 Capitals in Titles (titles to write with their capitals)'),
-    '3-127': C('a \'bubble to quoted sentence\' level'),
-    '3-128': C('No 16-line draft under event headings, no grade-3 time phrases (later that day, after a while), no ending box, no checklist'),
-    '3-129': C('a revise-the-paragraph page over the same banks'),
+    '3-126': N('G3-564', 'built: The Parts of a Story (the characters, the setting, the problem and the narrator of a story beginning); with G3-565 Plan Your Story (a story mountain and a planner); the older story map G1-506 is not used'),
+    '3-127': N('G3-566', 'built: Quotation Marks in Dialogue (the sentence written the right way for a speech bubble; lines to punctuate); with G3-567 Show Feelings in a Story (showing instead of telling, dialogue with said-words)'),
+    '3-128': N('G3-568', 'built: Time Words in a Story (events to number by their time words; the time word that fits a tiny story); with G3-569 Write with Time Words (the draft under Beginning, Middle and Ending)'),
+    '3-129': N('G3-570', 'built: Choose a More Exact Word (the one word that fits the sentence; the clearer sentence and why); with G3-571 Revise for Words That Work (a paragraph with tired words, sentences of the own)'),
     '3-134': C('No two 200-word information texts on one topic, no two-circle diagram to fill, no comparing sentences'),
   },
 };

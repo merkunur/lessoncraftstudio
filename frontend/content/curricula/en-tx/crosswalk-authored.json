@@ -5605,6 +5605,70 @@
    ],
    "why": "Crossing out the sentence that does not belong, adding a sentence with a linking word after a partner's comment and fixing capitals, end marks and commas is «revise drafts ... by adding, deleting, combining, and rearranging ideas for coherence and clarity»; the edit rows of 3.11.D name other conventions (verb tense, nouns, adjectives) and are not claimed.",
    "review": "year-design 2026-11-17"
+  },
+  "3:plan-a-story": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.3.10.E",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling the story planner beside a story mountain is «plan a first draft ... using a range of strategies such as ... mapping»; naming the problem of a story beginning and planning events and an ending prepares «analyze plot elements, including the sequence of events, the conflict, and the resolution»; telling a narrator who says I from one who is not in the story prepares «first- or third-person point of view»; the plan prepares the story of «compose literary texts, including personal narratives».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:dialogue-and-description": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing what characters say with quotation marks and showing a feeling with an action or a thought instead of naming it is the craft of «compose literary texts ... using genre characteristics and craft» and is «developing an engaging idea with relevant details»; the Grade 3 edit rows of 3.11.D do not name quotation marks, so none is claimed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:time-words-in-stories": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Drafting the planned story is «compose literary texts, including personal narratives»; writing it under Beginning, Middle and Ending with an ending that solves the problem is «organizing with purposeful structure, including an introduction and a conclusion»; choosing first, next, later that day and finally for the order of events prepares «adverbs that convey time».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:words-for-effect": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Replacing tired words with exact ones in a paragraph and in the child's own sentences is «revise drafts to improve sentence structure and word choice».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -3833,6 +3833,46 @@
    ],
    "by": "code"
   },
+  "3:plan-a-story": {
+   "rows": [
+    {
+     "id": "W.3.3.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:dialogue-and-description": {
+   "rows": [
+    {
+     "id": "W.3.3.b",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:time-words-in-stories": {
+   "rows": [
+    {
+     "id": "W.3.3.c",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:words-for-effect": {
+   "rows": [
+    {
+     "id": "L.3.3.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "K:human-body": {
    "rows": [
     {

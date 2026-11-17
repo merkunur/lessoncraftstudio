@@ -8611,6 +8611,92 @@
    "prerequisites": []
   },
   {
+   "id": "3:plan-a-story",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Find the characters, the setting, the problem and the narrator of a story beginning, and plan a story of one's own with characters, a setting, a problem, three events and an ending",
+   "code": "W.3.3.a",
+   "types": [
+    "G3-564",
+    "G3-565"
+   ],
+   "families": [
+    "reading-comprehension",
+    "story-sequencing"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 165,
+   "prerequisites": []
+  },
+  {
+   "id": "3:dialogue-and-description",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Write dialogue with quotation marks, commas and end marks, and show what a character feels with an action, a thought or the way the character speaks",
+   "code": "W.3.3.b",
+   "types": [
+    "G3-566",
+    "G3-567"
+   ],
+   "families": [
+    "capitals-punctuation",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 166,
+   "prerequisites": []
+  },
+  {
+   "id": "3:time-words-in-stories",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Use time words and phrases (first, next, after that, later that day, finally) to put the events of a story in order, and draft a story with a beginning, three events and an ending",
+   "code": "W.3.3.c",
+   "types": [
+    "G3-568",
+    "G3-569"
+   ],
+   "families": [
+    "story-sequencing"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 167,
+   "prerequisites": []
+  },
+  {
+   "id": "3:words-for-effect",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Choose a more exact word for a tired word (said, went, nice, big, good, looked) by what the sentence tells, and revise a paragraph and sentences of one's own for word choice",
+   "code": "L.3.3.a",
+   "types": [
+    "G3-570",
+    "G3-571"
+   ],
+   "families": [
+    "synonyms"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 168,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",

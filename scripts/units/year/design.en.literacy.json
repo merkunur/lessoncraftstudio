@@ -1561,7 +1561,8 @@
             "standard": "W.3.3.a",
             "days": 2,
             "source": "new",
-            "page": "Writing page (narrative): a planner with boxes for the characters, the setting, the problem, three events, and the ending, and a story-mountain picture beside it. A checklist at the bottom: I introduced the characters and setting. My events lead to the ending. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank."
+            "page": "Writing page (narrative): a planner with boxes for the characters, the setting, the problem, three events, and the ending, and a story-mountain picture beside it. A checklist at the bottom: I introduced the characters and setting. My events lead to the ending. Level 1: sentence frames in every box; level 2: starters only; level 3: open boxes and a word bank.",
+            "placed": "3:plan-a-story"
           },
           {
             "new": true,
@@ -1570,7 +1571,8 @@
             "standard": "W.3.3.b",
             "days": 2,
             "source": "new",
-            "page": "Writing page (narrative): a comic strip of four panels with speech bubbles that the child turns into story sentences with quotation marks and commas; then six lines to add dialogue and one feeling to their own draft. Level 1: the speech is given, the child punctuates it; level 2: the child writes the dialogue; level 3: the child adds an action and a thought to each line of dialogue."
+            "page": "Writing page (narrative): a comic strip of four panels with speech bubbles that the child turns into story sentences with quotation marks and commas; then six lines to add dialogue and one feeling to their own draft. Level 1: the speech is given, the child punctuates it; level 2: the child writes the dialogue; level 3: the child adds an action and a thought to each line of dialogue.",
+            "placed": "3:dialogue-and-description"
           },
           {
             "new": true,
@@ -1579,7 +1581,8 @@
             "standard": "W.3.3.c",
             "days": 2,
             "source": "new",
-            "page": "Writing page (narrative): a draft page with sixteen writing lines under the planner's event headings, with time words in the margin (at first, later that day, after a while, finally) and an ending box. A checklist at the bottom: I used time words. My events are in order. My ending closes the story. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (narrative): a draft page with sixteen writing lines under the planner's event headings, with time words in the margin (at first, later that day, after a while, finally) and an ending box. A checklist at the bottom: I used time words. My events are in order. My ending closes the story. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "3:time-words-in-stories"
           },
           {
             "new": true,
@@ -1588,7 +1591,8 @@
             "standard": "L.3.3.a",
             "days": 2,
             "source": "new",
-            "page": "Revise page: a sample story paragraph of eight sentences with eight weak words underlined; the child replaces each with a stronger word from a word field box (words for went, said, looked, nice) and then marks three words to change in their own draft. Level 1: four underlined words with choices; level 2: eight words with the word box; level 3: the child finds the weak words themselves."
+            "page": "Revise page: a sample story paragraph of eight sentences with eight weak words underlined; the child replaces each with a stronger word from a word field box (words for went, said, looked, nice) and then marks three words to change in their own draft. Level 1: four underlined words with choices; level 2: eight words with the word box; level 3: the child finds the weak words themselves.",
+            "placed": "3:words-for-effect"
           }
         ]
       },

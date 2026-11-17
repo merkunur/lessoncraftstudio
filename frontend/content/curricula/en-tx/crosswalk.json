@@ -4656,6 +4656,76 @@
    ],
    "by": "authored"
   },
+  "3:plan-a-story": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.8.C",
+     "rel": "prepares",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.10.E",
+     "rel": "prepares",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:dialogue-and-description": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.ii",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:time-words-in-stories": {
+   "rows": [
+    {
+     "id": "ELAR.3.12.A",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.B.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:words-for-effect": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.C",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

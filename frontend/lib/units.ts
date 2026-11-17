@@ -37,6 +37,8 @@ export interface UnitLesson {
   note: { mistake: string; words: string; watch: string };
   /** the class days the lesson carries by what it holds: 2, or 3 where it has a tool, levels and a maker (scripts/units/pacing.js) */
   days?: number;
+  /** 3 where the unit definition says the lesson's pages take three days (a piece of writing drafted over two days) */
+  writeDays?: number;
 }
 export interface Unit {
   id: string;

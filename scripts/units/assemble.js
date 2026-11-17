@@ -247,6 +247,11 @@ function assemble(loc, opt = {}) {
       if (exit) lesson.exit = exit;
       if (maker) lesson.maker = maker;
       lesson.note = { mistake: tx.note.mistake, words: tx.note.words, watch: tx.note.watch };
+      // a writing lesson whose pages take three class days says so in its definition (pacing.js)
+      if (L.days != null) {
+        if (L.days !== 3 || paper.length < 2 || String(d.grade) === 'K' || String(d.grade) === 'P') bad(lw + ': a definition may claim only a third day, from Grade 1 on, for a lesson with two page types');
+        else lesson.writeDays = 3;
+      }
       // the class days this lesson carries, by what it holds (scripts/units/pacing.js, Part 4.8)
       lesson.days = lessonDays(d.grade, lesson);
       lessons.push(lesson);

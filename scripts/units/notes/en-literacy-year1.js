@@ -21,6 +21,8 @@
  * the reviewer of the pages read them (2026-11-18, every finding applied).
  * The two notes on words by category and on the endings -s, -ed, -ing (G1-608 to G1-611) were added by
  * place-ready-bb.en.literacy.js; the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Writing: Stories, Opinions, and Facts (G1-616 to G1-623) were added by place-ready-kk.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -249,6 +251,42 @@ module.exports = {
         mistake: 'Children read jumped as "jump-ed" or skip the ending; on Level 3 they keep the silent e (bakeing) or forget to double (naping).',
         words: 'Say: "An ending changes a word: help, helps, helped, helping. The base word is still there. On Level 3 it may double its last letter (hopping) or drop its silent e (baking)." Day 1, on screen first: in Build Words with Endings — Reading -s, -ed, and -ing children tap where the base word ends and pick the ending a sentence needs. Then the page: children circle the base word in six words and write base words with -s, -ed, and -ing in a table. Level 1 starts with a row done in grey; Level 2 adds -es (dress, dresses) and one word with no ending to cross out; Level 3 has two such words, a word that doubles its last letter, and one that drops its silent e. Day 2, Levels 1 and 2: children circle the word that fits each sentence, then add an ending to a base word in a box. Level 3: they finish Yesterday I, Now I am, and I can see two with a word from a box.',
         watch: 'A box on the day 2 page names the clue words. The -ed says /t/ in jumped, /d/ in played, /id/ in rested. The pages use only words that add -ed (never ran or went). If a child writes went or ran, it is good English; ask for a word that adds -ed.',
+      },
+    },
+    '1:true-story-plan-and-draft': {
+      title: 'Write a true story: plan and draft',
+      objective: 'Children plan a true story in three parts (first, next, last) and an ending, then draft it in sentences that start with time words and close with how it ended.',
+      note: {
+        mistake: 'Children tell one event, or list events with no order and no ending. Some start every sentence with And then, or stop after Last.',
+        words: 'Model first: tell a short true story of your own (feeding the class fish) and sketch it in three boxes. Say: "A true story tells what happened first, next, and last, and how it ended." Day 1, Plan a True Story: read the story with the class; children circle the time words (on Levels 2 and 3 some stories say Then or After that for Next) and number three sentences from it 1, 2, 3. Levels 2 and 3 also underline the ending; on Level 3 one sentence is not in the story and gets an X. Each child circles one of two ideas or My own idea, draws in the boxes (three on Level 1, four on Levels 2 and 3), and writes a few words beside each; Level 1 gives feeling words for the end. Days 2 and 3, Write a True Story: children write from their plan. Level 1 starts the sentences with First, I / Next, I / Last, I / I felt; Level 2 with First, / Next, / Last, / At the end,; Level 3 has open rows and a word bank. Read the model (another day) first; children check the boxes at the end.',
+        watch: 'Children retell in order from Kindergarten. Keep each plan for days 2 and 3. The day 1 story is never one of the ideas. Accept Then or After that for Next, and a feeling or what happened at the end as the ending.',
+      },
+    },
+    '1:opinion-and-reason': {
+      title: 'My opinion and a reason',
+      objective: 'Children tell an opinion from a reason, match each opinion with the reason that supports it, and write a piece: the topic, an opinion with because and a reason, and an ending.',
+      note: {
+        mistake: 'Children give a reason that fits any opinion (it is fun), or leave out because. Some write I like tag. Help them say what they think: I think tag is the best game.',
+        words: 'Model first: write I think pancakes are the best breakfast because they are warm and sweet. Circle because and underline the reason. Say: "An opinion tells what you think. A reason tells why you think so." Day 1, Opinion or Reason?: on Levels 1 and 2 read the sort sentences aloud once; children check opinion or reason for each, draw a line from each opinion to its reason, and circle because (Levels 2 and 3 also underline the reason). Read the opinions and the reasons aloud once; then children test each reason by saying the opinion, because, and the reason. On Level 3 one reason fits no opinion: children cross it out. Day 2, Write My Opinion: each child circles a question, draws the answer, and writes the topic, the opinion with because, and an ending. Level 1 gives frames, Level 2 starters, Level 3 open rows and a word bank. On Levels 1 and 2 the model beside the drawing answers another question. Post the titles of the books the class read so children can spell them.',
+        watch: 'From the lesson before: sentences with an end mark. The ending says the opinion again in new words. Accept any reason that tells why.',
+      },
+    },
+    '1:all-about-a-topic': {
+      title: 'All about a topic: facts and a closing',
+      objective: 'Children name a topic, tell sentences about the topic from sentences that are not about it, choose a closing sentence, and write an All About page: the topic, three facts, and a closing.',
+      note: {
+        mistake: 'Children add a sentence about something else (a pond on a page about ducks), or end with one more fact instead of a closing. Some write an opinion, such as Ducks are cute, as a fact.',
+        words: 'Model first: say three facts about pumpkins (Pumpkins grow on vines. Pumpkins have seeds. Pumpkins can be orange.) and close: Now you know about pumpkins! Say: "A fact tells something true about the topic. A closing sentence ends the piece." Day 1, Facts and a Closing: read the fact file together; children write its topic, put a check under yes or no for each sentence (is it about the topic?), and circle the closing. On Level 3 one sentence is about a thing near the topic, such as a pond, and is not about it. Day 2, Write an All About Page: Level 1 uses the fact box and frames such as Cows eat; on Level 2 the fact box gives the notes without their verbs, and children choose can, have, are, eat, or live; on Level 3 children choose a topic they know, such as rain or my school, and write on open rows with one to spare. Each child draws the topic and writes two labels, then checks the boxes. On Levels 1 and 2 the model is about another topic.',
+        watch: 'From the lessons before: capitals and end marks. Every fact on day 1 names its topic. On Level 3 accept any true fact; each one should name the topic.',
+      },
+    },
+    '1:revise-and-edit-checklist': {
+      title: 'Revise and edit with a checklist',
+      objective: 'Children fix capitals and end marks in a short piece, add a detail a partner asked about, and check their own piece with a checklist and a partner.',
+      note: {
+        mistake: 'Children fix only the first mistake they see, or add a detail that does not answer the question. Some copy the whole piece again instead of fixing it.',
+        words: 'Model first: write we went on a walk, fix it aloud, then ask a child a question about your sentence and add the answer. Say: "Writers read their work again. They fix capitals and end marks, and they add details." Day 1, Edit and Add a Detail: the box says how many mistakes the story has (Level 1: two, a small letter at the start and a missing end mark; Level 2: three, with a small i; Level 3: four, with a name that starts with a small letter). Children fix them on the story, read the question the writer\'s partner asked about the starred sentence, and write it again with a detail. Day 2, Revise with a Checklist: each child needs a draft from this unit (the true story, the opinion, or the All About page). The partner asks one question; the child circles it (or writes it after Other), adds the detail to the draft with a caret (^), and writes it on the page. Then the child checks the draft in the Me boxes and the partner checks it too; Level 3 also writes what the partner liked.',
+        watch: 'The day 1 story has no other mistake; where a missing end mark could also be !, the key says so. Accept any detail that answers the question. The partner asks one question, not a list.',
       },
     },
   },

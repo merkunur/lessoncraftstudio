@@ -2936,6 +2936,46 @@
    ],
    "by": "code"
   },
+  "1:true-story-plan-and-draft": {
+   "rows": [
+    {
+     "id": "W.1.3",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:opinion-and-reason": {
+   "rows": [
+    {
+     "id": "W.1.1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:all-about-a-topic": {
+   "rows": [
+    {
+     "id": "W.1.2",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:revise-and-edit-checklist": {
+   "rows": [
+    {
+     "id": "W.1.5",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:shades-of-meaning": {
    "rows": [
     {

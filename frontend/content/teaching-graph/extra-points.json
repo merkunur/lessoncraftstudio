@@ -963,6 +963,34 @@
    "strand": "Reading: Informational Text",
    "code": "RI.3.9",
    "skill": "Compare and contrast the most important points and key details of two texts on the same topic"
+  },
+  {
+   "tp": "1:true-story-plan-and-draft",
+   "grade": "1",
+   "strand": "Writing",
+   "code": "W.1.3",
+   "skill": "Plan a true story in three boxes (first, next, last) and write it with time words and an ending"
+  },
+  {
+   "tp": "1:opinion-and-reason",
+   "grade": "1",
+   "strand": "Writing",
+   "code": "W.1.1",
+   "skill": "Tell an opinion from its reason, and write an opinion piece that names the topic, states an opinion with because and a reason, and ends"
+  },
+  {
+   "tp": "1:all-about-a-topic",
+   "grade": "1",
+   "strand": "Writing",
+   "code": "W.1.2",
+   "skill": "Name a topic, write facts about it and no other, and add a closing sentence"
+  },
+  {
+   "tp": "1:revise-and-edit-checklist",
+   "grade": "1",
+   "strand": "Writing",
+   "code": "W.1.5",
+   "skill": "Fix capitals and end marks in a piece, and add a detail to one's own writing after a partner's question"
   }
  ]
 }

@@ -3416,6 +3416,76 @@
    ],
    "by": "authored"
   },
+  "1:true-story-plan-and-draft": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.A",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.12.A",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.B.i",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:opinion-and-reason": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.B.ii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.B.i",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:all-about-a-topic": {
+   "rows": [
+    {
+     "id": "ELAR.1.12.B",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.B.ii",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:revise-and-edit-checklist": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.C",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.11.D.ix",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:shades-of-meaning": {
    "rows": [
     {

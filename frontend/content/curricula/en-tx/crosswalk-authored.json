@@ -5879,6 +5879,70 @@
    ],
    "why": "Sorting facts as given by Text 1, by Text 2 or by both and writing how the two texts are alike and different is «synthesize information to create new understanding»; choosing each text's most important point apart from its key details is «the central idea with supporting evidence».",
    "review": "year-design 2026-11-17"
+  },
+  "1:true-story-plan-and-draft": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.B.i",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing and noting the three events in the First, Next and Last boxes is «plan a first draft by generating ideas for writing such as by drawing»; writing the true story is «dictate or compose literary texts, including personal narratives»; putting the events in order with First, Next and Last and an ending is «organizing with structure».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:opinion-and-reason": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.B.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.B.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Giving the reason that tells why (matched to its opinion, then written after because) is «developing an idea with specific and relevant details»; writing the topic, the opinion and an ending in order prepares «organizing with structure». The Grade 1 TEKS name no opinion piece of its own (1.12 names literary texts, informational texts and correspondence).",
+   "review": "year-design 2026-11-17"
+  },
+  "1:all-about-a-topic": {
+   "rows": [
+    {
+     "id": "ELAR.1.12.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing an All About page with a topic, facts and a closing is «dictate or compose informational texts»; choosing the sentences that are about the topic and writing three facts about it is «developing an idea with specific and relevant details».",
+   "review": "year-design 2026-11-17"
+  },
+  "1:revise-and-edit-checklist": {
+   "rows": [
+    {
+     "id": "ELAR.1.11.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.viii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.11.D.ix",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the star sentence again with the detail a partner asked about, and adding that detail to the own draft, is «revise drafts by adding details in pictures or words»; fixing a small letter at the start of a sentence and a small i is «capitalization for the beginning of sentences and the pronoun \"I\"»; adding the missing end mark is «punctuation marks at the end of declarative, exclamatory, and interrogative sentences».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

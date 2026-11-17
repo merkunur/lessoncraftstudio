@@ -9,6 +9,11 @@
  *     the worksheet maker; a harder page for the rest), only when it holds the material for it: a classroom tool,
  *     the page at more than one level, a check-up page (the day acts on it) and a worksheet maker;
  *   - a Kindergarten lesson is two days (its second day is hands-on, at stations);
+ *   - a WRITING lesson whose pages take three days carries three (2026-11-17): the year design gives a draft two
+ *     sittings (plan or read on day 1, draft on days 2 and 3), and the teacher who read the pages wrote her notes
+ *     to those days. Such a lesson says so in its unit definition ("days": 3); assemble.js accepts it only from
+ *     Grade 1 on and only with two page types, and marks the lesson writeDays: 3. Its third day is the rest of the
+ *     piece of writing, not a reteach day;
  *   - a unit ends with three days: review, the unit check, and a day to act on the check.
  * A unit's weeks are its days divided by the sessions a class has in a week, said as a whole number ("about N
  * weeks"): five, except mathematics in the Swedish förskoleklass, which has no timetable by subject and does
@@ -21,6 +26,7 @@ const UNIT_END_DAYS = 3;
 function lessonDays(grade, lesson) {
   if (String(grade) === 'K' || String(grade) === 'P') return 2;
   const levels = (lesson.paper || []).some((p) => p.easy || p.hard);
+  if (lesson.writeDays === 3) return 3;
   return lesson.tool && levels && lesson.exit && lesson.maker ? 3 : 2;
 }
 const unitDays = (grade, lessons) => lessons.reduce((n, l) => n + lessonDays(grade, l), 0) + UNIT_END_DAYS;

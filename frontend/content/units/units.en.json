@@ -14916,6 +14916,181 @@
    ]
   },
   {
+   "id": "g1-writing-stories-opinions-and-facts",
+   "slug": "writing-stories-opinions-and-facts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Writing: Stories, Opinions, and Facts",
+   "metaTitle": "Grade 1 Writing: True Stories, Opinions, and Facts",
+   "metaDescription": "Grade 1 writing lessons: plan and draft a true story with time words, write an opinion with a reason, write an All About page, and revise with a checklist.",
+   "days": 12,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "1:true-story-plan-and-draft",
+     "title": "Write a true story: plan and draft",
+     "objective": "Children plan a true story in three parts (first, next, last) and an ending, then draft it in sentences that start with time words and close with how it ended.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.1.3",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-616",
+       "title": "Plan a True Story",
+       "core": "story-sequencing-g1616",
+       "easy": "story-sequencing-easy-g1616-6",
+       "hard": "story-sequencing-hard-g1616-11"
+      },
+      {
+       "type": "G1-617",
+       "title": "Write a True Story",
+       "core": "sentence-building-g1617",
+       "easy": "sentence-building-easy-g1617-6",
+       "hard": "sentence-building-hard-g1617-11"
+      }
+     ],
+     "exit": {
+      "slug": "story-sequencing-g1616-2",
+      "title": "Plan a True Story"
+     },
+     "note": {
+      "mistake": "Children tell one event, or list events with no order and no ending. Some start every sentence with And then, or stop after Last.",
+      "words": "Model first: tell a short true story of your own (feeding the class fish) and sketch it in three boxes. Say: \"A true story tells what happened first, next, and last, and how it ended.\" Day 1, Plan a True Story: read the story with the class; children circle the time words (on Levels 2 and 3 some stories say Then or After that for Next) and number three sentences from it 1, 2, 3. Levels 2 and 3 also underline the ending; on Level 3 one sentence is not in the story and gets an X. Each child circles one of two ideas or My own idea, draws in the boxes (three on Level 1, four on Levels 2 and 3), and writes a few words beside each; Level 1 gives feeling words for the end. Days 2 and 3, Write a True Story: children write from their plan. Level 1 starts the sentences with First, I / Next, I / Last, I / I felt; Level 2 with First, / Next, / Last, / At the end,; Level 3 has open rows and a word bank. Read the model (another day) first; children check the boxes at the end.",
+      "watch": "Children retell in order from Kindergarten. Keep each plan for days 2 and 3. The day 1 story is never one of the ideas. Accept Then or After that for Next, and a feeling or what happened at the end as the ending."
+     },
+     "writeDays": 3,
+     "days": 3
+    },
+    {
+     "n": 2,
+     "point": "1:opinion-and-reason",
+     "title": "My opinion and a reason",
+     "objective": "Children tell an opinion from a reason, match each opinion with the reason that supports it, and write a piece: the topic, an opinion with because and a reason, and an ending.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.1.1",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-618",
+       "title": "Opinion or Reason?",
+       "core": "reading-comprehension-g1618",
+       "easy": "reading-comprehension-easy-g1618-6",
+       "hard": "reading-comprehension-hard-g1618-11"
+      },
+      {
+       "type": "G1-619",
+       "title": "Write My Opinion",
+       "core": "sentence-building-g1619",
+       "easy": "sentence-building-easy-g1619-6",
+       "hard": "sentence-building-hard-g1619-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g1618-2",
+      "title": "Opinion or Reason?"
+     },
+     "note": {
+      "mistake": "Children give a reason that fits any opinion (it is fun), or leave out because. Some write I like tag. Help them say what they think: I think tag is the best game.",
+      "words": "Model first: write I think pancakes are the best breakfast because they are warm and sweet. Circle because and underline the reason. Say: \"An opinion tells what you think. A reason tells why you think so.\" Day 1, Opinion or Reason?: on Levels 1 and 2 read the sort sentences aloud once; children check opinion or reason for each, draw a line from each opinion to its reason, and circle because (Levels 2 and 3 also underline the reason). Read the opinions and the reasons aloud once; then children test each reason by saying the opinion, because, and the reason. On Level 3 one reason fits no opinion: children cross it out. Day 2, Write My Opinion: each child circles a question, draws the answer, and writes the topic, the opinion with because, and an ending. Level 1 gives frames, Level 2 starters, Level 3 open rows and a word bank. On Levels 1 and 2 the model beside the drawing answers another question. Post the titles of the books the class read so children can spell them.",
+      "watch": "From the lesson before: sentences with an end mark. The ending says the opinion again in new words. Accept any reason that tells why."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "1:all-about-a-topic",
+     "title": "All about a topic: facts and a closing",
+     "objective": "Children name a topic, tell sentences about the topic from sentences that are not about it, choose a closing sentence, and write an All About page: the topic, three facts, and a closing.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.1.2",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-620",
+       "title": "Facts and a Closing",
+       "core": "reading-comprehension-g1620",
+       "easy": "reading-comprehension-easy-g1620-6",
+       "hard": "reading-comprehension-hard-g1620-11"
+      },
+      {
+       "type": "G1-621",
+       "title": "Write an All About Page",
+       "core": "sentence-building-g1621",
+       "easy": "sentence-building-easy-g1621-6",
+       "hard": "sentence-building-hard-g1621-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g1620-2",
+      "title": "Facts and a Closing"
+     },
+     "note": {
+      "mistake": "Children add a sentence about something else (a pond on a page about ducks), or end with one more fact instead of a closing. Some write an opinion, such as Ducks are cute, as a fact.",
+      "words": "Model first: say three facts about pumpkins (Pumpkins grow on vines. Pumpkins have seeds. Pumpkins can be orange.) and close: Now you know about pumpkins! Say: \"A fact tells something true about the topic. A closing sentence ends the piece.\" Day 1, Facts and a Closing: read the fact file together; children write its topic, put a check under yes or no for each sentence (is it about the topic?), and circle the closing. On Level 3 one sentence is about a thing near the topic, such as a pond, and is not about it. Day 2, Write an All About Page: Level 1 uses the fact box and frames such as Cows eat; on Level 2 the fact box gives the notes without their verbs, and children choose can, have, are, eat, or live; on Level 3 children choose a topic they know, such as rain or my school, and write on open rows with one to spare. Each child draws the topic and writes two labels, then checks the boxes. On Levels 1 and 2 the model is about another topic.",
+      "watch": "From the lessons before: capitals and end marks. Every fact on day 1 names its topic. On Level 3 accept any true fact; each one should name the topic."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:revise-and-edit-checklist",
+     "title": "Revise and edit with a checklist",
+     "objective": "Children fix capitals and end marks in a short piece, add a detail a partner asked about, and check their own piece with a checklist and a partner.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.1.5",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-622",
+       "title": "Edit and Add a Detail",
+       "core": "capitals-punctuation-g1622",
+       "easy": "capitals-punctuation-easy-g1622-6",
+       "hard": "capitals-punctuation-hard-g1622-11"
+      },
+      {
+       "type": "G1-623",
+       "title": "Revise with a Checklist",
+       "core": "sentence-building-g1623",
+       "easy": "sentence-building-easy-g1623-6",
+       "hard": "sentence-building-hard-g1623-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-g1622-2",
+      "title": "Edit and Add a Detail"
+     },
+     "note": {
+      "mistake": "Children fix only the first mistake they see, or add a detail that does not answer the question. Some copy the whole piece again instead of fixing it.",
+      "words": "Model first: write we went on a walk, fix it aloud, then ask a child a question about your sentence and add the answer. Say: \"Writers read their work again. They fix capitals and end marks, and they add details.\" Day 1, Edit and Add a Detail: the box says how many mistakes the story has (Level 1: two, a small letter at the start and a missing end mark; Level 2: three, with a small i; Level 3: four, with a name that starts with a small letter). Children fix them on the story, read the question the writer's partner asked about the starred sentence, and write it again with a detail. Day 2, Revise with a Checklist: each child needs a draft from this unit (the true story, the opinion, or the All About page). The partner asks one question; the child circles it (or writes it after Other), adds the detail to the draft with a caret (^), and writes it on the page. Then the child checks the draft in the Me boxes and the partner checks it too; Level 3 also writes what the partner liked.",
+      "watch": "The day 1 story has no other mistake; where a missing end mark could also be !, the key says so. Accept any detail that answers the question. The partner asks one question, not a list."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
    "id": "g1-word-meanings-and-word-parts",
    "slug": "word-meanings-and-word-parts-grade-1-unit",
    "status": "live",
@@ -17403,7 +17578,7 @@
    "title": "Opinion Writing and Letters",
    "metaTitle": "Opinion Writing and Letters: Grade 2 Writing Lessons",
    "metaDescription": "Grade 2 lessons on opinion writing and friendly letters: plan and draft an opinion with reasons and linking words, write a letter with commas, and capitalize names.",
-   "days": 11,
+   "days": 12,
    "weeks": 2,
    "lessons": [
     {
@@ -17484,7 +17659,8 @@
       "words": "Children need their plan from Plan Your Opinion Piece: the draft of a copy number offers the two questions of the plan of that number; a child without a plan circles one. Model first on a topic that is on no page: \"because they eat bamboo all day\" becomes \"One reason is that they eat bamboo all day.\" Day 1, Write Your Opinion Piece: rows under Opinion, Reasons, and Closing sentence. Level 1 frames (the second reason: It is also great because ___.), Level 2 starters, Level 3 open rows, three reasons, and a word bank. Day 2: reread with the checklist and add the spare-row sentence (Levels 1 and 2) or the third reason (Level 3). Day 3, Revise Your Opinion Piece: children circle what fits each gap of a short piece: the closing sentence (Level 1), a reason (Level 2), or both (Level 3); a partner listens and both check the parts; then the child writes one more reason (Level 1) or a reason or a closing sentence (Levels 2 and 3) and adds it with a caret (^).",
       "watch": "The opinion copied after That is why is never the closing sentence. The keys are samples; accept any reason that tells why."
      },
-     "days": 2
+     "writeDays": 3,
+     "days": 3
     },
     {
      "n": 3,
@@ -18461,7 +18637,7 @@
    "title": "Opinion Writing",
    "metaTitle": "Opinion Writing: Grade 3 Writing Lesson Plans",
    "metaDescription": "A Grade 3 opinion writing unit: state an opinion, plan reasons with examples, join them with linking words, end with a conclusion, then revise and edit.",
-   "days": 11,
+   "days": 12,
    "weeks": 2,
    "lessons": [
     {
@@ -18542,7 +18718,8 @@
       "words": "Model first: join \"Tag is fun. Everyone can play.\" two ways on the board (Tag is fun because everyone can play. Since everyone can play, tag is fun.). Say: \"Because and since tell why. Therefore tells what happens as a result. For example gives an example.\" Day 1, Choose the Linking Word: six blanks; the child circles the word that fits, then joins two opinions with their reasons. Because and since are never offered together. Days 2 and 3, Draft: children need their plan from the lesson before. Day 2: the introduction and reasons 1 and 2; day 3: the rest, then a rereading with the checklist in the margin. On Levels 1 and 2 the draft has no conclusion yet: it is written in Write a Conclusion (part 3). Level 3 drafts the whole piece, conclusion included.",
       "watch": "Since it was cold, we stayed in: a sentence that starts with since or because needs both parts and a comma between them. Therefore and For example start a sentence and take a comma after them."
      },
-     "days": 2
+     "writeDays": 3,
+     "days": 3
     },
     {
      "n": 3,
@@ -18809,7 +18986,7 @@
    "title": "Informative Writing and Research",
    "metaTitle": "Informative Writing and Research: Grade 3 Lessons",
    "metaDescription": "Grade 3 lessons on informative writing and research: take notes from two sources, sort them under headings, introduce a topic, define words, and write a short report.",
-   "days": 11,
+   "days": 12,
    "weeks": 2,
    "lessons": [
     {
@@ -18970,7 +19147,8 @@
       "words": "Children need the introduction, headings, and definitions of the last three lessons. Say: \"A research report answers a question with facts from two sources.\" Read the question and both texts aloud. Model first on another topic: one short note with its source letter. Before Day 2, model turning one note from A and one from B into two sentences under a heading, and copying a source title. Day 1, Notes from Two Sources: children note facts from A and B in the row of each category. Level 1 prints the categories; on Level 2 children name them; on Level 3 they also write the question. Days 2 and 3, Write a Research Report (same copy, same topic as Day 1): children write an introduction, three parts with headings, a concluding sentence, and the source titles, and draw a diagram with a caption. Levels 1 and 2 print one note from each source in each part; Level 3 uses the child's own notes.",
       "watch": "Check each child's research question before they read: the sources must answer it. Each row needs a note from both sources; if both sources give a fact, either letter is right. If you can, add a third source: a class library book on the topic; children list it as C. The key is a sample."
      },
-     "days": 2
+     "writeDays": 3,
+     "days": 3
     }
    ]
   },
@@ -20576,9 +20754,9 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (24 Weeks)",
-   "metaDescription": "9 Grade 1 reading and language units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 24,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (26 Weeks)",
+   "metaDescription": "10 Grade 1 reading and language units in teaching order, about 26 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 26,
    "framework": "Common Core",
    "units": [
     {
@@ -20710,12 +20888,32 @@
      ]
     },
     {
+     "id": "g1-writing-stories-opinions-and-facts",
+     "slug": "writing-stories-opinions-and-facts-grade-1-unit",
+     "title": "Writing: Stories, Opinions, and Facts",
+     "weeks": 2,
+     "from": 18,
+     "to": 19,
+     "lessons": [
+      "Write a true story: plan and draft",
+      "My opinion and a reason",
+      "All about a topic: facts and a closing",
+      "Revise and edit with a checklist"
+     ],
+     "standards": [
+      "W.1.1",
+      "W.1.2",
+      "W.1.3",
+      "W.1.5"
+     ]
+    },
+    {
      "id": "g1-word-meanings-and-word-parts",
      "slug": "word-meanings-and-word-parts-grade-1-unit",
      "title": "Word Meanings and Word Parts",
      "weeks": 3,
-     "from": 18,
-     "to": 20,
+     "from": 20,
+     "to": 22,
      "lessons": [
       "Write the opposite",
       "Two words that mean the same thing",
@@ -20737,8 +20935,8 @@
      "slug": "reading-to-learn-informational-texts-grade-1-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 2,
-     "from": 21,
-     "to": 22,
+     "from": 23,
+     "to": 24,
      "lessons": [
       "Facts in the text",
       "The main topic and key details",
@@ -20756,8 +20954,8 @@
      "slug": "two-syllable-words-grade-1-unit",
      "title": "Two-Syllable Words",
      "weeks": 2,
-     "from": 23,
-     "to": 24,
+     "from": 25,
+     "to": 26,
      "lessons": [
       "Every syllable has a vowel",
       "Compound words and two-part words",

@@ -4074,6 +4074,26 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the reading of Grade 3 (Part 12.3: chapters, scenes and stanzas, point of view, literal and nonliteral language, two stories by one author, two texts on one topic); the sayings and the texts are English. Read it against the wording when the first literacy units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "1:true-story-plan-and-draft": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the writing of Grade 1 (Part 12.3: a true story with first, next and last, an opinion with a reason, an All About page, revising and editing with a checklist); the frames, the time words and the capital rules are those of American English. Read it against the wording when the first writing units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:opinion-and-reason": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the writing of Grade 1 (Part 12.3: a true story with first, next and last, an opinion with a reason, an All About page, revising and editing with a checklist); the frames, the time words and the capital rules are those of American English. Read it against the wording when the first writing units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:all-about-a-topic": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the writing of Grade 1 (Part 12.3: a true story with first, next and last, an opinion with a reason, an All About page, revising and editing with a checklist); the frames, the time words and the capital rules are those of American English. Read it against the wording when the first writing units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:revise-and-edit-checklist": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the writing of Grade 1 (Part 12.3: a true story with first, next and last, an opinion with a reason, an All About page, revising and editing with a checklist); the frames, the time words and the capital rules are those of American English. Read it against the wording when the first writing units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

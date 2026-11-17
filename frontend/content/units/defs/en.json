@@ -3145,6 +3145,48 @@
    ]
   },
   {
+   "id": "g1-writing-stories-opinions-and-facts",
+   "slug": "writing-stories-opinions-and-facts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "literacy",
+   "title": "Writing: Stories, Opinions, and Facts",
+   "metaTitle": "Grade 1 Writing: True Stories, Opinions, and Facts",
+   "metaDescription": "Grade 1 writing lessons: plan and draft a true story with time words, write an opinion with a reason, write an All About page, and revise with a checklist.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "1:true-story-plan-and-draft",
+     "types": [
+      "G1-616",
+      "G1-617"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:opinion-and-reason",
+     "types": [
+      "G1-618",
+      "G1-619"
+     ]
+    },
+    {
+     "point": "1:all-about-a-topic",
+     "types": [
+      "G1-620",
+      "G1-621"
+     ]
+    },
+    {
+     "point": "1:revise-and-edit-checklist",
+     "types": [
+      "G1-622",
+      "G1-623"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-word-meanings-and-word-parts",
    "slug": "word-meanings-and-word-parts-grade-1-unit",
    "status": "live",
@@ -3654,7 +3696,8 @@
      "types": [
       "G2-559",
       "G2-560"
-     ]
+     ],
+     "days": 3
     },
     {
      "point": "2:friendly-letter",
@@ -3889,7 +3932,8 @@
      "types": [
       "G3-550",
       "G3-551"
-     ]
+     ],
+     "days": 3
     },
     {
      "point": "3:concluding-statement",
@@ -3985,7 +4029,8 @@
      "types": [
       "G3-562",
       "G3-563"
-     ]
+     ],
+     "days": 3
     }
    ]
   },
@@ -4239,6 +4284,7 @@
     "g1-reading-stories-characters-and-lessons",
     "g1-long-vowels-silent-e-and-vowel-teams",
     "g1-words-and-how-they-work",
+    "g1-writing-stories-opinions-and-facts",
     "g1-word-meanings-and-word-parts",
     "g1-reading-to-learn-informational-texts",
     "g1-two-syllable-words"

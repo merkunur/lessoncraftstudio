@@ -88,6 +88,7 @@ function run(d) {
       const w = l + ' unit ' + u.id;
       if (u.lessons.length < 4) fail('P3', w + ': ' + u.lessons.length + ' lessons (at least 4)');
       // P9: the days and the weeks are the counted ones
+      for (const x of u.lessons) if (x.writeDays != null && (x.writeDays !== 3 || x.paper.length < 2 || String(u.grade) === 'K' || String(u.grade) === 'P')) fail('P9', w + ' lesson ' + x.n + ': claims three days for its writing without two page types from Grade 1 on');
       for (const x of u.lessons) if (x.days !== PACE.lessonDays(u.grade, x)) fail('P9', w + ' lesson ' + x.n + ': says ' + x.days + ' class days, its material carries ' + PACE.lessonDays(u.grade, x));
       if (u.days !== PACE.unitDays(u.grade, u.lessons)) fail('P9', w + ': says ' + u.days + ' days, its lessons carry ' + PACE.unitDays(u.grade, u.lessons));
       const counted = PACE.unitWeeks(u.grade, u.lessons, { loc: l, subject: u.subject });
@@ -200,6 +201,7 @@ const POISONS = [
   ['a second lesson on a point without an id of its own', 'P3', (d) => { const u = d.loc.en.units[0]; const c = clone(u.lessons[0]); c.n = u.lessons.length + 1; u.lessons.push(c); }],
   ['a lesson id that does not belong to its point', 'P2', (d) => { d.loc.en.units[0].lessons[0].id = '9:other#again'; }],
   ['a lesson that claims a third day without the material', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2); x.days = 3; }],
+  ['a lesson with one page that claims three days for its writing', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2 && y.paper.length === 1); x.writeDays = 3; x.days = 3; }],
   ['a unit that says two weeks', 'P9', (d) => { const u = d.loc.en.units.find((y) => y.weeks > 2); u.weeks = 2; }],
   ['a description that names the old length', 'P9', (d) => { const u = d.loc.en.units.find((y) => /\b[Aa]n? \w+-week\b/.test(y.metaDescription) && y.weeks !== 2); u.metaDescription = u.metaDescription.replace(/\b([Aa])n? \w+-week\b/, '$1 two-week'); }],
   ['a lesson without a worksheet that the teacher does not lead', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 0; }],

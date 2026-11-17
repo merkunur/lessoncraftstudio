@@ -63,10 +63,11 @@ function LessonDays({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   const levels = lesson.paper.some((p) => p.easy || p.hard);
   const day1 = [lesson.tool ? lesson.tool.name : null, lesson.led ? (ui.dayRoutine || ui.slotRoutine) : `${ui.slotPaper} (${ui.levelCore})`].filter(Boolean);
   const day2 = [levels ? `${ui.slotPaper} (${[lesson.paper.some((p) => p.easy) ? ui.levelEasy : null, lesson.paper.some((p) => p.hard) ? ui.levelHard : null].filter(Boolean).join(', ')})` : null, !levels && lesson.maker && ui.dayMore ? ui.dayMore : null, lesson.screen ? ui.slotScreen : null, lesson.exit ? ui.slotExit : null].filter(Boolean);
-  const day3 = lesson.days >= 3 ? [ui.dayRespond || ui.slotMaker] : [];
+  // a writing lesson's third day is the rest of the piece of writing, not a reteach day
+  const day3 = lesson.days >= 3 ? [lesson.writeDays ? (ui.dayWrite || ui.slotPaper) : (ui.dayRespond || ui.slotMaker)] : [];
   const rows = [day1, day2.length ? day2 : [lesson.led ? (ui.dayRoutine || ui.slotRoutine) : ui.slotPaper], day3].filter((d) => d.length);
   // what each day is for; the second day is named for its check only where the lesson has a check-up page
-  const role = (i: number) => (i === 1 && !lesson.exit ? ui.dayRole2NoCheck : ui[`dayRole${i + 1}`]);
+  const role = (i: number) => (i === 2 && lesson.writeDays ? ui.dayRole3Write : i === 1 && !lesson.exit ? ui.dayRole2NoCheck : ui[`dayRole${i + 1}`]);
   return (
     <div className="un-days" data-lesson-days={lesson.days}>
       <p className="un-days-count">{fill(ui.lessonDays, { n: lesson.days })}</p>

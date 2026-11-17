@@ -312,7 +312,8 @@
             "standard": "W.1.3",
             "days": 3,
             "source": "new",
-            "page": "Writing page (narrative): a planner with three picture boxes labeled first, next, last, then a draft page with six writing lines and the starters First, Next, Then, At the end. A checklist at the bottom: I told the events in order. I used time words. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (narrative): a planner with three picture boxes labeled first, next, last, then a draft page with six writing lines and the starters First, Next, Then, At the end. A checklist at the bottom: I told the events in order. I used time words. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "1:true-story-plan-and-draft"
           },
           {
             "new": true,
@@ -322,7 +323,8 @@
             "days": 2,
             "tool": "Class Graph",
             "source": "new",
-            "page": "Writing page (opinion): a planner with an opinion box and a reason box, then five writing lines with the frames I think ___. One reason is ___. That is why ___. A checklist at the bottom: I told my opinion. I gave a reason. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (opinion): a planner with an opinion box and a reason box, then five writing lines with the frames I think ___. One reason is ___. That is why ___. A checklist at the bottom: I told my opinion. I gave a reason. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "1:opinion-and-reason"
           },
           {
             "new": true,
@@ -331,7 +333,8 @@
             "standard": "W.1.2",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a planner with a topic box and three fact boxes, then five writing lines with the frames This is all about ___. One fact is ___. Another fact is ___. Now you know ___. A checklist at the bottom: I named my topic. I wrote facts. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (informative): a planner with a topic box and three fact boxes, then five writing lines with the frames This is all about ___. One fact is ___. Another fact is ___. Now you know ___. A checklist at the bottom: I named my topic. I wrote facts. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "1:all-about-a-topic"
           },
           {
             "new": true,
@@ -340,7 +343,8 @@
             "standard": "W.1.5",
             "days": 2,
             "source": "new",
-            "page": "Revise-and-edit page: a short sample piece of four sentences with four mistakes that the class fixes together, then a checklist with picture icons (Did I add a detail? A capital at the start? An end mark? Heart words spelled right?) that the child uses on their own draft. Level 1: two checks; level 2: four checks; level 3: four checks and a line for the partner's comment."
+            "page": "Revise-and-edit page: a short sample piece of four sentences with four mistakes that the class fixes together, then a checklist with picture icons (Did I add a detail? A capital at the start? An end mark? Heart words spelled right?) that the child uses on their own draft. Level 1: two checks; level 2: four checks; level 3: four checks and a line for the partner's comment.",
+            "placed": "1:revise-and-edit-checklist"
           }
         ]
       },

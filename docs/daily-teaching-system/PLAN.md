@@ -527,7 +527,7 @@ A product is called complete for a grade only when a generated coverage report s
 **2026-11-12 (operator), the order of everything that is left.** Verbatim: "before you start building the remaining activities you should complete the whole year content Lesson plans by unit · Emergency sub plans · Unit checks in all the supported languages and transform the whole website for the new indispensable daily teaching system and you should also complete the redesign of the strategic pages such as homepage, hub pages, topic pages to reflect the new indispensable daily teaching system concept in a professional way which would convert visitors and free subscribers into paid subscribers as much as possible. In short, you should build the remaining activities the last." The order that follows from it, and that replaces the order at the end of §13:
 1. **The strategic pages** (Part 11.4 to 11.8): topic pages, worksheet landings, the hubs, the pricing page, the menu, the homepage (as a preview for approval), in English, German and Swedish first, each other language as its content arrives.
 2. **The whole year in English** (Part 12.1 to 12.4 with 4.8 to 4.10, 7.6 to 7.8, 5.4, and the readers of Part 8 where the year needs texts): units for every week, a check for every unit, a sub day for every week.
-3. **The whole year in each of the other ten languages** (12.5 with 4.11, 5.5, 6.4, 7.9), one language at a time, each against its own curriculum: German and Swedish are completed first (they have units), then French, Dutch, Norwegian, Finnish, and LAST, in this order, Danish, Italian, Spanish for Mexico and Portuguese for Brazil (operator rulings 2026-11-17, below; the order before them had Spanish, Portuguese and Italian right after French).
+3. **The whole year in each of the other ten languages** (12.5 with 4.11, 5.5, 6.4, 7.9), one language at a time, each against its own curriculum: German and Swedish are completed first (they have units), then French, Norwegian, Dutch, Finnish, and LAST, in this order, Danish, Italian, Spanish for Mexico and Portuguese for Brazil (operator rulings 2026-11-17, below; the order before them had Spanish, Portuguese and Italian right after French).
 3b. **Readers: 300 and more in every one of the 11 languages, before the activities** (operator 2026-11-12, verbatim: "Decodable Readers & Guided Reading Books catalogue should also be as comprehensive as possible in each language (300+ is the target per language) and they should also be built before starting building the remaining activities."). Part 8 as written (engine, English scope and word list, the decodability gate, 12 → 60 → 150 → 300 with a review at each step), then every other language to 300 with its own letter order and word lists, written natively. The earlier limit "to 60 unless the readers are being used" is gone for every language. English readers start with step 2, because the literacy year needs their texts.
 4. Class results (Part 9) go on when the lawyer's check is in.
 5. **Part 10, the remaining activities, last of all.** An activity the year map names as the only way to teach an objective is listed there and still waits for Part 10.
@@ -550,8 +550,13 @@ A product is called complete for a grade only when a generated coverage report s
 
 **2026-11-17, later (operator, verbatim):** "the last languages should be Danish, Italian, Spanish (Mexican) and Portuguese (Brazilian) in the same order as I wrote."
 
-- **The order of the languages is now:** English (running) → German and Swedish to the whole year → French → Dutch → Norwegian → Finnish → **Danish → Italian → Spanish for Mexico → Portuguese for Brazil, the last four, in this order**. It holds for every part that goes language by language (the year map and units of 12.5, checklists, unit checks, sub plans, curriculum pages, readers, the product pages of 11.8).
+- **The order of the languages after the second ruling was:** English (running) → German and Swedish to the whole year → French → Dutch → Norwegian → Finnish → **Danish → Italian → Spanish for Mexico → Portuguese for Brazil, the last four, in this order**. The third ruling of the day, below, moves Norwegian. It holds for every part that goes language by language (the year map and units of 12.5, checklists, unit checks, sub plans, curriculum pages, readers, the product pages of 11.8).
 - Italian moves from second place to ninth. Nothing live in any of the four languages changes; no new daily-system work starts in them before French, Dutch, Norwegian and Finnish are done. The order among those four (French, Dutch, Norwegian, Finnish) is the earlier order with Italian taken out.
+
+**2026-11-17, later still (operator, verbatim):** "Norwegian should be after French."
+
+- **THE ORDER OF THE LANGUAGES, as it stands:** 1 English (running) · 2 German · 3 Swedish · 4 French · 5 Norwegian · 6 Dutch · 7 Finnish · 8 Danish · 9 Italian · 10 Spanish for Mexico · 11 Portuguese for Brazil. It holds for every part that goes language by language (the year map and units of 12.5, checklists, unit checks, sub plans, curriculum pages, readers, the product pages of 11.8).
+- Places 4, 5 and 8 to 11 are the operator's own words (three rulings of this day); German and Swedish are second and third because they have units (ruling of 2026-11-12); Dutch before Finnish is the earlier plan order, kept.
 
 ## Part 11 — One product: the menu, the hubs, the homepage and the way to the Teacher plan
 
@@ -636,7 +641,7 @@ Plus **For schools** and **Pricing** in the top row. Every door opens by grade f
 
 ## 13. Coverage: what "as comprehensive as possible" means for each content type
 
-Measured 2026-11-12. "Complete" is the end state; the last column is the sub-part that gets there. Each is built in English first, reviewed, then language by language (order: French, Dutch, Norwegian, Finnish, then LAST Danish, Italian, Spanish for Mexico and Portuguese for Brazil, by the operator rulings of 2026-11-17 in §11; the demand harvest had put Spanish, Portuguese and Italian second to fourth).
+Measured 2026-11-12. "Complete" is the end state; the last column is the sub-part that gets there. Each is built in English first, reviewed, then language by language (order: French, Norwegian, Dutch, Finnish, then LAST Danish, Italian, Spanish for Mexico and Portuguese for Brazil, by the operator rulings of 2026-11-17 in §11; the demand harvest had put Spanish, Portuguese and Italian second to fourth).
 
 | Type | Today | Complete | What stands in the way | Sub-parts |
 |---|---|---|---|---|

@@ -1,0 +1,2571 @@
+{
+ "apart": [
+  [
+   "slimy",
+   "sticky"
+  ]
+ ],
+ "words": {
+  "spicy": {
+   "starter": "A spicy food is",
+   "fill": "salsa.",
+   "say": "Hot sauce makes my taco spicy.",
+   "samples": [
+    "salsa",
+    "a chili pepper",
+    "hot sauce"
+   ]
+  },
+  "juicy": {
+   "starter": "A juicy fruit is",
+   "fill": "an orange.",
+   "say": "My orange is so juicy.",
+   "samples": [
+    "an orange",
+    "a peach",
+    "a watermelon"
+   ]
+  },
+  "crunchy": {
+   "starter": "A crunchy snack is",
+   "fill": "a carrot.",
+   "say": "The crackers are crunchy.",
+   "samples": [
+    "a carrot",
+    "a cracker",
+    "a dry leaf"
+   ]
+  },
+  "sticky": {
+   "starter": "Something sticky is",
+   "fill": "glue.",
+   "say": "The glue on my paper is sticky.",
+   "samples": [
+    "glue",
+    "tape",
+    "jam"
+   ]
+  },
+  "smooth": {
+   "starter": "Something smooth is",
+   "fill": "a mirror.",
+   "say": "The glass window is smooth.",
+   "samples": [
+    "a mirror",
+    "a pebble",
+    "a balloon"
+   ]
+  },
+  "noisy": {
+   "starter": "Something noisy is",
+   "fill": "a drum.",
+   "say": "A fire truck is noisy.",
+   "samples": [
+    "a drum",
+    "a siren",
+    "a fire truck"
+   ]
+  },
+  "calm": {
+   "starter": "A calm place is",
+   "fill": "a still pond.",
+   "say": "The pond is calm when there is no wind.",
+   "samples": [
+    "a still pond",
+    "a sleeping baby",
+    "soft music"
+   ]
+  },
+  "gloomy": {
+   "starter": "Something gloomy is",
+   "fill": "a rainy day.",
+   "say": "The rainy day was gloomy.",
+   "samples": [
+    "a rainy day",
+    "dark clouds",
+    "a gray sky"
+   ]
+  },
+  "fluffy": {
+   "starter": "A fluffy animal is",
+   "fill": "a lamb.",
+   "say": "The baby chick is fluffy.",
+   "samples": [
+    "a baby chick",
+    "a lamb",
+    "a pillow"
+   ]
+  },
+  "prickly": {
+   "starter": "Something prickly is",
+   "fill": "a cactus.",
+   "say": "A cactus is prickly.",
+   "samples": [
+    "a cactus",
+    "a hedgehog",
+    "a rose stem"
+   ]
+  },
+  "slimy": {
+   "starter": "A slimy animal is",
+   "fill": "a snail.",
+   "say": "The snail is slimy.",
+   "samples": [
+    "a snail",
+    "a worm",
+    "a slug"
+   ]
+  },
+  "icy": {
+   "starter": "Something icy is",
+   "fill": "an icicle.",
+   "say": "The sidewalk is icy in winter.",
+   "samples": [
+    "an icicle",
+    "a frozen pond",
+    "a winter wind"
+   ]
+  }
+ },
+ "things": [
+  {
+   "id": "chili",
+   "n": "chili pepper",
+   "a": "a chili pepper",
+   "fits": [
+    "spicy"
+   ],
+   "also": [
+    "smooth",
+    "crunchy"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "vegetables",
+    "chilli_pepper"
+   ],
+   "kind": "chili"
+  },
+  {
+   "id": "hotsauce",
+   "n": "hot sauce",
+   "a": "hot sauce",
+   "fits": [
+    "spicy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "At the Supermarket",
+    "sauce"
+   ],
+   "kind": "hotsauce"
+  },
+  {
+   "id": "salsa",
+   "n": null,
+   "a": "salsa",
+   "fits": [
+    "spicy"
+   ],
+   "also": [],
+   "surface": "bumpy",
+   "pic": null,
+   "kind": "salsa"
+  },
+  {
+   "id": "orange",
+   "n": "orange",
+   "a": "an orange",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "sticky"
+   ],
+   "surface": "bumpy",
+   "pic": [
+    "fruits",
+    "orange"
+   ],
+   "kind": "orange"
+  },
+  {
+   "id": "watermelon",
+   "n": "watermelon",
+   "a": "a watermelon",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "crunchy",
+    "sticky",
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "fruits",
+    "watermelon"
+   ],
+   "kind": "watermelon"
+  },
+  {
+   "id": "strawberry",
+   "n": "strawberry",
+   "a": "a strawberry",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "sticky"
+   ],
+   "surface": "bumpy",
+   "pic": [
+    "fruits",
+    "strawberry"
+   ],
+   "kind": "strawberry"
+  },
+  {
+   "id": "grapes",
+   "n": "grapes",
+   "a": "grapes",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "smooth",
+    "sticky"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "At the Supermarket",
+    "grapes"
+   ],
+   "kind": "grapes"
+  },
+  {
+   "id": "kiwi",
+   "n": "kiwi",
+   "a": "a kiwi",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "sticky"
+   ],
+   "surface": "fuzzy",
+   "pic": [
+    "fruits",
+    "kiwi"
+   ],
+   "kind": "kiwi"
+  },
+  {
+   "id": "tomato",
+   "n": "tomato",
+   "a": "a tomato",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "vegetables",
+    "tomato"
+   ],
+   "kind": "tomato"
+  },
+  {
+   "id": "pineapple",
+   "n": "pineapple",
+   "a": "a pineapple",
+   "fits": [
+    "juicy",
+    "prickly"
+   ],
+   "also": [
+    "sticky"
+   ],
+   "surface": "spiky",
+   "pic": [
+    "fruits",
+    "pineapple"
+   ],
+   "kind": "pineapple"
+  },
+  {
+   "id": "peach",
+   "n": null,
+   "a": "a peach",
+   "fits": [
+    "juicy"
+   ],
+   "also": [
+    "sticky"
+   ],
+   "surface": "fuzzy",
+   "pic": null,
+   "kind": "peach"
+  },
+  {
+   "id": "carrot",
+   "n": "carrot",
+   "a": "a carrot",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [],
+   "surface": "rough",
+   "pic": [
+    "vegetables",
+    "carrot"
+   ],
+   "kind": "carrot"
+  },
+  {
+   "id": "celery",
+   "n": "celery",
+   "a": "celery",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [
+    "juicy"
+   ],
+   "surface": "bumpy",
+   "pic": [
+    "vegetables",
+    "celery"
+   ],
+   "kind": "celery"
+  },
+  {
+   "id": "chips",
+   "n": "potato chips",
+   "a": "potato chips",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [
+    "spicy",
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "At the Supermarket",
+    "potato_chips"
+   ],
+   "kind": "chips"
+  },
+  {
+   "id": "cracker",
+   "n": null,
+   "a": "a cracker",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [],
+   "surface": "rough",
+   "pic": null,
+   "kind": "cracker"
+  },
+  {
+   "id": "leaf",
+   "n": null,
+   "a": "a dry leaf",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "rough",
+   "pic": null,
+   "kind": "leaf"
+  },
+  {
+   "id": "toast",
+   "n": null,
+   "a": "toast",
+   "fits": [
+    "crunchy"
+   ],
+   "also": [],
+   "surface": "rough",
+   "pic": null,
+   "kind": "toast"
+  },
+  {
+   "id": "honey",
+   "n": "honey",
+   "a": "honey",
+   "fits": [
+    "sticky"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "breakfast",
+    "honey"
+   ],
+   "kind": "honey"
+  },
+  {
+   "id": "glue",
+   "n": "glue",
+   "a": "glue",
+   "fits": [
+    "sticky"
+   ],
+   "also": [
+    "smooth",
+    "slimy"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "classroom",
+    "glue"
+   ],
+   "kind": "glue"
+  },
+  {
+   "id": "tape",
+   "n": "tape",
+   "a": "tape",
+   "fits": [
+    "sticky"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "classroom",
+    "tape"
+   ],
+   "kind": "tape"
+  },
+  {
+   "id": "jam",
+   "n": "jam",
+   "a": "jam",
+   "fits": [
+    "sticky"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "breakfast",
+    "jam"
+   ],
+   "kind": "jam"
+  },
+  {
+   "id": "syrup",
+   "n": null,
+   "a": "syrup",
+   "fits": [
+    "sticky"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "syrup"
+  },
+  {
+   "id": "glass",
+   "n": "glass",
+   "a": "a glass",
+   "fits": [
+    "smooth"
+   ],
+   "also": [
+    "icy"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "kitchen tools",
+    "glass"
+   ],
+   "kind": "glass"
+  },
+  {
+   "id": "mirror",
+   "n": "mirror",
+   "a": "a mirror",
+   "fits": [
+    "smooth"
+   ],
+   "also": [],
+   "surface": "smooth",
+   "pic": [
+    "around the house",
+    "mirror"
+   ],
+   "kind": "mirror"
+  },
+  {
+   "id": "egg",
+   "n": "eggs",
+   "a": "an egg",
+   "fits": [
+    "smooth"
+   ],
+   "also": [],
+   "surface": "smooth",
+   "pic": [
+    "At the Supermarket",
+    "egg"
+   ],
+   "kind": "egg"
+  },
+  {
+   "id": "balloon",
+   "n": "balloon",
+   "a": "a balloon",
+   "fits": [
+    "smooth"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "toys",
+    "balloon"
+   ],
+   "kind": "balloon"
+  },
+  {
+   "id": "pebble",
+   "n": null,
+   "a": "a pebble",
+   "fits": [
+    "smooth"
+   ],
+   "also": [],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "pebble"
+  },
+  {
+   "id": "marble",
+   "n": null,
+   "a": "a marble",
+   "fits": [
+    "smooth"
+   ],
+   "also": [],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "marble"
+  },
+  {
+   "id": "drum",
+   "n": "drum",
+   "a": "a drum",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "music",
+    "drum"
+   ],
+   "kind": "drum"
+  },
+  {
+   "id": "trumpet",
+   "n": "trumpet",
+   "a": "a trumpet",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "music",
+    "trumpet"
+   ],
+   "kind": "trumpet"
+  },
+  {
+   "id": "alarm",
+   "n": "alarm clock",
+   "a": "an alarm clock",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "around the house",
+    "alarm_clock"
+   ],
+   "kind": "alarm"
+  },
+  {
+   "id": "mower",
+   "n": "lawn mower",
+   "a": "a lawn mower",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "around the house",
+    "lawn_mower"
+   ],
+   "kind": "mower"
+  },
+  {
+   "id": "firetruck",
+   "n": "fire truck",
+   "a": "a fire truck",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "vehicles",
+    "fire_truck"
+   ],
+   "kind": "firetruck"
+  },
+  {
+   "id": "whistle",
+   "n": "whistle",
+   "a": "a whistle",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "accessories",
+    "whistle"
+   ],
+   "kind": "whistle"
+  },
+  {
+   "id": "rooster",
+   "n": "rooster",
+   "a": "a rooster",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "fluffy",
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "farm animals",
+    "rooster"
+   ],
+   "kind": "rooster"
+  },
+  {
+   "id": "siren",
+   "n": null,
+   "a": "a siren",
+   "fits": [
+    "noisy"
+   ],
+   "also": [],
+   "surface": "none",
+   "pic": null,
+   "kind": "siren"
+  },
+  {
+   "id": "thunder",
+   "n": null,
+   "a": "thunder",
+   "fits": [
+    "noisy"
+   ],
+   "also": [
+    "gloomy"
+   ],
+   "surface": "none",
+   "pic": null,
+   "kind": "thunder"
+  },
+  {
+   "id": "pond",
+   "n": null,
+   "a": "a still pond",
+   "fits": [
+    "calm"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "pond"
+  },
+  {
+   "id": "baby",
+   "n": null,
+   "a": "a sleeping baby",
+   "fits": [
+    "calm"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "baby"
+  },
+  {
+   "id": "music",
+   "n": null,
+   "a": "soft music",
+   "fits": [
+    "calm"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "none",
+   "pic": null,
+   "kind": "music"
+  },
+  {
+   "id": "morning",
+   "n": null,
+   "a": "a quiet morning",
+   "fits": [
+    "calm"
+   ],
+   "also": [],
+   "surface": "none",
+   "pic": null,
+   "kind": "morning"
+  },
+  {
+   "id": "raincloud",
+   "n": "rain cloud",
+   "a": "a rain cloud",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [
+    "fluffy"
+   ],
+   "surface": "none",
+   "pic": [
+    "weather",
+    "rainy"
+   ],
+   "kind": "cloud"
+  },
+  {
+   "id": "darkclouds",
+   "n": "dark clouds",
+   "a": "dark clouds",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [
+    "fluffy"
+   ],
+   "surface": "none",
+   "pic": [
+    "weather",
+    "cloudy"
+   ],
+   "kind": "cloud"
+  },
+  {
+   "id": "stormcloud",
+   "n": "storm cloud",
+   "a": "a storm cloud",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "none",
+   "pic": [
+    "weather",
+    "thunderstorm"
+   ],
+   "kind": "cloud"
+  },
+  {
+   "id": "rainyday",
+   "n": null,
+   "a": "a rainy day",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [],
+   "surface": "none",
+   "pic": null,
+   "kind": "rainyday"
+  },
+  {
+   "id": "graysky",
+   "n": null,
+   "a": "a gray sky",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [],
+   "surface": "none",
+   "pic": null,
+   "kind": "graysky"
+  },
+  {
+   "id": "cave",
+   "n": null,
+   "a": "a dark cave",
+   "fits": [
+    "gloomy"
+   ],
+   "also": [],
+   "surface": "rough",
+   "pic": null,
+   "kind": "cave"
+  },
+  {
+   "id": "chick",
+   "n": "chick",
+   "a": "a baby chick",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "fuzzy",
+   "pic": [
+    "farm animals",
+    "chick"
+   ],
+   "kind": "baby bird"
+  },
+  {
+   "id": "duckling",
+   "n": "duckling",
+   "a": "a duckling",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "fuzzy",
+   "pic": [
+    "farm animals",
+    "duckling"
+   ],
+   "kind": "baby bird"
+  },
+  {
+   "id": "lamb",
+   "n": "lamb",
+   "a": "a lamb",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "fuzzy",
+   "pic": [
+    "spring",
+    "lamb"
+   ],
+   "kind": "sheep"
+  },
+  {
+   "id": "sheep",
+   "n": "sheep",
+   "a": "a sheep",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "fuzzy",
+   "pic": [
+    "farm animals",
+    "sheep"
+   ],
+   "kind": "sheep"
+  },
+  {
+   "id": "cloud",
+   "n": "cloud",
+   "a": "a white cloud",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [],
+   "surface": "none",
+   "pic": [
+    "spring",
+    "cloud"
+   ],
+   "kind": "cloud"
+  },
+  {
+   "id": "pillow",
+   "n": null,
+   "a": "a pillow",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "pillow"
+  },
+  {
+   "id": "kitten",
+   "n": null,
+   "a": "a kitten",
+   "fits": [
+    "fluffy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "fuzzy",
+   "pic": null,
+   "kind": "kitten"
+  },
+  {
+   "id": "hedgehog",
+   "n": "hedgehog",
+   "a": "a hedgehog",
+   "fits": [
+    "prickly"
+   ],
+   "also": [],
+   "surface": "spiky",
+   "pic": [
+    "forest creatures",
+    "hedgehog"
+   ],
+   "kind": "spiky animal"
+  },
+  {
+   "id": "porcupine",
+   "n": null,
+   "a": "a porcupine",
+   "fits": [
+    "prickly"
+   ],
+   "also": [],
+   "surface": "spiky",
+   "pic": null,
+   "kind": "porcupine"
+  },
+  {
+   "id": "cactus",
+   "n": null,
+   "a": "a cactus",
+   "fits": [
+    "prickly"
+   ],
+   "also": [],
+   "surface": "spiky",
+   "pic": null,
+   "kind": "cactus"
+  },
+  {
+   "id": "rose",
+   "n": null,
+   "a": "a rose stem",
+   "fits": [
+    "prickly"
+   ],
+   "also": [],
+   "surface": "spiky",
+   "pic": null,
+   "kind": "rose"
+  },
+  {
+   "id": "thornbush",
+   "n": null,
+   "a": "a thorn bush",
+   "fits": [
+    "prickly"
+   ],
+   "also": [],
+   "surface": "spiky",
+   "pic": null,
+   "kind": "thornbush"
+  },
+  {
+   "id": "snail",
+   "n": "snail",
+   "a": "a snail",
+   "fits": [
+    "slimy"
+   ],
+   "also": [
+    "smooth",
+    "sticky"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "spring",
+    "snail"
+   ],
+   "kind": "snail"
+  },
+  {
+   "id": "worm",
+   "n": "worm",
+   "a": "a worm",
+   "fits": [
+    "slimy"
+   ],
+   "also": [
+    "sticky",
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "spring",
+    "worm"
+   ],
+   "kind": "worm"
+  },
+  {
+   "id": "slug",
+   "n": null,
+   "a": "a slug",
+   "fits": [
+    "slimy"
+   ],
+   "also": [
+    "sticky",
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "slug"
+  },
+  {
+   "id": "seaweed",
+   "n": null,
+   "a": "seaweed",
+   "fits": [
+    "slimy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "seaweed"
+  },
+  {
+   "id": "icicle",
+   "n": "icicle",
+   "a": "an icicle",
+   "fits": [
+    "icy"
+   ],
+   "also": [
+    "smooth",
+    "prickly"
+   ],
+   "surface": "smooth",
+   "pic": [
+    "winter",
+    "icicle"
+   ],
+   "kind": "icicle"
+  },
+  {
+   "id": "wind",
+   "n": null,
+   "a": "a winter wind",
+   "fits": [
+    "icy"
+   ],
+   "also": [
+    "noisy"
+   ],
+   "surface": "none",
+   "pic": null,
+   "kind": "wind"
+  },
+  {
+   "id": "frozenpond",
+   "n": null,
+   "a": "a frozen pond",
+   "fits": [
+    "icy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "frozenpond"
+  },
+  {
+   "id": "icecubes",
+   "n": null,
+   "a": "ice cubes",
+   "fits": [
+    "icy"
+   ],
+   "also": [
+    "smooth"
+   ],
+   "surface": "smooth",
+   "pic": null,
+   "kind": "icecubes"
+  }
+ ],
+ "sentences": [
+  {
+   "text": "The salsa was so ___ that Ravi needed some milk.",
+   "fits": [
+    "spicy"
+   ],
+   "about": [
+    "salsa"
+   ]
+  },
+  {
+   "text": "This hot sauce is too ___. I need water!",
+   "fits": [
+    "spicy"
+   ],
+   "about": [
+    "hotsauce"
+   ]
+  },
+  {
+   "text": "Grandpa’s chili has hot peppers, so it is very ___.",
+   "fits": [
+    "spicy"
+   ],
+   "about": [
+    "chili"
+   ]
+  },
+  {
+   "text": "Mom put chili peppers in the soup, so it was ___.",
+   "fits": [
+    "spicy"
+   ],
+   "about": [
+    "chili"
+   ]
+  },
+  {
+   "text": "Dad’s tacos were so ___ that I had to drink milk.",
+   "fits": [
+    "spicy"
+   ],
+   "about": []
+  },
+  {
+   "text": "My orange was so ___ that it squirted me.",
+   "fits": [
+    "juicy"
+   ],
+   "about": [
+    "orange"
+   ]
+  },
+  {
+   "text": "Nia bit a ___ peach, and it dripped down her chin.",
+   "fits": [
+    "juicy",
+    "sticky"
+   ],
+   "about": [
+    "peach"
+   ]
+  },
+  {
+   "text": "The ___ watermelon dripped all over the table.",
+   "fits": [
+    "juicy",
+    "crunchy",
+    "sticky"
+   ],
+   "about": [
+    "watermelon"
+   ]
+  },
+  {
+   "text": "These grapes are so ___ that they squirt.",
+   "fits": [
+    "juicy",
+    "sticky"
+   ],
+   "about": [
+    "grapes"
+   ]
+  },
+  {
+   "text": "Sofia picked a ___ strawberry, ripe and sweet.",
+   "fits": [
+    "juicy",
+    "sticky"
+   ],
+   "about": [
+    "strawberry"
+   ]
+  },
+  {
+   "text": "The crackers were ___, not soft.",
+   "fits": [
+    "crunchy"
+   ],
+   "about": [
+    "cracker"
+   ]
+  },
+  {
+   "text": "Kenji ate his cereal fast, so it stayed ___.",
+   "fits": [
+    "crunchy"
+   ],
+   "about": []
+  },
+  {
+   "text": "Toast is ___ on the outside and soft inside.",
+   "fits": [
+    "crunchy"
+   ],
+   "about": [
+    "toast"
+   ]
+  },
+  {
+   "text": "Leaves in the fall get dry and ___.",
+   "fits": [
+    "crunchy",
+    "noisy"
+   ],
+   "about": [
+    "leaf"
+   ]
+  },
+  {
+   "text": "Our carrots were ___ and snapped in half.",
+   "fits": [
+    "crunchy"
+   ],
+   "about": [
+    "carrot"
+   ]
+  },
+  {
+   "text": "The ___ tape held my picture on the wall.",
+   "fits": [
+    "sticky"
+   ],
+   "about": [
+    "tape"
+   ]
+  },
+  {
+   "text": "After I ate the honey bun, my napkin was ___.",
+   "fits": [
+    "sticky"
+   ],
+   "about": [
+    "honey"
+   ]
+  },
+  {
+   "text": "Syrup is ___, so use a napkin after pancakes.",
+   "fits": [
+    "sticky"
+   ],
+   "about": [
+    "syrup"
+   ]
+  },
+  {
+   "text": "The ___ glue held my paper to the desk.",
+   "fits": [
+    "sticky",
+    "slimy"
+   ],
+   "about": [
+    "glue"
+   ]
+  },
+  {
+   "text": "Jam got on Omar’s book and made it ___.",
+   "fits": [
+    "sticky"
+   ],
+   "about": [
+    "jam"
+   ]
+  },
+  {
+   "text": "Mom rubbed the board with sandpaper until it was ___.",
+   "fits": [
+    "smooth"
+   ],
+   "about": []
+  },
+  {
+   "text": "An egg has a ___ shell with no bumps.",
+   "fits": [
+    "smooth"
+   ],
+   "about": [
+    "egg"
+   ]
+  },
+  {
+   "text": "The river rocks were round and ___.",
+   "fits": [
+    "smooth",
+    "slimy"
+   ],
+   "about": [
+    "pebble"
+   ]
+  },
+  {
+   "text": "Our new table is flat and ___, with no bumps.",
+   "fits": [
+    "smooth"
+   ],
+   "about": []
+  },
+  {
+   "text": "The balloon was ___, not bumpy.",
+   "fits": [
+    "smooth"
+   ],
+   "about": [
+    "balloon"
+   ]
+  },
+  {
+   "text": "The fire truck’s siren was so ___ that the dog hid.",
+   "fits": [
+    "noisy"
+   ],
+   "about": [
+    "firetruck",
+    "siren"
+   ]
+  },
+  {
+   "text": "The lunchroom is ___ when we all talk.",
+   "fits": [
+    "noisy"
+   ],
+   "about": []
+  },
+  {
+   "text": "The ___ drums woke up the baby.",
+   "fits": [
+    "noisy"
+   ],
+   "about": [
+    "drum",
+    "baby"
+   ]
+  },
+  {
+   "text": "My alarm clock is so ___ that I always wake up.",
+   "fits": [
+    "noisy"
+   ],
+   "about": [
+    "alarm"
+   ]
+  },
+  {
+   "text": "It was too ___ to hear the teacher.",
+   "fits": [
+    "noisy"
+   ],
+   "about": []
+  },
+  {
+   "text": "The rooster is ___ every morning.",
+   "fits": [
+    "noisy"
+   ],
+   "about": [
+    "rooster",
+    "morning"
+   ]
+  },
+  {
+   "text": "Take a deep breath to feel ___.",
+   "fits": [
+    "calm"
+   ],
+   "about": []
+  },
+  {
+   "text": "Soft music helps me feel ___ at bedtime.",
+   "fits": [
+    "calm"
+   ],
+   "about": [
+    "music"
+   ]
+  },
+  {
+   "text": "There was no wind, so the lake was ___.",
+   "fits": [
+    "calm",
+    "smooth"
+   ],
+   "about": [
+    "pond",
+    "wind"
+   ]
+  },
+  {
+   "text": "The baby was quiet and ___ after her nap.",
+   "fits": [
+    "calm"
+   ],
+   "about": [
+    "baby"
+   ]
+  },
+  {
+   "text": "Diego stayed ___ and did not yell.",
+   "fits": [
+    "calm"
+   ],
+   "about": []
+  },
+  {
+   "text": "It rained all day, and the sky was gray and ___.",
+   "fits": [
+    "gloomy"
+   ],
+   "about": [
+    "raincloud",
+    "rainyday",
+    "graysky",
+    "darkclouds",
+    "stormcloud"
+   ]
+  },
+  {
+   "text": "On a ___ day, the sun stays behind dark clouds.",
+   "fits": [
+    "gloomy"
+   ],
+   "about": [
+    "darkclouds",
+    "raincloud",
+    "rainyday",
+    "cloud",
+    "stormcloud"
+   ]
+  },
+  {
+   "text": "Dark, rainy days make the yard look ___.",
+   "fits": [
+    "gloomy"
+   ],
+   "about": [
+    "rainyday",
+    "raincloud"
+   ]
+  },
+  {
+   "text": "The old cabin was dark, cold, and ___.",
+   "fits": [
+    "gloomy",
+    "icy"
+   ],
+   "about": [
+    "cave"
+   ]
+  },
+  {
+   "text": "The baby chick has soft, ___ feathers.",
+   "fits": [
+    "fluffy",
+    "smooth"
+   ],
+   "about": [
+    "chick",
+    "baby"
+   ]
+  },
+  {
+   "text": "Aisha shook her pillow to make it ___.",
+   "fits": [
+    "fluffy",
+    "smooth"
+   ],
+   "about": [
+    "pillow"
+   ]
+  },
+  {
+   "text": "The lamb’s wool is white and ___.",
+   "fits": [
+    "fluffy"
+   ],
+   "about": [
+    "lamb",
+    "sheep"
+   ]
+  },
+  {
+   "text": "We saw white, ___ clouds in the blue sky.",
+   "fits": [
+    "fluffy"
+   ],
+   "about": [
+    "cloud",
+    "raincloud",
+    "darkclouds",
+    "stormcloud",
+    "graysky"
+   ]
+  },
+  {
+   "text": "Don’t touch the cactus. It is ___!",
+   "fits": [
+    "prickly"
+   ],
+   "about": [
+    "cactus"
+   ]
+  },
+  {
+   "text": "The hedgehog rolled into a ___ ball.",
+   "fits": [
+    "prickly"
+   ],
+   "about": [
+    "hedgehog"
+   ]
+  },
+  {
+   "text": "The rose stem was ___ with sharp little points.",
+   "fits": [
+    "prickly"
+   ],
+   "about": [
+    "rose"
+   ]
+  },
+  {
+   "text": "A pineapple is ___ on the outside.",
+   "fits": [
+    "prickly"
+   ],
+   "about": [
+    "pineapple"
+   ]
+  },
+  {
+   "text": "The ___ bush poked a hole in my kite.",
+   "fits": [
+    "prickly"
+   ],
+   "about": [
+    "thornbush"
+   ]
+  },
+  {
+   "text": "The snail left a wet, ___ trail on the path.",
+   "fits": [
+    "slimy",
+    "sticky"
+   ],
+   "about": [
+    "snail"
+   ]
+  },
+  {
+   "text": "The worm was wet and ___.",
+   "fits": [
+    "slimy",
+    "sticky"
+   ],
+   "about": [
+    "worm"
+   ]
+  },
+  {
+   "text": "The rock in the pond was green and ___.",
+   "fits": [
+    "slimy",
+    "smooth"
+   ],
+   "about": [
+    "pond",
+    "pebble",
+    "frozenpond"
+   ]
+  },
+  {
+   "text": "A slug is wet and ___, and it has no shell.",
+   "fits": [
+    "slimy",
+    "sticky"
+   ],
+   "about": [
+    "slug"
+   ]
+  },
+  {
+   "text": "Old lettuce in the fridge turned brown and ___.",
+   "fits": [
+    "slimy",
+    "sticky"
+   ],
+   "about": []
+  },
+  {
+   "text": "Seaweed on the rocks was wet and ___.",
+   "fits": [
+    "slimy",
+    "smooth"
+   ],
+   "about": [
+    "seaweed"
+   ]
+  },
+  {
+   "text": "The pond weeds were long, green, and ___.",
+   "fits": [
+    "slimy"
+   ],
+   "about": [
+    "pond",
+    "frozenpond"
+   ]
+  },
+  {
+   "text": "The fish in the net were wet and ___.",
+   "fits": [
+    "slimy",
+    "smooth"
+   ],
+   "about": []
+  },
+  {
+   "text": "Be careful! The sidewalk is ___ this morning.",
+   "fits": [
+    "icy"
+   ],
+   "about": [
+    "morning"
+   ]
+  },
+  {
+   "text": "The wind was so ___ that we wore hats and mittens.",
+   "fits": [
+    "icy"
+   ],
+   "about": [
+    "wind"
+   ]
+  },
+  {
+   "text": "The cold steps were ___, so Mateo held the rail.",
+   "fits": [
+    "icy",
+    "slimy"
+   ],
+   "about": []
+  },
+  {
+   "text": "The ___ road made the cars slide.",
+   "fits": [
+    "icy",
+    "slimy"
+   ],
+   "about": []
+  },
+  {
+   "text": "The pond froze, and it was ___ all winter.",
+   "fits": [
+    "icy",
+    "smooth"
+   ],
+   "about": [
+    "frozenpond",
+    "pond"
+   ]
+  }
+ ],
+ "riddles": [
+  {
+   "words": [
+    "prickly",
+    "juicy"
+   ],
+   "text": "I am prickly outside and juicy inside. What am I? A pineapple."
+  },
+  {
+   "words": [
+    "crunchy",
+    "juicy"
+   ],
+   "text": "I am crunchy and juicy. I grow on trees. What am I? An apple."
+  },
+  {
+   "words": [
+    "sticky",
+    "smooth"
+   ],
+   "text": "I am sticky and smooth. Bees make me. What am I? Honey."
+  },
+  {
+   "words": [
+    "icy",
+    "smooth"
+   ],
+   "text": "I am icy and smooth. You skate on me. What am I? A frozen pond."
+  },
+  {
+   "words": [
+    "noisy",
+    "gloomy"
+   ],
+   "text": "I am noisy and gloomy. I bring rain. What am I? A storm."
+  },
+  {
+   "words": [
+    "calm",
+    "smooth"
+   ],
+   "text": "I am calm and smooth when there is no wind. What am I? A pond."
+  },
+  {
+   "words": [
+    "crunchy",
+    "noisy"
+   ],
+   "text": "I am crunchy and noisy under your shoes. What am I? A dry leaf."
+  },
+  {
+   "words": [
+    "fluffy",
+    "noisy"
+   ],
+   "text": "I am fluffy and noisy. I love to play fetch. What am I? A puppy."
+  },
+  {
+   "words": [
+    "fluffy",
+    "sticky"
+   ],
+   "text": "I am fluffy and sticky, pink and sweet. What am I? Cotton candy."
+  },
+  {
+   "words": [
+    "slimy",
+    "noisy"
+   ],
+   "text": "I am slimy and noisy. I hop by the pond. What am I? A frog."
+  },
+  {
+   "words": [
+    "icy",
+    "crunchy"
+   ],
+   "text": "I am icy and crunchy under your boots. What am I? Snow."
+  },
+  {
+   "words": [
+    "spicy",
+    "crunchy"
+   ],
+   "text": "I am spicy and crunchy. I come in a bag. What am I? Hot chips."
+  }
+ ],
+ "adjadv": {
+  "pairs": {
+   "quick": "quickly",
+   "soft": "softly",
+   "loud": "loudly",
+   "careful": "carefully",
+   "happy": "happily",
+   "slow": "slowly",
+   "quiet": "quietly",
+   "brave": "bravely",
+   "kind": "kindly",
+   "neat": "neatly",
+   "sad": "sadly",
+   "proud": "proudly",
+   "polite": "politely",
+   "calm": "calmly"
+  },
+  "safe": [
+   "careful",
+   "brave",
+   "neat",
+   "sad",
+   "happy",
+   "polite",
+   "proud",
+   "calm"
+  ],
+  "sentences": [
+   {
+    "text": "The ___ turtle walked to the pond.",
+    "base": "slow",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "turtle",
+    "pic": [
+     "pets",
+     "turtle"
+    ]
+   },
+   {
+    "text": "A ___ dog ran after the ball.",
+    "base": "quick",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "dog",
+    "pic": [
+     "pets",
+     "dog"
+    ]
+   },
+   {
+    "text": "My cat sleeps on a ___ pillow.",
+    "base": "soft",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "pillow",
+    "pic": [
+     "around the house",
+     "pillow"
+    ]
+   },
+   {
+    "text": "The ___ lion roared at the zoo.",
+    "base": "loud",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "lion",
+    "pic": [
+     "zoo animals",
+     "lion"
+    ]
+   },
+   {
+    "text": "Sam keeps his books on a ___ desk.",
+    "base": "neat",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "desk",
+    "pic": [
+     "classroom",
+     "desk"
+    ]
+   },
+   {
+    "text": "A ___ firefighter saved the cat.",
+    "base": "brave",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "firefighter",
+    "pic": [
+     "occupations",
+     "firefighter"
+    ]
+   },
+   {
+    "text": "We heard a ___ story about a lost bear.",
+    "base": "sad",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "story"
+   },
+   {
+    "text": "A ___ owl sat in the tall tree.",
+    "base": "quiet",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "owl",
+    "pic": [
+     "forest creatures",
+     "owl"
+    ]
+   },
+   {
+    "text": "The ___ boy said please and thank you.",
+    "base": "polite",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "boy"
+   },
+   {
+    "text": "Leo’s dad is a ___ cook.",
+    "base": "careful",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "cook"
+   },
+   {
+    "text": "We sat by the ___ lake.",
+    "base": "calm",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "lake",
+    "pic": [
+     "camping",
+     "lake"
+    ]
+   },
+   {
+    "text": "The ___ girl held up her blue ribbon.",
+    "base": "proud",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "girl"
+   },
+   {
+    "text": "The ___ baby giggled at the bubbles.",
+    "base": "happy",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "baby"
+   },
+   {
+    "text": "A ___ rabbit hopped into the garden.",
+    "base": "quick",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "rabbit",
+    "pic": [
+     "pets",
+     "rabbit"
+    ]
+   },
+   {
+    "text": "The ___ elephant walked into the river.",
+    "base": "slow",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "elephant",
+    "pic": [
+     "zoo animals",
+     "elephant"
+    ]
+   },
+   {
+    "text": "The library is ___.",
+    "base": "quiet",
+    "kind": "adj",
+    "pos": "be",
+    "target": "library"
+   },
+   {
+    "text": "The turtle is very ___.",
+    "base": "slow",
+    "kind": "adj",
+    "pos": "be",
+    "target": "turtle",
+    "pic": [
+     "pets",
+     "turtle"
+    ]
+   },
+   {
+    "text": "The music was too ___.",
+    "base": "loud",
+    "kind": "adj",
+    "pos": "be",
+    "target": "music"
+   },
+   {
+    "text": "My room is ___ and clean.",
+    "base": "neat",
+    "kind": "adj",
+    "pos": "be",
+    "target": "room"
+   },
+   {
+    "text": "The kitten’s fur is ___.",
+    "base": "soft",
+    "kind": "adj",
+    "pos": "be",
+    "target": "fur"
+   },
+   {
+    "text": "The dog was so ___ to see me.",
+    "base": "happy",
+    "kind": "adj",
+    "pos": "be",
+    "target": "dog",
+    "pic": [
+     "pets",
+     "dog"
+    ]
+   },
+   {
+    "text": "Our teacher was ___ of the class.",
+    "base": "proud",
+    "kind": "adj",
+    "pos": "be",
+    "target": "teacher"
+   },
+   {
+    "text": "The boy was ___ when his kite broke.",
+    "base": "sad",
+    "kind": "adj",
+    "pos": "be",
+    "target": "boy"
+   },
+   {
+    "text": "The rabbit is very ___.",
+    "base": "quick",
+    "kind": "adj",
+    "pos": "be",
+    "target": "rabbit",
+    "pic": [
+     "pets",
+     "rabbit"
+    ]
+   },
+   {
+    "text": "The sea was ___ after the storm.",
+    "base": "calm",
+    "kind": "adj",
+    "pos": "be",
+    "target": "sea"
+   },
+   {
+    "text": "The firefighters were ___.",
+    "base": "brave",
+    "kind": "adj",
+    "pos": "be",
+    "target": "firefighters"
+   },
+   {
+    "text": "The owl is ___ in the daytime.",
+    "base": "quiet",
+    "kind": "adj",
+    "pos": "be",
+    "target": "owl",
+    "pic": [
+     "forest creatures",
+     "owl"
+    ]
+   },
+   {
+    "text": "The lion is ___.",
+    "base": "loud",
+    "kind": "adj",
+    "pos": "be",
+    "target": "lion",
+    "pic": [
+     "zoo animals",
+     "lion"
+    ]
+   },
+   {
+    "text": "The new pillow is ___.",
+    "base": "soft",
+    "kind": "adj",
+    "pos": "be",
+    "target": "pillow",
+    "pic": [
+     "around the house",
+     "pillow"
+    ]
+   },
+   {
+    "text": "Mia is ___ with the glass vase.",
+    "base": "careful",
+    "kind": "adj",
+    "pos": "be",
+    "target": "Mia"
+   },
+   {
+    "text": "The children were ___ and said thank you.",
+    "base": "polite",
+    "kind": "adj",
+    "pos": "be",
+    "target": "children"
+   },
+   {
+    "text": "The turtle ___ walked to the pond.",
+    "base": "slow",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "walked",
+    "pic": [
+     "pets",
+     "turtle"
+    ]
+   },
+   {
+    "text": "The dog ___ ran to the door.",
+    "base": "quick",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "ran",
+    "pic": [
+     "pets",
+     "dog"
+    ]
+   },
+   {
+    "text": "Mia ___ carried the eggs.",
+    "base": "careful",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "carried",
+    "pic": [
+     "At the Supermarket",
+     "egg"
+    ]
+   },
+   {
+    "text": "The baby ___ played in her crib.",
+    "base": "quiet",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "played"
+   },
+   {
+    "text": "The children ___ played in the snow.",
+    "base": "happy",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "played"
+   },
+   {
+    "text": "Omar ___ folded his shirts.",
+    "base": "neat",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "folded"
+   },
+   {
+    "text": "The cat walked across the bed ___.",
+    "base": "soft",
+    "kind": "adv",
+    "pos": "end",
+    "target": "walked",
+    "pic": [
+     "pets",
+     "cat"
+    ]
+   },
+   {
+    "text": "Dad ___ climbed the ladder.",
+    "base": "brave",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "climbed",
+    "pic": [
+     "tools",
+     "ladder"
+    ]
+   },
+   {
+    "text": "Ms. Lee ___ helped me tie my shoe.",
+    "base": "kind",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "helped"
+   },
+   {
+    "text": "The crowd ___ cheered for the team.",
+    "base": "loud",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "cheered"
+   },
+   {
+    "text": "Priya ___ asked to use the swing.",
+    "base": "polite",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "asked"
+   },
+   {
+    "text": "Ben ___ said goodbye to his friend.",
+    "base": "sad",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "said"
+   },
+   {
+    "text": "Ana ___ showed her drawing to the class.",
+    "base": "proud",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "showed"
+   },
+   {
+    "text": "Dad ___ talked to the scared puppy.",
+    "base": "calm",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "talked"
+   },
+   {
+    "text": "The bird ___ sang outside my window.",
+    "base": "soft",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "sang",
+    "pic": [
+     "spring",
+     "bird"
+    ]
+   },
+   {
+    "text": "The horse ___ trotted around the farm.",
+    "base": "slow",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "trotted",
+    "pic": [
+     "farm animals",
+     "horse"
+    ]
+   },
+   {
+    "text": "The bear ___ climbed up the tree.",
+    "base": "quick",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "climbed",
+    "pic": [
+     "forest creatures",
+     "bear"
+    ]
+   },
+   {
+    "text": "The squirrel ___ hid its nuts.",
+    "base": "quick",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "hid",
+    "pic": [
+     "forest creatures",
+     "squirrel"
+    ]
+   },
+   {
+    "text": "The fox ___ crept past the hens.",
+    "base": "quiet",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "crept",
+    "pic": [
+     "forest creatures",
+     "fox"
+    ]
+   },
+   {
+    "text": "The duck ___ swam across the pond.",
+    "base": "slow",
+    "kind": "adv",
+    "pos": "verb",
+    "target": "swam",
+    "pic": [
+     "farm animals",
+     "duck"
+    ]
+   },
+   {
+    "text": "The dog wagged its tail ___.",
+    "base": "happy",
+    "kind": "adv",
+    "pos": "end",
+    "target": "wagged",
+    "pic": [
+     "pets",
+     "dog"
+    ]
+   },
+   {
+    "text": "Ms. Lopez smiled at us ___.",
+    "base": "kind",
+    "kind": "adv",
+    "pos": "end",
+    "target": "smiled"
+   },
+   {
+    "text": "The firefighter fought the fire ___.",
+    "base": "brave",
+    "kind": "adv",
+    "pos": "end",
+    "target": "fought",
+    "pic": [
+     "occupations",
+     "firefighter"
+    ]
+   },
+   {
+    "text": "Mateo shared his snack ___.",
+    "base": "kind",
+    "kind": "adv",
+    "pos": "end",
+    "target": "shared"
+   },
+   {
+    "text": "Aisha asked for help ___.",
+    "base": "polite",
+    "kind": "adv",
+    "pos": "end",
+    "target": "asked"
+   },
+   {
+    "text": "Zoe showed her ribbon ___.",
+    "base": "proud",
+    "kind": "adv",
+    "pos": "end",
+    "target": "showed"
+   },
+   {
+    "text": "The bird chirped ___.",
+    "base": "happy",
+    "kind": "adv",
+    "pos": "end",
+    "target": "chirped",
+    "pic": [
+     "spring",
+     "bird"
+    ]
+   },
+   {
+    "text": "The cat purred ___.",
+    "base": "happy",
+    "kind": "adv",
+    "pos": "end",
+    "target": "purred",
+    "pic": [
+     "pets",
+     "cat"
+    ]
+   },
+   {
+    "text": "The rooster crowed ___.",
+    "base": "proud",
+    "kind": "adv",
+    "pos": "end",
+    "target": "crowed",
+    "pic": [
+     "farm animals",
+     "rooster"
+    ]
+   },
+   {
+    "text": "The boy held his broken kite ___.",
+    "base": "sad",
+    "kind": "adv",
+    "pos": "end",
+    "target": "held"
+   },
+   {
+    "text": "The coach spoke to the team ___.",
+    "base": "calm",
+    "kind": "adv",
+    "pos": "end",
+    "target": "spoke"
+   },
+   {
+    "text": "The cow chewed its food ___.",
+    "base": "calm",
+    "kind": "adv",
+    "pos": "end",
+    "target": "chewed",
+    "pic": [
+     "farm animals",
+     "cow"
+    ]
+   }
+  ],
+  "goodwell": [
+   {
+    "text": "Maya is a ___ singer.",
+    "base": "good",
+    "form": "good",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "singer",
+    "who": "Maya"
+   },
+   {
+    "text": "Maya sings very ___.",
+    "base": "good",
+    "form": "well",
+    "kind": "adv",
+    "pos": "end",
+    "target": "sings",
+    "who": "Maya"
+   },
+   {
+    "text": "Diego is a ___ swimmer.",
+    "base": "good",
+    "form": "good",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "swimmer",
+    "who": "Diego"
+   },
+   {
+    "text": "Diego swims very ___.",
+    "base": "good",
+    "form": "well",
+    "kind": "adv",
+    "pos": "end",
+    "target": "swims",
+    "who": "Diego"
+   },
+   {
+    "text": "Grace did a ___ job on her picture.",
+    "base": "good",
+    "form": "good",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "job",
+    "who": "Grace"
+   },
+   {
+    "text": "Leo plays the drum very ___.",
+    "base": "good",
+    "form": "well",
+    "kind": "adv",
+    "pos": "end",
+    "target": "plays",
+    "who": "Leo"
+   },
+   {
+    "text": "Kai is a ___ reader.",
+    "base": "good",
+    "form": "good",
+    "kind": "adj",
+    "pos": "noun",
+    "target": "reader",
+    "who": "Kai"
+   },
+   {
+    "text": "Kai draws horses very ___.",
+    "base": "good",
+    "form": "well",
+    "kind": "adv",
+    "pos": "end",
+    "target": "draws",
+    "who": "Kai"
+   }
+  ],
+  "phrases": {
+   "brave": {
+    "adj": "a ___ firefighter",
+    "adv": "fought ___"
+   },
+   "neat": {
+    "adj": "a ___ desk",
+    "adv": "folded it ___"
+   },
+   "sad": {
+    "adj": "a ___ puppy",
+    "adv": "cried ___"
+   },
+   "happy": {
+    "adj": "a ___ baby",
+    "adv": "laughed ___"
+   },
+   "polite": {
+    "adj": "a ___ boy",
+    "adv": "asked ___"
+   },
+   "proud": {
+    "adj": "a ___ dad",
+    "adv": "smiled ___"
+   },
+   "calm": {
+    "adj": "a ___ lake",
+    "adv": "spoke ___"
+   }
+  },
+  "write": {
+   "careful": "Leo is a careful painter. He carefully painted the fence.",
+   "brave": "The firefighter is brave. She bravely climbed the ladder.",
+   "neat": "My desk is neat. I neatly stacked my papers.",
+   "sad": "The lost puppy was sad. It cried sadly at the door.",
+   "proud": "Zoe was proud of her drawing. She proudly showed it to her mom.",
+   "polite": "Priya is polite. She politely said thank you.",
+   "calm": "The lake is calm. The ducks calmly swam across it."
+  }
+ },
+ "bad": [
+  "kill",
+  "dead",
+  "die",
+  "blood",
+  "gun",
+  "stupid",
+  "dumb",
+  "ugly",
+  "fat",
+  "skinny",
+  "hate",
+  "shut",
+  "butt",
+  "poop",
+  "pee",
+  "god",
+  "church",
+  "christmas",
+  "easter",
+  "halloween",
+  "beer",
+  "wine",
+  "drunk",
+  "sexy",
+  "idiot"
+ ]
+}

@@ -1,0 +1,2628 @@
+{
+ "link": {
+  "words": [
+   "because",
+   "since",
+   "therefore",
+   "for example"
+  ],
+  "jobs": {
+   "because": "tells why (gives a reason)",
+   "since": "tells why (gives a reason)",
+   "therefore": "tells what happens as a result",
+   "for example": "gives an example"
+  },
+  "margin": [
+   [
+    "because",
+    "tells why"
+   ],
+   [
+    "since",
+    "tells why"
+   ],
+   [
+    "therefore",
+    "tells what happens as a result"
+   ],
+   [
+    "for example",
+    "gives an example"
+   ],
+   [
+    "another reason",
+    "adds a reason"
+   ]
+  ],
+  "items": [
+   {
+    "t": "Spring is a great season ___ the flowers start to bloom.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Our class should have a garden ___ plants teach us about science.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Tag is a good game for recess ___ everyone can play.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Our class should take a nature walk ___ we can look for birds and bugs.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Owls are amazing birds ___ they can fly without a sound.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Reading time is my favorite part of the day ___ I learn new words.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "We should sing more songs in class ___ singing makes us happy.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Fall is the best season for walks ___ the air is cool.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Bees are important ___ they help plants make seeds.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "The library is the best room in our school ___ it is full of books.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Jump rope is good exercise ___ you keep moving the whole time.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Our class should plant a tree ___ trees give shade on hot days.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Our class should paint a mural ___ everyone can add a picture.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Puzzles are great for indoor recess ___ they make us think.",
+    "kind": "reason",
+    "at": "mid",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ the days are long, summer is the best time to play outside.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ singing wakes us up, our class should start each day with a song.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ plants need care every day, a class plant teaches us to be responsible.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ rainy days keep us inside, we need fun games for indoor recess.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ puzzles are quiet, indoor recess is a good time to do them.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "___ most owls hunt at night, they need big eyes to see in the dark.",
+    "kind": "reason",
+    "at": "start",
+    "fits": [
+     "because",
+     "since"
+    ]
+   },
+   {
+    "t": "Spring days are warm and sunny. ___, spring is a great season for playing outside.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Plants need water every day. ___, our class should make a watering chart.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "The paint on our art was still wet. ___, we waited before we hung it up.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Reading helps us learn new words. ___, every class should have quiet reading time.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Bees help plants make fruit. ___, we should protect bees.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Tag lets everyone play at once. ___, it is the best game for a big class.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Trees give us shade and clean air. ___, our school should plant more trees.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Our garden needs lots of sun. ___, we planted it on the sunny side of the school.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Most owls hunt at night. ___, most owls sleep during the day.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Our classroom gets messy during art. ___, everyone should help clean up.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Music class makes students feel happy. ___, the students look forward to it.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "The air is cool and crisp in fall. ___, fall is a good season for long walks.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Rainy days keep us indoors. ___, our class needs more indoor games.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "The library is quiet. ___, it is a good place to read.",
+    "kind": "result",
+    "at": "start",
+    "fits": [
+     "therefore"
+    ]
+   },
+   {
+    "t": "Spring has many pretty flowers. ___, tulips bloom in bright colors.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "flowers",
+    "member": "tulips"
+   },
+   {
+    "t": "Our playground has many things to climb. ___, there is a tall rope net.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "things to climb",
+    "member": "rope net"
+   },
+   {
+    "t": "Owls have special bodies for hunting. ___, their soft feathers help them fly quietly.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "bodies",
+    "member": "feathers"
+   },
+   {
+    "t": "Fall has lots of colors. ___, maple leaves turn bright red.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "colors",
+    "member": "red"
+   },
+   {
+    "t": "The library has books on many topics. ___, it has books about sharks and planets.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "topics",
+    "member": "sharks"
+   },
+   {
+    "t": "Our classroom has many helper jobs. ___, one job is to water the plants.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "jobs",
+    "member": "one job"
+   },
+   {
+    "t": "Art class has many kinds of projects. ___, one project was a sponge painting.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "projects",
+    "member": "one project"
+   },
+   {
+    "t": "Frogs can do amazing things. ___, some frogs can jump twenty times their length.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "things",
+    "member": "jump"
+   },
+   {
+    "t": "Our school has many helpers. ___, the nurse helps us when we feel sick.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "helpers",
+    "member": "nurse"
+   },
+   {
+    "t": "Insects come in many shapes. ___, a walking stick looks like a twig.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "shapes",
+    "member": "walking stick"
+   },
+   {
+    "t": "Some animals sleep through the winter. ___, many bears sleep in dens until spring.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "animals",
+    "member": "bears"
+   },
+   {
+    "t": "Many plants have seeds we can see. ___, a sunflower has hundreds of seeds.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "plants",
+    "member": "sunflower"
+   },
+   {
+    "t": "Some insects make things we use. ___, honeybees make honey and wax.",
+    "kind": "example",
+    "at": "start",
+    "fits": [
+     "for example"
+    ],
+    "group": "insects",
+    "member": "honeybees"
+   }
+  ],
+  "joins": [
+   {
+    "op": "Tag is fun.",
+    "r": "Everyone can play."
+   },
+   {
+    "op": "Spring is great.",
+    "r": "Flowers bloom."
+   },
+   {
+    "op": "We need more trees.",
+    "r": "They give shade."
+   },
+   {
+    "op": "Owls are amazing.",
+    "r": "They fly silently."
+   },
+   {
+    "op": "Art is fun.",
+    "r": "We make new things."
+   },
+   {
+    "op": "We need bees.",
+    "r": "They help plants grow."
+   },
+   {
+    "op": "Fall is great.",
+    "r": "The leaves turn red."
+   },
+   {
+    "op": "Books are great.",
+    "r": "We learn new words."
+   },
+   {
+    "op": "Music class is fun.",
+    "r": "We get to sing."
+   },
+   {
+    "op": "Puzzles are fun.",
+    "r": "They make us think."
+   },
+   {
+    "op": "Summer is best.",
+    "r": "The days are long."
+   },
+   {
+    "op": "We need a garden.",
+    "r": "We can grow food."
+   },
+   {
+    "op": "Partner work is fun.",
+    "r": "We share ideas."
+   },
+   {
+    "op": "Jump rope is fun.",
+    "r": "We jump to rhymes."
+   },
+   {
+    "op": "Recess is the best.",
+    "r": "We can run."
+   },
+   {
+    "op": "Line leader is fun.",
+    "r": "You go first."
+   }
+  ]
+ },
+ "prompts": [
+  {
+   "key": "playground",
+   "tag": "playground",
+   "q": "Which is best: the swings, the slide, or the monkey bars?",
+   "tp": "the best playground ride",
+   "op": "the swings are the best",
+   "rs": [
+    [
+     "you can go very high",
+     "I almost touch the sky"
+    ],
+    [
+     "the wind feels cool",
+     "my hair flies back"
+    ],
+    [
+     "you learn to pump",
+     "I pump my legs to go"
+    ]
+   ],
+   "cl": "no ride beats the swings",
+   "bc": [
+    1,
+    "you move fast"
+   ]
+  },
+  {
+   "key": "books",
+   "tag": "book-kind",
+   "q": "Which book is best: a funny story, a mystery, or a fact book?",
+   "tp": "the best kind of book",
+   "op": "funny stories are best",
+   "rs": [
+    [
+     "they make us laugh",
+     "I laughed at the jokes"
+    ],
+    [
+     "we can read them aloud",
+     "I read one to my class"
+    ],
+    [
+     "they get kids reading",
+     "I read three in a week"
+    ]
+   ],
+   "cl": "nothing beats a funny book",
+   "bc": [
+    0,
+    "silly things happen"
+   ]
+  },
+  {
+   "key": "teach",
+   "tag": "kid-teacher",
+   "q": "Should every student get a turn to teach the class something?",
+   "tp": "taking turns to teach",
+   "op": "kids should teach the class",
+   "rs": [
+    [
+     "we learn from friends",
+     "I learned a card trick"
+    ],
+    [
+     "teaching helps us learn",
+     "I knew my facts better"
+    ],
+    [
+     "kids feel brave",
+     "my voice got stronger"
+    ]
+   ],
+   "cl": "kid teachers make class better",
+   "bc": [
+    2,
+    "they try new things"
+   ]
+  },
+  {
+   "key": "fieldtrip",
+   "tag": "field-trip",
+   "q": "Which field trip is best: a farm, a zoo, or a museum?",
+   "tp": "the best field trip",
+   "op": "a farm is the best trip",
+   "rs": [
+    [
+     "we see animals up close",
+     "we could feed a goat"
+    ],
+    [
+     "we learn how food grows",
+     "we could pick apples"
+    ],
+    [
+     "we can be outside all day",
+     "we walk in the fields"
+    ]
+   ],
+   "cl": "a farm trip beats them all",
+   "bc": [
+    0,
+    "the pens are low"
+   ]
+  },
+  {
+   "key": "partner",
+   "tag": "partner-work",
+   "q": "Is it better to work alone or with a partner?",
+   "tp": "working with a partner",
+   "op": "partners make work better",
+   "rs": [
+    [
+     "partners share ideas",
+     "we can plan a poster"
+    ],
+    [
+     "we check work",
+     "my partner found a missing period"
+    ],
+    [
+     "it is more fun",
+     "we can laugh and talk"
+    ]
+   ],
+   "cl": "two heads are better than one",
+   "bc": [
+    2,
+    "we cheer each other on"
+   ]
+  },
+  {
+   "key": "readaloud",
+   "tag": "read-aloud",
+   "q": "Should students take turns choosing the class read-aloud book?",
+   "tp": "our read-aloud book",
+   "op": "we should take turns picking",
+   "rs": [
+    [
+     "everyone gets a say",
+     "each kid gets a week"
+    ],
+    [
+     "we hear new books",
+     "one was about space"
+    ],
+    [
+     "kids feel proud",
+     "we clap for each pick"
+    ]
+   ],
+   "cl": "every kid should get a turn",
+   "bc": [
+    2,
+    "we like their books"
+   ]
+  },
+  {
+   "key": "classbook",
+   "tag": "class-book",
+   "q": "Should our class make a class book together?",
+   "tp": "making a class book",
+   "op": "we should make a class book",
+   "rs": [
+    [
+     "everyone can add a page",
+     "each kid writes a page"
+    ],
+    [
+     "we can read it again",
+     "we reread it all year"
+    ],
+    [
+     "it shows what we learned",
+     "it can show our town"
+    ]
+   ],
+   "cl": "a class book is a great project",
+   "bc": [
+    1,
+    "it stays in class"
+   ]
+  },
+  {
+   "key": "party",
+   "tag": "class-party",
+   "q": "Which class party is best: dancing, a picnic, or games?",
+   "tp": "the best class party",
+   "op": "games are the best party",
+   "rs": [
+    [
+     "everyone can join in",
+     "even shy kids play"
+    ],
+    [
+     "we learn new games",
+     "we tried a ring toss"
+    ],
+    [
+     "games make us laugh",
+     "we giggled at charades"
+    ]
+   ],
+   "cl": "a game day beats any party",
+   "bc": [
+    2,
+    "they are silly"
+   ]
+  },
+  {
+   "key": "capsule",
+   "tag": "time-capsule",
+   "q": "Should our class make a time capsule?",
+   "tp": "a class time capsule",
+   "op": "a time capsule is a fun idea",
+   "rs": [
+    [
+     "we can remember this year",
+     "we add our drawings"
+    ],
+    [
+     "we see how we change",
+     "I wrote how tall I am"
+    ],
+    [
+     "we get a surprise later",
+     "we open it in June"
+    ]
+   ],
+   "cl": "our class needs a time capsule",
+   "bc": [
+    1,
+    "we grow so fast"
+   ]
+  },
+  {
+   "key": "seats",
+   "tag": "seats",
+   "q": "Should students choose where they sit in class?",
+   "tp": "choosing our own seats",
+   "op": "we should pick our seats",
+   "rs": [
+    [
+     "we sit where we work best",
+     "I work best up front"
+    ],
+    [
+     "we can sit by a buddy",
+     "I fixed my subtraction"
+    ],
+    [
+     "we learn to choose well",
+     "we move if it is loud"
+    ]
+   ],
+   "cl": "picking seats is a good idea",
+   "bc": [
+    1,
+    "they explain math"
+   ]
+  },
+  {
+   "key": "job",
+   "tag": "class-job",
+   "q": "What is the best job in our classroom?",
+   "tp": "the best classroom job",
+   "op": "line leader is the best job",
+   "rs": [
+    [
+     "you get to go first",
+     "you lead us to lunch"
+    ],
+    [
+     "you help keep us safe",
+     "you keep us in line"
+    ],
+    [
+     "you learn to be a leader",
+     "we stop when you stop"
+    ]
+   ],
+   "cl": "no class job beats line leader",
+   "bc": [
+    2,
+    "others follow"
+   ]
+  },
+  {
+   "key": "clean",
+   "tag": "classroom-clean",
+   "q": "Should students help keep the classroom clean?",
+   "tp": "keeping our room clean",
+   "op": "kids should help clean up",
+   "rs": [
+    [
+     "we can find things fast",
+     "the glue is in its bin"
+    ],
+    [
+     "our teacher is busy",
+     "our teacher plans math"
+    ],
+    [
+     "we learn to take care",
+     "we put caps on markers"
+    ]
+   ],
+   "cl": "a clean room is everyone's job",
+   "bc": [
+    2,
+    "it is our room too"
+   ]
+  },
+  {
+   "key": "lunch",
+   "tag": "recess-time",
+   "q": "Should recess come before lunch or after lunch?",
+   "tp": "when recess should happen",
+   "op": "recess should come first",
+   "rs": [
+    [
+     "playing makes us hungry",
+     "we eat all our lunch"
+    ],
+    [
+     "we do not rush lunch",
+     "we eat slowly and talk"
+    ],
+    [
+     "lunch helps us calm down",
+     "we sit and rest"
+    ]
+   ],
+   "cl": "play should come before lunch",
+   "bc": [
+    0,
+    "we run a lot"
+   ]
+  },
+  {
+   "key": "weather",
+   "tag": "weather",
+   "q": "What is the best kind of weather for playing outside?",
+   "tp": "the best weather for play",
+   "op": "sunny days are the best",
+   "rs": [
+    [
+     "we can run on dry grass",
+     "we never slip in mud"
+    ],
+    [
+     "the sun keeps us warm",
+     "we need no heavy coats"
+    ],
+    [
+     "we can see far",
+     "we can see the ball"
+    ]
+   ],
+   "cl": "sunny days are perfect for play",
+   "bc": [
+    2,
+    "the air is clear"
+   ]
+  },
+  {
+   "key": "day",
+   "tag": "school-day",
+   "q": "Which is the best day of the school week?",
+   "tp": "the best school day",
+   "op": "Friday is the best day",
+   "rs": [
+    [
+     "we have art on Fridays",
+     "we painted birds"
+    ],
+    [
+     "the weekend comes next",
+     "we rest on Saturday"
+    ],
+    [
+     "we share our work",
+     "we read stories aloud"
+    ]
+   ],
+   "cl": "no school day beats Friday",
+   "bc": [
+    2,
+    "we are proud"
+   ]
+  },
+  {
+   "key": "buddies",
+   "tag": "reading-buddies",
+   "q": "Should third graders read with younger reading buddies?",
+   "tp": "reading buddies",
+   "op": "reading buddies are great",
+   "rs": [
+    [
+     "little kids love stories",
+     "they giggle at jokes"
+    ],
+    [
+     "we practice reading aloud",
+     "we reread a page twice"
+    ],
+    [
+     "we can be helpers",
+     "we help with big words"
+    ]
+   ],
+   "cl": "reading buddies help everyone",
+   "bc": [
+    2,
+    "they ask us"
+   ]
+  },
+  {
+   "key": "indoor",
+   "tag": "indoor-recess",
+   "q": "What is the best thing to do at indoor recess?",
+   "tp": "indoor recess",
+   "op": "drawing is the best choice",
+   "rs": [
+    [
+     "it is quiet",
+     "we hear the rain while we draw"
+    ],
+    [
+     "we can share our art",
+     "a friend drew a dragon"
+    ],
+    [
+     "it helps us relax",
+     "I feel calm as I color"
+    ]
+   ],
+   "cl": "drawing is perfect on rainy days",
+   "bc": [
+    1,
+    "we hang it up"
+   ]
+  },
+  {
+   "key": "thanks",
+   "tag": "thank-you-notes",
+   "q": "Should our class write thank-you notes to school helpers?",
+   "tp": "thank-you notes",
+   "op": "our class should send thanks",
+   "rs": [
+    [
+     "helpers feel proud",
+     "the nurse smiled"
+    ],
+    [
+     "we practice writing",
+     "I wrote kind words"
+    ],
+    [
+     "it builds kindness",
+     "we say thanks more"
+    ]
+   ],
+   "cl": "a thank-you note is a great gift",
+   "bc": [
+    0,
+    "we see their work"
+   ]
+  },
+  {
+   "key": "rule",
+   "tag": "playground-rule",
+   "q": "What is the most important rule for the playground?",
+   "tp": "playground rules",
+   "op": "taking turns matters most",
+   "rs": [
+    [
+     "everyone gets a chance",
+     "we all use the slide"
+    ],
+    [
+     "it stops fights",
+     "no one grabs the ball"
+    ],
+    [
+     "it teaches patience",
+     "we wait for the swings"
+    ]
+   ],
+   "cl": "taking turns is the top rule",
+   "bc": [
+    1,
+    "we know who is next"
+   ]
+  },
+  {
+   "key": "listen",
+   "tag": "read-or-listen",
+   "q": "Is it better to read a book or to listen to a story?",
+   "tp": "reading or listening",
+   "op": "reading on my own is better",
+   "rs": [
+    [
+     "I can go at my own speed",
+     "I can reread a page"
+    ],
+    [
+     "I can study the pictures",
+     "I can look at a map"
+    ],
+    [
+     "I learn to read new words",
+     "I read the word island"
+    ]
+   ],
+   "cl": "reading alone is the better choice",
+   "bc": [
+    0,
+    "no one rushes me"
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "set": "mark",
+   "key": "recess",
+   "tag": "recess",
+   "intro": [
+    "Every school day has a time for recess."
+   ],
+   "op": "Recess is the best part of the school day.",
+   "rs": [
+    [
+     "kids get to run and play outside",
+     "we race across the field"
+    ],
+    [
+     "recess helps us make new friends",
+     "I met my friend Ana on the swings"
+    ],
+    [
+     "we come back ready to learn",
+     "I can sit still and listen after I play"
+    ]
+   ],
+   "x": "we get fresh air",
+   "close": "No part of the day is better than recess."
+  },
+  {
+   "set": "mark",
+   "key": "fall",
+   "tag": "season",
+   "intro": [
+    "Each season of the year is different."
+   ],
+   "op": "Fall is the best season of all.",
+   "rs": [
+    [
+     "the leaves change colors",
+     "maple leaves turn bright red"
+    ],
+    [
+     "the weather is cool",
+     "we can play outside without getting hot"
+    ],
+    [
+     "there are leaves to rake into piles",
+     "we can jump in the big piles we make"
+    ]
+   ],
+   "x": "apples are ready to pick",
+   "close": "No other season is as great as fall."
+  },
+  {
+   "set": "mark",
+   "key": "garden",
+   "tag": "garden",
+   "intro": [
+    "Some schools have gardens.",
+    "Our school does not have one yet."
+   ],
+   "op": "Our school should have a garden.",
+   "rs": [
+    [
+     "a garden would help us learn about plants",
+     "we could watch seeds sprout and grow"
+    ],
+    [
+     "we could grow healthy food",
+     "we could grow carrots and beans"
+    ],
+    [
+     "a garden would make our school prettier",
+     "flowers could bloom by the front door"
+    ]
+   ],
+   "x": "butterflies would visit",
+   "close": "A garden would be a great thing for our school."
+  },
+  {
+   "set": "mark",
+   "key": "owls",
+   "tag": "owls",
+   "intro": [
+    "Many birds live near our school."
+   ],
+   "op": "Owls are the most interesting birds of all.",
+   "rs": [
+    [
+     "owls can hunt in the dark",
+     "most owls hunt at night and sleep in the day"
+    ],
+    [
+     "owls have huge eyes",
+     "an owl can spot a mouse far away"
+    ],
+    [
+     "owls can fly without a sound",
+     "their soft feathers make almost no noise"
+    ]
+   ],
+   "x": "owls can look backward",
+   "close": "No other bird is as amazing as an owl."
+  },
+  {
+   "set": "mark",
+   "key": "jumprope",
+   "tag": "recess-game",
+   "intro": [
+    "Kids play many games at recess."
+   ],
+   "op": "Jump rope is the best recess game.",
+   "rs": [
+    [
+     "jump rope is great exercise",
+     "my heart beats fast after I jump"
+    ],
+    [
+     "many kids can play together",
+     "two kids turn the rope and others jump"
+    ],
+    [
+     "we can learn fun rhymes",
+     "we chant a rhyme for every jump"
+    ]
+   ],
+   "x": "you need just one rope",
+   "close": "No game at recess beats jump rope."
+  },
+  {
+   "set": "mark",
+   "key": "trees",
+   "tag": "trees",
+   "intro": [
+    "Our playground has only two small trees."
+   ],
+   "op": "Our school should plant more trees.",
+   "rs": [
+    [
+     "trees give shade on hot days",
+     "kids could sit in the shade at recess"
+    ],
+    [
+     "trees help keep the air clean",
+     "leaves take in the air we breathe out"
+    ],
+    [
+     "trees are homes for animals",
+     "squirrels and birds build nests in them"
+    ]
+   ],
+   "x": "trees look pretty",
+   "close": "More trees would make our school a better place."
+  },
+  {
+   "set": "mark",
+   "key": "spring",
+   "tag": "season",
+   "intro": [
+    "Spring comes after winter."
+   ],
+   "op": "Spring is the prettiest season of the year.",
+   "rs": [
+    [
+     "flowers bloom in many colors",
+     "tulips open in red, pink, and yellow"
+    ],
+    [
+     "the trees are full of blossoms",
+     "cherry trees turn pink and white"
+    ],
+    [
+     "the grass turns bright green",
+     "the field looks fresh and new"
+    ]
+   ],
+   "x": "butterflies visit flowers",
+   "close": "No season is as pretty as spring."
+  },
+  {
+   "set": "mark",
+   "key": "corner",
+   "tag": "reading-corner",
+   "intro": [
+    "Some classrooms have a corner just for reading."
+   ],
+   "op": "Every classroom should have a reading corner.",
+   "rs": [
+    [
+     "a reading corner is quiet",
+     "kids can read without noise around them"
+    ],
+    [
+     "it makes reading special",
+     "we can sit on soft pillows while we read"
+    ],
+    [
+     "books are easy to find",
+     "the books sit on low shelves by topic"
+    ]
+   ],
+   "x": "kids would read more often",
+   "close": "A cozy reading corner belongs in every classroom."
+  },
+  {
+   "set": "mark",
+   "key": "water",
+   "tag": "water-break",
+   "intro": [
+    "Kids play hard at recess."
+   ],
+   "op": "Students should get a water break after recess.",
+   "rs": [
+    [
+     "our bodies need water",
+     "we get thirsty after we run"
+    ],
+    [
+     "water helps us think",
+     "it is hard to learn when we feel thirsty"
+    ],
+    [
+     "a break helps us calm down",
+     "we can rest for a minute before math"
+    ]
+   ],
+   "x": "the fountain is close by",
+   "close": "A water break after recess is a smart idea."
+  },
+  {
+   "set": "mark",
+   "key": "outside",
+   "tag": "outdoor-play",
+   "intro": [
+    "Kids can play inside or outside."
+   ],
+   "op": "Playing outside is better than playing inside.",
+   "rs": [
+    [
+     "there is more room to run",
+     "we can race all the way to the fence"
+    ],
+    [
+     "we can play in the fresh air",
+     "the air outside smells like grass"
+    ],
+    [
+     "we can explore nature",
+     "we found a beetle under a rock"
+    ]
+   ],
+   "x": "the sunshine feels warm",
+   "close": "Outside is the best place to play."
+  },
+  {
+   "set": "mark",
+   "key": "plant",
+   "tag": "class-plant",
+   "intro": [
+    "Our classroom has many things.",
+    "It does not have a plant."
+   ],
+   "op": "Our class should have a plant.",
+   "rs": [
+    [
+     "a plant teaches us to care for living things",
+     "we would water it every Monday"
+    ],
+    [
+     "we can watch it grow",
+     "we could measure it each week"
+    ],
+    [
+     "a plant makes a room look nice",
+     "green leaves would brighten our window"
+    ]
+   ],
+   "x": "plants help clean the air",
+   "close": "Our classroom needs a plant of its own."
+  },
+  {
+   "set": "mark",
+   "key": "art",
+   "tag": "art-class",
+   "intro": [
+    "We have art class once a week."
+   ],
+   "op": "Art class should happen every day.",
+   "rs": [
+    [
+     "art lets us make new things",
+     "last week we made masks from paper plates"
+    ],
+    [
+     "art helps us share our ideas",
+     "my drawing showed my dream house"
+    ],
+    [
+     "art is relaxing",
+     "I feel calm when I paint"
+    ]
+   ],
+   "x": "we learn about colors",
+   "close": "Every school day should have time for art class."
+  },
+  {
+   "set": "mark",
+   "key": "meeting",
+   "tag": "morning-meeting",
+   "intro": [
+    "Some classes start the day with a morning meeting."
+   ],
+   "op": "A morning meeting is a great way to start the day.",
+   "rs": [
+    [
+     "everyone says hello",
+     "we greet each friend by name"
+    ],
+    [
+     "we learn the plan for the day",
+     "our teacher tells us what comes next"
+    ],
+    [
+     "we can share news",
+     "I told the class about my new shoes"
+    ]
+   ],
+   "x": "we feel like a team",
+   "close": "Starting each day with a meeting is a smart idea."
+  },
+  {
+   "set": "mark",
+   "key": "bees",
+   "tag": "bees",
+   "intro": [
+    "Bees buzz around the flowers by our school."
+   ],
+   "op": "Bees are the most helpful insects of all.",
+   "rs": [
+    [
+     "bees help plants make seeds",
+     "they carry pollen from flower to flower"
+    ],
+    [
+     "bees help us get fruit",
+     "apple trees need bees to make apples"
+    ],
+    [
+     "honeybees make honey",
+     "one hive can make many jars of honey"
+    ]
+   ],
+   "x": "bees help make bird food",
+   "close": "Our world really needs bees."
+  },
+  {
+   "set": "mark",
+   "key": "drawing",
+   "tag": "drawing",
+   "intro": [
+    "There are many ways to tell a story."
+   ],
+   "op": "Drawing is a great way to tell a story.",
+   "rs": [
+    [
+     "pictures show how things look",
+     "a drawing can show a red dragon"
+    ],
+    [
+     "anyone can read a picture",
+     "even little kids can follow a comic"
+    ],
+    [
+     "one picture can show a whole place at once",
+     "a drawing of a park can show many people"
+    ]
+   ],
+   "x": "pictures show feelings",
+   "close": "A drawing can tell a story as well as words can."
+  },
+  {
+   "set": "pick",
+   "key": "summer",
+   "tag": "summer",
+   "intro": [
+    "School ends at the start of summer.",
+    "The days get warm and bright."
+   ],
+   "op": "Summer is the best season.",
+   "rs": [
+    [
+     "the days are long and full of light",
+     "the sun is still up after we eat dinner"
+    ],
+    [
+     "we can play outside for hours",
+     "we can play tag in the park until it gets dark"
+    ]
+   ],
+   "x": "we can swim in a lake or a pool",
+   "close": "That is why no season beats summer."
+  },
+  {
+   "set": "pick",
+   "key": "letters",
+   "tag": "pen-pals",
+   "intro": [
+    "Kids in other towns go to school, just as we do.",
+    "They learn to read and write, as we do."
+   ],
+   "op": "Our class should write letters to a class in another town.",
+   "rs": [
+    [
+     "we would make new friends far away",
+     "we could trade drawings, jokes, and stories"
+    ],
+    [
+     "we would practice our writing",
+     "each letter would need neat, clear sentences"
+    ]
+   ],
+   "x": "we would learn about another place",
+   "close": "Writing letters to another class would be great for us."
+  },
+  {
+   "set": "pick",
+   "key": "sharks",
+   "tag": "sharks",
+   "intro": [
+    "Sharks live in oceans all over the world.",
+    "There are hundreds of kinds of sharks."
+   ],
+   "op": "Sharks are amazing animals.",
+   "rs": [
+    [
+     "sharks are strong and fast swimmers",
+     "some sharks can swim faster than a person can run"
+    ],
+    [
+     "sharks have special teeth",
+     "a shark grows new teeth again and again all its life"
+    ]
+   ],
+   "x": "sharks have a great sense of smell",
+   "close": "Sharks are some of the most amazing animals on Earth."
+  },
+  {
+   "set": "pick",
+   "key": "tag",
+   "tag": "tag-game",
+   "intro": [
+    "There are many games to play at recess.",
+    "Some games use a ball, and some do not."
+   ],
+   "op": "Tag is the best game to play at recess.",
+   "rs": [
+    [
+     "everyone in the class can play",
+     "our whole class of twenty kids can play at once"
+    ],
+    [
+     "tag is great exercise",
+     "we run all over the field and up the hill"
+    ]
+   ],
+   "x": "the rules are easy to learn",
+   "close": "For all these reasons, tag is the top recess game."
+  },
+  {
+   "set": "pick",
+   "key": "library",
+   "tag": "library",
+   "intro": [
+    "Our town has a library on Main Street.",
+    "Anyone can go in and look at the books."
+   ],
+   "op": "Every kid should visit the library.",
+   "rs": [
+    [
+     "the library has books on every topic",
+     "you can find books about space, bugs, and trains"
+    ],
+    [
+     "the library is a quiet place",
+     "you can read for a long time without any noise"
+    ]
+   ],
+   "x": "librarians can help you find books",
+   "close": "A trip to the library is good for every kid."
+  },
+  {
+   "set": "pick",
+   "key": "seeds",
+   "tag": "planting",
+   "intro": [
+    "Some plants grow from tiny seeds.",
+    "A seed can be smaller than a grain of rice."
+   ],
+   "op": "Kids should learn how to plant seeds.",
+   "rs": [
+    [
+     "it teaches kids where food comes from",
+     "beans and peas grow from small seeds"
+    ],
+    [
+     "kids can watch something grow",
+     "a bean sprout pops out of the soil in about a week"
+    ]
+   ],
+   "x": "it teaches kids to be patient",
+   "close": "Planting seeds is a great thing for kids to learn."
+  },
+  {
+   "set": "pick",
+   "key": "rainy",
+   "tag": "rainy-day",
+   "intro": [
+    "Some days it rains all day long.",
+    "We have to stay inside."
+   ],
+   "op": "Rainy days are great for reading.",
+   "rs": [
+    [
+     "you can curl up with a good book",
+     "you can read in a cozy chair by the window"
+    ],
+    [
+     "the sound of rain is calming",
+     "the rain taps softly on the roof and the glass"
+    ]
+   ],
+   "x": "you can read a whole book in one day",
+   "close": "A rainy day is the perfect time to read."
+  },
+  {
+   "set": "pick",
+   "key": "linejob",
+   "tag": "line-leader",
+   "intro": [
+    "Our class has a line leader each week.",
+    "The line leader walks at the front."
+   ],
+   "op": "Every student should get a turn to be line leader.",
+   "rs": [
+    [
+     "it is fair to everyone",
+     "each kid gets the same chance to lead"
+    ],
+    [
+     "kids learn how to lead",
+     "the line leader shows the class the way to the gym"
+    ]
+   ],
+   "x": "it helps kids feel proud",
+   "close": "Each student deserves a turn to lead the line."
+  },
+  {
+   "set": "pick",
+   "key": "butterflies",
+   "tag": "butterflies",
+   "intro": [
+    "Many insects live in our school garden.",
+    "Some crawl on the ground, and some fly."
+   ],
+   "op": "Butterflies are the prettiest insects.",
+   "rs": [
+    [
+     "butterflies have bright, colorful wings",
+     "monarch wings are orange with black lines"
+    ],
+    [
+     "butterflies move in a gentle way",
+     "they float softly from one flower to the next"
+    ]
+   ],
+   "x": "butterflies carry pollen from flower to flower",
+   "close": "No insect is as lovely as a butterfly."
+  },
+  {
+   "set": "pick",
+   "key": "quietcorner",
+   "tag": "quiet-corner",
+   "intro": [
+    "Recess can be loud and busy.",
+    "Not every kid wants to run around."
+   ],
+   "op": "Our playground should have a quiet corner.",
+   "rs": [
+    [
+     "some kids like to rest at recess",
+     "they could sit on a bench and read a book"
+    ],
+    [
+     "a quiet corner is a calm place to talk",
+     "two friends could sit and share a story"
+    ]
+   ],
+   "x": "kids could draw with chalk there",
+   "close": "A quiet corner would make recess better for everyone."
+  },
+  {
+   "set": "pick",
+   "key": "winter",
+   "tag": "winter",
+   "intro": [
+    "Winter is the coldest season.",
+    "In many places, snow falls."
+   ],
+   "op": "Winter is a fun season.",
+   "rs": [
+    [
+     "there are fun things to do in the cold",
+     "kids can build snow forts and go sledding"
+    ],
+    [
+     "winter nights are cozy and calm",
+     "we can read under a warm blanket while it snows"
+    ]
+   ],
+   "x": "we get to wear warm hats and mittens",
+   "close": "There is so much to enjoy in winter."
+  },
+  {
+   "set": "write",
+   "key": "puzzles",
+   "tag": "indoor-recess",
+   "intro": [
+    "Some days we have indoor recess.",
+    "We cannot go outside when it rains."
+   ],
+   "op": "Puzzles are a great thing to do at indoor recess.",
+   "rs": [
+    [
+     "puzzles make us think hard",
+     "we have to look closely at the shape of each piece"
+    ],
+    [
+     "friends can work together",
+     "two kids can finish a big puzzle faster than one"
+    ]
+   ],
+   "x": "puzzles are quiet",
+   "close": "Puzzles are a perfect rainy-day activity.",
+   "why": "puzzles make indoor recess fun"
+  },
+  {
+   "set": "write",
+   "key": "moon",
+   "tag": "moon",
+   "intro": [
+    "We can see the moon on many nights.",
+    "Sometimes we can even see it in the day."
+   ],
+   "op": "The moon is the most interesting thing in the night sky.",
+   "rs": [
+    [
+     "the moon seems to change shape",
+     "on some nights it looks like a thin slice"
+    ],
+    [
+     "people have walked on the moon",
+     "astronauts left footprints in the moon dust"
+    ]
+   ],
+   "x": "the moon lights up the dark",
+   "close": "Nothing in the night sky beats the moon.",
+   "why": "the moon is the best sight"
+  },
+  {
+   "set": "write",
+   "key": "nature",
+   "tag": "outdoor-play",
+   "intro": [
+    "There is a small park near our school.",
+    "It has trees, grass, and a pond."
+   ],
+   "op": "Kids should spend time in nature.",
+   "rs": [
+    [
+     "nature is full of things to learn",
+     "we can look for bugs under leaves and rocks"
+    ],
+    [
+     "fresh air helps kids feel good",
+     "a walk in the park makes me feel calm"
+    ]
+   ],
+   "x": "nature is fun to explore",
+   "close": "Time in nature is good for every kid.",
+   "why": "every kid needs time outdoors"
+  },
+  {
+   "set": "write",
+   "key": "journal",
+   "tag": "journal",
+   "intro": [
+    "Some kids write in a journal.",
+    "A journal is a notebook about your days."
+   ],
+   "op": "Writing in a journal is a good habit.",
+   "rs": [
+    [
+     "it helps you remember your days",
+     "you can read about a fun day again later"
+    ],
+    [
+     "it helps you practice writing",
+     "each page helps you write neater sentences"
+    ]
+   ],
+   "x": "it helps you share your feelings",
+   "close": "Every kid should keep a journal.",
+   "why": "keeping a journal is smart"
+  },
+  {
+   "set": "write",
+   "key": "frogs",
+   "tag": "frogs",
+   "intro": [
+    "Frogs live in and near ponds.",
+    "You can hear many frogs on spring nights."
+   ],
+   "op": "Frogs are fascinating animals to learn about.",
+   "rs": [
+    [
+     "frogs change as they grow",
+     "a tadpole grows legs, loses its tail, and becomes a frog"
+    ],
+    [
+     "frogs are great jumpers",
+     "some frogs can jump twenty times their length"
+    ]
+   ],
+   "x": "frogs can live on land and in water",
+   "close": "Few animals are as interesting as frogs.",
+   "why": "frogs are amazing to study"
+  },
+  {
+   "set": "write",
+   "key": "sunflowers",
+   "tag": "garden",
+   "intro": [
+    "Sunflowers grow in many gardens.",
+    "They have big yellow petals and a dark center."
+   ],
+   "op": "Our class should grow sunflowers.",
+   "rs": [
+    [
+     "sunflowers can grow very tall and strong",
+     "some sunflowers grow taller than a grown-up"
+    ],
+    [
+     "sunflowers help hungry birds",
+     "birds eat the seeds from the flower heads in the fall"
+    ]
+   ],
+   "x": "sunflowers are bright and happy",
+   "close": "Sunflowers would be a great class project.",
+   "why": "our class needs sunflowers"
+  },
+  {
+   "set": "write",
+   "key": "newkid",
+   "tag": "new-classmate",
+   "intro": [
+    "Sometimes a new student joins our class.",
+    "Everything at school is new to that student."
+   ],
+   "op": "Students should help new classmates.",
+   "rs": [
+    [
+     "being new can feel scary",
+     "a new kid does not know where the gym is"
+    ],
+    [
+     "helping can make new friends",
+     "my best friend was once a new student"
+    ]
+   ],
+   "x": "helping is kind",
+   "close": "Every new student deserves a helping hand.",
+   "why": "new classmates need our help"
+  },
+  {
+   "set": "write",
+   "key": "plantseeds",
+   "tag": "planting",
+   "intro": [
+    "Spring is a time when plants start to grow.",
+    "The days get warmer and longer."
+   ],
+   "op": "Spring is a great time to plant seeds.",
+   "rs": [
+    [
+     "the soil gets warm",
+     "many seeds sprout fast in warm soil"
+    ],
+    [
+     "spring rain waters the seeds",
+     "the rain helps tiny roots grow down into the dirt"
+    ]
+   ],
+   "x": "rain falls often",
+   "close": "Spring is the best time to start a garden.",
+   "why": "spring is the time to garden"
+  },
+  {
+   "set": "edit",
+   "key": "buddies",
+   "tag": "reading-buddies",
+   "intro": [
+    "Our school has kids of many ages."
+   ],
+   "op": "Our school should have reading buddies.",
+   "rs": [
+    [
+     "younger kids would hear more stories",
+     "a third grader could read to a first grader"
+    ],
+    [
+     "older kids would practice reading aloud",
+     "they would read in a clear voice"
+    ],
+    [
+     "kids would make friends in other grades",
+     "buddies could wave in the hall"
+    ]
+   ],
+   "x": "buddies would help each other",
+   "close": "Reading buddies would help everyone at our school."
+  },
+  {
+   "set": "edit",
+   "key": "boardgames",
+   "tag": "board-games",
+   "intro": [
+    "Our classroom has a shelf of board games."
+   ],
+   "op": "Board games are a great way to learn.",
+   "rs": [
+    [
+     "games help us practice math",
+     "we add the dots on two dice"
+    ],
+    [
+     "we learn to take turns",
+     "players wait until it is their turn"
+    ],
+    [
+     "we learn to win and lose kindly",
+     "we shake hands after each game"
+    ]
+   ],
+   "x": "games can be played inside",
+   "close": "Playing board games is a smart way to learn."
+  },
+  {
+   "set": "edit",
+   "key": "everyday",
+   "tag": "outdoor-play",
+   "intro": [
+    "Some kids stay inside all day long, even when it is sunny."
+   ],
+   "op": "Kids should play outside every day.",
+   "rs": [
+    [
+     "playing outside keeps us strong",
+     "running and climbing make our muscles work"
+    ],
+    [
+     "fresh air helps us feel good",
+     "I always feel happy after I go outside"
+    ],
+    [
+     "we can learn about nature",
+     "we can look for birds and bugs"
+    ]
+   ],
+   "x": "outdoor play is fun",
+   "close": "Every kid needs time outside each day."
+  },
+  {
+   "set": "edit",
+   "key": "libraryroom",
+   "tag": "library",
+   "intro": [
+    "Our school has many rooms."
+   ],
+   "op": "The library is the best room in our school.",
+   "rs": [
+    [
+     "it has books about everything",
+     "there are books about dinosaurs and planets"
+    ],
+    [
+     "it is quiet and calm",
+     "you can hear the pages turn"
+    ],
+    [
+     "the librarian helps us",
+     "the librarian finds books we will love"
+    ]
+   ],
+   "x": "there are comfy chairs",
+   "close": "No room in our school is as good as the library."
+  },
+  {
+   "set": "edit",
+   "key": "ladybugs",
+   "tag": "ladybugs",
+   "intro": [
+    "Ladybugs are small beetles that live in many gardens."
+   ],
+   "op": "Ladybugs are the best insects to have in a garden.",
+   "rs": [
+    [
+     "they eat tiny pests",
+     "one ladybug can eat dozens of tiny aphids in a day"
+    ],
+    [
+     "ladybugs help farmers",
+     "some farmers buy ladybugs to protect their crops"
+    ],
+    [
+     "most ladybugs never eat the plants they live on",
+     "they eat the bugs on the leaves instead"
+    ]
+   ],
+   "x": "ladybugs are pretty",
+   "close": "Every garden needs a few hungry ladybugs."
+  },
+  {
+   "set": "edit",
+   "key": "fieldday",
+   "tag": "field-day",
+   "intro": [
+    "At the end of the school year, we have field day."
+   ],
+   "op": "Field day is the best day of the school year.",
+   "rs": [
+    [
+     "we play games outside all day",
+     "we run in sack races and relay races"
+    ],
+    [
+     "everyone works as a team",
+     "our class cheers for every runner"
+    ],
+    [
+     "we celebrate a great year",
+     "we have a picnic on the grass"
+    ]
+   ],
+   "x": "the whole school is outside",
+   "close": "No school day is as much fun as field day."
+  },
+  {
+   "set": "edit",
+   "key": "songs",
+   "tag": "class-songs",
+   "intro": [
+    "Right now, our class sings songs only on Fridays."
+   ],
+   "op": "Our class should sing more songs.",
+   "rs": [
+    [
+     "singing makes us happy",
+     "everyone smiles and claps when we sing together"
+    ],
+    [
+     "songs help us learn",
+     "a song taught us the days of the week"
+    ],
+    [
+     "singing helps us work as a team",
+     "we all start and stop together"
+    ]
+   ],
+   "x": "songs are fun to remember",
+   "close": "Our class should sing together every single school day."
+  },
+  {
+   "set": "edit",
+   "key": "cleanplay",
+   "tag": "playground-clean",
+   "intro": [
+    "After lunch, our playground sometimes has trash on it."
+   ],
+   "op": "Kids should help keep the playground clean.",
+   "rs": [
+    [
+     "a clean playground is safer",
+     "no one trips on cups or bags"
+    ],
+    [
+     "it helps the animals",
+     "birds will not choke on old wrappers"
+    ],
+    [
+     "it shows we care about our school",
+     "we feel proud when the playground looks nice"
+    ]
+   ],
+   "x": "it only takes a few minutes",
+   "close": "Everyone should help keep our playground clean and safe."
+  },
+  {
+   "set": "edit",
+   "key": "blocks",
+   "tag": "blocks",
+   "intro": [
+    "Our classroom has a big box of blocks."
+   ],
+   "op": "Building with blocks is a great way to learn.",
+   "rs": [
+    [
+     "blocks teach us about shapes",
+     "two square blocks can make a rectangle"
+    ],
+    [
+     "blocks help us plan",
+     "we draw a plan before we build a tower"
+    ],
+    [
+     "friends can build together",
+     "we built a bridge with three friends"
+    ]
+   ],
+   "x": "blocks are fun to stack",
+   "close": "Blocks are a smart way to learn."
+  },
+  {
+   "set": "edit",
+   "key": "groups",
+   "tag": "group-work",
+   "intro": [
+    "Sometimes we work alone, and sometimes we work in groups."
+   ],
+   "op": "Students should work in groups more often.",
+   "rs": [
+    [
+     "groups share many ideas",
+     "four kids can think of more ideas than one"
+    ],
+    [
+     "we learn to listen to each other",
+     "we take turns talking"
+    ],
+    [
+     "big jobs get done faster",
+     "our group made a poster in one day"
+    ]
+   ],
+   "x": "groups are fun",
+   "close": "Working in groups is a smart way to learn."
+  },
+  {
+   "set": "edit",
+   "key": "feeder",
+   "tag": "birds",
+   "intro": [
+    "Many birds fly over our school."
+   ],
+   "op": "Our school should have a bird feeder.",
+   "rs": [
+    [
+     "we could watch birds up close",
+     "we could see robins and sparrows"
+    ],
+    [
+     "birds need food in the winter",
+     "seeds are hard to find in the snow"
+    ],
+    [
+     "we could learn about birds",
+     "we could count the birds we see"
+    ]
+   ],
+   "x": "birds are fun to watch",
+   "close": "A bird feeder would be a great thing for our school."
+  },
+  {
+   "set": "edit",
+   "key": "recycle",
+   "tag": "recycling",
+   "intro": [
+    "Our school uses a lot of paper, cans, and bottles."
+   ],
+   "op": "Our school should recycle more.",
+   "rs": [
+    [
+     "recycling saves trees",
+     "old paper can be made into new paper"
+    ],
+    [
+     "it keeps trash out of the ground",
+     "cans and bottles can be used again"
+    ],
+    [
+     "it teaches us to take care of our planet",
+     "we sort paper into a blue bin"
+    ]
+   ],
+   "x": "it is easy to do",
+   "close": "Recycling is a smart choice for every school."
+  },
+  {
+   "set": "edit",
+   "key": "penguins",
+   "tag": "penguins",
+   "intro": [
+    "Penguins are birds that live near the sea and swim in it."
+   ],
+   "op": "Penguins are amazing birds.",
+   "rs": [
+    [
+     "they are great swimmers",
+     "they use their wings like flippers"
+    ],
+    [
+     "penguins work together",
+     "emperor penguins huddle close to stay warm"
+    ],
+    [
+     "penguin parents guard their eggs",
+     "an emperor penguin father keeps the egg on his feet"
+    ]
+   ],
+   "x": "penguins are fun to watch",
+   "close": "Penguins are some of the most amazing birds in the world."
+  },
+  {
+   "set": "edit",
+   "key": "music",
+   "tag": "music",
+   "intro": [
+    "Not every school has a music teacher or a music room."
+   ],
+   "op": "Every school should have a music class.",
+   "rs": [
+    [
+     "music helps kids learn",
+     "songs help us remember facts"
+    ],
+    [
+     "kids can try new instruments",
+     "we could play drums and bells"
+    ],
+    [
+     "music makes kids happy",
+     "everyone smiles when we sing"
+    ]
+   ],
+   "x": "music class is fun",
+   "close": "All kids should get to take music class."
+  }
+ ],
+ "fo": {
+  "facts": [
+   {
+    "t": "A week has seven days.",
+    "hard": false
+   },
+   {
+    "t": "There are twelve months in a year.",
+    "hard": false
+   },
+   {
+    "t": "Summer comes after spring.",
+    "hard": false
+   },
+   {
+    "t": "Plants need water to grow.",
+    "hard": false
+   },
+   {
+    "t": "A triangle has three sides.",
+    "hard": false
+   },
+   {
+    "t": "A square has four sides.",
+    "hard": false
+   },
+   {
+    "t": "Birds have feathers.",
+    "hard": false
+   },
+   {
+    "t": "A spider has eight legs.",
+    "hard": false
+   },
+   {
+    "t": "Ice is frozen water.",
+    "hard": false
+   },
+   {
+    "t": "An hour has sixty minutes.",
+    "hard": false
+   },
+   {
+    "t": "Honeybees make honey.",
+    "hard": false
+   },
+   {
+    "t": "A tadpole lives in water.",
+    "hard": false
+   },
+   {
+    "t": "Fish breathe with gills.",
+    "hard": false
+   },
+   {
+    "t": "Insects have six legs.",
+    "hard": false
+   },
+   {
+    "t": "Penguins cannot fly.",
+    "hard": false
+   },
+   {
+    "t": "Snakes have no legs.",
+    "hard": false
+   },
+   {
+    "t": "The moon goes around the Earth.",
+    "hard": false
+   },
+   {
+    "t": "Caterpillars turn into butterflies or moths.",
+    "hard": false
+   },
+   {
+    "t": "The giraffe is the tallest animal.",
+    "hard": true
+   },
+   {
+    "t": "The blue whale is the biggest animal on Earth.",
+    "hard": true
+   },
+   {
+    "t": "The cheetah is the fastest land animal.",
+    "hard": true
+   },
+   {
+    "t": "The Pacific is the largest ocean.",
+    "hard": true
+   },
+   {
+    "t": "Jupiter is the largest planet in our solar system.",
+    "hard": true
+   }
+  ],
+  "opinions": [
+   {
+    "t": "Recess is the best part of the day.",
+    "hard": false
+   },
+   {
+    "t": "Tag is the most fun game.",
+    "hard": false
+   },
+   {
+    "t": "Drawing is more fun than painting.",
+    "hard": false
+   },
+   {
+    "t": "Every class should have a garden.",
+    "hard": false
+   },
+   {
+    "t": "Owls are the coolest birds.",
+    "hard": false
+   },
+   {
+    "t": "Jump rope is better than four square.",
+    "hard": false
+   },
+   {
+    "t": "Reading is the best thing to do on a rainy day.",
+    "hard": false
+   },
+   {
+    "t": "Math is the hardest subject.",
+    "hard": false
+   },
+   {
+    "t": "Fall is the most beautiful season.",
+    "hard": false
+   },
+   {
+    "t": "Soccer is the best sport.",
+    "hard": false
+   },
+   {
+    "t": "Butterflies are the prettiest insects.",
+    "hard": false
+   },
+   {
+    "t": "Art class should be longer.",
+    "hard": false
+   },
+   {
+    "t": "Music class is the most fun class.",
+    "hard": false
+   },
+   {
+    "t": "Summer is better than winter.",
+    "hard": false
+   },
+   {
+    "t": "Rainy days are boring.",
+    "hard": true
+   },
+   {
+    "t": "Spiders are creepy.",
+    "hard": true
+   },
+   {
+    "t": "Winter lasts too long.",
+    "hard": true
+   },
+   {
+    "t": "Puzzles are fun.",
+    "hard": true
+   },
+   {
+    "t": "Recess is too short.",
+    "hard": true
+   },
+   {
+    "t": "Frogs are cute.",
+    "hard": true
+   }
+  ]
+ },
+ "off": [
+  {
+   "t": "My pencil is green.",
+   "avoid": [
+    "art",
+    "drawing",
+    "garden",
+    "plant",
+    "spring"
+   ]
+  },
+  {
+   "t": "The clock in our room is round.",
+   "avoid": [
+    "blocks"
+   ]
+  },
+  {
+   "t": "My shoes have red laces.",
+   "avoid": [
+    "meeting",
+    "fall",
+    "ladybugs",
+    "everyday",
+    "outside"
+   ]
+  },
+  {
+   "t": "The school bus is yellow.",
+   "avoid": [
+    "spring"
+   ]
+  },
+  {
+   "t": "My teacher has a blue car.",
+   "avoid": [
+    "recycle"
+   ]
+  },
+  {
+   "t": "Our classroom door is blue.",
+   "avoid": [
+    "recycle",
+    "corner"
+   ]
+  },
+  {
+   "t": "The fire alarm is red.",
+   "avoid": [
+    "fall",
+    "ladybugs",
+    "corner"
+   ]
+  },
+  {
+   "t": "My backpack has two zippers.",
+   "avoid": []
+  },
+  {
+   "t": "The hallway floor is shiny.",
+   "avoid": [
+    "buddies"
+   ]
+  },
+  {
+   "t": "My coat has big buttons.",
+   "avoid": [
+    "fall",
+    "water"
+   ]
+  },
+  {
+   "t": "Our flag has fifty stars.",
+   "avoid": []
+  },
+  {
+   "t": "My lunch box is purple.",
+   "avoid": [
+    "cleanplay",
+    "water"
+   ]
+  },
+  {
+   "t": "The office has a copy machine.",
+   "avoid": [
+    "recycle"
+   ]
+  },
+  {
+   "t": "My desk is next to the door.",
+   "avoid": [
+    "corner"
+   ]
+  },
+  {
+   "t": "Our school has two front doors.",
+   "avoid": [
+    "garden"
+   ]
+  },
+  {
+   "t": "The hallway has a water fountain.",
+   "avoid": [
+    "water",
+    "buddies"
+   ]
+  }
+ ],
+ "subj": [
+  "My favorite color is purple.",
+  "Tomorrow we have a spelling test.",
+  "My shoes have red laces.",
+  "The clock in our room is round.",
+  "My teacher has a blue car.",
+  "Our classroom door is blue.",
+  "My backpack has two zippers.",
+  "The fire alarm is red.",
+  "My coat has big buttons.",
+  "We had pizza for lunch yesterday.",
+  "My pencil is green."
+ ],
+ "weak": [
+  "The end.",
+  "That is all.",
+  "That is all I have to say."
+ ],
+ "spell": {
+  "because": "becuase",
+  "friends": "freinds",
+  "favorite": "favrite",
+  "people": "peple",
+  "school": "scool",
+  "different": "diffrent",
+  "together": "togeather",
+  "really": "realy",
+  "always": "allways",
+  "every": "evry",
+  "before": "befor",
+  "until": "untill",
+  "little": "littel",
+  "would": "wuold",
+  "could": "coud",
+  "when": "wen",
+  "their": "thier",
+  "which": "wich",
+  "many": "meny"
+ },
+ "revise": [
+  {
+   "b": "Recess is fun.",
+   "a": "Recess is fun because we can run and play.",
+   "how": "I added a reason with because.",
+   "kind": "content"
+  },
+  {
+   "b": "Spring is great.",
+   "a": "Spring is great. For example, tulips bloom in bright colors.",
+   "how": "I added an example.",
+   "kind": "content"
+  },
+  {
+   "b": "Owls are amazing. They fly without a sound.",
+   "a": "Owls are amazing because they fly without a sound.",
+   "how": "I joined two sentences with because.",
+   "kind": "content"
+  },
+  {
+   "b": "We should plant trees. My shoes are red.",
+   "a": "We should plant trees.",
+   "how": "I took out a sentence that did not belong.",
+   "kind": "content"
+  },
+  {
+   "b": "Reading time helps us.",
+   "a": "Reading time helps us learn new words.",
+   "how": "I told how it helps.",
+   "kind": "content"
+  },
+  {
+   "b": "Bees help plants make fruit, we should protect them.",
+   "a": "Bees help plants make fruit. Therefore, we should protect them.",
+   "how": "I added Therefore to show what happens as a result.",
+   "kind": "content"
+  },
+  {
+   "b": "The library is nice.",
+   "a": "The library is a quiet place to read.",
+   "how": "I used more exact words.",
+   "kind": "content"
+  },
+  {
+   "b": "Music class is fun.",
+   "a": "Music class is fun since we get to sing.",
+   "how": "I added a reason with since.",
+   "kind": "content"
+  },
+  {
+   "b": "Tag is good exercise.",
+   "a": "Tag is good exercise. For example, we run all over the field.",
+   "how": "I added an example.",
+   "kind": "content"
+  },
+  {
+   "b": "Partner work is fun. Partner work is fun.",
+   "a": "Partner work is fun. Partners share ideas.",
+   "how": "I took out a sentence I wrote twice and added a reason.",
+   "kind": "content"
+  },
+  {
+   "b": "Summer is the best season. The days are long. The end.",
+   "a": "Summer is the best season. The days are long. That is why no season beats summer.",
+   "how": "I wrote a real conclusion.",
+   "kind": "content"
+  },
+  {
+   "b": "tag is the best game",
+   "a": "Tag is the best game.",
+   "how": "I added a capital letter and an end mark.",
+   "kind": "mark"
+  },
+  {
+   "b": "For example we can grow beans.",
+   "a": "For example, we can grow beans.",
+   "how": "I added a comma after For example.",
+   "kind": "mark"
+  },
+  {
+   "b": "Art is fun becuase we paint.",
+   "a": "Art is fun because we paint.",
+   "how": "I fixed the spelling of because.",
+   "kind": "mark"
+  },
+  {
+   "b": "That is why fall is the best season",
+   "a": "That is why fall is the best season.",
+   "how": "I added an end mark.",
+   "kind": "mark"
+  },
+  {
+   "b": "we need a garden.",
+   "a": "We need a garden.",
+   "how": "I fixed a capital letter.",
+   "kind": "mark"
+  }
+ ]
+}

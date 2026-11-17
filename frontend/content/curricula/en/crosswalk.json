@@ -3603,6 +3603,56 @@
    ],
    "by": "code"
   },
+  "3:joining-words": {
+   "rows": [
+    {
+     "id": "L.3.1.h",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:simple-compound-complex": {
+   "rows": [
+    {
+     "id": "L.3.1.i",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:comparing-adjectives-adverbs": {
+   "rows": [
+    {
+     "id": "L.3.1.g",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:possessive-nouns": {
+   "rows": [
+    {
+     "id": "L.3.2.d",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:capitals-in-titles": {
+   "rows": [
+    {
+     "id": "L.3.2.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "K:human-body": {
    "rows": [
     {

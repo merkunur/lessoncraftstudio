@@ -17852,6 +17852,220 @@
      "days": 2
     }
    ]
+  },
+  {
+   "id": "g3-sentences-and-conventions",
+   "slug": "sentences-and-conventions-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Sentences and Conventions",
+   "metaTitle": "Grade 3 Grammar Lesson Plans: Sentences and Conventions",
+   "metaDescription": "A Grade 3 grammar unit: 5 lessons on joining words, simple, compound, and complex sentences, comparing with -er and -est, possessives, and capitals in titles.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:joining-words",
+     "title": "Joining words: and, but, so, because, when",
+     "objective": "Children choose a joining word (and, but, or, so, because, when, if, after, before) that shows how two ideas go together, and write the joined sentence with a comma where one belongs.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.h",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-521",
+       "title": "Choose the Joining Word",
+       "core": "sentence-building-g3521",
+       "easy": "sentence-building-easy-g3521-6",
+       "hard": "sentence-building-hard-g3521-11"
+      },
+      {
+       "type": "G3-520",
+       "title": "Join Sentences with Joining Words",
+       "core": "sentence-building-g3520",
+       "easy": "sentence-building-easy-g3520-6",
+       "hard": "sentence-building-hard-g3520-11"
+      }
+     ],
+     "exit": {
+      "slug": "sentence-building-g3521-2",
+      "title": "Choose the Joining Word"
+     },
+     "note": {
+      "mistake": "Children use and for everything. Many mix up so and because: so comes before the result, because before the reason. Some put a comma before because.",
+      "words": "Say: \"A joining word shows how two ideas go together. And adds an idea, but shows a difference, or gives a choice, so tells the result, because tells why.\" Day 1, Choose the Joining Word: the child circles the word that fits and writes it in the blank, with a comma in front of and, but, or, or so; the sentences print no comma, so it never gives the answer away. Level 1 offers two words (and, but, so); Level 2 adds or and because and offers three; Level 3 adds when, if, after, and before, and offers a second word of that group that does not make sense. Day 2, Join Sentences: the child joins four pairs (three on Level 3) on two lines each, circles the word, then finishes sentences that end in a joining word. The key names every word of the box that joins a pair right.",
+      "watch": "It was raining, so we played inside. We played inside because it was raining. A comma goes before and, but, or, and so when they join two sentences. If the part with because, when, if, after, or before comes first, put a comma after it: When it gets dark, owls hoot. And joins almost any two sentences: ask which word shows how the ideas go together best."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:simple-compound-complex",
+     "title": "Simple, compound, and complex sentences",
+     "objective": "Children tell simple, compound, and complex sentences apart and build compound and complex sentences from two short sentences.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.i",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-522",
+       "title": "Simple, Compound, and Complex Sentences",
+       "core": "sentence-building-g3522",
+       "easy": "sentence-building-easy-g3522-6",
+       "hard": "sentence-building-hard-g3522-11"
+      },
+      {
+       "type": "G3-523",
+       "title": "Build Compound and Complex Sentences",
+       "core": "sentence-building-g3523",
+       "easy": "sentence-building-easy-g3523-6",
+       "hard": "sentence-building-hard-g3523-11"
+      }
+     ],
+     "exit": {
+      "slug": "sentence-building-g3522-2",
+      "title": "Simple, Compound, and Complex Sentences"
+     },
+     "note": {
+      "mistake": "Children call every sentence with and or a comma compound, even \"Mia and Leo built a snow fort.\" Others call any long sentence complex, or leave out the comma of a compound sentence.",
+      "words": "Say: \"A simple sentence is one complete thought with a subject and a verb. A compound sentence is two sentences joined by a comma and a joining word: and, but, so, or. A complex sentence is a sentence plus a part that cannot stand alone; the part starts with because, when, if, after, or before.\" Day 1: the child checks the kind of each sentence; Level 1 sorts ten into simple and compound (two simple ones have a list with commas), Levels 2 and 3 twelve into all three kinds, and Level 3 adds simple sentences with two subjects or two verbs and one like \"We played outside after lunch.\" Day 2, Build: each sentence gets two lines; Level 1 joins six pairs, Level 2 writes three pairs both ways, Level 3 one pair both ways and a paragraph rewritten as two compound sentences and one complex sentence.",
+      "watch": "To test a compound sentence, cover the joining word: two sentences are left. To test a complex sentence, read the part with because, when, if, after, or before alone: it cannot stand by itself. If that part comes first, put a comma after it: When it gets dark, owls hoot. The keys give one right sentence; other joins are right if they keep the meaning."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "3:comparing-adjectives-adverbs",
+     "title": "Better, best: comparing with adjectives and adverbs",
+     "objective": "Children form and choose comparative and superlative adjectives and adverbs (taller, tallest; more carefully, most carefully; good, better, best) and choose an adjective or an adverb by what it tells about.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.g",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-525",
+       "title": "Comparing Words: Choose the Right Form",
+       "core": "word-classes-g3525",
+       "easy": "word-classes-easy-g3525-6",
+       "hard": "word-classes-hard-g3525-11"
+      },
+      {
+       "type": "G3-524",
+       "title": "Better, Best: Comparing with Adjectives and Adverbs",
+       "core": "word-classes-g3524",
+       "easy": "word-classes-easy-g3524-6",
+       "hard": "word-classes-hard-g3524-11"
+      }
+     ],
+     "exit": {
+      "slug": "word-classes-g3525-2",
+      "title": "Comparing Words: Choose the Right Form"
+     },
+     "note": {
+      "mistake": "Children add -er to long words (carefuller), use both (more taller), use -est when only two things are compared, say gooder, or write biger and happyer.",
+      "words": "Say: \"Compare two things with -er or more, and look for than. Compare three or more with -est or most, and look for the.\" Words with one syllable take -er (tall, taller); most longer words take more (careful, more careful); good, bad, well, and badly change. Show the spelling moves: big, bigger, biggest (double the last letter) and happy, happier, happiest (y becomes i). Day 1: the child circles one of three forms under each sentence; Level 1 has -er and -est words, Level 2 adds more and most, Level 3 has good, bad, well, and badly, and three sentences that ask for the adjective or the adverb. Day 2: the child writes the form of the word in ( ) in four sentences about three animals drawn at three sizes, then both forms of six words in a table (Level 2 mixes -er and more words; Level 3 adds words that change).",
+      "watch": "Than means two: taller than. The ... of the three, of all, or in the world means three or more. Very, too, and as ... as take the word itself: very big. An adverb tells how someone does something: Tess painted carefully; Tess is careful."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:possessive-nouns",
+     "title": "Possessives: the dog's bone, the dogs' bones",
+     "objective": "Children write singular and plural possessives (the dog's bone, the dogs' bones, the children's coats) and tell a possessive from a plural that owns nothing.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.2.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-526",
+       "title": "Possessive Nouns: One Owner or More",
+       "core": "capitals-punctuation-g3526",
+       "easy": "capitals-punctuation-easy-g3526-6",
+       "hard": "capitals-punctuation-hard-g3526-11"
+      },
+      {
+       "type": "G3-527",
+       "title": "Add the Apostrophe: Fix the Possessives",
+       "core": "capitals-punctuation-g3527",
+       "easy": "capitals-punctuation-easy-g3527-6",
+       "hard": "capitals-punctuation-hard-g3527-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-g3526-2",
+      "title": "Possessive Nouns: One Owner or More"
+     },
+     "note": {
+      "mistake": "Children put an apostrophe in every word that ends in s (three dog's ran). Others always write 's, even when more than one owner ends in s, or write childrens'.",
+      "words": "Say: \"Count the owners. One owner: add 's, the dog's bone. More than one owner, and the plural ends in s: add an apostrophe after the s, the dogs' bones. A plural that does not end in s takes 's: the children's coats. A plural that owns nothing needs no apostrophe.\" Day 1, Possessive Nouns: the child writes who owns it for six owners (\"Two dogs have bones.\" the dogs' bones), then circles the word that fits in four sentences; Level 1 has one owner only, Level 2 adds more than one owner, Level 3 adds plurals such as children, men, women, mice, and geese. Day 2, Add the Apostrophe: the child writes the underlined word the right way (some need none). On Level 1 the child decides by whether something owned follows the word; on Levels 2 and 3 a first sentence says how many there are.",
+      "watch": "Ask \"How many owners?\" before the apostrophe goes in. If no thing follows the word, it owns nothing: Three dogs ran. On these pages the number is said in words or shown by the sentence."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "3:capitals-in-titles",
+     "title": "Capitals in titles",
+     "objective": "Children capitalize the first word, the last word, and the important words of book, story, and song titles, and keep small words such as a, the, and, of, and in small.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.2.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-529",
+       "title": "Find the Capitals in Titles",
+       "core": "capitals-punctuation-g3529",
+       "easy": "capitals-punctuation-easy-g3529-6",
+       "hard": "capitals-punctuation-hard-g3529-11"
+      },
+      {
+       "type": "G3-528",
+       "title": "Capitals in Titles",
+       "core": "capitals-punctuation-g3528",
+       "easy": "capitals-punctuation-easy-g3528-6",
+       "hard": "capitals-punctuation-hard-g3528-11"
+      }
+     ],
+     "exit": {
+      "slug": "capitals-punctuation-g3529-2",
+      "title": "Find the Capitals in Titles"
+     },
+     "note": {
+      "mistake": "Children capitalize every word, or only the first one. Some leave the first word small when it is a small word (the Lost Lantern).",
+      "words": "Say: \"In a title, the first word, the last word, and every important word start with a capital letter. Small words like a, the, and, of, and in stay small in the middle.\" The box on every page lists the small words. Day 1, Find the Capitals: the child circles each word that needs a capital in titles printed in small letters, then circles the right one of a title printed two ways; Level 1 has three-word titles, Level 2 titles with a, the, of, and in, Level 3 titles with a name or a colon. Day 2, Capitals in Titles: the child writes each title with its capitals, then the titles of three books he or she likes and a title for a report.",
+      "watch": "Is, are, and it are short but important words, so they always get a capital. Words such as from, about, into, and with are left out of these titles because style guides disagree on them. A name always gets a capital, and so does the first word after a colon: Leo and the Lighthouse: A Summer Story. All the titles are made up."
+     },
+     "days": 2
+    }
+   ]
   }
  ],
  "plans": [
@@ -19183,9 +19397,9 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (9 Weeks)",
-   "metaDescription": "4 Grade 3 reading and language units in teaching order, about 9 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 9,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (12 Weeks)",
+   "metaDescription": "5 Grade 3 reading and language units in teaching order, about 12 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 12,
    "framework": "Common Core",
    "units": [
     {
@@ -19268,6 +19482,28 @@
       "RI.3.3",
       "RI.3.5",
       "RI.3.7"
+     ]
+    },
+    {
+     "id": "g3-sentences-and-conventions",
+     "slug": "sentences-and-conventions-grade-3-unit",
+     "title": "Sentences and Conventions",
+     "weeks": 3,
+     "from": 10,
+     "to": 12,
+     "lessons": [
+      "Joining words: and, but, so, because, when",
+      "Simple, compound, and complex sentences",
+      "Better, best: comparing with adjectives and adverbs",
+      "Possessives: the dog's bone, the dogs' bones",
+      "Capitals in titles"
+     ],
+     "standards": [
+      "L.3.1.g",
+      "L.3.1.h",
+      "L.3.1.i",
+      "L.3.2.a",
+      "L.3.2.d"
      ]
     }
    ]

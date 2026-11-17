@@ -3742,6 +3742,54 @@
      "activity": null
     }
    ]
+  },
+  {
+   "id": "g3-sentences-and-conventions",
+   "slug": "sentences-and-conventions-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Sentences and Conventions",
+   "metaTitle": "Grade 3 Grammar Lesson Plans: Sentences and Conventions",
+   "metaDescription": "A Grade 3 grammar unit: 5 lessons on joining words, simple, compound, and complex sentences, comparing with -er and -est, possessives, and capitals in titles.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "3:joining-words",
+     "types": [
+      "G3-521",
+      "G3-520"
+     ]
+    },
+    {
+     "point": "3:simple-compound-complex",
+     "types": [
+      "G3-522",
+      "G3-523"
+     ]
+    },
+    {
+     "point": "3:comparing-adjectives-adverbs",
+     "types": [
+      "G3-525",
+      "G3-524"
+     ]
+    },
+    {
+     "point": "3:possessive-nouns",
+     "types": [
+      "G3-526",
+      "G3-527"
+     ]
+    },
+    {
+     "point": "3:capitals-in-titles",
+     "types": [
+      "G3-529",
+      "G3-528"
+     ]
+    }
+   ]
   }
  ],
  "plans": [
@@ -3890,7 +3938,8 @@
     "g3-reading-long-words",
     "g3-words-and-their-meanings",
     "g3-stories-evidence-lessons-characters",
-    "g3-reading-to-learn-informational-texts"
+    "g3-reading-to-learn-informational-texts",
+    "g3-sentences-and-conventions"
    ]
   }
  ]

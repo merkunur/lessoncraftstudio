@@ -1490,7 +1490,8 @@
             "standard": "L.3.1.h",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: ten pairs of sentences to join with a conjunction from a box; the child writes the joined sentence and circles the conjunction. Bottom: four sentences that end in a conjunction for the child to finish. Level 1: and, but, so; level 2: and, but, or, so, because; level 3: all the conjunctions, including when, if, and after."
+            "page": "Grammar page: ten pairs of sentences to join with a conjunction from a box; the child writes the joined sentence and circles the conjunction. Bottom: four sentences that end in a conjunction for the child to finish. Level 1: and, but, so; level 2: and, but, or, so, because; level 3: all the conjunctions, including when, if, and after.",
+            "placed": "3:joining-words"
           },
           {
             "new": true,
@@ -1499,7 +1500,8 @@
             "standard": "L.3.1.i",
             "days": 3,
             "source": "new",
-            "page": "Grammar page: twelve sentences to sort into simple, compound, and complex; then a paragraph of six short simple sentences that the child rewrites with two compound and one complex sentence. Level 1: the sort with simple and compound sentences only; level 2: all three kinds; level 3: the full rewrite."
+            "page": "Grammar page: twelve sentences to sort into simple, compound, and complex; then a paragraph of six short simple sentences that the child rewrites with two compound and one complex sentence. Level 1: the sort with simple and compound sentences only; level 2: all three kinds; level 3: the full rewrite.",
+            "placed": "3:simple-compound-complex"
           },
           {
             "new": true,
@@ -1508,7 +1510,8 @@
             "standard": "L.3.1.g",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: three pictures of three animals of different sizes with ten sentences to complete with the right form (tall, taller, tallest); then a table of eight adjectives and adverbs with both forms to write. Level 1: -er and -est; level 2: more and most; level 3: irregular forms (good, better, best; bad, worse, worst)."
+            "page": "Grammar page: three pictures of three animals of different sizes with ten sentences to complete with the right form (tall, taller, tallest); then a table of eight adjectives and adverbs with both forms to write. Level 1: -er and -est; level 2: more and most; level 3: irregular forms (good, better, best; bad, worse, worst).",
+            "placed": "3:comparing-adjectives-adverbs"
           },
           {
             "new": true,
@@ -1517,7 +1520,8 @@
             "standard": "L.3.2.d",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: twelve owner-and-thing pictures to write as possessives (one cat's toy, two cats' toys); then eight sentences where the child chooses between a plural and a possessive (dogs or dog's). Level 1: singular possessives; level 2: singular and plural possessives; level 3: irregular plurals too (the children's books)."
+            "page": "Grammar page: twelve owner-and-thing pictures to write as possessives (one cat's toy, two cats' toys); then eight sentences where the child chooses between a plural and a possessive (dogs or dog's). Level 1: singular possessives; level 2: singular and plural possessives; level 3: irregular plurals too (the children's books).",
+            "placed": "3:possessive-nouns"
           },
           {
             "new": true,
@@ -1526,7 +1530,8 @@
             "standard": "L.3.2.a",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: twelve book, story, and song titles written all in small letters; the child rewrites each with the right capitals. Bottom: the child writes the titles of three favorite books and a title for their own report. Level 1: titles of three words; level 2: titles with a, the, of, and in; level 3: titles with a colon or a name."
+            "page": "Grammar page: twelve book, story, and song titles written all in small letters; the child rewrites each with the right capitals. Bottom: the child writes the titles of three favorite books and a title for their own report. Level 1: titles of three words; level 2: titles with a, the, of, and in; level 3: titles with a colon or a name.",
+            "placed": "3:capitals-in-titles"
           }
         ]
       },

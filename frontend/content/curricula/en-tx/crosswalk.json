@@ -4336,6 +4336,76 @@
    ],
    "by": "authored"
   },
+  "3:joining-words": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.viii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:simple-compound-complex": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:comparing-adjectives-adverbs": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iv",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:possessive-nouns": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:capitals-in-titles": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.ix",
+     "rel": "extends",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {

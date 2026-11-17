@@ -5303,6 +5303,72 @@
    ],
    "why": "Reading and writing enough, though and ocean with their tricky part is «identifying and reading high-frequency words from a research-based list»; sorting ough words by sound is «decoding multisyllabic words with multiple sound-spelling patterns such as eigh, ough, and en».",
    "review": "year-design 2026-11-18"
+  },
+  "3:joining-words": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.viii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Joining two sentences with and, but, or, so is «coordinating conjunctions to form compound subjects, predicates, and sentences»; the comma written before the joining word is «commas in compound sentences». Because, when, if, after and before go one step further than the Texas wording of Grade 3.",
+   "review": "year-design 2026-11-18"
+  },
+  "3:simple-compound-complex": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling a simple from a compound sentence and writing both is «complete simple and compound sentences with subject-verb agreement»; the comma of the compound sentence is «commas in compound sentences». The complex sentence goes one step further than the Texas wording of Grade 3.",
+   "review": "year-design 2026-11-18"
+  },
+  "3:comparing-adjectives-adverbs": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Forming and choosing taller, tallest, more careful, better and best is «adjectives, including their comparative and superlative forms»; comparing how something is done (more carefully, fastest) uses «adverbs that convey time and adverbs that convey manner».",
+   "review": "year-design 2026-11-18"
+  },
+  "3:possessive-nouns": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.x",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Writing the bee's hive, the bees' hive and the children's coats is «punctuation marks, including apostrophes in contractions and possessives»; telling a possessive from a plain plural rests on «singular, plural, common, and proper nouns».",
+   "review": "year-design 2026-11-18"
+  },
+  "3:capitals-in-titles": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.ix",
+     "rel": "extends"
+    }
+   ],
+   "why": "Texas names «capitalization of official titles of people, holidays, and geographical names and places» in Grade 3; capitals in the titles of books and stories apply the same convention to a title.",
+   "review": "year-design 2026-11-18"
   }
  }
 }

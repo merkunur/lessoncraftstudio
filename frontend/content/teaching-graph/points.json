@@ -8113,6 +8113,111 @@
    "prerequisites": []
   },
   {
+   "id": "3:joining-words",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Choose the joining word (and, but, or, so, because, when, if, after, before) that fits two ideas, and join two sentences with it",
+   "code": "L.3.1.h",
+   "types": [
+    "G3-520",
+    "G3-521"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 142,
+   "prerequisites": []
+  },
+  {
+   "id": "3:simple-compound-complex",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Tell simple, compound, and complex sentences apart and write two short sentences as a compound and as a complex sentence",
+   "code": "L.3.1.i",
+   "types": [
+    "G3-522",
+    "G3-523"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 143,
+   "prerequisites": []
+  },
+  {
+   "id": "3:comparing-adjectives-adverbs",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Form and choose the comparing forms of adjectives and adverbs (taller, tallest; more carefully, most carefully; better, best)",
+   "code": "L.3.1.g",
+   "types": [
+    "G3-524",
+    "G3-525"
+   ],
+   "families": [
+    "word-classes"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 144,
+   "prerequisites": []
+  },
+  {
+   "id": "3:possessive-nouns",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Write the possessive of one owner, of more than one owner, and of an irregular plural, and tell a possessive from a plain plural",
+   "code": "L.3.2.d",
+   "types": [
+    "G3-526",
+    "G3-527"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 145,
+   "prerequisites": []
+  },
+  {
+   "id": "3:capitals-in-titles",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Capitalize the first word, the last word, and every important word of a title, and keep the small words small",
+   "code": "L.3.2.a",
+   "types": [
+    "G3-528",
+    "G3-529"
+   ],
+   "families": [
+    "capitals-punctuation"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 146,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",

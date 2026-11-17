@@ -671,6 +671,41 @@
    "strand": "Foundational Skills",
    "code": "RF.3.3.d",
    "skill": "Read and spell Grade 3 irregular words (enough, though, ocean, island, answer) and sort ough words by the sound ough makes"
+  },
+  {
+   "tp": "3:joining-words",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.h",
+   "skill": "Choose the joining word (and, but, or, so, because, when, if, after, before) that fits two ideas, and join two sentences with it"
+  },
+  {
+   "tp": "3:simple-compound-complex",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.i",
+   "skill": "Tell simple, compound, and complex sentences apart and write two short sentences as a compound and as a complex sentence"
+  },
+  {
+   "tp": "3:comparing-adjectives-adverbs",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.g",
+   "skill": "Form and choose the comparing forms of adjectives and adverbs (taller, tallest; more carefully, most carefully; better, best)"
+  },
+  {
+   "tp": "3:possessive-nouns",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.2.d",
+   "skill": "Write the possessive of one owner, of more than one owner, and of an irregular plural, and tell a possessive from a plain plural"
+  },
+  {
+   "tp": "3:capitals-in-titles",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.2.a",
+   "skill": "Capitalize the first word, the last word, and every important word of a title, and keep the small words small"
   }
  ]
 }

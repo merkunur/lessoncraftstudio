@@ -28,6 +28,10 @@
   "g1-word-meanings-and-word-parts": {
    "1:words-by-category": "The two page types of the lesson (G1-608 cut and glue, G1-609 with writing rows of a whole page) were not read as check cards; the check keeps its four reviewed parts until they are.",
    "1:endings-s-ed-ing": "The two page types of the lesson (G1-610, G1-611) were not read as check cards; the check keeps its four reviewed parts until they are."
+  },
+  "g3-words-and-their-meanings": {
+   "3:context-clues": "The two page types of the lesson (G3-540, G3-541: a passage of 150 words with written meanings) were not read as check cards; the check keeps its four reviewed parts until they are.",
+   "3:dictionary-glossary": "The two page types of the lesson (G3-542, G3-543: a dictionary page and a text with its glossary fill a page) were not read as check cards; the check keeps its four reviewed parts until they are."
   }
  },
  "instruction": {

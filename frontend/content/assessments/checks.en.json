@@ -8330,26 +8330,29 @@
     {
      "part": 2,
      "lesson": 2,
-     "title": "Words for go and words for look",
-     "type": "G3-397",
-     "tasks": 1
-    },
-    {
-     "part": 3,
-     "lesson": 3,
      "title": "The person word: bake, baker",
      "type": "G3-398",
      "tasks": 2
     },
     {
-     "part": 4,
-     "lesson": 4,
+     "part": 3,
+     "lesson": 3,
      "title": "Choose the right form of the word",
      "type": "G3-399",
      "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "Words for go and words for look",
+     "type": "G3-397",
+     "tasks": 1
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    4,
+    6
+   ],
    "forms": {
     "A": {
      "pages": 2,
@@ -8358,14 +8361,14 @@
        "159f734180e2050e"
       ],
       [
-       "680cf322e1f7f19c"
-      ],
-      [
        "1cf21844da75484d",
        "5bdfe424aaed0e2a"
       ],
       [
        "00610fee74e55c25"
+      ],
+      [
+       "680cf322e1f7f19c"
       ]
      ],
      "pos": [
@@ -8373,10 +8376,10 @@
        null
       ],
       [
+       null,
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -8388,14 +8391,14 @@
        "write 3"
       ],
       [
-       "write 4"
-      ],
-      [
        "write 1",
        "write 1"
       ],
       [
        "write 1"
+      ],
+      [
+       "write 4"
       ]
      ],
      "sizes": [
@@ -8403,10 +8406,10 @@
        0
       ],
       [
+       0,
        0
       ],
       [
-       0,
        0
       ],
       [
@@ -8421,14 +8424,14 @@
        "6c712e5acc5e1c36"
       ],
       [
-       "14f90c3e52ffc697"
-      ],
-      [
        "41747b8700ca171c",
        "4cc33cfbf4c0a6b6"
       ],
       [
        "7efe59db36863cf7"
+      ],
+      [
+       "14f90c3e52ffc697"
       ]
      ],
      "pos": [
@@ -8436,10 +8439,10 @@
        null
       ],
       [
+       null,
        null
       ],
       [
-       null,
        null
       ],
       [
@@ -8451,14 +8454,14 @@
        "write 3"
       ],
       [
-       "write 4"
-      ],
-      [
        "write 1",
        "write 1"
       ],
       [
        "write 1"
+      ],
+      [
+       "write 4"
       ]
      ],
      "sizes": [
@@ -8466,10 +8469,10 @@
        0
       ],
       [
+       0,
        0
       ],
       [
-       0,
        0
       ],
       [

@@ -726,6 +726,48 @@
    "activities": [
     "syllable-builder.build-endings.rf-1-3-f"
    ]
+  },
+  {
+   "tp": "3:context-clues",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.4.a",
+   "skill": "Use a definition, a synonym, an antonym, or an example in the sentence or the next one as a clue to the meaning of a new word"
+  },
+  {
+   "tp": "3:dictionary-glossary",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.4.d",
+   "skill": "Use guide words and ABC order to find a word in a dictionary or a glossary, choose the meaning that fits, and check a spelling"
+  },
+  {
+   "tp": "3:parts-of-speech",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.a",
+   "skill": "Explain the job of nouns, pronouns, verbs, adjectives, and adverbs, and label each word of a sentence by its job"
+  },
+  {
+   "tp": "3:plural-nouns",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.b",
+   "skill": "Form and use regular plurals (boxes, babies, leaves) and irregular plurals (mice, children, sheep)"
+  },
+  {
+   "tp": "3:past-tense-verbs",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.d",
+   "skill": "Form and use the past tense of regular verbs (jumped, hopped, carried) and of common irregular verbs (ran, brought, knew)"
+  },
+  {
+   "tp": "3:subject-verb-agreement",
+   "grade": "3",
+   "strand": "Language",
+   "code": "L.3.1.f",
+   "skill": "Make the verb agree with its subject and the pronoun agree with the noun it stands for"
   }
  ]
 }

@@ -17322,10 +17322,10 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Words and Their Meanings",
-   "metaTitle": "Grade 3 Reading and Writing Lesson Plans: Words and Their Meanings",
-   "metaDescription": "A two-week Grade 3 unit: 4 lessons on prefixes, more exact words for \"go\" and \"look,\" words that name a person, such as \"baker,\" and choosing the right form of a word.",
-   "days": 11,
-   "weeks": 2,
+   "metaTitle": "Words and Their Meanings: Grade 3 Vocabulary Lessons",
+   "metaDescription": "A Grade 3 unit: 6 lessons on prefixes, person words, root words, context clues, more exact words, and using a dictionary and a glossary.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -17395,52 +17395,6 @@
     },
     {
      "n": 2,
-     "point": "3:word-fields",
-     "title": "Words for go and words for look",
-     "objective": "Children sort verbs such as stroll, dash, glance, and stare into groups by meaning and tell the close words apart.",
-     "standards": [
-      {
-       "rel": "reviews",
-       "framework": "Common Core",
-       "code": "L.2.5.b",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G3-397",
-       "title": "Word Fields: Words for Go and Look",
-       "core": "synonyms-g3397",
-       "easy": "synonyms-easy-g3397-7",
-       "hard": "synonyms-hard-g3397-12",
-       "landing": "word-fields-go-and-look"
-      }
-     ],
-     "screen": {
-      "kind": "activity",
-      "id": "roary-roar-meter.shades.l-2-5-b",
-      "slug": "roary-roar-meter",
-      "title": "Roary's Roar Meter — Strongest & Weakest Words"
-     },
-     "exit": {
-      "slug": "synonyms-g3397-2",
-      "title": "Word Fields: Words for Go and Look"
-     },
-     "maker": {
-      "id": "word-meaning",
-      "name": "Opposites, Synonyms & Word Parts",
-      "slug": "opposites-and-synonyms-worksheet-maker",
-      "template": "G3-397"
-     },
-     "note": {
-      "mistake": "Children know \"go\" and \"look\" and take the other words for the same thing said in a fancier way. A word they do not know is placed by guess or left out.",
-      "words": "Act each word out: \"Show me stroll. Show me dash. Are they both ways to go? What is different?\" Then for looking: \"Glance at the door. Stare at the door.\" Ask: \"When would you use this word and not the plain one?\"",
-      "watch": "Ask a child to use two words from one group in two sentences that show the difference. Note the words nobody could act out; teach those before the page is corrected."
-     },
-     "days": 2
-    },
-    {
-     "n": 3,
      "point": "3:person-words",
      "title": "The person word: bake, baker",
      "objective": "Children make the word for a person from a verb with the ending -er, as in bake and baker, and say what the new word means.",
@@ -17498,7 +17452,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 3,
      "point": "3:root-words-in-context",
      "title": "Choose the right form of the word",
      "objective": "Children choose among four words from one family, such as bake, baker, baking, and baked, the one that fits each sentence.",
@@ -17552,6 +17506,132 @@
       "mistake": "Children put the words into the blanks in the order they are printed. They choose by meaning alone, which all four words share, and do not listen for what the sentence needs: a person, an action now, or an action that is over.",
       "words": "Ask what the blank needs: \"Is it a person? Something that is happening, after is or are? Something that already happened? Or the plain word, after to, will, or can?\" Read the sentence aloud with each word: \"Yesterday she… bake? baker? baked. Which one sounds right?\" Cross off each word as it is used.",
       "watch": "Have the child read all four finished sentences aloud. One wrong word forces a second one, so two sentences will sound wrong together; let the child trade the two words."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:context-clues",
+     "title": "Context clues",
+     "objective": "Children use the sentence, and the sentence after it, as a clue to the meaning of a new word: a definition, a synonym, an antonym, or examples.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.4.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-540",
+       "title": "Context Clues: What Kind of Clue?",
+       "core": "reading-comprehension-g3540",
+       "easy": "reading-comprehension-easy-g3540-6",
+       "hard": "reading-comprehension-hard-g3540-11"
+      },
+      {
+       "type": "G3-541",
+       "title": "Context Clues in a Passage",
+       "core": "reading-comprehension-g3541",
+       "easy": "reading-comprehension-easy-g3541-6",
+       "hard": "reading-comprehension-hard-g3541-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g3540-2",
+      "title": "Context Clues: What Kind of Clue?"
+     },
+     "note": {
+      "mistake": "Children guess from how the word looks, or they take the clue word itself as the meaning when the clue is an opposite (calm for turbulent).",
+      "words": "Say: \"A context clue is a hint near a new word. A definition tells what it means. A synonym means almost the same. An antonym means the opposite. Examples show what it means.\" Signal words help: is, or, which means (definition); such as, like, including (example); but, unlike, while, instead of (antonym). Day 1, What Kind of Clue?: children underline the clue, write D, S, A, or E in the box, and give the meaning. Level 1 has six sentences with definition and antonym clues; Level 2 has eight, two of each kind; on both, children circle the meaning. On Level 3 they write it. Day 2, Context Clues in a Passage: six words are bold in a short text. On Level 1 each clue is a definition in the same sentence, and children circle one of three meanings. On Level 2 the clues are examples and opposites, and children write the meaning. On Level 3 the clue is in the next sentence, and children write its kind and the meaning.",
+      "watch": "Have children read the sentence again with their meaning in place of the bold word: does it make sense? With an antonym clue, the meaning is the opposite of the clue. The key's written meanings are samples."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "3:word-fields",
+     "title": "Words for go and words for look",
+     "objective": "Children sort verbs such as stroll, dash, glance, and stare into groups by meaning and tell the close words apart.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "L.2.5.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-397",
+       "title": "Word Fields: Words for Go and Look",
+       "core": "synonyms-g3397",
+       "easy": "synonyms-easy-g3397-7",
+       "hard": "synonyms-hard-g3397-12",
+       "landing": "word-fields-go-and-look"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "roary-roar-meter.shades.l-2-5-b",
+      "slug": "roary-roar-meter",
+      "title": "Roary's Roar Meter — Strongest & Weakest Words"
+     },
+     "exit": {
+      "slug": "synonyms-g3397-2",
+      "title": "Word Fields: Words for Go and Look"
+     },
+     "maker": {
+      "id": "word-meaning",
+      "name": "Opposites, Synonyms & Word Parts",
+      "slug": "opposites-and-synonyms-worksheet-maker",
+      "template": "G3-397"
+     },
+     "note": {
+      "mistake": "Children know \"go\" and \"look\" and take the other words for the same thing said in a fancier way. A word they do not know is placed by guess or left out.",
+      "words": "Act each word out: \"Show me stroll. Show me dash. Are they both ways to go? What is different?\" Then for looking: \"Glance at the door. Stare at the door.\" Ask: \"When would you use this word and not the plain one?\"",
+      "watch": "Ask a child to use two words from one group in two sentences that show the difference. Note the words nobody could act out; teach those before the page is corrected."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "3:dictionary-glossary",
+     "title": "Use a dictionary and a glossary",
+     "objective": "Children use guide words to find words in a print dictionary and a glossary, choose the right meaning, and check a spelling.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.4.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-542",
+       "title": "Use a Dictionary: Guide Words and Meanings",
+       "core": "alphabetical-order-g3542",
+       "easy": "alphabetical-order-easy-g3542-6",
+       "hard": "alphabetical-order-hard-g3542-11"
+      },
+      {
+       "type": "G3-543",
+       "title": "Use a Glossary: Find the Meaning",
+       "core": "reading-comprehension-g3543",
+       "easy": "reading-comprehension-easy-g3543-6",
+       "hard": "reading-comprehension-hard-g3543-11"
+      }
+     ],
+     "exit": {
+      "slug": "alphabetical-order-g3542-2",
+      "title": "Use a Dictionary: Guide Words and Meanings"
+     },
+     "note": {
+      "mistake": "Children compare only the first letters of guide words, or they take the first meaning of a word without reading its sentence.",
+      "words": "Say: \"Guide words are the first and last words on a dictionary page. A word is on that page if it comes between them in ABC order. If the first letters match, look at the next letter.\" If one word is the start of the other (cap, cape), the shorter word comes first. Day 1, Use a Dictionary: a page of twelve entries; children circle the guide words of the page a word is on, the meaning a sentence uses, the right spelling, and more. On Level 1 the first letter decides the page; on Level 2 the guide words share a first letter; on Level 3 the third letter decides the page, and children write an entry for a new word. Day 2, Use a Glossary: a science text and its glossary. Children circle yes or no for sentences the glossary proves and write the two words a new word goes between. On Level 1 each glossary word has its own first letter; Levels 2 and 3 add words from other pages of the book, so a later letter decides. On Level 3 one bold word is missing, and children write its entry.",
+      "watch": "A glossary gives the meaning a word has in that book; a dictionary may give more than one. A class may also look a word up in an online children's dictionary."
      },
      "days": 2
     }
@@ -17940,6 +18020,180 @@
       "mistake": "Children list facts in the order they remember them, not in the order of the text, and begin every sentence with \"then.\" They turn cause and effect around (\"The Pony Express closed, so a telegraph line was built\"). With because and so they pick the wrong word: \"because\" goes before the cause, \"so\" goes before the effect.",
       "words": "Say: \"A cause makes something happen. The effect is what happens. Ask 'Why did it happen?' to find the cause, and 'What happened because of it?' to find the effect.\" Model with a pair from the classroom and say it both ways: \"It started to rain, so we had recess inside. We had recess inside because it started to rain.\" On the Events in Order page the task names what the four events or steps tell (for example, how a blue whale breathes); have children find that part of the text first. On Level 3 they also choose one event and tell why it happens or what it leads to. On the Cause and Effect page, Level 1 matches causes with effects; on Level 2 children write the missing half; on Level 3 they also write both halves as one sentence with because or so.",
       "watch": "On the writing levels an event or an effect is right when it comes from the text, in the child's own words; it does not have to match the key. In a chain, check the order against the text: what comes first in the text, or what causes the next thing, comes first. In the one-sentence task, check the direction: the cause comes after \"because\" or before \"so.\" A child who writes two sentences without because or so has the facts but not the connection: ask \"Which one made the other happen?\" If a child matches an effect to the wrong cause, have the child read the pair aloud with \"so\" between them and ask whether the text says that."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "g3-parts-of-speech",
+   "slug": "parts-of-speech-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "literacy",
+   "title": "Parts of Speech",
+   "metaTitle": "Grade 3 Grammar Lesson Plans: Parts of Speech",
+   "metaDescription": "A Grade 3 grammar unit: 4 lessons on the jobs of nouns, pronouns, verbs, adjectives, and adverbs, plural nouns, past tense verbs, and subject-verb agreement.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "3:parts-of-speech",
+     "title": "What each word does in a sentence",
+     "objective": "Children explain the job of nouns, pronouns, verbs, adjectives, and adverbs in general and in particular sentences, and label them.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-531",
+       "title": "Sort the Parts of Speech",
+       "core": "word-classes-g3531",
+       "easy": "word-classes-easy-g3531-6",
+       "hard": "word-classes-hard-g3531-11"
+      },
+      {
+       "type": "G3-530",
+       "title": "Label the Parts of Speech",
+       "core": "word-classes-g3530",
+       "easy": "word-classes-easy-g3530-6",
+       "hard": "word-classes-hard-g3530-11"
+      }
+     ],
+     "exit": {
+      "slug": "word-classes-g3531-2",
+      "title": "Sort the Parts of Speech"
+     },
+     "note": {
+      "mistake": "Children label a word by how it looks, not by its job: every word that ends in -ly becomes an adverb (friendly, lonely), and is or was is left out because it shows no action.",
+      "words": "Say: \"A noun names a person, animal, place, or thing. A pronoun takes the place of a noun. A verb shows an action or a state of being: am, is, are, was, were. An adjective describes a noun. An adverb describes a verb. It tells how, when, or how often.\" Day 1, Sort the Parts of Speech: children write each word in the column of its job and cross it out, then write two words of their own for each job. Level 1 sorts nouns, verbs, and adjectives only. Day 2, Label the Parts of Speech: children write N, P, V, Adj, or Adv in the box under each word; a, an, and the are grey and get no label. Level 1 uses N, V, and Adj only. Level 3 uses longer sentences and ends with a sentence of the child's own that uses all five jobs: the sentence on the first line, its labels on the second.",
+      "watch": "Ask \"What does this word do here?\" before a child writes a label. On Level 3 both pages have adverbs with -ly, an adjective with -ly (friendly, lonely), and an adverb without -ly (often, never), so the ending alone does not decide. Every verb to sort is a past form, so it cannot be read as a noun, and at least half are irregular (ran, ate), so -ed does not give the verbs away."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "3:plural-nouns",
+     "title": "Plural nouns: regular and irregular",
+     "objective": "Children form and use regular plurals (boxes, babies, leaves) and irregular plurals (mice, teeth, children) in sentences.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-533",
+       "title": "Which Plural Is Right?",
+       "core": "singular-plural-g3533",
+       "easy": "singular-plural-easy-g3533-6",
+       "hard": "singular-plural-hard-g3533-11"
+      },
+      {
+       "type": "G3-532",
+       "title": "Plural Nouns: Spelling Rules",
+       "core": "singular-plural-g3532",
+       "easy": "singular-plural-easy-g3532-6",
+       "hard": "singular-plural-hard-g3532-11"
+      }
+     ],
+     "exit": {
+      "slug": "singular-plural-g3533-2",
+      "title": "Which Plural Is Right?"
+     },
+     "note": {
+      "mistake": "Children add -s to every noun (foxs, babys, wolfs) or add an ending to an irregular plural (childrens, feets). Some keep the y after a consonant (ladys).",
+      "words": "Say: \"Most nouns add -s. Nouns that end in s, x, z, ch, or sh add -es. After a consonant, y changes to i and we add -es: baby, babies. Some words that end in f or fe change the f or fe to v and add -es: leaf, leaves. Irregular nouns change in their own way or stay the same: mouse, mice.\" Day 1, Which Plural Is Right?: children read twelve sentences and circle the right plural; the other choices are the singular or common misspellings (sheep stays the same). Day 2, Plural Nouns: children write the plural of sixteen nouns and the number of the rule they used, then write the plural of the noun in ( ) in six sentences. Level 1 uses rules 1 and 2, Level 2 rules 1 to 4, and Level 3 all five rules.",
+      "watch": "A word that ends in a vowel and y just adds -s: key, keys. Not every word with f changes: these pages use only words that do. Deer and sheep stay the same; fish is not on these pages."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "3:past-tense-verbs",
+     "title": "Past tense: regular and irregular verbs",
+     "objective": "Children form and use the past tense of regular verbs (jumped, carried) and common irregular verbs (ran, brought, knew).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-534",
+       "title": "Past Tense: Regular and Irregular Verbs",
+       "core": "verb-forms-g3534",
+       "easy": "verb-forms-easy-g3534-6",
+       "hard": "verb-forms-hard-g3534-11"
+      },
+      {
+       "type": "G3-535",
+       "title": "Rewrite the Story in the Past Tense",
+       "core": "verb-forms-g3535",
+       "easy": "verb-forms-easy-g3535-6",
+       "hard": "verb-forms-hard-g3535-11"
+      }
+     ],
+     "exit": {
+      "slug": "verb-forms-g3534-2",
+      "title": "Past Tense: Regular and Irregular Verbs"
+     },
+     "note": {
+      "mistake": "Children add -ed to an irregular verb (runned, bringed) or skip a spelling move (hoped for hopped, carryed). When they rewrite a story, they change the first verbs and leave later ones in the present.",
+      "words": "Say: \"A regular verb adds -ed. If it ends in e, add -d. If it has one syllable, one short vowel, and one consonant at the end, double the last consonant (never x). A verb that ends in a vowel and y just adds -ed: play, played. If it ends in a consonant and y, change y to i. An irregular verb changes in its own way: go, went.\" Day 1, Past Tense: on Level 1 every verb is regular, and children write the past tense and the number of its spelling move; Levels 2 and 3 mix in irregular verbs, and children circle R or I. Six sentences that name a time in the past follow. Day 2, Rewrite the Story: on Levels 1 and 2 every verb is underlined and numbered, and a small box repeats the spelling moves; children write each past form, then the first three sentences in the past tense. On Level 3 nothing is underlined: children find the verbs and rewrite the whole story.",
+      "watch": "Read the story aloud first. Each verb in it has one past form, and the Level 1 stories have regular verbs only. Never double x (mixed, relaxed); a verb of two syllables such as visit or open just adds -ed. Verbs that look the same in the past, such as read and put, are never asked."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "3:subject-verb-agreement",
+     "title": "Subjects and verbs agree",
+     "objective": "Children make the verb agree with its subject (The dog runs. The dogs run.) and the pronoun agree with the noun it stands for.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.3.1.f",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G3-536",
+       "title": "Subjects and Verbs Agree",
+       "core": "verb-forms-g3536",
+       "easy": "verb-forms-easy-g3536-6",
+       "hard": "verb-forms-hard-g3536-11"
+      },
+      {
+       "type": "G3-537",
+       "title": "Fix the Words That Do Not Agree",
+       "core": "verb-forms-g3537",
+       "easy": "verb-forms-easy-g3537-6",
+       "hard": "verb-forms-hard-g3537-11"
+      }
+     ],
+     "exit": {
+      "slug": "verb-forms-g3536-2",
+      "title": "Subjects and Verbs Agree"
+     },
+     "note": {
+      "mistake": "Children make the verb agree with the nearest noun (The box of crayons are) and use is after two subjects joined by and. A pronoun may not match its noun (The puppies played. It rolled.).",
+      "words": "Say: \"When the subject is one, the verb usually ends in s: runs, is, was, has. When the subject is more than one, it does not: run, are, were, have.\" Day 1, Subjects and Verbs Agree: children circle the verb that agrees and draw an arrow from it to its subject. Level 1 puts the subject next to the verb, and its box says that I and you take the verb without s: I have, you are; Level 2 puts words between them; Level 3 has two subjects joined by and, There is and There are, and pronouns that agree with a noun in the sentence before. Day 2, Fix the Words That Do Not Agree: children cross out the verb or pronoun that does not agree and write the right word on the line; on Levels 2 and 3 two sentences are already right and get a check mark. Then children write two sentences of their own.",
+      "watch": "Have children find the subject first and put a finger on it. In a There sentence, the subject comes after the verb. When two things do the action, the arrow points to both: the key underlines the whole subject."
      },
      "days": 2
     }
@@ -19493,9 +19747,9 @@
    "grade": "3",
    "subject": "literacy",
    "title": "Grade 3 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (12 Weeks)",
-   "metaDescription": "5 Grade 3 reading and language units in teaching order, about 12 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 12,
+   "metaTitle": "Grade 3 ELA Scope and Sequence: Reading and Language (15 Weeks)",
+   "metaDescription": "6 Grade 3 reading and language units in teaching order, about 15 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 15,
    "framework": "Common Core",
    "units": [
     {
@@ -19521,20 +19775,24 @@
      "id": "g3-words-and-their-meanings",
      "slug": "words-and-their-meanings-grade-3-unit",
      "title": "Words and Their Meanings",
-     "weeks": 2,
+     "weeks": 3,
      "from": 3,
-     "to": 4,
+     "to": 5,
      "lessons": [
       "Prefixes change the meaning",
-      "Words for go and words for look",
       "The person word: bake, baker",
-      "Choose the right form of the word"
+      "Choose the right form of the word",
+      "Context clues",
+      "Words for go and words for look",
+      "Use a dictionary and a glossary"
      ],
      "standards": [
       "L.3.1.a",
       "L.3.1.e",
       "L.3.2.e",
+      "L.3.4.a",
       "L.3.4.b",
+      "L.3.4.d",
       "RF.3.3.a"
      ]
     },
@@ -19543,8 +19801,8 @@
      "slug": "stories-evidence-lessons-and-characters-grade-3-unit",
      "title": "Stories: Evidence, Lessons, and Characters",
      "weeks": 2,
-     "from": 5,
-     "to": 6,
+     "from": 6,
+     "to": 7,
      "lessons": [
       "Show Where the Story Says It",
       "Retell a Story and Find Its Central Message",
@@ -19563,8 +19821,8 @@
      "slug": "reading-to-learn-informational-texts-grade-3-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 7,
-     "to": 9,
+     "from": 8,
+     "to": 10,
      "lessons": [
       "Answer with Evidence",
       "Main Idea and Key Details",
@@ -19581,12 +19839,32 @@
      ]
     },
     {
+     "id": "g3-parts-of-speech",
+     "slug": "parts-of-speech-grade-3-unit",
+     "title": "Parts of Speech",
+     "weeks": 2,
+     "from": 11,
+     "to": 12,
+     "lessons": [
+      "What each word does in a sentence",
+      "Plural nouns: regular and irregular",
+      "Past tense: regular and irregular verbs",
+      "Subjects and verbs agree"
+     ],
+     "standards": [
+      "L.3.1.a",
+      "L.3.1.b",
+      "L.3.1.d",
+      "L.3.1.f"
+     ]
+    },
+    {
      "id": "g3-sentences-and-conventions",
      "slug": "sentences-and-conventions-grade-3-unit",
      "title": "Sentences and Conventions",
      "weeks": 3,
-     "from": 10,
-     "to": 12,
+     "from": 13,
+     "to": 15,
      "lessons": [
       "Joining words: and, but, so, because, when",
       "Simple, compound, and complex sentences",

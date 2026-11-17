@@ -4059,6 +4059,36 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-17 for the English vocabulary and word reading of Grade 1 (Part 12.3: words by category and their definitions, the endings -s, -ed and -ing); the endings are forms of English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
    "review": "year-design 2026-11-17"
+  },
+  "3:context-clues": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary of Grade 3 (Part 12.3: context clues, and the use of a dictionary and a glossary in ABC order); the skill is not bound to English, but the pages are. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:dictionary-glossary": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary of Grade 3 (Part 12.3: context clues, and the use of a dictionary and a glossary in ABC order); the skill is not bound to English, but the pages are. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:parts-of-speech": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English grammar of Grade 3 (Part 12.3: the parts of speech, regular and irregular plurals, the past tense of regular and irregular verbs, subject-verb agreement); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:plural-nouns": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English grammar of Grade 3 (Part 12.3: the parts of speech, regular and irregular plurals, the past tense of regular and irregular verbs, subject-verb agreement); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:past-tense-verbs": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English grammar of Grade 3 (Part 12.3: the parts of speech, regular and irregular plurals, the past tense of regular and irregular verbs, subject-verb agreement); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:subject-verb-agreement": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English grammar of Grade 3 (Part 12.3: the parts of speech, regular and irregular plurals, the past tense of regular and irregular verbs, subject-verb agreement); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

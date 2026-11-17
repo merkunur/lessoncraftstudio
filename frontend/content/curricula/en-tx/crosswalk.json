@@ -4226,6 +4226,26 @@
    ],
    "by": "authored"
   },
+  "3:context-clues": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.B",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:dictionary-glossary": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.A",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "3:story-evidence": {
    "rows": [
     {
@@ -4356,6 +4376,76 @@
     {
      "id": "ELAR.3.7.D",
      "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:parts-of-speech": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.iv",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.vii",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:plural-nouns": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:past-tense-verbs": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.ii",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:subject-verb-agreement": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.i",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "ELAR.3.11.D.vii",
+     "rel": "prepares",
      "grade": "3"
     }
    ],

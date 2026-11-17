@@ -1273,7 +1273,8 @@
             "standard": "L.3.4.a",
             "days": 2,
             "source": "new",
-            "page": "Word meaning page: a passage of about 200 words with eight bold words that are new for third graders; for each, the child underlines the clue and chooses or writes the meaning. Level 1: the clue is a definition in the same sentence, with three meanings to choose from; level 2: example and opposite clues, written meanings; level 3: the clue is in the next sentence, and the child names the kind of clue."
+            "page": "Word meaning page: a passage of about 200 words with eight bold words that are new for third graders; for each, the child underlines the clue and chooses or writes the meaning. Level 1: the clue is a definition in the same sentence, with three meanings to choose from; level 2: example and opposite clues, written meanings; level 3: the clue is in the next sentence, and the child names the kind of clue.",
+            "placed": "3:context-clues"
           },
           {
             "existing": "3:word-fields"
@@ -1285,7 +1286,8 @@
             "standard": "L.3.4.d",
             "days": 2,
             "source": "new",
-            "page": "Dictionary page: a printed dictionary page with guide words and twelve entries, some with two meanings. The child answers eight questions: which guide words a word falls between, which meaning fits a sentence, and how a word is spelled. Level 1: ABC order to the first letter; level 2: to the second and third letter; level 3: the child also writes an entry for a new word."
+            "page": "Dictionary page: a printed dictionary page with guide words and twelve entries, some with two meanings. The child answers eight questions: which guide words a word falls between, which meaning fits a sentence, and how a word is spelled. Level 1: ABC order to the first letter; level 2: to the second and third letter; level 3: the child also writes an entry for a new word.",
+            "placed": "3:dictionary-glossary"
           }
         ]
       },
@@ -1345,7 +1347,8 @@
             "standard": "L.3.1.a",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: eight sentences in which the child labels each word with N, P, V, Adj, or Adv; then a sort of sixteen words into five columns. Level 1: nouns, verbs, and adjectives only; level 2: all five; level 3: the child writes a sentence with all five and labels it."
+            "page": "Grammar page: eight sentences in which the child labels each word with N, P, V, Adj, or Adv; then a sort of sixteen words into five columns. Level 1: nouns, verbs, and adjectives only; level 2: all five; level 3: the child writes a sentence with all five and labels it.",
+            "placed": "3:parts-of-speech"
           },
           {
             "existing": "3:root-words-in-context",
@@ -1358,7 +1361,8 @@
             "standard": "L.3.1.b",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: a table of sixteen nouns where the child writes the plural and the rule used (add -s, add -es, change y to i, change f to v, irregular); then six sentences with a missing plural. Level 1: -s and -es; level 2: all regular rules; level 3: regular and irregular mixed."
+            "page": "Grammar page: a table of sixteen nouns where the child writes the plural and the rule used (add -s, add -es, change y to i, change f to v, irregular); then six sentences with a missing plural. Level 1: -s and -es; level 2: all regular rules; level 3: regular and irregular mixed.",
+            "placed": "3:plural-nouns"
           },
           {
             "new": true,
@@ -1367,7 +1371,8 @@
             "standard": "L.3.1.d",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: a table of sixteen verbs where the child writes the past tense and marks it regular or irregular; then a short story of about 100 words in the present tense that the child rewrites in the past. Level 1: regular verbs; level 2: regular and eight irregular verbs; level 3: the whole story rewritten."
+            "page": "Grammar page: a table of sixteen verbs where the child writes the past tense and marks it regular or irregular; then a short story of about 100 words in the present tense that the child rewrites in the past. Level 1: regular verbs; level 2: regular and eight irregular verbs; level 3: the whole story rewritten.",
+            "placed": "3:past-tense-verbs"
           },
           {
             "new": true,
@@ -1376,7 +1381,8 @@
             "standard": "L.3.1.f",
             "days": 2,
             "source": "new",
-            "page": "Grammar page: twelve sentences with a choice of two verbs or two pronouns; the child circles the one that agrees and draws an arrow to its subject or noun. Bottom: four sentences with an error to fix. Level 1: singular and plural subjects next to the verb; level 2: words between the subject and the verb; level 3: pronouns that must agree with a noun in the sentence before."
+            "page": "Grammar page: twelve sentences with a choice of two verbs or two pronouns; the child circles the one that agrees and draws an arrow to its subject or noun. Bottom: four sentences with an error to fix. Level 1: singular and plural subjects next to the verb; level 2: words between the subject and the verb; level 3: pronouns that must agree with a noun in the sentence before.",
+            "placed": "3:subject-verb-agreement"
           }
         ]
       },

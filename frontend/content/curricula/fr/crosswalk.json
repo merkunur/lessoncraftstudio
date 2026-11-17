@@ -3645,6 +3645,14 @@
    ],
    "by": "authored"
   },
+  "3:context-clues": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:dictionary-glossary": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:story-evidence": {
    "none": "not yet read against this curriculum",
    "by": "authored"
@@ -3678,6 +3686,22 @@
    "by": "authored"
   },
   "3:events-cause-effect": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:parts-of-speech": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:plural-nouns": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:past-tense-verbs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:subject-verb-agreement": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

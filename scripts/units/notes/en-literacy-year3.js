@@ -15,6 +15,10 @@
  * the reviewer of the pages read them (2026-11-18, every finding applied).
  * The five notes of the unit Sentences and Conventions (G3-520 to G3-529) were added by place-ready-y.en.literacy.js;
  * the reviewer of the pages read them (2026-11-18, every finding applied).
+ * The two notes on context clues and on the dictionary and glossary (G3-540 to G3-543) were added by
+ * place-ready-dd.en.literacy.js; the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Parts of Speech (G3-530 to G3-537) were added by place-ready-aa.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -180,6 +184,60 @@ module.exports = {
         mistake: 'Children capitalize every word, or only the first one. Some leave the first word small when it is a small word (the Lost Lantern).',
         words: 'Say: "In a title, the first word, the last word, and every important word start with a capital letter. Small words like a, the, and, of, and in stay small in the middle." The box on every page lists the small words. Day 1, Find the Capitals: the child circles each word that needs a capital in titles printed in small letters, then circles the right one of a title printed two ways; Level 1 has three-word titles, Level 2 titles with a, the, of, and in, Level 3 titles with a name or a colon. Day 2, Capitals in Titles: the child writes each title with its capitals, then the titles of three books he or she likes and a title for a report.',
         watch: 'Is, are, and it are short but important words, so they always get a capital. Words such as from, about, into, and with are left out of these titles because style guides disagree on them. A name always gets a capital, and so does the first word after a colon: Leo and the Lighthouse: A Summer Story. All the titles are made up.',
+      },
+    },
+    '3:context-clues': {
+      title: 'Context clues',
+      objective: 'Children use the sentence, and the sentence after it, as a clue to the meaning of a new word: a definition, a synonym, an antonym, or examples.',
+      note: {
+        mistake: 'Children guess from how the word looks, or they take the clue word itself as the meaning when the clue is an opposite (calm for turbulent).',
+        words: 'Say: "A context clue is a hint near a new word. A definition tells what it means. A synonym means almost the same. An antonym means the opposite. Examples show what it means." Signal words help: is, or, which means (definition); such as, like, including (example); but, unlike, while, instead of (antonym). Day 1, What Kind of Clue?: children underline the clue, write D, S, A, or E in the box, and give the meaning. Level 1 has six sentences with definition and antonym clues; Level 2 has eight, two of each kind; on both, children circle the meaning. On Level 3 they write it. Day 2, Context Clues in a Passage: six words are bold in a short text. On Level 1 each clue is a definition in the same sentence, and children circle one of three meanings. On Level 2 the clues are examples and opposites, and children write the meaning. On Level 3 the clue is in the next sentence, and children write its kind and the meaning.',
+        watch: 'Have children read the sentence again with their meaning in place of the bold word: does it make sense? With an antonym clue, the meaning is the opposite of the clue. The key\'s written meanings are samples.',
+      },
+    },
+    '3:dictionary-glossary': {
+      title: 'Use a dictionary and a glossary',
+      objective: 'Children use guide words to find words in a print dictionary and a glossary, choose the right meaning, and check a spelling.',
+      note: {
+        mistake: 'Children compare only the first letters of guide words, or they take the first meaning of a word without reading its sentence.',
+        words: 'Say: "Guide words are the first and last words on a dictionary page. A word is on that page if it comes between them in ABC order. If the first letters match, look at the next letter." If one word is the start of the other (cap, cape), the shorter word comes first. Day 1, Use a Dictionary: a page of twelve entries; children circle the guide words of the page a word is on, the meaning a sentence uses, the right spelling, and more. On Level 1 the first letter decides the page; on Level 2 the guide words share a first letter; on Level 3 the third letter decides the page, and children write an entry for a new word. Day 2, Use a Glossary: a science text and its glossary. Children circle yes or no for sentences the glossary proves and write the two words a new word goes between. On Level 1 each glossary word has its own first letter; Levels 2 and 3 add words from other pages of the book, so a later letter decides. On Level 3 one bold word is missing, and children write its entry.',
+        watch: 'A glossary gives the meaning a word has in that book; a dictionary may give more than one. A class may also look a word up in an online children\'s dictionary.',
+      },
+    },
+    '3:parts-of-speech': {
+      title: 'What each word does in a sentence',
+      objective: 'Children explain the job of nouns, pronouns, verbs, adjectives, and adverbs in general and in particular sentences, and label them.',
+      note: {
+        mistake: 'Children label a word by how it looks, not by its job: every word that ends in -ly becomes an adverb (friendly, lonely), and is or was is left out because it shows no action.',
+        words: 'Say: "A noun names a person, animal, place, or thing. A pronoun takes the place of a noun. A verb shows an action or a state of being: am, is, are, was, were. An adjective describes a noun. An adverb describes a verb. It tells how, when, or how often." Day 1, Sort the Parts of Speech: children write each word in the column of its job and cross it out, then write two words of their own for each job. Level 1 sorts nouns, verbs, and adjectives only. Day 2, Label the Parts of Speech: children write N, P, V, Adj, or Adv in the box under each word; a, an, and the are grey and get no label. Level 1 uses N, V, and Adj only. Level 3 uses longer sentences and ends with a sentence of the child\'s own that uses all five jobs: the sentence on the first line, its labels on the second.',
+        watch: 'Ask "What does this word do here?" before a child writes a label. On Level 3 both pages have adverbs with -ly, an adjective with -ly (friendly, lonely), and an adverb without -ly (often, never), so the ending alone does not decide. Every verb to sort is a past form, so it cannot be read as a noun, and at least half are irregular (ran, ate), so -ed does not give the verbs away.',
+      },
+    },
+    '3:plural-nouns': {
+      title: 'Plural nouns: regular and irregular',
+      objective: 'Children form and use regular plurals (boxes, babies, leaves) and irregular plurals (mice, teeth, children) in sentences.',
+      note: {
+        mistake: 'Children add -s to every noun (foxs, babys, wolfs) or add an ending to an irregular plural (childrens, feets). Some keep the y after a consonant (ladys).',
+        words: 'Say: "Most nouns add -s. Nouns that end in s, x, z, ch, or sh add -es. After a consonant, y changes to i and we add -es: baby, babies. Some words that end in f or fe change the f or fe to v and add -es: leaf, leaves. Irregular nouns change in their own way or stay the same: mouse, mice." Day 1, Which Plural Is Right?: children read twelve sentences and circle the right plural; the other choices are the singular or common misspellings (sheep stays the same). Day 2, Plural Nouns: children write the plural of sixteen nouns and the number of the rule they used, then write the plural of the noun in ( ) in six sentences. Level 1 uses rules 1 and 2, Level 2 rules 1 to 4, and Level 3 all five rules.',
+        watch: 'A word that ends in a vowel and y just adds -s: key, keys. Not every word with f changes: these pages use only words that do. Deer and sheep stay the same; fish is not on these pages.',
+      },
+    },
+    '3:past-tense-verbs': {
+      title: 'Past tense: regular and irregular verbs',
+      objective: 'Children form and use the past tense of regular verbs (jumped, carried) and common irregular verbs (ran, brought, knew).',
+      note: {
+        mistake: 'Children add -ed to an irregular verb (runned, bringed) or skip a spelling move (hoped for hopped, carryed). When they rewrite a story, they change the first verbs and leave later ones in the present.',
+        words: 'Say: "A regular verb adds -ed. If it ends in e, add -d. If it has one syllable, one short vowel, and one consonant at the end, double the last consonant (never x). A verb that ends in a vowel and y just adds -ed: play, played. If it ends in a consonant and y, change y to i. An irregular verb changes in its own way: go, went." Day 1, Past Tense: on Level 1 every verb is regular, and children write the past tense and the number of its spelling move; Levels 2 and 3 mix in irregular verbs, and children circle R or I. Six sentences that name a time in the past follow. Day 2, Rewrite the Story: on Levels 1 and 2 every verb is underlined and numbered, and a small box repeats the spelling moves; children write each past form, then the first three sentences in the past tense. On Level 3 nothing is underlined: children find the verbs and rewrite the whole story.',
+        watch: 'Read the story aloud first. Each verb in it has one past form, and the Level 1 stories have regular verbs only. Never double x (mixed, relaxed); a verb of two syllables such as visit or open just adds -ed. Verbs that look the same in the past, such as read and put, are never asked.',
+      },
+    },
+    '3:subject-verb-agreement': {
+      title: 'Subjects and verbs agree',
+      objective: 'Children make the verb agree with its subject (The dog runs. The dogs run.) and the pronoun agree with the noun it stands for.',
+      note: {
+        mistake: 'Children make the verb agree with the nearest noun (The box of crayons are) and use is after two subjects joined by and. A pronoun may not match its noun (The puppies played. It rolled.).',
+        words: 'Say: "When the subject is one, the verb usually ends in s: runs, is, was, has. When the subject is more than one, it does not: run, are, were, have." Day 1, Subjects and Verbs Agree: children circle the verb that agrees and draw an arrow from it to its subject. Level 1 puts the subject next to the verb, and its box says that I and you take the verb without s: I have, you are; Level 2 puts words between them; Level 3 has two subjects joined by and, There is and There are, and pronouns that agree with a noun in the sentence before. Day 2, Fix the Words That Do Not Agree: children cross out the verb or pronoun that does not agree and write the right word on the line; on Levels 2 and 3 two sentences are already right and get a check mark. Then children write two sentences of their own.',
+        watch: 'Have children find the subject first and put a finger on it. In a There sentence, the subject comes after the verb. When two things do the action, the arrow points to both: the key underlines the whole subject.',
       },
     },
   },

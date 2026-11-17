@@ -7973,6 +7973,49 @@
    ]
   },
   {
+   "id": "3:context-clues",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Use a definition, a synonym, an antonym, or an example in the sentence or the next one as a clue to the meaning of a new word",
+   "code": "L.3.4.a",
+   "types": [
+    "G3-540",
+    "G3-541"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 135,
+   "prerequisites": []
+  },
+  {
+   "id": "3:dictionary-glossary",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Use guide words and ABC order to find a word in a dictionary or a glossary, choose the meaning that fits, and check a spelling",
+   "code": "L.3.4.d",
+   "types": [
+    "G3-542",
+    "G3-543"
+   ],
+   "families": [
+    "alphabetical-order",
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 136,
+   "prerequisites": []
+  },
+  {
    "id": "3:story-evidence",
    "grade": "3",
    "subject": "literacy",
@@ -7990,7 +8033,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 135,
+   "order": 137,
    "prerequisites": []
   },
   {
@@ -8011,7 +8054,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 136,
+   "order": 138,
    "prerequisites": []
   },
   {
@@ -8032,7 +8075,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 137,
+   "order": 139,
    "prerequisites": []
   },
   {
@@ -8053,7 +8096,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 138,
+   "order": 140,
    "prerequisites": []
   },
   {
@@ -8074,7 +8117,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 139,
+   "order": 141,
    "prerequisites": []
   },
   {
@@ -8095,7 +8138,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 140,
+   "order": 142,
    "prerequisites": []
   },
   {
@@ -8116,7 +8159,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 141,
+   "order": 143,
    "prerequisites": []
   },
   {
@@ -8137,7 +8180,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 142,
+   "order": 144,
    "prerequisites": []
   },
   {
@@ -8158,7 +8201,91 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 143,
+   "order": 145,
+   "prerequisites": []
+  },
+  {
+   "id": "3:parts-of-speech",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Explain the job of nouns, pronouns, verbs, adjectives, and adverbs, and label each word of a sentence by its job",
+   "code": "L.3.1.a",
+   "types": [
+    "G3-530",
+    "G3-531"
+   ],
+   "families": [
+    "word-classes"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 146,
+   "prerequisites": []
+  },
+  {
+   "id": "3:plural-nouns",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Form and use regular plurals (boxes, babies, leaves) and irregular plurals (mice, children, sheep)",
+   "code": "L.3.1.b",
+   "types": [
+    "G3-532",
+    "G3-533"
+   ],
+   "families": [
+    "singular-plural"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 147,
+   "prerequisites": []
+  },
+  {
+   "id": "3:past-tense-verbs",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Form and use the past tense of regular verbs (jumped, hopped, carried) and of common irregular verbs (ran, brought, knew)",
+   "code": "L.3.1.d",
+   "types": [
+    "G3-534",
+    "G3-535"
+   ],
+   "families": [
+    "verb-forms"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 148,
+   "prerequisites": []
+  },
+  {
+   "id": "3:subject-verb-agreement",
+   "grade": "3",
+   "subject": "literacy",
+   "strand": "Language",
+   "skill": "Make the verb agree with its subject and the pronoun agree with the noun it stands for",
+   "code": "L.3.1.f",
+   "types": [
+    "G3-536",
+    "G3-537"
+   ],
+   "families": [
+    "verb-forms"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 149,
    "prerequisites": []
   },
   {
@@ -8179,7 +8306,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 144,
+   "order": 150,
    "prerequisites": []
   },
   {
@@ -8200,7 +8327,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 145,
+   "order": 151,
    "prerequisites": []
   },
   {
@@ -8221,7 +8348,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 146,
+   "order": 152,
    "prerequisites": []
   },
   {
@@ -8242,7 +8369,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 147,
+   "order": 153,
    "prerequisites": []
   },
   {
@@ -8263,7 +8390,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 148,
+   "order": 154,
    "prerequisites": []
   },
   {

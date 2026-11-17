@@ -5393,6 +5393,90 @@
    ],
    "why": "Reading helps, helped and helping is «decoding words with inflectional endings, including -ed, -s, and -es»; choosing the ending a sentence needs is «identify the meaning of words with the affixes -s, -ed, and -ing».",
    "review": "year-design 2026-11-17"
+  },
+  "3:context-clues": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding the clue in the sentence or in the next sentence and saying what the new word means is «use context within and beyond a sentence to determine the meaning of unfamiliar words and multiple-meaning words».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:dictionary-glossary": {
+   "rows": [
+    {
+     "id": "ELAR.3.3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding a word by its guide words, reading its part of speech and choosing the meaning a sentence uses is «use print or digital resources to determine meaning, syllabication, and pronunciation»; the pages work with meaning and spelling, not with syllables and pronunciation.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:parts-of-speech": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.iv",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.v",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Texas names the parts of speech in the conventions a third grader edits for: «singular, plural, common, and proper nouns», «adjectives, including their comparative and superlative forms», «adverbs that convey time and adverbs that convey manner» and «pronouns, including subjective, objective, and possessive cases». Sorting words by their job and labeling each word of a sentence teaches what these words are and do.",
+   "review": "year-design 2026-11-17"
+  },
+  "3:plural-nouns": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.iii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing and choosing the plural of a noun is «singular, plural, common, and proper nouns»; adding -es and changing y to i before it is «spelling words using knowledge of suffixes, including how they can change base words such as dropping e, changing y to i, and doubling final consonants».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:past-tense-verbs": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.ii",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.2.B.vii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the past form of a verb and rewriting a story in the past is «past, present, and future verb tense»; dropping e, doubling the last consonant and changing y to i before -ed is «spelling words using knowledge of suffixes, including how they can change base words such as dropping e, changing y to i, and doubling final consonants».",
+   "review": "year-design 2026-11-17"
+  },
+  "3:subject-verb-agreement": {
+   "rows": [
+    {
+     "id": "ELAR.3.11.D.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.3.11.D.vii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the verb that agrees with one subject, with two subjects joined by and, and after There is «complete simple and compound sentences with subject-verb agreement». A pronoun that agrees in number with its noun prepares «pronouns, including subjective, objective, and possessive cases», which asks for the case of the pronoun.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

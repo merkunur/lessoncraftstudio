@@ -372,6 +372,18 @@
   "G1-608": "1:words-by-category",
   "G1-609": "1:words-by-category",
   "G1-610": "1:endings-s-ed-ing",
-  "G1-611": "1:endings-s-ed-ing"
+  "G1-611": "1:endings-s-ed-ing",
+  "G3-540": "3:context-clues",
+  "G3-541": "3:context-clues",
+  "G3-542": "3:dictionary-glossary",
+  "G3-543": "3:dictionary-glossary",
+  "G3-531": "3:parts-of-speech",
+  "G3-530": "3:parts-of-speech",
+  "G3-533": "3:plural-nouns",
+  "G3-532": "3:plural-nouns",
+  "G3-534": "3:past-tense-verbs",
+  "G3-535": "3:past-tense-verbs",
+  "G3-536": "3:subject-verb-agreement",
+  "G3-537": "3:subject-verb-agreement"
  }
 }

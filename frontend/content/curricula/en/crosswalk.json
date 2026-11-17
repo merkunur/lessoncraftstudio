@@ -3533,6 +3533,26 @@
    ],
    "by": "review"
   },
+  "3:context-clues": {
+   "rows": [
+    {
+     "id": "L.3.4.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:dictionary-glossary": {
+   "rows": [
+    {
+     "id": "L.3.4.d",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:story-evidence": {
    "rows": [
     {
@@ -3617,6 +3637,46 @@
    "rows": [
     {
      "id": "RI.3.3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:parts-of-speech": {
+   "rows": [
+    {
+     "id": "L.3.1.a",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:plural-nouns": {
+   "rows": [
+    {
+     "id": "L.3.1.b",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:past-tense-verbs": {
+   "rows": [
+    {
+     "id": "L.3.1.d",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:subject-verb-agreement": {
+   "rows": [
+    {
+     "id": "L.3.1.f",
      "rel": "teaches",
      "grade": "3"
     }

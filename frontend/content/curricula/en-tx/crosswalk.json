@@ -2896,6 +2896,71 @@
    ],
    "by": "authored"
   },
+  "K:opinion-favorite-why": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.A",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:fact-draw-label-write": {
+   "rows": [
+    {
+     "id": "ELAR.K.11.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:small-moment-draw-write": {
+   "rows": [
+    {
+     "id": "ELAR.K.11.A",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:authors-chair-add-detail": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.C",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.10.E",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "ELAR.K.1.A",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

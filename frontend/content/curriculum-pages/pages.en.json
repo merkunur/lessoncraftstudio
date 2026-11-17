@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 37,
+    "taught": 40,
     "near": 0,
-    "open": 28,
-    "lessons": 47
+    "open": 25,
+    "lessons": 51
    },
    "groups": [
     {
@@ -2891,6 +2891,20 @@
      "title": "Writing",
      "items": [
       {
+       "code": "W.K.1",
+       "state": "taught",
+       "text": "Children tell what they like best and why: they find the opinion and the reason in short pieces, then draw and write their own.",
+       "lessons": [
+        {
+         "unit": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+         "unitTitle": "Draw and Write: Opinions, Facts, and Stories",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "My favorite and why: an opinion"
+        }
+       ]
+      },
+      {
        "code": "W.K.2",
        "state": "taught",
        "text": "Children write their name and age, draw themselves and their favorite things, and copy the words for things they like.",
@@ -2901,14 +2915,46 @@
          "unitGrade": "K",
          "n": 7,
          "title": "All about me"
+        },
+        {
+         "unit": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+         "unitTitle": "Draw and Write: Opinions, Facts, and Stories",
+         "unitGrade": "K",
+         "n": 2,
+         "title": "Teach a fact: draw, label, and write"
+        }
+       ]
+      },
+      {
+       "code": "W.K.3",
+       "state": "taught",
+       "text": "Children tell one small moment in the order it happened, draw and write it, and tell how they felt.",
+       "lessons": [
+        {
+         "unit": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+         "unitTitle": "Draw and Write: Opinions, Facts, and Stories",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "What happened to me: a small moment"
+        }
+       ]
+      },
+      {
+       "code": "W.K.5",
+       "state": "taught",
+       "text": "Children read their writing to the class, answer a classmate's question, and add one detail to the picture or the words.",
+       "lessons": [
+        {
+         "unit": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+         "unitTitle": "Draw and Write: Opinions, Facts, and Stories",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Author's chair: a friend asks, I add"
         }
        ]
       }
      ],
      "open": [
-      "W.K.1",
-      "W.K.3",
-      "W.K.5",
       "W.K.6",
       "W.K.7",
       "W.K.8"

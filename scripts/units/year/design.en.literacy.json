@@ -2237,7 +2237,8 @@
             "days": 2,
             "tool": "Class Graph",
             "source": "new",
-            "page": "Writing page (opinion): a box for a picture and three writing lines with the frames My favorite ___ is ___. I like it because ___. At the bottom, a checklist of three picture icons: I drew it. I wrote my opinion. I told why. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+            "page": "Writing page (opinion): a box for a picture and three writing lines with the frames My favorite ___ is ___. I like it because ___. At the bottom, a checklist of three picture icons: I drew it. I wrote my opinion. I told why. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only.",
+            "placed": "K:opinion-favorite-why"
           },
           {
             "new": true,
@@ -2246,7 +2247,8 @@
             "standard": "W.K.2",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a box for a labeled drawing and three writing lines with the frames This is a ___. It has ___. It can ___. At the bottom, a checklist of three picture icons: I named my topic. I labeled my picture. I wrote a fact. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+            "page": "Writing page (informative): a box for a labeled drawing and three writing lines with the frames This is a ___. It has ___. It can ___. At the bottom, a checklist of three picture icons: I named my topic. I labeled my picture. I wrote a fact. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only.",
+            "placed": "K:fact-draw-label-write"
           },
           {
             "new": true,
@@ -2255,7 +2257,8 @@
             "standard": "W.K.3",
             "days": 2,
             "source": "new",
-            "page": "Writing page (narrative): two boxes for pictures (first, then) and three writing lines with the frames First I ___. Then I ___. I felt ___. At the bottom, a checklist of three picture icons: I drew two parts. I wrote what happened. I told how I felt. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only."
+            "page": "Writing page (narrative): two boxes for pictures (first, then) and three writing lines with the frames First I ___. Then I ___. I felt ___. At the bottom, a checklist of three picture icons: I drew two parts. I wrote what happened. I told how I felt. Level 1: the child copies one word into each frame from a word bank; level 2: the child fills the frames with sounded-out words; level 3: open lines with a starter word only.",
+            "placed": "K:small-moment-draw-write"
           },
           {
             "new": true,
@@ -2265,7 +2268,8 @@
             "days": 2,
             "tool": "Name Sticks",
             "source": "teacher-led",
-            "page": "Routine: three children a day sit in the author's chair and read a writing page from this unit. The teacher pulls a name stick; that child asks one question (Where were you? What color was it?). The author adds the answer to the picture or the sentence with a colored pencil. Listen for: questions that ask for a detail, and an author who adds it."
+            "page": "Routine: three children a day sit in the author's chair and read a writing page from this unit. The teacher pulls a name stick; that child asks one question (Where were you? What color was it?). The author adds the answer to the picture or the sentence with a colored pencil. Listen for: questions that ask for a detail, and an author who adds it.",
+            "placed": "K:authors-chair-add-detail"
           }
         ]
       }

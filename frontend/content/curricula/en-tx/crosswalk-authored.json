@@ -6109,6 +6109,66 @@
    ],
    "why": "Choosing and writing the reply that builds on a classmate’s comment is «work collaboratively with others by following agreed-upon rules for discussion, including listening to others, speaking when recognized, making appropriate contributions»; staying with the idea under discussion is «share information and ideas that focus on the topic under discussion»; the one thing to say about the book on the talk card prepares «write brief comments on literary or informational texts».",
    "review": "year-design 2026-11-17"
+  },
+  "K:opinion-favorite-why": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing a favorite and drawing it before writing is «plan by generating ideas for writing through class discussions and drawings»; the drawing with its sentence (or the sentence the child tells the teacher) is «develop drafts in oral, pictorial, or written form by organizing ideas». The Kindergarten TEKS name no opinion piece of its own (K.11 names literary and informational texts).",
+   "review": "year-design 2026-11-17"
+  },
+  "K:fact-draw-label-write": {
+   "rows": [
+    {
+     "id": "ELAR.K.11.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a topic, labeling two parts and writing or telling two facts about it is «dictate or compose informational texts»; the drawing, the labels and the sentences are a draft «in oral, pictorial, or written form».",
+   "review": "year-design 2026-11-17"
+  },
+  "K:small-moment-draw-write": {
+   "rows": [
+    {
+     "id": "ELAR.K.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A small moment told in three drawings with a sentence is «dictate or compose literary texts, including personal narratives»; putting the moment in order (first, next, last) is «organizing ideas» in a pictorial and written draft.",
+   "review": "year-design 2026-11-17"
+  },
+  "K:authors-chair-add-detail": {
+   "rows": [
+    {
+     "id": "ELAR.K.10.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.10.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.K.1.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding the detail a friend asked for is «revise drafts by adding details in pictures or words»; reading the piece from the author’s chair is «share writing»; the friend’s question and the author’s answer are «listen actively and ask questions to understand information and answer questions using multi-word responses».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

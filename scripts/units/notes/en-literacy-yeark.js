@@ -15,6 +15,8 @@
  * the reviewer of the pages read them (2026-11-18, every finding applied).
  * The four notes of the unit How Books and Print Work (K-665 to K-672) were added by place-ready-ee.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The four notes of the unit Draw and Write: Opinions, Facts, and Stories (K-673 to K-680) were added by place-ready-oo.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -216,6 +218,42 @@ module.exports = {
         mistake: 'Children count beats or letters instead of words, or count the spaces and forget the last word. When they write, they run the words together.',
         words: 'Write a sentence on chart paper without spaces, then with finger spaces; ask which is easier to read. Say: "A space comes between two words. We count the words, not the claps." Day 1, K-671: four sentences in big print with wide spaces. Children draw a line in each space, count the words, and circle the number (Level 1: two or three words, each space marked with a dotted box) or write it in the box (Level 2: three to five words; Level 3: four to six words). On Levels 2 and 3 a sentence always has more beats than words. Day 2, K-672: each row shows a sentence with spaces and the same sentence without them; children circle the one that is easy to read. Then they cut out big word cards and glue them in the order of the sentence above, a finger space between them: three cards on Level 1, four on Level 2, five on Level 3. Level 3 also has a short sentence to copy on a writing row with finger spaces.',
         watch: 'Have children put a finger after each word as they glue or write. A child who writes 4 for The rabbit hops. is counting beats: touch each word and count again.',
+      },
+    },
+    'K:opinion-favorite-why': {
+      title: 'My favorite and why: an opinion',
+      objective: 'Children tell what they like best and why: they find the opinion and the reason in short pieces, then draw and write their own.',
+      note: {
+        mistake: 'Children name a favorite and give no reason, or give a reason that does not tell why they like it (blue because it is a color).',
+        words: 'Model first on chart paper. Say: "My favorite time of day is night because it is quiet." Point to the part that tells what you like and the part that tells why. Read every instruction, sentence, and word bank aloud, pointing to each. A class vote with Class Graph (each child taps an answer) helps before day 2. Day 1, What I Like Best and Why: children circle what they like best in each row (any choice is right). Read each piece; children circle the sentence that tells what the writer likes best and draw a line under the sentence that tells why. On Level 3 the first sentence tells the topic and gets no mark. Day 2, My Favorite and Why: children circle one of three topics or my own, draw, and write. Level 1 prints My favorite, is, and because it is, with a word bank of reason words (a child may use his or her own word); Level 2 prints My favorite and because; Level 3 starts with I and has a word bank. A grey model on another topic shows the shape.',
+        watch: 'Accept sounded-out spelling: fn for fun is right. A child who cannot yet write a word may tell it, and you write it. Check that the reason fits its thing: blue because it is cool is a reason.',
+      },
+    },
+    'K:fact-draw-label-write': {
+      title: 'Teach a fact: draw, label, and write',
+      objective: 'Children name a topic, draw and label it, and write one or two facts about it.',
+      note: {
+        mistake: 'Children write a sentence about something else (A cow says moo. on a cat page), or label a part with the name of the whole animal.',
+        words: 'Model first: draw a snail and label its shell and feelers. Say: "A snail can crawl. A snail has a shell." Read every instruction, sentence, and word bank aloud, pointing to each; read each sentence twice. Day 1, Facts and Labels: children put a check mark in the box of each sentence about the pictured animal, thing, or plant and an X in the box of the one about something else. Then they label two parts: Level 1 cuts out two cards and glues each in the box its line comes from; Levels 2 and 3 write the words of the word bank on the lines (on Level 3 one word names no part). Extra practice for day 1: the screen activity The Wobble Museum — Stick to the Topic (find the sentence about something else). Day 2, I Can Teach You a Fact: children circle one of three animals or my own, draw it, write two labels beside the box with a line to each part, and finish A ___ can ___ and A ___ has ___ (Level 1 with a word bank, Level 2 sounded out; Level 3 starts with A and has a word bank).',
+        watch: 'Accept sounded-out spelling: wng for wing is right. A child who cannot yet write a word may tell it, and you write it. If an animal starts with a, e, i, o, or u, help the child write An. Ask, "How do you know?" A fact is something true that you saw or learned.',
+      },
+    },
+    'K:small-moment-draw-write': {
+      title: 'What happened to me: a small moment',
+      objective: 'Children tell one small moment in the order it happened, draw and write it, and tell how they felt.',
+      note: {
+        mistake: 'Children tell a whole day (I got up. I ate. I went to school.) instead of one small moment, or leave out how they felt.',
+        words: 'Model first: draw three boxes. Say: "I found a feather. I showed my teacher. I put it on the science table. I felt proud." Read every instruction and word aloud, pointing to each. Day 1, Put a Small Moment in Order: the sentences are printed out of order. Read the sentences as they are printed, pointing to each; read them again. Ask, "What happened first?" Children write 1 in that box, then 2 and 3 (Level 3: 1 to 4). Then they circle the face that shows how the writer felt (the last sentence shows it) and draw what happened last. Day 2, My Small Moment: children circle one of two moments or my own and draw it in three boxes: first, next, last. Level 1 writes I ___ for the last box and I felt ___; Levels 2 and 3 write I ___ beside each small box; on Level 3 the faces have no words and a word bank stands beside First.',
+        watch: 'Accept sounded-out spelling. A child who cannot yet write a word may tell it, and you write it. Let a child say each sentence aloud before writing it; ask, "What happened next?" Mad means angry.',
+      },
+    },
+    'K:authors-chair-add-detail': {
+      title: 'Author\'s chair: a friend asks, I add',
+      objective: 'Children read their writing to the class, answer a classmate\'s question, and add one detail to the picture or the words.',
+      note: {
+        mistake: 'Friends give praise (I like it.) instead of a question, or the author answers out loud but adds nothing to the page.',
+        words: 'Model first with your own piece: read "I made a mask." A child asks, "What animal is it?" Say: "It is a fox mask." and add the detail with a colored pencil. Read every instruction, question, and sentence aloud, pointing to each. Day 1, A Friend Asks, I Add: read each piece, its question, and the sentences; children circle the sentence that answers the question (on Level 3 one choice only says the piece again). Day 2, Author\'s Chair: each author gets this page; staple it to the piece he or she read. Three children a day sit in the author\'s chair and read a piece they wrote in this unit. Pull a name with Name Sticks; that child asks one question. On Level 1 the friend asks with one of the four starters on the page, and the author circles it; on Levels 2 and 3 you or the friend write the question on the row. The author draws the new detail in the box and writes it (Level 1 one word, Level 2 one row, Level 3 a sentence), then checks I shared, I listened, and I added a detail.',
+        watch: 'Accept sounded-out spelling. A child who cannot yet write a word may tell it, and you write it. Children need a finished piece from this unit. Teach questions that ask for a detail: Who? What? Where? When? A yes-or-no question gets no detail.',
       },
     },
   },

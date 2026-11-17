@@ -2864,6 +2864,47 @@
    ]
   },
   {
+   "id": "k-draw-and-write-opinions-facts-and-stories",
+   "slug": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "literacy",
+   "title": "Draw and Write: Opinions, Facts, and Stories",
+   "metaTitle": "Draw and Write: Kindergarten Opinions, Facts, Stories",
+   "metaDescription": "Kindergarten writing lessons: tell what you like best and why, draw and label a topic and write a fact, tell a small moment in order, and add a detail a friend asks for.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "K:opinion-favorite-why",
+     "types": [
+      "K-673",
+      "K-674"
+     ]
+    },
+    {
+     "point": "K:fact-draw-label-write",
+     "types": [
+      "K-675",
+      "K-676"
+     ]
+    },
+    {
+     "point": "K:small-moment-draw-write",
+     "types": [
+      "K-677",
+      "K-678"
+     ]
+    },
+    {
+     "point": "K:authors-chair-add-detail",
+     "types": [
+      "K-679",
+      "K-680"
+     ]
+    }
+   ]
+  },
+  {
    "id": "g1-sounds-spelling-syllables",
    "slug": "sounds-spelling-and-syllables-grade-1-unit",
    "status": "live",
@@ -4370,7 +4411,8 @@
     "k-sorting-words-telling-stories",
     "k-reading-stories",
     "k-words-and-sentences",
-    "k-reading-to-learn-fact-texts"
+    "k-reading-to-learn-fact-texts",
+    "k-draw-and-write-opinions-facts-and-stories"
    ]
   },
   {

@@ -1054,6 +1054,34 @@
    "strand": "Speaking and Listening",
    "code": "SL.2.1.b",
    "skill": "Build on what others say in a talk about a book: agree, add, or see it another way, with a reason, linked to what a classmate said"
+  },
+  {
+   "tp": "K:opinion-favorite-why",
+   "grade": "K",
+   "strand": "Writing",
+   "code": "W.K.1",
+   "skill": "Tell what you like best and why: find the opinion and the reason in a short piece, then draw and write your own"
+  },
+  {
+   "tp": "K:fact-draw-label-write",
+   "grade": "K",
+   "strand": "Writing",
+   "code": "W.K.2",
+   "skill": "Name a topic, draw and label it, and write one or two facts about it"
+  },
+  {
+   "tp": "K:small-moment-draw-write",
+   "grade": "K",
+   "strand": "Writing",
+   "code": "W.K.3",
+   "skill": "Tell one small moment in the order it happened, draw and write it, and tell how you felt"
+  },
+  {
+   "tp": "K:authors-chair-add-detail",
+   "grade": "K",
+   "strand": "Writing",
+   "code": "W.K.5",
+   "skill": "Read your writing to the class, answer a classmate’s question, and add one detail to the picture or the words"
   }
  ]
 }

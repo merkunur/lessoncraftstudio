@@ -2471,6 +2471,46 @@
    ],
    "by": "code"
   },
+  "K:opinion-favorite-why": {
+   "rows": [
+    {
+     "id": "W.K.1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:fact-draw-label-write": {
+   "rows": [
+    {
+     "id": "W.K.2",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:small-moment-draw-write": {
+   "rows": [
+    {
+     "id": "W.K.3",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:authors-chair-add-detail": {
+   "rows": [
+    {
+     "id": "W.K.5",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:word-sentence-tracing": {
    "rows": [
     {

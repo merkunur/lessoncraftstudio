@@ -3274,26 +3274,6 @@
    ],
    "by": "authored"
   },
-  "2:describe-a-picture": {
-   "rows": [
-    {
-     "id": "EF02LP07",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "EF02LP08",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "EF02LP01",
-     "rel": "teaches",
-     "grade": "2"
-    }
-   ],
-   "by": "authored"
-  },
   "2:word-classes": {
    "rows": [
     {
@@ -3505,6 +3485,34 @@
    ],
    "by": "authored"
   },
+  "2:character-challenge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:fable-lesson": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "EF02LP07",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "EF02LP08",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "EF02LP01",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:retell-with-starters": {
    "rows": [
     {
@@ -3525,11 +3533,11 @@
    ],
    "by": "authored"
   },
-  "2:character-challenge": {
+  "2:true-story-plan-draft": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "2:fable-lesson": {
+  "2:revise-edit-story": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
@@ -3564,6 +3572,21 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "EF02CI04",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "EF03CI06",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {
@@ -3584,19 +3607,16 @@
    ],
    "by": "authored"
   },
-  "2:compare-two-animals": {
-   "rows": [
-    {
-     "id": "EF02CI04",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "EF03CI06",
-     "rel": "prepares",
-     "grade": "3"
-    }
-   ],
+  "2:plan-informative-piece": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:draft-facts-closing": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:research-class-report": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:plan-an-opinion": {

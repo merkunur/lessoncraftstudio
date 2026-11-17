@@ -2784,21 +2784,6 @@
    ],
    "by": "authored"
   },
-  "2:describe-a-picture": {
-   "rows": [
-    {
-     "id": "KM14143",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "KM14147",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "2:word-classes": {
    "rows": [
     {
@@ -2949,6 +2934,29 @@
    ],
    "by": "authored"
   },
+  "2:character-challenge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:fable-lesson": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "KM14143",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "KM14147",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
   "2:retell-with-starters": {
    "rows": [
     {
@@ -2964,11 +2972,11 @@
    ],
    "by": "authored"
   },
-  "2:character-challenge": {
+  "2:true-story-plan-draft": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "2:fable-lesson": {
+  "2:revise-edit-story": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
@@ -2998,6 +3006,21 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "KM14140",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "KM13825",
+     "rel": "prepares",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {
@@ -3013,19 +3036,16 @@
    ],
    "by": "authored"
   },
-  "2:compare-two-animals": {
-   "rows": [
-    {
-     "id": "KM14140",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "KM13825",
-     "rel": "prepares",
-     "grade": "3-4"
-    }
-   ],
+  "2:plan-informative-piece": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:draft-facts-closing": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "2:research-class-report": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:plan-an-opinion": {

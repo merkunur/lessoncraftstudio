@@ -3550,8 +3550,8 @@
    "subject": "literacy",
    "title": "Reading Stories and Writing",
    "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A Grade 2 unit: 8 lessons on story questions, context clues, describing a picture, retelling, characters, fables, an animal fact sheet, and cursive.",
-   "weeks": 4,
+   "metaDescription": "A Grade 2 reading unit: 5 lessons on answering story questions, using context clues, how characters meet a challenge, the lesson of a fable, and cursive.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:read-and-answer",
@@ -3567,21 +3567,6 @@
       "G2-350"
      ],
      "activity": "fern-clue-garden.context-clues.l-2-4-a"
-    },
-    {
-     "point": "2:describe-a-picture",
-     "types": [
-      "G2-299",
-      "G2-300"
-     ],
-     "activity": null
-    },
-    {
-     "point": "2:retell-with-starters",
-     "types": [
-      "G2-378"
-     ],
-     "activity": null
     },
     {
      "point": "2:character-challenge",
@@ -3600,24 +3585,56 @@
      "activity": null
     },
     {
-     "point": "2:animal-fact-file",
-     "types": [
-      "G2-339",
-      "G2-340"
-     ],
-     "activity": null,
-     "titles": {
-      "G2-339": "Animal Fact File: Circle the True Facts",
-      "G2-340": "Animal Fact File with a Word Bank"
-     }
-    },
-    {
      "point": "2:cursive-writing",
      "types": [
       "G2-377",
       "G2-385"
      ],
      "activity": null
+    }
+   ]
+  },
+  {
+   "id": "g2-writing-stories",
+   "slug": "writing-stories-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Writing Stories",
+   "metaTitle": "Writing Stories: Grade 2 Narrative Writing Unit",
+   "metaDescription": "Grade 2 story writing lessons: describe a picture, retell a story with starters, plan and draft a true story with time words, then revise and edit it with a partner.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "2:describe-a-picture",
+     "types": [
+      "G2-299",
+      "G2-300"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:retell-with-starters",
+     "types": [
+      "G2-378"
+     ],
+     "activity": null
+    },
+    {
+     "point": "2:true-story-plan-draft",
+     "types": [
+      "G2-571",
+      "G2-572",
+      "G2-573"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:revise-edit-story",
+     "types": [
+      "G2-574",
+      "G2-575"
+     ]
     }
    ]
   },
@@ -3669,6 +3686,52 @@
      ],
      "standards": [
       "RI.2.9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2-writing-to-inform",
+   "slug": "writing-to-inform-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Writing to Inform",
+   "metaTitle": "Writing to Inform: Grade 2 Informative Writing Unit",
+   "metaDescription": "Grade 2 informative writing lessons: an animal fact file, a plan with facts under headings, a draft with a definition and a closing, and a class report from two books.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "2:animal-fact-file",
+     "types": [
+      "G2-339",
+      "G2-340"
+     ],
+     "activity": null,
+     "titles": {
+      "G2-339": "Animal Fact File: Circle the True Facts",
+      "G2-340": "Animal Fact File with a Word Bank"
+     }
+    },
+    {
+     "point": "2:plan-informative-piece",
+     "types": [
+      "G2-565",
+      "G2-566"
+     ]
+    },
+    {
+     "point": "2:draft-facts-closing",
+     "types": [
+      "G2-567",
+      "G2-568"
+     ]
+    },
+    {
+     "point": "2:research-class-report",
+     "types": [
+      "G2-569",
+      "G2-570"
      ]
     }
    ]
@@ -4304,7 +4367,9 @@
     "g2-bossy-r-and-longer-words",
     "g2-spelling-and-word-building",
     "g2-stories-facts-and-writing",
+    "g2-writing-stories",
     "g2-reading-to-learn-informational-texts",
+    "g2-writing-to-inform",
     "g2-opinion-writing-and-letters"
    ]
   },

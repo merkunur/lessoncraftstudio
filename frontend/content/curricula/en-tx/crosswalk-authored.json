@@ -5943,6 +5943,104 @@
    ],
    "why": "Writing the star sentence again with the detail a partner asked about, and adding that detail to the own draft, is «revise drafts by adding details in pictures or words»; fixing a small letter at the start of a sentence and a small i is «capitalization for the beginning of sentences and the pronoun \"I\"»; adding the missing end mark is «punctuation marks at the end of declarative, exclamatory, and interrogative sentences».",
    "review": "year-design 2026-11-17"
+  },
+  "2:plan-informative-piece": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Filling the planner (a topic sentence, three facts, a definition, a closing sentence) from a box of facts is «plan a first draft by generating ideas for writing»; sorting facts under two headings and crossing out the sentence that does not belong prepares «organizing with structure».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:draft-facts-closing": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the piece from the plan is «compose informational texts, including procedural texts and reports»; keeping the facts of one heading together between a topic sentence and a closing sentence is «organizing with structure»; the facts and the definition of a word are «developing an idea with specific and relevant details».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:research-class-report": {
+   "rows": [
+    {
+     "id": "ELAR.2.13.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.13.E",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.13.G",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.13.F",
+     "rel": "prepares"
+    },
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Taking notes from two short books to answer the class question is «identify and gather relevant sources and information to answer the questions»; writing the facts in own words under a heading is «demonstrate understanding of information gathered»; the part of the class report is «use an appropriate mode of delivery, whether written, oral, or multimodal, to present results» and a report as 2.12.B names it; marking which book a fact came from and naming both titles prepares «cite sources appropriately». The question is given, so 2.13.A (generate questions) is not claimed.",
+   "review": "year-design 2026-11-17"
+  },
+  "2:true-story-plan-draft": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A true story of one small moment is a personal narrative as 2.12.A names it («compose literary texts, including personal narratives and poetry»); the planner (who, where and when, what happened, how I felt) is «plan a first draft by generating ideas for writing»; writing under Beginning, Middle and Ending with time words is «organizing with structure»; the thought, the feeling and the added detail are «developing an idea with specific and relevant details».",
+   "review": "year-design 2026-11-17"
+  },
+  "2:revise-edit-story": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Adding a detail with a caret after the partner’s question, crossing out the sentence that does not belong and putting a sentence back in its place are «revise drafts by adding, deleting, or rearranging words, phrases, or sentences»; adding the missing end marks is the «end punctuation» of 2.11.D.x; writing the capital of a name prepares «singular, plural, common, and proper nouns».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -8177,14 +8177,7 @@
     },
     {
      "part": 3,
-     "lesson": 7,
-     "title": "An animal fact sheet",
-     "type": "G2-339",
-     "tasks": 1
-    },
-    {
-     "part": 4,
-     "lesson": 8,
+     "lesson": 5,
      "title": "Cursive letters and connections",
      "type": "G2-377",
      "tasks": 1
@@ -8192,9 +8185,7 @@
    ],
    "notCovered": [
     3,
-    4,
-    5,
-    6
+    4
    ],
    "forms": {
     "A": {
@@ -8205,9 +8196,6 @@
       ],
       [
        "7fba291ae9169d4e"
-      ],
-      [
-       "8d1335731c5c87e2"
       ],
       [
        "cafcc677f2cc4eb4"
@@ -8221,9 +8209,6 @@
        null
       ],
       [
-       0
-      ],
-      [
        null
       ]
      ],
@@ -8235,16 +8220,10 @@
        "write 3"
       ],
       [
-       "choose 2"
-      ],
-      [
        "write 1"
       ]
      ],
      "sizes": [
-      [
-       0
-      ],
       [
        0
       ],
@@ -8266,9 +8245,6 @@
        "2656ad7a516584be"
       ],
       [
-       "795372cbd9848197"
-      ],
-      [
        "6b96582c81145d1f"
       ]
      ],
@@ -8278,9 +8254,6 @@
       ],
       [
        null
-      ],
-      [
-       2
       ],
       [
        null
@@ -8294,16 +8267,10 @@
        "write 3"
       ],
       [
-       "choose 2"
-      ],
-      [
        "write 1"
       ]
      ],
      "sizes": [
-      [
-       0
-      ],
       [
        0
       ],

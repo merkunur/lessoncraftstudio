@@ -991,6 +991,41 @@
    "strand": "Writing",
    "code": "W.1.5",
    "skill": "Fix capitals and end marks in a piece, and add a detail to one's own writing after a partner's question"
+  },
+  {
+   "tp": "2:plan-informative-piece",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.2",
+   "skill": "Find the topic sentence and the closing sentence of an informative piece, sort facts under headings, and plan a piece with a topic sentence, facts, a definition, and a closing sentence"
+  },
+  {
+   "tp": "2:draft-facts-closing",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.2",
+   "skill": "Write an informative piece with a topic sentence, facts joined by also, another, and and, a definition, and a closing sentence that gives no new fact"
+  },
+  {
+   "tp": "2:research-class-report",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.7",
+   "skill": "Read two short books on one topic, take short notes that keep each fact true and tell which book it came from, and write one part of a class report"
+  },
+  {
+   "tp": "2:true-story-plan-draft",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.3",
+   "skill": "Plan a true story of one small moment and write it in order with time words, a thought or a feeling, and an ending"
+  },
+  {
+   "tp": "2:revise-edit-story",
+   "grade": "2",
+   "strand": "Writing",
+   "code": "W.2.5",
+   "skill": "Fix capital letters and end marks in a story, put its sentences in order, and add a detail to one’s own draft after a partner’s question"
   }
  ]
 }

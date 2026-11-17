@@ -7239,36 +7239,6 @@
    ]
   },
   {
-   "id": "2:describe-a-picture",
-   "grade": "2",
-   "subject": "literacy",
-   "strand": "Writing",
-   "skill": "Write sentences about a picture using a word bank and sentence starters",
-   "code": "W.2.2",
-   "types": [
-    "G1-488",
-    "G2-278",
-    "G2-299",
-    "G2-300",
-    "K-555"
-   ],
-   "families": [
-    "coloring-page",
-    "picture-writing"
-   ],
-   "activities": [
-    "sentence-builder.build-a-sentence.l-1-1-j"
-   ],
-   "planned": [
-    280
-   ],
-   "verdict": "partial",
-   "order": 106,
-   "prerequisites": [
-    "2:sentence-boundaries"
-   ]
-  },
-  {
    "id": "2:word-classes",
    "grade": "2",
    "subject": "literacy",
@@ -7293,7 +7263,7 @@
     257
    ],
    "verdict": "partial",
-   "order": 107,
+   "order": 106,
    "prerequisites": [
     "1:word-classes"
    ]
@@ -7317,7 +7287,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 108,
+   "order": 107,
    "prerequisites": [
     "K:singular-plural",
     "1:spell-picture-words"
@@ -7350,7 +7320,7 @@
     279
    ],
    "verdict": "partial",
-   "order": 109,
+   "order": 108,
    "prerequisites": [
     "1:spell-picture-words",
     "1:digraphs"
@@ -7378,7 +7348,7 @@
     258
    ],
    "verdict": "partial",
-   "order": 110,
+   "order": 109,
    "prerequisites": [
     "1:synonyms"
    ]
@@ -7401,7 +7371,7 @@
     311
    ],
    "verdict": "gap",
-   "order": 111,
+   "order": 110,
    "prerequisites": [
     "1:synonyms"
    ]
@@ -7424,7 +7394,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 112,
+   "order": 111,
    "prerequisites": []
   },
   {
@@ -7446,7 +7416,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 113,
+   "order": 112,
    "prerequisites": []
   },
   {
@@ -7475,7 +7445,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 114,
+   "order": 113,
    "prerequisites": [
     "2:word-classes"
    ]
@@ -7501,7 +7471,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 115,
+   "order": 114,
    "prerequisites": [
     "1:pronouns"
    ]
@@ -7526,7 +7496,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 116,
+   "order": 115,
    "prerequisites": []
   },
   {
@@ -7549,7 +7519,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 117,
+   "order": 116,
    "prerequisites": []
   },
   {
@@ -7572,7 +7542,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 118,
+   "order": 117,
    "prerequisites": []
   },
   {
@@ -7593,7 +7563,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 119,
+   "order": 118,
    "prerequisites": []
   },
   {
@@ -7615,7 +7585,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 120,
+   "order": 119,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -7644,7 +7614,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 121,
+   "order": 120,
    "prerequisites": [
     "1:word-families-syllable-reading"
    ]
@@ -7668,7 +7638,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 122,
+   "order": 121,
    "prerequisites": [
     "1:root-words"
    ]
@@ -7692,7 +7662,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 123,
+   "order": 122,
    "prerequisites": []
   },
   {
@@ -7715,7 +7685,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 124,
+   "order": 123,
    "prerequisites": []
   },
   {
@@ -7737,7 +7707,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 125,
+   "order": 124,
    "prerequisites": []
   },
   {
@@ -7761,9 +7731,81 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 126,
+   "order": 125,
    "prerequisites": [
     "2:root-words"
+   ]
+  },
+  {
+   "id": "2:character-challenge",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Describe how a character in a story responds to a problem: what the character does and feels, and what happens because of it",
+   "code": "RL.2.3",
+   "types": [
+    "G2-526",
+    "G2-527"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 126,
+   "prerequisites": []
+  },
+  {
+   "id": "2:fable-lesson",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Literature",
+   "skill": "Retell a fable by its beginning, middle, and end and tell the lesson it teaches",
+   "code": "RL.2.2",
+   "types": [
+    "G2-528",
+    "G2-529"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 127,
+   "prerequisites": []
+  },
+  {
+   "id": "2:describe-a-picture",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Write sentences about a picture using a word bank and sentence starters",
+   "code": "W.2.2",
+   "types": [
+    "G1-488",
+    "G2-278",
+    "G2-299",
+    "G2-300",
+    "K-555"
+   ],
+   "families": [
+    "coloring-page",
+    "picture-writing"
+   ],
+   "activities": [
+    "sentence-builder.build-a-sentence.l-1-1-j"
+   ],
+   "planned": [
+    280
+   ],
+   "verdict": "partial",
+   "order": 128,
+   "prerequisites": [
+    "2:sentence-boundaries"
    ]
   },
   {
@@ -7787,52 +7829,55 @@
     281
    ],
    "verdict": "partial",
-   "order": 127,
+   "order": 129,
    "prerequisites": [
     "1:story-writing",
     "2:sentence-boundaries"
    ]
   },
   {
-   "id": "2:character-challenge",
+   "id": "2:true-story-plan-draft",
    "grade": "2",
    "subject": "literacy",
-   "strand": "Reading: Literature",
-   "skill": "Describe how a character in a story responds to a problem: what the character does and feels, and what happens because of it",
-   "code": "RL.2.3",
+   "strand": "Writing",
+   "skill": "Plan a true story of one small moment and write it in order with time words, a thought or a feeling, and an ending",
+   "code": "W.2.3",
    "types": [
-    "G2-526",
-    "G2-527"
+    "G2-571",
+    "G2-572",
+    "G2-573"
    ],
    "families": [
-    "reading-comprehension"
+    "reading-comprehension",
+    "sentence-building"
    ],
    "activities": [],
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 128,
+   "order": 130,
    "prerequisites": []
   },
   {
-   "id": "2:fable-lesson",
+   "id": "2:revise-edit-story",
    "grade": "2",
    "subject": "literacy",
-   "strand": "Reading: Literature",
-   "skill": "Retell a fable by its beginning, middle, and end and tell the lesson it teaches",
-   "code": "RL.2.2",
+   "strand": "Writing",
+   "skill": "Fix capital letters and end marks in a story, put its sentences in order, and add a detail to one’s own draft after a partner’s question",
+   "code": "W.2.5",
    "types": [
-    "G2-528",
-    "G2-529"
+    "G2-574",
+    "G2-575"
    ],
    "families": [
-    "reading-comprehension"
+    "capitals-punctuation",
+    "sentence-building"
    ],
    "activities": [],
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 129,
+   "order": 131,
    "prerequisites": []
   },
   {
@@ -7853,7 +7898,7 @@
     277
    ],
    "verdict": "gap",
-   "order": 130,
+   "order": 132,
    "prerequisites": [
     "1:read-and-follow"
    ]
@@ -7877,7 +7922,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 131,
+   "order": 133,
    "prerequisites": []
   },
   {
@@ -7898,7 +7943,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 132,
+   "order": 134,
    "prerequisites": []
   },
   {
@@ -7919,7 +7964,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 133,
+   "order": 135,
    "prerequisites": []
   },
   {
@@ -7940,8 +7985,33 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 134,
+   "order": 136,
    "prerequisites": []
+  },
+  {
+   "id": "2:compare-two-animals",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Reading: Informational Text",
+   "skill": "Compare two animals: which facts are the same and which are different",
+   "code": "RI.2.9",
+   "types": [
+    "G2-342"
+   ],
+   "families": [
+    "animal-fact-file"
+   ],
+   "activities": [
+    "willow-story-corner.compare-tales.rl-k-9"
+   ],
+   "planned": [
+    282
+   ],
+   "verdict": "gap",
+   "order": 137,
+   "prerequisites": [
+    "2:read-and-answer"
+   ]
   },
   {
    "id": "2:animal-fact-file",
@@ -7966,35 +8036,76 @@
     282
    ],
    "verdict": "partial",
-   "order": 135,
+   "order": 138,
    "prerequisites": [
     "2:read-and-answer"
    ]
   },
   {
-   "id": "2:compare-two-animals",
+   "id": "2:plan-informative-piece",
    "grade": "2",
    "subject": "literacy",
-   "strand": "Reading: Informational Text",
-   "skill": "Compare two animals: which facts are the same and which are different",
-   "code": "RI.2.9",
+   "strand": "Writing",
+   "skill": "Find the topic sentence and the closing sentence of an informative piece, sort facts under headings, and plan a piece with a topic sentence, facts, a definition, and a closing sentence",
+   "code": "W.2.2",
    "types": [
-    "G2-342"
+    "G2-565",
+    "G2-566"
    ],
    "families": [
-    "animal-fact-file"
+    "reading-comprehension",
+    "sentence-building"
    ],
-   "activities": [
-    "willow-story-corner.compare-tales.rl-k-9"
-   ],
-   "planned": [
-    282
-   ],
+   "activities": [],
+   "planned": [],
    "verdict": "gap",
-   "order": 136,
-   "prerequisites": [
-    "2:animal-fact-file"
-   ]
+   "extra": true,
+   "order": 139,
+   "prerequisites": []
+  },
+  {
+   "id": "2:draft-facts-closing",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Write an informative piece with a topic sentence, facts joined by also, another, and and, a definition, and a closing sentence that gives no new fact",
+   "code": "W.2.2",
+   "types": [
+    "G2-567",
+    "G2-568"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 140,
+   "prerequisites": []
+  },
+  {
+   "id": "2:research-class-report",
+   "grade": "2",
+   "subject": "literacy",
+   "strand": "Writing",
+   "skill": "Read two short books on one topic, take short notes that keep each fact true and tell which book it came from, and write one part of a class report",
+   "code": "W.2.7",
+   "types": [
+    "G2-569",
+    "G2-570"
+   ],
+   "families": [
+    "reading-comprehension",
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 141,
+   "prerequisites": []
   },
   {
    "id": "2:plan-an-opinion",
@@ -8014,7 +8125,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 137,
+   "order": 142,
    "prerequisites": []
   },
   {
@@ -8035,7 +8146,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 138,
+   "order": 143,
    "prerequisites": []
   },
   {
@@ -8057,7 +8168,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 139,
+   "order": 144,
    "prerequisites": []
   },
   {
@@ -8078,7 +8189,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 140,
+   "order": 145,
    "prerequisites": []
   },
   {
@@ -8100,7 +8211,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 141,
+   "order": 146,
    "prerequisites": []
   },
   {
@@ -8123,7 +8234,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 142,
+   "order": 147,
    "prerequisites": []
   },
   {
@@ -8145,7 +8256,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 143,
+   "order": 148,
    "prerequisites": []
   },
   {
@@ -8168,7 +8279,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 144,
+   "order": 149,
    "prerequisites": []
   },
   {
@@ -8190,7 +8301,7 @@
     283
    ],
    "verdict": "gap",
-   "order": 145,
+   "order": 150,
    "prerequisites": [
     "2:cursive-writing"
    ]
@@ -8217,7 +8328,7 @@
     311
    ],
    "verdict": "partial",
-   "order": 146,
+   "order": 151,
    "prerequisites": [
     "2:synonyms",
     "1:shades-of-meaning"
@@ -8244,7 +8355,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 147,
+   "order": 152,
    "prerequisites": [
     "2:root-words"
    ]
@@ -8269,7 +8380,7 @@
     310
    ],
    "verdict": "partial",
-   "order": 148,
+   "order": 153,
    "prerequisites": [
     "3:person-words",
     "2:verb-forms"
@@ -8293,7 +8404,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 149,
+   "order": 154,
    "prerequisites": []
   },
   {
@@ -8315,7 +8426,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 150,
+   "order": 155,
    "prerequisites": []
   },
   {
@@ -8336,7 +8447,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 151,
+   "order": 156,
    "prerequisites": []
   },
   {
@@ -8357,7 +8468,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 152,
+   "order": 157,
    "prerequisites": []
   },
   {
@@ -8378,7 +8489,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 153,
+   "order": 158,
    "prerequisites": []
   },
   {
@@ -8399,7 +8510,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 154,
+   "order": 159,
    "prerequisites": []
   },
   {
@@ -8420,7 +8531,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 155,
+   "order": 160,
    "prerequisites": []
   },
   {
@@ -8441,7 +8552,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 156,
+   "order": 161,
    "prerequisites": []
   },
   {
@@ -8462,7 +8573,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 157,
+   "order": 162,
    "prerequisites": []
   },
   {
@@ -8483,7 +8594,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 158,
+   "order": 163,
    "prerequisites": []
   },
   {
@@ -8504,7 +8615,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 159,
+   "order": 164,
    "prerequisites": []
   },
   {
@@ -8526,7 +8637,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 160,
+   "order": 165,
    "prerequisites": []
   },
   {
@@ -8547,7 +8658,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 161,
+   "order": 166,
    "prerequisites": []
   },
   {
@@ -8569,7 +8680,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 162,
+   "order": 167,
    "prerequisites": []
   },
   {
@@ -8591,7 +8702,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 163,
+   "order": 168,
    "prerequisites": []
   },
   {
@@ -8612,7 +8723,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 164,
+   "order": 169,
    "prerequisites": []
   },
   {
@@ -8633,7 +8744,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 165,
+   "order": 170,
    "prerequisites": []
   },
   {
@@ -8654,7 +8765,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 166,
+   "order": 171,
    "prerequisites": []
   },
   {
@@ -8675,7 +8786,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 167,
+   "order": 172,
    "prerequisites": []
   },
   {
@@ -8697,7 +8808,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 168,
+   "order": 173,
    "prerequisites": []
   },
   {
@@ -8719,7 +8830,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 169,
+   "order": 174,
    "prerequisites": []
   },
   {
@@ -8741,7 +8852,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 170,
+   "order": 175,
    "prerequisites": []
   },
   {
@@ -8763,7 +8874,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 171,
+   "order": 176,
    "prerequisites": []
   },
   {
@@ -8784,7 +8895,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 172,
+   "order": 177,
    "prerequisites": []
   },
   {
@@ -8805,7 +8916,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 173,
+   "order": 178,
    "prerequisites": []
   },
   {
@@ -8826,7 +8937,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 174,
+   "order": 179,
    "prerequisites": []
   },
   {
@@ -8847,7 +8958,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 175,
+   "order": 180,
    "prerequisites": []
   },
   {
@@ -8868,7 +8979,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 176,
+   "order": 181,
    "prerequisites": []
   },
   {
@@ -8890,7 +9001,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 177,
+   "order": 182,
    "prerequisites": []
   },
   {
@@ -8912,7 +9023,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 178,
+   "order": 183,
    "prerequisites": []
   },
   {
@@ -8933,7 +9044,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 179,
+   "order": 184,
    "prerequisites": []
   },
   {
@@ -8954,7 +9065,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 180,
+   "order": 185,
    "prerequisites": []
   },
   {
@@ -8975,7 +9086,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 181,
+   "order": 186,
    "prerequisites": []
   },
   {
@@ -8996,7 +9107,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 182,
+   "order": 187,
    "prerequisites": []
   },
   {
@@ -9018,7 +9129,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 183,
+   "order": 188,
    "prerequisites": []
   },
   {
@@ -9039,7 +9150,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 184,
+   "order": 189,
    "prerequisites": []
   },
   {
@@ -9060,7 +9171,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 185,
+   "order": 190,
    "prerequisites": []
   },
   {

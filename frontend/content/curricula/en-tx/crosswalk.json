@@ -3726,21 +3726,6 @@
    ],
    "by": "authored"
   },
-  "2:describe-a-picture": {
-   "rows": [
-    {
-     "id": "ELAR.2.11.D.i",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "ELAR.2.12.B",
-     "rel": "prepares",
-     "grade": "2"
-    }
-   ],
-   "by": "authored"
-  },
   "2:word-classes": {
    "rows": [
     {
@@ -4071,31 +4056,6 @@
    ],
    "by": "authored"
   },
-  "2:retell-with-starters": {
-   "rows": [
-    {
-     "id": "ELAR.2.7.D",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "ELAR.2.11.B.i",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "ELAR.2.11.D.v",
-     "rel": "prepares",
-     "grade": "2"
-    },
-    {
-     "id": "ELAR.2.12.A",
-     "rel": "prepares",
-     "grade": "2"
-    }
-   ],
-   "by": "authored"
-  },
   "2:character-challenge": {
    "rows": [
     {
@@ -4121,6 +4081,91 @@
     {
      "id": "ELAR.2.8.A",
      "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:describe-a-picture": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.D.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:retell-with-starters": {
+   "rows": [
+    {
+     "id": "ELAR.2.7.D",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.v",
+     "rel": "prepares",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.12.A",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:true-story-plan-draft": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:revise-edit-story": {
+   "rows": [
+    {
+     "id": "ELAR.2.11.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.x",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.D.iii",
+     "rel": "prepares",
      "grade": "2"
     }
    ],
@@ -4191,6 +4236,26 @@
    ],
    "by": "authored"
   },
+  "2:compare-two-animals": {
+   "rows": [
+    {
+     "id": "ELAR.2.13.E",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.4.7.B",
+     "rel": "prepares",
+     "grade": "4"
+    },
+    {
+     "id": "SCI.1.13.A",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "2:animal-fact-file": {
    "rows": [
     {
@@ -4216,22 +4281,67 @@
    ],
    "by": "authored"
   },
-  "2:compare-two-animals": {
+  "2:plan-informative-piece": {
    "rows": [
+    {
+     "id": "ELAR.2.11.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:draft-facts-closing": {
+   "rows": [
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.i",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.11.B.ii",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:research-class-report": {
+   "rows": [
+    {
+     "id": "ELAR.2.13.C",
+     "rel": "teaches",
+     "grade": "2"
+    },
     {
      "id": "ELAR.2.13.E",
      "rel": "teaches",
      "grade": "2"
     },
     {
-     "id": "ELAR.4.7.B",
-     "rel": "prepares",
-     "grade": "4"
+     "id": "ELAR.2.13.G",
+     "rel": "teaches",
+     "grade": "2"
     },
     {
-     "id": "SCI.1.13.A",
+     "id": "ELAR.2.13.F",
      "rel": "prepares",
-     "grade": "1"
+     "grade": "2"
+    },
+    {
+     "id": "ELAR.2.12.B",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "authored"

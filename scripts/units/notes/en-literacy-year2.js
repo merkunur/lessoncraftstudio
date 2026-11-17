@@ -16,6 +16,10 @@
  * the reviewer of the pages read them (2026-11-17, every finding applied).
  * The four notes of the unit Opinion Writing and Letters (G2-557 to G2-564) were added by place-ready-jj.en.literacy.js;
  * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The three notes of the unit Writing to Inform (G2-565 to G2-570) were added by place-ready-ll.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
+ * The two notes of the unit Writing Stories (G2-571 to G2-575) were added by place-ready-mm.en.literacy.js;
+ * the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -226,6 +230,51 @@ module.exports = {
         mistake: 'Children capitalize every noun (River, Park), or only the first word of a name (Hudson river), or the thing after a brand (Pemmo Paper). Some capitalize seasons (Winter) because holidays have capitals.',
         words: 'Model first: write "the river" and "Hudson River" on the board. Say: "In the name of a holiday or a place, each big word starts with a capital letter: Groundhog Day, Hudson River. Small words such as of stay small: Statue of Liberty. In a product name, only the brand gets a capital, not the thing: Pemmo paper." The product names on the pages are made up, so no real brand is on them. Day 1, Find the Capital Letters: children circle each word that is missing its capital letter in six sentences, then sort words in a table. Level 1 has holidays only; Level 2 holidays and places with pairs (a lake and the name of a lake), each word written again; Level 3 sorts names: holiday, place, or product name. Day 2, Write the Capital Letters: children need the rules from day 1; they write each sentence again with its capitals. Level 3 ends with a sentence about their own town, city, or state.',
         watch: 'Seasons and words such as holiday, river, and street stay small unless they are part of a name. No sentence starts with a name: the first word already has its capital, so every capital to add belongs to a name.',
+      },
+    },
+    '2:plan-informative-piece': {
+      title: 'Plan an informative piece',
+      objective: 'Children name the parts of an informative piece and plan one: a topic sentence, facts under headings, a definition, a closing sentence.',
+      note: {
+        mistake: 'Children start with one fact, not a sentence about the whole topic, leave an opinion or a sentence about something else among the facts, or sort a fact by one shared word.',
+        words: 'Children need: Animal fact file. Model first on sloths, a topic on no page: group five facts under two headings, then write a topic sentence and a closing sentence. Say: "An informative piece tells only facts, and every sentence is about its topic. A closing sentence tells about the topic again at the end, in new words." Day 1: children underline the topic sentence of a short piece and box its closing sentence; Levels 2 and 3 also circle the definition. Then they sort facts about another topic under two headings and cross out what does not belong: a sentence about something else (Level 1), an opinion (Level 2), or both (Level 3). Day 2: a box gives five facts and a definition. Children plan a topic sentence, three facts, a definition, and a closing sentence: Level 1 with frames, Level 2 with starters and two of three headings to choose. Level 3 in notes: children name two headings and use a word bank.',
+        watch: 'Ask: does it tell about the whole topic, or one part? People can disagree with an opinion, so an informative piece leaves it out. The key\'s plan is a sample; accept any facts from the box under a heading they fit.',
+      },
+    },
+    '2:draft-facts-closing': {
+      title: 'Draft with facts and a closing',
+      objective: 'Children draft an informative piece from their plan, with a topic sentence, facts joined by linking words, a definition, and a closing sentence.',
+      note: {
+        mistake: 'Children end with a new fact or the topic sentence again, or put another where also belongs (They another swim).',
+        words: 'Children need: their plan from the lesson before. Model first on moose, a topic on no page: a topic sentence, two facts joined with also, a definition (a bull is a grown male moose), and a closing sentence. Say: "A closing sentence tells about the topic again in new words. It gives no new fact." Day 1: children circle the closing sentence that fits a short piece; wrong choices add a new fact (on Levels 2 and 3 one starts with Now you know), give an opinion about something else (Levels 1 and 3), or copy the topic sentence (Levels 2 and 3). They finish a definition (Level 1), write the word too (Level 2) or all of it (Level 3), and circle also, another, or and for each blank. Day 2: children write from their plan or the six sentences at the top. Level 1 has frames, Level 2 starters and an open row for a linking word, Level 3 open lines and a word bank.',
+        watch: 'Another comes before one thing (another kind), also before a doing word (They also swim), and the word and joins two things or actions (seeds and bugs). At the start of a sentence, Also takes a comma: Also, moose eat water plants. On these pages a closing sentence gives no new fact; a \'wow fact\' is a fact, not a closing sentence.',
+      },
+    },
+    '2:research-class-report': {
+      title: 'Research with two books: a class report',
+      objective: 'Children take notes from two short books on one topic, tell which book each fact came from, and write one part of a class report.',
+      note: {
+        mistake: 'Children copy whole sentences, drop some or many so the note says more than the book, or mark one book when both tell a fact.',
+        words: 'Children need: Draft with facts and a closing. Model on garbage trucks, a topic on no page. Book 1: "A garbage truck picks up trash from homes." Note: trash from homes. Book 2: "Most garbage trucks crush the trash they pick up." Note: most crush the trash. Say: "A note is a few words. It keeps the fact true, and we write which book it came from." Day 1: read both books aloud together first; children fill the table with a partner, then take notes: Level 1 copies a few words, Level 2 uses own words, Level 3 also writes 1, 2, or B. Day 2: give each child the same copy number on both days and hand back the day-1 page. Levels 1 and 2 print all three headings with their notes; children circle the one you give them. Give each table one heading so that every heading has writers. Level 3 children choose a heading and use their notes. They write a heading and three sentences and draw a labeled picture. Cut out the parts on the dashed line; sort them by heading behind a cover with the question and both titles. Write the report\'s topic sentence and closing sentence together on the cover.',
+        watch: 'Ask: which book told you that? If both tell it, Both is right. Accept any short note that keeps the fact true.',
+      },
+    },
+    '2:true-story-plan-draft': {
+      title: 'Plan and draft a true story',
+      objective: 'Children plan a true story of one small moment and draft it in order with time words, one thing they thought or felt, and an ending.',
+      note: {
+        mistake: 'Children tell a whole day (school, then lunch, then home) instead of one small moment, or stop after the last event with no ending.',
+        words: 'Model first: tell the class a true story about finding a ladybug on the slide (you felt happy), then plan it aloud in the four boxes. Day 1: before the page, circle its time words and underline how you felt on the board. Day 3: write its beginning and first event on the board from your plan. Children need the time words from the retelling lesson. Say: "A true story tells what happened to me, in order." Day 1, Parts of a True Story: children circle the 3 time words, underline the sentence that tells a feeling or a thought, number three events, and circle the ending (Level 3 writes one). Day 2, Plan Your True Story: children circle an idea or write their own and make notes; Level 1 has frames, Level 2 starters, Level 3 a word bank. Day 3, Draft Your True Story: children write from their plan under Beginning, Middle, and Ending; Level 3 also adds one detail.',
+        watch: 'If a story tells what usually happens (\'We play tag every day\'), ask: "What did you see? What did you think?" An ending wraps up the moment; it does not start something new.',
+      },
+    },
+    '2:revise-edit-story': {
+      title: 'Revise and edit a story with a checklist',
+      objective: 'Children reread their story draft with a partner, add a detail, and fix capital letters and end marks with a checklist.',
+      note: {
+        mistake: 'Children copy the story without changing anything, or change something that was right, such as a comma after a time word.',
+        words: 'Model first: read aloud a short draft of your own about your walk to school; let the class ask one question and add the answer as a detail; then fix one capital letter and one end mark. Children need the story they drafted in the last lesson. Say: "Writers reread, add details, and fix mistakes." Day 1, Edit a Story, practices on a second grader\'s story: the box counts the mistakes; children write each capital above its small letter and add the end marks; Level 2 also numbers the sentences, Level 3 reads one paragraph and crosses out the sentence that does not belong; then they write the two sentences with two mistakes again. Day 2, Revise with a Partner, uses this on their own draft: they read it to a partner, look at it together, check it as Me and Partner (3, 5, or 6 checks by level), and write the partner\'s question, the detail they added, and a sentence they fixed or checked; Level 3 starts with what the partner liked. Children add the detail to their draft with a caret (^) and copy it here.',
+        watch: 'The partner asks; the writer decides. In the story to edit, only the counted mistakes are wrong. A missing end mark takes a period; an exclamation mark is right too where the sentence could be said with strong feeling.',
       },
     },
   },

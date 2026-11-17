@@ -7691,10 +7691,10 @@
    "metaDescription": "Second grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 88,
-    "taught": 39,
-    "near": 6,
-    "open": 43,
-    "lessons": 43
+    "taught": 43,
+    "near": 4,
+    "open": 41,
+    "lessons": 48
    },
    "groups": [
     {
@@ -7952,7 +7952,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 8,
+         "n": 5,
          "title": "Cursive letters and connections"
         }
        ]
@@ -8119,21 +8119,21 @@
       {
        "code": "2.7.D",
        "state": "taught",
-       "text": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
+       "text": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
        "lessons": [
         {
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
          "n": 4,
-         "title": "Retell a story: first, next, then, at the end"
+         "title": "Fables: What Is the Lesson?"
         },
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
          "unitGrade": "2",
-         "n": 6,
-         "title": "Fables: What Is the Lesson?"
+         "n": 2,
+         "title": "Retell a story: first, next, then, at the end"
         }
        ]
       }
@@ -8157,7 +8157,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 6,
+         "n": 4,
          "title": "Fables: What Is the Lesson?"
         }
        ]
@@ -8171,7 +8171,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 5,
+         "n": 3,
          "title": "How Characters Meet a Challenge"
         }
        ]
@@ -8185,7 +8185,7 @@
          "unit": "reading-stories-and-writing-grade-2-unit",
          "unitTitle": "Reading Stories and Writing",
          "unitGrade": "2",
-         "n": 5,
+         "n": 3,
          "title": "How Characters Meet a Challenge"
         }
        ]
@@ -8289,8 +8289,22 @@
       {
        "code": "2.11.A",
        "state": "taught",
-       "text": "Children state an opinion about a topic and plan two or three reasons with linking words (because, and, also) and a closing sentence.",
+       "text": "Children plan a true story of one small moment and draft it in order with time words, one thing they thought or felt, and an ending.",
        "lessons": [
+        {
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Plan and draft a true story"
+        },
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 2,
+         "title": "Plan an informative piece"
+        },
         {
          "unit": "opinion-writing-and-letters-grade-2-unit",
          "unitTitle": "Opinion Writing and Letters",
@@ -8303,14 +8317,28 @@
       {
        "code": "2.11.B.i",
        "state": "taught",
-       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+       "text": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
        "lessons": [
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Retell a story: first, next, then, at the end"
+        },
+        {
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Plan and draft a true story"
+        },
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Draft with facts and a closing"
         },
         {
          "unit": "opinion-writing-and-letters-grade-2-unit",
@@ -8324,8 +8352,22 @@
       {
        "code": "2.11.B.ii",
        "state": "taught",
-       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+       "text": "Children draft an informative piece from their plan, with a topic sentence, facts joined by linking words, a definition, and a closing sentence.",
        "lessons": [
+        {
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Plan and draft a true story"
+        },
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 3,
+         "title": "Draft with facts and a closing"
+        },
         {
          "unit": "opinion-writing-and-letters-grade-2-unit",
          "unitTitle": "Opinion Writing and Letters",
@@ -8338,8 +8380,15 @@
       {
        "code": "2.11.C",
        "state": "taught",
-       "text": "Children draft an opinion piece from their plan, with an opinion sentence that names the topic (the introduction at Grade 2), reasons joined by linking words, and a closing sentence (the standard's concluding statement).",
+       "text": "Children reread their story draft with a partner, add a detail, and fix capital letters and end marks with a checklist.",
        "lessons": [
+        {
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Revise and edit a story with a checklist"
+        },
         {
          "unit": "opinion-writing-and-letters-grade-2-unit",
          "unitTitle": "Opinion Writing and Letters",
@@ -8369,10 +8418,10 @@
          "title": "Today and yesterday: verb forms"
         },
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
          "unitGrade": "2",
-         "n": 3,
+         "n": 1,
          "title": "Write about a picture"
         }
        ]
@@ -8454,10 +8503,10 @@
          "title": "Adjective or adverb?"
         },
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
          "unitGrade": "2",
-         "n": 4,
+         "n": 2,
          "title": "Retell a story: first, next, then, at the end"
         }
        ]
@@ -8508,6 +8557,13 @@
          "unitGrade": "2",
          "n": 6,
          "title": "Apostrophes: can't and the dog's bowl"
+        },
+        {
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Revise and edit a story with a checklist"
         }
        ]
       },
@@ -8537,38 +8593,36 @@
      "items": [
       {
        "code": "2.12.A",
-       "state": "near",
-       "text": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children plan a true story of one small moment and draft it in order with time words, one thing they thought or felt, and an ending.",
        "lessons": [
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-stories-grade-2-unit",
+         "unitTitle": "Writing Stories",
          "unitGrade": "2",
-         "n": 4,
-         "title": "Retell a story: first, next, then, at the end"
+         "n": 3,
+         "title": "Plan and draft a true story"
         }
        ]
       },
       {
        "code": "2.12.B",
-       "state": "near",
+       "state": "taught",
        "text": "Children choose true facts about an animal, such as what it eats and where it lives, and write them on a fact sheet.",
-       "rel": "prepares",
        "lessons": [
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
          "unitGrade": "2",
          "n": 3,
-         "title": "Write about a picture"
+         "title": "Draft with facts and a closing"
         },
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
          "unitGrade": "2",
-         "n": 7,
-         "title": "An animal fact sheet"
+         "n": 4,
+         "title": "Research with two books: a class report"
         }
        ]
       },
@@ -8593,16 +8647,15 @@
      "items": [
       {
        "code": "2.13.C",
-       "state": "near",
-       "text": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children take notes from two short books on one topic, tell which book each fact came from, and write one part of a class report.",
        "lessons": [
         {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
          "unitGrade": "2",
-         "n": 7,
-         "title": "An animal fact sheet"
+         "n": 4,
+         "title": "Research with two books: a class report"
         }
        ]
       },
@@ -8611,13 +8664,6 @@
        "state": "taught",
        "text": "Children read fact files about two different animals and find which facts are the same and which are different.",
        "lessons": [
-        {
-         "unit": "reading-stories-and-writing-grade-2-unit",
-         "unitTitle": "Reading Stories and Writing",
-         "unitGrade": "2",
-         "n": 7,
-         "title": "An animal fact sheet"
-        },
         {
          "unit": "reading-to-learn-informational-texts-grade-1-unit",
          "unitTitle": "Reading to Learn: Informational Texts",
@@ -8631,6 +8677,49 @@
          "unitGrade": "2",
          "n": 5,
          "title": "Two Animals: Same and Different"
+        },
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 1,
+         "title": "An animal fact sheet"
+        },
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Research with two books: a class report"
+        }
+       ]
+      },
+      {
+       "code": "2.13.F",
+       "state": "near",
+       "text": "Children take notes from two short books on one topic, tell which book each fact came from, and write one part of a class report.",
+       "rel": "prepares",
+       "lessons": [
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Research with two books: a class report"
+        }
+       ]
+      },
+      {
+       "code": "2.13.G",
+       "state": "taught",
+       "text": "Children take notes from two short books on one topic, tell which book each fact came from, and write one part of a class report.",
+       "lessons": [
+        {
+         "unit": "writing-to-inform-grade-2-unit",
+         "unitTitle": "Writing to Inform",
+         "unitGrade": "2",
+         "n": 4,
+         "title": "Research with two books: a class report"
         }
        ]
       }
@@ -8638,9 +8727,7 @@
      "open": [
       "2.13.A",
       "2.13.B",
-      "2.13.D",
-      "2.13.F",
-      "2.13.G"
+      "2.13.D"
      ]
     }
    ]

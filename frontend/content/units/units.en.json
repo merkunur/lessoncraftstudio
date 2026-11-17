@@ -16973,9 +16973,9 @@
    "subject": "literacy",
    "title": "Reading Stories and Writing",
    "metaTitle": "Grade 2 Lesson Plans: Reading Stories and Writing",
-   "metaDescription": "A Grade 2 unit: 8 lessons on story questions, context clues, describing a picture, retelling, characters, fables, an animal fact sheet, and cursive.",
-   "days": 20,
-   "weeks": 4,
+   "metaDescription": "A Grade 2 reading unit: 5 lessons on answering story questions, using context clues, how characters meet a challenge, the lesson of a fable, and cursive.",
+   "days": 13,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -17084,6 +17084,141 @@
     },
     {
      "n": 3,
+     "point": "2:character-challenge",
+     "title": "How Characters Meet a Challenge",
+     "objective": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.2.3",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-526",
+       "title": "How a Character Meets a Challenge",
+       "core": "reading-comprehension-g2526",
+       "easy": "reading-comprehension-easy-g2526-6",
+       "hard": "reading-comprehension-hard-g2526-11"
+      },
+      {
+       "type": "G2-527",
+       "title": "What Happens and Why",
+       "core": "reading-comprehension-g2527",
+       "easy": "reading-comprehension-easy-g2527-6",
+       "hard": "reading-comprehension-hard-g2527-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2526-2",
+      "title": "How a Character Meets a Challenge"
+     },
+     "note": {
+      "mistake": "Children retell the whole story instead of naming the problem. They say what the character should have done, not what the character did, or they give their own feeling (\"I would be sad\") for the character's. In cause and effect they write two things that happen one after the other without one making the other happen.",
+      "words": "Read the story aloud once, then read it together. Ask three questions in the same order every time: \"What happens to the character? What does the character do about it? How does the character feel?\" Have children point to the sentence that tells them. On Level 1 of the How a Character Meets a Challenge page children circle answers; on Level 2 they write them; on Level 3 they also tell what they would have done in the character's place. On the What Happens and Why page say: \"A cause makes something happen. The effect is what happens.\" Try each pair aloud with \"so\" between the two: \"The hare felt sure that he would win, so he lay down for a nap.\" On Level 3 children write one pair as a sentence with because or so.",
+      "watch": "An answer is right when the story supports it, in the child's own words. For the feeling, accept a word that fits the story even if it is not the word on the key: \"embarrassed\" for ashamed, \"scared\" for afraid. Ask \"How do you know?\" and have the child show the sentence. On Level 3, any choice is fine if the reason fits the story. In the one-sentence task, check the direction: the cause comes after \"because\" or before \"so.\""
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:fable-lesson",
+     "title": "Fables: What Is the Lesson?",
+     "objective": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RL.2.2",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-529",
+       "title": "Beginning, Middle, and End",
+       "core": "reading-comprehension-g2529",
+       "easy": "reading-comprehension-easy-g2529-6",
+       "hard": "reading-comprehension-hard-g2529-11"
+      },
+      {
+       "type": "G2-528",
+       "title": "What Is the Lesson?",
+       "core": "reading-comprehension-g2528",
+       "easy": "reading-comprehension-easy-g2528-6",
+       "hard": "reading-comprehension-hard-g2528-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2529-2",
+      "title": "Beginning, Middle, and End"
+     },
+     "note": {
+      "mistake": "Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens (\"The tortoise won\") or give a rule about the animals (\"Hares should not nap\") instead of a lesson for people.",
+      "words": "Tell children: \"A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people.\" Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: \"First ... then ... in the end ...\" Then turn to the What Is the Lesson? page: \"What did the character learn? What can we learn from it?\" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.",
+      "watch": "A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. \"The tortoise won the race\" is a retelling: ask \"So what does the story teach us?\" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
+     "point": "2:cursive-writing",
+     "title": "Cursive letters and connections",
+     "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
+     "standards": [],
+     "paper": [
+      {
+       "type": "G2-377",
+       "title": "Cursive Letters: i, t, u and w",
+       "core": "cursive-writing-g2377",
+       "easy": "cursive-writing-easy-g2377-9",
+       "hard": "cursive-writing-hard-g2377-17",
+       "landing": "cursive-letters-i-t-u-w"
+      },
+      {
+       "type": "G2-385",
+       "title": "Cursive Connecting Letters: Joining Two Letters",
+       "core": "cursive-writing-g2385",
+       "easy": "cursive-writing-easy-g2385-7",
+       "hard": "cursive-writing-hard-g2385-9",
+       "landing": "cursive-connecting-letters-joining-two-letters"
+      }
+     ],
+     "exit": {
+      "slug": "cursive-writing-g2377-2",
+      "title": "Cursive Letters: i, t, u and w"
+     },
+     "maker": {
+      "id": "cursive",
+      "name": "Cursive Handwriting",
+      "slug": "cursive-handwriting-worksheet-maker",
+      "template": "G2-377"
+     },
+     "note": {
+      "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
+      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
+      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "g2-writing-stories",
+   "slug": "writing-stories-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Writing Stories",
+   "metaTitle": "Writing Stories: Grade 2 Narrative Writing Unit",
+   "metaDescription": "Grade 2 story writing lessons: describe a picture, retell a story with starters, plan and draft a true story with time words, then revise and edit it with a partner.",
+   "days": 13,
+   "weeks": 3,
+   "lessons": [
+    {
+     "n": 1,
      "point": "2:describe-a-picture",
      "title": "Write about a picture",
      "objective": "Children write sentences about a picture with sentence starters and a word bank, and then write their own short story about a picture with the word bank only.",
@@ -17143,7 +17278,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 2,
      "point": "2:retell-with-starters",
      "title": "Retell a story: first, next, then, at the end",
      "objective": "Children write what happens in each picture of a story in order, beginning with the time-order word that is given.",
@@ -17188,169 +17323,90 @@
      "days": 3
     },
     {
-     "n": 5,
-     "point": "2:character-challenge",
-     "title": "How Characters Meet a Challenge",
-     "objective": "Children describe how a character in a story responds to a problem: what the character does, how the character feels, and what happens because of it.",
+     "n": 3,
+     "point": "2:true-story-plan-draft",
+     "title": "Plan and draft a true story",
+     "objective": "Children plan a true story of one small moment and draft it in order with time words, one thing they thought or felt, and an ending.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Common Core",
-       "code": "RL.2.3",
+       "code": "W.2.3",
        "title": null
       }
      ],
      "paper": [
       {
-       "type": "G2-526",
-       "title": "How a Character Meets a Challenge",
-       "core": "reading-comprehension-g2526",
-       "easy": "reading-comprehension-easy-g2526-6",
-       "hard": "reading-comprehension-hard-g2526-11"
+       "type": "G2-571",
+       "title": "Parts of a True Story",
+       "core": "reading-comprehension-g2571",
+       "easy": "reading-comprehension-easy-g2571-6",
+       "hard": "reading-comprehension-hard-g2571-11"
       },
       {
-       "type": "G2-527",
-       "title": "What Happens and Why",
-       "core": "reading-comprehension-g2527",
-       "easy": "reading-comprehension-easy-g2527-6",
-       "hard": "reading-comprehension-hard-g2527-11"
+       "type": "G2-572",
+       "title": "Plan Your True Story",
+       "core": "sentence-building-g2572",
+       "easy": "sentence-building-easy-g2572-6",
+       "hard": "sentence-building-hard-g2572-11"
+      },
+      {
+       "type": "G2-573",
+       "title": "Draft Your True Story",
+       "core": "sentence-building-g2573",
+       "easy": "sentence-building-easy-g2573-6",
+       "hard": "sentence-building-hard-g2573-11"
       }
      ],
      "exit": {
-      "slug": "reading-comprehension-g2526-2",
-      "title": "How a Character Meets a Challenge"
+      "slug": "reading-comprehension-g2571-2",
+      "title": "Parts of a True Story"
      },
      "note": {
-      "mistake": "Children retell the whole story instead of naming the problem. They say what the character should have done, not what the character did, or they give their own feeling (\"I would be sad\") for the character's. In cause and effect they write two things that happen one after the other without one making the other happen.",
-      "words": "Read the story aloud once, then read it together. Ask three questions in the same order every time: \"What happens to the character? What does the character do about it? How does the character feel?\" Have children point to the sentence that tells them. On Level 1 of the How a Character Meets a Challenge page children circle answers; on Level 2 they write them; on Level 3 they also tell what they would have done in the character's place. On the What Happens and Why page say: \"A cause makes something happen. The effect is what happens.\" Try each pair aloud with \"so\" between the two: \"The hare felt sure that he would win, so he lay down for a nap.\" On Level 3 children write one pair as a sentence with because or so.",
-      "watch": "An answer is right when the story supports it, in the child's own words. For the feeling, accept a word that fits the story even if it is not the word on the key: \"embarrassed\" for ashamed, \"scared\" for afraid. Ask \"How do you know?\" and have the child show the sentence. On Level 3, any choice is fine if the reason fits the story. In the one-sentence task, check the direction: the cause comes after \"because\" or before \"so.\""
+      "mistake": "Children tell a whole day (school, then lunch, then home) instead of one small moment, or stop after the last event with no ending.",
+      "words": "Model first: tell the class a true story about finding a ladybug on the slide (you felt happy), then plan it aloud in the four boxes. Day 1: before the page, circle its time words and underline how you felt on the board. Day 3: write its beginning and first event on the board from your plan. Children need the time words from the retelling lesson. Say: \"A true story tells what happened to me, in order.\" Day 1, Parts of a True Story: children circle the 3 time words, underline the sentence that tells a feeling or a thought, number three events, and circle the ending (Level 3 writes one). Day 2, Plan Your True Story: children circle an idea or write their own and make notes; Level 1 has frames, Level 2 starters, Level 3 a word bank. Day 3, Draft Your True Story: children write from their plan under Beginning, Middle, and Ending; Level 3 also adds one detail.",
+      "watch": "If a story tells what usually happens ('We play tag every day'), ask: \"What did you see? What did you think?\" An ending wraps up the moment; it does not start something new."
      },
-     "days": 2
+     "writeDays": 3,
+     "days": 3
     },
     {
-     "n": 6,
-     "point": "2:fable-lesson",
-     "title": "Fables: What Is the Lesson?",
-     "objective": "Children retell a fable by its beginning, middle, and end and tell the lesson it teaches.",
+     "n": 4,
+     "point": "2:revise-edit-story",
+     "title": "Revise and edit a story with a checklist",
+     "objective": "Children reread their story draft with a partner, add a detail, and fix capital letters and end marks with a checklist.",
      "standards": [
       {
        "rel": "teaches",
        "framework": "Common Core",
-       "code": "RL.2.2",
+       "code": "W.2.5",
        "title": null
       }
      ],
      "paper": [
       {
-       "type": "G2-529",
-       "title": "Beginning, Middle, and End",
-       "core": "reading-comprehension-g2529",
-       "easy": "reading-comprehension-easy-g2529-6",
-       "hard": "reading-comprehension-hard-g2529-11"
+       "type": "G2-574",
+       "title": "Edit a Story",
+       "core": "capitals-punctuation-g2574",
+       "easy": "capitals-punctuation-easy-g2574-6",
+       "hard": "capitals-punctuation-hard-g2574-11"
       },
       {
-       "type": "G2-528",
-       "title": "What Is the Lesson?",
-       "core": "reading-comprehension-g2528",
-       "easy": "reading-comprehension-easy-g2528-6",
-       "hard": "reading-comprehension-hard-g2528-11"
+       "type": "G2-575",
+       "title": "Revise with a Partner",
+       "core": "sentence-building-g2575",
+       "easy": "sentence-building-easy-g2575-6",
+       "hard": "sentence-building-hard-g2575-11"
       }
      ],
      "exit": {
-      "slug": "reading-comprehension-g2529-2",
-      "title": "Beginning, Middle, and End"
+      "slug": "capitals-punctuation-g2574-2",
+      "title": "Edit a Story"
      },
      "note": {
-      "mistake": "Children retell only the part they liked best, or they tell the middle and the end and leave out how the story begins. For the lesson they repeat what happens (\"The tortoise won\") or give a rule about the animals (\"Hares should not nap\") instead of a lesson for people.",
-      "words": "Tell children: \"A fable is a short story that teaches a lesson. Often its characters are animals or things that act like people.\" Start with the Beginning, Middle, and End page: on Level 1 children put three sentences in order; on Levels 2 and 3 they write the three parts themselves (save Level 3 for Day 2, or model one lesson first: it also asks for the lesson). Hold up three fingers: \"First ... then ... in the end ...\" Then turn to the What Is the Lesson? page: \"What did the character learn? What can we learn from it?\" On Level 1 children circle the lesson and check the two sentences that show it; on Level 2 they write the lesson and what a character does that shows it; on Level 3 they also tell how the ending teaches the lesson. Have children say the lesson so that it fits a person, not only a hare or a dog.",
-      "watch": "A retelling is right when the three parts are in order and the ending is there; small details may be left out, and it does not have to match the key. Accept any lesson that is about people and fits the whole story. \"The tortoise won the race\" is a retelling: ask \"So what does the story teach us?\" On Level 1 of the What Is the Lesson? page one of the three sentences is not in the story: a child who checks it has not gone back to the story."
-     },
-     "days": 2
-    },
-    {
-     "n": 7,
-     "point": "2:animal-fact-file",
-     "title": "An animal fact sheet",
-     "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "W.2.8",
-       "title": null
-      },
-      {
-       "rel": "prepares",
-       "framework": "Common Core",
-       "code": "W.2.7",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G2-339",
-       "title": "Animal Fact File: Circle the True Facts",
-       "core": "animal-fact-file-forest-creatures-g2339",
-       "landing": "animal-fact-file-circle-the-true-facts"
-      },
-      {
-       "type": "G2-340",
-       "title": "Animal Fact File with a Word Bank",
-       "core": "animal-fact-file-forest-creatures-g2340",
-       "landing": "animal-fact-file-with-a-word-bank"
-      }
-     ],
-     "maker": {
-      "id": "stories-writing",
-      "name": "Stories & Writing",
-      "slug": "story-and-writing-worksheet-maker",
-      "template": "G2-339"
-     },
-     "note": {
-      "mistake": "Children circle what they know from stories and cartoons and not what is true: honey for the bear, cheese for the mouse. When copying from the word bank, a fact lands in the wrong row: what the animal eats is written under where it lives.",
-      "words": "Say: \"A fact is true, and we can check it in a book or by looking.\" Read the row names first: \"What does this row ask for? Food, home, or how it moves?\" Ask: \"How do you know that? Where could we check?\"",
-      "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books on hand and let children check one fact each."
-     },
-     "days": 2
-    },
-    {
-     "n": 8,
-     "point": "2:cursive-writing",
-     "title": "Cursive letters and connections",
-     "objective": "Children trace and write rows of connected cursive letters (i, t, u, and w) and connect two letters without lifting the pencil (for schools that teach cursive in Grade 2).",
-     "standards": [],
-     "paper": [
-      {
-       "type": "G2-377",
-       "title": "Cursive Letters: i, t, u and w",
-       "core": "cursive-writing-g2377",
-       "easy": "cursive-writing-easy-g2377-9",
-       "hard": "cursive-writing-hard-g2377-17",
-       "landing": "cursive-letters-i-t-u-w"
-      },
-      {
-       "type": "G2-385",
-       "title": "Cursive Connecting Letters: Joining Two Letters",
-       "core": "cursive-writing-g2385",
-       "easy": "cursive-writing-easy-g2385-7",
-       "hard": "cursive-writing-hard-g2385-9",
-       "landing": "cursive-connecting-letters-joining-two-letters"
-      }
-     ],
-     "exit": {
-      "slug": "cursive-writing-g2377-2",
-      "title": "Cursive Letters: i, t, u and w"
-     },
-     "maker": {
-      "id": "cursive",
-      "name": "Cursive Handwriting",
-      "slug": "cursive-handwriting-worksheet-maker",
-      "template": "G2-377"
-     },
-     "note": {
-      "mistake": "Children lift the pencil after every letter and add the connecting stroke afterward, so the row is print letters with tails. Some stop in the middle of a word to dot the i or cross the t, which breaks the flow.",
-      "words": "Say: \"Keep the pencil down until the whole word is written. Then go back: dot the i, cross the t.\" Name the strokes: \"up, down, and out to the next letter.\" For w: \"W ends high, at the middle line, so the next letter starts from up there, not from the bottom line.\" Write it big in the air first, then on the page.",
-      "watch": "Watch the pencil, not the page: is it lifted inside a word? Check that each connection starts where the letter before it ended and that the letters sit on the line. Right-handed children tilt the paper with its top to the left; left-handed children tilt it with its top to the right, so that the hand stays below the writing."
+      "mistake": "Children copy the story without changing anything, or change something that was right, such as a comma after a time word.",
+      "words": "Model first: read aloud a short draft of your own about your walk to school; let the class ask one question and add the answer as a detail; then fix one capital letter and one end mark. Children need the story they drafted in the last lesson. Say: \"Writers reread, add details, and fix mistakes.\" Day 1, Edit a Story, practices on a second grader's story: the box counts the mistakes; children write each capital above its small letter and add the end marks; Level 2 also numbers the sentences, Level 3 reads one paragraph and crosses out the sentence that does not belong; then they write the two sentences with two mistakes again. Day 2, Revise with a Partner, uses this on their own draft: they read it to a partner, look at it together, check it as Me and Partner (3, 5, or 6 checks by level), and write the partner's question, the detail they added, and a sentence they fixed or checked; Level 3 starts with what the partner liked. Children add the detail to their draft with a caret (^) and copy it here.",
+      "watch": "The partner asks; the writer decides. In the story to edit, only the counted mistakes are wrong. A missing end mark takes a period; an exclamation mark is right too where the sentence could be said with strong feeling."
      },
      "days": 2
     }
@@ -17564,6 +17620,186 @@
       "mistake": "Children write a fact about one animal (\"The eagle has feathers.\") where the page asks for a comparison. Some decide by what they picture, not by the fact files: \"A ladybug is small and an eagle is big,\" which neither fact file says.",
       "words": "Before anyone writes, draw a chart with three columns on the board: the fact, the first animal, the second animal. Fill it in together from the two fact files and mark each row S or D. Then turn rows into sentences with the comparing words of Grade 2: both, and, too for what is the same; but, while, unlike for what is different. Model one of each: \"Both animals eat meat.\" \"The ladybug is an insect, but the eagle is a bird.\" The Grade 2 standard asks children to compare the most important points of two texts on the SAME topic. This page compares two animals, so end the lesson with two short texts about one animal and ask, \"Which point do both texts make? What does only one of them tell?\"",
       "watch": "Read the four sentences each child wrote. A sentence about a difference has to name both animals and both facts; \"They are different\" is not enough. A sentence about what is the same should use both or too. If a child circled every row the same way, cover all rows but one and compare just that row. The on-screen activity compares two stories; the steps are the same: one point at a time, across both."
+     },
+     "days": 2
+    }
+   ]
+  },
+  {
+   "id": "g2-writing-to-inform",
+   "slug": "writing-to-inform-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "literacy",
+   "title": "Writing to Inform",
+   "metaTitle": "Writing to Inform: Grade 2 Informative Writing Unit",
+   "metaDescription": "Grade 2 informative writing lessons: an animal fact file, a plan with facts under headings, a draft with a definition and a closing, and a class report from two books.",
+   "days": 11,
+   "weeks": 2,
+   "lessons": [
+    {
+     "n": 1,
+     "point": "2:animal-fact-file",
+     "title": "An animal fact sheet",
+     "objective": "Children choose true facts about an animal, such as what it eats, where it lives, and how it moves, and write them on a fact sheet.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.2.8",
+       "title": null
+      },
+      {
+       "rel": "prepares",
+       "framework": "Common Core",
+       "code": "W.2.7",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-339",
+       "title": "Animal Fact File: Circle the True Facts",
+       "core": "animal-fact-file-forest-creatures-g2339",
+       "landing": "animal-fact-file-circle-the-true-facts"
+      },
+      {
+       "type": "G2-340",
+       "title": "Animal Fact File with a Word Bank",
+       "core": "animal-fact-file-forest-creatures-g2340",
+       "landing": "animal-fact-file-with-a-word-bank"
+      }
+     ],
+     "maker": {
+      "id": "stories-writing",
+      "name": "Stories & Writing",
+      "slug": "story-and-writing-worksheet-maker",
+      "template": "G2-339"
+     },
+     "note": {
+      "mistake": "Children circle what they know from stories and cartoons and not what is true: honey for the bear, cheese for the mouse. When copying from the word bank, a fact lands in the wrong row: what the animal eats is written under where it lives.",
+      "words": "Say: \"A fact is true, and we can check it in a book or by looking.\" Read the row names first: \"What does this row ask for? Food, home, or how it moves?\" Ask: \"How do you know that? Where could we check?\"",
+      "watch": "Ask a child to read one row name and then the fact beside it; a fact in the wrong row sounds wrong at once. Keep a few animal books on hand and let children check one fact each."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
+     "point": "2:plan-informative-piece",
+     "title": "Plan an informative piece",
+     "objective": "Children name the parts of an informative piece and plan one: a topic sentence, facts under headings, a definition, a closing sentence.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.2.2",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-565",
+       "title": "Parts of an Informative Piece",
+       "core": "reading-comprehension-g2565",
+       "easy": "reading-comprehension-easy-g2565-6",
+       "hard": "reading-comprehension-hard-g2565-11"
+      },
+      {
+       "type": "G2-566",
+       "title": "Plan Your Informative Piece",
+       "core": "sentence-building-g2566",
+       "easy": "sentence-building-easy-g2566-6",
+       "hard": "sentence-building-hard-g2566-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2565-2",
+      "title": "Parts of an Informative Piece"
+     },
+     "note": {
+      "mistake": "Children start with one fact, not a sentence about the whole topic, leave an opinion or a sentence about something else among the facts, or sort a fact by one shared word.",
+      "words": "Children need: Animal fact file. Model first on sloths, a topic on no page: group five facts under two headings, then write a topic sentence and a closing sentence. Say: \"An informative piece tells only facts, and every sentence is about its topic. A closing sentence tells about the topic again at the end, in new words.\" Day 1: children underline the topic sentence of a short piece and box its closing sentence; Levels 2 and 3 also circle the definition. Then they sort facts about another topic under two headings and cross out what does not belong: a sentence about something else (Level 1), an opinion (Level 2), or both (Level 3). Day 2: a box gives five facts and a definition. Children plan a topic sentence, three facts, a definition, and a closing sentence: Level 1 with frames, Level 2 with starters and two of three headings to choose. Level 3 in notes: children name two headings and use a word bank.",
+      "watch": "Ask: does it tell about the whole topic, or one part? People can disagree with an opinion, so an informative piece leaves it out. The key's plan is a sample; accept any facts from the box under a heading they fit."
+     },
+     "days": 2
+    },
+    {
+     "n": 3,
+     "point": "2:draft-facts-closing",
+     "title": "Draft with facts and a closing",
+     "objective": "Children draft an informative piece from their plan, with a topic sentence, facts joined by linking words, a definition, and a closing sentence.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.2.2",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-567",
+       "title": "Closing Sentences and Linking Words",
+       "core": "reading-comprehension-g2567",
+       "easy": "reading-comprehension-easy-g2567-6",
+       "hard": "reading-comprehension-hard-g2567-11"
+      },
+      {
+       "type": "G2-568",
+       "title": "Draft Your Informative Piece",
+       "core": "sentence-building-g2568",
+       "easy": "sentence-building-easy-g2568-6",
+       "hard": "sentence-building-hard-g2568-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2567-2",
+      "title": "Closing Sentences and Linking Words"
+     },
+     "note": {
+      "mistake": "Children end with a new fact or the topic sentence again, or put another where also belongs (They another swim).",
+      "words": "Children need: their plan from the lesson before. Model first on moose, a topic on no page: a topic sentence, two facts joined with also, a definition (a bull is a grown male moose), and a closing sentence. Say: \"A closing sentence tells about the topic again in new words. It gives no new fact.\" Day 1: children circle the closing sentence that fits a short piece; wrong choices add a new fact (on Levels 2 and 3 one starts with Now you know), give an opinion about something else (Levels 1 and 3), or copy the topic sentence (Levels 2 and 3). They finish a definition (Level 1), write the word too (Level 2) or all of it (Level 3), and circle also, another, or and for each blank. Day 2: children write from their plan or the six sentences at the top. Level 1 has frames, Level 2 starters and an open row for a linking word, Level 3 open lines and a word bank.",
+      "watch": "Another comes before one thing (another kind), also before a doing word (They also swim), and the word and joins two things or actions (seeds and bugs). At the start of a sentence, Also takes a comma: Also, moose eat water plants. On these pages a closing sentence gives no new fact; a 'wow fact' is a fact, not a closing sentence."
+     },
+     "days": 2
+    },
+    {
+     "n": 4,
+     "point": "2:research-class-report",
+     "title": "Research with two books: a class report",
+     "objective": "Children take notes from two short books on one topic, tell which book each fact came from, and write one part of a class report.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "W.2.7",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-569",
+       "title": "Research with Two Books: Take Notes",
+       "core": "reading-comprehension-g2569",
+       "easy": "reading-comprehension-easy-g2569-6",
+       "hard": "reading-comprehension-hard-g2569-11"
+      },
+      {
+       "type": "G2-570",
+       "title": "Write Your Part of the Class Report",
+       "core": "sentence-building-g2570",
+       "easy": "sentence-building-easy-g2570-6",
+       "hard": "sentence-building-hard-g2570-11"
+      }
+     ],
+     "exit": {
+      "slug": "reading-comprehension-g2569-2",
+      "title": "Research with Two Books: Take Notes"
+     },
+     "note": {
+      "mistake": "Children copy whole sentences, drop some or many so the note says more than the book, or mark one book when both tell a fact.",
+      "words": "Children need: Draft with facts and a closing. Model on garbage trucks, a topic on no page. Book 1: \"A garbage truck picks up trash from homes.\" Note: trash from homes. Book 2: \"Most garbage trucks crush the trash they pick up.\" Note: most crush the trash. Say: \"A note is a few words. It keeps the fact true, and we write which book it came from.\" Day 1: read both books aloud together first; children fill the table with a partner, then take notes: Level 1 copies a few words, Level 2 uses own words, Level 3 also writes 1, 2, or B. Day 2: give each child the same copy number on both days and hand back the day-1 page. Levels 1 and 2 print all three headings with their notes; children circle the one you give them. Give each table one heading so that every heading has writers. Level 3 children choose a heading and use their notes. They write a heading and three sentences and draw a labeled picture. Cut out the parts on the dashed line; sort them by heading behind a cover with the question and both titles. Write the report's topic sentence and closing sentence together on the cover.",
+      "watch": "Ask: which book told you that? If both tell it, Both is right. Accept any short note that keeps the fact true."
      },
      "days": 2
     }
@@ -20977,9 +21213,9 @@
    "grade": "2",
    "subject": "literacy",
    "title": "Grade 2 Reading and Writing Scope and Sequence",
-   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (21 Weeks)",
-   "metaDescription": "7 Grade 2 reading and writing units in teaching order, about 21 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 21,
+   "metaTitle": "Grade 2 ELA Scope and Sequence: Reading and Writing (25 Weeks)",
+   "metaDescription": "9 Grade 2 reading and writing units in teaching order, about 25 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 25,
    "framework": "Common Core",
    "units": [
     {
@@ -21077,28 +21313,41 @@
      "id": "g2-stories-facts-and-writing",
      "slug": "reading-stories-and-writing-grade-2-unit",
      "title": "Reading Stories and Writing",
-     "weeks": 4,
+     "weeks": 3,
      "from": 13,
-     "to": 16,
+     "to": 15,
      "lessons": [
       "Read a story and answer questions",
       "Fill in the story's missing words",
-      "Write about a picture",
-      "Retell a story: first, next, then, at the end",
       "How Characters Meet a Challenge",
       "Fables: What Is the Lesson?",
-      "An animal fact sheet",
       "Cursive letters and connections"
      ],
      "standards": [
-      "L.2.1.f",
       "L.2.4.a",
       "RF.2.4.c",
       "RL.2.1",
       "RL.2.2",
-      "RL.2.3",
+      "RL.2.3"
+     ]
+    },
+    {
+     "id": "g2-writing-stories",
+     "slug": "writing-stories-grade-2-unit",
+     "title": "Writing Stories",
+     "weeks": 3,
+     "from": 16,
+     "to": 18,
+     "lessons": [
+      "Write about a picture",
+      "Retell a story: first, next, then, at the end",
+      "Plan and draft a true story",
+      "Revise and edit a story with a checklist"
+     ],
+     "standards": [
+      "L.2.1.f",
       "W.2.3",
-      "W.2.8"
+      "W.2.5"
      ]
     },
     {
@@ -21106,8 +21355,8 @@
      "slug": "reading-to-learn-informational-texts-grade-2-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 3,
-     "from": 17,
-     "to": 19,
+     "from": 19,
+     "to": 21,
      "lessons": [
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",
@@ -21123,12 +21372,31 @@
      ]
     },
     {
+     "id": "g2-writing-to-inform",
+     "slug": "writing-to-inform-grade-2-unit",
+     "title": "Writing to Inform",
+     "weeks": 2,
+     "from": 22,
+     "to": 23,
+     "lessons": [
+      "An animal fact sheet",
+      "Plan an informative piece",
+      "Draft with facts and a closing",
+      "Research with two books: a class report"
+     ],
+     "standards": [
+      "W.2.2",
+      "W.2.7",
+      "W.2.8"
+     ]
+    },
+    {
      "id": "g2-opinion-writing-and-letters",
      "slug": "opinion-writing-and-letters-grade-2-unit",
      "title": "Opinion Writing and Letters",
      "weeks": 2,
-     "from": 20,
-     "to": 21,
+     "from": 24,
+     "to": 25,
      "lessons": [
       "Plan an opinion: reasons and linking words",
       "Draft an opinion piece",

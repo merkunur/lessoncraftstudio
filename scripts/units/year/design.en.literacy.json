@@ -698,7 +698,8 @@
             "standard": "W.2.3",
             "days": 3,
             "source": "new",
-            "page": "Writing page (narrative): a planner with four boxes (who and where, first, next, at the end) and a feelings box, then a draft page with ten writing lines. A checklist at the bottom: I told the events in order. I used time words. I told what I did, thought, and felt. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (narrative): a planner with four boxes (who and where, first, next, at the end) and a feelings box, then a draft page with ten writing lines. A checklist at the bottom: I told the events in order. I used time words. I told what I did, thought, and felt. I wrote an ending. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "2:true-story-plan-draft"
           },
           {
             "new": true,
@@ -707,7 +708,8 @@
             "standard": "W.2.5",
             "days": 2,
             "source": "new",
-            "page": "Revise-and-edit page: a short sample story of six sentences with five mistakes that the class fixes together, then a checklist (Did I add a detail? A stronger word? Capitals? End marks? Spelling of the word-wall words?) that the child uses on their own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line for the partner's comment."
+            "page": "Revise-and-edit page: a short sample story of six sentences with five mistakes that the class fixes together, then a checklist (Did I add a detail? A stronger word? Capitals? End marks? Spelling of the word-wall words?) that the child uses on their own draft. Level 1: three checks; level 2: five checks; level 3: five checks and a line for the partner's comment.",
+            "placed": "2:revise-edit-story"
           }
         ]
       },
@@ -867,7 +869,8 @@
             "standard": "W.2.2",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a planner with a topic box, an introduction line, and three fact groups with two lines each, then a short checklist (I named my topic. I grouped my facts.). Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (informative): a planner with a topic box, an introduction line, and three fact groups with two lines each, then a short checklist (I named my topic. I grouped my facts.). Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "2:plan-informative-piece"
           },
           {
             "new": true,
@@ -876,7 +879,8 @@
             "standard": "W.2.2",
             "days": 2,
             "source": "new",
-            "page": "Writing page (informative): a draft page with twelve writing lines under the planner's three group headings, with linking words in the margin (also, another, for example). A checklist at the bottom: I introduced the topic. I used facts and a definition. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank."
+            "page": "Writing page (informative): a draft page with twelve writing lines under the planner's three group headings, with linking words in the margin (also, another, for example). A checklist at the bottom: I introduced the topic. I used facts and a definition. I wrote a closing. Level 1: sentence frames on every line; level 2: starters only; level 3: open lines and a word bank.",
+            "placed": "2:draft-facts-closing"
           },
           {
             "new": true,
@@ -885,7 +889,8 @@
             "standard": "W.2.7",
             "days": 2,
             "source": "new",
-            "page": "Writing page (research): two short information texts on one topic (about 80 words each), a note-taking organizer with three questions, and eight lines for one report page with a heading and a picture box. Level 1: notes are copied phrases; level 2: notes in the child's own words; level 3: the child also writes which text each fact came from."
+            "page": "Writing page (research): two short information texts on one topic (about 80 words each), a note-taking organizer with three questions, and eight lines for one report page with a heading and a picture box. Level 1: notes are copied phrases; level 2: notes in the child's own words; level 3: the child also writes which text each fact came from.",
+            "placed": "2:research-class-report"
           }
         ]
       },

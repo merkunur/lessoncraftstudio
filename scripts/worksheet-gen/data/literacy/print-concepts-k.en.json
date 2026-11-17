@@ -1,0 +1,2544 @@
+{
+ "_note": "Kindergarten \"How Books and Print Work\" (English literacy year, Part 12.3; types/_shared/print-concepts-k.js). THE TEACHER READS every instruction, title and sentence; a child points, dots, circles, colors, cuts and glues, writes a number or a page number, and traces or copies a short title or sentence. `pics`: the library picture of a word (colour themes only, each looked at) and its kind (two pictures of one kind never share a page). `books`: invented books (title, author, the cover picture, the first sentence of the story and its picture); `famous`: titles a class may know (no title of the bank shares two content words or its first two words with one). `makeTitles`: two-word titles to copy (K-666). `twoLine`: sentences printed over two lines (\"|\" breaks the line; K-667). `frames` and `sets`: the pattern books of K-668 ({n} is a pictured thing; `anWords` take \"an\" and stand only after \"the\"). `dots`: the sentences of K-669 by level, with a picture; `look*`: the words, letters and numbers of \"Circle the word\"; `confusable`: a letter and a digit a child can take for one another (never in one row). `lengths`: words by first letter in three lengths (S one syllable and at most four letters, M two syllables and five to seven letters, L three syllables or more and eight letters or more; K-670): any two words of neighbouring lengths of one letter differ by a printed width of 1.35 times or more and by two letters (S to M) or three (M to L); `lengthPics`: the ones whose picture a child names with exactly that word; `neverRow`: pairs that never share a row; `pairs`: a picture and two sentences that start alike (K-670 level 3). `count`: the sentences of K-671 by level; `syl`: syllables of the sentence words; `sylMore`: words some speakers say with one beat more (a sentence holds its rule for every pronunciation). `spaces`: the sentences of K-672 (read: with and without spaces; cards1, cards2, cards3: three, four and five words to cut and glue; copy: three words to copy). `banned`: words no page prints.",
+ "pics": {
+  "fox": {
+   "pic": [
+    "animals",
+    "fox"
+   ],
+   "kind": "fox"
+  },
+  "pig": {
+   "pic": [
+    "farm animals",
+    "pig"
+   ],
+   "kind": "pig"
+  },
+  "cat": {
+   "pic": [
+    "animals",
+    "cat"
+   ],
+   "kind": "cat"
+  },
+  "dog": {
+   "pic": [
+    "pets",
+    "dog"
+   ],
+   "kind": "dog"
+  },
+  "hen": {
+   "pic": [
+    "farm animals",
+    "hen"
+   ],
+   "kind": "hen"
+  },
+  "frog": {
+   "pic": [
+    "pets",
+    "frog"
+   ],
+   "kind": "frog"
+  },
+  "bear": {
+   "pic": [
+    "zoo animals",
+    "bear"
+   ],
+   "kind": "bear"
+  },
+  "turtle": {
+   "pic": [
+    "animals",
+    "turtle"
+   ],
+   "kind": "turtle"
+  },
+  "cow": {
+   "pic": [
+    "farm animals",
+    "cow"
+   ],
+   "kind": "cow"
+  },
+  "bee": {
+   "pic": [
+    "insects and bugs",
+    "bee"
+   ],
+   "kind": "bee"
+  },
+  "rabbit": {
+   "pic": [
+    "animals",
+    "rabbit"
+   ],
+   "kind": "rabbit"
+  },
+  "lion": {
+   "pic": [
+    "zoo animals",
+    "lion"
+   ],
+   "kind": "lion"
+  },
+  "monkey": {
+   "pic": [
+    "zoo animals",
+    "monkey"
+   ],
+   "kind": "monkey"
+  },
+  "penguin": {
+   "pic": [
+    "animals",
+    "penguin"
+   ],
+   "kind": "penguin"
+  },
+  "kite": {
+   "pic": [
+    "toys",
+    "kite"
+   ],
+   "kind": "kite"
+  },
+  "bus": {
+   "pic": [
+    "vehicles",
+    "bus"
+   ],
+   "kind": "bus"
+  },
+  "book": {
+   "pic": [
+    "classroom",
+    "book"
+   ],
+   "kind": "book"
+  },
+  "truck": {
+   "pic": [
+    "vehicles",
+    "truck"
+   ],
+   "kind": "truck"
+  },
+  "cake": {
+   "pic": [
+    "bakery",
+    "cake"
+   ],
+   "kind": "cake"
+  },
+  "snowman": {
+   "pic": [
+    "winter",
+    "snowman"
+   ],
+   "kind": "snowman"
+  },
+  "rocket": {
+   "pic": [
+    "space",
+    "rocket"
+   ],
+   "kind": "rocket"
+  },
+  "owl": {
+   "pic": [
+    "forest creatures",
+    "owl"
+   ],
+   "kind": "owl"
+  },
+  "mouse": {
+   "pic": [
+    "pets",
+    "mouse"
+   ],
+   "kind": "mouse"
+  },
+  "duck": {
+   "pic": [
+    "farm animals",
+    "duck"
+   ],
+   "kind": "duck"
+  },
+  "teddy": {
+   "pic": [
+    "toys",
+    "teddy_bear"
+   ],
+   "kind": "bear"
+  },
+  "robot": {
+   "pic": [
+    "toys",
+    "robot"
+   ],
+   "kind": "robot"
+  },
+  "fish": {
+   "pic": [
+    "ocean life",
+    "fish"
+   ],
+   "kind": "fish"
+  },
+  "hat": {
+   "pic": [
+    "accessories",
+    "hat"
+   ],
+   "kind": "hat"
+  },
+  "shovel": {
+   "pic": [
+    "around the house",
+    "shovel"
+   ],
+   "kind": "shovel"
+  },
+  "bed": {
+   "pic": [
+    "around the house",
+    "bed"
+   ],
+   "kind": "bed"
+  },
+  "ball": {
+   "pic": [
+    "toys",
+    "ball"
+   ],
+   "kind": "ball"
+  },
+  "nest": {
+   "pic": [
+    "spring",
+    "nest"
+   ],
+   "kind": "nest"
+  },
+  "log": {
+   "pic": [
+    "camping",
+    "log"
+   ],
+   "kind": "log"
+  },
+  "umbrella": {
+   "pic": [
+    "weather",
+    "umbrella"
+   ],
+   "kind": "umbrella"
+  },
+  "leaf": {
+   "pic": [
+    "spring",
+    "leaf"
+   ],
+   "kind": "leaf"
+  },
+  "apple": {
+   "pic": [
+    "fruits",
+    "apple"
+   ],
+   "kind": "apple"
+  },
+  "flower": {
+   "pic": [
+    "summer",
+    "flower"
+   ],
+   "kind": "flower"
+  },
+  "carrot": {
+   "pic": [
+    "vegetables",
+    "carrot"
+   ],
+   "kind": "carrot"
+  },
+  "sun": {
+   "pic": [
+    "weather",
+    "sun"
+   ],
+   "kind": "sun"
+  },
+  "banana": {
+   "pic": [
+    "fruits",
+    "banana"
+   ],
+   "kind": "banana"
+  },
+  "cloud": {
+   "pic": [
+    "weather",
+    "cloud"
+   ],
+   "kind": "cloud"
+  },
+  "backpack": {
+   "pic": [
+    "classroom",
+    "backpack"
+   ],
+   "kind": "backpack"
+  },
+  "rock": {
+   "pic": [
+    "beach",
+    "rock"
+   ],
+   "kind": "rock"
+  },
+  "milk": {
+   "pic": [
+    "breakfast",
+    "milk"
+   ],
+   "kind": "milk"
+  },
+  "mittens": {
+   "pic": [
+    "winter",
+    "mittens"
+   ],
+   "kind": "mittens"
+  },
+  "moon": {
+   "pic": [
+    "space",
+    "moon"
+   ],
+   "kind": "moon"
+  },
+  "cheese": {
+   "pic": [
+    "breakfast",
+    "cheese"
+   ],
+   "kind": "cheese"
+  },
+  "boat": {
+   "pic": [
+    "toys",
+    "boat"
+   ],
+   "kind": "boat"
+  },
+  "bike": {
+   "pic": [
+    "vehicles",
+    "bicycle"
+   ],
+   "kind": "bike"
+  },
+  "drum": {
+   "pic": [
+    "music",
+    "drum"
+   ],
+   "kind": "drum"
+  },
+  "crab": {
+   "pic": [
+    "ocean life",
+    "crab"
+   ],
+   "kind": "crab"
+  },
+  "bird": {
+   "pic": [
+    "Things That Fly",
+    "bird"
+   ],
+   "kind": "bird"
+  },
+  "jam": {
+   "pic": [
+    "At the Supermarket",
+    "jam"
+   ],
+   "kind": "jam"
+  },
+  "corn": {
+   "pic": [
+    "vegetables",
+    "corn"
+   ],
+   "kind": "corn"
+  },
+  "tiger": {
+   "pic": [
+    "zoo animals",
+    "tiger"
+   ],
+   "kind": "tiger"
+  },
+  "pumpkin": {
+   "pic": [
+    "vegetables",
+    "pumpkin"
+   ],
+   "kind": "pumpkin"
+  },
+  "spider": {
+   "pic": [
+    "insects and bugs",
+    "spider"
+   ],
+   "kind": "spider"
+  },
+  "panda": {
+   "pic": [
+    "zoo animals",
+    "panda"
+   ],
+   "kind": "panda"
+  },
+  "zebra": {
+   "pic": [
+    "animals",
+    "zebra"
+   ],
+   "kind": "zebra"
+  },
+  "camel": {
+   "pic": [
+    "animals",
+    "camel"
+   ],
+   "kind": "camel"
+  },
+  "parrot": {
+   "pic": [
+    "pets",
+    "parrot"
+   ],
+   "kind": "parrot"
+  },
+  "tractor": {
+   "pic": [
+    "vehicles",
+    "tractor"
+   ],
+   "kind": "tractor"
+  },
+  "teacher": {
+   "pic": [
+    "classroom",
+    "teacher"
+   ],
+   "kind": "teacher"
+  },
+  "elephant": {
+   "pic": [
+    "animals",
+    "elephant"
+   ],
+   "kind": "elephant"
+  },
+  "caterpillar": {
+   "pic": [
+    "insects and bugs",
+    "caterpillar"
+   ],
+   "kind": "caterpillar"
+  },
+  "octopus": {
+   "pic": [
+    "ocean life",
+    "octopus"
+   ],
+   "kind": "octopus"
+  },
+  "kangaroo": {
+   "pic": [
+    "zoo animals",
+    "kangaroo"
+   ],
+   "kind": "kangaroo"
+  },
+  "dinosaur": {
+   "pic": [
+    "toys",
+    "dinosaur"
+   ],
+   "kind": "dinosaur"
+  },
+  "helicopter": {
+   "pic": [
+    "vehicles",
+    "helicopter"
+   ],
+   "kind": "helicopter"
+  },
+  "alligator": {
+   "pic": [
+    "reptiles and Amphibians",
+    "alligator"
+   ],
+   "kind": "alligator"
+  },
+  "butterfly": {
+   "pic": [
+    "insects and bugs",
+    "butterfly"
+   ],
+   "kind": "butterfly"
+  },
+  "pineapple": {
+   "pic": [
+    "fruits",
+    "pineapple"
+   ],
+   "kind": "pineapple"
+  },
+  "watermelon": {
+   "pic": [
+    "fruits",
+    "watermelon"
+   ],
+   "kind": "watermelon"
+  },
+  "motorcycle": {
+   "pic": [
+    "vehicles",
+    "motorcycle"
+   ],
+   "kind": "motorcycle"
+  },
+  "flamingo": {
+   "pic": [
+    "birds",
+    "flamingo"
+   ],
+   "kind": "flamingo"
+  },
+  "gorilla": {
+   "pic": [
+    "zoo animals",
+    "gorilla"
+   ],
+   "kind": "gorilla"
+  },
+  "strawberry": {
+   "pic": [
+    "fruits",
+    "strawberry"
+   ],
+   "kind": "strawberry"
+  },
+  "pencil": {
+   "pic": [
+    "classroom",
+    "pencil"
+   ],
+   "kind": "pencil"
+  },
+  "cup": {
+   "pic": [
+    "around the house",
+    "cup"
+   ],
+   "kind": "cup"
+  },
+  "bucket": {
+   "pic": [
+    "summer",
+    "bucket"
+   ],
+   "kind": "bucket"
+  },
+  "cookie": {
+   "pic": [
+    "bakery",
+    "cookie"
+   ],
+   "kind": "cookie"
+  },
+  "tent": {
+   "pic": [
+    "camping",
+    "tent"
+   ],
+   "kind": "tent"
+  },
+  "goat": {
+   "pic": [
+    "farm animals",
+    "goat"
+   ],
+   "kind": "goat"
+  },
+  "dragonfly": {
+   "pic": [
+    "insects and bugs",
+    "dragonfly"
+   ],
+   "kind": "dragonfly"
+  },
+  "grasshopper": {
+   "pic": [
+    "forest creatures",
+    "grasshopper"
+   ],
+   "kind": "grasshopper"
+  },
+  "window": {
+   "pic": [
+    "around the house",
+    "window"
+   ],
+   "kind": "window"
+  },
+  "car": {
+   "pic": [
+    "vehicles",
+    "car"
+   ],
+   "kind": "car"
+  },
+  "key": {
+   "pic": [
+    "around the house",
+    "key"
+   ],
+   "kind": "key"
+  },
+  "mop": {
+   "pic": [
+    "around the house",
+    "mop"
+   ],
+   "kind": "mop"
+  },
+  "basketball": {
+   "pic": [
+    "activities",
+    "basketball"
+   ],
+   "kind": "basketball"
+  },
+  "binoculars": {
+   "pic": [
+    "camping",
+    "binoculars"
+   ],
+   "kind": "telescope"
+  },
+  "candle": {
+   "pic": [
+    "christmas",
+    "candle"
+   ],
+   "kind": "candle"
+  },
+  "donut": {
+   "pic": [
+    "desserts and sweets",
+    "donut"
+   ],
+   "kind": "donut"
+  },
+  "fan": {
+   "pic": [
+    "around the house",
+    "fan"
+   ],
+   "kind": "fan"
+  },
+  "farmer": {
+   "pic": [
+    "occupations",
+    "farmer"
+   ],
+   "kind": "farmer"
+  },
+  "firefighter": {
+   "pic": [
+    "occupations",
+    "firefighter"
+   ],
+   "kind": "firefighter"
+  },
+  "garage": {
+   "pic": [
+    "around the house",
+    "garage"
+   ],
+   "kind": "garage"
+  },
+  "map": {
+   "pic": [
+    "camping",
+    "map"
+   ],
+   "kind": "map"
+  },
+  "muffin": {
+   "pic": [
+    "bakery",
+    "muffin"
+   ],
+   "kind": "muffin"
+  },
+  "microwave": {
+   "pic": [
+    "kitchen tools",
+    "microwave"
+   ],
+   "kind": "microwave"
+  },
+  "pan": {
+   "pic": [
+    "around the house",
+    "pan"
+   ],
+   "kind": "pan"
+  },
+  "pen": {
+   "pic": [
+    "classroom",
+    "pen"
+   ],
+   "kind": "pencil"
+  },
+  "pie": {
+   "pic": [
+    "bakery",
+    "pie"
+   ],
+   "kind": "pie"
+  },
+  "pillow": {
+   "pic": [
+    "around the house",
+    "pillow"
+   ],
+   "kind": "pillow"
+  },
+  "ring": {
+   "pic": [
+    "accessories",
+    "ring"
+   ],
+   "kind": "ring"
+  },
+  "rectangle": {
+   "pic": [
+    "shapes",
+    "rectangle"
+   ],
+   "kind": "rectangle"
+  },
+  "submarine": {
+   "pic": [
+    "vehicles",
+    "submarine"
+   ],
+   "kind": "submarine"
+  },
+  "tie": {
+   "pic": [
+    "accessories",
+    "tie"
+   ],
+   "kind": "tie"
+  },
+  "turkey": {
+   "pic": [
+    "farm animals",
+    "turkey"
+   ],
+   "kind": "turkey"
+  },
+  "telescope": {
+   "pic": [
+    "space",
+    "telescope"
+   ],
+   "kind": "telescope"
+  },
+  "waffle": {
+   "pic": [
+    "bakery",
+    "waffle"
+   ],
+   "kind": "waffle"
+  },
+  "walrus": {
+   "pic": [
+    "winter",
+    "walrus"
+   ],
+   "kind": "walrus"
+  },
+  "pear": {
+   "pic": [
+    "fruits",
+    "pear"
+   ],
+   "kind": "pear"
+  },
+  "snail": {
+   "pic": [
+    "insects and bugs",
+    "snail"
+   ],
+   "kind": "snail"
+  },
+  "horse": {
+   "pic": [
+    "farm animals",
+    "horse"
+   ],
+   "kind": "horse"
+  },
+  "sheep": {
+   "pic": [
+    "farm animals",
+    "sheep"
+   ],
+   "kind": "sheep"
+  },
+  "doll": {
+   "pic": [
+    "toys",
+    "doll"
+   ],
+   "kind": "doll"
+  },
+  "train": {
+   "pic": [
+    "toys",
+    "train"
+   ],
+   "kind": "train"
+  },
+  "whale": {
+   "pic": [
+    "ocean life",
+    "whale"
+   ],
+   "kind": "whale"
+  },
+  "ant": {
+   "pic": [
+    "insects and bugs",
+    "ant"
+   ],
+   "kind": "ant"
+  },
+  "ladybug": {
+   "pic": [
+    "insects and bugs",
+    "ladybug"
+   ],
+   "kind": "ladybug"
+  },
+  "jet": {
+   "pic": [
+    "vehicles",
+    "jet"
+   ],
+   "kind": "jet"
+  },
+  "shark": {
+   "pic": [
+    "ocean life",
+    "shark"
+   ],
+   "kind": "shark"
+  },
+  "coat": {
+   "pic": [
+    "clothing",
+    "coat"
+   ],
+   "kind": "coat"
+  },
+  "sled": {
+   "pic": [
+    "winter",
+    "sled"
+   ],
+   "kind": "sled"
+  }
+ },
+ "books": [
+  {
+   "title": "Fox Finds a Hat",
+   "author": "Ana Ruiz",
+   "cover": "fox",
+   "first": "Fox sees a blue hat.",
+   "pic2": "hat"
+  },
+  {
+   "title": "Pig Can Dig",
+   "author": "Leo Park",
+   "cover": "pig",
+   "first": "Pig digs with a shovel.",
+   "pic2": "shovel"
+  },
+  {
+   "title": "Cat Naps",
+   "author": "Mei Lin",
+   "cover": "cat",
+   "first": "Cat naps on the bed.",
+   "pic2": "bed"
+  },
+  {
+   "title": "Dog and the Ball",
+   "author": "Omar Ali",
+   "cover": "dog",
+   "first": "Dog runs to the ball.",
+   "pic2": "ball"
+  },
+  {
+   "title": "Hen and Her Chicks",
+   "author": "Nia Jones",
+   "cover": "hen",
+   "first": "Two chicks sit in the nest.",
+   "pic2": "nest"
+  },
+  {
+   "title": "Frog Hops Home",
+   "author": "Raj Shah",
+   "cover": "frog",
+   "first": "Frog hops on a log.",
+   "pic2": "log"
+  },
+  {
+   "title": "Bear Gets Wet",
+   "author": "Ava Bell",
+   "cover": "bear",
+   "first": "Bear needs an umbrella.",
+   "pic2": "umbrella"
+  },
+  {
+   "title": "Turtle Is Slow",
+   "author": "Luis Vega",
+   "cover": "turtle",
+   "first": "Turtle walks to a leaf.",
+   "pic2": "leaf"
+  },
+  {
+   "title": "The Kind Cow",
+   "author": "Zoe Kim",
+   "cover": "cow",
+   "first": "Cow gives Pig an apple.",
+   "pic2": "apple"
+  },
+  {
+   "title": "Bee Finds a Flower",
+   "author": "Eli Ross",
+   "cover": "bee",
+   "first": "Bee flies to a flower.",
+   "pic2": "flower"
+  },
+  {
+   "title": "Rabbit Can Hop",
+   "author": "Rosa Diaz",
+   "cover": "rabbit",
+   "first": "Rabbit sees a carrot.",
+   "pic2": "carrot"
+  },
+  {
+   "title": "Lion Wakes Up",
+   "author": "Tao Wu",
+   "cover": "lion",
+   "first": "Lion sees the sun.",
+   "pic2": "sun"
+  },
+  {
+   "title": "Monkey Has Fun",
+   "author": "Noor Aziz",
+   "cover": "monkey",
+   "first": "Monkey eats a banana.",
+   "pic2": "banana"
+  },
+  {
+   "title": "Penguin and the Fish",
+   "author": "Ivy Ward",
+   "cover": "penguin",
+   "first": "Penguin sees a fish.",
+   "pic2": "fish"
+  },
+  {
+   "title": "Kite Flies High",
+   "author": "Ari Cohen",
+   "cover": "kite",
+   "first": "My kite goes up to a cloud.",
+   "pic2": "cloud"
+  },
+  {
+   "title": "Jada Rides the Bus",
+   "author": "Ida Lund",
+   "cover": "bus",
+   "first": "I take my backpack.",
+   "pic2": "backpack"
+  },
+  {
+   "title": "Truck Helps Out",
+   "author": "Kofi Addo",
+   "cover": "truck",
+   "first": "Truck gets a big rock.",
+   "pic2": "rock"
+  },
+  {
+   "title": "A Cake for Mom",
+   "author": "Yuki Ito",
+   "cover": "cake",
+   "first": "We get milk for the cake.",
+   "pic2": "milk"
+  },
+  {
+   "title": "Snowman Day",
+   "author": "Liam Hart",
+   "cover": "snowman",
+   "first": "I put on my mittens.",
+   "pic2": "mittens"
+  },
+  {
+   "title": "Rocket Zooms Up",
+   "author": "Ada Obi",
+   "cover": "rocket",
+   "first": "The rocket goes to the moon.",
+   "pic2": "moon"
+  },
+  {
+   "title": "Owl Can See",
+   "author": "Finn Lee",
+   "cover": "owl",
+   "first": "Owl sees a mouse.",
+   "pic2": "mouse"
+  },
+  {
+   "title": "Mouse Gets Cheese",
+   "author": "Sara Cruz",
+   "cover": "mouse",
+   "first": "Mouse sees some cheese.",
+   "pic2": "cheese"
+  },
+  {
+   "title": "Duck Swims",
+   "author": "Ben Cole",
+   "cover": "duck",
+   "first": "Duck swims to a boat.",
+   "pic2": "boat"
+  },
+  {
+   "title": "Teddy Goes Out",
+   "author": "Maya Rao",
+   "cover": "teddy",
+   "first": "Teddy rides my bike.",
+   "pic2": "bike"
+  },
+  {
+   "title": "Robot Can Dance",
+   "author": "Iris Wong",
+   "cover": "robot",
+   "first": "Robot hears a drum.",
+   "pic2": "drum"
+  },
+  {
+   "title": "Fish Swims Fast",
+   "author": "Sam Roy",
+   "cover": "fish",
+   "first": "Fish sees a crab.",
+   "pic2": "crab"
+  }
+ ],
+ "famous": [
+  "The Cat in the Hat",
+  "Green Eggs and Ham",
+  "Hop on Pop",
+  "Fox in Socks",
+  "One Fish Two Fish Red Fish Blue Fish",
+  "Go, Dog. Go!",
+  "Are You My Mother?",
+  "The Very Hungry Caterpillar",
+  "Brown Bear, Brown Bear, What Do You See?",
+  "Polar Bear, Polar Bear",
+  "Goodnight Moon",
+  "The Runaway Bunny",
+  "Big Red Barn",
+  "The Snowy Day",
+  "Corduroy",
+  "Pete the Cat",
+  "Biscuit",
+  "Little Blue Truck",
+  "Llama Llama Red Pajama",
+  "Duck on a Bike",
+  "Click, Clack, Moo",
+  "If You Give a Mouse a Cookie",
+  "If You Give a Pig a Pancake",
+  "Clifford the Big Red Dog",
+  "Curious George",
+  "The Rainbow Fish",
+  "Owl Babies",
+  "Owl Moon",
+  "Owl at Home",
+  "The Little Engine That Could",
+  "Frog and Toad Are Friends",
+  "Chicka Chicka Boom Boom",
+  "Room on the Broom",
+  "The Gruffalo",
+  "Dragons Love Tacos",
+  "Duck and Goose",
+  "Elephant and Piggie",
+  "Bear Snores On",
+  "Bear Sees Colors",
+  "Bear Wants More",
+  "The Kissing Hand",
+  "Chrysanthemum",
+  "Where the Wild Things Are",
+  "The Mitten",
+  "The Snowman",
+  "Snowmen at Night",
+  "A Bad Case of Stripes",
+  "Max and Ruby",
+  "Pig the Pug",
+  "Don't Let the Pigeon Drive the Bus!",
+  "The Wheels on the Bus",
+  "The Big Red Bus",
+  "Ten Red Apples",
+  "Ten Apples Up On Top!",
+  "The Little Red Hen",
+  "Little Red Riding Hood",
+  "The Three Little Pigs",
+  "Goldilocks and the Three Bears",
+  "The Gingerbread Man",
+  "Caps for Sale",
+  "Harold and the Purple Crayon",
+  "The Giving Tree",
+  "Make Way for Ducklings",
+  "The Carrot Seed",
+  "The Tiny Seed",
+  "Swimmy",
+  "Frederick",
+  "Leo the Late Bloomer",
+  "Duck in the Truck",
+  "Duck! Rabbit!",
+  "Rosie's Walk",
+  "Have You Seen My Cat?",
+  "The Very Busy Spider",
+  "The Grouchy Ladybug",
+  "Little Cloud",
+  "From Head to Toe",
+  "Freight Train",
+  "Truck",
+  "Pigs",
+  "Snow",
+  "Bugs",
+  "The Lion and the Mouse",
+  "Mouse Paint",
+  "Mouse Count",
+  "Rocket Learns to Read",
+  "Kitten's First Full Moon",
+  "Papa, Please Get the Moon for Me",
+  "Happy Birthday, Moon",
+  "Mr. Brown Can Moo! Can You?",
+  "Hand, Hand, Fingers, Thumb",
+  "Put Me in the Zoo",
+  "Are You Ready to Play Outside?",
+  "We Are in a Book!",
+  "There Is a Bird on Your Head!",
+  "Today I Will Fly!",
+  "Pete the Cat: I Love My White Shoes",
+  "The Wonky Donkey",
+  "Giraffes Can't Dance",
+  "Rumble in the Jungle",
+  "Penguin Pete",
+  "Tacky the Penguin",
+  "Little Penguin",
+  "Robot Zot!",
+  "Boy and Bot",
+  "A Sick Day for Amos McGee",
+  "Knuffle Bunny",
+  "Bark, George",
+  "The Pout-Pout Fish",
+  "Hello, Ocean",
+  "Fish Is Fish",
+  "Little Owl's Night",
+  "Owl Diaries",
+  "Fancy Nancy",
+  "Corduroy Goes to School",
+  "The Day the Crayons Quit",
+  "Bus Stop",
+  "A Hat for Minerva Louise",
+  "The Turtle and the Hare",
+  "The Tortoise and the Hare"
+ ],
+ "makeTitles": [
+  "Cat Naps",
+  "Red Hat",
+  "Big Bug",
+  "My Dog",
+  "Fox Hops",
+  "Pig Digs",
+  "Bus Ride",
+  "Fun Sun",
+  "My Kite",
+  "Hen Sits",
+  "Owl Hoots",
+  "Cow Moos",
+  "Big Cake",
+  "Bear Naps",
+  "My Bike",
+  "Pup Plays",
+  "Snow Fun",
+  "Lost Sock",
+  "Pet Fish",
+  "Red Ball",
+  "Wet Dog",
+  "Bug Hunt"
+ ],
+ "twoLine": [
+  "The dog runs to | the park.",
+  "I can see a | red bus.",
+  "My cat naps on | the bed.",
+  "We play in the | soft sand.",
+  "The frog can hop | and swim.",
+  "I like to read | my books.",
+  "Mom and I bake | a cake.",
+  "A bird sings in | the tree.",
+  "Kofi kicks the | red ball.",
+  "Ana has a | red hat.",
+  "The bus is big | and yellow.",
+  "We go to the | big zoo.",
+  "The fish swim in | the pond.",
+  "I can jump | up high.",
+  "Dad reads a book | to me.",
+  "Lin and Max can | ride bikes.",
+  "My dog likes | to dig.",
+  "The cow eats | the grass.",
+  "Sam plays the | big drum.",
+  "I put on my | red coat.",
+  "The moon is out | at night.",
+  "Mei likes to hug | her dog.",
+  "We eat apples | for lunch.",
+  "The hen sits on | her eggs."
+ ],
+ "frames": [
+  "I see a {n}.",
+  "Here is a {n}.",
+  "Look at the {n}.",
+  "I like the {n}.",
+  "I can see a {n}."
+ ],
+ "sets": {
+  "farm": [
+   "cow",
+   "pig",
+   "hen",
+   "duck",
+   "horse",
+   "sheep",
+   "goat"
+  ],
+  "zoo": [
+   "lion",
+   "tiger",
+   "zebra",
+   "monkey",
+   "camel",
+   "panda"
+  ],
+  "toys": [
+   "ball",
+   "kite",
+   "doll",
+   "drum",
+   "robot",
+   "train"
+  ],
+  "sea": [
+   "fish",
+   "crab",
+   "whale",
+   "shark",
+   "octopus"
+  ],
+  "bugs": [
+   "bee",
+   "ant",
+   "ladybug",
+   "snail",
+   "butterfly",
+   "spider"
+  ],
+  "go": [
+   "bus",
+   "car",
+   "truck",
+   "boat",
+   "train",
+   "bike"
+  ],
+  "food": [
+   "apple",
+   "cake",
+   "pear",
+   "banana",
+   "carrot",
+   "cookie"
+  ]
+ },
+ "anWords": [
+  "apple",
+  "ant",
+  "octopus",
+  "owl",
+  "elephant",
+  "umbrella"
+ ],
+ "dots": {
+  "1": [
+   [
+    "The cat naps.",
+    "cat"
+   ],
+   [
+    "Fish can swim.",
+    "fish"
+   ],
+   [
+    "I like jam.",
+    "jam"
+   ],
+   [
+    "Birds can fly.",
+    "bird"
+   ],
+   [
+    "The bus stops.",
+    "bus"
+   ],
+   [
+    "Frogs can hop.",
+    "frog"
+   ],
+   [
+    "The dog digs.",
+    "dog"
+   ],
+   [
+    "Bees can buzz.",
+    "bee"
+   ],
+   [
+    "The pig eats.",
+    "pig"
+   ],
+   [
+    "The cow moos.",
+    "cow"
+   ],
+   [
+    "The fox runs.",
+    "fox"
+   ],
+   [
+    "The hen sits.",
+    "hen"
+   ],
+   [
+    "I eat corn.",
+    "corn"
+   ],
+   [
+    "Kick the ball.",
+    "ball"
+   ],
+   [
+    "I like cake.",
+    "cake"
+   ],
+   [
+    "The bear sleeps.",
+    "bear"
+   ],
+   [
+    "The kite flies.",
+    "kite"
+   ],
+   [
+    "Ducks can swim.",
+    "duck"
+   ]
+  ],
+  "2": [
+   [
+    "The rabbit can hop.",
+    "rabbit"
+   ],
+   [
+    "A turtle is slow.",
+    "turtle"
+   ],
+   [
+    "The tiger can run fast.",
+    "tiger"
+   ],
+   [
+    "The pumpkin is big.",
+    "pumpkin"
+   ],
+   [
+    "The rocket goes up.",
+    "rocket"
+   ],
+   [
+    "The robot can dance.",
+    "robot"
+   ],
+   [
+    "A spider has long legs.",
+    "spider"
+   ],
+   [
+    "The panda sits and eats.",
+    "panda"
+   ],
+   [
+    "My apple is red.",
+    "apple"
+   ],
+   [
+    "The monkey can climb.",
+    "monkey"
+   ],
+   [
+    "The zebra runs fast.",
+    "zebra"
+   ],
+   [
+    "A penguin can swim.",
+    "penguin"
+   ],
+   [
+    "The carrot grows in dirt.",
+    "carrot"
+   ],
+   [
+    "The tractor is red.",
+    "tractor"
+   ],
+   [
+    "A camel is tall.",
+    "camel"
+   ],
+   [
+    "The parrot can talk.",
+    "parrot"
+   ],
+   [
+    "My teacher reads to us.",
+    "teacher"
+   ]
+  ],
+  "3": [
+   [
+    "The elephant has a trunk.",
+    "elephant"
+   ],
+   [
+    "The caterpillar eats a leaf.",
+    "caterpillar"
+   ],
+   [
+    "An octopus has long arms.",
+    "octopus"
+   ],
+   [
+    "The kangaroo can jump high.",
+    "kangaroo"
+   ],
+   [
+    "The dinosaur has a long tail.",
+    "dinosaur"
+   ],
+   [
+    "The helicopter is so loud.",
+    "helicopter"
+   ],
+   [
+    "My umbrella keeps me dry.",
+    "umbrella"
+   ],
+   [
+    "An alligator is long and green.",
+    "alligator"
+   ],
+   [
+    "A butterfly has pretty wings.",
+    "butterfly"
+   ],
+   [
+    "This pineapple tastes so sweet.",
+    "pineapple"
+   ],
+   [
+    "A watermelon has black seeds.",
+    "watermelon"
+   ],
+   [
+    "The motorcycle goes very fast.",
+    "motorcycle"
+   ],
+   [
+    "A flamingo is pink and tall.",
+    "flamingo"
+   ],
+   [
+    "The gorilla is big and strong.",
+    "gorilla"
+   ],
+   [
+    "My strawberry is so sweet.",
+    "strawberry"
+   ]
+  ]
+ },
+ "lookWords": [
+  "cat",
+  "sun",
+  "dog",
+  "bed",
+  "hop",
+  "red",
+  "pig",
+  "cup",
+  "big",
+  "run",
+  "hat",
+  "fox",
+  "jam",
+  "bus",
+  "fish",
+  "book",
+  "play",
+  "jump",
+  "milk",
+  "duck",
+  "frog",
+  "look",
+  "tree",
+  "ball"
+ ],
+ "lookLetters": [
+  "m",
+  "s",
+  "t",
+  "b",
+  "d",
+  "k",
+  "p",
+  "g",
+  "r",
+  "n",
+  "h",
+  "f"
+ ],
+ "lookNumbers": [
+  "3",
+  "4",
+  "5",
+  "7",
+  "8",
+  "9"
+ ],
+ "confusable": [
+  [
+   "g",
+   "9"
+  ],
+  [
+   "s",
+   "5"
+  ],
+  [
+   "o",
+   "0"
+  ],
+  [
+   "l",
+   "1"
+  ]
+ ],
+ "lengths": {
+  "b": {
+   "S": [
+    "bus",
+    "bee",
+    "bed",
+    "ball"
+   ],
+   "M": [
+    "bucket",
+    "basket",
+    "button"
+   ],
+   "L": [
+    "basketball",
+    "binoculars",
+    "bulldozer"
+   ]
+  },
+  "c": {
+   "S": [
+    "cat",
+    "cup",
+    "cow",
+    "car"
+   ],
+   "M": [
+    "carrot",
+    "cookie",
+    "camel",
+    "candle"
+   ],
+   "L": [
+    "caterpillar",
+    "calculator"
+   ]
+  },
+  "d": {
+   "S": [
+    "dog"
+   ],
+   "M": [
+    "donut"
+   ],
+   "L": [
+    "dinosaur",
+    "dragonfly",
+    "dandelion"
+   ]
+  },
+  "f": {
+   "S": [
+    "fox",
+    "fish",
+    "frog",
+    "fan"
+   ],
+   "M": [
+    "farmer",
+    "falcon"
+   ],
+   "L": [
+    "firefighter"
+   ]
+  },
+  "g": {
+   "S": [
+    "goat",
+    "gum"
+   ],
+   "M": [
+    "garage",
+    "garden"
+   ],
+   "L": [
+    "grasshopper"
+   ]
+  },
+  "h": {
+   "S": [
+    "hat",
+    "ham"
+   ],
+   "M": [
+    "hockey",
+    "heater",
+    "hoodie"
+   ],
+   "L": [
+    "helicopter",
+    "hummingbird"
+   ]
+  },
+  "k": {
+   "S": [
+    "key"
+   ],
+   "M": [
+    "kayak"
+   ],
+   "L": [
+    "kangaroo"
+   ]
+  },
+  "m": {
+   "S": [
+    "mop",
+    "mug",
+    "map",
+    "milk"
+   ],
+   "M": [
+    "muffin",
+    "mitten"
+   ],
+   "L": [
+    "motorcycle",
+    "microwave"
+   ]
+  },
+  "p": {
+   "S": [
+    "pig",
+    "pan",
+    "pen",
+    "pie"
+   ],
+   "M": [
+    "pencil",
+    "parrot",
+    "panda",
+    "pillow"
+   ],
+   "L": [
+    "pineapple",
+    "porcupine"
+   ]
+  },
+  "r": {
+   "S": [
+    "ring",
+    "rug"
+   ],
+   "M": [
+    "rabbit",
+    "rocket"
+   ],
+   "L": [
+    "rectangle"
+   ]
+  },
+  "s": {
+   "S": [
+    "sun",
+    "sled"
+   ],
+   "M": [
+    "spider"
+   ],
+   "L": [
+    "strawberry",
+    "submarine"
+   ]
+  },
+  "t": {
+   "S": [
+    "tent",
+    "tie"
+   ],
+   "M": [
+    "turkey",
+    "toucan"
+   ],
+   "L": [
+    "telescope",
+    "telephone"
+   ]
+  },
+  "w": {
+   "S": [
+    "web"
+   ],
+   "M": [
+    "window",
+    "waffle",
+    "walrus"
+   ],
+   "L": [
+    "watermelon",
+    "woodpecker"
+   ]
+  }
+ },
+ "lengthSyl": {
+  "bus": 1,
+  "bee": 1,
+  "bed": 1,
+  "ball": 1,
+  "cat": 1,
+  "cup": 1,
+  "cow": 1,
+  "car": 1,
+  "dog": 1,
+  "fox": 1,
+  "fish": 1,
+  "frog": 1,
+  "fan": 1,
+  "goat": 1,
+  "gum": 1,
+  "hat": 1,
+  "ham": 1,
+  "key": 1,
+  "mop": 1,
+  "mug": 1,
+  "map": 1,
+  "milk": 1,
+  "pig": 1,
+  "pan": 1,
+  "pen": 1,
+  "pie": 1,
+  "ring": 1,
+  "rug": 1,
+  "sun": 1,
+  "sled": 1,
+  "tent": 1,
+  "tie": 1,
+  "web": 1,
+  "bucket": 2,
+  "basket": 2,
+  "button": 2,
+  "carrot": 2,
+  "cookie": 2,
+  "camel": 2,
+  "candle": 2,
+  "donut": 2,
+  "farmer": 2,
+  "falcon": 2,
+  "garage": 2,
+  "garden": 2,
+  "hockey": 2,
+  "heater": 2,
+  "hoodie": 2,
+  "kayak": 2,
+  "muffin": 2,
+  "mitten": 2,
+  "pencil": 2,
+  "parrot": 2,
+  "panda": 2,
+  "pillow": 2,
+  "rabbit": 2,
+  "rocket": 2,
+  "spider": 2,
+  "turkey": 2,
+  "toucan": 2,
+  "window": 2,
+  "waffle": 2,
+  "walrus": 2,
+  "basketball": 3,
+  "binoculars": 4,
+  "bulldozer": 3,
+  "caterpillar": 4,
+  "calculator": 4,
+  "dinosaur": 3,
+  "dragonfly": 3,
+  "dandelion": 4,
+  "firefighter": 3,
+  "grasshopper": 3,
+  "helicopter": 4,
+  "hummingbird": 3,
+  "kangaroo": 3,
+  "motorcycle": 4,
+  "microwave": 3,
+  "pineapple": 3,
+  "porcupine": 3,
+  "rectangle": 3,
+  "strawberry": 3,
+  "submarine": 3,
+  "telescope": 3,
+  "telephone": 3,
+  "watermelon": 4,
+  "woodpecker": 3
+ },
+ "lengthPics": [
+  "bus",
+  "bee",
+  "bed",
+  "ball",
+  "bucket",
+  "basketball",
+  "binoculars",
+  "cat",
+  "cup",
+  "cow",
+  "car",
+  "carrot",
+  "cookie",
+  "camel",
+  "candle",
+  "caterpillar",
+  "dog",
+  "donut",
+  "dinosaur",
+  "dragonfly",
+  "fox",
+  "fish",
+  "frog",
+  "fan",
+  "farmer",
+  "firefighter",
+  "goat",
+  "garage",
+  "grasshopper",
+  "hat",
+  "helicopter",
+  "key",
+  "kangaroo",
+  "mop",
+  "map",
+  "milk",
+  "muffin",
+  "motorcycle",
+  "microwave",
+  "pig",
+  "pan",
+  "pen",
+  "pie",
+  "pencil",
+  "parrot",
+  "panda",
+  "pillow",
+  "pineapple",
+  "ring",
+  "rocket",
+  "rectangle",
+  "sun",
+  "sled",
+  "spider",
+  "strawberry",
+  "submarine",
+  "tent",
+  "tie",
+  "turkey",
+  "telescope",
+  "window",
+  "waffle",
+  "walrus",
+  "watermelon"
+ ],
+ "neverRow": [
+  [
+   "snowman",
+   "strawberry"
+  ],
+  [
+   "balloon",
+   "broccoli"
+  ],
+  [
+   "tractor",
+   "telephone"
+  ],
+  [
+   "ladder",
+   "lollipop"
+  ],
+  [
+   "cake",
+   "camel"
+  ],
+  [
+   "corn",
+   "camel"
+  ],
+  [
+   "tent",
+   "tiger"
+  ]
+ ],
+ "pairs": [
+  [
+   "dog",
+   "The dog runs.",
+   "The dog runs to the big tree."
+  ],
+  [
+   "cat",
+   "I see a cat.",
+   "I see a cat on my bed."
+  ],
+  [
+   "duck",
+   "The duck swims.",
+   "The duck swims in the big pond."
+  ],
+  [
+   "bird",
+   "A bird sings.",
+   "A bird sings in the tall tree."
+  ],
+  [
+   "frog",
+   "The frog hops.",
+   "The frog hops on a big brown log."
+  ],
+  [
+   "bus",
+   "Here is the bus.",
+   "Here is the big blue bus."
+  ],
+  [
+   "cake",
+   "I made a cake.",
+   "I made a cake for my mom."
+  ],
+  [
+   "kite",
+   "My kite is up.",
+   "My kite is up in the blue sky."
+  ],
+  [
+   "bee",
+   "The bee buzzes.",
+   "The bee buzzes to a pink flower."
+  ],
+  [
+   "pig",
+   "The pig rolls.",
+   "The pig rolls in the mud all day."
+  ],
+  [
+   "ball",
+   "I kick the ball.",
+   "I kick the ball to my friend Ana."
+  ],
+  [
+   "owl",
+   "The owl hoots.",
+   "The owl hoots at the big moon."
+  ],
+  [
+   "rabbit",
+   "The rabbit hops.",
+   "The rabbit hops to eat a carrot."
+  ],
+  [
+   "fish",
+   "A fish swims.",
+   "A fish swims fast in the sea."
+  ],
+  [
+   "cow",
+   "The cow eats.",
+   "The cow eats grass in the field."
+  ],
+  [
+   "snowman",
+   "We made a snowman.",
+   "We made a snowman with a hat."
+  ]
+ ],
+ "count": {
+  "1": [
+   [
+    "Dogs dig.",
+    "dog"
+   ],
+   [
+    "Cats nap.",
+    "cat"
+   ],
+   [
+    "Frogs hop.",
+    "frog"
+   ],
+   [
+    "Fish swim.",
+    "fish"
+   ],
+   [
+    "Birds sing.",
+    "bird"
+   ],
+   [
+    "Bees buzz.",
+    "bee"
+   ],
+   [
+    "Bears sleep.",
+    "bear"
+   ],
+   [
+    "The sun shines.",
+    "sun"
+   ],
+   [
+    "Ducks can swim.",
+    "duck"
+   ],
+   [
+    "The bus stops.",
+    "bus"
+   ],
+   [
+    "I like cake.",
+    "cake"
+   ],
+   [
+    "The dog barks.",
+    "dog"
+   ],
+   [
+    "Pigs eat.",
+    "pig"
+   ],
+   [
+    "The cow moos.",
+    "cow"
+   ],
+   [
+    "Kick the ball.",
+    "ball"
+   ],
+   [
+    "The hen sits.",
+    "hen"
+   ],
+   [
+    "A fox runs.",
+    "fox"
+   ],
+   [
+    "My kite flies.",
+    "kite"
+   ],
+   [
+    "The goat eats.",
+    "goat"
+   ]
+  ],
+  "2": [
+   [
+    "The rabbit hops.",
+    "rabbit"
+   ],
+   [
+    "My kitten is soft.",
+    "cat"
+   ],
+   [
+    "We see a tiger.",
+    "tiger"
+   ],
+   [
+    "The monkey eats.",
+    "monkey"
+   ],
+   [
+    "Ana has a kite.",
+    "kite"
+   ],
+   [
+    "The turtle is slow.",
+    "turtle"
+   ],
+   [
+    "Kofi kicks the ball.",
+    "ball"
+   ],
+   [
+    "A zebra runs.",
+    "zebra"
+   ],
+   [
+    "The robot can walk.",
+    "robot"
+   ],
+   [
+    "Mei likes the panda.",
+    "panda"
+   ],
+   [
+    "The parrot talks.",
+    "parrot"
+   ],
+   [
+    "My apple is red.",
+    "apple"
+   ],
+   [
+    "Omar rides his bike.",
+    "bike"
+   ],
+   [
+    "The spider can climb.",
+    "spider"
+   ],
+   [
+    "A penguin swims.",
+    "penguin"
+   ],
+   [
+    "The rocket goes up.",
+    "rocket"
+   ],
+   [
+    "Leo has a pumpkin.",
+    "pumpkin"
+   ]
+  ],
+  "3": [
+   [
+    "The turtle walks in the garden.",
+    "turtle"
+   ],
+   [
+    "Ana kicks the soccer ball.",
+    "ball"
+   ],
+   [
+    "My kitten sleeps on a pillow.",
+    "cat"
+   ],
+   [
+    "The monkey eats a banana.",
+    "monkey"
+   ],
+   [
+    "A rabbit hops in the garden.",
+    "rabbit"
+   ],
+   [
+    "The tiger likes to play.",
+    "tiger"
+   ],
+   [
+    "Mei draws with a pencil.",
+    "pencil"
+   ],
+   [
+    "The parrot is very noisy.",
+    "parrot"
+   ],
+   [
+    "Omar rides his bike to school.",
+    "bike"
+   ],
+   [
+    "A penguin swims in the sea.",
+    "penguin"
+   ],
+   [
+    "The robot has a funny face.",
+    "robot"
+   ],
+   [
+    "Zara reads a book to me.",
+    "book"
+   ],
+   [
+    "The rocket flies to the moon.",
+    "rocket"
+   ],
+   [
+    "Leo picks a big pumpkin.",
+    "pumpkin"
+   ],
+   [
+    "My teacher reads a story.",
+    "teacher"
+   ],
+   [
+    "The spider makes a web.",
+    "spider"
+   ],
+   [
+    "The zebra has black stripes.",
+    "zebra"
+   ]
+  ]
+ },
+ "syl": {
+  "alligator": 4,
+  "ana": 2,
+  "apple": 2,
+  "banana": 3,
+  "butterfly": 3,
+  "camel": 2,
+  "carrot": 2,
+  "caterpillar": 4,
+  "dinosaur": 3,
+  "elephant": 3,
+  "flamingo": 3,
+  "funny": 2,
+  "garden": 2,
+  "gorilla": 3,
+  "helicopter": 4,
+  "kangaroo": 3,
+  "kitten": 2,
+  "kofi": 2,
+  "leo": 2,
+  "monkey": 2,
+  "motorcycle": 4,
+  "noisy": 2,
+  "octopus": 3,
+  "omar": 2,
+  "panda": 2,
+  "parrot": 2,
+  "pencil": 2,
+  "penguin": 2,
+  "pillow": 2,
+  "pineapple": 3,
+  "pumpkin": 2,
+  "rabbit": 2,
+  "robot": 2,
+  "rocket": 2,
+  "soccer": 2,
+  "spider": 2,
+  "story": 2,
+  "strawberry": 3,
+  "teacher": 2,
+  "tiger": 2,
+  "tractor": 2,
+  "turtle": 2,
+  "umbrella": 3,
+  "very": 2,
+  "pretty": 2,
+  "watermelon": 4,
+  "zara": 2,
+  "zebra": 2,
+  "a": 1,
+  "an": 1,
+  "and": 1,
+  "arms": 1,
+  "ball": 1,
+  "barks": 1,
+  "bear": 1,
+  "bears": 1,
+  "bees": 1,
+  "big": 1,
+  "bike": 1,
+  "birds": 1,
+  "black": 1,
+  "book": 1,
+  "bus": 1,
+  "buzz": 1,
+  "cake": 1,
+  "can": 1,
+  "cat": 1,
+  "cats": 1,
+  "climb": 1,
+  "corn": 1,
+  "cow": 1,
+  "dance": 1,
+  "dig": 1,
+  "digs": 1,
+  "dog": 1,
+  "dogs": 1,
+  "draws": 1,
+  "ducks": 1,
+  "eat": 1,
+  "eats": 1,
+  "face": 1,
+  "fast": 1,
+  "fish": 1,
+  "flies": 1,
+  "fly": 1,
+  "fox": 1,
+  "frogs": 1,
+  "goat": 1,
+  "goes": 1,
+  "green": 1,
+  "has": 1,
+  "hen": 1,
+  "high": 1,
+  "his": 1,
+  "hop": 1,
+  "hops": 1,
+  "i": 1,
+  "in": 1,
+  "is": 1,
+  "jam": 1,
+  "jump": 1,
+  "kick": 1,
+  "kicks": 1,
+  "kite": 1,
+  "leaf": 1,
+  "legs": 1,
+  "like": 1,
+  "likes": 1,
+  "loud": 1,
+  "makes": 1,
+  "me": 1,
+  "mei": 1,
+  "moon": 1,
+  "moos": 1,
+  "my": 1,
+  "nap": 1,
+  "naps": 1,
+  "on": 1,
+  "pig": 1,
+  "pigs": 1,
+  "picks": 1,
+  "play": 1,
+  "reads": 1,
+  "red": 1,
+  "rides": 1,
+  "run": 1,
+  "runs": 1,
+  "school": 1,
+  "see": 1,
+  "shines": 1,
+  "sing": 1,
+  "sits": 1,
+  "sleep": 1,
+  "sleeps": 1,
+  "slow": 1,
+  "so": 1,
+  "soft": 1,
+  "stops": 1,
+  "sun": 1,
+  "sweet": 1,
+  "swim": 1,
+  "swims": 1,
+  "talk": 1,
+  "talks": 1,
+  "tall": 1,
+  "the": 1,
+  "this": 1,
+  "to": 1,
+  "trunk": 1,
+  "up": 1,
+  "us": 1,
+  "walk": 1,
+  "walks": 1,
+  "we": 1,
+  "web": 1,
+  "with": 1,
+  "tail": 1,
+  "long": 1,
+  "keeps": 1,
+  "dry": 1,
+  "pink": 1,
+  "grows": 1,
+  "dirt": 1,
+  "wings": 1,
+  "tastes": 1,
+  "seeds": 1,
+  "strong": 1,
+  "stripes": 1,
+  "sea": 1
+ },
+ "sylMore": {
+  "school": 1,
+  "tail": 1
+ },
+ "spaces": {
+  "read": [
+   "I can hop.",
+   "We like cake.",
+   "The dog ran.",
+   "I see a cat.",
+   "Mom can run.",
+   "The sun is up.",
+   "I like my hat.",
+   "We can swim.",
+   "Pigs can dig.",
+   "The bus is red.",
+   "I see the moon.",
+   "My cat naps.",
+   "Dad can cook.",
+   "We play tag.",
+   "The hen sat.",
+   "Look at me."
+  ],
+  "cards1": [
+   "We can hop.",
+   "I see Dad.",
+   "The cat naps.",
+   "I like jam.",
+   "Ana can run.",
+   "The sun shines.",
+   "Birds can sing.",
+   "I hug Mom.",
+   "We like snow.",
+   "The bus stops.",
+   "Frogs can jump.",
+   "Kofi can kick.",
+   "Mei can swim.",
+   "Dogs can dig."
+  ],
+  "cards2": [
+   "I see a dog.",
+   "We can hop up.",
+   "The cat can nap.",
+   "I like red jam.",
+   "Mom reads to me.",
+   "The sun is up.",
+   "Ana can run fast.",
+   "I hug my dad.",
+   "We can see Mom.",
+   "The bus can go.",
+   "Kofi has a ball.",
+   "Mei can swim too.",
+   "Leo has a hat.",
+   "My cat is big.",
+   "I can see you.",
+   "We like the sun."
+  ],
+  "cards3": [
+   "I see a big dog.",
+   "We can hop and run.",
+   "My cat likes to nap.",
+   "I like to eat jam.",
+   "Mom and Dad read books.",
+   "The sun is hot today.",
+   "Ana can run so fast.",
+   "Birds sing in the trees.",
+   "Dad and I cook eggs.",
+   "We play in the snow.",
+   "The big bus is blue.",
+   "Frogs can jump so high.",
+   "Kofi kicks the red ball.",
+   "Mei swims in the pool.",
+   "Leo has a red kite.",
+   "My dog likes to dig."
+  ],
+  "copy": [
+   "I can run.",
+   "I see Mom.",
+   "We can hop.",
+   "I like jam.",
+   "Dogs can dig.",
+   "I see you.",
+   "We like cake.",
+   "Cats can nap.",
+   "I can jump.",
+   "We can swim.",
+   "We can play.",
+   "Mom can run.",
+   "I hug Dad.",
+   "We can sing."
+  ]
+ },
+ "banned": [
+  "fat",
+  "ugly",
+  "stupid",
+  "dumb",
+  "hate",
+  "kill",
+  "gun",
+  "shoot",
+  "die",
+  "dead",
+  "poop",
+  "pee",
+  "butt",
+  "sexy",
+  "god",
+  "damn",
+  "hell"
+ ]
+}

@@ -5577,5 +5577,169 @@
   "G2-551": {
     "title": "Adjective or Adverb?",
     "instruction": "An adjective tells about a noun. An adverb tells about a verb: how it is done."
+  },
+  "G3-572": {
+    "title": "Scenes and Stanzas",
+    "instruction": "Each scene and each stanza builds on the parts before it."
+  },
+  "G3-573": {
+    "title": "Chapters: How Parts Build",
+    "instruction": "Each chapter builds on what happened in the chapter before."
+  },
+  "G3-574": {
+    "title": "Who Is Telling the Story?",
+    "instruction": "A narrator who says I and my is a character in the story."
+  },
+  "G3-575": {
+    "title": "Their View and My View",
+    "instruction": "Tell what a character thinks, then tell what you think."
+  },
+  "G3-576": {
+    "title": "Literal or Nonliteral?",
+    "instruction": "A nonliteral phrase means something different from its words."
+  },
+  "G3-577": {
+    "title": "Two Stories by One Author",
+    "instruction": "Find what is alike and different in the two stories."
+  },
+  "G3-578": {
+    "title": "Compare Two Stories",
+    "instruction": "Compare the setting, problem, solution, and lesson of each story."
+  },
+  "G3-579": {
+    "title": "Two Texts on One Topic",
+    "instruction": "Some facts are in one text, and some are in both texts."
+  },
+  "G3-580": {
+    "title": "Compare Two Texts",
+    "instruction": "Compare the most important points and key details."
+  },
+  "K-665": {
+    "title": "Front Cover, Title Page, and Back Cover",
+    "instruction": "A book has a front cover, a title page, and a back cover."
+  },
+  "K-666": {
+    "title": "Make a Front Cover and a Title Page",
+    "instruction": "The title is on the front cover and again on the title page."
+  },
+  "K-667": {
+    "title": "Read Left to Right, Top to Bottom",
+    "instruction": "We read left to right, then go down to the next line."
+  },
+  "K-668": {
+    "title": "Number the Lines and the Pages",
+    "instruction": "We read the left page, then the right page, then we turn the page."
+  },
+  "K-669": {
+    "title": "One Spoken Word, One Written Word",
+    "instruction": "Each word we say is one word on the page."
+  },
+  "K-670": {
+    "title": "Match the Word You Hear",
+    "instruction": "A word that takes longer to say usually has more letters."
+  },
+  "K-671": {
+    "title": "Spaces Between Words: Count the Words",
+    "instruction": "A space comes between two words."
+  },
+  "K-672": {
+    "title": "Finger Spaces",
+    "instruction": "Spaces between words make a sentence easy to read."
+  },
+  "G3-548": {
+    "title": "Opinions and Reasons",
+    "instruction": "An opinion piece states an opinion and gives reasons for it."
+  },
+  "G3-549": {
+    "title": "Plan Your Opinion Piece",
+    "instruction": "Plan before you write: an opinion and reasons that tell why."
+  },
+  "G3-550": {
+    "title": "Choose the Linking Word",
+    "instruction": "Because and since tell why. Therefore tells what follows."
+  },
+  "G3-551": {
+    "title": "Draft Your Opinion Piece",
+    "instruction": "Write your opinion and reasons. Join them with linking words."
+  },
+  "G3-552": {
+    "title": "Find the Conclusion",
+    "instruction": "A concluding statement says the opinion again in new words."
+  },
+  "G3-553": {
+    "title": "Write a Conclusion",
+    "instruction": "Say your opinion again in new words at the end of your piece."
+  },
+  "G3-554": {
+    "title": "Edit an Opinion Paragraph",
+    "instruction": "Writers read their work again to fix capitals, end marks, and commas."
+  },
+  "G3-555": {
+    "title": "Revise Your Opinion Piece",
+    "instruction": "Revise your opinion piece with a checklist and a partner."
+  },
+  "G3-556": {
+    "title": "Choose and Sort Notes",
+    "instruction": "Good notes are short. They tell one fact in your own words."
+  },
+  "G3-557": {
+    "title": "Take Notes and Sort Them",
+    "instruction": "Take notes in your own words. Write which source each note is from."
+  },
+  "G3-558": {
+    "title": "Introductions and Groups",
+    "instruction": "An introduction names the topic. Headings name groups of facts."
+  },
+  "G3-559": {
+    "title": "Plan Informative Writing",
+    "instruction": "Plan an introduction, three groups of facts with headings, and a picture."
+  },
+  "G3-560": {
+    "title": "Fact, Definition, or Detail?",
+    "instruction": "A definition tells what a word means. A detail tells more about a fact."
+  },
+  "G3-561": {
+    "title": "Develop Your Topic",
+    "instruction": "Use facts, a definition, and linking words in each part."
+  },
+  "G3-562": {
+    "title": "Notes from Two Sources",
+    "instruction": "Take notes from both sources to answer the research question."
+  },
+  "G3-563": {
+    "title": "Write a Research Report",
+    "instruction": "Write a report with an introduction, three headed parts, and a closing."
+  },
+  "G3-564": {
+    "title": "The Parts of a Story",
+    "instruction": "The narrator is the one who tells the story."
+  },
+  "G3-565": {
+    "title": "Plan Your Story",
+    "instruction": "Plan the beginning, the middle, and the end of your story."
+  },
+  "G3-566": {
+    "title": "Quotation Marks in Dialogue",
+    "instruction": "A comma or a question mark goes inside the closing quotation mark."
+  },
+  "G3-567": {
+    "title": "Show Feelings in a Story",
+    "instruction": "An action can show how a character feels."
+  },
+  "G3-568": {
+    "title": "Time Words in a Story",
+    "instruction": "Time words such as later that day tell when things happen."
+  },
+  "G3-569": {
+    "title": "Write with Time Words",
+    "instruction": "Time words help a reader follow the events in order."
+  },
+  "G3-570": {
+    "title": "Choose a More Exact Word",
+    "instruction": "Choose the word that fits what happens in the sentence."
+  },
+  "G3-571": {
+    "title": "Revise for Words That Work",
+    "instruction": "When writers revise, they change tired words to words that work."
   }
 }

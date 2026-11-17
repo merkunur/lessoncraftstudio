@@ -7740,5 +7740,292 @@
   },
   "G2-549": {},
   "G2-550": {},
-  "G2-551": {}
+  "G2-551": {},
+  "G3-572": {
+    "1": {
+      "en": "A play is divided into scenes. A poem is divided into stanzas."
+    },
+    "3": {
+      "en": "A new scene builds on what happened in the scenes before it."
+    }
+  },
+  "G3-573": {
+    "1": {
+      "en": "A long story is divided into parts called chapters."
+    },
+    "3": {
+      "en": "Tell what happens in each chapter and how the parts connect."
+    }
+  },
+  "G3-574": {
+    "1": {
+      "en": "The narrator is the one who tells the story."
+    },
+    "3": {
+      "en": "You can think differently from the characters in a story."
+    }
+  },
+  "G3-575": {
+    "1": {
+      "en": "Characters in a story can think differently from you."
+    },
+    "3": {
+      "en": "Tell a part of the story the way another character would."
+    }
+  },
+  "G3-576": {
+    "1": {
+      "en": "Literal words mean just what they say. Nonliteral words do not."
+    },
+    "3": {
+      "en": "Use the sentence to tell if a phrase is literal or nonliteral."
+    }
+  },
+  "G3-577": {
+    "1": {
+      "en": "One author can write two stories about the same characters."
+    },
+    "3": {
+      "en": "Compare the settings, plots, and lessons of two stories."
+    }
+  },
+  "G3-578": {
+    "1": {
+      "en": "Stories by one author can have different settings and problems."
+    },
+    "3": {
+      "en": "Compare the two stories part by part. Then write a sentence."
+    }
+  },
+  "G3-579": {
+    "1": {
+      "en": "Two texts on one topic can tell different facts."
+    },
+    "3": {
+      "en": "Compare the facts in two texts on the same topic."
+    }
+  },
+  "G3-580": {
+    "1": {
+      "en": "Each text has its own most important point."
+    },
+    "3": {
+      "en": "Tell how two texts on one topic are alike and different."
+    }
+  },
+  "K-665": {
+    "3": {
+      "en": "A book has a front cover, a title page, and a back cover. The story starts after the title page."
+    }
+  },
+  "K-666": {},
+  "K-667": {},
+  "K-668": {
+    "1": {
+      "en": "We read the lines from top to bottom."
+    },
+    "3": {
+      "en": "We read the lines of the left page before the lines of the right page."
+    }
+  },
+  "K-669": {},
+  "K-670": {
+    "3": {
+      "en": "When we say more words, we see more words."
+    }
+  },
+  "K-671": {},
+  "K-672": {},
+  "G3-548": {
+    "1": {
+      "en": "An opinion tells what a writer thinks. A reason tells why."
+    },
+    "3": {
+      "en": "Not every sentence is a reason. Look for the ones that tell why."
+    }
+  },
+  "G3-549": {
+    "1": {
+      "en": "A plan has an opinion, reasons, examples, and a conclusion."
+    },
+    "3": {
+      "en": "Plan your opinion piece in notes. Use the word bank if you need it."
+    }
+  },
+  "G3-550": {
+    "1": {
+      "en": "Linking words connect an opinion and its reasons."
+    },
+    "3": {
+      "en": "Choose each linking word by its job in the sentence."
+    }
+  },
+  "G3-551": {
+    "1": {
+      "en": "Use the frames to write your opinion and three reasons."
+    },
+    "3": {
+      "en": "Write your whole opinion piece, from introduction to conclusion."
+    }
+  },
+  "G3-552": {
+    "1": {
+      "en": "A concluding statement says the opinion again at the end."
+    },
+    "3": {
+      "en": "A conclusion does not give a new reason or change the subject."
+    }
+  },
+  "G3-553": {
+    "1": {
+      "en": "End your piece by saying your opinion again."
+    },
+    "3": {
+      "en": "End with a concluding statement in your own words."
+    }
+  },
+  "G3-554": {
+    "1": {
+      "en": "Writers read their work again and fix mistakes."
+    },
+    "3": {
+      "en": "Edit like a writer: check every sentence, word, and mark."
+    }
+  },
+  "G3-555": {
+    "1": {
+      "en": "Writers make their work better before they share it."
+    },
+    "3": {
+      "en": "Revise your opinion piece, then tell one change you made."
+    }
+  },
+  "G3-556": {
+    "1": {
+      "en": "A good note is a few words that tell one fact."
+    },
+    "3": {
+      "en": "Good notes are short, true to the text, and in your own words."
+    }
+  },
+  "G3-557": {
+    "1": {
+      "en": "Key words from a text make good notes."
+    },
+    "3": {
+      "en": "Sort your notes under headings. Add a heading of your own."
+    }
+  },
+  "G3-558": {
+    "1": {
+      "en": "An introduction tells what the whole piece is about."
+    },
+    "3": {
+      "en": "Facts that go together belong under one heading."
+    }
+  },
+  "G3-559": {
+    "1": {
+      "en": "Plan your writing: an introduction, groups of facts, and a picture."
+    },
+    "3": {
+      "en": "Plan your piece. Group the facts and give each group a heading."
+    }
+  },
+  "G3-560": {
+    "1": {
+      "en": "Facts, definitions, and details each do a different job."
+    },
+    "3": {
+      "en": "Writers build each part with facts, definitions, and details."
+    }
+  },
+  "G3-561": {
+    "1": {
+      "en": "Write each part with facts. Define a hard word."
+    },
+    "3": {
+      "en": "Develop your topic with facts, definitions, and details."
+    }
+  },
+  "G3-562": {
+    "1": {
+      "en": "Researchers take notes from more than one source."
+    },
+    "3": {
+      "en": "Write your own research question. Then take notes from both sources."
+    }
+  },
+  "G3-563": {
+    "1": {
+      "en": "A research report answers a question with facts from sources."
+    },
+    "3": {
+      "en": "Write your report and list your sources."
+    }
+  },
+  "G3-564": {
+    "1": {
+      "en": "Every story has characters, a setting, and a problem."
+    },
+    "3": {
+      "en": "A story beginning tells who, where, when, and what goes wrong."
+    }
+  },
+  "G3-565": {
+    "1": {
+      "en": "Plan your story before you write it."
+    },
+    "3": {
+      "en": "A story plan names the characters, setting, problem, events, and ending."
+    }
+  },
+  "G3-566": {
+    "1": {
+      "en": "Quotation marks go around the exact words a character says."
+    },
+    "3": {
+      "en": "If the speaker comes first, put a comma before the quotation marks."
+    }
+  },
+  "G3-567": {
+    "1": {
+      "en": "Show how a character feels instead of just telling it."
+    },
+    "3": {
+      "en": "Actions, thoughts, and dialogue show how a character feels."
+    }
+  },
+  "G3-568": {
+    "1": {
+      "en": "Time words tell the order of the events in a story."
+    },
+    "3": {
+      "en": "Time words tell when things happen, even when something happens suddenly."
+    }
+  },
+  "G3-569": {
+    "1": {
+      "en": "Start each event with a time word."
+    },
+    "3": {
+      "en": "Tell the events in order with time words, then end the story."
+    }
+  },
+  "G3-570": {
+    "1": {
+      "en": "A more exact word paints a clearer picture than a tired word."
+    },
+    "3": {
+      "en": "The right word matches every clue in the sentence."
+    }
+  },
+  "G3-571": {
+    "1": {
+      "en": "Writers change tired words to more exact words."
+    },
+    "3": {
+      "en": "Find the tired words in a story and change them to words that work."
+    }
+  }
 }

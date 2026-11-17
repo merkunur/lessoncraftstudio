@@ -1,0 +1,4127 @@
+{
+ "conj": {
+  "words": [
+   "and",
+   "but",
+   "or",
+   "so",
+   "because",
+   "when",
+   "if",
+   "after",
+   "before"
+  ],
+  "coord": [
+   "and",
+   "but",
+   "or",
+   "so"
+  ],
+  "levels": {
+   "1": [
+    "and",
+    "but",
+    "so"
+   ],
+   "2": [
+    "and",
+    "but",
+    "or",
+    "so",
+    "because"
+   ],
+   "3": [
+    "and",
+    "but",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  "jobs": {
+   "and": "adds another idea",
+   "but": "shows a difference",
+   "or": "gives a choice",
+   "so": "tells the result",
+   "because": "tells why",
+   "when": "tells when",
+   "if": "tells what has to happen",
+   "after": "tells what happened first",
+   "before": "tells what happens later"
+  }
+ },
+ "pick": [
+  {
+   "t": "The ice cream sat in the hot sun ___ it melted.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The glass fell off the table ___ it broke.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before",
+    "because"
+   ]
+  },
+  {
+   "t": "Dev ran faster than everyone else ___ he won the race.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The baby was hungry ___ she cried for her bottle.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The wind blew very hard ___ Jamal's hat flew away.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The bus was very late ___ we missed the start of the movie.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The floor was wet ___ Kenji slipped.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "Our class planted seeds in the spring ___ we had flowers in the summer.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The puppy chewed my shoe ___ it has a hole in it now.",
+   "k": "so",
+   "fits": [
+    "so",
+    "and",
+    "because"
+   ]
+  },
+  {
+   "t": "Maria wanted to go swimming ___ the pool was closed.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "Grandpa is eighty years old ___ he rides his bike every day.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and"
+   ]
+  },
+  {
+   "t": "The puzzle was hard ___ Zoe finished it in five minutes.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and",
+    "when"
+   ]
+  },
+  {
+   "t": "Sam studied all of his spelling words ___ he missed one.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and"
+   ]
+  },
+  {
+   "t": "The box was very big ___ it was easy to carry.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and"
+   ]
+  },
+  {
+   "t": "Nadia likes carrots ___ she does not like peas.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and",
+    "because"
+   ]
+  },
+  {
+   "t": "Ben's dog is small ___ it has a very loud bark.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and"
+   ]
+  },
+  {
+   "t": "The sun was shining ___ the air was very cold.",
+   "k": "but",
+   "fits": [
+    "but",
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "We had soup for lunch ___ we had apples too.",
+   "k": "and",
+   "fits": [
+    "and",
+    "but",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "My sister has a cat ___ she has a dog.",
+   "k": "and",
+   "fits": [
+    "and",
+    "but"
+   ]
+  },
+  {
+   "t": "Leo fed the fish ___ he gave the plants some water.",
+   "k": "and",
+   "fits": [
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The park has a big slide ___ it has two swings.",
+   "k": "and",
+   "fits": [
+    "and",
+    "but"
+   ]
+  },
+  {
+   "t": "Mei can count to one hundred ___ she can count back from ten too.",
+   "k": "and",
+   "fits": [
+    "and",
+    "but",
+    "so"
+   ]
+  },
+  {
+   "t": "Carlos swept the floor ___ he washed the dishes.",
+   "k": "and",
+   "fits": [
+    "and",
+    "when",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "Amara read a book ___ her brother played a game.",
+   "k": "and",
+   "fits": [
+    "and",
+    "but",
+    "when",
+    "after",
+    "before",
+    "because"
+   ]
+  },
+  {
+   "t": "Do you want to play inside ___ do you want to play outside?",
+   "k": "or",
+   "fits": [
+    "or"
+   ]
+  },
+  {
+   "t": "Is the water hot ___ is it cold?",
+   "k": "or",
+   "fits": [
+    "or"
+   ]
+  },
+  {
+   "t": "Should we walk to the library ___ should we ride our bikes?",
+   "k": "or",
+   "fits": [
+    "or"
+   ]
+  },
+  {
+   "t": "Is your birthday in May ___ is it in June?",
+   "k": "or",
+   "fits": [
+    "or"
+   ]
+  },
+  {
+   "t": "Do you want the red cup ___ do you want the blue one?",
+   "k": "or",
+   "fits": [
+    "or",
+    "and"
+   ]
+  },
+  {
+   "t": "Are we having tacos for dinner ___ are we having soup?",
+   "k": "or",
+   "fits": [
+    "or",
+    "and"
+   ]
+  },
+  {
+   "t": "Is that bird a robin ___ is it a blue jay?",
+   "k": "or",
+   "fits": [
+    "or"
+   ]
+  },
+  {
+   "t": "Will you wear your boots ___ will you wear your sneakers?",
+   "k": "or",
+   "fits": [
+    "or",
+    "and"
+   ]
+  },
+  {
+   "t": "We stayed inside at recess ___ it was raining.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "when",
+    "if",
+    "after"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "Hana wore her raincoat ___ it was raining.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The plant died ___ nobody gave it water.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "so",
+    "when",
+    "after",
+    "before"
+   ],
+   "out": [
+    "if"
+   ]
+  },
+  {
+   "t": "Diego was smiling ___ he got a new puppy.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "when",
+    "after",
+    "before"
+   ],
+   "out": [
+    "if"
+   ]
+  },
+  {
+   "t": "I put on sunscreen ___ the sun was very hot.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "but",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "Mom turned on the light ___ the room was dark.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "but",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "The students cheered ___ their team won the game.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "so",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "Theo wore a sweater ___ he felt cold.",
+   "k": "because",
+   "fits": [
+    "because",
+    "and",
+    "but",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "t": "We all clapped ___ the show was over.",
+   "k": "when",
+   "fits": [
+    "when",
+    "after",
+    "because",
+    "and",
+    "if",
+    "before",
+    "but"
+   ]
+  },
+  {
+   "t": "The dog wags its tail ___ it sees me.",
+   "k": "when",
+   "fits": [
+    "when",
+    "because",
+    "if",
+    "after",
+    "and"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "The glass broke ___ it hit the floor.",
+   "k": "when",
+   "fits": [
+    "when",
+    "after",
+    "because"
+   ],
+   "out": [
+    "before",
+    "if"
+   ]
+  },
+  {
+   "t": "Our puppy runs to the door ___ it hears the doorbell.",
+   "k": "when",
+   "fits": [
+    "when",
+    "because",
+    "after",
+    "if",
+    "and"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "Please wash your hands ___ you come inside.",
+   "k": "when",
+   "fits": [
+    "when",
+    "after",
+    "before",
+    "if",
+    "because"
+   ]
+  },
+  {
+   "t": "The birds fly south ___ the weather gets cold.",
+   "k": "when",
+   "fits": [
+    "when",
+    "because",
+    "after",
+    "before",
+    "if",
+    "and"
+   ]
+  },
+  {
+   "t": "Our cat hides under the bed ___ it hears thunder.",
+   "k": "when",
+   "fits": [
+    "when",
+    "because",
+    "if",
+    "after",
+    "before",
+    "and"
+   ]
+  },
+  {
+   "t": "The streetlights turn on ___ it gets dark.",
+   "k": "when",
+   "fits": [
+    "when",
+    "because",
+    "after",
+    "if",
+    "before",
+    "and"
+   ]
+  },
+  {
+   "t": "You can have a snack ___ you finish your homework.",
+   "k": "if",
+   "fits": [
+    "if",
+    "when",
+    "after",
+    "because",
+    "before",
+    "but",
+    "and"
+   ]
+  },
+  {
+   "t": "We will go to the beach ___ it is sunny tomorrow.",
+   "k": "if",
+   "fits": [
+    "if",
+    "because",
+    "when",
+    "and",
+    "after"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "Your plant will grow ___ you give it water and sun.",
+   "k": "if",
+   "fits": [
+    "if",
+    "when",
+    "because",
+    "after",
+    "and"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "The ice will melt ___ you leave it in the sun.",
+   "k": "if",
+   "fits": [
+    "if",
+    "when",
+    "because",
+    "after",
+    "and",
+    "before"
+   ]
+  },
+  {
+   "t": "You will get wet ___ you forget your umbrella.",
+   "k": "if",
+   "fits": [
+    "if",
+    "when",
+    "because",
+    "and",
+    "after"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "We went out to play ___ we finished our lunch.",
+   "k": "after",
+   "fits": [
+    "after",
+    "when",
+    "because",
+    "and",
+    "if",
+    "before"
+   ]
+  },
+  {
+   "t": "The ground was wet ___ it rained all night.",
+   "k": "after",
+   "fits": [
+    "after",
+    "because",
+    "when",
+    "and",
+    "before",
+    "if"
+   ]
+  },
+  {
+   "t": "Ming dried the dishes ___ her dad washed them.",
+   "k": "after",
+   "fits": [
+    "after",
+    "when",
+    "because",
+    "and",
+    "if"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "We cleaned up the paint ___ the art lesson ended.",
+   "k": "after",
+   "fits": [
+    "after",
+    "when",
+    "because",
+    "and",
+    "before"
+   ]
+  },
+  {
+   "t": "We ate the cake ___ we baked it.",
+   "k": "after",
+   "fits": [
+    "after"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "The puddles dried up ___ the sun came out.",
+   "k": "after",
+   "fits": [
+    "after",
+    "when",
+    "because"
+   ],
+   "out": [
+    "before"
+   ]
+  },
+  {
+   "t": "Always look both ways ___ you cross the street.",
+   "k": "before",
+   "fits": [
+    "before",
+    "when",
+    "if"
+   ],
+   "out": [
+    "after"
+   ]
+  },
+  {
+   "t": "Liam put on his socks ___ he put on his shoes.",
+   "k": "before",
+   "fits": [
+    "before",
+    "and",
+    "when",
+    "so"
+   ],
+   "out": [
+    "after"
+   ]
+  },
+  {
+   "t": "The sky got dark ___ the storm started.",
+   "k": "before",
+   "fits": [
+    "before",
+    "when",
+    "because",
+    "and",
+    "so",
+    "after"
+   ]
+  },
+  {
+   "t": "Ana read the directions ___ she started the puzzle.",
+   "k": "before",
+   "fits": [
+    "before",
+    "and",
+    "so",
+    "after",
+    "when",
+    "because"
+   ]
+  },
+  {
+   "t": "Brush your teeth ___ you go to bed.",
+   "k": "before",
+   "fits": [
+    "before",
+    "when"
+   ],
+   "out": [
+    "after"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "a": "It was raining.",
+   "b": "We played inside.",
+   "forms": [
+    [
+     "so",
+     "It was raining, so we played inside."
+    ],
+    [
+     "because",
+     "We played inside because it was raining."
+    ],
+    [
+     "when",
+     "We played inside when it was raining."
+    ],
+    [
+     "and",
+     "It was raining, and we played inside."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "Mia was thirsty.",
+   "b": "She drank some water.",
+   "forms": [
+    [
+     "so",
+     "Mia was thirsty, so she drank some water."
+    ],
+    [
+     "because",
+     "Mia drank some water because she was thirsty."
+    ],
+    [
+     "when",
+     "Mia drank some water when she was thirsty."
+    ],
+    [
+     "and",
+     "Mia was thirsty, and she drank some water."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "The dog barked.",
+   "b": "The baby woke up.",
+   "forms": [
+    [
+     "so",
+     "The dog barked, so the baby woke up."
+    ],
+    [
+     "because",
+     "The baby woke up because the dog barked."
+    ],
+    [
+     "when",
+     "The baby woke up when the dog barked."
+    ],
+    [
+     "after",
+     "The baby woke up after the dog barked."
+    ],
+    [
+     "before",
+     "The dog barked before the baby woke up."
+    ],
+    [
+     "and",
+     "The dog barked, and the baby woke up."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "I wanted to play outside.",
+   "b": "It was too cold.",
+   "forms": [
+    [
+     "but",
+     "I wanted to play outside, but it was too cold."
+    ]
+   ],
+   "not": [
+    "and",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "The cake looked good.",
+   "b": "It tasted bad.",
+   "forms": [
+    [
+     "but",
+     "The cake looked good, but it tasted bad."
+    ]
+   ],
+   "not": [
+    "and",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "Owen likes math.",
+   "b": "He likes science too.",
+   "forms": [
+    [
+     "and",
+     "Owen likes math, and he likes science too."
+    ]
+   ],
+   "not": [
+    "but",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "We can paint.",
+   "b": "We can play a game instead.",
+   "forms": [
+    [
+     "or",
+     "We can paint, or we can play a game instead."
+    ]
+   ],
+   "not": [
+    "and",
+    "but",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "The sun went down.",
+   "b": "The stars came out.",
+   "forms": [
+    [
+     "and",
+     "The sun went down, and the stars came out."
+    ],
+    [
+     "so",
+     "The sun went down, so the stars came out."
+    ],
+    [
+     "because",
+     "The stars came out because the sun went down."
+    ],
+    [
+     "when",
+     "The stars came out when the sun went down."
+    ],
+    [
+     "after",
+     "The stars came out after the sun went down."
+    ],
+    [
+     "before",
+     "The sun went down before the stars came out."
+    ]
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "Lucy studied hard.",
+   "b": "She did well on the test.",
+   "forms": [
+    [
+     "so",
+     "Lucy studied hard, so she did well on the test."
+    ],
+    [
+     "because",
+     "Lucy did well on the test because she studied hard."
+    ],
+    [
+     "after",
+     "Lucy did well on the test after she studied hard."
+    ],
+    [
+     "and",
+     "Lucy studied hard, and she did well on the test."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "when",
+    "if",
+    "before"
+   ]
+  },
+  {
+   "a": "The movie was long.",
+   "b": "We liked every minute of it.",
+   "forms": [
+    [
+     "but",
+     "The movie was long, but we liked every minute of it."
+    ],
+    [
+     "and",
+     "The movie was long, and we liked every minute of it."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "Ravi has a red kite.",
+   "b": "His sister has a green one.",
+   "forms": [
+    [
+     "and",
+     "Ravi has a red kite, and his sister has a green one."
+    ],
+    [
+     "but",
+     "Ravi has a red kite, but his sister has a green one."
+    ]
+   ],
+   "not": [
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "You can ride the bus.",
+   "b": "You can walk to school instead.",
+   "forms": [
+    [
+     "or",
+     "You can ride the bus, or you can walk to school instead."
+    ]
+   ],
+   "not": [
+    "and",
+    "but",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "The bell rang.",
+   "b": "We lined up.",
+   "forms": [
+    [
+     "so",
+     "The bell rang, so we lined up."
+    ],
+    [
+     "when",
+     "We lined up when the bell rang."
+    ],
+    [
+     "because",
+     "We lined up because the bell rang."
+    ],
+    [
+     "after",
+     "We lined up after the bell rang."
+    ],
+    [
+     "before",
+     "The bell rang before we lined up."
+    ],
+    [
+     "and",
+     "The bell rang, and we lined up."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "We finish our work.",
+   "b": "We can go outside.",
+   "forms": [
+    [
+     "if",
+     "We can go outside if we finish our work."
+    ],
+    [
+     "when",
+     "We can go outside when we finish our work."
+    ],
+    [
+     "after",
+     "We can go outside after we finish our work."
+    ]
+   ],
+   "not": [
+    "and",
+    "but",
+    "or",
+    "so",
+    "because",
+    "before"
+   ]
+  },
+  {
+   "a": "We wash our hands.",
+   "b": "We eat lunch.",
+   "forms": [
+    [
+     "before",
+     "We wash our hands before we eat lunch."
+    ],
+    [
+     "after",
+     "We eat lunch after we wash our hands."
+    ],
+    [
+     "and",
+     "We wash our hands, and we eat lunch."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if"
+   ]
+  },
+  {
+   "a": "Dad fixed my bike.",
+   "b": "I rode it to the park.",
+   "forms": [
+    [
+     "after",
+     "After Dad fixed my bike, I rode it to the park."
+    ],
+    [
+     "so",
+     "Dad fixed my bike, so I rode it to the park."
+    ],
+    [
+     "because",
+     "I rode my bike to the park because Dad fixed it."
+    ],
+    [
+     "when",
+     "When Dad fixed my bike, I rode it to the park."
+    ],
+    [
+     "before",
+     "Dad fixed my bike before I rode it to the park."
+    ],
+    [
+     "and",
+     "Dad fixed my bike, and I rode it to the park."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "The road was icy.",
+   "b": "The cars drove slowly.",
+   "forms": [
+    [
+     "so",
+     "The road was icy, so the cars drove slowly."
+    ],
+    [
+     "because",
+     "The cars drove slowly because the road was icy."
+    ],
+    [
+     "when",
+     "The cars drove slowly when the road was icy."
+    ],
+    [
+     "and",
+     "The road was icy, and the cars drove slowly."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "Kai lost his mitten.",
+   "b": "He found it the next day.",
+   "forms": [
+    [
+     "but",
+     "Kai lost his mitten, but he found it the next day."
+    ],
+    [
+     "and",
+     "Kai lost his mitten, and he found it the next day."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "The lights went out.",
+   "b": "We lit a candle.",
+   "forms": [
+    [
+     "so",
+     "The lights went out, so we lit a candle."
+    ],
+    [
+     "when",
+     "When the lights went out, we lit a candle."
+    ],
+    [
+     "because",
+     "We lit a candle because the lights went out."
+    ],
+    [
+     "after",
+     "We lit a candle after the lights went out."
+    ],
+    [
+     "before",
+     "The lights went out before we lit a candle."
+    ],
+    [
+     "and",
+     "The lights went out, and we lit a candle."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "Zara plays the violin.",
+   "b": "Her brother plays the drums.",
+   "forms": [
+    [
+     "and",
+     "Zara plays the violin, and her brother plays the drums."
+    ],
+    [
+     "but",
+     "Zara plays the violin, but her brother plays the drums."
+    ]
+   ],
+   "not": [
+    "or",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  },
+  {
+   "a": "Ella brushed her teeth.",
+   "b": "She went to bed.",
+   "forms": [
+    [
+     "before",
+     "Ella brushed her teeth before she went to bed."
+    ],
+    [
+     "after",
+     "After Ella brushed her teeth, she went to bed."
+    ],
+    [
+     "and",
+     "Ella brushed her teeth, and she went to bed."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "so",
+    "because",
+    "when",
+    "if"
+   ]
+  },
+  {
+   "a": "The sun came out.",
+   "b": "The snow melted.",
+   "forms": [
+    [
+     "so",
+     "The sun came out, so the snow melted."
+    ],
+    [
+     "because",
+     "The snow melted because the sun came out."
+    ],
+    [
+     "when",
+     "When the sun came out, the snow melted."
+    ],
+    [
+     "after",
+     "The snow melted after the sun came out."
+    ],
+    [
+     "before",
+     "The sun came out before the snow melted."
+    ],
+    [
+     "and",
+     "The sun came out, and the snow melted."
+    ]
+   ],
+   "weak": [
+    "and"
+   ],
+   "not": [
+    "but",
+    "or",
+    "if"
+   ]
+  },
+  {
+   "a": "Tia finishes her homework.",
+   "b": "She can watch a show.",
+   "forms": [
+    [
+     "if",
+     "Tia can watch a show if she finishes her homework."
+    ],
+    [
+     "when",
+     "Tia can watch a show when she finishes her homework."
+    ],
+    [
+     "after",
+     "Tia can watch a show after she finishes her homework."
+    ]
+   ],
+   "not": [
+    "and",
+    "but",
+    "or",
+    "so",
+    "because",
+    "before"
+   ]
+  },
+  {
+   "a": "We can have pasta for dinner.",
+   "b": "We can have rice instead.",
+   "forms": [
+    [
+     "or",
+     "We can have pasta for dinner, or we can have rice instead."
+    ]
+   ],
+   "not": [
+    "and",
+    "but",
+    "so",
+    "because",
+    "when",
+    "if",
+    "after",
+    "before"
+   ]
+  }
+ ],
+ "stems": [
+  {
+   "s": "The dog was very hungry, so",
+   "w": "so",
+   "sample": "it ate all of its food."
+  },
+  {
+   "s": "The kitten was scared, so",
+   "w": "so",
+   "sample": "it hid under the bed."
+  },
+  {
+   "s": "I wanted to go to the park, but",
+   "w": "but",
+   "sample": "it started to rain."
+  },
+  {
+   "s": "I like summer, but",
+   "w": "but",
+   "sample": "I like winter even more."
+  },
+  {
+   "s": "My friend came over, and",
+   "w": "and",
+   "sample": "we played a board game."
+  },
+  {
+   "s": "We went to the farm, and",
+   "w": "and",
+   "sample": "we fed the goats."
+  },
+  {
+   "s": "We can bake cookies, or",
+   "w": "or",
+   "sample": "we can make a cake."
+  },
+  {
+   "s": "Pablo was tired because",
+   "w": "because",
+   "sample": "he stayed up late."
+  },
+  {
+   "s": "The plants grew tall because",
+   "w": "because",
+   "sample": "they got lots of sun."
+  },
+  {
+   "s": "You can wear your coat, or",
+   "w": "or",
+   "sample": "you can wear a sweater."
+  },
+  {
+   "s": "We could read a story, or",
+   "w": "or",
+   "sample": "we could play a game."
+  },
+  {
+   "s": "Mom made pancakes, and",
+   "w": "and",
+   "sample": "we ate them with berries."
+  },
+  {
+   "s": "The game was fun, but",
+   "w": "but",
+   "sample": "it ended too soon."
+  },
+  {
+   "s": "My little brother was sleepy, so",
+   "w": "so",
+   "sample": "he took a nap."
+  },
+  {
+   "s": "The puppy was wet because",
+   "w": "because",
+   "sample": "it played in the rain."
+  },
+  {
+   "s": "The cat purrs when",
+   "w": "when",
+   "sample": "I pet her."
+  },
+  {
+   "s": "We wear coats when",
+   "w": "when",
+   "sample": "it is cold outside."
+  },
+  {
+   "s": "We will play outside if",
+   "w": "if",
+   "sample": "it stops raining."
+  },
+  {
+   "s": "You can borrow my book if",
+   "w": "if",
+   "sample": "you take good care of it."
+  },
+  {
+   "s": "I read a story after",
+   "w": "after",
+   "sample": "I get into bed."
+  },
+  {
+   "s": "We stretch our legs before",
+   "w": "before",
+   "sample": "we run a race."
+  },
+  {
+   "s": "I feel happy when",
+   "w": "when",
+   "sample": "I play with my friends."
+  },
+  {
+   "s": "You can come with us if",
+   "w": "if",
+   "sample": "you finish your chores."
+  },
+  {
+   "s": "We went home after",
+   "w": "after",
+   "sample": "the game ended."
+  },
+  {
+   "s": "Put on your shoes before",
+   "w": "before",
+   "sample": "you go outside."
+  }
+ ],
+ "kinds": {
+  "simple": [
+   "The dog barked at the mail carrier.",
+   "My little brother lost his blue mitten.",
+   "The class planted bean seeds in cups.",
+   "A big storm knocked down the old tree.",
+   "Grandma baked bread on Sunday morning.",
+   "The bus stopped at the corner.",
+   "Our teacher read us a funny story.",
+   "The kitten slept in a sunny spot.",
+   "Jamal kicked the ball over the fence.",
+   "The river froze in January.",
+   "Three ducks swam across the pond.",
+   "Ms. Lopez hung our paintings in the hall.",
+   "The moon rose over the hills.",
+   "Ivy found a shiny rock in the creek.",
+   "The baby giggled at the puppet.",
+   "We visited the science museum last week.",
+   "A squirrel buried an acorn under the tree.",
+   "The library opens at nine.",
+   "Hiro built a tall tower of blocks.",
+   "The wind blew the leaves across the yard."
+  ],
+  "series": [
+   "Dad bought apples, pears, and plums.",
+   "We saw ducks, geese, and swans at the pond.",
+   "Our flag is red, white, and blue.",
+   "The baker made cakes, pies, and cookies.",
+   "We need paper, glue, and scissors for art."
+  ],
+  "prep": [
+   "We played outside after lunch.",
+   "Lin read a book before bed.",
+   "The class sang a song after recess.",
+   "Grandpa takes a walk before breakfast."
+  ],
+  "two": [
+   {
+    "t": "Mia and Leo built a snow fort.",
+    "two": "subjects"
+   },
+   {
+    "t": "The cat stretched and yawned.",
+    "two": "verbs"
+   },
+   {
+    "t": "My mom and my aunt went for a walk.",
+    "two": "subjects"
+   },
+   {
+    "t": "The children laughed and clapped.",
+    "two": "verbs"
+   },
+   {
+    "t": "Rain and wind shook the windows.",
+    "two": "subjects"
+   },
+   {
+    "t": "Dad washed and dried the dishes.",
+    "two": "verbs"
+   },
+   {
+    "t": "Owen and his sister fed the ducks.",
+    "two": "subjects"
+   },
+   {
+    "t": "The puppy jumped and barked at the door.",
+    "two": "verbs"
+   }
+  ],
+  "compound": [
+   "The dog barked, and the cat ran up a tree.",
+   "I wanted pancakes, but we had no eggs.",
+   "It started to snow, so school closed early.",
+   "We can play tag, or we can jump rope.",
+   "Lily drew a horse, and Ben drew a whale.",
+   "The game was long, but nobody wanted to stop.",
+   "My shoes were wet, so I left them by the door.",
+   "You can read a book, or you can draw a picture.",
+   "The sun came out, and the snow began to melt.",
+   "Tia knocked on the door, but nobody answered.",
+   "The cookies smelled good, so we ate two each.",
+   "The bell rang, and everyone lined up.",
+   "Marco likes soccer, but his brother likes chess.",
+   "The road was icy, so the bus drove slowly.",
+   "We could plant tomatoes, or we could plant beans.",
+   "The baby woke up, and she wanted her bottle."
+  ],
+  "complex": [
+   "We stayed inside because it was raining.",
+   "When the bell rang, we lined up for lunch.",
+   "If you water the seeds, they will grow.",
+   "The puppy slept after it played all morning.",
+   "Before we ate dinner, we washed our hands.",
+   "Nina smiled when she saw the rainbow.",
+   "The milk spilled because Max bumped the table.",
+   "After the movie ended, we walked home.",
+   "You can go outside if you wear your boots.",
+   "The birds sang before the sun came up.",
+   "Because the road was closed, we took a different way.",
+   "The lights went out when the storm hit.",
+   "If the store is open, we will buy apples.",
+   "Kim brushed her teeth before she went to bed.",
+   "We cheered because our team scored a goal.",
+   "After she finished her homework, Rosa called her friend."
+  ],
+  "examples": {
+   "simple": "Owls hoot.",
+   "two": "Owls hoot and fly.",
+   "compound": "Owls hoot, and frogs croak.",
+   "complex": "Owls hoot when it gets dark.",
+   "complexFirst": "When it gets dark, owls hoot."
+  }
+ },
+ "build": {
+  "themes": [
+   {
+    "name": "Snow Day",
+    "pairs": [
+     {
+      "a": "It snowed all night.",
+      "b": "School was closed.",
+      "comp": "It snowed all night, so school was closed.",
+      "cx": "School was closed because it snowed all night."
+     },
+     {
+      "a": "We put on our boots.",
+      "b": "We built a snowman.",
+      "comp": "We put on our boots, and we built a snowman.",
+      "cx": "After we put on our boots, we built a snowman."
+     },
+     {
+      "a": "Our hands got cold.",
+      "b": "We went inside.",
+      "comp": "Our hands got cold, so we went inside.",
+      "cx": "We went inside because our hands got cold."
+     },
+     {
+      "a": "Mom made hot cocoa.",
+      "b": "We drank it by the window.",
+      "comp": "Mom made hot cocoa, and we drank it by the window.",
+      "cx": "After Mom made hot cocoa, we drank it by the window."
+     },
+     {
+      "a": "The sun came out.",
+      "b": "Our snowman began to melt.",
+      "comp": "The sun came out, so our snowman began to melt.",
+      "cx": "When the sun came out, our snowman began to melt."
+     }
+    ]
+   },
+   {
+    "name": "The Garden",
+    "pairs": [
+     {
+      "a": "Rosa planted bean seeds.",
+      "b": "She watered them every day.",
+      "comp": "Rosa planted bean seeds, and she watered them every day.",
+      "cx": "After Rosa planted bean seeds, she watered them every day."
+     },
+     {
+      "a": "The seeds got lots of sun.",
+      "b": "They grew into tall plants.",
+      "comp": "The seeds got lots of sun, so they grew into tall plants.",
+      "cx": "The seeds grew into tall plants because they got lots of sun."
+     },
+     {
+      "a": "Bugs ate some of the leaves.",
+      "b": "Rosa felt sad.",
+      "comp": "Bugs ate some of the leaves, so Rosa felt sad.",
+      "cx": "Rosa felt sad because bugs ate some of the leaves."
+     },
+     {
+      "a": "The beans got big.",
+      "b": "Rosa picked them.",
+      "comp": "The beans got big, so Rosa picked them.",
+      "cx": "When the beans got big, Rosa picked them."
+     },
+     {
+      "a": "Rosa cooked the beans.",
+      "b": "Her family ate them for dinner.",
+      "comp": "Rosa cooked the beans, and her family ate them for dinner.",
+      "cx": "After Rosa cooked the beans, her family ate them for dinner."
+     }
+    ]
+   },
+   {
+    "name": "The Lost Dog",
+    "pairs": [
+     {
+      "a": "Our dog Max ran out of the yard.",
+      "b": "We looked all over for him.",
+      "comp": "Our dog Max ran out of the yard, so we looked all over for him.",
+      "cx": "When our dog Max ran out of the yard, we looked all over for him."
+     },
+     {
+      "a": "It started to get dark.",
+      "b": "We got worried.",
+      "comp": "It started to get dark, so we got worried.",
+      "cx": "We got worried because it started to get dark."
+     },
+     {
+      "a": "Dad heard a bark.",
+      "b": "He looked behind the shed.",
+      "comp": "Dad heard a bark, so he looked behind the shed.",
+      "cx": "When Dad heard a bark, he looked behind the shed."
+     },
+     {
+      "a": "We found Max.",
+      "b": "We gave him a bath.",
+      "comp": "We found Max, and we gave him a bath.",
+      "cx": "After we found Max, we gave him a bath."
+     },
+     {
+      "a": "Max was very tired.",
+      "b": "He slept all night.",
+      "comp": "Max was very tired, so he slept all night.",
+      "cx": "Max slept all night because he was very tired."
+     }
+    ]
+   },
+   {
+    "name": "The Class Trip",
+    "pairs": [
+     {
+      "a": "Our class got on the bus.",
+      "b": "We rode to the zoo.",
+      "comp": "Our class got on the bus, and we rode to the zoo.",
+      "cx": "After our class got on the bus, we rode to the zoo."
+     },
+     {
+      "a": "The lions were asleep.",
+      "b": "We did not hear them roar.",
+      "comp": "The lions were asleep, so we did not hear them roar.",
+      "cx": "We did not hear the lions roar because they were asleep."
+     },
+     {
+      "a": "A zookeeper fed the seals.",
+      "b": "They clapped their flippers.",
+      "comp": "A zookeeper fed the seals, and they clapped their flippers.",
+      "cx": "When a zookeeper fed the seals, they clapped their flippers."
+     },
+     {
+      "a": "It started to rain.",
+      "b": "We ate lunch inside.",
+      "comp": "It started to rain, so we ate lunch inside.",
+      "cx": "We ate lunch inside because it started to rain."
+     },
+     {
+      "a": "We were tired.",
+      "b": "We slept on the bus ride home.",
+      "comp": "We were tired, so we slept on the bus ride home.",
+      "cx": "Because we were tired, we slept on the bus ride home."
+     }
+    ]
+   },
+   {
+    "name": "The Lemonade Stand",
+    "pairs": [
+     {
+      "a": "Ana wanted to buy a new book.",
+      "b": "She set up a lemonade stand.",
+      "comp": "Ana wanted to buy a new book, so she set up a lemonade stand.",
+      "cx": "Ana set up a lemonade stand because she wanted to buy a new book."
+     },
+     {
+      "a": "The day was very hot.",
+      "b": "Lots of people stopped for a drink.",
+      "comp": "The day was very hot, so lots of people stopped for a drink.",
+      "cx": "Lots of people stopped for a drink because the day was very hot."
+     },
+     {
+      "a": "Ana sold every cup.",
+      "b": "She counted her money.",
+      "comp": "Ana sold every cup, and she counted her money.",
+      "cx": "After Ana sold every cup, she counted her money."
+     },
+     {
+      "a": "Ana had enough money.",
+      "b": "She bought a new book.",
+      "comp": "Ana had enough money, so she bought a new book.",
+      "cx": "When Ana had enough money, she bought a new book."
+     },
+     {
+      "a": "Ana loved the book.",
+      "b": "She read it in one day.",
+      "comp": "Ana loved the book, so she read it in one day.",
+      "cx": "Ana read the book in one day because she loved it."
+     }
+    ]
+   },
+   {
+    "name": "The Science Fair",
+    "pairs": [
+     {
+      "a": "Mia wanted to win a ribbon.",
+      "b": "She worked on her project every day.",
+      "comp": "Mia wanted to win a ribbon, so she worked on her project every day.",
+      "cx": "Mia worked on her project every day because she wanted to win a ribbon."
+     },
+     {
+      "a": "The glue was wet.",
+      "b": "Mia waited for it to dry.",
+      "comp": "The glue was wet, so Mia waited for it to dry.",
+      "cx": "Mia waited for the glue to dry because it was wet."
+     },
+     {
+      "a": "The judges came to see Mia.",
+      "b": "She showed them her volcano.",
+      "comp": "The judges came to see Mia, and she showed them her volcano.",
+      "cx": "When the judges came to see Mia, she showed them her volcano."
+     },
+     {
+      "a": "The volcano bubbled over.",
+      "b": "Everyone clapped.",
+      "comp": "The volcano bubbled over, and everyone clapped.",
+      "cx": "When the volcano bubbled over, everyone clapped."
+     },
+     {
+      "a": "Mia won a blue ribbon.",
+      "b": "She felt very proud.",
+      "comp": "Mia won a blue ribbon, so she felt very proud.",
+      "cx": "Mia felt very proud because she won a blue ribbon."
+     }
+    ]
+   },
+   {
+    "name": "A Rainy Saturday",
+    "pairs": [
+     {
+      "a": "It rained all morning.",
+      "b": "We could not go to the park.",
+      "comp": "It rained all morning, so we could not go to the park.",
+      "cx": "We could not go to the park because it rained all morning."
+     },
+     {
+      "a": "Dad found an old board game.",
+      "b": "We set it up on the table.",
+      "comp": "Dad found an old board game, and we set it up on the table.",
+      "cx": "After Dad found an old board game, we set it up on the table."
+     },
+     {
+      "a": "We played for an hour.",
+      "b": "We got hungry.",
+      "comp": "We played for an hour, and we got hungry.",
+      "cx": "After we played for an hour, we got hungry."
+     },
+     {
+      "a": "Mom made grilled cheese sandwiches.",
+      "b": "We ate them for lunch.",
+      "comp": "Mom made grilled cheese sandwiches, and we ate them for lunch.",
+      "cx": "After Mom made grilled cheese sandwiches, we ate them for lunch."
+     },
+     {
+      "a": "The rain stopped.",
+      "b": "We went outside to jump in puddles.",
+      "comp": "The rain stopped, so we went outside to jump in puddles.",
+      "cx": "When the rain stopped, we went outside to jump in puddles."
+     }
+    ]
+   },
+   {
+    "name": "Baking Day",
+    "pairs": [
+     {
+      "a": "Grandpa found his bread recipe.",
+      "b": "We got out the flour.",
+      "comp": "Grandpa found his bread recipe, and we got out the flour.",
+      "cx": "After Grandpa found his bread recipe, we got out the flour."
+     },
+     {
+      "a": "The dough was too sticky.",
+      "b": "We added more flour.",
+      "comp": "The dough was too sticky, so we added more flour.",
+      "cx": "We added more flour because the dough was too sticky."
+     },
+     {
+      "a": "The bread baked in the oven.",
+      "b": "The kitchen smelled great.",
+      "comp": "The bread baked in the oven, and the kitchen smelled great.",
+      "cx": "When the bread baked in the oven, the kitchen smelled great."
+     },
+     {
+      "a": "The bread was very hot.",
+      "b": "We let it cool.",
+      "comp": "The bread was very hot, so we let it cool.",
+      "cx": "We let the bread cool because it was very hot."
+     },
+     {
+      "a": "The bread cooled.",
+      "b": "We ate it with butter.",
+      "comp": "The bread cooled, and we ate it with butter.",
+      "cx": "After the bread cooled, we ate it with butter."
+     }
+    ]
+   }
+  ],
+  "compOnly": [
+   {
+    "a": "Leo wanted to play chess.",
+    "b": "Nobody knew how.",
+    "comp": "Leo wanted to play chess, but nobody knew how."
+   },
+   {
+    "a": "We could watch a movie.",
+    "b": "We could play outside.",
+    "comp": "We could watch a movie, or we could play outside."
+   },
+   {
+    "a": "My cousin lives far away.",
+    "b": "We talk every week.",
+    "comp": "My cousin lives far away, but we talk every week."
+   },
+   {
+    "a": "You can use the red paint.",
+    "b": "You can use the blue paint.",
+    "comp": "You can use the red paint, or you can use the blue paint."
+   },
+   {
+    "a": "The soup smelled good.",
+    "b": "It was too hot to eat.",
+    "comp": "The soup smelled good, but it was too hot to eat."
+   },
+   {
+    "a": "We can eat lunch now.",
+    "b": "We can eat it at the park.",
+    "comp": "We can eat lunch now, or we can eat it at the park."
+   }
+  ]
+ },
+ "compare": {
+  "words": [
+   {
+    "base": "tall",
+    "comp": "taller",
+    "sup": "tallest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "short",
+    "comp": "shorter",
+    "sup": "shortest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "small",
+    "comp": "smaller",
+    "sup": "smallest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "long",
+    "comp": "longer",
+    "sup": "longest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "cold",
+    "comp": "colder",
+    "sup": "coldest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "warm",
+    "comp": "warmer",
+    "sup": "warmest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "strong",
+    "comp": "stronger",
+    "sup": "strongest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "young",
+    "comp": "younger",
+    "sup": "youngest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "old",
+    "comp": "older",
+    "sup": "oldest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "deep",
+    "comp": "deeper",
+    "sup": "deepest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "soft",
+    "comp": "softer",
+    "sup": "softest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "dark",
+    "comp": "darker",
+    "sup": "darkest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "sweet",
+    "comp": "sweeter",
+    "sup": "sweetest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "smart",
+    "comp": "smarter",
+    "sup": "smartest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "big",
+    "comp": "bigger",
+    "sup": "biggest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "hot",
+    "comp": "hotter",
+    "sup": "hottest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "thin",
+    "comp": "thinner",
+    "sup": "thinnest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "nice",
+    "comp": "nicer",
+    "sup": "nicest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "large",
+    "comp": "larger",
+    "sup": "largest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "wide",
+    "comp": "wider",
+    "sup": "widest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "brave",
+    "comp": "braver",
+    "sup": "bravest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "happy",
+    "comp": "happier",
+    "sup": "happiest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "funny",
+    "comp": "funnier",
+    "sup": "funniest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "busy",
+    "comp": "busier",
+    "sup": "busiest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "easy",
+    "comp": "easier",
+    "sup": "easiest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "heavy",
+    "comp": "heavier",
+    "sup": "heaviest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "tiny",
+    "comp": "tinier",
+    "sup": "tiniest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "noisy",
+    "comp": "noisier",
+    "sup": "noisiest",
+    "kind": "adj",
+    "form": "er"
+   },
+   {
+    "base": "fast",
+    "comp": "faster",
+    "sup": "fastest",
+    "kind": "adv",
+    "form": "er"
+   },
+   {
+    "base": "hard",
+    "comp": "harder",
+    "sup": "hardest",
+    "kind": "adv",
+    "form": "er"
+   },
+   {
+    "base": "high",
+    "comp": "higher",
+    "sup": "highest",
+    "kind": "adv",
+    "form": "er"
+   },
+   {
+    "base": "early",
+    "comp": "earlier",
+    "sup": "earliest",
+    "kind": "adv",
+    "form": "er"
+   },
+   {
+    "base": "careful",
+    "comp": "more careful",
+    "sup": "most careful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "beautiful",
+    "comp": "more beautiful",
+    "sup": "most beautiful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "colorful",
+    "comp": "more colorful",
+    "sup": "most colorful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "helpful",
+    "comp": "more helpful",
+    "sup": "most helpful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "dangerous",
+    "comp": "more dangerous",
+    "sup": "most dangerous",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "delicious",
+    "comp": "more delicious",
+    "sup": "most delicious",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "exciting",
+    "comp": "more exciting",
+    "sup": "most exciting",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "important",
+    "comp": "more important",
+    "sup": "most important",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "wonderful",
+    "comp": "more wonderful",
+    "sup": "most wonderful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "difficult",
+    "comp": "more difficult",
+    "sup": "most difficult",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "carefully",
+    "comp": "more carefully",
+    "sup": "most carefully",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "patiently",
+    "comp": "more patiently",
+    "sup": "most patiently",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "bravely",
+    "comp": "more bravely",
+    "sup": "most bravely",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "cheerfully",
+    "comp": "more cheerfully",
+    "sup": "most cheerfully",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "happily",
+    "comp": "more happily",
+    "sup": "most happily",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "gracefully",
+    "comp": "more gracefully",
+    "sup": "most gracefully",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "good",
+    "comp": "better",
+    "sup": "best",
+    "kind": "adj",
+    "form": "irr"
+   },
+   {
+    "base": "bad",
+    "comp": "worse",
+    "sup": "worst",
+    "kind": "adj",
+    "form": "irr"
+   },
+   {
+    "base": "well",
+    "comp": "better",
+    "sup": "best",
+    "kind": "adv",
+    "form": "irr"
+   },
+   {
+    "base": "badly",
+    "comp": "worse",
+    "sup": "worst",
+    "kind": "adv",
+    "form": "irr"
+   }
+  ],
+  "formsExtra": [
+   {
+    "base": "patient",
+    "comp": "more patient",
+    "sup": "most patient",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "peaceful",
+    "comp": "more peaceful",
+    "sup": "most peaceful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "peacefully",
+    "comp": "more peacefully",
+    "sup": "most peacefully",
+    "kind": "adv",
+    "form": "more"
+   },
+   {
+    "base": "cheerful",
+    "comp": "more cheerful",
+    "sup": "most cheerful",
+    "kind": "adj",
+    "form": "more"
+   },
+   {
+    "base": "graceful",
+    "comp": "more graceful",
+    "sup": "most graceful",
+    "kind": "adj",
+    "form": "more"
+   }
+  ],
+  "bothForms": [
+   "quiet",
+   "simple",
+   "friendly",
+   "clever",
+   "gentle",
+   "narrow",
+   "polite",
+   "common",
+   "handsome",
+   "pleasant",
+   "lonely",
+   "lively",
+   "likely",
+   "cruel",
+   "angry",
+   "hungry",
+   "tired",
+   "sleepy",
+   "fun",
+   "real",
+   "free",
+   "slow",
+   "loud",
+   "quick",
+   "neat",
+   "clear",
+   "bright",
+   "easy-going",
+   "empty"
+  ],
+  "trios": [
+   [
+    [
+     "mouse",
+     "forest creatures",
+     "mouse"
+    ],
+    [
+     "cat",
+     "pets",
+     "cat"
+    ],
+    [
+     "horse",
+     "farm animals",
+     "horse"
+    ]
+   ],
+   [
+    [
+     "hamster",
+     "pets",
+     "hamster"
+    ],
+    [
+     "dog",
+     "pets",
+     "dog"
+    ],
+    [
+     "elephant",
+     "animals",
+     "elephant"
+    ]
+   ],
+   [
+    [
+     "rabbit",
+     "pets",
+     "rabbit"
+    ],
+    [
+     "sheep",
+     "farm animals",
+     "sheep"
+    ],
+    [
+     "giraffe",
+     "animals",
+     "giraffe"
+    ]
+   ],
+   [
+    [
+     "duck",
+     "farm animals",
+     "duck"
+    ],
+    [
+     "dog",
+     "animals",
+     "dog"
+    ],
+    [
+     "zebra",
+     "animals",
+     "zebra"
+    ]
+   ],
+   [
+    [
+     "frog",
+     "pets",
+     "frog"
+    ],
+    [
+     "goat",
+     "farm animals",
+     "goat"
+    ],
+    [
+     "moose",
+     "zoo animals",
+     "moose"
+    ]
+   ],
+   [
+    [
+     "chick",
+     "farm animals",
+     "chick"
+    ],
+    [
+     "goat",
+     "farm animals",
+     "goat"
+    ],
+    [
+     "elephant",
+     "zoo animals",
+     "elephant"
+    ]
+   ],
+   [
+    [
+     "mouse",
+     "forest creatures",
+     "mouse"
+    ],
+    [
+     "dog",
+     "pets",
+     "dog"
+    ],
+    [
+     "rhinoceros",
+     "zoo animals",
+     "rhinoceros"
+    ]
+   ],
+   [
+    [
+     "hamster",
+     "pets",
+     "hamster"
+    ],
+    [
+     "sheep",
+     "farm animals",
+     "sheep"
+    ],
+    [
+     "horse",
+     "farm animals",
+     "horse"
+    ]
+   ]
+  ],
+  "trioLines": [
+   {
+    "t": "The {L} is ___ than the {M}.",
+    "w": "big",
+    "want": "comp"
+   },
+   {
+    "t": "The {M} is ___ than the {S}.",
+    "w": "big",
+    "want": "comp"
+   },
+   {
+    "t": "The {S} is ___ than the {M}.",
+    "w": "small",
+    "want": "comp"
+   },
+   {
+    "t": "The {M} is ___ than the {L}.",
+    "w": "small",
+    "want": "comp"
+   },
+   {
+    "t": "The {L} is the ___ of the three.",
+    "w": "big",
+    "want": "sup"
+   },
+   {
+    "t": "The {S} is the ___ of the three.",
+    "w": "small",
+    "want": "sup"
+   },
+   {
+    "t": "The {L} is ___ than the {S}.",
+    "w": "heavy",
+    "want": "comp"
+   },
+   {
+    "t": "The {L} is the ___ of the three.",
+    "w": "heavy",
+    "want": "sup"
+   },
+   {
+    "t": "The {L} is ___ than the {S}.",
+    "w": "tall",
+    "want": "comp"
+   },
+   {
+    "t": "The {S} is ___ than the {L}.",
+    "w": "short",
+    "want": "comp"
+   },
+   {
+    "t": "The {S} is very ___.",
+    "w": "small",
+    "want": "base"
+   },
+   {
+    "t": "The {L} is very ___.",
+    "w": "big",
+    "want": "base"
+   }
+  ],
+  "cmp": {
+   "1": [
+    {
+     "t": "A cheetah runs ___ than a horse.",
+     "w": "fast",
+     "right": "faster"
+    },
+    {
+     "t": "The giraffe is the ___ animal in the world.",
+     "w": "tall",
+     "right": "tallest"
+    },
+    {
+     "t": "Winter is ___ than summer.",
+     "w": "cold",
+     "right": "colder"
+    },
+    {
+     "t": "Ali woke up ___ than his sister.",
+     "w": "early",
+     "right": "earlier"
+    },
+    {
+     "t": "The blue whale is the ___ animal on Earth.",
+     "w": "big",
+     "right": "biggest"
+    },
+    {
+     "t": "This rope is ___ than that string.",
+     "w": "long",
+     "right": "longer"
+    },
+    {
+     "t": "Mount Everest is the ___ mountain in the world.",
+     "w": "high",
+     "right": "highest"
+    },
+    {
+     "t": "The sun is ___ than the moon.",
+     "w": "hot",
+     "right": "hotter"
+    },
+    {
+     "t": "This box is too ___ to lift.",
+     "w": "heavy",
+     "right": "heavy"
+    },
+    {
+     "t": "An elephant is ___ than a mouse.",
+     "w": "heavy",
+     "right": "heavier"
+    },
+    {
+     "t": "Leo worked the ___ of anyone on the team.",
+     "w": "hard",
+     "right": "hardest"
+    },
+    {
+     "t": "My grandmother is ___ than my mother.",
+     "w": "old",
+     "right": "older"
+    },
+    {
+     "t": "Of all the days this week, Friday was the ___.",
+     "w": "warm",
+     "right": "warmest"
+    },
+    {
+     "t": "That was the ___ joke I have ever heard!",
+     "w": "funny",
+     "right": "funniest"
+    },
+    {
+     "t": "The new kitten is very ___.",
+     "w": "tiny",
+     "right": "tiny"
+    },
+    {
+     "t": "Our puppy is ___ than our old dog.",
+     "w": "small",
+     "right": "smaller"
+    },
+    {
+     "t": "The test was ___ than I thought it would be.",
+     "w": "easy",
+     "right": "easier"
+    },
+    {
+     "t": "Kofi jumped ___ than his big brother.",
+     "w": "high",
+     "right": "higher"
+    },
+    {
+     "t": "My backpack is as ___ as a rock!",
+     "w": "heavy",
+     "right": "heavy"
+    },
+    {
+     "t": "This is the ___ day of the summer so far.",
+     "w": "hot",
+     "right": "hottest"
+    }
+   ],
+   "2": [
+    {
+     "t": "This is the ___ painting in the whole museum.",
+     "w": "beautiful",
+     "right": "most beautiful"
+    },
+    {
+     "t": "Ana colors ___ than her little brother does.",
+     "w": "carefully",
+     "right": "more carefully"
+    },
+    {
+     "t": "A tiger is ___ than a house cat.",
+     "w": "dangerous",
+     "right": "more dangerous"
+    },
+    {
+     "t": "Our garden is very ___ in June.",
+     "w": "colorful",
+     "right": "colorful"
+    },
+    {
+     "t": "This is the ___ book I have ever read.",
+     "w": "exciting",
+     "right": "most exciting"
+    },
+    {
+     "t": "Ravi waited ___ than his little sister.",
+     "w": "patiently",
+     "right": "more patiently"
+    },
+    {
+     "t": "That was the ___ soup of all.",
+     "w": "delicious",
+     "right": "most delicious"
+    },
+    {
+     "t": "A parrot is ___ than a crow.",
+     "w": "colorful",
+     "right": "more colorful"
+    },
+    {
+     "t": "Mila is very ___ at home.",
+     "w": "helpful",
+     "right": "helpful"
+    },
+    {
+     "t": "The second math problem was ___ than the first one.",
+     "w": "difficult",
+     "right": "more difficult"
+    },
+    {
+     "t": "Lena sang the ___ of all the singers.",
+     "w": "cheerfully",
+     "right": "most cheerfully"
+    },
+    {
+     "t": "Jada climbed the ladder ___ than her brother did.",
+     "w": "bravely",
+     "right": "more bravely"
+    },
+    {
+     "t": "Grandpa told us the ___ story of all.",
+     "w": "wonderful",
+     "right": "most wonderful"
+    },
+    {
+     "t": "This puzzle is ___ than the last one.",
+     "w": "easy",
+     "right": "easier"
+    },
+    {
+     "t": "Owen is the ___ runner in our class.",
+     "w": "fast",
+     "right": "fastest"
+    },
+    {
+     "t": "Of all the dancers, Zoe moved the ___.",
+     "w": "gracefully",
+     "right": "most gracefully"
+    },
+    {
+     "t": "Your job is ___ than mine.",
+     "w": "important",
+     "right": "more important"
+    },
+    {
+     "t": "A horse is ___ than a goat.",
+     "w": "big",
+     "right": "bigger"
+    }
+   ],
+   "3": [
+    {
+     "t": "This is the ___ pizza in town.",
+     "w": "good",
+     "right": "best"
+    },
+    {
+     "t": "Today's weather is ___ than yesterday's.",
+     "w": "bad",
+     "right": "worse"
+    },
+    {
+     "t": "Maya sings ___ than her brother.",
+     "w": "well",
+     "right": "better"
+    },
+    {
+     "t": "That was the ___ storm we have ever had.",
+     "w": "bad",
+     "right": "worst"
+    },
+    {
+     "t": "Of all the players, Kim kicks the ball the ___.",
+     "w": "well",
+     "right": "best"
+    },
+    {
+     "t": "My cold is ___ today than it was yesterday.",
+     "w": "bad",
+     "right": "worse"
+    },
+    {
+     "t": "Juan is a very ___ swimmer.",
+     "w": "good",
+     "right": "good"
+    },
+    {
+     "t": "Our team played ___ than it did last week.",
+     "w": "badly",
+     "right": "worse"
+    },
+    {
+     "t": "Lucy plays the piano very ___.",
+     "w": "well",
+     "right": "well"
+    },
+    {
+     "t": "Dad says this is the ___ cake he has ever made.",
+     "w": "good",
+     "right": "best"
+    },
+    {
+     "t": "My new shoes fit ___ than my old ones.",
+     "w": "well",
+     "right": "better"
+    },
+    {
+     "t": "The movie was ___ than the book.",
+     "w": "good",
+     "right": "better"
+    },
+    {
+     "t": "Grandma bakes ___ than Grandpa does.",
+     "w": "well",
+     "right": "better"
+    },
+    {
+     "t": "This is the ___ day of my whole week!",
+     "w": "bad",
+     "right": "worst"
+    },
+    {
+     "t": "The milk smells ___ than it did this morning.",
+     "w": "bad",
+     "right": "worse"
+    },
+    {
+     "t": "Tess painted the fence ___.",
+     "w": "careful",
+     "right": "carefully",
+     "opts": [
+      "careful",
+      "carefully",
+      "more careful"
+     ]
+    },
+    {
+     "t": "Tess is a very ___ painter.",
+     "w": "careful",
+     "right": "careful",
+     "opts": [
+      "careful",
+      "carefully",
+      "more carefully"
+     ]
+    },
+    {
+     "t": "The dog waited ___ for its dinner.",
+     "w": "patient",
+     "right": "patiently",
+     "opts": [
+      "patient",
+      "patiently",
+      "most patient"
+     ]
+    },
+    {
+     "t": "Kai is a very ___ dog trainer.",
+     "w": "patient",
+     "right": "patient",
+     "opts": [
+      "patient",
+      "patiently",
+      "more patiently"
+     ]
+    },
+    {
+     "t": "The children sang ___ at the party.",
+     "w": "happy",
+     "right": "happily",
+     "opts": [
+      "happy",
+      "happily",
+      "happiest"
+     ]
+    },
+    {
+     "t": "Kenji was the ___ of all the kids at the party.",
+     "w": "happy",
+     "right": "happiest",
+     "opts": [
+      "happy",
+      "happily",
+      "happiest"
+     ]
+    },
+    {
+     "t": "The firefighter climbed the ladder ___.",
+     "w": "brave",
+     "right": "bravely",
+     "opts": [
+      "brave",
+      "bravely",
+      "braver"
+     ]
+    },
+    {
+     "t": "The baby slept ___ in her crib.",
+     "w": "peaceful",
+     "right": "peacefully",
+     "opts": [
+      "peaceful",
+      "peacefully",
+      "more peaceful"
+     ]
+    },
+    {
+     "t": "Max whistled ___ as he walked home.",
+     "w": "cheerful",
+     "right": "cheerfully",
+     "opts": [
+      "cheerful",
+      "cheerfully",
+      "more cheerful"
+     ]
+    },
+    {
+     "t": "Zoe danced ___ across the stage.",
+     "w": "graceful",
+     "right": "gracefully",
+     "opts": [
+      "graceful",
+      "gracefully",
+      "most graceful"
+     ]
+    }
+   ]
+  },
+  "table": {
+   "1": {
+    "er": 6,
+    "more": 0,
+    "irr": 0,
+    "examples": [
+     "tall"
+    ]
+   },
+   "2": {
+    "er": 3,
+    "more": 3,
+    "irr": 0,
+    "examples": [
+     "tall",
+     "careful"
+    ]
+   },
+   "3": {
+    "er": 2,
+    "more": 2,
+    "irr": 2,
+    "examples": [
+     "tall",
+     "careful"
+    ]
+   }
+  }
+ },
+ "possess": {
+  "owners": [
+   {
+    "one": "dog",
+    "many": "dogs",
+    "things": [
+     [
+      "bone",
+      "bones"
+     ],
+     [
+      "bowl",
+      "bowls"
+     ],
+     [
+      "ball",
+      "balls"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "cat",
+    "many": "cats",
+    "things": [
+     [
+      "toy",
+      "toys"
+     ],
+     [
+      "bed",
+      "beds"
+     ],
+     [
+      "bowl",
+      "bowls"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "bird",
+    "many": "birds",
+    "things": [
+     [
+      "nest",
+      "nests"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "girl",
+    "many": "girls",
+    "things": [
+     [
+      "kite",
+      "kites"
+     ],
+     [
+      "bike",
+      "bikes"
+     ],
+     [
+      "coat",
+      "coats"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "boy",
+    "many": "boys",
+    "things": [
+     [
+      "bike",
+      "bikes"
+     ],
+     [
+      "hat",
+      "hats"
+     ],
+     [
+      "ball",
+      "balls"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "farmer",
+    "many": "farmers",
+    "things": [
+     [
+      "hat",
+      "hats"
+     ],
+     [
+      "tractor",
+      "tractors"
+     ],
+     [
+      "barn",
+      "barns"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "baker",
+    "many": "bakers",
+    "things": [
+     [
+      "apron",
+      "aprons"
+     ],
+     [
+      "oven",
+      "ovens"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "king",
+    "many": "kings",
+    "things": [
+     [
+      "crown",
+      "crowns"
+     ],
+     [
+      "castle",
+      "castles"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "horse",
+    "many": "horses",
+    "things": [
+     [
+      "saddle",
+      "saddles"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "rabbit",
+    "many": "rabbits",
+    "things": [
+     [
+      "carrot",
+      "carrots"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "teacher",
+    "many": "teachers",
+    "things": [
+     [
+      "desk",
+      "desks"
+     ],
+     [
+      "book",
+      "books"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "pilot",
+    "many": "pilots",
+    "things": [
+     [
+      "plane",
+      "planes"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "pig",
+    "many": "pigs",
+    "things": [
+     [
+      "tail",
+      "tails"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "cow",
+    "many": "cows",
+    "things": [
+     [
+      "bell",
+      "bells"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "friend",
+    "many": "friends",
+    "things": [
+     [
+      "bike",
+      "bikes"
+     ],
+     [
+      "kite",
+      "kites"
+     ]
+    ],
+    "irr": false,
+    "det": "my"
+   },
+   {
+    "one": "player",
+    "many": "players",
+    "things": [
+     [
+      "glove",
+      "gloves"
+     ],
+     [
+      "shirt",
+      "shirts"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "duck",
+    "many": "ducks",
+    "things": [
+     [
+      "pond",
+      "ponds"
+     ],
+     [
+      "egg",
+      "eggs"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "chef",
+    "many": "chefs",
+    "things": [
+     [
+      "spoon",
+      "spoons"
+     ],
+     [
+      "apron",
+      "aprons"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "nurse",
+    "many": "nurses",
+    "things": [
+     [
+      "badge",
+      "badges"
+     ],
+     [
+      "cap",
+      "caps"
+     ]
+    ],
+    "irr": false
+   },
+   {
+    "one": "child",
+    "many": "children",
+    "things": [
+     [
+      "kite",
+      "kites"
+     ],
+     [
+      "coat",
+      "coats"
+     ],
+     [
+      "book",
+      "books"
+     ]
+    ],
+    "irr": true
+   },
+   {
+    "one": "man",
+    "many": "men",
+    "things": [
+     [
+      "hat",
+      "hats"
+     ],
+     [
+      "coat",
+      "coats"
+     ]
+    ],
+    "irr": true
+   },
+   {
+    "one": "woman",
+    "many": "women",
+    "things": [
+     [
+      "umbrella",
+      "umbrellas"
+     ],
+     [
+      "hat",
+      "hats"
+     ]
+    ],
+    "irr": true
+   },
+   {
+    "one": "mouse",
+    "many": "mice",
+    "things": [
+     [
+      "tail",
+      "tails"
+     ]
+    ],
+    "irr": true
+   },
+   {
+    "one": "goose",
+    "many": "geese",
+    "things": [
+     [
+      "nest",
+      "nests"
+     ],
+     [
+      "egg",
+      "eggs"
+     ]
+    ],
+    "irr": true
+   }
+  ],
+  "plain": [
+   {
+    "t": "Three ___ ran across the yard.",
+    "n": "dog"
+   },
+   {
+    "t": "We saw two ___ at the farm.",
+    "n": "cow"
+   },
+   {
+    "t": "The ___ are sleeping in the barn.",
+    "n": "pig"
+   },
+   {
+    "t": "Five ___ sat on the fence.",
+    "n": "bird"
+   },
+   {
+    "t": "Two ___ played on the swings.",
+    "n": "girl"
+   },
+   {
+    "t": "The ___ chased the ball.",
+    "n": "boy"
+   },
+   {
+    "t": "Our ___ like to nap in the sun.",
+    "n": "cat"
+   },
+   {
+    "t": "Six ___ hopped across the grass.",
+    "n": "rabbit"
+   },
+   {
+    "t": "Three ___ flew over the city.",
+    "n": "pilot"
+   },
+   {
+    "t": "The ___ worked in the field all day.",
+    "n": "farmer"
+   },
+   {
+    "t": "Two ___ came to my party.",
+    "n": "friend"
+   },
+   {
+    "t": "The ___ ran onto the field.",
+    "n": "player"
+   },
+   {
+    "t": "Four ___ walked into the room.",
+    "n": "teacher"
+   },
+   {
+    "t": "The two ___ made bread all night.",
+    "n": "baker"
+   },
+   {
+    "t": "The ___ galloped across the field.",
+    "n": "horse"
+   },
+   {
+    "t": "Many ___ played in the snow.",
+    "n": "child"
+   },
+   {
+    "t": "Two ___ fixed the road.",
+    "n": "man"
+   },
+   {
+    "t": "Three ___ sang a song.",
+    "n": "woman"
+   },
+   {
+    "t": "The ___ ran into a hole.",
+    "n": "mouse"
+   },
+   {
+    "t": "The ___ swam on the lake.",
+    "n": "goose"
+   }
+  ],
+  "fix": [
+   {
+    "n": "rabbit",
+    "ctx": {
+     "one": "Our class has one rabbit.",
+     "many": "Our class has two rabbits."
+    },
+    "one": "The ___ cage is by the window.",
+    "many": "The ___ cage is by the window.",
+    "plain": "The ___ like to eat carrots."
+   },
+   {
+    "n": "horse",
+    "ctx": {
+     "one": "Mr. Lee has one horse.",
+     "many": "Mr. Lee has two horses."
+    },
+    "one": "The ___ barn is red.",
+    "many": "The ___ barn is red.",
+    "plain": "The ___ run in the field."
+   },
+   {
+    "n": "dog",
+    "ctx": {
+     "one": "My aunt has one dog.",
+     "many": "My aunt has three dogs."
+    },
+    "one": "The ___ bed is by the stove.",
+    "many": "The ___ bed is by the stove.",
+    "plain": "The ___ sleep by the stove."
+   },
+   {
+    "n": "cat",
+    "ctx": {
+     "one": "Nora has one cat.",
+     "many": "Nora has two cats."
+    },
+    "one": "The ___ bowl is empty.",
+    "many": "The ___ bowl is empty.",
+    "plain": "The ___ want their dinner."
+   },
+   {
+    "n": "bird",
+    "ctx": {
+     "one": "One bird lives in our tree.",
+     "many": "Two birds live in our tree."
+    },
+    "one": "The ___ nest is on a high branch.",
+    "many": "The ___ nest is on a high branch.",
+    "plain": "The ___ sing every morning."
+   },
+   {
+    "n": "girl",
+    "ctx": {
+     "one": "One girl is on the team.",
+     "many": "Two girls are on the team."
+    },
+    "one": "The ___ jersey is blue.",
+    "many": "The ___ jerseys are blue.",
+    "plain": "The ___ play every Saturday."
+   },
+   {
+    "n": "boy",
+    "ctx": {
+     "one": "One boy is in the play.",
+     "many": "Three boys are in the play."
+    },
+    "one": "The ___ costume is green.",
+    "many": "The ___ costumes are green.",
+    "plain": "The ___ sing a song."
+   },
+   {
+    "n": "farmer",
+    "ctx": {
+     "one": "One farmer grows corn here.",
+     "many": "Two farmers grow corn here."
+    },
+    "one": "The ___ field is very big.",
+    "many": "The ___ field is very big.",
+    "plain": "The ___ pick the corn in the fall."
+   },
+   {
+    "n": "teacher",
+    "ctx": {
+     "one": "Our school has one art teacher.",
+     "many": "Our school has two art teachers."
+    },
+    "one": "The ___ room is full of paint.",
+    "many": "The ___ room is full of paint.",
+    "plain": "The ___ hang our pictures in the hall."
+   },
+   {
+    "n": "cow",
+    "ctx": {
+     "one": "The farm has one cow.",
+     "many": "The farm has four cows."
+    },
+    "one": "The ___ barn is warm.",
+    "many": "The ___ barn is warm.",
+    "plain": "The ___ eat grass all day."
+   },
+   {
+    "n": "player",
+    "ctx": {
+     "one": "One player hurt her knee.",
+     "many": "Two players hurt their knees."
+    },
+    "one": "The ___ coach helped her.",
+    "many": "The ___ coach helped them.",
+    "plain": "The ___ rested on the bench."
+   },
+   {
+    "n": "friend",
+    "ctx": {
+     "one": "I made one new friend at camp.",
+     "many": "I made two new friends at camp."
+    },
+    "one": "My ___ tent was next to mine.",
+    "many": "My ___ tent was next to mine.",
+    "plain": "My ___ wrote me letters."
+   },
+   {
+    "n": "pig",
+    "ctx": {
+     "one": "The farm has one pig.",
+     "many": "The farm has three pigs."
+    },
+    "one": "The ___ pen is muddy.",
+    "many": "The ___ pen is muddy.",
+    "plain": "The ___ roll in the mud."
+   },
+   {
+    "n": "duck",
+    "ctx": {
+     "one": "One duck lives on the pond.",
+     "many": "Two ducks live on the pond."
+    },
+    "one": "The ___ nest is in the reeds.",
+    "many": "The ___ nest is in the reeds.",
+    "plain": "The ___ swim in a line."
+   },
+   {
+    "n": "chef",
+    "ctx": {
+     "one": "Our school has one chef.",
+     "many": "Our school has two chefs."
+    },
+    "one": "The ___ kitchen is very clean.",
+    "many": "The ___ kitchen is very clean.",
+    "plain": "The ___ bake bread every day."
+   },
+   {
+    "n": "nurse",
+    "ctx": {
+     "one": "One nurse works at our school.",
+     "many": "Two nurses work at our school."
+    },
+    "one": "The ___ office is down the hall.",
+    "many": "The ___ office is down the hall.",
+    "plain": "The ___ worked all night."
+   },
+   {
+    "n": "child",
+    "ctx": {
+     "one": "One child sat at the table.",
+     "many": "Three children sat at the table."
+    },
+    "one": "The ___ plate was full.",
+    "many": "The ___ plates were full.",
+    "plain": "The ___ ate their lunch."
+   },
+   {
+    "n": "man",
+    "ctx": {
+     "one": "One man fixed our roof.",
+     "many": "Two men fixed our roof."
+    },
+    "one": "The ___ ladder was tall.",
+    "many": "The ___ ladder was tall.",
+    "plain": "The ___ worked all day."
+   },
+   {
+    "n": "woman",
+    "ctx": {
+     "one": "One woman runs the bakery.",
+     "many": "Two women run the bakery."
+    },
+    "one": "The ___ bread is the best in town.",
+    "many": "The ___ bread is the best in town.",
+    "plain": "The ___ bake bread every morning."
+   },
+   {
+    "n": "mouse",
+    "ctx": {
+     "one": "One mouse lives in the barn.",
+     "many": "Two mice live in the barn."
+    },
+    "one": "The ___ home is behind the hay.",
+    "many": "The ___ home is behind the hay.",
+    "plain": "The ___ eat the corn."
+   },
+   {
+    "n": "goose",
+    "ctx": {
+     "one": "One goose lives at the pond.",
+     "many": "Three geese live at the pond."
+    },
+    "one": "The ___ nest is in the tall grass.",
+    "many": "The ___ nest is in the tall grass.",
+    "plain": "The ___ swim all day."
+   }
+  ]
+ },
+ "titles": {
+  "small": [
+   "a",
+   "an",
+   "the",
+   "and",
+   "but",
+   "or",
+   "of",
+   "in",
+   "on",
+   "to",
+   "at",
+   "for"
+  ],
+  "never": [
+   "is",
+   "are",
+   "am",
+   "be",
+   "was",
+   "were",
+   "it",
+   "its",
+   "from",
+   "into",
+   "about",
+   "with",
+   "up",
+   "down",
+   "out",
+   "off",
+   "over",
+   "by",
+   "as",
+   "than",
+   "so",
+   "yet",
+   "nor",
+   "if",
+   "that",
+   "this",
+   "these",
+   "those",
+   "who",
+   "what",
+   "which",
+   "under",
+   "near",
+   "past",
+   "onto",
+   "upon",
+   "like",
+   "after",
+   "before",
+   "until",
+   "through",
+   "across",
+   "around",
+   "behind",
+   "inside",
+   "outside",
+   "without",
+   "when",
+   "because",
+   "how",
+   "not"
+  ],
+  "names": [
+   "Maya",
+   "Kenji",
+   "Amara",
+   "Diego",
+   "Priya",
+   "Omar",
+   "Lucia",
+   "Tavi",
+   "Abuela",
+   "Rosa",
+   "Captain",
+   "Pickle",
+   "Maple",
+   "Street",
+   "School",
+   "Aunt",
+   "Dee",
+   "Ollie",
+   "Jada",
+   "Pine",
+   "Hollow",
+   "Benny",
+   "Planet",
+   "Pudding",
+   "Pepper",
+   "Lulu",
+   "Nora",
+   "Oscar",
+   "Grandpa",
+   "Lou",
+   "Zuri",
+   "Sparky",
+   "Mateo",
+   "Hana"
+  ],
+  "list": {
+   "1": [
+    [
+     "the sneezing snowman",
+     "book"
+    ],
+    [
+     "socks and seashells",
+     "book"
+    ],
+    [
+     "ten tiny tugboats",
+     "song"
+    ],
+    [
+     "waffles in winter",
+     "story"
+    ],
+    [
+     "the grumpy garden",
+     "book"
+    ],
+    [
+     "a puddle party",
+     "song"
+    ],
+    [
+     "pickles for lunch",
+     "story"
+    ],
+    [
+     "the singing sandwich",
+     "song"
+    ],
+    [
+     "turtles on trains",
+     "book"
+    ],
+    [
+     "the brave broom",
+     "story"
+    ],
+    [
+     "mittens at midnight",
+     "song"
+    ],
+    [
+     "clouds of cocoa",
+     "story"
+    ],
+    [
+     "bubbles and buttons",
+     "song"
+    ],
+    [
+     "my dancing pumpkin",
+     "book"
+    ],
+    [
+     "owls bake bread",
+     "book"
+    ],
+    [
+     "hippos paint fences",
+     "song"
+    ],
+    [
+     "the lost lantern",
+     "story"
+    ],
+    [
+     "a sleepy volcano",
+     "book"
+    ],
+    [
+     "muffins for monsters",
+     "story"
+    ],
+    [
+     "robots in raincoats",
+     "book"
+    ],
+    [
+     "frogs in pajamas",
+     "song"
+    ],
+    [
+     "apples for astronauts",
+     "book"
+    ],
+    [
+     "pancakes at noon",
+     "story"
+    ],
+    [
+     "kites and comets",
+     "song"
+    ],
+    [
+     "beetles at bedtime",
+     "book"
+    ]
+   ],
+   "2": [
+    [
+     "songs for a sleepy snail",
+     "song"
+    ],
+    [
+     "the queen of the compost pile",
+     "book"
+    ],
+    [
+     "pancakes and pirates in the park",
+     "story"
+    ],
+    [
+     "a giraffe at the dentist",
+     "book"
+    ],
+    [
+     "ten frogs and a fiddle",
+     "song"
+    ],
+    [
+     "the robot in the cornfield",
+     "story"
+    ],
+    [
+     "a song for the bumblebees",
+     "song"
+    ],
+    [
+     "the hat on the snowman",
+     "story"
+    ],
+    [
+     "breakfast at the bottom of the sea",
+     "book"
+    ],
+    [
+     "a kite for the crow",
+     "story"
+    ],
+    [
+     "a sock for an octopus",
+     "book"
+    ],
+    [
+     "the secret of the silver spoon",
+     "story"
+    ],
+    [
+     "a moose in the music room",
+     "book"
+    ],
+    [
+     "the night of the falling stars",
+     "song"
+    ],
+    [
+     "a bear and a bucket of paint",
+     "story"
+    ],
+    [
+     "the muffins in the mailbox",
+     "book"
+    ],
+    [
+     "lunch on the roof of the barn",
+     "song"
+    ],
+    [
+     "a tower made of crayons",
+     "story"
+    ],
+    [
+     "a goat on the garden gate",
+     "story"
+    ],
+    [
+     "a snail on the moon",
+     "book"
+    ],
+    [
+     "a party for the penguins",
+     "song"
+    ],
+    [
+     "a lighthouse for the lost whales",
+     "book"
+    ],
+    [
+     "pirates in the pumpkin patch",
+     "story"
+    ],
+    [
+     "a hat for the hamster",
+     "song"
+    ],
+    [
+     "a tiger in the tool shed",
+     "book"
+    ],
+    [
+     "the riddle of the rusty key",
+     "story"
+    ],
+    [
+     "a tea party in the treetops",
+     "song"
+    ]
+   ],
+   "3": [
+    [
+     "maya and the marble moon",
+     "book"
+    ],
+    [
+     "ollie the owl: a night in the woods",
+     "book"
+    ],
+    [
+     "the pancake club: a story of friends",
+     "story"
+    ],
+    [
+     "kenji and the squeaky wagon",
+     "story"
+    ],
+    [
+     "the mystery at maple street school",
+     "book"
+    ],
+    [
+     "a song for aunt dee",
+     "song"
+    ],
+    [
+     "captain pickle saves the day",
+     "book"
+    ],
+    [
+     "bears in the city: a winter tale",
+     "story"
+    ],
+    [
+     "amara and the paper boat",
+     "book"
+    ],
+    [
+     "planet pudding: a trip to space",
+     "story"
+    ],
+    [
+     "diego and the dancing dog",
+     "song"
+    ],
+    [
+     "lucia sails to pine hollow",
+     "book"
+    ],
+    [
+     "jada and the rainy day",
+     "story"
+    ],
+    [
+     "benny the bee: a busy spring",
+     "book"
+    ],
+    [
+     "pepper and the pumpkin patch",
+     "song"
+    ],
+    [
+     "lulu at the lake",
+     "story"
+    ],
+    [
+     "frogs on the farm: a song for spring",
+     "song"
+    ],
+    [
+     "rosa and the wishing well",
+     "book"
+    ],
+    [
+     "nora and the quiet garden",
+     "book"
+    ],
+    [
+     "the bubble bus: a ride to the moon",
+     "story"
+    ],
+    [
+     "oscar the octopus: eight busy arms",
+     "book"
+    ],
+    [
+     "grandpa lou goes fishing",
+     "story"
+    ],
+    [
+     "zuri and the windy kite",
+     "book"
+    ],
+    [
+     "sparky the robot: a helper at home",
+     "story"
+    ],
+    [
+     "mateo and the mystery map",
+     "book"
+    ],
+    [
+     "crickets: a song for a summer night",
+     "song"
+    ],
+    [
+     "hana bakes a birthday cake",
+     "story"
+    ]
+   ]
+  },
+  "examples": {
+   "1": "The Pirate Parrot",
+   "2": "A Map of the Moon",
+   "3": "Leo and the Lighthouse: A Summer Story"
+  }
+ }
+}

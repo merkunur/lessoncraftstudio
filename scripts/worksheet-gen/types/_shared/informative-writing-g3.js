@@ -63,7 +63,8 @@
  *             three parts of three lines (levels 1 and 2: each part shows the first note of each source with its letter;
  *             level 3: the child's own notes from Notes from Two Sources), a concluding sentence beside a diagram box of
  *             2.3 by 1.3 inches or more with a "Caption:" line, the sources, and a check list in one row. Level 1:
- *             headings printed, "Now you know that" starts the concluding sentence; level 2: each part started.
+ *             headings printed, "Now you know that" starts the concluding sentence; level 2: each part started. Every
+ *             level names the topic ("Your topic: ...") and prints the two source titles.
  *
  * Writing lines are single ruled lines 34 px high (a wide-ruled notebook line). A third grader writes about 45 letters
  * across a full-width line (13.5 px a letter): every line of a key holds its sample at that measure, and every task
@@ -836,7 +837,7 @@ function render(P, key) {
     // the room for writing comes first: a full-width introduction, three lines for each part, a concluding sentence
     // beside the diagram (2.3 by 1.3 inches or more) and its caption line, the sources; the check list in one row
     const top = `<div data-lcs-item data-lcs-part="top" style="display:flex;flex-direction:column;gap:0;padding:1px 10px 2px;border-radius:12px;background:#FFFFFF">` +
-      `<div data-lcs-badgerow data-lcs-introlabel style="font:800 13px/18px 'Nunito',sans-serif;color:${T.teal}">${badge(SAMPLE_TEXT, key)}Introduction</div>${writeLines({ n: 2, px: full, sample: X.rIntro, key, starters: L === 1 ? [opener(X.rIntro, 2)] : [], attrs: 'data-lcs-introlines' })}</div>`;
+      `<div data-lcs-badgerow data-lcs-introlabel style="font:800 13px/18px 'Nunito',sans-serif;color:${T.teal}">${badge(SAMPLE_TEXT, key)}Introduction<span data-lcs-reportabout style="margin-left:16px;font:700 15px/18px 'Nunito',sans-serif;color:${T.ink}">Your topic: <b>${esc(X.name)}</b></span></div>${writeLines({ n: 2, px: full, sample: X.rIntro, key, starters: L === 1 ? [opener(X.rIntro, 2)] : [], attrs: 'data-lcs-introlines' })}</div>`;
     const part = (h) => { const s = X.rep[h], st = L === 1 ? [opener(s[0], 3)] : L === 2 ? [opener(s[0], 2)] : [];
       const ns = L === 3 ? '' : P.notes[h].map((x) => `<span data-lcs-pnote="${x.src}">${esc(x.note)} (${x.src})</span>`).join(' · ');
       const hd = L === 3 ? `<div data-lcs-parthead style="display:flex">${headSlot(H[h], key)}</div>`
@@ -850,7 +851,7 @@ function render(P, key) {
     const diagram = `<div data-lcs-diagram style="flex:0 0 224px;display:flex;flex-direction:column;gap:2px">` +
       `<div data-lcs-drawbox style="position:relative;box-sizing:border-box;flex:1 0 126px;border:2.5px dashed ${T.teal};border-radius:12px;display:flex;align-items:center;justify-content:center;background:#FFFFFF"><span data-lcs-boxname style="position:absolute;top:4px;left:9px;font:800 13px/1.1 'Nunito',sans-serif;color:${T.teal}">Diagram: a drawing with labels</span>${key ? `<span data-lcs-vary style="font:700 14px/1.2 'Nunito',sans-serif;color:${T.coral}">(Diagrams vary.)</span>` : ''}</div>` +
       `<div data-lcs-caption style="padding:0 6px;border-radius:10px;background:#FFFFFF">${wline({ starter: 'Caption:', grow: false })}</div></div>`;
-    const sources = `<div data-lcs-item data-lcs-part="sources" style="display:flex;flex-direction:column;gap:0;padding:1px 10px 2px;border-radius:12px;background:#FFFFFF">${small(L === 3 ? 'My sources' : `My sources: <span data-lcs-sources style="color:${T.ink}">A. ${esc(X.A.title)} · B. ${esc(X.B.title)}</span>`)}<div style="display:flex;gap:14px">${['A', 'B'].map((s) => `<div style="flex:1 1 0;min-width:0">${wline({ starter: s + '.', answer: key ? X[s].title : null })}</div>`).join('')}</div></div>`;
+    const sources = `<div data-lcs-item data-lcs-part="sources" style="display:flex;flex-direction:column;gap:0;padding:1px 10px 2px;border-radius:12px;background:#FFFFFF">${small(`My sources: <span data-lcs-sources style="color:${T.ink}">A. ${esc(X.A.title)} · B. ${esc(X.B.title)}</span>`)}<div style="display:flex;gap:14px">${['A', 'B'].map((s) => `<div style="flex:1 1 0;min-width:0">${wline({ starter: s + '.', answer: key ? X[s].title : null })}</div>`).join('')}</div></div>`;
     const bottom = `<div data-lcs-item data-lcs-bottom style="display:flex;gap:12px;align-items:stretch">${conc}${diagram}</div>`;
     b.push(cream(`data-lcs-task="report" data-lcs-reporttopic="${X.id}"`, label(0, LINES.reportTask[L]) + `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:2px">${top}${[0, 1, 2].map(part).join('')}${bottom}${sources}</div>`, 5, 2, 'flex:1 1 auto'));
     b.push(checklist(CHECK_REPORT, 5));
@@ -1376,7 +1377,10 @@ function makeInformativeWritingG3Type({ id, slug, mode, exerciseType, i18n }) {
             if (!bx || txt(bx.querySelector('[data-lcs-boxname]')) !== 'Diagram: a drawing with labels') fails.push('the diagram box is not named');
             if (!cap || cap.length !== 1 || cap[0].dataset.lcsStarter !== 'Caption:' || R(cap[0]).width < 200) fails.push('the diagram has no caption line named "Caption:"');
             if (!!(bx && bx.querySelector('[data-lcs-vary]')) !== isKey) fails.push('the key does not say diagrams vary (or the page of the child does)'); }
-          const so = root.querySelector('[data-lcs-sources]'); if (lv === 3 ? !!so : !so || txt(so) !== `A. ${X.A.title} · B. ${X.B.title}`) fails.push('the source titles are not printed on levels 1 and 2 (or are on level 3)');
+          // every level names the topic of the report and its two sources (level 3 prints no notes, so this is all that
+          // tells a child which report to write)
+          const ab = root.querySelector('[data-lcs-reportabout]'); if (!ab || txt(ab) !== 'Your topic: ' + X.name) fails.push('the page does not name the topic of the report');
+          const so = root.querySelector('[data-lcs-sources]'); if (!so || txt(so) !== `A. ${X.A.title} · B. ${X.B.title}`) fails.push('the source titles are not printed');
           const sl = cards('[data-lcs-part="sources"] [data-lcs-line]');
           if (sl.length !== 2 || sl.map((l) => l.dataset.lcsStarter).join() !== 'A.,B.') fails.push('the source list has not two lines A and B');
           if (isKey && sl.map((l) => l.dataset.lcsAnswer).join('|') !== X.A.title + '|' + X.B.title) fails.push('the key of the source list is not the two titles');

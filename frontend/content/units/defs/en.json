@@ -3111,8 +3111,8 @@
    "subject": "literacy",
    "title": "Word Meanings and Word Parts",
    "metaTitle": "Grade 1 Vocabulary Lessons: Word Meanings and Word Parts",
-   "metaDescription": "A Grade 1 vocabulary unit: 4 lessons on opposites, synonyms, shades of meaning (look, peek, stare), and root words, each with a teacher note and pages to print.",
-   "weeks": 2,
+   "metaDescription": "A Grade 1 vocabulary unit: 6 lessons on opposites, synonyms, shades of meaning, words by category, root words, and the endings -s, -ed, and -ing.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:opposites",
@@ -3134,9 +3134,23 @@
      ]
     },
     {
+     "point": "1:words-by-category",
+     "types": [
+      "G1-608",
+      "G1-609"
+     ]
+    },
+    {
      "point": "1:root-words",
      "types": [
       "G1-397"
+     ]
+    },
+    {
+     "point": "1:endings-s-ed-ing",
+     "types": [
+      "G1-610",
+      "G1-611"
      ]
     }
    ]

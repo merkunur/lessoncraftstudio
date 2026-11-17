@@ -3381,6 +3381,16 @@
    ],
    "by": "authored"
   },
+  "1:words-by-category": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "1:root-words": {
    "rows": [
     {
@@ -3391,6 +3401,21 @@
     {
      "id": "ELAR.1.2.B.v",
      "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:endings-s-ed-ing": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.v",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.3.C",
+     "rel": "teaches",
      "grade": "1"
     }
    ],

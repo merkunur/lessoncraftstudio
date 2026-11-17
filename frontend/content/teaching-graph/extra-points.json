@@ -706,6 +706,26 @@
    "strand": "Language",
    "code": "L.3.2.a",
    "skill": "Capitalize the first word, the last word, and every important word of a title, and keep the small words small"
+  },
+  {
+   "tp": "1:words-by-category",
+   "grade": "1",
+   "strand": "Language",
+   "code": "L.1.5.b",
+   "skill": "Sort words into categories and define a word by its category and one key attribute (a duck is a bird that swims)",
+   "activities": [
+    "olive-kind-of.category-attribute.l-1-5-b"
+   ]
+  },
+  {
+   "tp": "1:endings-s-ed-ing",
+   "grade": "1",
+   "strand": "Foundational Skills",
+   "code": "RF.1.3.f",
+   "skill": "Read and write words with the endings -s, -es, -ed, and -ing and find the base word in each",
+   "activities": [
+    "syllable-builder.build-endings.rf-1-3-f"
+   ]
   }
  ]
 }

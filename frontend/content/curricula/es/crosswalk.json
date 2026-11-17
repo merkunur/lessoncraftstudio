@@ -2945,8 +2945,16 @@
    "none": "No process asks to grade words by strength of meaning; the nearest wording (sinónimos, 4°) is about substitution, not intensity.",
    "by": "authored"
   },
+  "1:words-by-category": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:root-words": {
    "none": "The programme holds no word-formation content (familias de palabras, palabra primitiva y derivada) in Fases 2-4.",
+   "by": "authored"
+  },
+  "1:endings-s-ed-ing": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:story-writing": {

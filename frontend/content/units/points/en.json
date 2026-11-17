@@ -3253,6 +3253,24 @@
     "words": "Say: \"In a title, the first word, the last word, and every important word start with a capital letter. Small words like a, the, and, of, and in stay small in the middle.\" The box on every page lists the small words. Day 1, Find the Capitals: the child circles each word that needs a capital in titles printed in small letters, then circles the right one of a title printed two ways; Level 1 has three-word titles, Level 2 titles with a, the, of, and in, Level 3 titles with a name or a colon. Day 2, Capitals in Titles: the child writes each title with its capitals, then the titles of three books he or she likes and a title for a report.",
     "watch": "Is, are, and it are short but important words, so they always get a capital. Words such as from, about, into, and with are left out of these titles because style guides disagree on them. A name always gets a capital, and so does the first word after a colon: Leo and the Lighthouse: A Summer Story. All the titles are made up."
    }
+  },
+  "1:words-by-category": {
+   "title": "A duck is a bird that swims: words by category",
+   "objective": "Children sort words into categories and define a word by category and key attribute (a duck is a bird that swims).",
+   "note": {
+    "mistake": "Children say what a thing does, not what kind it is (\"a duck swims\"), or sort by where it lives: a frog goes with the fish.",
+    "words": "Say: \"A definition tells what kind of thing it is and what makes it special. A duck is a bird that swims.\" Day 1: children cut out the cards and glue each in its category's box. Level 1 has two boxes, Level 2 birds, fish, and insects. On Level 3 each box says what its members have (Birds have feathers.); two cards fit no box and get an X. The X cards are two of: bat, frog, spider, snail, worm, starfish. Day 2, on screen first: in Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1) children climb a picture to the branch of its kind. Then, on Levels 1 and 2, children copy the category into three frames and circle the words that finish two definitions. Read each sentence and its three choices aloud with the class: the task is choosing, not decoding. On Level 3 they write a category from the box and a special thing for two pictures.",
+    "watch": "A picture may not show every leg: every insect has six. A penguin's feathers are short and tight; a bat flies but has no feathers. On Level 3, accept any true special thing, and \"an animal\" or \"a food\" before asking for the smaller group."
+   }
+  },
+  "1:endings-s-ed-ing": {
+   "title": "Endings -s, -ed, and -ing",
+   "objective": "Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
+   "note": {
+    "mistake": "Children read jumped as \"jump-ed\" or skip the ending; on Level 3 they keep the silent e (bakeing) or forget to double (naping).",
+    "words": "Say: \"An ending changes a word: help, helps, helped, helping. The base word is still there. On Level 3 it may double its last letter (hopping) or drop its silent e (baking).\" Day 1, on screen first: in Build Words with Endings — Reading -s, -ed, and -ing children tap where the base word ends and pick the ending a sentence needs. Then the page: children circle the base word in six words and write base words with -s, -ed, and -ing in a table. Level 1 starts with a row done in grey; Level 2 adds -es (dress, dresses) and one word with no ending to cross out; Level 3 has two such words, a word that doubles its last letter, and one that drops its silent e. Day 2, Levels 1 and 2: children circle the word that fits each sentence, then add an ending to a base word in a box. Level 3: they finish Yesterday I, Now I am, and I can see two with a word from a box.",
+    "watch": "A box on the day 2 page names the clue words. The -ed says /t/ in jumped, /d/ in played, /id/ in rested. The pages use only words that add -ed (never ran or went). If a child writes went or ran, it is good English; ask for a word that adds -ed."
+   }
   }
  }
 }

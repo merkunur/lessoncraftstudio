@@ -368,6 +368,10 @@
   "G3-526": "3:possessive-nouns",
   "G3-527": "3:possessive-nouns",
   "G3-529": "3:capitals-in-titles",
-  "G3-528": "3:capitals-in-titles"
+  "G3-528": "3:capitals-in-titles",
+  "G1-608": "1:words-by-category",
+  "G1-609": "1:words-by-category",
+  "G1-610": "1:endings-s-ed-ing",
+  "G1-611": "1:endings-s-ed-ing"
  }
 }

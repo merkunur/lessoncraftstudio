@@ -5369,6 +5369,30 @@
    ],
    "why": "Texas names «capitalization of official titles of people, holidays, and geographical names and places» in Grade 3; capitals in the titles of books and stories apply the same convention to a title.",
    "review": "year-design 2026-11-18"
+  },
+  "1:words-by-category": {
+   "rows": [
+    {
+     "id": "ELAR.1.3.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting words into birds, fish and insects and naming the category of a word is «identify and use words that name actions, directions, positions, sequences, categories, and locations». Defining a word by its category and one attribute goes one step further than the Texas wording.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:endings-s-ed-ing": {
+   "rows": [
+    {
+     "id": "ELAR.1.2.B.v",
+     "rel": "teaches"
+    },
+    {
+     "id": "ELAR.1.3.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading helps, helped and helping is «decoding words with inflectional endings, including -ed, -s, and -es»; choosing the ending a sentence needs is «identify the meaning of words with the affixes -s, -ed, and -ing».",
+   "review": "year-design 2026-11-17"
   }
  }
 }

@@ -19,6 +19,8 @@
  * place-ready-u.en.literacy.js; the reviewer of the pages read them (2026-11-18, every finding applied).
  * The three notes of the unit Two-Syllable Words (G1-600 to G1-603) were added by place-ready-z.en.literacy.js;
  * the reviewer of the pages read them (2026-11-18, every finding applied).
+ * The two notes on words by category and on the endings -s, -ed, -ing (G1-608 to G1-611) were added by
+ * place-ready-bb.en.literacy.js; the reviewer of the pages read them (2026-11-17, every finding applied).
  * `node scripts/units/notes/apply.js` merges every file of this folder into frontend/content/units/points/<loc>.json.
  */
 module.exports = {
@@ -229,6 +231,24 @@ module.exports = {
         mistake: 'Children sound out the tricky part and spell what they hear: sed, wuz, uv, cud. Others write the regular letters wrong because they try to remember the whole word as a picture.',
         words: 'Say: "Most of said follows the rules: s says /s/, d says /d/. The ai is the tricky part; here it says /ĕ/. We learn that part by heart." Say each word, tap its sounds, write the letters for each sound, and put a heart over the part the rules do not give. On screen, the tool Heart Words runs the same routine of sound boxes and a heart; said, was, and of are on its first shelf, and a teacher can type could, fix where its sounds break, and mark its heart. Then the page: children say each sound, write its letters in a box, draw the hearts, fold the top of the page back, and write the heart word that fits each sentence. Level 1 has said, was, of, and could and four sentences, with the first letter of each answer on its line; Level 2 adds two words from they, does, friend, put, and give and has three sentences; Level 3 mixes six words in three columns, has one sentence with no first letter, and asks the child to open the page again and write a sentence of their own with two heart words. they, does, friend, put, give, and come are review words: model where their hearts go before Level 2 or 3.',
         watch: 'The tricky parts: ai in said, the a of was, oul in could (the l is silent), ey in they, oe in does, ie in friend, the u of put, the ve of give, the o and the final e of come. In of both letters are tricky: the tool puts its heart on the f only; on the page both letters get one, because the o says /ŭ/. The s of was and does says /z/ as in is and has; that is a rule, not a heart. Never ask a child to sound out the tricky part: say it.',
+      },
+    },
+    '1:words-by-category': {
+      title: 'A duck is a bird that swims: words by category',
+      objective: 'Children sort words into categories and define a word by category and key attribute (a duck is a bird that swims).',
+      note: {
+        mistake: 'Children say what a thing does, not what kind it is ("a duck swims"), or sort by where it lives: a frog goes with the fish.',
+        words: 'Say: "A definition tells what kind of thing it is and what makes it special. A duck is a bird that swims." Day 1: children cut out the cards and glue each in its category\'s box. Level 1 has two boxes, Level 2 birds, fish, and insects. On Level 3 each box says what its members have (Birds have feathers.); two cards fit no box and get an X. The X cards are two of: bat, frog, spider, snail, worm, starfish. Day 2, on screen first: in Olive\'s Kind-Of Tree — What Kind of Thing Is It? (Grade 1) children climb a picture to the branch of its kind. Then, on Levels 1 and 2, children copy the category into three frames and circle the words that finish two definitions. Read each sentence and its three choices aloud with the class: the task is choosing, not decoding. On Level 3 they write a category from the box and a special thing for two pictures.',
+        watch: 'A picture may not show every leg: every insect has six. A penguin\'s feathers are short and tight; a bat flies but has no feathers. On Level 3, accept any true special thing, and "an animal" or "a food" before asking for the smaller group.',
+      },
+    },
+    '1:endings-s-ed-ing': {
+      title: 'Endings -s, -ed, and -ing',
+      objective: 'Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.',
+      note: {
+        mistake: 'Children read jumped as "jump-ed" or skip the ending; on Level 3 they keep the silent e (bakeing) or forget to double (naping).',
+        words: 'Say: "An ending changes a word: help, helps, helped, helping. The base word is still there. On Level 3 it may double its last letter (hopping) or drop its silent e (baking)." Day 1, on screen first: in Build Words with Endings — Reading -s, -ed, and -ing children tap where the base word ends and pick the ending a sentence needs. Then the page: children circle the base word in six words and write base words with -s, -ed, and -ing in a table. Level 1 starts with a row done in grey; Level 2 adds -es (dress, dresses) and one word with no ending to cross out; Level 3 has two such words, a word that doubles its last letter, and one that drops its silent e. Day 2, Levels 1 and 2: children circle the word that fits each sentence, then add an ending to a base word in a box. Level 3: they finish Yesterday I, Now I am, and I can see two with a word from a box.',
+        watch: 'A box on the day 2 page names the clue words. The -ed says /t/ in jumped, /d/ in played, /id/ in rested. The pages use only words that add -ed (never ran or went). If a child writes went or ran, it is good English; ask for a word that adds -ed.',
       },
     },
   },

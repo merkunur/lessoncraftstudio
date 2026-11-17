@@ -3121,10 +3121,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 35,
-    "near": 2,
-    "open": 36,
-    "lessons": 48
+    "taught": 37,
+    "near": 1,
+    "open": 35,
+    "lessons": 50
    },
    "groups": [
     {
@@ -3484,6 +3484,20 @@
        ]
       },
       {
+       "code": "RF.1.3.f",
+       "state": "taught",
+       "text": "Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
+       "lessons": [
+        {
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
+         "unitGrade": "1",
+         "n": 6,
+         "title": "Endings -s, -ed, and -ing"
+        }
+       ]
+      },
+      {
        "code": "RF.1.3.g",
        "state": "taught",
        "text": "Children read and spell common irregular words (said, was, of, could, and review words such as they and put) by mapping the regular sounds and remembering the tricky part.",
@@ -3529,7 +3543,6 @@
      "open": [
       "RF.1.1.a",
       "RF.1.2.c",
-      "RF.1.3.f",
       "RF.1.4.b"
      ]
     },
@@ -3768,7 +3781,7 @@
          "unit": "word-meanings-and-word-parts-grade-1-unit",
          "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 4,
+         "n": 5,
          "title": "Find the root word"
         }
        ]
@@ -3807,13 +3820,15 @@
       },
       {
        "code": "L.1.5.b",
-       "state": "near",
-       "text": "Use clues one at a time to find a mystery animal.",
-       "rel": "prepares",
-       "papers": [
+       "state": "taught",
+       "text": "Children sort words into categories and define a word by category and key attribute (a duck is a bird that swims).",
+       "lessons": [
         {
-         "title": "Who Am I? Mystery Animal",
-         "core": "animal-fact-file-forest-creatures-g2343"
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "A duck is a bird that swims: words by category"
         }
        ]
       },
@@ -6649,8 +6664,8 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 32,
-    "near": 8,
+    "taught": 34,
+    "near": 6,
     "open": 44,
     "lessons": 42
    },
@@ -6838,16 +6853,15 @@
       },
       {
        "code": "1.2.B.v",
-       "state": "near",
-       "text": "Children name a picture and find the longer word that is built from that word, such as rain in rainy.",
-       "rel": "prepares",
+       "state": "taught",
+       "text": "Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
        "lessons": [
         {
          "unit": "word-meanings-and-word-parts-grade-1-unit",
          "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 4,
-         "title": "Find the root word"
+         "n": 6,
+         "title": "Endings -s, -ed, and -ing"
         }
        ]
       },
@@ -7006,23 +7020,15 @@
       },
       {
        "code": "1.3.C",
-       "state": "near",
-       "text": "Children choose among four words from one family, such as bake, baker, baking, and baked, the one that fits each sentence.",
-       "rel": "extends",
+       "state": "taught",
+       "text": "Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
        "lessons": [
         {
          "unit": "word-meanings-and-word-parts-grade-1-unit",
          "unitTitle": "Word Meanings and Word Parts",
          "unitGrade": "1",
-         "n": 4,
-         "title": "Find the root word"
-        },
-        {
-         "unit": "words-and-their-meanings-grade-3-unit",
-         "unitTitle": "Words and Their Meanings",
-         "unitGrade": "3",
-         "n": 4,
-         "title": "Choose the right form of the word"
+         "n": 6,
+         "title": "Endings -s, -ed, and -ing"
         }
        ]
       },
@@ -7051,6 +7057,13 @@
          "unitGrade": "1",
          "n": 2,
          "title": "Nouns, verbs, and adjectives"
+        },
+        {
+         "unit": "word-meanings-and-word-parts-grade-1-unit",
+         "unitTitle": "Word Meanings and Word Parts",
+         "unitGrade": "1",
+         "n": 4,
+         "title": "A duck is a bird that swims: words by category"
         }
        ]
       }

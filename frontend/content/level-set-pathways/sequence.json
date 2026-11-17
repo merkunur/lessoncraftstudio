@@ -109,7 +109,8 @@
         "family",
         "feelings",
         "opposites",
-        "synonyms"
+        "synonyms",
+        "picture-vocabulary"
       ]
     },
     {
@@ -170,6 +171,7 @@
     {
       "strand": "Logical Reasoning",
       "types": [
+        "sorting-categories",
         "logic-puzzles"
       ]
     }

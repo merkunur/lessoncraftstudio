@@ -3809,6 +3809,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-18 for the English grammar of Grade 3 (Part 12.3: joining words, kinds of sentences, comparing forms, possessives with an apostrophe, capitals in titles); these are conventions of English, and another language teaches its own. Read it against the wording when the grammar units of this language are designed.",
    "review": "year-design 2026-11-18"
+  },
+  "1:words-by-category": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary and word reading of Grade 1 (Part 12.3: words by category and their definitions, the endings -s, -ed and -ing); the endings are forms of English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
+  },
+  "1:endings-s-ed-ing": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-17 for the English vocabulary and word reading of Grade 1 (Part 12.3: words by category and their definitions, the endings -s, -ed and -ing); the endings are forms of English, and another language teaches its own. Read it against the wording when the vocabulary units of this language are designed.",
+   "review": "year-design 2026-11-17"
   }
  }
 }

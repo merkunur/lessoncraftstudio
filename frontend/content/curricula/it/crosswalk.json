@@ -2706,6 +2706,10 @@
    ],
    "by": "authored"
   },
+  "1:words-by-category": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:root-words": {
    "rows": [
     {
@@ -2719,6 +2723,10 @@
      "grade": "4-5"
     }
    ],
+   "by": "authored"
+  },
+  "1:endings-s-ed-ing": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:story-writing": {

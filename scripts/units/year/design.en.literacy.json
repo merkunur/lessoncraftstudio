@@ -369,7 +369,8 @@
             "days": 2,
             "tool": "Sorting Hoops",
             "source": "new",
-            "page": "Word meaning page: twelve picture words to cut and sort into three categories (birds, fish, bugs). Bottom: three frames A ___ is a ___ that ___. Level 1: two categories; level 2: three categories; level 3: the child writes two definitions by category and attribute."
+            "page": "Word meaning page: twelve picture words to cut and sort into three categories (birds, fish, bugs). Bottom: three frames A ___ is a ___ that ___. Level 1: two categories; level 2: three categories; level 3: the child writes two definitions by category and attribute.",
+            "placed": "1:words-by-category"
           },
           {
             "existing": "1:root-words",
@@ -383,7 +384,8 @@
             "days": 2,
             "tool": "Letter Tiles",
             "source": "new",
-            "page": "Phonics pattern page: a table of eight base words with three columns (-s, -ed, -ing); the child writes each form and circles the base word. Bottom: six sentences with a missing word and a choice of three forms. Level 1: four base words that do not change (jump, play); level 2: eight base words; level 3: the child also writes a sentence with each ending."
+            "page": "Phonics pattern page: a table of eight base words with three columns (-s, -ed, -ing); the child writes each form and circles the base word. Bottom: six sentences with a missing word and a choice of three forms. Level 1: four base words that do not change (jump, play); level 2: eight base words; level 3: the child also writes a sentence with each ending.",
+            "placed": "1:endings-s-ed-ing"
           }
         ]
       },

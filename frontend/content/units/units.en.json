@@ -14749,9 +14749,9 @@
    "subject": "literacy",
    "title": "Word Meanings and Word Parts",
    "metaTitle": "Grade 1 Vocabulary Lessons: Word Meanings and Word Parts",
-   "metaDescription": "A Grade 1 vocabulary unit: 4 lessons on opposites, synonyms, shades of meaning (look, peek, stare), and root words, each with a teacher note and pages to print.",
-   "days": 11,
-   "weeks": 2,
+   "metaDescription": "A Grade 1 vocabulary unit: 6 lessons on opposites, synonyms, shades of meaning, words by category, root words, and the endings -s, -ed, and -ing.",
+   "days": 15,
+   "weeks": 3,
    "lessons": [
     {
      "n": 1,
@@ -14906,6 +14906,52 @@
     },
     {
      "n": 4,
+     "point": "1:words-by-category",
+     "title": "A duck is a bird that swims: words by category",
+     "objective": "Children sort words into categories and define a word by category and key attribute (a duck is a bird that swims).",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.1.5.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-608",
+       "title": "Words by Category: Cut and Sort",
+       "core": "sorting-categories-g1608",
+       "easy": "sorting-categories-easy-g1608-6",
+       "hard": "sorting-categories-hard-g1608-11"
+      },
+      {
+       "type": "G1-609",
+       "title": "A Duck Is a Bird That Swims: Define Words",
+       "core": "picture-vocabulary-g1609",
+       "easy": "picture-vocabulary-easy-g1609-6",
+       "hard": "picture-vocabulary-hard-g1609-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "olive-kind-of.category-attribute.l-1-5-b",
+      "slug": "olive-kind-of",
+      "title": "Olive's Kind-Of Tree — What Kind of Thing Is It?"
+     },
+     "exit": {
+      "slug": "sorting-categories-g1608-2",
+      "title": "Words by Category: Cut and Sort"
+     },
+     "note": {
+      "mistake": "Children say what a thing does, not what kind it is (\"a duck swims\"), or sort by where it lives: a frog goes with the fish.",
+      "words": "Say: \"A definition tells what kind of thing it is and what makes it special. A duck is a bird that swims.\" Day 1: children cut out the cards and glue each in its category's box. Level 1 has two boxes, Level 2 birds, fish, and insects. On Level 3 each box says what its members have (Birds have feathers.); two cards fit no box and get an X. The X cards are two of: bat, frog, spider, snail, worm, starfish. Day 2, on screen first: in Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1) children climb a picture to the branch of its kind. Then, on Levels 1 and 2, children copy the category into three frames and circle the words that finish two definitions. Read each sentence and its three choices aloud with the class: the task is choosing, not decoding. On Level 3 they write a category from the box and a special thing for two pictures.",
+      "watch": "A picture may not show every leg: every insect has six. A penguin's feathers are short and tight; a bat flies but has no feathers. On Level 3, accept any true special thing, and \"an animal\" or \"a food\" before asking for the smaller group."
+     },
+     "days": 2
+    },
+    {
+     "n": 5,
      "point": "1:root-words",
      "title": "Find the root word",
      "objective": "Children name a picture and find the longer word that is built from that word, such as rain in rainy.",
@@ -14947,6 +14993,52 @@
       "mistake": "Children circle a word that only starts with the same letters as the picture word and has nothing to do with it: \"carrot\" for the picture of a car, \"panda\" for the picture of a pan.",
       "words": "Say: \"A root word is the word a longer word is built from, and the meaning stays. Rain, rainy, raining: all about rain.\" Test it: \"Does a carrot have anything to do with a car? No. So 'carrot' is not built from 'car.'\"",
       "watch": "Ask the child what the long word means. If the meaning has the picture word in it (a teacher teaches), the root is right; if not, the letters match by accident."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "1:endings-s-ed-ing",
+     "title": "Endings -s, -ed, and -ing",
+     "objective": "Children read and write words with -s, -ed, and -ing (jumps, jumped, jumping) and find the base word in each.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.f",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-610",
+       "title": "Add -s, -ed, and -ing",
+       "core": "word-parts-g1610",
+       "easy": "word-parts-easy-g1610-6",
+       "hard": "word-parts-hard-g1610-11"
+      },
+      {
+       "type": "G1-611",
+       "title": "Which Ending Fits? -s, -ed, or -ing",
+       "core": "verb-forms-g1611",
+       "easy": "verb-forms-easy-g1611-6",
+       "hard": "verb-forms-hard-g1611-11"
+      }
+     ],
+     "screen": {
+      "kind": "activity",
+      "id": "syllable-builder.build-endings.rf-1-3-f",
+      "slug": "build-words-with-endings",
+      "title": "Build Words with Endings — Reading -s, -ed, and -ing"
+     },
+     "exit": {
+      "slug": "word-parts-g1610-2",
+      "title": "Add -s, -ed, and -ing"
+     },
+     "note": {
+      "mistake": "Children read jumped as \"jump-ed\" or skip the ending; on Level 3 they keep the silent e (bakeing) or forget to double (naping).",
+      "words": "Say: \"An ending changes a word: help, helps, helped, helping. The base word is still there. On Level 3 it may double its last letter (hopping) or drop its silent e (baking).\" Day 1, on screen first: in Build Words with Endings — Reading -s, -ed, and -ing children tap where the base word ends and pick the ending a sentence needs. Then the page: children circle the base word in six words and write base words with -s, -ed, and -ing in a table. Level 1 starts with a row done in grey; Level 2 adds -es (dress, dresses) and one word with no ending to cross out; Level 3 has two such words, a word that doubles its last letter, and one that drops its silent e. Day 2, Levels 1 and 2: children circle the word that fits each sentence, then add an ending to a base word in a box. Level 3: they finish Yesterday I, Now I am, and I can see two with a word from a box.",
+      "watch": "A box on the day 2 page names the clue words. The -ed says /t/ in jumped, /d/ in played, /id/ in rested. The pages use only words that add -ed (never ran or went). If a child writes went or ran, it is good English; ask for a word that adds -ed."
      },
      "days": 2
     }
@@ -19048,9 +19140,9 @@
    "grade": "1",
    "subject": "literacy",
    "title": "Grade 1 Reading and Language Scope and Sequence",
-   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (23 Weeks)",
-   "metaDescription": "9 Grade 1 reading and language units in teaching order, about 23 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
-   "weeks": 23,
+   "metaTitle": "Grade 1 ELA Scope and Sequence: Reading and Language (24 Weeks)",
+   "metaDescription": "9 Grade 1 reading and language units in teaching order, about 24 weeks in all (not a full year), with each unit's lessons and its Common Core standards.",
+   "weeks": 24,
    "framework": "Common Core",
    "units": [
     {
@@ -19185,19 +19277,23 @@
      "id": "g1-word-meanings-and-word-parts",
      "slug": "word-meanings-and-word-parts-grade-1-unit",
      "title": "Word Meanings and Word Parts",
-     "weeks": 2,
+     "weeks": 3,
      "from": 18,
-     "to": 19,
+     "to": 20,
      "lessons": [
       "Write the opposite",
       "Two words that mean the same thing",
       "From a little to a lot",
-      "Find the root word"
+      "A duck is a bird that swims: words by category",
+      "Find the root word",
+      "Endings -s, -ed, and -ing"
      ],
      "standards": [
       "L.1.4.c",
       "L.1.5",
-      "L.1.5.d"
+      "L.1.5.b",
+      "L.1.5.d",
+      "RF.1.3.f"
      ]
     },
     {
@@ -19205,8 +19301,8 @@
      "slug": "reading-to-learn-informational-texts-grade-1-unit",
      "title": "Reading to Learn: Informational Texts",
      "weeks": 2,
-     "from": 20,
-     "to": 21,
+     "from": 21,
+     "to": 22,
      "lessons": [
       "Facts in the text",
       "The main topic and key details",
@@ -19224,8 +19320,8 @@
      "slug": "two-syllable-words-grade-1-unit",
      "title": "Two-Syllable Words",
      "weeks": 2,
-     "from": 22,
-     "to": 23,
+     "from": 23,
+     "to": 24,
      "lessons": [
       "Every syllable has a vowel",
       "Compound words and two-part words",

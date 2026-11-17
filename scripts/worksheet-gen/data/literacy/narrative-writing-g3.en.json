@@ -1,0 +1,4683 @@
+{
+ "stories": [
+  {
+   "id": "play",
+   "title": "The Class Play",
+   "pov": "third",
+   "text": "On Thursday afternoon, Zara waited behind the red curtain in the school gym. She wore a crown made of gold paper. The class play would start in two minutes. Kofi peeked through a gap in the curtain. \"The chairs are filling up,\" he whispered. Zara's knees began to shake. She had practiced her lines all week, but now her mind was empty. \"Kofi, what do I say first?\" she asked. Kofi did not know. He had never learned her part.",
+   "chars": [
+    "Zara",
+    "Kofi"
+   ],
+   "place": "in the school gym",
+   "time": "on Thursday afternoon",
+   "problem": "Zara cannot remember her first line.",
+   "far": [
+    [
+     "Zara loses her paper crown.",
+     [
+      "loses",
+      "lost"
+     ]
+    ],
+    [
+     "Kofi trips over a cable and falls off the stage.",
+     [
+      "trips",
+      "cable",
+      "falls"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The play starts an hour late.",
+     [
+      "hour",
+      "late"
+     ]
+    ],
+    [
+     "Kofi cannot find the costume he must wear.",
+     [
+      "costume"
+     ]
+    ]
+   ],
+   "topic": "forgotten lines in a play",
+   "school": true
+  },
+  {
+   "id": "librarybook",
+   "title": "The Front Desk",
+   "pov": "third",
+   "text": "On a rainy Monday morning, Yusuf stood at the front desk of the school library. His library book about volcanoes was due today. He unzipped his backpack and looked inside. There was a lunch box, a pencil case, and a folder, but no book. \"I put it in my bag last night,\" Yusuf said. Mrs. Novak, the librarian, smiled kindly. \"Let's see what we can do,\" she said. Yusuf felt his face get hot.",
+   "chars": [
+    "Yusuf",
+    "Mrs. Novak"
+   ],
+   "place": "in the school library",
+   "time": "on a rainy Monday morning",
+   "problem": "Yusuf's library book is not in his backpack.",
+   "far": [
+    [
+     "Yusuf spills paint on his folder.",
+     [
+      "paint",
+      "spills"
+     ]
+    ],
+    [
+     "Mrs. Novak cannot find her glasses anywhere today.",
+     [
+      "glasses"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Yusuf's library book has a torn page.",
+     [
+      "torn",
+      "page"
+     ]
+    ],
+    [
+     "Yusuf forgets his lunch box and his water bottle.",
+     [
+      "forgets",
+      "bottle"
+     ]
+    ]
+   ],
+   "topic": "a library book left at home",
+   "school": true
+  },
+  {
+   "id": "race",
+   "title": "The Three-Legged Race",
+   "pov": "third",
+   "text": "On field day in June, Ines and Nico stood at the starting line on the school field. They tied Ines's left leg to Nico's right leg with a soft green scarf. \"Ready?\" asked Nico. They took one big step, and both of them fell flat on the grass. They got up and tried again. Down they went! \"We keep falling,\" said Ines, rubbing her elbow. The three-legged race would begin in five minutes.",
+   "chars": [
+    "Ines",
+    "Nico"
+   ],
+   "place": "on the school field",
+   "time": "on field day in June",
+   "problem": "Ines and Nico keep falling when they walk.",
+   "far": [
+    [
+     "Nico loses his green scarf.",
+     [
+      "loses",
+      "lost"
+     ]
+    ],
+    [
+     "Ines forgets her lunch and has nothing to eat.",
+     [
+      "lunch"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The green scarf rips in half.",
+     [
+      "rips",
+      "half"
+     ]
+    ],
+    [
+     "Nico hurts his elbow and has to see the nurse.",
+     [
+      "nurse"
+     ]
+    ]
+   ],
+   "topic": "a three-legged race",
+   "school": true
+  },
+  {
+   "id": "door",
+   "title": "Just Before the Bell",
+   "pov": "third",
+   "text": "Just before the bell on Thursday morning, Ravi and Grace carried the class bean plant down the hallway. The pot was heavy, and dirt spilled over the edge. They stopped at the science room. Ravi turned the doorknob, but the door did not open. He tried again. It was locked. \"We need to put the plant by the window before class,\" said Grace. Her arms were starting to shake.",
+   "chars": [
+    "Ravi",
+    "Grace"
+   ],
+   "place": "in the hallway",
+   "time": "on Thursday morning",
+   "problem": "The door to the science room is locked.",
+   "far": [
+    [
+     "Ravi forgets his homework.",
+     [
+      "homework"
+     ]
+    ],
+    [
+     "Grace falls on the playground and hurts her knee.",
+     [
+      "playground",
+      "knee"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Ravi drops the pot, and it breaks into pieces.",
+     [
+      "breaks",
+      "pieces"
+     ]
+    ],
+    [
+     "The science room is too dark.",
+     [
+      "dark"
+     ]
+    ]
+   ],
+   "topic": "a locked door",
+   "school": true,
+   "also": "They cannot put the plant by the window before class."
+  },
+  {
+   "id": "flatball",
+   "title": "A Soft Thump",
+   "pov": "third",
+   "text": "At recess on Monday, Hugo and Nia ran out to the school field with the class soccer ball. Nia gave it a big kick. It made a soft thump and rolled only a few feet. Hugo picked it up and squeezed it. The ball was squishy, like a pillow. \"It's flat!\" he said. Nia looked in the ball bin by the door. The pump was not there. \"We can't play like this,\" she said.",
+   "chars": [
+    "Hugo",
+    "Nia"
+   ],
+   "place": "on the school field",
+   "time": "at recess on Monday",
+   "problem": "The soccer ball is flat.",
+   "far": [
+    [
+     "Hugo loses his shoe.",
+     [
+      "shoe",
+      "loses"
+     ]
+    ],
+    [
+     "It starts to rain, and recess is moved inside.",
+     [
+      "rain",
+      "moved"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The ball is lost.",
+     [
+      "lost"
+     ]
+    ],
+    [
+     "The ball bin is broken, and the balls fall out.",
+     [
+      "broken",
+      "fall"
+     ]
+    ]
+   ],
+   "topic": "a flat ball",
+   "school": true,
+   "also": "They cannot play soccer."
+  },
+  {
+   "id": "volcano",
+   "title": "Not One Bubble",
+   "pov": "third",
+   "text": "On the morning of the science fair, Diego and Aisha set their clay volcano on a table in the science room. It was brown and green, with a little cup hidden at the top. Aisha poured in the baking soda. Diego poured in the vinegar. Nothing happened. No foam came up. Not one bubble! \"It worked yesterday,\" said Diego. The fair would open in ten minutes.",
+   "chars": [
+    "Diego",
+    "Aisha"
+   ],
+   "place": "in the science room",
+   "time": "on the morning of the fair",
+   "problem": "Their volcano will not fizz.",
+   "far": [
+    [
+     "Diego breaks his arm.",
+     [
+      "arm",
+      "breaks"
+     ]
+    ],
+    [
+     "Aisha leaves her poster for the fair at home.",
+     [
+      "poster",
+      "home"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The volcano falls over.",
+     [
+      "falls"
+     ]
+    ],
+    [
+     "They spill the vinegar on the floor.",
+     [
+      "spill",
+      "floor"
+     ]
+    ]
+   ],
+   "topic": "a volcano that will not fizz",
+   "school": true
+  },
+  {
+   "id": "glue",
+   "title": "Art Table Trouble",
+   "pov": "third",
+   "text": "On Wednesday afternoon, Lucy and Marcus sat at the art table in their classroom. They were making bee puppets on craft sticks. Marcus cut out a yellow paper bee. Lucy pulled the cap off the glue stick and rubbed it on a craft stick. Nothing stuck. The glue was dry and hard. \"This is the last glue stick,\" said Lucy. Marcus held up the paper bee and sighed.",
+   "chars": [
+    "Lucy",
+    "Marcus"
+   ],
+   "place": "in the classroom",
+   "time": "on Wednesday afternoon",
+   "problem": "Their last glue stick is dried out.",
+   "far": [
+    [
+     "Marcus loses his scissors.",
+     [
+      "scissors",
+      "loses"
+     ]
+    ],
+    [
+     "Lucy is late because her school bus broke down.",
+     [
+      "late",
+      "broke"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "They run out of yellow paper.",
+     [
+      "run"
+     ]
+    ],
+    [
+     "The craft stick snaps when Marcus picks it up.",
+     [
+      "snaps"
+     ]
+    ]
+   ],
+   "topic": "a dried-up glue stick",
+   "school": true
+  },
+  {
+   "id": "zipper",
+   "title": "Getting Ready for Recess",
+   "pov": "third",
+   "text": "On a cold Tuesday morning, Nina and Owen got ready for recess by the coat hooks in the hallway. Nina pulled on her puffy purple coat. She tugged the zipper up, but it stopped halfway. It would not go up, and it would not go down. \"It's stuck!\" she said. Owen tried to pull it too. Outside, snow was falling, and the wind was howling. Nina could not go out with her coat open.",
+   "chars": [
+    "Nina",
+    "Owen"
+   ],
+   "place": "in the hallway",
+   "time": "on a cold Tuesday morning",
+   "problem": "The zipper of Nina's coat is stuck.",
+   "far": [
+    [
+     "Owen loses his hat.",
+     [
+      "hat",
+      "loses"
+     ]
+    ],
+    [
+     "Nina trips on the stairs and drops her books.",
+     [
+      "stairs",
+      "trips"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Nina's coat is too small.",
+     [
+      "small"
+     ]
+    ],
+    [
+     "Owen's zipper is stuck, so he cannot zip his coat.",
+     [
+      "zip"
+     ]
+    ]
+   ],
+   "topic": "a stuck zipper",
+   "school": true
+  },
+  {
+   "id": "puzzle",
+   "title": "The City at Night",
+   "pov": "third",
+   "text": "On Friday after lunch, Talia and Mr. Kim worked on the giant floor puzzle in the classroom. It showed a city with lights in every window. For a whole week, they had put it together piece by piece. Now only one hole was left, right in the middle of the moon. Talia looked in the box. It was empty. \"Where is the last piece?\" she asked. Mr. Kim shook his head.",
+   "chars": [
+    "Talia",
+    "Mr. Kim"
+   ],
+   "place": "in the classroom",
+   "time": "on Friday after lunch",
+   "problem": "The last piece of the puzzle is missing.",
+   "far": [
+    [
+     "Talia spills her milk.",
+     [
+      "milk",
+      "spills"
+     ]
+    ],
+    [
+     "Mr. Kim loses his keys and cannot open the door.",
+     [
+      "keys",
+      "door"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The puzzle box is broken, and its lid is lost.",
+     [
+      "broken",
+      "lid"
+     ]
+    ],
+    [
+     "One puzzle piece is torn.",
+     [
+      "torn"
+     ]
+    ]
+   ],
+   "topic": "a missing puzzle piece",
+   "school": true
+  },
+  {
+   "id": "knot",
+   "title": "Two Minutes Left",
+   "pov": "third",
+   "text": "On Wednesday morning, Kenji sat on the bench outside the gym. Gym class was about to start, and he had to change his shoes. But his shoelace had a tight knot in it. Kenji pulled at the knot with his fingers. It only got tighter. Sofia sat down next to him. \"Gym starts in two minutes,\" she said. Kenji tugged harder, but the knot did not move.",
+   "chars": [
+    "Kenji",
+    "Sofia"
+   ],
+   "place": "outside the gym",
+   "time": "on Wednesday morning",
+   "problem": "Kenji's shoelace has a tight knot.",
+   "far": [
+    [
+     "Sofia loses her backpack.",
+     [
+      "backpack",
+      "loses"
+     ]
+    ],
+    [
+     "Kenji forgets his lunch and his water bottle.",
+     [
+      "lunch",
+      "bottle"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Kenji's shoelace breaks.",
+     [
+      "breaks"
+     ]
+    ],
+    [
+     "Sofia's shoelace has a knot she cannot untie.",
+     [
+      "untie"
+     ]
+    ]
+   ],
+   "topic": "a knot in a shoelace",
+   "school": true
+  },
+  {
+   "id": "rope",
+   "title": "Knots and Loops",
+   "pov": "third",
+   "text": "On a windy Thursday at recess, June and Felix pulled the long jump rope out of the bin on the blacktop. The rope was one big tangle of knots and loops. \"Who put it away like this?\" asked Felix. June found one end and pulled. The knots only got tighter. The jump-rope contest was after recess, and they had not practiced once.",
+   "chars": [
+    "June",
+    "Felix"
+   ],
+   "place": "on the blacktop",
+   "time": "at recess on a windy Thursday",
+   "problem": "The jump rope is one big tangle.",
+   "far": [
+    [
+     "Felix breaks his arm.",
+     [
+      "arm",
+      "breaks"
+     ]
+    ],
+    [
+     "June loses her hat somewhere on the way to school.",
+     [
+      "hat",
+      "school"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The jump rope is too short.",
+     [
+      "short"
+     ]
+    ],
+    [
+     "The jump-rope contest is canceled.",
+     [
+      "canceled"
+     ]
+    ]
+   ],
+   "topic": "a tangled jump rope",
+   "school": true,
+   "also": "They cannot practice for the contest."
+  },
+  {
+   "id": "picture",
+   "title": "Say Cheese!",
+   "pov": "third",
+   "text": "It was picture day, and Andre and Lucia stood in line outside the library on Tuesday morning. Lucia looked at Andre and pointed. \"There's a cowlick sticking up,\" she said. Andre touched the top of his head. A big tuft of hair stood up like a feather. He patted it down, but it popped right back up. The camera flashed inside the library. Andre was next in line.",
+   "chars": [
+    "Andre",
+    "Lucia"
+   ],
+   "place": "outside the library",
+   "time": "on Tuesday morning",
+   "problem": "Andre's hair is sticking up on picture day.",
+   "far": [
+    [
+     "Lucia loses her shoes.",
+     [
+      "shoes",
+      "loses"
+     ]
+    ],
+    [
+     "Andre forgets his backpack on the school bus.",
+     [
+      "backpack",
+      "bus"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Lucia's hair sticks straight up, and she is next.",
+     []
+    ],
+    [
+     "The camera is broken.",
+     [
+      "broken"
+     ]
+    ]
+   ],
+   "topic": "hair on picture day",
+   "school": true
+  },
+  {
+   "id": "recorder",
+   "title": "The New Song",
+   "pov": "third",
+   "text": "On Monday afternoon, Amara and Luca took their seats in the music room. Today they would play their song for the first time. Luca opened his case and took out his recorder. Amara opened her case too. It was empty! \"My recorder is gone,\" Amara whispered. Luca looked under her chair. There was nothing there but a crayon. The music was about to begin.",
+   "chars": [
+    "Amara",
+    "Luca"
+   ],
+   "place": "in the music room",
+   "time": "on Monday afternoon",
+   "problem": "Amara's recorder is not in its case.",
+   "far": [
+    [
+     "Luca breaks his chair.",
+     [
+      "breaks"
+     ]
+    ],
+    [
+     "Amara cannot find the lunchroom at lunchtime.",
+     [
+      "lunchroom",
+      "lunchtime"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Amara's recorder is broken and only squeaks.",
+     [
+      "broken",
+      "squeaks"
+     ]
+    ],
+    [
+     "Luca's case is empty.",
+     []
+    ]
+   ],
+   "topic": "a missing recorder",
+   "school": true
+  },
+  {
+   "id": "map",
+   "title": "Over the Bushes",
+   "pov": "third",
+   "text": "On a windy Saturday afternoon, Malik and his grandpa walked into Cedar Park with a paper trail map. They wanted to find the waterfall. His grandpa unfolded the map to look at it. Just then, a gust of wind snatched it out of his hands. The map flew over the bushes and landed in the creek. \"Oh no!\" said Malik. Now they did not know which trail led to the waterfall.",
+   "chars": [
+    "Malik",
+    "his grandpa"
+   ],
+   "place": "in Cedar Park",
+   "time": "on a windy Saturday afternoon",
+   "problem": "The wind blows their map into the creek.",
+   "far": [
+    [
+     "Malik loses his shoe.",
+     [
+      "shoe",
+      "loses"
+     ]
+    ],
+    [
+     "His grandpa slips and falls into the cold creek.",
+     [
+      "falls",
+      "slips"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "They cannot find the creek.",
+     []
+    ],
+    [
+     "Malik drops his water bottle on the long trail.",
+     [
+      "bottle",
+      "drops"
+     ]
+    ]
+   ],
+   "topic": "a map that blows away",
+   "school": false,
+   "also": "They do not know which trail goes to the waterfall."
+  },
+  {
+   "id": "pencils",
+   "title": "Spelling Test Day",
+   "pov": "third",
+   "text": "On Wednesday morning, Hazel and Marco sat at their desks in the classroom. The spelling test would start in five minutes. Hazel picked up her pencil. The tip was dull and flat. Marco's pencil was dull too. They walked to the pencil sharpener by the window. Marco pushed his pencil in, but the sharpener did not buzz. \"It's broken,\" said Hazel.",
+   "chars": [
+    "Hazel",
+    "Marco"
+   ],
+   "place": "in the classroom",
+   "time": "on Wednesday morning",
+   "problem": "The pencil sharpener is broken.",
+   "far": [
+    [
+     "Marco loses his backpack.",
+     [
+      "backpack",
+      "loses"
+     ]
+    ],
+    [
+     "Hazel spills her water all over the spelling test.",
+     [
+      "water",
+      "spills"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Hazel's pencil is lost.",
+     [
+      "lost"
+     ]
+    ],
+    [
+     "The spelling test is canceled because of snow.",
+     [
+      "canceled",
+      "snow"
+     ]
+    ]
+   ],
+   "topic": "a broken pencil sharpener",
+   "school": true,
+   "also": "Their pencils are dull, and the sharpener is broken."
+  },
+  {
+   "id": "room12",
+   "title": "Room 12",
+   "pov": "first",
+   "narrator": "Mia",
+   "text": "On the first morning of third grade, I walked into the school with my friend Theo. I looked at the paper in my hand. It said Room 12. But the hallway only went up to Room 10! \"Mia, where is your room?\" asked Theo. \"I don't know,\" I said. Theo waved and ran into Room 8. The bell began to ring, and I was still standing in the hallway.",
+   "chars": [
+    "Mia",
+    "Theo"
+   ],
+   "place": "in the hallway",
+   "time": "on the first morning of third grade",
+   "problem": "Mia cannot find her classroom.",
+   "far": [
+    [
+     "Theo loses his lunch.",
+     [
+      "lunch",
+      "loses"
+     ]
+    ],
+    [
+     "Mia falls on the stairs on her way into school.",
+     [
+      "stairs",
+      "falls"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Theo cannot find his classroom.",
+     []
+    ],
+    [
+     "Mia forgets her paper.",
+     [
+      "forgets"
+     ]
+    ]
+   ],
+   "topic": "a classroom that cannot be found",
+   "school": true,
+   "narratorIs": "girl"
+  },
+  {
+   "id": "torn",
+   "title": "The Great White Shark",
+   "pov": "first",
+   "narrator": "Kai",
+   "text": "After lunch on Friday, my friend Ben and I sat in the reading corner with a library book about sharks. Ben turned the page too fast. Rrrip! A long tear ran down the middle of the page, right through a great white shark. \"Kai, look what I did,\" Ben whispered. I stared at the torn shark. The book had to go back to the library on Monday.",
+   "chars": [
+    "Kai",
+    "Ben"
+   ],
+   "place": "in the reading corner",
+   "time": "after lunch on Friday",
+   "problem": "A page of the library book is torn.",
+   "far": [
+    [
+     "Ben loses his shoe.",
+     [
+      "shoe",
+      "loses"
+     ]
+    ],
+    [
+     "Kai is late for school and misses reading time.",
+     [
+      "late",
+      "misses"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The library book is lost.",
+     [
+      "lost"
+     ]
+    ],
+    [
+     "Ben spills a cup of water on the library book.",
+     [
+      "spills",
+      "cup"
+     ]
+    ]
+   ],
+   "topic": "a torn library page",
+   "school": true,
+   "narratorIs": "boy"
+  },
+  {
+   "id": "puddle",
+   "title": "The Puddle",
+   "pov": "first",
+   "narrator": "Elena",
+   "text": "On a rainy Tuesday morning, I hurried up the front steps of the school. A big puddle sat on the top step. I jumped over it, but I did not jump far enough. Splash! My left shoe and sock were soaked. \"Elena, your shoe!\" said my friend Amir. Water squished between my toes with every step, and the school day had not even started.",
+   "chars": [
+    "Elena",
+    "Amir"
+   ],
+   "place": "on the front steps",
+   "time": "on a rainy Tuesday morning",
+   "problem": "Elena's shoe and sock are soaking wet.",
+   "far": [
+    [
+     "Amir loses his umbrella.",
+     [
+      "umbrella",
+      "loses"
+     ]
+    ],
+    [
+     "Elena forgets her lunch and her book at home.",
+     [
+      "lunch"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Amir's shoes are wet.",
+     []
+    ],
+    [
+     "Elena's shoe has a hole, and her toe sticks out.",
+     [
+      "hole",
+      "sticks"
+     ]
+    ]
+   ],
+   "topic": "a wet shoe",
+   "school": true,
+   "narratorIs": "girl"
+  },
+  {
+   "id": "hiccups",
+   "title": "Hic! Hic!",
+   "pov": "first",
+   "narrator": "Adam",
+   "text": "On Thursday morning, our classroom was quiet for the spelling test. I wrote the first word. Then it started. Hic! I put my hand over my mouth. Hic! Hic! \"Adam, hold your breath,\" whispered my friend Sara. I held my breath and counted to ten. It did not help. Hic! The next word was \"giraffe,\" and I could not even hear it.",
+   "chars": [
+    "Adam",
+    "Sara"
+   ],
+   "place": "in the classroom",
+   "time": "on Thursday morning",
+   "problem": "Adam cannot stop his hiccups during the test.",
+   "far": [
+    [
+     "Sara loses her pencil.",
+     [
+      "pencil",
+      "loses"
+     ]
+    ],
+    [
+     "Adam falls off his chair and knocks over his desk.",
+     [
+      "falls",
+      "knocks"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Sara has the hiccups.",
+     []
+    ],
+    [
+     "The spelling words are much too hard for Adam.",
+     [
+      "hard"
+     ]
+    ]
+   ],
+   "topic": "hiccups in a test",
+   "school": true,
+   "narratorIs": "boy"
+  },
+  {
+   "id": "window",
+   "title": "Like an Oven",
+   "pov": "first",
+   "narrator": "Ava",
+   "text": "On a hot afternoon in June, our classroom felt like an oven. Jonah and I went to open the big window. I pushed up on the frame. It did not move. \"Ava, push harder!\" said Jonah. We both pushed until our arms hurt. The window was stuck tight. Outside, the leaves on the trees did not move at all, and the air was hot and still.",
+   "chars": [
+    "Ava",
+    "Jonah"
+   ],
+   "place": "in the classroom",
+   "time": "on a hot afternoon in June",
+   "problem": "The classroom window is stuck.",
+   "far": [
+    [
+     "Jonah loses his hat.",
+     [
+      "hat",
+      "loses"
+     ]
+    ],
+    [
+     "Ava spills her paint all over the classroom floor.",
+     [
+      "paint",
+      "spills",
+      "floor"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The window is dirty.",
+     [
+      "dirty"
+     ]
+    ],
+    [
+     "The classroom door is stuck, and no one gets in.",
+     [
+      "door"
+     ]
+    ]
+   ],
+   "topic": "a stuck window",
+   "school": true,
+   "narratorIs": "girl"
+  },
+  {
+   "id": "airplane",
+   "title": "Stripes on the Wings",
+   "pov": "first",
+   "narrator": "Luis",
+   "text": "At recess on Friday, my friend Nora and I made paper airplanes on the blacktop. Mine had red stripes on the wings. I threw it as hard as I could. It sailed up, up, up and landed on the roof of the school! \"Luis, it's stuck up there,\" Nora said. I stared at the roof. That airplane took me all of recess to make, and the bell was about to ring.",
+   "chars": [
+    "Luis",
+    "Nora"
+   ],
+   "place": "on the blacktop",
+   "time": "at recess on Friday",
+   "problem": "Luis's paper airplane is stuck on the roof.",
+   "far": [
+    [
+     "Nora tears her paper.",
+     [
+      "tears"
+     ]
+    ],
+    [
+     "Luis loses his red jacket on the bus ride home.",
+     [
+      "jacket"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The paper airplane rips in two.",
+     [
+      "rips"
+     ]
+    ],
+    [
+     "Nora's paper airplane is stuck up in a tall tree.",
+     [
+      "tree"
+     ]
+    ]
+   ],
+   "topic": "an airplane stuck up high",
+   "school": true,
+   "narratorIs": "boy"
+  },
+  {
+   "id": "sneaker",
+   "title": "Hurry Up!",
+   "pov": "first",
+   "narrator": "Dev",
+   "text": "On Tuesday morning, I sat on the bench by the gym door with only one sneaker on. My left sneaker was gone. I looked under the bench and behind the door. \"Dev, hurry up!\" called my friend Grace from the hallway. \"I can't find my other shoe!\" I called back. I could hear whistles and bouncing balls. Gym class had already started without me.",
+   "chars": [
+    "Dev",
+    "Grace"
+   ],
+   "place": "by the gym door",
+   "time": "on Tuesday morning",
+   "problem": "Dev cannot find his left sneaker.",
+   "far": [
+    [
+     "Grace falls in the hallway.",
+     [
+      "falls"
+     ]
+    ],
+    [
+     "Dev forgets his lunch on the day of a field trip.",
+     [
+      "lunch",
+      "trip"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Dev cannot find his gym shirt.",
+     [
+      "shirt"
+     ]
+    ],
+    [
+     "Grace's sneaker has a broken lace that won't tie.",
+     [
+      "lace",
+      "broken"
+     ]
+    ]
+   ],
+   "topic": "a lost sneaker",
+   "school": true,
+   "narratorIs": "boy"
+  },
+  {
+   "id": "wrongbus",
+   "title": "The Ride Home",
+   "pov": "first",
+   "narrator": "Ruby",
+   "text": "After school on Monday, I climbed onto Bus 9 and sat by the window. The bus turned left at the corner. My bus always turns right! I did not know these streets at all. \"Ruby, this isn't your bus,\" said the girl next to me. It was Jada from my class. My stomach dropped. The bus kept rolling farther and farther away from my street.",
+   "chars": [
+    "Ruby",
+    "Jada"
+   ],
+   "place": "on Bus 9",
+   "time": "after school on Monday",
+   "problem": "Ruby is on the wrong bus.",
+   "far": [
+    [
+     "Jada loses her backpack.",
+     [
+      "backpack"
+     ]
+    ],
+    [
+     "Ruby forgets her homework at school on Friday.",
+     [
+      "homework",
+      "rainy"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The bus has a flat tire.",
+     [
+      "tire",
+      "flat"
+     ]
+    ],
+    [
+     "Jada is on the wrong bus by mistake today.",
+     [
+      "mistake"
+     ]
+    ]
+   ],
+   "topic": "the wrong bus",
+   "school": true,
+   "narratorIs": "girl"
+  },
+  {
+   "id": "sandcastle",
+   "title": "Whoosh!",
+   "pov": "first",
+   "narrator": "Sam",
+   "text": "On a sunny Saturday at the beach, my friend Eli and I built a sandcastle with four towers while my mom read nearby. We dug a moat all around it. Then a big wave rushed up the sand. Whoosh! It knocked down two towers and filled the moat with water. \"Sam, the waves are coming closer!\" Eli shouted. I looked at the ocean. The next wave was even bigger.",
+   "chars": [
+    "Sam",
+    "Eli"
+   ],
+   "place": "at the beach",
+   "time": "on a sunny Saturday",
+   "problem": "The waves are knocking down their sandcastle.",
+   "far": [
+    [
+     "Eli loses his shovel.",
+     [
+      "shovel"
+     ]
+    ],
+    [
+     "Sam gets a bad sunburn on his nose and his arms.",
+     [
+      "sunburn"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "The sand is too dry.",
+     [
+      "dry"
+     ]
+    ],
+    [
+     "A big dog runs right through their sandcastle.",
+     [
+      "dog"
+     ]
+    ]
+   ],
+   "topic": "waves and a sandcastle",
+   "alsoChars": "Sam, Eli, and Sam's mom",
+   "school": false,
+   "narratorIs": "boy"
+  },
+  {
+   "id": "necklace",
+   "title": "Snap!",
+   "pov": "first",
+   "narrator": "Zoe",
+   "text": "On Wednesday morning, I sat at the long table in the art room with my friend Priya. We were making necklaces with clay beads. I tied a knot at the end of my string and held it up. Snap! The string broke, and beads bounced all over the floor. Some rolled under the shelves. \"Zoe, your beads!\" Priya cried. Art class would end in ten minutes, and my string was empty.",
+   "chars": [
+    "Zoe",
+    "Priya"
+   ],
+   "place": "in the art room",
+   "time": "on Wednesday morning",
+   "problem": "Zoe's string breaks, and her beads roll away.",
+   "far": [
+    [
+     "Priya spills the paint water.",
+     [
+      "spills",
+      "paint"
+     ]
+    ],
+    [
+     "Zoe forgets her coat and hat on the school bus.",
+     [
+      "coat",
+      "bus"
+     ]
+    ]
+   ],
+   "near": [
+    [
+     "Zoe's beads are the wrong color.",
+     [
+      "color"
+     ]
+    ],
+    [
+     "Priya's string is much too short to tie a knot.",
+     [
+      "short"
+     ]
+    ]
+   ],
+   "topic": "a broken necklace",
+   "school": true,
+   "narratorIs": "girl"
+  }
+ ],
+ "pools": {
+  "names": [
+   "Bo",
+   "Jo",
+   "Ben",
+   "Mia",
+   "Tess",
+   "Max",
+   "Ivy",
+   "Gus",
+   "Lena",
+   "Ruth",
+   "Jack",
+   "Ella",
+   "Pablo",
+   "Rosa",
+   "Simon",
+   "Bianca",
+   "Marisol",
+   "Desmond",
+   "Valentina",
+   "Sebastian",
+   "Alejandro",
+   "Gabriella",
+   "Maximilian",
+   "Anastasia",
+   "Christopher",
+   "Mr. Washington"
+  ],
+  "places": [
+   "at the zoo",
+   "at the farm",
+   "in the gym",
+   "at the park",
+   "at the beach",
+   "in the library",
+   "in the art room",
+   "at the bus stop",
+   "in the lunchroom",
+   "on the playground",
+   "in the music room",
+   "at the swimming pool",
+   "in the science room",
+   "on the school bus",
+   "on the soccer field",
+   "in the school garden",
+   "at the grocery store",
+   "in the parking lot of the mall",
+   "on a boat in the middle of the lake",
+   "at the top of a snowy mountain",
+   "in a tent in the woods"
+  ],
+  "schoolTimes": [
+   "on Monday morning",
+   "after lunch on Tuesday",
+   "before school on Thursday",
+   "at recess on Friday",
+   "after school on Wednesday",
+   "on Thursday afternoon",
+   "on Friday morning",
+   "at lunch on Monday",
+   "on Tuesday afternoon",
+   "before lunch on Wednesday",
+   "after school on Friday",
+   "on Wednesday afternoon",
+   "at recess on Tuesday",
+   "after lunch on Thursday"
+  ],
+  "times": [
+   "at bedtime",
+   "at sunset",
+   "on Monday morning",
+   "on a snowy night",
+   "on a rainy afternoon",
+   "on Saturday night",
+   "on a hot summer night",
+   "after school on Friday",
+   "on Sunday morning",
+   "on a windy evening",
+   "before breakfast",
+   "on a foggy morning",
+   "on Tuesday evening",
+   "on a cold winter night",
+   "on a warm spring evening",
+   "late at night during a thunderstorm",
+   "on the last night of summer vacation",
+   "just before dinner on a Sunday evening"
+  ]
+ },
+ "ideas": [
+  {
+   "id": "newstudent",
+   "idea": "A new student does not know anyone in class.",
+   "plan": {
+    "chars": "Priya and a boy named Sam",
+    "setting": "in the classroom on Monday",
+    "problem": "Priya does not know anyone",
+    "events": [
+     "Sam says hi to her",
+     "they sit together at lunch",
+     "Sam shows her the art room"
+    ],
+    "ending": "Priya has a new friend"
+   },
+   "draft": {
+    "beginning": "On Monday morning, a new girl named Priya came into Sam's classroom and sat all alone.",
+    "oneDay": "a new girl named Priya came into Sam's classroom and sat all alone.",
+    "events": [
+     "First, Sam said, \"You can sit by me.\"",
+     "At lunch, they sat together and talked.",
+     "After lunch, Sam showed her the art room."
+    ],
+    "ending": "Finally, Priya smiled and said, \"Thanks for being my friend.\""
+   },
+   "dialogue": [
+    {
+     "s": "Welcome to our class!",
+     "tag": "cried",
+     "n": "Sam",
+     "act": "He grinned and moved his books to make room."
+    },
+    {
+     "s": "What is your name?",
+     "tag": "asked",
+     "n": "Sam",
+     "act": "He smiled at her."
+    },
+    {
+     "s": "My name is Priya.",
+     "tag": "said",
+     "n": "Priya",
+     "act": "She looked down at her shoes."
+    }
+   ],
+   "revise": [
+    "Sam hurried over to her desk.",
+    "Priya whispered, \"Hello.\"",
+    "Sam was a kind friend."
+   ],
+   "topic": "a new student"
+  },
+  {
+   "id": "rainyrecess",
+   "idea": "It rains, so recess has to be inside.",
+   "plan": {
+    "chars": "Tomas and his friend Lila",
+    "setting": "in the classroom at recess",
+    "problem": "they have nothing to do inside",
+    "events": [
+     "they find a box of games",
+     "a game piece is missing",
+     "Lila makes one from paper"
+    ],
+    "ending": "they play until the bell rings"
+   },
+   "draft": {
+    "beginning": "One rainy Tuesday, Tomas and Lila had to stay in the classroom for recess, and there was nothing to do.",
+    "oneDay": "rain kept Tomas and Lila in the classroom at recess with nothing to do.",
+    "events": [
+     "First, they found a box of old games.",
+     "Then, Lila cried, \"A piece is missing!\"",
+     "Next, Lila made a new piece from paper."
+    ],
+    "ending": "Finally, they played until the bell rang, and Tomas grinned."
+   },
+   "dialogue": [
+    {
+     "s": "Can we go outside?",
+     "tag": "asked",
+     "n": "Tomas",
+     "act": "He sighed and pressed his nose to the window."
+    },
+    {
+     "s": "It's still raining.",
+     "tag": "said",
+     "n": "Lila",
+     "act": "She frowned at the gray sky."
+    },
+    {
+     "s": "Let's make a new piece!",
+     "tag": "shouted",
+     "n": "Lila",
+     "act": "She grabbed paper and scissors."
+    }
+   ],
+   "revise": [
+    "Tomas stared at the gray sky.",
+    "Lila mumbled, \"Not again.\"",
+    "The classroom felt cozy and warm."
+   ],
+   "topic": "a rainy day inside"
+  },
+  {
+   "id": "note",
+   "idea": "A student finds a note in a library book.",
+   "plan": {
+    "chars": "Jamal and his friend Mei",
+    "setting": "in the library after lunch",
+    "problem": "a note in a book has no name",
+    "events": [
+     "they read the note",
+     "they find a second note",
+     "they look on the rug"
+    ],
+    "ending": "the librarian wrote the notes"
+   },
+   "draft": {
+    "beginning": "After lunch in the school library, Jamal and Mei found a note with no name inside a library book.",
+    "oneDay": "in the school library, Jamal and Mei found a note with no name in a book.",
+    "events": [
+     "First, they read the note out loud.",
+     "Next, Mei whispered, \"It says the globe!\"",
+     "Then, a second note sent them to the rug."
+    ],
+    "ending": "Finally, they grinned at a new book and a card from Ms. Lee, the librarian."
+   },
+   "dialogue": [
+    {
+     "s": "Who wrote this?",
+     "tag": "asked",
+     "n": "Mei",
+     "act": "She turned the note over and frowned."
+    },
+    {
+     "s": "Look by the globe.",
+     "tag": "said",
+     "n": "Jamal",
+     "act": "He grinned and pointed across the room."
+    },
+    {
+     "s": "Here is another note.",
+     "tag": "whispered",
+     "n": "Mei",
+     "act": "She gasped and held up a yellow card."
+    }
+   ],
+   "revise": [
+    "Mei whispered, \"Who wrote this?\"",
+    "Jamal peeked behind the huge globe.",
+    "They found a huge mystery book."
+   ],
+   "topic": "a mystery note"
+  },
+  {
+   "id": "hamster",
+   "idea": "The class hamster gets out and hides.",
+   "plan": {
+    "chars": "Nadia and Mr. Okafor",
+    "setting": "in the classroom early Monday",
+    "problem": "the hamster cage is empty",
+    "events": [
+     "they look under the rug",
+     "they hear a scratch",
+     "they put seeds by the door"
+    ],
+    "ending": "the hamster comes out to eat"
+   },
+   "draft": {
+    "beginning": "Early on Monday in the classroom, Nadia and Mr. Okafor saw that the hamster's cage was empty.",
+    "oneDay": "Nadia and Mr. Okafor saw an empty hamster cage in the classroom.",
+    "events": [
+     "First, Nadia looked under the reading rug.",
+     "Then, Nadia whispered, \"I hear a scratch!\"",
+     "After that, they put seeds by the door."
+    ],
+    "ending": "In the end, the hamster crept out to eat, and Nadia smiled."
+   },
+   "dialogue": [
+    {
+     "s": "The cage is empty!",
+     "tag": "cried",
+     "n": "Nadia",
+     "act": "She dropped her backpack."
+    },
+    {
+     "s": "Stay very quiet.",
+     "tag": "said",
+     "n": "Nadia",
+     "act": "She knelt by the closet door and held her breath."
+    },
+    {
+     "s": "Do you hear that?",
+     "tag": "asked",
+     "n": "Nadia",
+     "act": "She gasped and pointed at the closet."
+    }
+   ],
+   "revise": [
+    "Nadia peeked under the reading rug.",
+    "The hamster crept toward the seeds.",
+    "Mr. Okafor whispered, \"There it is.\""
+   ],
+   "topic": "an escaped class pet"
+  },
+  {
+   "id": "tooth",
+   "idea": "A loose tooth falls out at school.",
+   "plan": {
+    "chars": "Kwame and his friend Rina",
+    "setting": "in the classroom after lunch",
+    "problem": "his tooth rolls away",
+    "events": [
+     "they look under his desk",
+     "Rina checks the rug",
+     "they ask Mr. Hall for help"
+    ],
+    "ending": "it is stuck in his sweater"
+   },
+   "draft": {
+    "beginning": "After lunch in the classroom, Kwame's loose tooth fell out, and Rina saw it roll away.",
+    "oneDay": "in the classroom, Kwame's loose tooth fell out, and Rina saw it roll away.",
+    "events": [
+     "First, they looked under his desk.",
+     "Next, Rina checked the reading rug.",
+     "Then, Mr. Hall said, \"Check your sweater!\""
+    ],
+    "ending": "Finally, they found the tooth stuck in his sweater, and Kwame grinned."
+   },
+   "dialogue": [
+    {
+     "s": "My tooth fell out!",
+     "tag": "cried",
+     "n": "Kwame",
+     "act": "He held his hand over his mouth."
+    },
+    {
+     "s": "Where did it go?",
+     "tag": "asked",
+     "n": "Rina",
+     "act": "She bent down and gasped."
+    },
+    {
+     "s": "I found it!",
+     "tag": "shouted",
+     "n": "Rina",
+     "act": "She grinned and pointed at his sweater."
+    }
+   ],
+   "revise": [
+    "Kwame searched under every desk.",
+    "Rina spotted something tiny and white.",
+    "The tooth was stuck in his sweater."
+   ],
+   "topic": "a lost tooth"
+  },
+  {
+   "id": "bee",
+   "idea": "A bee flies into the classroom.",
+   "plan": {
+    "chars": "Ezra and his friend Rosa",
+    "setting": "in the classroom in spring",
+    "problem": "a bee flies into the room",
+    "events": [
+     "everyone stays very still",
+     "Ms. Diaz opens a window",
+     "the bee finds the window"
+    ],
+    "ending": "the bee flies outside"
+   },
+   "draft": {
+    "beginning": "One spring morning, a bee flew into the classroom where Ezra and Rosa sat.",
+    "oneDay": "a bee flew into the classroom where Ezra and Rosa sat.",
+    "events": [
+     "First, Rosa cried, \"There is a bee!\"",
+     "Next, Ms. Diaz opened a big window.",
+     "After a while, the bee flew to the glass."
+    ],
+    "ending": "Finally, the bee flew outside, and Ezra sighed."
+   },
+   "dialogue": [
+    {
+     "s": "There is a bee!",
+     "tag": "cried",
+     "n": "Rosa",
+     "act": "She jumped up and pointed at the lamp."
+    },
+    {
+     "s": "Sit very still.",
+     "tag": "whispered",
+     "n": "Ezra",
+     "act": "He trembled in his chair."
+    },
+    {
+     "s": "Is it gone yet?",
+     "tag": "asked",
+     "n": "Rosa",
+     "act": "She peeked over her book."
+    }
+   ],
+   "revise": [
+    "The bee buzzed around the lamp.",
+    "Ezra froze in his chair.",
+    "Rosa whispered, \"Is it gone?\""
+   ],
+   "topic": "a bee in the classroom"
+  },
+  {
+   "id": "substitute",
+   "idea": "A substitute teacher mixes up names.",
+   "plan": {
+    "chars": "Tess and Mr. Gray",
+    "setting": "in the classroom on Tuesday",
+    "problem": "Mr. Gray mixes up the names",
+    "events": [
+     "he calls her Jess",
+     "the class giggles",
+     "they make name tags"
+    ],
+    "ending": "he learns every name"
+   },
+   "draft": {
+    "beginning": "On Tuesday, Mr. Gray came to teach in Tess's classroom, but he mixed up the names.",
+    "oneDay": "Mr. Gray came to teach in Tess's classroom, but he mixed up the names.",
+    "events": [
+     "First, he called Tess by the name Jess.",
+     "Next, Tess said, \"My name is Tess.\"",
+     "Then, Tess helped everyone make name tags."
+    ],
+    "ending": "In the end, Mr. Gray knew every name, and he grinned at the class."
+   },
+   "dialogue": [
+    {
+     "s": "My name is Tess.",
+     "tag": "said",
+     "n": "Tess",
+     "act": "She smiled at Mr. Gray."
+    },
+    {
+     "s": "Who is Jess?",
+     "tag": "asked",
+     "n": "Ben",
+     "act": "He giggled and glanced around the room."
+    },
+    {
+     "s": "Let's make name tags!",
+     "tag": "cried",
+     "n": "Tess",
+     "act": "She grinned and held up a marker."
+    }
+   ],
+   "revise": [
+    "Mr. Gray smiled at the class.",
+    "Tess giggled at the funny mix-up.",
+    "The name tags were bright and clear."
+   ],
+   "topic": "a substitute teacher"
+  },
+  {
+   "id": "lineleader",
+   "idea": "Two friends both want to be line leader.",
+   "plan": {
+    "chars": "Jack and his friend Zoe",
+    "setting": "in the classroom before lunch",
+    "problem": "both of them want to lead",
+    "events": [
+     "they push to the front",
+     "they stop and talk",
+     "they make a chart of turns"
+    ],
+    "ending": "they take turns each day"
+   },
+   "draft": {
+    "beginning": "Before lunch on Monday, Jack and Zoe both ran to the classroom door to be line leader.",
+    "oneDay": "Jack and Zoe both ran to the classroom door to be line leader.",
+    "events": [
+     "First, Zoe said, \"I was here first!\"",
+     "Next, they stopped and talked it out.",
+     "Then, they made a chart of turns."
+    ],
+    "ending": "In the end, Jack led the line that day, and Zoe smiled when she led it the next day."
+   },
+   "dialogue": [
+    {
+     "s": "I was here first!",
+     "tag": "shouted",
+     "n": "Zoe",
+     "act": "She frowned and crossed her arms."
+    },
+    {
+     "s": "Can we take turns?",
+     "tag": "asked",
+     "n": "Jack",
+     "act": "He sighed and stepped back."
+    },
+    {
+     "s": "You can go today.",
+     "tag": "said",
+     "n": "Zoe",
+     "act": "She smiled at Jack."
+    }
+   ],
+   "revise": [
+    "Zoe hurried to the classroom door.",
+    "Jack mumbled, \"That is not fair.\"",
+    "They made a helpful chart."
+   ],
+   "topic": "taking turns to lead"
+  },
+  {
+   "id": "readaloud",
+   "idea": "A student is nervous about reading out loud.",
+   "plan": {
+    "chars": "Leila and her friend Max",
+    "setting": "in the classroom on Friday",
+    "problem": "Leila is scared to read aloud",
+    "events": [
+     "she reads it to herself",
+     "she reads it to Max",
+     "she takes a deep breath"
+    ],
+    "ending": "she reads it, and they clap"
+   },
+   "draft": {
+    "beginning": "On Friday morning in the classroom, Leila had to read her story out loud, and she was scared.",
+    "oneDay": "in the classroom, Leila had to read her story out loud, and she was scared.",
+    "events": [
+     "First, she read it to her friend Max.",
+     "Next, Max said, \"That was great!\"",
+     "Then, she took a deep breath."
+    ],
+    "ending": "Finally, her hands shook, but she read her whole story, and the class clapped."
+   },
+   "dialogue": [
+    {
+     "s": "I can't do it.",
+     "tag": "cried",
+     "n": "Leila",
+     "act": "Her hands shook."
+    },
+    {
+     "s": "Read it to me first.",
+     "tag": "said",
+     "n": "Max",
+     "act": "He sat down next to her."
+    },
+    {
+     "s": "That was great!",
+     "tag": "shouted",
+     "n": "Max",
+     "act": "He grinned and gave her a high five."
+    }
+   ],
+   "revise": [
+    "Leila mumbled the first line.",
+    "She glanced at her friend Max.",
+    "Max gave her a kind smile."
+   ],
+   "topic": "reading aloud"
+  },
+  {
+   "id": "paint",
+   "idea": "Paint spills on the class poster.",
+   "plan": {
+    "chars": "Isaac and his friend Chloe",
+    "setting": "in the art room after lunch",
+    "problem": "paint spills on their poster",
+    "events": [
+     "they wipe it with a towel",
+     "Chloe sees a pond in it",
+     "they paint fish in it"
+    ],
+    "ending": "the poster shows a pond"
+   },
+   "draft": {
+    "beginning": "After lunch in the art room, Isaac spilled blue paint on the poster he made with Chloe.",
+    "oneDay": "in the art room, Isaac spilled blue paint on the poster he made with Chloe.",
+    "events": [
+     "First, they wiped it with a paper towel.",
+     "Then, Chloe said, \"It looks like water!\"",
+     "After that, they painted fish in the blue."
+    ],
+    "ending": "In the end, the poster had a pond, and Isaac grinned."
+   },
+   "dialogue": [
+    {
+     "s": "Oh no, the poster!",
+     "tag": "cried",
+     "n": "Isaac",
+     "act": "He froze with the cup in his hand."
+    },
+    {
+     "s": "It looks like water.",
+     "tag": "said",
+     "n": "Chloe",
+     "act": "She tilted her head and smiled."
+    },
+    {
+     "s": "Let's paint some fish!",
+     "tag": "said",
+     "n": "Isaac",
+     "act": "He grinned and grabbed a thin brush."
+    }
+   ],
+   "revise": [
+    "Blue paint splashed across the poster.",
+    "Chloe stared at the huge blue spot.",
+    "They painted tiny orange fish."
+   ],
+   "topic": "a paint spill"
+  },
+  {
+   "id": "boat",
+   "idea": "A paper boat sinks in the water table.",
+   "plan": {
+    "chars": "Omar and his friend Bea",
+    "setting": "at the water table at recess",
+    "problem": "their paper boat sinks",
+    "events": [
+     "they fold a new boat",
+     "Bea adds clear tape",
+     "they test it again"
+    ],
+    "ending": "the new boat floats"
+   },
+   "draft": {
+    "beginning": "After recess, Omar and Bea put their paper boat in the water table, and it sank.",
+    "oneDay": "Omar and Bea's paper boat sank in the water table.",
+    "events": [
+     "First, they folded a new boat.",
+     "Next, Bea said, \"Let's try some tape.\"",
+     "After that, they set it in the water."
+    ],
+    "ending": "Finally, the new boat floated, and they cheered."
+   },
+   "dialogue": [
+    {
+     "s": "Our boat is sinking!",
+     "tag": "cried",
+     "n": "Omar",
+     "act": "He grabbed the wet paper."
+    },
+    {
+     "s": "Let's try some tape.",
+     "tag": "said",
+     "n": "Bea",
+     "act": "She smiled and held up the roll."
+    },
+    {
+     "s": "Will it float now?",
+     "tag": "asked",
+     "n": "Omar",
+     "act": "He gasped and held his breath."
+    }
+   ],
+   "revise": [
+    "The soggy boat sank to the bottom.",
+    "Bea had a clever idea.",
+    "The new boat bobbed on the water."
+   ],
+   "topic": "a sinking boat"
+  },
+  {
+   "id": "backpack",
+   "idea": "A student grabs the wrong backpack.",
+   "plan": {
+    "chars": "Mateo and a girl named Ivy",
+    "setting": "in the hallway after school",
+    "problem": "Mateo grabs the wrong backpack",
+    "events": [
+     "he finds a ball inside",
+     "he sees the name Ivy on it",
+     "he runs back to the hall"
+    ],
+    "ending": "Ivy has his bag, and they trade"
+   },
+   "draft": {
+    "beginning": "After school, Mateo and Ivy grabbed each other's blue backpacks in the hallway by mistake.",
+    "oneDay": "Mateo and Ivy grabbed each other's blue backpacks in the hallway.",
+    "events": [
+     "First, Mateo found a soccer ball inside.",
+     "Then, he saw the name Ivy on the tag.",
+     "Next, he ran back and called, \"Ivy, wait!\""
+    ],
+    "ending": "Finally, he found Ivy holding his backpack, and they both laughed."
+   },
+   "dialogue": [
+    {
+     "s": "This isn't my backpack!",
+     "tag": "cried",
+     "n": "Mateo",
+     "act": "He frowned and held up the soccer ball."
+    },
+    {
+     "s": "Is this yours?",
+     "tag": "asked",
+     "n": "Ivy",
+     "act": "She laughed and held up his backpack."
+    },
+    {
+     "s": "Let's trade back.",
+     "tag": "said",
+     "n": "Mateo",
+     "act": "He grinned at her."
+    }
+   ],
+   "revise": [
+    "Mateo dashed back into the hallway.",
+    "Ivy giggled at the mix-up.",
+    "Ivy was helpful and kind."
+   ],
+   "topic": "a mixed-up backpack"
+  },
+  {
+   "id": "tower",
+   "idea": "A tall block tower falls down.",
+   "plan": {
+    "chars": "Lin and her friend Noah",
+    "setting": "in the classroom on Thursday",
+    "problem": "their tower falls down",
+    "events": [
+     "they pick up every block",
+     "they make a wider bottom",
+     "they build it again"
+    ],
+    "ending": "the new tower stays up"
+   },
+   "draft": {
+    "beginning": "On Thursday in the classroom, Lin and Noah's tall block tower crashed to the floor.",
+    "oneDay": "in the classroom, Lin and Noah's tall block tower crashed to the floor.",
+    "events": [
+     "First, they picked up every block.",
+     "Next, Noah said, \"Make the bottom wider.\"",
+     "After that, they built it again, taller."
+    ],
+    "ending": "Finally, the new tower stayed up, and Lin cheered."
+   },
+   "dialogue": [
+    {
+     "s": "Our tower fell!",
+     "tag": "cried",
+     "n": "Lin",
+     "act": "She covered her face."
+    },
+    {
+     "s": "Let's build it again.",
+     "tag": "said",
+     "n": "Noah",
+     "act": "He sighed and picked up a block."
+    },
+    {
+     "s": "Make the bottom wider.",
+     "tag": "said",
+     "n": "Lin",
+     "act": "She grinned and pushed four blocks together."
+    }
+   ],
+   "revise": [
+    "The tower crashed to the floor.",
+    "Lin stared at the pile of blocks.",
+    "Their new tower was huge."
+   ],
+   "topic": "a falling block tower"
+  }
+ ],
+ "exampleIdeas": [
+  {
+   "id": "mitten",
+   "idea": "A mitten goes missing at recess.",
+   "plan": {
+    "chars": "Ana and her friend Leo",
+    "setting": "on the playground at recess",
+    "problem": "Ana's red mitten is gone",
+    "events": [
+     "they look by the slide",
+     "they check lost and found",
+     "Leo sees red in the snow"
+    ],
+    "ending": "Leo finds it, and Ana is happy"
+   },
+   "draft": {
+    "beginning": "At recess on the playground, Ana lost a red mitten, and Leo helped.",
+    "events": [
+     "First, they looked by the slide.",
+     "Next, Leo shouted, \"I see red!\"",
+     "Then, he dug in the snow."
+    ],
+    "ending": "Finally, Ana smiled and put it on."
+   },
+   "revise": [
+    "Leo peeked under the tall slide.",
+    "Ana whispered, \"Thank you, Leo.\"",
+    "Her hand felt cozy and warm again."
+   ],
+   "topic": "a lost mitten"
+  },
+  {
+   "id": "tray",
+   "idea": "A lunch tray spills in the lunchroom.",
+   "plan": {
+    "chars": "Hana and her friend Jon",
+    "setting": "in the lunchroom at noon",
+    "problem": "Hana drops her lunch tray",
+    "events": [
+     "they pick up the food",
+     "Jon saves her a seat",
+     "a helper brings a new tray"
+    ],
+    "ending": "they eat and laugh together"
+   },
+   "draft": {
+    "beginning": "At lunch, Hana's tray crashed by Jon in the lunchroom.",
+    "events": [
+     "First, Jon said, \"I can help you.\"",
+     "Next, Jon saved her a seat.",
+     "Then, a helper brought her a new tray."
+    ],
+    "ending": "Finally, Hana laughed about her fall."
+   },
+   "revise": [
+    "The tray crashed to the floor.",
+    "Jon was kind to Hana.",
+    "Hana giggled at the mess."
+   ],
+   "topic": "a dropped lunch"
+  },
+  {
+   "id": "bottle",
+   "idea": "A water bottle leaks in the hallway.",
+   "plan": {
+    "chars": "Owen and his friend June",
+    "setting": "in the hallway after recess",
+    "problem": "his water bottle leaks",
+    "events": [
+     "his papers get wet",
+     "June brings paper towels",
+     "they dry the papers"
+    ],
+    "ending": "the papers dry in the sun"
+   },
+   "draft": {
+    "beginning": "After recess, Owen's bottle leaked in the hall, and June saw it.",
+    "events": [
+     "First, Owen gasped at his wet papers.",
+     "Next, June said, \"I will get towels.\"",
+     "Then, they dried the papers."
+    ],
+    "ending": "Finally, the papers were dry."
+   },
+   "revise": [
+    "Owen gasped at the soggy papers.",
+    "June hurried to get paper towels.",
+    "The papers were dry and flat again."
+   ],
+   "topic": "a leaky water bottle"
+  }
+ ],
+ "dialogue": [
+  {
+   "n": "Leo",
+   "s": "Where is my hat?",
+   "tag": "asked",
+   "rep": "Leo asked where his hat was.",
+   "other": "Where is my coat?"
+  },
+  {
+   "n": "Ana",
+   "s": "Let's look by the swings.",
+   "tag": "said",
+   "rep": "Ana said they should look by the swings.",
+   "other": "Let's look by the slide."
+  },
+  {
+   "n": "Omar",
+   "s": "Can I sit here?",
+   "tag": "asked",
+   "rep": "Omar asked if he could sit there.",
+   "other": "Can I stand here?"
+  },
+  {
+   "n": "Mia",
+   "s": "I found the red marker.",
+   "tag": "said",
+   "rep": "Mia said she found the red marker.",
+   "other": "I found the blue marker."
+  },
+  {
+   "n": "Kofi",
+   "s": "The bus is here.",
+   "tag": "called",
+   "rep": "Kofi called out that the bus was there.",
+   "other": "The car is here."
+  },
+  {
+   "n": "Priya",
+   "s": "May I help you?",
+   "tag": "asked",
+   "rep": "Priya asked if she could help.",
+   "other": "May I hug you?"
+  },
+  {
+   "n": "Sam",
+   "s": "My coat is on the floor.",
+   "tag": "said",
+   "rep": "Sam said his coat was on the floor.",
+   "other": "My hat is on the floor."
+  },
+  {
+   "n": "Lin",
+   "s": "What time is lunch?",
+   "tag": "asked",
+   "rep": "Lin asked what time lunch was.",
+   "other": "What time is recess?"
+  },
+  {
+   "n": "Eli",
+   "s": "The paint is still wet.",
+   "tag": "said",
+   "rep": "Eli said the paint was still wet.",
+   "other": "The glue is still wet."
+  },
+  {
+   "n": "Rosa",
+   "s": "Do you want to play tag?",
+   "tag": "asked",
+   "rep": "Rosa asked if they wanted to play tag.",
+   "other": "Do you want to play ball?"
+  },
+  {
+   "n": "Jamal",
+   "s": "This book is about sharks.",
+   "tag": "said",
+   "rep": "Jamal said the book was about sharks.",
+   "other": "This book is about whales."
+  },
+  {
+   "n": "Hana",
+   "s": "Is it time to go home?",
+   "tag": "asked",
+   "rep": "Hana asked if it was time to go home.",
+   "other": "Is it time to go out?"
+  },
+  {
+   "n": "Diego",
+   "s": "The window is open.",
+   "tag": "said",
+   "rep": "Diego said the window was open.",
+   "other": "The door is open."
+  },
+  {
+   "n": "Mei",
+   "s": "Where did you put the glue?",
+   "tag": "asked",
+   "rep": "Mei asked where he had put the glue.",
+   "other": "Where did you put the tape?"
+  },
+  {
+   "n": "Nadia",
+   "s": "The fish need food.",
+   "tag": "said",
+   "rep": "Nadia said the fish needed food.",
+   "other": "The fish need water."
+  },
+  {
+   "n": "Ben",
+   "s": "Can you read this word?",
+   "tag": "asked",
+   "rep": "Ben asked if she could read the word.",
+   "other": "Can you spell this word?"
+  },
+  {
+   "n": "Zara",
+   "s": "It is my turn to bat.",
+   "tag": "said",
+   "rep": "Zara said it was her turn to bat.",
+   "other": "It is my turn to kick."
+  },
+  {
+   "n": "Kenji",
+   "s": "Who has the ball?",
+   "tag": "asked",
+   "rep": "Kenji asked who had the ball.",
+   "other": "Who has the bat?"
+  },
+  {
+   "n": "Aisha",
+   "s": "We need more paper.",
+   "tag": "said",
+   "rep": "Aisha said they needed more paper.",
+   "other": "We need more tape."
+  },
+  {
+   "n": "Noah",
+   "s": "Why is the gym so dark?",
+   "tag": "asked",
+   "rep": "Noah asked why the gym was so dark.",
+   "other": "Why is the gym so cold?"
+  },
+  {
+   "n": "Grace",
+   "s": "Our plant has a flower.",
+   "tag": "said",
+   "rep": "Grace said their plant had a flower.",
+   "other": "Our plant has a bug."
+  },
+  {
+   "n": "Malik",
+   "s": "Are we there yet?",
+   "tag": "asked",
+   "rep": "Malik asked if they were there yet.",
+   "other": "Are we home yet?"
+  },
+  {
+   "n": "Sofia",
+   "s": "My pencil broke.",
+   "tag": "said",
+   "rep": "Sofia said her pencil broke.",
+   "other": "My crayon broke."
+  },
+  {
+   "n": "Ines",
+   "s": "Is the library open?",
+   "tag": "asked",
+   "rep": "Ines asked if the library was open.",
+   "other": "Is the gym open?"
+  }
+ ],
+ "telling": [
+  {
+   "t": "Mia was scared.",
+   "n": "Mia",
+   "f": "scared",
+   "right": "Mia hid behind the door and held her breath.",
+   "wrong": "Mia laughed and spun around and around in a circle.",
+   "act": "Mia's knees shook, and she hid her face.",
+   "thought": "She thought, \"What was that noise?\""
+  },
+  {
+   "t": "Leo was happy.",
+   "n": "Leo",
+   "f": "happy",
+   "right": "Leo grinned and jumped up and down.",
+   "wrong": "Leo frowned, crossed his arms, and kicked a rock.",
+   "act": "Leo grinned and gave his friend a high five.",
+   "thought": "He thought, \"This is the best day ever!\""
+  },
+  {
+   "t": "Priya was nervous.",
+   "n": "Priya",
+   "f": "nervous",
+   "right": "Priya bit her lip and twisted her hair.",
+   "wrong": "Priya yawned, stretched, and closed her sleepy eyes.",
+   "act": "Priya bit her lip and looked at the floor.",
+   "thought": "She thought, \"What if I get it wrong?\""
+  },
+  {
+   "t": "Kofi was angry.",
+   "n": "Kofi",
+   "f": "angry",
+   "right": "Kofi stomped his feet and crossed his arms.",
+   "wrong": "Kofi smiled and hummed a happy song.",
+   "act": "Kofi stomped his foot and slammed his book.",
+   "thought": "He thought, \"That is not fair!\""
+  },
+  {
+   "t": "Ana was tired.",
+   "n": "Ana",
+   "f": "tired",
+   "right": "Ana yawned and rested her head on her desk.",
+   "wrong": "Ana bounced in her seat and waved her hand.",
+   "act": "Ana yawned and rubbed her sleepy eyes.",
+   "thought": "She thought, \"I need a nap.\""
+  },
+  {
+   "t": "Omar was surprised.",
+   "n": "Omar",
+   "f": "surprised",
+   "right": "Omar gasped, and his mouth fell open.",
+   "wrong": "Omar sighed and looked up at the clock again.",
+   "act": "Omar gasped and dropped his pencil.",
+   "thought": "He thought, \"I can't believe it!\""
+  },
+  {
+   "t": "Lin was sad.",
+   "n": "Lin",
+   "f": "sad",
+   "right": "Lin wiped a tear from her cheek.",
+   "wrong": "Lin giggled and clapped her hands.",
+   "act": "Lin wiped a tear and looked away.",
+   "thought": "She thought, \"I lost my best drawing.\""
+  },
+  {
+   "t": "Eli was proud.",
+   "n": "Eli",
+   "f": "proud",
+   "right": "Eli held up his drawing and stood tall.",
+   "wrong": "Eli hid his drawing under his desk.",
+   "act": "Eli smiled and showed everyone his drawing.",
+   "thought": "He thought, \"I worked hard on this.\""
+  },
+  {
+   "t": "Rosa was excited.",
+   "n": "Rosa",
+   "f": "excited",
+   "right": "Rosa bounced on her toes and clapped.",
+   "wrong": "Rosa slumped down and stared at the floor.",
+   "act": "Rosa squealed and hugged her friend.",
+   "thought": "She thought, \"I can't wait!\""
+  },
+  {
+   "t": "Jamal was bored.",
+   "n": "Jamal",
+   "f": "bored",
+   "right": "Jamal sighed and tapped his pencil on the desk.",
+   "wrong": "Jamal gasped and leaned in close.",
+   "act": "Jamal sighed and stared out the window.",
+   "thought": "He thought, \"Is this over yet?\""
+  },
+  {
+   "t": "Hana was worried.",
+   "n": "Hana",
+   "f": "worried",
+   "right": "Hana chewed her nails and looked at the door.",
+   "wrong": "Hana laughed and danced down the hall.",
+   "act": "Hana chewed her nails and paced the room.",
+   "thought": "She thought, \"Where could it be?\""
+  },
+  {
+   "t": "Diego was shy.",
+   "n": "Diego",
+   "f": "shy",
+   "right": "Diego hid behind his friend and looked down.",
+   "wrong": "Diego waved and shouted hello to everyone.",
+   "act": "Diego looked down and spoke very softly.",
+   "thought": "He thought, \"I hope no one looks at me.\""
+  },
+  {
+   "t": "Mei was calm.",
+   "n": "Mei",
+   "f": "calm",
+   "right": "Mei took a slow breath and smiled.",
+   "wrong": "Mei paced back and forth and bit her nails.",
+   "act": "Mei took a slow, deep breath.",
+   "thought": "She thought, \"It will be okay.\""
+  },
+  {
+   "t": "Sam was grumpy.",
+   "n": "Sam",
+   "f": "grumpy",
+   "right": "Sam frowned and grumbled under his breath.",
+   "wrong": "Sam whistled a tune and skipped down the hall.",
+   "act": "Sam frowned and folded his arms.",
+   "thought": "He thought, \"Nothing is going right today.\""
+  },
+  {
+   "t": "Zara was embarrassed.",
+   "n": "Zara",
+   "f": "embarrassed",
+   "right": "Zara turned red and covered her face.",
+   "wrong": "Zara cheered and threw her arms up.",
+   "act": "Zara turned red and looked at her shoes.",
+   "thought": "She thought, \"Everyone saw me trip.\""
+  },
+  {
+   "t": "Nadia was confused.",
+   "n": "Nadia",
+   "f": "confused",
+   "right": "Nadia scratched her head and read the page again.",
+   "wrong": "Nadia cheered and threw her arms up high.",
+   "act": "Nadia frowned and turned the map around.",
+   "thought": "She thought, \"What does this mean?\""
+  }
+ ],
+ "rank": {
+  "One morning": 10,
+  "Early one morning": 10,
+  "One Saturday morning": 10,
+  "One Monday morning": 10,
+  "Before school": 10,
+  "At lunch": 30,
+  "At noon": 30,
+  "After lunch": 40,
+  "Later that afternoon": 50,
+  "After school": 50,
+  "That evening": 60,
+  "That night": 70,
+  "The next morning": 80,
+  "On Monday": 101,
+  "On Tuesday": 102,
+  "On Wednesday": 103,
+  "On Thursday": 104,
+  "On Friday": 105,
+  "On Saturday": 106,
+  "In the fall": 201,
+  "In the winter": 202,
+  "In the spring": 203,
+  "In the summer": 204,
+  "The next fall": 205,
+  "Finally": 999
+ },
+ "orderStories": [
+  {
+   "id": "mural",
+   "title": "The Class Mural",
+   "events": [
+    "One Monday morning, Ms. Reyes told the class they would paint a mural.",
+    "At lunch, Tomas and Kim drew ideas on a big sheet of paper.",
+    "After lunch, the class voted for a picture of the ocean.",
+    "Later that afternoon, everyone painted the blue water.",
+    "The next morning, they added fish and an orange crab.",
+    "Finally, they signed their names in the corner."
+   ],
+   "kind": "day",
+   "first": "the class hears about the mural",
+   "topic": "painting a mural"
+  },
+  {
+   "id": "birdhouse",
+   "title": "The Birdhouse",
+   "events": [
+    "On Monday, Felix and his grandpa drew a plan for a birdhouse.",
+    "On Tuesday, they cut the wood into six pieces.",
+    "On Wednesday, they nailed the pieces together.",
+    "On Thursday, Felix painted the birdhouse green.",
+    "On Friday, they hung it from a branch of the maple tree.",
+    "Finally, a little brown bird moved in."
+   ],
+   "kind": "week",
+   "first": "they draw the plan before they build",
+   "topic": "building a birdhouse"
+  },
+  {
+   "id": "storm",
+   "title": "The Big Storm",
+   "events": [
+    "One morning, dark clouds rolled over the town.",
+    "At noon, the wind began to blow hard.",
+    "Later that afternoon, rain poured down the windows.",
+    "That evening, thunder boomed over the houses.",
+    "That night, Nate fell asleep to the sound of the rain.",
+    "The next morning, the sun came out over the puddles."
+   ],
+   "kind": "day",
+   "first": "the clouds come before the wind and rain",
+   "topic": "a storm"
+  },
+  {
+   "id": "libraryday",
+   "title": "Ruby and the Space Books",
+   "events": [
+    "One Saturday morning, Ruby walked to the library with her aunt.",
+    "At noon, she checked out three books about space.",
+    "After lunch, she read the first book on a park bench.",
+    "Later that afternoon, she drew a rocket ship.",
+    "That night, she looked for the moon from her window.",
+    "The next morning, she wrote a story about a trip to the moon."
+   ],
+   "kind": "day",
+   "first": "she walks to the library before she reads the books",
+   "topic": "a library visit"
+  },
+  {
+   "id": "appletree",
+   "title": "The Apple Tree",
+   "minLevel": 2,
+   "events": [
+    "In the fall, red apples hung from the old tree in the schoolyard.",
+    "In the winter, snow covered its bare branches.",
+    "In the spring, white flowers opened on every twig.",
+    "In the summer, tiny green apples began to grow.",
+    "The next fall, the class picked a big basket of red apples.",
+    "Finally, they made applesauce in the classroom."
+   ],
+   "kind": "seasons",
+   "first": "the red apples of the first fall; The next fall closes the circle",
+   "topic": "an apple tree through the year"
+  },
+  {
+   "id": "puppy",
+   "title": "Rusty's First Week",
+   "events": [
+    "On Monday, the Lopez family brought home a puppy named Rusty.",
+    "On Tuesday, Rusty chewed up a sock.",
+    "On Wednesday, he learned to sit.",
+    "On Thursday, he walked on a leash for the first time.",
+    "On Friday, he slept all night in his own bed.",
+    "On Saturday, he played fetch in the park."
+   ],
+   "kind": "week",
+   "first": "the family brings the puppy home",
+   "topic": "a new puppy"
+  },
+  {
+   "id": "museum",
+   "title": "The Dinosaur Museum",
+   "events": [
+    "Early one morning, Class 3B climbed onto a yellow bus.",
+    "At noon, they ate lunch on the grass by the museum.",
+    "After lunch, they saw a giant dinosaur skeleton.",
+    "Later that afternoon, they rode the bus back to school.",
+    "That evening, Lena told her family about the dinosaur.",
+    "That night, she dreamed that a dinosaur came to her school."
+   ],
+   "kind": "day",
+   "first": "the class gets on the bus",
+   "topic": "a museum trip"
+  },
+  {
+   "id": "plants",
+   "title": "Do Plants Need Light?",
+   "events": [
+    "On Monday, Oscar asked a question: Do plants need light?",
+    "On Tuesday, he put one plant in a dark closet and one by a window.",
+    "On Wednesday, the plant by the window had a new leaf.",
+    "On Thursday, the plant in the closet looked pale and weak.",
+    "On Friday, he wrote down what he saw.",
+    "Finally, he shared his answer with the class."
+   ],
+   "kind": "week",
+   "first": "he asks the question before he tests it",
+   "topic": "a plant experiment"
+  },
+  {
+   "id": "campout",
+   "title": "The Backyard Campout",
+   "events": [
+    "One Saturday morning, Maya and her dad set up a tent in the yard.",
+    "At noon, they gathered sticks for a small fire.",
+    "Later that afternoon, they hung a lantern inside the tent.",
+    "That evening, they cooked corn over the fire.",
+    "That night, they counted stars through the tent door.",
+    "The next morning, they woke up to birds singing."
+   ],
+   "kind": "day",
+   "first": "they set up the tent",
+   "topic": "a backyard campout"
+  },
+  {
+   "id": "bike",
+   "title": "Zoe Learns to Ride",
+   "events": [
+    "On Monday, Zoe put on her helmet, tried to ride, and fell right away.",
+    "On Tuesday, she rode a few feet before she tipped over.",
+    "On Wednesday, she rode to the end of the sidewalk.",
+    "On Thursday, she rode around the block with her dad.",
+    "On Friday, she rode without a single wobble.",
+    "On Saturday, she rode all the way to the park with her dad."
+   ],
+   "kind": "week",
+   "first": "she falls on the first try",
+   "topic": "learning to ride a bike"
+  },
+  {
+   "id": "bee",
+   "title": "The Spelling Bee",
+   "events": [
+    "Before school, Ari practiced his spelling words one more time.",
+    "At lunch, he quizzed himself while he ate.",
+    "After lunch, the spelling bee began in the gym.",
+    "Later that afternoon, only Ari and one other girl were left.",
+    "That evening, he told his family that he came in second.",
+    "That night, he put his ribbon next to his bed."
+   ],
+   "kind": "day",
+   "first": "he practices before the spelling bee",
+   "topic": "a spelling bee"
+  },
+  {
+   "id": "chicks",
+   "title": "The Chicks Hatch",
+   "events": [
+    "On Monday, a tiny crack appeared on one of the eggs.",
+    "On Tuesday, a little beak poked through the shell.",
+    "On Wednesday, a wet, fluffy chick wiggled out.",
+    "On Thursday, the chick was dry and yellow.",
+    "On Friday, two more chicks hatched.",
+    "Finally, the class took the chicks to a farm."
+   ],
+   "kind": "week",
+   "first": "a crack appears before a chick comes out",
+   "topic": "chicks that hatch"
+  },
+  {
+   "id": "puppets",
+   "title": "The Puppet Show",
+   "events": [
+    "On Monday, Maya and Tariq wrote a puppet show about a brave frog.",
+    "On Tuesday, they made puppets out of paper bags.",
+    "On Wednesday, they painted a pond on a big box.",
+    "On Thursday, they practiced the show three times.",
+    "On Friday, they put on the show for the first graders.",
+    "Finally, the first graders asked to see it again."
+   ],
+   "kind": "week",
+   "first": "they write the show before they make puppets",
+   "topic": "a puppet show"
+  },
+  {
+   "id": "cleanup",
+   "title": "Clean-Up Day",
+   "events": [
+    "One Saturday morning, Ana's class met at the park to pick up trash.",
+    "At noon, they ate lunch under a big oak tree.",
+    "After lunch, they planted three small bushes.",
+    "Later that afternoon, they painted the old bench green.",
+    "That evening, Ana told her family about the park.",
+    "The next morning, she walked back to see the clean park."
+   ],
+   "kind": "day",
+   "first": "the class meets at the park",
+   "topic": "a park clean-up"
+  },
+  {
+   "id": "kitten",
+   "title": "The Kitten at the Door",
+   "events": [
+    "Early one morning, a small gray kitten sat by the school door.",
+    "At noon, the principal gave it a bowl of water.",
+    "After lunch, the class made a sign about the lost kitten.",
+    "Later that afternoon, a girl ran up and said the kitten was hers.",
+    "That evening, the kitten slept on her bed.",
+    "The next morning, the girl brought the class a thank-you card."
+   ],
+   "kind": "day",
+   "first": "the kitten is found at the door",
+   "topic": "a stray kitten"
+  }
+ ],
+ "gaps": [
+  {
+   "lv": 1,
+   "s": [
+    "___, Ben's alarm clock rang.",
+    "Next, he brushed his teeth.",
+    "Finally, he walked to school."
+   ],
+   "right": "First",
+   "wrong": [
+    [
+     "After that",
+     "end-of-nothing"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "First",
+    "One morning",
+    "Early one morning"
+   ],
+   "topic": "a morning routine"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "First, Mia put on her coat.",
+    "___, she zipped it up.",
+    "Finally, she went outside."
+   ],
+   "right": "Next",
+   "wrong": [
+    [
+     "First",
+     "start"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Next",
+    "Then",
+    "After that"
+   ],
+   "topic": "putting on a coat"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "First, Omar got out a pencil and paper.",
+    "___, he drew a big circle.",
+    "Finally, he turned the circle into a sun."
+   ],
+   "right": "Then",
+   "wrong": [
+    [
+     "First",
+     "start"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Then",
+    "Next",
+    "After that"
+   ],
+   "topic": "drawing a sun"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "___, Lin filled the watering can.",
+    "Then, she watered the flowers.",
+    "Finally, she put the can away."
+   ],
+   "right": "First",
+   "wrong": [
+    [
+     "Next",
+     "end-of-nothing"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "First",
+    "One morning",
+    "After school"
+   ],
+   "topic": "watering flowers"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "First, Kofi mixed flour and water.",
+    "___, he squeezed the dough into a ball.",
+    "Finally, he rolled it into a long snake."
+   ],
+   "right": "After that",
+   "wrong": [
+    [
+     "First",
+     "start"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "After that",
+    "Next",
+    "Then"
+   ],
+   "topic": "a clay snake"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "___, Ana opened her library book.",
+    "Next, she read two pages.",
+    "Finally, she read the whole book."
+   ],
+   "right": "First",
+   "wrong": [
+    [
+     "Then",
+     "end-of-nothing"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "First",
+    "One afternoon",
+    "After lunch"
+   ],
+   "topic": "reading a book"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "First, Eli took out the paints.",
+    "___, he painted a red barn.",
+    "Finally, he hung the picture up to dry."
+   ],
+   "right": "After that",
+   "wrong": [
+    [
+     "First",
+     "start"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "After that",
+    "Next",
+    "Then"
+   ],
+   "topic": "painting a barn"
+  },
+  {
+   "lv": 1,
+   "s": [
+    "First, the class lined up at the door.",
+    "___, they walked quietly to the gym.",
+    "Finally, they sat down on the floor."
+   ],
+   "right": "Then",
+   "wrong": [
+    [
+     "First",
+     "start"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Then",
+    "Next",
+    "After that"
+   ],
+   "topic": "walking to the gym"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "One morning, Hana found a tiny bird's nest on the ground.",
+    "___, she and her teacher put it back in the tree.",
+    "In the end, the mother bird came back."
+   ],
+   "right": "Later that day",
+   "wrong": [
+    [
+     "The night before",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Later that day",
+    "After a while",
+    "Then",
+    "Next",
+    "After that",
+    "Soon"
+   ],
+   "topic": "a bird nest"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "On Monday, Jack planted a sunflower seed.",
+    "___, a little green sprout came up.",
+    "Finally, the sunflower grew taller than Jack."
+   ],
+   "right": "A week later",
+   "wrong": [
+    [
+     "The day before",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "A week later",
+    "After a while",
+    "Soon",
+    "Later",
+    "Days later"
+   ],
+   "topic": "a plant experiment"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "That night, a big storm shook the trees.",
+    "___, the yard was full of broken branches.",
+    "In the end, Ray and his mom picked them all up."
+   ],
+   "right": "The next morning",
+   "wrong": [
+    [
+     "The night before",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "The next morning",
+    "The next day",
+    "In the morning",
+    "At sunrise"
+   ],
+   "topic": "a storm"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "At recess, Zoe kicked the ball over the fence.",
+    "___, a teacher found it in the bushes.",
+    "Finally, Zoe thanked her."
+   ],
+   "right": "After a while",
+   "wrong": [
+    [
+     "Before recess",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "After a while",
+    "Later",
+    "Then",
+    "Soon",
+    "Next"
+   ],
+   "topic": "a ball over the fence"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "___, Max woke up early and looked out the window.",
+    "Then, he saw snow everywhere.",
+    "At last, he ran outside to play."
+   ],
+   "right": "One morning",
+   "wrong": [
+    [
+     "After that",
+     "end-of-nothing"
+    ],
+    [
+     "At last",
+     "end"
+    ]
+   ],
+   "fits": [
+    "One morning",
+    "One winter morning",
+    "On Saturday",
+    "First"
+   ],
+   "topic": "a snowy morning"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "Before school, Nia packed her backpack.",
+    "___, she waited at the bus stop.",
+    "At last, the bus came around the corner."
+   ],
+   "right": "After that",
+   "wrong": [
+    [
+     "The night before",
+     "back"
+    ],
+    [
+     "At last",
+     "end"
+    ]
+   ],
+   "fits": [
+    "After that",
+    "Then",
+    "Next",
+    "Soon"
+   ],
+   "topic": "waiting for the bus"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "At recess, Kim fell and scraped her knee.",
+    "___, she walked to the nurse with a friend.",
+    "In the end, she got a bandage and felt better."
+   ],
+   "right": "Then",
+   "wrong": [
+    [
+     "Before recess",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Then",
+    "Next",
+    "After that",
+    "Right away",
+    "Soon"
+   ],
+   "topic": "a scraped knee"
+  },
+  {
+   "lv": 2,
+   "s": [
+    "One afternoon, Leo could not find his library book.",
+    "___, he looked in his desk and his cubby.",
+    "Finally, he found it in the reading corner."
+   ],
+   "right": "Then",
+   "wrong": [
+    [
+     "The day before",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Then",
+    "Next",
+    "First",
+    "After that"
+   ],
+   "topic": "a lost library book"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "Kim was reading in the library.",
+    "___, the fire alarm began to ring.",
+    "In the end, everyone walked outside in a line."
+   ],
+   "right": "Suddenly",
+   "wrong": [
+    [
+     "The night before",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Suddenly",
+    "All at once",
+    "Just then",
+    "Then"
+   ],
+   "topic": "a fire drill"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "Ms. Fox was reading to the class.",
+    "___, a ball bounced in through the window.",
+    "Finally, she tossed it back outside."
+   ],
+   "right": "Suddenly",
+   "wrong": [
+    [
+     "The week before",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Suddenly",
+    "Just then",
+    "All at once",
+    "Then"
+   ],
+   "topic": "a ball through the window"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "At bedtime, Lucas could not find his book.",
+    "___, he found it under his pillow.",
+    "Finally, he read two pages and fell asleep."
+   ],
+   "right": "After a while",
+   "wrong": [
+    [
+     "That morning",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "After a while",
+    "Then",
+    "Soon",
+    "At last",
+    "Later"
+   ],
+   "topic": "a lost book at bedtime"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "In the fall, the class planted tulip bulbs.",
+    "___, red tulips bloomed in a row.",
+    "Finally, the class took pictures."
+   ],
+   "right": "In the spring",
+   "wrong": [
+    [
+     "The summer before",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "In the spring",
+    "Months later",
+    "A few months later"
+   ],
+   "topic": "tulips in spring"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "After school, Amir started his science poster.",
+    "___, he had drawn the whole water cycle.",
+    "Finally, he colored the ocean blue."
+   ],
+   "right": "By dinnertime",
+   "wrong": [
+    [
+     "That morning",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "By dinnertime",
+    "Later that day",
+    "An hour later",
+    "Soon"
+   ],
+   "topic": "a science poster"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "One evening, Pablo and his dad heard a scratch.",
+    "___, they opened the door to a puppy.",
+    "In the end, they found its owner."
+   ],
+   "right": "Then",
+   "wrong": [
+    [
+     "That morning",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Then",
+    "After a while",
+    "Slowly",
+    "Just then"
+   ],
+   "topic": "a lost puppy"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "On Friday, the class sent a letter to a scientist.",
+    "___, a letter came back.",
+    "In the end, the class hung it on the wall."
+   ],
+   "right": "Two weeks later",
+   "wrong": [
+    [
+     "The day before",
+     "back"
+    ],
+    [
+     "In the end",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Two weeks later",
+    "A week later",
+    "Weeks later",
+    "Soon",
+    "Later"
+   ],
+   "topic": "a letter to a scientist"
+  },
+  {
+   "lv": 3,
+   "s": [
+    "Gabe built a sandcastle near the water.",
+    "___, a big wave washed half of it away.",
+    "Finally, he built a new one up the beach."
+   ],
+   "right": "Just then",
+   "wrong": [
+    [
+     "The day before",
+     "back"
+    ],
+    [
+     "Finally",
+     "end"
+    ]
+   ],
+   "fits": [
+    "Just then",
+    "Suddenly",
+    "Then",
+    "After a while",
+    "Soon"
+   ],
+   "topic": "waves and a sandcastle"
+  }
+ ],
+ "choose": [
+  {
+   "t": "The library was quiet, so Eli {said} a joke to his friend.",
+   "tired": "said",
+   "right": "whispered",
+   "w1": [
+    "raced",
+    "enormous"
+   ],
+   "w2": [
+    "shouted",
+    "tall"
+   ],
+   "w3": [
+    "shouted",
+    "yelled"
+   ]
+  },
+  {
+   "t": "The bus was about to leave, so Leo {went} to the bus stop.",
+   "tired": "went",
+   "right": "raced",
+   "w1": [
+    "whispered",
+    "cozy"
+   ],
+   "w2": [
+    "wandered",
+    "kind"
+   ],
+   "w3": [
+    "wandered",
+    "tiptoed"
+   ]
+  },
+  {
+   "t": "The cat {went} across the room without a sound.",
+   "tired": "went",
+   "right": "crept",
+   "w1": [
+    "shouted",
+    "huge"
+   ],
+   "w2": [
+    "stomped",
+    "funny"
+   ],
+   "w3": [
+    "stomped",
+    "marched"
+   ]
+  },
+  {
+   "t": "Kim {looked} at the clock for just a second.",
+   "tired": "looked",
+   "right": "glanced",
+   "w1": [
+    "hurried",
+    "sunny"
+   ],
+   "w2": [
+    "stared",
+    "deep"
+   ],
+   "w3": [
+    "stared",
+    "gazed"
+   ]
+  },
+  {
+   "t": "Ben {looked} for his lost pencil for a long, long time.",
+   "tired": "looked",
+   "right": "searched",
+   "w1": [
+    "mumbled",
+    "tall"
+   ],
+   "w2": [
+    "glanced",
+    "cozy"
+   ],
+   "w3": [
+    "glanced",
+    "peeked"
+   ]
+  },
+  {
+   "t": "The blanket was soft and {nice} on the cold night.",
+   "tired": "nice",
+   "right": "cozy",
+   "w1": [
+    "raced",
+    "shouted"
+   ],
+   "w2": [
+    "sunny",
+    "whispered"
+   ],
+   "w3": [
+    "kind",
+    "sunny"
+   ]
+  },
+  {
+   "t": "It was a {nice} day with no clouds, and the sun shone on the playground all morning.",
+   "tired": "nice",
+   "right": "sunny",
+   "w1": [
+    "crept",
+    "mumbled"
+   ],
+   "w2": [
+    "kind",
+    "deep"
+   ],
+   "w3": [
+    "kind",
+    "cozy"
+   ]
+  },
+  {
+   "t": "The giraffe was so {big} that it could eat leaves from the treetops.",
+   "tired": "big",
+   "right": "tall",
+   "w1": [
+    "whispered",
+    "peeked"
+   ],
+   "w2": [
+    "funny",
+    "raced"
+   ],
+   "w3": [
+    "wide",
+    "deep"
+   ]
+  },
+  {
+   "t": "The lake was so {big} that no one could see the bottom.",
+   "tired": "big",
+   "right": "deep",
+   "w1": [
+    "raced",
+    "mumbled"
+   ],
+   "w2": [
+    "tall",
+    "funny"
+   ],
+   "w3": [
+    "tall",
+    "wide"
+   ]
+  },
+  {
+   "t": "The clown's joke was so {good} that everyone laughed.",
+   "tired": "good",
+   "right": "funny",
+   "w1": [
+    "tiptoed",
+    "peeked"
+   ],
+   "w2": [
+    "helpful",
+    "raced"
+   ],
+   "w3": [
+    "helpful",
+    "tasty"
+   ]
+  },
+  {
+   "t": "Ana was {good} to her friend and carried half of the books.",
+   "tired": "good",
+   "right": "helpful",
+   "w1": [
+    "glanced",
+    "shouted"
+   ],
+   "w2": [
+    "funny",
+    "huge"
+   ],
+   "w3": [
+    "funny",
+    "tasty"
+   ]
+  },
+  {
+   "t": "Mr. Park was {nice} to the new student and showed her around.",
+   "tired": "nice",
+   "right": "kind",
+   "w1": [
+    "stared",
+    "crept"
+   ],
+   "w2": [
+    "sunny",
+    "raced"
+   ],
+   "w3": [
+    "sunny",
+    "cozy"
+   ]
+  },
+  {
+   "t": "\"Run!\" Coach Dee {said} across the whole field.",
+   "tired": "said",
+   "right": "shouted",
+   "w1": [
+    "wandered",
+    "gentle"
+   ],
+   "w2": [
+    "whispered",
+    "deep"
+   ],
+   "w3": [
+    "whispered",
+    "mumbled"
+   ]
+  },
+  {
+   "t": "Jack {said} the answer so softly that no one could hear the words.",
+   "tired": "said",
+   "right": "mumbled",
+   "w1": [
+    "raced",
+    "sunny"
+   ],
+   "w2": [
+    "shouted",
+    "tall"
+   ],
+   "w3": [
+    "shouted",
+    "yelled"
+   ]
+  },
+  {
+   "t": "Mia {went} down the hall, hopping on one foot and then the other.",
+   "tired": "went",
+   "right": "skipped",
+   "w1": [
+    "whispered",
+    "tall"
+   ],
+   "w2": [
+    "crept",
+    "cozy"
+   ],
+   "w3": [
+    "crept",
+    "marched"
+   ]
+  },
+  {
+   "t": "The band {went} down the street in straight rows, stepping to the drum.",
+   "tired": "went",
+   "right": "marched",
+   "w1": [
+    "giggled",
+    "huge"
+   ],
+   "w2": [
+    "tiptoed",
+    "sunny"
+   ],
+   "w3": [
+    "tiptoed",
+    "wandered"
+   ]
+  },
+  {
+   "t": "Sam {looked} at the beautiful sunset for a long, long time.",
+   "tired": "looked",
+   "right": "gazed",
+   "w1": [
+    "raced",
+    "helpful"
+   ],
+   "w2": [
+    "glanced",
+    "cozy"
+   ],
+   "w3": [
+    "glanced",
+    "peeked"
+   ]
+  },
+  {
+   "t": "Zoe {looked} through the crack in the door so quickly that no one saw her.",
+   "tired": "looked",
+   "right": "peeked",
+   "w1": [
+    "hurried",
+    "deep"
+   ],
+   "w2": [
+    "stared",
+    "funny"
+   ],
+   "w3": [
+    "stared",
+    "gazed"
+   ]
+  },
+  {
+   "t": "The soup was so {good} that I asked for a second bowl.",
+   "tired": "good",
+   "right": "tasty",
+   "w1": [
+    "tiptoed",
+    "whispered"
+   ],
+   "w2": [
+    "funny",
+    "marched"
+   ],
+   "w3": [
+    "funny",
+    "helpful"
+   ]
+  },
+  {
+   "t": "The playground was so {big} that it took five minutes to walk across it.",
+   "tired": "big",
+   "right": "huge",
+   "w1": [
+    "whispered",
+    "crept"
+   ],
+   "w2": [
+    "tall",
+    "kind"
+   ],
+   "w3": [
+    "tall",
+    "deep"
+   ]
+  },
+  {
+   "t": "Max was so {good} at puzzles that he found the answer first.",
+   "tired": "good",
+   "right": "clever",
+   "w1": [
+    "hurried",
+    "peeked"
+   ],
+   "w2": [
+    "tasty",
+    "tall"
+   ],
+   "w3": [
+    "tasty",
+    "funny"
+   ]
+  },
+  {
+   "t": "Ella {went} slowly through the garden, looking at every flower.",
+   "tired": "went",
+   "right": "wandered",
+   "w1": [
+    "mumbled",
+    "huge"
+   ],
+   "w2": [
+    "raced",
+    "sunny"
+   ],
+   "w3": [
+    "raced",
+    "hurried"
+   ]
+  }
+ ],
+ "compare": [
+  {
+   "weak": "The dog went into the water really fast.",
+   "strong": "The dog splashed into the pond.",
+   "why": "Splashed tells how the dog went in."
+  },
+  {
+   "weak": "Tia said, \"Help me!\"",
+   "strong": "Tia shouted, \"Help me!\"",
+   "why": "Shouted tells that Tia was loud."
+  },
+  {
+   "weak": "The cake was very, very good.",
+   "strong": "The cake was sweet and creamy.",
+   "why": "Sweet and creamy tell how it tasted."
+  },
+  {
+   "weak": "We saw a really big wave.",
+   "strong": "We saw a wave as tall as a house.",
+   "why": "As tall as a house shows its size."
+  },
+  {
+   "weak": "Max looked at the bug a lot.",
+   "strong": "Max stared at the bug.",
+   "why": "Stared tells that he looked a long time."
+  },
+  {
+   "weak": "It was a nice day outside today.",
+   "strong": "It was a warm, sunny day.",
+   "why": "Warm and sunny describe the day."
+  },
+  {
+   "weak": "The car went down the street.",
+   "strong": "The car zoomed down the street.",
+   "why": "Zoomed tells that the car was fast."
+  },
+  {
+   "weak": "Grandpa told us a very good story.",
+   "strong": "Grandpa told a funny story.",
+   "why": "Funny tells what kind of story it was."
+  },
+  {
+   "weak": "The mouse went across the floor.",
+   "strong": "The mouse scurried across the floor.",
+   "why": "Scurried tells how the mouse moved."
+  },
+  {
+   "weak": "Lena said she was sorry.",
+   "strong": "Lena whispered that she was sorry.",
+   "why": "Whispered tells how quietly she said it."
+  },
+  {
+   "weak": "My new friend is really, really nice.",
+   "strong": "My new friend is kind and helpful.",
+   "why": "Kind and helpful describe the friend."
+  },
+  {
+   "weak": "The bird looked for worms.",
+   "strong": "The bird searched the wet grass for worms.",
+   "why": "Searched tells that the bird looked hard."
+  },
+  {
+   "weak": "The pizza was very good.",
+   "strong": "The pizza was hot and cheesy.",
+   "why": "Hot and cheesy tell how it tasted."
+  },
+  {
+   "weak": "Kai went up the hill.",
+   "strong": "Kai huffed and puffed up the steep hill.",
+   "why": "It tells that the hill was hard to climb."
+  },
+  {
+   "weak": "The tree in the park was very big.",
+   "strong": "The tree was taller than our school.",
+   "why": "Taller than our school shows its height."
+  },
+  {
+   "weak": "The baby made a lot of noise.",
+   "strong": "The baby wailed.",
+   "why": "Wailed tells how the baby sounded."
+  }
+ ],
+ "box": {
+  "said": [
+   "whispered",
+   "shouted",
+   "mumbled",
+   "giggled"
+  ],
+  "went": [
+   "raced",
+   "tiptoed",
+   "wandered",
+   "hurried"
+  ],
+  "looked": [
+   "peeked",
+   "stared",
+   "glanced",
+   "searched"
+  ],
+  "nice": [
+   "kind",
+   "cozy",
+   "sunny",
+   "gentle"
+  ],
+  "big": [
+   "huge",
+   "tall",
+   "deep",
+   "wide"
+  ],
+  "good": [
+   "funny",
+   "helpful",
+   "tasty",
+   "clever"
+  ]
+ },
+ "paragraphs": [
+  {
+   "id": "library",
+   "title": "Ella and the Shark Book",
+   "sents": [
+    {
+     "text": "The library was so quiet that Ella {said} hello to Mr. Grant.",
+     "fits": [
+      "whispered",
+      "mumbled"
+     ],
+     "l1": "shouted"
+    },
+    {
+     "text": "She needed a book about sharks, so she {went} slowly down every row.",
+     "fits": [
+      "wandered",
+      "tiptoed"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "She {looked} for the shark book on every shelf, but it was not there.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "Mr. Grant was very {nice} and offered to help her.",
+     "fits": [
+      "kind",
+      "gentle",
+      "helpful"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "He {looked} at his computer for just a second.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "The shelf was so {big} that Ella needed a ladder to reach the top.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "At last, she found the book. \"Yes!\" she {said} so loudly that Mr. Grant jumped.",
+     "fits": [
+      "shouted",
+      "giggled"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "That night, she read her new book in her {nice} warm bed.",
+     "fits": [
+      "cozy"
+     ],
+     "l1": "sunny"
+    }
+   ]
+  },
+  {
+   "id": "farm",
+   "title": "The Farm Trip",
+   "sents": [
+    {
+     "text": "The class was late, so everyone {went} onto the bus.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "wandered"
+    },
+    {
+     "text": "At the farm, the red barn was so {big} that it reached the treetops.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "A {nice} farmer let the class feed the goats.",
+     "fits": [
+      "kind",
+      "gentle"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "The little barn was warm and {nice} out of the wind.",
+     "fits": [
+      "cozy"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "The pond was so {big} that a rowboat took ten minutes to cross it.",
+     "fits": [
+      "wide",
+      "huge"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "Ken {looked} at a frog on a lily pad for a long, long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "At lunch, the farmer gave the class apples that were very {good}.",
+     "fits": [
+      "tasty"
+     ],
+     "l1": "funny"
+    },
+    {
+     "text": "On the bus, Rosa was so sleepy that no one could understand what she {said}.",
+     "fits": [
+      "mumbled",
+      "whispered"
+     ],
+     "l1": "raced"
+    }
+   ]
+  },
+  {
+   "id": "snow",
+   "title": "The First Snow",
+   "sents": [
+    {
+     "text": "When Ravi saw the snow, he {went} outside as fast as he could.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "tiptoed"
+    },
+    {
+     "text": "Ravi jumped into a snowdrift so {big} that the snow came up to his knees.",
+     "fits": [
+      "deep",
+      "huge"
+     ],
+     "l1": "funny"
+    },
+    {
+     "text": "His friend Nia built a snowman {big} enough to look over the fence.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Ravi {looked} all over the yard for two rocks to use as eyes.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "\"Duck!\" Nia {said} as loudly as she could when a snowball flew by.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "Nia was a {good} friend and helped Ravi roll the snowman's head.",
+     "fits": [
+      "helpful",
+      "kind"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "Inside, the kitchen was warm and {nice}.",
+     "fits": [
+      "cozy",
+      "sunny"
+     ],
+     "l1": "funny"
+    },
+    {
+     "text": "Ravi {looked} out the window at the snowman one more time.",
+     "fits": [
+      "glanced",
+      "peeked",
+      "stared"
+     ],
+     "l1": "searched"
+    }
+   ]
+  },
+  {
+   "id": "fieldday",
+   "title": "Field Day",
+   "sents": [
+    {
+     "text": "It was a {nice} day with no clouds at all.",
+     "fits": [
+      "sunny"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "Amir {went} to the starting line as soon as Coach Dee called his name.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "wandered"
+    },
+    {
+     "text": "The race track was so {big} that it circled the whole field.",
+     "fits": [
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "The race began. \"Go!\" Coach Dee {said} so everyone could hear.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "Amir {looked} back for just a second to see who was behind him.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "At the finish line, his friend Sofia was very {good} and handed him a cup of water.",
+     "fits": [
+      "helpful",
+      "kind"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "After the race, Amir told a {good} joke, and everyone laughed.",
+     "fits": [
+      "funny",
+      "clever"
+     ],
+     "l1": "helpful"
+    },
+    {
+     "text": "Then the team {went} slowly to the shade, stopping to watch the other games.",
+     "fits": [
+      "wandered"
+     ],
+     "l1": "raced"
+    }
+   ]
+  },
+  {
+   "id": "garden",
+   "title": "The Class Garden",
+   "sents": [
+    {
+     "text": "On a {nice} spring morning, the class walked out to the garden.",
+     "fits": [
+      "sunny"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "Lily {looked} under every leaf for bugs.",
+     "fits": [
+      "searched",
+      "peeked"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "She found a worm. \"Eww!\" she {said} so loudly that a bird flew away.",
+     "fits": [
+      "shouted",
+      "giggled"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "The sunflowers were so {big} that Mr. Kent had to tip his head back to see the tops.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Mr. Kent was {nice} and showed everyone how to pull weeds.",
+     "fits": [
+      "kind",
+      "gentle",
+      "helpful"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "The carrots they pulled up were sweet and {good}.",
+     "fits": [
+      "tasty"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "Lily {went} up to a rabbit so quietly that it did not run away.",
+     "fits": [
+      "tiptoed"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "At the end of the morning, the class {looked} at their garden and smiled.",
+     "fits": [
+      "stared",
+      "glanced"
+     ],
+     "l1": "searched"
+    }
+   ]
+  },
+  {
+   "id": "lunchbox",
+   "title": "The Lost Lunch Box",
+   "sents": [
+    {
+     "text": "Omar {looked} everywhere in the classroom for his lunch box.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "He even {looked} in the coat closet for a second.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "His friend Hana was {nice} and helped him find it.",
+     "fits": [
+      "kind",
+      "gentle",
+      "helpful"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "They {went} quickly to the office before lunch began.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "wandered"
+    },
+    {
+     "text": "The lost-and-found box was so {big} that Omar could not see the bottom of it.",
+     "fits": [
+      "deep",
+      "huge"
+     ],
+     "l1": "funny"
+    },
+    {
+     "text": "At the very bottom was his lunch box. \"Yes!\" Omar {said} so the whole office could hear.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "At lunch, his sandwich was very {good}.",
+     "fits": [
+      "tasty"
+     ],
+     "l1": "helpful"
+    },
+    {
+     "text": "Hana told a {good} joke about a talking sandwich.",
+     "fits": [
+      "funny",
+      "clever"
+     ],
+     "l1": "tasty"
+    }
+   ]
+  },
+  {
+   "id": "fort",
+   "title": "The Blanket Fort",
+   "sents": [
+    {
+     "text": "On a rainy Monday, Kai {looked} out the window at the dark clouds for a long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "\"I want to go out,\" Kai {said} so quietly that no one heard.",
+     "fits": [
+      "mumbled",
+      "whispered"
+     ],
+     "l1": "shouted"
+    },
+    {
+     "text": "Ms. Ruiz was {nice} and let the class build a fort with blankets.",
+     "fits": [
+      "kind",
+      "gentle"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "The fort was so {big} that it covered three desks.",
+     "fits": [
+      "huge",
+      "wide"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Inside the fort, it was dark, warm, and {nice}.",
+     "fits": [
+      "cozy"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "Kai read a {good} book about a silly pig.",
+     "fits": [
+      "funny"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "When the bell rang, everyone {went} back to their desks quickly.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "wandered"
+    },
+    {
+     "text": "Kai {looked} back at the fort for just a second.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    }
+   ]
+  },
+  {
+   "id": "artshow",
+   "title": "The Art Show",
+   "sents": [
+    {
+     "text": "The art room was {big} enough to hang thirty paintings.",
+     "fits": [
+      "wide"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Isla {went} from painting to painting slowly, looking at each one.",
+     "fits": [
+      "wandered"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "One painting showed a giraffe so {big} that its head reached the top of the paper.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Isla {looked} at it for a long, long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "Then she found her own painting. \"That's mine!\" she {said} so loudly that people turned around.",
+     "fits": [
+      "shouted",
+      "giggled"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "A man with a {nice} smile told her he loved it.",
+     "fits": [
+      "kind",
+      "gentle"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "Her painting was a {good} picture of a dog wearing glasses.",
+     "fits": [
+      "funny",
+      "clever"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "On her way out, Isla {went} past a sleeping baby so quietly that he did not wake up.",
+     "fits": [
+      "tiptoed"
+     ],
+     "l1": "raced"
+    }
+   ]
+  },
+  {
+   "id": "sciencefair",
+   "title": "The Science Fair",
+   "sents": [
+    {
+     "text": "Aiden was so excited that he {went} into the gym early.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "wandered"
+    },
+    {
+     "text": "His model volcano was so {big} that it almost touched the ceiling.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "A judge {looked} at the volcano for a long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "She asked a {good} question about how it worked.",
+     "fits": [
+      "clever",
+      "helpful"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "\"Watch this!\" Aiden {said} so everyone could hear.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "The foam spilled over the table. \"Oops!\" Aiden {said} with a laugh.",
+     "fits": [
+      "giggled",
+      "shouted"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "The judge was {nice} and gave him a blue ribbon.",
+     "fits": [
+      "kind"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "On the way out, Aiden {looked} back at his table one more time.",
+     "fits": [
+      "glanced",
+      "peeked",
+      "stared"
+     ],
+     "l1": "searched"
+    }
+   ]
+  },
+  {
+   "id": "zoo",
+   "title": "The Zoo Trip",
+   "sents": [
+    {
+     "text": "At the zoo, the elephant was so {big} that it was the size of a small truck.",
+     "fits": [
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "The giraffe was so {big} that it ate leaves from the top of a tree.",
+     "fits": [
+      "tall",
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Lina {went} up to the frog tank so quietly that the frogs did not jump.",
+     "fits": [
+      "tiptoed"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "She {looked} at a green frog for a long, long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "A zookeeper was {nice} and let the class pet a goat.",
+     "fits": [
+      "kind",
+      "gentle"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "The goat sniffed Lina's ear. \"That tickles!\" she {said} with a laugh.",
+     "fits": [
+      "giggled",
+      "shouted",
+      "whispered"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "At lunch, the sandwiches were very {good}.",
+     "fits": [
+      "tasty"
+     ],
+     "l1": "helpful"
+    },
+    {
+     "text": "\"Best day ever,\" Lina {said} on the bus so softly that only her friend heard.",
+     "fits": [
+      "whispered",
+      "mumbled"
+     ],
+     "l1": "shouted"
+    }
+   ]
+  },
+  {
+   "id": "kitten",
+   "title": "June and the Kitten",
+   "sents": [
+    {
+     "text": "June and her dad saw a kitten under a bush, and June {went} toward it slowly so it would not run.",
+     "fits": [
+      "tiptoed"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "The kitten {looked} at her for a long time without moving.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "\"Here, kitty,\" June {said} very softly.",
+     "fits": [
+      "whispered",
+      "mumbled"
+     ],
+     "l1": "shouted"
+    },
+    {
+     "text": "She was {nice} and held out her hand slowly.",
+     "fits": [
+      "gentle",
+      "kind"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "June wrapped the kitten in a {nice} warm towel.",
+     "fits": [
+      "cozy"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "She {looked} up and down the street for a poster about a lost kitten.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "Soon a woman {went} down the sidewalk as fast as she could, calling, \"Muffin!\"",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "tiptoed"
+    },
+    {
+     "text": "The woman gave June a {big} smile to thank her.",
+     "fits": [
+      "huge"
+     ],
+     "l1": "deep"
+    }
+   ]
+  },
+  {
+   "id": "talent",
+   "title": "The Talent Show",
+   "sents": [
+    {
+     "text": "The gym was so {big} that it could hold the whole school.",
+     "fits": [
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Carlos {looked} out at all the people for just a second.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "Then he told a {good} joke about a dancing banana.",
+     "fits": [
+      "funny",
+      "clever"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "\"Yay!\" his friend Ming {said} as loudly as she could.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "Next, Ming did a {good} magic trick that fooled the whole gym.",
+     "fits": [
+      "clever"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "A girl in the front row {looked} at the cup for a long, long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "After the show, the principal was very {nice} and shook their hands.",
+     "fits": [
+      "kind"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Carlos and Ming {went} outside as fast as they could to find their families.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "tiptoed"
+    }
+   ]
+  },
+  {
+   "id": "busride",
+   "title": "The Bus Ride",
+   "sents": [
+    {
+     "text": "The school bus was {big} and yellow, with room for fifty children.",
+     "fits": [
+      "huge"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Tia {looked} up and down the bus for an empty seat next to Ben.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "Ben {said} hello so quietly that she could not hear him.",
+     "fits": [
+      "mumbled",
+      "whispered"
+     ],
+     "l1": "shouted"
+    },
+    {
+     "text": "It was a {nice} morning with no clouds in the sky.",
+     "fits": [
+      "sunny"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "Tia {looked} out the window at the cows for a long, long time.",
+     "fits": [
+      "stared"
+     ],
+     "l1": "glanced"
+    },
+    {
+     "text": "The bus driver was {nice} and waved to every child.",
+     "fits": [
+      "kind"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "Ben told a {good} joke about a cow that could fly.",
+     "fits": [
+      "funny",
+      "clever"
+     ],
+     "l1": "tasty"
+    },
+    {
+     "text": "When the bus stopped, they {went} into school as fast as they could.",
+     "fits": [
+      "raced",
+      "hurried"
+     ],
+     "l1": "tiptoed"
+    }
+   ]
+  },
+  {
+   "id": "turtle",
+   "title": "Where Is Pebbles?",
+   "sents": [
+    {
+     "text": "Pebbles, the class turtle, lived in a tank {big} enough to swim in.",
+     "fits": [
+      "deep",
+      "wide"
+     ],
+     "l1": "funny"
+    },
+    {
+     "text": "Every morning, Ali {looked} for Pebbles under the rocks.",
+     "fits": [
+      "searched"
+     ],
+     "l1": "giggled"
+    },
+    {
+     "text": "One morning, Pebbles was gone. \"Help!\" Ali {said} so the whole class could hear.",
+     "fits": [
+      "shouted"
+     ],
+     "l1": "whispered"
+    },
+    {
+     "text": "Everyone {went} slowly around the room, looking under every desk.",
+     "fits": [
+      "wandered",
+      "tiptoed"
+     ],
+     "l1": "raced"
+    },
+    {
+     "text": "Mrs. Diaz {looked} behind the bookshelf for just a second.",
+     "fits": [
+      "glanced",
+      "peeked"
+     ],
+     "l1": "stared"
+    },
+    {
+     "text": "There was Pebbles, asleep in a {nice} warm spot by the heater.",
+     "fits": [
+      "cozy"
+     ],
+     "l1": "tall"
+    },
+    {
+     "text": "Ali was {nice} and picked her up with soft hands.",
+     "fits": [
+      "gentle",
+      "kind"
+     ],
+     "l1": "deep"
+    },
+    {
+     "text": "He had a {good} idea and put a lid on the tank.",
+     "fits": [
+      "clever",
+      "helpful"
+     ],
+     "l1": "tasty"
+    }
+   ]
+  }
+ ],
+ "timeBox": {
+  "start": [
+   "first",
+   "one morning",
+   "one day"
+  ],
+  "middle": [
+   "next",
+   "then",
+   "after that",
+   "after a while",
+   "later that day",
+   "the next morning"
+  ],
+  "surprise": [
+   "suddenly",
+   "just then"
+  ],
+  "end": [
+   "finally",
+   "at last",
+   "in the end"
+  ]
+ },
+ "saidWords": [
+  "said",
+  "asked",
+  "whispered",
+  "shouted",
+  "cried",
+  "answered"
+ ],
+ "showWords": [
+  "grinned",
+  "frowned",
+  "gasped",
+  "sighed",
+  "shrugged",
+  "trembled"
+ ],
+ "planBank": {
+  "when": [
+   "morning",
+   "recess",
+   "after school"
+  ],
+  "where": [
+   "library",
+   "gym",
+   "park"
+  ],
+  "feel": [
+   "worried",
+   "proud",
+   "surprised"
+  ]
+ }
+}

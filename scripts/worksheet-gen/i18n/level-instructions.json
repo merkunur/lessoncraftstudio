@@ -7905,7 +7905,7 @@
       "en": "A good note is a few words that tell one fact."
     },
     "3": {
-      "en": "Good notes are short, true to the text, and in your own words."
+      "en": "Good notes are short, true to the text, and keep the key words."
     }
   },
   "G3-557": {
@@ -7961,7 +7961,7 @@
       "en": "A research report answers a question with facts from sources."
     },
     "3": {
-      "en": "Write your report and list your sources."
+      "en": "Write your report from your own notes and list your sources."
     }
   },
   "G3-564": {
@@ -8026,6 +8026,78 @@
     },
     "3": {
       "en": "Find the tired words in a story and change them to words that work."
+    }
+  },
+  "G2-557": {},
+  "G2-558": {},
+  "G2-559": {},
+  "G2-560": {},
+  "G2-561": {},
+  "G2-562": {},
+  "G2-563": {},
+  "G2-564": {},
+  "G1-616": {
+    "1": {
+      "en": "A true story tells what happened first, next, and last."
+    },
+    "3": {
+      "en": "A true story tells what happened in order and how it ended."
+    }
+  },
+  "G1-617": {
+    "1": {
+      "en": "Use your plan. Tell what happened first, next, and last."
+    },
+    "3": {
+      "en": "Write your story in order. Then tell how it ended."
+    }
+  },
+  "G1-618": {
+    "1": {
+      "en": "An opinion tells what you think. A reason tells why."
+    },
+    "3": {
+      "en": "A reason tells why you think so. It must fit its opinion."
+    }
+  },
+  "G1-619": {
+    "1": {
+      "en": "Tell what you think. Then tell why."
+    },
+    "3": {
+      "en": "Write your topic, your opinion, a reason, and an ending."
+    }
+  },
+  "G1-620": {
+    "1": {
+      "en": "A fact tells something true about the topic."
+    },
+    "3": {
+      "en": "Keep to the topic. A closing sentence ends the piece."
+    }
+  },
+  "G1-621": {
+    "1": {
+      "en": "Write facts about the topic. Use the fact box."
+    },
+    "3": {
+      "en": "Write about a topic you know: facts and a closing."
+    }
+  },
+  "G1-622": {
+    "1": {
+      "en": "Writers read their work again and fix mistakes."
+    },
+    "3": {
+      "en": "Edit like a writer: capitals, end marks, and a detail."
+    }
+  },
+  "G1-623": {
+    "1": {
+      "en": "Check your writing. Then a partner checks it."
+    },
+    "3": {
+      "en": "Check your writing, answer your partner, and add a detail."
     }
   }
 }

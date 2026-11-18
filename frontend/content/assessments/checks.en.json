@@ -297,35 +297,36 @@
     },
     {
      "part": 2,
-     "lesson": 3,
+     "lesson": 4,
      "title": "Beginning sounds",
      "type": "K-221",
      "tasks": 3
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Ending sounds and middle sounds",
      "type": "K-226",
      "tasks": 3
     },
     {
      "part": 4,
-     "lesson": 5,
+     "lesson": 6,
      "title": "Say it slowly: one sound, one box",
      "type": "K-329",
      "tasks": 2
     },
     {
      "part": 5,
-     "lesson": 6,
+     "lesson": 7,
      "title": "Build the word",
      "type": "K-231",
      "tasks": 3
     }
    ],
    "notCovered": [
-    1
+    1,
+    3
    ],
    "forms": {
     "A": {
@@ -3267,7 +3268,7 @@
      "pages": 3,
      "cards": [
       [
-       "7a1d104b00d2afba"
+       "a92013cd59f1416f"
       ],
       [
        "a74c35b3cf68db87"
@@ -3295,7 +3296,7 @@
      ],
      "pos": [
       [
-       0
+       2
       ],
       [
        null
@@ -4994,7 +4995,7 @@
      "cards": [
       [
        "b32e1dcfa8ca7611",
-       "c638af3e0c88eb1f"
+       "c846f43a41e8bc9f"
       ],
       [
        "bdd88e6aa3ebb818",
@@ -7014,14 +7015,15 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "First, next, last",
      "type": "K-379",
      "tasks": 1
     }
    ],
    "notCovered": [
-    2
+    2,
+    4
    ],
    "forms": {
     "A": {
@@ -7129,6 +7131,225 @@
    }
   },
   {
+   "unit": "k-words-and-sentences",
+   "slug": "words-and-sentences-kindergarten-unit",
+   "status": "pilot",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Naming words and action words",
+     "type": "K-658",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "In, on top of, under, next to",
+     "type": "K-548",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "A sentence starts with a capital letter",
+     "type": "K-660",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "A period or a question mark?",
+     "type": "K-656",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Say more: make the sentence longer",
+     "type": "K-657",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "8e51f55c9e849a6b",
+       "61320038d0330acc"
+      ],
+      [
+       "4bfa6e95ce0bec81",
+       "fa2cad00a3860223"
+      ],
+      [
+       "a5c96db8a75c4a7f",
+       "8babf106857ffbf6"
+      ],
+      [
+       "964e6165ea1b6b37",
+       "a9da9cfd5fbbef83"
+      ],
+      [
+       "9668cb492f83c8f1"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "3f3b871ae1c65647",
+       "6b2c68056ff659c8"
+      ],
+      [
+       "1287aa8acf7d8e0c",
+       "f6a407f33a41c696"
+      ],
+      [
+       "3c841ae76ce3b3d8",
+       "a4833267237fabdf"
+      ],
+      [
+       "f5fbf44a5227f8e9",
+       "4ddc069352a58eae"
+      ],
+      [
+       "17382fdde37a82a8"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g1-sounds-spelling-syllables",
    "slug": "sounds-spelling-and-syllables-grade-1-unit",
    "status": "live",
@@ -7149,14 +7370,15 @@
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Spell the picture word",
      "type": "G1-260",
      "tasks": 2
     }
    ],
    "notCovered": [
-    1
+    1,
+    4
    ],
    "forms": {
     "A": {

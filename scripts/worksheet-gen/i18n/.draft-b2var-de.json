@@ -215,7 +215,7 @@
   },
   "G2-298": {
    "title": "Kalender lesen: die Wochentage",
-   "instruction": "Beantworte die Fragen zu den Wochentagen. Lies dazu die Spalten im Kalender von oben nach unten."
+   "instruction": "Lies die Spalten von oben nach unten und beantworte die Fragen."
   },
   "G2-299": {
    "title": "Schreiben zum Bild: Was siehst du?",
@@ -223,7 +223,7 @@
   },
   "G2-300": {
    "title": "Schreiben zum Bild: eigene Worte",
-   "instruction": "Diesmal gibt es keine Satzanfänge. Schreibe mit Hilfe des Wortkastens deine eigene Geschichte."
+   "instruction": "Ohne Satzanfänge: Schreibe mit dem Wortkasten deine Geschichte."
   },
   "G2-302": {
    "title": "Koordinaten im 6x6-Gitter",

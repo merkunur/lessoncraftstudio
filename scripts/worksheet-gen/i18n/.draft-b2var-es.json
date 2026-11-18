@@ -215,7 +215,7 @@
   },
   "G2-298": {
    "title": "Lee el calendario: los días de la semana",
-   "instruction": "Todas las preguntas son sobre los días de la semana. Lee las columnas de arriba abajo y responde."
+   "instruction": "Lee las columnas de arriba abajo y responde las preguntas."
   },
   "G2-299": {
    "title": "Escribe sobre la imagen: lo que ves",
@@ -223,7 +223,7 @@
   },
   "G2-300": {
    "title": "Escribe sobre la imagen con tus palabras",
-   "instruction": "Esta vez no hay oraciones empezadas. Usa el banco de palabras y escribe tu propio cuento."
+   "instruction": "Sin oraciones empezadas: escribe tu cuento con el banco de palabras."
   },
   "G2-302": {
    "title": "Coordenadas en una cuadrícula de 6x6",

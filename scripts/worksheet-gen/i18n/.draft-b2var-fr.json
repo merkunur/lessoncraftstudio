@@ -243,7 +243,7 @@
     },
     "G2-298": {
       "title": "Lire le calendrier : les jours",
-      "instruction": "Lis le calendrier colonne par colonne et réponds aux quatre questions sur les jours de la semaine."
+      "instruction": "Lis le calendrier par colonnes et réponds aux quatre questions."
     },
     "G2-299": {
       "title": "Production d'écrit : débuts de phrase",
@@ -251,7 +251,7 @@
     },
     "G2-300": {
       "title": "Production d'écrit : à toi d'écrire",
-      "instruction": "Aucun début de phrase cette fois : aide-toi de la boîte à mots pour écrire ta propre histoire sur l'image."
+      "instruction": "Sans début de phrase : écris ton histoire avec la boîte à mots."
     },
     "G2-302": {
       "title": "Pixel art : quadrillage 6 x 6",

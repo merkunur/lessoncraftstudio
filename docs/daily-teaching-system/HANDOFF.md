@@ -80,12 +80,12 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
 
 ## 6. Rules and traps the next session needs at once
 
-- No Fable agents. Agents: `model: opus`, `subagent_type: general-purpose`, at most 5 at a time, each with its own
+- No Fable agents. Agents: `model: opus`, `subagent_type: general-purpose`, at most 2 at a time (operator 2026-11-18; the session itself runs on Opus 5.5), each with its own
   files; use them for as much of the work as possible; I brief, check and publish.
 - en = American, pt = Brazilian, es = Mexican. One reviewer over a compact dump plus my own reading, in every content
   task.
 - Never `git add .`; commit with explicit paths; `scripts/worksheet-gen/data/` is gitignored (`git add -f`); commit
-  messages through `git commit -F <file>`; end them with `Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>`.
+  messages through `git commit -F <file>`; end them with the Co-Authored-By line the session names for its own model.
 - Bash heredocs mangle quotes and backslashes (it cost a broken script again on 2026-11-18): write scripts with the
   Write tool.
 - Builds and gates: `export WSG_SKIP_TYPES=$(cat C:/Users/rkgen/lcs-handoff-1118/skip-types.txt)` (copy that file

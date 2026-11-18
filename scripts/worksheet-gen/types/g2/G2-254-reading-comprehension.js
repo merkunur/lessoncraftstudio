@@ -17,6 +17,12 @@ const { makeRng } = require('../../lib/rng.js');
 // the MEASURED size tier of each (locale, story, level): tools/level-set/rc-fit-tiers.js renders every page at each tier
 // and keeps the largest that fits the page box (the estimate below is only the fallback for an unmeasured page)
 const RC_FIT = (() => { try { return require('../../data/literacy/rc-levels/fit.json'); } catch (e) { return {}; } })();
+// the MEASURED orders of each question's three choices that keep its choice row no taller than the authored order, at each
+// size tier, on A4 and letter alike (qa/rc-choice-rows-measure.js): { "<loc>|<story>|<level>": [[m0..m3] | null per
+// question] }, bit i of m<tier> = CHOICE_ORDERS[i] fits. A copy prints its choices only in a measured order; a page the table
+// does not know keeps the authored order (never a guess)
+const RC_CHOICE_FIT = (() => { try { return require('../../data/literacy/rc-levels/choice-fit.json'); } catch (e) { return null; } })();
+const CHOICE_ORDERS = ['012', '021', '102', '120', '201', '210'];
 
 const LETTERS = ['A', 'B', 'C'];
 
@@ -29,20 +35,48 @@ const LETTERS = ['A', 'B', 'C'];
  * choices fill the other places in a seeded order — seeded by the story, the level and the copy, so a copy rebuilds the
  * same page and another copy of the same story asks under other letters. The screen and its oracle never read the
  * printed order (lib/reading-comprehension-screen.js: own seeded order, answers re-derived by their words).
+ *
+ * Only MEASURED orders (2026-11-18: the chips wrap, and an order that breaks the line elsewhere added a line — fr G2-273
+ * level 3 ran onto the footer): fits(q) lists the orders of authored choice indices question q may print (RC_CHOICE_FIT
+ * at the page's size tier; the authored order always fits). The draw is kept wherever every question's order fits; where
+ * one does not, the page takes fitting orders for all its questions — the right answers under different letters, as many
+ * drawn orders kept as can be, then as many drawn letters — on a seed of its own, so a copy whose draw fits is unchanged.
+ * fits = null: every order (no measurement asked for).
  */
-function placeAnswers(questions, storyId, level, copyKey) {
+function placeAnswers(questions, storyId, level, copyKey, fits) {
   const rng = makeRng(`rc-letters|${storyId}|${level}|${copyKey}`);
   const mc = questions.filter((q) => q.kind !== 'write' && q.choices);
   const slots = [];
   while (slots.length < mc.length) slots.push(...rng.shuffle([0, 1, 2]));
+  // the draw: the right answer at its slot, the wrong ones in a seeded order (an order of the authored indices)
+  const orders = mc.map((q, i) => {
+    const k = q.choices.length, at = slots[i] % k;
+    const wrong = rng.shuffle(q.choices.map((_, j) => j).filter((j) => j !== q.correct));
+    return [...wrong.slice(0, at), q.correct, ...wrong.slice(at)];
+  });
+  const fitting = mc.map((q) => (fits ? fits(q) : null));
+  const ok = (i, o) => !fitting[i] || fitting[i].some((f) => f.join() === o.join());
+  if (!orders.every((o, i) => ok(i, o))) {
+    // a drawn order does not fit: among the fitting orders of every question, the page that keeps the most drawn orders
+    // with the right answers under DIFFERENT letters (else the most drawn orders), then the most drawn letters; ties on
+    // a seed of their own
+    const opts = mc.map((q, i) => (fitting[i] && fitting[i].length ? fitting[i] : [q.choices.map((_, j) => j)]));
+    const pages = [];
+    const walk = (i, acc) => { if (i === mc.length) { pages.push(acc.slice()); return; } for (const o of opts[i]) { acc.push(o); walk(i + 1, acc); acc.pop(); } };
+    walk(0, []);
+    const score = (page) => {
+      const at = page.map((o, i) => o.indexOf(mc[i].correct));
+      const distinct = new Set(at).size === Math.min(at.length, 3);
+      return (distinct ? 1000 : 0) + 10 * page.filter((o, i) => o.join() === orders[i].join()).length + at.filter((p, i) => p === slots[i] % mc[i].choices.length).length;
+    };
+    const top = Math.max(...pages.map(score)), best = pages.filter((p) => score(p) === top);
+    best[Math.floor(makeRng(`rc-letters-fit|${storyId}|${level}|${copyKey}`).next() * best.length)].forEach((o, i) => { orders[i] = o; });
+  }
   return questions.map((q) => {
     const i = mc.indexOf(q);
     if (i < 0) return q;
-    const k = q.choices.length, at = slots[i] % k;
-    const right = q.choices[q.correct];
-    const wrong = rng.shuffle(q.choices.filter((_, j) => j !== q.correct));
-    const choices = [...wrong.slice(0, at), right, ...wrong.slice(at)];
-    return { ...q, choices, correct: at };
+    const o = orders[i];
+    return { ...q, choices: o.map((j) => q.choices[j]), correct: o.indexOf(q.correct) };
   });
 }
 
@@ -52,6 +86,7 @@ module.exports = {
   gradeBand: 'G2',
   assetClass: 'icon-placement',
   exerciseType: 'reading-comprehension',
+  keyLabelOnKey: true,   // the key keeps the page's own title; the key word stands in the name line (render-instance.js keyHead)
   themeAxis: { applicable: false },
   difficulty: { 1: { idx: 0 }, 2: { idx: 1 }, 3: { idx: 2 } },
   i18n: {
@@ -77,6 +112,14 @@ module.exports = {
     return s;
   },
 
+  /** The size tier of a pool page: size tiers by story length (the level-3 page carries two writing rows, so it counts
+   *  ~110 characters longer); measured by the probe's overflow/footer lints (RC_FIT), never guessed per story. */
+  _tier(difficulty, loc, p, forceTier) {
+    const eff = p.text.length + (difficulty === 3 ? 110 : difficulty === 1 ? 30 : 0);
+    const measured = RC_FIT[loc + '|' + p.id + '|' + difficulty];
+    return forceTier != null ? forceTier : measured != null ? measured : eff <= 330 ? 0 : eff <= 430 ? 1 : eff <= 540 ? 2 : 3;
+  },
+
   _buildLevel(difficulty, loc, sv, forceTier, copyKey) {
     const L = levelData(loc);
     const p = this._storyFor(difficulty, loc, sv);
@@ -87,13 +130,16 @@ module.exports = {
         ? [...p.l3.mc.map((q) => ({ kind: 'inference', q: q.q, choices: q.choices, correct: q.correct })),
           { kind: 'write', q: p.l3.write.q, model: p.l3.write.model, evidence: p.l3.write.evidence }]
         : p.core.map((q) => ({ kind: 'core', q: q.q, choices: q.choices, correct: q.correct }));
-    // a copy's own answer letters (placeAnswers); a build without a copy key (the unit checks) keeps the authored order
-    const questions = copyKey != null ? placeAnswers(authored, p.id, difficulty, copyKey) : authored;
-    // size tiers by story length (the level-3 page carries two writing rows, so it counts ~110 characters longer);
-    // measured by the probe's overflow/footer lints, never guessed per story
-    const eff = p.text.length + (difficulty === 3 ? 110 : difficulty === 1 ? 30 : 0);
-    const measured = RC_FIT[loc + '|' + p.id + '|' + difficulty];
-    const tier = forceTier != null ? forceTier : measured != null ? measured : eff <= 330 ? 0 : eff <= 430 ? 1 : eff <= 540 ? 2 : 3;
+    const tier = this._tier(difficulty, loc, p, forceTier);
+    // a copy's own answer letters (placeAnswers), in orders measured to fit at this tier (a page the table does not know:
+    // the authored order); a build without a copy key (the unit checks) keeps the authored order
+    const fitRow = RC_CHOICE_FIT && RC_CHOICE_FIT[`${loc}|${p.id}|${difficulty}`];
+    const fits = (q) => {
+      const m = fitRow && fitRow[authored.indexOf(q)];
+      const mask = m ? m[tier] : 1;
+      return CHOICE_ORDERS.filter((_, i) => mask & (1 << i)).map((s) => [...s].map(Number));
+    };
+    const questions = copyKey != null ? placeAnswers(authored, p.id, difficulty, copyKey, fits) : authored;
     const long = tier >= 1;
     const px = [18, 17, 16, 15][tier];
     const cardPad = tier >= 3 ? '8px 14px' : tier >= 2 ? '10px 16px' : '14px 18px';

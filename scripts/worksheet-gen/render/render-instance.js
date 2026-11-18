@@ -3,6 +3,10 @@
  * type verify → PDF (vector) + screenshot (thumbnail/design review).
  */
 'use strict';
+// The head of an answer key. A type that says keyLabelOnKey keeps the page's own title and prints the key word in the
+// name line, as the makers do (2026-11-18: 'Title — Lösungen' took one more title line on the reading comprehension
+// pages and pushed 47 live keys past the footer). Every other type keeps 'Title — Answer Key', so its keys do not change.
+const keyHead = (type, head, o) => (type && type.keyLabelOnKey ? { title: head, keyLabel: o.answerKeySuffix || null } : { title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : '') });
 const path = require('path');
 const { measureKeyPage, judgeKey } = require('../qa/key-text-measure.js');   // every answer key is measured before it ships
 const fs = require('fs');
@@ -123,7 +127,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: got.clip });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');   // every key is MEASURED (qa/key-text-measure.js)
@@ -158,7 +162,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
@@ -205,7 +209,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       if (o.keyPng) await page.screenshot({ path: base + '.key.png', fullPage: true });
@@ -235,7 +239,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key')
@@ -283,7 +287,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       if (o.keyPng) await page.screenshot({ path: base + '.key.png', fullPage: true });
@@ -364,7 +368,7 @@ async function renderInstance(o) {
     // answer key: the printed page with every answer written in (a PDF for the teacher)
     const keyBuilt = await again({ answerKey: true });
     sameAs(keyBuilt, 'answer-key');
-    await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+    await load(buildPage({ ...keyHead(type, head, o), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
     const keyPdf = base + '.key.pdf';
     await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
     // o.keyPng (reading sheets only, 2026-10-10): the key page as an image too

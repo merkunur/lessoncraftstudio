@@ -67,7 +67,8 @@ async function main() {
     try {
       var row = await prisma.deck.findFirst({ where: { language: l, slug: s, status: 'published' }, select: { id: true, descriptionHash: true } });
       if (!row) { st.noRow++; console.error('ERROR ' + l + '/' + s + ': no published row'); continue; }
-      var newHash = hashTitleOrDescription(refText);
+      // (the hash is taken over the description as the head carries it: measured 2026-11-18, the row's hash equals the hash of the live attribute)
+      var newHash = hashTitleOrDescription(refRaw);
       var clash = await prisma.deck.findFirst({ where: { language: l, descriptionHash: newHash, NOT: { id: row.id } }, select: { slug: true } });
       if (clash) { st.collision++; console.log('SKIP-collision ' + l + '/' + s + ': the earlier description is now the description of ' + clash.slug); continue; }
       var html = fs.readFileSync(live, 'utf8'); var total = 0; var seen = {};

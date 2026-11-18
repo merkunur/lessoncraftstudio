@@ -47,7 +47,7 @@
     },
     "K-363": {
       "title": "El cuerpo humano: ¿cuáles tienes dos?",
-      "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
+      "instruction": "Encierra cada parte del cuerpo de la que hay dos."
     },
     "K-355": {
       "title": "Los cinco sentidos",
@@ -486,7 +486,7 @@
         },
         "K-363": {
           "title": "El cuerpo humano: ¿cuáles tienes dos?",
-          "instruction": "Encierra cada parte del cuerpo de la que tienes dos."
+          "instruction": "Encierra cada parte del cuerpo de la que hay dos."
         }
       }
     },

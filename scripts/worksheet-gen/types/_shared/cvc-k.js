@@ -371,8 +371,14 @@ const badge = (n) => `<span data-lcs-badge style="flex:0 0 auto;display:inline-f
 const cream = (attrs, inner, pad = 8, more = '') => `<div ${attrs} style="display:flex;flex-direction:column;gap:6px;padding:${pad}px 12px;border-radius:14px;background:${T.cream};min-width:0;${more}">${inner}</div>`;
 /** a box for ONE letter (72 px or more); the key prints the letter in teal, a traced letter stands in light grey */
 const letterBox = (attrs, size, text, color, font) => `<span ${attrs} style="flex:0 0 auto;box-sizing:border-box;width:${size}px;height:${size}px;display:inline-flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:12px;background:#FFFFFF;font:800 ${font || Math.round(size * 0.66)}px/1 'Nunito',sans-serif;color:${color || T.teal}">${text}</span>`;
-/** the words the teacher says (the pages ship without their key): small grey type at the foot of the page body */
-const teacherLine = (html) => `<div data-lcs-teacherline style="flex:0 0 auto;margin-top:5px;padding-top:4px;border-top:1.5px solid ${T.grid};font:600 12.5px/1.25 'Nunito',sans-serif;color:${T.inkSoft}">${html}</div>`;
+/** the words the teacher says (the pages ship without their key): a TEACHER STRIP at the foot of the page body, under a
+ *  dashed cut line with a pair of scissors. The teacher cuts it off before copying the page: the steps name the new sound of
+ *  every step ("change /k/ to /h/"), and that sound is the letter the child is to write (2026-11-18). */
+const TSTRIP = 'Teacher strip: cut off before you copy the page.';
+const SCISSORS = `<svg data-lcs-scissors width="24" height="22" viewBox="0 0 24 22" style="position:absolute;left:-26px;top:-12px;display:block"><circle cx="5" cy="5" r="3.6" fill="none" stroke="${T.inkSoft}" stroke-width="2.2"/><circle cx="5" cy="17" r="3.6" fill="none" stroke="${T.inkSoft}" stroke-width="2.2"/><path d="M8 7.5 L22 15 M8 14.5 L22 7" stroke="${T.inkSoft}" stroke-width="2.2" stroke-linecap="round"/></svg>`;
+const teacherLine = (html) => `<div data-lcs-teacherline style="flex:0 0 auto;margin-top:5px;font:600 12.5px/1.25 'Nunito',sans-serif;color:${T.inkSoft}">` +
+  `<div data-lcs-cutline style="position:relative;height:0;margin:8px 0 12px 28px;border-top:2.5px dashed currentColor">${SCISSORS}</div>` +
+  `<div data-lcs-tstriphead style="font-weight:800">${TSTRIP}</div><div data-lcs-tsteps>${html}</div></div>`;
 const sideHead = (v) => `<div data-lcs-colhead="${v}" style="flex:0 0 50px;display:flex;align-items:center;justify-content:center;border-radius:6px 0 0 6px;background:${T.tealSoft};border-right:4px solid ${T.teal};color:${T.teal};font:800 40px/1 'Nunito',sans-serif">${v}</div>`;
 /** the teacher's steps of a ladder: "2 change /k/ to /h/" */
 const stepSay = (a, b) => { const p = diffAt(a, b)[0]; return `change ${soundOf(a[p])} to ${soundOf(b[p])}${/[ck]/.test(b[p]) ? ` (spelled ${b[p]})` : ''}`; };
@@ -485,7 +491,7 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
         // each step for the teacher stays on one line (a line break never splits /k/ from its slash)
         // (each separator stays with its step, so a line never starts with a lone dot)
         const say = words.slice(1).map((w, i, all) => `<span style="white-space:nowrap">${i + 2} ${stepSay(words[i], w)}${i < all.length - 1 ? ' ·' : '.'}</span>`);
-        blocks.push(teacherLine(`Teacher: read the top word together. Then say, step by step: ${say.join(' ')} After each step, say the new word together.`));
+        blocks.push(teacherLine(`Read the top word together. Then say, step by step: ${say.join(' ')} After each step, say the new word together.`));
         items = words.slice(1).map((w, i) => words[i] + '>' + w);
       }
 
@@ -551,7 +557,7 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
         const lines = [...document.querySelectorAll('[data-lcs-line]')];
         lines.forEach((l) => { const s = l.querySelector('svg'); if (!s || R(s).height < 110) fails.push('a writing row lower than 110 px (Kindergarten ruling: about 3/4 in from top rule to baseline)'); });
         document.querySelectorAll('[data-lcs-gap], [data-lcs-cell]').forEach((b) => { const r = R(b); if (r.width < 71.5 || r.height < 71.5) fails.push(`a box to write one letter in is ${Math.round(r.width)} x ${Math.round(r.height)} px (72 or more)`); });
-        // the words the teacher says where the page needs them: a small grey line at the foot of the page body
+        // the words the teacher says where the page needs them: a teacher strip at the foot of the page body, under a cut line
         const tls = [...root.querySelectorAll('[data-lcs-teacherline]')];
         const wantTL = mode === 'chain';
         if (tls.length !== (wantTL ? 1 : 0)) fails.push(`${tls.length} lines of words for the teacher (${wantTL ? 'one' : 'none'} wanted)`);
@@ -562,8 +568,15 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
           if (blocks.length > 1 && R(tl).top - R(blocks[blocks.length - 2]).bottom < 8) fails.push('the words for the teacher stand close against the task');
           const rg = document.createRange(); rg.selectNodeContents(tl);
           if ([...rg.getClientRects()].some((q) => q.width > 0.5 && (q.left < rb.left - 0.5 || q.right > rb.right + 0.5 || q.bottom > rb.bottom + 0.5))) fails.push('the words for the teacher leave the page');
+          // a strip to cut off: a dashed line with scissors across the page, the order to cut under it, then the steps; nothing of
+          // the child's page stands under the cut line
+          const cut = tl.querySelector('[data-lcs-cutline]'), head = tl.querySelector('[data-lcs-tstriphead]'), steps = tl.querySelector('[data-lcs-tsteps]');
+          if (!cut || getComputedStyle(cut).borderTopStyle !== 'dashed' || parseFloat(getComputedStyle(cut).borderTopWidth) < 2 || !cut.querySelector('[data-lcs-scissors]') || R(cut).width < 0.85 * R(tl).width) fails.push('no dashed cut line with scissors above the words for the teacher');
+          if (!head || head.innerText.replace(/\s+/g, ' ').trim() !== 'Teacher strip: cut off before you copy the page.') fails.push('the teacher strip does not say to cut it off before copying');
+          if (cut && head && steps && !(R(cut).top < R(head).top && R(head).bottom <= R(steps).top + 0.5)) fails.push('the teacher strip is out of order (cut line, the order to cut, the steps)');
+          if (cut && [...root.querySelectorAll('[data-lcs-rung], [data-lcs-label], [data-lcs-ladder]')].some((e) => R(e).bottom > R(cut).top + 0.5)) fails.push('a part of the page of the child stands under the cut line');
         }
-        const said = tl ? tl.innerText.replace(/\s+/g, ' ').trim() : '';
+        const said = tl && tl.querySelector('[data-lcs-tsteps]') ? tl.querySelector('[data-lcs-tsteps]').innerText.replace(/\s+/g, ' ').trim() : '';
         // every printed word a child reads: a word of the bank, printed once
         const printed = [];
 
@@ -683,7 +696,7 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
               else if (isKey ? t !== w[k] : t) fails.push(`step ${i + 2}: a box is filled on the page of the child, or wrong on the key`); });
             if (r.querySelector('img')) fails.push(`step ${i + 2} shows a picture (it gives the new word away)`); });
           const say = ws.slice(1).map((w, i) => { const p = diffAt(ws[i], w)[0]; const so = (c) => ({ a: '/ă/', e: '/ĕ/', i: '/ĭ/', o: '/ŏ/', u: '/ŭ/', c: '/k/' }[c] || `/${c}/`); return `${i + 2} change ${so(ws[i][p])} to ${so(w[p])}${/[ck]/.test(w[p]) ? ` (spelled ${w[p]})` : ''}`; });
-          const want = `Teacher: read the top word together. Then say, step by step: ${say.join(' · ')}. After each step, say the new word together.`;
+          const want = `Read the top word together. Then say, step by step: ${say.join(' · ')}. After each step, say the new word together.`;
           if (said !== want) fails.push(`the steps for the teacher are not the changes of the ladder: "${said}"`);
           // the page of the child prints no word of the ladder but the top word
           const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let leak = 0;

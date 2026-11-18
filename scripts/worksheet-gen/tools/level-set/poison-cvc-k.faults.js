@@ -16,7 +16,10 @@ module.exports = (FACTORY, BANK) => [
   ['boxes of 56 px for a letter', FACTORY, 'gfont: 46, box: 72, pad: 8 }', 'gfont: 46, box: 56, pad: 8 }', 'K-662', 1],
   ['ladder boxes of 64 px', FACTORY, "2: { places: 'FL', box: 80, font: 56, pic: 84 }", "2: { places: 'FL', box: 64, font: 56, pic: 84 }", 'K-663', 2],
   ["the words for the teacher in black", FACTORY, "font:600 12.5px/1.25 'Nunito',sans-serif;color:${T.inkSoft}", "font:600 12.5px/1.25 'Nunito',sans-serif;color:${T.ink}", 'K-663', 2],
-  ["the words for the teacher pressed against the task", FACTORY, "flex:0 0 auto;margin-top:5px;padding-top:4px;border-top", "flex:0 0 auto;margin-top:-5px;padding-top:4px;border-top", 'K-663', 1],
+  ["the words for the teacher pressed against the task", FACTORY, "flex:0 0 auto;margin-top:5px;font:600 12.5px", "flex:0 0 auto;margin-top:-5px;font:600 12.5px", 'K-663', 1],
+  ["a teacher strip without its cut line", FACTORY, "border-top:2.5px dashed currentColor", "border-top:0 dashed currentColor", 'K-663', 1],
+  ["a teacher strip that does not say to cut it off", FACTORY, "const TSTRIP = 'Teacher strip: cut off before you copy the page.';", "const TSTRIP = 'For the teacher:';", 'K-663', 2],
+  ["the steps for the teacher above the order to cut", FACTORY, "<div data-lcs-tstriphead style=\"font-weight:800\">${TSTRIP}</div><div data-lcs-tsteps>${html}</div>", "<div data-lcs-tsteps>${html}</div><div data-lcs-tstriphead style=\"font-weight:800\">${TSTRIP}</div>", 'K-663', 3],
   ['the blocks fill too little of the page', FACTORY, '`<div data-lcs-ladder style="flex:1 1 auto;align-self:center;', '`<div data-lcs-ladder style="flex:0 0 auto;max-height:340px;align-self:center;', 'K-663', 3],
   ['a block leaves the page', FACTORY, 'align-items:center;gap:16px;padding:7px 18px;background:', 'align-items:center;gap:16px;padding:40px 18px;background:', 'K-663', 1],
   // K-661 and K-662: the match
@@ -82,7 +85,7 @@ module.exports = (FACTORY, BANK) => [
   ["a step into /k/ does not name its letter", FACTORY, "${/[ck]/.test(b[p]) ? ` (spelled ${b[p]})` : ''}", "", 'K-663', 1],
   ["a ladder word that begins and ends with one consonant", FACTORY, "const starts = shuffle(words.filter((w) => B.pics[w]), rng);", "const starts = shuffle(words.filter((w) => B.pics[w]), rng); if (lv === 2) return { words: ['cat', 'hat', 'had', 'dad', 'mad', 'map'], places: [0, 2, 0, 0, 2] };", 'K-663', 2],
   ["the vowel of a word that ends in g changes", FACTORY, "const starts = shuffle(words.filter((w) => B.pics[w]), rng);", "const starts = shuffle(words.filter((w) => B.pics[w]), rng); if (lv === 3) return { words: ['hat', 'bat', 'bag', 'big', 'bit', 'pit'], places: [0, 2, 1, 2, 0] };", 'K-663', 3],
-  ['no steps for the teacher', FACTORY, 'blocks.push(teacherLine(`Teacher: read the top word together.', 'void ((`Teacher: read the top word together.', 'K-663', 2],
+  ['no steps for the teacher', FACTORY, 'blocks.push(teacherLine(`Read the top word together.', 'void ((`Read the top word together.', 'K-663', 2],
   ['a new word printed on the ladder', FACTORY, 'badge(i + 1) + `<div data-lcs-boxes style=', "badge(i + 1) + (i === 0 ? `<span>${words[1]}</span>` : '') + `<div data-lcs-boxes style=", 'K-663', 3],
   // K-664: the pairs
   ['the second word differs in another place', FACTORY, 'const alt = shuffle(others(B, w, pos, VOWELS).filter((x) => !used.has(x)), rng)[0];', 'const alt = shuffle(others(B, w, (pos + 1) % 3, VOWELS).filter((x) => !used.has(x)), rng)[0];', 'K-664', 2],

@@ -90,10 +90,18 @@ const EXEMPT = {
   'G2-239': [/^(first-half|second-half|alternate-[01])$/, 'build the bar graph: a bar starts at the axis, its height is the task'],
   'G3-334': [/^(first-half|second-half|alternate-[01])$/, 'build the scaled bar graph: a bar starts at the axis, its height is the task'],
   // the size pages: the child circles the biggest / tallest / longest picture — "pick the biggest" IS the skill
-  'K-032': [/^area-max$/, 'circle the BIGGEST picture in each row: picking the biggest is the task'],
-  'K-035': [/^area-max$/, 'circle the TALLEST picture in each row: the tallest of one picture drawn at several sizes is its biggest'],
-  'K-037': [/^area-max$/, 'circle the LONGEST picture in each row: the longest of one picture drawn at several sizes is its biggest'],
-  'K-079': [/^area-max$/, 'circle the BIGGEST shape in each row: picking the biggest is the task'],
+  // 2026-11-18: the copies of these four ask the two ends in turn (data/ask-lines.json, lib/copy-asks.js: odd copies the
+  // biggest, even copies the smallest), so "always the smallest" is right on every even copy (50 % of 12 pages) as
+  // "always the biggest" is on every odd one — on the page that asks for it, picking that end is the task
+  'K-032': [/^area-(max|min)$/, 'circle the BIGGEST (odd copies) or the SMALLEST (even copies) picture in each row: picking the end the page asks for is the task'],
+  'K-035': [/^area-(max|min)$/, 'circle the TALLEST or the SHORTEST picture in each row (the copies ask them in turn): of one picture drawn at several sizes the tallest is the biggest, the shortest the smallest'],
+  'K-037': [/^area-(max|min)$/, 'circle the LONGEST or the SHORTEST picture in each row (the copies ask them in turn): of one picture drawn at several sizes the longest is the biggest, the shortest the smallest'],
+  'K-079': [/^area-(max|min)$/, 'circle the BIGGEST or the SMALLEST shape in each row (the copies ask them in turn): picking the end the page asks for is the task'],
+  // 2026-11-18: a page of three rainbows is three small tasks, and the screen declares no pair group, so every number
+  // of the page is pooled as a candidate (chance 1 in ~20). "The first number of my own row" is then right once per
+  // rainbow = rows / numbers (3 of ~19 = 15 %), which is exactly one in the numbers of ONE rainbow: the chance inside
+  // a row, not a way to score. It crossed the margin when level 2 began to draw its totals from 6 to 10 (shorter rows).
+  'K-458': [/^same-row$/, 'join the pairs of each rainbow: a partner always stands in its own rainbow, and guessing the first number of the row is right once per rainbow — the chance inside one row (rows / numbers), pooled over three rainbows'],
   'K-445': [/^same-as-prev$/, 'same number? both groups are counted; on the "yes" rows the two counts are equal'],
   'K-452': [/^same-as-prev$/, 'three ways to show ONE number: the number repeats'],
   'K-448': [/^echo$/, 'teen numbers: write the number, then 10 + ones = that number (it is printed back)'],

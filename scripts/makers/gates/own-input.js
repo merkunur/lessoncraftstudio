@@ -71,10 +71,21 @@ const lineCount = () => {
   // ---- A. typed text through the screen
   const shown = () => p.evaluate(() => document.querySelector('.mk-sheet iframe').getAttribute('srcdoc'));
   const textOf = (sel) => p.evaluate((sel) => document.querySelector('.mk-sheet iframe').contentDocument.querySelector(sel).textContent.trim(), sel);
-  const openEditor = async (sel) => { await p.evaluate((sel) => document.querySelector('.mk-sheet iframe').contentDocument.querySelector(sel).dispatchEvent(new MouseEvent('click', { bubbles: true })), sel); await settle(400); };
-  const submit = async (value) => { await p.evaluate((v) => { const i = document.querySelector('#mk-picker .mk-text-input'); i.value = v; document.querySelector('#mk-picker .mk-primary').click(); }, value); await settle(1600); return p.evaluate(() => { const d = document.getElementById('mk-picker'); return { refused: d.open, note: (document.getElementById('mk-pick-note') || {}).textContent || '', printOff: document.getElementById('mk-print').disabled }; }); };
+  // (2026-11-18) the screen is waited for by its STATE, never by a fixed pause. The shell answers a typed text only after it
+  // has built and checked the page (shell.js openTextEditor: save → await pageResult → close → render), and a new page takes
+  // its click handler on the load event of its frame. On a busy machine both take longer than any fixed pause: the gate then
+  // read a text still being checked as "refused without a sentence" and a frame still loading as "the text editor did not
+  // open" (3 of 644 cases in one run, 0 in the two runs before it). Every wait has a limit: when the state does not come, the
+  // gate goes on and the assertions below fail exactly as before.
+  const until = async (fn, ms, ...a) => { const end = Date.now() + ms; for (;;) { let ok = false; try { ok = await p.evaluate(fn, ...a); } catch (e) { ok = false; } if (ok || Date.now() > end) return !!ok; await settle(100); } };
+  /** the page frame has loaded and carries its click handler (the shell sets role=button in the same load handler) */
+  const frameReady = (sel) => until((sel) => { const f = document.querySelector('.mk-sheet iframe'), d = f && f.contentDocument, n = d && d.querySelector(sel); return !!n && n.getAttribute('role') === 'button'; }, 8000, sel);
+  /** the shell has answered: a sentence in the open editor (refused), or the editor closed and the pages drawn again (Print is set at the end of render) */
+  const answered = () => until(() => { const d = document.getElementById('mk-picker'), n = document.getElementById('mk-pick-note'), pr = document.getElementById('mk-print'); return d && d.open ? /\S/.test((n || {}).textContent || '') : !!pr && !pr.disabled; }, 20000);
+  const openEditor = async (sel) => { await frameReady(sel); await p.evaluate((sel) => document.querySelector('.mk-sheet iframe').contentDocument.querySelector(sel).dispatchEvent(new MouseEvent('click', { bubbles: true })), sel); await until(() => !!(document.getElementById('mk-picker') || {}).open && !!document.querySelector('#mk-picker .mk-text-input'), 3000); await settle(150); };
+  const submit = async (value) => { await p.evaluate((v) => { const i = document.querySelector('#mk-picker .mk-text-input'); i.value = v; document.querySelector('#mk-picker .mk-primary').click(); }, value); await answered(); await frameReady('[data-lcs-title]'); await settle(200); return p.evaluate(() => { const d = document.getElementById('mk-picker'); return { refused: d.open, note: (document.getElementById('mk-pick-note') || {}).textContent || '', printOff: document.getElementById('mk-print').disabled }; }); };
   const closeDlg = () => p.evaluate(() => { const d = document.getElementById('mk-picker'); if (d && d.open) d.close(); });
-  const restore = async (sel) => { await openEditor(sel); await p.evaluate(() => document.querySelector('#mk-picker .mk-text-actions .mk-link').click()); await settle(1200); };
+  const restore = async (sel) => { await openEditor(sel); await p.evaluate(() => document.querySelector('#mk-picker .mk-text-actions .mk-link').click()); await answered(); await frameReady(sel); await settle(200); };
 
   const CASES = [
     { n: 1, field: 'title', sel: '[data-lcs-title]', value: 'Ü' + 'supercalifragilisticexpialidocious'.repeat(3).slice(0, 79), expect: 'either' },

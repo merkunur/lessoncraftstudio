@@ -3007,7 +3007,7 @@
   },
   "G1-411": {
     "title": "Lue ja väritä: vain oikea määrä",
-    "instruction": "Kuvia on enemmän kuin lause pyytää. Lue luku ja väritä vain niin monta kuvaa kuin luku kertoo."
+    "instruction": "Kuvia on liikaa. Lue luku ja väritä vain niin monta kuvaa kuin luku kertoo."
   },
   "K-388": {
     "title": "Päivän sana: {UNIT}",

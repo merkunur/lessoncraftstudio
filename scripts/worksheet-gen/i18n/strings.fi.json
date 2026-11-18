@@ -2741,8 +2741,7 @@
   },
   "G1-386": {
     "title": "Perhepuu: lue vihjeet",
-    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa.",
-    "printTitle": "Sukupuu: lue vihjeet"
+    "instruction": "Lue vihjeet ja kirjoita jokainen nimi oikeaan nimiruutuun perhepuussa."
   },
   "G2-362": {
     "title": "Sukulaisarvoitukset: kuka sukulainen on kyseessä?",
@@ -2750,8 +2749,7 @@
   },
   "G1-387": {
     "title": "Perhepuun pohja: täytä itse",
-    "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille.",
-    "printTitle": "Sukupuun pohja: täytä itse"
+    "instruction": "Piirrä kehyksiin ihmiset, jotka ovat sinulle tärkeitä, ja kirjoita heidän nimensä viivoille."
   },
   "K-376": {
     "title": "Mitä kasvi tarvitsee kasvaakseen?",

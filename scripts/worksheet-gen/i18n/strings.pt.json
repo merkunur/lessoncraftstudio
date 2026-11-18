@@ -671,7 +671,7 @@
   "G3-311": {
     "title": "Famílias de vezes",
     "instruction": "Use a disposição retangular para completar as quatro sentenças.",
-    "printTitle": "Família de fatos da multiplicação e da divisão"
+    "printTitle": "Famílias de fatos"
   },
   "G3-312": {
     "title": "O fator que falta",
@@ -2911,8 +2911,7 @@
   },
   "G2-377": {
     "title": "Letra cursiva para o 1º ano: as letras a, e, i, o",
-    "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo.",
-    "printTitle": "Letra cursiva: as letras a, e, i, o"
+    "instruction": "Cubra as letras cinza e continue escrevendo cada letra ligada, sozinho, até o fim da linha e na linha vazia de baixo."
   },
   "K-381": {
     "title": "Sequência de fatos para recortar: primeiro, depois, por fim",

@@ -51,14 +51,13 @@ maker, for language mistakes too. The whole round is described in the last entry
   `tools/level-set/year-lit-r.config.js`, `check-zips-ylr.js`.
 - **Cleaned:** server staging, logs and archived pages; PC wave files, staging, release pack, temp folders.
 
-## 4. One decision that waits for the operator
+## 4. The title tails are back (operator, 2026-11-18: "give the tails back")
 
-**820 landing-less indexable pages lost their search-title tail in republish rounds BEFORE 2026-11-13** (about 75 per
-language). The identity baseline of 13 November recorded them without the tail, so they were left as the baseline has
-them. Giving the tail back is a title change on 820 indexed pages and needs the operator's word plus a new baseline
-(`node scripts/seo/identity-snapshot.js --capture --out=docs/SEO/daily-system-baseline/baseline.json`). The list is in
-`C:\Users\rkgen\lcs-handoff-1118\server\lost-tails-restored.txt` (all 1,262 pages that ever lost a tail; the 820 are
-those whose live version is older than the baseline) and the before/after journal beside it.
+873 landing-less indexable pages had lost their search-title tail in republish rounds before 2026-11-13 (57 to 130 per
+language; the 820 not republished since plus 53 that were). On the operator's word they got the tail back in one
+scoped run (`append-demand-title-tail.js --slugs-file`, each page the tail kind it carried; 0 errors, a rescan finds
+no page without its tail). **The identity baseline was taken again: `docs/SEO/daily-system-baseline/baseline.json`,
+captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing else changed). Nothing is open here.
 
 ## 5. NEXT: the programme in the ruled order (approved plan, Stage B onward)
 
@@ -95,7 +94,7 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
   in its log folder at its start (`GATE_LOGS=<other folder>` for a partial run); a filtered run fails `unique-solution`
   when no puzzle maker is in the filter.
 - **After ANY in-place republish, in this order:** `audit-update-injections.js` (+ `restore-update-injections.sh
-  confirm`), `scan-lost-tails.js` and `restore-update-identity.js <list> --at=<baseline captured> --confirm` (also for
+  confirm`), `scan-lost-tails.js` and `restore-update-identity.js <list> --at=2026-11-18T22:34:15Z --confirm` (the baseline's "captured"; read it from the file if the baseline was taken again) (also for
   the list of exempt pages republished since the baseline), then `repoint-deck-canonical.js --types=<families>
   --locale=<l>` as the LAST server step (never without `--types`; second pass must change 0), then
   `node scripts/seo/identity-snapshot.js --compare=docs/SEO/daily-system-baseline/baseline.json --origin=127.0.0.1` on
@@ -112,11 +111,11 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
 ## 7. Not without the owner
 
 Switch Part 9 on; open the other languages' new pages to Google before the 2026-12-09 read; touch auth routes or
-`lib/email.ts`; regenerate app decks; change titles or descriptions of indexed pages (section 4); any destructive
+`lib/email.ts`; regenerate app decks; change titles or descriptions of indexed pages; any destructive
 server action outside a republish cleanup.
 
 ## 8. Working files of the ended session
 
 `C:\Users\rkgen\lcs-handoff-1118\` holds the release scripts, gate logs, the republish tools (`unresolved*.js`,
 `repoint-types.json`), the identity journals and lists (`server\`), and `skip-types.txt`. Nothing in the repository
-depends on it; keep `skip-types.txt` and the `server\` folder until section 4 is decided, delete the rest.
+depends on it; keep `skip-types.txt` (copy it somewhere durable first), delete the rest when it is no longer wanted.

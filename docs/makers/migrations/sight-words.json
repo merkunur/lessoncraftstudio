@@ -1,0 +1,29 @@
+[
+ {
+  "at": "66a6159f3baf",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-388",
+   "K-389",
+   "K-390",
+   "K-391",
+   "K-433",
+   "K-434",
+   "K-435",
+   "K-438"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "66a6159f3baf",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-437"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
+ }
+]

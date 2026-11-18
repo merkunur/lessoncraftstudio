@@ -30,5 +30,17 @@
   "kind": "content-fix",
   "note": "One balloon in a singular sentence",
   "date": "2026-11-16"
+ },
+ {
+  "at": "0192066dccd5",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-065",
+   "K-066",
+   "K-067"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
  }
 ]

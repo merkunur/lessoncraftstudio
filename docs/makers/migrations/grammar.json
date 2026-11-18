@@ -10,5 +10,36 @@
   "kind": "content-fix",
   "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "522b3a1da10a",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-497"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "522b3a1da10a",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-293",
+   "G1-300",
+   "G1-352",
+   "G1-371",
+   "G1-372",
+   "G2-275",
+   "G2-285",
+   "G2-286",
+   "G2-287",
+   "G2-317",
+   "G2-334",
+   "G2-337"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

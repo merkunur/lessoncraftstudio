@@ -8,5 +8,17 @@
   "kind": "content-fix",
   "note": "German nouns are capitalized, and a sheet never shows one word twice or two easily confused pictures.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "73ef69ec5468",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-324",
+   "K-349",
+   "K-350"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

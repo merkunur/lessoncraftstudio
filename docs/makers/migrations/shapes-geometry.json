@@ -52,5 +52,35 @@
   "kind": "content-fix",
   "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "f75a9fdec4f9",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-381"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "f75a9fdec4f9",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-368",
+   "K-372",
+   "K-464",
+   "G1-383",
+   "G2-243",
+   "G2-244",
+   "G2-247",
+   "G2-248",
+   "G3-339",
+   "G3-341",
+   "G3-342"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

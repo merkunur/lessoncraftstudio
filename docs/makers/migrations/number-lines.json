@@ -1,0 +1,27 @@
+[
+ {
+  "at": "b015c0b6b13c",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-248",
+   "G1-274",
+   "G1-275",
+   "G1-276",
+   "G1-277",
+   "G1-278",
+   "G1-279",
+   "G1-280",
+   "G1-281",
+   "G1-295",
+   "G1-439",
+   "G2-221",
+   "G2-305",
+   "G2-310",
+   "G3-308",
+   "G3-323"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
+ }
+]

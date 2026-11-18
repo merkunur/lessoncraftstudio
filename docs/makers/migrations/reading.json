@@ -8,5 +8,37 @@
   "kind": "content-fix",
   "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "aaf75776b6a7",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-308",
+   "G1-411",
+   "G2-254",
+   "G2-269",
+   "G2-270",
+   "G2-271",
+   "G2-272",
+   "G2-273"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "aaf75776b6a7",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-242",
+   "G1-251",
+   "G1-252",
+   "G1-341",
+   "G1-409",
+   "G1-410"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

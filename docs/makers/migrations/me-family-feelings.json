@@ -8,5 +8,23 @@
   "kind": "content-fix",
   "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "b79733ad1ce6",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-331",
+   "K-334",
+   "K-335",
+   "K-342",
+   "K-343",
+   "K-345",
+   "K-346",
+   "K-375",
+   "K-566"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

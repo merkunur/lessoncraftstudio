@@ -1,0 +1,30 @@
+[
+ {
+  "at": "988d4e983106",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-458"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "988d4e983106",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-273",
+   "K-276",
+   "G1-209",
+   "G1-219",
+   "G1-220",
+   "G1-221",
+   "G1-222",
+   "G1-441",
+   "G3-369"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
+ }
+]

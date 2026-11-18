@@ -34,5 +34,25 @@
   "kind": "content-fix",
   "note": "English: US vowel marks (a line and a curve), no ng/nk words; level 3 only where it asks more than level 2 (German)",
   "date": "2026-11-16"
+ },
+ {
+  "at": "daf45dd23e13",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-221",
+   "K-226",
+   "K-228",
+   "K-234",
+   "K-318",
+   "K-329",
+   "K-330",
+   "K-378",
+   "G1-314",
+   "G1-392",
+   "G2-372"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

@@ -30,5 +30,41 @@
   "kind": "content-fix",
   "note": "A word, a sentence or a picture on this page was corrected after a review by teachers.",
   "date": "2026-11-15"
+ },
+ {
+  "at": "67b43212833a",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G2-274",
+   "G2-281",
+   "G2-282",
+   "G2-307",
+   "G2-311"
+  ],
+  "kind": "content-fix",
+  "note": "Each new version of this page now asks something different.",
+  "date": "2026-11-18"
+ },
+ {
+  "at": "67b43212833a",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "G1-249",
+   "G1-282",
+   "G1-283",
+   "G1-302",
+   "G1-350",
+   "G1-367",
+   "G1-368",
+   "G1-373",
+   "G1-374",
+   "G1-375",
+   "G1-501",
+   "G2-349",
+   "G2-350"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
  }
 ]

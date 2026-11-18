@@ -1,0 +1,24 @@
+[
+ {
+  "at": "32003aa37aa4",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-229",
+   "K-230",
+   "K-317",
+   "K-325",
+   "K-326",
+   "K-327",
+   "K-328",
+   "K-530",
+   "K-534",
+   "G1-262",
+   "G1-263",
+   "G1-264",
+   "G1-311"
+  ],
+  "kind": "content-fix",
+  "note": "A word or a sentence on this page was corrected after a review by teachers.",
+  "date": "2026-11-18"
+ }
+]

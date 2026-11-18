@@ -38,6 +38,13 @@
  * Usage (on Hetzner, from /opt/lessoncraftstudio, DATABASE_URL in env):
  *   node scripts/publish-cli/append-demand-title-tail.js --locales=de --dry-run
  *   node scripts/publish-cli/append-demand-title-tail.js --locales=all --confirm [--limit=N]
+ *   node scripts/publish-cli/append-demand-title-tail.js --locales=all --slugs-file=/root/lost-tails.txt --confirm
+ *
+ * --slugs-file=<path> (2026-11-18): lines "<locale> <slug> [full|short]". The run touches ONLY the named pages, and a
+ * named kind is the tail the page gets (the one it carried before). WHY: an in-place republish (publish-cli UPDATE)
+ * writes a bare title, so a landing-less page loses its tail; scan-lost-tails.js lists such pages from the retained
+ * earlier versions. NEVER run --confirm over all pages without this file: since the Level Sets there are about
+ * 120,000 self-canonical noindex copies that never had a tail and must not get one.
  *
  * Forward path: landings are authored AFTER publish and repointed retroactively,
  * so tails are NOT baked into build-seo-head.js — re-run this idempotent
@@ -61,7 +68,7 @@ var TAILS = require('./demand-title-tails.json');
 var MAX_TITLE_CHARS = 80;
 
 function parseArgs(argv) {
-  var out = { locales: null, dryRun: false, confirm: false, limit: 0 };
+  var out = { locales: null, dryRun: false, confirm: false, limit: 0, only: null };
   argv.slice(2).forEach(function (a) {
     if (a.indexOf('--locales=') === 0) {
       var v = a.slice('--locales='.length);
@@ -69,6 +76,16 @@ function parseArgs(argv) {
     } else if (a === '--dry-run') out.dryRun = true;
     else if (a === '--confirm') out.confirm = true;
     else if (a.indexOf('--limit=') === 0) out.limit = parseInt(a.slice('--limit='.length), 10) || 0;
+    else if (a.indexOf('--slugs-file=') === 0) {
+      out.only = new Map();
+      fs.readFileSync(a.slice('--slugs-file='.length), 'utf8').split(/\r?\n/).forEach(function (line) {
+        var p = line.trim().split(/\s+/);
+        if (p.length < 2 || !p[0]) return;
+        if (p[2] && p[2] !== 'full' && p[2] !== 'short') { console.error('--slugs-file: the third field is full or short: ' + line); process.exit(2); }
+        out.only.set(p[0] + ' ' + p[1], p[2] || '');
+      });
+      if (!out.only.size) { console.error('--slugs-file names no page'); process.exit(2); }
+    }
     else { console.error('Unknown flag: ' + a); process.exit(2); }
   });
   if (!out.locales) { console.error('USAGE: --locales=<csv|all> and --dry-run or --confirm'); process.exit(2); }
@@ -128,7 +145,8 @@ async function main() {
     where: { status: 'published', language: { in: args.locales } },
     select: { id: true, language: true, slug: true, titleHash: true }
   });
-  console.log('published rows in scope: ' + rows.length);
+  if (args.only) rows = rows.filter(function (r) { return args.only.has(r.language + ' ' + r.slug); });
+  console.log('published rows in scope: ' + rows.length + (args.only ? ' (of ' + args.only.size + ' named in the slugs file)' : ''));
 
   var allRows = args.locales.length === ALL_LOCALES.length ? rows : await prisma.deck.findMany({
     where: { status: 'published' },
@@ -173,7 +191,9 @@ async function main() {
     // Budget ladder: full tail, else short, else skip+report.
     var baseLen = unescapeLen(head.title);
     var tail = null;
-    if (baseLen + tails.full.length <= MAX_TITLE_CHARS) tail = tails.full;
+    var forced = args.only ? args.only.get(lang + ' ' + r.slug) : '';
+    if (forced) tail = tails[forced] || null;   // the tail the page carried before (no budget ladder: it fitted then)
+    else if (baseLen + tails.full.length <= MAX_TITLE_CHARS) tail = tails.full;
     else if (tails.short && baseLen + tails.short.length <= MAX_TITLE_CHARS) tail = tails.short;
     if (!tail) {
       stats.skippedBudget++;

@@ -20,8 +20,11 @@ entry of `docs/daily-teaching-system/PLAN.md` and the last lines of the memory f
 - LIVE: Parts 0 to 7, 11, 12.2 (batches A to Y), 8.1 readers. English units 54 with 330 lessons; German and Swedish
   units for mathematics; unit checks en 42 / de 27 / sv 35; sub plans en and de.
 - Part 9 (class results) is BUILT and switched OFF. Only the owner switches it on (`CLASS_RESULTS_ENABLED=1`).
-- 12.3 English literacy: informational units live for K (4 lessons), Grade 1 (4), Grade 2 (5). Grade 3 batch G is live
-  (G3-494 to G3-497); the Grade 3 unit waits for batch H (RI.3.5, RI.3.7, RI.3.3).
+- 12.3 English literacy: **every buildable row of the year design is placed** (batch PP, 2026-11-17). English has 73
+  units, 415 lessons and 8 plans, all live (K, Grades 1 to 3, mathematics and literacy). Grade 3 batch H (G3-498 to
+  G3-501) and the unit Reading to Learn: Informational Texts were built and placed on 2026-11-16, RI.3.7 (G3-510/511)
+  joined on 2026-11-17; the line "the Grade 3 unit waits for batch H" that stood here was a stale note of 2026-11-16
+  (corrected 2026-11-19 after a measurement).
 - The other eight languages are built noindex in the order fr, no, nl, fi, da, it, es-MX, pt-BR and are opened to
   Google only after the Search Console read of 2026-12-09.
 - Activities (Part 10) are last.
@@ -61,10 +64,12 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 
 ## 5. NEXT: the programme in the ruled order (approved plan, Stage B onward)
 
-1. **English literacy year (12.3) with readers to 60 (8.2).** Next concrete piece: Grade 3 batch H (RI.3.5, RI.3.7,
-   RI.3.3), then the Grade 3 informational unit (a unit needs 4 lessons, a plan 3 units); the Grade 2 row-band pass; unit
-   checks for the new units; the split of "Choosing the Right Word"; story banks; phonics, grammar and writing units
-   (about 130 lessons open); 48 more readers.
+1. **English literacy year (12.3) with readers to 60 (8.2).** Measured 2026-11-19 (plan
+   `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`): the units are complete; what is open is (a) the design
+   order: the Grade 1 reorder is applied, the K story-order move and the "Choosing the Right Word" split are decided
+   NOT to be made, and five rows wait (PLAN.md §11, ruling of 2026-11-19); (b) **unit checks for the 31 English units
+   that have none** (4 mathematics, 27 literacy) and the 4 pilot checks, in four waves (mathematics, literacy items,
+   reading, writing with rubrics); (c) 48 more readers with hubs and a screen version.
 2. **English checks and sub days for the whole year** (item bank rest, year checks, placement checks, a sub day for
    every week the units cover, the coverage gate).
 3. **Science, social studies, health, preschool and theme units in English.**
@@ -87,8 +92,8 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
   messages through `git commit -F <file>`; end them with the Co-Authored-By line the session names for its own model.
 - Bash heredocs mangle quotes and backslashes (it cost a broken script again on 2026-11-18): write scripts with the
   Write tool.
-- Builds and gates: `export WSG_SKIP_TYPES=$(cat C:/Users/rkgen/lcs-handoff-1118/skip-types.txt)` (copy that file
-  somewhere durable before deleting the folder); a full `build-bundles.js` run takes about 2 h 10 min and the full gate
+- Builds and gates: `export WSG_SKIP_TYPES=$(cat C:/Users/rkgen/lcs-skip-types.txt)` (durable copy of the handoff
+  folder's list, 2026-11-19; none of its 16 types has a file in the tree any more, so it guards nothing today); a full `build-bundles.js` run takes about 2 h 10 min and the full gate
   suite about 7 h; never run one gate twice in parallel, never a family gate beside the maker gates; no source edits
   under `scripts/worksheet-gen` or `scripts/makers` while a build or the suite runs; `run-all-gates.sh` deletes the logs
   in its log folder at its start (`GATE_LOGS=<other folder>` for a partial run); a filtered run fails `unique-solution`

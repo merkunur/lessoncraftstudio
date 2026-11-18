@@ -7357,16 +7357,16 @@
     {
      "part": 1,
      "lesson": 2,
-     "title": "Word families",
-     "type": "G1-330",
-     "tasks": 3
-    },
-    {
-     "part": 2,
-     "lesson": 3,
      "title": "Sound boxes",
      "type": "G1-312",
      "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Word families",
+     "type": "G1-330",
+     "tasks": 3
     },
     {
      "part": 3,
@@ -7378,20 +7378,20 @@
    ],
    "notCovered": [
     1,
-    4
+    3
    ],
    "forms": {
     "A": {
      "pages": 2,
      "cards": [
       [
+       "75fffbc3a846d588",
+       "91c407a8d58369de"
+      ],
+      [
        "aa3f679ebde18ade",
        "d00770fd734a9b7d",
        "8a1ef80a5a4b87a0"
-      ],
-      [
-       "75fffbc3a846d588",
-       "91c407a8d58369de"
       ],
       [
        "0136dbb2f8181471",
@@ -7400,13 +7400,13 @@
      ],
      "pos": [
       [
+       null,
+       null
+      ],
+      [
        2,
        1,
        0
-      ],
-      [
-       null,
-       null
       ],
       [
        null,
@@ -7415,13 +7415,13 @@
      ],
      "kinds": [
       [
+       "write 1 ·digraph",
+       "write 1 ·plain"
+      ],
+      [
        "choose 1",
        "choose 1",
        "choose 1"
-      ],
-      [
-       "write 1 ·digraph",
-       "write 1 ·plain"
       ],
       [
        "write 1",
@@ -7431,10 +7431,10 @@
      "sizes": [
       [
        0,
-       0,
        0
       ],
       [
+       0,
        0,
        0
       ],
@@ -7448,13 +7448,13 @@
      "pages": 2,
      "cards": [
       [
+       "46bd81dea40d2e51",
+       "c50bd3bd8819653b"
+      ],
+      [
        "397aa1bb5cb513b1",
        "3a1da36a095d0aec",
        "e3461d97dc9bf9cb"
-      ],
-      [
-       "46bd81dea40d2e51",
-       "c50bd3bd8819653b"
       ],
       [
        "a531160d5ebb35c5",
@@ -7463,13 +7463,13 @@
      ],
      "pos": [
       [
+       null,
+       null
+      ],
+      [
        0,
        2,
        0
-      ],
-      [
-       null,
-       null
       ],
       [
        null,
@@ -7478,13 +7478,13 @@
      ],
      "kinds": [
       [
+       "write 1 ·digraph",
+       "write 1 ·plain"
+      ],
+      [
        "choose 1",
        "choose 1",
        "choose 1"
-      ],
-      [
-       "write 1 ·digraph",
-       "write 1 ·plain"
       ],
       [
        "write 1",
@@ -7494,10 +7494,10 @@
      "sizes": [
       [
        0,
-       0,
        0
       ],
       [
+       0,
        0,
        0
       ],

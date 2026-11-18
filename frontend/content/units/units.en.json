@@ -13746,65 +13746,6 @@
     },
     {
      "n": 2,
-     "point": "1:word-families-syllable-reading",
-     "title": "Word families",
-     "objective": "Children read the words of a word family, find the one that names a picture, and write its beginning before the ending.",
-     "standards": [
-      {
-       "rel": "teaches",
-       "framework": "Common Core",
-       "code": "RF.1.3.b",
-       "title": null
-      }
-     ],
-     "paper": [
-      {
-       "type": "G1-330",
-       "title": "Word Families: Read and Circle",
-       "core": "syllable-reading-g1330",
-       "easy": "syllable-reading-easy-g1330-5",
-       "hard": "syllable-reading-hard-g1330-10-ock",
-       "landing": "word-families-read-and-circle"
-      },
-      {
-       "type": "G1-306",
-       "title": "Word Families: Read and Write",
-       "core": "syllable-reading-g1306",
-       "easy": "syllable-reading-easy-g1306-8-an",
-       "hard": "syllable-reading-hard-g1306-11-at",
-       "landing": "word-families-read-and-write"
-      }
-     ],
-     "tool": {
-      "key": "blending-board",
-      "slug": "blending-board",
-      "name": "Blending Board"
-     },
-     "screen": {
-      "kind": "activity",
-      "id": "choice-board.read-cvc-word.rf-k-3",
-      "slug": "read-the-word-tap-the-picture",
-      "title": "Read the Word, Tap the Picture — Decoding CVC Words"
-     },
-     "exit": {
-      "slug": "syllable-reading-g1330-2-at",
-      "title": "Word Families: Read and Circle"
-     },
-     "maker": {
-      "id": "syllables",
-      "name": "Syllables",
-      "slug": "syllable-worksheet-maker",
-      "template": "G1-330"
-     },
-     "note": {
-      "mistake": "Children read the first word of a family and say the rest by rhyming, without looking at the first letter. Or they sound out every word from scratch and never use the ending they just read.",
-      "words": "Say: \"These words all end the same: -at. Only the beginning changes. c-at, h-at, m-at.\" Cover the ending and ask: \"What does this one start with?\" Then: \"If you can read 'cat,' you can read 'flat.'\"",
-      "watch": "Point to words out of order and listen. A child who reads them in a row and stumbles when you skip around was reciting; mix the order and add one word from another family."
-     },
-     "days": 3
-    },
-    {
-     "n": 3,
      "point": "1:phoneme-boxes",
      "title": "Sound boxes",
      "objective": "Children say a word slowly, write one sound in each box, and blend the sounds in the boxes back into a word.",
@@ -13868,7 +13809,7 @@
      "days": 3
     },
     {
-     "n": 4,
+     "n": 3,
      "point": "1:first-middle-last-sound",
      "title": "First, middle, or last sound?",
      "objective": "Children isolate and say the first, middle, and last sound of a spoken one-syllable word and mark where they hear a given sound.",
@@ -13906,6 +13847,65 @@
       "watch": "In a word with four sounds (step) only the first and last sounds are asked, never the first of dr or tr (many children hear /j/ or /ch/). Some children say the vowel of pen, dog, bag, or leg another way, so these are never asked for their middle sound. If a child colors the wrong box, say the word slowly and touch one box a sound."
      },
      "days": 2
+    },
+    {
+     "n": 4,
+     "point": "1:word-families-syllable-reading",
+     "title": "Word families",
+     "objective": "Children read the words of a word family, find the one that names a picture, and write its beginning before the ending.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.1.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-330",
+       "title": "Word Families: Read and Circle",
+       "core": "syllable-reading-g1330",
+       "easy": "syllable-reading-easy-g1330-5",
+       "hard": "syllable-reading-hard-g1330-10-ock",
+       "landing": "word-families-read-and-circle"
+      },
+      {
+       "type": "G1-306",
+       "title": "Word Families: Read and Write",
+       "core": "syllable-reading-g1306",
+       "easy": "syllable-reading-easy-g1306-8-an",
+       "hard": "syllable-reading-hard-g1306-11-at",
+       "landing": "word-families-read-and-write"
+      }
+     ],
+     "tool": {
+      "key": "blending-board",
+      "slug": "blending-board",
+      "name": "Blending Board"
+     },
+     "screen": {
+      "kind": "activity",
+      "id": "choice-board.read-cvc-word.rf-k-3",
+      "slug": "read-the-word-tap-the-picture",
+      "title": "Read the Word, Tap the Picture — Decoding CVC Words"
+     },
+     "exit": {
+      "slug": "syllable-reading-g1330-2-at",
+      "title": "Word Families: Read and Circle"
+     },
+     "maker": {
+      "id": "syllables",
+      "name": "Syllables",
+      "slug": "syllable-worksheet-maker",
+      "template": "G1-330"
+     },
+     "note": {
+      "mistake": "Children read the first word of a family and say the rest by rhyming, without looking at the first letter. Or they sound out every word from scratch and never use the ending they just read.",
+      "words": "Say: \"These words all end the same: -at. Only the beginning changes. c-at, h-at, m-at.\" Cover the ending and ask: \"What does this one start with?\" Then: \"If you can read 'cat,' you can read 'flat.'\"",
+      "watch": "Point to words out of order and listen. A child who reads them in a row and stumbles when you skip around was reciting; mix the order and add one word from another family."
+     },
+     "days": 3
     },
     {
      "n": 5,
@@ -21550,9 +21550,9 @@
      "to": 3,
      "lessons": [
       "Rhyming words",
-      "Word families",
       "Sound boxes",
       "First, middle, or last sound?",
+      "Word families",
       "Spell the picture word"
      ],
      "standards": [
